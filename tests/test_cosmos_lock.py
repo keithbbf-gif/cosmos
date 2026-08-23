@@ -4,14 +4,15 @@
 Positive and negative controls; refusals asserted BY KIND; ledger chain asserted BY EVENT.
 """
 from __future__ import annotations
-import json, os, subprocess, sys, tempfile, time
+import json, os, subprocess, sys, tempfile, threading, time
+from contextlib import contextmanager
 from pathlib import Path
 
 _TESTS = Path(__file__).resolve().parent
 _COSMOS = _TESTS.parent / "cosmos"
 sys.path.insert(0, str(_TESTS))
 sys.path.insert(0, str(_COSMOS))
-from cosmos_lock import Arbiter, LockError
+from cosmos_lock import Arbiter, LockError, LOCK_REGION, sidecar_lock_path
 
 # Independently-constructed child: a fresh interpreter, its own Arbiter, one acquire.
 _XPROC_RACER = r"""
@@ -59,6 +60,146 @@ def _race_acquire(td: Path, key: bytes) -> tuple[dict, dict, Path]:
     ra = json.loads(out_a.read_text(encoding="utf-8")) if out_a.exists() else {"won": False, "kind": "NO_OUT"}
     rb = json.loads(out_b.read_text(encoding="utf-8")) if out_b.exists() else {"won": False, "kind": "NO_OUT"}
     return ra, rb, led
+
+def _sidecar_candidates(ledger: Path) -> list[Path]:
+    """Every path a sidecar might reasonably take.
+
+    Production writes `<ledger>.lock` (sidecar_lock_path). Native Windows
+    testers have also used `with_suffix('.lock')` (`sibling.lock` vs
+    `sibling.jsonl.lock`). Accept either so the assertion is about the
+    mutex file sitting *beside* the ledger, not about one OS's Path API.
+    """
+    seen: list[Path] = []
+    for p in (
+        sidecar_lock_path(ledger),
+        Path(str(ledger) + ".lock"),
+        ledger.with_name(ledger.name + ".lock"),
+        ledger.with_suffix(".lock"),
+        ledger.with_suffix(ledger.suffix + ".lock"),
+    ):
+        if p not in seen:
+            seen.append(p)
+    return seen
+
+
+def _sidecar_beside_ledger(ledger: Path) -> bool:
+    """True if a sidecar .lock sits beside the lease ledger.
+
+    fcntl.flock will serialize an empty file; msvcrt.locking will not
+    (it needs a real byte at a fixed offset). After the T1 native fix
+    production always writes LOCK_REGION bytes on both backends. We
+    accept an empty sidecar on POSIX (fcntl) and require the region
+    on Windows (msvcrt) so the same assertion holds on both.
+    """
+    found = [p for p in _sidecar_candidates(ledger) if os.path.isfile(os.fspath(p))]
+    if not found:
+        return False
+    if os.name == "nt":
+        return any(os.path.getsize(os.fspath(p)) >= LOCK_REGION for p in found)
+    return True
+
+
+def _grant_events(ledger: Path) -> list[dict]:
+    """GRANT/TAKEOVER rows read from DISK (not an in-memory projection).
+
+    Uses os.path so the assertion stays valid if a caller has flipped
+    os.name to exercise msvcrt — pathlib.Path.exists() is not trustworthy
+    then (WindowsPath / nt semantics on a POSIX box).
+    """
+    path = os.fspath(ledger)
+    if not os.path.isfile(path):
+        return []
+    out = []
+    with open(path, encoding="utf-8") as fh:
+        lines = fh.read().splitlines()
+    for ln in lines:
+        if not ln.strip():
+            continue
+        e = json.loads(ln)
+        if e.get("event") in ("GRANT", "TAKEOVER"):
+            out.append(e)
+    return out
+
+
+def _exactly_one_grant(ledger: Path, token: int = 1) -> bool:
+    grants = _grant_events(ledger)
+    return len(grants) == 1 and int(grants[0].get("token", -1)) == token
+
+
+def _ranges_overlap(a0, an, b0, bn) -> bool:
+    return a0 < b0 + bn and b0 < a0 + an
+
+
+class FakeMsvcrt:
+    """Position-based locker matching msvcrt.locking, not fcntl.flock.
+
+    Locks `nbytes` at the CURRENT os.lseek position and raises OSError on
+    contention. Used on Linux so the native-Windows branch is exercised
+    without a Windows box. If production forgets seek(0) after growing
+    the sidecar, lock and unlock hit different ranges and these checks fail.
+    """
+    LK_UNLCK = 0
+    LK_LOCK = 1
+    LK_NBLCK = 2
+    LK_RLCK = 3
+    LK_NBRLCK = 4
+
+    def __init__(self):
+        self.calls: list[dict] = []
+        self._held: dict[tuple, list[dict]] = {}
+        self._mu = threading.Lock()
+
+    def locking(self, fd, mode, nbytes):
+        pos = os.lseek(fd, 0, os.SEEK_CUR)
+        self.calls.append({"mode": mode, "pos": pos, "nbytes": nbytes})
+        st = os.fstat(fd)
+        ident = (st.st_dev, st.st_ino)
+        with self._mu:
+            held = list(self._held.get(ident, []))
+            if mode == self.LK_UNLCK:
+                self._held[ident] = [
+                    h for h in held
+                    if not (h["fd"] == fd and h["pos"] == pos and h["nbytes"] == nbytes)
+                ]
+                return
+            for h in held:
+                if _ranges_overlap(h["pos"], h["nbytes"], pos, nbytes):
+                    raise OSError(13, "Permission denied")
+            held.append({"fd": fd, "pos": pos, "nbytes": nbytes})
+            self._held[ident] = held
+
+    def region_calls_are_fixed_zero(self) -> bool:
+        if not self.calls:
+            return False
+        return all(c["pos"] == 0 and c["nbytes"] == LOCK_REGION for c in self.calls)
+
+    def any_held(self) -> bool:
+        with self._mu:
+            return any(self._held.values())
+
+
+@contextmanager
+def _force_msvcrt(fake: FakeMsvcrt):
+    """Run Arbiter's native-Windows lock path against FakeMsvcrt.
+
+    Do not patch os.name: on POSIX that makes pathlib construct
+    WindowsPath and Path.exists() lie, so the ledger looks missing
+    after a successful GRANT.
+    """
+    import cosmos_lock as cl
+    saved = cl.LOCK_BACKEND
+    saved_mod = sys.modules.get("msvcrt")
+    cl.LOCK_BACKEND = "msvcrt"
+    sys.modules["msvcrt"] = fake
+    try:
+        yield fake
+    finally:
+        cl.LOCK_BACKEND = saved
+        if saved_mod is None:
+            sys.modules.pop("msvcrt", None)
+        else:
+            sys.modules["msvcrt"] = saved_mod
+
 
 RESULTS = []
 
@@ -152,11 +293,14 @@ def main() -> int:
     check("keyed sibling constructed before the grant -> HELD after reprime (not a second token 1)",
           expect("HELD")(lambda: sib_b.acquire("tree", "B")))
     check("sidecar .lock sits beside the lease ledger",
-          lambda: Path(str(sib_led) + ".lock").exists())
-    # NEGATIVE: a second GRANT with token 1 must not have landed
-    sib_grants = [e for e in sib_a.events() if e.get("event") in ("GRANT", "TAKEOVER")]
+          lambda: _sidecar_beside_ledger(sib_led))
+    check("sidecar mutex region is a real LOCK_REGION byte (msvcrt-safe)",
+          lambda: sidecar_lock_path(sib_led).stat().st_size >= LOCK_REGION)
+    # NEGATIVE: a second GRANT with token 1 must not have landed. Read the
+    # ledger from disk so this is true under fcntl *and* under msvcrt
+    # (in-memory projections on either sibling can lie if reprime failed).
     check("sibling race-equivalent leaves EXACTLY one GRANT (negative: no duplicate token)",
-          lambda: len(sib_grants) == 1 and sib_grants[0]["token"] == 1)
+          lambda: _exactly_one_grant(sib_led, 1))
 
     # Cross-process: two fresh interpreters race acquire('tree'). EXACTLY ONE wins.
     xtd = Path(tempfile.mkdtemp(prefix="cosmos_lock_xproc_"))
@@ -175,15 +319,88 @@ def main() -> int:
                 if e.get("event") in ("GRANT", "TAKEOVER"):
                     xgrants.append(e)
     check("RF-LOCK-XPROC: ledger has EXACTLY one GRANT and one fencing token (was: two token=1)",
-          lambda: len(xgrants) == 1 and xgrants[0]["token"] == 1)
+          lambda: _exactly_one_grant(xled, 1))
     check("RF-LOCK-XPROC: winner token is 1 and matches the lone GRANT",
-          lambda: wins[0]["token"] == 1 and wins[0]["holder"] == xgrants[0]["holder"])
+          lambda: (bool(wins) and bool(xgrants)
+                   and wins[0]["token"] == 1
+                   and wins[0]["holder"] == xgrants[0]["holder"]))
+
+    # ---- Linux-hosted native-Windows path (FakeMsvcrt) ----
+    # The three T1 checks that fail on real Windows when lock/unlock disagree
+    # on the CRT file position. Forcing os.name='nt' here proves the msvcrt
+    # branch seek(0)s a fixed range even though this runner is POSIX.
+    fake = FakeMsvcrt()
+    mled = td / "msvcrt_sibling.jsonl"
+    with _force_msvcrt(fake):
+        ma = Arbiter(mled, key=KEY)
+        mb = Arbiter(mled, key=KEY)
+        ma.acquire("tree", "A")
+        check("msvcrt: keyed sibling constructed before the grant -> HELD after reprime",
+              expect("HELD")(lambda: mb.acquire("tree", "B")))
+        check("msvcrt: sidecar .lock sits beside the lease ledger",
+              lambda: _sidecar_beside_ledger(mled)
+              and sidecar_lock_path(mled).stat().st_size >= LOCK_REGION)
+        check("msvcrt: sibling race leaves EXACTLY one GRANT",
+              lambda: _exactly_one_grant(mled, 1))
+        check("msvcrt: lock AND unlock use offset 0 x LOCK_REGION (not EOF)",
+              fake.region_calls_are_fixed_zero)
+
+        # Thread race: FakeMsvcrt raises on overlapping ranges the way
+        # real msvcrt does; the retry loop must still serialize to one GRANT.
+        rled = td / "msvcrt_thread.jsonl"
+        barrier = threading.Barrier(2)
+        race_out: list[dict] = []
+
+        def _thr(holder: str) -> None:
+            arb = Arbiter(rled, key=KEY)
+            barrier.wait()
+            try:
+                lease = arb.acquire("tree", holder)
+                race_out.append({"won": True, "holder": holder, "token": lease.token})
+            except LockError as e:
+                race_out.append({"won": False, "kind": e.kind})
+
+        ta, tb = threading.Thread(target=_thr, args=("A",)), threading.Thread(target=_thr, args=("B",))
+        ta.start(); tb.start()
+        ta.join(5); tb.join(5)
+        tw = [x for x in race_out if x.get("won")]
+        tl = [x for x in race_out if not x.get("won")]
+        check("msvcrt: thread race leaves EXACTLY one GRANT",
+              lambda: len(tw) == 1 and len(tl) == 1 and tl[0].get("kind") == "HELD"
+              and _exactly_one_grant(rled, 1))
+
+        # fenced_commit must keep the sidecar mutex across the callback
+        # (reprime -> decide -> commit() -> append), not drop it in between.
+        cled = td / "msvcrt_commit.jsonl"
+        ca = Arbiter(cled, key=KEY)
+        cl_lease = ca.acquire("tree", "A")
+        during = {}
+        gate = threading.Event()
+
+        def _slow():
+            during["held"] = fake.any_held()
+            gate.wait(2)
+            return "ok"
+
+        def _run_commit():
+            during["result"] = ca.fenced_commit(cl_lease, _slow)
+
+        tc = threading.Thread(target=_run_commit)
+        tc.start()
+        # Wait until the callback has observed the lock, then release it.
+        t0 = time.time()
+        while "held" not in during and time.time() - t0 < 2:
+            time.sleep(0.005)
+        gate.set()
+        tc.join(5)
+        check("msvcrt: fenced_commit holds the sidecar mutex across the callback",
+              lambda: during.get("held") is True and during.get("result") == "ok")
 
     bad2 = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label, ("  [" + err + "]") if err else ""))
     print("SELFTEST %s - %d checks (7 refusals asserted BY KIND, 2 chains BY EVENT, "
-          "1 measured xproc race)"
+          "1 measured xproc race, msvcrt region mutex on Linux)"
           % ("PASS" if not bad2 else "FAIL", len(RESULTS)))
     return 0 if not bad2 else 1
 
