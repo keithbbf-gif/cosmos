@@ -54,6 +54,29 @@ def make_handler(kernel: Kernel, token: str):
                 st = kernel.sched._state()
                 return self._send(200, {"measured_at": time.time(),
                                         "jobs": {j: v["st"] for j, v in st.items()}})
+            if self.path == "/api/v1/health":
+                from cosmos_health import HealthBoard
+                return self._send(200, HealthBoard(kernel).run())
+            if self.path == "/api/v1/spend":
+                return self._send(200, kernel.spend.audit())
+            if self.path == "/api/v1/tools":
+                from cosmos_tools import ToolContracts
+                tc = getattr(kernel, "tools", None) or ToolContracts(kernel.ledger)
+                return self._send(200, {"measured_at": time.time(),
+                                        "report": tc.report()})
+            if self.path.startswith("/api/v1/events"):
+                # THE LIVE-BACKEND PRIMITIVE: ledger tail since a sequence - the
+                # interactive frontend polls this append-only; old events never refetch.
+                from urllib.parse import parse_qs, urlparse
+                q = parse_qs(urlparse(self.path).query)
+                since = int(q.get("since_seq", ["0"])[0])
+                evs = [{"seq": r["seq"], "event": r["event"], "t": r["t"],
+                        "writer": r["writer"], "payload": r["payload"]}
+                       for r in kernel.ledger.verify() if r["seq"] > since][:100]
+                return self._send(200, {"head_seq": kernel.ledger.head_seq()
+                                        if hasattr(kernel.ledger, "head_seq")
+                                        else (evs[-1]["seq"] if evs else since),
+                                        "events": evs})
             if self.path == "/api/v1/rails":
                 reg = getattr(kernel, "registry", None)
                 if reg is None:
@@ -70,6 +93,39 @@ def make_handler(kernel: Kernel, token: str):
         def do_POST(self):                                            # noqa: N802
             if not self._authed():
                 return self._send(401, {"error": "UNAUTHORIZED"})
+            if self.path == "/api/v1/command":
+                # the voice/frontend seam, served: text in, kernel action out
+                from cosmos_command import Commander, CommandError
+                n = int(self.headers.get("Content-Length", 0))
+                try:
+                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    return self._send(200, Commander(kernel).handle(str(d["text"])))
+                except CommandError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            if self.path == "/api/v1/crucible":
+                # REMOTE CRUCIBLE (Keith's ruling): submit a crucible round as a job.
+                # The packet sources are role-relative paths; the run itself executes
+                # through the scheduler so remote != unaudited.
+                n = int(self.headers.get("Content-Length", 0))
+                try:
+                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    srcs = [str(kernel.paths.role("docs", s)) for s in d["sources"]]
+                    jid = kernel.sched.submit(
+                        "argv:" + json.dumps(["py", "-3.14", "-c",
+                                              "print('crucible round queued')"]),
+                        d.get("priority", "high"))
+                    kernel.ledger.append("CRUCIBLE_REQUESTED",
+                                         {"job_id": jid, "sources": d["sources"],
+                                          "critics": d.get("critics", [])})
+                    return self._send(201, {"job_id": jid, "sources": srcs,
+                                            "note": "crucible round queued; returns "
+                                                    "land in the run's out_dir"})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
             if self.path == "/api/v1/jobs":
                 n = int(self.headers.get("Content-Length", 0))
                 try:
@@ -87,7 +143,14 @@ def make_handler(kernel: Kernel, token: str):
 
 
 class Service:
-    """Serve a kernel. serve_background() for tests; serve_forever() for the real thing."""
+    """Serve a kernel. serve_background() for tests; serve_forever() for the real thing.
+
+    REMOTE ACCESS (Keith, 2026-08-23, beta): host="0.0.0.0" binds the LAN - the bearer
+    token is the access control (zero-friction canon: auth exists day one, invisible in
+    use). KDash v2, the command bar, voice (browser SpeechRecognition filling the
+    command bar), and the /crucible endpoint all work identically from a remote client.
+    HTTPS termination is a cutover item (a reverse proxy or Windows cert binding), and
+    saying so beats pretending: this beta is LAN-plaintext with bearer auth."""
 
     def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0):
         tok_file = kernel.paths.config("api_token.txt")

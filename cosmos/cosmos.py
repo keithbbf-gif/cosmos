@@ -38,6 +38,9 @@ def main() -> int:
     p.add_argument("--backup", required=True); p.add_argument("--scratch", required=True)
     p = sub.add_parser("serve"); p.add_argument("--root", required=True)
     p.add_argument("--port", type=int, default=8770)
+    p.add_argument("--remote", action="store_true",
+                   help="bind 0.0.0.0 for LAN/remote access (beta; bearer-auth; "
+                        "HTTPS termination is a cutover item)")
 
     a = ap.parse_args()
 
@@ -78,8 +81,11 @@ def main() -> int:
         return 0
     if a.cmd == "serve":
         from cosmos_service import Service
-        svc = Service(k, port=a.port)
-        print(f"COSMOS API serving on 127.0.0.1:{svc.port} (bearer token in config/api_token.txt)")
+        host = "0.0.0.0" if a.remote else "127.0.0.1"
+        svc = Service(k, host=host, port=a.port)
+        print(f"COSMOS API serving on {host}:{svc.port} "
+              f"({'REMOTE beta - LAN clients use this machine\'s IP; ' if a.remote else ''}"
+              f"bearer token in config/api_token.txt; KDash: open kdash/index.html)")
         try:
             svc.httpd.serve_forever()
         except KeyboardInterrupt:

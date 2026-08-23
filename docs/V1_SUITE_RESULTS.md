@@ -254,3 +254,33 @@ OK    never-probed link is UNKNOWN (None), not verified
   OK    every response carries served_at (panel age exists)
 SELFTEST PASS - 18 checks (v1 integration: registry, backup+rehearse, live API)
 ```
+
+## test_wave3.py (rc=0)
+```
+cker that found something is not broken)
+  OK    M5: BROKE from rc=7
+  OK    M5: LOG-FIRST - RUNNING + argv precede the output in the log
+  OK    M5: attempt-private artifacts (log + result.json per attempt)
+  OK    M5: `_`-prefixed script REFUSED as a job, recorded not silent
+  OK    B6: signed arbiter grants and verifies its own history
+  OK    B6: FORGED well-formed GRANT REFUSED on replay (was: loaded as live lease)
+  OK    M4: commit with MATCHING input hashes lands
+  OK    M4: commit with CHANGED input REFUSED (decision inputs are part of the fence)
+  OK    M4: lease expiring DURING the callback -> COMMIT_UNFENCED incident, raised
+  OK    M4: the unfenced commit is a LEDGERED incident
+  OK    crucible packet completeness-asserted on disk read-back
+  OK    crucible refuses an empty source
+  OK    crucible refuses zero critics
+  OK    crucible: returns LAND ON DISK before reasoning
+  OK    crucible: a dead critic is a RECORDED FINDING (July forge lesson)
+  OK    crucible merge: UNANIMOUS vs SINGLETON separated, disagreement visible
+  OK    GET /health serves the board with its planted-red control
+  OK    GET /spend serves the both-direction audit
+  OK    GET /tools serves the contracts report
+  OK    GET /events tails the ledger with a cursor
+  OK    events cursor: nothing refetched past the head
+  OK    POST /command: the voice/frontend seam answers over the wire
+  OK    POST /command: destructive verb REFUSED over the wire
+  OK    POST /crucible: remote crucible queues a job and ledgers the request
+SELFTEST PASS - 31 checks (B3/B6/M4/M5 closed; crucible + remote live)
+```

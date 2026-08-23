@@ -34,7 +34,8 @@ from typing import Callable, Optional
 
 
 class LockError(RuntimeError):
-    """Typed refusal. kind in {HELD, STALE_TOKEN, NO_LEASE, TORN_LEDGER, UNKNOWN_RESOURCE}."""
+    """Typed refusal. kind in {HELD, STALE_TOKEN, NO_LEASE, TORN_LEDGER, FORGED_EVENT,
+    UNKNOWN_RESOURCE}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -52,22 +53,38 @@ class Lease:
 
 class Arbiter:
     """The single authority. In 6b this lives inside COSMOS Core; the protocol is what
-    the spike proves. `clock` is injectable so expiry is testable without sleeping."""
+    the spike proves. `clock` is injectable so expiry is testable without sleeping.
+
+    CRITIC B6 FIX: lease events are now HMAC-SIGNED with the install key and replay
+    VERIFIES the signature - the measured forged-GRANT (a well-formed lie loading as a
+    live lease) is refused as FORGED_EVENT. An unkeyed arbiter still works for
+    spike-local use but every event is marked unsigned=true, and a signed ledger
+    REFUSES an unsigned event."""
 
     def __init__(self, ledger_path: str | os.PathLike,
                  clock: Callable[[], float] = time.time,
-                 default_ttl: float = 90 * 60):
+                 default_ttl: float = 90 * 60,
+                 key: bytes | None = None):
         self._ledger = Path(ledger_path)
         self._clock = clock
         self._ttl = default_ttl
+        self._key = key
         self._leases: dict[str, Lease] = {}
         self._max_token = 0
         if self._ledger.exists():
             self._replay()
 
     # ---------------- ledger ----------------
+    def _sig(self, event: dict) -> str:
+        import hashlib, hmac as _h
+        body = json.dumps({k: v for k, v in event.items() if k != "sig"},
+                          sort_keys=True, separators=(",", ":")).encode("utf-8")
+        return _h.new(self._key, body, hashlib.sha256).hexdigest()[:32]
+
     def _append(self, event: dict) -> None:
         event = {"t": self._clock(), **event}
+        if self._key:
+            event["sig"] = self._sig(event)
         with open(self._ledger, "a", encoding="utf-8", newline="") as fh:
             fh.write(json.dumps(event) + "\n")
             fh.flush()
@@ -90,6 +107,15 @@ class Arbiter:
                     "TORN_LEDGER",
                     f"line {i} of {self._ledger} does not parse - REFUSING to load; a "
                     f"torn ledger must never read as free") from exc
+            if self._key is not None:
+                # CRITIC B6 (measured: forged GRANT loaded as a live lease): a keyed
+                # arbiter VERIFIES every event. Unsigned or wrong-sig = FORGED_EVENT.
+                sig = e.get("sig", "")
+                if not sig or sig != self._sig({k2: v for k2, v in e.items()
+                                               if k2 != "sig"}):
+                    raise LockError("FORGED_EVENT",
+                                    f"line {i}: event is unsigned or mis-signed - a "
+                                    f"well-formed lie is still a lie")
             k = e.get("event")
             self._max_token = max(self._max_token, int(e.get("token", 0)))
             if k in ("GRANT", "TAKEOVER"):
@@ -166,24 +192,62 @@ class Arbiter:
                       "holder": cur.holder, "token": cur.token})
         del self._leases[lease.resource]
 
-    def fenced_commit(self, lease: Lease, commit: Callable[[], object]) -> object:
-        """Run `commit` ONLY under a currently-valid token. The check-run-recheck shape:
-        validity is asserted immediately before AND the commit is ledgered with the token,
-        so a reader can always tell WHICH token's work landed."""
+    def _assert_live(self, lease: Lease, op: str) -> Lease:
         self._expire_if_due(lease.resource)
         cur = self._leases.get(lease.resource)
         if cur is None:
-            self._append({"event": "REFUSE", "op": "commit", "resource": lease.resource,
+            self._append({"event": "REFUSE", "op": op, "resource": lease.resource,
                           "holder": lease.holder, "token": lease.token,
                           "detail": "no live lease (expired or released)"})
-            raise LockError("NO_LEASE", f"commit refused: no live lease on {lease.resource}")
+            raise LockError("NO_LEASE", f"{op} refused: no live lease on {lease.resource}")
         if cur.token != lease.token:
-            self._append({"event": "REFUSE", "op": "commit", "resource": lease.resource,
+            self._append({"event": "REFUSE", "op": op, "resource": lease.resource,
                           "holder": lease.holder, "token": lease.token,
                           "detail": f"stale token (current is {cur.token})"})
             raise LockError("STALE_TOKEN",
-                            f"commit refused: token {lease.token} superseded by {cur.token}")
+                            f"{op} refused: token {lease.token} superseded by {cur.token}")
+        return cur
+
+    def fenced_commit(self, lease: Lease, commit: Callable[[], object],
+                      expected_inputs: dict[str, str] | None = None) -> object:
+        """CRITIC M4 FIX: the fenced gateway now takes EXPECTED INPUT HASHES (path ->
+        sha256hex) verified BEFORE the callback, and RE-CHECKS the lease AFTER the
+        callback - the measured hole was a commit whose lease expired inside the
+        callback still landing as COMMIT. Now that lands as COMMIT_UNFENCED, a recorded
+        incident: the write happened (we cannot unwrite it) but the record says the
+        fence was down when it finished, which is the difference between an audit that
+        lies and one that doesn't."""
+        import hashlib as _hl
+        self._assert_live(lease, "commit")
+        if expected_inputs:
+            for pth, want in expected_inputs.items():
+                try:
+                    got = _hl.sha256(Path(pth).read_bytes()).hexdigest()
+                except OSError as e:
+                    self._append({"event": "REFUSE", "op": "commit",
+                                  "resource": lease.resource, "token": lease.token,
+                                  "detail": f"input unreadable: {pth}: {e}"})
+                    raise LockError("NO_LEASE", f"input unreadable: {pth}") from e
+                if got != want:
+                    self._append({"event": "REFUSE", "op": "commit",
+                                  "resource": lease.resource, "token": lease.token,
+                                  "detail": f"input hash mismatch: {pth}"})
+                    raise LockError("STALE_TOKEN",
+                                    f"commit refused: input {pth} changed since the "
+                                    f"decision (got {got[:12]}, expected {want[:12]})")
         result = commit()
+        # POST-CALLBACK RECHECK (M4): did the fence hold while we worked?
+        self._expire_if_due(lease.resource)
+        cur = self._leases.get(lease.resource)
+        if cur is None or cur.token != lease.token:
+            self._append({"event": "COMMIT_UNFENCED", "resource": lease.resource,
+                          "holder": lease.holder, "token": lease.token,
+                          "detail": "lease expired or was superseded DURING the commit "
+                                    "callback - the write landed with the fence down; "
+                                    "recorded as an incident, never as a clean COMMIT"})
+            raise LockError("STALE_TOKEN",
+                            f"commit landed UNFENCED on {lease.resource} - incident "
+                            f"recorded; treat the artifact as suspect")
         self._append({"event": "COMMIT", "resource": cur.resource, "holder": cur.holder,
                       "token": cur.token})
         return result
