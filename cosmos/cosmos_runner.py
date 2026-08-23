@@ -27,11 +27,77 @@ from cosmos_platform import run_tree_killed, makedirs
 from cosmos_sched import Scheduler
 
 
+# Bare interpreter names allowed as argv[0]. Anything else is a PATH and must sit
+# inside tools_root - the same boundary py: jobs already honor. A name that is not
+# on this list and not under the tools root is the K4 argv: bypass, refused.
+_INTERP_WHITELIST = {"py", "python", "python3"}
+
+
 class Runner:
     def __init__(self, sched: Scheduler, work_root: Path, worker_id: str):
         self.sched = sched
         self.work = Path(work_root)
         self.worker = worker_id
+
+    def _tools_root(self) -> Path:
+        return Path(getattr(self, "tools_root", self.work.parent / "cosmos"))
+
+    def _refuse(self, job_id: str, detail: str, **flags) -> dict:
+        self.sched.done(job_id, "BROKE", detail)
+        return {"job_id": job_id, "outcome": "BROKE", **flags}
+
+    def _confine_path(self, job_id: str, path: Path) -> dict | None:
+        """THE K4 boundary, shared by py: and argv:. Helper prefix wins first so the
+        reason is precise; then tools_root confinement; then existence. Returns a
+        refusal record, or None when the path is allowed."""
+        if path.name.startswith("_"):
+            return self._refuse(
+                job_id,
+                "helper-prefixed script refused as a job (the `_` "
+                "convention, enforced in the runner)",
+                helper_refused=True)
+        root = self._tools_root()
+        try:
+            path.resolve().relative_to(Path(root).resolve())
+        except ValueError:
+            return self._refuse(
+                job_id,
+                f"script {path} is outside the tools root {root} - "
+                f"refused (traversal is not a job)",
+                traversal_refused=True)
+        if not path.exists():
+            return self._refuse(job_id, f"claimed path missing: {path}")
+        return None
+
+    @staticmethod
+    def _looks_like_path(token: str) -> bool:
+        """A token that names a file (absolute, slash-bearing, or a script suffix)
+        is a path - flags like -c / -3.14 are not."""
+        if not token or token.startswith("-"):
+            return False
+        return (Path(token).is_absolute()
+                or "/" in token or "\\" in token
+                or token.lower().endswith((".py", ".cmd", ".bat", ".exe", ".ps1")))
+
+    def _confine_argv(self, job_id: str, argv) -> dict | None:
+        """GUARD REST-1 (K4 argv: bypass): the argv: form used to skip tools_root
+        and run any host binary. Same confinement + interpreter whitelist as py:."""
+        if (not isinstance(argv, list) or not argv
+                or not all(isinstance(x, str) for x in argv)):
+            return self._refuse(
+                job_id, "argv: form must be a JSON list of strings - refused")
+        prog = argv[0]
+        bare = Path(prog).name
+        if not (bare in _INTERP_WHITELIST and not self._looks_like_path(prog)):
+            refused = self._confine_path(job_id, Path(prog))
+            if refused:
+                return refused
+        for tok in argv[1:]:
+            if self._looks_like_path(tok):
+                refused = self._confine_path(job_id, Path(tok))
+                if refused:
+                    return refused
+        return None
 
     def run_one(self) -> dict | None:
         """Claim the next job, EXECUTE it, land the worded outcome. Returns the result
@@ -57,26 +123,20 @@ class Runner:
             # registers it there first - the tools dir is the boundary, not the filesystem.
             # the `_`-helper convention wins REGARDLESS of location - a helper is never a
             # job, wherever it sits (checked before confinement so the reason is precise).
-            if script.name.startswith("_"):
-                self.sched.done(job_id, "BROKE",
-                                "helper-prefixed script refused as a job (the `_` "
-                                "convention, enforced in the runner)")
-                return {"job_id": job_id, "outcome": "BROKE", "helper_refused": True}
-            root = getattr(self, "tools_root", self.work.parent / "cosmos")
-            try:
-                script.resolve().relative_to(Path(root).resolve())
-            except ValueError:
-                self.sched.done(job_id, "BROKE",
-                                f"script {script} is outside the tools root {root} - "
-                                f"refused (traversal is not a job)")
-                return {"job_id": job_id, "outcome": "BROKE", "traversal_refused": True}
-            if not script.exists():
-                self.sched.done(job_id, "BROKE", f"claimed path missing: {script}")
-                return {"job_id": job_id, "outcome": "BROKE"}
+            refused = self._confine_path(job_id, script)
+            if refused:
+                return refused
             argv = ["py", "-3.14", str(script)]
+        elif cmd.startswith("argv:"):
+            try:
+                argv = json.loads(cmd[5:])
+            except ValueError:
+                return self._refuse(job_id, "argv: payload is not JSON - refused")
+            refused = self._confine_argv(job_id, argv)
+            if refused:
+                return refused
         else:
-            argv = ["py", "-3.14", "-c", cmd] if not cmd.startswith("argv:") \
-                else json.loads(cmd[5:])
+            argv = ["py", "-3.14", "-c", cmd]
 
         # LOG-FIRST: RUNNING + argv on disk BEFORE the child exists.
         log.write_text(f"RUNNING {job_id} attempt {attempt}\n"
