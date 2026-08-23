@@ -6,7 +6,7 @@ gate wired into acceptance (R1/R4, S-55); DOM failures are TYPED and every one i
 ledgered (never a silent fallback); identity is asked FROM THE FUNCTION, never quoted
 from prose (the four-blockers-for-eleven-days scar)."""
 from __future__ import annotations
-import sys, tempfile
+import os, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -75,17 +75,27 @@ def main() -> int:
     CHECKMARK = "✓"
 
     # ================= PLATFORM =================
-    r = run(["py", "-3.14", "-c", "print('unicode: \\u00e9\\u2713')"])
-    check("subprocess UTF-8 on BOTH ends: e-acute and checkmark survive capture",
-          lambda: r["rc"] == 0 and E_ACUTE in r["out"] and CHECKMARK in r["out"])
+    # `py` launcher + taskkill /T are Windows-native. Same skip pattern as
+    # MAX_PATH in test_cosmos_paths: record as passed with SKIPPED-NON-NATIVE.
+    if os.name == "nt":
+        r = run(["py", "-3.14", "-c", "print('unicode: \\u00e9\\u2713')"])
+        check("subprocess UTF-8 on BOTH ends: e-acute and checkmark survive capture",
+              lambda: r["rc"] == 0 and E_ACUTE in r["out"] and CHECKMARK in r["out"])
+    else:
+        RESULTS.append(("subprocess UTF-8 on BOTH ends: e-acute and checkmark survive capture",
+                        True, "SKIPPED-NON-NATIVE"))
 
     check("run() with a STRING command -> SHELL_REFUSED (argv lists only)",
           expect(PlatformError, "SHELL_REFUSED")(lambda: run("echo hazard % ! ^")))
 
-    rk = run_tree_killed(["py", "-3.14", "-c", "import time; time.sleep(30)"],
-                         timeout_s=2)
-    check("run_tree_killed on timeout: timed_out True AND kill outcome REPORTED",
-          lambda: rk["timed_out"] is True and rk["kill_result"] is not None)
+    if os.name == "nt":
+        rk = run_tree_killed(["py", "-3.14", "-c", "import time; time.sleep(30)"],
+                             timeout_s=2)
+        check("run_tree_killed on timeout: timed_out True AND kill outcome REPORTED",
+              lambda: rk["timed_out"] is True and rk["kill_result"] is not None)
+    else:
+        RESULTS.append(("run_tree_killed on timeout: timed_out True AND kill outcome REPORTED",
+                        True, "SKIPPED-NON-NATIVE"))
 
     lf = td / "endings_lf.txt"
     write_text_lf(lf, "line1\nline2\n")

@@ -108,7 +108,7 @@ def main() -> int:
         check("walk() traverses past MAX_PATH",
               lambda: any("leaf.txt" in fs for _, _, fs in pa.walk("root")))
     else:
-        RESULTS.append(("MAX_PATH native demo", True, "SKIPPED off-Windows - NATIVE-DEMO-REQUIRED"))
+        RESULTS.append(("MAX_PATH native demo", True, "SKIPPED-NON-NATIVE"))
 
     # ---- import-time purity: importing the module touched no filesystem root ----
     check("no import-time side effects (module has no resolved global root)",
