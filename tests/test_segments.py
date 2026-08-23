@@ -4,10 +4,12 @@
 Same check()/expect() shape as test_core.py. Forces 3+ rotations; proves global seqs are
 continuous across segment boundaries while local seqs reset; proves the anchor chain;
 plants a corrupt MIDDLE segment and a corrupt anchor and shows verify_all REFUSES naming
-the culprit and RECORDS a LEDGER_INCIDENT; round-trips CAS, proves idempotence, catches a
-tampered blob as HASH_MISMATCH, and runs CAS past MAX_PATH via extended()."""
+the culprit and RECORDS a LEDGER_INCIDENT; a forged anchor (edited accounting, re-hashed)
+is REFUSED as FORGED (RF-SEG-ANCHOR / T5); a prev_anchor_sha256 break is BROKEN_CHAIN;
+round-trips CAS, proves idempotence, catches a tampered blob as HASH_MISMATCH, and runs
+CAS past MAX_PATH via extended()."""
 from __future__ import annotations
-import hashlib, json, os, shutil, sys, tempfile
+import hashlib, hmac, json, os, shutil, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -55,6 +57,19 @@ def _anchors_chain(ldir: Path) -> bool:
         prev = hashlib.sha256(raw).hexdigest()
     return True
 
+def _sign_anchor(anc: dict, key: bytes) -> str:
+    """Same algorithm as cosmos_segments._anchor_hmac - tests re-sign a well-formed lie
+    so BROKEN_CHAIN stays distinct from FORGED (ledger's three-kind rule)."""
+    body = json.dumps({k: v for k, v in anc.items() if k != "hmac"},
+                      sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hmac.new(key, body, hashlib.sha256).hexdigest()[:32]
+
+
+def _hmac_verifies(path: Path, key: bytes) -> bool:
+    anc = json.loads(path.read_text(encoding="utf-8"))
+    return hmac.compare_digest(_sign_anchor(anc, key), anc.get("hmac", ""))
+
+
 def _each_segment_self_contained(ldir: Path, key: bytes) -> bool:
     """Every segment file passes the ORDINARY Ledger.verify() on its own, with a local
     seq counting from 1 - the proof this is a LAYER, not a rewrite."""
@@ -94,6 +109,9 @@ def main() -> int:
           lambda: json.loads((ldir / "seg-00002.anchor.json").read_text())["first_seq"] == 6
                   and json.loads((ldir / "seg-00002.anchor.json").read_text())["last_seq"] == 10
                   and json.loads((ldir / "seg-00002.anchor.json").read_text())["record_count"] == 5)
+    check("sealed anchors carry hmac that verifies with the install key (positive)",
+          lambda: all(_hmac_verifies(ldir / ("seg-%05d.anchor.json" % n), KEY)
+                      for n in (1, 2, 3)))
 
     # ================= corrupt a MIDDLE segment's BYTES =================
     d2 = td / "corrupt_seg"; shutil.copytree(ldir, d2)
@@ -115,6 +133,7 @@ def main() -> int:
     a2 = d3 / "seg-00002.anchor.json"
     anc = json.loads(a2.read_text(encoding="utf-8"))
     anc["segment_sha256"] = "0" * 64                            # lie about the sealed bytes
+    anc["hmac"] = _sign_anchor(anc, KEY)                        # re-sign so this is BROKEN_CHAIN, not FORGED
     a2.write_text(json.dumps(anc, sort_keys=True, separators=(",", ":")), encoding="utf-8")
     sl3 = SegmentedLedger(d3, KEY, "F5", max_records=5)
     e_anc = refusal(lambda: list(sl3.verify_all()))
@@ -124,6 +143,61 @@ def main() -> int:
     check("the corrupt anchor recorded a LEDGER_INCIDENT",
           lambda: any(r["event"] == "LEDGER_INCIDENT" and r["payload"]["segment"] == 2
                       for r in sl3.incidents()))
+
+    # ================= forged ANCHOR (RF-SEG-ANCHOR / T5) =================
+    # Attacker edits accounting and re-hashes the body (sha256 stuffed as hmac).
+    # That is NOT an HMAC under the install key - verify_all must REFUSE as FORGED
+    # and record a LEDGER_INCIDENT. Positive control is the clean verify_all above.
+    d4 = td / "forged_anchor"; shutil.copytree(ldir, d4)
+    a2f = d4 / "seg-00002.anchor.json"
+    forged = json.loads(a2f.read_text(encoding="utf-8"))
+    forged["first_seq"] = 1
+    forged["last_seq"] = 999
+    forged["record_count"] = 999
+    unsigned = {k: v for k, v in forged.items() if k != "hmac"}
+    forged["hmac"] = hashlib.sha256(                           # re-hashed, not signed
+        json.dumps(unsigned, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()[:32]
+    a2f.write_text(json.dumps(forged, sort_keys=True, separators=(",", ":")), encoding="utf-8")
+    sl4 = SegmentedLedger(d4, KEY, "F5", max_records=5)
+    e_forged = refusal(lambda: list(sl4.verify_all()))
+    check("forged ANCHOR (edited accounting, re-hashed) -> verify_all REFUSES (FORGED)",
+          lambda: e_forged is not None and e_forged.kind == "FORGED"
+                  and "seg-00002.anchor" in str(e_forged))
+    check("the forged anchor recorded a LEDGER_INCIDENT",
+          lambda: any(r["event"] == "LEDGER_INCIDENT" and r["payload"]["segment"] == 2
+                      and r["payload"]["kind"] == "FORGED"
+                      for r in sl4.incidents()))
+
+    # unsigned closed-segment anchor (hmac stripped) is the same refusal
+    d4u = td / "unsigned_anchor"; shutil.copytree(ldir, d4u)
+    a2u = d4u / "seg-00002.anchor.json"
+    unsigned_anc = json.loads(a2u.read_text(encoding="utf-8"))
+    unsigned_anc.pop("hmac", None)
+    a2u.write_text(json.dumps(unsigned_anc, sort_keys=True, separators=(",", ":")),
+                   encoding="utf-8")
+    sl4u = SegmentedLedger(d4u, KEY, "F5", max_records=5)
+    e_unsigned = refusal(lambda: list(sl4u.verify_all()))
+    check("unsigned closed-segment ANCHOR -> verify_all REFUSES (FORGED)",
+          lambda: e_unsigned is not None and e_unsigned.kind == "FORGED"
+                  and "seg-00002.anchor" in str(e_unsigned))
+
+    # prev_anchor_sha256 break, re-signed so HMAC is not the reason it fails
+    d5 = td / "broken_prev"; shutil.copytree(ldir, d5)
+    a2p = d5 / "seg-00002.anchor.json"
+    broken = json.loads(a2p.read_text(encoding="utf-8"))
+    broken["prev_anchor_sha256"] = "a" * 64
+    broken["hmac"] = _sign_anchor(broken, KEY)
+    a2p.write_text(json.dumps(broken, sort_keys=True, separators=(",", ":")), encoding="utf-8")
+    sl5 = SegmentedLedger(d5, KEY, "F5", max_records=5)
+    e_prev = refusal(lambda: list(sl5.verify_all()))
+    check("broken prev_anchor_sha256 -> verify_all REFUSES (BROKEN_CHAIN) naming the chain",
+          lambda: e_prev is not None and e_prev.kind == "BROKEN_CHAIN"
+                  and "prev_anchor" in str(e_prev))
+    check("the broken prev_anchor recorded a LEDGER_INCIDENT",
+          lambda: any(r["event"] == "LEDGER_INCIDENT" and r["payload"]["segment"] == 2
+                      and r["payload"]["kind"] == "BROKEN_CHAIN"
+                      for r in sl5.incidents()))
 
     # ================= CAS =================
     cas = CAS(td / "cas")
@@ -164,9 +238,10 @@ def main() -> int:
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label, ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (3+ rotations, anchor chain, 2 planted corruptions BY "
-          "KIND naming the culprit + incidents, CAS round-trip/idempotence/HASH_MISMATCH, "
-          "MAX_PATH)" % ("PASS" if not bad else "FAIL", len(RESULTS)))
+    print("SELFTEST %s - %d checks (3+ rotations, signed anchor chain, planted corruptions "
+          "BY KIND + forged/re-hashed accounting REFUSED, prev_anchor chain, incidents, "
+          "CAS round-trip/idempotence/HASH_MISMATCH, MAX_PATH)"
+          % ("PASS" if not bad else "FAIL", len(RESULTS)))
     return 0 if not bad else 1
 
 

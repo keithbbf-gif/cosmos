@@ -33,6 +33,10 @@ class SpendGate:
     # ---------------- budgets ----------------
     def set_budget(self, rail: str, cap_usd: float,
                    expires_epoch: Optional[float] = None) -> None:
+        # STAGE-7B RG-M1 FIX (MEASURED): BUDGET_SET wiped settled/reserved in the fold,
+        # so a cap REFRESH became a second wallet - re-setting the same rail's cap reset
+        # its spend to zero. The fold now PRESERVES settled/reserved across a re-set
+        # (see _state); this event only changes the cap and expiry.
         self.ledger.append("BUDGET_SET", {"rail": rail, "cap_usd": cap_usd,
                                           "expires_epoch": expires_epoch})
 
@@ -40,8 +44,13 @@ class SpendGate:
         def fold(s, rec):
             p, e = rec["payload"], rec["event"]
             if e == "BUDGET_SET":
-                s[p["rail"]] = {"cap": p["cap_usd"], "expires": p.get("expires_epoch"),
-                                "reserved": {}, "settled": 0.0, "unpriced": 0}
+                # RG-M1: preserve accounting across a cap refresh - only cap/expiry change
+                if p["rail"] in s:
+                    s[p["rail"]]["cap"] = p["cap_usd"]
+                    s[p["rail"]]["expires"] = p.get("expires_epoch")
+                else:
+                    s[p["rail"]] = {"cap": p["cap_usd"], "expires": p.get("expires_epoch"),
+                                    "reserved": {}, "settled": 0.0, "unpriced": 0}
             elif e == "SPEND_RESERVED" and p["rail"] in s:
                 s[p["rail"]]["reserved"][p["rid"]] = {"usd": p["worst_case_usd"],
                                                       "expires": p["expires_epoch"]}
@@ -97,26 +106,33 @@ class SpendGate:
                              f"cap (settled ${b['settled']:.2f} + reserved "
                              f"${outstanding:.2f} of ${b['cap']:.2f}) - denied BEFORE "
                              f"the call, which is the whole point")
-        # STAGE-7 K6 FIX (OA C-04, MEASURED): rid was int(clock*1000) - two calls in the
-        # same ms (or a fixed test clock) collided and overwrote each other's reservation
-        # in the projection. A uuid makes each reservation distinct. The check-then-append
-        # race is bounded by binding the append to the head we projected from (STALE_HEAD
-        # -> DENIED, re-project): two concurrent callers cannot both slip past the cap.
+        # STAGE-7B T3/RG-B1 FIX (MEASURED: overlap spent $1.40 on a $1 cap): the K6
+        # expect_head_seq check sampled the head at APPEND time, so a decision made on a
+        # stale projection still bound a fresh head. The cap check and the reservation
+        # append must be ONE atomic critical section. append_guarded holds the OS lock
+        # across re-read -> re-check-headroom -> append; two overlapping callers are
+        # serialized and the second sees the first's reservation. rid is a uuid (K6).
         import uuid as _uuid
-        from cosmos_ledger import LedgerError as _LE
         rid = "r-%s" % _uuid.uuid4().hex[:12]
-        try:
-            self.ledger.append("SPEND_RESERVED",
-                               {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
-                                "expires_epoch": self._clock() + ttl_s,
-                                "provenance": "estimate"},
-                               expect_head_seq=self.ledger.head_seq())
-        except _LE as e:
-            if e.kind == "STALE_HEAD":
-                raise SpendError("DENIED",
-                                 f"{rail}: budget state moved under the reservation - "
-                                 f"denied; re-project and retry (no over-cap slip)") from e
-            raise
+
+        def _decide(_recs):
+            st2 = self._state()                 # re-derived UNDER the lock
+            b2 = st2[rail]
+            now2 = self._clock()
+            for r2id, r2 in list(b2["reserved"].items()):
+                if now2 >= r2["expires"]:
+                    b2["reserved"].pop(r2id, None)
+            out2 = sum(r["usd"] for r in b2["reserved"].values())
+            if b2["settled"] + out2 + worst_case_usd > b2["cap"]:
+                raise SpendError(
+                    "DENIED",
+                    f"{rail}: worst case ${worst_case_usd:.2f} passes the cap under the "
+                    f"lock (settled ${b2['settled']:.2f} + reserved ${out2:.2f} of "
+                    f"${b2['cap']:.2f}) - denied atomically, no overlap slip")
+            return ("SPEND_RESERVED",
+                    {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
+                     "expires_epoch": now2 + ttl_s, "provenance": "estimate"})
+        self.ledger.append_guarded(_decide)
         try:
             result = call()
         except Exception:

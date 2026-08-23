@@ -30,6 +30,7 @@ from cosmos_ledger import Ledger, LedgerError                  # noqa: F401
 from cosmos_lock import Arbiter, LockError                     # noqa: F401
 from cosmos_mail import Mailbox, MailError                     # noqa: F401
 from cosmos_sched import Scheduler, SchedError                 # noqa: F401
+from cosmos_validate import ReturnValidator, ValidateError     # noqa: F401
 
 
 class Kernel:
@@ -57,7 +58,10 @@ class Kernel:
         key = keyfile.read_bytes()
 
         # 3 - authority ledger: full verify at open, or REFUSE (LedgerError, typed)
-        self.paths.ledger().mkdir(parents=True, exist_ok=True)
+        # GUARD REST-2: a reader must not mkdir. The installer (or a writing kernel)
+        # creates role dirs; status/audit on a live root finds them already there.
+        if not read_only:
+            self.paths.ledger().mkdir(parents=True, exist_ok=True)
         self.ledger = Ledger(self.paths.ledger("authority.jsonl"), key,
                              worker, clock)
 
@@ -76,12 +80,28 @@ class Kernel:
         # but was never wired at the composition boundary. Pass the key: leases are now
         # signed and a forged GRANT is refused in the LIVE kernel, not just in the test.
         self.arbiter = Arbiter(self.paths.ledger("leases.jsonl"), clock=clock, key=key)
+        if read_only:
+            # GUARD REST-2: status()/audit() used to call _expire_if_due, which WRITES
+            # an EXPIRE event. A reader observes expiry in memory and never appends.
+            def _ro_append(event: dict) -> None:
+                raise CosmosPathError(
+                    "NOT_FOUND",
+                    "read-only kernel refuses lease-ledger writes - a reader is "
+                    "not a writer (REST-2)")
+            self.arbiter._append = _ro_append
+
+            def _ro_expire(resource: str) -> None:
+                lease = self.arbiter._leases.get(resource)
+                if lease and self.arbiter._clock() >= lease.expires_at:
+                    del self.arbiter._leases[resource]
+            self.arbiter._expire_if_due = _ro_expire
         self.mail = Mailbox(self.paths.role("state", "mail"), worker)
-        self.mail.register()
+        # register() mkdirs the inbox - a reader does not create endpoints
+        if not read_only:
+            self.mail.register()
         self.sched = Scheduler(self.paths.role("queue"), key, worker, clock)
         from cosmos_registry import Registry
         from cosmos_spend import SpendGate
-        from cosmos_validate import ReturnValidator
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
@@ -92,6 +112,24 @@ class Kernel:
         not a kernel). Closing the returned Session over an open watcher REFUSES."""
         from cosmos_context import Session
         return Session(self.ledger, session_id, stream, clock=self._clock)
+
+    # ---------------- return acceptance (the validation gate) ----------------
+    def accept_return(self, return_id: str, claims: list[dict],
+                      job_id: str | None = None, outcome: str = "CLEAN",
+                      detail: str = "") -> dict:
+        """GUARD REST-3: THE acceptance path. ReturnValidator.accept() runs FIRST;
+        only a validated return may complete a job or otherwise touch a projection.
+        An unvalidated or failed return is REFUSED - the scheduler state is unchanged
+        (the refusal itself is ledgered as RETURN_REFUSED, which is the record of
+        the gate firing, not an accepted result)."""
+        if self.read_only:
+            raise CosmosPathError(
+                "NOT_FOUND",
+                "read-only kernel refuses return acceptance - a reader is not a writer")
+        accepted = self.validator.accept(return_id, claims)
+        if job_id is not None:
+            self.sched.done(job_id, outcome, detail)
+        return accepted
 
     # ---------------- fenced protected write ----------------
     def protected_write(self, resource: str, relpath: str, content: str) -> Path:
@@ -135,6 +173,11 @@ class Kernel:
         by_state: dict = {}
         for v in state.values():
             by_state[v["st"]] = by_state.get(v["st"], 0) + 1
+        inbox = self.mail._inbox(self.mail.me)
+        if inbox.is_dir():
+            mail_unread = len(self.mail.unread())
+        else:
+            mail_unread = 0
         return {
             "measured_at_epoch": t,
             "ledger": {"records": len(events), "chain": "VERIFIED",
@@ -142,7 +185,7 @@ class Kernel:
             "jobs": by_state,
             "leases_live": sum(1 for r in ("tree",)
                                if self.arbiter.status(r) is not None),
-            "mail": {"my_unread": len(self.mail.unread())},
+            "mail": {"my_unread": mail_unread},
             "root": {"path": str(self.paths.root),
                      "tree_id": self.paths.sentinel.tree_id},
         }

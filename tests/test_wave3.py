@@ -199,11 +199,19 @@ def main() -> int:
     check("POST /command: destructive verb REFUSED over the wire",
           lambda: "REFUSED" in json.dumps(_post_err(base, svc.token,
                                                     {"text": "delete everything"})))
+    docs = k.paths.role("docs")
+    (docs / "FINAL_ARCHITECTURE.md").write_text(
+        "# FINAL_ARCHITECTURE\nremote crucible source\n", encoding="utf-8")
+    k.crucible_critics = {
+        "grok": lambda t: "```json\n[{\"id\":\"G-1\",\"topic\":\"wired\"}]\n```",
+    }
     cr = post("/api/v1/crucible", {"sources": ["FINAL_ARCHITECTURE.md"],
                                    "critics": ["grok"]})
-    check("POST /crucible: remote crucible queues a job and ledgers the request",
-          lambda: "job_id" in cr and any(e["event"] == "CRUCIBLE_REQUESTED"
-                                         for e in k.ledger.verify()))
+    check("POST /crucible: remote crucible runs a round, lands returns, ledgers",
+          lambda: "job_id" in cr and cr.get("returned")
+          and all(Path(p).exists() for p in cr["returned"].values())
+          and any(e["event"] == "CRUCIBLE_ROUND_DONE" for e in k.ledger.verify())
+          and "crucible round queued" not in k.sched._state()[cr["job_id"]]["m"]["command"])
     svc.shutdown()
 
     bad = [(l, e) for l, ok, e in RESULTS if not ok]

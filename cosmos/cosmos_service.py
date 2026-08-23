@@ -11,7 +11,9 @@ ENDPOINTS (v1):
     POST /api/v1/jobs    - submit {command, priority} -> job_id
 Every response carries served_at + measured_at - a panel that cannot show its age is
 the frozen-dashboard scar. Auth is a bearer token from the install config - remote
-access control exists from day one, invisible in use (zero-friction canon).
+access control exists from day one, invisible in use (zero-friction canon). A blank
+or whitespace token is REFUSED (an open door). A missing token file is minted only
+on a loopback bind; a remote bind REFUSES rather than inventing silently.
 """
 from __future__ import annotations
 
@@ -21,6 +23,62 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from cosmos_kernel import Kernel
+
+# Loopback binds may mint a token (zero-friction local use). A remote bind must
+# never invent one - a silently minted secret on 0.0.0.0 is an open door.
+_LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
+
+
+class ServiceError(RuntimeError):
+    """kind in {BLANK_TOKEN, TOKEN_MISSING}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
+
+
+def _is_remote_bind(host: str) -> bool:
+    return (host or "").strip().lower() not in _LOOPBACK_HOSTS
+
+
+def _load_api_token(tok_file, remote: bool) -> str:
+    """Bearer material is install config, not something the service invents on a
+    remote bind. Empty/whitespace is always an open door and is REFUSED."""
+    from pathlib import Path as _P
+    tok_file = _P(tok_file)
+    if not tok_file.exists():
+        if remote:
+            raise ServiceError(
+                "TOKEN_MISSING",
+                "api_token.txt is missing - refusing to invent authentication "
+                "material in a remote context (a silently minted token is an "
+                "open door on the LAN)")
+        import secrets as _s
+        tok_file.write_text(_s.token_urlsafe(24), encoding="utf-8")
+    token = tok_file.read_text(encoding="utf-8").strip()
+    if not token:
+        raise ServiceError(
+            "BLANK_TOKEN",
+            "api_token.txt is empty or whitespace - a blank token is an open door")
+    return token
+
+
+def _crucible_dispatchers(kernel, names) -> dict | None:
+    """Critics are injected callables on the kernel (name -> packet_text -> return
+    text). A requested critic that is not composed is not invented; None means
+    the round cannot actually run."""
+    pool = getattr(kernel, "crucible_critics", None)
+    if not isinstance(pool, dict) or not pool:
+        return None
+    if not names:
+        return dict(pool)
+    out = {}
+    for n in names:
+        fn = pool.get(n)
+        if not callable(fn):
+            return None
+        out[n] = fn
+    return out or None
 
 
 def make_handler(kernel: Kernel, token: str):
@@ -106,24 +164,86 @@ def make_handler(kernel: Kernel, token: str):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             if self.path == "/api/v1/crucible":
-                # REMOTE CRUCIBLE (Keith's ruling): submit a crucible round as a job.
-                # The packet sources are role-relative paths; the run itself executes
-                # through the scheduler so remote != unaudited.
+                # REMOTE CRUCIBLE (Keith's ruling): a crucible round is a scheduled
+                # job. The handler is the worker: submit -> claim -> cosmos_crucible
+                # -> returns land on disk -> done. A print stub is not a round; if
+                # no critic dispatchers are composed, 501 is the honest answer.
                 n = int(self.headers.get("Content-Length", 0))
                 try:
                     d = json.loads(self.rfile.read(n).decode("utf-8"))
-                    srcs = [str(kernel.paths.role("docs", s)) for s in d["sources"]]
-                    jid = kernel.sched.submit(
-                        "argv:" + json.dumps(["py", "-3.14", "-c",
-                                              "print('crucible round queued')"]),
-                        d.get("priority", "high"))
-                    kernel.ledger.append("CRUCIBLE_REQUESTED",
-                                         {"job_id": jid, "sources": d["sources"],
-                                          "critics": d.get("critics", [])})
-                    return self._send(201, {"job_id": jid, "sources": srcs,
-                                            "note": "crucible round queued; returns "
-                                                    "land in the run's out_dir"})
                 except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                names = list(d.get("critics") or [])
+                dispatchers = _crucible_dispatchers(kernel, names)
+                if dispatchers is None:
+                    kernel.ledger.append("CRUCIBLE_REFUSED",
+                                         {"kind": "CRUCIBLE_NOT_RUNNABLE",
+                                          "sources": d.get("sources", []),
+                                          "critics": names})
+                    return self._send(501, {
+                        "error": "CRUCIBLE_NOT_RUNNABLE",
+                        "detail": "no composed critic dispatchers for this round - "
+                                  "refusing to queue a print stub (a queued print "
+                                  "is not a crucible)"})
+                from cosmos_crucible import Crucible, CrucibleError
+                from cosmos_paths import CosmosPathError
+                try:
+                    srcs = [kernel.paths.role("docs", s) for s in d["sources"]]
+                except CosmosPathError as e:
+                    kernel.ledger.append("CRUCIBLE_REFUSED",
+                                         {"kind": e.kind, "sources": d.get("sources")})
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                cmd = "crucible:round " + json.dumps(
+                    {"sources": list(d["sources"]),
+                     "critics": sorted(dispatchers)}, sort_keys=True)
+                try:
+                    jid = kernel.sched.submit(cmd, d.get("priority", "high"),
+                                              lane="crucible")
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                kernel.ledger.append("CRUCIBLE_REQUESTED",
+                                     {"job_id": jid, "sources": d["sources"],
+                                      "critics": list(dispatchers)})
+                claimed = False
+                q = kernel.sched.queued()
+                if q and q[0]["job_id"] == jid:
+                    kernel.sched.claim_next()
+                    claimed = True
+                out_dir = kernel.paths.role("work", "crucible", jid)
+                try:
+                    cru = Crucible(kernel.ledger, out_dir)
+                    pkt = cru.build_packet(
+                        f"# CRUCIBLE ROUND\njob_id: {jid}\n", srcs)
+                    verdict = cru.run_round(pkt, dispatchers)
+                    merge = cru.merge_skeleton(verdict)
+                    outcome = ("FINDINGS" if (verdict["failed"] or verdict["warning"])
+                               else "CLEAN")
+                    if claimed:
+                        kernel.sched.done(jid, outcome,
+                                          f"returned={sorted(verdict['returned'])}")
+                    return self._send(201, {
+                        "job_id": jid,
+                        "sources": [str(s) for s in srcs],
+                        "out_dir": str(out_dir),
+                        "returned": verdict["returned"],
+                        "failed": verdict["failed"],
+                        "merge": str(merge),
+                        "outcome": outcome if claimed else "QUEUED"})
+                except CrucibleError as e:
+                    if claimed:
+                        kernel.sched.done(jid, "BROKE", f"{e.kind}: {e}"[:200])
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    if claimed:
+                        try:
+                            kernel.sched.done(jid, "BROKE", str(e)[:200])
+                        except Exception:                             # noqa: BLE001
+                            pass
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             if self.path == "/api/v1/jobs":
@@ -191,10 +311,7 @@ class Service:
     def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
                  tls: bool = False):
         tok_file = kernel.paths.config("api_token.txt")
-        if not tok_file.exists():
-            import secrets as _s
-            tok_file.write_text(_s.token_urlsafe(24), encoding="utf-8")
-        self.token = tok_file.read_text(encoding="utf-8").strip()
+        self.token = _load_api_token(tok_file, remote=_is_remote_bind(host))
         self.httpd = ThreadingHTTPServer((host, port), make_handler(kernel, self.token))
         self.scheme = "http"
         if tls:
