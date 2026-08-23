@@ -17,6 +17,7 @@ Same check()/expect() pattern as test_features.py. Standalone: exit 0/1. Pytest:
 test_browser() asserts main()==0.
 """
 from __future__ import annotations
+import os
 import sys
 from pathlib import Path
 
@@ -84,9 +85,25 @@ def main() -> int:
               "<form><input type=\"password\"></form>") is True)
 
     # ================= DRIVER, WITH OR WITHOUT A BROWSER =================
+    # Live Chrome/Edge --dump-dom is the Windows native demo (Program Files paths,
+    # taskkill-backed tree kill). On non-Windows, record the live-navigate checks
+    # as SKIPPED-NON-NATIVE and still prove the no-browser contract.
     binary = discover_browser()
 
-    if binary is None:
+    if os.name != "nt":
+        RESULTS.append(("live browser navigate (Chrome/Edge --dump-dom)",
+                        True, "SKIPPED-NON-NATIVE"))
+        check("start() with a non-existent injected binary raises ConnectionError",
+              expect(ConnectionError)(
+                  lambda: ChromeDriver(binary=str(td / "nope.exe")).start(
+                      str(td / "p2"))))
+        check("session_ok() before start() is False (never raises)",
+              lambda: ChromeDriver().session_ok() is False)
+        if binary is None:
+            check("no browser present: start() raises ConnectionError (-> UNREACHABLE) "
+                  "[NATIVE-DEMO-REQUIRED: (b) live-navigate path unexercised on this runner]",
+                  expect(ConnectionError)(lambda: ChromeDriver().start(str(td / "profile"))))
+    elif binary is None:
         # (a) No browser present: start() MUST raise ConnectionError (-> UNREACHABLE).
         drv = ChromeDriver()
         check("no browser present: start() raises ConnectionError (-> UNREACHABLE) "

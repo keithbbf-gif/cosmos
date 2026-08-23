@@ -31,9 +31,13 @@ def check(label, fn):
 
 
 def existing_cosmos_modules() -> set[str]:
-    """Ground truth: every cosmos_*.py that exists, in this spike dir and the sibling
-    SPIKE_F5_* spike dirs (cosmos_paths/lock/mail live in their own spike folders)."""
+    """Ground truth: every cosmos_*.py that exists. Looks in the tests/ spike dir
+    (legacy layout), the sibling cosmos/ package (merged tree), and any leftover
+    SPIKE_F5_* folders (cosmos_paths/lock/mail once lived in their own spikes)."""
     mods = {p.stem for p in HERE.glob("cosmos_*.py")}
+    cosmos_pkg = HERE.parent / "cosmos"
+    if cosmos_pkg.is_dir():
+        mods |= {p.stem for p in cosmos_pkg.glob("cosmos_*.py")}
     for sib in HERE.parent.glob("SPIKE_F5_*"):
         if sib.is_dir():
             mods |= {p.stem for p in sib.glob("cosmos_*.py")}
