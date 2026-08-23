@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KDash — COSMOS v1</title>
+<style>
+  :root{
+    --bg:#0b0e12;
+    --panel:#12161c;
+    --panel-edge:#1f2630;
+    --ink:#c8d2dc;
+    --ink-dim:#7a8694;
+    --ink-faint:#4a545f;
+    --green:#3fd68f;
+    --amber:#e6b450;
+    --red:#e5534b;
+    --cyan:#56b6c2;
+    --head:#e2e8ee;
+    --mono:"Consolas","Cascadia Mono","Courier New",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:var(--mono);font-size:13px;line-height:1.45}
+  body{padding:10px 14px 20px}
+
+  /* ---------- top bar ---------- */
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px}
+  header h1{font-size:15px;color:var(--head);letter-spacing:2px;font-weight:700;margin-right:6px}
+  header h1 span{color:var(--cyan)}
+  .connbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex:1;min-width:280px}
+  .connbar label{color:var(--ink-dim);font-size:11px;white-space:nowrap}
+  .connbar input{
+    background:#0e1116;border:1px solid var(--panel-edge);color:var(--ink);
+    font-family:var(--mono);font-size:12px;padding:4px 7px;border-radius:3px;outline:none;
+  }
+  .connbar input:focus{border-color:var(--cyan)}
+  #apiBase{width:220px}
+  #token{width:200px}
+  button{
+    background:#182029;border:1px solid #2a3542;color:var(--ink);
+    font-family:var(--mono);font-size:12px;padding:4px 12px;border-radius:3px;cursor:pointer;
+  }
+  button:hover{border-color:var(--cyan);color:var(--head)}
+  button:active{background:#11161c}
+  #connState{font-size:11px;padding:3px 8px;border-radius:3px;border:1px solid var(--panel-edge);color:var(--ink-dim);white-space:nowrap}
+  #connState.ok{color:var(--green);border-color:var(--green)}
+  #connState.bad{color:var(--red);border-color:var(--red)}
+
+  .refreshbar{display:flex;align-items:center;gap:8px;white-space:nowrap}
+  #countdown{color:var(--cyan);min-width:9.5em;display:inline-block;font-size:11px}
+  #countdown.paused{color:var(--amber)}
+
+  /* ---------- grid ---------- */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:820px){.grid{grid-template-columns:1fr}}
+
+  .panel{
+    background:var(--panel);border:1px solid var(--panel-edge);border-radius:4px;
+    padding:0 0 8px;min-height:150px;display:flex;flex-direction:column;
+    transition:opacity .3s,border-color .3s;
+  }
+  .panel-hd{
+    display:flex;align-items:baseline;justify-content:space-between;
+    padding:7px 10px 6px;border-bottom:1px solid var(--panel-edge);margin-bottom:8px;
+  }
+  .panel-hd h2{font-size:12px;letter-spacing:2px;color:var(--head);font-weight:700}
+  .age{font-size:11px;color:var(--green)}
+  .age::before{content:"measured "}
+  .age::after{content:" ago"}
+  .age.never{color:var(--ink-faint)}
+  .age.never::before,.age.never::after{content:""}
+  .panel-bd{padding:0 10px;flex:1}
+
+  /* staleness / error states */
+  .panel.stale{opacity:.55;border-color:var(--amber)}
+  .panel.stale .age{color:var(--amber);font-weight:700}
+  .panel.error{border-color:var(--red)}
+  .panel.error .age{color:var(--red)}
+  .errbox{
+    color:var(--red);border:1px dashed var(--red);border-radius:3px;
+    padding:6px 8px;margin-bottom:8px;font-size:12px;word-break:break-word;
+  }
+  .errbox b{letter-spacing:1px}
+
+  /* key/value rows */
+  .kv{display:grid;grid-template-columns:max-content 1fr;gap:3px 14px}
+  .kv dt{color:var(--ink-dim);font-size:12px}
+  .kv dd{color:var(--ink);word-break:break-all;font-variant-numeric:tabular-nums}
+  .ok{color:var(--green)} .warn{color:var(--amber)} .bad{color:var(--red)} .dim{color:var(--ink-faint)}
+  .big{font-size:15px;font-weight:700}
+
+  /* jobs */
+  .jobstate{margin-bottom:8px}
+  .jobstate-hd{display:flex;align-items:baseline;gap:8px;margin-bottom:2px}
+  .jobstate-hd .st{font-weight:700;letter-spacing:1px}
+  .jobstate-hd .ct{color:var(--cyan);font-variant-numeric:tabular-nums}
+  .jobids{color:var(--ink-dim);font-size:11px;word-break:break-all;padding-left:1em}
+
+  /* tables */
+  .twrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:12px}
+  th{color:var(--ink-dim);text-align:left;font-weight:400;letter-spacing:1px;
+     border-bottom:1px solid var(--panel-edge);padding:2px 10px 4px 0;font-size:11px}
+  td{padding:3px 10px 3px 0;border-bottom:1px solid #171d25;word-break:break-all;
+     font-variant-numeric:tabular-nums}
+  tr:last-child td{border-bottom:none}
+
+  .empty{color:var(--ink-faint);font-style:italic;padding:4px 0}
+  footer{margin-top:10px;color:var(--ink-faint);font-size:11px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>K<span>DASH</span></h1>
+  <div class="connbar">
+    <label for="apiBase">api</label>
+    <input id="apiBase" type="text" value="http://127.0.0.1:8770" spellcheck="false" autocomplete="off">
+    <label for="token">bearer</label>
+    <input id="token" type="password" value="" spellcheck="false" autocomplete="off">
+    <button id="btnConnect">CONNECT</button>
+    <span id="connState">not connected</span>
+  </div>
+  <div class="refreshbar">
+    <span id="countdown">refresh idle</span>
+    <button id="btnPause" disabled>PAUSE</button>
+  </div>
+</header>
+
+<div class="grid">
+
+  <section class="panel" id="panel-status">
+    <div class="panel-hd"><h2>STATUS</h2><span class="age never" id="age-status">no data</span></div>
+    <div class="panel-bd" id="bd-status"><div class="empty">not connected — enter API base and token, then CONNECT</div></div>
+  </section>
+
+  <section class="panel" id="panel-jobs">
+    <div class="panel-hd"><h2>JOBS</h2><span class="age never" id="age-jobs">no data</span></div>
+    <div class="panel-bd" id="bd-jobs"><div class="empty">not connected</div></div>
+  </section>
+
+  <section class="panel" id="panel-rails">
+    <div class="panel-hd"><h2>RAILS MATRIX</h2><span class="age never" id="age-rails">no data</span></div>
+    <div class="panel-bd" id="bd-rails"><div class="empty">not connected</div></div>
+  </section>
+
+  <section class="panel" id="panel-audit">
+    <div class="panel-hd"><h2>AUDIT</h2><span class="age never" id="age-audit">no data</span></div>
+    <div class="panel-bd" id="bd-audit"><div class="empty">not connected</div></div>
+  </section>
+
+</div>
+
+<footer>
+  <span>KDash — pure client of the COSMOS v1 HTTP API · settings live in JS memory only, nothing is stored</span>
+  <span id="clock"></span>
+</footer>
+
+<script>
+"use strict";
+(function(){
+  var REFRESH_S   = 10;   // auto-refresh period
+  var STALE_S     = 30;   // panel goes visually stale beyond this
+  var FETCH_TO_MS = 8000; // per-request timeout
+
+  // ---- in-memory settings only (never persisted) ----
+  var cfg = { base:"", token:"" };
+  var connected = false;
+  var paused = false;
+  var nextAt = 0;         // epoch ms of next scheduled refresh
+  var inflight = false;
+
+  // per-panel state: measuredAtMs = server-declared measurement time (ms epoch),
+  // error = last failure string or null. measuredAtMs===null means "never".
+  var panels = {
+    status:{measuredAtMs:null,error:null},
+    jobs:  {measuredAtMs:null,error:null},
+    rails: {measuredAtMs:null,error:null},
+    audit: {measuredAtMs:null,error:null}
+  };
+
+  function $(id){ return document.getElementById(id); }
+  function esc(s){
+    return String(s).replace(/[&<>"']/g,function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  // Accept epoch seconds, epoch ms, or ISO-8601 strings. Returns ms or null.
+  function toMs(v){
+    if(v===null || v===undefined) return null;
+    if(typeof v==="number" && isFinite(v)){
+      if(v>1e12) return v;          // already ms
+      if(v>1e9)  return v*1000;     // epoch seconds
+      return null;
+    }
+    if(typeof v==="string"){
+      var n=Number(v);
+      if(isFinite(n) && v.trim()!=="") return toMs(n);
+      var p=Date.parse(v);
+      if(!isNaN(p)) return p;
+    }
+    return null;
+  }
+
+  function humanAge(sec){
+    if(sec<0) sec=0;
+    if(sec<60)    return Math.floor(sec)+"s";
+    if(sec<3600)  return Math.floor(sec/60)+"m "+Math.floor(sec%60)+"s";
+    if(sec<86400) return Math.floor(sec/3600)+"h "+Math.floor((sec%3600)/60)+"m";
+    return Math.floor(sec/86400)+"d "+Math.floor((sec%86400)/3600)+"h";
+  }
+
+  // ---------- fetch ----------
+  function apiGet(path){
+    var ctl = new AbortController();
+    var t = setTimeout(function(){ ctl.abort(); }, FETCH_TO_MS);
+    var url = cfg.base.replace(/\/+$/,"") + path;
+    return fetch(url,{
+      method:"GET",
+      headers: cfg.token ? {"Authorization":"Bearer "+cfg.token} : {},
+      signal: ctl.signal,
+      cache:"no-store"
+    }).then(function(r){
+      clearTimeout(t);
+      if(!r.ok) throw new Error("HTTP "+r.status+" "+r.statusText);
+      return r.json();
+    }).catch(function(e){
+      clearTimeout(t);
+      if(e.name==="AbortError") throw new Error("timeout after "+(FETCH_TO_MS/1000)+"s");
+      throw e;
+    });
+  }
+
+  // ---------- renderers ----------
+  function renderStatus(d){
+    var lh = d.ledger_head || {};
+    var readyCls = d.ready ? "ok" : "bad";
+    var readyTxt = d.ready ? "READY" : "NOT READY";
+    $("bd-status").innerHTML =
+      '<dl class="kv">'+
+      '<dt>ready</dt><dd class="big '+readyCls+'">'+readyTxt+'</dd>'+
+      '<dt>root</dt><dd>'+esc(d.root!=null?d.root:"—")+'</dd>'+
+      '<dt>tree_id</dt><dd>'+esc(d.tree_id!=null?d.tree_id:"—")+'</dd>'+
+      '<dt>ledger head</dt><dd>seq '+esc(lh.seq!=null?lh.seq:"—")+
+        ' · <span class="dim">'+esc(lh.event!=null?lh.event:"—")+'</span></dd>'+
+      '</dl>';
+  }
+
+  function renderJobs(d){
+    var jobs = d.jobs || {};
+    var byState = {};
+    var total = 0;
+    Object.keys(jobs).forEach(function(id){
+      var st = String(jobs[id]);
+      (byState[st] = byState[st] || []).push(id);
+      total++;
+    });
+    if(total===0){
+      $("bd-jobs").innerHTML = '<div class="empty">no jobs yet</div>';
+      return;
+    }
+    var stateCls = function(st){
+      var s = st.toUpperCase();
+      if(/FAIL|ERROR|DEAD/.test(s)) return "bad";
+      if(/RUN|ACTIVE|LIVE/.test(s)) return "ok";
+      if(/WAIT|PEND|QUEUE|HOLD/.test(s)) return "warn";
+      if(/DONE|OK|COMPLETE|SUCC/.test(s)) return "ok";
+      return "";
+    };
+    var order = Object.keys(byState).sort();
+    var h = '<dl class="kv" style="margin-bottom:8px"><dt>total</dt><dd class="big">'+total+'</dd></dl>';
+    order.forEach(function(st){
+      var ids = byState[st];
+      h += '<div class="jobstate">'+
+           '<div class="jobstate-hd"><span class="st '+stateCls(st)+'">'+esc(st)+'</span>'+
+           '<span class="ct">×'+ids.length+'</span></div>'+
+           '<div class="jobids">'+ids.map(esc).join(" · ")+'</div>'+
+           '</div>';
+    });
+    $("bd-jobs").innerHTML = h;
+  }
+
+  function renderRails(d){
+    var m = d.matrix || [];
+    if(m.length===0){
+      $("bd-rails").innerHTML = '<div class="empty">no rails reported</div>';
+      return;
+    }
+    var rows = m.map(function(r){
+      var v = r.verified;
+      var vCell;
+      if(v===true)       vCell = '<span class="ok">&#10003;</span>';
+      else if(v===false) vCell = '<span class="bad">&#10007;</span>';
+      else               vCell = '<span class="warn">UNKNOWN</span>';
+      var ageS = (typeof r.age_s==="number" && isFinite(r.age_s)) ? humanAge(r.age_s)
+               : '<span class="dim">—</span>';
+      return '<tr>'+
+        '<td>'+esc(r.link_id!=null?r.link_id:"—")+'</td>'+
+        '<td>'+esc(r.rail_type!=null?r.rail_type:"—")+'</td>'+
+        '<td>'+esc(r.route!=null?r.route:"—")+'</td>'+
+        '<td>'+vCell+'</td>'+
+        '<td>'+ageS+'</td>'+
+        '</tr>';
+    }).join("");
+    $("bd-rails").innerHTML =
+      '<div class="twrap"><table>'+
+      '<thead><tr><th>LINK</th><th>TYPE</th><th>ROUTE</th><th>VERIFIED</th><th>AGE</th></tr></thead>'+
+      '<tbody>'+rows+'</tbody></table></div>';
+  }
+
+  function renderAudit(d){
+    var led = d.ledger || {};
+    var jobs = d.jobs || {};
+    var root = d.root || {};
+    var chainCls = "dim", chainTxt = led.chain!=null ? String(led.chain) : "—";
+    var cu = chainTxt.toUpperCase();
+    if(led.chain===true || /^(OK|GOOD|INTACT|VALID|TRUE)$/.test(cu)) { chainCls="ok"; }
+    else if(led.chain===false || /BROKEN|BAD|FAIL|FALSE/.test(cu))   { chainCls="bad"; }
+    var jobStates = Object.keys(jobs).sort().map(function(st){
+      return esc(st)+":"+esc(jobs[st]);
+    }).join(" · ") || '<span class="dim">no jobs yet</span>';
+    var unread = (d.mail && d.mail.my_unread!=null) ? d.mail.my_unread : null;
+    var unreadCell = unread===null ? '<span class="dim">—</span>'
+      : (unread>0 ? '<span class="warn big">'+unread+' UNREAD</span>' : '<span class="ok">0</span>');
+    $("bd-audit").innerHTML =
+      '<dl class="kv">'+
+      '<dt>ledger records</dt><dd>'+esc(led.records!=null?led.records:"—")+'</dd>'+
+      '<dt>ledger chain</dt><dd class="'+chainCls+'">'+esc(chainTxt)+'</dd>'+
+      '<dt>last event</dt><dd class="dim">'+esc(led.last_event!=null?led.last_event:"—")+'</dd>'+
+      '<dt>jobs</dt><dd>'+jobStates+'</dd>'+
+      '<dt>leases live</dt><dd>'+esc(d.leases_live!=null?d.leases_live:"—")+'</dd>'+
+      '<dt>mail unread</dt><dd>'+unreadCell+'</dd>'+
+      '<dt>root</dt><dd>'+esc(root.path!=null?root.path:"—")+
+        ' <span class="dim">('+esc(root.tree_id!=null?root.tree_id:"—")+')</span></dd>'+
+      '</dl>';
+  }
+
+  // ---------- panel plumbing ----------
+  function markSuccess(name, measuredMs){
+    var p = panels[name];
+    p.error = null;
+    p.measuredAtMs = (measuredMs!==null) ? measuredMs : Date.now();
+    var el = $("panel-"+name);
+    el.classList.remove("error");
+    var old = el.querySelector(".errbox");
+    if(old) old.remove();
+  }
+
+  function markError(name, msg){
+    var p = panels[name];
+    p.error = msg;
+    var el = $("panel-"+name);
+    el.classList.add("error");
+    var box = el.querySelector(".errbox");
+    if(!box){
+      box = document.createElement("div");
+      box.className = "errbox";
+      el.querySelector(".panel-bd").insertBefore(box, el.querySelector(".panel-bd").firstChild);
+    }
+    box.innerHTML = '<b>UNREACHABLE</b> — '+esc(msg)+
+      (p.measuredAtMs!==null ? ' <span class="dim">(showing last good data below)</span>' : '');
+  }
+
+  function refreshPanel(name, path, extractMs, render){
+    return apiGet(path).then(function(d){
+      render(d);
+      markSuccess(name, extractMs(d));
+    }).catch(function(e){
+      markError(name, e.message || String(e));
+    });
+  }
+
+  function refreshAll(){
+    if(!connected || inflight) return;
+    inflight = true;
+    var t0 = Date.now();
+    Promise.all([
+      refreshPanel("status","/api/v1/status",
+        function(d){ return toMs(d.served_at); }, renderStatus),
+      refreshPanel("jobs","/api/v1/jobs",
+        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderJobs),
+      refreshPanel("rails","/api/v1/rails",
+        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails),
+      refreshPanel("audit","/api/v1/audit",
+        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit)
+    ]).then(function(){
+      inflight = false;
+      var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
+      var allBad = Object.keys(panels).every(function(k){ return panels[k].error!==null; });
+      var cs = $("connState");
+      if(allBad){ cs.textContent="API unreachable"; cs.className="bad"; }
+      else if(anyOk){ cs.textContent="connected · "+cfg.base+" · rtt "+(Date.now()-t0)+"ms"; cs.className="ok"; }
+      nextAt = Date.now() + REFRESH_S*1000;
+      tick();
+    });
+  }
+
+  // ---------- 1 Hz ticker: ages, staleness, countdown ----------
+  function tick(){
+    var now = Date.now();
+    Object.keys(panels).forEach(function(name){
+      var p = panels[name];
+      var el = $("panel-"+name);
+      var ageEl = $("age-"+name);
+      if(p.measuredAtMs===null){
+        ageEl.textContent = "no data";
+        ageEl.className = "age never";
+        if(p.error!==null) el.classList.add("error");
+        return;
+      }
+      var ageS = (now - p.measuredAtMs)/1000;
+      ageEl.textContent = humanAge(ageS);
+      ageEl.className = "age";
+      if(ageS > STALE_S) el.classList.add("stale");
+      else el.classList.remove("stale");
+    });
+    // countdown
+    var cd = $("countdown");
+    if(!connected){
+      cd.textContent = "refresh idle"; cd.className = "";
+    } else if(paused){
+      cd.textContent = "refresh PAUSED"; cd.className = "paused";
+    } else {
+      var left = Math.max(0, Math.ceil((nextAt - now)/1000));
+      cd.textContent = "next refresh in "+left+"s";
+      cd.className = "";
+      if(now >= nextAt && !inflight) refreshAll();
+    }
+    $("clock").textContent = "local " + new Date(now).toLocaleTimeString();
+  }
+  setInterval(tick, 1000);
+
+  // ---------- controls ----------
+  $("btnConnect").addEventListener("click", function(){
+    cfg.base  = $("apiBase").value.trim();
+    cfg.token = $("token").value.trim();
+    if(!cfg.base){ $("connState").textContent="API base required"; $("connState").className="bad"; return; }
+    connected = true;
+    paused = false;
+    $("btnPause").disabled = false;
+    $("btnPause").textContent = "PAUSE";
+    $("connState").textContent = "connecting…";
+    $("connState").className = "";
+    nextAt = Date.now() + REFRESH_S*1000;
+    refreshAll();
+  });
+
+  $("btnPause").addEventListener("click", function(){
+    paused = !paused;
+    this.textContent = paused ? "RESUME" : "PAUSE";
+    if(!paused){ nextAt = Date.now(); }  // resume refreshes immediately
+    tick();
+  });
+
+  ["apiBase","token"].forEach(function(id){
+    $(id).addEventListener("keydown", function(e){
+      if(e.key==="Enter") $("btnConnect").click();
+    });
+  });
+
+  tick();
+})();
+</script>
+</body>
+</html>
