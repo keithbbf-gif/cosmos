@@ -58,8 +58,11 @@ def main() -> int:
     check("dead holder's late commit -> STALE_TOKEN, refused and ledgered",
           expect("STALE_TOKEN")(lambda: arb.fenced_commit(l1, lambda: "necromancy")))
     ev = [e["event"] for e in arb.events()]
-    check("expiry is a RECORDED event (EXPIRE precedes the new GRANT)",
+    check("expiry is a RECORDED event (EXPIRE precedes the takeover)",
           lambda: "EXPIRE" in ev and ev.index("EXPIRE") < len(ev) - 1)
+    # CRITIC M1: the contract says EXPIRE -> TAKEOVER. Assert the CONTRACT, not the code.
+    check("the grant AFTER an expiry is a TAKEOVER event (contract, not implementation)",
+          lambda: ev[ev.index("EXPIRE") + 1] == "TAKEOVER")
     check("the refusal is a RECORDED event, not console prose",
           lambda: any(e["event"] == "REFUSE" and e.get("op") == "commit" for e in arb.events()))
 

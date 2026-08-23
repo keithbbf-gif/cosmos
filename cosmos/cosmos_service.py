@@ -57,8 +57,12 @@ def make_handler(kernel: Kernel, token: str):
             if self.path == "/api/v1/rails":
                 reg = getattr(kernel, "registry", None)
                 if reg is None:
-                    return self._send(200, {"measured_at": time.time(), "matrix": [],
-                                            "note": "no registry attached"})
+                    # CRITIC M3 FIX: an uncomposed registry was a silent 200+empty -
+                    # "no links" and "not composed" read identically. 503 is the truth.
+                    return self._send(503, {"error": "REGISTRY_NOT_COMPOSED",
+                                            "detail": "kernel has no registry - this is "
+                                                      "a composition fault, not an empty "
+                                                      "rails matrix"})
                 return self._send(200, {"measured_at": time.time(),
                                         "matrix": reg.matrix()})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})

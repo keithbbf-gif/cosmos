@@ -67,6 +67,25 @@ class SpendGate:
             raise SpendError("UNKNOWN_RAIL",
                              f"{rail!r} has no budget - an unbudgeted rail cannot spend")
         b = st[rail]
+        now = self._clock()
+        # CRITIC B7 FIX (measured: an expired budget ALLOWED a call): an expired credit
+        # cannot be spent - that is what expiry MEANS - and the denial is typed.
+        if b.get("expires") and now >= b["expires"]:
+            self.ledger.append("SPEND_DENIED",
+                               {"rail": rail, "worst_case_usd": worst_case_usd,
+                                "detail": "BUDGET EXPIRED"})
+            raise SpendError("DENIED",
+                             f"{rail}: budget expired "
+                             f"{(now - b['expires'])/86400:.1f} days ago - an expired "
+                             f"credit is not money")
+        # B7 also: expired reservations are SWEPT (released with an event), not held
+        # against the cap forever - a fail-closed leak is still a defect.
+        for rid, r in list(b["reserved"].items()):
+            if now >= r["expires"]:
+                self.ledger.append("SPEND_RELEASED",
+                                   {"rail": rail, "rid": rid,
+                                    "detail": "reservation expired unsettled - swept"})
+                del b["reserved"][rid]
         outstanding = sum(r["usd"] for r in b["reserved"].values())
         if b["settled"] + outstanding + worst_case_usd > b["cap"]:
             self.ledger.append("SPEND_DENIED",
@@ -102,10 +121,12 @@ class SpendGate:
         now = self._clock()
         out = {"measured_at_epoch": now, "rails": {}}
         for rail, b in self._state().items():
+            reserved = sum(r["usd"] for r in b["reserved"].values())
             row = {"cap_usd": b["cap"], "settled_usd": round(b["settled"], 6),
-                   "reserved_usd": round(sum(r["usd"] for r in b["reserved"].values()), 6),
+                   "reserved_usd": round(reserved, 6),
                    "unpriced_calls": b["unpriced"],
-                   "headroom_usd": round(b["cap"] - b["settled"], 6)}
+                   # CRITIC B7: headroom that ignores reservations lies toward spending.
+                   "headroom_usd": round(b["cap"] - b["settled"] - reserved, 6)}
             if b["expires"]:
                 days = (b["expires"] - now) / 86400
                 burn_needed = b["cap"] - b["settled"]

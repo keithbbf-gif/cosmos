@@ -19,6 +19,28 @@ OK    status: ok + READY + root identity
 SELFTEST PASS - 14 checks
 ```
 
+## test_concurrency.py (rc=0)
+```
+OK    B1: 100 interleaved appends from TWO writers, zero errors
+  OK    B1: the chain VERIFIES after the hammer (was: BROKEN_CHAIN, measured)
+  OK    B1: seqs are 1..100 with no duplicates
+  OK    B1: BOTH writers landed records (it was interleaved, not serialized-by-luck)
+  OK    B1: read-only Kernel() appends NOTHING
+  OK    B1: read-only kernel REFUSES protected writes
+  OK    B2: EXACTLY ONE winner under overlap (was: double-claim, measured)
+  OK    B2: the loser LOSES CLEANLY (LOST_CLAIM or empty queue, no exception leak)
+  OK    B2: the sched chain VERIFIES after the race (was: BROKEN_CHAIN)
+  OK    B2: exactly one JOB_CLAIMED in the ledger
+  OK    B7: spend on an EXPIRED budget is DENIED and the call NEVER RAN (was: ALLOWED, measured)
+  OK    B7: headroom subtracts reservations (the audit stops lying)
+  OK    M2: re-install with a different tree_id REFUSES (was: silent restamp)
+  OK    M2: install record exists and from_install_record() has a happy path
+  OK    M2: from_install_record resolves the root
+  OK    kernel COMPOSES registry/spend/validator itself
+  OK    kernel session close over open watcher REFUSES (B5 composed)
+SELFTEST PASS - 17 checks (every one reproduces a MEASURED critic finding)
+```
+
 ## test_core.py (rc=0)
 ```
 OK    5 appends verify as a chain
@@ -39,7 +61,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.608s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -52,7 +74,8 @@ OK    grant issues token 1
   OK    dying holder recovered by expiry, no cleanup discipline
   OK    fencing token is MONOTONIC across takeover
   OK    dead holder's late commit -> STALE_TOKEN, refused and ledgered
-  OK    expiry is a RECORDED event (EXPIRE precedes the new GRANT)
+  OK    expiry is a RECORDED event (EXPIRE precedes the takeover)
+  OK    the grant AFTER an expiry is a TAKEOVER event (contract, not implementation)
   OK    the refusal is a RECORDED event, not console prose
   OK    release frees the resource
   OK    release with stale token is recorded, ignored, and harmless
@@ -62,7 +85,7 @@ OK    grant issues token 1
   OK    replayed arbiter sees the live lease
   OK    replayed arbiter's NEXT token is higher (counter survives restart)
   OK    torn ledger -> TORN_LEDGER refusal (never reads as free)
-SELFTEST PASS - 17 checks (5 refusals asserted BY KIND, 2 chains BY EVENT)
+SELFTEST PASS - 18 checks (5 refusals asserted BY KIND, 2 chains BY EVENT)
 ```
 
 ## test_cosmos_mail.py (rc=0)

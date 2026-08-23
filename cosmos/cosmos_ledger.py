@@ -39,7 +39,7 @@ from typing import Iterator, Optional
 
 
 class LedgerError(RuntimeError):
-    """kind in {TORN, BROKEN_CHAIN, FORGED, UNREADABLE}."""
+    """kind in {TORN, BROKEN_CHAIN, FORGED, UNREADABLE, STALE_HEAD}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -68,24 +68,75 @@ class Ledger:
         msg = f"{seq}|{prev_sha}|{payload_sha}".encode("utf-8")
         return hmac_mod.new(self._key, msg, hashlib.sha256).hexdigest()[:32]
 
-    def append(self, event: str, payload: dict) -> dict:
-        body = _canon(payload)
-        t = self._clock()
-        local = time.localtime(t)
-        off = -time.timezone + (3600 if local.tm_isdst else 0)
-        self._seq += 1
-        rec = {"seq": self._seq, "event": event, "t": t, "utc_off": off,
-               "payload": payload, "payload_len": len(body),
-               "payload_sha": hashlib.sha256(body).hexdigest(),
-               "prev_sha": self._prev_sha, "writer": self._writer}
-        rec["hmac"] = self._sign(rec["seq"], rec["prev_sha"], rec["payload_sha"])
-        line = json.dumps(rec, sort_keys=True, separators=(",", ":"))
-        with open(self._path, "a", encoding="utf-8", newline="") as fh:
-            fh.write(line + "\n")
-            fh.flush()
-            os.fsync(fh.fileno())
-        self._prev_sha = hashlib.sha256(line.encode("utf-8")).hexdigest()
-        return rec
+    def _lock_handle(self):
+        """Cross-process serialization via an OS lock on a sidecar .lock file.
+        CRITIC FINDING B1 (Grok, 2026-08-23, MEASURED): two writers on the same head
+        both wrote seq=2 and tore the chain. The fix is an EXCLUSIVE OS LOCK held
+        across (re-prime from disk -> append -> fsync): the second writer BLOCKS,
+        then re-primes onto the new head. A lock the OS releases on process death
+        needs no cleanup discipline."""
+        lk = open(str(self._path) + ".lock", "a+b")
+        if os.name == "nt":
+            import msvcrt
+            msvcrt.locking(lk.fileno(), msvcrt.LK_LOCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(lk.fileno(), fcntl.LOCK_EX)
+        return lk
+
+    def _unlock(self, lk) -> None:
+        try:
+            if os.name == "nt":
+                import msvcrt
+                lk.seek(0)
+                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(lk.fileno(), fcntl.LOCK_UN)
+        finally:
+            lk.close()
+
+    def append(self, event: str, payload: dict,
+               expect_head_seq: Optional[int] = None) -> dict:
+        """Serialized append. Under the OS lock the writer RE-PRIMES from disk, so a
+        concurrent writer lands on the REAL head instead of a remembered one (B1).
+        `expect_head_seq` is optimistic concurrency for callers whose DECISION depended
+        on the head they projected (the scheduler's claim): if the head moved since,
+        the append refuses with STALE_HEAD instead of recording a decision made on a
+        dead projection (B2's clean loser)."""
+        lk = self._lock_handle()
+        try:
+            for _ in self.verify():          # re-prime seq/prev_sha from DISK
+                pass
+            if expect_head_seq is not None and self._seq != expect_head_seq:
+                raise LedgerError("STALE_HEAD",
+                                  f"head moved {expect_head_seq} -> {self._seq} while "
+                                  f"deciding - losing cleanly, re-project and retry")
+            body = _canon(payload)
+            t = self._clock()
+            local = time.localtime(t)
+            off = -time.timezone + (3600 if local.tm_isdst else 0)
+            self._seq += 1
+            rec = {"seq": self._seq, "event": event, "t": t, "utc_off": off,
+                   "payload": payload, "payload_len": len(body),
+                   "payload_sha": hashlib.sha256(body).hexdigest(),
+                   "prev_sha": self._prev_sha, "writer": self._writer}
+            rec["hmac"] = self._sign(rec["seq"], rec["prev_sha"], rec["payload_sha"])
+            line = json.dumps(rec, sort_keys=True, separators=(",", ":"))
+            with open(self._path, "a", encoding="utf-8", newline="") as fh:
+                fh.write(line + "\n")
+                fh.flush()
+                os.fsync(fh.fileno())
+            self._prev_sha = hashlib.sha256(line.encode("utf-8")).hexdigest()
+            return rec
+        finally:
+            self._unlock(lk)
+
+    def head_seq(self) -> int:
+        """Current head sequence, re-read from disk - for expect_head_seq callers."""
+        for _ in self.verify():
+            pass
+        return self._seq
 
     # ---------------- verify / read ----------------
     def verify(self) -> Iterator[dict]:
@@ -115,6 +166,12 @@ class Ledger:
             except ValueError as e:
                 raise LedgerError("TORN", f"line {i}: does not parse ({e}) - an "
                                           f"unreadable history is not an empty one") from e
+            if not isinstance(rec, dict) or "payload" not in rec:
+                # critic H2 finding: a parseable line missing its payload raised an
+                # UNTYPED KeyError. A well-formed lie is BROKEN_CHAIN, typed.
+                raise LedgerError("BROKEN_CHAIN",
+                                  f"line {i}: parseable but not a ledger record "
+                                  f"(missing payload)")
             body = _canon(rec["payload"])
             if (rec.get("payload_len") != len(body)
                     or rec.get("payload_sha") != hashlib.sha256(body).hexdigest()):

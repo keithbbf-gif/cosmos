@@ -34,9 +34,15 @@ from cosmos_sched import Scheduler, SchedError                 # noqa: F401
 
 class Kernel:
     def __init__(self, root: str | os.PathLike, worker: str = "core",
-                 clock=time.time):
+                 clock=time.time, read_only: bool = False):
+        """CRITIC B1 FIX (half 2): 'a read is a write' - every Kernel() appended
+        BOOT_VERIFIED, so `cosmos status` while `serve` ran made a second writer.
+        read_only=True boots WITHOUT appending and REFUSES protected writes; the CLI's
+        status/audit paths use it. (Half 1 is the ledger's OS-lock serialization, which
+        makes even two writing kernels chain-safe - but a reader still should not write.)"""
         self._clock = clock
         self.worker = worker
+        self.read_only = read_only
 
         # 1 - resolver (raises CosmosPathError, typed)
         self.paths = CosmosPaths(root)
@@ -55,21 +61,40 @@ class Kernel:
         self.ledger = Ledger(self.paths.ledger("authority.jsonl"), key,
                              worker, clock)
 
-        # 4 - the boot is itself an event
-        self.ledger.append("BOOT_VERIFIED",
-                           {"root": str(self.paths.root),
-                            "tree_id": self.paths.sentinel.tree_id,
-                            "worker": worker})
+        # 4 - the boot is itself an event - but ONLY for a writing kernel (B1)
+        if not read_only:
+            self.ledger.append("BOOT_VERIFIED",
+                               {"root": str(self.paths.root),
+                                "tree_id": self.paths.sentinel.tree_id,
+                                "worker": worker})
 
-        # 5 - subsystems on the verified foundation
+        # 5 - subsystems COMPOSED on the verified foundation (critic: "composition in a
+        # test is not composition in Core" - registry/spend/validator/context now live
+        # here, not as sibling files a test wires by assignment)
         self.arbiter = Arbiter(self.paths.ledger("leases.jsonl"), clock=clock)
         self.mail = Mailbox(self.paths.role("state", "mail"), worker)
         self.mail.register()
         self.sched = Scheduler(self.paths.role("queue"), key, worker, clock)
+        from cosmos_registry import Registry
+        from cosmos_spend import SpendGate
+        from cosmos_validate import ReturnValidator
+        self.registry = Registry(self.ledger, clock=clock)
+        self.spend = SpendGate(self.ledger, clock=clock)
+        self.validator = ReturnValidator(self.ledger)
         self.ready = True
+
+    def open_session(self, session_id: str, stream: str):
+        """Context manifests are a KERNEL verb (critic B5: modules beside a kernel are
+        not a kernel). Closing the returned Session over an open watcher REFUSES."""
+        from cosmos_context import Session
+        return Session(self.ledger, session_id, stream, clock=self._clock)
 
     # ---------------- fenced protected write ----------------
     def protected_write(self, resource: str, relpath: str, content: str) -> Path:
+        if self.read_only:
+            raise CosmosPathError("NOT_FOUND",
+                                  "read-only kernel refuses protected writes - boot a "
+                                  "writing kernel for this (B1: a reader is not a writer)")
         """THE fenced commit: lease -> write to a private temp -> fenced install ->
         ledger event. No lease, no write - and a stale lease is REFUSED by the arbiter,
         not by discipline."""
@@ -118,15 +143,35 @@ class Kernel:
 
 # ---------------- installer ----------------
 def install(root: str | os.PathLike, tree_id: str) -> Path:
-    """Stand up a COSMOS root like normal software: sentinel + role dirs + install key.
-    Idempotent for the same tree_id; REFUSES to re-key an existing install (a rotated
-    key silently orphans every signed record)."""
-    from cosmos_paths import write_sentinel, ROLES
+    """Stand up a COSMOS root like normal software: sentinel + role dirs + install key
+    + INSTALL RECORD. Idempotent for the same tree_id.
+    CRITIC M2 FIX: re-install with a DIFFERENT tree_id on a live root REFUSES - the old
+    code silently restamped the identity of an existing install, which is hijack-shaped.
+    And the machine install record is now written, so from_install_record() has a happy
+    path instead of only a refusal."""
+    import json as _json
+    from cosmos_paths import write_sentinel, ROLES, SENTINEL_NAME, CosmosPathError
     root = Path(root)
+    existing = root / SENTINEL_NAME
+    if existing.exists():
+        try:
+            cur = _json.loads(existing.read_text(encoding="utf-8"))
+        except ValueError as e:
+            raise CosmosPathError("UNPARSEABLE", f"existing sentinel is torn: {e}") from e
+        if cur.get("tree_id") not in ("", tree_id):
+            raise CosmosPathError(
+                "IDENTITY_MISMATCH",
+                f"root already carries tree_id={cur.get('tree_id')!r}; refusing to "
+                f"restamp it as {tree_id!r} - re-identifying a live install is a "
+                f"hijack, not an install")
     write_sentinel(root, tree_id=tree_id)
     for rel in ROLES.values():
         (root / rel).mkdir(parents=True, exist_ok=True)
     keyfile = root / "config" / "install_key.bin"
     if not keyfile.exists():
         keyfile.write_bytes(os.urandom(32))
+    record = root / "config" / "install_record.json"
+    record.write_text(_json.dumps({"root": str(root), "tree_id": tree_id,
+                                   "installed_epoch": time.time()}, indent=1),
+                      encoding="utf-8")
     return root

@@ -98,19 +98,27 @@ class Scheduler:
     def claim_next(self) -> Optional[dict]:
         """Claim the highest-priority queued job. Returns the manifest, or None when the
         queue is empty. A racing loser gets LOST_CLAIM - typed, clean, and it moves on."""
+        # CRITIC B2 FIX (measured double-claim closed): the decision and the append are
+        # bound by OPTIMISTIC CONCURRENCY on the ledger head. We record the head we
+        # projected FROM; append(expect_head_seq=) refuses with STALE_HEAD under the
+        # ledger's OS lock if any writer moved the head in between. The loser gets a
+        # typed LOST_CLAIM, the chain stays whole, and the next call takes the next job.
+        from cosmos_ledger import LedgerError
+        head = self.ledger.head_seq()
         q = self.queued()
         if not q:
             return None
         m = q[0]
-        # re-project immediately before appending: the append IS the transition, and the
-        # projection is the guard. (In-process this is serialized by the ledger append;
-        # the cross-process arbiter serialization is Core's job - stated, not smuggled.)
-        st = self._state()
-        if st[m["job_id"]]["st"] != "QUEUED":
-            raise SchedError("LOST_CLAIM",
-                             f"{m['job_id']} was claimed by "
-                             f"{st[m['job_id']]['by']} - losing cleanly, take the next")
-        self.ledger.append("JOB_CLAIMED", {"job_id": m["job_id"], "worker": self.worker})
+        try:
+            self.ledger.append("JOB_CLAIMED",
+                               {"job_id": m["job_id"], "worker": self.worker},
+                               expect_head_seq=head)
+        except LedgerError as e:
+            if e.kind == "STALE_HEAD":
+                raise SchedError("LOST_CLAIM",
+                                 f"{m['job_id']}: head moved while deciding - losing "
+                                 f"cleanly; re-call to take the next job") from e
+            raise
         return m
 
     # ---------------- outcomes ----------------

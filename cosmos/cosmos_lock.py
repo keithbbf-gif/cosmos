@@ -123,9 +123,16 @@ class Arbiter:
             raise LockError("HELD", f"{resource} held by {cur.holder} "
                                     f"(token {cur.token}, {cur.expires_at - self._clock():.0f}s left)")
         self._max_token += 1
+        # CRITIC M1 FIX: TAKEOVER was dead code (was_takeover=False, never computed) and
+        # the selftest asserted the implementation instead of the contract. Now decided
+        # from the LEDGER: if the last lifecycle event for this resource is EXPIRE, this
+        # grant IS the takeover, and the chain is EXPIRE -> TAKEOVER as documented.
         was_takeover = False
-        # takeover vs fresh grant is decided by whether the ledger's last event for this
-        # resource was an EXPIRE (recorded chain: EXPIRE -> TAKEOVER)
+        for e in reversed(self.events()):
+            if e.get("resource") == resource and e.get("event") in (
+                    "GRANT", "TAKEOVER", "RELEASE", "EXPIRE"):
+                was_takeover = e["event"] == "EXPIRE"
+                break
         lease = Lease(resource, holder, self._max_token, self._clock(),
                       self._clock() + (ttl or self._ttl))
         self._leases[resource] = lease

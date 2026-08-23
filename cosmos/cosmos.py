@@ -48,7 +48,8 @@ def main() -> int:
         return 0
 
     from cosmos_kernel import Kernel
-    k = Kernel(a.root, worker="cli")
+    # status/audit are READS and boot a read-only kernel (B1: a read is not a write)
+    k = Kernel(a.root, worker="cli", read_only=a.cmd in ("status", "audit"))
 
     if a.cmd == "status":
         last = k.ledger.last()
