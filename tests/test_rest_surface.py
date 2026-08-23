@@ -229,6 +229,77 @@ def main() -> int:
     code, resp = _http(svc, "GET", "/api/v1/events?since_seq=0")
     check("GET /events with valid since_seq still answers 200",
           lambda: code == 200 and isinstance(resp.get("events"), list))
+
+    # ================= STATIC PWA SHELL (no bearer, no data) =================
+    def _get_raw(path, token=None):
+        """GET returning (status, content_type, body_bytes); token=None sends NO
+        Authorization header at all (the phone's first visit)."""
+        req = urllib.request.Request(f"http://127.0.0.1:{svc.port}{path}",
+                                     method="GET")
+        if token is not None:
+            req.add_header("Authorization", "Bearer " + token)
+        try:
+            with urllib.request.urlopen(req, timeout=10) as r:
+                return r.status, r.headers.get("Content-Type", ""), r.read()
+        except urllib.error.HTTPError as e:
+            return e.code, e.headers.get("Content-Type", ""), e.read()
+
+    st_root, ct_root, body_root = _get_raw("/")
+    check("GET / without any token -> 200 text/html (installable shell is open)",
+          lambda: st_root == 200 and ct_root.startswith("text/html"))
+    check("GET / serves the MOBILE page by default (the road use case)",
+          lambda: b"KDash Mobile" in body_root)
+    st_m, ct_m, body_m = _get_raw("/m")
+    check("GET /m -> 200 text/html, same mobile page",
+          lambda: st_m == 200 and ct_m.startswith("text/html")
+          and body_m == body_root)
+    st_mob, _, body_mob = _get_raw("/mobile")
+    check("GET /mobile -> 200, same mobile page", lambda: st_mob == 200
+          and body_mob == body_root)
+    st_d, ct_d, body_d = _get_raw("/dash")
+    check("GET /dash -> 200 text/html (the desktop page, distinct from mobile)",
+          lambda: st_d == 200 and ct_d.startswith("text/html")
+          and body_d != body_root and b"<html" in body_d.lower())
+    st_man, ct_man, body_man = _get_raw("/kdash_manifest.webmanifest")
+    man = json.loads(body_man.decode("utf-8")) if st_man == 200 else {}
+    check("GET /kdash_manifest.webmanifest -> 200 application/manifest+json",
+          lambda: st_man == 200 and ct_man.startswith("application/manifest+json"))
+    check("...manifest is valid JSON: COSMOS, start_url /m, standalone, 192+512 icons",
+          lambda: man.get("name") == "COSMOS" and man.get("start_url") == "/m"
+          and man.get("display") == "standalone"
+          and {"192x192", "512x512"} <= {i.get("sizes") for i in man.get("icons", [])})
+    st_sw, ct_sw, body_sw = _get_raw("/kdash_sw.js")
+    check("GET /kdash_sw.js -> 200 text/javascript (root path => scope /)",
+          lambda: st_sw == 200 and ct_sw.startswith("text/javascript"))
+    check("...the served SW carries the /api/ exclusion (never caches data)",
+          lambda: b'indexOf("/api/")' in body_sw and b"NEVER cache /api/" in body_sw)
+    # the shell must carry NO secret: the bearer token appears in no static body
+    tok = svc.token.encode("utf-8")
+    check("no static shell body contains the bearer token",
+          lambda: all(tok not in b for b in
+                      (body_root, body_d, body_man, body_sw)))
+    # NEGATIVE CONTROLS: the open shell did not open the data
+    code_neg, _, _ = _get_raw("/api/v1/status")
+    check("GET /api/v1/status with NO token is still 401 (data stays gated)",
+          lambda: code_neg == 401)
+    code_pos, resp_pos = _http(svc, "GET", "/api/v1/status")
+    check("GET /api/v1/status WITH the bearer still 200 (auth unchanged)",
+          lambda: code_pos == 200 and resp_pos.get("ready") is True)
+    code_unk, _, _ = _get_raw("/kdash_secrets")
+    check("a non-allowlisted path without token is NOT served (401, exact-match "
+          "allowlist only)", lambda: code_unk == 401)
+    # traversal attempt: request text must never become a filesystem path
+    import http.client as _hc
+    conn = _hc.HTTPConnection("127.0.0.1", svc.port, timeout=10)
+    conn.putrequest("GET", "/kdash_sw.js/../cosmos_service.py",
+                    skip_host=False, skip_accept_encoding=False)
+    conn.endheaders()
+    r_tr = conn.getresponse()
+    tr_status, tr_body = r_tr.status, r_tr.read()
+    conn.close()
+    check("path traversal ( /kdash_sw.js/../cosmos_service.py ) is refused, "
+          "source never served",
+          lambda: tr_status in (401, 404) and b"_load_api_token" not in tr_body)
     svc.shutdown()
 
     # ================= COMMAND SUBMIT PARSE =================
@@ -254,7 +325,8 @@ def main() -> int:
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label, ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (crucible real-or-501; token refuse; submit parse)"
+    print("SELFTEST %s - %d checks (crucible real-or-501; token refuse; submit "
+          "parse; pwa shell open, /api/v1 gated)"
           % ("PASS" if not bad else "FAIL", len(RESULTS)))
     return 0 if not bad else 1
 

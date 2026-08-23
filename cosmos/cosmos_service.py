@@ -11,6 +11,13 @@ ENDPOINTS (v1):
     GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
     POST /api/v1/jobs    - submit {command, priority} -> job_id
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
+STATIC APP SHELL (PWA, no bearer - see _STATIC_ROUTES):
+    GET / , /m , /mobile - the phone-first page (mobile is the road default)
+    GET /dash            - the desktop KDash page
+    GET /kdash_manifest.webmanifest , /kdash_sw.js - installability shell
+The shell is an exact-match allowlist of fixed files carrying NO data and NO
+token (the bearer is pasted into the page at runtime, memory only); every
+/api/v1/* route keeps requiring the bearer exactly as before.
 Every response carries served_at + measured_at - a panel that cannot show its age is
 the frozen-dashboard scar. Auth is a bearer token from the install config - remote
 access control exists from day one, invisible in use (zero-friction canon). A blank
@@ -36,6 +43,40 @@ _LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
 # JSON control messages; 1 MiB is generous. An uncapped Content-Length is an
 # invitation to allocate arbitrary memory on an authenticated-or-not socket.
 _MAX_BODY_BYTES = 1 << 20
+
+
+def _frontend_file(name: str):
+    """Resolve one shell file: kdash/<name> beside (or above) this module in the
+    repo layout, or flat kdash_<name> in a spike checkout - the same resolution
+    order as cosmos_kdash._find_kdash_index. None if absent (an honest 404)."""
+    from pathlib import Path as _P
+    here = _P(__file__).resolve().parent
+    for cand in (here / "kdash" / name,
+                 here.parent / "kdash" / name,
+                 here / ("kdash_" + name)):
+        if cand.is_file():
+            return cand
+    return None
+
+
+# THE STATIC APP SHELL (PWA). Served WITHOUT the bearer, deliberately: these are
+# fixed, allowlisted files containing no data and no secret - the token is pasted
+# by the user into the page at runtime and lives in page memory only. Serving the
+# shell openly is what makes the client installable/reachable from a phone; the
+# data behind it still requires the bearer on every /api/v1/* request. The dict
+# is an EXACT-MATCH allowlist: no request text ever becomes a filesystem path,
+# so there is no traversal surface. Mobile is the default at / (the road case).
+_CT_HTML = "text/html; charset=utf-8"
+_STATIC_ROUTES = {
+    "/": ("mobile.html", _CT_HTML),
+    "/m": ("mobile.html", _CT_HTML),
+    "/mobile": ("mobile.html", _CT_HTML),
+    "/dash": ("index.html", _CT_HTML),
+    "/kdash_manifest.webmanifest": ("manifest.webmanifest",
+                                    "application/manifest+json"),
+    # served at the ROOT path so its default scope ("/") can control /m
+    "/kdash_sw.js": ("sw.js", "text/javascript; charset=utf-8"),
+}
 
 
 class ServiceError(RuntimeError):
@@ -146,7 +187,31 @@ def make_handler(kernel: Kernel, token: str):
                 return None
             return self.rfile.read(n)
 
+        def _send_static(self, name: str, ctype: str):
+            """Serve one allowlisted shell file as bytes. A missing file is an
+            honest 404 (SHELL_FILE_MISSING), never a silent empty page."""
+            path = _frontend_file(name)
+            if path is None:
+                return self._send(404, {"error": "SHELL_FILE_MISSING",
+                                        "file": name})
+            body = path.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", ctype)
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("X-Content-Type-Options", "nosniff")
+            # the service worker does shell caching; the server stays honest
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(body)
+
         def do_GET(self):                                             # noqa: N802
+            # Static app shell FIRST, without the bearer (see _STATIC_ROUTES:
+            # fixed files, no data, no token). Everything below this line keeps
+            # requiring the bearer exactly as before.
+            from urllib.parse import urlparse as _urlparse
+            route = _STATIC_ROUTES.get(_urlparse(self.path).path)
+            if route is not None:
+                return self._send_static(*route)
             if not self._authed():
                 return self._send(401, {"error": "UNAUTHORIZED"})
             if self.path == "/api/v1/status":

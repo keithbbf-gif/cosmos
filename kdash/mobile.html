@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>KDash Mobile — COSMOS</title>
+<link rel="manifest" href="/kdash_manifest.webmanifest">
+<meta name="theme-color" content="#0b0e12">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="COSMOS">
 <!--
   kdash_mobile.html — PHONE-FIRST frontend for the COSMOS v1 API (cosmos_service.py).
   Single self-contained file: no CDNs, no external scripts/styles/fonts, vanilla JS.
@@ -496,6 +502,21 @@
     if(connected && now >= nextAt){ nextAt = now + REFRESH_S*1000; refreshAll(); }
     if(connected && now >= nextEventsAt){ nextEventsAt = now + EVENTS_S*1000; pollEvents(); }
   }, 500);
+})();
+</script>
+<script>
+/* PWA: register the app-shell service worker (/kdash_sw.js). Feature-detected
+   and wrapped so it can NEVER break the page: no serviceWorker support, a
+   file:// open, or an insecure origin just leaves the page working as plain
+   HTML. The worker caches ONLY the shell (page/manifest/worker) - it never
+   caches /api/v1/* responses, so data stays live (the frozen-dashboard scar).
+   The bearer token is untouched by all of this: in-memory cfg only. */
+(function(){
+  if (!("serviceWorker" in navigator)) return;   /* graceful: not an error */
+  try {
+    navigator.serviceWorker.register("/kdash_sw.js")
+      .catch(function(){ /* unsupported scheme or offline first load: fine */ });
+  } catch (e) { /* never surfaces - the page must work without a SW */ }
 })();
 </script>
 </body>
