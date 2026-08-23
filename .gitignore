@@ -1,0 +1,68 @@
+# COSMOS .gitignore - DENY BY DEFAULT, and that is deliberate.
+#
+# 🔴 THE PREDECESSOR DID THE OPPOSITE AND DOCUMENTED WHY IT WAS DANGEROUS.
+# bts-mesh ships everything - "private repo, push it all there" - and its own .gitignore carries
+# the warning: "THE ONE THING THAT WOULD MAKE THIS WRONG IS THE REPO GOING PUBLIC. If it is ever
+# flipped, the credentials in gemini_cli_env.json and every balance in the ledgers go with it.
+# That is a property of the REPO, not of this file."
+#
+# COSMOS IS BUILT TO BE DISTRIBUTED - Jack, Grayson, a cold machine. So the exposure question is
+# settled at commit one instead of at publish time: CODE AND GOVERNANCE IN, STATE AND SECRETS OUT.
+# => A repo that never contained a secret needs no scrub, no history rewrite, and no decision on
+#    the day someone flips it public. A CLEAN REPO IS CHEAPER THAN A CLEANED ONE.
+
+# ---- SECRETS. Never, under any name, on any branch. ----
+.secrets/
+*_key.txt
+*_token.txt
+*api_key*
+*apikey*
+*_env.json
+gemini_cli_env.json
+credentials*.json
+*.pem
+
+# ---- LIVE STATE. Belongs to a running instance, not to the software. ----
+# Shipping these is how a peer install inherits somebody else's history and believes it.
+*_ledger.jsonl
+*_heartbeat*.json
+*_state/
+*_state.json
+mesh_state.json
+dash.json
+bench.json
+chan.json
+drive_health.json
+spend*.json
+*_spend*.json
+budget_knobs.json
+
+# ---- QUEUE AND RUNTIME OUTPUT ----
+_queue/
+_lanes/
+_delme/
+tmp/
+logs/
+*.log
+out/
+
+# ---- PYTHON ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# ---- EDITOR / OS ----
+.vscode/
+.idea/
+~$*
+Thumbs.db
+desktop.ini
+
+# ---- BACKUPS AND STAGED DELETIONS ----
+*.bak
+*.bak-*
+delme__*
+*.PRE_*

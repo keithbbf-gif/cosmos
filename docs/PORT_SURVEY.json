@@ -1,0 +1,935 @@
+{
+ "measured": "2026-08-22T22:32:15",
+ "source": "V:\\Ai\\BTS_MESH",
+ "py_files": 139,
+ "total_lines": 38599,
+ "total_bytes": 1869383,
+ "files_with_drive_literal": 73,
+ "drive_literal_lines": 179,
+ "parent_arithmetic_lines": 11,
+ "parent_arithmetic_files": [
+  "bts_health.py",
+  "rail_check_task.py",
+  "task_registry.py",
+  "tidyup2_hand.py",
+  "tools_sync.py",
+  "tree_lock.py",
+  "wargame_bundle.py",
+  "wargame_feed.py"
+ ],
+ "relative_ref_files": [
+  "backup_to_onedrive.py",
+  "bts_billing.py",
+  "bts_gw.py",
+  "bts_oa_api.py",
+  "bts_odx.py",
+  "bts_selfaudit.py",
+  "bts_sgh.py",
+  "drive_inventory.py",
+  "qa_handoff.py",
+  "task_registry.py",
+  "tidyup2_hand.py"
+ ],
+ "clean_files": [
+  "_ask_open_questions.py",
+  "_gem_force_vertex.py",
+  "_netmap.py",
+  "_rail_contract_controls.py",
+  "_ref_library_task.py",
+  "_verify_and_reconcile.py",
+  "bts.py",
+  "bts_board.py",
+  "bts_bus.py",
+  "bts_claude.py",
+  "bts_conductor.py",
+  "bts_cop.py",
+  "bts_daemon.py",
+  "bts_deadline.py",
+  "bts_discovery.py",
+  "bts_docindex.py",
+  "bts_doctor.py",
+  "bts_drive_health.py",
+  "bts_dymon.py",
+  "bts_elevated_ops.py",
+  "bts_figdig.py",
+  "bts_gate.py",
+  "bts_gdx.py",
+  "bts_gemini_cli.py",
+  "bts_gw.py",
+  "bts_identity.py",
+  "bts_launch.py",
+  "bts_licwatch.py",
+  "bts_mcp.py",
+  "bts_mtl.py",
+  "bts_mux.py",
+  "bts_node.py",
+  "bts_oa.py",
+  "bts_office.py",
+  "bts_orchestrator.py",
+  "bts_phone.py",
+  "bts_policy.py",
+  "bts_registry.py",
+  "bts_route.py",
+  "bts_schemas.py",
+  "bts_serve.py",
+  "bts_snapshot.py",
+  "bts_spend_gate.py",
+  "bts_state.py",
+  "bts_watcher.py",
+  "dedupe_corpus.py",
+  "demo_roundtrip.py",
+  "disk_guard.py",
+  "domain_assay.py",
+  "ocr_backlog.py",
+  "odx_probe.py",
+  "pdais_stage5.py",
+  "record_add_exhibits.py",
+  "route_gate.py",
+  "spendgate_wrapper_controls.py",
+  "test_bts_bus.py",
+  "test_integration.py",
+  "test_mesh_v2.py",
+  "test_watcher.py",
+  "toml_guard.py",
+  "verify_citations.py",
+  "verify_gemini_cli.py",
+  "verify_quotes.py"
+ ],
+ "per_file": [
+  {
+   "file": "_ask_open_questions.py",
+   "lines": 132,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_btsr11.py",
+   "lines": 122,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "_ch4b_review.py",
+   "lines": 115,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "_gdx_probe.py",
+   "lines": 111,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "_gdx_refresh_proof.py",
+   "lines": 90,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "_gem_force_vertex.py",
+   "lines": 76,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_migrate_fix.py",
+   "lines": 100,
+   "literals": 6,
+   "parent": 0
+  },
+  {
+   "file": "_migrate_step3_paths.py",
+   "lines": 147,
+   "literals": 5,
+   "parent": 0
+  },
+  {
+   "file": "_migrate_verify.py",
+   "lines": 98,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "_netmap.py",
+   "lines": 157,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_rail_contract_controls.py",
+   "lines": 240,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_ref_library_task.py",
+   "lines": 167,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_srv1_research.py",
+   "lines": 103,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "_tb1_dom_research.py",
+   "lines": 145,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "_tb1_research.py",
+   "lines": 136,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "_usage_research.py",
+   "lines": 106,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "_verify_and_reconcile.py",
+   "lines": 77,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "_verify_joanna_rails.py",
+   "lines": 173,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "_vertex_auth_probe.py",
+   "lines": 87,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "backup_to_onedrive.py",
+   "lines": 262,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bench_drive.py",
+   "lines": 341,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bts.py",
+   "lines": 51,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_anon.py",
+   "lines": 678,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_bench.py",
+   "lines": 399,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bts_billing.py",
+   "lines": 172,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "bts_board.py",
+   "lines": 297,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_bus.py",
+   "lines": 117,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_calibrate.py",
+   "lines": 198,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "bts_capacity.py",
+   "lines": 347,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "bts_chanbench.py",
+   "lines": 209,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "bts_claude.py",
+   "lines": 237,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_conductor.py",
+   "lines": 96,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_cop.py",
+   "lines": 170,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_creditprobe.py",
+   "lines": 193,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bts_daemon.py",
+   "lines": 214,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_deadline.py",
+   "lines": 124,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_discovery.py",
+   "lines": 70,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_docindex.py",
+   "lines": 297,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_doctor.py",
+   "lines": 52,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_drive_health.py",
+   "lines": 389,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_drivebench.py",
+   "lines": 103,
+   "literals": 8,
+   "parent": 0
+  },
+  {
+   "file": "bts_dymon.py",
+   "lines": 159,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_elevated_ops.py",
+   "lines": 312,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_figdig.py",
+   "lines": 187,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_gate.py",
+   "lines": 163,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_gdx.py",
+   "lines": 235,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_gdxbench.py",
+   "lines": 128,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_gem.py",
+   "lines": 613,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_gemini_cli.py",
+   "lines": 130,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_gw.py",
+   "lines": 458,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_health.py",
+   "lines": 647,
+   "literals": 2,
+   "parent": 2
+  },
+  {
+   "file": "bts_identity.py",
+   "lines": 146,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_kdash_feed.py",
+   "lines": 1280,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_launch.py",
+   "lines": 117,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_licwatch.py",
+   "lines": 920,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_mcp.py",
+   "lines": 258,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_meters.py",
+   "lines": 194,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_mtl.py",
+   "lines": 406,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_mux.py",
+   "lines": 751,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_node.py",
+   "lines": 56,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_oa.py",
+   "lines": 479,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_oa_api.py",
+   "lines": 485,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bts_oagrab.py",
+   "lines": 637,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "bts_odx.py",
+   "lines": 328,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_office.py",
+   "lines": 222,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_orchestrator.py",
+   "lines": 80,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_paths.py",
+   "lines": 200,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "bts_phone.py",
+   "lines": 136,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_policy.py",
+   "lines": 265,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_poller.py",
+   "lines": 564,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "bts_quota.py",
+   "lines": 91,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "bts_registry.py",
+   "lines": 197,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_review.py",
+   "lines": 119,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_route.py",
+   "lines": 263,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_runner.py",
+   "lines": 439,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_schemas.py",
+   "lines": 136,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_selfaudit.py",
+   "lines": 408,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_serve.py",
+   "lines": 296,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_sgh.py",
+   "lines": 1290,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "bts_snapshot.py",
+   "lines": 272,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_spend_gate.py",
+   "lines": 537,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_state.py",
+   "lines": 556,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "bts_surfaces.py",
+   "lines": 353,
+   "literals": 5,
+   "parent": 0
+  },
+  {
+   "file": "bts_sync.py",
+   "lines": 318,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_tools.py",
+   "lines": 312,
+   "literals": 5,
+   "parent": 0
+  },
+  {
+   "file": "bts_vertex.py",
+   "lines": 443,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_watchdog.py",
+   "lines": 282,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "bts_watcher.py",
+   "lines": 63,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "codex_config_fix.py",
+   "lines": 278,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "dedupe_corpus.py",
+   "lines": 220,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "demo_roundtrip.py",
+   "lines": 44,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "disk_guard.py",
+   "lines": 202,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "domain_assay.py",
+   "lines": 169,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "drive_inventory.py",
+   "lines": 176,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "fanout_review.py",
+   "lines": 160,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "find_in_mail.py",
+   "lines": 335,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "fire_one_rail.py",
+   "lines": 663,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "fix_rails.py",
+   "lines": 231,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "fix_stale_dates.py",
+   "lines": 239,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "gdx_fresh_auth.py",
+   "lines": 155,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "handoff_guard.py",
+   "lines": 126,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "legal_tree.py",
+   "lines": 181,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "maint_sweep.py",
+   "lines": 594,
+   "literals": 4,
+   "parent": 0
+  },
+  {
+   "file": "mesh_fanout.py",
+   "lines": 351,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "mesh_test.py",
+   "lines": 261,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "ocr_backlog.py",
+   "lines": 279,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "odx_probe.py",
+   "lines": 87,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "parallel_jobs.py",
+   "lines": 128,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "pdais_stage5.py",
+   "lines": 226,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "qa_handoff.py",
+   "lines": 285,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "rail_check.py",
+   "lines": 656,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "rail_check_task.py",
+   "lines": 82,
+   "literals": 0,
+   "parent": 1
+  },
+  {
+   "file": "record_add_exhibits.py",
+   "lines": 130,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "record_reindex.py",
+   "lines": 182,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "record_trim.py",
+   "lines": 200,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "rfa_review.py",
+   "lines": 212,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "route_gate.py",
+   "lines": 143,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "runner_doctor.py",
+   "lines": 269,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "runner_repair.py",
+   "lines": 168,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "sng_ask.py",
+   "lines": 268,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "spendgate_wrapper_controls.py",
+   "lines": 173,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "sweep_corpus.py",
+   "lines": 319,
+   "literals": 2,
+   "parent": 0
+  },
+  {
+   "file": "task_registry.py",
+   "lines": 951,
+   "literals": 9,
+   "parent": 2
+  },
+  {
+   "file": "test_bts_bus.py",
+   "lines": 69,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "test_integration.py",
+   "lines": 51,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "test_mesh_v2.py",
+   "lines": 81,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "test_watcher.py",
+   "lines": 20,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "tidyup2_checks.py",
+   "lines": 869,
+   "literals": 3,
+   "parent": 0
+  },
+  {
+   "file": "tidyup2_full.py",
+   "lines": 705,
+   "literals": 6,
+   "parent": 0
+  },
+  {
+   "file": "tidyup2_hand.py",
+   "lines": 988,
+   "literals": 6,
+   "parent": 1
+  },
+  {
+   "file": "toml_guard.py",
+   "lines": 182,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "tools_sync.py",
+   "lines": 252,
+   "literals": 0,
+   "parent": 1
+  },
+  {
+   "file": "tree_lock.py",
+   "lines": 281,
+   "literals": 0,
+   "parent": 1
+  },
+  {
+   "file": "verify_citations.py",
+   "lines": 250,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "verify_gemini_cli.py",
+   "lines": 81,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "verify_quotes.py",
+   "lines": 151,
+   "literals": 0,
+   "parent": 0
+  },
+  {
+   "file": "wargame.py",
+   "lines": 505,
+   "literals": 1,
+   "parent": 0
+  },
+  {
+   "file": "wargame_bundle.py",
+   "lines": 147,
+   "literals": 2,
+   "parent": 1
+  },
+  {
+   "file": "wargame_feed.py",
+   "lines": 495,
+   "literals": 3,
+   "parent": 2
+  }
+ ],
+ "note": "Comments and docstrings excluded from the literal count. The ~66 files / 1,961 literals figure in VENDOR_FEATURES_2026-08-20.md is a REMEMBERED number; these are measured. Quote these."
+}
