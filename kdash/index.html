@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KDash · COSMOS v1</title>
+<style>
+  :root {
+    --bg: #090b0e;
+    --bg-elev: #10141a;
+    --panel: #13181f;
+    --panel-2: #181e27;
+    --line: #2a3340;
+    --line-2: #3a4656;
+    --ink: #d7deea;
+    --muted: #7d8899;
+    --dim: #556070;
+    --teal: #6ee0c0;
+    --ok: #3ee08a;
+    --warn: #e0b43e;
+    --bad: #e04b4b;
+    --unk: #9b8ce0;
+    --run: #4db8e8;
+    --find: #e08a3e;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+    --sans: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 12px/1.35 var(--mono);
+    min-height: 100vh;
+  }
+  body::before {
+    content: "";
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      linear-gradient(180deg, rgba(110,224,192,.03), transparent 28%),
+      repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,0,0,.12) 3px, rgba(0,0,0,.12) 4px);
+  }
+  #app { position: relative; z-index: 1; padding: 10px 12px 14px; max-width: 1600px; margin: 0 auto; }
+
+  header.top {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 16px;
+    align-items: end;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+  .brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+  .brand h1 {
+    margin: 0; font: 700 20px/1 var(--sans);
+    letter-spacing: .08em; color: var(--teal);
+  }
+  .brand .sub { color: var(--muted); font-size: 11px; letter-spacing: .04em; }
+  .brand .sub b { color: var(--ink); font-weight: 600; }
+  .clockline {
+    grid-column: 1 / -1;
+    display: flex; flex-wrap: wrap; gap: 6px 14px;
+    color: var(--muted); font-size: 11px;
+  }
+  .clockline .k { color: var(--dim); letter-spacing: .08em; }
+  .clockline .v { color: var(--ink); }
+  .clockline .v.fresh { color: var(--ok); }
+  .clockline .v.stale { color: var(--warn); }
+  .clockline .v.dead { color: var(--bad); }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; align-items: center;
+  }
+  label.fld { display: flex; flex-direction: column; gap: 2px; color: var(--dim); font-size: 9px; letter-spacing: .1em; }
+  input, select, button {
+    font: 12px/1.2 var(--mono);
+    background: var(--bg-elev);
+    color: var(--ink);
+    border: 1px solid var(--line-2);
+    border-radius: 2px;
+    padding: 5px 7px;
+  }
+  input:focus, select:focus, button:focus { outline: 1px solid var(--teal); border-color: var(--teal); }
+  input[type="password"], input[type="text"], input[type="url"] { min-width: 180px; }
+  input#token { min-width: 220px; }
+  button {
+    background: #1b2430; color: var(--teal); letter-spacing: .06em;
+    cursor: pointer; text-transform: uppercase; font-size: 11px;
+  }
+  button:hover { background: #243040; }
+  button.ghost { color: var(--muted); }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.2fr);
+    grid-template-areas:
+      "status jobs"
+      "rails rails"
+      "audit audit";
+    gap: 8px;
+  }
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; grid-template-areas: "status" "jobs" "rails" "audit"; }
+    header.top { grid-template-columns: 1fr; }
+    .controls { justify-content: flex-start; }
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    min-height: 0;
+    display: flex; flex-direction: column;
+  }
+  #p-status { grid-area: status; }
+  #p-jobs { grid-area: jobs; }
+  #p-rails { grid-area: rails; }
+  #p-audit { grid-area: audit; }
+
+  .phd {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 12px;
+    align-items: start;
+    padding: 7px 10px 6px;
+    border-bottom: 1px solid var(--line);
+    background: var(--panel-2);
+  }
+  .phd h2 {
+    margin: 0; font: 700 11px/1.2 var(--sans);
+    letter-spacing: .16em; color: var(--muted);
+  }
+  .phd .err { color: var(--bad); font-size: 10px; margin-top: 3px; max-width: 52ch; }
+  .phd .note { color: var(--warn); font-size: 10px; margin-top: 3px; }
+
+  .agebox {
+    text-align: right; min-width: 9.5rem;
+    border-left: 3px solid var(--dim);
+    padding-left: 8px;
+  }
+  .agebox .alab { font-size: 9px; letter-spacing: .16em; color: var(--dim); }
+  .agebox .aval { font: 700 22px/1 var(--sans); letter-spacing: .02em; color: var(--dim); }
+  .agebox .asub { font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .agebox.fresh { border-color: var(--ok); }
+  .agebox.fresh .aval { color: var(--ok); }
+  .agebox.stale { border-color: var(--warn); }
+  .agebox.stale .aval { color: var(--warn); }
+  .agebox.dead { border-color: var(--bad); }
+  .agebox.dead .aval { color: var(--bad); }
+  .agebox.none { border-color: var(--unk); }
+  .agebox.none .aval { color: var(--unk); font-size: 16px; }
+
+  .pbody { padding: 8px 10px 10px; overflow: auto; }
+
+  .kv { display: grid; grid-template-columns: 9.5rem 1fr; gap: 3px 8px; }
+  .kv .k { color: var(--dim); letter-spacing: .08em; font-size: 10px; }
+  .kv .v { color: var(--ink); word-break: break-all; }
+
+  .pill {
+    display: inline-block; padding: 1px 6px; border: 1px solid currentColor;
+    letter-spacing: .08em; font-size: 10px; line-height: 1.4;
+  }
+  .pill.ok, .st-CLEAN, .st-READY, .st-VERIFIED, .st-UP { color: var(--ok); }
+  .pill.warn, .st-QUEUED, .st-FINDINGS { color: var(--find); }
+  .pill.run, .st-RUNNING { color: var(--run); }
+  .pill.bad, .st-BROKE, .st-UNREACHABLE, .st-UNAUTHORIZED { color: var(--bad); }
+  .pill.unk, .st-UNKNOWN { color: var(--unk); }
+
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 3px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--dim); font-size: 10px; letter-spacing: .1em; font-weight: 600; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody tr:hover { background: rgba(110,224,192,.04); }
+  .empty { color: var(--dim); padding: 10px 2px; }
+
+  .stats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .stat {
+    background: var(--bg-elev); border: 1px solid var(--line);
+    padding: 5px 8px; min-width: 5.5rem;
+  }
+  .stat .n { font: 700 16px/1 var(--sans); color: var(--ink); }
+  .stat .l { font-size: 9px; letter-spacing: .1em; color: var(--dim); margin-top: 2px; }
+
+  .mxwrap { overflow: auto; margin-bottom: 10px; }
+  .matrix { border: 1px solid var(--line); min-width: 100%; }
+  .matrix th { background: var(--bg-elev); }
+  .cellstack { display: flex; flex-direction: column; gap: 3px; }
+  .cellrow { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .age-s { font-variant-numeric: tabular-nums; }
+
+  .submit {
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: end;
+    margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line);
+  }
+  .submit input[type="text"] { min-width: 220px; flex: 1; }
+
+  .banner {
+    display: none; margin-bottom: 8px; padding: 6px 8px;
+    border: 1px solid var(--bad); color: var(--bad); background: #1a1010;
+  }
+  .banner.show { display: block; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="brand">
+      <h1>KDASH</h1>
+      <div class="sub">pure client of <b>COSMOS /api/v1</b> · status · jobs · rails · audit</div>
+    </div>
+    <div class="controls">
+      <label class="fld">API ORIGIN
+        <input id="origin" type="url" spellcheck="false" placeholder="http://127.0.0.1:8787" autocomplete="off">
+      </label>
+      <label class="fld">BEARER TOKEN
+        <input id="token" type="password" spellcheck="false" placeholder="from config/api_token.txt" autocomplete="off">
+      </label>
+      <label class="fld">AUTO
+        <select id="interval">
+          <option value="2000">2s</option>
+          <option value="5000" selected>5s</option>
+          <option value="10000">10s</option>
+          <option value="30000">30s</option>
+          <option value="0">off</option>
+        </select>
+      </label>
+      <button id="refresh" type="button">Refresh</button>
+    </div>
+    <div class="clockline">
+      <span><span class="k">NOW</span> <span class="v" id="now">—</span></span>
+      <span><span class="k">LAST REFRESH</span> <span class="v" id="last-refresh">never</span></span>
+      <span><span class="k">REFRESH AGE</span> <span class="v" id="refresh-age">UNMEASURED</span></span>
+      <span><span class="k">AUTO</span> <span class="v" id="auto-state">5s</span></span>
+      <span><span class="k">AUTH</span> <span class="v" id="auth-state">NO TOKEN</span></span>
+    </div>
+  </header>
+
+  <div id="banner" class="banner"></div>
+
+  <div class="grid">
+    <section class="panel" id="p-status">
+      <div class="phd">
+        <div>
+          <h2>STATUS  /api/v1/status</h2>
+          <div class="err" id="status-err"></div>
+        </div>
+        <div class="agebox none" id="status-age"></div>
+      </div>
+      <div class="pbody" id="status-body"><div class="empty">no measurement yet</div></div>
+    </section>
+
+    <section class="panel" id="p-jobs">
+      <div class="phd">
+        <div>
+          <h2>JOBS  /api/v1/jobs</h2>
+          <div class="err" id="jobs-err"></div>
+        </div>
+        <div class="agebox none" id="jobs-age"></div>
+      </div>
+      <div class="pbody" id="jobs-body"><div class="empty">no measurement yet</div></div>
+    </section>
+
+    <section class="panel" id="p-rails">
+      <div class="phd">
+        <div>
+          <h2>RAILS MATRIX  /api/v1/rails</h2>
+          <div class="err" id="rails-err"></div>
+          <div class="note" id="rails-note"></div>
+        </div>
+        <div class="agebox none" id="rails-age"></div>
+      </div>
+      <div class="pbody" id="rails-body"><div class="empty">no measurement yet</div></div>
+    </section>
+
+    <section class="panel" id="p-audit">
+      <div class="phd">
+        <div>
+          <h2>AUDIT  /api/v1/audit</h2>
+          <div class="err" id="audit-err"></div>
+        </div>
+        <div class="agebox none" id="audit-age"></div>
+      </div>
+      <div class="pbody" id="audit-body"><div class="empty">no measurement yet</div></div>
+    </section>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var PANELS = ["status", "jobs", "rails", "audit"];
+  var PATHS = {
+    status: "/api/v1/status",
+    jobs: "/api/v1/jobs",
+    rails: "/api/v1/rails",
+    audit: "/api/v1/audit"
+  };
+
+  var state = {
+    origin: "",
+    token: "",
+    intervalMs: 5000,
+    lastRefreshMs: null,
+    refreshing: false,
+    timer: null,
+    auth: "NO TOKEN",
+    panels: {}
+  };
+
+  PANELS.forEach(function (id) {
+    state.panels[id] = {
+      servedAt: null,
+      measuredAt: null,
+      receivedMs: null,
+      error: null,
+      data: null
+    };
+  });
+
+  function $(id) { return document.getElementById(id); }
+
+  function el(tag, attrs) {
+    var n = document.createElement(tag);
+    var kids = Array.prototype.slice.call(arguments, 2);
+    if (attrs) {
+      Object.keys(attrs).forEach(function (k) {
+        var v = attrs[k];
+        if (v == null || v === false) return;
+        if (k === "class") n.className = v;
+        else if (k === "dataset") Object.keys(v).forEach(function (d) { n.dataset[d] = v[d]; });
+        else n.setAttribute(k, v);
+      });
+    }
+    kids.forEach(function (c) {
+      if (c == null || c === false) return;
+      n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    });
+    return n;
+  }
+
+  function empty(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+
+  function fmtClock(ms) {
+    var d = new Date(ms);
+    var p = function (n, w) { return String(n).padStart(w || 2, "0"); };
+    return p(d.getHours()) + ":" + p(d.getMinutes()) + ":" + p(d.getSeconds()) + "." + p(d.getMilliseconds(), 3);
+  }
+
+  function fmtAge(seconds) {
+    if (seconds == null || !isFinite(seconds)) return "UNMEASURED";
+    var s = Math.max(0, seconds);
+    if (s < 60) return s.toFixed(1) + "s";
+    if (s < 3600) {
+      var m = Math.floor(s / 60);
+      return m + "m " + (s - m * 60).toFixed(0) + "s";
+    }
+    var h = Math.floor(s / 3600);
+    return h + "h " + Math.floor((s - h * 3600) / 60) + "m";
+  }
+
+  function ageClass(seconds) {
+    if (seconds == null || !isFinite(seconds)) return "none";
+    if (seconds < 8) return "fresh";
+    if (seconds < 30) return "stale";
+    return "dead";
+  }
+
+  function epochToMs(t) {
+    if (t == null || t === "") return null;
+    var n = Number(t);
+    if (!isFinite(n)) return null;
+    return n < 1e12 ? n * 1000 : n;
+  }
+
+  function measuredOf(id, data) {
+    if (!data) return null;
+    if (id === "audit") return epochToMs(data.measured_at_epoch != null ? data.measured_at_epoch : data.measured_at);
+    if (data.measured_at != null) return epochToMs(data.measured_at);
+    return null;
+  }
+
+  function defaultOrigin() {
+    if (location.protocol === "http:" || location.protocol === "https:") return location.origin;
+    return "http://127.0.0.1:8787";
+  }
+
+  function loadPrefs() {
+    try {
+      var o = sessionStorage.getItem("kdash.origin");
+      var t = sessionStorage.getItem("kdash.token");
+      var i = sessionStorage.getItem("kdash.interval");
+      $("origin").value = o != null ? o : defaultOrigin();
+      $("token").value = t || "";
+      if (i != null) $("interval").value = i;
+    } catch (e) {
+      $("origin").value = defaultOrigin();
+    }
+    syncPrefs();
+  }
+
+  function syncPrefs() {
+    state.origin = ($("origin").value || "").replace(/\/+$/, "");
+    state.token = $("token").value.trim();
+    state.intervalMs = parseInt($("interval").value, 10) || 0;
+    try {
+      sessionStorage.setItem("kdash.origin", $("origin").value);
+      sessionStorage.setItem("kdash.token", $("token").value);
+      sessionStorage.setItem("kdash.interval", String(state.intervalMs));
+    } catch (e) { /* private mode */ }
+    $("auto-state").textContent = state.intervalMs ? (state.intervalMs / 1000) + "s" : "off";
+    if (!state.token) state.auth = "NO TOKEN";
+  }
+
+  function banner(msg) {
+    var b = $("banner");
+    if (!msg) { b.className = "banner"; empty(b); return; }
+    b.className = "banner show";
+    empty(b);
+    b.appendChild(document.createTextNode(msg));
+  }
+
+  function paintAgeBox(id) {
+    var p = state.panels[id];
+    var box = $(id + "-age");
+    empty(box);
+    var now = Date.now();
+    var primaryMs = p.measuredAt != null ? p.measuredAt : p.servedAt;
+    var ageS = primaryMs != null ? (now - primaryMs) / 1000 : null;
+    box.className = "agebox " + ageClass(ageS);
+    box.appendChild(el("div", { class: "alab" }, "PANEL AGE"));
+    box.appendChild(el("div", { class: "aval" }, fmtAge(ageS)));
+    var srv = p.servedAt != null ? fmtAge((now - p.servedAt) / 1000) : "—";
+    var msr = p.measuredAt != null ? fmtAge((now - p.measuredAt) / 1000) : "absent";
+    box.appendChild(el("div", { class: "asub" }, "served " + srv + " · measured " + msr));
+  }
+
+  function paintAges() {
+    var now = Date.now();
+    $("now").textContent = fmtClock(now);
+    if (state.lastRefreshMs == null) {
+      $("last-refresh").textContent = "never";
+      $("refresh-age").textContent = "UNMEASURED";
+      $("refresh-age").className = "v none";
+    } else {
+      var rs = (now - state.lastRefreshMs) / 1000;
+      $("last-refresh").textContent = fmtClock(state.lastRefreshMs);
+      $("refresh-age").textContent = fmtAge(rs);
+      $("refresh-age").className = "v " + ageClass(rs);
+    }
+    var authEl = $("auth-state");
+    authEl.textContent = state.auth;
+    authEl.className = "v " + (state.auth === "OK" ? "fresh" : state.auth === "NO TOKEN" ? "none" : "dead");
+    PANELS.forEach(paintAgeBox);
+    tickRailsRowAges();
+  }
+
+  function setPanelError(id, msg) {
+    var node = $(id + "-err");
+    empty(node);
+    if (msg) node.appendChild(document.createTextNode(msg));
+  }
+
+  function pill(text, cls) {
+    return el("span", { class: "pill " + (cls || "") }, text);
+  }
+
+  function jobClass(st) {
+    if (st === "CLEAN" || st === "READY") return "ok";
+    if (st === "RUNNING") return "run";
+    if (st === "QUEUED" || st === "FINDINGS") return "warn";
+    if (st === "BROKE") return "bad";
+    return "unk";
+  }
+
+  function verifiedLabel(v) {
+    if (v === true) return { t: "VERIFIED", c: "ok" };
+    if (v === false) return { t: "UNREACHABLE", c: "bad" };
+    return { t: "UNKNOWN", c: "unk" };
+  }
+
+  function renderStatus(data) {
+    var body = $("status-body");
+    empty(body);
+    if (!data) { body.appendChild(el("div", { class: "empty" }, "no measurement yet")); return; }
+    var ready = !!data.ready;
+    var head = data.ledger_head || {};
+    body.appendChild(el("div", { class: "stats" },
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, ready ? "READY" : "NOT READY"),
+        el("div", { class: "l" }, "KERNEL")
+      ),
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, head.seq != null ? String(head.seq) : "—"),
+        el("div", { class: "l" }, "LEDGER SEQ")
+      )
+    ));
+    body.appendChild(el("div", { class: "kv" },
+      el("div", { class: "k" }, "READY"),
+      el("div", { class: "v" }, pill(ready ? "READY" : "NOT READY", ready ? "ok" : "bad")),
+      el("div", { class: "k" }, "ROOT"),
+      el("div", { class: "v" }, data.root == null ? "—" : String(data.root)),
+      el("div", { class: "k" }, "TREE ID"),
+      el("div", { class: "v" }, data.tree_id == null ? "—" : String(data.tree_id)),
+      el("div", { class: "k" }, "LEDGER EVENT"),
+      el("div", { class: "v" }, head.event == null ? "—" : String(head.event))
+    ));
+  }
+
+  function renderJobs(data) {
+    var body = $("jobs-body");
+    empty(body);
+    var jobs = (data && data.jobs) || {};
+    var ids = Object.keys(jobs);
+    var counts = {};
+    ids.forEach(function (id) {
+      var st = jobs[id];
+      counts[st] = (counts[st] || 0) + 1;
+    });
+    var order = ["QUEUED", "RUNNING", "CLEAN", "FINDINGS", "BROKE"];
+    var seen = {};
+    var stats = el("div", { class: "stats" },
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, String(ids.length)),
+        el("div", { class: "l" }, "JOBS")
+      )
+    );
+    order.forEach(function (st) {
+      if (counts[st] == null) return;
+      seen[st] = true;
+      stats.appendChild(el("div", { class: "stat" },
+        el("div", { class: "n" }, String(counts[st])),
+        el("div", { class: "l" }, st)
+      ));
+    });
+    Object.keys(counts).sort().forEach(function (st) {
+      if (seen[st]) return;
+      stats.appendChild(el("div", { class: "stat" },
+        el("div", { class: "n" }, String(counts[st])),
+        el("div", { class: "l" }, st)
+      ));
+    });
+    body.appendChild(stats);
+
+    if (!ids.length) {
+      body.appendChild(el("div", { class: "empty" }, "queue empty — no jobs in projection"));
+    } else {
+      var tb = el("tbody");
+      ids.sort().forEach(function (id) {
+        var st = String(jobs[id]);
+        tb.appendChild(el("tr", null,
+          el("td", null, id),
+          el("td", null, pill(st, jobClass(st)))
+        ));
+      });
+      body.appendChild(el("table", null,
+        el("thead", null, el("tr", null, el("th", null, "JOB ID"), el("th", null, "STATE"))),
+        tb
+      ));
+    }
+
+    var cmd = el("input", { type: "text", id: "job-cmd", placeholder: "command", spellcheck: "false" });
+    var pri = el("select", { id: "job-pri" },
+      el("option", { value: "critical" }, "critical"),
+      el("option", { value: "high" }, "high"),
+      el("option", { value: "normal", selected: "selected" }, "normal"),
+      el("option", { value: "low" }, "low")
+    );
+    var btn = el("button", { type: "button", id: "job-submit" }, "POST /jobs");
+    btn.addEventListener("click", submitJob);
+    body.appendChild(el("div", { class: "submit" },
+      el("label", { class: "fld" }, "COMMAND", cmd),
+      el("label", { class: "fld" }, "PRIORITY", pri),
+      btn
+    ));
+  }
+
+  function tickRailsRowAges() {
+    var now = Date.now();
+    var p = state.panels.rails;
+    document.querySelectorAll("[data-age-s]").forEach(function (node) {
+      var base = node.getAttribute("data-age-s");
+      if (base === "" || base == null) {
+        node.textContent = "UNMEASURED";
+        node.className = "age-s unk";
+        return;
+      }
+      var extra = p.receivedMs != null ? (now - p.receivedMs) / 1000 : 0;
+      var age = Number(base) + extra;
+      node.textContent = fmtAge(age);
+      node.className = "age-s " + ageClass(age);
+    });
+  }
+
+  function renderRails(data) {
+    var body = $("rails-body");
+    var note = $("rails-note");
+    empty(body);
+    empty(note);
+    if (data && data.note) note.appendChild(document.createTextNode(String(data.note)));
+    var rows = (data && data.matrix) || [];
+    if (!rows.length) {
+      body.appendChild(el("div", { class: "empty" }, data && data.note ? String(data.note) : "matrix empty"));
+      return;
+    }
+
+    var srcs = [];
+    var dsts = [];
+    var grid = {};
+    rows.forEach(function (r) {
+      var route = String(r.route || "");
+      var parts = route.split("->");
+      var src = (parts[0] || "?").trim();
+      var dst = (parts[1] || "?").trim();
+      if (srcs.indexOf(src) < 0) srcs.push(src);
+      if (dsts.indexOf(dst) < 0) dsts.push(dst);
+      var key = src + "\0" + dst;
+      if (!grid[key]) grid[key] = [];
+      grid[key].push(r);
+    });
+
+    var thead = el("thead");
+    var hr = el("tr", null, el("th", null, "SRC \\ DST"));
+    dsts.forEach(function (d) { hr.appendChild(el("th", null, d)); });
+    thead.appendChild(hr);
+    var tb = el("tbody");
+    srcs.forEach(function (s) {
+      var tr = el("tr", null, el("th", null, s));
+      dsts.forEach(function (d) {
+        var links = grid[s + "\0" + d] || [];
+        if (!links.length) {
+          tr.appendChild(el("td", { class: "empty" }, "—"));
+          return;
+        }
+        var stack = el("div", { class: "cellstack" });
+        links.forEach(function (r) {
+          var lab = verifiedLabel(r.verified);
+          var ageAttr = r.age_s == null ? "" : String(r.age_s);
+          stack.appendChild(el("div", { class: "cellrow" },
+            el("span", null, String(r.rail_type || "?") + " ", pill(lab.t, lab.c)),
+            el("span", { class: "age-s", "data-age-s": ageAttr }, r.age_s == null ? "UNMEASURED" : fmtAge(Number(r.age_s)))
+          ));
+        });
+        tr.appendChild(el("td", null, stack));
+      });
+      tb.appendChild(tr);
+    });
+    body.appendChild(el("div", { class: "mxwrap" }, el("table", { class: "matrix" }, thead, tb)));
+
+    var dt = el("tbody");
+    rows.forEach(function (r) {
+      var lab = verifiedLabel(r.verified);
+      var ageAttr = r.age_s == null ? "" : String(r.age_s);
+      dt.appendChild(el("tr", null,
+        el("td", null, String(r.link_id || "")),
+        el("td", null, String(r.rail_type || "")),
+        el("td", null, String(r.route || "")),
+        el("td", null, pill(lab.t, lab.c)),
+        el("td", { class: "num" },
+          el("span", { class: "age-s", "data-age-s": ageAttr }, r.age_s == null ? "UNMEASURED" : fmtAge(Number(r.age_s)))
+        )
+      ));
+    });
+    body.appendChild(el("table", null,
+      el("thead", null, el("tr", null,
+        el("th", null, "LINK"),
+        el("th", null, "TYPE"),
+        el("th", null, "ROUTE"),
+        el("th", null, "VERIFIED"),
+        el("th", { class: "num" }, "AGE")
+      )),
+      dt
+    ));
+  }
+
+  function renderAudit(data) {
+    var body = $("audit-body");
+    empty(body);
+    if (!data) { body.appendChild(el("div", { class: "empty" }, "no measurement yet")); return; }
+    var led = data.ledger || {};
+    var jobs = data.jobs || {};
+    var mail = data.mail || {};
+    var root = data.root || {};
+    var chain = led.chain == null ? "—" : String(led.chain);
+    body.appendChild(el("div", { class: "stats" },
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, led.records != null ? String(led.records) : "—"),
+        el("div", { class: "l" }, "LEDGER RECORDS")
+      ),
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, chain),
+        el("div", { class: "l" }, "CHAIN")
+      ),
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, data.leases_live != null ? String(data.leases_live) : "—"),
+        el("div", { class: "l" }, "LEASES LIVE")
+      ),
+      el("div", { class: "stat" },
+        el("div", { class: "n" }, mail.my_unread != null ? String(mail.my_unread) : "—"),
+        el("div", { class: "l" }, "MAIL UNREAD")
+      )
+    ));
+    var kv = el("div", { class: "kv" },
+      el("div", { class: "k" }, "LAST EVENT"),
+      el("div", { class: "v" }, led.last_event == null ? "—" : String(led.last_event)),
+      el("div", { class: "k" }, "ROOT"),
+      el("div", { class: "v" }, root.path == null ? "—" : String(root.path)),
+      el("div", { class: "k" }, "TREE ID"),
+      el("div", { class: "v" }, root.tree_id == null ? "—" : String(root.tree_id)),
+      el("div", { class: "k" }, "JOBS BY STATE"),
+      el("div", { class: "v" }, Object.keys(jobs).length ? "" : "—")
+    );
+    if (Object.keys(jobs).length) {
+      var jobCell = kv.lastChild;
+      Object.keys(jobs).sort().forEach(function (st, i) {
+        if (i) jobCell.appendChild(document.createTextNode("  "));
+        jobCell.appendChild(pill(st + " " + jobs[st], jobClass(st)));
+      });
+    }
+    body.appendChild(kv);
+  }
+
+  var RENDER = { status: renderStatus, jobs: renderJobs, rails: renderRails, audit: renderAudit };
+
+  function applyPanel(id, data, error) {
+    var p = state.panels[id];
+    p.error = error;
+    setPanelError(id, error);
+    if (data) {
+      p.data = data;
+      p.servedAt = epochToMs(data.served_at);
+      p.measuredAt = measuredOf(id, data);
+      p.receivedMs = Date.now();
+      RENDER[id](data);
+    } else if (!p.data) {
+      RENDER[id](null);
+    }
+    paintAgeBox(id);
+  }
+
+  function apiUrl(path) {
+    return (state.origin || "") + path;
+  }
+
+  function headers() {
+    var h = { Accept: "application/json" };
+    if (state.token) h.Authorization = "Bearer " + state.token;
+    return h;
+  }
+
+  function parseBody(text) {
+    if (!text) return {};
+    try { return JSON.parse(text); } catch (e) { return { error: "NON_JSON", detail: text.slice(0, 180) }; }
+  }
+
+  function fetchPanel(id) {
+    var path = PATHS[id];
+    return fetch(apiUrl(path), { headers: headers(), cache: "no-store" }).then(function (resp) {
+      return resp.text().then(function (text) {
+        var body = parseBody(text);
+        if (resp.status === 401) {
+          state.auth = "UNAUTHORIZED";
+          applyPanel(id, null, "UNAUTHORIZED");
+          return;
+        }
+        if (!resp.ok) {
+          var msg = (body && (body.error || body.detail)) ? String(body.error || body.detail) : ("HTTP " + resp.status);
+          applyPanel(id, body.served_at ? body : null, msg);
+          return;
+        }
+        state.auth = "OK";
+        applyPanel(id, body, null);
+      });
+    }).catch(function (err) {
+      var msg = err && err.message ? err.message : String(err);
+      if (/failed to fetch|networkerror|load failed/i.test(msg)) {
+        msg = "UNREACHABLE (network/CORS) — serve this page same-origin as COSMOS or allow the origin";
+      }
+      applyPanel(id, null, msg);
+    });
+  }
+
+  function refreshAll() {
+    syncPrefs();
+    if (!state.token) {
+      state.auth = "NO TOKEN";
+      banner("enter the bearer token from the COSMOS install (config/api_token.txt)");
+      PANELS.forEach(function (id) { applyPanel(id, null, "NO TOKEN"); });
+      paintAges();
+      return Promise.resolve();
+    }
+    banner("");
+    if (state.refreshing) return Promise.resolve();
+    state.refreshing = true;
+    $("refresh").disabled = true;
+    return Promise.all(PANELS.map(fetchPanel)).then(function () {
+      state.lastRefreshMs = Date.now();
+    }).finally(function () {
+      state.refreshing = false;
+      $("refresh").disabled = false;
+      paintAges();
+    });
+  }
+
+  function submitJob() {
+    syncPrefs();
+    var cmdEl = $("job-cmd");
+    var priEl = $("job-pri");
+    if (!cmdEl || !priEl) return;
+    var command = cmdEl.value.trim();
+    if (!command) { setPanelError("jobs", "command required"); return; }
+    if (!state.token) { setPanelError("jobs", "NO TOKEN"); return; }
+    fetch(apiUrl("/api/v1/jobs"), {
+      method: "POST",
+      headers: Object.assign({ "Content-Type": "application/json" }, headers()),
+      body: JSON.stringify({ command: command, priority: priEl.value || "normal" })
+    }).then(function (resp) {
+      return resp.text().then(function (text) {
+        var body = parseBody(text);
+        if (!resp.ok) {
+          setPanelError("jobs", body.detail || body.error || ("HTTP " + resp.status));
+          return;
+        }
+        cmdEl.value = "";
+        setPanelError("jobs", "");
+        return fetchPanel("jobs");
+      });
+    }).catch(function (err) {
+      setPanelError("jobs", err && err.message ? err.message : String(err));
+    });
+  }
+
+  function armTimer() {
+    if (state.timer) { clearInterval(state.timer); state.timer = null; }
+    if (state.intervalMs > 0) {
+      state.timer = setInterval(function () {
+        if (document.hidden) return;
+        refreshAll();
+      }, state.intervalMs);
+    }
+  }
+
+  ["origin", "token", "interval"].forEach(function (id) {
+    $(id).addEventListener("change", function () {
+      syncPrefs();
+      armTimer();
+      refreshAll();
+    });
+  });
+  $("token").addEventListener("keydown", function (e) {
+    if (e.key === "Enter") { syncPrefs(); refreshAll(); }
+  });
+  $("refresh").addEventListener("click", function () { refreshAll(); });
+
+  loadPrefs();
+  setInterval(paintAges, 250);
+  paintAges();
+  armTimer();
+  refreshAll();
+})();
+</script>
+</body>
+</html>
