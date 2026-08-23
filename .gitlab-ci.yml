@@ -4,7 +4,8 @@ cosmos-suite:
   image: python:3.12
   script:
     - python -m pip install --quiet cryptography || echo "crypto optional"
-    - export PYTHONPATH="$CI_PROJECT_DIR/cosmos:$CI_PROJECT_DIR/tests"
+    # Linux runner: `python` (not the Windows `py` launcher). Import path is cosmos/.
+    - export PYTHONPATH="$CI_PROJECT_DIR/cosmos"
     - for f in cosmos/*.py; do python -m py_compile "$f"; done
     - |
       fail=0
