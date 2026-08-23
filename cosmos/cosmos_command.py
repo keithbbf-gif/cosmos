@@ -11,6 +11,8 @@ THE GRAMMAR (small, explicit, case-insensitive first word):
     audit                                   - the kernel audit projection
     jobs                                    - job states from the scheduler projection
     submit <priority> <command...>          - priority in critical|high|normal|low
+                                              (first token only; command words are
+                                              not re-read as priority)
     help                                    - these lines
 
 DESIGN RULES, STATED SO NOBODY RELAXES THEM:
@@ -25,7 +27,8 @@ DESIGN RULES, STATED SO NOBODY RELAXES THEM:
 """
 from __future__ import annotations
 
-import os                                                          # noqa: F401
+import os
+import shlex
 
 from cosmos_kernel import Kernel
 from cosmos_sched import PRIORITIES
@@ -38,7 +41,8 @@ GRAMMAR = [
     "status                          - READY + root identity + ledger head",
     "audit                           - kernel audit (every number carries measured_at)",
     "jobs                            - job states projection",
-    "submit <priority> <command...>  - priority in critical|high|normal|low",
+    "submit <priority> <command...>  - priority is the first token only "
+    "(critical|high|normal|low); quoted commands stay whole",
     "help                            - this list",
 ]
 
@@ -83,7 +87,7 @@ class Commander:
                 st = self.kernel.sched._state()
                 out = {"ok": True, "jobs": {j: v["st"] for j, v in st.items()}}
             elif verb == "submit":
-                out = self._submit(words)
+                out = self._submit(text)
             elif verb == "help":
                 out = {"ok": True, "commands": list(GRAMMAR)}
             else:
@@ -110,13 +114,27 @@ class Commander:
                 "tree_id": self.kernel.paths.sentinel.tree_id,
                 "ledger_head": {"seq": last["seq"], "event": last["event"]}}
 
-    def _submit(self, words: list) -> dict:
+    def _submit(self, text: str) -> dict:
+        """Priority is ONLY the first token after `submit`. The remainder is the
+        command and is never re-scanned for priority words - `submit high review
+        this high priority patch` is one command that happens to mention `high`.
+        Quoted strings stay whole so a command containing a priority word is not
+        mis-split. An unparseable line REFUSES (BAD_ARGS), never guessed."""
         usage = ("usage: submit <priority> <command...> - priority is one of "
-                 + "|".join(sorted(PRIORITIES)))
+                 + "|".join(sorted(PRIORITIES))
+                 + "; the command is the remainder (quoted strings stay whole)")
+        try:
+            # posix=False on Windows so a backslash in a path is literal, not an escape
+            words = shlex.split(text, posix=(os.name != "nt"))
+        except ValueError as e:
+            raise CommandError("BAD_ARGS", f"{usage}. unparseable: {e}") from e
         if len(words) < 3:
             raise CommandError("BAD_ARGS", usage)
         priority = words[1].lower()
         if priority not in PRIORITIES:
             raise CommandError("BAD_ARGS", f"{words[1]!r} is not a priority. {usage}")
-        job_id = self.kernel.sched.submit(" ".join(words[2:]), priority)
+        command = " ".join(words[2:])
+        if not command.strip():
+            raise CommandError("BAD_ARGS", usage)
+        job_id = self.kernel.sched.submit(command, priority)
         return {"ok": True, "job_id": job_id}

@@ -46,6 +46,23 @@ def main() -> int:
           lambda: m is not None and m["job_id"] == s["job_id"])
     check("claimed job carries the spoken command", lambda: m["command"] == "echo hello")
 
+    # ---- submit parse: a command that CONTAINS a priority word is not mis-split ----
+    s2 = c.handle("submit high review this high priority patch")
+    m2 = k.sched.claim_next()
+    check("submit: priority words inside the command stay in the command",
+          lambda: m2 is not None and m2["job_id"] == s2["job_id"]
+          and m2["command"] == "review this high priority patch"
+          and m2["priority"] == "high")
+    s3 = c.handle('submit critical "deploy with high availability"')
+    m3 = k.sched.claim_next()
+    check("submit: a quoted command containing a priority word is not mis-split",
+          lambda: m3 is not None and m3["command"] == "deploy with high availability"
+          and m3["priority"] == "critical")
+    check("submit: last-word 'high' is NOT stolen as the priority (echo high)",
+          lambda: _expect(c, "submit echo high", "BAD_ARGS"))
+    check("submit: unclosed quote REFUSES (never guessed)",
+          lambda: _expect(c, 'submit high "echo hello', "BAD_ARGS"))
+
     # ---- refusals, each with its typed kind ----
     check("bad priority -> BAD_ARGS that teaches the grammar",
           lambda: _expect(c, "submit urgent echo hi", "BAD_ARGS"))
