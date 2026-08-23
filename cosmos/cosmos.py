@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """cosmos - the CLI entry point (F5 builder). Install / boot / status / submit / audit /
-backup / rehearse / serve. Refuses unknown flags. This is what a peer runs on a cold
+backup / rehearse / serve / session. Refuses unknown flags. This is what a peer runs on a cold
 machine after cloning the repo.
 
     py -3.14 cosmos.py install --root D:\\Ai\\Cosmos --tree-id JMesh-1
@@ -11,6 +11,8 @@ machine after cloning the repo.
     py -3.14 cosmos.py backup  --root ... --target E:\\backups
     py -3.14 cosmos.py rehearse --root ... --backup <dest> --scratch <dir>
     py -3.14 cosmos.py serve   --root ... --port 8770
+    py -3.14 cosmos.py session close --root D:\\Ai\\Cosmos
+    py -3.14 cosmos.py session start pb --root D:\\Ai\\Cosmos
 """
 from __future__ import annotations
 
@@ -43,6 +45,17 @@ def main() -> int:
     p.add_argument("--tls", action="store_true",
                    help="wrap the socket in TLS with a self-signed cert (config/); "
                         "stays http and says so if the crypto lib is absent")
+    p_sess = sub.add_parser("session",
+                            help="TidyUP close / BootUP start (session lifecycle)")
+    sess_sub = p_sess.add_subparsers(dest="session_cmd", required=True)
+    p_close = sess_sub.add_parser("close", help="TidyUP: validate controls, write SEED")
+    p_close.add_argument("--root", required=True)
+    p_close.add_argument("--handoff", default="next")
+    p_close.add_argument("--force", action="store_true",
+                         help="close over open watchers and record OPEN_CONTEXT")
+    p_start = sess_sub.add_parser("start", help="BootUP: read SEED, inject, open Session")
+    p_start.add_argument("stream")
+    p_start.add_argument("--root", required=True)
 
     a = ap.parse_args()
 
@@ -85,8 +98,10 @@ def main() -> int:
         from cosmos_service import Service
         host = "0.0.0.0" if a.remote else "127.0.0.1"
         svc = Service(k, host=host, port=a.port, tls=a.tls)
+        remote_note = ("REMOTE - LAN clients use this machine's IP; "
+                       if a.remote else "")
         print(f"COSMOS API serving {svc.scheme}://{host}:{svc.port} "
-              f"({'REMOTE - LAN clients use this machine\'s IP; ' if a.remote else ''}"
+              f"({remote_note}"
               f"{'TLS self-signed' if svc.scheme == 'https' else 'HTTP (no TLS this run)'}; "
               f"bearer token in config/api_token.txt; KDash: open kdash/index.html)")
         try:
@@ -94,6 +109,22 @@ def main() -> int:
         except KeyboardInterrupt:
             svc.shutdown()
         return 0
+    if a.cmd == "session":
+        from cosmos_session import SessionError
+        from cosmos_context import ContextError
+        try:
+            if a.session_cmd == "close":
+                path = k.sessions.close_session(handoff_to=a.handoff, force=a.force)
+                print(path)
+                return 0
+            if a.session_cmd == "start":
+                ctx = k.sessions.start_session(a.stream)
+                print(json.dumps(ctx, indent=1))
+                return 0
+        except (SessionError, ContextError) as e:
+            print(e, file=sys.stderr)
+            return 2
+        return 2
     return 2
 
 
