@@ -103,13 +103,24 @@ class MakerMap:
     # ---------------- mutations ----------------
     def add(self, entry: dict) -> dict:
         """Record one maker. Unknown kind REFUSES. A second add of the same id is a
-        drift (DUPLICATE), not an update - there is no delete and no silent replace."""
-        rec = _validate(entry)
-        if rec["id"] in self.state():
-            raise MakerError("DUPLICATE",
-                             f"{rec['id']!r} already declared - a second add is a "
-                             f"drift, not an update")
-        self.ledger.append("MAKER_ADDED", rec)
+        drift (DUPLICATE), not an update - there is no delete and no silent replace.
+
+        FINDING #5 FIX (was HIGH): `if id in state()` then `append()` was a
+        check-then-act race - two overlapping callers both passed the DUPLICATE
+        check and both appended, and the fold was last-wins. The duplicate check
+        now runs INSIDE ledger.append_guarded(): the ledger's cross-process OS
+        lock is held across (replay -> decide -> append), so no second writer can
+        interleave between the check and the append."""
+        rec = _validate(entry)          # UNKNOWN_KIND / BAD_ENTRY before any lock
+
+        def decide(recs):
+            if rec["id"] in self._project(recs):
+                raise MakerError("DUPLICATE",
+                                 f"{rec['id']!r} already declared - a second add is a "
+                                 f"drift, not an update")
+            return ("MAKER_ADDED", rec)
+
+        self.ledger.append_guarded(decide)
         return dict(rec)
 
     def load(self, path: str | Path) -> dict:
@@ -122,27 +133,42 @@ class MakerMap:
         for rec in rows:
             if rec["id"] in existing:
                 continue
-            added.append(self.add(rec))
+            try:
+                added.append(self.add(rec))
+            except MakerError as e:
+                # a concurrent seeder won the guarded append between our state()
+                # snapshot and this add - that id is 'already', not a failure.
+                if e.kind != "DUPLICATE":
+                    raise
         return {"loaded": len(rows), "added": len(added),
                 "already": len(rows) - len(added)}
 
     # ---------------- projection ----------------
+    def _project(self, recs) -> dict:
+        """Fold MAKER_ADDED records into the current map, RE-VALIDATING every
+        payload (finding #5): a ledgered event with an unknown kind or malformed
+        fields must not project as if it were clean, and a second MAKER_ADDED for
+        an existing id is DRIFT - refused, never a silent last-wins overwrite."""
+        s: dict = {}
+        for rec in recs:
+            if rec["event"] != "MAKER_ADDED":
+                continue
+            try:
+                p = _validate(rec["payload"])
+            except MakerError as e:
+                raise MakerError(e.kind if e.kind == "UNKNOWN_KIND" else "BAD_ENTRY",
+                                 f"ledger seq {rec.get('seq')}: MAKER_ADDED payload "
+                                 f"refuses validation and must not project ({e})") from e
+            if p["id"] in s:
+                raise MakerError("DUPLICATE",
+                                 f"ledger seq {rec.get('seq')}: second MAKER_ADDED for "
+                                 f"{p['id']!r} - drift in the ledger, refusing to "
+                                 f"project a silent overwrite")
+            s[p["id"]] = {**p, "t": rec["t"]}
+        return s
+
     def state(self) -> dict:
-        def fold(s, rec):
-            if rec["event"] == "MAKER_ADDED":
-                p = rec["payload"]
-                mid = p.get("id")
-                if mid:
-                    s[mid] = {"id": mid,
-                              "kind": p.get("kind"),
-                              "location": p.get("location"),
-                              "function": p.get("function"),
-                              "access": p.get("access"),
-                              "potential_sources": list(p.get("potential_sources") or []),
-                              "tags": list(p.get("tags") or []),
-                              "t": rec["t"]}
-            return s
-        return self.ledger.project(fold, {})
+        return self._project(self.ledger.verify())
 
     def list(self, kind: Optional[str] = None) -> list[dict]:
         """All makers, optionally filtered by kind. An unknown kind REFUSES rather

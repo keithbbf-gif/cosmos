@@ -29,6 +29,7 @@ assumed here.
 """
 from __future__ import annotations
 
+import errno
 import hashlib
 import hmac as hmac_mod
 import json
@@ -36,6 +37,13 @@ import os
 import time
 from pathlib import Path
 from typing import Iterator, Optional
+
+# Sidecar mutex geometry - same discipline as the arbiter's _lock_handle
+# (cosmos_lock, RF-LOCK-XPROC / T1): msvcrt.locking locks nbytes at the
+# CURRENT CRT file position and raises on contention; it is not flock.
+# Lock and unlock must both hit this fixed offset-0 region.
+LOCK_REGION = 1
+LOCK_POLL = 0.01
 
 
 class LedgerError(RuntimeError):
@@ -65,8 +73,11 @@ class Ledger:
 
     # ---------------- write ----------------
     def _sign(self, seq: int, prev_sha: str, payload_sha: str) -> str:
+        # FULL hexdigest (256-bit). The old [:32] truncation halved the MAC for
+        # nothing; verify() still ACCEPTS legacy 32-hex records (128-bit
+        # HMAC-SHA256 is not forgeable either) so existing chains load.
         msg = f"{seq}|{prev_sha}|{payload_sha}".encode("utf-8")
-        return hmac_mod.new(self._key, msg, hashlib.sha256).hexdigest()[:32]
+        return hmac_mod.new(self._key, msg, hashlib.sha256).hexdigest()
 
     def _lock_handle(self):
         """Cross-process serialization via an OS lock on a sidecar .lock file.
@@ -74,22 +85,59 @@ class Ledger:
         both wrote seq=2 and tore the chain. The fix is an EXCLUSIVE OS LOCK held
         across (re-prime from disk -> append -> fsync): the second writer BLOCKS,
         then re-primes onto the new head. A lock the OS releases on process death
-        needs no cleanup discipline."""
-        lk = open(str(self._path) + ".lock", "a+b")
-        if os.name == "nt":
-            import msvcrt
-            msvcrt.locking(lk.fileno(), msvcrt.LK_LOCK, 1)
-        else:
-            import fcntl
-            fcntl.flock(lk.fileno(), fcntl.LOCK_EX)
-        return lk
+        needs no cleanup discipline.
+
+        Native Windows: this now mirrors the arbiter's hardened pattern
+        (cosmos_lock T1) instead of `open('a+b') + LK_LOCK`. msvcrt.locking is
+        NOT flock - it locks LOCK_REGION bytes at the CRT file position (append
+        mode leaves that at EOF) and LK_LOCK retries ~10s then RAISES instead of
+        blocking. So: open O_RDWR|O_CREAT (never append-position), guarantee a
+        real LOCK_REGION byte exists, os.lseek(0) so CRT and Python agree, and
+        take LK_NBLCK in a poll loop; unlock hits the SAME fixed range."""
+        path = str(self._path) + ".lock"
+        flags = os.O_RDWR | os.O_CREAT
+        if hasattr(os, "O_BINARY"):
+            flags |= os.O_BINARY
+        if hasattr(os, "O_CLOEXEC"):
+            flags |= os.O_CLOEXEC
+        fd = os.open(path, flags, 0o666)
+        lk = os.fdopen(fd, "r+b", buffering=0)
+        try:
+            lk.seek(0, os.SEEK_END)
+            have = lk.tell()
+            if have < LOCK_REGION:
+                # msvcrt cannot lock a byte past EOF of a 0-length file.
+                lk.write(b"\x00" * (LOCK_REGION - have))
+                lk.flush()
+            if os.name == "nt":
+                import msvcrt
+                while True:
+                    lk.flush()
+                    os.lseek(lk.fileno(), 0, os.SEEK_SET)
+                    try:
+                        msvcrt.locking(lk.fileno(), msvcrt.LK_NBLCK, LOCK_REGION)
+                        break
+                    except OSError as e:
+                        # Contention is EACCES/EDEADLK; EBADF/EINVAL is a
+                        # programming error - do not spin on it.
+                        if e.errno in (errno.EBADF, errno.EINVAL):
+                            raise
+                        time.sleep(LOCK_POLL)
+            else:
+                import fcntl
+                fcntl.flock(lk.fileno(), fcntl.LOCK_EX)
+            return lk
+        except Exception:
+            lk.close()
+            raise
 
     def _unlock(self, lk) -> None:
         try:
             if os.name == "nt":
                 import msvcrt
-                lk.seek(0)
-                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, 1)
+                lk.flush()
+                os.lseek(lk.fileno(), 0, os.SEEK_SET)
+                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, LOCK_REGION)
             else:
                 import fcntl
                 fcntl.flock(lk.fileno(), fcntl.LOCK_UN)
@@ -218,7 +266,10 @@ class Ledger:
                 raise LedgerError("BROKEN_CHAIN",
                                   f"line {i}: seq {rec.get('seq')} != expected {seq + 1}")
             good = self._sign(rec["seq"], rec["prev_sha"], rec["payload_sha"])
-            if not hmac_mod.compare_digest(good, rec.get("hmac", "")):
+            got = rec.get("hmac", "")
+            ok = hmac_mod.compare_digest(good, got) or (
+                len(got) == 32 and hmac_mod.compare_digest(good[:32], got))
+            if not ok:                       # legacy 32-hex records still verify
                 raise LedgerError("FORGED",
                                   f"line {i}: hmac does not verify - a record this "
                                   f"service did not sign")

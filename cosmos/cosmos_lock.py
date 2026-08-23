@@ -102,6 +102,11 @@ class Arbiter:
         self._key = key
         self._leases: dict[str, Lease] = {}
         self._max_token = 0
+        # last lifecycle event (GRANT/TAKEOVER/RELEASE/EXPIRE) per resource,
+        # rebuilt by replay UNDER THE LOCK - acquire()'s takeover decision reads
+        # this instead of re-reading the JSONL through events() (which skipped
+        # signature verification and raised untyped on a torn line).
+        self._last_lifecycle: dict[str, str] = {}
         if self._ledger.exists():
             self._replay()
 
@@ -192,14 +197,32 @@ class Arbiter:
         this is the live projection, not a remembered one (RF-LOCK-XPROC)."""
         self._leases = {}
         self._max_token = 0
+        self._last_lifecycle = {}
         if self._ledger.exists():
             self._replay()
 
     def _sig(self, event: dict) -> str:
+        # FULL hexdigest (256-bit). The old [:32] truncation halved the MAC for
+        # no benefit; legacy 32-hex signatures are still ACCEPTED on verify
+        # (128-bit HMAC-SHA256 is not forgeable either) so existing ledgers load.
         import hashlib, hmac as _h
         body = json.dumps({k: v for k, v in event.items() if k != "sig"},
                           sort_keys=True, separators=(",", ":")).encode("utf-8")
-        return _h.new(self._key, body, hashlib.sha256).hexdigest()[:32]
+        return _h.new(self._key, body, hashlib.sha256).hexdigest()
+
+    def _verify_sig(self, e: dict, i: int) -> None:
+        """CRITIC B6: a keyed arbiter VERIFIES every event it reads back.
+        Unsigned or mis-signed = FORGED_EVENT. compare_digest, not ==."""
+        import hmac as _h
+        sig = e.get("sig", "")
+        want = self._sig({k2: v for k2, v in e.items() if k2 != "sig"})
+        ok = bool(sig) and (_h.compare_digest(sig, want)
+                            or (len(sig) == 32           # legacy truncated MAC
+                                and _h.compare_digest(sig, want[:32])))
+        if not ok:
+            raise LockError("FORGED_EVENT",
+                            f"line {i}: event is unsigned or mis-signed - a "
+                            f"well-formed lie is still a lie")
 
     def _append(self, event: dict) -> None:
         event = {"t": self._clock(), **event}
@@ -230,14 +253,11 @@ class Arbiter:
             if self._key is not None:
                 # CRITIC B6 (measured: forged GRANT loaded as a live lease): a keyed
                 # arbiter VERIFIES every event. Unsigned or wrong-sig = FORGED_EVENT.
-                sig = e.get("sig", "")
-                if not sig or sig != self._sig({k2: v for k2, v in e.items()
-                                               if k2 != "sig"}):
-                    raise LockError("FORGED_EVENT",
-                                    f"line {i}: event is unsigned or mis-signed - a "
-                                    f"well-formed lie is still a lie")
+                self._verify_sig(e, i)
             k = e.get("event")
             self._max_token = max(self._max_token, int(e.get("token", 0)))
+            if k in ("GRANT", "TAKEOVER", "RELEASE", "EXPIRE"):
+                self._last_lifecycle[e["resource"]] = k
             if k in ("GRANT", "TAKEOVER"):
                 self._leases[e["resource"]] = Lease(
                     e["resource"], e["holder"], int(e["token"]),
@@ -260,6 +280,7 @@ class Arbiter:
                           "detail": "lease expired on arbiter clock - no cleanup "
                                     "discipline was required of the holder"})
             del self._leases[resource]
+            self._last_lifecycle[resource] = "EXPIRE"
 
     def acquire(self, resource: str, holder: str,
                 ttl: Optional[float] = None) -> Lease:
@@ -273,21 +294,22 @@ class Arbiter:
                                         f"(token {cur.token}, {cur.expires_at - self._clock():.0f}s left)")
             self._max_token += 1
             # CRITIC M1 FIX: TAKEOVER was dead code (was_takeover=False, never computed) and
-            # the selftest asserted the implementation instead of the contract. Now decided
+            # the selftest asserted the implementation instead of the contract. Decided
             # from the LEDGER: if the last lifecycle event for this resource is EXPIRE, this
             # grant IS the takeover, and the chain is EXPIRE -> TAKEOVER as documented.
-            was_takeover = False
-            for e in reversed(self.events()):
-                if e.get("resource") == resource and e.get("event") in (
-                        "GRANT", "TAKEOVER", "RELEASE", "EXPIRE"):
-                    was_takeover = e["event"] == "EXPIRE"
-                    break
+            # FINDING #3 FIX: the decision now reads the LOCKED reprime's projection
+            # (_last_lifecycle, rebuilt by _replay and updated by _expire_if_due) instead
+            # of a second raw events() pass over the live JSONL - one locked read, one
+            # decision, one append; a torn or forged line already refused during reprime.
+            was_takeover = self._last_lifecycle.get(resource) == "EXPIRE"
             lease = Lease(resource, holder, self._max_token, self._clock(),
                           self._clock() + (ttl or self._ttl))
             self._leases[resource] = lease
-            self._append({"event": "TAKEOVER" if was_takeover else "GRANT",
+            kind = "TAKEOVER" if was_takeover else "GRANT"
+            self._append({"event": kind,
                           "resource": resource, "holder": holder, "token": lease.token,
                           "expires_at": lease.expires_at})
+            self._last_lifecycle[resource] = kind
             return lease
         finally:
             self._unlock(lk)
@@ -310,17 +332,28 @@ class Arbiter:
             self._unlock(lk)
 
     def release(self, lease: Lease) -> None:
-        cur = self._leases.get(lease.resource)
-        if cur is None or cur.token != lease.token:
-            # releasing something you no longer hold is a FACT worth recording, not an
-            # error worth hiding - but it must not delete the current holder's lease.
-            self._append({"event": "REFUSE", "op": "release", "resource": lease.resource,
-                          "holder": lease.holder, "token": lease.token,
-                          "detail": "release with non-current token - ignored"})
-            return
-        self._append({"event": "RELEASE", "resource": cur.resource,
-                      "holder": cur.holder, "token": cur.token})
-        del self._leases[lease.resource]
+        # FINDING #1 FIX (was CRITICAL): release appended RELEASE/REFUSE and mutated
+        # _leases with NO OS lock and NO reprime - it could interleave its JSONL line
+        # with a locked acquire/renew/fenced_commit append and decide from stale
+        # in-process state. Same discipline as acquire(): lock -> reprime -> decide
+        # -> append -> memory update.
+        lk = self._lock_handle()
+        try:
+            self._reprime()
+            cur = self._leases.get(lease.resource)
+            if cur is None or cur.token != lease.token:
+                # releasing something you no longer hold is a FACT worth recording, not an
+                # error worth hiding - but it must not delete the current holder's lease.
+                self._append({"event": "REFUSE", "op": "release", "resource": lease.resource,
+                              "holder": lease.holder, "token": lease.token,
+                              "detail": "release with non-current token - ignored"})
+                return
+            self._append({"event": "RELEASE", "resource": cur.resource,
+                          "holder": cur.holder, "token": cur.token})
+            del self._leases[lease.resource]
+            self._last_lifecycle[lease.resource] = "RELEASE"
+        finally:
+            self._unlock(lk)
 
     def _assert_live(self, lease: Lease, op: str) -> Lease:
         self._expire_if_due(lease.resource)
@@ -389,11 +422,45 @@ class Arbiter:
 
     # ---------------- introspection ----------------
     def status(self, resource: str) -> Optional[Lease]:
-        self._expire_if_due(resource)
-        return self._leases.get(resource)
+        """FINDING #2 FIX (was CRITICAL): status() used to append EXPIRE and delete
+        the lease with NO OS lock - a ledger mutation racing locked writers. Now the
+        common paths are PURE READS of in-process memory; only when an expiry is
+        actually due does it take the sidecar OS lock, reprime from disk, and persist
+        the EXPIRE inside the locked section (the lease may have been renewed or
+        already expired by another process - reprime decides, not memory)."""
+        l = self._leases.get(resource)
+        if l is None:
+            return None
+        if self._clock() < l.expires_at:
+            return l
+        lk = self._lock_handle()
+        try:
+            self._reprime()
+            self._expire_if_due(resource)
+            return self._leases.get(resource)
+        finally:
+            self._unlock(lk)
 
     def events(self) -> list[dict]:
+        """Read-only replay of the raw event stream. A torn line refuses TYPED
+        (TORN_LEDGER, never a bare ValueError) and a keyed arbiter VERIFIES each
+        signature (FORGED_EVENT) - introspection must not be the one unverified
+        window into the ledger (finding #4)."""
         if not self._ledger.exists():
             return []
-        return [json.loads(x) for x in
-                self._ledger.read_text(encoding="utf-8").splitlines() if x.strip()]
+        out = []
+        for i, ln in enumerate(
+                self._ledger.read_text(encoding="utf-8").splitlines(), 1):
+            if not ln.strip():
+                continue
+            try:
+                e = json.loads(ln)
+            except ValueError as exc:
+                raise LockError(
+                    "TORN_LEDGER",
+                    f"line {i} of {self._ledger} does not parse - REFUSING; a torn "
+                    f"ledger must never read as clean history") from exc
+            if self._key is not None:
+                self._verify_sig(e, i)
+            out.append(e)
+        return out
