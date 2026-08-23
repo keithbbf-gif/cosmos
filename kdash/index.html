@@ -107,6 +107,29 @@
 
   .empty{color:var(--ink-faint);font-style:italic;padding:4px 0}
   footer{margin-top:10px;color:var(--ink-faint);font-size:11px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+
+  /* ---------- CREATE panel ---------- */
+  #panel-create{grid-column:1/-1}
+  .kindbar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+  .kindbar button.on{
+    border-color:var(--cyan);color:var(--head);background:#1a2830;
+  }
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+  .maker-card{
+    background:#0e1116;border:1px solid var(--panel-edge);border-radius:3px;padding:8px;
+  }
+  .maker-card h3{font-size:12px;letter-spacing:1px;color:var(--head);font-weight:700;margin-bottom:6px}
+  .maker-card .kv{margin-bottom:8px}
+  .tag{
+    display:inline-block;border:1px solid #2a3542;color:var(--cyan);
+    padding:0 6px;border-radius:2px;font-size:11px;margin:1px 4px 1px 0;
+  }
+  .invoke{
+    margin-top:8px;padding:6px 8px;background:#0b0e12;
+    border:1px dashed var(--panel-edge);color:var(--ink);
+    white-space:pre-wrap;font-size:11px;line-height:1.4;
+  }
+  .invoke.hidden{display:none}
 </style>
 </head>
 <body>
@@ -149,6 +172,19 @@
     <div class="panel-bd" id="bd-audit"><div class="empty">not connected</div></div>
   </section>
 
+  <section class="panel" id="panel-create">
+    <div class="panel-hd"><h2>CREATE</h2><span class="age never" id="age-create">no data</span></div>
+    <div class="panel-bd" id="bd-create">
+      <div class="kindbar" id="create-kinds">
+        <button type="button" data-kind="agent" id="kind-agent">Agent</button>
+        <button type="button" data-kind="tool" id="kind-tool">Tool</button>
+        <button type="button" data-kind="connector" id="kind-connector">Connector</button>
+        <button type="button" data-kind="skill" id="kind-skill">Skill</button>
+      </div>
+      <div id="create-results"><div class="empty">pick a kind — Agent, Tool, Connector, or Skill</div></div>
+    </div>
+  </section>
+
 </div>
 
 <footer>
@@ -176,8 +212,10 @@
     status:{measuredAtMs:null,error:null},
     jobs:  {measuredAtMs:null,error:null},
     rails: {measuredAtMs:null,error:null},
-    audit: {measuredAtMs:null,error:null}
+    audit: {measuredAtMs:null,error:null},
+    create:{measuredAtMs:null,error:null}
   };
+  var createKind = null;   // selected CREATE kind, or null until a button is pressed
 
   function $(id){ return document.getElementById(id); }
   function esc(s){
@@ -336,6 +374,39 @@
       '</dl>';
   }
 
+  function renderCreate(d){
+    var makers = d.makers || [];
+    var box = $("create-results");
+    if(makers.length===0){
+      box.innerHTML = '<div class="empty">no makers for this kind</div>';
+      return;
+    }
+    box.innerHTML = '<div class="cards">'+makers.map(function(m){
+      var tags = (m.tags||[]).map(function(t){
+        return '<span class="tag">'+esc(t)+'</span>';
+      }).join("") || '<span class="dim">—</span>';
+      var title = (m.name!=null && String(m.name)!=="") ? m.name : (m.maker_id||"—");
+      return '<article class="maker-card" data-maker="'+esc(m.maker_id||"")+'">'+
+        '<h3>'+esc(title)+'</h3>'+
+        '<dl class="kv">'+
+        '<dt>location</dt><dd>'+esc(m.location!=null?m.location:"—")+'</dd>'+
+        '<dt>function</dt><dd>'+esc(m.function!=null?m.function:"—")+'</dd>'+
+        '<dt>access</dt><dd>'+esc(m.access!=null?m.access:"—")+'</dd>'+
+        '<dt>tags</dt><dd>'+tags+'</dd>'+
+        '</dl>'+
+        '<button type="button" class="open-maker">open maker</button>'+
+        '<pre class="invoke hidden">'+esc(m.invoke||"no invoke instructions")+'</pre>'+
+        '</article>';
+    }).join("")+'</div>';
+  }
+
+  function refreshCreate(){
+    if(!createKind) return Promise.resolve();
+    return refreshPanel("create","/api/v1/makers?kind="+encodeURIComponent(createKind),
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); },
+      renderCreate);
+  }
+
   // ---------- panel plumbing ----------
   function markSuccess(name, measuredMs){
     var p = panels[name];
@@ -383,7 +454,8 @@
       refreshPanel("rails","/api/v1/rails",
         function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails),
       refreshPanel("audit","/api/v1/audit",
-        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit)
+        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit),
+      refreshCreate()
     ]).then(function(){
       inflight = false;
       var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
@@ -457,6 +529,38 @@
     $(id).addEventListener("keydown", function(e){
       if(e.key==="Enter") $("btnConnect").click();
     });
+  });
+
+  $("create-kinds").addEventListener("click", function(e){
+    var btn = e.target.closest("button[data-kind]");
+    if(!btn) return;
+    createKind = btn.getAttribute("data-kind");
+    Array.prototype.forEach.call(this.querySelectorAll("button[data-kind]"), function(b){
+      b.classList.toggle("on", b===btn);
+    });
+    if(!connected){
+      $("create-results").innerHTML =
+        '<div class="empty">not connected — enter API base and token, then CONNECT</div>';
+      return;
+    }
+    refreshCreate();
+  });
+
+  $("create-results").addEventListener("click", function(e){
+    var btn = e.target.closest(".open-maker");
+    if(!btn) return;
+    var card = btn.closest(".maker-card");
+    if(!card) return;
+    var inv = card.querySelector(".invoke");
+    if(!inv) return;
+    var opening = inv.classList.contains("hidden");
+    if(opening){
+      inv.classList.remove("hidden");
+      btn.textContent = "close maker";
+    } else {
+      inv.classList.add("hidden");
+      btn.textContent = "open maker";
+    }
   });
 
   tick();

@@ -82,9 +82,11 @@ class Kernel:
         from cosmos_registry import Registry
         from cosmos_spend import SpendGate
         from cosmos_validate import ReturnValidator
+        from cosmos_makers import Makers
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
+        self.makers = Makers(self.ledger, clock=clock)
         self.ready = True
 
     def open_session(self, session_id: str, stream: str):

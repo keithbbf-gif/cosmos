@@ -8,6 +8,7 @@ ENDPOINTS (v1):
     GET /api/v1/audit    - the audit projection (every number carries measured_at)
     GET /api/v1/jobs     - job states from the scheduler projection
     GET /api/v1/rails    - the rails matrix with verification AGE per link
+    GET /api/v1/makers   - CREATE catalog; ?kind=agent|tool|connector|skill
     POST /api/v1/jobs    - submit {command, priority} -> job_id
 Every response carries served_at + measured_at - a panel that cannot show its age is
 the frozen-dashboard scar. Auth is a bearer token from the install config - remote
@@ -32,8 +33,23 @@ def make_handler(kernel: Kernel, token: str):
             self.send_response(code)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
+            # KDash is a separate-origin client (file:// or its own static port).
+            # CORS is additive so the CREATE panel can call the API without a CDN.
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")
+            self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
             self.end_headers()
             self.wfile.write(body)
+
+        def do_OPTIONS(self):                                         # noqa: N802
+            # Preflight must not require a bearer token - the browser sends it
+            # on the real GET/POST, not on OPTIONS.
+            self.send_response(204)
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")
+            self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+            self.send_header("Access-Control-Max-Age", "600")
+            self.end_headers()
 
         def _authed(self) -> bool:
             return self.headers.get("Authorization", "") == "Bearer " + token
@@ -88,6 +104,26 @@ def make_handler(kernel: Kernel, token: str):
                                                       "rails matrix"})
                 return self._send(200, {"measured_at": time.time(),
                                         "matrix": reg.matrix()})
+            if self.path.startswith("/api/v1/makers"):
+                from urllib.parse import parse_qs, urlparse
+                from cosmos_makers import MakerError
+                makers = getattr(kernel, "makers", None)
+                if makers is None:
+                    from cosmos_makers import Makers
+                    makers = Makers(kernel.ledger)
+                parsed = urlparse(self.path)
+                rest = parsed.path[len("/api/v1/makers"):].lstrip("/")
+                try:
+                    if rest:
+                        return self._send(200, {"measured_at": time.time(),
+                                                "maker": makers.get(rest)})
+                    q = parse_qs(parsed.query)
+                    kinds = q.get("kind", [])
+                    kind = kinds[0] if kinds else None
+                    return self._send(200, makers.report(kind))
+                except MakerError as e:
+                    code = 404 if e.kind == "UNKNOWN_MAKER" else 400
+                    return self._send(code, {"error": e.kind, "detail": str(e)})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def do_POST(self):                                            # noqa: N802
