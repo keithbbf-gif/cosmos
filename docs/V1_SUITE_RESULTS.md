@@ -20,7 +20,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.603s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -101,6 +101,26 @@ OK    installer stands up a bootable root
   OK    second lease on held resource -> HELD
   OK    restarted kernel verifies the same chain and continues it
 SELFTEST PASS - 13 checks
+```
+
+## test_spend_context.py (rc=0)
+```
+OK    reserve -> call -> settle at MEASURED (not worst case)
+  OK    over-cap call DENIED
+  OK    ...and the call NEVER RAN (denial precedes spend - the whole point)
+  OK    unbudgeted rail -> UNKNOWN_RAIL
+  OK    unpriced call counted as UNPRICED, settled unchanged
+  OK    a raising call releases its reservation
+  OK    expiring unspent credit -> EXPIRY RISK flagged (S-102: we governed the wrong direction)
+  OK    every audit number carries measured_at
+  OK    close with an open watcher REFUSES (S-121 made structural)
+  OK    forced close records OPEN_CONTEXT incident
+  OK    next boot INHERITS the facts
+  OK    next boot SEES the unresolved watcher as an incident
+  OK    clean close after resolution needs no force
+  OK    resolved incident clears from inheritance
+  OK    double close REFUSES
+SELFTEST PASS - 15 checks (breaker denies BEFORE the call; carry-over is a mechanism)
 ```
 
 ## test_v1.py (rc=0)
