@@ -130,9 +130,29 @@ class Scheduler:
         if job_id not in st:
             raise SchedError("UNKNOWN_JOB", job_id)
         if st[job_id]["st"] != "RUNNING":
+            # STAGE-7 K5 FIX (OA C-03): a second completion after a terminal state used to
+            # be accepted (last-JOB_DONE-wins). Refuse - a finished job is finished.
             raise SchedError("BAD_STATE", f"{job_id} is {st[job_id]['st']}, not RUNNING")
-        self.ledger.append("JOB_DONE", {"job_id": job_id, "outcome": outcome,
-                                        "worker": self.worker, "detail": detail})
+        # STAGE-7 K5 FIX (OA C-03, MEASURED): done() required only RUNNING, so ANY worker
+        # could complete ANOTHER worker's job. Require the completer to be the claimant.
+        if st[job_id]["by"] != self.worker:
+            raise SchedError("BAD_STATE",
+                             f"{job_id} was claimed by {st[job_id]['by']}, not "
+                             f"{self.worker} - only the claimant completes its job")
+        # bind the append to the head we decided on, so two concurrent completions can't
+        # both land (optimistic concurrency, same shape as claim_next).
+        from cosmos_ledger import LedgerError
+        head = self.ledger.head_seq()
+        try:
+            self.ledger.append("JOB_DONE", {"job_id": job_id, "outcome": outcome,
+                                            "worker": self.worker, "detail": detail},
+                               expect_head_seq=head)
+        except LedgerError as e:
+            if e.kind == "STALE_HEAD":
+                raise SchedError("BAD_STATE",
+                                 f"{job_id}: state moved while completing - re-check "
+                                 f"and retry") from e
+            raise
 
     def report_stale(self, older_than_s: float) -> list[str]:
         """REPORT, never retry. Returns job_ids newly reported stale."""

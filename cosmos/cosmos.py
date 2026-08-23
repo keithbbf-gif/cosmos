@@ -39,8 +39,10 @@ def main() -> int:
     p = sub.add_parser("serve"); p.add_argument("--root", required=True)
     p.add_argument("--port", type=int, default=8770)
     p.add_argument("--remote", action="store_true",
-                   help="bind 0.0.0.0 for LAN/remote access (beta; bearer-auth; "
-                        "HTTPS termination is a cutover item)")
+                   help="bind 0.0.0.0 for LAN/remote access (bearer-auth)")
+    p.add_argument("--tls", action="store_true",
+                   help="wrap the socket in TLS with a self-signed cert (config/); "
+                        "stays http and says so if the crypto lib is absent")
 
     a = ap.parse_args()
 
@@ -82,9 +84,10 @@ def main() -> int:
     if a.cmd == "serve":
         from cosmos_service import Service
         host = "0.0.0.0" if a.remote else "127.0.0.1"
-        svc = Service(k, host=host, port=a.port)
-        print(f"COSMOS API serving on {host}:{svc.port} "
-              f"({'REMOTE beta - LAN clients use this machine\'s IP; ' if a.remote else ''}"
+        svc = Service(k, host=host, port=a.port, tls=a.tls)
+        print(f"COSMOS API serving {svc.scheme}://{host}:{svc.port} "
+              f"({'REMOTE - LAN clients use this machine\'s IP; ' if a.remote else ''}"
+              f"{'TLS self-signed' if svc.scheme == 'https' else 'HTTP (no TLS this run)'}; "
               f"bearer token in config/api_token.txt; KDash: open kdash/index.html)")
         try:
             svc.httpd.serve_forever()

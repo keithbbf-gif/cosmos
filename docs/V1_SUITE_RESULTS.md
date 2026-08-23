@@ -1,5 +1,18 @@
 # COSMOS v1.0-f5 - full native suite results - 2026-08-23
 
+## test_browser.py (rc=0)
+```
+OK    detect_auth_wall: TRUE on a login-form DOM (form + password + login language)
+  OK    detect_auth_wall: FALSE on a normal page (a bare search <form> is not a wall)
+  OK    detect_auth_wall: FALSE on a 'Sign in' LINK with no <form> (link != wall)
+  OK    detect_auth_wall: FALSE on empty DOM
+  OK    detect_auth_wall: a <form> with a password input is decisive on its own
+  OK    browser present: navigate(data: URL) returns non-empty DOM text containing the rendered marker
+  OK    browser present: session_ok() is True (about:blank renders)
+  OK    browser present: navigating a login-wall data: URL raises PermissionError (-> AUTH_REQUIRED)
+SELFTEST PASS - 8 checks (browser: C:\Program Files\Google\Chrome\Application\chrome.exe)
+```
+
 ## test_command.py (rc=0)
 ```
 OK    status: ok + READY + root identity
@@ -61,7 +74,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.608s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -189,6 +202,76 @@ OK    REAL incumbent registry ingested [MEASURED: 143 tools]
 SELFTEST PASS - 12 checks (the backlog is measured; the board can see failure)
 ```
 
+## test_node_rails.py (rc=0)
+```
+OK    node rail probe: importable incumbent -> live
+  OK    node rail dispatch: normalizes the incumbent dict return
+  OK    missing incumbent -> probe UNREACHABLE (registration is not capability)
+  OK    missing incumbent dispatch -> typed UNREACHABLE, not a crash
+  OK    incumbent without ask() -> BROKE
+  OK    incumbent ask() raising -> BROKE with the reason
+  OK    dispatcher reaches the node rail and returns the model text
+  OK    the metered call went through the spend breaker (SPEND_SETTLED ledgered)
+  OK    exhausted budget -> dispatcher NOT_PERMITTED (breaker in the caller path)
+  OK    register_node_rails registers all four node links
+  OK    every node rail probes HONESTLY (live-if-importable OR UNREACHABLE, never fake-live)
+  OK    [MEASURED native: 4/4 incumbents importable - the adapted rails can reach the live mesh]
+SELFTEST PASS - 12 checks (adapted rails drive incumbents; missing=UNREACHABLE; metered=spend-gated)
+```
+
+## test_port_plan.py (rc=0)
+```
+OK    cosmos module discovery found the spike successors (paths/lock/mail)
+  OK    plan is non-empty
+  OK    every decision has a VALID disposition (four + UNDECIDED sentinel)
+  OK    every decision has a successor OR a reason (never neither)
+  OK    every decision carries a reason (the recorded why)
+  OK    every REPLACED entry names a successor
+  OK    every REPLACED successor contains at least one cosmos_ module token
+  OK    every cosmos_ module named by a REPLACED successor EXISTS on disk
+  OK    no successor (any disposition) names a non-existent cosmos_ module
+  OK    no UNDECIDED is silent - each names its debt in the reason
+  OK    summary().undecided matches the plan's UNDECIDED set
+  OK    summary total == len(PORT_DECISIONS)
+  OK    by_disposition sums to total (no tool uncounted, none double-counted)
+  OK    apply() returned the same summary shape as summary()
+  OK    required incumbents are all present in the plan
+  OK    every planned tool was declared into the registry
+  OK    every FOUR-disposition tool recorded that exact decision in the ledger
+  OK    every UNDECIDED tool is declared but carries NO disposition event (the gap)
+  OK    re-apply does not raise and returns identical counts
+  OK    re-apply leaves the projected rulings unchanged (no drift on replay)
+  OK    re-apply adds no new tools to the registry
+PORT PLAN: 33 tools mapped | {'REPLACED': 23, 'ADAPTED': 10}
+SELFTEST PASS - 21 checks (architecture wins where a contract conflicts; every decision recorded, never drifted)
+```
+
+## test_segments.py (rc=0)
+```
+OK    3+ rotations produced 4 segments on disk
+  OK    3 segments sealed with an anchor (the live head has none)
+  OK    append returned continuous global_seq 1..N as it wrote
+  OK    verify_all passes over the whole multi-segment history
+  OK    global seqs are continuous 1..N ACROSS segment boundaries
+  OK    local seq RESETS per segment while global does not (layer, not rewrite)
+  OK    anchors form their own hash chain (prev_anchor_sha256 links each)
+  OK    anchor seq accounting matches the records (first/last/count)
+  OK    corrupt MIDDLE segment -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002
+  OK    the corrupt segment recorded a LEDGER_INCIDENT
+  OK    corrupt ANCHOR -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002.anchor
+  OK    the corrupt anchor recorded a LEDGER_INCIDENT
+  OK    CAS.put returns the sha256 of the content
+  OK    CAS.get round-trips the exact bytes
+  OK    CAS is idempotent: identical content -> identical sha
+  OK    CAS idempotent: identical content is ONE blob file on disk
+  OK    a large artifact goes in CAS; the LEDGER holds only the sha pointer
+  OK    a tampered CAS blob -> HASH_MISMATCH on read (never handed back)
+  OK    an ABSENT CAS blob -> NOT_FOUND, not UNREADABLE (four-state rule)
+  OK    the deep CAS root exceeds MAX_PATH (>260 chars)
+  OK    CAS put/get works past MAX_PATH via extended()
+SELFTEST PASS - 21 checks (3+ rotations, anchor chain, 2 planted corruptions BY KIND naming the culprit + incidents, CAS round-trip/idempotence/HASH_MISMATCH, MAX_PATH)
+```
+
 ## test_spend_context.py (rc=0)
 ```
 OK    reserve -> call -> settle at MEASURED (not worst case)
@@ -209,6 +292,24 @@ OK    reserve -> call -> settle at MEASURED (not worst case)
 SELFTEST PASS - 15 checks (breaker denies BEFORE the call; carry-over is a mechanism)
 ```
 
+## test_stage7_fixes.py (rc=0)
+```
+OK    K1: kernel leases are SIGNED - a forged GRANT is refused on replay (was: unsigned in production)
+  OK    K2: absolute relpath in a role -> refused
+  OK    K2: '..' traversal in a role -> refused
+  OK    K2: a normal relpath still resolves under the root
+  OK    K2: protected_write with traversal is refused (no arbitrary-path write)
+  OK    K3: a manifest key with '..' -> REHEARSAL_FAILED (no arbitrary-path restore)
+  OK    K4: a py: script OUTSIDE the tools root is refused (path-traversal RCE closed)
+  OK    K5: a NON-claimant worker cannot complete the job
+  OK    K5: double-complete after a terminal state is refused
+  OK    K6: two reservations at the same clock ms get DISTINCT rids (no collision)
+  OK    H2: a freshly-probed link is routable
+  OK    H2: a STALE (once-live, not recently) link is NOT routed (freshness window)
+  OK    H2: max_age_s=None still returns it (staleness opt-out where irrelevant)
+SELFTEST PASS - 13 checks (6 independent-critic CRITICALs + freshness, each a measured finding closed)
+```
+
 ## test_surfaces.py (rc=0)
 ```
 OK    register three surfaces -> all in state
@@ -227,6 +328,14 @@ OK    register three surfaces -> all in state
   OK    reachable large-enough CLOUD surface QUALIFIES (no reasons)
   OK    stale measurement FAILS reachability (age advanced past the window)
 SELFTEST PASS - 15 checks (surfaces measured not assumed; three questions each fail on their own axis; off-machine is structural)
+```
+
+## test_tls.py (rc=0)
+```
+OK    HTTPS: service serves https with a self-signed cert
+  OK    HTTPS: a TLS client round-trips /status
+  OK    HTTPS: cert + key were generated into config/
+SELFTEST PASS - 3 checks (transport encryption or an honest http fallback)
 ```
 
 ## test_tools.py (rc=0)

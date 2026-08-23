@@ -104,13 +104,24 @@ class Registry:
                          "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
         return rows
 
-    def route(self, src: str, dst: str) -> list[dict]:
+    def route(self, src: str, dst: str, max_age_s: float | None = 3600) -> list[dict]:
         """Candidate links for a route, DOM-first by policy_rank then rail preference.
-        Only links whose LAST MEASUREMENT was ok are candidates - policy chooses among
-        the measured-alive, never among the claimed."""
+        Only links whose LAST MEASUREMENT was ok AND FRESH are candidates.
+        STAGE-7 H-05 FIX (OA, MEASURED): route() filtered only on ok, so a link probed
+        live ONCE was dispatch-eligible forever - a stale DOM session would be chosen
+        days later. A measurement older than max_age_s is STALE, not live; pass
+        max_age_s=None only where staleness is genuinely irrelevant."""
         pref = {"DOM": 0, "CLI": 1, "API": 2, "CHAT": 3, "OTHER": 4}
+        now = self._clock()
         st = self.state()
-        live = [v for v in st.values()
-                if v["claim"]["src"] == src and v["claim"]["dst"] == dst and v["ok"]]
+        live = []
+        for v in st.values():
+            c = v["claim"]
+            if c["src"] != src or c["dst"] != dst or not v["ok"]:
+                continue
+            if max_age_s is not None and (v["last_probe"] is None
+                                          or now - v["last_probe"] > max_age_s):
+                continue                      # measured live, but not RECENTLY
+            live.append(v)
         return sorted((v["claim"] for v in live),
                       key=lambda c: (-c["policy_rank"], pref[c["rail_type"]]))

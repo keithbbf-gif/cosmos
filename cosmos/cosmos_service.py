@@ -142,23 +142,70 @@ def make_handler(kernel: Kernel, token: str):
     return Handler
 
 
+def _ensure_cert(kernel) -> tuple[str, str] | None:
+    """Self-signed cert for HTTPS, generated once into config/. Returns (cert, key)
+    paths, or None if the crypto lib is unavailable (then the caller stays HTTP and
+    SAYS SO - never a silent downgrade). A self-signed cert on a LAN is real transport
+    encryption; a public CA cert is a later cutover step, and this docstring says which
+    is which rather than pretending."""
+    cfg = kernel.paths.config
+    cert, key = str(cfg("cosmos_cert.pem")), str(cfg("cosmos_key.pem"))
+    from pathlib import Path as _P
+    if _P(cert).exists() and _P(key).exists():
+        return cert, key
+    try:
+        import datetime as _dt
+        from cryptography import x509
+        from cryptography.x509.oid import NameOID
+        from cryptography.hazmat.primitives import hashes, serialization
+        from cryptography.hazmat.primitives.asymmetric import rsa
+        k = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+        name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "cosmos.local")])
+        cert_obj = (x509.CertificateBuilder()
+                    .subject_name(name).issuer_name(name).public_key(k.public_key())
+                    .serial_number(x509.random_serial_number())
+                    .not_valid_before(_dt.datetime.utcnow())
+                    .not_valid_after(_dt.datetime.utcnow() + _dt.timedelta(days=825))
+                    .add_extension(x509.SubjectAlternativeName(
+                        [x509.DNSName("cosmos.local"), x509.DNSName("localhost")]),
+                        critical=False)
+                    .sign(k, hashes.SHA256()))
+        _P(key).write_bytes(k.private_bytes(
+            serialization.Encoding.PEM, serialization.PrivateFormat.TraditionalOpenSSL,
+            serialization.NoEncryption()))
+        _P(cert).write_bytes(cert_obj.public_bytes(serialization.Encoding.PEM))
+        return cert, key
+    except Exception:                                                # noqa: BLE001
+        return None
+
+
 class Service:
     """Serve a kernel. serve_background() for tests; serve_forever() for the real thing.
 
-    REMOTE ACCESS (Keith, 2026-08-23, beta): host="0.0.0.0" binds the LAN - the bearer
-    token is the access control (zero-friction canon: auth exists day one, invisible in
-    use). KDash v2, the command bar, voice (browser SpeechRecognition filling the
-    command bar), and the /crucible endpoint all work identically from a remote client.
-    HTTPS termination is a cutover item (a reverse proxy or Windows cert binding), and
-    saying so beats pretending: this beta is LAN-plaintext with bearer auth."""
+    REMOTE ACCESS + HTTPS (Keith, 2026-08-23): host="0.0.0.0" binds the LAN; the bearer
+    token is access control. tls=True wraps the socket with a self-signed cert generated
+    into config/ (real transport encryption on the LAN). If the crypto lib is absent the
+    service stays HTTP and RECORDS the downgrade in .scheme - never a silent claim of
+    encryption. A public-CA cert for internet exposure is a later cutover step."""
 
-    def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0):
+    def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
+                 tls: bool = False):
         tok_file = kernel.paths.config("api_token.txt")
         if not tok_file.exists():
             import secrets as _s
             tok_file.write_text(_s.token_urlsafe(24), encoding="utf-8")
         self.token = tok_file.read_text(encoding="utf-8").strip()
         self.httpd = ThreadingHTTPServer((host, port), make_handler(kernel, self.token))
+        self.scheme = "http"
+        if tls:
+            pair = _ensure_cert(kernel)
+            if pair:
+                import ssl
+                ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+                ctx.load_cert_chain(certfile=pair[0], keyfile=pair[1])
+                self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+                self.scheme = "https"
+            # else: stayed http; self.scheme records the honest truth
         self.port = self.httpd.server_address[1]
 
     def serve_background(self) -> threading.Thread:

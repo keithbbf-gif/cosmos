@@ -85,8 +85,23 @@ class Backup:
         scratch.mkdir(parents=True, exist_ok=True)
         bad = []
         for rel, want in manifest.items():
+            # STAGE-7 K3 FIX (OA C-02 / GEM IND-004, MEASURED): manifest keys were used
+            # verbatim, so an absolute key or one with `..` wrote ARBITRARY files. Confine
+            # both source and dest under their roots; a key that escapes is REFUSED.
+            r = str(rel)
+            if r.startswith(("/", "\\")) or (len(r) > 1 and r[1] == ":") or ".." in \
+                    r.replace("\\", "/").split("/"):
+                raise BackupError("REHEARSAL_FAILED",
+                                  f"manifest key {rel!r} is absolute or traverses - "
+                                  f"refusing to restore outside the scratch root")
             srcf = backup_dest / rel
             outf = scratch / rel
+            try:
+                outf.resolve().relative_to(scratch.resolve())
+                srcf.resolve().relative_to(backup_dest.resolve())
+            except ValueError:
+                raise BackupError("REHEARSAL_FAILED",
+                                  f"manifest key {rel!r} escapes containment")
             outf.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(srcf, outf)
             if _sha(outf) != want:
