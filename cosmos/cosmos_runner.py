@@ -19,6 +19,8 @@ incumbent scar the architecture ordered preserved:
 from __future__ import annotations
 
 import json
+import shutil
+import sys
 import time
 import uuid
 from pathlib import Path
@@ -27,9 +29,8 @@ from cosmos_platform import run_tree_killed, makedirs
 from cosmos_sched import Scheduler
 
 
-# Bare interpreter names allowed as argv[0]. Anything else is a PATH and must sit
-# inside tools_root - the same boundary py: jobs already honor. A name that is not
-# on this list and not under the tools root is the K4 argv: bypass, refused.
+# Interpreter names allowed as argv[0] without being confined to tools_root.
+# A host binary that is not one of these (e.g. /bin/echo) is the K4 argv: bypass.
 _INTERP_WHITELIST = {"py", "python", "python3"}
 
 
@@ -79,20 +80,54 @@ class Runner:
                 or "/" in token or "\\" in token
                 or token.lower().endswith((".py", ".cmd", ".bat", ".exe", ".ps1")))
 
+    @staticmethod
+    def _interp_basename(prog: str) -> str:
+        name = Path(prog).name.lower()
+        return name[:-4] if name.endswith(".exe") else name
+
+    @classmethod
+    def _is_whitelisted_interp(cls, prog: str) -> bool:
+        """True for a real Python launcher (bare name, this process, or PATH).
+        A random file that merely *named* python3 is not an interpreter."""
+        name = cls._interp_basename(prog)
+        if name not in _INTERP_WHITELIST and not name.startswith("python3"):
+            return False
+        if not cls._looks_like_path(prog):
+            return True
+        try:
+            resolved = Path(prog).resolve()
+        except OSError:
+            return False
+        allowed = {Path(sys.executable).resolve()}
+        for key in (name, "python3", "python", "py"):
+            found = shutil.which(key)
+            if found:
+                allowed.add(Path(found).resolve())
+        return resolved in allowed
+
     def _confine_argv(self, job_id: str, argv) -> dict | None:
-        """GUARD REST-1 (K4 argv: bypass): the argv: form used to skip tools_root
-        and run any host binary. Same confinement + interpreter whitelist as py:."""
+        """GUARD REST-1 (K4 argv: bypass). Confine SCRIPT paths only:
+
+        * whitelisted interpreter + -c  → nothing to confine, run
+        * script UNDER tools_root       → run
+        * script / host binary OUTSIDE  → refuse
+        """
         if (not isinstance(argv, list) or not argv
                 or not all(isinstance(x, str) for x in argv)):
             return self._refuse(
                 job_id, "argv: form must be a JSON list of strings - refused")
         prog = argv[0]
-        bare = Path(prog).name
-        if not (bare in _INTERP_WHITELIST and not self._looks_like_path(prog)):
+        rest = argv[1:]
+        interp = self._is_whitelisted_interp(prog)
+        # interpreter -c CODE has no script file - do not treat flags or the
+        # payload as paths, and do not demand the launcher sit under tools_root.
+        if interp and "-c" in rest:
+            return None
+        if not interp:
             refused = self._confine_path(job_id, Path(prog))
             if refused:
                 return refused
-        for tok in argv[1:]:
+        for tok in rest:
             if self._looks_like_path(tok):
                 refused = self._confine_path(job_id, Path(tok))
                 if refused:
