@@ -18,10 +18,13 @@ WHAT THIS SPIKE PROVES (the protocol, in-process - the service wrapper is 6b wor
     * append-only event ledger (JSONL, fsync) - grant/renew/expire/takeover/commit/refuse
     all land as events; the CURRENT state is a projection rebuilt by replay
     * torn ledger line -> the arbiter REFUSES to load (never reads as free)
-    * RF-LOCK-XPROC: an exclusive OS lock (msvcrt on Windows, fcntl elsewhere) on a
-    sidecar .lock beside the lease ledger, held across replay->decide->append in
-    acquire()/renew()/fenced_commit() - two independently-constructed keyed
-    arbiters cannot both grant the same resource with the same fencing token
+    * RF-LOCK-XPROC: an exclusive OS lock on a sidecar .lock beside the lease
+    ledger, held across reprime->decide->append in acquire()/renew()/
+    fenced_commit(). fcntl.flock is a whole-file lock; msvcrt.locking is NOT -
+    it locks nbytes at the current CRT file position and raises on contention.
+    The sidecar therefore always seek(0)s and locks a fixed byte range so both
+    backends are a true mutex. Two independently-constructed keyed arbiters
+    cannot both grant the same resource with the same fencing token
 
 Scar lineage: tree_lock read-check-write race (API-05) - here the arbiter serializes;
 naive-timestamp staleness (OA finding) - all times are epoch floats from ONE clock;
@@ -29,12 +32,36 @@ console-only takeover audit (API-07) - every transition is a ledger event.
 """
 from __future__ import annotations
 
+import errno
 import json
 import os
 import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Optional
+
+# msvcrt.locking(fd, mode, nbytes) locks nbytes at the CURRENT CRT file
+# position. It is not fcntl.flock (whole-file, blocking, position-blind).
+# Lock AND unlock must use this same offset-0 range or Windows silently
+# unlocks a different byte than the one it locked.
+LOCK_REGION = 1
+LOCK_POLL = 0.01
+# None = auto (msvcrt on Windows, fcntl elsewhere). Tests on Linux set
+# this to "msvcrt" so the native-Windows branch runs without patching
+# os.name (which makes pathlib instantiate WindowsPath and lie about
+# exists() on POSIX).
+LOCK_BACKEND: str | None = None
+
+
+def _use_msvcrt() -> bool:
+    if LOCK_BACKEND is not None:
+        return LOCK_BACKEND == "msvcrt"
+    return os.name == "nt"
+
+
+def sidecar_lock_path(ledger_path: str | os.PathLike) -> Path:
+    """The mutex file that sits beside the lease ledger (`<ledger>.lock`)."""
+    return Path(str(ledger_path) + ".lock")
 
 
 class LockError(RuntimeError):
@@ -85,22 +112,75 @@ class Arbiter:
         both granted tree with token=1. The fix is an EXCLUSIVE OS LOCK held
         across (re-prime from disk -> decide -> append): the second arbiter
         BLOCKS, then re-primes onto the live lease and refuses HELD. A lock
-        the OS releases on process death needs no cleanup discipline."""
-        lk = open(str(self._ledger) + ".lock", "a+b")
-        if os.name == "nt":
+        the OS releases on process death needs no cleanup discipline.
+
+        Native Windows (T1): `open(..., "a+b"); msvcrt.locking(fd, LK_LOCK, 1)`
+        is NOT a whole-file mutex. msvcrt locks 1 byte at the CRT file
+        position (append mode leaves that at EOF; Python seek() may not
+        move the CRT pointer). We open O_RDWR|O_CREAT (never truncate,
+        never append-position), write a real LOCK_REGION so the range
+        exists, os.lseek(0) so CRT and Python agree, and lock that same
+        range on unlock. LK_NBLCK raises on contention (unlike flock),
+        so a retry loop provides the blocking acquire flock gives us."""
+        path = sidecar_lock_path(self._ledger)
+        flags = os.O_RDWR | os.O_CREAT
+        if hasattr(os, "O_BINARY"):
+            flags |= os.O_BINARY
+        if hasattr(os, "O_CLOEXEC"):
+            flags |= os.O_CLOEXEC
+        fd = os.open(str(path), flags, 0o666)
+        lk = os.fdopen(fd, "r+b", buffering=0)
+        try:
+            self._ensure_lock_region(lk)
+            self._os_lock(lk)
+            return lk
+        except Exception:
+            lk.close()
+            raise
+
+    def _ensure_lock_region(self, lk) -> None:
+        """Guarantee LOCK_REGION real bytes. msvcrt cannot treat '1 byte
+        past EOF of a 0-length file' as a whole-file exclusive lock."""
+        lk.seek(0, os.SEEK_END)
+        have = lk.tell()
+        if have < LOCK_REGION:
+            lk.write(b"\x00" * (LOCK_REGION - have))
+            lk.flush()
+
+    def _lock_region_at_zero(self, lk) -> None:
+        """Put the CRT *and* Python file position on byte 0 of the sidecar.
+        msvcrt.locking reads the CRT pointer, not lk.tell()."""
+        lk.flush()
+        os.lseek(lk.fileno(), 0, os.SEEK_SET)
+
+    def _os_lock(self, lk) -> None:
+        """Acquire the fixed offset-0 region. Blocks until it is ours."""
+        if _use_msvcrt():
             import msvcrt
-            msvcrt.locking(lk.fileno(), msvcrt.LK_LOCK, 1)
+            # LK_LOCK internally retries ~10s then raises; LK_NBLCK raises
+            # immediately. Either way msvcrt does NOT block like flock.
+            # Spin until the holder (possibly inside fenced_commit) drops it.
+            while True:
+                self._lock_region_at_zero(lk)
+                try:
+                    msvcrt.locking(lk.fileno(), msvcrt.LK_NBLCK, LOCK_REGION)
+                    return
+                except OSError as e:
+                    # Contention is EACCES (Windows _locking) / EDEADLK.
+                    # EBADF/EINVAL is a programming error — do not spin.
+                    if e.errno in (errno.EBADF, errno.EINVAL):
+                        raise
+                    time.sleep(LOCK_POLL)
         else:
             import fcntl
             fcntl.flock(lk.fileno(), fcntl.LOCK_EX)
-        return lk
 
     def _unlock(self, lk) -> None:
         try:
-            if os.name == "nt":
+            if _use_msvcrt():
                 import msvcrt
-                lk.seek(0)
-                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, 1)
+                self._lock_region_at_zero(lk)
+                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, LOCK_REGION)
             else:
                 import fcntl
                 fcntl.flock(lk.fileno(), fcntl.LOCK_UN)
