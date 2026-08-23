@@ -1,0 +1,13 @@
+image: python:3.14
+variables:
+  PYTHONUTF8: "1"
+  PYTHONIOENCODING: "utf-8"
+  PYTHONPATH: "cosmos"
+stages:
+  - test
+test:
+  stage: test
+  script:
+    - python -c "import sys; print(sys.version)"
+    - python -m py_compile cosmos/*.py
+    - for t in tests/test_*.py; do echo "== $t =="; python "$t"; done
