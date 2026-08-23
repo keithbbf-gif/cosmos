@@ -209,6 +209,26 @@ OK    reserve -> call -> settle at MEASURED (not worst case)
 SELFTEST PASS - 15 checks (breaker denies BEFORE the call; carry-over is a mechanism)
 ```
 
+## test_surfaces.py (rc=0)
+```
+OK    register three surfaces -> all in state
+  OK    measure runs the probe and returns reachable + free_bytes
+  OK    report shows a measured surface with age_s and free_gb
+  OK    a never-measured surface shows reachable=None (UNKNOWN, never True)
+  OK    duplicate id -> DUPLICATE
+  OK    bad kind -> UNQUALIFIED
+  OK    bad role -> UNQUALIFIED
+  OK    measure unknown surface -> UNKNOWN_SURFACE
+  OK    measure with no probe attached -> UNQUALIFIED
+  OK    ...and the refused measure recorded nothing (itc still UNKNOWN)
+  OK    LOCAL surface FAILS mesh-addressability (off-machine or it does not count)
+  OK    small-capacity CLOUD surface FAILS capacity
+  OK    never-measured surface FAILS reachability
+  OK    reachable large-enough CLOUD surface QUALIFIES (no reasons)
+  OK    stale measurement FAILS reachability (age advanced past the window)
+SELFTEST PASS - 15 checks (surfaces measured not assumed; three questions each fail on their own axis; off-machine is structural)
+```
+
 ## test_tools.py (rc=0)
 ```
 OK    declare -> attach -> verify passes and returns detail
@@ -283,4 +303,25 @@ cker that found something is not broken)
   OK    POST /command: destructive verb REFUSED over the wire
   OK    POST /crucible: remote crucible queues a job and ledgers the request
 SELFTEST PASS - 31 checks (B3/B6/M4/M5 closed; crucible + remote live)
+```
+
+## test_wave4.py (rc=0)
+```
+OK    M6: DOM-first dispatch runs the DOM rail (was: DOM is just a sort key)
+  OK    M6: RAIL_DISPATCH + RAIL_RESULT ledgered
+  OK    M6: dead DOM session -> AUDITED fallback to API, never silent
+  OK    M6: the fallback is a RECORDED event with its reason
+  OK    M6: no MEASURED-live link -> NO_LIVE_LINK (registration is not capability)
+  OK    MCP: initialize returns protocol + serverInfo
+  OK    MCP: tools/list exposes the kernel verbs
+  OK    MCP: tools/call cosmos_status delegates to the kernel
+  OK    MCP: cosmos_submit creates a real job (client cannot reach around authority)
+  OK    MCP: the submit is in the kernel's own job state
+  OK    MCP: cosmos_command drives the voice/frontend seam
+  OK    MCP: unknown tool -> JSON-RPC error, not a crash
+  OK    MCP: torn request -> parse error (-32700), never a silent drop
+  OK    MCP: a notification gets NO response line (protocol-correct)
+  OK    SURFACES: a reachable off-machine LAN target with capacity QUALIFIES
+  OK    SURFACES: a LOCAL surface FAILS off-machine (one copy on one machine is zero)
+SELFTEST PASS - 16 checks (DOM is a rail; COSMOS speaks MCP; surfaces qualified)
 ```
