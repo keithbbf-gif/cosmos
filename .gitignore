@@ -24,6 +24,8 @@ credentials*.json
 
 # ---- LIVE STATE. Belongs to a running instance, not to the software. ----
 # Shipping these is how a peer install inherits somebody else's history and believes it.
+live/
+*.lock
 *_ledger.jsonl
 *_heartbeat*.json
 *_state/
