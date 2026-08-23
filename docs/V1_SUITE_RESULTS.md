@@ -1,5 +1,18 @@
 # COSMOS v1.0-f5 - full native suite results - 2026-08-23
 
+## test_browser.py (rc=0)
+```
+OK    detect_auth_wall: TRUE on a login-form DOM (form + password + login language)
+  OK    detect_auth_wall: FALSE on a normal page (a bare search <form> is not a wall)
+  OK    detect_auth_wall: FALSE on a 'Sign in' LINK with no <form> (link != wall)
+  OK    detect_auth_wall: FALSE on empty DOM
+  OK    detect_auth_wall: a <form> with a password input is decisive on its own
+  OK    browser present: navigate(data: URL) returns non-empty DOM text containing the rendered marker
+  OK    browser present: session_ok() is True (about:blank renders)
+  OK    browser present: navigating a login-wall data: URL raises PermissionError (-> AUTH_REQUIRED)
+SELFTEST PASS - 8 checks (browser: C:\Program Files\Google\Chrome\Application\chrome.exe)
+```
+
 ## test_command.py (rc=0)
 ```
 OK    status: ok + READY + root identity
@@ -61,7 +74,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.608s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.605s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -189,6 +202,33 @@ OK    REAL incumbent registry ingested [MEASURED: 143 tools]
 SELFTEST PASS - 12 checks (the backlog is measured; the board can see failure)
 ```
 
+## test_port_plan.py (rc=0)
+```
+OK    cosmos module discovery found the spike successors (paths/lock/mail)
+  OK    plan is non-empty
+  OK    every decision has a VALID disposition (four + UNDECIDED sentinel)
+  OK    every decision has a successor OR a reason (never neither)
+  OK    every decision carries a reason (the recorded why)
+  OK    every REPLACED entry names a successor
+  OK    every REPLACED successor contains at least one cosmos_ module token
+  OK    every cosmos_ module named by a REPLACED successor EXISTS on disk
+  OK    no successor (any disposition) names a non-existent cosmos_ module
+  OK    no UNDECIDED is silent - each names its debt in the reason
+  OK    summary().undecided matches the plan's UNDECIDED set
+  OK    summary total == len(PORT_DECISIONS)
+  OK    by_disposition sums to total (no tool uncounted, none double-counted)
+  OK    apply() returned the same summary shape as summary()
+  OK    required incumbents are all present in the plan
+  OK    every planned tool was declared into the registry
+  OK    every FOUR-disposition tool recorded that exact decision in the ledger
+  OK    every UNDECIDED tool is declared but carries NO disposition event (the gap)
+  OK    re-apply does not raise and returns identical counts
+  OK    re-apply leaves the projected rulings unchanged (no drift on replay)
+  OK    re-apply adds no new tools to the registry
+PORT PLAN: 33 tools mapped | {'REPLACED': 23, 'ADAPTED': 10}
+SELFTEST PASS - 21 checks (architecture wins where a contract conflicts; every decision recorded, never drifted)
+```
+
 ## test_spend_context.py (rc=0)
 ```
 OK    reserve -> call -> settle at MEASURED (not worst case)
@@ -227,6 +267,14 @@ OK    register three surfaces -> all in state
   OK    reachable large-enough CLOUD surface QUALIFIES (no reasons)
   OK    stale measurement FAILS reachability (age advanced past the window)
 SELFTEST PASS - 15 checks (surfaces measured not assumed; three questions each fail on their own axis; off-machine is structural)
+```
+
+## test_tls.py (rc=0)
+```
+OK    HTTPS: service serves https with a self-signed cert
+  OK    HTTPS: a TLS client round-trips /status
+  OK    HTTPS: cert + key were generated into config/
+SELFTEST PASS - 3 checks (transport encryption or an honest http fallback)
 ```
 
 ## test_tools.py (rc=0)
