@@ -292,6 +292,24 @@ OK    reserve -> call -> settle at MEASURED (not worst case)
 SELFTEST PASS - 15 checks (breaker denies BEFORE the call; carry-over is a mechanism)
 ```
 
+## test_stage7_fixes.py (rc=0)
+```
+OK    K1: kernel leases are SIGNED - a forged GRANT is refused on replay (was: unsigned in production)
+  OK    K2: absolute relpath in a role -> refused
+  OK    K2: '..' traversal in a role -> refused
+  OK    K2: a normal relpath still resolves under the root
+  OK    K2: protected_write with traversal is refused (no arbitrary-path write)
+  OK    K3: a manifest key with '..' -> REHEARSAL_FAILED (no arbitrary-path restore)
+  OK    K4: a py: script OUTSIDE the tools root is refused (path-traversal RCE closed)
+  OK    K5: a NON-claimant worker cannot complete the job
+  OK    K5: double-complete after a terminal state is refused
+  OK    K6: two reservations at the same clock ms get DISTINCT rids (no collision)
+  OK    H2: a freshly-probed link is routable
+  OK    H2: a STALE (once-live, not recently) link is NOT routed (freshness window)
+  OK    H2: max_age_s=None still returns it (staleness opt-out where irrelevant)
+SELFTEST PASS - 13 checks (6 independent-critic CRITICALs + freshness, each a measured finding closed)
+```
+
 ## test_surfaces.py (rc=0)
 ```
 OK    register three surfaces -> all in state

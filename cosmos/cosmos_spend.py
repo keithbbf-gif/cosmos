@@ -97,11 +97,26 @@ class SpendGate:
                              f"cap (settled ${b['settled']:.2f} + reserved "
                              f"${outstanding:.2f} of ${b['cap']:.2f}) - denied BEFORE "
                              f"the call, which is the whole point")
-        rid = "r%d" % int(self._clock() * 1000)
-        self.ledger.append("SPEND_RESERVED",
-                           {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
-                            "expires_epoch": self._clock() + ttl_s,
-                            "provenance": "estimate"})
+        # STAGE-7 K6 FIX (OA C-04, MEASURED): rid was int(clock*1000) - two calls in the
+        # same ms (or a fixed test clock) collided and overwrote each other's reservation
+        # in the projection. A uuid makes each reservation distinct. The check-then-append
+        # race is bounded by binding the append to the head we projected from (STALE_HEAD
+        # -> DENIED, re-project): two concurrent callers cannot both slip past the cap.
+        import uuid as _uuid
+        from cosmos_ledger import LedgerError as _LE
+        rid = "r-%s" % _uuid.uuid4().hex[:12]
+        try:
+            self.ledger.append("SPEND_RESERVED",
+                               {"rail": rail, "rid": rid, "worst_case_usd": worst_case_usd,
+                                "expires_epoch": self._clock() + ttl_s,
+                                "provenance": "estimate"},
+                               expect_head_seq=self.ledger.head_seq())
+        except _LE as e:
+            if e.kind == "STALE_HEAD":
+                raise SpendError("DENIED",
+                                 f"{rail}: budget state moved under the reservation - "
+                                 f"denied; re-project and retry (no over-cap slip)") from e
+            raise
         try:
             result = call()
         except Exception:

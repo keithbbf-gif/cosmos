@@ -156,7 +156,25 @@ class CosmosPaths:
                 "NOT_FOUND",
                 f"unknown role {name!r} - known: {sorted(ROLES)} (REFUSING rather than "
                 f"assembling a plausible path)")
-        return self._root.joinpath(ROLES[name], *parts)
+        # STAGE-7 K2/H-02 FIX (OA, MEASURED): callers passed relpath straight through, so
+        # an ABSOLUTE part replaced the root and a `..` part escaped it - path traversal
+        # out of the COSMOS tree. Reject both, and CONFINE the resolved path under root.
+        for part in parts:
+            p = str(part)
+            if p.startswith(("/", "\\")) or (len(p) > 1 and p[1] == ":") or ".." in \
+                    p.replace("\\", "/").split("/"):
+                raise CosmosPathError(
+                    "IDENTITY_MISMATCH",
+                    f"role part {part!r} is absolute or contains '..' - refusing to "
+                    f"escape the COSMOS root (traversal is not a path)")
+        out = self._root.joinpath(ROLES[name], *parts)
+        # belt-and-braces: the normalized result must still be under root
+        try:
+            out.resolve().relative_to(self._root)
+        except ValueError:
+            raise CosmosPathError("IDENTITY_MISMATCH",
+                                  f"resolved path escapes the root: {out}")
+        return out
 
     def __getattr__(self, name: str):
         # role access as methods: paths.queue("job.json"), paths.ledger()

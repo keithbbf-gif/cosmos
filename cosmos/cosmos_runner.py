@@ -50,11 +50,26 @@ class Runner:
         # split on spaces ONLY when it is a list already serialized - keep it explicit.
         if cmd.startswith("py:"):
             script = Path(cmd[3:].strip())
+            # STAGE-7 K4 FIX (GEM IND-002, MEASURED): `py:<path>` ran ANY script on the
+            # host - path-traversal RCE for anyone who can submit a job. Confine scripts
+            # to an allowed tools root (self.tools_root, default the runner's work parent
+            # / "tools"); a script outside it is REFUSED. A job that needs a new tool
+            # registers it there first - the tools dir is the boundary, not the filesystem.
+            # the `_`-helper convention wins REGARDLESS of location - a helper is never a
+            # job, wherever it sits (checked before confinement so the reason is precise).
             if script.name.startswith("_"):
                 self.sched.done(job_id, "BROKE",
                                 "helper-prefixed script refused as a job (the `_` "
                                 "convention, enforced in the runner)")
                 return {"job_id": job_id, "outcome": "BROKE", "helper_refused": True}
+            root = getattr(self, "tools_root", self.work.parent / "cosmos")
+            try:
+                script.resolve().relative_to(Path(root).resolve())
+            except ValueError:
+                self.sched.done(job_id, "BROKE",
+                                f"script {script} is outside the tools root {root} - "
+                                f"refused (traversal is not a job)")
+                return {"job_id": job_id, "outcome": "BROKE", "traversal_refused": True}
             if not script.exists():
                 self.sched.done(job_id, "BROKE", f"claimed path missing: {script}")
                 return {"job_id": job_id, "outcome": "BROKE"}

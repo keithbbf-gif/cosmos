@@ -71,7 +71,11 @@ class Kernel:
         # 5 - subsystems COMPOSED on the verified foundation (critic: "composition in a
         # test is not composition in Core" - registry/spend/validator/context now live
         # here, not as sibling files a test wires by assignment)
-        self.arbiter = Arbiter(self.paths.ledger("leases.jsonl"), clock=clock)
+        # STAGE-7 K1 FIX (OA C-01, MEASURED): the Kernel constructed the Arbiter WITHOUT
+        # the install key, so leases were UNSIGNED in production - the B6 signing existed
+        # but was never wired at the composition boundary. Pass the key: leases are now
+        # signed and a forged GRANT is refused in the LIVE kernel, not just in the test.
+        self.arbiter = Arbiter(self.paths.ledger("leases.jsonl"), clock=clock, key=key)
         self.mail = Mailbox(self.paths.role("state", "mail"), worker)
         self.mail.register()
         self.sched = Scheduler(self.paths.role("queue"), key, worker, clock)
@@ -95,12 +99,15 @@ class Kernel:
             raise CosmosPathError("NOT_FOUND",
                                   "read-only kernel refuses protected writes - boot a "
                                   "writing kernel for this (B1: a reader is not a writer)")
+        # STAGE-7 K2 FIX (ordering): validate the target path BEFORE acquiring the lease -
+        # fail fast on bad input, and never hold a lock while refusing. role() raises
+        # IDENTITY_MISMATCH on absolute/traversal relpaths.
+        target = self.paths.role("state", relpath)
         """THE fenced commit: lease -> write to a private temp -> fenced install ->
         ledger event. No lease, no write - and a stale lease is REFUSED by the arbiter,
         not by discipline."""
         lease = self.arbiter.acquire(resource, self.worker)
         try:
-            target = self.paths.role("state", relpath)
             target.parent.mkdir(parents=True, exist_ok=True)
 
             def commit():
