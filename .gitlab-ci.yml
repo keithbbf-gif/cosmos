@@ -1,0 +1,18 @@
+stages: [verify]
+cosmos-suite:
+  stage: verify
+  image: python:3.12
+  script:
+    - python -m pip install --quiet cryptography || echo "crypto optional"
+    # Linux runner: `python` (not the Windows `py` launcher). Import path is cosmos/.
+    - export PYTHONPATH="$CI_PROJECT_DIR/cosmos"
+    - for f in cosmos/*.py; do python -m py_compile "$f"; done
+    - |
+      fail=0
+      for t in tests/test_*.py; do
+        echo "== $t =="
+        python "$t" || fail=1
+      done
+      exit $fail
+  rules:
+    - if: '$CI_COMMIT_BRANCH'

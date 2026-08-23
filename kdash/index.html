@@ -107,6 +107,28 @@
 
   .empty{color:var(--ink-faint);font-style:italic;padding:4px 0}
   footer{margin-top:10px;color:var(--ink-faint);font-size:11px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+
+  /* ---------- CREATE panel ---------- */
+  .panel-wide{grid-column:1/-1}
+  .kindbar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+  .kindbar button.on{border-color:var(--cyan);color:var(--head);background:#1a2430}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+  .mcard{
+    background:#0e1116;border:1px solid var(--panel-edge);border-radius:3px;
+    padding:8px 10px;display:flex;flex-direction:column;gap:4px;
+  }
+  .mcard.open{border-color:var(--cyan)}
+  .mcard-hd{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .mcard-id{color:var(--head);font-weight:700;word-break:break-all}
+  .mcard-kind{color:var(--cyan);font-size:11px;letter-spacing:1px;white-space:nowrap}
+  .mcard-loc{color:var(--ink)}
+  .mcard-fn{color:var(--ink-dim);font-size:12px}
+  .mcard-tags{color:var(--ink-faint);font-size:11px}
+  .invoke{
+    margin-top:6px;padding-top:6px;border-top:1px dashed var(--panel-edge);
+    font-size:12px;
+  }
+  .invoke h3{font-size:11px;letter-spacing:1px;color:var(--cyan);margin-bottom:4px;font-weight:700}
 </style>
 </head>
 <body>
@@ -149,6 +171,19 @@
     <div class="panel-bd" id="bd-audit"><div class="empty">not connected</div></div>
   </section>
 
+  <section class="panel panel-wide" id="panel-create">
+    <div class="panel-hd"><h2>CREATE</h2><span class="age never" id="age-create">no data</span></div>
+    <div class="panel-bd" id="bd-create">
+      <div class="kindbar" id="create-kinds">
+        <button type="button" data-kind="AGENT">Agent</button>
+        <button type="button" data-kind="TOOL">Tool</button>
+        <button type="button" data-kind="CONNECTOR">Connector</button>
+        <button type="button" data-kind="SKILL">Skill</button>
+      </div>
+      <div id="create-cards"><div class="empty">pick a kind — Agent, Tool, Connector, or Skill</div></div>
+    </div>
+  </section>
+
 </div>
 
 <footer>
@@ -176,8 +211,10 @@
     status:{measuredAtMs:null,error:null},
     jobs:  {measuredAtMs:null,error:null},
     rails: {measuredAtMs:null,error:null},
-    audit: {measuredAtMs:null,error:null}
+    audit: {measuredAtMs:null,error:null},
+    create:{measuredAtMs:null,error:null}
   };
+  var createKind = null;   // AGENT|TOOL|CONNECTOR|SKILL, or null until a button is clicked
 
   function $(id){ return document.getElementById(id); }
   function esc(s){
@@ -223,8 +260,19 @@
       cache:"no-store"
     }).then(function(r){
       clearTimeout(t);
-      if(!r.ok) throw new Error("HTTP "+r.status+" "+r.statusText);
-      return r.json();
+      return r.text().then(function(txt){
+        var d = null;
+        try { d = txt ? JSON.parse(txt) : {}; } catch(parseErr){ d = null; }
+        if(!r.ok){
+          var kind = (d && d.error) ? String(d.error) : ("HTTP_"+r.status);
+          var detail = (d && d.detail) ? String(d.detail) : ("HTTP "+r.status+" "+r.statusText);
+          var err = new Error(detail);
+          err.kind = kind;
+          throw err;
+        }
+        if(d===null) throw new Error("response is not JSON");
+        return d;
+      });
     }).catch(function(e){
       clearTimeout(t);
       if(e.name==="AbortError") throw new Error("timeout after "+(FETCH_TO_MS/1000)+"s");
@@ -336,6 +384,61 @@
       '</dl>';
   }
 
+  function invokeHtml(m){
+    var sources = (m.potential_sources || []).join(" · ") || "—";
+    return '<div class="invoke">'+
+      '<h3>INVOKE</h3>'+
+      '<dl class="kv">'+
+      '<dt>where</dt><dd>'+esc(m.location!=null?m.location:"—")+'</dd>'+
+      '<dt>do</dt><dd>'+esc(m.function!=null?m.function:"—")+'</dd>'+
+      '<dt>how</dt><dd>'+esc(m.access!=null?m.access:"—")+'</dd>'+
+      '<dt>sources</dt><dd>'+esc(sources)+'</dd>'+
+      '</dl></div>';
+  }
+
+  function cardHtml(m){
+    var tags = (m.tags || []).map(esc).join(" · ");
+    return '<article class="mcard" data-id="'+esc(m.id!=null?m.id:"")+'">'+
+      '<div class="mcard-hd"><span class="mcard-id">'+esc(m.id!=null?m.id:"—")+'</span>'+
+      '<span class="mcard-kind">'+esc(m.kind!=null?m.kind:"—")+'</span></div>'+
+      '<div class="mcard-loc">'+esc(m.location!=null?m.location:"—")+'</div>'+
+      '<div class="mcard-fn">'+esc(m.function!=null?m.function:"—")+'</div>'+
+      (tags ? '<div class="mcard-tags">'+tags+'</div>' : '')+
+      '<button type="button" class="open-maker">open maker</button>'+
+      invokeHtml(m)+
+      '</article>';
+  }
+
+  function renderCreate(d){
+    var makers = d.makers || [];
+    if(makers.length===0){
+      $("create-cards").innerHTML =
+        '<div class="empty">no makers of kind '+esc(createKind || "—")+'</div>';
+      return;
+    }
+    $("create-cards").innerHTML = '<div class="cards">'+makers.map(cardHtml).join("")+'</div>';
+    $("create-cards").querySelectorAll(".invoke").forEach(function(el){ el.hidden = true; });
+  }
+
+  function selectCreateKind(kind){
+    createKind = kind;
+    var bar = $("create-kinds");
+    if(bar){
+      bar.querySelectorAll("button[data-kind]").forEach(function(b){
+        if(b.getAttribute("data-kind")===kind) b.classList.add("on");
+        else b.classList.remove("on");
+      });
+    }
+    if(!connected){
+      $("create-cards").innerHTML =
+        '<div class="empty">not connected — CONNECT to load makers</div>';
+      return;
+    }
+    refreshPanel("create", "/api/v1/makers?kind="+encodeURIComponent(kind),
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); },
+      renderCreate);
+  }
+
   // ---------- panel plumbing ----------
   function markSuccess(name, measuredMs){
     var p = panels[name];
@@ -347,7 +450,7 @@
     if(old) old.remove();
   }
 
-  function markError(name, msg){
+  function markError(name, msg, kind){
     var p = panels[name];
     p.error = msg;
     var el = $("panel-"+name);
@@ -358,7 +461,7 @@
       box.className = "errbox";
       el.querySelector(".panel-bd").insertBefore(box, el.querySelector(".panel-bd").firstChild);
     }
-    box.innerHTML = '<b>UNREACHABLE</b> — '+esc(msg)+
+    box.innerHTML = '<b>'+esc(kind || "UNREACHABLE")+'</b> — '+esc(msg)+
       (p.measuredAtMs!==null ? ' <span class="dim">(showing last good data below)</span>' : '');
   }
 
@@ -367,7 +470,7 @@
       render(d);
       markSuccess(name, extractMs(d));
     }).catch(function(e){
-      markError(name, e.message || String(e));
+      markError(name, e.message || String(e), e.kind || null);
     });
   }
 
@@ -375,7 +478,7 @@
     if(!connected || inflight) return;
     inflight = true;
     var t0 = Date.now();
-    Promise.all([
+    var jobs = [
       refreshPanel("status","/api/v1/status",
         function(d){ return toMs(d.served_at); }, renderStatus),
       refreshPanel("jobs","/api/v1/jobs",
@@ -384,10 +487,16 @@
         function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails),
       refreshPanel("audit","/api/v1/audit",
         function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit)
-    ]).then(function(){
+    ];
+    if(createKind){
+      jobs.push(refreshPanel("create","/api/v1/makers?kind="+encodeURIComponent(createKind),
+        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderCreate));
+    }
+    Promise.all(jobs).then(function(){
       inflight = false;
-      var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
-      var allBad = Object.keys(panels).every(function(k){ return panels[k].error!==null; });
+      var names = Object.keys(panels).filter(function(k){ return k!=="create" || createKind; });
+      var anyOk = names.some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
+      var allBad = names.length>0 && names.every(function(k){ return panels[k].error!==null; });
       var cs = $("connState");
       if(allBad){ cs.textContent="API unreachable"; cs.className="bad"; }
       else if(anyOk){ cs.textContent="connected · "+cfg.base+" · rtt "+(Date.now()-t0)+"ms"; cs.className="ok"; }
@@ -457,6 +566,31 @@
     $(id).addEventListener("keydown", function(e){
       if(e.key==="Enter") $("btnConnect").click();
     });
+  });
+
+  $("create-kinds").addEventListener("click", function(e){
+    var b = e.target.closest("button[data-kind]");
+    if(!b) return;
+    selectCreateKind(b.getAttribute("data-kind"));
+  });
+
+  $("create-cards").addEventListener("click", function(e){
+    var b = e.target.closest(".open-maker");
+    if(!b) return;
+    var card = b.closest(".mcard");
+    if(!card) return;
+    var box = card.querySelector(".invoke");
+    if(!box) return;
+    var opening = box.hidden;
+    card.parentNode.querySelectorAll(".mcard").forEach(function(c){
+      c.classList.remove("open");
+      var inv = c.querySelector(".invoke");
+      if(inv) inv.hidden = true;
+    });
+    if(opening){
+      box.hidden = false;
+      card.classList.add("open");
+    }
   });
 
   tick();
