@@ -82,9 +82,14 @@ class Kernel:
         from cosmos_registry import Registry
         from cosmos_spend import SpendGate
         from cosmos_validate import ReturnValidator
+        from cosmos_makers import MakerMap
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
+        # Maker map is composed here so GET /makers is a projection read, not a
+        # first-request write (B1: a read is not a write). A read-only kernel
+        # projects whatever the writing boot already ledgered; it does not seed.
+        self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
         self.ready = True
 
     def open_session(self, session_id: str, stream: str):
