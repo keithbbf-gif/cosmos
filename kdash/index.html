@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KDash — COSMOS v1</title>
+<title>KDash — COSMOS v2</title>
 <style>
   :root{
     --bg:#0b0e12;
@@ -27,6 +27,7 @@
   header{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px}
   header h1{font-size:15px;color:var(--head);letter-spacing:2px;font-weight:700;margin-right:6px}
   header h1 span{color:var(--cyan)}
+  header h1 small{color:var(--ink-faint);font-size:10px;letter-spacing:1px;font-weight:400}
   .connbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex:1;min-width:280px}
   .connbar label{color:var(--ink-dim);font-size:11px;white-space:nowrap}
   .connbar input{
@@ -42,6 +43,8 @@
   }
   button:hover{border-color:var(--cyan);color:var(--head)}
   button:active{background:#11161c}
+  button:disabled{opacity:.45;cursor:default}
+  button:disabled:hover{border-color:#2a3542;color:var(--ink)}
   #connState{font-size:11px;padding:3px 8px;border-radius:3px;border:1px solid var(--panel-edge);color:var(--ink-dim);white-space:nowrap}
   #connState.ok{color:var(--green);border-color:var(--green)}
   #connState.bad{color:var(--red);border-color:var(--red)}
@@ -49,6 +52,47 @@
   .refreshbar{display:flex;align-items:center;gap:8px;white-space:nowrap}
   #countdown{color:var(--cyan);min-width:9.5em;display:inline-block;font-size:11px}
   #countdown.paused{color:var(--amber)}
+
+  /* ---------- command bar + console ---------- */
+  .cmdwrap{
+    background:var(--panel);border:1px solid var(--panel-edge);border-radius:4px;
+    padding:8px 10px;margin-bottom:10px;
+  }
+  .cmdbar{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .cmdbar .prompt{color:var(--cyan);font-weight:700}
+  #cmdInput{
+    flex:1;min-width:200px;background:#0e1116;border:1px solid var(--panel-edge);color:var(--ink);
+    font-family:var(--mono);font-size:12px;padding:5px 8px;border-radius:3px;outline:none;
+  }
+  #cmdInput:focus{border-color:var(--cyan)}
+  #btnMic{padding:4px 9px;font-size:13px;line-height:1}
+  #btnMic.listening{border-color:var(--red);color:var(--red)}
+  #btnMic.unavailable{opacity:.4;cursor:help}
+  #btnMic.unavailable:hover{border-color:#2a3542;color:var(--ink)}
+  #btnRun{border-color:#2a3542;color:var(--head);font-weight:700;letter-spacing:1px}
+  .quickcmds{display:flex;gap:5px;margin-top:6px;flex-wrap:wrap}
+  .quickcmds button{font-size:11px;padding:2px 9px;color:var(--ink-dim)}
+  .quickcmds button:hover{color:var(--head)}
+  #console{
+    margin-top:8px;max-height:230px;overflow-y:auto;
+    background:#0e1116;border:1px solid var(--panel-edge);border-radius:3px;padding:6px 8px;
+  }
+  #console .empty{padding:2px 0}
+  .centry{margin-bottom:6px;border-left:2px solid var(--panel-edge);padding-left:8px}
+  .centry:last-child{margin-bottom:0}
+  .centry .cts{color:var(--ink-faint);font-size:10px}
+  .centry .ckind{font-size:10px;letter-spacing:1px;font-weight:700;margin-left:6px}
+  .centry.cmd{border-left-color:var(--cyan)}
+  .centry.cmd .cbody{color:var(--cyan)}
+  .centry.ok{border-left-color:var(--green)}
+  .centry.ok .ckind{color:var(--green)}
+  .centry.err{border-left-color:var(--amber)}
+  .centry.err .ckind{color:var(--amber)}
+  .centry.err .cbody{color:var(--amber)}
+  .centry pre{
+    font-family:var(--mono);font-size:11px;white-space:pre-wrap;word-break:break-word;
+    color:var(--ink);margin-top:1px;
+  }
 
   /* ---------- grid ---------- */
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -89,12 +133,75 @@
   .ok{color:var(--green)} .warn{color:var(--amber)} .bad{color:var(--red)} .dim{color:var(--ink-faint)}
   .big{font-size:15px;font-weight:700}
 
+  /* health */
+  .verdict{font-size:20px;font-weight:700;letter-spacing:3px;margin-bottom:6px}
+  .verdict.green{color:var(--green)}
+  .verdict.red{color:var(--red)}
+  .verdict.broken{color:var(--red);animation:vflash .8s steps(2,start) infinite}
+  .verdict.unknown{color:var(--amber)}
+  @keyframes vflash{to{visibility:hidden}}
+  .diagnosis{color:var(--amber);font-size:12px;margin-bottom:6px;word-break:break-word}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;vertical-align:baseline}
+  .dot.g{background:var(--green)} .dot.r{background:var(--red)}
+  tr.ncrow td{background:rgba(230,180,80,.07)}
+  .nclabel{color:var(--amber);font-size:10px;letter-spacing:1px;white-space:nowrap}
+
+  /* spend */
+  .rail{margin-bottom:10px}
+  .rail-hd{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:2px}
+  .rail-hd .rname{color:var(--head);font-weight:700}
+  .rail-hd .rnum{color:var(--ink-dim);font-size:11px;font-variant-numeric:tabular-nums}
+  .badge{
+    display:inline-block;font-size:10px;letter-spacing:1px;padding:1px 6px;border-radius:3px;
+    border:1px solid var(--amber);color:var(--amber);white-space:nowrap;
+  }
+  .bar{
+    position:relative;height:10px;background:#0e1116;border:1px solid var(--panel-edge);
+    border-radius:3px;overflow:hidden;margin:3px 0 2px;
+  }
+  .bar .seg{position:absolute;top:0;bottom:0}
+  .bar .seg.settled{background:var(--cyan);opacity:.8}
+  .bar .seg.reserved{background:var(--amber);opacity:.8}
+  .rail-ft{font-size:11px;color:var(--ink-dim);display:flex;gap:12px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+  .barlegend{font-size:10px;color:var(--ink-faint);margin-bottom:8px}
+  .barlegend i{display:inline-block;width:8px;height:8px;border-radius:2px;vertical-align:middle;margin:0 3px 0 8px}
+  .barlegend i.s{background:var(--cyan)} .barlegend i.r{background:var(--amber)}
+
+  /* tools */
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+  .chip{
+    border:1px solid var(--panel-edge);border-radius:3px;padding:2px 8px;font-size:11px;
+    color:var(--ink-dim);white-space:nowrap;
+  }
+  .chip b{color:var(--head);font-variant-numeric:tabular-nums}
+  .chip.v b{color:var(--green)}
+  details.tooltable summary{
+    cursor:pointer;color:var(--cyan);font-size:11px;letter-spacing:1px;
+    padding:2px 0;user-select:none;list-style:none;
+  }
+  details.tooltable summary::before{content:"+ "}
+  details.tooltable[open] summary::before{content:"- "}
+  details.tooltable summary::-webkit-details-marker{display:none}
+  details.tooltable .twrap{max-height:260px;overflow-y:auto;margin-top:4px}
+
   /* jobs */
   .jobstate{margin-bottom:8px}
   .jobstate-hd{display:flex;align-items:baseline;gap:8px;margin-bottom:2px}
   .jobstate-hd .st{font-weight:700;letter-spacing:1px}
   .jobstate-hd .ct{color:var(--cyan);font-variant-numeric:tabular-nums}
   .jobids{color:var(--ink-dim);font-size:11px;word-break:break-all;padding-left:1em}
+
+  /* event feed */
+  #feed{max-height:280px;overflow-y:auto}
+  .fevent{
+    display:flex;gap:10px;align-items:baseline;padding:2px 0;
+    border-bottom:1px solid #171d25;font-size:12px;font-variant-numeric:tabular-nums;
+  }
+  .fevent:last-child{border-bottom:none}
+  .fevent .fseq{color:var(--ink-faint);min-width:4.5em;text-align:right}
+  .fevent .fname{color:var(--head);word-break:break-all;flex:1}
+  .fevent .fwriter{color:var(--cyan);font-size:11px;white-space:nowrap}
+  .fevent .fage{color:var(--ink-dim);font-size:11px;white-space:nowrap;min-width:5em;text-align:right}
 
   /* tables */
   .twrap{overflow-x:auto}
@@ -112,7 +219,7 @@
 <body>
 
 <header>
-  <h1>K<span>DASH</span></h1>
+  <h1>K<span>DASH</span> <small>v2</small></h1>
   <div class="connbar">
     <label for="apiBase">api</label>
     <input id="apiBase" type="text" value="http://127.0.0.1:8770" spellcheck="false" autocomplete="off">
@@ -127,11 +234,38 @@
   </div>
 </header>
 
+<!-- ---------- command bar ---------- -->
+<div class="cmdwrap">
+  <div class="cmdbar">
+    <span class="prompt">&gt;</span>
+    <input id="cmdInput" type="text" placeholder="command for the Commander — try: help" spellcheck="false" autocomplete="off">
+    <button id="btnMic" title="voice input">&#127908;</button>
+    <button id="btnRun">RUN</button>
+  </div>
+  <div class="quickcmds">
+    <button data-cmd="status">status</button>
+    <button data-cmd="audit">audit</button>
+    <button data-cmd="jobs">jobs</button>
+    <button data-cmd="help">help</button>
+  </div>
+  <div id="console"><div class="empty">no commands run yet — results appear here</div></div>
+</div>
+
 <div class="grid">
+
+  <section class="panel" id="panel-health">
+    <div class="panel-hd"><h2>HEALTH</h2><span class="age never" id="age-health">no data</span></div>
+    <div class="panel-bd" id="bd-health"><div class="empty">not connected — enter API base and token, then CONNECT</div></div>
+  </section>
+
+  <section class="panel" id="panel-spend">
+    <div class="panel-hd"><h2>SPEND</h2><span class="age never" id="age-spend">no data</span></div>
+    <div class="panel-bd" id="bd-spend"><div class="empty">not connected</div></div>
+  </section>
 
   <section class="panel" id="panel-status">
     <div class="panel-hd"><h2>STATUS</h2><span class="age never" id="age-status">no data</span></div>
-    <div class="panel-bd" id="bd-status"><div class="empty">not connected — enter API base and token, then CONNECT</div></div>
+    <div class="panel-bd" id="bd-status"><div class="empty">not connected</div></div>
   </section>
 
   <section class="panel" id="panel-jobs">
@@ -149,35 +283,77 @@
     <div class="panel-bd" id="bd-audit"><div class="empty">not connected</div></div>
   </section>
 
+  <section class="panel" id="panel-tools">
+    <div class="panel-hd"><h2>TOOLS</h2><span class="age never" id="age-tools">no data</span></div>
+    <div class="panel-bd" id="bd-tools"><div class="empty">not connected</div></div>
+  </section>
+
+  <section class="panel" id="panel-create">
+    <div class="panel-hd"><h2>CREATE</h2><span class="age never" id="age-create">no data</span></div>
+    <div class="panel-bd" id="bd-create">
+      <div class="quickcmds" id="create-kinds">
+        <button data-kind="AGENT">Agent</button>
+        <button data-kind="TOOL">Tool</button>
+        <button data-kind="CONNECTOR">Connector</button>
+        <button data-kind="SKILL">Skill</button>
+      </div>
+      <div id="create-cards"><div class="empty">pick a kind — cards list WHERE that kind can be made</div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-events">
+    <div class="panel-hd"><h2>LIVE EVENTS</h2><span class="age never" id="age-events">no data</span></div>
+    <div class="panel-bd">
+      <div id="feed"><div class="empty">not connected — the ledger tail streams here once connected</div></div>
+    </div>
+  </section>
+
 </div>
 
 <footer>
-  <span>KDash — pure client of the COSMOS v1 HTTP API · settings live in JS memory only, nothing is stored</span>
+  <span>KDash v2 — interactive client of the COSMOS HTTP API &middot; settings live in JS memory only, nothing is stored</span>
   <span id="clock"></span>
 </footer>
 
 <script>
 "use strict";
 (function(){
-  var REFRESH_S   = 10;   // auto-refresh period
-  var STALE_S     = 30;   // panel goes visually stale beyond this
-  var FETCH_TO_MS = 8000; // per-request timeout
+  var REFRESH_S    = 10;   // auto-refresh period for snapshot panels
+  var EVENTS_S     = 5;    // live event feed poll period
+  var STALE_S      = 30;   // panel goes visually stale beyond this
+  var FETCH_TO_MS  = 8000; // per-request timeout
+  var CONSOLE_MAX  = 50;   // console keeps this many entries
+  var FEED_MAX     = 200;  // event feed keeps this many rows in the DOM
 
   // ---- in-memory settings only (never persisted) ----
   var cfg = { base:"", token:"" };
   var connected = false;
   var paused = false;
-  var nextAt = 0;         // epoch ms of next scheduled refresh
+  var nextAt = 0;          // epoch ms of next scheduled snapshot refresh
+  var nextEventsAt = 0;    // epoch ms of next event poll
   var inflight = false;
+  var eventsInflight = false;
 
   // per-panel state: measuredAtMs = server-declared measurement time (ms epoch),
   // error = last failure string or null. measuredAtMs===null means "never".
   var panels = {
+    health:{measuredAtMs:null,error:null},
+    spend: {measuredAtMs:null,error:null},
     status:{measuredAtMs:null,error:null},
     jobs:  {measuredAtMs:null,error:null},
     rails: {measuredAtMs:null,error:null},
-    audit: {measuredAtMs:null,error:null}
+    audit: {measuredAtMs:null,error:null},
+    tools: {measuredAtMs:null,error:null},
+    create:{measuredAtMs:null,error:null},
+    events:{measuredAtMs:null,error:null}
   };
+
+  // live feed cursor: highest seq ever rendered. Never re-request below it.
+  var lastSeq = 0;
+  var feedHasEvents = false;
+
+  // console entries: {tsMs, cls, kind, head, body}
+  var consoleEntries = [];
 
   function $(id){ return document.getElementById(id); }
   function esc(s){
@@ -211,17 +387,28 @@
     return Math.floor(sec/86400)+"d "+Math.floor((sec%86400)/3600)+"h";
   }
 
+  function usd(v){
+    if(typeof v!=="number" || !isFinite(v)) return "—";
+    return "$"+v.toFixed(2);
+  }
+
   // ---------- fetch ----------
-  function apiGet(path){
+  function apiCall(path, opts){
     var ctl = new AbortController();
     var t = setTimeout(function(){ ctl.abort(); }, FETCH_TO_MS);
     var url = cfg.base.replace(/\/+$/,"") + path;
-    return fetch(url,{
-      method:"GET",
-      headers: cfg.token ? {"Authorization":"Bearer "+cfg.token} : {},
-      signal: ctl.signal,
+    var headers = cfg.token ? {"Authorization":"Bearer "+cfg.token} : {};
+    var init = {
+      method:(opts && opts.method) || "GET",
+      headers:headers,
+      signal:ctl.signal,
       cache:"no-store"
-    }).then(function(r){
+    };
+    if(opts && opts.body!==undefined){
+      headers["Content-Type"] = "application/json";
+      init.body = JSON.stringify(opts.body);
+    }
+    return fetch(url, init).then(function(r){
       clearTimeout(t);
       if(!r.ok) throw new Error("HTTP "+r.status+" "+r.statusText);
       return r.json();
@@ -231,8 +418,200 @@
       throw e;
     });
   }
+  function apiGet(path){ return apiCall(path); }
+  function apiPost(path, body){ return apiCall(path, {method:"POST", body:body}); }
+
+  // ---------- command console ----------
+  function addConsole(cls, kind, head, body){
+    consoleEntries.push({tsMs:Date.now(), cls:cls, kind:kind, head:head, body:body});
+    while(consoleEntries.length > CONSOLE_MAX) consoleEntries.shift();
+    renderConsole();
+  }
+
+  function renderConsole(){
+    var el = $("console");
+    if(consoleEntries.length===0){
+      el.innerHTML = '<div class="empty">no commands run yet — results appear here</div>';
+      return;
+    }
+    el.innerHTML = consoleEntries.map(function(e){
+      var ts = new Date(e.tsMs).toLocaleTimeString();
+      var h = '<div class="centry '+e.cls+'">'+
+              '<span class="cts">'+esc(ts)+'</span>'+
+              (e.kind ? '<span class="ckind">'+esc(e.kind)+'</span>' : '')+
+              (e.head ? '<div class="cbody">'+esc(e.head)+'</div>' : '');
+      if(e.body) h += '<pre>'+esc(e.body)+'</pre>';
+      h += '</div>';
+      return h;
+    }).join("");
+    el.scrollTop = el.scrollHeight;
+  }
+
+  function runCommand(text){
+    text = String(text||"").trim();
+    if(!text) return;
+    if(!connected){
+      addConsole("err","NOT CONNECTED","connect to the API before running commands",null);
+      return;
+    }
+    addConsole("cmd","","> "+text,null);
+    apiPost("/api/v1/command",{text:text}).then(function(d){
+      var pretty = JSON.stringify(d, null, 2);
+      if(d && d.error!==undefined && d.error!==null){
+        addConsole("err", String(d.error).toUpperCase(), null, pretty);
+      }else{
+        addConsole("ok","OK",null,pretty);
+      }
+    }).catch(function(e){
+      addConsole("err","TRANSPORT", e.message || String(e), null);
+    });
+  }
+
+  $("btnRun").addEventListener("click", function(){
+    runCommand($("cmdInput").value);
+    $("cmdInput").value = "";
+  });
+  $("cmdInput").addEventListener("keydown", function(e){
+    if(e.key==="Enter"){ runCommand(this.value); this.value=""; }
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".quickcmds button"), function(b){
+    b.addEventListener("click", function(){ runCommand(this.getAttribute("data-cmd")); });
+  });
+
+  // ---------- voice seam (feature-detected, never errors) ----------
+  (function(){
+    var mic = $("btnMic");
+    var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if(!SR){
+      mic.classList.add("unavailable");
+      mic.title = "voice unavailable in this browser";
+      return; // button stays inert — no error path
+    }
+    var rec = null, listening = false;
+    mic.addEventListener("click", function(){
+      if(listening){ try{ rec.stop(); }catch(_){} return; }
+      rec = new SR();
+      rec.lang = "en-US";
+      rec.interimResults = false;
+      rec.maxAlternatives = 1;
+      rec.onresult = function(ev){
+        if(ev.results && ev.results[0] && ev.results[0][0]){
+          $("cmdInput").value = ev.results[0][0].transcript;
+          $("cmdInput").focus();
+        }
+      };
+      rec.onend = function(){ listening=false; mic.classList.remove("listening"); };
+      rec.onerror = function(){ listening=false; mic.classList.remove("listening"); };
+      try{
+        rec.start();
+        listening = true;
+        mic.classList.add("listening");
+      }catch(_){
+        listening = false; mic.classList.remove("listening");
+      }
+    });
+  })();
 
   // ---------- renderers ----------
+  function renderHealth(d){
+    var verdict = d.verdict!=null ? String(d.verdict) : "UNKNOWN";
+    var vu = verdict.toUpperCase();
+    var vCls = "unknown";
+    if(vu==="GREEN") vCls="green";
+    else if(vu==="RED") vCls="red";
+    else if(vu==="BOARD-BROKEN") vCls="broken";
+    var h = '<div class="verdict '+vCls+'">'+esc(vu)+'</div>';
+    if(d.diagnosis) h += '<div class="diagnosis">'+esc(d.diagnosis)+'</div>';
+
+    var rows = d.rows || {};
+    var names = Object.keys(rows);
+    var ncOk = null; // negative_control_red from the payload
+    if(typeof d.negative_control_red==="boolean") ncOk = d.negative_control_red;
+
+    if(names.length===0){
+      h += '<div class="empty">no health rows reported</div>';
+    }else{
+      var body = names.map(function(name){
+        var r = rows[name] || {};
+        var isNC = /negative[\s_-]?control/i.test(name);
+        var dot = r.ok===true  ? '<span class="dot g"></span>'
+                : r.ok===false ? '<span class="dot r"></span>'
+                : '<span class="warn">?</span>';
+        var label = isNC ? ' <span class="nclabel">SUPPOSED TO BE RED</span>' : '';
+        return '<tr'+(isNC?' class="ncrow"':'')+'>'+
+          '<td>'+dot+'</td>'+
+          '<td>'+esc(name)+label+'</td>'+
+          '<td class="dim">'+esc(r.detail!=null?r.detail:"")+'</td>'+
+          '</tr>';
+      }).join("");
+      h += '<div class="twrap"><table>'+
+           '<thead><tr><th></th><th>ROW</th><th>DETAIL</th></tr></thead>'+
+           '<tbody>'+body+'</tbody></table></div>';
+    }
+
+    var redsTxt = d.reds!=null ? String(d.reds) : "—";
+    var ncTxt;
+    if(ncOk===true)       ncTxt = '<span class="ok">RED as designed</span>';
+    else if(ncOk===false) ncTxt = '<span class="bad">NOT RED — the checker may be incapable of failing</span>';
+    else                  ncTxt = '<span class="dim">—</span>';
+    h += '<dl class="kv" style="margin-top:8px">'+
+         '<dt>reds</dt><dd>'+esc(redsTxt)+'</dd>'+
+         '<dt>negative control</dt><dd>'+ncTxt+'</dd>'+
+         '</dl>';
+    $("bd-health").innerHTML = h;
+  }
+
+  function renderSpend(d){
+    var rails = d.rails || {};
+    var names = Object.keys(rails);
+    if(names.length===0){
+      $("bd-spend").innerHTML = '<div class="empty">no rails reported</div>';
+      return;
+    }
+    var h = '<div class="barlegend">bar vs cap:<i class="s"></i>settled<i class="r"></i>reserved</div>';
+    names.sort().forEach(function(name){
+      var r = rails[name] || {};
+      var cap = (typeof r.cap_usd==="number" && isFinite(r.cap_usd)) ? r.cap_usd : null;
+      var settled  = (typeof r.settled_usd==="number"  && isFinite(r.settled_usd))  ? r.settled_usd  : 0;
+      var reserved = (typeof r.reserved_usd==="number" && isFinite(r.reserved_usd)) ? r.reserved_usd : 0;
+
+      var badges = "";
+      if(typeof r.unpriced_calls==="number" && r.unpriced_calls>0){
+        badges += ' <span class="badge">'+r.unpriced_calls+' UNPRICED</span>';
+      }
+      if(r.expiry_risk){
+        badges += ' <span class="badge">EXPIRY RISK: '+esc(r.expiry_risk)+'</span>';
+      }
+
+      var bar;
+      if(cap!==null && cap>0){
+        var sPct = Math.min(100, settled/cap*100);
+        var rPct = Math.min(100 - sPct, reserved/cap*100);
+        bar = '<div class="bar">'+
+              '<div class="seg settled" style="left:0;width:'+sPct.toFixed(2)+'%"></div>'+
+              '<div class="seg reserved" style="left:'+sPct.toFixed(2)+'%;width:'+rPct.toFixed(2)+'%"></div>'+
+              '</div>';
+      }else{
+        bar = '<div class="bar"></div><div class="dim" style="font-size:10px">no cap reported — bar not to scale</div>';
+      }
+
+      var ft = '<div class="rail-ft">'+
+        '<span>settled '+usd(settled)+'</span>'+
+        '<span>reserved '+usd(reserved)+'</span>'+
+        '<span>cap '+(cap!==null?usd(cap):"—")+'</span>'+
+        '<span>headroom <b class="'+((typeof r.headroom_usd==="number"&&r.headroom_usd<=0)?"bad":"ok")+'">'+usd(r.headroom_usd)+'</b></span>'+
+        (typeof r.expires_in_days==="number"
+          ? '<span class="'+(r.expiry_risk?"warn":"dim")+'">expires in '+r.expires_in_days+'d</span>' : '')+
+        '</div>';
+
+      h += '<div class="rail">'+
+           '<div class="rail-hd"><span class="rname">'+esc(name)+'</span>'+badges+'</div>'+
+           bar + ft +
+           '</div>';
+    });
+    $("bd-spend").innerHTML = h;
+  }
+
   function renderStatus(d){
     var lh = d.ledger_head || {};
     var readyCls = d.ready ? "ok" : "bad";
@@ -336,6 +715,151 @@
       '</dl>';
   }
 
+  var DISPOSITIONS = ["PRESERVED","ADAPTED","REPLACED","ABANDONED","UNDECIDED"];
+  function renderTools(d){
+    var rep = d.report || [];
+    if(rep.length===0){
+      $("bd-tools").innerHTML = '<div class="empty">no tools reported</div>';
+      return;
+    }
+    var counts = {};
+    DISPOSITIONS.forEach(function(k){ counts[k]=0; });
+    var other = 0, verified = 0;
+    rep.forEach(function(t){
+      var disp = String(t.disposition||"").toUpperCase();
+      if(counts.hasOwnProperty(disp)) counts[disp]++;
+      else other++;
+      if(t.verified===true) verified++;
+    });
+    var chips = DISPOSITIONS.map(function(k){
+      return '<span class="chip">'+k.toLowerCase()+' <b>'+counts[k]+'</b></span>';
+    }).join("");
+    if(other>0) chips += '<span class="chip">other <b>'+other+'</b></span>';
+    chips += '<span class="chip v">verified <b>'+verified+'</b> / '+rep.length+'</span>';
+
+    var rows = rep.map(function(t){
+      var v = t.verified===true ? '<span class="ok">&#10003;</span>'
+            : t.verified===false ? '<span class="bad">&#10007;</span>'
+            : '<span class="dim">—</span>';
+      var ageS = (typeof t.age_s==="number" && isFinite(t.age_s)) ? humanAge(t.age_s)
+               : '<span class="dim">—</span>';
+      return '<tr>'+
+        '<td>'+esc(t.name!=null?t.name:"—")+'</td>'+
+        '<td>'+esc(t.disposition!=null?t.disposition:"—")+'</td>'+
+        '<td>'+v+'</td>'+
+        '<td>'+ageS+'</td>'+
+        '</tr>';
+    }).join("");
+
+    $("bd-tools").innerHTML =
+      '<div class="chips">'+chips+'</div>'+
+      '<details class="tooltable"><summary>full table ('+rep.length+' tools)</summary>'+
+      '<div class="twrap"><table>'+
+      '<thead><tr><th>NAME</th><th>DISPOSITION</th><th>VERIFIED</th><th>AGE</th></tr></thead>'+
+      '<tbody>'+rows+'</tbody></table></div>'+
+      '</details>';
+  }
+
+  // ---------- CREATE panel: pure client of GET /api/v1/makers?kind=... ----------
+  // A maker is a PLACE something can be made, not a capability claim. The kind
+  // set is closed; a typo refuses locally and never leaves the client as an
+  // empty list. Cards render the maker payload; "open maker" shows the invoke
+  // instructions (where / do / how / sources).
+  var CREATE_KINDS = ["AGENT","TOOL","CONNECTOR","SKILL"];
+  var createKind = null;
+
+  function makerCard(m){
+    var srcs = (m.potential_sources && m.potential_sources.length)
+             ? m.potential_sources.join(" · ") : "—";
+    return '<div class="mcard">'+
+      '<div><b>'+esc(m.id!=null?m.id:"—")+'</b> '+
+      '<span class="chip">'+esc(m.kind!=null?m.kind:"—")+'</span></div>'+
+      '<details><summary>open maker</summary>'+
+      '<dl class="kv">'+
+      '<dt>where</dt><dd>'+esc(m.location!=null?m.location:"—")+'</dd>'+
+      '<dt>do</dt><dd>'+esc(m.function!=null?m.function:"—")+'</dd>'+
+      '<dt>how</dt><dd>'+esc(m.access!=null?m.access:"—")+'</dd>'+
+      '<dt>sources</dt><dd>'+esc(srcs)+'</dd>'+
+      '</dl></details></div>';
+  }
+
+  function renderCreate(d){
+    var rows = d.makers || [];
+    if(rows.length===0){
+      $("create-cards").innerHTML =
+        '<div class="empty">no makers of kind '+esc(createKind)+
+        ' — none registered, not an error</div>';
+      return;
+    }
+    $("create-cards").innerHTML = rows.map(makerCard).join("");
+  }
+
+  function loadCreate(kind){
+    if(CREATE_KINDS.indexOf(kind)<0){
+      markError("create","UNKNOWN_KIND — "+kind+" is not a CREATE kind");
+      return;
+    }
+    createKind = kind;
+    if(!connected){
+      $("create-cards").innerHTML =
+        '<div class="empty">not connected — the CREATE panel is a client of the API</div>';
+      return;
+    }
+    refreshPanel("create","/api/v1/makers?kind="+kind,
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); },
+      renderCreate);
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll("#create-kinds button"), function(b){
+    b.addEventListener("click", function(){ loadCreate(this.getAttribute("data-kind")); });
+  });
+
+  // ---------- live event feed (append-only, cursor on seq) ----------
+  function pollEvents(){
+    if(!connected || eventsInflight) return;
+    eventsInflight = true;
+    apiGet("/api/v1/events?since_seq="+lastSeq).then(function(d){
+      eventsInflight = false;
+      markSuccess("events", Date.now());
+      var feed = $("feed");
+      var evs = d.events || [];
+      if(!feedHasEvents){
+        if(evs.length===0){
+          feed.innerHTML = '<div class="empty">no events yet — head_seq '+
+            esc(d.head_seq!=null?d.head_seq:"—")+'</div>';
+        }else{
+          feed.innerHTML = "";
+        }
+      }
+      evs.forEach(function(ev){
+        var seq = (typeof ev.seq==="number") ? ev.seq : null;
+        if(seq!==null && seq<=lastSeq) return;  // never re-render old events
+        if(seq!==null && seq>lastSeq) lastSeq = seq;
+        feedHasEvents = true;
+        var row = document.createElement("div");
+        row.className = "fevent";
+        var tMs = toMs(ev.t);
+        row.innerHTML =
+          '<span class="fseq">'+(seq!==null?seq:"—")+'</span>'+
+          '<span class="fname">'+esc(ev.event!=null?ev.event:"—")+'</span>'+
+          '<span class="fwriter">'+esc(ev.writer!=null?ev.writer:"—")+'</span>'+
+          '<span class="fage"'+(tMs!==null?' data-t="'+tMs+'"':'')+'>'+
+            (tMs!==null?humanAge((Date.now()-tMs)/1000):"—")+'</span>';
+        feed.appendChild(row);
+      });
+      while(feed.children.length > FEED_MAX && feed.firstChild){
+        feed.removeChild(feed.firstChild);
+      }
+      if(evs.length>0) feed.scrollTop = feed.scrollHeight;
+      if(typeof d.head_seq==="number" && d.head_seq>lastSeq) {
+        // more events exist than one page returned — next poll continues from lastSeq
+      }
+    }).catch(function(e){
+      eventsInflight = false;
+      markError("events", e.message || String(e));
+    });
+  }
+
   // ---------- panel plumbing ----------
   function markSuccess(name, measuredMs){
     var p = panels[name];
@@ -376,6 +900,10 @@
     inflight = true;
     var t0 = Date.now();
     Promise.all([
+      refreshPanel("health","/api/v1/health",
+        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderHealth),
+      refreshPanel("spend","/api/v1/spend",
+        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderSpend),
       refreshPanel("status","/api/v1/status",
         function(d){ return toMs(d.served_at); }, renderStatus),
       refreshPanel("jobs","/api/v1/jobs",
@@ -383,11 +911,13 @@
       refreshPanel("rails","/api/v1/rails",
         function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails),
       refreshPanel("audit","/api/v1/audit",
-        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit)
+        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit),
+      refreshPanel("tools","/api/v1/tools",
+        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderTools)
     ]).then(function(){
       inflight = false;
       var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
-      var allBad = Object.keys(panels).every(function(k){ return panels[k].error!==null; });
+      var allBad = Object.keys(panels).every(function(k){ return k==="events" || k==="create" || panels[k].error!==null; });
       var cs = $("connState");
       if(allBad){ cs.textContent="API unreachable"; cs.className="bad"; }
       else if(anyOk){ cs.textContent="connected · "+cfg.base+" · rtt "+(Date.now()-t0)+"ms"; cs.className="ok"; }
@@ -396,7 +926,7 @@
     });
   }
 
-  // ---------- 1 Hz ticker: ages, staleness, countdown ----------
+  // ---------- 1 Hz ticker: ages, staleness, countdown, event poll ----------
   function tick(){
     var now = Date.now();
     Object.keys(panels).forEach(function(name){
@@ -415,6 +945,11 @@
       if(ageS > STALE_S) el.classList.add("stale");
       else el.classList.remove("stale");
     });
+    // live event ages update in place
+    Array.prototype.forEach.call(document.querySelectorAll("#feed .fage[data-t]"), function(el){
+      var t = Number(el.getAttribute("data-t"));
+      if(isFinite(t)) el.textContent = humanAge((now - t)/1000);
+    });
     // countdown
     var cd = $("countdown");
     if(!connected){
@@ -426,6 +961,10 @@
       cd.textContent = "next refresh in "+left+"s";
       cd.className = "";
       if(now >= nextAt && !inflight) refreshAll();
+      if(now >= nextEventsAt && !eventsInflight){
+        nextEventsAt = now + EVENTS_S*1000;
+        pollEvents();
+      }
     }
     $("clock").textContent = "local " + new Date(now).toLocaleTimeString();
   }
@@ -433,7 +972,16 @@
 
   // ---------- controls ----------
   $("btnConnect").addEventListener("click", function(){
-    cfg.base  = $("apiBase").value.trim();
+    var newBase = $("apiBase").value.trim();
+    if(newBase !== cfg.base){
+      // new backend → new ledger → reset the feed cursor honestly
+      lastSeq = 0;
+      feedHasEvents = false;
+      $("feed").innerHTML = '<div class="empty">connecting — the ledger tail streams here</div>';
+      panels.events.measuredAtMs = null;
+      panels.events.error = null;
+    }
+    cfg.base  = newBase;
     cfg.token = $("token").value.trim();
     if(!cfg.base){ $("connState").textContent="API base required"; $("connState").className="bad"; return; }
     connected = true;
@@ -443,13 +991,15 @@
     $("connState").textContent = "connecting…";
     $("connState").className = "";
     nextAt = Date.now() + REFRESH_S*1000;
+    nextEventsAt = Date.now() + EVENTS_S*1000;
     refreshAll();
+    pollEvents();
   });
 
   $("btnPause").addEventListener("click", function(){
     paused = !paused;
     this.textContent = paused ? "RESUME" : "PAUSE";
-    if(!paused){ nextAt = Date.now(); }  // resume refreshes immediately
+    if(!paused){ nextAt = Date.now(); nextEventsAt = Date.now(); }  // resume refreshes immediately
     tick();
   });
 
