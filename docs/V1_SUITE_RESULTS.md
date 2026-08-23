@@ -39,7 +39,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.606s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -147,6 +147,23 @@ OK    installer stands up a bootable root
   OK    second lease on held resource -> HELD
   OK    restarted kernel verifies the same chain and continues it
 SELFTEST PASS - 13 checks
+```
+
+## test_migrate_health.py (rc=0)
+```
+OK    REAL incumbent registry ingested [MEASURED: 143 tools]
+  OK    spike replacements pre-dispositioned REPLACED
+  OK    UNDECIDED gap is COUNTED, not defaulted silently
+  OK    nothing verified yet (registration is not capability)
+  OK    re-ingest is idempotent (duplicates skipped, count stable)
+  OK    board runs GREEN on a healthy kernel
+  OK    THE PLANTED FAILURE IS RED (the board can see failure)
+  OK    board run is ledgered
+  OK    every row carries a detail
+  OK    a RAISING row is a RED row, not a dead board
+  OK    verdict counts the red
+  OK    all-red-one-reason -> SHARED-CAUSE diagnosis (C-46)
+SELFTEST PASS - 12 checks (the backlog is measured; the board can see failure)
 ```
 
 ## test_spend_context.py (rc=0)
