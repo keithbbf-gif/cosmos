@@ -102,16 +102,23 @@ class Kernel:
         self.sched = Scheduler(self.paths.role("queue"), key, worker, clock)
         from cosmos_registry import Registry
         from cosmos_spend import SpendGate
+        from cosmos_session import SessionManager
+        from cosmos_makers import MakerMap
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
+        self.sessions = SessionManager(self, clock=clock)
+        # Maker map: composition is not a write (a read-only kernel PROJECTS the
+        # catalog from the ledger and never reseeds); a writing kernel seeds the
+        # TOML catalog through add(), which is idempotent per id.
+        self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
         self.ready = True
 
     def open_session(self, session_id: str, stream: str):
         """Context manifests are a KERNEL verb (critic B5: modules beside a kernel are
-        not a kernel). Closing the returned Session over an open watcher REFUSES."""
-        from cosmos_context import Session
-        return Session(self.ledger, session_id, stream, clock=self._clock)
+        not a kernel). Closing the returned Session over an open watcher REFUSES.
+        Goes through SessionManager so TidyUP/BootUP see the same open session."""
+        return self.sessions.open(session_id, stream)
 
     # ---------------- return acceptance (the validation gate) ----------------
     def accept_return(self, return_id: str, claims: list[dict],

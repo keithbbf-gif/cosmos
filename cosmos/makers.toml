@@ -1,0 +1,58 @@
+# makers.toml - the known starting catalog of MAKERS (places where agents/tools/
+# connectors/skills can be MADE). Loaded through MakerMap.add() so the ledger is
+# the sole authority; this file is the seed, never the projection.
+# A maker is a PLACE, not a capability claim - reachability is a probe's job.
+
+[[makers]]
+id = "cursor-cloud-agent"
+kind = "AGENT"
+location = "Cursor Cloud Agent"
+function = "spawn a cloud coding agent against a repo branch"
+access = "cursor.com background agents, GitHub-connected"
+potential_sources = ["cursor.com/agents", "Cursor IDE"]
+tags = ["cloud", "coding", "agent"]
+
+[[makers]]
+id = "claude-agent-tool"
+kind = "TOOL"
+location = "Claude Agent tool"
+function = "launch a Claude subagent for a scoped multi-step task"
+access = "Agent tool inside a Claude Code / Cowork session"
+potential_sources = ["Claude Code", "Cowork"]
+tags = ["claude", "subagent", "in-session"]
+
+[[makers]]
+id = "grokbot-team"
+kind = "AGENT"
+location = "GrokBot team"
+function = "stand up a persistent agent team on the vendor platform"
+access = "grok.com agent teams, own credentials"
+potential_sources = ["grok.com", "rails.toml [[node]] GBt"]
+tags = ["grok", "team", "persistent"]
+
+[[makers]]
+id = "mcp-registry"
+kind = "CONNECTOR"
+location = "mcp-registry"
+function = "discover and install MCP connectors for external services"
+access = "mcp-registry search and suggest tools in-session"
+potential_sources = ["mcp-registry", "connector directory"]
+tags = ["mcp", "connector", "discovery"]
+
+[[makers]]
+id = "save-skill"
+kind = "SKILL"
+location = "save_skill"
+function = "package instructions into a reusable skill"
+access = "save_skill tool in a Cowork session"
+potential_sources = ["skill-creator", "SKILL.md"]
+tags = ["skill", "packaging", "reusable"]
+
+[[makers]]
+id = "scheduled-task"
+kind = "TOOL"
+location = "scheduled task"
+function = "create a recurring or deferred background job"
+access = "scheduled-tasks MCP / OS task scheduler"
+potential_sources = ["scheduled-tasks", "Windows Task Scheduler"]
+tags = ["schedule", "background", "recurring"]
