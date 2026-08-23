@@ -15,9 +15,13 @@ WHAT THIS SPIKE PROVES (the protocol, in-process - the service wrapper is 6b wor
     or superseded token is REJECTED and the rejection is ledgered
   * the dying-holder case: no release ever happens, the lease expires, the next claimant
     gets a HIGHER token, and the dead holder's late commit is REFUSED
-  * append-only event ledger (JSONL, fsync) - grant/renew/expire/takeover/commit/refuse
+    * append-only event ledger (JSONL, fsync) - grant/renew/expire/takeover/commit/refuse
     all land as events; the CURRENT state is a projection rebuilt by replay
-  * torn ledger line -> the arbiter REFUSES to load (never reads as free)
+    * torn ledger line -> the arbiter REFUSES to load (never reads as free)
+    * RF-LOCK-XPROC: an exclusive OS lock (msvcrt on Windows, fcntl elsewhere) on a
+    sidecar .lock beside the lease ledger, held across replay->decide->append in
+    acquire()/renew()/fenced_commit() - two independently-constructed keyed
+    arbiters cannot both grant the same resource with the same fencing token
 
 Scar lineage: tree_lock read-check-write race (API-05) - here the arbiter serializes;
 naive-timestamp staleness (OA finding) - all times are epoch floats from ONE clock;
@@ -75,6 +79,42 @@ class Arbiter:
             self._replay()
 
     # ---------------- ledger ----------------
+    def _lock_handle(self):
+        """Cross-process serialization via an OS lock on a sidecar .lock file.
+        RF-LOCK-XPROC (MEASURED): two independently-constructed keyed arbiters
+        both granted tree with token=1. The fix is an EXCLUSIVE OS LOCK held
+        across (re-prime from disk -> decide -> append): the second arbiter
+        BLOCKS, then re-primes onto the live lease and refuses HELD. A lock
+        the OS releases on process death needs no cleanup discipline."""
+        lk = open(str(self._ledger) + ".lock", "a+b")
+        if os.name == "nt":
+            import msvcrt
+            msvcrt.locking(lk.fileno(), msvcrt.LK_LOCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(lk.fileno(), fcntl.LOCK_EX)
+        return lk
+
+    def _unlock(self, lk) -> None:
+        try:
+            if os.name == "nt":
+                import msvcrt
+                lk.seek(0)
+                msvcrt.locking(lk.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                import fcntl
+                fcntl.flock(lk.fileno(), fcntl.LOCK_UN)
+        finally:
+            lk.close()
+
+    def _reprime(self) -> None:
+        """Rebuild leases and the token counter from DISK. Under the OS lock
+        this is the live projection, not a remembered one (RF-LOCK-XPROC)."""
+        self._leases = {}
+        self._max_token = 0
+        if self._ledger.exists():
+            self._replay()
+
     def _sig(self, event: dict) -> str:
         import hashlib, hmac as _h
         body = json.dumps({k: v for k, v in event.items() if k != "sig"},
@@ -143,41 +183,51 @@ class Arbiter:
 
     def acquire(self, resource: str, holder: str,
                 ttl: Optional[float] = None) -> Lease:
-        self._expire_if_due(resource)
-        cur = self._leases.get(resource)
-        if cur is not None:
-            raise LockError("HELD", f"{resource} held by {cur.holder} "
-                                    f"(token {cur.token}, {cur.expires_at - self._clock():.0f}s left)")
-        self._max_token += 1
-        # CRITIC M1 FIX: TAKEOVER was dead code (was_takeover=False, never computed) and
-        # the selftest asserted the implementation instead of the contract. Now decided
-        # from the LEDGER: if the last lifecycle event for this resource is EXPIRE, this
-        # grant IS the takeover, and the chain is EXPIRE -> TAKEOVER as documented.
-        was_takeover = False
-        for e in reversed(self.events()):
-            if e.get("resource") == resource and e.get("event") in (
-                    "GRANT", "TAKEOVER", "RELEASE", "EXPIRE"):
-                was_takeover = e["event"] == "EXPIRE"
-                break
-        lease = Lease(resource, holder, self._max_token, self._clock(),
-                      self._clock() + (ttl or self._ttl))
-        self._leases[resource] = lease
-        self._append({"event": "TAKEOVER" if was_takeover else "GRANT",
-                      "resource": resource, "holder": holder, "token": lease.token,
-                      "expires_at": lease.expires_at})
-        return lease
+        lk = self._lock_handle()
+        try:
+            self._reprime()
+            self._expire_if_due(resource)
+            cur = self._leases.get(resource)
+            if cur is not None:
+                raise LockError("HELD", f"{resource} held by {cur.holder} "
+                                        f"(token {cur.token}, {cur.expires_at - self._clock():.0f}s left)")
+            self._max_token += 1
+            # CRITIC M1 FIX: TAKEOVER was dead code (was_takeover=False, never computed) and
+            # the selftest asserted the implementation instead of the contract. Now decided
+            # from the LEDGER: if the last lifecycle event for this resource is EXPIRE, this
+            # grant IS the takeover, and the chain is EXPIRE -> TAKEOVER as documented.
+            was_takeover = False
+            for e in reversed(self.events()):
+                if e.get("resource") == resource and e.get("event") in (
+                        "GRANT", "TAKEOVER", "RELEASE", "EXPIRE"):
+                    was_takeover = e["event"] == "EXPIRE"
+                    break
+            lease = Lease(resource, holder, self._max_token, self._clock(),
+                          self._clock() + (ttl or self._ttl))
+            self._leases[resource] = lease
+            self._append({"event": "TAKEOVER" if was_takeover else "GRANT",
+                          "resource": resource, "holder": holder, "token": lease.token,
+                          "expires_at": lease.expires_at})
+            return lease
+        finally:
+            self._unlock(lk)
 
     def renew(self, lease: Lease, ttl: Optional[float] = None) -> Lease:
-        self._expire_if_due(lease.resource)
-        cur = self._leases.get(lease.resource)
-        if cur is None or cur.token != lease.token:
-            raise LockError("STALE_TOKEN",
-                            f"renew refused: token {lease.token} is not the current "
-                            f"holder of {lease.resource}")
-        cur.expires_at = self._clock() + (ttl or self._ttl)
-        self._append({"event": "RENEW", "resource": cur.resource, "holder": cur.holder,
-                      "token": cur.token, "expires_at": cur.expires_at})
-        return cur
+        lk = self._lock_handle()
+        try:
+            self._reprime()
+            self._expire_if_due(lease.resource)
+            cur = self._leases.get(lease.resource)
+            if cur is None or cur.token != lease.token:
+                raise LockError("STALE_TOKEN",
+                                f"renew refused: token {lease.token} is not the current "
+                                f"holder of {lease.resource}")
+            cur.expires_at = self._clock() + (ttl or self._ttl)
+            self._append({"event": "RENEW", "resource": cur.resource, "holder": cur.holder,
+                          "token": cur.token, "expires_at": cur.expires_at})
+            return cur
+        finally:
+            self._unlock(lk)
 
     def release(self, lease: Lease) -> None:
         cur = self._leases.get(lease.resource)
@@ -218,39 +268,44 @@ class Arbiter:
         fence was down when it finished, which is the difference between an audit that
         lies and one that doesn't."""
         import hashlib as _hl
-        self._assert_live(lease, "commit")
-        if expected_inputs:
-            for pth, want in expected_inputs.items():
-                try:
-                    got = _hl.sha256(Path(pth).read_bytes()).hexdigest()
-                except OSError as e:
-                    self._append({"event": "REFUSE", "op": "commit",
-                                  "resource": lease.resource, "token": lease.token,
-                                  "detail": f"input unreadable: {pth}: {e}"})
-                    raise LockError("NO_LEASE", f"input unreadable: {pth}") from e
-                if got != want:
-                    self._append({"event": "REFUSE", "op": "commit",
-                                  "resource": lease.resource, "token": lease.token,
-                                  "detail": f"input hash mismatch: {pth}"})
-                    raise LockError("STALE_TOKEN",
-                                    f"commit refused: input {pth} changed since the "
-                                    f"decision (got {got[:12]}, expected {want[:12]})")
-        result = commit()
-        # POST-CALLBACK RECHECK (M4): did the fence hold while we worked?
-        self._expire_if_due(lease.resource)
-        cur = self._leases.get(lease.resource)
-        if cur is None or cur.token != lease.token:
-            self._append({"event": "COMMIT_UNFENCED", "resource": lease.resource,
-                          "holder": lease.holder, "token": lease.token,
-                          "detail": "lease expired or was superseded DURING the commit "
-                                    "callback - the write landed with the fence down; "
-                                    "recorded as an incident, never as a clean COMMIT"})
-            raise LockError("STALE_TOKEN",
-                            f"commit landed UNFENCED on {lease.resource} - incident "
-                            f"recorded; treat the artifact as suspect")
-        self._append({"event": "COMMIT", "resource": cur.resource, "holder": cur.holder,
-                      "token": cur.token})
-        return result
+        lk = self._lock_handle()
+        try:
+            self._reprime()
+            self._assert_live(lease, "commit")
+            if expected_inputs:
+                for pth, want in expected_inputs.items():
+                    try:
+                        got = _hl.sha256(Path(pth).read_bytes()).hexdigest()
+                    except OSError as e:
+                        self._append({"event": "REFUSE", "op": "commit",
+                                      "resource": lease.resource, "token": lease.token,
+                                      "detail": f"input unreadable: {pth}: {e}"})
+                        raise LockError("NO_LEASE", f"input unreadable: {pth}") from e
+                    if got != want:
+                        self._append({"event": "REFUSE", "op": "commit",
+                                      "resource": lease.resource, "token": lease.token,
+                                      "detail": f"input hash mismatch: {pth}"})
+                        raise LockError("STALE_TOKEN",
+                                        f"commit refused: input {pth} changed since the "
+                                        f"decision (got {got[:12]}, expected {want[:12]})")
+            result = commit()
+            # POST-CALLBACK RECHECK (M4): did the fence hold while we worked?
+            self._expire_if_due(lease.resource)
+            cur = self._leases.get(lease.resource)
+            if cur is None or cur.token != lease.token:
+                self._append({"event": "COMMIT_UNFENCED", "resource": lease.resource,
+                              "holder": lease.holder, "token": lease.token,
+                              "detail": "lease expired or was superseded DURING the commit "
+                                        "callback - the write landed with the fence down; "
+                                        "recorded as an incident, never as a clean COMMIT"})
+                raise LockError("STALE_TOKEN",
+                                f"commit landed UNFENCED on {lease.resource} - incident "
+                                f"recorded; treat the artifact as suspect")
+            self._append({"event": "COMMIT", "resource": cur.resource, "holder": cur.holder,
+                          "token": cur.token})
+            return result
+        finally:
+            self._unlock(lk)
 
     # ---------------- introspection ----------------
     def status(self, resource: str) -> Optional[Lease]:

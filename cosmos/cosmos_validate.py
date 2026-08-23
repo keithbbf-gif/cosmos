@@ -20,7 +20,8 @@ from cosmos_ledger import Ledger
 
 
 class ValidateError(RuntimeError):
-    """kind in {SHORT_READ, HASH_MISMATCH, FAILED_VALIDATION, NO_VALIDATOR}."""
+    """kind in {SHORT_READ, HASH_MISMATCH, FAILED_VALIDATION, NO_VALIDATOR,
+    UNVALIDATED}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -114,7 +115,15 @@ class ReturnValidator:
 
     def accept(self, return_id: str, claims: list[dict]) -> dict:
         """claims: [{validator: name, ...args}]. ALL must pass or the whole return is
-        REFUSED - a return with one fabricated citation is a fabricating return."""
+        REFUSED - a return with one fabricated citation is a fabricating return.
+        An empty claims list is UNVALIDATED: a return that named no check never
+        passed a gate, so it is refused rather than vacuously accepted."""
+        if not claims:
+            self.ledger.append("RETURN_REFUSED",
+                               {"rid": return_id, "reason": "UNVALIDATED"})
+            raise ValidateError(
+                "UNVALIDATED",
+                f"{return_id}: no validators named - an unvalidated return is refused")
         results = []
         for c in claims:
             name = c.get("validator", "")

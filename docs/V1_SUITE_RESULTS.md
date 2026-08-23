@@ -22,6 +22,10 @@ OK    status: ok + READY + root identity
   OK    help: teaches the submit grammar
   OK    submit high -> claimable job with the same id
   OK    claimed job carries the spoken command
+  OK    submit: priority words inside the command stay in the command
+  OK    submit: a quoted command containing a priority word is not mis-split
+  OK    submit: last-word 'high' is NOT stolen as the priority (echo high)
+  OK    submit: unclosed quote REFUSES (never guessed)
   OK    bad priority -> BAD_ARGS that teaches the grammar
   OK    missing command -> BAD_ARGS
   OK    unknown verb -> UNKNOWN_COMMAND, never a guess
@@ -29,7 +33,7 @@ OK    status: ok + READY + root identity
   OK    every FORBIDDEN verb refuses
   OK    refusal is ledgered as COMMAND_REFUSED
   OK    handled commands are ledgered with ok flags
-SELFTEST PASS - 14 checks
+SELFTEST PASS - 18 checks
 ```
 
 ## test_concurrency.py (rc=0)
@@ -74,14 +78,13 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.604s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
 ## test_cosmos_lock.py (rc=0)
 ```
-OK    grant issues token 1
-  OK    fenced commit under live token runs
+der live token runs
   OK    renew extends expiry
   OK    second writer -> HELD
   OK    dying holder recovered by expiry, no cleanup discipline
@@ -98,7 +101,14 @@ OK    grant issues token 1
   OK    replayed arbiter sees the live lease
   OK    replayed arbiter's NEXT token is higher (counter survives restart)
   OK    torn ledger -> TORN_LEDGER refusal (never reads as free)
-SELFTEST PASS - 18 checks (5 refusals asserted BY KIND, 2 chains BY EVENT)
+  OK    keyed sibling constructed before the grant -> HELD after reprime (not a second token 1)
+  OK    sidecar .lock sits beside the lease ledger
+  OK    sibling race-equivalent leaves EXACTLY one GRANT (negative: no duplicate token)
+  OK    RF-LOCK-XPROC: EXACTLY ONE of two racing processes wins acquire('tree')
+  OK    RF-LOCK-XPROC: the loser is HELD by kind (not a crash, not a second grant)
+  OK    RF-LOCK-XPROC: ledger has EXACTLY one GRANT and one fencing token (was: two token=1)
+  OK    RF-LOCK-XPROC: winner token is 1 and matches the lone GRANT
+SELFTEST PASS - 25 checks (7 refusals asserted BY KIND, 2 chains BY EVENT, 1 measured xproc race)
 ```
 
 ## test_cosmos_mail.py (rc=0)
@@ -246,20 +256,73 @@ PORT PLAN: 33 tools mapped | {'REPLACED': 23, 'ADAPTED': 10}
 SELFTEST PASS - 21 checks (architecture wins where a contract conflicts; every decision recorded, never drifted)
 ```
 
+## test_rest_guards.py (rc=0)
+```
+taller created the ledger role dir
+  OK    REST-2 NEGATIVE: read_only Kernel does NOT mkdir a missing ledger dir
+  OK    REST-2 NEGATIVE: read_only worker does NOT mkdir a mail inbox
+  OK    REST-2 POSITIVE: read_only audit still answers (mail unread is 0, not a crash)
+  OK    REST-2 POSITIVE: writing Kernel DOES mkdir the ledger dir
+  OK    REST-2 POSITIVE: writing worker DOES register a mail inbox
+  OK    REST-2 NEGATIVE: read_only audit reports the expired lease as not live
+  OK    REST-2 NEGATIVE: read_only audit does NOT write an EXPIRE event (lease file bytes unchanged)
+  OK    REST-2 NEGATIVE: read_only arbiter.append REFUSES (typed)
+  OK    REST-2 POSITIVE: writing kernel expires the dead lease and WRITES EXPIRE
+  OK    REST-3 NEGATIVE: empty claims -> UNVALIDATED (unvalidated return refused)
+  OK    REST-3 NEGATIVE: unvalidated return does NOT complete the job (state still RUNNING)
+  OK    REST-3 NEGATIVE: failed path_exists -> FAILED_VALIDATION
+  OK    REST-3 NEGATIVE: a failed return still does not affect job state
+  OK    REST-3 NEGATIVE: no JOB_DONE landed (the projection was not touched)
+  OK    REST-3 NEGATIVE: both refusals are LEDGERED as RETURN_REFUSED
+  OK    REST-3 POSITIVE: a validated return is accepted
+  OK    REST-3 POSITIVE: only AFTER validation does the job leave RUNNING
+  OK    REST-3 POSITIVE: RETURN_VALIDATED is ledgered on the authority chain
+  OK    REST-3 NEGATIVE: read_only kernel refuses accept_return (typed)
+SELFTEST PASS - 26 checks (REST-1 argv confinement, REST-2 read-only non-mutation, REST-3 validation-before-state; + and - controls)
+```
+
+## test_rest_surface.py (rc=0)
+```
+OK    whitespace api_token.txt -> BLANK_TOKEN (open door refused)
+  OK    empty api_token.txt -> BLANK_TOKEN
+  OK    missing token on remote bind -> TOKEN_MISSING (not invented)
+  OK    ...and the missing remote token file was NOT invented
+  OK    missing token on loopback is minted (zero-friction local)
+  OK    minted local token authenticates GET /status
+  OK    Authorization Bearer <empty> is 401 against a real token
+  OK    remote bind with a provided non-blank token is accepted
+  OK    POST /crucible with no composed critics -> 501 CRUCIBLE_NOT_RUNNABLE
+  OK    ...and no print-stub job was queued
+  OK    ...the refusal is ledgered as CRUCIBLE_REFUSED
+  OK    POST /crucible asking for an uncomposed critic -> 501 (not invented)
+  OK    POST /crucible absolute source -> 400 IDENTITY_MISMATCH
+  OK    POST /crucible missing source -> 400 EMPTY_SOURCE (typed, not a stub)
+  OK    POST /crucible with composed critics -> 201 + job_id
+  OK    ...returns LAND ON DISK (not a print stub)
+  OK    ...the scheduled job is not the print stub
+  OK    ...CRUCIBLE_PACKET_BUILT + CRUCIBLE_ROUND_DONE + CRUCIBLE_RETURN landed
+  OK    ...the job completed through the scheduler (not left QUEUED as a stub)
+  OK    submit: 'high' and 'critical' inside the command are not the priority
+  OK    submit: quoted command containing 'high' stays one command
+  OK    submit: a non-priority first token still BAD_ARGS (no last-word steal)
+  OK    submit: unclosed quote is BAD_ARGS, never a guessed command
+SELFTEST PASS - 23 checks (crucible real-or-501; token refuse; submit parse)
+```
+
 ## test_segments.py (rc=0)
 ```
-OK    3+ rotations produced 4 segments on disk
-  OK    3 segments sealed with an anchor (the live head has none)
-  OK    append returned continuous global_seq 1..N as it wrote
-  OK    verify_all passes over the whole multi-segment history
-  OK    global seqs are continuous 1..N ACROSS segment boundaries
-  OK    local seq RESETS per segment while global does not (layer, not rewrite)
-  OK    anchors form their own hash chain (prev_anchor_sha256 links each)
+their own hash chain (prev_anchor_sha256 links each)
   OK    anchor seq accounting matches the records (first/last/count)
+  OK    sealed anchors carry hmac that verifies with the install key (positive)
   OK    corrupt MIDDLE segment -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002
   OK    the corrupt segment recorded a LEDGER_INCIDENT
   OK    corrupt ANCHOR -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002.anchor
   OK    the corrupt anchor recorded a LEDGER_INCIDENT
+  OK    forged ANCHOR (edited accounting, re-hashed) -> verify_all REFUSES (FORGED)
+  OK    the forged anchor recorded a LEDGER_INCIDENT
+  OK    unsigned closed-segment ANCHOR -> verify_all REFUSES (FORGED)
+  OK    broken prev_anchor_sha256 -> verify_all REFUSES (BROKEN_CHAIN) naming the chain
+  OK    the broken prev_anchor recorded a LEDGER_INCIDENT
   OK    CAS.put returns the sha256 of the content
   OK    CAS.get round-trips the exact bytes
   OK    CAS is idempotent: identical content -> identical sha
@@ -269,7 +332,7 @@ OK    3+ rotations produced 4 segments on disk
   OK    an ABSENT CAS blob -> NOT_FOUND, not UNREADABLE (four-state rule)
   OK    the deep CAS root exceeds MAX_PATH (>260 chars)
   OK    CAS put/get works past MAX_PATH via extended()
-SELFTEST PASS - 21 checks (3+ rotations, anchor chain, 2 planted corruptions BY KIND naming the culprit + incidents, CAS round-trip/idempotence/HASH_MISMATCH, MAX_PATH)
+SELFTEST PASS - 27 checks (3+ rotations, signed anchor chain, planted corruptions BY KIND + forged/re-hashed accounting REFUSED, prev_anchor chain, incidents, CAS round-trip/idempotence/HASH_MISMATCH, MAX_PATH)
 ```
 
 ## test_spend_context.py (rc=0)
@@ -410,7 +473,7 @@ cker that found something is not broken)
   OK    events cursor: nothing refetched past the head
   OK    POST /command: the voice/frontend seam answers over the wire
   OK    POST /command: destructive verb REFUSED over the wire
-  OK    POST /crucible: remote crucible queues a job and ledgers the request
+  OK    POST /crucible: remote crucible runs a round, lands returns, ledgers
 SELFTEST PASS - 31 checks (B3/B6/M4/M5 closed; crucible + remote live)
 ```
 
