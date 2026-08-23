@@ -12,7 +12,8 @@ _TESTS = Path(__file__).resolve().parent
 _COSMOS = _TESTS.parent / "cosmos"
 sys.path.insert(0, str(_TESTS))
 sys.path.insert(0, str(_COSMOS))
-from cosmos_lock import Arbiter, LockError, LOCK_REGION, sidecar_lock_path
+from cosmos_lock import (Arbiter, LockError, LOCK_REGION, StagedArtifact,
+                         sidecar_lock_path)
 
 # Independently-constructed child: a fresh interpreter, its own Arbiter, one acquire.
 _XPROC_RACER = r"""
@@ -283,6 +284,111 @@ def main() -> int:
     check("torn ledger -> TORN_LEDGER refusal (never reads as free)",
           expect("TORN_LEDGER")(lambda: Arbiter(bad, clock=clk)))
 
+    # ==== FOUR-PHASE FENCED COMMIT (RF-LOCK-LIVENESS) ====
+    # LIVENESS: a blocked commit callback on resource X must not prevent an
+    # acquire() on resource Y - the OS mutex is NOT held across Phase B.
+    lled = td / "liveness.jsonl"
+    arbx = Arbiter(lled)
+    arby = Arbiter(lled)            # independent instance, same ledger
+    live_t = td / "live_x.txt"
+    started, gate2 = threading.Event(), threading.Event()
+    live_out: dict = {}
+
+    def _slow_stage(token: int):
+        tmp = td / "live_x.part"
+        tmp.write_text("payload-x", encoding="utf-8")
+        started.set()
+        gate2.wait(10)              # hang here - old contract would starve the ledger
+        return StagedArtifact(src=tmp, dst=live_t)
+
+    lx = arbx.acquire("X", "A")
+
+    def _commit_x():
+        try:
+            live_out["out"] = arbx.fenced_commit(lx, _slow_stage)
+        except LockError as e:      # pragma: no cover - failure detail for the label
+            live_out["err"] = e.kind
+
+    thr = threading.Thread(target=_commit_x)
+    thr.start()
+    ok_started = started.wait(10)   # Phase B is running (and blocked)
+    t0 = time.time()
+    ly = arby.acquire("Y", "B")     # must proceed promptly - no mutex held
+    dt = time.time() - t0
+    check("LIVENESS: acquire(Y) proceeds promptly while X's commit callback is blocked",
+          lambda: ok_started and dt < 1.0 and ly.holder == "B")
+    gate2.set()
+    thr.join(10)
+    check("LIVENESS: the blocked commit still lands cleanly afterward (installed + COMMIT)",
+          lambda: live_out.get("out") == live_t
+          and live_t.read_text(encoding="utf-8") == "payload-x"
+          and any(e["event"] == "COMMIT" and e["resource"] == "X" for e in arbx.events()))
+    check("LIVENESS: the reservation is a LEDGERED event (COMMIT_RESERVED, Phase A)",
+          lambda: any(e["event"] == "COMMIT_RESERVED" and e["resource"] == "X"
+                      for e in arbx.events()))
+
+    # FENCE ENFORCEMENT: reserve token N on `res`; DURING Phase B the lease
+    # expires and another arbiter takes over (token N+1); the original install
+    # must be REFUSED at Phase C and the stale artifact must NEVER land.
+    # Deterministic and single-threaded - possible only because Phase B holds no lock.
+    fled = td / "fence.jsonl"
+    fclk = Clock()
+    fa = Arbiter(fled, clock=fclk, default_ttl=100)
+    fb = Arbiter(fled, clock=fclk, default_ttl=100)
+    ftarget = td / "fenced.txt"
+    ftarget.write_text("OLD", encoding="utf-8")
+    fla = fa.acquire("res", "A")
+    fstate: dict = {}
+
+    def _stale_stage(token: int):
+        tmp = td / "fenced.txt.part"
+        tmp.write_text("STALE", encoding="utf-8")
+        fstate["tmp"] = tmp
+        fclk.t += 101                             # lease dies inside Phase B...
+        fstate["lb"] = fb.acquire("res", "B")     # ...and B takes over: token N+1
+        return StagedArtifact(src=tmp, dst=ftarget)
+
+    check("FENCE: install with a superseded token -> STALE_TOKEN (CAS at Phase C)",
+          expect("STALE_TOKEN")(lambda: fa.fenced_commit(fla, _stale_stage)))
+    check("FENCE: takeover DURING Phase B succeeded with token N+1 (mutex was free)",
+          lambda: fstate["lb"].token == fla.token + 1)
+    check("FENCE: the stale artifact NEVER lands (target unchanged)",
+          lambda: ftarget.read_text(encoding="utf-8") == "OLD")
+    check("FENCE: the staged .part was discarded, not published",
+          lambda: not fstate["tmp"].exists())
+    fev = fa.events()
+    check("FENCE: COMMIT_REFUSED ledgered and NO COMMIT event carries the stale token",
+          lambda: any(e["event"] == "COMMIT_REFUSED" and e["token"] == fla.token
+                      for e in fev)
+          and not any(e["event"] == "COMMIT" and e.get("token") == fla.token
+                      for e in fev))
+
+    # INVARIANT: once the arbiter accepted token N+1, an install carrying N was
+    # refused (above) - and the CURRENT holder's token N+1 install still lands.
+    def _b_stage(token: int):
+        tmp = td / "fenced.txt.partB"
+        tmp.write_text("B-CONTENT", encoding="utf-8")
+        return StagedArtifact(src=tmp, dst=ftarget)
+
+    check("FENCE invariant: the current holder (token N+1) installs cleanly after "
+          "the stale refusal",
+          lambda: fb.fenced_commit(fstate["lb"], _b_stage) == ftarget
+          and ftarget.read_text(encoding="utf-8") == "B-CONTENT")
+
+    # REENTRANCY: a callback calling back into fenced_commit for the SAME
+    # resource is refused TYPED (no deadlock, no corrupted reservation).
+    rled2 = td / "reentrant.jsonl"
+    rarb = Arbiter(rled2)
+    rl = rarb.acquire("res", "A")
+
+    def _nested(token: int):
+        rarb.fenced_commit(rl, lambda t: None)    # same resource, same arbiter
+
+    check("REENTRANT: nested fenced_commit for the SAME resource -> typed refusal",
+          expect("REENTRANT")(lambda: rarb.fenced_commit(rl, _nested)))
+    check("REENTRANT: the in-flight flag clears - a later commit on the resource works",
+          lambda: rarb.fenced_commit(rl, lambda: "again") == "again")
+
     # ---- RF-LOCK-XPROC: independently-constructed keyed arbiters ----
     KEY = b"t1-xproc-key"
     # POSITIVE + NEGATIVE, same process: two instances, first grants, sibling reprimes.
@@ -369,8 +475,11 @@ def main() -> int:
               lambda: len(tw) == 1 and len(tl) == 1 and tl[0].get("kind") == "HELD"
               and _exactly_one_grant(rled, 1))
 
-        # fenced_commit must keep the sidecar mutex across the callback
-        # (reprime -> decide -> commit() -> append), not drop it in between.
+        # FOUR-PHASE contract: fenced_commit must NOT hold the sidecar mutex
+        # across the callback. Phase A reserves under the lock, then RELEASES;
+        # Phase B (the callback) runs lock-free; Phase C retakes it briefly for
+        # the CAS + rename. (The old contract held the mutex throughout - a hung
+        # callback starved every acquire/renew/release on the ledger.)
         cled = td / "msvcrt_commit.jsonl"
         ca = Arbiter(cled, key=KEY)
         cl_lease = ca.acquire("tree", "A")
@@ -387,20 +496,22 @@ def main() -> int:
 
         tc = threading.Thread(target=_run_commit)
         tc.start()
-        # Wait until the callback has observed the lock, then release it.
+        # Wait until the callback has sampled the lock table, then release it.
         t0 = time.time()
         while "held" not in during and time.time() - t0 < 2:
             time.sleep(0.005)
         gate.set()
         tc.join(5)
-        check("msvcrt: fenced_commit holds the sidecar mutex across the callback",
-              lambda: during.get("held") is True and during.get("result") == "ok")
+        check("msvcrt: fenced_commit RELEASES the sidecar mutex across the callback "
+              "(four-phase liveness)",
+              lambda: during.get("held") is False and during.get("result") == "ok")
 
     bad2 = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label, ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (7 refusals asserted BY KIND, 2 chains BY EVENT, "
-          "1 measured xproc race, msvcrt region mutex on Linux)"
+    print("SELFTEST %s - %d checks (refusals asserted BY KIND, chains BY EVENT, "
+          "1 measured xproc race, four-phase fenced commit: liveness + "
+          "resource-side fence + reentrancy, msvcrt region mutex on Linux)"
           % ("PASS" if not bad2 else "FAIL", len(RESULTS)))
     return 0 if not bad2 else 1
 

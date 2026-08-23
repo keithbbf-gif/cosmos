@@ -27,7 +27,7 @@ from pathlib import Path
 
 from cosmos_paths import CosmosPaths, CosmosPathError          # noqa: F401
 from cosmos_ledger import Ledger, LedgerError                  # noqa: F401
-from cosmos_lock import Arbiter, LockError                     # noqa: F401
+from cosmos_lock import Arbiter, LockError, StagedArtifact     # noqa: F401
 from cosmos_mail import Mailbox, MailError                     # noqa: F401
 from cosmos_sched import Scheduler, SchedError                 # noqa: F401
 from cosmos_validate import ReturnValidator, ValidateError     # noqa: F401
@@ -148,20 +148,25 @@ class Kernel:
         # fail fast on bad input, and never hold a lock while refusing. role() raises
         # IDENTITY_MISMATCH on absolute/traversal relpaths.
         target = self.paths.role("state", relpath)
-        """THE fenced commit: lease -> write to a private temp -> fenced install ->
-        ledger event. No lease, no write - and a stale lease is REFUSED by the arbiter,
-        not by discipline."""
+        """THE four-phase fenced commit: lease -> STAGE to a private temp with NO
+        arbiter mutex held (Phase B, arbitrary-size write) -> short-locked fenced
+        install (Phase C: token CAS, then an O(1) os.replace) -> ledger event.
+        No lease, no write - and a stale token is REFUSED at install time by the
+        arbiter's resource-side fence, not by discipline: the staged file of a
+        superseded holder is discarded and the target is never touched."""
         lease = self.arbiter.acquire(resource, self.worker)
         try:
             target.parent.mkdir(parents=True, exist_ok=True)
 
-            def commit():
-                tmp = target.with_suffix(target.suffix + ".part")
+            def stage(token: int) -> StagedArtifact:
+                # PHASE B (unlocked): the full content lands in a token-named
+                # .part beside the target. Only the rename happens under the
+                # arbiter's short Phase C lock, fenced by the token CAS.
+                tmp = target.with_suffix(target.suffix + f".part{token}")
                 tmp.write_text(content, encoding="utf-8")
-                os.replace(tmp, target)             # single-volume install
-                return target
+                return StagedArtifact(src=tmp, dst=target, result=target)
 
-            out = self.arbiter.fenced_commit(lease, commit)
+            out = self.arbiter.fenced_commit(lease, stage)
             self.ledger.append("PROTECTED_WRITE",
                                {"resource": resource, "path": str(out),
                                 "bytes": len(content.encode("utf-8")),

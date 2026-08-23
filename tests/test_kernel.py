@@ -38,6 +38,12 @@ def main() -> int:
     check("write is ledgered with worker identity",
           lambda: any(r["event"] == "PROTECTED_WRITE" and r["payload"]["worker"] == "core-a"
                       for r in k.ledger.verify()))
+    check("four-phase write leaves no staged .part residue beside the target",
+          lambda: not [p for p in out.parent.iterdir() if ".part" in p.name])
+    check("the install is ledgered as a fenced COMMIT with a reservation before it",
+          lambda: (lambda ev: "COMMIT_RESERVED" in ev and "COMMIT" in ev
+                   and ev.index("COMMIT_RESERVED") < ev.index("COMMIT"))(
+              [e["event"] for e in k.arbiter.events()]))
 
     # ---- end-to-end job through the composed kernel ----
     jid = k.sched.submit("echo hello", "high")
