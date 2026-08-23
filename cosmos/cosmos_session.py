@@ -10,15 +10,21 @@ handoff. The inherit body comes from boot_inherit() - carry-over is not re-deriv
 here. Returns the seed path.
 
 start_session(stream) is BootUP: the prior seed is read under its declared length/hash
-(read_verified - bytes-declared vs consumed), facts and watchers are injected into a
-new cosmos_context.Session, and the inherited context is returned. A missing,
-unparseable, or unverifiable seed is a typed refusal, not an operator-memory failure.
+(read_verified - bytes-declared vs consumed, an INTEGRITY check), its install-key HMAC
+must verify (AUTHENTICITY - the sidecar alone is rewritable by anyone who can write
+state/), and its tree_id must equal the live sentinel's (IDENTITY - another tree's
+seed must not inject here). Only then are facts and watchers injected into a new
+cosmos_context.Session and the inherited context returned. A missing, unparseable,
+unverifiable, unauthenticated, or wrong-tree seed is a typed refusal, not an
+operator-memory failure.
 
 The seed is a fixed-name handoff (state/SEED.json) plus a declaration sidecar. A
 dated archive is written beside it; nothing is unlinked (never-delete).
 """
 from __future__ import annotations
 
+import hashlib
+import hmac
 import json
 import time
 from pathlib import Path
@@ -88,6 +94,26 @@ class SessionManager:
         self.k = kernel
         self._clock = clock
         self.session: Optional[Session] = None
+
+    # ---------------- seed authenticity (install-key HMAC) ----------------
+    def _install_key(self) -> bytes:
+        """The install key the kernel already loaded (it authenticates the
+        ledger); the file under config/ is the fallback source of the same
+        material. No new key material is invented here."""
+        key = getattr(self.k.ledger, "_key", None)
+        if isinstance(key, (bytes, bytearray)) and key:
+            return bytes(key)
+        return self.k.paths.config("install_key.bin").read_bytes()
+
+    def _seed_mac(self, tree_id: str, payload: bytes) -> str:
+        """HMAC-SHA256 over schema + tree_id + the exact seed bytes. The
+        length/hash sidecar is INTEGRITY (the mount's silent-corruption check);
+        it is not AUTHENTICITY - anyone who can write state/ can rewrite the
+        sidecar to match a forged seed. Only the install key cannot be rewritten
+        from state/, so the MAC is what makes a seed THIS install's word."""
+        material = (SEED_SCHEMA.encode("utf-8") + b"\x00"
+                    + str(tree_id).encode("utf-8") + b"\x00" + payload)
+        return hmac.new(self._install_key(), material, hashlib.sha256).hexdigest()
 
     # ---------------- open (first session, or after a clean close) ----------------
     def open(self, session_id: str, stream: str) -> Session:
@@ -263,7 +289,9 @@ class SessionManager:
         write_declared(
             decl_path,
             json.dumps({"len": decl["len"], "sha": decl["sha"],
-                        "schema": SEED_SCHEMA}, indent=1, sort_keys=True).encode("utf-8"))
+                        "schema": SEED_SCHEMA,
+                        "mac": self._seed_mac(seed.get("tree_id", ""), payload)},
+                       indent=1, sort_keys=True).encode("utf-8"))
         return path
 
     # ---------------- start = BootUP + inject ----------------
@@ -320,6 +348,35 @@ class SessionManager:
         watchers = seed.get("watchers") or {}
         if not isinstance(watchers, dict):
             raise SessionError("BAD_SEED", f"{seed_path}: watchers must be an object")
+
+        # AUTHENTICITY before any injection: the sidecar's len/sha only prove the
+        # bytes are the bytes the sidecar names - and both files live in state/,
+        # so a forger rewrites the pair together. The install-key MAC cannot be
+        # forged from state/; a seed without a verifying MAC is refused, never
+        # injected.
+        mac = str(decl.get("mac") or "")
+        if not mac:
+            raise SessionError(
+                "BAD_SEED",
+                f"{decl_path} carries no seed MAC - an unauthenticated seed is "
+                f"refused (anyone who can write state/ could have written it)")
+        want = self._seed_mac(seed.get("tree_id", ""), raw)
+        if not hmac.compare_digest(mac, want):
+            raise SessionError(
+                "BAD_SEED",
+                f"{seed_path}: seed MAC does not verify against this install's "
+                f"key - refusing to inject unauthenticated carry-over")
+
+        # IDENTITY before any injection: a byte-valid seed from ANOTHER tree
+        # would inject its facts and watchers into THIS tree - the hard-coded
+        # path bug in seed form ('it resolves, and to the wrong universe').
+        seed_tree = str(seed.get("tree_id") or "").strip()
+        live_tree = str(self.k.paths.sentinel.tree_id)
+        if not seed_tree or seed_tree != live_tree:
+            raise SessionError(
+                "IDENTITY_MISMATCH",
+                f"seed tree_id={seed_tree!r} != live sentinel tree_id="
+                f"{live_tree!r} - refusing to inject another tree's carry-over")
 
         n = sum(1 for r in self.k.ledger.verify() if r["event"] == "SESSION_OPENED")
         handoff = str(seed.get("handoff") or "").strip()

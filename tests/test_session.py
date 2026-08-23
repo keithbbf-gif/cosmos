@@ -160,6 +160,7 @@ def main() -> int:
     parked_decl.rename(decl_path)
 
     good = seed_path.read_bytes()
+    good_decl = decl_path.read_bytes()           # the AUTHENTIC sidecar (carries the MAC)
     seed_path.write_bytes(good + b"\n")          # bytes change, declaration does not
     check("tampered seed (declared hash disagrees) -> BAD_SEED",
           expect(SessionError, "BAD_SEED")(lambda: k2.sessions.start_session("pb")))
@@ -173,8 +174,38 @@ def main() -> int:
     check("seed that parses but is not a COSMOS_SEED -> BAD_SEED",
           expect(SessionError, "BAD_SEED")(lambda: k2.sessions.start_session("pb")))
 
-    # restore a valid seed so later CLI start works
-    _write_seed_bytes(seed_path, decl_path, good)
+    # FORGED seed: byte-valid COSMOS_SEED + freshly-computed len/sha sidecar - exactly
+    # what anyone who can write state/ can produce. Without the install-key MAC it
+    # must be refused, never injected (finding: sidecar is integrity, not authenticity).
+    forged = dict(json.loads(good.decode("utf-8")))
+    forged["facts"] = {"repo": "attacker/injected"}
+    _write_seed_bytes(seed_path, decl_path,
+                      json.dumps(forged, indent=1, sort_keys=True).encode("utf-8"))
+    check("forged seed with self-consistent sidecar but no install-key MAC -> BAD_SEED",
+          expect(SessionError, "BAD_SEED")(lambda: k2.sessions.start_session("pb")))
+
+    # WRONG-TREE seed: correctly MAC'd by THIS install's key but naming another
+    # tree_id - identity must refuse before any fact/watcher injection.
+    import hashlib as _hl
+    import hmac as _hm
+    _key = (root / "config" / "install_key.bin").read_bytes()
+    alien = dict(json.loads(good.decode("utf-8")))
+    alien["tree_id"] = "OTHER-TREE"
+    alien_bytes = json.dumps(alien, indent=1, sort_keys=True).encode("utf-8")
+    alien_mac = _hm.new(_key, SEED_SCHEMA.encode("utf-8") + b"\x00"
+                        + b"OTHER-TREE" + b"\x00" + alien_bytes,
+                        _hl.sha256).hexdigest()
+    d2 = write_declared(seed_path, alien_bytes)
+    write_declared(decl_path, json.dumps(
+        {"len": d2["len"], "sha": d2["sha"], "schema": SEED_SCHEMA,
+         "mac": alien_mac}, indent=1, sort_keys=True).encode("utf-8"))
+    check("byte-valid, MAC-valid seed from ANOTHER tree -> IDENTITY_MISMATCH",
+          expect(SessionError, "IDENTITY_MISMATCH")(
+              lambda: k2.sessions.start_session("pb")))
+
+    # restore the valid seed AND its authentic sidecar so later CLI start works
+    seed_path.write_bytes(good)
+    decl_path.write_bytes(good_decl)
 
     k2.sessions.open("live-a", "pb")
     check("open a second live session -> ALREADY_OPEN",

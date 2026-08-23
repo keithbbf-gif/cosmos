@@ -99,10 +99,28 @@ def main() -> int:
     k_rok = Kernel(root_rem_ok, worker="core")
     k_rok.paths.config("api_token.txt").write_text("provided-remote-secret\n",
                                                    encoding="utf-8")
-    svc_rok = Service(k_rok, host="0.0.0.0", port=0)
-    check("remote bind with a provided non-blank token is accepted",
-          lambda: svc_rok.token == "provided-remote-secret")
-    svc_rok.httpd.server_close()
+    # HARDENED: a non-loopback bind over cleartext HTTP is REFUSED even with a
+    # provided token - the bearer would cross the LAN in the clear on every
+    # request (capture + replay). Remote requires TLS actually up.
+    check("remote bind without TLS -> REMOTE_CLEARTEXT (token never served in clear)",
+          expect(ServiceError, "REMOTE_CLEARTEXT")(
+              lambda: Service(k_rok, host="0.0.0.0", port=0)))
+    try:
+        import cryptography                                           # noqa: F401
+        _have_tls = True
+    except ImportError:
+        _have_tls = False
+    if _have_tls:
+        svc_rok = Service(k_rok, host="0.0.0.0", port=0, tls=True)
+        check("remote bind WITH TLS up + provided token is accepted (https)",
+              lambda: svc_rok.scheme == "https"
+              and svc_rok.token == "provided-remote-secret")
+        svc_rok.httpd.server_close()
+    else:
+        check("remote bind with tls=True but no crypto lib still refuses "
+              "(no silent HTTP fallback on the LAN)",
+              expect(ServiceError, "REMOTE_CLEARTEXT")(
+                  lambda: Service(k_rok, host="0.0.0.0", port=0, tls=True)))
 
     # ================= CRUCIBLE =================
     root = td / "cru"
@@ -171,6 +189,46 @@ def main() -> int:
           <= {e["event"] for e in k.ledger.verify()})
     check("...the job completed through the scheduler (not left QUEUED as a stub)",
           lambda: k.sched._state()[body["job_id"]]["st"] in ("CLEAN", "FINDINGS"))
+
+    # ============ BODY CAP + since_seq (hardened request handling) ============
+    import http.client
+
+    def _raw_post(path, headers, payload=b""):
+        c = http.client.HTTPConnection("127.0.0.1", svc.port, timeout=10)
+        try:
+            c.putrequest("POST", path)
+            for hk, hv in headers.items():
+                c.putheader(hk, hv)
+            c.endheaders()
+            if payload:
+                c.send(payload)
+            r = c.getresponse()
+            return r.status, json.loads(r.read().decode("utf-8"))
+        finally:
+            c.close()
+
+    auth = {"Authorization": "Bearer " + svc.token}
+    code, resp = _raw_post("/api/v1/jobs",
+                           {**auth, "Content-Length": str((1 << 20) + 1)})
+    check("POST with Content-Length over the 1 MiB cap -> 413 BODY_TOO_LARGE "
+          "(refused BEFORE reading)",
+          lambda: code == 413 and resp.get("error") == "BODY_TOO_LARGE")
+    code, resp = _raw_post("/api/v1/jobs", {**auth, "Content-Length": "-5"})
+    check("POST with negative Content-Length -> 400 BAD_LENGTH",
+          lambda: code == 400 and resp.get("error") == "BAD_LENGTH")
+    code, resp = _raw_post("/api/v1/jobs", {**auth, "Content-Length": "nope"})
+    check("POST with non-integer Content-Length -> 400 BAD_LENGTH",
+          lambda: code == 400 and resp.get("error") == "BAD_LENGTH")
+
+    code, resp = _http(svc, "GET", "/api/v1/events?since_seq=abc")
+    check("GET /events with non-int since_seq -> 400 BAD_SINCE_SEQ (not a 500)",
+          lambda: code == 400 and resp.get("error") == "BAD_SINCE_SEQ")
+    code, resp = _http(svc, "GET", "/api/v1/events?since_seq=-1")
+    check("GET /events with negative since_seq -> 400 BAD_SINCE_SEQ",
+          lambda: code == 400 and resp.get("error") == "BAD_SINCE_SEQ")
+    code, resp = _http(svc, "GET", "/api/v1/events?since_seq=0")
+    check("GET /events with valid since_seq still answers 200",
+          lambda: code == 200 and isinstance(resp.get("events"), list))
     svc.shutdown()
 
     # ================= COMMAND SUBMIT PARSE =================

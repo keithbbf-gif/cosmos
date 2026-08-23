@@ -45,6 +45,17 @@ def main() -> int:
         check("HTTPS: cert + key were generated into config/",
               lambda: (root / "config" / "cosmos_cert.pem").exists()
               and (root / "config" / "cosmos_key.pem").exists())
+        from cryptography import x509
+        cert = x509.load_pem_x509_certificate(
+            (root / "config" / "cosmos_cert.pem").read_bytes())
+        san = cert.extensions.get_extension_for_class(
+            x509.SubjectAlternativeName).value
+        check("HTTPS: cert SAN covers the bind IP + documented names "
+              "(verifiable, not just encrypted)",
+              lambda: "127.0.0.1" in {str(i) for i in
+                                      san.get_values_for_type(x509.IPAddress)}
+              and {"cosmos.local", "localhost"}
+              <= set(san.get_values_for_type(x509.DNSName)))
     else:
         check("HTTPS: crypto absent -> stayed HTTP and RECORDED it (no silent downgrade)",
               lambda: svc.scheme == "http")

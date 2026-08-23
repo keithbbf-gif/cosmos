@@ -19,7 +19,9 @@ on a loopback bind; a remote bind REFUSES rather than inventing silently.
 """
 from __future__ import annotations
 
+import hmac
 import json
+import os
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -30,9 +32,14 @@ from cosmos_kernel import Kernel
 # never invent one - a silently minted secret on 0.0.0.0 is an open door.
 _LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
 
+# Per-request body cap for every POST endpoint. All v1 POST bodies are small
+# JSON control messages; 1 MiB is generous. An uncapped Content-Length is an
+# invitation to allocate arbitrary memory on an authenticated-or-not socket.
+_MAX_BODY_BYTES = 1 << 20
+
 
 class ServiceError(RuntimeError):
-    """kind in {BLANK_TOKEN, TOKEN_MISSING}."""
+    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -41,6 +48,15 @@ class ServiceError(RuntimeError):
 
 def _is_remote_bind(host: str) -> bool:
     return (host or "").strip().lower() not in _LOOPBACK_HOSTS
+
+
+def _write_private(path, data: bytes) -> None:
+    """Create/overwrite a secret-bearing file with owner-only perms (0o600) from
+    the first byte - never default perms then a chmod race. On Windows the mode
+    is advisory; NTFS ACLs inherit, and 0o600 is still the correct intent."""
+    fd = os.open(str(path), os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+    with os.fdopen(fd, "wb") as fh:
+        fh.write(data)
 
 
 def _load_api_token(tok_file, remote: bool) -> str:
@@ -56,7 +72,7 @@ def _load_api_token(tok_file, remote: bool) -> str:
                 "material in a remote context (a silently minted token is an "
                 "open door on the LAN)")
         import secrets as _s
-        tok_file.write_text(_s.token_urlsafe(24), encoding="utf-8")
+        _write_private(tok_file, _s.token_urlsafe(24).encode("utf-8"))
     token = tok_file.read_text(encoding="utf-8").strip()
     if not token:
         raise ServiceError(
@@ -96,7 +112,39 @@ def make_handler(kernel: Kernel, token: str):
             self.wfile.write(body)
 
         def _authed(self) -> bool:
-            return self.headers.get("Authorization", "") == "Bearer " + token
+            # Constant-time compare: == short-circuits on the first differing
+            # byte, which leaks token prefixes to a timing observer.
+            got = self.headers.get("Authorization", "")
+            return hmac.compare_digest(got.encode("utf-8"),
+                                       ("Bearer " + token).encode("utf-8"))
+
+        def _read_body(self, cap: int = _MAX_BODY_BYTES):
+            """Read the POST body under a hard cap, or send a controlled refusal
+            and return None. A missing/negative/non-int/oversized Content-Length
+            is rejected BEFORE any read - rfile.read(N) on an unbounded N is a
+            memory DoS, and read(-1) blocks on the open socket."""
+            raw = self.headers.get("Content-Length")
+            if raw is None:
+                self._send(400, {"error": "LENGTH_REQUIRED",
+                                 "detail": "Content-Length header is required"})
+                return None
+            try:
+                n = int(raw)
+            except ValueError:
+                self._send(400, {"error": "BAD_LENGTH",
+                                 "detail": f"Content-Length is not an integer: "
+                                           f"{raw[:64]!r}"})
+                return None
+            if n < 0:
+                self._send(400, {"error": "BAD_LENGTH",
+                                 "detail": "Content-Length must be non-negative"})
+                return None
+            if n > cap:
+                self._send(413, {"error": "BODY_TOO_LARGE",
+                                 "detail": f"body of {n} bytes exceeds the "
+                                           f"{cap}-byte cap for this endpoint"})
+                return None
+            return self.rfile.read(n)
 
         def do_GET(self):                                             # noqa: N802
             if not self._authed():
@@ -129,7 +177,17 @@ def make_handler(kernel: Kernel, token: str):
                 # interactive frontend polls this append-only; old events never refetch.
                 from urllib.parse import parse_qs, urlparse
                 q = parse_qs(urlparse(self.path).query)
-                since = int(q.get("since_seq", ["0"])[0])
+                raw_since = q.get("since_seq", ["0"])[0]
+                try:
+                    since = int(raw_since)
+                except ValueError:
+                    return self._send(400, {"error": "BAD_SINCE_SEQ",
+                                            "detail": f"since_seq must be an "
+                                                      f"integer: {raw_since[:64]!r}"})
+                if since < 0 or since > (1 << 62):
+                    return self._send(400, {"error": "BAD_SINCE_SEQ",
+                                            "detail": "since_seq must be a "
+                                                      "non-negative bounded integer"})
                 evs = [{"seq": r["seq"], "event": r["event"], "t": r["t"],
                         "writer": r["writer"], "payload": r["payload"]}
                        for r in kernel.ledger.verify() if r["seq"] > since][:100]
@@ -179,9 +237,11 @@ def make_handler(kernel: Kernel, token: str):
             if self.path == "/api/v1/command":
                 # the voice/frontend seam, served: text in, kernel action out
                 from cosmos_command import Commander, CommandError
-                n = int(self.headers.get("Content-Length", 0))
+                body = self._read_body()
+                if body is None:
+                    return
                 try:
-                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    d = json.loads(body.decode("utf-8"))
                     return self._send(200, Commander(kernel).handle(str(d["text"])))
                 except CommandError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
@@ -193,9 +253,11 @@ def make_handler(kernel: Kernel, token: str):
                 # job. The handler is the worker: submit -> claim -> cosmos_crucible
                 # -> returns land on disk -> done. A print stub is not a round; if
                 # no critic dispatchers are composed, 501 is the honest answer.
-                n = int(self.headers.get("Content-Length", 0))
+                body = self._read_body()
+                if body is None:
+                    return
                 try:
-                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    d = json.loads(body.decode("utf-8"))
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
@@ -272,18 +334,22 @@ def make_handler(kernel: Kernel, token: str):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             if self.path == "/api/v1/jobs":
-                n = int(self.headers.get("Content-Length", 0))
+                body = self._read_body()
+                if body is None:
+                    return
                 try:
-                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    d = json.loads(body.decode("utf-8"))
                     jid = kernel.sched.submit(d["command"], d.get("priority", "normal"))
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST", "detail": str(e)[:200]})
                 return self._send(201, {"job_id": jid})
             if self.path == "/api/v1/makers":
                 from cosmos_makers import MakerError
-                n = int(self.headers.get("Content-Length", 0))
+                body = self._read_body()
+                if body is None:
+                    return
                 try:
-                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    d = json.loads(body.decode("utf-8"))
                     mm = getattr(kernel, "makers", None)
                     if mm is None:
                         return self._send(503, {"error": "MAKERS_NOT_COMPOSED",
@@ -304,35 +370,91 @@ def make_handler(kernel: Kernel, token: str):
     return Handler
 
 
-def _ensure_cert(kernel) -> tuple[str, str] | None:
-    """Self-signed cert for HTTPS, generated once into config/. Returns (cert, key)
+def _san_entries(host: str) -> tuple[list[str], list]:
+    """(dns_names, ip_addresses) the cert must cover so a LAN client can VERIFY,
+    not just encrypt. Always: cosmos.local, localhost, this machine's hostname,
+    127.0.0.1, ::1. Plus the actual bind host (as IP or DNS), and on a wildcard
+    bind (0.0.0.0 / ::) the machine's resolvable local IPs - a cert whose SAN
+    names none of the addresses it is served on cannot be verified by anyone."""
+    import ipaddress
+    import socket
+    dns = {"cosmos.local", "localhost"}
+    ips = {ipaddress.ip_address("127.0.0.1"), ipaddress.ip_address("::1")}
+    try:
+        hn = socket.gethostname()
+        if hn:
+            dns.add(hn)
+    except OSError:
+        hn = ""
+    h = (host or "").strip()
+    wildcard = h in ("", "0.0.0.0", "::")
+    if h and not wildcard:
+        try:
+            ips.add(ipaddress.ip_address(h))
+        except ValueError:
+            dns.add(h)
+    if wildcard and hn:
+        try:
+            for info in socket.getaddrinfo(hn, None):
+                try:
+                    ips.add(ipaddress.ip_address(info[4][0]))
+                except ValueError:
+                    pass
+        except OSError:
+            pass
+    return sorted(dns), sorted(ips, key=str)
+
+
+def _ensure_cert(kernel, host: str = "127.0.0.1") -> tuple[str, str] | None:
+    """Self-signed cert for HTTPS, generated into config/. Returns (cert, key)
     paths, or None if the crypto lib is unavailable (then the caller stays HTTP and
-    SAYS SO - never a silent downgrade). A self-signed cert on a LAN is real transport
-    encryption; a public CA cert is a later cutover step, and this docstring says which
-    is which rather than pretending."""
+    SAYS SO - never a silent downgrade). The SAN covers the ACTUAL bind host/IP
+    (plus the documented names) - a cert naming only cosmos.local/localhost cannot
+    be verified by a LAN client dialing an IP, which reduces 'HTTPS' to unverified
+    encryption. An existing cert that already covers the needed names is reused;
+    one that does not is regenerated in place. A self-signed cert on a LAN is real
+    transport encryption; a public CA cert is a later cutover step."""
     cfg = kernel.paths.config
     cert, key = str(cfg("cosmos_cert.pem")), str(cfg("cosmos_key.pem"))
     from pathlib import Path as _P
-    if _P(cert).exists() and _P(key).exists():
-        return cert, key
     try:
         import datetime as _dt
         from cryptography import x509
         from cryptography.x509.oid import NameOID
         from cryptography.hazmat.primitives import hashes, serialization
         from cryptography.hazmat.primitives.asymmetric import rsa
+    except Exception:                                                # noqa: BLE001
+        # No crypto lib: a pre-provisioned pair still serves; nothing can be minted.
+        if _P(cert).exists() and _P(key).exists():
+            return cert, key
+        return None
+    dns_names, ip_addrs = _san_entries(host)
+    if _P(cert).exists() and _P(key).exists():
+        try:
+            existing = x509.load_pem_x509_certificate(_P(cert).read_bytes())
+            san = existing.extensions.get_extension_for_class(
+                x509.SubjectAlternativeName).value
+            have_dns = set(san.get_values_for_type(x509.DNSName))
+            have_ip = {str(i) for i in san.get_values_for_type(x509.IPAddress)}
+            if (set(dns_names) <= have_dns
+                    and {str(i) for i in ip_addrs} <= have_ip):
+                return cert, key
+            # else: falls through and regenerates with the full SAN set
+        except Exception:                                            # noqa: BLE001
+            pass                     # unreadable or SAN-less cert: regenerate
+    try:
         k = rsa.generate_private_key(public_exponent=65537, key_size=2048)
         name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "cosmos.local")])
+        sans = ([x509.DNSName(d) for d in dns_names]
+                + [x509.IPAddress(i) for i in ip_addrs])
         cert_obj = (x509.CertificateBuilder()
                     .subject_name(name).issuer_name(name).public_key(k.public_key())
                     .serial_number(x509.random_serial_number())
                     .not_valid_before(_dt.datetime.utcnow())
                     .not_valid_after(_dt.datetime.utcnow() + _dt.timedelta(days=825))
-                    .add_extension(x509.SubjectAlternativeName(
-                        [x509.DNSName("cosmos.local"), x509.DNSName("localhost")]),
-                        critical=False)
+                    .add_extension(x509.SubjectAlternativeName(sans), critical=False)
                     .sign(k, hashes.SHA256()))
-        _P(key).write_bytes(k.private_bytes(
+        _write_private(key, k.private_bytes(
             serialization.Encoding.PEM, serialization.PrivateFormat.TraditionalOpenSSL,
             serialization.NoEncryption()))
         _P(cert).write_bytes(cert_obj.public_bytes(serialization.Encoding.PEM))
@@ -346,18 +468,22 @@ class Service:
 
     REMOTE ACCESS + HTTPS (Keith, 2026-08-23): host="0.0.0.0" binds the LAN; the bearer
     token is access control. tls=True wraps the socket with a self-signed cert generated
-    into config/ (real transport encryption on the LAN). If the crypto lib is absent the
-    service stays HTTP and RECORDS the downgrade in .scheme - never a silent claim of
-    encryption. A public-CA cert for internet exposure is a later cutover step."""
+    into config/ (real transport encryption on the LAN; SAN covers the bind host/IP so
+    clients can verify). A NON-LOOPBACK bind REFUSES to start unless TLS is actually up
+    (REMOTE_CLEARTEXT) - a bearer token over LAN HTTP is captured and replayed by any
+    observer. On loopback, if the crypto lib is absent the service stays HTTP and
+    RECORDS the downgrade in .scheme - never a silent claim of encryption. A public-CA
+    cert for internet exposure is a later cutover step."""
 
     def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
                  tls: bool = False):
+        remote = _is_remote_bind(host)
         tok_file = kernel.paths.config("api_token.txt")
-        self.token = _load_api_token(tok_file, remote=_is_remote_bind(host))
+        self.token = _load_api_token(tok_file, remote=remote)
         self.httpd = ThreadingHTTPServer((host, port), make_handler(kernel, self.token))
         self.scheme = "http"
         if tls:
-            pair = _ensure_cert(kernel)
+            pair = _ensure_cert(kernel, host)
             if pair:
                 import ssl
                 ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
@@ -365,6 +491,18 @@ class Service:
                 self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
                 self.scheme = "https"
             # else: stayed http; self.scheme records the honest truth
+        if remote and self.scheme != "https":
+            # A non-loopback bind over cleartext HTTP serves the bearer token to
+            # any LAN observer on every request - capture and replay. The honest
+            # HTTP fallback is for LOOPBACK only; remotely it is an open door,
+            # so the service refuses to start rather than start downgraded.
+            self.httpd.server_close()
+            raise ServiceError(
+                "REMOTE_CLEARTEXT",
+                f"refusing to serve a non-loopback bind ({host!r}) without TLS - "
+                f"the bearer token would cross the network in the clear; pass "
+                f"tls=True (and have the 'cryptography' lib installed), or bind "
+                f"loopback")
         self.port = self.httpd.server_address[1]
 
     def serve_background(self) -> threading.Thread:
