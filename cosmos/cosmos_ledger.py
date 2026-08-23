@@ -138,6 +138,39 @@ class Ledger:
             pass
         return self._seq
 
+    def append_guarded(self, decide):
+        """Atomic READ-DECIDE-APPEND under the OS lock. STAGE-7B (RF-LOCK-XPROC / RG-B1,
+        MEASURED): expect_head_seq sampled the head at APPEND time, so a decision made on
+        a stale projection could still bind a fresh head - two overlapping callers both
+        passed a cap/lock check. This holds the exclusive lock across the WHOLE decision:
+        `decide(records)` receives the freshly-replayed history and returns (event,
+        payload) to append, or raises to abort with nothing written. No caller outside
+        this method can interleave between the decision and the append."""
+        lk = self._lock_handle()
+        try:
+            recs = list(self.verify())          # re-primed under the lock
+            result = decide(recs)               # may raise to abort
+            if result is None:
+                return None
+            event, payload = result
+            body = _canon(payload)
+            t = self._clock()
+            local = time.localtime(t)
+            off = -time.timezone + (3600 if local.tm_isdst else 0)
+            self._seq += 1
+            rec = {"seq": self._seq, "event": event, "t": t, "utc_off": off,
+                   "payload": payload, "payload_len": len(body),
+                   "payload_sha": hashlib.sha256(body).hexdigest(),
+                   "prev_sha": self._prev_sha, "writer": self._writer}
+            rec["hmac"] = self._sign(rec["seq"], rec["prev_sha"], rec["payload_sha"])
+            line = json.dumps(rec, sort_keys=True, separators=(",", ":"))
+            with open(self._path, "a", encoding="utf-8", newline="") as fh:
+                fh.write(line + "\n"); fh.flush(); os.fsync(fh.fileno())
+            self._prev_sha = hashlib.sha256(line.encode("utf-8")).hexdigest()
+            return rec
+        finally:
+            self._unlock(lk)
+
     # ---------------- verify / read ----------------
     def verify(self) -> Iterator[dict]:
         """Walk the whole chain; yield each verified record; REFUSE at the first break.
