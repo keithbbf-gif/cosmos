@@ -17,10 +17,14 @@ SEGMENT FILES:  ledger/seg-00001.jsonl, seg-00002.jsonl, ...   (each a standalon
 ANCHOR FILES :  ledger/seg-00001.anchor.json, ...              (one per CLOSED segment)
 
 Each anchor carries {segment, first_seq, last_seq, record_count, segment_sha256,
-prev_anchor_sha256} (plus last_record_sha, below). The anchors form THEIR OWN hash chain:
-anchor N's prev_anchor_sha256 is the sha256 of anchor N-1's on-disk bytes. So the WHOLE
-history is verifiable segment-to-segment - a dropped, duplicated, or edited segment breaks
-the anchor chain even when each surviving file parses cleanly on its own.
+prev_anchor_sha256, hmac} (plus last_record_sha, below). The hmac is service
+authentication over the canonical unsigned body with the install key - an attacker who
+edits ledger files and re-hashes the bytes still cannot produce an anchor this service
+will accept (RF-SEG-ANCHOR / T5). The anchors form THEIR OWN hash chain: anchor N's
+prev_anchor_sha256 is the sha256 of anchor N-1's on-disk bytes (the signed file). So the
+WHOLE history is verifiable segment-to-segment - a dropped, duplicated, or edited segment
+breaks the anchor chain even when each surviving file parses cleanly on its own. A
+signature or prev_anchor_sha256 failure REFUSES and records a LEDGER_INCIDENT.
 
 THE RECONCILIATION THAT MATTERS (and it is deliberate, not a shortcut):
   cosmos_ledger.Ledger.verify() requires each file to be SELF-CONTAINED - its first record
@@ -50,6 +54,7 @@ calls go through extended() so a >260-char path is not a WinError-3 "not found" 
 from __future__ import annotations
 
 import hashlib
+import hmac as hmac_mod
 import json
 import os
 import re
@@ -60,16 +65,26 @@ from cosmos_ledger import Ledger, LedgerError
 from cosmos_paths import extended
 
 # LedgerError kinds reused: TORN, BROKEN_CHAIN, FORGED, UNREADABLE, STALE_HEAD.
+# FORGED is the unsigned/mis-signed closed-segment anchor (parseable, keyed, bad hmac) -
+# the same three-way as cosmos_ledger: TORN != BROKEN_CHAIN != FORGED.
 # Added by this layer (prefer existing where possible; these name facts none of the
 # above express): HASH_MISMATCH (a CAS blob's bytes disagree with its own name) and
 # NOT_FOUND (a CAS blob that was never stored - ABSENT != UNREADABLE, cosmos_ledger).
 
 _ANCHOR_KEYS = ("segment", "first_seq", "last_seq", "record_count",
                 "segment_sha256", "prev_anchor_sha256")
+# hmac is required but checked separately as FORGED, not as a missing-key BROKEN_CHAIN.
 
 
 def _sha(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
+
+
+def _anchor_hmac(key: bytes, anchor: dict) -> str:
+    """HMAC-SHA256 of the canonical unsigned anchor body, truncated like ledger hmac."""
+    body = json.dumps({k: v for k, v in anchor.items() if k != "hmac"},
+                      sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hmac_mod.new(key, body, hashlib.sha256).hexdigest()[:32]
 
 
 def _read_bytes(path: Path) -> bytes:
@@ -190,6 +205,8 @@ class SegmentedLedger:
             # carry the closing segment's last-record hash so the boundary is auditable
             "last_record_sha": self._active._prev_sha,
         }
+        # install-key HMAC: re-hashing the bytes is not enough to rewrite accounting
+        anchor["hmac"] = _anchor_hmac(self._key, anchor)
         body = json.dumps(anchor, sort_keys=True, separators=(",", ":")).encode("utf-8")
         with open(extended(self._anchor_path(n)), "wb") as fh:
             fh.write(body)
@@ -228,10 +245,11 @@ class SegmentedLedger:
     def verify_all(self) -> Iterator[dict]:
         """Walk EVERY segment in order and REFUSE at the first break, naming the segment
         (and the line, for a record-level break). For each closed segment also verify the
-        anchor: its segment_sha256 against the actual file bytes, its place in the anchor
-        hash-chain (prev_anchor_sha256), and its seq accounting. A break appends a
-        LEDGER_INCIDENT to incidents.jsonl, then raises. Yields every verified record with
-        a continuous `global_seq` (local seq resets per segment; global never does)."""
+        anchor: its hmac against the install key, its segment_sha256 against the actual
+        file bytes, its place in the anchor hash-chain (prev_anchor_sha256), and its seq
+        accounting. A signature or chain break appends a LEDGER_INCIDENT to
+        incidents.jsonl, then raises. Yields every verified record with a continuous
+        `global_seq` (local seq resets per segment; global never does)."""
         nums = self._segment_numbers()
         running = 0
         prev_anchor_sha = ""
@@ -272,6 +290,15 @@ class SegmentedLedger:
                     self._record_incident(n, "BROKEN_CHAIN", "seg-%05d.anchor.json missing keys" % n)
                     raise LedgerError("BROKEN_CHAIN",
                                       "seg-%05d.anchor.json: not a well-formed anchor" % n)
+                # hmac first: edited accounting that was merely re-hashed is FORGED, not
+                # a chain-shape fact. Missing or non-string hmac is the same refusal.
+                good = _anchor_hmac(self._key, anc)
+                got = anc.get("hmac", "")
+                if not isinstance(got, str) or not hmac_mod.compare_digest(good, got):
+                    self._record_incident(n, "FORGED", "seg-%05d.anchor.json hmac" % n)
+                    raise LedgerError("FORGED",
+                                      "seg-%05d.anchor.json: hmac does not verify - an "
+                                      "anchor this service did not sign" % n)
                 actual_seg_sha = _sha(_read_bytes(seg_path))
                 if anc["segment_sha256"] != actual_seg_sha:
                     self._record_incident(n, "BROKEN_CHAIN", "seg-%05d.anchor.json segment_sha256" % n)
