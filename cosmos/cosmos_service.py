@@ -8,7 +8,9 @@ ENDPOINTS (v1):
     GET /api/v1/audit    - the audit projection (every number carries measured_at)
     GET /api/v1/jobs     - job states from the scheduler projection
     GET /api/v1/rails    - the rails matrix with verification AGE per link
+    GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
     POST /api/v1/jobs    - submit {command, priority} -> job_id
+    POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
 Every response carries served_at + measured_at - a panel that cannot show its age is
 the frozen-dashboard scar. Auth is a bearer token from the install config - remote
 access control exists from day one, invisible in use (zero-friction canon). A blank
@@ -146,6 +148,29 @@ def make_handler(kernel: Kernel, token: str):
                                                       "rails matrix"})
                 return self._send(200, {"measured_at": time.time(),
                                         "matrix": reg.matrix()})
+            if self.path.startswith("/api/v1/makers"):
+                from urllib.parse import parse_qs, urlparse
+                from cosmos_makers import MakerError
+                parsed = urlparse(self.path)
+                if parsed.path != "/api/v1/makers":
+                    return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+                mm = getattr(kernel, "makers", None)
+                if mm is None:
+                    # M3: "not composed" is not "empty". GET must not seed (B1).
+                    return self._send(503, {"error": "MAKERS_NOT_COMPOSED",
+                                            "detail": "kernel has no maker map - this is "
+                                                      "a composition fault, not an empty "
+                                                      "catalog"})
+                q = parse_qs(parsed.query)
+                kind = q.get("kind", [None])[0]
+                tag = q.get("tag", [None])[0]
+                text = q.get("text", [None])[0]
+                try:
+                    rows = mm.find(tag=tag, kind=kind, text=text)
+                except MakerError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                return self._send(200, {"measured_at": time.time(),
+                                        "makers": rows})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def do_POST(self):                                            # noqa: N802
@@ -254,6 +279,23 @@ def make_handler(kernel: Kernel, token: str):
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST", "detail": str(e)[:200]})
                 return self._send(201, {"job_id": jid})
+            if self.path == "/api/v1/makers":
+                from cosmos_makers import MakerError
+                n = int(self.headers.get("Content-Length", 0))
+                try:
+                    d = json.loads(self.rfile.read(n).decode("utf-8"))
+                    mm = getattr(kernel, "makers", None)
+                    if mm is None:
+                        return self._send(503, {"error": "MAKERS_NOT_COMPOSED",
+                                                "detail": "kernel has no maker map - this "
+                                                          "is a composition fault"})
+                    rec = mm.add(d)
+                    return self._send(201, {"maker": rec})
+                except MakerError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def log_message(self, *a):                                    # quiet server

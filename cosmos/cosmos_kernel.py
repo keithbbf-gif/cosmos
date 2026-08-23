@@ -102,9 +102,15 @@ class Kernel:
         self.sched = Scheduler(self.paths.role("queue"), key, worker, clock)
         from cosmos_registry import Registry
         from cosmos_spend import SpendGate
+        from cosmos_makers import MakerMap
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
+        # Maker map is composed here so GET /makers is a projection read, not a
+        # first-request write (B1: a read is not a write). A writing kernel seeds
+        # the known catalog once; a read-only kernel projects whatever is already
+        # ledgered and does not seed (REST-2).
+        self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
         self.ready = True
 
     def open_session(self, session_id: str, stream: str):

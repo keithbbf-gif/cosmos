@@ -131,9 +131,9 @@ def main() -> int:
               root / "config" / "install_record.json").root == root.resolve())
 
     # ===== composition (critic: 'composition in a test is not composition in Core') ==
-    check("kernel COMPOSES registry/spend/validator itself",
+    check("kernel COMPOSES registry/spend/validator/makers itself",
           lambda: kw.registry is not None and kw.spend is not None
-          and kw.validator is not None)
+          and kw.validator is not None and kw.makers is not None)
     sess = kw.open_session("cc-s1", "pb")
     sess.open_watcher("w1", "something")
     def _close():

@@ -1,0 +1,81 @@
+# COSMOS maker map — WHERE agents, tools, connectors, and skills can be made.
+# Seed catalog. Each add() is a ledger event; this file is the known starting set.
+# kind in {AGENT, TOOL, CONNECTOR, SKILL}. Never delete an entry from history.
+
+[[makers]]
+id = "cursor-cloud-agent"
+kind = "AGENT"
+location = "Cursor Cloud Agent"
+function = "Launch a Cursor Cloud Agent against a repository to implement, review, or test work"
+access = "Cursor Cloud (cursor.com/agents) or the cursor-cloud MCP"
+potential_sources = [
+    "keithbbf-gif/cosmos",
+    "Cursor Cloud Agent dashboard",
+    "cursor-cloud MCP",
+]
+tags = ["cursor", "cloud", "agent"]
+
+[[makers]]
+id = "claude-agent-tool"
+kind = "TOOL"
+location = "Claude Agent tool"
+function = "Register or invoke a Claude Agent SDK tool that an Anthropic agent can call"
+access = "Claude Agent SDK / Anthropic API tool registration"
+potential_sources = [
+    "Claude Console",
+    "Claude Agent SDK",
+    "MCP adapter",
+]
+tags = ["claude", "anthropic", "tool", "agent-sdk"]
+
+[[makers]]
+id = "grokbot-team"
+kind = "AGENT"
+location = "GrokBot team"
+function = "Stand up a Grok/xAI team bot that answers in a shared workspace"
+access = "xAI Grok / GrokBot team workspace"
+potential_sources = [
+    "xAI console",
+    "GrokBot team roster",
+    "Slack or X bindings",
+]
+tags = ["grok", "xai", "team", "agent"]
+
+[[makers]]
+id = "mcp-registry"
+kind = "CONNECTOR"
+location = "mcp-registry"
+function = "Publish or discover an MCP server so clients can attach it as a connector"
+access = "MCP registry catalog / mcp.json registration"
+potential_sources = [
+    "official MCP registry",
+    "local mcp.json",
+    "vendor connector catalogs",
+]
+tags = ["mcp", "connector", "registry"]
+
+[[makers]]
+id = "save-skill"
+kind = "SKILL"
+location = "save_skill"
+function = "Persist a reusable agent skill (SKILL.md plus references) into a skills tree"
+access = "save_skill verb / skills directory write"
+potential_sources = [
+    "Cursor skills",
+    "Claude skills",
+    "local SKILL.md trees",
+]
+tags = ["skill", "save", "cursor"]
+
+[[makers]]
+id = "scheduled-task"
+kind = "TOOL"
+location = "scheduled task"
+function = "Register a recurring or one-shot task that the scheduler or OS Task Scheduler fires"
+access = "cosmos_sched.submit / Windows Task Scheduler"
+potential_sources = [
+    "cosmos_sched",
+    "Windows Task Scheduler",
+    "cron-equivalent",
+]
+tags = ["schedule", "task", "windows", "scheduler"]
