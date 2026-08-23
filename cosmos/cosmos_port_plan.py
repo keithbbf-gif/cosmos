@@ -189,6 +189,18 @@ PORT_DECISIONS: dict[str, dict] = {
         "disposition": "ADAPTED", "successor": "cosmos_rails",
         "reason": "cosmos_rails ApiRail adapter (Cursor link driver), dispatchable from a "
                   "queue lane; key stays in .secrets, never the repo"},
+
+    # ---- C.O.S. session lifecycle (TidyUP / BootUP) ----
+    "tidyup": {
+        "disposition": "REPLACED", "successor": "cosmos_session",
+        "reason": "TidyUP/T2 is close_session: validate every control file parses AND "
+                  "validates, write a next-session SEED of inherited facts + open "
+                  "watchers + handoff via cosmos_context.Session/boot_inherit"},
+    "bootup": {
+        "disposition": "REPLACED", "successor": "cosmos_session",
+        "reason": "BootUP is start_session: read the prior SEED under its declared "
+                  "length/hash, inject facts and watchers, open a new "
+                  "cosmos_context.Session, return inherited context"},
 }
 
 
