@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Selftest: the command seam - text in, kernel actions out, refusals typed + ledgered."""
+"""Selftest: the command seam - text in, kernel actions out, refusals typed + ledgered.
+
+Covers the full voice grammar: status/audit/jobs/submit/help (original) plus
+health/spend/rails/makers/events/session (orchestration intents), the misheard-word
+rule (zero-arg verbs ignore trailing noise; argument verbs parse strict; near-miss
+verbs are UNKNOWN), and the fence: every destructive verb refuses BEFORE dispatch,
+and force is not reachable through any argument position."""
 from __future__ import annotations
 import sys, tempfile
 from pathlib import Path
@@ -8,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cosmos_kernel import Kernel, install
 from cosmos_command import Commander, CommandError, FORBIDDEN
+from cosmos_makers import MAKER_KINDS
 
 RESULTS = []
 
@@ -85,6 +92,119 @@ def main() -> int:
                       for e in events)
           and any(e["event"] == "COMMAND_HANDLED" and not e["payload"]["ok"]
                   for e in events))
+
+    # ================= the orchestration verbs =================
+
+    # ---- health: delegates to cosmos_health.HealthBoard.run() ----
+    h = c.handle("health")
+    check("health: verdict present + planted failure lands RED",
+          lambda: h["ok"] and "verdict" in h and h["negative_control_red"] is True
+          and "rows" in h)
+    check("health: board run is ledgered (HEALTH_BOARD)",
+          lambda: any(e["event"] == "HEALTH_BOARD" for e in k.ledger.verify()))
+
+    # ---- spend: delegates to cosmos_spend.SpendGate.audit() ----
+    check("spend: no budgets yet -> empty rails, not an error",
+          lambda: c.handle("spend")["rails"] == {})
+    k.spend.set_budget("voice-rail", 5.0)
+    sp = c.handle("spend")
+    check("spend: budget shows cap + headroom, dated",
+          lambda: sp["rails"]["voice-rail"]["cap_usd"] == 5.0
+          and sp["rails"]["voice-rail"]["headroom_usd"] == 5.0
+          and sp["measured_at_epoch"] > 0)
+
+    # ---- rails: delegates to cosmos_registry.Registry.matrix() ----
+    check("rails: empty registry -> empty matrix",
+          lambda: c.handle("rails")["rails"] == [])
+    k.registry.register("t-link", "API", "core", "models")
+    rl = c.handle("rails")
+    check("rails: registered link shows verified=None (registration is not capability)",
+          lambda: len(rl["rails"]) == 1 and rl["rails"][0]["link_id"] == "t-link"
+          and rl["rails"][0]["verified"] is None and rl["rails"][0]["age_s"] is None)
+
+    # ---- makers: delegates to cosmos_makers.MakerMap.list() ----
+    mk = c.handle("makers")
+    check("makers: seeded catalog lists, every kind in the closed set",
+          lambda: len(mk["makers"]) > 0
+          and all(mm["kind"] in MAKER_KINDS for mm in mk["makers"]))
+
+    # ---- events: the last-N ledger read ----
+    ev = c.handle("events")
+    check("events: default N returns the tail, newest last, seq = ledger head",
+          lambda: ev["count"] == 10 and ev["events"][-1]["seq"] == ev["of_total"])
+    check("events 3: exactly three", lambda: c.handle("events 3")["count"] == 3)
+    check("events banana -> BAD_ARGS (a count is a number, never guessed)",
+          lambda: _expect(c, "events banana", "BAD_ARGS"))
+    check("events 0 -> BAD_ARGS", lambda: _expect(c, "events 0", "BAD_ARGS"))
+    check("events 101 -> BAD_ARGS (cap)", lambda: _expect(c, "events 101", "BAD_ARGS"))
+    check("events 5 please -> BAD_ARGS (argument verbs do not absorb noise)",
+          lambda: _expect(c, "events 5 please", "BAD_ARGS"))
+
+    # ---- the misheard-word rule ----
+    check("'status please' resolves status (zero-arg trailing noise ignored)",
+          lambda: c.handle("status please")["ok"]
+          and c.handle("STATUS please NOW")["ready"])
+    check("'health check now thanks' resolves health (noise ignored)",
+          lambda: c.handle("health check now thanks")["negative_control_red"] is True)
+    check("'statusify' -> UNKNOWN_COMMAND (exact verb match, no fuzz)",
+          lambda: _expect(c, "statusify", "UNKNOWN_COMMAND"))
+    check("'healthcheck' -> UNKNOWN_COMMAND (near-miss is not a match)",
+          lambda: _expect(c, "healthcheck", "UNKNOWN_COMMAND"))
+    check("zero-arg noise cannot smuggle an action: 'status delete everything' is "
+          "status and nothing else",
+          lambda: c.handle("status delete everything")["ok"])
+
+    # ---- session lifecycle (BootUP / TidyUP), strict + non-destructive ----
+    check("session start before any seed -> KERNEL_REFUSED (NO_SEED relayed, not guessed)",
+          lambda: _expect(c, "session start plumbing", "KERNEL_REFUSED"))
+    sc = c.handle("session close")
+    check("session close: TidyUP writes + names the seed",
+          lambda: sc["ok"] and Path(sc["seed"]).is_file())
+    ss = c.handle("session start plumbing")
+    check("session start: BootUP opens with the stream + injects inherit",
+          lambda: ss["ok"] and ss["stream"] == "plumbing" and "sid" in ss)
+    k.sessions.session.open_watcher("w-paid", "a paid return")
+    check("session close over an open watcher -> KERNEL_REFUSED (force NOT reachable)",
+          lambda: _expect(c, "session close", "KERNEL_REFUSED"))
+    k.sessions.session.resolve_watcher("w-paid", "landed")
+    sc2 = c.handle("session close")
+    check("session close after resolve -> seed written again, prior seed archived",
+          lambda: sc2["ok"] and Path(sc2["seed"]).is_file())
+    check("'session close force' -> BAD_ARGS (force is not a voice word)",
+          lambda: _expect(c, "session close force", "BAD_ARGS"))
+    check("'session start' without a stream -> BAD_ARGS",
+          lambda: _expect(c, "session start", "BAD_ARGS"))
+    check("'session start plumbing extra' -> BAD_ARGS (strict, no noise on arg verbs)",
+          lambda: _expect(c, "session start plumbing extra", "BAD_ARGS"))
+    check("'session destroy' -> BAD_ARGS (unknown session action, never approximated)",
+          lambda: _expect(c, "session destroy", "BAD_ARGS"))
+    check("bare 'session' -> BAD_ARGS that teaches the grammar",
+          lambda: _expect(c, "session", "BAD_ARGS"))
+
+    # ---- the fence, widened: every destructive verb class refuses FIRST ----
+    check("purge/force/overwrite/reset/wipe/drop/erase as first word -> REFUSED",
+          lambda: all(_expect(c, v + " everything", "REFUSED")
+                      for v in ("purge", "force", "overwrite", "reset",
+                                "wipe", "drop", "erase")))
+    check("FORBIDDEN covers the full destructive-verb contract",
+          lambda: {"delete", "remove", "purge", "reset", "drop",
+                   "overwrite", "force"} <= FORBIDDEN)
+    check("no grammar line starts with a forbidden verb (nothing destructive is taught)",
+          lambda: all(l.split()[0] not in FORBIDDEN
+                      for l in c.handle("help")["commands"]))
+    check("KERNEL_REFUSED outcomes are ledgered as typed non-ok COMMAND_HANDLED",
+          lambda: any(e["event"] == "COMMAND_HANDLED"
+                      and not e["payload"]["ok"]
+                      and e["payload"].get("kind") == "KERNEL_REFUSED"
+                      for e in k.ledger.verify()))
+
+    # ---- help teaches the whole grammar ----
+    helptext = " ".join(c.handle("help")["commands"])
+    check("help: lists every verb in the grammar",
+          lambda: all(v in helptext for v in
+                      ("status", "audit", "health", "spend", "rails", "makers",
+                       "jobs", "events", "session start", "session close",
+                       "submit", "help")))
 
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
