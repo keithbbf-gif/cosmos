@@ -90,7 +90,17 @@ class Ledger:
     # ---------------- verify / read ----------------
     def verify(self) -> Iterator[dict]:
         """Walk the whole chain; yield each verified record; REFUSE at the first break.
-        Also (re)primes the writer state so appends continue the chain after a reload."""
+        Also (re)primes the writer state so appends continue the chain after a reload.
+
+        ABSENT != UNREADABLE (the four-state rule, enforced on this module by its own
+        gate 2026-08-23): a ledger file that does not exist yet is a ledger with ZERO
+        events - a legitimate empty history - while a file that exists and cannot be
+        read is a refusal. The first version collapsed the two and the finisher's
+        suites caught it before commit."""
+        if not self._path.exists():
+            self._prev_sha = ""
+            self._seq = 0
+            return
         try:
             lines = self._path.read_text(encoding="utf-8").splitlines()
         except OSError as e:

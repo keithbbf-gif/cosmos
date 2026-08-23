@@ -1,5 +1,24 @@
 # COSMOS v1.0-f5 - full native suite results - 2026-08-23
 
+## test_command.py (rc=0)
+```
+OK    status: ok + READY + root identity
+  OK    status: ledger head is present
+  OK    audit (any case): chain VERIFIED
+  OK    jobs: empty projection before any submit
+  OK    help: teaches the submit grammar
+  OK    submit high -> claimable job with the same id
+  OK    claimed job carries the spoken command
+  OK    bad priority -> BAD_ARGS that teaches the grammar
+  OK    missing command -> BAD_ARGS
+  OK    unknown verb -> UNKNOWN_COMMAND, never a guess
+  OK    'delete everything' -> REFUSED (never-delete canon)
+  OK    every FORBIDDEN verb refuses
+  OK    refusal is ledgered as COMMAND_REFUSED
+  OK    handled commands are ledgered with ok flags
+SELFTEST PASS - 14 checks
+```
+
 ## test_core.py (rc=0)
 ```
 OK    5 appends verify as a chain
@@ -20,7 +39,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.603s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.606s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -85,6 +104,33 @@ OK    install A resolves
 SELFTEST PASS - 17 checks (8 negative controls asserted BY KIND)
 ```
 
+## test_features.py (rc=0)
+```
+gainst its declaration
+  OK    wrong declared length -> SHORT_READ (the mount's signature)
+  OK    wrong declared sha -> HASH_MISMATCH
+  OK    path_exists PASSES for a file that is on disk
+  OK    path_exists on a missing file REFUSES the whole return
+  OK    ...and the refusal is LEDGERED (RETURN_REFUSED event present)
+  OK    doi_shape passes a real-shaped DOI, detail says UNPROVEN (shape is not existence - Crossref is the authority)
+  OK    doi_shape FAILS 'not-a-doi' (shape failure is a certain fabrication signal)
+  OK    quote_in_source: an exact quotation is found verbatim
+  OK    quote_in_source: a FABRICATED quotation is refused (S-55 control)
+  OK    unknown validator name -> NO_VALIDATOR (never silently skipped)
+  OK    OK path: evidence file written and holds the page text
+  OK    OK path ledgers DOM_ATTEMPT_OK
+  OK    driver raising on start -> UNREACHABLE, and it is ledgered
+  OK    stale session with require_session -> SESSION_EXPIRED, ledgered
+  OK    navigate raising PermissionError -> AUTH_REQUIRED, ledgered
+  OK    navigate raising mid-action -> BROKE (report-never-retry), ledgered
+  OK    every attempt used a DIFFERENT profile dir (ephemeral per attempt)
+  OK    federation_ready() is False - never reported working while blockers stand
+  OK    federation blockers == 5, counted FROM THE FUNCTION, not from prose
+  OK    MESH_ID is KMesh
+  OK    no peer ID starts with G (GMesh UNASSIGNED - Keith assigns, nobody guesses)
+SELFTEST PASS - 28 checks (platform owns the shell; validation is a gate; DOM failures are typed and ledgered; identity is asked, not quoted)
+```
+
 ## test_kernel.py (rc=0)
 ```
 OK    installer stands up a bootable root
@@ -121,6 +167,29 @@ OK    reserve -> call -> settle at MEASURED (not worst case)
   OK    resolved incident clears from inheritance
   OK    double close REFUSES
 SELFTEST PASS - 15 checks (breaker denies BEFORE the call; carry-over is a mechanism)
+```
+
+## test_tools.py (rc=0)
+```
+OK    declare -> attach -> verify passes and returns detail
+  OK    passing check ledgered as TOOL_CONTRACT_OK
+  OK    report shows AGE on the verified tool (dated, not just true)
+  OK    never-verified tool reports verified=None - UNKNOWN, never True
+  OK    duplicate declare REFUSES - a second declaration is a drift
+  OK    disposition on unknown tool -> UNKNOWN_TOOL
+  OK    bad decision -> BAD_DISPOSITION
+  OK    no check attached -> CONTRACT_FAIL (an unverifiable contract is a claim)
+  OK    ...and the refusal ledgered NOTHING - nothing was measured
+  OK    failing check -> CONTRACT_FAIL raised
+  OK    ...and the failure LANDED IN THE LEDGER, not just the exception
+  OK    failed tool reports verified=False, dated
+  OK    disposition ADAPTED with reason lands in state, dated
+  OK    disposition surfaces in report
+  OK    verify_all never raises and covers every declared tool
+  OK    verify_all: the passing tool still passes
+  OK    verify_all: the failing and the unverifiable both recorded ok=False
+  OK    verify_all ledgered the no-check refusal per-tool (UNVERIFIABLE)
+SELFTEST PASS - 18 checks (registration is not capability; only a dated passing check is)
 ```
 
 ## test_v1.py (rc=0)
