@@ -74,7 +74,7 @@ OK    5 appends verify as a chain
   OK    claim on empty queue returns None (empty != error)
   OK    stale RUNNING is REPORTED (event), job NOT retried
   OK    stale is reported ONCE, not every tick
-  OK    wakeup FIRED on submission [os-file-watch, 0.605s latency]
+  OK    wakeup FIRED on submission [os-file-watch, 0.607s latency]
 SELFTEST PASS - 19 checks (7 refusals BY KIND, 4 planted corruptions, 1 measured interrupt)
 ```
 
@@ -202,6 +202,23 @@ OK    REAL incumbent registry ingested [MEASURED: 143 tools]
 SELFTEST PASS - 12 checks (the backlog is measured; the board can see failure)
 ```
 
+## test_node_rails.py (rc=0)
+```
+OK    node rail probe: importable incumbent -> live
+  OK    node rail dispatch: normalizes the incumbent dict return
+  OK    missing incumbent -> probe UNREACHABLE (registration is not capability)
+  OK    missing incumbent dispatch -> typed UNREACHABLE, not a crash
+  OK    incumbent without ask() -> BROKE
+  OK    incumbent ask() raising -> BROKE with the reason
+  OK    dispatcher reaches the node rail and returns the model text
+  OK    the metered call went through the spend breaker (SPEND_SETTLED ledgered)
+  OK    exhausted budget -> dispatcher NOT_PERMITTED (breaker in the caller path)
+  OK    register_node_rails registers all four node links
+  OK    every node rail probes HONESTLY (live-if-importable OR UNREACHABLE, never fake-live)
+  OK    [MEASURED native: 4/4 incumbents importable - the adapted rails can reach the live mesh]
+SELFTEST PASS - 12 checks (adapted rails drive incumbents; missing=UNREACHABLE; metered=spend-gated)
+```
+
 ## test_port_plan.py (rc=0)
 ```
 OK    cosmos module discovery found the spike successors (paths/lock/mail)
@@ -227,6 +244,32 @@ OK    cosmos module discovery found the spike successors (paths/lock/mail)
   OK    re-apply adds no new tools to the registry
 PORT PLAN: 33 tools mapped | {'REPLACED': 23, 'ADAPTED': 10}
 SELFTEST PASS - 21 checks (architecture wins where a contract conflicts; every decision recorded, never drifted)
+```
+
+## test_segments.py (rc=0)
+```
+OK    3+ rotations produced 4 segments on disk
+  OK    3 segments sealed with an anchor (the live head has none)
+  OK    append returned continuous global_seq 1..N as it wrote
+  OK    verify_all passes over the whole multi-segment history
+  OK    global seqs are continuous 1..N ACROSS segment boundaries
+  OK    local seq RESETS per segment while global does not (layer, not rewrite)
+  OK    anchors form their own hash chain (prev_anchor_sha256 links each)
+  OK    anchor seq accounting matches the records (first/last/count)
+  OK    corrupt MIDDLE segment -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002
+  OK    the corrupt segment recorded a LEDGER_INCIDENT
+  OK    corrupt ANCHOR -> verify_all REFUSES (BROKEN_CHAIN) naming seg-00002.anchor
+  OK    the corrupt anchor recorded a LEDGER_INCIDENT
+  OK    CAS.put returns the sha256 of the content
+  OK    CAS.get round-trips the exact bytes
+  OK    CAS is idempotent: identical content -> identical sha
+  OK    CAS idempotent: identical content is ONE blob file on disk
+  OK    a large artifact goes in CAS; the LEDGER holds only the sha pointer
+  OK    a tampered CAS blob -> HASH_MISMATCH on read (never handed back)
+  OK    an ABSENT CAS blob -> NOT_FOUND, not UNREADABLE (four-state rule)
+  OK    the deep CAS root exceeds MAX_PATH (>260 chars)
+  OK    CAS put/get works past MAX_PATH via extended()
+SELFTEST PASS - 21 checks (3+ rotations, anchor chain, 2 planted corruptions BY KIND naming the culprit + incidents, CAS round-trip/idempotence/HASH_MISMATCH, MAX_PATH)
 ```
 
 ## test_spend_context.py (rc=0)
