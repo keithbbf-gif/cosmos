@@ -54,8 +54,24 @@ DEFAULT_INDEX_URL = "https://ai.dchambers.com/GrokDex.csv"
 # directory with fewer features, it is not the directory.
 REQUIRED_COLUMNS = ("object_key", "url", "area", "type", "size_bytes", "descriptor")
 
+# Index-derived fields are UNTRUSTED DATA (2026-08-23 final hardening): the CSV
+# is fetched from a public URL, and its cell contents flow into voice replies
+# and UIs. Every field is sanitized on parse - control characters stripped,
+# length capped - so a hostile or corrupted index cannot inject terminal
+# escapes, fake reply lines, or megabyte cells into anything downstream.
+# Results remain DATA: nothing in a row is ever interpreted as an instruction.
+FIELD_MAX = 500           # chars per field after sanitization
+
 EV_REFRESHED = "ITC_REFRESHED"
 EV_CORPUS = "CORPUS_REGISTERED"
+
+
+def _sanitize_field(v) -> str:
+    """One field, made safe to embed: control chars (C0 + DEL) stripped,
+    length capped at FIELD_MAX. The value stays data; it just stops being able
+    to pretend it is anything else."""
+    s = "".join(ch for ch in str(v) if ch >= " " and ch != "\x7f")
+    return s[:FIELD_MAX]
 
 
 class ItcError(RuntimeError):
@@ -92,6 +108,26 @@ class ITC:
         self._row_count: int = 0
         self._index_url: Optional[str] = None
         self._corpus: list[str] = []          # normalized registered paths, in order
+        # CONSTRUCTION-TIME PROVENANCE (2026-08-23): replay the ledger NOW so a
+        # torn/forged chain refuses at composition, and rebuild the last-refresh
+        # record + corpus. The ROWS of a prior refresh are deliberately NOT
+        # rebuilt - the ledger holds the refresh's hash, not the CSV body, so a
+        # new process cannot reproduce them; search()/get() therefore stay
+        # STALE until a refresh in THIS process. That keeps the invariant that
+        # index_hash on every hit equals the content_hash of the refresh whose
+        # rows are actually in memory - this instance never claims a hash it
+        # cannot reproduce.
+        self.state()                          # verifies the chain; raises if torn
+
+        def _fold_corpus(paths, rec):
+            if rec.get("event") == EV_CORPUS:
+                for p in rec.get("payload", {}).get("paths", []):
+                    if isinstance(p, str) and p not in paths:
+                        paths.append(p)
+            return paths
+        # corpus registrations rebuilt in ledger order - a reconnecting process
+        # can search_corpus without re-registering anything.
+        self._corpus = self._ledger.project(_fold_corpus, [])
 
     # ---------------- refresh ----------------
     def refresh(self, url: str = DEFAULT_INDEX_URL) -> dict:
@@ -141,8 +177,14 @@ class ITC:
 
     def _parse(self, text: str, url: str) -> list[dict]:
         """CSV -> list of row dicts. Missing required column -> BAD_INDEX.
-        Extra columns are carried through untouched. Rows with an empty
-        object_key are skipped (a directory entry with no key resolves nothing)."""
+        Extra columns are carried through SANITIZED like every other field
+        (control chars stripped, FIELD_MAX cap - see _sanitize_field: index
+        cells are untrusted data headed for replies and UIs). Rows with an
+        empty object_key are skipped (a directory entry with no key resolves
+        nothing). A DUPLICATE object_key is BAD_INDEX: two rows claiming one
+        key means get() would silently answer with whichever row won the dict,
+        and row_count would overstate the resolvable set - the index is not the
+        directory it claims to be, so it is refused whole."""
         try:
             reader = csv.DictReader(io.StringIO(text))
             fields = reader.fieldnames
@@ -156,13 +198,21 @@ class ITC:
                            f"{url}: header missing required column(s) "
                            f"{missing} - got {list(fields)}")
         rows: list[dict] = []
+        seen: set[str] = set()
         try:
             for rec in reader:
-                key = (rec.get("object_key") or "").strip()
+                key = _sanitize_field(rec.get("object_key") or "").strip()
                 if not key:
                     continue
-                row = {k: (v if v is not None else "") for k, v in rec.items()
-                       if k is not None}
+                if key in seen:
+                    raise ItcError(
+                        "BAD_INDEX",
+                        f"{url}: duplicate object_key {key!r} - one key must "
+                        f"resolve one object; refusing the whole index rather "
+                        f"than letting a dict decide which row wins")
+                seen.add(key)
+                row = {k: _sanitize_field(v if v is not None else "")
+                       for k, v in rec.items() if k is not None}
                 row["object_key"] = key
                 rows.append(row)
         except csv.Error as e:

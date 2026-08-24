@@ -5,9 +5,16 @@
 The claims under test are the safety claims, because voice is the channel where
 a misheard word costs the most:
   * read-only commands auto-run; CONSEQUENTIAL commands NEVER run without the
-    confirm round-trip; a wrong/stale confirm_id never executes;
-  * destructive verbs are refused (via the commander's fence), never executed;
-  * dictation is captured as a note, never approximated into a command;
+    confirm round-trip - and the confirm_id is a SERVER-ISSUED SINGLE-USE
+    NONCE: a guessed/derived token (including the old deterministic
+    sha256(sid|text)[:12]) never executes, a consumed nonce never executes
+    twice, an expired nonce re-prompts, a nonce issued for another session or
+    utterance re-prompts;
+  * destructive verbs are refused LOCALLY - the commander is NEVER dispatched
+    (defense in depth: nothing is sent downstream hoping a fence catches it);
+  * dictation is captured as EXACTLY ONE note turn, never approximated into a
+    command and never double-recorded;
+  * an oversized transcript is BAD_INPUT before anything touches the chain;
   * queries return ITC hits WITH provenance (index_hash); unknown keys surface
     NOT_FOUND in-band;
   * and the whole exchange is SESSION-CONTINUOUS: every turn lands in the
@@ -18,6 +25,7 @@ commander that records calls and returns canned dicts - VoiceMode never needs
 the kernel, and this test proves it by never importing it."""
 from __future__ import annotations
 
+import hashlib
 import sys
 import tempfile
 from pathlib import Path
@@ -26,7 +34,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cosmos_ledger import Ledger
 from cosmos_convo import ConvoStore
 from cosmos_itc import ITC
-from cosmos_voice import VoiceMode, VoiceError, _confirm_token
+from cosmos_voice import (VoiceMode, VoiceError, CONFIRM_TTL, MAX_TRANSCRIPT,
+                          EV_CONFIRM_ISSUED, EV_CONFIRM_CONSUMED)
 
 RESULTS = []
 
@@ -51,6 +60,13 @@ def expect(label, kind, fn):
     check(label, _run)
 
 
+def legacy_token(sid: str, transcript: str) -> str:
+    """The RETIRED deterministic confirm token - what an attacker who knows
+    sid+text can compute. The suite proves it executes NOTHING."""
+    norm = " ".join(transcript.split()).lower()
+    return hashlib.sha256(f"{sid}|{norm}".encode("utf-8")).hexdigest()[:12]
+
+
 # ---------------- the fake commander (canned, call-recording) ----------------
 class FakeCmdError(RuntimeError):
     """Duck-typed like cosmos_command.CommandError: carries .kind."""
@@ -69,7 +85,9 @@ class FakeCommander:
     """Records every .handle() call; refuses FORBIDDEN verbs exactly like the
     real Commander's fence; returns canned dicts otherwise. `executed` holds
     only the calls that actually RETURNED - the set VoiceMode must keep empty
-    for unconfirmed and destructive utterances."""
+    for unconfirmed and destructive utterances. `calls` holds EVERYTHING that
+    reached the seam - the set that must stay empty for destructive verbs now
+    that the refusal is local."""
 
     def __init__(self):
         self.calls = []        # every text that reached handle()
@@ -111,8 +129,8 @@ def main() -> int:
     fake_t = [5000.0]
     clock = lambda: fake_t[0]                                         # noqa: E731
 
-    convo = ConvoStore(Ledger(td / "convo.jsonl", KEY, "voice", clock=clock),
-                       clock=clock)
+    convo_ledger = Ledger(td / "convo.jsonl", KEY, "voice", clock=clock)
+    convo = ConvoStore(convo_ledger, clock=clock)
     itc = ITC(Ledger(td / "itc.jsonl", KEY, "voice", clock=clock),
               fetcher=lambda url: CSV, clock=clock)
     itc.refresh()
@@ -121,6 +139,10 @@ def main() -> int:
     vm = VoiceMode(convo, cmd, itc, clock=clock)
 
     sid = convo.create_session("road session", scope=["itc", "corpus"])
+
+    def confirm_events(kind):
+        return [r["payload"] for r in convo_ledger.verify()
+                if r["event"] == kind]
 
     # ===== read-only command: auto-runs, both turns recorded =====
     r = vm.handle(sid, "status")
@@ -141,30 +163,69 @@ def main() -> int:
     # ===== consequential: needs_confirm first, NO execution =====
     n_exec = len(cmd.executed)
     r2 = vm.handle(sid, "submit high do the thing")
-    check("consequential 'submit ...' -> needs_confirm=True, confirm_id minted",
+    check("consequential 'submit ...' -> needs_confirm=True, a NONCE minted",
           lambda: r2["needs_confirm"] and isinstance(r2["confirm_id"], str)
-          and len(r2["confirm_id"]) == 12)
+          and len(r2["confirm_id"]) == 32
+          and all(c in "0123456789abcdef" for c in r2["confirm_id"]))
     check("...and the commander was NOT called (nothing executed on first hearing)",
           lambda: len(cmd.executed) == n_exec and "submit high do the thing"
           not in cmd.calls)
-    check("...confirm_id is deterministic (session + normalized utterance)",
-          lambda: r2["confirm_id"] == _confirm_token(sid, "submit  high do the thing"))
+    check("...the nonce is NOT the old deterministic token (unforgeable, "
+          "server-issued)",
+          lambda: r2["confirm_id"] != legacy_token(sid, "submit high do the thing"))
+    check("...CONFIRM_ISSUED is ON THE LEDGER {nonce, sid, cmd_hash, epoch}",
+          lambda: any(p.get("nonce") == r2["confirm_id"] and p.get("sid") == sid
+                      and len(p.get("cmd_hash", "")) == 64
+                      and p.get("epoch") == 5000.0
+                      for p in confirm_events(EV_CONFIRM_ISSUED)))
 
-    # ===== wrong/stale confirm_id: re-prompts, NEVER executes =====
-    r3 = vm.handle(sid, "submit high do the thing", confirm_id="deadbeefdead")
-    check("WRONG confirm_id -> fresh needs_confirm (re-prompt), not an execution",
-          lambda: r3["needs_confirm"] and len(cmd.executed) == n_exec)
+    # ===== THE FORGERY ATTACK: guessed deterministic token NEVER executes =====
+    r3 = vm.handle(sid, "submit high do the thing",
+                   confirm_id=legacy_token(sid, "submit high do the thing"))
+    check("ATTACK: sid+text-derived (old deterministic) confirm_id -> re-prompt, "
+          "NOT an execution",
+          lambda: r3["needs_confirm"] and len(cmd.executed) == n_exec
+          and "submit high do the thing" not in cmd.calls)
     check("...the re-prompt says the mismatch out loud (nothing silent)",
           lambda: "did not match" in r3["reply"])
+    check("...and re-prompts with a FRESH nonce, different from the first",
+          lambda: isinstance(r3["confirm_id"], str)
+          and r3["confirm_id"] != r2["confirm_id"])
 
-    # ===== correct confirm_id: NOW it executes, exactly once =====
+    # ===== correct nonce: NOW it executes, exactly once =====
     r4 = vm.handle(sid, "submit high do the thing", confirm_id=r2["confirm_id"])
-    check("re-call WITH the minted confirm_id EXECUTES (commander called once)",
+    check("re-call WITH the issued nonce EXECUTES (commander called once)",
           lambda: not r4["needs_confirm"] and r4["ok"]
           and cmd.executed.count("submit high do the thing") == 1)
     check("...reply names what ran (the action is on the record, not implied)",
           lambda: r4["action"] == "submit high do the thing"
           and "JOB-FAKE-1" in r4["reply"])
+    check("...CONFIRM_CONSUMED is ON THE LEDGER for that nonce",
+          lambda: any(p.get("nonce") == r2["confirm_id"]
+                      for p in confirm_events(EV_CONFIRM_CONSUMED)))
+
+    # ===== SINGLE-USE: replaying the consumed nonce never executes again =====
+    r4b = vm.handle(sid, "submit high do the thing", confirm_id=r2["confirm_id"])
+    check("REPLAY: the consumed nonce re-prompts - still exactly ONE execution",
+          lambda: r4b["needs_confirm"]
+          and cmd.executed.count("submit high do the thing") == 1
+          and "already used" in r4b["reply"])
+
+    # ===== TTL: an expired nonce re-prompts; a fresh one still executes =====
+    rE1 = vm.handle(sid, "session close")
+    check("second consequential verb ('session close') -> its own nonce",
+          lambda: rE1["needs_confirm"] and rE1["confirm_id"] not in
+          (r2["confirm_id"], r3["confirm_id"]))
+    fake_t[0] = 5000.0 + CONFIRM_TTL + 1.0          # past the TTL
+    rE2 = vm.handle(sid, "session close", confirm_id=rE1["confirm_id"])
+    check("EXPIRED nonce (TTL exceeded via injected clock) -> re-prompt, "
+          "NOT an execution",
+          lambda: rE2["needs_confirm"] and "expired" in rE2["reply"]
+          and "session close" not in cmd.executed)
+    rE3 = vm.handle(sid, "session close", confirm_id=rE2["confirm_id"])
+    check("...the FRESH nonce from the re-prompt executes (flow recovers)",
+          lambda: not rE3["needs_confirm"] and rE3["ok"]
+          and cmd.executed.count("session close") == 1)
 
     # ===== query: search with provenance =====
     r5 = vm.handle(sid, "search manifest")
@@ -194,28 +255,34 @@ def main() -> int:
           lambda: (not r7["ok"]) and r7["kind"] == "query"
           and r7.get("error") == "NOT_FOUND" and "NOT_FOUND" in r7["reply"])
 
-    # ===== dictation: captured as a note, never approximated =====
+    # ===== dictation: captured as EXACTLY ONE note turn =====
     n_calls = len(cmd.calls)
     r8 = vm.handle(sid, "remember the sky is blue")
     check("dictation -> kind=dictation, acknowledged as captured",
           lambda: r8["ok"] and r8["kind"] == "dictation"
           and "noted" in r8["reply"].lower())
-    check("...a mode='note' turn holds the dictation verbatim (session content)",
-          lambda: any(t["mode"] == "note"
-                      and t["text"] == "remember the sky is blue"
-                      for t in convo.get_session(sid)["turns"]))
+    check("...the dictation is recorded EXACTLY ONCE (double-record closed), "
+          "as mode='note'",
+          lambda: [t["mode"] for t in convo.get_session(sid)["turns"]
+                   if t["text"] == "remember the sky is blue"] == ["note"])
     check("...NO command ran and none was guessed at (commander untouched)",
           lambda: len(cmd.calls) == n_calls)
 
-    # ===== destructive: refused via the commander path, nothing executes =====
-    n_exec2 = len(cmd.executed)
+    # ===== destructive: refused LOCALLY, commander NEVER dispatched =====
+    n_calls2, n_exec2 = len(cmd.calls), len(cmd.executed)
     r9 = vm.handle(sid, "delete everything")
-    check("'delete everything' -> kind=refused, refused=True, nothing executed",
+    check("'delete everything' -> kind=refused, refused=True, error=REFUSED",
           lambda: r9["kind"] == "refused" and r9["refused"]
-          and not r9["ok"] and len(cmd.executed) == n_exec2)
-    check("...the refusal went THROUGH the commander (its fence + its ledger path)",
-          lambda: cmd.calls[-1] == "delete everything"
-          and r9.get("error") == "REFUSED")
+          and not r9["ok"] and r9.get("error") == "REFUSED")
+    check("...the commander was NEVER DISPATCHED (defense in depth: nothing "
+          "sent hoping a downstream fence holds)",
+          lambda: len(cmd.calls) == n_calls2 and len(cmd.executed) == n_exec2
+          and "delete everything" not in cmd.calls)
+    check("...the LOCAL refusal is ledgered (COMMAND_REFUSED, via='voice')",
+          lambda: any(r["event"] == "COMMAND_REFUSED"
+                      and r["payload"].get("text") == "delete everything"
+                      and r["payload"].get("via") == "voice"
+                      for r in convo_ledger.verify()))
 
     # ===== commander's typed refusal on bad args surfaces in-band =====
     r10 = vm.handle(sid, "events banana")
@@ -230,29 +297,54 @@ def main() -> int:
           lambda: user_texts == [
               "status",
               "submit high do the thing",           # first hearing
-              "submit high do the thing",           # wrong confirm
-              "submit high do the thing",           # confirmed
+              "submit high do the thing",           # forged/legacy confirm
+              "submit high do the thing",           # confirmed (nonce)
+              "submit high do the thing",           # replayed consumed nonce
+              "session close",                      # first hearing
+              "session close",                      # expired nonce
+              "session close",                      # fresh nonce, ran
               "search manifest", "find fig1",
               "open figures/fig1.png", "open no/such/key.bin",
-              "remember the sky is blue",
               "delete everything", "events banana"])
     check("...every utterance has an assistant reply turn (user/assistant paired)",
-          lambda: sum(1 for t in turns if t["role"] == "assistant") == 11)
+          lambda: sum(1 for t in turns if t["role"] == "assistant") == 15)
     check("...a SECOND ConvoStore on the same ledger sees the same conversation "
           "(reconnect IS resume)",
           lambda: ConvoStore(Ledger(td / "convo.jsonl", KEY, "phone2",
                                     clock=clock), clock=clock)
           .get_session(sid)["turn_count"] == len(turns))
 
+    # ===== cross-session binding: a nonce is bound to ITS sid =====
+    sid2 = convo.create_session("second handset")
+    rX1 = vm.handle(sid2, "submit other thing")
+    rX2 = vm.handle(sid, "submit other thing", confirm_id=rX1["confirm_id"])
+    check("a nonce issued in ANOTHER session re-prompts here - never executes",
+          lambda: rX1["needs_confirm"] and rX2["needs_confirm"]
+          and "submit other thing" not in cmd.executed
+          and "different request" in rX2["reply"])
+    rX3 = vm.handle(sid2, "submit other thing", confirm_id=r3["confirm_id"])
+    check("a nonce issued for a DIFFERENT utterance re-prompts - never executes",
+          lambda: rX3["needs_confirm"]
+          and "submit other thing" not in cmd.executed)
+
+    # ===== ledger bookkeeping of the whole confirm history =====
+    check("confirm bookkeeping: 8 CONFIRM_ISSUED, exactly 2 CONFIRM_CONSUMED",
+          lambda: (len(confirm_events(EV_CONFIRM_ISSUED)),
+                   len(confirm_events(EV_CONFIRM_CONSUMED))) == (8, 2))
+
     # ===== typed refusals: BAD_INPUT and NO_SESSION =====
+    n_all = convo.get_session(sid)["turn_count"]
     expect("empty transcript -> BAD_INPUT (typed, before anything is recorded)",
            "BAD_INPUT", lambda: vm.handle(sid, "   "))
     expect("non-string transcript -> BAD_INPUT too",
            "BAD_INPUT", lambda: vm.handle(sid, None))
+    expect("transcript over MAX_TRANSCRIPT chars -> BAD_INPUT (no ledger "
+           "write amplification)",
+           "BAD_INPUT", lambda: vm.handle(sid, "x" * (MAX_TRANSCRIPT + 1)))
     expect("bogus session_id -> NO_SESSION (convo's refusal, surfaced typed)",
            "NO_SESSION", lambda: vm.handle("no-such-sid", "status"))
     check("...and the refused calls left NO new turns in the real session",
-          lambda: convo.get_session(sid)["turn_count"] == len(turns))
+          lambda: convo.get_session(sid)["turn_count"] == n_all)
 
     # ===== the chains verify end-to-end after everything =====
     check("convo ledger chain VERIFIES after the whole exchange",
@@ -264,8 +356,8 @@ def main() -> int:
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (voice is session-continuous, misheard "
-          "consequential commands NEVER execute silently)"
+    print("SELFTEST %s - %d checks (voice is session-continuous; confirm is a "
+          "ledger-backed single-use nonce; destructive verbs never dispatch)"
           % ("PASS" if not bad else "FAIL", len(RESULTS)))
     return 0 if not bad else 1
 

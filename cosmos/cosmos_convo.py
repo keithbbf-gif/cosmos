@@ -15,10 +15,31 @@ ledger sees the same sessions - that IS durability, and it is measured, not
 assumed: get_session returns what the ledger actually holds.
 
 EVENTS (this module's vocabulary on the shared chain):
-    CONVO_OPENED   {sid, title, scope, opened_epoch}
+    CONVO_OPENED   {sid, title, scope, owner, opened_epoch}
     CONVO_TURN     {sid, role, text, mode, sources, job_ids, seq}
     CONVO_CLOSED   {sid, closed_epoch}
     CONVO_REOPENED {sid, reopened_epoch}
+
+FOLD HARDENING (2026-08-23 final hardening, three-family convergence): the
+ledger is signed, but the fold is still DEFENSE IN DEPTH against a record that
+is chained and authenticated yet WRONG for this projection (another module's
+bug, a replayed event, a hand-crafted payload signed by a compromised writer):
+  * a SECOND CONVO_OPENED for an existing sid is IGNORED - it can never reset a
+    session's turns or retitle/reown it;
+  * a CONVO_TURN whose sid is unknown, whose session is CLOSED, or whose seq is
+    not exactly turn_count+1 (contiguous) is IGNORED - replays and gap-jumps do
+    not project;
+  * a malformed payload (wrong types, missing fields) is IGNORED, never folded
+    and never a crash. Ignoring is correct here: the fold is a projection, and
+    refusing to project a bad record keeps the projection honest without
+    making history unreadable.
+
+OWNERSHIP (2026-08-23): create_session(..., owner=...) binds a session to a
+principal; assert_owner(sid, owner) refuses NO_SESSION on a mismatch - the SAME
+kind and detail as an unknown sid, deliberately, so a caller probing other
+principals' sids cannot distinguish "not yours" from "not there". Single-bearer
+COSMOS has one principal today; device-scoped tokens are coming, and the bind
+exists now so they land on a closed seam.
 
 NEVER DELETE: there is no delete API. close_session() appends CONVO_CLOSED and
 the turns REMAIN in the chain forever; get_session on a closed sid still returns
@@ -88,29 +109,64 @@ class ConvoStore:
     # ---------------- projection (the ONLY read path) ----------------
     @staticmethod
     def _fold(sessions: dict, rec: dict) -> dict:
-        ev, p = rec.get("event"), rec.get("payload", {})
+        """Hardened fold (defense in depth over the signed chain - see module
+        docstring): duplicate opens never reset, non-contiguous or closed-side
+        turns never project, malformed payloads never fold and never crash."""
+        if not isinstance(rec, dict):
+            return sessions
+        ev = rec.get("event")
+        p = rec.get("payload")
+        if not isinstance(p, dict):
+            return sessions
+        sid = p.get("sid")
+        if not isinstance(sid, str) or not sid:
+            return sessions
         if ev == EV_OPENED:
-            sessions[p["sid"]] = {
-                "sid": p["sid"], "title": p["title"],
+            if sid in sessions:
+                # REPLAY/FORGERY FENCE: a second open for a known sid would
+                # wipe every turn and rewrite title/owner. It is ignored.
+                return sessions
+            if not isinstance(p.get("title"), str):
+                return sessions                      # malformed: not folded
+            owner = p.get("owner")
+            if owner is not None and not isinstance(owner, str):
+                return sessions                      # malformed: not folded
+            sessions[sid] = {
+                "sid": sid, "title": p["title"],
                 "scope": list(p.get("scope") or []),
+                "owner": owner,
                 "open": True, "turns": [],
                 "last_epoch": p.get("opened_epoch", rec.get("t")),
             }
-        elif ev == EV_TURN and p.get("sid") in sessions:
-            s = sessions[p["sid"]]
+        elif ev == EV_TURN and sid in sessions:
+            s = sessions[sid]
+            if not s["open"]:
+                return sessions       # a turn on a CLOSED session never projects
+            if p.get("seq") != len(s["turns"]) + 1:
+                return sessions       # non-contiguous seq: replay/gap, ignored
+            if (p.get("role") not in ROLES
+                    or not isinstance(p.get("text"), str) or not p["text"].strip()
+                    or not isinstance(p.get("mode"), str)):
+                return sessions                      # malformed: not folded
+            srcs = p.get("sources") or []
+            jobs = p.get("job_ids") or []
+            if not (isinstance(srcs, list) and all(isinstance(x, str) for x in srcs)
+                    and isinstance(jobs, list)
+                    and all(isinstance(x, str) for x in jobs)):
+                return sessions                      # malformed: not folded
             s["turns"].append({
                 "role": p["role"], "text": p["text"], "mode": p["mode"],
-                "sources": list(p.get("sources") or []),
-                "job_ids": list(p.get("job_ids") or []),
+                "sources": list(srcs),
+                "job_ids": list(jobs),
                 "epoch": rec.get("t"),
             })
             s["last_epoch"] = rec.get("t")
-        elif ev == EV_CLOSED and p.get("sid") in sessions:
-            sessions[p["sid"]]["open"] = False
-            sessions[p["sid"]]["last_epoch"] = p.get("closed_epoch", rec.get("t"))
-        elif ev == EV_REOPENED and p.get("sid") in sessions:
-            sessions[p["sid"]]["open"] = True
-            sessions[p["sid"]]["last_epoch"] = p.get("reopened_epoch", rec.get("t"))
+        elif ev == EV_CLOSED and sid in sessions and sessions[sid]["open"]:
+            sessions[sid]["open"] = False
+            sessions[sid]["last_epoch"] = p.get("closed_epoch", rec.get("t"))
+        elif ev == EV_REOPENED and sid in sessions and not sessions[sid]["open"]:
+            sessions[sid]["open"] = True
+            sessions[sid]["last_epoch"] = p.get("reopened_epoch", rec.get("t"))
         return sessions
 
     def _project(self, records=None) -> dict:
@@ -126,7 +182,8 @@ class ConvoStore:
         return sessions
 
     # ---------------- API ----------------
-    def create_session(self, title: str, scope: Optional[list] = None) -> str:
+    def create_session(self, title: str, scope: Optional[list] = None,
+                       owner: Optional[str] = None) -> str:
         if scope is not None and not isinstance(scope, list):
             raise ConvoError("BAD_SCOPE",
                              f"scope must be a list of resource tags or None, "
@@ -134,12 +191,26 @@ class ConvoStore:
         scope = _str_list(scope, "scope", "BAD_SCOPE")
         if not isinstance(title, str) or not title.strip():
             raise ConvoError("BAD_TURN", "title must be a non-empty string")
+        if owner is not None and not isinstance(owner, str):
+            raise ConvoError("BAD_TURN",
+                             f"owner must be a principal string or None, got "
+                             f"{type(owner).__name__}: {owner!r}")
         sid = uuid.uuid4().hex
         self._ledger.append(EV_OPENED, {
-            "sid": sid, "title": title, "scope": scope,
+            "sid": sid, "title": title, "scope": scope, "owner": owner,
             "opened_epoch": self._clock(),
         })
         return sid
+
+    def assert_owner(self, sid: str, owner: Optional[str]) -> None:
+        """Refuse unless sid exists AND its recorded owner equals `owner`.
+        A mismatch raises NO_SESSION with the SAME detail as an unknown sid -
+        existence is never leaked to a principal the session does not belong
+        to. (Sessions created with owner=None are owned by the None principal:
+        an explicit principal does NOT match them, and vice versa.)"""
+        s = self._project().get(sid)
+        if s is None or s.get("owner") != owner:
+            raise ConvoError("NO_SESSION", f"unknown sid {sid!r}")
 
     def append_turn(self, sid: str, role: str, text: str, mode: str = "text",
                     sources: Optional[list] = None,
@@ -185,6 +256,7 @@ class ConvoStore:
             raise ConvoError("NO_SESSION", f"unknown sid {sid!r}")
         return {
             "sid": s["sid"], "title": s["title"], "scope": list(s["scope"]),
+            "owner": s.get("owner"),
             "open": s["open"], "turns": [dict(t) for t in s["turns"]],
             "sources": _dedup(x for t in s["turns"] for x in t["sources"]),
             "job_ids": _dedup(x for t in s["turns"] for x in t["job_ids"]),

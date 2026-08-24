@@ -306,24 +306,49 @@ def make_handler(kernel: Kernel, token: str):
                 # carries the sid (the sid, not the handset, holds the
                 # conversation). Consequential transcripts come back
                 # needs_confirm+confirm_id - NEVER executed silently.
+                import hashlib as _hashlib
                 from cosmos_command import Commander
                 from cosmos_convo import ConvoStore, ConvoError
-                from cosmos_voice import VoiceMode, VoiceError
+                from cosmos_voice import VoiceMode, VoiceError, MAX_TRANSCRIPT
                 body = self._read_body()
                 if body is None:
                     return
                 try:
                     d = json.loads(body.decode("utf-8"))
+                    # Input caps BEFORE anything touches the chain: an
+                    # oversized transcript/title is a 400, not a ledger write.
+                    transcript = str(d.get("transcript") or "")
+                    if len(transcript) > MAX_TRANSCRIPT:
+                        return self._send(400, {
+                            "error": "TRANSCRIPT_TOO_LONG",
+                            "detail": f"transcript of {len(transcript)} chars "
+                                      f"exceeds the {MAX_TRANSCRIPT}-char cap"})
+                    title = str(d.get("title") or "voice session")
+                    if len(title) > 200:
+                        return self._send(400, {
+                            "error": "TITLE_TOO_LONG",
+                            "detail": f"title of {len(title)} chars exceeds "
+                                      f"the 200-char cap"})
+                    # The authenticated principal: derived from the bearer the
+                    # request just proved it holds. One principal today;
+                    # device-scoped tokens will each derive their own, and the
+                    # ownership seam is already closed.
+                    principal = ("bearer:" + _hashlib.sha256(
+                        token.encode("utf-8")).hexdigest()[:16])
                     convo = ConvoStore(kernel.ledger, clock=kernel._clock)
                     vm = VoiceMode(convo, Commander(kernel),
                                    getattr(kernel, "itc", None),
                                    clock=kernel._clock)
                     sid = d.get("session_id")
                     if not sid:
-                        sid = convo.create_session(
-                            str(d.get("title") or "voice session"))
+                        sid = convo.create_session(title, owner=principal)
+                    else:
+                        sid = str(sid)
+                        # NO_SESSION on a sid this principal does not own -
+                        # existence is never leaked across principals.
+                        convo.assert_owner(sid, principal)
                     return self._send(200, vm.handle(
-                        sid, str(d.get("transcript") or ""),
+                        sid, transcript,
                         mode=str(d.get("mode") or "voice"),
                         confirm_id=d.get("confirm_id")))
                 except (VoiceError, ConvoError) as e:

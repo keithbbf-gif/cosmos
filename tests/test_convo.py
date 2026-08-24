@@ -176,6 +176,92 @@ def main() -> int:
           lambda: all(r["payload"].get("sid")
                       for r in recs if r["event"] == "CONVO_TURN"))
 
+    # ===== FOLD HARDENING: signed-but-wrong records never project =====
+    # These records are appended STRAIGHT to the ledger (valid chain, valid
+    # hmac - the signature is not the defense being tested; the fold is).
+    led = store._ledger
+    before = store.get_session(sid)
+    led.append("CONVO_OPENED", {"sid": sid, "title": "hijacked",
+                                "scope": [], "owner": "attacker",
+                                "opened_epoch": 9999.0})
+    after = store.get_session(sid)
+    check("HARDENING: a hand-injected DUPLICATE CONVO_OPENED does NOT wipe "
+          "turns, retitle, or reown",
+          lambda: after["turn_count"] == before["turn_count"]
+          and after["title"] == before["title"]
+          and after["owner"] == before["owner"]
+          and after["open"] == before["open"])
+    led.append("CONVO_TURN", {"sid": sid, "role": "user", "text": "ghost turn",
+                              "mode": "text", "sources": [], "job_ids": [],
+                              "seq": 99})
+    check("HARDENING: a turn with a NON-CONTIGUOUS seq (99) is not projected",
+          lambda: all(t["text"] != "ghost turn"
+                      for t in store.get_session(sid)["turns"]))
+    led.append("CONVO_TURN", {"sid": sid, "role": "user", "text": "replayed",
+                              "mode": "text", "sources": [], "job_ids": [],
+                              "seq": 1})
+    check("HARDENING: a REPLAYED seq (1, already taken) is not projected",
+          lambda: all(t["text"] != "replayed"
+                      for t in store.get_session(sid)["turns"]))
+    led.append("CONVO_TURN", {"sid": sid, "text": "no role", "mode": "text",
+                              "seq": before["turn_count"] + 1})
+    led.append("CONVO_TURN", {"sid": sid, "role": "user", "text": "bad sources",
+                              "mode": "text", "sources": [1, 2],
+                              "seq": before["turn_count"] + 1})
+    check("HARDENING: malformed payloads (missing role / non-string sources) "
+          "are ignored, never a crash",
+          lambda: store.get_session(sid)["turn_count"] == before["turn_count"])
+    n7 = store.append_turn(sid, "user", "after the ghosts")
+    check("HARDENING: legit numbering CONTINUES past the ignored records "
+          "(next seq unaffected by them)",
+          lambda: n7 == before["turn_count"] + 1)
+    store.close_session(sid_b)
+    led.append("CONVO_TURN", {"sid": sid_b, "role": "user",
+                              "text": "into a closed session", "mode": "text",
+                              "sources": [], "job_ids": [], "seq": 1})
+    check("HARDENING: a turn injected into a CLOSED session is not projected",
+          lambda: store.get_session(sid_b)["turn_count"] == 0)
+
+    # ===== OWNERSHIP: sessions bound to a principal =====
+    sid_o = store.create_session("owned session", owner="bearer:abc123")
+    check("owner is recorded and projected (get_session names it)",
+          lambda: store.get_session(sid_o)["owner"] == "bearer:abc123")
+    check("assert_owner passes for the recorded principal",
+          lambda: store.assert_owner(sid_o, "bearer:abc123") is None)
+    expect("assert_owner REFUSES NO_SESSION for a different principal "
+           "(existence never leaked)", "NO_SESSION",
+           lambda: store.assert_owner(sid_o, "bearer:evil"))
+    expect("assert_owner REFUSES NO_SESSION for an unknown sid the same way",
+           "NO_SESSION", lambda: store.assert_owner("deadbeef" * 4,
+                                                    "bearer:abc123"))
+    def _refusal_detail(fn, sid_in_msg):
+        try:
+            fn()
+            return None
+        except ConvoError as e:
+            return str(e).replace(sid_in_msg, "SID")
+    check("...and the two refusals are INDISTINGUISHABLE (same kind, "
+          "same detail shape - existence never leaked)",
+          lambda: _refusal_detail(
+              lambda: store.assert_owner(sid_o, "bearer:evil"), sid_o)
+          == _refusal_detail(
+              lambda: store.assert_owner("deadbeef" * 4, "bearer:abc123"),
+              "deadbeef" * 4))
+    check("ownerless (legacy) sessions still work: owner is None",
+          lambda: store.get_session(sid)["owner"] is None)
+    check("assert_owner(sid, None) matches an ownerless session",
+          lambda: store.assert_owner(sid, None) is None)
+    expect("...but a REAL principal does not match an ownerless session",
+           "NO_SESSION", lambda: store.assert_owner(sid, "bearer:abc123"))
+    expect("owner of a wrong type refuses BAD_TURN at create", "BAD_TURN",
+           lambda: store.create_session("bad owner", owner=123))
+
+    # ===== the chain still verifies after every injection =====
+    recs2 = list(Ledger(lp, KEY, "auditor2", clock=clock).verify())
+    check("ledger chain STILL VERIFIES after the hand-injected records "
+          "(they are signed; the FOLD is the defense)",
+          lambda: [r["seq"] for r in recs2] == list(range(1, len(recs2) + 1)))
+
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,

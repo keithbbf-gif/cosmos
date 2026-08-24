@@ -210,6 +210,64 @@ def main() -> int:
           lambda: FAKE_HASH[:12] in itc.report() and "6 rows" in itc.report()
           and "corpus=3" in itc.report())
 
+    # ===== SANITIZATION: index cells are untrusted data (2026-08-23) =====
+    from cosmos_itc import FIELD_MAX
+    evil_desc = "evil\x1b[2Jwipe\x07bell\ttab" + "D" * 600
+    evil_extra = "x\x01soh\x1b[31m" + "E" * 600   # (no NUL: pre-3.11 csv refuses it)
+    EVIL_CSV = (
+        "object_key,url,area,type,size_bytes,descriptor,extra\n"
+        f'k/evil.txt,https://x/evil.txt,physics,txt,1,"{evil_desc}","{evil_extra}"\n'
+    )
+    itc4 = ITC(Ledger(td / "itc4.jsonl", KEY, "F5"),
+               fetcher=lambda u: EVIL_CSV, clock=clock)
+    itc4.refresh()
+    erow = itc4.get("k/evil.txt")
+    check("SANITIZE: control chars (ESC/BEL/TAB/SOH) stripped from every field",
+          lambda: all(not any(ord(c) < 32 or ord(c) == 127 for c in str(v))
+                      for v in erow.values()))
+    check("SANITIZE: fields are length-capped at FIELD_MAX (no megabyte cells "
+          "into replies/UIs)",
+          lambda: len(erow["descriptor"]) == FIELD_MAX
+          and len(erow["extra"]) <= FIELD_MAX
+          and erow["descriptor"].startswith("evil[2Jwipe"))
+    check("SANITIZE: search hits carry the same sanitized fields (data, "
+          "not instructions)",
+          lambda: all("\x1b" not in str(v)
+                      for h in itc4.search("") for v in h.values()))
+
+    # ===== DUPLICATE object_key: BAD_INDEX, whole index refused =====
+    DUP_CSV = (
+        "object_key,url,area,type,size_bytes,descriptor\n"
+        "same/key.txt,https://x/a.txt,physics,txt,1,first claim\n"
+        "same/key.txt,https://x/b.txt,physics,txt,2,second claim\n"
+    )
+    led5 = Ledger(td / "itc5.jsonl", KEY, "F5")
+    itc5 = ITC(led5, fetcher=lambda u: DUP_CSV, clock=clock)
+    expect("duplicate object_key -> BAD_INDEX (one key must resolve one "
+           "object; no silent last-wins)",
+           "BAD_INDEX", lambda: itc5.refresh())
+    check("...and the refused index appended NOTHING to the ledger",
+          lambda: sum(1 for _ in led5.verify()) == 0)
+    expect("...the broker stays honestly STALE after the refusal",
+           "STALE", lambda: itc5.search("anything"))
+
+    # ===== CONSTRUCTION-TIME PROVENANCE (new process on an old ledger) =====
+    itc_new = ITC(led, fetcher=None, clock=clock)
+    expect("a NEW instance on a refreshed ledger still refuses search STALE - "
+           "it holds no rows for the recorded hash and never claims a hash it "
+           "cannot reproduce",
+           "STALE", lambda: itc_new.search("spectra"))
+    check("...but its state() names the prior refresh (provenance rebuilt at "
+          "construction)",
+          lambda: itc_new.state()["last_refresh"]["content_hash"] == FAKE_HASH)
+    check("...and the registered corpus IS rebuilt (searchable without "
+          "re-registration - it lives in the chain, not the process)",
+          lambda: itc_new.search_corpus("scan_101")[0]["name"] == "scan_101.txt")
+    check("INVARIANT: after an in-process refresh, every hit's index_hash "
+          "equals the hash of the rows actually in memory",
+          lambda: all(h["index_hash"] == itc._index_hash
+                      for h in itc.search("", limit=50)))
+
     # ===== the chain itself =====
     check("ledger .verify() passes over the whole session's chain",
           lambda: [r["seq"] for r in led.verify()]

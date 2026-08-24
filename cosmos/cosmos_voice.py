@@ -14,16 +14,21 @@ module turns a transcript into a SAFE, SESSION-CONTINUOUS interaction:
     captured as content instead of approximated into an action;
   * a CONSEQUENTIAL command (submit / session start / session close) is NEVER
     executed from a first hearing. It comes back needs_confirm=True with a
-    confirm_id; only a re-call carrying that exact confirm_id executes. A
-    misheard "submit" can therefore cost at most one wasted confirmation prompt,
-    never an action;
-  * destructive verbs are refused by the Commander's own FORBIDDEN fence -
-    VoiceMode routes them THROUGH the commander so COMMAND_REFUSED lands on the
-    ledger by the existing path, then SURFACES the refusal (kind="refused").
-    VoiceMode adds no destructive capability of any kind.
+    confirm_id that is a SERVER-ISSUED SINGLE-USE NONCE (CSPRNG, ledger-backed,
+    TTL-bound); only a re-call carrying that exact unconsumed, unexpired nonce
+    for the SAME session and SAME normalized utterance executes. A misheard
+    "submit" can therefore cost at most one wasted confirmation prompt, never
+    an action - and a caller who knows sid+text can compute NOTHING that
+    executes (the old deterministic sha256 token was forgeable and is gone);
+  * destructive verbs are refused LOCALLY (defense in depth): VoiceMode never
+    dispatches them to the commander at all - hoping a downstream fence catches
+    a destructive verb is not a fence. The refusal is ledgered here
+    (COMMAND_REFUSED, via="voice") so the audit trail matches the commander's
+    own refusal path, and surfaced as kind="refused". VoiceMode adds no
+    destructive capability of any kind.
 
 DEPENDENCY INJECTION, SO IT TESTS WITHOUT THE KERNEL:
-    VoiceMode(convo, commander, itc, clock=time.time)
+    VoiceMode(convo, commander, itc, clock=time.time, ledger=None)
   - convo:     a cosmos_convo.ConvoStore (or anything with create_session /
                append_turn / get_session);
   - commander: anything with .handle(text)->dict that raises typed errors
@@ -34,7 +39,12 @@ DEPENDENCY INJECTION, SO IT TESTS WITHOUT THE KERNEL:
                duck-typed .kind attribute; an exception WITHOUT .kind is not
                this seam's vocabulary and propagates untouched.
   - itc:       a cosmos_itc.ITC (may be None on a host where ITC is not
-               composed - queries then refuse in-band instead of crashing).
+               composed - queries then refuse in-band instead of crashing);
+  - ledger:    the authority Ledger the confirm nonces live on. Defaults to
+               the ConvoStore's own ledger (the shared chain), so the service
+               needs no extra wiring; pass one explicitly to put confirms on
+               a different chain. VoiceMode is constructed per request - ALL
+               confirm state lives in the ledger, none in this object.
 
 CLASSIFICATION (first word, case-insensitive, EXACT - the misheard-word rule):
     search <q> | find <q>  -> itc.search(q) + itc.search_corpus(q); read-only,
@@ -46,31 +56,43 @@ CLASSIFICATION (first word, case-insensitive, EXACT - the misheard-word rule):
     status audit jobs health spend rails makers events help
                            -> READ-ONLY commander verbs: auto-run.
     submit | session       -> CONSEQUENTIAL: confirm flow (above).
-    delete/remove/rm/...   -> the Commander's FORBIDDEN set, mirrored here ONLY
-                              for routing: these go TO the commander so its
-                              fence refuses and ledgers them. If the mirror ever
-                              drifts (a new forbidden verb not listed here), the
-                              drift is SAFE: the unlisted verb classifies as
-                              dictation and is captured as a note - never
-                              executed either way.
+    delete/remove/rm/...   -> the Commander's FORBIDDEN set, mirrored here for
+                              a LOCAL refusal: VoiceMode refuses these itself,
+                              WITHOUT dispatching (defense in depth - the
+                              commander's fence remains, but nothing is sent to
+                              it hoping it holds). If the mirror ever drifts (a
+                              new forbidden verb not listed here), the drift is
+                              SAFE: the unlisted verb classifies as dictation
+                              and is captured as a note - never executed.
     anything else          -> DICTATION: appended as a "note" turn (mode="note")
-                              in the session. Never approximated into a command.
+                              in the session - the ONE user turn recorded for
+                              that utterance. Never approximated into a command.
 
 THE RESULT SHAPE (every handle() return):
     {ok, session_id, kind (query|command|dictation|refused), reply (full text),
      spoken (concise TTS-friendly), needs_confirm, confirm_id, action,
      sources (list, ITC hits carry index_hash), refused}
 
-CONFIRM TOKENS are deterministic: sha256(sid + normalized transcript), first 12
-hex chars. The same utterance in the same session always yields the same token,
-so the flow is stateless and testable; a confirm_id minted for a DIFFERENT
-utterance (or another session) can never match, so a stale or wrong token
-re-prompts - it NEVER executes.
+CONFIRM NONCES (2026-08-23 final hardening - replaces the deterministic
+sha256(sid|text)[:12] token, which anyone knowing sid+text could mint):
+  * first hearing of a consequential command appends CONFIRM_ISSUED
+    {nonce: secrets.token_hex(16), sid, cmd_hash: sha256(normalized text),
+    epoch} to the ledger and returns the nonce as confirm_id - NOTHING runs;
+  * a call WITH confirm_id executes ONLY if the ledger holds a matching
+    CONFIRM_ISSUED (same nonce, same sid, same cmd_hash) that is UNCONSUMED
+    and within CONFIRM_TTL of the injected clock - and the execution appends
+    CONFIRM_CONSUMED {nonce} in the SAME atomic append_guarded decision, so
+    the nonce is single-use even under concurrent confirms;
+  * anything else - missing, unknown, expired, consumed, or bound to a
+    different session/utterance - re-prompts with a FRESH nonce. It never
+    executes.
 
 Typed errors only: VoiceError.kind in {NO_SESSION, BAD_INPUT}. An empty
-transcript is BAD_INPUT before anything touches the ledger; an unknown sid is
-NO_SESSION (ConvoStore's own typed refusal, translated). ConvoStore's BAD_TURN
-on a CLOSED session propagates as ConvoError - "closed" stays an honest claim.
+transcript is BAD_INPUT before anything touches the ledger, and so is a
+transcript over MAX_TRANSCRIPT chars (a huge transcript must not write-amplify
+the chain); an unknown sid is NO_SESSION (ConvoStore's own typed refusal,
+translated). ConvoStore's BAD_TURN on a CLOSED session propagates as
+ConvoError - "closed" stays an honest claim.
 
 Depends ONLY on cosmos_convo + cosmos_itc + stdlib. NOT cosmos_kernel, NOT
 cosmos_command, NOT cosmos_makers.
@@ -79,6 +101,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import secrets
 import time
 from typing import Optional
 
@@ -96,21 +119,24 @@ CONSEQUENTIAL_VERBS = {"submit", "session"}
 SEARCH_VERBS = {"search", "find"}
 OPEN_VERB = "open"
 
-# MIRROR of cosmos_command.FORBIDDEN - for ROUTING only, never for enforcement.
-# The commander's fence is the authority; this set just makes sure a destructive
-# utterance reaches that fence (and its COMMAND_REFUSED ledger entry) instead of
-# being filed as dictation. Drift is safe in both directions: an unlisted
-# destructive verb becomes a note (not executed); a listed verb the commander
-# stopped forbidding would still be refused THERE before anything ran... and if
-# a broken commander ever EXECUTES one, _destructive() reports the anomaly
-# loudly instead of claiming a refusal that did not happen.
+# MIRROR of cosmos_command.FORBIDDEN - and VoiceMode REFUSES these ITSELF,
+# before any dispatch (defense in depth, 2026-08-23). The commander's fence
+# still stands behind this one, but a destructive verb is never SENT anywhere
+# hoping a downstream fence catches it. Drift is safe in both directions: an
+# unlisted destructive verb becomes a note (not executed); a verb listed here
+# that the commander stopped forbidding is still refused HERE.
 DESTRUCTIVE_VERBS = {"delete", "remove", "rm", "del", "rmdir", "format", "purge",
                      "reset", "drop", "overwrite", "force", "wipe", "erase",
                      "destroy", "truncate", "uninstall"}
 
 SEARCH_LIMIT = 5          # voice answers are short by design - top hits only
-CONFIRM_LEN = 12          # hex chars of the deterministic confirm token
+CONFIRM_TTL = 300.0       # seconds a confirm nonce stays valid (injected clock)
+MAX_TRANSCRIPT = 4000     # chars; beyond this a transcript write-amplifies
 _DIGEST_MAX = 400         # cap on the JSON digest embedded in a reply
+
+# Confirm-nonce events (this module's vocabulary on the shared chain).
+EV_CONFIRM_ISSUED = "CONFIRM_ISSUED"
+EV_CONFIRM_CONSUMED = "CONFIRM_CONSUMED"
 
 
 class VoiceError(RuntimeError):
@@ -121,14 +147,12 @@ class VoiceError(RuntimeError):
         super().__init__(f"[{kind}] {detail}")
 
 
-def _confirm_token(session_id: str, transcript: str) -> str:
-    """Deterministic confirm token: same session + same (whitespace-normalized,
-    case-folded) utterance -> same token. Different utterance or different
-    session -> different token, so a stale confirm_id can never authorize a new
-    command."""
+def _cmd_hash(transcript: str) -> str:
+    """sha256 of the whitespace-normalized, case-folded utterance - what a
+    confirm nonce is BOUND to. A nonce issued for one utterance can never
+    confirm a different one, however similar it sounds."""
     norm = " ".join(transcript.split()).lower()
-    raw = f"{session_id}|{norm}".encode("utf-8")
-    return hashlib.sha256(raw).hexdigest()[:CONFIRM_LEN]
+    return hashlib.sha256(norm.encode("utf-8")).hexdigest()
 
 
 def _digest(obj) -> str:
@@ -143,29 +167,54 @@ def _digest(obj) -> str:
 class VoiceMode:
     """Transcript in -> classified, confirmed, ledgered interaction out.
     Stateless between calls: the ConvoStore (ledger projection) holds the
-    conversation; the confirm token is derived, not remembered."""
+    conversation; the confirm nonces live in the ledger, not in this object -
+    a VoiceMode constructed fresh per request loses nothing."""
 
-    def __init__(self, convo, commander, itc, clock=time.time):
+    def __init__(self, convo, commander, itc, clock=time.time, ledger=None):
         self._convo = convo
         self._commander = commander
         self._itc = itc
         self._clock = clock
+        # the confirm-nonce chain: the convo's own authority ledger unless the
+        # composer supplies a different one explicitly.
+        self._ledger = ledger if ledger is not None \
+            else getattr(convo, "_ledger", None)
 
     # ---------------- the one entry point ----------------
     def handle(self, session_id: str, transcript: str, mode: str = "voice",
                confirm_id: Optional[str] = None) -> dict:
         # BAD_INPUT before anything touches the chain - an empty utterance is
-        # not a turn, and refusing it must cost nothing.
+        # not a turn, and refusing it must cost nothing. An oversized one is
+        # refused for the same price: a runaway transcript must not
+        # write-amplify the ledger.
         if not isinstance(transcript, str) or not transcript.strip():
             raise VoiceError("BAD_INPUT",
                              "empty transcript - nothing was heard, nothing is "
                              "recorded, nothing runs")
+        if len(transcript) > MAX_TRANSCRIPT:
+            raise VoiceError("BAD_INPUT",
+                             f"transcript of {len(transcript)} chars exceeds the "
+                             f"{MAX_TRANSCRIPT}-char cap - refused before "
+                             f"anything is recorded (no write amplification)")
         text = transcript.strip()
 
-        # 1. the utterance goes on the record FIRST - even a refusal or a
-        # misheard command is part of the conversation's history.
+        # 1. classify by the FIRST word, exact, case-insensitive (misheard-word
+        # rule: a fuzzy match is a guess, and a guess acts on misheard speech).
+        # Classification is pure; it decides how the ONE user turn is recorded.
+        verb = text.split()[0].lower()
+        is_dictation = (verb not in SEARCH_VERBS and verb != OPEN_VERB
+                        and verb not in DESTRUCTIVE_VERBS
+                        and verb not in READ_ONLY_VERBS
+                        and verb not in CONSEQUENTIAL_VERBS)
+
+        # 2. the utterance goes on the record EXACTLY ONCE - even a refusal or
+        # a misheard command is part of the conversation's history. Dictation
+        # is recorded as its note turn HERE (mode='note'), not a second time
+        # downstream - the double-record defect is closed at the single door.
         try:
-            self._convo.append_turn(session_id, "user", text, mode=mode)
+            turn_seq = self._convo.append_turn(
+                session_id, "user", text,
+                mode="note" if is_dictation else mode)
         except ConvoError as e:
             if e.kind == "NO_SESSION":
                 raise VoiceError("NO_SESSION",
@@ -173,9 +222,6 @@ class VoiceMode:
                                  f"first; voice turns are never orphaned") from e
             raise   # BAD_TURN (closed session) etc: convo's typed claim stands
 
-        # 2. classify by the FIRST word, exact, case-insensitive (misheard-word
-        # rule: a fuzzy match is a guess, and a guess acts on misheard speech).
-        verb = text.split()[0].lower()
         if verb in SEARCH_VERBS:
             res = self._query_search(session_id, text, verb)
         elif verb == OPEN_VERB:
@@ -187,7 +233,7 @@ class VoiceMode:
         elif verb in CONSEQUENTIAL_VERBS:
             res = self._command_consequential(session_id, text, verb, confirm_id)
         else:
-            res = self._dictation(session_id, text)
+            res = self._dictation(session_id, text, turn_seq)
         return res
 
     # ---------------- shared plumbing ----------------
@@ -322,14 +368,82 @@ class VoiceMode:
         res["spoken"] = f"{verb} done."
         return self._finish(sid, res)
 
+    def _consume_or_issue(self, sid: str, text: str,
+                          confirm_id: Optional[str]) -> dict:
+        """The whole confirm decision, ATOMIC on the ledger (append_guarded
+        holds the OS lock across read-decide-append):
+          * confirm_id names an UNCONSUMED CONFIRM_ISSUED for this sid and this
+            utterance's cmd_hash, within CONFIRM_TTL -> append CONFIRM_CONSUMED
+            and return {"consumed": True}. Two racing confirms cannot both win:
+            the second one replays the chain under the lock and finds the
+            CONFIRM_CONSUMED the first one wrote.
+          * anything else (no id / unknown / consumed / expired / bound to a
+            different sid or utterance) -> append a FRESH CONFIRM_ISSUED with a
+            CSPRNG nonce and return {"consumed": False, "nonce", "why"}.
+        Nothing executes inside this method; it only settles WHETHER."""
+        ch = _cmd_hash(text)
+        outcome: dict = {}
+
+        def decide(records):
+            now = float(self._clock())
+            issued: dict = {}
+            consumed: set = set()
+            for rec in records:
+                ev, p = rec.get("event"), rec.get("payload", {})
+                if not isinstance(p, dict):
+                    continue
+                if ev == EV_CONFIRM_ISSUED and isinstance(p.get("nonce"), str):
+                    issued[p["nonce"]] = p
+                elif ev == EV_CONFIRM_CONSUMED:
+                    consumed.add(p.get("nonce"))
+            why = "first hearing"
+            if confirm_id is not None:
+                p = issued.get(confirm_id)
+                if p is None:
+                    why = "unknown confirm id"
+                elif confirm_id in consumed:
+                    why = "confirm id already used"
+                elif p.get("sid") != sid or p.get("cmd_hash") != ch:
+                    why = "confirm id was issued for a different request"
+                elif now - float(p.get("epoch", 0.0)) > CONFIRM_TTL:
+                    why = f"confirm id expired (> {CONFIRM_TTL:.0f}s)"
+                else:
+                    outcome["consumed"] = True
+                    return (EV_CONFIRM_CONSUMED,
+                            {"nonce": confirm_id, "sid": sid, "epoch": now})
+            nonce = secrets.token_hex(16)
+            outcome.update(consumed=False, nonce=nonce, why=why)
+            return (EV_CONFIRM_ISSUED,
+                    {"nonce": nonce, "sid": sid, "cmd_hash": ch, "epoch": now})
+
+        self._ledger.append_guarded(decide)
+        return outcome
+
     def _command_consequential(self, sid: str, text: str, verb: str,
                                confirm_id: Optional[str]) -> dict:
         """State-changing verbs NEVER run from a first hearing. The safety flow:
-        first call -> needs_confirm + a deterministic confirm_id; only a re-call
-        carrying that exact token executes. Wrong/stale token -> a FRESH
-        needs_confirm (re-prompt), never an execution on a mismatch."""
-        token = _confirm_token(sid, text)
-        if confirm_id == token:
+        first call -> needs_confirm + a SERVER-ISSUED SINGLE-USE NONCE
+        (CONFIRM_ISSUED on the ledger); only a re-call carrying that exact
+        unconsumed, unexpired nonce for this sid+utterance executes - and the
+        execution's CONFIRM_CONSUMED is written in the same atomic decision.
+        Missing/wrong/expired/consumed nonce -> a FRESH needs_confirm
+        (re-prompt), never an execution. Nothing derivable from sid+text can
+        ever confirm: the nonce is CSPRNG, minted here, stored in the chain."""
+        if self._ledger is None:
+            # no confirm chain composed: refusing to execute is the only
+            # honest behavior - a confirm that cannot be recorded is not a
+            # confirm.
+            res = self._base(sid, "command")
+            res.update(ok=False, action=text,
+                       reply="no confirm ledger composed on this host - "
+                             "consequential voice commands are unavailable; "
+                             "nothing was run",
+                       spoken="I cannot confirm commands here.")
+            res["error"] = "NO_CONFIRM_LEDGER"
+            return self._finish(sid, res)
+
+        settled = self._consume_or_issue(sid, text, confirm_id)
+        if settled.get("consumed"):
             # confirmed: NOW it goes to the commander
             res = self._base(sid, "command")
             res["action"] = text
@@ -352,56 +466,51 @@ class VoiceMode:
             res["spoken"] = f"Done. {verb} executed."
             return self._finish(sid, res)
 
-        # not confirmed (no token, or a stale/wrong one): describe, stage, WAIT.
+        # not confirmed: describe, stage, WAIT - with the fresh nonce.
+        nonce, why = settled["nonce"], settled["why"]
         res = self._base(sid, "command")
-        res.update(needs_confirm=True, confirm_id=token, action=text)
+        res.update(needs_confirm=True, confirm_id=nonce, action=text)
         stale = ""
         if confirm_id is not None:
-            stale = ("(the confirm id given did not match this utterance - "
-                     "treating as a fresh request, nothing was run) ")
+            stale = (f"(the confirm id given did not match this utterance - "
+                     f"{why}; treating as a fresh request, nothing was run) ")
         res["reply"] = (f"{stale}This changes state and was NOT run. "
                         f"Heard: \"{text}\". To execute, repeat the request "
-                        f"with confirm_id {token}.")
+                        f"with confirm_id {nonce} within {CONFIRM_TTL:.0f}s.")
         res["spoken"] = f"Confirm to run: {text}."
         return self._finish(sid, res)
 
     def _destructive(self, sid: str, text: str) -> dict:
-        """Route the utterance to the commander so its FORBIDDEN fence refuses
-        it and ledgers COMMAND_REFUSED by the existing path - then SURFACE that
-        refusal. VoiceMode never executes these, and adds nothing they could
-        reach."""
+        """LOCAL refusal, no dispatch (defense in depth, 2026-08-23): a
+        destructive verb is refused RIGHT HERE - it is never sent to the
+        commander on the hope that its FORBIDDEN fence catches it. The
+        commander's fence still exists behind this one; two independent fences
+        beat one relied-upon fence. The refusal is ledgered in the commander's
+        own vocabulary (COMMAND_REFUSED, via='voice') so the audit trail stays
+        one trail."""
         res = self._base(sid, "refused")
         res.update(ok=False, refused=True, action=text)
-        try:
-            self._commander.handle(text)
-        except Exception as e:                                        # noqa: BLE001
-            kind = getattr(e, "kind", None)
-            if kind is None:
-                raise
-            res["reply"] = f"[{kind}] {e}"
-            res["spoken"] = ("Refused. Destructive commands are never "
-                             "available by voice.")
-            res["error"] = kind
-            return self._finish(sid, res)
-        # A commander that RAN a destructive verb is a broken fence. Say so
-        # loudly instead of pretending a refusal happened - an overstated
-        # guarantee is worse than a modest one.
-        res["reply"] = ("ANOMALY: the commander did not refuse a destructive "
-                        "verb - the FORBIDDEN fence must be checked. Nothing "
-                        "further was done here.")
-        res["spoken"] = "Refused, but the command fence needs checking."
-        res["error"] = "FENCE_ANOMALY"
+        if self._ledger is not None:
+            self._ledger.append("COMMAND_REFUSED",
+                                {"text": text[:200], "ok": False,
+                                 "via": "voice"})
+        res["reply"] = ("[REFUSED] destructive verbs are not exposed to the "
+                        "voice seam by design (never-delete canon) - refused "
+                        "locally, nothing was dispatched")
+        res["spoken"] = ("Refused. Destructive commands are never "
+                        "available by voice.")
+        res["error"] = "REFUSED"
         return self._finish(sid, res)
 
     # ---------------- dictation ----------------
-    def _dictation(self, sid: str, text: str) -> dict:
-        """Anything outside the grammar is CONTENT, not a command. It is
-        appended as a note turn (mode='note') - captured verbatim, never
-        approximated into an action (never-guess: a router that guesses intent
-        is a router that acts on misheard speech)."""
-        seq = self._convo.append_turn(sid, "user", text, mode="note")
+    def _dictation(self, sid: str, text: str, turn_seq: int) -> dict:
+        """Anything outside the grammar is CONTENT, not a command. handle()
+        already recorded it as the ONE note turn (mode='note') - this method
+        only acknowledges; it appends NOTHING (the double-record defect was
+        exactly a second append here). Never approximated into an action
+        (never-guess: a router that guesses intent acts on misheard speech)."""
         res = self._base(sid, "dictation")
         res["action"] = "note"
-        res["reply"] = f"noted (turn {seq}): \"{text}\""
+        res["reply"] = f"noted (turn {turn_seq}): \"{text}\""
         res["spoken"] = "Noted."
         return self._finish(sid, res)
