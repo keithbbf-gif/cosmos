@@ -96,7 +96,7 @@ def inspect_mobile(html: str) -> dict:
         "endpoints": {p: (p in html) for p in
                       ("/api/v1/status", "/api/v1/jobs", "/api/v1/health",
                        "/api/v1/spend", "/api/v1/events?since_seq=",
-                       "/api/v1/command")},
+                       "/api/v1/voice")},
         "bearer": '"Authorization":"Bearer "+cfg.token' in html,
         "sr_detect": ("window.SpeechRecognition || window.webkitSpeechRecognition"
                       in html),
@@ -170,9 +170,9 @@ def main() -> int:
     check("consumes GET /api/v1/spend", lambda: info["endpoints"]["/api/v1/spend"])
     check("polls GET /api/v1/events?since_seq= (append-only cursor)",
           lambda: info["endpoints"]["/api/v1/events?since_seq="])
-    check("POSTs to /api/v1/command (the voice seam)",
-          lambda: info["endpoints"]["/api/v1/command"]
-          and 'apiPost("/api/v1/command",{text:text})' in html)
+    check("POSTs to /api/v1/voice (the session-continuous voice seam)",
+          lambda: info["endpoints"]["/api/v1/voice"]
+          and 'apiPost("/api/v1/voice", body)' in html)
     check("every request carries Authorization: Bearer <token>",
           lambda: info["bearer"])
     check("mic is feature-detected (SpeechRecognition || webkitSpeechRecognition)",
@@ -207,10 +207,10 @@ def main() -> int:
           lambda: not re.search(r"\blocalStorage\s*[.\[]", html)
           and not re.search(r"\bsessionStorage\s*[.\[]", html)
           and "document.cookie" not in html)
-    check("NO destructive endpoint call (no DELETE/PUT; only POST is /command)",
+    check("NO destructive endpoint call (no DELETE/PUT; only POST is /voice)",
           lambda: not re.search(r"method\s*:\s*['\"](DELETE|PUT)['\"]", html)
           and re.findall(r'apiPost\("(/api/v1/[^"]*)"', html)
-          == ["/api/v1/command"])
+          == ["/api/v1/voice"])
 
     # planted page defects (the real file is never rewritten)
     planted_cdn = html.replace(

@@ -273,6 +273,20 @@
   function apiGet(p){ return apiCall(p); }
   function apiPost(p, body){ return apiCall(p, {method:"POST", body:body}); }
 
+  // ---------- voice session: the sid IS the continuity ----------
+  // Minted server-side on the first /api/v1/voice call, carried in this JS
+  // variable for the page's lifetime (same non-persistence rule as the token:
+  // nothing parked in localStorage). Reconnect resumes server-side history.
+  var voiceSid = null;
+  var pendingConfirm = null;  // {transcript, confirm_id} staged by needs_confirm
+  function speak(s){
+    try{
+      if(s && window.speechSynthesis){
+        window.speechSynthesis.speak(new SpeechSynthesisUtterance(String(s)));
+      }
+    }catch(_){}
+  }
+
   // ---------- command console: sent text AND result, always visible ----------
   function addConsole(cls, kind, head, body){
     consoleEntries.push({tsMs:Date.now(), cls:cls, kind:kind, head:head, body:body});
@@ -297,12 +311,29 @@
       return;
     }
     addConsole("cmd","","> "+text,null);
-    apiPost("/api/v1/command",{text:text}).then(function(d){
+    var body = {transcript:text, mode:"voice"};
+    if(voiceSid) body.session_id = voiceSid;
+    if(pendingConfirm && text===pendingConfirm.transcript){
+      body.confirm_id = pendingConfirm.confirm_id;  // second SEND = confirmation
+    }
+    apiPost("/api/v1/voice", body).then(function(d){
       var pretty = JSON.stringify(d, null, 1);
+      if(d && d.session_id) voiceSid = d.session_id;   // carry the session
       if(d && d.error!==undefined && d.error!==null){
-        addConsole("err","REFUSED", String(d.error), pretty);   // refusal is shown, loudly
+        pendingConfirm = null;
+        addConsole("err","REFUSED", String(d.error), pretty);
+      }else if(d && d.needs_confirm){
+        // staged, NOT run: re-stage the text so one more SEND confirms it
+        pendingConfirm = {transcript:text, confirm_id:d.confirm_id};
+        $("cmdInput").value = text;
+        addConsole("heard","CONFIRM?",
+                   (d.reply||"")+"  — tap SEND again to confirm", null);
+        speak(d.spoken);
       }else{
-        addConsole("ok","OK", null, pretty);
+        pendingConfirm = null;
+        addConsole(d && d.refused ? "err" : "ok", d && d.refused ? "REFUSED" : "OK",
+                   (d && d.spoken) || null, pretty);
+        speak(d && d.spoken);
       }
     }).catch(function(e){
       addConsole("err","TRANSPORT", e.message || String(e), null);

@@ -299,6 +299,39 @@ def make_handler(kernel: Kernel, token: str):
         def do_POST(self):                                            # noqa: N802
             if not self._authed():
                 return self._send(401, {"error": "UNAUTHORIZED"})
+            if self.path == "/api/v1/voice":
+                # VOICE MODE: session-continuous voice seam. Body:
+                #   {transcript, session_id?, mode?, confirm_id?}
+                # No session_id -> a session is minted and returned; the client
+                # carries the sid (the sid, not the handset, holds the
+                # conversation). Consequential transcripts come back
+                # needs_confirm+confirm_id - NEVER executed silently.
+                from cosmos_command import Commander
+                from cosmos_convo import ConvoStore, ConvoError
+                from cosmos_voice import VoiceMode, VoiceError
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                    convo = ConvoStore(kernel.ledger, clock=kernel._clock)
+                    vm = VoiceMode(convo, Commander(kernel),
+                                   getattr(kernel, "itc", None),
+                                   clock=kernel._clock)
+                    sid = d.get("session_id")
+                    if not sid:
+                        sid = convo.create_session(
+                            str(d.get("title") or "voice session"))
+                    return self._send(200, vm.handle(
+                        sid, str(d.get("transcript") or ""),
+                        mode=str(d.get("mode") or "voice"),
+                        confirm_id=d.get("confirm_id")))
+                except (VoiceError, ConvoError) as e:
+                    return self._send(400, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
             if self.path == "/api/v1/command":
                 # the voice/frontend seam, served: text in, kernel action out
                 from cosmos_command import Commander, CommandError

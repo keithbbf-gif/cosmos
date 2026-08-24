@@ -112,6 +112,21 @@ class Kernel:
         # catalog from the ledger and never reseeds); a writing kernel seeds the
         # TOML catalog through add(), which is idempotent per id.
         self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
+        # Durable conversational sessions + the ITC/corpus resource broker.
+        # Construction is a read (a projection over the ledger) - safe in a
+        # read-only kernel; neither writes on construct. ITC's fetcher is the
+        # native https reader, injected here so the module stays testable with a
+        # fake elsewhere; it is only CALLED on an explicit refresh().
+        from cosmos_convo import ConvoStore
+        from cosmos_itc import ITC
+
+        def _https_get(url: str) -> str:
+            import urllib.request
+            with urllib.request.urlopen(url, timeout=30) as r:      # noqa: S310
+                return r.read().decode("utf-8", "replace")
+
+        self.convo = ConvoStore(self.ledger, clock=clock)
+        self.itc = ITC(self.ledger, fetcher=_https_get, clock=clock)
         self.ready = True
 
     def open_session(self, session_id: str, stream: str):
