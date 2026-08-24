@@ -341,8 +341,41 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     principal = ("bearer:" + _hashlib.sha256(
                         token.encode("utf-8")).hexdigest()[:16])
                     convo = ConvoStore(kernel.ledger, clock=kernel._clock)
+                    # ASK: compose the asker OVER the spend gate. VoiceMode never
+                    # spends - the money decision lives HERE (guarded_call: reserve
+                    # -> deny-or-call -> settle). Incumbents/gate absent -> asker
+                    # stays None and 'ask' refuses in-band (ASK_UNAVAILABLE).
+                    asker = None
+                    _spend = getattr(kernel, "spend", None)
+                    if _spend is not None:
+                        try:
+                            from cosmos_node_rails import NodeRail
+                            _ASK_RAILS = {
+                                "grok":   ("sgh-api", "bts_sgh", 0.02, 10.0),
+                                "gemini": ("gem-api", "bts_gem", 0.03, 300.0),
+                                "openai": ("oa-api", "bts_oa_api", 0.05, 5.0),
+                            }
+
+                            def asker(question, model=None):
+                                link, mod, est, budget = _ASK_RAILS.get(
+                                    model or "grok", _ASK_RAILS["grok"])
+                                if link not in _spend.audit()["rails"]:
+                                    _spend.set_budget(link, budget)
+                                rail = NodeRail(mod, metered_usd=est)
+                                r = _spend.guarded_call(
+                                    link, est,
+                                    lambda: rail.dispatch({"prompt": question}))
+                                if not r.get("ok"):
+                                    return {"ok": False, "error": r.get("kind"),
+                                            "detail": r.get("detail")}
+                                return {"text": r.get("text", ""),
+                                        "model": r.get("node", mod),
+                                        "usd": r.get("usd")}
+                        except Exception:                             # noqa: BLE001
+                            asker = None
                     vm = VoiceMode(convo, Commander(kernel),
                                    getattr(kernel, "itc", None),
+                                   asker=asker,
                                    clock=kernel._clock)
                     sid = d.get("session_id")
                     if not sid:
@@ -605,7 +638,8 @@ class Service:
 
     def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
                  tls: bool = False, cert_file: str | None = None,
-                 key_file: str | None = None, open_access: bool = False):
+                 key_file: str | None = None, open_access: bool = False,
+                 insecure_http: bool = False):
         remote = _is_remote_bind(host)
         self.open_access = open_access
         if open_access:
@@ -653,11 +687,14 @@ class Service:
                 self.scheme = "https"
                 self.cert_source = "self-signed"
             # else: stayed http; self.scheme records the honest truth
-        if remote and self.scheme != "https":
+        if remote and self.scheme != "https" and not insecure_http:
             # A non-loopback bind over cleartext HTTP serves the bearer token to
             # any LAN observer on every request - capture and replay. The honest
             # HTTP fallback is for LOOPBACK only; remotely it is an open door,
             # so the service refuses to start rather than start downgraded.
+            # insecure_http (TRIAL, reversible): Keith's explicit opt-in to serve
+            # plain HTTP on a private LAN - paired with --no-auth (no token to leak)
+            # and a Chrome insecure-origin flag, to test the mic without a cert.
             self.httpd.server_close()
             raise ServiceError(
                 "REMOTE_CLEARTEXT",

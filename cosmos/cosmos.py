@@ -54,6 +54,10 @@ def main() -> int:
     p.add_argument("--no-auth", action="store_true",
                    help="DISABLE bearer auth for the trial (reversible); the "
                         "tailnet/LAN is the access control meanwhile")
+    p.add_argument("--insecure-http", action="store_true",
+                   help="TRIAL (reversible): allow a remote/LAN bind over plain HTTP "
+                        "(no TLS). Pair with --no-auth + a Chrome insecure-origin flag "
+                        "to test the mic without a cert on a private LAN")
     p_sess = sub.add_parser("session",
                             help="TidyUP close / BootUP start (session lifecycle)")
     sess_sub = p_sess.add_subparsers(dest="session_cmd", required=True)
@@ -108,7 +112,7 @@ def main() -> int:
         host = "0.0.0.0" if a.remote else "127.0.0.1"
         svc = Service(k, host=host, port=a.port, tls=a.tls,
                       cert_file=a.cert, key_file=a.key,
-                      open_access=a.no_auth)
+                      open_access=a.no_auth, insecure_http=a.insecure_http)
         remote_note = ("REMOTE - LAN clients use this machine's IP; "
                        if a.remote else "")
         if svc.scheme == "https":

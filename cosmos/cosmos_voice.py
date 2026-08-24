@@ -56,6 +56,14 @@ CLASSIFICATION (first word, case-insensitive, EXACT - the misheard-word rule):
     status audit jobs health spend rails makers events help
                            -> READ-ONLY commander verbs: auto-run.
     submit | session       -> CONSEQUENTIAL: confirm flow (above).
+    ask [<model>] <question>
+                           -> ASK a mesh model via the INJECTED asker (a
+                              callable the service composes OVER the spend
+                              gate). "ask grok <q>" routes by alias; an
+                              unknown second word is question text, never a
+                              guessed route. asker=None refuses IN-BAND
+                              (ASK_UNAVAILABLE), mirroring itc=None. See the
+                              spend-safety note at _ask().
     delete/remove/rm/...   -> the Commander's FORBIDDEN set, mirrored here for
                               a LOCAL refusal: VoiceMode refuses these itself,
                               WITHOUT dispatching (defense in depth - the
@@ -119,6 +127,16 @@ CONSEQUENTIAL_VERBS = {"submit", "session"}
 SEARCH_VERBS = {"search", "find"}
 OPEN_VERB = "open"
 
+# The ASK verb: "ask <question>" / "ask <model> <question>". Classified after
+# every existing verb (a plain "status" is still the command) and BEFORE
+# dictation, so a question becomes an answer, not a note.
+ASK_VERB = "ask"
+# Spoken aliases a voice client may produce -> canonical model names the
+# injected asker receives. sgh IS the Grok rail; gpt and openai are one node.
+MODEL_ALIASES = {"grok": "grok", "sgh": "grok", "gemini": "gemini",
+                 "gpt": "openai", "openai": "openai"}
+SPOKEN_MAX = 320          # chars of an answer read aloud - TTS is a summary lane
+
 # MIRROR of cosmos_command.FORBIDDEN - and VoiceMode REFUSES these ITSELF,
 # before any dispatch (defense in depth, 2026-08-23). The commander's fence
 # still stands behind this one, but a destructive verb is never SENT anywhere
@@ -164,16 +182,38 @@ def _digest(obj) -> str:
     return s if len(s) <= _DIGEST_MAX else s[:_DIGEST_MAX] + "..."
 
 
+def _spoken(answer: str) -> str:
+    """The TTS form of an answer: the answer itself, whitespace-collapsed and
+    trimmed to a sane spoken length. A cut ends at a word boundary with an
+    audible ellipsis - never mid-word, never a different answer."""
+    flat = " ".join(answer.split())
+    if len(flat) <= SPOKEN_MAX:
+        return flat
+    cut = flat[:SPOKEN_MAX]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut + " ..."
+
+
 class VoiceMode:
     """Transcript in -> classified, confirmed, ledgered interaction out.
     Stateless between calls: the ConvoStore (ledger projection) holds the
     conversation; the confirm nonces live in the ledger, not in this object -
     a VoiceMode constructed fresh per request loses nothing."""
 
-    def __init__(self, convo, commander, itc, clock=time.time, ledger=None):
+    def __init__(self, convo, commander, itc, asker=None, clock=time.time,
+                 ledger=None):
         self._convo = convo
         self._commander = commander
         self._itc = itc
+        # asker: callable(question: str, model: str|None) -> {text, model, usd}
+        # - the ONE seam through which voice reaches a paid mesh model. The
+        # service composes it over SpendGate.guarded_call; None means "not
+        # composed on this host" and 'ask' refuses in-band (ASK_UNAVAILABLE),
+        # exactly as itc=None does for search/open. cosmos_kernel is
+        # deliberately NOT imported here - injection keeps this module
+        # loadable and testable where the kernel cannot go.
+        self._asker = asker
         self._clock = clock
         # the confirm-nonce chain: the convo's own authority ledger unless the
         # composer supplies a different one explicitly.
@@ -205,7 +245,8 @@ class VoiceMode:
         is_dictation = (verb not in SEARCH_VERBS and verb != OPEN_VERB
                         and verb not in DESTRUCTIVE_VERBS
                         and verb not in READ_ONLY_VERBS
-                        and verb not in CONSEQUENTIAL_VERBS)
+                        and verb not in CONSEQUENTIAL_VERBS
+                        and verb != ASK_VERB)
 
         # 2. the utterance goes on the record EXACTLY ONCE - even a refusal or
         # a misheard command is part of the conversation's history. Dictation
@@ -232,6 +273,8 @@ class VoiceMode:
             res = self._command_readonly(session_id, text, verb)
         elif verb in CONSEQUENTIAL_VERBS:
             res = self._command_consequential(session_id, text, verb, confirm_id)
+        elif verb == ASK_VERB:
+            res = self._ask(session_id, text)
         else:
             res = self._dictation(session_id, text, turn_seq)
         return res
@@ -501,6 +544,88 @@ class VoiceMode:
                         "available by voice.")
         res["error"] = "REFUSED"
         return self._finish(sid, res)
+
+    # ---------------- ask (mesh model Q&A via the injected asker) ----------
+    def _ask(self, sid: str, text: str) -> dict:
+        """SPEND SAFETY, stated so it is never re-derived wrong: 'ask' spends
+        money, and it is DELIBERATELY NOT behind the confirm nonce. The nonce
+        round-trip exists for STATE CHANGES (submit/session); an answer
+        changes no COSMOS state, and making Keith confirm every question would
+        make voice a chore. The money control lives WHERE THE MONEY MOVES:
+        the injected asker is composed OVER SpendGate.guarded_call by the
+        service (reserve -> deny-or-call -> settle), so a call the budget
+        cannot cover is DENIED before it happens and surfaces here as an
+        in-band refusal, never a silent charge. What THIS module owns:
+          (a) the question is BOUNDED - handle() refuses any transcript over
+              MAX_TRANSCRIPT before a byte is recorded, and the question is a
+              subset of the transcript, so it inherits that cap;
+          (b) the spend is AUDITABLE - the assistant turn's provenance
+              records model:<name> and usd:<amt>, so every answer names what
+              it cost (an unpriced call is UNPRICED, never zero)."""
+        res = self._base(sid, "ask")
+        parts = text.split(None, 1)
+        rest = parts[1].strip() if len(parts) > 1 else ""
+        # model routing: a KNOWN alias as the second word selects the model;
+        # any other word is question text (never-guess: an unknown word is
+        # content, not an approximated route).
+        model = None
+        question = rest
+        if rest:
+            head = rest.split(None, 1)
+            if head[0].lower() in MODEL_ALIASES:
+                model = MODEL_ALIASES[head[0].lower()]
+                question = head[1].strip() if len(head) > 1 else ""
+        res["action"] = f"ask({question!r}, model={model!r})"
+        if not question:
+            res.update(ok=False,
+                       reply="ask needs a question - say 'ask <question>' or "
+                             "'ask <model> <question>'",
+                       spoken="What should I ask?")
+            return self._finish(sid, res)
+        if self._asker is None:
+            # not composed -> refuse IN-BAND, mirroring itc=None: an absent
+            # capability is an honest refusal, never a crash and NEVER a
+            # fabricated answer.
+            res.update(ok=False, refused=True, kind="refused",
+                       reply="[ASK_UNAVAILABLE] no asker composed on this "
+                             "host - model questions are unavailable; "
+                             "nothing was asked, nothing was spent",
+                       spoken="Ask is not available here.")
+            res["error"] = "ASK_UNAVAILABLE"
+            return self._finish(sid, res)
+        try:
+            out = self._asker(question, model)
+        except Exception as e:                                        # noqa: BLE001
+            # a raising asker (spend DENIED, rail unreachable, timeout) is an
+            # in-band refusal CARRYING THE REASON - never a fake answer.
+            kind = getattr(e, "kind", "ASK_FAILED")
+            res.update(ok=False, refused=True, kind="refused",
+                       reply=f"[{kind}] ask failed: {e}",
+                       spoken="That question could not be asked.")
+            res["error"] = kind
+            return self._finish(sid, res)
+        if not isinstance(out, dict) or out.get("ok") is False \
+                or not str(out.get("text") or "").strip():
+            # a not-ok or empty return is the same refusal: an answer that is
+            # not there is never invented.
+            detail = ""
+            if isinstance(out, dict):
+                detail = str(out.get("detail") or out.get("error") or "")[:200]
+            res.update(ok=False, refused=True, kind="refused",
+                       reply="[ASK_FAILED] the model returned no usable "
+                             "answer" + ((" - " + detail) if detail else ""),
+                       spoken="No answer came back.")
+            res["error"] = "ASK_FAILED"
+            return self._finish(sid, res)
+        answer = str(out["text"]).strip()
+        name = str(out.get("model") or model or "default")
+        usd = out.get("usd")
+        usd_s = "unpriced" if usd is None else f"{float(usd):.6f}"
+        source_strs = [f"model:{name}", f"usd:{usd_s}"]
+        res["sources"] = source_strs
+        res["reply"] = answer
+        res["spoken"] = _spoken(answer)
+        return self._finish(sid, res, source_strs)
 
     # ---------------- dictation ----------------
     def _dictation(self, sid: str, text: str, turn_seq: int) -> dict:

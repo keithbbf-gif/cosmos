@@ -35,7 +35,7 @@ from cosmos_ledger import Ledger
 from cosmos_convo import ConvoStore
 from cosmos_itc import ITC
 from cosmos_voice import (VoiceMode, VoiceError, CONFIRM_TTL, MAX_TRANSCRIPT,
-                          EV_CONFIRM_ISSUED, EV_CONFIRM_CONSUMED)
+                          SPOKEN_MAX, EV_CONFIRM_ISSUED, EV_CONFIRM_CONSUMED)
 
 RESULTS = []
 
@@ -110,6 +110,23 @@ class FakeCommander:
             out = {"ok": True, "verb": verb}
         self.executed.append(text)
         return out
+
+
+class FakeAsker:
+    """Records every (question, model) call; returns a canned answer dict.
+    Never touches a network or a wallet - the seam under test is VoiceMode's
+    routing, refusal honesty, and provenance recording."""
+
+    def __init__(self, text="The UPS work function here is 4.36 eV.",
+                 usd=0.0123):
+        self.calls = []
+        self.text = text
+        self.usd = usd
+
+    def __call__(self, question, model=None):
+        self.calls.append((question, model))
+        return {"text": self.text, "model": model or "grok-4.5",
+                "usd": self.usd}
 
 
 CSV = (
@@ -332,6 +349,93 @@ def main() -> int:
           lambda: (len(confirm_events(EV_CONFIRM_ISSUED)),
                    len(confirm_events(EV_CONFIRM_CONSUMED))) == (8, 2))
 
+    # ===== ASK: injected asker - routing, provenance, honest refusals =====
+    fa = FakeAsker()
+    va = VoiceMode(convo, cmd, itc, asker=fa, clock=clock)
+    sida = convo.create_session("ask session")
+    n_cmd = len(cmd.calls)
+    rA = va.handle(sida, "ask what is the ups work function")
+    check("'ask <q>' -> kind=ask, ok, the model's ANSWER is the reply",
+          lambda: rA["ok"] and rA["kind"] == "ask" and rA["reply"] == fa.text
+          and not rA["needs_confirm"] and not rA["refused"])
+    check("...routed to the asker ONCE, question intact, DEFAULT model (None)",
+          lambda: fa.calls == [("what is the ups work function", None)])
+    check("...spoken is the answer in TTS form (nonempty, bounded)",
+          lambda: rA["spoken"].startswith("The UPS work function")
+          and 0 < len(rA["spoken"]) <= SPOKEN_MAX + 4)
+    check("...provenance names the model AND the spend (auditable turn)",
+          lambda: rA["sources"] == ["model:grok-4.5", "usd:0.012300"])
+    check("...both turns recorded: user utterance + assistant answer w/ sources",
+          lambda: (lambda s: [t["role"] for t in s["turns"]]
+                   == ["user", "assistant"]
+                   and s["turns"][1]["text"] == fa.text
+                   and "model:grok-4.5" in s["sources"]
+                   and "usd:0.012300" in s["sources"])
+          (convo.get_session(sida)))
+    check("...ask is NOT a command: the commander was never involved, and no "
+          "confirm nonce was minted (spend gating lives in the asker)",
+          lambda: len(cmd.calls) == n_cmd and rA["confirm_id"] is None)
+
+    va.handle(sida, "ask grok is xps surface sensitive")
+    check("'ask grok <q>' selects grok; the alias is stripped from the question",
+          lambda: fa.calls[-1] == ("is xps surface sensitive", "grok"))
+    va.handle(sida, "ask gpt summarize chapter four")
+    check("'ask gpt <q>' routes to canonical 'openai'",
+          lambda: fa.calls[-1] == ("summarize chapter four", "openai"))
+    va.handle(sida, "ask sgh what is on x today")
+    check("'ask sgh <q>' routes to grok (sgh IS the Grok rail)",
+          lambda: fa.calls[-1] == ("what is on x today", "grok"))
+    rB3 = va.handle(sida, "ask about the beamline schedule")
+    check("an unknown 2nd word is QUESTION TEXT, not a guessed model route",
+          lambda: rB3["ok"]
+          and fa.calls[-1] == ("about the beamline schedule", None))
+
+    nq = len(fa.calls)
+    rB4 = va.handle(sida, "ask")
+    check("'ask' with no question -> in-band prompt, asker NOT called (no spend)",
+          lambda: (not rB4["ok"]) and len(fa.calls) == nq)
+
+    # asker=None -> refused IN-BAND, mirroring itc=None; nothing fabricated
+    v_none = VoiceMode(convo, cmd, itc, asker=None, clock=clock)
+    rC = v_none.handle(sida, "ask what is the meaning of life")
+    check("asker=None -> kind=refused, ASK_UNAVAILABLE, never a crash",
+          lambda: rC["kind"] == "refused" and rC["refused"] and not rC["ok"]
+          and rC.get("error") == "ASK_UNAVAILABLE"
+          and "nothing was spent" in rC["reply"])
+    check("...and NO assistant turn carries a fabricated answer",
+          lambda: all("meaning of life" not in t["text"]
+                      for t in convo.get_session(sida)["turns"]
+                      if t["role"] == "assistant"))
+
+    # a RAISING asker (the spend gate saying DENIED) -> in-band, reason kept
+    class DeniedError(RuntimeError):
+        kind = "DENIED"
+
+    def deny(question, model=None):
+        raise DeniedError("worst case would pass the cap")
+    v_deny = VoiceMode(convo, cmd, itc, asker=deny, clock=clock)
+    rD = v_deny.handle(sida, "ask an expensive question")
+    check("a RAISING asker (spend DENIED) -> in-band refusal CARRYING the kind",
+          lambda: rD["kind"] == "refused" and not rD["ok"]
+          and rD.get("error") == "DENIED" and "DENIED" in rD["reply"])
+    check("...the recorded assistant turn is the refusal, not a fake answer",
+          lambda: convo.get_session(sida)["turns"][-1]["text"]
+          .startswith("[DENIED]"))
+
+    # a not-ok return is the same refusal - an absent answer is never invented
+    v_notok = VoiceMode(convo, cmd, itc,
+                        asker=lambda q, m=None: {"ok": False,
+                                                 "detail": "rail unreachable"},
+                        clock=clock)
+    rE = v_notok.handle(sida, "ask anything at all")
+    check("a not-ok asker return -> refused ASK_FAILED with the detail",
+          lambda: rE["kind"] == "refused" and rE.get("error") == "ASK_FAILED"
+          and "rail unreachable" in rE["reply"])
+
+    # the question inherits the MAX_TRANSCRIPT cap at the door
+    expect("oversized ask -> BAD_INPUT (the transcript cap bounds the question)",
+           "BAD_INPUT", lambda: va.handle(sida, "ask " + "x" * MAX_TRANSCRIPT))
+
     # ===== typed refusals: BAD_INPUT and NO_SESSION =====
     n_all = convo.get_session(sid)["turn_count"]
     expect("empty transcript -> BAD_INPUT (typed, before anything is recorded)",
@@ -357,7 +461,8 @@ def main() -> int:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))
     print("SELFTEST %s - %d checks (voice is session-continuous; confirm is a "
-          "ledger-backed single-use nonce; destructive verbs never dispatch)"
+          "ledger-backed single-use nonce; destructive verbs never dispatch; "
+          "ask is injected, spend-audited, and refuses honestly)"
           % ("PASS" if not bad else "FAIL", len(RESULTS)))
     return 0 if not bad else 1
 
