@@ -97,7 +97,7 @@ def inspect_mobile(html: str) -> dict:
                       ("/api/v1/status", "/api/v1/jobs", "/api/v1/health",
                        "/api/v1/spend", "/api/v1/events?since_seq=",
                        "/api/v1/voice")},
-        "bearer": '"Authorization":"Bearer "+cfg.token' in html,
+        "bearer": ('Bearer " + cfg.token' in html and "if(cfg.token)" in html),
         "sr_detect": ("window.SpeechRecognition || window.webkitSpeechRecognition"
                       in html),
         "sr_graceful": "voice unavailable" in html,

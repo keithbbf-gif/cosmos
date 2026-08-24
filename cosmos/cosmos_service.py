@@ -80,7 +80,7 @@ _STATIC_ROUTES = {
 
 
 class ServiceError(RuntimeError):
-    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT}."""
+    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT, CERT_NOT_FOUND}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -140,7 +140,7 @@ def _crucible_dispatchers(kernel, names) -> dict | None:
     return out or None
 
 
-def make_handler(kernel: Kernel, token: str):
+def make_handler(kernel: Kernel, token: str, open_access: bool = False):
     class Handler(BaseHTTPRequestHandler):
         server_version = "COSMOS/1.0"
 
@@ -153,6 +153,11 @@ def make_handler(kernel: Kernel, token: str):
             self.wfile.write(body)
 
         def _authed(self) -> bool:
+            # open_access: bearer auth DISABLED for the trial (Keith's call, fully
+            # reversible by dropping --no-auth). The tailnet/LAN is the access
+            # control meanwhile.
+            if open_access:
+                return True
             # Constant-time compare: == short-circuits on the first differing
             # byte, which leaks token prefixes to a timing observer.
             got = self.headers.get("Authorization", "")
@@ -599,13 +604,46 @@ class Service:
     cert for internet exposure is a later cutover step."""
 
     def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
-                 tls: bool = False):
+                 tls: bool = False, cert_file: str | None = None,
+                 key_file: str | None = None, open_access: bool = False):
         remote = _is_remote_bind(host)
-        tok_file = kernel.paths.config("api_token.txt")
-        self.token = _load_api_token(tok_file, remote=remote)
-        self.httpd = ThreadingHTTPServer((host, port), make_handler(kernel, self.token))
+        self.open_access = open_access
+        if open_access:
+            # bearer auth disabled (trial). No token minted/loaded; the network
+            # (Tailscale/LAN) is the access control. Reversible: drop --no-auth.
+            self.token = ""
+        else:
+            tok_file = kernel.paths.config("api_token.txt")
+            self.token = _load_api_token(tok_file, remote=remote)
+        self.httpd = ThreadingHTTPServer((host, port),
+                                         make_handler(kernel, self.token, open_access))
         self.scheme = "http"
-        if tls:
+        self.cert_source = None
+        if cert_file or key_file:
+            # A provided pair IS the TLS instruction: use it, do not self-sign.
+            from pathlib import Path as _P
+            problems = []
+            if not (cert_file and key_file):
+                problems.append("cert_file and key_file must BOTH be given - half a "
+                                "pair cannot serve TLS")
+            else:
+                for label, pth in (("cert_file", cert_file), ("key_file", key_file)):
+                    if not _P(pth).is_file():
+                        problems.append(f"{label} does not exist: {pth}")
+            if problems:
+                self.httpd.server_close()
+                raise ServiceError("CERT_NOT_FOUND", "; ".join(problems))
+            import ssl
+            ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+            try:
+                ctx.load_cert_chain(certfile=cert_file, keyfile=key_file)
+            except Exception:
+                self.httpd.server_close()
+                raise
+            self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+            self.scheme = "https"
+            self.cert_source = "provided"
+        elif tls:
             pair = _ensure_cert(kernel, host)
             if pair:
                 import ssl
@@ -613,6 +651,7 @@ class Service:
                 ctx.load_cert_chain(certfile=pair[0], keyfile=pair[1])
                 self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
                 self.scheme = "https"
+                self.cert_source = "self-signed"
             # else: stayed http; self.scheme records the honest truth
         if remote and self.scheme != "https":
             # A non-loopback bind over cleartext HTTP serves the bearer token to
