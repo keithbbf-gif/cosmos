@@ -112,7 +112,8 @@ def main() -> int:
                    "verify_pointers", "verify_conf", "mesh_fanout", "bts_sgh",
                    "bts_gem", "bts_gw", "bts_oa_api", "bts_cursor", "bts_bus",
                    "bts_node", "bts_dymon", "bts_watchdog", "bts_poller",
-                   "bts_identity", "bts_spend", "bts_cop", "bts_policy"}
+                   "bts_identity", "bts_spend", "bts_cop", "bts_policy",
+                   "bts_gemini_cli"}
           <= set(PORT_DECISIONS))
 
     # ================= APPLIED STATE MATCHES THE PLAN =================

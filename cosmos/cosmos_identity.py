@@ -12,6 +12,9 @@ could answer to resolves to the wrong node (Keith assigns; nobody guesses).
 from __future__ import annotations
 
 MESH_ID = "KMesh"
+# The live install identity. Quoted by work-orders and audits; NEVER restamped
+# onto a sentinel (re-identifying a live root is a hijack, not an install).
+LIVE_TREE_ID = "KMesh-COSMOS-live"
 OWNER = "Keith"
 
 PEERS = {

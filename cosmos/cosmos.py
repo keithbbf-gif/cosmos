@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """cosmos - the CLI entry point (F5 builder). Install / boot / status / submit / audit /
-backup / rehearse / serve / session. Refuses unknown flags. This is what a peer runs on a cold
+backup / rehearse / serve / session / wo. Refuses unknown flags. This is what a peer runs on a cold
 machine after cloning the repo.
 
     py -3.14 cosmos.py install --root D:\\Ai\\Cosmos --tree-id JMesh-1
@@ -13,6 +13,8 @@ machine after cloning the repo.
     py -3.14 cosmos.py serve   --root ... --port 8770
     py -3.14 cosmos.py session close --root D:\\Ai\\Cosmos
     py -3.14 cosmos.py session start pb --root D:\\Ai\\Cosmos
+    py -3.14 cosmos.py wo drop --root ... --family Google --agent Flash --task prove --prompt PONG
+    py -3.14 cosmos.py wo run  --root ...
 """
 from __future__ import annotations
 
@@ -69,6 +71,20 @@ def main() -> int:
     p_start = sess_sub.add_parser("start", help="BootUP: read SEED, inject, open Session")
     p_start.add_argument("stream")
     p_start.add_argument("--root", required=True)
+    p_wo = sub.add_parser("wo",
+                          help="drop / run a typed work-order (Google family)")
+    wo_sub = p_wo.add_subparsers(dest="wo_cmd", required=True)
+    p_drop = wo_sub.add_parser("drop", help="write an immutable order.json")
+    p_drop.add_argument("--root", required=True)
+    p_drop.add_argument("--family", default="Google")
+    p_drop.add_argument("--agent", default="Flash")
+    p_drop.add_argument("--task", default="prove",
+                        help="search | prove | ping")
+    p_drop.add_argument("--prompt", required=True)
+    p_drop.add_argument("--nonce", default=None)
+    p_run = wo_sub.add_parser("run", help="run one work-order or drain pending")
+    p_run.add_argument("--root", required=True)
+    p_run.add_argument("--id", default=None, help="wo_id; omit to drain pending")
 
     a = ap.parse_args()
 
@@ -141,6 +157,27 @@ def main() -> int:
                 print(json.dumps(ctx, indent=1))
                 return 0
         except (SessionError, ContextError) as e:
+            print(e, file=sys.stderr)
+            return 2
+        return 2
+    if a.cmd == "wo":
+        from cosmos_work_order import WorkOrderDesk, WorkOrderError
+        desk = WorkOrderDesk(k.paths, k.ledger)
+        try:
+            if a.wo_cmd == "drop":
+                order = desk.drop(a.family, a.agent, a.task, a.prompt,
+                                  nonce=a.nonce)
+                print(json.dumps(order, indent=1))
+                return 0
+            if a.wo_cmd == "run":
+                if a.id:
+                    out = desk.run(a.id)
+                    print(json.dumps(out, indent=1))
+                    return 0 if out.get("ok") else 2
+                outs = desk.drain()
+                print(json.dumps(outs, indent=1))
+                return 0 if all(o.get("ok") for o in outs) else 2
+        except WorkOrderError as e:
             print(e, file=sys.stderr)
             return 2
         return 2

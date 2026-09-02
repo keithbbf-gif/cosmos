@@ -16,7 +16,8 @@ from cosmos_platform import (PlatformError, run, run_tree_killed, write_text_lf,
 from cosmos_validate import (ValidateError, read_verified, write_declared,
                              ReturnValidator)
 from cosmos_dom import DomWorker
-from cosmos_identity import MESH_ID, PEERS, federation_ready, federation_blockers
+from cosmos_identity import (MESH_ID, LIVE_TREE_ID, PEERS, federation_ready,
+                             federation_blockers)
 from cosmos_ledger import Ledger
 
 RESULTS = []
@@ -237,6 +238,8 @@ def main() -> int:
     check("federation blockers == 5, counted FROM THE FUNCTION, not from prose",
           lambda: len(federation_blockers()) == 5)
     check("MESH_ID is KMesh", lambda: MESH_ID == "KMesh")
+    check("LIVE_TREE_ID is KMesh-COSMOS-live (quoted, never restamped)",
+          lambda: LIVE_TREE_ID == "KMesh-COSMOS-live")
     check("no peer ID starts with G (GMesh UNASSIGNED - Keith assigns, nobody guesses)",
           lambda: not any(k.startswith("G") for k in PEERS))
 

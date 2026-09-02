@@ -149,6 +149,12 @@ class Runner:
         cmd = m["command"]
         # command forms: "py:<script path>" runs a python file; anything else is argv
         # split on spaces ONLY when it is a list already serialized - keep it explicit.
+        if cmd.startswith("wo:"):
+            # WORK-ORDER form: wo:<wo_id> or wo:drain. The desk ALWAYS writes
+            # Output.json (typed kind on rail failure) - that is the measured
+            # scar (gemini.cmd died rc=41, no Output file). Never routed to
+            # gemini.cmd; Google prove/ping is gem-api / bts_gem.ask.
+            return self._run_work_order(job_id, attempt, adir, log, cmd[3:].strip())
         if cmd.startswith("py:"):
             script = Path(cmd[3:].strip())
             # STAGE-7 K4 FIX (GEM IND-002, MEASURED): `py:<path>` ran ANY script on the
@@ -198,6 +204,65 @@ class Runner:
                   "rc": r["rc"], "timed_out": r["timed_out"],
                   "elapsed_s": round(r["elapsed_s"], 2), "log": str(log)}
         (adir / "result.json").write_text(json.dumps(result, indent=1), encoding="utf-8")
+        return result
+
+    def _run_work_order(self, job_id: str, attempt: str, adir: Path,
+                        log: Path, spec: str) -> dict:
+        """Claimed wo: job: run the desk, land Output.json, word the outcome.
+
+        A rail failure is FINDINGS/BROKE WITH an Output file (typed kind), never
+        FAILED-with-missing-file. gemini.cmd is not constructible from this path.
+        """
+        from cosmos_work_order import WorkOrderDesk, WorkOrderError
+        log.write_text(f"RUNNING {job_id} attempt {attempt}\n"
+                       f"worker {self.worker}\nwo {spec}\n"
+                       f"started {time.ctime()}\n\n", encoding="utf-8")
+        try:
+            desk = getattr(self, "work_orders", None)
+            if desk is None:
+                paths = getattr(self, "paths", None)
+                ledger = getattr(self.sched, "ledger", None)
+                if paths is None or ledger is None:
+                    raise WorkOrderError(
+                        "NO_RAIL",
+                        "runner has no WorkOrderDesk and no paths+ledger to "
+                        "compose one - a work-order without a desk is not a job")
+                desk = WorkOrderDesk(paths, ledger,
+                                     gem_rail=getattr(self, "gem_rail", None),
+                                     dom_worker=getattr(self, "dom_worker", None))
+            if spec in ("", "drain"):
+                results = desk.drain()
+                payload = {"drained": [r.get("wo_id") for r in results],
+                           "outputs": results}
+                ok_all = all(r.get("ok") for r in results) if results else True
+                kind = "API" if ok_all else (results[0].get("kind") if results else "OK")
+            else:
+                payload = desk.run(spec)
+                ok_all = bool(payload.get("ok"))
+                kind = payload.get("kind") or "API"
+        except WorkOrderError as e:
+            payload = {"ok": False, "kind": e.kind, "detail": str(e)[:300]}
+            ok_all, kind = False, e.kind
+        except Exception as e:                                        # noqa: BLE001
+            payload = {"ok": False, "kind": "BROKE",
+                       "detail": f"{type(e).__name__}: {e}"[:300]}
+            ok_all, kind = False, "BROKE"
+        with open(log, "a", encoding="utf-8", newline="") as fh:
+            fh.write(json.dumps(payload, indent=1))
+            fh.write(f"\n\nok={ok_all} kind={kind}\n")
+        if ok_all:
+            outcome, detail = "CLEAN", ""
+        elif kind in ("UNREACHABLE", "SESSION_EXPIRED", "AUTH_REQUIRED",
+                      "NO_RAIL", "NOT_PERMITTED"):
+            outcome, detail = "FINDINGS", f"{kind}: rail typed failure (Output written)"
+        else:
+            outcome, detail = "BROKE", f"{kind}: {payload.get('detail', '')}"[:200]
+        self.sched.done(job_id, outcome, detail)
+        result = {"job_id": job_id, "attempt": attempt, "outcome": outcome,
+                  "ok": ok_all, "kind": kind, "log": str(log),
+                  "wo": payload}
+        (adir / "result.json").write_text(json.dumps(result, indent=1),
+                                          encoding="utf-8")
         return result
 
     def drain(self, max_jobs: int = 50) -> list[dict]:

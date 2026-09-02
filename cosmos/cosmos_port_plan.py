@@ -177,6 +177,15 @@ PORT_DECISIONS: dict[str, dict] = {
         "disposition": "ADAPTED", "successor": "cosmos_rails",
         "reason": "cosmos_rails ApiRail adapter for the Vertex/GEM link; keep-separate "
                   "from the Studio wrapper, Never Activate boundary preserved"},
+    "bts_gemini_cli": {
+        "disposition": "ABANDONED", "successor": None,
+        "reason": "MEASURED wo-20260901T205646-a7b9c233: gemini.cmd ran without COSMOS "
+                  "keys and died rc=41 Vertex env missing, no Output file. Google-family "
+                  "search/prove now routes through cosmos_work_order + cosmos_rails: "
+                  "DOM-first search (playwright-dom guest gemini.google.com + Google/Bing) "
+                  "and gem-api / bts_gem.ask for a typed ping - the rail that already "
+                  "loads the Vertex key. The Gemini CLI wrapper is not a COSMOS rail "
+                  "(successor=None: nothing absorbs the CLI contract)."},
     "bts_gw": {
         "disposition": "ADAPTED", "successor": "cosmos_rails",
         "reason": "cosmos_rails ApiRail adapter sharing the SGH ceiling; unpriced != $0 "
