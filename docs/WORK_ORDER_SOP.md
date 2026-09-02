@@ -15,7 +15,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 | **Task** | What to do. First line: read DHx + boundaries (below). |
 | **Target & scope** | What it may produce, and the fence. |
 | **Timestamp** | ISO local when you drop it (include offset). |
-| **Output** | `folder \| filename` **relative** (workspace only). No `V:\`, no `/`, no `..`. |
+| **Output** | `folder \| filename` **relative** (workspace only). No `V:\\`, no `/`, no `..`. |
 
 ```json
 {
@@ -45,7 +45,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 
 ## Where to drop (what you can reach from voice/mobile)
 
-You can write GitHub. You cannot see `V:\A\Ai\COSMOS\live` from the phone.
+You can write GitHub. You cannot see `V:\\A\\Ai\\COSMOS\\live` from the phone.
 
 **Drop here:**
 
@@ -60,20 +60,20 @@ That folder is the SGH inbox. One JSON file per order. Do not put Python, SOP re
 ## What happens after you drop
 
 1. File exists on GitHub under `work_orders/drop/`.
-2. COW files it into the desktop bucket the runner already watches: `live/state/work_orders/bucket/` (resolver path, runtime root `V:\A\Ai\COSMOS\live`).
-3. Schtask **`COSMOS Work-Order Runner`** (~15s) → `PICKED_UP` → agent runs in `live/work/orders/<id>/` (not the live tree).
-4. **DONE** = your Output file exists. **FAILED** = no Output. **COMPLETED** = COW accepted. You do not mark COMPLETED.
-5. Tree changes land only if COW disposes a proposal. Agents never commit the live tree.
+2. **System daemon** (GitHub ingest clock) reads it and files a DROPPED record into the live bucket: `live/state/work_orders/bucket/` (runtime root `V:\\A\\Ai\\COSMOS\\live`). You do not need COW for this hop.
+3. Schtask **`COSMOS Work-Order Runner`** (~15s) **creates a session of the Agent type** (Grok / Codex / Gemini from the three-part Agent field) in an attempt-private workspace. That session executes the Task. It does not write the live tree.
+4. **DONE** = Output file exists. **FAILED** = no Output.
+5. **COW orchestrates:** reads the Output, `--accept` or `--reject`, and **applies accepted proposals to the live tree**. COW does not execute the job and does not spawn the agent.
 
-A GitHub file is **not** picked up by the runner until it is in the live bucket. Do not assume instant execution.
+Do not mark COMPLETED yourself. Do not assume the GitHub file is the live tree.
 
 ## Do not
 
 - Invent `cosmos_daemon.py`, Linux cron, or a second 1-minute task.
-- Use absolute Output (`V:\…`, `/home/…`).
+- Use absolute Output (`V:\\...`, `/home/...`).
 - Name Cursor or Claude as Agent.
-- Write `V:\Ai` (GrokBot’s pen).
-- Delete anything. Propose `_delme\` if something must go.
+- Write `V:\\Ai` (GrokBot’s pen).
+- Delete anything. Propose `_delme\\` if something must go.
 - Collapse DONE into COMPLETED.
 - Dump the agent’s code into Chat. The Output file is the deliverable.
 
