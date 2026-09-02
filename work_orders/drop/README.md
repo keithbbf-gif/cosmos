@@ -3,7 +3,7 @@
 Voice / mobile / SuperGrok Chat: put **one JSON work order** per file in this folder.
 
 - Spec of the JSON: `docs/WORK_ORDER_SOP.md`
-- Filename: `wo-<stamp>.json`
+- Filename: `wo-<stamp>.json` (Windows-legal: no `:`; never `wo-…-05:00.json`)
 - Default Agent: `xAI | Grok | grok-4.6`
 - Not Cursor in Agent. Not Claude. Not a Python daemon.
 
