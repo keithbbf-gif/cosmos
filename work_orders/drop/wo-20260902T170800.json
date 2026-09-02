@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*] , docs/AGENT_BOUNDARIES.md [read*] , docs/WORK_ORDER_SOP.md [read*] , docs/ADVERSARIAL_LOOP.md [read*] , docs/CURSOR_EXEC.md [read*] , docs/WISHLIST.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: we can run GitHub agents locally and save quota (SGH). Desktop clones are already at V:\\GitHub\\{cosmos,cdeck,cdm,cosmos-android,bts-mesh}; cosmos checkout recovered at eb7c1fc. Host already has Copilot CLI (copilot.ps1 on PATH) and gh 2.97.0 (`gh copilot`). Do NOT use Copilot cloud coding agent, GitHub-hosted Actions runners, Cursor Cloud POST /v1/agents, or a colon filename. Prove the quota claim with cited GitHub docs: which meters local avoids (Actions minutes, cloud-sandbox compute) vs which still bill (Copilot AI credits unless BYOK). Propose the COSMOS dispatch recipe: noninteractive Copilot CLI against V:\\GitHub\\cosmos for a work-order Task, Output path, Verdict object per docs/VERDICT_SPEC.md, spend/session cap, how this sits next to Lane A Grok without peeking. Include exact argv and a dry-run checklist. If a Copilot seat login is required, name the open-window URL for Keith \u2014 do not invent a key.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; never write V:\\A\\Ai\\COSMOS live tree; never write V:\\Ai",
+  "Timestamp": "2026-09-02T17:08:00-05:00",
+  "Output": "proposals | github-agents-local.json"
+}
