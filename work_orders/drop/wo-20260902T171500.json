@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*] , docs/AGENT_BOUNDARIES.md [read*] , builds/cdeck/ui/index.html [read*] , builds/cdeck/ui/app.css [read*] , builds/cdeck/ui/app.js [read*] , builds/cdeck/ORCH_HOME_SPEC.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: he sees no cDeck improvements and says resize is gone. Header now has RELOAD (btnReload, cdeck-shell-v11) \u2014 do not rewind that. Native CSS resize:both is already on .home-card,.orch-code,.panel,#orch-home,#orch-east,#home-nav in app.css and panelGeom persist exists in app.js, but CSS grid/flex on the orch home swallows the native handle so it looks gone. Propose real pointer drag-handles (or equivalent) that actually change panel size on the live orch home, persist via existing panelGeom, do not fight S/M/L type size or Talk 4fr. Measure ui/ first. Extra corner-drag from wo-113100 was DONE and never applied \u2014 fold that intent, do not duplicate a second persist store.",
+  "Target & scope": "proposals under Output only; cDeck ui/ only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T17:15:00-05:00",
+  "Output": "proposals | cdeck-resize-handles.json"
+}
