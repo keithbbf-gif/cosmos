@@ -1,0 +1,93 @@
+{
+  "rail": "cursor",
+  "kind": "work-order-check",
+  "work_order": "wo-20260902T113100",
+  "work_order_file": "work_orders/drop/wo-20260902T113100-05:00.json",
+  "status": "UNMEASURED",
+  "reason": "Cursor CHECK ran, but the cited proposal Output is not reachable from this rail. SOP: a check that cannot see the Output is UNMEASURED, never invented green.",
+  "objection": "",
+  "timestamp": "2026-09-02T18:21:46Z",
+  "agent": {
+    "bcId": "bc-468a9550-3b6a-4d1c-8fa2-a50d6b362eaf",
+    "name": "Proposal ddeck-resize review",
+    "branch": "cursor/proposal-ddeck-resize-review-ef85",
+    "role": "CHECK",
+    "not": "work-order Agent"
+  },
+  "fences": {
+    "wrote_windows_live_tree": false,
+    "completed_order": false,
+    "verdict_left": "pending"
+  },
+  "proposal": {
+    "cited_live_path": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T113100\\out\\proposals\\ddeck-resize.json",
+    "order_output_field": "proposals | ddeck-resize.json",
+    "reachable_from_this_rail": false,
+    "in_github_repo": false,
+    "in_google_drive": false,
+    "in_slack": false,
+    "in_gmail": false,
+    "body_reviewed": false
+  },
+  "order_contract_measured": {
+    "task": "Runtime user-resize of D-deck panels (drag handles or equivalent); persist size where existing panel state already supports it; keep current layout semantics; add only resize + minimal plumbing.",
+    "scope": "proposals under Output only; never kernel/ledger/sched/service; touch only D-deck panel code and its direct resize helpers.",
+    "p10": "PROPOSE only. Never write the live tree.",
+    "verdict_on_drop": {
+      "status": "pending",
+      "reason": "DONE on disk. Live already has CSS resize+persist. Extra corner-drag/grid-reflow proposed; COW has not applied that plumbing yet.",
+      "timestamp": "2026-09-02T12:44:00-05:00"
+    }
+  },
+  "findings": [
+    {
+      "id": "C-01",
+      "severity": "blocking-for-this-rail",
+      "axis": "proposal-body",
+      "status": "UNMEASURED",
+      "detail": "Cited Output lives on the Windows live attempt tree. This Cloud Agent has no V: mount, no live/work/orders tree, and no copy of ddeck-resize.json in keithbbf-gif/cosmos, Drive, Slack, or Gmail. Body, patches, and file list were not read."
+    },
+    {
+      "id": "C-02",
+      "severity": "blocking-for-this-rail",
+      "axis": "scope-vs-tree",
+      "status": "UNMEASURED",
+      "detail": "D-deck panel source is not in this GitHub repo (no ddeck*, no ddeck_layout.py). Cannot verify the proposal touches only D-deck panel code and resize helpers, or that it stays out of kernel/ledger/sched/service."
+    },
+    {
+      "id": "C-03",
+      "severity": "info",
+      "axis": "context-source",
+      "status": "MEASURED",
+      "detail": "Context source files named on the order are missing from this repo: docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, docs/WORK_ORDER_SPEC.md. Agent may have read them from live; this CHECK cannot."
+    },
+    {
+      "id": "C-04",
+      "severity": "advisory",
+      "axis": "task-vs-verdict-prose",
+      "status": "UNCONFIRMED",
+      "confidence": "low",
+      "detail": "Drop Verdict says live already has CSS resize+persist and that extra corner-drag/grid-reflow was proposed. Task said keep current layout semantics and add only resize + minimal plumbing. Grid-reflow can change layout semantics. This is a COW question if/when the body is readable — not a FAIL from this rail."
+    },
+    {
+      "id": "C-05",
+      "severity": "info",
+      "axis": "github-actions",
+      "status": "UNMEASURED",
+      "detail": "No .github/workflows on keithbbf-gif/cosmos. SOP: GitHub Actions stays UNMEASURED until a workflow exists. This CHECK does not invent a github stamp."
+    },
+    {
+      "id": "C-06",
+      "severity": "info",
+      "axis": "gitlab-ci",
+      "status": "UNMEASURED",
+      "detail": ".gitlab-ci.yml exists and compiles/tests cosmos/*.py. This Cursor rail did not run that pipeline against the missing proposal and does not invent a gitlab stamp."
+    }
+  ],
+  "cow_gate": {
+    "cursor": "UNMEASURED",
+    "accept_proposal_body": false,
+    "reject_proposal_body": false,
+    "note": "COW must not treat this Cursor stamp as --accept. Re-run this rail after the Output is copied onto a path this repo can read (not V:\\, not live/ which is gitignored)."
+  }
+}

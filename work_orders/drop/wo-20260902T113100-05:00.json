@@ -10,5 +10,13 @@
     "reason": "DONE on disk. Live already has CSS resize+persist. Extra corner-drag/grid-reflow proposed; COW has not applied that plumbing yet.",
     "objection": "",
     "timestamp": "2026-09-02T12:44:00-05:00"
+  },
+  "checks": {
+    "cursor": {
+      "status": "UNMEASURED",
+      "reason": "Proposal Output not reachable from this Cloud Agent (V: live path; no in-repo copy). Did not invent green. Did not COMPLETE.",
+      "artifact": "work_orders/checks/wo-20260902T113100.cursor.json",
+      "timestamp": "2026-09-02T18:21:46Z"
+    }
   }
 }
