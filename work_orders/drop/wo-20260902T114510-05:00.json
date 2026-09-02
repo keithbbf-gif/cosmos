@@ -1,8 +1,0 @@
-{
-  "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/FINAL_ARCHITECTURE.md [read*], docs/F5_CORE_BUILD_NOTES.md [read*], docs/ARCH_SPEC_2026-08-17.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*]",
-  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Install COSMOS Core as a real resident Windows service: one always-on process covering scheduler, ledger, API, and lease arbiter. The repo currently has modules and a daemon script, not an installed service. Propose the service wrapper, install/uninstall steps, logging, restart policy, and how it coexists with the existing schtask runner without double-claiming work orders.",
-  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service live files; service definition and install scripts only",
-  "Timestamp": "2026-09-02T11:45:10-05:00",
-  "Output": "proposals | cosmos-core-service.json"
-}
