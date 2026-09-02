@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*], README.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Add the git-commit-and-push step to the daemon pipeline so every write the mesh produces is staged, committed, and pushed to the GitHub repo under a dedicated bot identity (author field reads Cosmos / the mesh, not Keith). Include: the exact git config for the bot identity, the commit message convention, the push target (main or a mesh branch), how the daemon authenticates (deploy key or bot token, never Keith's personal credentials), conflict handling, and a marker field in the commit that proves the mesh authored it. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T19:05:00-05:00",
+  "Output": "proposals | runtime-binding-git-commit.json"
+}
