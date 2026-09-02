@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], docs/COSMOS_PIPELINE.md [read*], docs/FINAL_ARCHITECTURE.md [read*], docs/RATIFIED.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: close the runtime-binding gate from stage 7 of docs/COSMOS_PIPELINE.md. The gate is not a review — it is proof that the artifact the machine executes is the new tree, proven by a field only the new tree can emit (e.g. last_run_epoch in the heartbeat). Produce a proposal covering: (1) the exact checklist of five checks — every scheduled task read back emitting a new-tree-only marker, task_registry --check with zero red and machine count == registry count, every reader moved with its writer, a full integration run of all modules together, and a rehearsed rollback; (2) the concrete marker field(s) and how each is emitted and verified; (3) the integration-run harness and what it must assert; (4) the rollback rehearsal procedure and pass/fail criteria; (5) acceptance criteria that distinguish a closed gate from a green log or exit code. Do not invent green. Do not wire. Do not touch kernel/ledger/sched/service.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T17:57:00-05:00",
+  "Output": "proposals | runtime-binding-gate.json"
+}
