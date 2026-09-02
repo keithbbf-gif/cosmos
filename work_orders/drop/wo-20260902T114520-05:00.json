@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/VERDICT_SPEC.md [read*], docs/ARA_POLL.md [read*], docs/ARA_STATUS_PROTOCOL.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Close the work-order loop: the drop folder, verdict spec, and poll doc exist, but the daemon has not claimed the first order and there is no reliable verdict push back into the voice session. Propose the end-to-end fix: claim detection, verdict write-back per VERDICT_SPEC.md, and a webhook or equivalent that notifies this session when a verdict lands or changes. Include the exact status fields, objection format, and a dry-run checklist.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; no live tree writes",
+  "Timestamp": "2026-09-02T11:45:20-05:00",
+  "Output": "proposals | work-order-loop.json"
+}
