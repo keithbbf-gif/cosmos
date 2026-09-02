@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*] , docs/AGENT_BOUNDARIES.md [read*] , docs/WISHLIST.md [read*] , docs/research/OPENAI_HANDS.md [read*] , docs/research/MICROSOFT_COPILOT_HANDS.md [read*] , docs/research/GOOGLE_GEMINI_HANDS.md [read*] , docs/research/ANTHROPIC_HANDS.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: new OpenAI and other Work products are out and coming. Propose docs/research/WORK_AGENTS_HANDS.md \u2014 a competitor map of the Work-agent class as of live sources (cite URLs, dated). Must cover at least: OpenAI ChatGPT Work (2026-07-09) and Codex-in-ChatGPT desktop (Chat/Work/Codex switcher), Anthropic Claude Cowork (web+mobile), Microsoft Copilot Cowork + Scout, Google Gemini Spark / Workspace Studio / Computer Use; note others (Perplexity Computer, Manus) without inventing. For each: vendor, reach (CLI/MCP/API/DOM/desktop), what \u2018work\u2019 means (finished artifacts vs local folder grants vs M365), credential, whether it is a COSMOS orchestrator-profile candidate or a rail. xAI has no Work SKU \u2014 GrokBot is our occupant. Do not wire. Do not lift ANTHROPIC_OFF. COMPETENCY rows if any: possessed=false rating=0. Official start: https://developers.openai.com/codex/codex-manual.md",
+  "Target & scope": "proposals under Output only; docs/research/ only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T17:40:00-05:00",
+  "Output": "proposals | work-agents-hands.json"
+}
