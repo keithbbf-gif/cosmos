@@ -15,7 +15,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 | **Task** | What to do. First line: read DHx + boundaries (below). |
 | **Target & scope** | What it may produce, and the fence. |
 | **Timestamp** | ISO local when you drop it (include offset). |
-| **Output** | `folder \| filename` **relative** (workspace only). No `V:\\`, no `/`, no `..`. |
+| **Output** | `folder \| filename` **relative** (workspace only). No `V:\`, no `/`, no `..`. |
 
 ```json
 {
@@ -45,7 +45,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 
 ## Where to drop (what you can reach from voice/mobile)
 
-You can write GitHub. You cannot see `V:\\A\\Ai\\COSMOS\\live` from the phone.
+You can write GitHub. You cannot see `V:\A\Ai\COSMOS\live` from the phone.
 
 **Drop here:**
 
@@ -60,20 +60,30 @@ That folder is the SGH inbox. One JSON file per order. Do not put Python, SOP re
 ## What happens after you drop
 
 1. File exists on GitHub under `work_orders/drop/`.
-2. **System daemon** (GitHub ingest clock) reads it and files a DROPPED record into the live bucket: `live/state/work_orders/bucket/` (runtime root `V:\\A\\Ai\\COSMOS\\live`). You do not need COW for this hop.
+2. **System daemon** (GitHub ingest clock) reads it and files a DROPPED record into the live bucket: `live/state/work_orders/bucket/` (runtime root `V:\A\Ai\COSMOS\live`). You do not need COW for this hop.
 3. Schtask **`COSMOS Work-Order Runner`** (~15s) **creates a session of the Agent type** (Grok / Codex / Gemini from the three-part Agent field) in an attempt-private workspace. That session executes the Task. It does not write the live tree.
-4. **DONE** = Output file exists. **FAILED** = no Output.
-5. **COW orchestrates:** reads the Output, `--accept` or `--reject`, and **applies accepted proposals to the live tree**. COW does not execute the job and does not spawn the agent.
+4. **DONE** = Output file exists. Lands in `live/state/work_orders/assigned/` (the done folder). **FAILED** = no Output.
+5. **Checks (daemon, one each, before COW):** the same Work-Order Runner, on that deposit, invokes **one GitHub** pass, **one Cursor** Cloud Agent pass, **one GitLab CI** pass against the proposal — not against the live tree. Stamps `checks` on the order. A rail that is not wired is **UNMEASURED**, never invented green. This is not a second daemon and not a 1-minute cron.
+6. **COW orchestrates:** reads Output **and** the check stamps, `--accept` or `--reject`, and **applies accepted proposals to the live tree**. COW does not execute the job, does not spawn the agent, and does not run the three checks in this TUI.
 
 Do not mark COMPLETED yourself. Do not assume the GitHub file is the live tree.
+
+## Checks vs Agent (do not conflate)
+
+| | When | What |
+|---|---|---|
+| **Agent** | Pickup | Executes the Task (default Grok). Cursor is **not** this field. |
+| **GitHub / Cursor / GitLab checks** | After DONE, before COW | Critics on the Output. Cursor here is a Cloud Agent on `keithbbf-gif/cosmos` (branch/PR; GitLab CI follows). GitHub Actions is UNMEASURED until a workflow exists on that repo. |
+
+`Route: CURSOR` in Task still means “execute on the Cursor lane” at pickup. The post-DONE Cursor check runs **in addition**, once, even when Agent was Grok.
 
 ## Do not
 
 - Invent `cosmos_daemon.py`, Linux cron, or a second 1-minute task.
-- Use absolute Output (`V:\\...`, `/home/...`).
+- Use absolute Output (`V:\…`, `/home/…`).
 - Name Cursor or Claude as Agent.
-- Write `V:\\Ai` (GrokBot’s pen).
-- Delete anything. Propose `_delme\\` if something must go.
+- Write `V:\Ai` (GrokBot’s pen).
+- Delete anything. Propose `_delme\` if something must go.
 - Collapse DONE into COMPLETED.
 - Dump the agent’s code into Chat. The Output file is the deliverable.
 
