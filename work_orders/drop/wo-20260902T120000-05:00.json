@@ -1,8 +1,0 @@
-{
-  "Agent": "xAI|pipe|Grok|pipe|grok-4.6",
-  "Context source": "docs/ADVERSARIAL_LOOP.md, docs/CURSOR_EXEC.md, docs/VERDICT_SPEC.md",
-  "Task": "Implement self-hosted Cursor Cloud Agent runner on the always-on desktop. Install the Cursor agent runner locally, point it at the keithbbf-gif/cosmos repo, and configure it to execute work orders from work_orders/drop/ using the GH_TOKEN secret for GitHub access. Do not use Cursor cloud or self-hosted-machines cloud option — run fully local on the desktop. Verify the runner can claim a test work order, produce a proposal, and write a verdict back to the drop file.",
-  "Target and scope": "Desktop runner install, Cursor Cloud Agents self-hosted config, GH_TOKEN wiring, local execution of one test work order end to end.",
-  "Timestamp": "2026-09-02T12:00:00-05:00",
-  "Output": "proposals/selfhost-runner.json"
-}
