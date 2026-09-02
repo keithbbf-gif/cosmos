@@ -7,8 +7,8 @@
   "Output": "proposals | ddeck-resize.json",
   "Verdict": {
     "status": "pending",
-    "reason": "Claimed by COSMOS Work-Order Runner; Grok session executing write-private.",
+    "reason": "DONE on disk. Live already has CSS resize+persist. Extra corner-drag/grid-reflow proposed; COW has not applied that plumbing yet.",
     "objection": "",
-    "timestamp": "2026-09-02T11:39:38-05:00"
+    "timestamp": "2026-09-02T12:44:00-05:00"
   }
 }
