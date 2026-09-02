@@ -1,0 +1,75 @@
+{
+  "order": "wo-20260902T115500-05-00",
+  "drop_file": "work_orders/drop/wo-20260902T115500-05:00.json",
+  "rail": "cursor",
+  "role": "CHECK — critic on proposal Output, not the work-order Agent",
+  "against": "proposal Output (not the live tree)",
+  "status": "UNMEASURED",
+  "complete": false,
+  "wrote_live_tree": false,
+  "timestamp": "2026-09-02T18:23:33Z",
+  "agent_run": {
+    "bcId": "bc-9f0d8383-4fa4-4fef-af50-24411ad0aeb7",
+    "branch": "cursor/ddeck-move-snap-proposal-feb1",
+    "url": "https://cursor.com/agents/bc-9f0d8383-4fa4-4fef-af50-24411ad0aeb7"
+  },
+  "proposal": {
+    "output_field": "proposals | ddeck-move-snap.json",
+    "claimed_live_path": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T115500-05-00\\out\\proposals\\ddeck-move-snap.json",
+    "bytes_seen": false,
+    "hash": null,
+    "reachable_from_this_rail": false
+  },
+  "reach_attempts": [
+    {"surface": "local filesystem / V: / /mnt", "result": "no ddeck-move-snap.json; V: is not mounted; /mnt and /media empty; find / returned only the GitHub drop file"},
+    {"surface": "github.com/keithbbf-gif/cosmos", "result": "file absent from default branch, this branch, and all local refs; gh code search 429, tree walk found no proposals/"},
+    {"surface": "Google Drive title/fullText search", "result": "zero hits for title = ddeck-move-snap.json or title contains ddeck-move-snap; older COSMOS proposals exist but none are this Output"},
+    {"surface": "Slack public+private", "result": "zero hits for ddeck-move-snap, wo-20260902T115500, ddeck, or CHECK rail"},
+    {"surface": "Gmail newer_than:7d", "result": "zero threads for ddeck-move-snap or wo-20260902T115500"},
+    {"surface": "self-hosted Cursor workers", "result": "none connected; no desktop reader for V:"}
+  ],
+  "reason": "Cursor cloud container cannot read the claimed proposal path. docs/WORK_ORDER_SOP.md: a rail that is not wired is UNMEASURED, never invented green. docs/COSMOS_PIPELINE.md: the cloud container cannot reach V: by construction; acceptance claims from this rail are about code, never live behavior.",
+  "cow": {
+    "accept": false,
+    "reject": false,
+    "note": "UNMEASURED is not a pass and not a fail. Do not --accept on this stamp. Do not treat this rail as green. Re-run Cursor CHECK after the proposal bytes are copied into the attempt-private workspace or this GitHub tree."
+  },
+  "would_have_scored_if_bytes_seen": [
+    {"id": "DRAG-REGION", "ask": "every D-deck panel has a title bar or drag region that captures pointer down"},
+    {"id": "MOVE-WITH-CURSOR", "ask": "panel position follows the cursor while the pointer is down"},
+    {"id": "SNAP-FORMULA", "ask": "on release, newX = round(newX / cellSize) * cellSize and the same for Y"},
+    {"id": "CELL-SIZE", "ask": "cellSize matches existing deck grid rhythm (16 or 24 px), not a new rhythm"},
+    {"id": "RESIZE-PRESERVED", "ask": "existing resize-and-snap remains; move and resize do not fight"},
+    {"id": "CONTENTS", "ask": "panel contents and layout constraints preserved"},
+    {"id": "SCOPE", "ask": "touches only D-deck panel move/resize code; no kernel/ledger/sched/service"}
+  ],
+  "measured_on_github_tree": [
+    {"id": "CTX-MISSING", "severity": "blocker-for-agent-not-for-this-stamp", "finding": "Context source files cited by the order are not in this repo: docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, docs/WORK_ORDER_SPEC.md. Only docs/WORK_ORDER_SOP.md and docs/VERDICT_SPEC.md exist."},
+    {"id": "NO-DDECK-IN-REPO", "severity": "info", "finding": "No D-deck module, no ddeck_layout.py, no *ddeck* path. Verdict-spec example names ddeck_layout.py:42; that file is not on GitHub."},
+    {"id": "KDASH-NO-MOVE", "severity": "info", "finding": "kdash/index.html panels are a 2-column CSS grid (.grid / .panel). No drag, pointerdown, cellSize, or snap math. This does not prove or disprove live D-deck move/snap — live is on V: and unread."},
+    {"id": "NO-VERDICT-YET", "severity": "info", "finding": "Drop file has no Verdict object. CHECK does not write one. Sister resize WO already has Verdict pending; this order does not."},
+    {"id": "GHA-UNWIRED", "severity": "info", "finding": "GitHub Actions has zero workflows. SOP already says the GitHub check rail is UNMEASURED until a workflow exists. Observed, not stamped for that rail."},
+    {"id": "SISTER-WO", "severity": "info", "finding": "wo-20260902T113100-05-00 (ddeck-resize) is the assumed resize-and-snap this Task must keep. That proposal is also unread from the Cursor rail (UNMEASURED). Interaction between move-snap and unread extra corner-drag/grid-reflow cannot be judged from here."}
+  ],
+  "task_musts_unverified": [
+    "title bar or drag region on every D-deck panel window",
+    "pointer down captures; panel moves with cursor",
+    "on release snap: newX = round(newX / cellSize) * cellSize (same for Y)",
+    "cellSize matches existing deck grid rhythm (16 or 24 px)",
+    "existing resize-and-snap kept; move and resize do not fight",
+    "panel contents and layout constraints preserved",
+    "P10 PROPOSE only — no live tree writes"
+  ],
+  "scope_fence_from_order": {
+    "may_touch": "D-deck panel move/resize code",
+    "must_not_touch": ["kernel", "ledger", "sched", "service", "live tree writes"],
+    "verified": false,
+    "why": "proposal bytes not seen"
+  },
+  "github_actions": "UNMEASURED",
+  "gitlab_ci": "not this rail; GitLab MCP unavailable this run",
+  "verdict_left": {
+    "status": "absent",
+    "reason": "untouched — CHECK does not COMPLETE and does not write Verdict"
+  }
+}
