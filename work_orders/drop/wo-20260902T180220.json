@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*], docs/COSMOS_PIPELINE.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 3 of 3 for closing the runtime-binding gate: the integration harness and rollback rehearsal. Produce a proposal covering the full end-to-end test (drop a test order, confirm it moves bucket -> picked -> done with state DONE), the five-check gate checklist from stage 7, the rehearsed rollback procedure, and acceptance criteria that distinguish a closed gate from a green log. Include pass/fail criteria for each. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T18:02:20-05:00",
+  "Output": "proposals | runtime-binding-integration.json"
+}

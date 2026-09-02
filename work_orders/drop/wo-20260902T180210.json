@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 2 of 3 for closing the runtime-binding gate: the watchdog and scheduler. Produce a proposal for a watchdog that monitors the daemon heartbeat (alert if older than 3 minutes) and the external timer/task that wakes the daemon (Task Scheduler every minute or equivalent). Include the exact schedule definition, the watchdog check logic, failure thresholds, and how both emit or verify the new-tree-only marker. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T18:02:10-05:00",
+  "Output": "proposals | runtime-binding-watchdog.json"
+}
