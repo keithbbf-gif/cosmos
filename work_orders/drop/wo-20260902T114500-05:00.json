@@ -1,8 +1,0 @@
-{
-  "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/COSMOS_PIPELINE.md [read*], docs/STAGE1_GOAL_SIGNED.md [read*], docs/V1_SUITE_RESULTS.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*]",
-  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Close the runtime-binding gate: the seven-stage pipeline has code and passing tests, but nothing has proven the machine executes the new tree instead of an old snapshot. Design and propose the acceptance test that forces a real runtime execution of the new tree (not a cached snapshot), including how to detect and fail if the old snapshot is used. Output a concrete test plan and any required harness changes as a proposal.",
-  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; no live tree writes",
-  "Timestamp": "2026-09-02T11:45:00-05:00",
-  "Output": "proposals | runtime-binding-gate.json"
-}
