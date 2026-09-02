@@ -4,5 +4,15 @@
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Install COSMOS Core as a real resident Windows service: one always-on process covering scheduler, ledger, API, and lease arbiter. The repo currently has modules and a daemon script, not an installed service. Propose the service wrapper, install/uninstall steps, logging, restart policy, and how it coexists with the existing schtask runner without double-claiming work orders.",
   "Target & scope": "proposals under Output only; never kernel/ledger/sched/service live files; service definition and install scripts only",
   "Timestamp": "2026-09-02T11:45:10-05:00",
-  "Output": "proposals | cosmos-core-service.json"
+  "Output": "proposals | cosmos-core-service.json",
+  "checks": {
+    "cursor": {
+      "status": "UNMEASURED",
+      "reason": "Cursor Cloud cannot read the named live Output, so this rail will not invent a green review of cosmos-core-service.json.",
+      "objection": "Named Output V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T114510\\out\\proposals\\cosmos-core-service.json is unreachable from keithbbf-gif/cosmos Cloud Agent (no V: mount, no self-hosted worker). File is absent from this repo, Drive title='cosmos-core-service.json', Slack, and Gmail. Mirror the proposal into GitHub (or re-run CHECK on a worker that can read the live tree) before COW --accept. Do not treat this stamp as PASS.",
+      "artifact": "work_orders/checks/wo-20260902T114510-cursor.json",
+      "bcId": "bc-1a515c78-187d-44fc-9c48-f1bc3b80acf3",
+      "timestamp": "2026-09-02T13:22:05-05:00"
+    }
+  }
 }

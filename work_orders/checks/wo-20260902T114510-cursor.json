@@ -1,0 +1,63 @@
+{
+  "schema": "cosmos-check/1",
+  "rail": "cursor",
+  "role": "CHECK",
+  "not": "work-order Agent",
+  "order": "wo-20260902T114510",
+  "drop_file": "work_orders/drop/wo-20260902T114510-05:00.json",
+  "named_output": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T114510\\out\\proposals\\cosmos-core-service.json",
+  "order_output_field": "proposals | cosmos-core-service.json",
+  "status": "UNMEASURED",
+  "completed": false,
+  "live_tree_written": false,
+  "bcId": "bc-1a515c78-187d-44fc-9c48-f1bc3b80acf3",
+  "timestamp": "2026-09-02T13:22:05-05:00",
+  "reason": "Cursor Cloud cannot read the named live Output, so this rail will not invent a green review of cosmos-core-service.json.",
+  "objection": "Named Output V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T114510\\out\\proposals\\cosmos-core-service.json is unreachable from keithbbf-gif/cosmos Cloud Agent (no V: mount, no self-hosted worker). File is absent from this repo, Drive title='cosmos-core-service.json', Slack, and Gmail. Mirror the proposal into GitHub (or re-run CHECK on a worker that can read the live tree) before COW --accept. Do not treat this stamp as PASS.",
+  "probes": {
+    "workspace_glob": "absent",
+    "github_tree": "absent",
+    "drive_exact_title": "absent",
+    "slack": "absent",
+    "gmail": "absent",
+    "self_hosted_workers": 0,
+    "v_mount": "absent"
+  },
+  "github_actions": "UNMEASURED",
+  "gitlab_ci": "UNMEASURED",
+  "repo_measured_for_cow": [
+    {
+      "id": "NO_SCM_WRAPPER",
+      "fact": "Repo has no Windows SCM wrapper. Grep of win32service / pywin32 / NSSM / sc create / SERVICE_WIN32 is empty.",
+      "implication": "Any valid proposal must add a service definition; cosmos.py serve and cosmos_daemon.py are not that."
+    },
+    {
+      "id": "KERNEL_SAYS_NO_WRAPPER",
+      "fact": "cosmos/cosmos_kernel.py module docstring: 'no Windows-service wrapper - those are the next 6b increments'.",
+      "implication": "Incumbent Core is a composition root, not an installed service."
+    },
+    {
+      "id": "SCHTASK_NOT_SERVICE",
+      "fact": "cosmos/cosmos_up.py RoadUp.TASK_NAME='COSMOS Serve' registers schtasks /create /sc onlogon /rl highest — a logon scheduled task, not SCM recovery.",
+      "implication": "Proposal must say whether COSMOS Serve is retired, demoted to trigger-only, or kept. Architecture decision 1 requires Windows service recovery, which onlogon schtasks does not provide."
+    },
+    {
+      "id": "TWO_WRITERS",
+      "fact": "Kernel() with read_only=False appends BOOT_VERIFIED (B1). claim_next() is single-ledger optimistic concurrency (expect_head_seq → LOST_CLAIM). cosmos_daemon.py claims queue files by rename and is documented as not the live desk.",
+      "implication": "A resident service plus the existing COSMOS Work-Order Runner (~15s schtask) plus COSMOS Serve plus cosmos_daemon.py will double-claim unless exactly one writing Kernel and one work-order claimant exist. Proposal must name the survivor and the fence."
+    },
+    {
+      "id": "MISSING_DHX",
+      "fact": "docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md are not in this repo. Order Context source marks both [read*].",
+      "implication": "The work-order Agent could not have read DHx from GitHub. Treat any claim that it did as unproven."
+    }
+  ],
+  "rubric_when_output_readable": [
+    "P10 proposal only; no live-tree apply claimed as done",
+    "SCM wrapper (service, not another schtask) covering scheduler + ledger + API + lease arbiter in one process",
+    "install / uninstall steps with elevation and read-back after register (C-59)",
+    "logging location and Windows service restart/recovery policy (fail-CLOSED)",
+    "explicit coexistence with COSMOS Work-Order Runner and COSMOS Serve that prevents a second writing Kernel and a second work-order claimant",
+    "does not invent a Linux cron, a second 1-minute daemon, or writes under V:\\Ai"
+  ]
+}
