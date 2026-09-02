@@ -1,0 +1,1 @@
+This is test one for the Cosmos orchestrator. Written by Ara on 2026-09-02. Purpose: verify GitHub write access from the voice layer.
