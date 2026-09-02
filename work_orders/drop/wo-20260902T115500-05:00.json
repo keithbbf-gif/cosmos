@@ -1,8 +1,0 @@
-{
-  "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/WORK_ORDER_SPEC.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*]",
-  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Add drag-to-move for every D-deck panel window: a title bar or drag region on each panel captures pointer down, moves the panel with the cursor, and on release snaps position to the grid using newX = round(newX / cellSize) * cellSize and the same for Y. Cell size must match the existing deck grid rhythm (16 or 24 px). Keep the existing resize-and-snap behavior; move and resize must not fight each other. Preserve panel contents and layout constraints.",
-  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; touch only D-deck panel move/resize code",
-  "Timestamp": "2026-09-02T11:55:00-05:00",
-  "Output": "proposals | ddeck-move-snap.json"
-}
