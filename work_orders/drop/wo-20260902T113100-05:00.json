@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], docs/WORK_ORDER_SPEC.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Reformat the D-deck panels so each panel can be resized by the user at runtime — drag handles or equivalent, with size persisted across sessions where the existing panel state already supports it. Keep the current layout semantics; only add resize capability and the minimal plumbing it needs.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service. Touch only D-deck panel code and its direct resize helpers.",
+  "Timestamp": "2026-09-02T11:31:00-05:00",
+  "Output": "proposals | ddeck-resize.json"
+}
