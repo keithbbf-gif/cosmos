@@ -1,0 +1,100 @@
+{
+  "order": "wo-20260902T113100-05-00",
+  "drop_file": "work_orders/drop/wo-20260902T113100-05:00.json",
+  "rail": "cursor",
+  "role": "CHECK — critic on proposal Output, not the work-order Agent",
+  "against": "proposal Output (not the live tree)",
+  "status": "UNMEASURED",
+  "complete": false,
+  "wrote_live_tree": false,
+  "timestamp": "2026-09-02T18:20:58Z",
+  "agent_run": {
+    "bcId": "bc-fa6864eb-3f84-4944-ba35-b2b72512d895",
+    "branch": "cursor/ddeck-resize-proposal-f106",
+    "url": "https://cursor.com/agents/bc-fa6864eb-3f84-4944-ba35-b2b72512d895"
+  },
+  "proposal": {
+    "output_field": "proposals | ddeck-resize.json",
+    "claimed_live_path": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T113100-05-00\\out\\proposals\\ddeck-resize.json",
+    "bytes_seen": false,
+    "hash": null,
+    "reachable_from_this_rail": false
+  },
+  "reach_attempts": [
+    {
+      "surface": "local filesystem / V: / /mnt",
+      "result": "no ddeck-resize.json; V: is not mounted; /mnt and /media empty"
+    },
+    {
+      "surface": "github.com/keithbbf-gif/cosmos",
+      "result": "file absent from default branch, this branch, and gh search"
+    },
+    {
+      "surface": "Google Drive title/fullText search",
+      "result": "zero hits for ddeck-resize / ddeck / recent resize"
+    },
+    {
+      "surface": "Slack public+private",
+      "result": "zero hits for ddeck-resize"
+    },
+    {
+      "surface": "Gmail newer_than:7d",
+      "result": "zero threads for ddeck-resize or filename:ddeck-resize.json"
+    },
+    {
+      "surface": "self-hosted Cursor workers",
+      "result": "none connected; no desktop reader for V:"
+    }
+  ],
+  "reason": "Cursor cloud container cannot read the claimed proposal path. docs/WORK_ORDER_SOP.md: a rail that is not wired is UNMEASURED, never invented green. docs/COSMOS_PIPELINE.md: the cloud container cannot reach V: by construction; acceptance claims from this rail are about code, never live behavior.",
+  "cow": {
+    "accept": false,
+    "reject": false,
+    "note": "UNMEASURED is not a pass and not a fail. Do not --accept on this stamp. Do not treat this rail as green. Re-run Cursor CHECK after the proposal bytes are copied into the attempt-private workspace or this GitHub tree."
+  },
+  "measured_on_github_tree": [
+    {
+      "id": "CTX-MISSING",
+      "severity": "blocker-for-agent-not-for-this-stamp",
+      "finding": "Context source files cited by the order are not in this repo: docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, docs/WORK_ORDER_SPEC.md. Only docs/WORK_ORDER_SOP.md and docs/VERDICT_SPEC.md exist."
+    },
+    {
+      "id": "NO-DDECK-IN-REPO",
+      "severity": "info",
+      "finding": "No D-deck module, no ddeck_layout.py, no *ddeck* path. Verdict-spec example names ddeck_layout.py:42; that file is not on GitHub."
+    },
+    {
+      "id": "KDASH-NO-RESIZE",
+      "severity": "info",
+      "finding": "kdash/index.html panels are a 2-column CSS grid (.grid / .panel). No resize CSS, no drag handle, no persisted panel size. Footer states settings live in JS memory only. This does not prove or disprove the Verdict claim that live already has CSS resize+persist — live is on V: and unread."
+    },
+    {
+      "id": "GHA-UNWIRED",
+      "severity": "info",
+      "finding": "GitHub Actions has zero workflows. SOP already says the GitHub check rail is UNMEASURED until a workflow exists. Observed, not stamped for that rail."
+    },
+    {
+      "id": "SISTER-WO",
+      "severity": "info",
+      "finding": "wo-20260902T115500-05:00 (ddeck-move-snap) assumes existing resize-and-snap. Interaction with the unread extra corner-drag/grid-reflow cannot be judged from here."
+    }
+  ],
+  "unverified_verdict_claims": [
+    "DONE on disk",
+    "Live already has CSS resize+persist",
+    "Extra corner-drag/grid-reflow proposed",
+    "COW has not applied that plumbing yet"
+  ],
+  "scope_fence_from_order": {
+    "may_touch": "D-deck panel code and its direct resize helpers",
+    "must_not_touch": ["kernel", "ledger", "sched", "service", "live tree writes"],
+    "verified": false,
+    "why": "proposal bytes not seen"
+  },
+  "github_actions": "UNMEASURED",
+  "gitlab_ci": "not this rail; GitLab MCP unavailable this run",
+  "verdict_left": {
+    "status": "pending",
+    "reason": "untouched — CHECK does not COMPLETE and does not overwrite Verdict"
+  }
+}
