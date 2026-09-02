@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Part 1 of 3 for closing the runtime-binding gate: the Windows service wrapper. Produce a proposal for registering cosmos_daemon.py as a native Windows service (or equivalent persistent process) with automatic restart on failure, proper logging to the live logs dir, and a heartbeat that emits a new-tree-only marker field. Include the exact install/uninstall commands, the service name, recovery policy, and how the marker proves the running artifact is the new tree. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T18:46:00-05:00",
+  "Output": "proposals | runtime-binding-service.json"
+}
