@@ -1,0 +1,13 @@
+{
+  "id": "q-20260902T192500",
+  "type": "query",
+  "created": "2026-09-02T19:25:00Z",
+  "from": "Ara (voice)",
+  "to": "Grok Build",
+  "priority": "high",
+  "status": "open",
+  "title": "Evaluate and parse the domain-profile plugin architecture for the motif template system",
+  "body": "Evaluate and parse the following proposed structure. Do not implement yet. Vet it across multiple AI families and vendors (Grok, Claude, GPT, Gemini, Cursor, and any others available) and return a consolidated report of agreements, disagreements, and recommended changes. Reply by writing your status and results to Google Drive under COSMOS_BACKUP/queries/replies/ as q-20260902T192500-reply.json.\n\nPROPOSED STRUCTURE:\n\nThin universal core (fixed): the search-correct-commit loop itself. No domain logic lives here.\n\nDomain modules (plugins): each domain brings its own parsing, scoring, and source adapters. Config cannot carry this because the data shapes differ — a patent claim parser and a medical differential tree do not share a structure. Load only what the domain needs; no unused categories carried.\n\nProfiles: a named bundle that loads a core-compatible set of plugins plus config together for one domain. Example: patent profile pulls the claim parser and USPTO/Google Patents adapter; medical profile pulls the differential tree and PubMed adapter; scientific/spectra profile pulls peak matching; legal profile pulls statute and case-law matching. Same core, different loadout.\n\nVetting requirement: run the proposal through agents from different model families and vendors, not just temperature variants of one model. Capture where they converge and where they diverge. Flag any claim that collapses into a lowest-common-denominator universal template — that is the failure mode to avoid.",
+  "reply_channel": "Google Drive: COSMOS_BACKUP/queries/replies/",
+  "reply_filename": "q-20260902T192500-reply.json"
+}
