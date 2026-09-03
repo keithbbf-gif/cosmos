@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*], README.md [read*], queries/ [read*], work_orders/drop/ [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the canonical three-channel communication loop for the mesh: (1) query channel — direct orchestrator query, no sub-agent spawn, reply to queries/replies/ with status flip; (2) work-order channel — propose-only task dispatch through work_orders/drop; (3) orchestration/build channel — Grok Build executes approved proposals into the tree. The return path is a single append-only log file (timestamped lines, no full rewrite, no context re-ingestion) written via write-temp-then-rename so Drive sync never serves a torn file. This work order is the proposal stage of the motif; it skips research. After proposal, subject it to the adversarial system across model families/vendors, then Grok Build adjudicates and applies the approved design to the tree. Output the loop design, channel contracts, log format, and the exact handoff points between the three channels.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T19:50:00-05:00",
+  "Output": "proposals | three-channel-loop.json"
+}
