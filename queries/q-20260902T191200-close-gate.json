@@ -1,0 +1,13 @@
+{
+  "id": "q-20260902T191200",
+  "type": "query",
+  "created": "2026-09-02T19:12:00Z",
+  "from": "Ara (voice)",
+  "to": "Grok Build",
+  "priority": "high",
+  "status": "open",
+  "title": "Close the runtime-binding gate and run the daemons",
+  "body": "Close the stage-seven runtime-binding gate now. Register cosmos_daemon.py as a native Windows service with restart-on-failure. Wire the watchdog heartbeat (alert if stale past three minutes) and the Task Scheduler tick. Run the integration harness end-to-end: drop a test order, confirm it moves through the states, confirm the five-check gate passes, and confirm rollback rehearsal works. Wire the daemon to stage, commit, and push every write under a dedicated bot identity so the author field reads Cosmos. Reply by writing your status and results to Google Drive under COSMOS_BACKUP/queries/replies/ as q-20260902T191200-reply.json.",
+  "reply_channel": "Google Drive: COSMOS_BACKUP/queries/replies/",
+  "reply_filename": "q-20260902T191200-reply.json"
+}
