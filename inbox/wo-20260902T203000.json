@@ -1,0 +1,11 @@
+{
+  "id": "wo-20260902T203000",
+  "type": "work_order",
+  "status": "propose_only",
+  "created": "2026-09-02T20:30:00-05:00",
+  "title": "Lawsuit notes — Anthropic data export contains no system context or reasoning",
+  "instruction": "Add the following to the lawsuit notes file.",
+  "note": "Anthropic's data export is a zip of conversation text only. It contains no system context, no reasoning, no decision history, no scars. The work lived in the session context, which they do not hand back. The export has the chat text but not the reasoning behind the architecture. The scars were never written down — they lived in the operator's head and in the wiped session context, not in any file. The Claude delete wiped the session context, not the scars; the scars lived in Drive the whole time. The session died mid-flight with no tidy-up, so the scars were never written. The fix is making scar-writing automatic: the daemon appends a scar entry on every compaction, every respawn, every gate event — not just when someone remembers to ask.",
+  "scope": "proposals_only_until_accepted_through_adversarial_pass_and_Grok_Build_adjudication",
+  "target_file": "lawsuit_notes.md"
+}
