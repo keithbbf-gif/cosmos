@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*], README.md [read*], queries/ [read*], work_orders/drop/ [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Design the query-handling addition to the existing single cosmos_daemon.py (no second process, no new window, no GUI flash). The daemon must poll queries/ for q-*.json, route each directly to the orchestrator without spawning sub-agents, write replies to queries/replies/ as q-<stamp>-reply.json, and flip status open/answered. Include a completion flag and timestamp. Then evaluate whether separate lightweight daemons are better for isolation if one crashes, but default to single-daemon extension unless isolation clearly wins. Explicitly address the no-window-flash requirement so typing is never interrupted. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T19:45:00-05:00",
+  "Output": "proposals | query-daemon-design.json"
+}
