@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*], SOP.md [read*], cosmos_daemon.py [read*], CRON.md [read*], README.md [read*], queries/ [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Extend the existing cosmos_daemon.py (single daemon, no second process) to also handle the query channel: poll queries/ for new q-*.json files, route each directly to the orchestrator (no sub-agent spawn), collect the reply, write it to queries/replies/ as q-<stamp>-reply.json with status open/answered, and flip the status field. Keep the existing work-order polling, heartbeat, and spend-gate behavior intact. Include the exact polling interval, reply-file schema, and how the daemon distinguishes a query from a work order. Do not wire. Do not touch kernel/ledger/sched/service files beyond the proposal.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service",
+  "Timestamp": "2026-09-02T19:30:00-05:00",
+  "Output": "proposals | daemon-query-extension.json"
+}
