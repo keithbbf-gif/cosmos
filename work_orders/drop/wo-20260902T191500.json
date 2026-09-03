@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*] , docs/AGENT_BOUNDARIES.md [read*] , docs/COSMOS_PIPELINE.md [read*] , live/work/orders/wo-20260902T175900/out/proposals/runtime-binding-gate.json [read*] , tests/runtime_bind_echo.py [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Keith 2026-09-02: close the stage-7 runtime-binding gate. COW filed tests/runtime_bind_echo.py and proved a child bind_digest against a planted nonce (ok, nonce_match, bind_digest_match, tree_id=KMesh-COSMOS-live). wo-20260902T175900 is COMPLETED. The gate is still OPEN: C2 machine 1-min names are mostly unregistered (Watchdog2 registered=false, logon_registered=true; only Work-Order Runner and SGH Drop Ingest 1-min registered=true). Do NOT print GATE_CLOSED. Implement the full tests/test_runtime_binding.py per the 175900 contract (C1-C5). Default (no --live) must keep live_gate_closed=false. --live --root live must quote C2 integers and refuse GATE_CLOSED while machine_count != registry_count. Do not schtasks /create. Do not standup. Do not touch kernel/ledger/sched/service.",
+  "Target & scope": "proposals under Output only; tests/test_runtime_binding.py only",
+  "Timestamp": "2026-09-02T19:15:00-05:00",
+  "Output": "proposals | test-runtime-binding.json"
+}
