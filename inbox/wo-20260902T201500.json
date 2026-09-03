@@ -1,0 +1,16 @@
+{
+  "id": "wo-20260902T201500",
+  "type": "work-order",
+  "status": "propose-only",
+  "created": "2026-09-02T20:15:00-05:00",
+  "title": "Route daemon live log to shared Google Doc",
+  "summary": "The daemon's live append log must be written to the shared Google Doc (docs.google.com/document/d/1ISxEhP0wdoZjegIgsXCNa6dCjQuJJhiRvzZlkmZPFYQ) instead of the empty cosmos_log.txt in the cosmos_daemon Drive folder. Drive's sign-in wall blocks the assistant from reading private files; the Doc is shared 'anyone with the link' and is fetchable. The .txt file stays as a local mirror only.",
+  "scope": "proposals only — no execution until accepted through the adversarial pass and Grok Build adjudication",
+  "tasks": [
+    "Retarget the daemon's append writer from cosmos_daemon/cosmos_log.txt to the shared Google Doc via its Docs API or a documented export endpoint.",
+    "Keep the .txt as an optional local mirror; do not rely on it as the read path.",
+    "Verify the assistant can fetch the Doc contents through the public link after each append.",
+    "Log format unchanged: timestamped status lines, one entry per event."
+  ],
+  "notes": "Confirmed working: assistant read 'Test me NOW! NOW! NOW!' from the shared Doc. The .txt in Drive remains empty and unreadable."
+}
