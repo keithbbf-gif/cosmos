@@ -1,0 +1,20 @@
+{
+  "id": "wo-20260902T202000",
+  "type": "work_order",
+  "status": "propose_only",
+  "created": "2026-09-02T20:20:00-05:00",
+  "title": "Multi-family adversarial build canon — finish work orders",
+  "instruction": "Adopt the following as the build canon and finish the queued work orders under it.",
+  "canon": {
+    "motif": "research, race, judge, capture",
+    "lanes": {
+      "propose_implement": "Sonnet 5 on Cursor",
+      "compete": "Grok 4.6 on Grok Build",
+      "free_lane": "Gemini on Vertex — three hundred dollars credit, expires 2026-10-13; route here first, paid lanes only on miss or exhaustion"
+    },
+    "adversarial_pass": "judge across all three families; arbitrage step selects the winner",
+    "commit_identity": "daemon@solarolabs.com — commits carry the agent name, not the operator",
+    "priority": "finish existing work orders in the queue before accepting new ones"
+  },
+  "scope": "proposals_only_until_adversarial_pass_and_Grok_Build_adjudication"
+}
