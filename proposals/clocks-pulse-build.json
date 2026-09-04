@@ -1,0 +1,276 @@
+{
+  "proposal": "clocks-pulse-build",
+  "title": "CLOCKS Pulse BUILD - 26 resident loops to one 15s tick, pool-only claim, calendar --once",
+  "work_order": "wo-20260904T124800",
+  "issue": 34,
+  "lane": "B - Cursor Cloud Agent (Claude Opus 5)",
+  "posture": "PROPOSE-ONLY",
+  "generated": "2026-09-04",
+  "applies_to": "the live COSMOS tree; COW applies, this lane does not",
+
+  "context_gaps": [
+    {
+      "kind": "UNREADABLE_CONTEXT",
+      "detail": "docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md and docs/ORCHESTRATION.md are named by the work order but exist on NO branch of github.com/keithbbf-gif/cosmos as of 2026-09-04. They were not read. Absent is not empty and not read: the boundaries used here are the ones stated verbatim in the work order and issue #34, plus docs/WORK_ORDER_SOP.md and docs/AGENTS.md, which ARE in the clone.",
+      "consequence": "Any boundary that lives only in the three missing files is UNCHECKED by this proposal. Publish them to the repo (or paste them into the order) before COW accepts."
+    },
+    {
+      "kind": "UNREADABLE_CONTEXT",
+      "detail": "cosmos_own_clocks.py, cosmos_health_clock.py, cosmos_pool.py, cosmos_run.py, cosmos_cdeck_feed.py, cosmos_index.py and cosmos_principles.py are live-tree modules and are not in this repo. The 26 clock NAMES were therefore never seen.",
+      "consequence": "This manifest ships UNBOUND and proposals/pulse/pulse_bind.py REFUSES it until COW binds every live clock name. Fail-closed by construction: a plan that guessed the names would silently not run the real ones."
+    }
+  ],
+
+  "guards": {
+    "posture": "PROPOSE-ONLY",
+    "anthropic_off": true,
+    "hold": "not_lifted",
+    "core_port": 8770,
+    "core_stays_up": true,
+    "clocks_may_shrink": false,
+    "schtask_delete_allowed": false,
+    "write_fence": ["proposals/", "tests/"],
+    "never": [
+      "shrink the CLOCKS registry",
+      "schtasks /delete anything",
+      "stop, kill or restart Core :8770",
+      "lift HOLD",
+      "write V:\\Ai",
+      "write kernel / ledger / sched / service",
+      "apply any of this from the Cursor lane"
+    ]
+  },
+
+  "outputs": [
+    "proposals/clocks-pulse-build.md",
+    "proposals/clocks-pulse-build.json",
+    "proposals/pulse/cosmos_pulse.py",
+    "proposals/pulse/pulse_bind.py",
+    "tests/test_clocks_pulse_build.py"
+  ],
+
+  "pulse": {
+    "tick_s": 15,
+    "tick_s_rationale": "15s is the tightest cadence already live in the tree (the ~15s Work-Order Runner schtask, docs/WORK_ORDER_SOP.md step 3). The collapse must not lengthen the tightest cadence, and a grid finer than the tightest need buys nothing but wakeups.",
+    "tick_budget_s": 5,
+    "tick_budget_rationale": "One third of the period for in-process work. Anything that can exceed it is dispatched as a --once child, so the wheel cannot be held hostage by one slow clock.",
+    "grid": "deadlines are t0 + n*tick from a monotonic origin; a slow tick never pushes the grid, so drift cannot accumulate",
+    "catch_up_max": 1,
+    "catch_up_rationale": "A Pulse that was down for an hour must not fire 240 backlogged ticks on resume. At most one catch-up per clock; the missed count is REPORTED as skew.",
+    "single_flight": true,
+    "quantization": "effective_period = ceil(declared_period / tick) * tick. A clock whose cadence the grid CHANGES must declare max_interval_s - the largest gap its duty tolerates. No declaration is a refusal (QUANTIZATION_UNDECLARED), and a tolerance the grid cannot meet is a refusal (QUANTIZATION_EXCEEDS_TOLERANCE). deadline_s is a different field: how long ONE run may take before it is STALE. Conflating the two refuses a nightly job for having a short runtime deadline.",
+    "phase_offsets": "deterministic, sha1(clock_id) % slots - two boots and two lanes agree, and 26 clocks do not pile onto one tick",
+    "heartbeat": {
+      "primary": "one file, every clock, per tick: writer identity + epoch + UTC + aware-local + tz offset + tick_seq + per-clock state, last_run_epoch, residency and stale_after_s",
+      "states": ["NEVER-RUN", "IDLE", "RUNNING", "STALE", "QUARANTINED"],
+      "states_rationale": "absent != unreadable != changed != empty; NEVER-RUN is not stale and not green",
+      "legacy_shim": "the same tick data re-emitted under the per-daemon filenames the cDeck glob and index already watch, so no reader goes red because a writer changed",
+      "shim_retirement": "shim is parked (not deleted) only after every reader has run one full day on the primary file"
+    },
+    "claims": {
+      "surface": "pool.claim_next - the ONLY code path that may transition a work item to claimed",
+      "max_per_tick": 4,
+      "loser": "typed LOST_CLAIM, counted, non-fatal; the tick moves on",
+      "idempotency_key": ["clock_id", "tick_seq", "worker"]
+    },
+    "negative_control": {
+      "clock": "pulse.selftest.planted_red",
+      "contract": "must report BROKE on every tick; a CLEAN here publishes verdict PULSE-BROKEN and no green is reported",
+      "rationale": "a wheel with no planted failure has never been seen to fail"
+    },
+    "refusals_at_boot": [
+      "UNBOUND_PLAN - an empty wheel that starts is a silent outage",
+      "UNKNOWN_DISPOSITION",
+      "QUANTIZATION_UNDECLARED",
+      "QUANTIZATION_EXCEEDS_TOLERANCE",
+      "HOLD_DUTY_PARKED",
+      "MISSING_COMMAND",
+      "DUPLICATE_CLOCK"
+    ]
+  },
+
+  "classification": {
+    "note": "Deterministic predicate, applied in order. Two lanes running it on the same registry must land on the same disposition; a judgement call that differs per reader is how a collapse drifts.",
+    "rules": [
+      {"order": 1, "if": "holds a listening socket or is the Core service", "then": "resident.keep"},
+      {"order": 2, "if": "restarts another process (health --supervise)", "then": "resident.keep until the phase that grants Core spawn to Pulse"},
+      {"order": 3, "if": "spawns_core and Pulse does not hold the spawn lease", "then": "resident.keep"},
+      {"order": 4, "if": "needs sub-minute latency and typical cost < 250ms and no blocking IO", "then": "pulse.inproc"},
+      {"order": 5, "if": "period < 900s", "then": "pulse.once"},
+      {"order": 6, "if": "period >= 900s and tolerates a missed window", "then": "calendar.once"},
+      {"order": 7, "if": "duty fully absorbed by another clock", "then": "parked (registry entry RETAINED, schtask disabled and renamed _delme, never deleted)"}
+    ],
+    "hold_rule": "hold_required clocks (the collector tick) run under HOLD; every discretionary clock is skipped with reason HOLD and the skip is recorded. HOLD is not lifted by this build and the collector's tick requirement is not modified by it.",
+    "residency_target": {
+      "resident_python_processes_after": 2,
+      "which": ["COSMOS Pulse", "COSMOS Health --supervise"],
+      "plus": "COSMOS Core (:8770) stays the resident Windows service it already is",
+      "registry_entries_after": 26,
+      "note": "26 entries in, 26 entries out. Residency changes; the registry does not shrink."
+    }
+  },
+
+  "role_slots": {
+    "note": "Roles this lane can name from in-repo evidence. COW binds each to the real clock id at apply time; the binder refuses any slot left null.",
+    "slots": [
+      {"role": "workorder.runner", "bind": null, "evidence": "docs/WORK_ORDER_SOP.md step 3 - schtask 'COSMOS Work-Order Runner', ~15s", "proposed_disposition": "pulse.once", "period_s": 15, "deadline_s": 45},
+      {"role": "collector.tick", "bind": null, "evidence": "work order: 'Collector tick already required under HOLD'", "proposed_disposition": "pulse.once", "hold_required": true, "note": "required under HOLD; this build does not change that requirement"},
+      {"role": "health.supervise", "bind": null, "evidence": "work order: only in-tree restarter of live Core", "proposed_disposition": "resident.keep", "released_at_phase": "P5"},
+      {"role": "core.service", "bind": null, "evidence": "docs/FINAL_ARCHITECTURE.md decision 1 - one resident service", "proposed_disposition": "resident.keep", "never_touched": true},
+      {"role": "cdeck.feed", "bind": null, "evidence": "work order coupling: cDeck glob", "proposed_disposition": "pulse.inproc"},
+      {"role": "index.required_daemons", "bind": null, "evidence": "work order coupling: index REQUIRED_DAEMONS", "proposed_disposition": "pulse.inproc"},
+      {"role": "pulse.selftest.planted_red", "bind": "pulse.selftest.planted_red", "proposed_disposition": "pulse.inproc", "planted_red": true, "note": "the negative control is a NEW clock, added to the wheel, not taken from the 26"}
+    ]
+  },
+
+  "bindings": {
+    "bind_required": 26,
+    "bound": [],
+    "how": "COW exports the live registry read-only as {\"clocks\": [...]} and runs: python proposals/pulse/pulse_bind.py --plan proposals/clocks-pulse-build.json --live-clocks <export>. Exit 2 until every name is bound."
+  },
+
+  "couplings": [
+    {
+      "coupling": "per-daemon heartbeats",
+      "today": "each resident loop writes its own heartbeat file",
+      "target": "Pulse writes one heartbeat carrying all 26 clocks, each with state + last_run_epoch + stale_after_s",
+      "shim": "legacy per-clock filenames re-emitted from the same tick data during the collapse window",
+      "gate": "no reader observes a heartbeat gap longer than its own stale_after_s across the cutover"
+    },
+    {
+      "coupling": "PEER_HEARTBEATS",
+      "today": "written by each daemon; the key set is the daemon set",
+      "target": "same key set, same shape, written by Pulse with via='pulse' and owner_pid added",
+      "shim": "keys are NOT removed; a peer that reads a key it has always read keeps reading it",
+      "gate": "peer-side diff of the key set before/after is empty"
+    },
+    {
+      "coupling": "cDeck glob",
+      "today": "globs the heartbeat directory for per-daemon files",
+      "target": "reads the primary heartbeat's clocks[] behind a feature flag",
+      "shim": "glob keeps working against shim files; both paths measured side by side for one full day before the flag flips",
+      "gate": "flag-on and flag-off panels agree for a full day, then the shim is parked"
+    },
+    {
+      "coupling": "index REQUIRED_DAEMONS",
+      "today": "liveness = a process exists for each of N daemon entries",
+      "target": "liveness = the clock TICKED within stale_after_s; each entry gains a residency field (resident|pulse|calendar)",
+      "shim": "the list is not shortened; parked entries report residency=pulse and are green when their clock ticks",
+      "gate": "index green with the same entry count (26) and no entry removed"
+    },
+    {
+      "coupling": "13 Logon relaunches",
+      "today": "13 Logon-triggered relaunches of resident loops",
+      "target": "2 Logon entries: COSMOS Pulse and COSMOS Health --supervise",
+      "shim": "the other 11 are /change /disable'd and renamed under _delme; registered, reversible with /change /enable, never deleted",
+      "gate": "schtasks /query /xml read-back shows 2 enabled Logon triggers and 11 disabled-but-present"
+    },
+    {
+      "coupling": "five claim surfaces",
+      "today": "five code paths can claim work",
+      "target": "pool.claim_next is the only claimant; the other four become thin adapters that call it",
+      "shim": "adapters keep their public signatures so callers do not change in the same step",
+      "gate": "a guard test proves no module outside the pool performs a claim rename or claim ledger append; an overlap test shows zero double-claims and at least one typed LOST_CLAIM"
+    }
+  ],
+
+  "schtasks": [
+    {"name": "COSMOS Pulse", "action": "register", "trigger": "Logon + restart-on-failure", "command": "<PY> <LIVE_COSMOS>\\cosmos_pulse.py --serve", "read_back": "schtasks /query /tn \"COSMOS Pulse\" /xml", "phase": "P1"},
+    {"name": "COSMOS Work-Order Runner", "action": "change_disable", "why": "its 15s duty becomes the Pulse cadence; the task stays registered so /change /enable is the entire rollback", "read_back": "schtasks /query /tn \"COSMOS Work-Order Runner\" /xml", "phase": "P3"},
+    {"name": "<11 parked Logon relaunch tasks - bind names at apply>", "action": "change_disable", "then": "rename_delme", "read_back": "schtasks /query /xml over the whole folder, entry count unchanged", "phase": "P1", "count": 11},
+    {"name": "<calendar-shaped jobs - bind names at apply>", "action": "register", "trigger": "calendar", "command": "<PY> <LIVE_COSMOS>\\<module>.py --once", "read_back": "schtasks /query /tn <name> /xml, then one observed fire", "phase": "P2"},
+    {"name": "COSMOS Health Supervise", "action": "keep", "why": "the only in-tree restarter of live Core :8770; untouched until P5", "read_back": "schtasks /query /tn \"COSMOS Health Supervise\" /xml"}
+  ],
+
+  "phases": [
+    {
+      "id": "P0",
+      "name": "Shadow - observe, dispatch nothing",
+      "does": "Pulse runs alongside the 26 loops in dry-run: it computes the due set and writes a SHADOW heartbeat under a distinct name. It dispatches nothing and claims nothing.",
+      "core_stop": false,
+      "core_restart": false,
+      "gate": "for one full day, the shadow due-set reproduces every observed live run for all 26 clocks within one tick; any clock whose real cadence disagrees with its declared period is re-declared before P1",
+      "rollback": "stop the shadow process; nothing else changed"
+    },
+    {
+      "id": "P1",
+      "name": "Leaf clocks - Pulse takes the ones with no claim surface and no Core dependency",
+      "does": "register COSMOS Pulse; leaf loops exit on a PULSE_OWNED flag file; their 11 Logon tasks are disabled and renamed _delme; the legacy heartbeat shim goes on",
+      "core_stop": false,
+      "core_restart": false,
+      "gate": "heartbeat continuity for every moved clock (no gap > stale_after_s); index green at 26 entries; cDeck glob green; schtasks read-back shows the parked tasks still registered",
+      "rollback": "delete the PULSE_OWNED flag and schtasks /change /enable the 11 parked tasks - the loops come back on next Logon or on demand"
+    },
+    {
+      "id": "P2",
+      "name": "Calendar migration - --once triggers, registered and read back",
+      "does": "clocks matching classification rule 6 move to Task Scheduler calendar triggers invoking <module> --once",
+      "core_stop": false,
+      "core_restart": false,
+      "gate": "each new trigger read back with /query /xml AND observed to fire once before its old loop is stood down",
+      "rollback": "disable the calendar trigger, re-enable the parked loop task"
+    },
+    {
+      "id": "P3",
+      "name": "Claim collapse - five surfaces become one pool.claim_next",
+      "does": "the four non-pool surfaces become adapters over pool.claim_next; Pulse drains the pool at most 4 claims per tick; the ~15s Work-Order Runner task is disabled and its cadence is served by the wheel",
+      "core_stop": false,
+      "core_restart": false,
+      "gate": "overlap test: zero double-claims across concurrent claimants; at least one typed LOST_CLAIM observed (a claim path that has never lost is a claim path nobody has seen contend); guard test proves no claim outside the pool; work-order end-to-end latency no worse than the 15s baseline",
+      "rollback": "re-enable the Work-Order Runner task; adapters keep their old bodies behind a flag for one release"
+    },
+    {
+      "id": "P4",
+      "name": "Collector under HOLD - required tick preserved",
+      "does": "the collector tick runs on the wheel with hold_required=true, so it fires while HOLD is set and every discretionary clock is skipped with a recorded reason",
+      "core_stop": false,
+      "core_restart": false,
+      "gate": "with HOLD set, the collector's tick count over an hour equals the pre-collapse count; every skipped clock carries reason HOLD; HOLD itself is untouched",
+      "rollback": "return the collector to its own loop; the flag file is the switch"
+    },
+    {
+      "id": "P5",
+      "name": "Core spawn handoff - Health --supervise hands the restarter role to Pulse",
+      "does": "Pulse takes a single-owner spawn lease with a fencing token; Health --supervise stops spawning only after the lease read-back confirms Pulse holds it. Core itself is never stopped: this transfers who would restart it, not whether it runs.",
+      "core_stop": false,
+      "core_restart": false,
+      "grants_core_spawn": true,
+      "gate": "the lease is single-owner under a forced contention test; :8770 answers on every 15s sample across the whole handoff window with zero misses; a deliberate Core kill in a REHEARSAL instance (never live) is restarted by Pulse within the same window Health achieved",
+      "rollback": "release the lease; Health --supervise resumes as restarter on its next tick. This phase is last precisely because it is the only one that can lose the restarter."
+    }
+  ],
+
+  "acceptance": [
+    {"check": "26 in, 26 out - the bound set equals the live set, name for name", "how": "pulse_bind.bind()", "status": "MEASURED on synthetic registries in tests/test_clocks_pulse_build.py; UNMEASURED against the live registry until COW exports it"},
+    {"check": "no schtask is deleted", "how": "pulse_bind allow-list + /delete pattern scan", "status": "MEASURED"},
+    {"check": "no phase stops or restarts Core", "how": "pulse_bind._check_phases over this manifest", "status": "MEASURED"},
+    {"check": "a cadence the grid would change must declare the gap it tolerates", "how": "pulse_bind + Clock.__post_init__ refusals (QUANTIZATION_UNDECLARED / QUANTIZATION_EXCEEDS_TOLERANCE)", "status": "MEASURED"},
+    {"check": "single-flight: a slow clock never doubles up", "how": "Pulse tick test with a Running handle", "status": "MEASURED"},
+    {"check": "over-budget work is deferred, never dropped", "how": "Pulse tick test", "status": "MEASURED"},
+    {"check": "HOLD keeps the collector and skips the rest, with reasons", "how": "Pulse tick test", "status": "MEASURED"},
+    {"check": "stale in-flight is reported and quarantined, never retried", "how": "Pulse tick test", "status": "MEASURED"},
+    {"check": "Pulse refuses to spawn Core before P5", "how": "Pulse tick test", "status": "MEASURED"},
+    {"check": "planted-red control going green publishes PULSE-BROKEN", "how": "Pulse verdict test", "status": "MEASURED"},
+    {"check": ":8770 answers on every sample across every phase", "how": "live sampler on the desktop", "status": "UNMEASURED - needs the live host; this lane cannot reach it and does not claim it"},
+    {"check": "cDeck glob and index stay green across the cutover", "how": "live panels", "status": "UNMEASURED - needs the live host"},
+    {"check": "work-order latency no worse than the 15s baseline", "how": "live end-to-end timing", "status": "UNMEASURED - needs the live host"}
+  ],
+
+  "rollback": {
+    "principle": "nothing is deleted, so every phase reverses with one verb",
+    "steps": [
+      "remove the PULSE_OWNED flag file - the loops resume owning their duty",
+      "schtasks /change /enable each parked task (they were never /delete'd, only disabled and renamed _delme)",
+      "disable COSMOS Pulse; Health --supervise is still the Core restarter unless P5 committed",
+      "if P5 committed: release the spawn lease and Health resumes on its next tick",
+      "the CLOCKS registry needs no rollback: it was never shrunk"
+    ]
+  },
+
+  "open_questions": [
+    "The three named context docs are missing from the repo - publish them or the boundary set stays partly unchecked.",
+    "Which of the 26 clocks tolerate a missed window? That predicate decides pulse.once vs calendar.once and only the live owner can answer it per clock.",
+    "What gap does each clock actually tolerate (max_interval_s)? Every clock whose period is not already a multiple of 15s needs that number from its owner, and the binder refuses until it has one. A clock that tolerates less than 15s cannot be Pulse-owned at this grid at all.",
+    "Does any non-pool claim surface hold state the pool does not model (lane, priority, attempt-private workspace)? P3 blocks until that is answered."
+  ]
+}
