@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/ORCHESTRATION.md [read*]; cosmos/cosmos_own_clocks.py [read*]; cosmos/cosmos_health_clock.py [read*]; cosmos/cosmos_pool.py [read*]; cosmos/cosmos_run.py [read*]; cosmos/cosmos_cdeck_feed.py [read*]; cosmos/cosmos_index.py [read*]; cosmos/cosmos_principles.py [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Route: CURSOR. Keith 2026-09-04: GitHub critics must see all 26 CLOCKS (cosmos/cosmos_own_clocks.py CLOCKS + each satellite .py) and PROPOSE the right process topology. Do not peek at any Grok/COW collapse text. Independent clone of github.com/keithbbf-gif/cosmos main. ANTHROPIC_OFF stays. Cursor Ultra Opus 5 (NOT Composer 2.5/Auto). PROBLEM: 26 resident python daemons for small different jobs. ASK: how many resident processes, which jobs stay calendar --once schtasks, which loops die, what couplings (heartbeats, PEER_HEARTBEATS, cDeck glob, index REQUIRED_DAEMONS, 13 Logon relaunches, five claim surfaces) must change, collapse order that does not take Core :8770 down. Health --supervise is the only in-tree restarter of live Core. Do not shrink CLOCKS. Do not /delete schtasks. Do not lift HOLD. Do not write V:\\Ai. PR titled WO: CLOCKS topology. Output proposals/clocks-topology.md. GitHub issue #31.",
+  "Target & scope": "Lane B: PR on keithbbf-gif/cosmos from Cloud Agent clone. proposals/ only. Never kernel/ledger/sched/service. Never live/config keys. Never V:\\Ai. Never schtasks /delete.",
+  "Timestamp": "2026-09-04T12:00:00-05:00",
+  "Output": "proposals | clocks-topology.md"
+}
