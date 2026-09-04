@@ -109,6 +109,12 @@ def main() -> int:
         return 0
     if a.cmd == "serve":
         from cosmos_service import Service
+        from cosmos_critics import attach_critics, pool_summary
+        # THE ONE ATTACH POINT for the crucible critic pool: after Kernel(), before
+        # the Service. Kernel() and Service() compose no critics themselves, so a
+        # crucible round on a bare kernel still answers 501 CRUCIBLE_NOT_RUNNABLE -
+        # and an absent family is named here rather than invented.
+        critic_report = attach_critics(k)
         host = "0.0.0.0" if a.remote else "127.0.0.1"
         svc = Service(k, host=host, port=a.port, tls=a.tls,
                       cert_file=a.cert, key_file=a.key,
@@ -123,6 +129,7 @@ def main() -> int:
         print(f"COSMOS API serving {svc.scheme}://{host}:{svc.port} "
               f"({remote_note}{tls_note}; "
               f"bearer token in config/api_token.txt; KDash: open kdash/index.html)")
+        print(pool_summary(critic_report), flush=True)
         try:
             svc.httpd.serve_forever()
         except KeyboardInterrupt:
