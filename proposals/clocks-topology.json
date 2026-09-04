@@ -1,0 +1,227 @@
+{
+  "schema": "cosmos-clocks-topology/1",
+  "work_order": "work_orders/drop/wo-20260904T120000.json",
+  "issue": 31,
+  "lane": "cursor-cloud-agent",
+  "status": "PROPOSE_ONLY",
+  "generated_from": "issue #31 normative table [WO] + in-repo ancestor modules [CODE]",
+  "evidence_warning": "None of the 26 satellite scripts, cosmos_own_clocks.py, or docs/ORCHESTRATION.md exist in this repository, on any branch, or anywhere in commit history. Every file link in issue #31 returns HTTP 404. Cadence and coupling fields below are transcribed from the issue, not read from source. See proposals/clocks-topology.md section 0.",
+
+  "dispositions": {
+    "note": "The four dispositions are the tree's own (cosmos_tools.py:27). Same vocabulary as cosmos_port_plan.PORT_DECISIONS so this file can be applied by the same pattern.",
+    "valid": ["PRESERVED", "ADAPTED", "REPLACED", "ABANDONED"]
+  },
+
+  "resident_processes": {
+    "count_before": 15,
+    "count_after": 4,
+    "count_after_if_cvm_not_realtime": 3,
+    "note": "count_before = Core + 14 resident CLOCKS rows. count_after = Core + P1 + P2 + P3.",
+    "processes": {
+      "P0": {
+        "name": "COSMOS Core",
+        "vehicle": "cosmos.py serve --port 8770, own schtasks /sc onlogon",
+        "is_clocks_row": false,
+        "absorbs": [],
+        "duty": "The :8770 API surface. Never stopped by this plan. Its START path must never route through P1; P1 only RESTARTS it.",
+        "constraints": ["never stopped", "independent onlogon entry", "ThreadingHTTPServer, already concurrent"]
+      },
+      "P1": {
+        "name": "cosmos_sentinel",
+        "vehicle": "resident, 2s tick, one ONLOGON entry",
+        "absorbs": [1, 6],
+        "duty": "Supervision and truth. Restarts Core :8770 (inherits row 6 --supervise). Restarts P2/P3 on stale heartbeat. Publishes the single fleet roll-up (expected roster vs observed). Owns the pause gate and is the sole unlinker of resume_gate (inherits row 1 WD2 duty).",
+        "constraints": [
+          "stdlib imports only",
+          "no foreign work",
+          "no subprocess except a fixed allow-list of restart commands",
+          "no paid rail",
+          "no claim surface",
+          "takes Arbiter lease on resource 'core-restart' before restarting Core"
+        ]
+      },
+      "P2": {
+        "name": "cosmos_tick",
+        "vehicle": "resident, 1s base tick",
+        "absorbs": [2, 16, 25],
+        "duty": "Short observational ticks only.",
+        "conditional": true,
+        "condition": "Exists ONLY if the CVM 2s cadence is a real latency requirement. If rows 16/25 do not drive a real-time interactive surface (<~250ms budget), P2 should not exist: collector becomes a 60s calendar --once and the CVM ticks follow, leaving 2 daemons + Core.",
+        "resolve_with": "grep -nE 'sleep|interval|latency|voice|speak|listen|record' cosmos/cosmos_cvm_clock.py builds/cvm-dt/cvm_dt_clock.py",
+        "constraints": ["never claims work", "never spawns a child", "per-job deadline; overrun is reported, never retried"]
+      },
+      "P3": {
+        "name": "cosmos_work",
+        "vehicle": "resident, event-driven (OS file-watch) + 5s floor",
+        "absorbs": [3, 14, 15, 17, 20, 21, 22, 26],
+        "duty": "The five claim surfaces, one lane thread each.",
+        "lanes": ["queue", "dispatch", "work_order", "buckets", "critique", "intake"],
+        "constraints": [
+          "one Arbiter lease per claim surface, so a second copy refuses HELD instead of double-claiming",
+          "every claim through the ledger optimistic-concurrency path (expect_head_seq), never the non-atomic file mutation",
+          "every child under run_tree_killed with a hard timeout"
+        ]
+      }
+    }
+  },
+
+  "rationale": {
+    "governing_rule": "Owner's own standing rule, work_orders/drop/wo-20260902T194500.json: 'default to single-daemon extension unless isolation clearly wins.' The burden of proof is on each ADDITIONAL process.",
+    "charter_violation": "README.md: 'Fully multithread capable by design. Concurrency is a property of the scheduler, not a flag on a script.' The 26-clock fleet makes concurrency a property of PROCESS COUNT. That is an architectural regression against a written requirement.",
+    "isolation_wins_twice": [
+      "A supervisor may not share a fault domain with what it restarts. Health --supervise is the only in-tree restarter of Core :8770.",
+      "An executor of foreign work may not share a fault domain with the observer that reports on it. A wedged 1800s child would otherwise mute the heartbeat, and the fleet would report dead when it is merely busy."
+    ],
+    "unit_of_concurrency": "A resident Python process is not the unit of concurrency; the child process is. Lane work is Popen+wait (I/O, not CPU), so the GIL is irrelevant and threads suffice. You do not need five interpreters to run five subprocesses.",
+    "cadence_rule": "cadence >= 60s -> calendar --once. cadence < 60s -> a tick inside a resident process. Unbounded duration -> a job on the queue, never a clock.",
+    "runtime_binding_hazard": "README.md names 'a scheduler executing eight-day-old code' as a founding failure. Every resident loop is pinned to the source on disk at logon; a --once task re-reads source on every fire and cannot execute stale code. P1/P2/P3 must therefore carry a version stamp and self-restart on source-hash change, or the collapse trades 14 small runtime-binding hazards for 3 large ones."
+  },
+
+  "clocks": {
+    "1":  {"clock": "Activity Clock (Watchdog2)", "cadence": "15s", "cadence_s": 15, "vehicle": "loop+logon", "script": "cosmos/cosmos_watchdog2.py", "disposition": "REPLACED", "successor": "cosmos_sentinel", "reason": "Resume-gate duty is control-plane. The only thing that can lift a pause must not live in a process that can be wedged by the work it paused. WD2 is the only unlinker of resume_gate."},
+    "2":  {"clock": "Collector", "cadence": "30s", "cadence_s": 30, "vehicle": "loop+logon", "script": "cosmos/cosmos_collector.py", "disposition": "REPLACED", "successor": "cosmos_tick + calendar backstop", "reason": "Observer. 30s cadence exceeds the 180s freshness anti_loss_daemons actually requires; gets a 120s calendar --once backstop that no-ops when P2 is fresh, because a duty that load-bearing should not have exactly one vehicle."},
+    "3":  {"clock": "Runner", "cadence": "15s", "cadence_s": 15, "vehicle": "loop+logon", "script": "cosmos/cosmos_run.py", "disposition": "REPLACED", "successor": "cosmos_work lane=queue", "reason": "Merges with row 15; live/queue gets exactly one claimer plus a lease."},
+    "4":  {"clock": "Motif Driver", "cadence": "15m", "cadence_s": 900, "vehicle": "once", "script": "cosmos/cosmos_motif_driver.py", "disposition": "PRESERVED", "successor": null, "reason": "Calendar --once is already correct: fire, run, exit, hold nothing."},
+    "5":  {"clock": "Mesh Discovery", "cadence": "hourly", "cadence_s": 3600, "vehicle": "once", "script": "cosmos/cosmos_discover.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is. NOTE: it is listed in index REQUIRED_DAEMONS despite being a calendar job, which is a pre-existing predicate bug — see couplings.index."},
+    "6":  {"clock": "Health", "cadence": "~2s", "cadence_s": 2, "vehicle": "loop+logon+supervise", "script": "cosmos/cosmos_health_clock.py", "disposition": "REPLACED", "successor": "cosmos_sentinel", "reason": "The --supervise duty survives byte-for-byte and gains P2/P3 restart. Only in-tree restarter of live Core :8770."},
+    "7":  {"clock": "Rails Prober", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_rails_prober.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "8":  {"clock": "Spend Meter", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_spend_meter.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "9":  {"clock": "Drive Meter", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_drive_meter.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "10": {"clock": "cDeck Feed", "cadence": "0.75s", "cadence_s": 0.75, "vehicle": "loop+logon", "script": "cosmos/cosmos_cdeck_feed.py", "disposition": "ABANDONED", "successor": "cosmos_service /api/v1 + P1 roll-up", "reason": "Three reasons. (1) The tree already ruled on it: cosmos_port_plan bts_kdash_feed -> 'KDash becomes an API projection client of cosmos_service /api/v1; no file-reading dashboard'. It came back. (2) It is a checker that cannot go red — fleet staleness is measured on the feed's OWN age, so killing eleven peers leaves the deck green. (3) 0.75s is a number, not a requirement; no human reads a dashboard at 1.3 Hz."},
+    "11": {"clock": "Backup", "cadence": "4x daily (07/11/19/23)", "cadence_s": 21600, "vehicle": "once", "script": "cosmos/cosmos_backup_clock.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "12": {"clock": "Ledger Verify", "cadence": "5m", "cadence_s": 300, "vehicle": "once", "script": "cosmos/cosmos_ledger_verify.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "13": {"clock": "Index", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_index.py", "disposition": "PRESERVED", "successor": null, "reason": "Vehicle correct as-is; its REQUIRED_DAEMONS predicate must split — see couplings.index."},
+    "14": {"clock": "Dispatcher", "cadence": "5s", "cadence_s": 5, "vehicle": "loop+logon", "script": "cosmos/cosmos_dispatcher_daemon.py", "disposition": "REPLACED", "successor": "cosmos_work lane=dispatch", "reason": "5s poll becomes an OS file-watch; cosmos_sched.wait_for_submission already prefers ReadDirectoryChangesW and reports the poll fallback as a recorded degradation."},
+    "15": {"clock": "Runner Pool", "cadence": "15s", "cadence_s": 15, "vehicle": "supervise+logon", "script": "cosmos/cosmos_pool.py", "disposition": "ABANDONED", "successor": "cosmos_work lane=queue / cosmos_sentinel", "reason": "Both duties die on merit. It is a SECOND claimer of live/queue alongside cosmos_run — two claimers on one surface is a race, not redundancy — and a SECOND supervisor alongside Health, which is how you get restart storms and two Cores."},
+    "16": {"clock": "CVM Clock", "cadence": "2s", "cadence_s": 2, "vehicle": "loop+logon", "script": "cosmos/cosmos_cvm_clock.py", "disposition": "REPLACED", "successor": "cosmos_tick", "reason": "Conditional on the CVM lever; if not real-time, becomes calendar and P2 disappears."},
+    "17": {"clock": "Work-Order Runner", "cadence": "15s", "cadence_s": 15, "vehicle": "loop+logon", "script": "cosmos/cosmos_work_order_run.py", "disposition": "REPLACED", "successor": "cosmos_work lane=work_order", "reason": "docs/WORK_ORDER_SOP.md documents ~15s pickup; that is preserved as a LATENCY BUDGET, not as a process."},
+    "18": {"clock": "Resession", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_resession.py", "disposition": "PRESERVED", "successor": null, "reason": "Vehicle correct as-is; must import the new shared cosmos_pause instead of its local classify_pause copy."},
+    "19": {"clock": "Askmine", "cadence": "hourly", "cadence_s": 3600, "vehicle": "once", "script": "cosmos/cosmos_askmine.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "20": {"clock": "CritConsumer", "cadence": "10s", "cadence_s": 10, "vehicle": "loop+logon", "script": "cosmos/cosmos_crit_consumer.py", "disposition": "REPLACED", "successor": "cosmos_work lane=critique", "reason": "One of the five claim surfaces; lowest blast radius, so it is retired first in the collapse order."},
+    "21": {"clock": "Grok Bucket Worker", "cadence": "5-15s", "cadence_s": 10, "vehicle": "loop+logon", "script": "cosmos/cosmos_grok_bucket_worker.py", "disposition": "REPLACED", "successor": "cosmos_work lane=buckets", "reason": "Two rails, one lane; cosmos_rails already models rails as adapters and cosmos_spend is breaker-in-the-caller, so a separate process buys no money guarantee."},
+    "22": {"clock": "GEM Bucket Worker", "cadence": "5-15s", "cadence_s": 10, "vehicle": "loop+logon", "script": "cosmos/cosmos_gem_bucket_worker.py", "disposition": "REPLACED", "successor": "cosmos_work lane=buckets", "reason": "Same lane as row 21, per-rail adapter."},
+    "23": {"clock": "NEW-AI Scout", "cadence": "hourly", "cadence_s": 3600, "vehicle": "once", "script": "cosmos/cosmos_newai_scout.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "24": {"clock": "Prepaid Orchestrator", "cadence": "1m", "cadence_s": 60, "vehicle": "once", "script": "cosmos/cosmos_prepaid_orch.py", "disposition": "PRESERVED", "successor": null, "reason": "Correct as-is."},
+    "25": {"clock": "CVM DT Clock", "cadence": "2s", "cadence_s": 2, "vehicle": "loop+logon", "script": "builds/cvm-dt/cvm_dt_clock.py", "disposition": "REPLACED", "successor": "cosmos_tick", "reason": "Conditional on the CVM lever. Separately: it lives under builds/, and a build-tree clock resident in production is worth its own question."},
+    "26": {"clock": "SGH Drop Ingest", "cadence": "15s", "cadence_s": 15, "vehicle": "loop+logon", "script": "cosmos/cosmos_sgh_drop_ingest.py", "disposition": "REPLACED", "successor": "cosmos_work lane=intake", "reason": "Network-facing (GitHub -> live bucket, per docs/WORK_ORDER_SOP.md step 2). Needs P3's timeout discipline, not a bare loop."}
+  },
+
+  "logon_relaunches": {
+    "before": 13,
+    "after": 1,
+    "disposition": "ABANDONED",
+    "reason": "ONLOGON is not supervision. It fires once at logon and never again, so a 03:00 crash stays dead until the next logon. Worse, a relaunch landing on a surviving process gives two claimers on one surface. One entry for P1; P1 starts and restarts P2/P3.",
+    "safety_property": "P0 (Core) keeps its OWN independent 'COSMOS Serve' ONLOGON entry, the existing in-tree pattern from cosmos_up.install_persistent. Core's START path never routes through P1. A P1 misconfiguration then costs the clocks, never Core.",
+    "live_state_note": "work_orders/drop/wo-20260902T191500.json records the fleet as already half-registered: 'Watchdog2 registered=false, logon_registered=true; only Work-Order Runner and SGH Drop Ingest 1-min registered=true'. Not a stable base to add to.",
+    "retirement_method": "schtasks /change /tn \"<name>\" /disable — NEVER /delete (P10). Reversible with /enable; entry stays visible for audit."
+  },
+
+  "couplings": {
+    "root_cause": "Four separate rosters currently answer 'who is supposed to be alive?' and none agree: PEER_HEARTBEATS, the cDeck glob, REQUIRED_DAEMONS, anti_loss_daemons. README.md names this failure class: 'a handoff asserting three different counts of the same fact.' Here it is four.",
+    "peer_heartbeats": {
+      "file": "cosmos/cosmos_health_clock.py",
+      "breaks": "Most named files stop being written; P1 reports a permanently red fleet — the 'checker that cannot go GREEN' defect cosmos_health.py exists to close. It is also a hardcoded name list, which README.md forbids outright ('No hard-coded paths').",
+      "also_wrong_today": "It carries cvm_dt_voice_heartbeat.json, which is not a CLOCKS row — so either the registry is missing a row or the watcher is watching a ghost.",
+      "fix": "Derive the roster from CLOCKS plus one explicit EXTRA_PEERS list. Split RESIDENT_PEERS (liveness) from FRESH_DUTIES (recency).",
+      "not_edited_in_this_pr": true,
+      "proposed_diff_location": "proposals/clocks-topology.md section 4.1"
+    },
+    "cdeck_glob": {
+      "file": "cosmos/cosmos_cdeck_feed.py",
+      "pattern": "logs/*heartbeat*.json",
+      "breaks": "SILENTLY, which is the dangerous kind. A glob is count-free and order-free: it cannot distinguish 'peer X is missing' from 'peer X was never there.' After collapse it returns 3 files instead of 15 and the deck looks HEALTHIER, not different. Combined with staleness measured on the feed's own age, a fleet that lost eleven processes still shows green.",
+      "fix": "Compare a DECLARED roster against observed — the expected-vs-observed shape HealthBoard already uses. Then pull it from Core /api/v1 rather than globbing.",
+      "note": ".gitignore:28 is *_heartbeat*.json, so heartbeats are correctly untracked — which means the roster must be declared IN CODE, never inferred from what happens to be on disk."
+    },
+    "index": {
+      "file": "cosmos/cosmos_index.py",
+      "symbol": "REQUIRED_DAEMONS",
+      "current": ["runner", "collector", "mesh_discovery"],
+      "already_wrong_today": "mesh_discovery is row 5, an hourly --once job. It is on a DAEMON LIVENESS list while being, by design, not resident. The predicate it actually wants is 'ran within the hour.' This is a pre-existing bug, independent of the collapse.",
+      "breaks": "After collapse there is no 'runner' process and no 'collector' process either, so 2 of 3 rows go red for the same reason.",
+      "fix": "Split the predicate: REQUIRED_RESIDENT (liveness) vs REQUIRED_FRESH (recency, each with its own cadence tolerance)."
+    },
+    "anti_loss_daemons": {
+      "file": "cosmos/cosmos_principles.py",
+      "current": "collector AND cosmos_runner_heartbeat.json, both <180s",
+      "breaks": "Both filenames vanish.",
+      "fix": "Assert on the DUTY, not the filename. P2/P3 write {duty, last_ok_epoch}; the predicate becomes 'the collector duty completed within 180s', which stays true across any future re-homing.",
+      "priority": "Highest. It guards data loss, so it gets BOTH the shim and the calendar backstop."
+    },
+    "claim_surfaces": {
+      "live_queue": {"claimers_today": 2, "detail": "cosmos_run AND cosmos_pool both claim_next — the one true double-claim", "after": "cosmos_work lane=queue, one, plus an Arbiter lease"},
+      "dispatch_bucket": {"claimers_today": 1, "after": "cosmos_work lane=dispatch"},
+      "work_order_bucket": {"claimers_today": 1, "after": "cosmos_work lane=work_order"},
+      "live_buckets_grok_gem": {"claimers_today": 2, "after": "cosmos_work lane=buckets, per-rail adapters"},
+      "critique_inbox": {"claimers_today": 1, "after": "cosmos_work lane=critique"},
+      "breaks": "Any operator habit of 'start another pool member for throughput.' Throughput now comes from lane concurrency and child processes, not from more claimers.",
+      "gains": "Every surface takes an Arbiter lease, so a second claimer is refused HELD instead of racing. The non-atomic mail-drop claim (cosmos_daemon.py:77-86 — in-place JSON mutation, no lock, no head check, last-writer-wins) is retired in favour of the ledger claim that already handles the race (cosmos_sched.py:98-122, expect_head_seq -> typed LOST_CLAIM).",
+      "open_question": "Whether cosmos_pool claims via the ledger or via the non-atomic file path determines whether today's double-claim is CONTAINED or SILENTLY CORRUPTING. Resolve with: grep -n 'claim_next' cosmos/cosmos_pool.py cosmos/cosmos_run.py"
+    },
+    "pause": {
+      "copies_today": ["cosmos_watchdog2", "cosmos_resession.classify_pause", "cosmos_pool.is_paused"],
+      "undocumented_gap": "SOP.md:23 documents a control/PAUSE.flag check that NO Python in this repository implements — grep for PAUSE.flag, resume_gate, classify_pause returns zero matches.",
+      "after_collapse": "Two of three copies disappear by construction (pool abandoned, WD2 folded into P1). The third — resession, a calendar job — survives and will drift alone.",
+      "fix": "One cosmos_pause module exporting classify_pause(); P1 and resession both import it.",
+      "ordering_constraint": "NOT OPTIONAL: P1 must become the resume_gate unlinker BEFORE WD2 stops. If the only process that can lift a pause is inside the set you just paused, you have deadlocked the fleet and the fix is a manual file delete on a machine you may not be at."
+    },
+    "stale_watchdog": {
+      "task": "COSMOS_Serve_Watchdog",
+      "points_at": "trylive:8791",
+      "severity": "LIVE HAZARD — first in the collapse order",
+      "evidence": "8791 and trylive appear NOWHERE in this repository (zero grep matches); .gitignore:69 ignores /trylive/. A registered Windows task is pointed at a port no code in the tree binds, inside a tree the repo deliberately ignores.",
+      "if_inert": "8791 answers nothing, the task no-ops. Harmless — still disable it.",
+      "if_live": "It resurrects a SECOND Core on a SECOND tree. Two Cores fighting over one live root is 'the scheduler ran the duplicate for six days' (README.md) recurring, with a supervisor actively keeping the duplicate alive.",
+      "check": ["Test-NetConnection -ComputerName localhost -Port 8791", "schtasks /query /tn \"COSMOS_Serve_Watchdog\" /v /fo LIST"],
+      "gate": "If 8791 answers, that is an incident, not a step. Do not collapse anything until resolved."
+    }
+  },
+
+  "collapse_order": {
+    "invariant": "At all times, at least one live process is able to restart Core :8770, and Core itself is never stopped. Two restarters is a recoverable condition. Zero restarters, even for one step, is not.",
+    "never": ["stop Core :8770", "schtasks /delete", "lift HOLD/PAUSE", "write V:\\Ai", "turn ANTHROPIC_OFF off"],
+    "rollback": "schtasks /change /tn \"<name>\" /enable and start the old loop. Because nothing is ever deleted, every step is reversible — which is why /disable is worth the extra audit noise.",
+    "steps": [
+      {"n": 0, "step": "Inventory, change nothing. Record every CLOCKS row -> schtasks entry, PID, heartbeat filename. This IS the expected roster the new deck needs.", "invariant_held_by": "existing Health --supervise", "gate": "Roster complete; every heartbeat file has a named owner."},
+      {"n": 1, "step": "Reconcile COSMOS_Serve_Watchdog -> trylive:8791. Confirm Health --supervise is the sole restarter of :8770, then /disable — never /delete.", "invariant_held_by": "existing Health", "gate": ":8791 confirmed not answering. If it answers, STOP — that is an incident."},
+      {"n": 2, "step": "Land P1 in OBSERVE-ONLY. It writes its heartbeat and roll-up; --supervise STAYS with the old health clock. Two observers, one restarter.", "invariant_held_by": "existing Health", "gate": "Soak. P1's verdict matches the old clock on every tick, INCLUDING at least one deliberately induced red — a checker that has never gone red has not been tested."},
+      {"n": 3, "step": "Hand over the Core supervise duty. Start P1 --supervise FIRST, stop the old health clock SECOND. Order is not negotiable.", "invariant_held_by": "brief overlap: both", "gate": "Both guard on 'is :8770 answering' AND take the Arbiter lease on resource 'core-restart' before acting, so the loser refuses HELD and the overlap cannot double-restart."},
+      {"n": 4, "step": "Shim the heartbeats. P1/P2/P3 write the LEGACY filenames in addition to their own. Nothing is removed yet.", "invariant_held_by": "P1", "gate": "REQUIRED_DAEMONS, anti_loss_daemons, and the cDeck glob all still see what they expect."},
+      {"n": 5, "step": "Collapse the observers. Start P2, soak, then stop the old loops ONE AT A TIME, confirming the deck stays green after each. /disable each ONLOGON entry. cDeck feed LAST — it is what you are watching the collapse through, so do not blind yourself mid-procedure.", "invariant_held_by": "P1", "gate": "Deck green after every individual stop."},
+      {"n": 6, "step": "Collapse the executors, ONE CLAIM SURFACE AT A TIME. Per surface: P3 takes the lease -> the old daemon's next claim refuses HELD -> stop the old daemon -> /disable its entry -> confirm the surface still drains. Order: critique, buckets, dispatch, work_order, queue. Lowest blast radius first.", "invariant_held_by": "P1", "gate": "Each surface drains a test item before moving on."},
+      {"n": "6a", "step": "live/queue specifically — the double-claimed one. Retire cosmos_pool's claim FIRST, confirm cosmos_run still drains ALONE, THEN move the lane to P3, THEN retire cosmos_run. Never both at once, or you cannot tell which one was doing the work.", "invariant_held_by": "P1", "gate": "Queue drains with exactly one claimer at each sub-step."},
+      {"n": 7, "step": "Move the pause gate. Land cosmos_pause. P1 becomes the resume_gate unlinker WHILE WD2 IS STILL UP as a fallback. Then pause and resume once, deliberately, to prove it. Only then stop WD2.", "invariant_held_by": "P1", "gate": "A real pause/resume round-trip succeeded with P1 driving."},
+      {"n": 8, "step": "Flip the readers, then drop the shims. Update PEER_HEARTBEATS / REQUIRED_DAEMONS / anti_loss_daemons to the new roster. PROVE EACH CAN STILL GO RED by inducing a failure. Only then stop writing the legacy shim names.", "invariant_held_by": "P1", "gate": "Every consumer demonstrated red, then green."},
+      {"n": 9, "step": "Retire the deck's glob. Point cDeck at Core /api/v1. Last, because it is the observation surface.", "invariant_held_by": "P1", "gate": "Deck matches P1's roll-up."}
+    ]
+  },
+
+  "falsification": [
+    {"claim": "14 loops cost materially more than 3", "falsified_if": "total WS/CPU is comparable", "check": "Get-Process python,pythonw | Measure-Object WS -Sum"},
+    {"claim": "CVM has no real-time surface, so P2 can be dropped", "falsified_if": "either CVM file drives audio or input", "check": "grep -nE 'voice|speak|listen|audio|record' cosmos/cosmos_cvm_clock.py builds/cvm-dt/cvm_dt_clock.py"},
+    {"claim": "Lane threads suffice for 5 surfaces", "falsified_if": "any lane does sustained CPU work rather than waiting on a child", "check": "grep -n 'Popen|run_tree_killed|subprocess' <each surface daemon>"},
+    {"claim": "Sub-second polling is unnecessary", "falsified_if": "no OS file-watch is available, so polling is the only vehicle", "check": "python -c \"import watchdog; print(watchdog.__version__)\""},
+    {"claim": "Row 15 is a genuine double-claim", "falsified_if": "pool claims a different surface than run", "check": "grep -n 'claim_next' cosmos/cosmos_pool.py cosmos/cosmos_run.py"},
+    {"claim": "8791 is dead", "falsified_if": "it answers", "check": "Test-NetConnection localhost -Port 8791"}
+  ],
+
+  "open_questions": [
+    "The 26 satellites are not in this repo. Everything marked [ASSUMED] rests on issue #31's prose.",
+    "Does CVM own a real-time surface? The single lever between 3 and 4 resident processes.",
+    "Is trylive:8791 live? Blocks collapse step 1.",
+    "Does cosmos_pool claim via the ledger or the non-atomic file path? Determines whether today's double-claim is contained or silently corrupting.",
+    "What writes cvm_dt_voice_heartbeat.json? It is in PEER_HEARTBEATS and is not a CLOCKS row.",
+    "Is standup_all idempotent? Steps 5 and 6 depend on stopping loops individually without a standup relaunching them behind you."
+  ],
+
+  "constraints_honoured": {
+    "clocks_tuple_shrunk": false,
+    "peer_heartbeats_edited": false,
+    "schtasks_touched": false,
+    "core_8770_touched": false,
+    "hold_pause_lifted": false,
+    "v_ai_written": false,
+    "anthropic_off": "unchanged",
+    "files_written": ["proposals/clocks-topology.md", "proposals/clocks-topology.json", "tests/test_clocks_topology.py"]
+  }
+}
