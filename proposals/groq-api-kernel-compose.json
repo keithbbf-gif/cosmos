@@ -1,0 +1,172 @@
+{
+  "record": "groq-api Kernel compose",
+  "work_order": "WO: groq-api Kernel compose (Lane B Cursor), 2026-09-04",
+  "lane": "Cursor Cloud Agent, Opus 5 (Composer 2.5 / Auto refused by the work order)",
+  "protocol": "P10 PROPOSE — nothing here is wired; CCr writes the live tree",
+  "satellite": {
+    "path": "cosmos/cosmos_groq_rail.py",
+    "state": "GATE PASS 2026-09-04, live --gate already PASS",
+    "present_in_this_clone": false,
+    "instruction": "NOT rewritten. This record proposes the ATTACH the satellite is missing, plus the seven invariants the attach depends on. proposals/groq_compose_ref.py::conformance() checks the live satellite against them."
+  },
+
+  "link": {
+    "link_id": "groq-api",
+    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "default_model": "openai/gpt-oss-20b",
+    "rail_type": "API",
+    "src": "core",
+    "dst": "models",
+    "policy_rank": 0,
+    "metered_usd": 0.002,
+    "budget_usd": 5.0
+  },
+
+  "never_sent": ["service_tier"],
+
+  "tier": {
+    "declared": "free",
+    "why_it_matters": "The two constraints in the work order — no service_tier=flex, and refuse Mixtral / Llama 3.x Free-Dev ids — are the same fact wearing two hats: this key is not on a committed-spend contract. Flex is paid-accounts-only (498 capacity_exceeded), and Groq's 2026-08-16 notice scopes the Llama 3.x retirement to 'free and developer-tier usage; enterprise customers with a committed-spend contract are not affected'. Encoding them as two unrelated hard-coded lists is how they drift apart. One declared tier drives both.",
+    "second_reason_flex_stays_refused": "Flex's own contract is 'fails fast with 498, add jittered backoff and retries'. cosmos_sched is report-never-retry (cosmos_sched.py:18). A rail that needs client-side retry to meet its contract cannot be driven by a scheduler that refuses to retry. Upgrading the key does not remove this reason."
+  },
+
+  "refusals": {
+    "mixtral-8x7b-32768": {"shutdown": "2025-03-20", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.1-70b-versatile": {"shutdown": "2025-01-24", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.1-70b-specdec": {"shutdown": "2025-01-24", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama3-70b-8192": {"shutdown": "2025-08-30", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama3-8b-8192": {"shutdown": "2025-08-30", "replacement": "openai/gpt-oss-20b", "tiers": ["free", "developer", "enterprise"]},
+    "llama3-groq-70b-8192-tool-use-preview": {"shutdown": "2025-01-06", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama3-groq-8b-8192-tool-use-preview": {"shutdown": "2025-01-06", "replacement": "openai/gpt-oss-20b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.2-1b-preview": {"shutdown": "2025-04-14", "replacement": "openai/gpt-oss-20b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.2-3b-preview": {"shutdown": "2025-04-14", "replacement": "openai/gpt-oss-20b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.2-11b-vision-preview": {"shutdown": "2025-04-14", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.2-90b-vision-preview": {"shutdown": "2025-04-14", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.3-70b-specdec": {"shutdown": "2025-04-14", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-guard-3-8b": {"shutdown": "2025-06-06", "replacement": "openai/gpt-oss-safeguard-20b", "tiers": ["free", "developer", "enterprise"]},
+    "llama-3.1-8b-instant": {"shutdown": "2026-08-16", "replacement": "openai/gpt-oss-20b", "tiers": ["free", "developer"]},
+    "llama-3.3-70b-versatile": {"shutdown": "2026-08-16", "replacement": "openai/gpt-oss-120b", "tiers": ["free", "developer"]}
+  },
+  "refusals_source": "https://console.groq.com/docs/deprecations, read 2026-09-04",
+  "refusals_family_net": "On free/developer, any unlisted Llama 3.x or Mixtral spelling is refused as well. A dated table is a cache of the vendor's catalog and goes stale silently, which is fail-open; the family net covers the Llama/Mixtral part of that window and GroqRail.probe_deep() covers the rest against GET /openai/v1/models, which consumes no tokens.",
+
+  "invariants": [
+    {
+      "id": "I1",
+      "statement": "compose is in-memory; a read-only kernel appends nothing at boot",
+      "enforced_by": "attach_groq_rail(read_only=True) returns after adapters[link]=rail and attach_probe; Registry.register (LINK_REGISTERED) and SpendGate.set_budget (BUDGET_SET) are skipped",
+      "risk_if_broken": "the B1 scar reopens — `cosmos status` beside `serve` becomes a second writer, two appends per boot",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I2",
+      "statement": "register/budget are idempotent - a re-boot must not re-register, because LINK_REGISTERED discards the last probe and unroutes the link",
+      "enforced_by": "attach checks registry.state() and spend.audit() first; the register goes through ledger.append_guarded so two kernels booting at once cannot both write",
+      "risk_if_broken": "MEASURED in this clone: register -> probe -> register leaves matrix() verified=None and route('core','models') == []. Every composed rail becomes permanently unroutable on a box that boots Core often.",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I3",
+      "statement": "refused model ids are refused LOCALLY, before key and socket, tier-scoped",
+      "enforced_by": "check_model() runs first in build_request(); refusal carries the shutdown date and the replacement id",
+      "risk_if_broken": "a round trip that can only fail, and an error message from the wire that names neither the date nor the replacement",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I4",
+      "statement": "service_tier never reaches the body; a caller-supplied one is refused",
+      "enforced_by": "FORBIDDEN_PARAMS refuses it (PARAM_REFUSED) and PASSTHROUGH_PARAMS is an allow-list, so omission — which IS on_demand — cannot be edited into flex by accident",
+      "risk_if_broken": "498 capacity_exceeded on a free key, and a retry requirement the scheduler refuses to meet",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I5",
+      "statement": "response.model is bound, and the SERVED id is re-checked against the table",
+      "enforced_by": "bind_served_model() reads data['model'], reports drift, and re-runs check_model on the served id -> MODEL_DRIFT",
+      "risk_if_broken": "a permitted request answered by a retired model reads as a clean success; SOP.md: read state back after every write",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I6",
+      "statement": "the credential never reaches a ledger payload, an error, or a result",
+      "enforced_by": "key resolved at dispatch time only; redact() applied to every detail string before it can be carried",
+      "risk_if_broken": "the authority ledger is an append-only hash chain with no delete — a secret written once is written forever, and removing it afterwards breaks the chain",
+      "proved_by": "tests/test_groq_compose.py"
+    },
+    {
+      "id": "I7",
+      "statement": "no socket without an injected transport; construction opens nothing",
+      "enforced_by": "transport injected at the composition boundary exactly as cosmos_kernel injects _https_get into ITC; construction reads no key and imports nothing optional",
+      "risk_if_broken": "composition can fail, and a rail that will not compose takes Core down with it",
+      "proved_by": "tests/test_groq_compose.py"
+    }
+  ],
+
+  "dispositions": {
+    "groq-api rail attach": {
+      "disposition": "ADAPTED",
+      "successor": "cosmos_registry + cosmos_rails",
+      "reason": "the satellite becomes a rail adapter reachable through the Dispatcher on the core->models route, exactly as bts_sgh/gem/gw/oa_api did; attach mirrors cosmos_node_rails.register_node_rails so the port is mechanical"
+    },
+    "boot composition": {
+      "disposition": "ADAPTED",
+      "successor": "cosmos_kernel",
+      "reason": "four lines under the existing boot_compose block: an adapter map, a guarded call, and a typed record on failure. The Kernel gains no Groq fact of its own — no endpoint, no model id, no refusal list — so there is no second declaration to drift"
+    },
+    "groq-api spend accounting": {
+      "disposition": "ADAPTED",
+      "successor": "cosmos_spend",
+      "reason": "metered_usd nonzero so cosmos_rails routes the call through the breaker at all; settles UNPRICED because Groq bills tokens, not dollars. A LOCAL refusal settles at a measured $0.00 instead, since a call that never left the process did not happen at an unknown price"
+    },
+    "groq-api liveness": {
+      "disposition": "ADAPTED",
+      "successor": "cosmos_health + cosmos_registry",
+      "reason": "shallow probe on the Registry (credential + permitted default model, zero requests, two ways to go red); deep catalog probe on the health board, because Registry.probe_all() is reached from status paths and a network fan-out there turns `cosmos status` into an egress event"
+    },
+    "transport": {
+      "disposition": "ADAPTED",
+      "successor": "cosmos_itc",
+      "reason": "the injected-fetcher seam ITC already uses, for the same stated reason: the module never opens the network itself, so no code path a test exercises can silently depend on reachability. Tests stay fake-HTTP with no mocking library"
+    },
+    "service_tier=flex": {
+      "disposition": "ABANDONED",
+      "successor": null,
+      "reason": "paid-accounts-only (498 capacity_exceeded on this key) AND its contract requires client-side jittered retry, which cosmos_sched refuses by design. Omitting the field selects on_demand"
+    },
+    "Mixtral and Llama 3.x free/dev model ids": {
+      "disposition": "ABANDONED",
+      "successor": null,
+      "reason": "retired by the vendor on dated notices; refused locally with the date and the replacement rather than round-tripped into a 400 model_decommissioned"
+    }
+  },
+
+  "kernel_patch": {
+    "file": "cosmos/cosmos_kernel.py",
+    "applied_in_this_pr": false,
+    "added_lines": 4,
+    "shape": "self.adapters = {}; if boot_compose: compose_into_kernel(self) — wrapped so a rail that will not compose cannot stop Core reaching READY",
+    "new_events": ["RAIL_COMPOSE_FAILED"],
+    "second_writer": false
+  },
+
+  "recommended_but_not_applied": {
+    "cosmos_registry.register_once": "Registry.register() offers no guarded variant, so the attach restates the LINK_REGISTERED payload to get an atomic check-then-append. Restating a contract in a second place is the drift this tree keeps closing. The durable fix is a register_once() on the Registry; until then the restatement is compared byte-for-byte against what Registry.register() writes, in the test.",
+    "cosmos_rails fallback kinds": "Dispatcher continues to the next live link only for UNREACHABLE / SESSION_EXPIRED / AUTH_REQUIRED. RATE_LIMITED (429) is arguably a fourth, but widening that set changes routing for every rail, so it is named here and not done."
+  },
+
+  "open_questions": [
+    "Which tier is the live key actually on? Everything above assumes free/developer, fail-closed. An enterprise committed-spend key legitimately keeps llama-3.3-70b-versatile and llama-3.1-8b-instant, and a blanket refusal would be wrong for it.",
+    "Does the live satellite already expose probe()/dispatch() in the tree's adapter shape, or does it expose ask() like the bts_* incumbents? If ask(), the attach wraps it in a NodeRail-style shim and nothing else changes.",
+    "Does the live Kernel's boot_compose block call a single attach function per rail (the firecrawl/cursor shape), or one combined register_*_rails()? Neither is visible from this clone; the attach signature mirrors register_node_rails so either lands.",
+    "Where does the live tree resolve GROQ_API_KEY — environment, config/secrets, or the .secrets file cosmos_port_plan names for bts_cursor? The reference reads the environment and never captures at import; the file provider is one function.",
+    "Should groq-api share the model-rail budget or hold its own? It holds its own $5 cap here, which makes it visible in spend.audit() as a separate row."
+  ],
+
+  "falsification": [
+    "If a read-only Kernel appends anything at boot after this lands, I1 is broken and the B1 scar is back: compare len(list(k.ledger.verify())) across Kernel(root, read_only=True) with and without boot_compose.",
+    "If `cosmos status` shows groq-api verified=None after Core has been up and probed, I2 is broken — something is re-registering on every boot.",
+    "If any SPEND_SETTLED for groq-api carries measured_usd 0.0 for a call that actually reached the API, the UNPRICED rule is being violated in the direction that hides spend.",
+    "If a 498 ever appears in the ledger, something re-enabled service_tier.",
+    "If grep of the authority ledger finds the key prefix, I6 is broken and the chain cannot be repaired — rotate the key, do not edit the ledger."
+  ]
+}
