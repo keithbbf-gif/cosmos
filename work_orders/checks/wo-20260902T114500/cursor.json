@@ -1,0 +1,80 @@
+{
+  "rail": "cursor",
+  "kind": "check",
+  "order": "wo-20260902T114500",
+  "drop": "work_orders/drop/wo-20260902T114500-05:00.json",
+  "status": "UNMEASURED",
+  "completed_order": false,
+  "wrote_live_tree": false,
+  "timestamp": "2026-09-02T13:23:29-05:00",
+  "agent_url": "https://cursor.com/agents/bc-48c38548-2848-4da4-95c6-7766a2a6c48d",
+  "branch": "cursor/runtime-binding-gate-proposal-9b22",
+  "proposal": {
+    "claimed_path": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T114500\\out\\proposals\\runtime-binding-gate.json",
+    "bytes_read": 0,
+    "sha256": null,
+    "reachable_from_this_rail": false
+  },
+  "reason": "Cursor CHECK could not read the named proposal; contents are UNMEASURED, not green.",
+  "objection": "Proposal Output is only cited at V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T114500\\out\\proposals\\runtime-binding-gate.json. This Cloud Agent cannot reach V: (docs/COSMOS_PIPELINE.md isolation row: the cloud container cannot reach V: by construction). The file is also absent from keithbbf-gif/cosmos, Google Drive title/fullText search for runtime-binding-gate.json, Slack (public+private), and this workspace. .gitignore ignores out/ and /live/, so a live-tree copy would stay invisible to git. Fix: deposit the exact proposal bytes onto this GitHub repo (work_orders/out/wo-20260902T114500/runtime-binding-gate.json) or attach them to the next Cursor CHECK prompt, then re-invoke this rail. Do not ask Cursor to read V:\\.",
+  "order_review": {
+    "status": "PASS_WITH_FINDINGS",
+    "sop_fields": {
+      "Agent": "ok — xAI | Grok | grok-4.6 (not Cursor, not Claude)",
+      "Context source": "present; all entries marked [read*]",
+      "Task": "ok — first lines require AGENT_BRIEF/AGENT_BOUNDARIES, P10 PROPOSE only, never write the live tree",
+      "Target & scope": "ok — proposals under Output only; never kernel/ledger/sched/service",
+      "Timestamp": "ok — 2026-09-02T11:45:00-05:00",
+      "Output": "ok — relative `proposals | runtime-binding-gate.json` (no V:\\, no /, no ..)"
+    },
+    "findings": [
+      {
+        "id": "CTX-MISSING-DHX",
+        "severity": "major",
+        "evidence": "Task and Context source require docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. Both files are absent from this repo (glob + read = not found). docs/WORK_ORDER_SOP.md also names docs/WORK_ORDER_SPEC.md as schema; that file is absent too.",
+        "fix": "Add the three docs to the GitHub tree, or stop listing them as [read*]. An Agent told to FIRST read missing DHx has no boundaries."
+      },
+      {
+        "id": "CHECK-CANNOT-SEE-OUTPUT",
+        "severity": "critical",
+        "evidence": "SOP step 5 says Cursor CHECK reviews the proposal, not the live tree. The runner pointed this rail at a V:\\ live Output path. That path is unreachable here, so the Cursor stamp cannot be PASS or FAIL on proposal text.",
+        "fix": "Work-Order Runner must copy Output into the Cloud Agent workspace or GitHub tree before invoking Cursor CHECK."
+      },
+      {
+        "id": "SUITE-GREEN-IS-NOT-THE-GATE",
+        "severity": "info",
+        "evidence": "docs/V1_SUITE_RESULTS.md records native suite PASS. No test in tests/ or cosmos/ emits a new-tree-only runtime marker (no last_run_epoch, no runtime-binding gate). Task statement of the gap matches the repo.",
+        "fix": "none on the order text — this is why the proposal exists"
+      }
+    ]
+  },
+  "acceptance_rubric_from_canon": {
+    "note": "Not a review of the unseen proposal. These are the bars the proposal must hit per the Context source the Agent was given. COW must not --accept until a later Cursor CHECK reads the bytes and measures them.",
+    "must_force_real_execution": "A process start of the new tree on Keith's Windows machine. Import, py_compile, reading source, and a green V1 suite log are reviews, not the gate (docs/COSMOS_PIPELINE.md: a gate is something that runs).",
+    "must_use_new_tree_only_marker": "Prove binding the way the 2026-08-22 repoint was proven: a field only the new tree can emit (precedent last_run_epoch in the heartbeat). Not an exit code. Not a green log.",
+    "must_fail_old_snapshot": "Negative control required: point the same harness at an old snapshot / old path / old interpreter / old task config and the gate must go RED by kind. OA named all four mismatch axes; missing any one is a hole.",
+    "must_cover_stage7_five": [
+      "Every scheduled task read back; each emits the new-tree-only marker",
+      "task_registry --check (successor cosmos_sched per cosmos_port_plan.py) → 0 red, machine count == registry count",
+      "Every READER moved with its WRITER",
+      "Integration run of all modules together",
+      "Rehearsed rollback (staging to _delme is not a tested rollback)"
+    ],
+    "must_match_stage1_done_item_10": "Health green from the new tree, proven by a new-tree-only marker; no relative paths or drive literals; every control file parses AND validates (docs/STAGE1_GOAL_SIGNED.md item 10).",
+    "must_run_on_this_machine": "Cloud PASS does not close the gate. docs/COSMOS_PIPELINE.md: stage 7 runtime gate happens on Keith's machine or it has not happened. GitLab CI may compile/import; it does not bind.",
+    "must_read_back": "C-59: read state back after every change; never trust rc=0. Task registrations via Set-ScheduledTask verified by read-back (STAGE1 item 5).",
+    "must_name_harness_files": "Concrete paths for any new test or helper (tests/ or a gate script). No .bat. Must not propose writes into live kernel/ledger/sched/service.",
+    "must_not_delete": "Never delete; stage to _delme. V:\\Ai stays the prior floor.",
+    "must_not_claim_dom_from_cloud": "DOM-rail behavior is local-only. A cloud-origin claim that a DOM rail works is a claim about code, not behavior."
+  },
+  "cow": {
+    "recommend": "hold",
+    "accept": false,
+    "reject": false,
+    "why": "Cannot --accept unseen Output. Cannot --reject unseen Output. Hold until proposal bytes are deposited where this rail can read them and a second Cursor CHECK returns PASS or FAIL."
+  },
+  "other_rails": {
+    "github_actions": "not stamped by this rail — SOP: UNMEASURED until a workflow exists; this repo has no .github/workflows",
+    "gitlab_ci": "not stamped by this rail — .gitlab-ci.yml exists but this pass is Cursor only"
+  }
+}
