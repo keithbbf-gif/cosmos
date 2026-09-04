@@ -12,6 +12,8 @@ House rules, applied to a proposal instead of to the tree:
 """
 from __future__ import annotations
 
+import contextlib
+import io
 import json
 import sys
 from pathlib import Path
@@ -292,12 +294,34 @@ def rows_negative_control():
         p = _pulse([leaf("ok")], lambda _c: Done("CLEAN"))
         return p.tick()["verdict"].startswith("PULSE-UNVERIFIED")
 
+    def control_is_never_deferred_by_budget():
+        clocks = [leaf(f"fat{i}", budget_ms=3000) for i in range(6)]
+        clocks.append(leaf("pulse.selftest.planted_red", planted_red=True,
+                           budget_ms=3000))
+        p = _pulse(clocks, lambda c: Done("BROKE" if c.planted_red else "CLEAN"),
+                   tick_budget_s=5.0)
+        r = p.tick()
+        return (r["deferred"] and "pulse.selftest.planted_red" in r["ran"]
+                and r["verdict"] == "GREEN")
+
+    def control_that_did_not_run_is_not_a_pass():
+        c = leaf("pulse.selftest.planted_red", planted_red=True)
+        p = _pulse([c, leaf("ok")], lambda _c: Done("CLEAN"))
+        p.quarantined[c.id] = "planted by the test: the control cannot run"
+        r = p.tick()
+        return (r["verdict"].startswith("PULSE-UNVERIFIED")
+                and "QUARANTINED" in r["verdict"])
+
     check("control: planted-red going GREEN publishes PULSE-BROKEN",
           planted_red_green_breaks_board)
     check("control: planted-red RED with everything else clean is GREEN",
           planted_red_red_is_green_board)
     check("control: a wheel with no planted row reports PULSE-UNVERIFIED",
           no_control_is_unverified)
+    check("control: budget pressure never defers the control row",
+          control_is_never_deferred_by_budget)
+    check("control: a control that could not run publishes PULSE-UNVERIFIED, not GREEN",
+          control_that_did_not_run_is_not_a_pass)
 
 
 # ------------------------------------------------------------------ claims
@@ -602,12 +626,20 @@ def rows_manifest():
 
 # ------------------------------------------------------------------ cli
 def rows_cli():
+    def quiet(*argv):
+        """Run the CLI without its report landing in the middle of this board."""
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = pulse_main(list(argv))
+        return rc, buf.getvalue()
+
     def unbound_plan_refuses_to_serve():
-        return pulse_main(["--plan", str(PLAN_PATH)]) == 2
+        rc, out = quiet("--plan", str(PLAN_PATH))
+        return rc == 2 and "UNBOUND_PLAN" in out
 
     def execute_is_refused():
         try:
-            pulse_main(["--plan", str(PLAN_PATH), "--execute"])
+            quiet("--plan", str(PLAN_PATH), "--execute")
         except PulseError as e:
             return e.kind == "REFUSED_PROPOSAL_ONLY"
         return False
@@ -622,7 +654,8 @@ def rows_cli():
                                          encoding="utf-8") as fh:
             json.dump(plan_with(rows), fh)
             path = fh.name
-        return pulse_main(["--plan", path, "--ticks", "2"]) == 0
+        rc, out = quiet("--plan", path, "--ticks", "2")
+        return rc == 0 and '"verdict": "GREEN"' in out
 
     check("cli: an unbound plan REFUSES to serve (an empty wheel is a silent outage)",
           unbound_plan_refuses_to_serve)

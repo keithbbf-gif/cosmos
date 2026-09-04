@@ -100,6 +100,17 @@ compute the same spread.
 that can plausibly exceed the budget is not in-process at all — it is dispatched as a `--once` child,
 so one slow duty cannot hold the wheel hostage.
 
+The budget is a real constraint, not decoration: a dry run of 27 clocks all declaring 250 ms admitted
+21 of them and deferred 6 to the next tick. Whether the real 26 fit is a **P0 measurement**, not an
+assumption — and if they do not, the answer is more `pulse.once` children (which cost the tick only
+their spawn) or longer declared periods with declared tolerances, never a quietly bigger budget.
+
+**The negative control is exempt from all of it.** The planted-red row is never deferred by budget
+pressure, and if it is due and does not run for any reason, the verdict is `PULSE-UNVERIFIED` — not
+GREEN. This is not hypothetical: the first version of this engine deferred the control under budget
+pressure and published GREEN off a control that never ran. A checker that never ran is
+indistinguishable from one that passed, and the dry run above is what caught it.
+
 **Single-flight.** A clock still running when its next slot arrives is **skipped, and the skip is
 recorded**. Ticks never queue up behind a slow job. This is the same shape as the double-claim bug the
 scheduler already closed: overlap is where two copies of one duty come from.

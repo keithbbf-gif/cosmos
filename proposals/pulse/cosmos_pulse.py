@@ -331,7 +331,12 @@ class Pulse:
                         f"{c.id}: refused - Pulse does not own Core spawn; Health "
                         f"--supervise is still the restarter")
                 continue
-            if spent + (c.budget_ms / 1000.0) > self.tick_budget_s and report["ran"]:
+            # The negative control is never deferred. A control that did not run this tick
+            # is indistinguishable from one that passed, and budget pressure is exactly
+            # when a board most needs to know it can still go red.
+            if (not c.planted_red
+                    and spent + (c.budget_ms / 1000.0) > self.tick_budget_s
+                    and report["ran"]):
                 # never drop: the clock keeps its place at the head of the next tick
                 self.deferred.append(c.id)
                 report["skipped"][c.id] = SKIP_BUDGET
@@ -425,6 +430,10 @@ class Pulse:
             if rec and rec["outcome"] == "CLEAN":
                 return ("PULSE-BROKEN: the planted-red clock reported CLEAN - this tick "
                         "cannot detect failure, so none of its greens mean anything")
+            if c.due_at(report["tick_seq"]) and c.id not in report["ran"]:
+                return (f"PULSE-UNVERIFIED: the negative control {c.id} was due and did not "
+                        f"run ({report['skipped'].get(c.id, 'no reason recorded')}) - a "
+                        f"control that did not run is not a control that passed")
         if not planted:
             return ("PULSE-UNVERIFIED: no planted-red clock in the plan - a wheel with no "
                     "negative control has never been seen to fail")

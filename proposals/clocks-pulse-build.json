@@ -76,7 +76,9 @@
     "negative_control": {
       "clock": "pulse.selftest.planted_red",
       "contract": "must report BROKE on every tick; a CLEAN here publishes verdict PULSE-BROKEN and no green is reported",
-      "rationale": "a wheel with no planted failure has never been seen to fail"
+      "exempt_from_budget": true,
+      "did_not_run_is_not_a_pass": "if the control is due and does not run for ANY reason, the verdict is PULSE-UNVERIFIED, never GREEN",
+      "rationale": "a wheel with no planted failure has never been seen to fail, and a control that did not run is indistinguishable from one that passed"
     },
     "refusals_at_boot": [
       "UNBOUND_PLAN - an empty wheel that starts is a silent outage",
@@ -251,6 +253,8 @@
     {"check": "stale in-flight is reported and quarantined, never retried", "how": "Pulse tick test", "status": "MEASURED"},
     {"check": "Pulse refuses to spawn Core before P5", "how": "Pulse tick test", "status": "MEASURED"},
     {"check": "planted-red control going green publishes PULSE-BROKEN", "how": "Pulse verdict test", "status": "MEASURED"},
+    {"check": "a control that did not run publishes PULSE-UNVERIFIED, never GREEN", "how": "Pulse verdict test", "status": "MEASURED"},
+    {"check": "the declared in-process costs of the Pulse-owned clocks fit the 5s tick budget", "how": "P0 shadow run against real cadences", "status": "UNMEASURED - a dry run of 27 clocks at 250ms each admitted 21 and deferred 6, so this is a real constraint to measure, not an assumption"},
     {"check": ":8770 answers on every sample across every phase", "how": "live sampler on the desktop", "status": "UNMEASURED - needs the live host; this lane cannot reach it and does not claim it"},
     {"check": "cDeck glob and index stay green across the cutover", "how": "live panels", "status": "UNMEASURED - needs the live host"},
     {"check": "work-order latency no worse than the 15s baseline", "how": "live end-to-end timing", "status": "UNMEASURED - needs the live host"}
