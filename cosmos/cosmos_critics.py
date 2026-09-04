@@ -271,7 +271,9 @@ class GrokSghCritic(Critic):
             return {"ok": False, "kind": "CLI_FAILED", "model": self.binary,
                     "detail": f"rc={r.get('rc')}: {tail}"}
         out = (r.get("out") or "").strip()
-        model = self.binary
+        # the envelope names the model it actually used; absent that, all we can
+        # honestly report is the binary we started
+        model = os.path.basename(self.binary)
         try:
             data = json.loads(out)
             text = data.get("text") or ""
