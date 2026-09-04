@@ -103,7 +103,7 @@
       "also_refused": ["<a target=_blank> to the web app", "?q= prefill URL", "meta-refresh"]
     },
     "G_vertex_or_api_rail": {"verdict": "OUT_OF_SCOPE_BY_WO", "reason": "an API answer is not a side panel"},
-    "H_c1_conpty": {"verdict": "DEFERRED_BY_WO", "measured": "git grep -ci ConPTY -> 0 files tree-wide"},
+    "H_c1_conpty": {"verdict": "DEFERRED_BY_WO", "measured": "git grep -ci ConPTY origin/main -> 0 files", "grep_scope_note": "scope the grep to origin/main or exclude proposals/ - this proposal mentions ConPTY, so an unscoped grep on the merged branch matches itself"},
     "I_command_line_switch": {
       "verdict": "DOES_NOT_EXIST",
       "note": "--glic-always-open-fre forces the ONBOARDING dialog, which is the opposite of wanted - it re-prompts consent"
@@ -186,7 +186,7 @@
     "no_iframe": {"how": "refused, and Google enforces it upstream anyway (MEASURED)"},
     "not_gemini_web_app": {"how": "different product; no window.open, no target=_blank, no prefill URL"},
     "not_vertex": {"how": "no API rail touched; cosmos_rails, cosmos_spend, bts_gem unmodified"},
-    "not_c1_conpty": {"how": "deferred; zero ConPTY references tree-wide (MEASURED)"},
+    "not_c1_conpty": {"how": "deferred; zero ConPTY references on main (MEASURED)"},
     "no_cvm_voice_motif": {"how": "cosmos_voice.py not opened, not read, not changed; Voice refine TABLED"},
     "propose_only": {"how": "two files under proposals/; zero lines changed in cosmos/, tests/, docs/, work_orders/"},
     "pr_30_and_32": {"how": "not merged, not rebased, not commented; branched from main at 14addfc"}
@@ -233,7 +233,7 @@
   "measurements_taken_this_session": [
     {"what": "gemini.google.com/app framing headers", "command": "curl -sS -D - -o /dev/null https://gemini.google.com/app", "result": "HTTP/2 200; x-frame-options: DENY; content-security-policy: default-src 'none'", "conclusion": "the no-iframe constraint is enforced by Google's server, not by house policy"},
     {"what": "absence of every named cDeck/brief context path", "command": "git log --all --oneline -- <path>", "result": "0 commits for each of docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, builds/cdeck/ORCH_HOME_SPEC.md, builds/cdeck/ui/*, work_orders/drop/wo-20260904T125500.json"},
-    {"what": "ConPTY references tree-wide", "command": "git grep -ci ConPTY", "result": "0 files"},
+    {"what": "ConPTY references on main", "command": "git grep -ci ConPTY origin/main", "result": "0 files"},
     {"what": "repository test suite, run as .gitlab-ci.yml runs it", "command": "python -m py_compile cosmos/*.py; for t in tests/test_*.py; do python \"$t\"; done", "result": "compile OK; 31/31 test files PASS, before and after this change"}
   ]
 }

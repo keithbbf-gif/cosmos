@@ -82,7 +82,7 @@ It renders in a side panel as of the Gemini 3 Chrome update **[CHROME]** ([blog.
 | E | `iframe` of `gemini.google.com` | **REFUSED — blocked by Google** | Not policy. Physics. §7.1 |
 | F | `window.open('https://gemini.google.com/app')` | **REFUSED by [WO]**, and wrong anyway | Different product (§1). Also the deck's own "do not window.open the web app". |
 | G | Vertex AI / `bts_gem` / any API rail | **OUT OF SCOPE by [WO]** | An API answer is not a side panel. Explicitly excluded. |
-| H | C1 ConPTY | **DEFERRED by [WO]** ("later") | No ConPTY anywhere in this tree: `git grep -ci ConPTY` → 0 files. **[MEASURED]** |
+| H | C1 ConPTY | **DEFERRED by [WO]** ("later") | Nothing to defer *from*: `git grep -ci ConPTY origin/main` → 0 files. **[MEASURED]** (Scope the grep to `origin/main`, or exclude `proposals/` — this document mentions ConPTY, so an unscoped grep on the merged branch matches itself.) |
 | I | Command-line switch | **DOES NOT EXIST** | No Chrome switch opens glic. `--glic-always-open-fre` forces the *onboarding* dialog **[CHROME]**, which is the opposite of what you want — it re-prompts consent. |
 
 ---
@@ -295,7 +295,7 @@ So that both deck modes render the *same* refusal, Core should own it: a read-on
 | No iframe | §7.1 — and Google enforces it anyway. **[MEASURED]** |
 | Not `gemini.google.com/app` | §1 — different product. No `window.open`, no `target=_blank`, no prefill URL. |
 | Not Vertex | No API rail is touched. `cosmos_rails`, `cosmos_spend`, `bts_gem` unmodified. An API answer is not a side panel. |
-| Not C1 ConPTY | Deferred. Zero ConPTY references in tree. **[MEASURED]** |
+| Not C1 ConPTY | Deferred. Zero ConPTY references on `main` (§1.1 H). **[MEASURED]** |
 | No CVM/Voice MOTIF | `cosmos_voice.py` not opened, not read, not changed. Voice refine TABLED. |
 | PROPOSE only | Two files under `proposals/`. Zero lines changed in `cosmos/`, `tests/`, `docs/`, `work_orders/`. |
 | Do not merge #30 / #32 | Not merged, not rebased, not commented. Branched from `main` at `14addfc`. |
