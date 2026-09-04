@@ -1,0 +1,239 @@
+{
+  "schema": "cosmos-cdeck-gem-side-panel/1",
+  "work_order": "work_orders/drop/wo-20260904T125500.json",
+  "work_order_state": "ABSENT_FROM_REPO",
+  "issue": 35,
+  "spec": "builds/cdeck/ORCH_HOME_SPEC.md P7",
+  "spec_state": "ABSENT_FROM_REPO",
+  "lane": "cursor-cloud-agent",
+  "model": "claude-opus-5",
+  "status": "PROPOSE_ONLY",
+  "prose": "proposals/cdeck-p7-gemini-side-panel.md",
+
+  "evidence_warning": "docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, builds/cdeck/ORCH_HOME_SPEC.md, builds/cdeck/ui/* and the named work-order JSON do not exist in this repository, on any branch, or anywhere in commit history (0 commits touch each path). The cDeck UI was NOT read. No symbol in app.js is named anywhere in this proposal. Claims are tagged CODE / CHROME / MEASURED / WO / ASSUMED in the prose; see section 0.",
+
+  "claim_tags": {
+    "CODE": "read from source in this repository, path and line cited",
+    "CHROME": "read from Chromium source, Chrome Enterprise policy templates, the DevTools Protocol definition, or Google published Chrome documentation",
+    "MEASURED": "a command was run in this session and its output is quoted",
+    "WO": "asserted by the work order / issue #35, taken on trust, not verified here",
+    "ASSUMED": "inference; carries the command that settles it"
+  },
+
+  "headline_finding": {
+    "id": "PROFILE_GUARANTEE_IS_NOT_AVAILABLE_FROM_THE_HOTKEY",
+    "statement": "The Alt+G hotkey is a browser-global setting; Gemini entitlement is a per-profile setting. A browser-global control cannot make a per-profile guarantee.",
+    "source": "chrome/browser/glic/glic_pref_names.cc: glic.launcher_enabled and glic.launcher_hotkey are registered in RegisterLocalStatePrefs (User Data\\Local State, one per installation); glic.completed_fre is registered in RegisterProfilePrefs (User Data\\Profile 2\\Preferences, one per profile).",
+    "tag": "CHROME",
+    "resolution": "Do not steer the hotkey. Remove the ambiguity: gate on glic.completed_fre being completed on EXACTLY ONE profile, and that profile being the resolved Profile 2. Then the browser-global hotkey has only one profile it can open. See gate 7.",
+    "converts": "an unguaranteeable requirement into a checkable precondition, the same move as cosmos_surfaces.qualify_backup_target"
+  },
+
+  "secondary_findings": [
+    {
+      "id": "ALT_G_IS_CHROMES_NOT_CDECKS",
+      "statement": "Alt+G is the published Windows accelerator for open/close Gemini in Chrome. cDeck must SEND it and must NEVER RegisterHotKey it.",
+      "tag": "CHROME",
+      "hazard": "RegisterHotKey is exclusive. cDeck either loses with ERROR_HOTKEY_ALREADY_REGISTERED (1409, silent if unchecked) or WINS and steals Alt+G from Chrome, breaking Keith's working native shortcut and forcing cDeck to synthesize the keystroke it just intercepted."
+    },
+    {
+      "id": "ACCELERATOR_MUST_BE_READ_NOT_HARDCODED",
+      "statement": "The shortcut is user-remappable and its current value lives in Local State under glic.launcher_hotkey as an accelerator string. Hardcoding Alt+G fails silently the day it is remapped.",
+      "tag": "CHROME",
+      "rule": "Read glic.launcher_hotkey and send what it says; refuse HOTKEY_MISMATCH if it disagrees with what GEM is about to synthesize, printing both values."
+    },
+    {
+      "id": "GEM_IS_A_TOGGLE",
+      "statement": "Command::kOpenGlic was renamed Command::kPanelToggle with prevent_close = false. Pressing while open CLOSES the panel. cDeck has no channel to read panel state.",
+      "tag": "CHROME",
+      "consequence": "Open-only semantics cannot be built honestly on an unobservable toggle. Label GEM a toggle. Do not send twice to 'make sure' - that reliably guarantees it is closed. State observability is not recoverable by ANY available surface, including Option B.",
+      "success_return": "TOGGLE_NOT_OBSERVABLE"
+    },
+    {
+      "id": "LAUNCHER_DEFAULT_IS_FALSE",
+      "statement": "RegisterLocalStatePrefs registers kGlicLauncherEnabled as false; it is auto-enabled on onboarding acceptance only when Chrome is default browser or on the stable channel.",
+      "tag": "CHROME",
+      "consequence": "'the toolbar button works' and 'Alt+G works' are DIFFERENT FACTS. Gate 8 is the single most likely reason a correct implementation appears to do nothing."
+    }
+  ],
+
+  "invocation_surfaces": {
+    "A_native_accelerator": {
+      "verdict": "RECOMMENDED",
+      "mechanism": "surface a Profile 2 window, then SendInput the accelerator read from glic.launcher_hotkey",
+      "reason": "the only surface that both exists and reaches the real signed-in profile",
+      "precondition": "gate 7 (uniqueness)"
+    },
+    "B_ui_automation_invoke": {
+      "verdict": "ESCALATION_ONLY",
+      "mechanism": "UIA Invoke on the Gemini toolbar button of a known Profile 2 window; IDC_OPEN_GLIC is a per-window browser command and a window belongs to exactly one profile",
+      "buys": "profile determinism with no uniqueness precondition and no dependence on kGlicHotkeyLocalScope",
+      "costs": "COM via ctypes against UIAutomationCore - real weight against the stdlib-only house rule that cosmos_browser.py:17-19 already invokes to reject a websocket CDP client; also UI-fragile, binds to an accessible name Google renames",
+      "does_not_fix": "toggle observability",
+      "escalate_when": "Keith genuinely needs two glic-entitled profiles, so gate 7 cannot be satisfied"
+    },
+    "C_cdp_openGlic": {
+      "verdict": "REFUSED_STRUCTURALLY_IMPOSSIBLE",
+      "exists": true,
+      "command": "Browser.executeBrowserCommand{commandId:'openGlic'}",
+      "allowed_values": ["openTabSearch", "closeTabSearch", "openGlic"],
+      "tag": "CHROME",
+      "why_dead": "From Chrome 136 --remote-debugging-port and --remote-debugging-pipe are IGNORED against the default Chrome data directory and must be paired with a non-standard --user-data-dir. A non-standard user-data-dir is a fresh profile that is not signed in. Gemini in Chrome is not available for Chrome profiles that are not signed-in. Therefore: automation surface XOR Gemini entitlement, never both.",
+      "chain": "CDP surface => non-default user-data-dir => profile not signed in => glic unavailable; Profile 2 => default user-data-dir => no CDP surface",
+      "not_a_bug_to_wait_out": "it is the intended effect of a deliberate anti-cookie-theft change; Google's stated alternative is Chrome for Testing, which is precisely not Keith's profile",
+      "corollaries": [
+        "Do NOT attach a debugging port to Keith's real profile. The port has no authentication; anything that can reach it reads every cookie and live session in that profile.",
+        "This also kills the CDP-preflight hybrid. The section 5 preflight is therefore all file and registry reads, no browser attach.",
+        "GEM must NOT be built as a DomWorker job: DomWorker.run_attempt creates a fresh profile per attempt by contract (cosmos_dom.py:52-60), which is the exact thing that makes glic unavailable."
+      ]
+    },
+    "D_extension_side_panel": {
+      "verdict": "REFUSED",
+      "reason": "chrome.sidePanel hosts an extension page; it cannot host Google's glic, no extension API invokes IDC_OPEN_GLIC, and embedding gemini.google.com inside it is blocked by X-Frame-Options"
+    },
+    "E_iframe": {
+      "verdict": "REFUSED_BLOCKED_UPSTREAM",
+      "reason": "gemini.google.com/app returns x-frame-options: DENY and content-security-policy default-src 'none'",
+      "tag": "MEASURED",
+      "note": "the constraint is Google's server, not house policy - it cannot be relaxed by a later work order"
+    },
+    "F_window_open_web_app": {
+      "verdict": "REFUSED_BY_WO_AND_WRONG_PRODUCT",
+      "reason": "Google documents Gemini in Chrome as a different thing from gemini.google.com and from @gemini in the omnibox; the web app cannot see page content or drive Live mode",
+      "also_refused": ["<a target=_blank> to the web app", "?q= prefill URL", "meta-refresh"]
+    },
+    "G_vertex_or_api_rail": {"verdict": "OUT_OF_SCOPE_BY_WO", "reason": "an API answer is not a side panel"},
+    "H_c1_conpty": {"verdict": "DEFERRED_BY_WO", "measured": "git grep -ci ConPTY origin/main -> 0 files", "grep_scope_note": "scope the grep to origin/main or exclude proposals/ - this proposal mentions ConPTY, so an unscoped grep on the merged branch matches itself"},
+    "I_command_line_switch": {
+      "verdict": "DOES_NOT_EXIST",
+      "note": "--glic-always-open-fre forces the ONBOARDING dialog, which is the opposite of wanted - it re-prompts consent"
+    }
+  },
+
+  "preflight_gates": [
+    {"n": 1, "gate": "enterprise policy allows Gemini", "source": "HKLM\\Software\\Policies\\Google\\Chrome: GeminiSettings != 1, GenAiDefaultSettings != 2, GlicEnabled != 0", "refusal": "POLICY_BLOCKED", "tag": "CHROME"},
+    {"n": 2, "gate": "Chrome binary found", "source": "cosmos_browser.discover_browser() (cosmos_browser.py:61)", "refusal": "UNREACHABLE", "tag": "CODE"},
+    {"n": 3, "gate": "Chrome version supports the side panel experience", "source": "chrome.exe --version", "refusal": "VERSION_TOO_OLD"},
+    {"n": 4, "gate": "display name and profile directory resolve to each other", "source": "Local State -> profile.info_cache", "refusal": "PROFILE_UNRESOLVED", "note": "'Profile 2' is a DIRECTORY name; 'Keith BBF' is a DISPLAY name in profile.info_cache['Profile 2'].name. The mapping is arbitrary and reorderable. docs/AGENTS.md already forbids inventing paths."},
+    {"n": 5, "gate": "that profile is signed in", "source": "non-empty gaia_id / user_name in the same info_cache entry", "refusal": "PROFILE_NOT_SIGNED_IN", "note": "glic is unavailable in Incognito and for profiles that are not signed-in"},
+    {"n": 6, "gate": "Gemini onboarding completed on it", "source": "Profile 2\\Preferences -> glic.completed_fre", "refusal": "FRE_INCOMPLETE", "tag": "CHROME", "keiths_click": true, "forbidden": ["writing glic.completed_fre", "passing --glic-always-open-fre", "clicking through the consent dialog"], "house_rule": "AUTH is Keith's click, never automated (cosmos_browser.py:174-175, cosmos_dom.py:74-75)"},
+    {"n": 7, "gate": "it is the ONLY glic-entitled profile", "source": "glic.completed_fre across every profile directory in User Data", "refusal": "PROFILE_AMBIGUOUS", "is_the_recommendation": true, "detail_must_name": "which other profile is entitled", "rationale": "a 50% chance of opening Gemini on the wrong Google identity is worse than a refusal, because the refusal is visible and the wrong-profile open is not", "type_drift": "glic.completed_fre was a boolean in the Jan-2025 policy CL and is an integer FreStatus enum in current glic_pref_names.h; the reader must accept bool AND int and treat an unrecognised shape as NOT entitled, never as entitled"},
+    {"n": 8, "gate": "launcher / hotkey is on", "source": "Local State -> glic.launcher_enabled", "refusal": "LAUNCHER_DISABLED", "tag": "CHROME", "registered_default": false},
+    {"n": 9, "gate": "the accelerator is the one we will send", "source": "Local State -> glic.launcher_hotkey", "refusal": "HOTKEY_MISMATCH"},
+    {"n": 10, "gate": "a Profile 2 window exists or can be surfaced", "source": "window enumeration, else chrome.exe --profile-directory=\"Profile 2\"", "refusal": "NO_PROFILE_WINDOW"}
+  ],
+
+  "gates_not_locally_readable": {
+    "region_and_language": "US / en-US gradual rollout is a real eligibility gate but is not locally readable, so it is not a gate row. It surfaces as a dispatch that lands and produces no panel - which is exactly why the success return is TOGGLE_NOT_OBSERVABLE and not OK.",
+    "tag": "CHROME"
+  },
+
+  "hotkey_scope": {
+    "feature_flag": "kGlicHotkeyLocalScope",
+    "default": "disabled",
+    "disabled_behavior": "global hotkey handled by GlicBackgroundModeManager - handled AHEAD of the focused window, so focusing a Profile 2 window first does NOT make the dispatch profile-deterministic",
+    "enabled_behavior": "scoped to Chrome-focused, handled by InstanceIndependentHotkeyManager - focus then determines the browser, so focus-first WOULD be profile-deterministic",
+    "tag": "CHROME",
+    "consequence": "cDeck does not control this flag, so it must not depend on either behavior. Gate 7 makes the dispatch correct under both."
+  },
+
+  "typed_refusals": {
+    "precedent_chosen": "SurfaceError (cosmos_surfaces.py:44-54) defines its own kinds for its own domain; DomError (cosmos_dom.py:26-31) has a fixed four-word vocabulary. GEM is a new domain, so it follows SurfaceError with a GlicError(kind, detail), reusing UNREACHABLE and BROKE VERBATIM so the ledger vocabulary does not fork for concepts that already have words.",
+    "kinds": {
+      "NOT_ADDRESSABLE": "caller has no channel to browser UI (browser-served deck)",
+      "POLICY_BLOCKED": "gate 1",
+      "PROFILE_UNRESOLVED": "gate 4",
+      "PROFILE_NOT_SIGNED_IN": "gate 5",
+      "FRE_INCOMPLETE": "gate 6",
+      "PROFILE_AMBIGUOUS": "gate 7",
+      "LAUNCHER_DISABLED": "gate 8",
+      "HOTKEY_MISMATCH": "gate 9",
+      "NO_PROFILE_WINDOW": "gate 10",
+      "VERSION_TOO_OLD": "gate 3",
+      "UNREACHABLE": "no Chrome binary - reused from DomError",
+      "BROKE": "mid-dispatch failure, outcome unestablished - reused from DomError, report-never-retry"
+    },
+    "success_return": {
+      "kind": "TOGGLE_NOT_OBSERVABLE",
+      "is_an_error": false,
+      "why": "GEM dispatched an accelerator; it cannot prove a panel opened. The tree is explicit that a screenshot is never proof of a paid action (cosmos_dom.py:9) and that evidence is EVIDENCE, not proof of a remote commitment (cosmos_dom.py:85-87). A keystroke is weaker evidence than a screenshot. Returning OK would be the green-log-over-nothing defect cosmos_surfaces was written to stop."
+    },
+    "verdict_spec_conformance": "every refusal detail must be self-contained and name the exact file/symbol and the fix, per docs/VERDICT_SPEC.md:24 - Ara reads it aloud and Keith fixes it from the headphones with no desktop. 'doesn't work' is an invalid refusal."
+  },
+
+  "browser_served_deck": {
+    "verdict": "TYPED_REFUSAL_PLUS_COPY_QUERY",
+    "why": "a page served from Core :8770 runs in the renderer sandbox: it cannot synthesize OS keystrokes, read Local State, read the registry, enumerate windows, or invoke IDC_OPEN_GLIC. Nothing in the browser-served path can open a Chrome side panel. That is not a gap to close; it is the sandbox working.",
+    "refusal_kind": "NOT_ADDRESSABLE",
+    "must_not": ["window.open the web app", "<a target=_blank> to the web app", "?q= prefill URL", "meta-refresh"],
+    "shared_refusal": "Core should own the refusal so both deck modes render the same object: a read-only GET /api/v1/gem/preflight returning the gate results as JSON. Read-only, additive, NOT APPLIED in this PR; Core :8770 stays up untouched.",
+    "clipboard": {
+      "api": "navigator.clipboard.writeText",
+      "requires": ["secure context", "transient activation"],
+      "secure_context_holds": "the tree serves the deck over HTTPS - phone_url is https://{FQDN}:8770/ (tests/test_up.py:95,137), and secure context is scheme-based so a self-signed cert still qualifies",
+      "caveats": [
+        "the write must happen INSIDE the click handler, not after an await on the preflight fetch, or the activation is gone",
+        "if the deck is ever served over plain http:// to a LAN IP the API is absent entirely - keep a document.execCommand('copy') fallback on a hidden textarea",
+        "do not report 'copied' without checking the promise resolved"
+      ]
+    }
+  },
+
+  "invariants_held": {
+    "tree_id": {"value": "KMesh-COSMOS-live", "how": "GEM never calls cosmos_kernel.install(); it constructs Paths(root, expected_tree_id='KMesh-COSMOS-live') which REFUSES on mismatch (cosmos_paths.py:119-125). Re-stamping a live root already refuses (cosmos_kernel.py:225-244). Nothing here writes a sentinel."},
+    "core_8770": {"how": "the only Core change proposed is one additive read-only GET, not applied in this PR. No restart, no serve() change, no port change."},
+    "no_v_ai_write": {"how": "no absolute path is written anywhere; output is two files under proposals/"},
+    "no_iframe": {"how": "refused, and Google enforces it upstream anyway (MEASURED)"},
+    "not_gemini_web_app": {"how": "different product; no window.open, no target=_blank, no prefill URL"},
+    "not_vertex": {"how": "no API rail touched; cosmos_rails, cosmos_spend, bts_gem unmodified"},
+    "not_c1_conpty": {"how": "deferred; zero ConPTY references on main (MEASURED)"},
+    "no_cvm_voice_motif": {"how": "cosmos_voice.py not opened, not read, not changed; Voice refine TABLED"},
+    "propose_only": {"how": "two files under proposals/; zero lines changed in cosmos/, tests/, docs/, work_orders/"},
+    "pr_30_and_32": {"how": "not merged, not rebased, not commented; branched from main at 14addfc"}
+  },
+
+  "file_level_change_list": {
+    "note": "NOTHING below is in this PR. This is the shape for CCr.",
+    "new": [
+      {"path": "builds/cdeck/gem_preflight.py", "does": "the ten gates; pure reads of Local State, per-profile Preferences, registry policy and chrome.exe --version; returns a GlicError-shaped object or a pass with every measured value attached", "must_not": ["write", "synthesize input", "attach a browser"]},
+      {"path": "builds/cdeck/gem_dispatch.py", "does": "Option A only: surface a Profile 2 window, SendInput the accelerator READ from glic.launcher_hotkey, return TOGGLE_NOT_OBSERVABLE", "must_not": ["RegisterHotKey"]},
+      {"path": "builds/cdeck/ui/", "does": "GEM wired to preflight-then-dispatch; refusal panel rendering kind + detail; copy-query fallback; labelled a TOGGLE"}
+    ],
+    "modified": [
+      {"path": "cosmos/cosmos_service.py", "does": "additive read-only GET /api/v1/gem/preflight", "must_preserve": "POST semantics and the existing 501-on-unattached pattern pinned by tests/test_rest_surface.py, which passes today (MEASURED) and must still pass"},
+      {"path": "builds/cdeck/ORCH_HOME_SPEC.md", "does": "P7 amended with: Alt+G is Chrome's, GEM is a toggle, the uniqueness gate, and the ten gates"}
+    ],
+    "explicitly_not_created": ["a new daemon", "a new CLOCKS row", "a schtasks entry", "a clipboard poller"],
+    "why_no_clock": "a button is an event, not a clock. GEM runs on click and exits.",
+    "tests_to_write": "gates 1/4/5/6/7/8/9 are pure functions over JSON and registry dicts - unit-testable with fixtures and NO Chrome present, which is the FakeDriver discipline the tree already uses to prove failure paths a real browser cannot be asked to produce on demand (cosmos_dom.py:9-11). Include a fixture for glic.completed_fre as a bool AND as an int."
+  },
+
+  "not_done": [
+    {"item": "did not create work_orders/drop/wo-20260904T125500.json", "why": "absent from the repo; writing it would mean inventing four of the six required fields (Agent, Context source, Target & scope, Output per docs/WORK_ORDER_SOP.md:11-18), and inventing WO fields is worse than a missing file. Per docs/WORK_ORDER_SOP.md:42 Agent stays 'xAI | Grok | grok-4.6' with 'Route: CURSOR' in Task, because Cursor may not be the Agent field."},
+    {"item": "did not write a Verdict object", "why": "docs/VERDICT_SPEC.md assigns that to the executing lane writing back into the work-order JSON, and there is no work-order JSON here to write into"},
+    {"item": "did not read the cDeck UI, and named no symbol in it", "why": "there is no builds/ directory in this repository. No btnGem, no handler name, no line number - anything said about app.js would be fabricated. The change list is a shape, not a patch."}
+  ],
+
+  "falsifiers": [
+    {"check": "glic entitlement is not unique to Profile 2", "command": "Get-ChildItem \"$env:LOCALAPPDATA\\Google\\Chrome\\User Data\" -Directory | % { \"$($_.Name): \" + (Get-Content \"$($_.FullName)\\Preferences\" -Raw | ConvertFrom-Json).glic.completed_fre }", "falsifies": "gate 7 - forces Option B"},
+    {"check": "the launcher / hotkey is off", "command": "(Get-Content \"$env:LOCALAPPDATA\\Google\\Chrome\\User Data\\Local State\" -Raw | ConvertFrom-Json).glic | Select launcher_enabled, launcher_hotkey", "falsifies": "gates 8/9; explains 'GEM does nothing'"},
+    {"check": "policy blocks Gemini", "command": "reg query \"HKLM\\Software\\Policies\\Google\\Chrome\" /v GeminiSettings ; chrome://policy", "falsifies": "gate 1 - nothing else matters"},
+    {"check": "the display name is not on 'Profile 2'", "command": "(Get-Content \"...\\Local State\" -Raw | ConvertFrom-Json).profile.info_cache | ConvertTo-Json -Depth 3", "falsifies": "gate 4"},
+    {"check": "CDP is somehow reachable on the real profile", "command": "attach to http://127.0.0.1:<port>/json/version with Profile 2 live", "falsifies": "surface C - reopens Option C and raises a security question needing its own decision"},
+    {"check": "--profile-directory focuses rather than opens a window", "command": "& \"$env:ProgramFiles\\Google\\Chrome\\Application\\chrome.exe\" --profile-directory=\"Profile 2\" ; count top-level Chrome windows before/after", "falsifies": "the stray-window side effect"}
+  ],
+
+  "open_questions": [
+    {"q": "the verbatim text of ORCH_HOME_SPEC.md P7", "why_open": "file absent from this repository"},
+    {"q": "does cDeck's desktop shell have a native host able to call SendInput at all?", "why_open": "cDeck UI not readable here", "impact": "BIGGEST UNKNOWN IN THIS PROPOSAL - if the shell is pure WebView2 with no host bridge, Option A is unavailable in BOTH modes and the browser-served refusal is the whole feature until a host exists"},
+    {"q": "Chrome's installed version and channel on the box", "why_open": "not readable from this clone", "impact": "gates 3 and 8"},
+    {"q": "is kGlicHotkeyLocalScope enabled in that build?", "why_open": "not readable from this clone", "impact": "hotkey scope; gate 7 makes the dispatch correct either way"}
+  ],
+
+  "measurements_taken_this_session": [
+    {"what": "gemini.google.com/app framing headers", "command": "curl -sS -D - -o /dev/null https://gemini.google.com/app", "result": "HTTP/2 200; x-frame-options: DENY; content-security-policy: default-src 'none'", "conclusion": "the no-iframe constraint is enforced by Google's server, not by house policy"},
+    {"what": "absence of every named cDeck/brief context path", "command": "git log --all --oneline -- <path>", "result": "0 commits for each of docs/AGENT_BRIEF.md, docs/AGENT_BOUNDARIES.md, builds/cdeck/ORCH_HOME_SPEC.md, builds/cdeck/ui/*, work_orders/drop/wo-20260904T125500.json"},
+    {"what": "ConPTY references on main", "command": "git grep -ci ConPTY origin/main", "result": "0 files"},
+    {"what": "repository test suite, run as .gitlab-ci.yml runs it", "command": "python -m py_compile cosmos/*.py; for t in tests/test_*.py; do python \"$t\"; done", "result": "compile OK; 31/31 test files PASS, before and after this change"}
+  ]
+}
