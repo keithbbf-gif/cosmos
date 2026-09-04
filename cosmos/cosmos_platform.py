@@ -34,14 +34,22 @@ class PlatformError(RuntimeError):
         super().__init__(f"[{kind}] {detail}")
 
 
-def run(argv: list[str], timeout_s: float = 120, cwd: str | None = None) -> dict:
+def run(argv: list[str], timeout_s: float = 120, cwd: str | None = None,
+        env: dict | None = None) -> dict:
     """The ONE way COSMOS starts a process. Returns {rc, out, err, elapsed_s,
-    timed_out, kill_result}. A string command is REFUSED - argv only."""
+    timed_out, kill_result}. A string command is REFUSED - argv only.
+
+    env=None inherits this process's environment. A CALLER THAT MUST WITHHOLD A
+    VARIABLE PASSES THE WHOLE ENVIRONMENT IT WANTS THE CHILD TO SEE (the grok-sgh
+    critic withholds XAI_API_KEY so the CLI bills the subscription pool instead of
+    the prepaid API credit). The UTF-8 discipline is still forced on top - the
+    caller chooses the environment, not the encoding."""
     if isinstance(argv, str):
         raise PlatformError("SHELL_REFUSED",
                             "run() takes an argv LIST - a string implies a shell, and "
                             "a shell has opinions about punctuation (%, !, emoji, ^)")
-    env = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
+    env = dict(os.environ if env is None else env,
+               PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
     t0 = time.time()
     kill_result = None
     try:
@@ -60,12 +68,14 @@ def run(argv: list[str], timeout_s: float = 120, cwd: str | None = None) -> dict
 
 
 def run_tree_killed(argv: list[str], timeout_s: float = 120,
-                    cwd: str | None = None) -> dict:
+                    cwd: str | None = None, env: dict | None = None) -> dict:
     """run() with WHOLE-TREE kill on timeout (Windows: taskkill /T /F on the pid).
-    The kill outcome is REPORTED - a kill that half-worked must say so."""
+    The kill outcome is REPORTED - a kill that half-worked must say so. env carries
+    the same contract as run(): the caller owns the child's environment."""
     if isinstance(argv, str):
         raise PlatformError("SHELL_REFUSED", "argv list only")
-    env = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
+    env = dict(os.environ if env is None else env,
+               PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
     t0 = time.time()
     proc = subprocess.Popen(argv, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                             cwd=cwd, env=env, shell=False)
