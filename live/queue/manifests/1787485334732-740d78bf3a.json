@@ -1,0 +1,9 @@
+{
+ "job_id": "1787485334732-740d78bf3a",
+ "command": "print('cosmos live: hello from the runner')",
+ "priority": "high",
+ "timeout_s": 1800,
+ "lane": "default",
+ "submitter": "cutover",
+ "submitted": 1787485334.7321012
+}
