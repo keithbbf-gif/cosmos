@@ -1,0 +1,65 @@
+{
+  "rail": "cursor",
+  "kind": "CHECK",
+  "wo_id": "wo-20260902T005038-e27005ae",
+  "status": "UNMEASURED",
+  "reason": "Proposal bytes never reached this rail. Runner handed a V: path; the cloud container cannot read V: and no copy of cdeck_selector_todos_proposal.json exists on any surface this rail can open.",
+  "objection": "Work-Order Runner CHECK dispatch for wo-20260902T005038-e27005ae: do not pass V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T005038-e27005ae\\out\\out\\cdeck_selector_todos_proposal.json as the only artifact. Attach the proposal body (or sha256 + GitHub-reachable copy under work_orders/checks/) in the Cursor Cloud Agent prompt. Re-invoke this rail once; do not treat this UNMEASURED stamp as PASS and do not COMPLETE the order.",
+  "proposal_path_claimed": "V:\\A\\Ai\\COSMOS\\live\\work\\orders\\wo-20260902T005038-e27005ae\\out\\out\\cdeck_selector_todos_proposal.json",
+  "proposal_bytes_read": 0,
+  "proposal_sha256": null,
+  "proposal_reviewed": false,
+  "complete": false,
+  "live_tree_written": false,
+  "cow_action": "do-not-accept-on-this-rail",
+  "surfaces_tried": [
+    {
+      "surface": "prompt-attachment",
+      "result": "ABSENT",
+      "detail": "User text named the V: path only; no JSON body, no hash."
+    },
+    {
+      "surface": "windows-live-tree",
+      "result": "UNREACHABLE",
+      "detail": "Cloud container has no V:. SOP and COSMOS_PIPELINE: checks run against the proposal, not the live tree; this dispatch inverted that."
+    },
+    {
+      "surface": "github.com/keithbbf-gif/cosmos",
+      "result": "ABSENT",
+      "detail": "No cdeck_selector_todos_proposal.json, no wo-20260902T005038-e27005ae drop, no cdeck/selector hits on main or listed branches."
+    },
+    {
+      "surface": "work_orders/drop",
+      "result": "ABSENT",
+      "detail": "Drop box has later SGH orders only (113100 through 115500)."
+    },
+    {
+      "surface": "google-drive",
+      "result": "ABSENT",
+      "detail": "Exact title/id search empty. Broader cdeck hits are Aug-31 build/backup artifacts (selectors-*.d, CORE_CDECK_PROBE.json), not this proposal."
+    },
+    {
+      "surface": "slack",
+      "result": "ABSENT",
+      "detail": "No messages or files for cdeck_selector_todos_proposal or wo-20260902T005038."
+    },
+    {
+      "surface": "gmail",
+      "result": "ABSENT",
+      "detail": "No threads for those identifiers."
+    },
+    {
+      "surface": "prior-cloud-agents",
+      "result": "ABSENT",
+      "detail": "Lane-verify and Google Flash transcripts have no this wo_id, no CHECK schema, no proposal body."
+    }
+  ],
+  "incumbent_note": "Drive backup shows cDeck as V:\\A\\Ai\\COSMOS\\builds\\cdeck (Tauri + ui/{index.html,app.js,app.css}). That is context, not a review of the missing proposal.",
+  "timestamp": "2026-09-02T18:23:16Z",
+  "bcId": "bc-9aa5cae9-5c70-4101-a2d1-c24407839ce5",
+  "branch": "cursor/cdeck-selector-proposal-check-7453",
+  "canon": [
+    "docs/WORK_ORDER_SOP.md",
+    "docs/VERDICT_SPEC.md"
+  ]
+}
