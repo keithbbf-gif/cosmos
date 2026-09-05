@@ -225,6 +225,7 @@ _CDECK_PANEL_MOD = {
     "/api/v1/fleet": "cosmos_fleet_panel",
     "/api/v1/nodemap": "cosmos_nodemap_panel",
     "/api/v1/jukebox": "cosmos_jukebox_panel",
+    "/api/v1/recents": "cosmos_recents_panel",
 }
 
 

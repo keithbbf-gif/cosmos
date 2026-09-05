@@ -13,7 +13,7 @@
 | Engine ingest | `%USERPROFILE%\.local\share\opencode\opencode.db` `ses_cow_*` | Do not re-ingest |
 | Sidebar groups | `%APPDATA%\openwork\runtime.sqlite` 7 groups / 666 | workspace_id `ws_12669390bcf4` |
 | Rebind proof | `V:\Streams\openwork\cm\cow_migrator_rebind.json` | 2026-09-05T18:38:01 — leftover Chat → grant path |
-| Leftover CLI+plugin | Chat `tools\claude-to-openwork\` + `.opencode\plugins\claude-migrator.js` | Archive. Also copied onto `V:\Streams\openwork\tools\` |
+| Seed CLI+plugin | Grant `tools\cowork_to_openwork\` + `.opencode\plugins\cowork_to_openwork.js` | **Keith 2026-09-05 name.** Old `claude-to-openwork` staged `_delme\`. Share rules: `tools/cowork_to_openwork/SHARE.md` |
 | Askmine redact | `cosmos/cosmos_askmine.py` | Secrets redaction already a detector |
 | Crash carry-over | `SEED.json` HMAC, `BUCm.toml`, `BUrestart.toml`, `docs/RESESSION_SOP.md` | CCr vs ORC chairs are **different** sits |
 | Improper close | Grok session logs, `running_session_file.toml` | Named in RESESSION SOP |
