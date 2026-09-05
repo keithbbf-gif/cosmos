@@ -34,9 +34,14 @@ from cosmos_kernel import install                                     # noqa: E4
 from cosmos_own_clocks import CLOCKS                                  # noqa: E402
 from cosmos_watchdog2 import parse_md_checkboxes                      # noqa: E402
 
-STAGED_CLOCKS = (ROOT / "_delme"
-                 / "predispose_own_clocks_f63_20260831T121200Z"
-                 / "cosmos_own_clocks.py")
+# Prefer the live `_delme` predecessor when present (host bite). GitLab
+# clones omit `_delme/` (gitignore); the tracked fixture is the same pin.
+STAGED_CLOCKS_LIVE = (ROOT / "_delme"
+                      / "predispose_own_clocks_f63_20260831T121200Z"
+                      / "cosmos_own_clocks.py")
+STAGED_CLOCKS_FIXTURE = ROOT / "tests" / "fixtures" / "clocks_pre_f63.py"
+STAGED_CLOCKS = (STAGED_CLOCKS_LIVE if STAGED_CLOCKS_LIVE.is_file()
+                 else STAGED_CLOCKS_FIXTURE)
 
 assert classify_segment is not None
 

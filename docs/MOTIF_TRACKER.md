@@ -1,5 +1,12 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-05 MOTIF 1-8 restart: GitHub live + CI gate -->
+## Disposition — CCr (Keith: cascade 1-8 repeat)
+- **Gate:** GitHub+GitLab `main` = `59e2711` (live tree, no 164MB apk). GitLab pipeline 2823395411 **failed 64/66** `test_askmine` (Linux `/tmp` as missing; bite `_delme` gitignored). **Squash this pass:** sandbox `/tmp|/root` UNKNOWN on every host; tracked `tests/fixtures/clocks_pre_f63.py`. Host `test_askmine` **66/66**.
+- **Loop:** MOTIF 1→8 on unimplemented + bugs. Dual-lane: Lane A this TUI/CCr · Lane B Cursor Opus 5. Do not merge #30/#32/#36/#37/#38. Pulse P0 already in tree (`cosmos_pulse.py`). Next iterate: CLOCKS collapse (observe-only until Logon order) + remaining cDeck BACKLOG rows (not C1). WO `wo-20260905T234800.json` Route CURSOR.
+- **Plugin:** Cowork→OpenWork migrator after GitHub — GitHub landed; CCr next, not ORC recode.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-04 MOTIF running: design-code-critique-check-iterate -->
 ## Disposition — COW (Keith: COSMOS building COSMOS)
 - **Loop:** designing → coding → critiquing → checking → repeating via canon (`docs/MOTIF.md` 1→8). Dual-lane: Lane A Grok 4.6 **CCr** · Lane B Cursor Opus 5. **Keith 2026-09-04:** this TUI is **Grok 4.6 Build**, pen **`V:\A`**, **current CCr**. Writes WOs, runs GitHub/Cursor/GitLab, reviews/refines, **writes the COSMOS live tree** under `CCR.lease`. Critics: GitHub Copilot + GitLab Duo. Check: GitLab CI / `--gate`. Not an endpoint.
@@ -456,7 +463,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-05T17:45:00.306548-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-05T18:30:00.264989-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->

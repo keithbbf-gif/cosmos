@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/MOTIF.md [read*]; docs/ORCHESTRATION.md [read*]; docs/BACKLOG.md [read*]; builds/cdeck/KDECK_BACKLOG.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5. Refuse Composer 2.5 / Auto. Independent clone of github.com/keithbbf-gif/cosmos default branch (now 59e2711 live tree). Do not peek local uncommitted COSMOS. Do not merge PRs #30 #32 #36 #37 #38. ANTHROPIC_OFF stays for COSMOS claude -p. MOTIF 1-8 on TWO items: (1) CLOCKS collapse — one 15s HOLD-aware Pulse + cosmos_pool claim_next + --once calendar; observe-only P0 first; do not /delete Logon; do not take Core :8770 down; harvest ideas from PR #38 without merging it. (2) Remaining cDeck BACKLOG rows that are BACKLOG not BLOCKED/DO-NOT (not C1 ConPTY). Propose diffs under Output. GitLab CI is the execute-the-gate.",
+  "Target & scope": "proposals under Output only; fence cosmos/ pulse+pool+own_clocks AND builds/cdeck/ ui; never ledger/kernel/service rewrite; never V:\\Ai Legal",
+  "Timestamp": "2026-09-05T23:48:00-05:00",
+  "Output": "proposals | RESULT.json"
+}
