@@ -992,16 +992,14 @@ def disk_check(paths: list[str], elsewhere: dict | None = None) -> dict:
     found, missing, unknown, moved = [], [], [], []
     for p in paths:
         pp = Path(p)
-        # POSIX `/tmp` and `/root` in a transcript are SANDBOX paths on every
-        # host. Linux CI has a real /tmp; calling `/tmp/inspect.py` "missing"
-        # there is a fabricated absence about a Cowork file this miner cannot
-        # judge (and the ask often WANTED it gone). On Windows, any POSIX
-        # absolute path is the same class.
+        # Transcript POSIX sandbox files are `/tmp/inspect.py` (one component
+        # under /tmp or /root). Linux CI tempdirs live under /tmp/tmpXXXX/…
+        # and MUST still be judged. On Windows, any POSIX absolute path is
+        # the same sandbox class (this host cannot see that filesystem).
         posix = str(p).replace("\\", "/")
-        first = ""
-        if posix.startswith("/") and posix != "/":
-            first = posix.strip("/").split("/", 1)[0]
-        if first in ("tmp", "root") or (os.name == "nt" and str(p)[:1] in "/\\"):
+        parts = [x for x in posix.split("/") if x]
+        shallow_posix = (len(parts) == 2 and parts[0] in ("tmp", "root"))
+        if shallow_posix or (os.name == "nt" and str(p)[:1] in "/\\"):
             unknown.append({"path": p,
                             "why": "sandbox path, not visible from this host"})
             continue
