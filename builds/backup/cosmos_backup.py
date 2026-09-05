@@ -386,6 +386,12 @@ def iter_files(root: Path, excludes: frozenset[str] | tuple[str, ...] | list[str
             mode = _lstat_mode(full)
             if _stat.S_ISLNK(mode) or not _stat.S_ISREG(mode):
                 continue
+            # Root (GitLab python image) can still open mode 000. Copying that
+            # as VERIFIED is a hole: the operator marked the file unreadable.
+            if (mode & 0o444) == 0:
+                raise BackupRefusal(
+                    "SOURCE_UNREADABLE",
+                    f"{child}: mode {mode & 0o777:o} has no read bits")
             yield full[cut:].replace("\\", "/")
 
 
