@@ -1,0 +1,36 @@
+{
+ "schema": "cosmos-backup-live/1",
+ "measured_utc": "2026-08-31T16:30:47Z",
+ "scratch": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_f43_id_live_7r4or79r",
+ "mismatch": {
+  "state": "REFUSED",
+  "kind": "IDENTITY_MISMATCH",
+  "ok": false,
+  "off_volume_copy_exists": false,
+  "sets": []
+ },
+ "match": {
+  "state": "VERIFIED",
+  "kind": null,
+  "ok": true
+ },
+ "ok": true,
+ "describes": {
+  "builds/backup/cosmos_local_clock.py": {
+   "exists": true,
+   "bytes": 15590,
+   "sha256": "4199128842852202cf77a255dc3a531f2e5a0898268be955455e4a2b2ee85112"
+  },
+  "builds/backup/backup_targets.example.json": {
+   "exists": true,
+   "bytes": 2066,
+   "sha256": "52e82fa80ac0b8e33277f0651ee7ab2859ae222d1495d8cf0c153e053a57a921"
+  },
+  "builds/backup/test_local_clock.py": {
+   "exists": true,
+   "bytes": 14183,
+   "sha256": "c34c72aa23a88dc0ae8190ee30f3f4daa2001e2425f90b9a65c8a306c424ee5a"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

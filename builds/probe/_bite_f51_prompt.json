@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "F-51 remaining \u2014 docs/AUTO_RESESSION_PROMPT.md unfiled",
+ "ts": "2026-08-31T13:48:14Z",
+ "prompt_path": "V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+ "prompt_exists": false,
+ "prompt_sha_on_disk": null,
+ "sha256_file_returns": null,
+ "dry_run_rc": 0,
+ "dry_run_prompt_sha": null,
+ "dry_run_state": "IDLE",
+ "dry_run_tree_id": "KMesh-COSMOS-live",
+ "dry_run_why": "no COW heartbeat",
+ "dry_run_parse_err": null,
+ "fire_without_prompt_kind": "NO_PROMPT",
+ "fire_without_prompt_state": "REFUSED",
+ "all_bite": true
+}

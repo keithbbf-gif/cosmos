@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "live_value": {
+  "checks": 11,
+  "lan_ids": [
+   "SRV1",
+   "T7"
+  ],
+  "srv1_kind": "NO_HOST",
+  "t7_kind": "NO_HOST",
+  "federation_ready": false,
+  "blocker_count": 5
+ }
+}

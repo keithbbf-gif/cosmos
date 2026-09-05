@@ -1,0 +1,355 @@
+{
+ "schema": "cosmos-mesh-blockers/1",
+ "measured_at": "2026-08-30T21:15:31.423392-05:00",
+ "root": "V:\\A\\Ai\\COSMOS\\live",
+ "deep": true,
+ "ledger_error": null,
+ "projection": "V:\\A\\Ai\\COSMOS\\live\\registry\\nodes.json",
+ "projection_count": 4,
+ "proof_ttl_s": 3600.0,
+ "live_count": 4,
+ "total": 9,
+ "elapsed_s": 2.09,
+ "nodes": [
+  {
+   "link_id": "sgh-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_sgh",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_sgh importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_sgh",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_sgh.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "grok-4.6",
+    "body_bytes": 4,
+    "age_s": 443.7,
+    "measurements": null
+   },
+   "note": null
+  },
+  {
+   "link_id": "gem-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_gem",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_gem importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_gem",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_gem.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "gemini-2.5-flash",
+    "body_bytes": 4,
+    "age_s": 442.0,
+    "measurements": null
+   },
+   "note": null
+  },
+  {
+   "link_id": "oa-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_oa_api",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_oa_api importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_oa_api",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_oa_api.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "gpt-5.6-terra",
+    "body_bytes": 4,
+    "age_s": 438.8,
+    "measurements": null
+   },
+   "note": null
+  },
+  {
+   "link_id": "claude-cli",
+   "rail_type": "CLI",
+   "route": "core->code",
+   "probed_via": "cosmos_claude_rail",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "STALE_PROOF",
+   "probe_kind": "UNREACHABLE",
+   "blocker": "proof age 300335.1s exceeds the 3600s proof TTL; Registry.file_runtime applies no freshness filter (Registry.route does), so the row stays in the projection on an old measurement",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt",
+    "key_present": false,
+    "binary": "claude",
+    "binary_on_path": "C:\\Users\\Papa\\.local\\bin\\claude.EXE"
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "haiku",
+    "body_bytes": 4,
+    "age_s": 300335.1,
+    "measurements": null
+   },
+   "note": "Two paths, one link_id: ClaudeRail.dispatch needs config/anthropic_api_key.txt, but cosmos_rails_prober._claude_live_call falls back to the prepaid SEAT (`claude -p` with ANTHROPIC_API_KEY unset). The recorded proof came from the seat path, so ClaudeRail.probe() refusing NO_KEY does not contradict the registry row."
+  },
+  {
+   "link_id": "gw-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_gw",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "NOT_WIRED",
+   "probe_kind": "OK",
+   "blocker": "no prove() call path: gw-api is absent from cosmos_rails_prober.WIRED_NODES, so nothing ever asks it for a proof. The ledger holds its LINK_REGISTERED claim and zero PROBE_RESULT rows. Its probe() returns (ok, detail) -- no body, no model -- so proof_ok can never pass on a probe alone",
+   "probe_detail": "bts_gw importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_gw",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_gw.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "measurements": "none recorded"
+   },
+   "note": "wired as an adapter by cosmos_node_rails.register_node_rails (budget $5) but absent from cosmos_rails_prober.WIRED_NODES, so nothing ever asks it for a proof"
+  },
+  {
+   "link_id": "cursor-api",
+   "rail_type": "API",
+   "route": "core->code",
+   "probed_via": "cosmos_cursor_rail",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "NOT_WIRED",
+   "probe_kind": "OK",
+   "blocker": "no prove() call path: cursor-api is absent from cosmos_rails_prober.WIRED_NODES, so nothing ever asks it for a proof. The ledger holds its LINK_REGISTERED claim and zero PROBE_RESULT rows. Its probe() returns (ok, detail) -- no body, no model -- so proof_ok can never pass on a probe alone",
+   "probe_detail": "cursor-api live apiKeyName=Cursor COSMOS 2 http=200 date=Mon, 31 Aug 2026 02:15:28 GMT key=crsr_\u202631ab",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\cursor_cosmos_key.txt",
+    "key_present": true,
+    "base": "https://api.cursor.com",
+    "identity": {
+     "http": 200,
+     "headers": {
+      "date": "Mon, 31 Aug 2026 02:15:28 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "169",
+      "connection": "close",
+      "vary": "Origin",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Grpc-Status, Grpc-Message, Grpc-Status-Details-Bin, Content-Encoding, Connect-Content-Encoding, traceparent, backend-traceparent, x-amzn-trace-id, x-request-id"
+     },
+     "body": {
+      "apiKeyName": "Cursor COSMOS 2",
+      "userId": 405041965,
+      "createdAt": "2026-08-26T02:33:32.166Z",
+      "userEmail": "keith.bbf@gmail.com",
+      "userFirstName": "Keith",
+      "userLastName": "BBF"
+     }
+    }
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "measurements": "none recorded"
+   },
+   "note": null
+  },
+  {
+   "link_id": "codex-cli",
+   "rail_type": "CLI",
+   "route": "core->code",
+   "probed_via": "cosmos_codex_rail",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "UNREACHABLE",
+   "probe_kind": "UNREACHABLE",
+   "blocker": "UNREACHABLE: NO_KEY: [NO_KEY] OpenAI key missing at V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt (never hard-code; redact to sk-\u2026last4)",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] OpenAI key missing at V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt (never hard-code; redact to sk-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt",
+    "key_present": false,
+    "binary": "codex",
+    "binary_on_path": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD"
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "measurements": "none recorded"
+   },
+   "note": null
+  },
+  {
+   "link_id": "firecrawl-web",
+   "rail_type": "API",
+   "route": "core->papers",
+   "probed_via": "cosmos_firecrawl_rail",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "NOT_WIRED",
+   "probe_kind": "OK",
+   "blocker": "no prove() call path: firecrawl-web is absent from cosmos_rails_prober.WIRED_NODES, so nothing ever asks it for a proof. The ledger holds its LINK_REGISTERED claim and zero PROBE_RESULT rows. Its probe() returns (ok, detail) -- no body, no model -- so proof_ok can never pass on a probe alone",
+   "probe_detail": "firecrawl-web papers primaryId=arxiv:gr-qc/9504041 http=200 success=True date=Mon, 31 Aug 2026 02:15:28 GMT",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\firecrawl_api_key.txt",
+    "key_present": false,
+    "base": "https://api.firecrawl.dev",
+    "identity": {
+     "http": 200,
+     "headers": {
+      "access-control-allow-origin": "*",
+      "content-length": "45971",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 31 Aug 2026 02:15:28 GMT",
+      "etag": "W/\"b393-+gKWONh6RLq2fCtDlOn9uwVB6kY\"",
+      "x-request-id": "01a05599-a952-7202-b74b-95df1b172f6f",
+      "x-response-time": "92.094ms",
+      "connection": "close"
+     },
+     "body_ok": true,
+     "primaryId": "arxiv:gr-qc/9504041",
+     "title": "``Faster than Light'' Photons in Gravitational Fields -- Causality, Anomalies and Horizons",
+     "success": true,
+     "date": "Mon, 31 Aug 2026 02:15:28 GMT",
+     "verb": "papers"
+    }
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "measurements": "none recorded"
+   },
+   "note": null
+  },
+  {
+   "link_id": "playwright-dom",
+   "rail_type": "DOM",
+   "route": "core->interact",
+   "probed_via": "cosmos_playwright_rail",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "NOT_WIRED",
+   "probe_kind": "OK",
+   "blocker": "no prove() call path: playwright-dom is absent from cosmos_rails_prober.WIRED_NODES, so nothing ever asks it for a proof. The ledger holds its LINK_REGISTERED claim and zero PROBE_RESULT rows. Its probe() returns (ok, detail) -- no body, no model -- so proof_ok can never pass on a probe alone",
+   "probe_detail": "playwright-dom tools/list n=24 navigate+snapshot present server=Playwright version=1.63.0-alpha-2026-08-05",
+   "evidence": {
+    "spec_path": "V:\\A\\Ai\\COSMOS\\live\\config\\playwright_rail.json",
+    "spec_present": true,
+    "npx_on_path": "C:\\Program Files\\nodejs\\npx.CMD",
+    "last": {
+     "ok": true,
+     "tool_names": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_find",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+     ],
+     "tool_count": 24,
+     "serverInfo": {
+      "name": "Playwright",
+      "version": "1.63.0-alpha-2026-08-05"
+     },
+     "protocolVersion": "2024-11-05",
+     "unsafe_listed": true,
+     "spawn": [
+      "C:\\Program Files\\nodejs\\node.EXE",
+      "C:\\Users\\Papa\\AppData\\Local\\npm-cache\\_npx\\51691537fc71f2b0\\node_modules\\@playwright\\mcp\\cli.js",
+      "--headless",
+      "--isolated",
+      "--browser",
+      "chrome",
+      "--output-dir",
+      "V:\\A\\Ai\\COSMOS\\builds\\probe\\_ws_playwright",
+      "--image-responses",
+      "omit",
+      "--console-level",
+      "error",
+      "--executable-path",
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+     ]
+    }
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "measurements": "none recorded"
+   },
+   "note": null
+  }
+ ]
+}

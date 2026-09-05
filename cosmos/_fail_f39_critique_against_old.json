@@ -1,0 +1,23 @@
+{
+ "schema": "cosmos-f39-critique-fail-old/1",
+ "old_dispatch": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_dispatch_f39_critique_20260831T1802Z\\cosmos_dispatch.py",
+ "old_bytes": 80388,
+ "old_lines": 2026,
+ "old_has_critique_banner": true,
+ "old_defines_compose": true,
+ "live_critique_exists": true,
+ "live_critique_bytes": 10078,
+ "pins": {
+  "critique_module_imported": false,
+  "compose_moved_out": false,
+  "is_critique_moved_out": false,
+  "inline_file_moved_out": false,
+  "format_inlined_moved_out": false,
+  "locate_artifact_moved_out": false,
+  "path_tokens_moved_out": false,
+  "banner_is_reexport_only": false,
+  "critique_file_was_present": false
+ },
+ "failed_pin_count": 9,
+ "all_new_pins_failed": true
+}

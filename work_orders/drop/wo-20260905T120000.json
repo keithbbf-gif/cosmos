@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; cosmos/cosmos_vertex_rail.py [read*]; docs/ROUTING.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-05: keep coding COSMOS. Incoming company GCloud $300 + API key for the coding/reasoning Vertex rail (live/config/vertex_coding.json + vertex_coding_key.txt). Until those exist, coding falls back to Joanna gem-api. After the key is live, Joanna moves to OpenWork — do not paste Joanna into OpenWork this order. Do not invent a project id. Do not Activate. Do not steal gem-api. Propose: (1) any remaining Kernel/dispatch callers that should use kernel.vertex_coding_rail for coding/reasoning instead of gem-api, without flipping critics off Joanna; (2) COLLECTOR.md DHx correlate leftovers if still DRAFT vs cosmos_collector_dhx; (3) Pulse P1 must NOT shrink CLOCKS or /delete schtasks. Opus 5, NOT Composer 2.5. Do not merge PR #30 #32 #36 #37 #38. Do not write V:\\Ai. PR title: WO: vertex-coding rail callers + collector DHx leftover.",
+  "Target & scope": "proposals/ only. Never live/config keys. Never kernel/ledger as second writer. Never V:\\Ai. Never Activate. Never Joanna key into OpenWork.",
+  "Timestamp": "2026-09-05T12:00:00-05:00",
+  "Output": "proposals | vertex-coding-callers.md"
+}

@@ -1,0 +1,28 @@
+{
+ "task": "COSMOS Bulletproof Backup",
+ "argv": [
+  "schtasks",
+  "/create",
+  "/tn",
+  "COSMOS Bulletproof Backup",
+  "/tr",
+  "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\pythonw.exe V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_local_clock.py --root V:\\A\\Ai\\COSMOS\\live --once",
+  "/sc",
+  "daily",
+  "/st",
+  "04:00",
+  "/f"
+ ],
+ "stale_s": 93600.0,
+ "heartbeat": "local_clock_heartbeat.json",
+ "registers": false,
+ "cli_rc": 0,
+ "describes": {
+  "builds/backup/cosmos_local_clock.py": {
+   "exists": true,
+   "bytes": 14711,
+   "sha256": "bbf5e9415d01c8ace5ca62f5a1463c9fce3e0cdf0fc39ced801d6e468e0e7af1"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

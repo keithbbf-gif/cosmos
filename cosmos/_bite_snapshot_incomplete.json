@@ -1,0 +1,11 @@
+{
+  "copy_returns_bare_int": true,
+  "copy_returned": 2,
+  "silent_truncate_copied_2_of_5": true,
+  "assemble_did_not_raise": true,
+  "assemble_returned": 7,
+  "assemble_raised": null,
+  "has_stage_limit": false,
+  "has_snapshot_incomplete_in_source": false,
+  "all_bite": true
+}

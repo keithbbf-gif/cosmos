@@ -1,0 +1,43 @@
+{
+ "schema": "cosmos-f26-f53-f56-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f26_f53_f56_20260831T143641Z",
+ "old_clock_count": 23,
+ "old_max_id": 23,
+ "old_ids": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23
+ ],
+ "old_gh_folds": [],
+ "old_gh_count": 0,
+ "pins": {
+  "gh_parser_lifts_opencode": false,
+  "clock_24_prepaid_orch": false,
+  "prepaid_orch_module_staged": false,
+  "LAN_NODES_attr": false,
+  "SRV1_symbol": false,
+  "T7920_symbol": false,
+  "probe_lan_node_fn": false
+ },
+ "all_new_pins_failed": true
+}

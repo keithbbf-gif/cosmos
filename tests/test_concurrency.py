@@ -9,6 +9,7 @@ import sys, tempfile, threading
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger, LedgerError
 from cosmos_sched import Scheduler, SchedError
 from cosmos_spend import SpendGate, SpendError

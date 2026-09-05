@@ -8,6 +8,7 @@ import json, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_tools import ToolContracts
 from cosmos_migrate import Migrator
@@ -63,6 +64,9 @@ def main() -> int:
           lambda: b["negative_control_red"] is True)
     check("board run is ledgered", lambda: any(r["event"] == "HEALTH_BOARD"
                                               for r in k.ledger.verify()))
+    check("HEALTH_BOARD carries node=system (FOLLOW_KEYS harvest)",
+          lambda: next(r["payload"].get("node") for r in k.ledger.verify()
+                       if r["event"] == "HEALTH_BOARD") == "COSMOS")
     check("every row carries a detail", lambda: all(r["detail"] for r in b["rows"].values()))
 
     # a raising row lands RED, does not kill the board

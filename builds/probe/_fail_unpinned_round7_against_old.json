@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-fail-old/1",
+ "what": "round7 unpinned probe pins against predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_unpinned_round7_20260831T174500Z",
+ "ran": [
+  "bool_sentinel_is_BAD_ROOT",
+  "apply_bundle_list_is_BAD_BUNDLE",
+  "apply_proposals_str_is_BAD_BUNDLE",
+  "apply_bundle_none_is_BAD_BUNDLE",
+  "fingerprint_str_is_BAD_RELS",
+  "fingerprint_none_is_BAD_RELS",
+  "compare_str_is_UNFINGERPRINTED",
+  "stamp_list_is_BAD_REC"
+ ],
+ "failed": [
+  "bool_sentinel_is_BAD_ROOT:AttributeError",
+  "apply_bundle_list_is_BAD_BUNDLE:AttributeError",
+  "apply_proposals_str_is_BAD_BUNDLE:AttributeError",
+  "apply_bundle_none_is_BAD_BUNDLE:AttributeError",
+  "fingerprint_str_is_BAD_RELS:returned:dict:{'o': {'exists': False, 'bytes': None, 'sha256': None}, 'n': {'exists': False, 'bytes': None, 'sha",
+  "fingerprint_none_is_BAD_RELS:None",
+  "compare_str_is_UNFINGERPRINTED:AttributeError",
+  "stamp_list_is_BAD_REC:None"
+ ],
+ "n_ran": 8,
+ "n_failed": 8,
+ "all_new_pins_failed": true,
+ "could_not_pin": [
+  "CLOSE_REFUSED"
+ ]
+}

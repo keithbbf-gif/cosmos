@@ -1,0 +1,31 @@
+{
+  "schema": "cosmos-askmine/1",
+  "tick": "once",
+  "clock_id": 19,
+  "heartbeat": "askmine_heartbeat.json",
+  "scan_dirs": [
+    "C:\\Users\\Papa\\AppData\\Roaming\\Claude\\local-agent-mode-sessions",
+    "C:\\Users\\Papa\\.claude\\projects",
+    "C:\\Users\\Papa\\.claude\\sessions",
+    "C:\\Users\\Papa\\.grok\\sessions"
+  ],
+  "transcripts_seen": 2555,
+  "ok": true,
+  "state": "MINED",
+  "asks": 1788,
+  "findings": 252,
+  "outstanding": 252,
+  "route_rows": 49,
+  "redactions": 0,
+  "transcripts_parsed": 2555,
+  "by_verdict": {
+    "UNANSWERED": 5,
+    "ADDRESSED": 1180,
+    "LIKELY_UNANSWERED": 600,
+    "GRIEVANCE": 3
+  },
+  "dry_run": true,
+  "elapsed_s": 26.953,
+  "live_heartbeat_after": false,
+  "measured_by": "cc-infra fence 2026-08-31"
+}

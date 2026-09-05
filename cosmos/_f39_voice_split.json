@@ -1,0 +1,28 @@
+{
+ "schema": "cosmos-f39-voice-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "svc": {
+  "bytes": 87500,
+  "lines": 1509,
+  "sha256": "06f4eb5e3fd268a64ab866a7914dbbc0413a7b2a1b04d584f57bc7e03ddd249e"
+ },
+ "hard": {
+  "bytes": 5105,
+  "lines": 116,
+  "sha256": "15029fd2bbbf59954678f39cc6a2c77b2a3926f728ae7dc81e9be403c4a95308"
+ },
+ "old_svc": {
+  "bytes": 90738,
+  "lines": 1581,
+  "sha256": "c58641d01b712808839328c0ddfe4355a705c8a0938a8ec3abfb89a3992f8afa"
+ },
+ "bootup_same": true,
+ "http_bootup": "200 kind=bootup",
+ "http_unauth": 401,
+ "http_duplicate": "200 DUPLICATE",
+ "suite": {
+  "checks": 39,
+  "passed": 39
+ }
+}

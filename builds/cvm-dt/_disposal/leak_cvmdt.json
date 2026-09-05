@@ -1,0 +1,70 @@
+{
+ "fence": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt",
+ "logs": "V:\\A\\Ai\\COSMOS\\live\\logs",
+ "suites": [
+  {
+   "suite": "test_cvm_dt.py",
+   "rc": 0,
+   "error": null,
+   "secs": 5.72,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_dt_client.py",
+   "rc": 0,
+   "error": null,
+   "secs": 5.79,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_dt_clock.py",
+   "rc": 0,
+   "error": null,
+   "secs": 5.87,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_dt_contracts.py",
+   "rc": 0,
+   "error": null,
+   "secs": 0.1,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_dt_voice.py",
+   "rc": 0,
+   "error": null,
+   "secs": 17.94,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_gate.py",
+   "rc": 0,
+   "error": null,
+   "secs": 17.36,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_handoff.py",
+   "rc": 0,
+   "error": null,
+   "secs": 0.55,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_pull.py",
+   "rc": 0,
+   "error": null,
+   "secs": 6.37,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_snap.py",
+   "rc": 0,
+   "error": null,
+   "secs": 0.02,
+   "leaked": []
+  }
+ ],
+ "any_leak": []
+}

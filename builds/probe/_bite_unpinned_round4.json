@@ -1,0 +1,19 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round4 unpinned probe refusals \u2014 current vs claimed",
+ "hands_missing_kind": null,
+ "hands_missing_has_kind_attr": false,
+ "hands_missing_msg": "NO_SENTINEL: C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bite4p_v98idh0p\\empty_root\\",
+ "hands_missing_crash": null,
+ "scout_missing_kind": "NO_ROOT",
+ "scout_missing_crash": null,
+ "scout_garbage_kind": "NO_ROOT",
+ "scout_garbage_crash": null,
+ "readback_raise_present": true,
+ "readback_stripped": true,
+ "readback_old_kind": "DRIFT",
+ "readback_old_healed": true,
+ "readback_old_raised": false,
+ "readback_old_disk": "WRONG-BYTES",
+ "all_bite": true
+}

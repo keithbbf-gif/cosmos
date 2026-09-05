@@ -1,0 +1,22 @@
+{
+ "schema": "cosmos-f39-jobs-fail-old/1",
+ "old_dispatch": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_dispatch_f39_jobs_20260831T1750Z\\cosmos_dispatch.py",
+ "old_bytes": 96467,
+ "old_lines": 2462,
+ "old_has_jobs_banner": true,
+ "old_defines_grok": true,
+ "live_jobs_exists": true,
+ "live_jobs_bytes": 22346,
+ "pins": {
+  "jobs_module_imported": false,
+  "grok_moved_out": false,
+  "cursor_moved_out": false,
+  "claude_moved_out": false,
+  "codex_moved_out": false,
+  "render_moved_out": false,
+  "banner_is_reexport_only": false,
+  "jobs_file_was_present": false
+ },
+ "failed_pin_count": 8,
+ "all_new_pins_failed": true
+}

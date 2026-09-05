@@ -1,0 +1,14 @@
+{
+ "kind": "LONGPATH_REALSCOPE",
+ "root": "V:\\Ai\\_session_logs\\_mcp_logs",
+ "measured_utc": "2026-08-31T05:46:52Z",
+ "files_ground_truth": 2129,
+ "long_in_scope": 2124,
+ "builds_backup_iter_files": {
+  "selected": 2129,
+  "raised": null,
+  "omitted": 0,
+  "omitted_sample": [],
+  "verdict": "COVERS_LONG_PATHS"
+ }
+}

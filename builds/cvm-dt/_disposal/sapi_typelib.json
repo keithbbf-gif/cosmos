@@ -1,0 +1,742 @@
+{
+ "type_count": 279,
+ "typelib": "C:\\Windows\\System32\\Speech\\Common\\sapi.dll",
+ "types": {
+  "ISpAudio": {
+   "cFuncs": 11,
+   "cImplTypes": 1,
+   "cbSizeVft": 208,
+   "iid": "{C05C768F-FAE8-4EC2-8E07-338321C12452}",
+   "kind": "interface",
+   "vtbl_slots": 26
+  },
+  "ISpDataKey": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 120,
+   "iid": "{14056581-E16C-11D2-BB90-00C04F8EE6C0}",
+   "kind": "interface",
+   "vtbl_slots": 15
+  },
+  "ISpEventSink": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 40,
+   "iid": "{BE7A9CC9-5F9E-11D2-960F-00C04F8EE628}",
+   "kind": "interface",
+   "vtbl_slots": 5
+  },
+  "ISpEventSource": {
+   "cFuncs": 3,
+   "cImplTypes": 1,
+   "cbSizeVft": 104,
+   "iid": "{BE7A9CCE-5F9E-11D2-960F-00C04F8EE628}",
+   "kind": "interface",
+   "vtbl_slots": 13
+  },
+  "ISpGrammarBuilder": {
+   "cFuncs": 8,
+   "cImplTypes": 1,
+   "cbSizeVft": 88,
+   "iid": "{8137828F-591A-4A42-BE58-49EA7EBAAC68}",
+   "kind": "interface",
+   "vtbl_slots": 11
+  },
+  "ISpLexicon": {
+   "cFuncs": 6,
+   "cImplTypes": 1,
+   "cbSizeVft": 72,
+   "iid": "{DA41A7C2-5383-4DB2-916B-6C1719E3DB58}",
+   "kind": "interface",
+   "vtbl_slots": 9
+  },
+  "ISpMMSysAudio": {
+   "cFuncs": 5,
+   "cImplTypes": 1,
+   "cbSizeVft": 248,
+   "iid": "{15806F6E-1D70-4B48-98E6-3B1A007509AB}",
+   "kind": "interface",
+   "vtbl_slots": 31
+  },
+  "ISpNotifySink": {
+   "cFuncs": 1,
+   "cImplTypes": 1,
+   "cbSizeVft": 32,
+   "iid": "{259684DC-37C3-11D2-9603-00C04F8EE628}",
+   "kind": "interface",
+   "vtbl_slots": 4
+  },
+  "ISpNotifySource": {
+   "cFuncs": 7,
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "iid": "{5EFF4AEF-8487-11D2-961C-00C04F8EE628}",
+   "kind": "interface",
+   "vtbl_slots": 10
+  },
+  "ISpNotifyTranslator": {
+   "cFuncs": 6,
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "iid": "{ACA16614-5D3D-11D2-960E-00C04F8EE628}",
+   "kind": "interface",
+   "vtbl_slots": 10
+  },
+  "ISpObjectToken": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 200,
+   "iid": "{14056589-E16C-11D2-BB90-00C04F8EE6C0}",
+   "kind": "interface",
+   "vtbl_slots": 25
+  },
+  "ISpObjectTokenCategory": {
+   "cFuncs": 6,
+   "cImplTypes": 1,
+   "cbSizeVft": 168,
+   "iid": "{2D3D3845-39AF-4850-BBF9-40B49780011D}",
+   "kind": "interface",
+   "vtbl_slots": 21
+  },
+  "ISpObjectWithToken": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 40,
+   "iid": "{5B559F40-E952-11D2-BB91-00C04F8EE6C0}",
+   "kind": "interface",
+   "vtbl_slots": 5
+  },
+  "ISpPhoneConverter": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{8445C581-0CAC-4A38-ABFE-9B2CE2826455}",
+   "kind": "interface",
+   "vtbl_slots": 7
+  },
+  "ISpPhoneticAlphabetConverter": {
+   "cFuncs": 5,
+   "cImplTypes": 1,
+   "cbSizeVft": 64,
+   "iid": "{133ADCD4-19B4-4020-9FDC-842E78253B17}",
+   "kind": "interface",
+   "vtbl_slots": 8
+  },
+  "ISpPhoneticAlphabetSelection": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 40,
+   "iid": "{B2745EFD-42CE-48CA-81F1-A96E02538A90}",
+   "kind": "interface",
+   "vtbl_slots": 5
+  },
+  "ISpPhrase": {
+   "cFuncs": 4,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{1A5C0354-B621-4B5A-8791-D306ED379E53}",
+   "kind": "interface",
+   "vtbl_slots": 7
+  },
+  "ISpPhraseAlt": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 72,
+   "iid": "{8FCEBC98-4E49-4067-9C6C-D86A0E092E3D}",
+   "kind": "interface",
+   "vtbl_slots": 9
+  },
+  "ISpProperties": {
+   "cFuncs": 4,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{5B4FB971-B115-4DE1-AD97-E482E3BF6EE4}",
+   "kind": "interface",
+   "vtbl_slots": 7
+  },
+  "ISpRecoCategory": {
+   "cFuncs": 1,
+   "cImplTypes": 1,
+   "cbSizeVft": 32,
+   "iid": "{DA0CD0F9-14A2-4F09-8C2A-85CC48979345}",
+   "kind": "interface",
+   "vtbl_slots": 4
+  },
+  "ISpRecoContext": {
+   "cFuncs": 18,
+   "cImplTypes": 1,
+   "cbSizeVft": 248,
+   "iid": "{F740A62F-7C15-489E-8234-940A33D9272D}",
+   "kind": "interface",
+   "vtbl_slots": 31
+  },
+  "ISpRecoContext2": {
+   "cFuncs": 3,
+   "cImplTypes": 1,
+   "cbSizeVft": 48,
+   "iid": "{BEAD311C-52FF-437F-9464-6B21054CA73D}",
+   "kind": "interface",
+   "vtbl_slots": 6
+  },
+  "ISpRecoGrammar": {
+   "cFuncs": 18,
+   "cImplTypes": 1,
+   "cbSizeVft": 232,
+   "iid": "{2177DB29-7F45-47D0-8554-067E91C80502}",
+   "kind": "interface",
+   "vtbl_slots": 29
+  },
+  "ISpRecoGrammar2": {
+   "cFuncs": 8,
+   "cImplTypes": 1,
+   "cbSizeVft": 88,
+   "iid": "{4B37BC9E-9ED6-44A3-93D3-18F022B79EC3}",
+   "kind": "interface",
+   "vtbl_slots": 11
+  },
+  "ISpRecoResult": {
+   "cFuncs": 7,
+   "cImplTypes": 1,
+   "cbSizeVft": 112,
+   "iid": "{20B053BE-E235-43CD-9A2A-8D17A48B7842}",
+   "kind": "interface",
+   "vtbl_slots": 14
+  },
+  "ISpRecognizer": {
+   "cFuncs": 16,
+   "cImplTypes": 1,
+   "cbSizeVft": 184,
+   "iid": "{C2B5F241-DAA0-4507-9E16-5A1EAA2B7A5C}",
+   "kind": "interface",
+   "vtbl_slots": 23
+  },
+  "ISpRecognizer2": {
+   "cFuncs": 3,
+   "cImplTypes": 1,
+   "cbSizeVft": 48,
+   "iid": "{8FC6D974-C81E-4098-93C5-0147F61ED4D3}",
+   "kind": "interface",
+   "vtbl_slots": 6
+  },
+  "ISpRecognizer3": {
+   "cFuncs": 3,
+   "cImplTypes": 1,
+   "cbSizeVft": 48,
+   "iid": "{DF1B943C-5838-4AA2-8706-D7CD5B333499}",
+   "kind": "interface",
+   "vtbl_slots": 6
+  },
+  "ISpResourceManager": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 48,
+   "iid": "{93384E18-5014-43D5-ADBB-A78E055926BD}",
+   "kind": "interface",
+   "vtbl_slots": 6
+  },
+  "ISpSerializeState": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 40,
+   "iid": "{21B501A0-0EC7-46C9-92C3-A2BC784C54B9}",
+   "kind": "interface",
+   "vtbl_slots": 5
+  },
+  "ISpShortcut": {
+   "cFuncs": 8,
+   "cImplTypes": 1,
+   "cbSizeVft": 88,
+   "iid": "{3DF681E2-EA56-11D9-8BDE-F66BAD1E3F3A}",
+   "kind": "interface",
+   "vtbl_slots": 11
+  },
+  "ISpStream": {
+   "cFuncs": 4,
+   "cImplTypes": 1,
+   "cbSizeVft": 152,
+   "iid": "{12E3CCA9-7518-44C5-A5E7-BA5A79CB929E}",
+   "kind": "interface",
+   "vtbl_slots": 19
+  },
+  "ISpStreamFormat": {
+   "cFuncs": 1,
+   "cImplTypes": 1,
+   "cbSizeVft": 120,
+   "iid": "{BED530BE-2606-4F4D-A1C0-54C5CDA5566F}",
+   "kind": "interface",
+   "vtbl_slots": 15
+  },
+  "ISpStreamFormatConverter": {
+   "cFuncs": 6,
+   "cImplTypes": 1,
+   "cbSizeVft": 168,
+   "iid": "{678A932C-EA71-4446-9B41-78FDA6280A29}",
+   "kind": "interface",
+   "vtbl_slots": 21
+  },
+  "ISpVoice": {
+   "cFuncs": 25,
+   "cImplTypes": 1,
+   "cbSizeVft": 304,
+   "iid": "{6C44DF74-72B9-4992-A1EC-EF996E0422D4}",
+   "kind": "interface",
+   "vtbl_slots": 38
+  },
+  "ISpXMLRecoResult": {
+   "cFuncs": 2,
+   "cImplTypes": 1,
+   "cbSizeVft": 128,
+   "iid": "{AE39362B-45A8-4074-9B9E-CCF49AA2D0B6}",
+   "kind": "interface",
+   "vtbl_slots": 16
+  },
+  "ISpeechAudio": {
+   "cFuncs": 21,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{CFF8E175-019E-11D3-A08E-00C04F8EF9B5}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechAudioBufferInfo": {
+   "cFuncs": 13,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{11B103D8-1142-4EDF-A093-82FB3915F8CC}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechAudioFormat": {
+   "cFuncs": 13,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{E6E9C590-3E18-40E3-8299-061F98BDE7C7}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechAudioStatus": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{C62D9C91-7458-47F6-862D-1EF86FB0B278}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechBaseStream": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{6450336F-7D49-4CED-8097-49D6DEE37294}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechCustomStream": {
+   "cFuncs": 14,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{1A9E9F4F-104F-4DB8-A115-EFD7FD0C97AE}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechDataKey": {
+   "cFuncs": 19,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{CE17C09B-4EFA-44D5-A4C9-59D9585AB0CD}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechFileStream": {
+   "cFuncs": 14,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{AF67F125-AB39-4E93-B4A2-CC2E66E182A7}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechGrammarRule": {
+   "cFuncs": 14,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{AFE719CF-5DD1-44F2-999C-7A399F1CFCCC}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechGrammarRuleState": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{D4286F2C-EE67-45AE-B928-28D695362EDA}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechGrammarRuleStateTransition": {
+   "cFuncs": 15,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{CAFD1DB1-41D1-4A06-9863-E2E81DA17A9A}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechGrammarRuleStateTransitions": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{EABCE657-75BC-44A2-AA7F-C56476742963}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechGrammarRules": {
+   "cFuncs": 15,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{6FFA3B44-FC2D-40D1-8AFC-32911C7F1AD1}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechLexicon": {
+   "cFuncs": 15,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{3DA7627A-C7AE-4B23-8708-638C50362C25}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechLexiconPronunciation": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{95252C5D-9E43-4F4A-9899-48EE73352F9F}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechLexiconPronunciations": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{72829128-5682-4704-A0D4-3E2BB6F2EAD3}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechLexiconWord": {
+   "cFuncs": 11,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{4E5B933C-C9BE-48ED-8842-1EE51BB1D4FF}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechLexiconWords": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{8D199862-415E-47D5-AC4F-FAA608B424E6}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechMMSysAudio": {
+   "cFuncs": 26,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{3C76AF6D-1FD7-4831-81D1-3B71D5A13C44}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechMemoryStream": {
+   "cFuncs": 14,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{EEB14B68-808B-4ABE-A5EA-B51DA7588008}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechObjectToken": {
+   "cFuncs": 20,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{C74A3ADC-B727-4500-A84A-B526721C8B8C}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechObjectTokenCategory": {
+   "cFuncs": 13,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{CA7EAC50-2D01-4145-86D4-5AE7D70F4469}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechObjectTokens": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{9285B776-2E7B-4BC0-B53E-580EB6FA967F}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhoneConverter": {
+   "cFuncs": 11,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{C3E4F353-433F-43D6-89A1-6A62A7054C3D}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseAlternate": {
+   "cFuncs": 12,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{27864A2A-2B9F-4CB8-92D3-0D2722FD1E73}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseAlternates": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{B238B6D5-F276-4C3D-A6C1-2974801C3CC2}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseElement": {
+   "cFuncs": 20,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{E6176F96-E373-4801-B223-3B62C068C0B4}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseElements": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{0626B328-3478-467D-A0B3-D0853B93DDA3}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseInfo": {
+   "cFuncs": 23,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{961559CF-4E67-4662-8BF0-D93F1FCD61B3}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseInfoBuilder": {
+   "cFuncs": 8,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{3B151836-DF3A-4E0A-846C-D2ADC9334333}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseProperties": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{08166B47-102E-4B23-A599-BDB98DBFD1F4}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseProperty": {
+   "cFuncs": 16,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{CE563D48-961E-4732-A2E1-378A42B430BE}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseReplacement": {
+   "cFuncs": 11,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{2890A410-53A7-4FB5-94EC-06D4998E3D02}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseReplacements": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{38BC662F-2257-4525-959E-2069D2596C05}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseRule": {
+   "cFuncs": 15,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{A7BFE112-A4A0-48D9-B602-C313843F6964}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechPhraseRules": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{9047D593-01DD-4B72-81A3-E4A0CA69F407}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoContext": {
+   "cFuncs": 32,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{580AA49D-7E1E-4809-B8E2-57DA806104B8}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoGrammar": {
+   "cFuncs": 26,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{B6D6F79F-2158-4E50-B5BC-9A9CCD852A09}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoResult": {
+   "cFuncs": 17,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{ED2879CF-CED9-4EE6-A534-DE0191D5468D}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoResult2": {
+   "cFuncs": 18,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{8E0A246D-D3C8-45DE-8657-04290C458C3C}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoResultDispatch": {
+   "cFuncs": 20,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{6D60EB64-ACED-40A6-BBF3-4E557F71DEE2}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecoResultTimes": {
+   "cFuncs": 11,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{62B3B8FB-F6E7-41BE-BDCB-056B1C29EFC0}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecognizer": {
+   "cFuncs": 33,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{2D5F1C0C-BD75-4B08-9478-3B11FEA2586C}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechRecognizerStatus": {
+   "cFuncs": 13,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{BFF9E781-53EC-484E-BB8A-0E1B5551E35C}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechResourceLoader": {
+   "cFuncs": 10,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{B9AC5783-FCD0-4B21-B119-B4F8DA8FD2C3}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechTextSelectionInformation": {
+   "cFuncs": 15,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{3B9C7E7A-6EEE-4DED-9092-11657279ADBE}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechVoice": {
+   "cFuncs": 39,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{269316D8-57BD-11D2-9EEE-00C04F797396}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechVoiceStatus": {
+   "cFuncs": 19,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{8BE47B07-57F6-11D2-9EEE-00C04F797396}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechWaveFormatEx": {
+   "cFuncs": 21,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{7A1EF0D5-1581-4741-88E4-209A49F11A10}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "ISpeechXMLRecoResult": {
+   "cFuncs": 19,
+   "cImplTypes": 1,
+   "cbSizeVft": 56,
+   "iid": "{AAEC54AF-8F85-4924-944D-B79D39D72E19}",
+   "kind": "dispatch",
+   "vtbl_slots": 7
+  },
+  "SPEVENT": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "record",
+   "vtbl_slots": 0
+  },
+  "SPEVENTENUM": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "enum",
+   "vtbl_slots": 0
+  },
+  "SPEVENTSOURCEINFO": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "record",
+   "vtbl_slots": 0
+  },
+  "SPGRAMMARSTATE": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "enum",
+   "vtbl_slots": 0
+  },
+  "SPGRAMMARWORDTYPE": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "enum",
+   "vtbl_slots": 0
+  },
+  "SPRECOSTATE": {
+   "cFuncs": 0,
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "iid": "{00000000-0000-0000-0000-000000000000}",
+   "kind": "enum",
+   "vtbl_slots": 0
+  }
+ }
+}

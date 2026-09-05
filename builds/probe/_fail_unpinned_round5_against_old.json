@@ -1,0 +1,17 @@
+{
+ "schema": "cosmos-fail-old/1",
+ "what": "round5 probe pins against predecessor",
+ "ran": [
+  "scout_array_is_NO_ROOT",
+  "hands_garbage_is_BAD_SENTINEL",
+  "hands_array_is_BAD_SENTINEL"
+ ],
+ "failed": [
+  "scout_array_is_NO_ROOT:AttributeError",
+  "hands_garbage_is_BAD_SENTINEL:JSONDecodeError",
+  "hands_array_is_BAD_SENTINEL:AttributeError"
+ ],
+ "n_ran": 3,
+ "n_failed": 3,
+ "all_new_pins_failed": true
+}

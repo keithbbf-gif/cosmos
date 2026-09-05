@@ -1,0 +1,28 @@
+{
+ "schema": "cosmos-f39-cvm-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "svc_lines": 1581,
+ "svc_bytes_after": 90738,
+ "proj_lines": 202,
+ "proj_bytes": 8198,
+ "predecessor": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_service_f39_cvm_20260831T111409Z\\cosmos_service.py",
+ "predecessor_bytes": 96893,
+ "predecessor_lines": 1732,
+ "cvmerror_same": true,
+ "def_cvm_pull_response_in_service": false,
+ "from_cosmos_cvm_projection": true,
+ "http_get_pull_200_pull_false": true,
+ "http_snapshot_200_idempotent": true,
+ "all_new_pins_failed": true,
+ "suites": {
+  "test_cvm_projection.py_before": "20/27",
+  "test_cvm_projection.py": "44/44",
+  "test_cvm_p3.py": "28/28",
+  "test_cvm_push.py": "6/6",
+  "test_cdeck_shell.py": "10/10",
+  "test_makers.py": "56/56",
+  "test_v1.py": "18/18",
+  "test_events_page.py": "10/10"
+ }
+}

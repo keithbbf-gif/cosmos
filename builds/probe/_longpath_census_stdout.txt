@@ -1,0 +1,165 @@
+{
+ "kind": "LONGPATH_CENSUS",
+ "measured_utc": "2026-08-31T05:36:39Z",
+ "platform": "nt",
+ "long_paths_enabled_registry": 0,
+ "max_path_usable": 259,
+ "roots": [
+  {
+   "root": "V:\\Ai",
+   "files_extended_walk": 17232,
+   "files_plain_walk": 17198,
+   "invisible_to_plain_walk": 34,
+   "invisible_sample": [
+    "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-03c6a0f7-dc8f-4783-b85a-1fafe8e4e278-outputs\\mcp-logs-66acf845-f364-4182-88b4-dc9bb1ba4192\\2026-07-28t22-08-35-192z.jsonl",
+    "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-03c6a0f7-dc8f-4783-b85a-1fafe8e4e278-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-29t00-52-32-121z.jsonl",
+    "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-0d242157-5cf9-4974-be55-e24269f20403-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-13t19-08-21-175z.jsonl",
+    "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-1a71d249-fdf3-4d83-bdd6-bf1a99df89eb-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-11t03-25-53-832z.jsonl",
+    "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-1a71d249-fdf3-4d83-bdd6-bf1a99df89eb-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-11t09-40-15-311z.jsonl"
+   ],
+   "total_bytes": 12220714285,
+   "over_259_usable": 2125,
+   "over_260_constant": 2125,
+   "max_len": 412,
+   "deepest": "V:\\Ai\\Legal\\_transcripts\\sessions\\598a803e-7ed8-4011-8c6f-36b1139ced47\\ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f\\local_a1f6b07b-30ca-4482-a22d-a0a8e93da6d5\\.claude\\projects\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-a1f6b07b-30ca-4482-a22d-a0a8e93da6d5-outputs\\STRIPPED_bc05144b-b005-49c3-8aff-e4b57b6bc01f.md.partial",
+   "deepest_sample": [
+    {
+     "len": 412,
+     "path": "V:\\Ai\\Legal\\_transcripts\\sessions\\598a803e-7ed8-4011-8c6f-36b1139ced47\\ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f\\local_a1f6b07b-30ca-4482-a22d-a0a8e93da6d5\\.claude\\projects\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-a1f6b07b-30ca-4482-a22d-a0a8e93da6d5-outputs\\STRIPPED_bc05144b-b005-49c3-8aff-e4b57b6bc01f.md.partial"
+    },
+    {
+     "len": 302,
+     "path": "V:\\Ai\\_session_logs\\_mcp_logs\\cli-pkg\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-e15a3be5-72e6-4f19-a26c-9090d45faf77-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-29T09-08-03-721Z.jsonl"
+    },
+    {
+     "len": 302,
+     "path": "V:\\Ai\\_session_logs\\_mcp_logs\\cli-pkg\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-9afa7ec3-4f00-447f-87b7-f1f16af598ff-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-27T21-08-31-550Z.jsonl"
+    },
+    {
+     "len": 302,
+     "path": "V:\\Ai\\_session_logs\\_mcp_logs\\cli-pkg\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-9afa7ec3-4f00-447f-87b7-f1f16af598ff-outputs\\mcp-logs-88a09ff6-6ac5-48c5-aef7-4b3845d23086\\2026-07-27T08-49-44-221Z.jsonl"
+    },
+    {
+     "len": 302,
+     "path": "V:\\Ai\\_session_logs\\_mcp_logs\\cli-pkg\\C--Users-Papa-AppData-Roaming-Claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-9afa7ec3-4f00-447f-87b7-f1f16af598ff-outputs\\mcp-logs-66acf845-f364-4182-88b4-dc9bb1ba4192\\2026-07-27T21-08-31-550Z.jsonl"
+    }
+   ],
+   "long_stat_ok_unprefixed": 0,
+   "long_stat_fail_unprefixed": 2125,
+   "long_stat_winerrors": {
+    "winerror=3": 2125
+   },
+   "walk_errors_extended": 0,
+   "walk_errors_plain": 141,
+   "walk_errors_plain_sample": [
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')"
+   ],
+   "elapsed_s": 3.2
+  },
+  {
+   "root": "V:\\A",
+   "files_extended_walk": 55918,
+   "files_plain_walk": 55913,
+   "invisible_to_plain_walk": 6,
+   "invisible_sample": [
+    "v:\\a\\ai\\cosmos\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexbuilderdebug\\out\\currentproject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_0\\graph.bin",
+    "v:\\a\\ai\\cosmos\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexbuilderdebug\\out\\currentproject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_1\\graph.bin",
+    "v:\\a\\ai\\cosmos\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexbuilderdebug\\out\\currentproject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_2\\graph.bin",
+    "v:\\a\\ai\\cosmos\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexbuilderdebug\\out\\currentproject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_3\\graph.bin",
+    "v:\\a\\ai\\cosmos\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexbuilderdebug\\out\\currentproject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_4\\graph.bin"
+   ],
+   "total_bytes": 32046663044,
+   "over_259_usable": 14,
+   "over_260_constant": 14,
+   "max_len": 275,
+   "deepest": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\cosmos\\cdm\\ui\\screens\\DashboardScreenKt$DashboardScreen$3$invoke$$inlined$items$default$4.dex",
+   "deepest_sample": [
+    {
+     "len": 275,
+     "path": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\cosmos\\cdm\\ui\\screens\\DashboardScreenKt$DashboardScreen$3$invoke$$inlined$items$default$4.dex"
+    },
+    {
+     "len": 275,
+     "path": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\cosmos\\cdm\\ui\\screens\\DashboardScreenKt$DashboardScreen$3$invoke$$inlined$items$default$3.dex"
+    },
+    {
+     "len": 275,
+     "path": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\cosmos\\cdm\\ui\\screens\\DashboardScreenKt$DashboardScreen$3$invoke$$inlined$items$default$2.dex"
+    },
+    {
+     "len": 275,
+     "path": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\project_dex_archive\\debug\\dexBuilderDebug\\out\\com\\cosmos\\cdm\\ui\\screens\\DashboardScreenKt$DashboardScreen$3$invoke$$inlined$items$default$1.dex"
+    },
+    {
+     "len": 274,
+     "path": "V:\\A\\Ai\\COSMOS\\live\\work\\grok\\g46_grok_motif_cdm_s6_you_are_g46_grok_build_1f2bf4b0__t1800\\clone\\builds\\cdm\\app\\build\\intermediates\\desugar_graph\\debug\\dexBuilderDebug\\out\\currentProject\\jar_deb9b3eb5723e8743ad0d5fb0cd392f3f211cbedf19e7101420c483c497b3b33_bucket_5\\graph.bin"
+    }
+   ],
+   "long_stat_ok_unprefixed": 0,
+   "long_stat_fail_unprefixed": 14,
+   "long_stat_winerrors": {
+    "winerror=3": 14
+   },
+   "walk_errors_extended": 0,
+   "walk_errors_plain": 6,
+   "walk_errors_plain_sample": [
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')",
+    "FileNotFoundError(2, 'The system cannot find the path specified')"
+   ],
+   "elapsed_s": 7.8
+  },
+  {
+   "root": "V:\\Research4",
+   "files_extended_walk": 79538,
+   "files_plain_walk": 79538,
+   "invisible_to_plain_walk": 0,
+   "invisible_sample": [],
+   "total_bytes": 25995744438,
+   "over_259_usable": 4,
+   "over_260_constant": 4,
+   "max_len": 267,
+   "deepest": "V:\\Research4\\+Reference End note\\Consolidated_10-06.Data\\PDF\\Persistent photoconductivity in poly(p-phenylenevinylene) Spectral response and slow relaxation-0927136512\\Persistent photoconductivity in poly(p-phenylenevinylene) Spectral response and slow relaxation.pdf",
+   "deepest_sample": [
+    {
+     "len": 267,
+     "path": "V:\\Research4\\+Reference End note\\Consolidated_10-06.Data\\PDF\\Persistent photoconductivity in poly(p-phenylenevinylene) Spectral response and slow relaxation-0927136512\\Persistent photoconductivity in poly(p-phenylenevinylene) Spectral response and slow relaxation.pdf"
+    },
+    {
+     "len": 265,
+     "path": "V:\\Research4\\+Reference End note\\Consolidated_10-06.Data\\PDF\\PbSe Nanocrystal Assemblies Synthesis and Structural, Optical, and Electrical Characterization-2637845257\\PbSe Nanocrystal Assemblies Synthesis and Structural, Optical, and Electrical Characterization.pdf"
+    },
+    {
+     "len": 261,
+     "path": "V:\\Research4\\+Reference End note\\Consolidated_10-06.Data\\PDF\\Picosecond transient photoconductivity in a soluble derivative of poly(p-phenylene vinylene)-1916838400\\Picosecond transient photoconductivity in a soluble derivative of poly(p-phenylene vinylene).pdf"
+    },
+    {
+     "len": 261,
+     "path": "V:\\Research4\\+Reference End note\\Consolidated_10-06.Data\\PDF\\Charge separation in localized and delocalized electronic states in polymeric semiconductors-1918349056\\Charge separation in localized and delocalized electronic states in polymeric semiconductors.pdf"
+    }
+   ],
+   "long_stat_ok_unprefixed": 0,
+   "long_stat_fail_unprefixed": 4,
+   "long_stat_winerrors": {
+    "winerror=3": 4
+   },
+   "walk_errors_extended": 0,
+   "walk_errors_plain": 0,
+   "walk_errors_plain_sample": [],
+   "elapsed_s": 8.6
+  }
+ ],
+ "totals": {
+  "files_extended_walk": 152688,
+  "files_plain_walk": 152649,
+  "invisible_to_plain_walk": 40,
+  "over_259_usable": 2143,
+  "long_stat_fail_unprefixed": 2143
+ }
+}

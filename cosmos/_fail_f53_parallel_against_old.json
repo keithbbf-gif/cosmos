@@ -1,0 +1,45 @@
+{
+ "schema": "cosmos-f53-fail-old/1",
+ "old": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f53_parallel_20260831T161219Z\\cosmos_prepaid_orch.py",
+ "old_bytes": 13674,
+ "old_state": "PARALLEL",
+ "old_dropped": 0,
+ "old_spawned": 0,
+ "old_order_count": 0,
+ "old_readme": "Prepaid parallel orchestrator. Winner=grok. Never claude. PARALLEL while COW is alive (mailbox only). ORCHESTRATE when COW is quiet (drop one work-order). --spawn is opt-in.",
+ "pins": [
+  {
+   "name": "PARALLEL empty-bucket drops one MOTIF work-order",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "PARALLEL empty-bucket writes a DROPPED order file",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "PARALLEL spawn-injected fires once when it drops",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "open_prepaid_orders is a callable flood guard",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "PARALLEL readme is not mailbox-only failover",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "source names the flood guard",
+   "passed_on_old": false,
+   "err": ""
+  }
+ ],
+ "pin_count": 6,
+ "failed_on_old": 6,
+ "all_new_pins_failed": true
+}

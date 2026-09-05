@@ -1,0 +1,135 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_critfix_rtb",
+  "agent": "G46",
+  "ts": "2026-08-27T04:37:00-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_rtb",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "filed_named_critique_copies": true,
+  "filed_named_critique_copies_why": "execute_handoff identity is result.json.stdout.txt; the named gate paths docs/critique/cvmdt_CRITIQUE_{gem,oa}-api.md are COW-filed byte-identical copies of that rail text after nonempty return. Not G46-authored critiques.",
+  "what_done_is": "a FRESH GEM dispatch and a FRESH OA dispatch whose SOURCE called execute_handoff, dropped onto live/buckets/<node>, spawned that node's rail, and returned nonempty model text (done_why=nonempty_stdout). Contrast: OA fa6c68cc rc=0 secs=0.0 empty packet.",
+  "applied_core_sha256_16": {
+    "cosmos/cosmos_dispatch.py": "fc433ba939c50b6b",
+    "cosmos/cosmos_node_worker.py": "0da48282e86b4556",
+    "cosmos/cosmos_oa_worker.py": "d23644bce4d2c5c1"
+  },
+  "dispatch": {
+    "via": "cosmos_dispatch.dispatch in-process (CLI --task overflows Win32 CreateProcess WinError 206 on the source packet)",
+    "cli_first_attempt": {
+      "rc": null,
+      "error": "FileNotFoundError: [WinError 206] The filename or extension is too long"
+    },
+    "label_gem": "cvmdt clock motif stage-5 critique gem-api",
+    "label_oa": "cvmdt clock motif stage-5 critique oa-api",
+    "lane": "cm",
+    "kind_live": "handoff",
+    "timeout_s": 1800
+  },
+  "gem": {
+    "ok": true,
+    "done": true,
+    "done_why": "nonempty_stdout",
+    "rc": 0,
+    "secs": 29.9,
+    "elapsed_s": 29.776,
+    "link_id": "gem-api",
+    "model_recorded": "bts_gem",
+    "model_note": "worker writes rail.model from result.model or result.node or module; artifact says bts_gem — not a fabricated gemini-* id",
+    "usd": null,
+    "job_file": "gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209__t1800.py",
+    "job_path": "V:\\A\\Ai\\COSMOS\\live\\cosmos\\dispatch_jobs\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209__t1800.py",
+    "native_job_id": "1787823314986-b05ea49ae6",
+    "worker_bucket": "V:\\A\\Ai\\COSMOS\\live\\buckets\\gem",
+    "worker_packet": "V:\\A\\Ai\\COSMOS\\live\\buckets\\gem\\processed\\20260827T043515-0500_handoff-20260827T043515-0500.json",
+    "returns_path": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json",
+    "stdout_full": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json.stdout.txt",
+    "v_path": "V:\\A\\Ai\\COSMOS\\live\\returns\\gem\\gem_handoff-20260827T043515-0500_20260827T043515-0500_result.json",
+    "job_source_calls_execute_handoff": true,
+    "artifact": {
+      "path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_gem-api.md",
+      "bytes": 11638,
+      "sha256_16": "f94061e1b3ec7f28",
+      "work_copy": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_rtb\\cvmdt_CRITIQUE_gem-api.md",
+      "head": "# cvm_dt - Motif stage-5 critique (gem-api)",
+      "nonempty": true
+    }
+  },
+  "oa": {
+    "ok": true,
+    "done": true,
+    "done_why": "nonempty_stdout",
+    "rc": 0,
+    "secs": 77.6,
+    "elapsed_s": 77.467,
+    "link_id": "oa-api",
+    "model_recorded": "bts_oa_api",
+    "model_note": "artifact says bts_oa_api — not a fabricated gpt-* id",
+    "usd": 0.099528,
+    "job_file": "oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121__t1800.py",
+    "job_path": "V:\\A\\Ai\\COSMOS\\live\\cosmos\\dispatch_jobs\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121__t1800.py",
+    "native_job_id": "1787823315213-d148769c32",
+    "worker_bucket": "V:\\A\\Ai\\COSMOS\\live\\buckets\\oa",
+    "worker_packet": "V:\\A\\Ai\\COSMOS\\live\\buckets\\oa\\processed\\20260827T043515-0500_handoff-20260827T043515-0500.json",
+    "returns_path": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json",
+    "stdout_full": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json.stdout.txt",
+    "v_path": "V:\\A\\Ai\\COSMOS\\live\\returns\\oa\\oa_handoff-20260827T043515-0500_20260827T043515-0500_result.json",
+    "job_source_calls_execute_handoff": true,
+    "artifact": {
+      "path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_oa-api.md",
+      "bytes": 16484,
+      "sha256_16": "3f8962ca56c0ed1a",
+      "work_copy": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_rtb\\cvmdt_CRITIQUE_oa-api.md",
+      "head": "# cvmdt - Motif stage-5 critique (oa-api)",
+      "nonempty": true
+    }
+  },
+  "scar_contrast": {
+    "oa_fa6c68cc": {
+      "rc": 0,
+      "secs": 0.0,
+      "worker_packet": "live/state/dispatch/workers/oa (compat, not polled)",
+      "body": "empty"
+    },
+    "this_run": {
+      "gem_secs": 29.9,
+      "oa_secs": 77.6,
+      "gem_bytes": 11638,
+      "oa_bytes": 16484,
+      "bucket": "live/buckets/{gem,oa}/processed"
+    }
+  },
+  "oa_loop_not_standing": true,
+  "oa_loop_note": "live/logs/oa_worker_heartbeat.json still absent; execute_handoff does not require the poller",
+  "clock_critique_consensus": {
+    "gate_ready": false,
+    "shared_high": [
+      "no live/logs/cvm_dt_clock_heartbeat.json — DT own-clock not ticking natively",
+      "CLOCK_ID=17 vs H10 next=15 vs live pull.json clock_id=16",
+      "live Core core_kind=UNREACHABLE so named heartbeat+cursor gate cannot fire",
+      "H6 audio-owner authority not proven from the clock file (delegates to CvmDtClient.cycle_once)"
+    ]
+  },
+  "files": [
+    "BIND.json",
+    "FINDINGS.md",
+    "cvmdt_CRITIQUE_gem-api.md",
+    "cvmdt_CRITIQUE_oa-api.md",
+    "run_rtb.py",
+    "summary.json",
+    "artifact_stats.json",
+    "dispatch_gem.json",
+    "dispatch_oa.json",
+    "pre_state.json",
+    "GEM_TASK.txt",
+    "OA_TASK.txt"
+  ],
+  "not_done": [
+    "did not edit cosmos/ package or live/ source",
+    "did not stand up OA --loop",
+    "did not run schtasks for the CVM DT clock",
+    "did not claim stage-6 for the desktop clock (both families: NOT READY)"
+  ]
+}

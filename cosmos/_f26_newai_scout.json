@@ -1,0 +1,16 @@
+{
+ "ok": true,
+ "live_value": {
+  "checks": 23,
+  "clock_id": 23,
+  "proposed_count": 3,
+  "known_count": 75,
+  "state": "SCOUTED",
+  "heartbeat": "newai_scout_heartbeat.json"
+ },
+ "proposed_folds": [
+  "alsofreshwidget",
+  "brandnewaixyz",
+  "pipecat"
+ ]
+}

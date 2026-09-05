@@ -245,9 +245,11 @@ class Arbiter:
             self._replay()
 
     def _sig(self, event: dict) -> str:
-        # FULL hexdigest (256-bit). The old [:32] truncation halved the MAC for
-        # no benefit; legacy 32-hex signatures are still ACCEPTED on verify
-        # (128-bit HMAC-SHA256 is not forgeable either) so existing ledgers load.
+        # FULL hexdigest (256-bit) on WRITE. Legacy 32-hex signatures are still
+        # ACCEPTED in _verify_sig (128-bit HMAC-SHA256 is not forgeable either) so
+        # ledgers written before the widening still load - THAT [:32] is the compat
+        # path, not a live truncation. Scope is this LEASE ledger only: segment
+        # anchors are 128-bit at write by design (cosmos_segments._anchor_hmac).
         import hashlib, hmac as _h
         body = json.dumps({k: v for k, v in event.items() if k != "sig"},
                           sort_keys=True, separators=(",", ":")).encode("utf-8")

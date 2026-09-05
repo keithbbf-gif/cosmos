@@ -1,0 +1,36 @@
+{
+ "nodes": [
+  "Cursor",
+  "DOM",
+  "G46",
+  "GEM",
+  "OA",
+  "SGH"
+ ],
+ "unmapped_count": 15,
+ "unmapped": [
+  "AIDER",
+  "ANTHROPIC",
+  "BROWSER USE",
+  "FIRECRAWL",
+  "GCLOUD",
+  "GITHUB",
+  "GITLAB",
+  "GOOGLE GEMINI",
+  "GROQ",
+  "MCP REFERENCE SERVERS",
+  "MICROSOFT COPILOT",
+  "OLLAMA",
+  "OPENAI",
+  "PLAYWRIGHT MCP",
+  "XAI GROK"
+ ],
+ "pins": {
+  "unmapped_is_zero": false,
+  "node_count_is_21": false,
+  "filed_ids_present": false,
+  "pin_would_not_break": false
+ },
+ "all_new_pins_failed": true,
+ "staged": "V:\\A\\Ai\\COSMOS\\docs\\_delme\\predispose_competency_f28_20260831T145400Z\\COMPETENCY.toml"
+}

@@ -6,6 +6,7 @@ import sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_paths import CosmosPathError
 from cosmos_lock import LockError
@@ -57,6 +58,39 @@ def main() -> int:
     peer.register()
     mid = k.mail.send("critic", "review", "check my work")
     check("kernel mail send + peer unread", lambda: peer.unread()[0]["id"] == mid)
+    check("kernel mail is composed on the arbiter (F-55 lock seam)",
+          lambda: k.mail.arbiter is k.arbiter)
+    check("kernel mail send COMMITs mail:critic (fenced, one writer)",
+          lambda: any(e.get("event") == "COMMIT"
+                      and e.get("resource") == "mail:critic"
+                      for e in k.arbiter.events()))
+    check("kernel mail note is signed with the install key",
+          lambda: peer.unread()[0].get("signed") is True
+          and peer.unread()[0].get("prev_hash") == "0" * 64)
+
+    # ---- F-29 tools/ surface composed on writing boot (no invoke) ----
+    composed = list((k.rails_compose or {}).get("composed") or [])
+    check("tools-surface compose row landed on writing boot",
+          lambda: "tools-surface" in composed)
+    check("kernel.tools inventory is a declaration (xai-docs, openai-docs)",
+          lambda: k.tools is not None
+          and {r["name"] for r in k.tools.inventory()}
+          == {"xai-docs", "openai-docs"})
+    check("tools-surface compose did not invoke (boot is not a probe)",
+          lambda: (k.tools_compose or {}).get("invoked") is False)
+
+    # ---- F-30 forge rails composed on writing boot (adapters, not proven) ----
+    check("forge-rails compose row landed on writing boot",
+          lambda: "forge-rails" in composed)
+    check("gem-api native vertex adapter composed on writing boot",
+          lambda: "gem-api" in composed
+          and getattr(k, "gem_rail", None) is not None)
+    check("forge adapters attached (github-forge + gitlab-forge)",
+          lambda: {"github-forge", "gitlab-forge"} <= set(k.adapters))
+    check("forge adapters are dst=forge (cannot capture core->code)",
+          lambda: all(getattr(k.adapters[lid], "spec", {}).get("dst") == "forge"
+                      for lid in ("github-forge", "gitlab-forge")
+                      if lid in k.adapters))
 
     # ---- audit answers with measured state ----
     a = k.audit()

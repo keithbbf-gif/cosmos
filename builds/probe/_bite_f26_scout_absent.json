@@ -1,0 +1,10 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "F-26 scout clock is ABSENT (ModuleNotFoundError / no file)",
+ "target": "V:\\A\\Ai\\COSMOS\\builds\\probe\\cosmos_newai_scout.py",
+ "exists": false,
+ "state": "ABSENT",
+ "kind": "ModuleNotFoundError",
+ "detail": "No module named 'cosmos_newai_scout'",
+ "all_bite": true
+}

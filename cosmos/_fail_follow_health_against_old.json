@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "all_new_pins_failed": true,
+ "pin": "HEALTH_BOARD.node == sentinel.system",
+ "old_payload": {
+  "control_red": true,
+  "reds": 0,
+  "verdict": "GREEN"
+ },
+ "sentinel_system": "COSMOS",
+ "old_node": null,
+ "pin_passed_on_old": false,
+ "prechange_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_follow_health_20260831T132220Z\\cosmos"
+}

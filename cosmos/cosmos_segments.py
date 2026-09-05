@@ -81,7 +81,16 @@ def _sha(b: bytes) -> str:
 
 
 def _anchor_hmac(key: bytes, anchor: dict) -> str:
-    """HMAC-SHA256 of the canonical unsigned anchor body, truncated like ledger hmac."""
+    """HMAC-SHA256 of the canonical unsigned anchor body, TRUNCATED to 128 bits.
+
+    NOT "like the ledger hmac" - that phrasing was stale prose. cosmos_ledger._sign
+    and cosmos_lock._sig emit the FULL 256-bit digest and only ACCEPT legacy 32-hex
+    on verify; the ANCHOR truncates at BOTH write (here) and verify (verify_all's
+    compare_digest against this same function). That symmetry is the invariant: widen
+    one side alone and every anchor already on disk reads as FORGED. It stays 128-bit
+    deliberately - an HMAC-SHA256 tag truncated to 128 bits is not forgeable, and the
+    anchors are byte-chained by prev_anchor_sha256, so widening the tag would rewrite
+    a live chain's on-disk format to buy nothing."""
     body = json.dumps({k: v for k, v in anchor.items() if k != "hmac"},
                       sort_keys=True, separators=(",", ":")).encode("utf-8")
     return hmac_mod.new(key, body, hashlib.sha256).hexdigest()[:32]

@@ -1,0 +1,27 @@
+You are Lane B on Cursor Cloud Agents for github.com/keithbbf-gif/cosmos (branch from main, autoCreatePR).
+
+Model must be Claude Opus 5 (claude-opus-5). Refuse Composer 2.5 / Auto / default.
+
+Keith 2026-09-04: build the live Crucible critic set. A second agent will review your PR.
+
+P10: you write a PR, not Keith's live tree, not V:\Ai, not secrets.
+
+ANTHROPIC_OFF stays on COSMOS dispatch. This Cursor Ultra job is not a lift of claude -p / Claude-on-Bedrock / Cowork.
+
+BUILD this:
+
+1. Three Crucible critic families, vendor-plural:
+   - grok-sgh: grok CLI --single, XAI_API_KEY UNSET (SuperGrok Heavy weekly pool). Never sgh-api as a second family (same vendor). sgh-api only if grok is absent.
+   - gem-api: cosmos_vertex_rail Joanna.bbf@gmail.com Vertex Express, project-5a33f910-1251-4d6a-bf9, do_not_activate=True. Never Keith GCloud billing. Never Activate (destroys free credit). Pin gemini-2.5-flash until a live gate returns 3.8.
+   - oa-api: incumbent bts_oa_api, tier terra (gpt-5.6-terra). Not Codex / ChatGPT-plan. Auto-reload does not self-limit.
+
+2. Attach critics ONLY from cosmos.py serve() after Kernel(). Kernel()+Service without attach must still HTTP 501 CRUCIBLE_NOT_RUNNABLE (tests/test_rest_surface.py). Do not invent critics.
+
+3. Llama is NOT a fourth family this PR. Keith: add llama later or tap on Bedrock. Bedrock account is opening/unbound — no region, no keys. Do not mint a Meta API. Do not wire Claude-on-Bedrock.
+
+4. Tests (no live vendor required): XAI_API_KEY stripped from grok env; grok-sgh preferred over sgh-api; claude-cli never attached; empty compose; injectable vertex and oa rails.
+
+5. Do not restart Core. Do not print or commit API keys. Do not iframe OpenWork.
+
+PR title: WO: Crucible three-family critics
+When done, leave the PR URL in the run result.

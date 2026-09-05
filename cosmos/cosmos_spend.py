@@ -144,7 +144,14 @@ class SpendGate:
                            {"rail": rail, "rid": rid,
                             "measured_usd": measured,
                             "provenance": "measured" if measured is not None else "UNPRICED"})
-        return result
+        # Stamp the join keys this call just wrote (SPEND_RESERVED/SETTLED
+        # already carry rid+rail). Callers that record a CONVO_TURN can
+        # thread them without re-reading the chain. setdefault: a rail
+        # that already named itself keeps its own name.
+        out = dict(result)
+        out.setdefault("rid", rid)
+        out.setdefault("rail", rail)
+        return out
 
     # ---------------- both-direction audit ----------------
     def audit(self) -> dict:

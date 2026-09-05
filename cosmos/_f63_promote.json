@@ -1,0 +1,24 @@
+{
+ "ok": true,
+ "probe": "F-63 promote evidence",
+ "at": "2026-08-31T12:18:43+00:00",
+ "clock_id": 19,
+ "task": "COSMOS Askmine",
+ "live_heartbeat_absent": true,
+ "live_route_absent": true,
+ "live_projection_absent": true,
+ "tests": {
+  "test_askmine.py": "66/66",
+  "test_own_clocks.py": "74/74",
+  "test_watchdog2.py": "43/43",
+  "test_follow_ids.py": "current 10/10; prechange-lacks-keys 6/6"
+ },
+ "live_value": {
+  "checks": 66,
+  "clock_id": 19,
+  "heartbeat": "askmine_heartbeat.json",
+  "refusal_kinds": [
+   "NO_TRANSCRIPT"
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "cosmos-f30-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f30_forge_20260831T141931Z",
+ "old_kernel_bytes": 19203,
+ "old_prober_bytes": 26677,
+ "ready": true,
+ "composed": [
+  "node_rails",
+  "cursor-api",
+  "codex-cli",
+  "playwright-dom",
+  "firecrawl-web",
+  "claude-cli",
+  "tools-surface",
+  "dispatcher",
+  "prove_nodes"
+ ],
+ "adapter_ids": [
+  "claude-cli",
+  "codex-cli",
+  "cursor-api",
+  "firecrawl-web",
+  "gem-api",
+  "gw-api",
+  "oa-api",
+  "playwright-dom",
+  "sgh-api"
+ ],
+ "old_wired": [
+  "sgh-api",
+  "gem-api",
+  "gw-api",
+  "oa-api",
+  "claude-cli",
+  "cursor-api",
+  "firecrawl-web",
+  "playwright-dom"
+ ],
+ "old_wired_count": 8,
+ "pins": {
+  "forge_rails_in_composed": false,
+  "github_forge_adapter": false,
+  "gitlab_forge_adapter": false,
+  "github_forge_wired": false,
+  "gitlab_forge_wired": false,
+  "forge_module_importable_from_old_tree": false,
+  "colored_gh_json_binds_without_strip": false
+ },
+ "all_new_pins_failed": true
+}

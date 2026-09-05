@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""schtasks self-heal registration for COSMOS CritConsumer.
+
+EMIT-ONLY. Do not run this as part of the propose-only bundle proof.
+COW/Keith runs it AFTER cosmos_crit_consumer.py is filed onto the live
+tree. Windowless pythonw --loop, 1-min self-heal + ONLOGON relaunch,
+same vehicle as cosmos_runner / cosmos_dispatcher_daemon.
+
+    py -3.14 cosmos\\register_crit_consumer.py --root V:\\A\\Ai\\COSMOS\\live
+    py -3.14 cosmos\\register_crit_consumer.py --root <live> --plan
+
+--plan prints the schtasks argv and exits 0 without touching Task Scheduler.
+Default (no --plan) calls cosmos_clock.create_task. This file does NOT
+spawn the daemon and does NOT wait for a heartbeat.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from cosmos_clock import create_task, pythonw_exe, tr_cmdline  # noqa: E402
+from cosmos_crit_consumer import TASK_NAME, TASK_NAME_LOGON  # noqa: E402
+
+
+def consumer_script() -> Path:
+    here = Path(__file__).resolve().parent
+    p = here / "cosmos_crit_consumer.py"
+    return p if p.exists() else here / "cosmos_crit_consumer.py"
+
+
+def plan_tr(root: str) -> str:
+    """pythonw.exe <script> --root <root> --loop  (no console flash)."""
+    return tr_cmdline(consumer_script(), root, "--loop")
+
+
+def plan_loop_argv(root: str) -> list[str]:
+    return [pythonw_exe(), str(consumer_script()),
+            "--root", str(Path(root).resolve()), "--loop"]
+
+
+def plan_minute(root: str) -> list[str]:
+    """1-min self-heal. schtasks floor; the daemon sleeps 10s inside --loop."""
+    return ["schtasks", "/create", "/tn", TASK_NAME, "/tr", plan_tr(root),
+            "/sc", "minute", "/mo", "1", "/f"]
+
+
+def plan_logon(root: str) -> list[str]:
+    return ["schtasks", "/create", "/tn", TASK_NAME_LOGON, "/tr", plan_tr(root),
+            "/sc", "onlogon", "/f"]
+
+
+def plan(root: str) -> dict:
+    return {
+        "task_name": TASK_NAME,
+        "task_logon": TASK_NAME_LOGON,
+        "script": str(consumer_script()),
+        "tr": plan_tr(root),
+        "loop_argv": plan_loop_argv(root),
+        "minute": plan_minute(root),
+        "logon": plan_logon(root),
+        "windowless": True,
+        "vehicle": "detached --loop daemon + 1-min self-heal + onlogon",
+        "note": "emit-only; create_task is the live path, this module does not spawn",
+    }
+
+
+def register(root: str) -> dict:
+    """Call schtasks /create for minute + logon. Does not spawn --loop."""
+    tr = plan_tr(root)
+    minute = create_task(TASK_NAME, tr, "minute", mo=1, run_now=False)
+    logon = create_task(TASK_NAME_LOGON, tr, "onlogon")
+    return {
+        "ok": bool(minute.get("ok") or logon.get("ok")),
+        "task_name": TASK_NAME,
+        "task_logon": TASK_NAME_LOGON,
+        "tr": tr,
+        "minute": minute,
+        "logon": logon,
+        "spawned": False,
+    }
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(prog="register_crit_consumer")
+    ap.add_argument("--root", required=True)
+    ap.add_argument("--plan", action="store_true",
+                    help="print argv only; do not call schtasks")
+    a = ap.parse_args(argv)
+    if a.plan:
+        print(json.dumps(plan(a.root), indent=1, default=str))
+        return 0
+    rec = register(a.root)
+    print(json.dumps(rec, indent=1, default=str))
+    return 0 if rec.get("ok") else 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -9,6 +9,7 @@ import json, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_paths import CosmosPathError
 from cosmos_lock import LockError

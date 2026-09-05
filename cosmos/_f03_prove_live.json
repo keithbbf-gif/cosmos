@@ -1,0 +1,293 @@
+{
+ "probe": "F-03 POST /api/v1/spend against the live Core",
+ "base": "http://127.0.0.1:8770",
+ "root": "V:\\A\\Ai\\COSMOS\\live",
+ "tree_id": "KMesh-COSMOS-live",
+ "rail": "f03-probe",
+ "cap_usd": 0.25,
+ "status": [
+  200,
+  {
+   "served_at": 1788167135.4977124,
+   "ready": true,
+   "root": "V:\\A\\Ai\\COSMOS\\live",
+   "tree_id": "KMesh-COSMOS-live",
+   "ledger_head": {
+    "seq": 1029,
+    "event": "HEALTH_BOARD"
+   }
+  }
+ ],
+ "empty_body": [
+  400,
+  {
+   "served_at": 1788167135.523919,
+   "ok": false,
+   "error": "BAD_TARGET",
+   "kind": "BAD_TARGET",
+   "detail": "[BAD_TARGET] nothing to set: send {\"rail\",\"cap_usd\"} or {\"thresholds\":{...}}",
+   "schema": "cosmos-spend-admin/1"
+  }
+ ],
+ "spend_before": [
+  200,
+  {
+   "served_at": 1788167135.545471,
+   "measured_at_epoch": 1788167135.5249717,
+   "rails": {
+    "sgh-api": {
+     "cap_usd": 10.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 15,
+     "headroom_usd": 10.0
+    },
+    "gem-api": {
+     "cap_usd": 300.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 14,
+     "headroom_usd": 300.0
+    },
+    "gw-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.000754,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.999246
+    },
+    "oa-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.453266,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.546734
+    }
+   }
+  }
+ ],
+ "unconfirmed_widen": [
+  409,
+  {
+   "served_at": 1788167135.6502104,
+   "ok": false,
+   "error": "WIDEN_REQUIRES_CONFIRM",
+   "kind": "WIDEN_REQUIRES_CONFIRM",
+   "detail": "[WIDEN_REQUIRES_CONFIRM] f03-probe: no budget at all -> $0.25 gives MORE room to spend. A cap is never widened silently - resend with \"allow_widen\": true to mean it",
+   "schema": "cosmos-spend-admin/1"
+  }
+ ],
+ "spend_after_refusal": [
+  200,
+  {
+   "served_at": 1788167135.6784241,
+   "measured_at_epoch": 1788167135.6515496,
+   "rails": {
+    "sgh-api": {
+     "cap_usd": 10.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 15,
+     "headroom_usd": 10.0
+    },
+    "gem-api": {
+     "cap_usd": 300.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 14,
+     "headroom_usd": 300.0
+    },
+    "gw-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.000754,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.999246
+    },
+    "oa-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.453266,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.546734
+    }
+   }
+  }
+ ],
+ "confirmed": [
+  200,
+  {
+   "served_at": 1788167135.8195438,
+   "ok": true,
+   "schema": "cosmos-spend-admin/1",
+   "target": "rail",
+   "rail": "f03-probe",
+   "actor": "bearer:2c95dc38885441f5",
+   "direction": "create",
+   "before": null,
+   "after": {
+    "cap_usd": 0.25,
+    "expires_epoch": null,
+    "settled_usd": 0.0,
+    "reserved_usd": 0,
+    "headroom_usd": 0.25
+   },
+   "round_trip": {
+    "verified": true,
+    "via": "Ledger.append_guarded(BUDGET_SET) -> SpendGate._state() re-folded from the verified on-disk chain",
+    "ledger_seq": 1031,
+    "ledger_event": "BUDGET_SET",
+    "cap_usd": 0.25,
+    "headroom_usd": 0.25
+   }
+  }
+ ],
+ "spend_after": [
+  200,
+  {
+   "served_at": 1788167135.8552601,
+   "measured_at_epoch": 1788167135.83472,
+   "rails": {
+    "sgh-api": {
+     "cap_usd": 10.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 15,
+     "headroom_usd": 10.0
+    },
+    "gem-api": {
+     "cap_usd": 300.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 14,
+     "headroom_usd": 300.0
+    },
+    "gw-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.000754,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.999246
+    },
+    "oa-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.453266,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.546734
+    },
+    "f03-probe": {
+     "cap_usd": 0.25,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 0.25
+    }
+   }
+  }
+ ],
+ "narrow_back": [
+  200,
+  {
+   "served_at": 1788167135.9732912,
+   "ok": true,
+   "schema": "cosmos-spend-admin/1",
+   "target": "rail",
+   "rail": "f03-probe",
+   "actor": "bearer:2c95dc38885441f5",
+   "direction": "narrow",
+   "before": {
+    "cap_usd": 0.25,
+    "expires_epoch": null,
+    "settled_usd": 0.0,
+    "reserved_usd": 0,
+    "headroom_usd": 0.25
+   },
+   "after": {
+    "cap_usd": 0.0,
+    "expires_epoch": null,
+    "settled_usd": 0.0,
+    "reserved_usd": 0,
+    "headroom_usd": 0.0
+   },
+   "round_trip": {
+    "verified": true,
+    "via": "Ledger.append_guarded(BUDGET_SET) -> SpendGate._state() re-folded from the verified on-disk chain",
+    "ledger_seq": 1032,
+    "ledger_event": "BUDGET_SET",
+    "cap_usd": 0.0,
+    "headroom_usd": 0.0
+   }
+  }
+ ],
+ "spend_final": [
+  200,
+  {
+   "served_at": 1788167135.9992263,
+   "measured_at_epoch": 1788167135.9788477,
+   "rails": {
+    "sgh-api": {
+     "cap_usd": 10.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 15,
+     "headroom_usd": 10.0
+    },
+    "gem-api": {
+     "cap_usd": 300.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 14,
+     "headroom_usd": 300.0
+    },
+    "gw-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.000754,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.999246
+    },
+    "oa-api": {
+     "cap_usd": 5.0,
+     "settled_usd": 0.453266,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 4.546734
+    },
+    "f03-probe": {
+     "cap_usd": 0.0,
+     "settled_usd": 0.0,
+     "reserved_usd": 0,
+     "unpriced_calls": 0,
+     "headroom_usd": 0.0
+    }
+   }
+  }
+ ],
+ "ledger_record": [
+  200,
+  {
+   "seq": 1031,
+   "event": "BUDGET_SET",
+   "t": 1788167135.766421,
+   "writer": "cli",
+   "payload": {
+    "actor": "bearer:2c95dc38885441f5",
+    "cap_usd": 0.25,
+    "client_id": "f03-probe",
+    "confirmed_below_outstanding": false,
+    "confirmed_widen": true,
+    "direction": "create",
+    "expires_epoch": null,
+    "prev_cap_usd": null,
+    "prev_expires_epoch": null,
+    "rail": "f03-probe",
+    "reason": "F-03 runtime-binding proof",
+    "remote": "127.0.0.1",
+    "source": "POST /api/v1/spend"
+   }
+  }
+ ],
+ "ok": true,
+ "verdict": "refused the silent widen, applied the confirmed one, and the ledger holds the who/what/from/to"
+}

@@ -1,0 +1,59 @@
+{
+  "all_new_pins_failed": true,
+  "checked": 10,
+  "rows": [
+    {
+      "artifact": "builds/probe/_longpath_behaviour.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/probe/_tools_surface_live.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/probe/_blockers_freshness.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/probe/MESH_STATUS.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/backup/_f43_mutate_retire_live.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/backup/_f47_live_adapter.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/backup/_hmac_copyhash_live.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/backup/_stage_restore_live.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/backup/_f54_live_preflight.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    },
+    {
+      "artifact": "builds/probe/_f41_live_apply_refused.json",
+      "kind": "UNFINGERPRINTED",
+      "ok": true
+    }
+  ],
+  "schema": "cosmos-fail-against-old/1",
+  "staged": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_claim_artifacts_20260831T133500Z",
+  "unfingerprinted": 10
+}

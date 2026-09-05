@@ -53,8 +53,12 @@ class ToolContracts:
             raise ToolsError("DUPLICATE",
                              f"{name!r} already declared - a second declaration is a "
                              f"drift, not an update; record a disposition instead")
+        # node=name is the FOLLOW_KEYS identity the deck already harvests;
+        # it is the same value as `name`, not a guessed rail. cDeck's map
+        # lights it only if that name is already a node (RESEARCH_1 § 5.4).
         self.ledger.append("TOOL_DECLARED",
-                           {"name": name, "verbs": list(verbs), "behavior": behavior})
+                           {"name": name, "verbs": list(verbs), "behavior": behavior,
+                            "node": name})
 
     def disposition(self, name: str, decision: str, reason: str) -> None:
         """The architecture-wins decision, RECORDED: PRESERVED, ADAPTED, REPLACED, or
@@ -66,7 +70,8 @@ class ToolContracts:
         if name not in self.state():
             raise ToolsError("UNKNOWN_TOOL", name)
         self.ledger.append("TOOL_DISPOSITION",
-                           {"name": name, "decision": decision, "reason": reason})
+                           {"name": name, "decision": decision, "reason": reason,
+                            "node": name})
 
     def attach_check(self, name: str, fn: Callable[[], tuple[bool, str]]) -> None:
         """A contract check is code, not prose: () -> (ok, detail)."""
@@ -91,7 +96,8 @@ class ToolContracts:
             ok, detail = False, f"check raised {type(e).__name__}: {e}"
         event = "TOOL_CONTRACT_OK" if ok else "TOOL_CONTRACT_FAIL"
         self.ledger.append(event, {"name": name, "ok": bool(ok),
-                                   "detail": str(detail)[:300]})
+                                   "detail": str(detail)[:300],
+                                   "node": name})
         if not ok:
             raise ToolsError("CONTRACT_FAIL", f"{name}: {detail}")
         return {"name": name, "ok": True, "detail": detail}
@@ -109,7 +115,8 @@ class ToolContracts:
                     # refusal recorded: nothing ran, and the ledger says so
                     self.ledger.append("TOOL_CONTRACT_FAIL",
                                        {"name": name, "ok": False,
-                                        "detail": "UNVERIFIABLE: no check attached"})
+                                        "detail": "UNVERIFIABLE: no check attached",
+                                        "node": name})
                 out[name] = {"name": name, "ok": False, "detail": str(e)}
         return out
 

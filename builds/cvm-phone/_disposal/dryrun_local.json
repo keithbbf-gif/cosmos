@@ -1,0 +1,251 @@
+{
+ "ok": true,
+ "verdict": "PASS",
+ "stage": 6,
+ "deliverable": "cvm-phone",
+ "half": "local",
+ "gated_at_epoch": 1788153856.234099,
+ "utc_offset_s": -18000,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_gate.py",
+ "source_sha256": "fcf2aa53caec7b04b92a133cc018dd19554c4b9889421e2f57648de359beb529",
+ "clock_sha256": "ae5ebf4d5dd2d2bb6c86c06bcea5b6a50b5b6fe4efa249f24a1cb203825cfb29",
+ "pull_sha256": "7f4bfba071c933423c1b2b28d04d6ab61b9e5ac1c28be13939db05064b419ba0",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "checks": [
+  {
+   "name": "root_identity",
+   "verdict": "PASS",
+   "value": {
+    "tree_id": "KMesh-COSMOS-live",
+    "system": "COSMOS",
+    "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+    "token_loaded": true
+   },
+   "ms": 0.419
+  },
+  {
+   "name": "live_phone_reach_measured",
+   "verdict": "PASS",
+   "value": {
+    "reachable": false,
+    "reason": "stale",
+    "kind": "UNREACHABLE",
+    "age_s": 27710.6,
+    "deadline_s": 45.0,
+    "last_seen_epoch": 1788126142.824778,
+    "source": "state/cvm/phone.json",
+    "cursor": "c0c14751371083a28ae2f9b035ca6e5e4ed8bdc9cbbabe8f276079b2f3876905",
+    "require_phone_kind": "UNREACHABLE",
+    "read_only": true
+   },
+   "ms": 1.674
+  },
+  {
+   "name": "empty_ticket_refused",
+   "verdict": "PASS",
+   "value": {
+    "kind": "UNREACHABLE",
+    "detail": "[UNREACHABLE] GET /api/v1/cvm/pull published no ticket (pull=false)"
+   },
+   "kind": "UNREACHABLE",
+   "ms": 2.9
+  },
+  {
+   "name": "ticket_kinds_honored",
+   "verdict": "PASS",
+   "value": {
+    "ticket_asked": [
+     "device",
+     "sms",
+     "calls",
+     "pcm",
+     "fax_over_ip"
+    ],
+    "clock_requested": [
+     "device",
+     "sms",
+     "calls",
+     "pcm",
+     "fax_over_ip"
+    ],
+    "answered": [
+     "calls",
+     "device",
+     "pcm",
+     "sms"
+    ],
+    "unanswered": [],
+    "unsupported_reported": [
+     "fax_over_ip"
+    ],
+    "quoted_from": "GET /api/v1/cvm/pull"
+   },
+   "ms": 64.455
+  },
+  {
+   "name": "typed_status_per_kind",
+   "verdict": "PASS",
+   "value": {
+    "kind_status": {
+     "device": "ok",
+     "sms": "NO_COLLECTOR:sms",
+     "calls": "PERM_DENIED:calls",
+     "pcm": "PERM_DENIED:pcm"
+    },
+    "granted": [
+     "device",
+     "sms"
+    ],
+    "data": [
+     "device"
+    ],
+    "no_collector": [
+     "sms"
+    ],
+    "perm_denied": [
+     "calls",
+     "pcm"
+    ],
+    "unknown_kind_not_in_body": true,
+    "answered_blobs": {
+     "device": {
+      "status": "ok",
+      "audio_route": "none",
+      "surface": "capture+playback"
+     },
+     "sms": {
+      "status": "NO_COLLECTOR:sms"
+     },
+     "calls": {
+      "status": "PERM_DENIED:calls"
+     },
+     "pcm": {
+      "status": "PERM_DENIED:pcm"
+     }
+    }
+   }
+  },
+  {
+   "name": "phone_never_claims_audio",
+   "verdict": "PASS",
+   "value": {
+    "push_body_keys": [
+     "client_id",
+     "cursor_in",
+     "cvm",
+     "kinds",
+     "request_id"
+    ],
+    "body_has_audio_owner": false,
+    "tick_audio_owner": "desktop",
+    "tick_claimed": false,
+    "published_claimed": false,
+    "ticket_audio_owner": "desktop",
+    "ticket_writer": "cosmos-service-cvm-push",
+    "phone_writer": "cvm-phone-clock",
+    "ticket_clock_id": 18,
+    "sole_writer_id": 18
+   }
+  },
+  {
+   "name": "idle_tick_skips_http",
+   "verdict": "PASS",
+   "value": {
+    "tick1": {
+     "skipped_http": false,
+     "http_gets": 1,
+     "http_posts": 1,
+     "push_bytes": 278,
+     "tick_ms": 64.455
+    },
+    "tick2": {
+     "skipped_http": true,
+     "http_gets": 1,
+     "http_posts": 1,
+     "push_bytes": 0,
+     "tick_ms": 1.579,
+     "quoted_from": "local phone_turn.json"
+    },
+    "cursor_stable": true
+   },
+   "ms": 1.579
+  },
+  {
+   "name": "phone_writes_only_its_turn_file",
+   "verdict": "PASS",
+   "value": {
+    "window": "one tick with skipped_http=true (no HTTP)",
+    "desktop_files_changed": [],
+    "desktop_files": [
+     "pull.json",
+     "phone.json"
+    ],
+    "turn_file_changed": true,
+    "published": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-ht2h8n8y\\state\\cvm\\phone_turn.json"
+   }
+  },
+  {
+   "name": "pcm_pointer_contract",
+   "verdict": "PASS",
+   "value": {
+    "kind": "BAD_SNAPSHOT",
+    "detail": "[BAD_SNAPSHOT] pcm must be a pointer (sha256), not inline bytes"
+   },
+   "kind": "BAD_SNAPSHOT",
+   "ms": 0.645
+  },
+  {
+   "name": "foreign_tree_refused",
+   "verdict": "PASS",
+   "value": {
+    "kind": "IDENTITY_MISMATCH",
+    "detail": "[IDENTITY_MISMATCH] phone_turn.json tree_id='KMesh-NOT-THIS-TREE' != sentinel 'KMesh-COSMOS-live'"
+   },
+   "kind": "IDENTITY_MISMATCH",
+   "ms": 7.909
+  },
+  {
+   "name": "loopback_double_provenance",
+   "verdict": "PASS",
+   "value": {
+    "kind": "LOOPBACK_DOUBLE",
+    "is_core": false,
+    "base": "http://127.0.0.1:63923",
+    "root": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-ht2h8n8y",
+    "tree_id": "KMesh-COSMOS-live",
+    "handlers": "cosmos_service._cvm_pull_response + cosmos_cvm_push.cvm_post_dispatch (real route code)",
+    "boot_ms": 232.228,
+    "note": "A double answering proves the double is up. It is not evidence about the resident Core on :8770."
+   },
+   "ms": 330.924
+  },
+  {
+   "name": "dead_core_typed_refusal",
+   "verdict": "PASS",
+   "value": {
+    "base": "http://127.0.0.1:63929",
+    "kind": "UNREACHABLE"
+   },
+   "kind": "UNREACHABLE",
+   "ms": 2050.262
+  }
+ ],
+ "counts": {
+  "PASS": 12,
+  "REFUSED": 0,
+  "UNMEASURED": 0,
+  "PENDING_CORE": 0,
+  "FAIL": 0
+ },
+ "wire": "cvm-phone-gate-local/1",
+ "core_used": false,
+ "core_substitute_used": false,
+ "note": "rc=0 is not the gate; the checks[] values are. This half quotes NO Core measurement \u2014 the loopback double is typed LOOPBACK_DOUBLE and is not evidence about :8770. An unreachable live phone is a passing MEASUREMENT here, not a green log.",
+ "emitted": "cvm-phone-local:KMesh-COSMOS-live:stale:27710.600:2/4:fcf2aa53caec7b04",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\_disposal\\dryrun_local.json"
+}

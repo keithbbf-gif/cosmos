@@ -1,0 +1,13 @@
+{
+ "schema": "cosmos-fail-against-old/1",
+ "what": "round3 probe pins FAIL against stripped unrecognised-mode HOLD",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_unpinned_round3_20260831T135200Z",
+ "ran": [
+  "resumed_tidy_HOLD"
+ ],
+ "failed": [
+  "resumed_tidy_HOLD:ARM"
+ ],
+ "stripped_class": "ARM",
+ "all_new_pins_failed": true
+}

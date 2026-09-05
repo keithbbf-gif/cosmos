@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-f39-stamps-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "measured_utc": "2026-08-31T18:20Z",
+ "disp": {
+  "bytes": 59342,
+  "lines": 1481
+ },
+ "stamps": {
+  "bytes": 12693,
+  "lines": 326
+ },
+ "old": {
+  "bytes": 69549,
+  "lines": 1715
+ },
+ "dhx_same": true,
+ "inbox_same": true,
+ "suite": {
+  "checks": 82,
+  "passed": 82
+ },
+ "bite": {
+  "all_new_pins_failed": true,
+  "failed_pin_count": 9
+ },
+ "defines_append_dhx_in_dispatch": false,
+ "imports_stamps": true
+}

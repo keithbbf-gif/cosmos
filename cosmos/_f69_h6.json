@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "cursor_missing_key": "NO_KEY",
+  "cursor_kind_live": "UNPROVEN",
+  "claude_kind_live": "ANTHROPIC_OFF",
+  "sonnet_kind_live": "ANTHROPIC_OFF",
+  "ssa_kind_live": "adapter",
+  "note": "H6: Anthropic off 2026-09-01. claude-family KIND_LIVE is ANTHROPIC_OFF. cursor stays UNPROVEN. Missing Cursor key is typed NO_KEY. No key chase. No claude -p."
+}

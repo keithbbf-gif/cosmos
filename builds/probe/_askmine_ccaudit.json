@@ -1,0 +1,2652 @@
+{
+ "schema": "cosmos-askmine/1",
+ "worker": "cosmos-askmine",
+ "ok": true,
+ "run_at_utc": "2026-08-31T08:01:44+00:00",
+ "transcripts_seen": 864,
+ "transcripts_parsed": 862,
+ "transcripts_skipped": [],
+ "turns": 2422,
+ "user_turns": 862,
+ "asks": 357,
+ "findings": 97,
+ "redactions": 0,
+ "repeat_convictions": 0,
+ "by_verdict": {
+  "LIKELY_UNANSWERED": 185,
+  "ADDRESSED": 172
+ },
+ "by_signal": {
+  "SELF_ADMITTED_SKIP": 44,
+  "TEMPLATE_FANOUT": 157,
+  "KEY_TERM_MISS": 125,
+  "TERM_MISS": 74
+ },
+ "results": [
+  {
+   "session_id": "373cdd67-52b7-4510-bc9f-21fefe7e2a91",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\373cdd67-52b7-4510-bc9f-21fefe7e2a91.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T01:49:25.371Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Add a base `RailError(kind, detail)` to cosmos_rail_base.py, following the typed-refusal pattern used across COSMOS (an exception carrying a machine-readable `kind`).",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS",
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.286,
+   "key_coverage": 0.6,
+   "evidence": {
+    "response_chars": 5894,
+    "response_turns": 8,
+    "coverage": 0.286,
+    "admission": "i did not merge them \u2014 that is phase 5, and doing it here would change what `except railerror` catches inside the live dispatch path while the fleet is running."
+   }
+  },
+  {
+   "session_id": "dbe74072-641c-467c-9bf8-d5e14b856f50",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\dbe74072-641c-467c-9bf8-d5e14b856f50.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:50.116Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) split the gate into the part provable today (local voice loop, pull/push round-trip against a loopback double) and the part that genuinely needs Core, so the first half stops being blocked by the second;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.579,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 9184,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "pull/push"
+    ],
+    "admission": "i did not start core."
+   }
+  },
+  {
+   "session_id": "373cdd67-52b7-4510-bc9f-21fefe7e2a91",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\373cdd67-52b7-4510-bc9f-21fefe7e2a91.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T01:49:25.371Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Make `CodexRailError` a SUBCLASS of `RailError` so every existing `except CodexRailError` keeps working unchanged.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.444,
+   "key_coverage": 0.75,
+   "evidence": {
+    "response_chars": 5894,
+    "response_turns": 8,
+    "admission": "i did not merge them \u2014 that is phase 5, and doing it here would change what `except railerror` catches inside the live dispatch path while the fleet is running."
+   }
+  },
+  {
+   "session_id": "373cdd67-52b7-4510-bc9f-21fefe7e2a91",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\373cdd67-52b7-4510-bc9f-21fefe7e2a91.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T01:49:25.371Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Extend tests/test_rail_base.py: assert all five rails resolve each moved helper to the same object, and assert CodexRailError is a subclass of RailError so the catch-compatibility claim is pinned by a test rather than by this instruction.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.667,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 5894,
+    "response_turns": 8,
+    "admission": "i did not merge them \u2014 that is phase 5, and doing it here would change what `except railerror` catches inside the live dispatch path while the fleet is running."
+   }
+  },
+  {
+   "session_id": "1a9428c2-836b-4e5d-ae9a-e3b0959639a3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\1a9428c2-836b-4e5d-ae9a-e3b0959639a3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:05:23.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "A contract is a statement plus EVIDENCE: files that must, or must not, contain a marker.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.625,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8699,
+    "response_turns": 6,
+    "admission": "- **one evidence gap i could not close:** `ledger.append_guarded` has **no test anywhere in the 73-suite** \u2014 grep for `append_guarded` returns zero hits under `tests/`."
+   }
+  },
+  {
+   "session_id": "1a9428c2-836b-4e5d-ae9a-e3b0959639a3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\1a9428c2-836b-4e5d-ae9a-e3b0959639a3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:05:23.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "VERIFY each one with grep before writing it -- a contract that cites a marker that is not there is a false alarm, and a checker that cries wolf is how a real 3-day stall got ignored.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.467,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8699,
+    "response_turns": 6,
+    "admission": "- **one evidence gap i could not close:** `ledger.append_guarded` has **no test anywhere in the 73-suite** \u2014 grep for `append_guarded` returns zero hits under `tests/`."
+   }
+  },
+  {
+   "session_id": "4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:07:43.159Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "TASK: the code CLAIMS an 18-panel KDash superset but the wishlist says several panels do not actually render.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.417,
+   "key_coverage": 0.5,
+   "evidence": {
+    "response_chars": 7791,
+    "response_turns": 29,
+    "admission": "- `parity_audit.md` \u2014 the audit: all 18 panels, verdict + evidence, plus what i could not measure"
+   }
+  },
+  {
+   "session_id": "c9039236-24bc-4139-8582-189642c6b5e0",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\c9039236-24bc-4139-8582-189642c6b5e0.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:22:28.406Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Read docs/WISHLIST.md ('BULLETPROOF BACKUP (P0)' and 'R2 running properly') and builds/backup/.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.714,
+   "key_coverage": 0.5,
+   "evidence": {
+    "response_chars": 8506,
+    "response_turns": 13,
+    "admission": "separately \u2014 and i did not read `d:\\r2cloner`, nor will i print it \u2014 **`.git/config` holds a plaintext remote access token for the `gitlab` remote**."
+   }
+  },
+  {
+   "session_id": "d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:11:44.600Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) add a comparison that, each tick, checks the JSON projection against a fresh markdown parse and records AGREEMENT or the exact divergence -- this is the EVIDENCE that justifies flipping later, and flipping without it would be the same unevidenced leap that caused the 3-day wedge;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.522,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 5912,
+    "response_turns": 8,
+    "admission": "- **authority remains `markdown`.** deliberate \u2014 out of scope for this job, and the evidence is 1 tick old."
+   }
+  },
+  {
+   "session_id": "d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:11:44.600Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "State in your report how many consecutive agreeing ticks you would want before flipping, and why.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.857,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 5912,
+    "response_turns": 8,
+    "admission": "- **proposal (outside my fence, `docs/`):** `docs/core_restructure.md` phase 2 should gain a step-two line \u2014 *\"work order 2.1a \u2014 agreement evidence: `motif_agreement.json`, 96 consecutive agreeing ticks required before 2.2 flips `parse_tracker()`.\"* i did not "
+   }
+  },
+  {
+   "session_id": "f02b5f09-d56f-4a93-91e9-8fb706e912e3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f02b5f09-d56f-4a93-91e9-8fb706e912e3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:16:46.615Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) read FEATURES_KEITH.md and state precisely what CREATE is meant to do before building; if the spec is ambiguous, implement the smallest honest reading and NAME the ambiguity in your report rather than inventing scope;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.632,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7198,
+    "response_turns": 6,
+    "admission": "- **create cannot yet complete a creation, and i did not pretend otherwise.** cosmos's http api has no route that *performs* a creation, and the runner executes only confined scripts \u2014 so an order needs an executor `.py` under the tools root, which lives outsi"
+   }
+  },
+  {
+   "session_id": "f02b5f09-d56f-4a93-91e9-8fb706e912e3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f02b5f09-d56f-4a93-91e9-8fb706e912e3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:16:46.615Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) it must bind to a real COSMOS action (a queue drop or a dispatch), never a mock;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.6,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7198,
+    "response_turns": 6,
+    "admission": "- **create cannot yet complete a creation, and i did not pretend otherwise.** cosmos's http api has no route that *performs* a creation, and the runner executes only confined scripts \u2014 so an order needs an executor `.py` under the tools root, which lives outsi"
+   }
+  },
+  {
+   "session_id": "f02b5f09-d56f-4a93-91e9-8fb706e912e3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f02b5f09-d56f-4a93-91e9-8fb706e912e3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:16:46.615Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(3) an action it cannot perform must be visibly disabled with the reason shown -- never a button that silently does nothing;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.583,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 7198,
+    "response_turns": 6,
+    "admission": "- **create cannot yet complete a creation, and i did not pretend otherwise.** cosmos's http api has no route that *performs* a creation, and the runner executes only confined scripts \u2014 so an order needs an executor `.py` under the tools root, which lives outsi"
+   }
+  },
+  {
+   "session_id": "d3cf445a-5d4f-4bfd-871a-626060ea1667",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d3cf445a-5d4f-4bfd-871a-626060ea1667.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:54:39.034Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Read PARITY_AUDIT.md first and work in its priority order; do not re-audit what is already measured.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.75,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7684,
+    "response_turns": 34,
+    "admission": "so i did not re-audit wiring;"
+   }
+  },
+  {
+   "session_id": "c23d119c-dee0-4196-a5d0-53b0b5068e38",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\c23d119c-dee0-4196-a5d0-53b0b5068e38.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:25:57.461Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(4) if merging is not provably safe, DO NOT MERGE -- deliver the survey and say why, which is a complete and useful result;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.6,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8293,
+    "response_turns": 17,
+    "admission": "narrowing it to `except spenderror` is a one-line change i did not make on a survey job."
+   }
+  },
+  {
+   "session_id": "bbc4941b-e797-4e99-b89c-ba73eb031a2f",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bbc4941b-e797-4e99-b89c-ba73eb031a2f.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:41:36.189Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "FIX THE TEST/PRODUCTION HEARTBEAT LEAK.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 1.0,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 10249,
+    "response_turns": 6,
+    "admission": "- **could not reproduce the leak, so could not fix it as a code defect.** i could not determine which run freshened those heartbeats on 2026-08-30 \u2014 the evidence is gone."
+   }
+  },
+  {
+   "session_id": "124e12bf-117a-43f2-9771-9797cb5d230a",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\124e12bf-117a-43f2-9771-9797cb5d230a.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:57:57.293Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(3) every other failure must be ledgered with its OWN honest reason and raised with the kind that actually fits -- see docs/REFUSAL_TAXONOMY.md for the existing kinds;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.929,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8992,
+    "response_turns": 8,
+    "admission": "the ledger detail names the real exception class either way, so the record is honest \u2014 but separating them would need the callable tagged, and i did not add that machinery for a distinction nothing currently branches on."
+   }
+  },
+  {
+   "session_id": "d57c533b-8367-4e87-9d3e-bc2291b96118",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d57c533b-8367-4e87-9d3e-bc2291b96118.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:48.099Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) enumerate what the phone side must prove and split it into Core-independent and Core-dependent;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.625,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 7254,
+    "response_turns": 16,
+    "admission": "- **the core-dependent half is unmeasured** \u2014 core on :8770 is down, and per instruction i did not start it and did not gate against :8791."
+   }
+  },
+  {
+   "session_id": "d57c533b-8367-4e87-9d3e-bc2291b96118",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d57c533b-8367-4e87-9d3e-bc2291b96118.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:48.099Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(3) prove the Core-independent half NOW with real emitted values, written to builds/cvm-phone/STAGE6_PHONE.json;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.778,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7254,
+    "response_turns": 16,
+    "admission": "- **the core-dependent half is unmeasured** \u2014 core on :8770 is down, and per instruction i did not start it and did not gate against :8791."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "TEST SUITES WRITE PRODUCTION HEARTBEATS.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 1.0,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "so i did not \"fix\" a write that was never there."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Static grep (unconfounded) shows these reference the live logs path: tests/test_collector_dhx.py, tests/test_node_bucket_worker.py (and builds/cvm-dt/test_cvm_dt_clock.py, builds/health/test_cosmos_health_watchdog.py which are OUTSIDE your fence -- report them, do not touch them).",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.688,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "- **i could not fence native child processes.** the 17 `schtasks` calls are outside any python audit hook."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) fix the two files in tests/ so they write to a SCRATCH root (tempfile), never live/logs/;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.778,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "so i did not \"fix\" a write that was never there."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) PROVE it with a check that is not confounded by real daemons ticking -- note that cdeck_feed, slot runners and watchdog2 tick every 15-30s, so a naive before/after mtime comparison across a test run proves NOTHING.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.652,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "your warning was correct and i did not use mtime."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Use a scratch root and assert the live path is never opened for write, or equivalent; state why your proof is sound;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.75,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "so i did not \"fix\" a write that was never there."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(3) report the two out-of-fence files as proposals.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 1.0,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "- **i could not confirm the sweep's premise.** all four flagged files were already scratch-rooted;"
+   }
+  },
+  {
+   "session_id": "06d434d1-e3e5-4a0d-a271-149d607e027e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\06d434d1-e3e5-4a0d-a271-149d607e027e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:54:58.312Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) read docs/WISHLIST.md, builds/cvm-dt/ and builds/cvm/ including CLOCK_POSTMORTEM.md;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.833,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 6996,
+    "response_turns": 30,
+    "admission": "- **`builds/cvm/` does not exist.** i did not manufacture it."
+   }
+  },
+  {
+   "session_id": "06d434d1-e3e5-4a0d-a271-149d607e027e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\06d434d1-e3e5-4a0d-a271-149d607e027e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:54:58.312Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Phone-gate work already exists -- extend it, do not duplicate it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP"
+   ],
+   "coverage": 0.5,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 6996,
+    "response_turns": 30,
+    "admission": "- **the phone side is the top open item and i left it alone.** `cosmos/cosmos_cvm_push.py:358-362` means wishlist direction #1 (thin phone, heavy local) transports pcm correctly and transcribes *nothing* \u2014 the same root cause, ~6 lines from fixed now that the "
+   }
+  },
+  {
+   "session_id": "f02b5f09-d56f-4a93-91e9-8fb706e912e3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f02b5f09-d56f-4a93-91e9-8fb706e912e3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:16:46.615Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Work you want to do outside your fence goes in your report as a PROPOSAL -- never reach across.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7198,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "proposal"
+    ],
+    "coverage": 0.333,
+    "admission": "- **create cannot yet complete a creation, and i did not pretend otherwise.** cosmos's http api has no route that *performs* a creation, and the runner executes only confined scripts \u2014 so an order needs an executor `.py` under the tools root, which lives outsi"
+   }
+  },
+  {
+   "session_id": "4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:07:43.159Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`; it must report passed >= 73 and flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.556,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7791,
+    "response_turns": 29,
+    "key_terms_missing": [
+     "a/ai/cosmos",
+     "builds/selftest_clock/cosmos_selftest_clock.py"
+    ],
+    "admission": "starting a second server against the live root while the fleet runs risks the one-writer rule, so i didn't."
+   }
+  },
+  {
+   "session_id": "40d7b433-8936-49a2-926c-f8cbda06d0e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\40d7b433-8936-49a2-926c-f8cbda06d0e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:53:45.847Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "If you find work you want to do outside your fence, PROPOSE it in your report -- do not reach across.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.625,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 6864,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "propose"
+    ],
+    "admission": "i did not reach across to fix it."
+   }
+  },
+  {
+   "session_id": "1576c1e3-f6a2-4b6a-9599-ccc03313618b",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\1576c1e3-f6a2-4b6a-9599-ccc03313618b.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:54:05.382Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "If you find work you want to do outside your fence, PROPOSE it in your report -- do not reach across.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.625,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7618,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "propose"
+    ],
+    "admission": "i did not reach across."
+   }
+  },
+  {
+   "session_id": "99d325d8-be68-4355-bdb2-796edd4316d5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\99d325d8-be68-4355-bdb2-796edd4316d5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:09:46.627Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "The live fleet is RUNNING and must not change under it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.6,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5941,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "running"
+    ],
+    "admission": "**unmeasured:** the live hourly board going red \u2014 that happens on the next scheduled tick, and i have not observed it."
+   }
+  },
+  {
+   "session_id": "d57c533b-8367-4e87-9d3e-bc2291b96118",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d57c533b-8367-4e87-9d3e-bc2291b96118.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:48.099Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files, gate output verbatim, 3 design bullets, what you could not do.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.857,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7254,
+    "response_turns": 16,
+    "key_terms_missing": [
+     "report"
+    ],
+    "admission": "- **the core-dependent half is unmeasured** \u2014 core on :8770 is down, and per instruction i did not start it and did not gate against :8791."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.444,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "admission": "so i did not \"fix\" a write that was never there."
+   }
+  },
+  {
+   "session_id": "4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\4c1a5527-1291-4eb3-b1b9-cfc68fc69cd4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:07:43.159Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files written, the real gate output verbatim, 3 design bullets, and anything you could not do plus why.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 1.0,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7791,
+    "response_turns": 29,
+    "admission": "- `parity_audit.md` \u2014 the audit: all 18 panels, verdict + evidence, plus what i could not measure"
+   }
+  },
+  {
+   "session_id": "52e5c76f-e731-41a1-80a9-efd34045bb8c",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\52e5c76f-e731-41a1-80a9-efd34045bb8c.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:07:43.188Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Bind every claim to a real emitted artifact or value -- never to your own assertion.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.667,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 8795,
+    "response_turns": 11,
+    "admission": "`ok` is **false** and stays false \u2014 the sid half did not bind, and i did not fabricate it."
+   }
+  },
+  {
+   "session_id": "c3156d18-243c-4204-9465-f18b777dce6e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\c3156d18-243c-4204-9465-f18b777dce6e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:53:32.289Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "MANDATORY LAST LINE: your response MUST END with a single line containing only one JSON object and nothing after it: {\"status\":\"...\",\"files\":[...],\"gate_passed\":N,\"gate_flaky\":N,\"blocked\":[...]}  Do not write any prose after that line.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.529,
+   "key_coverage": 0.571,
+   "evidence": {
+    "response_chars": 7861,
+    "response_turns": 16,
+    "admission": "i did not write it):"
+   }
+  },
+  {
+   "session_id": "a19d8f24-e27c-41e3-a7a1-3e8415f227da",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\a19d8f24-e27c-41e3-a7a1-3e8415f227da.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:06:50.123Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files written, the gate output verbatim, 3 design bullets, anything you could not do plus why.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 1.0,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8766,
+    "response_turns": 23,
+    "admission": "i did not gate against the open `:8791` trial kernel (cvm_arch \u00a712) and did not start core myself \u2014 three agents are live on the tree and keith runs cosmos."
+   }
+  },
+  {
+   "session_id": "d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d7d66d2b-1ab2-4e4b-9d1d-0f2cf2d6a66e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:11:44.600Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Work you want to do outside your fence goes in your report as a PROPOSAL -- never reach across.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.778,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 5912,
+    "response_turns": 8,
+    "admission": "- **proposal (outside my fence, `docs/`):** `docs/core_restructure.md` phase 2 should gain a step-two line \u2014 *\"work order 2.1a \u2014 agreement evidence: `motif_agreement.json`, 96 consecutive agreeing ticks required before 2.2 flips `parse_tracker()`.\"* i did not "
+   }
+  },
+  {
+   "session_id": "f02b5f09-d56f-4a93-91e9-8fb706e912e3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f02b5f09-d56f-4a93-91e9-8fb706e912e3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:16:46.615Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`; it must report passed >= 78 and flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.889,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 7198,
+    "response_turns": 6,
+    "admission": "- **create cannot yet complete a creation, and i did not pretend otherwise.** cosmos's http api has no route that *performs* a creation, and the runner executes only confined scripts \u2014 so an order needs an executor `.py` under the tools root, which lives outsi"
+   }
+  },
+  {
+   "session_id": "2569732f-1bf6-45b5-8019-49692d9c3219",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\2569732f-1bf6-45b5-8019-49692d9c3219.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:09:31.657Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "The live fleet is RUNNING and must not change under it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.6,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 4910,
+    "response_turns": 5,
+    "admission": "- **runtime binding beyond the suite is unmeasured**: i did not dispatch a live grok job, so the fence is proven by 41 offline rows and by the generated job's import line resolving, not by a real coder run."
+   }
+  },
+  {
+   "session_id": "c23d119c-dee0-4196-a5d0-53b0b5068e38",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\c23d119c-dee0-4196-a5d0-53b0b5068e38.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:25:57.461Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "The live fleet is RUNNING and must not change under it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.6,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8293,
+    "response_turns": 17,
+    "admission": "narrowing it to `except spenderror` is a one-line change i did not make on a survey job."
+   }
+  },
+  {
+   "session_id": "f9e940f3-9713-4ea5-bd37-8d5afaae07e6",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\f9e940f3-9713-4ea5-bd37-8d5afaae07e6.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:56.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files, gate output verbatim, 3 design bullets, what you could not do.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 1.0,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9101,
+    "response_turns": 17,
+    "admission": "- **i could not confirm the sweep's premise.** all four flagged files were already scratch-rooted;"
+   }
+  },
+  {
+   "session_id": "356deb6a-e77c-4740-afa8-70e00fc5357a",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\356deb6a-e77c-4740-afa8-70e00fc5357a.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T06:48:47.464Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "SELF_ADMITTED_SKIP",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.75,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 9179,
+    "response_turns": 38,
+    "admission": "i did not touch `tests/` or the bts_mesh tree."
+   }
+  },
+  {
+   "session_id": "b222a259-6dcc-4a7a-9a24-cb3702227299",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\b222a259-6dcc-4a7a-9a24-cb3702227299.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-30T17:03:56.108Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "CANON: you PROPOSE \u2014 write ONLY under builds/health/ ; do NOT modify cosmos/ core.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 72,
+    "response_turns": 1,
+    "key_terms_missing": [
+     "builds/health",
+     "canon",
+     "propose"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "b222a259-6dcc-4a7a-9a24-cb3702227299",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\b222a259-6dcc-4a7a-9a24-cb3702227299.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-30T17:03:56.108Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include real tests you actually RUN. rc=0 is NOT complete \u2014 bind every 'works' claim to a real emitted artifact/value.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 72,
+    "response_turns": 1,
+    "key_terms_missing": [
+     "artifact/value",
+     "run"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "94e5b01e-95f5-4d30-9bc0-976cfb4c7d83",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\94e5b01e-95f5-4d30-9bc0-976cfb4c7d83.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:23:50.677Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Read docs/contracts/*.toml first for context.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.25,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5529,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "docs/contracts"
+    ],
+    "coverage": 0.25
+   }
+  },
+  {
+   "session_id": "128a7cf1-7f6d-4867-85c1-a5d6e76d2f06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\128a7cf1-7f6d-4867-85c1-a5d6e76d2f06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:29:05.679Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Read builds/cdeck/FEATURES_KEITH.md and cosmos/cosmos_spend.py.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5247,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "builds/cdeck/features_keith.md",
+     "cosmos/cosmos_spend.py"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "8a0db830-542b-427c-8403-543f6ca490a5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\8a0db830-542b-427c-8403-543f6ca490a5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:34:07.541Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Also run `py -3.14 cosmos/cosmos_contracts.py --root V:/A/Ai/COSMOS --audit`; it must report 0 contradictions.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.2,
+   "evidence": {
+    "response_chars": 5460,
+    "response_turns": 7,
+    "key_terms_missing": [
+     "3.14",
+     "a/ai/cosmos",
+     "cosmos/cosmos_contracts.py",
+     "root"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Read builds/probe/CORE_8770_DIAGNOSIS.md IN FULL first, especially section 5 (PROPOSED PATCH).",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "builds/probe/core_8770_diagnosis.md",
+     "full",
+     "patch",
+     "proposed"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "FINDING: `cosmos.py serve` never refuses on the real root -- it has NEVER BEEN ASKED TO RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.333,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "asked",
+     "cosmos.py",
+     "finding",
+     "serve"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Without the flag, behaviour must be BYTE-IDENTICAL to today -- the live clock is running right now and must not change under anyone.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.154,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "byte-identical"
+    ],
+    "coverage": 0.154
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove the supervisor with a test using an injected spawn (the module already injects elsewhere) and/or a scratch root.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.083,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "and/or"
+    ],
+    "coverage": 0.083
+   }
+  },
+  {
+   "session_id": "56cc7f24-40dd-4f62-9cce-41e9d2ea9c79",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\56cc7f24-40dd-4f62-9cce-41e9d2ea9c79.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:09:57.426Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(3) fix what lives in builds/cvm-dt/;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 9825,
+    "response_turns": 27,
+    "key_terms_missing": [
+     "builds/cvm-dt"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "4144696e-a78c-4953-bd86-d41cf942e00b",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\4144696e-a78c-4953-bd86-d41cf942e00b.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:25:28.007Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "When a build needs an account/key, ...'.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 6908,
+    "response_turns": 4,
+    "key_terms_missing": [
+     "account/key"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "bc479a95-4a73-4d3d-94b7-8e0ed92370b5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bc479a95-4a73-4d3d-94b7-8e0ed92370b5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:17.138Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) read kdash/mobile.html and builds/cdeck/PARITY_AUDIT.md;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1915,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "builds/cdeck/parity_audit.md",
+     "kdash/mobile.html"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "bc479a95-4a73-4d3d-94b7-8e0ed92370b5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bc479a95-4a73-4d3d-94b7-8e0ed92370b5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:17.138Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) determine what cDeck offers on a phone-sized viewport today -- MEASURE it (viewport widths, what collapses, what overflows), do not assess it by reading;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.083,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1915,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "measure"
+    ],
+    "coverage": 0.083
+   }
+  },
+  {
+   "session_id": "85c7c31e-d8bf-467e-97fb-b67a696b0a06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\85c7c31e-d8bf-467e-97fb-b67a696b0a06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:55:17.740Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(4) MEASURE, do not assess -- a claim that a panel works must cite an emitted probe value.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.3,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 4539,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "measure"
+    ],
+    "coverage": 0.3
+   }
+  },
+  {
+   "session_id": "a6479a99-cc8a-468c-8956-f29f4ae482ac",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\a6479a99-cc8a-468c-8956-f29f4ae482ac.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T06:20:06.316Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(1) read docs/LONGPATH_FINDING.md section 9 proposals and builds/backup/cosmos_backup.py's _x/_xstat/_xexists/_xisfile/_xisdir/_xmkdirs helpers;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.143,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5687,
+    "response_turns": 14,
+    "key_terms_missing": [
+     "_x/_xstat/_xexists/_xisfile/_xisdir/_xmkdirs",
+     "builds/backup/cosmos_backup.py",
+     "docs/longpath_finding.md"
+    ],
+    "coverage": 0.143
+   }
+  },
+  {
+   "session_id": "63994b2c-b487-4bf9-9ebe-9a3eab42f87e",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\63994b2c-b487-4bf9-9ebe-9a3eab42f87e.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:18:47.633Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "commit, F-57 slack webhook, F-31/19/20/65 schtasks -- those are the operator's and are",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5191,
+    "response_turns": 12,
+    "key_terms_missing": [
+     "f-31/19/20/65",
+     "f-57"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "live/config/api_token.txt -- read to authenticate, NEVER print or copy the value);",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "live/config/api_token.txt",
+     "never"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) take the next highest value-over-effort CVM rows that are not blocked;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "cvm"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(4) a blocked row must NAME its blocker;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "name"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "2107aa87-de81-45f2-843d-2153d3c37c06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\2107aa87-de81-45f2-843d-2153d3c37c06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:06.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "the bearer token (live/config/api_token.txt -- read to authenticate, NEVER print, log",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.125,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 552,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "live/config/api_token.txt",
+     "never"
+    ],
+    "coverage": 0.125
+   }
+  },
+  {
+   "session_id": "2107aa87-de81-45f2-843d-2153d3c37c06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\2107aa87-de81-45f2-843d-2153d3c37c06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:06.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "(2) RE-RUN the probes against :8770 and record the new emitted",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 552,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "re-run"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "9eb69685-1ebb-4084-9ca9-d6b560be039d",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\9eb69685-1ebb-4084-9ca9-d6b560be039d.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T01:53:17.310Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "Have cosmos_codex_rail.py import and RE-EXPORT all three so the four external importers keep working with no edit.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS"
+   ],
+   "coverage": 0.4,
+   "key_coverage": 0.5,
+   "evidence": {
+    "response_chars": 8828,
+    "response_turns": 20,
+    "coverage": 0.4
+   }
+  },
+  {
+   "session_id": "1a9428c2-836b-4e5d-ae9a-e3b0959639a3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\1a9428c2-836b-4e5d-ae9a-e3b0959639a3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:05:23.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "Where code and prose disagree, THE CODE WINS and the disagreement is itself a finding you must report.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS"
+   ],
+   "coverage": 0.444,
+   "key_coverage": 1.0,
+   "evidence": {
+    "response_chars": 8699,
+    "response_turns": 6,
+    "coverage": 0.444
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "is reachable tonight and either build it or record precisely what it needs;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS"
+   ],
+   "coverage": 0.286,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "coverage": 0.286
+   }
+  },
+  {
+   "session_id": "965753e7-0907-4a7b-a505-3bf153dc3f27",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\965753e7-0907-4a7b-a505-3bf153dc3f27.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:14.282Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "what it actually returns -- a real dispatch with an emitted response, not a config",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS"
+   ],
+   "coverage": 0.143,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 796,
+    "response_turns": 10,
+    "coverage": 0.143
+   }
+  },
+  {
+   "session_id": "965753e7-0907-4a7b-a505-3bf153dc3f27",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\965753e7-0907-4a7b-a505-3bf153dc3f27.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:14.282Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "QUESTION",
+   "ask": "WHICH credential and what it unblocks -- never a value, never read D:\\R2Cloner;",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "TERM_MISS"
+   ],
+   "coverage": 0.0,
+   "key_coverage": null,
+   "evidence": {
+    "response_chars": 796,
+    "response_turns": 10,
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "1a9428c2-836b-4e5d-ae9a-e3b0959639a3",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\1a9428c2-836b-4e5d-ae9a-e3b0959639a3.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:05:23.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Then run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`, which must report passed >= 73 and flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 8699,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "a/ai/cosmos",
+     "builds/selftest_clock/cosmos_selftest_clock.py"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "8a0db830-542b-427c-8403-543f6ca490a5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\8a0db830-542b-427c-8403-543f6ca490a5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T02:34:07.541Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`; it must report passed >= 74 and flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5460,
+    "response_turns": 7,
+    "key_terms_missing": [
+     "a/ai/cosmos",
+     "builds/selftest_clock/cosmos_selftest_clock.py"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Work outside your fence goes in your report as a PROPOSAL -- never reach across.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.111,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "proposal"
+    ],
+    "coverage": 0.111
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`; it must report passed >= 82 and flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.111,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "a/ai/cosmos",
+     "builds/selftest_clock/cosmos_selftest_clock.py"
+    ],
+    "coverage": 0.111
+   }
+  },
+  {
+   "session_id": "22c6cc05-66db-4f24-8244-fc3bfce96080",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\22c6cc05-66db-4f24-8244-fc3bfce96080.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:38:34.849Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files written, gate output verbatim, 3 design bullets, anything you could not do.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.111,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 371,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "report"
+    ],
+    "coverage": 0.111
+   }
+  },
+  {
+   "session_id": "d3cf445a-5d4f-4bfd-871a-626060ea1667",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d3cf445a-5d4f-4bfd-871a-626060ea1667.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T03:54:39.034Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7684,
+    "response_turns": 34,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "2569732f-1bf6-45b5-8019-49692d9c3219",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\2569732f-1bf6-45b5-8019-49692d9c3219.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:09:31.657Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 4910,
+    "response_turns": 5,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "56cc7f24-40dd-4f62-9cce-41e9d2ea9c79",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\56cc7f24-40dd-4f62-9cce-41e9d2ea9c79.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:09:57.426Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 9825,
+    "response_turns": 27,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "35d5a685-12cd-4dcc-a664-3f06607971fe",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\35d5a685-12cd-4dcc-a664-3f06607971fe.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:25:53.119Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7615,
+    "response_turns": 13,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "c23d119c-dee0-4196-a5d0-53b0b5068e38",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\c23d119c-dee0-4196-a5d0-53b0b5068e38.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:25:57.461Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 8293,
+    "response_turns": 17,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "124e12bf-117a-43f2-9771-9797cb5d230a",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\124e12bf-117a-43f2-9771-9797cb5d230a.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:57:57.293Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.222,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 8992,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.222
+   }
+  },
+  {
+   "session_id": "bc479a95-4a73-4d3d-94b7-8e0ed92370b5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bc479a95-4a73-4d3d-94b7-8e0ed92370b5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:17.138Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.111,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1915,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.111
+   }
+  },
+  {
+   "session_id": "bc479a95-4a73-4d3d-94b7-8e0ed92370b5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bc479a95-4a73-4d3d-94b7-8e0ed92370b5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:17.138Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Run `py -3.14 builds/selftest_clock/cosmos_selftest_clock.py --root V:/A/Ai/COSMOS --once`; passed >= 93, flaky 0.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1915,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "a/ai/cosmos",
+     "builds/selftest_clock/cosmos_selftest_clock.py"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "bc479a95-4a73-4d3d-94b7-8e0ed92370b5",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\bc479a95-4a73-4d3d-94b7-8e0ed92370b5.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:17.138Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "REPORT: files, gate output verbatim, 3 design bullets, what you could not do.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.286,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1915,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "report"
+    ],
+    "coverage": 0.286
+   }
+  },
+  {
+   "session_id": "e4ca4622-51fc-44ba-9d53-dfe5c1787d90",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\e4ca4622-51fc-44ba-9d53-dfe5c1787d90.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:31.362Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 6673,
+    "response_turns": 12,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "e4ca4622-51fc-44ba-9d53-dfe5c1787d90",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\e4ca4622-51fc-44ba-9d53-dfe5c1787d90.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T04:58:31.362Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "The live fleet is RUNNING and must not change under it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 6673,
+    "response_turns": 12,
+    "key_terms_missing": [
+     "running"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "d57c533b-8367-4e87-9d3e-bc2291b96118",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\d57c533b-8367-4e87-9d3e-bc2291b96118.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:16:48.099Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Back up any file you touch to _delme/predispose_<name>_<timestamp>/ BEFORE editing; never delete.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.333,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 7254,
+    "response_turns": 16,
+    "key_terms_missing": [
+     "_delme/predispose_"
+    ],
+    "coverage": 0.333
+   }
+  },
+  {
+   "session_id": "7a958047-d911-4b7e-9201-1aa11b362302",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\7a958047-d911-4b7e-9201-1aa11b362302.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:55:17.417Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove any regression test FAILS against the old code before believing it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.286,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 3116,
+    "response_turns": 4,
+    "key_terms_missing": [
+     "fails"
+    ],
+    "coverage": 0.286
+   }
+  },
+  {
+   "session_id": "7a958047-d911-4b7e-9201-1aa11b362302",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\7a958047-d911-4b7e-9201-1aa11b362302.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:55:17.417Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 3116,
+    "response_turns": 4,
+    "key_terms_missing": [
+     "run"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "85c7c31e-d8bf-467e-97fb-b67a696b0a06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\85c7c31e-d8bf-467e-97fb-b67a696b0a06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T05:55:17.740Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove any regression test FAILS against the old code before believing it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.286,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 4539,
+    "response_turns": 20,
+    "key_terms_missing": [
+     "fails"
+    ],
+    "coverage": 0.286
+   }
+  },
+  {
+   "session_id": "67bd6ceb-420d-42cf-829e-a2af576bb0b1",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\67bd6ceb-420d-42cf-829e-a2af576bb0b1.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:19:02.236Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove any regression test FAILS against the old code before believing it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.286,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 5803,
+    "response_turns": 16,
+    "key_terms_missing": [
+     "fails"
+    ],
+    "coverage": 0.286
+   }
+  },
+  {
+   "session_id": "ccb97ce2-5240-4ecf-bd7c-70967c7dfefe",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\ccb97ce2-5240-4ecf-bd7c-70967c7dfefe.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:43.346Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove any regression test FAILS against the old code before believing it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.143,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1071,
+    "response_turns": 11,
+    "key_terms_missing": [
+     "fails"
+    ],
+    "coverage": 0.143
+   }
+  },
+  {
+   "session_id": "ccb97ce2-5240-4ecf-bd7c-70967c7dfefe",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\ccb97ce2-5240-4ecf-bd7c-70967c7dfefe.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:43.346Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.25,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 1071,
+    "response_turns": 11,
+    "key_terms_missing": [
+     "run"
+    ],
+    "coverage": 0.25
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Prove any regression test FAILS against the old code before believing it.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "fails"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "5e800a08-ec25-4555-a6b6-626f0ac068f4",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\5e800a08-ec25-4555-a6b6-626f0ac068f4.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:47:47.803Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 780,
+    "response_turns": 6,
+    "key_terms_missing": [
+     "run"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "2107aa87-de81-45f2-843d-2153d3c37c06",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\2107aa87-de81-45f2-843d-2153d3c37c06.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:06.756Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 552,
+    "response_turns": 8,
+    "key_terms_missing": [
+     "run"
+    ],
+    "coverage": 0.0
+   }
+  },
+  {
+   "session_id": "965753e7-0907-4a7b-a505-3bf153dc3f27",
+   "path": "C:\\Users\\Papa\\.claude\\projects\\V--A-Ai-COSMOS\\965753e7-0907-4a7b-a505-3bf153dc3f27.jsonl",
+   "source": "claude-code",
+   "line": 3,
+   "turn": 0,
+   "ts": "2026-08-31T07:48:14.282Z",
+   "asker": "dispatch",
+   "sidechain": false,
+   "kind": "REQUEST",
+   "ask": "Include tests you actually RUN.",
+   "verdict": "LIKELY_UNANSWERED",
+   "confidence": "medium",
+   "signals": [
+    "KEY_TERM_MISS",
+    "TERM_MISS",
+    "TEMPLATE_FANOUT"
+   ],
+   "coverage": 0.0,
+   "key_coverage": 0.0,
+   "evidence": {
+    "response_chars": 796,
+    "response_turns": 10,
+    "key_terms_missing": [
+     "run"
+    ],
+    "coverage": 0.0
+   }
+  }
+ ],
+ "limits": "heuristic: detects whether a session ENGAGED with an ask, not whether the answer was correct"
+}

@@ -1,0 +1,57 @@
+diff --git a/builds/cvm-dt/cvm_dt_client.py b/builds/cvm-dt/cvm_dt_client.py
+--- a/builds/cvm-dt/cvm_dt_client.py
++++ b/builds/cvm-dt/cvm_dt_client.py
+@@ -26,7 +26,6 @@ from __future__ import annotations
+ import argparse
+ import json
+ import sys
+-import time
+ from typing import Any, Optional
+ 
+ from pathlib import Path
+@@ -165,21 +164,6 @@ class CvmDtClient:
+         return rec
+ 
+ 
+-def loop(client: CvmDtClient, interval_s: float = PULL_INTERVAL_S) -> int:
+-    while True:
+-        try:
+-            rec = client.cycle_once()
+-            print(json.dumps(rec, indent=1, default=str), flush=True)
+-        except CvmDtError as e:
+-            print(json.dumps({
+-                "ok": False,
+-                "kind": str(e.kind),
+-                "detail": str(e),
+-                "quoted_from": "GET /api/v1/cvm/pull",
+-            }, indent=1), flush=True)
+-        time.sleep(float(interval_s))
+-
+-
+ def main(argv: Optional[list[str]] = None) -> int:
+     ap = argparse.ArgumentParser(prog="cvm-dt-client")
+     ap.add_argument("--root", required=True,
+@@ -195,15 +179,19 @@ def main(argv: Optional[list[str]] = None) -> int:
+         ap.error("one of --once / --loop is required")
+     paths = load_paths(ns.root)
+     token = load_token(paths)
+-    client = CvmDtClient(
+-        CoreClient(ns.base, token), paths, ns.client_id,
+-        handoff_request_id=ns.handoff_request_id or None)
+     if ns.once:
++        client = CvmDtClient(
++            CoreClient(ns.base, token), paths, ns.client_id,
++            handoff_request_id=ns.handoff_request_id or None)
+         rec = client.cycle_once()
+         print(json.dumps(rec, indent=1, default=str))
+         return 0
+-    return loop(client, ns.interval)
++    # Native own-clock owns --loop (heartbeat / PAUSE / skip_alive / lock).
++    from cvm_dt_clock import loop as clock_loop
++    return clock_loop(
++        ns.root, ns.interval,
++        base=ns.base, client_id=ns.client_id,
++        handoff_request_id=ns.handoff_request_id or None)
+ 
+ 
+ if __name__ == "__main__":

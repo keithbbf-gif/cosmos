@@ -11,6 +11,7 @@ machine after cloning the repo.
     py -3.14 cosmos.py backup  --root ... --target E:\\backups
     py -3.14 cosmos.py rehearse --root ... --backup <dest> --scratch <dir>
     py -3.14 cosmos.py serve   --root ... --port 8770
+    py -3.14 cosmos.py deck
     py -3.14 cosmos.py session close --root D:\\Ai\\Cosmos
     py -3.14 cosmos.py session start pb --root D:\\Ai\\Cosmos
 """
@@ -52,12 +53,16 @@ def main() -> int:
     p.add_argument("--key", default=None,
                    help="path to the private key (PEM) matching --cert")
     p.add_argument("--no-auth", action="store_true",
-                   help="DISABLE bearer auth for the trial (reversible); the "
-                        "tailnet/LAN is the access control meanwhile")
+                   help="DISABLE bearer auth for the trial (reversible). LOOPBACK "
+                        "ONLY - REFUSED with --remote (REMOTE_OPEN_ACCESS): an "
+                        "unauthenticated Core on a LAN interface is a full operator "
+                        "console for every host on the subnet")
     p.add_argument("--insecure-http", action="store_true",
                    help="TRIAL (reversible): allow a remote/LAN bind over plain HTTP "
-                        "(no TLS). Pair with --no-auth + a Chrome insecure-origin flag "
-                        "to test the mic without a cert on a private LAN")
+                        "(no TLS), with a Chrome insecure-origin flag, to test the mic "
+                        "without a cert on a private LAN. Cannot be paired with "
+                        "--no-auth on a remote bind, so the bearer crosses the LAN in "
+                        "the clear: it trades confidentiality, never authentication")
     p_sess = sub.add_parser("session",
                             help="TidyUP close / BootUP start (session lifecycle)")
     sess_sub = p_sess.add_subparsers(dest="session_cmd", required=True)
@@ -69,9 +74,16 @@ def main() -> int:
     p_start = sess_sub.add_parser("start", help="BootUP: read SEED, inject, open Session")
     p_start.add_argument("stream")
     p_start.add_argument("--root", required=True)
+    sub.add_parser("deck",
+                   help="Launch native cDeck (DT process window, not a browser)")
 
     a = ap.parse_args()
 
+    if a.cmd == "deck":
+        from cosmos_cdeck_launch import launch_cdeck
+        rec = launch_cdeck()
+        print(json.dumps(rec, indent=1, default=str))
+        return 0 if rec.get("ok") else 2
     if a.cmd == "install":
         from cosmos_kernel import install
         root = install(a.root, tree_id=a.tree_id)
@@ -99,20 +111,40 @@ def main() -> int:
     if a.cmd == "backup":
         from cosmos_backup import Backup
         src = Path(a.src) if a.src else k.paths.role("state")
-        r = Backup(k.ledger).run(src, Path(a.target))
+        r = Backup(k.ledger, node=k.paths.sentinel.system).run(src, Path(a.target))
         print(f"BACKUP VERIFIED: {r['files']} files -> {r['dest']}")
         return 0
     if a.cmd == "rehearse":
         from cosmos_backup import Backup
-        r = Backup(k.ledger).rehearse_restore(Path(a.backup), Path(a.scratch))
+        r = Backup(k.ledger, node=k.paths.sentinel.system).rehearse_restore(
+            Path(a.backup), Path(a.scratch))
         print(f"RESTORE REHEARSAL PASSED: {r['files']} files -> {r['scratch']}")
         return 0
     if a.cmd == "serve":
-        from cosmos_service import Service
+        from cosmos_service import Service, ServiceError
+        from cosmos_crucible_critics import attach_crucible_critics
+        try:
+            attached = attach_crucible_critics(k)
+        except Exception as e:  # noqa: BLE001
+            print(f"crucible critics: attach refused {type(e).__name__}: {e}",
+                  file=sys.stderr)
+            attached = {"critics": [], "wallets": []}
+        names = attached.get("critics") or []
+        if names:
+            print("crucible critics: " + ", ".join(names)
+                  + f"  wallets={attached.get('wallets')}")
+        else:
+            print("crucible critics: none — POST /api/v1/crucible stays 501")
         host = "0.0.0.0" if a.remote else "127.0.0.1"
-        svc = Service(k, host=host, port=a.port, tls=a.tls,
-                      cert_file=a.cert, key_file=a.key,
-                      open_access=a.no_auth, insecure_http=a.insecure_http)
+        try:
+            svc = Service(k, host=host, port=a.port, tls=a.tls,
+                          cert_file=a.cert, key_file=a.key,
+                          open_access=a.no_auth, insecure_http=a.insecure_http)
+        except ServiceError as e:
+            # A fail-closed bind refusal is CORRECT behaviour, not a crash. Print
+            # the typed kind so a supervisor's log says which door was shut.
+            print(f"REFUSED {e}", file=sys.stderr)   # ServiceError already types itself
+            return 2
         remote_note = ("REMOTE - LAN clients use this machine's IP; "
                        if a.remote else "")
         if svc.scheme == "https":

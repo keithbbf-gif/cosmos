@@ -5,12 +5,15 @@ BY KIND; the three qualification questions each proven to fail on their own axis
 measurement disqualified by advancing an injected clock past the window; "publishing is not
 backup" and "off-machine or it does not count" made structural rather than remembered."""
 from __future__ import annotations
-import sys, tempfile
+import json, sys, tempfile, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_surfaces import Surfaces, SurfaceError
+from cosmos_kernel import Kernel, install
+from cosmos_service import Service
 
 RESULTS = []
 
@@ -116,6 +119,50 @@ def main() -> int:
     check("stale measurement FAILS reachability (age advanced past the window)",
           lambda: q_stale["qualified"] is False
           and any("reachability" in r for r in q_stale["reasons"]))
+
+    # ---- GET /api/v1/surfaces (was 404 on live Core) ----
+    root = install(td / "live", tree_id="surf-api")
+    k = Kernel(root, worker="core")
+    check("writing kernel seeds cosmos-live surface",
+          lambda: "cosmos-live" in k.surfaces.state()
+          and k.surfaces.report()[0]["reachable"] is True)
+    head_before = k.ledger.head_seq()
+    kr = Kernel(root, worker="reader", read_only=True)
+    check("read-only kernel COMPOSES surfaces and does not reseed",
+          lambda: kr.surfaces is not None
+          and kr.ledger.head_seq() == head_before)
+    svc = Service(k, host="127.0.0.1", port=0)
+    svc.serve_background()
+    base = f"http://127.0.0.1:{svc.port}"
+
+    def get(path, tok=None):
+        req = urllib.request.Request(base + path)
+        if tok:
+            req.add_header("Authorization", "Bearer " + tok)
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                return resp.status, json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            return e.code, json.loads(e.read().decode("utf-8"))
+
+    code, body = get("/api/v1/surfaces")
+    check("GET /surfaces without a token -> 200 on loopback",
+          lambda: code == 200 and {s["id"] for s in body["surfaces"]} == {"cosmos-live"})
+    code, body = get("/api/v1/surfaces", svc.token)
+    check("GET /surfaces serves measured cosmos-live over the wire",
+          lambda: code == 200 and body["surfaces"][0]["id"] == "cosmos-live"
+          and body["surfaces"][0]["reachable"] is True
+          and body["surfaces"][0]["free_gb"] is not None)
+    check("GET /surfaces carries served_at + measured_at",
+          lambda: body.get("served_at") and body.get("measured_at"))
+    check("GET /surfaces is a read - ledger head did not move",
+          lambda: k.ledger.head_seq() == head_before)
+    held = k.surfaces
+    k.surfaces = None
+    code, body = get("/api/v1/surfaces", svc.token)
+    k.surfaces = held
+    check("GET /surfaces on an uncomposed kernel -> 503 (not an empty catalog)",
+          lambda: code == 503 and body.get("error") == "SURFACES_NOT_COMPOSED")
 
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:

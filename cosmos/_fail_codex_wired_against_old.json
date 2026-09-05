@@ -1,0 +1,26 @@
+{
+ "schema": "cosmos-codex-wired-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_codex_wired_20260831T171411Z",
+ "old_prober_bytes": 28824,
+ "old_wired": [
+  "sgh-api",
+  "gem-api",
+  "gw-api",
+  "oa-api",
+  "claude-cli",
+  "cursor-api",
+  "firecrawl-web",
+  "playwright-dom",
+  "github-forge",
+  "gitlab-forge"
+ ],
+ "old_wired_count": 10,
+ "pins": {
+  "codex_cli_in_wired_nodes": false,
+  "codex_live_call_defined": false,
+  "codex_in_satellites": false,
+  "codex_hands_branch": false,
+  "codex_satellite_row": false
+ },
+ "all_new_pins_failed": true
+}

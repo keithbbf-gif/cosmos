@@ -1,0 +1,89 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_cvm_dtclient_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T03:51:41-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_dtclient_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_dtclient_bundle",
+  "cvm_dt_clock.py": "unchanged",
+  "clock_unchanged_why": "cvm_dt_clock.poll_once already accepts client= and owns last_run_epoch, HOLD (no Core pull), RESUME-GATE (idle, does not self-clear), and dead-Core UNREACHABLE + heartbeat. CvmDtClient.tick() composes poll_once via lazy import; copying pause_flag/is_paused/write_heartbeat would be bloat.",
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile builds\\cvm-dt\\cvm_dt_client.py ; py -3.14 -m py_compile tests\\test_cvm_dt_client.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_dtclient_bundle",
+    "builds/cvm-dt/cvm_dt_client.py": {"rc": 0, "lines": 227, "bytes": 8787, "sha256_16": "5b36bbd0182686c2"},
+    "tests/test_cvm_dt_client.py": {"rc": 0, "lines": 373, "bytes": 13306, "sha256_16": "10c3c40433622fd3"}
+  },
+  "tests": {
+    "cmd": "py -3.14 tests\\test_cvm_dt_client.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_dtclient_bundle",
+    "rc": 0,
+    "passed": "4/4",
+    "failed": 0,
+    "quoted_from": "stdout: result: ok  4/4 then TEST_RC=0",
+    "labels": [
+      "PASS  pull→fold→handoff: single desktop owner, advanced cursor, replayed handoff is not a second owner",
+      "PASS  replayed handoff is ignored (not a second owner)",
+      "PASS  HOLD pause does not pull Core",
+      "PASS  dead Core is UNREACHABLE yet the client still heartbeats"
+    ]
+  },
+  "runtime_binding": {
+    "what_done_is": "the test asserting single-owner exactly-once handoff passing against the emitted client, plus py_compile rc=0 — not an exit code on --once against live :8770",
+    "isolated_proof": {
+      "test": "test_pull_fold_handoff_single_desktop_owner",
+      "label": "pull→fold→handoff: single desktop owner, advanced cursor, replayed handoff is not a second owner",
+      "passed": true,
+      "audio_owner": "desktop",
+      "owners": ["desktop"],
+      "handoff_replayed_second_cycle": true,
+      "grant_count_stays_1": true,
+      "cursor_advanced": true,
+      "py_compile_rc": 0
+    },
+    "also_proved": {
+      "replay_ignored_not_second_owner": true,
+      "hold_pause_does_not_pull_core": true,
+      "dead_core_unreachable_still_heartbeats": true
+    },
+    "live_8770_not_run": true,
+    "reason": "P10 propose-only; fake Core HTTP double so the client contract is measured without a Core restart"
+  },
+  "elegance": {
+    "clock_copied": false,
+    "client_hook": "CvmDtClient.tick -> cvm_dt_clock.poll_once(client=self)",
+    "shared": ["poll_once", "pause_flag", "is_paused", "write_heartbeat", "loop", "core_get", "pull_url", "DesktopPullClock", "SnapshotConsumer", "AudioHandoff"],
+    "net_vs_live_client": "live builds/cvm-dt/cvm_dt_client.py 200 LOC; this emit 227 LOC (+27 for tick() compose + docstring). No second pause/heartbeat implementation.",
+    "no_bts_imports": true,
+    "no_hardcoded_paths": true,
+    "token_from": "paths.config('api_token.txt') via load_token (handed-in --root)"
+  },
+  "files": [
+    "builds/cvm-dt/cvm_dt_client.py",
+    "tests/test_cvm_dt_client.py",
+    "CLOCK_UNCHANGED.txt",
+    "EMIT.txt",
+    "emit/builds__cvm-dt__cvm_dt_client.py.emit.txt",
+    "emit/builds__cvm-dt__test_cvm_dt_client.py.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=replace>>> ... <<<FILE_END>>> (full-file replacements, not diffs)",
+  "cow_dispose": [
+    "extract EMIT.txt / emit/*.emit.txt FILE blocks",
+    "copy builds/cvm-dt/cvm_dt_client.py onto builds/cvm-dt/cvm_dt_client.py",
+    "copy tests/test_cvm_dt_client.py onto builds/cvm-dt/test_cvm_dt_client.py",
+    "do NOT apply a unified diff (corrupt-patch scar)",
+    "do NOT rewrite cvm_dt_clock.py",
+    "py -3.14 -m py_compile builds\\cvm-dt\\cvm_dt_client.py builds\\cvm-dt\\test_cvm_dt_client.py",
+    "py -3.14 builds\\cvm-dt\\test_cvm_dt_client.py"
+  ],
+  "not_done": [
+    "did not write the live tree or cosmos/ package",
+    "did not change cvm_dt_clock.py",
+    "did not run schtasks / --loop / live :8770 gate"
+  ]
+}

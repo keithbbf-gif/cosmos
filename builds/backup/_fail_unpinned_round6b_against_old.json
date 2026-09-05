@@ -1,0 +1,27 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new round6b seal/scan pins FAIL against predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_unpinned_round6b_20260831T161500Z",
+ "tests_run": 8,
+ "failed_names": [
+  "seal_array_is_NO_SEAL:AttributeError",
+  "seal_none_is_NO_SEAL:AttributeError",
+  "seal_str_is_NO_SEAL:AttributeError",
+  "scan_empty_obj_is_NOT_A_BACKUP_SET:KeyError",
+  "scan_array_is_NOT_A_BACKUP_SET:TypeError",
+  "scan_files_str_is_NOT_A_BACKUP_SET:returned:list:[]",
+  "scan_files_none_is_NOT_A_BACKUP_SET:TypeError",
+  "scan_files_int_is_NOT_A_BACKUP_SET:TypeError"
+ ],
+ "ran_names": [
+  "seal_array_is_NO_SEAL",
+  "seal_none_is_NO_SEAL",
+  "seal_str_is_NO_SEAL",
+  "scan_empty_obj_is_NOT_A_BACKUP_SET",
+  "scan_array_is_NOT_A_BACKUP_SET",
+  "scan_files_str_is_NOT_A_BACKUP_SET",
+  "scan_files_none_is_NOT_A_BACKUP_SET",
+  "scan_files_int_is_NOT_A_BACKUP_SET"
+ ],
+ "all_new_pins_failed": true
+}

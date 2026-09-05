@@ -1,0 +1,32 @@
+{
+ "result_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\returns\\gem\\gem_bind-gem-pong_20260905T111002-0500_result.json",
+ "result_text": "GEM-PONG-BODY nonempty rail answer for runtime binding.",
+ "result_bytes": 1605,
+ "worker_id": "gem-bind-wid",
+ "heartbeat_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\logs\\cosmos_gem_bucket_worker_heartbeat.json",
+ "poll1_epoch": 1788624602,
+ "v_returns": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\returns\\gem",
+ "sim_root": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live",
+ "poll2_epoch": 1788624603,
+ "epochs": [
+  1788624602,
+  1788624603
+ ],
+ "epoch_advanced": true,
+ "heartbeat": {
+  "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\logs\\cosmos_gem_bucket_worker_heartbeat.json",
+  "last_run_epoch": 1788624603,
+  "polls": 2,
+  "pending": 0,
+  "worker_id": "gem-bind-wid",
+  "tick": "idle"
+ },
+ "grok_result_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\returns\\grok\\grok_grok-own_20260905T111003-0500_result.json",
+ "grok_heartbeat": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\logs\\cosmos_grok_bucket_worker_heartbeat.json",
+ "selftest": "62/62",
+ "failed": [],
+ "gem_result.json": "V:\\A\\Ai\\COSMOS\\proof\\gem_result.json",
+ "gem_heartbeat.json": "V:\\A\\Ai\\COSMOS\\proof\\gem_heartbeat.json",
+ "grok_result.json": "V:\\A\\Ai\\COSMOS\\proof\\grok_result.json",
+ "grok_heartbeat.json": "V:\\A\\Ai\\COSMOS\\proof\\grok_heartbeat.json"
+}

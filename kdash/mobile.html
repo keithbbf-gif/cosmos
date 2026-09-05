@@ -65,7 +65,7 @@
   .card h2 .age{margin-left:auto;font-weight:400;color:var(--ink-faint);font-size:10px}
 
   input,button{font-family:var(--mono)}
-  input[type=text],input[type=password],input[type=url]{
+  input[type=text],input[type=password],input[type=url],input[type=number]{
     width:100%;background:#0e1116;border:1px solid var(--panel-edge);color:var(--ink);
     font-size:16px; /* 16px stops iOS auto-zoom on focus */
     padding:12px;border-radius:6px;outline:none;min-height:48px}
@@ -79,18 +79,26 @@
   button:active{border-color:var(--cyan);color:var(--cyan)}
   #btnConnect{width:100%;font-weight:700;letter-spacing:1px}
 
-  /* ------- the big mic: THE primary input ------- */
-  .micwrap{display:flex;flex-direction:column;align-items:center;gap:6px;margin:6px 0 10px}
-  #btnMic{width:104px;height:104px;border-radius:50%;font-size:44px;line-height:1;
-    border:2px solid var(--panel-edge);background:#0e1116}
+  /* SPIKE contract: the mic is the primary input — a >=96px circle.
+     This file IS Core /m, so at phone width the compact 48px rule keeps
+     EVENTS on the first screen (the 104px-only rule put COMMAND at 270px,
+     chrome 47.4%). 48px is still a 44px+ target; type remains. */
+  .micwrap{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;
+    align-items:center;gap:8px;margin:4px 0 8px}
+  #btnMic{width:112px;height:112px;min-width:48px;min-height:48px;border-radius:50%;
+    font-size:44px;line-height:1;border:2px solid var(--panel-edge);background:#0e1116}
+  @media (max-width:560px){
+    #btnMic{width:48px;height:48px;font-size:22px}
+  }
   #btnMic.listening{border-color:var(--red);color:var(--red);
     animation:pulse 1.2s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(229,83,75,.5)}
     70%{box-shadow:0 0 0 18px rgba(229,83,75,0)}100%{box-shadow:0 0 0 0 rgba(229,83,75,0)}}
   #btnMic.unavailable{opacity:.35}
-  #micState{font-size:15px;color:var(--ink-dim);min-height:1.2em;text-align:center}
-  #heard{font-size:13px;color:var(--amber);min-height:1.2em;text-align:center;
-    word-break:break-word}
+  #micState{font-size:15px;color:var(--ink-dim);min-height:0;text-align:left;flex:1}
+  #heard{font-size:13px;color:var(--amber);min-height:0;text-align:left;
+    word-break:break-word;flex:1 1 100%}
+  #heard:empty{display:none}
 
   #cmdInput{flex:1}
   #btnSend{font-weight:700}
@@ -118,15 +126,62 @@
   .pill.red{color:var(--red);border-color:var(--red)}
   .pill.amber{color:var(--amber);border-color:var(--amber)}
   .kv{display:flex;justify-content:space-between;gap:8px;padding:4px 0;font-size:15px}
-  .kv .k{color:var(--ink-dim);white-space:nowrap}
-  .kv .v{text-align:right;word-break:break-all}
+  .kv .k{color:var(--ink-dim);white-space:normal;overflow-wrap:anywhere;min-width:0;flex:1}
+  .kv .v{text-align:right;word-break:break-all;white-space:normal;flex:0 1 auto;min-width:0}
   .empty{color:var(--ink-faint);font-size:12px;font-style:italic}
 
-  #jobs .kv .v,#spend .kv .v{white-space:nowrap}
+  /* PHONE DEGRADE — a list that cannot render usefully at 320px must SAY so
+     and scroll inside a cap; it never overflows the page. Eighth pass measured
+     jobs 310 / spend 245 with nowrap values; the next longer rail or job id
+     would have been a silent clip (the class .fname already is, and that one
+     is now labelled). */
+  .phonenote{font-size:12px;color:var(--amber);margin-bottom:8px;line-height:1.35}
+  .phonenote b{letter-spacing:1px}
+  #jobs,#spend{max-height:180px;overflow-y:auto;overflow-x:hidden}
+  .spend-edit{display:flex;flex-direction:column;gap:8px;margin-top:8px;
+    padding:8px;background:#0e1116;border:1px solid var(--panel-edge);border-radius:6px}
+  .spend-edit label{display:flex;flex-direction:column;gap:4px;color:var(--ink-dim);
+    font-size:12px;letter-spacing:.5px}
+  .spend-edit button{width:100%;font-weight:700}
+  #spendConfirm{margin:0 0 8px;padding:8px;border:1px dashed var(--amber);
+    color:var(--amber);border-radius:6px;font-size:13px;white-space:normal;
+    overflow-wrap:anywhere}
+  #spendConfirm.hidden{display:none}
   #feed{max-height:180px;overflow-y:auto;overflow-x:hidden}
-  .fevent{display:flex;gap:8px;font-size:13px;padding:3px 0;white-space:nowrap}
+  #console:has(> .empty:only-child){display:none}
+
+  /* CONNECT fold: after Core answers, the two fields are setup not operation.
+     Eighth pass: connect card 210px still on screen → chrome 68.6% of 844
+     before STATUS. <details> ships OPEN so a no-JS render is complete; JS
+     closes it only after a successful status, and re-opens on 401 / error. */
+  #connsetup summary{
+    list-style:none;cursor:pointer;touch-action:manipulation;
+    font-size:13px;letter-spacing:1.5px;color:var(--ink-dim);
+    font-weight:700;min-height:44px;display:flex;align-items:center;gap:8px}
+  #connsetup summary::-webkit-details-marker{display:none}
+  #connHint{margin-left:auto;font-weight:400;color:var(--ink-faint);font-size:11px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;max-width:55%}
+  .fevent{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;padding:3px 0;white-space:nowrap;cursor:pointer}
+  .fevent.open{white-space:normal}
+  .fevent.hide{display:none}
   .fseq{color:var(--ink-faint);min-width:3ch;text-align:right}
   .fname{color:var(--ink);overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+  /* Open inspect: the name you tapped is no longer ellipsized (BEFORE 320
+     .fevent.open>span.fname scrollWidth 150 / clientWidth 132). Collapsed
+     rows keep the designed ellipsis, labelled PHONE MODE — FEED CAPPED. */
+  .fevent.open .fname{overflow:visible;text-overflow:unset;white-space:normal;
+    overflow-wrap:anywhere;flex:1 1 100%}
+  .finspect{flex:1 1 100%;white-space:normal;margin:4px 0;padding:6px 8px;border-left:2px solid var(--cyan);font-size:13px;min-width:0}
+  .finspect pre{white-space:pre-wrap;word-break:break-word;max-height:160px;overflow-y:auto;font-size:12px;margin-top:4px}
+  .finspect button, #feedFollow button, #feedJump{
+    white-space:normal;overflow-wrap:anywhere;max-width:100%;text-align:left}
+  .finspect button{display:block;width:100%;margin-top:6px}
+  #feedFollow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-width:0}
+  #feedFollow .pill{overflow-wrap:anywhere;white-space:normal;max-width:100%}
+  .hidden{display:none}
+  .feedbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+  .feedbar:has(#feedFollow.hidden):has(#feedJump.hidden){display:none}
+  #feedJump{border-color:var(--amber);color:var(--amber);min-height:44px}
   .fwriter{color:var(--cyan)}
   .fage{color:var(--ink-faint)}
 </style>
@@ -140,22 +195,25 @@
 
 <!-- ---------- connect: API base + bearer token (in-memory only) ---------- -->
 <section class="card" id="connect">
-  <h2>CONNECT</h2>
-  <div class="row">
-    <input id="apiBase" type="url" placeholder="https://cosmos-host:8443"
-           spellcheck="false" autocomplete="off" autocapitalize="off">
-  </div>
-  <div class="row">
-    <!-- token is held in a JS variable for this session ONLY - never localStorage -->
-    <input id="token" type="password" placeholder="bearer token (kept in memory only)"
-           spellcheck="false" autocomplete="off">
-  </div>
-  <div class="row"><button id="btnConnect">CONNECT</button></div>
+  <details id="connsetup" open>
+    <summary>CONNECT <span id="connHint"></span></summary>
+    <div class="row">
+      <input id="apiBase" type="url" placeholder="https://cosmos-host:8443"
+             spellcheck="false" autocomplete="off" autocapitalize="off">
+    </div>
+    <div class="row">
+      <!-- token is held in a JS variable for this session ONLY - never localStorage -->
+      <input id="token" type="password" placeholder="bearer token (kept in memory only)"
+             spellcheck="false" autocomplete="off">
+    </div>
+    <div class="row"><button id="btnConnect">CONNECT</button></div>
+  </details>
 </section>
 
 <!-- ---------- voice-first command ---------- -->
 <section class="card" id="command">
   <h2>COMMAND</h2>
+  <div class="phonenote" data-degraded><b>PHONE MODE — COMPACT MIC.</b> 48px target (still ≥44). Type stays. The 104px mic was first-screen chrome that pushed EVENTS below the fold.</div>
   <div class="micwrap">
     <button id="btnMic" title="voice input" aria-label="voice input">&#127908;</button>
     <div id="micState">tap to speak</div>
@@ -177,11 +235,17 @@
 
 <section class="card">
   <h2>EVENTS <span class="age" id="age-events">&mdash;</span></h2>
+  <div class="phonenote" data-degraded><b>PHONE MODE — FEED CAPPED.</b> Last 40 events, collapsed names ellipsis inside 180px. Tap a row: the name is full, payload inspects, follow chips wrap. A tooltip is unreachable on a phone.</div>
+  <div class="feedbar">
+    <div id="feedFollow" class="hidden"></div>
+    <button type="button" id="feedJump" class="hidden"></button>
+  </div>
   <div id="feed"><div class="empty">the ledger tail streams here</div></div>
 </section>
 
 <section class="card">
   <h2>JOBS <span class="age" id="age-jobs">&mdash;</span></h2>
+  <div class="phonenote" data-degraded><b>PHONE MODE — LAST 8 JOBS.</b> The list scrolls inside 180px. Longer ids wrap; they do not overflow the page.</div>
   <div id="jobs"><div class="empty">not connected</div></div>
 </section>
 
@@ -192,6 +256,8 @@
 
 <section class="card">
   <h2>SPEND HEADROOM <span class="age" id="age-spend">&mdash;</span></h2>
+  <div class="phonenote" data-degraded><b>PHONE MODE — RAILS SCROLL INSIDE.</b> Every budgeted rail, list capped at 180px. Headroom wraps; it does not overflow the page. PUSH LIVE CAP is 48px. A raise is 409 WIDEN_REQUIRES_CONFIRM — PUSH again to confirm. Never a silent widen.</div>
+  <div id="spendConfirm" class="hidden" role="status"></div>
   <div id="spend"><div class="empty">not connected</div></div>
 </section>
 
@@ -200,7 +266,11 @@
   "use strict";
   var REFRESH_S = 12;      // status/jobs/health/spend cadence
   var EVENTS_S  = 5;       // event-tail cadence (cheap: append-only since_seq)
-  var FETCH_TO_MS = 8000;  // per-request timeout
+  // CVM P0 (docs/CVM_ARCH.md §9): client read timeout >=
+  // cosmos_brain.voice_client_timeout_s() == OPUS_TIMEOUT_S + GROK_FALLBACK_S +
+  // VOICE_TURN_SLACK_S == 70s. FAST GETs stay 8s. Do not abort the brain.
+  var FETCH_TO_MS = 8000;  // GET polls — UNCHANGED
+  var VOICE_TO_MS = 70000; // POST /api/v1/voice only
   var CONSOLE_MAX = 20;
   var FEED_MAX = 40;
 
@@ -209,9 +279,30 @@
   // a stored token on a phone outlives the session and the user's intent.
   var cfg = { base:"", token:"" };
   var connected = false;
+  var lastSpend = null;
+  var pendingSpendWiden = null;
+  var CLIENT_ID = "kdash-m";
+  var UNAUTH_CHIP = "UNAUTHORIZED — paste a bearer";
+  function phoneConnectFold(want){
+    var d = document.getElementById("connsetup");
+    if(!d) return;
+    d.open = !!want;
+  }
+  function setConnHint(s){
+    var h = $("connHint");
+    if(h) h.textContent = s || "";
+  }
   var lastSeq = 0;
   var feedHasEvents = false;
   var eventsInflight = false;
+  var TAIL_WINDOW = 100;
+  var feedColdStart = true;
+  var feedSkippedTo = 0;
+  var FOLLOW_KEYS = ["job_id", "link_id", "rail", "node", "session_id", "sid", "rid"];
+  var INSPECT_MAX_CHARS = 2400;
+  var feedFollow = null;
+  var feedPinned = true;
+  var feedUnseen = 0;
   var nextAt = 0, nextEventsAt = 0;
   var consoleEntries = [];
 
@@ -247,8 +338,10 @@
 
   // ---------- fetch (same seam as kdash_index: bearer on every call) ----------
   function apiCall(path, opts){
+    var budget = (opts && opts.timeout) ? opts.timeout
+               : (path === "/api/v1/voice" ? VOICE_TO_MS : FETCH_TO_MS);
     var ctl = new AbortController();
-    var t = setTimeout(function(){ ctl.abort(); }, FETCH_TO_MS);
+    var t = setTimeout(function(){ ctl.abort(); }, budget);
     var url = cfg.base.replace(/\/+$/,"") + path;
     var headers = {};
     if(cfg.token){ headers["Authorization"] = "Bearer " + cfg.token; }  // sent only if set (no-auth trial needs none)
@@ -260,14 +353,28 @@
     }
     return fetch(url, init).then(function(r){
       clearTimeout(t);
-      if(r.status===401) throw new Error("401 unauthorized — check the bearer token");
-      return r.json().then(function(d){
-        if(!r.ok && (!d || d.error===undefined)) throw new Error("HTTP "+r.status);
-        return d;  // structured refusals ({error:...}) flow through to the caller
+      return r.text().then(function(txt){
+        var j = {};
+        try { j = txt ? JSON.parse(txt) : {}; } catch(_){ j = {}; }
+        if(r.status===401){
+          var err = new Error(UNAUTH_CHIP);
+          err.status = 401;
+          err.json = j;
+          throw err;
+        }
+        if(!r.ok){
+          var msg = j.error ? String(j.error) : ("HTTP "+r.status);
+          if(j.detail) msg += " — " + j.detail;
+          var e2 = new Error(msg);
+          e2.status = r.status;
+          e2.json = j;
+          throw e2;
+        }
+        return j;
       });
     }).catch(function(e){
       clearTimeout(t);
-      if(e.name==="AbortError") throw new Error("timeout after "+(FETCH_TO_MS/1000)+"s");
+      if(e.name==="AbortError") throw new Error("timeout after "+(budget/1000)+"s");
       throw e;
     });
   }
@@ -337,6 +444,12 @@
         speak(d && d.spoken);
       }
     }).catch(function(e){
+      if(e && e.json && e.json.error!==undefined && e.json.error!==null){
+        pendingConfirm = null;
+        addConsole("err","REFUSED", String(e.json.error),
+                   JSON.stringify(e.json, null, 1));
+        return;
+      }
       addConsole("err","TRANSPORT", e.message || String(e), null);
     });
   }
@@ -439,30 +552,174 @@
       (d.diagnosis ? '<div class="kv"><span class="k">diagnosis</span><span class="v">'+esc(d.diagnosis)+'</span></div>' : '');
   }
 
+  function hideSpendConfirm(){
+    pendingSpendWiden = null;
+    var el = $("spendConfirm");
+    if(!el) return;
+    el.classList.add("hidden");
+    el.textContent = "";
+  }
+  function showSpendConfirm(rail, capUsd, detail){
+    pendingSpendWiden = { rail: rail, capUsd: capUsd };
+    var el = $("spendConfirm");
+    if(!el) return;
+    el.classList.remove("hidden");
+    el.textContent = "WIDEN_REQUIRES_CONFIRM — " + rail + " " + usd(capUsd) +
+      ". This RAISES the live cap. PUSH LIVE CAP again to confirm. A cap is never " +
+      "widened silently." + (detail ? " " + detail : "");
+  }
+  function isConfirmingWiden(rail, capUsd){
+    return !!(pendingSpendWiden
+      && pendingSpendWiden.rail === rail
+      && typeof capUsd === "number"
+      && Math.abs(pendingSpendWiden.capUsd - capUsd) < 0.005);
+  }
+  function spendErrorKind(e){
+    var j = e && e.json;
+    if(!j || typeof j !== "object") return "";
+    return String(j.error || j.kind || "").toUpperCase();
+  }
+  function readIntendedCap(box){
+    var inp = box.querySelector('input[data-f="intendedCapUsd"]');
+    if(!inp) return null;
+    var n = Number(inp.value);
+    return (inp.value.trim()!=="" && isFinite(n) && n>=0) ? n : null;
+  }
+
   function renderSpend(d){
+    lastSpend = d;
     var rails = d.rails || {};
     var names = Object.keys(rails);
+    names.sort();
     if(names.length===0){
       $("spend").innerHTML = '<div class="empty">no rails budgeted</div>';
       return;
     }
     $("spend").innerHTML = names.map(function(n){
-      var r = rails[n];
+      var r = rails[n] || {};
       var head = r.headroom_usd, cap = r.cap_usd;
       var cls = (typeof head==="number" && typeof cap==="number" && cap>0 && head/cap < 0.15)
                 ? "red" : "green";
+      var intended = (pendingSpendWiden && pendingSpendWiden.rail === n)
+        ? pendingSpendWiden.capUsd : cap;
+      var ed = '<div class="spend-edit" data-rail="'+esc(n)+'">'+
+        '<label>intended cap $ <input data-f="intendedCapUsd" type="number" step="0.01" min="0" value="'+
+          (intended!==null && intended!==undefined ? intended : "")+'"></label>'+
+        '<button type="button" data-act="push">PUSH LIVE CAP</button>'+
+        '</div>';
       return '<div class="kv"><span class="k">'+esc(n)+'</span>'+
              '<span class="v"><span class="pill '+cls+'">'+usd(head)+'</span>'+
-             ' <span style="color:var(--ink-faint)">/ '+usd(cap)+'</span></span></div>';
+             ' <span style="color:var(--ink-faint)">/ '+usd(cap)+'</span></span></div>'+ed;
     }).join("");
   }
+
+  $("spend").addEventListener("click", function(e){
+    var btn = e.target.closest("button[data-act]");
+    if(!btn) return;
+    var box = btn.closest(".spend-edit");
+    if(!box) return;
+    var name = box.getAttribute("data-rail");
+    var intended = readIntendedCap(box);
+    var act = btn.getAttribute("data-act");
+    if(act !== "push") return;
+    if(!connected){
+      addConsole("err","NOT CONNECTED","connect before pushing a live cap",null);
+      return;
+    }
+    if(intended == null){
+      addConsole("err","SPEND","PUSH LIVE CAP needs an intended cap $",null);
+      return;
+    }
+    var live = lastSpend && lastSpend.rails && lastSpend.rails[name];
+    if(live){
+      var settled = (typeof live.settled_usd==="number" && isFinite(live.settled_usd)) ? live.settled_usd : 0;
+      var reserved = (typeof live.reserved_usd==="number" && isFinite(live.reserved_usd)) ? live.reserved_usd : 0;
+      if(intended < settled + reserved){
+        hideSpendConfirm();
+        addConsole("err","BELOW_OUTSTANDING","new cap $"+intended+
+          " is below outstanding settled+reserved "+usd(settled+reserved)+
+          " — further calls will DENY. Raise the cap or wait for settle.",null);
+        return;
+      }
+    }
+    // First press never carries allow_widen. Core F-03: a raise without a
+    // literal JSON true is 409 WIDEN_REQUIRES_CONFIRM. The confirm press for
+    // the SAME rail AND SAME cap is the only path that sets the flag, and it
+    // is a boolean — `JSON.stringify` emits `true`, not `"true"`. A string is
+    // 400 BAD_FIELD on Core (the Python-truthy-"false" scar).
+    var confirming = isConfirmingWiden(name, intended);
+    var body = { rail: name, cap_usd: intended, client_id: CLIENT_ID };
+    if (confirming) {
+      body.allow_widen = true;
+    }
+    apiCall("/api/v1/spend", {method:"POST", body:body}).then(function(d){
+      hideSpendConfirm();
+      // A 2xx is NOT the proof. The proof is the RE-READ: GET /spend must come
+      // back carrying the cap that was pushed. Reporting "accepted" off the POST
+      // alone is the fake-DONE class.
+      return apiGet("/api/v1/spend").then(function(x){
+        renderSpend(x);
+        stamp("age-spend");
+        var row = lastSpend && lastSpend.rails && lastSpend.rails[name];
+        var seen = (row && typeof row.cap_usd==="number" && isFinite(row.cap_usd)) ? row.cap_usd : null;
+        if(seen !== null && Math.abs(seen - intended) < 0.005){
+          addConsole("ok","SPEND ROUND-TRIP","live cap for "+name+
+            " round-tripped — re-read measured cap "+usd(seen),
+            JSON.stringify(d, null, 2));
+        }else{
+          addConsole("err","WRITE_NOT_VISIBLE","POST /api/v1/spend answered, but the "+
+            "re-read of GET /spend shows "+(seen===null?"no such rail":usd(seen))+
+            ", not "+usd(intended)+" — the live gate is NOT confirmed moved.",
+            JSON.stringify(d, null, 2));
+        }
+      });
+    }).catch(function(e){
+      var st = e && e.status;
+      var kind = spendErrorKind(e);
+      if(kind === "WIDEN_REQUIRES_CONFIRM"){
+        showSpendConfirm(name, intended, e.json && e.json.detail);
+        addConsole("err","WIDEN_REQUIRES_CONFIRM",
+          name+" "+usd(intended)+" would RAISE the live cap. "+
+          "PUSH LIVE CAP again to confirm. Live gate unchanged.",
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      hideSpendConfirm();
+      if(kind === "BELOW_OUTSTANDING"){
+        addConsole("err","BELOW_OUTSTANDING", e.message || String(e),
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      if(kind === "BAD_FIELD"){
+        addConsole("err","BAD_FIELD", e.message || String(e),
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      var missing = st === 404 || st === 405 || kind === "NOT_FOUND";
+      addConsole("err", missing ? "NO SPEND-WRITE HTTP" : "SPEND",
+        missing
+          ? ("COSMOS has no POST /api/v1/spend — live gate unchanged. ("+
+            (e.message || e)+")")
+          : (e.message || String(e)),
+        e.json ? JSON.stringify(e.json, null, 2) : null);
+    });
+  });
 
   function refreshAll(){
     if(!connected) return;
     apiGet("/api/v1/status").then(function(d){ renderStatus(d); stamp("age-status");
         $("connState").textContent="connected"; $("connState").className="ok";
+        phoneConnectFold(false);
+        setConnHint((cfg.base||"").replace(/^https?:\/\//,""));
       }).catch(function(e){ stampErr("age-status", e.message);
-        $("connState").textContent="error"; $("connState").className="bad"; });
+        if(e.status===401 || (e.message||"").indexOf("UNAUTHORIZED")===0){
+          $("connState").textContent=UNAUTH_CHIP;
+        } else {
+          $("connState").textContent="error";
+        }
+        $("connState").className="bad";
+        phoneConnectFold(true);
+      });
     apiGet("/api/v1/jobs").then(function(d){ renderJobs(d); stamp("age-jobs"); })
       .catch(function(e){ stampErr("age-jobs", e.message); });
     apiGet("/api/v1/health").then(function(d){ renderHealth(d); stamp("age-health"); })
@@ -472,34 +729,214 @@
   }
 
   // ---------- event tail: poll /api/v1/events?since_seq= (append-only) ----------
+  function eventSeq(ev){
+    if(typeof ev.seq==="number" && isFinite(ev.seq)) return ev.seq;
+    if(typeof ev.seq==="string" && ev.seq.trim()!==""){
+      var n = Number(ev.seq);
+      if(isFinite(n)) return n;
+    }
+    return null;
+  }
+  function tailSeek(cursor, headSeq, coldStart){
+    if(!coldStart || cursor !== 0) return { seek:false, cursor:cursor, skipped:0 };
+    if(typeof headSeq!=="number" || !isFinite(headSeq)) return { seek:false, cursor:cursor, skipped:0 };
+    if(headSeq <= TAIL_WINDOW) return { seek:false, cursor:cursor, skipped:0 };
+    var to = headSeq - TAIL_WINDOW;
+    return { seek:true, cursor:to, skipped:to };
+  }
+  function advanceCursor(events, cursor, headSeq){
+    if(typeof headSeq==="number" && isFinite(headSeq) && headSeq < cursor){
+      return { rewind:true, cursor:0, keep:[] };
+    }
+    var keep = [], next = cursor;
+    (events||[]).forEach(function(ev){
+      var seq = eventSeq(ev);
+      if(seq===null){ keep.push(ev); return; }
+      if(seq <= cursor) return;
+      if(seq > next) next = seq;
+      keep.push(ev);
+    });
+    return { rewind:false, cursor:next, keep:keep };
+  }
+  function eventIds(ev){
+    var p = ev && ev.payload, out = [];
+    if(!p || typeof p!=="object") return out;
+    FOLLOW_KEYS.forEach(function(k){
+      var v = p[k];
+      if(v===null || v===undefined || typeof v==="object") return;
+      var s = String(v).trim();
+      if(s!=="") out.push({ key:k, value:s });
+    });
+    return out;
+  }
+  function idToken(id){ return id.key+"="+id.value; }
+  function rowMatches(el){
+    if(!feedFollow) return true;
+    var ids = (el.getAttribute("data-ids")||"").split(" ");
+    return ids.indexOf(idToken(feedFollow)) >= 0;
+  }
+  function updateFollowNotice(){
+    var feed = $("feed");
+    if(!feed) return;
+    var old = feed.querySelector("#feed-nomatch");
+    if(old) old.remove();
+    if(!feedFollow) return;
+    var total = feed.querySelectorAll(".fevent").length;
+    var shown = feed.querySelectorAll(".fevent:not(.hide)").length;
+    if(shown > 0) return;
+    var d = document.createElement("div");
+    d.className = "empty";
+    d.id = "feed-nomatch";
+    d.innerHTML = "following "+esc(idToken(feedFollow))+" — <b>0</b> of "+
+      esc(total)+" loaded records name that id"+
+      (feedSkippedTo>0 ? ", and "+esc(feedSkippedTo)+" older records were not loaded" : "")+
+      ". This is the filter matching nothing, not COSMOS going quiet.";
+    feed.appendChild(d);
+  }
+  function applyFeedFilter(){
+    Array.prototype.forEach.call(document.querySelectorAll("#feed .fevent"), function(el){
+      el.classList.toggle("hide", !rowMatches(el));
+    });
+    updateFollowNotice();
+  }
+  function setFollow(id){
+    feedFollow = id;
+    renderFeedChips();
+    applyFeedFilter();
+  }
+  function renderFeedChips(){
+    var fol = $("feedFollow"), jump = $("feedJump");
+    if(!fol || !jump) return;
+    if(feedFollow){
+      fol.innerHTML = '<span class="pill">following '+esc(idToken(feedFollow))+"</span>"+
+        '<button type="button" id="feedUnfollow">show all</button>';
+      fol.classList.remove("hidden");
+    } else {
+      fol.innerHTML = "";
+      fol.classList.add("hidden");
+    }
+    if(!feedPinned && feedUnseen>0){
+      jump.textContent = feedUnseen+" new below — jump to live";
+      jump.classList.remove("hidden");
+    } else {
+      jump.textContent = "";
+      jump.classList.add("hidden");
+    }
+  }
+  function feedAtTail(el){
+    return (el.scrollHeight - el.scrollTop - el.clientHeight) <= 4;
+  }
+  function inspectHtml(ev){
+    var ids = eventIds(ev);
+    var seq = eventSeq(ev);
+    var tMs = toMs(ev.t);
+    var h = '<div class="finspect">'+
+      '<div class="empty">seq '+esc(seq!==null?seq:"—")+
+      " · "+esc(ev.writer!=null?ev.writer:"—")+"</div>";
+    if(ev.payload===null || ev.payload===undefined){
+      h += '<div class="empty">no payload on this ledger record — the row above is all COSMOS wrote</div>';
+    } else {
+      var txt;
+      try { txt = JSON.stringify(ev.payload, null, 1); } catch(_){ txt = String(ev.payload); }
+      if(txt.length > INSPECT_MAX_CHARS){
+        txt = txt.slice(0, INSPECT_MAX_CHARS)+"\n… truncated at "+INSPECT_MAX_CHARS+
+          " of "+txt.length+" characters";
+      }
+      h += "<pre>"+esc(txt)+"</pre>";
+    }
+    if(ids.length>0){
+      h += ids.map(function(i){
+        return '<button type="button" data-follow="'+esc(idToken(i))+'">follow '+
+          esc(i.key)+" "+esc(i.value)+"</button>";
+      }).join("");
+    } else {
+      h += '<div class="empty">nothing to follow — this record names no '+
+        esc(FOLLOW_KEYS.join(" / "))+". The deck does not invent a thread it was not told.</div>";
+    }
+    return h+"</div>";
+  }
+  function toggleInspect(row){
+    var open = row.querySelector(".finspect");
+    if(open){ open.remove(); row.classList.remove("open"); return; }
+    row.classList.add("open");
+    row.insertAdjacentHTML("beforeend", inspectHtml(row.__ev || {}));
+  }
+
   function pollEvents(){
     if(!connected || eventsInflight) return;
     eventsInflight = true;
     apiGet("/api/v1/events?since_seq="+lastSeq).then(function(d){
       eventsInflight = false;
       stamp("age-events");
+      var seek = tailSeek(lastSeq, d.head_seq, feedColdStart);
+      feedColdStart = false;
+      if(seek.seek){
+        lastSeq = seek.cursor;
+        feedSkippedTo = seek.skipped;
+        $("feed").innerHTML = '<div class="empty">seeking the live tail — head_seq '+
+          esc(d.head_seq)+", opening at seq "+esc(seek.cursor+1)+"</div>";
+        pollEvents();
+        return;
+      }
+      var stepped = advanceCursor(d.events || [], lastSeq, d.head_seq);
+      if(stepped.rewind){
+        lastSeq = 0;
+        feedHasEvents = false;
+        feedColdStart = true;
+        feedSkippedTo = 0;
+        $("feed").innerHTML = '<div class="empty">ledger rewind — restarting feed at seq 0</div>';
+        pollEvents();
+        return;
+      }
       var feed = $("feed");
-      var evs = d.events || [];
-      if(!feedHasEvents && evs.length>0) feed.innerHTML = "";
-      evs.forEach(function(ev){
-        var seq = (typeof ev.seq==="number") ? ev.seq : null;
-        if(seq!==null && seq<=lastSeq) return;   // old events never re-render
-        if(seq!==null) lastSeq = seq;
+      var incoming = d.events || [];
+      if(!feedHasEvents){
+        if(incoming.length===0){
+          feed.innerHTML = '<div class="empty">no events yet — head_seq '+
+            esc(d.head_seq!=null?d.head_seq:"—")+'</div>';
+        } else {
+          feed.innerHTML = feedSkippedTo>0
+            ? '<div class="empty">feed opens at the live tail — '+esc(feedSkippedTo)+
+              " older records (seq 1–"+esc(feedSkippedTo)+") are in the ledger "+
+              "and were not loaded</div>"
+            : "";
+        }
+      }
+      var shown = 0;
+      stepped.keep.forEach(function(ev){
+        var seq = eventSeq(ev);
         feedHasEvents = true;
-        var tMs = toMs(ev.t);
         var row = document.createElement("div");
         row.className = "fevent";
+        var evName = ev.event!=null ? String(ev.event) : "";
+        row.setAttribute("data-event", evName);
+        var ids = eventIds(ev);
+        row.setAttribute("data-ids", ids.map(idToken).join(" "));
+        row.__ev = ev;
+        var tMs = toMs(ev.t);
         row.innerHTML =
           '<span class="fseq">'+(seq!==null?seq:"—")+'</span>'+
-          '<span class="fname">'+esc(ev.event!=null?ev.event:"—")+'</span>'+
+          '<span class="fname">'+esc(evName||"—")+'</span>'+
           '<span class="fwriter">'+esc(ev.writer!=null?ev.writer:"—")+'</span>'+
           '<span class="fage">'+(tMs!==null?humanAge((Date.now()-tMs)/1000):"—")+'</span>';
+        if(!rowMatches(row)) row.classList.add("hide");
+        else shown++;
         feed.appendChild(row);
       });
+      updateFollowNotice();
+      lastSeq = stepped.cursor;
       while(feed.children.length > FEED_MAX && feed.firstChild){
         feed.removeChild(feed.firstChild);
       }
-      if(evs.length>0) feed.scrollTop = feed.scrollHeight;
+      if(stepped.keep.length>0){
+        if(feedPinned){
+          feed.scrollTop = feed.scrollHeight;
+          feedUnseen = 0;
+        } else {
+          feedUnseen += shown;
+        }
+        renderFeedChips();
+      }
     }).catch(function(e){
       eventsInflight = false;
       stampErr("age-events", e.message);
@@ -510,8 +947,11 @@
   $("btnConnect").addEventListener("click", function(){
     var newBase = $("apiBase").value.trim() || window.location.origin;
     if(newBase !== cfg.base){
-      lastSeq = 0; feedHasEvents = false;   // new backend => honest feed reset
+      lastSeq = 0; feedHasEvents = false;
+      feedColdStart = true; feedSkippedTo = 0;
+      feedFollow = null; feedPinned = true; feedUnseen = 0;
       $("feed").innerHTML = '<div class="empty">connecting…</div>';
+      if($("feedFollow")) renderFeedChips();
     }
     cfg.base = newBase;
     cfg.token = $("token").value.trim();    // in-memory only, see header comment
@@ -526,6 +966,35 @@
     nextEventsAt = Date.now() + EVENTS_S*1000;
     refreshAll();
     pollEvents();
+  });
+  $("feed").addEventListener("click", function(e){
+    var t = e.target;
+    if(!t || !t.closest) return;
+    var fb = t.closest("button[data-follow]");
+    if(fb){
+      var parts = String(fb.getAttribute("data-follow")||"").split("=");
+      if(parts.length>=2) setFollow({ key:parts[0], value:parts.slice(1).join("=") });
+      return;
+    }
+    var row = t.closest(".fevent");
+    if(row) toggleInspect(row);
+  });
+  $("feedFollow").addEventListener("click", function(e){
+    if(e.target && e.target.id==="feedUnfollow") setFollow(null);
+  });
+  $("feedJump").addEventListener("click", function(){
+    var el = $("feed");
+    el.scrollTop = el.scrollHeight;
+    feedPinned = true;
+    feedUnseen = 0;
+    renderFeedChips();
+  });
+  $("feed").addEventListener("scroll", function(){
+    var atTail = feedAtTail(this);
+    if(atTail === feedPinned) return;
+    feedPinned = atTail;
+    if(atTail) feedUnseen = 0;
+    renderFeedChips();
   });
   ["apiBase","token"].forEach(function(id){
     $(id).addEventListener("keydown", function(e){

@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-f39-critique-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "measured_utc": "2026-08-31T18:05Z",
+ "disp": {
+  "bytes": 73741,
+  "lines": 1846
+ },
+ "critique": {
+  "bytes": 10078,
+  "lines": 259
+ },
+ "old": {
+  "bytes": 80388,
+  "lines": 2026
+ },
+ "compose_same": true,
+ "is_critique_same": true,
+ "suite": {
+  "checks": 51,
+  "passed": 51
+ },
+ "bite": {
+  "all_new_pins_failed": true,
+  "failed_pin_count": 9
+ },
+ "defines_compose_in_dispatch": false,
+ "imports_critique": true
+}

@@ -1,0 +1,56 @@
+{
+  "adapter": {
+    "adapter_implemented": true,
+    "at_utc": "2026-08-31T11:14:00+00:00",
+    "blockers": [
+      "gdx: NO_CONFIG",
+      "odx: NO_CONFIG",
+      "es3: NO_CONFIG"
+    ],
+    "config": {
+      "name": "backup_targets.json",
+      "state": "ABSENT"
+    },
+    "format": "cosmos-backup/1",
+    "kind": "MOUNT_PREFLIGHT",
+    "notes": [
+      "ES.3 expected model ST3000NM0033 \u2014 named in WISHLIST, never used as a dest",
+      "GDX/ODX dests are config rows, never X: or OneDrive literals in code"
+    ],
+    "schema": "cosmos-backup-targets/1",
+    "scope": null,
+    "status": "BLOCKED",
+    "targets": {
+      "es3": {
+        "detail": "es3 dest comes from backup_targets.json targets.es3.dest or --dest, never invented",
+        "kind": "es3",
+        "state": "NO_CONFIG"
+      },
+      "gdx": {
+        "detail": "gdx dest comes from backup_targets.json targets.gdx.dest or --dest, never invented",
+        "kind": "gdx",
+        "state": "NO_CONFIG"
+      },
+      "odx": {
+        "detail": "odx dest comes from backup_targets.json targets.odx.dest or --dest, never invented",
+        "kind": "odx",
+        "state": "NO_CONFIG"
+      }
+    }
+  },
+  "adapter_implemented": true,
+  "cli_rc": 2,
+  "config_path": "V:\\A\\Ai\\COSMOS\\live\\config\\backup_targets.json",
+  "config_present": false,
+  "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\mount_clock_heartbeat.json",
+  "schema": "cosmos-mount-clock/1",
+  "scopes": [],
+  "scopes_path": "V:\\A\\Ai\\COSMOS\\live\\config\\offsite_scopes.json",
+  "scopes_refused": {
+    "detail": "no scope declaration at V:\\A\\Ai\\COSMOS\\live\\config\\offsite_scopes.json \u2014 write it {\"scopes\":[{\"name\":\u2026,\"source\":\u2026}]} (no source tree is ever guessed)",
+    "kind": "NO_SCOPES"
+  },
+  "status": "BLOCKED",
+  "task": "COSMOS Mount Offsite Push",
+  "task_registered": false
+}

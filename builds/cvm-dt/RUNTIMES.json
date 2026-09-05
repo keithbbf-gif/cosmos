@@ -1,0 +1,4413 @@
+{
+ "wire": "cvm-dt-runtimes/1",
+ "ok": true,
+ "iso": "2026-08-31T04:29:49-0500",
+ "epoch": 1788168589.2720766,
+ "python": "3.14.0",
+ "tags": {
+  "cp": "cp314",
+  "pys": [
+   "cp314",
+   "py3",
+   "py314"
+  ],
+  "abis": [
+   "cp314",
+   "none"
+  ],
+  "abi3_from": [
+   "cp310",
+   "cp311",
+   "cp312",
+   "cp313",
+   "cp314",
+   "cp32",
+   "cp33",
+   "cp34",
+   "cp35",
+   "cp36",
+   "cp37",
+   "cp38",
+   "cp39"
+  ],
+  "plats": [
+   "any",
+   "win_amd64"
+  ],
+  "gil": true,
+  "platform": "win_amd64"
+ },
+ "probe_modules": [
+  {
+   "name": "vosk",
+   "role": "kaldi STT \u2014 the shipped F-21 ear"
+  },
+  {
+   "name": "faster_whisper",
+   "role": "whisper via CTranslate2 \u2014 the named B3 upgrade"
+  },
+  {
+   "name": "ctranslate2",
+   "role": "faster-whisper's native engine; carries the GPU path"
+  },
+  {
+   "name": "whisper",
+   "role": "openai-whisper reference implementation (needs torch)"
+  },
+  {
+   "name": "pywhispercpp",
+   "role": "whisper.cpp bindings"
+  },
+  {
+   "name": "torch",
+   "role": "GPU tensor runtime"
+  },
+  {
+   "name": "onnxruntime",
+   "role": "ONNX inference \u2014 Piper's engine, and a whisper-ONNX path"
+  },
+  {
+   "name": "openvino",
+   "role": "Intel inference runtime"
+  },
+  {
+   "name": "transformers",
+   "role": "HF model loading"
+  },
+  {
+   "name": "tokenizers",
+   "role": "HF tokenizers \u2014 faster-whisper dependency"
+  },
+  {
+   "name": "huggingface_hub",
+   "role": "model download \u2014 faster-whisper dependency"
+  },
+  {
+   "name": "llama_cpp",
+   "role": "llama.cpp bindings"
+  },
+  {
+   "name": "piper",
+   "role": "Piper TTS \u2014 CVM_ARCH \u00a76.3's named voice"
+  },
+  {
+   "name": "soundfile",
+   "role": "audio I/O"
+  },
+  {
+   "name": "sounddevice",
+   "role": "audio capture"
+  },
+  {
+   "name": "numpy",
+   "role": "array math \u2014 required by every runtime above"
+  },
+  {
+   "name": "scipy",
+   "role": "signal processing"
+  },
+  {
+   "name": "comtypes",
+   "role": "COM \u2014 one route to SAPI"
+  },
+  {
+   "name": "win32com",
+   "role": "pywin32 COM \u2014 the other route to SAPI"
+  }
+ ],
+ "interpreters": {
+  "launcher": "C:\\Windows\\py.EXE",
+  "list_paths_raw": "-V:3.14 *        C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe\n -V:3.13          C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "found": [
+   {
+    "tag": "3.14",
+    "default": true,
+    "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+   },
+   {
+    "tag": "3.13",
+    "default": false,
+    "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+   }
+  ]
+ },
+ "per_interpreter": [
+  {
+   "tag": "3.14",
+   "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+   "default": true,
+   "clean": {
+    "exe": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "ver": "3.14.0",
+    "found": {
+     "vosk": false,
+     "faster_whisper": false,
+     "ctranslate2": false,
+     "whisper": false,
+     "pywhispercpp": false,
+     "torch": false,
+     "onnxruntime": false,
+     "openvino": false,
+     "transformers": false,
+     "tokenizers": false,
+     "huggingface_hub": false,
+     "llama_cpp": false,
+     "piper": false,
+     "soundfile": false,
+     "sounddevice": false,
+     "numpy": true,
+     "scipy": true,
+     "comtypes": false,
+     "win32com": false
+    },
+    "isolated": true,
+    "ok": true,
+    "extra_path": []
+   },
+   "with_vendor_site": {
+    "exe": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "ver": "3.14.0",
+    "found": {
+     "vosk": true,
+     "faster_whisper": false,
+     "ctranslate2": false,
+     "whisper": false,
+     "pywhispercpp": false,
+     "torch": false,
+     "onnxruntime": false,
+     "openvino": false,
+     "transformers": false,
+     "tokenizers": false,
+     "huggingface_hub": false,
+     "llama_cpp": false,
+     "piper": false,
+     "soundfile": false,
+     "sounddevice": false,
+     "numpy": true,
+     "scipy": true,
+     "comtypes": false,
+     "win32com": false
+    },
+    "isolated": true,
+    "ok": true,
+    "extra_path": [
+     "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site"
+    ]
+   }
+  },
+  {
+   "tag": "3.13",
+   "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+   "default": false,
+   "clean": {
+    "exe": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "ver": "3.13.14",
+    "found": {
+     "vosk": false,
+     "faster_whisper": false,
+     "ctranslate2": false,
+     "whisper": false,
+     "pywhispercpp": false,
+     "torch": false,
+     "onnxruntime": false,
+     "openvino": false,
+     "transformers": false,
+     "tokenizers": false,
+     "huggingface_hub": false,
+     "llama_cpp": false,
+     "piper": false,
+     "soundfile": false,
+     "sounddevice": false,
+     "numpy": true,
+     "scipy": false,
+     "comtypes": false,
+     "win32com": false
+    },
+    "isolated": true,
+    "ok": true,
+    "extra_path": []
+   }
+  }
+ ],
+ "installed": [
+  "numpy",
+  "scipy"
+ ],
+ "vendored_only": [
+  "vosk"
+ ],
+ "gpu": {
+  "ok": true,
+  "kind": "ok",
+  "devices": [
+   {
+    "name": "NVIDIA GeForce RTX 3070",
+    "memory_total": "8192 MiB",
+    "driver": "610.62",
+    "compute_cap": "8.6"
+   }
+  ],
+  "raw": "NVIDIA GeForce RTX 3070, 8192 MiB, 610.62, 8.6"
+ },
+ "accelerator_libs": {
+  "CUDA_PATH": null,
+  "nvcc": null,
+  "cuda_dlls_on_path": [],
+  "toolkit_present": false
+ },
+ "on_disk": [
+  {
+   "label": "ollama",
+   "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+   "exists": false,
+   "kind": "absent"
+  },
+  {
+   "label": "lm-studio",
+   "path": "C:\\Users\\Papa\\AppData\\Local\\Programs\\lm-studio",
+   "exists": false,
+   "kind": "absent"
+  },
+  {
+   "label": "whisper-model-cache",
+   "path": "C:\\Users\\Papa\\.cache\\whisper",
+   "exists": false,
+   "kind": "absent"
+  },
+  {
+   "label": "huggingface-hub-cache",
+   "path": "C:\\Users\\Papa\\.cache\\huggingface\\hub",
+   "exists": false,
+   "kind": "absent"
+  },
+  {
+   "label": "cuda-toolkit",
+   "path": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA",
+   "exists": false,
+   "kind": "absent"
+  },
+  {
+   "label": "cosmos-vendor-site",
+   "path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site",
+   "exists": true,
+   "kind": "dir"
+  },
+  {
+   "label": "cosmos-vendor-models",
+   "path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models",
+   "exists": true,
+   "kind": "dir"
+  }
+ ],
+ "reachability": {
+  "faster-whisper-cpu": {
+   "roots": [
+    "faster-whisper"
+   ],
+   "packages": [
+    {
+     "name": "faster-whisper",
+     "ok": true,
+     "latest": "1.2.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "faster_whisper-1.2.1-py3-none-any.whl",
+      "bytes": 1118909,
+      "version": "1.2.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "ctranslate2",
+      "huggingface-hub",
+      "tokenizers",
+      "onnxruntime",
+      "av",
+      "tqdm"
+     ],
+     "requires_skipped": [
+      {
+       "req": "transformers[torch]>=4.23; extra == \"conversion\"",
+       "why": "extra"
+      },
+      {
+       "req": "black==23.*; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "flake8==6.*; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "isort==5.*; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest==7.*; extra == \"dev\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "ctranslate2<5,>=4.0",
+      "huggingface-hub>=0.21",
+      "tokenizers<1,>=0.13",
+      "onnxruntime<2,>=1.14",
+      "av>=11",
+      "tqdm",
+      "transformers[torch]>=4.23; extra == \"conversion\"",
+      "black==23.*; extra == \"dev\"",
+      "flake8==6.*; extra == \"dev\"",
+      "isort==5.*; extra == \"dev\"",
+      "pytest==7.*; extra == \"dev\""
+     ]
+    },
+    {
+     "name": "ctranslate2",
+     "ok": true,
+     "latest": "4.8.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "ctranslate2-4.8.1-cp314-cp314-win_amd64.whl",
+      "bytes": 19477164,
+      "version": "4.8.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "setuptools",
+      "numpy",
+      "pyyaml"
+     ],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "setuptools",
+      "numpy",
+      "pyyaml<7,>=5.3"
+     ]
+    },
+    {
+     "name": "huggingface-hub",
+     "ok": true,
+     "latest": "1.29.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "huggingface_hub-1.29.0-py3-none-any.whl",
+      "bytes": 795768,
+      "version": "1.29.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "click",
+      "filelock",
+      "fsspec",
+      "hf-xet",
+      "httpx",
+      "packaging",
+      "pyyaml",
+      "tqdm",
+      "typing-extensions"
+     ],
+     "requires_skipped": [
+      {
+       "req": "authlib>=1.3.2; extra == \"oauth\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"oauth\"",
+       "why": "extra"
+      },
+      {
+       "req": "httpx; extra == \"oauth\"",
+       "why": "extra"
+      },
+      {
+       "req": "itsdangerous; extra == \"oauth\"",
+       "why": "extra"
+      },
+      {
+       "req": "torch; extra == \"torch\"",
+       "why": "extra"
+      },
+      {
+       "req": "safetensors[torch]; extra == \"torch\"",
+       "why": "extra"
+      },
+      {
+       "req": "toml; extra == \"fastai\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastai>=2.4; extra == \"fastai\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastcore>=1.3.27; extra == \"fastai\"",
+       "why": "extra"
+      },
+      {
+       "req": "hf-xet<2.0.0,>=1.5.2; extra == \"hf-xet\"",
+       "why": "extra"
+      },
+      {
+       "req": "mcp<2.0.0,>=1.8.0; extra == \"mcp\"",
+       "why": "extra"
+      },
+      {
+       "req": "authlib>=1.3.2; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "httpx; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "itsdangerous; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "jedi; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "Jinja2; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=8.4.2; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-env; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-vcr; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures>=16.2; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3<2.0; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "soundfile; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "Pillow; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "duckdb; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "gradio>=5.0.0; extra == \"gradio\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"gradio\"",
+       "why": "extra"
+      },
+      {
+       "req": "typing-extensions>=4.8.0; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-PyYAML; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-simplejson; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-toml; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-tqdm; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-urllib3; extra == \"typing\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.9.0; extra == \"quality\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.15.0; extra == \"quality\"",
+       "why": "extra"
+      },
+      {
+       "req": "libcst>=1.4.0; extra == \"quality\"",
+       "why": "extra"
+      },
+      {
+       "req": "ty; extra == \"quality\"",
+       "why": "extra"
+      },
+      {
+       "req": "authlib>=1.3.2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "httpx; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "itsdangerous; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "jedi; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "Jinja2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=8.4.2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-env; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-vcr; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures>=16.2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3<2.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "soundfile; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "Pillow; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "duckdb; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.9.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.15.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "libcst>=1.4.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "ty; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "typing-extensions>=4.8.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-PyYAML; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-simplejson; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-toml; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-tqdm; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-urllib3; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "authlib>=1.3.2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "httpx; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "itsdangerous; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "jedi; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "Jinja2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=8.4.2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-env; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-vcr; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures>=16.2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3<2.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "soundfile; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "Pillow; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "duckdb; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastapi; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.9.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.15.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "libcst>=1.4.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "ty; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "typing-extensions>=4.8.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-PyYAML; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-simplejson; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-toml; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-tqdm; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "types-urllib3; extra == \"dev\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [
+      {
+       "req": "hf-xet<2.0.0,>=1.5.2; platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"arm64\" or platform_machine == \"aarch64\"",
+       "why": "unread marker included conservatively"
+      }
+     ],
+     "requires_dist_raw": [
+      "click<9.0.0,>=8.4.2",
+      "filelock>=3.10.0",
+      "fsspec>=2023.5.0",
+      "hf-xet<2.0.0,>=1.5.2; platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"arm64\" or platform_machine == \"aarch64\"",
+      "httpx<1,>=0.23.0",
+      "packaging>=20.9",
+      "pyyaml>=5.1",
+      "tqdm>=4.42.1",
+      "typing-extensions>=4.1.0",
+      "authlib>=1.3.2; extra == \"oauth\"",
+      "fastapi; extra == \"oauth\"",
+      "httpx; extra == \"oauth\"",
+      "itsdangerous; extra == \"oauth\"",
+      "torch; extra == \"torch\"",
+      "safetensors[torch]; extra == \"torch\"",
+      "toml; extra == \"fastai\"",
+      "fastai>=2.4; extra == \"fastai\"",
+      "fastcore>=1.3.27; extra == \"fastai\"",
+      "hf-xet<2.0.0,>=1.5.2; extra == \"hf-xet\"",
+      "mcp<2.0.0,>=1.8.0; extra == \"mcp\"",
+      "authlib>=1.3.2; extra == \"testing\"",
+      "fastapi; extra == \"testing\"",
+      "httpx; extra == \"testing\"",
+      "itsdangerous; extra == \"testing\"",
+      "jedi; extra == \"testing\"",
+      "Jinja2; extra == \"testing\"",
+      "pytest>=8.4.2; extra == \"testing\"",
+      "pytest-cov; extra == \"testing\"",
+      "pytest-env; extra == \"testing\"",
+      "pytest-xdist; extra == \"testing\"",
+      "pytest-vcr; extra == \"testing\"",
+      "pytest-asyncio; extra == \"testing\"",
+      "pytest-rerunfailures>=16.2; extra == \"testing\"",
+      "pytest-mock; extra == \"testing\"",
+      "urllib3<2.0; extra == \"testing\"",
+      "soundfile; extra == \"testing\"",
+      "Pillow; extra == \"testing\"",
+      "numpy; extra == \"testing\"",
+      "duckdb; extra == \"testing\"",
+      "fastapi; extra == \"testing\"",
+      "gradio>=5.0.0; extra == \"gradio\"",
+      "requests; extra == \"gradio\"",
+      "typing-extensions>=4.8.0; extra == \"typing\"",
+      "types-PyYAML; extra == \"typing\"",
+      "types-simplejson; extra == \"typing\"",
+      "types-toml; extra == \"typing\"",
+      "types-tqdm; extra == \"typing\"",
+      "types-urllib3; extra == \"typing\"",
+      "ruff>=0.9.0; extra == \"quality\"",
+      "mypy==1.15.0; extra == \"quality\"",
+      "libcst>=1.4.0; extra == \"quality\"",
+      "ty; extra == \"quality\"",
+      "authlib>=1.3.2; extra == \"all\"",
+      "fastapi; extra == \"all\"",
+      "httpx; extra == \"all\"",
+      "itsdangerous; extra == \"all\"",
+      "jedi; extra == \"all\"",
+      "Jinja2; extra == \"all\"",
+      "pytest>=8.4.2; extra == \"all\"",
+      "pytest-cov; extra == \"all\"",
+      "pytest-env; extra == \"all\"",
+      "pytest-xdist; extra == \"all\"",
+      "pytest-vcr; extra == \"all\"",
+      "pytest-asyncio; extra == \"all\"",
+      "pytest-rerunfailures>=16.2; extra == \"all\"",
+      "pytest-mock; extra == \"all\"",
+      "urllib3<2.0; extra == \"all\"",
+      "soundfile; extra == \"all\"",
+      "Pillow; extra == \"all\"",
+      "numpy; extra == \"all\"",
+      "duckdb; extra == \"all\"",
+      "fastapi; extra == \"all\"",
+      "ruff>=0.9.0; extra == \"all\"",
+      "mypy==1.15.0; extra == \"all\"",
+      "libcst>=1.4.0; extra == \"all\"",
+      "ty; extra == \"all\"",
+      "typing-extensions>=4.8.0; extra == \"all\"",
+      "types-PyYAML; extra == \"all\"",
+      "types-simplejson; extra == \"all\"",
+      "types-toml; extra == \"all\"",
+      "types-tqdm; extra == \"all\"",
+      "types-urllib3; extra == \"all\"",
+      "authlib>=1.3.2; extra == \"dev\"",
+      "fastapi; extra == \"dev\"",
+      "httpx; extra == \"dev\"",
+      "itsdangerous; extra == \"dev\"",
+      "jedi; extra == \"dev\"",
+      "Jinja2; extra == \"dev\"",
+      "pytest>=8.4.2; extra == \"dev\"",
+      "pytest-cov; extra == \"dev\"",
+      "pytest-env; extra == \"dev\"",
+      "pytest-xdist; extra == \"dev\"",
+      "pytest-vcr; extra == \"dev\"",
+      "pytest-asyncio; extra == \"dev\"",
+      "pytest-rerunfailures>=16.2; extra == \"dev\"",
+      "pytest-mock; extra == \"dev\"",
+      "urllib3<2.0; extra == \"dev\"",
+      "soundfile; extra == \"dev\"",
+      "Pillow; extra == \"dev\"",
+      "numpy; extra == \"dev\"",
+      "duckdb; extra == \"dev\"",
+      "fastapi; extra == \"dev\"",
+      "ruff>=0.9.0; extra == \"dev\"",
+      "mypy==1.15.0; extra == \"dev\"",
+      "libcst>=1.4.0; extra == \"dev\"",
+      "ty; extra == \"dev\"",
+      "typing-extensions>=4.8.0; extra == \"dev\"",
+      "types-PyYAML; extra == \"dev\"",
+      "types-simplejson; extra == \"dev\"",
+      "types-toml; extra == \"dev\"",
+      "types-tqdm; extra == \"dev\"",
+      "types-urllib3; extra == \"dev\""
+     ]
+    },
+    {
+     "name": "tokenizers",
+     "ok": true,
+     "latest": "0.23.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "tokenizers-0.23.1-cp310-abi3-win_amd64.whl",
+      "bytes": 2798223,
+      "version": "0.23.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "huggingface-hub"
+     ],
+     "requires_skipped": [
+      {
+       "req": "tokenizers[testing]; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-rtd-theme; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "setuptools-rust; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "datasets; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff; extra == \"testing\"",
+       "why": "extra"
+      },
+      {
+       "req": "ty; extra == \"testing\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "huggingface-hub<2.0,>=0.16.4",
+      "tokenizers[testing]; extra == \"dev\"",
+      "sphinx; extra == \"docs\"",
+      "sphinx-rtd-theme; extra == \"docs\"",
+      "setuptools-rust; extra == \"docs\"",
+      "pytest; extra == \"testing\"",
+      "pytest-asyncio; extra == \"testing\"",
+      "requests; extra == \"testing\"",
+      "numpy; extra == \"testing\"",
+      "datasets; extra == \"testing\"",
+      "ruff; extra == \"testing\"",
+      "ty; extra == \"testing\""
+     ]
+    },
+    {
+     "name": "onnxruntime",
+     "ok": true,
+     "latest": "1.29.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "onnxruntime-1.29.0-cp314-cp314-win_amd64.whl",
+      "bytes": 14350643,
+      "version": "1.29.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "flatbuffers",
+      "numpy",
+      "packaging",
+      "protobuf"
+     ],
+     "requires_skipped": [
+      {
+       "req": "sympy; extra == \"symbolic\"",
+       "why": "extra"
+      },
+      {
+       "req": "ml_dtypes; extra == \"quantization\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "flatbuffers",
+      "numpy>=1.21.6",
+      "packaging",
+      "protobuf>=4.25.8",
+      "sympy; extra == \"symbolic\"",
+      "ml_dtypes; extra == \"quantization\""
+     ]
+    },
+    {
+     "name": "av",
+     "ok": true,
+     "latest": "18.1.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "av-18.1.0-cp311-abi3-win_amd64.whl",
+      "bytes": 27595679,
+      "version": "18.1.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "tqdm",
+     "ok": true,
+     "latest": "4.70.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "tqdm-4.70.0-py3-none-any.whl",
+      "bytes": 80184,
+      "version": "4.70.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "colorama"
+     ],
+     "requires_skipped": [
+      {
+       "req": "requests; extra == \"discord\"",
+       "why": "extra"
+      },
+      {
+       "req": "envwrap; extra == \"discord\"",
+       "why": "extra"
+      },
+      {
+       "req": "slack-sdk; extra == \"slack\"",
+       "why": "extra"
+      },
+      {
+       "req": "envwrap; extra == \"slack\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"telegram\"",
+       "why": "extra"
+      },
+      {
+       "req": "envwrap; extra == \"telegram\"",
+       "why": "extra"
+      },
+      {
+       "req": "ipywidgets>=6; extra == \"notebook\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "colorama; platform_system == \"Windows\"",
+      "requests; extra == \"discord\"",
+      "envwrap; extra == \"discord\"",
+      "slack-sdk; extra == \"slack\"",
+      "envwrap; extra == \"slack\"",
+      "requests; extra == \"telegram\"",
+      "envwrap; extra == \"telegram\"",
+      "ipywidgets>=6; extra == \"notebook\""
+     ]
+    },
+    {
+     "name": "setuptools",
+     "ok": true,
+     "latest": "84.0.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "setuptools-84.0.0-py3-none-any.whl",
+      "bytes": 818216,
+      "version": "84.0.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "pytest!=8.1.*,>=6; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "virtualenv>=13.0.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel>=0.44.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pip>=19.1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging>=24.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.envs>=2.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist>=3; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.path>=3.7.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "build[virtualenv]>=1.0.3; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "filelock>=3.4.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "ini2toml[lite]>=0.14; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "tomli-w>=1.0.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-home>=0.5; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-subprocess; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyproject-hooks!=1.1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.test>=5.5; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx>=3.5; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.packaging>=9.3; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "rst.linker>=1.9; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "furo; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-lint; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.tidelift>=1.4; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygments-github-lexers==0.0.5; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-favicon; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-inline-tabs; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-reredirects; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinxcontrib-towncrier; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyproject-hooks!=1.1; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "towncrier<24.7; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging>=24.2; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "more_itertools>=8.8; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.text>=3.7; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel>=0.43.0; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.functools>=4; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "more_itertools; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-checkdocs>=2.14; extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"cover\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-enabler>=3.4; extra == \"enabler\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.18.*; extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "pytest!=8.1.*,>=6; extra == \"test\"",
+      "virtualenv>=13.0.0; extra == \"test\"",
+      "wheel>=0.44.0; extra == \"test\"",
+      "pip>=19.1; extra == \"test\"",
+      "packaging>=24.2; extra == \"test\"",
+      "jaraco.envs>=2.2; extra == \"test\"",
+      "pytest-xdist>=3; extra == \"test\"",
+      "jaraco.path>=3.7.2; extra == \"test\"",
+      "build[virtualenv]>=1.0.3; extra == \"test\"",
+      "filelock>=3.4.0; extra == \"test\"",
+      "ini2toml[lite]>=0.14; extra == \"test\"",
+      "tomli-w>=1.0.0; extra == \"test\"",
+      "pytest-timeout; extra == \"test\"",
+      "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+      "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+      "pytest-home>=0.5; extra == \"test\"",
+      "pytest-subprocess; extra == \"test\"",
+      "pyproject-hooks!=1.1; extra == \"test\"",
+      "jaraco.test>=5.5; extra == \"test\"",
+      "sphinx>=3.5; extra == \"doc\"",
+      "jaraco.packaging>=9.3; extra == \"doc\"",
+      "rst.linker>=1.9; extra == \"doc\"",
+      "furo; extra == \"doc\"",
+      "sphinx-lint; extra == \"doc\"",
+      "jaraco.tidelift>=1.4; extra == \"doc\"",
+      "pygments-github-lexers==0.0.5; extra == \"doc\"",
+      "sphinx-favicon; extra == \"doc\"",
+      "sphinx-inline-tabs; extra == \"doc\"",
+      "sphinx-reredirects; extra == \"doc\"",
+      "sphinxcontrib-towncrier; extra == \"doc\"",
+      "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+      "pyproject-hooks!=1.1; extra == \"doc\"",
+      "towncrier<24.7; extra == \"doc\"",
+      "packaging>=24.2; extra == \"core\"",
+      "more_itertools>=8.8; extra == \"core\"",
+      "jaraco.text>=3.7; extra == \"core\"",
+      "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+      "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+      "wheel>=0.43.0; extra == \"core\"",
+      "jaraco.functools>=4; extra == \"core\"",
+      "more_itertools; extra == \"core\"",
+      "pytest-checkdocs>=2.14; extra == \"check\"",
+      "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+      "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+      "pytest-cov; extra == \"cover\"",
+      "pytest-enabler>=3.4; extra == \"enabler\"",
+      "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+      "mypy==1.18.*; extra == \"type\"",
+      "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+      "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+     ]
+    },
+    {
+     "name": "numpy",
+     "ok": true,
+     "latest": "2.5.2",
+     "kind": "ok",
+     "wheel": {
+      "filename": "numpy-2.5.2-cp314-cp314-win_amd64.whl",
+      "bytes": 12597627,
+      "version": "2.5.2"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "pyyaml",
+     "ok": true,
+     "latest": "6.0.3",
+     "kind": "ok",
+     "wheel": {
+      "filename": "pyyaml-6.0.3-cp314-cp314-win_amd64.whl",
+      "bytes": 156429,
+      "version": "6.0.3"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "click",
+     "ok": true,
+     "latest": "8.5.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "click-8.5.0-py3-none-any.whl",
+      "bytes": 125251,
+      "version": "8.5.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "filelock",
+     "ok": true,
+     "latest": "3.32.4",
+     "kind": "ok",
+     "wheel": {
+      "filename": "filelock-3.32.4-py3-none-any.whl",
+      "bytes": 99864,
+      "version": "3.32.4"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "fsspec",
+     "ok": true,
+     "latest": "2026.7.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "fsspec-2026.7.0-py3-none-any.whl",
+      "bytes": 206583,
+      "version": "2026.7.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "adlfs; extra == \"abfs\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"adl\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"arrow\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"dask\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"dask\"",
+       "why": "extra"
+      },
+      {
+       "req": "pre-commit; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.5; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpydoc; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-design; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-rtd-theme; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "yarl; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"fuse\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"gcs\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"git\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"github\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"gs\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"gui\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"hdfs\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"http\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"libarchive\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"oci\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"s3\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"sftp\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"smb\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"ssh\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio!=0.22.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-benchmark; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-recording; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiobotocore<3.0.0,>=2.5.4; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask[dataframe,test]; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "moto[server]<5,>4; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "xarray; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "backports-zstd; python_version < \"3.14\" and extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "cloudpickle; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastparquet; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "jinja2; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "kerchunk; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "lz4; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "notebook; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pandas<3.0.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyftpdlib; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio!=0.22.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-benchmark; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-recording; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "python-snappy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "zarr<3.2.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "zstandard; python_version < \"3.14\" and extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"tqdm\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "adlfs; extra == \"abfs\"",
+      "adlfs; extra == \"adl\"",
+      "pyarrow>=1; extra == \"arrow\"",
+      "dask; extra == \"dask\"",
+      "distributed; extra == \"dask\"",
+      "pre-commit; extra == \"dev\"",
+      "ruff>=0.5; extra == \"dev\"",
+      "numpydoc; extra == \"doc\"",
+      "sphinx; extra == \"doc\"",
+      "sphinx-design; extra == \"doc\"",
+      "sphinx-rtd-theme; extra == \"doc\"",
+      "yarl; extra == \"doc\"",
+      "dropbox; extra == \"dropbox\"",
+      "dropboxdrivefs; extra == \"dropbox\"",
+      "requests; extra == \"dropbox\"",
+      "adlfs; extra == \"full\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"full\"",
+      "dask; extra == \"full\"",
+      "distributed; extra == \"full\"",
+      "dropbox; extra == \"full\"",
+      "dropboxdrivefs; extra == \"full\"",
+      "fusepy; extra == \"full\"",
+      "gcsfs>=2026.4.0; extra == \"full\"",
+      "libarchive-c; extra == \"full\"",
+      "ocifs; extra == \"full\"",
+      "panel; extra == \"full\"",
+      "paramiko; extra == \"full\"",
+      "pyarrow>=1; extra == \"full\"",
+      "pygit2; extra == \"full\"",
+      "requests; extra == \"full\"",
+      "s3fs>=2026.6.0; extra == \"full\"",
+      "smbprotocol; extra == \"full\"",
+      "tqdm; extra == \"full\"",
+      "fusepy; extra == \"fuse\"",
+      "gcsfs>=2026.4.0; extra == \"gcs\"",
+      "pygit2; extra == \"git\"",
+      "requests; extra == \"github\"",
+      "gcsfs>=2026.4.0; extra == \"gs\"",
+      "panel; extra == \"gui\"",
+      "pyarrow>=1; extra == \"hdfs\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"http\"",
+      "libarchive-c; extra == \"libarchive\"",
+      "ocifs; extra == \"oci\"",
+      "s3fs>=2026.6.0; extra == \"s3\"",
+      "paramiko; extra == \"sftp\"",
+      "smbprotocol; extra == \"smb\"",
+      "paramiko; extra == \"ssh\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test\"",
+      "numpy; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-asyncio!=0.22.0; extra == \"test\"",
+      "pytest-benchmark; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "pytest-mock; extra == \"test\"",
+      "pytest-recording; extra == \"test\"",
+      "pytest-rerunfailures; extra == \"test\"",
+      "requests; extra == \"test\"",
+      "aiobotocore<3.0.0,>=2.5.4; extra == \"test-downstream\"",
+      "dask[dataframe,test]; extra == \"test-downstream\"",
+      "moto[server]<5,>4; extra == \"test-downstream\"",
+      "pytest-timeout; extra == \"test-downstream\"",
+      "xarray; extra == \"test-downstream\"",
+      "adlfs; extra == \"test-full\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test-full\"",
+      "backports-zstd; python_version < \"3.14\" and extra == \"test-full\"",
+      "cloudpickle; extra == \"test-full\"",
+      "dask; extra == \"test-full\"",
+      "distributed; extra == \"test-full\"",
+      "dropbox; extra == \"test-full\"",
+      "dropboxdrivefs; extra == \"test-full\"",
+      "fastparquet; extra == \"test-full\"",
+      "fusepy; extra == \"test-full\"",
+      "gcsfs>=2026.4.0; extra == \"test-full\"",
+      "jinja2; extra == \"test-full\"",
+      "kerchunk; extra == \"test-full\"",
+      "libarchive-c; extra == \"test-full\"",
+      "lz4; extra == \"test-full\"",
+      "notebook; extra == \"test-full\"",
+      "numpy; extra == \"test-full\"",
+      "ocifs; extra == \"test-full\"",
+      "pandas<3.0.0; extra == \"test-full\"",
+      "panel; extra == \"test-full\"",
+      "paramiko; extra == \"test-full\"",
+      "pyarrow>=1; extra == \"test-full\"",
+      "pyftpdlib; extra == \"test-full\"",
+      "pygit2; extra == \"test-full\"",
+      "pytest; extra == \"test-full\"",
+      "pytest-asyncio!=0.22.0; extra == \"test-full\"",
+      "pytest-benchmark; extra == \"test-full\"",
+      "pytest-cov; extra == \"test-full\"",
+      "pytest-mock; extra == \"test-full\"",
+      "pytest-recording; extra == \"test-full\"",
+      "pytest-rerunfailures; extra == \"test-full\"",
+      "python-snappy; extra == \"test-full\"",
+      "requests; extra == \"test-full\"",
+      "s3fs>=2026.6.0; extra == \"test-full\"",
+      "smbprotocol; extra == \"test-full\"",
+      "tqdm; extra == \"test-full\"",
+      "urllib3; extra == \"test-full\"",
+      "zarr<3.2.0; extra == \"test-full\"",
+      "zstandard; python_version < \"3.14\" and extra == \"test-full\"",
+      "tqdm; extra == \"tqdm\""
+     ]
+    },
+    {
+     "name": "hf-xet",
+     "ok": true,
+     "latest": "1.6.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "hf_xet-1.6.0-cp38-abi3-win_amd64.whl",
+      "bytes": 4033128,
+      "version": "1.6.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "pytest; extra == \"tests\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "pytest; extra == \"tests\""
+     ]
+    },
+    {
+     "name": "httpx",
+     "ok": true,
+     "latest": "0.28.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "httpx-0.28.1-py3-none-any.whl",
+      "bytes": 73517,
+      "version": "0.28.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "anyio",
+      "certifi",
+      "httpcore",
+      "idna"
+     ],
+     "requires_skipped": [
+      {
+       "req": "brotli; platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+       "why": "extra"
+      },
+      {
+       "req": "brotlicffi; platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+       "why": "extra"
+      },
+      {
+       "req": "click==8.*; extra == \"cli\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygments==2.*; extra == \"cli\"",
+       "why": "extra"
+      },
+      {
+       "req": "rich<14,>=10; extra == \"cli\"",
+       "why": "extra"
+      },
+      {
+       "req": "h2<5,>=3; extra == \"http2\"",
+       "why": "extra"
+      },
+      {
+       "req": "socksio==1.*; extra == \"socks\"",
+       "why": "extra"
+      },
+      {
+       "req": "zstandard>=0.18.0; extra == \"zstd\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "anyio",
+      "certifi",
+      "httpcore==1.*",
+      "idna",
+      "brotli; platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+      "brotlicffi; platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+      "click==8.*; extra == \"cli\"",
+      "pygments==2.*; extra == \"cli\"",
+      "rich<14,>=10; extra == \"cli\"",
+      "h2<5,>=3; extra == \"http2\"",
+      "socksio==1.*; extra == \"socks\"",
+      "zstandard>=0.18.0; extra == \"zstd\""
+     ]
+    },
+    {
+     "name": "packaging",
+     "ok": true,
+     "latest": "26.3",
+     "kind": "ok",
+     "wheel": {
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "version": "26.3"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "typing-extensions",
+     "ok": true,
+     "latest": "4.16.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "version": "4.16.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "flatbuffers",
+     "ok": true,
+     "latest": "25.12.19",
+     "kind": "ok",
+     "wheel": {
+      "filename": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "bytes": 26661,
+      "version": "25.12.19"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "protobuf",
+     "ok": true,
+     "latest": "7.36.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "protobuf-7.36.0-cp310-abi3-win_amd64.whl",
+      "bytes": 453731,
+      "version": "7.36.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "colorama",
+     "ok": true,
+     "latest": "0.4.6",
+     "kind": "ok",
+     "wheel": {
+      "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+      "bytes": 25335,
+      "version": "0.4.6"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "anyio",
+     "ok": true,
+     "latest": "4.14.2",
+     "kind": "ok",
+     "wheel": {
+      "filename": "anyio-4.14.2-py3-none-any.whl",
+      "bytes": 125813,
+      "version": "4.14.2"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "exceptiongroup",
+      "idna",
+      "typing_extensions"
+     ],
+     "requires_skipped": [
+      {
+       "req": "trio>=0.32.0; extra == \"trio\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [
+      {
+       "req": "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+       "why": "python_version marker assumed true"
+      },
+      {
+       "req": "typing_extensions>=4.5; python_version < \"3.13\"",
+       "why": "python_version marker assumed true"
+      }
+     ],
+     "requires_dist_raw": [
+      "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+      "idna>=2.8",
+      "typing_extensions>=4.5; python_version < \"3.13\"",
+      "trio>=0.32.0; extra == \"trio\""
+     ]
+    },
+    {
+     "name": "certifi",
+     "ok": true,
+     "latest": "2026.7.22",
+     "kind": "ok",
+     "wheel": {
+      "filename": "certifi-2026.7.22-py3-none-any.whl",
+      "bytes": 136983,
+      "version": "2026.7.22"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "httpcore",
+     "ok": true,
+     "latest": "1.0.9",
+     "kind": "ok",
+     "wheel": {
+      "filename": "httpcore-1.0.9-py3-none-any.whl",
+      "bytes": 78784,
+      "version": "1.0.9"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "certifi",
+      "h11"
+     ],
+     "requires_skipped": [
+      {
+       "req": "anyio<5.0,>=4.0; extra == \"asyncio\"",
+       "why": "extra"
+      },
+      {
+       "req": "h2<5,>=3; extra == \"http2\"",
+       "why": "extra"
+      },
+      {
+       "req": "socksio==1.*; extra == \"socks\"",
+       "why": "extra"
+      },
+      {
+       "req": "trio<1.0,>=0.22.0; extra == \"trio\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "certifi",
+      "h11>=0.16",
+      "anyio<5.0,>=4.0; extra == \"asyncio\"",
+      "h2<5,>=3; extra == \"http2\"",
+      "socksio==1.*; extra == \"socks\"",
+      "trio<1.0,>=0.22.0; extra == \"trio\""
+     ]
+    },
+    {
+     "name": "idna",
+     "ok": true,
+     "latest": "3.19",
+     "kind": "ok",
+     "wheel": {
+      "filename": "idna-3.19-py3-none-any.whl",
+      "bytes": 68550,
+      "version": "3.19"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "ruff>=0.16.0; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy>=1.11.2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "ty>=0.0.37; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=8.3.2; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "hypothesis>=6.141.1; extra == \"all\"",
+       "why": "extra"
+      },
+      {
+       "req": "coverage>=7.10.0; extra == \"all\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "ruff>=0.16.0; extra == \"all\"",
+      "mypy>=1.11.2; extra == \"all\"",
+      "ty>=0.0.37; extra == \"all\"",
+      "pytest>=8.3.2; extra == \"all\"",
+      "hypothesis>=6.141.1; extra == \"all\"",
+      "coverage>=7.10.0; extra == \"all\""
+     ]
+    },
+    {
+     "name": "exceptiongroup",
+     "ok": true,
+     "latest": "1.3.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "exceptiongroup-1.3.1-py3-none-any.whl",
+      "bytes": 16740,
+      "version": "1.3.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "typing-extensions"
+     ],
+     "requires_skipped": [
+      {
+       "req": "pytest>=6; extra == \"test\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [
+      {
+       "req": "typing-extensions>=4.6.0; python_version < \"3.13\"",
+       "why": "python_version marker assumed true"
+      }
+     ],
+     "requires_dist_raw": [
+      "typing-extensions>=4.6.0; python_version < \"3.13\"",
+      "pytest>=6; extra == \"test\""
+     ]
+    },
+    {
+     "name": "h11",
+     "ok": true,
+     "latest": "0.16.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "h11-0.16.0-py3-none-any.whl",
+      "bytes": 37515,
+      "version": "0.16.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    }
+   ],
+   "package_count": 26,
+   "cuda_in_closure": [],
+   "device_support": "no CUDA library in this closure \u2014 CPU unless the runtime finds cuBLAS/cuDNN already on the box (this box: see accelerator_libs.toolkit_present)",
+   "total_bytes": 85472824,
+   "total_mb": 81.5,
+   "blocked": [],
+   "truncated": false,
+   "ok": true,
+   "verdict": "REACHABLE",
+   "closure_method": "BFS over PyPI requires_dist; extras excluded; sys_platform/platform_system/os_name markers evaluated; everything else included conservatively (overstates rather than understates)",
+   "note": "bytes are WHEELS ONLY \u2014 model weights are not in this number",
+   "why": "CVM_BACKLOG B3's named next step if real-mic recall is poor. CPU only \u2014 no CUDA libraries in the closure.",
+   "unblocks": "an ear that can beat VOSK's 0.80 recall without SAPI"
+  },
+  "piper-tts": {
+   "roots": [
+    "piper-tts"
+   ],
+   "packages": [
+    {
+     "name": "piper-tts",
+     "ok": true,
+     "latest": "1.7.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "piper_tts-1.7.0-cp39-abi3-win_amd64.whl",
+      "bytes": 34114093,
+      "version": "1.7.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "onnxruntime",
+      "pathvalidate"
+     ],
+     "requires_skipped": [
+      {
+       "req": "torch<3,>=2; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "lightning<3,>=2; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "tensorboard<3,>=2; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "tensorboardX<3,>=2; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "jsonargparse[signatures]>=4.27.7; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "onnx<2,>=1; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "pysilero-vad<3,>=2.1; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "cython<4,>=3; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "librosa<1; extra == \"train\"",
+       "why": "extra"
+      },
+      {
+       "req": "black==24.8.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "flake8==7.1.1; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "isort==5.13.2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.14.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pylint==3.2.7; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest==8.3.4; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "build==1.2.2; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "scikit-build<1; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "cmake<4,>=3.18; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "ninja<2,>=1; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "onnx<2,>=1; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "flask<4,>=3; extra == \"http\"",
+       "why": "extra"
+      },
+      {
+       "req": "onnx<2,>=1; extra == \"alignment\"",
+       "why": "extra"
+      },
+      {
+       "req": "g2pW<1,>=0.1.1; extra == \"zh\"",
+       "why": "extra"
+      },
+      {
+       "req": "transformers<6,>=4; extra == \"zh\"",
+       "why": "extra"
+      },
+      {
+       "req": "sentence-stream<2,>=1.2.1; extra == \"zh\"",
+       "why": "extra"
+      },
+      {
+       "req": "unicode-rbnf<3,>=2.4.0; extra == \"zh\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyopenjtalk-plus<1,>=0.4; extra == \"ja\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "onnxruntime<2,>=1",
+      "pathvalidate<4,>=3",
+      "torch<3,>=2; extra == \"train\"",
+      "lightning<3,>=2; extra == \"train\"",
+      "tensorboard<3,>=2; extra == \"train\"",
+      "tensorboardX<3,>=2; extra == \"train\"",
+      "jsonargparse[signatures]>=4.27.7; extra == \"train\"",
+      "onnx<2,>=1; extra == \"train\"",
+      "pysilero-vad<3,>=2.1; extra == \"train\"",
+      "cython<4,>=3; extra == \"train\"",
+      "librosa<1; extra == \"train\"",
+      "black==24.8.0; extra == \"dev\"",
+      "flake8==7.1.1; extra == \"dev\"",
+      "isort==5.13.2; extra == \"dev\"",
+      "mypy==1.14.0; extra == \"dev\"",
+      "pylint==3.2.7; extra == \"dev\"",
+      "pytest==8.3.4; extra == \"dev\"",
+      "build==1.2.2; extra == \"dev\"",
+      "scikit-build<1; extra == \"dev\"",
+      "cmake<4,>=3.18; extra == \"dev\"",
+      "ninja<2,>=1; extra == \"dev\"",
+      "onnx<2,>=1; extra == \"dev\"",
+      "flask<4,>=3; extra == \"http\"",
+      "onnx<2,>=1; extra == \"alignment\"",
+      "g2pW<1,>=0.1.1; extra == \"zh\"",
+      "transformers<6,>=4; extra == \"zh\"",
+      "sentence-stream<2,>=1.2.1; extra == \"zh\"",
+      "unicode-rbnf<3,>=2.4.0; extra == \"zh\"",
+      "pyopenjtalk-plus<1,>=0.4; extra == \"ja\""
+     ]
+    },
+    {
+     "name": "onnxruntime",
+     "ok": true,
+     "latest": "1.29.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "onnxruntime-1.29.0-cp314-cp314-win_amd64.whl",
+      "bytes": 14350643,
+      "version": "1.29.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "flatbuffers",
+      "numpy",
+      "packaging",
+      "protobuf"
+     ],
+     "requires_skipped": [
+      {
+       "req": "sympy; extra == \"symbolic\"",
+       "why": "extra"
+      },
+      {
+       "req": "ml_dtypes; extra == \"quantization\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "flatbuffers",
+      "numpy>=1.21.6",
+      "packaging",
+      "protobuf>=4.25.8",
+      "sympy; extra == \"symbolic\"",
+      "ml_dtypes; extra == \"quantization\""
+     ]
+    },
+    {
+     "name": "pathvalidate",
+     "ok": true,
+     "latest": "3.3.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "pathvalidate-3.3.1-py3-none-any.whl",
+      "bytes": 24305,
+      "version": "3.3.1"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "sphinx_rtd_theme>=1.2.2; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "Sphinx>=2.4; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3<2; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "readmemaker>=1.2.0; extra == \"readme\"",
+       "why": "extra"
+      },
+      {
+       "req": "path<18,>=13; extra == \"readme\"",
+       "why": "extra"
+      },
+      {
+       "req": "allpairspy>=2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "click>=6.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "Faker>=1.0.8; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=6.0.1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-md-report>=0.6.2; extra == \"test\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "sphinx_rtd_theme>=1.2.2; extra == \"docs\"",
+      "Sphinx>=2.4; extra == \"docs\"",
+      "urllib3<2; extra == \"docs\"",
+      "readmemaker>=1.2.0; extra == \"readme\"",
+      "path<18,>=13; extra == \"readme\"",
+      "allpairspy>=2; extra == \"test\"",
+      "click>=6.2; extra == \"test\"",
+      "Faker>=1.0.8; extra == \"test\"",
+      "pytest>=6.0.1; extra == \"test\"",
+      "pytest-md-report>=0.6.2; extra == \"test\""
+     ]
+    },
+    {
+     "name": "flatbuffers",
+     "ok": true,
+     "latest": "25.12.19",
+     "kind": "ok",
+     "wheel": {
+      "filename": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "bytes": 26661,
+      "version": "25.12.19"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "numpy",
+     "ok": true,
+     "latest": "2.5.2",
+     "kind": "ok",
+     "wheel": {
+      "filename": "numpy-2.5.2-cp314-cp314-win_amd64.whl",
+      "bytes": 12597627,
+      "version": "2.5.2"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "packaging",
+     "ok": true,
+     "latest": "26.3",
+     "kind": "ok",
+     "wheel": {
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "version": "26.3"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "protobuf",
+     "ok": true,
+     "latest": "7.36.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "protobuf-7.36.0-cp310-abi3-win_amd64.whl",
+      "bytes": 453731,
+      "version": "7.36.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    }
+   ],
+   "package_count": 7,
+   "cuda_in_closure": [],
+   "device_support": "no CUDA library in this closure \u2014 CPU unless the runtime finds cuBLAS/cuDNN already on the box (this box: see accelerator_libs.toolkit_present)",
+   "total_bytes": 61697016,
+   "total_mb": 58.8,
+   "blocked": [],
+   "truncated": false,
+   "ok": true,
+   "verdict": "REACHABLE",
+   "closure_method": "BFS over PyPI requires_dist; extras excluded; sys_platform/platform_system/os_name markers evaluated; everything else included conservatively (overstates rather than understates)",
+   "note": "bytes are WHEELS ONLY \u2014 model weights are not in this number",
+   "why": "CVM_ARCH \u00a76.3 \u2014 desk and road sounding like one assistant (CVM_BACKLOG B4).",
+   "unblocks": "B4's download half; the voice-family question stays open"
+  },
+  "onnxruntime-directml": {
+   "roots": [
+    "onnxruntime-directml"
+   ],
+   "packages": [
+    {
+     "name": "onnxruntime-directml",
+     "ok": true,
+     "latest": "1.24.4",
+     "kind": "ok",
+     "wheel": {
+      "filename": "onnxruntime_directml-1.24.4-cp314-cp314-win_amd64.whl",
+      "bytes": 25571098,
+      "version": "1.24.4"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "flatbuffers",
+      "numpy",
+      "packaging",
+      "protobuf",
+      "sympy"
+     ],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "flatbuffers",
+      "numpy>=1.21.6",
+      "packaging",
+      "protobuf",
+      "sympy"
+     ]
+    },
+    {
+     "name": "flatbuffers",
+     "ok": true,
+     "latest": "25.12.19",
+     "kind": "ok",
+     "wheel": {
+      "filename": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "bytes": 26661,
+      "version": "25.12.19"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "numpy",
+     "ok": true,
+     "latest": "2.5.2",
+     "kind": "ok",
+     "wheel": {
+      "filename": "numpy-2.5.2-cp314-cp314-win_amd64.whl",
+      "bytes": 12597627,
+      "version": "2.5.2"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "packaging",
+     "ok": true,
+     "latest": "26.3",
+     "kind": "ok",
+     "wheel": {
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "version": "26.3"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "protobuf",
+     "ok": true,
+     "latest": "7.36.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "protobuf-7.36.0-cp310-abi3-win_amd64.whl",
+      "bytes": 453731,
+      "version": "7.36.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "sympy",
+     "ok": true,
+     "latest": "1.14.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "sympy-1.14.0-py3-none-any.whl",
+      "bytes": 6299353,
+      "version": "1.14.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "mpmath"
+     ],
+     "requires_skipped": [
+      {
+       "req": "pytest>=7.1.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "hypothesis>=6.70.0; extra == \"dev\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "mpmath<1.4,>=1.1.0",
+      "pytest>=7.1.0; extra == \"dev\"",
+      "hypothesis>=6.70.0; extra == \"dev\""
+     ]
+    },
+    {
+     "name": "mpmath",
+     "ok": true,
+     "latest": "1.4.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "mpmath-1.4.1-py3-none-any.whl",
+      "bytes": 567787,
+      "version": "1.4.1"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "pytest>=6; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "matplotlib; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "pexpect; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "ipython; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "hypothesis; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "mpmath[tests]; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "flake518>=1.5; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov>=7; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "build; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "gmpy2>=2.3; extra == \"gmpy2\"",
+       "why": "extra"
+      },
+      {
+       "req": "mpmath[gmpy2]; extra == \"gmpy\"",
+       "why": "extra"
+      },
+      {
+       "req": "python-gmp; extra == \"gmp\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "matplotlib; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinxcontrib-autoprogram; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist; extra == \"ci\"",
+       "why": "extra"
+      },
+      {
+       "req": "diff_cover; extra == \"ci\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "pytest>=6; extra == \"tests\"",
+      "numpy; extra == \"tests\"",
+      "packaging; extra == \"tests\"",
+      "pytest-timeout; extra == \"tests\"",
+      "matplotlib; extra == \"tests\"",
+      "pexpect; extra == \"tests\"",
+      "ipython; extra == \"tests\"",
+      "hypothesis; extra == \"tests\"",
+      "mpmath[tests]; extra == \"develop\"",
+      "flake518>=1.5; extra == \"develop\"",
+      "pytest-cov>=7; extra == \"develop\"",
+      "wheel; extra == \"develop\"",
+      "build; extra == \"develop\"",
+      "gmpy2>=2.3; extra == \"gmpy2\"",
+      "mpmath[gmpy2]; extra == \"gmpy\"",
+      "python-gmp; extra == \"gmp\"",
+      "sphinx; extra == \"docs\"",
+      "matplotlib; extra == \"docs\"",
+      "sphinxcontrib-autoprogram; extra == \"docs\"",
+      "pytest-xdist; extra == \"ci\"",
+      "diff_cover; extra == \"ci\""
+     ]
+    }
+   ],
+   "package_count": 7,
+   "cuda_in_closure": [],
+   "device_support": "no CUDA library in this closure \u2014 CPU unless the runtime finds cuBLAS/cuDNN already on the box (this box: see accelerator_libs.toolkit_present)",
+   "total_bytes": 45646213,
+   "total_mb": 43.5,
+   "blocked": [],
+   "truncated": false,
+   "ok": true,
+   "verdict": "REACHABLE",
+   "closure_method": "BFS over PyPI requires_dist; extras excluded; sys_platform/platform_system/os_name markers evaluated; everything else included conservatively (overstates rather than understates)",
+   "note": "bytes are WHEELS ONLY \u2014 model weights are not in this number",
+   "why": "the only GPU route on this box that needs no CUDA toolkit \u2014 DirectML runs on the installed display driver.",
+   "unblocks": "GPU inference without a 2 GB CUDA download"
+  },
+  "gpu-cuda-libs": {
+   "roots": [
+    "nvidia-cublas-cu12",
+    "nvidia-cudnn-cu12",
+    "nvidia-cuda-runtime-cu12"
+   ],
+   "packages": [
+    {
+     "name": "nvidia-cublas-cu12",
+     "ok": true,
+     "latest": "12.9.2.10",
+     "kind": "ok",
+     "wheel": {
+      "filename": "nvidia_cublas_cu12-12.9.2.10-py3-none-win_amd64.whl",
+      "bytes": 553162896,
+      "version": "12.9.2.10"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "nvidia-cuda-nvrtc-cu12"
+     ],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "nvidia-cuda-nvrtc-cu12"
+     ]
+    },
+    {
+     "name": "nvidia-cudnn-cu12",
+     "ok": true,
+     "latest": "9.25.1.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "nvidia_cudnn_cu12-9.25.1.1-py3-none-win_amd64.whl",
+      "bytes": 732338891,
+      "version": "9.25.1.1"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "nvidia-cublas-cu12"
+     ],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "nvidia-cublas-cu12"
+     ]
+    },
+    {
+     "name": "nvidia-cuda-runtime-cu12",
+     "ok": true,
+     "latest": "12.9.79",
+     "kind": "ok",
+     "wheel": {
+      "filename": "nvidia_cuda_runtime_cu12-12.9.79-py3-none-win_amd64.whl",
+      "bytes": 3591604,
+      "version": "12.9.79"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "nvidia-cuda-nvrtc-cu12",
+     "ok": true,
+     "latest": "12.9.86",
+     "kind": "ok",
+     "wheel": {
+      "filename": "nvidia_cuda_nvrtc_cu12-12.9.86-py3-none-win_amd64.whl",
+      "bytes": 76408187,
+      "version": "12.9.86"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    }
+   ],
+   "package_count": 4,
+   "cuda_in_closure": [
+    "nvidia-cublas-cu12",
+    "nvidia-cuda-nvrtc-cu12",
+    "nvidia-cuda-runtime-cu12",
+    "nvidia-cudnn-cu12"
+   ],
+   "device_support": "cuda-packages-present",
+   "total_bytes": 1365501578,
+   "total_mb": 1302.2,
+   "blocked": [],
+   "truncated": false,
+   "ok": true,
+   "verdict": "REACHABLE",
+   "closure_method": "BFS over PyPI requires_dist; extras excluded; sys_platform/platform_system/os_name markers evaluated; everything else included conservatively (overstates rather than understates)",
+   "note": "bytes are WHEELS ONLY \u2014 model weights are not in this number",
+   "why": "MEASURED, not guessed: CTranslate2 enumerates 1 CUDA device on this box and then refuses to load with 'Library cublas64_12.dll is not found or cannot be loaded' (`F21B_STT_WHISPER.json:cuda_attempt`). These are the libraries that refusal names.",
+   "unblocks": "GPU whisper on the RTX 3070 \u2014 at the byte cost below, which is the point of measuring it"
+  },
+  "torch-pypi-default": {
+   "roots": [
+    "torch"
+   ],
+   "packages": [
+    {
+     "name": "torch",
+     "ok": true,
+     "latest": "2.13.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "torch-2.13.0-cp314-cp314-win_amd64.whl",
+      "bytes": 122051871,
+      "version": "2.13.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "filelock",
+      "typing-extensions",
+      "setuptools",
+      "sympy",
+      "networkx",
+      "jinja2",
+      "fsspec"
+     ],
+     "requires_skipped": [
+      {
+       "req": "cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == \"Linux\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "cuda-bindings<14,>=13.0.3; platform_system == \"Linux\" and python_version < \"3.15\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "nvidia-cudnn-cu13==9.20.0.48; platform_system == \"Linux\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "nvidia-cusparselt-cu13==0.8.1; platform_system == \"Linux\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "nvidia-nccl-cu13==2.29.7; platform_system == \"Linux\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "nvidia-nvshmem-cu13==3.4.5; platform_system == \"Linux\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "triton==3.7.1; platform_system == \"Linux\" and python_version < \"3.15\"",
+       "why": "platform_system marker"
+      },
+      {
+       "req": "optree>=0.13.0; extra == \"optree\"",
+       "why": "extra"
+      },
+      {
+       "req": "opt-einsum>=3.3; extra == \"opt-einsum\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyyaml; extra == \"pyyaml\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "filelock",
+      "typing-extensions>=4.10.0",
+      "setuptools>=77.0.3",
+      "sympy>=1.13.3",
+      "networkx>=2.5.1",
+      "jinja2",
+      "fsspec>=0.8.5",
+      "cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.3; platform_system == \"Linux\"",
+      "cuda-bindings<14,>=13.0.3; platform_system == \"Linux\" and python_version < \"3.15\"",
+      "nvidia-cudnn-cu13==9.20.0.48; platform_system == \"Linux\"",
+      "nvidia-cusparselt-cu13==0.8.1; platform_system == \"Linux\"",
+      "nvidia-nccl-cu13==2.29.7; platform_system == \"Linux\"",
+      "nvidia-nvshmem-cu13==3.4.5; platform_system == \"Linux\"",
+      "triton==3.7.1; platform_system == \"Linux\" and python_version < \"3.15\"",
+      "optree>=0.13.0; extra == \"optree\"",
+      "opt-einsum>=3.3; extra == \"opt-einsum\"",
+      "pyyaml; extra == \"pyyaml\""
+     ]
+    },
+    {
+     "name": "filelock",
+     "ok": true,
+     "latest": "3.32.4",
+     "kind": "ok",
+     "wheel": {
+      "filename": "filelock-3.32.4-py3-none-any.whl",
+      "bytes": 99864,
+      "version": "3.32.4"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "typing-extensions",
+     "ok": true,
+     "latest": "4.16.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "version": "4.16.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    },
+    {
+     "name": "setuptools",
+     "ok": true,
+     "latest": "84.0.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "setuptools-84.0.0-py3-none-any.whl",
+      "bytes": 818216,
+      "version": "84.0.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "pytest!=8.1.*,>=6; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "virtualenv>=13.0.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel>=0.44.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pip>=19.1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging>=24.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.envs>=2.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist>=3; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.path>=3.7.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "build[virtualenv]>=1.0.3; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "filelock>=3.4.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "ini2toml[lite]>=0.14; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "tomli-w>=1.0.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-home>=0.5; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-subprocess; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyproject-hooks!=1.1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.test>=5.5; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx>=3.5; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.packaging>=9.3; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "rst.linker>=1.9; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "furo; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-lint; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.tidelift>=1.4; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygments-github-lexers==0.0.5; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-favicon; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-inline-tabs; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-reredirects; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinxcontrib-towncrier; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyproject-hooks!=1.1; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "towncrier<24.7; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging>=24.2; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "more_itertools>=8.8; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.text>=3.7; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel>=0.43.0; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.functools>=4; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "more_itertools; extra == \"core\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-checkdocs>=2.14; extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"cover\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-enabler>=3.4; extra == \"enabler\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy==1.18.*; extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+       "why": "extra"
+      },
+      {
+       "req": "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "pytest!=8.1.*,>=6; extra == \"test\"",
+      "virtualenv>=13.0.0; extra == \"test\"",
+      "wheel>=0.44.0; extra == \"test\"",
+      "pip>=19.1; extra == \"test\"",
+      "packaging>=24.2; extra == \"test\"",
+      "jaraco.envs>=2.2; extra == \"test\"",
+      "pytest-xdist>=3; extra == \"test\"",
+      "jaraco.path>=3.7.2; extra == \"test\"",
+      "build[virtualenv]>=1.0.3; extra == \"test\"",
+      "filelock>=3.4.0; extra == \"test\"",
+      "ini2toml[lite]>=0.14; extra == \"test\"",
+      "tomli-w>=1.0.0; extra == \"test\"",
+      "pytest-timeout; extra == \"test\"",
+      "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+      "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+      "pytest-home>=0.5; extra == \"test\"",
+      "pytest-subprocess; extra == \"test\"",
+      "pyproject-hooks!=1.1; extra == \"test\"",
+      "jaraco.test>=5.5; extra == \"test\"",
+      "sphinx>=3.5; extra == \"doc\"",
+      "jaraco.packaging>=9.3; extra == \"doc\"",
+      "rst.linker>=1.9; extra == \"doc\"",
+      "furo; extra == \"doc\"",
+      "sphinx-lint; extra == \"doc\"",
+      "jaraco.tidelift>=1.4; extra == \"doc\"",
+      "pygments-github-lexers==0.0.5; extra == \"doc\"",
+      "sphinx-favicon; extra == \"doc\"",
+      "sphinx-inline-tabs; extra == \"doc\"",
+      "sphinx-reredirects; extra == \"doc\"",
+      "sphinxcontrib-towncrier; extra == \"doc\"",
+      "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+      "pyproject-hooks!=1.1; extra == \"doc\"",
+      "towncrier<24.7; extra == \"doc\"",
+      "packaging>=24.2; extra == \"core\"",
+      "more_itertools>=8.8; extra == \"core\"",
+      "jaraco.text>=3.7; extra == \"core\"",
+      "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+      "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+      "wheel>=0.43.0; extra == \"core\"",
+      "jaraco.functools>=4; extra == \"core\"",
+      "more_itertools; extra == \"core\"",
+      "pytest-checkdocs>=2.14; extra == \"check\"",
+      "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+      "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+      "pytest-cov; extra == \"cover\"",
+      "pytest-enabler>=3.4; extra == \"enabler\"",
+      "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+      "mypy==1.18.*; extra == \"type\"",
+      "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+      "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+     ]
+    },
+    {
+     "name": "sympy",
+     "ok": true,
+     "latest": "1.14.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "sympy-1.14.0-py3-none-any.whl",
+      "bytes": 6299353,
+      "version": "1.14.0"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "mpmath"
+     ],
+     "requires_skipped": [
+      {
+       "req": "pytest>=7.1.0; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "hypothesis>=6.70.0; extra == \"dev\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "mpmath<1.4,>=1.1.0",
+      "pytest>=7.1.0; extra == \"dev\"",
+      "hypothesis>=6.70.0; extra == \"dev\""
+     ]
+    },
+    {
+     "name": "networkx",
+     "ok": true,
+     "latest": "3.6.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "networkx-3.6.1-py3-none-any.whl",
+      "bytes": 2068504,
+      "version": "3.6.1"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "asv; extra == \"benchmarking\"",
+       "why": "extra"
+      },
+      {
+       "req": "virtualenv; extra == \"benchmarking\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy>=1.25; extra == \"default\"",
+       "why": "extra"
+      },
+      {
+       "req": "scipy>=1.11.2; extra == \"default\"",
+       "why": "extra"
+      },
+      {
+       "req": "matplotlib>=3.8; extra == \"default\"",
+       "why": "extra"
+      },
+      {
+       "req": "pandas>=2.0; extra == \"default\"",
+       "why": "extra"
+      },
+      {
+       "req": "pre-commit>=4.1; extra == \"developer\"",
+       "why": "extra"
+      },
+      {
+       "req": "mypy>=1.15; extra == \"developer\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx>=8.0; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pydata-sphinx-theme>=0.16; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-gallery>=0.18; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpydoc>=1.8.0; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "pillow>=10; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "texext>=0.6.7; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "myst-nb>=1.1; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "intersphinx-registry; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "osmnx>=2.0.0; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "momepy>=0.7.2; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "contextily>=1.6; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "seaborn>=0.13; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "cairocffi>=1.7; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "igraph>=0.11; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "scikit-learn>=1.5; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "iplotx>=0.9.0; extra == \"example\"",
+       "why": "extra"
+      },
+      {
+       "req": "lxml>=4.6; extra == \"extra\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygraphviz>=1.14; extra == \"extra\"",
+       "why": "extra"
+      },
+      {
+       "req": "pydot>=3.0.1; extra == \"extra\"",
+       "why": "extra"
+      },
+      {
+       "req": "sympy>=1.10; extra == \"extra\"",
+       "why": "extra"
+      },
+      {
+       "req": "build>=0.10; extra == \"release\"",
+       "why": "extra"
+      },
+      {
+       "req": "twine>=4.0; extra == \"release\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel>=0.40; extra == \"release\"",
+       "why": "extra"
+      },
+      {
+       "req": "changelist==0.5; extra == \"release\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest>=7.2; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov>=4.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist>=3.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mpl; extra == \"test-extras\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-randomly; extra == \"test-extras\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "asv; extra == \"benchmarking\"",
+      "virtualenv; extra == \"benchmarking\"",
+      "numpy>=1.25; extra == \"default\"",
+      "scipy>=1.11.2; extra == \"default\"",
+      "matplotlib>=3.8; extra == \"default\"",
+      "pandas>=2.0; extra == \"default\"",
+      "pre-commit>=4.1; extra == \"developer\"",
+      "mypy>=1.15; extra == \"developer\"",
+      "sphinx>=8.0; extra == \"doc\"",
+      "pydata-sphinx-theme>=0.16; extra == \"doc\"",
+      "sphinx-gallery>=0.18; extra == \"doc\"",
+      "numpydoc>=1.8.0; extra == \"doc\"",
+      "pillow>=10; extra == \"doc\"",
+      "texext>=0.6.7; extra == \"doc\"",
+      "myst-nb>=1.1; extra == \"doc\"",
+      "intersphinx-registry; extra == \"doc\"",
+      "osmnx>=2.0.0; extra == \"example\"",
+      "momepy>=0.7.2; extra == \"example\"",
+      "contextily>=1.6; extra == \"example\"",
+      "seaborn>=0.13; extra == \"example\"",
+      "cairocffi>=1.7; extra == \"example\"",
+      "igraph>=0.11; extra == \"example\"",
+      "scikit-learn>=1.5; extra == \"example\"",
+      "iplotx>=0.9.0; extra == \"example\"",
+      "lxml>=4.6; extra == \"extra\"",
+      "pygraphviz>=1.14; extra == \"extra\"",
+      "pydot>=3.0.1; extra == \"extra\"",
+      "sympy>=1.10; extra == \"extra\"",
+      "build>=0.10; extra == \"release\"",
+      "twine>=4.0; extra == \"release\"",
+      "wheel>=0.40; extra == \"release\"",
+      "changelist==0.5; extra == \"release\"",
+      "pytest>=7.2; extra == \"test\"",
+      "pytest-cov>=4.0; extra == \"test\"",
+      "pytest-xdist>=3.0; extra == \"test\"",
+      "pytest-mpl; extra == \"test-extras\"",
+      "pytest-randomly; extra == \"test-extras\""
+     ]
+    },
+    {
+     "name": "jinja2",
+     "ok": true,
+     "latest": "3.1.6",
+     "kind": "ok",
+     "wheel": {
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "version": "3.1.6"
+     },
+     "versions_scanned": 1,
+     "requires": [
+      "MarkupSafe"
+     ],
+     "requires_skipped": [
+      {
+       "req": "Babel>=2.7; extra == \"i18n\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "MarkupSafe>=2.0",
+      "Babel>=2.7; extra == \"i18n\""
+     ]
+    },
+    {
+     "name": "fsspec",
+     "ok": true,
+     "latest": "2026.7.0",
+     "kind": "ok",
+     "wheel": {
+      "filename": "fsspec-2026.7.0-py3-none-any.whl",
+      "bytes": 206583,
+      "version": "2026.7.0"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "adlfs; extra == \"abfs\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"adl\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"arrow\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"dask\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"dask\"",
+       "why": "extra"
+      },
+      {
+       "req": "pre-commit; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "ruff>=0.5; extra == \"dev\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpydoc; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-design; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx-rtd-theme; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "yarl; extra == \"doc\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"dropbox\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"fuse\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"gcs\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"git\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"github\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"gs\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"gui\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"hdfs\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"http\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"libarchive\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"oci\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"s3\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"sftp\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"smb\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"ssh\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio!=0.22.0; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-benchmark; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-recording; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"test\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiobotocore<3.0.0,>=2.5.4; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask[dataframe,test]; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "moto[server]<5,>4; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "xarray; extra == \"test-downstream\"",
+       "why": "extra"
+      },
+      {
+       "req": "adlfs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "backports-zstd; python_version < \"3.14\" and extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "cloudpickle; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dask; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "distributed; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropbox; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "dropboxdrivefs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fastparquet; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "fusepy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "gcsfs>=2026.4.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "jinja2; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "kerchunk; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "libarchive-c; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "lz4; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "notebook; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "ocifs; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pandas<3.0.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "panel; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "paramiko; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyarrow>=1; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pyftpdlib; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pygit2; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-asyncio!=0.22.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-benchmark; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-mock; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-recording; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-rerunfailures; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "python-snappy; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "requests; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "s3fs>=2026.6.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "smbprotocol; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "urllib3; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "zarr<3.2.0; extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "zstandard; python_version < \"3.14\" and extra == \"test-full\"",
+       "why": "extra"
+      },
+      {
+       "req": "tqdm; extra == \"tqdm\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "adlfs; extra == \"abfs\"",
+      "adlfs; extra == \"adl\"",
+      "pyarrow>=1; extra == \"arrow\"",
+      "dask; extra == \"dask\"",
+      "distributed; extra == \"dask\"",
+      "pre-commit; extra == \"dev\"",
+      "ruff>=0.5; extra == \"dev\"",
+      "numpydoc; extra == \"doc\"",
+      "sphinx; extra == \"doc\"",
+      "sphinx-design; extra == \"doc\"",
+      "sphinx-rtd-theme; extra == \"doc\"",
+      "yarl; extra == \"doc\"",
+      "dropbox; extra == \"dropbox\"",
+      "dropboxdrivefs; extra == \"dropbox\"",
+      "requests; extra == \"dropbox\"",
+      "adlfs; extra == \"full\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"full\"",
+      "dask; extra == \"full\"",
+      "distributed; extra == \"full\"",
+      "dropbox; extra == \"full\"",
+      "dropboxdrivefs; extra == \"full\"",
+      "fusepy; extra == \"full\"",
+      "gcsfs>=2026.4.0; extra == \"full\"",
+      "libarchive-c; extra == \"full\"",
+      "ocifs; extra == \"full\"",
+      "panel; extra == \"full\"",
+      "paramiko; extra == \"full\"",
+      "pyarrow>=1; extra == \"full\"",
+      "pygit2; extra == \"full\"",
+      "requests; extra == \"full\"",
+      "s3fs>=2026.6.0; extra == \"full\"",
+      "smbprotocol; extra == \"full\"",
+      "tqdm; extra == \"full\"",
+      "fusepy; extra == \"fuse\"",
+      "gcsfs>=2026.4.0; extra == \"gcs\"",
+      "pygit2; extra == \"git\"",
+      "requests; extra == \"github\"",
+      "gcsfs>=2026.4.0; extra == \"gs\"",
+      "panel; extra == \"gui\"",
+      "pyarrow>=1; extra == \"hdfs\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"http\"",
+      "libarchive-c; extra == \"libarchive\"",
+      "ocifs; extra == \"oci\"",
+      "s3fs>=2026.6.0; extra == \"s3\"",
+      "paramiko; extra == \"sftp\"",
+      "smbprotocol; extra == \"smb\"",
+      "paramiko; extra == \"ssh\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test\"",
+      "numpy; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-asyncio!=0.22.0; extra == \"test\"",
+      "pytest-benchmark; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "pytest-mock; extra == \"test\"",
+      "pytest-recording; extra == \"test\"",
+      "pytest-rerunfailures; extra == \"test\"",
+      "requests; extra == \"test\"",
+      "aiobotocore<3.0.0,>=2.5.4; extra == \"test-downstream\"",
+      "dask[dataframe,test]; extra == \"test-downstream\"",
+      "moto[server]<5,>4; extra == \"test-downstream\"",
+      "pytest-timeout; extra == \"test-downstream\"",
+      "xarray; extra == \"test-downstream\"",
+      "adlfs; extra == \"test-full\"",
+      "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"test-full\"",
+      "backports-zstd; python_version < \"3.14\" and extra == \"test-full\"",
+      "cloudpickle; extra == \"test-full\"",
+      "dask; extra == \"test-full\"",
+      "distributed; extra == \"test-full\"",
+      "dropbox; extra == \"test-full\"",
+      "dropboxdrivefs; extra == \"test-full\"",
+      "fastparquet; extra == \"test-full\"",
+      "fusepy; extra == \"test-full\"",
+      "gcsfs>=2026.4.0; extra == \"test-full\"",
+      "jinja2; extra == \"test-full\"",
+      "kerchunk; extra == \"test-full\"",
+      "libarchive-c; extra == \"test-full\"",
+      "lz4; extra == \"test-full\"",
+      "notebook; extra == \"test-full\"",
+      "numpy; extra == \"test-full\"",
+      "ocifs; extra == \"test-full\"",
+      "pandas<3.0.0; extra == \"test-full\"",
+      "panel; extra == \"test-full\"",
+      "paramiko; extra == \"test-full\"",
+      "pyarrow>=1; extra == \"test-full\"",
+      "pyftpdlib; extra == \"test-full\"",
+      "pygit2; extra == \"test-full\"",
+      "pytest; extra == \"test-full\"",
+      "pytest-asyncio!=0.22.0; extra == \"test-full\"",
+      "pytest-benchmark; extra == \"test-full\"",
+      "pytest-cov; extra == \"test-full\"",
+      "pytest-mock; extra == \"test-full\"",
+      "pytest-recording; extra == \"test-full\"",
+      "pytest-rerunfailures; extra == \"test-full\"",
+      "python-snappy; extra == \"test-full\"",
+      "requests; extra == \"test-full\"",
+      "s3fs>=2026.6.0; extra == \"test-full\"",
+      "smbprotocol; extra == \"test-full\"",
+      "tqdm; extra == \"test-full\"",
+      "urllib3; extra == \"test-full\"",
+      "zarr<3.2.0; extra == \"test-full\"",
+      "zstandard; python_version < \"3.14\" and extra == \"test-full\"",
+      "tqdm; extra == \"tqdm\""
+     ]
+    },
+    {
+     "name": "mpmath",
+     "ok": true,
+     "latest": "1.4.1",
+     "kind": "ok",
+     "wheel": {
+      "filename": "mpmath-1.4.1-py3-none-any.whl",
+      "bytes": 567787,
+      "version": "1.4.1"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [
+      {
+       "req": "pytest>=6; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "numpy; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "packaging; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-timeout; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "matplotlib; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "pexpect; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "ipython; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "hypothesis; extra == \"tests\"",
+       "why": "extra"
+      },
+      {
+       "req": "mpmath[tests]; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "flake518>=1.5; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-cov>=7; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "wheel; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "build; extra == \"develop\"",
+       "why": "extra"
+      },
+      {
+       "req": "gmpy2>=2.3; extra == \"gmpy2\"",
+       "why": "extra"
+      },
+      {
+       "req": "mpmath[gmpy2]; extra == \"gmpy\"",
+       "why": "extra"
+      },
+      {
+       "req": "python-gmp; extra == \"gmp\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinx; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "matplotlib; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "sphinxcontrib-autoprogram; extra == \"docs\"",
+       "why": "extra"
+      },
+      {
+       "req": "pytest-xdist; extra == \"ci\"",
+       "why": "extra"
+      },
+      {
+       "req": "diff_cover; extra == \"ci\"",
+       "why": "extra"
+      }
+     ],
+     "requires_flagged": [],
+     "requires_dist_raw": [
+      "pytest>=6; extra == \"tests\"",
+      "numpy; extra == \"tests\"",
+      "packaging; extra == \"tests\"",
+      "pytest-timeout; extra == \"tests\"",
+      "matplotlib; extra == \"tests\"",
+      "pexpect; extra == \"tests\"",
+      "ipython; extra == \"tests\"",
+      "hypothesis; extra == \"tests\"",
+      "mpmath[tests]; extra == \"develop\"",
+      "flake518>=1.5; extra == \"develop\"",
+      "pytest-cov>=7; extra == \"develop\"",
+      "wheel; extra == \"develop\"",
+      "build; extra == \"develop\"",
+      "gmpy2>=2.3; extra == \"gmpy2\"",
+      "mpmath[gmpy2]; extra == \"gmpy\"",
+      "python-gmp; extra == \"gmp\"",
+      "sphinx; extra == \"docs\"",
+      "matplotlib; extra == \"docs\"",
+      "sphinxcontrib-autoprogram; extra == \"docs\"",
+      "pytest-xdist; extra == \"ci\"",
+      "diff_cover; extra == \"ci\""
+     ]
+    },
+    {
+     "name": "MarkupSafe",
+     "ok": true,
+     "latest": "3.0.3",
+     "kind": "ok",
+     "wheel": {
+      "filename": "markupsafe-3.0.3-cp314-cp314-win_amd64.whl",
+      "bytes": 15341,
+      "version": "3.0.3"
+     },
+     "versions_scanned": 1,
+     "requires": [],
+     "requires_skipped": [],
+     "requires_flagged": [],
+     "requires_dist_raw": null
+    }
+   ],
+   "package_count": 10,
+   "cuda_in_closure": [],
+   "device_support": "no CUDA library in this closure \u2014 CPU unless the runtime finds cuBLAS/cuDNN already on the box (this box: see accelerator_libs.toolkit_present)",
+   "total_bytes": 132307989,
+   "total_mb": 126.2,
+   "blocked": [],
+   "truncated": false,
+   "ok": true,
+   "verdict": "REACHABLE",
+   "closure_method": "BFS over PyPI requires_dist; extras excluded; sys_platform/platform_system/os_name markers evaluated; everything else included conservatively (overstates rather than understates)",
+   "note": "bytes are WHEELS ONLY \u2014 model weights are not in this number",
+   "why": "openai-whisper's requirement. Named for what it IS, not for what it is wanted for: whether the default PyPI Windows wheel carries CUDA is a question this closure ANSWERS (`cuda_in_closure`), so the stack must not assert it.",
+   "unblocks": "openai-whisper and any HF pipeline \u2014 on whatever device the measured closure turns out to support"
+  }
+ },
+ "elapsed_ms": 12013.3,
+ "emitted": "runtimes:py3.14.0:cp314-win_amd64:installed=2 of 19 local model runtimes (numpy,scipy):vendored_only=vosk:gpu=NVIDIA GeForce RTX 3070/8192 MiB/cc8.6/driver 610.62:cuda_toolkit=False:reachable=faster-whisper-cpu=REACHABLE@81.5MB,piper-tts=REACHABLE@58.8MB,onnxruntime-directml=REACHABLE@43.5MB,gpu-cuda-libs=REACHABLE@1302.2MB,torch-pypi-default=REACHABLE@126.2MB"
+}

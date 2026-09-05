@@ -1,0 +1,14 @@
+{
+ "impl": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_state_offsite.py",
+ "exists": true,
+ "has_plan_task_argv": false,
+ "has_install_task": false,
+ "has_TASK_NAME": false,
+ "has_DEFAULT_AT": false,
+ "has_STALE_S": false,
+ "cli_plan_task_rc": 2,
+ "cli_plan_task_unrecognized": true,
+ "cli_plan_task_not_a_verb": true,
+ "cli_plan_task_stderr_tail": "\u001b[1;34musage: \u001b[0m\u001b[1;35mcosmos_state_offsite.py\u001b[0m [\u001b[32m-h\u001b[0m] \u001b[36m--root \u001b[33mROOT\u001b[0m (\u001b[36m--preflight\u001b[0m | \u001b[36m--selfcheck\u001b[0m |\n                               \u001b[36m--once\u001b[0m)\ncosmos_state_offsite.py: error: one of the arguments --preflight --selfcheck --once is required\n",
+ "all_bite": true
+}

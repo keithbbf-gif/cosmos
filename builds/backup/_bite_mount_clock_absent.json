@@ -1,0 +1,7 @@
+{
+  "ts": "2026-08-31T11:08:17Z",
+  "state": "ABSENT",
+  "module": "cosmos_mount_clock",
+  "kind": "ModuleNotFoundError",
+  "detail": "No module named 'cosmos_mount_clock'"
+}

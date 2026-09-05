@@ -1,0 +1,16 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "STAGE_OCCUPIED + restore/rehearse re-hash + SOURCE_NOT_DIR + NOT_A_BACKUP_SET asserted in prose, unpinned",
+ "module": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_backup.py",
+ "stage_occupied_old_kind": "RESTORE_OK",
+ "stage_occupied_old_clobbered": true,
+ "stage_occupied_old_dest_restored": true,
+ "restore_hash_old_kind": "RESTORE_OK",
+ "restore_hash_old_restore_ok": true,
+ "rehearse_hash_old_kind": "REHEARSAL_PASS",
+ "rehearse_hash_old_pass_sealed": true,
+ "source_not_dir_old_kind": "SOURCE_UNREADABLE",
+ "not_a_backup_set_old_crash": "FileNotFoundError",
+ "not_a_backup_set_old_kind": null,
+ "all_bite": true
+}

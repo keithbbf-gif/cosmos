@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-fail-against-old/1",
+ "what": "round4 probe pins FAIL against staged predecessor / stripped readback",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_unpinned_round4_20260831T142253Z",
+ "ran": [
+  "hands_NO_SENTINEL_kind",
+  "scout_NO_ROOT_SENTINEL",
+  "scout_unreadable_NO_ROOT",
+  "tax_UNWRITABLE_readback"
+ ],
+ "failed": [
+  "hands_NO_SENTINEL_kind:None",
+  "scout_NO_ROOT_SENTINEL:NO_ROOT",
+  "scout_unreadable_NO_ROOT:JSONDecodeError",
+  "tax_UNWRITABLE_readback:did_not_raise"
+ ],
+ "all_new_pins_failed": true
+}

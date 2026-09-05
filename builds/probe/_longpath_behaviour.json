@@ -1,0 +1,139 @@
+{
+ "kind": "LONGPATH_BEHAVIOUR",
+ "measured_utc": "2026-08-31T17:48:28Z",
+ "fixture": {
+  "scratch": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_claim_scratch_4azfz2_n",
+  "files": {
+   "shallow": {
+    "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_claim_scratch_4azfz2_n\\shallow.txt",
+    "len": 74,
+    "bytes": 37,
+    "stat_ok_unprefixed": true,
+    "exists_prefixed": true
+   },
+   "class_a": {
+    "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_claim_scratch_4azfz2_n\\aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\\nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.txt",
+    "len": 300,
+    "bytes": 45,
+    "stat_ok_unprefixed": false,
+    "exists_prefixed": true
+   },
+   "class_b": {
+    "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_claim_scratch_4azfz2_n\\bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\\bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\\bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\\bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\\bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\\deep.txt",
+    "len": 276,
+    "bytes": 41,
+    "stat_ok_unprefixed": false,
+    "exists_prefixed": true
+   }
+  },
+  "files_on_disk": 3
+ },
+ "long_paths_enabled_registry": 0,
+ "walkers": [
+  {
+   "module": "cosmos/cosmos_backup.py",
+   "scheduled": true,
+   "entry": "Backup.run",
+   "state": "RETURNED",
+   "files_reported": 3,
+   "ledger_events": [
+    "BACKUP_VERIFIED"
+   ],
+   "covered": {
+    "shallow": true,
+    "class_a": true,
+    "class_b": true
+   },
+   "missed": [],
+   "verdict": "COVERS_LONG_PATHS"
+  },
+  {
+   "module": "builds/backup/cosmos_backup.py",
+   "scheduled": false,
+   "entry": "build_manifest",
+   "walker": "iter_files (os.walk)",
+   "state": "RETURNED",
+   "files_reported": 3,
+   "covered": {
+    "shallow": true,
+    "class_a": true,
+    "class_b": true
+   },
+   "missed": [],
+   "verdict": "COVERS_LONG_PATHS"
+  },
+  {
+   "module": "cosmos/cosmos_backup_clock.py",
+   "scheduled": true,
+   "entry": "_copy_tree_files",
+   "state": "RETURNED",
+   "returned": {
+    "copied": 3,
+    "truncated": false,
+    "unreadable": [],
+    "skipped_large": []
+   },
+   "covered": {
+    "shallow": true,
+    "class_a": true,
+    "class_b": true
+   },
+   "missed": [],
+   "verdict": "COVERS_LONG_PATHS"
+  },
+  {
+   "module": "PROPOSED cosmos/cosmos_backup.py",
+   "scheduled": true,
+   "entry": "Backup.run",
+   "state": "RETURNED",
+   "files_reported": 3,
+   "ledger_events": [
+    "BACKUP_VERIFIED"
+   ],
+   "covered": {
+    "shallow": true,
+    "class_a": true,
+    "class_b": true
+   },
+   "missed": [],
+   "verdict": "COVERS_LONG_PATHS"
+  },
+  {
+   "module": "PROPOSED cosmos/cosmos_backup_clock.py",
+   "scheduled": true,
+   "entry": "_copy_tree_files",
+   "state": "RETURNED",
+   "returned": {
+    "copied": 3,
+    "truncated": false,
+    "unreadable": [],
+    "skipped_large": 0
+   },
+   "covered": {
+    "shallow": true,
+    "class_a": true,
+    "class_b": true
+   },
+   "missed": [],
+   "verdict": "COVERS_LONG_PATHS"
+  }
+ ],
+ "describes": {
+  "cosmos/cosmos_backup.py": {
+   "exists": true,
+   "bytes": 12147,
+   "sha256": "873e4db7d84eb89329ba004c40a571a0eb8c7847eff23617e9fd1c8b539f20dc"
+  },
+  "cosmos/cosmos_backup_clock.py": {
+   "exists": true,
+   "bytes": 14243,
+   "sha256": "0d6a3155a64ab36a5cf981984b8aa217914cdbb3cd5e6044598408b0ba61cf49"
+  },
+  "builds/backup/cosmos_backup.py": {
+   "exists": true,
+   "bytes": 50751,
+   "sha256": "9e9e48c0e4b13a0fa7bb61958418954e27d57b5c91b2eec71745694fb9c32b91"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

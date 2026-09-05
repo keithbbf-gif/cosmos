@@ -1,0 +1,12 @@
+{
+ "staged": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\_disposal\\predispose_cvm_dt_voice_20260831-011514\\cvm_dt_voice.py",
+ "staged_at": "20260831-011514",
+ "reason": "pre-ear predecessor",
+ "live_sha256": "a27c799966a2c5805b407a5b20f1424cb71c632fbe13ebe42d71ade2847798b1",
+ "live_bytes": 44992,
+ "pre_edit_sha256": "1493e74f82bea7ffd5d999dce001bd612145425244ee12adee5a136fbf5293e1",
+ "pre_edit_bytes": 44079,
+ "round_trip_reproduces_live": true,
+ "edits": 8,
+ "note": "builds/ is untracked; rebuilt by reverse-applying the recorded edits, verified by replaying them forward to the live sha256."
+}

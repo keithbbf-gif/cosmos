@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; builds/cdeck/ORCH_HOME_SPEC.md [read*]; builds/cdeck/KDECK_BACKLOG.md [read*]; builds/cdeck/FEATURES_KEITH.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5. Refuse Composer 2.5 / Auto. Independent clone of github.com/keithbbf-gif/cosmos default branch. Do not peek at local uncommitted COSMOS tree or Grok proposals. Do not merge PRs #30 #32 #36 #37 #38. ANTHROPIC_OFF stays for COSMOS claude -p. BUILD: remaining cDeck operator-home features inside builds/cdeck/ only. Named next after P1-P6: (1) P7 GEM search = Keith BBF Chrome Profile 2 + Alt+G, never window.open gemini.google.com/app, browser-served deck typed refusal + copy query; (2) occupancy chrome GFO ORC left / CCr engine room right without granting OpenWork the COSMOS root; (3) do not invent C1 ConPTY. Propose diffs under Output. GitLab CI is the execute-the-gate on the proposal, not a third brain.",
+  "Target & scope": "proposals under Output only; fence builds/cdeck/ ui/ and src-tauri/; never kernel/ledger/sched/service; never V:\\Ai Legal",
+  "Timestamp": "2026-09-05T15:28:00-05:00",
+  "Output": "proposals | RESULT.json"
+}

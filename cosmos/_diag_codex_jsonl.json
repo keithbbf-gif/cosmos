@@ -1,0 +1,48 @@
+{
+ "schema": "cosmos-codex-jsonl-diag/1",
+ "ok": false,
+ "rc": 0,
+ "kind": "BROKE",
+ "detail": "missing real model field",
+ "last_message_head": "PONG",
+ "lifted_model": null,
+ "event_count": 4,
+ "event_types": [
+  "thread.started",
+  "turn.started",
+  "item.completed",
+  "turn.completed"
+ ],
+ "event_keys": [
+  {
+   "type": "thread.started",
+   "keys": [
+    "thread_id",
+    "type"
+   ]
+  },
+  {
+   "type": "turn.started",
+   "keys": [
+    "type"
+   ]
+  },
+  {
+   "type": "item.completed",
+   "keys": [
+    "item",
+    "type"
+   ]
+  },
+  {
+   "type": "turn.completed",
+   "keys": [
+    "type",
+    "usage"
+   ]
+  }
+ ],
+ "model_fields": [],
+ "stdout_bytes": 347,
+ "stderr_head": "Reading additional input from stdin...\n"
+}

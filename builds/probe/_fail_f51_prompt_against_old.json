@@ -1,0 +1,17 @@
+{
+ "schema": "cosmos-fail-against-old/1",
+ "what": "F-51 P1.3 prompt pins FAIL while docs/AUTO_RESESSION_PROMPT.md is absent",
+ "predecessor": "absence (no incumbent to stage; bite _bite_f51_prompt.json all_bite:true)",
+ "all_new_pins_failed": true,
+ "failed": [
+  "tracked BootUP prompt exists at docs/AUTO_RESESSION_PROMPT.md",
+  "sha256_file of the tracked prompt is 64 hex (not null / NO_PROMPT)",
+  "P1.3 prompt names COW, session start, HOLD, P9 and P10"
+ ],
+ "ran": 3,
+ "passed_unrelated": 39,
+ "suite": "builds/probe/test_resession.py",
+ "result": "FAIL 39/42",
+ "bite": "builds/probe/_bite_f51_prompt.json",
+ "prompt_exists_at_fail": false
+}

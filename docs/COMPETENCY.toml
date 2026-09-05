@@ -1,0 +1,1094 @@
+# COMPETENCY.toml — COSMOS node skills matrix (ROUTING input)
+# Source: SGH (Grok research) live web 2026-08-26 + COSMOS rail files
+#   (cosmos/cosmos_playwright_rail.py, cosmos/cosmos_codex_rail.py,
+#    docs/research/CURSOR_CLOUD_AGENTS_API_v1.md, docs/FINAL_ARCHITECTURE.md)
+# Ratings = real hands, not slogans. possessed=false and rating=0 if absent/unverified.
+#
+# STAGE-6 RUNTIME-BINDING (the value a live router reads; an exit code is NOT the gate):
+#   skills.<task_type>.<node>.rating
+# Algorithm: among nodes with skills.<task_type>.<node>.possessed==true AND currently
+# AVAILABLE (registry/prober — not this file), pick max(rating). Ties: prefer
+# nodes.<id>.family=="dom" (canon DOM-first). Remaining ties: router.nodes_order.
+
+schema = "competency/1"
+researched_at = "2026-08-26"
+researched_by = "SGH"
+
+[gate]
+field = "skills.<task_type>.<node>.rating"
+possessed_field = "skills.<task_type>.<node>.possessed"
+tie_break = "nodes.<id>.family == \"dom\""
+not_the_gate = "process exit code"
+
+[router]
+nodes_order = ["DOM", "G46", "Cursor", "SGH", "GEM", "OA"]
+task_types = [
+  "code-build",
+  "code-review-critique",
+  "web-research",
+  "docs-authoring",
+  "DOM-automation",
+  "long-context-reasoning",
+  "bulk-structured-extraction",
+  "vendor-plural-critique",
+]
+rating_scale = "0=absent/unverified 1=weak 2=usable-with-caveats 3=competent 4=strong 5=best-among-listed"
+
+[nodes.G46]
+id = "G46"
+family = "xai"
+product = "Grok Build"
+model = "grok-4.6"
+context_tokens = 500000
+cosmos_lane = "g46 / Grok Build CLI"
+hands = "agentic coding loop (read/edit/shell/headless grok -p); API tools: function calling, web_search, x_search, code_execution. No first-party computer-use."
+
+[nodes.GEM]
+id = "GEM"
+family = "google"
+product = "Gemini API"
+model = "gemini-3.7-flash"
+context_tokens = 1000000
+cosmos_lane = "gem-api / gem_worker"
+hands = "google_search grounding, url_context, code_execution, structured outputs, function calling, Computer Use (client-side loop), Deep Research, 1M context"
+
+[nodes.OA]
+id = "OA"
+family = "openai"
+product = "OpenAI Codex / GPT-5.2-Codex"
+model = "gpt-5.2-codex"
+context_tokens = 400000
+cosmos_lane = "oa-api + cosmos_codex_rail (CODER+VETTER)"
+hands = "Codex CLI (shell/file/web_search/MCP/output-schema); Responses web_search, structured outputs, function calling, computer tool (harness required)"
+
+[nodes.SGH]
+id = "SGH"
+family = "xai"
+product = "Grok research (sgh-api)"
+model = "grok-4.6"
+context_tokens = 500000
+cosmos_lane = "sgh-api"
+hands = "web_search (search+browse+citations), x_search (keyword/semantic/user/thread), structured outputs. Research lane, not Grok Build harness."
+
+[nodes.Cursor]
+id = "Cursor"
+family = "cursor"
+product = "Cursor Cloud Agents + Agent CLI"
+model = "multi-model (Grok/GPT/Gemini/Claude via Cursor)"
+context_tokens = 0
+cosmos_lane = "Cursor COSMOS 2 Cloud Agents API"
+hands = "isolated VM coding loop (edit/test/PR/CI-fix), computer use (mouse/keyboard/browser), MCP (incl. Playwright MCP), semantic codebase index"
+
+[nodes.DOM]
+id = "DOM"
+family = "dom"
+product = "Playwright MCP"
+model = "none (tool rail)"
+context_tokens = 0
+cosmos_lane = "playwright-dom (cosmos_playwright_rail)"
+hands = "browser_navigate/snapshot/click/type/fill_form/tabs/network; Chromium+Firefox+WebKit; accessibility snapshots. Pinned @playwright/mcp@0.0.79. Not an LLM."
+
+# --- code-build ---
+[skills.code-build.G46]
+possessed = true
+rating = 5
+source = "https://docs.x.ai/build/overview + https://x.ai/news/grok-4-6 (Grok Build coding agent; grok-4.6 CursorBench 69.9% / DeepSWE 65.9%; default model of the coding agent)"
+
+[skills.code-build.GEM]
+possessed = true
+rating = 4
+source = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ (3.7 Flash: DeepSWE v1.1 65.3%, FrontierCode 1.1 Main 43.6%, workhorse for coding and agents)"
+
+[skills.code-build.OA]
+possessed = true
+rating = 5
+source = "https://openai.com/index/introducing-gpt-5-2-codex/ (GPT-5.2-Codex SWE-Bench Verified 80.0%, SWE-Bench Pro 55.6%; cosmos/cosmos_codex_rail.py CODER: codex exec workspace-write)"
+
+[skills.code-build.SGH]
+possessed = true
+rating = 2
+source = "https://docs.x.ai/developers/models (same grok-4.6 can emit code via sgh-api; no Grok Build repo/test harness — coding lane is G46)"
+
+[skills.code-build.Cursor]
+possessed = true
+rating = 5
+source = "https://cursor.com/help/ai-features/cloud-agents (build features, tests, PRs) + docs/research/CURSOR_CLOUD_AGENTS_API_v1.md (COSMOS Cloud Agents: POST /v1/agents, proven dispatch)"
+
+[skills.code-build.DOM]
+possessed = false
+rating = 0
+source = "https://playwright.dev/ (browser automation/test runner, not a general code-build agent)"
+
+# --- code-review-critique ---
+[skills.code-review-critique.G46]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/build/overview (Grok Build reads/edits/runs tests in-repo; same xAI family as SGH so not the vendor-plural critic of G46 builds)"
+
+[skills.code-review-critique.GEM]
+possessed = true
+rating = 5
+source = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ (different-family critic; 1M context for diffs; COSMOS MOTIF stage-5 GEM critiques of G46 builds)"
+
+[skills.code-review-critique.OA]
+possessed = true
+rating = 5
+source = "cosmos/cosmos_codex_rail.py VETTER (codex exec --sandbox read-only --output-schema) + https://openai.com/index/introducing-gpt-5-2/ (testers: code reviews and bug finding; Augment Code automated review)"
+
+[skills.code-review-critique.SGH]
+possessed = true
+rating = 3
+source = "https://docs.x.ai/developers/tools/web-search (can ground review in cited docs; no repo test loop)"
+
+[skills.code-review-critique.Cursor]
+possessed = true
+rating = 4
+source = "https://cursor.com/docs/cloud-agent (PR artifacts, CI follow-up, multi-model review); Bugbot is a Cursor Cloud Agents product surface"
+
+[skills.code-review-critique.DOM]
+possessed = false
+rating = 0
+source = "https://playwright.dev/ (can execute UI tests as evidence; no LLM critique)"
+
+# --- web-research ---
+[skills.web-research.G46]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/tools/web-search (grok-4.6 web_search search+browse+citations; Grok Build is coding-first)"
+
+[skills.web-research.GEM]
+possessed = true
+rating = 5
+source = "https://ai.google.dev/gemini-api/docs/google-search (Grounding with Google Search + citations; combinable with url_context / Deep Research)"
+
+[skills.web-research.OA]
+possessed = true
+rating = 4
+source = "https://developers.openai.com/codex/cli/features/ (Codex first-party web_search cached|live) + OpenAI Responses web_search tool"
+
+[skills.web-research.SGH]
+possessed = true
+rating = 5
+source = "https://docs.x.ai/developers/tools/web-search + https://docs.x.ai/developers/tools/x-search (search+browse+citations AND X keyword/semantic/user/thread — unique among listed nodes)"
+
+[skills.web-research.Cursor]
+possessed = true
+rating = 3
+source = "https://cursor.com/docs/cloud-agent/capabilities (VM network + MCP tools; no first-party search index)"
+
+[skills.web-research.DOM]
+possessed = true
+rating = 2
+source = "https://playwright.dev/docs/pages (navigate/extract a given URL; no search index, no synthesis LLM)"
+
+# --- docs-authoring ---
+[skills.docs-authoring.G46]
+possessed = true
+rating = 4
+source = "https://x.ai/news/grok-4-6 (GDPVal-AA v2 1753 knowledge-work; Grok Build writes in-repo markdown/docs)"
+
+[skills.docs-authoring.GEM]
+possessed = true
+rating = 4
+source = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ (GDP.pdf 34.0% complex-document comprehension; 1M context synthesis)"
+
+[skills.docs-authoring.OA]
+possessed = true
+rating = 4
+source = "https://openai.com/index/introducing-gpt-5-2/ (GDPval Thinking 70.9% wins-or-ties; Codex can update docs in the agent loop)"
+
+[skills.docs-authoring.SGH]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/tools/web-search (cited research docs; this COMPETENCY.toml is the SGH docs-authoring artifact)"
+
+[skills.docs-authoring.Cursor]
+possessed = true
+rating = 3
+source = "https://cursor.com/help/ai-features/cloud-agents (writes markdown in repo PRs; not a research-doc specialist)"
+
+[skills.docs-authoring.DOM]
+possessed = false
+rating = 0
+source = "https://playwright.dev/ (no document authoring hands)"
+
+# --- DOM-automation ---
+[skills.DOM-automation.G46]
+possessed = false
+rating = 0
+source = "unverified — grok-4.6 first-party tools are function calling, web_search, x_search, code_execution only (https://docs.x.ai/developers/grok-4-5); no computer-use/browser tool"
+
+[skills.DOM-automation.GEM]
+possessed = true
+rating = 2
+source = "https://ai.google.dev/gemini-api/docs/computer-use (Computer Use tool, browser/mobile/desktop; CLIENT-SIDE execution loop required — COSMOS live DOM rail is playwright-dom, not gem_worker CUA)"
+
+[skills.DOM-automation.OA]
+possessed = true
+rating = 2
+source = "https://developers.openai.com/api/docs/guides/tools-computer-use (computer tool on GPT-5.4+; Codex Computer Use plugin) — harness required; cosmos_codex_rail is CLI, not CUA"
+
+[skills.DOM-automation.SGH]
+possessed = false
+rating = 0
+source = "https://docs.x.ai/developers/tools/overview (SGH hands = web_search/x_search/code_interpreter; page-fetch is not DOM control)"
+
+[skills.DOM-automation.Cursor]
+possessed = true
+rating = 4
+source = "https://cursor.com/docs/cloud-agent/capabilities (isolated VM, mouse/keyboard/browser computer use; Playwright MCP installable per https://playwright.dev/docs/getting-started-mcp)"
+
+[skills.DOM-automation.DOM]
+possessed = true
+rating = 5
+source = "https://playwright.dev/ + cosmos/cosmos_playwright_rail.py (browser_navigate, browser_snapshot, click, type, fill_form, tabs, network; @playwright/mcp@0.0.79; kind=DOM, dst=interact)"
+
+# --- long-context-reasoning ---
+[skills.long-context-reasoning.G46]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/models (grok-4.6 context 500k tokens; context compaction for long agent loops)"
+
+[skills.long-context-reasoning.GEM]
+possessed = true
+rating = 5
+source = "https://ai.google.dev/gemini-api/docs/gemini-3 (Gemini 3 family 1,048,576 input tokens) + 3.7 Flash GDM-MRCR v2 97.0% at 128k"
+
+[skills.long-context-reasoning.OA]
+possessed = true
+rating = 4
+source = "https://openai.com/index/introducing-gpt-5-2/ (GPT-5.2 400k, MRCRv2 128k-256k 77.0%; later GPT-5.4/5.3-Codex advertise 1M — COSMOS OA snapshot not pinned here)"
+
+[skills.long-context-reasoning.SGH]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/models (same grok-4.6 500k window on sgh-api)"
+
+[skills.long-context-reasoning.Cursor]
+possessed = true
+rating = 3
+source = "https://mem0.ai/blog/claude-code-vs-cursor-which-ai-coding-tool-is-better (Cursor: precomputed semantic codebase index; window follows the selected model — not a fixed native 1M)"
+
+[skills.long-context-reasoning.DOM]
+possessed = false
+rating = 0
+source = "https://playwright.dev/ (tool rail; no LLM context window)"
+
+# --- bulk-structured-extraction ---
+[skills.bulk-structured-extraction.G46]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/model-capabilities/text/structured-outputs (json_schema / json_object; tool-call args strictly schema-conformant)"
+
+[skills.bulk-structured-extraction.GEM]
+possessed = true
+rating = 5
+source = "https://ai.google.dev/gemini-api/docs/structured-output (JSON Schema structured outputs combinable with google_search + url_context; 1M context for bulk docs)"
+
+[skills.bulk-structured-extraction.OA]
+possessed = true
+rating = 4
+source = "cosmos/cosmos_codex_rail.py --output-schema (strict JSON Schema) + OpenAI structured outputs; 400k default on gpt-5.2-codex"
+
+[skills.bulk-structured-extraction.SGH]
+possessed = true
+rating = 4
+source = "https://docs.x.ai/developers/model-capabilities/text/structured-outputs (same grok-4.6 json_schema; can extract from searched/browsed pages)"
+
+[skills.bulk-structured-extraction.Cursor]
+possessed = true
+rating = 3
+source = "https://cursor.com/docs/cloud-agent/capabilities (agent can emit structured files; schema-guarantee depends on selected model, not the harness)"
+
+[skills.bulk-structured-extraction.DOM]
+possessed = true
+rating = 4
+source = "https://playwright.dev/docs/locators + cosmos_playwright_rail.py browser_snapshot (deterministic accessibility-tree / DOM extract; not LLM-schema JSON)"
+
+# --- vendor-plural-critique ---
+[skills.vendor-plural-critique.G46]
+possessed = true
+rating = 3
+source = "docs/FINAL_ARCHITECTURE.md (vendor-plural: members can disagree) — xAI voice vs GEM/OA; same family as SGH so cannot supply other-family critique of a G46 build"
+
+[skills.vendor-plural-critique.GEM]
+possessed = true
+rating = 5
+source = "docs/AGENT_BRIEF.md MOTIF GEM stage-5 critiques of G46 + https://ai.google.dev/gemini-api/docs/models (Google family; the live different-family critic COSMOS already dispatches)"
+
+[skills.vendor-plural-critique.OA]
+possessed = true
+rating = 5
+source = "cosmos/cosmos_codex_rail.py header (Vendor-plural OpenAI-family coder/vetter that can DISAGREE with G46/Grok + Cursor)"
+
+[skills.vendor-plural-critique.SGH]
+possessed = true
+rating = 3
+source = "docs/FINAL_ARCHITECTURE.md — xAI research voice vs GEM/OA; same family as G46"
+
+[skills.vendor-plural-critique.Cursor]
+possessed = true
+rating = 4
+source = "https://cursor.com/docs/cloud-agent + docs/research/CURSOR_CLOUD_AGENTS_API_v1.md (GET /v1/models: composer-2, claude-4.6-sonnet-thinking, Grok, GPT, Gemini — harness can pick a non-builder family)"
+
+[skills.vendor-plural-critique.DOM]
+possessed = false
+rating = 0
+source = "https://playwright.dev/ (no LLM; cannot form a vendor critique)"
+
+# --- F-28 unverified HANDS stems (filed 2026-08-31T1454Z) ---
+# possessed=false rating=0. Ratings are NOT invented. These rows
+# map docs/research/*_HANDS.md stems into [nodes.*] so the census
+# is not 15-unmapped. They are NOT live routing nodes (absent from
+# router.nodes_order; pick() skips possessed!=true and rating<=0).
+# A later SGH pass may rate them; this pass will not.
+
+[nodes.Aider]
+id = "Aider"
+family = "aider"
+product = "Aider"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.code-build.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.code-review-critique.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.web-research.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.docs-authoring.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.DOM-automation.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.long-context-reasoning.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.bulk-structured-extraction.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[skills.vendor-plural-critique.Aider]
+possessed = false
+rating = 0
+source = "docs/research/AIDER_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Apache-2.0 terminal pair-programmer (BYO key); candidate backlog"
+
+[nodes.Anthropic]
+id = "Anthropic"
+family = "anthropic"
+product = "Anthropic Claude"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.code-build.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.code-review-critique.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.web-research.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.docs-authoring.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.DOM-automation.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.long-context-reasoning.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.bulk-structured-extraction.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[skills.vendor-plural-critique.Anthropic]
+possessed = false
+rating = 0
+source = "docs/research/ANTHROPIC_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Claude platform hands; live routing node is not this row (CC/claude-cli)"
+
+[nodes.BrowserUse]
+id = "BrowserUse"
+family = "browser-use"
+product = "Browser-Use"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "DOM"
+hands = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.code-build.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.code-review-critique.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.web-research.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.docs-authoring.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.DOM-automation.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.long-context-reasoning.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.bulk-structured-extraction.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[skills.vendor-plural-critique.BrowserUse]
+possessed = false
+rating = 0
+source = "docs/research/BROWSER_USE_HANDS.md — unverified (possessed=false rating=0); not a live routing node. MIT Chromium agent; candidate backlog, not the live DOM rail"
+
+[nodes.Firecrawl]
+id = "Firecrawl"
+family = "firecrawl"
+product = "Firecrawl"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.code-build.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.code-review-critique.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.web-research.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.docs-authoring.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.DOM-automation.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.long-context-reasoning.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.bulk-structured-extraction.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[skills.vendor-plural-critique.Firecrawl]
+possessed = false
+rating = 0
+source = "docs/research/FIRECRAWL_HANDS.md — unverified (possessed=false rating=0); not a live routing node. web-context scrape/crawl/map; live rail is firecrawl-web, not this row"
+
+[nodes.GCloud]
+id = "GCloud"
+family = "google-cloud"
+product = "gcloud CLI"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.code-build.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.code-review-critique.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.web-research.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.docs-authoring.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.DOM-automation.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.long-context-reasoning.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.bulk-structured-extraction.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[skills.vendor-plural-critique.GCloud]
+possessed = false
+rating = 0
+source = "docs/research/GCLOUD_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gcloud groups against the Vertex wallet; live routing node is GEM"
+
+[nodes.GitHub]
+id = "GitHub"
+family = "github"
+product = "GitHub"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.code-build.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.code-review-critique.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.web-research.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.docs-authoring.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.DOM-automation.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.long-context-reasoning.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.bulk-structured-extraction.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[skills.vendor-plural-critique.GitHub]
+possessed = false
+rating = 0
+source = "docs/research/GITHUB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. gh / REST / MCP forge; live rail is github-forge, not a routing node"
+
+[nodes.GitLab]
+id = "GitLab"
+family = "gitlab"
+product = "GitLab"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.code-build.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.code-review-critique.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.web-research.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.docs-authoring.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.DOM-automation.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.long-context-reasoning.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.bulk-structured-extraction.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[skills.vendor-plural-critique.GitLab]
+possessed = false
+rating = 0
+source = "docs/research/GITLAB_HANDS.md — unverified (possessed=false rating=0); not a live routing node. glab / CI forge; live rail is gitlab-forge, not a routing node"
+
+[nodes.GoogleGemini]
+id = "GoogleGemini"
+family = "google"
+product = "Google Gemini"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.code-build.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.code-review-critique.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.web-research.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.docs-authoring.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.DOM-automation.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.long-context-reasoning.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.bulk-structured-extraction.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[skills.vendor-plural-critique.GoogleGemini]
+possessed = false
+rating = 0
+source = "docs/research/GOOGLE_GEMINI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Gemini/Vertex hands file; live routing node is GEM"
+
+[nodes.Groq]
+id = "Groq"
+family = "groq"
+product = "GroqCloud"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.code-build.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.code-review-critique.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.web-research.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.docs-authoring.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.DOM-automation.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.long-context-reasoning.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.bulk-structured-extraction.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[skills.vendor-plural-critique.Groq]
+possessed = false
+rating = 0
+source = "docs/research/GROQ_HANDS.md — unverified (possessed=false rating=0); not a live routing node. LPU inference (not xAI Grok); WAVE C operator install/key"
+
+[nodes.MCPReferenceServers]
+id = "MCPReferenceServers"
+family = "mcp"
+product = "MCP reference servers"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "MCP"
+hands = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.code-build.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.code-review-critique.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.web-research.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.docs-authoring.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.DOM-automation.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.long-context-reasoning.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.bulk-structured-extraction.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[skills.vendor-plural-critique.MCPReferenceServers]
+possessed = false
+rating = 0
+source = "docs/research/MCP_REFERENCE_SERVERS_HANDS.md — unverified (possessed=false rating=0); not a live routing node. educational reference implementations, not production-ready"
+
+[nodes.MicrosoftCopilot]
+id = "MicrosoftCopilot"
+family = "microsoft"
+product = "Microsoft Copilot"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.code-build.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.code-review-critique.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.web-research.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.docs-authoring.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.DOM-automation.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.long-context-reasoning.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.bulk-structured-extraction.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[skills.vendor-plural-critique.MicrosoftCopilot]
+possessed = false
+rating = 0
+source = "docs/research/MICROSOFT_COPILOT_HANDS.md — unverified (possessed=false rating=0); not a live routing node. M365/Graph/Studio hands; no live Copilot rail"
+
+[nodes.Ollama]
+id = "Ollama"
+family = "ollama"
+product = "Ollama"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "CLI"
+hands = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.code-build.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.code-review-critique.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.web-research.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.docs-authoring.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.DOM-automation.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.long-context-reasoning.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.bulk-structured-extraction.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[skills.vendor-plural-critique.Ollama]
+possessed = false
+rating = 0
+source = "docs/research/OLLAMA_HANDS.md — unverified (possessed=false rating=0); not a live routing node. local open-model runtime; WAVE C operator install"
+
+[nodes.OpenAI]
+id = "OpenAI"
+family = "openai"
+product = "OpenAI Platform"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.code-build.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.code-review-critique.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.web-research.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.docs-authoring.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.DOM-automation.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.long-context-reasoning.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.bulk-structured-extraction.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[skills.vendor-plural-critique.OpenAI]
+possessed = false
+rating = 0
+source = "docs/research/OPENAI_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Platform + Codex hands file; live routing node is OA"
+
+[nodes.PlaywrightMCP]
+id = "PlaywrightMCP"
+family = "playwright"
+product = "Playwright MCP"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "MCP"
+hands = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.code-build.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.code-review-critique.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.web-research.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.docs-authoring.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.DOM-automation.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.long-context-reasoning.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.bulk-structured-extraction.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[skills.vendor-plural-critique.PlaywrightMCP]
+possessed = false
+rating = 0
+source = "docs/research/PLAYWRIGHT_MCP_HANDS.md — unverified (possessed=false rating=0); not a live routing node. Microsoft a11y-tree MCP; live routing node is DOM"
+
+[nodes.XaiGrok]
+id = "XaiGrok"
+family = "xai"
+product = "xAI Grok"
+model = "unverified"
+context_tokens = 0
+cosmos_lane = "unverified — not a live routing node"
+reach = "API"
+hands = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.code-build.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.code-review-critique.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.web-research.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.docs-authoring.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.DOM-automation.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.long-context-reasoning.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.bulk-structured-extraction.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"
+
+[skills.vendor-plural-critique.XaiGrok]
+possessed = false
+rating = 0
+source = "docs/research/XAI_GROK_HANDS.md — unverified (possessed=false rating=0); not a live routing node. xAI API + Grok Build + Grok Bot hands; live routing nodes are G46/SGH"

@@ -1,0 +1,20 @@
+{
+ "schema": "cosmos-f69-h6-live/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "scratch_tree_id": "f69-h6",
+ "dispatch_kind": "claude",
+ "dispatch_kind_live": "UNPROVEN",
+ "job_exists": true,
+ "job_has_claude_p": true,
+ "job_rc": 0,
+ "result_rc": 0,
+ "result_kind": "claude",
+ "result_kind_live": "UNPROVEN",
+ "stdout_pong": true,
+ "stdout_tail": "PONG\n",
+ "secs": 21.0,
+ "through_harness": true,
+ "note": "claude -p FINISHED through render_job/_claude_job, not a raw CLI. No key material. Cursor Cloud Agents not launched."
+}

@@ -24,6 +24,7 @@ credentials*.json
 
 # ---- LIVE STATE. Belongs to a running instance, not to the software. ----
 # Shipping these is how a peer install inherits somebody else's history and believes it.
+BUCm.toml
 *_ledger.jsonl
 *_heartbeat*.json
 *_state/
@@ -45,6 +46,9 @@ tmp/
 logs/
 *.log
 out/
+
+# Rebuildable collector projection (source files are truth; rewritten every ~30s)
+docs/COLLECTOR.md
 
 # ---- PYTHON ----
 __pycache__/
@@ -68,3 +72,8 @@ delme__*
 *.PRE_*
 /trylive/
 /live/
+
+# ---- DRAFT MOBILE SEED (Keith 2026-09-05). File stays on disk. GitHub 100MB cap. ----
+# Come back: kdash/ANDROID_VOICE_DRAFT.md. Not a mobile BE/FE.
+kdash/*.apk
+*.apk

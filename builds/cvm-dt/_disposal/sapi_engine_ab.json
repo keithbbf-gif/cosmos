@@ -1,0 +1,152 @@
+{
+ "rows": [
+  {
+   "phrase": "open the status report",
+   "pcm_sha16": "beb26fef9989cf75",
+   "pcm_bytes": 97648,
+   "MS-1033-80-DESK": {
+    "heard": "Open a status report",
+    "recall": 0.75,
+    "ear_ms": 220.3,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "what is the queue depth",
+   "pcm_sha16": "b1e402cb841d5bfd",
+   "pcm_bytes": 87282,
+   "MS-1033-80-DESK": {
+    "heard": "What is the queue depth",
+    "recall": 1.0,
+    "ear_ms": 207.579,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "pause the mesh",
+   "pcm_sha16": "fbeee6eeac9509c9",
+   "pcm_bytes": 76704,
+   "MS-1033-80-DESK": {
+    "heard": "Cause the mesh",
+    "recall": 0.667,
+    "ear_ms": 192.938,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "status",
+   "pcm_sha16": "f749a58850391789",
+   "pcm_bytes": 65898,
+   "MS-1033-80-DESK": {
+    "heard": "Status",
+    "recall": 1.0,
+    "ear_ms": 151.963,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "show me the ledger",
+   "pcm_sha16": "ebcaa649be260311",
+   "pcm_bytes": 78904,
+   "MS-1033-80-DESK": {
+    "heard": "Show me the ledger",
+    "recall": 1.0,
+    "ear_ms": 194.272,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "resume all carried over tasks",
+   "pcm_sha16": "de030a63b2b6da9c",
+   "pcm_bytes": 123216,
+   "MS-1033-80-DESK": {
+    "heard": "Arzu all carried over tasks",
+    "recall": 0.8,
+    "ear_ms": 199.656,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "what is the spend today",
+   "pcm_sha16": "6bdcdfe8b9017b02",
+   "pcm_bytes": 87722,
+   "MS-1033-80-DESK": {
+    "heard": "What a suspended a",
+    "recall": 0.2,
+    "ear_ms": 221.279,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "stop",
+   "pcm_sha16": "ed210000504d44d4",
+   "pcm_bytes": 61270,
+   "MS-1033-80-DESK": {
+    "heard": "Stop",
+    "recall": 1.0,
+    "ear_ms": 175.674,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "read the last three events",
+   "pcm_sha16": "b54b67e980fb6ad5",
+   "pcm_bytes": 104262,
+   "MS-1033-80-DESK": {
+    "heard": "Read the last three events",
+    "recall": 1.0,
+    "ear_ms": 188.93,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  },
+  {
+   "phrase": "how many jobs are running",
+   "pcm_sha16": "3e0b78726e7ab196",
+   "pcm_bytes": 101612,
+   "MS-1033-80-DESK": {
+    "heard": "How many jobs are running",
+    "recall": 1.0,
+    "ear_ms": 189.902,
+    "bound": "MS-1033-80-DESK"
+   },
+   "MS-1033-110-WINMO-DNN": {
+    "error": "OSError: [WinError -2147200966] Windows Error 0x8004503a"
+   }
+  }
+ ],
+ "summary": {
+  "MS-1033-80-DESK": {
+   "n": 10,
+   "mean_recall": 0.842,
+   "exact": 6,
+   "median_ear_ms": 193.6
+  }
+ }
+}

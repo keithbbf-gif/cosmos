@@ -1,0 +1,29 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new probe unpinned-refusal pins FAIL against stripped predecessors",
+ "tests_run": 9,
+ "failed": 9,
+ "failed_names": [
+  "ROOT_MISSING",
+  "SCRATCH_UNSAFE",
+  "BAD_TRANSPORT_empty",
+  "BAD_TRANSPORT_no_transport",
+  "BAD_ARGS",
+  "NO_ROOT",
+  "UNWRITABLE",
+  "NO_SENTINEL",
+  "BAD_SENTINEL"
+ ],
+ "ran_names": [
+  "ROOT_MISSING",
+  "SCRATCH_UNSAFE",
+  "BAD_TRANSPORT_empty",
+  "BAD_TRANSPORT_no_transport",
+  "BAD_ARGS",
+  "NO_ROOT",
+  "UNWRITABLE",
+  "NO_SENTINEL",
+  "BAD_SENTINEL"
+ ],
+ "all_new_pins_failed": true
+}

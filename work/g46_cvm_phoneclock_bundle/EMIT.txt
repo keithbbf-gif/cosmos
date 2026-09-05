@@ -1,0 +1,755 @@
+<<<FILE path=builds/cvm-phone/cvm_phone_clock.py action=create>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cvm-phone PULL CLOCK — thin capture/playback surface (heavy-local is DT).
+
+POST phone turn state at Core (POST /api/v1/cvm/push — §8.3 envelope, never
+a second body) → GET /api/v1/cvm/pull for the desktop-owned turn +
+audio_owner. NEVER claims audio ownership: desktop is the heavy-local
+owner; this clock quotes and honors. Does not write audio.json, pull.json,
+or handoff.json.
+
+Tick/heartbeat/HOLD/RESUME-GATE are composed from cvm_dt_clock.poll_once
+(not copied): last_run_epoch on every tick, HOLD pauses without hitting
+Core, RESUME-GATE idles and does not self-clear, dead Core is UNREACHABLE
+but still heartbeats. --loop is a thin while around poll_once(client=self);
+it does not call cvm_dt_clock.loop (that constructs CvmDtClient and would
+claim desktop). Token is read from the handed-in root's config/ role
+(api_token.txt). No drive literals. No bts_ imports.
+
+    py -3.14 builds\\cvm-phone\\cvm_phone_clock.py --root <RUNTIME> --once
+    py -3.14 builds\\cvm-phone\\cvm_phone_clock.py --root <RUNTIME> --loop
+    py -3.14 builds\\cvm-phone\\test_cvm_phone_clock.py
+
+rc=0 is not the gate. Quote live_value.audio_owner from a real
+GET /api/v1/cvm/pull after this clock POSTs /cvm/push: it must stay the
+desktop-owned token, never a second phone owner. An exit code is not
+evidence.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import time
+from typing import Any, Optional
+
+from pathlib import Path
+
+_HERE = Path(__file__).resolve().parent
+if str(_HERE) not in sys.path:
+    sys.path.insert(0, str(_HERE))
+_DT = _HERE.parent / "cvm-dt"
+if _DT.is_dir() and str(_DT) not in sys.path:
+    sys.path.insert(0, str(_DT))
+_COSMOS_LIB = _HERE.parents[2] / "cosmos"
+if _COSMOS_LIB.is_dir() and str(_COSMOS_LIB) not in sys.path:
+    sys.path.insert(0, str(_COSMOS_LIB))
+
+from cosmos_clock import atomic_json  # noqa: E402
+from cosmos_paths import CosmosPaths  # noqa: E402
+
+from cvm_dt import (  # noqa: E402
+    FAST_READ_S, CoreClient, CvmDtError, RefusalKind,
+    audio_owner_of, core_get, core_post, load_paths, load_token, pull_url,
+)
+from cvm_pull import (  # noqa: E402
+    CONTRACT, PULL_INTERVAL_S, parse_ticket,
+)
+from cvm_snap import snapshot_delta  # noqa: E402
+
+PHONE_ID = "cvm-phone"
+PUSH_PATH = "/api/v1/cvm/push"
+WRITER = "cvm-phone-clock"
+TURN_REL = ("cvm", "phone_turn.json")
+DEFAULT_KINDS = {
+    "device": {"status": "ok", "audio_route": "none",
+               "surface": "capture+playback"},
+}
+
+
+def _clock():
+    """Lazy import: cvm_dt_clock is the HOLD/heartbeat owner (not copied)."""
+    import cvm_dt_clock as clk
+    return clk
+
+
+class CvmPhoneClock:
+    """One cycle: POST /cvm/push → GET /cvm/pull. Never claims audio_owner.
+
+    Heartbeat / HOLD / RESUME-GATE live on cvm_dt_clock.poll_once; tick()
+    is the compose hook (clock is unchanged). Always pass client=self so
+    poll_once does not construct CvmDtClient.
+    """
+
+    def __init__(self, core: CoreClient, paths: CosmosPaths,
+                 client_id: str = PHONE_ID, *,
+                 push_request_id: Optional[str] = None,
+                 kinds: Optional[dict] = None):
+        self.core = core
+        self.paths = paths
+        self.client_id = client_id
+        self.tree_id = paths.sentinel.tree_id
+        self.push_rid = (
+            str(push_request_id).strip()
+            if push_request_id
+            else ("cvm-phone-" + str(client_id))
+        )
+        self.kinds: dict[str, Any] = dict(kinds) if kinds else {}
+        self.cursor = ""
+        self.last_ticket: dict[str, Any] = {}
+        self._load()
+
+    def _load(self) -> None:
+        path = self.paths.state(*TURN_REL)
+        if not path.is_file():
+            return
+        try:
+            obj = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return
+        if not isinstance(obj, dict):
+            return
+        tid = str(obj.get("tree_id") or "")
+        if tid and tid != self.tree_id:
+            raise CvmDtError(
+                RefusalKind.IDENTITY_MISMATCH,
+                "phone_turn.json tree_id=%r != sentinel %r" % (tid, self.tree_id))
+        self.cursor = str(obj.get("cursor") or "")
+
+    def _kinds(self) -> dict:
+        return dict(self.kinds) if self.kinds else dict(DEFAULT_KINDS)
+
+    def _turn_body(self) -> dict:
+        """§8.3 envelope (snapshot_delta). No audio_owner key — not a claim."""
+        body = snapshot_delta(
+            self.push_rid, self.cursor, self._kinds(),
+            client_id=self.client_id)
+        body.pop("audio_owner", None)
+        return body
+
+    def _publish(self, rec: dict) -> Path:
+        """Local honor projection. Never audio.json / pull.json / handoff.json."""
+        path = self.paths.state(*TURN_REL)
+        out: dict[str, Any] = {
+            "cvm": 1,
+            "tree_id": self.tree_id,
+            "writer": WRITER,
+            "client_id": self.client_id,
+            "cursor": rec.get("cursor") or self.cursor,
+            "cursor_in": rec.get("cursor_prev") or "",
+            "request_id": self.push_rid,
+            "quoted_audio_owner": rec.get("quoted_audio_owner"),
+            "quoted_from": "GET /api/v1/cvm/pull",
+            "pushed_to": "POST /api/v1/cvm/push",
+            "claimed": False,
+            "kinds": self._kinds(),
+        }
+        atomic_json(path, out)
+        return path
+
+    def cycle_once(self) -> dict:
+        """POST /cvm/push then GET /cvm/pull. Quote owner; do not claim it."""
+        body = self._turn_body()
+        push_rec = core_post(
+            self.core, PUSH_PATH, body, FAST_READ_S,
+            default_400=RefusalKind.BAD_SNAPSHOT)
+        data = core_get(self.core, pull_url(self.client_id), FAST_READ_S)
+        quoted_owner = str(data.get("audio_owner") or "none") or "none"
+        quoted_cursor = str(data.get("cursor") or "")
+        ticket = parse_ticket(data, self.tree_id)
+        owner = audio_owner_of(ticket)
+        if owner not in ("phone", "desktop", "none"):
+            owner = quoted_owner if quoted_owner in ("phone", "desktop", "none") else "none"
+
+        prev = self.cursor
+        cursor = str(
+            push_rec.get("cursor_out")
+            or ticket.get("cursor")
+            or quoted_cursor
+            or prev
+            or "")
+        self.cursor = cursor
+        self.last_ticket = ticket
+
+        live_value = {
+            "audio_owner": owner,
+            "cursor": cursor,
+            "quoted_audio_owner": quoted_owner,
+            "quoted_cursor": quoted_cursor,
+            "claimed": False,
+            "quoted_from": "GET /api/v1/cvm/pull",
+            "pushed_to": "POST /api/v1/cvm/push",
+        }
+        rec: dict[str, Any] = {
+            "ok": True,
+            "cvm": 1,
+            "tree_id": self.tree_id,
+            "writer": WRITER,
+            "audio_owner": owner,
+            "claimed": False,
+            "cursor": cursor,
+            "cursor_prev": prev,
+            "cursor_advanced": bool(cursor) and cursor != prev,
+            "push_replayed": bool(push_rec.get("idempotent")),
+            "quoted_from": "GET /api/v1/cvm/pull",
+            "quoted_audio_owner": quoted_owner,
+            "quoted_cursor": quoted_cursor,
+            "pushed_to": "POST /api/v1/cvm/push",
+            "live_value": live_value,
+            "timeout_s": FAST_READ_S,
+            "client_id": self.client_id,
+            "contract": list(CONTRACT),
+            "push": {
+                "request_id": self.push_rid,
+                "cursor_out": push_rec.get("cursor_out"),
+                "idempotent": bool(push_rec.get("idempotent")),
+                "path": PUSH_PATH,
+            },
+            "pull": {
+                "cursor": quoted_cursor,
+                "audio_owner": quoted_owner,
+                "quoted_audio_owner": quoted_owner,
+                "quoted_cursor": quoted_cursor,
+            },
+        }
+        rec["published"] = str(self._publish(rec))
+        return rec
+
+    def tick(self, *, polls: int = 0,
+             interval_s: float = PULL_INTERVAL_S,
+             drain: Optional[bool] = None) -> dict:
+        """One native clock tick. HOLD / heartbeat / dead-Core from DT clock."""
+        return _clock().poll_once(
+            str(self.paths.root),
+            polls=polls,
+            interval_s=interval_s,
+            base=self.core.base,
+            client_id=self.client_id,
+            client=self,
+            drain=drain,
+        )
+
+
+def loop(root: str, interval_s: float = PULL_INTERVAL_S, *,
+         base: str = "http://127.0.0.1:8770", client_id: str = PHONE_ID,
+         push_request_id: Optional[str] = None) -> int:
+    """Thin --loop. Compose poll_once(client=self); do not call clock.loop."""
+    paths = load_paths(root)
+    client = CvmPhoneClock(
+        CoreClient(base, load_token(paths)), paths, client_id,
+        push_request_id=push_request_id)
+    polls = 0
+    while True:
+        polls += 1
+        client.tick(polls=polls, interval_s=interval_s)
+        time.sleep(float(interval_s))
+
+
+def main(argv: Optional[list[str]] = None) -> int:
+    ap = argparse.ArgumentParser(prog="cvm-phone-clock")
+    ap.add_argument("--root", required=True,
+                    help="COSMOS runtime root (handed in; sentinel verified)")
+    ap.add_argument("--base", default="http://127.0.0.1:8770")
+    ap.add_argument("--client-id", default=PHONE_ID)
+    ap.add_argument("--once", action="store_true")
+    ap.add_argument("--loop", action="store_true")
+    ap.add_argument("--interval", type=float, default=PULL_INTERVAL_S)
+    ap.add_argument("--push-request-id", default="",
+                    help="stable push id (default: cvm-phone-<client_id>)")
+    ns = ap.parse_args(argv)
+    if not ns.once and not ns.loop:
+        ap.error("one of --once / --loop is required")
+    rid = ns.push_request_id or None
+    if ns.once:
+        paths = load_paths(ns.root)
+        token = load_token(paths)
+        client = CvmPhoneClock(
+            CoreClient(ns.base, token), paths, ns.client_id,
+            push_request_id=rid)
+        rec = client.cycle_once()
+        print(json.dumps(rec, indent=1, default=str))
+        return 0
+    return loop(ns.root, ns.interval, base=ns.base, client_id=ns.client_id,
+                push_request_id=rid)
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except CvmDtError as e:
+        print(json.dumps({"ok": False, "kind": str(e.kind), "detail": str(e)},
+                         indent=1), file=sys.stderr)
+        raise SystemExit(2)
+<<<FILE_END>>>
+<<<FILE path=builds/cvm-phone/test_cvm_phone_clock.py action=create>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Loopback tests: thin-phone push → pull never becomes a second audio owner.
+
+Proves:
+  * one cycle POSTs /cvm/push then GETs /cvm/pull; audio_owner stays desktop
+  * a replayed push is ignored (not a second owner)
+  * HOLD pause does not hit Core (tick composed from cvm_dt_clock.poll_once)
+  * RESUME-GATE idles and does not self-clear; dead Core is UNREACHABLE
+    yet the clock still heartbeats
+
+No live :8770. rc=0 here is a green log. Stage-6 quotes
+live_value.audio_owner from a real GET /api/v1/cvm/pull after this clock
+POSTs /cvm/push against a restarted :8770 — it must remain the
+desktop-owned token. An exit code is not evidence.
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+import tempfile
+import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+if (HERE / "cvm_phone_clock.py").is_file() or (HERE / "cvm_dt.py").is_file():
+    PHONE_DIR = HERE
+    DT_DIR = HERE.parent / "cvm-dt" if not (HERE / "cvm_dt.py").is_file() else HERE
+    COSMOS_DIR = HERE.parents[1] / "cosmos"
+    sys.path.insert(0, str(PHONE_DIR))
+    if DT_DIR.is_dir():
+        sys.path.insert(0, str(DT_DIR))
+    if COSMOS_DIR.is_dir():
+        sys.path.insert(0, str(COSMOS_DIR))
+    CLOCK_SRC = PHONE_DIR / "cvm_phone_clock.py"
+else:
+    BUNDLE = HERE.parent
+    REPO = BUNDLE.parent.parent
+    LIVE_DT = REPO / "builds" / "cvm-dt"
+    COSMOS_DIR = REPO / "cosmos"
+    BUNDLE_PHONE = BUNDLE / "builds" / "cvm-phone"
+    if LIVE_DT.is_dir():
+        sys.path.insert(0, str(LIVE_DT))
+    if COSMOS_DIR.is_dir():
+        sys.path.insert(0, str(COSMOS_DIR))
+    if BUNDLE_PHONE.is_dir():
+        sys.path.insert(0, str(BUNDLE_PHONE))
+    CLOCK_SRC = BUNDLE_PHONE / "cvm_phone_clock.py"
+
+from cosmos_paths import CosmosPaths, write_sentinel  # noqa: E402
+
+from cvm_dt import (  # noqa: E402
+    CoreClient, CvmDtError, FAST_READ_S, RefusalKind,
+    audio_owner_of, core_get, core_post, refuse_http,
+)
+from cvm_pull import CONTRACT  # noqa: E402
+
+import cvm_dt_clock as clk  # noqa: E402
+from cvm_phone_clock import (  # noqa: E402
+    PHONE_ID, PUSH_PATH, WRITER, CvmPhoneClock,
+)
+
+TREE_ID = "KMesh-COSMOS-live"
+RESULTS = []
+BTS_IMPORT = re.compile(r"^\s*(?:from|import)\s+bts_\w+", re.M)
+CLAIM_DESKTOP = re.compile(r"\bclaim_desktop\b")
+HANDOFF_IMPORT = re.compile(r"^\s*(?:from|import)\s+cvm_handoff\b", re.M)
+ASSIGN_PHONE_OWNER = re.compile(
+    r"""audio_owner["']\s*\]\s*=\s*["']phone["']"""
+    r"""|audio_owner\s*=\s*["']phone["']""")
+
+
+def check(label, fn):
+    try:
+        RESULTS.append((label, bool(fn()), ""))
+    except Exception as e:                                            # noqa: BLE001
+        RESULTS.append((label, False, "%s: %s" % (type(e).__name__, e)))
+
+
+class _FakeCore(BaseHTTPRequestHandler):
+    """HTTP double: POST /cvm/push + GET /cvm/pull. Owner stays desktop."""
+
+    token = "test-token"
+    tree_id = TREE_ID
+    pulls = 0
+    pushes = 0
+    last_push = None
+    last_rid = ""
+    push_audio_keys = []
+    owners_quoted = []
+    audio_owner = "desktop"
+    cursor = "desk-1"
+
+    def log_message(self, *args):                                     # noqa: ARG002
+        return
+
+    @classmethod
+    def reset(cls):
+        cls.pulls = 0
+        cls.pushes = 0
+        cls.last_push = None
+        cls.last_rid = ""
+        cls.push_audio_keys = []
+        cls.owners_quoted = []
+        cls.audio_owner = "desktop"
+        cls.cursor = "desk-1"
+
+    def _send(self, code, obj):
+        body = json.dumps(obj).encode("utf-8")
+        self.send_response(code)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self):                                                 # noqa: N802
+        if self.headers.get("Authorization") != "Bearer " + self.token:
+            return self._send(401, {"error": "UNAUTHORIZED"})
+        if not self.path.startswith("/api/v1/cvm/pull"):
+            return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+        type(self).pulls += 1
+        owner = type(self).audio_owner
+        type(self).owners_quoted.append(owner)
+        return self._send(200, {
+            "cvm": 1,
+            "tree_id": self.tree_id,
+            "issued_epoch": 1787800000.0,
+            "pull": True,
+            "kinds": ["voice_session", "device", "notifications"],
+            "cursor": type(self).cursor,
+            "audio_owner": owner,
+            "voice_client_timeout_s": 70.0,
+            "core_kind": "ok",
+            "client_id": PHONE_ID,
+        })
+
+    def do_POST(self):                                                # noqa: N802
+        if self.headers.get("Authorization") != "Bearer " + self.token:
+            return self._send(401, {"error": "UNAUTHORIZED"})
+        parsed = self.path.split("?", 1)[0]
+        if parsed != PUSH_PATH:
+            return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+        n = int(self.headers.get("Content-Length") or 0)
+        raw = self.rfile.read(n) if n else b"{}"
+        try:
+            body = json.loads(raw.decode("utf-8") or "{}")
+        except ValueError:
+            return self._send(400, {"error": "BAD_SNAPSHOT"})
+        if not isinstance(body, dict):
+            return self._send(400, {"error": "BAD_SNAPSHOT"})
+        rid = str(body.get("request_id") or "")
+        replayed = bool(type(self).last_rid) and rid == type(self).last_rid
+        type(self).pushes += 1
+        type(self).last_push = body
+        type(self).last_rid = rid
+        type(self).push_audio_keys.append(
+            "audio_owner" if "audio_owner" in body else None)
+        cursor_out = "phone-turn-" + (rid or "x")[:12]
+        if not replayed:
+            type(self).cursor = cursor_out
+        return self._send(200, {
+            "ok": True,
+            "cvm": 1,
+            "cursor_out": type(self).cursor,
+            "idempotent": replayed,
+            "stored": list((body.get("kinds") or {}).keys()),
+            "audio_owner": type(self).audio_owner,
+            "claimed": False,
+        })
+
+
+class _FakeNot200(BaseHTTPRequestHandler):
+    """HTTP double that answers !=200 on GET /cvm/pull and POST /cvm/push."""
+
+    token = "test-token"
+
+    def log_message(self, *args):                                     # noqa: ARG002
+        return
+
+    def do_GET(self):                                                 # noqa: N802
+        body = json.dumps({"error": "BAD_CORE", "detail": "HTTP_503"}).encode("utf-8")
+        self.send_response(503)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_POST(self):                                                # noqa: N802
+        return self.do_GET()
+
+
+class _BoomCore(BaseHTTPRequestHandler):
+    """Must not be hit on a HOLD tick."""
+
+    def log_message(self, *args):                                     # noqa: ARG002
+        return
+
+    def do_GET(self):                                                 # noqa: N802
+        raise AssertionError("paused tick must not GET Core")
+
+    def do_POST(self):                                                # noqa: N802
+        raise AssertionError("paused tick must not POST Core")
+
+
+def _serve(handler):
+    httpd = HTTPServer(("127.0.0.1", 0), handler)
+    t = threading.Thread(target=httpd.serve_forever, daemon=True)
+    t.start()
+    return httpd
+
+
+def _scratch():
+    tmp = Path(tempfile.mkdtemp(prefix="cvm-phone-clock-test-"))
+    write_sentinel(tmp, TREE_ID)
+    (tmp / "config").mkdir()
+    (tmp / "state").mkdir()
+    (tmp / "logs").mkdir()
+    (tmp / "config" / "api_token.txt").write_text("test-token", encoding="utf-8")
+    return tmp
+
+
+def _src() -> str:
+    return CLOCK_SRC.read_text(encoding="utf-8")
+
+
+def _kinds():
+    return {"device": {"status": "ok", "battery_pct": 80,
+                       "net": "tailscale", "audio_route": "none"}}
+
+
+def test_thin_phone_never_second_audio_owner():
+    """Runtime-binding test: push + pull, owner stays desktop, no claim."""
+    _FakeCore.reset()
+    tmp = _scratch()
+    httpd = _serve(_FakeCore)
+    bad = _serve(_FakeNot200)
+    base = "http://127.0.0.1:%d" % httpd.server_address[1]
+    bad_base = "http://127.0.0.1:%d" % bad.server_address[1]
+    try:
+        paths = CosmosPaths(tmp)
+        client = CvmPhoneClock(
+            CoreClient(base, "test-token"), paths,
+            push_request_id="r-phone", kinds=_kinds())
+        rec1 = client.cycle_once()
+        rec2 = client.cycle_once()
+
+        turn_p = paths.state("cvm", "phone_turn.json")
+        turn = json.loads(turn_p.read_text(encoding="utf-8"))
+        pull_p = paths.state("cvm", "pull.json")
+        handoff_p = paths.state("cvm", "handoff.json")
+        audio_json = tmp / "state" / "cvm" / "audio.json"
+
+        owners = {
+            rec1["audio_owner"], rec2["audio_owner"],
+            rec1["live_value"]["audio_owner"],
+            rec2["quoted_audio_owner"],
+            turn["quoted_audio_owner"],
+            audio_owner_of(_FakeCore.last_push or {}),
+        }
+        owners.discard("none")
+
+        dead_kind = None
+        try:
+            CvmPhoneClock(
+                CoreClient("http://127.0.0.1:1", "test-token"),
+                paths, push_request_id="r-dead").cycle_once()
+        except CvmDtError as e:
+            dead_kind = e.kind
+
+        bad_kind = None
+        try:
+            CvmPhoneClock(
+                CoreClient(bad_base, "test-token"),
+                paths, push_request_id="r-bad").cycle_once()
+        except CvmDtError as e:
+            bad_kind = e.kind
+
+        src = _src()
+        push_body = _FakeCore.last_push or {}
+        return (
+            FAST_READ_S == 8.0
+            and CONTRACT == (
+                "tree_id", "issued_epoch", "kinds", "cursor",
+                "audio_owner", "voice_client_timeout_s",
+            )
+            and rec1["audio_owner"] == "desktop"
+            and rec1["claimed"] is False
+            and rec1["writer"] == WRITER
+            and rec1["client_id"] == PHONE_ID
+            and rec1["pushed_to"] == "POST /api/v1/cvm/push"
+            and rec1["quoted_from"] == "GET /api/v1/cvm/pull"
+            and rec1["quoted_audio_owner"] == "desktop"
+            and rec1["live_value"]["audio_owner"] == "desktop"
+            and rec1["live_value"]["claimed"] is False
+            and rec1["cursor_advanced"] is True
+            and rec1["cursor"]
+            and rec1["cursor"] != rec1["cursor_prev"]
+            and rec1["push_replayed"] is False
+            and rec2["audio_owner"] == "desktop"
+            and rec2["claimed"] is False
+            and rec2["push_replayed"] is True
+            and rec2["cursor"] == rec1["cursor"]
+            and owners == {"desktop"}
+            and set(_FakeCore.owners_quoted) == {"desktop"}
+            and _FakeCore.audio_owner == "desktop"
+            and _FakeCore.pushes == 2
+            and _FakeCore.pulls == 2
+            and "audio_owner" not in push_body
+            and push_body.get("cvm") == 1
+            and push_body.get("client_id") == PHONE_ID
+            and push_body.get("request_id") == "r-phone"
+            and all(k is None for k in _FakeCore.push_audio_keys)
+            and turn["claimed"] is False
+            and turn["writer"] == WRITER
+            and "audio_owner" not in turn
+            and turn["quoted_audio_owner"] == "desktop"
+            and not pull_p.exists()
+            and not handoff_p.exists()
+            and not audio_json.exists()
+            and dead_kind == RefusalKind.UNREACHABLE
+            and bad_kind == RefusalKind.BAD_CORE
+            and callable(core_get) and callable(core_post) and callable(refuse_http)
+            and PHONE_ID == "cvm-phone"
+            and PUSH_PATH == "/api/v1/cvm/push"
+            and BTS_IMPORT.search(src) is None
+            and CLAIM_DESKTOP.search(src) is None
+            and HANDOFF_IMPORT.search(src) is None
+            and ASSIGN_PHONE_OWNER.search(src) is None
+            and "def pause_flag" not in src
+            and "def write_heartbeat" not in src
+            and "def is_paused" not in src
+            and "CvmDtClient(" not in src
+            and ".loop(" not in src
+            and "V:\\" not in src
+            and "poll_once" in src
+            and client.tick.__func__ is CvmPhoneClock.tick
+        )
+    finally:
+        httpd.shutdown()
+        bad.shutdown()
+
+
+def test_replayed_push_not_second_owner():
+    _FakeCore.reset()
+    tmp = _scratch()
+    httpd = _serve(_FakeCore)
+    base = "http://127.0.0.1:%d" % httpd.server_address[1]
+    try:
+        paths = CosmosPaths(tmp)
+        client = CvmPhoneClock(
+            CoreClient(base, "test-token"), paths,
+            push_request_id="r-phone", kinds=_kinds())
+        rec1 = client.cycle_once()
+        rec2 = client.cycle_once()
+        owners = {rec1["audio_owner"], rec2["audio_owner"],
+                  rec1["live_value"]["audio_owner"],
+                  rec2["live_value"]["audio_owner"]}
+        return (
+            rec1["push_replayed"] is False
+            and rec2["push_replayed"] is True
+            and rec1["claimed"] is False
+            and rec2["claimed"] is False
+            and rec2["cursor"] == rec1["cursor"]
+            and owners == {"desktop"}
+            and _FakeCore.audio_owner == "desktop"
+            and all(k is None for k in _FakeCore.push_audio_keys)
+        )
+    finally:
+        httpd.shutdown()
+
+
+def test_hold_pause_does_not_hit_core():
+    tmp = _scratch()
+    httpd = _serve(_BoomCore)
+    base = "http://127.0.0.1:%d" % httpd.server_address[1]
+    try:
+        paths = CosmosPaths(tmp)
+        flag = paths.state("control", "PAUSE.flag")
+        flag.parent.mkdir(parents=True, exist_ok=True)
+        flag.write_text(json.dumps({
+            "state": "PAUSED", "mode": "hold",
+            "reason": "test-hold", "set_by": "test",
+        }), encoding="utf-8")
+        client = CvmPhoneClock(
+            CoreClient(base, "test-token"), paths,
+            push_request_id="r-hold")
+        rec = client.tick(polls=1)
+        hb = json.loads(paths.logs(clk.HEARTBEAT_NAME).read_text(
+            encoding="utf-8"))
+        pull = paths.state("cvm", "pull.json")
+        turn = paths.state("cvm", "phone_turn.json")
+        paused = clk.pause_flag(paths)
+        return (
+            rec["ok"] is True
+            and rec["tick"] == "paused"
+            and rec["state"] == "PAUSED"
+            and rec["pause_present"] is True
+            and rec["pause_mode"] == "hold"
+            and hb["state"] == "PAUSED"
+            and hb["last_run_epoch"] == rec["last_run_epoch"]
+            and not pull.exists()
+            and not turn.exists()
+            and clk.is_paused(paused) is True
+            and flag.exists()
+        )
+    finally:
+        httpd.shutdown()
+
+
+def test_resume_gate_idles_dead_core_heartbeats():
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    flag = paths.state("control", "PAUSE.flag")
+    flag.parent.mkdir(parents=True, exist_ok=True)
+    flag.write_text(json.dumps({
+        "state": "PAUSED", "mode": "resume_gate",
+        "auto_resume_at": "2099-01-01T00:00:00-05:00",
+        "reason": "test-gate",
+    }), encoding="utf-8")
+    client = CvmPhoneClock(
+        CoreClient("http://127.0.0.1:1", "test-token"),
+        paths, push_request_id="r-gate")
+    paused = clk.pause_flag(paths)
+    rec = client.tick(polls=1)
+    still = flag.exists()
+
+    flag.unlink()
+    rec_dead = client.tick(polls=2, drain=True)
+    hb = json.loads(Path(rec_dead["heartbeat_path"]).read_text(encoding="utf-8"))
+    return (
+        clk.is_paused(paused) is True
+        and paused.get("mode") == "resume_gate"
+        and rec["tick"] == "paused"
+        and rec["pause_mode"] == "resume_gate"
+        and rec["auto_resume_at"]
+        and still
+        and rec_dead["ok"] is False
+        and rec_dead["kind"] == str(RefusalKind.UNREACHABLE)
+        and rec_dead["tick"] == "error"
+        and hb["last_run_epoch"] == rec_dead["last_run_epoch"]
+        and hb["clock_id"] == clk.CLOCK_ID
+        and rec_dead["last_run_epoch"]
+    )
+
+
+def main() -> int:
+    check("thin phone never becomes a second audio owner "
+          "(push→pull quotes desktop, no claim, no pull/audio/handoff write)",
+          test_thin_phone_never_second_audio_owner)
+    check("replayed push is ignored (not a second owner)",
+          test_replayed_push_not_second_owner)
+    check("HOLD pause does not hit Core",
+          test_hold_pause_does_not_hit_core)
+    check("RESUME-GATE idles and does not self-clear; dead Core is "
+          "UNREACHABLE yet the clock still heartbeats",
+          test_resume_gate_idles_dead_core_heartbeats)
+    ok = all(p for _, p, _ in RESULTS)
+    for label, passed, err in RESULTS:
+        print(("PASS" if passed else "FAIL") + "  " + label
+              + (("  " + err) if err else ""))
+    print("result: " + ("ok" if ok else "FAIL")
+          + "  %d/%d" % (sum(1 for _, p, _ in RESULTS if p), len(RESULTS)))
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+<<<FILE_END>>>

@@ -4,12 +4,10 @@
 the foundation: resolver -> ledger -> arbiter -> mail -> scheduler, composed at boot,
 READY only after every verification passes.
 
-WHAT THIS IS: the ratified architecture's Core, minimum coherent form - explicit
-composition root, one authority ledger, fenced protected commits, per-worker identity,
-typed refusals, and a status()/audit() that answers from MEASUREMENTS with dates.
-WHAT THIS IS NOT (stated so nobody reads more into it): no HTTPS API yet, no DOM worker,
-no spend gate wiring, no Windows-service wrapper - those are the next 6b increments and
-the seams are the method signatures here.
+WHAT THIS IS: the ratified architecture's Core - explicit composition root, one
+authority ledger, fenced protected commits, per-worker identity, typed refusals,
+status()/audit() from MEASUREMENTS with dates, and fail-open rail compose on a
+writing boot. A dead incumbent is logged and skipped; READY is not aborted.
 
 BOOT SEQUENCE (fail-fast, in order, each step ledgered once the ledger exists):
   1. resolver: CosmosPaths(root) - sentinel CONTENT verified or REFUSE
@@ -17,6 +15,10 @@ BOOT SEQUENCE (fail-fast, in order, each step ledgered once the ledger exists):
   3. authority ledger opened - full chain verify or REFUSE
   4. BOOT_VERIFIED event appended (a boot that leaves no record did not happen)
   5. arbiter + mail + scheduler composed ON the verified foundation
+  6. writing boot: compose_rails() fail-OPEN per rail; prove wired node
+     rails through the registry authority (rc==0 + body + model); persist
+     the proven projection (read-only status/audit skip; a dead incumbent
+     is a visible refusal and never aborts READY)
 """
 from __future__ import annotations
 
@@ -25,7 +27,8 @@ import os
 import time
 from pathlib import Path
 
-from cosmos_paths import CosmosPaths, CosmosPathError          # noqa: F401
+from cosmos_paths import (CosmosPaths, CosmosPathError,          # noqa: F401
+                          write_sentinel, ROLES, SENTINEL_NAME)
 from cosmos_ledger import Ledger, LedgerError                  # noqa: F401
 from cosmos_lock import Arbiter, LockError, StagedArtifact     # noqa: F401
 from cosmos_mail import Mailbox, MailError                     # noqa: F401
@@ -35,7 +38,8 @@ from cosmos_validate import ReturnValidator, ValidateError     # noqa: F401
 
 class Kernel:
     def __init__(self, root: str | os.PathLike, worker: str = "core",
-                 clock=time.time, read_only: bool = False):
+                 clock=time.time, read_only: bool = False, *,
+                 live_calls=None):
         """CRITIC B1 FIX (half 2): 'a read is a write' - every Kernel() appended
         BOOT_VERIFIED, so `cosmos status` while `serve` ran made a second writer.
         read_only=True boots WITHOUT appending and REFUSES protected writes; the CLI's
@@ -70,7 +74,8 @@ class Kernel:
             self.ledger.append("BOOT_VERIFIED",
                                {"root": str(self.paths.root),
                                 "tree_id": self.paths.sentinel.tree_id,
-                                "worker": worker})
+                                "worker": worker,
+                                "node": worker})
 
         # 5 - subsystems COMPOSED on the verified foundation (critic: "composition in a
         # test is not composition in Core" - registry/spend/validator/context now live
@@ -95,7 +100,14 @@ class Kernel:
                 if lease and self.arbiter._clock() >= lease.expires_at:
                     del self.arbiter._leases[resource]
             self.arbiter._expire_if_due = _ro_expire
-        self.mail = Mailbox(self.paths.role("state", "mail"), worker)
+        # F-55: mail is composed ON the arbiter + install key. send() is then a
+        # fenced commit on mail:{to} and every note carries a writer HMAC.
+        # A read-only kernel still projects mail but must not take leases.
+        self.mail = Mailbox(
+            self.paths.role("state", "mail"), worker,
+            arbiter=None if read_only else self.arbiter,
+            key=key,
+        )
         # register() mkdirs the inbox - a reader does not create endpoints
         if not read_only:
             self.mail.register()
@@ -104,6 +116,7 @@ class Kernel:
         from cosmos_spend import SpendGate
         from cosmos_session import SessionManager
         from cosmos_makers import MakerMap
+        from cosmos_surfaces import Surfaces, seed_host_surfaces
         self.registry = Registry(self.ledger, clock=clock)
         self.spend = SpendGate(self.ledger, clock=clock)
         self.validator = ReturnValidator(self.ledger)
@@ -112,6 +125,11 @@ class Kernel:
         # catalog from the ledger and never reseeds); a writing kernel seeds the
         # TOML catalog through add(), which is idempotent per id.
         self.makers = MakerMap(self.ledger, clock=clock, seed=not read_only)
+        # Storage surfaces: same pattern. Writing boot seeds cosmos-live
+        # (runtime root) so GET /api/v1/surfaces is a measured catalog, not 404.
+        self.surfaces = Surfaces(self.ledger, clock=clock)
+        if not read_only:
+            seed_host_surfaces(self.surfaces, self.paths.root)
         # Durable conversational sessions + the ITC/corpus resource broker.
         # Construction is a read (a projection over the ledger) - safe in a
         # read-only kernel; neither writes on construct. ITC's fetcher is the
@@ -127,7 +145,130 @@ class Kernel:
 
         self.convo = ConvoStore(self.ledger, clock=clock)
         self.itc = ITC(self.ledger, fetcher=_https_get, clock=clock)
+        # Writing boot compose_rails() fail-open; read-only stays clean-slate.
+        self.adapters: dict = {}
+        self.dispatcher = None
+        self.tools = None
+        self.tools_compose = None
+        self.rails_compose = (None if read_only
+                              else self.compose_rails(live_calls=live_calls))
         self.ready = True
+
+    def compose_rails(self, live_calls=None) -> dict:
+        """Fail-OPEN attach of node + coding + mesh rails. Writing Kernel.__init__
+        calls this (normal boot); read-only skips; serve does not re-call.
+
+        Adapters are composed first (Dispatcher needs them). Wired model rails
+        are then PROVEN through cosmos_rails_prober.map_wired_nodes +
+        Registry.prove (rc==0 + non-empty body + a real model id) and the
+        live/registry projection is written by Registry.file_runtime — not a
+        second dump. A node that does not answer is NOT registered; boot
+        continues (visible refusal, keep-her-afloat). live_calls injects
+        test doubles; omitted production path never spends unless hands
+        are configured and the proof is stale (prober TTL).
+        """
+        if self.read_only:
+            return {"composed": [], "skipped": "read_only"}
+        import importlib, logging, sys
+        log = logging.getLogger("cosmos.kernel")
+        report: dict = {"composed": [], "warnings": {}, "proofs": [],
+                        "registered": []}
+        # tools/ lives at repo root, not under cosmos/. Append (never insert
+        # at 0) so cosmos_* top-level imports keep resolving from cosmos/.
+        _repo = str(Path(__file__).resolve().parent.parent)
+        if _repo not in sys.path:
+            sys.path.append(_repo)
+
+        def _try(name, fn):
+            try:
+                fn(); report["composed"].append(name)
+            except Exception as e:                               # noqa: BLE001
+                report["warnings"][name] = f"{type(e).__name__}: {e}"
+                log.warning("rail %s skipped (boot continues): %s", name, e)
+
+        class _NoClaim:
+            """Adapters + budgets only. prove() is the LINK_REGISTERED gate."""
+            def state(self):
+                return {}
+            def register(self, *_a, **_k):
+                return None
+            def attach_probe(self, *_a, **_k):
+                return None
+
+        for name, mod, attr, attach in (
+            ("node_rails", "cosmos_node_rails", "register_node_rails", False),
+            ("cursor-api", "cosmos_cursor_rail", "attach_to_kernel", True),
+            ("codex-cli", "cosmos_codex_rail", "attach_to_kernel", True),
+            ("playwright-dom", "cosmos_playwright_rail", "attach_to_kernel", True),
+            ("firecrawl-web", "cosmos_firecrawl_rail", "attach_to_kernel", True),
+            # Cheap reasoning (Keith 2026-09-04). GroqCloud not Grok.
+            # Satellite GATE PASS; compose at boot like firecrawl/cursor.
+            ("groq-api", "cosmos_groq_rail", "attach_to_kernel", True),
+            # Joanna Vertex Express. Same link_id as bts_gem (gem-api).
+            # Adapter only — does not re-register, does not generateContent.
+            ("gem-api", "cosmos_vertex_rail", "attach_to_kernel", True),
+            # F-30 WAVE A1/A2: gh/glab as one table-driven rail, two link_ids.
+            # dst=forge so a proven forge cannot capture core->code.
+            ("forge-rails", "cosmos_forge_rail", "attach_to_kernel", True),
+            ("claude-cli", "cosmos_claude_rail", "attach_to_kernel", True),
+            # F-29: tools/ surface. Not a rail — attach binds kernel.tools
+            # and does not invoke, spend, or LINK_REGISTER. A bad row is
+            # fail-open here (_try); it must not abort READY.
+            ("tools-surface", "tools.mcp_docs", "attach_to_kernel", True),
+        ):
+            def _run(mod=mod, attr=attr, attach=attach):
+                fn = getattr(importlib.import_module(mod), attr)
+                if attach:
+                    fn(self, self.adapters, boot_compose=True)
+                else:
+                    # Re-boot must not re-append BUDGET_SET (hot path +
+                    # last-event is BOOT_VERIFIED on a restart).
+                    spend = self.spend
+                    try:
+                        if spend._state():
+                            spend = None
+                    except Exception:                            # noqa: BLE001
+                        pass
+                    fn(_NoClaim(), self.adapters, spend_gate=spend,
+                       paths=self.paths)
+            _try(name, _run)
+
+        def _disp():
+            from cosmos_rails import Dispatcher
+            self.dispatcher = Dispatcher(
+                self.registry, self.adapters, self.ledger, spend=self.spend)
+
+        def _prove():
+            from cosmos_rails_prober import map_wired_nodes
+            proofs = map_wired_nodes(
+                self.paths, self.registry,
+                live=live_calls is not None,
+                live_calls=live_calls)
+            report["proofs"] = [
+                {"link_id": p.get("link_id"), "ok": p.get("ok"),
+                 "registered": p.get("registered"), "model": p.get("model"),
+                 "rc": p.get("rc"), "skipped": p.get("skipped"),
+                 "detail": p.get("detail")}
+                for p in proofs
+            ]
+            runtime = self.registry.file_runtime(self.paths.role("registry"))
+            report["registered"] = list(runtime.get("nodes") or [])
+            report["runtime"] = {"count": runtime.get("count"),
+                                 "schema": runtime.get("schema")}
+            for p in proofs:
+                if p.get("ok") or p.get("skipped"):
+                    continue
+                lid = p.get("link_id")
+                report["warnings"][lid] = (
+                    f"NOT registered (fail-closed): rc={p.get('rc')} "
+                    f"model={p.get('model')!r} "
+                    f"{p.get('detail') or ''}".strip())
+                log.warning("node %s not registered (boot continues): %s",
+                            lid, p.get("detail"))
+
+        _try("dispatcher", _disp)
+        _try("prove_nodes", _prove)
+        return report
 
     def open_session(self, session_id: str, stream: str):
         """Context manifests are a KERNEL verb (critic B5: modules beside a kernel are
@@ -163,12 +304,8 @@ class Kernel:
         # fail fast on bad input, and never hold a lock while refusing. role() raises
         # IDENTITY_MISMATCH on absolute/traversal relpaths.
         target = self.paths.role("state", relpath)
-        """THE four-phase fenced commit: lease -> STAGE to a private temp with NO
-        arbiter mutex held (Phase B, arbitrary-size write) -> short-locked fenced
-        install (Phase C: token CAS, then an O(1) os.replace) -> ledger event.
-        No lease, no write - and a stale token is REFUSED at install time by the
-        arbiter's resource-side fence, not by discipline: the staged file of a
-        superseded holder is discarded and the target is never touched."""
+        # four-phase fenced commit: lease -> unlocked STAGE -> short-locked install
+        # (token CAS + os.replace) -> ledger. A stale token REFUSES at install.
         lease = self.arbiter.acquire(resource, self.worker)
         try:
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -226,13 +363,11 @@ def install(root: str | os.PathLike, tree_id: str) -> Path:
     code silently restamped the identity of an existing install, which is hijack-shaped.
     And the machine install record is now written, so from_install_record() has a happy
     path instead of only a refusal."""
-    import json as _json
-    from cosmos_paths import write_sentinel, ROLES, SENTINEL_NAME, CosmosPathError
     root = Path(root)
     existing = root / SENTINEL_NAME
     if existing.exists():
         try:
-            cur = _json.loads(existing.read_text(encoding="utf-8"))
+            cur = json.loads(existing.read_text(encoding="utf-8"))
         except ValueError as e:
             raise CosmosPathError("UNPARSEABLE", f"existing sentinel is torn: {e}") from e
         if cur.get("tree_id") not in ("", tree_id):
@@ -248,7 +383,7 @@ def install(root: str | os.PathLike, tree_id: str) -> Path:
     if not keyfile.exists():
         keyfile.write_bytes(os.urandom(32))
     record = root / "config" / "install_record.json"
-    record.write_text(_json.dumps({"root": str(root), "tree_id": tree_id,
-                                   "installed_epoch": time.time()}, indent=1),
+    record.write_text(json.dumps({"root": str(root), "tree_id": tree_id,
+                                  "installed_epoch": time.time()}, indent=1),
                       encoding="utf-8")
     return root

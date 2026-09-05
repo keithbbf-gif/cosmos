@@ -1,0 +1,1093 @@
+{
+ "schema": "cosmos-contract-audit/1",
+ "ts": "2026-08-31T05:59:25Z",
+ "root": "V:\\A\\Ai\\COSMOS",
+ "contracts": 27,
+ "verified": 27,
+ "contradictions": 0,
+ "ok": true,
+ "rows": [
+  {
+   "id": "health.progress_is_bound_to_artifacts",
+   "subsystem": "health",
+   "severity": "high",
+   "ok": true,
+   "statement": "Progress must be measured from an EMITTED RECEIPT, never from a self-reported claim. A daemon ticking on time with dispatched:0 is alive, not productive; a tracker row claiming \"inflight\" is a claim, not a measurement. This is the system's own canon -- rc=0 is not done, bind every claim to a real emitted artifact -- applied to the board that reports on the system.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "builds/health/cosmos_health_watchdog.py",
+     "why": "the row that refuses the liveness-equals-progress inference",
+     "ok": true,
+     "detail": "found",
+     "marker": "_route_progress_row"
+    },
+    {
+     "kind": "code",
+     "file": "builds/health/cosmos_health_watchdog.py",
+     "why": "fires RED on rows present, zero dispatched, all claimed inflight",
+     "ok": true,
+     "detail": "found",
+     "marker": "wedge_signature"
+    },
+    {
+     "kind": "test",
+     "file": "builds/health/test_cosmos_health_watchdog.py",
+     "why": "replays the real 72-hour signature and asserts RED",
+     "ok": true,
+     "detail": "found",
+     "marker": "WEDGED"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\health.toml"
+  },
+  {
+   "id": "health.a_false_alarm_is_a_defect",
+   "subsystem": "health",
+   "severity": "high",
+   "ok": true,
+   "statement": "A board that cries wolf is how a real stall gets ignored. A fresh tree with no receipts is NEW, not stalled, and a deliberate PAUSE is not a stall. Neither may report RED.",
+   "evidence": [
+    {
+     "kind": "test",
+     "file": "builds/health/test_cosmos_health_watchdog.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "a fresh tree must not cry wolf"
+    },
+    {
+     "kind": "test",
+     "file": "builds/health/test_cosmos_health_watchdog.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "a deliberate HOLD is not a stall"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\health.toml"
+  },
+  {
+   "id": "health.error_channel_carries_only_errors",
+   "subsystem": "health",
+   "severity": "medium",
+   "ok": true,
+   "statement": "A known-handled condition must not occupy the error channel. INDEX_DUP_KEYS held collector error_count at 1 on every 30-second poll forever, for a condition the collector's own comment documents as handled -- which trains every reader, and every health board, to ignore the field where a real fault would land.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_collector.py",
+     "why": "the count is published as data, not as an error",
+     "ok": true,
+     "detail": "found",
+     "marker": "index_dups"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_collector.py",
+     "why": "the known-handled condition rides notes, not errors",
+     "ok": true,
+     "detail": "found",
+     "marker": "notes.append("
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\health.toml"
+  },
+  {
+   "id": "health.the_gates_are_gated",
+   "subsystem": "health",
+   "severity": "high",
+   "ok": true,
+   "statement": "Something must run the suite on a clock. 34 of 58 suites were failing, 27 unable to even import the modules they test, and nothing was running them -- which is how a critical route defect shipped underneath a red suite and stayed there. A retry-pass is recorded FLAKY, never PASS: hiding non-determinism behind a retry is fabricated compliance.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "builds/selftest_clock/cosmos_selftest_clock.py",
+     "why": "a suite that only passes on retry is recorded as flaky",
+     "ok": true,
+     "detail": "found",
+     "marker": "flaky.append"
+    },
+    {
+     "kind": "code",
+     "file": "builds/selftest_clock/cosmos_selftest_clock.py",
+     "why": "a deliverable shipping its own suite beside itself is still a gate",
+     "ok": true,
+     "detail": "found",
+     "marker": "builds_dir.glob"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\health.toml"
+  },
+  {
+   "id": "ledger.loading_is_verifying",
+   "subsystem": "ledger",
+   "severity": "high",
+   "ok": true,
+   "statement": "Constructing a Ledger over an existing file WALKS THE WHOLE CHAIN; a break refuses at construction, before any caller holds a handle. There is no way to open a corrupt ledger and read from it as though it were fine. The segmented layer inherits this deliberately: segment construction sits INSIDE verify_all's try, because when it sat above it a construction-time break escaped un-named and un-recorded \u2014 the F5 quarantine defect.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "__init__ verifies an existing file rather than trusting it",
+     "ok": true,
+     "detail": "found",
+     "marker": "loading IS verifying"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_segments.py",
+     "why": "a construction-time break is named and recorded like a walk-time break",
+     "ok": true,
+     "detail": "found",
+     "marker": "lives INSIDE this try"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": "the refusal fires on Ledger(), not on a later read",
+     "ok": true,
+     "detail": "found",
+     "marker": "torn line -> TORN"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\ledger.toml"
+  },
+  {
+   "id": "ledger.three_corruption_kinds_stay_distinct",
+   "subsystem": "ledger",
+   "severity": "high",
+   "ok": true,
+   "statement": "TORN (unparseable) != BROKEN_CHAIN (parseable, wrong link) != FORGED (parseable, chained, bad HMAC). Three different facts, three kinds, three responses: a torn tail is a crash, a broken link is an edit, a bad HMAC is a record this service did not sign. Collapsing any two loses the only signal that distinguishes an accident from an attacker \u2014 and a parseable line missing its payload is a WELL-FORMED LIE, which must be typed BROKEN_CHAIN rather than an untyped KeyError (critic H2).",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "the three-kind rule stated at the module contract",
+     "ok": true,
+     "detail": "found",
+     "marker": "TORN (unparseable) != BROKEN_CHAIN"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "the missing-payload case is typed, never an untyped exception",
+     "ok": true,
+     "detail": "found",
+     "marker": "A well-formed lie is BROKEN_CHAIN, typed."
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "record signed with the WRONG KEY -> FORGED"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_segments.py",
+     "why": "re-hashing edited bytes is FORGED at the anchor layer too, not BROKEN_CHAIN",
+     "ok": true,
+     "detail": "found",
+     "marker": "forged ANCHOR (edited accounting, re-hashed) -> verify_all REFUSES (FORGED)"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\ledger.toml"
+  },
+  {
+   "id": "ledger.absent_is_not_unreadable",
+   "subsystem": "ledger",
+   "severity": "high",
+   "ok": true,
+   "statement": "A ledger file that does not exist is a ledger with ZERO events \u2014 a legitimate empty history. A file that exists and cannot be read is a REFUSAL. The first version of verify() collapsed the two, and a suite caught it before commit. The same four-state rule is carried into the CAS: a blob never stored is NOT_FOUND (absent), a blob whose bytes no longer hash to its own name is HASH_MISMATCH \u2014 corruption is refused, never handed back as silent garbage.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "verify() distinguishes an empty history from an unreadable one",
+     "ok": true,
+     "detail": "found",
+     "marker": "ABSENT != UNREADABLE"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_segments.py",
+     "why": "CAS.get keeps the same distinction for blobs",
+     "ok": true,
+     "detail": "found",
+     "marker": "absent is not corrupt"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_segments.py",
+     "why": "a read-back hash check; corrupt bytes are never returned",
+     "ok": true,
+     "detail": "found",
+     "marker": "HASH_MISMATCH"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\ledger.toml"
+  },
+  {
+   "id": "ledger.one_writer_at_a_time_re_primed_from_disk",
+   "subsystem": "ledger",
+   "severity": "high",
+   "ok": true,
+   "statement": "Appends are serialized by an EXCLUSIVE OS LOCK held across (re-prime from disk -> append -> fsync), so a concurrent writer lands on the REAL head instead of a remembered one. Re-priming under the lock is the load-bearing half: two writers on the same remembered head both wrote seq=2 and tore the chain (critic B1, MEASURED). For callers whose DECISION depends on the head, append_guarded holds the same lock across the whole read-decide-append, because sampling the head only at append time still let two overlapping callers both pass a cap check (RG-B1, MEASURED). A decide() that RAISES aborts with nothing written and the lock released, so the loser re-projects and retries rather than wedging.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "the append re-reads the head under the lock, never trusts memory",
+     "ok": true,
+     "detail": "found",
+     "marker": "re-prime seq/prev_sha from DISK"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "append_guarded closes the decide-then-append interleaving window",
+     "ok": true,
+     "detail": "found",
+     "marker": "No caller outside"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_concurrency.py",
+     "why": "the property (no duplicate seq), measured under a real two-thread hammer",
+     "ok": true,
+     "detail": "found",
+     "marker": "B1: seqs are 1..100 with no duplicates"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_concurrency.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "B1: the chain VERIFIES after the hammer"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_ledger_guard.py",
+     "why": "exactly-once measured with real OS threads on one projected head, not a mocked race",
+     "ok": true,
+     "detail": "found",
+     "marker": "G3: 8 racing writers on ONE head -> EXACTLY ONE commit"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_ledger_guard.py",
+     "why": "the refusal is typed and propagates; it is not swallowed into a silent no-op",
+     "ok": true,
+     "detail": "found",
+     "marker": "G2: a head that MOVED under the decision REFUSES, typed STALE_HEAD"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_ledger_guard.py",
+     "why": "the abort path writes nothing and truncates nothing - fail-closed",
+     "ok": true,
+     "detail": "found",
+     "marker": "G4: the refusal leaves the ledger BYTE-IDENTICAL and still VERIFYING"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\ledger.toml"
+  },
+  {
+   "id": "ledger.append_only_history_is_never_repaired",
+   "subsystem": "ledger",
+   "severity": "high",
+   "ok": true,
+   "statement": "The authority file is only ever opened in APPEND mode and flushed with fsync. It is never rewritten, never renamed over, never truncated \u2014 history is not repaired in place, it is refused. This is the scar that chose appends over atomic renames in the first place (bts_sgh). A rewrite path is catastrophic and invisible: it would produce a chain that verifies perfectly and says something other than what happened, which is exactly what the HMAC exists to make impossible from outside and this rule makes impossible from inside.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "append mode, the only way this module opens the ledger for writing",
+     "ok": true,
+     "detail": "found",
+     "marker": "open(self._path, \"a\", encoding=\"utf-8\", newline=\"\")"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "the record is on the platter before the writer advances its head",
+     "ok": true,
+     "detail": "found",
+     "marker": "os.fsync(fh.fileno())"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "an atomic rename over the authority file would silently rewrite history",
+     "ok": true,
+     "detail": "absent",
+     "marker": "os.replace"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "whole-file writes are how a repair-in-place gets introduced by accident",
+     "ok": true,
+     "detail": "absent",
+     "marker": ".write_text("
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_ledger.py",
+     "why": "the authority module must never swallow its own refusal \u2014 fail-closed",
+     "ok": true,
+     "detail": "absent",
+     "marker": "except LedgerError"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\ledger.toml"
+  },
+  {
+   "id": "motif.receipt_is_not_inflight",
+   "subsystem": "motif",
+   "severity": "high",
+   "ok": true,
+   "statement": "A job receipt is proof of COMPLETION and must never be counted as in-flight. Counting one inverts its meaning: cdeck and gbridge blocked themselves with their own stage-6 result files, and every later success would have foreclosed its own slug the same way.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_motif_driver.py",
+     "why": "receipts are excluded from the in-flight set by name",
+     "ok": true,
+     "detail": "found",
+     "marker": "RECEIPT_SUFFIXES"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_motif_driver.py",
+     "why": "the regression that would have caught the 3-day wedge",
+     "ok": true,
+     "detail": "found",
+     "marker": "receipt does not block its own slug"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\motif.toml"
+  },
+  {
+   "id": "motif.inflight_is_owned_not_derived",
+   "subsystem": "motif",
+   "severity": "high",
+   "ok": true,
+   "statement": "In-flight is STATE THAT IS OWNED, never inferred from artifacts that outlive the work they describe. Leases are explicit and they EXPIRE, so a worker that dies without releasing stops blocking on its own and a permanent wedge is unreachable rather than merely fixed.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_inflight.py",
+     "why": "the TTL sweep that makes a permanent wedge impossible",
+     "ok": true,
+     "detail": "found",
+     "marker": "def expired"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_motif_driver.py",
+     "why": "a lease closes on COMPLETION, not merely by ageing out",
+     "ok": true,
+     "detail": "found",
+     "marker": "def release_completed"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_motif_driver.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "released lease is no longer active"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\motif.toml"
+  },
+  {
+   "id": "motif.manifests_are_windowed",
+   "subsystem": "motif",
+   "severity": "medium",
+   "ok": true,
+   "statement": "Manifests are historical dispatch records and are never pruned, so they must be age-windowed rather than counted forever. 343 unpruned manifests formed a monotonically growing permanent block-list.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_motif_driver.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "MANIFEST_WINDOW_S"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\motif.toml"
+  },
+  {
+   "id": "motif.prose_is_not_authority",
+   "subsystem": "motif",
+   "severity": "high",
+   "ok": true,
+   "statement": "COLLECTOR.md is a rolling human SUMMARY carrying no completion signal. It may inform, never decide. The queue and the ledger are the authority -- as that call site's own comment always said, while the value was being unioned into the set that made the decision.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_motif_driver.py",
+     "why": "COLLECTOR.md names are collected and counted, never used to skip",
+     "ok": true,
+     "detail": "found",
+     "marker": "soft_names"
+    },
+    {
+     "kind": "prose",
+     "file": "cosmos/cosmos_motif_driver.py",
+     "why": "the exact line that gave a non-authority signal authority",
+     "ok": true,
+     "detail": "absent",
+     "marker": "names.add(m.group(1).strip().lower())"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\motif.toml"
+  },
+  {
+   "id": "queue.state_is_replayed_never_stored",
+   "subsystem": "queue",
+   "severity": "high",
+   "ok": true,
+   "statement": "Job state is REPLAYED from the ledger on every read, never held in a queue file that could disagree with it. `_state()` is a fold over `ledger.project`; the manifest on disk is immutable from the moment it is written and the JOB_SUBMITTED event is what makes it real. Delete the projection and replay rebuilds it; edit a manifest and nothing changes, because the manifest is not the authority. A stored queue would be a second writer of the same fact \u2014 the failure class that let 343 unpruned manifests become a permanent block-list one subsystem over (motif.manifests_are_windowed).",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the queue view is a fold over the chain, not a file that is read back",
+     "ok": true,
+     "detail": "found",
+     "marker": "return self.ledger.project(fold, {})"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the manifest is immutable from write; the event is the authority",
+     "ok": true,
+     "detail": "found",
+     "marker": "the ledger event is what makes it REAL"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": "the projection moves because an event landed, not because a file moved",
+     "ok": true,
+     "detail": "found",
+     "marker": "claimed job leaves the queue"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\queue.toml"
+  },
+  {
+   "id": "queue.claim_is_exactly_once",
+   "subsystem": "queue",
+   "severity": "high",
+   "ok": true,
+   "statement": "A job is claimed EXACTLY ONCE under overlap. The decision is bound to the ledger head it was projected from (`expect_head_seq`), so a writer that moved the head in between makes the append refuse with STALE_HEAD, which the scheduler converts to a typed LOST_CLAIM. The loser loses CLEANLY and takes the next job; it does not retry into a double-claim and it does not leak an exception. This was a MEASURED double-claim (critic B2) before the fence existed \u2014 two workers running the same job is expensive, and it is silent.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the append is fenced to the head the decision was projected from",
+     "ok": true,
+     "detail": "found",
+     "marker": "expect_head_seq=head"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the racing loser gets a typed refusal, not a silent second claim",
+     "ok": true,
+     "detail": "found",
+     "marker": "LOST_CLAIM"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_concurrency.py",
+     "why": "counted on the chain, not asserted about the return value",
+     "ok": true,
+     "detail": "found",
+     "marker": "B2: exactly one JOB_CLAIMED in the ledger"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "every job claimed EXACTLY once"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\queue.toml"
+  },
+  {
+   "id": "queue.only_the_claimant_completes",
+   "subsystem": "queue",
+   "severity": "high",
+   "ok": true,
+   "statement": "`done()` refuses unless the job is RUNNING **and** the completer is the worker that claimed it, and it refuses a second completion after a terminal state. Both guards are load-bearing: without the claimant check ANY worker could complete ANOTHER worker's job (OA C-03, measured); without the terminal check the last JOB_DONE silently won, so a late straggler could overwrite a real outcome hours after the fact. A rewritten outcome is the worst kind of wrong \u2014 it is a lie the projection then reports as truth.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the ownership guard, stated at the refusal site",
+     "ok": true,
+     "detail": "found",
+     "marker": "only the claimant completes its job"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "a finished job is finished \u2014 the terminal-state refusal",
+     "ok": true,
+     "detail": "found",
+     "marker": ", not RUNNING"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_stage7_fixes.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "K5: a NON-claimant worker cannot complete the job"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_stage7_fixes.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "K5: double-complete after a terminal state is refused"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\queue.toml"
+  },
+  {
+   "id": "queue.stale_is_reported_never_retried",
+   "subsystem": "queue",
+   "severity": "medium",
+   "ok": true,
+   "statement": "A stale RUNNING job is REPORTED as a JOB_STALE event and is never auto-rerun, and it is reported ONCE rather than on every tick. Auto-retry is unsafe because the job's side effects may already have happened; re-reporting every tick is the error-channel failure (health.error_channel_carries_only_errors) \u2014 a condition that fires forever trains every reader to ignore the field where a real fault would land.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the rule stated where report_stale implements it",
+     "ok": true,
+     "detail": "found",
+     "marker": "REPORT, never retry"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the once-only latch, projected from the chain like every other fact",
+     "ok": true,
+     "detail": "found",
+     "marker": "stale_reported"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "stale RUNNING is REPORTED (event), job NOT retried"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "stale is reported ONCE, not every tick"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\queue.toml"
+  },
+  {
+   "id": "queue.priority_and_outcome_are_declared_vocabularies",
+   "subsystem": "queue",
+   "severity": "medium",
+   "ok": true,
+   "statement": "Priority is a declared manifest field and an unknown one REFUSES rather than defaulting \u2014 a critical job silently admitted as normal is invisible damage. Admission order is deterministic: (priority desc, submitted asc, job_id). Outcome is one of three WORDS \u2014 CLEAN / FINDINGS / BROKE \u2014 never a bare return code, because a checker that finds something is not a broken job (PLM-44), and rc=0 is not proof of anything in this system.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "submit refuses an unknown priority instead of defaulting",
+     "ok": true,
+     "detail": "found",
+     "marker": "a silently-normal critical job"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": "the three-word vocabulary, enumerated",
+     "ok": true,
+     "detail": "found",
+     "marker": "OUTCOMES = {\"CLEAN\", \"FINDINGS\", \"BROKE\"}"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_sched.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "three words, never a bare rc"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "priority admission: critical first, low last"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_core.py",
+     "why": "FINDINGS is a distinct terminal state, not a disguised failure",
+     "ok": true,
+     "detail": "found",
+     "marker": "FINDINGS is an outcome, not a failure"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\queue.toml"
+  },
+  {
+   "id": "rails.registration_requires_proof",
+   "subsystem": "rails",
+   "severity": "high",
+   "ok": true,
+   "statement": "A node rail that does not answer is NOT registered. Boot wires adapters and budgets only; registration is deferred to the prove() gate. Passing the real registry at boot would register rails whose incumbent never imported, and a failed rail would then appear in live_nodes() claiming presence it has not earned.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_kernel.py",
+     "why": "boot must hand node rails the stub, not the live registry",
+     "ok": true,
+     "detail": "found",
+     "marker": "fn(_NoClaim(), self.adapters"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_boot_attach.py",
+     "why": "a failed rail must be provably absent",
+     "ok": true,
+     "detail": "found",
+     "marker": "absent from live_nodes"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_registry.py",
+     "why": "file_runtime states the same rule at the projection layer",
+     "ok": true,
+     "detail": "found",
+     "marker": "a node that does not answer"
+    },
+    {
+     "kind": "prose",
+     "file": "cosmos/cosmos_node_rails.py",
+     "why": "the stale docstring that contradicted this contract and caused a regression",
+     "ok": true,
+     "detail": "absent",
+     "marker": "and absence must be visible"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\rails.toml"
+  },
+  {
+   "id": "rails.registration_is_not_capability",
+   "subsystem": "rails",
+   "severity": "high",
+   "ok": true,
+   "statement": "Registering a link never claims it works. A never-probed link reports verified=None (UNKNOWN), never True.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_registry.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "registration is not capability"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_boot_rails.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "nothing boot-composed claims capability it has not measured"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\rails.toml"
+  },
+  {
+   "id": "rails.attach_refuses_authority_without_boot_compose",
+   "subsystem": "rails",
+   "severity": "medium",
+   "ok": true,
+   "statement": "attach_to_kernel on a writing Kernel refuses authority LINK_REGISTERED unless boot_compose=True, and a refused attach registers nothing NEW.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_firecrawl_rail.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "_ledger_is_authority(kernel) and not boot_compose"
+    },
+    {
+     "kind": "test",
+     "file": "cosmos/cosmos_firecrawl_rail.py",
+     "why": "asserts the property (nothing new registered), not an empty-registry assumption",
+     "ok": true,
+     "detail": "found",
+     "marker": "set(k.registry.state()) == _before"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\rails.toml"
+  },
+  {
+   "id": "service.the_open_shell_opens_no_data",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "The static PWA shell is served WITHOUT the bearer, deliberately \u2014 it is what makes the client installable from a phone. That is only safe while THREE things stay true together, and any one of them alone is a breach: it is an EXACT-MATCH allowlist, so no request text ever becomes a filesystem path and there is no traversal surface; every /api/v1/* route still requires the bearer on every request; and no shell file carries credential material, because the bearer is pasted into the page by the user at runtime and lives in page memory ONLY. A token baked into a page handed to anyone who can reach the port is total compromise of this surface, and nothing in the request or the response would look wrong.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "an exact dict lookup on the parsed path, never a path join",
+     "ok": true,
+     "detail": "found",
+     "marker": "_STATIC_ROUTES.get(parsed.path)"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the rule stated at the allowlist that enforces it",
+     "ok": true,
+     "detail": "found",
+     "marker": "no request text ever becomes a filesystem path"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": "the negative control: the open shell did not open the data",
+     "ok": true,
+     "detail": "found",
+     "marker": "GET /api/v1/status with NO token is still 401 (data stays gated)"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": "source is never served through the unauthenticated route",
+     "ok": true,
+     "detail": "found",
+     "marker": "path traversal ( /kdash_sw.js/../cosmos_service.py ) is refused"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "no static shell body contains the bearer token"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": "nothing outside the allowlist leaks through the open route",
+     "ok": true,
+     "detail": "found",
+     "marker": "a non-allowlisted path without token is NOT served"
+    },
+    {
+     "kind": "code",
+     "file": "kdash/mobile.html",
+     "why": "the road-default page is served openly; it must not name the token store",
+     "ok": true,
+     "detail": "absent",
+     "marker": "api_token"
+    },
+    {
+     "kind": "code",
+     "file": "kdash/index.html",
+     "why": "same rule for the desktop page behind /dash",
+     "ok": true,
+     "detail": "absent",
+     "marker": "api_token"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  },
+  {
+   "id": "service.credentials_are_configured_never_invented",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "Bearer material is install config. A blank or whitespace api_token.txt is an OPEN DOOR and is refused (BLANK_TOKEN). A missing token file is minted only on a LOOPBACK bind (zero-friction local use); on a remote bind the service REFUSES (TOKEN_MISSING) rather than silently inventing a secret on the LAN \u2014 and the file is genuinely not created on that path. The token comparison is constant-time, because `==` short-circuits on the first differing byte and leaks token prefixes to a timing observer.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "a blank token is an open door"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "a remote bind never mints; it refuses",
+     "ok": true,
+     "detail": "found",
+     "marker": "refusing to invent authentication"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "constant-time bearer comparison, not ==",
+     "ok": true,
+     "detail": "found",
+     "marker": "hmac.compare_digest(got.encode"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": "asserts the file's absence, not merely the refusal's kind",
+     "ok": true,
+     "detail": "found",
+     "marker": "...and the missing remote token file was NOT invented"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "whitespace api_token.txt -> BLANK_TOKEN (open door refused)"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  },
+  {
+   "id": "service.remote_is_never_cleartext_and_never_lies_about_it",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "A non-loopback bind refuses to start (REMOTE_CLEARTEXT) unless TLS is actually up \u2014 a bearer token over LAN HTTP is captured and replayed by any observer. The honest HTTP fallback exists for LOOPBACK only, and when the crypto lib is absent the service RECORDS the downgrade in .scheme rather than claiming encryption it does not have. An operator-provided cert/key pair is served verbatim; half a pair or a missing file is a typed CERT_NOT_FOUND, never a silent fall back to a cert the operator did not choose. (The `insecure_http` argument is Keith's explicit, reversible trial opt-out and is the ONLY way past the refusal.)",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the typed refusal on a non-loopback bind without TLS",
+     "ok": true,
+     "detail": "found",
+     "marker": "REMOTE_CLEARTEXT"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "a loopback HTTP fallback is recorded, never a silent claim of https",
+     "ok": true,
+     "detail": "found",
+     "marker": "self.scheme records the honest truth"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "remote bind without TLS -> REMOTE_CLEARTEXT"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_tls.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "crypto absent -> stayed HTTP and RECORDED it (no silent downgrade)"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_tls.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "PROVIDED: cert without key -> typed CERT_NOT_FOUND (no silent self-sign)"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  },
+  {
+   "id": "service.every_body_is_bounded_before_it_is_read",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "Content-Length is validated BEFORE any read on every POST endpoint: missing is 400 LENGTH_REQUIRED, non-integer or negative is 400 BAD_LENGTH, over the 1 MiB cap is 413 BODY_TOO_LARGE. `rfile.read(N)` on an unbounded N is a memory DoS on an authenticated-or-not socket, and `read(-1)` blocks on the open socket \u2014 both reachable from anything that can dial the port. The refusal must therefore come before the read, not after it.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "one declared cap for every POST body",
+     "ok": true,
+     "detail": "found",
+     "marker": "_MAX_BODY_BYTES"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the ordering is the invariant, not the presence of a check",
+     "ok": true,
+     "detail": "found",
+     "marker": "rejected BEFORE any read"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "POST with Content-Length over the 1 MiB cap -> 413 BODY_TOO_LARGE"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "POST with negative Content-Length -> 400 BAD_LENGTH"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  },
+  {
+   "id": "service.not_composed_is_not_empty",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "An uncomposed dependency answers 503 naming the composition fault, never 200 with an empty collection. A silent 200+empty made \"no links\" and \"not composed\" read identically (critic M3) \u2014 the reader sees a healthy board with nothing on it and concludes there is nothing to see, which is the same inference that let a wedged route report healthy for three days (health.progress_is_bound_to_artifacts). A GET must also never seed the thing it failed to find.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the failure this branch exists to prevent, stated at the branch",
+     "ok": true,
+     "detail": "found",
+     "marker": "a silent 200+empty"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "REGISTRY_NOT_COMPOSED"
+    },
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "MAKERS_NOT_COMPOSED"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_makers.py",
+     "why": null,
+     "ok": true,
+     "detail": "found",
+     "marker": "GET /makers on an uncomposed kernel -> 503 (not an empty catalog)"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_makers.py",
+     "why": "the composition fault is reported without seeding or ledgering",
+     "ok": true,
+     "detail": "found",
+     "marker": "...and the 503 did not write (head still unmoved)"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  },
+  {
+   "id": "service.the_cleartext_guard_and_its_docstring_are_pinned_together",
+   "subsystem": "service",
+   "severity": "high",
+   "ok": true,
+   "statement": "The REMOTE_CLEARTEXT guard has an escape hatch -- `insecure_http`, Keith's explicit and reversible trial flag -- and the Service docstring used to promise the refusal was absolute. That is the dangerous kind of stale prose: it does not read as missing, it reads as a guarantee, and a reader can ship a LAN bind on the strength of it. So the two are pinned to EACH OTHER here. The guard keeps its opt-out, and the docstring must name `insecure_http` by name; editing either side alone fails this contract, which is the only thing that makes prose behave like the specification this system treats it as.",
+   "evidence": [
+    {
+     "kind": "code",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the guard verbatim, opt-out included -- not a paraphrase of it",
+     "ok": true,
+     "detail": "found",
+     "marker": "if remote and self.scheme != \"https\" and not insecure_http:"
+    },
+    {
+     "kind": "prose",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the Service docstring names the escape hatch the guard actually ships",
+     "ok": true,
+     "detail": "found",
+     "marker": "THE ONE OPT-OUT: insecure_http=True"
+    },
+    {
+     "kind": "prose",
+     "file": "cosmos/cosmos_service.py",
+     "why": "the docstring quotes the guard, so a rewritten guard strands the prose",
+     "ok": true,
+     "detail": "found",
+     "marker": "`if remote and self.scheme != \"https\" and not insecure_http`"
+    },
+    {
+     "kind": "test",
+     "file": "tests/test_rest_surface.py",
+     "why": "the refusal is still live; naming the opt-out did not soften it",
+     "ok": true,
+     "detail": "found",
+     "marker": "remote bind without TLS -> REMOTE_CLEARTEXT"
+    }
+   ],
+   "broken_count": 0,
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\contracts\\service.toml"
+  }
+ ],
+ "_readme": "A contradiction means code, tests and prose disagree about the same promise. Fix the disagreement -- do not delete the contract to make this green."
+}

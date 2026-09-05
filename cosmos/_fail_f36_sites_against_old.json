@@ -1,0 +1,36 @@
+{
+ "schema": "cosmos-f36-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f36_sites_20260831T160120Z",
+ "old_bytes": {
+  "motif": 44240,
+  "wd2": 39055,
+  "scan": 17298,
+  "audit": 7048
+ },
+ "old_open_verdicts": 5,
+ "old_has_critique_lift": true,
+ "old_names_eq_inflight_filenames_motif": true,
+ "old_names_eq_inflight_filenames_wd2": true,
+ "old_dhx_return": true,
+ "pins": {
+  "effective_stage_does_not_lift_from_critique_file": false,
+  "drive_once_filenames_are_not_skip_authority": false,
+  "wd2_filenames_are_not_skip_authority": false,
+  "name_hit_does_not_return_dhx_token": false,
+  "audit_open_verdict_count_is_1": false,
+  "audit_critique_site_is_advisory": false,
+  "audit_inflight_filenames_site_is_advisory": false,
+  "audit_dhx_haystack_site_is_advisory": false
+ },
+ "failed_pins": [
+  "effective_stage_does_not_lift_from_critique_file",
+  "drive_once_filenames_are_not_skip_authority",
+  "wd2_filenames_are_not_skip_authority",
+  "name_hit_does_not_return_dhx_token",
+  "audit_open_verdict_count_is_1",
+  "audit_critique_site_is_advisory",
+  "audit_inflight_filenames_site_is_advisory",
+  "audit_dhx_haystack_site_is_advisory"
+ ],
+ "all_new_pins_failed": true
+}

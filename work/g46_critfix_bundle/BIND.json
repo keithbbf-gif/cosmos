@@ -1,0 +1,129 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_critfix_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T04:08:33-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "prior_fix": "fo_40e88e29",
+  "prior_fix_why_unbacked": "live/returns/g46/crit_rails/diff_tests.patch hunk header was corrupt (`@@ after infer_kind…`); git apply --check REJECTS so GEM/OA unit asserts never landed",
+  "root_cause": "cosmos_dispatch._worker_job for kinds gem/oa wrote a JSON packet to the WRONG bucket (state/dispatch/workers/* vs the polled live/buckets/*) and SystemExit(0) — fake-DONE, no rail spawned, empty artifact (OA fa6c68cc rc=0 secs=0.0). docs/SCAR_PLACATION.md.",
+  "fix": "gem/oa job source calls cosmos_node_worker.execute_handoff: drop onto live/buckets/<node> AND actually invoke that node's rail. done = nonempty stdout; empty text is rc=2 done=False. Timeout is GROK_TIMEOUT_S (1800), not the 120s stub. cosmos_oa_worker.py is the thin OA wrapper (run_cli(node='oa')).",
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_bundle",
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile cosmos\\cosmos_dispatch.py ; py -3.14 -m py_compile cosmos\\cosmos_node_worker.py ; py -3.14 -m py_compile cosmos\\cosmos_oa_worker.py ; py -3.14 -m py_compile tests\\test_dispatch.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_bundle",
+    "quoted_from": "DISPATCH_COMPILE=0 NODE_COMPILE=0 OA_COMPILE=0 TEST_COMPILE=0",
+    "cosmos/cosmos_dispatch.py": {"rc": 0, "lines": 2497, "bytes": 96796, "sha256_16": "fc433ba939c50b6b"},
+    "cosmos/cosmos_node_worker.py": {"rc": 0, "lines": 1078, "bytes": 40407, "sha256_16": "0da48282e86b4556"},
+    "cosmos/cosmos_oa_worker.py": {"rc": 0, "lines": 42, "bytes": 1365, "sha256_16": "d23644bce4d2c5c1"},
+    "tests/test_dispatch.py": {"rc": 0, "lines": 638, "bytes": 30591, "sha256_16": "936ba86a88c25892"}
+  },
+  "tests": {
+    "cmd": "py -3.14 tests\\test_dispatch.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_bundle",
+    "rc": 0,
+    "passed": "141/141",
+    "failed": 0,
+    "quoted_from": "stdout: 141/141 passed",
+    "gem_oa_labels": [
+      "PASS  GEM kind is gem",
+      "PASS  GEM timeout is model-length not 120s stub",
+      "PASS  GEM worker_bucket is resolver live/buckets/gem",
+      "PASS  GEM compat copy path is state/dispatch/workers/gem (kept)",
+      "PASS  GEM job calls execute_handoff (not packet-and-exit)",
+      "PASS  GEM job does not fake-DONE on packet write",
+      "PASS  OA kind is oa",
+      "PASS  OA timeout is model-length",
+      "PASS  OA job calls execute_handoff",
+      "PASS  OAi worker_bucket is live/buckets/oa",
+      "PASS  GEM execute_handoff done binds nonempty stdout",
+      "PASS  GEM execute_handoff packet is live/buckets/gem (processed)",
+      "PASS  GEM result bound to gem-api",
+      "PASS  OA execute_handoff emits nonempty stdout",
+      "PASS  OA result bound to oa-api",
+      "PASS  OA execute_handoff packet is live/buckets/oa",
+      "PASS  empty rail text is NOT fake-DONE (rc=2, done=False)"
+    ]
+  },
+  "runtime_binding": {
+    "what_done_is": "a GEM or OA dispatch job whose SOURCE calls execute_handoff (not packet-and-exit SystemExit(0)), dropping onto live/buckets/<node>, then a NON-EMPTY stdout body at <result>.stdout.txt bound to the model/link_id that answered — not rc=0 on the drop script",
+    "isolated_proof": {
+      "gem_job_source_calls_execute_handoff": true,
+      "oa_job_source_calls_execute_handoff": true,
+      "gem_timeout_s": 1800,
+      "oa_timeout_s": 1800,
+      "gem_bucket": "live/buckets/gem",
+      "oa_bucket": "live/buckets/oa",
+      "gem_execute_handoff": {
+        "done": true,
+        "stdout_tail_contains": "PONG",
+        "stdout_full_bytes_gt_0": true,
+        "link_id": "gem-api",
+        "model": "fake-gemini"
+      },
+      "oa_execute_handoff": {
+        "done": true,
+        "stdout_tail_contains": "PONG-OA",
+        "stdout_full_bytes_gt_0": true,
+        "link_id": "oa-api",
+        "model": "fake-oa"
+      },
+      "empty_output": {
+        "done": false,
+        "rc": 2,
+        "done_why": "empty_stdout"
+      }
+    },
+    "live_spend_not_run": true,
+    "reason": "P10 propose-only; fake rail_call so the handoff contract is measured without billing gem-api/oa-api"
+  },
+  "routing": {
+    "GEM": "gem-api via cosmos_node_worker.execute_handoff -> process_drop -> execute_via_rail (node_spec('gem'))",
+    "OAi": "oa-api via execute_handoff (NODES['oa']; cosmos_oa_worker.py run_cli(node='oa'))"
+  },
+  "inbox": "live/buckets/{gem,oa}/  (identity; what the node worker polls)",
+  "compat_path_not_identity": "live/state/dispatch/workers/{gem,oa}/ is reported as worker_compat but gem/oa jobs do not packet-and-exit there",
+  "elegance": {
+    "no_second_rail_table": true,
+    "shared": ["process_drop", "execute_via_rail", "land_critique_return", "bucket_dir", "node_spec", "pause_flag"],
+    "oa_wrapper_loc": 42,
+    "node_worker_delta_why": "execute_handoff is the dispatch-job seam; OA script field now cosmos_oa_worker.py so the thin wrapper is the named vehicle"
+  },
+  "files": [
+    "cosmos/cosmos_dispatch.py",
+    "cosmos/cosmos_node_worker.py",
+    "cosmos/cosmos_oa_worker.py",
+    "tests/test_dispatch.py",
+    "EMIT.txt",
+    "emit/cosmos__cosmos_dispatch.py.emit.txt",
+    "emit/cosmos__cosmos_node_worker.py.emit.txt",
+    "emit/cosmos__cosmos_oa_worker.py.emit.txt",
+    "emit/tests__test_dispatch.py.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=replace>>> ... <<<FILE_END>>> (full-file replacements, not diffs)",
+  "cow_dispose": [
+    "extract EMIT.txt / emit/*.emit.txt FILE blocks — FULL FILES, not diffs (corrupt-hunk scar on fo_40e88e29 diff_tests.patch)",
+    "copy cosmos/cosmos_dispatch.py onto cosmos/cosmos_dispatch.py",
+    "copy cosmos/cosmos_node_worker.py onto cosmos/cosmos_node_worker.py (required: execute_handoff lives here)",
+    "copy cosmos/cosmos_oa_worker.py onto cosmos/cosmos_oa_worker.py (NEW)",
+    "copy tests/test_dispatch.py onto tests/test_dispatch.py",
+    "do NOT apply a unified diff (corrupt-patch scar)",
+    "do NOT write the live tree by force; ROLL BACK on any failure",
+    "py -3.14 -m py_compile cosmos\\cosmos_dispatch.py cosmos\\cosmos_node_worker.py cosmos\\cosmos_oa_worker.py tests\\test_dispatch.py",
+    "py -3.14 tests\\test_dispatch.py",
+    "runtime-binding still owed after apply: a FRESH GEM+OA dispatch writing nonempty docs/critique/cvmdt_CRITIQUE_{gem,oa}-api.md — NOT a green rc"
+  ],
+  "not_done": [
+    "did not write the live tree or cosmos/ package",
+    "did not apply fo_40e88e29 diffs",
+    "did not invoke live gem-api / oa-api",
+    "did not run schtasks / --loop / --standup",
+    "did not file docs/critique/cvmdt_CRITIQUE_{gem,oa}-api.md (needs a live spend-gated dispatch after COW applies)"
+  ]
+}

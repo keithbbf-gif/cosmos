@@ -1,0 +1,1482 @@
+<<<FILE path=cosmos/cosmos_service.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cosmos_service - THE API SURFACE, first cut (F5 builder). One versioned HTTP API that
+KDash, the alternate frontend, voice, and mobile all consume - stdlib only, no deps.
+
+ENDPOINTS (v1):
+    GET /api/v1/status   - kernel READY + root identity + ledger head
+    GET /api/v1/audit    - the audit projection (every number carries measured_at)
+    GET /api/v1/jobs     - job states from the scheduler projection
+    GET /api/v1/rails    - the rails matrix with verification AGE per link
+    GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
+    POST /api/v1/jobs    - submit {command, priority} -> job_id
+    POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
+CVM (P3 additive, projection only - never the ledger):
+    GET  /api/v1/cvm/pull?client_id=  - publish state/cvm/pull.json + status prewarm
+    POST /api/v1/cvm/snapshot         - land the Android mule as state/cvm/phone.json
+    POST /api/v1/cvm/push             - phone turn; same §8.3 envelope as snapshot;
+                                        stamps pull.json audio_owner=desktop (never
+                                        a phone claim). Composes snapshot+pull.
+CONTROL CHANNEL + SPEND BREAKER (2026-08-25, cosmos_control/cosmos_spendguard):
+    GET  /api/v1/control?client_id=X  - the pause/mic_off/clear_queue state the
+                                        app polls (bearer-authed; NEVER gated
+                                        by the spend breaker)
+    POST /api/v1/kill , GET /kill     - the HUMAN OFF-SWITCH: mic_off +
+                                        clear_queue, global or ?client_id=.
+                                        Served WITHOUT the bearer (it can only
+                                        reduce capability); an optional
+                                        config/kill_token.txt gates it when
+                                        present (?token= / {"token"}).
+    POST /api/v1/control/resume       - clears the flags AND resets the local
+                                        spend counters (bearer-authed: OFF is
+                                        cheap by design, ON is deliberate)
+    /api/v1/voice is HARDENED: control flags refuse fast (zero spend); an
+    identical (client_id, utterance) inside ~15s is dropped as a duplicate
+    (zero spend); the SpendGuard breaker (session/day USD caps + rate limit)
+    refuses with a canned local reply BEFORE any model call; {stream, build,
+    client_id, idempotency_key} are accepted and ledgered as telemetry; the
+    minted session carries stream:<name> scope and the orchestrator's file
+    roots are scoped to the stream; {"action": "bootup", "stream": s} answers
+    a READ-ONLY spoken summary of the stream's handoff (V:\\Ai\\BU.MD).
+    THE BRAIN IS HYBRID (2026-08-25, cosmos_brain): command/lookup shapes stay
+    on the fast local path; free-form turns go to OPUS via the local claude
+    CLI (claude -p, session mapped 1:1 from the COSMOS sid so it is resumable
+    on the desktop via /resume), bounded by control state + rate limit + a
+    per-session TURN CAP (opus_turns_per_session in spendguard_config.json),
+    with fallback to the spend-gated Grok ask on any timeout/failure/over-cap.
+    Every reply carries "brain": opus|grok|local (or the ask verb's model
+    name) and chat/ask turns ledger a VOICE_BRAIN event.
+STATIC APP SHELL (PWA, no bearer - see _STATIC_ROUTES):
+    GET / , /m , /mobile - the phone-first page (mobile is the road default)
+    GET /dash            - the desktop KDash page
+    GET /kdash_manifest.webmanifest , /kdash_sw.js - installability shell
+The shell is an exact-match allowlist of fixed files carrying NO data and NO
+token (the bearer is pasted into the page at runtime, memory only); every
+/api/v1/* route keeps requiring the bearer exactly as before.
+Every response carries served_at + measured_at - a panel that cannot show its age is
+the frozen-dashboard scar. Auth is a bearer token from the install config - remote
+access control exists from day one, invisible in use (zero-friction canon). A blank
+or whitespace token is REFUSED (an open door). A missing token file is minted only
+on a loopback bind; a remote bind REFUSES rather than inventing silently.
+"""
+from __future__ import annotations
+
+import hmac
+import json
+import os
+import threading
+import time
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+from cosmos_kernel import Kernel
+
+# Loopback binds may mint a token (zero-friction local use). A remote bind must
+# never invent one - a silently minted secret on 0.0.0.0 is an open door.
+_LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
+
+# Per-request body cap for every POST endpoint. All v1 POST bodies are small
+# JSON control messages; 1 MiB is generous. An uncapped Content-Length is an
+# invitation to allocate arbitrary memory on an authenticated-or-not socket.
+_MAX_BODY_BYTES = 1 << 20
+
+# ---------------- CVM projection (P3 additive; not the ledger) ----------------
+# Clock writes state/cvm/pull.json; Core publishes it. Snapshot lands as
+# state/cvm/phone.json (replace). POST /cvm/push reuses _cvm_store_snapshot
+# then stamps audio_owner=desktop on pull.json so GET /cvm/pull (unchanged)
+# returns the desktop-owned turn. Handlers below only call these helpers.
+_CVM_KNOWN_KINDS = frozenset({
+    "voice_session", "device", "notifications",
+    "sms", "calls", "contacts", "calendar", "pcm",
+})
+_CVM_PCM_INLINE = frozenset({"bytes", "pcm", "data", "b64"})
+
+
+class CvmError(Exception):
+    """Typed CVM refusal. `kind` is the JSON error token."""
+
+    def __init__(self, kind: str, detail: str = ""):
+        self.kind = kind
+        super().__init__(detail or kind)
+
+
+def _cvm_read_json(path):
+    if not path.is_file():
+        return None
+    try:
+        obj = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        raise CvmError("UNPARSEABLE", f"{path.name}: {e}"[:300]) from e
+    if not isinstance(obj, dict):
+        raise CvmError("UNPARSEABLE", f"{path.name} is not an object")
+    return obj
+
+
+def _cvm_stat(path):
+    """mtime / owner / size of a projection file (P3 live-tree quote)."""
+    st = path.stat()
+    try:
+        owner = path.owner()
+    except Exception:                                                 # noqa: BLE001
+        owner = str(int(getattr(st, "st_uid", 0) or 0))
+    return float(st.st_mtime), str(owner or ""), int(st.st_size)
+
+
+def _cvm_status_prewarm(kernel: Kernel) -> dict:
+    """Identity the phone needs without teaching a drive letter.
+    Not a refactor of GET /status - that handler stays byte-identical."""
+    last = kernel.ledger.last()
+    return {"ready": kernel.ready,
+            "tree_id": kernel.paths.sentinel.tree_id,
+            "ledger_head": {"seq": last["seq"], "event": last["event"]}}
+
+
+def _cvm_filter_kinds(kinds) -> dict:
+    """Keep known kinds; ignore unknown (forward compatible). A declared
+    kind that is not an object, or is {}, is BAD_SNAPSHOT. Device blobs
+    with fields and no `status` are accepted (CVM_ARCH §8.3 example)."""
+    if not isinstance(kinds, dict):
+        raise CvmError("BAD_SNAPSHOT", "kinds must be an object")
+    stored = {}
+    for name, blob in kinds.items():
+        key = str(name)
+        if key not in _CVM_KNOWN_KINDS:
+            continue
+        if not isinstance(blob, dict) or not blob:
+            raise CvmError("BAD_SNAPSHOT",
+                           f"kind {key!r} has neither status nor items")
+        if key == "pcm" and _CVM_PCM_INLINE.intersection(blob):
+            raise CvmError("BAD_SNAPSHOT",
+                           "pcm must be a pointer (sha256), not inline bytes")
+        stored[key] = blob
+    return stored
+
+
+def _cvm_blob_ptrs(kinds) -> list:
+    pcm = kinds.get("pcm") if isinstance(kinds, dict) else None
+    if isinstance(pcm, dict) and pcm.get("sha256"):
+        return [str(pcm["sha256"])]
+    return []
+
+
+def _cvm_pull_response(kernel: Kernel, client_id: str) -> dict:
+    """Publish pull.json (source of truth) + status prewarm. Overlay cursor
+    from phone.json in the RESPONSE only - never rewrite the clock's file."""
+    tree_id = kernel.paths.sentinel.tree_id
+    status = _cvm_status_prewarm(kernel)
+    pull_path = kernel.paths.state("cvm", "pull.json")
+    ticket = _cvm_read_json(pull_path)
+    if ticket is None:
+        return {"cvm": 1, "tree_id": tree_id, "pull": False,
+                "core_kind": "UNREACHABLE", "client_id": client_id,
+                "status": status}
+    if str(ticket.get("tree_id") or "") != tree_id:
+        raise CvmError("IDENTITY_MISMATCH",
+                       "pull.json tree_id does not match the sentinel")
+    try:
+        phone = _cvm_read_json(kernel.paths.state("cvm", "phone.json"))
+    except CvmError:
+        phone = None
+    if isinstance(phone, dict) and str(phone.get("tree_id") or "") == tree_id:
+        cur = phone.get("cursor_out") or phone.get("cursor")
+        if cur:
+            ticket = dict(ticket)
+            ticket["cursor"] = cur
+    mtime, owner, size = _cvm_stat(pull_path)
+    out = dict(ticket)
+    out.update(client_id=client_id, status=status,
+               projection_mtime=mtime, projection_owner=owner,
+               projection_size=size)
+    return out
+
+
+def _cvm_store_snapshot(kernel: Kernel, d: dict) -> dict:
+    """Replace state/cvm/phone.json. Idempotent on request_id. No ledger."""
+    if d.get("cvm") != 1:
+        raise CvmError("BAD_SNAPSHOT", "cvm must be 1")
+    request_id = str(d.get("request_id") or "").strip()
+    if not request_id:
+        raise CvmError("BAD_SNAPSHOT", "request_id is required")
+    client_id = str(d.get("client_id") or "").strip()
+    if not client_id:
+        raise CvmError("CLIENT_ID_REQUIRED", "client_id is required")
+    stored_kinds = _cvm_filter_kinds(d.get("kinds"))
+    tree_id = kernel.paths.sentinel.tree_id
+    phone_path = kernel.paths.state("cvm", "phone.json")
+    try:
+        existing = _cvm_read_json(phone_path)
+    except CvmError:
+        existing = None
+    if (isinstance(existing, dict)
+            and str(existing.get("request_id") or "") == request_id
+            and str(existing.get("tree_id") or "") == tree_id):
+        stored = list(existing.get("stored")
+                      or (existing.get("kinds") or {}).keys())
+        return {"cursor_out": existing.get("cursor_out") or existing.get("cursor"),
+                "stored": stored,
+                "blob_sha256s": _cvm_blob_ptrs(existing.get("kinds") or {}),
+                "cvm_ear_ms": None, "idempotent": True}
+    import hashlib as _hashlib
+    from cosmos_clock import atomic_json
+    cursor_out = _hashlib.sha256(json.dumps(
+        {"tree_id": tree_id, "request_id": request_id, "kinds": stored_kinds},
+        sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
+    blobs = _cvm_blob_ptrs(stored_kinds)
+    rec = {
+        "cvm": 1,
+        "tree_id": tree_id,
+        "client_id": client_id,
+        "request_id": request_id,
+        "cursor_in": str(d.get("cursor_in") or ""),
+        "cursor_out": cursor_out,
+        "cursor": cursor_out,
+        "kinds": stored_kinds,
+        "stored": list(stored_kinds.keys()),
+        "blob_sha256s": blobs,
+        "received_epoch": time.time(),
+        "writer": "cosmos-service",
+    }
+    try:
+        atomic_json(phone_path, rec)
+    except OSError as e:
+        raise CvmError("UNREADABLE", str(e)[:300]) from e
+    return {"cursor_out": cursor_out, "stored": rec["stored"],
+            "blob_sha256s": blobs, "cvm_ear_ms": None}
+
+
+def _frontend_file(name: str):
+    """Resolve one shell file: kdash/<name> beside (or above) this module in the
+    repo layout, or flat kdash_<name> in a spike checkout - the same resolution
+    order as cosmos_kdash._find_kdash_index. None if absent (an honest 404)."""
+    from pathlib import Path as _P
+    here = _P(__file__).resolve().parent
+    for cand in (here / "kdash" / name,
+                 here.parent / "kdash" / name,
+                 here / ("kdash_" + name)):
+        if cand.is_file():
+            return cand
+    return None
+
+
+# THE STATIC APP SHELL (PWA). Served WITHOUT the bearer, deliberately: these are
+# fixed, allowlisted files containing no data and no secret - the token is pasted
+# by the user into the page at runtime and lives in page memory only. Serving the
+# shell openly is what makes the client installable/reachable from a phone; the
+# data behind it still requires the bearer on every /api/v1/* request. The dict
+# is an EXACT-MATCH allowlist: no request text ever becomes a filesystem path,
+# so there is no traversal surface. Mobile is the default at / (the road case).
+_CT_HTML = "text/html; charset=utf-8"
+_STATIC_ROUTES = {
+    "/": ("mobile.html", _CT_HTML),
+    "/m": ("mobile.html", _CT_HTML),
+    "/mobile": ("mobile.html", _CT_HTML),
+    "/dash": ("index.html", _CT_HTML),
+    "/kdash_manifest.webmanifest": ("manifest.webmanifest",
+                                    "application/manifest+json"),
+    # served at the ROOT path so its default scope ("/") can control /m
+    "/kdash_sw.js": ("sw.js", "text/javascript; charset=utf-8"),
+    # the native Android app installer (download-and-sideload), served on the
+    # known-good port so no new firewall rule is needed. No data, no token.
+    "/cosmos-voice.apk": ("cosmos-voice.apk",
+                          "application/vnd.android.package-archive"),
+}
+
+
+# ---------------- voice hardening constants (2026-08-25) ----------------
+DEDUPE_WINDOW_S = 15.0    # identical (client_id, utterance) inside this = drop
+
+# BOOTUP (read-only): the stream handoff lives in BU.MD; a stream scopes the
+# orchestrator's file roots. Module attributes on purpose - a test (or a
+# future resolver) can repoint them without editing the handler.
+BU_MD_PATH = r"V:\Ai\BU.MD"
+STREAM_ROOTS = {
+    "legal":    [r"V:\Ai\Legal"],
+    "plumbing": [r"V:\A\Ai\COSMOS", r"V:\Ai\ROLD"],
+    "physics":  [r"V:\Research4"],
+    "chapter":  [r"V:\Research4"],
+}
+_BOOTUP_REPLY_CAP = 1500  # chars of BU.MD quoted back in a bootup reply
+_SPOKEN_CAP = 320         # TTS trim, cosmos_voice's figure
+
+
+def _flat_trim(text: str, cap: int = _SPOKEN_CAP) -> str:
+    """cosmos_voice._spoken's rule: whitespace-collapsed, cut at a word
+    boundary with an audible ellipsis - never mid-word."""
+    flat = " ".join(str(text).split())
+    if len(flat) <= cap:
+        return flat
+    cut = flat[:cap]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut + " ..."
+
+
+def _stream_section(raw: str, stream: str) -> str:
+    """The stream's slice of the handoff: the first heading line naming the
+    stream through to the next heading; else the first plain line naming it
+    plus a short window; else the head of the file with an honest note.
+    Read-only string work - nothing here touches disk."""
+    lines = raw.splitlines()
+    if stream:
+        s = stream.lower()
+        start = next((i for i, ln in enumerate(lines)
+                      if ln.lstrip().startswith("#") and s in ln.lower()), None)
+        if start is not None:
+            out = [lines[start]]
+            for ln in lines[start + 1:]:
+                if ln.lstrip().startswith("#"):
+                    break
+                out.append(ln)
+            return "\n".join(out).strip()[:_BOOTUP_REPLY_CAP]
+        start = next((i for i, ln in enumerate(lines) if s in ln.lower()), None)
+        if start is not None:
+            return "\n".join(lines[start:start + 20]).strip()[:_BOOTUP_REPLY_CAP]
+        return (f"(no section for stream {stream!r} in the handoff - "
+                f"head follows)\n" + raw[:_BOOTUP_REPLY_CAP])
+    return raw[:_BOOTUP_REPLY_CAP]
+
+
+def _bootup_summary(stream: str, session_id=None, bu_path=None) -> dict:
+    """READ-ONLY BootUP for the voice seam: read the handoff (BU.MD), slice
+    the stream's section, name the stream's file roots. Nothing is written,
+    nothing is executed, nothing is spent - this is a spoken summary, not the
+    ROLD checklist."""
+    path = bu_path or BU_MD_PATH
+    stream = (stream or "").strip().lower()
+    base = {"ok": False, "session_id": session_id, "kind": "bootup",
+            "reply": "", "spoken": "", "needs_confirm": False,
+            "confirm_id": None, "action": "bootup", "sources": [],
+            "refused": False, "stream": stream or None,
+            "roots": list(STREAM_ROOTS.get(stream, []))}
+    from pathlib import Path as _P
+    try:
+        raw = _P(path).read_text(encoding="utf-8", errors="replace")
+    except OSError as e:
+        base.update(refused=True,
+                    reply=f"[BU_MD_UNREADABLE] handoff not readable at "
+                          f"{path}: {type(e).__name__}: {e}",
+                    spoken="Boot up failed: the handoff file is not "
+                           "readable here.")
+        base["error"] = "BU_MD_UNREADABLE"
+        return base
+    section = _stream_section(raw, stream)
+    base.update(ok=True, reply=section, sources=[f"file:{path}"])
+    prefix = (f"Boot up for the {stream} stream. " if stream else "Boot up. ")
+    base["spoken"] = prefix + _flat_trim(section)
+    return base
+
+
+class ServiceError(RuntimeError):
+    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT, CERT_NOT_FOUND}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
+
+
+def _is_remote_bind(host: str) -> bool:
+    return (host or "").strip().lower() not in _LOOPBACK_HOSTS
+
+
+def _write_private(path, data: bytes) -> None:
+    """Create/overwrite a secret-bearing file with owner-only perms (0o600) from
+    the first byte - never default perms then a chmod race. On Windows the mode
+    is advisory; NTFS ACLs inherit, and 0o600 is still the correct intent."""
+    fd = os.open(str(path), os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+    with os.fdopen(fd, "wb") as fh:
+        fh.write(data)
+
+
+def _load_api_token(tok_file, remote: bool) -> str:
+    """Bearer material is install config, not something the service invents on a
+    remote bind. Empty/whitespace is always an open door and is REFUSED."""
+    from pathlib import Path as _P
+    tok_file = _P(tok_file)
+    if not tok_file.exists():
+        if remote:
+            raise ServiceError(
+                "TOKEN_MISSING",
+                "api_token.txt is missing - refusing to invent authentication "
+                "material in a remote context (a silently minted token is an "
+                "open door on the LAN)")
+        import secrets as _s
+        _write_private(tok_file, _s.token_urlsafe(24).encode("utf-8"))
+    token = tok_file.read_text(encoding="utf-8").strip()
+    if not token:
+        raise ServiceError(
+            "BLANK_TOKEN",
+            "api_token.txt is empty or whitespace - a blank token is an open door")
+    return token
+
+
+def _crucible_dispatchers(kernel, names) -> dict | None:
+    """Critics are injected callables on the kernel (name -> packet_text -> return
+    text). A requested critic that is not composed is not invented; None means
+    the round cannot actually run."""
+    pool = getattr(kernel, "crucible_critics", None)
+    if not isinstance(pool, dict) or not pool:
+        return None
+    if not names:
+        return dict(pool)
+    out = {}
+    for n in names:
+        fn = pool.get(n)
+        if not callable(fn):
+            return None
+        out[n] = fn
+    return out or None
+
+
+def make_handler(kernel: Kernel, token: str, open_access: bool = False):
+    # ---- the safety seams, ONE instance each per handler class (2026-08-25).
+    # State lives in config/ JSON files, so a restarted service keeps a kill
+    # that was set and a day's spend that was counted.
+    from cosmos_control import ControlChannel, ControlError
+    from cosmos_spendguard import SpendGuard, PAUSED_REPLY, CALL_EST_USD
+    _ctrl = ControlChannel(kernel.paths.config("control_state.json"),
+                           clock=kernel._clock)
+    _guard = SpendGuard(kernel.paths.config("spendguard_state.json"),
+                        config_file=kernel.paths.config("spendguard_config.json"),
+                        ledger=kernel.ledger, clock=kernel._clock)
+    # The OPUS TURN CAP (cosmos_brain, 2026-08-25): Opus is not dollar-priced
+    # like the API rails, so the USD breaker cannot bound it - a per-session
+    # turn count can. Cap is tunable live via "opus_turns_per_session" in
+    # spendguard_config.json (one tuning surface). Absent module -> None, and
+    # the voice brain falls back to Grok (which the USD breaker does bound).
+    try:
+        from cosmos_brain import TurnGuard as _TurnGuard
+        _turns = _TurnGuard(
+            kernel.paths.config("opus_turns.json"),
+            config_file=kernel.paths.config("spendguard_config.json"),
+            clock=kernel._clock)
+    except Exception:                                             # noqa: BLE001
+        _turns = None
+    _dedupe: dict = {}                 # sha256 key -> epoch of first sight
+    _dedupe_lock = threading.Lock()
+
+    def _kill_token() -> str:
+        """Optional gate on the off-switch: config/kill_token.txt, when it
+        exists and is non-blank. Absent = ungated (the switch only reduces
+        capability). Unreadable = fail CLOSED (require a token nobody can
+        give, rather than an open mutation on an error)."""
+        try:
+            p = kernel.paths.config("kill_token.txt")
+            if not p.exists():
+                return ""
+            return p.read_text(encoding="utf-8").strip() or "\x00UNREADABLE"
+        except Exception:                                         # noqa: BLE001
+            return "\x00UNREADABLE"
+
+    class Handler(BaseHTTPRequestHandler):
+        server_version = "COSMOS/1.0"
+
+        # ------------ voice-refusal shape (mirrors VoiceMode's result) ------
+        @staticmethod
+        def _voice_refused(sid, kind, error, reply, spoken):
+            return {"ok": False, "session_id": sid, "kind": kind,
+                    "reply": reply, "spoken": spoken, "needs_confirm": False,
+                    "confirm_id": None, "action": None, "sources": [],
+                    "refused": True, "error": error}
+
+        def _do_kill(self, client_id, token_given):
+            kt = _kill_token()
+            if kt and not hmac.compare_digest(
+                    str(token_given or "").encode("utf-8"),
+                    kt.encode("utf-8")):
+                return self._send(403, {"error": "BAD_KILL_TOKEN",
+                                        "detail": "kill_token.txt is set and "
+                                                  "the given token does not "
+                                                  "match"})
+            st = _ctrl.kill(client_id or None)
+            return self._send(200, {"killed": True,
+                                    "client_id": client_id or None,
+                                    "control": st})
+
+        def _send(self, code: int, obj: dict):
+            body = json.dumps({"served_at": time.time(), **obj}, indent=1).encode("utf-8")
+            self.send_response(code)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+
+        def _authed(self) -> bool:
+            # open_access: bearer auth DISABLED for the trial (Keith's call, fully
+            # reversible by dropping --no-auth). The tailnet/LAN is the access
+            # control meanwhile.
+            if open_access:
+                return True
+            # Constant-time compare: == short-circuits on the first differing
+            # byte, which leaks token prefixes to a timing observer.
+            got = self.headers.get("Authorization", "")
+            return hmac.compare_digest(got.encode("utf-8"),
+                                       ("Bearer " + token).encode("utf-8"))
+
+        def _read_body(self, cap: int = _MAX_BODY_BYTES):
+            """Read the POST body under a hard cap, or send a controlled refusal
+            and return None. A missing/negative/non-int/oversized Content-Length
+            is rejected BEFORE any read - rfile.read(N) on an unbounded N is a
+            memory DoS, and read(-1) blocks on the open socket."""
+            raw = self.headers.get("Content-Length")
+            if raw is None:
+                self._send(400, {"error": "LENGTH_REQUIRED",
+                                 "detail": "Content-Length header is required"})
+                return None
+            try:
+                n = int(raw)
+            except ValueError:
+                self._send(400, {"error": "BAD_LENGTH",
+                                 "detail": f"Content-Length is not an integer: "
+                                           f"{raw[:64]!r}"})
+                return None
+            if n < 0:
+                self._send(400, {"error": "BAD_LENGTH",
+                                 "detail": "Content-Length must be non-negative"})
+                return None
+            if n > cap:
+                self._send(413, {"error": "BODY_TOO_LARGE",
+                                 "detail": f"body of {n} bytes exceeds the "
+                                           f"{cap}-byte cap for this endpoint"})
+                return None
+            return self.rfile.read(n)
+
+        def _send_static(self, name: str, ctype: str):
+            """Serve one allowlisted shell file as bytes. A missing file is an
+            honest 404 (SHELL_FILE_MISSING), never a silent empty page."""
+            path = _frontend_file(name)
+            if path is None:
+                return self._send(404, {"error": "SHELL_FILE_MISSING",
+                                        "file": name})
+            body = path.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", ctype)
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("X-Content-Type-Options", "nosniff")
+            # the service worker does shell caching; the server stays honest
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(body)
+
+        def do_GET(self):                                             # noqa: N802
+            # Static app shell FIRST, without the bearer (see _STATIC_ROUTES:
+            # fixed files, no data, no token). Everything below this line keeps
+            # requiring the bearer exactly as before.
+            from urllib.parse import parse_qs as _parse_qs
+            from urllib.parse import urlparse as _urlparse
+            parsed = _urlparse(self.path)
+            route = _STATIC_ROUTES.get(parsed.path)
+            if route is not None:
+                return self._send_static(*route)
+            if parsed.path == "/kill":
+                # the browser-convenience OFF-SWITCH: no bearer (it can only
+                # reduce capability); the optional kill token still gates it.
+                q = _parse_qs(parsed.query)
+                return self._do_kill(q.get("client_id", [""])[0],
+                                     q.get("token", [""])[0])
+            if not self._authed():
+                return self._send(401, {"error": "UNAUTHORIZED"})
+            if parsed.path == "/api/v1/control":
+                # what the app POLLS. Bearer-authed like every /api/v1 read;
+                # NEVER touched by the spend breaker - a spend-blocked phone
+                # must still see (and clear) its own state.
+                cid = _parse_qs(parsed.query).get("client_id", [""])[0]
+                try:
+                    return self._send(200, _ctrl.get(cid or None))
+                except ControlError as e:
+                    return self._send(500, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+            if self.path == "/api/v1/status":
+                last = kernel.ledger.last()
+                return self._send(200, {"ready": kernel.ready,
+                                        "root": str(kernel.paths.root),
+                                        "tree_id": kernel.paths.sentinel.tree_id,
+                                        "ledger_head": {"seq": last["seq"],
+                                                        "event": last["event"]}})
+            if self.path == "/api/v1/audit":
+                return self._send(200, kernel.audit())
+            if self.path == "/api/v1/jobs":
+                st = kernel.sched._state()
+                return self._send(200, {"measured_at": time.time(),
+                                        "jobs": {j: v["st"] for j, v in st.items()}})
+            if self.path == "/api/v1/health":
+                from cosmos_health import HealthBoard
+                return self._send(200, HealthBoard(kernel).run())
+            if self.path == "/api/v1/spend":
+                return self._send(200, kernel.spend.audit())
+            if self.path == "/api/v1/tools":
+                from cosmos_tools import ToolContracts
+                tc = getattr(kernel, "tools", None) or ToolContracts(kernel.ledger)
+                return self._send(200, {"measured_at": time.time(),
+                                        "report": tc.report()})
+            if self.path.startswith("/api/v1/events"):
+                # THE LIVE-BACKEND PRIMITIVE: ledger tail since a sequence - the
+                # interactive frontend polls this append-only; old events never refetch.
+                from urllib.parse import parse_qs, urlparse
+                q = parse_qs(urlparse(self.path).query)
+                raw_since = q.get("since_seq", ["0"])[0]
+                try:
+                    since = int(raw_since)
+                except ValueError:
+                    return self._send(400, {"error": "BAD_SINCE_SEQ",
+                                            "detail": f"since_seq must be an "
+                                                      f"integer: {raw_since[:64]!r}"})
+                if since < 0 or since > (1 << 62):
+                    return self._send(400, {"error": "BAD_SINCE_SEQ",
+                                            "detail": "since_seq must be a "
+                                                      "non-negative bounded integer"})
+                evs = [{"seq": r["seq"], "event": r["event"], "t": r["t"],
+                        "writer": r["writer"], "payload": r["payload"]}
+                       for r in kernel.ledger.verify() if r["seq"] > since][:100]
+                return self._send(200, {"head_seq": kernel.ledger.head_seq()
+                                        if hasattr(kernel.ledger, "head_seq")
+                                        else (evs[-1]["seq"] if evs else since),
+                                        "events": evs})
+            if self.path in ("/api/v1/rails", "/api/v1/nodes"):
+                reg = getattr(kernel, "registry", None)
+                if reg is None:
+                    # CRITIC M3 FIX: an uncomposed registry was a silent 200+empty -
+                    # "no links" and "not composed" read identically. 503 is the truth.
+                    return self._send(503, {"error": "REGISTRY_NOT_COMPOSED",
+                                            "detail": "kernel has no registry - this is "
+                                                      "a composition fault, not an empty "
+                                                      "rails matrix"})
+                return self._send(200, {"measured_at": time.time(),
+                                        "matrix": reg.matrix()})
+            if self.path.startswith("/api/v1/makers"):
+                from urllib.parse import parse_qs, urlparse
+                from cosmos_makers import MakerError
+                parsed = urlparse(self.path)
+                if parsed.path != "/api/v1/makers":
+                    return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+                mm = getattr(kernel, "makers", None)
+                if mm is None:
+                    # M3: "not composed" is not "empty". GET must not seed (B1).
+                    return self._send(503, {"error": "MAKERS_NOT_COMPOSED",
+                                            "detail": "kernel has no maker map - this is "
+                                                      "a composition fault, not an empty "
+                                                      "catalog"})
+                q = parse_qs(parsed.query)
+                kind = q.get("kind", [None])[0]
+                tag = q.get("tag", [None])[0]
+                text = q.get("text", [None])[0]
+                try:
+                    rows = mm.find(tag=tag, kind=kind, text=text)
+                except MakerError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                return self._send(200, {"measured_at": time.time(),
+                                        "makers": rows})
+            if parsed.path == "/api/v1/cvm/pull":
+                # CVM P3 additive. Bearer already checked. Projection is the
+                # source of truth; this branch does not rewrite pull.json and
+                # does not append the ledger.
+                cid = (_parse_qs(parsed.query).get("client_id", [""])[0]
+                       or "").strip()
+                if not cid:
+                    return self._send(400, {"error": "CLIENT_ID_REQUIRED",
+                                            "detail": "client_id query is required"})
+                try:
+                    return self._send(200, _cvm_pull_response(kernel, cid))
+                except CvmError as e:
+                    code = 400 if e.kind in (
+                        "IDENTITY_MISMATCH", "CLIENT_ID_REQUIRED",
+                        "BAD_SNAPSHOT") else 500
+                    return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+            return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+
+        def do_POST(self):                                            # noqa: N802
+            if self.path == "/api/v1/kill":
+                # the HUMAN OFF-SWITCH: served without the bearer, because it
+                # can only reduce capability (mic_off + clear_queue) and must
+                # work from anything that can reach the port. Optional token
+                # gate via config/kill_token.txt. Body is optional JSON.
+                d = {}
+                if self.headers.get("Content-Length"):
+                    body = self._read_body()
+                    if body is None:
+                        return
+                    if body.strip():
+                        try:
+                            d = json.loads(body.decode("utf-8"))
+                        except Exception:                         # noqa: BLE001
+                            d = {}
+                if not isinstance(d, dict):
+                    d = {}
+                return self._do_kill(str(d.get("client_id") or ""),
+                                     str(d.get("token") or ""))
+            if not self._authed():
+                return self._send(401, {"error": "UNAUTHORIZED"})
+            if self.path == "/api/v1/control/resume":
+                # the explicit road back: clears the control flags AND resets
+                # the local spend counters ("say 'resume' or clear it on the
+                # desktop"). Bearer-authed: OFF is cheap by design, ON is a
+                # deliberate act.
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                cid = str(d.get("client_id") or "") or None
+                st = _ctrl.resume(cid)
+                cleared = _guard.clear(cid)
+                return self._send(200, {"resumed": True, "client_id": cid,
+                                        "spend_counters_cleared": cleared,
+                                        "control": st})
+            if self.path == "/api/v1/voice":
+                # VOICE MODE: session-continuous voice seam. Body:
+                #   {transcript, session_id?, mode?, confirm_id?}
+                # No session_id -> a session is minted and returned; the client
+                # carries the sid (the sid, not the handset, holds the
+                # conversation). Consequential transcripts come back
+                # needs_confirm+confirm_id - NEVER executed silently.
+                import hashlib as _hashlib
+                from cosmos_command import Commander
+                from cosmos_convo import ConvoStore, ConvoError
+                from cosmos_voice import VoiceMode, VoiceError, MAX_TRANSCRIPT
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                    # Input caps BEFORE anything touches the chain: an
+                    # oversized transcript/title is a 400, not a ledger write.
+                    transcript = str(d.get("transcript") or "")
+                    if len(transcript) > MAX_TRANSCRIPT:
+                        return self._send(400, {
+                            "error": "TRANSCRIPT_TOO_LONG",
+                            "detail": f"transcript of {len(transcript)} chars "
+                                      f"exceeds the {MAX_TRANSCRIPT}-char cap"})
+                    title = str(d.get("title") or "voice session")
+                    if len(title) > 200:
+                        return self._send(400, {
+                            "error": "TITLE_TOO_LONG",
+                            "detail": f"title of {len(title)} chars exceeds "
+                                      f"the 200-char cap"})
+                    # ---- HARDENING (2026-08-25): telemetry fields in, then
+                    # control -> dedupe -> spend breaker, ALL before anything
+                    # touches a model, the orchestrator, or the convo chain.
+                    client_id = str(d.get("client_id") or "")[:120]
+                    build = str(d.get("build") or "")[:120]
+                    stream = str(d.get("stream") or d.get("project")
+                                 or "").strip().lower()[:40]
+                    idem = str(d.get("idempotency_key") or "")[:120]
+                    sid_in = str(d.get("session_id") or "") or None
+                    guard_key = sid_in or client_id or "anon"
+                    # 1. CONTROL: pause/mic_off refuses FAST, zero spend, zero
+                    # ledger writes. blocked() fails closed by construction.
+                    is_blocked, why = _ctrl.blocked(client_id or None)
+                    if is_blocked:
+                        return self._send(200, self._voice_refused(
+                            sid_in, "refused", "CONTROL_BLOCKED",
+                            f"[CONTROL_BLOCKED] voice is {why} - nothing was "
+                            f"recorded, nothing was spent; resume from the "
+                            f"desktop or POST /api/v1/control/resume",
+                            "Voice is paused."))
+                    # 2. DEDUPE: an identical (client_id, utterance [+ confirm
+                    # nonce]) inside the window is the SAME utterance heard
+                    # twice - dropped, zero spend. The confirm_id is part of
+                    # the key so a confirm re-call is never eaten as a dupe.
+                    if transcript.strip():
+                        dk = idem or _hashlib.sha256(
+                            (client_id + "|"
+                             + " ".join(transcript.split()).lower() + "|"
+                             + str(d.get("confirm_id") or "")
+                             ).encode("utf-8")).hexdigest()
+                        now_d = time.time()
+                        with _dedupe_lock:
+                            for k in [k for k, t0 in _dedupe.items()
+                                      if now_d - t0 > DEDUPE_WINDOW_S]:
+                                del _dedupe[k]
+                            dup = dk in _dedupe
+                            if not dup:
+                                _dedupe[dk] = now_d
+                        if dup:
+                            return self._send(200, self._voice_refused(
+                                sid_in, "duplicate", "DUPLICATE",
+                                f"[DUPLICATE] identical utterance from this "
+                                f"client within {DEDUPE_WINDOW_S:.0f}s - "
+                                f"dropped, nothing was recorded, nothing "
+                                f"was spent", ""))
+                    # 3. SPEND BREAKER: session/day USD caps + rate limit,
+                    # BEFORE any model/orchestrator call. Fails CLOSED; a
+                    # refusal is a canned LOCAL reply costing zero.
+                    allowed, reason = _guard.check(guard_key)
+                    if not allowed:
+                        return self._send(200, self._voice_refused(
+                            sid_in, "refused", "SPEND_BLOCKED",
+                            f"[SPEND_BLOCKED] {reason} - {PAUSED_REPLY}",
+                            PAUSED_REPLY))
+                    # 4. TELEMETRY: the build/stream/client provenance goes on
+                    # the chain (only when a client actually sent any - a bare
+                    # caller adds no ledger noise). Best-effort by design.
+                    if client_id or build or stream or idem:
+                        try:
+                            kernel.ledger.append("VOICE_TELEMETRY", {
+                                "client_id": client_id, "build": build,
+                                "stream": stream, "session_id": sid_in,
+                                "idempotency_key": idem})
+                        except Exception:                         # noqa: BLE001
+                            pass
+                    # 5. BOOTUP (read-only): a payload asking for bootup gets
+                    # the stream's handoff summary - no model, no writes.
+                    if str(d.get("action") or "").strip().lower() == "bootup":
+                        return self._send(200, _bootup_summary(
+                            stream, session_id=sid_in))
+                    # The authenticated principal: derived from the bearer the
+                    # request just proved it holds. One principal today;
+                    # device-scoped tokens will each derive their own, and the
+                    # ownership seam is already closed.
+                    principal = ("bearer:" + _hashlib.sha256(
+                        token.encode("utf-8")).hexdigest()[:16])
+                    convo = ConvoStore(kernel.ledger, clock=kernel._clock)
+                    # ASK: compose the asker OVER the spend gate. VoiceMode never
+                    # spends - the money decision lives HERE (guarded_call: reserve
+                    # -> deny-or-call -> settle). Incumbents/gate absent -> asker
+                    # stays None and 'ask' refuses in-band (ASK_UNAVAILABLE).
+                    asker = None
+                    _spend = getattr(kernel, "spend", None)
+                    if _spend is not None:
+                        try:
+                            from cosmos_node_rails import NodeRail
+                            _ASK_RAILS = {
+                                "grok":   ("sgh-api", "bts_sgh", 0.02, 10.0),
+                                "gemini": ("gem-api", "bts_gem", 0.03, 300.0),
+                                "openai": ("oa-api", "bts_oa_api", 0.05, 5.0),
+                            }
+
+                            def asker(question, model=None):
+                                link, mod, est, budget = _ASK_RAILS.get(
+                                    model or "grok", _ASK_RAILS["grok"])
+                                if link not in _spend.audit()["rails"]:
+                                    _spend.set_budget(link, budget)
+                                rail = NodeRail(mod, metered_usd=est)
+                                r = _spend.guarded_call(
+                                    link, est,
+                                    lambda: rail.dispatch({"prompt": question}))
+                                if not r.get("ok"):
+                                    return {"ok": False, "error": r.get("kind"),
+                                            "detail": r.get("detail")}
+                                return {"text": r.get("text", ""),
+                                        "model": r.get("node", mod),
+                                        "usd": r.get("usd")}
+                        except Exception:                             # noqa: BLE001
+                            asker = None
+                    # HANDED ORCHESTRATOR: free speech gets TOOLS and a BRAIN.
+                    # HYBRID ROUTING (2026-08-25): obvious file/data lookups
+                    # stay on the FAST LOCAL path - rule-routed to search_files
+                    # (x.ai's Responses API doesn't do chat-completions function
+                    # calling), the spend-gated Grok ask phrases the found
+                    # paths; these must stay instant, NO Opus call. Everything
+                    # else - the free-form conversational turn - goes to the
+                    # OPUS brain via the local claude CLI (cosmos_brain), with
+                    # native read access to the stream's roots (--add-dir) and
+                    # a claude session derived DETERMINISTICALLY from the
+                    # COSMOS sid, so the road conversation is resumable in the
+                    # desktop app via /resume. Opus is BOUNDED: control state
+                    # and the rate limit are re-checked before EVERY Opus call
+                    # (an orchestrator run can call more than once), plus the
+                    # per-session TURN CAP; a timeout/failure/over-cap FALLS
+                    # BACK to Grok so voice never hangs on a dead brain. Which
+                    # brain answered lands on the reply and the ledger. Tools
+                    # are READ-ONLY over registered roots + the real ITC.
+                    # Absent gate -> orchestrator None and VoiceMode falls
+                    # back to the bare asker.
+                    orchestrator = None
+                    _brain_used = {"brain": "local", "why": ""}
+                    _sid_box = {"sid": sid_in}
+                    if _spend is not None:
+                        try:
+                            import re as _re, sys as _sys  # noqa: F401
+                            _sgh = None       # no-BTS (P4): the SGH brain import is
+                            # retired; cosmos_brain (below) is the only brain path.
+                            try:
+                                import cosmos_brain as _cbrain
+                            except Exception:                     # noqa: BLE001
+                                _cbrain = None    # Grok-only host: no brain
+                            from cosmos_orchestrator import (Orchestrator,
+                                                             build_tools)
+                            # Legal + COSMOS FIRST (small, high-signal) so a hit
+                            # lands before V:\Ai's huge tmp/ exhausts the walk cap.
+                            _ROOTS = [r"V:\Ai\Legal", r"V:\A\Ai\COSMOS",
+                                      r"V:\Ai\ROLD", r"V:\Ai\BTS_MESH", r"V:\Ai"]
+                            # STREAM SCOPING (2026-08-25): a declared stream
+                            # puts its roots FIRST, so the walk cap spends
+                            # itself where the session actually lives.
+                            if stream in STREAM_ROOTS:
+                                _sr = STREAM_ROOTS[stream]
+                                _ROOTS = _sr + [r for r in _ROOTS
+                                                if r not in _sr]
+                            if _sgh is not None \
+                                    and "sgh-api" not in _spend.audit()["rails"]:
+                                _spend.set_budget("sgh-api", 10.0)
+                            _PRE = ("You are COSMOS, the user's self-hosted voice "
+                                    "assistant with access to his files. Answer "
+                                    "concisely for text-to-speech - a few plain "
+                                    "sentences, no markdown. When search results "
+                                    "are provided, answer from them and name the "
+                                    "file(s) found.")
+
+                            def _grok_call(ctx):
+                                """The spend-gated Grok ask (the old synthesis
+                                path, and the Opus fallback). VOICE PATH ONLY:
+                                wall-clock cap = cosmos_brain.GROK_FALLBACK_S
+                                (never the rail default 60s) so Opus 45 +
+                                Grok fallback stays inside the 70s client."""
+                                grok_s = (
+                                    float(_cbrain.GROK_FALLBACK_S)
+                                    if _cbrain is not None else 20.0)
+                                box = {"r": None, "e": None}
+
+                                def _invoke():
+                                    try:
+                                        if _sgh is not None:
+                                            r = _spend.guarded_call(
+                                                "sgh-api", 0.02,
+                                                lambda: _sgh.ask(ctx))
+                                        elif asker is not None:
+                                            # P4 retired the direct bts_sgh
+                                            # import; reuse the already-
+                                            # composed voice asker (NodeRail).
+                                            out = asker(ctx, "grok")
+                                            if out.get("ok") is False:
+                                                raise RuntimeError(
+                                                    f"[{out.get('error')}] "
+                                                    f"{out.get('detail')}")
+                                            r = {"ok": True,
+                                                 "text": out.get("text") or ""}
+                                        else:
+                                            raise RuntimeError(
+                                                "[NO_RAIL] no Grok rail "
+                                                "composed and the Opus "
+                                                "brain did not answer")
+                                        box["r"] = r
+                                    except Exception as e:        # noqa: BLE001
+                                        box["e"] = e
+
+                                th = threading.Thread(
+                                    target=_invoke, daemon=True)
+                                th.start()
+                                th.join(grok_s)
+                                if th.is_alive():
+                                    raise RuntimeError(
+                                        f"[TIMEOUT] grok fallback exceeded "
+                                        f"{grok_s:.0f}s")
+                                if box["e"] is not None:
+                                    raise box["e"]
+                                r = box["r"] or {}
+                                if not r.get("ok"):
+                                    raise RuntimeError(
+                                        f"[{r.get('kind')}] {r.get('detail')}")
+                                return {"ok": True,
+                                        "content": r.get("text")
+                                        or r.get("content") or ""}
+
+                            def _model_call(messages, tools_schema):
+                                user = next((m["content"] for m in messages
+                                             if m.get("role") == "user"), "")
+                                ran = [m for m in messages
+                                       if m.get("role") == "tool"]
+                                if not ran:
+                                    low = user.lower()
+                                    # COMMAND/LOOKUP SHAPE -> the fast local
+                                    # path, exactly as before. NO Opus call.
+                                    if any(k in low for k in (
+                                            "find", "search", "where", "look for",
+                                            "locate", "show me", "list")):
+                                        stop = {"find", "search", "where", "is",
+                                                "are", "the", "a", "an", "my",
+                                                "for", "look", "locate", "show",
+                                                "me", "in", "on", "under", "of",
+                                                "stream", "file", "files", "about",
+                                                "to", "and", "list", "please"}
+                                        ws = _re.findall(r"[a-z0-9_.\-]+", low)
+                                        terms = [w for w in ws
+                                                 if w not in stop and len(w) > 2]
+                                        q = " ".join(terms[:4]) if terms else user
+                                        return {"ok": True, "tool_calls": [
+                                            {"id": "1", "name": "search_files",
+                                             "arguments": {"query": q}}]}
+                                    # FREE-FORM -> the OPUS brain, BOUNDED.
+                                    if _cbrain is not None and _turns is not None:
+                                        blkd, bwhy = _ctrl.blocked(
+                                            client_id or None)
+                                        if blkd:
+                                            raise RuntimeError(
+                                                f"[CONTROL_BLOCKED] voice is "
+                                                f"{bwhy} - refused mid-turn")
+                                        ok_g, why_g = _guard.check(guard_key)
+                                        if not ok_g:
+                                            raise RuntimeError(
+                                                f"[SPEND_BLOCKED] {why_g}")
+                                        cos_sid = (_sid_box.get("sid")
+                                                   or guard_key)
+                                        t_ok, t_why = _turns.check(cos_sid)
+                                        if t_ok:
+                                            rb = _cbrain.opus_ask(
+                                                user, session_id=cos_sid,
+                                                stream=stream or None,
+                                                timeout=_cbrain.OPUS_TIMEOUT_S,
+                                                add_dirs=(
+                                                    STREAM_ROOTS.get(stream)
+                                                    or _ROOTS[:2]))
+                                            if rb.get("ok") and str(
+                                                    rb.get("text")
+                                                    or "").strip():
+                                                _turns.record(cos_sid)
+                                                _brain_used.update(
+                                                    brain="opus", why="")
+                                                return {"ok": True,
+                                                        "content": str(
+                                                            rb["text"]).strip()}
+                                            _brain_used.update(
+                                                brain="grok",
+                                                why=str(rb.get("error")
+                                                        or "OPUS_EMPTY"))
+                                        else:
+                                            _brain_used.update(
+                                                brain="grok", why=t_why)
+                                    else:
+                                        _brain_used.update(
+                                            brain="grok",
+                                            why="BRAIN_NOT_COMPOSED")
+                                    # FALLBACK: the spend-gated Grok ask -
+                                    # voice never hangs on a dead brain.
+                                    return _grok_call(
+                                        _PRE + "\n\nUser asked: " + user)
+                                # tool results ran: the fast LOCAL lookup lane
+                                # finishes as before - Grok phrases the found
+                                # paths. No Opus call on this lane either.
+                                ctx = _PRE + "\n\nUser asked: " + user
+                                for tr in ran:
+                                    ctx += ("\n\nSearch results:\n"
+                                            + str(tr.get("content"))[:2500])
+                                return _grok_call(ctx)
+                            orchestrator = Orchestrator(
+                                _model_call,
+                                build_tools(_ROOTS, getattr(kernel, "itc", None)),
+                                clock=kernel._clock)
+                        except Exception:                             # noqa: BLE001
+                            orchestrator = None
+                    vm = VoiceMode(convo, Commander(kernel),
+                                   getattr(kernel, "itc", None),
+                                   asker=asker, orchestrator=orchestrator,
+                                   clock=kernel._clock)
+                    sid = sid_in
+                    if not sid:
+                        # the minted session CARRIES ITS STREAM as scope, so
+                        # a reconnect knows what the conversation was about.
+                        sid = convo.create_session(
+                            title,
+                            scope=([f"stream:{stream}"] if stream else None),
+                            owner=principal)
+                    else:
+                        # NO_SESSION on a sid this principal does not own -
+                        # existence is never leaked across principals.
+                        convo.assert_owner(sid, principal)
+                    # the brain needs the REAL sid (minted or given) so the
+                    # claude session maps to the COSMOS session, not the
+                    # guard key. The closure reads this box at call time.
+                    _sid_box["sid"] = sid
+                    out = vm.handle(
+                        sid, transcript,
+                        mode=str(d.get("mode") or "voice"),
+                        confirm_id=d.get("confirm_id"))
+                    # ---- WHICH BRAIN answered (opus|grok|local, or the ask
+                    # verb's model name): on the reply for the client, and on
+                    # the ledger for the audit. Best-effort by design.
+                    brain = _brain_used["brain"]
+                    if brain == "local":
+                        for s_ in out.get("sources") or []:
+                            if isinstance(s_, str) and s_.startswith("model:"):
+                                brain = s_[6:] or "grok"
+                                break
+                    out["brain"] = brain
+                    if _brain_used["why"]:
+                        out["brain_note"] = _brain_used["why"]
+                    if out.get("kind") in ("chat", "ask"):
+                        try:
+                            kernel.ledger.append("VOICE_BRAIN", {
+                                "brain": brain,
+                                "why": _brain_used["why"],
+                                "session_id": out.get("session_id") or sid,
+                                "kind": out.get("kind")})
+                        except Exception:                     # noqa: BLE001
+                            pass
+                    # ---- SPEND ACCOUNTING for the breaker: usd:<x> sources
+                    # are the measured spend; an unpriced or unlabeled model
+                    # answer records the worst-case estimate (never free).
+                    try:
+                        usd = 0.0
+                        for s_ in out.get("sources") or []:
+                            if isinstance(s_, str) and s_.startswith("usd:"):
+                                v = s_[4:]
+                                usd += (CALL_EST_USD if v == "unpriced"
+                                        else float(v))
+                        # an OPUS answer rides the subscription, not the USD
+                        # rails - its bound is the TURN CAP, so it is not
+                        # charged the per-call estimate (charging it would
+                        # conflate two budgets and starve the Grok fallback).
+                        if usd <= 0.0 and out.get("ok") \
+                                and out.get("kind") in ("chat", "ask") \
+                                and _brain_used["brain"] != "opus":
+                            usd = CALL_EST_USD
+                        if usd > 0.0:
+                            _guard.record(out.get("session_id") or sid, usd)
+                    except Exception:                             # noqa: BLE001
+                        pass
+                    return self._send(200, out)
+                except (VoiceError, ConvoError) as e:
+                    return self._send(400, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            if self.path == "/api/v1/command":
+                # the voice/frontend seam, served: text in, kernel action out
+                from cosmos_command import Commander, CommandError
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                    return self._send(200, Commander(kernel).handle(str(d["text"])))
+                except CommandError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            if self.path == "/api/v1/crucible":
+                # REMOTE CRUCIBLE (Keith's ruling): a crucible round is a scheduled
+                # job. The handler is the worker: submit -> claim -> cosmos_crucible
+                # -> returns land on disk -> done. A print stub is not a round; if
+                # no critic dispatchers are composed, 501 is the honest answer.
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                names = list(d.get("critics") or [])
+                dispatchers = _crucible_dispatchers(kernel, names)
+                if dispatchers is None:
+                    kernel.ledger.append("CRUCIBLE_REFUSED",
+                                         {"kind": "CRUCIBLE_NOT_RUNNABLE",
+                                          "sources": d.get("sources", []),
+                                          "critics": names})
+                    return self._send(501, {
+                        "error": "CRUCIBLE_NOT_RUNNABLE",
+                        "detail": "no composed critic dispatchers for this round - "
+                                  "refusing to queue a print stub (a queued print "
+                                  "is not a crucible)"})
+                from cosmos_crucible import Crucible, CrucibleError
+                from cosmos_paths import CosmosPathError
+                try:
+                    srcs = [kernel.paths.role("docs", s) for s in d["sources"]]
+                except CosmosPathError as e:
+                    kernel.ledger.append("CRUCIBLE_REFUSED",
+                                         {"kind": e.kind, "sources": d.get("sources")})
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                cmd = "crucible:round " + json.dumps(
+                    {"sources": list(d["sources"]),
+                     "critics": sorted(dispatchers)}, sort_keys=True)
+                try:
+                    jid = kernel.sched.submit(cmd, d.get("priority", "high"),
+                                              lane="crucible")
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                kernel.ledger.append("CRUCIBLE_REQUESTED",
+                                     {"job_id": jid, "sources": d["sources"],
+                                      "critics": list(dispatchers)})
+                claimed = False
+                q = kernel.sched.queued()
+                if q and q[0]["job_id"] == jid:
+                    kernel.sched.claim_next()
+                    claimed = True
+                out_dir = kernel.paths.role("work", "crucible", jid)
+                try:
+                    cru = Crucible(kernel.ledger, out_dir)
+                    pkt = cru.build_packet(
+                        f"# CRUCIBLE ROUND\njob_id: {jid}\n", srcs)
+                    verdict = cru.run_round(pkt, dispatchers)
+                    merge = cru.merge_skeleton(verdict)
+                    outcome = ("FINDINGS" if (verdict["failed"] or verdict["warning"])
+                               else "CLEAN")
+                    if claimed:
+                        kernel.sched.done(jid, outcome,
+                                          f"returned={sorted(verdict['returned'])}")
+                    return self._send(201, {
+                        "job_id": jid,
+                        "sources": [str(s) for s in srcs],
+                        "out_dir": str(out_dir),
+                        "returned": verdict["returned"],
+                        "failed": verdict["failed"],
+                        "merge": str(merge),
+                        "outcome": outcome if claimed else "QUEUED"})
+                except CrucibleError as e:
+                    if claimed:
+                        kernel.sched.done(jid, "BROKE", f"{e.kind}: {e}"[:200])
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    if claimed:
+                        try:
+                            kernel.sched.done(jid, "BROKE", str(e)[:200])
+                        except Exception:                             # noqa: BLE001
+                            pass
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            if self.path == "/api/v1/jobs":
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                    jid = kernel.sched.submit(d["command"], d.get("priority", "normal"))
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST", "detail": str(e)[:200]})
+                return self._send(201, {"job_id": jid})
+            if self.path == "/api/v1/makers":
+                from cosmos_makers import MakerError
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8"))
+                    mm = getattr(kernel, "makers", None)
+                    if mm is None:
+                        return self._send(503, {"error": "MAKERS_NOT_COMPOSED",
+                                                "detail": "kernel has no maker map - this "
+                                                          "is a composition fault"})
+                    rec = mm.add(d)
+                    return self._send(201, {"maker": rec})
+                except MakerError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                except Exception as e:                                # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            from urllib.parse import urlparse as _cvm_urlparse
+            _cvm_post = _cvm_urlparse(self.path).path
+            if _cvm_post in ("/api/v1/cvm/snapshot", "/api/v1/cvm/push"):
+                # CVM additive. Snapshot lands phone.json. Push composes that
+                # helper then stamps pull.json audio_owner=desktop. Bearer
+                # already checked. Never ledger. One parse, one error map.
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_SNAPSHOT",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    if _cvm_post == "/api/v1/cvm/push":
+                        from cosmos_cvm_push import cvm_store_push
+                        return self._send(200, cvm_store_push(kernel, d))
+                    return self._send(200, _cvm_store_snapshot(kernel, d))
+                except CvmError as e:
+                    code = 500 if e.kind in ("UNPARSEABLE", "UNREADABLE") else 400
+                    return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+            return self._send(404, {"error": "NOT_FOUND", "path": self.path})
+
+        def log_message(self, *a):                                    # quiet server
+            pass
+
+    return Handler
+
+
+def _san_entries(host: str) -> tuple[list[str], list]:
+    """(dns_names, ip_addresses) the cert must cover so a LAN client can VERIFY,
+    not just encrypt. Always: cosmos.local, localhost, this machine's hostname,
+    127.0.0.1, ::1. Plus the actual bind host (as IP or DNS), and on a wildcard
+    bind (0.0.0.0 / ::) the machine's resolvable local IPs - a cert whose SAN
+    names none of the addresses it is served on cannot be verified by anyone."""
+    import ipaddress
+    import socket
+    dns = {"cosmos.local", "localhost"}
+    ips = {ipaddress.ip_address("127.0.0.1"), ipaddress.ip_address("::1")}
+    try:
+        hn = socket.gethostname()
+        if hn:
+            dns.add(hn)
+    except OSError:
+        hn = ""
+    h = (host or "").strip()
+    wildcard = h in ("", "0.0.0.0", "::")
+    if h and not wildcard:
+        try:
+            ips.add(ipaddress.ip_address(h))
+        except ValueError:
+            dns.add(h)
+    if wildcard and hn:
+        try:
+            for info in socket.getaddrinfo(hn, None):
+                try:
+                    ips.add(ipaddress.ip_address(info[4][0]))
+                except ValueError:
+                    pass
+        except OSError:
+            pass
+    return sorted(dns), sorted(ips, key=str)
+
+
+def _ensure_cert(kernel, host: str = "127.0.0.1") -> tuple[str, str] | None:
+    """Self-signed cert for HTTPS, generated into config/. Returns (cert, key)
+    paths, or None if the crypto lib is unavailable (then the caller stays HTTP and
+    SAYS SO - never a silent downgrade). The SAN covers the ACTUAL bind host/IP
+    (plus the documented names) - a cert naming only cosmos.local/localhost cannot
+    be verified by a LAN client dialing an IP, which reduces 'HTTPS' to unverified
+    encryption. An existing cert that already covers the needed names is reused;
+    one that does not is regenerated in place. A self-signed cert on a LAN is real
+    transport encryption; a public CA cert is a later cutover step."""
+    cfg = kernel.paths.config
+    cert, key = str(cfg("cosmos_cert.pem")), str(cfg("cosmos_key.pem"))
+    from pathlib import Path as _P
+    try:
+        import datetime as _dt
+        from cryptography import x509
+        from cryptography.x509.oid import NameOID
+        from cryptography.hazmat.primitives import hashes, serialization
+        from cryptography.hazmat.primitives.asymmetric import rsa
+    except Exception:                                                # noqa: BLE001
+        # No crypto lib: a pre-provisioned pair still serves; nothing can be minted.
+        if _P(cert).exists() and _P(key).exists():
+            return cert, key
+        return None
+    dns_names, ip_addrs = _san_entries(host)
+    if _P(cert).exists() and _P(key).exists():
+        try:
+            existing = x509.load_pem_x509_certificate(_P(cert).read_bytes())
+            san = existing.extensions.get_extension_for_class(
+                x509.SubjectAlternativeName).value
+            have_dns = set(san.get_values_for_type(x509.DNSName))
+            have_ip = {str(i) for i in san.get_values_for_type(x509.IPAddress)}
+            if (set(dns_names) <= have_dns
+                    and {str(i) for i in ip_addrs} <= have_ip):
+                return cert, key
+            # else: falls through and regenerates with the full SAN set
+        except Exception:                                            # noqa: BLE001
+            pass                     # unreadable or SAN-less cert: regenerate
+    try:
+        k = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+        name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "cosmos.local")])
+        sans = ([x509.DNSName(d) for d in dns_names]
+                + [x509.IPAddress(i) for i in ip_addrs])
+        cert_obj = (x509.CertificateBuilder()
+                    .subject_name(name).issuer_name(name).public_key(k.public_key())
+                    .serial_number(x509.random_serial_number())
+                    .not_valid_before(_dt.datetime.utcnow())
+                    .not_valid_after(_dt.datetime.utcnow() + _dt.timedelta(days=825))
+                    .add_extension(x509.SubjectAlternativeName(sans), critical=False)
+                    .sign(k, hashes.SHA256()))
+        _write_private(key, k.private_bytes(
+            serialization.Encoding.PEM, serialization.PrivateFormat.TraditionalOpenSSL,
+            serialization.NoEncryption()))
+        _P(cert).write_bytes(cert_obj.public_bytes(serialization.Encoding.PEM))
+        return cert, key
+    except Exception:                                                # noqa: BLE001
+        return None
+
+
+class Service:
+    """Serve a kernel. serve_background() for tests; serve_forever() for the real thing.
+
+    REMOTE ACCESS + HTTPS (Keith, 2026-08-23): host="0.0.0.0" binds the LAN; the bearer
+    token is access control. tls=True wraps the socket with a self-signed cert generated
+    into config/ (real transport encryption on the LAN; SAN covers the bind host/IP so
+    clients can verify). A NON-LOOPBACK bind REFUSES to start unless TLS is actually up
+    (REMOTE_CLEARTEXT) - a bearer token over LAN HTTP is captured and replayed by any
+    observer. On loopback, if the crypto lib is absent the service stays HTTP and
+    RECORDS the downgrade in .scheme - never a silent claim of encryption. A public-CA
+    cert for internet exposure is a later cutover step."""
+
+    def __init__(self, kernel: Kernel, host: str = "127.0.0.1", port: int = 0,
+                 tls: bool = False, cert_file: str | None = None,
+                 key_file: str | None = None, open_access: bool = False,
+                 insecure_http: bool = False):
+        remote = _is_remote_bind(host)
+        self.open_access = open_access
+        if open_access:
+            # bearer auth disabled (trial). No token minted/loaded; the network
+            # (Tailscale/LAN) is the access control. Reversible: drop --no-auth.
+            self.token = ""
+        else:
+            tok_file = kernel.paths.config("api_token.txt")
+            self.token = _load_api_token(tok_file, remote=remote)
+        self.httpd = ThreadingHTTPServer((host, port),
+                                         make_handler(kernel, self.token, open_access))
+        self.scheme = "http"
+        self.cert_source = None
+        if cert_file or key_file:
+            # A provided pair IS the TLS instruction: use it, do not self-sign.
+            from pathlib import Path as _P
+            problems = []
+            if not (cert_file and key_file):
+                problems.append("cert_file and key_file must BOTH be given - half a "
+                                "pair cannot serve TLS")
+            else:
+                for label, pth in (("cert_file", cert_file), ("key_file", key_file)):
+                    if not _P(pth).is_file():
+                        problems.append(f"{label} does not exist: {pth}")
+            if problems:
+                self.httpd.server_close()
+                raise ServiceError("CERT_NOT_FOUND", "; ".join(problems))
+            import ssl
+            ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+            try:
+                ctx.load_cert_chain(certfile=cert_file, keyfile=key_file)
+            except Exception:
+                self.httpd.server_close()
+                raise
+            self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+            self.scheme = "https"
+            self.cert_source = "provided"
+        elif tls:
+            pair = _ensure_cert(kernel, host)
+            if pair:
+                import ssl
+                ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+                ctx.load_cert_chain(certfile=pair[0], keyfile=pair[1])
+                self.httpd.socket = ctx.wrap_socket(self.httpd.socket, server_side=True)
+                self.scheme = "https"
+                self.cert_source = "self-signed"
+            # else: stayed http; self.scheme records the honest truth
+        if remote and self.scheme != "https" and not insecure_http:
+            # A non-loopback bind over cleartext HTTP serves the bearer token to
+            # any LAN observer on every request - capture and replay. The honest
+            # HTTP fallback is for LOOPBACK only; remotely it is an open door,
+            # so the service refuses to start rather than start downgraded.
+            # insecure_http (TRIAL, reversible): Keith's explicit opt-in to serve
+            # plain HTTP on a private LAN - paired with --no-auth (no token to leak)
+            # and a Chrome insecure-origin flag, to test the mic without a cert.
+            self.httpd.server_close()
+            raise ServiceError(
+                "REMOTE_CLEARTEXT",
+                f"refusing to serve a non-loopback bind ({host!r}) without TLS - "
+                f"the bearer token would cross the network in the clear; pass "
+                f"tls=True (and have the 'cryptography' lib installed), or bind "
+                f"loopback")
+        self.port = self.httpd.server_address[1]
+
+    def serve_background(self) -> threading.Thread:
+        t = threading.Thread(target=self.httpd.serve_forever, daemon=True)
+        t.start()
+        return t
+
+    def shutdown(self):
+        self.httpd.shutdown()
+<<<FILE_END>>>

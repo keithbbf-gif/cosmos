@@ -1,0 +1,24 @@
+{
+ "gem": {
+  "harness_stdout": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json.stdout.txt",
+  "harness_bytes": 11638,
+  "docs_path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_gem-api.md",
+  "docs_bytes": 11638,
+  "work_path": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_rtb\\cvmdt_CRITIQUE_gem-api.md",
+  "work_bytes": 11638,
+  "sha256_16": "f94061e1b3ec7f28",
+  "head": "# cvm_dt - Motif stage-5 critique (gem-api)\r\n\r\nThis critique assesses `builds/cv",
+  "nonempty": true
+ },
+ "oa": {
+  "harness_stdout": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json.stdout.txt",
+  "harness_bytes": 16484,
+  "docs_path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_oa-api.md",
+  "docs_bytes": 16484,
+  "work_path": "V:\\A\\Ai\\COSMOS\\work\\g46_critfix_rtb\\cvmdt_CRITIQUE_oa-api.md",
+  "work_bytes": 16484,
+  "sha256_16": "3f8962ca56c0ed1a",
+  "head": "# cvmdt - Motif stage-5 critique (oa-api)\r\n\r\n## Evidence boundary\r\n\r\nThis review",
+  "nonempty": true
+ }
+}

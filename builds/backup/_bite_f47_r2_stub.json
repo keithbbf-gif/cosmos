@@ -1,0 +1,13 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "ADAPTERS[r2] pre-change stub",
+ "staged": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_backup_f47_r2adapter_20260831T065325Z\\cosmos_backup.py",
+ "r2_raises": "NotImplementedError",
+ "r2_kind": null,
+ "has_do_rehearse_target": false,
+ "default_excludes": [
+  ".git"
+ ],
+ "all_bite": true,
+ "r2_detail": "R2 (Cloudflare; credentials are Keith's door, never read here) adapter is a seam only \u2014 use cosmos_backup_r2.R2Target (credentials are Keith's door, never read here)."
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-newai-scout/1",
+ "clock_id": 23,
+ "ok": true,
+ "state": "SCOUTED",
+ "dry_run": true,
+ "known_count": 75,
+ "ingress_count": 15,
+ "proposed_count": 15,
+ "sources": [
+  {
+   "id": "NEW_AI_SCOUT.md",
+   "path": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "present": true,
+   "names": 15,
+   "ok": true
+  },
+  {
+   "id": "NEW_AI_DISCOVERY.md",
+   "path": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_DISCOVERY.md",
+   "present": true,
+   "names": 0,
+   "ok": true
+  }
+ ],
+ "tree_id": "KMesh-COSMOS-live",
+ "writes": 0,
+ "_readme": "PROPOSE-ONLY. Candidates are not COMPETENCY rows and not rails. COW wires, or not. cosmos_discover.py still inventories known hands.",
+ "heartbeat": "newai_scout_heartbeat.json",
+ "projection": "V:\\A\\Ai\\COSMOS\\live\\state\\discovery\\newai_scout.json"
+}

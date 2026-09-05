@@ -1,0 +1,17 @@
+BITE — test_mesh_blockers.py against the PRE-FIX module
+(staged at _delme/predispose_mesh_blockers_20260831T103327Z/mesh_blockers.py)
+
+Command: py -3.14 builds/probe/test_mesh_blockers.py
+Result: FAIL  27/31   (the 4 new F-25 leftover checks FAIL — that is the proof they bite)
+
+  FAIL  a row live_nodes() dropped is STALE_PROOF when named in stale_nodes(), not NO_PROOF
+  FAIL  the stale blocker names the projection's stale list
+  FAIL  UNBLOCK[STALE_PROOF] no longer tells the reader the filter is missing
+  FAIL  the document says a stale row is listed under stale, not counted live
+
+live_value: {"kinds_pinned": ["NONE", "NOT_WIRED", "NO_PROOF", "STALE_PROOF"], "md_bytes": 3169, "rows": 9}
+
+The pre-fix classifier only emitted STALE_PROOF when the expired row was still IN
+`live`. After F-25, Registry.live_nodes() omits those rows, so the live path
+relabelled them NO_PROOF and the MESH_STATUS prose kept claiming
+"file_runtime applies no freshness filter".

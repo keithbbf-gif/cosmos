@@ -1,0 +1,30 @@
+{
+  "clocks": [
+    "COSMOS Activity Clock (Watchdog2)",
+    "COSMOS Collector",
+    "COSMOS Runner",
+    "COSMOS Motif Driver",
+    "COSMOS Discovery",
+    "COSMOS Health",
+    "COSMOS Rails Prober",
+    "COSMOS Spend Meter",
+    "COSMOS Drive Meter",
+    "COSMOS cDeck Feed",
+    "COSMOS Backup",
+    "COSMOS Ledger Verify",
+    "COSMOS Index",
+    "COSMOS Dispatcher",
+    "COSMOS Runner Pool",
+    "COSMOS CVM Clock",
+    "COSMOS Work-Order Runner",
+    "COSMOS Resession",
+    "COSMOS Askmine",
+    "COSMOS CritConsumer",
+    "COSMOS Grok Bucket Worker",
+    "COSMOS GEM Bucket Worker",
+    "COSMOS NEW-AI Scout",
+    "COSMOS Prepaid Orchestrator",
+    "COSMOS CVM DT Clock",
+    "COSMOS SGH Drop Ingest"
+  ]
+}

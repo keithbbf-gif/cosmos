@@ -1,0 +1,45 @@
+{
+ "schema": "cosmos-tools-surface/1",
+ "mode": "live",
+ "rows": [
+  {
+   "ok": true,
+   "schema": "cosmos-tools-surface/1",
+   "tool": "openai-docs",
+   "verb": "probe",
+   "value": "openai-docs-mcp",
+   "bind": "serverInfo.name",
+   "http": 200,
+   "serverInfo": {
+    "name": "openai-docs-mcp",
+    "version": "1.0.0"
+   }
+  },
+  {
+   "ok": true,
+   "schema": "cosmos-tools-surface/1",
+   "tool": "xai-docs",
+   "verb": "probe",
+   "value": "xai-docs-mcp",
+   "bind": "serverInfo.name",
+   "http": 200,
+   "serverInfo": {
+    "name": "xai-docs-mcp",
+    "version": "1.0.0"
+   }
+  }
+ ],
+ "describes": {
+  "builds/probe/tools/mcp_docs.py": {
+   "exists": true,
+   "bytes": 3920,
+   "sha256": "2603f57dffc7c19f589d970b33ab90d479b896382a24cafa63f848c3ed214795"
+  },
+  "builds/probe/tools/surface.py": {
+   "exists": true,
+   "bytes": 4906,
+   "sha256": "20aa006f5529ea36cf8d3d791b3815b01c3528a1338136d35eaf7b8cfbd056da"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

@@ -1,0 +1,39 @@
+{
+ "schema": "cosmos-f60-sandbox/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "measured_utc": "2026-08-31T18:35:26Z",
+ "remaining_closed": "builds/health/test_cosmos_health_watchdog.py --once child no longer spawns schtasks.exe under COSMOS_SCHTASKS_SANDBOX",
+ "clock": {
+  "env": "COSMOS_SCHTASKS_SANDBOX",
+  "schtasks_sandbox_on": true,
+  "query_kind": "SCHTASKS_SANDBOX",
+  "query_sandbox": true,
+  "query_ok": false,
+  "subprocess_calls_under_env": 0
+ },
+ "bite": {
+  "predecessor": "_delme/predispose_f60_sandbox_20260831T183526Z/",
+  "fail_old": "cosmos/_fail_f60_sandbox_against_old.json",
+  "all_new_pins_failed": true,
+  "failed_pin_count": 6,
+  "old_query_calls": 1
+ },
+ "tests_after": {
+  "test_cosmos_test_guard": "18/18",
+  "test_backup_clock": "22/22",
+  "test_collector_dhx": "38/38",
+  "test_node_bucket_worker": "51/51",
+  "test_live_write_fence": "23/23"
+ },
+ "live_write_fence_health": {
+  "rc": 0,
+  "procs": 2,
+  "python_spawns": 1,
+  "unfenced_spawns": [],
+  "violations": [],
+  "writes_observed": 1906
+ },
+ "builds_cvm_dt_untouched": true
+}

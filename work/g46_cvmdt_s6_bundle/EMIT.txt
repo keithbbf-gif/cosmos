@@ -1,0 +1,787 @@
+<<<FILE path=builds/cvm-dt/cvm_dt_clock.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cvm-dt native OWN-CLOCK — windowless driver of cvm_dt_client --loop.
+
+The Windows Task Scheduler clock carries the overhead (canon: NEVER a
+Claude loop). This satellite:
+
+  * ticks CvmDtClient.cycle_once (HTTP stack lives on the client)
+  * heartbeats logs/cvm_dt_clock_heartbeat.json on EVERY tick
+    (pass, idle, paused, refused) — last_run_epoch schema matches
+    cosmos_runner_heartbeat.json so staleness is measurable
+  * honors the same HOLD / RESUME-GATE PAUSE.flag the runners read
+    (idle the cycle, keep the heartbeat — paused != dead)
+  * skip_alive by unique clock_id so a second --loop no-ops
+  * --once is a commanded drain (even while paused); it does not
+    take the loop lock (same contract as cosmos_node_worker)
+  * --register EMITS the schtasks /Create line and does NOT run it
+    (Keith runs COSMOS himself; no bats)
+
+Dead Core is UNREACHABLE and still heartbeats. Never fake-alive.
+
+    py -3.14 builds\\cvm-dt\\cvm_dt_clock.py --root <RUNTIME> --once
+    py -3.14 builds\\cvm-dt\\cvm_dt_clock.py --root <RUNTIME> --loop
+    py -3.14 builds\\cvm-dt\\cvm_dt_clock.py --root <RUNTIME> --register
+    py -3.14 builds\\cvm-dt\\cvm_dt_clock.py --root <RUNTIME> --status
+    py -3.14 builds\\cvm-dt\\test_cvm_dt_clock.py
+
+rc=0 is not the gate. Runtime-binding value (named, not claimed):
+heartbeat last_run_epoch advances across two native ticks AND
+state/cvm/pull.json cursor advances under this clock with NO human
+turn and NO Claude process running. Software proof this slice: the
+heartbeat file is emitted with a fresh epoch and CLOCK_ID is one value.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+import time
+from pathlib import Path
+from typing import Optional
+
+_HERE = Path(__file__).resolve().parent
+if str(_HERE) not in sys.path:
+    sys.path.insert(0, str(_HERE))
+_COSMOS_LIB = _HERE.parents[2] / "cosmos"
+if _COSMOS_LIB.is_dir() and str(_COSMOS_LIB) not in sys.path:
+    sys.path.insert(0, str(_COSMOS_LIB))
+
+from cosmos_clock import (  # noqa: E402
+    acquire_lock, heartbeat_age_s, pid_alive, plan_create, pythonw_exe,
+    read_heartbeat, tr_cmdline, write_heartbeat,
+)
+from cosmos_paths import CosmosPaths  # noqa: E402
+
+from cvm_dt import (  # noqa: E402
+    CLIENT_ID, CoreClient, CvmDtError, RefusalKind,
+    load_paths, load_token, pull_url,
+)
+from cvm_dt_client import CvmDtClient  # noqa: E402
+from cvm_pull import PULL_INTERVAL_S  # noqa: E402
+
+WORKER = "cvm-dt-clock"
+SCHEMA = "cvm-dt-clock/1"
+# Own id. CLOCKS: 15=pool, 16=cvm satellite (pull.json issuer), 17=work_order.
+CLOCK_ID = 18
+TASK_NAME = "COSMOS CVM DT Clock"
+TASK_NAME_LOGON = "COSMOS CVM DT Clock Logon"
+HEARTBEAT_NAME = "cvm_dt_clock_heartbeat.json"
+LOCK_NAME = "cvm_dt_clock.lock"
+DEFAULT_BASE = "http://127.0.0.1:8770"
+DEFAULT_INTERVAL_S = PULL_INTERVAL_S  # 15s inner; schtasks floor is 1 min
+FRESH_S = 60.0
+
+
+def pause_flag(paths: CosmosPaths) -> dict | None:
+    """Same contract as cosmos_node_worker.pause_flag (the flag runners read)."""
+    p = paths.state("control", "PAUSE.flag")
+    if not p.exists() or not p.is_file():
+        return None
+    rec: dict = {"path": str(p), "state": "PAUSED"}
+    try:
+        raw = p.read_text(encoding="utf-8").strip()
+    except OSError as e:
+        rec["read_error"] = str(e)
+        return rec
+    if raw.startswith("{"):
+        try:
+            obj = json.loads(raw)
+        except ValueError:
+            obj = None
+        if isinstance(obj, dict):
+            rec.update(obj)
+            rec.setdefault("state", "PAUSED")
+            rec["path"] = str(p)
+            return rec
+    rec["reason"] = raw[:240] or "(empty flag file)"
+    return rec
+
+
+def is_paused(paused: dict | None) -> bool:
+    """Same contract as cosmos_node_worker.is_paused. HOLD never self-clears.
+
+    RESUME-GATE stays paused here until WD2 unlinks the flag at
+    auto_resume_at — this clock does not steal the clearer.
+    """
+    if paused is None:
+        return False
+    return str(paused.get("state") or "PAUSED").upper() != "RUNNING"
+
+
+def skip_alive(paths: CosmosPaths, clock_id: int = CLOCK_ID) -> dict | None:
+    """Second --loop of THIS clock-id no-ops when the holder pid is alive."""
+    rec = read_heartbeat(paths.logs(HEARTBEAT_NAME))
+    if not rec or rec.get("clock_id") != clock_id:
+        return None
+    try:
+        pid = int(rec.get("pid") or 0)
+    except (TypeError, ValueError):
+        return None
+    if not pid_alive(pid):
+        return None
+    return rec
+
+
+def _pause_extra(paused: dict | None) -> dict:
+    if paused is None:
+        return {"pause_present": False, "pause_mode": None,
+                "auto_resume_at": None}
+    return {
+        "pause_present": True,
+        "pause_mode": paused.get("mode") or "hold",
+        "auto_resume_at": paused.get("auto_resume_at"),
+    }
+
+
+def _stamp(paths: CosmosPaths, extra: dict, polls: int,
+           interval_s: float) -> dict:
+    """One cosmos_runner-shaped heartbeat. Always. extra is the mode payload."""
+    hb_path = paths.logs(HEARTBEAT_NAME)
+    hb_path.parent.mkdir(parents=True, exist_ok=True)
+    extra.setdefault("schema", SCHEMA)
+    extra.setdefault("clock_id", CLOCK_ID)
+    hb = write_heartbeat(hb_path, WORKER, extra=extra,
+                         polls=polls, interval_s=interval_s)
+    extra["heartbeat"] = hb
+    extra["heartbeat_path"] = str(hb_path)
+    extra["last_run_epoch"] = hb["last_run_epoch"]
+    return extra
+
+
+def poll_once(root: str, *, polls: int = 0,
+              interval_s: float = DEFAULT_INTERVAL_S,
+              base: str = DEFAULT_BASE, client_id: str = CLIENT_ID,
+              handoff_request_id: Optional[str] = None,
+              client: Optional[CvmDtClient] = None,
+              drain: Optional[bool] = None) -> dict:
+    """One tick. Heartbeat ALWAYS (pass / idle / paused / refused)."""
+    paths = load_paths(root)
+    paused = pause_flag(paths)
+    paused_now = is_paused(paused)
+    if drain is None:
+        drain = not paused_now
+
+    extra: dict = {
+        "schema": SCHEMA,
+        "tick": "poll",
+        "state": "RUNNING",
+        "tree_id": paths.sentinel.tree_id,
+        "clock_id": CLOCK_ID,
+        "quoted_from": pull_url(client_id),
+        **_pause_extra(paused),
+    }
+    if paused and paused.get("read_error"):
+        extra["ok"] = False
+        extra["tick"] = "error"
+        extra["state"] = "REFUSED"
+        extra["kind"] = str(RefusalKind.CONTROL_BLOCKED)
+        extra["detail"] = str(paused.get("read_error"))[:300]
+        return _stamp(paths, extra, polls, interval_s)
+    if paused_now and not drain:
+        extra["ok"] = True
+        extra["tick"] = "paused"
+        extra["state"] = "PAUSED"
+        return _stamp(paths, extra, polls, interval_s)
+    if paused_now:
+        extra["tick"] = "once_while_paused"
+
+    try:
+        if client is None:
+            client = CvmDtClient(
+                CoreClient(base, load_token(paths)), paths, client_id,
+                handoff_request_id=handoff_request_id)
+        rec = client.cycle_once()
+        extra["tick"] = "pulled"
+        extra["ok"] = True
+        extra["cursor"] = rec.get("cursor")
+        extra["cursor_prev"] = rec.get("cursor_prev")
+        extra["cursor_advanced"] = rec.get("cursor_advanced")
+        extra["audio_owner"] = rec.get("audio_owner")
+        extra["live_value"] = rec.get("live_value")
+        extra["cycle"] = {
+            k: rec.get(k) for k in (
+                "folded", "handoff_granted", "handoff_replayed",
+                "grant_count", "quoted_audio_owner", "quoted_cursor",
+            )
+        }
+        ck = (rec.get("live_value") or {}).get("core_kind") or rec.get("core_kind")
+        if ck:
+            extra["core_kind"] = ck
+            extra["core_ready"] = str(ck).upper() not in (
+                "UNREACHABLE", "CLOCK_STALE", "AUTH_REQUIRED")
+    except CvmDtError as e:
+        extra["ok"] = False
+        extra["tick"] = "error"
+        extra["state"] = "REFUSED"
+        extra["kind"] = str(e.kind)
+        extra["detail"] = str(e)[:300]
+        if str(e.kind) == "UNREACHABLE":
+            extra["core_kind"] = "UNREACHABLE"
+            extra["core_ready"] = False
+    except Exception as e:                                            # noqa: BLE001
+        import traceback
+        tb = traceback.format_exc()
+        try:
+            paths.logs("cvm_dt_clock.err").write_text(tb, encoding="utf-8")
+        except OSError:
+            pass
+        extra["ok"] = False
+        extra["tick"] = "error"
+        extra["state"] = "REFUSED"
+        extra["kind"] = str(RefusalKind.BAD_CORE)
+        extra["detail"] = ("%s: %s" % (type(e).__name__, e))[:300]
+        extra["error"] = tb[-500:]
+    return _stamp(paths, extra, polls, interval_s)
+
+
+def loop(root: str, interval_s: float = DEFAULT_INTERVAL_S, *,
+         base: str = DEFAULT_BASE, client_id: str = CLIENT_ID,
+         handoff_request_id: Optional[str] = None) -> int:
+    """Detached pythonw --loop body. Windowless; lock + skip_alive."""
+    paths = load_paths(root)
+    out_path = paths.logs("cvm_dt_clock.out")
+    lock_path = paths.logs(LOCK_NAME)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    log_fh = open(out_path, "a", encoding="utf-8", buffering=1)
+    sys.stdout = log_fh
+    sys.stderr = log_fh
+    fd = acquire_lock(lock_path)
+    if fd is None:
+        rec = skip_alive(paths)
+        if rec is not None:
+            age = heartbeat_age_s(rec)
+            print(json.dumps({
+                "already_running": True,
+                "clock_id": rec.get("clock_id"),
+                "pid": rec.get("pid"),
+                "age_s": None if age is None else round(age, 3),
+            }), flush=True)
+            return 0
+        print("cvm-dt-clock lock held and holder not skip_alive - refusing",
+              flush=True)
+        return 2
+    client = CvmDtClient(
+        CoreClient(base, load_token(paths)), paths, client_id,
+        handoff_request_id=handoff_request_id)
+    polls = 0
+    print(json.dumps({"loop": True, "pid": os.getpid(),
+                      "interval_s": interval_s, "clock_id": CLOCK_ID,
+                      "windowless": Path(pythonw_exe()).name.lower().startswith(
+                          "pythonw")}, indent=1), flush=True)
+    try:
+        while True:
+            polls += 1
+            poll_once(root, polls=polls, interval_s=interval_s,
+                      base=base, client_id=client_id,
+                      handoff_request_id=handoff_request_id,
+                      client=client)
+            time.sleep(float(interval_s))
+    finally:
+        os.close(fd)
+    return 0
+
+
+def register(root: str) -> dict:
+    """Emit schtasks /Create lines. Do NOT run them (no bats; Keith does)."""
+    paths = load_paths(root)
+    script = Path(__file__).resolve()
+    tr = tr_cmdline(script, str(paths.root), "--loop")
+    minute = plan_create(TASK_NAME, tr, "minute", mo=1)
+    logon = plan_create(TASK_NAME_LOGON, tr, "onlogon")
+    cmds = [subprocess.list2cmdline(a) for a in (minute, logon)]
+    return {
+        "ok": True,
+        "ran": False,
+        "clock_id": CLOCK_ID,
+        "task_name": TASK_NAME,
+        "task_logon": TASK_NAME_LOGON,
+        "tr": tr,
+        "pythonw": pythonw_exe(),
+        "keith_cmds": cmds,
+        "keith_cmd": " & ".join(cmds),
+        "heartbeat": str(paths.logs(HEARTBEAT_NAME)),
+        "note": ("EMITTED, not executed. Keith runs COSMOS himself. "
+                 "No bats. pythonw --loop + 1-min self-heal + onlogon."),
+    }
+
+
+def status(root: str) -> dict:
+    paths = load_paths(root)
+    rec = read_heartbeat(paths.logs(HEARTBEAT_NAME))
+    age = heartbeat_age_s(rec)
+    return {
+        "path": str(paths.logs(HEARTBEAT_NAME)),
+        "age_s": age,
+        "clock_id": None if rec is None else rec.get("clock_id"),
+        "fresh": age is not None and age < FRESH_S,
+        "skip_alive": skip_alive(paths) is not None,
+        "heartbeat": rec,
+    }
+
+
+def main(argv: Optional[list[str]] = None) -> int:
+    ap = argparse.ArgumentParser(prog="cvm-dt-clock")
+    ap.add_argument("--root", required=True,
+                    help="COSMOS runtime root (handed in; sentinel verified)")
+    ap.add_argument("--base", default=DEFAULT_BASE)
+    ap.add_argument("--client-id", default=CLIENT_ID)
+    ap.add_argument("--once", action="store_true")
+    ap.add_argument("--loop", action="store_true")
+    ap.add_argument("--register", action="store_true",
+                    help="emit schtasks /Create; do not run it")
+    ap.add_argument("--status", action="store_true")
+    ap.add_argument("--interval", type=float, default=DEFAULT_INTERVAL_S)
+    ap.add_argument("--handoff-request-id", default="")
+    ns = ap.parse_args(argv)
+    if not (ns.once or ns.loop or ns.register or ns.status):
+        ap.error("one of --once / --loop / --register / --status is required")
+    if ns.register:
+        rec = register(ns.root)
+        print(json.dumps(rec, indent=1, default=str))
+        return 0
+    if ns.status:
+        rec = status(ns.root)
+        print(json.dumps(rec, indent=1, default=str))
+        return 0 if rec.get("fresh") else 2
+    hid = ns.handoff_request_id or None
+    if ns.once:
+        rec = poll_once(ns.root, interval_s=ns.interval, base=ns.base,
+                        client_id=ns.client_id, handoff_request_id=hid,
+                        drain=True)
+        print(json.dumps({k: rec[k] for k in rec if k != "heartbeat"},
+                         indent=1, default=str))
+        return 0 if rec.get("ok") else 2
+    return loop(ns.root, ns.interval, base=ns.base, client_id=ns.client_id,
+                handoff_request_id=hid)
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except CvmDtError as e:
+        print(json.dumps({"ok": False, "kind": str(e.kind), "detail": str(e)},
+                         indent=1), file=sys.stderr)
+        raise SystemExit(2)
+<<<FILE_END>>>
+<<<FILE path=builds/cvm-dt/test_cvm_dt_clock.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Loopback tests for the CVM DT native own-clock.
+
+No live :8770. rc=0 here is a green log. Stage-6 quotes
+live/logs/cvm_dt_clock_heartbeat.json last_run_epoch advancing across
+two native ticks AND state/cvm/pull.json cursor advancing under the
+clock with no human turn and no Claude process.
+
+Software proof this slice (named): heartbeat is emitted with a fresh
+epoch and CLOCK_ID is a single value that does not collide with CLOCKS
+15/16/17.
+"""
+from __future__ import annotations
+
+import json
+import os
+import re
+import subprocess
+import sys
+import tempfile
+import time
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from pathlib import Path
+from threading import Thread
+
+HERE = Path(__file__).resolve().parent
+if (HERE / "cvm_dt.py").is_file():
+    sys.path.insert(0, str(HERE))
+    _COSMOS = HERE.parents[1] / "cosmos"
+    if _COSMOS.is_dir():
+        sys.path.insert(0, str(_COSMOS))
+    CLOCK_SRC = HERE / "cvm_dt_clock.py"
+else:
+    BUNDLE = HERE.parent if HERE.name == "tests" else HERE.parents[1]
+    REPO = BUNDLE.parent.parent
+    LIVE_DT = REPO / "builds" / "cvm-dt"
+    COSMOS_DIR = REPO / "cosmos"
+    BUNDLE_DT = BUNDLE / "builds" / "cvm-dt"
+    for p in (LIVE_DT, COSMOS_DIR, BUNDLE_DT):
+        if p.is_dir():
+            sys.path.insert(0, str(p))
+    CLOCK_SRC = BUNDLE_DT / "cvm_dt_clock.py"
+
+from cosmos_clock import write_heartbeat  # noqa: E402
+from cosmos_own_clocks import CLOCKS  # noqa: E402
+from cosmos_paths import CosmosPaths, write_sentinel  # noqa: E402
+
+from cvm_dt import (  # noqa: E402
+    CLIENT_ID, CoreClient, RefusalKind, pull_url,
+)
+from cvm_snap import snapshot_delta  # noqa: E402
+
+import cvm_dt_clock as clk  # noqa: E402
+
+TREE_ID = "KMesh-COSMOS-live"
+RESULTS = []
+BTS_IMPORT = re.compile(r"^\s*(?:from|import)\s+bts_\w+", re.M)
+CLOCK_ASSIGN = re.compile(r"^CLOCK_ID\s*=\s*(.+)$", re.M)
+DRIVE_LIT = re.compile(r"V:\\A\\")
+
+
+def check(label, fn):
+    try:
+        RESULTS.append((label, bool(fn()), ""))
+    except Exception as e:                                            # noqa: BLE001
+        RESULTS.append((label, False, "%s: %s" % (type(e).__name__, e)))
+
+
+class _FakeCore(BaseHTTPRequestHandler):
+    token = "test-token"
+    tree_id = TREE_ID
+    pulls = 0
+
+    def log_message(self, *args):                                     # noqa: ARG002
+        return
+
+    def _send(self, code, obj):
+        body = json.dumps(obj).encode("utf-8")
+        self.send_response(code)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_GET(self):                                                 # noqa: N802
+        if self.headers.get("Authorization") != "Bearer " + self.token:
+            return self._send(401, {"error": "UNAUTHORIZED"})
+        if not self.path.startswith("/api/v1/cvm/pull"):
+            return self._send(404, {"error": "NOT_FOUND"})
+        type(self).pulls += 1
+        return self._send(200, {
+            "cvm": 1,
+            "tree_id": self.tree_id,
+            "issued_epoch": 1787800000.0,
+            "pull": True,
+            "kinds": ["voice_session", "device", "notifications"],
+            "cursor": "",
+            "audio_owner": "phone",
+            "voice_client_timeout_s": 70.0,
+            "core_kind": "ok",
+            "client_id": CLIENT_ID,
+            "clock_id": 16,
+        })
+
+
+class _BoomCore(BaseHTTPRequestHandler):
+    """Must not be hit on a PAUSED tick."""
+
+    def log_message(self, *args):                                     # noqa: ARG002
+        return
+
+    def do_GET(self):                                                 # noqa: N802
+        raise AssertionError("paused tick must not GET Core")
+
+
+def _serve(handler):
+    httpd = HTTPServer(("127.0.0.1", 0), handler)
+    t = Thread(target=httpd.serve_forever, daemon=True)
+    t.start()
+    return httpd
+
+
+def _scratch():
+    tmp = Path(tempfile.mkdtemp(prefix="cvm-dt-clock-test-"))
+    write_sentinel(tmp, TREE_ID)
+    (tmp / "config").mkdir()
+    (tmp / "state").mkdir()
+    (tmp / "logs").mkdir()
+    (tmp / "config" / "api_token.txt").write_text("test-token", encoding="utf-8")
+    return tmp
+
+
+def _seed_phone(paths: CosmosPaths) -> None:
+    phone = paths.state("cvm", "phone.json")
+    phone.parent.mkdir(parents=True, exist_ok=True)
+    phone.write_text(json.dumps(snapshot_delta("r-snap", "", {
+        "device": {"status": "ok", "battery_pct": 80,
+                   "net": "tailscale", "audio_route": "none"},
+    }, client_id="cvm-dt-clock-test")), encoding="utf-8")
+
+
+def _src() -> str:
+    return CLOCK_SRC.read_text(encoding="utf-8")
+
+
+def test_heartbeat_emitted_fresh_epoch_clock_id_single_valued():
+    """Named software proof: heartbeat lands, epoch is fresh, CLOCK_ID is one."""
+    tmp = _scratch()
+    before = time.time()
+    rec = clk.poll_once(str(tmp), polls=1, base="http://127.0.0.1:1",
+                        drain=True)
+    after = time.time()
+    paths = CosmosPaths(tmp)
+    hb_p = paths.logs(clk.HEARTBEAT_NAME)
+    hb = json.loads(hb_p.read_text(encoding="utf-8"))
+    src = _src()
+    assigns = CLOCK_ASSIGN.findall(src)
+    taken = {int(c["id"]) for c in CLOCKS if c.get("id") is not None}
+    epoch = int(hb["last_run_epoch"])
+    return (
+        hb_p.is_file()
+        and hb_p.name == "cvm_dt_clock_heartbeat.json"
+        and hb["worker"] == clk.WORKER == "cvm-dt-clock"
+        and hb["clock_id"] == rec["clock_id"] == clk.CLOCK_ID
+        and clk.CLOCK_ID == 18
+        and len(assigns) == 1
+        and assigns[0].strip() == "18"
+        and clk.CLOCK_ID not in taken
+        and 16 in taken
+        and 17 in taken
+        and clk.CLOCK_ID != 16
+        and clk.CLOCK_ID != 17
+        and rec["ok"] is False
+        and rec["kind"] == str(RefusalKind.UNREACHABLE)
+        and hb.get("core_kind") == "UNREACHABLE"
+        and hb.get("core_ready") is False
+        and hb.get("state") == "REFUSED"
+        and rec["last_run_epoch"] == epoch
+        and before - 1 <= epoch <= after + 1
+        and "last_run" in hb and "last_run_utc" in hb
+        and hb["pid"] == os.getpid()
+        and hb.get("polls") == 1
+        and "REUSED" not in src
+        and BTS_IMPORT.search(src) is None
+        and DRIVE_LIT.search(src) is None
+        and "from bts_" not in src
+        and "import bts_" not in src
+    )
+
+
+def test_tick_heartbeat_and_cursor():
+    tmp = _scratch()
+    httpd = _serve(_FakeCore)
+    base = "http://127.0.0.1:%d" % httpd.server_address[1]
+    try:
+        paths = CosmosPaths(tmp)
+        _seed_phone(paths)
+        client = clk.CvmDtClient(
+            CoreClient(base, "test-token"), paths,
+            handoff_request_id="r-clock")
+        rec1 = clk.poll_once(str(tmp), polls=1, base=base, client=client)
+        time.sleep(1.1)
+        rec2 = clk.poll_once(str(tmp), polls=2, base=base, client=client)
+        hb_p = paths.logs(clk.HEARTBEAT_NAME)
+        hb = json.loads(hb_p.read_text(encoding="utf-8"))
+        pull = json.loads(paths.state("cvm", "pull.json").read_text(
+            encoding="utf-8"))
+        turn = json.loads(paths.state("cvm", "dt_turn.json").read_text(
+            encoding="utf-8"))
+        e1 = int(rec1["last_run_epoch"])
+        e2 = int(rec2["last_run_epoch"])
+        return (
+            rec1["ok"] is True
+            and rec2["ok"] is True
+            and rec1["tick"] == "pulled"
+            and rec1["audio_owner"] == "desktop"
+            and rec1["cursor_advanced"] is True
+            and rec1["cursor"]
+            and rec1["cursor"] != rec1.get("cursor_prev")
+            and rec1["quoted_from"] == pull_url(CLIENT_ID)
+            and rec1["clock_id"] == clk.CLOCK_ID
+            and e2 > e1
+            and hb["last_run_epoch"] == e2
+            and hb["worker"] == clk.WORKER
+            and hb["clock_id"] == clk.CLOCK_ID == 18
+            and "last_run" in hb and "last_run_utc" in hb
+            and hb["pid"] == os.getpid()
+            and pull["audio_owner"] == "desktop"
+            and pull.get("clock_id") == 16
+            and turn["cursor"] == rec1["cursor"]
+            and rec1["live_value"]["cursor"] == rec1["cursor"]
+        )
+    finally:
+        httpd.shutdown()
+
+
+def test_pause_hold_heartbeats_without_pull():
+    tmp = _scratch()
+    httpd = _serve(_BoomCore)
+    base = "http://127.0.0.1:%d" % httpd.server_address[1]
+    try:
+        paths = CosmosPaths(tmp)
+        flag = paths.state("control", "PAUSE.flag")
+        flag.parent.mkdir(parents=True, exist_ok=True)
+        flag.write_text(json.dumps({
+            "state": "PAUSED", "mode": "hold",
+            "reason": "test-hold", "set_by": "test",
+        }), encoding="utf-8")
+        rec = clk.poll_once(str(tmp), polls=1, base=base)
+        hb = json.loads(paths.logs(clk.HEARTBEAT_NAME).read_text(
+            encoding="utf-8"))
+        pull = paths.state("cvm", "pull.json")
+        return (
+            rec["ok"] is True
+            and rec["tick"] == "paused"
+            and rec["state"] == "PAUSED"
+            and rec["pause_present"] is True
+            and rec["pause_mode"] == "hold"
+            and hb["state"] == "PAUSED"
+            and hb["clock_id"] == clk.CLOCK_ID
+            and hb["last_run_epoch"] == rec["last_run_epoch"]
+            and hb.get("core_kind") is None
+            and not pull.exists()
+        )
+    finally:
+        httpd.shutdown()
+
+
+def test_resume_gate_idles_until_cleared():
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    flag = paths.state("control", "PAUSE.flag")
+    flag.parent.mkdir(parents=True, exist_ok=True)
+    flag.write_text(json.dumps({
+        "state": "PAUSED", "mode": "resume_gate",
+        "auto_resume_at": "2099-01-01T00:00:00-05:00",
+        "reason": "test-gate",
+    }), encoding="utf-8")
+    paused = clk.pause_flag(paths)
+    rec = clk.poll_once(str(tmp), polls=1, base="http://127.0.0.1:1")
+    still = flag.exists()
+    return (
+        clk.is_paused(paused) is True
+        and paused.get("mode") == "resume_gate"
+        and rec["tick"] == "paused"
+        and rec["pause_mode"] == "resume_gate"
+        and rec["auto_resume_at"]
+        and still
+    )
+
+
+def test_skip_alive_same_clock_id():
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    hb = paths.logs(clk.HEARTBEAT_NAME)
+    write_heartbeat(hb, clk.WORKER, extra={"clock_id": clk.CLOCK_ID})
+    mine = clk.skip_alive(paths)
+    write_heartbeat(hb, clk.WORKER, extra={"clock_id": 16})
+    foreign = clk.skip_alive(paths)
+    return (
+        mine is not None
+        and mine.get("clock_id") == clk.CLOCK_ID
+        and mine.get("pid") == os.getpid()
+        and foreign is None
+    )
+
+
+def test_register_emits_does_not_run():
+    tmp = _scratch()
+    ran = []
+
+    def _boom(*a, **k):                                               # noqa: ARG001
+        ran.append(a)
+        raise AssertionError("register must not run schtasks")
+
+    orig = subprocess.run
+    subprocess.run = _boom                                            # type: ignore[assignment]
+    try:
+        rec = clk.register(str(tmp))
+    finally:
+        subprocess.run = orig                                         # type: ignore[assignment]
+    cmds = rec.get("keith_cmds") or []
+    blob = " ".join(cmds).lower()
+    return (
+        rec.get("ok") is True
+        and rec.get("ran") is False
+        and rec.get("clock_id") == clk.CLOCK_ID == 18
+        and len(cmds) == 2
+        and "schtasks" in blob
+        and "/create" in blob
+        and clk.TASK_NAME.lower() in blob
+        and "--loop" in blob
+        and "pythonw" in rec.get("tr", "").lower()
+        and not ran
+        and RefusalKind.UNREACHABLE
+    )
+
+
+def test_dead_core_refuses_and_heartbeats():
+    tmp = _scratch()
+    rec = clk.poll_once(str(tmp), polls=1, base="http://127.0.0.1:1",
+                        drain=True)
+    hb = json.loads(Path(rec["heartbeat_path"]).read_text(encoding="utf-8"))
+    return (
+        rec["ok"] is False
+        and rec["kind"] == str(RefusalKind.UNREACHABLE)
+        and rec["tick"] == "error"
+        and rec["core_kind"] == "UNREACHABLE"
+        and hb["last_run_epoch"] == rec["last_run_epoch"]
+        and hb["clock_id"] == clk.CLOCK_ID
+        and hb["worker"] == clk.WORKER
+        and hb.get("core_kind") == "UNREACHABLE"
+        and hb.get("state") == "REFUSED"
+    )
+
+
+def test_unread_pause_is_control_blocked_yet_heartbeats():
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    flag = paths.state("control", "PAUSE.flag")
+    flag.parent.mkdir(parents=True, exist_ok=True)
+    flag.write_text("{}", encoding="utf-8")
+    orig = Path.read_text
+
+    def _boom(self, *a, **k):
+        if self.name == "PAUSE.flag":
+            raise OSError("permission denied")
+        return orig(self, *a, **k)
+
+    Path.read_text = _boom                                            # type: ignore[method-assign]
+    try:
+        rec = clk.poll_once(str(tmp), polls=1, base="http://127.0.0.1:1")
+    finally:
+        Path.read_text = orig                                         # type: ignore[method-assign]
+    hb = json.loads(paths.logs(clk.HEARTBEAT_NAME).read_text(encoding="utf-8"))
+    return (
+        rec["ok"] is False
+        and rec["kind"] == str(RefusalKind.CONTROL_BLOCKED)
+        and rec["state"] == "REFUSED"
+        and rec["tick"] == "error"
+        and rec["pause_present"] is True
+        and hb["last_run_epoch"] == rec["last_run_epoch"]
+        and hb["clock_id"] == clk.CLOCK_ID
+        and hb.get("kind") == str(RefusalKind.CONTROL_BLOCKED)
+    )
+
+
+def main() -> int:
+    check("heartbeat emitted with fresh epoch; CLOCK_ID is single-valued 18",
+          test_heartbeat_emitted_fresh_epoch_clock_id_single_valued)
+    check("tick writes last_run_epoch; fold cursor + desktop claim land",
+          test_tick_heartbeat_and_cursor)
+    check("HOLD pause heartbeats without pulling Core",
+          test_pause_hold_heartbeats_without_pull)
+    check("RESUME-GATE idles and does not self-clear",
+          test_resume_gate_idles_until_cleared)
+    check("skip_alive matches unique clock_id + live pid",
+          test_skip_alive_same_clock_id)
+    check("register emits schtasks /Create and does not run it",
+          test_register_emits_does_not_run)
+    check("dead Core is UNREACHABLE and still heartbeats",
+          test_dead_core_refuses_and_heartbeats)
+    check("unread PAUSE.flag is CONTROL_BLOCKED yet heartbeats",
+          test_unread_pause_is_control_blocked_yet_heartbeats)
+    ok = all(p for _, p, _ in RESULTS)
+    for label, passed, err in RESULTS:
+        print(("PASS" if passed else "FAIL") + "  " + label
+              + (("  " + err) if err else ""))
+    print("result: " + ("ok" if ok else "FAIL")
+          + "  %d/%d" % (sum(1 for _, p, _ in RESULTS if p), len(RESULTS)))
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+<<<FILE_END>>>

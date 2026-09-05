@@ -1,0 +1,20 @@
+{
+ "cli_rc": 2,
+ "kind": "LIVE_LEDGER_FORBIDDEN",
+ "stdout_head": "{\n \"refused\": true,\n \"kind\": \"LIVE_LEDGER_FORBIDDEN\",\n \"detail\": \"V:\\\\A\\\\Ai\\\\COSMOS\\\\live\\\\ledger\\\\authority.jsonl is the live authority ledger \\u2014 agents propose, the Orchestrator disposes (P10). Pass --ledger <scratch.jsonl>.\",\n \"ledger_untouched\": true\n}\n",
+ "stderr_head": "",
+ "ledger_before_bytes": 723140,
+ "ledger_after_bytes": 723140,
+ "ledger_untouched": true,
+ "mtime_ns_before": 1788198486923720900,
+ "mtime_ns_after": 1788198486923720900,
+ "ok": true,
+ "describes": {
+  "builds/probe/tool_disposition.py": {
+   "exists": true,
+   "bytes": 20516,
+   "sha256": "47802cb57d6082f89764259b32ffc462a457bf6b73f1b6128763ebff6de9ee24"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

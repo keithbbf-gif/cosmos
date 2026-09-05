@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "live_value": {
+  "checks": 26,
+  "clock_id": 24,
+  "winner": "grok",
+  "parallel_state": "PARALLEL",
+  "orchestrate_state": "ORCHESTRATE",
+  "dropped": 1,
+  "heartbeat": "prepaid_orch_heartbeat.json"
+ }
+}

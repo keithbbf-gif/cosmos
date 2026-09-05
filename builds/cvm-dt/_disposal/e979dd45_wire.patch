@@ -1,0 +1,113 @@
+diff --git a/cosmos/cosmos_kernel.py b/cosmos/cosmos_kernel.py
+--- a/cosmos/cosmos_kernel.py
++++ b/cosmos/cosmos_kernel.py
+@@ -17,7 +17,8 @@ BOOT SEQUENCE (fail-fast, in order, each step ledgered once the ledger exists):
+   2. install key loaded (service authentication for the ledger)
+   3. authority ledger opened - full chain verify or REFUSE
+   4. BOOT_VERIFIED event appended (a boot that leaves no record did not happen)
+   5. arbiter + mail + scheduler composed ON the verified foundation
++  6. writing boot: compose_rails() fail-OPEN per rail, then Dispatcher
++     (read-only status/audit skip; a dead incumbent never aborts READY)
+ """
+ from __future__ import annotations
+ 
+@@ -127,24 +128,41 @@ class Kernel:
+         self.convo = ConvoStore(self.ledger, clock=clock)
+         self.itc = ITC(self.ledger, fetcher=_https_get, clock=clock)
+         # Rail adapter map (link_id -> adapter) for the in-process Dispatcher
+-        # lane. Populated by compose_rails() at the SERVE boundary; stays empty
+-        # on a read-only or bare kernel so status/audit/submit and the voice
+-        # Commander keep a clean-slate registry.
++        # lane. Writing boot calls compose_rails() here (fail-open per rail)
++        # then constructs Dispatcher. Read-only kernels stay clean-slate.
+         self.adapters: dict = {}
++        self.dispatcher = None
++        self.rails_compose: dict | None = None
++        if not read_only:
++            try:
++                self.rails_compose = self.compose_rails()
++            except Exception as e:                               # noqa: BLE001
++                self.rails_compose = {
++                    "composed": [],
++                    "warnings": {"compose_rails": f"{type(e).__name__}: {e}"},
++                }
++            try:
++                from cosmos_rails import Dispatcher
++                self.dispatcher = Dispatcher(
++                    self.registry, self.adapters, self.ledger, spend=self.spend)
++            except Exception as e:                               # noqa: BLE001
++                self.dispatcher = None
++                if self.rails_compose is None:
++                    self.rails_compose = {"composed": [], "warnings": {}}
++                self.rails_compose["warnings"]["dispatcher"] = (
++                    f"{type(e).__name__}: {e}")
+         self.ready = True
+ 
+     def compose_rails(self) -> dict:
+         """Attach the node + coding + mesh rails into this kernel's registry/adapters
+-        (the in-process Dispatcher lane). Called at the SERVE boundary, never in
+-        __init__, so a read-only or bare kernel keeps a clean-slate registry.
++        (the in-process Dispatcher lane). Called from writing Kernel.__init__
++        (normal boot). Read-only kernels skip. Serve does not re-call (H9).
+ 
+         Fail-OPEN per rail: a missing incumbent module, absent config, or unset
+         key is UNREACHABLE (the prober records it later), never a boot abort. A
+         read-only kernel refuses. Registration is idempotent across serve
+         restarts (LINK_REGISTERED appended only for a link not already in the
+         ledger), so a restart does not bloat the authority chain.
+-        playwright-dom / firecrawl-web attach here; cosmos_mcp_client is
+-        transport for playwright-dom, not a Registry type."""
++        cosmos_mcp_client is transport for playwright-dom, not a Registry type."""
+         if self.read_only:
+             return {"composed": [], "skipped": "read_only"}
+         report: dict = {"composed": [], "warnings": {}}
+@@ -162,6 +180,12 @@ class Kernel:
+             _attach_cursor(self, self.adapters, boot_compose=True)
+             report["composed"].append("cursor-api")
+         except Exception as e:                                   # noqa: BLE001
+             report["warnings"]["cursor-api"] = f"{type(e).__name__}: {e}"
++        try:
++            from cosmos_codex_rail import attach_to_kernel as _attach_codex
++            _attach_codex(self, self.adapters, boot_compose=True)
++            report["composed"].append("codex-cli")
++        except Exception as e:                                   # noqa: BLE001
++            report["warnings"]["codex-cli"] = f"{type(e).__name__}: {e}"
+         try:
+             from cosmos_playwright_rail import attach_to_kernel as _attach_pw
+             _attach_pw(self, self.adapters, boot_compose=True)
+diff --git a/cosmos/cosmos.py b/cosmos/cosmos.py
+--- a/cosmos/cosmos.py
++++ b/cosmos/cosmos.py
+@@ -109,8 +109,7 @@ def main() -> int:
+         return 0
+     if a.cmd == "serve":
+         from cosmos_service import Service
+-        k.compose_rails()   # attach node + cursor + mesh rails into the live registry
+         host = "0.0.0.0" if a.remote else "127.0.0.1"
+         svc = Service(k, host=host, port=a.port, tls=a.tls,
+                       cert_file=a.cert, key_file=a.key,
+                       open_access=a.no_auth, insecure_http=a.insecure_http)
+diff --git a/tests/test_v1.py b/tests/test_v1.py
+--- a/tests/test_v1.py
++++ b/tests/test_v1.py
+@@ -40,9 +40,8 @@ def main() -> int:
+     k = Kernel(root, worker="core")
+ 
+     # ================= REGISTRY =================
+-    reg = Registry(k.ledger)
+-    k.registry = reg
++    reg = k.registry
+     reg.register("f5-dom", "DOM", "core", "f5", policy_rank=1)
+     reg.register("f5-api", "API", "core", "f5")
+     reg.attach_probe("f5-dom", lambda: (True, "dom alive"))
+@@ -107,8 +106,9 @@ def main() -> int:
+     code, body = get("/api/v1/status", svc.token)
+     check("GET /status: ready over the wire", lambda: code == 200 and body["ready"])
+     code, body = get("/api/v1/rails", svc.token)
+-    check("GET /rails: matrix served with ages", lambda: code == 200 and len(body["matrix"]) == 3)
++    check("GET /rails: matrix served with ages",
++          lambda: code == 200 and len(body["matrix"]) >= 3
++          and any(r.get("age_s") is not None for r in body["matrix"]))
+     # POST a job through the API, then run it through the kernel
+     req = urllib.request.Request(base + "/api/v1/jobs",
+                                  data=json.dumps({"command": "hello", "priority": "high"}).encode(),

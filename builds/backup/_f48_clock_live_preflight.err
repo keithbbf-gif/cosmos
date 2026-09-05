@@ -1,0 +1,4 @@
+{
+  "rc": 2,
+  "stderr": "{\"scopes_refused\": {\"kind\": \"NO_SCOPES\", \"detail\": \"no scope declaration at V:\\\\A\\\\Ai\\\\COSMOS\\\\live\\\\config\\\\offsite_scopes.json \\u2014 write it {\\\"scopes\\\":[{\\\"name\\\":\\u2026,\\\"source\\\":\\u2026}]} (no source tree is ever guessed)\"}}\r\n"
+}

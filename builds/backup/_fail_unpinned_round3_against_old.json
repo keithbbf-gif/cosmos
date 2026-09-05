@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-fail-against-old/1",
+ "what": "round3 backup pins FAIL against staged predecessor / stripped guards",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_unpinned_round3_20260831T135200Z",
+ "ran": [
+  "KEEP_TOO_SMALL_bool",
+  "pack_DEST_NOT_DIR",
+  "volume_serial_IDENTITY_MISMATCH",
+  "fakeprobe_DRIVE_NOT_MOUNTED"
+ ],
+ "failed": [
+  "KEEP_TOO_SMALL_bool:did_not_raise",
+  "pack_DEST_NOT_DIR:FileExistsError",
+  "volume_serial_IDENTITY_MISMATCH:BAD_CONFIG",
+  "fakeprobe_DRIVE_NOT_MOUNTED:returned:vol:DISCOVERED"
+ ],
+ "all_new_pins_failed": true
+}

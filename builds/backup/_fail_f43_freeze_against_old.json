@@ -1,0 +1,21 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new TestFreeze pins FAIL against predecessor (no freeze seam)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_cosmos_backup_f43_freeze_20260831T151003Z\\cosmos_backup.py",
+ "tests_run": 4,
+ "failures": 2,
+ "errors": 2,
+ "failed_names": [
+  "test_cli_backup_has_freeze_flag",
+  "test_do_backup_accepts_freeze_kw",
+  "test_freeze_released_on_secrets_refusal",
+  "test_frozen_tree_survives_source_mutation"
+ ],
+ "ran_names": [
+  "test_cli_backup_has_freeze_flag",
+  "test_do_backup_accepts_freeze_kw",
+  "test_freeze_released_on_secrets_refusal",
+  "test_frozen_tree_survives_source_mutation"
+ ],
+ "all_new_pins_failed": true
+}

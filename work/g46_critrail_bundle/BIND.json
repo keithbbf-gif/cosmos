@@ -1,0 +1,95 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_critrail_bundle",
+  "agent": "G46",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_critrail_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "edited_cosmos_dispatch_py": false,
+  "register_crit_consumer_ran": false,
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_critrail_bundle",
+  "py_compile": {
+    "cosmos/cosmos_crit_consumer.py": {"rc": 0, "lines": 727},
+    "cosmos/cosmos_node_worker.py": {"rc": 0, "lines": 1007, "live_lines": 904, "delta_lines": 103},
+    "cosmos/register_crit_consumer.py": {"rc": 0, "lines": 103},
+    "tests/test_crit_consumer.py": {"rc": 0, "lines": 422}
+  },
+  "tests": {
+    "tests/test_crit_consumer.py": {
+      "rc": 0,
+      "passed": "56/56",
+      "quoted_from": "stdout: test_crit_consumer 56/56 then TEST_RC=0"
+    }
+  },
+  "runtime_binding": {
+    "what_done_is": "a GEM or OA critique packet in live/state/dispatch/workers/<kind>/, then a NON-EMPTY critique body at the packet's designated returns path, bound to the model that answered — not rc=0 on the drop script",
+    "isolated_proof": {
+      "packet": "workers/gem/handoff_gem.json (live-shaped: assignment, no prompt, returns=queue/returns/cm/gem_crit_result.json)",
+      "consumer": "poll_once invoke seam (no live spend)",
+      "returns_path_written": true,
+      "stdout_tail_contains": "GEM-CRITIQUE-BODY",
+      "model": "fake-gemini",
+      "link_id": "gem-api",
+      "done": true,
+      "oa_also": {
+        "model": "fake-oa",
+        "link_id": "oa-api",
+        "stdout_tail_contains": "OA-CRITIQUE-BODY",
+        "done": true
+      },
+      "ssa_also": {
+        "model": "sonnet",
+        "link_id": "claude-cli",
+        "stdout_tail_contains": "SSA-CRITIQUE-BODY",
+        "done": true
+      },
+      "empty_output": {
+        "done": false,
+        "rc": 2,
+        "done_why": "empty_stdout",
+        "accepted": false
+      }
+    },
+    "live_spend_not_run": true,
+    "reason": "P10 propose-only; fake invoke so the consumer contract is measured without billing gem-api/oa-api/claude"
+  },
+  "routing": {
+    "GEM": "gem-api via cosmos_node_worker.node_spec('gem') / execute_via_rail",
+    "OAi": "oa-api via node_spec('oa') (NODES['oa'] added so this is not duplicated)",
+    "SSA": "claude -p --model sonnet --permission-mode dontAsk --add-dir <repo>"
+  },
+  "inbox": "live/state/dispatch/workers/{gem,oa,ssa}/",
+  "heartbeat": "live/logs/crit_consumer_heartbeat.json",
+  "interval_s": 10.0,
+  "task_name": "COSMOS CritConsumer",
+  "task_logon": "COSMOS CritConsumer Logon",
+  "vehicle": "pythonw --loop (windowless) + 1-min schtasks self-heal + ONLOGON",
+  "elegance": {
+    "no_oa_worker_wrapper": true,
+    "shared_lander": "cosmos_node_worker.land_critique_return",
+    "shared": ["pause_flag", "is_paused", "execute_via_rail", "parse_task", "stage_drop", "node_spec", "cosmos_clock heartbeat/lock/schtasks"],
+    "node_worker_delta_why": "OA node spec + parse returns/result + land_critique_return so consumer does not copy the rail table or the fail-closed returns writer"
+  },
+  "files": [
+    "cosmos/cosmos_crit_consumer.py",
+    "cosmos/cosmos_node_worker.py",
+    "cosmos/register_crit_consumer.py",
+    "tests/test_crit_consumer.py",
+    "EMIT.txt",
+    "emit/cosmos__cosmos_crit_consumer.py.emit.txt",
+    "emit/cosmos__cosmos_node_worker.py.emit.txt",
+    "emit/cosmos__register_crit_consumer.py.emit.txt",
+    "emit/tests__test_crit_consumer.py.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=replace>>> ... <<<FILE_END>>> (full-file replacements, not diffs)",
+  "not_done": [
+    "did not edit cosmos/cosmos_dispatch.py (one writer this cycle)",
+    "did not write the live tree or cosmos/ package",
+    "did not run register_crit_consumer.py / schtasks / --standup",
+    "did not invoke live gem-api / oa-api / claude"
+  ]
+}

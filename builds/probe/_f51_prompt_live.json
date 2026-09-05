@@ -1,0 +1,28 @@
+{
+ "schema": "cosmos-f51-prompt-live/1",
+ "ok": true,
+ "cli_rc": 0,
+ "disk_sha": "5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db",
+ "disk_bytes": 1133,
+ "dry_run_prompt_sha": "5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db",
+ "dry_run_state": "IDLE",
+ "dry_run_tree_id": "KMesh-COSMOS-live",
+ "dry_run_why": "no COW heartbeat",
+ "dry_run_clock_id": null,
+ "prompt_path": "V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+ "writes": 0,
+ "heartbeat_written": false,
+ "describes": {
+  "builds/probe/cosmos_resession.py": {
+   "exists": true,
+   "bytes": 26865,
+   "sha256": "90d91eb8dd0ea1a9c17e6574894cd8c4543fe9b94ba9a60948ce6c01c38a1f02"
+  },
+  "docs/AUTO_RESESSION_PROMPT.md": {
+   "exists": true,
+   "bytes": 1133,
+   "sha256": "5d10d8ff510503a00b01d6a2b1efca7941ca92a10efc3aa1c6ed59082cfca8db"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

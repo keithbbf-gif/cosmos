@@ -1,0 +1,14 @@
+{
+ "impl": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_state_offsite.py",
+ "exists": true,
+ "has_plan_task_argv": true,
+ "has_install_task": true,
+ "has_TASK_NAME": true,
+ "has_DEFAULT_AT": true,
+ "has_STALE_S": true,
+ "cli_plan_task_rc": 2,
+ "cli_plan_task_unrecognized": false,
+ "cli_plan_task_not_a_verb": true,
+ "cli_plan_task_stderr_tail": "{\"refused\": true, \"kind\": \"IDENTITY_MISMATCH\", \"detail\": \"[IDENTITY_MISMATCH] no .cosmos-root.json in V:\\\\A\\\\Ai\\\\COSMOS\\\\builds\\\\backup - an existing directory without the sentinel is NOT a COSMOS root (the mesh() scar: existence is not identity)\"}\n",
+ "all_bite": false
+}

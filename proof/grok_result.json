@@ -1,0 +1,33 @@
+{
+ "schema": "cosmos-bucket-daemon/1",
+ "ok": true,
+ "node": "grok",
+ "worker": "cosmos-grok-bucket-worker",
+ "worker_id": "grok-own-wid",
+ "agent": "GROK",
+ "task_id": "grok-own",
+ "prompt": "GROK PONG",
+ "out": "V",
+ "result_name": "grok_grok-own_20260905T111003-0500_result.json",
+ "drop_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\buckets\\grok\\grok_only.json",
+ "drop_name": "grok_only.json",
+ "claimed_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\buckets\\grok\\running\\grok_only.json",
+ "fence_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\buckets\\grok\\claimed\\grok_only.json.fence",
+ "pickup_at": "2026-09-05T11:10:03.640826-05:00",
+ "rail": {
+  "ok": true,
+  "kind": "API",
+  "link_id": "sgh-api",
+  "model": "fake-grok",
+  "usd": 0.004,
+  "text": "PONG",
+  "detail": null,
+  "node": "fake_sgh"
+ },
+ "done_why": "nonempty_stdout",
+ "elapsed_s": 0.01,
+ "v_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\returns\\grok\\grok_grok-own_20260905T111003-0500_result.json",
+ "result_path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\returns\\grok\\grok_grok-own_20260905T111003-0500_result.json",
+ "out_landed": "V",
+ "processed_drop": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bucket_bind_9cnjmgnr\\live\\buckets\\grok\\processed\\20260905T111003-0500_grok_only.json"
+}

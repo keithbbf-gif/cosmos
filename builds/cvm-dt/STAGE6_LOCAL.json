@@ -1,0 +1,231 @@
+{
+ "ok": true,
+ "verdict": "PASS",
+ "stage": 6,
+ "deliverable": "cvm-dt",
+ "half": "local",
+ "gated_at_epoch": 1788161411.163744,
+ "utc_offset_s": -18000,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\cvm_gate.py",
+ "source_sha256": "9f4ee621706f3cd7ea45cf70f42b9b4bf636e436696759caf22b33c1eb56cede",
+ "client_sha256": "f9a3892d85a1288a0661b6ebe0276733336ae27485eb3469540f261dd8b9c398",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "checks": [
+  {
+   "name": "root_identity",
+   "verdict": "PASS",
+   "value": {
+    "tree_id": "KMesh-COSMOS-live",
+    "system": "COSMOS",
+    "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+    "token_loaded": true
+   },
+   "ms": 0.385
+  },
+  {
+   "name": "wasapi_default_match",
+   "verdict": "PASS",
+   "value": {
+    "device_name": "Speakers (High Definition Audio Device)",
+    "device_id": "{0.0.0.00000000}.{e2747530-2f93-4814-b272-6300acfffea0}",
+    "windows_default_name": "Speakers (High Definition Audio Device)",
+    "windows_default_id": "{0.0.0.00000000}.{e2747530-2f93-4814-b272-6300acfffea0}",
+    "read_independently": true
+   },
+   "ms": 505.12
+  },
+  {
+   "name": "earcon_render",
+   "verdict": "PASS",
+   "value": {
+    "earcon_device_name": "Speakers (High Definition Audio Device)",
+    "mix_render": {
+     "channels": 2,
+     "rate": 48000,
+     "bits": 32,
+     "is_float": true,
+     "block_align": 8
+    },
+    "mix_sig": "48000x2x32f"
+   }
+  },
+  {
+   "name": "sapi_tts_wav",
+   "verdict": "PASS",
+   "value": {
+    "bytes": 171110,
+    "riff": true,
+    "sha256": "ff2b8b6e67f26d518638fadc577ce1378b5c9417d29896bc961d1dc67c46c297",
+    "engine": "sapi",
+    "synth_ms": 97.308
+   },
+   "ms": 97.308
+  },
+  {
+   "name": "on_box_ear_round_trip",
+   "verdict": "PASS",
+   "value": {
+    "spoken": "open the status report",
+    "heard": "Open a status report",
+    "engine": "sapi",
+    "recognizer": "MS-1033-80-DESK",
+    "word_recall": 0.75,
+    "ear_ms": 219.765,
+    "sapi_events": [
+     38,
+     34
+    ]
+   },
+   "ms": 292.692
+  },
+  {
+   "name": "phone_pcm_lands_on_an_ear",
+   "verdict": "PASS",
+   "value": {
+    "scratch_root": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-y716t1g6",
+    "spoken": "open the status report",
+    "heard": "Open a status report",
+    "pcm_sha256": "beb26fef9989cf75c520debb4ce2f0ecc5cc859f41dde2d9ed11691cddfe5c77",
+    "rate": 22050,
+    "stt_kind": "ok",
+    "stt_engine": "sapi",
+    "recognizer": "MS-1033-80-DESK",
+    "cvm_ear_ms": 218.436,
+    "word_recall": 0.75,
+    "vosk_probe_ok": false,
+    "fallback": {
+     "wire": "cvm-dt-stt-fallback/1",
+     "engaged": true,
+     "heard": true,
+     "reason": "vosk absent; on-box sapi recognized the pulled PCM",
+     "vosk_detail": "vosk not importable",
+     "pcm_bytes": 97648,
+     "pcm_sha256": "beb26fef9989cf75c520debb4ce2f0ecc5cc859f41dde2d9ed11691cddfe5c77",
+     "rate": 22050,
+     "recognizer": "MS-1033-80-DESK",
+     "events": [
+      38,
+      34
+     ],
+     "ear_ms": 218.436,
+     "transcript": "Open a status report"
+    },
+    "stamped_pull_json": {
+     "stt_kind": "ok",
+     "stt_engine": "sapi",
+     "clock_id": 18
+    },
+    "phone_seen": true
+   },
+   "ms": 260.585
+  },
+  {
+   "name": "audio_lease_honor",
+   "verdict": "PASS",
+   "value": {
+    "audio_owner": "none",
+    "armed": true,
+    "sole_writer_id": 18,
+    "ticket": "V:\\A\\Ai\\COSMOS\\live\\state\\cvm\\pull.json"
+   },
+   "why": "unclaimed sink, explicitly armed"
+  },
+  {
+   "name": "dead_core_typed_refusal",
+   "verdict": "PASS",
+   "value": {
+    "base": "http://127.0.0.1:53041",
+    "kind": "UNREACHABLE"
+   },
+   "kind": "UNREACHABLE",
+   "ms": 2050.444
+  },
+  {
+   "name": "voice_loop_tick",
+   "verdict": "PASS",
+   "value": {
+    "scratch_root": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-vyjbo2zl",
+    "base": "http://127.0.0.1:53053",
+    "no_ticket": {
+     "tick": "refused",
+     "kind": "UNREACHABLE",
+     "core_kind": "UNREACHABLE",
+     "mic_state": "idle",
+     "tick_ms": 188.054
+    },
+    "seeded_id18_ticket": {
+     "tick": "idle",
+     "ticket_clock_id": 18,
+     "audio_owner": "desktop",
+     "mic_state": "idle",
+     "voice_state": "ready",
+     "stt_kind": "ok",
+     "tick_ms": 184.027
+    },
+    "heartbeat": {
+     "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-vyjbo2zl\\logs\\cvm_dt_voice_heartbeat.json",
+     "last_run_epoch": 1788161410,
+     "clock_id": 18
+    },
+    "ticket_was_seeded": true
+   },
+   "ms": 582.284
+  },
+  {
+   "name": "double_empty_ticket_refused",
+   "verdict": "PASS",
+   "value": "UNREACHABLE",
+   "kind": "UNREACHABLE",
+   "ms": 17.76
+  },
+  {
+   "name": "double_push_pull_roundtrip",
+   "verdict": "PASS",
+   "value": {
+    "double": {
+     "kind": "LOOPBACK_DOUBLE",
+     "is_core": false,
+     "base": "http://127.0.0.1:53056",
+     "root": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-yfwx3z0h",
+     "tree_id": "KMesh-COSMOS-live",
+     "handlers": "cosmos_service._cvm_pull_response + cosmos_cvm_push.cvm_post_dispatch (real route code)",
+     "boot_ms": 212.618,
+     "note": "A double answering proves the double is up. It is not evidence about the resident Core on :8770."
+    },
+    "push_cursor_out": "0ce2aaebccfe4ecc10c68561dc6ebe7398eb18264a2f80fdf0514e1025409502",
+    "pull_cursor": "0ce2aaebccfe4ecc10c68561dc6ebe7398eb18264a2f80fdf0514e1025409502",
+    "cursor_prev": "",
+    "cursor_advanced": true,
+    "audio_owner": "desktop",
+    "backlog_after": 0,
+    "folded": true,
+    "sole_writer_clock_id": 18,
+    "push_ms": 27.993,
+    "pull_ms": 11.495,
+    "fold_ms": 2.612,
+    "drain_ms": 29.239,
+    "http_gets": 1,
+    "stamped": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-double-yfwx3z0h\\state\\cvm\\pull.json"
+   },
+   "ms": 296.6
+  }
+ ],
+ "counts": {
+  "PASS": 11,
+  "REFUSED": 0,
+  "UNMEASURED": 0,
+  "PENDING_CORE": 0,
+  "FAIL": 0
+ },
+ "wire": "cvm-dt-gate-local/1",
+ "core_used": false,
+ "core_substitute_used": false,
+ "note": "rc=0 is not the gate; the checks[] values are. This half quotes NO Core measurement \u2014 the loopback double is typed LOOPBACK_DOUBLE and is not evidence about :8770.",
+ "emitted": "cvm-dt-local:KMesh-COSMOS-live:Speakers (High Definition Audio Device):48000x2x32f:0ce2aaebccfe4ecc10c68561dc6ebe7398eb18264a2f80fdf0514e1025409502:9f4ee621706f3cd7",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\STAGE6_LOCAL.json"
+}

@@ -1,0 +1,17 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new round6b classify_pause pins FAIL against predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_unpinned_round6b_20260831T161500Z",
+ "tests_run": 3,
+ "failed_names": [
+  "pause_array_is_HOLD:AttributeError",
+  "pause_str_is_HOLD:AttributeError",
+  "pause_true_is_HOLD:AttributeError"
+ ],
+ "ran_names": [
+  "pause_array_is_HOLD",
+  "pause_str_is_HOLD",
+  "pause_true_is_HOLD"
+ ],
+ "all_new_pins_failed": true
+}

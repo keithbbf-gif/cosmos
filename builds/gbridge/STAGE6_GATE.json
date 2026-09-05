@@ -1,0 +1,53 @@
+{
+ "ok": true,
+ "stage": 6,
+ "deliverable": "gbridge",
+ "agent": "G46",
+ "gated_at_epoch": 1787757729.458371,
+ "utc_offset_s": -18000,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\gbridge.py",
+ "source_sha256": "e3ee1134e65065c99a9f1077af5a3dd18de72b3dcf9ec54d8dec4db72ff323cd",
+ "source_bytes": 23501,
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "mail_root": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\mail",
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "live_value": {
+  "live_tree_id": "KMesh-COSMOS-live",
+  "request_id": "1787757729249-fb3b039745fc",
+  "nonce": "2c62f031fd3e4be39e867847c1e22607",
+  "source_sha256": "e3ee1134e65065c99a9f1077af5a3dd18de72b3dcf9ec54d8dec4db72ff323cd",
+  "text_sha256": "905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d",
+  "answer": "gate:905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d:2c62f031fd3e4be39e867847c1e22607",
+  "request_file_sha256": "956f295d1b86a6b1a937d7040e12165ecd5ac39c12c3ad9d542bc2570636fc2d",
+  "reply_file_sha256": "5df5922e46c61cea1a88198431e684db54d30de0ee3ef8c522d10d4942166083",
+  "timeout_kind": "TIMEOUT",
+  "timeout_request_left": "builds\\gbridge\\mail\\timeout\\to_gbot\\1787757729252-2375173cd10e.json"
+ },
+ "happy": {
+  "status": "ok",
+  "request_id": "1787757729249-fb3b039745fc",
+  "answer": "gate:905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d:2c62f031fd3e4be39e867847c1e22607",
+  "expected_answer": "gate:905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d:2c62f031fd3e4be39e867847c1e22607",
+  "request_path": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\mail\\happy\\to_gbot\\1787757729249-fb3b039745fc.json",
+  "reply_path": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\mail\\happy\\from_gbot\\1787757729249-fb3b039745fc.json",
+  "request_file_sha256": "956f295d1b86a6b1a937d7040e12165ecd5ac39c12c3ad9d542bc2570636fc2d",
+  "reply_file_sha256": "5df5922e46c61cea1a88198431e684db54d30de0ee3ef8c522d10d4942166083",
+  "text_sha256": "905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d",
+  "ok": true
+ },
+ "timeout": {
+  "kind": "TIMEOUT",
+  "detail": "[TIMEOUT] no valid reply for 1787757729252-2375173cd10e within 0.2s - request file left in place, a late reply stays collectible",
+  "request_left": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\mail\\timeout\\to_gbot\\1787757729252-2375173cd10e.json",
+  "ok": true
+ },
+ "wire": "gbridge/1",
+ "note": "rc=0 is not the gate. The live_value fields are. Loopback selftest is a green log, not this record.",
+ "emitted": "gbridge:KMesh-COSMOS-live:1787757729249-fb3b039745fc:2c62f031fd3e4be39e867847c1e22607:e3ee1134e65065c99a9f1077af5a3dd18de72b3dcf9ec54d8dec4db72ff323cd",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\STAGE6_GATE.json",
+ "run_copy": "V:\\A\\Ai\\COSMOS\\builds\\gbridge\\mail\\happy\\STAGE6_GATE.json"
+}

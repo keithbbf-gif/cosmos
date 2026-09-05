@@ -1,0 +1,57 @@
+{
+  "schema": "cosmos-bite/1",
+  "what": "whole-tree local backup scope: runtime locks out, unreadable in-scope data still refuses",
+  "measured_utc": "2026-08-31T17:21:06Z",
+  "predecessor_refusal_16:50Z": {
+    "state": "REFUSED",
+    "kind": "SOURCE_UNREADABLE",
+    "elapsed_s": 52.077,
+    "detail": "live/logs/cdeck_feed.lock: PermissionError: [Errno 13] Permission denied"
+  },
+  "fail_against_old": {
+    "artifact": "builds/backup/_fail_local_excludes_against_old.json",
+    "all_new_pins_failed": true,
+    "tests_run": 2,
+    "failed_names": [
+      "test_lock_file_does_not_block_verified",
+      "test_unreadable_in_scope_data_still_refuses"
+    ]
+  },
+  "once_1": {
+    "cmd": "py -3.14 builds/backup/cosmos_local_clock.py --root ./live --once",
+    "state": "REFUSED",
+    "kind": "COPY_HASH_MISMATCH",
+    "elapsed_s": 644.957,
+    "detail": "copy of cosmos/_f03_test_spend_post.json does not hash-match source",
+    "not_kind": "SOURCE_UNREADABLE",
+    "excludes_applied": [
+      ".git", "__pycache__", "_delme", "*.lock",
+      "live/logs", "live/work", "live/backups", "live/config",
+      "live/returns", "trylive/config", "install_key.bin", "api_token.txt"
+    ],
+    "dest_set": "D:\\COSMOS_BACKUP\\COSMOS-20260831T172140",
+    "files_landed": 16205,
+    "bytes_landed": 7698536901,
+    "manifest_sealed": false,
+    "live_config_on_dest": false,
+    "lock_files_on_dest": false,
+    "incident": "D:\\COSMOS_BACKUP\\COSMOS-20260831T172140\\INCIDENT-20260831T173151.json"
+  },
+  "once_2": {
+    "cmd": "py -3.14 builds/backup/cosmos_local_clock.py --root ./live --once",
+    "state": "REFUSED",
+    "kind": "COPY_HASH_MISMATCH",
+    "elapsed_s": 40.377,
+    "detail": "copy of builds/backup/_f43_clock_live_preflight.json does not hash-match source",
+    "not_kind": "SOURCE_UNREADABLE",
+    "dest_set": "D:\\COSMOS_BACKUP\\COSMOS-20260831T173348"
+  },
+  "pre_scan_scope": {
+    "iter_files_count": 19131,
+    "locks_in_scope": 0,
+    "secret_path_shapes_in_scope": 0,
+    "pem_nonpublic_in_scope": 0
+  },
+  "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\local_clock_heartbeat.json",
+  "call": "A .lock is not data; live/ledger stays in; live/config never copies to an unencrypted dest. In-scope unreadables still REFUSE."
+}

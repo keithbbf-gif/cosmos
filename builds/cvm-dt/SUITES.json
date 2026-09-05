@@ -1,0 +1,181 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-suites/1",
+ "ran_at_epoch": 1788172009.4789517,
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "suites": 21,
+ "checks_passed": 311,
+ "checks_failed": 0,
+ "results": [
+  {
+   "suite": "test_cvm_dt.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 24,
+   "failed": 0,
+   "ms": 5651.7
+  },
+  {
+   "suite": "test_cvm_dt_bench.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 19,
+   "failed": 0,
+   "ms": 230.2
+  },
+  {
+   "suite": "test_cvm_dt_client.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 4,
+   "failed": 0,
+   "ms": 5925.5
+  },
+  {
+   "suite": "test_cvm_dt_clock.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 10,
+   "failed": 0,
+   "ms": 6197.6
+  },
+  {
+   "suite": "test_cvm_dt_contracts.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 12,
+   "failed": 0,
+   "ms": 306.9
+  },
+  {
+   "suite": "test_cvm_dt_stt.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 15,
+   "failed": 0,
+   "ms": 1986.5
+  },
+  {
+   "suite": "test_cvm_dt_voice.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 33,
+   "failed": 0,
+   "ms": 17865.5
+  },
+  {
+   "suite": "test_cvm_dt_voice_vehicle.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 7,
+   "failed": 0,
+   "ms": 632.1
+  },
+  {
+   "suite": "test_cvm_fence_isolation.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 4,
+   "failed": 0,
+   "ms": 2263.8
+  },
+  {
+   "suite": "test_cvm_gate.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 10,
+   "failed": 0,
+   "ms": 18248.9
+  },
+  {
+   "suite": "test_cvm_handoff.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 1,
+   "failed": 0,
+   "ms": 776.5
+  },
+  {
+   "suite": "test_cvm_phone_ear.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 20,
+   "failed": 0,
+   "ms": 930.5
+  },
+  {
+   "suite": "test_cvm_post_probe.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 25,
+   "failed": 0,
+   "ms": 3484.6
+  },
+  {
+   "suite": "test_cvm_pull.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 9,
+   "failed": 0,
+   "ms": 6504.9
+  },
+  {
+   "suite": "test_cvm_runtimes.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 30,
+   "failed": 0,
+   "ms": 1170.9
+  },
+  {
+   "suite": "test_cvm_snap.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 1,
+   "failed": 0,
+   "ms": 157.7
+  },
+  {
+   "suite": "test_cvm_stt_vosk.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 27,
+   "failed": 0,
+   "ms": 5971.4
+  },
+  {
+   "suite": "test_cvm_stt_whisper.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 18,
+   "failed": 0,
+   "ms": 13248.9
+  },
+  {
+   "suite": "test_cvm_supervision.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 20,
+   "failed": 0,
+   "ms": 8839.3
+  },
+  {
+   "suite": "test_cvm_tts_piper.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 12,
+   "failed": 0,
+   "ms": 7530.3
+  },
+  {
+   "suite": "test_cvm_vosk_reuse.py",
+   "verdict": "PASS",
+   "rc": 0,
+   "passed": 10,
+   "failed": 0,
+   "ms": 19028.7
+  }
+ ],
+ "note": "rc is recorded, not trusted. A suite printing no PASS/FAIL line is NO_SIGNAL, never green."
+}

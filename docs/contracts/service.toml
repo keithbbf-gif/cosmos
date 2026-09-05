@@ -1,0 +1,275 @@
+# CONTRACTS — service / API surface (cosmos/cosmos_service.py)
+#
+# Phase 1, docs/CORE_RESTRUCTURE.md. This is the ONE versioned external API that
+# KDash, voice, and the phone/desktop clients consume, and it is the only module
+# that faces a network. Its invariants are the ones where a violation is both
+# expensive and silent: a credential invented on a LAN bind, a bearer served in
+# cleartext, an uncapped body, a composition fault reported as an empty answer.
+#
+# Transcribed from the CODE as it stands 2026-08-30 (`Service.__init__`,
+# `_load_api_token`, `make_handler` / `Handler._authed / _read_body / do_GET /
+# do_POST`, `_STATIC_ROUTES`). Every marker was grepped in the file it is cited
+# from before it was written here.
+#
+# RULE: transcribe what the CODE does today, not what the prose claims. Where
+# they disagree, the code wins and the disagreement is the finding. The one
+# disagreement this file recorded -- the Service class docstring stated flatly
+# that a non-loopback bind refuses without TLS while the code carried an
+# `insecure_http` trial opt-out the docstring did not name -- was CLOSED on
+# 2026-08-30 by correcting the docstring (the opt-out is Keith's and stays).
+# It is now pinned from both sides by
+# service.the_cleartext_guard_and_its_docstring_are_pinned_together, so neither
+# half can be edited alone again.
+
+schema = "cosmos-contracts/1"
+subsystem = "service"
+
+[[contract]]
+id = "service.the_open_shell_opens_no_data"
+statement = """
+The static PWA shell is served WITHOUT the bearer, deliberately — it is what
+makes the client installable from a phone. That is only safe while THREE things
+stay true together, and any one of them alone is a breach: it is an EXACT-MATCH
+allowlist, so no request text ever becomes a filesystem path and there is no
+traversal surface; every /api/v1/* route still requires the bearer on every
+request; and no shell file carries credential material, because the bearer is
+pasted into the page by the user at runtime and lives in page memory ONLY. A
+token baked into a page handed to anyone who can reach the port is total
+compromise of this surface, and nothing in the request or the response would
+look wrong."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "_STATIC_ROUTES.get(parsed.path)"
+  why = "an exact dict lookup on the parsed path, never a path join"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "no request text ever becomes a filesystem path"
+  why = "the rule stated at the allowlist that enforces it"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "GET /api/v1/status with NO token is still 401 (data stays gated)"
+  why = "the negative control: the open shell did not open the data"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "path traversal ( /kdash_sw.js/../cosmos_service.py ) is refused"
+  why = "source is never served through the unauthenticated route"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "no static shell body contains the bearer token"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "a non-allowlisted path without token is NOT served"
+  why = "nothing outside the allowlist leaks through the open route"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "kdash/mobile.html"
+  must_not_contain = "api_token"
+  why = "the road-default page is served openly; it must not name the token store"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "kdash/index.html"
+  must_not_contain = "api_token"
+  why = "same rule for the desktop page behind /dash"
+
+[[contract]]
+id = "service.credentials_are_configured_never_invented"
+statement = """
+Bearer material is install config. A blank or whitespace api_token.txt is an OPEN
+DOOR and is refused (BLANK_TOKEN). A missing token file is minted only on a
+LOOPBACK bind (zero-friction local use); on a remote bind the service REFUSES
+(TOKEN_MISSING) rather than silently inventing a secret on the LAN — and the file
+is genuinely not created on that path. The token comparison is constant-time,
+because `==` short-circuits on the first differing byte and leaks token prefixes
+to a timing observer."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "a blank token is an open door"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "refusing to invent authentication"
+  why = "a remote bind never mints; it refuses"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "hmac.compare_digest(got.encode"
+  why = "constant-time bearer comparison, not =="
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "...and the missing remote token file was NOT invented"
+  why = "asserts the file's absence, not merely the refusal's kind"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "whitespace api_token.txt -> BLANK_TOKEN (open door refused)"
+
+[[contract]]
+id = "service.remote_is_never_cleartext_and_never_lies_about_it"
+statement = """
+A non-loopback bind refuses to start (REMOTE_CLEARTEXT) unless TLS is actually
+up — a bearer token over LAN HTTP is captured and replayed by any observer. The
+honest HTTP fallback exists for LOOPBACK only, and when the crypto lib is absent
+the service RECORDS the downgrade in .scheme rather than claiming encryption it
+does not have. An operator-provided cert/key pair is served verbatim; half a pair
+or a missing file is a typed CERT_NOT_FOUND, never a silent fall back to a cert
+the operator did not choose. (The `insecure_http` argument is Keith's explicit,
+reversible trial opt-out and is the ONLY way past the refusal.)"""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "REMOTE_CLEARTEXT"
+  why = "the typed refusal on a non-loopback bind without TLS"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "self.scheme records the honest truth"
+  why = "a loopback HTTP fallback is recorded, never a silent claim of https"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "remote bind without TLS -> REMOTE_CLEARTEXT"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_tls.py"
+  must_contain = "crypto absent -> stayed HTTP and RECORDED it (no silent downgrade)"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_tls.py"
+  must_contain = "PROVIDED: cert without key -> typed CERT_NOT_FOUND (no silent self-sign)"
+
+[[contract]]
+id = "service.every_body_is_bounded_before_it_is_read"
+statement = """
+Content-Length is validated BEFORE any read on every POST endpoint: missing is
+400 LENGTH_REQUIRED, non-integer or negative is 400 BAD_LENGTH, over the 1 MiB
+cap is 413 BODY_TOO_LARGE. `rfile.read(N)` on an unbounded N is a memory DoS on
+an authenticated-or-not socket, and `read(-1)` blocks on the open socket — both
+reachable from anything that can dial the port. The refusal must therefore come
+before the read, not after it."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "_MAX_BODY_BYTES"
+  why = "one declared cap for every POST body"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "rejected BEFORE any read"
+  why = "the ordering is the invariant, not the presence of a check"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "POST with Content-Length over the 1 MiB cap -> 413 BODY_TOO_LARGE"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "POST with negative Content-Length -> 400 BAD_LENGTH"
+
+[[contract]]
+id = "service.not_composed_is_not_empty"
+statement = """
+An uncomposed dependency answers 503 naming the composition fault, never 200 with
+an empty collection. A silent 200+empty made "no links" and "not composed" read
+identically (critic M3) — the reader sees a healthy board with nothing on it and
+concludes there is nothing to see, which is the same inference that let a wedged
+route report healthy for three days (health.progress_is_bound_to_artifacts). A
+GET must also never seed the thing it failed to find."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "a silent 200+empty"
+  why = "the failure this branch exists to prevent, stated at the branch"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "REGISTRY_NOT_COMPOSED"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "MAKERS_NOT_COMPOSED"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_makers.py"
+  must_contain = "GET /makers on an uncomposed kernel -> 503 (not an empty catalog)"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_makers.py"
+  must_contain = "...and the 503 did not write (head still unmoved)"
+  why = "the composition fault is reported without seeding or ledgering"
+
+[[contract]]
+id = "service.the_cleartext_guard_and_its_docstring_are_pinned_together"
+statement = """
+The REMOTE_CLEARTEXT guard has an escape hatch -- `insecure_http`, Keith's
+explicit and reversible trial flag -- and the Service docstring used to promise
+the refusal was absolute. That is the dangerous kind of stale prose: it does not
+read as missing, it reads as a guarantee, and a reader can ship a LAN bind on
+the strength of it. So the two are pinned to EACH OTHER here. The guard keeps
+its opt-out, and the docstring must name `insecure_http` by name; editing either
+side alone fails this contract, which is the only thing that makes prose behave
+like the specification this system treats it as."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_service.py"
+  must_contain = 'if remote and self.scheme != "https" and not insecure_http:'
+  why = "the guard verbatim, opt-out included -- not a paraphrase of it"
+
+  [[contract.evidence]]
+  kind = "prose"
+  file = "cosmos/cosmos_service.py"
+  must_contain = "THE ONE OPT-OUT: insecure_http=True"
+  why = "the Service docstring names the escape hatch the guard actually ships"
+
+  [[contract.evidence]]
+  kind = "prose"
+  file = "cosmos/cosmos_service.py"
+  must_contain = '`if remote and self.scheme != "https" and not insecure_http`'
+  why = "the docstring quotes the guard, so a rewritten guard strands the prose"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_rest_surface.py"
+  must_contain = "remote bind without TLS -> REMOTE_CLEARTEXT"
+  why = "the refusal is still live; naming the opt-out did not soften it"

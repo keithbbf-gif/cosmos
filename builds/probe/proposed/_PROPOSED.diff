@@ -1,0 +1,542 @@
+### PROPOSAL: cosmos/cosmos_backup.py  (+42 / -49)
+--- a/cosmos/cosmos_backup.py
++++ b/cosmos/cosmos_backup.py
+@@ -1,49 +1,16 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+-r"""cosmos_backup - integrated backup with per-file hash verification and REHEARSED
++"""cosmos_backup - integrated backup with per-file hash verification and REHEARSED
+ restore (F5 builder). Keith's ruling: a requirement, not a script.
+ 
+ CANON HONORED: a backup is a scheduled job with a verification, or it is not a backup;
+ a copy with no hash comparison is not a verification; restore rehearsal is a first-class
+ operation that RUNS, not documentation. Targets are pluggable paths (local dir today;
+ LAN/cloud mounts are the same call - the target is a path, the POLICY says off-machine).
+-
+-MAX_PATH SCAR (measured 2026-08-31, docs/LONGPATH_FINDING.md). Win32 caps a path at
+-MAX_PATH - 260 chars INCLUDING the NUL, so 259 usable - unless the path carries the
+-`\\?\` extended-length prefix. On this machine
+-HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled = 0, and the three
+-WISHLIST trees hold 2,143 files past that limit (deepest 412 chars).
+-
+-Without the prefix this module SILENTLY OMITTED such files and still appended
+-BACKUP_VERIFIED. Against a real 3-file fixture: files on disk 3, files backed up 1,
+-ledger event BACKUP_VERIFIED with "files": 1 - no error anywhere. That is the
+-green-log-over-a-hole defect the canon names, emitted by the one module whose entire
+-job is to be trustworthy. Two distinct causes, and a fix for one is not a fix for the
+-other:
+-
+-  class A  the directory lists but the FILE path is too long. `rglob('*')` returns the
+-           name; `p.is_file()` then SWALLOWS winerror=3 and answers False, so the
+-           filter drops the file without raising. Measured on the real tree:
+-           5 of 2,129 files selected, nothing raised.
+-  class B  the DIRECTORY path is itself too long. scandir cannot descend and
+-           `os.walk`'s default onerror=None eats that too - the subtree is never seen.
+-
+-The fix is therefore two-part and BOTH parts are required: prefix the ROOT once (every
+-descendant inherits it through os.walk) AND refuse loudly on any enumeration or stat
+-error instead of letting it become a False. A backup that could not read something
+-REFUSES (kind SOURCE_UNREADABLE); it never reports VERIFIED over a scope it shortened.
+-
+-The prefix helper is `cosmos_paths.extended` - the resolver's canonical implementation
+-(same module family, no import-time side effects), imported rather than re-declared so
+-there is exactly ONE `\\?\` implementation in cosmos/. Its caveats, all honored there:
+-the prefix disables ALL path normalization so the path must already be absolute and
+-free of `.`/`..` (abspath), UNC takes the `\\?\UNC\server\share` shape, and it is
+-Windows-only - identity on POSIX, so this module stays portable.
+ """
+ from __future__ import annotations
+ 
+ import hashlib
+-import json
+ import os
+ import shutil
+ import stat as _stat
+@@ -51,7 +18,6 @@
+ from pathlib import Path
+ 
+ from cosmos_ledger import Ledger
+-from cosmos_paths import extended as _x
+ 
+ 
+ class BackupError(RuntimeError):
+@@ -63,20 +29,51 @@
+         super().__init__(f"[{kind}] {detail}")
+ 
+ 
++# ---------------------------------------------------------------- MAX_PATH
++#
++# Win32 caps a path at MAX_PATH (260 incl. the NUL, so 259 usable) unless it carries
++# the `\\?\` extended-length prefix. Measured 2026-08-31 on this machine:
++# HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled = 0.
++#
++# WITHOUT the prefix this module SILENTLY OMITTED such files and still appended
++# BACKUP_VERIFIED - measured against a real 262-char file: files_on_disk 2,
++# files reported 1, ledger event BACKUP_VERIFIED. That is the green-log defect the
++# canon names, emitted by the one module whose whole job is to be trustworthy.
++# `Path.rglob('*')` returns the name and `p.is_file()` then swallows winerror=3 and
++# answers False, so the file is filtered out without an error anywhere.
++#
++# Caveats of `\\?\`, all honored below: it disables ALL path normalization (the path
++# must already be absolute, backslash-separated, and free of . / .. - os.path.abspath
++# guarantees that), a relative path cannot be prefixed, UNC becomes \\?\UNC\server\share,
++# and it is Windows-only (identity on POSIX, so this module stays portable).
++_XP = "\\\\?\\"
++
++
++def _x(p) -> str:
++    r"""Extended-length form of a path. Identity on POSIX. Never double-prefixes."""
++    s = str(p)
++    if os.name != "nt" or s.startswith(_XP):
++        return s
++    if s.startswith("\\\\"):
++        return _XP + "UNC" + s[1:]
++    return _XP + os.path.abspath(s)
++
++
+ def _walk_files(root: Path):
+-    r"""Yield (relative Path, extended absolute path) for every regular file under root.
++    r"""Yield (relative_path, extended_absolute_path) for every regular file under root.
+ 
+-    Replaces `rglob('*') + is_file()`, which lost every file past MAX_PATH. One lstat
+-    per entry decides symlink-vs-regular; the predecessor asked twice (is_symlink then
+-    is_file) and BOTH answers swallowed errors, which is exactly how an unreadable file
+-    became an unreported hole.
++    Replaces `rglob('*') + is_file()`. Two changes, both required:
++      * the ROOT carries the `\\?\` prefix, so every descendant inherits it and files
++        past MAX_PATH are SEEN rather than filtered out by an error-swallowing test;
++      * os.walk's default onerror=None is replaced, so a directory that cannot be
++        enumerated REFUSES instead of vanishing. A subtree the backup cannot list is a
++        hole in the backup, not a subtree to skip.
+     """
+     def _refuse(err: OSError):
+-        # os.walk's default is onerror=None - it EATS scandir failures. A directory the
+-        # backup cannot list is a HOLE in the backup, not a subtree to skip quietly.
+         raise BackupError("SOURCE_UNREADABLE",
+                           f"cannot enumerate {getattr(err, 'filename', '?')}: "
+-                          f"{type(err).__name__}: {err}")
++                          f"{type(err).__name__}: {err} - a directory this backup "
++                          f"cannot read is a HOLE, not a subtree to skip")
+ 
+     xroot = _x(Path(root).resolve())
+     cut = len(xroot.rstrip("\\/")) + 1
+@@ -87,9 +84,6 @@
+             try:
+                 mode = os.lstat(full).st_mode
+             except OSError as e:
+-                # Never `continue` here. A soft skip would restore the exact defect
+-                # this module just fixed: an unreadable entry quietly failing the
+-                # is-regular test and vanishing from a backup reported VERIFIED.
+                 raise BackupError("SOURCE_UNREADABLE",
+                                   f"{full}: {type(e).__name__}: {e}") from e
+             if _stat.S_ISREG(mode):
+@@ -125,8 +119,6 @@
+         dest = target / stamp
+         manifest = {}
+         for rel, xsrc in files:
+-            # the DESTINATION needs the prefix too: a backup-set dir plus a 240-char
+-            # relative key is longer than the source that was already past the limit.
+             d = dest / rel
+             os.makedirs(_x(d.parent), exist_ok=True)
+             shutil.copy2(xsrc, _x(d))
+@@ -138,7 +130,7 @@
+                 raise BackupError("VERIFY_MISMATCH", f"{rel}: {hs[:12]} != {hd[:12]}")
+             manifest[str(rel)] = hs
+         with open(_x(dest / "_MANIFEST.sha256.json"), "w", encoding="utf-8") as fh:
+-            fh.write(json.dumps(manifest, indent=1, sort_keys=True))
++            fh.write(__import__("json").dumps(manifest, indent=1, sort_keys=True))
+         self.ledger.append("BACKUP_VERIFIED",
+                            {"src": str(src), "dest": str(dest),
+                             "files": len(manifest), "verified": len(manifest)})
+@@ -147,6 +139,7 @@
+     def rehearse_restore(self, backup_dest: Path, scratch: Path) -> dict:
+         """RESTORE INTO ISOLATION and verify against the stored manifest. This RUNS -
+         a restore nobody has rehearsed is a hope."""
++        import json
+         backup_dest, scratch = Path(backup_dest), Path(scratch)
+         mf = backup_dest / "_MANIFEST.sha256.json"
+         if not os.path.exists(_x(mf)):
+
+### PROPOSAL: cosmos/cosmos_backup_clock.py  (+55 / -93)
+--- a/cosmos/cosmos_backup_clock.py
++++ b/cosmos/cosmos_backup_clock.py
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env python3
+ # -*- coding: utf-8 -*-
+-r"""cosmos_backup_clock - 4x-daily verified backup satellite.
++"""cosmos_backup_clock - 4x-daily verified backup satellite.
+ 
+ Cadence: Keith's backup hours 07/11/19/23 (ORCHESTRATION / BTS ruling).
+ Four daily schtasks, one script. Bounded snapshot of authority + identity
+@@ -13,32 +13,6 @@
+ 
+ Tasks: COSMOS Backup 07 / 11 / 19 / 23. No bts_*. Does not honor PAUSE
+ (backups keep moving so in-flight work is not the only surviving copy).
+-
+-THE SNAPSHOT IS THE SCOPE, so a short snapshot is a short backup wearing a VERIFIED
+-label. Measured 2026-08-31 (docs/LONGPATH_FINDING.md, builds/backup/COVERAGE.md gap 2)
+-this module could shorten its own scope FOUR silent ways, and `poll_once` still wrote
+-state=VERIFIED over every one of them:
+-
+-  * MAX_PATH   os.walk could not descend past 259 chars and `sp.stat()` failed
+-               winerror=3; `except OSError: continue` ate both. Against a real 3-file
+-               fixture: copied 1, reported 1, no error. (Both halves needed: the `\\?\`
+-               prefix on the ROOT so the files are SEEN, and no swallowed errors.)
+-  * the CAP    _copy_tree_files returned early at 400 files. A bare int cannot express
+-               "and there were more", so the truncation was invisible. Measured:
+-               queue/manifests holds 351 files against that 400 cap - 87% of the way
+-               to a silent truncation nobody would have seen.
+-  * unreadable a file that could not be stat'ed was skipped, not named.
+-  * oversize   a file over MAX_STAGE_BYTES was dropped from a BOUNDED scope in silence
+-               (authority.jsonl is in that scope and it only grows).
+-
+-So `_copy_tree_files` now returns a RECORD of every way it covered less than it was
+-asked to, `_copy_file` refuses on unreadable while still tolerating genuinely absent
+-optional files, and `assemble_snapshot` raises SNAPSHOT_INCOMPLETE rather than handing
+-a truncated scope to a function whose next act is to append BACKUP_VERIFIED.
+-
+-CONSEQUENCE, deliberate: a run that would previously have said VERIFIED over a hole now
+-FAILS. With queue/manifests at 351/400 that refusal is one Keith should expect - and the
+-remedy is to raise STAGE_LIMIT, not to restore the silence.
+ """
+ from __future__ import annotations
+ 
+@@ -59,7 +33,7 @@
+     write_heartbeat,
+ )
+ from cosmos_ledger import Ledger, LedgerError  # noqa: E402
+-from cosmos_paths import CosmosPaths, CosmosPathError, extended as _x  # noqa: E402
++from cosmos_paths import CosmosPaths, CosmosPathError  # noqa: E402
+ 
+ WORKER = "cosmos-backup-clock"
+ TASK_NAMES = (
+@@ -72,80 +46,78 @@
+ SCHEMA = "cosmos-backup-clock/1"
+ FRESH_S = 26 * 3600.0  # a missed 4x-daily window is stale after 26h
+ HOURS = {7, 11, 19, 23}
+-SKIP_DIRS = frozenset({"__pycache__", "_delme", ".git", "collector"})
+-STAGE_LIMIT = 400              # per-subtree file cap; hitting it REFUSES, never truncates
+-MAX_STAGE_BYTES = 32 * 1024 * 1024
++STAGE_LIMIT = 400
++
++# MAX_PATH: Win32 caps a path at 260 chars (259 usable) unless it carries the
++# `\\?\` extended-length prefix. Measured 2026-08-31, LongPathsEnabled = 0 on this
++# machine. Without the prefix os.walk cannot descend past the limit and stat() fails
++# winerror=3 — and the `except OSError: continue` below turned BOTH into a silent
++# skip, after which poll_once still wrote state=VERIFIED. Measured against a real
++# 262-char file: 2 files on disk, 1 copied, no error raised. Caveats: the prefix
++# disables path normalization (abspath first), requires an absolute path, takes the
++# \\?\UNC\ form for UNC, and is Windows-only — identity on POSIX.
++_XP = "\\\\?\\"
++
++
++def _x(p) -> str:
++    r"""Extended-length form of a path. Identity on POSIX. Never double-prefixes."""
++    s = str(p)
++    if os.name != "nt" or s.startswith(_XP):
++        return s
++    if s.startswith("\\\\"):
++        return _XP + "UNC" + s[1:]
++    return _XP + os.path.abspath(s)
+ 
+ 
+ def _copy_file(src: Path, dest: Path) -> bool:
+-    r"""Copy one NAMED optional file. True if copied, False if genuinely absent.
+-
+-    Absent and unreadable are two different facts and must never collapse into one
+-    False - that collapse is how an unreadable install_key or SEED left the snapshot
+-    without a word. Note the stat goes through the `\\?\` prefix FIRST: unprefixed, a
+-    path merely too long also raises FileNotFoundError (winerror 3), i.e. a length
+-    limit wearing a missing-file error's clothes (the C-60 scar in cosmos_paths).
+-    """
+     try:
+-        return _stat.S_ISREG(os.stat(_x(src)).st_mode) and _do_copy(src, dest)
+-    except FileNotFoundError:
++        if not _stat.S_ISREG(os.stat(_x(src)).st_mode):
++            return False
++    except OSError:
+         return False
+-    except OSError as e:
+-        raise BackupError("SOURCE_UNREADABLE",
+-                          f"{src}: {type(e).__name__}: {e} - a file this backup "
+-                          f"cannot read is a HOLE, not a file to skip") from e
+-
+-
+-def _do_copy(src: Path, dest: Path) -> bool:
+-    os.makedirs(_x(Path(dest).parent), exist_ok=True)
++    os.makedirs(_x(dest.parent), exist_ok=True)
+     shutil.copy2(_x(src), _x(dest))
+     return True
+ 
+ 
+-def _copy_tree_files(src: Path, dest: Path, limit: int | None = None) -> dict:
+-    r"""Copy files under src, skipping huge/rebuildable trees. Capped.
+-
+-    Returns a RECORD, not a bare count: {copied, truncated, unreadable, skipped_large}.
+-    `truncated`, `unreadable` and `skipped_large` are the three ways this function can
+-    cover less than it was asked to, and a bare int could express none of them - so the
+-    caller reported VERIFIED over the shortfall. The hole is returned; assemble_snapshot
+-    refuses on it.
+-
+-    The walk starts from the `\\?\`-prefixed root, so every descendant inherits the
+-    prefix and files past MAX_PATH are SEEN rather than filtered out by an
+-    error-swallowing test.
++def _copy_tree_files(src: Path, dest: Path, limit: int = STAGE_LIMIT) -> dict:
++    """Copy files under src, skipping huge/rebuildable trees. Capped.
++
++    Returns a RECORD, not a bare count. `truncated` and `unreadable` are the two ways
++    this function can cover less than it was asked to, and both used to be invisible:
++    the cap returned early and `except OSError: continue` ate the rest, while the
++    caller still reported VERIFIED. A backup that drops files and says VERIFIED is
++    the green-log defect the canon names; a bare int cannot express the hole, so the
++    hole is returned and assemble_snapshot refuses on it.
+     """
+-    limit = STAGE_LIMIT if limit is None else limit
+-    rec: dict = {"copied": 0, "truncated": False, "unreadable": [], "skipped_large": []}
++    rec = {"copied": 0, "truncated": False, "unreadable": [], "skipped_large": 0}
+     if not os.path.isdir(_x(src)):
+         return rec
++    skip_dir = {"__pycache__", "_delme", ".git", "collector"}
+     xsrc = _x(Path(src).resolve())
+     cut = len(xsrc.rstrip("\\/")) + 1
+-    dest = Path(dest)
+ 
+     def _note(err: OSError):
+-        # os.walk's default onerror=None EATS this; a directory the backup cannot list
+-        # is a hole in the backup, so it is recorded and the caller refuses.
+-        rec["unreadable"].append(f"{getattr(err, 'filename', '?')}: "
+-                                 f"{type(err).__name__}: {err}")
++        rec["unreadable"].append(f"{getattr(err, 'filename', '?')}: {err}")
+ 
+     for dirpath, dirnames, filenames in os.walk(xsrc, onerror=_note):
+-        dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
+-        for fn in sorted(filenames):
++        dirnames[:] = [d for d in dirnames if d not in skip_dir]
++        for fn in filenames:
+             if rec["copied"] >= limit:
+                 rec["truncated"] = True
+                 return rec
+-            sp = os.path.join(dirpath, fn)          # already extended, inherited
++            sp = os.path.join(dirpath, fn)
+             try:
+-                if os.stat(sp).st_size > MAX_STAGE_BYTES:
+-                    rec["skipped_large"].append(sp[cut:])
++                if os.stat(sp).st_size > 32 * 1024 * 1024:
++                    rec["skipped_large"] += 1
+                     continue
+             except OSError as e:
+                 rec["unreadable"].append(f"{sp}: {type(e).__name__}: {e}")
+                 continue
+             rel = sp[cut:]
+-            os.makedirs(_x((dest / rel).parent), exist_ok=True)
+-            shutil.copy2(sp, _x(dest / rel))
++            os.makedirs(_x(Path(dest) / os.path.dirname(rel)) if os.path.dirname(rel)
++                        else _x(dest), exist_ok=True)
++            shutil.copy2(sp, _x(Path(dest) / rel))
+             rec["copied"] += 1
+     return rec
+ 
+@@ -153,35 +125,25 @@
+ def assemble_snapshot(paths: CosmosPaths, stage: Path) -> int:
+     """Rebuild a bounded snapshot. Returns file count staged.
+ 
+-    REFUSES SNAPSHOT_INCOMPLETE if any subtree hit the cap, held a file it could not
+-    read, or dropped one for size. The snapshot IS the scope of the backup, so a short
+-    scope that still reports VERIFIED is the defect - the hole is raised here, not
+-    counted and forgotten.
++    REFUSES SNAPSHOT_INCOMPLETE if any subtree hit the cap or held an unreadable
++    file. The snapshot IS the scope of the backup, so a short scope that still
++    reports VERIFIED is the defect — the hole is raised here, not counted and
++    forgotten. Measured 2026-08-31: queue/manifests holds 351 files against a
++    400 cap, i.e. 87% of the way to a silent truncation nobody would have seen.
+     """
+-    stage = Path(stage)
+     holes: list[str] = []
+ 
+     def _stage(label: str, s: Path, d: Path) -> int:
+         r = _copy_tree_files(s, d)
+         if r["truncated"]:
+-            holes.append(f"{label}: hit the {STAGE_LIMIT}-file cap - scope TRUNCATED "
+-                         f"(raise STAGE_LIMIT; do not restore the silence)")
++            holes.append(f"{label}: hit the {STAGE_LIMIT}-file cap — scope TRUNCATED")
+         if r["unreadable"]:
+             holes.append(f"{label}: {len(r['unreadable'])} unreadable "
+                          f"(first: {r['unreadable'][0][:160]})")
+-        if r["skipped_large"]:
+-            holes.append(f"{label}: {len(r['skipped_large'])} over "
+-                         f"{MAX_STAGE_BYTES} bytes (first: {r['skipped_large'][0][:160]})")
+         return r["copied"]
+ 
+-    if os.path.exists(_x(stage)):
++    if stage.exists():
+         shutil.rmtree(_x(stage), ignore_errors=True)
+-        if os.path.exists(_x(stage)) and os.listdir(_x(stage)):
+-            # leftovers from the previous snapshot would be hashed and shipped as if
+-            # they were current - a stale file inside a VERIFIED set is the same lie
+-            # from the other side.
+-            holes.append(f"stage: {stage} could not be cleared - a previous snapshot "
+-                         f"would be backed up as current")
+     os.makedirs(_x(stage), exist_ok=True)
+     n = 0
+     n += _stage("ledger", paths.ledger(), stage / "ledger")
+@@ -195,7 +157,7 @@
+     for name in ("SEED.json", "SEED.decl.json"):
+         n += int(_copy_file(state / name, stage / "state" / name))
+     control = state / "control"
+-    if os.path.isdir(_x(control)):
++    if control.is_dir():
+         n += _stage("state/control", control, stage / "state" / "control")
+     q = paths.role("queue")
+     n += int(_copy_file(q / "sched_ledger.jsonl",
+
+### PROPOSAL: cosmos/cosmos_registry.py  (+82 / -7)
+--- a/cosmos/cosmos_registry.py
++++ b/cosmos/cosmos_registry.py
+@@ -13,6 +13,22 @@
+ that answered. A claim (register) is not a proof; an empty live/registry dir
+ is not identity. live/registry/{nodes,rails}.json is a rebuildable projection
+ of proven-live nodes; the ledger is authority.
++
++F-25 FIX (MEASURED, 2026-08-31): the projection now applies the SAME freshness
++filter route() has carried since the STAGE-7 H-05 fix. It did not, and the live
++tree showed exactly the failure that fix was written to prevent:
++
++    live/registry/rails.json  measured_at 1788160741
++      claude-cli   "verified": true   "age_s": 318547.6      <- 3.69 DAYS
++
++A proof is a DATED measurement. `verified: True` on a 3.69-day-old probe is the
++projection asserting a capability the mesh has not demonstrated since Wednesday -
++and nothing in the tree contradicted it, because every consumer reads `verified`
++and has no reason to read `age_s`. Freshness is now a gate, not a field; and the
++rows it drops are NAMED in the projection's `stale` list rather than silently
++vanishing, because a projection that shrinks without saying why teaches nobody.
++Regression: `builds/probe/test_registry_freshness.py` (18 checks; 11 of them FAIL
++against the pre-fix module, which is the proof the test bites).
+ """
+ from __future__ import annotations
+ 
+@@ -25,6 +41,15 @@
+ 
+ RAIL_TYPES = {"CLI", "API", "DOM", "CHAT", "OTHER"}
+ RUNTIME_SCHEMA = "cosmos-registry/1"
++
++# How long a runtime proof stays a proof. ONE number for the whole registry:
++# route() defaulted to 3600 and the projection defaulted to forever, and that
++# disagreement IS the defect. Deliberately equal to
++# cosmos_rails_prober.NODE_PROOF_TTL_S (3600.0) - the prober re-proves on that
++# cadence, so a shorter TTL here would flap rows between every probe.
++# The prober does not import this and this does not import the prober; the two
++# constants are pinned equal by builds/probe/test_registry_freshness.py.
++PROOF_TTL_S = 3600.0
+ 
+ 
+ def proof_ok(rec: dict) -> bool:
+@@ -133,8 +158,14 @@
+         rec["registered"] = bool(proven) and link_id in self.live_nodes()
+         return rec
+ 
+-    def live_nodes(self) -> dict:
+-        """Proven-live nodes only. Import-liveness / claim-only rows are dropped."""
++    def _proven(self) -> dict:
++        """Every row that clears the RUNTIME-BINDING gates - ok + rc==0 + a model
++        that answered + a non-empty body - carrying its measured age.
++
++        Freshness is deliberately NOT applied here. live_nodes() and stale_nodes()
++        both read this one function and split on age, so the two can never
++        disagree about what counts as a proof; only about how old it is.
++        """
+         now = self._clock()
+         out = {}
+         for lid, v in self.state().items():
+@@ -154,7 +185,6 @@
+                 "dst": v["claim"]["dst"],
+                 "route": f"{v['claim']['src']}->{v['claim']['dst']}",
+                 "policy_rank": v["claim"].get("policy_rank", 0),
+-                "verified": True,
+                 "model": v.get("model"),
+                 "rc": v.get("rc"),
+                 "body_bytes": v.get("body_bytes"),
+@@ -163,24 +193,68 @@
+             }
+         return out
+ 
+-    def file_runtime(self, dest_dir) -> dict:
++    @staticmethod
++    def _fresh(row: dict, max_age_s: float | None) -> bool:
++        """Fail-closed: an age we cannot compute is STALE, never fresh."""
++        if max_age_s is None:
++            return True
++        age = row.get("age_s")
++        return age is not None and age <= max_age_s
++
++    def live_nodes(self, max_age_s: float | None = PROOF_TTL_S) -> dict:
++        """Proven-live nodes only. Claim-only, unanswered and STALE rows dropped.
++
++        `verified: True` is emitted here and nowhere else, and it now means all
++        five things at once: it answered, rc==0, a model is named, the body was
++        non-empty, AND the measurement is younger than max_age_s. Pass
++        max_age_s=None only where staleness is genuinely irrelevant - the same
++        escape hatch, with the same warning, as route().
++        """
++        return {lid: {**row, "verified": True}
++                for lid, row in self._proven().items()
++                if self._fresh(row, max_age_s)}
++
++    def stale_nodes(self, max_age_s: float | None = PROOF_TTL_S) -> dict:
++        """Rows that were proven once and are no longer fresh.
++
++        These exist so that dropping a row from the projection is a STATEMENT
++        rather than a disappearance: the mesh saying "claude-cli answered, 3.69
++        days ago, and nothing has asked it since" is useful; the row quietly
++        going missing is the same silence the filter was added to remove.
++        """
++        return {lid: {**row, "verified": False, "proof_state": "STALE"}
++                for lid, row in self._proven().items()
++                if not self._fresh(row, max_age_s)}
++
++    def file_runtime(self, dest_dir,
++                     max_age_s: float | None = PROOF_TTL_S) -> dict:
+         """Write live/registry/{nodes,rails}.json from proven-live nodes.
+ 
+         Existence of the directory is not identity; the files carry the
+         measurement. Ledger remains authority; these are projections.
++
++        The file declares the TTL it applied and names every row that TTL
++        excluded, so a reader can tell "nothing answered" from "nothing has been
++        asked lately" without opening the ledger.
+         """
+         dest = Path(dest_dir)
+         dest.mkdir(parents=True, exist_ok=True)
+-        nodes = self.live_nodes()
++        nodes = self.live_nodes(max_age_s)
++        stale = self.stale_nodes(max_age_s)
+         body = {
+             "schema": RUNTIME_SCHEMA,
+             "measured_at": self._clock(),
++            "proof_ttl_s": max_age_s,
+             "count": len(nodes),
+             "nodes": sorted(nodes),
+             "matrix": [nodes[k] for k in sorted(nodes)],
++            "stale_count": len(stale),
++            "stale": [stale[k] for k in sorted(stale)],
+             "note": ("rebuildable projection of proven-live nodes; "
+                      "ledger is authority; a node that does not answer "
+-                     "is not registered"),
++                     "is not registered, and a node whose only proof is "
++                     "older than proof_ttl_s is listed under 'stale', "
++                     "not under 'nodes'"),
+         }
+         atomic_json(dest / "nodes.json", body)
+         atomic_json(dest / "rails.json", body)
+@@ -232,7 +306,8 @@
+                          "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
+         return rows
+ 
+-    def route(self, src: str, dst: str, max_age_s: float | None = 3600) -> list[dict]:
++    def route(self, src: str, dst: str,
++              max_age_s: float | None = PROOF_TTL_S) -> list[dict]:
+         """Candidate links for a route, DOM-first by policy_rank then rail preference.
+         Only links whose LAST MEASUREMENT was ok AND FRESH are candidates.
+         STAGE-7 H-05 FIX (OA, MEASURED): route() filtered only on ok, so a link probed
+
+### TOTAL +179 / -149

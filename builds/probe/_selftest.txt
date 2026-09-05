@@ -1,0 +1,26 @@
+  OK    a NO_KEY refusal is read as NO_KEY even when wrapped in UNREACHABLE:
+  OK    a generic wrapper is used only when no specific cause is present
+  OK    the specific cause outranks the wrapper wherever it appears
+  OK    an unrecognised refusal falls back to the caller's default, not to OK
+  OK    a healthy rail nobody asks is NOT_WIRED, not broken
+  OK    NOT_WIRED is never reported as proven live
+  OK    the NOT_WIRED blocker names the table that has to change
+  OK    a claim with zero measurements is reported as such
+  OK    rail_type and route come from the ledger claim, not from this tool
+  OK    a link with no claim at all is 'unclaimed', never guessed
+  OK    a fresh proof is NONE
+  OK    a proof older than the TTL is STALE_PROOF, not NONE
+  OK    the stale blocker states the age and the TTL
+  OK    a registered node whose probe refuses keeps BOTH facts
+  OK    an unmeasured rail is never counted live
+  OK    wired + probe-green + no recorded proof is NO_PROOF
+  OK    every row carries a probe target
+  OK    claude-cli (module=None in WIRED_NODES) routes to the claude rail
+  OK    the wired four and the unasked five are all present
+  OK    every kind the classifier can emit has an unblock line
+  OK    the document reports the measured live count
+  OK    the document says the gate is proof_ok and is not weakened
+  OK    the unasked rail's structural blocker reaches the document
+  OK    the document is renderable to a str with no None leaking in
+live_value: {"kinds_pinned": ["NONE", "NOT_WIRED", "NO_PROOF", "STALE_PROOF"], "md_bytes": 3109, "rows": 9}
+result: ok  24/24

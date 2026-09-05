@@ -1,0 +1,22 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round5 unpinned backup refusals \u2014 current vs claimed",
+ "obj_array_old_kind": null,
+ "obj_array_old_crash": "AttributeError",
+ "seal_str_old_kind": null,
+ "seal_str_old_crash": "AttributeError",
+ "local_garbage_old_kind": null,
+ "local_garbage_old_crash": "JSONDecodeError",
+ "local_array_old_kind": null,
+ "local_array_old_crash": null,
+ "local_array_old_returned": "list",
+ "r2_object_keys": [
+  "cosmos-bucket/cosmos/MANIFEST.json"
+ ],
+ "r2_garbage_old_kind": null,
+ "r2_garbage_old_crash": "JSONDecodeError",
+ "r2_true_old_kind": null,
+ "r2_true_old_crash": null,
+ "r2_true_old_returned": "bool",
+ "all_bite": true
+}

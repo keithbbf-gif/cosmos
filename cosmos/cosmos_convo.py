@@ -16,7 +16,12 @@ assumed: get_session returns what the ledger actually holds.
 
 EVENTS (this module's vocabulary on the shared chain):
     CONVO_OPENED   {sid, title, scope, owner, opened_epoch}
-    CONVO_TURN     {sid, role, text, mode, sources, job_ids, seq}
+    CONVO_TURN     {sid, session_id, role, text, mode, sources, job_ids,
+                    job_id?, link_id?, rail?, node?, rid?, seq}
+                   session_id is always sid (FOLLOW_KEYS harvest; never a
+                   second identity). job_id is job_ids[0] when the list is
+                   non-empty. Other followable scalars are copied only when
+                   the caller already holds them — never invented.
     CONVO_CLOSED   {sid, closed_epoch}
     CONVO_REOPENED {sid, reopened_epoch}
 
@@ -69,6 +74,10 @@ EV_OPENED = "CONVO_OPENED"
 EV_TURN = "CONVO_TURN"
 EV_CLOSED = "CONVO_CLOSED"
 EV_REOPENED = "CONVO_REOPENED"
+
+# FOLLOW_KEYS the deck harvests. session_id is always sid on CONVO_TURN;
+# the rest are copied from `follow=` only when the caller already holds them.
+FOLLOW_KEYS = ("job_id", "link_id", "rail", "node", "rid")
 
 
 class ConvoError(RuntimeError):
@@ -214,7 +223,8 @@ class ConvoStore:
 
     def append_turn(self, sid: str, role: str, text: str, mode: str = "text",
                     sources: Optional[list] = None,
-                    job_ids: Optional[list] = None) -> int:
+                    job_ids: Optional[list] = None,
+                    follow: Optional[dict] = None) -> int:
         # Cheap shape checks BEFORE touching the chain - a refused turn
         # appends nothing.
         if role not in ROLES:
@@ -226,6 +236,18 @@ class ConvoStore:
             raise ConvoError("BAD_TURN", "mode must be a non-empty string")
         sources = _str_list(sources, "sources", "BAD_TURN")
         job_ids = _str_list(job_ids, "job_ids", "BAD_TURN")
+        extra = {}
+        if follow is not None:
+            if not isinstance(follow, dict):
+                raise ConvoError("BAD_TURN",
+                                 "follow must be a dict of followable ids")
+            for k, v in follow.items():
+                if k not in FOLLOW_KEYS:
+                    continue
+                if isinstance(v, str) and v.strip():
+                    extra[k] = v.strip()
+        if job_ids and "job_id" not in extra:
+            extra["job_id"] = job_ids[0]
 
         result = {}
 
@@ -243,9 +265,13 @@ class ConvoStore:
                                  f"first; turns are never silently resurrected")
             seq = len(s["turns"]) + 1
             result["seq"] = seq
-            return (EV_TURN, {"sid": sid, "role": role, "text": text,
-                              "mode": mode, "sources": sources,
-                              "job_ids": job_ids, "seq": seq})
+            # session_id is sid under the FOLLOW_KEYS name. Never a second
+            # identity: a caller cannot claim a different session_id.
+            payload = {"sid": sid, "session_id": sid, "role": role,
+                       "text": text, "mode": mode, "sources": sources,
+                       "job_ids": job_ids, "seq": seq}
+            payload.update(extra)
+            return (EV_TURN, payload)
 
         self._ledger.append_guarded(decide)
         return result["seq"]

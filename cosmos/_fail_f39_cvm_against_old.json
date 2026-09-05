@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-f39-cvm-fail-old/1",
+ "old_service": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_service_f39_cvm_20260831T111409Z\\cosmos_service.py",
+ "old_bytes": 96893,
+ "old_has_cvm_banner": true,
+ "old_defines_cvmerror": true,
+ "live_proj_exists": true,
+ "live_proj_bytes": 8198,
+ "pins": {
+  "projection_module_imported": false,
+  "cvmerror_moved_out": false,
+  "pull_response_moved_out": false,
+  "store_snapshot_moved_out": false,
+  "filter_kinds_moved_out": false,
+  "p3_reads_projection_file": false
+ },
+ "all_new_pins_failed": true
+}

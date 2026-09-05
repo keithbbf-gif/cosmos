@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "event": "HEALTH_BOARD",
+ "payload": {
+  "control_red": true,
+  "node": "COSMOS",
+  "reds": 0,
+  "verdict": "GREEN"
+ },
+ "sentinel_system": "COSMOS",
+ "verdict": "GREEN",
+ "seq": 17,
+ "n_health": 1
+}

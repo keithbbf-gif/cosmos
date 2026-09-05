@@ -1,0 +1,91 @@
+# CONTRACTS — motif route + in-flight state
+#
+# These encode the invariants that were VIOLATED between 2026-08-26 and
+# 2026-08-30, when the route produced nothing for three days while every
+# heartbeat reported healthy. Each one is here because its absence already cost
+# real time, so a future refactor that quietly removes it fails a gate instead
+# of failing silently for another 72 hours.
+
+schema = "cosmos-contracts/1"
+subsystem = "motif"
+
+[[contract]]
+id = "motif.receipt_is_not_inflight"
+statement = """
+A job receipt is proof of COMPLETION and must never be counted as in-flight.
+Counting one inverts its meaning: cdeck and gbridge blocked themselves with
+their own stage-6 result files, and every later success would have foreclosed
+its own slug the same way."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_motif_driver.py"
+  must_contain = "RECEIPT_SUFFIXES"
+  why = "receipts are excluded from the in-flight set by name"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_motif_driver.py"
+  must_contain = "receipt does not block its own slug"
+  why = "the regression that would have caught the 3-day wedge"
+
+[[contract]]
+id = "motif.inflight_is_owned_not_derived"
+statement = """
+In-flight is STATE THAT IS OWNED, never inferred from artifacts that outlive the
+work they describe. Leases are explicit and they EXPIRE, so a worker that dies
+without releasing stops blocking on its own and a permanent wedge is
+unreachable rather than merely fixed."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_inflight.py"
+  must_contain = "def expired"
+  why = "the TTL sweep that makes a permanent wedge impossible"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_motif_driver.py"
+  must_contain = "def release_completed"
+  why = "a lease closes on COMPLETION, not merely by ageing out"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_motif_driver.py"
+  must_contain = "released lease is no longer active"
+
+[[contract]]
+id = "motif.manifests_are_windowed"
+statement = """
+Manifests are historical dispatch records and are never pruned, so they must be
+age-windowed rather than counted forever. 343 unpruned manifests formed a
+monotonically growing permanent block-list."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_motif_driver.py"
+  must_contain = "MANIFEST_WINDOW_S"
+
+[[contract]]
+id = "motif.prose_is_not_authority"
+statement = """
+COLLECTOR.md is a rolling human SUMMARY carrying no completion signal. It may
+inform, never decide. The queue and the ledger are the authority -- as that call
+site's own comment always said, while the value was being unioned into the set
+that made the decision."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_motif_driver.py"
+  must_contain = "soft_names"
+  why = "COLLECTOR.md names are collected and counted, never used to skip"
+
+  [[contract.evidence]]
+  kind = "prose"
+  file = "cosmos/cosmos_motif_driver.py"
+  must_not_contain = "names.add(m.group(1).strip().lower())"
+  why = "the exact line that gave a non-authority signal authority"

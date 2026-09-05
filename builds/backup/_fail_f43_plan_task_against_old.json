@@ -1,0 +1,22 @@
+{
+ "what": "new F-43 --plan-task pins FAIL against predecessor (no clock vehicle)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_backup.py",
+ "cli_rc": 2,
+ "cli_stderr_tail": "\u001b[1;34musage: \u001b[0m\u001b[1;35mcosmos_backup.py\u001b[0m [\u001b[32m-h\u001b[0m] [\u001b[36m--key-file \u001b[33mKEY_FILE\u001b[0m]\n                        \u001b[32m{backup,verify,rehearse,restore,run,retire} ...\u001b[0m\ncosmos_backup.py: error: argument cmd: invalid choice: 'V:\\\\A\\\\Ai\\\\COSMOS\\\\builds\\\\backup' (choose from backup, verify, rehearse, restore, run, retire)\n",
+ "pins": {
+  "has_plan_task_argv": false,
+  "has_TASK_NAME_assignment": false,
+  "cli_plan_task_is_a_verb": false,
+  "cli_registers_false": false,
+  "task_name_is_bulletproof_backup": false
+ },
+ "failed_pins": [
+  "has_plan_task_argv",
+  "has_TASK_NAME_assignment",
+  "cli_plan_task_is_a_verb",
+  "cli_registers_false",
+  "task_name_is_bulletproof_backup"
+ ],
+ "passed_pins": [],
+ "all_new_pins_failed": true
+}

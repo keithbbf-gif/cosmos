@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "probe": "F-63 bite before promote",
+ "at": "2026-08-31T12:08:34+00:00",
+ "module": {
+  "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_askmine.py",
+  "state": "ABSENT",
+  "kind": "FileNotFoundError"
+ },
+ "tests_file": {
+  "path": "V:\\A\\Ai\\COSMOS\\tests\\test_askmine.py",
+  "state": "ABSENT"
+ },
+ "clocks": {
+  "count": 18,
+  "ids": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "max_id": 18,
+  "has_id_19": false,
+  "has_askmine_script": false
+ },
+ "wd2": {
+  "source_names": [
+   "wishlist",
+   "backlog"
+  ],
+  "has_askmine": false,
+  "askmine_in_source": false
+ },
+ "all_bite": true
+}

@@ -1,0 +1,36 @@
+{
+ "schema": "cosmos-fail-old/1",
+ "what": "round7 unpinned backup pins against predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_unpinned_round7_20260831T174500Z",
+ "ran": [
+  "drift_missing_files_is_NOT_A_BACKUP_SET",
+  "drift_files_str_is_NOT_A_BACKUP_SET",
+  "check_files_str_is_NOT_A_BACKUP_SET",
+  "check_entry_str_is_NOT_A_BACKUP_SET",
+  "exclude_str_is_BAD_EXCLUDES",
+  "exclude_int_is_BAD_EXCLUDES",
+  "headers_list_is_BAD_HEADERS",
+  "headers_none_is_BAD_HEADERS",
+  "local_row_list_is_BAD_CONFIG",
+  "parse_excludes_list_is_BAD_CONFIG",
+  "pem_label_none_is_ambiguous",
+  "pem_label_str_is_one_label"
+ ],
+ "failed": [
+  "drift_missing_files_is_NOT_A_BACKUP_SET:KeyError",
+  "drift_files_str_is_NOT_A_BACKUP_SET:AttributeError",
+  "check_files_str_is_NOT_A_BACKUP_SET:AttributeError",
+  "check_entry_str_is_NOT_A_BACKUP_SET:TypeError",
+  "exclude_str_is_BAD_EXCLUDES:returned:bool:False",
+  "exclude_int_is_BAD_EXCLUDES:TypeError",
+  "headers_list_is_BAD_HEADERS:AttributeError",
+  "headers_none_is_BAD_HEADERS:AttributeError",
+  "local_row_list_is_BAD_CONFIG:AttributeError",
+  "parse_excludes_list_is_BAD_CONFIG:AttributeError",
+  "pem_label_none_is_ambiguous:TypeError",
+  "pem_label_str_is_one_label:got:'ambiguous'"
+ ],
+ "n_ran": 12,
+ "n_failed": 12,
+ "all_new_pins_failed": true
+}

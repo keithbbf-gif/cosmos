@@ -1,0 +1,12 @@
+{
+ "schema": "cosmos-f60-bite/1",
+ "staged_old": "_delme/predispose_f60_20260831T131200Z",
+ "old_suites_have_sandbox": {
+  "test_collector_dhx.py": false,
+  "test_node_bucket_worker.py": false
+ },
+ "control_unguarded_wrote_outside_temp": true,
+ "guarded_kind": "PROD_WRITE_REFUSED",
+ "guarded_did_not_create_file": true,
+ "all_bite": true
+}

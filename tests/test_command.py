@@ -12,6 +12,7 @@ import sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_command import Commander, CommandError, FORBIDDEN
 from cosmos_makers import MAKER_KINDS
@@ -92,6 +93,15 @@ def main() -> int:
                       for e in events)
           and any(e["event"] == "COMMAND_HANDLED" and not e["payload"]["ok"]
                   for e in events))
+    check("COMMAND_HANDLED.node is CVM (FOLLOW_KEYS)",
+          lambda: any(e["event"] == "COMMAND_HANDLED"
+                      and e["payload"].get("ok")
+                      and e["payload"].get("node") == "CVM"
+                      for e in events))
+    check("COMMAND_REFUSED.node is CVM (FOLLOW_KEYS)",
+          lambda: any(e["event"] == "COMMAND_REFUSED"
+                      and e["payload"].get("node") == "CVM"
+                      for e in events))
 
     # ================= the orchestration verbs =================
 
@@ -102,10 +112,19 @@ def main() -> int:
           and "rows" in h)
     check("health: board run is ledgered (HEALTH_BOARD)",
           lambda: any(e["event"] == "HEALTH_BOARD" for e in k.ledger.verify()))
+    check("health: HEALTH_BOARD.node is sentinel.system (FOLLOW_KEYS)",
+          lambda: any(e["event"] == "HEALTH_BOARD"
+                      and e["payload"].get("node") == k.paths.sentinel.system
+                      for e in k.ledger.verify()))
 
     # ---- spend: delegates to cosmos_spend.SpendGate.audit() ----
-    check("spend: no budgets yet -> empty rails, not an error",
-          lambda: c.handle("spend")["rails"] == {})
+    # boot seeds node-rail budgets (register_node_rails), so "empty" is stale.
+    # What still matters: audit returns a dated, priced map and never errors.
+    check("spend: seeded node budgets are dated and priced, not an error",
+          lambda: (lambda s: s["ok"] and isinstance(s["rails"], dict)
+                   and {"sgh-api", "gem-api", "gw-api", "oa-api"} <= set(s["rails"])
+                   and all(r["cap_usd"] > 0 for r in s["rails"].values())
+                   )(c.handle("spend")))
     k.spend.set_budget("voice-rail", 5.0)
     sp = c.handle("spend")
     check("spend: budget shows cap + headroom, dated",
@@ -114,13 +133,18 @@ def main() -> int:
           and sp["measured_at_epoch"] > 0)
 
     # ---- rails: delegates to cosmos_registry.Registry.matrix() ----
-    check("rails: empty registry -> empty matrix",
-          lambda: c.handle("rails")["rails"] == [])
+    # boot composes rails, so "empty matrix" is stale. The load-bearing property
+    # is that NOTHING boot registered claims capability it has not measured.
+    check("rails: boot-composed matrix is non-empty and none claim capability",
+          lambda: (lambda m: m and all(r["verified"] is None for r in m))(
+              c.handle("rails")["rails"]))
+    before = len(c.handle("rails")["rails"])
     k.registry.register("t-link", "API", "core", "models")
     rl = c.handle("rails")
+    row = next((r for r in rl["rails"] if r["link_id"] == "t-link"), None)
     check("rails: registered link shows verified=None (registration is not capability)",
-          lambda: len(rl["rails"]) == 1 and rl["rails"][0]["link_id"] == "t-link"
-          and rl["rails"][0]["verified"] is None and rl["rails"][0]["age_s"] is None)
+          lambda: len(rl["rails"]) == before + 1 and row is not None
+          and row["verified"] is None and row["age_s"] is None)
 
     # ---- makers: delegates to cosmos_makers.MakerMap.list() ----
     mk = c.handle("makers")

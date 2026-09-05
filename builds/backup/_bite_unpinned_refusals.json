@@ -1,0 +1,16 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "unpinned backup refusals \u2014 old vs current",
+ "all_bite": true,
+ "scratch_not_empty_old_kind": "REHEARSAL_PASS",
+ "scratch_not_empty_old_sealed": true,
+ "scratch_not_empty_old_precious_survived": true,
+ "copy_io_old_crash": "FileNotFoundError",
+ "bad_scopes_empty_old": [],
+ "bad_scopes_empty_old_is_silent_list": true,
+ "bad_scopes_incomplete_old": [],
+ "bad_scopes_incomplete_old_is_silent_list": true,
+ "r2_unreachable_old_kind": "OSError",
+ "r2_unreachable_untyped_would_be": "OSError",
+ "unknown_identity_old_bound": true
+}

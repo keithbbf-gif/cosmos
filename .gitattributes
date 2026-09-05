@@ -1,0 +1,32 @@
+# COSMOS line-ending law — so `git status` shows REAL changes, not CRLF ghosts.
+#
+# 🔴 WHY THIS EXISTS: the tree was built on Windows (CRLF on disk) while the git
+# blobs are LF. Without this file, every session that touches the tree sees all
+# ~76 files as "modified" when nothing changed — a phantom dirty tree that hides
+# the one real diff and pressures a bad commit. One tree, one truth: the diff a
+# session sees must be the diff that exists.
+#
+# Text is normalized to LF in the repo (CI runs on Linux python:3.14; a peer on a
+# cold machine clones clean). Windows launch scripts stay CRLF. Binaries untouched.
+
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.toml  text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.sh    text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+
+*.bat   text eol=crlf
+*.vbs   text eol=crlf
+
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.pem   binary
+*.bin   binary

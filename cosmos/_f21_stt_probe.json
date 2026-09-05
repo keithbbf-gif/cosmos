@@ -1,0 +1,10 @@
+{
+ "schema": "cosmos-stt/1",
+ "ok": true,
+ "engine": "vosk",
+ "kind": "ok",
+ "model": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15",
+ "detail": "vosk bound",
+ "vosk_file": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site\\vosk\\__init__.py",
+ "worker": "cosmos-stt"
+}

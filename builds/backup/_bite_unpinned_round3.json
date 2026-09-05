@@ -1,0 +1,19 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round3 unpinned backup refusals \u2014 current vs claimed",
+ "keep_true_is_int": true,
+ "keep_true_equals_one": true,
+ "keep_true_kind": "KEEP_TOO_SMALL",
+ "keep_true_crash": null,
+ "retire_dest_file_kind": "DEST_NOT_DIR",
+ "retire_dest_file_crash": null,
+ "retire_dest_file_untouched": true,
+ "pack_dest_file_kind": null,
+ "pack_dest_file_crash": "FileExistsError",
+ "pack_dest_file_untouched": true,
+ "volume_serial_kind": "IDENTITY_MISMATCH",
+ "volume_serial_crash": null,
+ "fake_unknown_vol_kind": "DRIVE_NOT_MOUNTED",
+ "fake_unknown_vol_crash": null,
+ "all_bite": true
+}

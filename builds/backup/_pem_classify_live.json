@@ -1,0 +1,60 @@
+{
+  "schema": "cosmos-bite/1",
+  "what": "PEM classification: public CA bundles are not SECRETS_IN_SCOPE; private-key envelopes still are",
+  "measured_at_utc": "2026-08-31T17:03:00+00:00",
+  "live_builds_scan": {
+    "source": "V:\\A\\Ai\\COSMOS\\builds",
+    "file_count": 16670,
+    "total_bytes": 7663807035,
+    "hits_count": 0,
+    "hits": [],
+    "cacert_in_files": true,
+    "cacert_in_hits": false,
+    "cacert_path": "cvm-dt/vendor/whisper_site/certifi/cacert.pem",
+    "cacert_size": 240216,
+    "cacert_labels": ["CERTIFICATE"],
+    "cacert_kind": "public"
+  },
+  "fail_against_old": {
+    "artifact": "builds/backup/_fail_pem_classify_against_old.json",
+    "all_new_pins_failed": true,
+    "tests_run": 2,
+    "failed_names": [
+      "test_private_key_shape_is_SECRETS_IN_SCOPE",
+      "test_public_ca_bundle_is_not_SECRETS_IN_SCOPE"
+    ]
+  },
+  "mount_clock_once": [
+    {
+      "at_utc": "2026-08-31T16:56:47+00:00",
+      "gdx_builds": {
+        "target_kind": "gdx",
+        "scope": "builds",
+        "source": "V:\\A\\Ai\\COSMOS\\builds",
+        "ok": false,
+        "state": "REFUSED",
+        "kind": "SOURCE_MUTATED",
+        "detail": "source changed under V:\\A\\Ai\\COSMOS\\builds during backup: cdeck/KDASH_AUTH_PROBE.json, cdeck/KDASH_EVENTS_PROBE.json, cdeck/KDASH_MOBILE_PROBE.json, cdeck/KDASH_MOBILE_SPEND_PROBE.json, cdeck/KDASH_SPEND_PROBE.json, cdeck/KDASH_TIER_PROBE.json, cdeck/REMEASURE_PROBE.json, cdeck/test_kdash_auth.py"
+      },
+      "note": "SECRETS_IN_SCOPE is gone. Set dir created (builds-20260831T165152) then SOURCE_MUTATED because cdeck wrote during the copy. Predecessor refused SECRETS_IN_SCOPE before a set existed."
+    },
+    {
+      "at_utc": "2026-08-31T17:02:56+00:00",
+      "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\mount_clock_heartbeat.json",
+      "gdx_builds": {
+        "target_kind": "gdx",
+        "scope": "builds",
+        "source": "V:\\A\\Ai\\COSMOS\\builds",
+        "ok": false,
+        "state": "REFUSED",
+        "kind": "SOURCE_MUTATED",
+        "detail": "source changed under V:\\A\\Ai\\COSMOS\\builds during backup: cvm-dt/B1_EAR.json, cvm-dt/POST_PROBE_TEST.json"
+      },
+      "note": "Second --once: secrets gate still open; concurrent cvm-dt session mutated the source. Not claimed as PUSHED."
+    }
+  ],
+  "predecessor_16:39Z": {
+    "kind": "SECRETS_IN_SCOPE",
+    "detail": "1 file(s) in scope hold key material and this target is UNENCRYPTED: cvm-dt/vendor/whisper_site/certifi/cacert.pem -- exclude them or encrypt first"
+  }
+}

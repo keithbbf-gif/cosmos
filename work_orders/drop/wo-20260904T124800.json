@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/CCR.md [read*]; docs/ORCHESTRATION.md [read*]; cosmos/cosmos_own_clocks.py [read*]; cosmos/cosmos_pulse.py [read*]; cosmos/cosmos_pool.py [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-04: this TUI does not code — it writes work orders, runs GitHub/Cursor/GitLab, reviews/refines, CCr writes. You are Lane A (Grok 4.6 work-order session) on CLOCKS collapse BUILD. Independent of Lane B. Do not peek at Cursor PR #32. ANTHROPIC_OFF stays. Opus 5 / Sonnet for review; Composer 2.5 refused. Do not merge PR #30 or #32. PROBLEM: 26 resident python daemons; target is Pulse 15s + pool-only claim_next + calendar --once. Health --supervise stays until Pulse owns Core spawn. Do not shrink CLOCKS. Do not /delete schtasks. Do not take Core :8770 down. PROPOSE diffs for cosmos_pulse.py collector tick (already required under HOLD), dual-write heartbeats, and a collapse order. Output proposals only.",
+  "Target & scope": "proposals/ only. Never kernel/ledger/sched/service. Never live/config keys. Never V:\\Ai. Never schtasks /delete. Never merge #30/#32.",
+  "Timestamp": "2026-09-04T12:48:00-05:00",
+  "Output": "proposals | clocks-pulse-build.md"
+}

@@ -1,0 +1,101 @@
+# CONTRACTS — health board + observability
+#
+# The 2026-08-26 wedge was not missed because a check failed. It was missed
+# because every check PASSED: the driver ticked on time (never stale), reported
+# ok:true, and claimed all eleven rows "inflight" -- and the goals logic counted
+# an inflight claim as WORKING. Liveness was read as progress, and the claim was
+# accepted as its own evidence.
+#
+# These contracts exist so that inference cannot come back.
+
+schema = "cosmos-contracts/1"
+subsystem = "health"
+
+[[contract]]
+id = "health.progress_is_bound_to_artifacts"
+statement = """
+Progress must be measured from an EMITTED RECEIPT, never from a self-reported
+claim. A daemon ticking on time with dispatched:0 is alive, not productive; a
+tracker row claiming "inflight" is a claim, not a measurement. This is the
+system's own canon -- rc=0 is not done, bind every claim to a real emitted
+artifact -- applied to the board that reports on the system."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "builds/health/cosmos_health_watchdog.py"
+  must_contain = "_route_progress_row"
+  why = "the row that refuses the liveness-equals-progress inference"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "builds/health/cosmos_health_watchdog.py"
+  must_contain = "wedge_signature"
+  why = "fires RED on rows present, zero dispatched, all claimed inflight"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "builds/health/test_cosmos_health_watchdog.py"
+  must_contain = "WEDGED"
+  why = "replays the real 72-hour signature and asserts RED"
+
+[[contract]]
+id = "health.a_false_alarm_is_a_defect"
+statement = """
+A board that cries wolf is how a real stall gets ignored. A fresh tree with no
+receipts is NEW, not stalled, and a deliberate PAUSE is not a stall. Neither may
+report RED."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "builds/health/test_cosmos_health_watchdog.py"
+  must_contain = "a fresh tree must not cry wolf"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "builds/health/test_cosmos_health_watchdog.py"
+  must_contain = "a deliberate HOLD is not a stall"
+
+[[contract]]
+id = "health.error_channel_carries_only_errors"
+statement = """
+A known-handled condition must not occupy the error channel. INDEX_DUP_KEYS held
+collector error_count at 1 on every 30-second poll forever, for a condition the
+collector's own comment documents as handled -- which trains every reader, and
+every health board, to ignore the field where a real fault would land."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_collector.py"
+  must_contain = "index_dups"
+  why = "the count is published as data, not as an error"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_collector.py"
+  must_contain = "notes.append("
+  why = "the known-handled condition rides notes, not errors"
+
+[[contract]]
+id = "health.the_gates_are_gated"
+statement = """
+Something must run the suite on a clock. 34 of 58 suites were failing, 27 unable
+to even import the modules they test, and nothing was running them -- which is
+how a critical route defect shipped underneath a red suite and stayed there.
+A retry-pass is recorded FLAKY, never PASS: hiding non-determinism behind a
+retry is fabricated compliance."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "builds/selftest_clock/cosmos_selftest_clock.py"
+  must_contain = "flaky.append"
+  why = "a suite that only passes on retry is recorded as flaky"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "builds/selftest_clock/cosmos_selftest_clock.py"
+  must_contain = "builds_dir.glob"
+  why = "a deliverable shipping its own suite beside itself is still a gate"

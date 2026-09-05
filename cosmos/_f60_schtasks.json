@@ -1,0 +1,43 @@
+{
+  "schema": "cosmos-f60-schtasks/1",
+  "ok": true,
+  "tree_id": "KMesh-COSMOS-live",
+  "measured_utc": "2026-08-31T16:41:54Z",
+  "guard": {
+    "wraps_run_schtasks": true,
+    "wraps_harden_task": true,
+    "create_refused_kind": "PROD_WRITE_REFUSED",
+    "called_real": false
+  },
+  "bite": {
+    "predecessor": "_delme/predispose_f60_schtasks_20260831T164154Z/",
+    "fail_old": "cosmos/_fail_f60_schtasks_against_old.json",
+    "all_new_pins_failed": true,
+    "failed_pin_count": 4,
+    "suite_before": "7/11"
+  },
+  "tests_after": {
+    "test_cosmos_test_guard": "11/11",
+    "test_backup_clock": "22/22",
+    "test_collector_dhx": "38/38",
+    "test_node_bucket_worker": "51/51",
+    "test_live_write_fence": "22/22"
+  },
+  "live_write_fence": {
+    "test_backup_clock.py": {
+      "rc": 0,
+      "writes_observed": 1076,
+      "violations": [],
+      "unfenced_spawns": []
+    },
+    "builds/health/test_cosmos_health_watchdog.py": {
+      "rc": 0,
+      "unfenced_spawns": ["schtasks"],
+      "note": "outside this fence; native schtasks still named, not wrapped"
+    }
+  },
+  "remaining": [
+    "builds/health/test_cosmos_health_watchdog.py still spawns schtasks (LIVE_VALUE unfenced_spawns)",
+    "a Python wrap cannot cover a native child that tests/ does not call"
+  ]
+}

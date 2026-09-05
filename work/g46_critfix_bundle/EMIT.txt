@@ -1,0 +1,4266 @@
+<<<FILE path=cosmos/cosmos_dispatch.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cosmos_dispatch - offload layer: TYPE + task in; the OS does the rest.
+
+Caller gives an agent TYPE (e.g. G46) + a task. This module:
+  * infers the invocation from the type
+  * default identity is the resolver `queue` role (CosmosPaths) — native
+  * BTS file-drop remains an explicit `--queue` compatibility lane (decision 9)
+  * AUTO-STAMPS docs/AGENT_BRIEF.md (DHx) from datetime.now().astimezone()
+    using the protocol grammar `ISO · agent · assignment · stream/file`
+  * drops a collector inbox sidecar and appends the assignment under the
+    collector's index lock (one locked writer protocol)
+  * FILES the result under the locked returns path: queue/returns/<stream>/
+  * job_status()/wait_for() monitor; wait_for is CLI `--wait` only
+  * native path submits an immutable manifest through Scheduler (decision 4)
+
+Does not modify kernel / ledger / sched / service source. Native submit uses
+Scheduler as a client so the queue ledger has one writer.
+
+    from cosmos_dispatch import dispatch, job_status
+    dispatch("G46", "the task")   # dir + queue defaulted; kind inferred
+
+    py -3.14 cosmos\\cosmos_dispatch.py --agent G46 --task "..."
+    py -3.14 cosmos\\cosmos_dispatch.py --status <jobfile>
+    py -3.14 cosmos\\cosmos_dispatch.py --gate --root <runtime-root>
+
+Kinds (or auto from agent type):
+  grok   -> grok --single <task> -m <model> --output-format plain --always-approve
+            --max-turns 60 --cwd <attempt-private workspace>
+            (PROVEN flags; do not change the flag set. --cwd is the
+            attempt-private clone, NEVER the live repo tree. P10.)
+  cursor -> POST https://api.cursor.com/v1/agents  (Cloud Agents API v1;
+            key from config/cursor_cosmos_key.txt; recipe in
+            docs/research/CURSOR_CLOUD_AGENTS_API_v1.md)  UNPROVEN through this harness
+  codex  -> cosmos_codex_rail.run_coding_dispatch  (Codex CLI coder+vetter;
+            key from config/openai_api_key.txt; recipe in
+            docs/research/GITHUB_CODEX_RAIL.md)  UNPROVEN through this harness
+  claude / F5 -> claude -p <task> --model claude-fable-5 --permission-mode dontAsk
+            --add-dir <dir>   UNPROVEN through this harness
+  sonnet / SSA -> claude -p <task> --model sonnet --permission-mode dontAsk
+            --add-dir <dir>   UNPROVEN through this harness
+            SSA = Sonnet SubAgent; RESEARCH/ANALYSIS/vetting default
+  haiku  -> claude -p <task> --model haiku --permission-mode dontAsk
+            --add-dir <dir>   UNPROVEN through this harness
+
+Defaults (two, kept distinct -- DHx: coding never Sonnet):
+  coding -> G46 / grok-4.6 (Cursor is the other coding lane)
+  research / analysis / vetting / subagent -> SSA / sonnet
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from cosmos_paths import CosmosPaths, CosmosPathError  # noqa: E402
+
+SCHEMA = "cosmos-collector/2"
+WORKER = "cosmos-dispatch"
+NATIVE_STREAM = "cm"
+MARKER_SEP = " · "
+INDEX_LOCK_NAME = "index.jsonl.lock"
+INDEX_NAME = "index.jsonl"
+CURSOR_KEY_NAME = "cursor_cosmos_key.txt"
+OPENAI_KEY_NAME = "openai_api_key.txt"
+SENTINEL_NAME = ".cosmos-root.json"
+
+LANE_ORDER = ("root", "lg", "pb")
+RUNNABLE_SUFFIXES = {".py", ".bat", ".cmd", ".ps1"}
+SKIP_COUNT_NAMES = {
+    "running", "done", "failed", "logs", "staged", "elevated",
+    "_lanes", "_delme", "_hold", "_superseded", "__pycache__",
+    "research", "findings", "returns", ".git", ".tmp",
+    "manifests", "jobs", "dispatch_jobs",
+}
+
+KIND_CANON = {
+    "grok": "grok",
+    "g46": "grok",
+    "gw": "grok",
+    "sgh": "grok",
+    "cursor": "cursor",
+    "codex": "codex",
+    "claude": "claude",
+    "f5": "claude",
+    "claude-fable": "claude",
+    "claude_fable": "claude",
+    "sonnet": "sonnet",
+    "sonnet5": "sonnet",
+    "haiku": "haiku",
+    "haiku45": "haiku",
+    "gem": "gem",
+    "gemini": "gem",
+    "oa": "oa",
+    "oai": "oa",
+    "openai": "oa",
+    "ssa": "ssa",
+    "subagent": "ssa",
+    "sonnetsubagent": "ssa",
+}
+
+# Agent TYPE -> kind. Longest alnum-folded key wins. Explicit --kind overrides.
+# Spec tags: G46/GW/SGH/GEM/OAi/CURSOR/SSA/SONNET/HAIKU.
+# SSA = Sonnet SubAgent (first-class); --agent sonnet/haiku are Claude CLI lanes.
+AGENT_TYPE_KIND = {
+    "g46": "grok",
+    "gw": "grok",
+    "grokbuild": "grok",
+    "grok": "grok",
+    "gbw": "grok",
+    "gwb": "grok",
+    "sgh": "grok",
+    "supergrok": "grok",
+    "gem": "gem",
+    "gemini": "gem",
+    "oai": "oa",
+    "oa": "oa",
+    "openai": "oa",
+    "cursor": "cursor",
+    "codex": "codex",
+    "ssa": "ssa",
+    "subagent": "ssa",
+    "sonnetsubagent": "ssa",
+    "claude": "claude",
+    "fable": "claude",
+    "f5": "claude",
+    "sonnet": "sonnet",
+    "sonnet5": "sonnet",
+    "haiku": "haiku",
+    "haiku45": "haiku",
+}
+
+KIND_MAKER = {
+    "grok": "Grok", "cursor": "Cursor", "codex": "Codex", "claude": "Claude",
+    "sonnet": "Claude", "haiku": "Claude",
+    "gem": "Gemini", "oa": "OpenAI", "ssa": "SSA",
+}
+# grok is live-proven through this harness. cursor/claude-family are
+# string-matched only. gem/oa drop onto live/buckets/<node> AND spawn
+# that node's rail (execute_handoff). Packet-and-exit rc=0 was the scar
+# (docs/SCAR_PLACATION.md: OA fa6c68cc rc=0 secs=0.0, empty critique).
+# SSA is a first-class Claude-CLI kind (Sonnet 5), not a bucket handoff.
+KIND_LIVE = {
+    "grok": "proven", "cursor": "UNPROVEN", "codex": "UNPROVEN",
+    "claude": "UNPROVEN", "sonnet": "UNPROVEN", "haiku": "UNPROVEN",
+    "ssa": "UNPROVEN",
+    "gem": "handoff", "oa": "handoff",
+}
+WORKER_KINDS = frozenset({"gem", "oa"})
+CLAUDE_KINDS = frozenset({"claude", "sonnet", "haiku", "ssa"})
+# Node-worker identity is live/buckets/<node> (cosmos_node_worker.bucket_dir).
+# oa/ssa use the same layout so a later worker can poll without a remap.
+WORKER_BUCKET_NODE = {"gem": "gem", "oa": "oa", "ssa": "ssa"}
+TAG_CANON = {
+    "g46": "G46",
+    "gw": "GW",
+    "sgh": "SGH",
+    "gem": "GEM",
+    "gemini": "GEM",
+    "oai": "OAi",
+    "oa": "OAi",
+    "openai": "OAi",
+    "cursor": "CURSOR",
+    "codex": "CODEX",
+    "ssa": "SSA",
+    "subagent": "SSA",
+    "sonnetsubagent": "SSA",
+    "f5": "F5",
+    "claude": "F5",
+    "fable": "F5",
+    "sonnet": "SONNET",
+    "sonnet5": "SONNET",
+    "haiku": "HAIKU",
+    "haiku45": "HAIKU",
+    "grok": "G46",
+    "grokbuild": "G46",
+}
+STREAM_FOR_LANE = {"root": "cm", "lg": "lg", "pb": "pb", "cm": "cm"}
+STATUS_BUCKETS = ("queued", "running", "done", "failed")
+
+GROK_MAX_TURNS = "60"          # proven; do not change
+GROK_TIMEOUT_S = 1800
+CURSOR_TIMEOUT_S = 900
+CODEX_TIMEOUT_S = 1800
+CLAUDE_TIMEOUT_S = 1800
+CLAUDE_MODEL = "claude-fable-5"   # F5 coding lane (unchanged)
+SONNET_MODEL = "sonnet"           # Sonnet 5 via local claude -p --model sonnet
+HAIKU_MODEL = "haiku"             # Haiku 4.5 via local claude -p --model haiku
+SSA_MODEL = SONNET_MODEL          # SSA = Sonnet SubAgent
+CURSOR_BASE = "https://api.cursor.com"
+CURSOR_REPO = "https://github.com/keithbbf-gif/cosmos"
+CURSOR_REF = "main"
+DEFAULT_MODEL = "grok-4.6"        # CODING default; never Sonnet
+CODING_DEFAULT_AGENT = "G46"
+RESEARCH_DEFAULT_AGENT = "SSA"
+STALL_RATIO = 0.5
+PROPOSAL_DIFF_CAP = 120_000
+GROK_WORK_LANE = "grok"
+CLONE_IGNORE = (
+    "__pycache__", ".venv", "live", "tmp", "_delme",
+    "node_modules", ".grok",
+)
+_CREATE_NO_WINDOW = 0x08000000 if os.name == "nt" else 0
+
+# Lane -> CLI model id. Cursor/codex honor an explicit --model.
+KIND_MODEL = {
+    "grok": DEFAULT_MODEL,
+    "claude": CLAUDE_MODEL,
+    "sonnet": SONNET_MODEL,
+    "haiku": HAIKU_MODEL,
+    "ssa": SSA_MODEL,
+}
+
+# Explicit --model aliases for the claude-family CLI (not grok).
+_CLAUDE_MODEL_ALIAS = {
+    "sonnet": SONNET_MODEL,
+    "sonnet5": SONNET_MODEL,
+    "haiku": HAIKU_MODEL,
+    "haiku45": HAIKU_MODEL,
+    "fable": CLAUDE_MODEL,
+    "fable5": CLAUDE_MODEL,
+    "claudefable5": CLAUDE_MODEL,
+    "f5": CLAUDE_MODEL,
+    "opus": "opus",
+}
+
+# Task-class tokens. Coding wins (DHx: never Sonnet for coding).
+_CODING_RE = re.compile(
+    r"\b(implement|code|coding|coder|patch|fix|wire|build|compile|"
+    r"refactor|function|class|module|py_compile|pytest|unittest|"
+    r"typeerror|syntaxerror)\b",
+    re.I,
+)
+_RESEARCH_RE = re.compile(
+    r"\b(research|analys[ei]s|analy[sz]e|vet(?:ting|ter)?|critique|"
+    r"subagent|scout|survey|present-day)\b",
+    re.I,
+)
+
+DHX_ASSIGN_HEADER = "## Assignment log"
+ONELINE_CAP = 140
+GATE_TASK = (
+    "Reply with the single word PONG. Do not edit any files. Do not read any files."
+)
+
+
+class DispatchError(RuntimeError):
+    """Typed refusal. `kind` is BAD_INPUT, NO_LANE, NO_DIR, NO_KEY, NO_ROOT,
+    NO_QUEUE, IO, REFUSED, BROKE."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
+
+
+# ---------------------------------------------------------------------------
+# resolver identity (R1 / R11) — no drive literal, no parent-walk from __file__
+# ---------------------------------------------------------------------------
+
+def bind_paths(runtime_root=None) -> CosmosPaths:
+    """CosmosPaths from --root or the machine install record. Typed refusal, no guess."""
+    if runtime_root is not None:
+        try:
+            return CosmosPaths(runtime_root)
+        except CosmosPathError as e:
+            raise DispatchError("NO_ROOT", str(e)) from e
+    try:
+        return CosmosPaths.from_install_record()
+    except CosmosPathError as e:
+        raise DispatchError(
+            "NO_ROOT",
+            f"no --root and install record unavailable: {e}",
+        ) from e
+
+
+def default_target_dir(paths: CosmosPaths) -> Path:
+    """Repo tree of the two-roots layout (runtime parent holding DHx), else the root.
+
+    This is the clone SOURCE for grok/G46 jobs. grok's process --cwd is an
+    attempt-private workspace under the runtime `work` role, never this tree.
+    """
+    parent = paths.root.parent
+    if (parent / "docs" / "AGENT_BRIEF.md").exists():
+        return parent
+    if paths.docs("AGENT_BRIEF.md").exists():
+        return paths.root
+    return parent
+
+
+def default_dhx(paths: CosmosPaths) -> Path:
+    parent = paths.root.parent
+    cand = parent / "docs" / "AGENT_BRIEF.md"
+    if cand.exists():
+        return cand
+    return paths.docs("AGENT_BRIEF.md")
+
+
+def locked_returns_path(paths: CosmosPaths, stream: str, result_name: str) -> Path:
+    """One returns identity: queue/returns/<stream>/<name> (R9)."""
+    return paths.queue("returns", stream, result_name)
+
+
+def index_path_for(paths: CosmosPaths) -> Path:
+    return paths.state("collector", INDEX_NAME)
+
+
+def index_lock_for(paths: CosmosPaths) -> Path:
+    return paths.state("collector", INDEX_LOCK_NAME)
+
+
+def inbox_dir(paths: CosmosPaths) -> Path:
+    return paths.state("collector", "inbox")
+
+
+def worker_bucket_dir(paths: CosmosPaths, kind: str) -> Path:
+    """Identity drop zone the node workers poll: live/buckets/<node>."""
+    node = WORKER_BUCKET_NODE.get(kind, kind)
+    return paths.role("root", "buckets", node)
+
+
+def worker_compat_dir(paths: CosmosPaths, kind: str) -> Path:
+    """Prior drop zone (additive keep). Not identity — workers do not poll it."""
+    return paths.state("dispatch", "workers", kind)
+
+
+def dispatch_map_path(paths: CosmosPaths, filename: str) -> Path:
+    return paths.state("dispatch", Path(filename).name + ".json")
+
+
+def is_native_queue(queue: Path, paths: CosmosPaths) -> bool:
+    try:
+        return Path(queue).resolve() == paths.role("queue").resolve()
+    except OSError:
+        return False
+
+
+# ---------------------------------------------------------------------------
+# kind inference (R3 ACCEPT)
+# ---------------------------------------------------------------------------
+
+def _fold_agent(agent: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", str(agent or "").strip().lower())
+
+
+def _canon_kind(kind: str) -> str:
+    key = str(kind or "").strip().lower()
+    if key not in KIND_CANON:
+        raise DispatchError("BAD_INPUT",
+                            f"unknown kind {kind!r}; want grok|cursor|codex|"
+                            f"claude|F5|sonnet|haiku|gem|oa|ssa")
+    return KIND_CANON[key]
+
+
+def infer_kind(agent: str) -> str:
+    """Map an agent TYPE (G46, GW, SGH, GEM, OAi, CURSOR, SSA, SONNET, HAIKU, F5) to a kind."""
+    folded = _fold_agent(agent)
+    if not folded:
+        raise DispatchError("BAD_INPUT",
+                            "agent is required to auto-route kind")
+    best = None
+    best_n = -1
+    for key, kind in AGENT_TYPE_KIND.items():
+        if folded == key or folded.startswith(key):
+            if len(key) > best_n:
+                best, best_n = kind, len(key)
+    if best is None:
+        raise DispatchError(
+            "BAD_INPUT",
+            f"cannot infer kind from agent {agent!r}; pass "
+            f"kind=grok|cursor|codex|claude|sonnet|haiku|gem|oa|ssa")
+    return best
+
+
+def infer_task_class(task: str) -> str:
+    """Classify a task as coding or research. Coding wins (never Sonnet)."""
+    text = str(task or "")
+    if _CODING_RE.search(text):
+        return "coding"
+    if _RESEARCH_RE.search(text):
+        return "research"
+    return "coding"
+
+
+def infer_default_agent(task: str) -> str:
+    """Default dispatch agent from task class. Coding->G46, research->SSA."""
+    if infer_task_class(task) == "research":
+        return RESEARCH_DEFAULT_AGENT
+    return CODING_DEFAULT_AGENT
+
+
+def resolve_lane_model(kind: str, model: str | None) -> str:
+    """Bind the model id the lane actually shells.
+
+    Claude-family kinds ignore the grok DEFAULT_MODEL so an omitted --model
+    does not leak grok-4.6 onto `claude -p`. An explicit claude-family
+    alias (sonnet/haiku/fable/opus) is honored. Coding default stays grok-4.6.
+    """
+    raw = str(model or "").strip()
+    kind_c = str(kind or "").strip().lower()
+    if kind_c in CLAUDE_KINDS:
+        if raw and raw != DEFAULT_MODEL:
+            folded = re.sub(r"[^a-z0-9]+", "", raw.lower())
+            return _CLAUDE_MODEL_ALIAS.get(folded, raw)
+        return KIND_MODEL[kind_c]
+    if not raw:
+        return KIND_MODEL.get(kind_c, DEFAULT_MODEL)
+    return raw
+
+
+def parse_agent_tag(agent: str) -> dict:
+    """Parse a drop TAG into {tag, kind, folded}. G46/GW/SGH/GEM/OAi/CURSOR/SSA/SONNET/HAIKU."""
+    folded = _fold_agent(agent)
+    if not folded:
+        raise DispatchError("BAD_INPUT", "agent/tag is required")
+    kind = infer_kind(agent)
+    tag = None
+    best_n = -1
+    for key, canon in TAG_CANON.items():
+        if folded == key or folded.startswith(key):
+            if len(key) > best_n:
+                tag, best_n = canon, len(key)
+    if tag is None:
+        tag = str(agent or "").strip().upper() or "UNK"
+    return {"tag": tag, "kind": kind, "folded": folded, "raw": str(agent).strip()}
+
+
+def resolve_kind(agent: str, kind: str | None) -> str:
+    raw = str(kind or "").strip().lower()
+    if raw in ("", "auto", "none"):
+        return infer_kind(agent)
+    return _canon_kind(raw)
+
+
+def _oneline(text: str, n: int = ONELINE_CAP) -> str:
+    s = " ".join(str(text).split())
+    if len(s) <= n:
+        return s
+    return s[: n - 1] + "…"
+
+
+def _slug(text: str, n: int = 40) -> str:
+    words = re.findall(r"[A-Za-z0-9]+", str(text).lower())
+    s = "_".join(words) if words else "task"
+    return s[:n].strip("_") or "task"
+
+
+def _timeout_for(kind: str) -> int:
+    if kind == "cursor":
+        return CURSOR_TIMEOUT_S
+    if kind == "codex":
+        return CODEX_TIMEOUT_S
+    if kind in CLAUDE_KINDS:
+        return CLAUDE_TIMEOUT_S
+    if kind in ("gem", "oa"):
+        return GROK_TIMEOUT_S
+    if kind in WORKER_KINDS:  # unused while WORKER_KINDS == {gem, oa}
+        return GROK_TIMEOUT_S
+    return GROK_TIMEOUT_S
+
+
+# ---------------------------------------------------------------------------
+# BTS compatibility lane accounting (R13 ACCEPT for the bridge)
+# ---------------------------------------------------------------------------
+
+def _lane_dir(queue: Path, lane: str) -> Path:
+    if lane in ("root", "cm", ""):
+        return Path(queue)
+    return Path(queue) / "_lanes" / lane
+
+
+def _is_runnable(path: Path) -> bool:
+    return path.is_file() and path.suffix.lower() in RUNNABLE_SUFFIXES
+
+
+def _is_helper(path: Path) -> bool:
+    return path.name.startswith("_")
+
+
+def lane_load(lane_dir: Path) -> dict:
+    """Count running + queued the way bts_runner --lanes does.
+
+    queued = runnable non-helper files sitting in the lane root (not subdirs).
+    running = anything in running/.
+    """
+    queued = 0
+    if lane_dir.exists():
+        for p in lane_dir.iterdir():
+            if p.name in SKIP_COUNT_NAMES or p.name.startswith("."):
+                continue
+            if _is_runnable(p) and not _is_helper(p):
+                queued += 1
+    running_dir = lane_dir / "running"
+    running = 0
+    if running_dir.exists():
+        running = sum(1 for p in running_dir.iterdir()
+                      if p.is_file() and not p.name.startswith("."))
+    return {"queued": queued, "running": running,
+            "load": queued + running, "dir": str(lane_dir)}
+
+
+def measure_lanes(queue: Path) -> dict:
+    out = {}
+    for name in LANE_ORDER:
+        d = _lane_dir(queue, name)
+        rec = lane_load(d)
+        rec["lane"] = name
+        out[name] = rec
+    return out
+
+
+def pick_least_loaded(queue: Path) -> str:
+    """Lowest running+queued. Tie -> first in LANE_ORDER (root, lg, pb)."""
+    loads = measure_lanes(queue)
+    best = None
+    best_n = None
+    for name in LANE_ORDER:
+        n = int(loads[name]["load"])
+        if best_n is None or n < best_n:
+            best, best_n = name, n
+    return best
+
+
+def job_filename(agent: str, kind: str, task: str, target_dir: str,
+                 timeout_s: int) -> str:
+    """Deterministic name: same inputs -> same file. Never `_`-prefixed."""
+    agent_s = _slug(agent, 16)
+    kind_s = _slug(kind, 12)
+    task_s = _slug(task, 36)
+    digest = hashlib.sha256(
+        f"{agent}\0{kind}\0{task}\0{target_dir}".encode("utf-8")
+    ).hexdigest()[:8]
+    name = f"{agent_s}_{kind_s}_{task_s}_{digest}__t{int(timeout_s)}.py"
+    if name.startswith("_"):
+        name = "j" + name
+    return name
+
+
+def _write_exclusive(path: Path, text: str) -> bool:
+    """True if created. False if the name already existed (idempotent)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
+    if hasattr(os, "O_BINARY"):
+        flags |= os.O_BINARY
+    try:
+        fd = os.open(str(path), flags, 0o644)
+    except FileExistsError:
+        return False
+    try:
+        os.write(fd, text.encode("utf-8"))
+    except Exception:
+        try:
+            os.close(fd)
+        except OSError:
+            pass
+        raise
+    else:
+        os.close(fd)
+    return True
+
+
+def _find_existing(queue: Path, filename: str) -> Path | None:
+    loc = locate_job(queue, filename)
+    return loc["path"]
+
+
+def locate_job(queue: Path, filename: str) -> dict:
+    """Find a job file across BTS lanes/buckets. state is queued|running|done|failed|missing."""
+    name = Path(filename).name
+    searches = (
+        ("queued", ""),
+        ("running", "running"),
+        ("done", "done"),
+        ("done", str(Path("done") / "findings")),
+        ("failed", "failed"),
+    )
+    for lane in LANE_ORDER:
+        base = _lane_dir(queue, lane)
+        for state, rel in searches:
+            p = base / name if not rel else base / rel / name
+            if p.exists():
+                return {"path": p, "lane": lane, "state": state,
+                        "bucket": rel or ".", "filename": name}
+    # native record copies (queue/jobs, tools/dispatch_jobs) are not BTS buckets
+    for rel in ("jobs", Path("jobs") / "running"):
+        p = Path(queue) / rel / name if not isinstance(rel, Path) else Path(queue) / rel / name
+        # the loop above already covers simple names; extra native dirs:
+    native_job = Path(queue) / "jobs" / name
+    if native_job.exists():
+        return {"path": native_job, "lane": NATIVE_STREAM, "state": "queued",
+                "bucket": "jobs", "filename": name}
+    return {"path": None, "lane": None, "state": "missing",
+            "bucket": None, "filename": name}
+
+
+def _lane_of_path(job_path: Path, queue: Path) -> str:
+    """Identity via Path.parts, not a substring of the Windows path text (L2)."""
+    parts = [p.lower() for p in Path(job_path).parts]
+    for i, p in enumerate(parts):
+        if p == "_lanes" and i + 1 < len(parts):
+            return parts[i + 1]
+    if "jobs" in parts or "dispatch_jobs" in parts:
+        return NATIVE_STREAM
+    return "root"
+
+
+def returns_dir(lane_dir: Path) -> Path:
+    """BTS compatibility copy: the lane IS the stream; results land in returns/."""
+    return Path(lane_dir) / "returns"
+
+
+# ---------------------------------------------------------------------------
+# attempt-private workspace (P10: grok/G46 never writes the live tree)
+# Mirrors cosmos_codex_rail._prepare_workspace: git clone --local, copytree
+# fallback, refuse the live runtime root except work/, refuse the source
+# repo tree. Clone failure is BROKE — never fall back to the live tree as cwd.
+# ---------------------------------------------------------------------------
+
+def _safe_attempt_id(raw) -> str:
+    s = re.sub(r"[^A-Za-z0-9._-]+", "_", str(raw or "").strip())[:80].strip("._-")
+    return s or f"grok-{int(time.time())}"
+
+
+def _as_resolved(path) -> Path:
+    return Path(path).resolve()
+
+
+def assert_not_live_workspace(workspace, *, live_root=None,
+                              source_tree=None) -> None:
+    """Refuse a workspace that is the live repo tree or the runtime root
+    outside work/. Allowed: under <live>/work/, or wholly outside both trees.
+    OSError on resolve is fail-closed (REFUSED), not a pass.
+    """
+    try:
+        ws = _as_resolved(workspace)
+    except OSError as e:
+        raise DispatchError(
+            "REFUSED", f"workspace unreadable: {workspace}: {e}") from e
+
+    if source_tree not in (None, ""):
+        try:
+            src = _as_resolved(source_tree)
+        except OSError as e:
+            raise DispatchError(
+                "REFUSED", f"source_tree unreadable: {source_tree}: {e}") from e
+        try:
+            ws.relative_to(src)
+        except ValueError:
+            pass
+        else:
+            allowed = False
+            if live_root not in (None, ""):
+                try:
+                    work = (_as_resolved(live_root) / "work")
+                    ws.relative_to(work)
+                    allowed = True
+                except (OSError, ValueError):
+                    allowed = False
+            if not allowed:
+                raise DispatchError(
+                    "REFUSED",
+                    "coder refuses the live repo tree; attempt-private clone "
+                    "only (fenced commit gateway; COW writes the tree)")
+
+    if live_root not in (None, ""):
+        try:
+            root = _as_resolved(live_root)
+            work = (root / "work")
+        except OSError as e:
+            raise DispatchError(
+                "REFUSED", f"live_root unreadable: {live_root}: {e}") from e
+        try:
+            ws.relative_to(root)
+        except ValueError:
+            return
+        try:
+            ws.relative_to(work)
+            return
+        except ValueError:
+            raise DispatchError(
+                "REFUSED",
+                "coder refuses the live runtime root; attempt-private "
+                "clone only under work/ (fenced commit gateway)")
+
+
+def clone_attempt_workspace(src: Path, dest: Path) -> dict:
+    """git clone --local, then copytree fallback. Never deletes dest."""
+    src = Path(src)
+    dest = Path(dest)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    argv = ["git", "clone", "--local", str(src), str(dest)]
+    t0 = time.time()
+    try:
+        p = subprocess.run(
+            argv, capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=120, shell=False,
+            creationflags=_CREATE_NO_WINDOW)
+        timed_out = False
+        rc, err = p.returncode, (p.stderr or "")
+    except subprocess.TimeoutExpired as e:
+        timed_out = True
+        rc = None
+        err = (e.stderr if isinstance(e.stderr, str) else "") or "TIMEOUT"
+    except FileNotFoundError as e:
+        timed_out = False
+        rc = -1
+        err = f"FileNotFoundError: {e}"
+    except Exception as e:  # noqa: BLE001
+        timed_out = False
+        rc = -1
+        err = f"{type(e).__name__}: {e}"
+    elapsed = round(time.time() - t0, 1)
+    if not timed_out and rc == 0:
+        return {"ok": True, "how": "git-clone-local", "rc": 0,
+                "workspace": str(dest), "elapsed_s": elapsed}
+
+    copy_dest = dest
+    if dest.exists():
+        # git may have left a partial dest; never unlink. Pick a sibling.
+        n = 0
+        while True:
+            n += 1
+            cand = dest.parent / f"{dest.name}-copy{n}"
+            if not cand.exists():
+                copy_dest = cand
+                break
+    try:
+        shutil.copytree(
+            src, copy_dest,
+            ignore=shutil.ignore_patterns(*CLONE_IGNORE),
+        )
+        return {"ok": True, "how": "copytree", "rc": rc,
+                "workspace": str(copy_dest),
+                "clone_err": (err or "")[:200],
+                "elapsed_s": elapsed}
+    except OSError as e:
+        return {"ok": False, "how": "copytree",
+                "err": f"{type(e).__name__}: {e}",
+                "clone_err": (err or "")[:200],
+                "rc": rc, "timed_out": timed_out}
+
+
+def prepare_grok_workspace(source, *, live_root=None, attempt_id=None,
+                           dest=None) -> tuple:
+    """Clone `source` into an attempt-private dir. Fail-closed: REFUSED/BROKE
+    rather than returning the live tree as cwd.
+    """
+    if source in (None, ""):
+        raise DispatchError("BROKE", "coder needs a source tree to clone")
+    src = Path(source)
+    if not src.exists() or not src.is_dir():
+        raise DispatchError("BROKE", f"clone source is not a directory: {src}")
+    if live_root not in (None, ""):
+        try:
+            src_r = _as_resolved(src)
+            root = _as_resolved(live_root)
+        except OSError as e:
+            raise DispatchError("BROKE", f"unreadable clone paths: {e}") from e
+        try:
+            src_r.relative_to(root)
+        except ValueError:
+            pass
+        else:
+            try:
+                src_r.relative_to(root / "work")
+            except ValueError:
+                raise DispatchError(
+                    "REFUSED",
+                    "clone source is the live runtime root; want the repo tree")
+    attempt = _safe_attempt_id(attempt_id)
+    if dest not in (None, ""):
+        dest_p = Path(dest)
+    elif live_root not in (None, ""):
+        try:
+            paths = CosmosPaths(live_root)
+            dest_p = paths.role("work", GROK_WORK_LANE, attempt, "clone")
+        except CosmosPathError:
+            dest_p = Path(live_root) / "work" / GROK_WORK_LANE / attempt / "clone"
+    else:
+        dest_p = src.parent / "_grok_work" / attempt / "clone"
+    if dest_p.exists():
+        # never reuse a dirty prior attempt; never delete. Fresh sibling.
+        n = 0
+        parent, name = dest_p.parent, dest_p.name
+        while dest_p.exists():
+            n += 1
+            dest_p = parent / f"{name}-{n}"
+    assert_not_live_workspace(dest_p, live_root=live_root, source_tree=src)
+    cloned = clone_attempt_workspace(src, dest_p)
+    if not cloned.get("ok"):
+        raise DispatchError(
+            "BROKE",
+            f"attempt-private clone failed: {cloned.get('err') or cloned}")
+    ws = Path(cloned.get("workspace") or dest_p)
+    assert_not_live_workspace(ws, live_root=live_root, source_tree=src)
+    cloned["source"] = str(src)
+    cloned["workspace"] = str(ws)
+    return ws, cloned
+
+
+def collect_workspace_proposal(workspace, *, diff_path=None) -> dict:
+    """Surface the coder's private-tree writes as a proposal for COW.
+
+    Never commits, never pushes. git add -A is index-only in the clone so
+    untracked files land in the cached diff. Missing .git -> path only.
+    """
+    ws = Path(workspace)
+    rec = {
+        "workspace": str(ws),
+        "status": "",
+        "diff": "",
+        "diff_truncated": False,
+        "untracked": [],
+        "changed": [],
+        "how": None,
+        "gateway": "fenced_commit",
+    }
+    if not ws.is_dir():
+        rec["how"] = "missing"
+        return rec
+    if not (ws / ".git").exists():
+        rec["how"] = "no-git"
+        return rec
+
+    def _git(args, timeout_s=60):
+        try:
+            p = subprocess.run(
+                ["git", "-C", str(ws), *args],
+                capture_output=True, text=True, encoding="utf-8",
+                errors="replace", timeout=timeout_s, shell=False,
+                creationflags=_CREATE_NO_WINDOW)
+            return p.returncode, p.stdout or "", p.stderr or ""
+        except Exception as e:  # noqa: BLE001
+            return -1, "", f"{type(e).__name__}: {e}"
+
+    _git(["add", "-A"])
+    rc_st, st_out, st_err = _git(["status", "--porcelain", "-uall"])
+    rec["status"] = (st_out or "")[:8000]
+    rec["status_err"] = (st_err or "")[:400]
+    rec["how"] = "git"
+    for line in rec["status"].splitlines():
+        path = line[3:].strip() if len(line) >= 4 else line.strip()
+        if not path:
+            continue
+        rec["changed"].append(path)
+        if line.startswith("??") or line[:2].strip() == "A":
+            rec["untracked"].append(path)
+    rc_d, diff_out, diff_err = _git(["diff", "--cached", "--no-color"])
+    body = diff_out or ""
+    rec["diff_err"] = (diff_err or "")[:400]
+    rec["diff_rc"] = rc_d
+    rec["status_rc"] = rc_st
+    if diff_path is not None:
+        try:
+            dp = Path(diff_path)
+            dp.parent.mkdir(parents=True, exist_ok=True)
+            dp.write_text(body, encoding="utf-8")
+            rec["diff_path"] = str(dp)
+        except OSError as e:
+            rec["diff_path_error"] = f"{type(e).__name__}: {e}"
+    rec["diff"] = body[:PROPOSAL_DIFF_CAP]
+    rec["diff_truncated"] = len(body) > PROPOSAL_DIFF_CAP
+    rec["diff_bytes"] = len(body.encode("utf-8", errors="replace"))
+    return rec
+
+
+# ---------------------------------------------------------------------------
+# job source (R4: grok flags locked; cursor/claude provisional)
+# ---------------------------------------------------------------------------
+
+def _py_path(p: Path | None) -> str:
+    if p is None:
+        return "None"
+    return f"Path({json.dumps(str(p))})"
+
+
+def _job_helpers_block(agent: str, result_path: Path, returns_path: Path,
+                       inbox_path: Path | None, sentinel_path: Path | None) -> str:
+    return f'''import json, time
+from pathlib import Path
+AGENT = {json.dumps(agent)}
+RESULT = {_py_path(result_path)}
+RETURNS = {_py_path(returns_path)}
+INBOX = {_py_path(inbox_path)}
+SENTINEL = {_py_path(sentinel_path)}
+
+def _bind_live(out):
+    try:
+        if SENTINEL is not None and SENTINEL.exists():
+            _s = json.loads(SENTINEL.read_text(encoding="utf-8"))
+            out["live_tree_id"] = _s.get("tree_id")
+            out["live_system"] = _s.get("system")
+            out["live_sentinel"] = str(SENTINEL)
+            out["live_sentinel_mtime"] = SENTINEL.stat().st_mtime
+    except Exception as _e:
+        out["live_bind_error"] = f"{{type(_e).__name__}}: {{_e}}"
+    return out
+
+def _emit(out):
+    payload = json.dumps(out, indent=1)
+    RESULT.parent.mkdir(parents=True, exist_ok=True)
+    RESULT.write_text(payload, encoding="utf-8")
+    if RETURNS:
+        RETURNS.parent.mkdir(parents=True, exist_ok=True)
+        RETURNS.write_text(payload, encoding="utf-8")
+    if INBOX:
+        INBOX.parent.mkdir(parents=True, exist_ok=True)
+        INBOX.write_text(payload, encoding="utf-8")
+'''
+
+
+def _grok_job(agent: str, task: str, target_dir: str, model: str,
+              result_path: Path, returns_path: Path, timeout_s: int,
+              inbox_path: Path | None, sentinel_path: Path | None,
+              runtime_root: Path | None = None,
+              cosmos_dir: Path | None = None,
+              attempt_id: str | None = None) -> str:
+    # PROVEN flags - do not change the flag set. --cwd VALUE is the
+    # attempt-private clone, never the live repo tree (P10).
+    cosmos = Path(cosmos_dir) if cosmos_dir is not None else Path(__file__).resolve().parent
+    root_s = json.dumps(str(runtime_root) if runtime_root else "")
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — grok lane. Do not edit by hand.
+# P10: --cwd is an attempt-private clone; never the live tree.
+import os, subprocess, sys
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+TASK = {json.dumps(task)}
+SOURCE = {json.dumps(target_dir)}
+ROOT = {root_s}
+ATTEMPT = {json.dumps(str(attempt_id or ""))}
+MODEL = {json.dumps(model)}
+sys.path.insert(0, {json.dumps(str(cosmos))})
+from cosmos_dispatch import (
+    DispatchError, collect_workspace_proposal, prepare_grok_workspace,
+)
+t0 = time.time()
+out = {{"agent": AGENT, "kind": "grok", "model": MODEL,
+        "source_tree": SOURCE, "gateway": "fenced_commit",
+        "workspace_policy": "attempt-private"}}
+_bind_live(out)
+_emit(out)
+try:
+    ws, clone_rec = prepare_grok_workspace(
+        SOURCE, live_root=(ROOT or None), attempt_id=ATTEMPT)
+    CWD = str(ws)
+    out["workspace"] = CWD
+    out["clone"] = clone_rec
+    argv = ["grok", "--single", TASK, "-m", MODEL, "--output-format", "plain",
+            "--always-approve", "--max-turns", {json.dumps(GROK_MAX_TURNS)},
+            "--cwd", CWD]
+    out["argv"] = argv
+    _emit(out)
+    p = subprocess.run(argv, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", cwd=CWD, timeout={int(timeout_s)},
+                       creationflags=(0x08000000 if os.name == "nt" else 0))
+    out.update({{"rc": p.returncode, "secs": round(time.time() - t0, 1),
+                 "stdout_tail": (p.stdout or "")[-4000:],
+                 "stderr_tail": (p.stderr or "")[-1500:]}})
+    try:  # P5 anti-loss: persist FULL stdout beside the result (tail alone lost
+          # whole propose-only files: pool/CVM_ARCH/COMPETENCY, 2026-08-26).
+        with open(str(RESULT) + ".stdout.txt", "w", encoding="utf-8") as _fh:
+            _fh.write(p.stdout or "")
+        out["stdout_full"] = str(RESULT) + ".stdout.txt"
+    except Exception:
+        pass
+    try:
+        prop = collect_workspace_proposal(
+            ws, diff_path=str(RESULT) + ".diff.txt")
+        out["proposal"] = prop
+        if prop.get("diff_path"):
+            out["proposal_diff"] = prop["diff_path"]
+    except Exception as _pe:
+        out["proposal_error"] = f"{{type(_pe).__name__}}: {{_pe}}"
+except DispatchError as e:
+    # NEVER fall back to SOURCE as cwd — that is the live tree.
+    out["error"] = f"{{e.kind}}: {{e}}"
+    out["kind_err"] = e.kind
+    out["secs"] = round(time.time() - t0, 1)
+    out["rc"] = 2
+except Exception as e:
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["secs"] = round(time.time() - t0, 1)
+    out["rc"] = 2
+_emit(out)
+raise SystemExit(0 if out.get("rc") == 0 else 2)
+'''
+
+
+def _cursor_job(agent: str, task: str, key_path: Path, result_path: Path,
+                returns_path: Path, timeout_s: int, model: str | None,
+                inbox_path: Path | None, sentinel_path: Path | None) -> str:
+    model_id = None
+    if model and model not in (DEFAULT_MODEL, ""):
+        model_id = model
+    body = {
+        "prompt": {"text": task},
+        "repos": [{"url": CURSOR_REPO, "startingRef": CURSOR_REF}],
+        "autoCreatePR": True,
+    }
+    if model_id:
+        body["model"] = {"id": model_id}
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — Cursor Cloud Agents API v1.
+# Key is READ at runtime from the path below; never baked in.
+import base64, urllib.error, urllib.request
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+KEYP = Path({json.dumps(str(key_path))})
+BASE = {json.dumps(CURSOR_BASE)}
+BODY = {json.dumps(body)}
+TIMEOUT_S = {int(timeout_s)}
+key = KEYP.read_text(encoding="utf-8").strip()
+auth = "Basic " + base64.b64encode((key + ":").encode()).decode()
+
+def call(method, path, body=None):
+    req = urllib.request.Request(
+        BASE + path, method=method,
+        headers={{"Authorization": auth, "Content-Type": "application/json"}},
+        data=(json.dumps(body).encode() if body is not None else None))
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return r.status, json.loads(r.read().decode() or "{{}}")
+    except urllib.error.HTTPError as e:
+        return e.code, {{"error": (e.read().decode() or "")[:400]}}
+    except Exception as e:
+        return -1, {{"error": f"{{type(e).__name__}}: {{e}}"}}
+
+out = {{"agent": AGENT, "kind": "cursor", "kind_live": "UNPROVEN",
+        "key_last4": key[-4:] if len(key) >= 4 else ""}}
+_bind_live(out)
+_emit(out)
+t0 = time.time()
+try:
+    s, me = call("GET", "/v1/me")
+    out["me"] = {{"status": s, "apiKeyName": me.get("apiKeyName"),
+                  "err": me.get("error")}}
+    if s != 200:
+        out["rc"] = 2
+    else:
+        s2, a = call("POST", "/v1/agents", BODY)
+        aid = (a.get("agent") or {{}}).get("id") or a.get("id")
+        rid = (a.get("run") or {{}}).get("id")
+        out["launch"] = {{"status": s2, "agent": aid, "run": rid,
+                          "err": a.get("error")}}
+        if not (aid and rid):
+            out["rc"] = 2
+        else:
+            deadline = t0 + TIMEOUT_S - 30
+            terminal = ("FINISHED", "ERROR", "CANCELLED", "EXPIRED")
+            while time.time() < deadline:
+                time.sleep(15)
+                s3, run = call("GET", f"/v1/agents/{{aid}}/runs/{{rid}}")
+                st = run.get("status")
+                if st in terminal:
+                    out["run"] = {{"http": s3, "status": st,
+                                   "result": (run.get("result") or "")[:800],
+                                   "durationMs": run.get("durationMs"),
+                                   "git": run.get("git")}}
+                    out["rc"] = 0 if st == "FINISHED" else 2
+                    break
+            else:
+                out["run"] = {{"status": "TIMEOUT_POLLING"}}
+                out["rc"] = 2
+except Exception as e:
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["rc"] = 2
+out["secs"] = round(time.time() - t0, 1)
+_emit(out)
+raise SystemExit(0 if out.get("rc") == 0 else 2)
+'''
+
+
+def _codex_job(agent: str, task: str, target_dir: str, key_path: Path,
+               result_path: Path, returns_path: Path, timeout_s: int,
+               model: str | None, inbox_path: Path | None,
+               sentinel_path: Path | None, runtime_root: Path,
+               cosmos_dir: Path) -> str:
+    """Route --agent codex to cosmos_codex_rail. Key is READ at runtime;
+    never baked. done binds last_message + real model field, never rc.
+    """
+    model_id = model if model and model not in (DEFAULT_MODEL, "") else None
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — Codex CLI coder rail.
+# Key is READ at runtime from the path below; never baked in.
+# done = --output-last-message + real model field; rc is recorded, not the predicate.
+import sys
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+sys.path.insert(0, {json.dumps(str(cosmos_dir))})
+from cosmos_codex_rail import run_coding_dispatch
+ROOT = {json.dumps(str(runtime_root))}
+TASK = {json.dumps(task)}
+CWD = {json.dumps(target_dir)}
+KEYP = Path({json.dumps(str(key_path))})
+MODEL = {json.dumps(model_id)}
+TIMEOUT_S = {int(timeout_s)}
+t0 = time.time()
+out = {{"agent": AGENT, "kind": "codex", "kind_live": "UNPROVEN",
+        "key_path_name": KEYP.name, "model": MODEL}}
+_bind_live(out)
+_emit(out)
+try:
+    extra = {{"repo": CWD, "timeout_s": TIMEOUT_S, "mode": "coder"}}
+    if MODEL:
+        extra["model"] = MODEL
+    rec = run_coding_dispatch(ROOT, TASK, mode="coder", extra=extra)
+    last = (rec.get("last_message") or "").strip()
+    model = rec.get("model")
+    # Runtime-binding: done is the artifact pair, NEVER rec["rc"] / subprocess rc.
+    done = bool(last) and bool(model)
+    out.update({{
+        "ok": done,
+        "done": done,
+        "done_why": rec.get("done_why"),
+        "model": model,
+        "model_source": rec.get("model_source"),
+        "last_message": last[:4000],
+        "last_message_path": rec.get("last_message_path"),
+        "workspace": rec.get("workspace"),
+        "pr_url": rec.get("pr_url"),
+        "pr_ready": rec.get("pr_ready"),
+        "gateway": rec.get("gateway") or "fenced_commit",
+        "thread_id": rec.get("thread_id"),
+        "usage": rec.get("usage"),
+        "observed_rc": rec.get("rc"),
+        "detail": rec.get("detail"),
+        "kind_rail": rec.get("kind"),
+        "secs": round(time.time() - t0, 1),
+    }})
+    out["rc"] = 0 if done else 2
+except Exception as e:
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["secs"] = round(time.time() - t0, 1)
+    out["done"] = False
+    out["ok"] = False
+    out["rc"] = 2
+_emit(out)
+raise SystemExit(0 if out.get("done") else 2)
+'''
+
+
+def _claude_job(agent: str, task: str, target_dir: str, result_path: Path,
+                returns_path: Path, timeout_s: int,
+                inbox_path: Path | None, sentinel_path: Path | None,
+                model: str, kind: str) -> str:
+    lane_model = str(model or CLAUDE_MODEL)
+    lane_kind = str(kind or "claude")
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — {lane_kind} claude-CLI lane. Do not edit by hand.
+import os, subprocess
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+TASK = {json.dumps(task)}
+CWD = {json.dumps(target_dir)}
+t0 = time.time()
+argv = ["claude", "-p", TASK, "--model", {json.dumps(lane_model)},
+        "--permission-mode", "dontAsk", "--add-dir", CWD]
+out = {{"agent": AGENT, "kind": {json.dumps(lane_kind)}, "kind_live": "UNPROVEN",
+        "model": {json.dumps(lane_model)}, "argv": argv}}
+_bind_live(out)
+_emit(out)
+try:
+    p = subprocess.run(argv, capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", cwd=CWD, timeout={int(timeout_s)},
+                       creationflags=(0x08000000 if os.name == "nt" else 0))
+    out.update({{"rc": p.returncode, "secs": round(time.time() - t0, 1),
+                 "stdout_tail": (p.stdout or "")[-4000:],
+                 "stderr_tail": (p.stderr or "")[-1500:]}})
+    try:  # P5 anti-loss: persist FULL stdout beside the result (tail alone lost
+          # whole propose-only files: pool/CVM_ARCH/COMPETENCY, 2026-08-26).
+        with open(str(RESULT) + ".stdout.txt", "w", encoding="utf-8") as _fh:
+            _fh.write(p.stdout or "")
+        out["stdout_full"] = str(RESULT) + ".stdout.txt"
+    except Exception:
+        pass
+except Exception as e:
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["secs"] = round(time.time() - t0, 1)
+    out["rc"] = 2
+_emit(out)
+raise SystemExit(0 if out.get("rc") == 0 else 2)
+'''
+
+
+def _worker_job(kind: str, agent: str, task: str, worker_dir: Path,
+                result_path: Path, returns_path: Path, timeout_s: int,
+                inbox_path: Path | None, sentinel_path: Path | None,
+                out_dir: Path | None = None,
+                compat_dir: Path | None = None,
+                runtime_root: Path | None = None) -> str:
+    """Drop onto live/buckets/<node> and run that node's rail. No BTS import.
+
+    gem/oa: identity is live/buckets/<node> (what cosmos_node_worker polls).
+    The job calls cosmos_node_worker.execute_handoff which writes the packet
+    there AND actually invokes the rail. done = nonempty stdout; rc is
+    recorded, never the predicate (docs/SCAR_PLACATION.md: empty GEM/OA
+    critiques with rc=0 secs=0.0 — packet-and-exit SystemExit(0) was the
+    scar). SSA is a claude-CLI lane (Sonnet), not a worker-bucket handoff.
+    """
+    if kind in ("gem", "oa"):
+        cosmos_dir = str(Path(__file__).resolve().parent)
+        root_s = str(runtime_root) if runtime_root else ""
+        return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — {kind} node-worker rail.
+import sys
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+sys.path.insert(0, {json.dumps(cosmos_dir)})
+from cosmos_node_worker import execute_handoff
+KIND = {json.dumps(kind)}
+TASK = {json.dumps(task)}
+ROOT = {json.dumps(root_s)}
+TIMEOUT_S = {int(timeout_s)}
+WORKER_DIR = Path({json.dumps(str(worker_dir))})
+t0 = time.time()
+out = {{"agent": AGENT, "kind": KIND, "kind_live": "handoff"}}
+_bind_live(out)
+_emit(out)
+try:
+    rec = execute_handoff(ROOT, KIND, AGENT, TASK, str(RESULT),
+                          timeout_s=TIMEOUT_S)
+    out.update(rec)
+    out["secs"] = round(time.time() - t0, 1)
+except Exception as e:
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["secs"] = round(time.time() - t0, 1)
+    out["done"] = False
+    out["ok"] = False
+    out["rc"] = 2
+_emit(out)
+raise SystemExit(0 if out.get("done") else 2)
+'''
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — {kind} worker-bucket handoff.
+import os
+from datetime import datetime
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+KIND = {json.dumps(kind)}
+TASK = {json.dumps(task)}
+WORKER_DIR = Path({json.dumps(str(worker_dir))})
+COMPAT_DIR = {_py_path(compat_dir)}
+OUT_DIR = {_py_path(out_dir)}
+t0 = time.time()
+stamp = datetime.now().astimezone().isoformat()
+WORKER_DIR.mkdir(parents=True, exist_ok=True)
+(WORKER_DIR / "processed").mkdir(exist_ok=True)
+(WORKER_DIR / "failed").mkdir(exist_ok=True)
+name = "handoff_" + stamp.replace(":", "").replace("+", "p") + ".json"
+dest = WORKER_DIR / name
+packet = {{
+    "id": dest.stem, "agent": AGENT, "kind": KIND,
+    "prompt": TASK, "task": TASK, "assignment": TASK, "stamp": stamp,
+    "out": "V",
+    "out_dir": str(OUT_DIR) if OUT_DIR else None,
+    "result": str(RESULT), "returns": str(RETURNS),
+    "source": {json.dumps(WORKER)},
+}}
+dest.write_text(json.dumps(packet, indent=1), encoding="utf-8")
+compat_path = None
+if COMPAT_DIR:
+    COMPAT_DIR.mkdir(parents=True, exist_ok=True)
+    compat_path = COMPAT_DIR / name
+    compat_path.write_text(json.dumps(packet, indent=1), encoding="utf-8")
+out = {{"agent": AGENT, "kind": KIND, "kind_live": "handoff",
+        "status": "assigned",
+        "worker_packet": str(dest),
+        "worker_packet_compat": str(compat_path) if compat_path else None,
+        "secs": round(time.time() - t0, 1)}}
+_bind_live(out)
+_emit(out)
+raise SystemExit(0)
+'''
+
+
+def render_job(kind: str, agent: str, task: str, target_dir: str, model: str,
+               result_path: Path, returns_path: Path, timeout_s: int,
+               key_path: Path | None,
+               inbox_path: Path | None = None,
+               sentinel_path: Path | None = None,
+               worker_dir: Path | None = None,
+               out_dir: Path | None = None,
+               runtime_root: Path | None = None,
+               compat_dir: Path | None = None,
+               attempt_id: str | None = None) -> str:
+    if kind == "grok":
+        return _grok_job(agent, task, target_dir, model, result_path,
+                         returns_path, timeout_s, inbox_path, sentinel_path,
+                         runtime_root=runtime_root,
+                         cosmos_dir=Path(__file__).resolve().parent,
+                         attempt_id=attempt_id)
+    if kind == "cursor":
+        if key_path is None:
+            raise DispatchError("NO_KEY", "cursor kind needs the COSMOS Cursor key path")
+        return _cursor_job(agent, task, key_path, result_path, returns_path,
+                           timeout_s, model, inbox_path, sentinel_path)
+    if kind == "codex":
+        if key_path is None:
+            raise DispatchError("NO_KEY", "codex kind needs the OpenAI key path")
+        if runtime_root is None:
+            raise DispatchError("NO_ROOT", "codex kind needs the runtime root")
+        return _codex_job(
+            agent, task, target_dir, key_path, result_path, returns_path,
+            timeout_s, model, inbox_path, sentinel_path,
+            Path(runtime_root), Path(__file__).resolve().parent)
+    if kind in CLAUDE_KINDS:
+        return _claude_job(agent, task, target_dir, result_path, returns_path,
+                           timeout_s, inbox_path, sentinel_path,
+                           resolve_lane_model(kind, model), kind)
+    if kind in WORKER_KINDS:
+        if worker_dir is None:
+            raise DispatchError("NO_DIR", f"{kind} kind needs a worker bucket path")
+        return _worker_job(kind, agent, task, worker_dir, result_path,
+                           returns_path, timeout_s, inbox_path, sentinel_path,
+                           out_dir=out_dir, compat_dir=compat_dir,
+                           runtime_root=runtime_root)
+    raise DispatchError("BAD_INPUT", f"unhandled kind {kind!r}")
+
+
+# ---------------------------------------------------------------------------
+# stamps, DHx, collector index (R5 ACCEPT, R6 lock ` · `, R7 sidecar+lock)
+# ---------------------------------------------------------------------------
+
+def _iso_now() -> str:
+    """The stamp. Never hand-typed. Caller must use this, not a literal."""
+    return datetime.now().astimezone().isoformat()
+
+
+def _marker_line(stamp: str, agent: str, task: str, lane: str,
+                 filename: str) -> str:
+    return (f"{stamp}{MARKER_SEP}{agent}{MARKER_SEP}"
+            f"{_oneline(task)}{MARKER_SEP}{lane}/{filename}")
+
+
+def _marker_tail(marker: str) -> str:
+    if MARKER_SEP in marker:
+        return marker.rsplit(MARKER_SEP, 1)[-1].strip()
+    return marker.rsplit(" - ", 1)[-1].strip()
+
+
+def _with_file_lock(lock_path: Path, timeout_s: float = 15.0):
+    """Blocking exclusive lock. Yields the fd. Always closed."""
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    flags = os.O_RDWR | os.O_CREAT
+    if hasattr(os, "O_BINARY"):
+        flags |= os.O_BINARY
+    fd = os.open(str(lock_path), flags, 0o644)
+    deadline = time.time() + float(timeout_s)
+    locked = False
+    try:
+        while True:
+            try:
+                if os.name == "nt":
+                    import msvcrt
+                    os.lseek(fd, 0, os.SEEK_SET)
+                    try:
+                        os.write(fd, b"\x00")
+                    except OSError:
+                        pass
+                    os.lseek(fd, 0, os.SEEK_SET)
+                    msvcrt.locking(fd, msvcrt.LK_NBLCK, 1)
+                else:
+                    import fcntl
+                    fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                locked = True
+                break
+            except OSError:
+                if time.time() >= deadline:
+                    os.close(fd)
+                    raise DispatchError(
+                        "IO", f"timeout acquiring lock {lock_path}")
+                time.sleep(0.05)
+        yield fd
+    finally:
+        if locked:
+            try:
+                if os.name == "nt":
+                    import msvcrt
+                    os.lseek(fd, 0, os.SEEK_SET)
+                    msvcrt.locking(fd, msvcrt.LK_UNLCK, 1)
+            except OSError:
+                pass
+        try:
+            os.close(fd)
+        except OSError:
+            pass
+
+
+class _LockCM:
+    def __init__(self, lock_path: Path, timeout_s: float = 15.0):
+        self.lock_path = lock_path
+        self.timeout_s = timeout_s
+        self._gen = None
+
+    def __enter__(self):
+        self._gen = _with_file_lock(self.lock_path, self.timeout_s)
+        return next(self._gen)
+
+    def __exit__(self, *exc):
+        try:
+            next(self._gen, None)
+        except StopIteration:
+            pass
+        return False
+
+
+def append_dhx_marker(dhx: Path, marker: str) -> dict:
+    """Append `- <marker>` to the Assignment log section. Idempotent on the
+    `stream/file` tail so a retry does not double-stamp. Locked RMW (M2)."""
+    dhx.parent.mkdir(parents=True, exist_ok=True)
+    lock_path = dhx.with_name(dhx.name + ".lock")
+    with _LockCM(lock_path):
+        body = dhx.read_text(encoding="utf-8") if dhx.exists() else (
+            "# DHx — the DHot box (AGENT BRIEF).\n\n"
+            f"{DHX_ASSIGN_HEADER} — APPEND-ONLY markers\n\n"
+        )
+        line = f"- {marker}\n"
+        tail = _marker_tail(marker)
+        for existing in body.splitlines():
+            if existing.startswith("- ") and existing.rstrip().endswith(tail):
+                return {"wrote": False, "line": existing, "path": str(dhx)}
+        idx = body.find(DHX_ASSIGN_HEADER)
+        if idx < 0:
+            if not body.endswith("\n"):
+                body += "\n"
+            new = body + "\n" + line
+        else:
+            nl = body.find("\n", idx)
+            rest = nl + 1 if nl >= 0 else len(body)
+            next_h = body.find("\n## ", rest)
+            if next_h < 0:
+                prefix, suffix = body, ""
+            else:
+                prefix, suffix = body[:next_h], body[next_h:]
+            if not prefix.endswith("\n"):
+                prefix += "\n"
+            new = prefix + line + suffix
+        dhx.write_text(new, encoding="utf-8")
+    return {"wrote": True, "line": line.rstrip("\n"), "path": str(dhx)}
+
+
+def _iter_index_rows(index_path: Path):
+    if not index_path.exists():
+        return
+    try:
+        fh = open(index_path, "r", encoding="utf-8", errors="replace")
+    except OSError:
+        return
+    with fh:
+        for ln in fh:
+            ln = ln.strip()
+            if not ln:
+                continue
+            try:
+                row = json.loads(ln)
+            except ValueError:
+                continue
+            if isinstance(row, dict):
+                yield row
+
+
+def _already_in_index(index_path: Path, artifact: str, source: str = "dispatch_assignment") -> dict | None:
+    found = None
+    for row in _iter_index_rows(index_path) or []:
+        if row.get("source") == source and row.get("artifact") == artifact:
+            found = row
+    return found
+
+
+def _latest_for_job(index_path: Path, *, artifact: str | None = None,
+                    job_file: str | None = None) -> dict | None:
+    found = None
+    for row in _iter_index_rows(index_path) or []:
+        if artifact and row.get("artifact") == artifact:
+            found = row
+            continue
+        if job_file and Path(str(row.get("job_file") or row.get("artifact") or "")).name == job_file:
+            found = row
+            continue
+        if job_file and str(row.get("artifact") or "").endswith(job_file):
+            found = row
+    return found
+
+
+def append_index_row(index_path: Path, row: dict, lock_path: Path | None = None) -> dict:
+    """Append one JSONL row under the collector index lock (H3)."""
+    index_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(row, sort_keys=True, separators=(",", ":"),
+                         default=str) + "\n"
+    lp = lock_path if lock_path is not None else index_path.with_name(INDEX_LOCK_NAME)
+    with _LockCM(lp):
+        with open(index_path, "a", encoding="utf-8", newline="") as fh:
+            fh.write(payload)
+            fh.flush()
+            os.fsync(fh.fileno())
+    return {"wrote": True, "row": row, "path": str(index_path)}
+
+
+def append_assignment_row(index_path: Path, row: dict, lock_path: Path | None = None) -> dict:
+    existing = _already_in_index(index_path, row["artifact"], "dispatch_assignment")
+    if existing is not None:
+        return {"wrote": False, "row": existing, "path": str(index_path)}
+    return append_index_row(index_path, row, lock_path=lock_path)
+
+
+def append_session_assignment(path: Path, row: dict) -> dict:
+    """Append one JSONL row to the per-session agent-assignment file."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(row, sort_keys=True, separators=(",", ":"),
+                         default=str) + "\n"
+    lock_path = path.with_name(path.name + ".lock")
+    with _LockCM(lock_path):
+        with open(path, "a", encoding="utf-8", newline="") as fh:
+            fh.write(payload)
+            fh.flush()
+            os.fsync(fh.fileno())
+    return {"wrote": True, "path": str(path), "row": row}
+
+
+def repo_docs_dir() -> Path:
+    """Repo-tree docs/ beside this module (not the runtime-root docs role)."""
+    return Path(__file__).resolve().parent.parent / "docs"
+
+
+def load_boundaries_text(path: Path | None = None) -> str:
+    """Full text of docs/AGENT_BOUNDARIES.md. Empty string if missing
+    (the daemon then refuses rather than sending a task without it)."""
+    p = Path(path) if path is not None else (repo_docs_dir() / "AGENT_BOUNDARIES.md")
+    if not p.exists():
+        return ""
+    return p.read_text(encoding="utf-8")
+
+
+def compose_agent_prompt(assignment: str, *, context_blob: str = "",
+                         context_hint: str = "", boundaries: str = "",
+                         provenance: dict | None = None) -> str:
+    """Feed {context + assignment + mandatory AGENT_BOUNDARIES addendum}."""
+    parts = [str(assignment or "").strip()]
+    hint = str(context_hint or "").strip()
+    if hint:
+        parts.append("## CONTEXT HINT\n" + hint)
+    blob = str(context_blob or "").strip()
+    if blob or provenance:
+        prov = provenance or {}
+        header = (
+            "## SESSION CONTEXT (native transcript tail)\n"
+            f"session_id={prov.get('session_id')} "
+            f"bytes={prov.get('byte_start')}-{prov.get('byte_end')} "
+            f"path={prov.get('path')}"
+        )
+        parts.append(header + ("\n" + blob if blob else "\n(no text turns in tail)"))
+    bounds = str(boundaries or "").strip()
+    if bounds:
+        parts.append(
+            "============================================================\n"
+            "MANDATORY ADDENDUM — docs/AGENT_BOUNDARIES.md\n"
+            "Only the Orchestrator (COW) touches the live tree. Agents PROPOSE\n"
+            "tree changes in their results (target path + full content or diff)\n"
+            "for COW to execute, or not. Agents never write the live tree or\n"
+            "the C:\\ Claude tree, and never delete (propose staging to _delme\\).\n"
+            "============================================================\n\n"
+            + bounds
+        )
+    return "\n\n".join(parts).strip() + "\n"
+
+
+def write_inbox_sidecar(inbox: Path, row: dict) -> dict:
+    inbox.parent.mkdir(parents=True, exist_ok=True)
+    tmp = inbox.with_suffix(inbox.suffix + ".tmp")
+    tmp.write_text(json.dumps(row, indent=1, default=str), encoding="utf-8")
+    tmp.replace(inbox)
+    return {"wrote": True, "path": str(inbox)}
+
+
+def _cursor_key_path(paths: CosmosPaths) -> Path:
+    return paths.config(CURSOR_KEY_NAME)
+
+
+def _codex_key_path(paths: CosmosPaths) -> Path:
+    return paths.config(OPENAI_KEY_NAME)
+
+
+def _native_submit(paths: CosmosPaths, command: str, timeout_s: int,
+                   lane: str) -> str:
+    """Client of Scheduler — does not modify sched source. One ledger writer."""
+    from cosmos_sched import Scheduler
+    keyfile = paths.config("install_key.bin")
+    if not keyfile.exists():
+        raise DispatchError(
+            "NO_KEY",
+            f"no install key at {keyfile} - native queue submit refuses rather "
+            f"than inventing a second writer")
+    key = keyfile.read_bytes()
+    q = paths.role("queue")
+    q.mkdir(parents=True, exist_ok=True)
+    (q / "manifests").mkdir(parents=True, exist_ok=True)
+    sched = Scheduler(q, key, WORKER)
+    return sched.submit(command, priority="normal",
+                        timeout_s=int(timeout_s), lane=lane)
+
+
+def _write_mapping(paths: CosmosPaths, filename: str, rec: dict) -> Path:
+    p = dispatch_map_path(paths, filename)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    tmp = p.with_suffix(p.suffix + ".tmp")
+    tmp.write_text(json.dumps(rec, indent=1, default=str), encoding="utf-8")
+    tmp.replace(p)
+    return p
+
+
+def _read_mapping(paths: CosmosPaths, filename: str) -> dict | None:
+    p = dispatch_map_path(paths, filename)
+    if not p.exists():
+        return None
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    return d if isinstance(d, dict) else None
+
+
+def _load_json(path: Path) -> dict | None:
+    if path is None or not path.exists():
+        return None
+    try:
+        d = json.loads(path.read_text(encoding="utf-8", errors="replace"))
+    except (OSError, ValueError):
+        return None
+    return d if isinstance(d, dict) else None
+
+
+def _mtime(path: Path | None) -> float | None:
+    if path is None:
+        return None
+    try:
+        return path.stat().st_mtime
+    except OSError:
+        return None
+
+
+def _result_is_stale(result_path: Path | None, job_path: Path | None) -> bool:
+    """M5: a leftover result older than the job file is not this attempt."""
+    rm = _mtime(result_path)
+    jm = _mtime(job_path)
+    if rm is None or jm is None:
+        return False
+    return rm + 0.05 < jm
+
+
+# ---------------------------------------------------------------------------
+# monitor (R8 ACCEPT pull; REJECT blocking wait as the default)
+# ---------------------------------------------------------------------------
+
+def job_status(filename, *, queue=None, runtime_root=None, paths=None) -> dict:
+    """Monitor a dispatched job. Never claims done without a fresh result or
+    a done/failed bucket (M5: leftover result json is not terminal)."""
+    name = Path(filename).name
+    bound = None
+    if paths is not None:
+        bound = paths
+    elif runtime_root is not None:
+        try:
+            bound = bind_paths(runtime_root)
+        except DispatchError:
+            bound = None
+    else:
+        try:
+            bound = bind_paths(None)
+        except DispatchError:
+            bound = None
+
+    q = None
+    if queue is not None:
+        q = Path(queue)
+    elif bound is not None:
+        q = bound.role("queue")
+
+    native = bool(bound is not None and q is not None and is_native_queue(q, bound))
+    mapping = _read_mapping(bound, name) if bound is not None else None
+
+    loc = locate_job(q, name) if q is not None else {
+        "path": None, "lane": None, "state": "missing", "bucket": None,
+        "filename": name,
+    }
+    lane = loc["lane"]
+    state = loc["state"]
+    job_path = loc["path"]
+    if mapping and mapping.get("script_path"):
+        sp = Path(mapping["script_path"])
+        if sp.exists() and job_path is None:
+            job_path = sp
+            lane = mapping.get("stream") or NATIVE_STREAM
+            state = "queued"
+
+    result_name = name.rsplit("__t", 1)[0] + "_result.json" if "__t" in name else (
+        name.rsplit(".", 1)[0] + "_result.json")
+    candidates: list[Path] = []
+    returns_path = None
+    if mapping:
+        if mapping.get("returns_path"):
+            candidates.append(Path(mapping["returns_path"]))
+        if mapping.get("result_path"):
+            candidates.append(Path(mapping["result_path"]))
+    if bound is not None:
+        stream = (mapping or {}).get("stream") or STREAM_FOR_LANE.get(lane or "", NATIVE_STREAM)
+        candidates.append(locked_returns_path(bound, stream, result_name))
+        work = bound.role("work")
+        jid = (mapping or {}).get("job_id")
+        if jid:
+            wdir = work / jid
+            if wdir.exists():
+                for child in sorted(wdir.glob("*/result.json"),
+                                    key=lambda p: p.stat().st_mtime, reverse=True):
+                    candidates.append(child)
+    if q is not None and lane:
+        dest = _lane_dir(q, lane) if lane in LANE_ORDER else q
+        candidates.append(dest / result_name)
+        candidates.append(returns_dir(dest) / result_name)
+
+    result_path = None
+    result = None
+    seen = set()
+    for p in candidates:
+        rp = str(p)
+        if rp in seen:
+            continue
+        seen.add(rp)
+        if not p.exists():
+            continue
+        if _result_is_stale(p, job_path):
+            continue
+        if result_path is None:
+            result_path = p
+            result = _load_json(p)
+        if "returns" in p.parts:
+            returns_path = p
+            if result is None:
+                result = _load_json(p)
+
+    stalled = False
+    queued_age_s = None
+    if mapping and mapping.get("submitted"):
+        queued_age_s = time.time() - float(mapping["submitted"])
+        timeout_s = float(mapping.get("timeout_s") or GROK_TIMEOUT_S)
+        if state in ("queued", "missing") and result is None:
+            if queued_age_s > timeout_s * STALL_RATIO:
+                stalled = True
+                state = "STALLED"
+
+    # native work dir can show running even when locate_job said missing
+    if native and mapping and mapping.get("job_id") and bound is not None:
+        wdir = bound.role("work") / mapping["job_id"]
+        if wdir.exists() and result is None:
+            logs = list(wdir.glob("*/attempt.log"))
+            if logs and state in ("queued", "missing"):
+                state = "running"
+        if result is not None and isinstance(result, dict) and result.get("outcome"):
+            oc = result.get("outcome")
+            if oc == "BROKE":
+                state = "failed"
+            elif oc in ("CLEAN", "FINDINGS"):
+                state = "done"
+        elif result is not None and state in ("queued", "missing", "running"):
+            # job script wrote returns; runner may still be in the process
+            if result.get("rc") is not None or result.get("live_tree_id"):
+                if result.get("rc") is not None:
+                    state = "done" if result.get("rc") == 0 else "failed"
+
+    kind_of = None
+    if isinstance(result, dict):
+        kind_of = result.get("kind")
+    if not kind_of and mapping:
+        kind_of = mapping.get("kind")
+
+    terminal = False
+    if state in ("done", "failed"):
+        terminal = True
+    elif result is not None and not _result_is_stale(result_path, job_path):
+        if state not in ("queued", "STALLED"):
+            terminal = True
+        elif result.get("rc") is not None or result.get("outcome"):
+            terminal = True
+
+    # Handoff packet drop is assignment, not the agent's return. A runner
+    # CLEAN on the drop script (or a leftover rc=0) is not vendor-plural
+    # critique landing (SCAR_PLACATION / MOTIF_TRACKER critique-rail gap).
+    if kind_of in WORKER_KINDS and isinstance(result, dict):
+        worker_landed = bool(
+            result.get("worker_result")
+            or result.get("stdout_tail")
+            or result.get("kind_live") not in ("handoff", None, "")
+        )
+        if result.get("kind_live") == "handoff" and not worker_landed:
+            terminal = False
+            if state in ("done", "failed", "queued", "missing", "running"):
+                state = "handoff"
+
+    rec = {
+        "ok": True,
+        "filename": name,
+        "state": state,
+        "lane": lane or ((mapping or {}).get("stream")),
+        "job_path": str(job_path) if job_path is not None else None,
+        "result_path": str(result_path) if result_path is not None else None,
+        "returns_path": str(returns_path) if returns_path is not None else (
+            (mapping or {}).get("returns_path")),
+        "rc": (result.get("rc") if isinstance(result, dict) else None),
+        "result": result,
+        "terminal": terminal,
+        "stalled": stalled,
+        "queued_age_s": None if queued_age_s is None else round(queued_age_s, 1),
+        "native": native,
+        "native_job_id": (mapping or {}).get("job_id"),
+        "queue": str(q) if q is not None else None,
+    }
+    if bound is not None and terminal and result is not None:
+        rec["collector"] = reconcile_return(
+            rec, paths=bound, index_path=index_path_for(bound))
+    return rec
+
+
+def wait_for(filename, *, queue=None, runtime_root=None,
+             timeout_s: float = 1800, poll_s: float = 5.0) -> dict:
+    """Poll job_status until terminal or timeout. OS-cheap; not a Claude loop."""
+    deadline = time.time() + float(timeout_s)
+    last = None
+    while time.time() < deadline:
+        last = job_status(filename, queue=queue, runtime_root=runtime_root)
+        if last.get("terminal"):
+            last["wait"] = "landed"
+            return last
+        time.sleep(max(0.2, float(poll_s)))
+    last = last or job_status(filename, queue=queue, runtime_root=runtime_root)
+    last["wait"] = "timeout"
+    last["terminal"] = False
+    return last
+
+
+def reconcile_return(status: dict, *, paths: CosmosPaths,
+                     index_path: Path) -> dict:
+    """Join a terminal result onto the collector index (H2). Append-only."""
+    result = status.get("result") if isinstance(status.get("result"), dict) else {}
+    artifact = status.get("job_path") or status.get("returns_path")
+    if not artifact:
+        return {"wrote": False, "reason": "no artifact"}
+    existing = _latest_for_job(index_path, artifact=artifact,
+                               job_file=status.get("filename"))
+    if existing and existing.get("status") in ("returned", "MISSING"):
+        return {"wrote": False, "reason": "already joined", "row": existing}
+    now = time.time()
+    row = {
+        "schema": SCHEMA,
+        "collected_at": datetime.fromtimestamp(now).astimezone().isoformat(
+            timespec="seconds"),
+        "collected_epoch": int(now),
+        "source": "dispatch_return",
+        "lane": status.get("lane"),
+        "agent": result.get("agent") or (existing or {}).get("agent"),
+        "maker": (existing or {}).get("maker") or KIND_MAKER.get(
+            str(result.get("kind") or ""), ""),
+        "app": (existing or {}).get("app"),
+        "task": (existing or {}).get("task") or status.get("filename"),
+        "status": "returned" if (
+            result.get("rc") == 0 or result.get("outcome") in ("CLEAN", "FINDINGS")
+            or result.get("live_tree_id")
+        ) else "MISSING",
+        "rc": result.get("rc"),
+        "artifact": artifact,
+        "mtime": float(_mtime(Path(status["returns_path"])) or now)
+            if status.get("returns_path") else now,
+        "mtime_iso": datetime.fromtimestamp(now).astimezone().isoformat(
+            timespec="seconds"),
+        "summary": _oneline(
+            f"return {status.get('filename')} state={status.get('state')} "
+            f"tree_id={result.get('live_tree_id')}"),
+        "bytes": 0,
+        "kind": result.get("kind") or (existing or {}).get("kind"),
+        "job_file": status.get("filename"),
+        "result_path": status.get("result_path"),
+        "returns_path": status.get("returns_path"),
+        "stream": status.get("lane"),
+        "native_job_id": status.get("native_job_id"),
+        "live_tree_id": result.get("live_tree_id"),
+        "stdout_tail": (result.get("stdout_tail") or "")[:400],
+        "outcome": result.get("outcome"),
+    }
+    try:
+        if status.get("returns_path") and Path(status["returns_path"]).exists():
+            row["bytes"] = Path(status["returns_path"]).stat().st_size
+    except OSError:
+        pass
+    rec = append_index_row(index_path, row, lock_path=index_lock_for(paths))
+    inbox = inbox_dir(paths) / (
+        Path(status.get("filename") or "return").stem + "_return.json")
+    write_inbox_sidecar(inbox, row)
+    rec["inbox"] = str(inbox)
+    return rec
+
+
+# ---------------------------------------------------------------------------
+# dispatch (R10: TYPE+task only; dir/queue defaulted)
+# ---------------------------------------------------------------------------
+
+def dispatch(agent, task, target_dir=None, lane=None, model=DEFAULT_MODEL,
+             kind=None, *, queue=None, runtime_root=None, dhx=None,
+             index_path=None, label=None):
+    """Create + assign + stamp + register. One call.
+
+    target_dir and queue are optional: default dir is the repo tree of the
+    install; default queue is the resolver `queue` role. Explicit `--queue`
+    is the BTS compatibility ingress, never identity.
+
+    label: optional short assignment for the DHx marker and job filename
+    (the grok/cursor/claude payload is still `task`, which may carry
+    context + the AGENT_BOUNDARIES addendum).
+    """
+    task = str(task or "").strip()
+    if not task:
+        raise DispatchError("BAD_INPUT", "task is required")
+    agent = str(agent or "").strip()
+    if not agent:
+        agent = infer_default_agent(task)
+    label_s = str(label or "").strip() or task
+    kind_c = resolve_kind(agent, kind)
+    model = resolve_lane_model(kind_c, model)
+
+    paths = bind_paths(runtime_root)
+    if target_dir in (None, ""):
+        target = default_target_dir(paths)
+    else:
+        target = Path(target_dir)
+    try:
+        target = target.resolve()
+    except OSError as e:
+        raise DispatchError("NO_DIR", f"target_dir unreadable: {target}: {e}") from e
+    if not target.exists() or not target.is_dir():
+        raise DispatchError("NO_DIR", f"target_dir is not a directory: {target}")
+
+    if queue is None:
+        q = paths.role("queue")
+        q.mkdir(parents=True, exist_ok=True)
+        native = True
+    else:
+        q = Path(queue)
+        if not q.exists():
+            raise DispatchError("NO_QUEUE", f"queue does not exist: {q}")
+        native = is_native_queue(q, paths)
+
+    dhx_path = Path(dhx) if dhx is not None else default_dhx(paths)
+    idx = (Path(index_path) if index_path is not None else index_path_for(paths))
+    lock_p = idx.with_name(INDEX_LOCK_NAME) if index_path is not None else index_lock_for(paths)
+
+    lane_forced = lane is not None
+    if native:
+        chosen = NATIVE_STREAM if lane is None else str(lane).strip().lower()
+        if chosen in ("", "(root)", "root"):
+            chosen = NATIVE_STREAM
+        stream = STREAM_FOR_LANE.get(chosen, chosen)
+    else:
+        if lane is None:
+            chosen = pick_least_loaded(q)
+        else:
+            chosen = str(lane).strip().lower()
+            if chosen in ("", "(root)"):
+                chosen = "root"
+            if chosen not in LANE_ORDER:
+                raise DispatchError("NO_LANE",
+                                    f"unknown lane {lane!r}; want root|lg|pb")
+        stream = STREAM_FOR_LANE.get(chosen, chosen)
+
+    timeout_s = _timeout_for(kind_c)
+    filename = job_filename(agent, kind_c, label_s, str(target), timeout_s)
+    result_name = filename.rsplit("__t", 1)[0] + "_result.json"
+    sentinel_path = paths.root / SENTINEL_NAME
+    inbox_path = inbox_dir(paths) / (filename.rsplit(".", 1)[0] + ".json")
+    locked_ret = locked_returns_path(paths, stream, result_name)
+
+    existing_map = _read_mapping(paths, filename)
+    if existing_map and existing_map.get("job_id"):
+        stamp = existing_map.get("stamp") or _iso_now()
+        marker = _marker_line(stamp, agent, label_s,
+                              existing_map.get("stream") or chosen, filename)
+        dhx_rec = append_dhx_marker(dhx_path, marker)
+        st = job_status(filename, queue=q, runtime_root=paths.root, paths=paths)
+        return {
+            "ok": True,
+            "created": False,
+            "idempotent": True,
+            "agent": agent,
+            "kind": kind_c,
+            "kind_inferred": kind in (None, "", "auto"),
+            "kind_live": KIND_LIVE.get(kind_c, "UNPROVEN"),
+            "model": model,
+            "lane": existing_map.get("stream") or chosen,
+            "stream": existing_map.get("stream") or stream,
+            "lane_forced": lane_forced,
+            "lane_loads": {},
+            "job_path": existing_map.get("script_path"),
+            "job_file": filename,
+            "result_path": existing_map.get("result_path"),
+            "returns_path": existing_map.get("returns_path"),
+            "target_dir": str(target),
+            "workspace_policy": "attempt-private" if kind_c == "grok" else None,
+            "timeout_s": timeout_s,
+            "stamp": stamp,
+            "marker": marker,
+            "dhx": dhx_rec,
+            "collector": {"wrote": False, "path": str(idx), "reason": "idempotent"},
+            "index": str(idx),
+            "queue": str(q),
+            "queue_identity": "native" if native else "bootstrap",
+            "native": native,
+            "native_job_id": existing_map.get("job_id"),
+            "status": st,
+        }
+
+    key_path = None
+    if kind_c == "cursor":
+        key_path = _cursor_key_path(paths)
+        if not key_path.exists():
+            raise DispatchError(
+                "NO_KEY",
+                f"Cursor COSMOS key missing at {key_path} "
+                f"(never hard-code; redact to crsr_…last4)")
+    if kind_c == "codex":
+        key_path = _codex_key_path(paths)
+        if not key_path.exists():
+            raise DispatchError(
+                "NO_KEY",
+                f"OpenAI key missing at {key_path} "
+                f"(never hard-code; redact to sk-…last4)")
+
+    worker_dir = None
+    compat_dir = None
+    out_dir = None
+    if kind_c in WORKER_KINDS:
+        worker_dir = worker_bucket_dir(paths, kind_c)
+        worker_dir.mkdir(parents=True, exist_ok=True)
+        (worker_dir / "processed").mkdir(exist_ok=True)
+        (worker_dir / "failed").mkdir(exist_ok=True)
+        compat_dir = worker_compat_dir(paths, kind_c)
+        compat_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            out_dir = paths.role(
+                "root", "returns", WORKER_BUCKET_NODE.get(kind_c, kind_c))
+        except CosmosPathError:
+            out_dir = None
+
+    created = False
+    native_job_id = None
+    job_path: Path
+    result_path: Path
+    returns_path: Path
+
+    if native:
+        script_dir = paths.role("tools", "dispatch_jobs")
+        script_dir.mkdir(parents=True, exist_ok=True)
+        job_path = script_dir / filename
+        result_path = locked_ret
+        returns_path = locked_ret
+        source = render_job(kind_c, agent, task, str(target), model,
+                            result_path, returns_path, timeout_s, key_path,
+                            inbox_path=inbox_path, sentinel_path=sentinel_path,
+                            worker_dir=worker_dir, runtime_root=paths.root,
+                            out_dir=out_dir, compat_dir=compat_dir,
+                            attempt_id=filename.rsplit(".", 1)[0])
+        created = _write_exclusive(job_path, source)
+        if not created and not job_path.exists():
+            job_path.write_text(source, encoding="utf-8")
+            created = True
+        elif not created:
+            # reuse existing script (idempotent name)
+            pass
+        command = "py:" + str(job_path)
+        native_job_id = _native_submit(paths, command, timeout_s, stream)
+        rec_map = {
+            "job_id": native_job_id,
+            "filename": filename,
+            "script_path": str(job_path),
+            "returns_path": str(returns_path),
+            "result_path": str(result_path),
+            "stream": stream,
+            "timeout_s": timeout_s,
+            "submitted": time.time(),
+            "stamp": _iso_now(),
+            "agent": agent,
+            "kind": kind_c,
+            "task": task,
+            "target_dir": str(target),
+            "workspace_policy": "attempt-private" if kind_c == "grok" else None,
+        }
+        _write_mapping(paths, filename, rec_map)
+        landed = stream
+    else:
+        dest_dir = _lane_dir(q, chosen)
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        for sub in ("running", "done", "failed", "logs"):
+            (dest_dir / sub).mkdir(parents=True, exist_ok=True)
+        ret_dir = returns_dir(dest_dir)
+        ret_dir.mkdir(parents=True, exist_ok=True)
+        existing = _find_existing(q, filename)
+        job_path = existing if existing is not None else (dest_dir / filename)
+        result_path = dest_dir / result_name
+        returns_path = ret_dir / result_name
+        if existing is None:
+            source = render_job(kind_c, agent, task, str(target), model,
+                                result_path, returns_path, timeout_s, key_path,
+                                inbox_path=inbox_path, sentinel_path=sentinel_path,
+                                worker_dir=worker_dir, runtime_root=paths.root,
+                                out_dir=out_dir, compat_dir=compat_dir,
+                                attempt_id=filename.rsplit(".", 1)[0])
+            created = _write_exclusive(job_path, source)
+            if not created:
+                existing = job_path if job_path.exists() else _find_existing(q, filename)
+                job_path = existing or job_path
+        landed = _lane_of_path(job_path, q) if job_path.exists() else chosen
+        if landed != chosen:
+            dest_dir = _lane_dir(q, landed)
+            result_path = dest_dir / result_name
+            returns_path = returns_dir(dest_dir) / result_name
+            stream = STREAM_FOR_LANE.get(landed, landed)
+        rec_map = {
+            "job_id": None,
+            "filename": filename,
+            "script_path": str(job_path),
+            "returns_path": str(returns_path),
+            "result_path": str(result_path),
+            "stream": stream,
+            "timeout_s": timeout_s,
+            "submitted": time.time(),
+            "stamp": _iso_now(),
+            "agent": agent,
+            "kind": kind_c,
+            "task": task,
+            "target_dir": str(target),
+            "workspace_policy": "attempt-private" if kind_c == "grok" else None,
+            "bootstrap": True,
+        }
+        _write_mapping(paths, filename, rec_map)
+
+    stamp = (rec_map.get("stamp") if native else _iso_now())
+    if not native:
+        stamp = rec_map["stamp"] = _iso_now()
+        _write_mapping(paths, filename, rec_map)
+    marker = _marker_line(stamp, agent, label_s, landed, filename)
+    dhx_rec = append_dhx_marker(dhx_path, marker)
+
+    try:
+        mtime = job_path.stat().st_mtime
+        nbytes = job_path.stat().st_size
+    except OSError:
+        mtime = time.time()
+        nbytes = 0
+    now = time.time()
+    row = {
+        "schema": SCHEMA,
+        "collected_at": datetime.fromtimestamp(now).astimezone().isoformat(
+            timespec="seconds"),
+        "collected_epoch": int(now),
+        "source": "dispatch_assignment",
+        "lane": landed,
+        "agent": agent,
+        "maker": KIND_MAKER[kind_c],
+        "app": KIND_MAKER[kind_c],
+        "task": filename.rsplit("__t", 1)[0],
+        "status": "assigned",
+        "rc": None,
+        "artifact": str(job_path),
+        "mtime": float(mtime),
+        "mtime_iso": datetime.fromtimestamp(mtime).astimezone().isoformat(
+            timespec="seconds"),
+        "summary": _oneline(
+            f"dispatched {kind_c} {agent} -> {landed}/{filename}"),
+        "bytes": int(nbytes),
+        "kind": kind_c,
+        "kind_live": KIND_LIVE.get(kind_c, "UNPROVEN"),
+        "model": model,
+        "stamp": stamp,
+        "result_path": str(result_path),
+        "returns_path": str(returns_path),
+        "locked_returns": str(locked_ret),
+        "stream": stream,
+        "target_dir": str(target),
+        "workspace_policy": "attempt-private" if kind_c == "grok" else None,
+        "timeout_s": timeout_s,
+        "job_file": filename,
+        "native": native,
+        "native_job_id": native_job_id,
+        "queue_identity": "native" if native else "bootstrap",
+        "inbox_path": str(inbox_path),
+        "worker_bucket": str(worker_dir) if worker_dir is not None else None,
+        "worker_compat": str(compat_dir) if compat_dir is not None else None,
+    }
+    idx_rec = append_assignment_row(idx, row, lock_path=lock_p)
+    write_inbox_sidecar(inbox_path, row)
+
+    loads = {} if native else measure_lanes(q)
+    return {
+        "ok": True,
+        "created": created,
+        "idempotent": not created,
+        "agent": agent,
+        "kind": kind_c,
+        "kind_inferred": kind in (None, "", "auto"),
+        "kind_live": KIND_LIVE.get(kind_c, "UNPROVEN"),
+        "model": row["model"],
+        "lane": landed,
+        "stream": stream,
+        "lane_forced": lane_forced,
+        "lane_loads": {k: {"queued": v["queued"], "running": v["running"],
+                           "load": v["load"]} for k, v in loads.items()},
+        "job_path": str(job_path),
+        "job_file": filename,
+        "result_path": str(result_path),
+        "returns_path": str(returns_path),
+        "locked_returns": str(locked_ret),
+        "target_dir": str(target),
+        "workspace_policy": "attempt-private" if kind_c == "grok" else None,
+        "timeout_s": timeout_s,
+        "stamp": stamp,
+        "marker": marker,
+        "dhx": dhx_rec,
+        "collector": {"wrote": idx_rec["wrote"], "path": idx_rec["path"],
+                      "inbox": str(inbox_path)},
+        "index": str(idx),
+        "queue": str(q),
+        "queue_identity": "native" if native else "bootstrap",
+        "native": native,
+        "native_job_id": native_job_id,
+        "worker_bucket": str(worker_dir) if worker_dir is not None else None,
+        "worker_compat": str(compat_dir) if compat_dir is not None else None,
+        "status": job_status(filename, queue=q, runtime_root=paths.root,
+                             paths=paths),
+    }
+
+
+# ---------------------------------------------------------------------------
+# stage-6 gate: a value only this live tree can emit
+# ---------------------------------------------------------------------------
+
+def _read_heartbeat(paths: CosmosPaths) -> dict | None:
+    p = paths.logs("cosmos_runner_heartbeat.json")
+    return _load_json(p)
+
+
+def run_gate(runtime_root=None, timeout_s: float = 180.0) -> dict:
+    """Dispatch TYPE+task with no --dir/--queue, wait for the native runner
+    to name the job_id, then quote the locked returns live_tree_id."""
+    paths = bind_paths(runtime_root)
+    t0 = time.time()
+    nonce = _iso_now()
+    rec = dispatch(
+        "G46", GATE_TASK, runtime_root=paths.root,
+        label=f"STAGE6_GATE {nonce}",
+    )
+    proof = {
+        "ok": False,
+        "stage": 6,
+        "deliverable": "cosmos_dispatch",
+        "gate_nonce": nonce,
+        "dispatched_at": rec.get("stamp"),
+        "agent": rec.get("agent"),
+        "kind": rec.get("kind"),
+        "kind_live": rec.get("kind_live"),
+        "queue": rec.get("queue"),
+        "queue_identity": rec.get("queue_identity"),
+        "native_job_id": rec.get("native_job_id"),
+        "job_file": rec.get("job_file"),
+        "job_path": rec.get("job_path"),
+        "returns_path": rec.get("returns_path"),
+        "locked_returns": rec.get("locked_returns"),
+        "marker": rec.get("marker"),
+        "dhx": rec.get("dhx"),
+        "index": rec.get("index"),
+        "manifest": None,
+        "heartbeat": None,
+        "live_tree_id": None,
+        "stdout_tail": None,
+        "emitted": None,
+    }
+    jid = rec.get("native_job_id")
+    if jid:
+        mp = paths.queue("manifests", jid + ".json")
+        proof["manifest"] = str(mp) if mp.exists() else None
+        proof["manifest_exists"] = mp.exists()
+
+    def _runner_work():
+        if not jid:
+            return None
+        wdir = paths.role("work") / jid
+        if not wdir.exists():
+            return None
+        attempts = [p for p in wdir.iterdir() if p.is_dir()]
+        if not attempts:
+            return None
+        chosen = max(attempts, key=lambda p: p.stat().st_mtime)
+        logp = chosen / "attempt.log"
+        log = logp.read_text(encoding="utf-8", errors="replace") if logp.exists() else ""
+        wres = _load_json(chosen / "result.json")
+        return {
+            "dir": str(chosen),
+            "log": str(logp) if logp.exists() else None,
+            "attempt_head": log[:500],
+            "worker_is_runner": "worker cosmos-runner" in log,
+            "job_id_in_log": bool(jid and jid in log),
+            "result": wres,
+        }
+
+    deadline = time.time() + float(timeout_s)
+    hb_hit = None
+    returns = None
+    last_status = None
+    while time.time() < deadline:
+        hb = _read_heartbeat(paths)
+        if hb and jid and jid in (hb.get("job_ids") or []):
+            hb_hit = hb
+        last_status = job_status(rec["job_file"], queue=rec["queue"],
+                                 runtime_root=paths.root, paths=paths)
+        rp = last_status.get("returns_path") or rec.get("returns_path")
+        if rp and Path(rp).exists():
+            returns = _load_json(Path(rp))
+            if returns and (returns.get("live_tree_id") or returns.get("rc") is not None
+                            or returns.get("stdout_tail")):
+                if hb_hit or (returns.get("live_tree_id") and last_status.get("terminal")):
+                    break
+        if hb_hit and last_status and last_status.get("terminal"):
+            break
+        # durable runner bind: work/<job_id>/<attempt>/attempt.log (heartbeat
+        # job_ids is overwritten to [] on the next idle tick)
+        if last_status and last_status.get("terminal") and _runner_work():
+            break
+        time.sleep(1.0)
+
+    if hb_hit is None:
+        hb_hit = _read_heartbeat(paths)
+    work_proof = _runner_work()
+    proof["runner_work"] = work_proof
+    proof["heartbeat"] = {
+        "path": str(paths.logs("cosmos_runner_heartbeat.json")),
+        "last_run": (hb_hit or {}).get("last_run"),
+        "last_run_epoch": (hb_hit or {}).get("last_run_epoch"),
+        "pid": (hb_hit or {}).get("pid"),
+        "queue_root": (hb_hit or {}).get("queue_root"),
+        "tick": (hb_hit or {}).get("tick"),
+        "jobs_this_tick": (hb_hit or {}).get("jobs_this_tick"),
+        "job_ids": (hb_hit or {}).get("job_ids"),
+        "named_this_job": bool(jid and jid in ((hb_hit or {}).get("job_ids") or [])),
+    }
+    proof["status"] = last_status
+    if returns:
+        proof["live_tree_id"] = returns.get("live_tree_id")
+        proof["stdout_tail"] = returns.get("stdout_tail")
+        proof["result_rc"] = returns.get("rc")
+        proof["result_secs"] = returns.get("secs")
+        proof["returns_exists"] = True
+    else:
+        proof["returns_exists"] = False
+
+    idx_row = _latest_for_job(Path(rec["index"]), artifact=rec.get("job_path"),
+                              job_file=rec.get("job_file"))
+    proof["index_status"] = (idx_row or {}).get("status")
+    proof["index_source"] = (idx_row or {}).get("source")
+    proof["index_live_tree_id"] = (idx_row or {}).get("live_tree_id")
+
+    dhx_text = ""
+    dhx_path = rec.get("dhx", {}).get("path")
+    if dhx_path and Path(dhx_path).exists():
+        dhx_text = Path(dhx_path).read_text(encoding="utf-8")
+    proof["dhx_has_marker"] = bool(rec.get("marker") and rec["marker"] in dhx_text)
+    proof["dhx_grammar_dot"] = bool(rec.get("marker") and MARKER_SEP in rec["marker"])
+    proof["no_dir_passed"] = True
+    proof["no_queue_passed"] = True
+    proof["secs"] = round(time.time() - t0, 1)
+
+    sentinel = _load_json(paths.root / SENTINEL_NAME) or {}
+    emitted = {
+        "live_tree_id": proof.get("live_tree_id") or sentinel.get("tree_id"),
+        "gate_nonce": nonce,
+        "native_job_id": jid,
+        "heartbeat_named": proof["heartbeat"]["named_this_job"],
+        "heartbeat_last_run_epoch": proof["heartbeat"]["last_run_epoch"],
+        "runner_work_dir": (work_proof or {}).get("dir"),
+        "runner_outcome": ((work_proof or {}).get("result") or {}).get("outcome"),
+        "runner_worker": (work_proof or {}).get("worker_is_runner"),
+        "returns_path": rec.get("returns_path"),
+        "index_status": proof.get("index_status"),
+        "stdout_tail": (proof.get("stdout_tail") or "")[:200],
+        "stamp": rec.get("stamp"),
+    }
+    proof["emitted"] = emitted
+    runner_bound = bool(
+        proof["heartbeat"]["named_this_job"]
+        or ((work_proof or {}).get("worker_is_runner")
+            and (work_proof or {}).get("job_id_in_log"))
+    )
+    proof["ok"] = bool(
+        rec.get("queue_identity") == "native"
+        and rec.get("native_job_id")
+        and proof.get("manifest_exists")
+        and proof.get("dhx_has_marker")
+        and proof.get("dhx_grammar_dot")
+        and proof.get("live_tree_id")
+        and runner_bound
+    )
+    outp = paths.state("dispatch", "STAGE6_GATE.json")
+    outp.parent.mkdir(parents=True, exist_ok=True)
+    body = json.dumps(proof, indent=1, default=str)
+    outp.write_text(body, encoding="utf-8")
+    dated_name = "STAGE6_GATE_" + nonce.replace(":", "").replace("+", "p") + ".json"
+    dated = paths.state("dispatch", dated_name)
+    dated.write_text(body, encoding="utf-8")
+    proof["proof_path"] = str(outp)
+    proof["proof_path_dated"] = str(dated)
+    return proof
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        prog="cosmos_dispatch",
+        description="Create an agent job, stamp DHx, register the assignment. "
+                    "Kind is inferred from --agent unless --kind is set. "
+                    "Default queue is the resolver queue role; --queue is bootstrap.")
+    ap.add_argument("--agent", default=None,
+                    help="agent TYPE (G46, Cursor, F5, SSA, sonnet, haiku, ...). "
+                         "Omitted: coding->G46, research/analysis/vetting->SSA.")
+    ap.add_argument("--task", default=None)
+    ap.add_argument("--dir", default=None, dest="target_dir",
+                    help="working directory (default: repo tree of the install)")
+    ap.add_argument("--kind", default="auto",
+                    help="auto | grok | cursor | codex | claude | F5 | sonnet | "
+                         "haiku | SSA | gem | oa (default: auto from agent)")
+    ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--lane", default=None,
+                    help="BTS: root|lg|pb (default least-loaded). Native: ignored.")
+    ap.add_argument("--root", default=None,
+                    help="COSMOS runtime root (default: install record)")
+    ap.add_argument("--queue", default=None,
+                    help="optional bootstrap queue (BTS). Default: resolver queue role.")
+    ap.add_argument("--dhx", default=None,
+                    help="DHx path (default <repo>/docs/AGENT_BRIEF.md)")
+    ap.add_argument("--index", default=None,
+                    help="collector index.jsonl (default <root>/state/collector/index.jsonl)")
+    ap.add_argument("--status", default=None, metavar="JOBFILE",
+                    help="monitor a previously dispatched job (filename or path)")
+    ap.add_argument("--wait", action="store_true",
+                    help="after dispatch (or with --status), poll until terminal")
+    ap.add_argument("--wait-timeout", type=float, default=None,
+                    help="seconds to wait (default: the job's own timeout)")
+    ap.add_argument("--gate", action="store_true",
+                    help="stage-6 runtime-binding: dispatch TYPE+task onto the "
+                         "native queue and quote a live-tree value")
+    a = ap.parse_args()
+    try:
+        if a.gate:
+            rec = run_gate(runtime_root=a.root,
+                           timeout_s=a.wait_timeout or 180.0)
+        elif a.status:
+            rec = job_status(a.status, queue=a.queue, runtime_root=a.root)
+            if a.wait:
+                rec = wait_for(
+                    a.status, queue=a.queue, runtime_root=a.root,
+                    timeout_s=a.wait_timeout or GROK_TIMEOUT_S)
+        else:
+            if not a.task:
+                ap.error("--task is required to dispatch "
+                         "(--agent defaults: coding->G46, research->SSA; "
+                         "--dir and --queue default)")
+            rec = dispatch(
+                a.agent or infer_default_agent(a.task), a.task, a.target_dir,
+                lane=a.lane, model=a.model,
+                kind=a.kind, queue=a.queue, runtime_root=a.root, dhx=a.dhx,
+                index_path=a.index,
+            )
+            if a.wait:
+                rec["wait"] = wait_for(
+                    rec["job_file"], queue=rec["queue"], runtime_root=a.root,
+                    timeout_s=a.wait_timeout or rec.get("timeout_s") or GROK_TIMEOUT_S)
+    except DispatchError as e:
+        print(json.dumps({"ok": False, "kind": e.kind, "error": str(e)}, indent=1))
+        return 2
+    print(json.dumps(rec, indent=1, default=str))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+<<<FILE_END>>>
+
+<<<FILE path=cosmos/cosmos_node_worker.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cosmos_node_worker - GROK / GEM / OA Windows-native bucket workers.
+
+Each node polls ITS OWN bucket (live/buckets/<node>/), picks up a prompt
+drop, executes it through THAT node's COSMOS rail (spend-gated + ledgered),
+and writes the result DIRECTLY to the designated folder.
+
+NO BTS import. Does not modify kernel / ledger / sched / service.
+
+Grok -> sgh-api then gw-api (explicit audited fallback).
+GEM  -> gem-api.
+OA   -> oa-api.
+
+Critique packets (dispatch handoff) carry `returns`/`result`. When present,
+land_critique_return writes the REAL body to that path. Empty text is
+FAILED, never fake-DONE rc=0. SSA is a claude-CLI lane, consumed by
+cosmos_crit_consumer (not this bucket worker).
+
+    py -3.14 cosmos\\cosmos_node_worker.py --root <live> --node grok --once
+    py -3.14 cosmos\\cosmos_grok_worker.py --root <live> --loop
+    py -3.14 cosmos\\cosmos_gem_worker.py  --root <live> --standup
+    py -3.14 cosmos\\cosmos_oa_worker.py   --root <live> --once
+    py -3.14 cosmos\\cosmos_grok_worker.py --root <live> --status
+
+Dispatch gem/oa jobs call execute_handoff (drop onto live/buckets/<node>
+AND run the rail). Empty rail text is FAILED, never fake-DONE rc=0.
+
+CLI: --loop / --once / --standup / --status, optional --out V|GDX|ODX
+     (V is default and BEST). Per-task `out` field overrides --out.
+
+--loop honors live/state/control/PAUSE.flag: pick up NOTHING; heartbeat
+state=PAUSED (paused != dead). --once is a commanded drain (Keith/COW
+explicit), even while paused, so a proof tick can land.
+
+Heartbeat: live/logs/<node>_worker_heartbeat.json on EVERY tick.
+Lock:      live/logs/<node>_worker.lock
+Tasks:     'COSMOS Grok Worker' / 'COSMOS GEM Worker' / 'COSMOS OA Worker'
+           (1-min self-heal of --loop + ONLOGON relaunch). Detached
+           pythonw fallback.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import shutil
+import sys
+import time
+import uuid
+from datetime import datetime
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from cosmos_clock import (  # noqa: E402
+    acquire_lock, atomic_json, create_task, heartbeat_age_s, pid_alive,
+    pythonw_exe, query_task, read_heartbeat, spawn_detached, tr_cmdline,
+    wait_fresh, write_heartbeat,
+)
+from cosmos_dispatch import (  # noqa: E402
+    append_dhx_marker, append_index_row, default_dhx, index_lock_for,
+    index_path_for, inbox_dir, write_inbox_sidecar,
+)
+from cosmos_paths import CosmosPaths, CosmosPathError  # noqa: E402
+
+SCHEMA = "cosmos-node-worker/1"
+DEFAULT_INTERVAL_S = 15.0
+FRESH_S = 90.0
+DROP_SUFFIXES = {".json", ".txt"}
+SKIP_DIR_NAMES = {"processed", "failed", "running", "__pycache__", "_delme"}
+DEST_KEYS = ("V", "GDX", "ODX")
+CONFIG_NAME = "node_worker.json"
+
+# Designated external destinations. These are named return folders, NOT
+# COSMOS roles — the resolver refuses absolute parts. V: is the role path
+# live/returns/<node>. Override via live/config/node_worker.json `dest`.
+DEFAULT_EXT_DEST = {
+    "GDX": Path(r"X:\My Drive\BTS_SGH_Handoff"),
+    "ODX": Path(r"C:\Users\Papa\OneDrive"),
+}
+
+# link_id / incumbent module / metered_usd / default budget — same specs
+# cosmos_node_rails.register_node_rails uses. Worker never imports bts_*.
+NODES = {
+    "grok": {
+        "id": "grok",
+        "worker": "cosmos-grok-worker",
+        "task_name": "COSMOS Grok Worker",
+        "task_logon": "COSMOS Grok Worker Logon",
+        "heartbeat": "grok_worker_heartbeat.json",
+        "lock": "grok_worker.lock",
+        "script": "cosmos_grok_worker.py",
+        "agent": "GROK",
+        "maker": "Grok",
+        "rails": (
+            {"link_id": "sgh-api", "module": "bts_sgh",
+             "metered_usd": 0.02, "budget": 10.0},
+            {"link_id": "gw-api", "module": "bts_gw",
+             "metered_usd": 0.001, "budget": 5.0},
+        ),
+    },
+    "gem": {
+        "id": "gem",
+        "worker": "cosmos-gem-worker",
+        "task_name": "COSMOS GEM Worker",
+        "task_logon": "COSMOS GEM Worker Logon",
+        "heartbeat": "gem_worker_heartbeat.json",
+        "lock": "gem_worker.lock",
+        "script": "cosmos_gem_worker.py",
+        "agent": "GEM",
+        "maker": "Gemini",
+        "rails": (
+            {"link_id": "gem-api", "module": "bts_gem",
+             "metered_usd": 0.03, "budget": 300.0},
+        ),
+    },
+    "oa": {
+        "id": "oa",
+        "worker": "cosmos-oa-worker",
+        "task_name": "COSMOS OA Worker",
+        "task_logon": "COSMOS OA Worker Logon",
+        "heartbeat": "oa_worker_heartbeat.json",
+        "lock": "oa_worker.lock",
+        "script": "cosmos_oa_worker.py",
+        "agent": "OAi",
+        "maker": "OpenAI",
+        "rails": (
+            {"link_id": "oa-api", "module": "bts_oa_api",
+             "metered_usd": 0.05, "budget": 5.0},
+        ),
+    },
+}
+
+
+class WorkerError(RuntimeError):
+    """kind in {BAD_NODE, BAD_OUT, BAD_TASK, NO_DEST, NO_KEY, NO_ROOT}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
+
+
+# Grok/GEM API-rail nodes. Claude-CLI agents (SSA/sonnet/haiku) are
+# dispatch lanes, not node-worker rails -- fail closed with a pointer.
+NODE_ALIASES = {
+    "grok": "grok", "g46": "grok", "sgh": "grok", "gw": "grok",
+    "gem": "gem", "gemini": "gem",
+    "oa": "oa", "oai": "oa", "openai": "oa",
+}
+CLAUDE_CLI_AGENTS = {
+    "ssa": "SSA",
+    "subagent": "SSA",
+    "sonnetsubagent": "SSA",
+    "sonnet": "sonnet",
+    "sonnet5": "sonnet",
+    "haiku": "haiku",
+    "haiku45": "haiku",
+}
+
+
+def canon_node(node: str) -> str:
+    key = str(node or "").strip().lower()
+    if key in CLAUDE_CLI_AGENTS:
+        raise WorkerError(
+            "BAD_NODE",
+            f"{node!r} is a claude-CLI dispatch agent "
+            f"(cosmos_dispatch --agent {CLAUDE_CLI_AGENTS[key]} / "
+            f"cosmos_crit_consumer ssa rail); "
+            f"want grok|gem|oa")
+    if key not in NODE_ALIASES:
+        raise WorkerError("BAD_NODE",
+                          f"unknown node {node!r}; want grok|gem|oa")
+    return NODE_ALIASES[key]
+
+
+def node_spec(node: str) -> dict:
+    return NODES[canon_node(node)]
+
+
+def script_for(spec: dict) -> Path:
+    here = Path(__file__).resolve().parent
+    p = here / spec["script"]
+    return p if p.exists() else Path(__file__).resolve()
+
+
+def _iso_now() -> str:
+    return datetime.now().astimezone().isoformat()
+
+
+def _oneline(s: str, n: int = 140) -> str:
+    s = " ".join(str(s or "").split())
+    return s if len(s) <= n else s[: n - 1] + "…"
+
+
+def _stamp_file() -> str:
+    now = datetime.now().astimezone()
+    return now.strftime("%Y%m%dT%H%M%S") + now.strftime("%z").replace(":", "")
+
+
+def load_config(paths: CosmosPaths) -> dict:
+    cfg = {"interval_s": DEFAULT_INTERVAL_S, "dest": {}}
+    p = paths.config(CONFIG_NAME)
+    if not p.exists():
+        return cfg
+    try:
+        raw = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cfg["_config_error"] = f"unreadable {p}"
+        return cfg
+    if isinstance(raw, dict):
+        if raw.get("interval_s") is not None:
+            try:
+                cfg["interval_s"] = float(raw["interval_s"])
+            except (TypeError, ValueError):
+                pass
+        dest = raw.get("dest")
+        if isinstance(dest, dict):
+            cfg["dest"] = {str(k).upper(): str(v) for k, v in dest.items()}
+    return cfg
+
+
+def pause_flag(paths: CosmosPaths) -> dict | None:
+    """Presence of live/state/control/PAUSE.flag is the whole signal."""
+    p = paths.state("control", "PAUSE.flag")
+    if not p.exists() or not p.is_file():
+        return None
+    rec: dict = {"path": str(p), "state": "PAUSED"}
+    try:
+        raw = p.read_text(encoding="utf-8").strip()
+    except OSError as e:
+        rec["read_error"] = str(e)
+        return rec
+    if raw.startswith("{"):
+        try:
+            obj = json.loads(raw)
+        except ValueError:
+            obj = None
+        if isinstance(obj, dict):
+            rec.update(obj)
+            rec.setdefault("state", "PAUSED")
+            rec["path"] = str(p)
+            return rec
+    rec["reason"] = raw[:240] or "(empty flag file)"
+    return rec
+
+
+def is_paused(paused: dict | None) -> bool:
+    if paused is None:
+        return False
+    return str(paused.get("state") or "PAUSED").upper() != "RUNNING"
+
+
+def bucket_dir(paths: CosmosPaths, node: str) -> Path:
+    """live/buckets/<node> — role('root') so we do not invent a new role."""
+    d = paths.role("root", "buckets", canon_node(node))
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "processed").mkdir(parents=True, exist_ok=True)
+    (d / "failed").mkdir(parents=True, exist_ok=True)
+    return d
+
+
+def v_returns(paths: CosmosPaths, node: str) -> Path:
+    d = paths.role("root", "returns", canon_node(node))
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
+def canon_out(value: str | None, default: str = "V") -> str:
+    raw = str(value or default or "V").strip().upper()
+    raw = raw.replace(":", "").replace("/", "").replace("\\", "")
+    if raw not in DEST_KEYS:
+        raise WorkerError("BAD_OUT",
+                          f"out {value!r} is not V|GDX|ODX")
+    return raw
+
+
+def dest_dir(paths: CosmosPaths, node: str, dest_key: str,
+             cfg: dict | None = None) -> Path:
+    """Resolve the designated folder. V is the COSMOS-native returns role."""
+    key = canon_out(dest_key)
+    node = canon_node(node)
+    if key == "V":
+        return v_returns(paths, node)
+    cfg = cfg or {}
+    override = (cfg.get("dest") or {}).get(key)
+    base = Path(override) if override else DEFAULT_EXT_DEST[key]
+    if not base.exists() or not base.is_dir():
+        raise WorkerError(
+            "NO_DEST",
+            f"{key} dest is missing or not a directory: {base}")
+    d = base / "COSMOS" / "returns" / node
+    try:
+        d.mkdir(parents=True, exist_ok=True)
+    except OSError as e:
+        raise WorkerError("NO_DEST", f"{key} dest unwritable {d}: {e}") from e
+    return d
+
+
+def list_drop_files(bucket: Path) -> list[Path]:
+    files: list[Path] = []
+    if not bucket.exists():
+        return files
+    try:
+        kids = list(bucket.iterdir())
+    except OSError:
+        return files
+    for p in sorted(kids, key=lambda x: x.stat().st_mtime if x.exists() else 0):
+        if not p.is_file():
+            continue
+        if p.name.startswith("_") or p.name.startswith("."):
+            continue
+        if p.suffix.lower() not in DROP_SUFFIXES:
+            continue
+        files.append(p)
+    return files
+
+
+def parse_task(path: Path, default_out: str = "V") -> dict:
+    """One task = a prompt + optional out-destination."""
+    suffix = path.suffix.lower()
+    try:
+        text = path.read_text(encoding="utf-8-sig")
+    except OSError as e:
+        raise WorkerError("BAD_TASK", f"drop unreadable {path}: {e}") from e
+    raw: dict = {}
+    prompt = ""
+    out = default_out
+    task_id = path.stem
+    if suffix == ".json":
+        try:
+            obj = json.loads(text) if text.strip() else {}
+        except ValueError as e:
+            raise WorkerError("BAD_TASK", f"drop is not JSON: {path}: {e}") from e
+        if not isinstance(obj, dict):
+            raise WorkerError("BAD_TASK", f"drop is not a JSON object: {path}")
+        raw = obj
+        prompt = str(obj.get("prompt") or obj.get("task")
+                     or obj.get("assignment") or obj.get("text") or "").strip()
+        if obj.get("out"):
+            out = canon_out(obj.get("out"), default_out)
+        if obj.get("id"):
+            task_id = str(obj["id"]).strip() or task_id
+    else:
+        prompt = text.strip()
+        raw = {"prompt": prompt, "source": "txt"}
+    if not prompt:
+        raise WorkerError("BAD_TASK", f"drop missing prompt: {path}")
+    returns = None
+    if raw.get("returns") or raw.get("result"):
+        returns = str(raw.get("returns") or raw.get("result")).strip() or None
+    kind = str(raw.get("kind") or "").strip().lower() or None
+    agent = str(raw.get("agent") or "").strip() or None
+    return {
+        "prompt": prompt,
+        "out": canon_out(out, default_out),
+        "id": task_id,
+        "raw": raw,
+        "path": str(path),
+        "name": path.name,
+        "returns": returns,
+        "kind": kind,
+        "agent": agent,
+    }
+
+
+def stage_drop(bucket: Path, drop_path: Path, stamp: str,
+               *, failed: bool = False) -> Path:
+    """Move a handled drop into processed/ or failed/. Never delete."""
+    dest_dir_ = bucket / ("failed" if failed else "processed")
+    dest_dir_.mkdir(parents=True, exist_ok=True)
+    dest = dest_dir_ / f"{stamp}_{drop_path.name}"
+    n = 1
+    while dest.exists():
+        n += 1
+        dest = dest_dir_ / f"{stamp}_{n}_{drop_path.name}"
+    try:
+        drop_path.replace(dest)
+        return dest
+    except OSError:
+        shutil.copy2(str(drop_path), str(dest))
+        claimed = drop_path.with_name(drop_path.name + ".claimed")
+        try:
+            drop_path.replace(claimed)
+        except OSError:
+            pass
+        return dest
+
+
+def _open_spend(paths: CosmosPaths, writer: str):
+    """Ledger + spend as THIS worker. Not Kernel() — no BOOT_VERIFIED.
+
+    The ledger's OS lock serializes writers (B1); Core remains the
+    authority, this worker is a fenced client of the same chain.
+    """
+    from cosmos_ledger import Ledger
+    from cosmos_spend import SpendGate
+    keyfile = paths.config("install_key.bin")
+    if not keyfile.exists():
+        raise WorkerError(
+            "NO_KEY",
+            f"no install key at {keyfile} - worker refuses rather than "
+            f"inventing authentication material")
+    key = keyfile.read_bytes()
+    led_path = paths.ledger("authority.jsonl")
+    ledger = Ledger(led_path, key, writer)
+    return ledger, SpendGate(ledger)
+
+
+def execute_via_rail(paths: CosmosPaths, spec: dict, prompt: str,
+                     *, rail_call=None) -> dict:
+    """Spend-gated, ledgered dispatch through the node's COSMOS rails.
+
+    `rail_call` is a test seam (fake incumbent). Live path uses
+    cosmos_node_rails.NodeRail + cosmos_spend.SpendGate and appends
+    RAIL_DISPATCH / RAIL_RESULT like cosmos_rails.Dispatcher.
+    """
+    if rail_call is not None:
+        r = rail_call(prompt)
+        if not isinstance(r, dict):
+            r = {"ok": True, "kind": "API", "text": str(r),
+                 "model": "injected", "usd": None, "link_id": "injected"}
+        r.setdefault("kind", "API")
+        r.setdefault("link_id", "injected")
+        r.setdefault("model", r.get("node") or "injected")
+        return r
+
+    from cosmos_node_rails import NodeRail
+    from cosmos_spend import SpendError
+
+    ledger, spend = _open_spend(paths, spec["worker"])
+    last: dict | None = None
+    for rail in spec["rails"]:
+        lid = rail["link_id"]
+        if lid not in spend.audit()["rails"]:
+            spend.set_budget(lid, rail["budget"])
+        adapter = NodeRail(rail["module"], metered_usd=rail["metered_usd"])
+        ledger.append("RAIL_DISPATCH", {
+            "link_id": lid, "kind": "API",
+            "src": spec["worker"], "dst": "models",
+            "node": spec["id"],
+        })
+        try:
+            result = spend.guarded_call(
+                lid, rail["metered_usd"],
+                lambda a=adapter: a.dispatch({"prompt": prompt}),
+            )
+        except SpendError as e:
+            ledger.append("RAIL_RESULT", {
+                "link_id": lid, "ok": False,
+                "detail": f"spend-gated: {e}",
+            })
+            last = {"ok": False, "kind": "NOT_PERMITTED",
+                    "detail": str(e), "link_id": lid, "model": rail["module"]}
+            continue
+        model = (result.get("model") or result.get("node")
+                 or rail["module"])
+        ledger.append("RAIL_RESULT", {
+            "link_id": lid, "ok": result.get("ok"),
+            "kind": result.get("kind"),
+            "model": model, "usd": result.get("usd"),
+        })
+        bound = dict(result)
+        bound["link_id"] = lid
+        bound["model"] = model
+        if bound.get("ok"):
+            return bound
+        if bound.get("kind") in ("UNREACHABLE", "SESSION_EXPIRED",
+                                 "AUTH_REQUIRED"):
+            ledger.append("RAIL_FALLBACK", {
+                "from": lid, "reason": bound.get("kind"),
+                "detail": "explicit audited fallback to next live link",
+            })
+            last = bound
+            continue
+        return bound
+    return last or {
+        "ok": False, "kind": "NO_LIVE_LINK",
+        "detail": "all candidate rails failed or absent",
+        "link_id": None, "model": None,
+    }
+
+
+def _result_name(task: dict, spec: dict, stamp: str) -> str:
+    safe = "".join(ch if ch.isalnum() or ch in "-_" else "-"
+                   for ch in str(task.get("id") or "task"))[:60] or "task"
+    return f"{spec['id']}_{safe}_{stamp}_result.json"
+
+
+def write_result_files(paths: CosmosPaths, spec: dict, rec: dict,
+                       dest_key: str, cfg: dict) -> dict:
+    """Write DIRECTLY to the designated folder. V is always landed too
+    so a spent rail answer is never stranded on a missing GDX/ODX."""
+    name = rec["result_name"]
+    v_path = v_returns(paths, spec["id"]) / name
+    atomic_json(v_path, rec)
+    rec["v_path"] = str(v_path)
+    rec["result_path"] = str(v_path)
+    rec["out_landed"] = "V"
+    if dest_key == "V":
+        return rec
+    try:
+        d = dest_dir(paths, spec["id"], dest_key, cfg)
+        p = d / name
+        atomic_json(p, rec)
+        rec["dest_path"] = str(p)
+        rec["result_path"] = str(p)
+        rec["out_landed"] = dest_key
+        atomic_json(v_path, rec)  # V copy carries dest_path
+    except WorkerError as e:
+        rec["dest_error"] = str(e)
+        rec["out_landed"] = "V"
+        atomic_json(v_path, rec)
+    except OSError as e:
+        rec["dest_error"] = f"{type(e).__name__}: {e}"
+        rec["out_landed"] = "V"
+        atomic_json(v_path, rec)
+    return rec
+
+
+def register_return(paths: CosmosPaths, spec: dict, rec: dict,
+                    dhx_path: Path | None = None) -> dict:
+    """DHx-log the pickup and register the return with the collector."""
+    stamp = rec.get("pickup_at") or _iso_now()
+    filename = rec.get("drop_name") or rec.get("result_name") or "task"
+    marker = (f"{stamp} · {spec['agent']} · "
+              f"pickup {_oneline(rec.get('prompt') or '')} · "
+              f"buckets/{spec['id']}/{filename}")
+    dhx = Path(dhx_path) if dhx_path is not None else default_dhx(paths)
+    dhx_rec = append_dhx_marker(dhx, marker)
+    rec["dhx_marker"] = marker
+    rec["dhx"] = dhx_rec
+
+    now = time.time()
+    artifact = rec.get("result_path") or rec.get("v_path") or ""
+    try:
+        st = Path(artifact).stat() if artifact else None
+    except OSError:
+        st = None
+    row = {
+        "schema": "cosmos-collector/2",
+        "collected_at": datetime.fromtimestamp(now).astimezone().isoformat(
+            timespec="seconds"),
+        "collected_epoch": int(now),
+        "source": "node_worker_return",
+        "lane": spec["id"],
+        "agent": spec["agent"],
+        "maker": spec["maker"],
+        "app": spec["maker"],
+        "task": rec.get("task_id") or rec.get("result_name") or "",
+        "status": "ok" if rec.get("ok") else "failed",
+        "rc": 0 if rec.get("ok") else 1,
+        "artifact": artifact,
+        "mtime": float(st.st_mtime) if st else now,
+        "mtime_iso": datetime.fromtimestamp(
+            st.st_mtime if st else now).astimezone().isoformat(
+            timespec="seconds"),
+        "summary": _oneline(
+            f"{spec['id']} {rec.get('rail', {}).get('model')} "
+            f"usd={rec.get('rail', {}).get('usd')} "
+            f"{(rec.get('rail') or {}).get('text') or rec.get('error') or ''}"),
+        "bytes": int(st.st_size) if st else 0,
+        "kind": spec["id"],
+        "link_id": (rec.get("rail") or {}).get("link_id"),
+        "model": (rec.get("rail") or {}).get("model"),
+        "usd": (rec.get("rail") or {}).get("usd"),
+        "out": rec.get("out"),
+        "out_landed": rec.get("out_landed"),
+        "result_path": rec.get("result_path"),
+        "v_path": rec.get("v_path"),
+        "stamp": stamp,
+        "worker": spec["worker"],
+    }
+    idx = index_path_for(paths)
+    idx_rec = append_index_row(idx, row, lock_path=index_lock_for(paths))
+    inbox = inbox_dir(paths) / (Path(rec.get("result_name") or "return").stem
+                                + "_return.json")
+    write_inbox_sidecar(inbox, row)
+    rec["collector"] = {
+        "wrote": idx_rec.get("wrote"),
+        "path": idx_rec.get("path"),
+        "inbox": str(inbox),
+    }
+    rec["marker"] = marker
+    return rec
+
+
+def land_critique_return(rec: dict, returns_path: Path | None) -> dict:
+    """Write the critique body to the dispatch packet's designated returns path.
+
+    done = nonempty rail text. rc is recorded, never the predicate.
+    Empty text is FAILED, not a fake-DONE (docs/SCAR_PLACATION.md).
+    A handoff JSON with kind_live=handoff and no body is assignment, not
+    the agent's return — this function is what makes the handoff terminal.
+    """
+    if returns_path is None:
+        return rec
+    dest = Path(str(returns_path).strip())
+    if not str(dest):
+        return rec
+    text = str((rec.get("rail") or {}).get("text") or "")
+    nonempty = bool(text.strip())
+    rec["done"] = nonempty
+    rec["done_why"] = "nonempty_stdout" if nonempty else "empty_stdout"
+    if not nonempty:
+        rec["ok"] = False
+        rec.setdefault("error", rec.get("error") or "EMPTY_OUTPUT")
+    rec["rc"] = 0 if rec.get("ok") and nonempty else 2
+    rec["stdout_tail"] = text[-4000:]
+    rec["model"] = (rec.get("rail") or {}).get("model")
+    rec["status"] = "returned" if rec.get("ok") and nonempty else "failed"
+    rec["worker_result"] = rec.get("v_path") or rec.get("result_path") or str(dest)
+    existing: dict = {}
+    if dest.exists():
+        try:
+            raw = json.loads(dest.read_text(encoding="utf-8"))
+            if isinstance(raw, dict):
+                existing = raw
+        except (OSError, ValueError):
+            existing = {}
+    payload = dict(existing)
+    payload.update({
+        "ok": rec.get("ok"),
+        "done": rec["done"],
+        "done_why": rec["done_why"],
+        "rc": rec["rc"],
+        "status": rec["status"],
+        "kind": rec.get("node") or existing.get("kind"),
+        "agent": rec.get("agent") or existing.get("agent"),
+        "kind_live": existing.get("kind_live") or "handoff",
+        "model": rec.get("model"),
+        "rail": rec.get("rail"),
+        "stdout_tail": rec["stdout_tail"],
+        "worker_result": rec["worker_result"],
+        "worker": rec.get("worker"),
+        "error": rec.get("error"),
+        "secs": rec.get("elapsed_s"),
+        "consumer": rec.get("worker"),
+        "pickup_id": rec.get("pickup_id"),
+    })
+    stdout_path = Path(str(dest) + ".stdout.txt")
+    try:
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        stdout_path.write_text(text, encoding="utf-8")
+        payload["stdout_full"] = str(stdout_path)
+        rec["stdout_full"] = str(stdout_path)
+    except OSError as e:
+        payload["stdout_full_error"] = f"{type(e).__name__}: {e}"
+    atomic_json(dest, payload)
+    rec["returns_path"] = str(dest)
+    rec["returns_landed"] = True
+    return rec
+
+
+def process_drop(paths: CosmosPaths, spec: dict, drop_path: Path,
+                 default_out: str = "V", cfg: dict | None = None,
+                 *, rail_call=None, dhx_path: Path | None = None) -> dict:
+    """Claim, execute via the node's rail, write dest, register."""
+    t0 = time.time()
+    cfg = cfg if cfg is not None else load_config(paths)
+    stamp = _stamp_file()
+    pickup_at = _iso_now()
+    bucket = bucket_dir(paths, spec["id"])
+    try:
+        task = parse_task(drop_path, default_out=default_out)
+    except WorkerError as e:
+        failed = stage_drop(bucket, drop_path, stamp, failed=True)
+        return {"ok": False, "kind": e.kind, "error": str(e),
+                "drop_path": str(drop_path), "processed_drop": str(failed),
+                "elapsed_s": round(time.time() - t0, 3)}
+
+    # CLAIM FIRST so a crash cannot double-spend on retry.
+    claimed = stage_drop(bucket, drop_path, stamp, failed=False)
+    dest_key = task["out"]
+    result_name = _result_name(task, spec, stamp)
+    rec = {
+        "schema": SCHEMA,
+        "ok": False,
+        "node": spec["id"],
+        "worker": spec["worker"],
+        "agent": spec["agent"],
+        "task_id": task["id"],
+        "prompt": task["prompt"],
+        "out": dest_key,
+        "result_name": result_name,
+        "drop_path": str(drop_path),
+        "drop_name": drop_path.name,
+        "processed_drop": str(claimed),
+        "pickup_at": pickup_at,
+        "pickup_id": uuid.uuid4().hex[:12],
+    }
+    rail = execute_via_rail(paths, spec, task["prompt"], rail_call=rail_call)
+    rec["rail"] = {
+        "ok": bool(rail.get("ok")),
+        "kind": rail.get("kind"),
+        "link_id": rail.get("link_id"),
+        "model": rail.get("model") or rail.get("node"),
+        "usd": rail.get("usd"),
+        "text": rail.get("text") or "",
+        "detail": rail.get("detail"),
+        "node": rail.get("node"),
+    }
+    rec["ok"] = bool(rail.get("ok"))
+    if not rec["ok"]:
+        rec["error"] = rail.get("detail") or rail.get("kind") or "RAIL_FAILED"
+    rec["elapsed_s"] = round(time.time() - t0, 3)
+    rec = write_result_files(paths, spec, rec, dest_key, cfg)
+    rec = register_return(paths, spec, rec, dhx_path=dhx_path)
+    if task.get("returns"):
+        rec = land_critique_return(rec, Path(task["returns"]))
+    atomic_json(Path(rec["v_path"]), rec)
+    if rec.get("dest_path") and rec.get("out_landed") != "V":
+        try:
+            atomic_json(Path(rec["dest_path"]), rec)
+        except OSError:
+            pass
+    return rec
+
+
+def execute_handoff(root, node, agent, task, result_path,
+                    *, rail_call=None, timeout_s=1800,
+                    dhx_path=None, returns_path=None) -> dict:
+    """Drop onto live/buckets/<node>, run the node's rail, emit stdout.
+
+    done = non-empty rail text written beside the dispatch result.
+    rc is recorded, never the predicate (empty text + rc=0 was the scar).
+    timeout_s is accepted for the dispatch-job contract; the rail itself
+    is spend-gated, not wall-clocked here.
+    """
+    spec = node_spec(node)
+    try:
+        paths = CosmosPaths(root)
+    except CosmosPathError as e:
+        raise WorkerError("NO_ROOT", str(e)) from e
+    t0 = time.time()
+    stamp = _iso_now()
+    file_stamp = _stamp_file()
+    bucket = bucket_dir(paths, spec["id"])
+    task_id = f"handoff-{file_stamp}"
+    dest = bucket / f"{task_id}.json"
+    dest_result = str(result_path) if result_path else None
+    dest_returns = str(returns_path) if returns_path else dest_result
+    packet = {
+        "agent": agent, "kind": spec["id"],
+        "assignment": task, "prompt": task,
+        "stamp": stamp, "id": task_id, "out": "V",
+        "result": dest_result,
+        "returns": dest_returns,
+    }
+    dest.write_text(json.dumps(packet, indent=1), encoding="utf-8")
+    rec = process_drop(paths, spec, dest, rail_call=rail_call,
+                       dhx_path=dhx_path)
+    text = str((rec.get("rail") or {}).get("text") or "")
+    nonempty = bool(text.strip())
+    stdout_path = rec.get("stdout_full")
+    if dest_result:
+        if not stdout_path:
+            stdout_path = str(dest_result) + ".stdout.txt"
+        try:
+            Path(dest_result).parent.mkdir(parents=True, exist_ok=True)
+            Path(stdout_path).write_text(text, encoding="utf-8")
+        except OSError:
+            stdout_path = rec.get("stdout_full")
+    return {
+        "agent": agent,
+        "kind": spec["id"],
+        "kind_live": "handoff",
+        "ok": bool(rec.get("ok") and nonempty),
+        "done": nonempty,
+        "done_why": ("nonempty_stdout" if nonempty else "empty_stdout"),
+        "rc": 0 if nonempty else 2,
+        "secs": round(time.time() - t0, 1),
+        "stdout_tail": (rec.get("stdout_tail") or text[-4000:]),
+        "stdout_full": stdout_path,
+        "worker_packet": rec.get("processed_drop") or str(dest),
+        "worker_result": rec.get("v_path") or rec.get("result_path"),
+        "rail": rec.get("rail"),
+        "error": rec.get("error") or (None if nonempty else "empty_stdout"),
+        "elapsed_s": rec.get("elapsed_s"),
+        "model": (rec.get("rail") or {}).get("model"),
+        "link_id": (rec.get("rail") or {}).get("link_id"),
+        "status": "returned" if nonempty else "failed",
+        "returns_path": rec.get("returns_path") or dest_returns,
+        "timeout_s": int(timeout_s),
+    }
+
+
+def poll_once(root: str, node: str, polls: int = 0,
+              interval_s: float | None = None, default_out: str = "V",
+              *, drain: bool = True, rail_call=None,
+              dhx_path: Path | None = None) -> dict:
+    """One tick. Heartbeat always. PAUSE + drain=False => pick up NOTHING."""
+    spec = node_spec(node)
+    try:
+        paths = CosmosPaths(root)
+    except CosmosPathError as e:
+        raise WorkerError("NO_ROOT", str(e)) from e
+    cfg = load_config(paths)
+    interval = (interval_s if interval_s is not None
+                else float(cfg.get("interval_s") or DEFAULT_INTERVAL_S))
+    hb_path = paths.logs(spec["heartbeat"])
+    bucket = bucket_dir(paths, spec["id"])
+    paused = pause_flag(paths)
+    extra = {
+        "schema": SCHEMA,
+        "tick": "poll",
+        "state": "RUNNING",
+        "node": spec["id"],
+        "pause_present": paused is not None,
+        "bucket": str(bucket),
+        "out_default": canon_out(default_out),
+        "tree_id": paths.sentinel.tree_id,
+        "no_bts": True,
+    }
+    if is_paused(paused):
+        extra["state"] = "PAUSED"
+        extra["tick"] = "paused"
+        extra["mode"] = str(paused.get("mode") or "hold")
+        extra["auto_resume_at"] = paused.get("auto_resume_at")
+        extra["pause"] = {
+            "reason": paused.get("reason"),
+            "set_by": paused.get("set_by"),
+            "set_at": paused.get("set_at"),
+            "path": paused.get("path"),
+        }
+        if not drain:
+            extra["picked_this_tick"] = 0
+            extra["jobs"] = []
+            hb = write_heartbeat(hb_path, spec["worker"], extra=extra,
+                                 polls=polls, interval_s=interval)
+            extra["ok"] = True
+            extra["heartbeat"] = hb
+            extra["heartbeat_path"] = str(hb_path)
+            return extra
+        extra["tick"] = "once_while_paused"
+
+    jobs = []
+    errors = []
+    if drain:
+        drops = list_drop_files(bucket)
+        extra["drops_seen"] = len(drops)
+        extra["drop_names"] = [p.name for p in drops]
+        # one task per tick — a long rail call must not starve the heartbeat
+        for dp in drops[:1]:
+            try:
+                rec = process_drop(
+                    paths, spec, dp, default_out=default_out, cfg=cfg,
+                    rail_call=rail_call, dhx_path=dhx_path)
+                jobs.append(rec)
+            except WorkerError as e:
+                errors.append({"drop": str(dp), "kind": e.kind, "error": str(e)})
+            except Exception as e:  # noqa: BLE001
+                errors.append({"drop": str(dp),
+                               "kind": type(e).__name__, "error": str(e)})
+    extra["picked_this_tick"] = len(jobs)
+    extra["jobs"] = [{
+        "ok": j.get("ok"),
+        "task_id": j.get("task_id"),
+        "result_path": j.get("result_path"),
+        "v_path": j.get("v_path"),
+        "out": j.get("out"),
+        "out_landed": j.get("out_landed"),
+        "model": (j.get("rail") or {}).get("model"),
+        "link_id": (j.get("rail") or {}).get("link_id"),
+        "usd": (j.get("rail") or {}).get("usd"),
+        "dhx_marker": j.get("dhx_marker"),
+        "error": j.get("error"),
+    } for j in jobs]
+    extra["errors"] = errors
+    extra["tick"] = extra.get("tick") if extra.get("tick") not in (
+        "poll",) else ("drained" if jobs else "idle")
+    extra["ok"] = not errors and all(j.get("ok") for j in jobs) if jobs else (
+        not errors)
+    hb = write_heartbeat(hb_path, spec["worker"], extra=extra,
+                         polls=polls, interval_s=interval)
+    extra["heartbeat"] = hb
+    extra["heartbeat_path"] = str(hb_path)
+    return extra
+
+
+def loop(root: str, node: str, interval_s: float,
+         default_out: str = "V") -> int:
+    spec = node_spec(node)
+    paths = CosmosPaths(root)
+    out_path = paths.logs(f"{spec['id']}_worker.out")
+    err_path = paths.logs(f"{spec['id']}_worker.err")
+    lock_path = paths.logs(spec["lock"])
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    log_fh = open(out_path, "a", encoding="utf-8", buffering=1)
+    sys.stdout = log_fh
+    sys.stderr = log_fh
+    fd = acquire_lock(lock_path)
+    if fd is None:
+        rec = read_heartbeat(paths.logs(spec["heartbeat"]))
+        age = heartbeat_age_s(rec)
+        pid = (rec or {}).get("pid")
+        if age is not None and age < FRESH_S and pid_alive(int(pid or 0)):
+            print(json.dumps({"already_running": True, "pid": pid,
+                              "age_s": round(age, 3),
+                              "node": spec["id"]}), flush=True)
+            return 0
+        print(f"{spec['id']} worker lock held and heartbeat not fresh - refusing",
+              flush=True)
+        return 2
+    polls = 0
+    print(json.dumps({"loop": True, "pid": os.getpid(), "node": spec["id"],
+                      "interval_s": interval_s}, indent=1), flush=True)
+    try:
+        while True:
+            polls += 1
+            paused = pause_flag(paths)
+            drain = not is_paused(paused)
+            try:
+                poll_once(root, spec["id"], polls=polls, interval_s=interval_s,
+                          default_out=default_out, drain=drain)
+            except Exception:
+                import traceback
+                tb = traceback.format_exc()
+                try:
+                    err_path.write_text(tb, encoding="utf-8")
+                except OSError:
+                    pass
+                try:
+                    write_heartbeat(
+                        paths.logs(spec["heartbeat"]), spec["worker"],
+                        extra={"tick": "error", "state": "ERROR",
+                               "error": tb[-500:], "node": spec["id"]},
+                        polls=polls, interval_s=interval_s)
+                except OSError:
+                    pass
+            time.sleep(interval_s)
+    finally:
+        os.close(fd)
+    return 0
+
+
+def standup(root: str, node: str, interval_s: float = DEFAULT_INTERVAL_S,
+            default_out: str = "V") -> dict:
+    spec = node_spec(node)
+    paths = CosmosPaths(root)
+    hb = paths.logs(spec["heartbeat"])
+    t0 = time.time()
+    proof = wait_fresh(hb, timeout_s=1.2, max_age_s=FRESH_S)
+    if proof["ok"]:
+        return {"started": "already", "proof": proof, "keith_cmd": None,
+                "task_name": spec["task_name"], "node": spec["id"]}
+
+    script = script_for(spec)
+    extra = ["--loop"]
+    if default_out and default_out.upper() != "V":
+        extra.extend(["--out", canon_out(default_out)])
+    tr = tr_cmdline(script, root, *extra)
+    minute = create_task(spec["task_name"], tr, "minute", mo=1, run_now=True)
+    logon = create_task(spec["task_logon"], tr, "onlogon")
+    launched_via = None
+    detach = None
+    if minute.get("ok") and minute.get("run_ok"):
+        launched_via = "schtasks"
+        proof = wait_fresh(hb, timeout_s=12.0, min_epoch=t0, max_age_s=FRESH_S)
+    if not proof.get("ok"):
+        argv = [pythonw_exe(), str(script), "--root",
+                str(Path(root).resolve()), "--loop"]
+        if default_out and default_out.upper() != "V":
+            argv.extend(["--out", canon_out(default_out)])
+        detach = spawn_detached(argv, str(script.parent),
+                                paths.logs(f"{spec['id']}_worker.out"))
+        launched_via = detach.get("method") or "detached"
+        expect = detach.get("pid") if isinstance(detach.get("pid"), int) else None
+        proof = wait_fresh(hb, timeout_s=15.0, min_epoch=t0, max_age_s=FRESH_S,
+                           expect_pid=expect)
+
+    keith = []
+    for rec in (minute, logon):
+        if rec.get("keith_cmd") and (rec.get("needs_elevation") or not rec.get("ok")):
+            keith.append(rec["keith_cmd"])
+        h = rec.get("harden") or {}
+        if h.get("keith_cmd") and not h.get("ok"):
+            keith.append(h["keith_cmd"])
+    return {
+        "started": launched_via,
+        "node": spec["id"],
+        "task_minute": minute,
+        "task_logon": logon,
+        "detach": detach,
+        "proof": proof,
+        "heartbeat_path": str(hb),
+        "keith_cmd": " & ".join(keith) if keith else None,
+        "keith_cmds": keith,
+        "task_name": spec["task_name"],
+    }
+
+
+def status_probe(root: str, node: str) -> dict:
+    spec = node_spec(node)
+    paths = CosmosPaths(root)
+    hb = paths.logs(spec["heartbeat"])
+    rec = read_heartbeat(hb)
+    age = heartbeat_age_s(rec)
+    paused = pause_flag(paths)
+    bucket = paths.role("root", "buckets", spec["id"])
+    n = 0
+    if bucket.exists():
+        n = sum(1 for p in bucket.iterdir()
+                if p.is_file() and p.suffix.lower() in DROP_SUFFIXES
+                and not p.name.startswith("_") and not p.name.startswith("."))
+    return {
+        "node": spec["id"],
+        "path": str(hb),
+        "age_s": age,
+        "heartbeat": rec,
+        "pause_present": paused is not None,
+        "pause": paused,
+        "bucket": str(bucket),
+        "drops_waiting": n,
+        "task": query_task(spec["task_name"]),
+        "fresh": age is not None and age < FRESH_S,
+    }
+
+
+def build_parser(prog: str | None = None) -> argparse.ArgumentParser:
+    ap = argparse.ArgumentParser(prog=prog or "cosmos_node_worker")
+    ap.add_argument("--root", required=True)
+    ap.add_argument("--node", choices=sorted(NODES), default=None)
+    ap.add_argument("--loop", action="store_true")
+    ap.add_argument("--once", action="store_true")
+    ap.add_argument("--standup", action="store_true")
+    ap.add_argument("--status", action="store_true")
+    ap.add_argument("--out", default="V", help="V (default, BEST) | GDX | ODX")
+    ap.add_argument("--interval", type=float, default=DEFAULT_INTERVAL_S)
+    return ap
+
+
+def run_cli(argv: list[str] | None = None, *, node: str | None = None) -> int:
+    ap = build_parser("cosmos_grok_worker" if node == "grok"
+                      else ("cosmos_gem_worker" if node == "gem"
+                            else ("cosmos_oa_worker" if node == "oa"
+                                  else "cosmos_node_worker")))
+    a = ap.parse_args(argv)
+    chosen = node or a.node
+    if not chosen:
+        ap.error("--node grok|gem|oa is required (or use cosmos_grok_worker / "
+                 "cosmos_gem_worker / cosmos_oa_worker)")
+    spec = node_spec(chosen)
+    default_out = canon_out(a.out)
+    if a.status:
+        rec = status_probe(a.root, spec["id"])
+        print(json.dumps(rec, indent=1, default=str))
+        return 0 if rec.get("fresh") else 2
+    if a.standup:
+        r = standup(a.root, spec["id"], a.interval, default_out=default_out)
+        print(json.dumps(r, indent=1, default=str))
+        return 0 if (r.get("proof") or {}).get("ok") else 2
+    if a.once:
+        # Commanded drain: Keith/COW explicit --once, even while PAUSE is up.
+        # The --loop vehicle idles on PAUSE (pick up NOTHING).
+        r = poll_once(a.root, spec["id"], interval_s=a.interval,
+                      default_out=default_out, drain=True)
+        out = {k: r[k] for k in r if k != "heartbeat"}
+        print(json.dumps(out, indent=1, default=str))
+        return 0 if r.get("ok") else 2
+    if a.loop or True:
+        return loop(a.root, spec["id"], a.interval, default_out=default_out)
+
+
+def main() -> int:
+    return run_cli()
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except CosmosPathError as e:
+        print(e, file=sys.stderr)
+        raise SystemExit(2)
+    except WorkerError as e:
+        print(json.dumps({"ok": False, "kind": e.kind, "error": str(e)},
+                         indent=1))
+        raise SystemExit(2)
+<<<FILE_END>>>
+
+<<<FILE path=cosmos/cosmos_oa_worker.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""cosmos_oa_worker - OA's own Windows-native bucket worker.
+
+Thin wrapper around cosmos_node_worker. Polls live/buckets/oa/, executes
+via the oa COSMOS rail (spend-gated, ledgered), writes the result
+DIRECTLY to the designated folder (V default/BEST, or GDX/ODX).
+
+    py -3.14 cosmos\\cosmos_oa_worker.py --root V:\\A\\Ai\\COSMOS\\live --once
+    py -3.14 cosmos\\cosmos_oa_worker.py --root ... --loop
+    py -3.14 cosmos\\cosmos_oa_worker.py --root ... --standup
+    py -3.14 cosmos\\cosmos_oa_worker.py --root ... --status
+
+Task name: 'COSMOS OA Worker'. Heartbeat: live/logs/oa_worker_heartbeat.json.
+NO BTS. Does not modify kernel/ledger/sched/service.
+"""
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from cosmos_node_worker import WorkerError, run_cli  # noqa: E402
+from cosmos_paths import CosmosPathError  # noqa: E402
+
+
+def main() -> int:
+    return run_cli(node="oa")
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except CosmosPathError as e:
+        print(e, file=sys.stderr)
+        raise SystemExit(2)
+    except WorkerError as e:
+        import json
+        print(json.dumps({"ok": False, "kind": e.kind, "error": str(e)},
+                         indent=1))
+        raise SystemExit(2)
+<<<FILE_END>>>
+
+<<<FILE path=tests/test_dispatch.py action=replace>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Selftest: cosmos_dispatch harness. Isolated from the live BTS queue and live DHx.
+
+Proves: least-loaded lane pick; proven grok/cursor/claude argv in the job file;
+DHx marker auto-stamped from datetime.now().astimezone().isoformat() (not a
+hand-typed time); collector assignment row; idempotent filename + no double stamp.
+Does not invoke grok/cursor/claude and does not write V:\\Ai\\_queue.
+"""
+from __future__ import annotations
+
+import json
+import os
+import sys
+import tempfile
+import time
+from datetime import datetime
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+BUNDLE = HERE.parent
+LIVE_COSMOS = Path(r"V:\A\Ai\COSMOS\cosmos")
+# Live helpers (kernel/paths) then THIS bundle's dispatch/node_worker first.
+if LIVE_COSMOS.exists():
+    sys.path.insert(0, str(LIVE_COSMOS))
+sys.path.insert(0, str(BUNDLE / "cosmos"))
+sys.path.insert(0, str(HERE))
+
+from cosmos_kernel import install
+from cosmos_dispatch import (
+    DEFAULT_MODEL, GROK_MAX_TURNS, GROK_TIMEOUT_S, CLAUDE_MODEL,
+    SONNET_MODEL, HAIKU_MODEL,
+    CURSOR_BASE, CODING_DEFAULT_AGENT, RESEARCH_DEFAULT_AGENT,
+    DispatchError, assert_not_live_workspace, collect_workspace_proposal,
+    dispatch, infer_kind, infer_task_class, infer_default_agent,
+    job_filename, job_status, measure_lanes, pick_least_loaded,
+    prepare_grok_workspace, returns_dir,
+    worker_bucket_dir, worker_compat_dir,
+)
+from cosmos_node_worker import execute_handoff
+from cosmos_paths import CosmosPaths
+
+RESULTS = []
+
+
+def check(label, fn):
+    try:
+        RESULTS.append((label, bool(fn()), ""))
+    except Exception as e:                                            # noqa: BLE001
+        RESULTS.append((label, False, f"{type(e).__name__}: {e}"))
+
+
+def _write(p: Path, text: str) -> None:
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(text, encoding="utf-8")
+
+
+def _setup():
+    td = Path(tempfile.mkdtemp(prefix="cosmos_dispatch_"))
+    root = install(td / "live", tree_id="spike-dispatch")
+    queue = td / "queue"
+    for lane, extra in (("root", queue),
+                        ("lg", queue / "_lanes" / "lg"),
+                        ("pb", queue / "_lanes" / "pb")):
+        extra.mkdir(parents=True, exist_ok=True)
+        (extra / "running").mkdir(parents=True, exist_ok=True)
+        (extra / "done").mkdir(parents=True, exist_ok=True)
+    dhx = td / "docs" / "AGENT_BRIEF.md"
+    _write(dhx, (
+        "# DHx — the DHot box (AGENT BRIEF).\n\n"
+        "## Assignment log — APPEND-ONLY markers\n"
+        "- 2026-08-25T~20:39-05 · G46 · preexisting · root/old\n\n"
+        "## Active assignments\n"
+        "- something live\n"
+    ))
+    cwd = td / "workdir"
+    cwd.mkdir()
+    return td, root, queue, dhx, cwd
+
+
+def main() -> int:
+    td, root, queue, dhx, cwd = _setup()
+
+    # ---- load accounting (bts_runner semantics) ----
+    _write(queue / "heavy_root__t60.py", "print(1)\n")
+    _write(queue / "running" / "run_root.py", "print(1)\n")
+    _write(queue / "_lanes" / "lg" / "lg_q1__t60.py", "print(1)\n")
+    _write(queue / "_lanes" / "lg" / "lg_q2__t60.py", "print(1)\n")
+    _write(queue / "_lanes" / "lg" / "running" / "lg_run.py", "print(1)\n")
+    # pb empty -> least loaded
+    loads = measure_lanes(queue)
+    check("root load is queued+running (2)",
+          lambda: loads["root"]["load"] == 2)
+    check("lg load is 3", lambda: loads["lg"]["load"] == 3)
+    check("pb load is 0", lambda: loads["pb"]["load"] == 0)
+    check("pick_least_loaded prefers pb (empty)",
+          lambda: pick_least_loaded(queue) == "pb")
+    _write(queue / "_lanes" / "pb" / "_helper.py", "x\n")
+    check("_-prefixed files are not counted as jobs",
+          lambda: measure_lanes(queue)["pb"]["load"] == 0)
+
+    t_before = datetime.now().astimezone()
+    rec = dispatch(
+        "G46", "Reply with the single word PONG. Do not edit files.",
+        str(cwd), kind="grok", queue=queue, runtime_root=root, dhx=dhx,
+    )
+    t_after = datetime.now().astimezone()
+
+    check("dispatch ok", lambda: rec["ok"] is True)
+    check("created the job file", lambda: rec["created"] is True)
+    check("least-loaded lane was pb", lambda: rec["lane"] == "pb")
+    job = Path(rec["job_path"])
+    check("job file exists in pb lane root",
+          lambda: job.exists() and job.parent == queue / "_lanes" / "pb")
+    src = job.read_text(encoding="utf-8")
+    check("grok job uses --single", lambda: '"--single"' in src)
+    check("grok job uses proven --output-format plain",
+          lambda: '"--output-format", "plain"' in src)
+    check("grok job uses --always-approve",
+          lambda: '"--always-approve"' in src)
+    check("grok job uses proven --max-turns 60",
+          lambda: f'"--max-turns", "{GROK_MAX_TURNS}"' in src)
+    check("grok job uses --cwd", lambda: '"--cwd"' in src)
+    check("grok job prepares attempt-private workspace (P10)",
+          lambda: "prepare_grok_workspace" in src
+          and "workspace_policy" in src
+          and "fenced_commit" in src)
+    check("grok job --cwd is the clone CWD, not baked live SOURCE",
+          lambda: '"--cwd", CWD' in src and "SOURCE =" in src
+          and "CWD = str(ws)" in src)
+    check("grok job never falls back to live SOURCE as cwd",
+          lambda: "NEVER fall back to SOURCE" in src
+          and "cwd=CWD" in src)
+    check("grok job uses default model grok-4.6",
+          lambda: DEFAULT_MODEL in src)
+    check("dispatch reports attempt-private workspace policy",
+          lambda: rec.get("workspace_policy") == "attempt-private")
+    check("grok job files stream/folder/returns",
+          lambda: "RETURNS = Path(" in src and "returns" in src)
+    check("dispatch reports returns_path under lane/returns",
+          lambda: Path(rec["returns_path"]).parent == returns_dir(
+              queue / "_lanes" / "pb"))
+    st0 = rec["status"]
+    check("dispatch status is queued (job sitting in lane root)",
+          lambda: st0["state"] == "queued" and st0["lane"] == "pb")
+    check("job filename is not helper-prefixed",
+          lambda: not rec["job_file"].startswith("_"))
+    check("job filename is idempotent for same inputs",
+          lambda: rec["job_file"] == job_filename(
+              "G46", "grok",
+              "Reply with the single word PONG. Do not edit files.",
+              str(Path(cwd).resolve()), rec["timeout_s"]))
+
+    # DHx auto-stamp
+    dhx_text = dhx.read_text(encoding="utf-8")
+    check("DHx contains the auto-stamped marker",
+          lambda: rec["marker"] in dhx_text)
+    check("DHx marker lives in the Assignment log (before Active assignments)",
+          lambda: dhx_text.find(rec["marker"]) < dhx_text.find("## Active assignments"))
+    check("stamp is ISO with offset (not a hand-typed ~ time)",
+          lambda: "T" in rec["stamp"] and rec["stamp"][-6] in "+-"
+          and "~" not in rec["stamp"])
+    check("stamp parses as aware datetime in the call window",
+          lambda: (lambda s: (
+              t_before <= datetime.fromisoformat(s) <= t_after
+          ))(rec["stamp"]))
+    check("marker format is iso · agent · task · lane/file (protocol grammar)",
+          lambda: rec["marker"].startswith(rec["stamp"] + " · G46 · ")
+          and rec["marker"].endswith(f"pb/{rec['job_file']}"))
+    check("grok kind_live is proven", lambda: rec.get("kind_live") == "proven")
+
+    # collector row
+    idx = Path(rec["index"])
+    rows = [json.loads(ln) for ln in idx.read_text(encoding="utf-8").splitlines()
+            if ln.strip()]
+    check("collector index has one assignment row", lambda: len(rows) == 1)
+    check("assignment source is dispatch_assignment",
+          lambda: rows[0]["source"] == "dispatch_assignment")
+    check("assignment status is assigned", lambda: rows[0]["status"] == "assigned")
+    check("assignment artifact is the job path",
+          lambda: rows[0]["artifact"] == rec["job_path"])
+    check("assignment agent is G46", lambda: rows[0]["agent"] == "G46")
+    check("assignment schema is cosmos-collector/2",
+          lambda: rows[0]["schema"] == "cosmos-collector/2")
+    check("assignment row carries returns_path",
+          lambda: rows[0].get("returns_path") == rec["returns_path"])
+
+    # idempotent retry
+    rec2 = dispatch(
+        "G46", "Reply with the single word PONG. Do not edit files.",
+        str(cwd), kind="grok", queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("second dispatch is idempotent (not created)",
+          lambda: rec2["idempotent"] is True and rec2["created"] is False)
+    check("second dispatch reuses the same job path",
+          lambda: rec2["job_path"] == rec["job_path"])
+    dhx2 = dhx.read_text(encoding="utf-8")
+    check("second dispatch does not double-stamp DHx",
+          lambda: dhx2.count(rec["job_file"]) == 1)
+    rows2 = [json.loads(ln) for ln in idx.read_text(encoding="utf-8").splitlines()
+             if ln.strip()]
+    check("second dispatch does not double-write the index",
+          lambda: len(rows2) == 1)
+
+    # explicit lane override
+    rec3 = dispatch(
+        "G46", "a different task for lane override",
+        str(cwd), kind="grok", lane="lg", queue=queue, runtime_root=root,
+        dhx=dhx,
+    )
+    check("explicit --lane lg is honored", lambda: rec3["lane"] == "lg")
+    check("lg job landed in _lanes/lg",
+          lambda: Path(rec3["job_path"]).parent == queue / "_lanes" / "lg")
+
+    # cursor job (needs a key file; dummy, never sent)
+    keyp = root / "config" / "cursor_cosmos_key.txt"
+    _write(keyp, "crsr_" + ("ab" * 32) + "31ab")
+    rec_c = dispatch(
+        "Cursor", "Append one line to docs/CURSOR_HARNESS.md and stop.",
+        str(cwd), kind="cursor", queue=queue, runtime_root=root, dhx=dhx,
+    )
+    csrc = Path(rec_c["job_path"]).read_text(encoding="utf-8")
+    check("cursor job POSTs /v1/agents", lambda: '"/v1/agents"' in csrc)
+    check("cursor job uses Cloud Agents base", lambda: CURSOR_BASE in csrc)
+    check("cursor job reads the key path, does not bake the secret",
+          lambda: "cursor_cosmos_key.txt" in csrc
+          and "crsr_" not in csrc)
+    check("cursor job polls /v1/agents/{id}/runs/{runId}",
+          lambda: "/runs/" in csrc and "FINISHED" in csrc)
+    check("cursor job uses Basic auth (key:)",
+          lambda: "Basic " in csrc and 'key + ":"' in csrc)
+    check("cursor kind_live is UNPROVEN",
+          lambda: rec_c.get("kind_live") == "UNPROVEN")
+    check("cursor job does not take the grok private-clone path",
+          lambda: "prepare_grok_workspace" not in csrc)
+    check("cursor workspace_policy is not grok-private",
+          lambda: rec_c.get("workspace_policy") in (None, ""))
+
+    # claude/F5
+    rec_f = dispatch(
+        "F5", "Reply PONG. Do not edit files.",
+        str(cwd), kind="F5", queue=queue, runtime_root=root, dhx=dhx,
+    )
+    fsrc = Path(rec_f["job_path"]).read_text(encoding="utf-8")
+    check("F5 kind canonicalizes to claude", lambda: rec_f["kind"] == "claude")
+    check("claude job uses -p", lambda: '"-p"' in fsrc)
+    check("claude job uses claude-fable-5", lambda: CLAUDE_MODEL in fsrc)
+    check("claude job uses --permission-mode dontAsk",
+          lambda: '"--permission-mode", "dontAsk"' in fsrc)
+    check("claude job uses --add-dir", lambda: '"--add-dir"' in fsrc)
+    check("claude/F5 kind_live is UNPROVEN",
+          lambda: rec_f.get("kind_live") == "UNPROVEN")
+    check("claude job does not take the grok private-clone path",
+          lambda: "prepare_grok_workspace" not in fsrc)
+    check("claude workspace_policy is not grok-private",
+          lambda: rec_f.get("workspace_policy") in (None, ""))
+
+    rec_s = dispatch(
+        "sonnet", "RESEARCH the reachable Claude tiers. Do not edit files.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    ssrc = Path(rec_s["job_path"]).read_text(encoding="utf-8")
+    check("sonnet kind stays sonnet", lambda: rec_s["kind"] == "sonnet")
+    check("sonnet job uses --model sonnet",
+          lambda: SONNET_MODEL in ssrc and '"--model"' in ssrc)
+    check("sonnet job is claude CLI not grok",
+          lambda: '"claude"' in ssrc and "--single" not in ssrc)
+    check("sonnet job uses dontAsk + add-dir (F5 template)",
+          lambda: '"--permission-mode", "dontAsk"' in ssrc
+          and '"--add-dir"' in ssrc)
+    check("sonnet kind_live is UNPROVEN",
+          lambda: rec_s.get("kind_live") == "UNPROVEN")
+    check("sonnet reported model is sonnet not grok-4.6",
+          lambda: rec_s.get("model") == SONNET_MODEL)
+
+    rec_h = dispatch(
+        "haiku", "Summarize the DHx standing rules. Do not edit files.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    hsrc = Path(rec_h["job_path"]).read_text(encoding="utf-8")
+    check("haiku kind stays haiku", lambda: rec_h["kind"] == "haiku")
+    check("haiku job uses --model haiku", lambda: HAIKU_MODEL in hsrc)
+    check("haiku reported model is haiku",
+          lambda: rec_h.get("model") == HAIKU_MODEL)
+
+    rec_ssa = dispatch(
+        "SSA", "Vet the dispatch alias table. Do not edit files.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    zsrc = Path(rec_ssa["job_path"]).read_text(encoding="utf-8")
+    check("SSA kind stays ssa (first-class, not remapped to claude)",
+          lambda: rec_ssa["kind"] == "ssa")
+    check("SSA job shells claude -p --model sonnet",
+          lambda: '"claude"' in zsrc and SONNET_MODEL in zsrc
+          and '"-p"' in zsrc)
+    check("SSA is not a worker-bucket handoff",
+          lambda: "handoff_" not in zsrc and "WORKER_DIR" not in zsrc)
+    check("SSA reported model is sonnet",
+          lambda: rec_ssa.get("model") == SONNET_MODEL)
+    check("SSA kind_live is UNPROVEN (wired CLI, not handoff)",
+          lambda: rec_ssa.get("kind_live") == "UNPROVEN")
+    rec_omit = dispatch(
+        "", "RESEARCH how the collector indexes returns.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("omitted agent on research task defaults to SSA",
+          lambda: rec_omit["agent"] == "SSA" and rec_omit["kind"] == "ssa"
+          and rec_omit.get("model") == SONNET_MODEL)
+    rec_omit_c = dispatch(
+        "", "implement a py_compile gate for dispatch.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("omitted agent on coding task defaults to G46/grok",
+          lambda: rec_omit_c["agent"] == "G46" and rec_omit_c["kind"] == "grok"
+          and rec_omit_c.get("model") == DEFAULT_MODEL)
+
+    # auto-route by agent TYPE (kind omitted)
+    rec_auto = dispatch(
+        "G46", "auto-route grok from G46 type",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("G46 without kind infers grok",
+          lambda: rec_auto["kind"] == "grok" and rec_auto["kind_inferred"] is True)
+    check("infer_kind(G46) is grok", lambda: infer_kind("G46") == "grok")
+    check("infer_kind(Cursor) is cursor", lambda: infer_kind("Cursor") == "cursor")
+    check("infer_kind(F5) is claude", lambda: infer_kind("F5") == "claude")
+    check("infer_kind(GW) is grok", lambda: infer_kind("GW") == "grok")
+    check("infer_kind(SGH) is grok", lambda: infer_kind("SGH") == "grok")
+    check("infer_kind(GEM) is gem", lambda: infer_kind("GEM") == "gem")
+    check("infer_kind(OAi) is oa", lambda: infer_kind("OAi") == "oa")
+    check("infer_kind(SSA) is ssa", lambda: infer_kind("SSA") == "ssa")
+    check("infer_kind(sonnet) is sonnet", lambda: infer_kind("sonnet") == "sonnet")
+    check("infer_kind(haiku) is haiku", lambda: infer_kind("haiku") == "haiku")
+    check("infer_kind(Sonnet SubAgent) is ssa",
+          lambda: infer_kind("Sonnet SubAgent") == "ssa")
+    check("coding default agent is G46",
+          lambda: infer_default_agent("implement the runner pool") == "G46"
+          and infer_task_class("implement the runner pool") == "coding"
+          and CODING_DEFAULT_AGENT == "G46")
+    check("research default agent is SSA",
+          lambda: infer_default_agent("RESEARCH present-day model access") == "SSA"
+          and infer_task_class("RESEARCH present-day model access") == "research"
+          and RESEARCH_DEFAULT_AGENT == "SSA")
+    check("coding wins over research tokens (never Sonnet)",
+          lambda: infer_default_agent(
+              "implement the research collector") == "G46")
+    check("ambiguous task stays coding/Grok",
+          lambda: infer_default_agent("Reply with the single word PONG.") == "G46")
+    rec_auto_c = dispatch(
+        "Cursor", "auto-route cursor from Cursor type",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("Cursor without kind infers cursor",
+          lambda: rec_auto_c["kind"] == "cursor" and rec_auto_c["kind_inferred"] is True)
+    rec_auto_f = dispatch(
+        "F5", "auto-route claude from F5 type",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("F5 without kind infers claude",
+          lambda: rec_auto_f["kind"] == "claude")
+
+    # monitor: move the auto grok job into running/ and read status
+    auto_job = Path(rec_auto["job_path"])
+    running = auto_job.parent / "running" / auto_job.name
+    auto_job.replace(running)
+    st_run = job_status(auto_job.name, queue=queue, runtime_root=root)
+    check("job_status sees running after move into running/",
+          lambda: st_run["state"] == "running")
+    done = auto_job.parent / "done" / auto_job.name
+    running.replace(done)
+    st_done = job_status(auto_job.name, queue=queue, runtime_root=root)
+    check("job_status sees done after move into done/",
+          lambda: st_done["state"] == "done" and st_done["terminal"] is True)
+
+    # refusals
+    check("empty task is BAD_INPUT",
+          lambda: _raises_kind("BAD_INPUT",
+                               lambda: dispatch("G46", "  ", str(cwd),
+                                                queue=queue, runtime_root=root,
+                                                dhx=dhx)))
+    check("missing dir is NO_DIR",
+          lambda: _raises_kind("NO_DIR",
+                               lambda: dispatch("G46", "x", str(cwd / "nope"),
+                                                queue=queue, runtime_root=root,
+                                                dhx=dhx)))
+    check("unknown kind is BAD_INPUT",
+          lambda: _raises_kind("BAD_INPUT",
+                               lambda: dispatch("G46", "x", str(cwd),
+                                                kind="nope", queue=queue,
+                                                runtime_root=root, dhx=dhx)))
+    check("unknown agent type without kind is BAD_INPUT",
+          lambda: _raises_kind("BAD_INPUT",
+                               lambda: dispatch("NotAMaker", "x", str(cwd),
+                                                queue=queue, runtime_root=root,
+                                                dhx=dhx)))
+    check("unknown lane is NO_LANE",
+          lambda: _raises_kind("NO_LANE",
+                               lambda: dispatch("G46", "x", str(cwd),
+                                                lane="zz", queue=queue,
+                                                runtime_root=root, dhx=dhx)))
+    check("missing queue is NO_QUEUE",
+          lambda: _raises_kind("NO_QUEUE",
+                               lambda: dispatch("G46", "x", str(cwd),
+                                                queue=str(td / "no_such_queue"),
+                                                runtime_root=root, dhx=dhx)))
+
+    # ---- HIGH/MED additive: default dir, native queue, leftover result, no drive literal
+    rec_dd = dispatch(
+        "G46", "default dir from install repo tree",
+        queue=queue, runtime_root=root, dhx=dhx,
+    )
+    check("omitted --dir defaults to repo tree (parent of live)",
+          lambda: Path(rec_dd["target_dir"]) == td)
+    check("grok except path sets rc=2 (L1)",
+          lambda: 'out["rc"] = 2' in src)
+
+    leftover = Path(rec["result_path"])
+    _write(leftover, json.dumps({"rc": 0, "leftover": True}))
+    os.utime(leftover, (time.time() - 3600, time.time() - 3600))
+    st_stale = job_status(rec["job_file"], queue=queue, runtime_root=root)
+    check("M5 leftover older result is not terminal while queued",
+          lambda: st_stale["terminal"] is False and st_stale["state"] == "queued")
+    leftover.unlink()
+
+    rec_n = dispatch(
+        "G46", "native queue identity gate",
+        str(cwd), runtime_root=root, dhx=dhx,
+    )
+    man = root / "queue" / "manifests" / (str(rec_n.get("native_job_id")) + ".json")
+    check("native default queue is the resolver queue role",
+          lambda: rec_n.get("queue_identity") == "native"
+          and Path(rec_n["queue"]) == root / "queue")
+    check("native dispatch submitted an immutable manifest",
+          lambda: rec_n.get("native_job_id") and man.exists())
+    check("native job script sits under tools/dispatch_jobs (runner confine)",
+          lambda: Path(rec_n["job_path"]).parent == root / "cosmos" / "dispatch_jobs")
+    check("native returns path is queue/returns/<stream>/ (R9 locked)",
+          lambda: Path(rec_n["returns_path"]).parent == root / "queue" / "returns" / "cm")
+    check("native marker uses protocol · grammar",
+          lambda: " · " in rec_n["marker"] and rec_n["marker"].endswith(
+              f"cm/{rec_n['job_file']}"))
+    check("native job path is under this install, not a foreign queue",
+          lambda: str(Path(rec_n["job_path"]).resolve()).startswith(
+              str(root.resolve())))
+
+    mod = Path(__file__).resolve().parent.parent / "cosmos" / "cosmos_dispatch.py"
+    src_mod = mod.read_text(encoding="utf-8")
+    check("module has no BTS drive-literal default (H1)",
+          lambda: "V:\\Ai\\_queue" not in src_mod and "V:/Ai/_queue" not in src_mod)
+
+    # ---- P10: grok attempt-private workspace (does not invoke grok) ----
+    def _raises_refused(fn) -> bool:
+        try:
+            fn()
+        except DispatchError as e:
+            return e.kind == "REFUSED"
+        return False
+
+    check("assert_not_live refuses the source repo tree",
+          lambda: _raises_refused(
+              lambda: assert_not_live_workspace(
+                  td, live_root=root, source_tree=td)))
+    check("assert_not_live refuses live/state (runtime root outside work/)",
+          lambda: _raises_refused(
+              lambda: assert_not_live_workspace(
+                  root / "state", live_root=root, source_tree=td)))
+    allowed_ws = root / "work" / "grok" / "unit" / "clone"
+    allowed_ws.mkdir(parents=True, exist_ok=True)
+    check("assert_not_live allows live/work/grok/<attempt>/clone",
+          lambda: assert_not_live_workspace(
+              allowed_ws, live_root=root, source_tree=td) is None)
+
+    ws1, crec = prepare_grok_workspace(
+        cwd, live_root=root, attempt_id="unit-pong")
+    check("prepare_grok_workspace ok", lambda: crec.get("ok") is True)
+    check("prepare workspace is under live/work/grok",
+          lambda: "work" in Path(ws1).parts and "grok" in Path(ws1).parts
+          and str(Path(ws1).resolve()).startswith(str(Path(root).resolve())))
+    check("prepare workspace is not the source dir",
+          lambda: Path(ws1).resolve() != Path(cwd).resolve())
+    check("prepare workspace is not the repo tree",
+          lambda: Path(ws1).resolve() != Path(td).resolve())
+
+    check("REFUSED rather than clone the live runtime root as source",
+          lambda: _raises_refused(
+              lambda: prepare_grok_workspace(
+                  root, live_root=root, attempt_id="unit-live-src")))
+
+    # tiny git repo: coder writes a file; proposal surfaces the diff
+    grepo = td / "mini_repo"
+    grepo.mkdir()
+    _write(grepo / "hello.txt", "one\n")
+    git_ok = False
+    git_err = ""
+    try:
+        import subprocess as _sp_git
+        _sp_git.run(["git", "init"], cwd=str(grepo), check=True,
+                    capture_output=True, timeout=30)
+        _sp_git.run(["git", "add", "hello.txt"], cwd=str(grepo), check=True,
+                    capture_output=True, timeout=30)
+        _sp_git.run(
+            ["git", "-c", "user.email=c@c", "-c", "user.name=c",
+             "-c", "commit.gpgsign=false", "commit", "-m", "t"],
+            cwd=str(grepo), check=True, capture_output=True, timeout=30)
+        git_ok = True
+    except Exception as e:  # noqa: BLE001
+        git_err = f"{type(e).__name__}: {e}"
+    if not git_ok:
+        RESULTS.append(("git available for proposal test", False, git_err))
+    else:
+        RESULTS.append(("git available for proposal test", True, ""))
+    if git_ok:
+        ws2, _crec2 = prepare_grok_workspace(
+            grepo, live_root=root, attempt_id="unit-prop")
+        _write(Path(ws2) / "hello.txt", "two\n")
+        _write(Path(ws2) / "new.py", "x = 1\n")
+        prop = collect_workspace_proposal(ws2)
+        check("proposal how is git", lambda: prop.get("how") == "git")
+        check("proposal lists the edited file",
+              lambda: any("hello.txt" in c for c in (prop.get("changed") or [])))
+        check("proposal diff is non-empty",
+              lambda: bool((prop.get("diff") or "").strip())
+              and "hello.txt" in (prop.get("diff") or ""))
+        check("proposal gateway is fenced_commit",
+              lambda: prop.get("gateway") == "fenced_commit")
+
+    # HIGH (critique-rail): gem/oa identity is live/buckets/<node>, timeout
+    # is model-length, and the job SOURCE calls execute_handoff (spawn the
+    # rail) rather than packet-and-exit SystemExit(0). The prior
+    # diff_tests.patch hunk header was corrupt; these asserts are the
+    # full-file re-emit. Isolated execute_handoff uses a fake rail — no
+    # live spend.
+    rec_gem = dispatch(
+        "GEM", "Reply with the single word PONG. Do not edit files.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    gsrc = Path(rec_gem["job_path"]).read_text(encoding="utf-8")
+    paths_live = CosmosPaths(root)
+    check("GEM kind is gem", lambda: rec_gem["kind"] == "gem")
+    check("GEM timeout is model-length not 120s stub",
+          lambda: rec_gem["timeout_s"] == GROK_TIMEOUT_S)
+    check("GEM worker_bucket is resolver live/buckets/gem",
+          lambda: rec_gem.get("worker_bucket") == str(worker_bucket_dir(paths_live, "gem"))
+          and Path(rec_gem["worker_bucket"]).as_posix().endswith("buckets/gem"))
+    check("GEM compat copy path is state/dispatch/workers/gem (kept)",
+          lambda: rec_gem.get("worker_compat") == str(worker_compat_dir(paths_live, "gem")))
+    check("GEM job calls execute_handoff (not packet-and-exit)",
+          lambda: "execute_handoff" in gsrc
+          and "raise SystemExit(0 if out.get(\"done\") else 2)" in gsrc)
+    check("GEM job does not fake-DONE on packet write",
+          lambda: "kind_live\": \"handoff\"" in gsrc
+          and "worker_packet" not in gsrc.split("execute_handoff")[0])
+    rec_oa = dispatch(
+        "OAi", "Reply with the single word PONG. Do not edit files.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx,
+    )
+    osrc = Path(rec_oa["job_path"]).read_text(encoding="utf-8")
+    check("OA kind is oa", lambda: rec_oa["kind"] == "oa")
+    check("OA timeout is model-length",
+          lambda: rec_oa["timeout_s"] == GROK_TIMEOUT_S)
+    check("OA job calls execute_handoff",
+          lambda: "execute_handoff" in osrc
+          and "raise SystemExit(0 if out.get(\"done\") else 2)" in osrc)
+    check("OAi worker_bucket is live/buckets/oa",
+          lambda: Path(rec_oa["worker_bucket"]).as_posix().endswith("buckets/oa"))
+
+    def _fake_gem(prompt: str) -> dict:
+        return {"ok": True, "kind": "API", "text": "PONG",
+                "usd": 0.01, "node": "fake_gem", "model": "fake-gemini",
+                "link_id": "gem-api"}
+
+    def _fake_oa(prompt: str) -> dict:
+        return {"ok": True, "kind": "API", "text": "PONG-OA",
+                "usd": 0.01, "node": "fake_oa", "model": "fake-oa",
+                "link_id": "oa-api"}
+
+    gem_result = paths_live.root / "queue" / "returns" / "cm" / "gem_handoff_result.json"
+    grec2 = execute_handoff(
+        str(root), "gem", "GEM", "Reply PONG.", str(gem_result),
+        rail_call=_fake_gem, dhx_path=dhx)
+    check("GEM execute_handoff done binds nonempty stdout",
+          lambda: grec2.get("done") is True
+          and "PONG" in (grec2.get("stdout_tail") or "")
+          and Path(grec2["stdout_full"]).stat().st_size > 0)
+    check("GEM execute_handoff packet is live/buckets/gem (processed)",
+          lambda: "buckets" in str(grec2.get("worker_packet") or "").replace("\\", "/")
+          and "/gem/" in str(grec2.get("worker_packet") or "").replace("\\", "/"))
+    check("GEM result bound to gem-api",
+          lambda: (grec2.get("rail") or {}).get("link_id") == "gem-api")
+
+    oa_result = paths_live.root / "queue" / "returns" / "cm" / "oa_handoff_result.json"
+    orec = execute_handoff(
+        str(root), "oa", "OAi", "Reply PONG.", str(oa_result),
+        rail_call=_fake_oa, dhx_path=dhx)
+    check("OA execute_handoff emits nonempty stdout",
+          lambda: orec.get("done") is True
+          and "PONG-OA" in (orec.get("stdout_tail") or "")
+          and Path(orec["stdout_full"]).stat().st_size > 0)
+    check("OA result bound to oa-api",
+          lambda: (orec.get("rail") or {}).get("link_id") == "oa-api")
+    check("OA execute_handoff packet is live/buckets/oa",
+          lambda: "buckets" in str(orec.get("worker_packet") or "").replace("\\", "/")
+          and "/oa/" in str(orec.get("worker_packet") or "").replace("\\", "/"))
+
+    def _empty_gem(prompt: str) -> dict:
+        return {"ok": True, "kind": "API", "text": "",
+                "usd": 0.0, "node": "fake_gem", "model": "fake-gemini",
+                "link_id": "gem-api"}
+
+    empty_p = paths_live.root / "queue" / "returns" / "cm" / "gem_empty_result.json"
+    erec = execute_handoff(
+        str(root), "gem", "GEM", "Reply PONG.", str(empty_p),
+        rail_call=_empty_gem, dhx_path=dhx)
+    check("empty rail text is NOT fake-DONE (rc=2, done=False)",
+          lambda: erec.get("done") is False and erec.get("rc") == 2
+          and erec.get("done_why") == "empty_stdout")
+
+    bad = [(l, e) for l, ok, e in RESULTS if not ok]
+    for l, ok, e in RESULTS:
+        print(("  OK  " if ok else "  FAIL") + f" {l}" + (f"  {e}" if e else ""))
+    print(f"{len(RESULTS) - len(bad)}/{len(RESULTS)} passed")
+    return 1 if bad else 0
+
+
+def _raises_kind(kind, fn) -> bool:
+    try:
+        fn()
+    except DispatchError as e:
+        return e.kind == kind
+    return False
+
+
+def test_dispatch():
+    assert main() == 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+<<<FILE_END>>>

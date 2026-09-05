@@ -1,0 +1,109 @@
+{
+ "ok": true,
+ "live_count": 11,
+ "probed_count": 14,
+ "registered": [
+  "claude-cli",
+  "cursor-api",
+  "firecrawl-web",
+  "gem-api",
+  "gw-api",
+  "oa-api",
+  "playwright-dom",
+  "sgh-api"
+ ],
+ "registered_count": 8,
+ "nodes": [
+  {
+   "link_id": "sgh-api",
+   "ok": true,
+   "registered": true,
+   "model": "grok-4.6",
+   "model_source": null,
+   "rc": 0,
+   "body_bytes": 4,
+   "skipped": null,
+   "detail": "OK"
+  },
+  {
+   "link_id": "gem-api",
+   "ok": true,
+   "registered": true,
+   "model": "gemini-2.5-flash",
+   "model_source": null,
+   "rc": 0,
+   "body_bytes": 4,
+   "skipped": null,
+   "detail": "OK"
+  },
+  {
+   "link_id": "gw-api",
+   "ok": true,
+   "registered": true,
+   "model": "grok-build-0.1",
+   "model_source": null,
+   "rc": 0,
+   "body_bytes": 4,
+   "skipped": null,
+   "detail": "API"
+  },
+  {
+   "link_id": "oa-api",
+   "ok": true,
+   "registered": true,
+   "model": "gpt-5.6-terra",
+   "model_source": null,
+   "rc": 0,
+   "body_bytes": 4,
+   "skipped": null,
+   "detail": "API"
+  },
+  {
+   "link_id": "claude-cli",
+   "ok": true,
+   "registered": true,
+   "model": "haiku",
+   "model_source": "requested",
+   "rc": 0,
+   "body_bytes": 4,
+   "skipped": null,
+   "detail": "seat-path claude -p"
+  },
+  {
+   "link_id": "cursor-api",
+   "ok": true,
+   "registered": true,
+   "model": "Cursor COSMOS 2",
+   "model_source": "apiKeyName (GET /v1/me)",
+   "rc": 0,
+   "body_bytes": 88,
+   "skipped": null,
+   "detail": "cursor-api identity-bound live probe http=200"
+  },
+  {
+   "link_id": "firecrawl-web",
+   "ok": true,
+   "registered": true,
+   "model": "firecrawl/v2-research-papers",
+   "model_source": "endpoint, emitted only on a live vendor primaryId",
+   "rc": 0,
+   "body_bytes": 169,
+   "skipped": null,
+   "detail": "firecrawl-web papers primaryId=arxiv:gr-qc/9504041 http=200 success=True date=Mon, 31 Aug 2026 08:28:16 GMT"
+  },
+  {
+   "link_id": "playwright-dom",
+   "ok": true,
+   "registered": true,
+   "model": "Playwright/1.63.0-alpha-2026-08-05",
+   "model_source": "MCP serverInfo (initialize)",
+   "rc": 0,
+   "body_bytes": 76,
+   "skipped": null,
+   "detail": "playwright-dom tools/list n=24 navigate+snapshot present server=Playwright version=1.63.0-alpha-2026-08-05"
+  }
+ ],
+ "registry": "V:\\A\\Ai\\COSMOS\\live\\registry",
+ "projection": "V:\\A\\Ai\\COSMOS\\live\\state\\rails\\probe.json",
+ "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\rails_prober_heartbeat.json"
+}

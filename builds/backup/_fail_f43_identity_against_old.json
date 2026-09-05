@@ -1,0 +1,37 @@
+{
+ "what": "new F-43 identity pins FAIL against predecessor (identity unread)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_f43_identity_20260831T162758Z",
+ "pins": {
+  "bind_has_identity_param": false,
+  "mismatch_tick_is_IDENTITY_MISMATCH": false,
+  "mismatch_created_no_set": false,
+  "identity_str_is_BAD_CONFIG": false,
+  "unknown_kind_is_BAD_CONFIG": false,
+  "example_local_has_identity": false
+ },
+ "detail": {
+  "mismatch_tick": {
+   "state": "VERIFIED",
+   "kind": null
+  },
+  "mismatch_set_count": 1,
+  "identity_str": {
+   "state": "VERIFIED",
+   "kind": null
+  },
+  "unknown_kind": {
+   "state": "VERIFIED",
+   "kind": null
+  }
+ },
+ "failed_pins": [
+  "bind_has_identity_param",
+  "mismatch_tick_is_IDENTITY_MISMATCH",
+  "mismatch_created_no_set",
+  "identity_str_is_BAD_CONFIG",
+  "unknown_kind_is_BAD_CONFIG",
+  "example_local_has_identity"
+ ],
+ "passed_pins": [],
+ "all_new_pins_failed": true
+}

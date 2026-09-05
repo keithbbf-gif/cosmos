@@ -1,0 +1,21 @@
+{
+ "fence": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone",
+ "logs": "V:\\A\\Ai\\COSMOS\\live\\logs",
+ "suites": [
+  {
+   "suite": "test_cvm_phone_clock.py",
+   "rc": 0,
+   "error": null,
+   "secs": 6.33,
+   "leaked": []
+  },
+  {
+   "suite": "test_cvm_phone_pull.py",
+   "rc": 0,
+   "error": null,
+   "secs": 1.68,
+   "leaked": []
+  }
+ ],
+ "any_leak": []
+}

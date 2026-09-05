@@ -1,0 +1,60 @@
+{
+  "_readme": [
+    "TEMPLATE for <runtime root>/config/backup_targets.json — the dest declaration",
+    "cosmos_backup_mounts reads. It is NOT read from here; copy it to the config role",
+    "and fill each dest with an ABSOLUTE path Keith chooses.",
+    "",
+    "Nothing in COSMOS guesses a dest from a well-known drive letter. An absent row",
+    "is NO_DEST; a dest that is not a directory is DRIVE_NOT_MOUNTED (DriveFS signed",
+    "out, OneDrive missing, or the Seagate ES.3 ST3000NM0033 not yet installed).",
+    "A dest on the SAME volume as the source is SAME_VOLUME — that is the gap this",
+    "adapter exists to close.",
+    "",
+    "identity is optional. When present it is CONTENT, not existence:",
+    "  volume_serial  vol:XXXXXXXX from GetVolumeInformation",
+    "  volume_label   e.g. 'Google Drive'",
+    "  sentinel       a JSON file on the dest whose fields must match 'expect'",
+    "  model          requires an injected probe (stdlib cannot read disk model)",
+    "",
+    "SECRETS: gdx/odx/es3 all REFUSE a scope containing key material (unencrypted).",
+    "D:\\R2Cloner is FORBIDDEN as a dest.",
+    "",
+    "The dest values below are EMPTY on purpose — filling them is Keith's door."
+  ],
+  "schema": "cosmos-backup-targets/1",
+  "targets": {
+    "gdx": {
+      "dest": "",
+      "identity": {"kind": "volume_label", "value": "Google Drive"}
+    },
+    "odx": {
+      "dest": "",
+      "identity": {"kind": "sentinel", "name": ".cosmos-backup-target.json",
+                   "expect": {"kind": "odx"}}
+    },
+    "es3": {
+      "dest": "",
+      "identity": {"kind": "model", "value": "ST3000NM0033"}
+    },
+    "local": {
+      "dest": "",
+      "source": "",
+      "identity": null,
+      "excludes": [
+        ".git",
+        "__pycache__",
+        "_delme",
+        "*.lock",
+        "live/logs",
+        "live/work",
+        "live/backups",
+        "live/config",
+        "live/returns",
+        "trylive/config",
+        "install_key.bin",
+        "api_token.txt"
+      ],
+      "_readme": "F-43 P0 daemon dest (cosmos_local_clock). Must be a different volume from source. Empty dest is NO_DEST / NO_SOURCE; live/backups is not a dest. identity is optional CONTENT (volume_serial / volume_label / sentinel / model), not existence of the dest dir — a swapped disk at the same letter is IDENTITY_MISMATCH. excludes is per-target (unioned with LOCAL_DEFAULT_EXCLUDES; cannot drop live/config or *.lock from this unencrypted dest). A .lock is a writer fence, not data; live/ledger/authority.jsonl stays in scope; live/config credentials never copy to an unencrypted dest."
+    }
+  }
+}

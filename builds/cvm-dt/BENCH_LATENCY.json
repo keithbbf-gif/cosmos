@@ -1,0 +1,2252 @@
+{
+ "schema": "cvm-dt-bench/1",
+ "artifact": "BENCH_LATENCY.json",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "tree_id": "KMesh-COSMOS-live",
+ "runs": [
+  {
+   "tag": "before",
+   "epoch": 1788145898.8386312,
+   "iso": "2026-08-30T22:11:38-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 5.535,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.513,
+      "min_ms": 0.508,
+      "max_ms": 0.608,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 166.699,
+      "min_ms": 164.583,
+      "max_ms": 170.298,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.606,
+      "min_ms": 0.606,
+      "max_ms": 0.606,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2023.044,
+      "min_ms": 2023.044,
+      "max_ms": 2023.044,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.216,
+      "min_ms": 0.187,
+      "max_ms": 0.304,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_total_ms": 2191.078
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2053.44,
+      "min_ms": 2053.44,
+      "max_ms": 2053.44,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 15.659,
+      "min_ms": 15.064,
+      "max_ms": 25.375,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 3.56,
+      "min_ms": 3.388,
+      "max_ms": 3.632,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 6.93,
+      "min_ms": 6.925,
+      "max_ms": 7.525,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.002,
+      "min_ms": 0.001,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 7.009,
+      "min_ms": 6.975,
+      "max_ms": 8.591,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 7.001,
+     "stt_model_inference": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "STT engine unbound on this box: vosk not importable",
+      "engine": "vosk",
+      "stt_kind": "STT_NONE"
+     },
+     "loop_own_total_ms": 6.932
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 42.742,
+      "min_ms": 42.742,
+      "max_ms": 42.742,
+      "n": 1,
+      "kind": "TTS_NONE",
+      "detail": "[TTS_NONE] SAPI COM failed: [WinError -2147352568] Bad variable type"
+     },
+     "wav_parse": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "no WAV: TTS_NONE"
+     },
+     "pcm_to_mix": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "no WAV: TTS_NONE"
+     }
+    }
+   },
+   "client_cpu_total_ms": 2213.669,
+   "unmeasured": [
+    "respond.pcm_to_mix",
+    "respond.voice_post",
+    "respond.wav_parse",
+    "transcribe.stt_model_inference"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated."
+  },
+  {
+   "tag": "after",
+   "epoch": 1788146300.3013673,
+   "iso": "2026-08-30T22:18:20-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 6.384,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.46,
+      "min_ms": 0.452,
+      "max_ms": 0.51,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 164.746,
+      "min_ms": 163.224,
+      "max_ms": 169.167,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.584,
+      "min_ms": 0.584,
+      "max_ms": 0.584,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2030.543,
+      "min_ms": 2030.543,
+      "max_ms": 2030.543,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.29,
+      "min_ms": 0.272,
+      "max_ms": 0.365,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_total_ms": 2196.623
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2058.008,
+      "min_ms": 2058.008,
+      "max_ms": 2058.008,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 11.655,
+      "min_ms": 11.637,
+      "max_ms": 12.21,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 2.954,
+      "min_ms": 2.835,
+      "max_ms": 3.193,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 5.393,
+      "min_ms": 5.386,
+      "max_ms": 5.658,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.0,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 5.407,
+      "min_ms": 5.405,
+      "max_ms": 6.114,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 6.109,
+     "stt_model_inference": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "STT engine unbound on this box: vosk not importable",
+      "engine": "vosk",
+      "stt_kind": "STT_NONE"
+     },
+     "loop_own_total_ms": 5.394
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 63.228,
+      "min_ms": 54.286,
+      "max_ms": 101.489,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.04,
+      "min_ms": 0.007,
+      "max_ms": 0.066,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "pcm_to_mix": {
+      "ms": 177.691,
+      "min_ms": 175.665,
+      "max_ms": 183.251,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 240.959
+    }
+   },
+   "client_cpu_total_ms": 2454.631,
+   "unmeasured": [
+    "respond.voice_post",
+    "transcribe.stt_model_inference"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated."
+  },
+  {
+   "tag": "after-2",
+   "epoch": 1788146497.193314,
+   "iso": "2026-08-30T22:21:37-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 7.229,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.541,
+      "min_ms": 0.528,
+      "max_ms": 0.638,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 250.029,
+      "min_ms": 246.082,
+      "max_ms": 250.739,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.707,
+      "min_ms": 0.707,
+      "max_ms": 0.707,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2051.431,
+      "min_ms": 2051.431,
+      "max_ms": 2051.431,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.284,
+      "min_ms": 0.275,
+      "max_ms": 0.355,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 251.561,
+     "pre_mic_worst_case_ms": 2302.992,
+     "control_get_reached_by_turn": false
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2102.107,
+      "min_ms": 2102.107,
+      "max_ms": 2102.107,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 41.836,
+      "min_ms": 41.077,
+      "max_ms": 43.911,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 8.626,
+      "min_ms": 7.823,
+      "max_ms": 10.085,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 18.284,
+      "min_ms": 14.458,
+      "max_ms": 21.409,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.003,
+      "min_ms": 0.001,
+      "max_ms": 0.003,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 21.341,
+      "min_ms": 11.968,
+      "max_ms": 24.945,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 11.957,
+     "stt_model_inference": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "STT engine unbound on this box: vosk not importable",
+      "engine": "vosk",
+      "stt_kind": "STT_NONE"
+     },
+     "loop_own_total_ms": 18.287
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 111.431,
+      "min_ms": 107.955,
+      "max_ms": 191.211,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.031,
+      "min_ms": 0.01,
+      "max_ms": 0.086,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "pcm_to_mix": {
+      "ms": 189.082,
+      "min_ms": 173.318,
+      "max_ms": 214.901,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 300.544
+    }
+   },
+   "client_cpu_total_ms": 612.228,
+   "unmeasured": [
+    "respond.voice_post",
+    "transcribe.stt_model_inference"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated."
+  },
+  {
+   "tag": "after-3-ab",
+   "epoch": 1788146583.8634655,
+   "iso": "2026-08-30T22:23:03-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 5.177,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.503,
+      "min_ms": 0.493,
+      "max_ms": 0.537,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 228.522,
+      "min_ms": 196.733,
+      "max_ms": 232.744,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.895,
+      "min_ms": 0.895,
+      "max_ms": 0.895,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2040.625,
+      "min_ms": 2040.625,
+      "max_ms": 2040.625,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.189,
+      "min_ms": 0.176,
+      "max_ms": 0.289,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 230.109,
+     "pre_mic_worst_case_ms": 2270.734,
+     "control_get_reached_by_turn": false
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 923.735,
+      "min_ms": 923.735,
+      "max_ms": 923.735,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 28480,
+     "rate": 16000,
+     "captured_s": 0.89,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 14.684,
+      "min_ms": 14.579,
+      "max_ms": 25.558,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 3.492,
+      "min_ms": 3.384,
+      "max_ms": 3.797,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 7.034,
+      "min_ms": 6.965,
+      "max_ms": 7.072,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.001,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 6.692,
+      "min_ms": 6.546,
+      "max_ms": 6.987,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 6.684,
+     "stt_model_inference": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "STT engine unbound on this box: vosk not importable",
+      "engine": "vosk",
+      "stt_kind": "STT_NONE"
+     },
+     "loop_own_total_ms": 7.035
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 62.216,
+      "min_ms": 60.347,
+      "max_ms": 100.201,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.026,
+      "min_ms": 0.007,
+      "max_ms": 0.07,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "pcm_to_mix": {
+      "ms": 89.727,
+      "min_ms": 88.499,
+      "max_ms": 90.852,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 151.969
+    }
+   },
+   "ab_mix_converter": {
+    "kind": "ok",
+    "byte_identical": true,
+    "reps": 5,
+    "fixture": "4.0s 22050Hz mono -> 48000Hz x2ch f32",
+    "per_frame_writer_ms": {
+     "median": 260.1,
+     "min": 251.7,
+     "max": 286.5
+    },
+    "bulk_converter_ms": {
+     "median": 105.2,
+     "min": 102.4,
+     "max": 128.6
+    },
+    "median_speedup": 2.47
+   },
+   "client_cpu_total_ms": 403.797,
+   "unmeasured": [
+    "respond.voice_post",
+    "transcribe.stt_model_inference"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "after-final",
+   "epoch": 1788146762.6046693,
+   "iso": "2026-08-30T22:26:02-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 5.963,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.446,
+      "min_ms": 0.442,
+      "max_ms": 0.582,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 165.279,
+      "min_ms": 164.116,
+      "max_ms": 168.174,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.621,
+      "min_ms": 0.621,
+      "max_ms": 0.621,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2052.846,
+      "min_ms": 2052.846,
+      "max_ms": 2052.846,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.194,
+      "min_ms": 0.18,
+      "max_ms": 0.281,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 166.54,
+     "pre_mic_worst_case_ms": 2219.386,
+     "control_get_reached_by_turn": false
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2049.135,
+      "min_ms": 2049.135,
+      "max_ms": 2049.135,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 12.119,
+      "min_ms": 11.895,
+      "max_ms": 12.268,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 3.067,
+      "min_ms": 2.967,
+      "max_ms": 3.47,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 6.111,
+      "min_ms": 6.002,
+      "max_ms": 6.938,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.001,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 6.179,
+      "min_ms": 6.15,
+      "max_ms": 6.251,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 6.244,
+     "stt_model_inference": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "STT engine unbound on this box: vosk not importable",
+      "engine": "vosk",
+      "stt_kind": "STT_NONE"
+     },
+     "loop_own_total_ms": 6.112
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 64.691,
+      "min_ms": 58.225,
+      "max_ms": 111.509,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.025,
+      "min_ms": 0.007,
+      "max_ms": 0.056,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 75.547,
+      "min_ms": 74.934,
+      "max_ms": 80.348,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 140.263
+    }
+   },
+   "ab_mix_converter": {
+    "kind": "ok",
+    "byte_identical": true,
+    "reps": 5,
+    "fixture": "4.0s 22050Hz mono -> 48000Hz x2ch f32",
+    "per_frame_writer_ms": {
+     "median": 277.9,
+     "min": 254.4,
+     "max": 408.3
+    },
+    "bulk_converter_ms": {
+     "median": 106.8,
+     "min": 99.6,
+     "max": 124.4
+    },
+    "median_speedup": 2.6
+   },
+   "client_cpu_total_ms": 325.034,
+   "unmeasured": [
+    "respond.voice_post",
+    "transcribe.stt_model_inference"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "ear_wired",
+   "epoch": 1788157586.6958916,
+   "iso": "2026-08-31T01:26:26-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 6.109,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.494,
+      "min_ms": 0.474,
+      "max_ms": 0.551,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 166.025,
+      "min_ms": 165.073,
+      "max_ms": 172.832,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.668,
+      "min_ms": 0.668,
+      "max_ms": 0.668,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2057.146,
+      "min_ms": 2057.146,
+      "max_ms": 2057.146,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.179,
+      "min_ms": 0.169,
+      "max_ms": 0.282,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 167.366,
+     "pre_mic_worst_case_ms": 2224.512,
+     "control_get_reached_by_turn": false
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2044.998,
+      "min_ms": 2044.998,
+      "max_ms": 2044.998,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 12.005,
+      "min_ms": 11.828,
+      "max_ms": 12.015,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 4.544,
+      "min_ms": 2.739,
+      "max_ms": 5.17,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 6.255,
+      "min_ms": 5.302,
+      "max_ms": 6.357,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.002,
+      "min_ms": 0.001,
+      "max_ms": 0.015,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 5.799,
+      "min_ms": 5.507,
+      "max_ms": 5.799,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 5.502,
+     "stt_model_inference": {
+      "ms": 136.015,
+      "min_ms": 136.015,
+      "max_ms": 136.015,
+      "n": 1,
+      "kind": "STT_NONE",
+      "detail": "[STT_NONE] sapi returned empty transcript"
+     },
+     "stt_engine": "sapi",
+     "stt_recognizer": "MS-1033-80-DESK",
+     "stt_transcript": null,
+     "stt_kind": "STT_NONE",
+     "loop_own_total_ms": 6.257
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 55.783,
+      "min_ms": 55.654,
+      "max_ms": 92.153,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.024,
+      "min_ms": 0.007,
+      "max_ms": 0.058,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 83.448,
+      "min_ms": 72.577,
+      "max_ms": 89.162,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 139.255
+    }
+   },
+   "ab_mix_converter": null,
+   "client_cpu_total_ms": 324.883,
+   "unmeasured": [
+    "respond.voice_post"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "ear_speech_fixture",
+   "epoch": 1788157624.8812945,
+   "iso": "2026-08-31T01:27:04-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 6.692,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.494,
+      "min_ms": 0.489,
+      "max_ms": 0.525,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 179.839,
+      "min_ms": 172.985,
+      "max_ms": 186.242,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.756,
+      "min_ms": 0.756,
+      "max_ms": 0.756,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] id18 ticket core_kind=UNREACHABLE"
+     },
+     "control_get": {
+      "ms": 2067.215,
+      "min_ms": 2067.215,
+      "max_ms": 2067.215,
+      "n": 1,
+      "kind": "UNREACHABLE",
+      "detail": "[UNREACHABLE] Core http://127.0.0.1:8770: [WinError 10061] No connection could be made because the target machine actively refused it"
+     },
+     "ensure_can_speak": {
+      "ms": 0.191,
+      "min_ms": 0.179,
+      "max_ms": 0.268,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 181.28,
+     "pre_mic_worst_case_ms": 2248.495,
+     "control_get_reached_by_turn": false
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2058.232,
+      "min_ms": 2058.232,
+      "max_ms": 2058.232,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 11.724,
+      "min_ms": 11.479,
+      "max_ms": 12.258,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 2.695,
+      "min_ms": 2.69,
+      "max_ms": 2.867,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 5.574,
+      "min_ms": 5.422,
+      "max_ms": 5.662,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.001,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 5.66,
+      "min_ms": 5.519,
+      "max_ms": 5.832,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 5.513,
+     "stt_fixture": {
+      "spoken": "what is the queue depth",
+      "rate": 22050,
+      "bytes": 87282,
+      "source": "sapi_tts"
+     },
+     "stt_model_inference": {
+      "ms": 203.051,
+      "min_ms": 200.657,
+      "max_ms": 216.212,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_engine": "sapi",
+     "stt_recognizer": "MS-1033-80-DESK",
+     "stt_transcript": "What is the queue depth",
+     "stt_kind": "ok",
+     "stt_word_recall": 1.0,
+     "loop_own_total_ms": 5.575
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 10035,
+     "voice_post": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "Core http://127.0.0.1:8770 not accepting connections (connect_ex=10035)",
+      "route": "/api/v1/voice",
+      "refusal": "UNREACHABLE"
+     },
+     "tts_synth": {
+      "ms": 56.884,
+      "min_ms": 55.235,
+      "max_ms": 59.068,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.027,
+      "min_ms": 0.013,
+      "max_ms": 0.062,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 73.487,
+      "min_ms": 73.003,
+      "max_ms": 80.215,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 130.398
+    }
+   },
+   "ab_mix_converter": null,
+   "client_cpu_total_ms": 328.977,
+   "unmeasured": [
+    "respond.voice_post"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "core_up",
+   "epoch": 1788161193.4327052,
+   "iso": "2026-08-31T02:26:33-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 13.283,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.454,
+      "min_ms": 0.452,
+      "max_ms": 0.579,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 172.068,
+      "min_ms": 168.014,
+      "max_ms": 175.835,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.642,
+      "min_ms": 0.62,
+      "max_ms": 0.777,
+      "n": 3,
+      "kind": "ok"
+     },
+     "control_get": {
+      "ms": 4.682,
+      "min_ms": 4.682,
+      "max_ms": 4.682,
+      "n": 1,
+      "kind": "ok"
+     },
+     "ensure_can_speak": {
+      "ms": 0.182,
+      "min_ms": 0.171,
+      "max_ms": 0.229,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 178.028,
+     "pre_mic_worst_case_ms": 178.028,
+     "control_get_reached_by_turn": true
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2049.708,
+      "min_ms": 2049.708,
+      "max_ms": 2049.708,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 11.6,
+      "min_ms": 11.512,
+      "max_ms": 18.657,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 2.6,
+      "min_ms": 2.594,
+      "max_ms": 2.708,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 5.167,
+      "min_ms": 5.142,
+      "max_ms": 5.244,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.0,
+      "max_ms": 0.001,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 5.45,
+      "min_ms": 5.171,
+      "max_ms": 5.586,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 5.446,
+     "stt_fixture": {
+      "spoken": "what is the queue depth",
+      "rate": 22050,
+      "bytes": 87282,
+      "source": "sapi_tts"
+     },
+     "stt_model_inference": {
+      "ms": 215.455,
+      "min_ms": 205.912,
+      "max_ms": 231.464,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_engine": "sapi",
+     "stt_recognizer": "MS-1033-80-DESK",
+     "stt_transcript": "What is the queue depth",
+     "stt_kind": "ok",
+     "stt_word_recall": 1.0,
+     "loop_own_total_ms": 5.168
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 0,
+     "phrase_spend_class": {
+      "phrase": "COSMOS desktop voice latency bench.",
+      "class": "paid",
+      "why": "'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend)"
+     },
+     "voice_post_by_verb": {
+      "status": {
+       "ms": 434.542,
+       "min_ms": 407.806,
+       "max_ms": 490.818,
+       "n": 5,
+       "kind": "ok",
+       "verb": "status",
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "4693d6211a5d4eafa75507ea78752b64",
+       "spoken_chars": 21
+      },
+      "jobs": {
+       "ms": 438.025,
+       "min_ms": 410.071,
+       "max_ms": 446.744,
+       "n": 5,
+       "kind": "ok",
+       "verb": "jobs",
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "4693d6211a5d4eafa75507ea78752b64",
+       "spoken_chars": 10
+      },
+      "health": {
+       "ms": 549.071,
+       "min_ms": 528.676,
+       "max_ms": 619.412,
+       "n": 5,
+       "kind": "ok",
+       "verb": "health",
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "4693d6211a5d4eafa75507ea78752b64",
+       "spoken_chars": 17
+      },
+      "help": {
+       "ms": 448.099,
+       "min_ms": 425.891,
+       "max_ms": 498.931,
+       "n": 5,
+       "kind": "ok",
+       "verb": "help",
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "4693d6211a5d4eafa75507ea78752b64",
+       "spoken_chars": 92
+      }
+     },
+     "voice_post": {
+      "ms": 448.099,
+      "min_ms": 407.806,
+      "max_ms": 619.412,
+      "n": 20,
+      "kind": "ok",
+      "verbs": [
+       "status",
+       "jobs",
+       "health",
+       "help"
+      ],
+      "note": "median across free read-only verbs, 5 samples each"
+     },
+     "voice_post_phrase": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "spend fence: 'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend) \u2014 money is Keith's domain, so the bench refuses to buy a latency sample",
+      "spend_class": "paid",
+      "phrase": "COSMOS desktop voice latency bench."
+     },
+     "tts_synth": {
+      "ms": 54.656,
+      "min_ms": 54.16,
+      "max_ms": 58.51,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.026,
+      "min_ms": 0.007,
+      "max_ms": 0.066,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 69.757,
+      "min_ms": 68.497,
+      "max_ms": 69.941,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 124.439
+    }
+   },
+   "ab_mix_converter": {
+    "kind": "ok",
+    "byte_identical": true,
+    "reps": 5,
+    "fixture": "4.0s 22050Hz mono -> 48000Hz x2ch f32",
+    "per_frame_writer_ms": {
+     "median": 235.6,
+     "min": 228.5,
+     "max": 337.9
+    },
+    "bulk_converter_ms": {
+     "median": 87.3,
+     "min": 84.3,
+     "max": 96.3
+    },
+    "median_speedup": 2.7
+   },
+   "client_cpu_total_ms": 319.235,
+   "felt_latency": {
+    "components_ms": {
+     "vad_hangover": 200.0,
+     "resample_to_16k": 0.001,
+     "stt_model_inference": 215.455,
+     "voice_post": 448.099,
+     "tts_synth": 54.656,
+     "wav_parse": 0.026,
+     "pcm_to_mix": 69.757
+    },
+    "missing": [],
+    "total_ms": 987.994,
+    "note": "mouth-shut -> first audio sample. Excludes the operator's own speech; includes the VAD hangover they wait through. total_ms is None whenever any component is UNMEASURED."
+   },
+   "unmeasured": [
+    "respond.voice_post_phrase"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "core_up_budgeted",
+   "epoch": 1788161371.9117587,
+   "iso": "2026-08-31T02:29:31-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 8.317,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.471,
+      "min_ms": 0.462,
+      "max_ms": 0.527,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 182.505,
+      "min_ms": 173.021,
+      "max_ms": 183.158,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.637,
+      "min_ms": 0.618,
+      "max_ms": 0.745,
+      "n": 3,
+      "kind": "ok"
+     },
+     "control_get": {
+      "ms": 4.315,
+      "min_ms": 4.315,
+      "max_ms": 4.315,
+      "n": 1,
+      "kind": "ok"
+     },
+     "ensure_can_speak": {
+      "ms": 0.183,
+      "min_ms": 0.174,
+      "max_ms": 0.232,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 188.111,
+     "pre_mic_worst_case_ms": 188.111,
+     "control_get_reached_by_turn": true
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2057.72,
+      "min_ms": 2057.72,
+      "max_ms": 2057.72,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 13.843,
+      "min_ms": 12.714,
+      "max_ms": 14.564,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 4.26,
+      "min_ms": 3.167,
+      "max_ms": 5.186,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 6.175,
+      "min_ms": 6.097,
+      "max_ms": 6.843,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.002,
+      "min_ms": 0.001,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 8.83,
+      "min_ms": 7.837,
+      "max_ms": 11.008,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 10.998,
+     "stt_fixture": {
+      "spoken": "what is the queue depth",
+      "rate": 22050,
+      "bytes": 87282,
+      "source": "sapi_tts"
+     },
+     "stt_model_inference": {
+      "ms": 232.338,
+      "min_ms": 230.744,
+      "max_ms": 251.359,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_engine": "sapi",
+     "stt_recognizer": "MS-1033-80-DESK",
+     "stt_transcript": "What is the queue depth",
+     "stt_kind": "ok",
+     "stt_word_recall": 1.0,
+     "loop_own_total_ms": 6.177
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 0,
+     "phrase_spend_class": {
+      "phrase": "COSMOS desktop voice latency bench.",
+      "class": "paid",
+      "why": "'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend)"
+     },
+     "post_budget": {
+      "shared_cap_per_min": 20,
+      "window_s": 60.0,
+      "fraction": 0.5,
+      "posts_allowed": 10,
+      "reps_per_verb": 2,
+      "why": "the rate budget is shared with the gate, the clocks and Keith's own voice; a bench that drains it breaks what it is measuring"
+     },
+     "voice_post_by_verb": {
+      "status": {
+       "ms": 592.686,
+       "min_ms": 488.357,
+       "max_ms": 592.686,
+       "n": 2,
+       "kind": "ok",
+       "verb": "status",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "99faca57d7a74099971c9cfbc6a09c47",
+       "spoken_chars": 21
+      },
+      "jobs": {
+       "ms": 480.672,
+       "min_ms": 475.726,
+       "max_ms": 480.672,
+       "n": 2,
+       "kind": "ok",
+       "verb": "jobs",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "99faca57d7a74099971c9cfbc6a09c47",
+       "spoken_chars": 10
+      },
+      "health": {
+       "ms": 609.489,
+       "min_ms": 592.93,
+       "max_ms": 609.489,
+       "n": 2,
+       "kind": "ok",
+       "verb": "health",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "99faca57d7a74099971c9cfbc6a09c47",
+       "spoken_chars": 17
+      },
+      "help": {
+       "ms": 522.057,
+       "min_ms": 461.591,
+       "max_ms": 522.057,
+       "n": 2,
+       "kind": "ok",
+       "verb": "help",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "99faca57d7a74099971c9cfbc6a09c47",
+       "spoken_chars": 92
+      }
+     },
+     "posts_spent": 8,
+     "voice_post": {
+      "ms": 592.686,
+      "min_ms": 461.591,
+      "max_ms": 609.489,
+      "n": 8,
+      "kind": "ok",
+      "verbs": [
+       "status",
+       "jobs",
+       "health",
+       "help"
+      ],
+      "refused_verbs": [],
+      "note": "median across free read-only verbs, 2 samples each"
+     },
+     "voice_post_phrase": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "spend fence: 'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend) \u2014 money is Keith's domain, so the bench refuses to buy a latency sample",
+      "spend_class": "paid",
+      "phrase": "COSMOS desktop voice latency bench."
+     },
+     "tts_synth": {
+      "ms": 62.911,
+      "min_ms": 61.489,
+      "max_ms": 65.184,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.029,
+      "min_ms": 0.008,
+      "max_ms": 0.067,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 99.698,
+      "min_ms": 84.3,
+      "max_ms": 104.882,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 162.638
+    }
+   },
+   "ab_mix_converter": {
+    "kind": "ok",
+    "byte_identical": true,
+    "reps": 5,
+    "fixture": "4.0s 22050Hz mono -> 48000Hz x2ch f32",
+    "per_frame_writer_ms": {
+     "median": 317.6,
+     "min": 290.2,
+     "max": 357.3
+    },
+    "bulk_converter_ms": {
+     "median": 130.8,
+     "min": 110.4,
+     "max": 141.2
+    },
+    "median_speedup": 2.43
+   },
+   "client_cpu_total_ms": 370.769,
+   "felt_latency": {
+    "components_ms": {
+     "vad_hangover": 200.0,
+     "resample_to_16k": 0.002,
+     "stt_model_inference": 232.338,
+     "voice_post": 592.686,
+     "tts_synth": 62.911,
+     "wav_parse": 0.029,
+     "pcm_to_mix": 99.698
+    },
+    "missing": [],
+    "total_ms": 1187.664,
+    "note": "mouth-shut -> first audio sample. Excludes the operator's own speech; includes the VAD hangover they wait through. total_ms is None whenever any component is UNMEASURED."
+   },
+   "unmeasured": [
+    "respond.voice_post_phrase"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  },
+  {
+   "tag": "core_up_final",
+   "epoch": 1788161641.516598,
+   "iso": "2026-08-31T02:34:01-0500",
+   "tree_id": "KMesh-COSMOS-live",
+   "python": "3.14.0",
+   "bench_elapsed_s": 6.22,
+   "stages": {
+    "wake": {
+     "ptt_poll_grain_ms": {
+      "ms": 50.0,
+      "kind": "ok",
+      "n": 1,
+      "note": "wait_for_ptt sleep grain (worst-case add)"
+     },
+     "probe_stt": {
+      "ms": 0.546,
+      "min_ms": 0.538,
+      "max_ms": 0.586,
+      "n": 5,
+      "kind": "ok"
+     },
+     "route_status": {
+      "ms": 181.7,
+      "min_ms": 178.829,
+      "max_ms": 203.556,
+      "n": 3,
+      "kind": "ok"
+     },
+     "pull_ticket": {
+      "ms": 0.714,
+      "min_ms": 0.673,
+      "max_ms": 0.868,
+      "n": 3,
+      "kind": "ok"
+     },
+     "control_get": {
+      "ms": 4.668,
+      "min_ms": 4.668,
+      "max_ms": 4.668,
+      "n": 1,
+      "kind": "ok"
+     },
+     "ensure_can_speak": {
+      "ms": 0.19,
+      "min_ms": 0.181,
+      "max_ms": 0.224,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_bind": {
+      "kind": "STT_NONE",
+      "detail": "vosk not importable"
+     },
+     "pre_mic_loop_order_ms": 187.818,
+     "pre_mic_worst_case_ms": 187.818,
+     "control_get_reached_by_turn": true
+    },
+    "capture": {
+     "seconds_requested": 2.0,
+     "wasapi_capture": {
+      "ms": 2053.129,
+      "min_ms": 2053.129,
+      "max_ms": 2053.129,
+      "n": 1,
+      "kind": "ok"
+     },
+     "device_name": "Microphone (HD Pro Webcam C920)",
+     "pcm_bytes": 63360,
+     "rate": 16000,
+     "captured_s": 1.98,
+     "mix_capture": {
+      "rate": 16000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true
+     },
+     "mix_to_pcm16_per_s": {
+      "ms": 14.904,
+      "min_ms": 14.619,
+      "max_ms": 19.102,
+      "n": 3,
+      "kind": "ok",
+      "note": "CPU inside capture_pcm16_mono, per second of audio"
+     }
+    },
+    "transcribe": {
+     "fixture_s": 2.0,
+     "fixture_rate": 16000,
+     "fixture_bytes": 64000,
+     "rms_whole_buffer": {
+      "ms": 3.671,
+      "min_ms": 3.389,
+      "max_ms": 4.151,
+      "n": 3,
+      "kind": "ok"
+     },
+     "energy_vad": {
+      "ms": 7.626,
+      "min_ms": 6.169,
+      "max_ms": 13.592,
+      "n": 3,
+      "kind": "ok"
+     },
+     "vad_heard_speech": true,
+     "resample_to_16k": {
+      "ms": 0.001,
+      "min_ms": 0.0,
+      "max_ms": 0.002,
+      "n": 3,
+      "kind": "ok"
+     },
+     "resampled_bytes": 64000,
+     "vad_to_stt_handoff": {
+      "ms": 11.923,
+      "min_ms": 9.455,
+      "max_ms": 12.667,
+      "n": 3,
+      "kind": "ok"
+     },
+     "first_word_ms": 12.654,
+     "stt_fixture": {
+      "spoken": "what is the queue depth",
+      "rate": 22050,
+      "bytes": 87282,
+      "source": "sapi_tts"
+     },
+     "stt_model_inference": {
+      "ms": 245.157,
+      "min_ms": 237.561,
+      "max_ms": 274.22,
+      "n": 3,
+      "kind": "ok"
+     },
+     "stt_engine": "sapi",
+     "stt_recognizer": "MS-1033-80-DESK",
+     "stt_transcript": "What is the queue depth",
+     "stt_kind": "ok",
+     "stt_word_recall": 1.0,
+     "loop_own_total_ms": 7.627
+    },
+    "respond": {
+     "phrase": "COSMOS desktop voice latency bench.",
+     "voice_timeout_s": 70.0,
+     "core_connect_errno": 0,
+     "phrase_spend_class": {
+      "phrase": "COSMOS desktop voice latency bench.",
+      "class": "paid",
+      "why": "'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend)"
+     },
+     "post_budget": {
+      "shared_cap_per_min": 20,
+      "window_s": 60.0,
+      "fraction": 0.5,
+      "posts_allowed": 10,
+      "reps_per_verb": 2,
+      "why": "the rate budget is shared with the gate, the clocks and Keith's own voice; a bench that drains it breaks what it is measuring"
+     },
+     "voice_post_by_verb": {
+      "status": {
+       "ms": 269.752,
+       "min_ms": 245.529,
+       "max_ms": 269.752,
+       "n": 2,
+       "kind": "ok",
+       "verb": "status",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "e02082ee0bea4cb6829d9d9836f53577",
+       "spoken_chars": 21
+      },
+      "jobs": {
+       "ms": 234.712,
+       "min_ms": 233.678,
+       "max_ms": 234.712,
+       "n": 2,
+       "kind": "ok",
+       "verb": "jobs",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "e02082ee0bea4cb6829d9d9836f53577",
+       "spoken_chars": 10
+      },
+      "health": {
+       "ms": 313.053,
+       "min_ms": 305.831,
+       "max_ms": 313.053,
+       "n": 2,
+       "kind": "ok",
+       "verb": "health",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "e02082ee0bea4cb6829d9d9836f53577",
+       "spoken_chars": 17
+      },
+      "help": {
+       "ms": 224.867,
+       "min_ms": 220.563,
+       "max_ms": 224.867,
+       "n": 2,
+       "kind": "ok",
+       "verb": "help",
+       "posts": 2,
+       "rc": 200,
+       "reply_kind": "command",
+       "brain": "local",
+       "session_id": "e02082ee0bea4cb6829d9d9836f53577",
+       "spoken_chars": 92
+      }
+     },
+     "posts_spent": 8,
+     "voice_post": {
+      "ms": 269.752,
+      "min_ms": 220.563,
+      "max_ms": 313.053,
+      "n": 8,
+      "kind": "ok",
+      "verbs": [
+       "status",
+       "jobs",
+       "health",
+       "help"
+      ],
+      "refused_verbs": [],
+      "note": "median across free read-only verbs, 2 samples each"
+     },
+     "voice_post_phrase": {
+      "ms": null,
+      "kind": "UNMEASURED",
+      "reason": "spend fence: 'cosmos' is not a verb, so Core classifies it as dictation -> kind='chat' -> model rail (spend) \u2014 money is Keith's domain, so the bench refuses to buy a latency sample",
+      "spend_class": "paid",
+      "phrase": "COSMOS desktop voice latency bench."
+     },
+     "tts_synth": {
+      "ms": 57.991,
+      "min_ms": 57.919,
+      "max_ms": 69.578,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_bytes": 145972,
+     "wav_parse": {
+      "ms": 0.028,
+      "min_ms": 0.008,
+      "max_ms": 0.07,
+      "n": 3,
+      "kind": "ok"
+     },
+     "wav_rate": 22050,
+     "reply_audio_s": 3.309,
+     "mix_render": {
+      "rate": 48000,
+      "channels": 2,
+      "bits": 32,
+      "is_float": true,
+      "source": "IAudioClient::GetMixFormat"
+     },
+     "pcm_to_mix": {
+      "ms": 87.751,
+      "min_ms": 83.923,
+      "max_ms": 89.061,
+      "n": 3,
+      "kind": "ok",
+      "note": "silence between the answer and the first sample"
+     },
+     "time_to_first_audio_ms": 145.77
+    }
+   },
+   "ab_mix_converter": {
+    "kind": "ok",
+    "byte_identical": true,
+    "reps": 5,
+    "fixture": "4.0s 22050Hz mono -> 48000Hz x2ch f32",
+    "per_frame_writer_ms": {
+     "median": 292.3,
+     "min": 258.6,
+     "max": 387.7
+    },
+    "bulk_converter_ms": {
+     "median": 106.5,
+     "min": 97.0,
+     "max": 154.4
+    },
+    "median_speedup": 2.74
+   },
+   "client_cpu_total_ms": 356.119,
+   "felt_latency": {
+    "components_ms": {
+     "vad_hangover": 200.0,
+     "resample_to_16k": 0.001,
+     "stt_model_inference": 245.157,
+     "voice_post": 269.752,
+     "tts_synth": 57.991,
+     "wav_parse": 0.028,
+     "pcm_to_mix": 87.751
+    },
+    "missing": [],
+    "total_ms": 860.68,
+    "note": "mouth-shut -> first audio sample. Excludes the operator's own speech; includes the VAD hangover they wait through. total_ms is None whenever any component is UNMEASURED."
+   },
+   "unmeasured": [
+    "respond.voice_post_phrase"
+   ],
+   "note": "client_cpu_total_ms excludes the real-time capture window and the reply's own playback duration \u2014 it is the machine's own tax on one turn. Rows marked UNMEASURED were not estimated. Runs are NOT a controlled A/B: this box carries other agents, so load differs between runs. Use ab_mix_converter (one process, interleaved) to compare implementations."
+  }
+ ]
+}

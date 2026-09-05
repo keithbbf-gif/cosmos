@@ -1,0 +1,59 @@
+{
+ "schema": "cosmos-tools-surface/1",
+ "mode": "composed-live",
+ "ready": true,
+ "composed_tools_surface": true,
+ "composed": [
+  "node_rails",
+  "cursor-api",
+  "codex-cli",
+  "playwright-dom",
+  "firecrawl-web",
+  "claude-cli",
+  "tools-surface",
+  "dispatcher",
+  "prove_nodes"
+ ],
+ "tools_compose": {
+  "ok": true,
+  "schema": "cosmos-tools-surface/1",
+  "composed": "tools-surface",
+  "inventory": [
+   "openai-docs",
+   "xai-docs"
+  ],
+  "invoked": false,
+  "boot_compose": true,
+  "adapter_registered": false
+ },
+ "adapter_leak": [],
+ "rows": [
+  {
+   "ok": true,
+   "schema": "cosmos-tools-surface/1",
+   "tool": "openai-docs",
+   "verb": "probe",
+   "value": "openai-docs-mcp",
+   "bind": "serverInfo.name",
+   "http": 200,
+   "serverInfo": {
+    "name": "openai-docs-mcp",
+    "version": "1.0.0"
+   }
+  },
+  {
+   "ok": true,
+   "schema": "cosmos-tools-surface/1",
+   "tool": "xai-docs",
+   "verb": "probe",
+   "value": "xai-docs-mcp",
+   "bind": "serverInfo.name",
+   "http": 200,
+   "serverInfo": {
+    "name": "xai-docs-mcp",
+    "version": "1.0.0"
+   }
+  }
+ ],
+ "ok": true
+}

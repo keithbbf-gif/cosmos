@@ -1,0 +1,23 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new F-54 --plan-task pins FAIL against predecessor (no clock vehicle)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_state_offsite_f54_20260831T154055Z\\cosmos_state_offsite.py",
+ "tests_run": 5,
+ "failures": 1,
+ "errors": 4,
+ "failed_names": [
+  "test_cli_plan_task_in_a_fresh_interpreter",
+  "test_payload_is_the_whitelist_not_a_scope_tree",
+  "test_plan_task_argv_is_daily_windowless_and_points_at_this_file",
+  "test_plan_task_registers_nothing",
+  "test_stale_threshold_matches_a_daily_cadence"
+ ],
+ "ran_names": [
+  "test_cli_plan_task_in_a_fresh_interpreter",
+  "test_payload_is_the_whitelist_not_a_scope_tree",
+  "test_plan_task_argv_is_daily_windowless_and_points_at_this_file",
+  "test_plan_task_registers_nothing",
+  "test_stale_threshold_matches_a_daily_cadence"
+ ],
+ "all_new_pins_failed": true
+}

@@ -1,0 +1,189 @@
+# CONTRACTS — queue / scheduler (cosmos/cosmos_sched.py)
+#
+# Phase 1, docs/CORE_RESTRUCTURE.md. The queue subsystem is `cosmos_sched` —
+# there is no cosmos_queue module; the "queue" is a PROJECTION folded out of the
+# scheduler's ledger, and that is the whole point of these contracts.
+#
+# Each statement below was transcribed from the CODE as it stands 2026-08-30 —
+# `Scheduler.submit / queued / claim_next / done / report_stale` — not from the
+# module docstring. Every marker was grepped in the file it is cited from before
+# it was written here: a checker that cries wolf is how a real stall gets
+# ignored (docs/contracts/health.toml, health.a_false_alarm_is_a_defect).
+#
+# RULE: transcribe what the CODE does today, not what the prose claims. Where
+# they disagree, the code wins and the disagreement is the finding.
+
+schema = "cosmos-contracts/1"
+subsystem = "queue"
+
+[[contract]]
+id = "queue.state_is_replayed_never_stored"
+statement = """
+Job state is REPLAYED from the ledger on every read, never held in a queue file
+that could disagree with it. `_state()` is a fold over `ledger.project`; the
+manifest on disk is immutable from the moment it is written and the JOB_SUBMITTED
+event is what makes it real. Delete the projection and replay rebuilds it; edit a
+manifest and nothing changes, because the manifest is not the authority. A stored
+queue would be a second writer of the same fact — the failure class that let 343
+unpruned manifests become a permanent block-list one subsystem over
+(motif.manifests_are_windowed)."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "return self.ledger.project(fold, {})"
+  why = "the queue view is a fold over the chain, not a file that is read back"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "the ledger event is what makes it REAL"
+  why = "the manifest is immutable from write; the event is the authority"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "claimed job leaves the queue"
+  why = "the projection moves because an event landed, not because a file moved"
+
+[[contract]]
+id = "queue.claim_is_exactly_once"
+statement = """
+A job is claimed EXACTLY ONCE under overlap. The decision is bound to the ledger
+head it was projected from (`expect_head_seq`), so a writer that moved the head
+in between makes the append refuse with STALE_HEAD, which the scheduler converts
+to a typed LOST_CLAIM. The loser loses CLEANLY and takes the next job; it does
+not retry into a double-claim and it does not leak an exception. This was a
+MEASURED double-claim (critic B2) before the fence existed — two workers running
+the same job is expensive, and it is silent."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "expect_head_seq=head"
+  why = "the append is fenced to the head the decision was projected from"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "LOST_CLAIM"
+  why = "the racing loser gets a typed refusal, not a silent second claim"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_concurrency.py"
+  must_contain = "B2: exactly one JOB_CLAIMED in the ledger"
+  why = "counted on the chain, not asserted about the return value"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "every job claimed EXACTLY once"
+
+[[contract]]
+id = "queue.only_the_claimant_completes"
+statement = """
+`done()` refuses unless the job is RUNNING **and** the completer is the worker
+that claimed it, and it refuses a second completion after a terminal state. Both
+guards are load-bearing: without the claimant check ANY worker could complete
+ANOTHER worker's job (OA C-03, measured); without the terminal check the last
+JOB_DONE silently won, so a late straggler could overwrite a real outcome hours
+after the fact. A rewritten outcome is the worst kind of wrong — it is a lie the
+projection then reports as truth."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "only the claimant completes its job"
+  why = "the ownership guard, stated at the refusal site"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = ", not RUNNING"
+  why = "a finished job is finished — the terminal-state refusal"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_stage7_fixes.py"
+  must_contain = "K5: a NON-claimant worker cannot complete the job"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_stage7_fixes.py"
+  must_contain = "K5: double-complete after a terminal state is refused"
+
+[[contract]]
+id = "queue.stale_is_reported_never_retried"
+statement = """
+A stale RUNNING job is REPORTED as a JOB_STALE event and is never auto-rerun,
+and it is reported ONCE rather than on every tick. Auto-retry is unsafe because
+the job's side effects may already have happened; re-reporting every tick is the
+error-channel failure (health.error_channel_carries_only_errors) — a condition
+that fires forever trains every reader to ignore the field where a real fault
+would land."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "REPORT, never retry"
+  why = "the rule stated where report_stale implements it"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "stale_reported"
+  why = "the once-only latch, projected from the chain like every other fact"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "stale RUNNING is REPORTED (event), job NOT retried"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "stale is reported ONCE, not every tick"
+
+[[contract]]
+id = "queue.priority_and_outcome_are_declared_vocabularies"
+statement = """
+Priority is a declared manifest field and an unknown one REFUSES rather than
+defaulting — a critical job silently admitted as normal is invisible damage.
+Admission order is deterministic: (priority desc, submitted asc, job_id). Outcome
+is one of three WORDS — CLEAN / FINDINGS / BROKE — never a bare return code,
+because a checker that finds something is not a broken job (PLM-44), and rc=0 is
+not proof of anything in this system."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "a silently-normal critical job"
+  why = "submit refuses an unknown priority instead of defaulting"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = 'OUTCOMES = {"CLEAN", "FINDINGS", "BROKE"}'
+  why = "the three-word vocabulary, enumerated"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_sched.py"
+  must_contain = "three words, never a bare rc"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "priority admission: critical first, low last"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "FINDINGS is an outcome, not a failure"
+  why = "FINDINGS is a distinct terminal state, not a disguised failure"

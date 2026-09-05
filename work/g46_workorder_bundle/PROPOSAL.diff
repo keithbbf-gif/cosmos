@@ -1,0 +1,164 @@
+diff --git a/cosmos/cosmos_codex_rail.py b/cosmos/cosmos_codex_rail.py
+index 10a41d8..bf5fd3b 100644
+--- a/cosmos/cosmos_codex_rail.py
++++ b/cosmos/cosmos_codex_rail.py
+@@ -52,6 +52,13 @@ from pathlib import Path
+ 
+ sys.path.insert(0, str(Path(__file__).resolve().parent))
+ 
++from cosmos_workspace import (  # noqa: E402
++    WorkspaceError,
++    assert_not_live as _ws_assert_not_live,
++    clone_tree as _real_clone,
++    prepare_workspace as _ws_prepare,
++)
++
+ SCHEMA = "cosmos-codex-rail/1"
+ WORKER = "cosmos-codex-rail"
+ LINK_ID = "codex-cli"
+@@ -459,29 +466,6 @@ def _real_run(argv, cwd=None, timeout_s=60, env=None, stdin=None) -> dict:
+         }
+ 
+ 
+-def _real_clone(src: Path, dest: Path) -> dict:
+-    dest.parent.mkdir(parents=True, exist_ok=True)
+-    argv = ["git", "clone", "--local", str(src), str(dest)]
+-    r = _real_run(argv, timeout_s=120)
+-    if r.get("timed_out") or r.get("rc") not in (0,):
+-        # fallback: copy without .git; --skip-git-repo-check covers this.
+-        if dest.exists():
+-            return {"ok": False, "how": "clone", "rc": r.get("rc"),
+-                    "err": (r.get("err") or "")[:300]}
+-        try:
+-            shutil.copytree(
+-                src, dest,
+-                ignore=shutil.ignore_patterns(
+-                    ".git", "__pycache__", ".venv", "live", "tmp", "_delme"),
+-            )
+-            return {"ok": True, "how": "copytree", "rc": r.get("rc"),
+-                    "err": (r.get("err") or "")[:200]}
+-        except OSError as e:
+-            return {"ok": False, "how": "copytree",
+-                    "err": f"{type(e).__name__}: {e}"}
+-    return {"ok": True, "how": "git-clone-local", "rc": 0}
+-
+-
+ class CodexRail:
+     """Dispatcher adapter. kind=CLI. probe() is `codex --version` (cheap).
+     dispatch() is opt-in `codex exec` — never called by probe or --gate.
+@@ -559,66 +543,18 @@ class CodexRail:
+             f"key={self.key_last4()}")
+ 
+     def _assert_not_live(self, workspace: Path) -> None:
+-        live = self._live_root
+-        if live is None:
+-            return
+-        try:
+-            ws = Path(workspace).resolve()
+-            root = Path(live).resolve()
+-            work = (root / "work").resolve()
+-        except OSError:
+-            return
+-        try:
+-            ws.relative_to(root)
+-        except ValueError:
+-            return
+         try:
+-            ws.relative_to(work)
+-            return
+-        except ValueError:
+-            raise CodexRailError(
+-                "REFUSED",
+-                "coder refuses the live runtime root; attempt-private "
+-                "clone only under work/ (fenced commit gateway opens the PR)")
++            _ws_assert_not_live(workspace, live_root=self._live_root)
++        except WorkspaceError as e:
++            raise CodexRailError(e.kind, e.detail) from e
+ 
+     def _prepare_workspace(self, payload: dict) -> tuple[Path, dict]:
+-        given = payload.get("workspace")
+-        if given:
+-            ws = Path(given)
+-            ws.mkdir(parents=True, exist_ok=True)
+-            self._assert_not_live(ws)
+-            return ws, {"ok": True, "how": "given", "workspace": str(ws)}
+-        if payload.get("skip_clone"):
+-            raise CodexRailError(
+-                "BROKE", "skip_clone set without payload.workspace")
+-        src = payload.get("repo") or payload.get("cwd") or payload.get("target_dir")
+-        if not src:
+-            raise CodexRailError(
+-                "BROKE",
+-                "coder needs payload.repo (or cwd/target_dir) to clone")
+-        src_p = Path(src)
+-        if not src_p.exists() or not src_p.is_dir():
+-            raise CodexRailError("BROKE", f"clone source is not a directory: {src_p}")
+-        dest_hint = payload.get("clone_dest")
+-        if dest_hint:
+-            dest = Path(dest_hint)
+-        else:
+-            attempt = str(payload.get("attempt_id") or f"codex-{int(time.time())}")
+-            # Prefer live/work/codex/<attempt>/clone when a live root is known.
+-            if self._live_root is not None:
+-                dest = Path(self._live_root) / "work" / "codex" / attempt / "clone"
+-            else:
+-                dest = src_p.parent / "_codex_work" / attempt / "clone"
+-        if dest.exists():
+-            self._assert_not_live(dest)
+-            return dest, {"ok": True, "how": "reuse", "workspace": str(dest)}
+-        self._assert_not_live(dest)
+-        cloned = self._clone(src_p, dest)
+-        if not cloned.get("ok"):
+-            raise CodexRailError(
+-                "BROKE",
+-                f"attempt-private clone failed: {cloned.get('err') or cloned}")
+-        return dest, {**cloned, "workspace": str(dest), "source": str(src_p)}
++        try:
++            return _ws_prepare(
++                payload, live_root=self._live_root, lane="codex",
++                clone_fn=self._clone)
++        except WorkspaceError as e:
++            raise CodexRailError(e.kind, e.detail) from e
+ 
+     def _argv(self, mode: str, prompt: str, last_path: Path,
+               schema_path: Path | None, model: str | None) -> list:
+
+diff --git a/cosmos/cosmos_own_clocks.py b/cosmos/cosmos_own_clocks.py
+index 3a177b7..a12a682 100644
+--- a/cosmos/cosmos_own_clocks.py
++++ b/cosmos/cosmos_own_clocks.py
+@@ -160,6 +160,16 @@ CLOCKS = (
+         "heartbeat": "cvm_clock_heartbeat.json",
+         "standup": "cvm",
+     },
++    {
++        "id": 17, "clock": "COSMOS Work-Order Runner",
++        "cadence": "15s loop / 1-min self-heal",
++        "script": "cosmos_work_order_run.py",
++        "task": "COSMOS Work-Order Runner",
++        "logon": "COSMOS Work-Order Runner Logon",
++        "vehicle": "detached daemon + 1-min self-heal + onlogon",
++        "heartbeat": "work_order_runner_heartbeat.json",
++        "standup": "work_order",
++    },
+ )
+ 
+ 
+@@ -261,6 +271,9 @@ def _call_standup(name: str, root: str) -> dict:
+         if name == "cvm":
+             from cosmos_cvm_clock import standup
+             return standup(root)
++        if name == "work_order":
++            from cosmos_work_order_run import standup, DEFAULT_INTERVAL_S as _wo
++            return standup(root, _wo)
+         return {"ok": False, "error": f"unknown standup {name}"}
+     except Exception as e:  # noqa: BLE001
+         return {"ok": False, "error": f"{type(e).__name__}: {e}"}
+@@ -304,6 +317,7 @@ def standup_all(root: str) -> dict:
+         ("COSMOS Dispatcher Logon", "cosmos_dispatcher_daemon.py", ("--loop",)),
+         ("COSMOS Runner Pool Logon", "cosmos_pool.py", ("--supervise",)),
+         ("COSMOS CVM Clock Logon", "cosmos_cvm_clock.py", ("--loop",)),
++        ("COSMOS Work-Order Runner Logon", "cosmos_work_order_run.py", ("--loop",)),
+     )
+     for name, script, extra in logon_specs:
+         if query_task(name).get("ok"):

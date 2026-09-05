@@ -166,6 +166,25 @@
   .barlegend{font-size:10px;color:var(--ink-faint);margin-bottom:8px}
   .barlegend i{display:inline-block;width:8px;height:8px;border-radius:2px;vertical-align:middle;margin:0 3px 0 8px}
   .barlegend i.s{background:var(--cyan)} .barlegend i.r{background:var(--amber)}
+  .spend-edit{
+    display:flex;flex-wrap:wrap;gap:6px;align-items:end;margin-top:6px;
+    padding:6px;background:#0e1116;border:1px solid var(--panel-edge);border-radius:3px;
+  }
+  .spend-edit label{
+    display:flex;flex-direction:column;gap:2px;color:var(--ink-dim);
+    font-size:10px;letter-spacing:.5px;
+  }
+  .spend-edit input{
+    background:#12161c;border:1px solid var(--panel-edge);color:var(--ink);
+    font-family:var(--mono);font-size:12px;padding:3px 6px;border-radius:3px;
+    outline:none;width:8em;
+  }
+  .spend-edit input:focus{border-color:var(--cyan)}
+  #spendConfirm{
+    margin:0 10px 8px;padding:6px 8px;border:1px dashed var(--amber);
+    color:var(--amber);border-radius:3px;font-size:12px;
+  }
+  #spendConfirm.hidden{display:none}
 
   /* tools */
   .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
@@ -194,14 +213,25 @@
   /* event feed */
   #feed{max-height:280px;overflow-y:auto}
   .fevent{
-    display:flex;gap:10px;align-items:baseline;padding:2px 0;
+    display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;padding:2px 0;
     border-bottom:1px solid #171d25;font-size:12px;font-variant-numeric:tabular-nums;
+    cursor:pointer;
   }
   .fevent:last-child{border-bottom:none}
+  .fevent.hide{display:none}
+  .fevent.open{border-left:2px solid var(--cyan);padding-left:6px}
   .fevent .fseq{color:var(--ink-faint);min-width:4.5em;text-align:right}
   .fevent .fname{color:var(--head);word-break:break-all;flex:1}
   .fevent .fwriter{color:var(--cyan);font-size:11px;white-space:nowrap}
   .fevent .fage{color:var(--ink-dim);font-size:11px;white-space:nowrap;min-width:5em;text-align:right}
+  .fevent .fmore{color:var(--ink-faint);font-size:11px;min-width:1em;text-align:center}
+  .fevent.open .fmore{color:var(--cyan)}
+  .finspect{flex:1 1 100%;margin:4px 0 6px;padding:6px 8px;border-left:2px solid var(--cyan);background:#0b0f14}
+  .finspect pre{font-family:var(--mono);font-size:11px;white-space:pre-wrap;word-break:break-word;max-height:220px;overflow-y:auto;margin-top:4px}
+  .finspect .chips{margin-top:6px}
+  .feedbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+  .hidden{display:none}
+  #feedJump{border-color:var(--amber);color:var(--amber)}
 
   /* tables */
   .twrap{overflow-x:auto}
@@ -260,6 +290,7 @@
 
   <section class="panel" id="panel-spend">
     <div class="panel-hd"><h2>SPEND</h2><span class="age never" id="age-spend">no data</span></div>
+    <div id="spendConfirm" class="hidden" role="status"></div>
     <div class="panel-bd" id="bd-spend"><div class="empty">not connected</div></div>
   </section>
 
@@ -304,6 +335,10 @@
   <section class="panel" id="panel-events">
     <div class="panel-hd"><h2>LIVE EVENTS</h2><span class="age never" id="age-events">no data</span></div>
     <div class="panel-bd">
+      <div class="feedbar">
+        <div id="feedFollow" class="hidden"></div>
+        <button type="button" id="feedJump" class="hidden"></button>
+      </div>
       <div id="feed"><div class="empty">not connected — the ledger tail streams here once connected</div></div>
     </div>
   </section>
@@ -318,16 +353,42 @@
 <script>
 "use strict";
 (function(){
-  var REFRESH_S    = 10;   // auto-refresh period for snapshot panels
-  var EVENTS_S     = 5;    // live event feed poll period
-  var STALE_S      = 30;   // panel goes visually stale beyond this
-  var FETCH_TO_MS  = 8000; // per-request timeout
+  // REFRESH TIERS — KDASH_REFRESH.toml (Keith, 2026-08-22). One 10s timer for
+  // every snapshot polled the RAILS matrix — a NETWORK PROBE — as often as
+  // the local spend fold. Slow panels (rails / audit / tools) now carry their
+  // own 60s clock. Stale at 3x the panel's OWN interval; a fixed 30s would
+  // badge every slow panel permanently stale the moment tiers existed.
+  var TIER_S = { fast: 10, slow: 60 };
+  var REFRESH_S = Object.keys(TIER_S).reduce(function (m, k) {
+    return TIER_S[k] < m ? TIER_S[k] : m;
+  }, Infinity);
+  var EVENTS_S     = 5;    // live event feed poll period (own clock, not a snapshot)
+  var STALE_FACTOR = 3;
+  var PANEL_TIER = {
+    health: "fast", spend: "fast", status: "fast", jobs: "fast",
+    rails: "slow", audit: "slow", tools: "slow",
+    events: "fast", create: "fast"
+  };
+  var dueAt = {};
+  function panelTier(name){ return PANEL_TIER[name] || "fast"; }
+  function panelInterval(name){
+    if(name === "events") return EVENTS_S;
+    return TIER_S[panelTier(name)] || TIER_S.fast;
+  }
+  // CVM P0 (docs/CVM_ARCH.md §9): client read timeout >=
+  // cosmos_brain.voice_client_timeout_s() == OPUS_TIMEOUT_S + GROK_FALLBACK_S +
+  // VOICE_TURN_SLACK_S == 70s. FAST GETs stay 8s. Do not abort the brain.
+  var FETCH_TO_MS  = 8000; // GET polls — UNCHANGED
+  var VOICE_TO_MS  = 70000; // POST /api/v1/voice only
   var CONSOLE_MAX  = 50;   // console keeps this many entries
   var FEED_MAX     = 200;  // event feed keeps this many rows in the DOM
 
   // ---- in-memory settings only (never persisted) ----
   var cfg = { base:"", token:"" };
   var connected = false;
+  // One 401 sentence. The chip and the transport throw the same words so they
+  // cannot drift (cDeck row 24 / 27). A live 401 is not "API unreachable".
+  var UNAUTH_CHIP = "UNAUTHORIZED — paste a bearer";
   var paused = false;
   var nextAt = 0;          // epoch ms of next scheduled snapshot refresh
   var nextEventsAt = 0;    // epoch ms of next event poll
@@ -337,23 +398,40 @@
   // per-panel state: measuredAtMs = server-declared measurement time (ms epoch),
   // error = last failure string or null. measuredAtMs===null means "never".
   var panels = {
-    health:{measuredAtMs:null,error:null},
-    spend: {measuredAtMs:null,error:null},
-    status:{measuredAtMs:null,error:null},
-    jobs:  {measuredAtMs:null,error:null},
-    rails: {measuredAtMs:null,error:null},
-    audit: {measuredAtMs:null,error:null},
-    tools: {measuredAtMs:null,error:null},
-    create:{measuredAtMs:null,error:null},
-    events:{measuredAtMs:null,error:null}
+    health:{measuredAtMs:null,error:null,errorStatus:null},
+    spend: {measuredAtMs:null,error:null,errorStatus:null},
+    status:{measuredAtMs:null,error:null,errorStatus:null},
+    jobs:  {measuredAtMs:null,error:null,errorStatus:null},
+    rails: {measuredAtMs:null,error:null,errorStatus:null},
+    audit: {measuredAtMs:null,error:null,errorStatus:null},
+    tools: {measuredAtMs:null,error:null,errorStatus:null},
+    create:{measuredAtMs:null,error:null,errorStatus:null},
+    events:{measuredAtMs:null,error:null,errorStatus:null}
   };
 
   // live feed cursor: highest seq ever rendered. Never re-request below it.
   var lastSeq = 0;
   var feedHasEvents = false;
+  // Cold start at since_seq=0 paints the ledger's FIRST page (this tree's
+  // 2026-08-23 bootstrap prefix) as if it were live. Seek to head-TAIL_WINDOW
+  // and DECLARE the skipped span. Same scar cDeck closed as TAIL-1.
+  var TAIL_WINDOW = 100;
+  var feedColdStart = true;
+  var feedSkippedTo = 0;
+  var FOLLOW_KEYS = ["job_id", "link_id", "rail", "node", "session_id", "sid", "rid"];
+  var INSPECT_MAX_CHARS = 4000;
+  var feedFollow = null;
+  var feedPinned = true;
+  var feedUnseen = 0;
 
   // console entries: {tsMs, cls, kind, head, body}
   var consoleEntries = [];
+  // F-03 confirm lane. Null until a 409 WIDEN_REQUIRES_CONFIRM; the confirm
+  // press for the SAME rail AND SAME cap is the only path that sets
+  // allow_widen as a JSON boolean true (a string is 400 BAD_FIELD).
+  var pendingSpendWiden = null;
+  var lastSpend = null;
+  var CLIENT_ID = "kdash";
 
   function $(id){ return document.getElementById(id); }
   function esc(s){
@@ -394,8 +472,10 @@
 
   // ---------- fetch ----------
   function apiCall(path, opts){
+    var budget = (opts && opts.timeout) ? opts.timeout
+               : (path === "/api/v1/voice" ? VOICE_TO_MS : FETCH_TO_MS);
     var ctl = new AbortController();
-    var t = setTimeout(function(){ ctl.abort(); }, FETCH_TO_MS);
+    var t = setTimeout(function(){ ctl.abort(); }, budget);
     var url = cfg.base.replace(/\/+$/,"") + path;
     var headers = cfg.token ? {"Authorization":"Bearer "+cfg.token} : {};
     var init = {
@@ -410,11 +490,28 @@
     }
     return fetch(url, init).then(function(r){
       clearTimeout(t);
-      if(!r.ok) throw new Error("HTTP "+r.status+" "+r.statusText);
-      return r.json();
+      return r.text().then(function(txt){
+        var j = {};
+        try { j = txt ? JSON.parse(txt) : {}; } catch(_){ j = {}; }
+        if(r.status===401){
+          var err = new Error(UNAUTH_CHIP);
+          err.status = 401;
+          err.json = j;
+          throw err;
+        }
+        if(!r.ok){
+          var msg = j.error ? String(j.error) : ("HTTP "+r.status+" "+r.statusText);
+          if(j.detail) msg += " — " + j.detail;
+          var e2 = new Error(msg);
+          e2.status = r.status;
+          e2.json = j;
+          throw e2;
+        }
+        return j;
+      });
     }).catch(function(e){
       clearTimeout(t);
-      if(e.name==="AbortError") throw new Error("timeout after "+(FETCH_TO_MS/1000)+"s");
+      if(e.name==="AbortError") throw new Error("timeout after "+(budget/1000)+"s");
       throw e;
     });
   }
@@ -501,7 +598,18 @@
         }
       };
       rec.onend = function(){ listening=false; mic.classList.remove("listening"); };
-      rec.onerror = function(){ listening=false; mic.classList.remove("listening"); };
+      rec.onerror = function(ev){
+        listening=false; mic.classList.remove("listening");
+        var err = (ev && ev.error) ? ev.error : "unknown";
+        var hint = err==="not-allowed" ? " — grant the mic in BOTH places: the OS privacy setting for this app, and this page's own site permission"
+                 : err==="network" ? " — Web Speech uploads the audio to the browser vendor; this host needs a working network"
+                 : err==="no-speech" ? " — heard nothing; speak right after tapping"
+                 : err==="service-not-allowed" ? " — the device speech service is disabled or unavailable"
+                 : err==="audio-capture" ? " — no microphone the browser can open"
+                 : "";
+        mic.title = "mic error: "+err+hint;
+        addConsole("err","MIC", err + hint, null);
+      };
       try{
         rec.start();
         listening = true;
@@ -561,19 +669,56 @@
     $("bd-health").innerHTML = h;
   }
 
+  function hideSpendConfirm(){
+    pendingSpendWiden = null;
+    var el = $("spendConfirm");
+    if(!el) return;
+    el.classList.add("hidden");
+    el.textContent = "";
+  }
+  function showSpendConfirm(rail, capUsd, detail){
+    pendingSpendWiden = { rail: rail, capUsd: capUsd };
+    var el = $("spendConfirm");
+    if(!el) return;
+    el.classList.remove("hidden");
+    el.textContent = "WIDEN_REQUIRES_CONFIRM — " + rail + " " + usd(capUsd) +
+      ". This RAISES the live cap. PUSH LIVE CAP again to confirm. A cap is never " +
+      "widened silently." + (detail ? " " + detail : "");
+  }
+  function isConfirmingWiden(rail, capUsd){
+    return !!(pendingSpendWiden
+      && pendingSpendWiden.rail === rail
+      && typeof capUsd === "number"
+      && Math.abs(pendingSpendWiden.capUsd - capUsd) < 0.005);
+  }
+  function spendErrorKind(e){
+    var j = e && e.json;
+    if(!j || typeof j !== "object") return "";
+    return String(j.error || j.kind || "").toUpperCase();
+  }
+  function readIntendedCap(box){
+    var inp = box.querySelector('input[data-f="intendedCapUsd"]');
+    if(!inp) return null;
+    var n = Number(inp.value);
+    return (inp.value.trim()!=="" && isFinite(n) && n>=0) ? n : null;
+  }
+
   function renderSpend(d){
+    lastSpend = d;
     var rails = d.rails || {};
     var names = Object.keys(rails);
     if(names.length===0){
       $("bd-spend").innerHTML = '<div class="empty">no rails reported</div>';
       return;
     }
-    var h = '<div class="barlegend">bar vs cap:<i class="s"></i>settled<i class="r"></i>reserved</div>';
+    var h = '<div class="barlegend">bar vs cap:<i class="s"></i>settled<i class="r"></i>reserved · PUSH LIVE CAP POSTs /api/v1/spend and is only reported OK when the RE-READ shows the new cap (a RAISE is 409 WIDEN_REQUIRES_CONFIRM — PUSH again to confirm, never a silent widen; <code>allow_widen</code> is a JSON boolean, never a string)</div>';
     names.sort().forEach(function(name){
       var r = rails[name] || {};
       var cap = (typeof r.cap_usd==="number" && isFinite(r.cap_usd)) ? r.cap_usd : null;
       var settled  = (typeof r.settled_usd==="number"  && isFinite(r.settled_usd))  ? r.settled_usd  : 0;
       var reserved = (typeof r.reserved_usd==="number" && isFinite(r.reserved_usd)) ? r.reserved_usd : 0;
+      var intended = (pendingSpendWiden && pendingSpendWiden.rail === name)
+        ? pendingSpendWiden.capUsd : cap;
 
       var badges = "";
       if(typeof r.unpriced_calls==="number" && r.unpriced_calls>0){
@@ -604,13 +749,111 @@
           ? '<span class="'+(r.expiry_risk?"warn":"dim")+'">expires in '+r.expires_in_days+'d</span>' : '')+
         '</div>';
 
+      var ed = '<div class="spend-edit" data-rail="'+esc(name)+'">'+
+        '<label>intended cap $ <input data-f="intendedCapUsd" type="number" step="0.01" min="0" value="'+
+          (intended!==null ? intended : "")+'"></label>'+
+        '<button type="button" data-act="push">PUSH LIVE CAP</button>'+
+        '</div>';
+
       h += '<div class="rail">'+
            '<div class="rail-hd"><span class="rname">'+esc(name)+'</span>'+badges+'</div>'+
-           bar + ft +
+           bar + ft + ed +
            '</div>';
     });
     $("bd-spend").innerHTML = h;
   }
+
+  $("bd-spend").addEventListener("click", function(e){
+    var btn = e.target.closest("button[data-act]");
+    if(!btn) return;
+    var box = btn.closest(".spend-edit");
+    if(!box) return;
+    var name = box.getAttribute("data-rail");
+    var intended = readIntendedCap(box);
+    var act = btn.getAttribute("data-act");
+    if(act !== "push") return;
+    if(!connected){
+      addConsole("err","NOT CONNECTED","connect before pushing a live cap",null);
+      return;
+    }
+    if(intended == null){
+      addConsole("err","SPEND","PUSH LIVE CAP needs an intended cap $",null);
+      return;
+    }
+    var live = lastSpend && lastSpend.rails && lastSpend.rails[name];
+    if(live){
+      var settled = (typeof live.settled_usd==="number" && isFinite(live.settled_usd)) ? live.settled_usd : 0;
+      var reserved = (typeof live.reserved_usd==="number" && isFinite(live.reserved_usd)) ? live.reserved_usd : 0;
+      if(intended < settled + reserved){
+        hideSpendConfirm();
+        addConsole("err","BELOW_OUTSTANDING","new cap $"+intended+
+          " is below outstanding settled+reserved "+usd(settled+reserved)+
+          " — further calls will DENY. Raise the cap or wait for settle.",null);
+        return;
+      }
+    }
+    // First press never carries allow_widen. Core F-03: a raise without a
+    // literal JSON true is 409 WIDEN_REQUIRES_CONFIRM. The confirm press for
+    // the SAME rail AND SAME cap is the only path that sets the flag, and it
+    // is a boolean — `JSON.stringify` emits `true`, not `"true"`. A string is
+    // 400 BAD_FIELD on Core (the Python-truthy-"false" scar).
+    var confirming = isConfirmingWiden(name, intended);
+    var body = { rail: name, cap_usd: intended, client_id: CLIENT_ID };
+    if (confirming) {
+      body.allow_widen = true;
+    }
+    apiPost("/api/v1/spend", body).then(function(d){
+      hideSpendConfirm();
+      // A 2xx is NOT the proof. The proof is the RE-READ: GET /spend must come
+      // back carrying the cap that was pushed. Reporting "accepted" off the POST
+      // alone is the fake-DONE class.
+      return refreshPanel("spend","/api/v1/spend",
+        function(x){ var m=toMs(x.measured_at_epoch); return m!==null?m:toMs(x.served_at); },
+        renderSpend).then(function(){
+        var row = lastSpend && lastSpend.rails && lastSpend.rails[name];
+        var seen = (row && typeof row.cap_usd==="number" && isFinite(row.cap_usd)) ? row.cap_usd : null;
+        if(seen !== null && Math.abs(seen - intended) < 0.005){
+          addConsole("ok","SPEND ROUND-TRIP","live cap for "+name+
+            " round-tripped — re-read measured cap "+usd(seen),
+            JSON.stringify(d, null, 2));
+        }else{
+          addConsole("err","WRITE_NOT_VISIBLE","POST /api/v1/spend answered, but the "+
+            "re-read of GET /spend shows "+(seen===null?"no such rail":usd(seen))+
+            ", not "+usd(intended)+" — the live gate is NOT confirmed moved.",
+            JSON.stringify(d, null, 2));
+        }
+      });
+    }).catch(function(e){
+      var st = e && e.status;
+      var kind = spendErrorKind(e);
+      if(kind === "WIDEN_REQUIRES_CONFIRM"){
+        showSpendConfirm(name, intended, e.json && e.json.detail);
+        addConsole("err","WIDEN_REQUIRES_CONFIRM",
+          name+" "+usd(intended)+" would RAISE the live cap. "+
+          "PUSH LIVE CAP again to confirm. Live gate unchanged.",
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      hideSpendConfirm();
+      if(kind === "BELOW_OUTSTANDING"){
+        addConsole("err","BELOW_OUTSTANDING", e.message || String(e),
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      if(kind === "BAD_FIELD"){
+        addConsole("err","BAD_FIELD", e.message || String(e),
+          e.json ? JSON.stringify(e.json, null, 2) : null);
+        return;
+      }
+      var missing = st === 404 || st === 405 || kind === "NOT_FOUND";
+      addConsole("err", missing ? "NO SPEND-WRITE HTTP" : "SPEND",
+        missing
+          ? ("COSMOS has no POST /api/v1/spend — live gate unchanged. ("+
+            (e.message || e)+")")
+          : (e.message || String(e)),
+        e.json ? JSON.stringify(e.json, null, 2) : null);
+    });
+  });
 
   function renderStatus(d){
     var lh = d.ledger_head || {};
@@ -815,48 +1058,223 @@
   });
 
   // ---------- live event feed (append-only, cursor on seq) ----------
+  function eventSeq(ev){
+    if(typeof ev.seq==="number" && isFinite(ev.seq)) return ev.seq;
+    if(typeof ev.seq==="string" && ev.seq.trim()!==""){
+      var n = Number(ev.seq);
+      if(isFinite(n)) return n;
+    }
+    return null;
+  }
+  function tailSeek(cursor, headSeq, coldStart){
+    if(!coldStart || cursor !== 0) return { seek:false, cursor:cursor, skipped:0 };
+    if(typeof headSeq!=="number" || !isFinite(headSeq)) return { seek:false, cursor:cursor, skipped:0 };
+    if(headSeq <= TAIL_WINDOW) return { seek:false, cursor:cursor, skipped:0 };
+    var to = headSeq - TAIL_WINDOW;
+    return { seek:true, cursor:to, skipped:to };
+  }
+  function advanceCursor(events, cursor, headSeq){
+    if(typeof headSeq==="number" && isFinite(headSeq) && headSeq < cursor){
+      return { rewind:true, cursor:0, keep:[] };
+    }
+    var keep = [], next = cursor;
+    (events||[]).forEach(function(ev){
+      var seq = eventSeq(ev);
+      if(seq===null){ keep.push(ev); return; }
+      if(seq <= cursor) return;
+      if(seq > next) next = seq;
+      keep.push(ev);
+    });
+    return { rewind:false, cursor:next, keep:keep };
+  }
+  function eventIds(ev){
+    var p = ev && ev.payload, out = [];
+    if(!p || typeof p!=="object") return out;
+    FOLLOW_KEYS.forEach(function(k){
+      var v = p[k];
+      if(v===null || v===undefined || typeof v==="object") return;
+      var s = String(v).trim();
+      if(s!=="") out.push({ key:k, value:s });
+    });
+    return out;
+  }
+  function idToken(id){ return id.key+"="+id.value; }
+  function rowMatches(el){
+    if(!feedFollow) return true;
+    var ids = (el.getAttribute("data-ids")||"").split(" ");
+    return ids.indexOf(idToken(feedFollow)) >= 0;
+  }
+  function updateFollowNotice(){
+    var feed = $("feed");
+    if(!feed) return;
+    var old = feed.querySelector("#feed-nomatch");
+    if(old) old.remove();
+    if(!feedFollow) return;
+    var total = feed.querySelectorAll(".fevent").length;
+    var shown = feed.querySelectorAll(".fevent:not(.hide)").length;
+    if(shown > 0) return;
+    var d = document.createElement("div");
+    d.className = "empty";
+    d.id = "feed-nomatch";
+    d.innerHTML = "following "+esc(idToken(feedFollow))+" — <b>0</b> of "+
+      esc(total)+" loaded records name that id"+
+      (feedSkippedTo>0 ? ", and "+esc(feedSkippedTo)+" older records were not loaded" : "")+
+      ". This is the filter matching nothing, not COSMOS going quiet.";
+    feed.appendChild(d);
+  }
+  function applyFeedFilter(){
+    Array.prototype.forEach.call(document.querySelectorAll("#feed .fevent"), function(el){
+      el.classList.toggle("hide", !rowMatches(el));
+    });
+    updateFollowNotice();
+  }
+  function setFollow(id){
+    feedFollow = id;
+    renderFeedChips();
+    applyFeedFilter();
+  }
+  function renderFeedChips(){
+    var fol = $("feedFollow"), jump = $("feedJump");
+    if(!fol || !jump) return;
+    if(feedFollow){
+      fol.innerHTML = '<span class="chip">following '+esc(idToken(feedFollow))+"</span>"+
+        '<button type="button" id="feedUnfollow">show all events</button>';
+      fol.classList.remove("hidden");
+    } else {
+      fol.innerHTML = "";
+      fol.classList.add("hidden");
+    }
+    if(!feedPinned && feedUnseen>0){
+      jump.textContent = feedUnseen+" new below — jump to live";
+      jump.classList.remove("hidden");
+    } else {
+      jump.textContent = "";
+      jump.classList.add("hidden");
+    }
+  }
+  function feedAtTail(el){
+    return (el.scrollHeight - el.scrollTop - el.clientHeight) <= 4;
+  }
+  function inspectHtml(ev){
+    var ids = eventIds(ev);
+    var seq = eventSeq(ev);
+    var tMs = toMs(ev.t);
+    var h = '<div class="finspect">'+
+      '<div class="dim tiny">seq '+esc(seq!==null?seq:"—")+
+      " · writer "+esc(ev.writer!=null?ev.writer:"—")+
+      " · t "+esc(tMs!==null?new Date(tMs).toISOString():(ev.t!=null?ev.t:"—"))+
+      "</div>";
+    if(ev.payload===null || ev.payload===undefined){
+      h += '<div class="empty">no payload on this ledger record — the row above is all COSMOS wrote</div>';
+    } else {
+      var txt;
+      try { txt = JSON.stringify(ev.payload, null, 1); } catch(_){ txt = String(ev.payload); }
+      if(txt.length > INSPECT_MAX_CHARS){
+        txt = txt.slice(0, INSPECT_MAX_CHARS)+"\n… truncated at "+INSPECT_MAX_CHARS+
+          " of "+txt.length+" characters";
+      }
+      h += "<pre>"+esc(txt)+"</pre>";
+    }
+    if(ids.length>0){
+      h += '<div class="chips">'+ids.map(function(i){
+        return '<button type="button" data-follow="'+esc(idToken(i))+'">follow '+
+          esc(i.key)+" "+esc(i.value)+"</button>";
+      }).join("")+"</div>";
+    } else {
+      h += '<div class="dim tiny">nothing to follow — this record names no '+
+        esc(FOLLOW_KEYS.join(" / "))+". The deck does not invent a thread it was not told.</div>";
+    }
+    return h+"</div>";
+  }
+  function toggleInspect(row){
+    var open = row.querySelector(".finspect");
+    if(open){ open.remove(); row.classList.remove("open"); return; }
+    row.classList.add("open");
+    row.insertAdjacentHTML("beforeend", inspectHtml(row.__ev || {}));
+  }
+
   function pollEvents(){
     if(!connected || eventsInflight) return;
     eventsInflight = true;
     apiGet("/api/v1/events?since_seq="+lastSeq).then(function(d){
       eventsInflight = false;
+      var seek = tailSeek(lastSeq, d.head_seq, feedColdStart);
+      feedColdStart = false;
+      if(seek.seek){
+        lastSeq = seek.cursor;
+        feedSkippedTo = seek.skipped;
+        markSuccess("events", Date.now());
+        $("feed").innerHTML = '<div class="empty">seeking the live tail — head_seq '+
+          esc(d.head_seq)+", opening at seq "+esc(seek.cursor+1)+"</div>";
+        pollEvents();
+        return;
+      }
+      var stepped = advanceCursor(d.events || [], lastSeq, d.head_seq);
+      if(stepped.rewind){
+        lastSeq = 0;
+        feedHasEvents = false;
+        feedColdStart = true;
+        feedSkippedTo = 0;
+        $("feed").innerHTML = '<div class="empty">ledger rewind — restarting feed at seq 0</div>';
+        pollEvents();
+        return;
+      }
       markSuccess("events", Date.now());
       var feed = $("feed");
-      var evs = d.events || [];
+      var incoming = d.events || [];
       if(!feedHasEvents){
-        if(evs.length===0){
+        if(incoming.length===0){
           feed.innerHTML = '<div class="empty">no events yet — head_seq '+
             esc(d.head_seq!=null?d.head_seq:"—")+'</div>';
-        }else{
-          feed.innerHTML = "";
+        } else {
+          feed.innerHTML = feedSkippedTo>0
+            ? '<div class="empty">feed opens at the live tail — '+esc(feedSkippedTo)+
+              " older records (seq 1–"+esc(feedSkippedTo)+") are in the ledger "+
+              "and were not loaded</div>"
+            : "";
         }
       }
-      evs.forEach(function(ev){
-        var seq = (typeof ev.seq==="number") ? ev.seq : null;
-        if(seq!==null && seq<=lastSeq) return;  // never re-render old events
-        if(seq!==null && seq>lastSeq) lastSeq = seq;
+      var shown = 0;
+      stepped.keep.forEach(function(ev){
+        var seq = eventSeq(ev);
         feedHasEvents = true;
         var row = document.createElement("div");
         row.className = "fevent";
+        var evName = ev.event!=null ? String(ev.event) : "";
+        row.setAttribute("data-event", evName);
+        var ids = eventIds(ev);
+        row.setAttribute("data-ids", ids.map(idToken).join(" "));
+        row.__ev = ev;
         var tMs = toMs(ev.t);
         row.innerHTML =
           '<span class="fseq">'+(seq!==null?seq:"—")+'</span>'+
-          '<span class="fname">'+esc(ev.event!=null?ev.event:"—")+'</span>'+
+          '<span class="fname">'+esc(evName||"—")+'</span>'+
           '<span class="fwriter">'+esc(ev.writer!=null?ev.writer:"—")+'</span>'+
           '<span class="fage"'+(tMs!==null?' data-t="'+tMs+'"':'')+'>'+
-            (tMs!==null?humanAge((Date.now()-tMs)/1000):"—")+'</span>';
+            (tMs!==null?humanAge((Date.now()-tMs)/1000):"—")+'</span>'+
+          '<span class="fmore" title="click the row for its payload">'+
+            (ev.payload!=null?"+":"·")+"</span>";
+        if(!rowMatches(row)) row.classList.add("hide");
+        else shown++;
         feed.appendChild(row);
       });
+      updateFollowNotice();
+      lastSeq = stepped.cursor;
       while(feed.children.length > FEED_MAX && feed.firstChild){
         feed.removeChild(feed.firstChild);
       }
-      if(evs.length>0) feed.scrollTop = feed.scrollHeight;
-      if(typeof d.head_seq==="number" && d.head_seq>lastSeq) {
-        // more events exist than one page returned — next poll continues from lastSeq
+      if(stepped.keep.length>0){
+        if(feedPinned){
+          feed.scrollTop = feed.scrollHeight;
+          feedUnseen = 0;
+        } else {
+          feedUnseen += shown;
+        }
+        renderFeedChips();
       }
     }).catch(function(e){
       eventsInflight = false;
-      markError("events", e.message || String(e));
+      markError("events", e.message || String(e), e.status);
     });
   }
 
@@ -864,6 +1282,7 @@
   function markSuccess(name, measuredMs){
     var p = panels[name];
     p.error = null;
+    p.errorStatus = null;
     p.measuredAtMs = (measuredMs!==null) ? measuredMs : Date.now();
     var el = $("panel-"+name);
     el.classList.remove("error");
@@ -871,9 +1290,10 @@
     if(old) old.remove();
   }
 
-  function markError(name, msg){
+  function markError(name, msg, status){
     var p = panels[name];
     p.error = msg;
+    p.errorStatus = (typeof status === "number") ? status : null;
     var el = $("panel-"+name);
     el.classList.add("error");
     var box = el.querySelector(".errbox");
@@ -882,7 +1302,11 @@
       box.className = "errbox";
       el.querySelector(".panel-bd").insertBefore(box, el.querySelector(".panel-bd").firstChild);
     }
-    box.innerHTML = '<b>UNREACHABLE</b> — '+esc(msg)+
+    var label = (p.errorStatus === 401) ? "UNAUTHORIZED" : "UNREACHABLE";
+    var shown = (p.errorStatus === 401)
+      ? "COSMOS answered. Paste a bearer above. This is not API unreachable."
+      : esc(msg);
+    box.innerHTML = '<b>'+label+'</b> — '+shown+
       (p.measuredAtMs!==null ? ' <span class="dim">(showing last good data below)</span>' : '');
   }
 
@@ -890,8 +1314,10 @@
     return apiGet(path).then(function(d){
       render(d);
       markSuccess(name, extractMs(d));
+      dueAt[name] = Date.now() + panelInterval(name)*1000;
     }).catch(function(e){
-      markError(name, e.message || String(e));
+      markError(name, e.message || String(e), e.status);
+      dueAt[name] = 0;  // fail → next round, never held behind a 60s tick
     });
   }
 
@@ -899,27 +1325,37 @@
     if(!connected || inflight) return;
     inflight = true;
     var t0 = Date.now();
-    Promise.all([
-      refreshPanel("health","/api/v1/health",
-        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderHealth),
-      refreshPanel("spend","/api/v1/spend",
-        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderSpend),
-      refreshPanel("status","/api/v1/status",
-        function(d){ return toMs(d.served_at); }, renderStatus),
-      refreshPanel("jobs","/api/v1/jobs",
-        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderJobs),
-      refreshPanel("rails","/api/v1/rails",
-        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails),
-      refreshPanel("audit","/api/v1/audit",
-        function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit),
-      refreshPanel("tools","/api/v1/tools",
-        function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderTools)
-    ]).then(function(){
+    var ops = [];
+    function maybe(name, path, extractMs, render){
+      if(t0 >= (dueAt[name] || 0)){
+        ops.push(refreshPanel(name, path, extractMs, render));
+      }
+    }
+    maybe("health","/api/v1/health",
+      function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderHealth);
+    maybe("spend","/api/v1/spend",
+      function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderSpend);
+    maybe("status","/api/v1/status",
+      function(d){ return toMs(d.served_at); }, renderStatus);
+    maybe("jobs","/api/v1/jobs",
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderJobs);
+    maybe("rails","/api/v1/rails",
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderRails);
+    maybe("audit","/api/v1/audit",
+      function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit);
+    maybe("tools","/api/v1/tools",
+      function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderTools);
+    Promise.all(ops).then(function(){
       inflight = false;
       var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
       var allBad = Object.keys(panels).every(function(k){ return k==="events" || k==="create" || panels[k].error!==null; });
+      var all401 = Object.keys(panels).every(function(k){ return k==="events" || k==="create" || panels[k].errorStatus === 401; });
       var cs = $("connState");
-      if(allBad){ cs.textContent="API unreachable"; cs.className="bad"; }
+      if(all401){
+        cs.textContent = UNAUTH_CHIP;
+        cs.className = "bad";
+        try { $("token").focus(); } catch(_){}
+      } else if(allBad){ cs.textContent="API unreachable"; cs.className="bad"; }
       else if(anyOk){ cs.textContent="connected · "+cfg.base+" · rtt "+(Date.now()-t0)+"ms"; cs.className="ok"; }
       nextAt = Date.now() + REFRESH_S*1000;
       tick();
@@ -940,9 +1376,13 @@
         return;
       }
       var ageS = (now - p.measuredAtMs)/1000;
+      var interval = panelInterval(name);
+      var staleAfter = interval * STALE_FACTOR;
       ageEl.textContent = humanAge(ageS);
       ageEl.className = "age";
-      if(ageS > STALE_S) el.classList.add("stale");
+      ageEl.title = "tier "+panelTier(name).toUpperCase()+
+        " · refreshed every "+interval+"s · stale after "+staleAfter+"s";
+      if(ageS > staleAfter) el.classList.add("stale");
       else el.classList.remove("stale");
     });
     // live event ages update in place
@@ -977,13 +1417,21 @@
       // new backend → new ledger → reset the feed cursor honestly
       lastSeq = 0;
       feedHasEvents = false;
+      feedColdStart = true;
+      feedSkippedTo = 0;
+      feedFollow = null;
+      feedPinned = true;
+      feedUnseen = 0;
       $("feed").innerHTML = '<div class="empty">connecting — the ledger tail streams here</div>';
       panels.events.measuredAtMs = null;
       panels.events.error = null;
+      panels.events.errorStatus = null;
+      renderFeedChips();
     }
     cfg.base  = newBase;
     cfg.token = $("token").value.trim();
     if(!cfg.base){ $("connState").textContent="API base required"; $("connState").className="bad"; return; }
+    dueAt = {};  // a new CONNECT re-asks every panel; never inherit a 60s hold
     connected = true;
     paused = false;
     $("btnPause").disabled = false;
@@ -994,6 +1442,36 @@
     nextEventsAt = Date.now() + EVENTS_S*1000;
     refreshAll();
     pollEvents();
+  });
+
+  $("feed").addEventListener("click", function(e){
+    var t = e.target;
+    if(!t || !t.closest) return;
+    var fb = t.closest("button[data-follow]");
+    if(fb){
+      var parts = String(fb.getAttribute("data-follow")||"").split("=");
+      if(parts.length>=2) setFollow({ key:parts[0], value:parts.slice(1).join("=") });
+      return;
+    }
+    var row = t.closest(".fevent");
+    if(row) toggleInspect(row);
+  });
+  $("feedFollow").addEventListener("click", function(e){
+    if(e.target && e.target.id==="feedUnfollow") setFollow(null);
+  });
+  $("feedJump").addEventListener("click", function(){
+    var el = $("feed");
+    el.scrollTop = el.scrollHeight;
+    feedPinned = true;
+    feedUnseen = 0;
+    renderFeedChips();
+  });
+  $("feed").addEventListener("scroll", function(){
+    var atTail = feedAtTail(this);
+    if(atTail === feedPinned) return;
+    feedPinned = atTail;
+    if(atTail) feedUnseen = 0;
+    renderFeedChips();
   });
 
   $("btnPause").addEventListener("click", function(){

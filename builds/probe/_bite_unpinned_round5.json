@@ -1,0 +1,12 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round5 unpinned probe refusals \u2014 current vs claimed",
+ "scout_array_kind": null,
+ "scout_array_crash": "AttributeError",
+ "hands_garbage_kind": null,
+ "hands_garbage_crash": "JSONDecodeError",
+ "hands_garbage_has_kind": false,
+ "hands_array_kind": null,
+ "hands_array_crash": "AttributeError",
+ "all_bite": true
+}

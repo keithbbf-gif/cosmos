@@ -1,0 +1,109 @@
+{
+ "wire": "cvm-dt-tts-piper/1",
+ "voice_id": "en_US-amy-low",
+ "phone": {
+  "apk_model_dir": "vits-piper-en_US-amy-low-int8",
+  "apk_model_file": "en_US-amy-low.onnx",
+  "apk_archive_sha256": "93070ac9fadf512e56c46bdd0c5d2ce96b424fdc4e683d560167410bd2c4df7d",
+  "source": "V:/Ai/tmp/cosmos-android/app/src/main/java/com/cosmos/voice/TtsModelManager.kt"
+ },
+ "provisioned": {
+  "site": true,
+  "report": true,
+  "voice_dir": true,
+  "onnx": true,
+  "json": true,
+  "site_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\piper_site",
+  "voice_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\piper_voices\\en_US-amy-low",
+  "ready": true,
+  "packages": [
+   {
+    "name": "flatbuffers",
+    "version": "25.12.19",
+    "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+   },
+   {
+    "name": "numpy",
+    "version": "2.5.2",
+    "sha256": "7587f53dfbd5edc0f7b87c6217b4c6d2d1f2ef9c3da70bc1315e7db5f8d7ec9d"
+   },
+   {
+    "name": "onnxruntime",
+    "version": "1.29.0",
+    "sha256": "4a3129ae56e70d2618ff773920166916310370a7e3cacb60b9e0e8910092725f"
+   },
+   {
+    "name": "packaging",
+    "version": "26.3",
+    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+   },
+   {
+    "name": "pathvalidate",
+    "version": "3.3.1",
+    "sha256": "5263baab691f8e1af96092fa5137ee17df5bdfbd6cff1fcac4d6ef4bc2e1735f"
+   },
+   {
+    "name": "piper-tts",
+    "version": "1.7.0",
+    "sha256": "a2af3dae98e1835a3b1da37e4aa290e6adf41165c7d768e1ce73d9246f867d2c"
+   },
+   {
+    "name": "protobuf",
+    "version": "7.36.0",
+    "sha256": "1781cc1de61249b750848029bca452c0a8b7e990080316b9bbc2518b2117b488"
+   }
+  ],
+  "package_count": 7,
+  "unpinned": [],
+  "only_binary": true,
+  "onnx_sha256": "a5a91abb7de0f104358a25aded480ddacf1ff0762886325886ec406a2e86aab3",
+  "onnx_bytes": 63104526,
+  "onnx_matches_pin": true,
+  "json_sha256": "2250a9a605b8dc35a116717fadc5056695dd809e34a15d02f72a0f52d53d3ebb",
+  "json_bytes": 4164,
+  "json_matches_pin": true
+ },
+ "arm": {
+  "ran": false,
+  "voice_id": "en_US-amy-low",
+  "sys_path_insert": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\piper_site",
+  "env": {
+   "COSMOS_PIPER_VOICE": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\piper_voices\\en_US-amy-low\\en_US-amy-low.onnx"
+  },
+  "note": "Provisioning does not arm CvmDt.speak. ready() becomes true when the onnx+json exist; speak() then tries Piper and falls back to SAPI on any typed refusal."
+ },
+ "say": {
+  "ok": true,
+  "engine": "piper",
+  "voice_id": "en_US-amy-low",
+  "text": "status report",
+  "wav": {
+   "bytes": 41004,
+   "channels": 1,
+   "rate": 16000,
+   "bits": 16
+  },
+  "synth_ms": 3590.482,
+  "load_ms": 3307.912,
+  "phone_voice_file": "en_US-amy-low.onnx",
+  "same_voice_id": true
+ },
+ "say_warm": {
+  "ok": true,
+  "engine": "piper",
+  "voice_id": "en_US-amy-low",
+  "text": "status report",
+  "wav": {
+   "bytes": 43052,
+   "channels": 1,
+   "rate": 16000,
+   "bits": 16
+  },
+  "synth_ms": 62.247,
+  "load_ms": 3307.912,
+  "phone_voice_file": "en_US-amy-low.onnx",
+  "same_voice_id": true
+ },
+ "iso": "2026-08-31T05:24:31-0500",
+ "emitted": "piper:en_US-amy-low:16000Hz:41004B:warm_ms=62.247"
+}

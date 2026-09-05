@@ -1,0 +1,12 @@
+BITE — test_tools_surface.py against the ABSENT state (no builds/probe/tools/)
+
+Command: py -3.14 builds/probe/test_tools_surface.py
+(run BEFORE tools/surface.py and tools/mcp_docs.py existed)
+
+  FAIL  tools/surface.py exists (F-29: the missing surface)
+  FAIL  tools/mcp_docs.py exists
+live_value: {"rows": 0, "state": "ABSENT"}
+result: FAIL  0/2
+
+That is the proof the suite bites on the FEATURE_MASTER row as filed:
+`ls tools` → "No such file or directory".

@@ -10,13 +10,16 @@ import os, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_paths import extended
 from cosmos_platform import (PlatformError, run, run_tree_killed, write_text_lf,
                              write_text_crlf, makedirs)
 from cosmos_validate import (ValidateError, read_verified, write_declared,
                              ReturnValidator)
 from cosmos_dom import DomWorker
-from cosmos_identity import MESH_ID, PEERS, federation_ready, federation_blockers
+from cosmos_identity import (MESH_ID, PEERS, LAN_NODES, federation_ready,
+                             federation_blockers, lan_node, probe_lan_node,
+                             FederationError)
 from cosmos_ledger import Ledger
 
 RESULTS = []
@@ -26,6 +29,14 @@ def check(label, fn):
         RESULTS.append((label, bool(fn()), ""))
     except Exception as e:                                            # noqa: BLE001
         RESULTS.append((label, False, f"{type(e).__name__}: {e}"))
+
+
+def _fed_kind(fn):
+    try:
+        fn()
+    except FederationError as e:
+        return e.kind
+    return None
 
 def expect(exc, kind):
     def wrap(f):
@@ -239,6 +250,17 @@ def main() -> int:
     check("MESH_ID is KMesh", lambda: MESH_ID == "KMesh")
     check("no peer ID starts with G (GMesh UNASSIGNED - Keith assigns, nobody guesses)",
           lambda: not any(k.startswith("G") for k in PEERS))
+    check("LAN_NODES names SRV1 and T7/T7920",
+          lambda: "SRV1" in LAN_NODES and LAN_NODES["T7"]["alias"] == "T7920")
+    check("lan_node(T7920) aliases to T7",
+          lambda: lan_node("T7920")["id"] == "T7")
+    check("probe_lan_node(SRV1) is NO_HOST not READY",
+          lambda: probe_lan_node("SRV1")["kind"] == "NO_HOST"
+          and probe_lan_node("SRV1")["reachable"] is False)
+    check("unknown LAN node is UNKNOWN_NODE",
+          lambda: _fed_kind(lambda: lan_node("NO-SUCH-BOX")) == "UNKNOWN_NODE")
+    check("federation_blockers name SRV1 and T7920",
+          lambda: any("SRV1" in b and "T7920" in b for b in federation_blockers()))
 
     bad = [(l, e) for l, ok_, e in RESULTS if not ok_]
     for label, ok_, err in RESULTS:

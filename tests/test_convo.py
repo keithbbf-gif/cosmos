@@ -14,6 +14,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_convo import ConvoStore, ConvoError
 
@@ -174,6 +175,14 @@ def main() -> int:
                    events.count("CONVO_REOPENED")) == (2, 6, 1, 1))
     check("every CONVO_TURN payload names its sid (projection has its facts)",
           lambda: all(r["payload"].get("sid")
+                      for r in recs if r["event"] == "CONVO_TURN"))
+    check("every CONVO_TURN carries session_id == sid (FOLLOW_KEYS harvest)",
+          lambda: all(r["payload"].get("session_id") == r["payload"].get("sid")
+                      for r in recs if r["event"] == "CONVO_TURN"))
+    check("a turn with job_ids also writes singular job_id (FOLLOW harvests "
+          "scalars, not arrays)",
+          lambda: any(r["payload"].get("job_id") == "job-7"
+                      and r["payload"].get("job_ids") == ["job-7"]
                       for r in recs if r["event"] == "CONVO_TURN"))
 
     # ===== FOLD HARDENING: signed-but-wrong records never project =====

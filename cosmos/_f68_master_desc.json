@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "schema": "cosmos-master-desc/1",
+ "live_value": {
+  "checks": 12,
+  "incumbent_chars": 18950,
+  "scratch_bytes": 4564,
+  "iterate_pin": "ITERATE returns to stage 1 RESEARCH (1\u21928), not 5\u21928",
+  "docs_out": "V:\\A\\Ai\\COSMOS\\docs\\COSMOS_MASTER_DESCRIPTION.docx",
+  "docs_present": true
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "ok": true,
+ "what": "live cosmos_mount_clock --once --source tiny --force also pushed R2",
+ "tree_id": "KMesh-COSMOS-live",
+ "cli_rc": 1,
+ "cli_rc_note": "PARTIAL because odx/es3 dests empty (operator SKIPPED / queued); not a defect",
+ "state": "PARTIAL",
+ "prefix_stamp": "20260831T183424",
+ "r2_target": {
+  "target_kind": "r2",
+  "scope": "src",
+  "source": "V:\\A\\Ai\\COSMOS\\live\\work\\_delme_mount_r2_prove\\src",
+  "readback_scratch": "V:\\A\\Ai\\COSMOS\\live\\work\\_delme_mount_r2_readback\\src-20260831T183424",
+  "ok": true,
+  "state": "PUSHED",
+  "files_pushed": 2,
+  "bytes_pushed": 47,
+  "readback_verified": 2,
+  "prefix": "src/20260831T183424",
+  "bucket": "ai-dchambers",
+  "receipt": "V:\\A\\Ai\\COSMOS\\live\\logs\\mount\\r2-src-20260831T183424.json"
+ },
+ "gdx_state": "PUSHED",
+ "odx_kind": "NO_DEST",
+ "es3_kind": "NO_DEST",
+ "heartbeat_path": "V:\\A\\Ai\\COSMOS\\live\\logs\\mount_clock_heartbeat.json",
+ "receipt_kind": "R2_PUSH_OK",
+ "receipt_readback_verified": 2,
+ "bucket": "ai-dchambers",
+ "secret_copied": false
+}

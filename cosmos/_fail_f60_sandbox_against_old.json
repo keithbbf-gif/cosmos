@@ -1,0 +1,21 @@
+{
+ "schema": "cosmos-f60-sandbox-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f60_sandbox_20260831T183526Z",
+ "old_clock_bytes": 11909,
+ "old_guard_bytes": 4938,
+ "old_fence_bytes": 17030,
+ "pins": {
+  "clock_names_sandbox_env": false,
+  "clock_has_schtasks_sandbox_on": false,
+  "guard_sets_sandbox_env": false,
+  "fence_sets_sandbox_env": false,
+  "fence_pins_health_unfenced_empty": false,
+  "old_query_under_env_did_not_spawn": false
+ },
+ "old_query_calls": 1,
+ "old_query_err": null,
+ "old_query_ok": false,
+ "old_query_sandbox": null,
+ "all_new_pins_failed": true,
+ "failed_pin_count": 6
+}

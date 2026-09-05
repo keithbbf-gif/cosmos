@@ -1,0 +1,12 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round3 unpinned probe refusals \u2014 current vs claimed",
+ "resumed_tidy_class": "HOLD",
+ "resumed_tidy_why": "unrecognised mode='resumed' - fail-closed to HOLD",
+ "operator_hold_class": "HOLD",
+ "tidyup_hold_class": "ARM",
+ "sha256_dir_returns": null,
+ "sha256_dir_crash": null,
+ "sha256_missing_returns": null,
+ "all_bite": true
+}

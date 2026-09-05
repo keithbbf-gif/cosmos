@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-f69-h6-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f69_h6_20260831T184200Z",
+ "old_dispatch_bytes": 59342,
+ "old_jobs_bytes": 22346,
+ "old_test_bytes": 33797,
+ "pins": {
+  "dispatch_claude_kind_live_proven": false,
+  "dispatch_sonnet_kind_live_proven": false,
+  "jobs_claude_bakes_proven": false,
+  "test_pins_claude_proven": false,
+  "test_h6_ok_requires_claude_proven": false,
+  "jobs_suite_pins_claude_proven": false
+ },
+ "all_new_pins_failed": true,
+ "failed_pin_count": 6,
+ "live_prove": "cosmos/_f69_h6_live.json"
+}

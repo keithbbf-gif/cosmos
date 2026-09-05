@@ -1,0 +1,42 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "F-43 local clock ignores targets.local.identity",
+ "local_row_returns_identity": true,
+ "bind_local_calls_check_identity": false,
+ "bind_local_has_identity_param": false,
+ "example_local_has_identity": false,
+ "mismatch_bind": {
+  "kind": null,
+  "crash": null,
+  "returned": "WindowsPath",
+  "value_preview": "WindowsPath:C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_bite_f43_id_d3uq41qs",
+  "state": null
+ },
+ "mismatch_bind_silent": true,
+ "mismatch_tick": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:state=VERIFIED:kind=None",
+  "state": "VERIFIED"
+ },
+ "mismatch_tick_verified": true,
+ "mismatch_created_a_set": true,
+ "identity_str": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:state=VERIFIED:kind=None",
+  "state": "VERIFIED"
+ },
+ "identity_str_silent": true,
+ "unknown_kind": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:state=VERIFIED:kind=None",
+  "state": "VERIFIED"
+ },
+ "unknown_kind_silent": true,
+ "all_bite": true
+}

@@ -1,0 +1,82 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round6 unpinned probe refusals \u2014 current vs claimed",
+ "close_refused_in_docstring": true,
+ "close_refused_raise_present": false,
+ "close_refused_still_unraised": true,
+ "scout_number": {
+  "kind": "NO_ROOT",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "hands_number": {
+  "kind": "BAD_SENTINEL",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "scout_null": {
+  "kind": "NO_ROOT",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "hands_null": {
+  "kind": "BAD_SENTINEL",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "scout_true": {
+  "kind": "NO_ROOT",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "hands_true": {
+  "kind": "BAD_SENTINEL",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "tax_out_is_dir": {
+  "kind": "UNWRITABLE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "td_ledger_json_object": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'bool' object has no attribute 'get'"
+ },
+ "resession_pause_array": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'get'"
+ },
+ "resession_pause_none": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "{'class': 'RUNNING', 'why': 'no PAUSE.flag'}"
+ },
+ "resession_pause_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'get'"
+ },
+ "bites": [
+  "td_ledger_json_object",
+  "resession_pause_array",
+  "resession_pause_str"
+ ],
+ "all_bite": true,
+ "could_not_pin": [
+  "CLOSE_REFUSED"
+ ]
+}

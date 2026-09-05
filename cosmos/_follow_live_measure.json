@@ -1,0 +1,89 @@
+{
+ "ok": true,
+ "ledger": "V:\\A\\Ai\\COSMOS\\live\\ledger\\authority.jsonl",
+ "n_records": 1334,
+ "bad_lines": 0,
+ "head_seq": 1334,
+ "with_any_follow_key": 707,
+ "key_counts": {
+  "link_id": 397,
+  "rail": 141,
+  "sid": 130,
+  "rid": 82,
+  "node": 19,
+  "session_id": 38
+ },
+ "by_event": {
+  "HEALTH_BOARD": 353,
+  "PROBE_RESULT": 318,
+  "TOOL_DECLARED": 143,
+  "CONVO_TURN": 112,
+  "COMMAND_HANDLED": 56,
+  "BUDGET_SET": 48,
+  "VOICE_TELEMETRY": 46,
+  "LINK_REGISTERED": 41,
+  "SPEND_RESERVED": 41,
+  "SPEND_SETTLED": 41,
+  "BACKUP_VERIFIED": 28,
+  "BOOT_VERIFIED": 24,
+  "RAIL_DISPATCH": 19,
+  "RAIL_RESULT": 19,
+  "CONVO_OPENED": 14,
+  "SPEND_CAP_REFUSED": 11,
+  "TOOL_DISPOSITION": 8,
+  "MAKER_ADDED": 6,
+  "SESSION_SEED_WRITTEN": 2,
+  "SESSION_OPENED": 1,
+  "SESSION_CLOSED": 1,
+  "NODE_REVIEW": 1,
+  "CRUCIBLE_REFUSED": 1
+ },
+ "by_event_with": {
+  "PROBE_RESULT": 318,
+  "CONVO_TURN": 112,
+  "BUDGET_SET": 48,
+  "LINK_REGISTERED": 41,
+  "SPEND_RESERVED": 41,
+  "SPEND_SETTLED": 41,
+  "VOICE_TELEMETRY": 38,
+  "RAIL_DISPATCH": 19,
+  "RAIL_RESULT": 19,
+  "CONVO_OPENED": 14,
+  "SPEND_CAP_REFUSED": 11,
+  "SESSION_SEED_WRITTEN": 2,
+  "SESSION_OPENED": 1,
+  "SESSION_CLOSED": 1,
+  "NODE_REVIEW": 1
+ },
+ "events_with_zero_ids": [
+  "BACKUP_VERIFIED",
+  "BOOT_VERIFIED",
+  "COMMAND_HANDLED",
+  "CRUCIBLE_REFUSED",
+  "HEALTH_BOARD",
+  "MAKER_ADDED",
+  "TOOL_DECLARED",
+  "TOOL_DISPOSITION"
+ ],
+ "tail_n": 100,
+ "tail_with_any": 16,
+ "tail_keys": {
+  "rail": 2,
+  "link_id": 14
+ },
+ "tail_events": {
+  "HEALTH_BOARD": 84,
+  "PROBE_RESULT": 14,
+  "SPEND_CAP_REFUSED": 2
+ },
+ "tail_events_with": {
+  "PROBE_RESULT": 14,
+  "SPEND_CAP_REFUSED": 2
+ },
+ "tail_missing_types": {
+  "HEALTH_BOARD": 84
+ },
+ "newest_seq": 1334,
+ "newest_event": "HEALTH_BOARD",
+ "newest_follow_keys": []
+}

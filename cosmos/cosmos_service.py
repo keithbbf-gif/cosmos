@@ -3,18 +3,88 @@
 """cosmos_service - THE API SURFACE, first cut (F5 builder). One versioned HTTP API that
 KDash, the alternate frontend, voice, and mobile all consume - stdlib only, no deps.
 
-ENDPOINTS (v1):
+ENDPOINTS (v1) - COMPLETE when read with the CVM, CONTROL and STATIC blocks below;
+nothing reaches a handler that is not named across those four lists (a route table
+that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/status   - kernel READY + root identity + ledger head
     GET /api/v1/audit    - the audit projection (every number carries measured_at)
+    GET /api/v1/health   - the HealthBoard run
+    GET /api/v1/spend    - the spend gate's audit
+    GET /api/v1/tools    - the tool-contract report
+    GET /api/v1/events   - ?since_seq= oldest <=100 records past the cursor
+                           (a non-integer or out-of-range seq is 400 BAD_SINCE_SEQ);
+                           optional ?tail=N (1..100) returns the NEWEST N past
+                           the cursor instead - the dashboard primitive. One
+                           verify() walk; head_seq is taken from that walk.
     GET /api/v1/jobs     - job states from the scheduler projection
     GET /api/v1/rails    - the rails matrix with verification AGE per link
+                           (/api/v1/nodes is the SAME route under its older name)
     GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
+    GET /api/v1/surfaces - storage surfaces (measured reachability + free_gb + age)
+    GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
+    GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
+    GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
+    POST /api/v1/spend   - SET/ADJUST a rail cap or the breaker thresholds
+                           (F-03). Bearer-gated, every field validated, and
+                           NEVER a silent widen: any change giving more room
+                           to spend is 409 WIDEN_REQUIRES_CONFIRM without a
+                           literal "allow_widen": true. The change and its
+                           provenance (actor / prev / direction / reason) land
+                           in ONE signed BUDGET_SET; refusals leave a
+                           SPEND_CAP_REFUSED trace. See cosmos_spend_admin.
     POST /api/v1/jobs    - submit {command, priority} -> job_id
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
+    POST /api/v1/command - the voice/frontend seam: text in, kernel action out
+    POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
+    POST /api/v1/crucible - a critic round run as a job; 501 CRUCIBLE_NOT_RUNNABLE
+                           when no critic dispatchers are composed
+CVM (P3 additive, projection only - never the ledger):
+    GET  /api/v1/cvm/pull?client_id=  - publish state/cvm/pull.json + status prewarm
+    POST /api/v1/cvm/snapshot         - land the Android mule as state/cvm/phone.json
+    POST /api/v1/cvm/push             - phone turn; same §8.3 envelope as snapshot;
+                                        stamps pull.json audio_owner=desktop (never
+                                        a phone claim). Composes snapshot+pull.
+CONTROL CHANNEL + SPEND BREAKER (2026-08-25, cosmos_control/cosmos_spendguard):
+    GET  /api/v1/control?client_id=X  - the pause/mic_off/clear_queue state the
+                                        app polls (bearer-authed; NEVER gated
+                                        by the spend breaker)
+    POST /api/v1/kill , GET /kill     - the HUMAN OFF-SWITCH: mic_off +
+                                        clear_queue, global or ?client_id=.
+                                        Served WITHOUT the bearer (it can only
+                                        reduce capability); an optional
+                                        config/kill_token.txt gates it when
+                                        present (?token= / {"token"}).
+    POST /api/v1/control/resume       - clears the flags AND resets the local
+                                        spend counters (bearer-authed: OFF is
+                                        cheap by design, ON is deliberate)
+    /api/v1/voice is HARDENED: control flags refuse fast (zero spend); an
+    identical (client_id, utterance) inside ~15s is dropped as a duplicate
+    (zero spend); the SpendGuard breaker (session/day USD caps + rate limit)
+    refuses with a canned local reply BEFORE any model call; {stream, build,
+    client_id, idempotency_key} are accepted and ledgered as telemetry; the
+    minted session carries stream:<name> scope and the orchestrator's file
+    roots are scoped to the stream; {"action": "bootup", "stream": s} answers
+    a READ-ONLY spoken summary of the stream's handoff (V:\\Ai\\BU.MD).
+    THE BRAIN IS HYBRID (2026-08-25, cosmos_brain): command/lookup shapes stay
+    on the fast local path; free-form turns go to OPUS via the local claude
+    CLI (claude -p, session mapped 1:1 from the COSMOS sid so it is resumable
+    on the desktop via /resume), bounded by control state + rate limit + a
+    per-session TURN CAP (opus_turns_per_session in spendguard_config.json),
+    with fallback to the spend-gated Grok ask on any timeout/failure/over-cap.
+    Every reply carries "brain": opus|grok|local (or the ask verb's model
+    name) and chat/ask turns ledger a VOICE_BRAIN event.
 STATIC APP SHELL (PWA, no bearer - see _STATIC_ROUTES):
     GET / , /m , /mobile - the phone-first page (mobile is the road default)
     GET /dash            - the desktop KDash page
     GET /kdash_manifest.webmanifest , /kdash_sw.js - installability shell
+CDECK SHELL (F-11, no bearer - see _CDECK_ROUTES):
+    GET /cdeck           - 302 to /cdeck/ (so relative app.css/app.js resolve)
+    GET /cdeck/          - builds/cdeck/ui/index.html
+    GET /cdeck/index.html, /cdeck/app.js, /cdeck/app.css,
+        /cdeck/cdeck.webmanifest, /cdeck/sw.js
+    Exact-match allowlist of fixed files, same rule as KDash: NO data, NO
+    token. Same-origin with /api/v1/* is the browser path; a header that
+    would let any other origin read Core is not added (PARITY_AUDIT K-2).
 The shell is an exact-match allowlist of fixed files carrying NO data and NO
 token (the bearer is pasted into the page at runtime, memory only); every
 /api/v1/* route keeps requiring the bearer exactly as before.
@@ -43,6 +113,56 @@ _LOOPBACK_HOSTS = frozenset({"127.0.0.1", "localhost", "::1"})
 # JSON control messages; 1 MiB is generous. An uncapped Content-Length is an
 # invitation to allocate arbitrary memory on an authenticated-or-not socket.
 _MAX_BODY_BYTES = 1 << 20
+
+# POST /api/v1/spend carries a handful of numbers and a short reason. It gets a
+# far tighter cap than the general one: the money route has no reason to accept
+# a megabyte, and the smallest cap that fits the contract is the right one.
+_MAX_SPEND_BODY_BYTES = 16 << 10
+
+# GET /api/v1/events page cap. The deck's TAIL_WINDOW follows this number.
+EVENTS_PAGE = 100
+
+
+def page_events(ledger, since: int, tail=None, page: int = EVENTS_PAGE):
+    """One verify() walk. Default: the OLDEST `page` records with seq > since
+    (the existing cursor contract). `tail=N`: the NEWEST N with seq > since —
+    the dashboard primitive the deck otherwise fakes with a second request.
+
+    head_seq is the last seq observed on THIS walk, so the caller never calls
+    ledger.head_seq() (a second full verify of the same chain). Empty ledger
+    returns head_seq 0. The chain is still hash-verified end-to-end: a
+    hash-chained ledger cannot skip earlier records.
+    """
+    from collections import deque
+    if tail is not None:
+        buf = deque(maxlen=int(tail))
+    else:
+        buf = []
+        cap = int(page)
+    head = 0
+    for r in ledger.verify():
+        head = r["seq"]
+        if r["seq"] <= since:
+            continue
+        row = {"seq": r["seq"], "event": r["event"], "t": r["t"],
+               "writer": r["writer"], "payload": r["payload"]}
+        if tail is not None:
+            buf.append(row)
+        elif len(buf) < cap:
+            buf.append(row)
+    return head, list(buf)
+
+# ---------------- CVM projection (P3 additive; not the ledger) ----------------
+# PHASE 4 seam: helpers live in cosmos_cvm_projection and are re-exported
+# here -- same objects, not copies -- so cosmos_cvm_push.py and
+# tests/test_cvm_push.py (`CvmError`, `_cvm_pull_response`,
+# `_cvm_store_snapshot`) keep working unchanged. Handlers below only call
+# these helpers. Additive.
+from cosmos_cvm_projection import (  # noqa: E402
+    CvmError, _CVM_KNOWN_KINDS, _CVM_PCM_INLINE,
+    _cvm_blob_ptrs, _cvm_filter_kinds, _cvm_pull_response,
+    _cvm_read_json, _cvm_stat, _cvm_status_prewarm, _cvm_store_snapshot,
+)
 
 
 def _frontend_file(name: str):
@@ -76,11 +196,113 @@ _STATIC_ROUTES = {
                                     "application/manifest+json"),
     # served at the ROOT path so its default scope ("/") can control /m
     "/kdash_sw.js": ("sw.js", "text/javascript; charset=utf-8"),
+    # the native Android app installer (download-and-sideload), served on the
+    # known-good port so no new firewall rule is needed. No data, no token.
+    "/cosmos-voice.apk": ("cosmos-voice.apk",
+                          "application/vnd.android.package-archive"),
+}
+
+# F-11: cDeck's ui/ on Core's own origin. Exact-match allowlist — the request
+# path is a dict key, never concatenated onto a filesystem path, so there is
+# no traversal surface. Relative hrefs in index.html (app.css, app.js, the
+# manifest) only resolve when the document URL is under /cdeck/, so /cdeck
+# (no slash) 302s there. Finder is _cdeck_file, not _frontend_file.
+_CDECK_UI_NAMES = frozenset({
+    "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js",
+})
+_CDECK_ROUTES = {
+    "/cdeck/": ("index.html", _CT_HTML),
+    "/cdeck/index.html": ("index.html", _CT_HTML),
+    "/cdeck/app.js": ("app.js", "text/javascript; charset=utf-8"),
+    "/cdeck/app.css": ("app.css", "text/css; charset=utf-8"),
+    "/cdeck/cdeck.webmanifest": ("cdeck.webmanifest",
+                                 "application/manifest+json"),
+    "/cdeck/sw.js": ("sw.js", "text/javascript; charset=utf-8"),
 }
 
 
+_CDECK_PANEL_MOD = {
+    "/api/v1/fleet": "cosmos_fleet_panel",
+    "/api/v1/nodemap": "cosmos_nodemap_panel",
+    "/api/v1/jukebox": "cosmos_jukebox_panel",
+}
+
+
+def _cdeck_panel_get(mod: str):
+    """Lazy-import a builds/cdeck handle_get. One dispatch line, no new
+    measurement — the binder already exists; this is the Core route."""
+    import importlib
+    import sys
+    from pathlib import Path as _P
+    d = str((_P(__file__).resolve().parent.parent / "builds" / "cdeck").resolve())
+    if d not in sys.path:
+        sys.path.append(d)
+    return getattr(importlib.import_module(mod), "handle_get")
+
+
+def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
+    """Disk rails.json is proven-live only (often count 0). GET /nodemap is
+    served while Kernel is up, so overlay registry.matrix() — the same rows
+    GET /rails already returns — when the disk projection has no rows.
+    Does not rewrite the file; ledger stays authority."""
+    if not isinstance(body, dict) or body.get("ok") is False:
+        return body
+    reg = body.get("registry") if isinstance(body.get("registry"), dict) else {}
+    disk_mx = reg.get("matrix") if isinstance(reg.get("matrix"), list) else []
+    if disk_mx:
+        return body
+    kr = getattr(kernel, "registry", None)
+    if kr is None:
+        return body
+    try:
+        mx = kr.matrix()
+    except Exception:  # noqa: BLE001
+        return body
+    if not mx:
+        return body
+    meta = dict(reg)
+    meta["available"] = True
+    meta["source"] = "kernel.matrix"
+    meta["schema"] = meta.get("schema") or "cosmos-registry/1"
+    meta["matrix"] = mx
+    meta["composed"] = len(mx)
+    meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+    out = dict(body)
+    out["registry"] = meta
+    return out
+
+
+def _cdeck_file(name: str):
+    """Resolve one allowlisted file under builds/cdeck/ui/. `name` is a
+    dict value from _CDECK_ROUTES, never a slice of the request path."""
+    if name not in _CDECK_UI_NAMES:
+        return None
+    from pathlib import Path as _P
+    here = _P(__file__).resolve().parent
+    ui = (here.parent / "builds" / "cdeck" / "ui").resolve()
+    cand = (ui / name).resolve()
+    try:
+        cand.relative_to(ui)
+    except ValueError:
+        return None
+    return cand if cand.is_file() else None
+
+
+# ---------------- voice hardening constants (2026-08-25) ----------------
+# PHASE 4 seam: helpers live in cosmos_voice_hardening and are re-exported
+# here -- same objects, not copies -- so make_handler's POST /api/v1/voice
+# path (DEDUPE_WINDOW_S, STREAM_ROOTS, _bootup_summary) keeps working
+# unchanged. Handlers below only call these helpers. Additive.
+from cosmos_voice_hardening import (  # noqa: E402
+    BU_MD_PATH, DEDUPE_WINDOW_S, STREAM_ROOTS,
+    _BOOTUP_REPLY_CAP, _SPOKEN_CAP,
+    _bootup_summary, _flat_trim, _stream_section,
+)
+
+
 class ServiceError(RuntimeError):
-    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT, CERT_NOT_FOUND}."""
+    """kind in {BLANK_TOKEN, TOKEN_MISSING, REMOTE_CLEARTEXT, REMOTE_OPEN_ACCESS,
+    CERT_NOT_FOUND}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -89,6 +311,36 @@ class ServiceError(RuntimeError):
 
 def _is_remote_bind(host: str) -> bool:
     return (host or "").strip().lower() not in _LOOPBACK_HOSTS
+
+
+def _is_loopback_peer(addr: str) -> bool:
+    """True iff the TCP peer is this machine (DT cDeck / local browser).
+
+    Keith 2026-09-04: loopback auto-connects without a bearer; Tailscale/LAN
+    still need the token. Mapped IPv4-in-IPv6 (::ffff:127.0.0.1) counts.
+    """
+    a = (addr or "").strip().lower()
+    if a in _LOOPBACK_HOSTS:
+        return True
+    if a.startswith("::ffff:"):
+        return a.rsplit(":", 1)[-1] == "127.0.0.1"
+    return False
+
+
+def _request_authed(peer: str, authorization: str, token: str,
+                    open_access: bool = False) -> bool:
+    """Bearer gate. Loopback DT auto-connects; Tailscale/phone/LAN still need it.
+
+    open_access is loopback-bind only (Service refuses REMOTE_OPEN_ACCESS).
+    Wrong bearer on loopback still passes — the peer is this machine.
+    """
+    if open_access:
+        return True
+    if _is_loopback_peer(peer):
+        return True
+    got = authorization or ""
+    return hmac.compare_digest(
+        got.encode("utf-8"), ("Bearer " + token).encode("utf-8"))
 
 
 def _write_private(path, data: bytes) -> None:
@@ -141,8 +393,77 @@ def _crucible_dispatchers(kernel, names) -> dict | None:
 
 
 def make_handler(kernel: Kernel, token: str, open_access: bool = False):
+    # ---- the safety seams, ONE instance each per handler class (2026-08-25).
+    # State lives in config/ JSON files, so a restarted service keeps a kill
+    # that was set and a day's spend that was counted.
+    from cosmos_control import ControlChannel, ControlError
+    from cosmos_spendguard import SpendGuard, PAUSED_REPLY, CALL_EST_USD
+    _ctrl = ControlChannel(kernel.paths.config("control_state.json"),
+                           clock=kernel._clock)
+    _guard = SpendGuard(kernel.paths.config("spendguard_state.json"),
+                        config_file=kernel.paths.config("spendguard_config.json"),
+                        ledger=kernel.ledger, clock=kernel._clock)
+    # The OPUS TURN CAP (cosmos_brain, 2026-08-25): Opus is not dollar-priced
+    # like the API rails, so the USD breaker cannot bound it - a per-session
+    # turn count can. Cap is tunable live via "opus_turns_per_session" in
+    # spendguard_config.json (one tuning surface). Absent module -> None, and
+    # the voice brain falls back to Grok (which the USD breaker does bound).
+    try:
+        from cosmos_brain import TurnGuard as _TurnGuard
+        _turns = _TurnGuard(
+            kernel.paths.config("opus_turns.json"),
+            config_file=kernel.paths.config("spendguard_config.json"),
+            clock=kernel._clock)
+    except Exception:                                             # noqa: BLE001
+        _turns = None
+    # The turn cap's compiled-in default, so POST /api/v1/spend can state the
+    # BEFORE value of opus_turns_per_session when the config file does not set
+    # it. An absent brain module means the knob has no current value to widen
+    # from - 0 makes any write to it a widen, which fails toward confirmation.
+    try:
+        from cosmos_brain import OPUS_TURNS_PER_SESSION as _OPUS_TURNS_DEFAULT
+    except Exception:                                             # noqa: BLE001
+        _OPUS_TURNS_DEFAULT = 0
+    _dedupe: dict = {}                 # sha256 key -> epoch of first sight
+    _dedupe_lock = threading.Lock()
+
+    def _kill_token() -> str:
+        """Optional gate on the off-switch: config/kill_token.txt, when it
+        exists and is non-blank. Absent = ungated (the switch only reduces
+        capability). Unreadable = fail CLOSED (require a token nobody can
+        give, rather than an open mutation on an error)."""
+        try:
+            p = kernel.paths.config("kill_token.txt")
+            if not p.exists():
+                return ""
+            return p.read_text(encoding="utf-8").strip() or "\x00UNREADABLE"
+        except Exception:                                         # noqa: BLE001
+            return "\x00UNREADABLE"
+
     class Handler(BaseHTTPRequestHandler):
         server_version = "COSMOS/1.0"
+
+        # ------------ voice-refusal shape (mirrors VoiceMode's result) ------
+        @staticmethod
+        def _voice_refused(sid, kind, error, reply, spoken):
+            return {"ok": False, "session_id": sid, "kind": kind,
+                    "reply": reply, "spoken": spoken, "needs_confirm": False,
+                    "confirm_id": None, "action": None, "sources": [],
+                    "refused": True, "error": error}
+
+        def _do_kill(self, client_id, token_given):
+            kt = _kill_token()
+            if kt and not hmac.compare_digest(
+                    str(token_given or "").encode("utf-8"),
+                    kt.encode("utf-8")):
+                return self._send(403, {"error": "BAD_KILL_TOKEN",
+                                        "detail": "kill_token.txt is set and "
+                                                  "the given token does not "
+                                                  "match"})
+            st = _ctrl.kill(client_id or None)
+            return self._send(200, {"killed": True,
+                                    "client_id": client_id or None,
+                                    "control": st})
 
         def _send(self, code: int, obj: dict):
             body = json.dumps({"served_at": time.time(), **obj}, indent=1).encode("utf-8")
@@ -153,16 +474,43 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             self.wfile.write(body)
 
         def _authed(self) -> bool:
-            # open_access: bearer auth DISABLED for the trial (Keith's call, fully
-            # reversible by dropping --no-auth). The tailnet/LAN is the access
-            # control meanwhile.
-            if open_access:
-                return True
-            # Constant-time compare: == short-circuits on the first differing
-            # byte, which leaks token prefixes to a timing observer.
-            got = self.headers.get("Authorization", "")
-            return hmac.compare_digest(got.encode("utf-8"),
-                                       ("Bearer " + token).encode("utf-8"))
+            # Keith 2026-09-04: DT cDeck auto-connects. Peer on 127.0.0.1/::1
+            # skips the bearer; Tailscale/phone/LAN still need it.
+            peer = ""
+            try:
+                peer = self.client_address[0]
+            except Exception:  # noqa: BLE001
+                peer = ""
+            return _request_authed(
+                peer, self.headers.get("Authorization", "") or "",
+                token, open_access)
+
+        def _drain_body(self, cap: int = _MAX_BODY_BYTES) -> None:
+            """Discard a pending request body before an early refusal.
+
+            Replying and closing while the client is still sending makes Windows
+            RST the connection, so the caller sees ConnectionResetError instead of
+            the status we sent. An auth failure must reach the client as 401, not
+            as a transport error. Best effort: a body we cannot drain is not worth
+            failing the refusal over. (Scar 2026-08-30: test_makers flaked ~25% of
+            runs on exactly this, and a phone with a stale token would have seen a
+            network error rather than "unauthorized".)
+            """
+            try:
+                n = int(self.headers.get("Content-Length") or 0)
+            except (TypeError, ValueError):
+                return
+            if n <= 0:
+                return
+            remaining = min(n, cap)
+            try:
+                while remaining > 0:
+                    chunk = self.rfile.read(min(65536, remaining))
+                    if not chunk:
+                        break
+                    remaining -= len(chunk)
+            except OSError:
+                pass
 
         def _read_body(self, cap: int = _MAX_BODY_BYTES):
             """Read the POST body under a hard cap, or send a controlled refusal
@@ -192,10 +540,10 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 return None
             return self.rfile.read(n)
 
-        def _send_static(self, name: str, ctype: str):
+        def _send_static(self, name: str, ctype: str, finder=_frontend_file):
             """Serve one allowlisted shell file as bytes. A missing file is an
             honest 404 (SHELL_FILE_MISSING), never a silent empty page."""
-            path = _frontend_file(name)
+            path = finder(name)
             if path is None:
                 return self._send(404, {"error": "SHELL_FILE_MISSING",
                                         "file": name})
@@ -209,16 +557,47 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             self.end_headers()
             self.wfile.write(body)
 
+        def _redirect(self, loc: str):
+            self.send_response(302)
+            self.send_header("Location", loc)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+
         def do_GET(self):                                             # noqa: N802
-            # Static app shell FIRST, without the bearer (see _STATIC_ROUTES:
-            # fixed files, no data, no token). Everything below this line keeps
-            # requiring the bearer exactly as before.
+            # Static app shell FIRST, without the bearer (see _STATIC_ROUTES
+            # and _CDECK_ROUTES: fixed files, no data, no token). Everything
+            # below this line keeps requiring the bearer exactly as before.
+            from urllib.parse import parse_qs as _parse_qs
             from urllib.parse import urlparse as _urlparse
-            route = _STATIC_ROUTES.get(_urlparse(self.path).path)
+            parsed = _urlparse(self.path)
+            if parsed.path == "/cdeck":
+                # trailing slash so relative href="app.css" stays under /cdeck/
+                return self._redirect("/cdeck/")
+            route = _STATIC_ROUTES.get(parsed.path)
             if route is not None:
                 return self._send_static(*route)
+            route = _CDECK_ROUTES.get(parsed.path)
+            if route is not None:
+                return self._send_static(*route, finder=_cdeck_file)
+            if parsed.path == "/kill":
+                # the browser-convenience OFF-SWITCH: no bearer (it can only
+                # reduce capability); the optional kill token still gates it.
+                q = _parse_qs(parsed.query)
+                return self._do_kill(q.get("client_id", [""])[0],
+                                     q.get("token", [""])[0])
             if not self._authed():
+                self._drain_body()
                 return self._send(401, {"error": "UNAUTHORIZED"})
+            if parsed.path == "/api/v1/control":
+                # what the app POLLS. Bearer-authed like every /api/v1 read;
+                # NEVER touched by the spend breaker - a spend-blocked phone
+                # must still see (and clear) its own state.
+                cid = _parse_qs(parsed.query).get("client_id", [""])[0]
+                try:
+                    return self._send(200, _ctrl.get(cid or None))
+                except ControlError as e:
+                    return self._send(500, {"error": e.kind,
+                                            "detail": str(e)[:300]})
             if self.path == "/api/v1/status":
                 last = kernel.ledger.last()
                 return self._send(200, {"ready": kernel.ready,
@@ -239,12 +618,24 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 return self._send(200, kernel.spend.audit())
             if self.path == "/api/v1/tools":
                 from cosmos_tools import ToolContracts
-                tc = getattr(kernel, "tools", None) or ToolContracts(kernel.ledger)
+                # F-29 composed the tools/ surface onto kernel.tools
+                # (inventory/invoke). GET /tools is the ToolContracts
+                # registry report (disposition + verified + age). Do not
+                # call .report() on a surface that is not the registry —
+                # a promotion that keeps boot green can still 500 this
+                # route (wave3 AttributeError / RemoteDisconnected scar).
+                bound = getattr(kernel, "tools", None)
+                tc = (bound if isinstance(bound, ToolContracts)
+                      else ToolContracts(kernel.ledger))
                 return self._send(200, {"measured_at": time.time(),
                                         "report": tc.report()})
             if self.path.startswith("/api/v1/events"):
                 # THE LIVE-BACKEND PRIMITIVE: ledger tail since a sequence - the
                 # interactive frontend polls this append-only; old events never refetch.
+                # Default window = oldest EVENTS_PAGE past since_seq (cursor
+                # contract, unchanged). ?tail=N = newest N past since_seq, so
+                # a cold dashboard is one request, not two. One verify() walk
+                # (head_seq comes off that walk — never a second full verify).
                 from urllib.parse import parse_qs, urlparse
                 q = parse_qs(urlparse(self.path).query)
                 raw_since = q.get("since_seq", ["0"])[0]
@@ -258,14 +649,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_SINCE_SEQ",
                                             "detail": "since_seq must be a "
                                                       "non-negative bounded integer"})
-                evs = [{"seq": r["seq"], "event": r["event"], "t": r["t"],
-                        "writer": r["writer"], "payload": r["payload"]}
-                       for r in kernel.ledger.verify() if r["seq"] > since][:100]
-                return self._send(200, {"head_seq": kernel.ledger.head_seq()
-                                        if hasattr(kernel.ledger, "head_seq")
-                                        else (evs[-1]["seq"] if evs else since),
-                                        "events": evs})
-            if self.path == "/api/v1/rails":
+                raw_tail = q.get("tail", [None])[0]
+                tail = None
+                if raw_tail is not None:
+                    try:
+                        tail = int(raw_tail)
+                    except ValueError:
+                        return self._send(400, {"error": "BAD_TAIL",
+                                                "detail": f"tail must be an "
+                                                          f"integer: {raw_tail[:64]!r}"})
+                    if tail < 1 or tail > EVENTS_PAGE:
+                        return self._send(400, {"error": "BAD_TAIL",
+                                                "detail": f"tail must be 1.."
+                                                          f"{EVENTS_PAGE}"})
+                head, evs = page_events(kernel.ledger, since, tail=tail)
+                return self._send(200, {"head_seq": head, "events": evs})
+            if self.path in ("/api/v1/rails", "/api/v1/nodes"):
                 reg = getattr(kernel, "registry", None)
                 if reg is None:
                     # CRITIC M3 FIX: an uncomposed registry was a silent 200+empty -
@@ -276,6 +675,28 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                                       "rails matrix"})
                 return self._send(200, {"measured_at": time.time(),
                                         "matrix": reg.matrix()})
+            if parsed.path == "/api/v1/surfaces":
+                sf = getattr(kernel, "surfaces", None)
+                if sf is None:
+                    return self._send(503, {"error": "SURFACES_NOT_COMPOSED",
+                                            "detail": "kernel has no surfaces map - this is "
+                                                      "a composition fault, not an empty "
+                                                      "catalog"})
+                return self._send(200, {"measured_at": time.time(),
+                                        "surfaces": sf.report()})
+            if parsed.path in _CDECK_PANEL_MOD:
+                try:
+                    hg = _cdeck_panel_get(_CDECK_PANEL_MOD[parsed.path])
+                    tid = kernel.paths.sentinel.tree_id
+                    code, body = hg(kernel.paths.root, expected_tree_id=tid)
+                except Exception as e:  # noqa: BLE001
+                    return self._send(503, {
+                        "error": "CDECK_PANEL_NOT_COMPOSED",
+                        "detail": "%s: %s" % (type(e).__name__, e),
+                    })
+                if parsed.path == "/api/v1/nodemap" and code == 200:
+                    body = _nodemap_overlay_kernel(kernel, body)
+                return self._send(code, body)
             if self.path.startswith("/api/v1/makers"):
                 from urllib.parse import parse_qs, urlparse
                 from cosmos_makers import MakerError
@@ -299,11 +720,99 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 return self._send(200, {"measured_at": time.time(),
                                         "makers": rows})
+            if parsed.path == "/api/v1/cvm/pull":
+                # CVM P3 additive. Bearer already checked. Projection is the
+                # source of truth; this branch does not rewrite pull.json and
+                # does not append the ledger.
+                cid = (_parse_qs(parsed.query).get("client_id", [""])[0]
+                       or "").strip()
+                if not cid:
+                    return self._send(400, {"error": "CLIENT_ID_REQUIRED",
+                                            "detail": "client_id query is required"})
+                try:
+                    return self._send(200, _cvm_pull_response(kernel, cid))
+                except CvmError as e:
+                    code = 400 if e.kind in (
+                        "IDENTITY_MISMATCH", "CLIENT_ID_REQUIRED",
+                        "BAD_SNAPSHOT") else 500
+                    return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def do_POST(self):                                            # noqa: N802
+            if self.path == "/api/v1/kill":
+                # the HUMAN OFF-SWITCH: served without the bearer, because it
+                # can only reduce capability (mic_off + clear_queue) and must
+                # work from anything that can reach the port. Optional token
+                # gate via config/kill_token.txt. Body is optional JSON.
+                d = {}
+                if self.headers.get("Content-Length"):
+                    body = self._read_body()
+                    if body is None:
+                        return
+                    if body.strip():
+                        try:
+                            d = json.loads(body.decode("utf-8"))
+                        except Exception:                         # noqa: BLE001
+                            d = {}
+                if not isinstance(d, dict):
+                    d = {}
+                return self._do_kill(str(d.get("client_id") or ""),
+                                     str(d.get("token") or ""))
             if not self._authed():
+                self._drain_body()
                 return self._send(401, {"error": "UNAUTHORIZED"})
+            if self.path == "/api/v1/control/resume":
+                # the explicit road back: clears the control flags AND resets
+                # the local spend counters ("say 'resume' or clear it on the
+                # desktop"). Bearer-authed: OFF is cheap by design, ON is a
+                # deliberate act.
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                cid = str(d.get("client_id") or "") or None
+                st = _ctrl.resume(cid)
+                cleared = _guard.clear(cid)
+                return self._send(200, {"resumed": True, "client_id": cid,
+                                        "spend_counters_cleared": cleared,
+                                        "control": st})
+            if self.path == "/api/v1/spend":
+                # F-03: the WRITE side of the money surface. GET /spend showed
+                # every cap and could change none of them; this sets a rail cap
+                # or the breaker thresholds. Body is bounded BEFORE the read
+                # (service.every_body_is_bounded_before_it_is_read) and small -
+                # a cap change is a handful of numbers.
+                import hashlib as _hashlib
+                from cosmos_spend_admin import handle_post as _spend_post
+                body = self._read_body(_MAX_SPEND_BODY_BYTES)
+                if body is None:
+                    return
+                try:
+                    payload = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "kind": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                # WHO. Derived from the bearer this request just proved it holds
+                # - a sha256 PREFIX, never the token itself. Under --no-auth
+                # there is no proven bearer, so the record says so rather than
+                # claiming an identity nobody presented.
+                actor = ("bearer:" + _hashlib.sha256(
+                    token.encode("utf-8")).hexdigest()[:16]) if not open_access \
+                    else "open-access:no-bearer-presented"
+                code, out = _spend_post(
+                    kernel, _guard,
+                    kernel.paths.config("spendguard_config.json"),
+                    payload, actor,
+                    turn_default=_OPUS_TURNS_DEFAULT,
+                    remote=str(self.client_address[0]
+                               if self.client_address else ""))
+                return self._send(code, out)
             if self.path == "/api/v1/voice":
                 # VOICE MODE: session-continuous voice seam. Body:
                 #   {transcript, session_id?, mode?, confirm_id?}
@@ -334,6 +843,76 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             "error": "TITLE_TOO_LONG",
                             "detail": f"title of {len(title)} chars exceeds "
                                       f"the 200-char cap"})
+                    # ---- HARDENING (2026-08-25): telemetry fields in, then
+                    # control -> dedupe -> spend breaker, ALL before anything
+                    # touches a model, the orchestrator, or the convo chain.
+                    client_id = str(d.get("client_id") or "")[:120]
+                    build = str(d.get("build") or "")[:120]
+                    stream = str(d.get("stream") or d.get("project")
+                                 or "").strip().lower()[:40]
+                    idem = str(d.get("idempotency_key") or "")[:120]
+                    sid_in = str(d.get("session_id") or "") or None
+                    guard_key = sid_in or client_id or "anon"
+                    # 1. CONTROL: pause/mic_off refuses FAST, zero spend, zero
+                    # ledger writes. blocked() fails closed by construction.
+                    is_blocked, why = _ctrl.blocked(client_id or None)
+                    if is_blocked:
+                        return self._send(200, self._voice_refused(
+                            sid_in, "refused", "CONTROL_BLOCKED",
+                            f"[CONTROL_BLOCKED] voice is {why} - nothing was "
+                            f"recorded, nothing was spent; resume from the "
+                            f"desktop or POST /api/v1/control/resume",
+                            "Voice is paused."))
+                    # 2. DEDUPE: an identical (client_id, utterance [+ confirm
+                    # nonce]) inside the window is the SAME utterance heard
+                    # twice - dropped, zero spend. The confirm_id is part of
+                    # the key so a confirm re-call is never eaten as a dupe.
+                    if transcript.strip():
+                        dk = idem or _hashlib.sha256(
+                            (client_id + "|"
+                             + " ".join(transcript.split()).lower() + "|"
+                             + str(d.get("confirm_id") or "")
+                             ).encode("utf-8")).hexdigest()
+                        now_d = time.time()
+                        with _dedupe_lock:
+                            for k in [k for k, t0 in _dedupe.items()
+                                      if now_d - t0 > DEDUPE_WINDOW_S]:
+                                del _dedupe[k]
+                            dup = dk in _dedupe
+                            if not dup:
+                                _dedupe[dk] = now_d
+                        if dup:
+                            return self._send(200, self._voice_refused(
+                                sid_in, "duplicate", "DUPLICATE",
+                                f"[DUPLICATE] identical utterance from this "
+                                f"client within {DEDUPE_WINDOW_S:.0f}s - "
+                                f"dropped, nothing was recorded, nothing "
+                                f"was spent", ""))
+                    # 3. SPEND BREAKER: session/day USD caps + rate limit,
+                    # BEFORE any model/orchestrator call. Fails CLOSED; a
+                    # refusal is a canned LOCAL reply costing zero.
+                    allowed, reason = _guard.check(guard_key)
+                    if not allowed:
+                        return self._send(200, self._voice_refused(
+                            sid_in, "refused", "SPEND_BLOCKED",
+                            f"[SPEND_BLOCKED] {reason} - {PAUSED_REPLY}",
+                            PAUSED_REPLY))
+                    # 4. TELEMETRY: the build/stream/client provenance goes on
+                    # the chain (only when a client actually sent any - a bare
+                    # caller adds no ledger noise). Best-effort by design.
+                    if client_id or build or stream or idem:
+                        try:
+                            kernel.ledger.append("VOICE_TELEMETRY", {
+                                "client_id": client_id, "build": build,
+                                "stream": stream, "session_id": sid_in,
+                                "idempotency_key": idem})
+                        except Exception:                         # noqa: BLE001
+                            pass
+                    # 5. BOOTUP (read-only): a payload asking for bootup gets
+                    # the stream's handoff summary - no model, no writes.
+                    if str(d.get("action") or "").strip().lower() == "bootup":
+                        return self._send(200, _bootup_summary(
+                            stream, session_id=sid_in))
                     # The authenticated principal: derived from the bearer the
                     # request just proved it holds. One principal today;
                     # device-scoped tokens will each derive their own, and the
@@ -361,7 +940,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                     model or "grok", _ASK_RAILS["grok"])
                                 if link not in _spend.audit()["rails"]:
                                     _spend.set_budget(link, budget)
-                                rail = NodeRail(mod, metered_usd=est)
+                                # paths= so NodeRail reads live/config/node_rails.json
+                                # bts_root. Without it, __import__('bts_sgh') is
+                                # UNREACHABLE (Talk MODEL_FAILED 2026-09-01).
+                                rail = NodeRail(mod, metered_usd=est,
+                                                paths=kernel.paths)
                                 r = _spend.guarded_call(
                                     link, est,
                                     lambda: rail.dispatch({"prompt": question}))
@@ -370,25 +953,277 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                             "detail": r.get("detail")}
                                 return {"text": r.get("text", ""),
                                         "model": r.get("node", mod),
-                                        "usd": r.get("usd")}
+                                        "usd": r.get("usd"),
+                                        "link_id": link,
+                                        "rail": r.get("rail") or link,
+                                        "node": r.get("node") or mod,
+                                        "rid": r.get("rid")}
                         except Exception:                             # noqa: BLE001
                             asker = None
+                    # HANDED ORCHESTRATOR: free speech gets TOOLS and a BRAIN.
+                    # HYBRID ROUTING (2026-08-25): obvious file/data lookups
+                    # stay on the FAST LOCAL path - rule-routed to search_files
+                    # (x.ai's Responses API doesn't do chat-completions function
+                    # calling), the spend-gated Grok ask phrases the found
+                    # paths; these must stay instant, NO Opus call. Everything
+                    # else - the free-form conversational turn - goes to the
+                    # OPUS brain via the local claude CLI (cosmos_brain), with
+                    # native read access to the stream's roots (--add-dir) and
+                    # a claude session derived DETERMINISTICALLY from the
+                    # COSMOS sid, so the road conversation is resumable in the
+                    # desktop app via /resume. Opus is BOUNDED: control state
+                    # and the rate limit are re-checked before EVERY Opus call
+                    # (an orchestrator run can call more than once), plus the
+                    # per-session TURN CAP; a timeout/failure/over-cap FALLS
+                    # BACK to Grok so voice never hangs on a dead brain. Which
+                    # brain answered lands on the reply and the ledger. Tools
+                    # are READ-ONLY over registered roots + the real ITC.
+                    # Absent gate -> orchestrator None and VoiceMode falls
+                    # back to the bare asker.
+                    orchestrator = None
+                    _brain_used = {"brain": "local", "why": ""}
+                    _sid_box = {"sid": sid_in}
+                    if _spend is not None:
+                        try:
+                            import re as _re, sys as _sys  # noqa: F401
+                            _sgh = None       # no-BTS (P4): the SGH brain import is
+                            # retired; cosmos_brain (below) is the only brain path.
+                            try:
+                                import cosmos_brain as _cbrain
+                            except Exception:                     # noqa: BLE001
+                                _cbrain = None    # Grok-only host: no brain
+                            from cosmos_orchestrator import (Orchestrator,
+                                                             build_tools)
+                            # Legal + COSMOS FIRST (small, high-signal) so a hit
+                            # lands before V:\Ai's huge tmp/ exhausts the walk cap.
+                            _ROOTS = [r"V:\Ai\Legal", r"V:\A\Ai\COSMOS",
+                                      r"V:\Ai\ROLD", r"V:\Ai\BTS_MESH", r"V:\Ai"]
+                            # STREAM SCOPING (2026-08-25): a declared stream
+                            # puts its roots FIRST, so the walk cap spends
+                            # itself where the session actually lives.
+                            if stream in STREAM_ROOTS:
+                                _sr = STREAM_ROOTS[stream]
+                                _ROOTS = _sr + [r for r in _ROOTS
+                                                if r not in _sr]
+                            if _sgh is not None \
+                                    and "sgh-api" not in _spend.audit()["rails"]:
+                                _spend.set_budget("sgh-api", 10.0)
+                            _PRE = ("You are COSMOS, the user's self-hosted voice "
+                                    "assistant with access to his files. Answer "
+                                    "concisely for text-to-speech - a few plain "
+                                    "sentences, no markdown. When search results "
+                                    "are provided, answer from them and name the "
+                                    "file(s) found.")
+
+                            def _grok_call(ctx):
+                                """The spend-gated Grok ask (the old synthesis
+                                path, and the Opus fallback). VOICE PATH ONLY:
+                                wall-clock cap = cosmos_brain.GROK_FALLBACK_S
+                                (never the rail default 60s) so Opus 45 +
+                                Grok fallback stays inside the 70s client."""
+                                grok_s = (
+                                    float(_cbrain.GROK_FALLBACK_S)
+                                    if _cbrain is not None else 20.0)
+                                box = {"r": None, "e": None}
+
+                                def _invoke():
+                                    try:
+                                        if _sgh is not None:
+                                            r = _spend.guarded_call(
+                                                "sgh-api", 0.02,
+                                                lambda: _sgh.ask(ctx))
+                                        elif asker is not None:
+                                            # P4 retired the direct bts_sgh
+                                            # import; reuse the already-
+                                            # composed voice asker (NodeRail).
+                                            out = asker(ctx, "grok")
+                                            if out.get("ok") is False:
+                                                raise RuntimeError(
+                                                    f"[{out.get('error')}] "
+                                                    f"{out.get('detail')}")
+                                            r = {"ok": True,
+                                                 "text": out.get("text") or ""}
+                                        else:
+                                            raise RuntimeError(
+                                                "[NO_RAIL] no Grok rail "
+                                                "composed and the Opus "
+                                                "brain did not answer")
+                                        box["r"] = r
+                                    except Exception as e:        # noqa: BLE001
+                                        box["e"] = e
+
+                                th = threading.Thread(
+                                    target=_invoke, daemon=True)
+                                th.start()
+                                th.join(grok_s)
+                                if th.is_alive():
+                                    raise RuntimeError(
+                                        f"[TIMEOUT] grok fallback exceeded "
+                                        f"{grok_s:.0f}s")
+                                if box["e"] is not None:
+                                    raise box["e"]
+                                r = box["r"] or {}
+                                if not r.get("ok"):
+                                    raise RuntimeError(
+                                        f"[{r.get('kind')}] {r.get('detail')}")
+                                return {"ok": True,
+                                        "content": r.get("text")
+                                        or r.get("content") or ""}
+
+                            def _model_call(messages, tools_schema):
+                                user = next((m["content"] for m in messages
+                                             if m.get("role") == "user"), "")
+                                ran = [m for m in messages
+                                       if m.get("role") == "tool"]
+                                if not ran:
+                                    low = user.lower()
+                                    # COMMAND/LOOKUP SHAPE -> the fast local
+                                    # path, exactly as before. NO Opus call.
+                                    if any(k in low for k in (
+                                            "find", "search", "where", "look for",
+                                            "locate", "show me", "list")):
+                                        stop = {"find", "search", "where", "is",
+                                                "are", "the", "a", "an", "my",
+                                                "for", "look", "locate", "show",
+                                                "me", "in", "on", "under", "of",
+                                                "stream", "file", "files", "about",
+                                                "to", "and", "list", "please"}
+                                        ws = _re.findall(r"[a-z0-9_.\-]+", low)
+                                        terms = [w for w in ws
+                                                 if w not in stop and len(w) > 2]
+                                        q = " ".join(terms[:4]) if terms else user
+                                        return {"ok": True, "tool_calls": [
+                                            {"id": "1", "name": "search_files",
+                                             "arguments": {"query": q}}]}
+                                    # FREE-FORM -> the OPUS brain, BOUNDED.
+                                    if _cbrain is not None and _turns is not None:
+                                        blkd, bwhy = _ctrl.blocked(
+                                            client_id or None)
+                                        if blkd:
+                                            raise RuntimeError(
+                                                f"[CONTROL_BLOCKED] voice is "
+                                                f"{bwhy} - refused mid-turn")
+                                        ok_g, why_g = _guard.check(guard_key)
+                                        if not ok_g:
+                                            raise RuntimeError(
+                                                f"[SPEND_BLOCKED] {why_g}")
+                                        cos_sid = (_sid_box.get("sid")
+                                                   or guard_key)
+                                        t_ok, t_why = _turns.check(cos_sid)
+                                        if t_ok:
+                                            rb = _cbrain.opus_ask(
+                                                user, session_id=cos_sid,
+                                                stream=stream or None,
+                                                timeout=_cbrain.OPUS_TIMEOUT_S,
+                                                add_dirs=(
+                                                    STREAM_ROOTS.get(stream)
+                                                    or _ROOTS[:2]))
+                                            if rb.get("ok") and str(
+                                                    rb.get("text")
+                                                    or "").strip():
+                                                _turns.record(cos_sid)
+                                                _brain_used.update(
+                                                    brain="opus", why="")
+                                                return {"ok": True,
+                                                        "content": str(
+                                                            rb["text"]).strip()}
+                                            _brain_used.update(
+                                                brain="grok",
+                                                why=str(rb.get("error")
+                                                        or "OPUS_EMPTY"))
+                                        else:
+                                            _brain_used.update(
+                                                brain="grok", why=t_why)
+                                    else:
+                                        _brain_used.update(
+                                            brain="grok",
+                                            why="BRAIN_NOT_COMPOSED")
+                                    # FALLBACK: the spend-gated Grok ask -
+                                    # voice never hangs on a dead brain.
+                                    return _grok_call(
+                                        _PRE + "\n\nUser asked: " + user)
+                                # tool results ran: the fast LOCAL lookup lane
+                                # finishes as before - Grok phrases the found
+                                # paths. No Opus call on this lane either.
+                                ctx = _PRE + "\n\nUser asked: " + user
+                                for tr in ran:
+                                    ctx += ("\n\nSearch results:\n"
+                                            + str(tr.get("content"))[:2500])
+                                return _grok_call(ctx)
+                            orchestrator = Orchestrator(
+                                _model_call,
+                                build_tools(_ROOTS, getattr(kernel, "itc", None)),
+                                clock=kernel._clock)
+                        except Exception:                             # noqa: BLE001
+                            orchestrator = None
                     vm = VoiceMode(convo, Commander(kernel),
                                    getattr(kernel, "itc", None),
-                                   asker=asker,
+                                   asker=asker, orchestrator=orchestrator,
                                    clock=kernel._clock)
-                    sid = d.get("session_id")
+                    sid = sid_in
                     if not sid:
-                        sid = convo.create_session(title, owner=principal)
+                        # the minted session CARRIES ITS STREAM as scope, so
+                        # a reconnect knows what the conversation was about.
+                        sid = convo.create_session(
+                            title,
+                            scope=([f"stream:{stream}"] if stream else None),
+                            owner=principal)
                     else:
-                        sid = str(sid)
                         # NO_SESSION on a sid this principal does not own -
                         # existence is never leaked across principals.
                         convo.assert_owner(sid, principal)
-                    return self._send(200, vm.handle(
+                    # the brain needs the REAL sid (minted or given) so the
+                    # claude session maps to the COSMOS session, not the
+                    # guard key. The closure reads this box at call time.
+                    _sid_box["sid"] = sid
+                    out = vm.handle(
                         sid, transcript,
                         mode=str(d.get("mode") or "voice"),
-                        confirm_id=d.get("confirm_id")))
+                        confirm_id=d.get("confirm_id"))
+                    # ---- WHICH BRAIN answered (opus|grok|local, or the ask
+                    # verb's model name): on the reply for the client, and on
+                    # the ledger for the audit. Best-effort by design.
+                    brain = _brain_used["brain"]
+                    if brain == "local":
+                        for s_ in out.get("sources") or []:
+                            if isinstance(s_, str) and s_.startswith("model:"):
+                                brain = s_[6:] or "grok"
+                                break
+                    out["brain"] = brain
+                    if _brain_used["why"]:
+                        out["brain_note"] = _brain_used["why"]
+                    if out.get("kind") in ("chat", "ask"):
+                        try:
+                            kernel.ledger.append("VOICE_BRAIN", {
+                                "brain": brain,
+                                "why": _brain_used["why"],
+                                "session_id": out.get("session_id") or sid,
+                                "kind": out.get("kind")})
+                        except Exception:                     # noqa: BLE001
+                            pass
+                    # ---- SPEND ACCOUNTING for the breaker: usd:<x> sources
+                    # are the measured spend; an unpriced or unlabeled model
+                    # answer records the worst-case estimate (never free).
+                    try:
+                        usd = 0.0
+                        for s_ in out.get("sources") or []:
+                            if isinstance(s_, str) and s_.startswith("usd:"):
+                                v = s_[4:]
+                                usd += (CALL_EST_USD if v == "unpriced"
+                                        else float(v))
+                        # an OPUS answer rides the subscription, not the USD
+                        # rails - its bound is the TURN CAP, so it is not
+                        # charged the per-call estimate (charging it would
+                        # conflate two budgets and starve the Grok fallback).
+                        if usd <= 0.0 and out.get("ok") \
+                                and out.get("kind") in ("chat", "ask") \
+                                and _brain_used["brain"] != "opus":
+                            usd = CALL_EST_USD
+                        if usd > 0.0:
+                            _guard.record(out.get("session_id") or sid, usd)
+                    except Exception:                             # noqa: BLE001
+                        pass
+                    return self._send(200, out)
                 except (VoiceError, ConvoError) as e:
                     return self._send(400, {"error": e.kind,
                                             "detail": str(e)[:300]})
@@ -523,6 +1358,35 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
+            from urllib.parse import urlparse as _cvm_urlparse
+            _cvm_post = _cvm_urlparse(self.path).path
+            if _cvm_post in ("/api/v1/cvm/snapshot", "/api/v1/cvm/push"):
+                # CVM additive. Snapshot lands phone.json. Push composes that
+                # helper then stamps pull.json audio_owner=desktop. Bearer
+                # already checked. Never ledger. One parse, one error map.
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_SNAPSHOT",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    if _cvm_post == "/api/v1/cvm/push":
+                        from cosmos_cvm_push import cvm_store_push
+                        return self._send(200, cvm_store_push(kernel, d))
+                    return self._send(200, _cvm_store_snapshot(kernel, d))
+                except CvmError as e:
+                    code = 500 if e.kind in ("UNPARSEABLE", "UNREADABLE") else 400
+                    return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def log_message(self, *a):                                    # quiet server
@@ -630,9 +1494,37 @@ class Service:
     REMOTE ACCESS + HTTPS (Keith, 2026-08-23): host="0.0.0.0" binds the LAN; the bearer
     token is access control. tls=True wraps the socket with a self-signed cert generated
     into config/ (real transport encryption on the LAN; SAN covers the bind host/IP so
-    clients can verify). A NON-LOOPBACK bind REFUSES to start unless TLS is actually up
-    (REMOTE_CLEARTEXT) - a bearer token over LAN HTTP is captured and replayed by any
-    observer. On loopback, if the crypto lib is absent the service stays HTTP and
+    clients can verify).
+
+    TWO refusals guard a non-loopback bind, and they are NOT the same guard:
+
+    1. REMOTE_OPEN_ACCESS - a remote bind REFUSES open_access/--no-auth. There is no
+       flag past this one. It is checked FIRST, before the socket is bound and before
+       any token is touched. `remote + open_access` does not mean "no bearer left to
+       capture", it means EVERY host that can route to the port is an authenticated
+       operator of Core: it can drain the whole ledger (GET /api/v1/events pages the
+       chain with `since_seq` - conversation transcripts included), submit jobs, add
+       makers, drive the voice/command rails that SPEND MONEY, and flip the control
+       channel. "The tailnet/LAN is the access control" is only true of a tailnet;
+       0.0.0.0 is every interface, including the house wifi and any VM host-only net.
+       Loopback + open_access is untouched - that is the local trial and it is fine.
+       MEASURED 2026-08-31: the trial Core on :8791 served all 2,349 ledger records and
+       accepted a state-mutating POST from a LAN address with no credentials.
+       See docs/CORE_SERVE_SUPERVISOR.md.
+    2. REMOTE_CLEARTEXT - a remote bind refuses to start unless TLS is actually up; a
+       bearer token over LAN HTTP is captured and replayed by any observer.
+       THE ONE OPT-OUT: insecure_http=True (CLI --insecure-http), Keith's explicit
+       reversible trial flag. NOTE its original rationale ("paired with --no-auth so
+       there is no bearer to capture") is dead - guard 1 refuses that pairing on a
+       remote bind, so --insecure-http remotely now means a REAL bearer crossing the
+       LAN in the clear. It is a knowing trade of confidentiality-in-transit, never
+       of authentication.
+
+    The guards read `if remote and open_access` and
+    `if remote and self.scheme != "https" and not insecure_http`; these sentences
+    exist so the prose can never again promise an absolute the code does not enforce.
+
+    On loopback, if the crypto lib is absent the service stays HTTP and
     RECORDS the downgrade in .scheme - never a silent claim of encryption. A public-CA
     cert for internet exposure is a later cutover step."""
 
@@ -641,10 +1533,22 @@ class Service:
                  key_file: str | None = None, open_access: bool = False,
                  insecure_http: bool = False):
         remote = _is_remote_bind(host)
+        if remote and open_access:
+            # FAIL CLOSED, FIRST: before the socket binds and before any token is
+            # read. No flag opens this door - not --insecure-http, not --tls. An
+            # unauthenticated Core on a non-loopback interface is not a "trial",
+            # it is an open operator console for the whole subnet.
+            raise ServiceError(
+                "REMOTE_OPEN_ACCESS",
+                f"refusing to serve a non-loopback bind ({host!r}) with bearer auth "
+                f"disabled - every host that can reach this port would be a full "
+                f"operator of Core (drain the ledger, submit jobs, spend money, flip "
+                f"the control channel); bind loopback for the no-auth trial, or drop "
+                f"open_access/--no-auth and serve the bearer over TLS")
         self.open_access = open_access
         if open_access:
-            # bearer auth disabled (trial). No token minted/loaded; the network
-            # (Tailscale/LAN) is the access control. Reversible: drop --no-auth.
+            # bearer auth disabled (trial). No token minted/loaded. Reachable only
+            # from this machine - the remote+open_access refusal above already ran.
             self.token = ""
         else:
             tok_file = kernel.paths.config("api_token.txt")
@@ -693,8 +1597,10 @@ class Service:
             # HTTP fallback is for LOOPBACK only; remotely it is an open door,
             # so the service refuses to start rather than start downgraded.
             # insecure_http (TRIAL, reversible): Keith's explicit opt-in to serve
-            # plain HTTP on a private LAN - paired with --no-auth (no token to leak)
-            # and a Chrome insecure-origin flag, to test the mic without a cert.
+            # plain HTTP on a private LAN, with a Chrome insecure-origin flag, to
+            # test the mic without a cert. It can no longer be paired with --no-auth
+            # on a remote bind (REMOTE_OPEN_ACCESS above), so a REAL bearer now
+            # crosses the LAN in the clear: it trades confidentiality, not auth.
             self.httpd.server_close()
             raise ServiceError(
                 "REMOTE_CLEARTEXT",

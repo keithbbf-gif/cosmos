@@ -14,7 +14,7 @@
  */
 "use strict";
 
-var CACHE = "cosmos-shell-v1";
+var CACHE = "cosmos-shell-v4";
 /* the shell allowlist - note there is NO /api/ path in it, by design */
 var SHELL = ["/m", "/kdash_manifest.webmanifest", "/kdash_sw.js"];
 

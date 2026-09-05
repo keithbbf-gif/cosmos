@@ -13,6 +13,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_tools import ToolContracts, DISPOSITIONS
 from cosmos_port_plan import (PORT_DECISIONS, VALID_DISPOSITIONS, UNDECIDED,

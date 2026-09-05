@@ -1,0 +1,100 @@
+{
+ "wire": "cvm-lan-reach/1",
+ "measured_at_epoch": 1788161734.2448218,
+ "iso": "2026-08-31T02:35:34-0500",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "port": 8770,
+ "lan_ip": "192.168.1.107",
+ "probes": {
+  "loopback": {
+   "host": "127.0.0.1",
+   "port": 8770,
+   "connect_ex": 0,
+   "reachable": true,
+   "ms": 0.209,
+   "errno_name": "OK"
+  },
+  "lan": {
+   "host": "192.168.1.107",
+   "port": 8770,
+   "connect_ex": 10035,
+   "reachable": false,
+   "ms": 1027.819,
+   "errno_name": "WSAEWOULDBLOCK (timed out)"
+  }
+ },
+ "listeners": {
+  "available": true,
+  "listen": [
+   {
+    "laddr": "127.0.0.1",
+    "port": 8770,
+    "pid": 28484
+   }
+  ],
+  "loopback_only": true
+ },
+ "spawn": {
+  "available": true,
+  "path": "V:\\A\\Ai\\COSMOS\\live\\logs\\core_serve.json",
+  "pid": 28484,
+  "argv": [
+   "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\pythonw.exe",
+   "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos.py",
+   "serve",
+   "--root",
+   "V:\\A\\Ai\\COSMOS\\live",
+   "--port",
+   "8770"
+  ],
+  "has_remote": false,
+  "has_tls": false,
+  "has_cert": false,
+  "has_no_auth": false,
+  "has_insecure_http": false
+ },
+ "verdict": "LOOPBACK_ONLY",
+ "why": "Core is bound to loopback, so there is no LAN socket to open. A firewall rule alone would change nothing.",
+ "two_independent_readings": true,
+ "requirements_for_lan_reach": [
+  {
+   "step": 1,
+   "need": "bind the LAN, not loopback",
+   "how": "cosmos.py serve --remote  (cosmos.py:112 -> host='0.0.0.0')",
+   "enforced_by": "cosmos_service.Service.__init__ (_is_remote_bind)",
+   "blocking": true
+  },
+  {
+   "step": 2,
+   "need": "TLS, because a remote bind refuses cleartext",
+   "how": "--tls (self-signed into config/, SAN covers the bind IP) or --cert/--key for a trusted pair",
+   "enforced_by": "cosmos_service.py:1503 raises REMOTE_CLEARTEXT \u2014 a non-loopback bind will not start over HTTP",
+   "note": "the 'cryptography' lib must be importable or --tls silently stays HTTP and then trips the same refusal",
+   "blocking": true
+  },
+  {
+   "step": 3,
+   "need": "keep bearer auth ON across the LAN",
+   "how": "do NOT pass --no-auth; the token stays the access control and TLS stops it being captured in flight",
+   "enforced_by": "_load_api_token(remote=True) refuses an empty token",
+   "blocking": true
+  },
+  {
+   "step": 4,
+   "need": "a Windows Firewall inbound rule for the port",
+   "how": "operator action, needs elevation \u2014 a LAN bind with no rule is still a dropped SYN",
+   "enforced_by": "nothing in COSMOS; the OS",
+   "blocking": true
+  },
+  {
+   "step": 5,
+   "need": "the phone must trust the cert",
+   "how": "self-signed means installing the CA on the phone, or use `cosmos up` (Tailscale) and reach it over the tailnet instead",
+   "enforced_by": "the phone's TLS stack",
+   "blocking": false
+  }
+ ],
+ "phone_measurable_now": false,
+ "note": "A measurement taken from THIS host says nothing about the phone half of CVM. While the verdict is LOOPBACK_ONLY the phone-side latency is UNMEASURED \u2014 recorded as absent with a reason, never estimated from the desktop numbers.",
+ "no_credential_read": true
+}

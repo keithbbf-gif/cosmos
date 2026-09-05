@@ -9,6 +9,7 @@ import sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_tools import ToolContracts, ToolsError
 
@@ -47,6 +48,11 @@ def main() -> int:
     r = tc.verify("sgh.ask")
     check("declare -> attach -> verify passes and returns detail",
           lambda: r["ok"] and r["detail"] == "round-trip 42ms")
+    check("TOOL_DECLARED carries node=name (FOLLOW_KEYS harvest)",
+          lambda: any(x["event"] == "TOOL_DECLARED"
+                      and x["payload"]["name"] == "sgh.ask"
+                      and x["payload"].get("node") == "sgh.ask"
+                      for x in led.verify()))
     check("passing check ledgered as TOOL_CONTRACT_OK",
           lambda: any(x["event"] == "TOOL_CONTRACT_OK"
                       and x["payload"]["name"] == "sgh.ask" for x in led.verify()))

@@ -1,0 +1,170 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round7 unpinned backup refusals \u2014 current vs claimed",
+ "drift_missing_files": {
+  "kind": null,
+  "crash": "KeyError",
+  "returned": null,
+  "value_preview": "'files'"
+ },
+ "drift_files_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "drift_files_list": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'items'"
+ },
+ "drift_files_none": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'NoneType' object has no attribute 'items'"
+ },
+ "check_files_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "check_entry_str": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "string indices must be integers, not 'str'"
+ },
+ "exclude_str": {
+  "kind": null,
+  "crash": null,
+  "returned": "bool",
+  "value_preview": "bool"
+ },
+ "exclude_str_returned": "bool",
+ "exclude_int": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'int' object is not iterable"
+ },
+ "exclude_none": {
+  "kind": null,
+  "crash": null,
+  "returned": "bool",
+  "value_preview": "bool"
+ },
+ "canon_headers_list": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'items'"
+ },
+ "canon_headers_none": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'NoneType' object has no attribute 'items'"
+ },
+ "canon_headers_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "local_row_list": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'get'"
+ },
+ "local_row_none": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'NoneType' object has no attribute 'get'"
+ },
+ "parse_excludes_list": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'get'"
+ },
+ "parse_excludes_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'get'"
+ },
+ "freeze_missing_src": {
+  "kind": "SOURCE_UNREADABLE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "pem_label_none": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'NoneType' object is not iterable"
+ },
+ "pem_label_str": {
+  "kind": null,
+  "crash": null,
+  "returned": "str",
+  "value_preview": "str:ambiguous"
+ },
+ "verify_files_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "list_sets_file": {
+  "kind": "DEST_NOT_DIR",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "safe_rel_empty": {
+  "kind": "UNSAFE_MANIFEST_KEY",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "safe_rel_dotdot": {
+  "kind": "UNSAFE_MANIFEST_KEY",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "r2_prefix_dotdot": {
+  "kind": "UNSAFE_MANIFEST_KEY",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "bites": [
+  "drift_missing_files",
+  "drift_files_str",
+  "drift_files_list",
+  "drift_files_none",
+  "check_files_str",
+  "check_entry_str",
+  "exclude_str:silent",
+  "exclude_int",
+  "canon_headers_list",
+  "canon_headers_none",
+  "canon_headers_str",
+  "local_row_list",
+  "local_row_none",
+  "parse_excludes_list",
+  "parse_excludes_str",
+  "pem_label_none",
+  "verify_files_str"
+ ],
+ "all_bite": true,
+ "could_not_pin": []
+}

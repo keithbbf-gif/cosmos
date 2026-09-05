@@ -1,0 +1,50 @@
+You are Lane B (Cursor Cloud Agent). Model: claude-opus-5 (Opus 5 or Sonnet-class Ultra). NEVER Composer 2.5, NEVER Auto.
+
+GitHub issue: https://github.com/keithbbf-gif/cosmos/issues/31  (full CLOCKS table + satellite links). Work order file: work_orders/drop/wo-20260904T120000.json
+
+Repo: https://github.com/keithbbf-gif/cosmos startingRef=main. Independent clone. Do not peek at any Grok/COW proposal, local uncommitted docs, or CLOCKS collapse text.
+
+FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the Windows live tree. Never /delete schtasks. Never take Core :8770 down. Never lift HOLD/PAUSE. Never write V:\Ai. ANTHROPIC_OFF stays.
+
+TASK: 26 COSMOS Windows clocks each opened their own python daemon for a small different job. That is too many resident processes. Propose the right topology.
+
+Read the CLOCKS registry and every satellite:
+- cosmos/cosmos_own_clocks.py  (CLOCKS tuple ids 1-26, standup_all, logon_specs)
+- docs/ORCHESTRATION.md  (cadence rubric + live matrix; treat as description of TODAY not a target)
+- cosmos/cosmos_watchdog2.py
+- cosmos/cosmos_collector.py
+- cosmos/cosmos_run.py
+- cosmos/cosmos_motif_driver.py
+- cosmos/cosmos_discover.py
+- cosmos/cosmos_health_clock.py  (PEER_HEARTBEATS, --supervise of :8770)
+- cosmos/cosmos_rails_prober.py
+- cosmos/cosmos_spend_meter.py
+- cosmos/cosmos_drive_meter.py
+- cosmos/cosmos_cdeck_feed.py
+- cosmos/cosmos_backup_clock.py
+- cosmos/cosmos_ledger_verify.py
+- cosmos/cosmos_index.py  (REQUIRED_DAEMONS)
+- cosmos/cosmos_dispatcher_daemon.py
+- cosmos/cosmos_pool.py
+- cosmos/cosmos_cvm_clock.py
+- cosmos/cosmos_work_order_run.py
+- cosmos/cosmos_resession.py
+- cosmos/cosmos_askmine.py
+- cosmos/cosmos_crit_consumer.py
+- cosmos/cosmos_grok_bucket_worker.py
+- cosmos/cosmos_gem_bucket_worker.py
+- cosmos/cosmos_newai_scout.py
+- cosmos/cosmos_prepaid_orch.py
+- builds/cvm-dt/cvm_dt_clock.py
+- cosmos/cosmos_sgh_drop_ingest.py
+- cosmos/cosmos_principles.py  (anti_loss_daemons)
+- Also GitHub issue titled WO: CLOCKS topology (same task).
+
+ASKING YOU FOR THE SOLUTION. Do not rubber-stamp a collapse you did not invent. Answer:
+1. How many resident Python processes should exist, and what each one does.
+2. Which CLOCKS rows stay calendar --once schtasks (fire, run, exit).
+3. Which loops should die, and why.
+4. What couplings break if those processes vanish (heartbeats, PEER_HEARTBEATS, cDeck feed glob, index REQUIRED_DAEMONS, Logon relaunch, five claim surfaces on live/queue vs dispatch/work-order/buckets/critique inboxes).
+5. A collapse order that does not take Core :8770 down. Health --supervise is the only in-tree restarter of live Core. BTS COSMOS_Serve_Watchdog still points at trylive:8791.
+
+PR against main titled: WO: CLOCKS topology. Put the proposal in proposals/clocks-topology.md (and JSON if useful). Do not shrink the CLOCKS tuple. Do not edit cosmos_health_clock PEER_HEARTBEATS in this PR except as a proposed diff in the proposal file. Do not merge.

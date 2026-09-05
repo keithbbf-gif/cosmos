@@ -1,0 +1,28 @@
+<<<FILE path=HANDLERS_UNCHANGED.txt action=create>>>
+cvm_pull / cvm_snap handlers: COMPOSED, not copied.
+
+cosmos_service._cvm_store_snapshot is the §8.3 landing surface (kinds filter,
+request_id idempotency, cursor_out hash, state/cvm/phone.json replace).
+cosmos_cvm_push.cvm_store_push calls it. Copying filter_kinds / cursor hash
+would be bloat.
+
+cosmos_service._cvm_pull_response is the GET /api/v1/cvm/pull publisher
+(pull.json + phone.json cursor overlay + status prewarm). After a push
+stamps audio_owner=desktop onto pull.json, this helper is called as-is so
+the GET view is the source of truth. Copying ticket assembly would be bloat.
+
+GET /api/v1/cvm/pull branch is unchanged (parsed.path, bearer already
+checked, does not rewrite pull.json, does not append the ledger).
+
+POST /api/v1/cvm/snapshot parse + error map is reused: one urlparse, one
+body read, one BAD_SNAPSHOT map, then either cvm_store_push or
+_cvm_store_snapshot. A second POST block would be bloat.
+
+Auth is the existing do_POST `if not self._authed()` bearer role
+(config/api_token.txt). No second token file.
+
+Satellite cvm_pull.py / cvm_snap.py are not imported by Core (H2: Core is
+the authority; satellites are clients). The unit test builds the body with
+cvm_snap.snapshot_delta to prove the envelope is the same object, not a
+second schema.
+<<<FILE_END>>>

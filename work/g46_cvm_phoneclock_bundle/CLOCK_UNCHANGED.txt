@@ -1,0 +1,8 @@
+cvm_dt_clock.py: UNCHANGED
+No pause/heartbeat copy. cvm_dt_clock.poll_once already accepts
+client= and owns last_run_epoch / HOLD (no Core hit) / RESUME-GATE
+(idle, does not self-clear) / dead-Core heartbeat.
+CvmPhoneClock.tick() composes poll_once(client=self) via lazy import.
+--loop is a thin while around that hook; it does NOT call
+cvm_dt_clock.loop, which constructs CvmDtClient and would claim
+desktop — the thin phone must never become a second audio owner.

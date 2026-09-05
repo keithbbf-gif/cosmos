@@ -1,0 +1,22 @@
+{
+ "ok": true,
+ "all_bite": true,
+ "when": "2026-08-31T13:22Z",
+ "live_tail_before": {
+  "artifact": "cosmos/_follow_live_measure.json",
+  "head_seq": 1295,
+  "tail_n": 100,
+  "tail_with_any": 9,
+  "tail_missing": {"HEALTH_BOARD": 90, "BACKUP_VERIFIED": 1},
+  "newest_event": "HEALTH_BOARD",
+  "newest_follow_keys": []
+ },
+ "new_pins_against_old_writer": {
+  "tests/test_follow_ids.py": "FAIL current 10/11 health_board_node_equals_system payload={control_red,reds,verdict} no node",
+  "tests/test_migrate_health.py": "FAIL HEALTH_BOARD carries node=system",
+  "tests/test_command.py": "FAIL health: HEALTH_BOARD.node is sentinel.system",
+  "cosmos/_fail_follow_health_against_old.py": "all_new_pins_failed:true pin_passed_on_old=false old_payload={control_red:true,reds:0,verdict:GREEN}"
+ },
+ "old_health_payload_keys": ["control_red", "reds", "verdict"],
+ "prechange_path": "_delme/predispose_follow_health_20260831T132220Z/"
+}

@@ -1,0 +1,21 @@
+{
+ "schema": "cosmos-fail-old/1",
+ "what": "round5 backup pins against predecessor",
+ "ran": [
+  "check_seal_array_is_NO_SEAL",
+  "check_seal_str_is_NO_SEAL",
+  "local_garbage_is_NOT_A_BACKUP_SET",
+  "local_array_is_NOT_A_BACKUP_SET",
+  "r2_garbage_is_NOT_A_BACKUP_SET"
+ ],
+ "failed": [
+  "check_seal_array_is_NO_SEAL:AttributeError",
+  "check_seal_str_is_NO_SEAL:AttributeError",
+  "local_garbage_is_NOT_A_BACKUP_SET:JSONDecodeError",
+  "local_array_is_NOT_A_BACKUP_SET:returned_list",
+  "r2_garbage_is_NOT_A_BACKUP_SET:JSONDecodeError"
+ ],
+ "n_ran": 5,
+ "n_failed": 5,
+ "all_new_pins_failed": true
+}

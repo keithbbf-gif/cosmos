@@ -1,0 +1,24 @@
+{
+ "schema": "cosmos-fail-against-old/1",
+ "what": "round4 backup pins FAIL against stripped predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_unpinned_round4_20260831T142253Z",
+ "ran": [
+  "model_IDENTITY_MISMATCH",
+  "sentinel_IDENTITY_MISMATCH",
+  "ident_not_obj_BAD_CONFIG",
+  "cfg_array_BAD_CONFIG",
+  "targets_list_BAD_CONFIG",
+  "empty_field_BAD_CREDENTIALS",
+  "cred_true_BAD_CREDENTIALS"
+ ],
+ "failed": [
+  "model_IDENTITY_MISMATCH:did_not_raise",
+  "sentinel_IDENTITY_MISMATCH:did_not_raise",
+  "ident_not_obj_BAD_CONFIG:AttributeError",
+  "cfg_array_BAD_CONFIG:AttributeError",
+  "targets_list_BAD_CONFIG:did_not_raise",
+  "empty_field_BAD_CREDENTIALS:did_not_raise",
+  "cred_true_BAD_CREDENTIALS:TypeError"
+ ],
+ "all_new_pins_failed": true
+}

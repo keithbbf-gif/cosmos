@@ -1,0 +1,103 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_cvm_phoneclock_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T04:08:15-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_phoneclock_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_phoneclock_bundle",
+  "cvm_dt_clock.py": "unchanged",
+  "clock_unchanged_why": "cvm_dt_clock.poll_once already accepts client= and owns last_run_epoch, HOLD (no Core hit), RESUME-GATE (idle, does not self-clear), and dead-Core UNREACHABLE + heartbeat. CvmPhoneClock.tick() composes poll_once(client=self) via lazy import. Copying pause_flag/is_paused/write_heartbeat would be bloat. cvm_dt_clock.loop is NOT composed: it constructs CvmDtClient and would claim desktop.",
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile builds\\cvm-phone\\cvm_phone_clock.py ; py -3.14 -m py_compile tests\\test_cvm_phone_clock.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_phoneclock_bundle",
+    "builds/cvm-phone/cvm_phone_clock.py": {"rc": 0, "lines": 282, "bytes": 10536, "sha256_16": "7218896005215640"},
+    "tests/test_cvm_phone_clock.py": {"rc": 0, "lines": 469, "bytes": 17252, "sha256_16": "df50eb20d38e83cc"}
+  },
+  "tests": {
+    "cmd": "py -3.14 tests\\test_cvm_phone_clock.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_phoneclock_bundle",
+    "rc": 0,
+    "passed": "4/4",
+    "failed": 0,
+    "quoted_from": "stdout: result: ok  4/4 then TEST_RC=0",
+    "labels": [
+      "PASS  thin phone never becomes a second audio owner (push→pull quotes desktop, no claim, no pull/audio/handoff write)",
+      "PASS  replayed push is ignored (not a second owner)",
+      "PASS  HOLD pause does not hit Core",
+      "PASS  RESUME-GATE idles and does not self-clear; dead Core is UNREACHABLE yet the clock still heartbeats"
+    ]
+  },
+  "runtime_binding": {
+    "what_done_is": "the test asserting the thin phone never becomes a second audio owner passing against the emitted clock, plus py_compile rc=0 — not an exit code on --once against live :8770",
+    "isolated_proof": {
+      "test": "test_thin_phone_never_second_audio_owner",
+      "label": "thin phone never becomes a second audio owner (push→pull quotes desktop, no claim, no pull/audio/handoff write)",
+      "passed": true,
+      "audio_owner": "desktop",
+      "owners": ["desktop"],
+      "claimed": false,
+      "push_path": "/api/v1/cvm/push",
+      "quoted_from": "GET /api/v1/cvm/pull",
+      "push_body_has_audio_owner": false,
+      "wrote_pull_json": false,
+      "wrote_audio_json": false,
+      "wrote_handoff_json": false,
+      "replayed_second_cycle": true,
+      "py_compile_rc": 0
+    },
+    "also_proved": {
+      "replay_ignored_not_second_owner": true,
+      "hold_pause_does_not_hit_core": true,
+      "resume_gate_idles_does_not_self_clear": true,
+      "dead_core_unreachable_still_heartbeats": true
+    },
+    "live_8770_not_run": true,
+    "reason": "P10 propose-only; fake Core HTTP double so the thin-phone contract is measured without a Core restart"
+  },
+  "elegance": {
+    "clock_copied": false,
+    "client_hook": "CvmPhoneClock.tick -> cvm_dt_clock.poll_once(client=self)",
+    "loop_not_composed": "cvm_dt_clock.loop constructs CvmDtClient (claims desktop); phone --loop is a thin while around poll_once(client=self)",
+    "shared": ["poll_once", "pause_flag", "is_paused", "write_heartbeat", "core_get", "core_post", "pull_url", "parse_ticket", "snapshot_delta", "audio_owner_of"],
+    "never_claims_audio": true,
+    "does_not_write": ["state/cvm/audio.json", "state/cvm/pull.json", "state/cvm/handoff.json"],
+    "writes": ["state/cvm/phone_turn.json (quoted_audio_owner only, claimed=false)"],
+    "envelope_body": "cvm_snap.snapshot_delta (no second POST body)",
+    "no_bts_imports": true,
+    "no_hardcoded_paths": true,
+    "token_from": "paths.config('api_token.txt') via load_token (handed-in --root)"
+  },
+  "files": [
+    "builds/cvm-phone/cvm_phone_clock.py",
+    "builds/cvm-phone/test_cvm_phone_clock.py",
+    "tests/test_cvm_phone_clock.py",
+    "CLOCK_UNCHANGED.txt",
+    "EMIT.txt",
+    "emit/builds__cvm-phone__cvm_phone_clock.py.emit.txt",
+    "emit/builds__cvm-phone__test_cvm_phone_clock.py.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=create>>> ... <<<FILE_END>>> (full-file creates, not diffs)",
+  "cow_dispose": [
+    "extract EMIT.txt / emit/*.emit.txt FILE blocks",
+    "create builds/cvm-phone/ if missing",
+    "copy builds/cvm-phone/cvm_phone_clock.py onto builds/cvm-phone/cvm_phone_clock.py",
+    "copy tests/test_cvm_phone_clock.py onto builds/cvm-phone/test_cvm_phone_clock.py",
+    "do NOT apply a unified diff (corrupt-patch scar)",
+    "do NOT rewrite cvm_dt_clock.py",
+    "do NOT edit cosmos/ or live Core :8770",
+    "py -3.14 -m py_compile builds\\cvm-phone\\cvm_phone_clock.py builds\\cvm-phone\\test_cvm_phone_clock.py",
+    "py -3.14 builds\\cvm-phone\\test_cvm_phone_clock.py"
+  ],
+  "not_done": [
+    "did not write the live tree or cosmos/ package",
+    "did not change cvm_dt_clock.py",
+    "did not add Core POST /api/v1/cvm/push (HOLD/additive; this bundle is the phone client)",
+    "did not run schtasks / --loop / live :8770 gate"
+  ]
+}

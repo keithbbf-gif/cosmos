@@ -1,0 +1,12 @@
+{
+ "gbridge": 1,
+ "request_id": "1787757729252-2375173cd10e",
+ "from": "COW",
+ "to": "GBOT",
+ "epoch": 1787757729.252055,
+ "utc_offset_s": -18000,
+ "text": "gbridge-s6-timeout 2c62f031fd3e4be39e867847c1e22607",
+ "context": "",
+ "timeout_s": 0.2,
+ "body_sha256": "02139bd46ca853f3fab27134bcad01b4da7ff865f3bdca4499a8e33f426436c8"
+}

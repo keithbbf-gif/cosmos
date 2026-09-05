@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "verdict": "BOUND: 26/26 live clocks re-homed, none dropped; census {'calendar.once': 0, 'parked': 0, 'pulse.inproc': 0, 'pulse.once': 0, 'resident.keep': 26}",
+  "bound": 26,
+  "required": 26,
+  "census": {
+    "calendar.once": 0,
+    "parked": 0,
+    "pulse.inproc": 0,
+    "pulse.once": 0,
+    "resident.keep": 26
+  },
+  "refusals": [],
+  "notes": []
+}

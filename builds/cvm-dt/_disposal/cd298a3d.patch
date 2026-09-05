@@ -1,0 +1,405 @@
+diff --git a/builds/cvm-dt/cvm_dt.py b/builds/cvm-dt/cvm_dt.py
+index 1afabef..331c59e 100644
+--- a/builds/cvm-dt/cvm_dt.py
++++ b/builds/cvm-dt/cvm_dt.py
+@@ -35,7 +35,7 @@ from datetime import datetime
+ from enum import StrEnum
+ from pathlib import Path
+ from typing import Any, Callable, Optional, Protocol
+-from urllib.parse import urlparse
++from urllib.parse import quote, urlparse
+ 
+ # Source-layout import of the in-tree resolver. The LIVE root is still handed
+ # in via --root and verified by sentinel content — this is not a root search.
+@@ -60,6 +60,9 @@ FAST_READ_S = 8.0          # GET status / control
+ VOICE_READ_S = 70.0        # POST /api/v1/voice  (45 Opus + 20 Grok + 5 slack)
+ PROOF_NAME = "STAGE6_GATE.json"
+ LEASE_REL = ("cvm", "pull.json")
++PULL_PATH = "/api/v1/cvm/pull"
++SNAP_PATH = "/api/v1/cvm/snapshot"
++ROAD_KINDS = frozenset({"UNREACHABLE", "CLOCK_STALE", "AUTH_REQUIRED"})
+ 
+ 
+ class RefusalKind(StrEnum):
+@@ -446,6 +449,80 @@ class CoreClient:
+         return self.post("/api/v1/voice", body, VOICE_READ_S)
+ 
+ 
++def pull_url(client_id: str) -> str:
++    """GET /api/v1/cvm/pull?client_id=… — one builder, no second query string."""
++    return PULL_PATH + "?client_id=" + quote(str(client_id), safe="")
++
++
++def refuse_http(data: dict, *, default_400: Optional[RefusalKind] = None) -> None:
++    """Typed refusal on non-2xx. ONE mapping for GET /cvm/pull and POST /cvm/snapshot.
++
++    Never silent. Dead/missing route → UNREACHABLE (H3). 400 on snapshot
++    defaults to BAD_SNAPSHOT; 400 on pull defaults to BAD_REQUEST.
++    """
++    try:
++        code = int(data.get("_http") or 0)
++    except (TypeError, ValueError):
++        code = 0
++    if 200 <= code < 300:
++        return
++    err = str(data.get("error") or "").strip()
++    detail = str(data.get("detail") or err or ("HTTP_%s" % code))[:300]
++    if code == 401 or err in ("UNAUTHORIZED", "AUTH_REQUIRED"):
++        raise CvmDtError(RefusalKind.UNAUTHORIZED, detail)
++    if err == "IDENTITY_MISMATCH":
++        raise CvmDtError(RefusalKind.IDENTITY_MISMATCH, detail)
++    if err == "OWNER_CONTESTED":
++        raise CvmDtError(RefusalKind.OWNER_CONTESTED, detail)
++    if err == "BAD_SNAPSHOT":
++        raise CvmDtError(RefusalKind.BAD_SNAPSHOT, detail)
++    if err == "CURSOR_GAP":
++        raise CvmDtError(RefusalKind.CURSOR_GAP, detail)
++    if err == "CLIENT_ID_REQUIRED":
++        raise CvmDtError(RefusalKind.BAD_REQUEST, detail)
++    if code == 400:
++        kind = default_400 or RefusalKind.BAD_REQUEST
++        raise CvmDtError(kind, detail or "HTTP_400")
++    if code == 404 or err in ROAD_KINDS or code == 0:
++        raise CvmDtError(RefusalKind.UNREACHABLE,
++                         detail or "CVM Core route failed")
++    raise CvmDtError(RefusalKind.BAD_CORE, detail)
++
++
++def core_get(core: CoreClient, path: str, timeout: float = FAST_READ_S) -> dict:
++    """GET JSON object. Dead Core / !=200 → typed refusal. Never silent."""
++    try:
++        data = core.get(path, timeout)
++    except CvmDtError:
++        raise
++    except OSError as e:
++        raise CvmDtError(RefusalKind.UNREACHABLE,
++                         "GET %s: %s" % (path, e)) from e
++    if not isinstance(data, dict):
++        raise CvmDtError(RefusalKind.BAD_CORE,
++                         "GET %s did not return an object" % path)
++    refuse_http(data)
++    return data
++
++
++def core_post(core: CoreClient, path: str, obj: dict,
++              timeout: float = FAST_READ_S, *,
++              default_400: Optional[RefusalKind] = None) -> dict:
++    """POST JSON object. Dead Core / !=200 → typed refusal. Never silent."""
++    try:
++        data = core.post(path, obj, timeout)
++    except CvmDtError:
++        raise
++    except OSError as e:
++        raise CvmDtError(RefusalKind.UNREACHABLE,
++                         "POST %s: %s" % (path, e)) from e
++    if not isinstance(data, dict):
++        raise CvmDtError(RefusalKind.BAD_CORE,
++                         "POST %s did not return an object" % path)
++    refuse_http(data, default_400=default_400)
++    return data
++
++
+ def socket_timeout():
+     import socket
+     return socket.timeout
+
+diff --git a/builds/cvm-dt/cvm_pull.py b/builds/cvm-dt/cvm_pull.py
+index 7eb1d25..750a869 100644
+--- a/builds/cvm-dt/cvm_pull.py
++++ b/builds/cvm-dt/cvm_pull.py
+@@ -30,7 +30,6 @@ import sys
+ import time
+ from pathlib import Path
+ from typing import Any, Optional
+-from urllib.parse import quote
+ 
+ _HERE = Path(__file__).resolve().parent
+ if str(_HERE) not in sys.path:
+@@ -44,8 +43,9 @@ from cosmos_clock import atomic_json  # noqa: E402
+ from cosmos_paths import CosmosPaths  # noqa: E402
+ 
+ from cvm_dt import (  # noqa: E402
+-    CLIENT_ID, FAST_READ_S, VOICE_READ_S,
+-    CoreClient, CvmDtError, RefusalKind, load_paths, load_token,
++    CLIENT_ID, FAST_READ_S, ROAD_KINDS, VOICE_READ_S,
++    CoreClient, CvmDtError, RefusalKind, core_get, load_paths, load_token,
++    pull_url,
+ )
+ 
+ # Exact CVM_ARCH §4–6 / §8.2 ticket. Extra keys may ride through; these six
+@@ -54,45 +54,15 @@ CONTRACT = (
+     "tree_id", "issued_epoch", "kinds", "cursor",
+     "audio_owner", "voice_client_timeout_s",
+ )
+-PULL_PATH = "/api/v1/cvm/pull"
+ # GET /cvm/pull is FAST on the phone helper; reuse, do not invent a third.
+ HEAVY_LOCAL_PULL_S = FAST_READ_S
+ PULL_INTERVAL_S = 15.0
+-ROAD_KINDS = frozenset({"UNREACHABLE", "CLOCK_STALE", "AUTH_REQUIRED"})
+ PASS_THROUGH = (
+     "cvm", "pull", "core_ready", "core_kind", "blob_max_bytes",
+     "clock_id", "pcm_wanted", "ticket_seq",
+ )
+ 
+ 
+-def _pull_url(client_id: str) -> str:
+-    return PULL_PATH + "?client_id=" + quote(str(client_id), safe="")
+-
+-
+-def refuse_http(data: dict) -> None:
+-    """Typed refusal on non-200. Mirrors phone CvmRefusal.fromHttp. Never silent."""
+-    try:
+-        code = int(data.get("_http") or 0)
+-    except (TypeError, ValueError):
+-        code = 0
+-    if 200 <= code < 300:
+-        return
+-    err = str(data.get("error") or "").strip()
+-    detail = str(data.get("detail") or err or ("HTTP_%s" % code))[:300]
+-    if code == 401 or err in ("UNAUTHORIZED", "AUTH_REQUIRED"):
+-        raise CvmDtError(RefusalKind.UNAUTHORIZED, detail)
+-    if err == "IDENTITY_MISMATCH":
+-        raise CvmDtError(RefusalKind.IDENTITY_MISMATCH, detail)
+-    if err == "OWNER_CONTESTED":
+-        raise CvmDtError(RefusalKind.OWNER_CONTESTED, detail)
+-    if err == "CLIENT_ID_REQUIRED" or code == 400:
+-        raise CvmDtError(RefusalKind.BAD_REQUEST, detail)
+-    if code == 404 or err in ROAD_KINDS or code == 0:
+-        raise CvmDtError(RefusalKind.UNREACHABLE,
+-                         detail or "GET /api/v1/cvm/pull failed")
+-    raise CvmDtError(RefusalKind.BAD_CORE, detail)
+-
+-
+ def parse_ticket(data: dict, tree_id: str) -> dict:
+     """Read the arch contract. Missing pull → UNREACHABLE, never invent kinds."""
+     if data.get("pull") is False:
+@@ -161,19 +131,7 @@ class DesktopPullClock:
+         self.last: Optional[dict] = None
+ 
+     def get_pull(self) -> dict:
+-        try:
+-            data = self.core.get(_pull_url(self.client_id), HEAVY_LOCAL_PULL_S)
+-        except CvmDtError:
+-            raise
+-        except OSError as e:
+-            raise CvmDtError(
+-                RefusalKind.UNREACHABLE,
+-                "GET /api/v1/cvm/pull: %s" % e) from e
+-        if not isinstance(data, dict):
+-            raise CvmDtError(RefusalKind.BAD_CORE,
+-                             "GET /api/v1/cvm/pull did not return an object")
+-        refuse_http(data)
+-        return data
++        return core_get(self.core, pull_url(self.client_id), HEAVY_LOCAL_PULL_S)
+ 
+     def _publish(self, claimed: dict) -> Path:
+         path = self.paths.state("cvm", "pull.json")
+
+diff --git a/builds/cvm-dt/cvm_snap.py b/builds/cvm-dt/cvm_snap.py
+index 8f1dac5..94aab73 100644
+--- a/builds/cvm-dt/cvm_snap.py
++++ b/builds/cvm-dt/cvm_snap.py
+@@ -36,7 +36,6 @@ import time
+ import uuid
+ from pathlib import Path
+ from typing import Any, Optional
+-from urllib.parse import quote
+ 
+ _HERE = Path(__file__).resolve().parent
+ if str(_HERE) not in sys.path:
+@@ -49,10 +48,11 @@ from cosmos_clock import atomic_json  # noqa: E402
+ from cosmos_paths import CosmosPaths  # noqa: E402
+ 
+ from cvm_dt import (  # noqa: E402
+-    CLIENT_ID, FAST_READ_S, VOICE_READ_S,
+-    CoreClient, CvmDtError, RefusalKind, load_paths, load_token,
++    CLIENT_ID, FAST_READ_S, SNAP_PATH, VOICE_READ_S,
++    CoreClient, CvmDtError, RefusalKind, _sha256_file, core_get, core_post,
++    load_paths, load_token, pull_url, refuse_http,
+ )
+-from cvm_pull import CONTRACT, parse_ticket, refuse_http  # noqa: E402
++from cvm_pull import CONTRACT, parse_ticket  # noqa: E402
+ 
+ # Must match cosmos_service._CVM_KNOWN_KINDS / _CVM_PCM_INLINE (do not import
+ # the service module — that would pull Kernel into a satellite).
+@@ -61,8 +61,6 @@ KNOWN_KINDS = frozenset({
+     "sms", "calls", "contacts", "calendar", "pcm",
+ })
+ PCM_INLINE = frozenset({"bytes", "pcm", "data", "b64"})
+-SNAP_PATH = "/api/v1/cvm/snapshot"
+-PULL_PATH = "/api/v1/cvm/pull"
+ SNAP_READ_S = FAST_READ_S          # do not invent a third budget (H9)
+ TURN_REL = ("cvm", "dt_turn.json")
+ PROOF_NAME = "STAGE6_SNAP.json"
+@@ -70,18 +68,6 @@ WRITER = "cvm-dt-snap"
+ GATE_CLIENT = "cvm-dt-snap-gate"
+ 
+ 
+-def _pull_url(client_id: str) -> str:
+-    return PULL_PATH + "?client_id=" + quote(str(client_id), safe="")
+-
+-
+-def _sha256_file(path: Path) -> str:
+-    h = hashlib.sha256()
+-    with path.open("rb") as fh:
+-        for chunk in iter(lambda: fh.read(1 << 16), b""):
+-            h.update(chunk)
+-    return h.hexdigest()
+-
+-
+ def _cursor_out(tree_id: str, request_id: str, kinds: dict) -> str:
+     """Same hash Core `_cvm_store_snapshot` writes as cursor_out."""
+     payload = {"tree_id": tree_id, "request_id": request_id, "kinds": kinds}
+@@ -152,31 +138,8 @@ def parse_delta(data: Any, tree_id: str) -> dict:
+ 
+ 
+ def refuse_snap_http(data: dict) -> None:
+-    """Typed refusal on non-200 POST /cvm/snapshot. Never silent."""
+-    try:
+-        code = int(data.get("_http") or 0)
+-    except (TypeError, ValueError):
+-        code = 0
+-    if 200 <= code < 300:
+-        return
+-    err = str(data.get("error") or "").strip()
+-    detail = str(data.get("detail") or err or ("HTTP_%s" % code))[:300]
+-    if code == 401 or err in ("UNAUTHORIZED", "AUTH_REQUIRED"):
+-        raise CvmDtError(RefusalKind.UNAUTHORIZED, detail)
+-    if err == "IDENTITY_MISMATCH":
+-        raise CvmDtError(RefusalKind.IDENTITY_MISMATCH, detail)
+-    if err == "BAD_SNAPSHOT":
+-        raise CvmDtError(RefusalKind.BAD_SNAPSHOT, detail)
+-    if err == "CURSOR_GAP":
+-        raise CvmDtError(RefusalKind.CURSOR_GAP, detail)
+-    if err == "CLIENT_ID_REQUIRED":
+-        raise CvmDtError(RefusalKind.BAD_REQUEST, detail)
+-    if code == 400:
+-        raise CvmDtError(RefusalKind.BAD_SNAPSHOT, detail or "HTTP_400")
+-    if code == 404 or err in ("UNREACHABLE", "CLOCK_STALE") or code == 0:
+-        raise CvmDtError(RefusalKind.UNREACHABLE,
+-                         detail or "POST /api/v1/cvm/snapshot failed")
+-    raise CvmDtError(RefusalKind.BAD_CORE, detail)
++    """Typed refusal on non-200 POST /cvm/snapshot. Delegates to one mapping."""
++    refuse_http(data, default_400=RefusalKind.BAD_SNAPSHOT)
+ 
+ 
+ class SnapshotConsumer:
+@@ -274,18 +237,7 @@ class SnapshotConsumer:
+         self.ticket = dict(ticket)
+ 
+     def pull_ticket(self) -> dict:
+-        try:
+-            data = self.core.get(_pull_url(self.client_id), SNAP_READ_S)
+-        except CvmDtError:
+-            raise
+-        except OSError as e:
+-            raise CvmDtError(
+-                RefusalKind.UNREACHABLE,
+-                "GET /api/v1/cvm/pull: %s" % e) from e
+-        if not isinstance(data, dict):
+-            raise CvmDtError(RefusalKind.BAD_CORE,
+-                             "GET /api/v1/cvm/pull did not return an object")
+-        refuse_http(data)
++        data = core_get(self.core, pull_url(self.client_id), SNAP_READ_S)
+         ticket = parse_ticket(data, self.tree_id)
+         self.seed_ticket(ticket)
+         return ticket
+@@ -371,18 +323,8 @@ class SnapshotConsumer:
+         Core is the store; the fold is the desktop turn. A Core-side
+         `idempotent: true` is quoted, not trusted as the desktop seen-set.
+         """
+-        try:
+-            data = self.core.post(SNAP_PATH, delta, SNAP_READ_S)
+-        except CvmDtError:
+-            raise
+-        except OSError as e:
+-            raise CvmDtError(
+-                RefusalKind.UNREACHABLE,
+-                "POST /api/v1/cvm/snapshot: %s" % e) from e
+-        if not isinstance(data, dict):
+-            raise CvmDtError(RefusalKind.BAD_CORE,
+-                             "POST /api/v1/cvm/snapshot did not return an object")
+-        refuse_snap_http(data)
++        data = core_post(self.core, SNAP_PATH, delta, SNAP_READ_S,
++                         default_400=RefusalKind.BAD_SNAPSHOT)
+         body = dict(delta)
+         if data.get("cursor_out"):
+             body["cursor_out"] = data.get("cursor_out")
+
+diff --git a/builds/cvm-dt/cvm_handoff.py b/builds/cvm-dt/cvm_handoff.py
+index 2495840..433a49e 100644
+--- a/builds/cvm-dt/cvm_handoff.py
++++ b/builds/cvm-dt/cvm_handoff.py
+@@ -6,8 +6,8 @@ Transfers `audio_owner` between the thin phone and the heavy-local desktop
+ (docs/CVM_ARCH.md §§4–6, H6 exclusive owner). Snapshot-consume is
+ cvm_snap.py; this module is the requester/acceptor.
+ 
+-  * HTTP: reuse `cvm_dt.CoreClient` + `cvm_pull.parse_ticket` /
+-    `refuse_http` (FAST 8 s). GET /api/v1/cvm/pull is the EXISTING Core
++  * HTTP: reuse `cvm_dt.CoreClient` + `core_get`/`refuse_http` (FAST 8 s)
++    and `cvm_pull.parse_ticket`. GET /api/v1/cvm/pull is the EXISTING Core
+     route that quotes `audio_owner`. No second stack, no new Core path (H5,
+     H9). Does NOT edit kernel/ledger/one-writer.
+   * Contract (do not invent a second): tree_id, issued_epoch, kinds[],
+@@ -30,7 +30,6 @@ GET /api/v1/cvm/pull after a contested claim against restarted :8770.
+ from __future__ import annotations
+ 
+ import argparse
+-import hashlib
+ import json
+ import sys
+ import time
+@@ -49,13 +48,12 @@ from cosmos_clock import atomic_json  # noqa: E402
+ from cosmos_paths import CosmosPaths  # noqa: E402
+ 
+ from cvm_dt import (  # noqa: E402
+-    CLIENT_ID, FAST_READ_S, OWNERS, VOICE_READ_S,
+-    CoreClient, CvmDtError, RefusalKind,
+-    audio_owner_of, load_paths, load_token, require_single_owner,
+-)
+-from cvm_pull import (  # noqa: E402
+-    CONTRACT, PULL_PATH, _pull_url, parse_ticket, refuse_http,
++    CLIENT_ID, FAST_READ_S, OWNERS, PULL_PATH, VOICE_READ_S,
++    CoreClient, CvmDtError, RefusalKind, _sha256_file,
++    audio_owner_of, core_get, load_paths, load_token, pull_url,
++    require_single_owner,
+ )
++from cvm_pull import CONTRACT, parse_ticket  # noqa: E402
+ 
+ HANDOFF_READ_S = FAST_READ_S          # do not invent a third budget (H9)
+ PROOF_NAME = "STAGE6_HANDOFF.json"
+@@ -65,14 +63,6 @@ STATE_REL = ("cvm", "handoff.json")
+ PULL_REL = ("cvm", "pull.json")
+ 
+ 
+-def _sha256_file(path: Path) -> str:
+-    h = hashlib.sha256()
+-    with path.open("rb") as fh:
+-        for chunk in iter(lambda: fh.read(1 << 16), b""):
+-            h.update(chunk)
+-    return h.hexdigest()
+-
+-
+ class AudioHandoff:
+     """Requester/acceptor for a single audio_owner (phone|desktop|none).
+ 
+@@ -172,18 +162,7 @@ class AudioHandoff:
+ 
+     def pull_ticket(self) -> dict:
+         """GET /api/v1/cvm/pull. Never invent a ticket."""
+-        try:
+-            data = self.core.get(_pull_url(self.client_id), HANDOFF_READ_S)
+-        except CvmDtError:
+-            raise
+-        except OSError as e:
+-            raise CvmDtError(
+-                RefusalKind.UNREACHABLE,
+-                "GET /api/v1/cvm/pull: %s" % e) from e
+-        if not isinstance(data, dict):
+-            raise CvmDtError(RefusalKind.BAD_CORE,
+-                             "GET /api/v1/cvm/pull did not return an object")
+-        refuse_http(data)
++        data = core_get(self.core, pull_url(self.client_id), HANDOFF_READ_S)
+         ticket = parse_ticket(data, self.tree_id)
+         self.ticket = ticket
+         if not self.seen:

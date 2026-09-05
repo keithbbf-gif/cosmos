@@ -21,7 +21,7 @@ Add a `Verdict` object to the work order JSON:
 
 ## Rules
 
-1. **Objections must be self-contained.** A rejected verdict must name the exact file, line, or symbol that breaks, and state the fix in plain terms — e.g. "panel resize breaks the fixed-height layout in ddeck_layout.py, line 42; use flex instead of absolute positioning." The user should be able to correct the work order from the voice layer alone.
+1. **Objections must be self-contained.** A rejected verdict must name the exact file, line, or symbol that breaks, and state the fix in plain terms. The user should be able to correct the work order from the voice layer alone.
 
 2. **No desktop required.** The verdict is the only channel. If the objection is vague ("doesn't work"), the verdict is invalid and must be rewritten.
 
@@ -31,14 +31,19 @@ Add a `Verdict` object to the work order JSON:
 
 5. **One verdict per work order.** Overwrite, don't append. The latest verdict is authoritative.
 
+## Dual-lane (GitHub 2026-09-02, `docs/ADVERSARIAL_LOOP.md`)
+
+Cursor Composer 2.5 is a **parallel builder** (second unbiased take), not a reviewer of Grok and not a post-DONE check. Grok writes `Verdict`. COW compares the two takes. Optional `Comparison` from Bugbot/Copilot does not replace Lane B. One Verdict; overwrite, don't append.
+
 ## Flow
 
 1. User dictates a work order → Ara writes it to `work_orders/drop/`.
 2. Windows runner files it into the live bucket.
-3. Grok Code 4.6 reads it, produces a proposal, decides apply or reject.
-4. Grok Code writes the `Verdict` object back into the same JSON file.
-5. Ara polls the file, reads the verdict, and reports status + objection to the user.
-6. If rejected, the user corrects the work order and re-drops it.
+3. **Lane A** Grok Code 4.6 executes, writes Output, writes `Verdict` into the same GitHub JSON.
+4. **Lane B** Cursor Composer 2.5 executes independently, opens a PR. No peeking at Lane A.
+5. Reviewer diffs the two and writes `Comparison`.
+6. COW reads Output + Verdict + Comparison, accept or reject, applies to the live tree.
+7. Ara polls Verdict + Comparison and reports. If rejected, the user corrects and re-drops.
 
 ## Why this matters
 

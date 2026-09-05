@@ -1,0 +1,20 @@
+{
+ "what": "new F-36 2.1a / whose-judgement pins FAIL against predecessor canon",
+ "staged": "V:\\A\\Ai\\COSMOS\\docs\\_delme\\predispose_core_restructure_f36_20260831T155400Z\\CORE_RESTRUCTURE.md",
+ "pins": {
+  "has_work_order_21a": false,
+  "names_flip_streak_target": false,
+  "names_keith_or_cow_as_flip_actor": false,
+  "flip_ready_is_advice": false,
+  "2_3_names_open_sites": false
+ },
+ "failed_pins": [
+  "has_work_order_21a",
+  "names_flip_streak_target",
+  "names_keith_or_cow_as_flip_actor",
+  "flip_ready_is_advice",
+  "2_3_names_open_sites"
+ ],
+ "passed_pins": [],
+ "all_new_pins_failed": true
+}

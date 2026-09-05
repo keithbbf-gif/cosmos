@@ -1,0 +1,12 @@
+{
+ "schema": "cosmos-f30-bite/1",
+ "module_path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_forge_rail.py",
+ "module_exists": false,
+ "import_kind": "ModuleNotFoundError",
+ "import_ok": false,
+ "import_detail": "No module named 'cosmos_forge_rail'",
+ "kernel_has_forge_row": false,
+ "prober_has_github_forge": false,
+ "prober_has_gitlab_forge": false,
+ "all_bite": true
+}

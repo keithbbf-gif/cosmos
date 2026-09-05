@@ -1,0 +1,170 @@
+{
+ "ok": false,
+ "wire": "cvm-dt-b1-ear/1",
+ "suite": "test_cvm_phone_ear.py",
+ "passed": 10,
+ "total": 20,
+ "gated_at_epoch": 1788295577.8252132,
+ "python": "3.14.0",
+ "live_value": {
+  "phrase": "open the status report",
+  "pcm_sha256": "beb26fef9989cf75c520debb4ce2f0ecc5cc859f41dde2d9ed11691cddfe5c77",
+  "pcm_bytes": 97648,
+  "rate": 22050,
+  "vosk_probe": {
+   "ok": true,
+   "detail": null
+  },
+  "sapi_probe": {
+   "ok": true,
+   "recognizer": "MS-1033-80-DESK",
+   "recognizer_id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Recognizers\\Tokens\\MS-1033-80-DESK"
+  },
+  "old_path": {
+   "fn": "cosmos_cvm_push.stt_interrupt -> bind_phone_stt",
+   "stt_kind": "ok",
+   "stt_engine": "vosk",
+   "transcript": "open the status report",
+   "ack": null,
+   "ear_ms": 1209.085
+  },
+  "new_path": {
+   "fn": "cvm_pull.DesktopPullClock.on_speech + phone_ear_fallback",
+   "stt_kind": "ok",
+   "stt_engine": "vosk",
+   "transcript": "open the status report",
+   "recognizer": null,
+   "ear_ms": 71.329,
+   "cvm_ear_ms": 71.329,
+   "word_recall": 1.0,
+   "words_matched": [
+    "open",
+    "report",
+    "status",
+    "the"
+   ],
+   "fallback": {
+    "wire": "cvm-dt-stt-fallback/1",
+    "engaged": false,
+    "heard": false,
+    "reason": "fold reported stt_kind='ok', not STT_NONE"
+   }
+  },
+  "stamped": {
+   "path": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-ear-b1-3ae99wpf\\state\\cvm\\pull.json",
+   "stt_kind": "ok",
+   "stt_engine": "vosk",
+   "stt_pcm_sha256": "beb26fef9989cf75c520debb4ce2f0ecc5cc859f41dde2d9ed11691cddfe5c77",
+   "clock_id": 18,
+   "writer": "cvm-dt-pull"
+  },
+  "fence": {
+   "live_cvm_dir": "V:\\A\\Ai\\COSMOS\\live\\state\\cvm",
+   "mtimes_unchanged": true
+  }
+ },
+ "emitted": "b1-ear:KMesh-COSMOS-live:ok->ok:None:open the status report",
+ "note": "rc=0 is not the gate. old_path is the same real fold on the same real bytes; new_path's transcript is a value the VOSK-only path cannot produce on a box with no VOSK.",
+ "results": [
+  {
+   "name": "old_path_is_deaf_STT_NONE",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "old_path_acked_unavailable",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "vosk_absent_on_this_box",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "new_path_stt_kind_ok",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "new_path_engine_sapi",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "new_path_transcript_nonempty",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "new_path_recognized_the_phrase",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "new_path_names_the_recognizer",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "new_path_ear_ms_is_the_recognizers",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "new_path_publishes_cvm_ear_ms",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "stt_none_ack_withdrawn_when_heard",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "fallback_note_is_named",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "consumed_sha_is_the_pushed_sha",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "pull_json_stamped_ok_sapi",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "pull_json_clock_id_18",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "vosk_present_means_no_second_engine",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "ok_fold_untouched",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "no_cas_bytes_is_a_named_skip",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "empty_transcript_is_not_promoted",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "production_cvm_state_untouched",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

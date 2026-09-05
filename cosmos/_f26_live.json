@@ -1,0 +1,548 @@
+{
+ "schema": "cosmos-newai-scout/1",
+ "clock_id": 23,
+ "ok": true,
+ "state": "SCOUTED",
+ "dry_run": true,
+ "known_count": 75,
+ "ingress_count": 42,
+ "proposed_count": 39,
+ "proposed": [
+  {
+   "name": "Pipecat",
+   "fold": "pipecat",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Pipecat",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "LiveKit Agents",
+   "fold": "livekitagents",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "LiveKit",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Stagehand v4",
+   "fold": "stagehandv4",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Stagehand",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Google Antigravity CLI (`agy`)",
+   "fold": "googleantigravitycliagy",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "agy",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Skyvern",
+   "fold": "skyvern",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Skyvern",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Steel",
+   "fold": "steel",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Steel",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "PydanticAI",
+   "fold": "pydanticai",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "PydanticAI",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Google ADK",
+   "fold": "googleadk",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Google",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Continue.dev",
+   "fold": "continuedev",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Continue.dev",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Kilo Code",
+   "fold": "kilocode",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Kilo",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Tabby",
+   "fold": "tabby",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Tabby",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "OpenAI Agents SDK",
+   "fold": "openaiagentssdk",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "OpenAI",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Amazon Kiro",
+   "fold": "amazonkiro",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Amazon",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Google Jules",
+   "fold": "googlejules",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Google",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Factory (Droid)",
+   "fold": "factorydroid",
+   "source": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Factory",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "codex",
+   "fold": "codex",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "codex",
+    "kind": "cli",
+    "present": true,
+    "path": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD"
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "claude-code",
+   "fold": "claudecode",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "claude-code",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "gemini-cli",
+   "fold": "geminicli",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "gemini-cli",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "OpenHands",
+   "fold": "openhands",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "OpenHands",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "cline",
+   "fold": "cline",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "cline",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "warp",
+   "fold": "warp",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "warp",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "gpt-engineer",
+   "fold": "gptengineer",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "gpt-engineer",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "continue",
+   "fold": "continue",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "continue",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "tabby",
+   "fold": "tabby",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "tabby",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "gpt-pilot",
+   "fold": "gptpilot",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "gpt-pilot",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "void",
+   "fold": "void",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "void",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "crush",
+   "fold": "crush",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "crush",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "qwen-code",
+   "fold": "qwencode",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "qwen-code",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "kilocode",
+   "fold": "kilocode",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "kilocode",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "onlook",
+   "fold": "onlook",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "onlook",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "Roo-Code",
+   "fold": "roocode",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "Roo-Code",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "dyad",
+   "fold": "dyad",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "dyad",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "SWE-agent",
+   "fold": "sweagent",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "SWE-agent",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "suna",
+   "fold": "suna",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "suna",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "avante.nvim",
+   "fold": "avantenvim",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "avante.nvim",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "bolt.new",
+   "fold": "boltnew",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "bolt.new",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "plandex",
+   "fold": "plandex",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "plandex",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "trae-agent",
+   "fold": "traeagent",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "trae-agent",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  },
+  {
+   "name": "copilot-cli",
+   "fold": "copilotcli",
+   "source": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "status": "PROPOSE",
+   "path_probe": {
+    "id": "copilot-cli",
+    "kind": "cli",
+    "present": false
+   },
+   "credential": "unknown",
+   "reach": "unknown"
+  }
+ ],
+ "sources": [
+  {
+   "id": "NEW_AI_SCOUT.md",
+   "path": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_SCOUT.md",
+   "present": true,
+   "names": 15,
+   "ok": true
+  },
+  {
+   "id": "NEW_AI_DISCOVERY.md",
+   "path": "V:\\A\\Ai\\COSMOS\\docs\\research\\NEW_AI_DISCOVERY.md",
+   "present": true,
+   "names": 0,
+   "ok": true
+  },
+  {
+   "id": "remote",
+   "url": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "http": 200,
+   "names": 27,
+   "ok": true
+  }
+ ],
+ "tree_id": "KMesh-COSMOS-live",
+ "writes": 0,
+ "_readme": "PROPOSE-ONLY. Candidates are not COMPETENCY rows and not rails. COW wires, or not. cosmos_discover.py still inventories known hands.",
+ "heartbeat": "newai_scout_heartbeat.json",
+ "projection": "V:\\A\\Ai\\COSMOS\\live\\state\\discovery\\newai_scout.json"
+}

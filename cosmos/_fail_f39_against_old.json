@@ -1,0 +1,15 @@
+{
+ "schema": "cosmos-f39-fail-old/1",
+ "old_watchdog2": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_watchdog2_f39_20260831T153706Z\\cosmos_watchdog2.py",
+ "old_bytes": 52656,
+ "old_has_scanners_banner": true,
+ "pins": {
+  "scan_module_imported": false,
+  "parse_md_checkboxes_moved_out": false,
+  "dhx_haystack_moved_out": false,
+  "pick_agent_moved_out": false,
+  "audit_haystack_follows_split": false,
+  "old_bytes_smaller_than_unsplit": false
+ },
+ "all_new_pins_failed": true
+}

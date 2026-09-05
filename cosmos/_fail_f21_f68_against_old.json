@@ -1,0 +1,18 @@
+{
+ "schema": "cosmos-f21-f68-fail-old/1",
+ "old_push": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_cvm_push_f21_20260831T145131Z\\cosmos_cvm_push.py",
+ "old_probe": {
+  "ok": false,
+  "kind": "STT_NONE",
+  "detail": "vosk not importable"
+ },
+ "incumbent_chars": 19040,
+ "pins": {
+  "old_probe_stt_ok": false,
+  "old_probe_kind_ok": false,
+  "old_docx_has_iterate_1_to_8_pin": false,
+  "old_docx_has_competency_toml": false,
+  "old_docx_has_code_build": false
+ },
+ "all_new_pins_failed": true
+}

@@ -31,11 +31,13 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_convo import ConvoStore
 from cosmos_itc import ITC
 from cosmos_voice import (VoiceMode, VoiceError, CONFIRM_TTL, MAX_TRANSCRIPT,
-                          SPOKEN_MAX, EV_CONFIRM_ISSUED, EV_CONFIRM_CONSUMED)
+                          SPOKEN_MAX, COSMOS_PREAMBLE,
+                          EV_CONFIRM_ISSUED, EV_CONFIRM_CONSUMED)
 
 RESULTS = []
 
@@ -217,6 +219,16 @@ def main() -> int:
     check("...reply names what ran (the action is on the record, not implied)",
           lambda: r4["action"] == "submit high do the thing"
           and "JOB-FAKE-1" in r4["reply"])
+    check("FOLLOW: confirmed submit stamps job_id on the assistant CONVO_TURN",
+          lambda: (lambda turns: any(
+              t["role"] == "assistant" and "JOB-FAKE-1" in (t.get("job_ids") or [])
+              for t in turns)
+          )(convo.get_session(sid)["turns"]))
+    check("FOLLOW: that CONVO_TURN payload carries job_id AND session_id",
+          lambda: any(r["payload"].get("job_id") == "JOB-FAKE-1"
+                      and r["payload"].get("session_id") == sid
+                      for r in convo_ledger.verify()
+                      if r["event"] == "CONVO_TURN"))
     check("...CONFIRM_CONSUMED is ON THE LEDGER for that nonce",
           lambda: any(p.get("nonce") == r2["confirm_id"]
                       for p in confirm_events(EV_CONFIRM_CONSUMED)))
@@ -375,6 +387,33 @@ def main() -> int:
     check("...ask is NOT a command: the commander was never involved, and no "
           "confirm nonce was minted (spend gating lives in the asker)",
           lambda: len(cmd.calls) == n_cmd and rA["confirm_id"] is None)
+    check("FOLLOW: ask CONVO_TURN carries session_id == sid even with no rail id",
+          lambda: any(r["payload"].get("session_id") == sida
+                      and r["payload"].get("sid") == sida
+                      for r in convo_ledger.verify()
+                      if r["event"] == "CONVO_TURN"
+                      and r["payload"].get("role") == "assistant"
+                      and r["payload"].get("text") == fa.text))
+
+    ff = FakeAsker()
+    def follow_ask(question, model=None):
+        out = ff(question, model)
+        out.update(link_id="sgh-api", rail="sgh-api", rid="r-testfollow1",
+                   node="grok-4.5")
+        return out
+    vf = VoiceMode(convo, cmd, itc, asker=follow_ask, clock=clock)
+    sidf = convo.create_session("follow session")
+    vf.handle(sidf, "ask what did the rail answer")
+    check("FOLLOW: asker-supplied link_id/rail/rid/node land on CONVO_TURN",
+          lambda: any(r["payload"].get("link_id") == "sgh-api"
+                      and r["payload"].get("rail") == "sgh-api"
+                      and r["payload"].get("rid") == "r-testfollow1"
+                      and r["payload"].get("node") == "grok-4.5"
+                      and r["payload"].get("session_id") == sidf
+                      for r in convo_ledger.verify()
+                      if r["event"] == "CONVO_TURN"
+                      and r["payload"].get("sid") == sidf
+                      and r["payload"].get("role") == "assistant"))
 
     va.handle(sida, "ask grok is xps surface sensitive")
     check("'ask grok <q>' selects grok; the alias is stripped from the question",
@@ -436,6 +475,63 @@ def main() -> int:
     expect("oversized ask -> BAD_INPUT (the transcript cap bounds the question)",
            "BAD_INPUT", lambda: va.handle(sida, "ask " + "x" * MAX_TRANSCRIPT))
 
+    # ===== CHAT: free-form speech is a CONVERSATION, not a dead-end =====
+    n_fa, n_cmd2 = len(fa.calls), len(cmd.calls)
+    rG = va.handle(sida, "tell me about my new app")
+    check("free-form utterance -> kind='chat' (NOT 'dictation' - the app "
+          "silences dictation, so chat is what gets SPOKEN), answer is the reply",
+          lambda: rG["ok"] and rG["kind"] == "chat" and rG["reply"] == fa.text
+          and not rG["refused"] and not rG["needs_confirm"])
+    check("...routed to the ORCHESTRATOR: asker called ONCE with the COSMOS "
+          "preamble + the utterance, default model (None)",
+          lambda: len(fa.calls) == n_fa + 1 and fa.calls[-1]
+          == (COSMOS_PREAMBLE + "\n\nUser: tell me about my new app", None))
+    check("...spoken is the answer in TTS form; provenance names model + spend",
+          lambda: rG["spoken"].startswith("The UPS work function")
+          and rG["sources"] == ["model:grok-4.5", "usd:0.012300"])
+    check("...BOTH turns recorded: user utterance as an ordinary voice turn "
+          "(NOT mode='note') + assistant answer with sources",
+          lambda: (lambda ts: ts[-2]["role"] == "user"
+                   and ts[-2]["text"] == "tell me about my new app"
+                   and ts[-2]["mode"] == "voice"
+                   and ts[-1]["role"] == "assistant"
+                   and ts[-1]["text"] == fa.text)
+          (convo.get_session(sida)["turns"]))
+    check("...the commander was never involved and no confirm nonce minted "
+          "(chat is a question, not a command)",
+          lambda: len(cmd.calls) == n_cmd2 and rG["confirm_id"] is None)
+
+    # GRACEFUL DEGRADE: no asker composed -> the OLD note behavior, no crash
+    rH = v_none.handle(sida, "tell me about my new app")
+    check("asker=None -> free-form falls back to kind='dictation' note "
+          "(graceful degrade: a host without a model rail still records it)",
+          lambda: rH["ok"] and rH["kind"] == "dictation"
+          and "noted" in rH["reply"].lower()
+          and convo.get_session(sida)["turns"][-2]["mode"] == "note")
+
+    # a DENIED asker on chat -> in-band refusal, never a fabricated answer
+    rI = v_deny.handle(sida, "please summarize my week")
+    check("a DENIED asker on chat -> kind='refused' CARRYING the reason, and "
+          "the recorded assistant turn is the refusal, not a fake answer",
+          lambda: rI["kind"] == "refused" and not rI["ok"]
+          and rI.get("error") == "DENIED"
+          and convo.get_session(sida)["turns"][-1]["text"]
+          .startswith("[DENIED]"))
+
+    # a not-ok asker return on chat -> the same honest refusal
+    rJ = v_notok.handle(sida, "how is the weather out there")
+    check("a not-ok asker return on chat -> refused CHAT_FAILED with the detail",
+          lambda: rJ["kind"] == "refused" and rJ.get("error") == "CHAT_FAILED"
+          and "rail unreachable" in rJ["reply"])
+
+    # grammar verbs still classify FIRST - chat is the fallback, not a rewire
+    n_exec3 = len(cmd.executed)
+    rK = va.handle(sida, "status")
+    check("with an asker composed, 'status' is STILL a command (grammar "
+          "outranks chat; the fallback rewired nothing)",
+          lambda: rK["kind"] == "command" and rK["ok"]
+          and len(cmd.executed) == n_exec3 + 1)
+
     # ===== typed refusals: BAD_INPUT and NO_SESSION =====
     n_all = convo.get_session(sid)["turn_count"]
     expect("empty transcript -> BAD_INPUT (typed, before anything is recorded)",
@@ -462,7 +558,9 @@ def main() -> int:
                               ("  [" + err + "]") if err else ""))
     print("SELFTEST %s - %d checks (voice is session-continuous; confirm is a "
           "ledger-backed single-use nonce; destructive verbs never dispatch; "
-          "ask is injected, spend-audited, and refuses honestly)"
+          "ask is injected, spend-audited, and refuses honestly; free-form "
+          "speech is a spoken kind='chat' conversation with the orchestrator, "
+          "degrading to a note only where no asker is composed)"
           % ("PASS" if not bad else "FAIL", len(RESULTS)))
     return 0 if not bad else 1
 

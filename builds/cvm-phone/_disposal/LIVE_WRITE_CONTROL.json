@@ -1,0 +1,49 @@
+{
+ "rc": 0,
+ "files_watched": 639,
+ "control_window_s": 3.5,
+ "gate_window_s": 3.16,
+ "moved_in_idle_window": [
+  "logs\\cdeck_feed_heartbeat.json",
+  "logs\\cosmos_pool_heartbeat.json",
+  "logs\\cosmos_runner.slotfast_heartbeat.json",
+  "logs\\cvm_clock_heartbeat.json",
+  "logs\\health_clock_heartbeat.json",
+  "state\\cdeck\\feed.json",
+  "state\\cvm\\audio.json",
+  "state\\cvm\\ux.json",
+  "state\\health\\board.json"
+ ],
+ "moved_in_gate_window": [
+  "logs\\WATCHDOG2.log",
+  "logs\\cdeck_feed_heartbeat.json",
+  "logs\\cosmos_runner.slot0_heartbeat.json",
+  "logs\\cosmos_runner.slot1_heartbeat.json",
+  "logs\\cosmos_runner_heartbeat.json",
+  "logs\\cvm_clock_heartbeat.json",
+  "logs\\dispatcher_heartbeat.json",
+  "logs\\health_clock_heartbeat.json",
+  "logs\\watchdog2.out",
+  "logs\\watchdog2_heartbeat.json",
+  "state\\cc_driver_cc-infra_heartbeat.json",
+  "state\\cdeck\\feed.json",
+  "state\\cvm\\audio.json",
+  "state\\cvm\\ux.json",
+  "state\\health\\board.json",
+  "state\\watchdog2\\assigned.json"
+ ],
+ "moved_ONLY_in_gate_window": [
+  "logs\\WATCHDOG2.log",
+  "logs\\cosmos_runner.slot0_heartbeat.json",
+  "logs\\cosmos_runner.slot1_heartbeat.json",
+  "logs\\cosmos_runner_heartbeat.json",
+  "logs\\dispatcher_heartbeat.json",
+  "logs\\watchdog2.out",
+  "logs\\watchdog2_heartbeat.json",
+  "state\\cc_driver_cc-infra_heartbeat.json",
+  "state\\watchdog2\\assigned.json"
+ ],
+ "phone_files_moved_only_in_gate_window": [],
+ "verdict": "NO_PHONE_WRITE_TO_LIVE",
+ "note": "Files in moved_in_idle_window are the running fleet's own daemons. Only phone_files_moved_only_in_gate_window would implicate this gate."
+}

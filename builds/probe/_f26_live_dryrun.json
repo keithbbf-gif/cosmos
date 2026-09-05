@@ -1,0 +1,146 @@
+{
+ "schema": "cosmos-newai-scout/1",
+ "worker": "cosmos-newai-scout",
+ "tree_id": "KMesh-COSMOS-live",
+ "root": "V:\\A\\Ai\\COSMOS\\live",
+ "dry_run": true,
+ "ok": true,
+ "state": "MINED",
+ "kind": "MINED",
+ "ts": "2026-08-31T14:11:08Z",
+ "feeds": [
+  {
+   "url": "https://raw.githubusercontent.com/tiennm99/awesome-coding-agents/main/README.md",
+   "chars": 7607,
+   "redacted": 0
+  }
+ ],
+ "feed_errors": [],
+ "feed_count": 29,
+ "known_count": 182,
+ "competency_nodes": [
+  "Cursor",
+  "DOM",
+  "G46",
+  "GEM",
+  "OA",
+  "SGH"
+ ],
+ "hands_count": 27,
+ "mesh_files": [
+  "docs/MESH_ADDITIONS.md",
+  "docs/MESH_ADDITIONS_grok.md"
+ ],
+ "already_known_in_feed": 9,
+ "new_count": 20,
+ "candidates": [
+  {
+   "name": "codex",
+   "norm": "codex",
+   "status": "NEW"
+  },
+  {
+   "name": "claude-code",
+   "norm": "claudecode",
+   "status": "NEW"
+  },
+  {
+   "name": "gemini-cli",
+   "norm": "geminicli",
+   "status": "NEW"
+  },
+  {
+   "name": "zed",
+   "norm": "zed",
+   "status": "NEW"
+  },
+  {
+   "name": "warp",
+   "norm": "warp",
+   "status": "NEW"
+  },
+  {
+   "name": "gpt-engineer",
+   "norm": "gptengineer",
+   "status": "NEW"
+  },
+  {
+   "name": "continue",
+   "norm": "continue",
+   "status": "NEW"
+  },
+  {
+   "name": "tabby",
+   "norm": "tabby",
+   "status": "NEW"
+  },
+  {
+   "name": "gpt-pilot",
+   "norm": "gptpilot",
+   "status": "NEW"
+  },
+  {
+   "name": "void",
+   "norm": "void",
+   "status": "NEW"
+  },
+  {
+   "name": "kilocode",
+   "norm": "kilocode",
+   "status": "NEW"
+  },
+  {
+   "name": "onlook",
+   "norm": "onlook",
+   "status": "NEW"
+  },
+  {
+   "name": "Roo-Code",
+   "norm": "roocode",
+   "status": "NEW"
+  },
+  {
+   "name": "dyad",
+   "norm": "dyad",
+   "status": "NEW"
+  },
+  {
+   "name": "SWE-agent",
+   "norm": "sweagent",
+   "status": "NEW"
+  },
+  {
+   "name": "suna",
+   "norm": "suna",
+   "status": "NEW"
+  },
+  {
+   "name": "avante.nvim",
+   "norm": "avantenvim",
+   "status": "NEW"
+  },
+  {
+   "name": "bolt.new",
+   "norm": "boltnew",
+   "status": "NEW"
+  },
+  {
+   "name": "plandex",
+   "norm": "plandex",
+   "status": "NEW"
+  },
+  {
+   "name": "trae-agent",
+   "norm": "traeagent",
+   "status": "NEW"
+  }
+ ],
+ "redacted_total": 0,
+ "elapsed_s": 0.148,
+ "writes": 0,
+ "live_files_before": 39725,
+ "live_files_after": 39725,
+ "live_files_delta": 0,
+ "heartbeat_exists": true,
+ "projection_exists": true
+}

@@ -1,0 +1,102 @@
+{
+ "source": "V:\\A\\Ai\\COSMOS\\live\\registry\\rails.json",
+ "source_measured_at": 1788161161.6661532,
+ "source_count": 4,
+ "source_rows": [
+  {
+   "link_id": "claude-cli",
+   "verified": true,
+   "age_s": 318967.4277524948,
+   "model": "haiku"
+  },
+  {
+   "link_id": "gem-api",
+   "verified": true,
+   "age_s": 776.6303803920746,
+   "model": "gemini-2.5-flash"
+  },
+  {
+   "link_id": "oa-api",
+   "verified": true,
+   "age_s": 773.5755639076233,
+   "model": "gpt-5.6-terra"
+  },
+  {
+   "link_id": "sgh-api",
+   "verified": true,
+   "age_s": 778.0829882621765,
+   "model": "grok-4.6"
+  }
+ ],
+ "impls": {
+  "live": {
+   "impl": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_registry.py",
+   "count": 4,
+   "nodes": [
+    "claude-cli",
+    "gem-api",
+    "oa-api",
+    "sgh-api"
+   ],
+   "proof_ttl_s": null,
+   "stale": [],
+   "verified_true_over_ttl": [
+    {
+     "link_id": "claude-cli",
+     "age_s": 318967.4
+    }
+   ],
+   "prober_labels": {
+    "sgh-api": "skipped=fresh",
+    "gem-api": "skipped=fresh",
+    "oa-api": "skipped=fresh",
+    "claude-cli": "skipped=fresh"
+   }
+  },
+  "proposed": {
+   "impl": "V:\\A\\Ai\\COSMOS\\builds\\probe\\proposed\\cosmos_registry.py",
+   "count": 3,
+   "nodes": [
+    "gem-api",
+    "oa-api",
+    "sgh-api"
+   ],
+   "proof_ttl_s": 3600.0,
+   "stale": [
+    {
+     "link_id": "claude-cli",
+     "age_s": 318967.4,
+     "verified": false
+    }
+   ],
+   "verified_true_over_ttl": [],
+   "prober_labels": {
+    "sgh-api": "skipped=fresh",
+    "gem-api": "skipped=fresh",
+    "oa-api": "skipped=fresh",
+    "claude-cli": "skipped=no-hands-configured"
+   }
+  }
+ },
+ "delta": {
+  "nodes_live_only": [
+   "claude-cli"
+  ],
+  "count": [
+   4,
+   3
+  ],
+  "stale_rows_named_by_proposed": [
+   "claude-cli"
+  ],
+  "false_verified_removed": [
+   "claude-cli"
+  ],
+  "prober_label_changes": {
+   "claude-cli": [
+    "skipped=fresh",
+    "skipped=no-hands-configured"
+   ]
+  }
+ }
+}

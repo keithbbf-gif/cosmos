@@ -1,0 +1,193 @@
+{
+ "ok": false,
+ "probe": "tests/test_competency.py \u2014 F-27 competency consumer",
+ "prechange_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_watchdog2_f27_20260831T123800Z\\cosmos_watchdog2.py",
+ "live_toml": "V:\\A\\Ai\\COSMOS\\docs\\COMPETENCY.toml",
+ "prechange": {
+  "checks": [
+   {
+    "name": "staged_watchdog2_present",
+    "ok": true,
+    "detail": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_watchdog2_f27_20260831T123800Z\\cosmos_watchdog2.py"
+   },
+   {
+    "name": "old_source_has_no_cosmos_competency",
+    "ok": true,
+    "detail": "absent"
+   },
+   {
+    "name": "old_web_research_is_G46",
+    "ok": true,
+    "detail": "agent=G46 kind=grok"
+   },
+   {
+    "name": "old_pick_agent_arity_is_three",
+    "ok": true,
+    "detail": "argcount=3"
+   }
+  ],
+  "tests_run": 4,
+  "tests_passed": 4
+ },
+ "current": {
+  "checks": [
+   {
+    "name": "default_path_is_repo_docs_not_a_drive_literal",
+    "ok": true,
+    "detail": "V:\\A\\Ai\\COSMOS\\docs\\COMPETENCY.toml"
+   },
+   {
+    "name": "mini_schema",
+    "ok": true,
+    "detail": "competency/1"
+   },
+   {
+    "name": "code_build_all_available_is_G46_not_Cursor_tie",
+    "ok": true,
+    "detail": "G46"
+   },
+   {
+    "name": "code_build_without_G46_is_Cursor",
+    "ok": true,
+    "detail": "Cursor"
+   },
+   {
+    "name": "web_research_SGH_beats_G46_and_ties_GEM_by_nodes_order",
+    "ok": true,
+    "detail": "SGH"
+   },
+   {
+    "name": "dom_automation_prefers_family_dom",
+    "ok": true,
+    "detail": "DOM"
+   },
+   {
+    "name": "possessed_false_never_wins",
+    "ok": true,
+    "detail": "SGH"
+   },
+   {
+    "name": "unknown_task_refuses",
+    "ok": true,
+    "detail": "UNKNOWN_TASK"
+   },
+   {
+    "name": "no_candidate_refuses",
+    "ok": true,
+    "detail": "[NO_CANDIDATE] DOM-automation: no possessed+available node in ['G46', 'SGH']"
+   },
+   {
+    "name": "missing_file_unreadable",
+    "ok": true,
+    "detail": "UNREADABLE"
+   },
+   {
+    "name": "bad_schema_refuses",
+    "ok": true,
+    "detail": "BAD_SCHEMA"
+   },
+   {
+    "name": "classify_research",
+    "ok": true,
+    "detail": "web-research"
+   },
+   {
+    "name": "classify_coding_wins_over_research",
+    "ok": true,
+    "detail": "code-build"
+   },
+   {
+    "name": "classify_dom",
+    "ok": true,
+    "detail": "DOM-automation"
+   },
+   {
+    "name": "classify_vendor_plural",
+    "ok": true,
+    "detail": "vendor-plural-critique"
+   },
+   {
+    "name": "classify_default_is_code_build",
+    "ok": true,
+    "detail": "code-build"
+   },
+   {
+    "name": "agent_kind_G46",
+    "ok": true,
+    "detail": "('G46', 'grok')"
+   },
+   {
+    "name": "agent_kind_SGH",
+    "ok": true,
+    "detail": "('SGH', 'grok')"
+   },
+   {
+    "name": "agent_kind_DOM_is_NO_DISPATCH",
+    "ok": true,
+    "detail": "NO_DISPATCH"
+   },
+   {
+    "name": "DISPATCHABLE_is_grok_nodes_only",
+    "ok": true,
+    "detail": "['G46', 'SGH']"
+   },
+   {
+    "name": "live_schema_competency_1",
+    "ok": true,
+    "detail": "competency/1"
+   },
+   {
+    "name": "live_six_nodes",
+    "ok": true,
+    "detail": "['Cursor', 'DOM', 'G46', 'GEM', 'OA', 'SGH']"
+   },
+   {
+    "name": "live_code_build_is_G46",
+    "ok": true,
+    "detail": "G46"
+   },
+   {
+    "name": "live_web_research_is_SGH",
+    "ok": true,
+    "detail": "SGH"
+   },
+   {
+    "name": "live_dom_automation_is_DOM",
+    "ok": true,
+    "detail": "DOM"
+   },
+   {
+    "name": "pick_agent_web_research_is_SGH_grok",
+    "ok": false,
+    "detail": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+   },
+   {
+    "name": "pick_agent_code_build_stays_G46",
+    "ok": false,
+    "detail": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+   },
+   {
+    "name": "pick_agent_named_cursor_still_wins",
+    "ok": false,
+    "detail": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+   },
+   {
+    "name": "pick_agent_overflow_sheds_G46_to_Cursor",
+    "ok": false,
+    "detail": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+   },
+   {
+    "name": "pick_agent_dom_falls_back_when_DOM_not_dispatchable",
+    "ok": false,
+    "detail": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+   }
+  ],
+  "tests_run": 30,
+  "tests_passed": 25
+ },
+ "emitted": {
+  "live_code_build": "G46",
+  "live_web_research": "SGH",
+  "pick_agent_web": "agent=TYPEERROR kind=pick_agent() got an unexpected keyword argument 'matrix'"
+ }
+}

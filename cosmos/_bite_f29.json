@@ -1,0 +1,35 @@
+{
+ "kernel_path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_kernel.py",
+ "repo_root_tools_dir": false,
+ "repo_root_surface_py": false,
+ "repo_root_mcp_docs_py": false,
+ "src_has_tools_surface_row": false,
+ "src_imports_tools_mcp_docs": false,
+ "src_self_tools": false,
+ "boot": {
+  "ready": true,
+  "composed": [
+   "node_rails",
+   "cursor-api",
+   "codex-cli",
+   "playwright-dom",
+   "firecrawl-web",
+   "claude-cli",
+   "dispatcher",
+   "prove_nodes"
+  ],
+  "tools_surface_composed": false,
+  "has_tools_attr": false,
+  "tools_is_none": false,
+  "tools_value_kind": "NoneType",
+  "warnings": {}
+ },
+ "boot_err": null,
+ "claims": {
+  "no_repo_root_surface": true,
+  "no_compose_row_in_src": true,
+  "boot_did_not_compose_tools_surface": true
+ },
+ "all_bite": true,
+ "schema": "cosmos-f29-bite/1"
+}

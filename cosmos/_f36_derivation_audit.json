@@ -1,0 +1,157 @@
+{
+  "schema": "cosmos-derivation-audit/1",
+  "ok": true,
+  "work_order": "2.3",
+  "authority_flip": "not this artifact \u2014 human lands json after 96 agreeing ticks",
+  "sites": [
+    {
+      "id": "inflight_leases",
+      "file": "cosmos_inflight.py",
+      "symbol": "class Inflight",
+      "kind": "primitive",
+      "verdict": "primitive",
+      "note": "Owned expiring leases. Work order 2.x inflight primitive.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_inflight.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "tracker_json_projection",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def write_tracker_json",
+      "kind": "prose",
+      "verdict": "advisory",
+      "must_contain": "\"authority\": \"markdown\"",
+      "note": "JSON is a projection. authority is hard-coded markdown; flip is advice (flip_ready), never an action.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "agreement_streak",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def record_agreement",
+      "kind": "prose",
+      "verdict": "advisory",
+      "must_contain": "flip_ready",
+      "note": "Streak is evidence for a human. Nothing here flips authority.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "collector_md_soft_names",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "soft_names",
+      "kind": "prose",
+      "verdict": "advisory",
+      "must_contain": "cannot decide a skip",
+      "note": "COLLECTOR.md is counted, never used to skip (scar 2026-08-30).",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "parse_tracker_markdown",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def parse_tracker",
+      "kind": "prose",
+      "verdict": "open",
+      "note": "Work order 2.2 unfinished: still parses MOTIF_TRACKER.md. JSON-authority parse waits on the human flip.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "critique_filename_stage",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def critique_exists",
+      "kind": "filename",
+      "verdict": "advisory",
+      "must_contain": "cannot lift",
+      "note": "critique_exists is counted; effective_stage does not lift current_stage from a critique filename.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "inflight_filenames_mtime",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def inflight_filenames",
+      "kind": "filename+mtime",
+      "verdict": "advisory",
+      "must_contain": "cannot decide a skip",
+      "note": "Queue filenames still scraped as an advisory count; skip is leases + ledger.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "ledger_inflight_derived",
+      "file": "cosmos_motif_driver.py",
+      "symbol": "def ledger_inflight",
+      "kind": "primitive",
+      "verdict": "primitive",
+      "note": "Reads runner/lane ledgers (a primitive). Unioned into skip as belt-and-braces, not as a filename scrape.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_motif_driver.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "wd2_dhx_haystack",
+      "file": "cosmos_watchdog2_scan.py",
+      "symbol": "def dhx_haystack",
+      "kind": "prose",
+      "verdict": "advisory",
+      "must_contain": "cannot decide a skip",
+      "note": "dhx_haystack still folds the log; name_hit no longer returns dhx: \u2014 assignment-log prose cannot decide a skip.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_watchdog2_scan.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "wd2_uses_inflight_filenames",
+      "file": "cosmos_watchdog2.py",
+      "symbol": "inflight_filenames",
+      "kind": "filename+mtime",
+      "verdict": "advisory",
+      "must_contain": "cannot decide a skip",
+      "note": "scan_once still calls inflight_filenames as an advisory count; skip is leases + ledger.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_watchdog2.py",
+      "ok": true,
+      "detail": "classified"
+    },
+    {
+      "id": "index_parse_tracker",
+      "file": "cosmos_index.py",
+      "symbol": "def parse_tracker",
+      "kind": "prose",
+      "verdict": "advisory",
+      "note": "Index display parse of MOTIF_TRACKER.md. Rebuildable projection; not a skip/dispatch authority.",
+      "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_index.py",
+      "ok": true,
+      "detail": "classified"
+    }
+  ],
+  "site_count": 11,
+  "open": [
+    "parse_tracker_markdown"
+  ],
+  "advisory": [
+    "tracker_json_projection",
+    "agreement_streak",
+    "collector_md_soft_names",
+    "critique_filename_stage",
+    "inflight_filenames_mtime",
+    "wd2_dhx_haystack",
+    "wd2_uses_inflight_filenames",
+    "index_parse_tracker"
+  ],
+  "primitive": [
+    "inflight_leases",
+    "ledger_inflight_derived"
+  ],
+  "unreviewed": [],
+  "open_count": 1,
+  "unreviewed_count": 0
+}

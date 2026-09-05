@@ -1,0 +1,21 @@
+{
+ "kind": "REMEASURE_CLAIMS",
+ "label": "AFTER-REMEASURE-2026-08-31T1416",
+ "probed_at_epoch": 1788203802.7679067,
+ "ran": [
+  "builds/backup/_f43_clock_live_preflight.json"
+ ],
+ "skipped_fresh": [],
+ "stale_before": {
+  "builds/backup/_f43_clock_live_preflight.json": {
+   "kind": "STALE",
+   "drift": [
+    "builds/backup/cosmos_local_clock.py"
+   ]
+  }
+ },
+ "stale_after": {},
+ "failed": [],
+ "stage": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_stale_claims_20260831T141642",
+ "skip_env": "COSMOS_SKIP_CLAIM_REMEASURE"
+}

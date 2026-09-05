@@ -1,0 +1,8 @@
+{
+ "ok": true,
+ "rc": 0,
+ "secs": 12.2,
+ "stdout_tail": "PONG\n",
+ "stderr_tail": "\u001b[33mwarn\u001b[0m\u001b[2m:\u001b[0m ignoring extra certs from C:\\ProgramData\\Avast Software\\Avast\\\\wscert.pem, load failed: error:10000002:SSL routines:OPENSSL_internal:system library\nWarning: Ignoring extra certs from `C:\\ProgramData\\Avast Software\\Avast\\\\wscert.pem`, load failed: No such file or directory\n",
+ "exe": "claude"
+}

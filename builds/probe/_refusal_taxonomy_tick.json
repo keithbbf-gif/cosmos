@@ -1,0 +1,19 @@
+{
+  "command": "py -3.14 cosmos\\cosmos_refusals.py --out docs\\REFUSAL_TAXONOMY.md",
+  "cp437_would_drift": true,
+  "distinct_kinds": 141,
+  "doc": "V:\\A\\Ai\\COSMOS\\docs\\REFUSAL_TAXONOMY.md",
+  "first_diff_line": null,
+  "healed": false,
+  "kind": "MATCH",
+  "match": true,
+  "modules_parsed": 160,
+  "ok": true,
+  "on_disk_chars": 19556,
+  "render_chars": 19556,
+  "schema": "cosmos-refusal-taxonomy-regen/1",
+  "staged": null,
+  "typed_refusal_classes": 55,
+  "why_not_redirect": "Windows console codepage (cp437) mangles em-dashes; --out writes UTF-8. Never regenerate with '>'.",
+  "wrong_command": "py -3.14 cosmos\\cosmos_refusals.py --render > docs\\REFUSAL_TAXONOMY.md"
+}

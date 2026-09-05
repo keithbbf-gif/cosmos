@@ -1,0 +1,23 @@
+{
+ "ok": true,
+ "live_value": {
+  "fenced_events": [
+   "GRANT",
+   "COMMIT_RESERVED",
+   "COMMIT",
+   "RELEASE"
+  ],
+  "chain_head": "4e882da4b7aa123871ae46a2eb9be473b2fb82145321a3ce3c79fd7486ebde61",
+  "checks": 23,
+  "passed": 23,
+  "refusal_kinds": [
+   "CHAIN_BREAK",
+   "FORGED_MESSAGE",
+   "MAILBOX_MISSING",
+   "SELF_SEND",
+   "TORN_MESSAGE"
+  ],
+  "genesis": "0000000000000000000000000000000000000000000000000000000000000000"
+ },
+ "rc": 0
+}

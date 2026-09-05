@@ -1,0 +1,21 @@
+{
+ "ok": true,
+ "probe": "F-27 bite before competency consumer",
+ "module": {
+  "path": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_competency.py",
+  "state": "ABSENT",
+  "kind": "FileNotFoundError"
+ },
+ "tests_file": {
+  "path": "V:\\A\\Ai\\COSMOS\\tests\\test_competency.py",
+  "state": "ABSENT"
+ },
+ "staged_watchdog2": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_watchdog2_f27_20260831T123800Z\\cosmos_watchdog2.py",
+ "staged_bytes": 51360,
+ "old_pick_agent_imports_competency": false,
+ "live_pick_agent_imports_competency": false,
+ "cosmos_py_files_mentioning_competency": [
+  "cosmos_dispatch.py"
+ ],
+ "all_bite": true
+}

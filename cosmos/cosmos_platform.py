@@ -34,6 +34,27 @@ class PlatformError(RuntimeError):
         super().__init__(f"[{kind}] {detail}")
 
 
+# Windows: every child COSMOS spawns would otherwise allocate a console window
+# and FLASH it on the desktop (scar 2026-08-26: the runner's per-job `py` spawns
+# popped consoles on Keith's DT every ~15-30s). CREATE_NO_WINDOW suppresses the
+# window WITHOUT touching pipe capture. No-op off Windows.
+CREATE_NO_WINDOW = 0x08000000
+_NO_WINDOW = CREATE_NO_WINDOW if os.name == "nt" else 0
+
+
+def _hidden_spawn_kw() -> dict:
+    """CREATE_NO_WINDOW is not enough: console-subsystem `py.exe` still
+    allocates a conhost that flashes and steals focus (Keith 2026-09-02,
+    every ~1s while WD2 assigns). SW_HIDE on STARTUPINFO stops the window.
+    """
+    if os.name != "nt":
+        return {}
+    si = subprocess.STARTUPINFO()
+    si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+    si.wShowWindow = 0  # SW_HIDE
+    return {"creationflags": CREATE_NO_WINDOW, "startupinfo": si}
+
+
 def run(argv: list[str], timeout_s: float = 120, cwd: str | None = None) -> dict:
     """The ONE way COSMOS starts a process. Returns {rc, out, err, elapsed_s,
     timed_out, kill_result}. A string command is REFUSED - argv only."""
@@ -47,7 +68,7 @@ def run(argv: list[str], timeout_s: float = 120, cwd: str | None = None) -> dict
     try:
         p = subprocess.run(argv, capture_output=True, text=True, encoding="utf-8",
                            errors="replace", timeout=timeout_s, cwd=cwd, env=env,
-                           shell=False)
+                           shell=False, **_hidden_spawn_kw())
         rc, out, err, timed_out = p.returncode, p.stdout or "", p.stderr or "", False
     except subprocess.TimeoutExpired as e:
         timed_out, rc = True, None
@@ -68,7 +89,7 @@ def run_tree_killed(argv: list[str], timeout_s: float = 120,
     env = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
     t0 = time.time()
     proc = subprocess.Popen(argv, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                            cwd=cwd, env=env, shell=False)
+                            cwd=cwd, env=env, shell=False, **_hidden_spawn_kw())
     try:
         out_b, err_b = proc.communicate(timeout=timeout_s)
         return {"rc": proc.returncode,
@@ -79,7 +100,7 @@ def run_tree_killed(argv: list[str], timeout_s: float = 120,
         if os.name == "nt":
             k = subprocess.run(["taskkill", "/PID", str(proc.pid), "/T", "/F"],
                                capture_output=True, text=True, encoding="utf-8",
-                               errors="replace")
+                               errors="replace", creationflags=_NO_WINDOW)
             kill_result = f"taskkill /T rc={k.returncode}: {(k.stdout or k.stderr).strip()[:150]}"
         else:
             proc.kill()

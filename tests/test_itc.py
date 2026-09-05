@@ -13,6 +13,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger                                     # noqa: E402
 from cosmos_itc import ITC, ItcError, DEFAULT_INDEX_URL              # noqa: E402
 

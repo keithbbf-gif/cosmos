@@ -1,0 +1,18 @@
+{
+ "kind": "LONGPATH_REALSCOPE",
+ "root": "V:\\Ai\\_session_logs\\_mcp_logs",
+ "measured_utc": "2026-08-31T05:39:32Z",
+ "files_ground_truth": 2129,
+ "long_in_scope": 2124,
+ "builds_backup_iter_files": {
+  "selected": 5,
+  "raised": null,
+  "omitted": 2124,
+  "omitted_sample": [
+   "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-00069186-ec7b-4eaa-bc1f-cbf1d3806fc1-outputs\\mcp-logs-claude-in-chrome\\2026-07-02t21-33-09-120z.jsonl",
+   "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-00069186-ec7b-4eaa-bc1f-cbf1d3806fc1-outputs\\mcp-logs-workspace\\2026-07-02t21-33-09-120z.jsonl",
+   "v:\\ai\\_session_logs\\_mcp_logs\\cli-pkg\\c--users-papa-appdata-roaming-claude-local-agent-mode-sessions-598a803e-7ed8-4011-8c6f-36b1139ced47-ccd03d6b-a1bb-44c5-a4d3-100b4b78f91f-local-03c6a0f7-dc8f-4783-b85a-1fafe8e4e278-outputs\\mcp-logs-66acf845-f364-4182-88b4-dc9bb1ba4192\\2026-07-28t22-08-35-192z.jsonl"
+  ],
+  "verdict": "SILENTLY_OMITS"
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "ok": false,
+ "verdict": "PENDING_CORE",
+ "stage": 6,
+ "deliverable": "cvm-phone",
+ "half": "core",
+ "gated_at_epoch": 1788153867.675726,
+ "utc_offset_s": -18000,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_gate.py",
+ "source_sha256": "fcf2aa53caec7b04b92a133cc018dd19554c4b9889421e2f57648de359beb529",
+ "clock_sha256": "ae5ebf4d5dd2d2bb6c86c06bcea5b6a50b5b6fe4efa249f24a1cb203825cfb29",
+ "pull_sha256": "7f4bfba071c933423c1b2b28d04d6ab61b9e5ac1c28be13939db05064b419ba0",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "checks": [
+  {
+   "name": "core_status_tree_id",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "GET /api/v1/status from the resident Core, answering with the live sentinel tree_id"
+  },
+  {
+   "name": "core_ledger_head_seq",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "the ledger_head.seq in that same /status \u2014 a value only the single signing ledger writer can emit"
+  },
+  {
+   "name": "core_pull_ticket_authoritative",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "GET /api/v1/cvm/pull?client_id=cvm-phone returning a ticket off the LIVE state/cvm/pull.json, stamped with projection_mtime / projection_owner / projection_size"
+  },
+  {
+   "name": "core_push_accepted_owner_desktop",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "POST /api/v1/cvm/push accepted by the resident Core, answering audio_owner=desktop and claimed=false"
+  },
+  {
+   "name": "core_cursor_advances_live",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "the GET /api/v1/cvm/pull after that push, carrying the cursor_out the push returned"
+  },
+  {
+   "name": "phone_reach_fresh_after_push",
+   "verdict": "PENDING_CORE",
+   "value": null,
+   "kind": "UNREACHABLE",
+   "why": "Core at http://127.0.0.1:8770 did not answer GET /api/v1/status",
+   "needs": "live state/cvm/phone.json written by Core in response to the push, so cvm_phone_pull.phone_reach flips to reachable/fresh inside deadline_s=45.0"
+  }
+ ],
+ "counts": {
+  "PASS": 0,
+  "REFUSED": 0,
+  "UNMEASURED": 0,
+  "PENDING_CORE": 6,
+  "FAIL": 0
+ },
+ "wire": "cvm-phone-gate-core/1",
+ "base": "http://127.0.0.1:8770",
+ "core_reachable": false,
+ "reach": {
+  "up": false,
+  "polls": 1,
+  "waited_ms": 2083.593,
+  "last_kind": "UNREACHABLE"
+ },
+ "core_kind": "UNREACHABLE",
+ "core_substitute_used": false,
+ "loopback_double_used": false,
+ "trial_ports_refused": [
+  8791
+ ],
+ "needs": {
+  "authority": "the resident COSMOS Core service on http://127.0.0.1:8770",
+  "started_by": "Keith \u2014 `cosmos.py serve --root <RUNTIME> --port 8770`; this gate never starts, installs or repairs a service",
+  "token": "config/api_token.txt under the handed-in runtime root",
+  "routes": [
+   "GET /api/v1/status",
+   "GET /api/v1/cvm/pull?client_id=cvm-phone",
+   "POST /api/v1/cvm/push"
+  ],
+  "per_check": {
+   "core_status_tree_id": "GET /api/v1/status from the resident Core, answering with the live sentinel tree_id",
+   "core_ledger_head_seq": "the ledger_head.seq in that same /status \u2014 a value only the single signing ledger writer can emit",
+   "core_pull_ticket_authoritative": "GET /api/v1/cvm/pull?client_id=cvm-phone returning a ticket off the LIVE state/cvm/pull.json, stamped with projection_mtime / projection_owner / projection_size",
+   "core_push_accepted_owner_desktop": "POST /api/v1/cvm/push accepted by the resident Core, answering audio_owner=desktop and claimed=false",
+   "core_cursor_advances_live": "the GET /api/v1/cvm/pull after that push, carrying the cursor_out the push returned",
+   "phone_reach_fresh_after_push": "live state/cvm/phone.json written by Core in response to the push, so cvm_phone_pull.phone_reach flips to reachable/fresh inside deadline_s=45.0"
+  },
+  "mutates_live": [
+   "state/cvm/phone.json (Core replaces it on the push)",
+   "state/cvm/pull.json (Core stamps audio_owner=desktop)"
+  ]
+ },
+ "live_value": {
+  "status_tree_id": null,
+  "ledger_seq": null,
+  "ticket_cursor": null,
+  "projection_mtime": null,
+  "push_cursor_out": null,
+  "pulled_cursor": null,
+  "reach_reason": null,
+  "reach_age_s": null
+ },
+ "rerun": "py -3.14 V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\cvm_phone_gate.py core --root V:\\A\\Ai\\COSMOS\\live --base http://127.0.0.1:8770",
+ "note": "PENDING_CORE is an ABSENCE WITH A REASON, not a pass and not a failure: the resident authority was not up, and no substitute was accepted in its place \u2014 not the :8791 trial kernel and not the loopback double the local half uses. Every check above names what it needs. Re-run `rerun` the moment Core is serving, or arm `core --watch <seconds>`.",
+ "emitted": "cvm-phone-core:KMesh-COSMOS-live:UNREACHABLE:NO_SEQ:fcf2aa53caec7b04",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-phone\\_disposal\\dryrun_core.json"
+}

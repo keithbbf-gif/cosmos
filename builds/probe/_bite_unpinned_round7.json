@@ -1,0 +1,120 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round7 unpinned probe refusals \u2014 current vs claimed",
+ "close_refused_in_docstring": true,
+ "close_refused_raise_present": false,
+ "close_refused_still_unraised": true,
+ "td_bool_sentinel": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'bool' object has no attribute 'get'"
+ },
+ "td_array_sentinel": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'get'"
+ },
+ "td_number_sentinel": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'int' object has no attribute 'get'"
+ },
+ "apply_bundle_list": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'get'"
+ },
+ "apply_proposals_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'get'"
+ },
+ "apply_bundle_none": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'NoneType' object has no attribute 'get'"
+ },
+ "apply_proposals_none": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'schema': 'cosmos-tool-disposition/1', 'ts': '2026-08-31T17:42:31+00:00', 'ok':"
+ },
+ "fp_rels_str": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'o': {'exists': False, 'bytes': None, 'sha256': None}, 'n': {'exists': False, '"
+ },
+ "fp_rels_none": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'NoneType' object is not iterable"
+ },
+ "fp_rels_int": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'int' object is not iterable"
+ },
+ "compare_recorded_list": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'kind': 'UNFINGERPRINTED', 'ok': False, 'drift': ['a'], 'detail': 'artifact has"
+ },
+ "compare_recorded_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "stamp_rec_list": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "list indices must be integers or slices, not str"
+ },
+ "precheck_seed_array": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'ok': False, 'kind': 'NO_SEED', 'detail': 'no seed at C:\\\\Users\\\\Papa\\\\AppData\\"
+ },
+ "precheck_seed_body_array": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'ok': False, 'kind': 'BAD_SEED', 'detail': 'declared sha != consumed sha', 'sha"
+ },
+ "precheck_decl_array": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'ok': False, 'kind': 'BAD_SEED', 'detail': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Te"
+ },
+ "bites": [
+  "td_bool_sentinel",
+  "td_array_sentinel",
+  "td_number_sentinel",
+  "apply_bundle_list",
+  "apply_proposals_str",
+  "apply_bundle_none",
+  "fp_rels_str:silent",
+  "fp_rels_none",
+  "fp_rels_int",
+  "compare_recorded_str",
+  "stamp_rec_list"
+ ],
+ "all_bite": true,
+ "could_not_pin": [
+  "CLOSE_REFUSED"
+ ]
+}

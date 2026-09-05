@@ -112,16 +112,21 @@ class MakerMap:
         lock is held across (replay -> decide -> append), so no second writer can
         interleave between the check and the append."""
         rec = _validate(entry)          # UNKNOWN_KIND / BAD_ENTRY before any lock
+        # node=id is the FOLLOW_KEYS identity. The deck already draws maker id
+        # (and location) as map nodes, so a MAKER_ADDED pulse lights the
+        # surface that was just added rather than guessing a rail.
+        payload = dict(rec)
+        payload["node"] = rec["id"]
 
         def decide(recs):
             if rec["id"] in self._project(recs):
                 raise MakerError("DUPLICATE",
                                  f"{rec['id']!r} already declared - a second add is a "
                                  f"drift, not an update")
-            return ("MAKER_ADDED", rec)
+            return ("MAKER_ADDED", payload)
 
         self.ledger.append_guarded(decide)
-        return dict(rec)
+        return dict(payload)
 
     def load(self, path: str | Path) -> dict:
         """Read a makers.toml. Every entry is validated first (a half-applied catalog

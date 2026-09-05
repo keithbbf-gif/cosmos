@@ -10,7 +10,7 @@ This file is read automatically by Copilot, Cursor Bugbot, and any native GitHub
 
 ## Adversarial loop (dual-lane)
 
-- Every work order is executed by two independent builders: **Grok Code 4.6** and **Cursor Composer 2.5**.
+- Every work order is executed by two independent builders: **Grok Code 4.6** and **Cursor Cloud Agent (Opus 5)**. Composer 2.5 is refused.
 - Neither lane may read the other's branch, PR, or output before submitting its own.
 - A reviewer (Copilot pinned to Claude Opus 5, or Cursor Bugbot) diffs the two and writes a `Comparison` object.
 - Disagreement is the signal. Agreement on a hard task is suspicious — flag it.

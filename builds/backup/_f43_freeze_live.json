@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-backup-live/1",
+ "scratch": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_f43_freeze_live_cx5944vb",
+ "frozen_kind": "copy",
+ "frozen_hash": "b6a98d9ce9a2d9149288fa3df42d377c3e42737afdcdaf714e33c0a100b51060",
+ "live_hash": "d9bc825640dc8a4a3b8dfa733118e055cdada70c4e84029337aa3190be028d26",
+ "orig_hash": "b6a98d9ce9a2d9149288fa3df42d377c3e42737afdcdaf714e33c0a100b51060",
+ "frozen_survived": true,
+ "vss_kind": "VSS_UNAVAILABLE",
+ "vss_detail": "IDispatch.Invoke 'ExecMethod_' dispid=13 flags=3 hr=0x80020009 scode=0x80041014 Initialization failure ",
+ "vss_drive_type": 3,
+ "vss_filesystem": "NTFS",
+ "vss_released": false,
+ "vss_ok_typed": true,
+ "vss_binding": null,
+ "vss_shadow_id": null,
+ "ok": true,
+ "describes": {
+  "builds/backup/cosmos_backup.py": {
+   "exists": true,
+   "bytes": 50751,
+   "sha256": "9e9e48c0e4b13a0fa7bb61958418954e27d57b5c91b2eec71745694fb9c32b91"
+  },
+  "builds/backup/cosmos_backup_freeze.py": {
+   "exists": true,
+   "bytes": 23012,
+   "sha256": "d07957a3394b57261159c29b6f27c8d3f38c636ac9e0b944f28da0fb6f7c449e"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

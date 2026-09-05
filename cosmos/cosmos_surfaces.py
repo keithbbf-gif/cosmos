@@ -27,7 +27,9 @@ SCARS THIS CLOSES:
 """
 from __future__ import annotations
 
+import shutil
 import time
+from pathlib import Path
 from typing import Callable, Optional
 
 from cosmos_ledger import Ledger
@@ -219,10 +221,45 @@ class Surfaces:
                 "id": sid,
                 "kind": v["claim"]["kind"],
                 "role": v["claim"]["role"],
+                "path_or_url": v["claim"].get("path_or_url"),
                 "reachable": (m["reachable"] if m else None),
                 "free_gb": (round(m["free_bytes"] / 1e9, 2)
                             if (m and m["free_bytes"] is not None) else None),
                 "age_s": ((now - m["t"]) if m else None),
                 "qualified": v["qualified"],
+                "detail": (m["detail"] if m else None),
             })
         return rows
+
+
+def local_disk_probe(path: str) -> Probe:
+    """() -> (reachable, free_bytes, detail) for a filesystem root."""
+
+    def _probe():
+        p = Path(path)
+        if not p.exists():
+            return False, None, f"missing {path}"
+        try:
+            u = shutil.disk_usage(p)
+        except OSError as e:
+            return False, None, f"disk_usage {path}: {type(e).__name__}"
+        return True, int(u.free), f"{path} free={u.free} total={u.total}"
+
+    return _probe
+
+
+def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
+    """Idempotent: register + probe + measure the COSMOS runtime root.
+
+    One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
+    catalog on a writing boot. Extra volumes are claims the operator
+    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+    """
+    sid = "cosmos-live"
+    root_s = str(Path(root))
+    if sid not in sf.state():
+        sf.register(sid, "LOCAL", root_s, "SCRATCH")
+    sf.attach_probe(sid, local_disk_probe(root_s))
+    if sf.state().get(sid, {}).get("measurement") is None:
+        sf.measure(sid)
+    return [sid]

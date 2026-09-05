@@ -1,0 +1,146 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_cvmdt_s6_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T04:53:41-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_cvmdt_s6_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvmdt_s6_bundle",
+  "critiques": {
+    "gem-api": {
+      "path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_gem-api.md",
+      "bytes": 11638,
+      "sha256_16": "f94061e1b3ec7f28",
+      "head": "# cvm_dt - Motif stage-5 critique (gem-api)"
+    },
+    "oa-api": {
+      "path": "V:\\A\\Ai\\COSMOS\\docs\\critique\\cvmdt_CRITIQUE_oa-api.md",
+      "bytes": 16484,
+      "sha256_16": "3f8962ca56c0ed1a",
+      "head": "# cvmdt - Motif stage-5 critique (oa-api)"
+    },
+    "consensus": "CONSENSUS.md",
+    "both_verdict": "NOT ready for stage-6 runtime-binding at dispatch"
+  },
+  "clock_id": {
+    "before": 17,
+    "after": 18,
+    "single_valued": true,
+    "why": "CLOCKS owns 15=pool, 16=cvm satellite (pull.json issuer), 17=work_order. 17 was a stolen slot. This satellite's own id is 18. pull.json clock_id=16 stays the ticket issuer — skip_alive keys this heartbeat file + 18, so 16 is foreign.",
+    "not_in_CLOCKS": true,
+    "cosmos_own_clocks_untouched": true,
+    "clocks_row_18_owed": true
+  },
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile builds\\cvm-dt\\cvm_dt_clock.py ; py -3.14 -m py_compile tests\\test_cvm_dt_clock.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvmdt_s6_bundle",
+    "builds/cvm-dt/cvm_dt_clock.py": {
+      "rc": 0,
+      "lines": 367,
+      "bytes": 13918,
+      "sha256_16": "52c738ed3d3c659d"
+    },
+    "tests/test_cvm_dt_clock.py": {
+      "rc": 0,
+      "lines": 416,
+      "bytes": 14859,
+      "sha256_16": "2aa02084fd9ffc35"
+    },
+    "quoted": "py_compile_clock rc=0 ; py_compile_test rc=0 ; py_compile_sibling_test rc=0"
+  },
+  "tests": {
+    "cmd": "py -3.14 tests\\test_cvm_dt_clock.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvmdt_s6_bundle",
+    "rc": 0,
+    "passed": "8/8",
+    "failed": 0,
+    "quoted_from": "stdout: result: ok  8/8 then TEST_RC=0",
+    "labels": [
+      "PASS  heartbeat emitted with fresh epoch; CLOCK_ID is single-valued 18",
+      "PASS  tick writes last_run_epoch; fold cursor + desktop claim land",
+      "PASS  HOLD pause heartbeats without pulling Core",
+      "PASS  RESUME-GATE idles and does not self-clear",
+      "PASS  skip_alive matches unique clock_id + live pid",
+      "PASS  register emits schtasks /Create and does not run it",
+      "PASS  dead Core is UNREACHABLE and still heartbeats",
+      "PASS  unread PAUSE.flag is CONTROL_BLOCKED yet heartbeats"
+    ]
+  },
+  "runtime_binding": {
+    "what_done_is": "the named test proving logs/cvm_dt_clock_heartbeat.json is written every poll with a fresh last_run_epoch and CLOCK_ID is the single value 18 (not 15/16/17, not in CLOCKS) — plus py_compile rc=0. Not an exit code on --once against live :8770, not a registered schtasks tick.",
+    "isolated_proof": {
+      "test": "test_heartbeat_emitted_fresh_epoch_clock_id_single_valued",
+      "label": "heartbeat emitted with fresh epoch; CLOCK_ID is single-valued 18",
+      "passed": true,
+      "clock_id": 18,
+      "heartbeat_name": "cvm_dt_clock_heartbeat.json",
+      "worker": "cvm-dt-clock",
+      "core_kind_on_dead_core": "UNREACHABLE",
+      "never_fake_alive": true,
+      "py_compile_rc": 0
+    },
+    "also_proved": {
+      "dead_core_unreachable_still_heartbeats": true,
+      "hold_pause_does_not_pull_core": true,
+      "resume_gate_idles_does_not_self_clear": true,
+      "unread_pause_is_control_blocked_yet_heartbeats": true,
+      "register_emits_does_not_run": true,
+      "skip_alive_treats_pull_issuer_16_as_foreign": true
+    },
+    "live_8770_not_run": true,
+    "live_heartbeat_not_written": true,
+    "reason": "P10 propose-only; Core :8770 is UNREACHABLE by design this slice; clock marks UNREACHABLE and heartbeats into the handed-in test root. Native live/logs/cvm_dt_clock_heartbeat.json waits on Keith's schtasks line."
+  },
+  "elegance": {
+    "subtracted": [
+      "REUSED = (core_get, pull_url, write_heartbeat) dead tuple",
+      "unused core_get import",
+      "duplicate --loop skinny heartbeat writer",
+      "duplicate _pause_extra keys (mode + nested pause)",
+      "import-identity assertions that did not prove transport reuse"
+    ],
+    "added": [
+      "one _stamp path (cosmos_runner-shaped worker/last_run_epoch/mode)",
+      "CLOCK_ID=18 (own id, not stolen 17)",
+      "core_kind=UNREACHABLE on dead Core (never fake-alive)",
+      "unread PAUSE.flag -> CONTROL_BLOCKED typed refusal, still heartbeats"
+    ],
+    "net_vs_live_clock": "live builds/cvm-dt/cvm_dt_clock.py 358 LOC / 13362B; this emit 367 LOC / 13918B (+9 for typed unread-control + core_kind + unified stamp; not a second pause/heartbeat implementation)",
+    "shared": ["write_heartbeat", "acquire_lock", "plan_create", "pause_flag contract", "CvmDtClient.cycle_once", "pull_url"],
+    "no_bts_imports": true,
+    "no_hardcoded_paths": true,
+    "token_from": "paths.config('api_token.txt') via load_token (handed-in --root)"
+  },
+  "files": [
+    "builds/cvm-dt/cvm_dt_clock.py",
+    "builds/cvm-dt/test_cvm_dt_clock.py",
+    "tests/test_cvm_dt_clock.py",
+    "CONSENSUS.md",
+    "EMIT.txt",
+    "emit/builds__cvm-dt__cvm_dt_clock.py.emit.txt",
+    "emit/builds__cvm-dt__test_cvm_dt_clock.py.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=replace>>> ... <<<FILE_END>>> (full-file replacements, not diffs)",
+  "cow_dispose": [
+    "extract EMIT.txt / emit/*.emit.txt FILE blocks",
+    "copy builds/cvm-dt/cvm_dt_clock.py onto builds/cvm-dt/cvm_dt_clock.py",
+    "copy tests/test_cvm_dt_clock.py onto builds/cvm-dt/test_cvm_dt_clock.py",
+    "do NOT apply a unified diff (corrupt-patch scar)",
+    "do NOT edit cosmos/ or live Core :8770",
+    "do NOT run schtasks /Create (register() already emits; Keith runs COSMOS)",
+    "py -3.14 -m py_compile builds\\cvm-dt\\cvm_dt_clock.py builds\\cvm-dt\\test_cvm_dt_clock.py",
+    "py -3.14 builds\\cvm-dt\\test_cvm_dt_clock.py"
+  ],
+  "not_done": [
+    "did not write the live tree or cosmos/ package",
+    "did not add CLOCKS row 18 (owed; cosmos/ freeze this slice)",
+    "did not run schtasks / --loop / live :8770 gate",
+    "did not write live/logs/cvm_dt_clock_heartbeat.json (propose-only; test root only)",
+    "did not rewrite CvmDtClient / DesktopPullClock / H6 owner-file proof"
+  ]
+}

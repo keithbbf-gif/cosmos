@@ -14,6 +14,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_up import RoadUp, UpError
 
 RESULTS = []
@@ -213,9 +214,18 @@ def main() -> int:
           and _flag("/tn") == "COSMOS Serve" and _flag("/sc") == "onlogon")
     check("install_persistent: /rl highest and /f present",
           lambda: _flag("/rl") == "highest" and "/f" in a)
+    def _pinned_314(tr):
+        # Version pinning survived the headless refactor: `py -3.14` became a
+        # direct pythonw.exe path, which pins the version IN THE PATH instead of
+        # via a launcher flag. The property is "pinned to 3.14", not the spelling.
+        # (2026-08-30)
+        low = tr.lower()
+        return "-3.14" in low or "python314" in low or "python3.14" in low
     check("install_persistent: /tr carries the FULL reachable serve cmd",
           lambda: "serve" in _flag("/tr") and "--remote" in _flag("/tr")
-          and "--tls" in _flag("/tr") and "-3.14" in _flag("/tr"))
+          and "--tls" in _flag("/tr") and _pinned_314(_flag("/tr")))
+    check("install_persistent: /tr is headless (pythonw, no console flash)",
+          lambda: "pythonw" in _flag("/tr").lower())
     check("install_persistent: elevation need is STATED in the return",
           lambda: "elevat" in p["needs_elevation"])
 

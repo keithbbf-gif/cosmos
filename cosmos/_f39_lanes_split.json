@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-f39-lanes-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "measured_utc": "2026-08-31T18:12Z",
+ "disp": {
+  "bytes": 69549,
+  "lines": 1715
+ },
+ "lanes": {
+  "bytes": 7636,
+  "lines": 214
+ },
+ "old": {
+  "bytes": 73741,
+  "lines": 1846
+ },
+ "measure_same": true,
+ "pick_same": true,
+ "suite": {
+  "checks": 61,
+  "passed": 61
+ },
+ "bite": {
+  "all_new_pins_failed": true,
+  "failed_pin_count": 9
+ },
+ "defines_measure_in_dispatch": false,
+ "imports_lanes": true
+}

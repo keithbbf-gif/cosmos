@@ -1,0 +1,23 @@
+{
+ "schema": "cosmos-f39-lanes-fail-old/1",
+ "old_dispatch": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_dispatch_f39_lanes_20260831T1812Z\\cosmos_dispatch.py",
+ "old_bytes": 73741,
+ "old_lines": 1846,
+ "old_has_lanes_banner": true,
+ "old_defines_measure": true,
+ "live_lanes_exists": true,
+ "live_lanes_bytes": 7636,
+ "pins": {
+  "lanes_module_imported": false,
+  "lane_dir_moved_out": false,
+  "measure_lanes_moved_out": false,
+  "pick_least_loaded_moved_out": false,
+  "job_filename_moved_out": false,
+  "locate_job_moved_out": false,
+  "returns_dir_moved_out": false,
+  "banner_is_reexport_only": false,
+  "lanes_file_was_present": false
+ },
+ "failed_pin_count": 9,
+ "all_new_pins_failed": true
+}

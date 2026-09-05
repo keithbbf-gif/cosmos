@@ -1,0 +1,432 @@
+{
+ "_watchdog2_notimeout.ps1": {
+  "size": 214,
+  "mtime_ns": 1787716428600840600,
+  "sha": "40051dc2349f7c0a"
+ },
+ "backup_clock_heartbeat.json": {
+  "size": 507,
+  "mtime_ns": 1788148807152948200,
+  "sha": "a9d3390ca8d17dd8"
+ },
+ "cdeck_feed.err": {
+  "size": 899,
+  "mtime_ns": 1788120143951453500,
+  "sha": "d892178858c577a4"
+ },
+ "cdeck_feed.lock": {
+  "size": 5,
+  "mtime_ns": 1787956922885769300,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cdeck_feed.out": {
+  "size": 236,
+  "mtime_ns": 1787956923128770400,
+  "sha": "67fc59e0cdc3a215"
+ },
+ "cdeck_feed_heartbeat.json": {
+  "size": 502,
+  "mtime_ns": 1788151382051365700,
+  "sha": "825084b387bd6a22"
+ },
+ "collector.err": {
+  "size": 770,
+  "mtime_ns": 1788087768935768200,
+  "sha": "3c716451f9d83b83"
+ },
+ "collector.lock": {
+  "size": 5,
+  "mtime_ns": 1787956925644271900,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "collector.out": {
+  "size": 7984,
+  "mtime_ns": 1787956925824271400,
+  "sha": "cbdc15af5c6d5f91"
+ },
+ "collector_heartbeat.json": {
+  "size": 1626,
+  "mtime_ns": 1788151371236324100,
+  "sha": "e9fecc8ae57a125b"
+ },
+ "cosmos_index_heartbeat.json": {
+  "size": 642,
+  "mtime_ns": 1788151381379505300,
+  "sha": "f2fcd3c5ecda924c"
+ },
+ "cosmos_pool.err": {
+  "size": 779,
+  "mtime_ns": 1788134510665254500,
+  "sha": "00591b9cf8fd6879"
+ },
+ "cosmos_pool.lock": {
+  "size": 5,
+  "mtime_ns": 1788134520702757300,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_pool.out": {
+  "size": 9503,
+  "mtime_ns": 1788134520747760900,
+  "sha": "bef73a416e25f95e"
+ },
+ "cosmos_pool_heartbeat.json": {
+  "size": 1165,
+  "mtime_ns": 1788151371409444800,
+  "sha": "45fe083134563f5d"
+ },
+ "cosmos_runner.err": {
+  "size": 923,
+  "mtime_ns": 1788137873626896000,
+  "sha": "6e286affa1a7f132"
+ },
+ "cosmos_runner.lock": {
+  "size": 5,
+  "mtime_ns": 1788137881156226500,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_runner.out": {
+  "size": 55281,
+  "mtime_ns": 1788137881222682700,
+  "sha": "f6a63f787cff39f8"
+ },
+ "cosmos_runner.slot0.err": {
+  "size": 1078,
+  "mtime_ns": 1788136080206199500,
+  "sha": "92283d71948ef425"
+ },
+ "cosmos_runner.slot0.lock": {
+  "size": 4,
+  "mtime_ns": 1788136081591882400,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_runner.slot0.out": {
+  "size": 23348,
+  "mtime_ns": 1788136081641340300,
+  "sha": "2fd50ef5a65e4239"
+ },
+ "cosmos_runner.slot0_heartbeat.json": {
+  "size": 708,
+  "mtime_ns": 1788151377300334300,
+  "sha": "eab07c043921ab5c"
+ },
+ "cosmos_runner.slot1.err": {
+  "size": 1078,
+  "mtime_ns": 1788144577702563500,
+  "sha": "16bdc33560bfd75a"
+ },
+ "cosmos_runner.slot1.lock": {
+  "size": 5,
+  "mtime_ns": 1788144589637321100,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_runner.slot1.out": {
+  "size": 20666,
+  "mtime_ns": 1788144589724098900,
+  "sha": "bb08ce27912c632d"
+ },
+ "cosmos_runner.slot1_heartbeat.json": {
+  "size": 708,
+  "mtime_ns": 1788151379855522900,
+  "sha": "854d554f1b979ba6"
+ },
+ "cosmos_runner.slot2.err": {
+  "size": 1078,
+  "mtime_ns": 1787841520337436700,
+  "sha": "b9fc41df329a6bf5"
+ },
+ "cosmos_runner.slot2.lock": {
+  "size": 5,
+  "mtime_ns": 1787956925344272000,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_runner.slot2.out": {
+  "size": 6631,
+  "mtime_ns": 1787956925511272100,
+  "sha": "4da5cedd89e3a38f"
+ },
+ "cosmos_runner.slot2_heartbeat.json": {
+  "size": 710,
+  "mtime_ns": 1788151367332447400,
+  "sha": "54f1ce5738bd35d4"
+ },
+ "cosmos_runner.slot4.err": {
+  "size": 1083,
+  "mtime_ns": 1787860955003522900,
+  "sha": "63946aec43348632"
+ },
+ "cosmos_runner.slot4.lock": {
+  "size": 5,
+  "mtime_ns": 1787852433610588600,
+  "sha": "883eb54e78cd2508"
+ },
+ "cosmos_runner.slot4.out": {
+  "size": 3196,
+  "mtime_ns": 1787860955003522900,
+  "sha": "cd7aeecc77a4f8dd"
+ },
+ "cosmos_runner.slot4_heartbeat.json": {
+  "size": 708,
+  "mtime_ns": 1787860949999157500,
+  "sha": "0e2aa873d1b891c0"
+ },
+ "cosmos_runner.slot4_heartbeat.json.tmp": {
+  "size": 569,
+  "mtime_ns": 1787860955003522900,
+  "sha": "c66e932e8a94921e"
+ },
+ "cosmos_runner.slotfast.err": {
+  "size": 1044,
+  "mtime_ns": 1788147448114934200,
+  "sha": "b16676b2060b0276"
+ },
+ "cosmos_runner.slotfast.lock": {
+  "size": 5,
+  "mtime_ns": 1788147455458798200,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cosmos_runner.slotfast.out": {
+  "size": 20813,
+  "mtime_ns": 1788147455532164200,
+  "sha": "80b5d20f86f805ab"
+ },
+ "cosmos_runner.slotfast_heartbeat.json": {
+  "size": 707,
+  "mtime_ns": 1788151374134875200,
+  "sha": "1a7bacc7e36f22d2"
+ },
+ "cosmos_runner_heartbeat.json": {
+  "size": 702,
+  "mtime_ns": 1788151377282700100,
+  "sha": "eb1fc23d264c08cd"
+ },
+ "cosmos_runner_heartbeat.slot2.json": {
+  "size": 783,
+  "mtime_ns": 1787850007468763400,
+  "sha": "c3f31384ecfd1d59"
+ },
+ "cosmos_runner_heartbeat.slot3.json": {
+  "size": 675,
+  "mtime_ns": 1787875616453082100,
+  "sha": "2b15b1e2d028e87f"
+ },
+ "cosmos_runner_heartbeat.slot3.json.tmp": {
+  "size": 536,
+  "mtime_ns": 1787875621456128300,
+  "sha": "7c580621a697a232"
+ },
+ "cosmos_runner_s6_gate.json": {
+  "size": 3636,
+  "mtime_ns": 1788126899447274000,
+  "sha": "37f66d6ea816dc0b"
+ },
+ "cosmos_runner_s6_gate_S6R-0924f2a48ae7-1788126884.json": {
+  "size": 3636,
+  "mtime_ns": 1788126899447274000,
+  "sha": "37f66d6ea816dc0b"
+ },
+ "cvm_clock.err": {
+  "size": 895,
+  "mtime_ns": 1788129158582089800,
+  "sha": "c5949c59ea2d04da"
+ },
+ "cvm_clock.lock": {
+  "size": 5,
+  "mtime_ns": 1787956923509769600,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "cvm_clock.out": {
+  "size": 228,
+  "mtime_ns": 1787956923900201300,
+  "sha": "52283335ac226b84"
+ },
+ "cvm_clock_heartbeat.json": {
+  "size": 685,
+  "mtime_ns": 1788151381487619600,
+  "sha": "4fe47082b45ebe04"
+ },
+ "cvm_dt_clock.lock": {
+  "size": 4,
+  "mtime_ns": 1787833576783205300,
+  "sha": "64eda62b35a3b686"
+ },
+ "cvm_dt_clock_heartbeat.json": {
+  "size": 732,
+  "mtime_ns": 1787833578833948400,
+  "sha": "2ec5a31b8fbac82a"
+ },
+ "cvm_dt_voice_heartbeat.json": {
+  "size": 559,
+  "mtime_ns": 1787842743336049600,
+  "sha": "60d21a8e8245d24d"
+ },
+ "diag_slot4_spawn.log": {
+  "size": 0,
+  "mtime_ns": 1787851827383724400,
+  "sha": "e3b0c44298fc1c14"
+ },
+ "dispatcher.err": {
+  "size": 953,
+  "mtime_ns": 1788116944265309400,
+  "sha": "04be333a634fdda2"
+ },
+ "dispatcher.lock": {
+  "size": 5,
+  "mtime_ns": 1787956922882769500,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "dispatcher.out": {
+  "size": 232,
+  "mtime_ns": 1787956923128770400,
+  "sha": "b5cad9930c0b33ea"
+ },
+ "dispatcher_heartbeat.json": {
+  "size": 630,
+  "mtime_ns": 1788151379857032900,
+  "sha": "c25d9e801b88040f"
+ },
+ "drive_meter_heartbeat.json": {
+  "size": 529,
+  "mtime_ns": 1788151381186797700,
+  "sha": "f67af620c7ed2de7"
+ },
+ "extra_runner_main.log": {
+  "size": 815,
+  "mtime_ns": 1787843629741872800,
+  "sha": "e04f4b8020555ed4"
+ },
+ "extra_runner_slot2.log": {
+  "size": 5339,
+  "mtime_ns": 1787850007502556000,
+  "sha": "b4318c2330c5dc51"
+ },
+ "extra_runner_slot3.log": {
+  "size": 6879,
+  "mtime_ns": 1787875621469129200,
+  "sha": "e879ced86ee550b1"
+ },
+ "g46_slot4_spawn_proof.json": {
+  "size": 3406,
+  "mtime_ns": 1787852361409479900,
+  "sha": "c1f7305da1d1b268"
+ },
+ "gem_worker.err": {
+  "size": 1023,
+  "mtime_ns": 1788087955548906600,
+  "sha": "53bd7bb0d3f4927d"
+ },
+ "gem_worker.lock": {
+  "size": 5,
+  "mtime_ns": 1787956922622253100,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "gem_worker.out": {
+  "size": 304,
+  "mtime_ns": 1787956922876769700,
+  "sha": "1924f764b7e760b3"
+ },
+ "gem_worker_heartbeat.json": {
+  "size": 650,
+  "mtime_ns": 1788151376284094400,
+  "sha": "83f5ab84c9c079bc"
+ },
+ "grok_worker.err": {
+  "size": 1025,
+  "mtime_ns": 1787949875353336800,
+  "sha": "3307933f02df1b58"
+ },
+ "grok_worker.lock": {
+  "size": 5,
+  "mtime_ns": 1787956922625255100,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "grok_worker.out": {
+  "size": 307,
+  "mtime_ns": 1787956922796252000,
+  "sha": "bb50fae1f5d02eab"
+ },
+ "grok_worker_heartbeat.json": {
+  "size": 653,
+  "mtime_ns": 1788151376293887400,
+  "sha": "59cb373b013e5704"
+ },
+ "health_clock.err": {
+  "size": 828,
+  "mtime_ns": 1788144509804505500,
+  "sha": "b66d0ca8e857f0d2"
+ },
+ "health_clock.lock": {
+  "size": 5,
+  "mtime_ns": 1787956923504769500,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "health_clock.out": {
+  "size": 232,
+  "mtime_ns": 1787956923791203400,
+  "sha": "4d3cd3434670c375"
+ },
+ "health_clock_heartbeat.json": {
+  "size": 1241,
+  "mtime_ns": 1788151381307173700,
+  "sha": "db2f9cab34d65d85"
+ },
+ "health_watchdog_heartbeat.json": {
+  "size": 639,
+  "mtime_ns": 1788150061710997000,
+  "sha": "d41297216d6c590e"
+ },
+ "ledger_verify_heartbeat.json": {
+  "size": 529,
+  "mtime_ns": 1788151200193405400,
+  "sha": "b73d45d0ff6d6841"
+ },
+ "mesh_discovery_heartbeat.json": {
+  "size": 733,
+  "mtime_ns": 1788149161995541400,
+  "sha": "bdaf54ab7eb6ab21"
+ },
+ "motif_driver_heartbeat.json": {
+  "size": 3091,
+  "mtime_ns": 1788150601676205100,
+  "sha": "f4c3ad51314055db"
+ },
+ "rails_prober_heartbeat.json": {
+  "size": 699,
+  "mtime_ns": 1788151322911677200,
+  "sha": "1ee34d318f1023c6"
+ },
+ "selftest_clock_heartbeat.json": {
+  "size": 625,
+  "mtime_ns": 1788151288155918800,
+  "sha": "0ad8b68045f5cd49"
+ },
+ "spend_meter_heartbeat.json": {
+  "size": 466,
+  "mtime_ns": 1788151381282809000,
+  "sha": "938068372b40487a"
+ },
+ "watchdog2.err": {
+  "size": 756,
+  "mtime_ns": 1787964228609936900,
+  "sha": "7b44ab774a71a0f7"
+ },
+ "watchdog2.lock": {
+  "size": 5,
+  "mtime_ns": 1787956923154771700,
+  "sha": "ERR:[Errno 13] Permission denied"
+ },
+ "WATCHDOG2.log": {
+  "size": 8752028,
+  "mtime_ns": 1788151367566882500,
+  "sha": "61d12d34733b9af0"
+ },
+ "watchdog2.out": {
+  "size": 8752762,
+  "mtime_ns": 1788151367566882500,
+  "sha": "90acb652a5fa4096"
+ },
+ "watchdog2_heartbeat.json": {
+  "size": 5247,
+  "mtime_ns": 1788151367566882500,
+  "sha": "a9d791de983ccf2b"
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "schema": "cosmos-mesh-blockers/1",
+ "measured_at": "2026-08-31T03:32:42.301173-05:00",
+ "root": "V:\\A\\Ai\\COSMOS\\live",
+ "deep": true,
+ "ledger_error": null,
+ "projection": "V:\\A\\Ai\\COSMOS\\live\\registry\\nodes.json",
+ "projection_count": 8,
+ "proof_ttl_s": 3600.0,
+ "live_count": 8,
+ "total": 9,
+ "elapsed_s": 0.07,
+ "nodes": [
+  {
+   "link_id": "sgh-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_sgh",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_sgh importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_sgh",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_sgh.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "grok-4.6",
+    "body_bytes": 4,
+    "age_s": 284.6,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "gem-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_gem",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_gem importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_gem",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_gem.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "gemini-2.5-flash",
+    "body_bytes": 4,
+    "age_s": 283.0,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "gw-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_gw",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_gw importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_gw",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_gw.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "grok-build-0.1",
+    "body_bytes": 4,
+    "age_s": 281.4,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "oa-api",
+   "rail_type": "API",
+   "route": "core->models",
+   "probed_via": "bts_oa_api",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "OK",
+   "blocker": "",
+   "probe_detail": "bts_oa_api importable (liveness is per-call)",
+   "evidence": {
+    "incumbent_root": "V:\\Ai\\BTS_MESH",
+    "module": "bts_oa_api",
+    "module_file": "V:\\Ai\\BTS_MESH\\bts_oa_api.py",
+    "has_ask": true
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "gpt-5.6-terra",
+    "body_bytes": 4,
+    "age_s": 278.3,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "claude-cli",
+   "rail_type": "CLI",
+   "route": "core->code",
+   "probed_via": "cosmos_claude_rail",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "NO_KEY",
+   "blocker": "",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt",
+    "key_present": false,
+    "binary": "claude",
+    "binary_on_path": "C:\\Users\\Papa\\.local\\bin\\claude.EXE"
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "haiku",
+    "body_bytes": 4,
+    "age_s": 265.2,
+    "probe_results_recorded": true
+   },
+   "note": "Two paths, one link_id: ClaudeRail.dispatch needs config/anthropic_api_key.txt, but cosmos_rails_prober._claude_live_call falls back to the prepaid SEAT (`claude -p` with ANTHROPIC_API_KEY unset). The recorded proof came from the seat path, so ClaudeRail.probe() refusing NO_KEY does not contradict the registry row."
+  },
+  {
+   "link_id": "cursor-api",
+   "rail_type": "API",
+   "route": "core->code",
+   "probed_via": "cosmos_claude_rail",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "NO_KEY",
+   "blocker": "",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt",
+    "key_present": false,
+    "binary": "claude",
+    "binary_on_path": "C:\\Users\\Papa\\.local\\bin\\claude.EXE"
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "Cursor COSMOS 2",
+    "body_bytes": 88,
+    "age_s": 264.8,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "firecrawl-web",
+   "rail_type": "API",
+   "route": "core->papers",
+   "probed_via": "cosmos_claude_rail",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "NO_KEY",
+   "blocker": "",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt",
+    "key_present": false,
+    "binary": "claude",
+    "binary_on_path": "C:\\Users\\Papa\\.local\\bin\\claude.EXE"
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "firecrawl/v2-research-papers",
+    "body_bytes": 169,
+    "age_s": 263.8,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "playwright-dom",
+   "rail_type": "DOM",
+   "route": "core->interact",
+   "probed_via": "cosmos_claude_rail",
+   "wired_for_prove": true,
+   "claimed_in_ledger": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "NO_KEY",
+   "blocker": "",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt",
+    "key_present": false,
+    "binary": "claude",
+    "binary_on_path": "C:\\Users\\Papa\\.local\\bin\\claude.EXE"
+   },
+   "ledger_last": {
+    "ok": true,
+    "rc": 0,
+    "model": "Playwright/1.63.0-alpha-2026-08-05",
+    "body_bytes": 76,
+    "age_s": 263.2,
+    "probe_results_recorded": true
+   },
+   "note": null
+  },
+  {
+   "link_id": "codex-cli",
+   "rail_type": "CLI",
+   "route": "core->code",
+   "probed_via": "cosmos_codex_rail",
+   "wired_for_prove": false,
+   "claimed_in_ledger": true,
+   "in_registry": false,
+   "kind": "NO_KEY",
+   "probe_kind": "NO_KEY",
+   "blocker": "UNREACHABLE: NO_KEY: [NO_KEY] OpenAI key missing at V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt (never hard-code; redact to sk-\u2026last4)  [AND: codex-cli is absent from cosmos_rails_prober.WIRED_NODES, so clearing the refusal above still leaves nothing asking it for a proof]",
+   "probe_detail": "UNREACHABLE: NO_KEY: [NO_KEY] OpenAI key missing at V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt (never hard-code; redact to sk-\u2026last4)",
+   "evidence": {
+    "key_path": "V:\\A\\Ai\\COSMOS\\live\\config\\openai_api_key.txt",
+    "key_present": false,
+    "binary": "codex",
+    "binary_on_path": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD"
+   },
+   "ledger_last": {
+    "ok": null,
+    "rc": null,
+    "model": null,
+    "body_bytes": null,
+    "age_s": null,
+    "probe_results_recorded": false
+   },
+   "note": null
+  }
+ ]
+}

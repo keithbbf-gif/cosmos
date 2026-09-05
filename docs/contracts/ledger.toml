@@ -1,0 +1,209 @@
+# CONTRACTS — ledger (cosmos/cosmos_ledger.py + cosmos/cosmos_segments.py)
+#
+# Phase 1, docs/CORE_RESTRUCTURE.md. The ledger is THE authority primitive: every
+# other state in COSMOS is a rebuildable projection of it. That makes its
+# invariants the most expensive ones in the tree to violate, and the quietest —
+# a ledger that repairs itself, or that reads an absent file as an empty history,
+# fails in a direction nothing downstream can detect.
+#
+# Transcribed from the CODE as it stands 2026-08-30 (`Ledger.__init__ / append /
+# append_guarded / verify`, `SegmentedLedger.verify_all`, `CAS.get`). Every marker
+# was grepped in the file it is cited from before it was written here.
+#
+# RULE: transcribe what the CODE does today, not what the prose claims. Where
+# they disagree, the code wins and the disagreement is the finding.
+
+schema = "cosmos-contracts/1"
+subsystem = "ledger"
+
+[[contract]]
+id = "ledger.loading_is_verifying"
+statement = """
+Constructing a Ledger over an existing file WALKS THE WHOLE CHAIN; a break
+refuses at construction, before any caller holds a handle. There is no way to
+open a corrupt ledger and read from it as though it were fine. The segmented
+layer inherits this deliberately: segment construction sits INSIDE verify_all's
+try, because when it sat above it a construction-time break escaped un-named and
+un-recorded — the F5 quarantine defect."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "loading IS verifying"
+  why = "__init__ verifies an existing file rather than trusting it"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_segments.py"
+  must_contain = "lives INSIDE this try"
+  why = "a construction-time break is named and recorded like a walk-time break"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "torn line -> TORN"
+  why = "the refusal fires on Ledger(), not on a later read"
+
+[[contract]]
+id = "ledger.three_corruption_kinds_stay_distinct"
+statement = """
+TORN (unparseable) != BROKEN_CHAIN (parseable, wrong link) != FORGED (parseable,
+chained, bad HMAC). Three different facts, three kinds, three responses: a torn
+tail is a crash, a broken link is an edit, a bad HMAC is a record this service
+did not sign. Collapsing any two loses the only signal that distinguishes an
+accident from an attacker — and a parseable line missing its payload is a
+WELL-FORMED LIE, which must be typed BROKEN_CHAIN rather than an untyped
+KeyError (critic H2)."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "TORN (unparseable) != BROKEN_CHAIN"
+  why = "the three-kind rule stated at the module contract"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "A well-formed lie is BROKEN_CHAIN, typed."
+  why = "the missing-payload case is typed, never an untyped exception"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_core.py"
+  must_contain = "record signed with the WRONG KEY -> FORGED"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_segments.py"
+  must_contain = "forged ANCHOR (edited accounting, re-hashed) -> verify_all REFUSES (FORGED)"
+  why = "re-hashing edited bytes is FORGED at the anchor layer too, not BROKEN_CHAIN"
+
+[[contract]]
+id = "ledger.absent_is_not_unreadable"
+statement = """
+A ledger file that does not exist is a ledger with ZERO events — a legitimate
+empty history. A file that exists and cannot be read is a REFUSAL. The first
+version of verify() collapsed the two, and a suite caught it before commit. The
+same four-state rule is carried into the CAS: a blob never stored is NOT_FOUND
+(absent), a blob whose bytes no longer hash to its own name is HASH_MISMATCH —
+corruption is refused, never handed back as silent garbage."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "ABSENT != UNREADABLE"
+  why = "verify() distinguishes an empty history from an unreadable one"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_segments.py"
+  must_contain = "absent is not corrupt"
+  why = "CAS.get keeps the same distinction for blobs"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_segments.py"
+  must_contain = "HASH_MISMATCH"
+  why = "a read-back hash check; corrupt bytes are never returned"
+
+[[contract]]
+id = "ledger.one_writer_at_a_time_re_primed_from_disk"
+statement = """
+Appends are serialized by an EXCLUSIVE OS LOCK held across (re-prime from disk ->
+append -> fsync), so a concurrent writer lands on the REAL head instead of a
+remembered one. Re-priming under the lock is the load-bearing half: two writers
+on the same remembered head both wrote seq=2 and tore the chain (critic B1,
+MEASURED). For callers whose DECISION depends on the head, append_guarded holds
+the same lock across the whole read-decide-append, because sampling the head only
+at append time still let two overlapping callers both pass a cap check
+(RG-B1, MEASURED). A decide() that RAISES aborts with nothing written and the
+lock released, so the loser re-projects and retries rather than wedging."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "re-prime seq/prev_sha from DISK"
+  why = "the append re-reads the head under the lock, never trusts memory"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "No caller outside"
+  why = "append_guarded closes the decide-then-append interleaving window"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_concurrency.py"
+  must_contain = "B1: seqs are 1..100 with no duplicates"
+  why = "the property (no duplicate seq), measured under a real two-thread hammer"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_concurrency.py"
+  must_contain = "B1: the chain VERIFIES after the hammer"
+
+  # append_guarded's half of the clause, pinned by a RUNNING test rather than by
+  # reading (job 020 reported it BLOCKED: the method had zero hits in tests/).
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_ledger_guard.py"
+  must_contain = "G3: 8 racing writers on ONE head -> EXACTLY ONE commit"
+  why = "exactly-once measured with real OS threads on one projected head, not a mocked race"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_ledger_guard.py"
+  must_contain = "G2: a head that MOVED under the decision REFUSES, typed STALE_HEAD"
+  why = "the refusal is typed and propagates; it is not swallowed into a silent no-op"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_ledger_guard.py"
+  must_contain = "G4: the refusal leaves the ledger BYTE-IDENTICAL and still VERIFYING"
+  why = "the abort path writes nothing and truncates nothing - fail-closed"
+
+[[contract]]
+id = "ledger.append_only_history_is_never_repaired"
+statement = """
+The authority file is only ever opened in APPEND mode and flushed with fsync.
+It is never rewritten, never renamed over, never truncated — history is not
+repaired in place, it is refused. This is the scar that chose appends over atomic
+renames in the first place (bts_sgh). A rewrite path is catastrophic and
+invisible: it would produce a chain that verifies perfectly and says something
+other than what happened, which is exactly what the HMAC exists to make
+impossible from outside and this rule makes impossible from inside."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = 'open(self._path, "a", encoding="utf-8", newline="")'
+  why = "append mode, the only way this module opens the ledger for writing"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_contain = "os.fsync(fh.fileno())"
+  why = "the record is on the platter before the writer advances its head"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_not_contain = "os.replace"
+  why = "an atomic rename over the authority file would silently rewrite history"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_not_contain = ".write_text("
+  why = "whole-file writes are how a repair-in-place gets introduced by accident"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_ledger.py"
+  must_not_contain = "except LedgerError"
+  why = "the authority module must never swallow its own refusal — fail-closed"

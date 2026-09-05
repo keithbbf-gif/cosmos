@@ -1,0 +1,663 @@
+{
+ "ok": false,
+ "wire": "cvm-dt-supervision/1",
+ "audited_at_epoch": 1788159672.2693198,
+ "python": "3.14.0",
+ "repo": "V:\\A\\Ai\\COSMOS",
+ "runtime": {
+  "root": "V:\\A\\Ai\\COSMOS\\live",
+  "tree_id": "KMesh-COSMOS-live"
+ },
+ "schtasks_queried": true,
+ "declared": 26,
+ "supervised": 13,
+ "unsupervised_count": 13,
+ "registries": {
+  "clocks_rows": 17,
+  "max_clock_id": 17,
+  "watchlist_len": 12,
+  "errors": []
+ },
+ "workers": [
+  {
+   "module": "cosmos_backup_clock",
+   "path": "cosmos/cosmos_backup_clock.py",
+   "task_name": null,
+   "task_logon": null,
+   "heartbeat": "backup_clock_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": null,
+   "heartbeat_age_s": 1782.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_cdeck_feed",
+   "path": "cosmos/cosmos_cdeck_feed.py",
+   "task_name": "COSMOS cDeck Feed",
+   "task_logon": "COSMOS cDeck Feed Logon",
+   "heartbeat": "cdeck_feed_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 0.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_collector",
+   "path": "cosmos/cosmos_collector.py",
+   "task_name": "COSMOS Collector",
+   "task_logon": "COSMOS Collector Logon",
+   "heartbeat": "collector_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 15.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_crit_consumer",
+   "path": "cosmos/cosmos_crit_consumer.py",
+   "task_name": "COSMOS CritConsumer",
+   "task_logon": "COSMOS CritConsumer Logon",
+   "heartbeat": "crit_consumer_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": false,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_cvm_clock",
+   "path": "cosmos/cosmos_cvm_clock.py",
+   "task_name": "COSMOS CVM Clock",
+   "task_logon": "COSMOS CVM Clock Logon",
+   "heartbeat": "cvm_clock_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 0.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_discover",
+   "path": "cosmos/cosmos_discover.py",
+   "task_name": "COSMOS Mesh Discovery",
+   "task_logon": null,
+   "heartbeat": "mesh_discovery_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 3311.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_dispatcher_daemon",
+   "path": "cosmos/cosmos_dispatcher_daemon.py",
+   "task_name": "COSMOS Dispatcher",
+   "task_logon": "COSMOS Dispatcher Logon",
+   "heartbeat": "dispatcher_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 3.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_drive_meter",
+   "path": "cosmos/cosmos_drive_meter.py",
+   "task_name": "COSMOS Drive Meter",
+   "task_logon": null,
+   "heartbeat": "drive_meter_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 12.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_health_clock",
+   "path": "cosmos/cosmos_health_clock.py",
+   "task_name": "COSMOS Health",
+   "task_logon": "COSMOS Health Logon",
+   "heartbeat": "health_clock_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 0.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_index",
+   "path": "cosmos/cosmos_index.py",
+   "task_name": "COSMOS Index",
+   "task_logon": null,
+   "heartbeat": "cosmos_index_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 12.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_ledger_verify",
+   "path": "cosmos/cosmos_ledger_verify.py",
+   "task_name": "COSMOS Ledger Verify",
+   "task_logon": null,
+   "heartbeat": "ledger_verify_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 72.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_motif_driver",
+   "path": "cosmos/cosmos_motif_driver.py",
+   "task_name": "COSMOS Motif Driver",
+   "task_logon": null,
+   "heartbeat": "motif_driver_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 71.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_pool",
+   "path": "cosmos/cosmos_pool.py",
+   "task_name": "COSMOS Runner Pool",
+   "task_logon": null,
+   "heartbeat": "cosmos_pool_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 4.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_rails_prober",
+   "path": "cosmos/cosmos_rails_prober.py",
+   "task_name": "COSMOS Rails Prober",
+   "task_logon": null,
+   "heartbeat": "rails_prober_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 11.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_run",
+   "path": "cosmos/cosmos_run.py",
+   "task_name": "COSMOS Runner",
+   "task_logon": null,
+   "heartbeat": "cosmos_runner_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 6.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_spend_meter",
+   "path": "cosmos/cosmos_spend_meter.py",
+   "task_name": "COSMOS Spend Meter",
+   "task_logon": null,
+   "heartbeat": "spend_meter_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 12.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_watchdog2",
+   "path": "cosmos/cosmos_watchdog2.py",
+   "task_name": "COSMOS Watchdog2",
+   "task_logon": "COSMOS Watchdog2 Logon",
+   "heartbeat": "watchdog2_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": true,
+   "os_registered": true,
+   "heartbeat_age_s": 1.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_work_order_run",
+   "path": "cosmos/cosmos_work_order_run.py",
+   "task_name": "COSMOS Work-Order Runner",
+   "task_logon": "COSMOS Work-Order Runner Logon",
+   "heartbeat": "work_order_runner_heartbeat.json",
+   "in_clocks": true,
+   "logon_in_clocks": true,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_backup",
+   "path": "builds/backup/cosmos_backup.py",
+   "task_name": null,
+   "task_logon": null,
+   "heartbeat": "HEARTBEAT.json",
+   "in_clocks": false,
+   "logon_in_clocks": null,
+   "in_watchlist": false,
+   "os_registered": null,
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_offsite_clock",
+   "path": "builds/backup/cosmos_offsite_clock.py",
+   "task_name": "COSMOS Offsite Push",
+   "task_logon": null,
+   "heartbeat": "offsite_clock_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": null,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": 169.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cvm_dt_clock",
+   "path": "builds/cvm-dt/cvm_dt_clock.py",
+   "task_name": "COSMOS CVM DT Clock",
+   "task_logon": "COSMOS CVM DT Clock Logon",
+   "heartbeat": "cvm_dt_clock_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": false,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": 326094.3,
+   "heartbeat_state": "cold",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cvm_dt_voice",
+   "path": "builds/cvm-dt/cvm_dt_voice.py",
+   "task_name": "COSMOS CVM DT Voice",
+   "task_logon": "COSMOS CVM DT Voice Logon",
+   "heartbeat": "cvm_dt_voice_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": false,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": 316929.3,
+   "heartbeat_state": "cold",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_health_watchdog",
+   "path": "builds/health/cosmos_health_watchdog.py",
+   "task_name": "COSMOS Health Watchdog",
+   "task_logon": "COSMOS Health Watchdog Logon",
+   "heartbeat": "health_watchdog_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": false,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 2411.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_resession",
+   "path": "builds/probe/cosmos_resession.py",
+   "task_name": "COSMOS Resession",
+   "task_logon": "COSMOS Resession Logon",
+   "heartbeat": "resession_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": false,
+   "in_watchlist": false,
+   "os_registered": false,
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "supervised": false
+  },
+  {
+   "module": "cosmos_backup_clock",
+   "path": "builds/probe/proposed/cosmos_backup_clock.py",
+   "task_name": null,
+   "task_logon": null,
+   "heartbeat": "backup_clock_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": null,
+   "in_watchlist": true,
+   "os_registered": null,
+   "heartbeat_age_s": 1782.3,
+   "heartbeat_state": "fresh",
+   "missing": [],
+   "supervised": true
+  },
+  {
+   "module": "cosmos_selftest_clock",
+   "path": "builds/selftest_clock/cosmos_selftest_clock.py",
+   "task_name": "COSMOS Selftest Clock",
+   "task_logon": null,
+   "heartbeat": "selftest_clock_heartbeat.json",
+   "in_clocks": false,
+   "logon_in_clocks": null,
+   "in_watchlist": false,
+   "os_registered": true,
+   "heartbeat_age_s": 541.3,
+   "heartbeat_state": "fresh",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "supervised": false
+  }
+ ],
+ "cold_count": 6,
+ "unsupervised": [
+  {
+   "module": "cosmos_crit_consumer",
+   "path": "cosmos/cosmos_crit_consumer.py",
+   "task_name": "COSMOS CritConsumer",
+   "heartbeat": "crit_consumer_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent"
+  },
+  {
+   "module": "cosmos_cvm_clock",
+   "path": "cosmos/cosmos_cvm_clock.py",
+   "task_name": "COSMOS CVM Clock",
+   "heartbeat": "cvm_clock_heartbeat.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 0.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cosmos_dispatcher_daemon",
+   "path": "cosmos/cosmos_dispatcher_daemon.py",
+   "task_name": "COSMOS Dispatcher",
+   "heartbeat": "dispatcher_heartbeat.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 3.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cosmos_health_clock",
+   "path": "cosmos/cosmos_health_clock.py",
+   "task_name": "COSMOS Health",
+   "heartbeat": "health_clock_heartbeat.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 0.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cosmos_pool",
+   "path": "cosmos/cosmos_pool.py",
+   "task_name": "COSMOS Runner Pool",
+   "heartbeat": "cosmos_pool_heartbeat.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 4.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cosmos_work_order_run",
+   "path": "cosmos/cosmos_work_order_run.py",
+   "task_name": "COSMOS Work-Order Runner",
+   "heartbeat": "work_order_runner_heartbeat.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent"
+  },
+  {
+   "module": "cosmos_backup",
+   "path": "builds/backup/cosmos_backup.py",
+   "task_name": null,
+   "heartbeat": "HEARTBEAT.json",
+   "missing": [
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent"
+  },
+  {
+   "module": "cosmos_offsite_clock",
+   "path": "builds/backup/cosmos_offsite_clock.py",
+   "task_name": "COSMOS Offsite Push",
+   "heartbeat": "offsite_clock_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": 169.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cvm_dt_clock",
+   "path": "builds/cvm-dt/cvm_dt_clock.py",
+   "task_name": "COSMOS CVM DT Clock",
+   "heartbeat": "cvm_dt_clock_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": 326094.3,
+   "heartbeat_state": "cold"
+  },
+  {
+   "module": "cvm_dt_voice",
+   "path": "builds/cvm-dt/cvm_dt_voice.py",
+   "task_name": "COSMOS CVM DT Voice",
+   "heartbeat": "cvm_dt_voice_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": 316929.3,
+   "heartbeat_state": "cold"
+  },
+  {
+   "module": "cosmos_health_watchdog",
+   "path": "builds/health/cosmos_health_watchdog.py",
+   "task_name": "COSMOS Health Watchdog",
+   "heartbeat": "health_watchdog_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 2411.3,
+   "heartbeat_state": "fresh"
+  },
+  {
+   "module": "cosmos_resession",
+   "path": "builds/probe/cosmos_resession.py",
+   "task_name": "COSMOS Resession",
+   "heartbeat": "resession_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS",
+    "schtasks"
+   ],
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent"
+  },
+  {
+   "module": "cosmos_selftest_clock",
+   "path": "builds/selftest_clock/cosmos_selftest_clock.py",
+   "task_name": "COSMOS Selftest Clock",
+   "heartbeat": "selftest_clock_heartbeat.json",
+   "missing": [
+    "cosmos_own_clocks.CLOCKS",
+    "cosmos_health_clock.PEER_HEARTBEATS"
+   ],
+   "heartbeat_age_s": 541.3,
+   "heartbeat_state": "fresh"
+  }
+ ],
+ "cold": [
+  {
+   "module": "cosmos_crit_consumer",
+   "heartbeat": "crit_consumer_heartbeat.json",
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "os_registered": false,
+   "supervised": false
+  },
+  {
+   "module": "cosmos_work_order_run",
+   "heartbeat": "work_order_runner_heartbeat.json",
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "os_registered": false,
+   "supervised": false
+  },
+  {
+   "module": "cosmos_backup",
+   "heartbeat": "HEARTBEAT.json",
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "os_registered": null,
+   "supervised": false
+  },
+  {
+   "module": "cvm_dt_clock",
+   "heartbeat": "cvm_dt_clock_heartbeat.json",
+   "heartbeat_age_s": 326094.3,
+   "heartbeat_state": "cold",
+   "os_registered": false,
+   "supervised": false
+  },
+  {
+   "module": "cvm_dt_voice",
+   "heartbeat": "cvm_dt_voice_heartbeat.json",
+   "heartbeat_age_s": 316929.3,
+   "heartbeat_state": "cold",
+   "os_registered": false,
+   "supervised": false
+  },
+  {
+   "module": "cosmos_resession",
+   "heartbeat": "resession_heartbeat.json",
+   "heartbeat_age_s": null,
+   "heartbeat_state": "absent",
+   "os_registered": false,
+   "supervised": false
+  }
+ ],
+ "watchlist_without_declarer": [],
+ "note": "rc=0 is not the gate. Read unsupervised[]: each entry names which of CLOCKS / PEER_HEARTBEATS / schtasks is missing for a worker that declares its own supervision contract."
+}

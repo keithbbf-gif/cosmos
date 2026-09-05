@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; builds/cdeck/ORCH_HOME_SPEC.md [read*]; builds/cdeck/src-tauri/src/lib.rs [read*]; builds/cdeck/ui/ [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Keith 2026-09-04: this TUI does not code. Cooking is COSMOS self-build + cDeck. Voice refine TABLED (SGH Voice + Grok Voice Think Fast 2.0 fills the phone endpoint). You are Lane B on cDeck P7. Spec: builds/cdeck/ORCH_HOME_SPEC.md P7 — GEM on home opens Gemini in Chrome side panel on Keith BBF Profile 2 (Alt+G). Not gemini.google.com/app. Not Vertex. Not C1 ConPTY (later). Do not iframe. Browser-served deck: typed refusal, copy query, do not window.open the web app. Keep-her-afloat: Core :8770 stays up. tree_id still KMesh-COSMOS-live. Opus 5, NOT Composer 2.5. Do not merge PR #30 or #32. Do not write V:\\Ai. PR title: WO: cDeck P7 Gemini side panel.",
+  "Target & scope": "proposals/ plus optional builds/cdeck diffs as proposals only. Never kernel/ledger/sched/service. Never live/config keys. Never V:\\Ai. Never C1 ConPTY this order. Never Voice/CVM.",
+  "Timestamp": "2026-09-04T12:55:00-05:00",
+  "Output": "proposals | cdeck-p7.md"
+}

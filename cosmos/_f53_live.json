@@ -1,0 +1,20 @@
+{
+ "schema": "cosmos-prepaid-orch/1",
+ "clock_id": 24,
+ "ok": true,
+ "winner": "grok",
+ "winner_source": "docs/research/AUTO_RESESSION.md ranked 1",
+ "rail": "grok",
+ "dry_run": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "writes": 0,
+ "dropped": 0,
+ "spawned": 0,
+ "mail_sent": 0,
+ "grok_present": true,
+ "cow_fresh": false,
+ "state": "ORCHESTRATE",
+ "heartbeat": "prepaid_orch_heartbeat.json",
+ "measured_utc": "2026-08-31T16:16:33Z",
+ "_readme": "Prepaid parallel orchestrator. Winner=grok. Never claude. PARALLEL while COW is alive (mailbox ping + one MOTIF drop if none open). ORCHESTRATE when COW is quiet (drop one work-order). --spawn is opt-in."
+}

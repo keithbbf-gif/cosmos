@@ -1,0 +1,32 @@
+{
+ "ok": true,
+ "impl": "V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_mail.py",
+ "all_bite": true,
+ "claims": {
+  "source_has_prev_hash": false,
+  "source_has_chain": false,
+  "source_has_lock": false,
+  "source_has_fenc": false,
+  "source_has_writer_sig": false,
+  "payload_has_prev_hash": false,
+  "payload_has_msg_sha256": false,
+  "payload_has_writer_sig": false,
+  "two_sends_chain": false,
+  "planted_chain_lie_refused": false,
+  "mailbox_accepts_arbiter_key": false,
+  "kernel_wires_arbiter": false
+ },
+ "m1_keys": [
+  "body",
+  "body_sha256",
+  "epoch",
+  "from",
+  "id",
+  "requires_ack",
+  "subject",
+  "to",
+  "utc_offset_s"
+ ],
+ "chain_break_kind": null,
+ "scratch": "C:\\Users\\Papa\\AppData\\Local\\Temp\\bite_f55_kmnrvqgl"
+}

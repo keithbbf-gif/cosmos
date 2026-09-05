@@ -11,6 +11,7 @@ import json, sys, tempfile, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_service import Service, ServiceError
 from cosmos_command import Commander, CommandError
@@ -90,8 +91,8 @@ def main() -> int:
     check("minted local token authenticates GET /status",
           lambda: code == 200 and body.get("ready") is True)
     code_bad, _ = _http(svc_local, "GET", "/api/v1/status", token="")
-    check("Authorization Bearer <empty> is 401 against a real token",
-          lambda: code_bad == 401)
+    check("Authorization Bearer <empty> is 200 on loopback (DT auto-connect)",
+          lambda: code_bad == 200)
     svc_local.shutdown()
 
     root_rem_ok = td / "remote-ok"
@@ -278,16 +279,19 @@ def main() -> int:
     check("no static shell body contains the bearer token",
           lambda: all(tok not in b for b in
                       (body_root, body_d, body_man, body_sw)))
-    # NEGATIVE CONTROLS: the open shell did not open the data
-    code_neg, _, _ = _get_raw("/api/v1/status")
-    check("GET /api/v1/status with NO token is still 401 (data stays gated)",
-          lambda: code_neg == 401)
+    # Keith 2026-09-04: loopback auto-connects (DT cDeck). Tailscale still gated.
+    code_neg, _, body_neg = _get_raw("/api/v1/status")
+    check("GET /api/v1/status with NO token is 200 on loopback (DT auto-connect)",
+          lambda: code_neg == 200)
     code_pos, resp_pos = _http(svc, "GET", "/api/v1/status")
     check("GET /api/v1/status WITH the bearer still 200 (auth unchanged)",
           lambda: code_pos == 200 and resp_pos.get("ready") is True)
-    code_unk, _, _ = _get_raw("/kdash_secrets")
-    check("a non-allowlisted path without token is NOT served (401, exact-match "
-          "allowlist only)", lambda: code_unk == 401)
+    code_unk, _, body_unk = _get_raw("/kdash_secrets")
+    check("a non-allowlisted path is NOT served (404 on loopback auto-connect; "
+          "never the index, never source)",
+          lambda: code_unk == 404
+          and b"_load_api_token" not in (body_unk or b"")
+          and b"KDash" not in (body_unk or b""))
     # traversal attempt: request text must never become a filesystem path
     import http.client as _hc
     conn = _hc.HTTPConnection("127.0.0.1", svc.port, timeout=10)

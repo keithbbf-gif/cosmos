@@ -1,0 +1,60 @@
+{
+ "schema": "cosmos-f30-live/1",
+ "tree_id": "KMesh-COSMOS-live",
+ "live_probe": {
+  "schema": "cosmos-forge-rail/1",
+  "tree_id": "KMesh-COSMOS-live",
+  "ok": true,
+  "dst": "forge",
+  "links": {
+   "github-forge": {
+    "ok": true,
+    "rc": 0,
+    "bound": "rest_limit=5000 remaining=5000",
+    "binary_present": true,
+    "detail": "github-forge live binary=C:\\Program Files\\GitHub CLI\\gh.EXE rest_limit=5000 remaining=5000"
+   },
+   "gitlab-forge": {
+    "ok": true,
+    "rc": 0,
+    "bound": "user_id=41407957 username=keithbbf-gif",
+    "binary_present": true,
+    "detail": "gitlab-forge live binary=C:\\Users\\Papa\\AppData\\Local\\Programs\\glab\\glab.EXE user_id=41407957 username=keithbbf-gif"
+   }
+  }
+ },
+ "scratch_compose": {
+  "ready": true,
+  "composed_forge": true,
+  "composed": [
+   "node_rails",
+   "cursor-api",
+   "codex-cli",
+   "playwright-dom",
+   "firecrawl-web",
+   "forge-rails",
+   "claude-cli",
+   "tools-surface",
+   "dispatcher",
+   "prove_nodes"
+  ],
+  "adapter_ids": [
+   "claude-cli",
+   "codex-cli",
+   "cursor-api",
+   "firecrawl-web",
+   "gem-api",
+   "github-forge",
+   "gitlab-forge",
+   "gw-api",
+   "oa-api",
+   "playwright-dom",
+   "sgh-api"
+  ],
+  "github_in_adapters": true,
+  "gitlab_in_adapters": true,
+  "dst": "forge"
+ },
+ "writes": 0,
+ "ok": true
+}

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "probe": "tests/test_backup_clock.py \u2014 SNAPSHOT_INCOMPLETE pin",
+  "live_value": {
+    "checks": 22,
+    "refusal_kinds": [
+      "SNAPSHOT_INCOMPLETE",
+      "SOURCE_UNREADABLE",
+      "SECRETS_IN_SCOPE"
+    ],
+    "stage_limit": 400,
+    "max_stage_bytes": 33554432,
+    "truncated_kind": "SNAPSHOT_INCOMPLETE",
+    "truncated_state": "FAILED",
+    "whole_scope_state": "VERIFIED",
+    "whole_scope_files": 6,
+    "whole_scope_node": "COSMOS",
+    "secrets_kind": "SECRETS_IN_SCOPE",
+    "secrets_state": "FAILED",
+    "snapshot_copies_install_key": false,
+    "heartbeat": "backup_clock_heartbeat.json"
+  },
+  "passed": 22,
+  "tests_run": 22,
+  "tests_passed": 22
+}

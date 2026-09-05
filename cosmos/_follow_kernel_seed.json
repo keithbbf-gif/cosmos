@@ -1,0 +1,19 @@
+{
+ "maker_added": 6,
+ "maker_added_with_node": 6,
+ "maker_nodes": [
+  "cursor-cloud-agent",
+  "claude-agent-tool",
+  "grokbot-team",
+  "mcp-registry",
+  "save-skill",
+  "scheduled-task"
+ ],
+ "tool_declared": 0,
+ "boot": [
+  {
+   "worker": "core-seed",
+   "node": "core-seed"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "ok": true,
+ "probe": "tests/test_follow_ids.py \u2014 emit FOLLOW_KEYS on existing events",
+ "prechange_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_follow_events_20260831T105507Z\\cosmos",
+ "prechange": {
+  "checks": [
+   {
+    "name": "old_convo_has_no_session_id",
+    "ok": true,
+    "detail": "session_id=None keys=['job_ids', 'mode', 'role', 'seq', 'sid', 'sources', 'text']"
+   },
+   {
+    "name": "old_convo_has_no_singular_job_id",
+    "ok": true,
+    "detail": "job_id=None job_ids=['job-7']"
+   },
+   {
+    "name": "old_guarded_call_drops_rid_rail",
+    "ok": true,
+    "detail": "rid=None rail=None keys=['usd']"
+   },
+   {
+    "name": "old_boot_verified_source_has_no_node_key",
+    "ok": true,
+    "detail": "node-stamp absent from staged kernel source"
+   },
+   {
+    "name": "old_tool_declared_has_no_node",
+    "ok": true,
+    "detail": "payload={'behavior': 'priced', 'name': 'sgh.ask', 'verbs': ['ask']}"
+   },
+   {
+    "name": "old_maker_added_has_no_node",
+    "ok": true,
+    "detail": "payload={'access': 'cursor.com background agents', 'function': 'spawn a cloud coding agent against a repo branch', 'id': 'cursor-cloud-agent', 'kind': 'AGENT', 'location': 'Cursor Cloud Agent', 'potential_sources': ['cursor.com/agents'], 'tags': ['cloud', 'coding']}"
+   },
+   {
+    "name": "old_health_board_has_no_node",
+    "ok": true,
+    "detail": "payload={'control_red': True, 'reds': 0, 'verdict': 'GREEN'}"
+   },
+   {
+    "name": "old_backup_verified_has_no_node",
+    "ok": true,
+    "detail": "payload={'dest': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_old_bc_0yi0l0az\\\\tgt\\\\20260901T154342', 'files': 1, 'src': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_old_bc_0yi0l0az\\\\src', 'verified': 1}"
+   },
+   {
+    "name": "old_command_handled_has_no_node",
+    "ok": true,
+    "detail": "payload={'ok': True, 'text': 'status'}"
+   },
+   {
+    "name": "old_clock_source_has_no_node_kwarg",
+    "ok": true,
+    "detail": "has_kwarg=False"
+   },
+   {
+    "name": "old_cli_source_has_no_node_kwarg",
+    "ok": true,
+    "detail": "has_kwarg=False"
+   }
+  ],
+  "tests_run": 11,
+  "tests_passed": 11
+ },
+ "current": {
+  "checks": [
+   {
+    "name": "user_turn_session_id_is_sid",
+    "ok": true,
+    "detail": "session_id=8a6b50bcc2614b3fb962ee454ee148d4 sid=8a6b50bcc2614b3fb962ee454ee148d4"
+   },
+   {
+    "name": "assistant_job_id_singular",
+    "ok": true,
+    "detail": "job_id=job-7 job_ids=['job-7']"
+   },
+   {
+    "name": "assistant_follow_scalars",
+    "ok": true,
+    "detail": "keys=['job_id', 'job_ids', 'link_id', 'mode', 'node', 'rail', 'rid', 'role', 'seq', 'session_id', 'sid', 'sources', 'text']"
+   },
+   {
+    "name": "follow_does_not_invent",
+    "ok": true,
+    "detail": "user extras={'job_id': None, 'link_id': None, 'rail': None, 'node': None, 'rid': None}"
+   },
+   {
+    "name": "guarded_call_stamps_rid_rail",
+    "ok": true,
+    "detail": "rid=r-17e306266f8c rail=gem usd=0.01"
+   },
+   {
+    "name": "boot_verified_node_equals_worker",
+    "ok": true,
+    "detail": "payload={'node': 'core-follow', 'root': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\live', 'tree_id': 'follow-boot', 'worker': 'core-follow'}"
+   },
+   {
+    "name": "tool_declared_node_equals_name",
+    "ok": true,
+    "detail": "payload={'behavior': 'one prompt in, one priced answer out', 'name': 'sgh.ask', 'node': 'sgh.ask', 'verbs': ['ask']}"
+   },
+   {
+    "name": "tool_disposition_node_equals_name",
+    "ok": true,
+    "detail": "payload={'decision': 'PRESERVED', 'name': 'sgh.ask', 'node': 'sgh.ask', 'reason': 'contract held'}"
+   },
+   {
+    "name": "maker_added_node_equals_id",
+    "ok": true,
+    "detail": "payload={'access': 'cursor.com background agents', 'function': 'spawn a cloud coding agent against a repo branch', 'id': 'cursor-cloud-agent', 'kind': 'AGENT', 'location': 'Cursor Cloud Agent', 'node': 'cursor-cloud-agent', 'potential_sources': ['cursor.com/agents'], 'tags': ['cloud', 'coding']}"
+   },
+   {
+    "name": "maker_projection_strips_follow_key",
+    "ok": true,
+    "detail": "state={'id': 'cursor-cloud-agent', 'kind': 'AGENT', 'location': 'Cursor Cloud Agent', 'function': 'spawn a cloud coding agent against a repo branch', 'access': 'cursor.com background agents', 'potential_sources': ['cursor.com/agents'], 'tags': ['cloud', 'coding'], 't': 1788295422.6490107}"
+   },
+   {
+    "name": "health_board_node_equals_system",
+    "ok": true,
+    "detail": "payload={'control_red': True, 'node': 'COSMOS', 'reds': 0, 'verdict': 'GREEN'} system=COSMOS"
+   },
+   {
+    "name": "command_handled_node_is_cvm",
+    "ok": true,
+    "detail": "payload={'node': 'CVM', 'ok': True, 'text': 'status'}"
+   },
+   {
+    "name": "command_refused_node_is_cvm",
+    "ok": true,
+    "detail": "payload={'node': 'CVM', 'ok': False, 'text': 'delete everything'}"
+   },
+   {
+    "name": "backup_verified_node",
+    "ok": true,
+    "detail": "payload={'dest': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_tgt\\\\20260901T154342', 'files': 1, 'node': 'COSMOS', 'src': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_src', 'verified': 1}"
+   },
+   {
+    "name": "restore_rehearsal_passed_node",
+    "ok": true,
+    "detail": "payload={'dest': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_tgt\\\\20260901T154342', 'files': 1, 'node': 'COSMOS', 'scratch': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_scratch'}"
+   },
+   {
+    "name": "clock_constructs_backup_with_sentinel_system",
+    "ok": true,
+    "detail": "clock_has_node_kwarg=True"
+   },
+   {
+    "name": "cli_constructs_backup_with_sentinel_system",
+    "ok": true,
+    "detail": "cli_has_node_kwarg=True"
+   }
+  ],
+  "tests_run": 17,
+  "tests_passed": 17
+ },
+ "emitted": {
+  "boot": "payload={'node': 'core-follow', 'root': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\live', 'tree_id': 'follow-boot', 'worker': 'core-follow'}",
+  "tool_declared": "payload={'behavior': 'one prompt in, one priced answer out', 'name': 'sgh.ask', 'node': 'sgh.ask', 'verbs': ['ask']}",
+  "maker_added": "payload={'access': 'cursor.com background agents', 'function': 'spawn a cloud coding agent against a repo branch', 'id': 'cursor-cloud-agent', 'kind': 'AGENT', 'location': 'Cursor Cloud Agent', 'node': 'cursor-cloud-agent', 'potential_sources': ['cursor.com/agents'], 'tags': ['cloud', 'coding']}",
+  "health_board": "payload={'control_red': True, 'node': 'COSMOS', 'reds': 0, 'verdict': 'GREEN'} system=COSMOS",
+  "command_handled": "payload={'node': 'CVM', 'ok': True, 'text': 'status'}",
+  "backup_verified": "payload={'dest': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_tgt\\\\20260901T154342', 'files': 1, 'node': 'COSMOS', 'src': 'C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_follow_ceorhx1w\\\\bak_src', 'verified': 1}"
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "wire": "cvm-dt-stt-vosk/1",
+ "feature": "F-21 local STT model inference",
+ "iso": "2026-08-31T03:07:50-0500",
+ "epoch": 1788163670.8748856,
+ "python": "3.14.0",
+ "before": {
+  "probe_stt": {
+   "ok": false,
+   "engine": "vosk",
+   "kind": "STT_NONE",
+   "detail": "vosk not importable"
+  },
+  "provisioned": {
+   "site": true,
+   "deps": {
+    "srt": true
+   },
+   "model_dir": true,
+   "model_markers": [
+    "am",
+    "conf",
+    "graph"
+   ],
+   "wheel": true,
+   "model_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15"
+  },
+  "vosk_importable": false
+ },
+ "pins": {
+  "ok": true,
+  "files": {
+   "wheel": {
+    "present": true,
+    "sha256": "6994ddc68556c7e5730c3b6f6bad13320e3519b13ce3ed2aa25a86724e7c10ac",
+    "pinned_sha256": "6994ddc68556c7e5730c3b6f6bad13320e3519b13ce3ed2aa25a86724e7c10ac",
+    "ok": true,
+    "bytes": 13997596
+   },
+   "model_zip": {
+    "present": true,
+    "sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+    "pinned_sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+    "ok": true,
+    "bytes": 41205931
+   },
+   "dep:srt-3.5.3.tar.gz": {
+    "present": true,
+    "sha256": "4884315043a4f0740fd1f878ed6caa376ac06d70e135f306a6dc44632eed0cc0",
+    "pinned_sha256": "4884315043a4f0740fd1f878ed6caa376ac06d70e135f306a6dc44632eed0cc0",
+    "ok": true,
+    "bytes": 28296
+   }
+  }
+ },
+ "measure": {
+  "wire": "cvm-dt-stt-vosk/1",
+  "fixture": {
+   "phrase": "what is the queue depth",
+   "rate": 16000,
+   "bytes": 63334,
+   "source_rate": 22050,
+   "source": "sapi_tts",
+   "seconds": 1.979
+  },
+  "vosk": {
+   "engine": "vosk",
+   "model": "vosk-model-small-en-us-0.15",
+   "model_load_ms": 377.612,
+   "recognizer_build_ms": 124.625,
+   "decode_ms": 587.721,
+   "resident": {
+    "kind": "ok",
+    "n": 3,
+    "per_utterance_ms": 60.818,
+    "min_ms": 57.295,
+    "max_ms": 561.029,
+    "transcript": "what is the queue depp",
+    "word_recall": 0.8,
+    "what": "one Model + one KaldiRecognizer held across turns, Reset() between them - no load, no construction"
+   },
+   "inference_ms": 709.931,
+   "inference_min_ms": 686.796,
+   "inference_max_ms": 728.301,
+   "n": 3,
+   "cold_per_utterance_ms": 1038.945,
+   "transcript": "what is the queue depp",
+   "kind": "ok",
+   "word_recall": 0.8,
+   "import_ms": 178.367
+  },
+  "sapi": {
+   "engine": "sapi",
+   "recognizer": "MS-1033-80-DESK",
+   "inference_ms": 211.005,
+   "wall_ms": 217.827,
+   "transcript": "What is the queue depth",
+   "kind": "ok",
+   "word_recall": 1.0
+  },
+  "delta": {
+   "inference_ms_vosk_minus_sapi": 498.926,
+   "best_case_vosk_ms": 60.818,
+   "best_case_vosk_minus_sapi_ms": -150.187,
+   "faster_engine_on_this_box": "vosk",
+   "recall_vosk_minus_sapi": -0.2,
+   "same_pcm": true,
+   "caveat": "SYNTHESIZER IN. Both engines heard the same SAPI-TTS fixture, which is a clean signal. Real-microphone accuracy is UNMEASURED for both (CVM_BACKLOG B3) and these numbers are an upper bound, not a prediction."
+  }
+ },
+ "after_in_this_process": {
+  "probe_stt": {
+   "ok": true,
+   "engine": "vosk",
+   "kind": "ok",
+   "model": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15"
+  }
+ },
+ "arm": {
+  "ran": false,
+  "why": "arming flips the phone fold from the SAPI second-tier ear (A2) to VOSK, and swaps which engine every desktop turn uses. That is an Orchestrator decision, not a side effect of a download.",
+  "requires": [
+   "COSMOS_VOSK_MODEL=V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15 (user or machine environment)",
+   "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site on sys.path for the processes that should hear with VOSK (e.g. a .pth in site-packages, or PYTHONPATH)"
+  ],
+  "then": "probe_stt() flips to {ok: true, engine: vosk} and cvm_dt_stt.probe_ear() prefers VOSK over SAPI on its own",
+  "caution": "cosmos_cvm_push.transcribe_pcm builds Model(model) INSIDE the per-utterance call, so arming as-is pays the model load on every phone utterance - see F21_STT_LOCAL.json model_load_ms"
+ },
+ "ok": true,
+ "emitted": "f21-vosk:vosk-model-small-en-us-0.15:ok:377.612 ms load + 124.625 ms build + 587.721 ms decode (resident 60.818 ms):recall 0.8:'what is the queue depp'"
+}

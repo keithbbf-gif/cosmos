@@ -1,0 +1,28 @@
+{
+  "adapters": [
+    "gdx",
+    "local",
+    "odx",
+    "r2"
+  ],
+  "bites": [
+    {
+      "name": "gdx",
+      "raised": "NotImplementedError",
+      "str": "GDX (Google Drive) adapter is a seam only \u2014 credential wiring is a separate, Keith-gated work order (see class docstring TODO).",
+      "kind": null
+    },
+    {
+      "name": "odx",
+      "raised": "NotImplementedError",
+      "str": "ODX (OneDrive) adapter is a seam only \u2014 credential wiring is a separate, Keith-gated work order (see class docstring TODO).",
+      "kind": null
+    },
+    {
+      "name": "r2",
+      "raised": "NotImplementedError",
+      "str": "R2 (Cloudflare; credentials are Keith's door, never read here) adapter is a seam only \u2014 credential wiring is a separate, Keith-gated work order (see class docstring TODO).",
+      "kind": null
+    }
+  ]
+}

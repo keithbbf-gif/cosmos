@@ -1,0 +1,210 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-runtimes-gate/1",
+ "suite": "test_cvm_runtimes.py",
+ "passed": 30,
+ "total": 30,
+ "gated_at_epoch": 1788295597.9184487,
+ "python": "3.14.0",
+ "live_value": {
+  "fake_closure": {
+   "names": [
+    "alpha",
+    "beta",
+    "epsilon"
+   ],
+   "bytes": 1507,
+   "verdict": "REACHABLE",
+   "cuda_in_closure": []
+  },
+  "isolated_vs_vendored": {
+   "clean_ok": true,
+   "clean_vosk": {
+    "vosk": false
+   },
+   "vendor_ok": true,
+   "vendor_vosk": {
+    "vosk": true
+   },
+   "vendor_site": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site",
+   "vendor_site_exists": true
+  },
+  "gpu": {
+   "ok": true,
+   "kind": "ok",
+   "devices": [
+    {
+     "name": "NVIDIA GeForce RTX 3070",
+     "memory_total": "8192 MiB",
+     "driver": "610.62",
+     "compute_cap": "8.6"
+    }
+   ],
+   "raw": "NVIDIA GeForce RTX 3070, 8192 MiB, 610.62, 8.6"
+  },
+  "offline_verdict": "NOT_MEASURED_OFFLINE",
+  "artifact_emitted": "runtimes:py3.14.0:cp314-win_amd64:installed=2 of 19 local model runtimes (numpy,scipy):vendored_only=vosk:gpu=NVIDIA GeForce RTX 3070/8192 MiB/cc8.6/driver 610.62:cuda_toolkit=False:reachable=x=NOT_MEASURED_OFFLINE",
+  "live_pypi_vosk": {
+   "ok": true,
+   "latest": "0.3.45",
+   "wheel": {
+    "filename": "vosk-0.3.45-py3-none-win_amd64.whl",
+    "bytes": 13997596,
+    "version": "0.3.45"
+   }
+  }
+ },
+ "emitted": "runtimes-gate:30/30:vosk-0.3.45-py3-none-win_amd64.whl",
+ "results": [
+  {
+   "name": "matcher_accepts_this_interpreters_own_cp_tag",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_accepts_py3_none_any",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_accepts_abi3_from_an_older_minor",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_accepts_a_dot_expanded_compound_tag",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_REJECTS_a_linux_only_wheel",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_REJECTS_a_newer_minor_than_this_one",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_REJECTS_an_abi3_from_a_NEWER_minor",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_REJECTS_freethreaded_abi_on_a_gil_build",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_freethreaded_build_WOULD_accept_that_same_wheel",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "matcher_REJECTS_a_non_wheel",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "marker_with_extra_is_excluded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "linux_only_marker_is_excluded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "win32_marker_is_included",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_not_windows_marker_is_excluded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "unreadable_marker_is_included_and_FLAGGED",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "closure_walks_deps_skips_extras_and_linux_only",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "closure_falls_back_to_an_older_release_with_a_usable_wheel",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "closure_cap_is_REPORTED_not_silent",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "an_sdist_only_package_BLOCKS_the_stack",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "an_unfetchable_package_is_a_named_refusal",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "isolated_probe_and_vendor_probe_DISAGREE_about_vosk",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_isolated_probe_really_ran_isolated",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_module_that_cannot_exist_is_reported_absent",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_probe_reports_the_probed_interpreters_own_version",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "interpreters_include_the_running_one",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "gpu_is_named_by_nvidia_smi_or_refused_by_kind",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "cuda_TOOLKIT_is_reported_separately_from_the_driver",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "offline_records_NOT_MEASURED_rather_than_guessing",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "artifact_round_trips_with_an_emitted_line",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_REAL_fetcher_still_parses_what_pypi_returns",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

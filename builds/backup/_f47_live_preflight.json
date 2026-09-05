@@ -1,0 +1,44 @@
+{
+ "cli_rc": 2,
+ "parts": [
+  {
+   "adapter": {
+    "adapter_implemented": true,
+    "at_utc": "2026-08-31T11:57:17+00:00",
+    "blockers": [
+     "R2 credential absent or unusable \u2014 Keith places r2_credentials.json {account_id, access_key_id, secret_access_key, bucket} under the runtime root's config role"
+    ],
+    "credential": {
+     "detail": "no credential file at V:\\A\\Ai\\COSMOS\\live\\config\\r2_credentials.json (Keith places it; COSMOS opens the door)",
+     "state": "NO_CREDENTIALS"
+    },
+    "format": "cosmos-backup/1",
+    "kind": "R2_PREFLIGHT",
+    "notes": [
+     "boto3 NOT installed \u2014 not needed: signing is stdlib here",
+     "botocore NOT installed \u2014 not needed: signing is stdlib here",
+     "rclone NOT on PATH \u2014 not needed: no external tool is invoked",
+     "aws NOT on PATH \u2014 not needed: no external tool is invoked"
+    ],
+    "region": "auto",
+    "scope": null,
+    "signing": "SigV4 (stdlib hmac/hashlib)",
+    "status": "BLOCKED"
+   },
+   "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\offsite_clock_heartbeat.json",
+   "schema": "cosmos-offsite-clock/1",
+   "scopes": [],
+   "scopes_path": "V:\\A\\Ai\\COSMOS\\live\\config\\offsite_scopes.json",
+   "status": "BLOCKED",
+   "task": "COSMOS Offsite Push",
+   "task_registered": false
+  },
+  {
+   "scopes_refused": {
+    "kind": "NO_SCOPES",
+    "detail": "no scope declaration at V:\\A\\Ai\\COSMOS\\live\\config\\offsite_scopes.json \u2014 write it {\"scopes\":[{\"name\":\u2026,\"source\":\u2026}]} (no source tree is ever guessed)"
+   }
+  }
+ ],
+ "stdout": "{\n  \"adapter\": {\n    \"adapter_implemented\": true,\n    \"at_utc\": \"2026-08-31T11:57:17+00:00\",\n    \"blockers\": [\n      \"R2 credential absent or unusable \\u2014 Keith places r2_credentials.json {account_id, access_key_id, secret_access_key, bucket} under the runtime root's config role\"\n    ],\n    \"credential\": {\n      \"detail\": \"no credential file at V:\\\\A\\\\Ai\\\\COSMOS\\\\live\\\\config\\\\r2_credentials.json (Keith places it; COSMOS opens the door)\",\n      \"state\": \"NO_CREDENTIALS\"\n    },\n    \"format\": \"cosmos-backup/1\",\n    \"kind\": \"R2_PREFLIGHT\",\n    \"notes\": [\n      \"boto3 NOT installed \\u2014 not needed: signing is stdlib here\",\n      \"botocore NOT installed \\u2014 not needed: signing is stdlib here\",\n      \"rclone NOT on PATH \\u2014 not needed: no external tool is invoked\",\n      \"aws NOT on PATH \\u2014 not needed: no external tool is invoked\"\n    ],\n    \"region\": \"auto\",\n    \"scope\": null,\n    \"signing\": \"SigV4 (stdlib hmac/hashlib)\",\n    \"status\": \"BLOCKED\"\n  },\n  \"heartbeat\": \"V:\\\\A\\\\Ai\\\\COSMOS\\\\live\\\\logs\\\\offsite_clock_heartbeat.json\",\n  \"schema\": \"cosmos-offsite-clock/1\",\n  \"scopes\": [],\n  \"scopes_path\": \"V:\\\\A\\\\Ai\\\\COSMOS\\\\live\\\\config\\\\offsite_scopes.json\",\n  \"status\": \"BLOCKED\",\n  \"task\": \"COSMOS Offsite Push\",\n  \"task_registered\": false\n}\n"
+}

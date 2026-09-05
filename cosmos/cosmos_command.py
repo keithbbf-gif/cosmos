@@ -97,6 +97,13 @@ GRAMMAR = [
 _KNOWN = ("status, audit, health, spend, rails, makers, jobs, events, session, "
           "submit, help")
 
+# The command seam is the CVM box the deck already draws
+# (builds/cdeck PULSE_HOME COMMAND_HANDLED → CVM; addNode("CVM")).
+# Same pattern as HEALTH_BOARD.node = sentinel.system ("COSMOS"): stamp
+# the identity the map already has, never a guessed rail. FOLLOW harvests
+# this so a voice command lights the same box pulse already lights.
+COMMAND_NODE = "CVM"
+
 
 class CommandError(RuntimeError):
     """kind in {UNKNOWN_COMMAND, BAD_ARGS, REFUSED, KERNEL_REFUSED}."""
@@ -123,7 +130,8 @@ class Commander:
         # fence FIRST - a forbidden verb never reaches dispatch, known or not
         if verb in FORBIDDEN:
             self.kernel.ledger.append("COMMAND_REFUSED",
-                                      {"text": text[:200], "ok": False})
+                                      {"text": text[:200], "ok": False,
+                                       "node": COMMAND_NODE})
             raise CommandError(
                 "REFUSED",
                 "destructive verbs are not exposed to the command seam by design "
@@ -162,11 +170,12 @@ class Commander:
         except CommandError as e:
             self.kernel.ledger.append("COMMAND_HANDLED",
                                       {"text": text[:200], "ok": False,
-                                       "kind": e.kind})
+                                       "kind": e.kind, "node": COMMAND_NODE})
             raise
 
         self.kernel.ledger.append("COMMAND_HANDLED",
-                                  {"text": text[:200], "ok": True})
+                                  {"text": text[:200], "ok": True,
+                                   "node": COMMAND_NODE})
         return out
 
     # ---------------- handlers ----------------

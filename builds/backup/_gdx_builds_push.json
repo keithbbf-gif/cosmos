@@ -1,0 +1,44 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "gdx/builds PUSH after freeze; certifi public, private still refuses",
+ "measured_utc": "2026-08-31T17:59:09+00:00",
+ "tree_id": "KMesh-COSMOS-live",
+ "source": "V:\\A\\Ai\\COSMOS\\builds",
+ "scan": {
+  "file_count": 16781,
+  "pem_public": 1,
+  "pem_hits": [],
+  "path_hits": [],
+  "cacert": {
+   "rel": "cvm-dt/vendor/whisper_site/certifi/cacert.pem",
+   "kind": "public",
+   "labels": [
+    "CERTIFICATE"
+   ],
+   "size": 240216,
+   "body_emitted": false
+  },
+  "secrets_in_scope": false
+ },
+ "dest": "X:\\My Drive\\COSMOS_BACKUP",
+ "freeze_dest": "D:\\COSMOS_BACKUP\\_delme\\predispose_freeze_builds_20260831T175911",
+ "freeze": {
+  "kind": "copy",
+  "owned": false,
+  "elapsed_s": 259.486
+ },
+ "push": {
+  "ok": true,
+  "state": "PUSHED",
+  "kind": "MOUNT_PUSH_OK",
+  "set_dir": "X:\\My Drive\\COSMOS_BACKUP\\builds-20260831T180740",
+  "elapsed_s": 1062.872,
+  "file_count": 16781,
+  "total_bytes": 7664839452,
+  "cacert_in_manifest": true,
+  "manifest_sealed": true
+ },
+ "ok": true,
+ "state": "PUSHED",
+ "elapsed_s": 1324.51
+}

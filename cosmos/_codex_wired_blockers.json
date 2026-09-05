@@ -1,0 +1,58 @@
+{
+ "schema": "cosmos-mesh-blockers/1",
+ "measured_at": "2026-08-31T12:22:08.383475-05:00",
+ "live_count": 8,
+ "stale_count": 0,
+ "projection_count": 8,
+ "total": 11,
+ "nodes": [
+  {
+   "link_id": "claude-cli",
+   "wired_for_prove": true,
+   "in_registry": true,
+   "kind": "NONE",
+   "probe_kind": "NO_KEY",
+   "blocker": "",
+   "probed_via": "cosmos_claude_rail",
+   "ledger_ok": true,
+   "ledger_model": "haiku",
+   "age_s": 189.0
+  },
+  {
+   "link_id": "codex-cli",
+   "wired_for_prove": true,
+   "in_registry": false,
+   "kind": "NO_KEY",
+   "probe_kind": "NO_KEY",
+   "blocker": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "probed_via": "cosmos_claude_rail",
+   "ledger_ok": false,
+   "ledger_model": "",
+   "age_s": null
+  },
+  {
+   "link_id": "github-forge",
+   "wired_for_prove": true,
+   "in_registry": false,
+   "kind": "NO_KEY",
+   "probe_kind": "NO_KEY",
+   "blocker": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "probed_via": "cosmos_claude_rail",
+   "ledger_ok": null,
+   "ledger_model": null,
+   "age_s": null
+  },
+  {
+   "link_id": "gitlab-forge",
+   "wired_for_prove": true,
+   "in_registry": false,
+   "kind": "NO_KEY",
+   "probe_kind": "NO_KEY",
+   "blocker": "UNREACHABLE: NO_KEY: [NO_KEY] Anthropic key missing at V:\\A\\Ai\\COSMOS\\live\\config\\anthropic_api_key.txt (never hard-code; redact to sk-ant-\u2026last4)",
+   "probed_via": "cosmos_claude_rail",
+   "ledger_ok": null,
+   "ledger_model": null,
+   "age_s": null
+  }
+ ]
+}

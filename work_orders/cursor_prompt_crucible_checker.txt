@@ -1,0 +1,17 @@
+You are the Cursor checker (not Composer 2.5, not Auto). Use Claude Opus 5 or Sonnet-class on Cursor Ultra.
+
+Repo: github.com/keithbbf-gif/cosmos
+
+Keith 2026-09-04: a builder Cloud Agent is opening PR titled "WO: Crucible three-family critics". Review THAT PR. If it is not up yet, list open PRs, wait by re-checking, then review. Do not implement a second copy of the feature.
+
+Check:
+- Three families: grok-sgh (XAI_API_KEY unset), gem-api Joanna Vertex do_not_activate, oa-api terra not Codex.
+- grok-sgh and sgh-api are one family (not two votes).
+- serve()-only attach; Kernel()+Service still 501 without critics.
+- Llama not wired; Bedrock unbound; ANTHROPIC_OFF; no Claude-on-Bedrock.
+- No secrets in the PR. No Core restart required.
+- Tests exist and would catch wallet mix.
+
+Post findings on the PR (comments). Severity HIGH/MED/LOW. Disagreement is the deliverable. Do not merge.
+
+Builder agent_id=bc-54027d5d-da01-40eb-971a-d42c3ad58674 run_id=run-3c166103-8269-4cd6-be60-7e6e9ae94950. Review that agent's PR when it exists.

@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "checks": [
+  {
+   "name": "old_tool_declared_node",
+   "ok": true,
+   "detail": "BITE FAIL as required; payload={'behavior': 'priced', 'name': 'sgh.ask', 'verbs': ['ask']}"
+  },
+  {
+   "name": "old_maker_added_node",
+   "ok": true,
+   "detail": "BITE FAIL as required; payload={'access': 'cursor.com', 'function': 'spawn', 'id': 'cursor-cloud-agent', 'kind': 'AGENT', 'location': 'Cursor Cloud Agent', 'potential_sources': ['x'], 'tags': ['cloud']}"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "adapter_implemented": true,
+ "config_present": true,
+ "dest": "D:\\COSMOS_BACKUP",
+ "dest_named": true,
+ "heartbeat": "local_clock_heartbeat.json",
+ "heartbeat_written": false,
+ "kind": "READY",
+ "schema": "cosmos-local-clock/1",
+ "source": "V:\\A\\Ai\\COSMOS",
+ "source_named": true,
+ "status": "READY",
+ "task": "COSMOS Bulletproof Backup",
+ "task_registered": true,
+ "describes": {
+  "builds/backup/cosmos_local_clock.py": {
+   "exists": true,
+   "bytes": 21085,
+   "sha256": "b5f44dda5971877651e22b12a2dd32e0623d0a073a0114e10585b0a2768be976"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

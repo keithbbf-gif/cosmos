@@ -1,0 +1,67 @@
+{
+ "schema": "cosmos-codex-wired-live/1",
+ "tree_id": "KMesh-COSMOS-live",
+ "key_present": true,
+ "key_bytes": 164,
+ "wired": {
+  "codex-cli": {
+   "rail_type": "CLI",
+   "src": "core",
+   "dst": "code",
+   "module": null,
+   "satellite": "codex",
+   "family": "openai-codex"
+  },
+  "claude-cli": {
+   "rail_type": "CLI",
+   "src": "core",
+   "dst": "code",
+   "module": null,
+   "satellite": null,
+   "family": "anthropic"
+  }
+ },
+ "proofs": {
+  "codex-cli": {
+   "ok": false,
+   "rc": 0,
+   "model": "",
+   "model_source": "",
+   "body": "PONG",
+   "body_bytes": 4,
+   "registered": false,
+   "detail": "BROKE: missing real model field",
+   "kind": "BROKE",
+   "link_id": "codex-cli"
+  },
+  "claude-cli": {
+   "ok": true,
+   "rc": 0,
+   "model": "haiku",
+   "model_source": "requested",
+   "body": "PONG",
+   "body_bytes": 4,
+   "registered": true,
+   "detail": "seat-path claude -p",
+   "kind": null,
+   "link_id": "claude-cli"
+  }
+ },
+ "runtime": {
+  "count": 8,
+  "nodes": [
+   "claude-cli",
+   "cursor-api",
+   "firecrawl-web",
+   "gem-api",
+   "gw-api",
+   "oa-api",
+   "playwright-dom",
+   "sgh-api"
+  ],
+  "stale": [],
+  "codex_in_nodes": false,
+  "claude_in_nodes": true
+ },
+ "ok": false
+}

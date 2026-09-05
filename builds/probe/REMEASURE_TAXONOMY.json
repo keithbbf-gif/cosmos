@@ -1,0 +1,17 @@
+{
+ "kind": "REMEASURE_TAXONOMY",
+ "label": "AFTER-REMEASURE-2026-09-01T1533",
+ "probed_at_epoch": 1788294785.2041745,
+ "ran": [
+  "docs/REFUSAL_TAXONOMY.md"
+ ],
+ "skipped_fresh": [],
+ "stale_before": [
+  "docs/REFUSAL_TAXONOMY.md"
+ ],
+ "stale_after": [],
+ "artifact": "docs/REFUSAL_TAXONOMY.md",
+ "skip_env": "COSMOS_SKIP_TAXONOMY_REMEASURE",
+ "repo": "V:\\A\\Ai\\COSMOS",
+ "code_dir": null
+}

@@ -1,0 +1,47 @@
+{
+ "schema": "cosmos-f56-federation/1",
+ "ok": true,
+ "federation_ready": false,
+ "blocker_count": 5,
+ "blockers": [
+  "no live peer (JMesh not yet installed and reachable; LAN nodes SRV1, T7/T7920 are declared, not installed)",
+  "no meeting point (LAN NAS does not exist; G: was a USB enclosure wearing a NAS label)",
+  "no wire protocol (message schema exists in cosmos_mail; transport between machines does not)",
+  "no trust model (peer identity is a name, not a verified credential)",
+  "no notarization of control files across peers (tree_lock's content-hash fingerprint closes this LOCALLY; cross-peer TOCTOU remains)"
+ ],
+ "SRV1": {
+  "id": "SRV1",
+  "alias": "SRV1",
+  "ok": false,
+  "reachable": false,
+  "status": "not_installed",
+  "host": null,
+  "kind": "NO_HOST",
+  "detail": "host is unset; Keith names an address, this function does not"
+ },
+ "T7": {
+  "id": "T7",
+  "alias": "T7920",
+  "ok": false,
+  "reachable": false,
+  "status": "not_installed",
+  "host": null,
+  "kind": "NO_HOST",
+  "detail": "host is unset; Keith names an address, this function does not"
+ },
+ "T7920": {
+  "id": "T7",
+  "alias": "T7920",
+  "ok": false,
+  "reachable": false,
+  "status": "not_installed",
+  "host": null,
+  "kind": "NO_HOST",
+  "detail": "host is unset; Keith names an address, this function does not"
+ },
+ "LAN_NODES": [
+  "SRV1",
+  "T7"
+ ]
+}

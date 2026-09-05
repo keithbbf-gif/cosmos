@@ -1,0 +1,45 @@
+{
+ "ok": true,
+ "verdict": "PASS",
+ "stage": 6,
+ "deliverable": "cvm-dt",
+ "half": "split",
+ "gated_at_epoch": 1788161412.292555,
+ "utc_offset_s": -18000,
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "python": "3.14.0",
+ "local": {
+  "ok": true,
+  "verdict": "PASS",
+  "counts": {
+   "PASS": 11,
+   "REFUSED": 0,
+   "UNMEASURED": 0,
+   "PENDING_CORE": 0,
+   "FAIL": 0
+  },
+  "emitted": "cvm-dt-local:KMesh-COSMOS-live:Speakers (High Definition Audio Device):48000x2x32f:0ce2aaebccfe4ecc10c68561dc6ebe7398eb18264a2f80fdf0514e1025409502:9f4ee621706f3cd7",
+  "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\STAGE6_LOCAL.json"
+ },
+ "core": {
+  "ok": true,
+  "verdict": "PASS",
+  "counts": {
+   "PASS": 4,
+   "REFUSED": 0,
+   "UNMEASURED": 0,
+   "PENDING_CORE": 0,
+   "FAIL": 0
+  },
+  "emitted": "cvm-dt-core:KMesh-COSMOS-live:711c85327d474e4b9f284659366d6b8b:849:9f4ee621706f3cd7",
+  "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\STAGE6_CORE.json",
+  "core_reachable": true,
+  "core_kind": null,
+  "rerun": "py -3.14 V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\cvm_gate.py core --root V:\\A\\Ai\\COSMOS\\live --base http://127.0.0.1:8770"
+ },
+ "blocked_on_core": [],
+ "wire": "cvm-dt-gate-split/1",
+ "note": "Two claims, two records. The local half stands on its own numbers; the core half is PENDING until the resident authority answers. No substitute was accepted.",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\STAGE6_SPLIT.json"
+}

@@ -72,12 +72,26 @@ CLASSIFICATION (first word, case-insensitive, EXACT - the misheard-word rule):
                               new forbidden verb not listed here), the drift is
                               SAFE: the unlisted verb classifies as dictation
                               and is captured as a note - never executed.
-    anything else          -> DICTATION: appended as a "note" turn (mode="note")
-                              in the session - the ONE user turn recorded for
-                              that utterance. Never approximated into a command.
+    anything else          -> CONVERSATION (kind="chat", 2026-08-24): with an
+                              injected ORCHESTRATOR composed, free-form speech
+                              goes to its TOOL-CALLING loop (the model may run
+                              search_files / search_itc and answer from real
+                              results, with tool_trace + source provenance);
+                              with only a bare asker, it goes to the model as
+                              COSMOS_PREAMBLE + the utterance and comes back
+                              as a spoken answer with model/usd provenance. kind="chat" is
+                              DELIBERATE: the phone app silences ONLY
+                              kind=="dictation", so a conversational answer
+                              must never wear that kind or it is never spoken.
+                              GRACEFUL DEGRADE: asker=None (no model rail on
+                              this host) falls back to the old DICTATION note
+                              (mode="note", kind="dictation") - captured, never
+                              lost, never a crash. A denied/failing asker is an
+                              in-band kind="refused" carrying the reason -
+                              NEVER a fabricated answer.
 
 THE RESULT SHAPE (every handle() return):
-    {ok, session_id, kind (query|command|dictation|refused), reply (full text),
+    {ok, session_id, kind (query|command|ask|chat|dictation|refused), reply,
      spoken (concise TTS-friendly), needs_confirm, confirm_id, action,
      sources (list, ITC hits carry index_hash), refused}
 
@@ -137,6 +151,18 @@ MODEL_ALIASES = {"grok": "grok", "sgh": "grok", "gemini": "gemini",
                  "gpt": "openai", "openai": "openai"}
 SPOKEN_MAX = 320          # chars of an answer read aloud - TTS is a summary lane
 
+# The COSMOS framing prepended to every free-form (chat) utterance before it
+# reaches the orchestrator. Small on purpose: it rides on every conversational
+# call, so every byte here is a byte Keith pays for on every question.
+COSMOS_PREAMBLE = (
+    "You are COSMOS, a personal multi-AI orchestration assistant running on "
+    "the user's own machine. Answer the user's spoken question helpfully and "
+    "CONCISELY - your reply will be read aloud, so keep it to a few "
+    "sentences, plain speech, no markdown or lists. If the question is about "
+    "COSMOS itself: you are a self-hosted voice-driven OS that reaches Grok, "
+    "Gemini and OpenAI, runs commands, and searches the user's own index and "
+    "corpus.")
+
 # MIRROR of cosmos_command.FORBIDDEN - and VoiceMode REFUSES these ITSELF,
 # before any dispatch (defense in depth, 2026-08-23). The commander's fence
 # still stands behind this one, but a destructive verb is never SENT anywhere
@@ -182,6 +208,46 @@ def _digest(obj) -> str:
     return s if len(s) <= _DIGEST_MAX else s[:_DIGEST_MAX] + "..."
 
 
+# FOLLOW_KEYS the deck harvests from an event payload. Copied from a result
+# only when the result already holds a non-empty string — never invented.
+FOLLOW_KEYS = ("job_id", "link_id", "rail", "node", "rid")
+
+
+def _carry_follow(res: dict, out) -> None:
+    """Copy followable ids already present on `out` onto `res`. No invention."""
+    if not isinstance(out, dict):
+        return
+    for k in FOLLOW_KEYS:
+        v = out.get(k)
+        if isinstance(v, str) and v.strip() and k not in res:
+            res[k] = v.strip()
+    raw = out.get("job_ids")
+    if isinstance(raw, list) and "job_ids" not in res:
+        res["job_ids"] = raw
+
+
+def _follow_from_result(res: dict) -> tuple:
+    """Harvest (job_ids, follow) from a voice result for CONVO_TURN."""
+    follow = {}
+    if not isinstance(res, dict):
+        return [], follow
+    for k in FOLLOW_KEYS:
+        v = res.get(k)
+        if isinstance(v, str) and v.strip():
+            follow[k] = v.strip()
+    jobs = []
+    if follow.get("job_id"):
+        jobs.append(follow["job_id"])
+    raw = res.get("job_ids")
+    if isinstance(raw, list):
+        for x in raw:
+            if isinstance(x, str) and x.strip() and x.strip() not in jobs:
+                jobs.append(x.strip())
+    if jobs and "job_id" not in follow:
+        follow["job_id"] = jobs[0]
+    return jobs, follow
+
+
 def _spoken(answer: str) -> str:
     """The TTS form of an answer: the answer itself, whitespace-collapsed and
     trimmed to a sane spoken length. A cut ends at a word boundary with an
@@ -201,8 +267,8 @@ class VoiceMode:
     conversation; the confirm nonces live in the ledger, not in this object -
     a VoiceMode constructed fresh per request loses nothing."""
 
-    def __init__(self, convo, commander, itc, asker=None, clock=time.time,
-                 ledger=None):
+    def __init__(self, convo, commander, itc, asker=None, orchestrator=None,
+                 clock=time.time, ledger=None):
         self._convo = convo
         self._commander = commander
         self._itc = itc
@@ -214,6 +280,16 @@ class VoiceMode:
         # deliberately NOT imported here - injection keeps this module
         # loadable and testable where the kernel cannot go.
         self._asker = asker
+        # orchestrator: an object with .run(user_text)->{ok, reply, spoken,
+        # tool_trace, sources} (cosmos_orchestrator.Orchestrator in
+        # production, injected NEVER imported - same seam discipline as the
+        # asker). When composed, free-form speech routes through IT, so the
+        # model can CALL COSMOS TOOLS (search_files/search_itc) and answer
+        # from real results instead of bare recall. When None, the bare
+        # asker keeps the old _chat behavior; when BOTH are None, free-form
+        # speech degrades to the dictation note. Its model_call is composed
+        # over the spend gate by the service - spend never lives here.
+        self._orchestrator = orchestrator
         self._clock = clock
         # the confirm-nonce chain: the convo's own authority ledger unless the
         # composer supplies a different one explicitly.
@@ -247,6 +323,12 @@ class VoiceMode:
                         and verb not in READ_ONLY_VERBS
                         and verb not in CONSEQUENTIAL_VERBS
                         and verb != ASK_VERB)
+        # A free-form utterance is a CONVERSATION when an orchestrator OR an
+        # asker is composed (it routes to the model and is recorded as an
+        # ordinary voice turn); only on a host WITHOUT any model rail does it
+        # degrade to the old silent note (mode="note") - captured, never lost.
+        is_note = (is_dictation and self._asker is None
+                   and self._orchestrator is None)
 
         # 2. the utterance goes on the record EXACTLY ONCE - even a refusal or
         # a misheard command is part of the conversation's history. Dictation
@@ -255,7 +337,7 @@ class VoiceMode:
         try:
             turn_seq = self._convo.append_turn(
                 session_id, "user", text,
-                mode="note" if is_dictation else mode)
+                mode="note" if is_note else mode)
         except ConvoError as e:
             if e.kind == "NO_SESSION":
                 raise VoiceError("NO_SESSION",
@@ -263,7 +345,7 @@ class VoiceMode:
                                  f"first; voice turns are never orphaned") from e
             raise   # BAD_TURN (closed session) etc: convo's typed claim stands
 
-        if verb in SEARCH_VERBS:
+        if verb in SEARCH_VERBS and self._orchestrator is None:
             res = self._query_search(session_id, text, verb)
         elif verb == OPEN_VERB:
             res = self._query_open(session_id, text)
@@ -275,6 +357,10 @@ class VoiceMode:
             res = self._command_consequential(session_id, text, verb, confirm_id)
         elif verb == ASK_VERB:
             res = self._ask(session_id, text)
+        elif self._orchestrator is not None:
+            res = self._chat_orchestrated(session_id, text)
+        elif self._asker is not None:
+            res = self._chat(session_id, text)
         else:
             res = self._dictation(session_id, text, turn_seq)
         return res
@@ -291,8 +377,11 @@ class VoiceMode:
         """3. the assistant reply goes on the record too - a voice exchange that
         leaves no trace did not happen (same rule everything here lives by)."""
         reply = res.get("reply") or res.get("spoken") or "(no reply)"
+        jobs, follow = _follow_from_result(res)
         self._convo.append_turn(session_id, "assistant", reply, mode="voice",
-                                sources=source_strs or [])
+                                sources=source_strs or [],
+                                job_ids=jobs or None,
+                                follow=follow or None)
         return res
 
     # ---------------- resource queries (read-only, auto-run) ----------------
@@ -408,7 +497,32 @@ class VoiceMode:
             res["error"] = kind
             return self._finish(sid, res)
         res["reply"] = f"{verb} ok: {_digest(out)}"
-        res["spoken"] = f"{verb} done."
+        _carry_follow(res, out)
+        # Speak a USEFUL summary, not just a terse confirmation - the whole point
+        # of voice-out is to hear the answer without looking at the screen.
+        sp = f"{verb} done."
+        try:
+            o = out if isinstance(out, dict) else {}
+            if verb == "status":
+                sp = f"Ready. Ledger at {o.get('ledger_head', {}).get('seq', '?')}."
+            elif verb == "health":
+                sp = f"Health is {o.get('verdict') or o.get('status') or 'reported'}."
+            elif verb == "spend":
+                rails = o.get("rails", {})
+                sp = (("Spend headroom: " + ", ".join(
+                    f"{k} {v.get('headroom_usd', v.get('headroom', '?'))}"
+                    for k, v in list(rails.items())[:3]) + ".")
+                    if isinstance(rails, dict) and rails else "Spend read.")
+            elif verb == "help":
+                sp = ("Commands: status, health, jobs, spend, rails, makers, "
+                      "events, search, open, ask, and submit.")
+            elif verb in ("jobs", "makers", "rails", "events"):
+                v = o.get(verb)
+                sp = (f"{verb}: {len(v)}." if isinstance(v, (list, dict))
+                      else f"{verb} read.")
+        except Exception:                                             # noqa: BLE001
+            sp = f"{verb} done."
+        res["spoken"] = sp
         return self._finish(sid, res)
 
     def _consume_or_issue(self, sid: str, text: str,
@@ -507,6 +621,7 @@ class VoiceMode:
                 return self._finish(sid, res)
             res["reply"] = f"confirmed and ran: {text} -> {_digest(out)}"
             res["spoken"] = f"Done. {verb} executed."
+            _carry_follow(res, out)
             return self._finish(sid, res)
 
         # not confirmed: describe, stage, WAIT - with the fresh nonce.
@@ -625,11 +740,121 @@ class VoiceMode:
         res["sources"] = source_strs
         res["reply"] = answer
         res["spoken"] = _spoken(answer)
+        _carry_follow(res, out)
         return self._finish(sid, res, source_strs)
 
-    # ---------------- dictation ----------------
+    # ---------------- chat (free-form speech -> the TOOL orchestrator) ----
+    def _chat_orchestrated(self, sid: str, text: str) -> dict:
+        """CONVERSATION WITH HANDS (2026-08-24): when an orchestrator is
+        composed, a free-form utterance goes to its agentic loop, where the
+        model may CALL COSMOS TOOLS (search the registered directories,
+        search the ITC index + corpus) and answer FROM REAL RESULTS - this is
+        what turns 'find the crucible under the legal stream' from a bare
+        guess into a named path. kind='chat' is the phone-app contract
+        (_chat's, verbatim): only kind=='dictation' is silenced, so a
+        conversational answer must never wear it.
+
+        Honesty rules unchanged: a raising orchestrator or an ok=False /
+        empty result is an in-band kind='refused' CARRYING THE REASON -
+        never a fabricated answer, never a crash. The reply carries a short
+        note of WHICH TOOLS RAN, and the sources (file:/itc:/corpus:
+        provenance from the tool results) are recorded on the assistant
+        turn. Spend lives in the orchestrator's model_call, which the
+        service composes over the spend gate - not here."""
+        res = self._base(sid, "chat")
+        res["action"] = "orchestrator.run"
+        try:
+            out = self._orchestrator.run(text)
+        except Exception as e:                                        # noqa: BLE001
+            kind = getattr(e, "kind", "CHAT_FAILED")
+            res.update(ok=False, refused=True, kind="refused",
+                       reply=f"[{kind}] chat failed: {e}",
+                       spoken="I could not answer that.")
+            res["error"] = kind
+            return self._finish(sid, res)
+        if not isinstance(out, dict) or out.get("ok") is False \
+                or not str(out.get("reply") or "").strip():
+            detail = ""
+            if isinstance(out, dict):
+                detail = str(out.get("error") or out.get("reply") or "")[:200]
+            res.update(ok=False, refused=True, kind="refused",
+                       reply="[CHAT_FAILED] the orchestrator returned no "
+                             "usable answer"
+                             + ((" - " + detail) if detail else ""),
+                       spoken="No answer came back.")
+            res["error"] = "CHAT_FAILED"
+            return self._finish(sid, res)
+        answer = str(out["reply"]).strip()
+        tools_ran = list(dict.fromkeys(
+            str(t.get("tool")) for t in (out.get("tool_trace") or [])
+            if isinstance(t, dict) and t.get("tool")))
+        reply = answer
+        if tools_ran:
+            reply += "\n[tools: " + ", ".join(tools_ran) + "]"
+        source_strs = [str(s) for s in (out.get("sources") or [])]
+        res["sources"] = source_strs
+        res["reply"] = reply
+        res["spoken"] = str(out.get("spoken") or "").strip() or _spoken(answer)
+        _carry_follow(res, out)
+        return self._finish(sid, res, source_strs)
+
+    # ---------------- chat (free-form speech -> the bare asker) ------------
+    def _chat(self, sid: str, text: str) -> dict:
+        """CONVERSATION, not a dead-end (2026-08-24): a free-form utterance
+        that matches no verb is a QUESTION, and on a host with an asker
+        composed it goes to the ORCHESTRATOR - COSMOS_PREAMBLE framing + the
+        utterance, default model - and comes back as a real spoken answer.
+
+        kind='chat' IS THE CONTRACT WITH THE PHONE APP: the client silences
+        only kind=='dictation', so a conversational answer must never wear
+        that kind or it would be recorded and never spoken.
+
+        Spend safety is _ask's, verbatim: the injected asker is composed OVER
+        the spend gate by the service, the utterance is bounded by
+        MAX_TRANSCRIPT at the door (the preamble adds a small constant), and
+        a denied/failing/empty asker surfaces as an in-band kind='refused'
+        CARRYING THE REASON - never a fabricated answer, never a crash. The
+        assistant turn's provenance records model:<name> and usd:<amt>, so
+        every answer names what it cost."""
+        res = self._base(sid, "chat")
+        res["action"] = "chat(orchestrator)"
+        prompt = f"{COSMOS_PREAMBLE}\n\nUser: {text}"
+        try:
+            out = self._asker(prompt, None)
+        except Exception as e:                                        # noqa: BLE001
+            kind = getattr(e, "kind", "CHAT_FAILED")
+            res.update(ok=False, refused=True, kind="refused",
+                       reply=f"[{kind}] chat failed: {e}",
+                       spoken="I could not answer that.")
+            res["error"] = kind
+            return self._finish(sid, res)
+        if not isinstance(out, dict) or out.get("ok") is False \
+                or not str(out.get("text") or "").strip():
+            detail = ""
+            if isinstance(out, dict):
+                detail = str(out.get("detail") or out.get("error") or "")[:200]
+            res.update(ok=False, refused=True, kind="refused",
+                       reply="[CHAT_FAILED] the model returned no usable "
+                             "answer" + ((" - " + detail) if detail else ""),
+                       spoken="No answer came back.")
+            res["error"] = "CHAT_FAILED"
+            return self._finish(sid, res)
+        answer = str(out["text"]).strip()
+        name = str(out.get("model") or "default")
+        usd = out.get("usd")
+        usd_s = "unpriced" if usd is None else f"{float(usd):.6f}"
+        source_strs = [f"model:{name}", f"usd:{usd_s}"]
+        res["sources"] = source_strs
+        res["reply"] = answer
+        res["spoken"] = _spoken(answer)
+        _carry_follow(res, out)
+        return self._finish(sid, res, source_strs)
+
+    # ---------------- dictation (GRACEFUL DEGRADE: no model rail) ----------
     def _dictation(self, sid: str, text: str, turn_seq: int) -> dict:
-        """Anything outside the grammar is CONTENT, not a command. handle()
+        """The fallback ONLY on a host with NO model rail composed (asker and
+        orchestrator both None):
+        anything outside the grammar is then CONTENT, not a command. handle()
         already recorded it as the ONE note turn (mode='note') - this method
         only acknowledges; it appends NOTHING (the double-record defect was
         exactly a second append here). Never approximated into an action

@@ -1,0 +1,381 @@
+<<<FILE path=tests/test_cvm_push.py action=create>>>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Unit test: Core POST /api/v1/cvm/push never makes the phone an audio owner.
+
+Proves:
+  * a phone push of the §8.3 snapshot_delta envelope lands the turn
+  * GET /cvm/pull (composed _cvm_pull_response) returns audio_owner=desktop
+    and the pushed cursor — even when the body claims audio_owner=phone
+    and even when pull.json already said phone
+  * a replayed request_id is not a second owner
+  * bearer auth is the existing /api/v1 role (401 without the token)
+  * pull/snap helpers are composed, not copied
+  * no drive literals, no bts_ imports, no audio.json / handoff.json writes
+
+No live :8770. rc=0 here is a green log. Stage-6 quotes
+live_value.audio_owner from a real GET /api/v1/cvm/pull after POST
+/api/v1/cvm/push against restarted :8770. An exit code is not evidence.
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+import tempfile
+import time
+import urllib.error
+import urllib.request
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+if (HERE.parent / "cosmos" / "cosmos_cvm_push.py").is_file():
+    BUNDLE = HERE.parent
+    REPO = BUNDLE.parent.parent
+    sys.path.insert(0, str(REPO / "cosmos"))
+    sys.path.insert(0, str(BUNDLE / "cosmos"))
+    sys.path.insert(0, str(REPO / "builds" / "cvm-dt"))
+    SERVICE = BUNDLE / "cosmos" / "cosmos_service.py"
+    PUSH_SRC = BUNDLE / "cosmos" / "cosmos_cvm_push.py"
+else:
+    REPO = HERE.parent
+    sys.path.insert(0, str(REPO / "cosmos"))
+    sys.path.insert(0, str(REPO / "builds" / "cvm-dt"))
+    SERVICE = REPO / "cosmos" / "cosmos_service.py"
+    PUSH_SRC = REPO / "cosmos" / "cosmos_cvm_push.py"
+    BUNDLE = None
+
+from cosmos_clock import atomic_json  # noqa: E402
+from cosmos_kernel import Kernel, install  # noqa: E402
+from cosmos_paths import CosmosPaths, write_sentinel  # noqa: E402
+from cosmos_service import (  # noqa: E402
+    CvmError, Service, _cvm_pull_response, _cvm_store_snapshot,
+)
+from cosmos_cvm_push import (  # noqa: E402
+    PUSH_PATH, SNAP_PATH, cvm_post, cvm_store_push,
+)
+from cvm_snap import snapshot_delta  # noqa: E402
+
+TREE_ID = "KMesh-COSMOS-live"
+PHONE_ID = "cvm-phone"
+RESULTS = []
+BTS_IMPORT = re.compile(r"^\s*(?:from|import)\s+bts_\w+", re.M)
+DRIVE_LIT = re.compile(r"V:\\|V:/|C:\\Users\\", re.I)
+ASSIGN_PHONE_OWNER = re.compile(
+    r"""audio_owner["']\s*\]\s*=\s*["']phone["']"""
+    r"""|audio_owner\s*=\s*["']phone["']""")
+FILTER_COPY = re.compile(r"_CVM_KNOWN_KINDS|_cvm_filter_kinds")
+
+
+def check(label, fn):
+    try:
+        RESULTS.append((label, bool(fn()), ""))
+    except Exception as e:                                            # noqa: BLE001
+        RESULTS.append((label, False, "%s: %s" % (type(e).__name__, e)))
+
+
+class _FakeLedger:
+    def last(self):
+        return {"seq": 1, "event": "SEED"}
+
+
+class _FakeKernel:
+    def __init__(self, paths: CosmosPaths):
+        self.paths = paths
+        self.ready = True
+        self.ledger = _FakeLedger()
+        self._clock = time.time
+
+
+def _scratch():
+    tmp = Path(tempfile.mkdtemp(prefix="cvm-push-test-"))
+    write_sentinel(tmp, TREE_ID)
+    (tmp / "config").mkdir()
+    (tmp / "state").mkdir()
+    (tmp / "config" / "api_token.txt").write_text("test-token", encoding="utf-8")
+    return tmp
+
+
+def _seed_phone_ticket(paths: CosmosPaths, owner: str = "phone") -> Path:
+    path = paths.state("cvm", "pull.json")
+    atomic_json(path, {
+        "cvm": 1,
+        "tree_id": TREE_ID,
+        "pull": True,
+        "kinds": ["voice_session"],
+        "cursor": "desk-before",
+        "audio_owner": owner,
+        "voice_client_timeout_s": 70.0,
+        "issued_epoch": 1787800000.0,
+        "writer": "cvm-dt-pull",
+    })
+    return path
+
+
+def _http(svc, method, path, obj=None, token=None, timeout=10):
+    req = urllib.request.Request(
+        "http://127.0.0.1:%s%s" % (svc.port, path),
+        data=(json.dumps(obj).encode("utf-8") if obj is not None else None),
+        method=method)
+    if token is not None:
+        if token != "":
+            req.add_header("Authorization", "Bearer " + token)
+    else:
+        req.add_header("Authorization", "Bearer " + svc.token)
+    if obj is not None:
+        req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.status, json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        return e.code, json.loads(e.read().decode("utf-8"))
+
+
+def test_phone_push_never_second_audio_owner():
+    """The one test this slice ships: phone push never owns audio; pull reflects turn."""
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    kernel = _FakeKernel(paths)
+    _seed_phone_ticket(paths, owner="phone")
+
+    body = snapshot_delta("phone-turn-1", "", {
+        "device": {"status": "ok", "audio_route": "none",
+                   "surface": "capture+playback"},
+        "future_kind": {"status": "ok"},
+    }, client_id=PHONE_ID)
+    body["audio_owner"] = "phone"
+
+    rec = cvm_store_push(kernel, body)
+    pulled = _cvm_pull_response(kernel, PHONE_ID)
+    phone = json.loads(paths.state("cvm", "phone.json").read_text(encoding="utf-8"))
+    ticket = json.loads(paths.state("cvm", "pull.json").read_text(encoding="utf-8"))
+
+    owners = {
+        rec.get("audio_owner"),
+        pulled.get("audio_owner"),
+        ticket.get("audio_owner"),
+        phone.get("audio_owner"),
+    }
+    owners.discard(None)
+
+    replay = cvm_store_push(kernel, body)
+    pulled2 = _cvm_pull_response(kernel, PHONE_ID)
+
+    wrote_audio = paths.state("cvm", "audio.json").is_file()
+    wrote_handoff = paths.state("cvm", "handoff.json").is_file()
+
+    return (
+        rec.get("claimed") is False
+        and rec.get("audio_owner") == "desktop"
+        and rec.get("idempotent") is False
+        and rec.get("cursor_out")
+        and pulled.get("pull") is True
+        and pulled.get("audio_owner") == "desktop"
+        and pulled.get("cursor") == rec.get("cursor_out")
+        and pulled.get("cursor") != "desk-before"
+        and pulled.get("tree_id") == TREE_ID
+        and pulled.get("client_id") == PHONE_ID
+        and "device" in (phone.get("stored") or list((phone.get("kinds") or {}).keys()))
+        and "future_kind" not in (phone.get("kinds") or {})
+        and phone.get("request_id") == "phone-turn-1"
+        and phone.get("client_id") == PHONE_ID
+        and "audio_owner" not in json.dumps(phone.get("kinds") or {})
+        and phone.get("audio_owner") != "phone"
+        and ticket.get("audio_owner") == "desktop"
+        and ticket.get("claimed") is False
+        and owners == {"desktop"}
+        and replay.get("idempotent") is True
+        and replay.get("audio_owner") == "desktop"
+        and pulled2.get("audio_owner") == "desktop"
+        and pulled2.get("cursor") == rec.get("cursor_out")
+        and wrote_audio is False
+        and wrote_handoff is False
+    )
+
+
+def test_missing_pull_json_is_seeded_desktop_not_phone():
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    kernel = _FakeKernel(paths)
+    body = snapshot_delta("phone-turn-seed", "", {
+        "device": {"status": "ok", "audio_route": "none"},
+    }, client_id=PHONE_ID)
+    rec = cvm_store_push(kernel, body)
+    pulled = _cvm_pull_response(kernel, PHONE_ID)
+    return (
+        rec["audio_owner"] == "desktop"
+        and pulled.get("pull") is True
+        and pulled.get("audio_owner") == "desktop"
+        and pulled.get("cursor") == rec.get("cursor_out")
+        and paths.state("cvm", "pull.json").is_file()
+    )
+
+
+def test_snapshot_path_still_lands_without_claiming_owner():
+    """Compose: /cvm/snapshot stays the P3 helper (no desktop stamp)."""
+    tmp = _scratch()
+    paths = CosmosPaths(tmp)
+    kernel = _FakeKernel(paths)
+    _seed_phone_ticket(paths, owner="phone")
+    body = snapshot_delta("snap-only", "", {
+        "notifications": {"status": "ok", "items": []},
+    }, client_id=PHONE_ID)
+    rec = cvm_post(kernel, SNAP_PATH, body)
+    pulled = _cvm_pull_response(kernel, PHONE_ID)
+    return (
+        rec.get("cursor_out")
+        and "idempotent" not in rec
+        and pulled.get("audio_owner") == "phone"
+        and pulled.get("cursor") == rec.get("cursor_out")
+    )
+
+
+def test_push_reuses_snapshot_idempotency_and_bad_envelope():
+    tmp = _scratch()
+    kernel = _FakeKernel(CosmosPaths(tmp))
+    bad_kind = None
+    try:
+        cvm_store_push(kernel, {"cvm": 2, "client_id": PHONE_ID,
+                                "request_id": "x", "kinds": {}})
+    except CvmError as e:
+        bad_kind = e.kind
+    missing = None
+    try:
+        cvm_store_push(kernel, {"cvm": 1, "client_id": PHONE_ID, "kinds": {
+            "device": {"status": "ok"}}})
+    except CvmError as e:
+        missing = e.kind
+    return bad_kind == "BAD_SNAPSHOT" and missing == "BAD_SNAPSHOT"
+
+
+def test_bearer_and_http_push_then_pull():
+    """Existing bearer role; HTTP POST /cvm/push then GET /cvm/pull."""
+    td = Path(tempfile.mkdtemp(prefix="cvm-push-http-"))
+    install(td, tree_id=TREE_ID)
+    k = Kernel(td, worker="cvm-push-test")
+    k.paths.config("api_token.txt").write_text("http-token\n", encoding="utf-8")
+    atomic_json(k.paths.state("cvm", "pull.json"), {
+        "cvm": 1,
+        "tree_id": TREE_ID,
+        "pull": True,
+        "kinds": ["device"],
+        "cursor": "http-before",
+        "audio_owner": "phone",
+        "voice_client_timeout_s": 70.0,
+        "issued_epoch": 1787800000.0,
+        "writer": "test-seed",
+    })
+    svc = Service(k, host="127.0.0.1", port=0)
+    svc.serve_background()
+    try:
+        body = snapshot_delta("http-turn-1", "", {
+            "device": {"status": "ok", "audio_route": "none"},
+        }, client_id=PHONE_ID)
+        body["audio_owner"] = "phone"
+        no_auth, no_body = _http(svc, "POST", PUSH_PATH, body, token="")
+        bad_tok, _ = _http(svc, "POST", PUSH_PATH, body, token="wrong")
+        code, pushed = _http(svc, "POST", PUSH_PATH, body)
+        pcode, pulled = _http(svc, "GET",
+                              "/api/v1/cvm/pull?client_id=" + PHONE_ID)
+        replay_code, replay = _http(svc, "POST", PUSH_PATH, body)
+        live = {
+            "audio_owner": pulled.get("audio_owner"),
+            "cursor": pulled.get("cursor"),
+            "push_cursor_out": pushed.get("cursor_out"),
+            "push_audio_owner": pushed.get("audio_owner"),
+            "claimed": pushed.get("claimed"),
+            "replay_idempotent": replay.get("idempotent"),
+            "replay_audio_owner": replay.get("audio_owner"),
+        }
+        ok = (
+            no_auth == 401 and no_body.get("error") == "UNAUTHORIZED"
+            and bad_tok == 401
+            and code == 200
+            and pcode == 200
+            and replay_code == 200
+            and pushed.get("audio_owner") == "desktop"
+            and pushed.get("claimed") is False
+            and pulled.get("audio_owner") == "desktop"
+            and pulled.get("cursor") == pushed.get("cursor_out")
+            and pulled.get("cursor") != "http-before"
+            and pulled.get("tree_id") == TREE_ID
+            and replay.get("idempotent") is True
+            and replay.get("audio_owner") == "desktop"
+            and not k.paths.state("cvm", "audio.json").is_file()
+        )
+        return ok, live
+    finally:
+        svc.shutdown()
+
+
+def test_source_composes_not_copies():
+    src = PUSH_SRC.read_text(encoding="utf-8")
+    svc = SERVICE.read_text(encoding="utf-8")
+    return (
+        "_cvm_store_snapshot" in src
+        and "_cvm_pull_response" in src
+        and "from cvm_snap import" not in src
+        and "import cvm_snap" not in src
+        and "from cvm_pull import" not in src
+        and FILTER_COPY.search(src) is None
+        and ASSIGN_PHONE_OWNER.search(src) is None
+        and BTS_IMPORT.search(src) is None
+        and DRIVE_LIT.search(src) is None
+        and BTS_IMPORT.search(svc) is None
+        and "if not self._authed():" in svc
+        and PUSH_PATH in svc
+        and "_cvm_post in" in svc
+        and "from cosmos_cvm_push import cvm_store_push" in svc
+        and "parsed.path == \"/api/v1/cvm/pull\"" in svc
+        and "_cvm_store_snapshot(kernel, d)" in svc
+        and "self.path == \"/api/v1/cvm/push\"" not in svc
+        and "ledger.append" not in src
+    )
+
+
+def main() -> int:
+    check("phone push never becomes a second audio owner "
+          "(push→pull quotes desktop, cursor is the pushed turn)",
+          test_phone_push_never_second_audio_owner)
+    check("missing pull.json is seeded desktop, never phone",
+          test_missing_pull_json_is_seeded_desktop_not_phone)
+    check("POST /cvm/snapshot still the P3 helper (no owner stamp)",
+          test_snapshot_path_still_lands_without_claiming_owner)
+    check("push reuses snapshot BAD_SNAPSHOT on a bad envelope",
+          test_push_reuses_snapshot_idempotency_and_bad_envelope)
+    check("source composes _cvm_store_snapshot + _cvm_pull_response "
+          "(no kinds-filter copy, no phone owner, no bts_, no drive lit)",
+          test_source_composes_not_copies)
+
+    live = None
+    http_err = ""
+
+    def _http_probe():
+        nonlocal live, http_err
+        try:
+            ok, live = test_bearer_and_http_push_then_pull()
+            return ok
+        except Exception as e:                                        # noqa: BLE001
+            http_err = "%s: %s" % (type(e).__name__, e)
+            raise
+
+    check("HTTP POST /cvm/push then GET /cvm/pull: bearer 401, "
+          "audio_owner=desktop, pull cursor is the pushed turn",
+          _http_probe)
+    if http_err and not any(p for l, p, _ in RESULTS if "HTTP POST" in l):
+        RESULTS[-1] = (RESULTS[-1][0], False, http_err)
+
+    ok = all(p for _, p, _ in RESULTS)
+    for label, passed, err in RESULTS:
+        print(("PASS" if passed else "FAIL") + "  " + label
+              + (("  " + err) if err else ""))
+    if live:
+        print("live_value: " + json.dumps(live, sort_keys=True))
+    print("result: " + ("ok" if ok else "FAIL")
+          + "  %s/%s" % (sum(1 for _, p, _ in RESULTS if p), len(RESULTS)))
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+<<<FILE_END>>>

@@ -1,0 +1,9 @@
+{
+  "measured_at": "2026-08-31T12:05:00Z",
+  "module": "tool_disposition",
+  "state": "ABSENT",
+  "kind": "ModuleNotFoundError",
+  "detail": "No module named 'tool_disposition'",
+  "sys_path_probe": "builds/probe",
+  "note": "Recorded BEFORE the file existed. F-41 proposer bite: a regression that cannot fail against this world is not a test."
+}

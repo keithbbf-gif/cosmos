@@ -1,0 +1,90 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "re-measure local lock-scope + PEM classify on the live tree",
+ "measured_utc": "2026-08-31T17:57:38+00:00",
+ "tree_id": "KMesh-COSMOS-live",
+ "daemon_lock": {
+  "path": "live/logs/cdeck_feed.lock",
+  "exists": true
+ },
+ "local_scope": {
+  "kind": "ok",
+  "iter_files_count": 19194,
+  "locks_in_scope": [],
+  "locks_in_scope_count": 0,
+  "excludes": [
+   ".git",
+   "__pycache__",
+   "_delme",
+   "*.lock",
+   "live/logs",
+   "live/work",
+   "live/backups",
+   "live/config",
+   "live/returns",
+   "trylive/config",
+   "install_key.bin",
+   "api_token.txt"
+  ],
+  "not_kind": "SOURCE_UNREADABLE"
+ },
+ "dest": {
+  "root": "D:\\COSMOS_BACKUP",
+  "sets": {
+   "COSMOS-20260831T172140": {
+    "exists": true,
+    "files": 16205,
+    "bytes": 7698536901,
+    "lock_files": 0,
+    "live_config_files": 0,
+    "manifest": false,
+    "incident": [
+     "INCIDENT-20260831T173151.json"
+    ]
+   },
+   "COSMOS-20260831T173348": {
+    "exists": true,
+    "files": 58,
+    "bytes": 45808971,
+    "lock_files": 0,
+    "live_config_files": 0,
+    "manifest": false,
+    "incident": [
+     "INCIDENT-20260831T173351.json"
+    ]
+   },
+   "COSMOS-20260831T174813": {
+    "exists": true,
+    "files": 11365,
+    "bytes": 6838211345,
+    "lock_files": 0,
+    "live_config_files": 0,
+    "manifest": false,
+    "incident": [
+     "INCIDENT-20260831T175512.json"
+    ]
+   }
+  }
+ },
+ "cacert": {
+  "path": "builds/cvm-dt/vendor/whisper_site/certifi/cacert.pem",
+  "size": 240216,
+  "labels": [
+   "CERTIFICATE"
+  ],
+  "kind": "public",
+  "body_emitted": false,
+  "scan_hits": []
+ },
+ "private_key_scratch": {
+  "kind": "SECRETS_IN_SCOPE",
+  "names_signing_key": true,
+  "set_created": false,
+  "body_emitted": false
+ },
+ "public_ca_scratch": {
+  "kind": "BACKUP_OK",
+  "cacert_in_manifest": true
+ },
+ "ok": true
+}

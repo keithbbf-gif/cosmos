@@ -1,0 +1,6 @@
+{
+  "what": "regen_refusal_taxonomy ABSENT before the file existed",
+  "state": "ABSENT",
+  "kind": "ModuleNotFoundError",
+  "detail": "No module named 'regen_refusal_taxonomy'"
+}

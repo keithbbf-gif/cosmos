@@ -106,7 +106,12 @@ class HealthBoard:
                              if not control_ok else
                              "GREEN" if not reds else
                              f"RED x{len(reds)}")}
+        # node=system is the FOLLOW_KEYS identity. sentinel.system is always
+        # "COSMOS" (resolver identity, never invented). The live tail is ~90%
+        # HEALTH_BOARD with no followable id; this is the value the deck's
+        # COSMOS box already draws.
         self.k.ledger.append("HEALTH_BOARD", {"verdict": board["verdict"],
                                               "reds": board["reds"],
-                                              "control_red": control_ok})
+                                              "control_red": control_ok,
+                                              "node": self.k.paths.sentinel.system})
         return board

@@ -1,0 +1,34 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new TestQuiescence + TestRetire pins FAIL against predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_cosmos_backup_f43_20260831T124639Z\\cosmos_backup.py",
+ "tests_run": 10,
+ "failures": 2,
+ "errors": 8,
+ "unexpected_successes": 0,
+ "failed_names": [
+  "test_SOURCE_MUTATED_does_not_seal_manifest",
+  "test_cli_keep_zero_exits_2",
+  "test_does_not_touch_incomplete_or_rehearse",
+  "test_keep_all_is_noop",
+  "test_keep_negative_is_KEEP_TOO_SMALL",
+  "test_keep_zero_is_KEEP_TOO_SMALL",
+  "test_missing_dest_is_DEST_NOT_DIR",
+  "test_mutated_source_after_copy_is_SOURCE_MUTATED",
+  "test_retire_dest_occupied_refuses",
+  "test_retires_oldest_stages_never_deletes"
+ ],
+ "ran_names": [
+  "test_SOURCE_MUTATED_does_not_seal_manifest",
+  "test_cli_keep_zero_exits_2",
+  "test_does_not_touch_incomplete_or_rehearse",
+  "test_keep_all_is_noop",
+  "test_keep_negative_is_KEEP_TOO_SMALL",
+  "test_keep_zero_is_KEEP_TOO_SMALL",
+  "test_missing_dest_is_DEST_NOT_DIR",
+  "test_mutated_source_after_copy_is_SOURCE_MUTATED",
+  "test_retire_dest_occupied_refuses",
+  "test_retires_oldest_stages_never_deletes"
+ ],
+ "all_new_pins_failed": true
+}

@@ -9,6 +9,7 @@ import json, sys, tempfile, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_makers import DEFAULT_TOML, MAKER_KINDS, MakerError, MakerMap
 from cosmos_kernel import Kernel, install
@@ -107,6 +108,9 @@ def main() -> int:
           == ["save-skill"])
     check("each seed add landed as MAKER_ADDED (ledger is the authority)",
           lambda: sum(1 for x in led.verify() if x["event"] == "MAKER_ADDED") == 6)
+    check("each seed MAKER_ADDED carries node=id (FOLLOW_KEYS harvest)",
+          lambda: all(x["payload"].get("node") == x["payload"].get("id")
+                      for x in led.verify() if x["event"] == "MAKER_ADDED"))
 
     # idempotent re-seed: a second map on the same ledger does not re-declare
     mm2 = MakerMap(led)
@@ -192,6 +196,9 @@ def main() -> int:
     seed_events = sum(1 for x in k.ledger.verify() if x["event"] == "MAKER_ADDED")
     check("writing kernel seed is six MAKER_ADDED events",
           lambda: seed_events == 6)
+    check("writing kernel seed MAKER_ADDED carries node=id (FOLLOW_KEYS)",
+          lambda: all(x["payload"].get("node") == x["payload"].get("id")
+                      for x in k.ledger.verify() if x["event"] == "MAKER_ADDED"))
     head_after_write = k.ledger.head_seq()
     kr = Kernel(root, worker="reader", read_only=True)
     check("read-only kernel COMPOSES makers (composition is not a write)",
@@ -231,8 +238,8 @@ def main() -> int:
             return e.code, json.loads(e.read().decode("utf-8"))
 
     code, body = get("/api/v1/makers")
-    check("GET /makers without a token -> 401",
-          lambda: code == 401 and body.get("error") == "UNAUTHORIZED")
+    check("GET /makers without a token -> 200 on loopback (DT auto-connect)",
+          lambda: code == 200 and {m["id"] for m in body["makers"]} == SEED_IDS)
     code, body = get("/api/v1/makers", svc.token)
     check("GET /makers serves the six known makers over the wire",
           lambda: code == 200 and {m["id"] for m in body["makers"]} == SEED_IDS)
@@ -265,9 +272,6 @@ def main() -> int:
     check("...and the 503 did not write (head still unmoved)",
           lambda: k.ledger.head_seq() == head_before)
 
-    code, body = post("/api/v1/makers", GOOD_ENTRY)
-    check("POST /makers without a token -> 401",
-          lambda: code == 401 and body.get("error") == "UNAUTHORIZED")
     code, body = post("/api/v1/makers", GOOD_ENTRY, svc.token)
     check("POST /makers adds the entry (201) and returns it",
           lambda: code == 201 and body["maker"]["id"] == "local-lab-agent")

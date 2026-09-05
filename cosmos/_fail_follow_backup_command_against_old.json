@@ -1,0 +1,28 @@
+{
+ "ok": true,
+ "all_new_pins_failed": true,
+ "pins": {
+  "backup_verified_node_equals_COSMOS": false,
+  "command_handled_node_equals_CVM": false,
+  "clock_passes_sentinel_system": false,
+  "cli_passes_sentinel_system": false,
+  "old_clock_poll_once_stamps_node": false
+ },
+ "old_backup_payload": {
+  "dest": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_fail_bak_cmd_4eu87xty\\tgt\\20260831T085301",
+  "files": 1,
+  "src": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cosmos_fail_bak_cmd_4eu87xty\\src",
+  "verified": 1
+ },
+ "old_backup_node": null,
+ "old_command_payload": {
+  "ok": true,
+  "text": "status"
+ },
+ "old_command_node": null,
+ "old_clock_backup_nodes": [
+  null
+ ],
+ "pin_passed_on_old": false,
+ "prechange_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_follow_backup_command_20260831T134754Z\\cosmos"
+}

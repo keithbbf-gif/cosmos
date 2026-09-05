@@ -8,6 +8,7 @@ import sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_spend import SpendGate, SpendError
 from cosmos_context import Session, ContextError, boot_inherit
@@ -46,6 +47,9 @@ def main() -> int:
     r = g.guarded_call("gem", 0.30, lambda: (calls.append(1), {"usd": 0.05})[1])
     check("reserve -> call -> settle at MEASURED (not worst case)",
           lambda: r["usd"] == 0.05 and g.audit()["rails"]["gem"]["settled_usd"] == 0.05)
+    check("guarded_call stamps rid+rail so a CONVO_TURN can thread them",
+          lambda: isinstance(r.get("rid"), str) and r["rid"].startswith("r-")
+          and r.get("rail") == "gem")
 
     # THE BREAKER: deny happens BEFORE the call - the call list must not grow
     n_before = len(calls)

@@ -1,0 +1,53 @@
+{
+  "job": "g46_workorder_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T02:45:00-05:00",
+  "p10": "PROPOSE-ONLY — live tree and cosmos/ package were not written",
+  "dir": "V:\\A\\Ai\\COSMOS\\work\\g46_workorder_bundle",
+  "files": {
+    "cosmos_workspace.py": {"lines": 278, "bytes": 10020, "sha256_16": "67d337e396e58490"},
+    "cosmos_work_order.py": {"lines": 607, "bytes": 21483, "sha256_16": "4a54c2674b5526ed"},
+    "cosmos_work_order_run.py": {"lines": 770, "bytes": 30820, "sha256_16": "45d6869cee7b408f"},
+    "tests/test_work_order.py": {"lines": 31, "bytes": 901, "sha256_16": "79543c32c9248dd8"},
+    "PROPOSAL.diff": {"lines": 164, "bytes": 6790, "sha256_16": "d1685c7379233013"}
+  },
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile cosmos_workspace.py cosmos_work_order.py cosmos_work_order_run.py tests\\test_work_order.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_workorder_bundle",
+    "rc": 0
+  },
+  "selftest": {
+    "cmd": "py -3.14 tests\\test_work_order.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_workorder_bundle",
+    "rc": 0,
+    "passed": "37/37",
+    "failed": 0
+  },
+  "git_apply_check": {
+    "cmd": "git -C V:\\A\\Ai\\COSMOS apply --check work\\g46_workorder_bundle\\PROPOSAL.diff",
+    "rc": 0
+  },
+  "proposal_diff": {
+    "targets": [
+      "cosmos/cosmos_codex_rail.py",
+      "cosmos/cosmos_own_clocks.py"
+    ],
+    "codex_rail_line_delta": -64,
+    "own_clocks_line_delta": 14,
+    "codex_rail": "SUBTRACT duplicated _real_clone/_assert_not_live/_prepare_workspace; wrappers call cosmos_workspace (REFUSED message unchanged)",
+    "own_clocks": "additive clock 17 COSMOS Work-Order Runner + standup work_order + logon spec",
+    "dispatch_flags": "untouched (grok --single/--always-approve/--max-turns 60; claude --permission-mode dontAsk --add-dir; cursor Cloud Agents API)"
+  },
+  "live_tree": {
+    "cosmos_work_order.py_present": false,
+    "cosmos_workspace.py_present": false,
+    "cosmos_codex_rail.py_mutated": false,
+    "cosmos_own_clocks.py_mutated": false
+  },
+  "cow_dispose": [
+    "copy cosmos_workspace.py cosmos_work_order.py cosmos_work_order_run.py onto cosmos/",
+    "copy tests/test_work_order.py onto tests/",
+    "git apply --check then git apply work/g46_workorder_bundle/PROPOSAL.diff",
+    "py -3.14 cosmos\\cosmos_work_order_run.py --selftest"
+  ]
+}

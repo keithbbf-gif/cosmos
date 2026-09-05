@@ -1,0 +1,28 @@
+{
+ "schema": "cosmos-f36-sites/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "measured_utc": "2026-08-31T17:56Z",
+ "work_order_2_3": {
+  "unreviewed_count": 0,
+  "open_count": 1,
+  "open": [
+   "parse_tracker_markdown"
+  ],
+  "artifact": "cosmos/_f36_derivation_audit.json"
+ },
+ "work_order_2_1a": {
+  "whose_judgement": "Keith or COW on the cosmos/ fence after flip_ready; FLIP_STREAK_TARGET=96 in cosmos_motif_driver.py (scar 2026-08-26 claim-as-evidence). Encoded as CORE_RESTRUCTURE work order 2.1a.",
+  "consecutive_agreements": 58,
+  "flip_streak_target": 96,
+  "ticks_remaining": 38,
+  "flip_ready": false,
+  "authority": "markdown",
+  "agree": true,
+  "clock_alive": true,
+  "hb_age_s": 713.0,
+  "restraint_justified": true,
+  "restraint_is_excuse_for_flip": false
+ },
+ "writes_authority_flip": 0
+}

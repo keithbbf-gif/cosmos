@@ -1,0 +1,376 @@
+{
+ "wire": "cvm-dt-post-probe/1",
+ "iso": "2026-08-31T02:57:42-0500",
+ "epoch": 1788163062.594441,
+ "tree_id": "KMesh-COSMOS-live",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "python": "3.14.0",
+ "core": {
+  "base": "http://127.0.0.1:8770",
+  "host": "127.0.0.1",
+  "port": 8770,
+  "loopback": true,
+  "connect_ex": 0,
+  "connect_ex_ms": 0.757,
+  "gets": {
+   "unauth_401_floor": {
+    "method": "GET",
+    "path": "/api/v1/status",
+    "rc": 401,
+    "body_bytes": 62,
+    "connect_ms": 17.602,
+    "send_ms": 0.053,
+    "ttfb_ms": 0.218,
+    "headers_ms": 0.218,
+    "body_gap_ms": 0.0,
+    "total_ms": 17.894,
+    "nodelay": true,
+    "n": 3,
+    "refusals": [
+     {
+      "kind": "HTTP_401",
+      "error": "UNAUTHORIZED"
+     },
+     {
+      "kind": "HTTP_401",
+      "error": "UNAUTHORIZED"
+     },
+     {
+      "kind": "HTTP_401",
+      "error": "UNAUTHORIZED"
+     }
+    ],
+    "connect_ms_min": 16.12,
+    "connect_ms_max": 25.369,
+    "send_ms_min": 0.047,
+    "send_ms_max": 0.081,
+    "ttfb_ms_min": 0.205,
+    "ttfb_ms_max": 0.22,
+    "headers_ms_min": 0.205,
+    "headers_ms_max": 0.22,
+    "body_gap_ms_min": 0.0,
+    "body_gap_ms_max": 0.0,
+    "total_ms_min": 16.42,
+    "total_ms_max": 25.65,
+    "samples": [
+     {
+      "rc": 401,
+      "ttfb_ms": 0.218,
+      "headers_ms": 0.218,
+      "body_gap_ms": 0.0,
+      "total_ms": 17.894
+     },
+     {
+      "rc": 401,
+      "ttfb_ms": 0.205,
+      "headers_ms": 0.205,
+      "body_gap_ms": 0.0,
+      "total_ms": 16.42
+     },
+     {
+      "rc": 401,
+      "ttfb_ms": 0.22,
+      "headers_ms": 0.22,
+      "body_gap_ms": 0.0,
+      "total_ms": 25.65
+     }
+    ]
+   },
+   "status": {
+    "method": "GET",
+    "path": "/api/v1/status",
+    "rc": 200,
+    "body_bytes": 183,
+    "connect_ms": 15.008,
+    "send_ms": 0.048,
+    "ttfb_ms": 18.128,
+    "headers_ms": 18.128,
+    "body_gap_ms": 0.0,
+    "total_ms": 32.922,
+    "nodelay": true,
+    "n": 3,
+    "refusals": [],
+    "connect_ms_min": 0.305,
+    "connect_ms_max": 15.128,
+    "send_ms_min": 0.028,
+    "send_ms_max": 0.059,
+    "ttfb_ms_min": 17.84,
+    "ttfb_ms_max": 18.91,
+    "headers_ms_min": 17.84,
+    "headers_ms_max": 18.91,
+    "body_gap_ms_min": 0.0,
+    "body_gap_ms_max": 0.0,
+    "total_ms_min": 18.477,
+    "total_ms_max": 34.102,
+    "samples": [
+     {
+      "rc": 200,
+      "ttfb_ms": 18.91,
+      "headers_ms": 18.91,
+      "body_gap_ms": 0.0,
+      "total_ms": 34.102
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 18.128,
+      "headers_ms": 18.128,
+      "body_gap_ms": 0.0,
+      "total_ms": 18.477
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 17.84,
+      "headers_ms": 17.84,
+      "body_gap_ms": 0.0,
+      "total_ms": 32.922
+     }
+    ]
+   },
+   "control": {
+    "method": "GET",
+    "path": "/api/v1/control?client_id=cvm-post-probe",
+    "rc": 200,
+    "body_bytes": 304,
+    "connect_ms": 14.848,
+    "send_ms": 0.057,
+    "ttfb_ms": 0.323,
+    "headers_ms": 0.323,
+    "body_gap_ms": 0.0,
+    "total_ms": 15.228,
+    "nodelay": true,
+    "n": 3,
+    "refusals": [],
+    "connect_ms_min": 6.584,
+    "connect_ms_max": 16.93,
+    "send_ms_min": 0.048,
+    "send_ms_max": 0.089,
+    "ttfb_ms_min": 0.309,
+    "ttfb_ms_max": 0.361,
+    "headers_ms_min": 0.309,
+    "headers_ms_max": 0.361,
+    "body_gap_ms_min": 0.0,
+    "body_gap_ms_max": 0.0,
+    "total_ms_min": 7.007,
+    "total_ms_max": 17.356,
+    "samples": [
+     {
+      "rc": 200,
+      "ttfb_ms": 0.361,
+      "headers_ms": 0.361,
+      "body_gap_ms": 0.0,
+      "total_ms": 7.007
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 0.323,
+      "headers_ms": 0.323,
+      "body_gap_ms": 0.0,
+      "total_ms": 17.356
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 0.309,
+      "headers_ms": 0.309,
+      "body_gap_ms": 0.0,
+      "total_ms": 15.228
+     }
+    ]
+   },
+   "health": {
+    "method": "GET",
+    "path": "/api/v1/health",
+    "rc": 200,
+    "body_bytes": 620,
+    "connect_ms": 9.176,
+    "send_ms": 0.066,
+    "ttfb_ms": 83.635,
+    "headers_ms": 83.635,
+    "body_gap_ms": 0.0,
+    "total_ms": 88.838,
+    "nodelay": true,
+    "n": 3,
+    "refusals": [],
+    "connect_ms_min": 2.178,
+    "connect_ms_max": 14.946,
+    "send_ms_min": 0.066,
+    "send_ms_max": 0.085,
+    "ttfb_ms_min": 79.56,
+    "ttfb_ms_max": 83.85,
+    "headers_ms_min": 79.56,
+    "headers_ms_max": 83.85,
+    "body_gap_ms_min": 0.0,
+    "body_gap_ms_max": 0.0,
+    "total_ms_min": 85.922,
+    "total_ms_max": 98.881,
+    "samples": [
+     {
+      "rc": 200,
+      "ttfb_ms": 83.85,
+      "headers_ms": 83.85,
+      "body_gap_ms": 0.0,
+      "total_ms": 98.881
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 79.56,
+      "headers_ms": 79.56,
+      "body_gap_ms": 0.0,
+      "total_ms": 88.838
+     },
+     {
+      "rc": 200,
+      "ttfb_ms": 83.635,
+      "headers_ms": 83.635,
+      "body_gap_ms": 0.0,
+      "total_ms": 85.922
+     }
+    ]
+   }
+  },
+  "server_ms": {
+   "floor_401_ttfb_ms": 0.218,
+   "per_endpoint": {
+    "status": 17.91,
+    "control": 0.105,
+    "health": 83.417
+   },
+   "how": "authed TTFB MINUS the unauthenticated 401 TTFB on the same socket path: the same transport and the same auth compare, minus the route's own work"
+  },
+  "posts": {
+   "budget": {
+    "shared_cap_per_min": 20,
+    "window_s": 60.0,
+    "fraction": 0.5,
+    "posts_allowed": 10,
+    "reps_per_verb": 2,
+    "why": "the rate budget is shared with the gate, the clocks and Keith's own voice; a bench that drains it breaks what it is measuring"
+   },
+   "posts_spent": 4,
+   "verb": "status",
+   "mint": {
+    "kind": "ok",
+    "n": 2,
+    "total_ms": 277.162,
+    "ttfb_ms": 265.132,
+    "body_gap_ms": 0.0,
+    "reply_kind": "command",
+    "brain": "local",
+    "samples": [
+     {
+      "rc": 200,
+      "connect_ms": 23.614,
+      "send_ms": 0.063,
+      "ttfb_ms": 217.913,
+      "body_gap_ms": 0.0,
+      "total_ms": 241.61,
+      "body_bytes": 476,
+      "reply_kind": "command",
+      "brain": "local",
+      "sid_tail": "671bee",
+      "verb": "status"
+     },
+     {
+      "rc": 200,
+      "connect_ms": 0.302,
+      "send_ms": 0.041,
+      "ttfb_ms": 312.351,
+      "body_gap_ms": 0.0,
+      "total_ms": 312.714,
+      "body_bytes": 747,
+      "reply_kind": "command",
+      "brain": "local",
+      "sid_tail": "70cb0a",
+      "verb": "health"
+     }
+    ]
+   },
+   "resume": {
+    "kind": "ok",
+    "n": 2,
+    "total_ms": 199.781,
+    "ttfb_ms": 193.778,
+    "body_gap_ms": 0.017,
+    "reply_kind": "command",
+    "brain": "local",
+    "samples": [
+     {
+      "rc": 200,
+      "connect_ms": 11.567,
+      "send_ms": 0.084,
+      "ttfb_ms": 188.993,
+      "body_gap_ms": 0.033,
+      "total_ms": 200.711,
+      "body_bytes": 733,
+      "reply_kind": "command",
+      "brain": "local",
+      "sid_tail": "671bee",
+      "verb": "jobs"
+     },
+     {
+      "rc": 200,
+      "connect_ms": 0.248,
+      "send_ms": 0.02,
+      "ttfb_ms": 198.563,
+      "body_gap_ms": 0.0,
+      "total_ms": 198.85,
+      "body_bytes": 783,
+      "reply_kind": "command",
+      "brain": "local",
+      "sid_tail": "671bee",
+      "verb": "help"
+     }
+    ]
+   },
+   "refused": [],
+   "why_free": "'status' is a Core verb, so the reply is kind=command off local state - no model rail, no CALL_EST_USD",
+   "ttfb_ms": 265.132,
+   "total_ms": 277.162,
+   "body_gap_ms": 0.0,
+   "session_mint_ms": 71.354
+  }
+ },
+ "control_ab": {
+  "wire": "cvm-dt-post-probe/1",
+  "what": "identical BaseHTTPRequestHandler two-write response; the two arms differ only in disable_nagle_algorithm",
+  "interleaved": true,
+  "nagle_on_default": {
+   "n": 5,
+   "body_gap_ms": 0.0,
+   "body_gap_max_ms": 0.0,
+   "total_ms": 15.598,
+   "rc": 200,
+   "body_bytes": 555
+  },
+  "nagle_off_proposed": {
+   "n": 5,
+   "body_gap_ms": 0.0,
+   "body_gap_max_ms": 0.0,
+   "total_ms": 15.587,
+   "rc": 200,
+   "body_bytes": 555
+  },
+  "body_gap_saved_ms": 0.0,
+  "verdict": "NO_STALL_IN_CONTROL"
+ },
+ "verdict": {
+  "kind": "SERVER_SIDE",
+  "dominant_phase": "ttfb_ms",
+  "why": "every body gap is under 25 ms and the cheapest authed round trip completes in well under a millisecond, so the latency is the route's own work - not the socket, not the client, not Nagle",
+  "gaps_ms": {
+   "unauth_401_floor": 0.0,
+   "status": 0.0,
+   "control": 0.0,
+   "health": 0.0
+  },
+  "falsified": "Nagle + Windows delayed ACK on the two-write response. Predicted a ~200 ms body_gap; measured 0.0 ms against Core and 0.0 ms saved in the controlled A/B. Hypothesis dropped.",
+  "server_ms": {
+   "status": 17.91,
+   "control": 0.105,
+   "health": 83.417
+  },
+  "voice_post_ttfb_ms": 265.132,
+  "voice_post_vs_cheapest_get": 264.914,
+  "session_mint_ms": 71.354
+ },
+ "token": "read from the config role and sent as a header; never printed, logged or stored"
+}

@@ -1,0 +1,173 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-f15-post-probe/1",
+ "suite": "test_cvm_post_probe.py",
+ "passed": 25,
+ "total": 25,
+ "gated_at_epoch": 1788295581.3570902,
+ "python": "3.14.0",
+ "live_value": {
+  "stall_detector": {
+   "stalled_body_gap_ms": 120.795,
+   "clean_body_gap_ms": 0.0,
+   "injected_ms": 120.0,
+   "threshold_ms": 25.0
+  },
+  "think_attribution": {
+   "ttfb_ms": 121.271,
+   "body_gap_ms": 0.0
+  },
+  "refusal_fold": {
+   "posts_spent": 4,
+   "kept_ttfb_ms": 151.243,
+   "refused": [
+    "DUPLICATE",
+    "DUPLICATE",
+    "DUPLICATE"
+   ],
+   "real_turn_ms": 150.0
+  },
+  "artifact": {
+   "path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\POST_BREAKDOWN.json",
+   "tree_id": "KMesh-COSMOS-live",
+   "verdict": "SERVER_SIDE",
+   "server_ms": {
+    "status": 17.91,
+    "control": 0.105,
+    "health": 83.417
+   },
+   "voice_post_mint_ttfb_ms": 265.132,
+   "voice_post_resume_ttfb_ms": 193.778,
+   "session_mint_ms": 71.354,
+   "token_check": "compared, not printed"
+  }
+ },
+ "emitted": "f15-post:KMesh-COSMOS-live:voice_post_mint 265.132 ms / resume 193.778 ms / session_mint 71.354 ms; control GET 0.105 ms; stall detector 120.795 ms on a 120.0 ms injection",
+ "results": [
+  {
+   "name": "phases_all_present",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "phase_rc_and_body_are_real",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "phases_sum_within_total",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "stall_of_120ms_is_measured",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "stall_is_attributed_to_the_body_gap_not_ttfb",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "clean_server_reads_zero",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "think_time_lands_on_ttfb_not_the_gap",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "real_answer_is_not_a_refusal",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "http200_duplicate_is_a_refusal",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "http200_spend_block_is_a_refusal",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "http401_is_a_refusal",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "mixed_run_keeps_only_the_real_turn",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "three_refusals_are_typed_and_excluded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "median_is_not_dragged_below_the_real_turn",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "all_refused_reports_UNMEASURED_not_zero",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "budget_is_never_exceeded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_real_gap_is_called_a_transport_stall",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "zero_gaps_are_called_server_side",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "server_side_verdict_records_the_falsified_hypothesis",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "server_side_verdict_carries_the_post_number",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "no_measurement_is_UNMEASURED_not_a_verdict",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "live_artifact_is_bound_to_the_real_tree",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "live_artifact_names_a_verdict",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "live_cheapest_get_is_sub_millisecond",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "live_artifact_carries_no_token",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

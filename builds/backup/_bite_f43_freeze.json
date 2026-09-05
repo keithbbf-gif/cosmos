@@ -1,0 +1,13 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "F-43 freeze \u2014 incumbent has no freeze seam",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_cosmos_backup_f43_freeze_20260831T151003Z\\cosmos_backup.py",
+ "has_freeze_param": false,
+ "has_freeze_module": false,
+ "freeze_kw_crash": "TypeError",
+ "freeze_kw_kind": null,
+ "mutated_kind": "SOURCE_MUTATED",
+ "mutated_crash": null,
+ "mutated_manifest_sealed": false,
+ "all_bite": true
+}

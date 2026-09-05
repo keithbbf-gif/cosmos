@@ -1,0 +1,128 @@
+{
+ "ok": true,
+ "probe": "tests/test_events_page.py \u2014 P-1 events page + ?tail=N",
+ "prechange_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_follow_events_20260831T105507Z\\cosmos\\cosmos_service.py",
+ "prechange": {
+  "loaded": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_follow_events_20260831T105507Z\\cosmos\\cosmos_service.py",
+  "checks": [
+   {
+    "name": "since0_oldest_first",
+    "ok": true,
+    "detail": "status=200 n=100 first=1 head=138 want_head=138"
+   },
+   {
+    "name": "tail_returns_newest",
+    "ok": false,
+    "detail": "status=200 n=100 first=1 last=100 head=138"
+   },
+   {
+    "name": "tail_last_is_head",
+    "ok": false,
+    "detail": "head_seq=138 last=100"
+   },
+   {
+    "name": "one_verify_walk",
+    "ok": false,
+    "detail": "verify_calls=2 (want 1; old handler called 2)"
+   },
+   {
+    "name": "bad_tail_400",
+    "ok": false,
+    "detail": "status=200 error=None"
+   },
+   {
+    "name": "tail_zero_400",
+    "ok": false,
+    "detail": "status=200 error=None"
+   },
+   {
+    "name": "tail_over_page_400",
+    "ok": false,
+    "detail": "status=200 error=None"
+   },
+   {
+    "name": "cursor_at_head_empty",
+    "ok": true,
+    "detail": "status=200 n=0 head=138"
+   },
+   {
+    "name": "helper_tail_matches_http",
+    "ok": true,
+    "detail": "head=138 n=5 last=138"
+   },
+   {
+    "name": "boot_verified_carries_node",
+    "ok": true,
+    "detail": "BOOT_VERIFIED.node must equal worker (FOLLOW_KEYS)"
+   }
+  ],
+  "tests_run": 10,
+  "tests_passed": 4,
+  "all_named_pass": false,
+  "discriminating_failed": true,
+  "head_seq_emitted": "head_seq=138 last=100"
+ },
+ "current": {
+  "loaded": "live:cosmos/cosmos_service.py",
+  "checks": [
+   {
+    "name": "since0_oldest_first",
+    "ok": true,
+    "detail": "status=200 n=100 first=1 head=138 want_head=138"
+   },
+   {
+    "name": "tail_returns_newest",
+    "ok": true,
+    "detail": "status=200 n=5 first=134 last=138 head=138"
+   },
+   {
+    "name": "tail_last_is_head",
+    "ok": true,
+    "detail": "head_seq=138 last=138"
+   },
+   {
+    "name": "one_verify_walk",
+    "ok": true,
+    "detail": "verify_calls=1 (want 1; old handler called 2)"
+   },
+   {
+    "name": "bad_tail_400",
+    "ok": true,
+    "detail": "status=400 error=BAD_TAIL"
+   },
+   {
+    "name": "tail_zero_400",
+    "ok": true,
+    "detail": "status=400 error=BAD_TAIL"
+   },
+   {
+    "name": "tail_over_page_400",
+    "ok": true,
+    "detail": "status=400 error=BAD_TAIL"
+   },
+   {
+    "name": "cursor_at_head_empty",
+    "ok": true,
+    "detail": "status=200 n=0 head=138"
+   },
+   {
+    "name": "helper_tail_matches_http",
+    "ok": true,
+    "detail": "head=138 n=5 last=138"
+   },
+   {
+    "name": "boot_verified_carries_node",
+    "ok": true,
+    "detail": "BOOT_VERIFIED.node must equal worker (FOLLOW_KEYS)"
+   }
+  ],
+  "tests_run": 10,
+  "tests_passed": 10,
+  "all_named_pass": true,
+  "discriminating_failed": false,
+  "head_seq_emitted": "head_seq=138 last=138"
+ },
+ "events_page": 100,
+ "tail_n": 5,
+ "pad": 120
+}

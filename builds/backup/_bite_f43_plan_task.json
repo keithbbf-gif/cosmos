@@ -1,0 +1,11 @@
+{
+ "clock_path": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_local_clock.py",
+ "clock_exists": false,
+ "daemon_exists": true,
+ "daemon_has_plan_task_argv": false,
+ "daemon_has_TASK_NAME": false,
+ "daemon_mentions_schtasks": true,
+ "import_state": "ABSENT",
+ "import_error": "ModuleNotFoundError",
+ "all_bite": true
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "cosmos-f36-judgement/1",
+ "ok": true,
+ "measured_utc": "2026-08-31T18:55:49Z",
+ "tree_id": "KMesh-COSMOS-live",
+ "consecutive_agreements": 62,
+ "flip_streak_target": 96,
+ "ticks_remaining": 34,
+ "flip_ready": false,
+ "agree": true,
+ "ticks_total": 62,
+ "ticks_agreed": 62,
+ "authority": "markdown",
+ "hb_last_run": "2026-08-31T13:45:02-05:00",
+ "hb_last_run_epoch": 1788201902,
+ "hb_age_s": 647.4,
+ "clock_stale_20min": false,
+ "clock_alive": true,
+ "driver_hardcodes_markdown": true,
+ "driver_flip_streak_target_96": true,
+ "driver_flip_ready_is_advice": true,
+ "canon_has_21a": true,
+ "canon_names_keith_or_cow": true,
+ "audit_ok": true,
+ "unreviewed_count": 0,
+ "open_count": 1,
+ "open": [
+  "parse_tracker_markdown"
+ ],
+ "restraint_justified": true,
+ "restraint_is_excuse": false,
+ "whose_judgement": "Threshold: cosmos/cosmos_motif_driver.py FLIP_STREAK_TARGET=96 (2026-08-30 CC audit; scar 2026-08-26 claim-as-evidence). Flip actor: Keith or COW on the cosmos/ fence after flip_ready. This fence (docs/probe) cannot land write_tracker_json or 2.2.",
+ "cannot_flip_this_fence": true,
+ "writes": 0,
+ "live_paths": {
+  "agreement": "V:\\A\\Ai\\COSMOS\\live\\state\\motif_agreement.json",
+  "tracker": "V:\\A\\Ai\\COSMOS\\live\\state\\motif_tracker.json",
+  "heartbeat": "V:\\A\\Ai\\COSMOS\\live\\logs\\motif_driver_heartbeat.json"
+ },
+ "describes": {
+  "cosmos/cosmos_motif_driver.py": {
+   "exists": true,
+   "bytes": 45099,
+   "sha256": "5ae0184331ddb4ff0e52604f18f87d9e5b11e76b422f38ef5cc055c3b8e30510"
+  },
+  "cosmos/cosmos_derivation_audit.py": {
+   "exists": true,
+   "bytes": 7105,
+   "sha256": "e9b0cc642b80d4101da20119cce44945573dff5d033b5b57e4aa3db763c2baa5"
+  },
+  "docs/CORE_RESTRUCTURE.md": {
+   "exists": true,
+   "bytes": 8362,
+   "sha256": "730fb246fac175aed064896ec1c83198828f65bafafddc606185023e30a90aa7"
+  }
+ },
+ "describes_schema": "cosmos-claim-artifact-freshness/1"
+}

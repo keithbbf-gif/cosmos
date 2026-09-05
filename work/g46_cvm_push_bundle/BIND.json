@@ -1,0 +1,123 @@
+{
+  "schema": "cosmos-bind/1",
+  "bundle": "g46_cvm_push_bundle",
+  "agent": "G46",
+  "ts": "2026-08-27T04:38:26-05:00",
+  "p10": true,
+  "propose_only": true,
+  "wrote_to": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_push_bundle",
+  "touched_live_tree": false,
+  "touched_cosmos_package": false,
+  "host": "py -3.14",
+  "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_push_bundle",
+  "cvm_pull_handler": "composed",
+  "cvm_snap_handler": "composed",
+  "handlers_unchanged_why": "cvm_store_push late-imports cosmos_service._cvm_store_snapshot (SS8.3 envelope, kinds filter, request_id idempotency, phone.json) and _cvm_pull_response (GET /cvm/pull ticket). Copying either would be bloat. GET /cvm/pull branch is byte-identical in behaviour. POST /cvm/snapshot parse+error-map is reused for /cvm/push (one urlparse, one body read). Auth is the existing do_POST bearer (config/api_token.txt).",
+  "py_compile": {
+    "cmd": "py -3.14 -m py_compile cosmos\\cosmos_cvm_push.py ; py -3.14 -m py_compile cosmos\\cosmos_service.py ; py -3.14 -m py_compile tests\\test_cvm_push.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_push_bundle",
+    "quoted_from": "PUSH_COMPILE=0 SERVICE_COMPILE=0 TEST_COMPILE=0",
+    "cosmos/cosmos_cvm_push.py": {"rc": 0, "lines": 138, "bytes": 5072, "sha256_16": "b42a2c2cba31dec0"},
+    "cosmos/cosmos_service.py": {"rc": 0, "lines": 1480, "bytes": 82720, "sha256_16": "b6a4a7f35d6ecefe"},
+    "tests/test_cvm_push.py": {"rc": 0, "lines": 379, "bytes": 14152, "sha256_16": "8154b8fd68670677"}
+  },
+  "tests": {
+    "cmd": "py -3.14 tests\\test_cvm_push.py",
+    "cwd": "V:\\A\\Ai\\COSMOS\\work\\g46_cvm_push_bundle",
+    "rc": 0,
+    "passed": "6/6",
+    "failed": 0,
+    "quoted_from": "stdout: result: ok  6/6 then TEST_RC=0",
+    "labels": [
+      "PASS  phone push never becomes a second audio owner (push→pull quotes desktop, cursor is the pushed turn)",
+      "PASS  missing pull.json is seeded desktop, never phone",
+      "PASS  POST /cvm/snapshot still the P3 helper (no owner stamp)",
+      "PASS  push reuses snapshot BAD_SNAPSHOT on a bad envelope",
+      "PASS  source composes _cvm_store_snapshot + _cvm_pull_response (no kinds-filter copy, no phone owner, no bts_, no drive lit)",
+      "PASS  HTTP POST /cvm/push then GET /cvm/pull: bearer 401, audio_owner=desktop, pull cursor is the pushed turn"
+    ]
+  },
+  "runtime_binding": {
+    "what_done_is": "the test asserting a phone push never becomes a second audio owner passing against the emitted handler, plus py_compile rc=0 — not an exit code on --once against live :8770",
+    "isolated_proof": {
+      "test": "test_phone_push_never_second_audio_owner + test_bearer_and_http_push_then_pull",
+      "label": "phone push never becomes a second audio owner (push→pull quotes desktop, cursor is the pushed turn)",
+      "passed": true,
+      "audio_owner": "desktop",
+      "owners": ["desktop"],
+      "claimed": false,
+      "push_path": "/api/v1/cvm/push",
+      "envelope": "cvm_snap.snapshot_delta (SS8.3, no second body)",
+      "body_audio_owner_phone_stripped": true,
+      "pull_json_seeded_phone_stamped_desktop": true,
+      "pull_cursor_equals_push_cursor_out": true,
+      "quoted_from": "GET /api/v1/cvm/pull after POST /api/v1/cvm/push",
+      "live_value": {
+        "audio_owner": "desktop",
+        "claimed": false,
+        "cursor": "8c575d25becf0b70c08c1a2f65427953e861cfcf19dbea3edf03c0e6c4d451ea",
+        "push_audio_owner": "desktop",
+        "push_cursor_out": "8c575d25becf0b70c08c1a2f65427953e861cfcf19dbea3edf03c0e6c4d451ea",
+        "replay_audio_owner": "desktop",
+        "replay_idempotent": true
+      },
+      "wrote_audio_json": false,
+      "wrote_handoff_json": false,
+      "bearer_401_without_token": true,
+      "py_compile_rc": 0
+    },
+    "also_proved": {
+      "missing_pull_json_seeded_desktop_not_phone": true,
+      "snapshot_path_unchanged_no_owner_stamp": true,
+      "bad_envelope_is_BAD_SNAPSHOT": true,
+      "replay_idempotent_still_desktop": true,
+      "composed_not_copied": true
+    },
+    "live_8770_not_run": true,
+    "reason": "P10 propose-only; isolated Kernel/HTTP double so the phone-push contract is measured without a Core restart"
+  },
+  "elegance": {
+    "snap_copied": false,
+    "pull_copied": false,
+    "push_hook": "cvm_store_push -> _cvm_store_snapshot then stamp pull.json audio_owner=desktop then _cvm_pull_response",
+    "post_parse_shared": "do_POST urlparse path in (snapshot, push); one body read; one CvmError map",
+    "auth": "existing do_POST if not self._authed() bearer (config/api_token.txt)",
+    "envelope_body": "SS8.3 snapshot_delta (cvm, client_id, request_id, cursor_in, kinds) — body.audio_owner stripped",
+    "never_claims_audio": true,
+    "does_not_write": ["state/cvm/audio.json", "state/cvm/handoff.json"],
+    "writes": ["state/cvm/phone.json via _cvm_store_snapshot", "state/cvm/pull.json audio_owner=desktop stamp (seed if missing)"],
+    "no_bts_imports": true,
+    "no_hardcoded_paths": true,
+    "no_ledger_append": true,
+    "resolver": "kernel.paths.state('cvm', ...)"
+  },
+  "files": [
+    "cosmos/cosmos_cvm_push.py",
+    "cosmos/cosmos_service.py",
+    "tests/test_cvm_push.py",
+    "HANDLERS_UNCHANGED.txt",
+    "EMIT.txt",
+    "emit/cosmos__cosmos_cvm_push.py.emit.txt",
+    "emit/cosmos__cosmos_service.py.emit.txt",
+    "emit/tests__test_cvm_push.py.emit.txt",
+    "emit/HANDLERS_UNCHANGED.txt.emit.txt",
+    "BIND.json"
+  ],
+  "envelope": "<<<FILE path=... action=create|replace>>> ... <<<FILE_END>>> (full-file creates/replaces, not diffs)",
+  "cow_dispose": [
+    "extract EMIT.txt / emit/*.emit.txt FILE blocks",
+    "copy cosmos/cosmos_cvm_push.py onto cosmos/cosmos_cvm_push.py (create)",
+    "copy cosmos/cosmos_service.py onto cosmos/cosmos_service.py (replace — full file, not a diff)",
+    "copy tests/test_cvm_push.py onto tests/test_cvm_push.py",
+    "do NOT apply a unified diff (corrupt-patch scar)",
+    "do NOT rewrite cvm_pull.py / cvm_snap.py / cvm_phone_clock.py / cvm_dt_clock.py",
+    "do NOT edit live Core :8770 until dispose; this bundle is P10 propose-only",
+    "py -3.14 -m py_compile cosmos\\cosmos_cvm_push.py cosmos\\cosmos_service.py tests\\test_cvm_push.py",
+    "py -3.14 tests\\test_cvm_push.py"
+  ],
+  "not_done": [
+    "did not write the live tree or cosmos/ package",
+    "did not change cvm_pull.py / cvm_snap.py / cvm_phone_clock.py",
+    "did not run schtasks / --loop / live :8770 gate"
+  ]
+}

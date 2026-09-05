@@ -1,0 +1,15 @@
+{
+ "schema": "cosmos-askmine/1",
+ "tick": "once",
+ "clock_id": 19,
+ "heartbeat": "askmine_heartbeat.json",
+ "scan_dirs": [
+  "V:\\A\\Ai\\COSMOS\\cosmos"
+ ],
+ "transcripts_seen": 0,
+ "ok": false,
+ "state": "REFUSED",
+ "kind": "NO_TRANSCRIPT",
+ "detail": "[NO_TRANSCRIPT] no .jsonl under scan_dirs (pass --scan-dir or config)",
+ "elapsed_s": 0.003
+}

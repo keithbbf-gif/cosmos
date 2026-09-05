@@ -1,0 +1,26 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round2 probe pins FAIL against staged predecessor",
+ "old": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_unpinned_round2_20260831T133712Z",
+ "tests_run": 7,
+ "failed": 7,
+ "failed_names": [
+  "NO_GENERATOR",
+  "UNWRITABLE",
+  "NOT_WINDOWS",
+  "IMPORT_FAILED",
+  "BAD_SPEC",
+  "NO_LEDGER",
+  "BAD_LEDGER"
+ ],
+ "ran_names": [
+  "NO_GENERATOR",
+  "UNWRITABLE",
+  "NOT_WINDOWS",
+  "IMPORT_FAILED",
+  "BAD_SPEC",
+  "NO_LEDGER",
+  "BAD_LEDGER"
+ ],
+ "all_new_pins_failed": true
+}

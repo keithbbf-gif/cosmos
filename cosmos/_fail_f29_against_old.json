@@ -1,0 +1,23 @@
+{
+ "schema": "cosmos-f29-fail-old/1",
+ "old_kernel": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_kernel_f29_20260831T130051Z\\cosmos_kernel.py",
+ "old_bytes": 18570,
+ "ready": true,
+ "composed": [
+  "node_rails",
+  "cursor-api",
+  "codex-cli",
+  "playwright-dom",
+  "firecrawl-web",
+  "claude-cli",
+  "dispatcher",
+  "prove_nodes"
+ ],
+ "pins": {
+  "tools_surface_in_composed": false,
+  "kernel_tools_bound": false,
+  "tools_compose_invoked_false": false,
+  "inventory_xai_openai": false
+ },
+ "all_new_pins_failed": true
+}

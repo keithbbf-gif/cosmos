@@ -1,0 +1,224 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-stt-whisper-gate/1",
+ "suite": "test_cvm_stt_whisper.py",
+ "passed": 18,
+ "total": 18,
+ "gated_at_epoch": 1788295628.8719108,
+ "python": "3.14.0",
+ "live_value": {
+  "clean_process_sees": {
+   "fw": false,
+   "ct2": false
+  },
+  "roots": {
+   "whisper": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\whisper_site",
+   "vosk": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\site"
+  },
+  "hf_cache": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\hf",
+  "provisioned": {
+   "site": true,
+   "report": true,
+   "hf_cache": true,
+   "site_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\whisper_site",
+   "hf_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\hf",
+   "package_count": 25,
+   "unpinned": [],
+   "only_binary": true,
+   "models_on_disk": [
+    "models--Systran--faster-whisper-base.en",
+    "models--Systran--faster-whisper-tiny.en"
+   ],
+   "hf_bytes": 225938218
+  },
+  "pins": {
+   "packages": 25,
+   "with_sha256": 25
+  },
+  "pinned_in_artifact": {
+   "count": 25,
+   "unpinned": [],
+   "only_binary": true
+  },
+  "metric": {
+   "punctuated": [
+    0.6,
+    0.8
+   ],
+   "clean": [
+    1.0,
+    1.0
+   ]
+  },
+  "cuda": {
+   "device_count": 1,
+   "attempt": {
+    "ok": false,
+    "failed_at": "decode",
+    "kind": "RuntimeError",
+    "detail": "Library cublas64_12.dll is not found or cannot be loaded",
+    "model": "tiny.en",
+    "compute_type": "int8_float16",
+    "ms": 553.8,
+    "means": "the GPU is visible to the driver and unusable to the runtime; see RUNTIMES.json:reachability.gpu-cuda-libs for what the missing libraries cost"
+   }
+  },
+  "construct_vs_decode": {
+   "constructed": true,
+   "decoded": false,
+   "failed_at": "decode"
+  },
+  "two_phrase_measure": {
+   "rows": [
+    {
+     "engine": "whisper:tiny.en",
+     "per_utterance_ms": 369.124,
+     "word_recall": 0.633,
+     "word_recall_normalised": 0.9,
+     "phrases": 2
+    },
+    {
+     "engine": "vosk:vosk-model-small-en-us-0.15",
+     "per_utterance_ms": 163.929,
+     "word_recall": 0.9,
+     "word_recall_normalised": 0.9,
+     "phrases": 2
+    },
+    {
+     "engine": "sapi:MS-1033-80-DESK",
+     "per_utterance_ms": 251.301,
+     "word_recall": 0.5,
+     "word_recall_normalised": 0.666,
+     "phrases": 2
+    }
+   ],
+   "dominates": [
+    {
+     "faster_and_no_less_accurate": "vosk:vosk-model-small-en-us-0.15",
+     "than": "whisper:tiny.en",
+     "ms": [
+      163.929,
+      369.124
+     ],
+     "recall": [
+      0.9,
+      0.9
+     ],
+     "perfect": [
+      1,
+      1
+     ]
+    },
+    {
+     "faster_and_no_less_accurate": "vosk:vosk-model-small-en-us-0.15",
+     "than": "sapi:MS-1033-80-DESK",
+     "ms": [
+      163.929,
+      251.301
+     ],
+     "recall": [
+      0.9,
+      0.666
+     ],
+     "perfect": [
+      1,
+      1
+     ]
+    }
+   ]
+  }
+ },
+ "emitted": "f21b-gate:18/18:Library cublas64_12.dll is not found or cannot be loaded",
+ "results": [
+  {
+   "name": "provisioning_ARMS_NOTHING_in_a_clean_process",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_whisper_root_is_separate_from_the_vosk_root",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "wheels_and_weights_both_stay_inside_the_fence",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "pip_report_pins_every_package_with_a_sha256",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_committed_artifact_carries_those_digests",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "normalised_recall_differs_on_punctuation_and_agrees_elsewhere",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "normalised_recall_does_NOT_flatter_a_real_miss",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_whisper_ear_has_the_same_surface_as_the_vosk_ear",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_measure_with_no_phrases_REFUSES",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "finish_without_accept_REFUSES",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_wrong_sample_rate_REFUSES",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_cuda_claim_is_a_DECODE_not_a_capability_query",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_CONSTRUCTION_only_probe_would_have_reported_a_working_gpu",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "every_row_carries_the_sample_size_it_was_scored_on",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "all_three_engines_are_in_the_comparison",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "every_engine_heard_the_SAME_phrases",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_fixture_bias_against_the_finding_is_recorded",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "dominance_is_reported_as_a_pair_not_a_boolean",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

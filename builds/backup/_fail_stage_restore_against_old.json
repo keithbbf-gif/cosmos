@@ -1,0 +1,24 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new TestRestoreFailClosed pins FAIL against stripped predecessor",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_stage_restore_20260831T123422Z\\cosmos_backup.py",
+ "tests_run": 5,
+ "failures": 5,
+ "errors": 0,
+ "unexpected_successes": 0,
+ "failed_names": [
+  "test_empty_folder_is_NOT_A_BACKUP_SET",
+  "test_file_as_source_is_SOURCE_NOT_DIR",
+  "test_flipped_retrieve_refuses_REHEARSAL_HASH_MISMATCH",
+  "test_flipped_retrieve_refuses_RESTORE_HASH_MISMATCH",
+  "test_occupied_stage_slot_refuses_STAGE_OCCUPIED"
+ ],
+ "ran_names": [
+  "test_empty_folder_is_NOT_A_BACKUP_SET",
+  "test_file_as_source_is_SOURCE_NOT_DIR",
+  "test_flipped_retrieve_refuses_REHEARSAL_HASH_MISMATCH",
+  "test_flipped_retrieve_refuses_RESTORE_HASH_MISMATCH",
+  "test_occupied_stage_slot_refuses_STAGE_OCCUPIED"
+ ],
+ "all_new_pins_failed": true
+}

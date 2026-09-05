@@ -1,0 +1,29 @@
+{
+ "what": "new mount-clock R2 pins FAIL against predecessor (gdx/odx/es3 only)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_mount_clock_r2_20260831T183114Z",
+ "pins": {
+  "tick_has_r2_transport_factory_param": false,
+  "selfcheck_passes_r2_override": false,
+  "scheduled_tick_emits_r2_row": false,
+  "absent_credential_is_NO_CREDENTIALS": false,
+  "injected_memory_transport_pushes_r2": false
+ },
+ "failed_pins": [
+  "tick_has_r2_transport_factory_param",
+  "selfcheck_passes_r2_override",
+  "scheduled_tick_emits_r2_row",
+  "absent_credential_is_NO_CREDENTIALS",
+  "injected_memory_transport_pushes_r2"
+ ],
+ "passed_pins": [],
+ "detail": {
+  "scheduled_kinds": [
+   "gdx",
+   "odx",
+   "es3"
+  ],
+  "scheduled_state": "PARTIAL",
+  "injected_typeerror": "tick() got an unexpected keyword argument 'r2_transport_factory'"
+ },
+ "all_new_pins_failed": true
+}

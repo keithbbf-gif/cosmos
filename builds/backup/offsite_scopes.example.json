@@ -1,0 +1,64 @@
+{
+  "_readme": [
+    "TEMPLATE for <runtime root>/config/offsite_scopes.json — the scope declaration",
+    "cosmos_offsite_clock reads. It is NOT read from here; copy it to the config role.",
+    "",
+    "Nothing in COSMOS guesses a source tree: an absent declaration is a typed refusal",
+    "(NO_SCOPES), because a backup that quietly covers a plausible-but-wrong tree is the",
+    "green-log defect this whole module exists to refuse.",
+    "",
+    "'name' becomes the R2 key prefix and is validated like a manifest key — no absolute",
+    "paths, no '..'. Each push lands under <name>/<YYYYmmddTHHMMSS>/, so a push never",
+    "overwrites its predecessor and nothing is ever deleted from the bucket by COSMOS.",
+    "",
+    "ORDER MATTERS: scopes are pushed in the order listed, smallest first, because a 65",
+    "GiB monolith that refuses at 90% restarts from zero. Roll out one scope at a time.",
+    "",
+    "MEASURED SIZES (2026-08-31, docs/R2_OFFSITE_PLAN.md §3): cosmos/ 220 files /",
+    "4.9 MB · V:\\Ai 15,107 / 11.37 GiB · V:\\Research4 79,533 / 24.21 GiB ·",
+    "V:\\A 55,864 / 29.84 GiB. The three WISHLIST trees hold 2,143 files past MAX_PATH;",
+    "they are covered (test_longpath_r2.py) but they are why the first push is slow.",
+    "",
+    "SECRETS: a scope containing key material REFUSES with SECRETS_IN_SCOPE before a",
+    "byte moves — this target is unencrypted and there is no override flag. Exclude the",
+    "offending file or build encryption at rest; do not add a bypass.",
+    "",
+    "The 'trees' entry below is commented out by being named '_staged_later': add it to",
+    "'scopes' only after the cosmos/ push has been proven against the real bucket.",
+    "",
+    "F-54 orchestrator state is NOT a live/state wholesale scope (that dir holds",
+    "mailboxes and dispatch receipts). cosmos_state_offsite.py packs a whitelist",
+    "(SEED.json, SEED.decl.json, inflight.jsonl, motif_tracker.json) into",
+    "work/_delme_state_offsite/<stamp>/payload and pushes THAT tree. Without dests",
+    "and without the R2 credential the packer's tick REFUSES NO_OFFSITE_ROUTE."
+  ],
+  "scopes": [
+    {
+      "name": "cosmos",
+      "source": "V:\\A\\Ai\\COSMOS\\cosmos",
+      "excludes": [".git", "__pycache__"]
+    },
+    {
+      "name": "docs",
+      "source": "V:\\A\\Ai\\COSMOS\\docs",
+      "excludes": [".git", "__pycache__"]
+    }
+  ],
+  "_staged_later": [
+    {
+      "name": "Ai",
+      "source": "V:\\Ai",
+      "excludes": [".git", "__pycache__"]
+    },
+    {
+      "name": "Research4",
+      "source": "V:\\Research4",
+      "excludes": [".git", "__pycache__"]
+    },
+    {
+      "name": "A",
+      "source": "V:\\A",
+      "excludes": [".git", "__pycache__"]
+    }
+  ]
+}

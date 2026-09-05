@@ -1,0 +1,13 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "HMAC seal + verify-on-write asserted in prose, unpinned",
+ "staged": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_backup_hmac_20260831T120514Z\\cosmos_backup.py",
+ "hmac_forged_old_passed": true,
+ "hmac_forged_old_kind": null,
+ "hmac_null_pre_fix_crash": "TypeError",
+ "hmac_null_pre_fix_kind": null,
+ "copy_hash_old_succeeded": true,
+ "copy_hash_old_kind": null,
+ "copy_hash_old_manifest_sealed": true,
+ "all_bite": true
+}

@@ -36,6 +36,15 @@ from pathlib import Path
 _TAILNET_V4 = re.compile(r"^100\.\d{1,3}\.\d{1,3}\.\d{1,3}$")
 
 
+def _pythonw() -> str:
+    """pythonw.exe beside the running interpreter (no console window) for the
+    HEADLESS logon service. Falls back to the console python if pythonw is
+    absent. Interactive `cosmos up` keeps the visible `py` launcher."""
+    import sys
+    cand = Path(sys.executable).with_name("pythonw.exe")
+    return str(cand) if cand.exists() else str(sys.executable)
+
+
 class UpError(RuntimeError):
     """kind in {NO_TAILSCALE, NOT_LOGGED_IN, NO_CERT, BAD_STATE}."""
 
@@ -202,6 +211,9 @@ class RoadUp:
         died). /rl highest needs ONE elevated shell from Keith to register;
         after that it is standing. A nonzero rc is reported, never swallowed."""
         serve = self.plan_serve_cmd(root, port)
+        # Headless at logon: pythonw (no console) so the auto-serve never flashes
+        # a window. plan_serve_cmd stays `py` for interactive/visible `cosmos up`.
+        serve = [_pythonw()] + serve[2:]
         tr = subprocess.list2cmdline(serve)
         argv = ["schtasks", "/create", "/tn", self.TASK_NAME, "/tr", tr,
                 "/sc", "onlogon", "/rl", "highest", "/f"]

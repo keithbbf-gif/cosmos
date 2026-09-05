@@ -1,0 +1,17 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "F-43 gap 3 torn snapshot seals; gap 5 no retire",
+ "module": "V:\\A\\Ai\\COSMOS\\builds\\backup\\cosmos_backup.py",
+ "torn_snapshot_sealed": true,
+ "torn_snapshot_kind": "BACKUP_OK",
+ "torn_snapshot_crash": null,
+ "torn_snapshot_manifest_exists": true,
+ "torn_snapshot_mutated_rel": "a.txt",
+ "has_do_retire": false,
+ "has_list_backup_sets": false,
+ "cli_has_retire": false,
+ "source_has_add_parser_retire": false,
+ "source_has_do_retire_def": false,
+ "source_has_SOURCE_MUTATED": false,
+ "all_bite": true
+}

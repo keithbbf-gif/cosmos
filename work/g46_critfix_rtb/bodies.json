@@ -1,0 +1,38 @@
+{
+ "gem": {
+  "returns_path": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json",
+  "stdout_full": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json.stdout.txt",
+  "worker_packet": "V:\\A\\Ai\\COSMOS\\live\\buckets\\gem\\processed\\20260827T043515-0500_handoff-20260827T043515-0500.json",
+  "worker_result": "V:\\A\\Ai\\COSMOS\\live\\returns\\gem\\gem_handoff-20260827T043515-0500_20260827T043515-0500_result.json",
+  "done": true,
+  "done_why": "nonempty_stdout",
+  "rc": 0,
+  "secs": 29.9,
+  "model": "bts_gem",
+  "link_id": "gem-api",
+  "error": "",
+  "text_bytes": 11561,
+  "text_source": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\gem_gem_cvmdt_clock_motif_stage_5_critique_g_c4443209_result.json.stdout.txt",
+  "nonempty": true,
+  "text_head": "# cvm_dt - Motif stage-5 critique (gem-api)\n\nThis critique assesses `builds/cvm-dt/cvm_dt_clock.py` against its stated contract, the `CVM_ARCH` H-constraints, and live observations. My role as GEM is to provide a \"different-family\" review, highlighting areas of disagreement or alternative interpretation compared to a Grok-authored module.\n\n### Findings\n\n#### F1: `H10 real OS clock`: `CLOCK_ID` val",
+  "text_len": 11561
+ },
+ "oa": {
+  "returns_path": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json",
+  "stdout_full": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json.stdout.txt",
+  "worker_packet": "V:\\A\\Ai\\COSMOS\\live\\buckets\\oa\\processed\\20260827T043515-0500_handoff-20260827T043515-0500.json",
+  "worker_result": "V:\\A\\Ai\\COSMOS\\live\\returns\\oa\\oa_handoff-20260827T043515-0500_20260827T043515-0500_result.json",
+  "done": true,
+  "done_why": "nonempty_stdout",
+  "rc": 0,
+  "secs": 77.6,
+  "model": "bts_oa_api",
+  "link_id": "oa-api",
+  "error": "",
+  "text_bytes": 16189,
+  "text_source": "V:\\A\\Ai\\COSMOS\\live\\queue\\returns\\cm\\oai_oa_cvmdt_clock_motif_stage_5_critique_o_bc130121_result.json.stdout.txt",
+  "nonempty": true,
+  "text_head": "# cvmdt - Motif stage-5 critique (oa-api)\n\n## Evidence boundary\n\nThis review is limited to the supplied artifacts:\n\n- `builds/cvm-dt/cvm_dt_clock.py`\n- `builds/cvm-dt/test_cvm_dt_clock.py`\n- supplied `README.md` excerpt (explicitly the voice-client README, not clock documentation)\n- supplied `docs/CVM_ARCH.md` H-constraint excerpt\n- dispatch-time live observations\n\nThe supplied test is loopback/fa",
+  "text_len": 16095
+ }
+}

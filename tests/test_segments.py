@@ -13,6 +13,7 @@ import hashlib, hmac, json, os, shutil, sys, tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger, LedgerError
 from cosmos_paths import extended
 from cosmos_segments import SegmentedLedger, CAS

@@ -1,0 +1,15 @@
+BITE — NONZERO_RC check against LegacyAnyBodyPass (the maker-hands scar)
+
+The real check: invoke() must raise ToolError(kind=NONZERO_RC) when the
+transport returns http=200, a perfect serverInfo body, AND rc=1.
+
+Against the legacy shim (substring-match "serverInfo" → ok:true):
+
+  legacy.ok True
+  legacy.rc 1
+  FAIL  rc!=0 with a valid body is NONZERO_RC
+        (legacy returned ok=True rc=1; did not refuse)
+
+live_value {"legacy_ok": true, "legacy_rc": 1, "would_pass_nonzero_rc_check": false}
+
+Against the real surface the same fixture raises NONZERO_RC (hermetic 15/15).

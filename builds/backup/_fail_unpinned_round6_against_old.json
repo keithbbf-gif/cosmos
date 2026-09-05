@@ -1,0 +1,15 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new round6 freeze pins FAIL against predecessor (no info() gate)",
+ "predecessor": "V:\\A\\Ai\\COSMOS\\builds\\backup\\_delme\\predispose_unpinned_round6_20260831T161207Z",
+ "tests_run": 2,
+ "failed_names": [
+  "noinfo_acquire_is_BAD_FREEZE:returned:_NoInfo",
+  "noinfo_dobackup_is_BAD_FREEZE:AttributeError"
+ ],
+ "ran_names": [
+  "noinfo_acquire_is_BAD_FREEZE",
+  "noinfo_dobackup_is_BAD_FREEZE"
+ ],
+ "all_new_pins_failed": true
+}

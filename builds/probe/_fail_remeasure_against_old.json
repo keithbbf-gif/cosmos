@@ -1,0 +1,17 @@
+{
+  "all_new_pins_failed": true,
+  "live_backup_bytes": 12147,
+  "old_freshness_has_refresh_if_stale": false,
+  "old_freshness_imports_remeasure_claims": false,
+  "schema": "cosmos-fail-against-old/1",
+  "staged": "V:\\A\\Ai\\COSMOS\\builds\\probe\\_delme\\predispose_stale_claims_20260831T152926Z",
+  "staged_longpath_drift": [
+    "cosmos/cosmos_backup.py",
+    "cosmos/cosmos_backup_clock.py"
+  ],
+  "staged_longpath_kind": "STALE",
+  "staged_longpath_present": true,
+  "staged_longpath_recorded_backup_bytes": 9861,
+  "staged_remeasure_claims_present": false,
+  "what": "claim remesure loop was absent; staged longpath is STALE"
+}

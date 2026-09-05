@@ -88,16 +88,29 @@ class Scheduler:
             return state
         return self.ledger.project(fold, {})
 
-    def queued(self) -> list[dict]:
+    def queued(self, lanes: set | None = None,
+               exclude_lanes: set | None = None) -> list[dict]:
         st = self._state()
         q = [v["m"] for v in st.values() if v["st"] == "QUEUED"]
+        if lanes is not None:
+            allow = {lanes} if isinstance(lanes, str) else set(lanes)
+            q = [m for m in q if m.get("lane", "default") in allow]
+        if exclude_lanes is not None:
+            deny = ({exclude_lanes} if isinstance(exclude_lanes, str)
+                    else set(exclude_lanes))
+            q = [m for m in q if m.get("lane", "default") not in deny]
         return sorted(q, key=lambda m: (-PRIORITIES[m["priority"]],
                                         m["submitted"], m["job_id"]))
 
     # ---------------- claim (the atomic transition) ----------------
-    def claim_next(self) -> Optional[dict]:
+    def claim_next(self, lanes: set | None = None,
+                   exclude_lanes: set | None = None) -> Optional[dict]:
         """Claim the highest-priority queued job. Returns the manifest, or None when the
-        queue is empty. A racing loser gets LOST_CLAIM - typed, clean, and it moves on."""
+        queue is empty. A racing loser gets LOST_CLAIM - typed, clean, and it moves on.
+
+        lanes / exclude_lanes narrow WHICH job is considered; the expect_head_seq
+        fence is unchanged (exactly-once is the ledger head, not the filter).
+        Default None, None ⇒ identical to the unfiltered claim."""
         # CRITIC B2 FIX (measured double-claim closed): the decision and the append are
         # bound by OPTIMISTIC CONCURRENCY on the ledger head. We record the head we
         # projected FROM; append(expect_head_seq=) refuses with STALE_HEAD under the
@@ -105,7 +118,7 @@ class Scheduler:
         # typed LOST_CLAIM, the chain stays whole, and the next call takes the next job.
         from cosmos_ledger import LedgerError
         head = self.ledger.head_seq()
-        q = self.queued()
+        q = self.queued(lanes=lanes, exclude_lanes=exclude_lanes)
         if not q:
             return None
         m = q[0]

@@ -1,0 +1,101 @@
+# COSMOS Principles — canonized in DATA (Keith, 2026-08-25).
+#
+# The narrative form lives in CLAUDE.md. THIS is the enumerated, queryable,
+# TESTABLE form: each principle names the executable check that proves it, so a
+# principle is a GATE, not a wish. Loaded + audited by cosmos_principles.py.
+# Consumer: COSMOS / nodes (structured state -> TOML).
+
+schema   = "cosmos-principles/1"
+ratified = "2026-08-25"
+stream   = "Cm"
+note     = "These are the session principles Keith gave for the Cm self-build stream. Each 'check' is a function in cosmos_principles.py; `--audit` binds each to a live artifact (no fabricated compliance)."
+
+[[principle]]
+id        = "P1"
+name      = "no-idle-15s"
+statement = "COSMOS never idles > 15s. The Activity Clock (Watchdog2) drives the canonized MOTIF route + step-8 ITERATE every 15 seconds; it does not invent a rubric, it drives the one already at the heart of COSMOS."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md; docs/ORCHESTRATION.md; docs/MOTIF.md"
+check     = "activity_clock_15s"
+severity  = "high"
+
+[[principle]]
+id        = "P2"
+name      = "pause-is-a-formal-stop"
+statement = "PAUSE is the formal stop for the retask clock. It halts NEW retasking only — in-flight agents finish, runner + collector keep moving — and it is VISIBLE: a paused clock heartbeats state=PAUSED so it is never mistaken for a dead one."
+source    = "Keith 2026-08-25"
+canon     = "docs/PAUSE_PROTOCOL.md"
+check     = "pause_formal"
+severity  = "high"
+
+[[principle]]
+id        = "P3"
+name      = "resume-gate"
+statement = "At BootUP, once carry-over is loaded, the session presents ONE option: restart on the carried-over task list? No affirmative selection => AUTO-RESUME on the 15s WD2 clock (resume_gate flag self-clears at auto_resume_at). A hold pause never self-clears. Permanent, all streams."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md 'Resession resume gate'; docs/PAUSE_PROTOCOL.md"
+check     = "resume_gate"
+severity  = "high"
+
+[[principle]]
+id        = "P4"
+name      = "no-bts"
+statement = "COSMOS uses its OWN clocks, runner, and queue. No cosmos/ module imports a bts_* module. (Bootstrap dispatch may bridge through the BTS queue transiently, but the COSMOS package itself carries no BTS dependency.)"
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md"
+check     = "no_bts_imports"
+severity  = "high"
+
+[[principle]]
+id        = "P5"
+name      = "anti-loss"
+statement = "Lost tokens = lost time and money. Nothing in the pipeline is lost across a pause/resession: the runner and collector are native Windows daemons on the OS clock; every result is captured; resession reconciles assigned-vs-collected and re-drops any assignment that never returned."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md; docs/COLLECTOR.md; BUCm.toml [next].reconcile"
+check     = "anti_loss_daemons"
+severity  = "high"
+
+[[principle]]
+id        = "P6"
+name      = "self-build-is-a-process"
+statement = "COSMOS builds itself from directional/aspirational input only. Keith gives the wishlist; COSMOS runs research->arch->consensus->build->critics->consensus->improve->ITERATE until Keith says stop. There is no terminal 'done' — it is a PROCESS, not an endpoint. This is the Cm stream."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md 'COSMOS builds itself'; docs/WISHLIST.md; docs/MOTIF.md"
+check     = "self_build_process"
+severity  = "medium"
+
+[[principle]]
+id        = "P7"
+name      = "keep-her-afloat"
+statement = "Self-modification is additive and non-disruptive: the live tree stays UP through its own modification. Fenced commit gateway, fail-closed, modular-monolith split-ready, ONE writer at a time. A change that would take COSMOS down to install itself is the wrong change."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md; docs/FINAL_ARCHITECTURE.md"
+check     = "keep_afloat"
+severity  = "high"
+
+[[principle]]
+id        = "P8"
+name      = "improvement-is-not-bloat"
+statement = "Features increase AND so does the quality and elegance (efficiency) of the code. Every iteration subtracts as well as adds — dead code, duplication, needless abstraction. Net complexity and runtime cost trend DOWN even as capability trends UP. Elegance/efficiency are gate criteria the stage-5 critics judge."
+source    = "Keith 2026-08-25"
+canon     = "CLAUDE.md 'Improvement is not bloat'; docs/MOTIF.md"
+check     = "improvement_not_bloat"
+severity  = "medium"
+
+[[principle]]
+id        = "P9"
+name      = "cow-orchestrates-agents-execute"
+statement = "COW orchestrates; other agents execute. This TUI does not author implementation (Keith 2026-09-04): it writes work orders, runs GitHub/Cursor/GitLab, reviews/refines returned code, then CCr writes the COSMOS live tree. COW writes the BU/SEED handoff, encodes canon, and DROPS work in the box (DHx/queue). The Chief Coder (CCr) is the sole writer of the COSMOS live tree — one CCr at a time, after review. CORE changes from orch/OpenWork are queued for CCr. COW does NOT run searches, session-mining, or research in its own context. COW's tokens are the scarce budget and are not to be burned on execution."
+source    = "Keith 2026-08-25; CCr 2026-09-04; WO-vendor-review 2026-09-04"
+canon     = "CLAUDE.md 'COW's role is a HARD CONTRACT'; docs/CCR.md"
+check     = "orchestrator_only"
+severity  = "high"
+
+[[principle]]
+id        = "P10"
+name      = "agents-propose-orchestrator-disposes"
+statement = "The AI work order. Only the Chief Coder (CCr) writes the COSMOS live tree; one CCr at a time. Orchestrator and OpenWork queue CORE/COSMOS/live-tree changes for the next Cm/CCr. Agents PROPOSE tree changes in their results (target path + content/diff + rationale). Agents never write the live tree or the C:\\ Claude tree, and never delete (propose staging to _delme). The dispatcher auto-attaches docs/AGENT_BOUNDARIES.md to every assignment. This closes the one-writer / keep-her-afloat concurrency gap."
+source    = "Keith 2026-08-25; CCr 2026-09-04"
+canon     = "CLAUDE.md 'COW's role is a HARD CONTRACT'; docs/AGENT_BOUNDARIES.md; docs/CCR.md"
+check     = "agents_propose_only"
+severity  = "high"

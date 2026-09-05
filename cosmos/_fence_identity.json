@@ -1,0 +1,58 @@
+{
+  "schema": "cosmos-fence-identity/1",
+  "photographed_at": "2026-09-05T11:07:50.440866-05:00",
+  "photographed_epoch": 1788624470.012007,
+  "core": {
+    "pid": 45196,
+    "ok": true,
+    "status": {
+      "served_at": 1788624470.2277524,
+      "ready": true,
+      "root": "V:\\A\\Ai\\COSMOS\\live",
+      "tree_id": "KMesh-COSMOS-live",
+      "ledger_head": {
+        "seq": 7635,
+        "event": "BACKUP_VERIFIED"
+      }
+    }
+  },
+  "pulse": {
+    "pid": 49048,
+    "state": "RUNNING",
+    "last_run": "2026-09-05T11:07:29-05:00",
+    "shadow_n": 26,
+    "collect": "reuse"
+  },
+  "pause": false,
+  "sentinel": {
+    "system": "COSMOS",
+    "tree_id": "KMesh-COSMOS-live",
+    "schema_version": 1
+  },
+  "lease": {
+    "schema": "cosmos-ccr-lease/1",
+    "sid": "01a06aba-8a00-7773-9661-0a6ac4a4ad4d",
+    "stream": "Cm",
+    "tree_id": "KMesh-COSMOS-live",
+    "taken_at": 1788568757.8416047
+  },
+  "git": {
+    "head": "8ff2757e854a34bfc59756a690d53aced664636e",
+    "head_subject": "8ff2757 2026-08-31 13:45:42 -0500 GBW race hour: F-60 closed, R2 on the nightly clock, builds/ reaches offsite",
+    "ahead_behind_origin_main": "0\t13",
+    "porcelain_lines": 212,
+    "index_lock": false
+  },
+  "coding": {
+    "account": "orders.ggn@gmail.com",
+    "project": "project-10b3a132-ec5b-41e9-a2c",
+    "probe": "VERTEX_OK_20260905T103723",
+    "ok": true
+  },
+  "holds": [
+    "no merge #30 #32 #36 #37 #38",
+    "no checkout/reset",
+    "no secrets",
+    "core stays up"
+  ]
+}

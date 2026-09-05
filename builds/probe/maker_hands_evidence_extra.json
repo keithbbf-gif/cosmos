@@ -1,0 +1,276 @@
+{
+ "ok": true,
+ "schema": "cosmos-maker-hands-probe/1",
+ "ts": "2026-08-31T03:44:46Z",
+ "tree_id": "KMesh-COSMOS-live",
+ "root": "V:/A/Ai/COSMOS/live",
+ "host": "KC-PC",
+ "python": "3.14.0",
+ "config_names": [
+  "api_token.txt",
+  "cursor_cosmos_key.txt",
+  "cursor_rail.json",
+  "cursor_rail_probe.json",
+  "firecrawl_rail.json",
+  "firecrawl_rail_probe.json",
+  "install_key.bin",
+  "install_record.json",
+  "node_rails.json",
+  "playwright_rail.json",
+  "playwright_rail_probe.json"
+ ],
+ "tally": {
+  "HAND": 15,
+  "UNMEASURED": 1,
+  "ABSENT": 4,
+  "CRED_BLOCKED": 1
+ },
+ "rows": [
+  {
+   "candidate": "GitHub gh",
+   "kind": "CLI",
+   "binary": "gh",
+   "resolved": "C:\\Program Files\\GitHub CLI\\gh.EXE",
+   "verdict": "HAND",
+   "verb": "gh auth status",
+   "need": "logged in to",
+   "rc": 0,
+   "ms": 469,
+   "evidence": "github.com\n  \u00e2\u0153\u201c Logged in to github.com account keithbbf-gif (keyring)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: gho_************************************\n  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'"
+  },
+  {
+   "candidate": "GitHub gh (repo verb)",
+   "kind": "CLI",
+   "binary": "gh",
+   "resolved": "C:\\Program Files\\GitHub CLI\\gh.EXE",
+   "verdict": "HAND",
+   "verb": "gh repo view --json isPrivate,visibility",
+   "need": "isprivate",
+   "rc": 0,
+   "ms": 525,
+   "evidence": "{\"isPrivate\":true,\"visibility\":\"PRIVATE\"}"
+  },
+  {
+   "candidate": "GitLab glab",
+   "kind": "CLI",
+   "binary": "glab",
+   "resolved": "C:\\Users\\Papa\\AppData\\Local\\Programs\\glab\\glab.EXE",
+   "verdict": "UNMEASURED",
+   "verb": "glab auth status",
+   "need": "api call succeeded",
+   "rc": 0,
+   "ms": 487,
+   "evidence": "gitlab.com\n  \u00e2\u0153\u201c Logged in to gitlab.com as keithbbf-gif (keyring)\n  \u00e2\u0153\u201c Git operations for gitlab.com configured to use ssh protocol.\n  \u00e2\u0153\u201c API calls for gitlab.com are made over https protocol.\n  \u00e2\u0153\u201c REST API Endpoint: https://gitlab.com/api/v4/\n  \u00e2\u0153\u201c GraphQL Endpoint: https://gitlab.com/api/graphql/\n  \u00e2\u0153\u201c Token found in operating system keyring: **************************"
+  },
+  {
+   "candidate": "GitLab glab (ci verb)",
+   "kind": "CLI",
+   "binary": "glab",
+   "resolved": "C:\\Users\\Papa\\AppData\\Local\\Programs\\glab\\glab.EXE",
+   "verdict": "HAND",
+   "verb": "glab ci status",
+   "need": "pipeline",
+   "rc": 0,
+   "ms": 1282,
+   "evidence": "(success) \u00e2\u20ac\u00a2 00m 41s\ttest\t\ttest\n\nhttps://gitlab.com/keithbbf-gif/cosmos/-/pipelines/2790929269\nSHA: 419bfb5e5a6f21d85da96a663b4572945d64cedd\nPipeline state: success"
+  },
+  {
+   "candidate": "Codex CLI",
+   "kind": "CLI",
+   "binary": "codex",
+   "resolved": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD",
+   "verdict": "HAND",
+   "verb": "codex login status",
+   "need": "logged in",
+   "rc": 0,
+   "ms": 141,
+   "evidence": "Logged in using ChatGPT"
+  },
+  {
+   "candidate": "Gemini CLI",
+   "kind": "CLI",
+   "binary": "gemini",
+   "resolved": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\gemini.CMD",
+   "verdict": "HAND",
+   "verb": "gemini --version",
+   "need": ".",
+   "rc": 0,
+   "ms": 1729,
+   "evidence": "0.52.0"
+  },
+  {
+   "candidate": "Claude Code CLI",
+   "kind": "CLI",
+   "binary": "claude",
+   "resolved": "C:\\Users\\Papa\\.local\\bin\\claude.EXE",
+   "verdict": "HAND",
+   "verb": "claude --version",
+   "need": "claude code",
+   "rc": 0,
+   "ms": 2310,
+   "evidence": "2.1.251 (Claude Code)"
+  },
+  {
+   "candidate": "Grok CLI",
+   "kind": "CLI",
+   "binary": "grok",
+   "resolved": "C:\\Users\\Papa\\.grok\\bin\\grok.EXE",
+   "verdict": "HAND",
+   "verb": "grok --version",
+   "need": ".",
+   "rc": 0,
+   "ms": 20,
+   "evidence": "grok 1.0.5 (5115b46bc9) [stable]"
+  },
+  {
+   "candidate": "Aider",
+   "kind": "CLI",
+   "binary": "aider",
+   "resolved": null,
+   "verdict": "ABSENT",
+   "verb": "aider --version",
+   "evidence": "aider: NOT_ON_PATH",
+   "need": "aider"
+  },
+  {
+   "candidate": "GitHub REST quota",
+   "kind": "CLI",
+   "binary": "gh",
+   "resolved": "C:\\Program Files\\GitHub CLI\\gh.EXE",
+   "verdict": "HAND",
+   "verb": "gh api rate_limit --jq .resources.core",
+   "need": "limit",
+   "rc": 0,
+   "ms": 440,
+   "evidence": "{\"limit\":5000,\"remaining\":5000,\"reset\":1788151478,\"used\":0}"
+  },
+  {
+   "candidate": "GitLab REST verb",
+   "kind": "CLI",
+   "binary": "glab",
+   "resolved": "C:\\Users\\Papa\\AppData\\Local\\Programs\\glab\\glab.EXE",
+   "verdict": "HAND",
+   "verb": "glab api user",
+   "need": "username",
+   "rc": 0,
+   "ms": 778,
+   "evidence": "{\"id\":41407957,\"username\":\"keithbbf-gif\",\"public_email\":null,\"name\":\"keithbbf-gif\",\"state\":\"active\",\"locked\":false,\"avatar_url\":\"https://secure.gravatar.com/avatar/c3869d8cb32961d4e582f39c43dffafdaf38532378dbf3501d2222d31d61f600?s=80\\u0026d=identicon\",\"web_url\":\"https://gitlab.com/keithbbf-gif\",\"created_at\":\"2026-08-17T02:06:27.620Z\",\"bio\":\"\",\"location\":\"\",\"linkedin\":\"\",\"twitter\":\"\",\"discord\":\"\",\"website_url\":\"\",\"github\":\"\",\"job_title\":\"\",\"pronouns\":null,\"organization\":\"\",\"bot\":false,\"work_information\":null,\"local_time\":null,\"last_sign_in_at\":\"2026-08-23T18:34:56.810Z\",\"confirmed_at\":\"2026-08-17T02:07:45.659Z\",\"last_activity_on\":\"2026-08-31\",\"email\":\"keith.bbf@gmail.com\",\"theme_id\":3,\"color_scheme_id\":1,\"projects_limit\":100000,\"current_sign_in_at\":\"2026-08-26T01:49:24.220Z\",\"identities\":[{\"provider\":\"google_oauth2\",\"extern_uid\":\"106848635693308452650\",\"saml_provider_id\":null},{\"provider\""
+  },
+  {
+   "candidate": "Node (MCP stdio host)",
+   "kind": "CLI",
+   "binary": "node",
+   "resolved": "C:\\Program Files\\nodejs\\node.EXE",
+   "verdict": "HAND",
+   "verb": "node --version",
+   "need": "v",
+   "rc": 0,
+   "ms": 24,
+   "evidence": "v24.18.0"
+  },
+  {
+   "candidate": "uvx (MCP Fetch spawn path)",
+   "kind": "CLI",
+   "binary": "uvx",
+   "resolved": null,
+   "verdict": "ABSENT",
+   "verb": "uvx --version",
+   "evidence": "uvx: NOT_ON_PATH",
+   "need": "uv"
+  },
+  {
+   "candidate": "MCP python SDK (Fetch alt path)",
+   "kind": "CLI",
+   "binary": "py",
+   "resolved": "C:\\Windows\\py.EXE",
+   "verdict": "HAND",
+   "verb": "py -3.14 -c import mcp,sys;print('mcp',mcp.__file__)",
+   "need": "mcp",
+   "rc": 1,
+   "ms": 111,
+   "evidence": "Traceback (most recent call last):\n  File \u001b[35m\"<string>\"\u001b[0m, line \u001b[35m1\u001b[0m, in \u001b[35m<module>\u001b[0m\n    \u001b[1;31mimport mcp,sys\u001b[0m;print('mcp',mcp.__file__)\n    \u001b[1;31m^^^^^^^^^^^^^^\u001b[0m\n\u001b[1;35mModuleNotFoundError\u001b[0m: \u001b[35mNo module named 'mcp'\u001b[0m"
+  },
+  {
+   "candidate": "xAI Docs MCP",
+   "kind": "hosted MCP",
+   "verb": "POST https://docs.x.ai/api/mcp initialize",
+   "need": "serverInfo",
+   "http": 200,
+   "ms": 289,
+   "evidence": "{\"result\":{\"protocolVersion\":\"2025-06-18\",\"capabilities\":{\"tools\":{\"listChanged\":true}},\"serverInfo\":{\"name\":\"xai-docs-mcp\",\"version\":\"1.0.0\"}},\"jsonrpc\":\"2.0\",\"id\":1}",
+   "verdict": "HAND",
+   "serverInfo": {
+    "name": "xai-docs-mcp",
+    "version": "1.0.0"
+   }
+  },
+  {
+   "candidate": "OpenAI Docs MCP",
+   "kind": "hosted MCP",
+   "verb": "POST https://developers.openai.com/mcp initialize",
+   "need": "serverInfo",
+   "http": 200,
+   "ms": 334,
+   "evidence": "event: message\ndata: {\"result\":{\"protocolVersion\":\"2025-06-18\",\"capabilities\":{\"tools\":{\"listChanged\":true}},\"serverInfo\":{\"name\":\"openai-docs-mcp\",\"version\":\"1.0.0\"}},\"jsonrpc\":\"2.0\",\"id\":1}\n\n",
+   "verdict": "HAND",
+   "serverInfo": {
+    "name": "openai-docs-mcp",
+    "version": "1.0.0"
+   }
+  },
+  {
+   "candidate": "Grok MCP host config",
+   "kind": "CLI",
+   "binary": "grok",
+   "resolved": "C:\\Users\\Papa\\.grok\\bin\\grok.EXE",
+   "verdict": "HAND",
+   "verb": "grok mcp list",
+   "need": ".",
+   "rc": 0,
+   "ms": 210,
+   "evidence": "BFast: C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe V:\\Ai\\BTS_MCP\\bts_fs_mcp.py"
+  },
+  {
+   "candidate": "Codex MCP host config",
+   "kind": "CLI",
+   "binary": "codex",
+   "resolved": "C:\\Users\\Papa\\AppData\\Roaming\\npm\\codex.CMD",
+   "verdict": "HAND",
+   "verb": "codex mcp list",
+   "need": ".",
+   "rc": 0,
+   "ms": 766,
+   "evidence": "Name   Command  Args                  Env  Cwd  Status   Auth       \nbfast  python   V:\\Ai\\BFast\\bfast.py  -    -    enabled  Unsupported"
+  },
+  {
+   "candidate": "Ollama local",
+   "kind": "HTTP",
+   "verb": "GET http://127.0.0.1:11434/api/version",
+   "need": "version",
+   "http": null,
+   "ms": 2052,
+   "evidence": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+   "verdict": "ABSENT"
+  },
+  {
+   "candidate": "Groq API",
+   "kind": "HTTP",
+   "verb": "GET https://api.groq.com/openai/v1/models",
+   "need": "\"data\"",
+   "http": 401,
+   "ms": 176,
+   "evidence": "{\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}\n",
+   "verdict": "CRED_BLOCKED"
+  },
+  {
+   "candidate": "COSMOS Core :8770",
+   "kind": "HTTP",
+   "verb": "GET http://127.0.0.1:8770/api/v1/health",
+   "need": "ok",
+   "http": null,
+   "ms": 2043,
+   "evidence": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+   "verdict": "ABSENT"
+  }
+ ]
+}

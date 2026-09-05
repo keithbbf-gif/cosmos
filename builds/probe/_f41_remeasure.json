@@ -1,0 +1,11 @@
+{
+ "measured_at": "2026-08-31T10:41:00Z",
+ "root": "V:/A/Ai/COSMOS/live",
+ "read_only": true,
+ "writes": 0,
+ "total": 143,
+ "by_disposition": {"UNDECIDED": 135, "REPLACED": 8},
+ "verified_true": 0,
+ "verified_none": 143,
+ "note": "Kernel(read_only=True) + ToolContracts(k.ledger).report(); identical to 2026-08-31T06:00Z and 07:05Z. F-41 not picked this shift: Low/L vs F-25 leftover High/S and F-29 Med."
+}

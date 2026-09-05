@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "all_new_pins_failed": true,
+  "staged": "builds/cc_driver/_delme/predispose_cc_outcome_20260831T154639Z/cc_outcome.py",
+  "command": "CC_OUTCOME_UNDER_TEST=<staged>/cc_outcome.py py -3.14 builds/cc_driver/test_cc_outcome_evidence.py Verdicts.test_max_turns_with_artifacts_is_not_a_failure Verdicts.test_max_turns_without_output_is_still_failed Verdicts.test_max_turns_does_not_swallow_a_real_crash",
+  "ran": 3,
+  "passed": 0,
+  "failed": 2,
+  "errors": 1,
+  "results": [
+    {
+      "test": "Verdicts.test_max_turns_with_artifacts_is_not_a_failure",
+      "status": "FAIL",
+      "got": "CRASHED",
+      "wanted_not": "CRASHED",
+      "wanted": "MAX_TURNS_WITH_OUTPUT",
+      "assertion": "a max-turns exit with artifacts on disk was filed CRASHED -- this is the 370_gbw_infra_next16 defect"
+    },
+    {
+      "test": "Verdicts.test_max_turns_without_output_is_still_failed",
+      "status": "FAIL",
+      "got": "CRASHED",
+      "wanted": "MAX_TURNS_NO_OUTPUT"
+    },
+    {
+      "test": "Verdicts.test_max_turns_does_not_swallow_a_real_crash",
+      "status": "ERROR",
+      "error": "KeyError: 'max_turns'",
+      "note": "pre-fix process record has no max_turns field"
+    }
+  ],
+  "post_fix_suite": {
+    "test_cc_outcome_evidence.py": "32/32 OK",
+    "test_cc_driver_outcome.py": "13/13 OK"
+  }
+}

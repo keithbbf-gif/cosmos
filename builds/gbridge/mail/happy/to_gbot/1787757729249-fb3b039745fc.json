@@ -1,0 +1,12 @@
+{
+ "gbridge": 1,
+ "request_id": "1787757729249-fb3b039745fc",
+ "from": "COW",
+ "to": "GBOT",
+ "epoch": 1787757729.249692,
+ "utc_offset_s": -18000,
+ "text": "gbridge-s6-gate 2c62f031fd3e4be39e867847c1e22607",
+ "context": "{\"gate\":\"s6\",\"source_sha256\":\"e3ee1134e65065c99a9f1077af5a3dd18de72b3dcf9ec54d8dec4db72ff323cd\",\"nonce\":\"2c62f031fd3e4be39e867847c1e22607\",\"live_tree_id\":\"KMesh-COSMOS-live\"}",
+ "timeout_s": 8.0,
+ "body_sha256": "905c2ebfae49cc6f9acd7ba2be824735678f063d2deafb99eaa11fb4a15d2f8d"
+}

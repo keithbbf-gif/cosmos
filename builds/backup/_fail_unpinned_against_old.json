@@ -1,0 +1,28 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "new unpinned-refusal pins FAIL against stripped predecessors",
+ "tests_run": 8,
+ "failures": 8,
+ "errors": 0,
+ "failed_names": [
+  "test_copy_missing_src_is_COPY_IO_ERROR",
+  "test_empty_scopes_list_is_BAD_SCOPES_not_a_silent_no_op",
+  "test_malformed_scopes_json_is_BAD_SCOPES",
+  "test_nonempty_scratch_refuses",
+  "test_scope_missing_name_is_BAD_SCOPES",
+  "test_scope_missing_source_is_BAD_SCOPES",
+  "test_unknown_identity_kind_is_BAD_CONFIG",
+  "test_urlopen_OSError_is_R2_UNREACHABLE_not_an_untyped_crash"
+ ],
+ "ran_names": [
+  "test_nonempty_scratch_refuses",
+  "test_copy_missing_src_is_COPY_IO_ERROR",
+  "test_malformed_scopes_json_is_BAD_SCOPES",
+  "test_empty_scopes_list_is_BAD_SCOPES_not_a_silent_no_op",
+  "test_scope_missing_source_is_BAD_SCOPES",
+  "test_scope_missing_name_is_BAD_SCOPES",
+  "test_urlopen_OSError_is_R2_UNREACHABLE_not_an_untyped_crash",
+  "test_unknown_identity_kind_is_BAD_CONFIG"
+ ],
+ "all_new_pins_failed": true
+}

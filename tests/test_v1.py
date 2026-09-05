@@ -8,6 +8,7 @@ import json, sys, tempfile, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_registry import Registry, RegError
 from cosmos_backup import Backup, BackupError
@@ -49,8 +50,15 @@ def main() -> int:
     check("never-probed link is UNKNOWN (None), not verified",
           lambda: all(r["verified"] is None for r in reg.matrix()))
     reg.probe_all()
+    # Registry(k.ledger) replays boot-composed rails too (claude-cli, cursor-api,
+    # ...), which have no credentials here and correctly probe False. Scope to the
+    # links this test owns; the property under test is "a probed link carries a
+    # measurement AND its age", not "the registry is empty apart from mine".
+    _MINE = {"f5-dom", "f5-api"}
     check("probed matrix shows verified WITH age",
-          lambda: all(r["verified"] and r["age_s"] is not None for r in reg.matrix()))
+          lambda: (lambda rows: rows and all(
+              r["verified"] and r["age_s"] is not None for r in rows))(
+              [r for r in reg.matrix() if r["link_id"] in _MINE]))
     check("DOM-first routing picks the DOM link",
           lambda: reg.route("core", "f5")[0]["rail_type"] == "DOM")
     reg.attach_probe("f5-dom", lambda: (False, "browser gone"))
@@ -104,11 +112,15 @@ def main() -> int:
             return e.code, json.loads(e.read().decode("utf-8"))
 
     code, body = get("/api/v1/status")
-    check("no token -> 401 (auth exists day one, invisible in use)", lambda: code == 401)
+    check("no token -> 200 on loopback (DT auto-connect; Tailscale still gated)",
+          lambda: code == 200 and body.get("ready") is True)
     code, body = get("/api/v1/status", svc.token)
     check("GET /status: ready over the wire", lambda: code == 200 and body["ready"])
     code, body = get("/api/v1/rails", svc.token)
-    check("GET /rails: matrix served with ages", lambda: code == 200 and len(body["matrix"]) == 3)
+    check("GET /rails: matrix served with ages",
+          lambda: code == 200
+          and {"f5-dom", "f5-api", "no-probe"} <= {r["link_id"] for r in body["matrix"]}
+          and all("age_s" in r for r in body["matrix"]))
     # POST a job through the API, then run it through the kernel
     req = urllib.request.Request(base + "/api/v1/jobs",
                                  data=json.dumps({"command": "hello", "priority": "high"}).encode(),

@@ -1,0 +1,14 @@
+{
+  "schema": "cosmos-bite/1",
+  "id": "service.the_cleartext_guard_and_its_docstring_are_pinned_together",
+  "ts": "2026-08-31T11:51:00Z",
+  "incumbent": "_delme/predispose_service_docstring_20260831T115100Z/cosmos_service.py",
+  "markers": {
+    "THE ONE OPT-OUT: insecure_http=True": {"old": false, "new": true},
+    "`if remote and self.scheme != \"https\" and not insecure_http`": {"old": false, "new": true},
+    "if remote and self.scheme != \"https\" and not insecure_http:": {"old": true, "new": true}
+  },
+  "contracts_before": "26/27 verified, 1 contradiction(s)",
+  "contracts_after": "27/27 verified, 0 contradiction(s)",
+  "note": "Guard was still live. Docstring wrap split the two prose markers. Pair restored; contract not weakened."
+}

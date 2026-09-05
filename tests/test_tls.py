@@ -11,6 +11,7 @@ import json, ssl, sys, tempfile, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_service import Service
 
@@ -96,8 +97,27 @@ def main() -> int:
         with socket.create_connection(("127.0.0.1", svc2.port), timeout=10) as raw:
             with cctx.wrap_socket(raw, server_hostname="127.0.0.1") as tls_sock:
                 served_der = tls_sock.getpeercert(binary_form=True)
+        # If the DER differs, say WHY. A local TLS interceptor (AV "web shield",
+        # corporate proxy) re-signs the served cert with its own root, so the
+        # bytes differ even though COSMOS served exactly what it was given. That
+        # is a real integrity failure worth failing on -- but an opaque byte
+        # mismatch sends you hunting in the wrong module. Name the issuer.
+        # (2026-08-30: found Avast Web/Mail Shield intercepting loopback here.)
+        def _served_matches_provided():
+            expected = ssl.PEM_cert_to_DER_cert(ext_cert.read_text())
+            if served_der == expected:
+                return True
+            sp = td / "served_probe.pem"
+            sp.write_text(ssl.DER_cert_to_PEM_cert(served_der))
+            issuer = ssl._ssl._test_decode_cert(str(sp)).get("issuer")
+            flat = " ".join(v for rdn in (issuer or ()) for _, v in rdn)
+            raise AssertionError(
+                "TLS INTERCEPTED: the cert on the wire was re-signed by "
+                + flat + " -- COSMOS served the provided cert correctly. "
+                "Exclude this host/port from the interceptor to restore "
+                "end-to-end TLS integrity.")
         check("PROVIDED: the SERVED cert is the provided cert (byte-identical DER)",
-              lambda: served_der == ssl.PEM_cert_to_DER_cert(ext_cert.read_text()))
+              _served_matches_provided)
         req2 = urllib.request.Request(f"https://127.0.0.1:{svc2.port}/api/v1/status")
         req2.add_header("Authorization", "Bearer " + svc2.token)
         with urllib.request.urlopen(req2, timeout=10, context=cctx) as r:

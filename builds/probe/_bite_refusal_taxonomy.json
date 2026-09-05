@@ -1,0 +1,11 @@
+{
+  "all_bite": true,
+  "clock_collects": true,
+  "cp437_redirect_equals_utf8": false,
+  "drifted_fixture_match": false,
+  "new_absent_is_DOC_ABSENT": true,
+  "old_absent_skip_would_pass": true,
+  "regen_command": "py -3.14 cosmos\\cosmos_refusals.py --out docs\\REFUSAL_TAXONOMY.md",
+  "what": "skip-on-absent / drift / cp437-redirect \u2014 old vs new",
+  "wrong_command": "py -3.14 cosmos\\cosmos_refusals.py --render > docs\\REFUSAL_TAXONOMY.md"
+}

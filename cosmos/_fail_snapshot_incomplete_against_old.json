@@ -1,0 +1,38 @@
+{
+  "old_path": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_backup_20260831T012245\\cosmos_backup_clock.py",
+  "pins": [
+    {
+      "name": "_copy_tree_files returns a dict record",
+      "passed_on_old": false,
+      "err": ""
+    },
+    {
+      "name": "_copy_tree_files(limit=2) declares truncated=True",
+      "passed_on_old": false,
+      "err": ""
+    },
+    {
+      "name": "assemble_snapshot with STAGE_LIMIT=2 raises SNAPSHOT_INCOMPLETE",
+      "passed_on_old": false,
+      "err": ""
+    },
+    {
+      "name": "SNAPSHOT_INCOMPLETE names queue/manifests",
+      "passed_on_old": false,
+      "err": ""
+    },
+    {
+      "name": "poll_once truncated scope is FAILED SNAPSHOT_INCOMPLETE",
+      "passed_on_old": false,
+      "err": ""
+    },
+    {
+      "name": "no BACKUP_VERIFIED over a truncated scope (after STAGE_LIMIT=2 poll)",
+      "passed_on_old": false,
+      "err": ""
+    }
+  ],
+  "pin_count": 6,
+  "failed_on_old": 6,
+  "all_new_pins_failed": true
+}

@@ -1,0 +1,55 @@
+{
+  "_comment": [
+    "Allowlist for HEADLESS Claude Code runs (builds/cc_driver drives `claude -p`",
+    "with stdin closed). --permission-mode acceptEdits auto-approves FILE EDITS",
+    "only; Bash/PowerShell still raise a permission request, and with no stdin",
+    "there is nothing to answer it, so those calls are denied.",
+    "",
+    "Scar 2026-08-30: without this, a work order that says 'include tests you",
+    "actually RUN' comes back with the tests unrun, rc=0, and lands in done/",
+    "looking successful -- the exact fabricated-compliance failure COSMOS canon",
+    "exists to refuse.",
+    "",
+    "Scope is deliberately narrow: read, verify and test. No install, no network",
+    "fetch, no schtasks, no service control, no deletion. An agent that needs one",
+    "of those should have to ask a human."
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(py -3.14 -m py_compile:*)",
+      "Bash(py -3.14 -m pytest:*)",
+      "Bash(py -3.14 tests/*)",
+      "Bash(py -3.14 builds/*)",
+      "Bash(py -3.14 cosmos/*)",
+      "Bash(py -3.14 -c:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(diff:*)",
+      "Bash(md5sum:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(del:*)",
+      "Bash(schtasks:*)",
+      "Bash(sc:*)",
+      "Bash(net:*)",
+      "Bash(reg:*)",
+      "Bash(pip install:*)",
+      "Bash(winget:*)",
+      "Bash(curl:*)",
+      "Bash(Invoke-WebRequest:*)",
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)"
+    ]
+  }
+}

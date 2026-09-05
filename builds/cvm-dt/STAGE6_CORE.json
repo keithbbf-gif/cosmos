@@ -1,0 +1,96 @@
+{
+ "ok": true,
+ "verdict": "PASS",
+ "stage": 6,
+ "deliverable": "cvm-dt",
+ "half": "core",
+ "gated_at_epoch": 1788161412.289934,
+ "utc_offset_s": -18000,
+ "source_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\cvm_gate.py",
+ "source_sha256": "9f4ee621706f3cd7ea45cf70f42b9b4bf636e436696759caf22b33c1eb56cede",
+ "client_sha256": "f9a3892d85a1288a0661b6ebe0276733336ae27485eb3469540f261dd8b9c398",
+ "live_root": "V:\\A\\Ai\\COSMOS\\live",
+ "live_tree_id": "KMesh-COSMOS-live",
+ "live_system": "COSMOS",
+ "sentinel": "V:\\A\\Ai\\COSMOS\\live\\.cosmos-root.json",
+ "python": "3.14.0",
+ "executable": "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+ "checks": [
+  {
+   "name": "core_status_tree_id",
+   "verdict": "PASS",
+   "value": {
+    "status_tree_id": "KMesh-COSMOS-live",
+    "live_tree_id": "KMesh-COSMOS-live",
+    "served_at": 1788161411.2283657,
+    "ledger_seq": 849
+   },
+   "ms": 1104.114
+  },
+  {
+   "name": "core_control_unblocked",
+   "verdict": "PASS",
+   "value": {
+    "pause": false,
+    "mic_off": false,
+    "clear_queue": false
+   }
+  },
+  {
+   "name": "voice_mint_sid",
+   "verdict": "PASS",
+   "value": {
+    "session_id": "711c85327d474e4b9f284659366d6b8b",
+    "resume_session_id": "711c85327d474e4b9f284659366d6b8b",
+    "mint_kind": "command",
+    "resume_kind": "command",
+    "voice_timeout_s": 70.0
+   }
+  },
+  {
+   "name": "voice_resume_same_sid",
+   "verdict": "PASS",
+   "value": {
+    "session_id": "711c85327d474e4b9f284659366d6b8b",
+    "resume_session_id": "711c85327d474e4b9f284659366d6b8b",
+    "mint_kind": "command",
+    "resume_kind": "command",
+    "voice_timeout_s": 70.0
+   }
+  }
+ ],
+ "counts": {
+  "PASS": 4,
+  "REFUSED": 0,
+  "UNMEASURED": 0,
+  "PENDING_CORE": 0,
+  "FAIL": 0
+ },
+ "wire": "cvm-dt-gate-core/1",
+ "base": "http://127.0.0.1:8770",
+ "core_reachable": true,
+ "reach": {
+  "up": true,
+  "polls": 1,
+  "waited_ms": 17.722,
+  "last_kind": null
+ },
+ "core_kind": null,
+ "core_substitute_used": false,
+ "trial_ports_refused": [
+  8791
+ ],
+ "live_value": {
+  "status_tree_id": "KMesh-COSMOS-live",
+  "served_at": 1788161411.2283657,
+  "ledger_seq": 849,
+  "session_id": "711c85327d474e4b9f284659366d6b8b",
+  "resume_session_id": "711c85327d474e4b9f284659366d6b8b",
+  "session_resumed_same_sid": true,
+  "base": "http://127.0.0.1:8770"
+ },
+ "rerun": "py -3.14 V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\cvm_gate.py core --root V:\\A\\Ai\\COSMOS\\live --base http://127.0.0.1:8770",
+ "note": "PENDING_CORE is an ABSENCE WITH A REASON, not a pass and not a failure: the resident authority was not up, and no substitute server was accepted in its place. Re-run `rerun` the moment Core is serving, or arm `core --watch <seconds>`.",
+ "emitted": "cvm-dt-core:KMesh-COSMOS-live:711c85327d474e4b9f284659366d6b8b:849:9f4ee621706f3cd7",
+ "proof_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\STAGE6_CORE.json"
+}

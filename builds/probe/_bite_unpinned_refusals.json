@@ -1,0 +1,14 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "unpinned probe refusals \u2014 old vs current",
+ "all_bite": true,
+ "root_missing_old_kind": "untyped",
+ "root_missing_walk_silent": true,
+ "scratch_unsafe_old_would_write": true,
+ "scratch_unsafe_in_tree_is_under_repo": true,
+ "bad_transport_old_empty_table": "would_construct",
+ "bad_args_old": "would_write",
+ "no_root_old": "argparse_or_crash",
+ "unwritable_old_crash": "OSError",
+ "no_sentinel_old": "json.JSONDecodeError_or_FileNotFoundError"
+}

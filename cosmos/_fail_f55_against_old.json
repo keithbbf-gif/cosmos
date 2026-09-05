@@ -1,0 +1,55 @@
+{
+ "ok": true,
+ "all_new_pins_failed": true,
+ "impl": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_cosmos_mail_f55_20260831T124826Z\\cosmos_mail.py",
+ "pins": [
+  {
+   "name": "Mailbox.__init__ takes arbiter=",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "Mailbox.__init__ takes key=",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "GENESIS_HASH exported",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "first send prev_hash is GENESIS",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "second send prev_hash equals first msg_sha256",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "messages carry writer_sig + signed",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "planted prev_hash lie -> CHAIN_BREAK",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "staged kernel wires arbiter=",
+   "passed_on_old": false,
+   "err": ""
+  },
+  {
+   "name": "staged kernel does NOT wire arbiter (pre-change)",
+   "passed_on_old": true,
+   "err": ""
+  }
+ ],
+ "n_must_fail": 8,
+ "n_failed_on_old": 8,
+ "live_kernel_has_arbiter": true
+}

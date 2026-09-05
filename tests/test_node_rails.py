@@ -5,15 +5,19 @@ sys.modules) so every path is proven WITHOUT spending a cent on a real model cal
 the same discipline the DOM FakeDriver used. A real dispatch to a live model is
 NATIVE-DEMO-REQUIRED and is a separate, spend-gated, opt-in run."""
 from __future__ import annotations
-import sys, tempfile, types
+import os, sys, tempfile, types
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_registry import Registry
 from cosmos_spend import SpendGate
+import cosmos_rails
 from cosmos_rails import Dispatcher, RailError
-from cosmos_node_rails import NodeRail, register_node_rails
+from cosmos_node_rails import (
+    NodeRail, fail_closed_empty, register_node_rails, resolve_incumbent_root,
+)
 
 RESULTS = []
 def check(label, fn):
@@ -21,6 +25,52 @@ def check(label, fn):
         RESULTS.append((label, bool(fn()), ""))
     except Exception as e:                                            # noqa: BLE001
         RESULTS.append((label, False, f"{type(e).__name__}: {e}"))
+
+
+class _BoomRail:
+    """A metered adapter whose dispatch RAISES the way a live vendor call does -
+    read timeout, 500, a bug in the adapter. Not exotic: the rail contract says
+    dispatch returns a typed dict, and when an adapter breaks that contract the
+    Dispatcher still has to record WHY."""
+    kind = "API"
+    metered_usd = 0.02
+
+    def probe(self):
+        return True, "importable boom rail"
+
+    def dispatch(self, payload):
+        raise TimeoutError("read timed out after 30s")
+
+
+def metered_failure_probe(tmp: Path, cap_usd: float, key: bytes = b"k") -> dict:
+    """Run ONE metered dispatch against a rail that raises, and report what the
+    Dispatcher actually EMITTED: the refusal kind, and the RAIL_RESULT detail it
+    wrote to the ledger. `cap_usd` picks the scenario - a fat cap means the gate
+    PERMITS and the rail then breaks; a cap under one worst case means the gate
+    refuses and the rail is never called at all.
+
+    Deliberately build-agnostic and importable: this is the negative control for
+    the spend-gated mislabel, so it has to run against an OLDER cosmos_rails as
+    well as this one (drop the old module first on sys.path and call it)."""
+    led = Ledger(tmp / ("boom_%s.jsonl" % cap_usd), key, "core")
+    reg = Registry(led)
+    spend = SpendGate(led)
+    boom = _BoomRail()
+    reg.register("boom-api", "API", "core", "boom", policy_rank=0)
+    reg.attach_probe("boom-api", boom.probe)
+    reg.probe_all()
+    spend.set_budget("boom-api", cap_usd)
+    disp = Dispatcher(reg, {"boom-api": boom}, led, spend=spend)
+    kind = None
+    try:
+        disp.dispatch("core", "boom", {"prompt": "x"})
+    except RailError as e:
+        kind = e.kind
+    detail = ""
+    for rec in led.verify():
+        if rec["event"] == "RAIL_RESULT":
+            detail = rec["payload"].get("detail", "")
+    return {"kind": kind, "detail": detail, "module": cosmos_rails.__file__}
 
 
 def _install_fake(name, ask_fn):
@@ -64,6 +114,47 @@ def main() -> int:
     check("incumbent ask() raising -> BROKE with the reason", lambda:
           br.dispatch({"prompt": "x"})["kind"] == "BROKE")
 
+    # empty / whitespace body is FAILED even when the incumbent claimed ok=True
+    _install_fake("fake_empty", lambda p, **k: {"ok": True, "text": ""})
+    er = NodeRail("fake_empty").dispatch({"prompt": "x"})
+    check("empty incumbent text is EMPTY_OUTPUT, never ok/rc=0",
+          lambda: er["ok"] is False and er["kind"] == "EMPTY_OUTPUT"
+          and er["rc"] == 2 and not er["text"])
+    _install_fake("fake_ws", lambda p, **k: {"ok": True, "text": "  \n\t"})
+    wr = NodeRail("fake_ws").dispatch({"prompt": "x"})
+    check("whitespace-only body is EMPTY_OUTPUT, never rc=0",
+          lambda: wr["ok"] is False and wr["kind"] == "EMPTY_OUTPUT"
+          and wr.get("rc") == 2)
+    check("fail_closed_empty is the one grok/gem/oa helper",
+          lambda: fail_closed_empty({"ok": True, "text": ""})["kind"] == "EMPTY_OUTPUT"
+          and fail_closed_empty({"ok": True, "text": "hi"})["ok"] is True)
+    _install_fake("fake_named", lambda p, **k: {
+        "ok": True, "text": "hi", "model": "gemini-2.5-flash", "usd": 0.0,
+        "via": "vertex"})
+    nr2 = NodeRail("fake_named").dispatch({"prompt": "x"})
+    check("incumbent model/via preserved (not overwritten by module name)",
+          lambda: nr2["ok"] and nr2["model"] == "gemini-2.5-flash"
+          and nr2.get("via") == "vertex" and nr2["text"] == "hi")
+
+    rails_src = (Path(__file__).resolve().parent.parent / "cosmos"
+                 / "cosmos_node_rails.py").read_text(encoding="utf-8")
+    check("node_rails has no BTS drive literal",
+          lambda: "V:\\Ai\\BTS_MESH" not in rails_src
+          and 'r"V:\\' not in rails_src and "r'V:\\" not in rails_src)
+    old_env = os.environ.get("COSMOS_BTS_ROOT")
+    os.environ["COSMOS_BTS_ROOT"] = str(td / "bts")
+    try:
+        resolved = resolve_incumbent_root()
+        check("incumbent root from env, never a guessed drive",
+              lambda: resolved == str(td / "bts"))
+    finally:
+        if old_env is None:
+            os.environ.pop("COSMOS_BTS_ROOT", None)
+        else:
+            os.environ["COSMOS_BTS_ROOT"] = old_env
+    check("missing env+config refuses to guess a BTS path",
+          lambda: resolve_incumbent_root() is None)
+
     # ===== through the Dispatcher, spend-gated =====
     led = Ledger(td / "n.jsonl", KEY, "core")
     reg = Registry(led)
@@ -87,6 +178,29 @@ def main() -> int:
     check("exhausted budget -> dispatcher NOT_PERMITTED (breaker in the caller path)",
           lambda: _denied(disp))
 
+    # ===== the ledger's REASON must be the reason that happened =====
+    # Phase 5 finding, fixed here: `except Exception` around the metered call
+    # wrote "spend-gated" into the AUTHORITY ledger for every failure of a
+    # metered rail and re-raised NOT_PERMITTED - so a read timeout the gate had
+    # already PERMITTED was recorded as a spend refusal. A false reason in the
+    # authority record is worse than no reason. Fat cap here: nothing about this
+    # dispatch is spend-gated, and the record has to say so.
+    broke = metered_failure_probe(td, 10.0)
+    check("a metered rail that RAISES is NOT labelled spend-gated in the ledger",
+          lambda: broke["detail"] and "spend-gated" not in broke["detail"])
+    check("...the ledger keeps the reason that actually happened (TimeoutError)",
+          lambda: "TimeoutError" in broke["detail"]
+          and "read timed out" in broke["detail"])
+    check("...and the refusal is RAIL_FAILED, not NOT_PERMITTED",
+          lambda: broke["kind"] == "RAIL_FAILED")
+    # ...while a REAL spend refusal still reads exactly as it always did.
+    gated = metered_failure_probe(td, 0.001)
+    check("a REAL spend refusal is still 'spend-gated: [DENIED]' + NOT_PERMITTED",
+          lambda: gated["kind"] == "NOT_PERMITTED"
+          and gated["detail"].startswith("spend-gated: [DENIED]"))
+    check("[MEASURED runtime binding: dispatched through %s]"
+          % broke["module"], lambda: True)
+
     # register_node_rails wires the real set (probes will mark real incumbents
     # UNREACHABLE here since BTS_MESH isn't importable in this tmp env - and that is
     # the CORRECT, honest result, not a failure)
@@ -96,7 +210,7 @@ def main() -> int:
     check("register_node_rails registers all four node links",
           lambda: len(reg2.state()) == 4)
     # Each real node rail probes HONESTLY: live if its incumbent imports (it does, run
-    # natively where V:\Ai\BTS_MESH is on disk), UNREACHABLE if not. Either is correct -
+    # natively where the configured incumbent tree is on disk), UNREACHABLE if not. Either is correct -
     # what must never happen is a fake-live probe. Assert the probe RAN and returned a
     # real (bool, detail) with a matching detail string, not that it is uniformly False.
     def _honest(a):

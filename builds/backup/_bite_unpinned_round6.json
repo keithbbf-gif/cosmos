@@ -1,0 +1,135 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round6 unpinned backup refusals \u2014 current vs claimed",
+ "freeze_yes": {
+  "kind": "BAD_FREEZE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "freeze_int": {
+  "kind": "BAD_FREEZE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "freeze_empty": {
+  "kind": "BAD_FREEZE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "freeze_dest_occupied_dir": {
+  "kind": "FREEZE_DEST_OCCUPIED",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "occupied_dir_untouched": true,
+ "freeze_dest_occupied_file": {
+  "kind": "FREEZE_DEST_OCCUPIED",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "occupied_file_untouched": true,
+ "do_backup_freeze_yes": {
+  "kind": "BAD_FREEZE",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "do_backup_freeze_yes_created": false,
+ "seal_array": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'list' object has no attribute 'items'"
+ },
+ "seal_none": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'NoneType' object has no attribute 'items'"
+ },
+ "seal_str": {
+  "kind": null,
+  "crash": "AttributeError",
+  "returned": null,
+  "value_preview": "'str' object has no attribute 'items'"
+ },
+ "scan_empty_obj": {
+  "kind": null,
+  "crash": "KeyError",
+  "returned": null,
+  "value_preview": "'files'"
+ },
+ "scan_array": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "list indices must be integers or slices, not str"
+ },
+ "scan_files_str": {
+  "kind": null,
+  "crash": null,
+  "returned": "list",
+  "value_preview": "list:[]"
+ },
+ "scan_files_none": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'NoneType' object is not iterable"
+ },
+ "scan_files_int": {
+  "kind": null,
+  "crash": "TypeError",
+  "returned": null,
+  "value_preview": "'int' object is not iterable"
+ },
+ "local_relative_dest": {
+  "kind": "BAD_CONFIG",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "local_dest_is_file": {
+  "kind": "DRIVE_NOT_MOUNTED",
+  "crash": null,
+  "returned": null,
+  "value_preview": null
+ },
+ "local_dest_file_untouched": true,
+ "local_targets_list": {
+  "kind": null,
+  "crash": null,
+  "returned": "dict",
+  "value_preview": "dict:{'schema': 'cosmos-local-clock/1', 'ts': '2026-08-31T16:14:2"
+ },
+ "local_targets_list_heartbeat_kind": null,
+ "local_targets_list_crash": null,
+ "local_targets_list_hb_kind": "NO_DEST",
+ "local_targets_list_hb_state": "REFUSED",
+ "bites": [
+  "seal_array",
+  "seal_none",
+  "seal_str",
+  "scan_empty_obj",
+  "scan_array",
+  "scan_files_str:silent",
+  "scan_files_none",
+  "scan_files_int"
+ ],
+ "all_bite": true,
+ "documented_freeze_kinds_exist": true,
+ "untyped_seal": "AttributeError",
+ "untyped_scan": "KeyError",
+ "scan_files_str_silent": true,
+ "noinfo_dobackup_crash": "AttributeError",
+ "noinfo_dobackup_kind": null,
+ "garbage_str_kind": "BAD_FREEZE",
+ "occupied_kind": "FREEZE_DEST_OCCUPIED",
+ "tests_name_BAD_FREEZE": false,
+ "tests_name_FREEZE_DEST_OCCUPIED": false
+}

@@ -1,0 +1,18 @@
+{
+  "all_bite": true,
+  "backup_src_bytes": 38376,
+  "backup_src_mtime_utc": "2026-08-31T12:49:31Z",
+  "backup_src_newer_than_dated_longpath": true,
+  "dated_longpath_has_describes": false,
+  "dated_longpath_kind": "UNFINGERPRINTED",
+  "dated_longpath_mtime_utc": "2026-08-31T07:27:06Z",
+  "dated_longpath_present": true,
+  "hmac_has_describes": false,
+  "hmac_kind": "UNFINGERPRINTED",
+  "hmac_names_file": true,
+  "planted_absent_kind": "UNFINGERPRINTED",
+  "planted_match_kind": "MATCH",
+  "planted_wrong_kind": "STALE",
+  "schema": "cosmos-bite/1",
+  "what": "claim artifacts unfingerprinted; source newer than measurement"
+}

@@ -1,0 +1,19 @@
+{
+ "schema": "cosmos-askmine/1",
+ "worker": "cosmos-askmine",
+ "ok": true,
+ "run_at_utc": "2026-08-31T08:01:49+00:00",
+ "transcripts_seen": 534,
+ "transcripts_parsed": 534,
+ "transcripts_skipped": [],
+ "turns": 2009,
+ "user_turns": 269,
+ "asks": 0,
+ "findings": 0,
+ "redactions": 0,
+ "repeat_convictions": 0,
+ "by_verdict": {},
+ "by_signal": {},
+ "results": [],
+ "limits": "heuristic: detects whether a session ENGAGED with an ask, not whether the answer was correct"
+}

@@ -1,0 +1,233 @@
+{
+ "ok": false,
+ "wire": "cvm-dt-f21-stt-vosk/1",
+ "suite": "test_cvm_stt_vosk.py",
+ "passed": 25,
+ "total": 27,
+ "gated_at_epoch": 1788295613.7233992,
+ "python": "3.14.0",
+ "live_value": {
+  "provisioned": {
+   "site": true,
+   "deps": {
+    "srt": true
+   },
+   "model_dir": true,
+   "model_markers": [
+    "am",
+    "conf",
+    "graph"
+   ],
+   "wheel": true,
+   "model_path": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15"
+  },
+  "pins": {
+   "ok": true,
+   "files": {
+    "wheel": {
+     "present": true,
+     "sha256": "6994ddc68556c7e5730c3b6f6bad13320e3519b13ce3ed2aa25a86724e7c10ac",
+     "pinned_sha256": "6994ddc68556c7e5730c3b6f6bad13320e3519b13ce3ed2aa25a86724e7c10ac",
+     "ok": true,
+     "bytes": 13997596
+    },
+    "model_zip": {
+     "present": true,
+     "sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+     "pinned_sha256": "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+     "ok": true,
+     "bytes": 41205931
+    },
+    "dep:srt-3.5.3.tar.gz": {
+     "present": true,
+     "sha256": "4884315043a4f0740fd1f878ed6caa376ac06d70e135f306a6dc44632eed0cc0",
+     "pinned_sha256": "4884315043a4f0740fd1f878ed6caa376ac06d70e135f306a6dc44632eed0cc0",
+     "ok": true,
+     "bytes": 28296
+    }
+   }
+  },
+  "sdist_escape": {
+   "refused": true,
+   "landed": false
+  },
+  "clean_child": {
+   "importable": false,
+   "probe": {
+    "ok": true,
+    "engine": "vosk",
+    "kind": "ok",
+    "model": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15"
+   }
+  },
+  "bound_child": {
+   "bound": true,
+   "probe": {
+    "ok": true,
+    "engine": "vosk",
+    "kind": "ok",
+    "model": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\vendor\\models\\vosk-model-small-en-us-0.15"
+   }
+  },
+  "resident_ear": {
+   "transcript": "what is the queue depp",
+   "kind": "ok",
+   "ear_ms": 723.301,
+   "model_load_ms": 670.289,
+   "word_recall": 0.8
+  },
+  "ab_recognizer": {
+   "fresh_per_call_ms": 873.085,
+   "resident_ms": 74.411,
+   "speedup": 11.73,
+   "interleaved": true,
+   "n": 3,
+   "fixture_s": 1.979
+  },
+  "artifact": {
+   "emitted": "f21-vosk:vosk-model-small-en-us-0.15:ok:377.612 ms load + 124.625 ms build + 587.721 ms decode (resident 60.818 ms):recall 0.8:'what is the queue depp'",
+   "vosk_resident_ms": 60.818,
+   "vosk_cold_ms": 1038.945,
+   "sapi_ms": 211.005,
+   "faster": "vosk"
+  }
+ },
+ "emitted": "f21-test:resident 74.411 ms vs fresh 873.085 ms (11.73x) on a 1.979 s fixture; heard 'what is the queue depp' recall 0.8; clean child still vosk-importable=False",
+ "results": [
+  {
+   "name": "wheel_and_model_are_on_disk",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "model_dir_has_all_three_markers",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "vosk_module_level_deps_are_satisfied",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "every_provisioned_byte_matches_its_pinned_digest",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_wheel_pin_is_pypis_own_published_digest",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_swapped_archive_would_be_caught",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "path_escape_in_an_sdist_is_refused",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "escaping_member_never_landed",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "vosk_is_not_importable_without_opting_in",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "probe_stt_still_says_no_vosk",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "A2_phone_fallback_gate_is_unchanged",
+   "verdict": "FAIL",
+   "detail": ""
+  },
+  {
+   "name": "bind_makes_vosk_importable_in_that_process",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "bind_makes_probe_stt_ok_in_that_process",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "and_the_next_clean_process_is_still_unarmed",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "resident_ear_returns_words",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "resident_ear_recall_is_usable",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "resident_ear_reports_the_engine_and_model",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "empty_pcm_is_STT_NONE_not_a_fabricated_word",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "second_utterance_costs_far_less_than_the_first",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "ear_matches_the_SapiTranscriber_surface",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "incremental_sink_hears_the_same_phrase",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_held_recognizer_is_measurably_faster",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_gap_is_large_not_noise",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "artifact_says_the_model_path_ran",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "artifact_compares_both_engines_on_the_same_pcm",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "artifact_keeps_the_real_mic_caveat",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "artifact_records_that_arming_was_not_done",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "schema": "cosmos-f39-stamps-fail-old/1",
+ "old_dispatch": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_dispatch_f39_stamps_20260831T182020Z\\cosmos_dispatch.py",
+ "old_bytes": 69549,
+ "old_lines": 1715,
+ "old_has_stamps_banner": true,
+ "old_defines_append_dhx": true,
+ "live_stamps_exists": true,
+ "live_stamps_bytes": 12693,
+ "pins": {
+  "stamps_module_imported": false,
+  "iso_now_moved_out": false,
+  "marker_line_moved_out": false,
+  "append_dhx_moved_out": false,
+  "append_index_moved_out": false,
+  "write_inbox_moved_out": false,
+  "compose_prompt_moved_out": false,
+  "banner_is_reexport_only": false,
+  "stamps_file_was_present": false
+ },
+ "failed_pin_count": 9,
+ "all_new_pins_failed": true
+}

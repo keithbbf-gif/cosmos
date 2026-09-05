@@ -1,0 +1,29 @@
+{
+ "clock_id": 18,
+ "detectors": {
+  "w1_age": false,
+  "w1_turns": false,
+  "w2_context": false,
+  "w3_dead": false,
+  "w3_quiet": false
+ },
+ "dry_run": true,
+ "pause_class": "RUNNING",
+ "projection_path": "V:\\A\\Ai\\COSMOS\\live\\state\\control\\RESESSION.json",
+ "prompt_path": "V:\\A\\Ai\\COSMOS\\docs\\AUTO_RESESSION_PROMPT.md",
+ "prompt_sha": null,
+ "rail": "grok",
+ "refused_detail": null,
+ "refused_kind": null,
+ "resumed_from": null,
+ "schema": "cosmos-resession/1",
+ "seed_schema": "cosmos-session-seed/1",
+ "seed_sha": "51373295e6b5f2366a8c8aad124dec38dcd501bc76db3941f6942749cbd48a88",
+ "seed_sid": "inherit",
+ "seed_thin": true,
+ "spawn_reason": null,
+ "state": "IDLE",
+ "tree_id": "KMesh-COSMOS-live",
+ "ts": "2026-08-31T06:31:36-05:00",
+ "why": "no COW heartbeat"
+}

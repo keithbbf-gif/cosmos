@@ -1,0 +1,16 @@
+{
+ "task": "COSMOS Askmine",
+ "argv": [
+  "schtasks",
+  "/create",
+  "/tn",
+  "COSMOS Askmine",
+  "/tr",
+  "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\pythonw.exe V:\\A\\Ai\\COSMOS\\cosmos\\cosmos_askmine.py --root V:\\A\\Ai\\COSMOS\\live --once",
+  "/sc",
+  "HOURLY",
+  "/f"
+ ],
+ "heartbeat": "askmine_heartbeat.json",
+ "clock_id": 19
+}

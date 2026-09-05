@@ -1,0 +1,11 @@
+{
+ "schema": "cosmos-bite/1",
+ "what": "round2 unpinned backup refusals \u2014 dest-is-file / copy-onto-dir",
+ "all_bite": true,
+ "dest_file_old_kind": null,
+ "dest_file_old_crash": "FileNotFoundError",
+ "dest_file_old_detail": "[WinError 3] The system cannot find the path specified: '\\\\\\\\?\\\\C:\\\\Users\\\\Papa\\\\AppData\\\\Local\\\\Temp\\\\cosmos_bite2_9uimj5eh\\\\dest_is_file\\\\src-20260831T133617'",
+ "copy_onto_dir_old_kind": "COPY_IO_ERROR",
+ "copy_onto_dir_old_crash": null,
+ "copy_onto_dir_precious_survived": true
+}

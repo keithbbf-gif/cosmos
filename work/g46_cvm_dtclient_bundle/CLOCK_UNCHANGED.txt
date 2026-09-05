@@ -1,0 +1,4 @@
+cvm_dt_clock.py: UNCHANGED
+No client hook was missing. cvm_dt_clock.poll_once already accepts
+client= and owns last_run_epoch / HOLD / RESUME-GATE / dead-Core heartbeat.
+CvmDtClient.tick() composes poll_once (lazy import); clock is not copied.

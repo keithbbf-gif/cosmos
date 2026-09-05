@@ -1,0 +1,28 @@
+{
+  "bite": {
+    "old_wired": false,
+    "old_severity": "PLANNED",
+    "old_unblocks0": "the R2 backup target in builds/backup/cosmos_backup.py, once its adapter seam is",
+    "old_has_open_doors": false,
+    "old_has_door_url": false
+  },
+  "verdicts": [
+    [
+      "wired_false",
+      true
+    ],
+    [
+      "severity_planned",
+      true
+    ],
+    [
+      "unblocks_names_unimplemented",
+      true
+    ],
+    [
+      "open_doors_absent",
+      true
+    ]
+  ],
+  "all_bite": true
+}

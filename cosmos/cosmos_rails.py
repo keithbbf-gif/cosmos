@@ -18,6 +18,7 @@ from typing import Callable
 
 from cosmos_registry import Registry
 from cosmos_dom import DomWorker, DomError
+from cosmos_spend import SpendError
 
 
 class RailError(RuntimeError):
@@ -112,16 +113,33 @@ class Dispatcher:
             self.ledger.append("RAIL_DISPATCH",
                                {"link_id": lid, "kind": claim["rail_type"],
                                 "src": src, "dst": dst})
-            # metered rail -> through the spend breaker
+            # metered rail -> through the spend breaker. TWO failures arrive here
+            # and only ONE is a spend refusal: the gate saying no, and the rail
+            # breaking after the gate said yes. A bare `except Exception` labelled
+            # both "spend-gated" in the AUTHORITY ledger, so every read timeout and
+            # vendor 500 was recorded under a refusal that never happened (PHASE-5
+            # FIX, measured). SpendError is the gate's own typed refusal; anything
+            # else is the rail. Both still raise RailError - only the `kind` and the
+            # recorded reason change - and the kinds stay literal at the raise sites
+            # because cosmos_refusals reads them out of the AST.
             if self.spend and getattr(adapter, "metered_usd", 0):
                 try:
                     result = self.spend.guarded_call(
                         lid, adapter.metered_usd, lambda: adapter.dispatch(payload))
-                except Exception as e:                                # noqa: BLE001
+                except SpendError as e:
+                    # The gate said no. The call never ran; nothing was spent.
                     self.ledger.append("RAIL_RESULT",
                                        {"link_id": lid, "ok": False,
                                         "detail": f"spend-gated: {e}"})
                     raise RailError("NOT_PERMITTED", str(e)) from e
+                except Exception as e:                                # noqa: BLE001
+                    # The gate permitted it and the rail itself blew up. The
+                    # exception that actually happened IS the reason.
+                    detail = f"rail raised {type(e).__name__}: {e}"
+                    self.ledger.append("RAIL_RESULT",
+                                       {"link_id": lid, "ok": False,
+                                        "detail": detail})
+                    raise RailError("RAIL_FAILED", f"{lid} {detail}") from e
             else:
                 result = adapter.dispatch(payload)
             self.ledger.append("RAIL_RESULT",

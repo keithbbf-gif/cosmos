@@ -1,0 +1,15 @@
+{
+ "task": "COSMOS New-AI Scout",
+ "argv": [
+  "schtasks",
+  "/create",
+  "/tn",
+  "COSMOS New-AI Scout",
+  "/tr",
+  "C:\\Users\\Papa\\AppData\\Local\\Programs\\Python\\Python314\\pythonw.exe V:\\A\\Ai\\COSMOS\\builds\\probe\\cosmos_newai_scout.py --root V:\\A\\Ai\\COSMOS\\live --once",
+  "/sc",
+  "HOURLY",
+  "/f"
+ ],
+ "registers": false
+}

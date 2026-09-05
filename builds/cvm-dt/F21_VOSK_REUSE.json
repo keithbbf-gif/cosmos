@@ -1,0 +1,99 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-f21-vosk-reuse/1",
+ "suite": "test_cvm_vosk_reuse.py",
+ "passed": 10,
+ "total": 10,
+ "gated_at_epoch": 1788295657.085973,
+ "python": "3.14.0",
+ "live_value": {
+  "staged_pre_edit": "V:\\A\\Ai\\COSMOS\\builds\\cvm-dt\\_delme\\predispose_cvm_dt_voice_20260831T031018\\cvm_dt_voice.py",
+  "ab": {
+   "pre_edit_ms": 666.851,
+   "post_edit_ms": 68.366,
+   "speedup": 9.75,
+   "saved_ms_per_utterance": 598.485,
+   "turns": 3,
+   "interleaved": true,
+   "fixture_s": 1.979,
+   "model": "vosk-model-small-en-us-0.15",
+   "pre_edit_samples": [
+    666.851,
+    657.999,
+    682.547
+   ],
+   "post_edit_samples": [
+    65.616,
+    70.361,
+    68.366
+   ]
+  },
+  "old_code_reuse_probe": {
+   "first_reports_reused": null,
+   "second_reports_reused": null,
+   "why": "the pre-edit finish() sets self._rec = None, so no turn can report a reused recognizer"
+  },
+  "transcripts": {
+   "pre_edit": "what is the queue depp",
+   "post_edit_turn1": "what is the queue depp",
+   "post_edit_turn2": "what is the queue depp"
+  },
+  "rate_change": {
+   "rebuilt": true,
+   "rate_now": 8000
+  }
+ },
+ "emitted": "f21-reuse:vosk-model-small-en-us-0.15:pre-edit 666.851 ms -> post-edit 68.366 ms per utterance (9.75x, 598.485 ms saved) on a 1.979 s fixture, interleaved; pre-edit copy cvm_dt_voice.py",
+ "results": [
+  {
+   "name": "pre_edit_copy_is_staged_not_deleted",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "pre_edit_copy_drops_the_recognizer_in_finish",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "new_code_reports_the_recognizer_was_reused",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "OLD_CODE_FAILS_THE_REUSE_CHECK",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "new_code_is_faster_on_the_same_pcm",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "the_gap_is_large_not_noise",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "both_paths_heard_the_same_words",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "a_rate_change_still_rebuilds_the_recognizer",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "finish_without_accept_still_refuses",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "two_finishes_in_a_row_still_refuse",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

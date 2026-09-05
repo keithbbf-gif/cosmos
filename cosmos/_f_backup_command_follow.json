@@ -1,0 +1,17 @@
+{
+ "ok": true,
+ "command_handled": {
+  "node": "CVM",
+  "ok": true,
+  "text": "status"
+ },
+ "command_node": "CVM",
+ "backup_verified": {
+  "node": "COSMOS",
+  "files": 1,
+  "verified": 1
+ },
+ "sentinel_system": "COSMOS",
+ "clock_source_has_node": true,
+ "cli_source_has_node": true
+}

@@ -1,0 +1,85 @@
+# CONTRACTS — rails subsystem
+#
+# Phase 1, docs/CORE_RESTRUCTURE.md. One machine-checked statement of what this
+# subsystem promises, so code, tests and prose cannot drift apart in silence.
+#
+# The seed entry is not hypothetical: on 2026-08-30 `register_node_rails`'
+# docstring claimed the OPPOSITE of what `test_boot_attach` and
+# `Registry.file_runtime` encode, an auditor read the docstring, "fixed" the
+# call site to match it, and regressed a passing suite. Prose is treated as
+# specification in this system, so a stale sentence is a live defect.
+#
+# RULE: transcribe what the CODE does today, not what the prose claims. Where
+# they disagree, the code wins and the disagreement is the finding.
+
+schema = "cosmos-contracts/1"
+subsystem = "rails"
+
+[[contract]]
+id = "rails.registration_requires_proof"
+statement = """
+A node rail that does not answer is NOT registered. Boot wires adapters and
+budgets only; registration is deferred to the prove() gate. Passing the real
+registry at boot would register rails whose incumbent never imported, and a
+failed rail would then appear in live_nodes() claiming presence it has not
+earned."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_kernel.py"
+  must_contain = "fn(_NoClaim(), self.adapters"
+  why = "boot must hand node rails the stub, not the live registry"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_boot_attach.py"
+  must_contain = "absent from live_nodes"
+  why = "a failed rail must be provably absent"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_registry.py"
+  must_contain = "a node that does not answer"
+  why = "file_runtime states the same rule at the projection layer"
+
+  [[contract.evidence]]
+  kind = "prose"
+  file = "cosmos/cosmos_node_rails.py"
+  must_not_contain = "and absence must be visible"
+  why = "the stale docstring that contradicted this contract and caused a regression"
+
+[[contract]]
+id = "rails.registration_is_not_capability"
+statement = """
+Registering a link never claims it works. A never-probed link reports
+verified=None (UNKNOWN), never True."""
+severity = "high"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_registry.py"
+  must_contain = "registration is not capability"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "tests/test_boot_rails.py"
+  must_contain = "nothing boot-composed claims capability it has not measured"
+
+[[contract]]
+id = "rails.attach_refuses_authority_without_boot_compose"
+statement = """
+attach_to_kernel on a writing Kernel refuses authority LINK_REGISTERED unless
+boot_compose=True, and a refused attach registers nothing NEW."""
+severity = "medium"
+
+  [[contract.evidence]]
+  kind = "code"
+  file = "cosmos/cosmos_firecrawl_rail.py"
+  must_contain = "_ledger_is_authority(kernel) and not boot_compose"
+
+  [[contract.evidence]]
+  kind = "test"
+  file = "cosmos/cosmos_firecrawl_rail.py"
+  must_contain = "set(k.registry.state()) == _before"
+  why = "asserts the property (nothing new registered), not an empty-registry assumption"

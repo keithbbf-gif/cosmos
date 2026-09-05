@@ -1,0 +1,61 @@
+{
+  "adapter_implemented": {
+    "mount": true,
+    "r2": true
+  },
+  "config_present": false,
+  "credentials_present": false,
+  "describes": {
+    "builds/backup/cosmos_state_offsite.py": {
+      "bytes": 17695,
+      "exists": true,
+      "sha256": "b2f1fca8bd4c7fe4d1d33030394b1800d53458d74cf50577d7dd1030743f6c3f"
+    }
+  },
+  "describes_schema": "cosmos-claim-artifact-freshness/1",
+  "heartbeat_written": false,
+  "kind": "NO_OFFSITE_ROUTE",
+  "payload": {
+    "bytes": 340044,
+    "expected": 4,
+    "files": {
+      "SEED.decl.json": {
+        "bytes": 203,
+        "exists": true,
+        "path": "V:\\A\\Ai\\COSMOS\\live\\state\\SEED.decl.json"
+      },
+      "SEED.json": {
+        "bytes": 218,
+        "exists": true,
+        "path": "V:\\A\\Ai\\COSMOS\\live\\state\\SEED.json"
+      },
+      "inflight.jsonl": {
+        "bytes": 335450,
+        "exists": true,
+        "path": "V:\\A\\Ai\\COSMOS\\live\\state\\inflight.jsonl"
+      },
+      "motif_tracker.json": {
+        "bytes": 4173,
+        "exists": true,
+        "path": "V:\\A\\Ai\\COSMOS\\live\\state\\motif_tracker.json"
+      }
+    },
+    "present": 4
+  },
+  "routes": [
+    {
+      "detail": "no backup_targets.json at V:\\A\\Ai\\COSMOS\\live\\config\\backup_targets.json (Keith names dest paths; COSMOS never invents them)",
+      "kind": "NO_CONFIG",
+      "route": "mount"
+    },
+    {
+      "detail": "no credential file at V:\\A\\Ai\\COSMOS\\live\\config\\r2_credentials.json (Keith places it; COSMOS opens the door)",
+      "kind": "NO_CREDENTIALS",
+      "route": "r2"
+    }
+  ],
+  "schema": "cosmos-state-offsite/1",
+  "status": "BLOCKED",
+  "ts": "2026-08-31T15:44:01+00:00",
+  "unblocks": "place backup_targets.json dests (F-48) and/or r2_credentials.json (F-46); this same tick then pushes the packed SEED/inflight/tracker with no code change"
+}

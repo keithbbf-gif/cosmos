@@ -1,0 +1,14 @@
+{
+ "schema": "cosmos-f60-schtasks-fail-old/1",
+ "old_dir": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_f60_schtasks_20260831T164154Z",
+ "old_guard_bytes": 3136,
+ "old_fence_bytes": 16988,
+ "pins": {
+  "guard_wraps_run_schtasks": false,
+  "guard_wraps_harden_task": false,
+  "guard_detects_schtasks_writes": false,
+  "fence_includes_backup_clock": false
+ },
+ "all_new_pins_failed": true,
+ "failed_pin_count": 4
+}

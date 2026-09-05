@@ -1,0 +1,55 @@
+{
+  "live_bind": {
+    "gdx": {
+      "dest_arg": "X:\\",
+      "is_dir": true,
+      "volume": "vol:19831116",
+      "label": "Google Drive",
+      "state": "READY",
+      "bound": "X:\\",
+      "src_vol": "vol:8046DC70",
+      "dst_vol": "vol:19831116"
+    },
+    "odx": {
+      "dest_arg": "C:\\Users\\Papa\\OneDrive",
+      "is_dir": true,
+      "volume": "vol:3242CB17",
+      "label": null,
+      "state": "READY",
+      "bound": "C:\\Users\\Papa\\OneDrive",
+      "src_vol": "vol:8046DC70",
+      "dst_vol": "vol:3242CB17"
+    },
+    "es3": {
+      "dest_arg": "E:\\",
+      "is_dir": false,
+      "volume": null,
+      "label": null,
+      "state": "DRIVE_NOT_MOUNTED",
+      "detail": "es3 dest is not a directory: E:\\ (Seagate ES.3 ST3000NM0033 is not installed)"
+    }
+  },
+  "preflight_no_config": {
+    "status": "BLOCKED",
+    "config_state": "NO_CONFIG",
+    "targets": {
+      "gdx": "NO_CONFIG",
+      "odx": "NO_CONFIG",
+      "es3": "NO_CONFIG"
+    },
+    "adapter_implemented": true,
+    "blockers": [
+      "config: NO_CONFIG",
+      "gdx: NO_CONFIG",
+      "odx: NO_CONFIG",
+      "es3: NO_CONFIG"
+    ]
+  },
+  "selfcheck": {
+    "kind": "MOUNT_PUSH_OK",
+    "files_pushed": 1,
+    "bytes_pushed": 14,
+    "rehearsal_kind": "REHEARSAL_PASS",
+    "probe": "FakeProbe"
+  }
+}

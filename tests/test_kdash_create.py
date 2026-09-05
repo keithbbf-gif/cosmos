@@ -12,6 +12,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kdash import (
     CREATE_KINDS, KDASH_INDEX, KdashError, cards_from_payload, fetch_makers,
     inspect_kdash_file, inspect_page, invoke_instructions, makers_path,

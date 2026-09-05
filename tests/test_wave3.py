@@ -8,6 +8,7 @@ import json, os, sys, tempfile, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
 from cosmos_ingress import IngressGate, write_envelope
 from cosmos_sched import Scheduler
@@ -69,9 +70,11 @@ def main() -> int:
     s = Scheduler(td / "q", KEY, "F5")
     runner = Runner(s, td / "work", "F5")
     if os.name == "nt":
-        j_ok = s.submit("print('hello from cosmos')", "normal")
-        j_find = s.submit("import sys; print('found stuff'); sys.exit(2)", "normal")
-        j_bad = s.submit("import sys; sys.exit(7)", "low")
+        j_ok = s.submit('argv:["py","-3.14","-c","print(\'hello from cosmos\')"]', "normal")
+        j_find = s.submit(
+            'argv:["py","-3.14","-c","import sys; print(\'found stuff\'); sys.exit(2)"]',
+            "normal")
+        j_bad = s.submit('argv:["py","-3.14","-c","import sys; sys.exit(7)"]', "low")
         results = runner.drain()
         by = {r["job_id"]: r for r in results}
         check("M5: CLEAN outcome from rc=0 with output captured",

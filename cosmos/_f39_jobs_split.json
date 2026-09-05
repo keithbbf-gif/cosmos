@@ -1,0 +1,31 @@
+{
+ "schema": "cosmos-f39-jobs-split/1",
+ "ok": true,
+ "tree_id": "KMesh-COSMOS-live",
+ "system": "COSMOS",
+ "measured_utc": "2026-08-31T17:55Z",
+ "disp": {
+  "bytes": 80388,
+  "lines": 2026
+ },
+ "jobs": {
+  "bytes": 22346,
+  "lines": 516
+ },
+ "old": {
+  "bytes": 96467,
+  "lines": 2462
+ },
+ "render_same": true,
+ "grok_same": true,
+ "suite": {
+  "checks": 49,
+  "passed": 49
+ },
+ "bite": {
+  "all_new_pins_failed": true,
+  "failed_pin_count": 8
+ },
+ "defines_grok_in_dispatch": false,
+ "imports_jobs": true
+}

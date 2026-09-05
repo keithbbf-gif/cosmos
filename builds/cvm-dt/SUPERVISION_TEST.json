@@ -1,0 +1,205 @@
+{
+ "ok": true,
+ "wire": "cvm-dt-b8-supervision/1",
+ "suite": "test_cvm_supervision.py",
+ "passed": 20,
+ "total": 20,
+ "gated_at_epoch": 1788295639.7954998,
+ "python": "3.14.0",
+ "live_value": {
+  "fake_scan": {
+   "repo": "C:\\Users\\Papa\\AppData\\Local\\Temp\\cvm-sup-c0hvz8z7",
+   "modules": [
+    "lonely_worker",
+    "wired_worker"
+   ],
+   "paths": [
+    "builds/thing/lonely_worker.py",
+    "cosmos/wired_worker.py"
+   ]
+  },
+  "fake_audit": {
+   "ok": false,
+   "declared": 2,
+   "unsupervised": [
+    {
+     "module": "lonely_worker",
+     "path": "builds/thing/lonely_worker.py",
+     "task_name": "COSMOS Lonely",
+     "heartbeat": "lonely_heartbeat.json",
+     "missing": [
+      "cosmos_own_clocks.CLOCKS",
+      "cosmos_health_clock.PEER_HEARTBEATS"
+     ],
+     "heartbeat_age_s": null,
+     "heartbeat_state": "no_runtime_root"
+    }
+   ]
+  },
+  "heartbeat_states": {
+   "fresh": "fresh",
+   "cold": "cold",
+   "empty": "no_last_run_epoch",
+   "junk": "unreadable",
+   "missing": "absent",
+   "undeclared": "not_declared"
+  },
+  "real_tree": {
+   "declared": 34,
+   "supervised": 13,
+   "unsupervised_count": 21,
+   "cold_count": 9,
+   "clocks_rows": 24,
+   "max_clock_id": 24,
+   "watchlist_len": 12,
+   "runtime": {
+    "root": "V:\\A\\Ai\\COSMOS\\live",
+    "tree_id": "KMesh-COSMOS-live"
+   },
+   "postmortem_workers": {
+    "cvm_dt_clock": {
+     "missing": [
+      "cosmos_own_clocks.CLOCKS",
+      "cosmos_health_clock.PEER_HEARTBEATS"
+     ],
+     "heartbeat_age_s": 462051.2,
+     "heartbeat_state": "cold"
+    },
+    "cvm_dt_voice": {
+     "missing": [
+      "cosmos_own_clocks.CLOCKS",
+      "cosmos_health_clock.PEER_HEARTBEATS"
+     ],
+     "heartbeat_age_s": 452886.2,
+     "heartbeat_state": "cold"
+    }
+   },
+   "unsupervised": [
+    "cosmos_askmine",
+    "cosmos_crit_consumer",
+    "cosmos_cvm_clock",
+    "cosmos_dispatcher_daemon",
+    "cosmos_health_clock",
+    "cosmos_newai_scout",
+    "cosmos_pool",
+    "cosmos_prepaid_orch",
+    "cosmos_resession",
+    "cosmos_work_order_run",
+    "cosmos_backup",
+    "cosmos_local_clock",
+    "cosmos_mount_clock",
+    "cosmos_offsite_clock",
+    "cosmos_state_offsite",
+    "cvm_dt_clock",
+    "cvm_dt_voice",
+    "cosmos_health_watchdog",
+    "cosmos_newai_scout",
+    "cosmos_resession",
+    "cosmos_selftest_clock"
+   ]
+  }
+ },
+ "emitted": "b8-sup:13/34 supervised; cvm_dt_clock cold 462051.2s; cvm_dt_voice cold 452886.2s",
+ "results": [
+  {
+   "name": "scan_finds_both_workers",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "scan_skips_delme_staged_copy",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "scan_ignores_function_local_assignment",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "scan_reads_the_logon_name",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "wired_worker_is_supervised",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "lonely_worker_is_flagged",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "flag_names_both_missing_registries",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "audit_not_ok_when_one_is_unwired",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "no_runtime_root_is_a_named_state",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "fully_wired_repo_is_ok",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "fresh_is_fresh",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "cold_is_cold",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "no_epoch_is_named",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "junk_is_unreadable",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "missing_file_is_absent",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "undeclared_is_not_absent",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "real_tree_declares_workers",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "registries_read_without_error",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "postmortem_workers_still_unwired",
+   "verdict": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "postmortem_workers_measured_cold",
+   "verdict": "PASS",
+   "detail": ""
+  }
+ ]
+}

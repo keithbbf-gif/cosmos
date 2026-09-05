@@ -1,0 +1,2987 @@
+{
+ "schema": "cosmos-tool-disposition/1",
+ "ts": "2026-08-31T11:57:05+00:00",
+ "worker": "tool-disposition",
+ "live_total": 143,
+ "plan_total": 35,
+ "by_kind": {
+  "PLAN_MATCH": 7,
+  "DECLARE_READY": 8,
+  "PLAN_READY": 19,
+  "DRIFT": 1,
+  "UNPLANNED": 116
+ },
+ "by_action": {
+  "SKIP": 7,
+  "DECLARE_AND_APPLY": 8,
+  "APPLY": 19,
+  "HOLD": 117
+ },
+ "apply_ready": [
+  "backup_watchdog",
+  "bootup",
+  "bts_bus",
+  "bts_cop",
+  "bts_drive_health",
+  "bts_dymon",
+  "bts_elevated_ops",
+  "bts_gem",
+  "bts_gw",
+  "bts_identity",
+  "bts_node",
+  "bts_oa_api",
+  "bts_policy",
+  "bts_poller",
+  "bts_serve",
+  "bts_sgh",
+  "bts_spend",
+  "bts_watchdog",
+  "corrections",
+  "mesh_fanout",
+  "rail_check",
+  "scars",
+  "task_registry",
+  "tidyup",
+  "tools_sync",
+  "verify_conf",
+  "verify_pointers"
+ ],
+ "apply_ready_count": 27,
+ "proposals": [
+  {
+   "name": "backup_to_onedrive",
+   "plan": "REPLACED",
+   "successor": "cosmos_backup + cosmos_surfaces",
+   "reason": "backup is policy+verification+evidence in cosmos_backup with the OneDrive destination probed as a cosmos_surfaces surface (hash compare, off-machine, scope by irreplaceability)",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "backup_watchdog",
+   "plan": "REPLACED",
+   "successor": "cosmos_backup + cosmos_surfaces",
+   "reason": "a watchdog that never executed is not a backup; cosmos_backup carries the scheduled verification, cosmos_surfaces the reachability probe",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bootup",
+   "plan": "REPLACED",
+   "successor": "cosmos_session",
+   "reason": "BootUP is start_session: read the prior SEED under its declared length/hash, inject facts and watchers, open a new cosmos_context.Session, return inherited context",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_bus",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail + cosmos_sched + cosmos_health",
+   "reason": "message bus role is IPC (cosmos_mail) + scheduling (cosmos_sched) + liveness (cosmos_health); no standalone bus survives",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_cop",
+   "plan": "REPLACED",
+   "successor": "cosmos_spend",
+   "reason": "cost projection folds into cosmos_spend; thinking billed at output rate is priced there, not re-derived per rail",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_cursor",
+   "plan": "ADAPTED",
+   "successor": "cosmos_rails",
+   "reason": "cosmos_rails ApiRail adapter (Cursor link driver), dispatchable from a queue lane; key stays in .secrets, never the repo",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "DRIFT"
+  },
+  {
+   "name": "bts_drive_health",
+   "plan": "ADAPTED",
+   "successor": "cosmos_surfaces",
+   "reason": "the SMART probe attaches as a cosmos_surfaces surface probe: report reachability + uncorrected reads, evacuate not monitor for an opaque USB-bridged single copy",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_dymon",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail + cosmos_sched + cosmos_health",
+   "reason": "the dynamic monitor becomes health checks on a schedule with mail notification - cosmos_health + cosmos_sched + cosmos_mail",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_elevated_ops",
+   "plan": "ADAPTED",
+   "successor": null,
+   "reason": "COSMOS uses the same elevated queue; the privileged worker survives as an EXTERNAL helper the OS dispatches to (one UAC click), not a module it absorbs - the credential boundary stays outside Core",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_gem",
+   "plan": "ADAPTED",
+   "successor": "cosmos_rails",
+   "reason": "cosmos_rails ApiRail adapter for the Vertex/GEM link; keep-separate from the Studio wrapper, Never Activate boundary preserved",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_gw",
+   "plan": "ADAPTED",
+   "successor": "cosmos_rails",
+   "reason": "cosmos_rails ApiRail adapter sharing the SGH ceiling; unpriced != $0 is enforced by the spend gate, not the driver",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_health",
+   "plan": "REPLACED",
+   "successor": "cosmos_health",
+   "reason": "cosmos_health on kernel selftests with positive AND negative controls - a health row that could never go red is the scar it closes",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "bts_identity",
+   "plan": "REPLACED",
+   "successor": "cosmos_identity",
+   "reason": "MESH_ID + PEERS move to cosmos_identity; federation blockers tracked as a function return, not a remembered count",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_kdash_feed",
+   "plan": "REPLACED",
+   "successor": "cosmos_service + kdash",
+   "reason": "KDash becomes an API projection client of cosmos_service /api/v1; no file-reading dashboard, so writer-splits-from-launcher cannot recur",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "bts_node",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail + cosmos_sched + cosmos_health",
+   "reason": "node loop decomposes into the same three OS primitives",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_oa_api",
+   "plan": "ADAPTED",
+   "successor": "cosmos_rails",
+   "reason": "cosmos_rails ApiRail adapter (OpenAI link); the two-ledger / two-ceiling split rides on cosmos_spend, breaker in the caller",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_paths",
+   "plan": "REPLACED",
+   "successor": "cosmos_paths",
+   "reason": "spike successor cosmos_paths: resolve-or-raise, one configured root, explicit boot instantiation, import-time side effects dropped",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "bts_phone",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail",
+   "reason": "spike successor cosmos_mail: probe-not-assume kept, dead != no-news, adds send + per-worker identity + staleness policy",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "bts_policy",
+   "plan": "REPLACED",
+   "successor": "cosmos_spend",
+   "reason": "the speed<->cost knob and DOM-vs-API routing live with the ledger in cosmos_spend that enforces them",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_poller",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail + cosmos_sched + cosmos_health",
+   "reason": "polling becomes scheduled probes (cosmos_sched) reporting to cosmos_health and mailing via cosmos_mail",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "bts_runner",
+   "plan": "REPLACED",
+   "successor": "cosmos_sched + cosmos_runner",
+   "reason": "queue tick splits: cosmos_sched owns concurrency/priority/registry, cosmos_runner keeps claim-by-rename, worded outcomes, log-first, report-never-retry, append-only ledger",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "bts_serve",
+   "plan": "REPLACED",
+   "successor": "cosmos_service",
+   "reason": "static file serving folds into cosmos_service, the single API surface",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_sgh",
+   "plan": "ADAPTED",
+   "successor": "cosmos_rails",
+   "reason": "becomes a cosmos_rails ApiRail adapter (SuperGrok link driver): metered rail, not the floor; DOM-first, spend-gated",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_spend",
+   "plan": "REPLACED",
+   "successor": "cosmos_spend",
+   "reason": "spend ledger centralizes in cosmos_spend: append-only, per-rail ceilings, breaker-in-the-caller",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "bts_watchdog",
+   "plan": "REPLACED",
+   "successor": "cosmos_mail + cosmos_sched + cosmos_health",
+   "reason": "watchdog is a scheduled health probe that mails on failure - the same three primitives, no bespoke daemon",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "corrections",
+   "plan": "ADAPTED",
+   "successor": "cosmos_context",
+   "reason": "carry-over corrections flow through cosmos_context + ledger (count-weighted, printed at boot); keep the doc renderer, validate on close",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "mesh_fanout",
+   "plan": "REPLACED",
+   "successor": "cosmos_crucible",
+   "reason": "vendor-plural fan-out becomes cosmos_crucible; single-family agreement proves nothing, so the crucible requires disagreeing families by design",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "rail_check",
+   "plan": "REPLACED",
+   "successor": "cosmos_registry + cosmos_rails",
+   "reason": "rails matrix becomes measured registry probes: cosmos_registry holds the entries, cosmos_rails probes them - no new .bat",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "scars",
+   "plan": "ADAPTED",
+   "successor": "cosmos_context",
+   "reason": "scars-as-query moves to cosmos_context + ledger, the evidence primitive; keep the doc renderer, replace the silent --selftest no-op",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "task_registry",
+   "plan": "REPLACED",
+   "successor": "cosmos_sched",
+   "reason": "scheduled-task registry role absorbed by cosmos_sched: zero red, machine count == registry count, no drive literals or relative paths",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "tidyup",
+   "plan": "REPLACED",
+   "successor": "cosmos_session",
+   "reason": "TidyUP/T2 is close_session: validate every control file parses AND validates, write a next-session SEED of inherited facts + open watchers + handoff via cosmos_context.Session/boot_inherit",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "DECLARE_AND_APPLY",
+   "kind": "DECLARE_READY"
+  },
+  {
+   "name": "tools_sync",
+   "plan": "ADAPTED",
+   "successor": "cosmos_context",
+   "reason": "the tools index flows through cosmos_context + ledger; keep the check-then-write doc renderer, OWNER names the live index path first",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "tree_lock",
+   "plan": "REPLACED",
+   "successor": "cosmos_lock",
+   "reason": "spike successor cosmos_lock: advisory cooperative lock cannot be ported - leases + fencing tokens + fenced commit replace it",
+   "live": "REPLACED",
+   "successor_missing": [],
+   "action": "SKIP",
+   "kind": "PLAN_MATCH"
+  },
+  {
+   "name": "verify_conf",
+   "plan": "REPLACED",
+   "successor": "cosmos_validate",
+   "reason": "every control file must parse AND validate - cosmos_validate enforces both, refusing to close on a file that only parses",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "verify_pointers",
+   "plan": "REPLACED",
+   "successor": "cosmos_validate",
+   "reason": "pointer integrity becomes a cosmos_validate gate; a point-in-time green run is replaced by content-hash notarization (TOCTOU closed)",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "APPLY",
+   "kind": "PLAN_READY"
+  },
+  {
+   "name": "apply_plans",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bench_drive",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bfast",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_bench",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_billing",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_board",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_calibrate",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_capacity",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_chanbench",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_claude",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_conductor",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_creditprobe",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_daemon",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_deadline",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_discovery",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_docindex",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_doctor",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_drivebench",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_gate",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_gdxbench",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_gemini_cli",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_launch",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_licwatch",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_meters",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_mtl",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_mux",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_oa",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_oagrab",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_odx",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_office",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_orchestrator",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_quota",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_registry",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_review",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_route",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_schemas",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_selfaudit",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_snapshot",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_spend_gate",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_state",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_surfaces",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_sync",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "bts_watcher",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "codex_config_fix",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "collect_sessions",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "crossref",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "crucible_method",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "crucible_verify_record",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "dash",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "dedupe_corpus",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "dedupe_transcripts",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "demo_roundtrip",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "disk_guard",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "domain_assay",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "drive_inventory",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "drop_old_mcp_key",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "fanout_review",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "figdig",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "find_in_mail",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "fire_one_rail",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "fix_rails",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "fix_stale_dates",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "gdx",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "gdx_fresh_auth",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "gem",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "glossary",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "handoff_guard",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "identity",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "index_sessions",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "legal_tree",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "maint_sweep",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "mcp",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "mesh_test",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "ocr_backlog",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "odx_probe",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "opjreader",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "originexport",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "pandoc",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "parallel_jobs",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "pdais_stage5",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "publish_nightly",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "qa_handoff",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "r2publish",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "rail_check_task",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "record_add_exhibits",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "record_reindex",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "record_trim",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "rfa_review",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "route_gate",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "runner_doctor",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "runner_repair",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "sgh",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "sng_ask",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "sort_sessions",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "spectra_index",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "spendgate_wrapper_controls",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "strip_transcript",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "sweep_corpus",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "test_bts_bus",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "test_integration",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "test_mesh_v2",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "test_watcher",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "tidy_transcripts",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "tidyup2_checks",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "tidyup2_full",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "tidyup2_hand",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "toml_guard",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "tools",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "usb_link",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "verify_citations",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "verify_gemini_cli",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "verify_quotes",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "wargame",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "wargame_bundle",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  },
+  {
+   "name": "wargame_feed",
+   "plan": null,
+   "successor": null,
+   "reason": "no PORT_DECISIONS card \u2014 HOLD, do not invent a ruling",
+   "live": "UNDECIDED",
+   "successor_missing": [],
+   "action": "HOLD",
+   "kind": "UNPLANNED"
+  }
+ ],
+ "note": "APPLY/DECLARE_AND_APPLY are proposals. apply() on the live authority ledger REFUSES LIVE_LEDGER_FORBIDDEN.",
+ "live_counts": {
+  "total": 143,
+  "by_disposition": {
+   "UNDECIDED": 135,
+   "REPLACED": 8
+  },
+  "verified_true": 0,
+  "read_only": true,
+  "writes": 0
+ },
+ "root": "V:\\A\\Ai\\COSMOS\\live",
+ "unplanned_cards": {
+  "card_count": 116,
+  "with_candidates": 47,
+  "without_candidates": 69,
+  "note": "Cards are HOLD. A candidate is evidence a cosmos_ module exists whose name overlaps; it is NOT a ruling. PORT_DECISIONS is the only place a ruling is recorded, and that module is outside this fence.",
+  "cards": [
+   {
+    "name": "apply_plans",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bench_drive",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_drive_meter",
+     "cosmos_motif_driver"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bfast",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_bench",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_billing",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_board",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_calibrate",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_capacity",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_chanbench",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_claude",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_claude_rail"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_conductor",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_creditprobe",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_daemon",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_bucket_daemon",
+     "cosmos_dispatcher_daemon"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_deadline",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_discovery",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_discover"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_docindex",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_index"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_doctor",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_drivebench",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_gate",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_gdxbench",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_gemini_cli",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_mcp_client"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_launch",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_licwatch",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_meters",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_mtl",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_mux",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_oa",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_oagrab",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_odx",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_office",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_orchestrator",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_orchestrator"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_quota",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_registry",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_registry"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_review",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_route",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_schemas",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_selfaudit",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_snapshot",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_spend_gate",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_spend",
+     "cosmos_spend_admin",
+     "cosmos_spend_meter",
+     "cosmos_spendguard"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_state",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_surfaces",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_surfaces"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_sync",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "bts_watcher",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "codex_config_fix",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_codex_rail"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "collect_sessions",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_collector",
+     "cosmos_collector_dhx",
+     "cosmos_session"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "crossref",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "crucible_method",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_crucible"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "crucible_verify_record",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_crucible",
+     "cosmos_ledger_verify"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "dash",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_kdash"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "dedupe_corpus",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_up"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "dedupe_transcripts",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_up"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "demo_roundtrip",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "disk_guard",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_spendguard"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "domain_assay",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_dom"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "drive_inventory",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_drive_meter",
+     "cosmos_motif_driver"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "drop_old_mcp_key",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_mcp",
+     "cosmos_mcp_client"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "fanout_review",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "figdig",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "find_in_mail",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_mail"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "fire_one_rail",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_claude_rail",
+     "cosmos_codex_rail",
+     "cosmos_cursor_rail",
+     "cosmos_firecrawl_rail",
+     "cosmos_node_rails",
+     "cosmos_playwright_rail",
+     "cosmos_rail_base",
+     "cosmos_rails",
+     "cosmos_rails_prober"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "fix_rails",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_node_rails",
+     "cosmos_rails",
+     "cosmos_rails_prober"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "fix_stale_dates",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "gdx",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "gdx_fresh_auth",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "gem",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_gem_bucket_worker",
+     "cosmos_gem_worker"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "glossary",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "handoff_guard",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_spendguard"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "identity",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_identity"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "index_sessions",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_index",
+     "cosmos_session"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "legal_tree",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "maint_sweep",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "mcp",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_mcp",
+     "cosmos_mcp_client"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "mesh_test",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "ocr_backlog",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "odx_probe",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_rails_prober"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "opjreader",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "originexport",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "pandoc",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "parallel_jobs",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "pdais_stage5",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "publish_nightly",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "qa_handoff",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "r2publish",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "rail_check_task",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_claude_rail",
+     "cosmos_codex_rail",
+     "cosmos_cursor_rail",
+     "cosmos_firecrawl_rail",
+     "cosmos_node_rails",
+     "cosmos_playwright_rail",
+     "cosmos_rail_base",
+     "cosmos_rails",
+     "cosmos_rails_prober"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "record_add_exhibits",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "record_reindex",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_index"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "record_trim",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "rfa_review",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_surfaces"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "route_gate",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "runner_doctor",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_run",
+     "cosmos_runner"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "runner_repair",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_run",
+     "cosmos_runner"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "sgh",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "sng_ask",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "sort_sessions",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_session"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "spectra_index",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_index"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "spendgate_wrapper_controls",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_control",
+     "cosmos_spend"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "strip_transcript",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "sweep_corpus",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "test_bts_bus",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "test_integration",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "test_mesh_v2",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "test_watcher",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "tidy_transcripts",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "tidyup2_checks",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_up"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "tidyup2_full",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_up"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "tidyup2_hand",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_up"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "toml_guard",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_spendguard"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "tools",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_tools"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "usb_link",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "verify_citations",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_ledger_verify"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "verify_gemini_cli",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_ledger_verify",
+     "cosmos_mcp_client"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "verify_quotes",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_ledger_verify"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "wargame",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "wargame_bundle",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   },
+   {
+    "name": "wargame_feed",
+    "action": "HOLD",
+    "kind": "UNPLANNED",
+    "disposition": null,
+    "plan": null,
+    "successor": null,
+    "successor_candidates": [
+     "cosmos_cdeck_feed"
+    ],
+    "live": "UNDECIDED",
+    "reason": "card review owed \u2014 no PORT_DECISIONS ruling; HOLD, do not invent a mapping"
+   }
+  ]
+ }
+}

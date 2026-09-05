@@ -1,0 +1,9 @@
+{
+  "measured_at": "2026-08-31T12:05:00Z",
+  "module": "cosmos_state_offsite",
+  "state": "ABSENT",
+  "kind": "ModuleNotFoundError",
+  "detail": "No module named 'cosmos_state_offsite'",
+  "sys_path_probe": "builds/backup",
+  "note": "Recorded BEFORE the file existed. F-54 payload packer bite: a regression that cannot fail against this world is not a test."
+}

@@ -1,0 +1,33 @@
+{
+ "ok": true,
+ "all_bite": true,
+ "when": "2026-08-31T13:47Z",
+ "live_tail_before": {
+  "artifact": "cosmos/_follow_live_measure.json",
+  "head_seq": 1295,
+  "tail_n": 100,
+  "tail_with_any": 9,
+  "tail_missing": {"HEALTH_BOARD": 90, "BACKUP_VERIFIED": 1},
+  "newest_event": "HEALTH_BOARD",
+  "newest_follow_keys": []
+ },
+ "events_with_zero_ids_before": [
+  "BACKUP_VERIFIED",
+  "BOOT_VERIFIED",
+  "COMMAND_HANDLED",
+  "CRUCIBLE_REFUSED",
+  "HEALTH_BOARD",
+  "MAKER_ADDED",
+  "TOOL_DECLARED",
+  "TOOL_DISPOSITION"
+ ],
+ "new_pins_against_old_writer": {
+  "cosmos/_fail_follow_backup_command_against_old.py": "all_new_pins_failed:true pin_passed_on_old=false 4/4 FAIL",
+  "tests/test_command.py": "FAIL 2/54 COMMAND_HANDLED.node is CVM; COMMAND_REFUSED.node is CVM",
+  "old_backup_payload": {"files": 1, "verified": 1, "no_node": true},
+  "old_command_payload": {"ok": true, "text": "status", "no_node": true}
+ },
+ "old_backup_payload_keys": ["dest", "files", "src", "verified"],
+ "old_command_payload_keys": ["ok", "text"],
+ "prechange_path": "_delme/predispose_follow_backup_command_20260831T134754Z/"
+}

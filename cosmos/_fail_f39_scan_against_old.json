@@ -1,0 +1,22 @@
+{
+ "schema": "cosmos-f39-scan-fail-old/1",
+ "old_collector": "V:\\A\\Ai\\COSMOS\\_delme\\predispose_collector_f39_scan_20260831T173040Z\\cosmos_collector.py",
+ "old_bytes": 87360,
+ "old_lines": 2106,
+ "old_has_scan_banner": true,
+ "old_defines_walk": true,
+ "live_scan_exists": true,
+ "live_scan_bytes": 7607,
+ "pins": {
+  "scan_module_imported": false,
+  "walk_moved_out": false,
+  "queue_iter_moved_out": false,
+  "research_iter_moved_out": false,
+  "ledger_iter_moved_out": false,
+  "kept_moved_out": false,
+  "banner_is_reexport_only": false,
+  "scan_file_was_present": false
+ },
+ "failed_pin_count": 8,
+ "all_new_pins_failed": true
+}
