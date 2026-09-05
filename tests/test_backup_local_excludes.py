@@ -48,10 +48,23 @@ def _hold_exclusive(path: Path):
     else:
         prev = path.stat().st_mode
         os.chmod(path, 0)
-        try:
-            yield prev
-        finally:
-            os.chmod(path, prev)
+        if os.access(path, os.R_OK):
+            # GitLab python:3.14 image runs as root; mode 0 is still readable.
+            # A dangling symlink is unreadable to the walker (ENOENT on follow).
+            payload = path.read_bytes()
+            path.unlink()
+            path.symlink_to(path.parent / ".no_such_unreadable")
+            try:
+                yield prev
+            finally:
+                path.unlink(missing_ok=True)
+                path.write_bytes(payload)
+                os.chmod(path, prev)
+        else:
+            try:
+                yield prev
+            finally:
+                os.chmod(path, prev)
 
 
 class TestBackupLocalExcludes(unittest.TestCase):

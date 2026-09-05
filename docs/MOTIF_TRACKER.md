@@ -1,5 +1,12 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-05 session-tools suite -->
+## Disposition — CCr (Keith: session tools suite)
+- Migrator **rebind** closed (`cm/cow_migrator_rebind.json`, 666 on `ws_12669390bcf4`). That is not the suite.
+- **New MOTIF 1:** `docs/research/SESSION_TOOLS.md` — crashed systems, all AIs/installs, load/convert/migrate/diff/check/anonymize. WISHLIST + BACKLOG rows open. Stage 2 ARCH next. ORC does not recode.
+- **CI iterate:** askmine 66/66 on GitLab #39; next fail `test_backup_local_excludes` (root ignores chmod 0). Hold = dangling symlink on POSIX when still readable.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-05 MOTIF 1-8 restart: GitHub live + CI gate -->
 ## Disposition — CCr (Keith: cascade 1-8 repeat)
 - **Gate:** GitHub+GitLab `main` = `59e2711` (live tree, no 164MB apk). GitLab pipeline 2823395411 **failed 64/66** `test_askmine` (Linux `/tmp` as missing; bite `_delme` gitignored). **Squash this pass:** sandbox `/tmp|/root` UNKNOWN on every host; tracked `tests/fixtures/clocks_pre_f63.py`. Host `test_askmine` **66/66**.
