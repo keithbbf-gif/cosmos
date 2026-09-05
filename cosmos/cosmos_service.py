@@ -689,7 +689,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 try:
                     hg = _cdeck_panel_get(_CDECK_PANEL_MOD[parsed.path])
                     tid = kernel.paths.sentinel.tree_id
-                    code, body = hg(kernel.paths.root, expected_tree_id=tid)
+                    q = None
+                    if parsed.path == "/api/v1/recents":
+                        from urllib.parse import parse_qs
+                        q = parse_qs(parsed.query)
+                    code, body = hg(kernel.paths.root, expected_tree_id=tid,
+                                    query=q)
                 except Exception as e:  # noqa: BLE001
                     return self._send(503, {
                         "error": "CDECK_PANEL_NOT_COMPOSED",
