@@ -8,7 +8,7 @@ repeatable loop for building ONE tool or feature. COW orchestrates; the nodes do
 GitLab is where code lands and where a gate actually executes.
 
 ## THE SOP — the mail-carrier route + 8-stage cycle (the fundamental heart of COSMOS development)
-**COW is a mail carrier on a route.** **Keith 2026-09-05:** the background cycle is the **system clock + Gitur**; this TUI **reviews and applies**. Open wishes and needed features are **work orders** (MOTIF 1–8), not in-band coding. Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
+**COW is a mail carrier on a route.** **Keith 2026-09-05:** the background cycle is the **system clock**; **Gitur is BUILD only**. This TUI **reviews and applies**. **Research does not go on Gitur** — stage 1 lands on disk. Open wishes and needed features are **work orders** (MOTIF 1–8), not in-band coding. Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
 open assignments, `MOTIF_TRACKER.md` incomplete rows, returns to read. For each item: **IMPLEMENT
 it** — unless you can state a LEGITIMATE ISSUE, or it is OBSOLETE / SUPERSEDED. When it is not a
 straight implement, run the 8-stage cycle below; never skip it silently. **When the route is
@@ -16,7 +16,7 @@ clear, hunt lost mail — first this session, then other sessions — until Keit
 idle (Watchdog2 enforces the ≤30s rule).
 
 ## The 8-stage cycle (run on any item that isn't a straight implement)
-1. **RESEARCH** — vendor-plural, in parallel; returns land on disk first; UNKNOWN not guess.
+1. **RESEARCH** — vendor-plural, in parallel; returns land on **disk** first (`work_orders/` Output; SGH + GEMINI DOM). **Not Gitur. Not a Cursor/GitHub/GitLab PR.** UNKNOWN not guess.
 2. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking).
 3. **CONSENSUS** — compare the designs; converge, or mark CONTESTED (both positions, one line to Keith). No third model resolves.
 4. **BUILD** — code it on a branch; competing spikes for the hard part; each must RUN.
@@ -25,8 +25,8 @@ idle (Watchdog2 enforces the ≤30s rule).
    **Dual-lane (Keith 2026-09-04):** Lane A = Grok 4.6 **work-order session**
    (not this orch TUI authoring `cosmos/`). Lane B = **Cursor Cloud Agent**
    (Opus 5 / Sonnet-class on Cursor Ultra, $0 marginal). Same task, **no
-   shared context**. BUILD runs **through Gitur** (branched trees / PRs). This TUI
-   writes the work order, runs **Gitur**, reviews/refines, then **CCr writes** the
+   shared context**. **BUILD** (this stage only) runs **through Gitur** (branched trees / PRs). Research does not. This TUI
+   writes the work order, runs **Gitur for BUILD**, reviews/refines, then **CCr writes** the
    live tree. That is the
    **Adversarial Loop** (`docs/ADVERSARIAL_LOOP.md`) — two builders, not
    builder-plus-checker. Does not lift COSMOS `ANTHROPIC_OFF` (`claude -p`

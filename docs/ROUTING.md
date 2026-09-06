@@ -45,7 +45,7 @@ Anthropic-agent surface outside this name).
 |---|---|---|---|
 | **GitHub** | origin `keithbbf-gif/cosmos` | Copilot review, issues, PRs, SGH drop path | live-tree writer |
 | **GitLab** | `keithbbf-gif/cosmos` | Duo propose; **CI is the execute-the-gate** | a third brain |
-| **Cursor** | Cloud Agents `cursor-api` | Lane B builder (Opus 5 / Sonnet; refuse Composer 2.5) | COSMOS `claude -p` |
+| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** (Opus 5 / Sonnet; refuse Composer 2.5) | COSMOS `claude -p`; **not research** |
 
 P10: Gitur **proposes**. CCr **disposes** and writes CORE. `ANTHROPIC_OFF` stays for
 COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
@@ -55,6 +55,11 @@ so the result is **branched trees** (GitHub + GitLab branches / PRs; Cursor Clou
 Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Sessions,
 `cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel until cDeck+OpenWork
 merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
+
+**Research does not go on Gitur (Keith 2026-09-05).** MOTIF stage 1 returns land on
+disk (`work_orders/` Output). Rails: **SGH + GEMINI DOM**. Do not open a Cursor Cloud
+Agent, GitHub PR, or GitLab MR for a research note. CCr may later file accepted
+research into `docs/research/`. Gitur starts at stage 4 BUILD.
 
 | task | default | why |
 |---|---|---|

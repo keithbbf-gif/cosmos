@@ -71,8 +71,8 @@ That folder is the SGH inbox. One JSON file per order. Do not put Python, SOP re
 2. **System daemon** (`cosmos/cosmos_sgh_drop_ingest.py`, schtask **COSMOS SGH Drop Ingest**) reads it and files a DROPPED record into the live bucket: `live/state/work_orders/bucket/` (runtime root `V:\A\Ai\COSMOS\live`). You do not need COW for this hop.
 3. Schtask **`COSMOS Work-Order Runner`** (~15s) **creates a session of the Agent type** (Grok / Codex / Gemini from the three-part Agent field) in an attempt-private workspace. That session executes the Task. It does not write the live tree.
 4. **DONE** = Output file exists. Lands in `live/state/work_orders/assigned/` (the done folder). **FAILED** = no Output.
-5. **Checks (daemon, one each, before COW):** the same Work-Order Runner, on that deposit, invokes **Gitur** — **one GitHub** pass, **one Cursor** Cloud Agent pass, **one GitLab CI** pass against the proposal — not against the live tree. Stamps `checks` on the order. A rail that is not wired is **UNMEASURED**, never invented green. This is not a second daemon and not a 1-minute cron.
-6. **This TUI orchestrates; CCr disposes (Keith 2026-09-04):** reads Output **and** the check stamps, reviews/refines, `--accept` or `--reject`. **CCr writes** accepted proposals to the live tree. This TUI does **not** author the implementation, does not execute the job, does not spawn the agent in-chat. It **does** write the work order and **run Gitur** (GitHub + GitLab + Cursor).
+5. **Checks (BUILD only):** after a **BUILD** deposit, the same Work-Order Runner invokes **Gitur** — one GitHub pass, one Cursor Cloud Agent pass, one GitLab CI pass against the proposal — not against the live tree. Stamps `checks` on the order. **Skip Gitur on RESEARCH orders.** A rail that is not wired is **UNMEASURED**, never invented green.
+6. **This TUI orchestrates; CCr disposes (Keith 2026-09-04):** reads Output **and** (for BUILD) the check stamps, reviews/refines, `--accept` or `--reject`. **CCr writes** accepted proposals to the live tree. This TUI does **not** author the implementation, does not execute the job, does not spawn the agent in-chat. It **does** write the work order. It **runs Gitur for BUILD only**. **Research does not go on Gitur.**
 
 Do not mark COMPLETED yourself. Do not assume the GitHub file is the live tree.
 
@@ -83,7 +83,7 @@ Cursor is **not** a post-DONE critic. It is an **adversarial parallel coder** (C
 | | When | Family | What |
 |---|---|---|---|
 | **Lane A — Grok** | Pickup | xAI Grok Code 4.6 | Executes the Task. Writes Output. `Agent` field stays Grok. |
-| **Lane B — Cursor** | Pickup, same order, **no shared context** | Cursor Cloud Agent — **Opus 5 / Sonnet class** (Ultra mix; Composer 2.5 refused) | Independent clone + PR `WO: <task>`. Parallel **coder**, not a review of Grok. Not the `Agent` field. Wallet = Cursor Ultra, not `claude -p`. |
+| **Lane B — Cursor** | Pickup, **BUILD** orders only, **no shared context** | Cursor Cloud Agent — **Opus 5 / Sonnet class** (Ultra mix; Composer 2.5 refused) | Independent clone + PR `WO: <task>`. Parallel **coder**. **Not research.** Not the `Agent` field. Wallet = Cursor Ultra, not `claude -p`. |
 | **GitHub Actions** | After DONE, before COW | none (CI) | Status checks. UNMEASURED until a workflow exists. |
 | **GitLab CI** | After DONE, before COW | none (CI) | `.gitlab-ci.yml` tests. |
 
@@ -103,7 +103,7 @@ COW reads both takes + `Verdict`, then `--accept` / `--reject`.
 
 ## Cursor (parallel builder)
 
-Do **not** put Cursor in the `Agent` field. The desk still refuses that family. The runner launches Composer 2.5 as **Lane B** on the same drop (Cloud Agent, PR against main). Setup: `docs/CURSOR_EXEC.md`. Bugbot may review that PR; it is not a substitute for Lane B itself.
+Do **not** put Cursor in the `Agent` field. The desk still refuses that family. On **BUILD** drops the runner launches Lane B as a Cloud Agent (Opus 5 / Sonnet; Composer 2.5 refused). **Do not launch Cursor / Gitur on RESEARCH drops.** Setup: `docs/CURSOR_EXEC.md`. Bugbot may review a BUILD PR; it is not a substitute for Lane B itself.
 
 ## Pointers (desktop canon)
 
