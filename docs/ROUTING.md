@@ -57,17 +57,20 @@ Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Session
 merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
 
 **Research goes on the DOM rails (Keith 2026-09-05).** MOTIF stage 1, free, in
-parallel: **SGH** (DT Chat + Android Voice); **free Gemini / Google search** (and
-GEMINI side panel Alt+G — not `gemini.google.com/app`); **ChatGPT chatbot**;
-**Perplexity**; **Bing**. Not Gitur. Not this TUI. Not APIs (`sgh-api`, Vertex /
-`gem-api`, OpenAI API). ChatGPT here is the **chatbot**, not ChatGPT Work and not
-Codex. Returns land on disk. Gitur starts at stage 4 BUILD.
+parallel: **SGH**; **free Gemini / Google search**; **ChatGPT chatbot**;
+**Perplexity**; **Bing**. They all have free research on the DOM. **Mechanism
+already on the mesh — do not rebuild:** Google Chrome CLI
+(`chrome.exe --headless=new --dump-dom`) via `cosmos/cosmos_browser.py` /
+`cosmos_dom` (BTS-MESH/COSMOS). **Do not open a browser window.** Playwright
+stays INTERACT overflow; dump-dom stays READ. Not Gitur. Not this TUI. Not APIs.
+ChatGPT here is the **chatbot**, not ChatGPT Work and not Codex. Gitur starts at
+stage 4 BUILD.
 
 | task | default | why |
 |---|---|---|
 | **coding — DEFAULT** | **Grok TUI / Grok Build** (`grok -p --cwd`, this COW) | Keith 2026-09-01: *all Grok based.* Anthropic off the route. Supersedes the 2026-08-25 "USE CLAUDE CODE" standing order. |
 | coding — overflow / conserve | **Gitur** (Cursor Cloud Agents Ultra; Opus 5 / Sonnet allowed; then GitHub + GitLab Anthropic agents; GitLab CI is the gate) | Dual-lane MOTIF builder. Not COSMOS `claude -p`. Does not mint an Anthropic API key. GitLab **Credits** 2026-09-04: Ultimate **Trial**, **0 / 24**, cliff **Sep 16**. CI minutes are a **different** meter. |
-| **research (vendor-plural, DOM)** | **SGH**; **free Gemini / Google search** + GEMINI side panel (Alt+G); **ChatGPT chatbot**; **Perplexity**; **Bing**. All DOM. | Keith 2026-09-05: these **are** the research rails. Not Gitur. Not this TUI. Not `sgh-api` / Vertex / OpenAI API. Not ChatGPT Work. Not `gemini.google.com/app`. |
+| **research (vendor-plural, DOM)** | Existing **Chrome CLI** (`cosmos_browser` `--dump-dom`, no window) against **SGH** / **free Gemini·Google search** / **ChatGPT chatbot** / **Perplexity** / **Bing**. | Keith 2026-09-05: already covered in BTS-MESH/COSMOS. Do not rebuild. Do not open a browser. Not Gitur. Not APIs. |
 | **Drive / Google AI Gemini chatbot (Keith 2026-09-05)** | Prepaid **DOM chat** on the Google Drive upgrade / AI account — extended Gemini chatbot. SKU **UNMEASURED** until a console shot. | **Not** Joanna Vertex. **Not** `orders.ggn` `vertex-coding`. **Not** keith.bbf AI Studio Free `AIza`. Subscription chatbot, no COSMOS API key. **Use 1 (safe):** extra **search** DOM rail beside the Chrome side panel. **Use 2 (preferred if the family rule allows):** a **Crucible / judge seat** — named disagreeing Gemini *chat* vs Vertex *generateContent*. Crucible still attaches **at most one Grok family**; same question for Google: chat-DOM vs Vertex-API may be one family until Keith rules they disagree. Do not click Set up billing / Upgrade from this TUI. |
 | **GEM Vertex / `gem-api`** | **Deliberate full-context reasoning turns only** (`bts_gem`, Vertex credit). UPS-Judge, Crucible, named stage-5 loads. | Keith 2026-09-01: not search, not ping, not overflow. A full context window is a spent turn — only when COW names the load. |
 | **scheduled / recurring / email-triggered Grok jobs** | **cDeck orchestration → Grok Automations** | Keith 2026-08-31: cDeck orchestrates Automations (schedule + SuperGrok email). grok.com is vendor backend. Not the coding TUI. **Same Heavy weekly bar as Build/Chat** (Keith 2026-09-04) — not a leftover 1% pool. |
