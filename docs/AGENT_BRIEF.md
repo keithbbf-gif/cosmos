@@ -364,14 +364,14 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
   or burner accounts. Every new AI joins under Keith's real identity on a vendor-documented
   path (CLI / MCP / API / DOM). Other AIs **will** be added; that wish is not a license to
   fake a seat. Crucible may take an official Opus/Fable API rail as a family seat — not as COW.
-- 🔴 **RESEARCH GOES ON THE DOM RAILS (Keith 2026-09-05).**
-  Free, vendor-plural, in parallel. **Not Gitur. Not this TUI. Not APIs.**
-  Surfaces: **SGH**; **free Gemini / Google search**; **ChatGPT chatbot**; **Perplexity**; **Bing**.
-  **Drive with the Google Chrome CLI already in BTS-MESH/COSMOS**
-  (`cosmos/cosmos_browser.py` → `chrome.exe --headless=new --dump-dom`).
-  **Do not open a browser window. Do not rebuild this rail.**
-  Do **not** open `gemini.google.com/app`. Do **not** use `sgh-api` or `gem-api` / Vertex for research.
-  ChatGPT chatbot is not Codex and not ChatGPT Work.
+- 🔴 **RESEARCH GOES ON THE DOM RAILS ALREADY IN BTS-MESH/COSMOS (Keith 2026-09-05).**
+  ROLD Rule 1: **SGH and GEM first**, both, in parallel. MESH CHARTER §4: DOM is FREE;
+  API is the fallback. Write returns to file. **Ask `V:\Ai\00_TOOLS_INDEX.md` before
+  writing anything.** Surfaces: SGH, GEM, free Gemini/Google search, ChatGPT chatbot,
+  Perplexity, Bing. Transport already exists: BTS `chrome-bridge`, CoW Chrome MCP
+  (22 tools), COSMOS `cosmos_dom`. **Google Chrome CLI — no browser window**
+  (ROLD STEP -1). **Do not rebuild.** Do not open `gemini.google.com/app`. Vertex /
+  `gem-api` is not research. ChatGPT chatbot is not Codex and not ChatGPT Work.
   SuperGrok Heavy: Build **36%** · Chat **1%** · **Automations 1%**.
   Scheduled/recurring Grok work is the Automations slice (grok.com/automations), also 1% — do
   not treat it as leftover Chat.
