@@ -52,7 +52,8 @@ COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
 
 **Build path (Keith 2026-09-05):** the whole COSMOS **BUILD** runs **through Gitur**
 so the result is **branched trees** (GitHub + GitLab branches / PRs; Cursor Cloud
-Agent already opens a `cursor/…` branch). This TUI is the wheel until cDeck+OpenWork
+Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Sessions,
+`cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel until cDeck+OpenWork
 merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
 
 | task | default | why |

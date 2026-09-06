@@ -21,7 +21,7 @@ Grok 4.1 Fast Reasoning on xAI Console `$0.20/$0.50` (A-tier; not Heavy, not Ver
 GFO files off-tree, runs on Core `:8770`. Brain GF38. SSA → Groq until moved.
 `docs/ORCH_SEAT.md`.
 **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** CCr runs that triad.
-**Entire COSMOS BUILD goes through Gitur → branched trees / PRs.** P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
+**Entire COSMOS BUILD goes through Gitur → branched trees / PRs** — including side jobs (Open Sessions, cowork_to_openwork, session-tools, cDeck). P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
 **GFO is ORC (target) and is on Legal with Keith.** Until cDeck and OpenWork merge, **Keith runs this TUI himself** — live COSMOS orch + CCr. No Legal from here. Merge = handoff gate for GFO as daily COSMOS wheel.
 **Desk for now:** this TUI **left HP 24N**; GFO **fullscreen right HP 24N**. Do not steal the right screen.
 
