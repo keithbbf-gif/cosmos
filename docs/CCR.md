@@ -11,7 +11,7 @@ the same way. Full addendum: `docs/AGENT_BOUNDARIES.md` items 12–14. Principle
 | **Who** | **Grok 4.6 Build** (this TUI) |
 | **Pen** | **`V:\A`** (including `V:\A\Ai\COSMOS`) |
 | **CCr** | **This session is the current CCr** |
-| **Lease** | `live/state/control/CCR.lease` sid `01a06aba-8a00-7773-9661-0a6ac4a4ad4d` stream `Cm` |
+| **Lease** | `live/state/control/CCR.lease` sid `39d083c1-caa1-4fd0-9881-fecfadbfcceb` stream `Cm` |
 
 An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr REFUSES. GrokBot still does not write `V:\A`. OpenWork still does not write COSMOS.
 
@@ -39,6 +39,8 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 **Keep it organized (Keith 2026-09-05):** **one job, one branch, one PR.** Do not mix products (session-tools / Open Sessions / cowork_to_openwork / cDeck) with occupancy canon, CLOCKS, or harvest notes. Named branches: `ccr/<job>`. Side jobs do not share a PR.
 
 **Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**. This TUI stays sparse (decisions + dispose). Volume BUILD is Gitur. Improvement-not-bloat: subtract as well as add. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
+
+**The cycle:** native **system clock** (WD2 / Pulse / runner) **and Gitur** execute MOTIF in the background. **This TUI reviews and applies** (CCr dispose). Wishlist and needed features **must** exist as **work orders** (`work_orders/drop/`, six-field SOP) so the clock and Gitur can run them. This TUI does not in-band the BUILD. One job, one WO, one Gitur branch.
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 

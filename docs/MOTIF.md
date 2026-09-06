@@ -8,7 +8,7 @@ repeatable loop for building ONE tool or feature. COW orchestrates; the nodes do
 GitLab is where code lands and where a gate actually executes.
 
 ## THE SOP — the mail-carrier route + 8-stage cycle (the fundamental heart of COSMOS development)
-**COW is a mail carrier on a route.** Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
+**COW is a mail carrier on a route.** **Keith 2026-09-05:** the background cycle is the **system clock + Gitur**; this TUI **reviews and applies**. Open wishes and needed features are **work orders** (MOTIF 1–8), not in-band coding. Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
 open assignments, `MOTIF_TRACKER.md` incomplete rows, returns to read. For each item: **IMPLEMENT
 it** — unless you can state a LEGITIMATE ISSUE, or it is OBSOLETE / SUPERSEDED. When it is not a
 straight implement, run the 8-stage cycle below; never skip it silently. **When the route is

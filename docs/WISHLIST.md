@@ -6,9 +6,11 @@ critics → consensus → improve → **ITERATE**) and drives it on the 15s Acti
 passes the runtime-binding gate — then moves to the next. **A process, not an endpoint**
 (see `CLAUDE.md`). COSMOS never idles while this file or `BACKLOG.md` holds an open item.
 
-**How a wish flows:** each `- [ ]` line → COW/WD2 opens a MOTIF thread → the stages land artifacts
-on disk → the gate proves it with a value only the live tree emits → checked off. **Add a wish as
-one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW.
+**How a wish flows:** each `- [ ]` line → a six-field work order in `work_orders/drop/` (SOP
+`docs/WORK_ORDER_SOP.md`) → the **system clock + Gitur** run MOTIF 1–8 → this TUI **reviews and
+applies**. The gate proves it with a value only the live tree emits → checked off. **Add a wish as
+one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW. Do not in-band
+the BUILD in this TUI.
 
 ## Open wishes
 
@@ -111,14 +113,14 @@ one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW
       ChatGPT Work: https://openai.com (July 2026 merge). Keith credentials; open-window
       handoff only.
 - [ ] **cDeck** — **Orchestration** (Keith 8/31 evening). Current 19-panel KDash clone is not that UX. Front stage: talk, jobs, orchestration tools, Automations, pool, voice, **Grok TUI coding pane**. Backstage: telemetry. Do not add more nav chips. grok.com is vendor backend for Chat/Automations. **Spec (do not build this session):** `builds/cdeck/ORCH_HOME_SPEC.md`.
-- [ ] **The dozen COSMOS-own clocks** — no BTS; 15s Activity Clock first. (`cosmos_own_clocks`)
-- [ ] **COSMOS_INDEX** — the single living index (tools building / features / implemented), self-refreshing.
+- [x] **The dozen COSMOS-own clocks** — built 2026-08-25; remaining work is CLOCKS *collapse* (WO `wo-20260905T221100.json`).
+- [x] **COSMOS_INDEX** — built (generator `cosmos/cosmos_index.py`; schtasks `COSMOS Index`).
 - [ ] **AUTO-RESESSION** — continue across the context boundary, zero / minimal user disturbance.
 - [ ] **Maker-hands** — sweep every AI-maker's tools; wire the useful ones as COSMOS rails/nodes.
 - [x] **CVM (voice)** — SUPERSEDED 2026-09-03 by Grok Voice → SGH phone app. Code retained; no new CVM MOTIF.
 - [ ] **GROK VOICE → SGH PHONE** — **TABLED 2026-09-04** (Keith: mostly solved; refine later). Endpoint on this roll: SGH Android Voice + **Grok Voice Think Fast 2.0** (`grok-voice-think-fast-2.0`). Phone still assigns via `work_orders/drop/` + `docs/WORK_ORDER_SOP.md`. Do not rebuild CVM. Do not invent a second phone APK. Do not open a new Voice MOTIF while CLOCKS + cDeck are cooking.
 - [ ] **CDM · gbridge** — carry each to the runtime-binding gate.
-- [ ] **Live Core** — `cosmos serve` on `:8770`; Kernel composes the Dispatcher on normal boot.
+- [x] **Live Core** — `cosmos serve` on `:8770` GREEN 2026-09-02; Kernel composes Dispatcher.
 - [ ] **Grok & GEM node workers (own buckets)** — native Windows Python daemons: each polls its own · WATCHDOG2 ASSIGNED 2026-08-31T19:45:12.264797-05:00 cm/g46_grok_motif_grok_gem_node_workers_own_buck_2f7997c3__t1800.py
       bucket, picks up tasks, executes via its rail (Grok→sgh/gw, GEM→gem), and writes results
       DIRECTLY to the designated folder — **V:\ is best**, GDX (Google Drive) and ODX (OneDrive) as
