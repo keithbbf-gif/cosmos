@@ -36,7 +36,9 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
 **Keith 2026-09-05:** the **entire COSMOS build** runs **through Gitur** so we get **branched trees**. That includes **side jobs / products**, not only CORE kernel: **Open Sessions** (`builds/open_sessions/`), **cowork_to_openwork**, session-tools, cDeck occupancy chrome. Stage-4 BUILD lands on a GitHub/GitLab branch + PR (Cursor lane and/or Grok CLI `--cwd` that branch/worktree). CCr **reviews** then disposes onto the live tree. Do **not** author `builds/` / `cosmos/` / product CLIs straight onto `main` in this TUI as the default path. Open Sessions stays LIVE — iterate on a branch; do not rebuild it in place. `cowork_to_openwork` is not ORC recode; if CCr changes it, that is still a Gitur branch.
 
-**Keep it organized (Keith 2026-09-05):** **one job, one branch, one PR.** Do not mix products (session-tools / Open Sessions / cowork_to_openwork / cDeck) with occupancy canon, CLOCKS, or harvest notes. Named branches: `ccr/<job>`. Side jobs do not share a PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
+**Keep it organized (Keith 2026-09-05):** **one job, one branch, one PR.** Do not mix products (session-tools / Open Sessions / cowork_to_openwork / cDeck) with occupancy canon, CLOCKS, or harvest notes. Named branches: `ccr/<job>`. Side jobs do not share a PR.
+
+**Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**. This TUI stays sparse (decisions + dispose). Volume BUILD is Gitur. Improvement-not-bloat: subtract as well as add. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 
