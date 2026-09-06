@@ -25,8 +25,9 @@ idle (Watchdog2 enforces the ≤30s rule).
    **Dual-lane (Keith 2026-09-04):** Lane A = Grok 4.6 **work-order session**
    (not this orch TUI authoring `cosmos/`). Lane B = **Cursor Cloud Agent**
    (Opus 5 / Sonnet-class on Cursor Ultra, $0 marginal). Same task, **no
-   shared context**. This TUI writes the work order, runs **GitHub / Cursor /
-   GitLab**, reviews/refines, then **CCr writes** the live tree. That is the
+   shared context**. BUILD runs **through Gitur** (branched trees / PRs). This TUI
+   writes the work order, runs **Gitur**, reviews/refines, then **CCr writes** the
+   live tree. That is the
    **Adversarial Loop** (`docs/ADVERSARIAL_LOOP.md`) — two builders, not
    builder-plus-checker. Does not lift COSMOS `ANTHROPIC_OFF` (`claude -p`
    stays off). GitLab credits run the **gate** (CI) and Duo as a proposer;

@@ -3,11 +3,16 @@
 **Keith 2026-09-05.** **GFO** = **Gem Flash OpenWork** = the **ORC** seat for now.
 Replaces Claude **Cowork** as the human orchestrator. Does **not** replace this TUI’s **CCr**.
 
+**Keith 2026-09-05 (federation keep):** **COW as ORC stays on COSMOS**
+(`V:\Streams\openwork`, 666 sessions) in case **federation** needs it. It will
+likely be **eclipsed** by **COSMOS_2** — built on OpenWork
+(`V:\OPENWORK\COSMOS_2`). Eclipse ≠ delete. Do not merge the 666 into COSMOS_2.
+
 | | |
 |---|---|
 | **Seat name** | **GFO** (Gem Flash OpenWork) |
 | **Role** | **ORC** — talk, route, drop work orders / SSA. Stays free for Keith. |
-| **Host** | OpenWork (`OpenWork.exe`). Workspace root **`V:\Streams\openwork`**. File work + ORC **off** the OS live tree. |
+| **Host** | OpenWork (`OpenWork.exe`). **Live sit** **`V:\OPENWORK\COSMOS_2`**. **Kept** (COW-as-ORC / federation / 666) **`V:\Streams\openwork`** (workspace **COSMOS**). File work + ORC **off** the OS live tree. |
 | **Runs on** | The **live Core** — code in the tree (`cosmos/` at `V:\A\Ai\COSMOS`, Core `:8770`, `tree_id=KMesh-COSMOS-live`). ORC operates that OS. She does not file in it. |
 | **Brain** | Gemini Flash — **GF38** (`gemini-3.8-flash`) |
 | **Wallet (orch talk)** | **Joanna** Vertex. Point Settings at `V:\Streams\openwork\.secrets\vertex_key.txt`. Promo **$0.75 / $3.75** /1M through 2026-12-31; credit through **2026-10-13**. |
@@ -40,8 +45,10 @@ Orch is cheaper and more human in OpenWork (cDeck main left). **Folder grant = p
 | | | |
 |---|---|---|
 | **Captain** | Keith | Course. Stop. Money. Credentials. |
-| **Wheel and rudder** | **ORC** (GFO) | Steers the live Core. Does not rebuild the engine. |
-| **Wheelhouse** | **OpenWork** | Where ORC sits. Files off the engine room. Grant `V:\Streams\openwork`. |
+| **Wheel and rudder (target)** | **ORC** (GFO) | Steers the live Core. Does not rebuild the engine. |
+| **Wheel (until cDeck↔OpenWork merge)** | **This TUI** — Keith runs it himself | Live COSMOS orch **and** CCr until cDeck main-left OpenWork is the daily wheel. ORC *should* be GFO. This is it until that merge. |
+| **Wheelhouse (live)** | **COSMOS_2** on OpenWork | GFO sit. Grant `V:\OPENWORK\COSMOS_2`. Legal with Keith now. Daily COSMOS wheel **after** the merge. |
+| **Wheelhouse (kept)** | **COSMOS** on OpenWork | COW as ORC + 666. `V:\Streams\openwork`. Federation may need it. |
 | **Designer / engineer / builder** | **This TUI** (CCr) | Designs, engineers, writes CORE. |
 | **Engine room** | **This tree** — live COSMOS CORE (`cosmos/`, Core `:8770`) | The OS. One writer. Keep her afloat while we change her. |
 | **Main Squeeze** | **Grok 4.1 Fast Reasoning** on xAI Console `$0.20/$0.50` | A-tier value fuel. Not the wheel. Not the engine. Not Heavy. Not Vertex. |
@@ -63,7 +70,8 @@ Cowork’s break = the wheelhouse also had a wrench on the engine. ORC steers CO
 
 | | Path | Who writes | Who reads |
 |---|---|---|---|
-| **Wheelhouse** | `V:\Streams\openwork` | GFO only | GFO + CCr |
+| **Wheelhouse (live)** | `V:\OPENWORK\COSMOS_2` | GFO only | GFO + CCr |
+| **Wheelhouse (kept)** | `V:\Streams\openwork` (COSMOS / COW-as-ORC) | federation occupancy; 666 stay here | GFO + CCr read |
 | **Engine room** | `V:\A` (CORE `V:\A\Ai\COSMOS`) | CCr only | CCr + GFO **read** |
 | **Not** | Whole `V:\` | — | never grant the volume |
 | **Not** | `P:` | — | Legal / Abraxas / sweep copies |
@@ -92,7 +100,7 @@ Citations in the source brief (NCBI / CEIAS / NDAA writeups) are **research poin
 
 ## What the dedicated orch seat is (and is not)
 
-**Is:** OpenWork in Cowork’s **orch** seat — human IDE, work orders, GitHub/Cursor/GitLab, mailbox `cm\`. Brain for high-frequency **routing talk** = **non-PRC**, cheap, JSON-strict when we add a resolver. Fuel: OpenWork Models **non-PRC** catalog if any, **Groq `gpt-oss-20b`** (already SATISFIED, US host, expires 2027-09-01), **Llama on Bedrock when bound** (still owed). Joanna Vertex GEM in that seat after Settings is pointed — **judge / file**, not the mutex.
+**Is:** OpenWork in Cowork’s **orch** seat — human IDE, work orders, **Gitur** (GitHub + GitLab + Cursor), mailbox `cm\`. Brain for high-frequency **routing talk** = **non-PRC**, cheap, JSON-strict when we add a resolver. Fuel: OpenWork Models **non-PRC** catalog if any, **Groq `gpt-oss-20b`** (already SATISFIED, US host, expires 2027-09-01), **Llama on Bedrock when bound** (still owed). Joanna Vertex GEM in that seat after Settings is pointed — **judge / file**, not the mutex.
 
 **Is not:**
 - An LLM that emits `MUTEX_LOCK` / `MUTEX_RELEASE`. Mutex is **`CCR.lease` + native**. An LLM hash of state is **fabricated compliance** (models do not SHA-256 the payload; they invent a string).
@@ -107,7 +115,7 @@ Citations in the source brief (NCBI / CEIAS / NDAA writeups) are **research poin
 |---|---|---|---|
 | **GFO (ORC)** | Replaces Cowork. Talk, WOs, mailbox, drop SSA | Joanna Vertex (talk); GroqCloud `gsk_` (SSA); $10 Models **minus PRC-as-orch-brain** | `V:\Streams\openwork` only |
 | **Grok 4.6 this TUI** | **Coder + CCr** — review, write `cosmos/` | SuperGrok Heavy, last 2% reserve | `V:\A` + `CCR.lease` |
-| **Cursor / GitHub / GitLab** | Volume coding + Anthropic **agents** | Ultra / Copilot / Duo (Duo cliff Sep 16) | P10 propose |
+| **Gitur** | **GitHub + GitLab + Cursor.** Volume coding + Anthropic **agents** + GitLab CI gate. CCr runs this triad. | Ultra / Copilot / Duo (Duo cliff Sep 16) | P10 propose (not a pen) |
 | **Native Pulse / collector / spend** | Poll, fence, cap | $0 Windows + spend gate | none |
 | **GLM / Kimi / DeepSeek** | A-tier file / cheap overflow **only** | OpenWork $10 | not orch, not CCr, not SEED |
 
@@ -126,5 +134,17 @@ Putting the **orch conversation** in OpenWork is the right structural move: chea
 Putting a **Llama JSON switchboard** *inside* OpenWork as “the orchestrator” is a **different** product. If we ever add a Path Resolver, it is a **labeled A-tier worker** behind the spend gate, US-hosted weights, **no mutex verbs**, **no invented hashes**, fail-closed to this TUI / Cursor — not a halt, not a silent sanitize.
 
 **GFO is seated** (Keith 2026-09-05). Point Settings at `V:\Streams\openwork\.secrets\vertex_key.txt`; brain is GF38, not g43. g43 shares Heavy — leave it. This TUI stays CCr.
+
+**Keith 2026-09-05 (live):** **GFO is ORC** and is **working Legal with Keith**. Legal is that chair + Keith — not this TUI. This TUI does not open legal transcripts, does not write `V:\Ai` / `P:\Legal`, does not sit the Legal OpenWork profile. COSMOS recents still omit `stream=legal`.
+
+**Keith 2026-09-05 (this chair):** *I'm running you myself. ORC should be GFO — but until we merge cDeck and OpenWork, this is it.* Target occupancy stands (GFO = ORC, this TUI = CCr). **Until** cDeck main-left OpenWork is the merged orch home (`builds/cdeck/ORCH_HOME_SPEC.md` P5 embed still UNMEASURED; OPEN focuses/launches, no fake iframe), **this Grok TUI is the live COSMOS wheel** — Keith-run orch **and** CCr. Do not idle waiting for GFO to steer COSMOS. Do not steal Legal. Merge of cDeck+OpenWork is the handoff gate that seats GFO on the daily COSMOS wheel.
+
+**Desk (Keith 2026-09-05, for now — two HP 24N):**
+| Monitor | Occupant |
+|---|---|
+| **Left HP 24N** | **This TUI** (COSMOS orch + CCr) |
+| **Right HP 24N** | **GFO fullscreen** (ORC, Legal with Keith) |
+
+Do not steal the right screen. Do not sit Legal. Physical split stands until the cDeck+OpenWork merge.
 
 **Do not:** merge PRs #30 #32 #36 #37 #38; lift `ANTHROPIC_OFF`; invent OpenRouter/Together; let GLM/DeepSeek emit routes over `SEED.json`; give OpenWork `V:\A`.

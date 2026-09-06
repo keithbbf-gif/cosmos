@@ -116,11 +116,11 @@ evacuating it.
 Enumerated and hard-wired so drift cannot break it (encoded as principle **P9**,
 `cosmos/cosmos_principles.toml` + `.py`, audited):
 - **COW orchestrates. Other agents execute.**
-- **This TUI does not author implementation** (Keith 2026-09-04). It **writes
-  work orders**, **runs GitHub / Cursor / GitLab**, **reviews/refines** the
-  returned code, then **CCr writes the COSMOS live tree**. Coding happens on
-  those vendor surfaces (and dropped Grok 4.6 work-order sessions), not as
-  in-session `cosmos/*.py` from this orch chat.
+- **This TUI does not author implementation** (Keith 2026-09-04) *as orch diet*.
+  **Keith 2026-09-05:** he runs **this TUI himself** until cDeck and OpenWork
+  merge — live COSMOS **orch + CCr**. GFO is the intended ORC (on Legal with
+  him now). Until that merge, **this chair walks the route and writes CORE**.
+  Gitur still runs. Map: `docs/ROUTING.md` · `docs/ORCH_SEAT.md`.
 - **COW does not hold the COSMOS live-tree pen while orchestrating.** Writes the
   BU (`BUCm.toml`/`SEED.json` handoff), encodes canon, drops work in the box.
   Executable Core / live tree is **CCr only** (one at a time) after review.
@@ -133,7 +133,7 @@ Enumerated and hard-wired so drift cannot break it (encoded as principle **P9**,
 - **COW is no longer at liberty to burn those tokens.** COW's context is the scarce budget;
   spending it on execution or search is the Claude-Solo failure. Prepaid/agent capacity does the work.
 - **The test of any COW action:** is it (a) encoding canon / BU, (b) dropping a
-  work order, (c) running GitHub/Cursor/GitLab, or (d) CCr review+write of a
+  work order, (c) running Gitur (GitHub/Cursor/GitLab), or (d) CCr review+write of a
   vendor proposal? If none of those, it belongs to an agent.
 
 **Agents propose; CCr disposes (P10) — the AI work order.** Only the **Chief Coder**
