@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""session-tools Slice-1 — scan + load (cowork wrap, grok_tui).
+"""session-tools — scan load convert diff check anonymize crash-recover.
 
     py -3.14 builds/session-tools/session_tools.py scan --family cowork --store <dir>
     py -3.14 builds/session-tools/session_tools.py load --id cow-abc --store <dir>
