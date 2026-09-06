@@ -46,8 +46,9 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 | Gemini judge | `Google \| Gemini \| <model>` |
 | OpenAI coding (Codex rail) | `OpenAI \| Codex \| gpt-5.3-codex` |
 | Headless SSA drop (simple orch background) | `Groq \| gpt-oss \| 20b` (or Agent `SSA` — remaps to groq) |
+| **MOTIF RESEARCH** | **Do not name Grok 4.6 or Cursor.** Task says `Route: DOM`. Rails: **SGH** (DT Chat + Android Voice) **and GEMINI** (Chrome side panel, Alt+G). Not `sgh-api`. Not `gem-api`. |
 
-**Do not put Cursor in Agent.** The desk refuses that family. Cursor is a **separate coding lane** (Cloud Agent on this GitHub repo). If you want Cursor, say `Route: CURSOR` in **Task** and keep Agent as Grok — COW dispatches Cursor; you do not.
+**Do not put Cursor in Agent.** The desk refuses that family. Cursor is a **separate coding lane** (Cloud Agent on this GitHub repo). If you want Cursor on a **BUILD**, say `Route: CURSOR` in **Task** and keep Agent as Grok — COW dispatches Cursor; you do not. **Research goes on the DOM rails, not Gitur.**
 
 **Do not put Anthropic / Claude / Sonnet / SSA in Agent.** Off the route.
 
@@ -72,7 +73,7 @@ That folder is the SGH inbox. One JSON file per order. Do not put Python, SOP re
 3. Schtask **`COSMOS Work-Order Runner`** (~15s) **creates a session of the Agent type** (Grok / Codex / Gemini from the three-part Agent field) in an attempt-private workspace. That session executes the Task. It does not write the live tree.
 4. **DONE** = Output file exists. Lands in `live/state/work_orders/assigned/` (the done folder). **FAILED** = no Output.
 5. **Checks (BUILD only):** after a **BUILD** deposit, the same Work-Order Runner invokes **Gitur** — one GitHub pass, one Cursor Cloud Agent pass, one GitLab CI pass against the proposal — not against the live tree. Stamps `checks` on the order. **Skip Gitur on RESEARCH orders.** A rail that is not wired is **UNMEASURED**, never invented green.
-6. **This TUI orchestrates; CCr disposes (Keith 2026-09-04):** reads Output **and** (for BUILD) the check stamps, reviews/refines, `--accept` or `--reject`. **CCr writes** accepted proposals to the live tree. This TUI does **not** author the implementation, does not execute the job, does not spawn the agent in-chat. It **does** write the work order. It **runs Gitur for BUILD only**. **Research does not go on Gitur.**
+6. **This TUI orchestrates; CCr disposes (Keith 2026-09-04):** reads Output **and** (for BUILD) the check stamps, reviews/refines, `--accept` or `--reject`. **CCr writes** accepted proposals to the live tree. This TUI does **not** author the implementation, does not execute the job, does not spawn the agent in-chat. It **does** write the work order. It **runs Gitur for BUILD only**. **Research goes on the DOM rails** (SGH + GEMINI).
 
 Do not mark COMPLETED yourself. Do not assume the GitHub file is the live tree.
 

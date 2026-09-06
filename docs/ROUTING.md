@@ -56,10 +56,11 @@ Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Session
 `cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel until cDeck+OpenWork
 merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
 
-**Research does not go on Gitur (Keith 2026-09-05).** MOTIF stage 1 returns land on
-disk (`work_orders/` Output). Rails: **SGH + GEMINI DOM**. Do not open a Cursor Cloud
-Agent, GitHub PR, or GitLab MR for a research note. CCr may later file accepted
-research into `docs/research/`. Gitur starts at stage 4 BUILD.
+**Research goes on the DOM rails (Keith 2026-09-05/02).** MOTIF stage 1 = **SGH**
+(DT Chat + Android Voice) **and GEMINI** (Chrome side panel, Alt+G). Both DOM, in
+parallel. Not Gitur. Not this TUI. Not `sgh-api`. Not Vertex / `gem-api`. Not
+`gemini.google.com/app`. Returns land on disk. CCr may later file accepted research
+into `docs/research/`. Gitur starts at stage 4 BUILD.
 
 | task | default | why |
 |---|---|---|

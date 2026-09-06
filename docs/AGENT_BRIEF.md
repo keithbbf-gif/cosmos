@@ -364,8 +364,9 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
   or burner accounts. Every new AI joins under Keith's real identity on a vendor-documented
   path (CLI / MCP / API / DOM). Other AIs **will** be added; that wish is not a license to
   fake a seat. Crucible may take an official Opus/Fable API rail as a family seat — not as COW.
-- 🔴 **RESEARCH RAILS = SGH DOM + GEMINI DOM (Keith 2026-09-02; was SEARCH 08-31/09-01).**
-  Two rails, both DOM, vendor-plural. **SGH** = SuperGrok Heavy Chatboxes (DT Chat +
+- 🔴 **RESEARCH GOES ON THE DOM RAILS (Keith 2026-09-05/02).**
+  **SGH DOM + GEMINI DOM.** Two rails, both DOM, vendor-plural. Not Gitur. Not this TUI.
+  **SGH** = SuperGrok Heavy Chatboxes (DT Chat +
   Android Voice). **GEMINI** = Chrome side panel (toolbar Gemini / Windows **Alt+G**):
   open it, type, send. Free. **No Sign in.** Do **not** open `gemini.google.com/app`.
   Do **not** use `sgh-api` or `gem-api` / Vertex for research. SuperGrok Heavy: Build
