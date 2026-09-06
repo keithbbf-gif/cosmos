@@ -16,7 +16,7 @@ clear, hunt lost mail — first this session, then other sessions — until Keit
 idle (Watchdog2 enforces the ≤30s rule).
 
 ## The 8-stage cycle (run on any item that isn't a straight implement)
-1. **RESEARCH** — **DOM rails**, vendor-plural, in parallel. Surfaces: **SGH**; **free Gemini / Google search**; **ChatGPT chatbot**; **Perplexity**; **Bing**. Drive them with the **Google Chrome CLI already on the mesh** (`chrome.exe --headless=new --dump-dom` via `cosmos/cosmos_browser.py` / `cosmos_dom` — BTS-MESH/COSMOS, do not rebuild). **Do not open a browser window.** Not Alt+G as the MOTIF dispatch (that is the cDeck GEM chip). **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
+1. **RESEARCH** — **DOM rails**, already on the mesh. ROLD Rule 1 + MESH CHARTER §4–5: SGH and GEM first, both, in parallel; write the return to file. Surfaces include **SGH**, **free Gemini / Google search**, **ChatGPT chatbot**, **Perplexity**, **Bing**. Drive them with the **existing Chrome path** (BTS `chrome-bridge` / CoW Chrome MCP 22 tools / COSMOS `cosmos_dom` — **no browser window**, Keith's screen off limits). **Ask `V:\Ai\00_TOOLS_INDEX.md` before writing anything.** Do not rebuild. **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
 2. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking).
 3. **CONSENSUS** — compare the designs; converge, or mark CONTESTED (both positions, one line to Keith). No third model resolves.
 4. **BUILD** — code it on a branch; competing spikes for the hard part; each must RUN.
@@ -90,7 +90,7 @@ Two things iterate can change, beyond the architecture:
 
 ## Invocation
 A tool-dev task names its TARGET and runs the loop. **Research** dispatches to the
-**DOM rails** through the existing **Chrome CLI** (no window). Stage-5 critique may use API judges
+**DOM rails already in BTS-MESH/COSMOS** (ROLD Rule 1; Chrome CLI / chrome-bridge; no window). Stage-5 critique may use API judges
 (GEM Vertex / OA / Llama / Nova) — that is not research. **Build dual-lane:**
 Grok 4.6 + Cursor Cloud (Opus/Sonnet class) **on Gitur**. GitLab CI is the
 runtime-binding gate wallet (Keith 2026-09-04: ~$200 credit — bind before quoting).

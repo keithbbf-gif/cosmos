@@ -40,7 +40,7 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
 **Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**.
 
-**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **Research goes on the DOM rails** (Keith 2026-09-05): **SGH**; **free Gemini / Google search**; **ChatGPT chatbot**; **Perplexity**; **Bing** — all free on the DOM, driven by the **Google Chrome CLI already in BTS-MESH/COSMOS** (`cosmos_browser` `--dump-dom`). **Do not open a browser window. Do not rebuild.** **Gitur is BUILD only**. This TUI **reviews and applies**. One BUILD job, one Gitur branch, one PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
+**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **Research goes on the DOM rails already in BTS-MESH/COSMOS** (ROLD Rule 1, MESH CHARTER §4): SGH + GEM first; Chrome CLI / `chrome-bridge` / Chrome MCP — **no window**. Free Gemini/Google search, ChatGPT chatbot, Perplexity, Bing sit on that same DOM. **Do not rebuild. Ask the tools index first.** **Gitur is BUILD only**. This TUI **reviews and applies**. One BUILD job, one Gitur branch, one PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 
