@@ -201,7 +201,8 @@ can currently launch it.**
 the real handler in this clone and captured what COSMOS actually emits:
 
 ```
-REQ  {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05",...}}
+# note the client deliberately asks for the CURRENT revision, 2026-07-28:
+REQ  {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2026-07-28",...}}
 RESP {"jsonrpc": "2.0", "id": 1, "result": {"protocolVersion": "2024-11-05",
       "capabilities": {"tools": {}}, "serverInfo": {"name": "cosmos", "version": "1.0-f5"}}}
 
@@ -223,7 +224,8 @@ Three things this proves rather than asserts:
 1. The handshake and tool catalogue are **real and emitted**, not aspirational.
 2. With no kernel bound, a `tools/call` **fails closed with a typed JSON-RPC error** instead of
    inventing a result. Correct behavior.
-3. **The protocol version is stale and is not negotiated.** `PROTOCOL = "2024-11-05"` is a module
+3. **The protocol version is stale and is not negotiated — measured, not inferred.** The probe above
+   deliberately asked for `2026-07-28` and COSMOS answered `2024-11-05` anyway. `PROTOCOL` is a module
    constant (`cosmos_mcp.py:22`) echoed at line 88; `initialize` **ignores the client's requested
    version entirely**. Against the vendor spec, the **current MCP revision is `2026-07-28`**, which
    **removed the `initialize`/`initialized` handshake altogether** (SEP-2575) in favor of per-request
