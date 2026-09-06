@@ -1,6 +1,11 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/BACKLOG.md [read*]; builds/probe/_f41_proposals.json [read*] if present",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/BACKLOG.md [read*]",
+    "builds/probe/_f41_proposals.json [read*] if present"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: Tool migration UNDECIDED cards. 27 apply-ready judgements exist; 116 HOLD cards. Propose apply of the 27 (P10) and a ruling path for HOLDs. Proposer must REFUSE live ledger writes. Branch ccr/tool-migration.",
   "Target & scope": "proposals only; LIVE_LEDGER_FORBIDDEN",
   "Timestamp": "2026-09-05T22:36:00-05:00",

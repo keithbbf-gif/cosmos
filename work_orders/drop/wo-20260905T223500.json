@@ -1,6 +1,11 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]; docs/MOTIF_TRACKER.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/WISHLIST.md [read*]",
+    "docs/MOTIF_TRACKER.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: CDM and gbridge \u2014 carry each to the runtime-binding gate. One job covering both only as a STATUS+NEXT-SLICE proposal; do not mix their BUILD PRs. Next BUILD must split ccr/cdm vs ccr/gbridge. Do not take Core down. Branch ccr/cdm-gbridge-status.",
   "Target & scope": "proposals/status only; split later BUILD PRs; never kernel/ledger",
   "Timestamp": "2026-09-05T22:35:00-05:00",

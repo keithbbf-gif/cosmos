@@ -1,6 +1,12 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/research/SESSION_TOOLS.md [read*]; docs/arch/SESSION_TOOLS_ARCH.md [read*]; docs/arch/SESSION_TOOLS_STAGE3.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/research/SESSION_TOOLS.md [read*]",
+    "docs/arch/SESSION_TOOLS_ARCH.md [read*]",
+    "docs/arch/SESSION_TOOLS_STAGE3.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF continue SESSION TOOLS: CCr PR #43 is Slices 1-4; CLI PR #44 is Slice-1 lane. Dispose/compare; HOLD migrate/recents-grok until named. Do not re-ingest 666. Do not recode cowork_to_openwork as ORC. Do not merge PRs #30 #32 #36 #37 #38. Branch stays ccr/session-tools.",
   "Target & scope": "proposals only on session-tools product; do not mix occupancy",
   "Timestamp": "2026-09-05T22:15:00-05:00",

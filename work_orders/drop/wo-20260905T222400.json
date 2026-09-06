@@ -1,6 +1,11 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]; docs/research/WORK_AGENTS_HANDS.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/WISHLIST.md [read*]",
+    "docs/research/WORK_AGENTS_HANDS.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: NEW-AI DISCOVERY scout. Open-ended finder of new AI products/models/agents (not just re-read HANDS). Must watch the Work-agent class. Propose daemon/spec. Do not wire a live OpenAI/Anthropic/MS Work path. Branch ccr/new-ai-discovery.",
   "Target & scope": "proposals/research only; possessed=false until Keith mints a seat",
   "Timestamp": "2026-09-05T22:24:00-05:00",
