@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/ORCH_SEAT.md [read*]; docs/CCR.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: ORCHESTRATOR PROFILES — one occupant per profile (GFO, this TUI, GrokBot, later federation). Do not share pens. Do not sit Legal from this TUI. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/orch-profiles.",
+  "Target & scope": "proposals/docs only; never V:\\Ai; never CORE kernel",
+  "Timestamp": "2026-09-05T22:14:00-05:00",
+  "Output": "proposals | orch-profiles.md"
+}

@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/CCR.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: INTER-ORCHESTRATOR COMMS (P1). Write-locked mailbox so this TUI and GrokBot talk (hash-chained append, writer_id, cosmos_lock). Two pens stay split: GrokBot V:\\Ai, CCr V:\\A. Mailbox BEFORE any shared tree. Do not share a root. Branch ccr/orch-mailbox.",
+  "Target & scope": "proposals/docs only; never V:\\Ai writes; never CORE kernel",
+  "Timestamp": "2026-09-05T22:19:00-05:00",
+  "Output": "proposals | orch-mailbox.md"
+}

@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]; docs/research/AUTO_RESESSION.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: SECOND / PARALLEL ORCHESTRATOR (P1). Prepaid independent orch so the chair is not a single point of failure. Requires persisted orch state (SEED/carry-over, redundant off-tree). Do not make a second Core. Do not sit Legal. Branch ccr/parallel-orch.",
+  "Target & scope": "proposals/research only; never a second ledger writer",
+  "Timestamp": "2026-09-05T22:20:00-05:00",
+  "Output": "proposals | parallel-orch.md"
+}

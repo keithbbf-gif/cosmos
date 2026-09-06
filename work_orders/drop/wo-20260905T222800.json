@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/federation/UPDATE_SERVICE.md [read*]; docs/CCR.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: FEDERATION spec only. Grayson soon: his PC, his accounts, Crucible as the app, COSMOS as OS. Update+comms on T7 or SRV1 (both NO_HOST \u2014 do not invent a hostname). One stream per install. Mailbox + one versioned API + lease before any shared write. Branch ccr/federation-spec.",
+  "Target & scope": "proposals/docs only; never invent host; never share V:\\A",
+  "Timestamp": "2026-09-05T22:28:00-05:00",
+  "Output": "proposals | federation-spec.md"
+}
