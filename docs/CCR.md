@@ -40,7 +40,7 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
 **Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**.
 
-**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **Gitur is BUILD only** (MOTIF stage 4 — branched trees / PRs). **Research does not go on Gitur** (Keith 2026-09-05): stage-1 returns land on **disk** (`work_orders/` Output; CCr may later file `docs/research/`). This TUI **reviews and applies**. Wishlist and needed features exist as six-field work orders. This TUI does not in-band BUILD and does not in-band research. One BUILD job, one Gitur branch, one PR. Improvement-not-bloat: subtract as well as add. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
+**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **Research goes on the DOM rails** (Keith 2026-09-05/02): **SGH** (DT Chat + Android Voice) **and GEMINI** (Chrome side panel, Alt+G). **Gitur is BUILD only** (MOTIF stage 4 — branched trees / PRs). Stage-1 returns land on disk. This TUI **reviews and applies**. It does not in-band BUILD and does not in-band research. One BUILD job, one Gitur branch, one PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 
