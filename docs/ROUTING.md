@@ -36,10 +36,29 @@ until Sep 16), **Bedrock when bound** (Keith’s AWS — still `opening`, no reg
 yet). Do not mint `live/config/anthropic_api_key.txt` (DL-for-API scar, tabled). Other
 families (GEM, OA, Meta, Amazon) remain **judges**, not the home.
 
+**Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** One name for that vendor
+coding/review/gate triad. CCr **runs Gitur**; CCr still **writes** `V:\A`. Not a
+seat, not a pen, not CORE, not ORC, not Bedrock (Bedrock-when-bound stays a fourth
+Anthropic-agent surface outside this name).
+
+| Member | Is | Does | Not |
+|---|---|---|---|
+| **GitHub** | origin `keithbbf-gif/cosmos` | Copilot review, issues, PRs, SGH drop path | live-tree writer |
+| **GitLab** | `keithbbf-gif/cosmos` | Duo propose; **CI is the execute-the-gate** | a third brain |
+| **Cursor** | Cloud Agents `cursor-api` | Lane B builder (Opus 5 / Sonnet; refuse Composer 2.5) | COSMOS `claude -p` |
+
+P10: Gitur **proposes**. CCr **disposes** and writes CORE. `ANTHROPIC_OFF` stays for
+COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
+
+**Build path (Keith 2026-09-05):** the whole COSMOS **BUILD** runs **through Gitur**
+so the result is **branched trees** (GitHub + GitLab branches / PRs; Cursor Cloud
+Agent already opens a `cursor/…` branch). This TUI is the wheel until cDeck+OpenWork
+merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
+
 | task | default | why |
 |---|---|---|
 | **coding — DEFAULT** | **Grok TUI / Grok Build** (`grok -p --cwd`, this COW) | Keith 2026-09-01: *all Grok based.* Anthropic off the route. Supersedes the 2026-08-25 "USE CLAUDE CODE" standing order. |
-| coding — overflow / conserve | Cursor Cloud Agents (Ultra; Opus 5 / Sonnet allowed) then GitHub + GitLab Anthropic agents; GitLab CI is the gate | Dual-lane MOTIF builder. Not COSMOS `claude -p`. Does not mint an Anthropic API key. GitLab **Credits** 2026-09-04: Ultimate **Trial**, **0 / 24**, cliff **Sep 16**. CI minutes are a **different** meter. |
+| coding — overflow / conserve | **Gitur** (Cursor Cloud Agents Ultra; Opus 5 / Sonnet allowed; then GitHub + GitLab Anthropic agents; GitLab CI is the gate) | Dual-lane MOTIF builder. Not COSMOS `claude -p`. Does not mint an Anthropic API key. GitLab **Credits** 2026-09-04: Ultimate **Trial**, **0 / 24**, cliff **Sep 16**. CI minutes are a **different** meter. |
 | **research (vendor-plural, DOM)** | **SGH** (DT Chat + Android Voice) **and GEMINI** (Chrome side panel, Alt+G). Both DOM. | Keith 2026-09-02: these **are** the research rails. Not `sgh-api`. Not Vertex / `gem-api`. Not this TUI. Gemini web app `gemini.google.com/app` is the wrong surface (Sign in). |
 | **Drive / Google AI Gemini chatbot (Keith 2026-09-05)** | Prepaid **DOM chat** on the Google Drive upgrade / AI account — extended Gemini chatbot. SKU **UNMEASURED** until a console shot. | **Not** Joanna Vertex. **Not** `orders.ggn` `vertex-coding`. **Not** keith.bbf AI Studio Free `AIza`. Subscription chatbot, no COSMOS API key. **Use 1 (safe):** extra **search** DOM rail beside the Chrome side panel. **Use 2 (preferred if the family rule allows):** a **Crucible / judge seat** — named disagreeing Gemini *chat* vs Vertex *generateContent*. Crucible still attaches **at most one Grok family**; same question for Google: chat-DOM vs Vertex-API may be one family until Keith rules they disagree. Do not click Set up billing / Upgrade from this TUI. |
 | **GEM Vertex / `gem-api`** | **Deliberate full-context reasoning turns only** (`bts_gem`, Vertex credit). UPS-Judge, Crucible, named stage-5 loads. | Keith 2026-09-01: not search, not ping, not overflow. A full context window is a spent turn — only when COW names the load. |
@@ -52,7 +71,7 @@ families (GEM, OA, Meta, Amazon) remain **judges**, not the home.
 | **Grok vs Claude Cowork (agenda)** | **GrokBot** (most capable — Keith 2026-09-02) | **Sequence:** finish the COSMOS house with this Grok Code TUI, **then** empower GrokBot. Handoff gate: work-order COMPLETED applies; mailbox proven; cDeck orch home usable. Until then GrokBot hands stay on `V:\Ai`. Start with orch tools: drive read/write, connectors, schedule, phone dispatch, permission modes, cDeck deliverables. Chrome extension **channel OPEN** (GrokBot vs Grok Code vs SGH). SGH Chatboxes need drive hands too; still a DOM research rail, not this TUI. |
 | **orchestrator profiles** | one profile per occupant | Keith 2026-09-02: Cowork / Grok Code / GrokBot / later federated. Pen + mailbox id + hands + Chrome profile + live/dark. Never share Chrome or folder-grants across occupants. |
 | **Work-agent class (agenda)** | GrokBot is our occupant; OpenWork is A-tier file harness (dark) | ChatGPT Work + Codex, Claude Cowork, Copilot Cowork + Scout, Gemini Spark / Workspace Studio, **OpenWork Labs**. File HANDS; no live path. Do not pen `V:\A`. |
-| **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 · **Lane B** Cursor Cloud Agent (**Opus 5 / Sonnet**, Ultra) | Same work order, no shared context. Spec `docs/ADVERSARIAL_LOOP.md`. **Code review** of that PR: Sonnet/Opus on Cursor / GitHub / GitLab (trial Credits) / Bedrock-when-bound. GitLab CI is the execute-the-gate, not a third brain. Composer 2.5 refused. |
+| **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 · **Lane B** Cursor Cloud Agent (**Opus 5 / Sonnet**, Ultra) | Same work order, no shared context. Spec `docs/ADVERSARIAL_LOOP.md`. **Code review** of that PR: Sonnet/Opus on **Gitur** (trial Credits) / Bedrock-when-bound. GitLab CI is the execute-the-gate, not a third brain. Composer 2.5 refused. |
 | **hard review / final polish** | **CCr** (Grok 4.6) + **Sonnet/Opus on Cursor, GitHub, GitLab, Bedrock-when-bound** (preferred for **code review**) + GEM / OA / Llama judges | Keith 2026-09-04: Sonnet/Opus may be **best for code review** on those four vendor surfaces. Not COSMOS `claude -p`. Not Composer 2.5. |
 | **MOTIF stage-5 extra judges** | **GEM Vertex (`gem-api`) as UPS-Judge**, plus OA, Meta Llama, Amazon Nova | A named deliberate load. Not everyday GEM. Vertex stays **not Claude**. Bedrock when bound: Nova **and** Llama **and** Anthropic agents (Keith 2026-09-04). |
 | **Anthropic / Claude** | **COSMOS dispatch OFF; vendor agents ON** | Keith 2026-09-01: `dispatch()` `ANTHROPIC_OFF` for claude/F5/sonnet/haiku/SSA. No `claude -p`. No Cowork as **this** COW. No `api.anthropic.com` key file (DL scar). **Keith 2026-09-04:** use Anthropic **agents** on **Cursor, GitHub, GitLab,** and **Bedrock when available**. **Keith 2026-09-05 URL:** Vertex Agent Platform Model Garden **Claude Sonnet 5** on **Joanna** `project-5a33f910-1251-4d6a-bf9` (`authuser=3`). Enablement questionnaire (picker showed **My First Project**). Partner **MaaS**, not `gem-api` Gemini, not `api.anthropic.com`. Anthropic ToS form (Google will share project + billing IDs). Anthropic **recommends** request-response logging ([docs](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/request-response-logging)); vendor: logging on does **not** give Google/Anthropic content access; a **separate** MaaS data-share is for Fable/Mythos + Safety Addendum. Web Search on that model needs public internet / org policy. **$300 credit cannot pay partner MaaS.** This TUI does **not** click Next / Set up logging / Enable. Industry dropdown showed Agriculture — do not submit as BBF. API: `publishers/anthropic/models/claude-sonnet-5:rawPredict`, `anthropic_version=vertex-2023-10-16` ([Claude on Vertex](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai)). If Keith enables later: same class as Bedrock Anthropic agents (P10 propose; CCr writes). Do not lift `ANTHROPIC_OFF`. |
@@ -65,7 +84,7 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 
 | Use | Models (Keith) | Who / where |
 |---|---|---|
-| **Coding (S)** | **Grok 4.6** + **Opus 5** | **CCr** session (`grok-4.6`) writes COSMOS live tree under `CCR.lease`. Opus is the other coding brain **on Cursor / GitHub / GitLab / Bedrock-when-bound** (Keith 2026-09-04). COSMOS `dispatch()` stays `ANTHROPIC_OFF`. Orch TUI oversees **without** the pen. |
+| **Coding (S)** | **Grok 4.6** + **Opus 5** | **CCr** session (`grok-4.6`) writes COSMOS live tree under `CCR.lease`. Opus is the other coding brain **on Gitur** (GitHub + GitLab + Cursor) **/ Bedrock-when-bound** (Keith 2026-09-04 / Gitur 2026-09-05). COSMOS `dispatch()` stays `ANTHROPIC_OFF`. Orch TUI oversees **without** the pen. |
 | **Almost everything else (A) — Main Squeeze (Keith 2026-09-05)** | **Grok 4.1 Fast Reasoning** `grok-4.1-fast-reasoning` on **xAI Console** `api.x.ai` | **Best value.** $0.20 / $0.50 per 1M. Tools, search, latency, file work, supervisor, volume that is not CORE write. **Wallet = Console API** (`XAI_API_KEY` / `sgh-api`). **Not** Heavy. **Not** Vertex (4.1 MaaS shut down 2026-08-20). **Not** CCr. **Not** GFO. Do not put `XAI_API_KEY` on this TUI / `grok --single` (steals Heavy). |
 | **Cheap reasoning (A overflow)** | **Groq Production** `openai/gpt-oss-20b` (SSA pin, ~1000 t/s, $0.075/$0.30) · `openai/gpt-oss-120b` · **Preview** Qwen · OpenWork Models (non-PRC) | Cheaper raw tokens than the Squeeze. SSA stays Groq until Keith moves it. GroqCloud is **not** xAI. |
 | **Named S leftovers** | Fable 5 (F5), GPT 5.6 | Hard review / named full-context loads only — not everyday. |
@@ -137,18 +156,18 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   does money; budget stays $0 Free.
 
 ## Channel rule (Keith 2026-09-01 supersedes the 2026-08-25 F5 pour)
-- **Home = Grok.** Orchestration COW is this TUI + GrokBot (two pens). Coding is GitHub / Cursor / GitLab + dropped Grok 4.6 work-order sessions — **not this orch TUI**.
+- **Home = Grok.** Orchestration COW is this TUI + GrokBot (two pens). Coding is **Gitur** (GitHub + GitLab + Cursor) + dropped Grok 4.6 work-order sessions — **not this orch TUI**.
 - **Anthropic COSMOS dispatch = off.** Do not `claude -p` / Cowork-as-COW / mint
   `api.anthropic.com`. The 2026-08-25 "spend the Claude Code boost" order is **void**
-  as a COSMOS rail. **Agents** on Cursor / GitHub / GitLab / Bedrock-when-bound are
-  in (Keith 2026-09-04).
+  as a COSMOS rail. **Agents** on Gitur / Bedrock-when-bound are
+  in (Keith 2026-09-04 / Gitur 2026-09-05).
 - COW's own tokens are the scarcest budget of all — delegate first, always. Do not burn
   this TUI on search or scheduled Grok jobs. Chat and Automations **share the Heavy
   weekly bar with Build** (Keith 2026-09-04); they are not spare quota. Prefer Gemini
   side panel for DOM research that must not compete with this session.
 - **Orch-session diet (Keith 2026-09-01; restated 2026-09-04):** this Grok TUI is
   the **orchestration session**. It **does not code**. It writes **work orders**,
-  runs **GitHub / Cursor / GitLab**, **reviews/refines**, then **CCr writes** the
+  runs **Gitur** (GitHub + GitLab + Cursor), **reviews/refines**, then **CCr writes** the
   live tree (P10 dispose). Research is dropped to the two **DOM
   rails — SGH (DT Chat + Voice) and GEMINI (Chrome side panel)** — not this TUI,
   not `sgh-api`, not Vertex. Coding is a **background Grok Code**

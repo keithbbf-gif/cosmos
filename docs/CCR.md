@@ -28,9 +28,13 @@ An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr R
 
 **Keith 2026-09-04 (this TUI, verbatim intent):** *you don't code — you write work
 orders, you run github/cursor/gitlab, you review/refine the code and write to
-the COSMOS live tree.* Coding = GitHub Copilot / Cursor Cloud Agent (Opus 5 /
-Sonnet, never Composer 2.5) / GitLab Duo + dropped Grok 4.6 work-order
-sessions. Dispose = CCr after review. P10 still: they PROPOSE; CCr writes.
+the COSMOS live tree.* **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.**
+That triad is what CCr **runs**. Coding = GitHub Copilot / Cursor Cloud Agent
+(Opus 5 / Sonnet, never Composer 2.5) / GitLab Duo + dropped Grok 4.6 work-order
+sessions. Dispose = CCr after review. P10 still: Gitur PROPOSE; CCr writes.
+Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
+
+**Keith 2026-09-05:** the **entire COSMOS build** runs **through Gitur** so we get **branched trees**. Stage-4 BUILD lands on a GitHub/GitLab branch + PR (Cursor lane and/or Grok CLI `--cwd` that branch/worktree). CCr **reviews** then disposes onto the live tree. Do **not** author `builds/` / `cosmos/` straight onto `main` in this TUI as the default path. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 
