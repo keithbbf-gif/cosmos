@@ -1,6 +1,10 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/WISHLIST.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: WRITE THE MISSING TOOLS. For every capability we need and do not have, BUILD the tool (not just research). Turn ranked maker catalog into wired tools/rails. Propose the first WAVE A tool list + one starter. Branch ccr/missing-tools.",
   "Target & scope": "proposals only; never a tools/ dump on main; Gitur branch",
   "Timestamp": "2026-09-05T22:37:00-05:00",

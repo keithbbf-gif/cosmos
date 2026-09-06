@@ -1,6 +1,10 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/WISHLIST.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF RESEARCH only (future): CHROME EXTENSION / PLUGIN FOR GROK. Browser hands, DOM first. Channel OPEN \u2014 do not invent GrokBot vs Grok Code vs SGH Chatboxes. Bind to an orchestrator profile. Daily Chrome stays off limits. Branch ccr/chrome-extension.",
   "Target & scope": "proposals/research only; do not invent the Chrome channel name",
   "Timestamp": "2026-09-05T22:33:00-05:00",

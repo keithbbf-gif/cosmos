@@ -1,6 +1,11 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/COMPETENCY.toml [read*]; docs/WISHLIST.md [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/COMPETENCY.toml [read*]",
+    "docs/WISHLIST.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: READ EVERY MANUAL + MAP EVERY PRODUCT into docs/COMPETENCY.toml as real node rows (CLI/MCP/API/DOM). GrokBOT sync job FAILED rc=3221225786 \u2014 include that fix. Products with HANDS but no competency row: Aider, Groq, Ollama, GitHub/GitLab, MS Copilot, Browser-Use, Firecrawl. Branch ccr/map-products.",
   "Target & scope": "proposals under docs/COMPETENCY.toml; never kernel",
   "Timestamp": "2026-09-05T22:38:00-05:00",

@@ -1,6 +1,11 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/research/OPENWORK_INTEGRATE_Q.md [read*]; docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/OPENWORK_BIND.md [read*]",
+  "Context source": [
+    "docs/research/OPENWORK_INTEGRATE_Q.md [read*]",
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/OPENWORK_BIND.md [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. RESEARCH only. How should COSMOS and OpenWork integrate without cloning each other? Follow docs/research/OPENWORK_INTEGRATE_Q.md. Do not answer from PR #45. Do not iframe. Do not open legal transcripts. Do not merge PRs #30 #32 #36 #37 #38. Route: CURSOR already dispatched Lane B. This drop is the desk record.",
   "Target & scope": "proposals under Output only; research markdown; never kernel/ledger",
   "Timestamp": "2026-09-05T22:00:00-05:00",

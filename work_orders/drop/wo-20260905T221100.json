@@ -1,6 +1,12 @@
 {
   "Agent": "xAI | Grok | grok-4.6",
-  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/ORCHESTRATION.md [read*]; docs/BACKLOG.md [read*]; work_orders/ccr/clocks-observe-20260905T2041.json [read*]",
+  "Context source": [
+    "docs/AGENT_BRIEF.md [read*]",
+    "docs/AGENT_BOUNDARIES.md [read*]",
+    "docs/ORCHESTRATION.md [read*]",
+    "docs/BACKLOG.md [read*]",
+    "work_orders/ccr/clocks-observe-20260905T2041.json [read*]"
+  ],
   "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. MOTIF on ONE job: CLOCKS collapse observe-only. Pulse P0 already live (26/26 resident.keep, dispatch=false, claim=false). Do not shrink CLOCKS. Do not schtasks /delete. Do not take Core :8770 down. Do not merge PRs #30 #32 #36 #37 #38. One branch ccr/clocks-observe.",
   "Target & scope": "proposals only; no cosmos_pulse topology change; never ledger/kernel/service",
   "Timestamp": "2026-09-05T22:11:00-05:00",
