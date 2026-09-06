@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/research/AUTO_RESESSION.md [read*]; docs/arch/AUTO_RESESSION_ARCH.md [read*]; docs/RESESSION_SOP.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. MOTIF: AUTOMATED RESESSION — next measurement only, not a spawn, not a second Core. SOP already exists. Do not fire cosmos_resession spawn. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/auto-resession-next.",
+  "Target & scope": "proposals/research only; never kernel/ledger; never PAUSE.flag rewrite",
+  "Timestamp": "2026-09-05T22:13:00-05:00",
+  "Output": "proposals | auto-resession-next.md"
+}

@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; builds/cdeck/ORCH_HOME_SPEC.md [read*]; builds/cdeck/KDECK_BACKLOG.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. One job: remaining cDeck BACKLOG rows that are BACKLOG not BLOCKED/DO-NOT. Not C1 ConPTY. Not OpenWork iframe. Not Legal. Do not merge PRs #30 #32 #36 #37 #38. Branch ccr/cdeck-backlog.",
+  "Target & scope": "proposals under builds/cdeck only; cDeck is a submodule — its own Gitur job",
+  "Timestamp": "2026-09-05T22:12:00-05:00",
+  "Output": "proposals | cdeck-backlog.json"
+}

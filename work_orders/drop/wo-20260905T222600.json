@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/WISHLIST.md [read*]; docs/federation/UPDATE_SERVICE.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: GITUR. Pin Claude Opus 5 on Cursor. Refuse Composer 2.5. Do not merge PRs #30 #32 #36 #37 #38. Do not iframe OpenWork. Do not sit Legal. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not take Core :8770 down. One job, one branch, one PR. MOTIF: META + AMAZON extra judges for Crucible stage-5. Llama on Bedrock when that bill binds; Nova same AWS wallet. Build Crucible now on grok-sgh + Joanna Vertex + OAi API. Not a Claude lift. Not Joanna fused with Bedrock. Branch ccr/crucible-extra-judges.",
+  "Target & scope": "proposals only; spend-gated; no unattended live prove",
+  "Timestamp": "2026-09-05T22:26:00-05:00",
+  "Output": "proposals | crucible-extra-judges.md"
+}
