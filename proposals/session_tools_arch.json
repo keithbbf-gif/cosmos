@@ -1,0 +1,395 @@
+{
+  "schema": "cosmos-session-tools-arch/1",
+  "kind": "MOTIF_STAGE2_ARCH",
+  "title": "SESSION TOOLS - MOTIF stage-2 ARCHITECTURE (independent design)",
+  "twin": "proposals/session_tools_arch.md",
+  "stage": {
+    "motif_stage": 2,
+    "name": "ARCH",
+    "build": false,
+    "note": "docs/MOTIF.md stage 2: decision rubric first, then each node designs independently (no peeking). No builds/session-tools/*.py authored in this stage."
+  },
+  "provenance": {
+    "lane": "CURSOR",
+    "model_pinned": "claude-opus-5-thinking-high",
+    "model_refused": ["composer-2.5", "auto"],
+    "run_id": "bc-2f8665b1-161b-4825-9008-015633d86695",
+    "branch": "cursor/motif-session-tools-architecture-e416",
+    "clone": "github.com/keithbbf-gif/cosmos default branch",
+    "clone_head": "223a7dd",
+    "read_local_uncommitted_cosmos": false,
+    "peeked_at_docs_arch_session_tools_arch": false,
+    "docs_arch_session_tools_arch_status": "ABSENT in this clone (verified by git ls-files)",
+    "baseline": "docs/research/SESSION_TOOLS.md",
+    "baseline_stage": "1 RESEARCH (CCr / Grok 4.6, 2026-09-05)",
+    "p10_propose_only": true,
+    "live_tree_writes": 0,
+    "anthropic_off_intact": true,
+    "anthropic_off_note": "No claude -p, no api.anthropic.com. Cursor vendor seat per AGENT_BOUNDARIES.md item 10.",
+    "prs_merged": [],
+    "prs_left_unmerged": [30, 32, 36, 37, 38],
+    "clocks_touched": false,
+    "schtasks_created": 0,
+    "schtasks_deleted": 0,
+    "core_8770_touched": false
+  },
+
+  "decisions": [
+    {
+      "id": "D1",
+      "question": "One canonical transcript schema",
+      "verdict": "cosmos-transcript/1",
+      "summary": "Deterministic JSONL: one head record + N turn records, with a byte-span partition of the source that makes the round-trip gate arithmetic. All volatile provenance lives in a .decl.json sidecar, so the transcript file is a pure function of its source.",
+      "contested": false
+    },
+    {
+      "id": "D2",
+      "question": "First family after Claude",
+      "verdict": "ACCEPT grok-tui",
+      "summary": "Accepted. The baseline's ANSWER is uncontested; its CRITERION is contested - substitute 'retire the widest fidelity gap first' for 'obvious next / biggest corpus'. Both converge on grok-tui here.",
+      "contested": true,
+      "contested_axis": "criterion, not answer",
+      "one_line_for_stage3": "Decision (grok-tui) uncontested; criterion CONTESTED - order families by widest fidelity gap retired first, not by obviousness or corpus size. Read-only families first, live stores last."
+    },
+    {
+      "id": "D3",
+      "question": "crash-recover = check + restore-from-bak, OR a third writer",
+      "verdict": "check + restore-from-bak; third writer REJECTED",
+      "summary": "crash-recover is a composition of existing verbs with exactly one mutation point (rebind). The suite has no code path that opens a vendor store for write, so 'never repair in place' is enforced by shape, not by policy.",
+      "contested": false
+    }
+  ],
+
+  "rubric_additions": [
+    {
+      "id": "A1",
+      "criterion": "Fidelity must be provable, not asserted",
+      "decides": "Forces the byte-span partition. A normalized schema cannot satisfy the baseline's byte-identical round-trip gate."
+    },
+    {
+      "id": "A2",
+      "criterion": "Determinism over timestamping",
+      "decides": "All volatile provenance moves to the sidecar, so convert is idempotent and diff is a sha compare."
+    },
+    {
+      "id": "A3",
+      "criterion": "Fences belong in the refusal taxonomy, not only in prose",
+      "decides": "WOULD_WRITE_SOURCE, CLOSED_VERB, NOT_MY_PEN as typed kinds. AGENT_BOUNDARIES.md item 14: a new session will not respect a social rule."
+    },
+    {
+      "id": "A4",
+      "criterion": "Zero new writers, zero new clocks",
+      "decides": "Improvement is not bloat. Target met: no new authority, no new scheduled task."
+    }
+  ],
+
+  "reuse": [
+    { "need": "path resolution (no hard-coded paths)", "component": "CosmosPaths(root).role(name, *parts)", "binding": "cosmos/cosmos_paths.py:41-54,153-177" },
+    { "need": "root identity / sentinel", "component": ".cosmos-root.json, tree_id, IDENTITY_MISMATCH", "binding": "cosmos/cosmos_paths.py:73-128" },
+    { "need": "typed refusal shape (kind, detail)", "component": "house pattern, 55 classes / 141 kinds", "binding": "cosmos/cosmos_refusals.py; docs/REFUSAL_TAXONOMY.md:10" },
+    { "need": "declared-length integrity + sidecar", "component": "write_declared / read_verified", "binding": "cosmos/cosmos_validate.py:32-60" },
+    { "need": "sidecar precedent", "component": "state/SEED.json + state/SEED.decl.json", "binding": "cosmos/cosmos_session.py:38-40,288-294" },
+    { "need": "secrets redaction for anonymize", "component": "redact(text) -> (clean, n), 11 named detectors", "binding": "cosmos/cosmos_askmine.py:118-154" },
+    { "need": "verified quarantine copy + manifest", "component": "Backup.run(src, target) + _MANIFEST.sha256.json", "binding": "cosmos/cosmos_backup.py:172-211" },
+    { "need": "content-addressed attachment blobs", "component": "CAS(root) put/get/has, standalone, no ledger dependency", "binding": "cosmos/cosmos_segments.py:339-386" },
+    { "need": "vendor transcript locations", "component": "transcript_path(rail, cwd, session_id, home) - claude AND grok", "binding": "cosmos/cosmos_resession.py:417-432" },
+    { "need": "read-only SEED preflight", "component": "precheck_seed(seed_path, decl_path, live_tree_id)", "binding": "cosmos/cosmos_resession.py" },
+    { "need": "display / product surface (do not rebuild)", "component": "GET /api/v1/recents -> cosmos_recents_panel.handle_get; Open_sessions.py list|open", "binding": "cosmos/cosmos_service.py:228,688-705; builds/open_sessions/Open_sessions.py:26,32-58" },
+    { "need": "torn-input discipline", "component": "TORN_LEDGER - a torn ledger must never read as free", "binding": "cosmos/cosmos_lock.py:295-297" }
+  ],
+
+  "gap_the_suite_owns": {
+    "statement": "COSMOS deliberately does not parse vendor transcript formats today.",
+    "quote": "The satellite never PARSES these files (the format is version-unstable) - existence + mtime is the whole signal.",
+    "binding": "cosmos/cosmos_resession.py:424-425",
+    "consequence": "session-tools is the single quarantine for version-unstable vendor formats. Only the family adapters parse; the rest of COSMOS stays on existence+mtime. This is why the suite is a separate build, not a patch to cosmos_resession."
+  },
+
+  "measured_blocker": {
+    "id": "BLK-1",
+    "finding": "builds/cdeck is a submodule gitlink with no .gitmodules, so cosmos_recents_panel is absent from a clean clone.",
+    "evidence": [
+      "git ls-files -s builds/cdeck -> 160000 f4270d0953a5e2b8d17b33aac3fe826e8767e86a 0\tbuilds/cdeck",
+      "cat .gitmodules -> No such file or directory",
+      "git submodule status -> fatal: no submodule mapping found in .gitmodules for path 'builds/cdeck'",
+      "python3 builds/open_sessions/test_open_sessions.py -> ModuleNotFoundError: No module named 'cosmos_recents_panel'"
+    ],
+    "scope": "Repo gap, NOT a runtime gap. Core :8770 is fine and Open Sessions is live on Keith's box.",
+    "design_consequence": "A session-tools test may not import cosmos_recents_panel at module scope. The migrate->recents assertion sits behind an availability probe, so the runtime-binding gate can still run in GitLab CI and on a peer's cold install.",
+    "owner": "CCr",
+    "proposal": "Either commit builds/cdeck/ as real files, or add a .gitmodules mapping. Not fixed by this run (P10).",
+    "in_scope_for_this_suite": false
+  },
+
+  "d1_schema": {
+    "name": "cosmos-transcript/1",
+    "files": {
+      "transcript": "<transcript_id>.ctr.jsonl",
+      "sidecar": "<transcript_id>.ctr.decl.json"
+    },
+    "record_order": ["head", "turn (x N, in seq order)"],
+    "tail_record": false,
+    "tail_rationale": "Coverage proof lives in the sidecar - the house pattern (cosmos_validate.write_declared, cosmos_session.py:288-294).",
+    "format_choice": {
+      "chosen": "JSONL",
+      "rejected": ["single JSON document", "sqlite"],
+      "why_jsonl": [
+        "House idiom: authority ledger, sched ledger, and lease ledger are all JSONL.",
+        "Streaming: first corpus is 24.4 MB / 17439 turns; line-oriented makes diff a turn-indexed compare and check a single pass."
+      ],
+      "why_not_sqlite": "It would create a second store that could be mistaken for authority. Canon: large artifacts to a CAS, views are rebuildable projections, never authority (docs/FINAL_ARCHITECTURE.md:14). An index over .ctr.jsonl is welcome as a projection - GET /api/v1/recents already is that projection."
+    },
+    "roundtrip": {
+      "mechanism": "The source byte stream is partitioned into ordered spans. Every byte belongs to exactly one span: a 'turn' span (carried by a turn record's src) or a 'frame' span (semantically empty bytes between turns - delimiters, headers, trailing newline - listed on the head as frames[]).",
+      "proof": [
+        "sum(span.len for all spans) == source.len",
+        "sha256(concat(spans in order)) == source.sha256"
+      ],
+      "why": "The gate becomes arithmetic a reviewer can check with a calculator, instead of a claim. That is the difference between a provable gate and a green log."
+    },
+    "fidelity_modes": [
+      {
+        "mode": "span",
+        "applies_to": ["one byte stream", "Claude Code .jsonl", "a Grok TUI entry file", "one Cowork .md"],
+        "roundtrip_means": "reconstruct from spans; exact and provable by the identity above"
+      },
+      {
+        "mode": "blob",
+        "applies_to": ["not a byte stream", "sqlite rows", "a directory of files"],
+        "roundtrip_means": "verbatim source preserved whole in the suite CAS by sha; round-trip is CAS.get(blob_sha); turn records carry src {blob_sha, key} where key is the row PK or filename"
+      }
+    ],
+    "fidelity_declared_per_source": true,
+    "fidelity_mismatch_is_refusal": "FIDELITY_MISMATCH",
+    "head_record": {
+      "deterministic": true,
+      "determinism_rationale": "No timestamps, no tool version, no environment. That makes convert idempotent and diff a sha compare (A2).",
+      "fields": {
+        "schema": "cosmos-transcript/1",
+        "kind": "COSMOS_TRANSCRIPT",
+        "transcript_id": "<family>-<native_id>, or <family>-<sha12(source_sha)> when the vendor has no id. Never minted (Open Sessions: no fake ids).",
+        "family": ["claude-code", "cowork-pack", "grok-tui", "opencode", "claude-desktop", "codex", "gemini", "unknown"],
+        "native_id": "str | null - the vendor's own id verbatim. null, never a substitute.",
+        "cwd": "str | null - the directory the session ran in. The Grok store's key, and the leftover-cwd crash signal.",
+        "stream": ["cm", "plumbing", "physics", "chapter", "legal", "unknown"],
+        "legal": "bool - when true the body is NOT materialized from this profile (R7).",
+        "sources": "list of {idx, path, kind: jsonl|md|sqlite|dir, len, sha256, mtime, fidelity: span|blob, blob_sha?}. A list because Cowork = md + catalog row, opencode = db rows.",
+        "frames": "list of {after_seq, off, len} - span mode only.",
+        "n_turns": "int",
+        "models": "list[str] - distinct models that ACTUALLY answered. The runtime-binding value.",
+        "t_first": "float | null - null when the source has no timestamp. Never inferred.",
+        "t_last": "float | null"
+      }
+    },
+    "turn_record": {
+      "fields": {
+        "seq": "int - 1-based, monotonic, gapless. A gap is UNPARSEABLE.",
+        "role": ["user", "assistant", "system", "tool_call", "tool_result", "meta"],
+        "t": "float | null - epoch. null, never guessed.",
+        "utc_off": "int | null - matches the ledger's t/utc_off pair.",
+        "text": "str | null - normalized plain text; null for non-text turns.",
+        "model": "str | null - the model that answered this turn.",
+        "tokens": "{in, out} | null",
+        "parts": "list of {type: image|file|tool_json|audio, sha256, len, mime} - a CAS pointer, never an inline blob.",
+        "src": "span: {source_idx, off, len, sha256} | blob: {source_idx, blob_sha, key}",
+        "redactions": "int - 0 unless this is an anonymize output."
+      },
+      "closed_role_enum_rationale": "A closed role enum is what makes diff meaningful across families: a Claude tool_use and a Grok tool call land on the same role, so a cross-family diff compares conversations rather than vendor spellings. An unmappable source role is SCHEMA_UNKNOWN, never silently folded into meta."
+    },
+    "sidecar": {
+      "fields": ["schema", "len", "sha", "body_sha", "source_sha", "n_turns", "fidelity", "spans_ok", "produced_at", "produced_by", "tree_id", "anonymized", "derived_from"],
+      "len_sha_via": "cosmos_validate.write_declared / read_verified (cosmos/cosmos_validate.py:32-60)",
+      "body_sha": "sha over the turn records only. Survives a head-only change; the axis diff uses.",
+      "tree_id": "provenance stamp, NOT a gate. A transcript is a portable artifact and must open on a peer's cold machine. Contrast SEED.json, which is install-bound and refuses on mismatch.",
+      "hmac": {
+        "present": false,
+        "deliberate": true,
+        "rationale": "SEED carries an HMAC because carry-over must be authenticated against THIS install's key (cosmos_session.py:108-116). A transcript must travel, and the suite must not touch install_key.bin - which the backup clock also explicitly declines to copy (cosmos_backup_clock.py:190-193). sha256 gives integrity; an HMAC would buy authenticity at the cost of portability and a key handle the suite has no business holding.",
+        "open_for_stage3": true
+      }
+    }
+  },
+
+  "d2_family_order": {
+    "verdict": "ACCEPT grok-tui",
+    "reasons_for": [
+      {
+        "id": 1,
+        "claim": "The only non-Claude family with an in-tree, already-measured path resolver.",
+        "evidence": "transcript_path('grok', cwd, sid, home) -> ~/.grok/sessions/<url-quoted cwd>/, bound to docs/research/AUTO_RESESSION.md 1.3/2.1",
+        "binding": "cosmos/cosmos_resession.py:417-432",
+        "note": "Every other candidate is UNMEASURED (Claude Desktop, per the baseline's own table) or not a chat store (Cursor cloud jobs, SGH work_orders/drop). Choosing an unmeasured store first would violate UNKNOWN-not-guess."
+      },
+      {
+        "id": 2,
+        "claim": "RAILS = ('grok',) - the resession satellite already spawns and tracks exactly this family.",
+        "binding": "cosmos/cosmos_resession.py:97",
+        "note": "Its transcripts are the record of COSMOS's own construction - the corpus where a dropped turn is a governance loss."
+      },
+      {
+        "id": 3,
+        "claim": "Converter-risk retirement: grok-tui is the pick that proves the schema generalizes.",
+        "detail": "Claude Code is a single .jsonl per session - the easy case. A schema validated only against it silently bakes in 'one session = one file' and 'source is one byte stream'. Grok TUI is a directory keyed by url-quoted cwd with id-keyed entries inside: it forces sources[] to genuinely be a list, forces the span/blob split to exist before anything depends on it, and forces cwd to be a first-class head field - which is also the leftover-cwd crash signal the baseline names (SESSION_TOOLS.md:52, GFO gentle-falcon)."
+      }
+    ],
+    "criterion_contested": {
+      "baseline_criterion": "obvious next / biggest corpus",
+      "substituted_criterion": "retire the widest fidelity gap first; read-only families first, live stores last",
+      "why": "The baseline's criterion would give a wrong answer on the very next call: under it, claude-desktop is a defensible second pick (Claude-family, plugin already claims it). Under mine it is the worst pick - it proves no new fidelity mode and rests on an UNMEASURED path.",
+      "if_a_peer_picks_opencode_second": "I hold. opencode is the migrate TARGET and Keith's LIVE store; reading it as a source family before the schema has proven itself on a read-only vendor store puts the one store whose corruption breaks the live sidebar first in line."
+    },
+    "order": [
+      { "n": 1, "family": "claude-code / cowork-pack", "why": "done - 666 packed", "status": "CLOSED. Do not re-ingest." },
+      { "n": 2, "family": "grok-tui", "why": "measured path in-tree; forces dir-of-entries + span/blob", "status": "this design's pick" },
+      { "n": 3, "family": "cowork-pack md as a first-class source", "why": "666 md + catalog already on disk; read-only; exercises multi-source sources[]", "status": "after 2" },
+      { "n": 4, "family": "opencode", "why": "live store - read-only source last, on purpose", "status": "after 3" },
+      { "n": 5, "family": "claude-desktop", "why": "UNMEASURED; needs a stage-1 walk before it is designed against", "status": "deferred, not designed" }
+    ]
+  },
+
+  "d3_crash_recover": {
+    "verdict": "check + restore-from-bak",
+    "third_writer": "REJECTED",
+    "enforced_by": "shape, not policy",
+    "shape_statement": "crash-recover is not a new mutating verb. It is a composition of verbs that already exist, with exactly one mutation point - rebind. There is no code path in the suite that opens a damaged store for write.",
+    "steps": [
+      { "n": 1, "verb": "check", "action": "typed verdict: VERIFIED, or REFUSE(kind)", "writes": "nothing" },
+      { "n": 2, "verb": "quarantine", "action": "COPY (never move, never unlink) the damaged store to backups/session-tools/<stamp>/ via Backup.run(src, target), which already hash-verifies and writes _MANIFEST.sha256.json", "binding": "cosmos/cosmos_backup.py:172-211", "writes": "a new backup dir only", "note": "never-delete satisfied by construction, not by remembering to" },
+      { "n": 3, "verb": "convert (salvage)", "action": "convert the READABLE PREFIX of the damaged store into a NEW .ctr.jsonl at a NEW path. Truncated sqlite opened file:...?mode=ro&immutable=1. Torn JSONL stops at the first unparseable line and records truncated_at_line.", "binding": "discipline copied from cosmos/cosmos_lock.py:295-297 (a torn ledger must never read as free)", "writes": "a new transcript only" },
+      { "n": 4, "verb": "restore-from-bak", "action": "when a *.bak_* or backups/verified/<stamp>/ copy exists, diff the backup against the damaged store and report the turn delta. The restore TARGET is a new path - never the damaged one.", "writes": "a new path only" },
+      { "n": 5, "verb": "rebind", "action": "the single mutation: point the vendor app at the recovered store", "precedent": "cow_migrator_rebind.json, 2026-09-05T19:11:16", "writes": "vendor pointer only" }
+    ],
+    "third_writer_fair_hearing": {
+      "case_for": "cosmos_lock.Arbiter is a real lease arbiter with monotonic fencing tokens and a four-phase fenced commit that never holds the OS mutex across the callback: Phase A reserves under the lock, Phase B stages unlocked with the token in hand, Phase C retakes the lock, CASes the token against the live projection, and only then os.replace()s. Stale tokens are REJECTED and ledgered. A third writer could acquire('opencode.db'), stage a repaired database, and install it under a re-verified token. Among COSMOS writers that is genuinely safe.",
+      "case_for_binding": "cosmos/cosmos_lock.py:21-34,330-419",
+      "rejection": [
+        {
+          "id": "decisive",
+          "reason": "A fencing token only fences participants.",
+          "detail": "OpenWork/opencode and the Grok TUI never call acquire(). They are foreign processes holding their own file handles, and the arbiter has no way to make them present a token. So the fence is absent against precisely the writer most likely to be mid-write during a crash - the vendor app itself. Worse, Phase C's os.replace() would swap a file out from under a live vendor handle: on Windows that either fails outright or leaves the app writing to an orphaned inode, so the app's next flush silently reverts or re-corrupts the repair. A lease is a contract, and you cannot enter one unilaterally on another process's behalf."
+        },
+        { "id": "supporting-1", "reason": "It would make the suite an authority, violating R6 (suite is tools; does not write ledger/kernel/sched) and the ratified single-authority rule." },
+        { "id": "supporting-2", "reason": "The BTS two-writer deletion scar is this exact failure with a cost already paid (AGENT_BOUNDARIES.md item 9). Rebuilding the mechanism that caused it, with a fence that does not reach the other writer, is not a new idea." }
+      ]
+    },
+    "seed_and_bucm_corollary": {
+      "rule": "read-only plus a proposal",
+      "why": "live/state is CCr/orchestrator-only (AGENT_BOUNDARIES.md, 'Touch the tree').",
+      "behavior": "A bad SEED MAC, a missing SEED.decl.json, or a leftover running_session_file.toml produces a typed REFUSE plus a P10 proposal object for CCr. The suite never writes SEED.",
+      "reuse": "cosmos_resession.precheck_seed(seed_path, decl_path, live_tree_id) - already read-only, already structural - rather than re-implementing the HMAC check and risking a second, drifting verifier."
+    }
+  },
+
+  "layout": {
+    "stage4_build_target_not_authored_here": true,
+    "files": [
+      { "path": "builds/session-tools/session_tools.py", "role": "CLI: nine verbs as argparse subcommands. No import-time side effects." },
+      { "path": "builds/session-tools/st_schema.py", "role": "cosmos-transcript/1 record builders + validate(). The ONLY schema authority." },
+      { "path": "builds/session-tools/st_spans.py", "role": "span partition + the round-trip proof (sum + sha)" },
+      { "path": "builds/session-tools/st_store.py", "role": "transcript paths, decl sidecar (write_declared/read_verified), suite-owned CAS" },
+      { "path": "builds/session-tools/st_refusals.py", "role": "SessionToolsRefusal(kind, detail)" },
+      { "path": "builds/session-tools/st_families/__init__.py", "role": "adapter registry" },
+      { "path": "builds/session-tools/st_families/claude_code.py", "role": "family adapter" },
+      { "path": "builds/session-tools/st_families/grok_tui.py", "role": "family adapter - FIRST after Claude (D2)" },
+      { "path": "builds/session-tools/st_families/cowork_pack.py", "role": "family adapter" },
+      { "path": "builds/session-tools/st_families/opencode.py", "role": "read-only source; migrate/rebind target" },
+      { "path": "tests/test_session_tools.py", "role": "schema, spans, refusals - hermetic tmpdir" },
+      { "path": "tests/test_session_tools_families.py", "role": "per-family fixture round-trip" }
+    ],
+    "fence_from_baseline_honoured": "code under builds/session-tools/, tests as tests/test_session_tools*.py",
+    "suite_cas": {
+      "expression": "CAS(paths.state('session_tools', 'cas'))",
+      "note": "Same class, a SEPARATE store root, so Core's ledger CAS is untouched. cosmos_segments.py:344-346 takes an arbitrary root and has no ledger dependency."
+    }
+  },
+
+  "family_adapter_contract": {
+    "rationale": "Four functions, so a new family is a file, not a refactor.",
+    "surface": [
+      "FAMILY: str",
+      "discover(home: Path, hints: dict) -> list[SourceRef]   # read-only. never writes.",
+      "probe(src: SourceRef) -> dict                          # cheap identity: family, native_id, n_turns_est, fidelity",
+      "read(src: SourceRef) -> Iterator[RawTurn]              # ordered. yields a byte span or a blob key.",
+      "fidelity(src: SourceRef) -> str                        # 'span' | 'blob'"
+    ],
+    "scan_is": "discover mapped across the registry",
+    "write_prohibition": "Neither discover nor read may write. WOULD_WRITE_SOURCE guards it."
+  },
+
+  "refusals": {
+    "class": "SessionToolsRefusal",
+    "shape": "(kind, detail) with a .kind attribute and '[kind] detail' message - the house pattern, so cosmos_refusals.survey() picks it up with no change to the surveyor.",
+    "kinds": [
+      { "kind": "NO_SOURCE", "fires_when": "no store found. NOT an error at scan - a legal, reportable fact." },
+      { "kind": "UNREADABLE", "fires_when": "present but the OS refused it" },
+      { "kind": "UNPARSEABLE", "fires_when": "parses as bytes, not as this family (includes a seq gap)" },
+      { "kind": "TORN", "fires_when": "truncated store. Refuse; never read as free." },
+      { "kind": "FIDELITY_MISMATCH", "fires_when": "declared span, measured blob (or vice versa)" },
+      { "kind": "ROUNDTRIP_MISMATCH", "fires_when": "span sum or sha does not reproduce the source" },
+      { "kind": "SCHEMA_UNKNOWN", "fires_when": "a source role/field with no canonical mapping. Never silently folded into meta." },
+      { "kind": "IDENTITY_MISMATCH", "fires_when": "tree_id mismatch where identity is actually required" },
+      { "kind": "LEGAL_OMITTED", "fires_when": "a legal row requested from this profile. Refuse; do not open (R7)." },
+      { "kind": "WOULD_WRITE_SOURCE", "fires_when": "GUARD: an adapter opened a source for write. The D3 fence, in code." },
+      { "kind": "CLOSED_VERB", "fires_when": "666 re-ingest, or 666 rebind. Both CLOSED by Keith." },
+      { "kind": "NOT_MY_PEN", "fires_when": "asked to write the COSMOS live tree. P10, in code." }
+    ],
+    "last_three_rationale": "A3 - a future session that never reads this document still hits a typed wall. Prose fences drift; refusal kinds do not."
+  },
+
+  "cli": {
+    "invocation": "py -3.14 builds/session-tools/session_tools.py <verb> --root <live> [--json]",
+    "root_required": true,
+    "root_rationale": "--root is required and never guessed - same stance as Open_sessions.py:76 ('--root is required (no guessed live path)').",
+    "verbs": {
+      "scan": "[--family F] [--home H]",
+      "load": "<source>",
+      "convert": "<source> [--out D]",
+      "migrate": "<transcript> [--workspace W]",
+      "rebind": "<ses-id> --workspace W",
+      "diff": "<a> <b>",
+      "check": "<target> [--seed]",
+      "anonymize": "<transcript> [--out D]",
+      "crash-recover": "<store> [--bak B] [--plan]"
+    },
+    "dry_run": "crash-recover --plan writes nothing and is how it should be run first, every time."
+  },
+
+  "verbs": [
+    { "verb": "scan", "writes": "nothing", "gate": "count + absolute paths + per-source sha256 and mtime of stores that exist. '0 found' is a FACT, reported, not a failure." },
+    { "verb": "load", "writes": "nothing", "gate": "n_turns + head sha. An absent timestamp stays null." },
+    { "verb": "convert", "writes": "new .ctr.jsonl + decl in the suite store", "gate": "span: sum(span.len)==source.len AND sha256(concat)==source.sha256. blob: CAS.get(blob_sha) returns the source bytes. PLUS determinism: converting twice yields a byte-identical file and an equal sha." },
+    { "verb": "migrate", "writes": "opencode/OpenWork, via the CLOSED cowork_to_openwork boundary", "gate": "the ses_* id and workspace_id READ BACK from the live store. Recents assertion sits behind an availability probe, never a module-scope import (BLK-1)." },
+    { "verb": "rebind", "writes": "vendor pointer only", "gate": "proof JSON shaped like cow_migrator_rebind.json, plus the new workspace_id read back." },
+    { "verb": "diff", "writes": "nothing", "gate": "per-turn sha delta + n_turns delta. Identical sources => empty delta AND equal body_sha (only determinism makes this checkable)." },
+    { "verb": "check", "writes": "nothing", "gate": "typed VERIFIED / REFUSE(kind); for SEED, the precheck_seed result verbatim." },
+    { "verb": "anonymize", "writes": "new derived .ctr.jsonl", "gate": "redactions > 0 on a fixture carrying a planted key; derived_from == parent sha; AND the parent's sha and mtime are unchanged - the proof the original stayed (R9)." },
+    { "verb": "crash-recover", "writes": "quarantine copy + new store; mutation only via rebind", "gate": "quarantine _MANIFEST.sha256.json, truncated_at_line, and a recovered n_turns BELOW the damaged store's claim. A recovery that reports no loss on a truncated store is a BUG, not a success." }
+  ],
+
+  "anti_placation_gates": {
+    "binding": "docs/SCAR_PLACATION.md",
+    "gates": [
+      "anonymize re-hashes the parent AFTER the run to prove the original was untouched.",
+      "crash-recover treats a loss-free recovery of a truncated store as a failure."
+    ],
+    "why": "Designed so a plausible 'it worked' cannot pass."
+  },
+
+  "non_goals": [
+    { "id": "NG1", "statement": "Not CORE kernel. Writes no ledger, no registry, no sched, no live/config, no live/state outside its own state/session_tools/ drop zone. check READS SEED; nothing writes it." },
+    { "id": "NG2", "statement": "Does not rebuild Open Sessions or GET /api/v1/recents. That product is LIVE. The suite feeds the projection; the panel stays the display authority." },
+    { "id": "NG3", "statement": "Does not re-ingest the 666, and does not re-run the 666 rebind - CLOSED. Both are CLOSED_VERB." },
+    { "id": "NG4", "statement": "Does not recode cowork_to_openwork. migrate delegates to it as a closed boundary." },
+    { "id": "NG5", "statement": "Legal transcripts stay omitted. legal:true heads carry no body from this profile." },
+    { "id": "NG6", "statement": "Adds no clock and removes none. The suite is on-demand CLI. cosmos_own_clocks.py (13 logon tasks, cosmos_own_clocks.py:437-451) is untouched; no schtasks create and no schtasks /delete. A future scan clock is named here and deliberately NOT proposed." },
+    { "id": "NG7", "statement": "Does not take Core :8770 down. No route added, no service restart, no port bound, no cosmos_service.py edit. The suite runs beside Core, not inside it." },
+    { "id": "NG8", "statement": "Adds no writer. Nine verbs, one mutation point (rebind), zero new authorities." }
+  ],
+
+  "open_questions_for_stage3": [
+    { "id": "Q1", "question": "Sidecar HMAC.", "position": "sha-only for portability. A peer wanting install-bound transcripts would add an HMAC and lose the cold-machine open. Contested on purpose." },
+    { "id": "Q2", "question": "Cross-family diff semantics.", "position": "The closed role enum makes it possible; whether a cross-family diff should compare text at all, or only structure, is unsettled." },
+    { "id": "Q3", "question": "scan on a clock.", "position": "Deliberately not proposed. If it ever lands it is a new scheduled task and needs Keith's word, not an agent's." },
+    { "id": "Q4", "question": "builds/cdeck gitlink (BLK-1).", "position": "A repo blocker owned by CCr, not by this suite, but it bounds where the migrate gate can run." }
+  ]
+}
