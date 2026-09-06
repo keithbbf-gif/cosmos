@@ -7,7 +7,7 @@ rewrote `cosmos_watchdog2.py` while COW held it). Only the Orchestrator touches 
 ## The rule
 **Only the Chief Coder (CCr) writes the COSMOS live tree. One CCr at a time.**
 **Keith 2026-09-04:** this TUI **does not code**. It writes **work orders**,
-runs **GitHub / Cursor / GitLab**, **reviews/refines** returned code, then CCr
+runs **Gitur** (GitHub + GitLab + Cursor), **reviews/refines** returned code, then CCr
 writes the live tree. Agents and OpenWork **PROPOSE**; CCr disposes (or the
 change waits in `work_orders/ccr/` for the next Cm). Agents never write the
 tree, so two writers can never collide in it (the fenced commit gateway,
@@ -64,8 +64,8 @@ Nothing written here is authority until COW files it into the tree.
     may become COSMOS orchestrator again via Amazon Bedrock (Keith’s AWS) or a federated
     install (Jack, Grant, Christina, Grayson, …). COSMOS `dispatch()` stays `ANTHROPIC_OFF`
     (`claude -p`, SSA, `api.anthropic.com` key). **Keith 2026-09-04:** Anthropic **agents**
-    on **Cursor, GitHub, GitLab,** and **Bedrock when available** are allowed — vendor
-    seats, P10 (propose; CCr writes `cosmos/`). Do not delete Claude rails. Do not invent
+    on **Gitur** (GitHub + GitLab + Cursor) and **Bedrock when available** are allowed — vendor
+    seats, P10 (propose; CCr writes `cosmos/`). Gitur is not Bedrock and not a pen. Do not delete Claude rails. Do not invent
     a live `claude -p` / Cowork COW on this occupant. Do not invent peer hostnames or a
     Bedrock region/account. A remote Cowork writes **its** tree; it proposes to this
     tree, or waits for a pen, under item 9 (mailbox + lease before any shared write).
@@ -84,7 +84,7 @@ Nothing written here is authority until COW files it into the tree.
 12. **Chief Coder (CCr) — Keith 2026-09-04.** Only CCr writes the COSMOS live tree
     (`cosmos/`, executed builds, tests Core runs, live ledger/registry/config). **One
     CCr at a time** (`CCR.lease`). **This session is CCr:** Grok 4.6 Build, pen
-    **`V:\A`**. It writes work orders, runs GitHub / Cursor / GitLab, reviews/refines,
+    **`V:\A`**. It writes work orders, runs **Gitur** (GitHub + GitLab + Cursor), reviews/refines,
     then **this TUI writes** the live tree under the lease. OpenWork’s pen is its
     **folder grant**, never the COSMOS root. CORE edits from OpenWork/orch **queue
     here**. See `docs/CCR.md`. An empty lease file means CCr has not taken it yet,

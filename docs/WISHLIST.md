@@ -6,11 +6,15 @@ critics → consensus → improve → **ITERATE**) and drives it on the 15s Acti
 passes the runtime-binding gate — then moves to the next. **A process, not an endpoint**
 (see `CLAUDE.md`). COSMOS never idles while this file or `BACKLOG.md` holds an open item.
 
-**How a wish flows:** each `- [ ]` line → COW/WD2 opens a MOTIF thread → the stages land artifacts
-on disk → the gate proves it with a value only the live tree emits → checked off. **Add a wish as
-one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW.
+**How a wish flows:** each `- [ ]` line → a six-field work order in `work_orders/drop/` (SOP
+`docs/WORK_ORDER_SOP.md`) → the **system clock + Gitur** run MOTIF 1–8 → this TUI **reviews and
+applies**. The gate proves it with a value only the live tree emits → checked off. **Add a wish as
+one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW. Do not in-band
+the BUILD in this TUI.
 
 ## Open wishes
+
+- [ ] **OPENWORK IS LOAD-BEARING (Keith 2026-09-05).** *OpenWork has too much of what we need to ignore.* COSMOS **consumes** OpenWork (skills, plugins, MCP, session groups/workflows, browser, automations, connectors, grants) as the orch harness. Do **not** rebuild those in CORE. Do **not** iframe Electron or OpenWork Web. cDeck+OpenWork merge is the GFO daily-wheel gate. Bind: `docs/OPENWORK_BIND.md`. Vendor: https://openworklabs.com/docs/start-here/get-started · Gitur branch, not a `main` dump.
 
 - [ ] **SESSION TOOLS SUITE (Keith 2026-09-05).** Full suite of session tools — not only the leftover Cowork→OpenWork migrator. Covers **crashed systems**, **all AIs and installs**, and **load / convert / migrate / diff / check / anonymize** (and the rest of that verb set). Pack provenance already on disk: `C:\Users\Papa\OpenWork Chat\COW_SESSION_MIGRATION_CARRYOVER.toml` (666 sessions / 17439 turns). **Rebind onto COSMOS 2 DONE 2026-09-05T19:11:16** (`ws_726c64a2afa5`, `V:\OPENWORK\COSMOS 2`, 666/666; do not re-ingest). Suite itself still open. ORC does not recode this. CCr owns the suite. Not CORE kernel. Not Legal mining from this TUI. Stage-1: `docs/research/SESSION_TOOLS.md`. Stage-2 ARCH next. · WATCHDOG2 ASSIGNED 2026-09-05T18:42:52.766724-05:00 cm/g46_grok_motif_session_tools_suite_keith_2026_ca4aec38__t1800.py
 
@@ -109,14 +113,14 @@ one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW
       ChatGPT Work: https://openai.com (July 2026 merge). Keith credentials; open-window
       handoff only.
 - [ ] **cDeck** — **Orchestration** (Keith 8/31 evening). Current 19-panel KDash clone is not that UX. Front stage: talk, jobs, orchestration tools, Automations, pool, voice, **Grok TUI coding pane**. Backstage: telemetry. Do not add more nav chips. grok.com is vendor backend for Chat/Automations. **Spec (do not build this session):** `builds/cdeck/ORCH_HOME_SPEC.md`.
-- [ ] **The dozen COSMOS-own clocks** — no BTS; 15s Activity Clock first. (`cosmos_own_clocks`)
-- [ ] **COSMOS_INDEX** — the single living index (tools building / features / implemented), self-refreshing.
+- [x] **The dozen COSMOS-own clocks** — built 2026-08-25; remaining work is CLOCKS *collapse* (WO `wo-20260905T221100.json`).
+- [x] **COSMOS_INDEX** — built (generator `cosmos/cosmos_index.py`; schtasks `COSMOS Index`).
 - [ ] **AUTO-RESESSION** — continue across the context boundary, zero / minimal user disturbance.
 - [ ] **Maker-hands** — sweep every AI-maker's tools; wire the useful ones as COSMOS rails/nodes.
 - [x] **CVM (voice)** — SUPERSEDED 2026-09-03 by Grok Voice → SGH phone app. Code retained; no new CVM MOTIF.
 - [ ] **GROK VOICE → SGH PHONE** — **TABLED 2026-09-04** (Keith: mostly solved; refine later). Endpoint on this roll: SGH Android Voice + **Grok Voice Think Fast 2.0** (`grok-voice-think-fast-2.0`). Phone still assigns via `work_orders/drop/` + `docs/WORK_ORDER_SOP.md`. Do not rebuild CVM. Do not invent a second phone APK. Do not open a new Voice MOTIF while CLOCKS + cDeck are cooking.
 - [ ] **CDM · gbridge** — carry each to the runtime-binding gate.
-- [ ] **Live Core** — `cosmos serve` on `:8770`; Kernel composes the Dispatcher on normal boot.
+- [x] **Live Core** — `cosmos serve` on `:8770` GREEN 2026-09-02; Kernel composes Dispatcher.
 - [ ] **Grok & GEM node workers (own buckets)** — native Windows Python daemons: each polls its own · WATCHDOG2 ASSIGNED 2026-08-31T19:45:12.264797-05:00 cm/g46_grok_motif_grok_gem_node_workers_own_buck_2f7997c3__t1800.py
       bucket, picks up tasks, executes via its rail (Grok→sgh/gw, GEM→gem), and writes results
       DIRECTLY to the designated folder — **V:\ is best**, GDX (Google Drive) and ODX (OneDrive) as
@@ -284,8 +288,8 @@ one line; COSMOS does the rest.** Keith gives WHAT and WHY; the mesh decides HOW
 > endpoint. It's a process."
 
 <!-- watchdog2-tick -->
-Last Watchdog2 tick: 2026-09-05T20:00:12.324526-05:00 · assigned=3 flagged=47 skipped=50
+Last Watchdog2 tick: 2026-09-05T21:41:13.572922-05:00 · assigned=3 flagged=47 skipped=50
 Dropped: finish_cosmos_all_features_implemented@cm/g46_grok_backlog_finish_cosmos_all_features_i_d1e7cace__t1800.py, but_you_did_not_emit_the_mandatory_last@cm/g46_grok_backlog_but_you_did_not_emit_the_man_50ecdbec__t1800.py, task_you_reported_5_5_new_pins_failing_a@cm/g46_grok_backlog_task_you_reported_5_5_new_pi_1b95d6c7__t1800.py
-Flagged open (no agent this pass, queued for next / cap): finish_cosmos_all_features_implemented, but_you_did_not_emit_the_mandatory_last, task_you_reported_5_5_new_pins_failing_a, fix_the_code_and_prose_pair_together_so, task_1_restore_whatever_get_tools_needs, we_need_to_set_up_the_api_keys_for_again, 2_take_the_next_highest_value_over_effor, bind_claims_to_real_code_sources_no_fabr, what_this_spike_proves_the_protocol_in_p, first_read_docs_agent_brief_md_dhx_docs, run_motif_stage_1_research_stage_2_arch, fix_1_point_cdeck_at_live_core_8770_by_d, build_propose_only_builds_cdeck_only_no, 2_bind_each_panel_to_a_real_core_get_rou, continue_pinning_unexercised_refusal_and, build_out_cdeck_this_cwd_the_cosmos_desk, extend_tests_test_rail_base_py_assert_al, a_contract_is_a_statement_plus_evidence, verify_each_one_with_grep_before_writing, task_the_code_claims_an_18_panel_kdash_s
+Flagged open (no agent this pass, queued for next / cap): finish_cosmos_all_features_implemented, but_you_did_not_emit_the_mandatory_last, task_you_reported_5_5_new_pins_failing_a, fix_the_code_and_prose_pair_together_so, task_1_restore_whatever_get_tools_needs, you_didn_t_get_the_new_ccr_session_prelo, we_need_to_set_up_the_api_keys_for_again, 2_take_the_next_highest_value_over_effor, bind_claims_to_real_code_sources_no_fabr, what_this_spike_proves_the_protocol_in_p, first_read_docs_agent_brief_md_dhx_docs, run_motif_stage_1_research_stage_2_arch, fix_1_point_cdeck_at_live_core_8770_by_d, build_propose_only_builds_cdeck_only_no, 2_bind_each_panel_to_a_real_core_get_rou, continue_pinning_unexercised_refusal_and, build_out_cdeck_this_cwd_the_cosmos_desk, extend_tests_test_rail_base_py_assert_al, a_contract_is_a_statement_plus_evidence, verify_each_one_with_grep_before_writing
 Skipped: cdeck:inflight, cvm:inflight, cdm:inflight, gbridge:inflight, collector:inflight, dispatch:inflight, makerhands:inflight, meshadditions:inflight, cursor:inflight, runner:inflight, runtimeall:meta, session_tools_suite_keith_2026_09_05:already_assigned, grok_cowork_surface:tracked:dispatch, orchestrator_profiles_keith_2026_09_02:already_assigned, chrome_extension_plugin_for_grok_future_:already_assigned, sgh_drive_hands_future_keith_2026_09_02:already_assigned
 <!-- /watchdog2-tick -->

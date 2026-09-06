@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Work-order CHECKED rails — GitHub / Cursor / GitLab, one each, on DONE.
+"""Work-order CHECKED rails — Gitur (GitHub + GitLab + Cursor), one each, on DONE.
 
 Canon: docs/WORK_ORDER_SPEC.md step 4 CHECKED, docs/WORK_ORDER_SOP.md
 "Checks (daemon, one each, before COW)". Same Work-Order Runner, on deposit
