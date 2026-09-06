@@ -139,6 +139,8 @@ Putting a **Llama JSON switchboard** *inside* OpenWork as “the orchestrator”
 
 **Keith 2026-09-05 (this chair):** *I'm running you myself. ORC should be GFO — but until we merge cDeck and OpenWork, this is it.* Target occupancy stands (GFO = ORC, this TUI = CCr). **Until** cDeck main-left OpenWork is the merged orch home (`builds/cdeck/ORCH_HOME_SPEC.md` P5 embed still UNMEASURED; OPEN focuses/launches, no fake iframe), **this Grok TUI is the live COSMOS wheel** — Keith-run orch **and** CCr. Do not idle waiting for GFO to steer COSMOS. Do not steal Legal. Merge of cDeck+OpenWork is the handoff gate that seats GFO on the daily COSMOS wheel.
 
+**Keith 2026-09-05:** *OpenWork has too much of what we need to ignore.* Load-bearing harness (skills, MCP, workflows, browser, connectors). Consume; do not rebuild in CORE. `docs/OPENWORK_BIND.md`.
+
 **Desk (Keith 2026-09-05, for now — two HP 24N):**
 | Monitor | Occupant |
 |---|---|

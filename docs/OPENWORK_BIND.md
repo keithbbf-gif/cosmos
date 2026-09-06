@@ -18,6 +18,21 @@ Keith: desktop already installed; public GitHub.
 
 **Get-started bind (Keith dropped the URL 2026-09-05):** OpenWork is a **privacy-first OSS Cowork alternative**. **Stay local** for GFO (right HP 24N fullscreen). Cloud is optional (org Collections / managed providers). **OpenWork Web** (browser workspace) is a **hosted Cloud** product — \$50/member/mo; instance URL **is** the credential; self-host fails closed unless `DEN_OPENWORK_WEB_ENABLED`. That is **not** the local GFO sit and **not** a cDeck iframe target. P5 merge stays **C0 focus/launch** of `OpenWork.exe` until a **local** HTML origin is measured. Do not iframe Electron. Do not paste Web instance URLs.
 
+**Keith 2026-09-05:** *OpenWork has too much of what we need to ignore.* It is **load-bearing**, not chrome. COSMOS **consumes** it; CORE does **not** clone it.
+
+| OpenWork has | COSMOS does | Ignore? |
+|---|---|---|
+| Desktop app + folder grants | GFO sit, C0 OPEN/`OpenWork.exe` | **No** — daily wheel after merge |
+| Skills / plugins / Library | Orch playbooks; do not mint a second skill OS | **No** |
+| MCP + Connect | Bind as GFO hands; COSMOS rails stay COSMOS | **No** |
+| Session groups / workflows | Organize orch chats; Open Sessions lists, does not replace | **No** |
+| Automations | Vendor schedule; COSMOS clocks stay native | **Consume, don't duplicate** |
+| Built-in browser | DOM rail beside GEM/SGH | **No** |
+| Connectors (Drive, Gmail, …) | Keith credentials; GFO uses them | **No** — this TUI does not click billing |
+| Open Sessions / cowork_to_openwork | First product + seed; Gitur side jobs | **No** |
+| OpenWork Web (Cloud tab) | Hosted; URL is credential | **Yes iframe / yes $50 path this sit** |
+| Electron embed in cDeck | No HTML origin | **Yes iframe** until local origin measured |
+
 COSMOS role (Keith 2026-09-05): **GFO** = Gem Flash OpenWork = **ORC seat**. Replaces Cowork. Brain **GF38** on **Joanna**. **Main left** of cDeck. Workspace root = this grant — file work + ORC **off** the OS live tree. **Runs on** live Core (`:8770`, code in `V:\A\Ai\COSMOS`). **Not CCr.** This TUI keeps the **write pen for CORE**. Do **not** add `V:\A\Ai\COSMOS` as authorized folder. Joint job: finish cDeck (she orchs the live deck; CCr writes). g43 shares Heavy — leave it. Memo: `docs/ORCH_SEAT.md`.
 
 Local workspace on disk 2026-09-04 later: `openwork-workspaces.json` selected/active **`ws_12669390bcf4`**, **name/displayName=COSMOS**, path **`V:\Streams\openwork`**. Old path `C:\Users\Papa\OpenWork Chat` leftover. Loopback `/health` port **57383**.
