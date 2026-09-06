@@ -1,0 +1,13 @@
+{
+  "info": {
+    "id": "01a07461-9a43-74b0-a903-743dfc1a0748",
+    "cwd": "C:\\Users\\Papa\\.grok\\worktrees\\ai-cosmos\\session-tools-s1"
+  },
+  "session_summary": "fixture grok",
+  "created_at": "2026-09-05T20:00:00Z",
+  "updated_at": "2026-09-05T20:00:01Z",
+  "num_chat_messages": 3,
+  "current_model_id": "grok-4.6",
+  "session_kind": "worktree",
+  "generated_title": "fixture grok"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "seq": 1,
+    "filename": "001_clocks.md",
+    "date": "2026-09-01",
+    "time": "12:00",
+    "stream": "plumbing",
+    "session_id": "abc",
+    "turns": 2,
+    "title": "clocks",
+    "size": 0,
+    "source": "cowork",
+    "orig_path": "fixture://clocks"
+  },
+  {
+    "seq": 2,
+    "filename": "002_rfp.md",
+    "date": "2026-09-02",
+    "time": "12:00",
+    "stream": "legal",
+    "session_id": "law",
+    "turns": 4,
+    "title": "RFP",
+    "size": 0,
+    "source": "cowork",
+    "orig_path": "fixture://rfp"
+  },
+  {
+    "seq": 3,
+    "filename": "003_topic.md",
+    "date": "2026-09-03",
+    "time": "12:00",
+    "stream": "cm",
+    "session_id": "TOPIC",
+    "turns": 0,
+    "title": "topic",
+    "size": 0,
+    "source": "cowork",
+    "orig_path": "fixture://topic"
+  }
+]

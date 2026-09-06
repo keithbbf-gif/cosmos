@@ -1,0 +1,13 @@
+{
+  "info": {
+    "id": "bbbbbbbb-1111-2222-3333-444444444444",
+    "cwd": "P:\\Legal\\Abraxas\\case"
+  },
+  "session_summary": "legal grok",
+  "created_at": "2026-09-05T20:00:00Z",
+  "updated_at": "2026-09-05T20:00:01Z",
+  "num_chat_messages": 1,
+  "current_model_id": "grok-4.6",
+  "session_kind": "worktree",
+  "generated_title": "legal grok"
+}
