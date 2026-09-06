@@ -1,0 +1,10 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "work_orders/drop/wo-20260906T164700.json [read*], docs/WORK_ORDER_SOP.md [read*], docs/AGENT_BRIEF.md [read*], docs/AGENT_BOUNDARIES.md [read*]",
+  "Task": "SUPERSEDES AND CANCELS wo-20260906T164700.json. That work order is a DRAFT ONLY. Do NOT execute it. Do NOT split the repo, do NOT move files to a private repository, do NOT delete or relocate dispatch code, critic-selection logic, prompt templates, COMPETENCY.toml, work/ bundles, or any runtime files. Cursor and GitHub are actively building Cosmos 2 in this public repo right now; the split would break the live build. Leave the repo exactly as it is. This superseding order is the desk record only.",
+  "Target & scope": "desk record only; no file moves; no live tree writes; no execution of the cancelled order",
+  "Timestamp": "2026-09-06T16:50:00-05:00",
+  "Output": "none | cancelled-draft-record",
+  "Status": "DRAFT — DO NOT EXECUTE",
+  "Supersedes": "wo-20260906T164700.json"
+}
