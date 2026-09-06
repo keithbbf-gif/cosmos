@@ -366,13 +366,12 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
   fake a seat. Crucible may take an official Opus/Fable API rail as a family seat — not as COW.
 - 🔴 **RESEARCH GOES ON THE DOM RAILS (Keith 2026-09-05).**
   Free, vendor-plural, in parallel. **Not Gitur. Not this TUI. Not APIs.**
-  **SGH** = SuperGrok Heavy Chatboxes (DT Chat + Android Voice). Research on Chat/DOM, not Build.
-  **Free Gemini / Google search** + GEMINI side panel (toolbar Gemini / Windows **Alt+G**).
-  Free. **No Sign in.** Do **not** open `gemini.google.com/app`. Do **not** use `sgh-api` or
-  `gem-api` / Vertex for research.
-  **ChatGPT chatbot** (the chat page — not Codex, not ChatGPT Work, no live Work path).
-  **Perplexity** (DOM).
-  **Bing** (DOM).
+  Surfaces: **SGH**; **free Gemini / Google search**; **ChatGPT chatbot**; **Perplexity**; **Bing**.
+  **Drive with the Google Chrome CLI already in BTS-MESH/COSMOS**
+  (`cosmos/cosmos_browser.py` → `chrome.exe --headless=new --dump-dom`).
+  **Do not open a browser window. Do not rebuild this rail.**
+  Do **not** open `gemini.google.com/app`. Do **not** use `sgh-api` or `gem-api` / Vertex for research.
+  ChatGPT chatbot is not Codex and not ChatGPT Work.
   SuperGrok Heavy: Build **36%** · Chat **1%** · **Automations 1%**.
   Scheduled/recurring Grok work is the Automations slice (grok.com/automations), also 1% — do
   not treat it as leftover Chat.
