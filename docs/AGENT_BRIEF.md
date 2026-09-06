@@ -364,16 +364,19 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
   or burner accounts. Every new AI joins under Keith's real identity on a vendor-documented
   path (CLI / MCP / API / DOM). Other AIs **will** be added; that wish is not a license to
   fake a seat. Crucible may take an official Opus/Fable API rail as a family seat — not as COW.
-- 🔴 **RESEARCH GOES ON THE DOM RAILS (Keith 2026-09-05/02).**
-  **SGH DOM + GEMINI DOM.** Two rails, both DOM, vendor-plural. Not Gitur. Not this TUI.
-  **SGH** = SuperGrok Heavy Chatboxes (DT Chat +
-  Android Voice). **GEMINI** = Chrome side panel (toolbar Gemini / Windows **Alt+G**):
-  open it, type, send. Free. **No Sign in.** Do **not** open `gemini.google.com/app`.
-  Do **not** use `sgh-api` or `gem-api` / Vertex for research. SuperGrok Heavy: Build
-  **36%** · Chat **1%** · **Automations 1%**. Research on Chat/DOM, not Build.
+- 🔴 **RESEARCH GOES ON THE DOM RAILS (Keith 2026-09-05).**
+  Free, vendor-plural, in parallel. **Not Gitur. Not this TUI. Not APIs.**
+  **SGH** = SuperGrok Heavy Chatboxes (DT Chat + Android Voice). Research on Chat/DOM, not Build.
+  **Free Gemini / Google search** + GEMINI side panel (toolbar Gemini / Windows **Alt+G**).
+  Free. **No Sign in.** Do **not** open `gemini.google.com/app`. Do **not** use `sgh-api` or
+  `gem-api` / Vertex for research.
+  **ChatGPT chatbot** (the chat page — not Codex, not ChatGPT Work, no live Work path).
+  **Perplexity** (DOM).
+  **Bing** (DOM).
+  SuperGrok Heavy: Build **36%** · Chat **1%** · **Automations 1%**.
   Scheduled/recurring Grok work is the Automations slice (grok.com/automations), also 1% — do
   not treat it as leftover Chat.
-  Both, in parallel. Not `gem-api` / Vertex and not SGH paid `web_search`.
+  Not SGH paid `web_search`.
   DOM `AUTH_REQUIRED` is Keith's click on the COSMOS Chrome profile — it does **not**
   promote the query to Vertex. **Vertex / `gem-api` is only for deliberate full-context
   reasoning turns** (UPS-Judge, Crucible, named stage-5 loads). Not search, not ping,
