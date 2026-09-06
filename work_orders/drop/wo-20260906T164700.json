@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.6",
+  "Context source": "docs/WORK_ORDER_SOP.md [read*], docs/WORK_ORDER_SPEC.md [read*], docs/MOTIF.md [read*], docs/ADVERSARIAL_LOOP.md [read*], docs/AGENT_BOUNDARIES.md [read*], docs/AGENT_BRIEF.md [read*]",
+  "Task": "FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Split keithbbf-gif/cosmos into a public proof surface and a private runtime surface. Public repo keeps only dated artifacts that prove priority and execution: commit timestamps, rail_check logs, spend ledgers, findings reports, runtime-binding outputs, and a short README stating the method category (adversarial multi-model verification) without the recipe. Move or delete from public: dispatch code, critic-selection logic, prompt templates, stage-return format, COMPETENCY.toml internals, work/ bundles, and any file that lets a stranger run the loop. Create a private repository (or mark a new repo private) holding the full runtime, and document the migration in a proposal. Do not publish API keys, live process state, or accumulated findings data.",
+  "Target & scope": "proposals under Output only; never kernel/ledger/sched/service; no secrets; no live tree writes",
+  "Timestamp": "2026-09-06T16:47:00-05:00",
+  "Output": "proposals | WO-SPLIT-PUBLIC-PRIVATE.md"
+}
