@@ -53,8 +53,7 @@ COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
 **Build path (Keith 2026-09-05):** the whole COSMOS **BUILD** runs **through Gitur**
 so the result is **branched trees** (GitHub + GitLab branches / PRs; Cursor Cloud
 Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Sessions,
-`cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel until cDeck+OpenWork
-merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
+`cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel (Keith runs it himself). **Keith 2026-09-06:** kDash→cDeck is too different to integrate with OpenWork at this point — no surface merge. It **runs Gitur** — it does not dump stage-4 into `main` by default.
 
 **Research goes on the DOM rails already in BTS-MESH/COSMOS (Keith 2026-09-05;
 ROLD Rule 1; MESH CHARTER §4–5).** MOTIF stage 1 is **not** this TUI reading the

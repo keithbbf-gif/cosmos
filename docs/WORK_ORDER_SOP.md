@@ -46,7 +46,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 | Gemini judge | `Google \| Gemini \| <model>` |
 | OpenAI coding (Codex rail) | `OpenAI \| Codex \| gpt-5.3-codex` |
 | Headless SSA drop (simple orch background) | `Groq \| gpt-oss \| 20b` (or Agent `SSA` — remaps to groq) |
-| **MOTIF RESEARCH** | **Do not name Grok 4.6 or Cursor.** Task says `Route: DOM`. Use the **existing BTS/COSMOS Chrome path** (chrome-bridge / Chrome MCP / Chrome CLI, no window). SGH+GEM first. Do not rebuild. Ask the tools index. |
+| **MOTIF RESEARCH** | **Step 1. Do not skip.** Task says `Route: DOM`. Live rails 2026-09-06: Bing SERP, Cloudflare AI Playground, Copilot CLI. SGH+GEM first when AUTH. chrome-bridge / playwright-dom + JS, no window. Not Gitur. Not dump-dom. Ask the tools index. |
 
 **Do not put Cursor in Agent.** The desk refuses that family. Cursor is a **separate coding lane** (Cloud Agent on this GitHub repo). If you want Cursor on a **BUILD**, say `Route: CURSOR` in **Task** and keep Agent as Grok — COW dispatches Cursor; you do not. **Research goes on the DOM rails, not Gitur.**
 

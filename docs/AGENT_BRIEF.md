@@ -22,7 +22,7 @@ GFO files off-tree, runs on Core `:8770`. Brain GF38. SSA → Groq until moved.
 `docs/ORCH_SEAT.md`.
 **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** CCr runs that triad.
 **Entire COSMOS BUILD goes through Gitur → branched trees / PRs** — including side jobs (Open Sessions, cowork_to_openwork, session-tools, cDeck). **One job, one branch, one PR.** P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
-**GFO is ORC (target) and is on Legal with Keith.** Until cDeck and OpenWork merge, **Keith runs this TUI himself** — live COSMOS orch + CCr. No Legal from here. Merge = handoff gate for GFO as daily COSMOS wheel.
+**GFO is ORC (target) and is on Legal with Keith.** **Keith runs this TUI himself** — live COSMOS orch + CCr. No Legal from here. **Keith 2026-09-06:** kDash→cDeck is too different to integrate with OpenWork at this point. **Keep them as separate apps and windows for now.** cDeck = COSMOS_2 backend (KDash visual). OpenWork = session. Gitur, `builds/cdeck`.
 **Desk for now:** this TUI **left HP 24N**; GFO **fullscreen right HP 24N**. Do not steal the right screen.
 
 ## Grok-based mesh (Keith 2026-09-01 — standing)
@@ -330,6 +330,8 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
 - 2026-09-05T18:37:41.071135-05:00 · CURSOR · FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5… · cm/cursor_cursor_first_read_docs_agent_brief_md_and_d_e6a407fa__t900.py
 - 2026-09-05T18:42:52.960151-05:00 · G46 · motif_session_tools_suite_keith_2026_09_05_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_motif_session_tools_suite_keith_2026_ca4aec38__t1800.py
 - 2026-09-05T20:43:08.528335-05:00 · CURSOR · session-tools-stage2-arch · cm/cursor_cursor_session_tools_stage2_arch_c7941986__t900.py
+- 2026-09-05T22:16:45.631217-05:00 · G46 · backlog_write_only_this_output_file_write_privat You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_write_only_this_output_file_905886a4__t1800.py
+- 2026-09-06T00:15:26.557414-05:00 · G46 · backlog_write_only_this_output_file_write_privat You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_write_only_this_output_file_a07e6972__t1800.py
 
 ## Active assignments (from Keith, dropped hot by COW)
 - **Runner pool — CONCURRENT DRAIN** (assigned to **G46**, primary coder; Keith 2026-08-26 "more

@@ -13,16 +13,22 @@ Keith: desktop already installed; public GitHub.
 | Workspace name | **COSMOS** (display). Path is `V:\Streams\openwork`. Cloud org also **COSMOS**. Name collision with the repo is branding only — still no tree grant. |
 | Old grant | `C:\Users\Papa\OpenWork Chat` — leftover. Pointer `MOVED.md`. Do not delete. Stop using as root. |
 | State | `%AppData%\com.differentai.openwork\` |
-| Pane | cDeck **main left**: OPEN focuses or launches `OpenWork.exe`; LIVE chip from loopback `/health` (port in `openwork-server-state.json`). Embed **UNMEASURED** — no HTML origin. Never iframe. Never persist a ui-control bearer. Headless web (`pnpm world up dev-headless`) is the later in-pane webview. |
+| Pane | **C0 landed:** OPEN focuses or launches `OpenWork.exe`; LIVE chip from loopback `/health` (port in `openwork-server-state.json`). Embed **UNMEASURED** — no HTML origin. Never iframe. Never persist a ui-control bearer. Headless web (`pnpm world up dev-headless`) is a later in-pane option, **not** the occupancy candidate below. |
 | Vendor docs | [Get started](https://openworklabs.com/docs/start-here/get-started) (2026-09-05). Local desktop is free, own provider, no Cloud sign-in required. Index: https://openworklabs.com/docs/llms.txt. GitHub `different-ai/openwork`. |
 
-**Get-started bind (Keith dropped the URL 2026-09-05):** OpenWork is a **privacy-first OSS Cowork alternative**. **Stay local** for GFO (right HP 24N fullscreen). Cloud is optional (org Collections / managed providers). **OpenWork Web** (browser workspace) is a **hosted Cloud** product — \$50/member/mo; instance URL **is** the credential; self-host fails closed unless `DEN_OPENWORK_WEB_ENABLED`. That is **not** the local GFO sit and **not** a cDeck iframe target. P5 merge stays **C0 focus/launch** of `OpenWork.exe` until a **local** HTML origin is measured. Do not iframe Electron. Do not paste Web instance URLs.
+**Get-started bind (Keith dropped the URL 2026-09-05):** OpenWork is a **privacy-first OSS Cowork alternative**. **Stay local** for GFO (right HP 24N fullscreen). Cloud is optional (org Collections / managed providers). **OpenWork Web** (browser workspace) is a **hosted Cloud** product — \$50/member/mo; instance URL **is** the credential; self-host fails closed unless `DEN_OPENWORK_WEB_ENABLED`. That is **not** the local GFO sit and **not** a cDeck iframe target. Do not iframe Electron. Do not paste Web instance URLs.
+
+**Occupancy bound (Keith 2026-09-06):** *kDash → cDeck is too different to integrate with OpenWork — at least at this point.* **Keep them as separate apps and windows for now.** OpenWork = live session / GFO (own window). **cDeck = backend for COSMOS_2** (own window) — **KDash is still the base model** (health, nodes, surfaces, lanes, rails, spend, events). Code in `builds/cdeck`; Gitur BUILD. Do **not** park cDeck in the grant. Do **not** hide the KDash wall. Consume OpenWork (skills, MCP, browser, connectors). No surface merge (no iframe, no HWND, no OpenWork-in-cDeck-pane). C0 + contracts still link them. Desk split stands. “For now” is not a later-join pick.
+
+**cDeck chrome (Keith 2026-09-06):** drop the **left pane** (OpenWork slot) **to the bottom for now**; show **other tools in that space, similar to KDash**. CCr **agrees**. Bottom strip = C0 OPEN/LIVE + recents-click-focus. Main = health/nodes/surfaces/lanes. Not BUILD this turn.
+
+**Occupancy possibilities (Keith 2026-09-05 — not edicts):** sidebar / pop-out panes on the **cDeck** window. Not a merge into OpenWork.
 
 **Keith 2026-09-05:** *OpenWork has too much of what we need to ignore.* It is **load-bearing**, not chrome. COSMOS **consumes** it; CORE does **not** clone it.
 
 | OpenWork has | COSMOS does | Ignore? |
 |---|---|---|
-| Desktop app + folder grants | GFO sit, C0 OPEN/`OpenWork.exe` | **No** — daily wheel after merge |
+| Desktop app + folder grants | GFO sit, C0 OPEN/`OpenWork.exe`; own window — not a cDeck pane | **No** — consume; do not surface-merge with cDeck this occupancy |
 | Skills / plugins / Library | Orch playbooks; do not mint a second skill OS | **No** |
 | MCP + Connect | Bind as GFO hands; COSMOS rails stay COSMOS | **No** |
 | Session groups / workflows | Organize orch chats; Open Sessions lists, does not replace | **No** |
@@ -33,7 +39,7 @@ Keith: desktop already installed; public GitHub.
 | OpenWork Web (Cloud tab) | Hosted; URL is credential | **Yes iframe / yes $50 path this sit** |
 | Electron embed in cDeck | No HTML origin | **Yes iframe** until local origin measured |
 
-COSMOS role (Keith 2026-09-05): **GFO** = Gem Flash OpenWork = **ORC seat**. Replaces Cowork. Brain **GF38** on **Joanna**. **Main left** of cDeck. Workspace root = this grant — file work + ORC **off** the OS live tree. **Runs on** live Core (`:8770`, code in `V:\A\Ai\COSMOS`). **Not CCr.** This TUI keeps the **write pen for CORE**. Do **not** add `V:\A\Ai\COSMOS` as authorized folder. Joint job: finish cDeck (she orchs the live deck; CCr writes). g43 shares Heavy — leave it. Memo: `docs/ORCH_SEAT.md`.
+COSMOS role (Keith 2026-09-05): **GFO** = Gem Flash OpenWork = **ORC seat**. Replaces Cowork. Brain **GF38** on **Joanna**. Live sit **COSMOS_2** (`V:\OPENWORK\COSMOS_2`). Kept COW-as-ORC `V:\Streams\openwork`. File work + ORC **off** the OS live tree. **Runs on** live Core (`:8770`, code in `V:\A\Ai\COSMOS`). **Not CCr.** This TUI keeps the **write pen for CORE**. Do **not** add `V:\A\Ai\COSMOS` as authorized folder. **cDeck = backend for COSMOS_2** (Keith 2026-09-06) — she orchs that sit; CCr continues cDeck in `builds/cdeck` via Gitur. Two products, not one chrome. g43 shares Heavy — leave it. Memo: `docs/ORCH_SEAT.md`. P5 C0 (OPEN/LIVE) stays. Do not treat “main left of cDeck” as an embed target.
 
 Local workspace on disk 2026-09-04 later: `openwork-workspaces.json` selected/active **`ws_12669390bcf4`**, **name/displayName=COSMOS**, path **`V:\Streams\openwork`**. Old path `C:\Users\Papa\OpenWork Chat` leftover. Loopback `/health` port **57383**.
 

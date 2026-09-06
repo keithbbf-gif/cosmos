@@ -21,7 +21,7 @@ An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr R
 
 | Role | Pen | Writes |
 |---|---|---|
-| **ORC = GFO** (Gem Flash OpenWork, cDeck left) | **None** on COSMOS. Files in `V:\Streams\openwork` | Talk, mailbox `cm\`, WOs, SSA. **Runs on** live Core (`:8770` — the tree’s code). CORE changes queued for CCr. Replaces Cowork. |
+| **ORC = GFO** (Gem Flash OpenWork) | **None** on COSMOS. Live sit **`V:\OPENWORK\COSMOS_2`**. Kept COW-as-ORC **`V:\Streams\openwork`** (666 / federation). | Talk, mailbox `cm\`, WOs, SSA. **Runs on** live Core (`:8770`). CORE changes queued for CCr. Replaces Cowork. |
 | **CCr** (this TUI, Grok 4.6 Build) | **Write pen for live COSMOS CORE** (`V:\A`, `cosmos/`, lease) | Writes CORE in the tree. `builds/cdeck`, tests Core runs, live ledger/registry/config. **Exactly one** lease. |
 | **OpenWork grant** | Workspace **`V:\Streams\openwork` only** | File work + orch mailbox. **Off** the OS live tree. No COSMOS folder grant. |
 | **Other streams** | **Own root only** | LEGAL, plumbing, UPS, … each have a tree. **No two streams share a root.** Mailbox before any shared write (BTS two-writer scar). |
@@ -34,13 +34,15 @@ That triad is what CCr **runs**. Coding = GitHub Copilot / Cursor Cloud Agent
 sessions. Dispose = CCr after review. P10 still: Gitur PROPOSE; CCr writes.
 Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
-**Keith 2026-09-05:** the **entire COSMOS build** runs **through Gitur** so we get **branched trees**. That includes **side jobs / products**, not only CORE kernel: **Open Sessions** (`builds/open_sessions/`), **cowork_to_openwork**, session-tools, cDeck occupancy chrome. Stage-4 BUILD lands on a GitHub/GitLab branch + PR (Cursor lane and/or Grok CLI `--cwd` that branch/worktree). CCr **reviews** then disposes onto the live tree. Do **not** author `builds/` / `cosmos/` / product CLIs straight onto `main` in this TUI as the default path. Open Sessions stays LIVE — iterate on a branch; do not rebuild it in place. `cowork_to_openwork` is not ORC recode; if CCr changes it, that is still a Gitur branch.
+**Keith 2026-09-05:** the **entire COSMOS build** runs **through Gitur** so we get **branched trees**. That includes **side jobs / products**, not only CORE kernel: **Open Sessions** (`builds/open_sessions/`), **cowork_to_openwork**, session-tools, cDeck. Stage-4 BUILD lands on a GitHub/GitLab branch + PR (Cursor lane and/or Grok CLI `--cwd` that branch/worktree). CCr **reviews** then disposes onto the live tree. Do **not** author `builds/` / `cosmos/` / product CLIs straight onto `main` in this TUI as the default path. Open Sessions stays LIVE — iterate on a branch; do not rebuild it in place. `cowork_to_openwork` is not ORC recode; if CCr changes it, that is still a Gitur branch.
+
+**Keith 2026-09-06:** **continue cDeck as the backend for COSMOS_2.** **Separate apps and windows for now** (OpenWork session · cDeck KDash visual). Product path `builds/cdeck`. Sit `V:\OPENWORK\COSMOS_2`. Not a surface merge. Not copied into the grant. One job, one branch, one PR (`ccr/cdeck-…`).
 
 **Keep it organized (Keith 2026-09-05):** **one job, one branch, one PR.** Do not mix products (session-tools / Open Sessions / cowork_to_openwork / cDeck) with occupancy canon, CLOCKS, or harvest notes. Named branches: `ccr/<job>`. Side jobs do not share a PR.
 
 **Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**.
 
-**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **Research goes on the DOM rails already in BTS-MESH/COSMOS** (ROLD Rule 1, MESH CHARTER §4): SGH + GEM first; Chrome CLI / `chrome-bridge` / Chrome MCP — **no window**. Free Gemini/Google search, ChatGPT chatbot, Perplexity, Bing sit on that same DOM. **Do not rebuild. Ask the tools index first.** **Gitur is BUILD only**. This TUI **reviews and applies**. One BUILD job, one Gitur branch, one PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
+**The cycle:** native **system clock** (WD2 / Pulse / runner) drives work orders. **MOTIF Step 1 is RESEARCH** — DOM rails, returns on disk, **before** Gitur BUILD. ROLD Rule 1, MESH CHARTER §4: SGH + GEM first. **LIVE 2026-09-06:** Bing SERP, Cloudflare AI Playground, Copilot CLI (`work_orders/ccr/CREW/OUT/DOM_RAILS/STATUS.md`). Dump-dom is not the rail. **Do not skip Step 1.** **Gitur is BUILD only** (stage 4). This TUI **reviews and applies**. One BUILD job, one Gitur branch, one PR. Do not merge PRs #30 #32 #36 #37 #38. Do not force-push local unique history (apk blob).
 
 GrokBot still does not write `V:\A`. OpenWork does not write COSMOS Core. **This Grok 4.6 Build session does** — it is CCr, pen `V:\A`, under the lease.
 
