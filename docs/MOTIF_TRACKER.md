@@ -1,8 +1,14 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-05 stopping point -->
+## Disposition — CCr (Keith: git squared + stopping point)
+- **Stop here.** GFO sits `V:\OpenWork\COSMOS 2\BUrestart.toml` (schema burestart/3, single-file sit). CCr successor `20c02cb1`. Core recents LIVE. Do not merge PRs #30/#32/#36/#37/#38. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not force-push local unique history (apk blob). Next motion after this stop: session-tools Stage 2 ARCH on Open Sessions, CLOCKS collapse (observe-only).
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-05 session-tools suite -->
 ## Disposition — CCr (Keith: session tools suite)
-- Migrator **rebind** closed (`cm/cow_migrator_rebind.json`, 666 on `ws_12669390bcf4`). That is not the suite.
+- Migrator **rebind** closed twice: Streams `ws_12669390bcf4` 18:38:01, then **COSMOS 2 `ws_726c64a2afa5` / `V:\OPENWORK\COSMOS 2` 19:11:16** (Keith YES). Live peek `n_cow=666` on that id. Proof `V:\OPENWORK\COSMOS 2\cm\cow_migrator_rebind.json`. Do not re-ingest. That is not the suite.
+- **Open Sessions LIVE on :8770 (2026-09-05T19:17–19:22).** Resident Core was pid 45196 from 10:42 — GET `/api/v1/recents` **404**. Health `--supervise` bounce → new serve. Proof `live/logs/recents_bounce_prove.json`: recents **200** `n_shown=200` legal omitted 108; open `cow-01a05750` **OPENED** `ses_cow_664` text_len=4805 `tree_id=KMesh-COSMOS-live`. OpenWork `workspaces[]` now lists COSMOS 2 (backup `openwork-workspaces.json.bak_before_cosmos2_row_20260905T191800`). COSMOS 2 still **not** in `openwork-server-state.json` ports (Chat 57383 + Streams 61512 only) — Keith must open that workspace in OpenWork. cDeck no longer hardcodes :61512. Tests recents **5/5** Open Sessions **4/4** orch home **48/48**. Native Tauri grant/port parser fix needs cDeck rebuild to leave the leftover-first-port path.
 - **New MOTIF 1:** `docs/research/SESSION_TOOLS.md` — crashed systems, all AIs/installs, load/convert/migrate/diff/check/anonymize. WISHLIST + BACKLOG rows open. Stage 2 ARCH next. ORC does not recode.
 - **CI iterate:** askmine 66/66 on GitLab #39; next fail `test_backup_local_excludes` (root ignores chmod 0). Hold = dangling symlink on POSIX when still readable.
 <!-- /cow-disposition -->
@@ -470,7 +476,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-05T18:30:00.264989-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-05T20:00:00.493908-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->

@@ -11,8 +11,8 @@
 | Pack provenance | `C:\Users\Papa\OpenWork Chat\COW_SESSION_MIGRATION_CARRYOVER.toml` | 666 sessions, 17439 turns, 4 discovery sources, SQLite schemas |
 | Transcripts | `…\cow_sessions\ordered_transcripts\` 24.4 MB | 001…666 md + catalog JSON |
 | Engine ingest | `%USERPROFILE%\.local\share\opencode\opencode.db` `ses_cow_*` | Do not re-ingest |
-| Sidebar groups | `%APPDATA%\openwork\runtime.sqlite` 7 groups / 666 | workspace_id `ws_12669390bcf4` |
-| Rebind proof | `V:\Streams\openwork\cm\cow_migrator_rebind.json` | 2026-09-05T18:38:01 — leftover Chat → grant path |
+| Sidebar groups | `%APPDATA%\openwork\runtime.sqlite` 7 groups / 666 | **live** `ws_726c64a2afa5` (COSMOS 2); old `ws_12669390bcf4` row kept |
+| Rebind proof | `V:\OPENWORK\COSMOS 2\cm\cow_migrator_rebind.json` | 2026-09-05T19:11:16 — Keith YES onto COSMOS 2. Prior Streams rebind 18:38:01 is leftover. |
 | Seed CLI+plugin | Grant `tools\cowork_to_openwork\` + `.opencode\plugins\cowork_to_openwork.js` | **Keith 2026-09-05 name.** Old `claude-to-openwork` staged `_delme\`. Share rules: `tools/cowork_to_openwork/SHARE.md` |
 | Askmine redact | `cosmos/cosmos_askmine.py` | Secrets redaction already a detector |
 | Crash carry-over | `SEED.json` HMAC, `BUCm.toml`, `BUrestart.toml`, `docs/RESESSION_SOP.md` | CCr vs ORC chairs are **different** sits |
@@ -31,7 +31,7 @@ The migrator plugin **closed as a rebind**, not as this suite. Claude-only scan/
 | R5 | **ORC does not recode** | CCr builds. GFO orchs. Folder grant = pen. |
 | R6 | **Not CORE kernel** | Suite is tools. Does not write ledger/kernel/sched. |
 | R7 | **Not Legal mining from this TUI** | Legal stream = second OpenWork profile. Catalog JSON may list legal rows; do not open those transcripts here. |
-| R8 | **Do not re-ingest 666** | Pack is done. Rebind/workspace_id is the remaining OpenWork sit issue. |
+| R8 | **Do not re-ingest 666** | Pack is done. COSMOS 2 rebind 19:11:16 is done. Ctrl+R; do not recode. |
 | R9 | **Anonymize ≠ delete** | Redact secrets/PII into a derived export. Never unlink. Stage to `_delme` if anything is retired. |
 | R10 | **Runtime-binding** | A verb is done when it emits a value only the live store can produce (row counts, HMAC, diff SHA) — not a green log. |
 
@@ -70,14 +70,14 @@ Iterate will add verbs. The etc. is not a license to invent mutex or Core writes
 
 ## What the leftover plugin is not
 
-`claude-to-openwork` is Claude discovery + sqlite insert + sidebar groups. It coded in-band in the dying ORC session. It does not: Grok TUI logs, SEED check, diff, anonymize, crash-recover, install sit, Legal isolation, or a new-workspace_id that is **not** `ws_12669390bcf4`.
+`claude-to-openwork` is Claude discovery + sqlite insert + sidebar groups. It coded in-band in the dying ORC session. It does not: Grok TUI logs, SEED check, diff, anonymize, crash-recover, install sit, or Legal isolation. Workspace_id rebind onto COSMOS 2 is already a closed verb.
 
-Keith is creating a **new** OpenWork workspace. Rebind proof used the **same** id on a new path. A truly new workspace_id still needs the **rebind** verb.
+Keith created OpenWork workspace **COSMOS 2**. Rebind verb already pointed `ses_cow_*` at **new** id `ws_726c64a2afa5` / `V:\OPENWORK\COSMOS 2` (proof 19:11:16). Do not re-run. OpenWork `workspaces[]` still lists only old Streams COSMOS — selectedId is COSMOS 2 anyway. Ctrl+R; do not recode.
 
 ## Fence (stage-2 input)
 
 - Code: `builds/session-tools/` (new), tests under `tests/test_session_tools*.py` when we build.
-- Wheelhouse copy for GFO: `V:\Streams\openwork\tools\` — she runs scan/migrate via WO, she does not author it.
+- Wheelhouse copy for GFO: `V:\OPENWORK\COSMOS 2\tools\` — she runs scan/migrate via WO, she does not author it.
 - Canon: this file + WISHLIST row + BACKLOG row.
 - Do not grant `V:\A\Ai\COSMOS`. Do not merge PRs #30/#32/#36/#37/#38.
 

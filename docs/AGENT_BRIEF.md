@@ -322,6 +322,9 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
 - 2026-09-03T00:50:27.144725-05:00 · G46 · motif_grok_voice_sgh_phone_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and docs/MOTIF_TRACKE… · cm/g46_grok_motif_grok_voice_sgh_phone_s1_you_ar_7bdacd70__t1800.py
 - 2026-09-04T11:30:02.250360-05:00 · G46 · backlog_clocks_collapse_one_pulse_one_runner_cal You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_clocks_collapse_one_pulse_on_b71e6a29__t1800.py
 - 2026-09-05T15:38:32.172216-05:00 · CURSOR · FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live COSMOS tree. Route: CURSOR. Pin claude… · cm/cursor_cursor_first_read_docs_agent_brief_md_and_d_fa2fb22f__t900.py
+- 2026-09-05T18:28:39.518295-05:00 · G46 · backlog_cowork_openwork_migrator_plugin You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) and docs/BA… · cm/g46_grok_backlog_cowork_openwork_migrator_plu_841a38e4__t1800.py
+- 2026-09-05T18:37:41.071135-05:00 · CURSOR · FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5… · cm/cursor_cursor_first_read_docs_agent_brief_md_and_d_e6a407fa__t900.py
+- 2026-09-05T18:42:52.960151-05:00 · G46 · motif_session_tools_suite_keith_2026_09_05_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_motif_session_tools_suite_keith_2026_ca4aec38__t1800.py
 
 ## Active assignments (from Keith, dropped hot by COW)
 - **Runner pool — CONCURRENT DRAIN** (assigned to **G46**, primary coder; Keith 2026-08-26 "more
