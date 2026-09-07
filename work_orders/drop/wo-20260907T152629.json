@@ -1,0 +1,8 @@
+{
+  "Agent": "xAI | Grok | grok-4.1-fast-reasoning",
+  "Context source": "work_orders/ccr/DEFINE_CHATBOT_PHONE.md [read*]; docs/AGENT_BRIEF.md [read*]; docs/AGENT_BOUNDARIES.md [read*]; docs/MOTIF.md [read*]; docs/research/docket/P13_THINKFAST_DROP.md [read*]; docs/research/docket/P06_LOCAL_FREE_WEIGHTS.md [read*]; docs/PROFILES.md [read*]; docs/MODEL_ACCESS.md [read*]; docs/ROUTING.md [read*]",
+  "Task": "FIRST read work_orders/ccr/DEFINE_CHATBOT_PHONE.md. That file is the frozen DEFINE. Do not paraphrase. MOTIF stage 2 RESEARCH only (DOM rails). P10: PROPOSE only. Never write the live tree. Write returns covering: (1) competing free forever / you-pick-the-model phone chat apps vs Claude mobile; (2) current OpenRouter named :free roster with latency notes — named ids only, never openrouter/free rotator; (3) desktop chatbot funnel patterns (store CTA, sideload, OpenWork desktop vs our desktop — do not invent the binary); (4) vendor :free caps 20 RPM / 50-1000 RPD as published. Do not start Android BUILD. Do not ship cosmos-voice.apk. Do not file USPTO. Do not publish. Do not write V:\\Ai.",
+  "Target & scope": "Output folder only. RESEARCH returns. Not BUILD. Not Core kernel. Not CVM. Not Voice refine. Not a 13th provisional.",
+  "Timestamp": "2026-09-07T15:26:29-05:00",
+  "Output": "work_orders/ccr/CREW/OUT/CHATBOT_PHONE | R1_CHATBOT_PHONE.md"
+}

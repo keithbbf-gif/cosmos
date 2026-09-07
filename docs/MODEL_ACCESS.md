@@ -120,6 +120,14 @@ Not Gemini. Not the rejected `openrouter/free` rotator. COSMOS rail `openrouter-
 
 Key: `live/config/openrouter_api_key.txt`. Rotator `openrouter/free` stays REFUSED.
 
+**ChatBot phone picker (Keith 2026-09-07):** consumer product, not a Core
+dispatch pin change this tick. Human picks a **named** `:free` id (starts
+with the two Gemma 4 pins above). Pitch **FREE FOREVER — YOU PICK THE
+MODEL**. Vendor caps still apply: **20 RPM**; **50 RPD** until $10 lifetime
+credits, then **1000 RPD**. Do not claim OpenRouter is unlimited. DEFINE:
+`work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. BUILD may add named `:free` ids
+(low latency, family-diverse); never the rotator.
+
 ### Vertex coding wallet (Keith 2026-09-07: $300 GEM tokens)
 
 `vertex-coding` · `orders.ggn@gmail.com` · **$300** · expires **2026-12-04**. Not Joanna `gem-api`. Not Studio Free.

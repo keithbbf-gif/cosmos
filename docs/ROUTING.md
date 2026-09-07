@@ -53,8 +53,7 @@ COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
 **Build path (Keith 2026-09-05):** the whole COSMOS **BUILD** runs **through Gitur**
 so the result is **branched trees** (GitHub + GitLab branches / PRs; Cursor Cloud
 Agent already opens a `cursor/…` branch). **Includes side jobs:** Open Sessions,
-`cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel until cDeck+OpenWork
-merge, and it **runs Gitur** — it does not dump stage-4 into `main` by default.
+`cowork_to_openwork`, session-tools, cDeck. This TUI is the wheel (Keith runs it himself). **Keith 2026-09-06:** kDash→cDeck is too different to integrate with OpenWork at this point — no surface merge. It **runs Gitur** — it does not dump stage-4 into `main` by default.
 
 **Research goes on the DOM rails already in BTS-MESH/COSMOS (Keith 2026-09-05;
 ROLD Rule 1; MESH CHARTER §4–5).** MOTIF stage 1 is **not** this TUI reading the
@@ -99,6 +98,8 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 | **Coding (S)** | **Grok 4.6** + **Opus 5** | **CCr** session (`grok-4.6`) writes COSMOS live tree under `CCR.lease`. Opus is the other coding brain **on Gitur** (GitHub + GitLab + Cursor) **/ Bedrock-when-bound** (Keith 2026-09-04 / Gitur 2026-09-05). COSMOS `dispatch()` stays `ANTHROPIC_OFF`. Orch TUI oversees **without** the pen. |
 | **Almost everything else (A) — Main Squeeze (Keith 2026-09-05)** | **Grok 4.1 Fast Reasoning** `grok-4.1-fast-reasoning` on **xAI Console** `api.x.ai` | **Best value.** $0.20 / $0.50 per 1M. Tools, search, latency, file work, supervisor, volume that is not CORE write. **Wallet = Console API** (`XAI_API_KEY` / `sgh-api`). **Not** Heavy. **Not** Vertex (4.1 MaaS shut down 2026-08-20). **Not** CCr. **Not** GFO. Do not put `XAI_API_KEY` on this TUI / `grok --single` (steals Heavy). |
 | **Cheap reasoning (A overflow)** | **Groq Production** `openai/gpt-oss-20b` (SSA pin, ~1000 t/s, $0.075/$0.30) · `openai/gpt-oss-120b` · **Preview** Qwen · OpenWork Models (non-PRC) | Cheaper raw tokens than the Squeeze. SSA stays Groq until Keith moves it. GroqCloud is **not** xAI. |
+| **Gemma 4 free (Keith 2026-09-07)** | OpenRouter **named** `google/gemma-4-26b-a4b-it:free` (default) · `google/gemma-4-31b-it:free` | `openrouter-api`. Dispatch kind `openrouter` / `gemma`. **Not** `openrouter/free` rotator. Key: `live/config/openrouter_api_key.txt` (or `OPENROUTER_API_KEY`). $0/token; ~20 RPM; 50 RPD until $10 lifetime credits then 1000 RPD. Keith owns the key. |
+| **ChatBot phone (Keith 2026-09-07)** | Same named `:free` pins as the picker (Gemma 4 first; BUILD may add named `:free` ids). Pitch **FREE FOREVER — YOU PICK THE MODEL**. | Consumer ChatBot. Funnel to Desktop ChatBot. P13 mouth, not Core CCr. Not Claude. Not CVM. Not Think Fast Voice. Vendor RPM/RPD printed. DEFINE: `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. |
 | **Named S leftovers** | Fable 5 (F5), GPT 5.6 | Hard review / named full-context loads only — not everyday. |
 
 **cDeck = one home (Keith 2026-09-04/05):**

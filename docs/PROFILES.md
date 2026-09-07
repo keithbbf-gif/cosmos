@@ -60,6 +60,20 @@ Do **not** spawn a second `cosmos.py serve` to get a second window. Do **not**
 mix Forge and Crucible skins in one window as if they were one product.
 JACK’S MESH stays on each instance — extra panes do not hide it.
 
+## Consumer ChatBot (not an occupancy profile)
+
+Keith 2026-09-07: phone ChatBot is a **product**, not a seventh occupancy
+row. Do not mix it into UPS / Forge / Crucible skins.
+
+| Product | What it is | Skin | Status |
+|---|---|---|---|
+| **ChatBot phone** | Consumer mouth on OpenRouter **named** `:free` models. Pitch **FREE FOREVER — YOU PICK THE MODEL**. Funnel to Desktop ChatBot (penetration). Same P13 GitHub drop for COSMOS work. | Phone ChatBot (not cDeck) | **DEFINE.** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Not CVM. Not SGH Voice. |
+| **ChatBot desktop** | Install target the phone leads to. Deeper sit. | Desktop ChatBot | **Named at BUILD.** OpenWork desktop vs COSMOS desktop — Keith names which. Do not iframe OpenWork Web. |
+
+Occupancy profiles above stay operator / federation skins. ChatBot phone
+does not get a `cdeck-instance` profile id until Keith says it is a deck
+skin (it is not, today).
+
 ## Shared Forge tools (all profiles)
 
 Setting up adversarial agents is a **Forge-class control**, not a reason to

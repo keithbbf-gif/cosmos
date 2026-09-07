@@ -64,7 +64,7 @@ Trademarks are **$350 per class**, not this stack. Keith certifies micro-entity.
 | 10 | `docket/P10_RESOLVER.md` | Sentinel root; existence ≠ identity | **FILE** narrow |
 | 11 | `docket/P11_SEED.md` | Signed close; OPEN_CONTEXT | **FILE** narrow |
 | 12 | `docket/P12_CRUCIBLE.md` | Crucible seats | **HOLD** (PDJ art granted in CN; US app claims the triad). |
-| 13 | `docket/P13_THINKFAST_DROP.md` | Voice/Chatbox → GitHub drop → OS daemon → agent → timestamped audit | **FILE** (takes the 12th $65 slot). Keith 2026-09-07: *that's new.* |
+| 13 | `docket/P13_THINKFAST_DROP.md` | Voice/Chatbox → GitHub drop → OS daemon → agent → timestamped audit | **FILE** (takes the 12th $65 slot). Keith 2026-09-07: *that's new.* **Embodiment (not a 13th slot):** ChatBot phone — named OpenRouter `:free` picker, **FREE FOREVER — YOU PICK THE MODEL**, funnel to Desktop ChatBot. DEFINE `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. |
 
 Reliable = P02+P03+P04+P05. Scalable = P06. OS = P07–P11. Loop = P01 (DEFINE first).
 Ingress = **P13**. P12 stays HOLD. UPS-JUDGE still needs Keith’s July pack — not this slot.
