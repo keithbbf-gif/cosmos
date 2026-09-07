@@ -6,9 +6,10 @@ GET never mutates and never mkdir. POST writes state/studio/pack.json.
 Does not start MOTIF. Does not hold API keys (via names the rail).
 BUILD: artifact json/toml/sql, simultaneous builders, audited input text
 (same for every parallel coder), N agents. CRITICS: any number of seats
-plus consensus/continuation. IMPLEMENT (was IMPROVE): CCr applies via
-Gitur once continuation is met. ITERATE: rounds / timer / budget / bar.
-Execution is a later pass.
+plus consensus/continuation. IMPLEMENT (was IMPROVE): CCr applies once continuation is met.
+Target is a local file, GitHub, GitLab, or cloud drive. GitHub/GitLab
+runs through Gitur before any live-tree write. ITERATE: rounds / timer /
+budget / bar. Execution is a later pass.
 
     py -3.14 cosmos\\\\cosmos_studio.py --selftest
 """
@@ -57,6 +58,22 @@ ITERATE_UNTIL = (
     ("keith", "Stop only when Keith says stop"),
 )
 ITERATE_UNTIL_IDS = frozenset(u[0] for u in ITERATE_UNTIL)
+
+# Write destination for BUILD/IMPLEMENT. Distinct from RESEARCH look-targets.
+DEST_KINDS = (
+    ("local", "Local file"),
+    ("github", "GitHub — Gitur before the live tree"),
+    ("gitlab", "GitLab — Gitur before the live tree"),
+    ("gdrive", "Cloud drive — Google Drive"),
+    ("onedrive", "Cloud drive — OneDrive"),
+)
+DEST_IDS = frozenset(d[0] for d in DEST_KINDS)
+GITUR_DESTS = frozenset({"github", "gitlab"})
+
+
+def dest_via_gitur(kind: str) -> bool:
+    """GitHub/GitLab: Gitur first, then CCr may write the live tree."""
+    return str(kind or "").strip().lower() in GITUR_DESTS
 
 BARS = (
     ("plurality", "Plurality — the most votes wins"),
@@ -191,8 +208,18 @@ def default_critics() -> dict:
     }
 
 
+def default_dest() -> dict:
+    """Default write target is GitHub, so Gitur runs before the live tree."""
+    return {
+        "kind": "github",
+        "path": "",
+        "via_gitur": True,
+        "saved_at": None,
+    }
+
+
 def default_implement() -> dict:
-    """IMPROVE, called IMPLEMENT for now. CCr applies via Gitur. Does not auto-run."""
+    """IMPROVE, called IMPLEMENT for now. Gitur only when the target is GitHub/GitLab."""
     return {
         "via_gitur": True,
         "note": "",
@@ -293,6 +320,7 @@ def empty_pack() -> dict:
         "consensus": default_consensus(),
         "build": default_build(),
         "critics": default_critics(),
+        "dest": default_dest(),
         "implement": default_implement(),
         "iterate": default_iterate(),
         "updated_at": None,
@@ -305,6 +333,7 @@ def empty_pack() -> dict:
         "artifact_catalog": [{"id": i, "label": lab} for i, lab in ARTIFACTS],
         "continue_catalog": [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN],
         "iterate_until_catalog": [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL],
+        "dest_catalog": [{"id": i, "label": lab} for i, lab in DEST_KINDS],
     }
 
 
@@ -383,10 +412,24 @@ def _public_critics(raw) -> dict:
     }
 
 
-def _public_implement(raw) -> dict:
+def _public_dest(raw) -> dict:
     src = raw if isinstance(raw, dict) else {}
+    kind = str(src.get("kind") or "github").strip().lower()
+    if kind not in DEST_IDS:
+        raise StudioError("BAD_INPUT", f"unknown write target {kind!r}")
     return {
-        "via_gitur": bool(src["via_gitur"]) if "via_gitur" in src else True,
+        "kind": kind,
+        "path": str(src.get("path") or "").strip()[:400],
+        "via_gitur": dest_via_gitur(kind),
+        "saved_at": src.get("saved_at"),
+    }
+
+
+def _public_implement(raw, dest=None) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    kind = (dest or {}).get("kind") or "github"
+    return {
+        "via_gitur": dest_via_gitur(kind),
         "note": str(src.get("note") or "")[:MAX_NOTE],
         "saved_at": src.get("saved_at"),
     }
@@ -509,7 +552,11 @@ def load_pack(paths) -> dict:
         critics = _public_critics(rec.get("critics"))
     except StudioError:
         critics = default_critics()
-    implement = _public_implement(rec.get("implement"))
+    try:
+        dest = _public_dest(rec.get("dest"))
+    except StudioError:
+        dest = default_dest()
+    implement = _public_implement(rec.get("implement"), dest)
     try:
         iterate = _public_iterate(rec.get("iterate"))
     except StudioError:
@@ -525,6 +572,7 @@ def load_pack(paths) -> dict:
         "consensus": consensus,
         "build": build,
         "critics": critics,
+        "dest": dest,
         "implement": implement,
         "iterate": iterate,
         "updated_at": rec.get("updated_at"),
@@ -537,6 +585,7 @@ def load_pack(paths) -> dict:
         "artifact_catalog": [{"id": i, "label": lab} for i, lab in ARTIFACTS],
         "continue_catalog": [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN],
         "iterate_until_catalog": [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL],
+        "dest_catalog": [{"id": i, "label": lab} for i, lab in DEST_KINDS],
     }
 
 
@@ -564,7 +613,11 @@ def save_pack(paths, body: dict) -> dict:
         critics = _public_critics(cur.get("critics"))
     except StudioError:
         critics = default_critics()
-    implement = _public_implement(cur.get("implement"))
+    try:
+        dest = _public_dest(cur.get("dest"))
+    except StudioError:
+        dest = default_dest()
+    implement = _public_implement(cur.get("implement"), dest)
     try:
         iterate = _public_iterate(cur.get("iterate"))
     except StudioError:
@@ -674,14 +727,24 @@ def save_pack(paths, body: dict) -> dict:
             merged["agents"] = agents or default_critic_agents()
         critics = _public_critics(merged)
         critics["saved_at"] = _iso_now()
+    if "dest" in body:
+        d = body["dest"]
+        if not isinstance(d, dict):
+            raise StudioError("BAD_INPUT", "dest must be an object")
+        merged = dict(dest)
+        merged.update(d)
+        dest = _public_dest(merged)
+        dest["saved_at"] = _iso_now()
     if "implement" in body:
         im = body["implement"]
         if not isinstance(im, dict):
             raise StudioError("BAD_INPUT", "implement must be an object")
         merged = dict(implement)
         merged.update(im)
-        implement = _public_implement(merged)
+        implement = _public_implement(merged, dest)
         implement["saved_at"] = _iso_now()
+    else:
+        implement = _public_implement(implement, dest)
     if "iterate" in body:
         it = body["iterate"]
         if not isinstance(it, dict):
@@ -698,6 +761,7 @@ def save_pack(paths, body: dict) -> dict:
         "consensus": consensus,
         "build": build,
         "critics": critics,
+        "dest": dest,
         "implement": implement,
         "iterate": iterate,
         "updated_at": _iso_now(),
@@ -727,11 +791,12 @@ def snapshot(paths) -> dict:
     rec.setdefault("continue_catalog", [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN])
     rec.setdefault("iterate_until_catalog",
                    [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL])
+    rec.setdefault("dest_catalog", [{"id": i, "label": lab} for i, lab in DEST_KINDS])
     rec["note"] = (
         "DEFINE is the frozen prompt. RESEARCH / BUILD / CRITICS are config. "
-        "BUILD artifact is json/toml/sql; input_text is the audited prompt "
-        "shared by every parallel coder. IMPLEMENT is CCr-via-Gitur once "
-        "continuation is met. ITERATE is rounds/timer/budget/bar. "
+        "Write target is a local file, GitHub, GitLab, or cloud drive. "
+        "GitHub/GitLab runs through Gitur before any live-tree write. "
+        "IMPLEMENT is CCr apply once continuation is met. "
         "This POST does not start MOTIF. Keys stay on the named via."
     )
     return rec
@@ -883,10 +948,42 @@ def _selftest() -> int:
           lambda: cri["critics"]["bar"] == "complete"
           and cri["critics"]["continue_when"] == "hitl"
           and len(cri["critics"]["agents"]) == 1)
-    imp = save_pack(paths, {"implement": {
-        "via_gitur": True, "note": "apply via Gitur",
+    gh = save_pack(paths, {"dest": {
+        "kind": "github", "path": "keithbbf-gif/cdeck",
     }})
-    check("IMPLEMENT is Gitur apply, not auto-MOTIF",
+    check("GitHub target runs Gitur before the live tree",
+          lambda: gh["dest"]["kind"] == "github"
+          and gh["dest"]["via_gitur"] is True
+          and gh["implement"]["via_gitur"] is True
+          and gh["dest"]["path"] == "keithbbf-gif/cdeck")
+    loc = save_pack(paths, {"dest": {
+        "kind": "local", "path": "docs/arch/FOO.md",
+    }})
+    check("local file target does not go through Gitur",
+          lambda: loc["dest"]["kind"] == "local"
+          and loc["dest"]["via_gitur"] is False
+          and loc["implement"]["via_gitur"] is False)
+    cloud = save_pack(paths, {"dest": {"kind": "gdrive", "path": "GDX/studio"}})
+    check("cloud drive target does not go through Gitur",
+          lambda: cloud["dest"]["kind"] == "gdrive"
+          and cloud["dest"]["via_gitur"] is False)
+    forced = save_pack(paths, {
+        "dest": {"kind": "local"},
+        "implement": {"via_gitur": True, "note": "cannot force Gitur"},
+    })
+    check("via_gitur is derived from dest, not a free checkbox",
+          lambda: forced["implement"]["via_gitur"] is False
+          and forced["implement"]["note"] == "cannot force Gitur")
+    bad_dest = False
+    try:
+        save_pack(paths, {"dest": {"kind": "s3"}})
+    except StudioError as e:
+        bad_dest = e.kind == "BAD_INPUT"
+    check("unknown write target is BAD_INPUT", lambda: bad_dest)
+    imp = save_pack(paths, {"dest": {"kind": "github"}, "implement": {
+        "note": "apply via Gitur",
+    }})
+    check("IMPLEMENT on GitHub is Gitur then live tree, not auto-MOTIF",
           lambda: imp["implement"]["via_gitur"] is True
           and imp["implement"]["note"] == "apply via Gitur")
     it = save_pack(paths, {"iterate": {
@@ -898,10 +995,11 @@ def _selftest() -> int:
           and it["iterate"]["timed_s"] == 3600
           and it["iterate"]["budget_usd"] == 12.5
           and it["iterate"]["until"] == "budget")
-    check("defaults: BUILD json dual-lane, IMPLEMENT via Gitur, ITERATE 1 round",
+    check("defaults: BUILD json dual-lane, GitHub dest via Gitur, ITERATE 1 round",
           lambda: empty["build"]["artifact"] == "json"
           and empty["build"]["simultaneous"] == 2
-          and empty["implement"]["via_gitur"] is True
+          and empty["dest"]["kind"] == "github"
+          and empty["dest"]["via_gitur"] is True
           and empty["iterate"]["until"] == "rounds"
           and empty["iterate"]["max_rounds"] == 1)
 
