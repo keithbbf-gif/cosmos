@@ -31,6 +31,10 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never mutates and never mkdir.
     GET /api/v1/studio     - MOTIF DEFINE text + RESEARCH models/targets (pack).
                            GET never mutates. Does not start MOTIF.
+    GET /api/v1/backup     - backup clock fold (heartbeat + verified names).
+                           GET never runs a backup and never mkdir.
+    GET /api/v1/session_kit - COS panes + autosave + auto-resession config.
+                           GET never mutates. Does not fire a resession.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
     POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
                                        action=add|remove for N parallel adversarial coders
@@ -50,6 +54,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            order_id). Daemon never opens live/ledger/.
     POST /api/v1/studio    - save DEFINE and/or RESEARCH config. Does not
                            start MOTIF. Keys stay on the named via.
+    POST /api/v1/session_kit - save COS/autosave/resession config. Does not
+                           fire TidyUP or a resession.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
     POST /api/v1/command - the voice/frontend seam: text in, kernel action out
     POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
@@ -820,6 +826,16 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec = studio_snapshot(kernel.paths)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/backup":
+                from cosmos_backup_fold import snapshot as backup_snapshot
+                rec = backup_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/session_kit":
+                from cosmos_session_kit import snapshot as session_kit_snapshot
+                rec = session_kit_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/work_orders":
                 from urllib.parse import parse_qs as _wo_list_qs
                 from cosmos_work_order import OrderError, fold_work_orders
@@ -1476,6 +1492,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 try:
                     rec = studio_save(kernel.paths, d)
                 except StudioError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/session_kit":
+                from cosmos_session_kit import SessionKitError, save_kit as session_kit_save
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = session_kit_save(kernel.paths, d)
+                except SessionKitError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
