@@ -1,0 +1,26 @@
+# Docket — US provisional packets (Legal, not USPTO)
+
+**Keith 2026-09-07.** Rewrite of `docs/research/IP_DOCKET.md`. Twelve written-description outlines for ~$65 micro-entity provisionals. **Not filed. Not claims. Not a novelty opinion.**
+
+MOTIF 1 returns: `work_orders/ccr/CREW/OUT/DOCKET/R1_OCCUPANCY.md`, `R2_LOCAL_FREE.md`, `R3_CORE.md`, `R4_CRUCIBLE_TM.md`.
+
+Vetting: `VETTING.md` in this folder.
+
+| File | Title | Status |
+|---|---|---|
+| `P01_MOTIF_LOOP.md` | 8-stage iterate-to-research | FILE |
+| `P02_DUAL_LANE.md` | Dual-lane BUILD, no shared context | FILE |
+| `P03_POROSITY.md` | Family-axis occupancy; **Porosity**; superlinear cover | FILE |
+| `P04_RUNTIME_BIND.md` | Runtime-binding vs green-log | FILE |
+| `P05_ADVERSARIAL_ENGINE.md` | Adversarial occupancy; one disposer; products = skins | FILE (parent) |
+| `P06_LOCAL_FREE_WEIGHTS.md` | Local free-weight plurality; low fixed cost vs S-tier | FILE |
+| `P07_CORE_LEDGER_FENCE.md` | Sole ledger writer + fence + tokens | FILE |
+| `P08_DOM_FIRST.md` | DOM-first unmetered rail | FILE |
+| `P09_SPEND_GATE.md` | Fail-closed spend; confirm-to-widen | FILE |
+| `P10_RESOLVER.md` | Sentinel root; existence ≠ identity | FILE (narrow) |
+| `P11_SEED.md` | Signed session close; OPEN_CONTEXT | FILE (narrow) |
+| `P12_CRUCIBLE.md` | Crucible seats | HOLD unless spec adds occupancy, not PDJ roles |
+
+Umbrella: *the new way — reliable, scalable AI.* Locally deployable, low fixed cost, free-weight models.
+
+Do not post the public articles until these are filed. CCr does not click USPTO.

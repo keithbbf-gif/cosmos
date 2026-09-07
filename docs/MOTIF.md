@@ -7,19 +7,29 @@ The Motif is the COSMOS seven-stage pipeline (that built COSMOS itself) compress
 repeatable loop for building ONE tool or feature. COW orchestrates; the nodes do the work;
 GitLab is where code lands and where a gate actually executes.
 
-## THE SOP — the mail-carrier route + 8-stage cycle (the fundamental heart of COSMOS development)
-**COW is a mail carrier on a route.** **Keith 2026-09-05:** the background cycle is the **system clock**; **Gitur is BUILD only**. **Research goes on the DOM rails.** This TUI **reviews and applies**. Open wishes and needed features are **work orders** (MOTIF 1–8), not in-band coding. Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
+## THE SOP — the mail-carrier route + 9-stage cycle (the fundamental heart of COSMOS development)
+**COW is a mail carrier on a route.** **Keith 2026-09-05:** the background cycle is the **system clock**; **Gitur is BUILD only**. **Research goes on the DOM rails.** This TUI **reviews and applies**. Open wishes and needed features are **work orders** (MOTIF 1–9), not in-band coding. Work EVERY item on the route — `docs/WISHLIST.md` open wishes, `docs/BACKLOG.md`, the DHx
 open assignments, `MOTIF_TRACKER.md` incomplete rows, returns to read. For each item: **IMPLEMENT
 it** — unless you can state a LEGITIMATE ISSUE, or it is OBSOLETE / SUPERSEDED. When it is not a
-straight implement, run the 8-stage cycle below; never skip it silently. **When the route is
+straight implement, run the 9-stage cycle below; never skip it silently. **When the route is
 clear, hunt lost mail — first this session, then other sessions — until Keith says stop.** Never
 idle (Watchdog2 enforces the ≤30s rule).
 
-## The 8-stage cycle (run on any item that isn't a straight implement)
-1. **RESEARCH** — **DOM rails**, already on the mesh. ROLD Rule 1 + MESH CHARTER §4–5: SGH and GEM first, both, in parallel; write the return to file. Surfaces include **SGH**, **free Gemini / Google search**, **ChatGPT chatbot**, **Perplexity**, **Bing**. Drive them with the **existing Chrome path** (BTS `chrome-bridge` / CoW Chrome MCP 22 tools / COSMOS `cosmos_dom` — **no browser window**, Keith's screen off limits). **Ask `V:\Ai\00_TOOLS_INDEX.md` before writing anything.** Do not rebuild. **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
-2. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking).
-3. **CONSENSUS** — compare the designs; converge, or mark CONTESTED (both positions, one line to Keith). No third model resolves.
-4. **BUILD** — code it on a branch; competing spikes for the hard part; each must RUN.
+## The 9-stage cycle (run on any item that isn't a straight implement)
+
+**Keith 2026-09-07:** adversarial model is DEFINE → research → … → comparison → discussion →
+adjudication → accept → apply. **DEFINE is stage 1.** The prompt that leaves DEFINE is
+**verbatim** to every model. No peeking. RESEARCH does not start until DEFINE is on disk.
+
+1. **DEFINE** — freeze the **feature** as one clean prompt: WHAT, WHY, acceptance, off-limits,
+   live emit to honor. Write it to disk. That file **is** the work order Task text. Every
+   subsequent model (research, arch, build, critic) gets **that exact text**. Do not
+   paraphrase per lane. Do not start RESEARCH with a vibe. A missing DEFINE is a
+   process scar (the GEM/GLM extra-pane pass that had no frozen prompt).
+2. **RESEARCH** — **Do not skip. Do not start BUILD until returns are on disk.** **DOM rails**, already on the mesh. ROLD Rule 1 + MESH CHARTER §4–5: SGH and GEM first, both, in parallel; write the return to file. Surfaces include **SGH**, **free Gemini / Google search**, **ChatGPT chatbot**, **Perplexity**, **Bing**. **LIVE 2026-09-06** (playwright-dom + JS, not dump-dom): **Bing SERP**, **Cloudflare AI Playground** (`glm-4.7-flash`), **Copilot CLI**. Grok.com / ChatGPT / Perplexity / Google SERP = AUTH or bot-wall until Keith signs the COSMOS Chrome profile. GEM = P7 Profile 2 + Alt+G, never `gemini.google.com/app`. Drive with the **existing Chrome path** (`cosmos_playwright_rail` + `browser_evaluate` / chrome-bridge / Chrome MCP — **no window**, Keith's screen off limits). **Ask `V:\Ai\00_TOOLS_INDEX.md` before writing anything.** Do not rebuild. **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
+3. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking). Same DEFINE text.
+4. **CONSENSUS** — **comparison + discussion.** Converge, or mark CONTESTED (both positions, one line to Keith). No third model resolves.
+5. **BUILD** — code it on a branch; competing spikes for the hard part; each must RUN.
    **Cooking now (Keith 2026-09-04):** COSMOS self-build + cDeck. Voice refine **TABLED**
    (SGH Voice / Grok Voice Think Fast 2.0 fills the phone endpoint).
    **Dual-lane (Keith 2026-09-04):** Lane A = Grok 4.6 **work-order session**
@@ -33,10 +43,10 @@ idle (Watchdog2 enforces the ≤30s rule).
    stays off). GitLab credits run the **gate** (CI) and Duo as a proposer;
    Copilot **reviews** PRs (coding-agent assignee is invalid). Composer 2.5
    refused.
-5. **CRITICS** — different-family review of the build vs. what was decided ("is this the thing we decided," not "is this good code"). Cursor-Opus may sit here as a family vote when it was not Lane B on this item.
-6. **CONSENSUS** — reconcile the critiques; agree the fixes.
-7. **IMPROVE** — apply them.
-8. **ITERATE** — return to stage **1 RESEARCH** and run the whole cycle again (1→8), **not** 5→8. Each iteration RE-RESEARCHES — new findings, fresh independent designs, new critics — not merely re-applying fixes. Iterate until it passes the **runtime-binding gate**: proven by a value only the live tree can emit — never an exit code, never a green log.
+6. **CRITICS** — different-family review of the build vs. **DEFINE** ("is this the thing we decided," not "is this good code"). **Output comparison.** Cursor-Opus may sit here as a family vote when it was not Lane B on this item. GEM 3.1 Pro (`vertex-coding` $300) and an OpenRouter value coder are seats when named.
+7. **CONSENSUS** — **adjudication.** Reconcile the critiques; agree the fixes. No third model auto-resolves.
+8. **IMPROVE** — **accept + apply.** Subtract as well as add.
+9. **ITERATE** — return to stage **1 DEFINE** (re-state the feature if it shifted; else reread the frozen prompt) then RESEARCH. Run the whole cycle again (1→9), **not** 6→9. Each iteration RE-DEFINES if the wish moved, RE-RESEARCHES — new findings, fresh independent designs, new critics — not merely re-applying fixes. Iterate until it passes the **runtime-binding gate**: proven by a value only the live tree can emit — never an exit code, never a green log.
 
 ## Iterate re-decides everything (Keith, 2026-08-25)
 **The goal is intelligent variability and flexibility in the iterations** — not a rote replay of the
@@ -53,12 +63,22 @@ the design improves quicker the more genuinely different the candidates are. A m
 family, one coder, a frozen loop — gives selection nothing to choose between, and stops evolving.
 This is why vendor-plural is a *requirement*, not a preference.
 
-Re-entering at stage 1 RESEARCH each cycle gives COSMOS the freedom to **change the architecture,
-incorporate new models and new information, re-scope to current needs — keep what worked, replace
-what didn't.** The design is never frozen; the loop re-decides it. This is exactly why ITERATE
-returns to RESEARCH, not to CRITICS: a critics-only loop (5→8) can only polish the thing already
-built; a research-first loop (1→8) can *replace* it. New model on the market, new benchmark, a
-shifted need — the next iteration picks it up.
+**Swiss cheese (Keith 2026-09-07).** One AI leaves holes. Two is much better, and still
+leaves holes. Three is better still — **only if they are from different families.** Same
+family is the same holes stacked. The method gets more powerful as (a) the **axis of
+difference** between the models grows and (b) the **number** of models grows. Several
+inexpensive models, chosen for disagreement, can **beat the single best model on price
+and on performance.** A monoculture of the “best” model is the expensive way to keep
+the same holes. Dual-lane BUILD and different-family CRITICS exist to punch different
+holes, not to vote twice.
+
+Re-entering at stage 1 **DEFINE** each cycle gives COSMOS the freedom to **re-state the feature**,
+then change the architecture, incorporate new models and new information, re-scope to current
+needs — keep what worked, replace what didn't. The design is never frozen; the loop re-decides it.
+This is exactly why ITERATE returns to DEFINE then RESEARCH, not to CRITICS: a critics-only loop
+(6→9) can only polish the thing already built; a define-then-research loop (1→9) can *replace* it.
+New model on the market, new benchmark, a shifted need — the next iteration picks it up. The
+DEFINE file is the verbatim prompt; paraphrasing it per model is a hole.
 
 Two things iterate can change, beyond the architecture:
 - **The PRIMARY CODER can change each iteration.** The lead builder is chosen per cycle from the
@@ -76,7 +96,8 @@ Two things iterate can change, beyond the architecture:
   RESEARCH finds it. "Impossible" is a research failure, not an answer. "It's async only"
   is a starting point, not a verdict.
 - **Vendor-plural by requirement** — SGH and GW are the same family: three families, not
-  four votes.
+  four votes. Swiss cheese: more AIs help only when they differ; cheap plural can beat
+  one expensive model.
 - **A node that fails mid-run is a FINDING**, reported — never a silent absence.
 - **Assert the packet contains what it claims** before reasoning about it.
 - **Verify every URL/DOI a node returns.**

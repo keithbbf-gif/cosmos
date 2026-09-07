@@ -22,9 +22,19 @@ Every work order is executed by two independent builders from different model fa
 
 Neither lane may read the other's branch, PR, or output before submitting its own.
 
+## DEFINE first (Keith 2026-09-07)
+
+MOTIF stage 1. Freeze the feature as **one clean prompt** on disk. That text is
+**verbatim** across models. Research / arch / build / critics do not rewrite it
+per lane. Missing DEFINE is a process scar.
+
+Then: RESEARCH → ARCH → CONSENSUS (comparison + discussion) → BUILD → CRITICS
+(output comparison) → CONSENSUS (adjudication) → IMPROVE (accept + apply) →
+ITERATE back to DEFINE.
+
 ## Flow
 
-1. Ara drops the work order JSON in `work_orders/drop/` (six fields per WORK_ORDER_SOP.md).
+1. Ara drops the work order JSON in `work_orders/drop/` (six fields per WORK_ORDER_SOP.md). The Task field **is** the DEFINE file.
 2. Windows runner files it into the live bucket.
 3. **Lane A — Grok Code 4.6** claims the order, executes the Task, writes Output to `proposals/<name>.json`, writes a `Verdict` object into the same work order file (status, reason, objection with file+line+fix, timestamp) per VERDICT_SPEC.md.
 4. **Lane B — Cursor Cloud Agent (Composer 2.5)** is triggered on the **same** work order at pickup (not after DONE). Independent clone, same Task text, PR titled `WO: <task>`.
