@@ -1,5 +1,13 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T OSS borrow MOTIF -->
+## Disposition — CCr (Keith: read OSS *code*; borrow/adapt/learn; execute MOTIF)
+- **DEFINE:** `DEFINE_OSS_BORROW.md`. Stack REJECT stands. This thread reads mechanisms.
+- **RESEARCH:** `CREW/OUT/OSS/R1_CODE.md` — LangGraph `interrupt()`+checkpointer, n8n `putExecutionToWait`+resumeUrl, Temporal heartbeat vs start-to-close. Dify HumanInputNode UNMEASURED (404).
+- **ARCH:** `docs/arch/OSS_BORROW_ARCH.md`. Three ADAPTs on our emits (HITL bind, wait-without-spin, two clocks). No vendor runtime.
+- **BUILD this pass:** docs. Code already in jukebox stale + Review "FINDINGS = awaiting human" + P13 drop. Next Gitur only if live `/jukebox` shows RUNNING with no stale when heartbeat is dead.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-07T perplexity cDeck stack -->
 ## Disposition — CCr (Keith: evaluate Perplexity stack; only to the degree it's free)
 - **REJECT as OS:** LangGraph MOTIF, Temporal scheduler, Postgres authority, FastAPI second API, React+Vite replacing `cdeck.exe`, LangFlow embed, time-travel / fork-from-step.
@@ -549,7 +557,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-07T15:45:01.162543-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-07T16:00:01.047881-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->
