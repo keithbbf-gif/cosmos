@@ -29,6 +29,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/work_orders - timestamped work-order list (agents, product, checks).
                            Folders are the live list; ?id= returns output_head.
                            GET never mutates and never mkdir.
+    GET /api/v1/studio     - MOTIF DEFINE text + RESEARCH models/targets (pack).
+                           GET never mutates. Does not start MOTIF.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
     POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
                                        action=add|remove for N parallel adversarial coders
@@ -46,6 +48,8 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/work_orders/picked - runner notify after pickup_order;
                            Core ledgers WORK_ORDER_PICKED (idempotent on
                            order_id). Daemon never opens live/ledger/.
+    POST /api/v1/studio    - save DEFINE and/or RESEARCH config. Does not
+                           start MOTIF. Keys stay on the named via.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
     POST /api/v1/command - the voice/frontend seam: text in, kernel action out
     POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
@@ -811,6 +815,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, gitur_snapshot(kernel))
                 except GiturError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/studio":
+                from cosmos_studio import snapshot as studio_snapshot
+                rec = studio_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/work_orders":
                 from urllib.parse import parse_qs as _wo_list_qs
                 from cosmos_work_order import OrderError, fold_work_orders
@@ -1454,6 +1463,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             from urllib.parse import urlparse as _wo_urlparse
+            if _wo_urlparse(self.path).path == "/api/v1/studio":
+                from cosmos_studio import StudioError, save_pack as studio_save
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = studio_save(kernel.paths, d)
+                except StudioError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/work_orders/picked":
                 body = self._read_body()
                 if body is None:
