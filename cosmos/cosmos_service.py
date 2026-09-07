@@ -1558,14 +1558,16 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         if act == "add":
                             rec = add_adversary(kernel.paths,
                                                 d.get("model") or "",
-                                                d.get("label") or "")
+                                                d.get("label") or "",
+                                                d.get("via") or "")
                             return self._send(200, rec)
                         if act == "remove":
                             rec = remove_adversary(kernel.paths,
                                                    d.get("seat") or "")
                             return self._send(200, rec)
                         rec = assign_seat(kernel.paths, d.get("profile"),
-                                          d.get("seat"), d.get("model") or "")
+                                          d.get("seat"), d.get("model") or "",
+                                          via=d.get("via") or "")
                         return self._send(200, rec)
                     if _mr.endswith("/job_estimate"):
                         if d.get("reset"):
