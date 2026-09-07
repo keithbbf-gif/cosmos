@@ -68,9 +68,9 @@ fallback ladder, no import-time side effects.
 
 ## Method that builds the OS (MOTIF)
 
-COSMOS builds itself on directional input. The loop is eight stages:
-RESEARCH → ARCH → CONSENSUS → BUILD → CRITICS → CONSENSUS → IMPROVE → ITERATE
-(back to RESEARCH). Dual-lane BUILD: two builders, **no shared context**, different
+COSMOS builds itself on directional input. The loop is **nine** stages:
+**DEFINE** → RESEARCH → ARCH → CONSENSUS → BUILD → CRITICS → CONSENSUS → IMPROVE → ITERATE
+(back to **DEFINE**, then RESEARCH). Dual-lane BUILD: two builders, **no shared context**, different
 families. Critics judge *is this the thing we decided*, not house style. One disposer
 (CCr) writes the live tree. The runtime-binding gate is a value **only the live tree
 can emit** — never an exit code, never a green log.

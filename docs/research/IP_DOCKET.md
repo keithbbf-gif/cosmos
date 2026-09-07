@@ -11,8 +11,10 @@ with **different mistakes**, overlaid, cover surface quickly at a **> linear**
 rate versus stacking copies.
 
 **This file is the index.** Written-description packets (Legal, not USPTO) live in
-`docs/research/docket/`. Vetting: `docs/research/docket/VETTING.md`.
-Research returns: `work_orders/ccr/CREW/OUT/DOCKET/R1_*.md` … `R4_*.md`.
+`docs/research/docket/`. **Complete specs** (numbered paragraphs, 37 CFR 1.77
+order, court-form PDFs): `docket/SPEC_FORM.md`, `docket/specs/`. Vetting:
+`docs/research/docket/VETTING.md`. Research returns:
+`work_orders/ccr/CREW/OUT/DOCKET/R1_*.md` … `R4_*.md`.
 
 **How-it-works appendices (Keith 2026-09-07):** attach **at filing**, not after.
 `docket/APP_OS.md` (SCAR, ROLD, carry-over), `APP_COSMOS.md`, `APP_CRUCIBLE.md`,

@@ -1,5 +1,12 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T docket complete specs -->
+## Disposition — CCr (Keith: make packets complete; court-admissible form)
+- **Complete written descriptions** P01–P13: 35 U.S.C. 112(a) order, numbered `[0001]`, inventor blank, no claim set, HOW_IT_WORKS attached at filing. P12 HOLD. P13 FILE (12th slot) includes ChatBot Freemium embodiment.
+- **PDFs:** `docs/research/docket/specs/COSMOS-P01.pdf` … `P13.pdf`, `COSMOS_TRANSMITTAL.pdf`, `COSMOS_SPEC_VOLUME.pdf`. Form `SPEC_FORM.md`. Printer `_print_specs.py`.
+- **Not filed.** CCr does not click USPTO. Counsel drafts claims and completes inventor name.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-07T chatbot-phone DEFINE -->
 ## Disposition — CCr (Keith: ChatBot phone FREE FOREVER — YOU PICK THE MODEL)
 - **DEFINE frozen (iterate):** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Keith: *Follow the Freemium model.* **Free forever** = phone + named `:free` picker, usable, not a trial. **Install (free)** = Desktop ChatBot (penetration). **Premium** = optional (paid models, desktop hands, later P06). Pitch **FREE FOREVER — YOU PICK THE MODEL**. Price UNMEASURED until Keith names it. Honest: vendor 20 RPM / 50–1000 RPD — do not sell unlimited `:free` as Premium. Not CVM. Not a 13th $65 slot.
@@ -529,7 +536,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-07T15:30:01.255393-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-07T15:45:01.162543-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->
