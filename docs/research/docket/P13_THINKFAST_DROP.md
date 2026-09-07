@@ -47,8 +47,9 @@ the phone could write `live/`, that is a second writer on the runtime root
 7. Voice STS (Think Fast 2.0) is one mouth (operator, TABLED). Chatbox is
    the same inbox. **Phone ChatBot** (Keith 2026-09-07) is the **consumer**
    mouth of this loop: OpenRouter named `:free` picker, pitch **FREE FOREVER
-   — YOU PICK THE MODEL**, funnel to Desktop ChatBot. Return path may be
-   Drive so the phone can read without `live/`. DEFINE:
+   — YOU PICK THE MODEL**, **Freemium** (free forever phone → free Desktop
+   install → optional Premium). Return path may be Drive so the phone can
+   read without `live/`. DEFINE:
    `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Not a 13th provisional.
 8. Dispose of live-tree writes remains one CCr. The daemon does not hold the pen.
 
@@ -76,11 +77,13 @@ UNKNOWN unpublished apps. DOM research of Patent Public Search still owed.
 ## Embodiment — ChatBot phone (Keith 2026-09-07)
 
 Same method, consumer skin: a phone ChatBot on **named** OpenRouter `:free`
-models (low latency; human picks the id; rotator refused). Acquisition
-wedge vs a paid Claude seat. Desktop ChatBot is the install target. Vendor
-`:free` RPM/RPD caps remain; "no usage limit" is **our** seat (no Claude /
-COSMOS subscription), not a claim that OpenRouter is infinite. Not CVM.
-Not P06 (on-box weights). Not a new $65 slot.
+models (low latency; human picks the id; rotator refused). **Freemium**
+(Keith 2026-09-07): free forever phone (usable, not a trial) → free Desktop
+install (penetration) → optional Premium (paid models, desktop hands, later
+P06). Wedge vs a paid Claude seat. Vendor `:free` RPM/RPD caps remain; do
+not sell “unlimited free models” as Premium. "No usage limit" is **our**
+free tier (no trial, no invented quota), not a claim that OpenRouter is
+infinite. Not CVM. Not a new $65 slot. Price = Keith.
 
 ## What this is not
 

@@ -2,9 +2,9 @@
 
 <!-- cow-disposition 2026-09-07T chatbot-phone DEFINE -->
 ## Disposition — CCr (Keith: ChatBot phone FREE FOREVER — YOU PICK THE MODEL)
-- **DEFINE frozen:** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Phone ChatBot = P13 consumer mouth on OpenRouter **named** `:free` models (low latency). Pitch **FREE FOREVER — YOU PICK THE MODEL** (replaces Claude as consumer seat). Funnel to Desktop ChatBot (penetration). Honest: vendor 20 RPM / 50–1000 RPD — do not claim OpenRouter infinite. Product "no usage limit" = we do not meter. Not CVM. Not Voice refine. Not a 13th $65 slot. Desktop binary named at BUILD.
+- **DEFINE frozen (iterate):** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Keith: *Follow the Freemium model.* **Free forever** = phone + named `:free` picker, usable, not a trial. **Install (free)** = Desktop ChatBot (penetration). **Premium** = optional (paid models, desktop hands, later P06). Pitch **FREE FOREVER — YOU PICK THE MODEL**. Price UNMEASURED until Keith names it. Honest: vendor 20 RPM / 50–1000 RPD — do not sell unlimited `:free` as Premium. Not CVM. Not a 13th $65 slot.
 - **Canon:** WISHLIST, PROFILES (consumer, not occupancy), P13 embodiment, P06 split, IP_DOCKET note, ROUTING, MODEL_ACCESS, MESH_ADDITIONS row 16.
-- **Next:** RESEARCH on DOM rails (competing free chat apps, current named `:free` roster, desktop funnel). Do **not** start Android BUILD until returns are on disk. Do not publish. Do not file USPTO.
+- **Next:** RESEARCH on DOM rails (Freemium chat apps, named `:free` roster, desktop funnel). Do **not** start Android BUILD until returns are on disk. Do not invent a price. Do not publish. Do not file USPTO.
 <!-- /cow-disposition -->
 
 <!-- cow-disposition 2026-09-07T docket packets -->
@@ -529,7 +529,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-07T15:15:01.237598-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-07T15:30:01.255393-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->
