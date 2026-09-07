@@ -444,19 +444,227 @@ def infer_repo_tree(live_root: Path | str) -> Path:
     return parent
 
 
-def work_order_dirs(paths) -> dict:
-    """Resolver-only topology. paths is a CosmosPaths."""
+FOLD_FOLDERS = ("bucket", "picked", "failed", "assigned", "completed")
+FOLD_LIMIT = 200
+TASK_PREVIEW = 240
+
+
+def work_order_dirs_ro(paths) -> dict:
+    """Same topology as work_order_dirs. GET must not mkdir (a read is a write)."""
     base = paths.state("work_orders")
-    dirs = {
+    return {
         "bucket": base / "bucket",
         "picked": base / "picked",
         "assigned": base / "assigned",
         "completed": base / "completed",
         "failed": base / "failed",
     }
+
+
+def work_order_dirs(paths) -> dict:
+    """Resolver-only topology. paths is a CosmosPaths."""
+    dirs = work_order_dirs_ro(paths)
     for d in dirs.values():
         d.mkdir(parents=True, exist_ok=True)
     return dirs
+
+
+def _public_checks(checks) -> dict | None:
+    if not isinstance(checks, dict):
+        return None
+    out = {}
+    for name in ("github", "cursor", "gitlab"):
+        row = checks.get(name)
+        if not isinstance(row, dict):
+            continue
+        out[name] = {
+            "status": row.get("status"),
+            "url": row.get("url"),
+            "detail": str(row.get("detail") or "")[:160],
+        }
+    return out or None
+
+
+def _public_core_picked(rec) -> dict | None:
+    cp = rec.get("core_picked") if isinstance(rec, dict) else None
+    if not isinstance(cp, dict):
+        return None
+    keep = {}
+    for k in ("ok", "already", "seq", "kind", "http", "detail"):
+        if cp.get(k) is not None:
+            keep[k] = cp.get(k)
+    return keep or None
+
+
+def public_order_row(raw: dict, folder: str) -> dict:
+    """List/detail row. No argv, no prompt, no key material."""
+    agent = raw.get("_agent") if isinstance(raw.get("_agent"), dict) else {}
+    outp = raw.get("_output") if isinstance(raw.get("_output"), dict) else {}
+    run = raw.get("run") if isinstance(raw.get("run"), dict) else {}
+    task = str(raw.get("Task") or "")
+    oid = str(raw.get("order_id") or "")
+    exists = bool(raw.get("output_exists"))
+    filename = str(outp.get("filename") or "")
+    row = {
+        "order_id": oid,
+        "folder": folder,
+        "state": str(raw.get("state") or folder.upper()),
+        "agent": str(raw.get("Agent") or agent.get("raw") or ""),
+        "family": str(agent.get("family") or ""),
+        "clade": str(agent.get("clade") or ""),
+        "version": str(agent.get("version") or ""),
+        "task": task[:TASK_PREVIEW],
+        "task_len": len(task),
+        "output": str(raw.get("Output") or outp.get("raw") or ""),
+        "output_folder": outp.get("folder"),
+        "output_filename": filename,
+        "output_exists": exists,
+        "product": filename if exists else None,
+        "timestamp": str(raw.get("Timestamp") or ""),
+        "dropped_at": raw.get("dropped_at"),
+        "picked_at": raw.get("picked_at"),
+        "filed_at": raw.get("filed_at"),
+        "accepted_at": raw.get("accepted_at") or raw.get("completed_at"),
+        "observed_rc": raw.get("observed_rc"),
+        "elapsed_s": run.get("elapsed_s"),
+        "timed_out": run.get("timed_out"),
+        "fail_kind": raw.get("fail_kind"),
+        "fail_detail": str(raw.get("fail_detail") or "")[:200] or None,
+        "checks": _public_checks(raw.get("checks")),
+        "core_picked": _public_core_picked(raw),
+        "github_path": raw.get("github_path"),
+        "source_url": raw.get("source_url"),
+        "sort": (
+            str(raw.get("picked_at") or raw.get("filed_at")
+                or raw.get("dropped_at") or raw.get("Timestamp") or "")
+            + "|" + oid
+        ),
+    }
+    return row
+
+
+def fold_work_orders(paths, *, order_id: str = "", state: str = "",
+                     limit=FOLD_LIMIT) -> dict:
+    """GET projection. Folders are not authority; this is the live list.
+
+    Does not mkdir. Does not append the ledger. ?id= returns one row plus
+    output_head (work product). limit caps the list, not the counts.
+    """
+    try:
+        lim = int(limit)
+    except (TypeError, ValueError):
+        lim = FOLD_LIMIT
+    if lim < 1:
+        lim = 1
+    if lim > 500:
+        lim = 500
+    dirs = work_order_dirs_ro(paths)
+    base = paths.state("work_orders")
+    by_id: dict[str, dict] = {}
+    counts = {name: 0 for name in FOLD_FOLDERS}
+    unreadable = 0
+    for folder in FOLD_FOLDERS:
+        d = dirs[folder]
+        if not d.is_dir():
+            continue
+        try:
+            names = list(d.iterdir())
+        except OSError:
+            continue
+        for p in names:
+            if not p.is_file() or p.suffix.lower() != ".json":
+                continue
+            if p.name.startswith("_") or p.name.endswith(".tmp"):
+                continue
+            try:
+                raw = json.loads(p.read_text(encoding="utf-8"))
+            except (OSError, ValueError, UnicodeDecodeError):
+                unreadable += 1
+                continue
+            if not isinstance(raw, dict):
+                unreadable += 1
+                continue
+            oid = str(raw.get("order_id") or p.stem)
+            raw["order_id"] = oid
+            counts[folder] += 1
+            by_id[oid] = public_order_row(raw, folder)
+            by_id[oid]["_raw_output_path"] = raw.get("_output_path")
+            by_id[oid]["_task_full"] = str(raw.get("Task") or "")
+    want = str(order_id or "").strip()
+    if want:
+        row = by_id.get(want)
+        if not row:
+            return {
+                "ok": True, "available": True, "kind": "NOT_FOUND",
+                "order_id": want, "order": None, "rows": [],
+                "counts": counts, "unreadable": unreadable,
+                "schema": "cosmos-work-orders/1",
+                "note": "folders are the live list; ledger WORK_ORDER_PICKED is the pickup receipt",
+            }
+        out = dict(row)
+        out.pop("_raw_output_path", None)
+        task_full = out.pop("_task_full", "")
+        out["task"] = task_full
+        head = None
+        head_err = None
+        op = row.get("_raw_output_path")
+        if op and Path(op).is_file():
+            try:
+                head = _output_head(Path(op))
+            except OrderError as e:
+                head_err = e.detail
+        elif op:
+            head_err = "Output file missing or empty"
+        return {
+            "ok": True, "available": True, "kind": "OK",
+            "order_id": want, "order": out,
+            "output_head": head, "output_head_error": head_err,
+            "counts": counts, "unreadable": unreadable,
+            "schema": "cosmos-work-orders/1",
+            "note": "GET never mutates; --accept is still the COMPLETED write",
+        }
+
+    st = str(state or "").strip().upper()
+    rows = list(by_id.values())
+    if st and st != "ALL":
+        folder_alias = {
+            "BUCKET": "bucket", "DROPPED": "bucket",
+            "PICKED": "picked", "PICKED_UP": "picked",
+            "ASSIGNED": "assigned", "DONE": "assigned",
+            "COMPLETED": "completed", "FAILED": "failed",
+        }
+        want_folder = folder_alias.get(st)
+        if want_folder:
+            rows = [r for r in rows if r.get("folder") == want_folder]
+        else:
+            rows = [r for r in rows if str(r.get("state") or "").upper() == st]
+    rows.sort(key=lambda r: str(r.get("sort") or ""), reverse=True)
+    shown = []
+    for r in rows[:lim]:
+        item = dict(r)
+        item.pop("_raw_output_path", None)
+        item.pop("_task_full", None)
+        shown.append(item)
+    n_all = sum(counts.values())
+    return {
+        "ok": True,
+        "available": base.is_dir(),
+        "kind": "OK" if base.is_dir() else "NO_SOURCE",
+        "schema": "cosmos-work-orders/1",
+        "rows": shown,
+        "n_shown": len(shown),
+        "n_total": n_all,
+        "truncated": len(rows) > lim,
+        "counts": counts,
+        "unreadable": unreadable,
+        "limit": lim,
+        "state": st or "ALL",
+        "note": (
+            "timestamped live list from state/work_orders/{bucket,picked,"
+            "assigned,completed,failed}. Folders are not the ledger. "
+            "GET ?id= returns work product head. No argv/prompt."
+        ),
+    }
 
 
 def _atomic_json(path: Path, obj) -> None:

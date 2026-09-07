@@ -26,6 +26,9 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
+    GET /api/v1/work_orders - timestamped work-order list (agents, product, checks).
+                           Folders are the live list; ?id= returns output_head.
+                           GET never mutates and never mkdir.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
     POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
                                        action=add|remove for N parallel adversarial coders
@@ -808,6 +811,22 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, gitur_snapshot(kernel))
                 except GiturError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/work_orders":
+                from urllib.parse import parse_qs as _wo_list_qs
+                from cosmos_work_order import OrderError, fold_work_orders
+                q = _wo_list_qs(parsed.query)
+                try:
+                    rec = fold_work_orders(
+                        kernel.paths,
+                        order_id=(q.get("id") or [""])[0],
+                        state=(q.get("state") or [""])[0],
+                        limit=(q.get("limit") or ["200"])[0],
+                    )
+                except OrderError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/model_rater":
                 from urllib.parse import parse_qs as _mr_qs
                 from cosmos_model_rater import ModelRaterError, snapshot
