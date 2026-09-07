@@ -35,6 +35,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never runs a backup and never mkdir.
     GET /api/v1/session_kit - COS panes + autosave + auto-resession config.
                            GET never mutates. Does not fire a resession.
+    GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
+                           streams, gitur, spend. GET never mutates.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
     POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
                                        action=add|remove for N parallel adversarial coders
@@ -834,6 +836,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/api/v1/session_kit":
                 from cosmos_session_kit import snapshot as session_kit_snapshot
                 rec = session_kit_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/runs_ops":
+                from cosmos_runs_ops import snapshot as runs_ops_snapshot
+                rec = runs_ops_snapshot(kernel)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
             if parsed.path == "/api/v1/work_orders":
