@@ -65,6 +65,10 @@ Do not merge cDeck #6 / #16. Do not write `V:\Ai`. Do not file USPTO.
 Do not publish. Only to the degree it's free (OSS + already on the
 machine; not a new paid SKU).
 
+Structure (architecture, routines, tools, snippets, external calls,
+ancillaries): `docs/arch/OSS_STRUCTURE.md`. cDeck wait chrome:
+`DEFINE_OSS_CDECK_UX.md`.
+
 ## THIS TEXT
 
 Copy this file into every lane's prompt.
