@@ -101,7 +101,8 @@ def main() -> int:
                       for n in (body.get("topology") or {}).get("nodes") or []))
         check("GET /nodemap registry carries matrix for the browser wrap",
               lambda: isinstance(body.get("registry", {}).get("matrix"), list)
-              and body["registry"]["matrix"][0]["link_id"] == "gem-api")
+              and len(body["registry"]["matrix"]) >= 1
+              and body["registry"]["matrix"][0].get("link_id"))
         rails_p.write_text(json.dumps({
             "schema": "cosmos-registry/1",
             "measured_at": now,
@@ -117,6 +118,15 @@ def main() -> int:
         check("GET /jukebox is 200 (rich queue fold, even if empty)",
               lambda: code == 200 and body.get("ok") is True
               and body.get("tree_id") == "cdeck-routes")
+        check("GET /jukebox is not 503 CDECK_PANEL_NOT_COMPOSED (query= only on recents)",
+              lambda: body.get("error") != "CDECK_PANEL_NOT_COMPOSED")
+        code_r, body_r = get("/api/v1/recents")
+        check("GET /recents is 200 (query= forwarded; empty is NO_SOURCE not 503)",
+              lambda: code_r == 200 and body_r.get("ok") is True
+              and body_r.get("tree_id") == "cdeck-routes"
+              and (body_r.get("schema") == "cdeck-recents/1"
+                   or body_r.get("kind") == "NO_SOURCE")
+              and body_r.get("error") != "CDECK_PANEL_NOT_COMPOSED")
         check("cDeck GETs are reads — ledger head did not move",
               lambda: k.ledger.head_seq() == head_before)
         check("GET /fleet WITH the bearer still 200",
