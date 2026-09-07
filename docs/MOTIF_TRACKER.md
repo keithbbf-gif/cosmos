@@ -1,5 +1,11 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T adversarial remote -->
+## Disposition — CCr (Keith: include adversarial AI over remote, terminal OR phone)
+- **DEFINE iterate:** `DEFINE_CHATBOT_PHONE.md` + `DEFINE_THINKFAST_DROP.md`. P05 occupancy may be seated from a remote **terminal** or **phone** through the P13 drop. Same peeking ban, same one pen. Free-tier single-model chat stays. Not a 14th $65 slot. Not a second Core.
+- **Packets:** P05 FIG. 3 + remote-mouth definition; P13 FIG. 3 + Agent-may-name-occupancy. Rebuild court PDFs.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-07T docket complete specs -->
 ## Disposition — CCr (Keith: make packets complete; court-admissible form)
 - **Complete written descriptions** P01–P13: 35 U.S.C. 112(a) order, numbered `[0001]`, inventor blank, no claim set, HOW_IT_WORKS attached at filing. P12 HOLD. P13 FILE (12th slot) includes ChatBot Freemium embodiment.

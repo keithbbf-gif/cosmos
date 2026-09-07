@@ -4,12 +4,17 @@
 
 ## WHAT
 
-A spoken (or Chatbox) query becomes a **JSON work order** dropped on **GitHub**
-(`work_orders/drop/`). A **native OS daemon** (not GitHub Actions, not the LLM)
-monitors that drop box, files the order into the live bucket, **creates an agent
-session**, collects the agent's **Output** file, and records **timestamps plus an
-audit trail** (heartbeat, DROPPED/PICKED/DONE, ledger). The phone never sees
-`live/`. CCr still disposes live-tree writes.
+A spoken, Chatbox, **phone**, or **remote terminal** query becomes a **JSON
+work order** dropped on **GitHub** (`work_orders/drop/`). A **native OS
+daemon** (not GitHub Actions, not the LLM) monitors that drop box, files
+the order into the live bucket, **creates an agent session** (or the
+**adversarial occupancy engine**: N isolated seats, different-family,
+one disposer), collects **Output**, and records **timestamps plus an
+audit trail**. The phone never sees `live/`. A remote terminal is a
+mouth, not a second writer on the runtime root. CCr still disposes.
+
+Keith, verbatim: *You can include advesarial Ai over remote (terminal OR
+phone).*
 
 Loop as run: **Grok Voice Think Fast 2.0** → GitHub drop → `cosmos_sgh_drop_ingest`
 (schtask **COSMOS SGH Drop Ingest**) → **COSMOS Work-Order Runner** → agent →
@@ -30,7 +35,9 @@ authority of "what happened" is COSMOS timestamps + ledger, not a green Actions 
 - Runner creates the Agent named in the order, WRITE-PRIVATE (Output only).
 - DONE = Output file exists; FAILED = no Output. Assigned folder is the done folder.
 - Heartbeats and ISO timestamps on ingest and runner. Ledger events for dispatch when composed.
-- Phone/Voice is the mouth, not a mobile backend or frontend.
+- Phone/Voice **or** remote terminal is the mouth, not a mobile backend
+  or frontend. Adversarial N-seat over either mouth is occupancy (P05),
+  not a second drop desk.
 
 ## OFF-LIMITS
 

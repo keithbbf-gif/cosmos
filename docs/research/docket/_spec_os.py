@@ -336,22 +336,23 @@ add(
     kind="System / method",
     status="FILE (twelfth $65 slot; P12 remains HOLD)",
     fee="$65 micro-entity provisional",
-    fig="FIG. 1 shows a client that cannot mount the live root writing a typed JSON work order to a GitHub folder. A native OS daemon lists the drop, files DROPPED, instantiates a named agent WRITE-PRIVATE to Output, and records timestamps. GitHub objects are never deleted. GitHub Actions is not the executor. FIG. 2 shows a consumer ChatBot phone as a mouth: named :free model picker, Freemium free forever, funnel to Desktop ChatBot, optional Premium.",
+    fig="FIG. 1 shows a client that cannot mount the live root writing a typed JSON work order to a GitHub folder. A native OS daemon lists the drop, files DROPPED, instantiates a named agent WRITE-PRIVATE to Output, and records timestamps. GitHub objects are never deleted. GitHub Actions is not the executor. FIG. 2 shows a consumer ChatBot phone as a mouth: named :free model picker, Freemium free forever, funnel to Desktop ChatBot, optional Premium. FIG. 3 shows two remote mouths — a terminal and a phone — either of which may seat the adversarial occupancy engine (COSMOS-P05) through the same drop box.",
     field=_p(
-        "The present disclosure relates to ingress of work from a voice or chat client that cannot see an authority runtime root, via a typed work order on a reachable repository folder, executed by a host operating-system daemon that creates a named agent, collects a single output file as done, and writes a timestamped audit, without deleting the repository object and without letting the agent write the live tree."
+        "The present disclosure relates to ingress of work from a voice, chat, phone, or remote-terminal client that cannot see an authority runtime root, via a typed work order on a reachable repository folder, executed by a host operating-system daemon that creates a named agent or the adversarial occupancy engine of COSMOS-P05, collects output, and writes a timestamped audit, without deleting the repository object and without letting the client write the live tree."
     ),
     background=_p(
         "If the human is the wire, voice work dies when the chat dies. If GitHub Actions runs the job, the audit is a vendor log and the agent is not fenced. If the phone could write the live root, that is a second writer (two-writer deletion scar).",
         "The inventor observed that the combination — client cannot mount live; typed JSON on GitHub; host OS daemon not Actions; named agent; done equals output file exists; timestamps plus signed ledger; never delete the drop — was not found as a blocking United States claim set. Pieces are crowded. This is not a novelty opinion. Patent Public Search remains owed."
     ),
     summary=_p(
-        "An operator (voice or Chatbox) who cannot see the live runtime root writes a typed JSON work order to a GitHub folder that they can reach. A native system daemon on the host monitors that drop box, files the order into the live bucket, creates a session of the named agent, collects the Output file, and records results with timestamps and an audit trail. GitHub files are never deleted. The LLM does not poll itself. GitHub Actions is not the executor. Dispose of live-tree writes remains one chief coder. A consumer ChatBot phone is an embodiment mouth: named OpenRouter :free picker, Freemium (free forever phone, free Desktop install, optional Premium)."
+        "An operator (voice, Chatbox, phone, or remote terminal) who cannot see the live runtime root writes a typed JSON work order to a GitHub folder that they can reach. A native system daemon on the host monitors that drop box, files the order into the live bucket, creates a session of the named agent or seats the adversarial occupancy engine (N isolated proposers, different-family critics, one disposer), collects Output, and records results with timestamps and an audit trail. GitHub files are never deleted. The LLM does not poll itself. GitHub Actions is not the executor. Dispose of live-tree writes remains one chief coder. A consumer ChatBot phone is an embodiment mouth: named OpenRouter :free picker, Freemium (free forever phone, free Desktop install, optional Premium). Adversarial AI over remote (terminal or phone) is an embodiment of COSMOS-P05 through this ingress, not a fourteenth provisional."
     ),
     definitions=[
         ("Drop box", "A GitHub path work_orders/drop/ on a named repo and branch. Not the live tree. Not repo root."),
         ("Six fields", "Agent; Context source; Task; Target and scope; Timestamp; Output."),
         ("WRITE-PRIVATE", "The agent may write only its Output folder or filename."),
         ("Freemium", "Free forever usable phone chat on named :free models; free Desktop install; optional Premium. Not a trial. Not crippleware. Not a claim that a vendor free API is infinite."),
+        ("Remote mouth", "A terminal (TUI / SSH / drop) or a phone (ChatBot / Voice) that reaches this ingress without mounting the live root."),
     ],
     detailed=_p(
         "Inbox the client can reach equals GitHub path work_orders/drop/ on a named repo and branch. Not the live tree. Not repo root. One JSON object, six fields. Filename Windows-legal.",
@@ -365,14 +366,16 @@ add(
         "Consumer embodiment — ChatBot phone: the mouth runs on OpenRouter named :free models (low latency). The human picks a named model. Rotating ids openrouter/free and openrouter/auto are refused. Runtime bind equals response.model (COSMOS-P04).",
         "Freemium: Free forever is real chat on named :free models, no trial clock, no invented quota from the operator. Install (free) is Desktop ChatBot. Premium is optional (named paid models, desktop hands, later COSMOS-P06 on-box weights). Price is named by the operator, not in this specification.",
         "Vendor :free caps remain (in the preferred OpenRouter embodiment, twenty requests per minute; fifty per day until ten dollars lifetime credits, then one thousand per day). Do not sell unlimited :free as Premium. Do not print no usage limit as a warranty of vendor capacity.",
-        "The phone never mounts live/. cosmos-voice.apk remains a draft seed, not this product. This is not CVM. This is not a thirteenth provisional.",
+        "The phone never mounts live/. A remote terminal is a mouth, not a second writer on the runtime root. cosmos-voice.apk remains a draft seed, not this product. This is not CVM. This is not a thirteenth provisional.",
+        "Adversarial over remote (the inventor: terminal or phone): the Agent field may name the occupancy engine (a seat-set) rather than one model. The runner then creates N isolated sessions under the peeking ban (COSMOS-P02). Critics are a different family. One disposer still writes the live tree. Free-tier single-model chat on the phone remains usable; adversarial N-seat is occupancy through the same mouths, not a shared chat on the device.",
     ),
     best_mode=_p(
         "Measured loop: Think Fast 2 (phone) to keithbbf-gif/cosmos work_orders/drop/*.json to ingest clock (about fifteen seconds, schtask COSMOS SGH Drop Ingest, cosmos_sgh_drop_ingest.py) to live/state/work_orders/bucket/ to Work-Order Runner creating an Agent session WRITE-PRIVATE; Output exists equals DONE; assigned folder plus heartbeat JSON plus ISO timestamps. CCr --accept / --reject remains the only live-tree writer. DEFINE files: DEFINE_THINKFAST_DROP.md and DEFINE_CHATBOT_PHONE.md."
     ),
     embodiments=_p(
         "Operator mouth: SGH Android Voice plus Grok Voice Think Fast 2.0 (tabled as voice refine; still the operator path).",
-        "Consumer mouth: ChatBot phone Freemium as defined above. Desktop binary named at build (OpenWork desktop versus a COSMOS desktop ChatBot). Do not iframe OpenWork Web. Do not charge OpenWork Web fifty dollars as this funnel."
+        "Consumer mouth: ChatBot phone Freemium as defined above. Desktop binary named at build (OpenWork desktop versus a COSMOS desktop ChatBot). Do not iframe OpenWork Web. Do not charge OpenWork Web fifty dollars as this funnel.",
+        "Remote terminal mouth: a TUI or SSH session that can write GitHub and cannot mount live/. Same six-field drop. Same daemon. May seat one agent or the adversarial engine.",
     ),
     public=_p(
         "Work-order SOP and work_orders/drop/ exist on public cosmos after 2026-08-23. Voice loop named in wishlist and routing. GitHub date for the method as a voice-to-daemon-to-agent-to-audit loop is thinner than Core's 2026-08-23 architecture dump. FILE before another public article."
@@ -385,7 +388,7 @@ add(
         "Not GitHub Actions. Not a mobile backend. Not a mobile frontend. Not CVM. Not we invented work queues. Not cron. Not the MOTIF loop (COSMOS-P01). Not the ledger primitive (COSMOS-P07). Not a claim that OpenRouter :free has no rate limit. Not a thirteenth sixty-five-dollar slot."
     ),
     statement=_p(
-        "A voice-reachable GitHub drop box, executed by a local OS daemon that creates a fenced agent, with DONE equal to Output file and authority equal to timestamps plus signed ledger, operator out of the execution wire; optionally a Freemium phone ChatBot mouth on named free models that funnels to a desktop install."
+        "A voice-reachable or terminal-reachable GitHub drop box, executed by a local OS daemon that creates a fenced agent or seats the adversarial occupancy engine, with DONE equal to Output file and authority equal to timestamps plus signed ledger, operator out of the execution wire; optionally a Freemium phone ChatBot mouth on named free models that funnels to a desktop install."
     ),
     appendix=APPENDIX,
 )
