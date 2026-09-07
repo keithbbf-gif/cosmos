@@ -4,7 +4,7 @@
 
 ## What it is (in-tree)
 
-2–3 **free-weight** models of **different families**, **isolated**, **locally deployed** on the **same machine**, **low fixed cost** (hardware + power, not per-token), versus one **S-tier API**, on **price and task performance**. Keith: *locally deployable for a low fixed cost with free weight models.* Easy to show because some weights are free and several fit one box. **Not yet a controlled bake-off.** OpenRouter “free” APIs are a **different** rail (rotator refused). Combine with P03 (Porosity / different mistakes).
+2–3 **free-weight** models of **different families**, **isolated**, **locally deployed** on the **same machine**, **low fixed cost** (hardware + power, not per-token), versus one **S-tier API**, on **price and task performance**. Keith: *locally deployable for a low fixed cost with free weight models.* Easy to show because some weights are free and several fit one box. **Not yet a controlled bake-off.** OpenRouter “free” APIs are a **different** rail (rotator refused). **Phone ChatBot** named `:free` picker (DEFINE `DEFINE_CHATBOT_PHONE.md`) is that cloud rail — funnel, not this packet. P06 is on-box weights (later actual unlimited on the user's hardware). Combine with P03 (Porosity / different mistakes).
 
 ## Problem / scar
 

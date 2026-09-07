@@ -1,5 +1,58 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T chatbot-phone DEFINE -->
+## Disposition — CCr (Keith: ChatBot phone FREE FOREVER — YOU PICK THE MODEL)
+- **DEFINE frozen:** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Phone ChatBot = P13 consumer mouth on OpenRouter **named** `:free` models (low latency). Pitch **FREE FOREVER — YOU PICK THE MODEL** (replaces Claude as consumer seat). Funnel to Desktop ChatBot (penetration). Honest: vendor 20 RPM / 50–1000 RPD — do not claim OpenRouter infinite. Product "no usage limit" = we do not meter. Not CVM. Not Voice refine. Not a 13th $65 slot. Desktop binary named at BUILD.
+- **Canon:** WISHLIST, PROFILES (consumer, not occupancy), P13 embodiment, P06 split, IP_DOCKET note, ROUTING, MODEL_ACCESS, MESH_ADDITIONS row 16.
+- **Next:** RESEARCH on DOM rails (competing free chat apps, current named `:free` roster, desktop funnel). Do **not** start Android BUILD until returns are on disk. Do not publish. Do not file USPTO.
+<!-- /cow-disposition -->
+
+<!-- cow-disposition 2026-09-07T docket packets -->
+## Disposition — CCr (Keith: rewrite packet + 12 provisionals; MOTIF search then write)
+- **Packets:** `docs/research/docket/P01`–`P12` + `VETTING.md`. Index `docs/research/IP_DOCKET.md`. **Not filed.**
+- **Porosity** (Pourosity): P03. Different-mistake overlay covers faster than copies.
+- **FILE 1–11.** **HOLD P12 Crucible** (CN119168059B granted PDJ; US20260037351A1 claims the triad).
+- Research: `work_orders/ccr/CREW/OUT/DOCKET/R1`–`R4`. TESS + DOM SGH/GEM still owed.
+- Do not post public pack until provisionals file. CCr does not click USPTO.
+<!-- /cow-disposition -->
+
+<!-- cow-disposition 2026-09-07T publish MOTIF -->
+## Disposition — CCr (Keith: run the four public pieces through MOTIF; don't publish yet)
+- **Target:** `docs/publish/` whitepaper, X, LinkedIn, arXiv. **Do not post.** No USPTO. No GitHub visibility flip.
+- **1 RESEARCH on disk:** `work_orders/ccr/CREW/OUT/PUBLISH/` Lane A (cites/arXiv policy/gh dates), Lane B (channel/prior-art/cuts), Copilot (GPT family), `github_created.json` (`bts-mesh` 2026-08-16T10:21:14Z, `cosmos` 2026-08-23T06:42:12Z, `cdeck` 2026-08-24T18:38:08Z). FINDING: DOM SGH+GEM not fired.
+- **2–3 ARCH/CONSENSUS:** Lane A Grok `ARCH_LANE_A.md`; Lane B Copilot (session-state, repo write denied). Converged: four doors; WP pointer table; X 6–8 + Reason/Du/Irving; LI lived July-vs-August; arXiv systems article + Knight/Leveson. CONTESTED: bounce/endorsement UNKNOWN.
+- **4 BUILD:** Lane A full rewrite disposed to `docs/publish/` (WP 2413w, X article 1099w + 7 tweets, LI 1292w + 165-char commentary, arXiv body 2231w). Lane B spec-only (`build_b/MOTIF2_BUILD_LANE_B.md`).
+- **5–7:** CCr critics vs CONSENSUS. IMPROVE: stripped LaTeX from WP/X; PDF table path. Still **not posted**.
+<!-- /cow-disposition -->
+
+<!-- cow-disposition 2026-09-07T1208 CCr extra-pane studio MOTIF -->
+## Disposition — CCr (Keith: run the whole code through the MOTIF once it's done)
+- **BUILD in flight (stage 4):** cDeck extra-pane Studio. Forge `keithbbf-gif/cdeck` branch `ccr/cdeck-studio` PR **#27** `2c1225f`. Cursor Lane B `bc-eeda7f32` / `run-6a2bafe7` **RUNNING**. Copilot review requested. Local `test_kdash_working.py` **30/30**. CI Windows Tauri in progress. Do **not** merge #6 or #16.
+- **Docket (Keith 2026-09-07):** new profile — patents/trademarks. MOTIF 1 packet `docs/research/IP_DOCKET.md`. Public GitHub (`bts-mesh` 2026-08-16, `cosmos` 2026-08-23, `cdeck` 2026-08-24) is already a disclosure clock. Private BUILD when Keith creates the repo. Provenance pack `docs/PROVENANCE.md`. CCr does not file USPTO and does not flip visibility. DOM rails owed for P1 MOTIF + P2 Core. **Profiles:** UPS, Forge, Crucible, Differentiator, Diligence, **Docket** — `docs/PROFILES.md`.
+- **Off limits unchanged:** Header/MESH. Cosmos #30 #32 #36 #37 #38. Voice tabled. CVM superseded.
+<!-- /cow-disposition -->
+
+<!-- cow-disposition 2026-09-06T0416 CCr mailman walk -->
+## Disposition — CCr mailman (Keith: engine house, you don't need me)
+- **Seats:** Keith = **ORC**. This TUI = **CCr in the engine house**. Not ORC. Gitur merge without say. PAUSE.flag absent.
+- **Gitur cDeck (current one job):** lift pre-wipe KDash. `main` **`a8ae6bf`** (#1 occupancy chrome, #2 lift source, #3 P10 map — merged). BUILD agent `bc-423b94c6` told to **WRITE ui/** (prior Cursor stopped at markdown). Auto-merge watcher on `ccr/cdeck-lift-kdash`. Do **not** merge `ccr/cdeck-core-http` (invented wall).
+- **Gitur cosmos parked:** #30 #32 #36 #37 #38. Session-tools #40 draft / #41 #43 #44 OPEN — next product after cDeck lift, not this PR mix.
+- **WISHLIST open:** OpenWork consume (bound, not BUILD); session-tools suite; Grok cowork surface; orch profiles (WD2 assigned). Cooking = finish cDeck. C1 later. Voice tabled. CVM superseded.
+- **BACKLOG open:** CLOCKS collapse (observe; don't shrink); maker+gcloud; mesh additions (rails just re-proved **10 live**; claude-cli/codex still down); dispatch/collector harden.
+- **Clock:** WD2 assigned.json 04:15; inflight CLAIM meshadditions s3 / cursor s5 / runner s6. Rails `--live` 10 registered. Backup tick FAILED lock (WinError 33).
+<!-- /cow-disposition -->
+
+<!-- cow-disposition 2026-09-05T20:49 CCr G46 resume-all -->
+## Disposition — CCr (Keith: resume all after 20:29 BootUP)
+- **Seated:** G46 CCr `39d083c1` pid 23420. `CCR.lease` taken (stale `5295150a` pid 35792 DEAD). PAUSE.flag absent. Core `:8770` ready `KMesh-COSMOS-live` recents 200 / legal omitted 108. Do not rebuild Open Sessions.
+- **CLOCKS observe-only (quoted):** Pulse P0 live `pulse_heartbeat.json` age ~13s `polls=1939` `shadow_n=26` `dispatch=false` `claim=false` `shim_wd2=false`. Census 26/26 present. Calendar rows look stale vs 180s (motif 15m, discovery/askmine/scout hourly, backup 4× daily). Prepaid orch last 2026-09-02 (Disabled). Did **not** shrink CLOCKS, `/delete`, merge #30/#32/#36/#37/#38, or fold Health. Proof `work_orders/ccr/clocks-observe-20260905T2041.json`.
+- **Session-tools Stage 2 ARCH Lane A FILED:** `docs/arch/SESSION_TOOLS_ARCH.md` (CCr copy from worktree). Picks: schema `cosmos-transcript/1`; first family after Claude = `grok_tui`; crash-recover = check + bak restore. Contested none. Summary `work_orders/ccr/session_tools_arch_lane_a.json`. Stage 3 waits Lane B.
+- **Lane B Cursor:** FINISHED draft PR **#40** (do not merge). **CCr DISPOSE 2026-09-05T21:12:** D1 **JSONL+spans**; D2 grok-tui + widest-gap order; D3 check+bak; sidecar **sha-only**. Canon `docs/arch/SESSION_TOOLS_ARCH.md` + `SESSION_TOOLS_STAGE3.md`. Keith: *You are the CCr.*
+- **Slice-1 BUILD:** background Grok CLI `85fe1be0-2934-4cbe-a3b7-90c60a033a2d` `--always-approve --max-turns 60` cwd worktree `C:\Users\Papa\.grok\worktrees\ai-cosmos\session-tools-s1` branch `ccr/session-tools-slice1`. Prompt `SLICE1_PROMPT.md`. CCr disposes when `SLICE1_DONE.json` lands. This TUI does not author `builds/session-tools/` in-band.
+- **GFO harvest:** `cm\_boot.json` still claims space-folder sit at 19:58 (`COSMOS path resolution error`). Live sit is `V:\OPENWORK\COSMOS_2`. CCr did not write OpenWork. Note `work_orders/ccr/gfo_harvest_20260905T2041.md`.
+- Health board **RED x1** = queue `401 jobs, 1 stale-reported` (planted/stale, not HOLD). Ledger chain VERIFIED 7740.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-05 stopping point -->
 ## Disposition — CCr (Keith: git squared + stopping point)
 - **Stop here.** GFO sits `V:\OpenWork\COSMOS 2\BUrestart.toml` (schema burestart/3, single-file sit). CCr successor `20c02cb1`. Core recents LIVE. Do not merge PRs #30/#32/#36/#37/#38. Do not lift ANTHROPIC_OFF. Do not re-ingest 666. Do not force-push local unique history (apk blob). Next motion after this stop: session-tools Stage 2 ARCH on Open Sessions, CLOCKS collapse (observe-only).
@@ -22,7 +75,7 @@
 
 <!-- cow-disposition 2026-09-04 MOTIF running: design-code-critique-check-iterate -->
 ## Disposition — COW (Keith: COSMOS building COSMOS)
-- **Loop:** designing → coding → critiquing → checking → repeating via canon (`docs/MOTIF.md` 1→8). Dual-lane: Lane A Grok 4.6 **CCr** · Lane B Cursor Opus 5. **Keith 2026-09-04:** this TUI is **Grok 4.6 Build**, pen **`V:\A`**, **current CCr**. Writes WOs, runs GitHub/Cursor/GitLab, reviews/refines, **writes the COSMOS live tree** under `CCR.lease`. Critics: GitHub Copilot + GitLab Duo. Check: GitLab CI / `--gate`. Not an endpoint.
+- **Loop:** designing → coding → critiquing → checking → repeating via canon (`docs/MOTIF.md` 1→8). Dual-lane: Lane A Grok 4.6 **CCr** · Lane B Cursor Opus 5. **Keith 2026-09-04:** this TUI is **Grok 4.6 Build**, pen **`V:\A`**, **current CCr**. Writes WOs, runs **Gitur** (GitHub + GitLab + Cursor), reviews/refines, **writes the COSMOS live tree** under `CCR.lease`. Critics: GitHub Copilot + GitLab Duo. Check: GitLab CI / `--gate`. Not an endpoint.
 - **This pass:** groq-api GATE PASS + Kernel compose. **This TUI keeps the pen and orchestrates** (Grok 4.6 Build, `V:\A`, CCr lease). OpenWork is **g43 @ low troubleshooting seat** — GEM API in that seat still down (Keith 2026-09-04). Core Joanna Vertex `--gate` **PASS** `VERTEX_OK_20260904T202510` `gemini-2.5-flash`. Pulse P0 live. Surfaces 200. Do not merge #30/#32/#36/#37/#38.
 - **Lanes live (poll 2026-09-04 Core seq 6521):** unsigned `/api/v1/status` HTTP **200** `ready true` `tree_id=KMesh-COSMOS-live` `ledger_head.event=CRUCIBLE_CRITICS_ATTACHED`. groq-compose `bc-651bf2e1-…` **IDLE** / `run-192feb22-…` **FINISHED** PR [#36](https://github.com/keithbbf-gif/cosmos/pull/36) (CCr COMMENT already; do not merge; live Kernel already has `groq-api`) — **no relaunch**. CLOCKS Pulse `bc-dc8b193e-…` **IDLE** / `run-ff790352-…` **FINISHED** PR [#38](https://github.com/keithbbf-gif/cosmos/pull/38) (CCr COMMENT already). **This tick:** live CLOCKS export **26/26** bound into #38 P0 plan (`work_orders/ccr/live-clocks-export.json` + `pr38-p0-bound.json`); `pulse_bind` **BOUND: 26/26** `resident.keep` (`pr38-p0-bind-report.json`). P0 shadow **not applied** — `CCR.lease` ABSENT; orch does not write `cosmos/cosmos_pulse.py`. Collector tick live (age 0s). Pulse Phase-1 heartbeat STALE. cDeck P7 **FINISHED** [#37](https://github.com/keithbbf-gif/cosmos/pull/37). GH #33 #34 #35 open. **Do not merge #30/#32/#36/#37/#38.** Next CCr write (needs lease) = merge P0 shadow into existing `cosmos_pulse.py` (observe, dispatch nothing). Duo `6958190` harvest `work_orders/ccr/duo-6958190-clocks-pulse.md`. HOLD lifted · OA paused · ANTHROPIC_OFF. This TUI does not code.
 <!-- /cow-disposition -->
@@ -476,7 +529,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-05T20:00:00.493908-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-07T15:15:01.237598-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->

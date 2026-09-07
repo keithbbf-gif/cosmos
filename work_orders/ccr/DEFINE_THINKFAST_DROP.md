@@ -38,6 +38,10 @@ Do not rebuild CVM. Do not ship `cosmos-voice.apk` as the product (draft seed on
 Do not make GitHub Actions the executor. Do not invent a second drop desk.
 Do not write `V:\Ai`. Do not file USPTO from this TUI. Do not auto-MOTIF Forge.
 
+Consumer ChatBot phone (named OpenRouter `:free` picker, funnel to Desktop)
+is a **separate** DEFINE: `DEFINE_CHATBOT_PHONE.md`. Same inbox. Not this
+operator Voice path.
+
 ## THIS TEXT
 
 Copy this file into every lane's prompt.

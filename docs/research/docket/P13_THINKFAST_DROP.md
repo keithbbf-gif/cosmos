@@ -44,8 +44,12 @@ the phone could write `live/`, that is a second writer on the runtime root
    the assigned/done folder with timestamps.
 6. Audit: daemon heartbeats (`last_run_epoch`), ISO timestamps on the order,
    ledger events when Core is composed. Dashboards are projections.
-7. Voice STS (Think Fast 2.0) is one mouth. Chatbox is the same inbox. Return
-   path may be Drive so the phone can read without `live/`.
+7. Voice STS (Think Fast 2.0) is one mouth (operator, TABLED). Chatbox is
+   the same inbox. **Phone ChatBot** (Keith 2026-09-07) is the **consumer**
+   mouth of this loop: OpenRouter named `:free` picker, pitch **FREE FOREVER
+   — YOU PICK THE MODEL**, funnel to Desktop ChatBot. Return path may be
+   Drive so the phone can read without `live/`. DEFINE:
+   `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Not a 13th provisional.
 8. Dispose of live-tree writes remains one CCr. The daemon does not hold the pen.
 
 ## Already public
@@ -69,12 +73,21 @@ GitHub drop and **never** letting the agent write the live tree.
 
 UNKNOWN unpublished apps. DOM research of Patent Public Search still owed.
 
+## Embodiment — ChatBot phone (Keith 2026-09-07)
+
+Same method, consumer skin: a phone ChatBot on **named** OpenRouter `:free`
+models (low latency; human picks the id; rotator refused). Acquisition
+wedge vs a paid Claude seat. Desktop ChatBot is the install target. Vendor
+`:free` RPM/RPD caps remain; "no usage limit" is **our** seat (no Claude /
+COSMOS subscription), not a claim that OpenRouter is infinite. Not CVM.
+Not P06 (on-box weights). Not a new $65 slot.
+
 ## What this is not
 
 Not GitHub Actions. Not a mobile backend. Not a mobile frontend. Not CVM.
 Not "we invented work queues." Not cron. Not the MOTIF loop itself (P01) and
 not the ledger primitive (P07) — this is the **ingress + execute + audit
-path** that uses them.
+path** that uses them. Not a claim that OpenRouter `:free` has no rate limit.
 
 ## Suggested independent idea
 

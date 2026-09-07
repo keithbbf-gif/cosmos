@@ -20,6 +20,7 @@ Vetting: `VETTING.md` in this folder.
 | `P10_RESOLVER.md` | Sentinel root; existence ≠ identity | FILE (narrow) |
 | `P11_SEED.md` | Signed session close; OPEN_CONTEXT | FILE (narrow) |
 | `P12_CRUCIBLE.md` | Crucible seats | HOLD unless spec adds occupancy, not PDJ roles |
+| `P13_THINKFAST_DROP.md` | Voice/Chatbox → GitHub drop → daemon → agent → audit. **Embodiment:** ChatBot phone named `:free` picker (not a 13th $65 slot). | FILE (takes the 12th slot; P12 HOLD) |
 
 Umbrella: *the new way — reliable, scalable AI.* Locally deployable, low fixed cost, free-weight models.
 
