@@ -51,13 +51,31 @@ LOCKED_SEATS = frozenset({
 # Occupancy: this TUI is Grok 4.6 CCr (Keith 2026-09-04). Not an OpenRouter
 # pin — the rate card may be UNMEASURED. Empty model painted as "unassigned".
 CCR_MODEL = "grok-4.6"
+# How a seat is called. API link_ids match Kernel rails; cli:* is a binary;
+# dom is the browser path. Occupancy: one CCr writer. Via is the hand, not a
+# second Core.
+VIA_OPTIONS = (
+    {"id": "cli:grok", "label": "CLI · grok", "kind": "CLI"},
+    {"id": "cli:gemini", "label": "CLI · gemini", "kind": "CLI"},
+    {"id": "cli:codex", "label": "CLI · Codex", "kind": "CLI"},
+    {"id": "openrouter-api", "label": "API · OpenRouter (incl. :free)", "kind": "API"},
+    {"id": "groq-api", "label": "API · GroqCloud", "kind": "API"},
+    {"id": "gem-api", "label": "API · Vertex Joanna", "kind": "API"},
+    {"id": "vertex-coding", "label": "API · Vertex $300", "kind": "API"},
+    {"id": "oa-api", "label": "API · OpenAI", "kind": "API"},
+    {"id": "sgh-api", "label": "API · xAI console", "kind": "API"},
+    {"id": "cursor-api", "label": "API · Cursor", "kind": "API"},
+    {"id": "dom", "label": "DOM · browser", "kind": "DOM"},
+)
+VIA_IDS = frozenset(v["id"] for v in VIA_OPTIONS)
 DEFAULT_SEATS = (
     {"profile": "forge", "seat": "ccr",
-     "label": "CCr — Chief Coder", "model": CCR_MODEL, "locked": True},
+     "label": "CCr — Chief Coder", "model": CCR_MODEL, "via": "cli:grok",
+     "locked": True},
     {"profile": "forge", "seat": "adv_1",
-     "label": "Adversarial coder 1", "model": ""},
+     "label": "Adversarial coder 1", "model": "", "via": "openrouter-api"},
     {"profile": "forge", "seat": "adv_2",
-     "label": "Adversarial coder 2", "model": ""},
+     "label": "Adversarial coder 2", "model": "", "via": "openrouter-api"},
     {"profile": "motif", "seat": "lane_a",
      "label": "MOTIF Lane A — Grok 4.6", "model": CCR_MODEL},
     {"profile": "motif", "seat": "lane_b",
@@ -234,6 +252,8 @@ def load_seats(paths) -> dict:
             row["assigned_at"] = have[key].get("assigned_at")
             if have[key].get("label"):
                 row["label"] = have[key]["label"]
+            if have[key].get("via"):
+                row["via"] = str(have[key]["via"])
         merged.append(row)
         seen.add(key)
     for key, src in have.items():
@@ -244,6 +264,7 @@ def load_seats(paths) -> dict:
             "seat": str(src.get("seat")),
             "label": str(src.get("label") or f"{src.get('profile')}.{src.get('seat')}"),
             "model": str(src.get("model") or ""),
+            "via": str(src.get("via") or ""),
             "assigned_at": src.get("assigned_at"),
         })
     rec["seats"] = merged
@@ -356,7 +377,16 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
     return out[: max(1, min(lim, 800))]
 
 
-def assign_seat(paths, profile: str, seat: str, model: str) -> dict:
+def normalize_via(via) -> str:
+    v = str(via or "").strip().lower()
+    if not v:
+        return ""
+    if v not in VIA_IDS:
+        raise ModelRaterError("BAD_INPUT", f"unknown via {via!r}")
+    return v
+
+
+def assign_seat(paths, profile: str, seat: str, model: str, via: str = "") -> dict:
     profile = str(profile or "").strip().lower()
     seat = str(seat or "").strip().lower()
     model = str(model or "").strip()
@@ -366,18 +396,26 @@ def assign_seat(paths, profile: str, seat: str, model: str) -> dict:
         raise ModelRaterError("REFUSED", "forge.ccr occupancy is grok-4.6 — cannot unassign")
     if model.lower() in ROTATING:
         raise ModelRaterError("REFUSED", f"rotator id {model!r} is not assignable")
+    via_n = normalize_via(via) if via else ""
     rec = load_seats(paths)
     found = False
     for row in rec["seats"]:
         if row["profile"] == profile and row["seat"] == seat:
             row["model"] = model
             row["assigned_at"] = _iso_now() if model else None
+            if via_n:
+                row["via"] = via_n
             found = True
             break
     if not found:
         raise ModelRaterError("BAD_INPUT", f"unknown seat {profile}.{seat}")
     occupancy = {CCR_MODEL, "claude-opus-5"}
-    if model and model not in occupancy:
+    via_now = via_n or next(
+        (str(s.get("via") or "") for s in rec["seats"]
+         if s.get("profile") == profile and s.get("seat") == seat),
+        "")
+    cli_or_dom = via_now.startswith("cli:") or via_now == "dom"
+    if model and model not in occupancy and not cli_or_dom:
         cat = load_catalog(paths)
         ids = {m.get("id") for m in cat.get("models") or []}
         if cat.get("n") and model not in ids:
@@ -396,7 +434,7 @@ def _next_adv_seat(seats: list[dict]) -> str:
     return f"adv_{n}"
 
 
-def add_adversary(paths, model: str = "", label: str = "") -> dict:
+def add_adversary(paths, model: str = "", label: str = "", via: str = "") -> dict:
     rec = load_seats(paths)
     n_adv = sum(1 for s in rec["seats"]
                 if s.get("profile") == "forge"
@@ -405,12 +443,14 @@ def add_adversary(paths, model: str = "", label: str = "") -> dict:
         raise ModelRaterError("REFUSED", f"at most {MAX_ADV} adversarial coders")
     seat = _next_adv_seat(rec["seats"])
     num = seat.split("_", 1)[-1]
+    via_n = normalize_via(via) if via else "openrouter-api"
     row = {
         "profile": "forge",
         "seat": seat,
         "label": str(label or f"Adversarial coder {num}").strip()
                  or f"Adversarial coder {num}",
         "model": "",
+        "via": via_n,
         "assigned_at": None,
     }
     rec["seats"].append(row)
@@ -617,6 +657,7 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "axes": ["intelligence", "coding", "agentic", "price"],
         "ttl_s": TTL_S,
         "max_adv": MAX_ADV,
+        "via_options": [dict(v) for v in VIA_OPTIONS],
     }
 
 
@@ -726,6 +767,21 @@ def _selftest() -> int:
           lambda: any(s["profile"] == "forge" and s["seat"] == "adv_3"
                       and s["model"] == "anthropic/claude-opus-5"
                       for s in added["seats"]))
+    groq = add_adversary(paths, via="groq-api")
+    check("add_adversary via=groq-api stores the rail, not a silent OpenRouter default",
+          lambda: any(s["profile"] == "forge" and s.get("via") == "groq-api"
+                      for s in groq["seats"]))
+    bad_via = False
+    try:
+        add_adversary(paths, via="openrouter/free")
+    except ModelRaterError as e:
+        bad_via = e.kind == "BAD_INPUT"
+    check("rotator is not a via", lambda: bad_via)
+    ccr_via = assign_seat(paths, "forge", "ccr", CCR_MODEL, via="cli:grok")
+    check("forge.ccr can sit cli:grok with grok-4.6 (not an OpenRouter card)",
+          lambda: any(s["seat"] == "ccr" and s.get("via") == "cli:grok"
+                      and s.get("model") == CCR_MODEL
+                      for s in ccr_via["seats"]))
     locked = False
     try:
         remove_adversary(paths, "ccr")
