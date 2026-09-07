@@ -36,6 +36,13 @@ def test_studio_does_not_submit_jobs():
     assert "complete" in src
     assert "arch_choice" in src
     assert "hitl" in src
+    assert "artifact" in src
+    assert "simultaneous" in src
+    assert "continue_when" in src
+    assert "via_gitur" in src
+    assert "max_rounds" in src
+    assert "budget_usd" in src
+    assert "IMPLEMENT" in src
 
 
 if __name__ == "__main__":

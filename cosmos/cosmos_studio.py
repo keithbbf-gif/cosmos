@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cosmos_studio — MOTIF DEFINE + RESEARCH + CONSENSUS pack for cDeck Studio.
+"""cosmos_studio — MOTIF Studio pack for cDeck.
 
 GET never mutates and never mkdir. POST writes state/studio/pack.json.
 Does not start MOTIF. Does not hold API keys (via names the rail).
-Fallback is config for RESEARCH: if the first model call fails, try the
-fallback via/model. CONSENSUS bar is plurality / majority / complete.
-Architecture is HITL choose, or AUTO (default) by that bar.
+BUILD: artifact json/toml/sql, simultaneous builders, audited input text
+(same for every parallel coder), N agents. CRITICS: any number of seats
+plus consensus/continuation. IMPLEMENT (was IMPROVE): CCr applies via
+Gitur once continuation is met. ITERATE: rounds / timer / budget / bar.
 Execution is a later pass.
 
     py -3.14 cosmos\\\\cosmos_studio.py --selftest
@@ -34,6 +35,28 @@ MAX_DEFINE = 80_000
 MAX_URLS = 24
 MAX_PROPOSALS = 12
 MAX_NOTE = 4_000
+MAX_AGENTS = 24
+
+ARTIFACTS = (
+    ("json", "JSON"),
+    ("toml", "TOML"),
+    ("sql", "SQL"),
+)
+ARTIFACT_IDS = frozenset(a[0] for a in ARTIFACTS)
+CONTINUE_WHEN = (
+    ("bar", "Continue when the consensus bar is met"),
+    ("hitl", "HITL — CCr continues"),
+)
+CONTINUE_IDS = frozenset(c[0] for c in CONTINUE_WHEN)
+ITERATE_UNTIL = (
+    ("rounds", "Stop after N rounds"),
+    ("bar", "Stop when the consensus bar is met"),
+    ("runtime_bind", "Stop when runtime-binding emits"),
+    ("timed", "Stop when the timer elapses"),
+    ("budget", "Stop when spend hits the cap"),
+    ("keith", "Stop only when Keith says stop"),
+)
+ITERATE_UNTIL_IDS = frozenset(u[0] for u in ITERATE_UNTIL)
 
 BARS = (
     ("plurality", "Plurality — the most votes wins"),
@@ -98,6 +121,119 @@ def default_arch() -> dict:
     return {"proposals": []}
 
 
+def default_build_agents() -> list[dict]:
+    """Dual-lane default. Operator may add as many builders as they like."""
+    return [
+        {
+            "id": "b_1",
+            "label": "Lane A",
+            "model": "grok-4.6",
+            "via": "cli:grok",
+            "fallback_model": "grok-4.6",
+            "fallback_via": "sgh-api",
+        },
+        {
+            "id": "b_2",
+            "label": "Lane B",
+            "model": "claude-opus-5",
+            "via": "cursor-api",
+            "fallback_model": "claude-opus-5",
+            "fallback_via": "openrouter-api",
+        },
+    ]
+
+
+def default_critic_agents() -> list[dict]:
+    return [
+        {
+            "id": "c_1",
+            "label": "Plaintiff",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+        },
+        {
+            "id": "c_2",
+            "label": "Defense",
+            "model": "",
+            "via": "gem-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+        },
+        {
+            "id": "c_3",
+            "label": "Judge",
+            "model": "",
+            "via": "cli:grok",
+            "fallback_model": "grok-4.6",
+            "fallback_via": "sgh-api",
+        },
+    ]
+
+
+def default_build() -> dict:
+    return {
+        "artifact": "json",
+        "simultaneous": 2,
+        "input_text": "",
+        "agents": default_build_agents(),
+        "saved_at": None,
+    }
+
+
+def default_critics() -> dict:
+    return {
+        "bar": "majority",
+        "continue_when": "bar",
+        "agents": default_critic_agents(),
+        "saved_at": None,
+    }
+
+
+def default_implement() -> dict:
+    """IMPROVE, called IMPLEMENT for now. CCr applies via Gitur. Does not auto-run."""
+    return {
+        "via_gitur": True,
+        "note": "",
+        "saved_at": None,
+    }
+
+
+def default_iterate() -> dict:
+    return {
+        "max_rounds": 1,
+        "timed_s": 0,
+        "budget_usd": 0,
+        "until": "rounds",
+        "saved_at": None,
+    }
+
+
+def _clamp_int(raw, lo: int, hi: int, default: int) -> int:
+    try:
+        n = int(raw)
+    except (TypeError, ValueError):
+        return default
+    if n < lo:
+        return lo
+    if n > hi:
+        return hi
+    return n
+
+
+def _clamp_usd(raw) -> float:
+    try:
+        n = float(raw)
+    except (TypeError, ValueError):
+        return 0.0
+    if n < 0:
+        return 0.0
+    if n > 1_000_000:
+        return 1_000_000.0
+    return n
+
+
 def bar_met(winner: int, n: int, bar: str, second: int = 0) -> bool:
     """Whether a winning tally meets the named bar. A tie fails plurality.
 
@@ -155,6 +291,10 @@ def empty_pack() -> dict:
         },
         "arch": default_arch(),
         "consensus": default_consensus(),
+        "build": default_build(),
+        "critics": default_critics(),
+        "implement": default_implement(),
+        "iterate": default_iterate(),
         "updated_at": None,
         "available": False,
         "kind": "NO_SOURCE",
@@ -162,6 +302,9 @@ def empty_pack() -> dict:
         "target_catalog": [{"id": i, "label": lab} for i, lab in TARGETS],
         "bar_catalog": [{"id": i, "label": lab} for i, lab in BARS],
         "arch_choice_catalog": [{"id": i, "label": lab} for i, lab in ARCH_CHOICES],
+        "artifact_catalog": [{"id": i, "label": lab} for i, lab in ARTIFACTS],
+        "continue_catalog": [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN],
+        "iterate_until_catalog": [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL],
     }
 
 
@@ -172,18 +315,95 @@ def _norm_via(raw) -> str:
         raise StudioError(e.kind, str(e)[:300]) from e
 
 
-def _public_model(raw: dict, idx: int) -> dict:
+def _public_model(raw: dict, idx: int, prefix: str = "r") -> dict:
     n = idx + 1
     via = _norm_via(raw.get("via"))
     fb_via = _norm_via(raw.get("fallback_via"))
-    oid = str(raw.get("id") or f"r_{n}").strip() or f"r_{n}"
+    oid = str(raw.get("id") or f"{prefix}_{n}").strip() or f"{prefix}_{n}"
+    kind = {"r": "Research", "b": "Builder", "c": "Critic"}.get(prefix, "Seat")
     return {
         "id": oid[:32],
-        "label": str(raw.get("label") or f"Research {n}").strip()[:80],
+        "label": str(raw.get("label") or f"{kind} {n}").strip()[:80],
         "model": str(raw.get("model") or "").strip()[:160],
         "via": via,
         "fallback_model": str(raw.get("fallback_model") or "").strip()[:160],
         "fallback_via": fb_via,
+    }
+
+
+def _public_agents(raw_list, prefix: str, defaults_fn, cap: int) -> list[dict]:
+    rows = []
+    for i, row in enumerate(raw_list or []):
+        if not isinstance(row, dict):
+            continue
+        try:
+            rows.append(_public_model(row, i, prefix))
+        except StudioError:
+            continue
+        if len(rows) >= cap:
+            break
+    return rows or list(defaults_fn())
+
+
+def _public_build(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    base = default_build()
+    art = str(src.get("artifact") or base["artifact"]).strip().lower().lstrip(".")
+    if art not in ARTIFACT_IDS:
+        raise StudioError("BAD_INPUT", f"unknown BUILD artifact {art!r}")
+    agents = _public_agents(src.get("agents"), "b", default_build_agents, MAX_AGENTS)
+    sim = _clamp_int(src.get("simultaneous"), 1, MAX_AGENTS, base["simultaneous"])
+    if sim > len(agents):
+        sim = len(agents) or 1
+    text = str(src.get("input_text") or "")[:MAX_DEFINE]
+    return {
+        "artifact": art,
+        "simultaneous": sim,
+        "input_text": text,
+        "agents": agents,
+        "saved_at": src.get("saved_at"),
+    }
+
+
+def _public_critics(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    base = default_critics()
+    bar = str(src.get("bar") or base["bar"]).strip().lower()
+    if bar not in BAR_IDS:
+        raise StudioError("BAD_INPUT", f"unknown critics bar {bar!r}")
+    cont = str(src.get("continue_when") or base["continue_when"]).strip().lower()
+    if cont not in CONTINUE_IDS:
+        raise StudioError("BAD_INPUT", f"unknown continue_when {cont!r}")
+    return {
+        "bar": bar,
+        "continue_when": cont,
+        "agents": _public_agents(src.get("agents"), "c",
+                                 default_critic_agents, MAX_AGENTS),
+        "saved_at": src.get("saved_at"),
+    }
+
+
+def _public_implement(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    return {
+        "via_gitur": bool(src["via_gitur"]) if "via_gitur" in src else True,
+        "note": str(src.get("note") or "")[:MAX_NOTE],
+        "saved_at": src.get("saved_at"),
+    }
+
+
+def _public_iterate(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    base = default_iterate()
+    until = str(src.get("until") or base["until"]).strip().lower()
+    if until not in ITERATE_UNTIL_IDS:
+        raise StudioError("BAD_INPUT", f"unknown iterate until {until!r}")
+    return {
+        "max_rounds": _clamp_int(src.get("max_rounds"), 0, 99, base["max_rounds"]),
+        "timed_s": _clamp_int(src.get("timed_s"), 0, 86400, 0),
+        "budget_usd": _clamp_usd(src.get("budget_usd")),
+        "until": until,
+        "saved_at": src.get("saved_at"),
     }
 
 
@@ -281,6 +501,19 @@ def load_pack(paths) -> dict:
     except StudioError:
         consensus = default_consensus()
     arch = _public_arch(rec.get("arch"))
+    try:
+        build = _public_build(rec.get("build"))
+    except StudioError:
+        build = default_build()
+    try:
+        critics = _public_critics(rec.get("critics"))
+    except StudioError:
+        critics = default_critics()
+    implement = _public_implement(rec.get("implement"))
+    try:
+        iterate = _public_iterate(rec.get("iterate"))
+    except StudioError:
+        iterate = default_iterate()
     return {
         "schema": SCHEMA,
         "define": {
@@ -290,6 +523,10 @@ def load_pack(paths) -> dict:
         "research": {"models": models, "targets": targets, "extra_urls": urls},
         "arch": arch,
         "consensus": consensus,
+        "build": build,
+        "critics": critics,
+        "implement": implement,
+        "iterate": iterate,
         "updated_at": rec.get("updated_at"),
         "available": True,
         "kind": "OK",
@@ -297,6 +534,9 @@ def load_pack(paths) -> dict:
         "target_catalog": [{"id": i, "label": lab} for i, lab in TARGETS],
         "bar_catalog": [{"id": i, "label": lab} for i, lab in BARS],
         "arch_choice_catalog": [{"id": i, "label": lab} for i, lab in ARCH_CHOICES],
+        "artifact_catalog": [{"id": i, "label": lab} for i, lab in ARTIFACTS],
+        "continue_catalog": [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN],
+        "iterate_until_catalog": [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL],
     }
 
 
@@ -316,6 +556,19 @@ def save_pack(paths, body: dict) -> dict:
         consensus = _public_consensus(cur.get("consensus"))
     except StudioError:
         consensus = default_consensus()
+    try:
+        build = _public_build(cur.get("build"))
+    except StudioError:
+        build = default_build()
+    try:
+        critics = _public_critics(cur.get("critics"))
+    except StudioError:
+        critics = default_critics()
+    implement = _public_implement(cur.get("implement"))
+    try:
+        iterate = _public_iterate(cur.get("iterate"))
+    except StudioError:
+        iterate = default_iterate()
     if "define" in body:
         d = body["define"]
         if isinstance(d, str):
@@ -383,12 +636,70 @@ def save_pack(paths, body: dict) -> dict:
         merged.update(c)
         consensus = _public_consensus(merged)
         consensus["saved_at"] = _iso_now()
+    if "build" in body:
+        b = body["build"]
+        if not isinstance(b, dict):
+            raise StudioError("BAD_INPUT", "build must be an object")
+        merged = dict(build)
+        merged.update(b)
+        if "agents" in b:
+            if not isinstance(b["agents"], list):
+                raise StudioError("BAD_INPUT", "build.agents must be a list")
+            if len(b["agents"]) > MAX_AGENTS:
+                raise StudioError("REFUSED", f"at most {MAX_AGENTS} builders")
+            agents = []
+            for i, row in enumerate(b["agents"]):
+                if not isinstance(row, dict):
+                    raise StudioError("BAD_INPUT", f"build.agents[{i}] is not an object")
+                agents.append(_public_model(row, i, "b"))
+            merged["agents"] = agents or default_build_agents()
+        build = _public_build(merged)
+        build["saved_at"] = _iso_now()
+    if "critics" in body:
+        k = body["critics"]
+        if not isinstance(k, dict):
+            raise StudioError("BAD_INPUT", "critics must be an object")
+        merged = dict(critics)
+        merged.update(k)
+        if "agents" in k:
+            if not isinstance(k["agents"], list):
+                raise StudioError("BAD_INPUT", "critics.agents must be a list")
+            if len(k["agents"]) > MAX_AGENTS:
+                raise StudioError("REFUSED", f"at most {MAX_AGENTS} critics")
+            agents = []
+            for i, row in enumerate(k["agents"]):
+                if not isinstance(row, dict):
+                    raise StudioError("BAD_INPUT", f"critics.agents[{i}] is not an object")
+                agents.append(_public_model(row, i, "c"))
+            merged["agents"] = agents or default_critic_agents()
+        critics = _public_critics(merged)
+        critics["saved_at"] = _iso_now()
+    if "implement" in body:
+        im = body["implement"]
+        if not isinstance(im, dict):
+            raise StudioError("BAD_INPUT", "implement must be an object")
+        merged = dict(implement)
+        merged.update(im)
+        implement = _public_implement(merged)
+        implement["saved_at"] = _iso_now()
+    if "iterate" in body:
+        it = body["iterate"]
+        if not isinstance(it, dict):
+            raise StudioError("BAD_INPUT", "iterate must be an object")
+        merged = dict(iterate)
+        merged.update(it)
+        iterate = _public_iterate(merged)
+        iterate["saved_at"] = _iso_now()
     rec = {
         "schema": SCHEMA,
         "define": define,
         "research": research,
         "arch": arch,
         "consensus": consensus,
+        "build": build,
+        "critics": critics,
+        "implement": implement,
+        "iterate": iterate,
         "updated_at": _iso_now(),
         "available": True,
         "kind": "OK",
@@ -412,11 +723,16 @@ def snapshot(paths) -> dict:
     rec.setdefault("bar_catalog", [{"id": i, "label": lab} for i, lab in BARS])
     rec.setdefault("arch_choice_catalog",
                    [{"id": i, "label": lab} for i, lab in ARCH_CHOICES])
+    rec.setdefault("artifact_catalog", [{"id": i, "label": lab} for i, lab in ARTIFACTS])
+    rec.setdefault("continue_catalog", [{"id": i, "label": lab} for i, lab in CONTINUE_WHEN])
+    rec.setdefault("iterate_until_catalog",
+                   [{"id": i, "label": lab} for i, lab in ITERATE_UNTIL])
     rec["note"] = (
-        "DEFINE is the frozen prompt. RESEARCH models/targets are config. "
-        "CONSENSUS bar is plurality / majority / complete. Architecture is "
-        "HITL choose, or AUTO by that bar. This POST does not start MOTIF. "
-        "Keys stay on the named via, never in this pack."
+        "DEFINE is the frozen prompt. RESEARCH / BUILD / CRITICS are config. "
+        "BUILD artifact is json/toml/sql; input_text is the audited prompt "
+        "shared by every parallel coder. IMPLEMENT is CCr-via-Gitur once "
+        "continuation is met. ITERATE is rounds/timer/budget/bar. "
+        "This POST does not start MOTIF. Keys stay on the named via."
     )
     return rec
 
@@ -531,12 +847,69 @@ def _selftest() -> int:
         bad_bar = e.kind == "BAD_INPUT"
     check("unknown consensus bar is BAD_INPUT (complete, not unanimous)",
           lambda: bad_bar)
+    bld = save_pack(paths, {"build": {
+        "artifact": "toml",
+        "simultaneous": 3,
+        "input_text": "WHAT: pane. audited.",
+        "agents": [
+            {"label": "A", "model": "grok-4.6", "via": "cli:grok"},
+            {"label": "B", "model": "claude-opus-5", "via": "cursor-api"},
+            {"label": "C", "model": "gemini-2.5-flash", "via": "gem-api"},
+        ],
+    }})
+    check("BUILD artifact toml, 3 simultaneous, audited input shared",
+          lambda: bld["build"]["artifact"] == "toml"
+          and bld["build"]["simultaneous"] == 3
+          and bld["build"]["input_text"] == "WHAT: pane. audited."
+          and len(bld["build"]["agents"]) == 3
+          and "api_key" not in bld["build"]["agents"][0])
+    bad_art = False
+    try:
+        save_pack(paths, {"build": {"artifact": "xml"}})
+    except StudioError as e:
+        bad_art = e.kind == "BAD_INPUT"
+    check("unknown BUILD artifact is BAD_INPUT (json/toml/sql)", lambda: bad_art)
+    dotted = save_pack(paths, {"build": {"artifact": ".json"}})
+    check(".json normalizes to json",
+          lambda: dotted["build"]["artifact"] == "json")
+    cri = save_pack(paths, {"critics": {
+        "bar": "complete",
+        "continue_when": "hitl",
+        "agents": [
+            {"label": "Opus", "model": "claude-opus-5", "via": "cursor-api"},
+        ],
+    }})
+    check("CRITICS any number + HITL continuation",
+          lambda: cri["critics"]["bar"] == "complete"
+          and cri["critics"]["continue_when"] == "hitl"
+          and len(cri["critics"]["agents"]) == 1)
+    imp = save_pack(paths, {"implement": {
+        "via_gitur": True, "note": "apply via Gitur",
+    }})
+    check("IMPLEMENT is Gitur apply, not auto-MOTIF",
+          lambda: imp["implement"]["via_gitur"] is True
+          and imp["implement"]["note"] == "apply via Gitur")
+    it = save_pack(paths, {"iterate": {
+        "max_rounds": 4, "timed_s": 3600, "budget_usd": 12.5,
+        "until": "budget",
+    }})
+    check("ITERATE rounds / timer / budget",
+          lambda: it["iterate"]["max_rounds"] == 4
+          and it["iterate"]["timed_s"] == 3600
+          and it["iterate"]["budget_usd"] == 12.5
+          and it["iterate"]["until"] == "budget")
+    check("defaults: BUILD json dual-lane, IMPLEMENT via Gitur, ITERATE 1 round",
+          lambda: empty["build"]["artifact"] == "json"
+          and empty["build"]["simultaneous"] == 2
+          and empty["implement"]["via_gitur"] is True
+          and empty["iterate"]["until"] == "rounds"
+          and empty["iterate"]["max_rounds"] == 1)
 
     bad_out = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (Studio DEFINE+RESEARCH+CONSENSUS pack)"
+    print("SELFTEST %s - %d checks (Studio BUILD/CRITICS/IMPLEMENT/ITERATE pack)"
           % ("PASS" if not bad_out else "FAIL", len(results)))
     return 0 if not bad_out else 1
 
