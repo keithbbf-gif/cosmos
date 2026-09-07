@@ -40,6 +40,9 @@ that omits what it serves is an undocumented surface, not a short one):
                            in ONE signed BUDGET_SET; refusals leave a
                            SPEND_CAP_REFUSED trace. See cosmos_spend_admin.
     POST /api/v1/jobs    - submit {command, priority} -> job_id
+    POST /api/v1/work_orders/picked - runner notify after pickup_order;
+                           Core ledgers WORK_ORDER_PICKED (idempotent on
+                           order_id). Daemon never opens live/ledger/.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
     POST /api/v1/command - the voice/frontend seam: text in, kernel action out
     POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
@@ -128,6 +131,55 @@ _MAX_SPEND_BODY_BYTES = 16 << 10
 
 # GET /api/v1/events page cap. The deck's TAIL_WINDOW follows this number.
 EVENTS_PAGE = 100
+
+
+WORK_ORDER_PICKED = "WORK_ORDER_PICKED"
+
+
+def record_work_order_picked(kernel, body) -> tuple[int, dict]:
+    """Idempotent WORK_ORDER_PICKED. Core is the ledger writer.
+
+    First POST for an order_id appends and returns 201. A second POST with
+    the same order_id returns 200 already=true and the original seq/hmac.
+    Missing order_id is 400. decide() runs inside append_guarded.
+    """
+    if not isinstance(body, dict):
+        return 400, {"error": "BAD_REQUEST", "detail": "body must be an object"}
+    oid = str(body.get("order_id") or "").strip()
+    if not oid:
+        return 400, {"error": "BAD_REQUEST", "detail": "order_id is required"}
+    payload = {
+        "order_id": oid,
+        "agent": body.get("agent") or body.get("Agent"),
+        "output_path": body.get("output_path") or body.get("_output_path"),
+        "picked_at": body.get("picked_at"),
+        "tree_id": kernel.paths.sentinel.tree_id,
+    }
+    found: dict = {}
+
+    def decide(recs):
+        for r in recs:
+            if r.get("event") != WORK_ORDER_PICKED:
+                continue
+            p = r.get("payload") if isinstance(r.get("payload"), dict) else {}
+            if str(p.get("order_id") or "") == oid:
+                found["rec"] = r
+                return None
+        return (WORK_ORDER_PICKED, payload)
+
+    rec = kernel.ledger.append_guarded(decide)
+    if rec is None:
+        prev = found.get("rec") or {}
+        return 200, {
+            "ok": True, "already": True, "order_id": oid,
+            "seq": prev.get("seq"), "hmac": prev.get("hmac"),
+            "prev_sha": prev.get("prev_sha"), "event": WORK_ORDER_PICKED,
+        }
+    return 201, {
+        "ok": True, "already": False, "order_id": oid,
+        "seq": rec.get("seq"), "hmac": rec.get("hmac"),
+        "prev_sha": rec.get("prev_sha"), "event": WORK_ORDER_PICKED,
+    }
 
 
 def page_events(ledger, since: int, tail=None, page: int = EVENTS_PAGE):
@@ -1382,6 +1434,18 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             pass
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
+            from urllib.parse import urlparse as _wo_urlparse
+            if _wo_urlparse(self.path).path == "/api/v1/work_orders/picked":
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:                            # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                code, rec = record_work_order_picked(kernel, d)
+                return self._send(code, rec)
             if self.path == "/api/v1/jobs":
                 body = self._read_body()
                 if body is None:

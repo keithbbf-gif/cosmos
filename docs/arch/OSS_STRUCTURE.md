@@ -90,4 +90,4 @@ Their runtimes. DAG as MOTIF. Frozen-vertex re-run. `source: "fork"`. Public res
 
 ## Next BUILD (Core, Gitur)
 
-`WORK_ORDER_PICKED`: runner POSTs Core after `pickup_order` (idempotent on `order_id`). Core is the ledger writer. DONE remains Output exists. Crash-after-pickup without Output is a named incident, not silence.
+`WORK_ORDER_PICKED` (this pass): runner POSTs Core after `pickup_order` (idempotent on `order_id`). Core is the ledger writer. DONE remains Output exists. Crash-after-pickup without Output is a named incident (`CORE_UNREACHABLE` / `CORE_NOT_COMPOSED` on the picked JSON), not silence. Daemon never opens `live/ledger/`.

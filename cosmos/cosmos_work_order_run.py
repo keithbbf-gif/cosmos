@@ -19,7 +19,8 @@ stamps). COMPLETED is COW --accept only.
 --loop honors live/state/control/PAUSE.flag (idle, heartbeat state=PAUSED).
 --once is a commanded drain even while paused.
 
-Does not modify kernel / ledger / sched / service. No bts_* import.
+Does not open live/ledger/. After pickup_order the daemon POSTs Core
+WORK_ORDER_PICKED (Core is the writer). No bts_* import.
 Does not edit cosmos_dispatch.py grok/claude/cursor job templates.
 """
 from __future__ import annotations
@@ -48,9 +49,9 @@ from cosmos_clock import (  # noqa: E402
 )
 from cosmos_paths import CosmosPaths, CosmosPathError, write_sentinel  # noqa: E402
 from cosmos_work_order import (  # noqa: E402
-    OrderError, SPEC_FIELDS, accept_order, build_argv, compose_prompt,
-    drop_order, file_done, infer_repo_tree, parse_agent,
-    parse_context_source, parse_order, parse_output, pickup_order,
+    DEFAULT_CORE_URL, OrderError, SPEC_FIELDS, accept_order, build_argv,
+    compose_prompt, drop_order, file_done, infer_repo_tree, notify_core_picked,
+    parse_agent, parse_context_source, parse_order, parse_output, pickup_order,
     reject_order, route_agent, vertex_cli_env, work_order_dirs,
 )
 from cosmos_work_order_checks import stamp_assigned_done  # noqa: E402
@@ -334,8 +335,16 @@ def _fail_drop(paths, drop: Path, kind: str, detail: str) -> dict:
     return rec
 
 
+def _daemon_core_url() -> str:
+    env = os.environ.get("COSMOS_CORE_URL")
+    if env is not None and not str(env).strip():
+        return ""
+    return str(env).strip() if env else DEFAULT_CORE_URL
+
+
 def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
-                timeout_s: float = DEFAULT_TIMEOUT_S, check_rails=None) -> dict:
+                timeout_s: float = DEFAULT_TIMEOUT_S, check_rails=None,
+                notify_http=None, core_url=None) -> dict:
     repo = Path(repo_tree) if repo_tree is not None else infer_repo_tree(paths.root)
     try:
         rec = pickup_order(paths, drop, repo_tree=repo, live_root=paths.root)
@@ -343,6 +352,9 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
         return _fail_drop(paths, drop, e.kind, e.detail)
     except Exception as e:  # noqa: BLE001
         return _fail_drop(paths, drop, "BROKE", f"{type(e).__name__}: {e}")
+    rec["core_picked"] = notify_core_picked(
+        paths, rec, http=notify_http, base_url=core_url)
+    _persist_picked(paths, rec)
     ws = Path(rec["_workspace"])
     outp = Path(rec["_output_path"])
     refuse_tree_cwd(ws, paths.root, repo_tree=repo)
@@ -385,7 +397,8 @@ def process_one(paths, drop: Path, *, run_fn=None, repo_tree=None,
 
 def poll_once(root: str, polls: int = 0, interval_s: float | None = None,
               *, drain: bool = True, run_fn=None, repo_tree=None,
-              timeout_s: float = DEFAULT_TIMEOUT_S, check_rails=None) -> dict:
+              timeout_s: float = DEFAULT_TIMEOUT_S, check_rails=None,
+              notify_http=None, core_url=None) -> dict:
     """One tick. Heartbeat always. PAUSE + drain=False picks up nothing.
 
     --loop passes drain=False when paused. --once always drains (commanded).
@@ -478,7 +491,8 @@ def poll_once(root: str, polls: int = 0, interval_s: float | None = None,
             try:
                 rec = process_one(
                     paths, dp, run_fn=run_fn, repo_tree=repo_tree,
-                    timeout_s=timeout_s, check_rails=check_rails)
+                    timeout_s=timeout_s, check_rails=check_rails,
+                    notify_http=notify_http, core_url=core_url)
                 jobs.append({
                     "ok": rec.get("state") == "DONE",
                     "order_id": rec.get("order_id"),
@@ -552,7 +566,7 @@ def loop(root: str, interval_s: float) -> int:
                          != "RUNNING")
             try:
                 poll_once(root, polls=polls, interval_s=interval_s,
-                          drain=drain)
+                          drain=drain, core_url=_daemon_core_url())
             except Exception:
                 import traceback
                 tb = traceback.format_exc()
@@ -916,6 +930,34 @@ def _selftest() -> int:
     check("runner files DONE in assigned-tasks",
           lambda: rec.get("state") == "DONE"
           and (dirs["assigned"] / "wo-done-1.json").is_file())
+    check("no core_url → CORE_NOT_COMPOSED (selftest never hits live :8770)",
+          lambda: (rec.get("core_picked") or {}).get("kind") == "CORE_NOT_COMPOSED")
+
+    posted = []
+
+    def fake_core(method, url, body, headers):
+        posted.append({"method": method, "url": url, "body": body,
+                       "headers": headers})
+        return 201, {"ok": True, "already": False, "seq": 7,
+                     "hmac": "abc", "prev_sha": "def"}
+
+    drop_n = drop_order(paths, grok_raw, order_id="wo-picked-1")
+    rec_n = process_one(paths, drop_n, run_fn=fake_write, repo_tree=repo,
+                        check_rails=silent_rails, notify_http=fake_core,
+                        core_url="http://127.0.0.1:8770")
+    check("notify POSTs /api/v1/work_orders/picked with order_id",
+          lambda: posted and posted[0]["method"] == "POST"
+          and str(posted[0]["url"]).endswith("/api/v1/work_orders/picked")
+          and (posted[0]["body"] or {}).get("order_id") == "wo-picked-1")
+    check("core_picked carries Core seq (not a folder claim)",
+          lambda: rec_n.get("core_picked", {}).get("ok") is True
+          and rec_n["core_picked"].get("seq") == 7
+          and rec_n.get("state") == "DONE")
+    wo_src = (HERE / "cosmos_work_order.py").read_text(encoding="utf-8")
+    check("notify_core_picked is HTTP-only (no Ledger import in work_order.py)",
+          lambda: "def notify_core_picked" in wo_src
+          and "import cosmos_ledger" not in wo_src
+          and "from cosmos_ledger" not in wo_src)
     check("DONE record is not COMPLETED",
           lambda: rec.get("state") == "DONE"
           and not (dirs["completed"] / "wo-done-1.json").is_file())
@@ -1201,7 +1243,8 @@ def main() -> int:
         }, indent=1, default=str))
         return 0 if rec.get("state") == "DONE" else 2
     if a.once:
-        r = poll_once(a.root, interval_s=a.interval, drain=True)
+        r = poll_once(a.root, interval_s=a.interval, drain=True,
+                      core_url=_daemon_core_url())
         out = {k: r[k] for k in r if k != "heartbeat"}
         print(json.dumps(out, indent=1, default=str))
         return 0 if r.get("ok") else 2

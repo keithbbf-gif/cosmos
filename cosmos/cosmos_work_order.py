@@ -25,11 +25,13 @@ commit gateway.
     from cosmos_work_order import (
         parse_order, parse_agent, parse_context_source, parse_output,
         route_agent, build_argv, file_done, accept_order, reject_order,
+        notify_core_picked,
     )
     from cosmos_work_order_checks import apply_done_checks, cow_checks_view
 
-Does not modify kernel / ledger / sched / service. No bts_* import.
-Does not edit cosmos_dispatch.py grok/claude/cursor job templates.
+Does not open live/ledger/. Pickup POSTs Core WORK_ORDER_PICKED (http
+seam). No bts_* import. Does not edit cosmos_dispatch.py grok/claude/cursor
+job templates.
 """
 from __future__ import annotations
 
@@ -39,6 +41,8 @@ import os
 import re
 import shutil
 import time
+import urllib.error
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -515,6 +519,112 @@ def pickup_order(paths, drop_path: Path, *, repo_tree: Path | str | None = None,
     except OSError:
         pass
     return parsed
+
+
+CORE_PICKED_PATH = "/api/v1/work_orders/picked"
+DEFAULT_CORE_URL = "http://127.0.0.1:8770"
+NOTIFY_TIMEOUT_S = 5.0
+
+
+def _read_api_token(paths) -> str | None:
+    try:
+        p = paths.config("api_token.txt")
+    except Exception:  # noqa: BLE001
+        return None
+    if not Path(p).is_file():
+        return None
+    try:
+        text = Path(p).read_text(encoding="utf-8").strip()
+    except OSError:
+        return None
+    return text or None
+
+
+def notify_core_picked(paths, order: dict, *, http=None, base_url=None,
+                       token=None, timeout_s: float = NOTIFY_TIMEOUT_S) -> dict:
+    """POST Core WORK_ORDER_PICKED. Never opens live/ledger/.
+
+    http= is the test seam: (method, url, body, headers) -> (status, parsed).
+    No base_url → CORE_NOT_COMPOSED (no network). Daemon CLI passes
+    DEFAULT_CORE_URL. Idempotent on order_id (Core).
+    """
+    oid = str((order or {}).get("order_id") or "").strip()
+    if not oid:
+        return {"ok": False, "kind": "BAD_INPUT", "detail": "order_id required"}
+    url_base = base_url
+    if http is None and not url_base:
+        return {
+            "ok": False, "kind": "CORE_NOT_COMPOSED",
+            "detail": "no core_url; skipped (daemon passes DEFAULT_CORE_URL)",
+            "order_id": oid,
+        }
+    url_base = str(url_base or DEFAULT_CORE_URL).rstrip("/")
+    url = url_base + CORE_PICKED_PATH
+    body = {
+        "order_id": oid,
+        "agent": (order or {}).get("Agent") or (order or {}).get("agent"),
+        "output_path": (order or {}).get("_output_path")
+        or (order or {}).get("output_path"),
+        "picked_at": (order or {}).get("picked_at"),
+    }
+    tok = token if token is not None else _read_api_token(paths)
+    headers = {"Accept": "application/json", "Content-Type": "application/json"}
+    if tok:
+        headers["Authorization"] = "Bearer " + tok
+    if http is not None:
+        try:
+            status, parsed = http("POST", url, body, headers)
+        except Exception as e:  # noqa: BLE001
+            return {
+                "ok": False, "kind": "CORE_UNREACHABLE",
+                "detail": f"{type(e).__name__}: {e}"[:200],
+                "order_id": oid, "url": url,
+            }
+    else:
+        try:
+            data = json.dumps(body).encode("utf-8")
+            req = urllib.request.Request(url, method="POST", data=data,
+                                         headers=headers)
+            with urllib.request.urlopen(req, timeout=float(timeout_s)) as r:
+                raw = r.read().decode("utf-8") or "{}"
+                try:
+                    parsed = json.loads(raw)
+                except ValueError:
+                    parsed = {"raw": raw[:400]}
+                status = int(r.status)
+        except urllib.error.HTTPError as e:
+            raw = (e.read() or b"").decode("utf-8", "replace")
+            try:
+                parsed = json.loads(raw) if raw else {"error": str(e)}
+            except ValueError:
+                parsed = {"error": raw[:400]}
+            status = int(e.code)
+        except Exception as e:  # noqa: BLE001
+            return {
+                "ok": False, "kind": "CORE_UNREACHABLE",
+                "detail": f"{type(e).__name__}: {e}"[:200],
+                "order_id": oid, "url": url,
+            }
+    if not isinstance(parsed, dict):
+        parsed = {"detail": str(parsed)[:200]}
+    if status in (200, 201) and parsed.get("ok"):
+        return {
+            "ok": True,
+            "already": bool(parsed.get("already")),
+            "order_id": oid,
+            "seq": parsed.get("seq"),
+            "hmac": parsed.get("hmac"),
+            "prev_sha": parsed.get("prev_sha"),
+            "http": status,
+            "url": url,
+        }
+    kind = parsed.get("error") or (
+        "CORE_UNREACHABLE" if status in (-1, 0) else "BROKE")
+    return {
+        "ok": False, "kind": str(kind),
+        "http": status, "order_id": oid, "url": url,
+        "detail": str(parsed.get("detail") or parsed.get("error") or "")[:200],
+    }
 
 
 def file_done(paths, order: dict, *, run_rec: dict | None = None,
