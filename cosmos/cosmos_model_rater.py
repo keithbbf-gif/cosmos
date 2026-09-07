@@ -7,7 +7,9 @@ into a local projection. Daily refresh or refresh-on-open. Does NOT call
 the rotating openrouter/free router (H3). Seat assign is explicit.
 
 Quality axes (vendor-measured, else UNMEASURED — never invented):
-  intelligence, coding, agentic  (benchmarks.artificial_analysis)
+  intelligence, coding, agentic  (OpenRouter GET /benchmarks
+  source=artificial-analysis, plus any indices already on GET /models).
+  Q is the mean of the axes that exist. Sortable across INT / COD / AGT / Q.
 Price: USD per 1M prompt/completion tokens (API is per-token).
 Type: coding | reasoning | images | audio | video | chat
 
@@ -92,8 +94,10 @@ DEFAULT_SEATS = (
      "label": "Dispatch — cheap reasoning / SSA", "model": ""},
 )
 SORT_KEYS = frozenset({
-    "price", "intelligence", "coding", "agentic", "name", "context", "id",
+    "price", "intelligence", "coding", "agentic", "quality", "q",
+    "name", "context", "id",
 })
+QUALITY_AXES = ("intelligence", "coding", "agentic")
 TYPE_KEYS = frozenset({
     "coding", "reasoning", "images", "audio", "video", "chat", "free",
 })
@@ -190,11 +194,93 @@ def normalize_row(raw: dict) -> dict:
         "intelligence": _f(aa.get("intelligence_index")),
         "coding": _f(aa.get("coding_index")),
         "agentic": _f(aa.get("agentic_index")),
+        "quality": None,
+        "quality_n": 0,
+        "quality_from": None,
         "types": _types(raw),
         "reasoning": bool(isinstance(raw.get("reasoning"), dict)
                           and raw["reasoning"].get("default_enabled")),
         "rotator": mid.lower() in ROTATING,
     }
+
+
+def quality_score(row: dict) -> float | None:
+    """Q = mean of vendor axes that exist. None = UNMEASURED, never invented."""
+    vals = []
+    for k in QUALITY_AXES:
+        v = _f(row.get(k))
+        if v is not None:
+            vals.append(v)
+    if not vals:
+        return None
+    return round(sum(vals) / len(vals), 1)
+
+
+def _stamp_quality(row: dict) -> dict:
+    q = quality_score(row)
+    row["quality"] = q
+    row["quality_n"] = sum(1 for k in QUALITY_AXES if row.get(k) is not None)
+    return row
+
+
+def apply_aa_benchmarks(models: list[dict], bench_rows) -> int:
+    """Join Artificial Analysis indices from GET /benchmarks onto catalog rows.
+
+    Match model_permaslug to id, then to the :variant-stripped base. Does not
+    invent a number: only copies vendor indices that exist.
+    """
+    by_slug: dict[str, dict] = {}
+    for raw in bench_rows or []:
+        if not isinstance(raw, dict):
+            continue
+        slug = str(raw.get("model_permaslug") or raw.get("id") or "").strip()
+        if not slug:
+            continue
+        by_slug[slug.lower()] = raw
+    n = 0
+    for m in models:
+        mid = str(m.get("id") or "")
+        base = mid.split(":", 1)[0]
+        raw = by_slug.get(mid.lower()) or by_slug.get(base.lower())
+        if not raw:
+            continue
+        hit = False
+        for src, dst in (("intelligence_index", "intelligence"),
+                         ("coding_index", "coding"),
+                         ("agentic_index", "agentic")):
+            v = _f(raw.get(src))
+            if v is not None and m.get(dst) is None:
+                m[dst] = v
+                hit = True
+        if hit:
+            n += 1
+            m["quality_from"] = "openrouter/benchmarks"
+    return n
+
+
+def inherit_variant_quality(models: list[dict]) -> int:
+    """:batch / :free / :nitro share weights with the base id. Copy axes only."""
+    by_base: dict[str, dict] = {}
+    for m in models:
+        if m.get("intelligence") is None and m.get("coding") is None:
+            continue
+        base = str(m.get("id") or "").split(":", 1)[0]
+        if base and base not in by_base:
+            by_base[base] = m
+    n = 0
+    for m in models:
+        if m.get("intelligence") is not None or m.get("coding") is not None:
+            continue
+        base = str(m.get("id") or "").split(":", 1)[0]
+        src = by_base.get(base)
+        if not src or src is m:
+            continue
+        for k in QUALITY_AXES:
+            if m.get(k) is None and src.get(k) is not None:
+                m[k] = src[k]
+        m["quality_from"] = src.get("id")
+        n += 1
+    return n
 
 
 def load_catalog(paths) -> dict:
@@ -218,6 +304,11 @@ def load_catalog(paths) -> dict:
     rec.setdefault("schema", SCHEMA)
     rec.setdefault("models", [])
     rec["n"] = len(rec["models"])
+    for m in rec["models"]:
+        if isinstance(m, dict) and m.get("quality") is None:
+            _stamp_quality(m)
+    rec["n_quality"] = sum(1 for m in rec["models"]
+                           if isinstance(m, dict) and m.get("quality") is not None)
     return rec
 
 
@@ -293,8 +384,8 @@ def save_catalog(paths, rec: dict) -> dict:
 
 def refresh(paths, *, http=None) -> dict:
     from cosmos_openrouter_rail import (
-        OpenRouterRail, key_path_for, load_spec, spec_path_for, MODELS_PATH,
-        read_key,
+        BENCHMARKS_PATH, OpenRouterRail, key_path_for, load_spec,
+        spec_path_for, MODELS_PATH, read_key,
     )
     spec = load_spec(spec_path_for(paths) if spec_path_for(paths).exists() else None)
     keyp = key_path_for(paths, spec)
@@ -313,16 +404,28 @@ def refresh(paths, *, http=None) -> dict:
         if not isinstance(raw, dict) or not raw.get("id"):
             continue
         rows.append(normalize_row(raw))
+    b_status, _bh, b_body = rail._call("GET", BENCHMARKS_PATH)
+    n_bench = 0
+    if b_status == 200 and isinstance(b_body, dict):
+        n_bench = apply_aa_benchmarks(rows, b_body.get("data") or [])
+    n_inherit = inherit_variant_quality(rows)
+    for m in rows:
+        _stamp_quality(m)
     rec = {
         "schema": SCHEMA,
         "fetched_at": _iso_now(),
         "fetched_at_unix": time.time(),
         "http": status,
+        "benchmarks_http": b_status,
         "n": len(rows),
+        "n_quality": sum(1 for m in rows if m.get("quality") is not None),
+        "n_benchmarks_joined": n_bench,
+        "n_variant_inherited": n_inherit,
         "models": rows,
         "stale": False,
         "age_s": 0,
         "source": "openrouter GET /api/v1/models",
+        "quality_source": "openrouter GET /api/v1/benchmarks?source=artificial-analysis",
     }
     save_catalog(paths, rec)
     return rec
@@ -331,8 +434,9 @@ def refresh(paths, *, http=None) -> dict:
 def _sort_key(row: dict, sort: str):
     if sort == "price":
         return (row.get("prompt_per_m") or 0) + (row.get("completion_per_m") or 0)
-    if sort in ("intelligence", "coding", "agentic"):
-        v = row.get(sort)
+    if sort in ("intelligence", "coding", "agentic", "quality", "q"):
+        key = "quality" if sort in ("quality", "q") else sort
+        v = row.get(key)
         return -1.0 if v is None else float(v)
     if sort == "context":
         return int(row.get("context") or 0)
@@ -358,10 +462,11 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
             if ql not in blob:
                 continue
         out.append(r)
-    if sort in ("intelligence", "coding", "agentic"):
-        out.sort(key=lambda r: (
-            r.get(sort) is None,
-            (-(r.get(sort) or 0.0)) if not desc else (r.get(sort) or 0.0),
+    if sort in ("intelligence", "coding", "agentic", "quality", "q"):
+        axis = "quality" if sort in ("quality", "q") else sort
+        out.sort(key=lambda r, a=axis: (
+            r.get(a) is None,
+            (-(r.get(a) or 0.0)) if not desc else (r.get(a) or 0.0),
         ))
     elif sort == "price":
         out.sort(key=lambda r: _sort_key(r, "price"), reverse=bool(desc))
@@ -643,6 +748,7 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "age_s": cat.get("age_s"),
         "stale": bool(cat.get("stale")),
         "http": cat.get("http"),
+        "quality_source": cat.get("quality_source"),
         "n_catalog": cat.get("n") or 0,
         "n": len(models),
         "refreshed": refreshed,
@@ -654,7 +760,9 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "job_estimate": job,
         "job_costs": costs,
         "ccr_initial": {"tokens_in": CCR_INITIAL_IN, "tokens_out": CCR_INITIAL_OUT},
-        "axes": ["intelligence", "coding", "agentic", "price"],
+        "axes": ["quality", "intelligence", "coding", "agentic", "price"],
+        "n_quality": cat.get("n_quality") or sum(
+            1 for m in (cat.get("models") or []) if m.get("quality") is not None),
         "ttl_s": TTL_S,
         "max_adv": MAX_ADV,
         "via_options": [dict(v) for v in VIA_OPTIONS],
@@ -680,7 +788,18 @@ def _selftest() -> int:
     paths = CosmosPaths(root)
 
     def fake_http(method, path, body=None):
-        if method == "GET" and path.endswith("/models"):
+        if method == "GET" and "benchmarks" in str(path):
+            return 200, {}, {"data": [
+                {"source": "artificial-analysis",
+                 "model_permaslug": "anthropic/claude-opus-5",
+                 "intelligence_index": 90.0, "coding_index": 88.0,
+                 "agentic_index": 85.0},
+                {"source": "artificial-analysis",
+                 "model_permaslug": DEFAULT_MODEL.split(":")[0],
+                 "intelligence_index": 40.0, "coding_index": 55.0,
+                 "agentic_index": 30.0},
+            ], "meta": {"source": "artificial-analysis"}}
+        if method == "GET" and str(path).endswith("/models"):
             return 200, {}, {"data": [
                 {"id": DEFAULT_MODEL, "name": "Gemma 4 26B A4B (free)",
                  "context_length": 262144,
@@ -722,6 +841,18 @@ def _selftest() -> int:
     rec = refresh(paths, http=fake_http)
     check("refresh stores 4 vendor rows including rotator",
           lambda: rec["n"] == 4 and rec["http"] == 200)
+    check("Q is the mean of vendor INT/COD/AGT, never invented",
+          lambda: any(m["id"] == "anthropic/claude-opus-5"
+                      and m.get("quality") == round((90+88+85)/3, 1)
+                      and m.get("quality_n") == 3
+                      for m in rec["models"]))
+    check("sort=quality puts highest Q first",
+          lambda: snapshot(paths, sort="quality")["models"][0]["id"]
+          == "anthropic/claude-opus-5")
+    gem_free = next((m for m in rec["models"] if m["id"] == DEFAULT_MODEL), {})
+    check(":free variant inherits AA indices from the base slug",
+          lambda: gem_free.get("intelligence") == 40.0
+          and gem_free.get("quality") is not None)
     snap = snapshot(paths, sort="intelligence")
     check("query drops rotator from assignable list",
           lambda: all(m["id"] != "openrouter/free" for m in snap["models"])

@@ -53,6 +53,9 @@ PINNED_VALUE = frozenset({VALUE_CODER})
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
+# Artificial Analysis indices (intelligence / coding / agentic) live here,
+# not on every GET /models row. Citation: openrouter.ai/docs … /benchmarks.
+BENCHMARKS_PATH = "/benchmarks?source=artificial-analysis&max_results=500"
 DEFAULT_MAX_TOKENS = 1024
 GATE_MAX_TOKENS = 256
 UA = "COSMOS-openrouter-rail/1 (openrouter-api; keithbbf-gif/cosmos)"
