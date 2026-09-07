@@ -31,6 +31,11 @@ def test_studio_does_not_submit_jobs():
     assert "gov_federal" in src
     assert "gov_state" in src
     assert "gov_local" in src
+    assert "plurality" in src
+    assert "majority" in src
+    assert "complete" in src
+    assert "arch_choice" in src
+    assert "hitl" in src
 
 
 if __name__ == "__main__":
