@@ -67,8 +67,8 @@ row. Do not mix it into UPS / Forge / Crucible skins.
 
 | Product | What it is | Skin | Status |
 |---|---|---|---|
-| **ChatBot phone** | **Freemium free tier.** Named `:free` picker. Pitch **FREE FOREVER — YOU PICK THE MODEL**. Real chat forever; not a trial. Same P13 GitHub drop. | Phone ChatBot (not cDeck) | **DEFINE.** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Not CVM. Not SGH Voice. |
-| **ChatBot desktop** | **Freemium install** (free download) + natural **Premium** sit (hands, paid models, later P06). Phone leads here. | Desktop ChatBot | **Named at BUILD.** OpenWork desktop vs COSMOS desktop — Keith names which. Price UNMEASURED until Keith names it. Do not iframe OpenWork Web. |
+| **ChatBot phone** | **Freemium free tier.** Named `:free` picker. Pitch **FREE FOREVER — YOU PICK THE MODEL**. Real chat forever; not a trial. Same P13 GitHub drop. May seat **adversarial occupancy** (P05) over remote. | Phone ChatBot (not cDeck) | **DEFINE.** `work_orders/ccr/DEFINE_CHATBOT_PHONE.md`. Not CVM. Not SGH Voice. |
+| **ChatBot desktop / remote terminal** | **Freemium install** (free download) + natural **Premium** sit. Terminal is the other remote mouth (TUI / SSH / drop). Same occupancy engine. | Desktop ChatBot or TUI | **Named at BUILD.** Adversarial over remote = terminal **or** phone. Price UNMEASURED. Do not iframe OpenWork Web. |
 
 Occupancy profiles above stay operator / federation skins. ChatBot phone
 does not get a `cdeck-instance` profile id until Keith says it is a deck

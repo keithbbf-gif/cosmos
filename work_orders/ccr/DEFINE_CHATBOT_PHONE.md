@@ -10,6 +10,8 @@ Replace Claude with FREE FOREVER - YOU PICK THE MODEL.*
 
 Keith, verbatim: *Follow the Freemium model.*
 
+Keith, verbatim: *You can include advesarial Ai over remote (terminal OR phone).*
+
 ## WHAT
 
 A **phone ChatBot** is the consumer mouth of the same drop-box loop (P13):
@@ -42,6 +44,15 @@ product. It is not “pay us or the app dies.”
 
 The phone is the **free** front door. Desktop is the **install** and the
 natural Premium sit. Phone does not pretend it is the desktop.
+
+**Adversarial AI over remote (terminal OR phone)** is included. The P05
+occupancy engine (isolated proposers, different-family critics, one
+disposer) may be seated from a **remote terminal** (TUI / SSH / drop) **or**
+from the **phone** (ChatBot / Voice drop). Same inbox. Same peeking ban.
+Same one pen. Not a second Core. Not a shared-transcript crew on the
+phone. Free-tier single-model chat stays usable; adversarial N-seat is
+the occupancy path through those mouths, not a replacement for FREE
+FOREVER — YOU PICK THE MODEL.
 
 Operator Voice (SGH + Grok Voice Think Fast 2.0) stays Keith's operator
 mouth and stays TABLED. This DEFINE is the **consumer ChatBot**, not Voice
@@ -115,6 +126,11 @@ not P06.
   Web $50 as this funnel. Do not invent a ChatBot dollar price.
 - `kdash/cosmos-voice.apk` stays a **draft seed**. Do not ship it as this
   product. Do not delete it.
+- Adversarial over remote: a drop (phone **or** terminal) may name the
+  occupancy engine (N isolated seats), not only one Agent. Runner creates
+  isolated sessions (P02 peeking ban). CCr still disposes. Phone still
+  never mounts `live/`. Terminal over remote is a mouth, not a second
+  writer on the runtime root.
 
 ## OFF-LIMITS
 
