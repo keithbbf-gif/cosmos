@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cosmos_studio — MOTIF DEFINE + RESEARCH pack for cDeck Studio.
+"""cosmos_studio — MOTIF DEFINE + RESEARCH + CONSENSUS pack for cDeck Studio.
 
 GET never mutates and never mkdir. POST writes state/studio/pack.json.
 Does not start MOTIF. Does not hold API keys (via names the rail).
 Fallback is config for RESEARCH: if the first model call fails, try the
-fallback via/model. Execution is a later RESEARCH pass.
+fallback via/model. CONSENSUS bar is plurality / majority / complete.
+Architecture is HITL choose, or AUTO (default) by that bar.
+Execution is a later pass.
 
     py -3.14 cosmos\\\\cosmos_studio.py --selftest
 """
@@ -30,6 +32,20 @@ PACK_NAME = "pack.json"
 MAX_RESEARCH = 12
 MAX_DEFINE = 80_000
 MAX_URLS = 24
+MAX_PROPOSALS = 12
+MAX_NOTE = 4_000
+
+BARS = (
+    ("plurality", "Plurality — the most votes wins"),
+    ("majority", "Majority — more than half of the seats"),
+    ("complete", "Complete — every seat agrees"),
+)
+BAR_IDS = frozenset(b[0] for b in BARS)
+ARCH_CHOICES = (
+    ("auto", "AUTO — pick by the consensus bar (default)"),
+    ("hitl", "HITL — human chooses the architecture"),
+)
+ARCH_CHOICE_IDS = frozenset(c[0] for c in ARCH_CHOICES)
 
 TARGETS = (
     ("github", "GitHub repos / libraries"),
@@ -67,6 +83,45 @@ def default_targets() -> dict:
     return {tid: (tid in on) for tid, _lab in TARGETS}
 
 
+def default_consensus() -> dict:
+    """AUTO by the bar is the default. HITL is the override to choose ARCH."""
+    return {
+        "bar": "majority",
+        "arch_choice": "auto",
+        "chosen_id": None,
+        "note": "",
+        "saved_at": None,
+    }
+
+
+def default_arch() -> dict:
+    return {"proposals": []}
+
+
+def bar_met(winner: int, n: int, bar: str, second: int = 0) -> bool:
+    """Whether a winning tally meets the named bar. A tie fails plurality.
+
+    Does not pick an architecture. CONSENSUS later uses this; AUTO only
+    fires when this is True, else CONTESTED (HITL).
+    """
+    b = str(bar or "").strip().lower()
+    if b not in BAR_IDS:
+        raise StudioError("BAD_INPUT", f"unknown consensus bar {bar!r}")
+    try:
+        win = int(winner)
+        seats = int(n)
+        nxt = int(second)
+    except (TypeError, ValueError) as e:
+        raise StudioError("BAD_INPUT", "vote counts must be integers") from e
+    if seats <= 0 or win <= 0:
+        return False
+    if b == "complete":
+        return win == seats
+    if b == "majority":
+        return win * 2 > seats
+    return win > nxt
+
+
 def default_research_models() -> list[dict]:
     """MOTIF RESEARCH: SGH + GEM first, both, in parallel. Fallbacks named."""
     return [
@@ -98,11 +153,15 @@ def empty_pack() -> dict:
             "targets": default_targets(),
             "extra_urls": [],
         },
+        "arch": default_arch(),
+        "consensus": default_consensus(),
         "updated_at": None,
         "available": False,
         "kind": "NO_SOURCE",
         "via_options": [dict(v) for v in VIA_OPTIONS],
         "target_catalog": [{"id": i, "label": lab} for i, lab in TARGETS],
+        "bar_catalog": [{"id": i, "label": lab} for i, lab in BARS],
+        "arch_choice_catalog": [{"id": i, "label": lab} for i, lab in ARCH_CHOICES],
     }
 
 
@@ -125,6 +184,55 @@ def _public_model(raw: dict, idx: int) -> dict:
         "via": via,
         "fallback_model": str(raw.get("fallback_model") or "").strip()[:160],
         "fallback_via": fb_via,
+    }
+
+
+def _public_proposal(raw: dict, idx: int) -> dict:
+    n = idx + 1
+    oid = str(raw.get("id") or f"a_{n}").strip() or f"a_{n}"
+    return {
+        "id": oid[:32],
+        "label": str(raw.get("label") or f"Architecture {n}").strip()[:120],
+        "path": str(raw.get("path") or "").strip()[:400],
+        "by": str(raw.get("by") or "").strip()[:80],
+    }
+
+
+def _public_arch(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    proposals = []
+    for i, row in enumerate(src.get("proposals") or []):
+        if not isinstance(row, dict):
+            continue
+        proposals.append(_public_proposal(row, i))
+        if len(proposals) >= MAX_PROPOSALS:
+            break
+    return {"proposals": proposals}
+
+
+def _public_consensus(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    base = default_consensus()
+    bar = str(src.get("bar") or base["bar"]).strip().lower()
+    if bar not in BAR_IDS:
+        raise StudioError("BAD_INPUT", f"unknown consensus bar {bar!r}")
+    choice = str(src.get("arch_choice") or base["arch_choice"]).strip().lower()
+    if choice not in ARCH_CHOICE_IDS:
+        raise StudioError("BAD_INPUT", f"unknown arch_choice {choice!r}")
+    chosen = src.get("chosen_id")
+    if chosen is None or chosen == "":
+        chosen_id = None
+    else:
+        chosen_id = str(chosen).strip()[:32] or None
+    if choice == "auto":
+        chosen_id = None
+    note = str(src.get("note") or "")[:MAX_NOTE]
+    return {
+        "bar": bar,
+        "arch_choice": choice,
+        "chosen_id": chosen_id,
+        "note": note,
+        "saved_at": src.get("saved_at"),
     }
 
 
@@ -168,6 +276,11 @@ def load_pack(paths) -> dict:
             urls.append(s[:400])
         if len(urls) >= MAX_URLS:
             break
+    try:
+        consensus = _public_consensus(rec.get("consensus"))
+    except StudioError:
+        consensus = default_consensus()
+    arch = _public_arch(rec.get("arch"))
     return {
         "schema": SCHEMA,
         "define": {
@@ -175,11 +288,15 @@ def load_pack(paths) -> dict:
             "saved_at": define.get("saved_at"),
         },
         "research": {"models": models, "targets": targets, "extra_urls": urls},
+        "arch": arch,
+        "consensus": consensus,
         "updated_at": rec.get("updated_at"),
         "available": True,
         "kind": "OK",
         "via_options": [dict(v) for v in VIA_OPTIONS],
         "target_catalog": [{"id": i, "label": lab} for i, lab in TARGETS],
+        "bar_catalog": [{"id": i, "label": lab} for i, lab in BARS],
+        "arch_choice_catalog": [{"id": i, "label": lab} for i, lab in ARCH_CHOICES],
     }
 
 
@@ -194,6 +311,11 @@ def save_pack(paths, body: dict) -> dict:
         "targets": dict(cur["research"]["targets"]),
         "extra_urls": list(cur["research"]["extra_urls"]),
     }
+    arch = _public_arch(cur.get("arch"))
+    try:
+        consensus = _public_consensus(cur.get("consensus"))
+    except StudioError:
+        consensus = default_consensus()
     if "define" in body:
         d = body["define"]
         if isinstance(d, str):
@@ -238,10 +360,35 @@ def save_pack(paths, body: dict) -> dict:
                 if len(urls) >= MAX_URLS:
                     break
             research["extra_urls"] = urls
+    if "arch" in body:
+        a = body["arch"]
+        if not isinstance(a, dict):
+            raise StudioError("BAD_INPUT", "arch must be an object")
+        if "proposals" in a:
+            if not isinstance(a["proposals"], list):
+                raise StudioError("BAD_INPUT", "arch.proposals must be a list")
+            if len(a["proposals"]) > MAX_PROPOSALS:
+                raise StudioError("REFUSED", f"at most {MAX_PROPOSALS} architectures")
+            props = []
+            for i, row in enumerate(a["proposals"]):
+                if not isinstance(row, dict):
+                    raise StudioError("BAD_INPUT", f"arch.proposals[{i}] is not an object")
+                props.append(_public_proposal(row, i))
+            arch["proposals"] = props
+    if "consensus" in body:
+        c = body["consensus"]
+        if not isinstance(c, dict):
+            raise StudioError("BAD_INPUT", "consensus must be an object")
+        merged = dict(consensus)
+        merged.update(c)
+        consensus = _public_consensus(merged)
+        consensus["saved_at"] = _iso_now()
     rec = {
         "schema": SCHEMA,
         "define": define,
         "research": research,
+        "arch": arch,
+        "consensus": consensus,
         "updated_at": _iso_now(),
         "available": True,
         "kind": "OK",
@@ -262,9 +409,14 @@ def snapshot(paths) -> dict:
     rec["measured_at"] = time.time()
     rec.setdefault("via_options", [dict(v) for v in VIA_OPTIONS])
     rec.setdefault("target_catalog", [{"id": i, "label": lab} for i, lab in TARGETS])
+    rec.setdefault("bar_catalog", [{"id": i, "label": lab} for i, lab in BARS])
+    rec.setdefault("arch_choice_catalog",
+                   [{"id": i, "label": lab} for i, lab in ARCH_CHOICES])
     rec["note"] = (
         "DEFINE is the frozen prompt. RESEARCH models/targets are config. "
-        "This POST does not start MOTIF. Keys stay on the named via, never in this pack."
+        "CONSENSUS bar is plurality / majority / complete. Architecture is "
+        "HITL choose, or AUTO by that bar. This POST does not start MOTIF. "
+        "Keys stay on the named via, never in this pack."
     )
     return rec
 
@@ -335,12 +487,56 @@ def _selftest() -> int:
     except StudioError as e:
         rotator = e.kind == "BAD_INPUT"
     check("rotator is not a research via", lambda: rotator)
+    check("AUTO + majority is the default consensus",
+          lambda: empty["consensus"]["bar"] == "majority"
+          and empty["consensus"]["arch_choice"] == "auto"
+          and empty["consensus"]["chosen_id"] is None)
+    check("plurality 2>1 meets the bar; 1=1 does not",
+          lambda: bar_met(2, 3, "plurality", 1) is True
+          and bar_met(1, 2, "plurality", 1) is False)
+    check("majority needs more than half; complete needs all",
+          lambda: bar_met(2, 3, "majority") is True
+          and bar_met(1, 3, "majority") is False
+          and bar_met(2, 3, "complete") is False
+          and bar_met(3, 3, "complete") is True)
+    hitl = save_pack(paths, {
+        "arch": {"proposals": [
+            {"id": "a_sgh", "label": "DOM-first rails", "by": "SGH"},
+            {"id": "a_gem", "label": "API-first", "by": "GEM"},
+        ]},
+        "consensus": {
+            "bar": "plurality",
+            "arch_choice": "hitl",
+            "chosen_id": "a_sgh",
+            "note": "Keith picks the DOM-first arch.",
+        },
+    })
+    check("HITL chooses architecture; bar is plurality",
+          lambda: hitl["consensus"]["bar"] == "plurality"
+          and hitl["consensus"]["arch_choice"] == "hitl"
+          and hitl["consensus"]["chosen_id"] == "a_sgh"
+          and hitl["arch"]["proposals"][0]["id"] == "a_sgh")
+    auto = save_pack(paths, {"consensus": {"arch_choice": "auto", "chosen_id": "a_sgh"}})
+    check("AUTO clears a HITL pick — the bar decides later",
+          lambda: auto["consensus"]["arch_choice"] == "auto"
+          and auto["consensus"]["chosen_id"] is None)
+    keep = save_pack(paths, {"define": {"text": "still the same DEFINE"}})
+    check("DEFINE save preserves consensus bar",
+          lambda: keep["consensus"]["bar"] == "plurality"
+          and keep["define"]["text"] == "still the same DEFINE")
+    bad_bar = False
+    try:
+        save_pack(paths, {"consensus": {"bar": "unanimous"}})
+    except StudioError as e:
+        bad_bar = e.kind == "BAD_INPUT"
+    check("unknown consensus bar is BAD_INPUT (complete, not unanimous)",
+          lambda: bad_bar)
 
     bad_out = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label,
                               ("  [" + err + "]") if err else ""))
-    print("SELFTEST %s - %d checks (Studio DEFINE+RESEARCH pack)"
+    print("SELFTEST %s - %d checks (Studio DEFINE+RESEARCH+CONSENSUS pack)"
           % ("PASS" if not bad_out else "FAIL", len(results)))
     return 0 if not bad_out else 1
 
