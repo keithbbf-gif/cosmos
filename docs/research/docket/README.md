@@ -1,6 +1,9 @@
 # Docket — US provisional packets (Legal, not USPTO)
 
-**Keith 2026-09-07.** Rewrite of `docs/research/IP_DOCKET.md`. Twelve written-description outlines for ~$65 micro-entity provisionals. **Not filed. Not claims. Not a novelty opinion.**
+**Keith 2026-09-07.** Rewrite of `docs/research/IP_DOCKET.md`. **Complete**
+written descriptions (35 U.S.C. 112(a) form; numbered paragraphs; court-citable
+PDFs in `specs/`). **Not filed. Not claims. Not a novelty opinion.** Form:
+`SPEC_FORM.md`. Printer: `_print_specs.py`.
 
 MOTIF 1 returns: `work_orders/ccr/CREW/OUT/DOCKET/R1_OCCUPANCY.md`, `R2_LOCAL_FREE.md`, `R3_CORE.md`, `R4_CRUCIBLE_TM.md`.
 

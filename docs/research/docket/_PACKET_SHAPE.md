@@ -1,17 +1,34 @@
 # Provisional packet shape (Legal, not USPTO)
 
-Each `Pxx_*.md` is a **written-description outline** for a US provisional.
-Not a filed application. Not claims. Not a novelty opinion. Keith + Legal file.
+Each `Pxx_*.md` is a **complete written description** for a US provisional,
+arranged for later citation by a court or examiner. Not a filed application.
+Not claims. Not a novelty opinion. Keith + Legal file.
 
-Every packet has:
+Form: `SPEC_FORM.md`. Printer: `_print_specs.py`. PDFs: `specs/`.
 
-1. Working title + docket ID
-2. Kind: method / system / occupancy
-3. One-sentence what it is (in-tree)
-4. Problem / scars that earned it
-5. Written description (enough that Legal can draft a spec)
-6. Already public (GitHub date + what leaked)
-7. Prior art to name (from MOTIF 1 returns) — related vs possibly blocking = research judgment
-8. What this packet is **not**
-9. Suggested independent idea (one line, not a claim set)
-10. Status: FILE / FOLD / HOLD / NEEDS KEITH
+## Arrangement (37 CFR 1.77, adapted)
+
+1. Cover / caption (docket, title, status, legend, inventor blank)
+2. Cross-reference (sisters named; **no** claim of benefit)
+3. Field of the invention
+4. Background (problem / scar; related art as information known to applicant)
+5. Brief summary
+6. Definitions
+7. Brief description of the drawings (drawings-in-prose)
+8. Detailed description (enablement; numbered paragraphs `[0001]`)
+9. Best mode (the in-tree embodiment)
+10. Further embodiments
+11. Disclosure clock (already public)
+12. Information concerning related art (not an IDS; not a novelty opinion)
+13. What this disclosure is not
+14. Statement of invention (**not claims** — counsel drafts claims)
+15. Appendix to attach at filing (`HOW_IT_WORKS.pdf`)
+
+## Court-form PDF
+
+Letter, 1-inch margins, Times 12/16, line numbers, page n of m, docket
+header. FILE packets: `NOT FILED — FOR COUNSEL`. P12: red `HOLD`.
+
+Each FILE packet is **standalone**. Duplicate the how-it-works appendix
+into each filing. Do not add technical matter after a filing date
+(37 CFR 1.53(c)).

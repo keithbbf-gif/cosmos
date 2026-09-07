@@ -1,35 +1,93 @@
-# P05 — Adversarial occupancy engine (the new way)
+# COSMOS-P05 — Adversarial occupancy engine (parent)
 
-**Kind:** system / occupancy. **Status:** FILE (parent of products). **Fee:** US provisional micro $65.
+**Title:** Adversarial occupancy engine with isolated proposers, different-family critics, one disposer, and domain skins
+**Kind:** System / occupancy
+**Status:** FILE (parent of products)
+**Fee:** $65 micro-entity provisional
+**Date:** 2026-09-07
+**Legend:** ATTORNEY WORK PRODUCT — NOT A FILED PATENT APPLICATION — FOR COUNSEL ONLY
+**Inventor:** Name of inventor: ________________________________ (counsel to complete). The source tree discloses the operator as Keith. This preparer does not sign as inventor.
 
-## What it is (in-tree)
+Standalone written description for a US provisional. Not a filed application. Not claims. Not a novelty opinion. Counsel files. Duplicate HOW_IT_WORKS.pdf at filing.
 
-The engine: independent first, then argue; **no shared context** between builders; different-family critics vs *what was decided*; **one disposer** holds the pen; everyone else proposes. Products (Forge, Crucible, Diligence, Differentiator, Docket) are **skins**, not new inventions. MOTIF (P01) is the loop that *runs* this engine. Dual-lane (P02) is one seating. Keith: *the new way, reliable, scalable AI.*
+## Cross-reference
 
-## Problem / scar
+Sisters COSMOS-P01 through COSMOS-P13. No claim of benefit of a sister. 37 CFR 1.53(c): no technical add-after.
 
-If the orchestrator also holds the only wrench, the system ships a plausible lie. Shared-transcript crews (AutoGen, ChatDev, MetaGPT, Magentic-One) put many agents in one context. Microsoft **US20250371498A1** teaches the second agent *based on* the first — anti-isolation.
+## Field of the invention
 
-## Written description
+[0001] The present disclosure relates to an occupancy engine for generative-model work: isolated proposers, different-family critics versus what was decided, and one disposer, reused across domains by changing the packet rather than cloning the stack.
 
-1. Name seats: disposer (one writer), N proposers, critics.
-2. Proposers run isolated; no shared transcript mid-pass.
-3. Critics are a different family from the builders; they judge the decision, not house style.
-4. Only the disposer writes the live tree (or the grant tree).
-5. The same occupancy is reused across domains by changing the **packet** (code, casefile, deal room, IP docket), not by cloning the stack.
+## Background of the invention
 
-## Already public
+[0002] If the orchestrator also holds the only wrench, the system ships a plausible lie. Shared-transcript crews put many agents in one context. Microsoft US20250371498A1 teaches the second agent based on the first — anti-isolation.
 
-CRUCIBLE named in `bts-mesh` GitHub **description** 2026-08-16 (word not in tracked files — see R4). Adversarial loop in public cosmos MOTIF 2026-08-23.
+[0003] The inventor's new way is reliable, scalable AI: independent first, then argue; no shared context between builders; different-family critics; one pen. Products are skins, not new inventions.
 
-## Prior art to name (R3, R1)
+## Brief summary of the invention
 
-Du 2023 debate; Irving 2018; Liang MAD; MoA; More Agents; Estornell & Liu; WO2025183627A1 (Lemon Inc MAD); US20240104125A1; US20250371498A1 (Microsoft, anti-isolation); AutoGen/ChatDev/MetaGPT/CAMEL/Magentic-One; Avizienis 1985; Knight & Leveson 1986; GitHub CODEOWNERS (VCS analog of one merger). **Combination** (isolation + family critics vs *decided* + one disposer + skins): UNKNOWN as blocking. Pieces crowded.
+[0004] Name seats: disposer (one writer), N proposers, critics. Proposers run isolated; no shared transcript mid-pass. Critics are a different family from the builders; they judge the decision, not house style. Only the disposer writes the live tree or the grant tree. The same occupancy is reused across domains by changing the packet (code, casefile, deal room, IP docket), not by cloning the stack.
 
-## What this is not
+## Definitions
 
-Not “we invented multi-agent.” Not Magentic-One (orch holds the wrench). Not a voter over N-version binaries.
+[0005] As used herein, "Occupancy" means The seating of named models into named seats with isolation and one disposer.
 
-## Suggested independent idea
+[0006] As used herein, "Skin" means A product that reuses the engine by changing the packet and role names, not the occupancy.
 
-One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding/legal/medical/diligence/IP.
+[0007] As used herein, "Packet" means The work object: code change, legal casefile, diligence data room, IP docket, medical casefile.
+
+## Brief description of the drawings
+
+[0008] FIG. 1 shows seats: N isolated proposers, different-family critics, and one disposer writing the live tree. FIG. 2 shows the same engine with interchangeable packets (code, casefile, deal room, IP docket) as skins.
+
+[0009] The drawings are described in prose so that a person of ordinary skill can produce sheet drawings. Sheet drawings may be added by counsel before filing. Do not add new matter after a filing date.
+
+## Detailed description
+
+[0010] Name seats: disposer (one writer), N proposers, critics.
+
+[0011] Proposers run isolated. No shared transcript mid-pass (COSMOS-P02).
+
+[0012] Critics are a different family from the builders (COSMOS-P03). They judge the decision (COSMOS-P01 DEFINE), not house style.
+
+[0013] Only the disposer writes the live tree or the grant tree. Everyone else proposes.
+
+[0014] Reuse the occupancy across domains by changing the packet, not by cloning the stack.
+
+[0015] MOTIF (COSMOS-P01) is the loop that runs this engine. Dual-lane (COSMOS-P02) is one seating.
+
+[0016] Preferred skins: Forge (coding), Crucible (legal packet as occupancy not as a role-triad invention), Diligence (bull/bear/risk), Differentiator (anonymized medical casefile), Docket (IP). UPS is a physics skin that needs the inventor's July pack and is not invented here.
+
+[0017] Fail-closed runtime-binding (COSMOS-P04) is the gate. The ledger (COSMOS-P07) is authority. Dashboards are projections.
+
+## Best mode
+
+[0018] COSMOS Core as the OS; cDeck as a skin; products listed in docs/PROFILES.md; one CCr lease; orchestrator without the COSMOS pen. Encoded docs/CCR.md, docs/ADVERSARIAL_LOOP.md.
+
+## Further embodiments
+
+[0019] Parallel native windows bound to {profile, core_base, tree_id} are two clients of one Core, not two Cores. A peer Core stays unnamed until the operator names a host.
+
+## Disclosure clock (already public)
+
+[0020] CRUCIBLE is named in bts-mesh GitHub description 2026-08-16T10:21:14Z (word not in tracked files of that repo). Adversarial loop in public cosmos MOTIF, repository created 2026-08-23.
+
+## Information concerning related art (not an IDS; not a novelty opinion)
+
+[0021] Du 2023 debate; Irving 2018; Liang MAD; MoA; More Agents; Estornell and Liu; WO2025183627A1 (Lemon Inc MAD); US20240104125A1; US20250371498A1 (Microsoft, anti-isolation); AutoGen/ChatDev/MetaGPT/CAMEL/Magentic-One; Avizienis 1985; Knight and Leveson 1986; GitHub CODEOWNERS (VCS analog of one merger).
+
+[0022] Combination of isolation plus family critics versus decided plus one disposer plus skins: unknown as blocking. Pieces crowded. This is not a novelty opinion.
+
+## What this disclosure is not
+
+[0023] Not we invented multi-agent. Not Magentic-One (orchestrator holds the wrench). Not a voter over N-version binaries. Not a plaintiff-defense-judge patent (see COSMOS-P12 HOLD).
+
+## Statement of invention (not claims)
+
+[0024] One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding, legal, medical, diligence, and IP packets.
+
+[0025] Counsel may draft claims. The foregoing is a statement of invention, not a claim set under 35 U.S.C. 112(b).
+
+## Appendix to attach at filing
+
+[0026] HOW_IT_WORKS.pdf (APP_OS: SCAR, ROLD, carry-over; APP_COSMOS; APP_CRUCIBLE; APP_BTS_MESH). Duplicate the appendix into this provisional at filing. A provisional cannot claim benefit of a sister.
