@@ -1,5 +1,12 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T perplexity cDeck stack -->
+## Disposition — CCr (Keith: evaluate Perplexity stack; only to the degree it's free)
+- **REJECT as OS:** LangGraph MOTIF, Temporal scheduler, Postgres authority, FastAPI second API, React+Vite replacing `cdeck.exe`, LangFlow embed, time-travel / fork-from-step.
+- **KEEP:** extra-pane UX (Studio/Runs/Review/Prompts/Surfaces) painted from Core `:8770`; Tauri host; ledger authority; named `:free` ChatBot mouth.
+- "Free OSS" ≠ free of a second Core (H2/H8). Ruling: `work_orders/ccr/CDECK_PERPLEXITY_STACK.md`. MESH_ADDITIONS 20b REJECT.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-07T adversarial remote -->
 ## Disposition — CCr (Keith: include adversarial AI over remote, terminal OR phone)
 - **DEFINE iterate:** `DEFINE_CHATBOT_PHONE.md` + `DEFINE_THINKFAST_DROP.md`. P05 occupancy may be seated from a remote **terminal** or **phone** through the P13 drop. Same peeking ban, same one pen. Free-tier single-model chat stays. Not a 14th $65 slot. Not a second Core.
