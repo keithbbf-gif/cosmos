@@ -108,6 +108,27 @@ pre-GPT-5 legacy tail.
 Shut down (excluded): Gemini 2.0 Flash/Flash-Lite, Gemini 3 Pro Preview (orig), 3.1 Flash-Lite
 Preview. `gem-api`'s actual pinned version isn't set in `cosmos_node_rails.py` — needs a probe.
 
+### Gemma 4 via OpenRouter (named pin, Keith 2026-09-07)
+
+Not Gemini. Not the rejected `openrouter/free` rotator. COSMOS rail `openrouter-api`.
+
+| Version | API model ID | Path |
+|---|---|---|
+| Gemma 4 26B A4B IT (free) | `google/gemma-4-26b-a4b-it:free` | **wired** — default `openrouter-api` |
+| Gemma 4 31B IT (free) | `google/gemma-4-31b-it:free` | **wired** — explicit `--model` |
+| GLM 5.3 Flash (value coder) | `z-ai/glm-5.3-flash` | **wired 2026-09-07** — Keith: high skill, low cost. Live rater coding **71.5**, **$0.075 / $0.250** per 1M. Named pin, not the rotator. |
+
+Key: `live/config/openrouter_api_key.txt`. Rotator `openrouter/free` stays REFUSED.
+
+### Vertex coding wallet (Keith 2026-09-07: $300 GEM tokens)
+
+`vertex-coding` · `orders.ggn@gmail.com` · **$300** · expires **2026-12-04**. Not Joanna `gem-api`. Not Studio Free.
+
+| Use | Model ID | Notes |
+|---|---|---|
+| **Top-tier coder** | `gemini-3.1-pro-preview` | Google's most advanced (model card Feb 2026). Live ping **VERTEX-PRO-PONG** 2026-09-07, `ok true`, $0.000269. |
+| Default ping (cheap) | `gemini-2.5-flash` | Stays the spec default so routine probes do not burn Pro. |
+
 ---
 
 ## Grand totals

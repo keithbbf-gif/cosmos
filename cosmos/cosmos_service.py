@@ -24,6 +24,13 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
+    GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
+    GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
+    POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
+    POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
+                                       action=add|remove for N parallel adversarial coders
+    POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
+    POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
     POST /api/v1/spend   - SET/ADJUST a rail cap or the breaker thresholds
                            (F-03). Bearer-gated, every field validated, and
                            NEVER a silent widen: any change giving more room
@@ -239,6 +246,22 @@ def _cdeck_panel_get(mod: str):
     if d not in sys.path:
         sys.path.append(d)
     return getattr(importlib.import_module(mod), "handle_get")
+
+
+def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
+    """Call a binder with only the kwargs its handle_get accepts.
+
+    Recents takes query= (open= / id=). Fleet / nodemap / jukebox do not —
+    passing query= is TypeError, swallowed as 503 CDECK_PANEL_NOT_COMPOSED.
+    """
+    import inspect
+    params = inspect.signature(hg).parameters
+    kw = {}
+    if "expected_tree_id" in params:
+        kw["expected_tree_id"] = expected_tree_id
+    if "query" in params:
+        kw["query"] = query
+    return hg(root, **kw)
 
 
 def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
@@ -693,8 +716,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     if parsed.path == "/api/v1/recents":
                         from urllib.parse import parse_qs
                         q = parse_qs(parsed.query)
-                    code, body = hg(kernel.paths.root, expected_tree_id=tid,
-                                    query=q)
+                    code, body = _cdeck_panel_invoke(
+                        hg, kernel.paths.root,
+                        expected_tree_id=tid, query=q)
                 except Exception as e:  # noqa: BLE001
                     return self._send(503, {
                         "error": "CDECK_PANEL_NOT_COMPOSED",
@@ -726,6 +750,29 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 return self._send(200, {"measured_at": time.time(),
                                         "makers": rows})
+            if parsed.path == "/api/v1/gitur":
+                from cosmos_gitur import GiturError, snapshot as gitur_snapshot
+                try:
+                    return self._send(200, gitur_snapshot(kernel))
+                except GiturError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/model_rater":
+                from urllib.parse import parse_qs as _mr_qs
+                from cosmos_model_rater import ModelRaterError, snapshot
+                q = _mr_qs(parsed.query)
+                try:
+                    rec = snapshot(
+                        kernel.paths,
+                        sort=(q.get("sort") or ["price"])[0],
+                        desc=(q.get("desc") or ["0"])[0] in ("1", "true", "yes"),
+                        type_name=(q.get("type") or [""])[0],
+                        q=(q.get("q") or [""])[0],
+                        limit=(q.get("limit") or [400])[0],
+                    )
+                except ModelRaterError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
             if parsed.path == "/api/v1/cvm/pull":
                 # CVM P3 additive. Bearer already checked. Projection is the
                 # source of truth; this branch does not rewrite pull.json and
@@ -1393,6 +1440,73 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except Exception as e:                            # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
+            _mr = _cvm_urlparse(self.path).path
+            if _mr in ("/api/v1/model_rater/refresh",
+                       "/api/v1/model_rater/seat",
+                       "/api/v1/model_rater/estimate",
+                       "/api/v1/model_rater/job_estimate"):
+                from cosmos_model_rater import (
+                    ModelRaterError, add_adversary, assign_seat, estimate,
+                    load_catalog, load_job_estimate, remove_adversary,
+                    reset_job_estimate, save_job_estimate, snapshot,
+                    refresh as mr_refresh,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    if _mr.endswith("/refresh"):
+                        rec = mr_refresh(kernel.paths)
+                        return self._send(200, {
+                            "ok": True, "n": rec.get("n"),
+                            "fetched_at": rec.get("fetched_at"),
+                            "http": rec.get("http"),
+                        })
+                    if _mr.endswith("/seat"):
+                        act = str(d.get("action") or "assign").strip().lower()
+                        if act == "add":
+                            rec = add_adversary(kernel.paths,
+                                                d.get("model") or "",
+                                                d.get("label") or "")
+                            return self._send(200, rec)
+                        if act == "remove":
+                            rec = remove_adversary(kernel.paths,
+                                                   d.get("seat") or "")
+                            return self._send(200, rec)
+                        rec = assign_seat(kernel.paths, d.get("profile"),
+                                          d.get("seat"), d.get("model") or "")
+                        return self._send(200, rec)
+                    if _mr.endswith("/job_estimate"):
+                        if d.get("reset"):
+                            rec = reset_job_estimate(kernel.paths)
+                        else:
+                            rec = save_job_estimate(
+                                kernel.paths,
+                                d.get("tokens_in"), d.get("tokens_out"),
+                                override=d.get("override", True))
+                        snap = snapshot(kernel.paths, limit=1)
+                        rec["job_costs"] = snap.get("job_costs")
+                        rec["seats"] = snap.get("seats")
+                        return self._send(200, rec)
+                    cat = load_catalog(kernel.paths)
+                    rec = estimate(cat, d.get("model"),
+                                   d.get("tokens_in") or 0,
+                                   d.get("tokens_out") or 0)
+                    return self._send(200, rec)
+                except ModelRaterError as e:
+                    code = 401 if e.kind in ("NO_KEY", "AUTH_REQUIRED") else 400
+                    if e.kind == "UNREACHABLE":
+                        code = 503
+                    return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 
         def log_message(self, *a):                                    # quiet server
