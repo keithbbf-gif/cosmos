@@ -40,9 +40,12 @@ def test_studio_does_not_submit_jobs():
     assert "simultaneous" in src
     assert "continue_when" in src
     assert "via_gitur" in src
+    assert "dest_via_gitur" in src
+    assert "GITUR_DESTS" in src
     assert "max_rounds" in src
     assert "budget_usd" in src
     assert "IMPLEMENT" in src
+    assert "local file" in src.lower() or "Local file" in src
 
 
 if __name__ == "__main__":
