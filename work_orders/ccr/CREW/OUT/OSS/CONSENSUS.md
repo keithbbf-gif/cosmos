@@ -11,7 +11,7 @@ Three independent code reads agreed. Perplexity stack REJECT stands.
 |---|---|
 | **IN COSMOS** | Pause-without-LLM-poll (P13), SEED close (P11), CCr `--accept` as resume, ledger authority (P07), spend 409 (P09), jukebox stale, FINDINGS as HITL, dual-lane isolation (P02). |
 | **ADAPT** | (1) Ledger `WORK_ORDER_PICKED` at pickup before the agent runs — folder `picked/` is not authority (LangGraph crash-before-first-`put`). (2) Review = FINDINGS + stale RUNNING as their waiting list — already painted; do not add `waiting`/`PAUSED` to OUTCOMES. (3) Two clocks: wall vs idle = timeout BROKE vs stale RUNNING. |
-| **BORROW** | **None.** No pip/npm of LangGraph, Temporal, n8n, Dify, LangFlow. |
+| **BORROW** | **None of their packages.** UX chrome is **ADAPT** (see `DEFINE_OSS_CDECK_UX.md`): n8n wait tooltip → Review resume surface; LangGraph interrupt.value → FINDINGS inspector HITL line; Gitur kept/dropped census. |
 | **LEARN** | Interrupt without checkpointer is a no-op; re-execute-node-on-resume is a footgun; short in-RAM wait vs long disk wait; heartbeat details ≠ SEED. |
 | **REFUSE** | Their runtimes, Postgres/Sqlite as run authority, time-travel/fork, auto-retry, public resume URLs, Celery, LangFlow canvas, `lfx serve`, FastAPI replacing `:8770`. |
 
