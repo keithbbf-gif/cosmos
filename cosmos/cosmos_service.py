@@ -11,6 +11,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/health   - the HealthBoard run
     GET /api/v1/spend    - the spend gate's audit
     GET /api/v1/tools    - the tool-contract report
+    GET /api/v1/tools_kit - COSMOS components + local callables + other tools.
+                           GET never mutates. UPS-JUDGE is NAMED.
     GET /api/v1/events   - ?since_seq= oldest <=100 records past the cursor
                            (a non-integer or out-of-range seq is 400 BAD_SINCE_SEQ);
                            optional ?tail=N (1..100) returns the NEWEST N past
@@ -726,6 +728,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                       else ToolContracts(kernel.ledger))
                 return self._send(200, {"measured_at": time.time(),
                                         "report": tc.report()})
+            if parsed.path == "/api/v1/tools_kit":
+                from cosmos_tools_kit import snapshot as tools_kit_snapshot
+                rec = tools_kit_snapshot(kernel)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if self.path.startswith("/api/v1/events"):
                 # THE LIVE-BACKEND PRIMITIVE: ledger tail since a sequence - the
                 # interactive frontend polls this append-only; old events never refetch.
