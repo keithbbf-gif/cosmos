@@ -75,8 +75,13 @@ Nothing written here is authority until COW files it into the tree.
     Do not invent his host. Mailbox first.
 11. **Orchestrator profiles (Keith 2026-09-02; product/skin 2026-09-04).**
     **Product → profile → skin.** The skin (cDeck) goes with the profile; the
-    profile goes with the **product** (e.g. **Crucible**, **medical differentiator**,
-    Cm house). Do not put a Crucible skin on the Cm profile or a Cm OpenWork+TUI
+    profile goes with the **product**. COSMOS2 roster (Keith 2026-09-07):
+    **UPS** (physics / spectra / UPS-JUDGE — July rebuild needs Keith),
+    **Forge** (coding, N adversarial, CCr estimate), **Crucible** (legal),
+    **Differentiator** (medical Crucible, anonymized casefiles),
+    **Diligence** (bull/bear/risk packet — fastest profitable clone),
+    **Docket** (patents / trademarks / IP — MOTIF 1 `docs/research/IP_DOCKET.md`).
+    Table: `docs/PROFILES.md`. Do not put a Crucible skin on the Cm profile or a Cm OpenWork+TUI
     home on Grayson’s Crucible product. Each profile still owns: pen, mailbox
     `writer_id`, hands, Chrome profile, live vs dark. Do not reuse another
     occupant’s Chrome, cookies, or folder grants. Grok Code ≠ GrokBot ≠ Cowork ≠
@@ -85,10 +90,11 @@ Nothing written here is authority until COW files it into the tree.
     (`cosmos/`, executed builds, tests Core runs, live ledger/registry/config). **One
     CCr at a time** (`CCR.lease`). **This session is CCr:** Grok 4.6 Build, pen
     **`V:\A`**. It writes work orders, runs **Gitur** (GitHub + GitLab + Cursor), reviews/refines,
-    then **this TUI writes** the live tree under the lease. OpenWork’s pen is its
-    **folder grant**, never the COSMOS root. CORE edits from OpenWork/orch **queue
-    here**. See `docs/CCR.md`. An empty lease file means CCr has not taken it yet,
-    not that this session lacks the pen.
+    then **this TUI writes** the live tree under the lease. **Keith 2026-09-08:**
+    this TUI **lives in the engine room**; **OpenWork is the GFO seat for now**
+    (ORC). OpenWork’s pen is its **folder grant**, never the COSMOS root. CORE
+    edits from OpenWork/orch **queue here**. See `docs/CCR.md`. An empty lease
+    file means CCr has not taken it yet, not that this session lacks the pen.
 13. **One stream, one root (Keith 2026-09-04).** COSMOS, LEGAL, plumbing, UPS, … each
     have their **own tree**. Do not park two streams in the same root. Mailbox + lease
     before any shared write. A **federated** install is **one product** (hence one

@@ -108,7 +108,7 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 - **Main right = this Grok TUI** (`grok-4.6` Build). **CCr + coder only.** Pen `V:\A`. Lease `CCR.lease` sid `01a06aba-…`. Not the human orch.
 - Core stays the ledger. Spec: `builds/cdeck/ORCH_HOME_SPEC.md` §5.
 
-**Occupancy (Keith 2026-09-05):** GFO **seated** as ORC. She rebuilds Cowork history in OpenWork, then other streams (Legal hoped today). **This TUI finishes COSMOS** (cDeck, features, federation). Keith steers CCr from this TUI and coordinates the two by hand. Not Legal from here. Memo: `docs/ORCH_SEAT.md`.
+**Occupancy (Keith 2026-09-08):** *You will live in the engine room. OpenWork is the GFO seat for now.* GFO = ORC on OpenWork. This TUI = CCr in the engine room (background CLI unless called forward onto Forge). Not Legal from here. Memo: `docs/ORCH_SEAT.md`.
 
 | Seat | Model | Wallet | Does |
 |---|---|---|---|

@@ -23,8 +23,9 @@ An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr R
 
 | Role | Pen | Writes |
 |---|---|---|
-| **ORC = Keith** (2026-09-06: *I run the ORC*) | **None** as a second writer on CORE. He steers. | Course, stop, orch talk, WOs he drops. GFO/OpenWork is a sit he runs — not this TUI as ORC. |
-| **CCr** (this TUI, Grok 4.6 Build) | **Write pen for live COSMOS CORE** (`V:\A`, `cosmos/`, lease) | Gitur + review + dispose. **Not ORC.** Does not wait for merge-say. **Exactly one** lease. |
+| **Captain** | Keith | Course, stop, money, credentials. |
+| **ORC = GFO** (Keith 2026-09-08: *openwork is the GFO seat for now*) | OpenWork grant only. **None** on CORE. | Orch talk, WOs, SSA. Live sit `V:\OPENWORK\COSMOS_2`. Not this TUI. |
+| **CCr** (this TUI, Grok 4.6 Build) | **Write pen for live COSMOS CORE** (`V:\A`, `cosmos/`, lease) | **Lives in the engine room.** Gitur + review + dispose. **Not ORC.** Background grok CLI unless called forward onto Forge. **Exactly one** lease. |
 | **OpenWork grant** | Workspace **`V:\Streams\openwork` only** | File work + orch mailbox. **Off** the OS live tree. No COSMOS folder grant. |
 | **Other streams** | **Own root only** | LEGAL, plumbing, UPS, … each have a tree. **No two streams share a root.** Mailbox before any shared write (BTS two-writer scar). |
 
@@ -48,7 +49,9 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 
 **Keith 2026-09-06: KEEP IT MERGED. Never wait for my say. I won’t be here.** Default is **MOTION**. Gitur BUILD on the cDeck product (`keithbbf-gif/cdeck`) **merges to `main` when it is mergeable** — no second tick, no “want me to merge?”, no parking a green PR. CCr does not delete a branch Cursor is still working on. Cosmos PRs **#30 #32 #36 #37 #38** stay unmerged (those are not this job).
 
-**Keith 2026-09-06: I run the ORC.** This TUI is **CCr**, not the orch wheel. Do not sit ORC. Do not wait for ORC to approve a Gitur merge. GFO remains a sit (Legal / COSMOS_2); she is not the live ORC while Keith runs it.
+**Keith 2026-09-06: I run the ORC.** Captain still. This TUI is **CCr**, not the orch wheel.
+
+**Keith 2026-09-08:** *You will live in the engine room. OpenWork is the GFO seat for now.* GFO sits OpenWork as ORC. This TUI does **not** sit ORC. Do not wait for ORC to approve a Gitur merge. Do not climb up to the wheel.
 
 **Keith 2026-09-06: You will be in the engine house running things yourself.** CCr **runs** Core / Gitur / merge / keep-synced. Keith will not be in that room. Do not idle waiting for ORC to turn the wrenches. Do not climb up to the wheel.
 
