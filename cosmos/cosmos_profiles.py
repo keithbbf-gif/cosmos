@@ -387,7 +387,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "stages": [dict(s) for s in MOTIF_STAGES],
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
         "skin_tabs": skin_tabs_for(row["id"]),
-        "motif_top": True,
+        "motif_top": row["id"] == "forge",
         "bar_catalog": [
             {"id": "plurality", "label": "Plurality — the most votes wins"},
             {"id": "majority", "label": "Majority — more than half of the seats"},
@@ -495,8 +495,8 @@ def _selftest() -> int:
           and forge.get("motif_top") is True
           and [s["id"] for s in forge["stages"]][0] == "define"
           and forge["label"] == "Forge — Coding")
-    check("every profile page pins MOTIF across the top",
-          lambda: snap.get("motif_top") is True and forge.get("motif_top") is True)
+    check("Website GC does not pin MOTIF on top (left tabs ARE the 9 stages)",
+          lambda: snap.get("motif_top") is False)
     setup = save_engine(paths, {
         "profile": "forge",
         "step_setup": {
