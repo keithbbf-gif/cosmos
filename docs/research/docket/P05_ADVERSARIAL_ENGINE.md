@@ -64,36 +64,40 @@ Sisters COSMOS-P01 through COSMOS-P13. No claim of benefit of a sister. 37 CFR 1
 
 [0019] Adversarial occupancy may be seated over remote. A terminal mouth or a phone mouth (the inventor: adversarial AI over remote, terminal or phone) drops a typed work order. The runner instantiates N isolated proposers and different-family critics. The disposer remains one. Neither mouth writes the live tree. This is not a shared-transcript crew on the phone and not a second Core.
 
+[0020] Every adversarial trial writes pairwise orthogonal porosity observations into the measurement database of COSMOS-P03 (disagreement frequency times error magnitude on named axes; tensor grid for seating). Forge and every profile use the same hook. Unmeasured until observed.
+
 ## Best mode
 
-[0020] COSMOS Core as the OS; cDeck as a skin; products listed in docs/PROFILES.md; one CCr lease; orchestrator without the COSMOS pen. Encoded docs/CCR.md, docs/ADVERSARIAL_LOOP.md.
+[0021] COSMOS Core as the OS; cDeck as a skin; products listed in docs/PROFILES.md; one CCr lease; orchestrator without the COSMOS pen. Encoded docs/CCR.md, docs/ADVERSARIAL_LOOP.md.
 
 ## Further embodiments
 
-[0021] Parallel native windows bound to {profile, core_base, tree_id} are two clients of one Core, not two Cores. A peer Core stays unnamed until the operator names a host.
+[0022] Parallel native windows bound to {profile, core_base, tree_id} are two clients of one Core, not two Cores. A peer Core stays unnamed until the operator names a host.
 
-[0022] Remote embodiment: adversarial AI over a terminal or a phone, same occupancy, same peeking ban, same one pen, ingress via COSMOS-P13.
+[0023] Remote embodiment: adversarial AI over a terminal or a phone, same occupancy, same peeking ban, same one pen, ingress via COSMOS-P13.
+
+[0024] Orthogonal porosity tensor (COSMOS-P03) is built into every trial this engine invokes, including remote mouths.
 
 ## Disclosure clock (already public)
 
-[0023] CRUCIBLE is named in bts-mesh GitHub description 2026-08-16T10:21:14Z (word not in tracked files of that repo). Adversarial loop in public cosmos MOTIF, repository created 2026-08-23.
+[0025] CRUCIBLE is named in bts-mesh GitHub description 2026-08-16T10:21:14Z (word not in tracked files of that repo). Adversarial loop in public cosmos MOTIF, repository created 2026-08-23.
 
 ## Information concerning related art (not an IDS; not a novelty opinion)
 
-[0024] Du 2023 debate; Irving 2018; Liang MAD; MoA; More Agents; Estornell and Liu; WO2025183627A1 (Lemon Inc MAD); US20240104125A1; US20250371498A1 (Microsoft, anti-isolation); AutoGen/ChatDev/MetaGPT/CAMEL/Magentic-One; Avizienis 1985; Knight and Leveson 1986; GitHub CODEOWNERS (VCS analog of one merger).
+[0026] Du 2023 debate; Irving 2018; Liang MAD; MoA; More Agents; Estornell and Liu; WO2025183627A1 (Lemon Inc MAD); US20240104125A1; US20250371498A1 (Microsoft, anti-isolation); AutoGen/ChatDev/MetaGPT/CAMEL/Magentic-One; Avizienis 1985; Knight and Leveson 1986; GitHub CODEOWNERS (VCS analog of one merger).
 
-[0025] Combination of isolation plus family critics versus decided plus one disposer plus skins: unknown as blocking. Pieces crowded. This is not a novelty opinion.
+[0027] Combination of isolation plus family critics versus decided plus one disposer plus skins: unknown as blocking. Pieces crowded. This is not a novelty opinion.
 
 ## What this disclosure is not
 
-[0026] Not we invented multi-agent. Not Magentic-One (orchestrator holds the wrench). Not a voter over N-version binaries. Not a plaintiff-defense-judge patent (see COSMOS-P12 HOLD).
+[0028] Not we invented multi-agent. Not Magentic-One (orchestrator holds the wrench). Not a voter over N-version binaries. Not a plaintiff-defense-judge patent (see COSMOS-P12 HOLD).
 
 ## Statement of invention (not claims)
 
-[0027] One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding, legal, medical, diligence, and IP packets, and reachable over remote from a terminal or a phone without mounting the live root.
+[0029] One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding, legal, medical, diligence, and IP packets, and reachable over remote from a terminal or a phone without mounting the live root, every trial writing the orthogonal porosity tensor of COSMOS-P03.
 
-[0028] Counsel may draft claims. The foregoing is a statement of invention, not a claim set under 35 U.S.C. 112(b).
+[0030] Counsel may draft claims. The foregoing is a statement of invention, not a claim set under 35 U.S.C. 112(b).
 
 ## Appendix to attach at filing
 
-[0029] HOW_IT_WORKS.pdf (APP_OS: SCAR, ROLD, carry-over; APP_COSMOS; APP_CRUCIBLE; APP_BTS_MESH). Duplicate the appendix into this provisional at filing. A provisional cannot claim benefit of a sister.
+[0031] HOW_IT_WORKS.pdf (APP_OS: SCAR, ROLD, carry-over; APP_COSMOS; APP_CRUCIBLE; APP_BTS_MESH). Duplicate the appendix into this provisional at filing. A provisional cannot claim benefit of a sister.

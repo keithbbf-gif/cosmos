@@ -271,7 +271,7 @@ AXES_META = (
     {"id": "blended", "label": "blended $/M (75% in / 25% out)",
      "source": "0.75 * prompt_per_m + 0.25 * completion_per_m. Not invented."},
     {"id": "porosity", "label": "porosity",
-     "source": "errors per 100 LOC × severity 1–10. UNMEASURED until observed. Federation aggregates, does not invent."},
+     "source": "Scalar fold: errors per 100 LOC × severity 1–10. Pair tensor is GET /api/v1/porosity. UNMEASURED until observed. Does not invent."},
 )
 SEAT_COPY_KEYS = (
     "model", "model_2", "model_3", "via", "via_2", "via_3",
@@ -921,11 +921,12 @@ def default_porosity() -> dict:
             "n_local": 0,
             "n_federated": 0,
             "note": (
-                "Porosity = (errors per 100 LOC) × (severity 1–10). "
+                "Scalar fold: (errors per 100 LOC) × (severity 1–10). "
                 "1 = incidental, 10 = security/data/system hazard. "
-                "UNMEASURED until observed. Federation aggregates peer "
-                "observations when a host is named — NO_HOST until then. "
-                "Does not invent scores."
+                "UNMEASURED until observed. Pairwise orthogonal porosity "
+                "(vector / tensor grid) is GET /api/v1/porosity. "
+                "Federation aggregates peer observations when a host is "
+                "named — NO_HOST until then. Does not invent scores."
             ),
         },
     }

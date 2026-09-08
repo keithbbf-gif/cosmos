@@ -6,9 +6,13 @@ OS** (SCAR system, ROLD, carry-over, Core, ingress) **and** MOTIF (the build
 loop) and whatever else qualifies. *COSMOS is much more than just MOTIF.*
 Shoot for ~10–12 if they are $65 each. Umbrella: *the new way — reliable,
 scalable AI.* Locally deployable, low fixed cost, free-weight models.
-**Porosity** (Keith: Pourosity): coder quality as hole-set; low-quality models
-with **different mistakes**, overlaid, cover surface quickly at a **> linear**
-rate versus stacking copies.
+**Porosity** (Keith: Pourosity): coder quality as hole-set **and** as a pairwise
+**orthogonal vector** on the axes of interest (not a scalar). Pair magnitude =
+disagreement frequency × error magnitude; more disagreement → more orthogonal.
+A **tensor grid** in a measurement database seats models for token efficiency
+and error discovery. Built into Forge and every adversarial trial. Low-quality
+models with **different mistakes**, overlaid, cover surface quickly at a
+**> linear** rate versus stacking copies.
 
 **This file is the index.** Written-description packets (Legal, not USPTO) live in
 `docs/research/docket/`. **Complete specs** (numbered paragraphs, 37 CFR 1.77
@@ -56,7 +60,7 @@ Trademarks are **$350 per class**, not this stack. Keith certifies micro-entity.
 |---|---|---|---|
 | 1 | `docket/P01_MOTIF_LOOP.md` | 9-stage; **DEFINE** first; iterate → DEFINE | **FILE** |
 | 2 | `docket/P02_DUAL_LANE.md` | Dual-lane; no shared context | **FILE** |
-| 3 | `docket/P03_POROSITY.md` | Family-axis; **Porosity**; superlinear vs copies | **FILE** |
+| 3 | `docket/P03_POROSITY.md` | Family-axis; **Porosity** as pairwise **orthogonal vector** + **tensor grid** (disagreement frequency × error magnitude); superlinear vs copies | **FILE** |
 | 4 | `docket/P04_RUNTIME_BIND.md` | Live-emit gate vs green-log | **FILE** |
 | 5 | `docket/P05_ADVERSARIAL_ENGINE.md` | Occupancy engine; one disposer; skins | **FILE** parent |
 | 6 | `docket/P06_LOCAL_FREE_WEIGHTS.md` | Local free weights; fixed cost vs S-tier | **FILE** |

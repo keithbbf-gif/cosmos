@@ -258,11 +258,11 @@ Isolating two full builders (each must run) with a peeking ban until compare, pl
 
 <!-- source: P03_POROSITY.md -->
 
-# P03 — Family-axis occupancy; Porosity; superlinear cover
+# P03 — Family-axis occupancy; orthogonal Porosity tensor; superlinear cover
 
 **Kind:** method / occupancy rule. **Status:** FILE. **Fee:** US provisional micro $65.
 
-**Named quantity (Keith 2026-09-07):** **Porosity** (written Pourosity in the order — use **Porosity** in the spec). The quality of a coder is quantified as porosity: the hole-set / mistake surface of that model (error classes, unseen tools, fabrication modes).
+**Named quantity (Keith 2026-09-07):** **Porosity** (written Pourosity in the order — use **Porosity** in the spec). The quality of a coder is quantified as porosity: the hole-set / mistake surface of that model (error classes, unseen tools, fabrication modes). **Keith 2026-09-07 (tensor):** it is a **vector**, measured orthogonal to the other agents/models on the axes of interest — not a single value. Pair magnitude = disagreement frequency × error magnitude. More disagreement → more orthogonal the pair. Observations live in a **database** and fold to a **tensor grid** `T[i,j,a]` for seating (token efficiency + error discovery). Built into Forge and every adversarial trial. UNMEASURED until observed. Not a 14th slot — this is P03 new matter **before filing**.
 
 ## What it is (in-tree)
 
@@ -280,10 +280,12 @@ N copies of one API (self-consistency; “More Agents Is All You Need”) bill N
 
 1. Assign each model a **family** (training house + tool surface + observed failure mode). Occupancy rule, not a clustering theorem.
 2. Quantify each coder’s **Porosity** p(m) as a hole-set measure (error classes / residual miss surface). Exact metric is an embodiment (pass/fail per task class, β co-failure, etc.).
-3. When seating votes (ARCH, BUILD, CRITICS): same family does not count twice.
-4. Overlay: residual holes of the ensemble ≈ intersection of porosities when mistakes **differ**; ≈ the first porosity when they **align**.
-5. Prefer adding a *different-porosity* (different-mistake) model, including a **low-quality** one, over adding a high-quality copy of the same family. Predicted: surface cover grows faster than the same-family baseline (flat / linear-in-invoice only).
-6. Dual-lane + different-family critics exist to punch **different** holes (P02, P05).
+3. Further quantify porosity as a **pairwise orthogonal vector** on named **axes of interest**. Pair magnitude = disagreement frequency × error magnitude. More disagreement → more orthogonal. Persist in a measurement database; fold to tensor grid T[i, j, a]. Seat for error discovery per token. UNMEASURED until observed. Not embedding cosine.
+4. When seating votes (ARCH, BUILD, CRITICS): same family does not count twice.
+5. Overlay: residual holes of the ensemble ≈ intersection of porosities when mistakes **differ**; ≈ the first porosity when they **align**.
+6. Prefer adding a *different-porosity* (different-mistake) model, including a **low-quality** one, over adding a high-quality copy of the same family. Predicted: surface cover grows faster than the same-family baseline (flat / linear-in-invoice only).
+7. Dual-lane + different-family critics exist to punch **different** holes (P02, P05). Every adversarial trial (Forge and every profile) writes the tensor.
+8. Built in — not an optional dashboard chip.
 
 ## Already public
 
@@ -301,7 +303,7 @@ Not Reason’s aviation model. Not “ensembles exist.” Not a measured superli
 
 ## Suggested independent idea
 
-Quantified **Porosity** of each coder; seating and overlay rules so that **different-mistake** (including low-quality) models cover residual surface faster than same-family copies.
+Quantified **Porosity** of each coder as a hole-set **and** as a pairwise orthogonal vector (magnitude = disagreement frequency × error magnitude), persisted as a tensor grid, with seating and overlay rules so that **different-mistake** (including low-quality) models cover residual surface faster than same-family copies, including token-efficient seating and a write from every adversarial trial.
 
 ---
 

@@ -149,6 +149,19 @@ def facilitate(paths, stage: str, engine: dict) -> dict:
     }
     d = bg_dir(paths, stage)
     d.mkdir(parents=True, exist_ok=True)
+    try:
+        from cosmos_porosity import hook_trial
+        axis = str((setup.get("axis") or "coding")).strip() or "coding"
+        hooked = hook_trial(
+            paths,
+            [{"model": r.get("model"), "ballot": r.get("ballot"),
+              "tokens": r.get("n_chars")} for r in done],
+            profile="forge", stage=stage, axis=axis,
+            trial_id=str(rec.get("saved_at") or ""),
+        )
+        rec["porosity"] = hooked
+    except Exception as e:  # noqa: BLE001
+        rec["porosity"] = {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
     (d / "consensus.json").write_text(
         json.dumps(rec, indent=2) + "\n", encoding="utf-8")
     return rec
@@ -285,15 +298,22 @@ def _selftest() -> int:
           and "openrouter/free" not in models)
     d = bg_dir(paths, "consensus1")
     d.mkdir(parents=True, exist_ok=True)
-    for i, b in enumerate(("A", "A", "B"), 1):
+    models = ("google/gemma-4-26b-a4b-it:free",
+              "google/gemma-4-31b-it:free",
+              "qwen/qwen3-32b:free")
+    for i, (b, m) in enumerate(zip(("A", "A", "B"), models, strict=True), 1):
         (d / ("run-x-%d.json" % i)).write_text(json.dumps({
-            "id": "r%d" % i, "ok": True, "ballot": b, "model": "x",
+            "id": "r%d" % i, "ok": True, "ballot": b, "model": m,
         }), encoding="utf-8")
     from cosmos_profiles import load_engine
     fac = facilitate(paths, "consensus1", load_engine(paths, "forge"))
     check("majority 2/3 meets the Forge bar; rotator never sat",
           lambda: fac["met"] is True and fac["winner"] == "A"
           and fac["bar"] == "majority")
+    check("facilitate writes orthogonal porosity pairs (UNMEASURED mag until error)",
+          lambda: isinstance(fac.get("porosity"), dict)
+          and fac["porosity"].get("n_written") == 3
+          and fac["porosity"].get("kind") == "OK")
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

@@ -32,6 +32,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
+    GET /api/v1/porosity - pairwise orthogonal porosity tensor. GET never mkdir.
+                           UNMEASURED until a pair is observed. Does not invent.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
     GET /api/v1/cred       - API/CLI/ADC key LEDs. Never echoes the secret. GET never mkdir.
     GET /api/v1/agents     - SDK / CLI / localhost agent presence (PATH/import).
@@ -58,6 +60,8 @@ that omits what it serves is an undocumented surface, not a short one):
                                        Not the Core spend gate.
     POST /api/v1/model_rater/porosity - record errors/100LOC × severity 1-10.
                                        Federation aggregates; does not invent.
+    POST /api/v1/porosity - pair observation or action=trial hook. Vector, not
+                           scalar. Mag = disagreement_freq × error_magnitude.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
     POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
     POST /api/v1/cred      - set/grab/delete/custom a named key. Never echoes.
@@ -965,6 +969,17 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["measured_at"] = time.time()
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/porosity":
+                from urllib.parse import parse_qs as _poro_qs
+                from cosmos_porosity import snapshot as porosity_snapshot
+                q = _poro_qs(parsed.query)
+                rec = porosity_snapshot(
+                    kernel.paths,
+                    profile=(q.get("profile") or [""])[0],
+                )
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/cvm/pull":
                 # CVM P3 additive. Bearer already checked. Projection is the
                 # source of truth; this branch does not rewrite pull.json and
@@ -1591,6 +1606,66 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/porosity":
+                from cosmos_porosity import (
+                    PorosityError, hook_trial, record_pair, recommend,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    act = str(d.get("action") or "pair").strip().lower()
+                    if act == "trial":
+                        rec = hook_trial(
+                            kernel.paths, d.get("runs") or [],
+                            profile=d.get("profile") or "forge",
+                            stage=d.get("stage") or "",
+                            axis=d.get("axis") or "",
+                            trial_id=d.get("trial_id") or "",
+                            error_mag=d.get("error_mag"),
+                            source=d.get("source") or "local",
+                        )
+                    elif act == "recommend":
+                        rec = {
+                            "ok": True,
+                            "ranked": recommend(
+                                kernel.paths,
+                                d.get("seated") or [],
+                                d.get("candidates") or [],
+                                axes=d.get("axes"),
+                                costs=d.get("costs"),
+                                profile=d.get("profile") or "forge",
+                            ),
+                        }
+                    else:
+                        rec = record_pair(
+                            kernel.paths,
+                            d.get("model_a") or "",
+                            d.get("model_b") or "",
+                            axis=d.get("axis") or "",
+                            disagree=d.get("disagree", True),
+                            error_mag=d.get("error_mag"),
+                            profile=d.get("profile") or "forge",
+                            stage=d.get("stage") or "",
+                            trial_id=d.get("trial_id") or "",
+                            tokens_a=d.get("tokens_a"),
+                            tokens_b=d.get("tokens_b"),
+                            who_erred=d.get("who_erred") or "",
+                            source=d.get("source") or "local",
+                            note=d.get("note") or "",
+                        )
+                    rec["tree_id"] = kernel.paths.sentinel.tree_id
+                    return self._send(200, rec)
+                except PorosityError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
             if _wo_urlparse(self.path).path == "/api/v1/profiles/bg":
                 from cosmos_forge_bg import ForgeBgError, facilitate, start as forge_bg_start
                 from cosmos_profiles import load_engine
