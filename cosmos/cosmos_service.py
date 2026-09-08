@@ -33,8 +33,9 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
                            ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
-    GET /api/v1/porosity - pairwise orthogonal porosity tensor. GET never mkdir.
-                           UNMEASURED until a pair is observed. Does not invent.
+    GET /api/v1/porosity - pairwise orthogonal porosity tensor T plus complement
+                           tensor C (rescue / co-failure / XOR-error). GET never
+                           mkdir. UNMEASURED until a pair is observed. Does not invent.
     GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
                            GET never mkdir. UNMEASURED until a dispatch is recorded.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
@@ -65,8 +66,9 @@ that omits what it serves is an undocumented surface, not a short one):
                                        Not the Core spend gate.
     POST /api/v1/model_rater/porosity - record errors/100LOC × severity 1-10.
                                        Federation aggregates; does not invent.
-    POST /api/v1/porosity - pair observation or action=trial hook. Vector, not
-                           scalar. Mag = disagreement_freq × error_magnitude.
+    POST /api/v1/porosity - pair observation, action=trial hook, or
+                           action=recommend. Vector, not scalar. Mag =
+                           disagreement_freq × error_magnitude. C from who_erred.
     POST /api/v1/usage   - action=generation {id} fetches GET /generation audit.
                            Not a billing page. Does not send usage.include.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
@@ -1698,6 +1700,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                 axes=d.get("axes"),
                                 costs=d.get("costs"),
                                 profile=d.get("profile") or "forge",
+                                mode=d.get("mode") or "complement",
                             ),
                         }
                     else:

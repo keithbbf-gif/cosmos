@@ -21,6 +21,7 @@ def test_service_declares_porosity_routes():
     assert "POST /api/v1/porosity" in src
     assert "GET never mkdir" in src
     assert "cosmos_porosity" in src
+    assert "complement" in src.lower()
 
 
 def test_forge_facilitate_hooks_porosity():

@@ -75,6 +75,12 @@ performance (`docs/MOTIF.md` swiss cheese).
    cost. UNMEASURED candidates sort last. Never invent a bake-off number.
 7. Live emit: GET `/api/v1/porosity` returns `n_obs` and pair folds the
    JSONL actually contains — not a green log.
+8. **Complement tensor C** (Keith 2026-09-07: *better way to measure how
+   different models complement positively vs negatively — add that as an
+   additional tensor in our dbase*). Same observation log. `who_erred` in
+   {a, b, both, none} scores rescue / co-failure / XOR-error. `unknown`
+   or omitted → C UNMEASURED. Ballot disagreement alone does not invent
+   who was wrong. Unsigned T stays.
 
 ## OFF-LIMITS
 
