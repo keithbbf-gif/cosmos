@@ -979,6 +979,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         role_q=(q.get("role_q") or [""])[0],
                         input_modalities=(q.get("input_modalities") or [""])[0],
                         output_modalities=(q.get("output_modalities") or [""])[0],
+                        category=(q.get("category") or [""])[0],
                     )
                 except ModelRaterError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})

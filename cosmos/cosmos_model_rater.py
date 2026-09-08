@@ -177,6 +177,25 @@ DOCS_CUT = {
     "output_modalities": ("text",),
     "input_modalities": ("text", "file", "image"),
 }
+# OpenRouter models TABLE (Keith screenshot): Programming + Text, Newest.
+# Columns: Weekly Tokens, Input, Output, Context, Latency, Throughput, Released.
+OR_CATEGORIES = (
+    "programming", "roleplay", "marketing", "marketing/seo", "technology",
+    "science", "translation", "legal", "finance", "health", "trivia",
+    "academia",
+)
+TABLE_CUT = {
+    "id": "table",
+    "label": "table · programming · text out · newest",
+    "url": (
+        "https://openrouter.ai/models?fmt=table"
+        "&output_modalities=text&category=programming"
+    ),
+    "fmt": "table",
+    "output_modalities": ("text",),
+    "category": "programming",
+    "sort": "newest",
+}
 # Vendor field → column. Copy only when present. Never invent a number.
 AA_FIELD_MAP = (
     ("intelligence_index", "intelligence"),
@@ -275,8 +294,12 @@ AXES_META = (
      "source": "UNMEASURED — no vendor file-work index on this fold"},
     {"id": "stability", "label": "stability",
      "source": "UNMEASURED — AA Endpoint Accuracy Index is not on the OpenRouter fold"},
-    {"id": "popularity", "label": "popularity",
-     "source": "OpenRouter weekly volume when the models row carries it; else UNMEASURED"},
+    {"id": "popularity", "label": "weekly tokens / popularity",
+     "source": "OpenRouter weekly volume (table: Weekly Tokens) when the models row carries it; else UNMEASURED"},
+    {"id": "throughput", "label": "throughput",
+     "source": "OpenRouter table Throughput = vendor output tokens/s (AA output_speed). UNMEASURED if missing."},
+    {"id": "latency", "label": "latency",
+     "source": "OpenRouter table Latency = vendor time-to-first-token / latency when sent. UNMEASURED if missing."},
     {"id": "recency", "label": "most recent",
      "source": "OpenRouter models.created (unix). Newest first."},
     {"id": "price", "label": "price",
@@ -538,7 +561,10 @@ def normalize_row(raw: dict) -> dict:
         "omniscience": None,
         "omniscience_nh": None,
         "popularity": _popularity(raw),
+        "weekly_tokens": _popularity(raw),
         "latency": None,
+        "throughput": None,
+        "categories": [],
         "created": created,
         "quality": None,
         "quality_n": 0,
@@ -553,6 +579,7 @@ def normalize_row(raw: dict) -> dict:
         "banned": False,
     }
     _copy_aa(row, aa)
+    row["throughput"] = row.get("speed")
     return row
 
 
@@ -804,12 +831,30 @@ def refresh(paths, *, http=None) -> dict:
     n_inherit = inherit_variant_quality(rows)
     for m in rows:
         _stamp_quality(m)
+        if m.get("throughput") is None:
+            m["throughput"] = m.get("speed")
+        if m.get("weekly_tokens") is None:
+            m["weekly_tokens"] = m.get("popularity")
+    prog_ids = set()
+    p_status, _ph, p_body = rail._call(
+        "GET", MODELS_PATH + "?category=programming")
+    if p_status == 200 and isinstance(p_body, dict):
+        for raw in p_body.get("data") or []:
+            if isinstance(raw, dict) and raw.get("id"):
+                prog_ids.add(str(raw["id"]))
+    for m in rows:
+        cats = list(m.get("categories") or [])
+        if m.get("id") in prog_ids and "programming" not in cats:
+            cats.append("programming")
+        m["categories"] = cats
     rec = {
         "schema": SCHEMA,
         "fetched_at": _iso_now(),
         "fetched_at_unix": time.time(),
         "http": status,
         "benchmarks_http": b_status,
+        "programming_http": p_status,
+        "n_programming": len(prog_ids),
         "n": len(rows),
         "n_quality": sum(1 for m in rows if m.get("quality") is not None),
         "n_benchmarks_joined": n_bench,
@@ -855,11 +900,13 @@ def _sort_key(row: dict, sort: str):
 def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
                  q="", limit=400, policy=None, show_banned=False,
                  favored_first=True, porosity=None,
-                 input_modalities="", output_modalities="") -> list[dict]:
+                 input_modalities="", output_modalities="",
+                 category="") -> list[dict]:
     sort = sort if sort in SORT_KEYS else "price"
     rows = list(catalog.get("models") or [])
     ql = str(q or "").strip().lower()
     tn = str(type_name or "").strip().lower()
+    catn = str(category or "").strip().lower()
     if tn == "docs":
         need_in = DOCS_CUT["input_modalities"]
         need_out = DOCS_CUT["output_modalities"]
@@ -878,12 +925,17 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
         _stamp_blend(row)
         if row["banned"] and not show_banned:
             continue
-        if tn and tn not in (row.get("types") or []):
-            continue
         ins, outs = _arch_mods(row)
-        if need_in and not _has_mods(ins, need_in):
+        if tn == "docs":
+            if not (_has_mods(ins, need_in) and _has_mods(outs, need_out)):
+                continue
+        elif tn and tn not in (row.get("types") or []):
             continue
-        if need_out and not _has_mods(outs, need_out):
+        elif need_in and not _has_mods(ins, need_in):
+            continue
+        elif need_out and not _has_mods(outs, need_out):
+            continue
+        if catn and catn not in [str(x).lower() for x in (row.get("categories") or [])]:
             continue
         if ql:
             blob = (str(row.get("id") or "") + " " + str(row.get("name") or "")
@@ -1475,7 +1527,8 @@ def estimate(catalog: dict, model: str, tokens_in: int, tokens_out: int) -> dict
 def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
              limit=400, refresh_if_stale=False, http=None,
              show_banned=False, role_q="",
-             input_modalities="", output_modalities="") -> dict:
+             input_modalities="", output_modalities="",
+             category="") -> dict:
     cat = load_catalog(paths)
     refreshed = False
     if refresh_if_stale and (cat.get("stale") or not cat.get("n")):
@@ -1488,7 +1541,8 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
                           q=q, limit=limit, policy=pol,
                           show_banned=bool(show_banned), porosity=poro,
                           input_modalities=input_modalities,
-                          output_modalities=output_modalities)
+                          output_modalities=output_modalities,
+                          category=category)
     job = load_job_estimate(paths)
     costs = job_costs(cat, seats.get("seats") or [],
                       job["tokens_in"], job["tokens_out"])
@@ -1515,7 +1569,10 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
                                   or (DOCS_CUT["output_modalities"]
                                       if str(type_name or "").strip().lower() == "docs"
                                       else ())),
+        "category": str(category or ""),
+        "categories": list(OR_CATEGORIES),
         "catalog_cut": dict(DOCS_CUT),
+        "table_cut": dict(TABLE_CUT),
         "models": models,
         "seats": seats.get("seats") or default_seats(),
         "roles": roles.get("roles") or [],
@@ -1608,6 +1665,10 @@ def _selftest() -> int:
                  "intelligence_index": 40.0, "coding_index": 55.0,
                  "agentic_index": 30.0},
             ], "meta": {"source": "artificial-analysis"}}
+        if method == "GET" and "category=programming" in str(path):
+            return 200, {}, {"data": [
+                {"id": "anthropic/claude-opus-5", "name": "Claude Opus 5"},
+            ]}
         if method == "GET" and str(path).endswith("/models"):
             return 200, {}, {"data": [
                 {"id": DEFAULT_MODEL, "name": "Gemma 4 26B A4B (free)",
@@ -1679,6 +1740,13 @@ def _selftest() -> int:
           and all("docs" in (m.get("types") or []) for m in docs["models"])
           and any(m["id"] == DEFAULT_MODEL for m in docs["models"])
           and all(m["id"] != "anthropic/claude-opus-5" for m in docs["models"]))
+    prog = snapshot(paths, category="programming", sort="recency")
+    check("table cut tags programming from vendor category GET, does not invent weekly tokens",
+          lambda: prog["table_cut"]["fmt"] == "table"
+          and prog["table_cut"]["category"] == "programming"
+          and all("programming" in (m.get("categories") or []) for m in prog["models"])
+          and any(m["id"] == "anthropic/claude-opus-5" for m in prog["models"])
+          and all(m["id"] != DEFAULT_MODEL for m in prog["models"]))
     est = estimate(rec, "anthropic/claude-opus-5", 1000, 500)
     check("cost estimate uses per-token * 1e6 card",
           lambda: abs(est["usd"] - (1000 * 15 / 1e6 + 500 * 75 / 1e6)) < 1e-9)
