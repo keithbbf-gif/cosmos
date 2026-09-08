@@ -47,6 +47,9 @@ MAX_ADV = 24
 LOCKED_SEATS = frozenset({
     ("forge", "ccr"),
     ("motif", "lane_a"), ("motif", "lane_b"),
+    ("motif", "research_sgh"), ("motif", "research_gem"),
+    ("motif", "critic_plaintiff"), ("motif", "critic_defense"),
+    ("motif", "critic_judge"),
     ("crucible", "plaintiff"), ("crucible", "defense"), ("crucible", "judge"),
     ("dispatch", "coding"), ("dispatch", "ssa"),
 })
@@ -71,27 +74,47 @@ VIA_OPTIONS = (
 )
 VIA_IDS = frozenset(v["id"] for v in VIA_OPTIONS)
 DEFAULT_SEATS = (
-    {"profile": "forge", "seat": "ccr",
+    {"profile": "forge", "seat": "ccr", "group": "Forge",
      "label": "CCr — Chief Coder", "model": CCR_MODEL, "via": "cli:grok",
      "locked": True},
-    {"profile": "forge", "seat": "adv_1",
-     "label": "Adversarial coder 1", "model": "", "via": "openrouter-api"},
-    {"profile": "forge", "seat": "adv_2",
-     "label": "Adversarial coder 2", "model": "", "via": "openrouter-api"},
-    {"profile": "motif", "seat": "lane_a",
-     "label": "MOTIF Lane A — Grok 4.6", "model": CCR_MODEL},
-    {"profile": "motif", "seat": "lane_b",
-     "label": "MOTIF Lane B — Cursor Opus 5", "model": "claude-opus-5"},
-    {"profile": "crucible", "seat": "plaintiff",
-     "label": "Crucible — Plaintiff's attorney", "model": ""},
-    {"profile": "crucible", "seat": "defense",
-     "label": "Crucible — Defense attorney", "model": ""},
-    {"profile": "crucible", "seat": "judge",
-     "label": "Crucible — Judge", "model": ""},
-    {"profile": "dispatch", "seat": "coding",
-     "label": "Dispatch — coding", "model": ""},
-    {"profile": "dispatch", "seat": "ssa",
-     "label": "Dispatch — cheap reasoning / SSA", "model": ""},
+    {"profile": "forge", "seat": "adv_1", "group": "Forge",
+     "label": "Forge — Adversarial coder 1", "model": "", "via": "openrouter-api"},
+    {"profile": "forge", "seat": "adv_2", "group": "Forge",
+     "label": "Forge — Adversarial coder 2", "model": "", "via": "openrouter-api"},
+    {"profile": "motif", "seat": "research_sgh", "group": "MOTIF RESEARCH",
+     "label": "MOTIF RESEARCH — SGH", "model": CCR_MODEL, "via": "cli:grok",
+     "locked": True},
+    {"profile": "motif", "seat": "research_gem", "group": "MOTIF RESEARCH",
+     "label": "MOTIF RESEARCH — GEM", "model": "gemini-2.5-flash",
+     "via": "gem-api", "locked": True},
+    {"profile": "motif", "seat": "lane_a", "group": "MOTIF BUILD",
+     "label": "MOTIF BUILD — Adversarial coder 1", "model": CCR_MODEL,
+     "via": "cli:grok", "locked": True},
+    {"profile": "motif", "seat": "lane_b", "group": "MOTIF BUILD",
+     "label": "MOTIF BUILD — Adversarial coder 2", "model": "claude-opus-5",
+     "via": "cursor-api", "locked": True},
+    {"profile": "motif", "seat": "build_3", "group": "MOTIF BUILD",
+     "label": "MOTIF BUILD — Adversarial coder 3", "model": "",
+     "via": "openrouter-api"},
+    {"profile": "motif", "seat": "critic_plaintiff", "group": "MOTIF CRITICS",
+     "label": "MOTIF CRITICS — Plaintiff", "model": "", "via": "openrouter-api",
+     "locked": True},
+    {"profile": "motif", "seat": "critic_defense", "group": "MOTIF CRITICS",
+     "label": "MOTIF CRITICS — Defense", "model": "", "via": "gem-api",
+     "locked": True},
+    {"profile": "motif", "seat": "critic_judge", "group": "MOTIF CRITICS",
+     "label": "MOTIF CRITICS — Judge", "model": CCR_MODEL, "via": "cli:grok",
+     "locked": True},
+    {"profile": "crucible", "seat": "plaintiff", "group": "Crucible",
+     "label": "Crucible — Plaintiff's attorney", "model": "", "locked": True},
+    {"profile": "crucible", "seat": "defense", "group": "Crucible",
+     "label": "Crucible — Defense attorney", "model": "", "locked": True},
+    {"profile": "crucible", "seat": "judge", "group": "Crucible",
+     "label": "Crucible — Judge", "model": "", "locked": True},
+    {"profile": "dispatch", "seat": "coding", "group": "Dispatch",
+     "label": "Dispatch — coding", "model": "", "locked": True},
+    {"profile": "dispatch", "seat": "ssa", "group": "Dispatch",
+     "label": "Dispatch — cheap reasoning / SSA", "model": "", "locked": True},
 )
 SORT_KEYS = frozenset({
     "price", "intelligence", "coding", "agentic", "quality", "q",
@@ -345,6 +368,10 @@ def load_seats(paths) -> dict:
                 row["label"] = have[key]["label"]
             if have[key].get("via"):
                 row["via"] = str(have[key]["via"])
+            if have[key].get("cap_usd") is not None:
+                row["cap_usd"] = have[key].get("cap_usd")
+            if have[key].get("group"):
+                row["group"] = have[key].get("group")
         merged.append(row)
         seen.add(key)
     for key, src in have.items():
@@ -353,13 +380,18 @@ def load_seats(paths) -> dict:
         merged.append({
             "profile": str(src.get("profile")),
             "seat": str(src.get("seat")),
+            "group": str(src.get("group") or src.get("profile") or ""),
             "label": str(src.get("label") or f"{src.get('profile')}.{src.get('seat')}"),
             "model": str(src.get("model") or ""),
             "via": str(src.get("via") or ""),
+            "cap_usd": src.get("cap_usd"),
             "assigned_at": src.get("assigned_at"),
         })
     rec["seats"] = merged
     rec["schema"] = SCHEMA
+    rec.setdefault("model_caps", {})
+    if not isinstance(rec.get("model_caps"), dict):
+        rec["model_caps"] = {}
     return rec
 
 
@@ -491,7 +523,42 @@ def normalize_via(via) -> str:
     return v
 
 
-def assign_seat(paths, profile: str, seat: str, model: str, via: str = "") -> dict:
+def _clamp_usd(raw, default=None):
+    if raw is None or raw == "":
+        return default
+    try:
+        n = float(raw)
+    except (TypeError, ValueError):
+        return default
+    if n < 0:
+        return 0.0
+    if n > 1_000_000:
+        return 1_000_000.0
+    return n
+
+
+def set_model_cap(paths, model: str, cap_usd) -> dict:
+    """Per-model spend limit on the rater. 0 = off. Not the Core spend gate."""
+    model = str(model or "").strip()
+    if not model:
+        raise ModelRaterError("BAD_INPUT", "model is required")
+    if model.lower() in ROTATING:
+        raise ModelRaterError("REFUSED", f"rotator id {model!r} is not assignable")
+    rec = load_seats(paths)
+    caps = rec.get("model_caps") if isinstance(rec.get("model_caps"), dict) else {}
+    n = _clamp_usd(cap_usd, None)
+    if n is None:
+        raise ModelRaterError("BAD_INPUT", "cap_usd is required")
+    if n == 0:
+        caps.pop(model, None)
+    else:
+        caps[model] = n
+    rec["model_caps"] = caps
+    return save_seats(paths, rec)
+
+
+def assign_seat(paths, profile: str, seat: str, model: str, via: str = "",
+                cap_usd=None) -> dict:
     profile = str(profile or "").strip().lower()
     seat = str(seat or "").strip().lower()
     model = str(model or "").strip()
@@ -510,6 +577,12 @@ def assign_seat(paths, profile: str, seat: str, model: str, via: str = "") -> di
             row["assigned_at"] = _iso_now() if model else None
             if via_n:
                 row["via"] = via_n
+            if cap_usd is not None and cap_usd != "":
+                n = _clamp_usd(cap_usd, 0.0)
+                if n == 0:
+                    row.pop("cap_usd", None)
+                else:
+                    row["cap_usd"] = n
             found = True
             break
     if not found:
@@ -757,6 +830,7 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "q": q or "",
         "models": models,
         "seats": seats.get("seats") or default_seats(),
+        "model_caps": seats.get("model_caps") or {},
         "job_estimate": job,
         "job_costs": costs,
         "ccr_initial": {"tokens_in": CCR_INITIAL_IN, "tokens_out": CCR_INITIAL_OUT},
@@ -880,6 +954,17 @@ def _selftest() -> int:
           lambda: { (s["profile"], s["seat"]) for s in default_seats() }
           >= {("motif", "lane_a"), ("motif", "lane_b"),
               ("crucible", "plaintiff"), ("crucible", "judge")})
+    check("roles enumerate BUILD adversarial 1-3, RESEARCH, CRITICS, Crucible plaintiff",
+          lambda: {(s["profile"], s["seat"]) for s in default_seats()}
+          >= {("motif", "lane_a"), ("motif", "lane_b"), ("motif", "build_3"),
+              ("motif", "research_sgh"), ("motif", "critic_plaintiff"),
+              ("forge", "adv_1"), ("forge", "adv_2"),
+              ("crucible", "plaintiff")})
+    caps = set_model_cap(paths, "anthropic/claude-opus-5", 12.5)
+    check("per-model cap stores USD; 0 clears it (not the Core spend gate)",
+          lambda: caps.get("model_caps", {}).get("anthropic/claude-opus-5") == 12.5
+          and set_model_cap(paths, "anthropic/claude-opus-5", 0
+                            ).get("model_caps", {}).get("anthropic/claude-opus-5") is None)
     check("Forge CCr seat is locked in defaults",
           lambda: any(s["profile"] == "forge" and s["seat"] == "ccr"
                       for s in default_seats()))
