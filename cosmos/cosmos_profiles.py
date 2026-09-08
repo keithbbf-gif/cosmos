@@ -188,15 +188,22 @@ def default_dest(profile_row: dict) -> dict:
 
 
 def default_step_setup() -> dict:
-    """Per-step Forge setup. Background free CLI is RESEARCH→CONSENSUS only."""
-    bars = ("research", "arch", "consensus1", "critics", "consensus2")
+    """Per-step setup for every MOTIF stage. Folders / files / prompt / roles
+    are occupancy setup, not invented scores. Background free CLI is
+    RESEARCH→CONSENSUS only."""
+    bars = frozenset(("research", "arch", "consensus1", "critics", "consensus2"))
     out = {}
-    for sid in bars:
+    for s in MOTIF_STAGES:
+        sid = s["id"]
         out[sid] = {
-            "bar": "majority",
-            "arch_choice": "auto",
-            "n_free": 3,
+            "bar": "majority" if sid in bars else "",
+            "arch_choice": "auto" if sid == "arch" else "",
+            "n_free": 3 if sid in bars else 0,
             "via": "cli",
+            "folders": "",
+            "files": "",
+            "prompt": "",
+            "roles": "",
         }
     return out
 
@@ -228,20 +235,25 @@ def _public_step_setup(raw) -> dict:
     for sid, dflt in base.items():
         got = src.get(sid) if isinstance(src.get(sid), dict) else {}
         bar = str(got.get("bar") or dflt["bar"]).strip().lower()
-        if bar not in ("plurality", "majority", "complete"):
+        if bar and bar not in ("plurality", "majority", "complete"):
             bar = dflt["bar"]
         choice = str(got.get("arch_choice") or dflt["arch_choice"]).strip().lower()
-        if choice not in ("auto", "hitl"):
+        if choice and choice not in ("auto", "hitl"):
             choice = dflt["arch_choice"]
         try:
-            n_free = int(got.get("n_free") or dflt["n_free"])
+            n_free = int(got.get("n_free") if got.get("n_free") not in (None, "") else dflt["n_free"])
         except (TypeError, ValueError):
             n_free = dflt["n_free"]
+        n_cap = 5 if dflt["n_free"] else 0
         out[sid] = {
             "bar": bar,
             "arch_choice": choice,
-            "n_free": max(1, min(n_free, 5)),
+            "n_free": max(0, min(n_free, n_cap or 5)) if n_cap else 0,
             "via": "cli",
+            "folders": str(got.get("folders") or dflt["folders"] or "")[:MAX_PATH],
+            "files": str(got.get("files") or dflt["files"] or "")[:MAX_NOTE],
+            "prompt": str(got.get("prompt") or dflt["prompt"] or "")[:MAX_NOTE],
+            "roles": str(got.get("roles") or dflt["roles"] or "")[:MAX_NOTE],
         }
     return out
 
@@ -375,7 +387,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "stages": [dict(s) for s in MOTIF_STAGES],
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
         "skin_tabs": skin_tabs_for(row["id"]),
-        "motif_top": row["id"] == "forge",
+        "motif_top": True,
         "bar_catalog": [
             {"id": "plurality", "label": "Plurality — the most votes wins"},
             {"id": "majority", "label": "Majority — more than half of the seats"},
@@ -483,8 +495,27 @@ def _selftest() -> int:
           and forge.get("motif_top") is True
           and [s["id"] for s in forge["stages"]][0] == "define"
           and forge["label"] == "Forge — Coding")
-    check("Website GC does not pin MOTIF on top (left tabs ARE the 9 stages)",
-          lambda: snap.get("motif_top") is False)
+    check("every profile page pins MOTIF across the top",
+          lambda: snap.get("motif_top") is True and forge.get("motif_top") is True)
+    setup = save_engine(paths, {
+        "profile": "forge",
+        "step_setup": {
+            "research": {
+                "folders": r"V:\A\Ai\COSMOS\docs",
+                "files": "MOTIF.md",
+                "prompt": "SGH + GEM first",
+                "roles": "SGH · GEM",
+                "bar": "majority",
+                "n_free": 3,
+            }
+        },
+    })
+    rs = ((setup.get("engine") or {}).get("step_setup") or {}).get("research") or {}
+    check("step setup persists folders/files/prompt/roles",
+          lambda: rs.get("folders", "").endswith("docs")
+          and rs.get("files") == "MOTIF.md"
+          and "SGH" in (rs.get("roles") or "")
+          and rs.get("prompt") == "SGH + GEM first")
     web_tabs = [t["id"] for t in (snap.get("skin_tabs") or [])]
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
