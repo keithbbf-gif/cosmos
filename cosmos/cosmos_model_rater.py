@@ -30,11 +30,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-SCHEMA = "cosmos-model-rater/2"
+SCHEMA = "cosmos-model-rater/3"
 WORKER = "cosmos-model-rater"
 TTL_S = 24 * 3600
 CATALOG_NAME = "catalog.json"
 SEATS_NAME = "seats.json"
+POROSITY_NAME = "porosity.json"
+BLEND_IN = 0.75
+BLEND_OUT = 0.25
 ROTATING = frozenset({
     "openrouter/free", "openrouter/auto", "openrouter/free:free",
 })
@@ -140,12 +143,15 @@ LOCKED_SEATS = frozenset(
     (d["profile"], d["seat"]) for d in DEFAULT_SEATS if d.get("locked")
 )
 SORT_KEYS = frozenset({
-    "price", "intelligence", "coding", "agentic", "quality", "q",
+    "price", "blended", "intelligence", "coding", "agentic", "quality", "q",
+    "intelligence_per_cost", "coding_per_cost", "agentic_per_cost",
+    "quality_per_cost", "porosity",
     "reasoning", "speed", "stability", "office", "file",
     "popularity", "recency", "created", "latency", "math",
     "name", "context", "id",
 })
 QUALITY_AXES = ("intelligence", "coding", "agentic")
+RATIO_AXES = ("intelligence", "coding", "agentic", "quality")
 EXTRA_AXES = ("speed", "math", "office", "file", "stability",
               "popularity", "latency", "reasoning")
 TYPE_KEYS = frozenset({
@@ -195,6 +201,10 @@ AXES_META = (
      "source": "OpenRouter models.created (unix). Newest first."},
     {"id": "price", "label": "price",
      "source": "OpenRouter pricing.prompt + pricing.completion, USD per 1M tokens"},
+    {"id": "blended", "label": "blended $/M (75% in / 25% out)",
+     "source": "0.75 * prompt_per_m + 0.25 * completion_per_m. Not invented."},
+    {"id": "porosity", "label": "porosity",
+     "source": "errors per 100 LOC × severity 1–10. UNMEASURED until observed. Federation aggregates, does not invent."},
 )
 SEAT_COPY_KEYS = (
     "model", "model_2", "model_3", "via", "via_2", "via_3",
@@ -220,6 +230,10 @@ def dir_for(paths) -> Path:
 
 def catalog_path(paths) -> Path:
     return dir_for(paths) / CATALOG_NAME
+
+
+def porosity_path(paths) -> Path:
+    return dir_for(paths) / POROSITY_NAME
 
 
 def seats_path(paths) -> Path:
@@ -438,6 +452,31 @@ def _stamp_quality(row: dict) -> dict:
     q = quality_score(row)
     row["quality"] = q
     row["quality_n"] = sum(1 for k in QUALITY_AXES if row.get(k) is not None)
+    _stamp_blend(row)
+    return row
+
+
+def blended_per_m(row: dict) -> float:
+    """USD per 1M tokens at 75% input / 25% output."""
+    pin = float(row.get("prompt_per_m") or 0)
+    pout = float(row.get("completion_per_m") or 0)
+    return round(BLEND_IN * pin + BLEND_OUT * pout, 6)
+
+
+def _per_cost(quality, blend):
+    """quality / blended $/M. None if either is UNMEASURED or blend is 0 (free)."""
+    q = _f(quality)
+    b = _f(blend)
+    if q is None or b is None or b <= 0:
+        return None
+    return round(q / b, 4)
+
+
+def _stamp_blend(row: dict) -> dict:
+    blend = blended_per_m(row)
+    row["blended_per_m"] = blend
+    for axis in RATIO_AXES:
+        row[f"{axis}_per_cost"] = _per_cost(row.get(axis), blend)
     return row
 
 
@@ -522,6 +561,9 @@ def load_catalog(paths) -> dict:
             _stamp_quality(m)
     rec["n_quality"] = sum(1 for m in rec["models"]
                            if isinstance(m, dict) and m.get("quality") is not None)
+    for m in rec["models"]:
+        if isinstance(m, dict):
+            _stamp_blend(m)
     return rec
 
 
@@ -665,12 +707,16 @@ def refresh(paths, *, http=None) -> dict:
 _AXIS_SORT = frozenset({
     "intelligence", "coding", "agentic", "quality", "q", "reasoning",
     "speed", "stability", "office", "file", "math", "popularity", "latency",
+    "intelligence_per_cost", "coding_per_cost", "agentic_per_cost",
+    "quality_per_cost", "porosity",
 })
 
 
 def _sort_key(row: dict, sort: str):
     if sort == "price":
         return (row.get("prompt_per_m") or 0) + (row.get("completion_per_m") or 0)
+    if sort == "blended":
+        return float(row.get("blended_per_m") or 0)
     if sort in _AXIS_SORT:
         key = "quality" if sort in ("quality", "q") else sort
         v = row.get(key)
@@ -686,7 +732,7 @@ def _sort_key(row: dict, sort: str):
 
 def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
                  q="", limit=400, policy=None, show_banned=False,
-                 favored_first=True) -> list[dict]:
+                 favored_first=True, porosity=None) -> list[dict]:
     sort = sort if sort in SORT_KEYS else "price"
     rows = list(catalog.get("models") or [])
     ql = str(q or "").strip().lower()
@@ -700,6 +746,7 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
         row["family"] = row.get("family") or family_of(row.get("id"))
         row["banned"] = is_banned(row.get("id"), pol)
         row["favored"] = is_favored(row.get("id"), pol)
+        _stamp_blend(row)
         if row["banned"] and not show_banned:
             continue
         if tn and tn not in (row.get("types") or []):
@@ -710,14 +757,22 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
             if ql not in blob:
                 continue
         out.append(row)
-    if sort in _AXIS_SORT:
+    if porosity:
+        apply_porosity(out, porosity)
+    if sort == "porosity":
+        # Lower porosity is better. Default ascending. None = UNMEASURED last.
+        out.sort(key=lambda r: (
+            r.get("porosity") is None,
+            (r.get("porosity") or 0.0) if not desc else -(r.get("porosity") or 0.0),
+        ))
+    elif sort in _AXIS_SORT:
         axis = "quality" if sort in ("quality", "q") else sort
         out.sort(key=lambda r, a=axis: (
             r.get(a) is None,
             (-(r.get(a) or 0.0)) if not desc else (r.get(a) or 0.0),
         ))
-    elif sort == "price":
-        out.sort(key=lambda r: _sort_key(r, "price"), reverse=bool(desc))
+    elif sort in ("price", "blended"):
+        out.sort(key=lambda r: _sort_key(r, sort), reverse=bool(desc))
     elif sort in ("recency", "created"):
         out.sort(key=lambda r: int(r.get("created") or 0), reverse=not bool(desc))
     elif sort == "context":
@@ -775,6 +830,148 @@ def set_model_cap(paths, model: str, cap_usd) -> dict:
         caps[model] = n
     rec["model_caps"] = caps
     return save_seats(paths, rec)
+
+
+def default_porosity() -> dict:
+    return {
+        "schema": SCHEMA,
+        "models": {},
+        "federation": {
+            "kind": "NO_HOST",
+            "n_local": 0,
+            "n_federated": 0,
+            "note": (
+                "Porosity = (errors per 100 LOC) × (severity 1–10). "
+                "1 = incidental, 10 = security/data/system hazard. "
+                "UNMEASURED until observed. Federation aggregates peer "
+                "observations when a host is named — NO_HOST until then. "
+                "Does not invent scores."
+            ),
+        },
+    }
+
+
+def load_porosity(paths) -> dict:
+    base = default_porosity()
+    p = porosity_path(paths)
+    if not p.is_file():
+        return base
+    try:
+        rec = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        base["kind"] = "BROKE"
+        return base
+    if not isinstance(rec, dict):
+        base["kind"] = "BROKE"
+        return base
+    models = rec.get("models") if isinstance(rec.get("models"), dict) else {}
+    clean = {}
+    n_local = 0
+    n_fed = 0
+    for mid, rows in models.items():
+        if not isinstance(rows, list):
+            continue
+        kept = []
+        for o in rows:
+            if not isinstance(o, dict):
+                continue
+            kept.append(o)
+            if str(o.get("source") or "local").lower() == "federation":
+                n_fed += 1
+            else:
+                n_local += 1
+        if kept:
+            clean[str(mid)] = kept
+    fed = dict(base["federation"])
+    if isinstance(rec.get("federation"), dict):
+        fed.update({k: rec["federation"].get(k, fed.get(k)) for k in fed})
+    fed["n_local"] = n_local
+    fed["n_federated"] = n_fed
+    if n_fed and fed.get("kind") == "NO_HOST":
+        fed["kind"] = "AGGREGATED"
+    return {"schema": SCHEMA, "models": clean, "federation": fed}
+
+
+def save_porosity(paths, rec: dict) -> dict:
+    d = dir_for(paths)
+    d.mkdir(parents=True, exist_ok=True)
+    rec = dict(rec)
+    rec["schema"] = SCHEMA
+    rec["updated_at"] = _iso_now()
+    porosity_path(paths).write_text(
+        json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return rec
+
+
+def _fold_obs(rows: list) -> dict:
+    vals = []
+    n_local = 0
+    n_fed = 0
+    for o in rows or []:
+        if not isinstance(o, dict):
+            continue
+        v = _f(o.get("porosity"))
+        if v is not None:
+            vals.append(v)
+        if str(o.get("source") or "local").lower() == "federation":
+            n_fed += 1
+        else:
+            n_local += 1
+    return {
+        "porosity": None if not vals else round(sum(vals) / len(vals), 4),
+        "n": len(vals),
+        "n_local": n_local,
+        "n_federated": n_fed,
+    }
+
+
+def apply_porosity(models: list[dict], rec: dict) -> None:
+    by = rec.get("models") if isinstance(rec.get("models"), dict) else {}
+    for m in models:
+        if not isinstance(m, dict):
+            continue
+        mid = str(m.get("id") or "")
+        fold = _fold_obs(by.get(mid) or [])
+        m["porosity"] = fold["porosity"]
+        m["porosity_n"] = fold["n"]
+        m["porosity_n_local"] = fold["n_local"]
+        m["porosity_n_federated"] = fold["n_federated"]
+
+
+def record_porosity(paths, model: str, loc_per_100, severity, *,
+                    source="local", loc_n=None, note="") -> dict:
+    """Record one porosity observation. Does not invent a score."""
+    model = str(model or "").strip()
+    if not model:
+        raise ModelRaterError("BAD_INPUT", "model is required")
+    if model.lower() in ROTATING:
+        raise ModelRaterError("REFUSED", f"rotator id {model!r} is not assignable")
+    loc = _f(loc_per_100)
+    sev = _f(severity)
+    if loc is None or loc < 0:
+        raise ModelRaterError("BAD_INPUT", "loc_per_100 must be >= 0")
+    if sev is None or sev < 1 or sev > 10:
+        raise ModelRaterError("BAD_INPUT", "severity must be 1–10")
+    src = str(source or "local").strip().lower()
+    if src not in ("local", "federation"):
+        raise ModelRaterError("BAD_INPUT", f"unknown porosity source {source!r}")
+    score = round(loc * sev, 4)
+    rec = load_porosity(paths)
+    rows = list(rec["models"].get(model) or [])
+    rows.append({
+        "porosity": score,
+        "loc_per_100": loc,
+        "severity": sev,
+        "loc_n": loc_n,
+        "source": src,
+        "note": str(note or "")[:240],
+        "at": _iso_now(),
+    })
+    rec["models"][model] = rows[-200:]
+    rec = save_porosity(paths, rec)
+    rec["last"] = {"model": model, "porosity": score, "source": src}
+    rec["fold"] = _fold_obs(rec["models"][model])
+    return rec
 
 
 def normalize_effort(effort) -> str:
@@ -1150,9 +1347,10 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         refreshed = True
     seats = load_seats(paths)
     pol = normalize_policy(seats.get("policy"))
+    poro = load_porosity(paths)
     models = query_models(cat, sort=sort, desc=desc, type_name=type_name,
                           q=q, limit=limit, policy=pol,
-                          show_banned=bool(show_banned))
+                          show_banned=bool(show_banned), porosity=poro)
     job = load_job_estimate(paths)
     costs = job_costs(cat, seats.get("seats") or [],
                       job["tokens_in"], job["tokens_out"])
@@ -1190,6 +1388,8 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "via_options": [dict(v) for v in VIA_OPTIONS],
         "effort_options": ["low", "medium", "high", "max"],
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
+        "blend": {"in": BLEND_IN, "out": BLEND_OUT},
+        "porosity": poro.get("federation") or default_porosity()["federation"],
     }
 
 
@@ -1362,6 +1562,26 @@ def _selftest() -> int:
     check("speed copies vendor output_speed, recency copies created",
           lambda: office.get("speed") == 42.0
           and office.get("created") == 1_800_000_000)
+    blend = blended_per_m(office)
+    check("blended cost is 75% in / 25% out per M",
+          lambda: abs(blend - (0.75 * 15 + 0.25 * 75)) < 1e-9
+          and office.get("blended_per_m") == blend)
+    check("INT/$ COD/$ AGT/$ Q/$ are quality / blended; free is UNMEASURED",
+          lambda: office.get("quality_per_cost") == _per_cost(office.get("quality"), blend)
+          and office.get("intelligence_per_cost") == _per_cost(90.0, blend)
+          and gem_free.get("blended_per_m") == 0
+          and gem_free.get("quality_per_cost") is None)
+    check("porosity is UNMEASURED until an observation is recorded",
+          lambda: snapshot(paths, limit=80)["models"][0].get("porosity") is None
+          and snapshot(paths, limit=1)["porosity"]["kind"] == "NO_HOST")
+    por = record_porosity(paths, "anthropic/claude-opus-5", 2.0, 10)
+    check("porosity = loc_per_100 * severity; federation does not invent",
+          lambda: por["last"]["porosity"] == 20.0
+          and por["fold"]["n_local"] == 1
+          and por["fold"]["n_federated"] == 0
+          and any(m.get("id") == "anthropic/claude-opus-5"
+                  and m.get("porosity") == 20.0
+                  for m in snapshot(paths, limit=80)["models"]))
     check("MCP is a via kind",
           lambda: any(v["id"] == "mcp:openwork" and v["kind"] == "MCP"
                       for v in VIA_OPTIONS))

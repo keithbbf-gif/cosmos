@@ -54,6 +54,8 @@ that omits what it serves is an undocumented surface, not a short one):
                                        action=add|remove for N parallel adversarial coders
     POST /api/v1/model_rater/cap     - per-model spend limit on the rater (0 = off).
                                        Not the Core spend gate.
+    POST /api/v1/model_rater/porosity - record errors/100LOC × severity 1-10.
+                                       Federation aggregates; does not invent.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
     POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
     POST /api/v1/spend   - SET/ADJUST a rail cap or the breaker thresholds
@@ -1670,14 +1672,15 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if _mr in ("/api/v1/model_rater/refresh",
                        "/api/v1/model_rater/seat",
                        "/api/v1/model_rater/cap",
+                       "/api/v1/model_rater/porosity",
                        "/api/v1/model_rater/policy",
                        "/api/v1/model_rater/estimate",
                        "/api/v1/model_rater/job_estimate"):
                 from cosmos_model_rater import (
                     ModelRaterError, add_adversary, assign_seat, estimate,
-                    load_catalog, load_job_estimate, remove_adversary,
-                    reset_job_estimate, save_job_estimate, set_model_cap,
-                    set_policy, snapshot, refresh as mr_refresh,
+                    load_catalog, load_job_estimate, record_porosity,
+                    remove_adversary, reset_job_estimate, save_job_estimate,
+                    set_model_cap, set_policy, snapshot, refresh as mr_refresh,
                 )
                 body = self._read_body()
                 if body is None:
@@ -1733,6 +1736,17 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     if _mr.endswith("/cap"):
                         rec = set_model_cap(kernel.paths, d.get("model") or "",
                                             d.get("cap_usd"))
+                        return self._send(200, rec)
+                    if _mr.endswith("/porosity"):
+                        rec = record_porosity(
+                            kernel.paths,
+                            d.get("model") or "",
+                            d.get("loc_per_100"),
+                            d.get("severity"),
+                            source=d.get("source") or "local",
+                            loc_n=d.get("loc_n"),
+                            note=d.get("note") or "",
+                        )
                         return self._send(200, rec)
                     if _mr.endswith("/job_estimate"):
                         if d.get("reset"):
