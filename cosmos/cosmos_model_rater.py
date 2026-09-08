@@ -1473,6 +1473,9 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "porosity": poro.get("federation") or default_porosity()["federation"],
         "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
         "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
+        "usage_cookbook": (
+            "https://openrouter.ai/docs/cookbook/administration/usage-accounting"
+        ),
         "hermes": hermes_probe(),
         "agents": _agents_fold(),
     }

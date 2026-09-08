@@ -34,6 +34,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
     GET /api/v1/porosity - pairwise orthogonal porosity tensor. GET never mkdir.
                            UNMEASURED until a pair is observed. Does not invent.
+    GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
+                           GET never mkdir. UNMEASURED until a dispatch is recorded.
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
     GET /api/v1/cred       - API/CLI/ADC key LEDs. Never echoes the secret. GET never mkdir.
     GET /api/v1/agents     - SDK / CLI / localhost agent presence (PATH/import).
@@ -62,6 +64,8 @@ that omits what it serves is an undocumented surface, not a short one):
                                        Federation aggregates; does not invent.
     POST /api/v1/porosity - pair observation or action=trial hook. Vector, not
                            scalar. Mag = disagreement_freq × error_magnitude.
+    POST /api/v1/usage   - action=generation {id} fetches GET /generation audit.
+                           Not a billing page. Does not send usage.include.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
     POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
     POST /api/v1/cred      - set/grab/delete/custom a named key. Never echoes.
@@ -980,6 +984,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/usage":
+                from cosmos_openrouter_rail import snapshot_usage
+                rec = snapshot_usage(kernel.paths)
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/cvm/pull":
                 # CVM P3 additive. Bearer already checked. Projection is the
                 # source of truth; this branch does not rewrite pull.json and
@@ -1606,6 +1616,39 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/usage":
+                from cosmos_openrouter_rail import (
+                    KEY_NAME, OpenRouterRail, OpenRouterRailError,
+                    record_usage,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                act = str(d.get("action") or "generation").strip().lower()
+                if act != "generation":
+                    return self._send(400, {"error": "BAD_INPUT",
+                                            "detail": "action=generation {id}"})
+                try:
+                    rail = OpenRouterRail(kernel.paths.config(KEY_NAME))
+                    rec = rail.fetch_generation(d.get("id") or d.get("generation_id") or "")
+                    if rec.get("ok") and rec.get("usage_fold"):
+                        record_usage(
+                            kernel.paths, rec["usage_fold"],
+                            model=str((rec["usage_fold"] or {}).get("model") or ""),
+                            stage="audit", profile="openrouter",
+                        )
+                    rec["tree_id"] = kernel.paths.sentinel.tree_id
+                    return self._send(200 if rec.get("ok") else 400, rec)
+                except OpenRouterRailError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
             if _wo_urlparse(self.path).path == "/api/v1/porosity":
                 from cosmos_porosity import (
                     PorosityError, hook_trial, record_pair, recommend,

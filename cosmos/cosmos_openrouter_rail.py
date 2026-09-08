@@ -28,6 +28,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -53,6 +54,11 @@ PINNED_VALUE = frozenset({VALUE_CODER})
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
+GENERATION_PATH = "/generation"
+USAGE_COOKBOOK = (
+    "https://openrouter.ai/docs/cookbook/administration/usage-accounting"
+)
+USAGE_OBS = "usage.jsonl"
 # Artificial Analysis indices (intelligence / coding / agentic) live here,
 # not on every GET /models row. Citation: openrouter.ai/docs … /benchmarks.
 BENCHMARKS_PATH = "/benchmarks?source=artificial-analysis&max_results=500"
@@ -91,9 +97,12 @@ def default_spec() -> dict:
         "timeout_s": 60,
         "vendor_docs": VENDOR_DOCS,
         "vendor_models": VENDOR_MODELS,
+        "usage_cookbook": USAGE_COOKBOOK,
         "note": (
             "OpenRouter named Gemma 4 :free pins. Not openrouter/free rotator. "
-            "Keith 2026-09-07. Bind response.model. Key never printed."
+            "Keith 2026-09-07. Bind response.model. Key never printed. "
+            "Usage is always in the chat response (cookbook usage-accounting). "
+            "Do not send usage.include — deprecated, no effect."
         ),
     }
 
@@ -138,6 +147,7 @@ def _pin_origin(spec: dict) -> dict:
     spec["schema"] = SCHEMA
     spec["vendor_docs"] = VENDOR_DOCS
     spec["vendor_models"] = VENDOR_MODELS
+    spec["usage_cookbook"] = USAGE_COOKBOOK
     return spec
 
 
@@ -237,6 +247,178 @@ def _real_http(method: str, url: str, body, headers: dict, timeout_s: float):
         return -1, {}, {"error": f"{type(e).__name__}: {e}"}
 
 
+def _as_int(v):
+    if v is None or v == "":
+        return None
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        try:
+            return int(float(v))
+        except (TypeError, ValueError):
+            return None
+
+
+def _as_float(v):
+    if v is None or v == "":
+        return None
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def fold_usage(obj) -> dict:
+    """Vendor usage as returned. Missing fields stay None — never invented.
+
+    Cookbook: usage is always in the chat response. usage.include is
+    deprecated and must not be sent. GET /generation?id= is the async audit.
+    """
+    rec = {
+        "kind": "UNMEASURED",
+        "generation_id": None,
+        "prompt_tokens": None,
+        "completion_tokens": None,
+        "total_tokens": None,
+        "reasoning_tokens": None,
+        "cached_tokens": None,
+        "cache_write_tokens": None,
+        "audio_tokens": None,
+        "cost": None,
+        "upstream_inference_cost": None,
+        "cookbook": USAGE_COOKBOOK,
+        "note": (
+            "Usage is always included in the chat response. "
+            "usage.include / stream_options.include_usage are deprecated "
+            "and are not sent. Does not invent."
+        ),
+    }
+    if not isinstance(obj, dict):
+        return rec
+    gid = obj.get("id")
+    if gid:
+        rec["generation_id"] = str(gid)
+    u = obj.get("usage") if isinstance(obj.get("usage"), dict) else {}
+    details_c = (u.get("completion_tokens_details")
+                 if isinstance(u.get("completion_tokens_details"), dict) else {})
+    details_p = (u.get("prompt_tokens_details")
+                 if isinstance(u.get("prompt_tokens_details"), dict) else {})
+    cost_d = (u.get("cost_details")
+              if isinstance(u.get("cost_details"), dict) else {})
+    rec["prompt_tokens"] = _as_int(u.get("prompt_tokens"))
+    rec["completion_tokens"] = _as_int(u.get("completion_tokens"))
+    rec["total_tokens"] = _as_int(u.get("total_tokens"))
+    rec["reasoning_tokens"] = _as_int(details_c.get("reasoning_tokens"))
+    rec["cached_tokens"] = _as_int(details_p.get("cached_tokens"))
+    rec["cache_write_tokens"] = _as_int(details_p.get("cache_write_tokens"))
+    rec["audio_tokens"] = _as_int(details_p.get("audio_tokens"))
+    rec["cost"] = _as_float(u.get("cost"))
+    rec["upstream_inference_cost"] = _as_float(
+        cost_d.get("upstream_inference_cost"))
+    measured = any(
+        rec[k] is not None
+        for k in ("prompt_tokens", "completion_tokens", "total_tokens",
+                  "cost", "cached_tokens", "reasoning_tokens")
+    )
+    rec["kind"] = "MEASURED" if measured else "UNMEASURED"
+    return rec
+
+
+def usage_dir(paths) -> Path:
+    return paths.role("state", "openrouter")
+
+
+def usage_path(paths) -> Path:
+    return usage_dir(paths) / USAGE_OBS
+
+
+def record_usage(paths, fold: dict, *, model="", stage="", profile="") -> dict:
+    """Append one observed usage row. Does not invent. POST-path only."""
+    row = dict(fold) if isinstance(fold, dict) else fold_usage({})
+    row["schema"] = SCHEMA
+    row["at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+    row["model"] = str(model or "")[:160]
+    row["stage"] = str(stage or "")[:40]
+    row["profile"] = str(profile or "")[:40]
+    d = usage_dir(paths)
+    d.mkdir(parents=True, exist_ok=True)
+    with usage_path(paths).open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+    snap = snapshot_usage(paths)
+    snap["last"] = row
+    return snap
+
+
+def snapshot_usage(paths) -> dict:
+    """GET fold. Never mkdir. Never invents."""
+    p = usage_path(paths)
+    rec = {
+        "schema": SCHEMA,
+        "ok": True,
+        "kind": "UNMEASURED",
+        "n_obs": 0,
+        "prompt_tokens": None,
+        "completion_tokens": None,
+        "total_tokens": None,
+        "cost": None,
+        "cookbook": USAGE_COOKBOOK,
+        "does_not_send_include": True,
+        "note": (
+            "OpenRouter usage accounting: tokens/cost/cache from the chat "
+            "response. GET /generation?id= is audit, not a billing page. "
+            "UNMEASURED until a dispatch is recorded."
+        ),
+    }
+    if not p.is_file():
+        return rec
+    try:
+        text = p.read_text(encoding="utf-8")
+    except OSError:
+        rec["kind"] = "BROKE"
+        return rec
+    n = 0
+    ptok = ctok = ttok = 0
+    cost = 0.0
+    saw_p = saw_c = saw_t = saw_cost = False
+    last = None
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            row = json.loads(line)
+        except ValueError:
+            continue
+        if not isinstance(row, dict):
+            continue
+        n += 1
+        last = row
+        v = _as_int(row.get("prompt_tokens"))
+        if v is not None:
+            ptok += v
+            saw_p = True
+        v = _as_int(row.get("completion_tokens"))
+        if v is not None:
+            ctok += v
+            saw_c = True
+        v = _as_int(row.get("total_tokens"))
+        if v is not None:
+            ttok += v
+            saw_t = True
+        f = _as_float(row.get("cost"))
+        if f is not None:
+            cost += f
+            saw_cost = True
+    rec["n_obs"] = n
+    rec["prompt_tokens"] = ptok if saw_p else None
+    rec["completion_tokens"] = ctok if saw_c else None
+    rec["total_tokens"] = ttok if saw_t else None
+    rec["cost"] = round(cost, 8) if saw_cost else None
+    rec["kind"] = "MEASURED" if n else "UNMEASURED"
+    rec["last"] = last
+    return rec
+
+
 def _message_text(body: dict) -> str:
     choices = body.get("choices") if isinstance(body, dict) else None
     if not isinstance(choices, list) or not choices:
@@ -315,7 +497,7 @@ class OpenRouterRail:
         self._last = rec
         return ok, rec["detail"]
 
-    def dispatch(self, payload: dict) -> dict:
+    def dispatch(self, payload: dict, *, paths=None) -> dict:
         payload = payload if isinstance(payload, dict) else {}
         model = str(payload.get("model") or self.spec["default_model"]).strip()
         why = model_refused(model)
@@ -348,6 +530,8 @@ class OpenRouterRail:
             "stream": False,
             "provider": {"allow_fallbacks": False},
         }
+        # Cookbook: usage is always in the response. Do not send the
+        # deprecated usage.include / stream_options.include_usage flags.
         status, hdrs, obj = self._call("POST", CHAT_PATH, body)
         usage = obj.get("usage") if isinstance(obj, dict) else None
         response_model = obj.get("model") if isinstance(obj, dict) else None
@@ -356,6 +540,7 @@ class OpenRouterRail:
             str(response_model) == model or str(response_model).startswith(model.split(":")[0])
         )
         ok = status == 200 and bound_ok
+        usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
         rec = {
             "ok": ok,
             "http": status,
@@ -364,14 +549,71 @@ class OpenRouterRail:
             "model": response_model,
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
+            "usage_fold": usage_fold,
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "link_id": self.link_id,
             "detail": f"http={status} response_model={response_model!r}",
         }
         if not ok and rec["kind"] is None:
             rec["kind"] = "BROKE"
+        if ok and paths is not None:
+            try:
+                record_usage(paths, usage_fold, model=str(response_model or model),
+                             stage=str(payload.get("stage") or ""),
+                             profile=str(payload.get("profile") or ""))
+            except Exception:  # noqa: BLE001
+                rec["usage_record"] = "BROKE"
         self._last = rec
         return rec
+
+    def fetch_generation(self, generation_id: str) -> dict:
+        """GET /generation?id= — async usage audit. Not a billing page."""
+        gid = str(generation_id or "").strip()
+        if not gid:
+            return {"ok": False, "kind": "BAD_INPUT",
+                    "detail": "generation id required",
+                    "cookbook": USAGE_COOKBOOK}
+        q = GENERATION_PATH + "?id=" + urllib.parse.quote(gid, safe="")
+        status, hdrs, obj = self._call("GET", q)
+        data = obj.get("data") if isinstance(obj, dict) else None
+        if not isinstance(data, dict):
+            data = obj if isinstance(obj, dict) else {}
+        fold = {
+            "kind": "UNMEASURED",
+            "generation_id": data.get("id") or gid,
+            "prompt_tokens": _as_int(data.get("native_tokens_prompt")
+                                     or data.get("tokens_prompt")),
+            "completion_tokens": _as_int(data.get("native_tokens_completion")
+                                         or data.get("tokens_completion")),
+            "total_tokens": None,
+            "reasoning_tokens": _as_int(data.get("native_tokens_reasoning")),
+            "cached_tokens": _as_int(data.get("native_tokens_cached")),
+            "cost": _as_float(data.get("total_cost")
+                              if data.get("total_cost") is not None
+                              else data.get("usage")),
+            "upstream_inference_cost": _as_float(
+                data.get("upstream_inference_cost")),
+            "model": data.get("model"),
+            "is_byok": data.get("is_byok"),
+            "cookbook": USAGE_COOKBOOK,
+            "source": "GET /generation",
+        }
+        if fold["prompt_tokens"] is not None and fold["completion_tokens"] is not None:
+            fold["total_tokens"] = fold["prompt_tokens"] + fold["completion_tokens"]
+        fold["kind"] = (
+            "MEASURED" if any(fold[k] is not None for k in (
+                "prompt_tokens", "completion_tokens", "cost"))
+            else "UNMEASURED"
+        )
+        # Cookbook: upstream_inference_cost is only for BYOK; else 0/null.
+        return {
+            "ok": status == 200,
+            "http": status,
+            "kind": None if status == 200 else _http_kind(status),
+            "usage_fold": fold,
+            "cookbook": USAGE_COOKBOOK,
+            "link_id": self.link_id,
+        }
 
 
 def spec_path_for(paths) -> Path:
@@ -583,24 +825,70 @@ def _selftest() -> int:
             }
         if method == "POST" and path == CHAT_PATH:
             assert body.get("provider", {}).get("allow_fallbacks") is False
+            assert "usage" not in body
+            assert "stream_options" not in body
             return 200, {}, {
                 "id": "gen-test",
                 "model": body.get("model"),
                 "choices": [{"message": {"role": "assistant",
                                          "content": "GEMMA4_READY"}}],
-                "usage": {"prompt_tokens": 4, "completion_tokens": 2,
-                          "total_tokens": 6},
+                "usage": {
+                    "prompt_tokens": 4,
+                    "completion_tokens": 2,
+                    "total_tokens": 6,
+                    "cost": 0.0,
+                    "cost_details": {"upstream_inference_cost": 0},
+                    "completion_tokens_details": {"reasoning_tokens": 0},
+                    "prompt_tokens_details": {
+                        "cached_tokens": 1,
+                        "cache_write_tokens": 0,
+                        "audio_tokens": 0,
+                    },
+                },
             }
+        if method == "GET" and path.startswith(GENERATION_PATH):
+            return 200, {}, {"data": {
+                "id": "gen-test",
+                "model": DEFAULT_MODEL,
+                "tokens_prompt": 4,
+                "tokens_completion": 2,
+                "native_tokens_prompt": 4,
+                "native_tokens_completion": 2,
+                "native_tokens_cached": 1,
+                "native_tokens_reasoning": 0,
+                "total_cost": 0.0,
+                "upstream_inference_cost": 0,
+                "usage": 0.0,
+                "is_byok": False,
+            }}
         return 404, {}, {"error": path}
 
     rail = OpenRouterRail(keyp, spec, http=fake_http)
     ok, detail = rail.probe()
     check("probe has gemma-4-26b-a4b-it:free",
           lambda: ok and DEFAULT_MODEL in detail)
-    chat = rail.dispatch({"text": "ping"})
+    empty_u = snapshot_usage(paths)
+    check("usage GET is UNMEASURED and does not mkdir",
+          lambda: empty_u["kind"] == "UNMEASURED" and empty_u["n_obs"] == 0
+          and not usage_dir(paths).exists())
+    chat = rail.dispatch({"text": "ping"}, paths=paths)
     check("chat-create binds response.model",
           lambda: chat["ok"] and chat["model"] == DEFAULT_MODEL
           and chat["text"] == "GEMMA4_READY")
+    check("usage fold is vendor-native; cost 0 is measured not invented",
+          lambda: chat["usage_fold"]["kind"] == "MEASURED"
+          and chat["usage_fold"]["prompt_tokens"] == 4
+          and chat["usage_fold"]["cached_tokens"] == 1
+          and chat["usage_fold"]["cost"] == 0.0
+          and chat["usage_fold"]["cookbook"] == USAGE_COOKBOOK)
+    snap_u = snapshot_usage(paths)
+    check("recorded usage is on disk after dispatch, not before GET",
+          lambda: snap_u["n_obs"] == 1 and snap_u["kind"] == "MEASURED"
+          and snap_u["prompt_tokens"] == 4)
+    gen = rail.fetch_generation("gen-test")
+    check("GET /generation audit copies native tokens, not a billing page",
+          lambda: gen["ok"] and gen["usage_fold"]["prompt_tokens"] == 4
+          and gen["cookbook"] == USAGE_COOKBOOK)
     rot = rail.dispatch({"model": "openrouter/free", "text": "x"})
     check("openrouter/free rotator is REFUSED",
           lambda: (not rot["ok"]) and rot["kind"] == "REFUSED")
