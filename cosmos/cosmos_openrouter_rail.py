@@ -10,6 +10,7 @@ only because Keith asked.
   google/gemma-4-31b-it:free
   z-ai/glm-5.3-flash              (value coder 2026-09-07: high skill, low cost)
   deepseek/deepseek-v4-flash-0731 (cheap coder 2026-09-08: coding MoE)
+  openai/gpt-5.6-terra            (value 2026-09-08: OpenAI Flex endpoint)
 
 POST https://openrouter.ai/api/v1/chat/completions
 GET  https://openrouter.ai/api/v1/models
@@ -52,9 +53,19 @@ PINNED_FREE = frozenset({DEFAULT_MODEL, GEMMA_31B})
 # Different family from Grok / Gemini / Claude. Not the rotator.
 VALUE_CODER = "z-ai/glm-5.3-flash"
 DEEPSEEK_V4_FLASH = "deepseek/deepseek-v4-flash-0731"
+GPT56_TERRA = "openai/gpt-5.6-terra"
+# OpenRouter model page endpoint= UUID for OpenAI Flex ($1/$6). Named tag, not a rotator.
+TERRA_FLEX = "openai/flex"
+TERRA_ENDPOINT_UUID = "bf8a8d37-5c1b-4343-8f0f-eee99b60c5f2"
+ENDPOINT_TO_TAG = {TERRA_ENDPOINT_UUID: TERRA_FLEX}
+TERRA_PROVIDERS = frozenset({
+    "openai/flex", "openai", "openai/fast",
+    "azure", "azure/us", "azure/eu",
+    "amazon-bedrock/us-east-1",
+})
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH)
-PINNED_VALUE = frozenset(CHEAP_CODERS)
+PINNED_VALUE = frozenset(CHEAP_CODERS) | {GPT56_TERRA}
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
@@ -123,6 +134,33 @@ def model_refused(model: str) -> str | None:
     if m not in PINNED:
         return f"not a pinned OpenRouter id {m!r}; want {sorted(PINNED)}"
     return None
+
+
+def _provider_tag(model: str, payload: dict) -> str | None:
+    """Named provider tag. Terra defaults to OpenAI Flex (the value endpoint)."""
+    payload = payload if isinstance(payload, dict) else {}
+    ep = str(payload.get("endpoint") or "").strip().lower()
+    only = payload.get("provider_only") or payload.get("provider")
+    tag = None
+    if ep:
+        tag = ENDPOINT_TO_TAG.get(ep) or ENDPOINT_TO_TAG.get(ep.lower())
+        if tag is None:
+            return "REFUSED:unknown endpoint uuid — not a named pin"
+    elif isinstance(only, str) and only.strip():
+        tag = only.strip()
+    elif isinstance(only, dict):
+        raw = only.get("only") or only.get("order")
+        if isinstance(raw, list) and raw:
+            tag = str(raw[0]).strip()
+        elif isinstance(raw, str) and raw.strip():
+            tag = raw.strip()
+    elif model == GPT56_TERRA:
+        tag = TERRA_FLEX
+    if not tag:
+        return None
+    if model == GPT56_TERRA and tag not in TERRA_PROVIDERS:
+        return f"REFUSED:provider {tag!r} is not a Terra pin"
+    return tag
 
 
 def _pin_origin(spec: dict) -> dict:
@@ -547,12 +585,21 @@ class OpenRouterRail:
             max_c = int(max_c) if max_c is not None else DEFAULT_MAX_TOKENS
         except (TypeError, ValueError):
             max_c = DEFAULT_MAX_TOKENS
+        prov = {"allow_fallbacks": False}
+        tag = _provider_tag(model, payload)
+        if tag is not None:
+            if tag.startswith("REFUSED:"):
+                return {"ok": False, "kind": "REFUSED",
+                        "detail": tag.split(":", 1)[1],
+                        "model_requested": model, "link_id": self.link_id}
+            prov["only"] = [tag]
+            prov["order"] = [tag]
         body = {
             "model": model,
             "messages": messages,
             "max_tokens": max_c,
             "stream": False,
-            "provider": {"allow_fallbacks": False},
+            "provider": prov,
         }
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
@@ -579,6 +626,7 @@ class OpenRouterRail:
             "usage_fold": usage_fold,
             "tool_calls": _tool_calls(obj if isinstance(obj, dict) else {}),
             "id": obj.get("id") if isinstance(obj, dict) else None,
+            "provider_tag": (prov.get("only") or [None])[0],
             "link_id": self.link_id,
             "detail": f"http={status} response_model={response_model!r}",
         }
@@ -855,6 +903,8 @@ def _selftest() -> int:
             assert body.get("provider", {}).get("allow_fallbacks") is False
             assert "usage" not in body
             assert "stream_options" not in body
+            if body.get("model") == GPT56_TERRA:
+                assert body.get("provider", {}).get("only") == [TERRA_FLEX]
             return 200, {}, {
                 "id": "gen-test",
                 "model": body.get("model"),
@@ -946,6 +996,14 @@ def _selftest() -> int:
     ds = rail.dispatch({"model": DEEPSEEK_V4_FLASH, "text": "x"})
     check("cheap coder deepseek-v4-flash-0731 is a named pin",
           lambda: ds["ok"] and ds["model"] == DEEPSEEK_V4_FLASH)
+    terra = rail.dispatch({"model": GPT56_TERRA, "text": "x"})
+    check("GPT-5.6 Terra pins OpenAI Flex by default (value endpoint)",
+          lambda: terra["ok"] and terra["model"] == GPT56_TERRA
+          and terra.get("provider_tag") == TERRA_FLEX)
+    bad_ep = rail.dispatch({"model": GPT56_TERRA, "text": "x",
+                            "endpoint": "not-a-real-uuid"})
+    check("unknown Terra endpoint uuid is REFUSED",
+          lambda: (not bad_ep["ok"]) and bad_ep["kind"] == "REFUSED")
     alias = rail.dispatch({"model": "~deepseek/deepseek-v4-flash-latest", "text": "x"})
     check("~latest alias is REFUSED",
           lambda: (not alias["ok"]) and alias["kind"] == "REFUSED")
