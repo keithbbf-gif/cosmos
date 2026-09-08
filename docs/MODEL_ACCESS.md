@@ -117,6 +117,7 @@ Not Gemini. Not the rejected `openrouter/free` rotator. COSMOS rail `openrouter-
 | Gemma 4 26B A4B IT (free) | `google/gemma-4-26b-a4b-it:free` | **wired** — default `openrouter-api` |
 | Gemma 4 31B IT (free) | `google/gemma-4-31b-it:free` | **wired** — explicit `--model` |
 | GLM 5.3 Flash (value coder) | `z-ai/glm-5.3-flash` | **wired 2026-09-07** — Keith: high skill, low cost. Live rater coding **71.5**, **$0.075 / $0.250** per 1M. Named pin, not the rotator. |
+| DeepSeek V4 Flash 0731 (cheap coder) | `deepseek/deepseek-v4-flash-0731` | **wired 2026-09-08** — Keith: try it out. Page **$0.05 / $0.16** per 1M; live catalog row may list a provider at **$0.14 / $0.28**. COD **69.1**. Named pin. Not `~latest`. Not the rotator. |
 
 Key: `live/config/openrouter_api_key.txt`. Rotator `openrouter/free` stays REFUSED.
 
