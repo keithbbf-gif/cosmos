@@ -31,6 +31,7 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
+                           ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
     GET /api/v1/porosity - pairwise orthogonal porosity tensor. GET never mkdir.
                            UNMEASURED until a pair is observed. Does not invent.
@@ -976,6 +977,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         show_banned=(q.get("show_banned") or ["0"])[0]
                         in ("1", "true", "yes"),
                         role_q=(q.get("role_q") or [""])[0],
+                        input_modalities=(q.get("input_modalities") or [""])[0],
+                        output_modalities=(q.get("output_modalities") or [""])[0],
                     )
                 except ModelRaterError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
