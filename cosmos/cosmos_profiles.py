@@ -100,7 +100,7 @@ DEFAULT_PROFILE = "website"
 FORGE_SKIN_TABS = (
     {"id": "session", "label": "Session", "kind": "mount",
      "mount": ["home-code"],
-     "hint": "Live coding feed for this window. Grok Build + grok CLI. Continue last is grok -c."},
+     "hint": "CCr/GBW is background grok CLI unless called forward. This left pane is the live interface when forwarded. Does not spawn a grok TUI."},
     {"id": "seats", "label": "Seats", "kind": "mount",
      "mount": ["panel-forge-ccr", "panel-forge-adv"],
      "hint": "CCr model/via. Add adversarial coders and pick a model for each seat."},
