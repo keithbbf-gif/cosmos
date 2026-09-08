@@ -186,7 +186,19 @@ def _local_tools() -> list[dict]:
             "path": str(SCARS_FILE),
             "note": "SCARS.md unread.",
         }
-    return [doi, pdf, ocr, ups, rold, scars]
+    hermes_bin = _which("hermes")
+    if hermes_bin["kind"] != "OK":
+        hermes_bin = _which("hermes.exe")
+    hermes = {
+        "id": "hermes",
+        "label": "Hermes Agent CLI",
+        "lane": "local",
+        "kind": hermes_bin["kind"],
+        "bins": [hermes_bin],
+        "note": "OpenRouter cookbook via. Keith sets OPENROUTER_API_KEY in "
+                "~/.hermes/.env. COSMOS does not paste it. Presence is not a session.",
+    }
+    return [doi, pdf, ocr, ups, rold, scars, hermes]
 
 
 def _online_tools(channels: dict) -> list[dict]:
@@ -274,8 +286,8 @@ def _selftest() -> int:
           and "storage" in rec and "channels" in rec and "tools" in rec)
     check("channels always name API CLI DOM MCP",
           lambda: {"API", "CLI", "DOM", "MCP"} <= types)
-    check("local catalog names DOI PDF OCR UPS-JUDGE ROLD scars",
-          lambda: ids >= {"doi", "pdf", "ocr", "ups_judge", "rold", "scars"})
+    check("local catalog names DOI PDF OCR UPS-JUDGE ROLD scars Hermes",
+          lambda: ids >= {"doi", "pdf", "ocr", "ups_judge", "rold", "scars", "hermes"})
     check("UPS-JUDGE stays NAMED, not a fake callable",
           lambda: any(t["id"] == "ups_judge" and t["kind"] == "NAMED"
                       for t in rec["tools"]["local"]))
