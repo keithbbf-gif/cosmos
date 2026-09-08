@@ -1473,7 +1473,16 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
         "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
         "hermes": hermes_probe(),
+        "agents": _agents_fold(),
     }
+
+
+def _agents_fold() -> dict:
+    try:
+        from cosmos_cred_kit import agents_snapshot
+        return agents_snapshot()
+    except Exception as e:  # noqa: BLE001
+        return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
 def hermes_probe() -> dict:

@@ -33,6 +33,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
+    GET /api/v1/cred       - API/CLI/ADC key LEDs. Never echoes the secret. GET never mkdir.
+    GET /api/v1/agents     - SDK / CLI / localhost agent presence (PATH/import).
     GET /api/v1/work_orders - timestamped work-order list (agents, product, checks).
                            Folders are the live list; ?id= returns output_head.
                            GET never mutates and never mkdir.
@@ -58,6 +60,8 @@ that omits what it serves is an undocumented surface, not a short one):
                                        Federation aggregates; does not invent.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
     POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
+    POST /api/v1/cred      - set/grab/delete/custom a named key. Never echoes.
+                           Keith pastes. Does not open vendor billing.
     POST /api/v1/spend   - SET/ADJUST a rail cap or the breaker thresholds
                            (F-03). Bearer-gated, every field validated, and
                            NEVER a silent widen: any change giving more room
@@ -856,6 +860,25 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, gitur_snapshot(kernel))
                 except GiturError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/cred":
+                from cosmos_cred_kit import snapshot as cred_snapshot
+                rails = {}
+                try:
+                    reg = getattr(kernel, "registry", None)
+                    if reg is not None:
+                        for r in (reg.matrix() or []):
+                            if isinstance(r, dict) and r.get("link_id"):
+                                rails[r["link_id"]] = r
+                except Exception:  # noqa: BLE001
+                    rails = {}
+                rec = cred_snapshot(kernel.paths, rails=rails)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/agents":
+                from cosmos_cred_kit import agents_snapshot
+                rec = agents_snapshot()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/studio":
                 from cosmos_studio import snapshot as studio_snapshot
                 rec = studio_snapshot(kernel.paths)
@@ -1770,6 +1793,43 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     if e.kind == "UNREACHABLE":
                         code = 503
                     return self._send(code, {"error": e.kind,
+                                            "detail": str(e)[:300]})
+            if _cvm_urlparse(self.path).path == "/api/v1/cred":
+                from cosmos_cred_kit import (
+                    CredError, add_custom, delete_secret, grab_secret,
+                    set_secret, snapshot as cred_snapshot,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    act = str(d.get("action") or "").strip().lower()
+                    sid = d.get("id") or ""
+                    if act == "set":
+                        rec = set_secret(kernel.paths, sid, d.get("secret") or "")
+                    elif act == "delete":
+                        rec = delete_secret(kernel.paths, sid)
+                    elif act == "grab":
+                        rec = grab_secret(kernel.paths, sid)
+                    elif act == "custom":
+                        rec = add_custom(kernel.paths, source_id=sid,
+                                         label=d.get("label") or sid,
+                                         kind=d.get("kind") or "API")
+                    else:
+                        rec = cred_snapshot(kernel.paths)
+                    rec["ok"] = True
+                    rec["action"] = act or "fold"
+                    return self._send(200, rec)
+                except CredError as e:
+                    return self._send(400, {"error": e.kind,
                                             "detail": str(e)[:300]})
             return self._send(404, {"error": "NOT_FOUND", "path": self.path})
 

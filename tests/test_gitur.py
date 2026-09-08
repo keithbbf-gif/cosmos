@@ -44,6 +44,8 @@ def test_snapshot_folds_rails_without_github_poll(tmp_path, monkeypatch):
     assert by["github-forge"]["present"] is True
     assert by["gitlab-forge"]["present"] is False
     assert by["gitlab-forge"]["verified"] is None
+    assert rec.get("creds") and rec["creds"].get("n", 0) >= 20
+    assert rec["creds"].get("does_not_echo_secret") is True
     assert rec["cursor"] is None or rec["cursor"].get("kind") == "BROKE" or "gate" in (rec["cursor"] or {})
 
 
@@ -57,4 +59,5 @@ if __name__ == "__main__":
     root = install(td / "live", tree_id="spike-gitur")
     rec = snapshot(SimpleNamespace(paths=CosmosPaths(root), registry=_Reg()))
     assert rec["legs"][0]["id"] == "cursor-api"
+    assert rec["creds"]["n"] >= 20
     print("SELFTEST PASS gitur projection")
