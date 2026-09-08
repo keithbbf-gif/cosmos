@@ -22,7 +22,9 @@ GFO files off-tree, runs on Core `:8770`. Brain GF38. SSA → Groq until moved.
 `docs/ORCH_SEAT.md`.
 **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** CCr runs that triad.
 **Entire COSMOS BUILD goes through Gitur → branched trees / PRs** — including side jobs (Open Sessions, cowork_to_openwork, session-tools, cDeck). **One job, one branch, one PR.** P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
-**GFO is ORC (target) and is on Legal with Keith.** Until cDeck and OpenWork merge, **Keith runs this TUI himself** — live COSMOS orch + CCr. No Legal from here. Merge = handoff gate for GFO as daily COSMOS wheel.
+**Keith runs the ORC** (2026-09-06: *I run the ORC*). This TUI is **CCr in the engine house, running things itself** — Gitur, merge, Core. **You don't need me** (Keith 2026-09-06): engine work does not wait on him. Not the orch wheel. GFO is a sit (Legal / COSMOS_2), not live ORC while Keith runs it. No Legal from here. **Keith 2026-09-06:** kDash→cDeck too different to integrate with OpenWork. **Pivot:** OpenWork = Cowork clone; **cDeck = backend dashboard** (looks like KDash, improve from there). Separate windows. Host = `cdeck.exe`, not Chrome. Gitur BUILD on the cDeck product branch. **NO DUAL TREES** — occupancy lives on this live COSMOS tree, not a second GitHub/GitLab occupancy copy.
+**Keith 2026-09-06: YOU MUST KEEP GITHUB SYNCED.** Pull `origin/main` after every merge. Do not leave Gitur BUILD or occupancy only on disk. No force-push. Local-only exception: apk blob 172 MB (GitHub 100 MB cap).
+**Keith 2026-09-06: KEEP IT MERGED. Never wait for my say. I won’t be here.** Default is MOTION. cDeck Gitur PRs merge to product `main` when mergeable. Do not park them. Do not ask. Cosmos #30 #32 #36 #37 #38 still unmerged.
 **Desk for now:** this TUI **left HP 24N**; GFO **fullscreen right HP 24N**. Do not steal the right screen.
 
 ## Grok-based mesh (Keith 2026-09-01 — standing)
@@ -74,9 +76,9 @@ print timestamps/paths + END OF SESSION ×3 as the last output. Do not invent an
   **`V:\A\Ai\COSMOS\live\config\cursor_cosmos_key.txt`** — NEVER hard-code it, never print it in
   full (redact to `crsr_…last4`). Do NOT use the BTS keys (`Cursor BTS`, `Cursor BTS 2`).
 - **Cost:** Cursor Ultra $200/mo **included with SuperGrok Heavy → $0 marginal**. This cycle
-  (Aug 14–Sep 14): Cursor Models **4.6% used** (`cursor-grok-4.6-high-fast` 120M tok), Other
-  Models 0.7%, **on-demand DISABLED, $0**. GrokBot weekly **0%** (resets Aug 30). Nearly empty —
-  pour coding here.
+  (Aug 14–Sep 14, dashboard 2026-09-07): Cursor Models **6% used**, Other Models **73% used**,
+  **on-demand DISABLED**. GrokBot weekly **0%** (resets Sep 13). Switch the Cursor lane to
+  Cursor Models (Composer 2.5 / Cursor Grok) — stop drawing Other Models (Opus).
 - **Dispatch paths (three):** headless **Cursor Agent CLI** (runs like grok/claude locally),
   **Cloud Agent API** (beta), **Python/TS SDKs**. Cloud Agents proven: 38 runs, 100% success on
   `keithbbf-gif/cosmos`, triggered via API + Subagent.
@@ -330,6 +332,12 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
 - 2026-09-05T18:37:41.071135-05:00 · CURSOR · FIRST read docs/AGENT_BRIEF.md and docs/AGENT_BOUNDARIES.md. P10: PROPOSE only. Never write the live tree. Route: CURSOR. Pin Claude Opus 5… · cm/cursor_cursor_first_read_docs_agent_brief_md_and_d_e6a407fa__t900.py
 - 2026-09-05T18:42:52.960151-05:00 · G46 · motif_session_tools_suite_keith_2026_09_05_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_motif_session_tools_suite_keith_2026_ca4aec38__t1800.py
 - 2026-09-05T20:43:08.528335-05:00 · CURSOR · session-tools-stage2-arch · cm/cursor_cursor_session_tools_stage2_arch_c7941986__t900.py
+- 2026-09-05T22:16:45.631217-05:00 · G46 · backlog_write_only_this_output_file_write_privat You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_write_only_this_output_file_905886a4__t1800.py
+- 2026-09-06T00:15:26.557414-05:00 · G46 · backlog_write_only_this_output_file_write_privat You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_write_only_this_output_file_a07e6972__t1800.py
+- 2026-09-06T01:15:25.382939-05:00 · G46 · backlog_write_only_this_output_file_write_privat You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_write_only_this_output_file_2ea98aaf__t1800.py
+- 2026-09-07T15:25:58.246350-05:00 · G46 · motif_chatbot_phone_free_forever_you_pick_the__s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) a… · cm/g46_grok_motif_chatbot_phone_free_forever_you_9ac84727__t1800.py
+- 2026-09-07T15:26:29.601146-05:00 · G46 · backlog_chatbot_phone_define_keith_2026_09_07 You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_backlog_chatbot_phone_define_keith_2_408c87d8__t1800.py
+- 2026-09-07T16:06:48.519350-05:00 · G46 · motif_oss_code_borrow_keith_2026_09_07_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and docs/… · cm/g46_grok_motif_oss_code_borrow_keith_2026_09_e0598021__t1800.py
 
 ## Active assignments (from Keith, dropped hot by COW)
 - **Runner pool — CONCURRENT DRAIN** (assigned to **G46**, primary coder; Keith 2026-08-26 "more

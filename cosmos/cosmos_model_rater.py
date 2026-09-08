@@ -91,7 +91,7 @@ DEFAULT_SEATS = (
      "label": "MOTIF BUILD — Adversarial coder 1", "model": CCR_MODEL,
      "via": "cli:grok", "locked": True},
     {"profile": "motif", "seat": "lane_b", "group": "MOTIF BUILD",
-     "label": "MOTIF BUILD — Adversarial coder 2", "model": "claude-opus-5",
+     "label": "MOTIF BUILD — Adversarial coder 2", "model": "composer-2.5",
      "via": "cursor-api", "locked": True},
     {"profile": "motif", "seat": "build_3", "group": "MOTIF BUILD",
      "label": "MOTIF BUILD — Adversarial coder 3", "model": "",
@@ -587,7 +587,7 @@ def assign_seat(paths, profile: str, seat: str, model: str, via: str = "",
             break
     if not found:
         raise ModelRaterError("BAD_INPUT", f"unknown seat {profile}.{seat}")
-    occupancy = {CCR_MODEL, "claude-opus-5"}
+    occupancy = {CCR_MODEL, "composer-2.5", "claude-opus-5"}
     via_now = via_n or next(
         (str(s.get("via") or "") for s in rec["seats"]
          if s.get("profile") == profile and s.get("seat") == seat),

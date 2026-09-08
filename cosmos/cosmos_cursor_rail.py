@@ -59,6 +59,27 @@ DEFAULT_POLL_S = 15
 DEFAULT_TIMEOUT_S = 900
 TERMINAL = ("FINISHED", "ERROR", "CANCELLED", "EXPIRED")
 RESULT_CAP = 4000
+# Cursor Models pool (dashboard: Cursor Grok + Composer). Other Models
+# (Opus/Sonnet/GPT/Gemini via Cursor) are a separate Ultra quota.
+CURSOR_MODEL = "composer-2.5"
+CURSOR_GROK = "grok-4.6"
+_CURSOR_GROK_IDS = frozenset({
+    "grok-4.6", "grok-4.5",
+    "cursor-grok-4.6", "cursor-grok-4.6-high-fast",
+})
+
+
+def pin_cursor_model(raw) -> str:
+    """Pin Cloud Agent / cursor-api to the Cursor Models pool.
+
+    Composer 2.5 is the default (independent family from Grok CLI).
+    Explicit Cursor Grok ids pass through. Auto / Other Models (Opus)
+    coerce to Composer — they draw the Other Models quota.
+    """
+    low = str(raw or "").strip().lower()
+    if low in _CURSOR_GROK_IDS:
+        return CURSOR_GROK
+    return CURSOR_MODEL
 
 
 class CursorRailError(RuntimeError):
@@ -87,7 +108,7 @@ def default_spec() -> dict:
         "starting_ref": REF,
         "auto_create_pr": True,
         "work_on_current_branch": False,
-        "model": "claude-opus-5",
+        "model": CURSOR_MODEL,
         "poll_s": DEFAULT_POLL_S,
         "timeout_s": DEFAULT_TIMEOUT_S,
         "note": (
@@ -359,10 +380,9 @@ class CursorRail:
         name = payload.get("name")
         if name:
             body["name"] = str(name)[:100]
-        model = payload.get("model") or self.spec.get("model") or "claude-opus-5"
-        if isinstance(model, str) and model.strip().lower() in (
-                "auto", "default", "composer-2.5", "composer", "grok-4.6"):
-            model = "claude-opus-5"
+        model = payload.get("model") or self.spec.get("model") or CURSOR_MODEL
+        if isinstance(model, str):
+            model = pin_cursor_model(model)
         body["model"] = {"id": model} if isinstance(model, str) else model
         mode = payload.get("mode")
         if mode:
@@ -865,6 +885,12 @@ def _selftest() -> int:
             results.append((label, bool(fn()), ""))
         except Exception as e:  # noqa: BLE001
             results.append((label, False, f"{type(e).__name__}: {e}"))
+
+    check("Cursor Models pin is Composer 2.5; Other Models Opus coerces",
+          lambda: pin_cursor_model("claude-opus-5") == CURSOR_MODEL
+          and pin_cursor_model("auto") == CURSOR_MODEL
+          and pin_cursor_model("composer-2.5") == CURSOR_MODEL
+          and pin_cursor_model("grok-4.6") == CURSOR_GROK)
 
     td = Path(tempfile.mkdtemp(prefix="cosmos_cursor_rail_"))
     root = install(td / "live", tree_id="spike-cursor-rail")

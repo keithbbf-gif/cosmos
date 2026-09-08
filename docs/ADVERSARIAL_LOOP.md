@@ -18,7 +18,7 @@ Every work order is executed by two independent builders from different model fa
 | Lane | Family | Model | Role |
 |---|---|---|---|
 | **Grok** | xAI | Grok Code 4.6 | Primary builder. Writes proposal to `proposals/`, verdict to the work order. |
-| **Cursor** | Cursor Cloud Agent | **Claude Opus 5** (`claude-opus-5`, pinned) — Sonnet-class allowed in the Ultra mix | Parallel builder. Opens a PR against main. Composer 2.5/Auto is refused on this lane. Wallet = Cursor Ultra ($0 marginal), **not** COSMOS `claude -p`. |
+| **Cursor** | Cursor Cloud Agent | **Composer 2.5** (`composer-2.5`, pinned) — Cursor Models pool (Grok + Composer). Other Models (Opus/Sonnet) are a separate Ultra quota. | Parallel builder. Opens a PR against main. Auto / Other Models coerce to Composer. Wallet = Cursor Ultra Cursor Models, **not** the Other Models bar, **not** COSMOS `claude -p`. |
 
 Neither lane may read the other's branch, PR, or output before submitting its own.
 
@@ -37,7 +37,7 @@ ITERATE back to DEFINE.
 1. Ara drops the work order JSON in `work_orders/drop/` (six fields per WORK_ORDER_SOP.md). The Task field **is** the DEFINE file.
 2. Windows runner files it into the live bucket.
 3. **Lane A — Grok Code 4.6** claims the order, executes the Task, writes Output to `proposals/<name>.json`, writes a `Verdict` object into the same work order file (status, reason, objection with file+line+fix, timestamp) per VERDICT_SPEC.md.
-4. **Lane B — Cursor Cloud Agent (Composer 2.5)** is triggered on the **same** work order at pickup (not after DONE). Independent clone, same Task text, PR titled `WO: <task>`.
+4. **Lane B — Cursor Cloud Agent (Composer 2.5, Cursor Models)** is triggered on the **same** work order at pickup (not after DONE). Independent clone, same Task text, PR titled `WO: <task>`.
 5. **COW** reads Lane A Output and Lane B PR (two takes), `--accept` or `--reject`, applies the accepted proposal to the live tree. Optional: a third-family reviewer (Bugbot / Copilot) may add `Comparison`; the loop does not wait on it.
 6. Ara polls `Verdict` (and `Comparison` if present) and reports to the user.
 

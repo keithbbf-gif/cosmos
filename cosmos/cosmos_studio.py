@@ -152,10 +152,10 @@ def default_build_agents() -> list[dict]:
         {
             "id": "b_2",
             "label": "Lane B",
-            "model": "claude-opus-5",
+            "model": "composer-2.5",
             "via": "cursor-api",
-            "fallback_model": "claude-opus-5",
-            "fallback_via": "openrouter-api",
+            "fallback_model": "grok-4.6",
+            "fallback_via": "sgh-api",
         },
     ]
 

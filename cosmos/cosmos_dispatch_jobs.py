@@ -43,6 +43,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from cosmos_cursor_rail import CURSOR_MODEL, pin_cursor_model  # noqa: E402
 from cosmos_dispatch_workspace import DispatchError  # noqa: E402
 
 # Values MUST match cosmos_dispatch.py. Dispatch re-exports the FUNCTIONS
@@ -53,19 +54,12 @@ DEFAULT_MODEL = "grok-4.6"
 GROK_MAX_TURNS = "60"
 CURSOR_BASE = "https://api.cursor.com"
 CURSOR_REPO = "https://github.com/keithbbf-gif/cosmos"
-# Keith 2026-09-02: pin Opus 5 on the Cursor Cloud Agent lane.
-# GET /v1/models id claude-opus-5. Composer 2.5 / Auto cache-read the
-# whole GitHub repo (~2M tokens/min). Do not omit model (vendor Auto).
-CURSOR_MODEL = "claude-opus-5"
-_CURSOR_UNPINNED = frozenset({
-    "", "auto", "default", DEFAULT_MODEL, "grok-4.6",
-    "composer-2.5", "composer", "composer-latest", "composer-2", "composer-2-5",
-})
 CURSOR_REF = "main"
 CLAUDE_MODEL = "claude-fable-5"
 CLAUDE_KINDS = frozenset({"claude", "sonnet", "haiku"})
 WORKER_KINDS = frozenset({"gem", "oa"})
 GROQ_MODEL = "openai/gpt-oss-20b"
+OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it:free"
 
 
 # ---------------------------------------------------------------------------
@@ -200,8 +194,7 @@ raise SystemExit(0 if out.get("rc") == 0 else 2)
 def _cursor_job(agent: str, task: str, key_path: Path, result_path: Path,
                 returns_path: Path, timeout_s: int, model: str | None,
                 inbox_path: Path | None, sentinel_path: Path | None) -> str:
-    raw = str(model or "").strip()
-    model_id = CURSOR_MODEL if raw.lower() in _CURSOR_UNPINNED else raw
+    model_id = pin_cursor_model(model)
     body = {
         "prompt": {"text": task},
         "repos": [{"url": CURSOR_REPO, "startingRef": CURSOR_REF}],
@@ -545,6 +538,68 @@ except Exception as e:
 '''
 
 
+def _openrouter_job(agent: str, task: str, model: str,
+                    result_path: Path, returns_path: Path, timeout_s: int,
+                    inbox_path: Path | None, sentinel_path: Path | None,
+                    runtime_root: Path, cosmos_dir: Path) -> str:
+    """Named Gemma 4 :free via OpenRouter. Not the rotating free router."""
+    mid = (model or OPENROUTER_MODEL).strip() or OPENROUTER_MODEL
+    return f'''#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# dispatched by cosmos_dispatch ({WORKER}) — OpenRouter named Gemma 4.
+# Named pin only. Rotator refused. Not Groq. Not Vertex.
+import sys
+{_job_helpers_block(agent, result_path, returns_path, inbox_path, sentinel_path)}
+sys.path.insert(0, {json.dumps(str(cosmos_dir))})
+from cosmos_paths import CosmosPaths
+from cosmos_openrouter_rail import OpenRouterRail, KEY_NAME, load_spec
+KIND = "openrouter"
+TASK = {json.dumps(task)}
+MODEL = {json.dumps(mid)}
+ROOT = {json.dumps(str(runtime_root))}
+TIMEOUT_S = {int(timeout_s)}
+t0 = time.time()
+out = {{"agent": AGENT, "kind": KIND, "kind_live": "adapter",
+        "model_requested": MODEL}}
+_bind_live(out)
+try:
+    paths = CosmosPaths(ROOT)
+    spec_p = paths.config("openrouter_rail.json")
+    spec = load_spec(spec_p if spec_p.is_file() else None)
+    rail = OpenRouterRail(paths.config(KEY_NAME), spec)
+    rec = rail.dispatch({{
+        "prompt": TASK,
+        "model": MODEL,
+        "max_tokens": 1024,
+    }})
+    out["ok"] = bool(rec.get("ok"))
+    out["http"] = rec.get("http")
+    out["model"] = rec.get("model")
+    out["text"] = rec.get("text") or ""
+    out["usage"] = rec.get("usage") or {{}}
+    out["link_id"] = rec.get("link_id") or "openrouter-api"
+    out["kind_err"] = rec.get("kind")
+    out["detail"] = rec.get("detail")
+    out["secs"] = round(time.time() - t0, 1)
+    if not out["ok"]:
+        out["status"] = "failed"
+        _emit(out)
+        raise SystemExit(2)
+    out["status"] = "done"
+    _emit(out)
+    raise SystemExit(0)
+except SystemExit:
+    raise
+except Exception as e:
+    out["ok"] = False
+    out["status"] = "failed"
+    out["error"] = f"{{type(e).__name__}}: {{e}}"
+    out["secs"] = round(time.time() - t0, 1)
+    _emit(out)
+    raise SystemExit(2)
+'''
+
+
 def render_job(kind: str, agent: str, task: str, target_dir: str, model: str,
                result_path: Path, returns_path: Path, timeout_s: int,
                key_path: Path | None,
@@ -583,6 +638,13 @@ def render_job(kind: str, agent: str, task: str, target_dir: str, model: str,
         if runtime_root is None:
             raise DispatchError("NO_ROOT", "groq kind needs the runtime root")
         return _groq_job(
+            agent, task, model, result_path, returns_path, timeout_s,
+            inbox_path, sentinel_path, Path(runtime_root),
+            Path(__file__).resolve().parent)
+    if kind == "openrouter":
+        if runtime_root is None:
+            raise DispatchError("NO_ROOT", "openrouter kind needs the runtime root")
+        return _openrouter_job(
             agent, task, model, result_path, returns_path, timeout_s,
             inbox_path, sentinel_path, Path(runtime_root),
             Path(__file__).resolve().parent)

@@ -233,9 +233,9 @@ def main() -> int:
     )
     csrc = Path(rec_c["job_path"]).read_text(encoding="utf-8")
     check("cursor job POSTs /v1/agents", lambda: '"/v1/agents"' in csrc)
-    check("cursor job pins Claude Opus 5 (not Composer/Auto)",
-          lambda: '"claude-opus-5"' in csrc
-          and '"composer-2.5"' not in csrc)
+    check("cursor job pins Composer 2.5 (Cursor Models, not Other Models Opus)",
+          lambda: '"composer-2.5"' in csrc
+          and '"claude-opus-5"' not in csrc)
     check("cursor job uses Cloud Agents base", lambda: CURSOR_BASE in csrc)
     check("cursor job reads the key path, does not bake the secret",
           lambda: "cursor_cosmos_key.txt" in csrc
@@ -318,6 +318,18 @@ def main() -> int:
     check("infer_kind(Sonnet SubAgent) is groq",
           lambda: infer_kind("Sonnet SubAgent") == "groq")
     check("infer_kind(groq) is groq", lambda: infer_kind("groq") == "groq")
+    check("infer_kind(gemma) is openrouter",
+          lambda: infer_kind("gemma") == "openrouter")
+    rec_or = dispatch(
+        "Gemma", "Explain REST in one sentence.",
+        str(cwd), queue=queue, runtime_root=root, dhx=dhx)
+    or_src = Path(rec_or["job_path"]).read_text(encoding="utf-8")
+    check("Gemma dispatch is openrouter named Gemma 4, not rotator",
+          lambda: rec_or.get("kind") == "openrouter"
+          and rec_or.get("model") == "google/gemma-4-26b-a4b-it:free"
+          and "OpenRouterRail" in or_src
+          and "google/gemma-4-26b-a4b-it:free" in or_src
+          and "sk-or-" not in or_src)
     check("coding default agent is G46",
           lambda: infer_default_agent("implement the runner pool") == "G46"
           and infer_task_class("implement the runner pool") == "coding"
