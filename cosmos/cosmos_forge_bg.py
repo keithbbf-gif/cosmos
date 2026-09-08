@@ -244,9 +244,14 @@ def worker_main(argv: list[str]) -> int:
         prompt = Path(ns.prompt).read_text(encoding="utf-8", errors="replace")
         paths = CosmosPaths(ns.root)
         rail = OpenRouterRail(paths.config(KEY_NAME))
-        ans = rail.dispatch({"model": ns.model, "text": prompt, "max_tokens": 800})
+        ans = rail.dispatch(
+            {"model": ns.model, "text": prompt, "max_tokens": 800,
+             "stage": ns.stage, "profile": "forge"},
+            paths=paths,
+        )
         text = str(ans.get("text") or "")
         ballot = (text.strip().splitlines() or [""])[0][:200]
+        usage = ans.get("usage_fold") if isinstance(ans.get("usage_fold"), dict) else {}
         rec.update({
             "ok": bool(ans.get("ok")),
             "kind": ans.get("kind") or ("OK" if ans.get("ok") else "BROKE"),
@@ -254,6 +259,8 @@ def worker_main(argv: list[str]) -> int:
             "model_bound": ans.get("model"),
             "ballot": ballot,
             "n_chars": len(text),
+            "tokens": usage.get("total_tokens"),
+            "usage": usage,
         })
     Path(ns.out).write_text(json.dumps(rec, indent=2) + "\n", encoding="utf-8")
     return 0 if rec.get("ok") else 1

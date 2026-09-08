@@ -29,6 +29,9 @@ CURSOR_COOKBOOK = (
 HERMES_COOKBOOK = (
     "https://openrouter.ai/docs/cookbook/coding-agents/hermes-integration"
 )
+USAGE_COOKBOOK = (
+    "https://openrouter.ai/docs/cookbook/administration/usage-accounting"
+)
 CURSOR_OR_BASE = "https://openrouter.ai/api/v1/cursor"
 MAX_SECRET = 8_000
 MAX_CUSTOM = 40
@@ -290,6 +293,12 @@ def snapshot(paths, *, rails: dict | None = None) -> dict:
                     + CURSOR_OR_BASE,
         },
         "hermes_cookbook": {"url": HERMES_COOKBOOK},
+        "usage_cookbook": {
+            "url": USAGE_COOKBOOK,
+            "note": "Usage is always in the chat response (native tokenizer, "
+                    "cost, cache). Do not send usage.include — deprecated. "
+                    "GET /generation?id= is the async audit. Not a billing page.",
+        },
         "plugin": {
             "targets": ["cdeck", "openwork"],
             "rpc": ["/api/v1/cred", "/api/v1/agents"],
@@ -433,6 +442,9 @@ def _selftest() -> int:
     check("Cursor cookbook URL is the OpenRouter /cursor endpoint doc",
           lambda: rec["cursor_cookbook"]["url"] == CURSOR_COOKBOOK
           and rec["cursor_cookbook"]["base_url"].endswith("/cursor"))
+    check("usage-accounting cookbook is named, not a credits/billing page",
+          lambda: rec["usage_cookbook"]["url"] == USAGE_COOKBOOK
+          and "credits" not in rec["usage_cookbook"]["url"])
     check("LED is NO_SOURCE when the file is absent",
           lambda: any(s["id"] == "openrouter" and s["led"] == "NO_SOURCE"
                       for s in rec["sources"]))
