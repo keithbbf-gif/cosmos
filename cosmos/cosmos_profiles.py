@@ -70,9 +70,9 @@ LEGAL_DEST = (
 GITUR_DESTS = frozenset({"github", "gitlab"})
 
 PROFILES = (
-    {"id": "forge", "label": "Forge", "kind": "coding",
+    {"id": "forge", "label": "Forge — Coding", "kind": "coding",
      "dest": FORGE_DEST, "status": "cooking",
-     "note": "CCr + N adversarial coders. IMPLEMENT writes code via Gitur or local."},
+     "note": "Coding profile. Left tabs: Session feed, Seats (add adv + models), Estimate, TidyUP/BOOTUP, MOTIF."},
     {"id": "crucible", "label": "Crucible", "kind": "legal",
      "dest": LEGAL_DEST, "status": "named",
      "note": "Plaintiff / defense / judge. Own Legal tree."},
@@ -94,6 +94,38 @@ PROFILES = (
 )
 PROFILE_IDS = frozenset(p["id"] for p in PROFILES)
 DEFAULT_PROFILE = "website"
+
+# Per-profile left-tab skin. MOTIF 9 is the default; Coding has its own tools.
+FORGE_SKIN_TABS = (
+    {"id": "session", "label": "Session", "kind": "mount",
+     "mount": ["home-code"],
+     "hint": "Live coding feed for this window. Grok Build + grok CLI. Continue last is grok -c."},
+    {"id": "seats", "label": "Seats", "kind": "mount",
+     "mount": ["panel-forge-ccr", "panel-forge-adv"],
+     "hint": "CCr model/via. Add adversarial coders and pick a model for each seat."},
+    {"id": "estimate", "label": "Estimate", "kind": "mount",
+     "mount": ["panel-forge-job"],
+     "hint": "Job token estimate × rate card. Not the Core spend gate."},
+    {"id": "tidyup", "label": "TidyUP / BOOTUP", "kind": "mount",
+     "mount": ["panel-session-kit"],
+     "hint": "TidyUP, TU2, BU/BOOTUP pointer, autosave, auto-resession. SAVE does not fire a resession."},
+    {"id": "motif", "label": "MOTIF", "kind": "motif-hub",
+     "hint": "9-stage engine for this coding profile. Stage 1 PROBLEM / GOAL. Stage 8 IMPLEMENT."},
+)
+
+
+def motif_skin_tabs() -> list[dict]:
+    return [
+        {"id": s["id"], "label": "%d %s" % (s["n"], s["name"]), "kind": "motif",
+         "hint": s["hint"]}
+        for s in MOTIF_STAGES
+    ]
+
+
+def skin_tabs_for(profile_id: str) -> list[dict]:
+    if profile_id == "forge":
+        return [dict(t) for t in FORGE_SKIN_TABS]
+    return motif_skin_tabs()
 
 
 class ProfileError(RuntimeError):
@@ -130,6 +162,7 @@ def catalog() -> list[dict]:
             "status": p["status"],
             "note": p["note"],
             "dest_catalog": [{"id": i, "label": lab} for i, lab in p["dest"]],
+            "skin_tabs": skin_tabs_for(p["id"]),
         })
     return rows
 
@@ -287,6 +320,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "profiles": catalog(),
         "stages": [dict(s) for s in MOTIF_STAGES],
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
+        "skin_tabs": skin_tabs_for(row["id"]),
         "engine": engine,
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "implement_was": "IMPROVE",
@@ -379,6 +413,14 @@ def _selftest() -> int:
           lambda: {d["id"] for d in forge["dest_catalog"]}
           >= {"local", "github", "gitlab"}
           and "publish" not in {d["id"] for d in forge["dest_catalog"]})
+    forge_tabs = [t["id"] for t in (forge.get("skin_tabs") or [])]
+    check("Coding profile skin has Session, Seats, TidyUP/BOOTUP, MOTIF left tabs",
+          lambda: forge_tabs == ["session", "seats", "estimate", "tidyup", "motif"]
+          and forge["label"] == "Forge — Coding")
+    web_tabs = [t["id"] for t in (snap.get("skin_tabs") or [])]
+    check("Website GC skin left tabs are the 9 MOTIF stages",
+          lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
+          and len(web_tabs) == 9)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
