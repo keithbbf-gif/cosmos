@@ -18,13 +18,15 @@ idle (Watchdog2 enforces the ≤30s rule).
 ## The 9-stage cycle (run on any item that isn't a straight implement)
 
 **Keith 2026-09-07:** adversarial model is DEFINE → research → … → comparison → discussion →
-adjudication → accept → apply. **DEFINE is stage 1.** The prompt that leaves DEFINE is
-**verbatim** to every model. No peeking. RESEARCH does not start until DEFINE is on disk.
+adjudication → accept → apply. **Keith 2026-09-07:** stage 1 is **PROBLEM STATEMENT /
+STATED GOAL** (was DEFINE; on-disk pack key remains `define`). The prompt that leaves
+stage 1 is **verbatim** to every model. No peeking. RESEARCH does not start until the
+statement is on disk.
 
-1. **DEFINE** — freeze the **feature** as one clean prompt: WHAT, WHY, acceptance, off-limits,
+1. **PROBLEM STATEMENT / STATED GOAL** — freeze the **feature** as one clean prompt: WHAT, WHY, acceptance, off-limits,
    live emit to honor. Write it to disk. That file **is** the work order Task text. Every
    subsequent model (research, arch, build, critic) gets **that exact text**. Do not
-   paraphrase per lane. Do not start RESEARCH with a vibe. A missing DEFINE is a
+   paraphrase per lane. Do not start RESEARCH with a vibe. A missing statement is a
    process scar (the GEM/GLM extra-pane pass that had no frozen prompt).
 2. **RESEARCH** — **Do not skip. Do not start BUILD until returns are on disk.** **DOM rails**, already on the mesh. ROLD Rule 1 + MESH CHARTER §4–5: SGH and GEM first, both, in parallel; write the return to file. Surfaces include **SGH**, **free Gemini / Google search**, **ChatGPT chatbot**, **Perplexity**, **Bing**. **LIVE 2026-09-06** (playwright-dom + JS, not dump-dom): **Bing SERP**, **Cloudflare AI Playground** (`glm-4.7-flash`), **Copilot CLI**. Grok.com / ChatGPT / Perplexity / Google SERP = AUTH or bot-wall until Keith signs the COSMOS Chrome profile. GEM = P7 Profile 2 + Alt+G, never `gemini.google.com/app`. Drive with the **existing Chrome path** (`cosmos_playwright_rail` + `browser_evaluate` / chrome-bridge / Chrome MCP — **no window**, Keith's screen off limits). **Ask `V:\Ai\00_TOOLS_INDEX.md` before writing anything.** Do not rebuild. **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
 3. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking). Same DEFINE text.
@@ -46,7 +48,7 @@ adjudication → accept → apply. **DEFINE is stage 1.** The prompt that leaves
 6. **CRITICS** — different-family review of the build vs. **DEFINE** ("is this the thing we decided," not "is this good code"). **Output comparison.** Cursor-Opus may sit here as a family vote when it was not Lane B on this item. GEM 3.1 Pro (`vertex-coding` $300) and an OpenRouter value coder are seats when named.
 7. **CONSENSUS** — **adjudication.** Reconcile the critiques; agree the fixes. No third model auto-resolves.
 8. **IMPROVE** — **accept + apply.** Subtract as well as add.
-9. **ITERATE** — return to stage **1 DEFINE** (re-state the feature if it shifted; else reread the frozen prompt) then RESEARCH. Run the whole cycle again (1→9), **not** 6→9. Each iteration RE-DEFINES if the wish moved, RE-RESEARCHES — new findings, fresh independent designs, new critics — not merely re-applying fixes. Iterate until it passes the **runtime-binding gate**: proven by a value only the live tree can emit — never an exit code, never a green log.
+9. **ITERATE** — return to stage **1 PROBLEM STATEMENT / STATED GOAL** (re-state the feature if it shifted; else reread the frozen prompt) then RESEARCH. Run the whole cycle again (1→9), **not** 6→9. Each iteration re-states the problem if the wish moved, RE-RESEARCHES — new findings, fresh independent designs, new critics — not merely re-applying fixes. Iterate until it passes the **runtime-binding gate**: proven by a value only the live tree can emit — never an exit code, never a green log.
 
 ## Iterate re-decides everything (Keith, 2026-08-25)
 **The goal is intelligent variability and flexibility in the iterations** — not a rote replay of the
@@ -72,7 +74,7 @@ and on performance.** A monoculture of the “best” model is the expensive way
 the same holes. Dual-lane BUILD and different-family CRITICS exist to punch different
 holes, not to vote twice.
 
-Re-entering at stage 1 **DEFINE** each cycle gives COSMOS the freedom to **re-state the feature**,
+Re-entering at stage 1 **PROBLEM STATEMENT / STATED GOAL** each cycle gives COSMOS the freedom to **re-state the feature**,
 then change the architecture, incorporate new models and new information, re-scope to current
 needs — keep what worked, replace what didn't. The design is never frozen; the loop re-decides it.
 This is exactly why ITERATE returns to DEFINE then RESEARCH, not to CRITICS: a critics-only loop

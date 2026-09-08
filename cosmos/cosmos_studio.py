@@ -139,23 +139,57 @@ def default_arch() -> dict:
 
 
 def default_build_agents() -> list[dict]:
-    """Dual-lane default. Operator may add as many builders as they like."""
+    """MOTIF BUILD adversarial 1–5. Operator may add more."""
     return [
         {
             "id": "b_1",
-            "label": "Lane A",
+            "label": "Adversarial coder 1",
             "model": "grok-4.6",
             "via": "cli:grok",
             "fallback_model": "grok-4.6",
             "fallback_via": "sgh-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
         {
             "id": "b_2",
-            "label": "Lane B",
+            "label": "Adversarial coder 2",
             "model": "composer-2.5",
             "via": "cursor-api",
             "fallback_model": "grok-4.6",
             "fallback_via": "sgh-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "b_3",
+            "label": "Adversarial coder 3",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "b_4",
+            "label": "Adversarial coder 4",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "b_5",
+            "label": "Adversarial coder 5",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
     ]
 
@@ -164,27 +198,53 @@ def default_critic_agents() -> list[dict]:
     return [
         {
             "id": "c_1",
-            "label": "Plaintiff",
+            "label": "1 Plaintiff",
             "model": "",
             "via": "openrouter-api",
             "fallback_model": "",
             "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
         {
             "id": "c_2",
-            "label": "Defense",
+            "label": "2 Defense",
             "model": "",
             "via": "gem-api",
             "fallback_model": "",
             "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
         {
             "id": "c_3",
-            "label": "Judge",
+            "label": "3 Judge",
             "model": "",
             "via": "cli:grok",
             "fallback_model": "grok-4.6",
             "fallback_via": "sgh-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "c_4",
+            "label": "4",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "c_5",
+            "label": "5",
+            "model": "",
+            "via": "openrouter-api",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
     ]
 
@@ -286,7 +346,7 @@ def bar_met(winner: int, n: int, bar: str, second: int = 0) -> bool:
 
 
 def default_research_models() -> list[dict]:
-    """MOTIF RESEARCH: SGH + GEM first, both, in parallel. Fallbacks named."""
+    """MOTIF RESEARCH search agents. SGH + GEM first; Perplexity/Bing/ChatGPT named."""
     return [
         {
             "id": "r_1",
@@ -295,6 +355,8 @@ def default_research_models() -> list[dict]:
             "via": "cli:grok",
             "fallback_model": "grok-4.6",
             "fallback_via": "sgh-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
         {
             "id": "r_2",
@@ -303,6 +365,38 @@ def default_research_models() -> list[dict]:
             "via": "gem-api",
             "fallback_model": "google/gemma-4-26b-a4b-it:free",
             "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "r_3",
+            "label": "Perplexity",
+            "model": "",
+            "via": "dom",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "r_4",
+            "label": "Bing",
+            "model": "",
+            "via": "dom",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
+        },
+        {
+            "id": "r_5",
+            "label": "ChatGPT",
+            "model": "",
+            "via": "dom",
+            "fallback_model": "",
+            "fallback_via": "openrouter-api",
+            "fallback_model_2": "",
+            "fallback_via_2": "",
         },
     ]
 
@@ -348,8 +442,19 @@ def _public_model(raw: dict, idx: int, prefix: str = "r") -> dict:
     n = idx + 1
     via = _norm_via(raw.get("via"))
     fb_via = _norm_via(raw.get("fallback_via"))
+    fb_via_2 = _norm_via(raw.get("fallback_via_2")) if raw.get("fallback_via_2") else ""
     oid = str(raw.get("id") or f"{prefix}_{n}").strip() or f"{prefix}_{n}"
     kind = {"r": "Research", "b": "Builder", "c": "Critic"}.get(prefix, "Seat")
+    effort = str(raw.get("effort") or "").strip().lower()
+    if effort not in ("", "low", "medium", "high", "max"):
+        effort = ""
+    cap = raw.get("budget_usd", raw.get("cap_usd"))
+    try:
+        cap_n = float(cap) if cap not in (None, "") else None
+    except (TypeError, ValueError):
+        cap_n = None
+    if cap_n is not None and cap_n <= 0:
+        cap_n = None
     return {
         "id": oid[:32],
         "label": str(raw.get("label") or f"{kind} {n}").strip()[:80],
@@ -357,6 +462,10 @@ def _public_model(raw: dict, idx: int, prefix: str = "r") -> dict:
         "via": via,
         "fallback_model": str(raw.get("fallback_model") or "").strip()[:160],
         "fallback_via": fb_via,
+        "fallback_model_2": str(raw.get("fallback_model_2") or "").strip()[:160],
+        "fallback_via_2": fb_via_2,
+        "effort": effort,
+        "budget_usd": cap_n,
     }
 
 
@@ -851,6 +960,7 @@ def _selftest() -> int:
           lambda: m and m["via"] == "openrouter-api"
           and m["fallback_via"] == "cli:grok"
           and m["fallback_model"] == "grok-4.6"
+          and m.get("fallback_model_2") == ""
           and "api_key" not in m)
     check("targets accept USPTO and GitHub off",
           lambda: res["research"]["targets"].get("uspto") is True
