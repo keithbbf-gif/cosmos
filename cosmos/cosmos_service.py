@@ -31,6 +31,7 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
     GET /api/v1/model_rater - OpenRouter catalog + seat assignments (local cache)
+    GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
     GET /api/v1/work_orders - timestamped work-order list (agents, product, checks).
                            Folders are the live list; ?id= returns output_head.
@@ -46,7 +47,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/review     - HITL: spend approvals, blockers, required logins,
                            work-product catalog (day/week/month/90). GET never mutates.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
-    POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
+    POST /api/v1/model_rater/seat    - assign DEFAULT + fallbacks, via, effort, budget to a role
+    POST /api/v1/model_rater/policy  - favored / banned models and families
                                        action=add|remove for N parallel adversarial coders
     POST /api/v1/model_rater/cap     - per-model spend limit on the rater (0 = off).
                                        Not the Core spend gate.
@@ -891,6 +893,14 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/model_rater/roles":
+                from urllib.parse import parse_qs as _mr_roles_qs
+                from cosmos_model_rater import scan_roles
+                q = _mr_roles_qs(parsed.query)
+                rec = scan_roles(kernel.paths, q=(q.get("q") or [""])[0])
+                rec["measured_at"] = time.time()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/model_rater":
                 from urllib.parse import parse_qs as _mr_qs
                 from cosmos_model_rater import ModelRaterError, snapshot
@@ -903,6 +913,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         type_name=(q.get("type") or [""])[0],
                         q=(q.get("q") or [""])[0],
                         limit=(q.get("limit") or [400])[0],
+                        show_banned=(q.get("show_banned") or ["0"])[0]
+                        in ("1", "true", "yes"),
+                        role_q=(q.get("role_q") or [""])[0],
                     )
                 except ModelRaterError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
@@ -1623,13 +1636,14 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if _mr in ("/api/v1/model_rater/refresh",
                        "/api/v1/model_rater/seat",
                        "/api/v1/model_rater/cap",
+                       "/api/v1/model_rater/policy",
                        "/api/v1/model_rater/estimate",
                        "/api/v1/model_rater/job_estimate"):
                 from cosmos_model_rater import (
                     ModelRaterError, add_adversary, assign_seat, estimate,
                     load_catalog, load_job_estimate, remove_adversary,
                     reset_job_estimate, save_job_estimate, set_model_cap,
-                    snapshot, refresh as mr_refresh,
+                    set_policy, snapshot, refresh as mr_refresh,
                 )
                 body = self._read_body()
                 if body is None:
@@ -1663,9 +1677,24 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                                    d.get("seat") or "")
                             return self._send(200, rec)
                         rec = assign_seat(kernel.paths, d.get("profile"),
-                                          d.get("seat"), d.get("model") or "",
+                                          d.get("seat"),
+                                          model=d["model"] if "model" in d else None,
                                           via=d.get("via") or "",
-                                          cap_usd=d.get("cap_usd"))
+                                          cap_usd=d.get("cap_usd"),
+                                          model_2=d.get("model_2"),
+                                          model_3=d.get("model_3"),
+                                          via_2=d.get("via_2"),
+                                          via_3=d.get("via_3"),
+                                          effort=d.get("effort"))
+                        return self._send(200, rec)
+                    if _mr.endswith("/policy"):
+                        rec = set_policy(
+                            kernel.paths,
+                            favored_models=d.get("favored_models"),
+                            favored_families=d.get("favored_families"),
+                            banned_models=d.get("banned_models"),
+                            banned_families=d.get("banned_families"),
+                        )
                         return self._send(200, rec)
                     if _mr.endswith("/cap"):
                         rec = set_model_cap(kernel.paths, d.get("model") or "",

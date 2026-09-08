@@ -30,7 +30,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-SCHEMA = "cosmos-model-rater/1"
+SCHEMA = "cosmos-model-rater/2"
 WORKER = "cosmos-model-rater"
 TTL_S = 24 * 3600
 CATALOG_NAME = "catalog.json"
@@ -44,15 +44,6 @@ CCR_INITIAL_IN = 24000
 CCR_INITIAL_OUT = 8000
 JOB_EST_NAME = "job_estimate.json"
 MAX_ADV = 24
-LOCKED_SEATS = frozenset({
-    ("forge", "ccr"),
-    ("motif", "lane_a"), ("motif", "lane_b"),
-    ("motif", "research_sgh"), ("motif", "research_gem"),
-    ("motif", "critic_plaintiff"), ("motif", "critic_defense"),
-    ("motif", "critic_judge"),
-    ("crucible", "plaintiff"), ("crucible", "defense"), ("crucible", "judge"),
-    ("dispatch", "coding"), ("dispatch", "ssa"),
-})
 # Occupancy: this TUI is Grok 4.6 CCr (Keith 2026-09-04). Not an OpenRouter
 # pin — the rate card may be UNMEASURED. Empty model painted as "unassigned".
 CCR_MODEL = "grok-4.6"
@@ -71,9 +62,17 @@ VIA_OPTIONS = (
     {"id": "sgh-api", "label": "API · xAI console", "kind": "API"},
     {"id": "cursor-api", "label": "API · Cursor", "kind": "API"},
     {"id": "dom", "label": "DOM · browser", "kind": "DOM"},
+    {"id": "mcp", "label": "MCP · named server", "kind": "MCP"},
+    {"id": "mcp:openwork", "label": "MCP · OpenWork", "kind": "MCP"},
+    {"id": "mcp:github", "label": "MCP · GitHub", "kind": "MCP"},
+    {"id": "mcp:bts", "label": "MCP · BTS", "kind": "MCP"},
 )
 VIA_IDS = frozenset(v["id"] for v in VIA_OPTIONS)
+EFFORT_IDS = frozenset({"", "low", "medium", "high", "max"})
 DEFAULT_SEATS = (
+    {"profile": "openwork", "seat": "orc", "group": "OpenWork",
+     "label": "OpenWork — ORC", "model": "", "via": "mcp:openwork",
+     "locked": True},
     {"profile": "forge", "seat": "ccr", "group": "Forge",
      "label": "CCr — Chief Coder", "model": CCR_MODEL, "via": "cli:grok",
      "locked": True},
@@ -82,11 +81,20 @@ DEFAULT_SEATS = (
     {"profile": "forge", "seat": "adv_2", "group": "Forge",
      "label": "Forge — Adversarial coder 2", "model": "", "via": "openrouter-api"},
     {"profile": "motif", "seat": "research_sgh", "group": "MOTIF RESEARCH",
-     "label": "MOTIF RESEARCH — SGH", "model": CCR_MODEL, "via": "cli:grok",
-     "locked": True},
+     "label": "MOTIF RESEARCH — SGH (search)", "model": CCR_MODEL,
+     "via": "cli:grok", "locked": True},
     {"profile": "motif", "seat": "research_gem", "group": "MOTIF RESEARCH",
-     "label": "MOTIF RESEARCH — GEM", "model": "gemini-2.5-flash",
+     "label": "MOTIF RESEARCH — GEM (search)", "model": "gemini-2.5-flash",
      "via": "gem-api", "locked": True},
+    {"profile": "motif", "seat": "research_pplx", "group": "MOTIF RESEARCH",
+     "label": "MOTIF RESEARCH — Perplexity (search)", "model": "",
+     "via": "dom", "locked": True},
+    {"profile": "motif", "seat": "research_bing", "group": "MOTIF RESEARCH",
+     "label": "MOTIF RESEARCH — Bing (search)", "model": "",
+     "via": "dom", "locked": True},
+    {"profile": "motif", "seat": "research_chatgpt", "group": "MOTIF RESEARCH",
+     "label": "MOTIF RESEARCH — ChatGPT (search)", "model": "",
+     "via": "dom", "locked": True},
     {"profile": "motif", "seat": "lane_a", "group": "MOTIF BUILD",
      "label": "MOTIF BUILD — Adversarial coder 1", "model": CCR_MODEL,
      "via": "cli:grok", "locked": True},
@@ -95,20 +103,32 @@ DEFAULT_SEATS = (
      "via": "cursor-api", "locked": True},
     {"profile": "motif", "seat": "build_3", "group": "MOTIF BUILD",
      "label": "MOTIF BUILD — Adversarial coder 3", "model": "",
-     "via": "openrouter-api"},
+     "via": "openrouter-api", "locked": True},
+    {"profile": "motif", "seat": "build_4", "group": "MOTIF BUILD",
+     "label": "MOTIF BUILD — Adversarial coder 4", "model": "",
+     "via": "openrouter-api", "locked": True},
+    {"profile": "motif", "seat": "build_5", "group": "MOTIF BUILD",
+     "label": "MOTIF BUILD — Adversarial coder 5", "model": "",
+     "via": "openrouter-api", "locked": True},
     {"profile": "motif", "seat": "critic_plaintiff", "group": "MOTIF CRITICS",
-     "label": "MOTIF CRITICS — Plaintiff", "model": "", "via": "openrouter-api",
+     "label": "MOTIF CRITICS — 1 Plaintiff", "model": "", "via": "openrouter-api",
      "locked": True},
     {"profile": "motif", "seat": "critic_defense", "group": "MOTIF CRITICS",
-     "label": "MOTIF CRITICS — Defense", "model": "", "via": "gem-api",
+     "label": "MOTIF CRITICS — 2 Defense", "model": "", "via": "gem-api",
      "locked": True},
     {"profile": "motif", "seat": "critic_judge", "group": "MOTIF CRITICS",
-     "label": "MOTIF CRITICS — Judge", "model": CCR_MODEL, "via": "cli:grok",
+     "label": "MOTIF CRITICS — 3 Judge", "model": CCR_MODEL, "via": "cli:grok",
+     "locked": True},
+    {"profile": "motif", "seat": "critic_4", "group": "MOTIF CRITICS",
+     "label": "MOTIF CRITICS — 4", "model": "", "via": "openrouter-api",
+     "locked": True},
+    {"profile": "motif", "seat": "critic_5", "group": "MOTIF CRITICS",
+     "label": "MOTIF CRITICS — 5", "model": "", "via": "openrouter-api",
      "locked": True},
     {"profile": "crucible", "seat": "plaintiff", "group": "Crucible",
      "label": "Crucible — Plaintiff's attorney", "model": "", "locked": True},
     {"profile": "crucible", "seat": "defense", "group": "Crucible",
-     "label": "Crucible — Defense attorney", "model": "", "locked": True},
+     "label": "Crucible — Defendant's counsel", "model": "", "locked": True},
     {"profile": "crucible", "seat": "judge", "group": "Crucible",
      "label": "Crucible — Judge", "model": "", "locked": True},
     {"profile": "dispatch", "seat": "coding", "group": "Dispatch",
@@ -116,14 +136,70 @@ DEFAULT_SEATS = (
     {"profile": "dispatch", "seat": "ssa", "group": "Dispatch",
      "label": "Dispatch — cheap reasoning / SSA", "model": "", "locked": True},
 )
+LOCKED_SEATS = frozenset(
+    (d["profile"], d["seat"]) for d in DEFAULT_SEATS if d.get("locked")
+)
 SORT_KEYS = frozenset({
     "price", "intelligence", "coding", "agentic", "quality", "q",
+    "reasoning", "speed", "stability", "office", "file",
+    "popularity", "recency", "created", "latency", "math",
     "name", "context", "id",
 })
 QUALITY_AXES = ("intelligence", "coding", "agentic")
+EXTRA_AXES = ("speed", "math", "office", "file", "stability",
+              "popularity", "latency", "reasoning")
 TYPE_KEYS = frozenset({
     "coding", "reasoning", "images", "audio", "video", "chat", "free",
 })
+# Vendor field → column. Copy only when present. Never invent a number.
+AA_FIELD_MAP = (
+    ("intelligence_index", "intelligence"),
+    ("coding_index", "coding"),
+    ("agentic_index", "agentic"),
+    ("math_index", "math"),
+    ("reasoning_index", "reasoning"),
+    ("output_speed", "speed"),
+    ("speed_index", "speed"),
+    ("tokens_per_second", "speed"),
+    ("latency", "latency"),
+    ("time_to_first_token", "latency"),
+    ("office_index", "office"),
+    ("gdpval", "office"),
+    ("file_index", "file"),
+    ("pdf_index", "file"),
+    ("stability_index", "stability"),
+    ("endpoint_accuracy", "stability"),
+)
+AXES_META = (
+    {"id": "intelligence", "label": "INT / reasoning composite",
+     "source": "Artificial Analysis Intelligence Index via OpenRouter GET /benchmarks"},
+    {"id": "coding", "label": "coding",
+     "source": "Artificial Analysis Coding Index via OpenRouter GET /benchmarks"},
+    {"id": "agentic", "label": "agentic",
+     "source": "Artificial Analysis Agentic Index via OpenRouter GET /benchmarks"},
+    {"id": "reasoning", "label": "reasoning (dedicated)",
+     "source": "AA reasoning_index when OpenRouter sends it; else UNMEASURED (INT is the composite)"},
+    {"id": "speed", "label": "speed",
+     "source": "AA output tokens/s when OpenRouter sends it; else UNMEASURED"},
+    {"id": "math", "label": "math",
+     "source": "AA math_index when OpenRouter sends it; else UNMEASURED"},
+    {"id": "office", "label": "office work",
+     "source": "UNMEASURED — AA industry indices are not on the OpenRouter fold"},
+    {"id": "file", "label": "file work",
+     "source": "UNMEASURED — no vendor file-work index on this fold"},
+    {"id": "stability", "label": "stability",
+     "source": "UNMEASURED — AA Endpoint Accuracy Index is not on the OpenRouter fold"},
+    {"id": "popularity", "label": "popularity",
+     "source": "OpenRouter weekly volume when the models row carries it; else UNMEASURED"},
+    {"id": "recency", "label": "most recent",
+     "source": "OpenRouter models.created (unix). Newest first."},
+    {"id": "price", "label": "price",
+     "source": "OpenRouter pricing.prompt + pricing.completion, USD per 1M tokens"},
+)
+SEAT_COPY_KEYS = (
+    "model", "model_2", "model_3", "via", "via_2", "via_3",
+    "cap_usd", "effort", "label", "group", "assigned_at",
+)
 
 
 class ModelRaterError(RuntimeError):
@@ -197,6 +273,106 @@ def _types(row: dict) -> list[str]:
     return seen
 
 
+def family_of(model_id: str) -> str:
+    """Family slug from a model id. Empty id → empty family."""
+    mid = str(model_id or "").strip().lower()
+    if not mid:
+        return ""
+    name = mid.split("/", 1)[-1]
+    if mid.startswith("x-ai/") or name.startswith("grok"):
+        return "grok"
+    if "composer" in name:
+        return "composer"
+    if mid.startswith("anthropic/") or name.startswith("claude"):
+        return "anthropic"
+    if mid.startswith("google/") or name.startswith("gemini") or name.startswith("gemma"):
+        return "google"
+    if mid.startswith("openai/") or name.startswith("gpt"):
+        return "openai"
+    if "/" in mid:
+        return mid.split("/", 1)[0]
+    return name.split("-", 1)[0]
+
+
+def default_policy() -> dict:
+    return {
+        "favored_models": [],
+        "favored_families": [],
+        "banned_models": [],
+        "banned_families": [],
+    }
+
+
+def _str_list(raw) -> list[str]:
+    out = []
+    seen = set()
+    for x in raw or []:
+        s = str(x or "").strip()
+        if not s:
+            continue
+        key = s.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(s)
+    return out
+
+
+def normalize_policy(raw) -> dict:
+    src = raw if isinstance(raw, dict) else {}
+    pol = default_policy()
+    for k in pol:
+        pol[k] = _str_list(src.get(k))
+    return pol
+
+
+def is_banned(model_id: str, policy: dict) -> bool:
+    mid = str(model_id or "").strip()
+    if not mid:
+        return False
+    pol = normalize_policy(policy)
+    low = mid.lower()
+    if any(low == str(x).lower() for x in pol["banned_models"]):
+        return True
+    fam = family_of(mid)
+    return bool(fam) and any(fam == str(x).lower() for x in pol["banned_families"])
+
+
+def is_favored(model_id: str, policy: dict) -> bool:
+    mid = str(model_id or "").strip()
+    if not mid:
+        return False
+    pol = normalize_policy(policy)
+    low = mid.lower()
+    if any(low == str(x).lower() for x in pol["favored_models"]):
+        return True
+    fam = family_of(mid)
+    return bool(fam) and any(fam == str(x).lower() for x in pol["favored_families"])
+
+
+def _copy_aa(dst: dict, aa: dict) -> bool:
+    hit = False
+    if not isinstance(aa, dict):
+        return False
+    for src, col in AA_FIELD_MAP:
+        if dst.get(col) is not None:
+            continue
+        v = _f(aa.get(src))
+        if v is not None:
+            dst[col] = v
+            hit = True
+    return hit
+
+
+def _popularity(raw: dict):
+    stats = raw.get("stats") if isinstance(raw.get("stats"), dict) else {}
+    for k in ("weekly_volume", "top_weekly", "popularity", "volume"):
+        v = _f(stats.get(k) if k in stats else raw.get(k))
+        if v is not None:
+            return v
+    return None
+
+
 def normalize_row(raw: dict) -> dict:
     pricing = raw.get("pricing") if isinstance(raw.get("pricing"), dict) else {}
     aa = {}
@@ -207,9 +383,15 @@ def normalize_row(raw: dict) -> dict:
     completion = _f(pricing.get("completion"), 0.0) or 0.0
     request = _f(pricing.get("request"), 0.0) or 0.0
     mid = str(raw.get("id") or "").strip()
-    return {
+    created = raw.get("created")
+    try:
+        created = int(created) if created not in (None, "") else None
+    except (TypeError, ValueError):
+        created = None
+    row = {
         "id": mid,
         "name": str(raw.get("name") or mid),
+        "family": family_of(mid),
         "context": int(raw.get("context_length") or 0),
         "prompt_per_m": round(prompt * 1_000_000, 6),
         "completion_per_m": round(completion * 1_000_000, 6),
@@ -217,14 +399,27 @@ def normalize_row(raw: dict) -> dict:
         "intelligence": _f(aa.get("intelligence_index")),
         "coding": _f(aa.get("coding_index")),
         "agentic": _f(aa.get("agentic_index")),
+        "reasoning": _f(aa.get("reasoning_index")),
+        "speed": None,
+        "math": _f(aa.get("math_index")),
+        "office": None,
+        "file": None,
+        "stability": None,
+        "popularity": _popularity(raw),
+        "latency": None,
+        "created": created,
         "quality": None,
         "quality_n": 0,
         "quality_from": None,
         "types": _types(raw),
-        "reasoning": bool(isinstance(raw.get("reasoning"), dict)
-                          and raw["reasoning"].get("default_enabled")),
+        "reasoning_enabled": bool(isinstance(raw.get("reasoning"), dict)
+                                  and raw["reasoning"].get("default_enabled")),
         "rotator": mid.lower() in ROTATING,
+        "favored": False,
+        "banned": False,
     }
+    _copy_aa(row, aa)
+    return row
 
 
 def quality_score(row: dict) -> float | None:
@@ -267,14 +462,7 @@ def apply_aa_benchmarks(models: list[dict], bench_rows) -> int:
         raw = by_slug.get(mid.lower()) or by_slug.get(base.lower())
         if not raw:
             continue
-        hit = False
-        for src, dst in (("intelligence_index", "intelligence"),
-                         ("coding_index", "coding"),
-                         ("agentic_index", "agentic")):
-            v = _f(raw.get(src))
-            if v is not None and m.get(dst) is None:
-                m[dst] = v
-                hit = True
+        hit = _copy_aa(m, raw)
         if hit:
             n += 1
             m["quality_from"] = "openrouter/benchmarks"
@@ -298,9 +486,11 @@ def inherit_variant_quality(models: list[dict]) -> int:
         src = by_base.get(base)
         if not src or src is m:
             continue
-        for k in QUALITY_AXES:
+        for k in QUALITY_AXES + EXTRA_AXES:
             if m.get(k) is None and src.get(k) is not None:
                 m[k] = src[k]
+        if m.get("created") is None and src.get("created") is not None:
+            m["created"] = src.get("created")
         m["quality_from"] = src.get("id")
         n += 1
     return n
@@ -372,6 +562,9 @@ def load_seats(paths) -> dict:
                 row["cap_usd"] = have[key].get("cap_usd")
             if have[key].get("group"):
                 row["group"] = have[key].get("group")
+            for k in ("model_2", "model_3", "via_2", "via_3", "effort"):
+                if have[key].get(k) not in (None,):
+                    row[k] = have[key].get(k)
         merged.append(row)
         seen.add(key)
     for key, src in have.items():
@@ -383,8 +576,13 @@ def load_seats(paths) -> dict:
             "group": str(src.get("group") or src.get("profile") or ""),
             "label": str(src.get("label") or f"{src.get('profile')}.{src.get('seat')}"),
             "model": str(src.get("model") or ""),
+            "model_2": str(src.get("model_2") or ""),
+            "model_3": str(src.get("model_3") or ""),
             "via": str(src.get("via") or ""),
+            "via_2": str(src.get("via_2") or ""),
+            "via_3": str(src.get("via_3") or ""),
             "cap_usd": src.get("cap_usd"),
+            "effort": str(src.get("effort") or ""),
             "assigned_at": src.get("assigned_at"),
         })
     rec["seats"] = merged
@@ -392,6 +590,7 @@ def load_seats(paths) -> dict:
     rec.setdefault("model_caps", {})
     if not isinstance(rec.get("model_caps"), dict):
         rec["model_caps"] = {}
+    rec["policy"] = normalize_policy(rec.get("policy"))
     return rec
 
 
@@ -463,13 +662,21 @@ def refresh(paths, *, http=None) -> dict:
     return rec
 
 
+_AXIS_SORT = frozenset({
+    "intelligence", "coding", "agentic", "quality", "q", "reasoning",
+    "speed", "stability", "office", "file", "math", "popularity", "latency",
+})
+
+
 def _sort_key(row: dict, sort: str):
     if sort == "price":
         return (row.get("prompt_per_m") or 0) + (row.get("completion_per_m") or 0)
-    if sort in ("intelligence", "coding", "agentic", "quality", "q"):
+    if sort in _AXIS_SORT:
         key = "quality" if sort in ("quality", "q") else sort
         v = row.get(key)
         return -1.0 if v is None else float(v)
+    if sort in ("recency", "created"):
+        return int(row.get("created") or 0)
     if sort == "context":
         return int(row.get("context") or 0)
     if sort == "name":
@@ -478,23 +685,32 @@ def _sort_key(row: dict, sort: str):
 
 
 def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
-                 q="", limit=400) -> list[dict]:
+                 q="", limit=400, policy=None, show_banned=False,
+                 favored_first=True) -> list[dict]:
     sort = sort if sort in SORT_KEYS else "price"
     rows = list(catalog.get("models") or [])
     ql = str(q or "").strip().lower()
     tn = str(type_name or "").strip().lower()
+    pol = normalize_policy(policy)
     out = []
     for r in rows:
         if r.get("rotator"):
             continue
-        if tn and tn not in (r.get("types") or []):
+        row = dict(r)
+        row["family"] = row.get("family") or family_of(row.get("id"))
+        row["banned"] = is_banned(row.get("id"), pol)
+        row["favored"] = is_favored(row.get("id"), pol)
+        if row["banned"] and not show_banned:
+            continue
+        if tn and tn not in (row.get("types") or []):
             continue
         if ql:
-            blob = (str(r.get("id") or "") + " " + str(r.get("name") or "")).lower()
+            blob = (str(row.get("id") or "") + " " + str(row.get("name") or "")
+                    + " " + str(row.get("family") or "")).lower()
             if ql not in blob:
                 continue
-        out.append(r)
-    if sort in ("intelligence", "coding", "agentic", "quality", "q"):
+        out.append(row)
+    if sort in _AXIS_SORT:
         axis = "quality" if sort in ("quality", "q") else sort
         out.sort(key=lambda r, a=axis: (
             r.get(a) is None,
@@ -502,11 +718,15 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
         ))
     elif sort == "price":
         out.sort(key=lambda r: _sort_key(r, "price"), reverse=bool(desc))
+    elif sort in ("recency", "created"):
+        out.sort(key=lambda r: int(r.get("created") or 0), reverse=not bool(desc))
     elif sort == "context":
         out.sort(key=lambda r: int(r.get("context") or 0), reverse=not bool(desc))
     else:
         out.sort(key=lambda r: str(r.get("name") or r.get("id") or "").lower(),
                  reverse=bool(desc))
+    if favored_first:
+        out.sort(key=lambda r: (0 if r.get("favored") else 1))
     try:
         lim = int(limit)
     except (TypeError, ValueError):
@@ -557,24 +777,50 @@ def set_model_cap(paths, model: str, cap_usd) -> dict:
     return save_seats(paths, rec)
 
 
-def assign_seat(paths, profile: str, seat: str, model: str, via: str = "",
-                cap_usd=None) -> dict:
-    profile = str(profile or "").strip().lower()
-    seat = str(seat or "").strip().lower()
+def normalize_effort(effort) -> str:
+    e = str(effort or "").strip().lower()
+    if e not in EFFORT_IDS:
+        raise ModelRaterError("BAD_INPUT", f"unknown effort {effort!r}")
+    return e
+
+
+def _check_model_id(model: str, paths, via_now: str, rec: dict):
     model = str(model or "").strip()
-    if not profile or not seat:
-        raise ModelRaterError("BAD_INPUT", "profile and seat are required")
-    if (profile, seat) == ("forge", "ccr") and not model:
-        raise ModelRaterError("REFUSED", "forge.ccr occupancy is grok-4.6 — cannot unassign")
+    if not model:
+        return
     if model.lower() in ROTATING:
         raise ModelRaterError("REFUSED", f"rotator id {model!r} is not assignable")
+    if is_banned(model, rec.get("policy")):
+        raise ModelRaterError("REFUSED", f"model {model!r} is banned on the rater")
+    occupancy = {CCR_MODEL, "composer-2.5", "claude-opus-5"}
+    cli_or_dom = via_now.startswith("cli:") or via_now == "dom" or via_now.startswith("mcp")
+    if model not in occupancy and not cli_or_dom:
+        cat = load_catalog(paths)
+        ids = {m.get("id") for m in cat.get("models") or []}
+        if cat.get("n") and model not in ids:
+            raise ModelRaterError("BAD_INPUT", f"model {model!r} not in local catalog")
+
+
+def assign_seat(paths, profile: str, seat: str, model=None, via: str = "",
+                cap_usd=None, model_2=None, model_3=None,
+                via_2=None, via_3=None, effort=None) -> dict:
+    profile = str(profile or "").strip().lower()
+    seat = str(seat or "").strip().lower()
+    model_in = None if model is None else str(model).strip()
+    if not profile or not seat:
+        raise ModelRaterError("BAD_INPUT", "profile and seat are required")
+    if (profile, seat) == ("forge", "ccr") and model_in == "":
+        raise ModelRaterError("REFUSED", "forge.ccr occupancy is grok-4.6 — cannot unassign")
+    if model_in and model_in.lower() in ROTATING:
+        raise ModelRaterError("REFUSED", f"rotator id {model_in!r} is not assignable")
     via_n = normalize_via(via) if via else ""
     rec = load_seats(paths)
     found = False
     for row in rec["seats"]:
         if row["profile"] == profile and row["seat"] == seat:
-            row["model"] = model
-            row["assigned_at"] = _iso_now() if model else None
+            if model_in is not None:
+                row["model"] = model_in
+                row["assigned_at"] = _iso_now() if model_in else None
             if via_n:
                 row["via"] = via_n
             if cap_usd is not None and cap_usd != "":
@@ -583,22 +829,115 @@ def assign_seat(paths, profile: str, seat: str, model: str, via: str = "",
                     row.pop("cap_usd", None)
                 else:
                     row["cap_usd"] = n
+            if model_2 is not None:
+                row["model_2"] = str(model_2 or "").strip()
+            if model_3 is not None:
+                row["model_3"] = str(model_3 or "").strip()
+            if via_2 is not None:
+                row["via_2"] = normalize_via(via_2) if via_2 else ""
+            if via_3 is not None:
+                row["via_3"] = normalize_via(via_3) if via_3 else ""
+            if effort is not None:
+                row["effort"] = normalize_effort(effort)
             found = True
             break
     if not found:
         raise ModelRaterError("BAD_INPUT", f"unknown seat {profile}.{seat}")
-    occupancy = {CCR_MODEL, "composer-2.5", "claude-opus-5"}
     via_now = via_n or next(
         (str(s.get("via") or "") for s in rec["seats"]
          if s.get("profile") == profile and s.get("seat") == seat),
         "")
-    cli_or_dom = via_now.startswith("cli:") or via_now == "dom"
-    if model and model not in occupancy and not cli_or_dom:
-        cat = load_catalog(paths)
-        ids = {m.get("id") for m in cat.get("models") or []}
-        if cat.get("n") and model not in ids:
-            raise ModelRaterError("BAD_INPUT", f"model {model!r} not in local catalog")
+    if model_in:
+        _check_model_id(model_in, paths, via_now, rec)
+    for extra in (model_2, model_3):
+        if extra not in (None, ""):
+            _check_model_id(str(extra), paths, via_now, rec)
     return save_seats(paths, rec)
+
+
+def set_policy(paths, *, favored_models=None, favored_families=None,
+               banned_models=None, banned_families=None) -> dict:
+    rec = load_seats(paths)
+    pol = normalize_policy(rec.get("policy"))
+    if favored_models is not None:
+        pol["favored_models"] = _str_list(favored_models)
+    if favored_families is not None:
+        pol["favored_families"] = _str_list(
+            str(x).lower() for x in (favored_families or []))
+    if banned_models is not None:
+        pol["banned_models"] = _str_list(banned_models)
+    if banned_families is not None:
+        pol["banned_families"] = _str_list(
+            str(x).lower() for x in (banned_families or []))
+    rec["policy"] = pol
+    return save_seats(paths, rec)
+
+
+def _stage_for(seat_row: dict) -> str:
+    g = str(seat_row.get("group") or "")
+    p = str(seat_row.get("profile") or "")
+    s = str(seat_row.get("seat") or "")
+    if "RESEARCH" in g or s.startswith("research_"):
+        return "research"
+    if "BUILD" in g or s in ("lane_a", "lane_b") or s.startswith("build_"):
+        return "build"
+    if "CRITICS" in g or s.startswith("critic_"):
+        return "critics"
+    if p == "openwork" or s == "orc":
+        return "openwork"
+    if p == "crucible":
+        return "crucible"
+    if p == "forge":
+        return "forge"
+    if p == "dispatch":
+        return "dispatch"
+    return p or "role"
+
+
+def scan_roles(paths=None, *, q="") -> dict:
+    """Named COSMOS roles. This catalog, not a live grep of the tree."""
+    seats = (load_seats(paths).get("seats") if paths else None) or default_seats()
+    ql = str(q or "").strip().lower()
+    roles = []
+    for s in seats:
+        if not isinstance(s, dict):
+            continue
+        rec = {
+            "element": s.get("group") or s.get("profile"),
+            "profile": s.get("profile"),
+            "seat": s.get("seat"),
+            "label": s.get("label"),
+            "stage": _stage_for(s),
+            "model": s.get("model") or "",
+            "model_2": s.get("model_2") or "",
+            "model_3": s.get("model_3") or "",
+            "via": s.get("via") or "",
+            "via_2": s.get("via_2") or "",
+            "via_3": s.get("via_3") or "",
+            "effort": s.get("effort") or "",
+            "cap_usd": s.get("cap_usd"),
+            "locked": bool(s.get("locked") or
+                           (s.get("profile"), s.get("seat")) in LOCKED_SEATS),
+        }
+        if ql:
+            blob = " ".join(str(rec.get(k) or "") for k in
+                            ("element", "profile", "seat", "label", "stage",
+                             "model")).lower()
+            if ql not in blob:
+                continue
+        roles.append(rec)
+    return {
+        "schema": SCHEMA,
+        "ok": True,
+        "n": len(roles),
+        "q": q or "",
+        "roles": roles,
+        "note": (
+            "Search is the named COSMOS role catalog (OpenWork ORC, Forge CCr, "
+            "MOTIF RESEARCH/BUILD/CRITICS, Crucible, Dispatch), plus extra "
+            "seats already stored. Not a live grep of the tree."
+        ),
+    }
 
 
 def _next_adv_seat(seats: list[dict]) -> str:
@@ -802,18 +1141,22 @@ def estimate(catalog: dict, model: str, tokens_in: int, tokens_out: int) -> dict
 
 
 def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
-             limit=400, refresh_if_stale=False, http=None) -> dict:
+             limit=400, refresh_if_stale=False, http=None,
+             show_banned=False, role_q="") -> dict:
     cat = load_catalog(paths)
     refreshed = False
     if refresh_if_stale and (cat.get("stale") or not cat.get("n")):
         cat = refresh(paths, http=http)
         refreshed = True
     seats = load_seats(paths)
+    pol = normalize_policy(seats.get("policy"))
     models = query_models(cat, sort=sort, desc=desc, type_name=type_name,
-                          q=q, limit=limit)
+                          q=q, limit=limit, policy=pol,
+                          show_banned=bool(show_banned))
     job = load_job_estimate(paths)
     costs = job_costs(cat, seats.get("seats") or [],
                       job["tokens_in"], job["tokens_out"])
+    roles = scan_roles(paths, q=role_q)
     return {
         "schema": SCHEMA,
         "ok": True,
@@ -830,16 +1173,23 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "q": q or "",
         "models": models,
         "seats": seats.get("seats") or default_seats(),
+        "roles": roles.get("roles") or [],
+        "n_roles": roles.get("n") or 0,
+        "role_q": role_q or "",
+        "policy": pol,
         "model_caps": seats.get("model_caps") or {},
         "job_estimate": job,
         "job_costs": costs,
         "ccr_initial": {"tokens_in": CCR_INITIAL_IN, "tokens_out": CCR_INITIAL_OUT},
-        "axes": ["quality", "intelligence", "coding", "agentic", "price"],
+        "axes": [a["id"] for a in AXES_META],
+        "axes_meta": [dict(a) for a in AXES_META],
         "n_quality": cat.get("n_quality") or sum(
             1 for m in (cat.get("models") or []) if m.get("quality") is not None),
         "ttl_s": TTL_S,
         "max_adv": MAX_ADV,
         "via_options": [dict(v) for v in VIA_OPTIONS],
+        "effort_options": ["low", "medium", "high", "max"],
+        "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
     }
 
 
@@ -867,7 +1217,7 @@ def _selftest() -> int:
                 {"source": "artificial-analysis",
                  "model_permaslug": "anthropic/claude-opus-5",
                  "intelligence_index": 90.0, "coding_index": 88.0,
-                 "agentic_index": 85.0},
+                 "agentic_index": 85.0, "output_speed": 42.0},
                 {"source": "artificial-analysis",
                  "model_permaslug": DEFAULT_MODEL.split(":")[0],
                  "intelligence_index": 40.0, "coding_index": 55.0,
@@ -896,6 +1246,7 @@ def _selftest() -> int:
                  "supported_parameters": ["reasoning"],
                  "reasoning": {"default_enabled": True}},
                 {"id": "anthropic/claude-opus-5", "name": "Claude Opus 5",
+                 "created": 1_800_000_000,
                  "context_length": 1000000,
                  "architecture": {"input_modalities": ["text"],
                                   "output_modalities": ["text"]},
@@ -954,12 +1305,69 @@ def _selftest() -> int:
           lambda: { (s["profile"], s["seat"]) for s in default_seats() }
           >= {("motif", "lane_a"), ("motif", "lane_b"),
               ("crucible", "plaintiff"), ("crucible", "judge")})
-    check("roles enumerate BUILD adversarial 1-3, RESEARCH, CRITICS, Crucible plaintiff",
+    check("roles enumerate BUILD 1-5, RESEARCH search agents, CRITICS 1-5, ORC, Crucible",
           lambda: {(s["profile"], s["seat"]) for s in default_seats()}
           >= {("motif", "lane_a"), ("motif", "lane_b"), ("motif", "build_3"),
-              ("motif", "research_sgh"), ("motif", "critic_plaintiff"),
-              ("forge", "adv_1"), ("forge", "adv_2"),
+              ("motif", "build_4"), ("motif", "build_5"),
+              ("motif", "research_sgh"), ("motif", "research_gem"),
+              ("motif", "research_pplx"), ("motif", "research_bing"),
+              ("motif", "research_chatgpt"),
+              ("motif", "critic_plaintiff"), ("motif", "critic_4"),
+              ("motif", "critic_5"),
+              ("forge", "adv_1"), ("forge", "adv_2"), ("forge", "ccr"),
+              ("openwork", "orc"),
               ("crucible", "plaintiff")})
+    found = scan_roles(paths, q="ORC")
+    check("role search finds OpenWork ORC",
+          lambda: found["n"] >= 1
+          and any(r["seat"] == "orc" and r["profile"] == "openwork"
+                  for r in found["roles"]))
+    fb = assign_seat(paths, "motif", "lane_a", CCR_MODEL, via="cli:grok",
+                     model_2="composer-2.5", via_2="cursor-api",
+                     model_3="anthropic/claude-opus-5", via_3="cursor-api",
+                     effort="high", cap_usd=8)
+    check("DEFAULT + secondary + tertiary fallback, via, effort, budget persist",
+          lambda: any(s["seat"] == "lane_a"
+                      and s.get("model") == CCR_MODEL
+                      and s.get("model_2") == "composer-2.5"
+                      and s.get("model_3") == "anthropic/claude-opus-5"
+                      and s.get("via") == "cli:grok"
+                      and s.get("via_2") == "cursor-api"
+                      and s.get("via_3") == "cursor-api"
+                      and s.get("effort") == "high"
+                      and s.get("cap_usd") == 8
+                      for s in fb["seats"]))
+    mcp = assign_seat(paths, "openwork", "orc", CCR_MODEL, via="mcp:openwork")
+    check("ORC can sit MCP · OpenWork",
+          lambda: any(s["seat"] == "orc" and s.get("via") == "mcp:openwork"
+                      for s in mcp["seats"]))
+    pol = set_policy(paths, favored_families=["grok"],
+                     banned_models=["anthropic/claude-opus-5"])
+    check("favored family grok / banned model persist",
+          lambda: "grok" in (pol.get("policy") or {}).get("favored_families", [])
+          and "anthropic/claude-opus-5" in (pol.get("policy") or {}).get(
+              "banned_models", []))
+    banned = False
+    try:
+        assign_seat(paths, "crucible", "defense", "anthropic/claude-opus-5")
+    except ModelRaterError as e:
+        banned = e.kind == "REFUSED"
+    check("banned model cannot sit a role", lambda: banned)
+    set_policy(paths, banned_models=[])
+    office = next((m for m in rec["models"] if m["id"] == "anthropic/claude-opus-5"), {})
+    check("office / file / stability are UNMEASURED, never invented",
+          lambda: office.get("office") is None
+          and office.get("file") is None
+          and office.get("stability") is None)
+    check("speed copies vendor output_speed, recency copies created",
+          lambda: office.get("speed") == 42.0
+          and office.get("created") == 1_800_000_000)
+    check("MCP is a via kind",
+          lambda: any(v["id"] == "mcp:openwork" and v["kind"] == "MCP"
+                      for v in VIA_OPTIONS))
+    check("snapshot names MOTIF step 1 PROBLEM STATEMENT / STATED GOAL",
+          lambda: snapshot(paths, limit=1).get("motif_step_1")
+          == "PROBLEM STATEMENT / STATED GOAL")
     caps = set_model_cap(paths, "anthropic/claude-opus-5", 12.5)
     check("per-model cap stores USD; 0 clears it (not the Core spend gate)",
           lambda: caps.get("model_caps", {}).get("anthropic/claude-opus-5") == 12.5
