@@ -21,6 +21,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            (/api/v1/nodes is the SAME route under its older name)
     GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
     GET /api/v1/surfaces - storage surfaces (measured reachability + free_gb + age)
+    GET /api/v1/surfaces_kit - storage + channels (API/CLI/DOM/MCP) + callable tools.
+                           GET never mutates. UPS-JUDGE is NAMED, not invented.
     GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
@@ -779,6 +781,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                                       "catalog"})
                 return self._send(200, {"measured_at": time.time(),
                                         "surfaces": sf.report()})
+            if parsed.path == "/api/v1/surfaces_kit":
+                from cosmos_surfaces_kit import snapshot as surfaces_kit_snapshot
+                rec = surfaces_kit_snapshot(kernel)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path in _CDECK_PANEL_MOD:
                 try:
                     hg = _cdeck_panel_get(_CDECK_PANEL_MOD[parsed.path])
