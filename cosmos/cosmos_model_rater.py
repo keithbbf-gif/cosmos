@@ -162,8 +162,21 @@ EXTRA_AXES = ("speed", "math", "office", "file", "stability",
               "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
               "scicode", "terminal_bench", "omniscience", "omniscience_nh")
 TYPE_KEYS = frozenset({
-    "coding", "reasoning", "images", "audio", "video", "chat", "free",
+    "coding", "reasoning", "images", "audio", "video", "chat", "free", "docs",
 })
+# OpenRouter models page cut Keith named 2026-09-07:
+# text out, text+file+image in (cards). Not a rotator.
+DOCS_CUT = {
+    "id": "docs",
+    "label": "text out · text/file/image in",
+    "url": (
+        "https://openrouter.ai/models?fmt=cards"
+        "&output_modalities=text&input_modalities=text,file,image"
+    ),
+    "fmt": "cards",
+    "output_modalities": ("text",),
+    "input_modalities": ("text", "file", "image"),
+}
 # Vendor field → column. Copy only when present. Never invent a number.
 AA_FIELD_MAP = (
     ("intelligence_index", "intelligence"),
@@ -320,14 +333,41 @@ def _f(v, default=None):
         return default
 
 
-def _types(row: dict) -> list[str]:
+def _mod_list(raw) -> tuple[str, ...]:
+    if isinstance(raw, (list, tuple)):
+        parts = raw
+    else:
+        parts = str(raw or "").replace(" ", "").split(",")
+    out = []
+    for p in parts:
+        p = str(p or "").strip().lower()
+        if p and p not in out:
+            out.append(p)
+    return tuple(out)
+
+
+def _has_mods(have, need) -> bool:
+    if not need:
+        return True
+    h = {str(x).lower() for x in (have or [])}
+    return set(need) <= h
+
+
+def _arch_mods(row: dict) -> tuple[list[str], list[str]]:
     arch = row.get("architecture") if isinstance(row.get("architecture"), dict) else {}
-    ins = [str(x).lower() for x in (arch.get("input_modalities") or [])]
-    outs = [str(x).lower() for x in (arch.get("output_modalities") or [])]
+    ins = [str(x).lower() for x in (arch.get("input_modalities") or row.get("input_modalities") or [])]
+    outs = [str(x).lower() for x in (arch.get("output_modalities") or row.get("output_modalities") or [])]
+    return ins, outs
+
+
+def _types(row: dict) -> list[str]:
+    ins, outs = _arch_mods(row)
     params = [str(x).lower() for x in (row.get("supported_parameters") or [])]
     aa = ((row.get("benchmarks") or {}) if isinstance(row.get("benchmarks"), dict) else {}
           ).get("artificial_analysis") or {}
     kinds = []
+    if "text" in outs and _has_mods(ins, DOCS_CUT["input_modalities"]):
+        kinds.append("docs")
     if "image" in ins or "image" in outs:
         kinds.append("images")
     if "audio" in ins or "audio" in outs:
@@ -504,6 +544,8 @@ def normalize_row(raw: dict) -> dict:
         "quality_n": 0,
         "quality_from": None,
         "types": _types(raw),
+        "input_modalities": _arch_mods(raw)[0],
+        "output_modalities": _arch_mods(raw)[1],
         "reasoning_enabled": bool(isinstance(raw.get("reasoning"), dict)
                                   and raw["reasoning"].get("default_enabled")),
         "rotator": mid.lower() in ROTATING,
@@ -812,11 +854,18 @@ def _sort_key(row: dict, sort: str):
 
 def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
                  q="", limit=400, policy=None, show_banned=False,
-                 favored_first=True, porosity=None) -> list[dict]:
+                 favored_first=True, porosity=None,
+                 input_modalities="", output_modalities="") -> list[dict]:
     sort = sort if sort in SORT_KEYS else "price"
     rows = list(catalog.get("models") or [])
     ql = str(q or "").strip().lower()
     tn = str(type_name or "").strip().lower()
+    if tn == "docs":
+        need_in = DOCS_CUT["input_modalities"]
+        need_out = DOCS_CUT["output_modalities"]
+    else:
+        need_in = _mod_list(input_modalities)
+        need_out = _mod_list(output_modalities)
     pol = normalize_policy(policy)
     out = []
     for r in rows:
@@ -830,6 +879,11 @@ def query_models(catalog: dict, *, sort="price", desc=False, type_name="",
         if row["banned"] and not show_banned:
             continue
         if tn and tn not in (row.get("types") or []):
+            continue
+        ins, outs = _arch_mods(row)
+        if need_in and not _has_mods(ins, need_in):
+            continue
+        if need_out and not _has_mods(outs, need_out):
             continue
         if ql:
             blob = (str(row.get("id") or "") + " " + str(row.get("name") or "")
@@ -1420,7 +1474,8 @@ def estimate(catalog: dict, model: str, tokens_in: int, tokens_out: int) -> dict
 
 def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
              limit=400, refresh_if_stale=False, http=None,
-             show_banned=False, role_q="") -> dict:
+             show_banned=False, role_q="",
+             input_modalities="", output_modalities="") -> dict:
     cat = load_catalog(paths)
     refreshed = False
     if refresh_if_stale and (cat.get("stale") or not cat.get("n")):
@@ -1431,7 +1486,9 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
     poro = load_porosity(paths)
     models = query_models(cat, sort=sort, desc=desc, type_name=type_name,
                           q=q, limit=limit, policy=pol,
-                          show_banned=bool(show_banned), porosity=poro)
+                          show_banned=bool(show_banned), porosity=poro,
+                          input_modalities=input_modalities,
+                          output_modalities=output_modalities)
     job = load_job_estimate(paths)
     costs = job_costs(cat, seats.get("seats") or [],
                       job["tokens_in"], job["tokens_out"])
@@ -1450,6 +1507,15 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "sort": sort,
         "type": type_name or "",
         "q": q or "",
+        "input_modalities": list(_mod_list(input_modalities)
+                                 or (DOCS_CUT["input_modalities"]
+                                     if str(type_name or "").strip().lower() == "docs"
+                                     else ())),
+        "output_modalities": list(_mod_list(output_modalities)
+                                  or (DOCS_CUT["output_modalities"]
+                                      if str(type_name or "").strip().lower() == "docs"
+                                      else ())),
+        "catalog_cut": dict(DOCS_CUT),
         "models": models,
         "seats": seats.get("seats") or default_seats(),
         "roles": roles.get("roles") or [],
@@ -1546,7 +1612,7 @@ def _selftest() -> int:
             return 200, {}, {"data": [
                 {"id": DEFAULT_MODEL, "name": "Gemma 4 26B A4B (free)",
                  "context_length": 262144,
-                 "architecture": {"input_modalities": ["text", "image"],
+                 "architecture": {"input_modalities": ["text", "file", "image"],
                                   "output_modalities": ["text"]},
                  "pricing": {"prompt": "0", "completion": "0", "request": "0"},
                  "benchmarks": {"artificial_analysis": {
@@ -1607,6 +1673,12 @@ def _selftest() -> int:
     check("Gemma 26B types include images and free",
           lambda: "images" in rec["models"][0]["types"]
           and "free" in rec["models"][0]["types"])
+    docs = snapshot(paths, type_name="docs")
+    check("docs cut is text out + text/file/image in (OpenRouter cards filter)",
+          lambda: docs["catalog_cut"]["url"].endswith("input_modalities=text,file,image")
+          and all("docs" in (m.get("types") or []) for m in docs["models"])
+          and any(m["id"] == DEFAULT_MODEL for m in docs["models"])
+          and all(m["id"] != "anthropic/claude-opus-5" for m in docs["models"]))
     est = estimate(rec, "anthropic/claude-opus-5", 1000, 500)
     check("cost estimate uses per-token * 1e6 card",
           lambda: abs(est["usd"] - (1000 * 15 / 1e6 + 500 * 75 / 1e6)) < 1e-9)
