@@ -181,7 +181,9 @@ add(
         "FIG. 2 is a pair-vector diagram: porosity of model i versus model j is a vector on named axes of interest, not a scalar. "
         "The magnitude of that pair vector equals disagreement frequency times error magnitude. "
         "The more the two models disagree, the more orthogonal the pair vector (aligned holes sit near-parallel). "
-        "FIG. 3 is a tensor grid T[i, j, a] stored in a measurement database and used to seat models so as to maximize error discovery per token."
+        "FIG. 3 is a tensor grid T[i, j, a] stored in a measurement database and used to seat models so as to maximize error discovery per token. "
+        "FIG. 4 is a 2-by-2 complement table for a pair on one axis: both-right, rescue (exactly one wrong), and co-failure (both wrong). "
+        "A second tensor C[i, j, a] stores rescue rate, co-failure rate, and XOR-error so that seating can prefer positive complement per token and penalize aligned holes."
     ),
     field=_p(
         "The present disclosure relates to seating generative models for a task by family and by quantified mistake surface (porosity), including pairwise orthogonal porosity vectors on named axes and a tensor grid of those vectors, so that different-mistake models overlay residual holes faster than copies of the same family, at improved token efficiency."
@@ -192,7 +194,7 @@ add(
         "The inventor names the quality of a coder as porosity (spoken Pourosity): the hole-set or mistake surface of that model (error classes, unseen tools, fabrication modes). Low-quality models with different mistakes, when overlaid, cover surface quickly at a greater-than-linear rate versus stacking copies. Copies of the same family leave holes aligned. This disclosure does not invent an exponent. Convert with a measurement. The measurement is a vector against another model, stored as a tensor, not a single value."
     ),
     summary=_p(
-        "Assign each model a family (training house, tool surface, observed failure mode). Quantify each coder's porosity as a hole-set measure and, pairwise, as a vector on named axes of interest, orthogonal to the other seated models. Pair magnitude equals disagreement frequency times error magnitude against the other model. More disagreement makes that pair vector more orthogonal. Persist observations in a measurement database and fold them into a tensor grid T[model i, model j, axis]. When seating votes, the same family does not count twice. Overlay: residual holes of the ensemble approximate the intersection of porosities when mistakes differ, and approximate the first porosity when they align. Prefer adding a different-porosity model, including a low-quality one, over adding a high-quality copy of the same family. Use the tensor to maximize model choices for token efficiency and error discovery. Every adversarial trial in the occupancy engine (Forge and every profile) writes the tensor."
+        "Assign each model a family (training house, tool surface, observed failure mode). Quantify each coder's porosity as a hole-set measure and, pairwise, as a vector on named axes of interest, orthogonal to the other seated models. Pair magnitude equals disagreement frequency times error magnitude against the other model. More disagreement makes that pair vector more orthogonal. Persist observations in a measurement database and fold them into a tensor grid T[model i, model j, axis] and a complement tensor C of rescue, co-failure, and XOR-error so that seating can prefer positive overlay and penalize aligned holes. When seating votes, the same family does not count twice. Overlay: residual holes of the ensemble approximate the intersection of porosities when mistakes differ, and approximate the first porosity when they align. Prefer adding a different-porosity model, including a low-quality one, over adding a high-quality copy of the same family. Use the tensors to maximize model choices for token efficiency and error discovery. Every adversarial trial in the occupancy engine (Forge and every profile) writes the store."
     ),
     definitions=[
         ("Family", "An occupancy class: training house plus tool surface plus observed failure mode. Not a clustering theorem."),
@@ -202,6 +204,10 @@ add(
         ("Pair magnitude", "The magnitude of an orthogonal porosity vector, equal to disagreement frequency times error magnitude for that pair. Unmeasured until both factors are observed."),
         ("Tensor grid", "The three-index array T[i, j, a] of pair-vector components over models i, j and axes a, stored in a measurement database and used to seat models."),
         ("Axes of interest", "Named task axes on which disagreement and error are scored (for example coding, spec, security; law, facts; bull, bear, risk). A trial scores the axis it is running, not every axis by default."),
+        ("Rescue", "The event that model j is right on an axis when model i is wrong. Rescue rate is P(j right | i wrong). Positive complement."),
+        ("Co-failure", "The event that both models are wrong on the axis. Co-failure rate is P(both wrong). Negative complement. Aligned holes."),
+        ("Productive disagreement", "Disagreement in which exactly one of the two models is wrong (XOR-error). Style disagreement in which both are right does not cover residual holes."),
+        ("Complement tensor", "A second three-index array C[i, j, a] stored in the same measurement database, holding rescue, co-failure, XOR-error, and a signed combination, distinct from unsigned pair magnitude."),
     ],
     detailed=_p(
         "Assign each model a family. Occupancy rule, not a clustering theorem.",
@@ -210,6 +216,7 @@ add(
         "Orthogonality: the more two models disagree on the axes of interest, the more orthogonal the pair vector. Models that keep the same holes (including same-family copies) sit near-parallel. This is an occupancy measurement of observed task disagreement, not a cosine of embedding vectors.",
         "Persist each observation in a measurement database. An embodiment uses an append-only log as authority for the measurement and a rebuildable relational projection (for example SQLite) as cache. The operating-system ledger remains authority for jobs and spend; the porosity store does not replace it. A read that finds no observations reports unmeasured and does not create storage.",
         "Fold observations into a tensor grid T[i, j, a]. Use the grid to seat models: prefer a candidate whose observed pair orthogonality versus already-seated models is large per token consumed. That is token efficiency together with error discovery. Unmeasured candidates sort last. Several inexpensive models chosen for disagreement can beat a single expensive model on price and on residual-hole cover.",
+        "Further fold a complement tensor C[i, j, a] from the same observations when it is known which model erred. An embodiment records who_erred as i, j, both, or none. Rescue rate is the fraction of i-wrong trials on which j is right. Co-failure rate is the fraction of scored trials on which both are wrong. XOR-error is the fraction on which exactly one is wrong. Style disagreement (both right, different ballot) is stored and does not raise orthogonality as if it covered a hole. A signed score (XOR-error minus co-failure, times error magnitude) distinguishes positive overlay from mixing that hurts. Until who erred is scored, C is unmeasured; unsigned T may still have a frequency. Do not invent who was wrong from disagreement alone.",
         "When seating votes (architecture, build, critics): the same family does not count twice.",
         "Overlay: residual holes of the ensemble approximate the intersection of porosities when mistakes differ; they approximate the first porosity when they align.",
         "Prefer adding a different-porosity (different-mistake) model, including a low-quality one, over adding a high-quality copy of the same family. Predicted: surface cover grows faster than the same-family baseline (flat, or linear only in invoice).",
@@ -219,7 +226,7 @@ add(
         "Swiss-cheese is an image (Reason 1990 as analogy). This disclosure does not claim Reason's accident-causation theory as the invention.",
     ),
     best_mode=_p(
-        "Encoded docs/MOTIF.md and docs/arch/ORTHOGONAL_POROSITY.md: family-axis occupancy; pairwise orthogonal porosity vectors; JSONL observation log plus SQLite projection under the COSMOS runtime root; Forge facilitate and a shared trial hook; named pins rather than a rotating free-model router (silent swap is a hole that looks like coverage); dual-lane plus different-family critics."
+        "Encoded docs/MOTIF.md and docs/arch/ORTHOGONAL_POROSITY.md: family-axis occupancy; pairwise orthogonal porosity vectors; complement tensor of rescue / co-failure / XOR-error in the same measurement database; JSONL observation log plus SQLite projection under the COSMOS runtime root; Forge facilitate and a shared trial hook; named pins rather than a rotating free-model router (silent swap is a hole that looks like coverage); dual-lane plus different-family critics."
     ),
     embodiments=_p(
         "A coding critic seat uses a Google-family model and an OpenRouter value coder of another family, not two copies of one API. Their pair vector on the coding axis is written when their ballots differ. A later seating pass prefers a third inexpensive model whose tensor slice versus both is large per token.",
@@ -237,7 +244,7 @@ add(
         "Not Reason's aviation model. Not ensembles exist. Not a measured superlinear exponent. Not a clustering theorem. Not cosine of embedding vectors as the invention. Not a fabricated score."
     ),
     statement=_p(
-        "Quantified porosity of each coder as a hole-set and as a pairwise orthogonal vector on named axes (magnitude = disagreement frequency times error magnitude), persisted as a tensor grid in a measurement database, with seating and overlay rules so that different-mistake (including low-quality) models cover residual surface faster than same-family copies, including token-efficient seating and a write from every adversarial trial."
+        "Quantified porosity of each coder as a hole-set and as a pairwise orthogonal vector on named axes (magnitude = disagreement frequency times error magnitude), persisted as a tensor grid T in a measurement database together with a complement tensor C of rescue, co-failure, and XOR-error, with seating and overlay rules so that different-mistake (including low-quality) models cover residual surface faster than same-family copies, including token-efficient seating that prefers positive complement per token and a write from every adversarial trial."
     ),
     appendix=APPENDIX,
 )

@@ -31,6 +31,22 @@ may exist while magnitude (and therefore `|v|`) is still UNMEASURED.
 orthogonality versus the already-seated set is large **per token**. That
 is token efficiency × error discovery. UNMEASURED sorts last.
 
+**Complement tensor C[i, j, a]** (additional, same database). Unsigned `|v|`
+does not split help vs hurt. From `who_erred` on the same observation:
+
+```
+rescue(j|i)  = P(j right | i wrong)     # positive complement
+cofail(i,j)  = P(both wrong)            # negative complement
+xor_err      = P(exactly one wrong)     # productive disagreement
+style_fight  = P(disagree ∧ both right) # does not cover holes
+signed       = (xor_err − cofail) × error_magnitude
+```
+
+Directed: rescue of *j* given *i* is not rescue of *i* given *j*.
+`who_erred` in {a, b, both, none} scores the cell. `unknown` / omitted →
+complement UNMEASURED (ballot disagreement alone does not invent who was
+wrong). Seating prefers signed complement per token when scored, else `|v|`.
+
 ## Store (the database)
 
 | Layer | Path under runtime root | Role |
@@ -103,12 +119,14 @@ Call sites:
 
 ## Seating helper
 
-`recommend(paths, seated, candidates, axes=, costs=)`
+`recommend(paths, seated, candidates, axes=, costs=, mode="complement")`
 
-Score(c) = sum over seated s, over requested axes, of observed mag(c,s,a)
-divided by token cost(c) when cost is known. Missing mag → that term is
-skipped (not zero-filled as if measured). A candidate with no observed
-pairs is UNMEASURED and sorts last.
+Default `mode=complement`: Score(c) = sum over seated s, over requested
+axes, of (rescue(c|s) − cofail(c,s)) × error_magnitude, divided by token
+cost(c) when cost is known. Missing C → fall back to unsigned mag for
+that term. `mode=mag` uses `|v|` only. Missing term skipped (not
+zero-filled as if measured). A candidate with no observed pairs is
+UNMEASURED and sorts last.
 
 ## Not this ARCH
 
