@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
@@ -40,6 +41,7 @@ BLEND_IN = 0.75
 BLEND_OUT = 0.25
 ROTATING = frozenset({
     "openrouter/free", "openrouter/auto", "openrouter/free:free",
+    "openrouter/pareto-code",
 })
 # CCr initial for a MOTIF BUILD work-order: ~canon+files+brief in, patch out.
 # Override on the Forge pane if the job is a one-file fix or a full-tree rewrite.
@@ -57,6 +59,7 @@ VIA_OPTIONS = (
     {"id": "cli:grok", "label": "CLI · grok", "kind": "CLI"},
     {"id": "cli:gemini", "label": "CLI · gemini", "kind": "CLI"},
     {"id": "cli:codex", "label": "CLI · Codex", "kind": "CLI"},
+    {"id": "cli:hermes", "label": "CLI · Hermes", "kind": "CLI"},
     {"id": "openrouter-api", "label": "API · OpenRouter (incl. :free)", "kind": "API"},
     {"id": "groq-api", "label": "API · GroqCloud", "kind": "API"},
     {"id": "gem-api", "label": "API · Vertex Joanna", "kind": "API"},
@@ -1469,6 +1472,25 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "porosity": poro.get("federation") or default_porosity()["federation"],
         "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
         "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
+        "hermes": hermes_probe(),
+    }
+
+
+def hermes_probe() -> dict:
+    """OpenRouter cookbook: hermes as a CLI hand. Does not read the key."""
+    bin_path = shutil.which("hermes") or shutil.which("hermes.exe")
+    home = Path.home() / ".hermes"
+    env = home / ".env"
+    cfg = home / "config.yaml"
+    return {
+        "bin": bin_path,
+        "kind": "OK" if bin_path else "NO_SOURCE",
+        "env_present": env.is_file(),
+        "config_present": cfg.is_file(),
+        "cookbook": "https://openrouter.ai/docs/cookbook/coding-agents/hermes-integration",
+        "note": "Keith sets OPENROUTER_API_KEY in ~/.hermes/.env (hermes config set). "
+                "COSMOS does not paste it. Fallback seats are Model Rater DEFAULT+2, "
+                "not Hermes swapping mid-session. Rotator and pareto-code cannot sit.",
     }
 
 
@@ -1742,6 +1764,24 @@ def _selftest() -> int:
           and reset["override"] is False)
     stale = load_catalog(paths)
     check("fresh catalog is not stale", lambda: stale["stale"] is False)
+    check("cli:hermes is a CLI via; OpenRouter cookbook; not a second Core",
+          lambda: any(v["id"] == "cli:hermes" and v["kind"] == "CLI"
+                      for v in VIA_OPTIONS)
+          and "cookbook" in (snapshot(paths, limit=1).get("hermes") or {})
+          and snapshot(paths, limit=1)["hermes"]["kind"] in ("OK", "NO_SOURCE"))
+    hermes_ok = False
+    try:
+        assign_seat(paths, "forge", "adv_1", CCR_MODEL, via="cli:hermes")
+        hermes_ok = True
+    except ModelRaterError:
+        hermes_ok = False
+    check("a Forge seat can sit cli:hermes", lambda: hermes_ok)
+    pareto = False
+    try:
+        assign_seat(paths, "forge", "adv_2", "openrouter/pareto-code")
+    except ModelRaterError as e:
+        pareto = e.kind == "REFUSED"
+    check("OpenRouter pareto-code rotator cannot sit a seat", lambda: pareto)
 
     bad = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
