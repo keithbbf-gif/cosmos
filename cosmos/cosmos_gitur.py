@@ -162,6 +162,13 @@ def snapshot(kernel) -> dict:
     except Exception as e:  # noqa: BLE001
         jobs_kind = f"{type(e).__name__}: {e}"[:200]
 
+    creds = None
+    try:
+        from cosmos_cred_kit import snapshot as cred_snapshot
+        creds = cred_snapshot(paths, rails=by_id)
+    except Exception as e:  # noqa: BLE001
+        creds = {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
+
     return {
         "schema": SCHEMA,
         "measured_at": time.time(),
@@ -172,6 +179,7 @@ def snapshot(kernel) -> dict:
         "rails_err": rails_err,
         "ccr": ccr,
         "legs": legs,
+        "creds": creds,
         "cursor": _public_probe(_read_json(paths.config(PROBE_NAME))),
         "launch": _public_launch(_read_json(paths.config(LAUNCH_NAME))),
         "jobs": jobs[:80],
