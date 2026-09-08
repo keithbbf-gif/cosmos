@@ -87,6 +87,7 @@ from cosmos_dispatch_workspace import (  # noqa: E402,F401
 # file text) keep working unchanged. Additive.
 from cosmos_dispatch_jobs import (  # noqa: E402,F401
     _claude_job, _codex_job, _cursor_job, _grok_job, _groq_job,
+    _openrouter_job,
     _job_helpers_block, _py_path, _worker_job, render_job,
 )
 # PHASE 4 seam (docs/CORE_RESTRUCTURE.md): stage-5 critic inlining lives in
@@ -165,6 +166,9 @@ KIND_CANON = {
     "groq": "groq",
     "gptoss": "groq",
     "gptoss20b": "groq",
+    "openrouter": "openrouter",
+    "gemma": "openrouter",
+    "gemma4": "openrouter",
 }
 
 # Agent TYPE -> kind. Longest alnum-folded key wins. Explicit --kind overrides.
@@ -191,6 +195,9 @@ AGENT_TYPE_KIND = {
     "sonnetsubagent": "groq",
     "groq": "groq",
     "gptoss": "groq",
+    "openrouter": "openrouter",
+    "gemma": "openrouter",
+    "gemma4": "openrouter",
     "claude": "claude",
     "fable": "claude",
     "f5": "claude",
@@ -204,6 +211,7 @@ KIND_MAKER = {
     "grok": "Grok", "cursor": "Cursor", "codex": "Codex", "claude": "Claude",
     "sonnet": "Claude", "haiku": "Claude",
     "gem": "Gemini", "oa": "OpenAI", "ssa": "SSA", "groq": "Groq",
+    "openrouter": "OpenRouter",
 }
 # grok is live-proven through this harness. claude-family CLI is live-proven
 # 2026-08-31T18:42Z: dispatch F5 job -> claude -p PONG, result_rc=0
@@ -218,11 +226,13 @@ KIND_LIVE = {
     "claude": "ANTHROPIC_OFF", "sonnet": "ANTHROPIC_OFF",
     "haiku": "ANTHROPIC_OFF", "ssa": "adapter",
     "groq": "adapter",
+    "openrouter": "adapter",
     "gem": "handoff", "oa": "handoff",
 }
 WORKER_KINDS = frozenset({"gem", "oa"})
 CLAUDE_KINDS = frozenset({"claude", "sonnet", "haiku"})
 GROQ_KINDS = frozenset({"groq", "ssa"})
+OPENROUTER_KINDS = frozenset({"openrouter"})
 # Node-worker identity is live/buckets/<node> (cosmos_node_worker.bucket_dir).
 # oa/ssa use the same layout so a later worker can poll without a remap.
 WORKER_BUCKET_NODE = {"gem": "gem", "oa": "oa", "ssa": "ssa"}
@@ -242,6 +252,9 @@ TAG_CANON = {
     "sonnetsubagent": "SSA",
     "groq": "GROQ",
     "gptoss": "GROQ",
+    "openrouter": "OPENROUTER",
+    "gemma": "OPENROUTER",
+    "gemma4": "OPENROUTER",
     "f5": "F5",
     "claude": "F5",
     "fable": "F5",
@@ -266,6 +279,8 @@ HAIKU_MODEL = "haiku"             # Haiku 4.5 via local claude -p --model haiku
 SSA_MODEL = SONNET_MODEL          # leftover alias; SSA kind remaps to groq
 GROQ_MODEL = "openai/gpt-oss-20b"  # SSA replacement (Keith 2026-09-05)
 GROQ_TIMEOUT_S = 180
+OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it:free"  # Keith 2026-09-07 named pin
+OPENROUTER_TIMEOUT_S = 180
 CURSOR_BASE = "https://api.cursor.com"
 CURSOR_REPO = "https://github.com/keithbbf-gif/cosmos"
 CURSOR_REF = "main"
@@ -281,12 +296,13 @@ CRITIQUE_INLINE_CAP = 120_000
 # Lane -> CLI model id. Cursor/codex honor an explicit --model.
 KIND_MODEL = {
     "grok": DEFAULT_MODEL,
-    "cursor": "claude-opus-5",
+    "cursor": "composer-2.5",
     "claude": CLAUDE_MODEL,
     "sonnet": SONNET_MODEL,
     "haiku": HAIKU_MODEL,
     "ssa": GROQ_MODEL,
     "groq": GROQ_MODEL,
+    "openrouter": OPENROUTER_MODEL,
 }
 
 # Explicit --model aliases for the claude-family CLI (not grok).
@@ -421,7 +437,7 @@ def _canon_kind(kind: str) -> str:
     if key not in KIND_CANON:
         raise DispatchError("BAD_INPUT",
                             f"unknown kind {kind!r}; want grok|cursor|codex|"
-                            f"claude|F5|sonnet|haiku|gem|oa|groq|ssa")
+                            f"claude|F5|sonnet|haiku|gem|oa|groq|ssa|openrouter|gemma")
     return KIND_CANON[key]
 
 
@@ -441,7 +457,7 @@ def infer_kind(agent: str) -> str:
         raise DispatchError(
             "BAD_INPUT",
             f"cannot infer kind from agent {agent!r}; pass "
-            f"kind=grok|cursor|codex|claude|sonnet|haiku|gem|oa|groq|ssa")
+            f"kind=grok|cursor|codex|claude|sonnet|haiku|gem|oa|groq|ssa|openrouter|gemma")
     return best
 
 
@@ -490,6 +506,10 @@ def resolve_lane_model(kind: str, model: str | None) -> str:
     if kind_c in GROQ_KINDS or kind_c == "groq":
         if not raw or raw == DEFAULT_MODEL:
             return KIND_MODEL["groq"]
+        return raw
+    if kind_c in OPENROUTER_KINDS:
+        if not raw or raw == DEFAULT_MODEL:
+            return KIND_MODEL["openrouter"]
         return raw
     if not raw:
         return KIND_MODEL.get(kind_c, DEFAULT_MODEL)
@@ -542,6 +562,8 @@ def _timeout_for(kind: str) -> int:
         return CLAUDE_TIMEOUT_S
     if kind == "groq":
         return GROQ_TIMEOUT_S
+    if kind == "openrouter":
+        return OPENROUTER_TIMEOUT_S
     if kind in ("gem", "oa"):
         return GROK_TIMEOUT_S
     if kind in WORKER_KINDS:  # unused while WORKER_KINDS == {gem, oa}
