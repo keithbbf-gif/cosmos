@@ -35,10 +35,31 @@ PROTOCOL = "2024-11-05"
 CLIENT_NAME = "cosmos-mcp-client"
 CLIENT_VERSION = "1"
 SCHEMA = "cosmos-mcp-client/1"
+MCP_COOKBOOK = (
+    "https://openrouter.ai/docs/cookbook/coding-agents/mcp-servers"
+)
 
 # Default-deny RCE-equivalent. Playwright lists this in the core 24; the
 # client must refuse tools/call even though the server will list it.
 DEFAULT_DENY = frozenset({"browser_run_code_unsafe"})
+# Cookbook example: @modelcontextprotocol/server-filesystem on /Applications
+# with write_file. Not a COSMOS named pin. Do not spawn it.
+FILESYSTEM_MCP = "@modelcontextprotocol/server-filesystem"
+
+NAMED_SERVERS = (
+    {"id": "cosmos", "label": "COSMOS spoken as MCP", "kind": "server",
+     "module": "cosmos_mcp",
+     "note": "Inbound: KDash/Cursor talk TO Core. tools/list is in-process."},
+    {"id": "playwright", "label": "Playwright DOM", "kind": "client",
+     "module": "cosmos_playwright_rail",
+     "note": "Existing DOM rail. MCP is transport, not a second Core."},
+    {"id": "openwork", "label": "OpenWork", "kind": "via",
+     "via": "mcp:openwork", "note": "Named via. NO_HOST until a session exists."},
+    {"id": "github", "label": "GitHub", "kind": "via",
+     "via": "mcp:github", "note": "Named via. NO_HOST until a session exists."},
+    {"id": "bts", "label": "BTS", "kind": "via",
+     "via": "mcp:bts", "note": "Named via. NO_HOST until a session exists."},
+)
 
 
 class McpClientError(RuntimeError):
@@ -49,10 +70,98 @@ class McpClientError(RuntimeError):
         super().__init__(f"[{kind}] {detail}")
 
 
+def convert_tool_format(tool) -> dict:
+    """MCP tools/list item → OpenAI-compatible function tool.
+
+    OpenRouter cookbook mcp-servers: spread these into chat.completions
+    `tools`. Does not spawn a server. Does not call the tool.
+    """
+    if not isinstance(tool, dict):
+        raise McpClientError("BAD_SPEC", "tool must be a dict (MCP JSON-RPC, not SDK object)")
+    name = str(tool.get("name") or "").strip()
+    if not name:
+        raise McpClientError("BAD_SPEC", "tool.name is required")
+    schema = tool.get("inputSchema")
+    if schema is None:
+        schema = tool.get("input_schema")
+    if not isinstance(schema, dict):
+        schema = {}
+    props = schema.get("properties") if isinstance(schema.get("properties"), dict) else {}
+    req = schema.get("required") if isinstance(schema.get("required"), list) else []
+    req = [str(x) for x in req if x]
+    return {
+        "type": "function",
+        "function": {
+            "name": name,
+            "description": str(tool.get("description") or ""),
+            "parameters": {
+                "type": "object",
+                "properties": props,
+                "required": req,
+            },
+        },
+    }
+
+
+def openai_tools_from_mcp(tools) -> list[dict]:
+    out = []
+    for t in tools or []:
+        if not isinstance(t, dict):
+            continue
+        if not t.get("name"):
+            continue
+        out.append(convert_tool_format(t))
+    return out
+
+
+def named_servers() -> dict:
+    """GET fold. Never mkdir. Never spawn npx / filesystem MCP."""
+    here = Path(__file__).resolve().parent
+    rows = []
+    for s in NAMED_SERVERS:
+        rec = dict(s)
+        mod = s.get("module")
+        present = False
+        if mod:
+            present = (here / f"{mod}.py").is_file()
+        rec["present"] = present
+        rec["led"] = "PRESENT" if present else "NO_HOST"
+        rec.pop("module", None)
+        rows.append(rec)
+    cosmos_tools = []
+    try:
+        from cosmos_mcp import TOOLS as CORE_TOOLS
+        cosmos_tools = openai_tools_from_mcp(CORE_TOOLS)
+    except Exception:  # noqa: BLE001
+        cosmos_tools = []
+    return {
+        "schema": SCHEMA,
+        "ok": True,
+        "cookbook": MCP_COOKBOOK,
+        "n": len(rows),
+        "servers": rows,
+        "cosmos_openai_tools": cosmos_tools,
+        "n_cosmos_tools": len(cosmos_tools),
+        "does_not_vendor_openrouter_mcp": True,
+        "does_not_spawn_filesystem": True,
+        "filesystem_mcp_refused": FILESYSTEM_MCP,
+        "note": (
+            "MCP tool defs convert to OpenAI tools for OpenRouter chat. "
+            "Named pins only. Cookbook filesystem /Applications write_file "
+            "is REFUSED. GET never spawns. tools/call still hits the deny list."
+        ),
+    }
+
+
 def npx_argv(npx_args: list[str]) -> list[str]:
     """Windows-safe npx spawn. Argv list, cmd.exe as argv[0], never shell=True."""
     if not isinstance(npx_args, list) or any(not isinstance(a, str) for a in npx_args):
         raise McpClientError("BAD_SPEC", "npx_args must be a list of str")
+    if any(FILESYSTEM_MCP in a for a in npx_args):
+        raise McpClientError(
+            "REFUSED",
+            f"{FILESYSTEM_MCP} is the cookbook filesystem example — not a COSMOS pin",
+        )
     cmd = shutil.which("cmd") or shutil.which("cmd.exe")
     if not cmd:
         raise McpClientError("UNREACHABLE", "cmd.exe not on PATH (Windows spawn)")
@@ -463,6 +572,35 @@ def _selftest() -> int:
         off = e.kind == "DENIED"
     check("allowlist refuses unlisted tools", lambda: off)
     allow.close()
+
+    conv = convert_tool_format({
+        "name": "read_file",
+        "description": "read",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"path": {"type": "string"}},
+            "required": ["path"],
+        },
+    })
+    check("MCP tool converts to OpenAI function for OpenRouter",
+          lambda: conv["type"] == "function"
+          and conv["function"]["name"] == "read_file"
+          and conv["function"]["parameters"]["required"] == ["path"])
+    snap = named_servers()
+    check("named MCP servers GET does not spawn; filesystem example refused",
+          lambda: snap["does_not_spawn_filesystem"] is True
+          and snap["cookbook"] == MCP_COOKBOOK
+          and snap["n_cosmos_tools"] >= 1
+          and any(t["function"]["name"] == "cosmos_status"
+                  for t in snap["cosmos_openai_tools"])
+          and any(s["id"] == "cosmos" and s["present"] for s in snap["servers"]))
+    fs_refused = False
+    try:
+        npx_argv(["-y", FILESYSTEM_MCP, "/Applications"])
+    except McpClientError as e:
+        fs_refused = e.kind == "REFUSED"
+    check("npx filesystem MCP is REFUSED (write_file on a grant is a hole)",
+          lambda: fs_refused)
 
     argv = npx_argv(["-y", "@playwright/mcp@0.0.79", "--help"])
     check("npx argv is cmd.exe /c npx, not a string and not shell",

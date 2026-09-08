@@ -39,6 +39,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/gitur      - GitHub + GitLab + Cursor projection (rails + probe, no vendor poll)
     GET /api/v1/cred       - API/CLI/ADC key LEDs. Never echoes the secret. GET never mkdir.
     GET /api/v1/agents     - SDK / CLI / localhost agent presence (PATH/import).
+    GET /api/v1/mcp        - named MCP servers + OpenAI tool conversion.
+                           GET never mkdir, never spawns. Filesystem MCP REFUSED.
     GET /api/v1/work_orders - timestamped work-order list (agents, product, checks).
                            Folders are the live list; ?id= returns output_head.
                            GET never mutates and never mkdir.
@@ -886,6 +888,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/api/v1/agents":
                 from cosmos_cred_kit import agents_snapshot
                 rec = agents_snapshot()
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/mcp":
+                from cosmos_mcp_client import named_servers
+                rec = named_servers()
+                rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
             if parsed.path == "/api/v1/studio":

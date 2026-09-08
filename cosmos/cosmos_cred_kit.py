@@ -32,6 +32,9 @@ HERMES_COOKBOOK = (
 USAGE_COOKBOOK = (
     "https://openrouter.ai/docs/cookbook/administration/usage-accounting"
 )
+MCP_COOKBOOK = (
+    "https://openrouter.ai/docs/cookbook/coding-agents/mcp-servers"
+)
 CURSOR_OR_BASE = "https://openrouter.ai/api/v1/cursor"
 MAX_SECRET = 8_000
 MAX_CUSTOM = 40
@@ -299,6 +302,13 @@ def snapshot(paths, *, rails: dict | None = None) -> dict:
                     "cost, cache). Do not send usage.include — deprecated. "
                     "GET /generation?id= is the async audit. Not a billing page.",
         },
+        "mcp_cookbook": {
+            "url": MCP_COOKBOOK,
+            "note": "MCP tools/list → OpenAI tools for OpenRouter chat. "
+                    "Named pins (cosmos, playwright, mcp:openwork/github/bts). "
+                    "Does not vendor @openrouter/mcp. Cookbook filesystem "
+                    "write_file on /Applications is REFUSED.",
+        },
         "plugin": {
             "targets": ["cdeck", "openwork"],
             "rpc": ["/api/v1/cred", "/api/v1/agents"],
@@ -445,6 +455,9 @@ def _selftest() -> int:
     check("usage-accounting cookbook is named, not a credits/billing page",
           lambda: rec["usage_cookbook"]["url"] == USAGE_COOKBOOK
           and "credits" not in rec["usage_cookbook"]["url"])
+    check("MCP servers cookbook is named; filesystem example is not a pin",
+          lambda: rec["mcp_cookbook"]["url"] == MCP_COOKBOOK
+          and "filesystem" in rec["mcp_cookbook"]["note"].lower())
     check("LED is NO_SOURCE when the file is absent",
           lambda: any(s["id"] == "openrouter" and s["led"] == "NO_SOURCE"
                       for s in rec["sources"]))

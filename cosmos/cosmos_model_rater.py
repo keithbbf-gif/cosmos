@@ -1476,6 +1476,9 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "usage_cookbook": (
             "https://openrouter.ai/docs/cookbook/administration/usage-accounting"
         ),
+        "mcp_cookbook": (
+            "https://openrouter.ai/docs/cookbook/coding-agents/mcp-servers"
+        ),
         "hermes": hermes_probe(),
         "agents": _agents_fold(),
     }

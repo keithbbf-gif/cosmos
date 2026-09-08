@@ -419,6 +419,24 @@ def snapshot_usage(paths) -> dict:
     return rec
 
 
+def _tool_calls(body: dict) -> list[dict]:
+    """OpenAI-shaped tool_calls from a chat response. Does not execute them."""
+    choices = body.get("choices") if isinstance(body, dict) else None
+    if not isinstance(choices, list) or not choices:
+        return []
+    msg = (choices[0] or {}).get("message") if isinstance(choices[0], dict) else {}
+    if not isinstance(msg, dict):
+        return []
+    raw = msg.get("tool_calls")
+    if not isinstance(raw, list):
+        return []
+    out = []
+    for tc in raw:
+        if isinstance(tc, dict):
+            out.append(tc)
+    return out
+
+
 def _message_text(body: dict) -> str:
     choices = body.get("choices") if isinstance(body, dict) else None
     if not isinstance(choices, list) or not choices:
@@ -530,6 +548,9 @@ class OpenRouterRail:
             "stream": False,
             "provider": {"allow_fallbacks": False},
         }
+        tools = payload.get("tools")
+        if isinstance(tools, list) and tools:
+            body["tools"] = tools
         # Cookbook: usage is always in the response. Do not send the
         # deprecated usage.include / stream_options.include_usage flags.
         status, hdrs, obj = self._call("POST", CHAT_PATH, body)
@@ -550,6 +571,7 @@ class OpenRouterRail:
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
             "usage_fold": usage_fold,
+            "tool_calls": _tool_calls(obj if isinstance(obj, dict) else {}),
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "link_id": self.link_id,
             "detail": f"http={status} response_model={response_model!r}",
@@ -881,6 +903,17 @@ def _selftest() -> int:
           and chat["usage_fold"]["cached_tokens"] == 1
           and chat["usage_fold"]["cost"] == 0.0
           and chat["usage_fold"]["cookbook"] == USAGE_COOKBOOK)
+    mcp_tools = [{
+        "type": "function",
+        "function": {
+            "name": "cosmos_status",
+            "description": "kernel readiness",
+            "parameters": {"type": "object", "properties": {}, "required": []},
+        },
+    }]
+    with_tools = rail.dispatch({"text": "ping", "tools": mcp_tools})
+    check("OpenRouter chat can carry converted MCP tools; does not auto-call",
+          lambda: with_tools["ok"] and with_tools.get("tool_calls") == [])
     snap_u = snapshot_usage(paths)
     check("recorded usage is on disk after dispatch, not before GET",
           lambda: snap_u["n_obs"] == 1 and snap_u["kind"] == "MEASURED"
