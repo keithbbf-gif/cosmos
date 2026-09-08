@@ -74,6 +74,15 @@ and on performance.** A monoculture of the “best” model is the expensive way
 the same holes. Dual-lane BUILD and different-family CRITICS exist to punch different
 holes, not to vote twice.
 
+**Orthogonal porosity (Keith 2026-09-07; spoken Pourosity).** Porosity is a **vector**,
+measured against the other seated models on the **axes of interest**, not a single
+value. Pair magnitude = **disagreement frequency × error magnitude**. More
+disagreement → more orthogonal that pair. Observations live in a **database** and
+fold into a **tensor grid** used to seat models for token efficiency and error
+discovery. Built into **Forge** and **every adversarial trial** in COSMOS or any
+profile. UNMEASURED until observed. DEFINE `DEFINE_ORTHOGONAL_POROSITY.md`.
+ARCH `docs/arch/ORTHOGONAL_POROSITY.md`. Docket COSMOS-P03.
+
 Re-entering at stage 1 **PROBLEM STATEMENT / STATED GOAL** each cycle gives COSMOS the freedom to **re-state the feature**,
 then change the architecture, incorporate new models and new information, re-scope to current
 needs — keep what worked, replace what didn't. The design is never frozen; the loop re-decides it.

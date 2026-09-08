@@ -32,6 +32,12 @@ Then: RESEARCH → ARCH → CONSENSUS (comparison + discussion) → BUILD → CR
 (output comparison) → CONSENSUS (adjudication) → IMPROVE (accept + apply) →
 ITERATE back to DEFINE.
 
+**Orthogonal porosity (Keith 2026-09-07).** Every dual-lane / critic trial
+writes pair observations into the porosity tensor (disagreement frequency ×
+error magnitude on named axes). More disagreement → more orthogonal. Used to
+seat the next models. UNMEASURED until observed. DEFINE
+`DEFINE_ORTHOGONAL_POROSITY.md`.
+
 ## Flow
 
 1. Ara drops the work order JSON in `work_orders/drop/` (six fields per WORK_ORDER_SOP.md). The Task field **is** the DEFINE file.

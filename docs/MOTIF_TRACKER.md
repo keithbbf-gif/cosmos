@@ -1,5 +1,14 @@
 # MOTIF TRACKER — every deliverable × the 7-stage COSMOS cycle
 
+<!-- cow-disposition 2026-09-07T orthogonal porosity tensor -->
+## Disposition — CCr (Keith: Pourosity built into FORGE + every adversarial trial; vector; database; MOTIF; patents)
+- **DEFINE:** `work_orders/ccr/DEFINE_ORTHOGONAL_POROSITY.md`. Vector on axes of interest, not a scalar. Pair mag = disagreement frequency × error magnitude. More disagreement → more orthogonal. Tensor grid for token efficiency + error discovery.
+- **ARCH:** `docs/arch/ORTHOGONAL_POROSITY.md`. JSONL authority + SQLite projection. GET never mkdir. Rotators refused.
+- **BUILD this pass:** `cosmos/cosmos_porosity.py` + GET/POST `/api/v1/porosity` + Forge `facilitate` hook. Scalar Model Rater porosity stays a per-model fold.
+- **Patents:** P03 written description extended (pair vector, tensor, database, every-trial hook). P05 embodiment. Not a 14th $65 slot. Not USPTO click. Not invented scores.
+- **RESEARCH:** `CREW/OUT/DOCKET/R5_ORTHOGONAL_POROSITY.md` (prior-art names). Live emit = GET `/api/v1/porosity` after a real named-model pair.
+<!-- /cow-disposition -->
+
 <!-- cow-disposition 2026-09-07T OSS borrow MOTIF -->
 ## Disposition — CCr (Keith: read OSS *code*; borrow/adapt/learn; execute MOTIF)
 - **DEFINE:** `DEFINE_OSS_BORROW.md`. Stack REJECT stands. This thread reads mechanisms.
@@ -557,7 +566,7 @@ and wrote an artifact. Honest state 2026-08-25. COW orchestrates each row up the
 a DRAFT. COW reports the stage, never "complete," without the gate's proof.
 
 <!-- motif-driver-tick -->
-Last mechanical tick: 2026-09-07T16:00:01.047881-05:00 · dispatched=10 skipped=1
+Last mechanical tick: 2026-09-07T23:00:00.222326-05:00 · dispatched=10 skipped=1
 Dropped: cdeck->s5@cm, cvm->s5@cm, cdm->s5@cm, gbridge->s6@cm, collector->s6@cm, dispatch->s6@cm, makerhands->s2@cm, meshadditions->s3@cm, cursor->s5@cm, runner->s6@cm
 Skipped: runtimeall:meta
 <!-- /motif-driver-tick -->

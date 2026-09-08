@@ -96,6 +96,7 @@ add(
         "Preferred skins: Forge (coding), Crucible (legal packet as occupancy not as a role-triad invention), Diligence (bull/bear/risk), Differentiator (anonymized medical casefile), Docket (IP). UPS is a physics skin that needs the inventor's July pack and is not invented here.",
         "Fail-closed runtime-binding (COSMOS-P04) is the gate. The ledger (COSMOS-P07) is authority. Dashboards are projections.",
         "Adversarial occupancy may be seated over remote. A terminal mouth or a phone mouth (the inventor: adversarial AI over remote, terminal or phone) drops a typed work order. The runner instantiates N isolated proposers and different-family critics. The disposer remains one. Neither mouth writes the live tree. This is not a shared-transcript crew on the phone and not a second Core.",
+        "Every adversarial trial writes pairwise orthogonal porosity observations into the measurement database of COSMOS-P03 (disagreement frequency times error magnitude on named axes; tensor grid for seating). Forge and every profile use the same hook. Unmeasured until observed.",
     ),
     best_mode=_p(
         "COSMOS Core as the OS; cDeck as a skin; products listed in docs/PROFILES.md; one CCr lease; orchestrator without the COSMOS pen. Encoded docs/CCR.md, docs/ADVERSARIAL_LOOP.md."
@@ -103,6 +104,7 @@ add(
     embodiments=_p(
         "Parallel native windows bound to {profile, core_base, tree_id} are two clients of one Core, not two Cores. A peer Core stays unnamed until the operator names a host.",
         "Remote embodiment: adversarial AI over a terminal or a phone, same occupancy, same peeking ban, same one pen, ingress via COSMOS-P13.",
+        "Orthogonal porosity tensor (COSMOS-P03) is built into every trial this engine invokes, including remote mouths.",
     ),
     public=_p(
         "CRUCIBLE is named in bts-mesh GitHub description 2026-08-16T10:21:14Z (word not in tracked files of that repo). Adversarial loop in public cosmos MOTIF, repository created 2026-08-23."
@@ -115,7 +117,7 @@ add(
         "Not we invented multi-agent. Not Magentic-One (orchestrator holds the wrench). Not a voter over N-version binaries. Not a plaintiff-defense-judge patent (see COSMOS-P12 HOLD)."
     ),
     statement=_p(
-        "One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding, legal, medical, diligence, and IP packets, and reachable over remote from a terminal or a phone without mounting the live root."
+        "One occupancy engine (isolate, different-family critique, one pen) reused as skins across coding, legal, medical, diligence, and IP packets, and reachable over remote from a terminal or a phone without mounting the live root, every trial writing the orthogonal porosity tensor of COSMOS-P03."
     ),
     appendix=APPENDIX,
 )
