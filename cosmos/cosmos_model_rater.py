@@ -148,12 +148,16 @@ SORT_KEYS = frozenset({
     "quality_per_cost", "porosity",
     "reasoning", "speed", "stability", "office", "file",
     "popularity", "recency", "created", "latency", "math",
+    "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
+    "scicode", "terminal_bench", "omniscience", "omniscience_nh",
     "name", "context", "id",
 })
 QUALITY_AXES = ("intelligence", "coding", "agentic")
 RATIO_AXES = ("intelligence", "coding", "agentic", "quality")
 EXTRA_AXES = ("speed", "math", "office", "file", "stability",
-              "popularity", "latency", "reasoning")
+              "popularity", "latency", "reasoning",
+              "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
+              "scicode", "terminal_bench", "omniscience", "omniscience_nh")
 TYPE_KEYS = frozenset({
     "coding", "reasoning", "images", "audio", "video", "chat", "free",
 })
@@ -170,11 +174,27 @@ AA_FIELD_MAP = (
     ("latency", "latency"),
     ("time_to_first_token", "latency"),
     ("office_index", "office"),
-    ("gdpval", "office"),
     ("file_index", "file"),
     ("pdf_index", "file"),
     ("stability_index", "stability"),
     ("endpoint_accuracy", "stability"),
+    ("gpqa_diamond", "gpqa"),
+    ("gpqa", "gpqa"),
+    ("hle", "hle"),
+    ("humanity_last_exam", "hle"),
+    ("ifbench", "ifbench"),
+    ("tau2_bench_telecom", "tau2"),
+    ("tau2_telecom", "tau2"),
+    ("aa_lcr", "lcr"),
+    ("lcr", "lcr"),
+    ("gdpval_aa", "gdpval"),
+    ("gdpval", "gdpval"),
+    ("critpt", "critpt"),
+    ("scicode", "scicode"),
+    ("terminal_bench_hard", "terminal_bench"),
+    ("terminal_bench", "terminal_bench"),
+    ("omniscience_accuracy", "omniscience"),
+    ("omniscience_non_hallucination", "omniscience_nh"),
 )
 AXES_META = (
     {"id": "intelligence", "label": "INT / reasoning composite",
@@ -190,7 +210,51 @@ AXES_META = (
     {"id": "math", "label": "math",
      "source": "AA math_index when OpenRouter sends it; else UNMEASURED"},
     {"id": "office", "label": "office work",
-     "source": "UNMEASURED — AA industry indices are not on the OpenRouter fold"},
+     "source": "UNMEASURED unless a vendor office index exists. GDPval-AA is its own column."},
+    {"id": "gpqa", "label": "GPQA Diamond",
+     "group": "Reasoning",
+     "def": "Graduate-level scientific reasoning (biology, chemistry, physics). Google-proof. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "hle", "label": "HLE",
+     "group": "Reasoning",
+     "def": "Humanity's Last Exam — expert-level questions. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "ifbench", "label": "IFBench",
+     "group": "Reasoning",
+     "def": "Instruction-following benchmark. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "tau2", "label": "τ²-Bench Telecom",
+     "group": "Reasoning",
+     "def": "Conversational AI agents in dual-control scenarios. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "lcr", "label": "AA-LCR",
+     "group": "Reasoning",
+     "def": "Long context reasoning evaluation. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "gdpval", "label": "GDPval-AA",
+     "group": "Reasoning",
+     "def": "Economically valuable tasks. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "critpt", "label": "CritPt",
+     "group": "Reasoning",
+     "def": "Research-level physics reasoning. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "scicode", "label": "SciCode",
+     "group": "Coding",
+     "def": "Python programming for scientific computing. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "terminal_bench", "label": "Terminal-Bench Hard",
+     "group": "Coding",
+     "def": "Agentic coding and terminal use. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "omniscience", "label": "AA-Omniscience Accuracy",
+     "group": "Knowledge",
+     "def": "Proportion of correctly answered questions. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
+    {"id": "omniscience_nh", "label": "AA-Omniscience Non-Hallucination",
+     "group": "Knowledge",
+     "def": "Rate of avoiding hallucination among non-correct responses. Higher % is better.",
+     "source": "Artificial Analysis via OpenRouter model Benchmarks tab"},
     {"id": "file", "label": "file work",
      "source": "UNMEASURED — no vendor file-work index on this fold"},
     {"id": "stability", "label": "stability",
@@ -419,6 +483,17 @@ def normalize_row(raw: dict) -> dict:
         "office": None,
         "file": None,
         "stability": None,
+        "gpqa": None,
+        "hle": None,
+        "ifbench": None,
+        "tau2": None,
+        "lcr": None,
+        "gdpval": None,
+        "critpt": None,
+        "scicode": None,
+        "terminal_bench": None,
+        "omniscience": None,
+        "omniscience_nh": None,
         "popularity": _popularity(raw),
         "latency": None,
         "created": created,
@@ -709,6 +784,8 @@ _AXIS_SORT = frozenset({
     "speed", "stability", "office", "file", "math", "popularity", "latency",
     "intelligence_per_cost", "coding_per_cost", "agentic_per_cost",
     "quality_per_cost", "porosity",
+    "gpqa", "hle", "ifbench", "tau2", "lcr", "gdpval", "critpt",
+    "scicode", "terminal_bench", "omniscience", "omniscience_nh",
 })
 
 
@@ -1390,6 +1467,8 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "blend": {"in": BLEND_IN, "out": BLEND_OUT},
         "porosity": poro.get("federation") or default_porosity()["federation"],
+        "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
+        "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
     }
 
 
@@ -1417,7 +1496,9 @@ def _selftest() -> int:
                 {"source": "artificial-analysis",
                  "model_permaslug": "anthropic/claude-opus-5",
                  "intelligence_index": 90.0, "coding_index": 88.0,
-                 "agentic_index": 85.0, "output_speed": 42.0},
+                 "agentic_index": 85.0, "output_speed": 42.0,
+                 "gpqa_diamond": 86.7, "hle": 28.4, "ifbench": 81.4,
+                 "scicode": 40.3, "terminal_bench_hard": 36.4},
                 {"source": "artificial-analysis",
                  "model_permaslug": DEFAULT_MODEL.split(":")[0],
                  "intelligence_index": 40.0, "coding_index": 55.0,
@@ -1562,6 +1643,18 @@ def _selftest() -> int:
     check("speed copies vendor output_speed, recency copies created",
           lambda: office.get("speed") == 42.0
           and office.get("created") == 1_800_000_000)
+    check("OpenRouter AA benches copy GPQA/HLE/IFBench/SciCode/Terminal-Bench when sent",
+          lambda: office.get("gpqa") == 86.7
+          and office.get("hle") == 28.4
+          and office.get("ifbench") == 81.4
+          and office.get("scicode") == 40.3
+          and office.get("terminal_bench") == 36.4
+          and office.get("omniscience") is None)
+    check("snapshot carries metric definitions, never invents missing benches",
+          lambda: any(d.get("id") == "gpqa" and "Graduate-level" in (d.get("def") or "")
+                      for d in snapshot(paths, limit=1).get("bench_defs") or [])
+          and "Artificial Analysis" in (snapshot(paths, limit=1).get("bench_cite") or "")
+          and len(snapshot(paths, limit=1).get("bench_defs") or []) >= 11)
     blend = blended_per_m(office)
     check("blended cost is 75% in / 25% out per M",
           lambda: abs(blend - (0.75 * 15 + 0.25 * 75)) < 1e-9
