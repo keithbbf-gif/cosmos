@@ -72,7 +72,7 @@ GITUR_DESTS = frozenset({"github", "gitlab"})
 PROFILES = (
     {"id": "forge", "label": "Forge — Coding", "kind": "coding",
      "dest": FORGE_DEST, "status": "cooking",
-     "note": "Coding profile. MOTIF sequence on top with a setup pane per step. Left tabs: Session, Seats, Estimate, TidyUP/BOOTUP."},
+     "note": "Coding profile. MOTIF sequence on top. Left tabs: Session, Seats, Estimate, TidyUP, then a tab per MOTIF step for setup. Background free CLI for RESEARCH→CONSENSUS."},
     {"id": "crucible", "label": "Crucible", "kind": "legal",
      "dest": LEGAL_DEST, "status": "named",
      "note": "Plaintiff / defense / judge. Own Legal tree."},
@@ -123,7 +123,7 @@ def motif_skin_tabs() -> list[dict]:
 
 def skin_tabs_for(profile_id: str) -> list[dict]:
     if profile_id == "forge":
-        return [dict(t) for t in FORGE_SKIN_TABS]
+        return [dict(t) for t in FORGE_SKIN_TABS] + motif_skin_tabs()
     return motif_skin_tabs()
 
 
@@ -187,6 +187,20 @@ def default_dest(profile_row: dict) -> dict:
     }
 
 
+def default_step_setup() -> dict:
+    """Per-step Forge setup. Background free CLI is RESEARCH→CONSENSUS only."""
+    bars = ("research", "arch", "consensus1", "critics", "consensus2")
+    out = {}
+    for sid in bars:
+        out[sid] = {
+            "bar": "majority",
+            "arch_choice": "auto",
+            "n_free": 3,
+            "via": "cli",
+        }
+    return out
+
+
 def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
     row = _profile(profile_id)
     notes = {s["id"]: "" for s in MOTIF_STAGES}
@@ -196,6 +210,7 @@ def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
         "label": row["label"],
         "define": {"text": "", "saved_at": None},
         "stages": notes,
+        "step_setup": default_step_setup(),
         "dest": default_dest(row),
         "saved_at": None,
         "kind": "NO_SOURCE",
@@ -204,6 +219,31 @@ def default_engine(profile_id: str = DEFAULT_PROFILE) -> dict:
             "IMPLEMENT dest is profile-specific. Publish is Keith's click."
         ),
     }
+
+
+def _public_step_setup(raw) -> dict:
+    base = default_step_setup()
+    src = raw if isinstance(raw, dict) else {}
+    out = {}
+    for sid, dflt in base.items():
+        got = src.get(sid) if isinstance(src.get(sid), dict) else {}
+        bar = str(got.get("bar") or dflt["bar"]).strip().lower()
+        if bar not in ("plurality", "majority", "complete"):
+            bar = dflt["bar"]
+        choice = str(got.get("arch_choice") or dflt["arch_choice"]).strip().lower()
+        if choice not in ("auto", "hitl"):
+            choice = dflt["arch_choice"]
+        try:
+            n_free = int(got.get("n_free") or dflt["n_free"])
+        except (TypeError, ValueError):
+            n_free = dflt["n_free"]
+        out[sid] = {
+            "bar": bar,
+            "arch_choice": choice,
+            "n_free": max(1, min(n_free, 5)),
+            "via": "cli",
+        }
+    return out
 
 
 def _public_dest(raw, profile_row: dict) -> dict:
@@ -254,6 +294,7 @@ def load_engine(paths, profile_id: str) -> dict:
             "saved_at": (rec.get("define") or {}).get("saved_at"),
         },
         "stages": stages,
+        "step_setup": _public_step_setup(rec.get("step_setup")),
         "dest": dest,
         "saved_at": rec.get("saved_at"),
         "kind": "OK",
@@ -287,6 +328,8 @@ def save_engine(paths, body: dict) -> dict:
             cur["stages"][sid] = str(note or "")[:MAX_NOTE]
     if "dest" in body:
         cur["dest"] = _public_dest(body["dest"], row)
+    if "step_setup" in body:
+        cur["step_setup"] = _public_step_setup(body["step_setup"])
     cur["saved_at"] = _iso_now()
     cur["kind"] = "OK"
     d = dir_for(paths, row["id"])
@@ -297,6 +340,7 @@ def save_engine(paths, body: dict) -> dict:
         "label": row["label"],
         "define": cur["define"],
         "stages": cur["stages"],
+        "step_setup": cur.get("step_setup") or default_step_setup(),
         "dest": cur["dest"],
         "saved_at": cur["saved_at"],
         "note": cur["note"],
@@ -305,6 +349,16 @@ def save_engine(paths, body: dict) -> dict:
         json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     out["kind"] = "OK"
     return snapshot(paths, profile=row["id"], rec=out)
+
+
+def _bg_fold(paths, profile_id: str) -> dict:
+    if profile_id != "forge":
+        return {"kind": "SKIP"}
+    try:
+        from cosmos_forge_bg import status
+        return status(paths)
+    except Exception as e:  # noqa: BLE001
+        return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
 def snapshot(paths, *, profile: str = "", rec=None) -> dict:
@@ -322,6 +376,12 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
         "skin_tabs": skin_tabs_for(row["id"]),
         "motif_top": row["id"] == "forge",
+        "bar_catalog": [
+            {"id": "plurality", "label": "Plurality — the most votes wins"},
+            {"id": "majority", "label": "Majority — more than half of the seats"},
+            {"id": "complete", "label": "Complete — every seat agrees"},
+        ],
+        "bg": _bg_fold(paths, row["id"]),
         "engine": engine,
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "implement_was": "IMPROVE",
@@ -415,8 +475,11 @@ def _selftest() -> int:
           >= {"local", "github", "gitlab"}
           and "publish" not in {d["id"] for d in forge["dest_catalog"]})
     forge_tabs = [t["id"] for t in (forge.get("skin_tabs") or [])]
-    check("Coding profile: MOTIF on top, left tabs Session/Seats/Estimate/TidyUP",
-          lambda: forge_tabs == ["session", "seats", "estimate", "tidyup"]
+    check("Coding profile: MOTIF on top; left tabs tools + a tab per MOTIF step",
+          lambda: forge_tabs[:4] == ["session", "seats", "estimate", "tidyup"]
+          and forge_tabs[-1] == "iterate"
+          and "research" in forge_tabs
+          and "consensus1" in forge_tabs
           and forge.get("motif_top") is True
           and [s["id"] for s in forge["stages"]][0] == "define"
           and forge["label"] == "Forge — Coding")

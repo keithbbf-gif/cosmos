@@ -77,6 +77,7 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/studio    - save DEFINE and/or RESEARCH config. Does not
                            start MOTIF. Keys stay on the named via.
     POST /api/v1/profiles  - save a profile MOTIF skin (problem + dest + stage notes).
+    POST /api/v1/profiles/bg - Forge RESEARCH→CONSENSUS background free CLI. Not IMPLEMENT.
                            Does not start MOTIF. Does not publish.
     POST /api/v1/session_kit - save COS/autosave/resession config. Does not
                            fire TidyUP or a resession.
@@ -1590,6 +1591,28 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/profiles/bg":
+                from cosmos_forge_bg import ForgeBgError, facilitate, start as forge_bg_start
+                from cosmos_profiles import load_engine
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    stage = str(d.get("stage") or "")
+                    if d.get("action") == "facilitate":
+                        rec = facilitate(kernel.paths, stage,
+                                         load_engine(kernel.paths, "forge"))
+                    else:
+                        rec = forge_bg_start(kernel.paths, stage, n=d.get("n"))
+                    rec["tree_id"] = kernel.paths.sentinel.tree_id
+                    return self._send(200, rec)
+                except ForgeBgError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
             if _wo_urlparse(self.path).path == "/api/v1/profiles":
                 from cosmos_profiles import ProfileError, save_engine as profiles_save
                 body = self._read_body()
