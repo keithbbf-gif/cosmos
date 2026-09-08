@@ -46,6 +46,8 @@ CODING_KEY_NAME = "vertex_coding_key.txt"
 CODING_LINK_ID = "vertex-coding"
 CODING_ENV = "VERTEX_CODING_API_KEY"
 DEFAULT_MODEL = "gemini-2.5-flash"
+# Kelly / orders.ggn coding seat — Keith 2026-09-08 named 3.8 Flash.
+CODING_DEFAULT_MODEL = "gemini-3.8-flash"
 THINK_BUDGET = {
     "gemini-2.5-pro": 512,
     "gemini-2.5-flash": 1024,
@@ -164,7 +166,7 @@ def load_coding_spec(paths) -> dict:
         spec["auth"] = "adc"
     spec["timeout_s"] = int(spec.get("timeout_s") or 120)
     spec["default_model"] = str(
-        spec.get("default_model") or DEFAULT_MODEL).strip() or DEFAULT_MODEL
+        spec.get("default_model") or CODING_DEFAULT_MODEL).strip() or CODING_DEFAULT_MODEL
     if not str(spec.get("project") or "").strip():
         raise VertexRailError(
             "BAD_SPEC", f"{cfg} has no project — will not invent one")
