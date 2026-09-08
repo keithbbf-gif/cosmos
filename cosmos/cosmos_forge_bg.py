@@ -24,6 +24,11 @@ FALLBACK_FREE = (
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
 )
+# Named cheap paid pins (not :free, not the rotator). Keith 2026-09-08.
+CHEAP_CODERS = (
+    "z-ai/glm-5.3-flash",
+    "deepseek/deepseek-v4-flash-0731",
+)
 
 
 class ForgeBgError(RuntimeError):
@@ -64,6 +69,18 @@ def pick_free_coders(paths, n: int = 3, http=None) -> list[str]:
         if len(ids) >= n:
             break
     return ids[:n]
+
+
+def pick_cheap_coders(n: int = 2) -> list[str]:
+    """Named cheap paid roster. Does not invent. Does not pick the rotator."""
+    n = max(1, min(int(n or 2), MAX_N))
+    out = []
+    for pin in CHEAP_CODERS:
+        if pin not in out:
+            out.append(pin)
+        if len(out) >= n:
+            break
+    return out[:n]
 
 
 def _setup(engine: dict, stage: str) -> dict:
@@ -303,6 +320,11 @@ def _selftest() -> int:
           lambda: len(models) >= 2
           and all(":free" in m or m in FALLBACK_FREE for m in models)
           and "openrouter/free" not in models)
+    cheap = pick_cheap_coders(2)
+    check("cheap roster is GLM flash + DeepSeek V4 Flash 0731, not the rotator",
+          lambda: cheap == ["z-ai/glm-5.3-flash",
+                            "deepseek/deepseek-v4-flash-0731"]
+          and "openrouter/free" not in cheap)
     d = bg_dir(paths, "consensus1")
     d.mkdir(parents=True, exist_ok=True)
     models = ("google/gemma-4-26b-a4b-it:free",

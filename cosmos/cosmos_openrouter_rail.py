@@ -9,6 +9,7 @@ only because Keith asked.
   google/gemma-4-26b-a4b-it:free   (default, $0)
   google/gemma-4-31b-it:free
   z-ai/glm-5.3-flash              (value coder 2026-09-07: high skill, low cost)
+  deepseek/deepseek-v4-flash-0731 (cheap coder 2026-09-08: coding MoE)
 
 POST https://openrouter.ai/api/v1/chat/completions
 GET  https://openrouter.ai/api/v1/models
@@ -50,7 +51,10 @@ PINNED_FREE = frozenset({DEFAULT_MODEL, GEMMA_31B})
 # Live GET /api/v1/model_rater 2026-09-07: coding 71.5, $0.075 / $0.250 per 1M.
 # Different family from Grok / Gemini / Claude. Not the rotator.
 VALUE_CODER = "z-ai/glm-5.3-flash"
-PINNED_VALUE = frozenset({VALUE_CODER})
+DEEPSEEK_V4_FLASH = "deepseek/deepseek-v4-flash-0731"
+# Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
+CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH)
+PINNED_VALUE = frozenset(CHEAP_CODERS)
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
@@ -114,6 +118,8 @@ def model_refused(model: str) -> str | None:
     ml = m.lower()
     if ml in _ROTATING or (ml.endswith("/free") and "gemma-4" not in ml):
         return f"rotating/unpinned OpenRouter id {m!r} (H3 silent swap — named pin only)"
+    if m.startswith("~") or ml.endswith("-latest"):
+        return f"alias/latest id {m!r} is not a named pin"
     if m not in PINNED:
         return f"not a pinned OpenRouter id {m!r}; want {sorted(PINNED)}"
     return None
@@ -937,6 +943,12 @@ def _selftest() -> int:
     val = rail.dispatch({"model": VALUE_CODER, "text": "x"})
     check("pinned value coder glm-5.3-flash is allowed",
           lambda: val["ok"] and val["model"] == VALUE_CODER)
+    ds = rail.dispatch({"model": DEEPSEEK_V4_FLASH, "text": "x"})
+    check("cheap coder deepseek-v4-flash-0731 is a named pin",
+          lambda: ds["ok"] and ds["model"] == DEEPSEEK_V4_FLASH)
+    alias = rail.dispatch({"model": "~deepseek/deepseek-v4-flash-latest", "text": "x"})
+    check("~latest alias is REFUSED",
+          lambda: (not alias["ok"]) and alias["kind"] == "REFUSED")
 
     led = Ledger(td / "n.jsonl", b"k", "core")
     reg = Registry(led)
