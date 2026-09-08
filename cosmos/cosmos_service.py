@@ -37,9 +37,13 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never mutates. Does not fire a resession.
     GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
                            streams, gitur, spend. GET never mutates.
+    GET /api/v1/review     - HITL: spend approvals, blockers, required logins,
+                           work-product catalog (day/week/month/90). GET never mutates.
     POST /api/v1/model_rater/refresh - pull models/rates from OpenRouter (TTL 24h)
     POST /api/v1/model_rater/seat    - assign a named model to a MOTIF/Crucible/dispatch/Forge seat
                                        action=add|remove for N parallel adversarial coders
+    POST /api/v1/model_rater/cap     - per-model spend limit on the rater (0 = off).
+                                       Not the Core spend gate.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
     POST /api/v1/model_rater/job_estimate - CCr token estimate + override; costs follow seats
     POST /api/v1/spend   - SET/ADJUST a rail cap or the breaker thresholds
@@ -843,6 +847,13 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec = runs_ops_snapshot(kernel)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/review":
+                from urllib.parse import parse_qs as _rv_qs
+                from cosmos_review import snapshot as review_snapshot
+                q = _rv_qs(parsed.query)
+                rec = review_snapshot(kernel, window=(q.get("window") or ["week"])[0])
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/work_orders":
                 from urllib.parse import parse_qs as _wo_list_qs
                 from cosmos_work_order import OrderError, fold_work_orders
@@ -1590,13 +1601,14 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             _mr = _cvm_urlparse(self.path).path
             if _mr in ("/api/v1/model_rater/refresh",
                        "/api/v1/model_rater/seat",
+                       "/api/v1/model_rater/cap",
                        "/api/v1/model_rater/estimate",
                        "/api/v1/model_rater/job_estimate"):
                 from cosmos_model_rater import (
                     ModelRaterError, add_adversary, assign_seat, estimate,
                     load_catalog, load_job_estimate, remove_adversary,
-                    reset_job_estimate, save_job_estimate, snapshot,
-                    refresh as mr_refresh,
+                    reset_job_estimate, save_job_estimate, set_model_cap,
+                    snapshot, refresh as mr_refresh,
                 )
                 body = self._read_body()
                 if body is None:
@@ -1631,7 +1643,12 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             return self._send(200, rec)
                         rec = assign_seat(kernel.paths, d.get("profile"),
                                           d.get("seat"), d.get("model") or "",
-                                          via=d.get("via") or "")
+                                          via=d.get("via") or "",
+                                          cap_usd=d.get("cap_usd"))
+                        return self._send(200, rec)
+                    if _mr.endswith("/cap"):
+                        rec = set_model_cap(kernel.paths, d.get("model") or "",
+                                            d.get("cap_usd"))
                         return self._send(200, rec)
                     if _mr.endswith("/job_estimate"):
                         if d.get("reset"):
