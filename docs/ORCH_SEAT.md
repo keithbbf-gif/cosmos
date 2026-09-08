@@ -37,7 +37,7 @@ Orch is cheaper and more human in OpenWork (cDeck main left). **Folder grant = p
 |---|---|
 | **CORE is in the tree** | Repo `V:\A\Ai\COSMOS` **is** the live code Core imports. Not a copy. Runtime `live/` is the instance. |
 | **CCr write pen** | This TUI keeps the write pen for **live COSMOS CORE** (`cosmos/`, live ledger/registry/config, tests Core runs). |
-| **File work + ORC off the tree** | GFO workspace and file work stay **`V:\Streams\openwork`**. Do **not** grant `V:\A\Ai\COSMOS` (root or authorized). Do not park orch files in the repo. |
+| **File work + ORC off the tree** | GFO live workspace **`V:\OPENWORK\COSMOS_2`**. Kept **`V:\Streams\openwork`**. Do **not** grant `V:\A\Ai\COSMOS` (root or authorized). Do not park orch files in the repo. |
 | **ORC runs on the live tree code** | GFO orchs the **running** Core (`:8770`, cDeck frame, WOs, SSA). She operates the OS whose code is the tree. She does not live in the tree. |
 
 **Keith 2026-09-05 (ship):** we build the ship as we sail it.
@@ -45,9 +45,10 @@ Orch is cheaper and more human in OpenWork (cDeck main left). **Folder grant = p
 | | | |
 |---|---|---|
 | **Captain** | Keith | Course. Stop. Money. Credentials. |
-| **Wheel and rudder (target)** | **ORC** (GFO) | Steers the live Core. Does not rebuild the engine. |
-| **Wheel (until cDeck↔OpenWork merge)** | **This TUI** — Keith runs it himself | Live COSMOS orch **and** CCr until cDeck main-left OpenWork is the daily wheel. ORC *should* be GFO. This is it until that merge. |
-| **Wheelhouse (live)** | **COSMOS_2** on OpenWork | GFO sit. Grant `V:\OPENWORK\COSMOS_2`. Legal with Keith now. Daily COSMOS wheel **after** the merge. |
+| **Wheel and rudder (live)** | **GFO on OpenWork** | Keith 2026-09-08: *openwork is the GFO seat for now.* Orch talk, WOs. Not CORE write. |
+| **Wheel (this TUI)** | **CCr only** | Gitur, review, dispose, keep-merged. **Not ORC.** Do not wait for merge-say. **Keith 2026-09-06:** do not surface-merge cDeck with OpenWork; **continue cDeck as COSMOS_2 backend.** |
+| **Engine house (this TUI)** | **CCr lives here** | *You will live in the engine room* (Keith 2026-09-08). Core, Gitur, merge, keep-synced — **this chair runs them.** Background grok CLI unless called forward onto Forge. Not ORC. |
+| **Wheelhouse (live)** | **COSMOS_2** on OpenWork | GFO sit. Grant `V:\OPENWORK\COSMOS_2`. Legal with Keith now. **cDeck = that sit’s backend** — KDash visual (health, nodes, surfaces, lanes). Continue `builds/cdeck` via Gitur. Not a surface merge. |
 | **Wheelhouse (kept)** | **COSMOS** on OpenWork | COW as ORC + 666. `V:\Streams\openwork`. Federation may need it. |
 | **Designer / engineer / builder** | **This TUI** (CCr) | Designs, engineers, writes CORE. |
 | **Engine room** | **This tree** — live COSMOS CORE (`cosmos/`, Core `:8770`) | The OS. One writer. Keep her afloat while we change her. |
@@ -106,7 +107,7 @@ Citations in the source brief (NCBI / CEIAS / NDAA writeups) are **research poin
 - An LLM that emits `MUTEX_LOCK` / `MUTEX_RELEASE`. Mutex is **`CCR.lease` + native**. An LLM hash of state is **fabricated compliance** (models do not SHA-256 the payload; they invent a string).
 - A 15s `asyncio` voting loop against OpenRouter. Clocks are OS. LLM fires on **typed gaps**, not a poll. Vendor-plural **already** exists: dual-lane Grok vs Cursor Opus, Crucible families. Do not add a third Python agent loop.
 - **Claude 3.5 first-party API** as “frontier override.” `dispatch()` stays `ANTHROPIC_OFF`. Override = **this TUI / Cursor Opus 5 / GitHub / GitLab agents**, not `api.anthropic.com`.
-- Invented hosts: Together, OpenRouter as COSMOS rails. **Llama 3.x on Groq is ContactSales.** **Llama on Vertex (Keith 2026-09-05):** **Llama 4 Maverick MaaS is live from CLI** on Joanna (`us-east5` OpenAPI chat-completions, GATE PASS `LLAMA_MAVERICK_OK_20260905`, `traffic_type=ON_DEMAND`). Partner SKU — Welcome credit does not pay it. **Not** GFO (GF38). **Not** SSA (Groq). Second brain / Crucible if named. Llama 4 / 3.x **Self-deployed** = your GPUs. Bedrock Llama remains the owed AWS pin. Gemma-4 UNMEASURED. Do not click Enable APIs from this TUI — call the endpoint.
+- Invented hosts: Together as COSMOS rails. OpenRouter **rotator** stays REJECT. **Named Gemma 4 pin LANDED 2026-09-07** (`openrouter-api`, `google/gemma-4-26b-a4b-it:free` + `google/gemma-4-31b-it:free`) because Keith asked. **Llama 3.x on Groq is ContactSales.** **Llama on Vertex (Keith 2026-09-05):** **Llama 4 Maverick MaaS is live from CLI** on Joanna (`us-east5` OpenAPI chat-completions, GATE PASS `LLAMA_MAVERICK_OK_20260905`, `traffic_type=ON_DEMAND`). Partner SKU — Welcome credit does not pay it. **Not** GFO (GF38). **Not** SSA (Groq). Second brain / Crucible if named. Llama 4 / 3.x **Self-deployed** = your GPUs. Bedrock Llama remains the owed AWS pin. Do not click Enable APIs from this TUI — call the endpoint.
 - Granting OpenWork the COSMOS root.
 
 ## Role split (standing)
@@ -137,7 +138,9 @@ Putting a **Llama JSON switchboard** *inside* OpenWork as “the orchestrator”
 
 **Keith 2026-09-05 (live):** **GFO is ORC** and is **working Legal with Keith**. Legal is that chair + Keith — not this TUI. This TUI does not open legal transcripts, does not write `V:\Ai` / `P:\Legal`, does not sit the Legal OpenWork profile. COSMOS recents still omit `stream=legal`.
 
-**Keith 2026-09-05 (this chair):** *I'm running you myself. ORC should be GFO — but until we merge cDeck and OpenWork, this is it.* Target occupancy stands (GFO = ORC, this TUI = CCr). **Until** cDeck main-left OpenWork is the merged orch home (`builds/cdeck/ORCH_HOME_SPEC.md` P5 embed still UNMEASURED; OPEN focuses/launches, no fake iframe), **this Grok TUI is the live COSMOS wheel** — Keith-run orch **and** CCr. Do not idle waiting for GFO to steer COSMOS. Do not steal Legal. Merge of cDeck+OpenWork is the handoff gate that seats GFO on the daily COSMOS wheel.
+**Keith 2026-09-05 (this chair):** *I'm running you myself. ORC should be GFO — but until we merge cDeck and OpenWork, this is it.* Target occupancy stands (GFO = ORC, this TUI = CCr). **This Grok TUI is the live COSMOS wheel** — Keith-run orch **and** CCr. Do not idle waiting for GFO to steer COSMOS. Do not steal Legal.
+
+**Keith 2026-09-06:** *kDash → cDeck is too different to integrate with OpenWork — at least at this point.* The “merge” in the line above is **not** a surface merge of those two UIs this occupancy. OpenWork = session. cDeck = COSMOS dashboard (KDash lineage). Link = C0 + contracts. Desk split stands. Encoding this does not fire the GFO daily-wheel handoff.
 
 **Keith 2026-09-05:** *OpenWork has too much of what we need to ignore.* Load-bearing harness (skills, MCP, workflows, browser, connectors). Consume; do not rebuild in CORE. `docs/OPENWORK_BIND.md`.
 
@@ -147,6 +150,6 @@ Putting a **Llama JSON switchboard** *inside* OpenWork as “the orchestrator”
 | **Left HP 24N** | **This TUI** (COSMOS orch + CCr) |
 | **Right HP 24N** | **GFO fullscreen** (ORC, Legal with Keith) |
 
-Do not steal the right screen. Do not sit Legal. Physical split stands until the cDeck+OpenWork merge.
+Do not steal the right screen. Do not sit Legal. **Separate apps and windows for now** (Keith 2026-09-06): OpenWork session (`OpenWork.exe`) · cDeck KDash backend (**`cdeck.exe` own window — not a Chrome window**) · this TUI. Chrome is DOM rails / GEM, not the deck host. Surface-merge is off this occupancy.
 
-**Do not:** merge PRs #30 #32 #36 #37 #38; lift `ANTHROPIC_OFF`; invent OpenRouter/Together; let GLM/DeepSeek emit routes over `SEED.json`; give OpenWork `V:\A`.
+**Do not:** merge PRs #30 #32 #36 #37 #38; lift `ANTHROPIC_OFF`; invent Together or the OpenRouter **rotator**; let GLM/DeepSeek emit routes over `SEED.json`; give OpenWork `V:\A`. Named Gemma 4 pin (`openrouter-api`) is the exception Keith asked for 2026-09-07.
