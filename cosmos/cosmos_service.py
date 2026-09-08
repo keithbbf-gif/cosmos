@@ -13,6 +13,8 @@ that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/tools    - the tool-contract report
     GET /api/v1/tools_kit - COSMOS components + local callables + other tools.
                            GET never mutates. UPS-JUDGE is NAMED.
+    GET /api/v1/voice_loop - SGH → GitHub → daemon → GDX → SGH status.
+                           GET never mutates. Does not POST /voice.
     GET /api/v1/events   - ?since_seq= oldest <=100 records past the cursor
                            (a non-integer or out-of-range seq is 400 BAD_SINCE_SEQ);
                            optional ?tail=N (1..100) returns the NEWEST N past
@@ -731,6 +733,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/api/v1/tools_kit":
                 from cosmos_tools_kit import snapshot as tools_kit_snapshot
                 rec = tools_kit_snapshot(kernel)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/voice_loop":
+                from cosmos_voice_loop import snapshot as voice_loop_snapshot
+                rec = voice_loop_snapshot(kernel)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
             if self.path.startswith("/api/v1/events"):
