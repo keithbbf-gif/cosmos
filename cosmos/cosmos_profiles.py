@@ -72,7 +72,7 @@ GITUR_DESTS = frozenset({"github", "gitlab"})
 PROFILES = (
     {"id": "forge", "label": "Forge — Coding", "kind": "coding",
      "dest": FORGE_DEST, "status": "cooking",
-     "note": "Coding profile. Left tabs: Session feed, Seats (add adv + models), Estimate, TidyUP/BOOTUP, MOTIF."},
+     "note": "Coding profile. MOTIF sequence on top with a setup pane per step. Left tabs: Session, Seats, Estimate, TidyUP/BOOTUP."},
     {"id": "crucible", "label": "Crucible", "kind": "legal",
      "dest": LEGAL_DEST, "status": "named",
      "note": "Plaintiff / defense / judge. Own Legal tree."},
@@ -95,7 +95,8 @@ PROFILES = (
 PROFILE_IDS = frozenset(p["id"] for p in PROFILES)
 DEFAULT_PROFILE = "website"
 
-# Per-profile left-tab skin. MOTIF 9 is the default; Coding has its own tools.
+# Per-profile left-tab skin. MOTIF 9 is the default; Coding keeps tools on
+# the left and the 9-stage sequence on top, each step its own setup pane.
 FORGE_SKIN_TABS = (
     {"id": "session", "label": "Session", "kind": "mount",
      "mount": ["home-code"],
@@ -109,8 +110,6 @@ FORGE_SKIN_TABS = (
     {"id": "tidyup", "label": "TidyUP / BOOTUP", "kind": "mount",
      "mount": ["panel-session-kit"],
      "hint": "TidyUP, TU2, BU/BOOTUP pointer, autosave, auto-resession. SAVE does not fire a resession."},
-    {"id": "motif", "label": "MOTIF", "kind": "motif-hub",
-     "hint": "9-stage engine for this coding profile. Stage 1 PROBLEM / GOAL. Stage 8 IMPLEMENT."},
 )
 
 
@@ -163,6 +162,7 @@ def catalog() -> list[dict]:
             "note": p["note"],
             "dest_catalog": [{"id": i, "label": lab} for i, lab in p["dest"]],
             "skin_tabs": skin_tabs_for(p["id"]),
+            "motif_top": p["id"] == "forge",
         })
     return rows
 
@@ -321,6 +321,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "stages": [dict(s) for s in MOTIF_STAGES],
         "dest_catalog": [{"id": i, "label": lab} for i, lab in row["dest"]],
         "skin_tabs": skin_tabs_for(row["id"]),
+        "motif_top": row["id"] == "forge",
         "engine": engine,
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "implement_was": "IMPROVE",
@@ -414,9 +415,13 @@ def _selftest() -> int:
           >= {"local", "github", "gitlab"}
           and "publish" not in {d["id"] for d in forge["dest_catalog"]})
     forge_tabs = [t["id"] for t in (forge.get("skin_tabs") or [])]
-    check("Coding profile skin has Session, Seats, TidyUP/BOOTUP, MOTIF left tabs",
-          lambda: forge_tabs == ["session", "seats", "estimate", "tidyup", "motif"]
+    check("Coding profile: MOTIF on top, left tabs Session/Seats/Estimate/TidyUP",
+          lambda: forge_tabs == ["session", "seats", "estimate", "tidyup"]
+          and forge.get("motif_top") is True
+          and [s["id"] for s in forge["stages"]][0] == "define"
           and forge["label"] == "Forge — Coding")
+    check("Website GC does not pin MOTIF on top (left tabs ARE the 9 stages)",
+          lambda: snap.get("motif_top") is False)
     web_tabs = [t["id"] for t in (snap.get("skin_tabs") or [])]
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
