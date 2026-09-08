@@ -38,6 +38,7 @@ import argparse
 import json
 import os
 import socket
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -110,6 +111,34 @@ def _probe_port(host: str, port: int, timeout_s: float = 0.25) -> dict:
             "rtt_s": round(time.time() - t0, 4), "error": err}
 
 
+def _listen_pids(port: int) -> list[int]:
+    """PIDs with a LISTENING socket on `port`.
+
+    A 0.25s connect probe can fail while a writer is still bound (accept
+    queue full). Spawning then is a second ledger writer. GET never mkdir.
+    """
+    try:
+        out = subprocess.check_output(
+            ["netstat", "-ano"], text=True, errors="replace", timeout=5)
+    except (OSError, subprocess.SubprocessError):
+        return []
+    needle = ":%d" % port
+    pids: list[int] = []
+    for line in out.splitlines():
+        if "LISTENING" not in line.upper():
+            continue
+        if needle not in line:
+            continue
+        parts = line.split()
+        if not parts:
+            continue
+        try:
+            pids.append(int(parts[-1]))
+        except ValueError:
+            continue
+    return sorted(set(pids))
+
+
 def _supervise_serve(paths, up: bool, supervise: bool, pause_present: bool,
                      pause_mode) -> dict:
     """Start Core on :8770 when it is down. THE fix for BACKLOG 'serve not up on
@@ -122,8 +151,11 @@ def _supervise_serve(paths, up: bool, supervise: bool, pause_present: bool,
     """
     if not supervise:
         return {"kind": "DISABLED", "detail": "--no-supervise set"}
-    if up:
-        return {"kind": "ALREADY_UP", "detail": "port %d listening" % SERVE_PORT}
+    listen = _listen_pids(SERVE_PORT)
+    if up or listen:
+        return {"kind": "ALREADY_UP",
+                "detail": "port %d listening" % SERVE_PORT,
+                "pids": listen}
     if pause_present and (pause_mode or "hold") == "hold":
         # A HOLD pause waits for a human. A resume-gate pause self-clears and
         # the default is MOTION, so it does not block the standup.

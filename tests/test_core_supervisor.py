@@ -33,6 +33,7 @@ from cosmos_paths import CosmosPaths                               # noqa: E402
 RESULTS = []
 CALLS = []
 PORT_UP = [False]
+LISTEN_PIDS = [[]]
 
 
 def check(label, fn):
@@ -45,6 +46,10 @@ def check(label, fn):
 def fake_probe(host, port, timeout_s=0.25):
     return {"ok": PORT_UP[0], "host": host, "port": port, "rtt_s": 0.0,
             "error": None if PORT_UP[0] else "injected: not listening"}
+
+
+def fake_listen(port):
+    return list(LISTEN_PIDS[0])
 
 
 def fake_spawn(argv, cwd, log_path):
@@ -76,6 +81,7 @@ def put_state(root: Path, **kw) -> None:
 
 def main() -> int:
     hc._probe_port = fake_probe
+    hc._listen_pids = fake_listen
     hc.spawn_detached = fake_spawn
 
     td = Path(tempfile.mkdtemp(prefix="cosmos_coresup_"))
@@ -118,6 +124,14 @@ def main() -> int:
     u = hc._supervise_serve(paths, True, True, False, None)
     check("port already listening -> ALREADY_UP",
           lambda: u["kind"] == "ALREADY_UP" and CALLS == []
+          and not state_file.exists())
+
+    LISTEN_PIDS[0] = [44184]
+    bound = hc._supervise_serve(paths, False, True, False, None)
+    LISTEN_PIDS[0] = []
+    check("connect miss + live LISTEN pid -> ALREADY_UP, never a second writer",
+          lambda: bound["kind"] == "ALREADY_UP" and CALLS == []
+          and bound.get("pids") == [44184]
           and not state_file.exists())
 
     pause = paths_p.role("state") / "control" / "PAUSE.flag"
