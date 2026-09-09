@@ -46,6 +46,10 @@ def main() -> int:
     check("collect runs on the pulse",
           lambda: isinstance(rec.get("collect"), dict)
           and rec["collect"].get("ok") is True)
+    check("pulse rewrites cdeck feed via existing poll_once",
+          lambda: isinstance(rec.get("feed"), dict)
+          and rec["feed"].get("ok") is True
+          and rec["heartbeat"].get("claim") is False)
     check("new result landed this tick",
           lambda: int(rec["collect"].get("new_this_tick") or 0) >= 1)
     check("no claim / no dispatch",
