@@ -104,12 +104,19 @@ def pid_alive(pid: int) -> bool:
         return False
     if os.name == "nt":
         import ctypes
-        SYNCHRONIZE = 0x00100000
-        h = ctypes.windll.kernel32.OpenProcess(SYNCHRONIZE, 0, pid)
-        if h:
-            ctypes.windll.kernel32.CloseHandle(h)
-            return True
-        return False
+        # SYNCHRONIZE-only OpenProcess can return a handle for a dead PID
+        # (ghost Core child: Health CHILD_ALIVE, port closed). Query the
+        # exit code: 259 STILL_ACTIVE means running.
+        PROCESS_QUERY_LIMITED_INFORMATION = 0x1000
+        STILL_ACTIVE = 259
+        k32 = ctypes.windll.kernel32
+        h = k32.OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, 0, pid)
+        if not h:
+            return False
+        code = ctypes.c_ulong()
+        ok = k32.GetExitCodeProcess(h, ctypes.byref(code))
+        k32.CloseHandle(h)
+        return bool(ok) and int(code.value) == STILL_ACTIVE
     try:
         os.kill(pid, 0)
         return True
