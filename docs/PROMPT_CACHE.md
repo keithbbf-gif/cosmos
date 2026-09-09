@@ -92,11 +92,48 @@ After **2027-01-01** Gemini 3.8 Flash intro rates are reported to double — re-
 
 **Grok SOP:** prefix first, tail last, stable cache key, calls close together, **stay under 200K**. New key when baseline repo / tools / policy bytes change. Never timestamp the key.
 
-**Gemini SOP:** same prefix rules. Implicit when traffic is frequent and the systemInstruction is ≥4096 and byte-stable. Explicit cache objects (TTL) when the corpus is huge, workers share it, or the session pauses past implicit TTL. COSMOS farm uses **implicit** first (systemInstruction = canon stack). Explicit `caches.create` is a later bind — do not invent a second Core.
+**Gemini SOP:** same prefix rules. Implicit when traffic is frequent and the
+systemInstruction is ≥4096 and byte-stable. **Explicit cache object** when the
+corpus is reused across turns/workers or the session may pause:
+
+```
+POST …/cachedContents
+  model, systemInstruction=rules, contents=stable_repo, ttl="3600s"
+generateContent
+  cachedContent=<name>
+  contents=current ticket + diff + pytest/ruff  (tail only)
+```
+
+Cache holds **only** stable bytes: conventions, pyproject, repo map, contracts,
+shared modules, tool guidance, architecture. Ticket, diff, pytest, new files
+stay out. Key = `{repo, base SHA, prompt version, tool version}` (COSMOS:
+`cdeck-38-pv1-<sha12>`). Rebuild when those bytes change. Default TTL **3600s**.
+
+**Explicit cost math (intro through 2026-12-31):** 100K-token baseline stored
+1 hour = 0.1 × $0.50 = **$0.05** storage. Each reuse = 0.1 × $0.075 = **$0.0075**.
+Uncached same 100K = **$0.075**. One reuse starts to pay the hour; several
+agent turns make it cheap. Population + TTL + output tokens still count.
+Output is **not** discounted by prompt cache.
+
+**Pick:** GF38 explicit/implicit for repeated repo loops, RAG, specs,
+refactor/test. G46 when tested better on the task, or hard debug — escalate
+with **only** the failing files + trace, not a full dump. Stay under 200K on
+Grok. Batch/flex Gemini is reported 50% below intro standard — Keith money.
+
+COSMOS farm: `ensure_cache` then `ask(cached_content=name)`. Fall back to
+systemInstruction if create fails. Measure `cachedContentTokenCount`. Do not
+invent a second Core.
+
+**Auth scar (measured 2026-09-08):** `cachedContents.create` **rejects API
+keys** (HTTP 401). It wants ADC OAuth. Kelly project then **403**
+`aiplatform.cachedContents.create` until Keith grants that permission on
+`orders.ggn` ADC. generateContent with API key still runs. Implicit
+systemInstruction remains the fallback. Do not click Upgrade.
 
 ## Bind
 
 Rail: `cosmos/cosmos_openrouter_rail.py` (`prompt_cache_key` on Flex seats;
 `fold_usage` copies `cached_tokens` / `cache_write_tokens`). Vertex:
-`cosmos_vertex_rail.py` copies `cachedContentTokenCount`. Farm:
+`cosmos_vertex_rail.py` `ensure_cache` → `cachedContents`; `ask` sends
+`cachedContent`; copies `cachedContentTokenCount`. Farm:
 `work_orders/ccr/_propose_seat.py`. Principle **P11**. Boundaries item **15**.

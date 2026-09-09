@@ -28,6 +28,7 @@ import sys
 import urllib.error
 import urllib.request
 from datetime import datetime
+from hashlib import sha256
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -59,6 +60,9 @@ THINK_BUDGET = {
 # Conservative USD / 1M tokens so the spend breaker can fire (UNPRICED = cap never fires).
 USD_PER_M_IN = 0.30
 USD_PER_M_OUT = 2.50
+# Gemini 3.x explicit cache. Default TTL 1h. Storage billed per hour.
+CACHE_TTL = "3600s"
+GEMINI_CACHE_FLOOR = 4096
 
 
 def price_usd(tokens: dict | None, prompt_chars: int = 0) -> float:
@@ -215,6 +219,33 @@ def _adc_url(spec: dict, model: str) -> str:
     )
 
 
+def _cached_contents_url(spec: dict) -> str:
+    proj = str(spec.get("project") or "").strip()
+    loc = str(spec.get("location") or "global").strip() or "global"
+    if not proj:
+        raise VertexRailError("BAD_SPEC", "cachedContents URL needs project")
+    return (
+        "https://aiplatform.googleapis.com/v1/projects/%s/locations/%s/"
+        "cachedContents" % (proj, loc)
+    )
+
+
+def _model_resource(spec: dict, model: str) -> str:
+    proj = str(spec.get("project") or "").strip()
+    loc = str(spec.get("location") or "global").strip() or "global"
+    return (
+        "projects/%s/locations/%s/publishers/google/models/%s"
+        % (proj, loc, model)
+    )
+
+
+def cache_display_name(*, model: str, prefix: str, policy: str = "v1") -> str:
+    """Stable name per {model, prefix bytes, policy}. Not a request id."""
+    fp = sha256((prefix or "").encode("utf-8")).hexdigest()[:12]
+    tag = "38" if "3.8" in (model or "") else "gem"
+    return ("cdeck-%s-p%s-%s" % (tag, policy, fp))[:64]
+
+
 def key_path_for_coding(paths, spec: dict | None = None) -> Path:
     spec = spec or load_coding_spec(paths)
     if spec.get("role") != "coding":
@@ -260,16 +291,115 @@ class VertexRail:
         self.http = http
         self.env = env
 
+    def _auth_headers(self) -> dict:
+        use_project = (
+            str(self.spec.get("auth") or "").strip().lower() == "adc"
+            or str(self.spec.get("role") or "") == "coding"
+        )
+        if use_project and str(self.spec.get("auth") or "").strip().lower() == "adc":
+            token = _adc_bearer(env=self.env)
+            return {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + token,
+            }
+        key = _read_key(
+            self.key_path, env=self.env,
+            coding=self.spec.get("role") == "coding")
+        return {
+            "Content-Type": "application/json",
+            "x-goog-api-key": key,
+        }
+
+    def _post(self, url: str, body: dict) -> tuple:
+        headers = self._auth_headers()
+        if self.http is not None:
+            return self.http("POST", url, body)
+        payload = json.dumps(body).encode("utf-8")
+        timeout = int(self.spec.get("timeout_s") or 120)
+        req = urllib.request.Request(url, data=payload, headers=headers)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            status = getattr(resp, "status", 200) or 200
+            parsed = json.loads(resp.read().decode("utf-8"))
+        return status, parsed
+
+    def ensure_cache(self, *, model: str, contents_text: str,
+                     system_instruction: str = "", ttl: str = CACHE_TTL,
+                     display_name: str | None = None) -> dict:
+        """POST cachedContents. Stable prefix only. Returns resource name."""
+        model = str(model or self.spec.get("default_model") or DEFAULT_MODEL).strip()
+        blob = (system_instruction or "") + "\n" + (contents_text or "")
+        name = display_name or cache_display_name(model=model, prefix=blob)
+        body = {
+            "model": _model_resource(self.spec, model),
+            "displayName": name,
+            "ttl": ttl or CACHE_TTL,
+            "contents": [{
+                "role": "user",
+                "parts": [{"text": str(contents_text or "")}],
+            }],
+        }
+        sys_t = str(system_instruction or "").strip()
+        if sys_t:
+            body["systemInstruction"] = {"parts": [{"text": sys_t}]}
+        url = _cached_contents_url(self.spec)
+        try:
+            # cachedContents requires OAuth/ADC. API keys return 401.
+            token = _adc_bearer(env=self.env)
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + token,
+            }
+            if self.http is not None:
+                status, parsed = self.http("POST", url, body)
+            else:
+                payload = json.dumps(body).encode("utf-8")
+                timeout = int(self.spec.get("timeout_s") or 120)
+                req = urllib.request.Request(url, data=payload, headers=headers)
+                with urllib.request.urlopen(req, timeout=timeout) as resp:
+                    status = getattr(resp, "status", 200) or 200
+                    parsed = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", errors="replace")[:240]
+            return {"ok": False, "reason": f"HTTP_{e.code}",
+                    "detail": msg, "via": "vertex"}
+        except VertexRailError as e:
+            return {"ok": False, "reason": e.kind,
+                    "detail": str(e)[:200], "via": "vertex"}
+        except Exception as e:  # noqa: BLE001
+            return {"ok": False, "reason": "UNREACHABLE",
+                    "detail": f"{type(e).__name__}: {e}"[:160], "via": "vertex"}
+        parsed = parsed if isinstance(parsed, dict) else {}
+        cname = str(parsed.get("name") or "").strip()
+        um = parsed.get("usageMetadata") if isinstance(
+            parsed.get("usageMetadata"), dict) else {}
+        ok = status in (200, 201) and bool(cname)
+        return {
+            "ok": ok,
+            "reason": "OK" if ok else f"HTTP_{status}",
+            "name": cname,
+            "display_name": name,
+            "expire_time": parsed.get("expireTime"),
+            "ttl": ttl or CACHE_TTL,
+            "model": model,
+            "via": "vertex",
+            "tokens": {"cached": um.get("totalTokenCount") or um.get("total_token_count") or 0},
+            "detail": "" if ok else "cachedContents create did not return name",
+        }
+
     def ask(self, prompt: str, *, model: str | None = None,
-            system: str | None = None) -> dict:
+            system: str | None = None, cached_content: str | None = None) -> dict:
         model = str(model or self.spec.get("default_model") or DEFAULT_MODEL).strip()
         if not model:
             model = DEFAULT_MODEL
         body = {
             "contents": [{"role": "user", "parts": [{"text": str(prompt)}]}],
         }
+        cache_name = str(cached_content or "").strip()
         sys_t = str(system or "").strip()
-        if sys_t:
+        if cache_name:
+            # Explicit cache object: do not resend the stable prefix.
+            body["cachedContent"] = cache_name
+        elif sys_t:
             # Implicit cache: stable systemInstruction first, item in contents.
             body["systemInstruction"] = {"parts": [{"text": sys_t}]}
         tb = THINK_BUDGET.get(model)
@@ -277,50 +407,18 @@ class VertexRail:
             body["generationConfig"] = {
                 "thinkingConfig": {"thinkingBudget": tb},
             }
-        payload = json.dumps(body).encode("utf-8")
-        # Kelly coding must hit the project-global Vertex SKU so the $300
-        # Cloud Free Trial can pay. Express publisher URL is a different
-        # meter (Google: express mode is not the Cloud Free Program).
         use_project = (
             str(self.spec.get("auth") or "").strip().lower() == "adc"
             or str(self.spec.get("role") or "") == "coding"
             or model in GEMMA_MAAS
             or str(model).endswith("-maas")
         )
-        if use_project and str(self.spec.get("auth") or "").strip().lower() == "adc":
-            token = _adc_bearer(env=self.env)
+        if use_project:
             url = _adc_url(self.spec, model)
-            headers = {
-                "Content-Type": "application/json",
-                "Authorization": "Bearer " + token,
-            }
-        elif use_project:
-            key = _read_key(
-                self.key_path, env=self.env,
-                coding=self.spec.get("role") == "coding")
-            url = _adc_url(self.spec, model)
-            headers = {
-                "Content-Type": "application/json",
-                "x-goog-api-key": key,
-            }
         else:
-            key = _read_key(
-                self.key_path, env=self.env,
-                coding=self.spec.get("role") == "coding")
             url = ENDPOINT.format(m=model)
-            headers = {
-                "Content-Type": "application/json",
-                "x-goog-api-key": key,
-            }
         try:
-            if self.http is not None:
-                status, parsed = self.http("POST", url, body)
-            else:
-                req = urllib.request.Request(url, data=payload, headers=headers)
-                timeout = int(self.spec.get("timeout_s") or 120)
-                with urllib.request.urlopen(req, timeout=timeout) as resp:
-                    status = getattr(resp, "status", 200) or 200
-                    parsed = json.loads(resp.read().decode("utf-8"))
+            status, parsed = self._post(url, body)
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", errors="replace")[:200]
             return {
@@ -374,6 +472,7 @@ class VertexRail:
             "model": model, "via": "vertex",
             "tokens": tokens,
             "cost_usd": price_usd(tokens, len(prompt)),
+            "cached_content": cache_name or None,
             "rc": 0,
         }
 
@@ -551,6 +650,15 @@ def _selftest() -> int:
 
     def fake_http(method, url, body):
         calls.append((method, url, body))
+        if "cachedContents" in (url or "") and "generateContent" not in (url or ""):
+            return 200, {
+                "name": "projects/p/locations/global/cachedContents/1",
+                "expireTime": "2099-01-01T00:00:00Z",
+                "usageMetadata": {"totalTokenCount": 5000},
+            }
+        cached = 0
+        if isinstance(body, dict) and body.get("cachedContent"):
+            cached = 4096
         return 200, {
             "candidates": [{
                 "content": {"parts": [{"text": "PONG-VERTEX"}]},
@@ -559,7 +667,7 @@ def _selftest() -> int:
                 "promptTokenCount": 3,
                 "candidatesTokenCount": 2,
                 "thoughtsTokenCount": 0,
-                "cachedContentTokenCount": 0,
+                "cachedContentTokenCount": cached,
             },
         }
 
@@ -577,6 +685,20 @@ def _selftest() -> int:
           .get("parts", [{}])[0].get("text") == "STABLE PREFIX"
           and (calls[-1][2].get("contents") or [{}])[0]
           .get("parts", [{}])[0].get("text") == "item")
+    created = rail.ensure_cache(
+        model="gemini-3.8-flash", contents_text="REPO MAP",
+        system_instruction="RULES", ttl="3600s")
+    check("ensure_cache POSTs cachedContents and returns name",
+          lambda: created.get("ok") is True
+          and "cachedContents/1" in (created.get("name") or "")
+          and any("cachedContents" in (u or "") for _, u, _ in calls))
+    rec_c = rail.ask("ticket+pytest", model="gemini-3.8-flash",
+                     cached_content=created.get("name"))
+    check("generateContent uses cachedContent and does not resend prefix",
+          lambda: rec_c.get("ok") is True
+          and rec_c.get("tokens", {}).get("cached") == 4096
+          and rec_c.get("cached_content")
+          and not (calls[-1][2] or {}).get("systemInstruction"))
     check("ok Vertex call is priced (cap can fire)",
           lambda: rec.get("cost_usd") is not None and rec.get("cost_usd") >= 0.0001)
     check("price_usd never None without tokens",
