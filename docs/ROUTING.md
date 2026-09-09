@@ -43,9 +43,9 @@ Anthropic-agent surface outside this name).
 
 | Member | Is | Does | Not |
 |---|---|---|---|
-| **GitHub** | origin `keithbbf-gif/cosmos` | Copilot review, issues, PRs, SGH drop path | live-tree writer |
-| **GitLab** | `keithbbf-gif/cosmos` | Duo propose; **CI is the execute-the-gate** | a third brain |
-| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** (Opus 5 / Sonnet; refuse Composer 2.5) | COSMOS `claude -p`; **not research** |
+| **GitHub** | origin `keithbbf-gif/cosmos` | **Claude review default** (`@claude review`). Issues, PRs, SGH drop path. Copilot coding-agent still available — not the default reviewer. | live-tree writer |
+| **GitLab** | `keithbbf-gif/cosmos` | **Claude review default**; Duo may still propose; **CI is the execute-the-gate** | a third brain |
+| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** (Opus 5 / Sonnet; refuse Composer 2.5). PR review still Claude on GitHub. | COSMOS `claude -p`; **not research** |
 
 P10: Gitur **proposes**. CCr **disposes** and writes CORE. `ANTHROPIC_OFF` stays for
 COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
@@ -88,7 +88,7 @@ stage 4 BUILD.
 | **orchestrator profiles** | one profile per occupant | Keith 2026-09-02: Cowork / Grok Code / GrokBot / later federated. Pen + mailbox id + hands + Chrome profile + live/dark. Never share Chrome or folder-grants across occupants. |
 | **Work-agent class (agenda)** | GrokBot is our occupant; OpenWork is A-tier file harness (dark) | ChatGPT Work + Codex, Claude Cowork, Copilot Cowork + Scout, Gemini Spark / Workspace Studio, **OpenWork Labs**. File HANDS; no live path. Do not pen `V:\A`. |
 | **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 · **Lane B** Cursor Cloud Agent (**Opus 5 / Sonnet**, Ultra) | Same work order, no shared context. Spec `docs/ADVERSARIAL_LOOP.md`. **Code review** of that PR: Sonnet/Opus on **Gitur** (trial Credits) / Bedrock-when-bound. GitLab CI is the execute-the-gate, not a third brain. Composer 2.5 refused. |
-| **hard review / final polish** | **CCr** (Grok 4.6) + **Sonnet/Opus on Cursor, GitHub, GitLab, Bedrock-when-bound** (preferred for **code review**) + GEM / OA / Llama judges | Keith 2026-09-04: Sonnet/Opus may be **best for code review** on those four vendor surfaces. Not COSMOS `claude -p`. Not Composer 2.5. |
+| **hard review / final polish** | **CCr** (Grok 4.6) reviews **all** code before dispose. Gitur default reviewer = **Claude**. GEM / OA / Llama judges extra. | Keith 2026-09-09: Claude on Gitur by default (diversity vs this Grok CCr). Keith 2026-09-04: Sonnet/Opus may be **best for code review** on those vendor surfaces. Not COSMOS `claude -p`. Not Composer 2.5. Not Copilot-as-default. |
 | **MOTIF stage-5 extra judges** | **GEM Vertex (`gem-api`) as UPS-Judge**, plus OA, Meta Llama, Amazon Nova | A named deliberate load. Not everyday GEM. Vertex stays **not Claude**. Bedrock when bound: Nova **and** Llama **and** Anthropic agents (Keith 2026-09-04). |
 | **Anthropic / Claude** | **COSMOS dispatch OFF; vendor agents ON** | Keith 2026-09-01: `dispatch()` `ANTHROPIC_OFF` for claude/F5/sonnet/haiku/SSA. No `claude -p`. No Cowork as **this** COW. No `api.anthropic.com` key file (DL scar). **Keith 2026-09-04:** use Anthropic **agents** on **Cursor, GitHub, GitLab,** and **Bedrock when available**. **Keith 2026-09-05 URL:** Vertex Agent Platform Model Garden **Claude Sonnet 5** on **Joanna** `project-5a33f910-1251-4d6a-bf9` (`authuser=3`). Enablement questionnaire (picker showed **My First Project**). Partner **MaaS**, not `gem-api` Gemini, not `api.anthropic.com`. Anthropic ToS form (Google will share project + billing IDs). Anthropic **recommends** request-response logging ([docs](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/request-response-logging)); vendor: logging on does **not** give Google/Anthropic content access; a **separate** MaaS data-share is for Fable/Mythos + Safety Addendum. Web Search on that model needs public internet / org policy. **$300 credit cannot pay partner MaaS.** This TUI does **not** click Next / Set up logging / Enable. Industry dropdown showed Agriculture — do not submit as BBF. API: `publishers/anthropic/models/claude-sonnet-5:rawPredict`, `anthropic_version=vertex-2023-10-16` ([Claude on Vertex](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai)). If Keith enables later: same class as Bedrock Anthropic agents (P10 propose; CCr writes). Do not lift `ANTHROPIC_OFF`. |
 | **short / structured / scriptable** | cheapest API rail with headroom | optimize per budget |
@@ -132,8 +132,8 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 | Quality **GF38** | `gemini-3.8-flash` | Kelly `vertex-coding` `orders.ggn` Free Trial **$300 / Dec 4** (`project-10b3a132-ec5b-41e9-a2c`). Screenshot 2026-09-08: **$0 used**. Do not click Upgrade. Cache rates/floors: `docs/PROMPT_CACHE.md` **guidelines**, not a seat lock. Vendor daily-driver talk of **3.7 Flash** is the same class of guideline — **not** a pin change. Farm mouth: `CREW/IN/GF38_MOUTH.md`. | Not Joanna `gem-api`. Not OpenWork. |
 | Escalate **Terra Flex** | `openai/gpt-5.6-terra` via `openai/flex` | Hard Python / multi-file / tests+recover. `--seat terra`. Vendor DeepSWE/Terminal-Bench lead is a **guideline** (`CREW/IN/CODING_GUIDELINES.md`), not occupancy. | Not Sol. Not oa-api poll. Not CCr. |
 | Cursor Models | `composer-2.5` · `grok-4.6` | Cursor Ultra **Cursor Models** pool (Grok + Composer). Measured 2026-09-08 **6% used**. | **Not Other Models** (73% used). Not Auto. On-demand Disabled — leave it. |
-| Quality **GPTS5.6SOL** | `gpt-5.6-sol` | `oa-api` / Codex | Costly. Do not poll (rails-prober `$150` scar). Terra Flex is a different pin. |
-| Credit first-pass **Luna Flex** | `openai/gpt-5.6-luna` via `openai/flex` | OpenRouter Flex **$0.10 / $0.60** (page $0.20/$1.20). Keith **pin flex** 2026-09-08. **P11:** preload PREFIX + CACHE_RULE; `prompt_cache_key`; measure `cached_tokens`. | Not Sol. Not oa-api poll. Not a quality seat. Cheap Chinese GLM/DS still cheaper for volume. Naked questions out of SOP. |
+| Quality **GPTS5.6SOL** | `gpt-5.6-sol` | OpenRouter named pin (oa-api poll still paused — `$150` scar) | **Major full-code reviews only** (Keith 2026-09-09). Not daily farm. Not each tab. Terra Flex is a different pin. |
+| Credit first-pass **Luna Flex** | `openai/gpt-5.6-luna` via `openai/flex` | OpenRouter Flex **$0.10 / $0.60** (page $0.20/$1.20). Keith **pin flex** 2026-09-08. **Use Luna mostly** (Keith 2026-09-09) — OpenAI credit mouth for farm/reviews except major full-code. **P11:** preload PREFIX + CACHE_RULE; `tag_preload` + `prompt_cache_key`; measure `cached_tokens`. | Not Sol daily. Not oa-api poll. Not a quality seat. Cheap Chinese GLM/DS still cheaper for volume. Naked questions out of SOP. |
 | Cheap (2) | OpenRouter pair picked from the live catalog rank: `z-ai/glm-5.3-flash` (COD **71.5**, $0.075/$0.250) · `deepseek/deepseek-v4-flash-0731` (COD **69.1**, $0.14/$0.28) | OpenRouter named pin | **Not `grok-4.5`.** Not Ling unless named. Not the rotator. Not `~latest`. |
 
 `grok-4.5` is **not a cheap seat right now** (Keith 2026-09-08). Do not spawn it as the 2-cheap half of a team.
@@ -364,8 +364,8 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   morning 7%, not “2% remaining”). Last **2% of the bar** is still reserve. Pour MOTIF
   **volume** coding/critics/checks here, not a Heavy dump:
   - **Cursor Ultra** (Opus 5 / Sonnet Cloud Agents, $0 marginal with Heavy)
-  - **GitHub** Copilot review + coding-agent issues (assignee `Copilot` still
-    invalid; review path works)
+  - **GitHub** **Claude review default** (`@claude review`). Copilot coding-agent
+    issues still exist; Copilot is not the default reviewer.
   - **GitLab** Duo Agent Platform / External Agents (Credits **0/24**, cliff
     **Sep 16**; CI minutes are a different meter)
   - **Grok Bot** (separate from grok.com Heavy weekly; Cursor Ultra weekly bar)

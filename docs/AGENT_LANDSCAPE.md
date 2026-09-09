@@ -39,9 +39,12 @@
 - Duo Agent Platform supports custom flows and external Claude Code / Codex agents.
 
 ## Recommendation for Cosmos
-1. Enable Copilot Code Review on keithbbf-gif/cosmos — it reads AGENTS.md automatically.
-2. Add Cursor Bugbot as a second reviewer for a second opinion.
-3. Keep Grok Code 4.6 as the primary executor via the work-order loop; use Copilot/Cursor as the review gate, not the builder.
-4. Mirror to GitLab only if you need Duo's pipeline-aware security review.
+1. **Default Gitur reviewer is Claude** (Keith 2026-09-09). Trigger
+   `@claude review` on every GitHub PR and GitLab MR. `cosmos_gitur.request_default_review`.
+2. **CCr (Grok 4.6 this TUI) reviews all code** before dispose onto the live tree.
+   Two families: Claude on the forge, Grok as CCr. Diversity is the point.
+3. Cursor Cloud Agents stay Lane B **BUILD** (Opus 5 / Sonnet). PR review is still Claude on GitHub.
+4. Copilot Code Review is available, not the default. Do not assign Copilot as the Gitur default reviewer.
+5. COSMOS `dispatch()` stays `ANTHROPIC_OFF` — no `claude -p`. Gitur vendor agents are ON.
 
 See docs/AGENTS.md for the conventions these agents will read.
