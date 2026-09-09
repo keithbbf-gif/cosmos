@@ -21,8 +21,8 @@ Grok 4.1 Fast Reasoning on xAI Console `$0.20/$0.50` (A-tier; not Heavy, not Ver
 GFO files off-tree, runs on Core `:8770`. Brain GF38. SSA → Groq until moved.
 `docs/ORCH_SEAT.md`.
 **Prompt cache (Keith 2026-09-08):** static first, volatile last. Exact prefix.
-Measure `cached_tokens`. Luna Flex `prompt_cache_key` + `openai/flex`. Rule:
-`docs/PROMPT_CACHE.md`. P11. Boundaries item 15.
+Measure `cached_tokens`. Naked questions out of SOP. Vendor cache **rates**
+are guidelines, not orthodoxy. Rule: `docs/PROMPT_CACHE.md`. P11. Boundaries 15.
 **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** CCr runs that triad.
 **Entire COSMOS BUILD goes through Gitur → branched trees / PRs** — including side jobs (Open Sessions, cowork_to_openwork, session-tools, cDeck). **One job, one branch, one PR.** P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
 **Keith runs the ORC** (2026-09-06: *I run the ORC*). This TUI is **CCr in the engine house, running things itself** — Gitur, merge, Core. **You don't need me** (Keith 2026-09-06): engine work does not wait on him. Not the orch wheel. GFO is a sit (Legal / COSMOS_2), not live ORC while Keith runs it. No Legal from here. **Keith 2026-09-06:** kDash→cDeck too different to integrate with OpenWork. **Pivot:** OpenWork = Cowork clone; **cDeck = backend dashboard** (looks like KDash, improve from there). Separate windows. Host = `cdeck.exe`, not Chrome. Gitur BUILD on the cDeck product branch. **NO DUAL TREES** — occupancy lives on this live COSMOS tree, not a second GitHub/GitLab occupancy copy.

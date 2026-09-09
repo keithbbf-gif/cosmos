@@ -192,13 +192,11 @@ one.
 - **Prompt cache / preload SOP (Keith 2026-09-08).** Every LLM call is a stable
   prefix plus an append-only tail. Preload rules, tools, schemas, repo map,
   `PREFIX.md`, and `CACHE_RULE.md` first; put the task, diff, pytest, and user
-  query last. Exact byte match. ≥1024 tokens. `prompt_cache_key` is routing
-  affinity, not a substitute. Measure `cached_tokens` — never assume a hit.
-  Luna/Terra pin `openai/flex`. High-context coding-agent loops: **GF38
-  Vertex** (implicit ≥4096, cached **$0.075/M** intro). G46 cached **$0.50/M**;
-  stay **under 200K** or the whole Grok request doubles. No dates or UUIDs in
-  the prefix. Naked questions are out of SOP. Canon: `docs/PROMPT_CACHE.md`.
-  P11. Boundaries 15.
+  query last. Exact byte match. `prompt_cache_key` is routing affinity, not a
+  substitute. Measure `cached_tokens` — never assume a hit. No dates or UUIDs
+  in the prefix. Naked questions are out of SOP. Vendor rates, floors, and
+  “which model is cheaper to cache” are **guidelines**, not orthodoxy.
+  Canon: `docs/PROMPT_CACHE.md`. P11. Boundaries 15.
 - **Installable by a peer on a cold machine.**
 
 ## Working rules in this environment
