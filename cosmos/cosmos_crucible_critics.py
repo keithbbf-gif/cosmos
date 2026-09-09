@@ -429,8 +429,21 @@ def spend_round(sources: list[Path], out_dir: Path, *,
         "stays 501 until `cosmos.py serve` attaches critics.\n"
     )
     (out_dir / "_ROUND.txt").write_text(note, encoding="utf-8")
-    return {"returned": returned, "failed": failed, "out_dir": str(out_dir),
-            "sources": names, "families": families}
+    rec = {"returned": returned, "failed": failed, "out_dir": str(out_dir),
+           "sources": names, "families": families}
+    if paths is not None and returned:
+        try:
+            from cosmos_porosity import hook_returns
+            rec["porosity"] = hook_returns(
+                paths, returned, profile="crucible", axis="law",
+                authority="crew:crucible", action="round",
+            )
+        except Exception as e:  # noqa: BLE001
+            rec["porosity"] = {
+                "kind": "BROKE",
+                "detail": f"{type(e).__name__}: {e}"[:200],
+            }
+    return rec
 
 
 if __name__ == "__main__":

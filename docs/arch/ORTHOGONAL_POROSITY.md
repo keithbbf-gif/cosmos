@@ -12,12 +12,26 @@ and every profile adversarial trial write the same hook. Scalar
 
 ## Decision
 
-Porosity is a **pair vector on named axes**, not a scalar.
+Keith's terms (2026-09-09). Math still open. Concepts:
+
+**Porosity** — hole **size** and hole **distribution** (per model, vector
+on named axes). How big, and where.
+
+**Orthogonality** — of a pair: **different × accurate**.
+High = they catch **different** errors well. Low = they catch (and miss)
+the **same** errors.
 
 ```
-v_ij[a]  magnitude  =  disagreement_frequency(i,j | a)  ×  error_magnitude(i,j | a)
-orthogonality(i,j)  rises with disagreement (aligned holes → near-parallel)
-T[i, j, a]          =  the tensor grid of those pair components
+Porosity P_i[a]     size + mass of i's holes on axis a     (per-model)
+                    UNMEASURED until i is scored wrong on a
+Pair hole-size
+  |v_ij[a]|         =  disagreement_frequency × error_magnitude
+                    (not orthogonality; style-fight can raise freq)
+Orthogonality O_ij[a]  working sketch when who_erred is scored:
+                    (xor_err − cofail) × error_magnitude
+                    = existing signed complement
+                    UNMEASURED until who_erred
+T[i, j, a]          pair grid (freq, mag, O when scored)
 ```
 
 **Disagreement frequency** = `disagree_n / n` on that pair×axis. Measured
@@ -27,9 +41,15 @@ when two named models return ballots on the same frozen DEFINE.
 UNMEASURED until a critic, runtime-bind, or disposer scores it. Frequency
 may exist while magnitude (and therefore `|v|`) is still UNMEASURED.
 
+Do not alias orthogonality to `|v|`. Do not invent a closed formula.
+
 **Seating:** among candidates, prefer the model whose observed pair
 orthogonality versus the already-seated set is large **per token**. That
 is token efficiency × error discovery. UNMEASURED sorts last.
+
+**Keith 2026-09-09:** several cheap in-house seats, orthogonal, can match or
+beat one frontier. Seat the cheap specialist that punches a **new** hole.
+Do not add a same-family twin and call it diversity.
 
 **Complement tensor C[i, j, a]** (additional, same database). Unsigned `|v|`
 does not split help vs hurt. From `who_erred` on the same observation:
@@ -53,7 +73,13 @@ wrong). Seating prefers signed complement per token when scored, else `|v|`.
 |---|---|---|
 | JSONL | `state/porosity/obs.jsonl` | append-only observations. Authority for this measurement. |
 | SQLite | `state/porosity/porosity.sqlite` | rebuildable projection. Never authority. |
+| `obs` | one trial row + Irbe stamps (`at`, `authority`, `action`) | |
+| `pair_fold` | undirected cell T[i,j,a] | |
+| `agent_tensor` | **one row = agent vs other agent on one axis** — the parameter set (freq, mag, xor, cofail, rescue, orthogonality) | |
 | Scalar (existing) | `state/model_rater/porosity.json` | per-model hole-set fold. Unchanged. |
+
+GET `/api/v1/porosity` `tensors[agent][vs][axis]` is the same grid. Each
+named pin owns a tensor: its parameters against every other seated agent.
 
 Resolver only: `paths.role("state", "porosity", ...)`. No hand-built path.
 
@@ -64,12 +90,13 @@ GET `/api/v1/porosity` reads. If the JSONL is absent: `kind=UNMEASURED`,
 
 ```
 at, trial_id, profile, stage, axis,
-model_a, model_b,          # named pins; rotators refused
+model_a, model_b,          # named pins; rotators refused — agent_id keys
 disagree: 0|1,             # ballots differ
 error_mag: 1–10 | null,    # null = UNMEASURED
 tokens_a, tokens_b,        # optional; for seating / token cost
 who_erred: a|b|both|none|unknown,
 source: local|federation,
+authority: source:class,   # who let this trial run; see docs/AGENT_AUDIT.md
 note
 ```
 
@@ -95,7 +122,7 @@ disagreement onto every axis.
 
 ## Hooks (built in)
 
-`cosmos_porosity.hook_trial(paths, runs, profile=, stage=, axis=, trial_id=, error_mag=)`
+`cosmos_porosity.hook_trial(paths, runs, profile=, stage=, axis=, trial_id=, error_mag=, authority=, action=)`
 
 `runs` = `[{model, ballot, tokens?}, ...]`. Every unordered pair of distinct
 named models: `disagree = (ballot_i != ballot_j)`. error_mag optional.
@@ -112,10 +139,12 @@ Call sites:
 ## HTTP
 
 - `GET /api/v1/porosity` — tensor snapshot. Never mutates.
-- `POST /api/v1/porosity` — `{model_a, model_b, axis, disagree, error_mag?}`
-  or `{action: trial, runs, profile, stage, axis}`.
+  Directed grid: `tensors[agent][vs][axis]`.
+- `POST /api/v1/porosity` — `{model_a, model_b, axis, disagree, error_mag?,
+  authority?, audit_action?}` or `{action: trial, runs, profile, stage,
+  axis, authority?, audit_action?}`.
 - Existing `POST /api/v1/model_rater/porosity` remains the **scalar**
-  loc/severity fold.
+  loc/severity fold. Forwards `agent_id` / `action` / `authority`.
 
 ## Seating helper
 
@@ -127,6 +156,11 @@ cost(c) when cost is known. Missing C → fall back to unsigned mag for
 that term. `mode=mag` uses `|v|` only. Missing term skipped (not
 zero-filled as if measured). A candidate with no observed pairs is
 UNMEASURED and sorts last.
+
+## Public weighted tensor (TABLED)
+
+Parked: `docs/research/docket/P03_PUBLIC_TENSOR.md`. Not this BUILD.
+Do not post. Do not click USPTO. Do not stand up a chain.
 
 ## Not this ARCH
 

@@ -105,6 +105,22 @@ def main() -> int:
     check("H4: bare submit() is BAD_COMMAND not -c",
           lambda: r_bare["job_id"] == j_bare and r_bare["outcome"] == "BROKE"
           and r_bare.get("bad_command"))
+    check("bind: runner.paths is the install (pool can run crucible:round)",
+          lambda: getattr(b["runner"], "paths", None) is not None)
+
+    j_cru_bad = b["sched"].submit("crucible:round not-json", "high")
+    r_cru_bad = b["runner"].run_one()
+    check("crucible:round bad JSON is BROKE, not python -c",
+          lambda: r_cru_bad["job_id"] == j_cru_bad
+          and r_cru_bad["outcome"] == "BROKE")
+
+    j_cru_path = b["sched"].submit(
+        'crucible:round {"sources":["C:/Windows/win.ini"],"critics":["ALPHA"]}',
+        "high")
+    r_cru_path = b["runner"].run_one()
+    check("crucible:round absolute source is refuse, not a spend round",
+          lambda: r_cru_path["job_id"] == j_cru_path
+          and r_cru_path["outcome"] == "BROKE")
 
     # ---- H4: argv: -c plus an outside path token is still confined ----
     outside = td / "c_with_path.py"

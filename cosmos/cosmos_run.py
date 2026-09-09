@@ -109,6 +109,7 @@ def bind(root: str) -> dict:
     sched = Scheduler(q, key, WORKER)
     runner = Runner(sched, work, WORKER)
     runner.tools_root = paths.role("tools")
+    runner.paths = paths
     runner.adapter = LegacyJobAdapter(
         queue=q, tools_root=paths.role("tools"), work_root=work, sched=sched)
     runner.instance_id = uuid.uuid4().hex[:12]

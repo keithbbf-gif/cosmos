@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cosmos_model_rater — OpenRouter catalog + seat assignments for cDeck.
+"""cosmos_model_rater — catalog + seats + observed porosity for cDeck.
 
 Pulls GET /api/v1/models (rates, modalities, Artificial Analysis indices)
 into a local projection. Daily refresh or refresh-on-open. Does NOT call
 the rotating openrouter/free router (H3). Seat assign is explicit.
+
+Unique join (Keith 2026-09-09, Margie Irbe): vendor INT/COD/AGT are
+guidelines. Occupancy is **observed** pair holes (GET /api/v1/porosity)
+plus an audit stamp on every observation — agent_id key, action,
+timestamp at the key point, authority source:class. A score without
+stamps is not an audit trail. Canon: docs/AGENT_AUDIT.md.
 
 Quality axes (vendor-measured, else UNMEASURED — never invented):
   intelligence, coding, agentic  (OpenRouter GET /benchmarks
@@ -105,7 +111,7 @@ DEFAULT_SEATS = (
      "label": "MOTIF BUILD — Adversarial coder 1", "model": CCR_MODEL,
      "via": "cli:grok", "locked": True},
     {"profile": "motif", "seat": "lane_b", "group": "MOTIF BUILD",
-     "label": "MOTIF BUILD — Adversarial coder 2", "model": "composer-2.5",
+     "label": "MOTIF BUILD — Adversarial coder 2", "model": "grok-4.6",
      "via": "cursor-api", "locked": True},
     {"profile": "motif", "seat": "build_3", "group": "MOTIF BUILD",
      "label": "MOTIF BUILD — Adversarial coder 3", "model": "",
@@ -307,7 +313,7 @@ AXES_META = (
     {"id": "blended", "label": "blended $/M (75% in / 25% out)",
      "source": "0.75 * prompt_per_m + 0.25 * completion_per_m. Not invented."},
     {"id": "porosity", "label": "porosity",
-     "source": "Scalar fold: errors per 100 LOC × severity 1–10. Pair tensor is GET /api/v1/porosity. UNMEASURED until observed. Does not invent."},
+     "source": "Scalar fold: errors per 100 LOC × severity 1–10 (hole SIZE only). Pair tensor + orthogonality is GET /api/v1/porosity. Audit stamps (agent_id, action, t, source:class) required for occupancy. UNMEASURED until observed. Does not invent."},
 )
 SEAT_COPY_KEYS = (
     "model", "model_2", "model_3", "via", "via_2", "via_3",
@@ -1027,12 +1033,12 @@ def default_porosity() -> dict:
             "n_local": 0,
             "n_federated": 0,
             "note": (
-                "Scalar fold: (errors per 100 LOC) × (severity 1–10). "
+                "Scalar fold: (errors per 100 LOC) × (severity 1–10) = hole SIZE. "
                 "1 = incidental, 10 = security/data/system hazard. "
-                "UNMEASURED until observed. Pairwise orthogonal porosity "
-                "(vector / tensor grid) is GET /api/v1/porosity. "
-                "Federation aggregates peer observations when a host is "
-                "named — NO_HOST until then. Does not invent scores."
+                "Distribution and pair orthogonality: GET /api/v1/porosity. "
+                "Each observation needs Irbe stamps: agent_id, action, t, "
+                "authority source:class. Federation aggregates peer rows when "
+                "a host is named — NO_HOST until then. Does not invent scores."
             ),
         },
     }
@@ -1125,9 +1131,54 @@ def apply_porosity(models: list[dict], rec: dict) -> None:
         m["porosity_n_federated"] = fold["n_federated"]
 
 
+def _unmeasured_complement() -> dict:
+    """Compact pack when pair obs.jsonl is absent. Does not mkdir."""
+    from cosmos_porosity import SCHEMA as poro_schema
+    return {
+        "schema": poro_schema,
+        "kind": "UNMEASURED",
+        "n_obs": 0,
+        "n_pairs": 0,
+        "tensors_shape": "tensors[agent][vs][axis]",
+        "last_obs": {},
+        "complement_kind": "UNMEASURED",
+    }
+
+
+def complement_pack(paths) -> dict:
+    """Pointer pack for pair-tensor T + complement C. GET never mkdir.
+
+    Catalog occupancy is not scalar-only. The pane GETs /api/v1/porosity
+    for the grid; this pack is schema/kind/counts only — never the tensors.
+    """
+    from cosmos_porosity import obs_path, snapshot as porosity_snapshot
+    if not obs_path(paths).is_file():
+        return _unmeasured_complement()
+    snap = porosity_snapshot(paths)
+    base = _unmeasured_complement()
+    last = snap.get("last_obs")
+    n_obs = snap.get("n_obs")
+    n_pairs = snap.get("n_pairs")
+    return {
+        "schema": snap.get("schema") or base["schema"],
+        "kind": snap.get("kind") or "UNMEASURED",
+        "n_obs": n_obs if isinstance(n_obs, int) else base["n_obs"],
+        "n_pairs": n_pairs if isinstance(n_pairs, int) else base["n_pairs"],
+        "tensors_shape": snap.get("tensors_shape") or base["tensors_shape"],
+        "last_obs": last if isinstance(last, dict) else {},
+        "complement_kind": snap.get("complement_kind") or "UNMEASURED",
+    }
+
+
 def record_porosity(paths, model: str, loc_per_100, severity, *,
-                    source="local", loc_n=None, note="") -> dict:
-    """Record one porosity observation. Does not invent a score."""
+                    source="local", loc_n=None, note="",
+                    agent_id="", action="", authority="") -> dict:
+    """Record one porosity observation. Does not invent a score.
+
+    Optional Irbe stamps: agent_id (named-pin key), action, authority
+    as source:class. Missing stamps stay empty — the fold is still
+    size-only UNMEASURED as an audit event.
+    """
     model = str(model or "").strip()
     if not model:
         raise ModelRaterError("BAD_INPUT", "model is required")
@@ -1151,12 +1202,20 @@ def record_porosity(paths, model: str, loc_per_100, severity, *,
         "severity": sev,
         "loc_n": loc_n,
         "source": src,
+        "agent_id": str(agent_id or model)[:80],
+        "action": str(action or "observe")[:40],
+        "authority": str(authority or "")[:80],
         "note": str(note or "")[:240],
         "at": _iso_now(),
     })
     rec["models"][model] = rows[-200:]
     rec = save_porosity(paths, rec)
-    rec["last"] = {"model": model, "porosity": score, "source": src}
+    rec["last"] = {
+        "model": model, "porosity": score, "source": src,
+        "agent_id": str(agent_id or model)[:80],
+        "action": str(action or "observe")[:40],
+        "authority": str(authority or "")[:80],
+    }
     rec["fold"] = _fold_obs(rec["models"][model])
     return rec
 
@@ -1594,6 +1653,7 @@ def snapshot(paths, *, sort="price", desc=False, type_name="", q="",
         "motif_step_1": "PROBLEM STATEMENT / STATED GOAL",
         "blend": {"in": BLEND_IN, "out": BLEND_OUT},
         "porosity": poro.get("federation") or default_porosity()["federation"],
+        "complement": complement_pack(paths),
         "bench_defs": [dict(a) for a in AXES_META if a.get("def")],
         "bench_cite": "openrouter.ai model Benchmarks tab · Artificial Analysis",
         "usage_cookbook": (
@@ -1845,6 +1905,28 @@ def _selftest() -> int:
     check("porosity is UNMEASURED until an observation is recorded",
           lambda: snapshot(paths, limit=80)["models"][0].get("porosity") is None
           and snapshot(paths, limit=1)["porosity"]["kind"] == "NO_HOST")
+    def _empty_complement_ok():
+        from cosmos_porosity import SCHEMA as poro_schema
+        from cosmos_porosity import obs_path as poro_obs, store_dir as poro_dir
+        rec = snapshot(paths, limit=1)
+        c = rec.get("complement") or {}
+        return (
+            c.get("kind") == "UNMEASURED"
+            and c.get("complement_kind") == "UNMEASURED"
+            and c.get("n_obs") == 0
+            and c.get("n_pairs") == 0
+            and c.get("schema") == poro_schema
+            and c.get("tensors_shape") == "tensors[agent][vs][axis]"
+            and c.get("last_obs") == {}
+            and set(c) == {
+                "schema", "kind", "n_obs", "n_pairs",
+                "tensors_shape", "last_obs", "complement_kind",
+            }
+            and not poro_obs(paths).exists()
+            and not poro_dir(paths).exists()
+        )
+    check("empty pair store is UNMEASURED and catalog GET does not mkdir",
+          _empty_complement_ok)
     por = record_porosity(paths, "anthropic/claude-opus-5", 2.0, 10)
     check("porosity = loc_per_100 * severity; federation does not invent",
           lambda: por["last"]["porosity"] == 20.0
@@ -1853,6 +1935,15 @@ def _selftest() -> int:
           and any(m.get("id") == "anthropic/claude-opus-5"
                   and m.get("porosity") == 20.0
                   for m in snapshot(paths, limit=80)["models"]))
+    por_stamped = record_porosity(
+        paths, "anthropic/claude-opus-5", 1.0, 5,
+        agent_id="anthropic/claude-opus-5", action="observe",
+        authority="ccr:g46",
+    )
+    check("scalar porosity carries Irbe agent_id / action / authority",
+          lambda: por_stamped["last"]["agent_id"] == "anthropic/claude-opus-5"
+          and por_stamped["last"]["action"] == "observe"
+          and por_stamped["last"]["authority"] == "ccr:g46")
     check("MCP is a via kind",
           lambda: any(v["id"] == "mcp:openwork" and v["kind"] == "MCP"
                       for v in VIA_OPTIONS))

@@ -8,7 +8,8 @@ nothing reaches a handler that is not named across those four lists (a route tab
 that omits what it serves is an undocumented surface, not a short one):
     GET /api/v1/status   - kernel READY + root identity + ledger head
     GET /api/v1/audit    - the audit projection (every number carries measured_at)
-    GET /api/v1/health   - the HealthBoard run
+    GET /api/v1/health   - HealthBoard run, 10s cache. GET never mkdir and
+                           never appends HEALTH_BOARD. Command `health` ledgers.
     GET /api/v1/spend    - the spend gate's audit
     GET /api/v1/tools    - the tool-contract report
     GET /api/v1/tools_kit - COSMOS components + local callables + other tools.
@@ -25,8 +26,9 @@ that omits what it serves is an undocumented surface, not a short one):
                            (/api/v1/nodes is the SAME route under its older name)
     GET /api/v1/makers   - the maker map (where agents/tools/connectors/skills are made)
     GET /api/v1/surfaces - storage surfaces (measured reachability + free_gb + age)
-    GET /api/v1/surfaces_kit - storage + channels (API/CLI/DOM/MCP) + callable tools.
-                           GET never mutates. UPS-JUDGE is NAMED, not invented.
+    GET /api/v1/surfaces_kit - storage + addable types + channels + tools.
+                           GET never mutates, never mkdir, never disk_usage.
+                           UPS-JUDGE is NAMED, not invented.
     GET /api/v1/fleet    - cDeck FLEET + host-volume projection (disk binders)
     GET /api/v1/nodemap  - cDeck NODE MAP projection (registry + heartbeats)
     GET /api/v1/jukebox  - rich job/queue fold (command, priority, stale flag)
@@ -34,7 +36,8 @@ that omits what it serves is an undocumented surface, not a short one):
                            ?type=docs = text out, text/file/image in (cards cut).
     GET /api/v1/model_rater/roles - named COSMOS roles (ORC, CCr, MOTIF, Crucible)
     GET /api/v1/porosity - pairwise orthogonal porosity tensor T plus complement
-                           tensor C (rescue / co-failure / XOR-error). GET never
+                           tensor C (rescue / co-failure / XOR-error). Directed
+                           grid tensors[agent][vs][axis] (agent_tensor). GET never
                            mkdir. UNMEASURED until a pair is observed. Does not invent.
     GET /api/v1/usage    - OpenRouter usage accounting fold (tokens/cost/cache).
                            GET never mkdir. UNMEASURED until a dispatch is recorded.
@@ -52,8 +55,16 @@ that omits what it serves is an undocumented surface, not a short one):
                            ?profile=website. GET never mutates. Does not start MOTIF.
     GET /api/v1/backup     - backup clock fold (heartbeat + verified names).
                            GET never runs a backup and never mkdir.
+    POST /api/v1/backup    - suite verbs: surface_test (measure_all), search
+                           (dest candidates), restore/generate refuse without
+                           bak/dest. Never a silent full-tree backup.
     GET /api/v1/session_kit - COS panes + autosave + auto-resession config.
                            GET never mutates. Does not fire a resession.
+    GET /api/v1/session_tools - Open Sessions + suite verbs (scan/load/convert/
+                           diff/check/anonymize/crash-recover). GET never mutates.
+    GET /api/v1/research_call - MOTIF RESEARCH envelope for a chat research
+                           function (Perplexity search_web/fetch_url). GET never
+                           fetches. Core does not call Perplexity API.
     GET /api/v1/orc        - ORC BootUP inspect (SEED vs running pointer).
                            GET never mkdir. Does not spawn OpenWork.
     GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
@@ -67,10 +78,13 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/model_rater/cap     - per-model spend limit on the rater (0 = off).
                                        Not the Core spend gate.
     POST /api/v1/model_rater/porosity - record errors/100LOC × severity 1-10.
-                                       Federation aggregates; does not invent.
+                                       Forwards Irbe stamps (agent_id, action,
+                                       authority source:class). Federation
+                                       aggregates; does not invent.
     POST /api/v1/porosity - pair observation, action=trial hook, or
                            action=recommend. Vector, not scalar. Mag =
                            disagreement_freq × error_magnitude. C from who_erred.
+                           Forwards Irbe stamps (authority, audit_action).
     POST /api/v1/usage   - action=generation {id} fetches GET /generation audit.
                            Not a billing page. Does not send usage.include.
     POST /api/v1/model_rater/estimate - token * rate-card USD for a prestaged job
@@ -96,6 +110,19 @@ that omits what it serves is an undocumented surface, not a short one):
                            Does not start MOTIF. Does not publish.
     POST /api/v1/session_kit - save COS/autosave/resession config. Does not
                            fire TidyUP or a resession.
+    POST /api/v1/session_tools - Sessions verbs (scan/load/convert/diff/check/
+                           anonymize/crash-recover/strip/doi). Legal OMITTED.
+                           GET never mutates. Original stays.
+    POST /api/v1/voice_loop - action=new_sop. Files a Voice DROP SOP name.
+                           GET never mutates.
+    POST /api/v1/research_call - action=call files the envelope; action=ingest
+                           accepts the research-function JSON. Does not fetch.
+    POST /api/v1/surfaces  - add/remove operator catalog rows (R2, Drive,
+                           local, NAS, GitHub). Keith pastes paths. GET
+                           never mkdir. Does not invent reachability.
+    POST /api/v1/backup    - surface_test / search / restore / generate.
+                           restore and generate refuse without bak/dest.
+                           GET never runs a backup.
     POST /api/v1/orc       - {stream} TidyUP/TU2 recovery if partial, then
                            session start. Temp/Recovery closes. Does not spawn OpenWork.exe.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
@@ -146,7 +173,8 @@ CDECK SHELL (F-11, no bearer - see _CDECK_ROUTES):
     GET /cdeck           - 302 to /cdeck/ (so relative app.css/app.js resolve)
     GET /cdeck/          - builds/cdeck/ui/index.html
     GET /cdeck/index.html, /cdeck/app.js, /cdeck/app.css,
-        /cdeck/cdeck.webmanifest, /cdeck/sw.js
+        /cdeck/cdeck.webmanifest, /cdeck/sw.js, plus exact pane/shell
+        names in _CDECK_UI_NAMES (header.js, deck_more.html, planets/*.mp3, …)
     Exact-match allowlist of fixed files, same rule as KDash: NO data, NO
     token. Same-origin with /api/v1/* is the browser path; a header that
     would let any other origin read Core is not added (PARITY_AUDIT K-2).
@@ -771,8 +799,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 return self._send(200, {"measured_at": time.time(),
                                         "jobs": {j: v["st"] for j, v in st.items()}})
             if self.path == "/api/v1/health":
-                from cosmos_health import HealthBoard
-                return self._send(200, HealthBoard(kernel).run())
+                from cosmos_health import snapshot as health_snapshot
+                return self._send(200, health_snapshot(kernel))
             if self.path == "/api/v1/spend":
                 return self._send(200, kernel.spend.audit())
             if self.path == "/api/v1/tools":
@@ -931,6 +959,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/research_call":
+                from cosmos_research_call import snapshot as research_call_snapshot
+                rec = research_call_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/studio":
                 from cosmos_studio import snapshot as studio_snapshot
                 rec = studio_snapshot(kernel.paths)
@@ -958,6 +991,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
             if parsed.path == "/api/v1/session_kit":
                 from cosmos_session_kit import snapshot as session_kit_snapshot
                 rec = session_kit_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if parsed.path == "/api/v1/session_tools":
+                from cosmos_session_tools_kit import snapshot as session_tools_snapshot
+                rec = session_tools_snapshot(kernel.paths)
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
             if parsed.path == "/api/v1/orc":
@@ -1029,9 +1067,13 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 from urllib.parse import parse_qs as _poro_qs
                 from cosmos_porosity import snapshot as porosity_snapshot
                 q = _poro_qs(parsed.query)
+                agents_raw = (q.get("agents") or [""])[0]
+                agents = [a.strip() for a in str(agents_raw).split(",")
+                          if a.strip()]
                 rec = porosity_snapshot(
                     kernel.paths,
                     profile=(q.get("profile") or [""])[0],
+                    agents=agents or None,
                 )
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
@@ -1630,6 +1672,25 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     "outcome": "QUEUED",
                 })
             from urllib.parse import urlparse as _wo_urlparse
+            if _wo_urlparse(self.path).path == "/api/v1/research_call":
+                from cosmos_research_call import (
+                    ResearchCallError, run as research_call_run,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = research_call_run(kernel.paths, d)
+                except ResearchCallError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/studio":
                 from cosmos_studio import StudioError, save_pack as studio_save
                 body = self._read_body()
@@ -1681,7 +1742,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
             if _wo_urlparse(self.path).path == "/api/v1/porosity":
                 from cosmos_porosity import (
-                    PorosityError, hook_trial, record_pair, recommend,
+                    PorosityError, coverage, hook_trial, record_pair, recommend,
                 )
                 body = self._read_body()
                 if body is None:
@@ -1705,6 +1766,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             trial_id=d.get("trial_id") or "",
                             error_mag=d.get("error_mag"),
                             source=d.get("source") or "local",
+                            authority=d.get("authority") or "",
+                            action=d.get("audit_action") or "trial",
                         )
                     elif act == "recommend":
                         rec = {
@@ -1719,6 +1782,14 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                                 mode=d.get("mode") or "complement",
                             ),
                         }
+                    elif act == "coverage":
+                        rec = coverage(
+                            kernel.paths,
+                            d.get("agents") or d.get("candidates") or [],
+                            profile=d.get("profile") or "forge",
+                            costs=d.get("costs"),
+                            incumbent=d.get("incumbent") or "",
+                        )
                     else:
                         rec = record_pair(
                             kernel.paths,
@@ -1734,6 +1805,8 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             tokens_b=d.get("tokens_b"),
                             who_erred=d.get("who_erred") or "",
                             source=d.get("source") or "local",
+                            authority=d.get("authority") or "",
+                            action=d.get("audit_action") or "ballot",
                             note=d.get("note") or "",
                         )
                     rec["tree_id"] = kernel.paths.sentinel.tree_id
@@ -1796,6 +1869,79 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except OrcBootError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/surfaces":
+                from cosmos_surfaces_kit import SurfacesKitError, save_surface
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = save_surface(kernel.paths, d, kernel=kernel)
+                except SurfacesKitError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/backup":
+                from cosmos_backup_fold import BackupFoldError, run_action as backup_run
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                try:
+                    rec = backup_run(kernel.paths, d, kernel=kernel)
+                except BackupFoldError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/session_tools":
+                from cosmos_session_tools_kit import (
+                    SessionToolsKitError, run as session_tools_run,
+                )
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = session_tools_run(d, paths=kernel.paths)
+                except SessionToolsKitError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
+                return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/voice_loop":
+                from cosmos_voice_loop import VoiceLoopError, save_sop as voice_sop_save
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = voice_sop_save(kernel.paths, d)
+                except VoiceLoopError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                rec["measured_at"] = time.time()
                 return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/session_kit":
                 from cosmos_session_kit import SessionKitError, save_kit as session_kit_save
@@ -1960,6 +2106,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             source=d.get("source") or "local",
                             loc_n=d.get("loc_n"),
                             note=d.get("note") or "",
+                            agent_id=d.get("agent_id") or "",
+                            action=d.get("action") or "",
+                            authority=d.get("authority") or "",
                         )
                         return self._send(200, rec)
                     if _mr.endswith("/job_estimate"):

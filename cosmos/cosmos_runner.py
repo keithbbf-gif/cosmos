@@ -160,6 +160,61 @@ class Runner:
                     return refused
         return None
 
+    def _run_crucible_round(self, job_id: str, cmd: str, adir: Path, log: Path) -> dict:
+        """Pool-side crucible:round. HTTP only queues. Does not invent critics."""
+        paths = getattr(self, "paths", None)
+        if paths is None:
+            return self._refuse(
+                job_id,
+                "crucible:round unbound — runner has no paths",
+                bad_command=True)
+        raw = cmd[len("crucible:round"):].strip()
+        try:
+            payload = json.loads(raw) if raw else {}
+        except (ValueError, TypeError) as e:
+            return self._refuse(job_id, f"crucible:round JSON: {e}"[:300])
+        if not isinstance(payload, dict):
+            return self._refuse(job_id, "crucible:round body must be a JSON object")
+        from cosmos_paths import CosmosPathError
+        try:
+            srcs = [paths.role("docs", s) for s in (payload.get("sources") or [])]
+        except CosmosPathError as e:
+            return self._refuse(job_id, str(e)[:300])
+        out_dir = Path(adir) / "crucible"
+        log.write_text(
+            f"RUNNING {job_id} attempt crucible:round\n"
+            f"worker {self.worker}\nstarted {time.ctime()}\n\n",
+            encoding="utf-8")
+        t0 = time.time()
+        try:
+            from cosmos_crucible_critics import spend_round
+            rec = spend_round(srcs, out_dir, root=str(paths.root))
+        except Exception as e:  # noqa: BLE001
+            detail = f"{type(e).__name__}: {e}"[:300]
+            self.sched.done(job_id, "BROKE", detail)
+            result = {"job_id": job_id, "outcome": "BROKE", "detail": detail,
+                      "elapsed_s": round(time.time() - t0, 2), "log": str(log)}
+            (Path(adir) / "result.json").write_text(
+                json.dumps(result, indent=1), encoding="utf-8")
+            return result
+        n_fail = len(rec.get("failed") or {})
+        outcome = "FINDINGS" if n_fail else "CLEAN"
+        detail = "" if not n_fail else f"failed={sorted(rec.get('failed') or {})}"
+        self.sched.done(job_id, outcome, detail)
+        result = {
+            "job_id": job_id, "outcome": outcome, "detail": detail,
+            "returned": sorted((rec.get("returned") or {})),
+            "failed": sorted((rec.get("failed") or {})),
+            "porosity": rec.get("porosity") or {},
+            "elapsed_s": round(time.time() - t0, 2), "log": str(log),
+        }
+        (Path(adir) / "result.json").write_text(
+            json.dumps(result, indent=1), encoding="utf-8")
+        with open(log, "a", encoding="utf-8", newline="") as fh:
+            fh.write(json.dumps({k: result[k] for k in
+                                 ("outcome", "returned", "failed")}) + "\n")
+        return result
+
     def run_one(self) -> dict | None:
         """Claim the next job, EXECUTE it, land the worded outcome. Returns the result
         record, or None when the queue is empty."""
@@ -201,6 +256,8 @@ class Runner:
             refused = self._confine_argv(job_id, argv)
             if refused:
                 return refused
+        elif cmd.startswith("crucible:round"):
+            return self._run_crucible_round(job_id, cmd, adir, log)
         else:
             return self._refuse(
                 job_id,
