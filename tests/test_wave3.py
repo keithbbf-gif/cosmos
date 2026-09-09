@@ -210,11 +210,12 @@ def main() -> int:
     }
     cr = post("/api/v1/crucible", {"sources": ["FINAL_ARCHITECTURE.md"],
                                    "critics": ["grok"]})
-    check("POST /crucible: remote crucible runs a round, lands returns, ledgers",
-          lambda: "job_id" in cr and cr.get("returned")
-          and all(Path(p).exists() for p in cr["returned"].values())
-          and any(e["event"] == "CRUCIBLE_ROUND_DONE" for e in k.ledger.verify())
-          and "crucible round queued" not in k.sched._state()[cr["job_id"]]["m"]["command"])
+    check("POST /crucible: remote crucible submits QUEUED; HTTP does not run the round",
+          lambda: "job_id" in cr and cr.get("outcome") == "QUEUED"
+          and not cr.get("returned")
+          and any(e["event"] == "CRUCIBLE_REQUESTED" for e in k.ledger.verify())
+          and not any(e["event"] == "CRUCIBLE_ROUND_DONE" for e in k.ledger.verify())
+          and "crucible:round" in k.sched._state()[cr["job_id"]]["m"]["command"])
     svc.shutdown()
 
     bad = [(l, e) for l, ok, e in RESULTS if not ok]

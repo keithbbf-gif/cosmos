@@ -49,6 +49,8 @@ NAMED = (
     "unknown_cdeck_not_served",
     "traversal_is_not_a_file",
     "no_cross_origin_header",
+    "header_js_bytes",
+    "deck_more_html_bytes",
 )
 # Inherited: unknown/traversal not the index. Loopback API is open (DT).
 # The bite is the shell actually being served as bytes.
@@ -102,7 +104,8 @@ def run_named_checks(svc) -> list:
 
     port = svc.port
     disk = {n: (UI / n).read_bytes() for n in (
-        "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js")}
+        "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js",
+        "header.js", "deck_more.html")}
 
     code, hdrs, body = _raw_get(port, "/cdeck")
     rec("slashless_redirect",
@@ -125,7 +128,9 @@ def run_named_checks(svc) -> list:
             ("app_js_bytes", "/cdeck/app.js", "app.js"),
             ("app_css_bytes", "/cdeck/app.css", "app.css"),
             ("manifest_bytes", "/cdeck/cdeck.webmanifest", "cdeck.webmanifest"),
-            ("sw_bytes", "/cdeck/sw.js", "sw.js")):
+            ("sw_bytes", "/cdeck/sw.js", "sw.js"),
+            ("header_js_bytes", "/cdeck/header.js", "header.js"),
+            ("deck_more_html_bytes", "/cdeck/deck_more.html", "deck_more.html")):
         c, h, b = _raw_get(port, path)
         rec(name,
             c == 200 and b == disk[key],

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Selftest: rest-surface backlog. Three seams, each with a positive path AND a
-typed refusal: (1) POST /api/v1/crucible actually runs cosmos_crucible as a
-scheduled job and lands returns - or 501 when it cannot; (2) api_token.txt
+typed refusal: (1) POST /api/v1/crucible submits a scheduled job and does
+not claim or run the round on the HTTP thread - or 501 when it cannot;
+(2) api_token.txt
 empty/whitespace is BLANK_TOKEN, a missing file on a remote bind is
 TOKEN_MISSING (never invented); (3) submit parse keeps priority words that
 belong to the command inside the command."""
@@ -174,22 +175,22 @@ def main() -> int:
                        {"sources": ["packet.md"],
                         "critics": ["ALPHA", "BETA"],
                         "priority": "high"})
-    check("POST /crucible with composed critics -> 201 + job_id",
-          lambda: code == 201 and "job_id" in body)
-    check("...returns LAND ON DISK (not a print stub)",
-          lambda: bool(body.get("returned"))
-          and all(Path(p).exists() and Path(p).stat().st_size > 0
-                  for p in body["returned"].values())
-          and Path(body["merge"]).exists())
+    check("POST /crucible with composed critics -> 201 + job_id QUEUED",
+          lambda: code == 201 and "job_id" in body
+          and body.get("outcome") == "QUEUED")
+    check("...HTTP did not run the round (pool is the sole claimant)",
+          lambda: not body.get("returned")
+          and not any(e["event"] == "CRUCIBLE_PACKET_BUILT"
+                      for e in k.ledger.verify()))
     check("...the scheduled job is not the print stub",
           lambda: "crucible:round" in k.sched._state()[body["job_id"]]["m"]["command"]
           and "crucible round queued" not in k.sched._state()[body["job_id"]]["m"]["command"])
-    check("...CRUCIBLE_PACKET_BUILT + CRUCIBLE_ROUND_DONE + CRUCIBLE_RETURN landed",
-          lambda: {"CRUCIBLE_PACKET_BUILT", "CRUCIBLE_ROUND_DONE",
-                   "CRUCIBLE_RETURN", "CRUCIBLE_REQUESTED"}
-          <= {e["event"] for e in k.ledger.verify()})
-    check("...the job completed through the scheduler (not left QUEUED as a stub)",
-          lambda: k.sched._state()[body["job_id"]]["st"] in ("CLEAN", "FINDINGS"))
+    check("...CRUCIBLE_REQUESTED landed; round not done on the HTTP thread",
+          lambda: any(e["event"] == "CRUCIBLE_REQUESTED"
+                      for e in k.ledger.verify())
+          and "CRUCIBLE_ROUND_DONE" not in {e["event"] for e in k.ledger.verify()})
+    check("...the job stays queued for the pool (HTTP did not claim_next)",
+          lambda: k.sched._state()[body["job_id"]]["st"] == "QUEUED")
 
     # ============ BODY CAP + since_seq (hardened request handling) ============
     import http.client
