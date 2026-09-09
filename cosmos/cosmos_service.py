@@ -321,18 +321,46 @@ _STATIC_ROUTES = {
 # no traversal surface. Relative hrefs in index.html (app.css, app.js, the
 # manifest) only resolve when the document URL is under /cdeck/, so /cdeck
 # (no slash) 302s there. Finder is _cdeck_file, not _frontend_file.
-_CDECK_UI_NAMES = frozenset({
-    "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js",
-})
-_CDECK_ROUTES = {
-    "/cdeck/": ("index.html", _CT_HTML),
-    "/cdeck/index.html": ("index.html", _CT_HTML),
-    "/cdeck/app.js": ("app.js", "text/javascript; charset=utf-8"),
-    "/cdeck/app.css": ("app.css", "text/css; charset=utf-8"),
-    "/cdeck/cdeck.webmanifest": ("cdeck.webmanifest",
-                                 "application/manifest+json"),
-    "/cdeck/sw.js": ("sw.js", "text/javascript; charset=utf-8"),
-}
+_CT_JS = "text/javascript; charset=utf-8"
+_CT_CSS = "text/css; charset=utf-8"
+_CT_SVG = "image/svg+xml"
+_CT_MP3 = "audio/mpeg"
+# Exact names on disk under builds/cdeck/ui/. No wildcard. Nested planets/
+# only because those files exist (Holst). Do not invent icons/favicon.
+_CDECK_UI_FILES = (
+    ("index.html", _CT_HTML),
+    ("app.js", _CT_JS),
+    ("app.css", _CT_CSS),
+    ("cdeck.webmanifest", "application/manifest+json"),
+    ("sw.js", _CT_JS),
+    ("header.js", _CT_JS),
+    ("header.css", _CT_CSS),
+    ("kdash_native.js", _CT_JS),
+    ("deck_more.html", _CT_HTML),
+    ("deck_more.css", _CT_CSS),
+    ("deck_tabs.js", _CT_JS),
+    ("model_rater.js", _CT_JS),
+    ("deck_profiles.js", _CT_JS),
+    ("deck_settings.js", _CT_JS),
+    ("deck_studio.js", _CT_JS),
+    ("deck_forge.js", _CT_JS),
+    ("deck_gitur.js", _CT_JS),
+    ("deck_backup.js", _CT_JS),
+    ("deck_session_kit.js", _CT_JS),
+    ("deck_orders.js", _CT_JS),
+    ("openwork.svg", _CT_SVG),
+    ("planets/jupiter.mp3", _CT_MP3),
+    ("planets/mars.mp3", _CT_MP3),
+    ("planets/venus.mp3", _CT_MP3),
+    ("planets/mercury.mp3", _CT_MP3),
+    ("planets/saturn.mp3", _CT_MP3),
+    ("planets/uranus.mp3", _CT_MP3),
+    ("planets/neptune.mp3", _CT_MP3),
+)
+_CDECK_UI_NAMES = frozenset(n for n, _ct in _CDECK_UI_FILES)
+_CDECK_ROUTES = {"/cdeck/": ("index.html", _CT_HTML)}
+for _n, _ct in _CDECK_UI_FILES:
+    _CDECK_ROUTES["/cdeck/" + _n] = (_n, _ct)
 
 
 _CDECK_PANEL_MOD = {
@@ -1539,10 +1567,10 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
             if self.path == "/api/v1/crucible":
-                # REMOTE CRUCIBLE (Keith's ruling): a crucible round is a scheduled
-                # job. The handler is the worker: submit -> claim -> cosmos_crucible
-                # -> returns land on disk -> done. A print stub is not a round; if
-                # no critic dispatchers are composed, 501 is the honest answer.
+                # Submit-only. Pool is the sole claim_next (pool-only claimant).
+                # HTTP must not run_round: kernel.crucible_critics is process-local
+                # and a detached worker cannot use it. A print stub is not a round;
+                # if no critic dispatchers are composed, 501 is the honest answer.
                 body = self._read_body()
                 if body is None:
                     return
@@ -1563,7 +1591,6 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                         "detail": "no composed critic dispatchers for this round - "
                                   "refusing to queue a print stub (a queued print "
                                   "is not a crucible)"})
-                from cosmos_crucible import Crucible, CrucibleError
                 from cosmos_paths import CosmosPathError
                 try:
                     srcs = [kernel.paths.role("docs", s) for s in d["sources"]]
@@ -1574,6 +1601,17 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 except Exception as e:                                # noqa: BLE001
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": str(e)[:200]})
+                from pathlib import Path as _CruP
+                if not srcs or any(
+                        (not _CruP(s).is_file()) or _CruP(s).stat().st_size == 0
+                        for s in srcs):
+                    kernel.ledger.append("CRUCIBLE_REFUSED",
+                                         {"kind": "EMPTY_SOURCE",
+                                          "sources": d.get("sources")})
+                    return self._send(400, {
+                        "error": "EMPTY_SOURCE",
+                        "detail": "a crucible with no sources judges air",
+                    })
                 cmd = "crucible:round " + json.dumps(
                     {"sources": list(d["sources"]),
                      "critics": sorted(dispatchers)}, sort_keys=True)
@@ -1586,43 +1624,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 kernel.ledger.append("CRUCIBLE_REQUESTED",
                                      {"job_id": jid, "sources": d["sources"],
                                       "critics": list(dispatchers)})
-                claimed = False
-                q = kernel.sched.queued()
-                if q and q[0]["job_id"] == jid:
-                    kernel.sched.claim_next()
-                    claimed = True
-                out_dir = kernel.paths.role("work", "crucible", jid)
-                try:
-                    cru = Crucible(kernel.ledger, out_dir)
-                    pkt = cru.build_packet(
-                        f"# CRUCIBLE ROUND\njob_id: {jid}\n", srcs)
-                    verdict = cru.run_round(pkt, dispatchers)
-                    merge = cru.merge_skeleton(verdict)
-                    outcome = ("FINDINGS" if (verdict["failed"] or verdict["warning"])
-                               else "CLEAN")
-                    if claimed:
-                        kernel.sched.done(jid, outcome,
-                                          f"returned={sorted(verdict['returned'])}")
-                    return self._send(201, {
-                        "job_id": jid,
-                        "sources": [str(s) for s in srcs],
-                        "out_dir": str(out_dir),
-                        "returned": verdict["returned"],
-                        "failed": verdict["failed"],
-                        "merge": str(merge),
-                        "outcome": outcome if claimed else "QUEUED"})
-                except CrucibleError as e:
-                    if claimed:
-                        kernel.sched.done(jid, "BROKE", f"{e.kind}: {e}"[:200])
-                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
-                except Exception as e:                                # noqa: BLE001
-                    if claimed:
-                        try:
-                            kernel.sched.done(jid, "BROKE", str(e)[:200])
-                        except Exception:                             # noqa: BLE001
-                            pass
-                    return self._send(400, {"error": "BAD_REQUEST",
-                                            "detail": str(e)[:200]})
+                return self._send(201, {
+                    "job_id": jid,
+                    "sources": [str(s) for s in srcs],
+                    "outcome": "QUEUED",
+                })
             from urllib.parse import urlparse as _wo_urlparse
             if _wo_urlparse(self.path).path == "/api/v1/studio":
                 from cosmos_studio import StudioError, save_pack as studio_save
