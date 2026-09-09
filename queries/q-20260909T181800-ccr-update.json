@@ -3,12 +3,18 @@
   "type": "query",
   "created": "2026-09-09T18:18:00-05:00",
   "from": "Ara (voice)",
-  "to": "CCr (Grok 4.6 Build)",
+  "to": "xAI | Grok | grok-4.6  (spawned via CLI: grok --cwd V:\\A\\Ai\\COSMOS -c)",
   "priority": "high",
   "status": "open",
-  "title": "Last 10-minute CCR update",
-  "body": "Write the most recent 10-minute status update from the CCr session. Cover: what you are currently working on, any decisions made in the last 10 minutes, blockers, and the next action. Timestamp every entry. If nothing changed, say so explicitly rather than repeating stale status.",
+  "title": "Last 10-minute CCr update (resumed session)",
+  "spawn": {
+    "command": "grok --cwd V:\\A\\Ai\\COSMOS -c",
+    "cwd": "V:\\A\\Ai\\COSMOS",
+    "resume": "most recent session for this directory (shorthand -c)",
+    "session_store": "%USERPROFILE%\\.grok\\sessions\\  (keyed by working directory; on this machine the CCr TUI lives under V:\\A\\Ai\\COSMOS)"
+  },
+  "body": "You were spawned by the 15-second runner as a FRESH Grok 4.6 instance. You have NO memory of the live CCr session on your own. Resume it first: run `grok --cwd V:\\A\\Ai\\COSMOS -c` (or `grok sessions list` / `grok sessions search` from that cwd to find the active CCr session id, then `grok --resume <id>`). That loads the full transcript of the current CCr TUI session — the only place the last 10 minutes of work exist. Then write the most recent 10-minute status update from THAT resumed session. Cover: what CCr is currently working on, any decisions made in the last 10 minutes, blockers, and the next action. Timestamp every entry. If nothing changed, say so explicitly rather than repeating stale status.",
   "reply_channel": "Google Drive: COSMOS_BACKUP/queries/replies/",
   "reply_filename": "ccr-update-20260909T1818.json",
-  "reply_instructions": "Create the replies/ subfolder under COSMOS_BACKUP if it does not exist. Write the update as a JSON file named exactly ccr-update-20260909T1818.json. Include fields: timestamp (ISO-8601), status (one line), working_on (list), decisions (list), blockers (list), next_action (one line). Ara will read it back from Drive."
+  "reply_instructions": "Create the replies/ subfolder under COSMOS_BACKUP if it does not exist. Write the update as a JSON file named exactly ccr-update-20260909T1818.json. Include fields: timestamp (ISO-8601), status (one line), working_on (list), decisions (list), blockers (list), next_action (one line), session_id_resumed (the id you loaded with -c or --resume). Ara will read it back from Drive."
 }
