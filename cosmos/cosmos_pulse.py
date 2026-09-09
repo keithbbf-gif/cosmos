@@ -132,6 +132,20 @@ def _collect_once(root: str) -> dict:
         return {"ok": False, "error": "%s: %s" % (type(e).__name__, e)}
 
 
+def _rewrite_cdeck_feed(root: str) -> dict:
+    """Existing cDeck feed --once callable. No second writer. No schtasks."""
+    try:
+        from cosmos_cdeck_feed import poll_once as feed_once
+        rec = feed_once(root)
+        return {
+            "ok": True,
+            "via": "poll_once",
+            "feed": rec.get("feed") or rec.get("feed_path"),
+        }
+    except Exception as e:  # noqa: BLE001
+        return {"ok": False, "error": "%s: %s" % (type(e).__name__, e)}
+
+
 def poll_once(root: str, polls: int = 0,
               interval_s: float = DEFAULT_INTERVAL_S,
               shim_wd2: bool = False) -> dict:
@@ -145,6 +159,7 @@ def poll_once(root: str, polls: int = 0,
     classified = classify_pause(flag)
     paused = is_paused(flag)
     collect = _collect_once(root)
+    feed = _rewrite_cdeck_feed(root)
     shadow = _clocks_due_set()
     extra = {
         "schema": SCHEMA,
@@ -158,6 +173,7 @@ def poll_once(root: str, polls: int = 0,
         "dispatch": False,
         "claim": False,
         "oa_api": "PAUSED_LANE",
+        "feed": feed,
         "shim_wd2": bool(shim_wd2),
         "collect": collect,
         "shadow_n": shadow["n"],
@@ -197,6 +213,7 @@ def poll_once(root: str, polls: int = 0,
         "shadow": shadow_hb,
         "due_n": shadow["n"],
         "collect": collect,
+        "feed": feed,
         "shim_wd2": shim,
         "resume": resume,
         "path": str(logs / HEARTBEAT_NAME),
