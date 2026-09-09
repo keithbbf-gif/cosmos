@@ -36,6 +36,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime
+from hashlib import sha256
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -74,6 +75,7 @@ FLEX_PROVIDERS = frozenset({
     "amazon-bedrock/us-east-1",
 })
 TERRA_PROVIDERS = FLEX_PROVIDERS
+PROMPT_CACHE_POLICY = "v1"
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 # Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
 CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, SOLAR_PRO4, LING_FLASH)
@@ -146,6 +148,15 @@ def model_refused(model: str) -> str | None:
     if m not in PINNED:
         return f"not a pinned OpenRouter id {m!r}; want {sorted(PINNED)}"
     return None
+
+
+def cache_family(*, model: str, prefix: str = "", tools: str = "v1") -> str:
+    """Routing key for a matching prefix. OpenAI max length 64."""
+    fp = sha256((prefix or "").encode("utf-8")).hexdigest()[:12]
+    low = (model or "").lower()
+    tag = "luna" if "luna" in low else ("terra" if "terra" in low else "or")
+    key = f"cdeck-{tag}-p{PROMPT_CACHE_POLICY}-t{tools}-{fp}"
+    return key[:64]
 
 
 def _provider_tag(model: str, payload: dict) -> str | None:
@@ -493,16 +504,35 @@ def _tool_calls(body: dict) -> list[dict]:
     return out
 
 
+def _part_text(part) -> str:
+    if isinstance(part, str):
+        return part
+    if not isinstance(part, dict):
+        return ""
+    t = part.get("text") or part.get("content") or part.get("value")
+    return t if isinstance(t, str) else ""
+
+
 def _message_text(body: dict) -> str:
+    """Vendor mouth. String content, list parts, or choice.text. Not invented."""
     choices = body.get("choices") if isinstance(body, dict) else None
     if not isinstance(choices, list) or not choices:
         return ""
-    msg = (choices[0] or {}).get("message") if isinstance(choices[0], dict) else {}
-    if not isinstance(msg, dict):
-        return ""
-    content = msg.get("content")
+    ch0 = choices[0] if isinstance(choices[0], dict) else {}
+    msg = ch0.get("message") if isinstance(ch0.get("message"), dict) else {}
+    content = msg.get("content") if msg else None
+    if content is None:
+        content = ch0.get("text")
     if isinstance(content, str) and content.strip():
         return content.strip()
+    if isinstance(content, list):
+        joined = "".join(_part_text(p) for p in content).strip()
+        if joined:
+            return joined
+    for k in ("reasoning", "reasoning_content"):
+        v = msg.get(k)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
     return ""
 
 
@@ -613,6 +643,27 @@ class OpenRouterRail:
             "stream": False,
             "provider": prov,
         }
+        pck = str(payload.get("prompt_cache_key") or "").strip()
+        if not pck and model in FLEX_MODELS:
+            pck = cache_family(model=model)
+        if pck:
+            body["prompt_cache_key"] = pck
+            body["session_id"] = pck
+        if model in FLEX_MODELS:
+            body["prompt_cache_options"] = {"mode": "explicit", "ttl": "30m"}
+            # Mark the first system/user text block as the reusable prefix.
+            msgs = body.get("messages")
+            if isinstance(msgs, list) and msgs:
+                m0 = msgs[0] if isinstance(msgs[0], dict) else {}
+                c0 = m0.get("content")
+                if isinstance(c0, str) and c0.strip():
+                    m0["content"] = [{
+                        "type": "text", "text": c0,
+                        "prompt_cache_breakpoint": {"mode": "explicit"},
+                    }]
+                elif isinstance(c0, list) and c0 and isinstance(c0[0], dict):
+                    if "prompt_cache_breakpoint" not in c0[0] and "cache_control" not in c0[0]:
+                        c0[0]["prompt_cache_breakpoint"] = {"mode": "explicit"}
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
             body["tools"] = tools
@@ -917,6 +968,8 @@ def _selftest() -> int:
             assert "stream_options" not in body
             if body.get("model") in FLEX_MODELS:
                 assert body.get("provider", {}).get("only") == [OPENAI_FLEX]
+                assert isinstance(body.get("prompt_cache_key"), str)
+                assert body["prompt_cache_key"].startswith("cdeck-")
             return 200, {}, {
                 "id": "gen-test",
                 "model": body.get("model"),
@@ -965,6 +1018,11 @@ def _selftest() -> int:
     check("chat-create binds response.model",
           lambda: chat["ok"] and chat["model"] == DEFAULT_MODEL
           and chat["text"] == "GEMMA4_READY")
+    listed = {"choices": [{"message": {"role": "assistant",
+                                       "content": [{"type": "text",
+                                                    "text": "LIST_OK"}]}}]}
+    check("list content parts bind as mouth (GLM shape)",
+          lambda: _message_text(listed) == "LIST_OK")
     check("usage fold is vendor-native; cost 0 is measured not invented",
           lambda: chat["usage_fold"]["kind"] == "MEASURED"
           and chat["usage_fold"]["prompt_tokens"] == 4
@@ -1022,6 +1080,11 @@ def _selftest() -> int:
     check("GPT-5.6 Luna pins OpenAI Flex by default (Keith pin flex)",
           lambda: luna["ok"] and luna["model"] == GPT56_LUNA
           and luna.get("provider_tag") == OPENAI_FLEX)
+    check("cache_family is deterministic and has no timestamp",
+          lambda: cache_family(model=GPT56_LUNA, prefix="P")
+          == cache_family(model=GPT56_LUNA, prefix="P")
+          and cache_family(model=GPT56_LUNA, prefix="P").startswith("cdeck-luna-")
+          and len(cache_family(model=GPT56_LUNA, prefix="P")) <= 64)
     bad_ep = rail.dispatch({"model": GPT56_TERRA, "text": "x",
                             "endpoint": "not-a-real-uuid"})
     check("unknown Terra endpoint uuid is REFUSED",

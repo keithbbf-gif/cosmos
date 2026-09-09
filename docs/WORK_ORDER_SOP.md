@@ -37,6 +37,11 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 
 **Task first lines are mandatory.** The work-order runner does not auto-attach DHx; if you omit them, the agent will not have the rules.
 
+**Preload SOP (Keith 2026-09-08):** do not drop a naked Task. Context source
+must name DHx + `docs/AGENT_BOUNDARIES.md` + (for pane/coding jobs)
+`work_orders/ccr/CREW/IN/PREFIX.md` and `CACHE_RULE.md`. The Task paragraph
+is the **tail**. Canon: `docs/PROMPT_CACHE.md`. P11.
+
 ## Agent — what you may name
 
 | Want | Agent field |
@@ -46,7 +51,7 @@ One JSON object. No extra required keys. Filename: `wo-<stamp>.json` (example `w
 | Gemini judge | `Google \| Gemini \| <model>` |
 | OpenAI coding (Codex rail) | `OpenAI \| Codex \| gpt-5.3-codex` |
 | Headless SSA drop (simple orch background) | `Groq \| gpt-oss \| 20b` (or Agent `SSA` — remaps to groq) |
-| **MOTIF RESEARCH** | **Do not name Grok 4.6 or Cursor.** Task says `Route: DOM`. Use the **existing BTS/COSMOS Chrome path** (chrome-bridge / Chrome MCP / Chrome CLI, no window). SGH+GEM first. Do not rebuild. Ask the tools index. |
+| **MOTIF RESEARCH** | **Step 1. Do not skip.** Task says `Route: DOM`. Use the **existing BTS/COSMOS Chrome path** (chrome-bridge / Chrome MCP / Chrome CLI / playwright-dom, no window). **LIVE 2026-09-06:** Bing SERP, Cloudflare AI Playground, Copilot CLI. SGH+GEM first when AUTH. Do not rebuild. Not Gitur. Not dump-dom. Ask the tools index. |
 
 **Do not put Cursor in Agent.** The desk refuses that family. Cursor is a **separate coding lane** (Cloud Agent on this GitHub repo). If you want Cursor on a **BUILD**, say `Route: CURSOR` in **Task** and keep Agent as Grok — COW dispatches Cursor; you do not. **Research goes on the DOM rails, not Gitur.**
 

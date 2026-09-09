@@ -228,6 +228,35 @@ def agents_propose_only(ctx) -> dict:
                          "dhx_propose_rule": dhx, "claude_md_agents_propose": canon}}
 
 
+def prompt_cache_prefix(ctx) -> dict:
+    """P11: prompt cache is a gate — prefix file, boundaries item, rail key."""
+    doc = _read(REPO / "docs" / "PROMPT_CACHE.md")
+    bounds = _read(REPO / "docs" / "AGENT_BOUNDARIES.md")
+    prefix = _read(REPO / "work_orders" / "ccr" / "CREW" / "IN" / "PREFIX.md")
+    rule = _read(REPO / "work_orders" / "ccr" / "CREW" / "IN" / "CACHE_RULE.md")
+    rail = _read(REPO / "cosmos" / "cosmos_openrouter_rail.py")
+    farm = _read(REPO / "work_orders" / "ccr" / "_propose_seat.py")
+    ok = (
+        "Static first, volatile last" in doc
+        and "cached_tokens" in doc
+        and "prompt cache prefix" in bounds.lower()
+        and "CACHE PREFIX" in prefix
+        and "policy:v1" in rule
+        and "prompt_cache_key" in rail
+        and "prompt_cache_key" in farm
+        and "cached_tokens" in rail
+    )
+    return {"status": PASS if ok else FAIL,
+            "evidence": {
+                "PROMPT_CACHE.md": bool(doc),
+                "boundaries_item_15": "prompt cache prefix" in bounds.lower(),
+                "PREFIX.md": "CACHE PREFIX" in prefix,
+                "CACHE_RULE.md": "policy:v1" in rule,
+                "rail_prompt_cache_key": "prompt_cache_key" in rail,
+                "farm_prompt_cache_key": "prompt_cache_key" in farm,
+            }}
+
+
 CHECKS = {
     "activity_clock_15s": activity_clock_15s,
     "orchestrator_only": orchestrator_only,
@@ -239,6 +268,7 @@ CHECKS = {
     "self_build_process": self_build_process,
     "keep_afloat": keep_afloat,
     "improvement_not_bloat": improvement_not_bloat,
+    "prompt_cache_prefix": prompt_cache_prefix,
 }
 
 

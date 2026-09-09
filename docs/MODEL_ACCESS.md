@@ -121,7 +121,7 @@ Not Gemini. Not the rejected `openrouter/free` rotator. COSMOS rail `openrouter-
 | Solar Pro4 (cheap coder) | `upstage/solar-pro4` | **wired 2026-09-08** — Keith word. Catalog COD **52.7**, **$0.03 / $0.12** per 1M. Bound ping returned code. Named pin. Not the rotator. |
 | Ling 3.0 Flash (cheap coder) | `inclusionai/ling-3.0-flash` | **wired 2026-09-08** — Keith word. Catalog COD **50.6**, **$0.021 / $0.063** per 1M (65% off). Bound ping returned code. Named pin. Not the rotator. |
 | GPT-5.6 Terra (value, OpenAI Flex) | `openai/gpt-5.6-terra` via `openai/flex` | **wired 2026-09-08** — Keith: good value. Endpoint UUID `bf8a8d37-5c1b-4343-8f0f-eee99b60c5f2` maps to **OpenAI Flex $1 / $6** per 1M (page standard Terra is $2 / $12). Live COD **76.7**, Q **54.2**. Docs cut (text/file/image → text). Named pin. Fallbacks off. Not Sol. Not the rotator. |
-| GPT-5.6 Luna (credit, OpenAI Flex) | `openai/gpt-5.6-luna` via `openai/flex` | **wired 2026-09-08** — Keith: **pin flex**. Page standard **$0.20 / $1.20**; Flex **$0.10 / $0.60** (cache read $0.01). Catalog COD **71.4**. Cheap closed first-pass, not the only agent. Named pin. Fallbacks off. Not Sol. Not oa-api poll. Not the rotator. |
+| GPT-5.6 Luna (credit, OpenAI Flex) | `openai/gpt-5.6-luna` via `openai/flex` | **wired 2026-09-08** — Keith: **pin flex**. Page standard **$0.20 / $1.20**; Flex **$0.10 / $0.60** (cache read $0.01). Catalog COD **71.4**. Cheap closed first-pass, not the only agent. Named pin. Fallbacks off. Not Sol. Not oa-api poll. Not the rotator. **P11 prompt cache:** PREFIX + CACHE_RULE first, `prompt_cache_key`, measure `cached_tokens`. |
 
 Key: `live/config/openrouter_api_key.txt`. Rotator `openrouter/free` stays REFUSED.
 

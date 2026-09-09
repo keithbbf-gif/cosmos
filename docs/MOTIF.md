@@ -28,6 +28,9 @@ statement is on disk.
    subsequent model (research, arch, build, critic) gets **that exact text**. Do not
    paraphrase per lane. Do not start RESEARCH with a vibe. A missing statement is a
    process scar (the GEM/GLM extra-pane pass that had no frozen prompt).
+   **Preload SOP (Keith 2026-09-08):** each stage call is PREFIX + CACHE_RULE +
+   the frozen statement, then the stage instruction as tail. No naked queries.
+   `docs/PROMPT_CACHE.md`. P11.
 2. **RESEARCH** — **Do not skip. Do not start BUILD until returns are on disk.** **DOM rails**, already on the mesh. ROLD Rule 1 + MESH CHARTER §4–5: SGH and GEM first, both, in parallel; write the return to file. Surfaces include **SGH**, **free Gemini / Google search**, **ChatGPT chatbot**, **Perplexity**, **Bing**. **LIVE 2026-09-06** (playwright-dom + JS, not dump-dom): **Bing SERP**, **Cloudflare AI Playground** (`glm-4.7-flash`), **Copilot CLI**. Grok.com / ChatGPT / Perplexity / Google SERP = AUTH or bot-wall until Keith signs the COSMOS Chrome profile. GEM = P7 Profile 2 + Alt+G, never `gemini.google.com/app`. Drive with the **existing Chrome path** (`cosmos_playwright_rail` + `browser_evaluate` / chrome-bridge / Chrome MCP — **no window**, Keith's screen off limits). **Ask `V:\Ai\00_TOOLS_INDEX.md` before writing anything.** Do not rebuild. **Not Gitur. Not this TUI. Not APIs.** UNKNOWN not guess.
 3. **ARCH** — decision rubric FIRST, then each node designs independently (no peeking). Same DEFINE text.
 4. **CONSENSUS** — **comparison + discussion.** Converge, or mark CONTESTED (both positions, one line to Keith). No third model resolves.
