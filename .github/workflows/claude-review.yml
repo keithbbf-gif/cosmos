@@ -1,0 +1,32 @@
+# Gitur default reviewer: Claude. CCr (Grok 4.6) still reviews all code
+# before dispose. Not COSMOS claude -p (ANTHROPIC_OFF).
+name: Claude review
+on:
+  pull_request:
+    types: [opened, ready_for_review, reopened]
+  issue_comment:
+    types: [created]
+
+jobs:
+  claude-review:
+    if: |
+      github.event_name == 'pull_request' ||
+      (github.event.issue.pull_request &&
+       contains(github.event.comment.body, '@claude'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - uses: anthropics/claude-code-action@v1
+        continue-on-error: true
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Review this pull request as the Gitur default reviewer (Claude).
+            CCr (Grok 4.6) disposes the COSMOS live tree — do not approve merge.
+            Post findings as inline comments. No finding without a file and line.
+            Do not invent scores. Do not write the live tree.

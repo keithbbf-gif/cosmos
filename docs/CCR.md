@@ -29,6 +29,12 @@ An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr R
 | **OpenWork grant** | Workspace **`V:\Streams\openwork` only** | File work + orch mailbox. **Off** the OS live tree. No COSMOS folder grant. |
 | **Other streams** | **Own root only** | LEGAL, plumbing, UPS, … each have a tree. **No two streams share a root.** Mailbox before any shared write (BTS two-writer scar). |
 
+**Keith 2026-09-09:** **CCr reviews all code.** This TUI (Grok 4.6) is the
+disposing reviewer — every Gitur return, every farm proposal, every live-tree
+write. Gitur default PR/MR reviewer is **Claude** (`@claude review` on GitHub
+and GitLab). Vendor-plural: Claude on the forge, Grok as CCr. Not COSMOS
+`claude -p` (ANTHROPIC_OFF). Not Copilot-as-default. Diversity is the point.
+
 **Keith 2026-09-04 (this TUI, verbatim intent):** *you don't code — you write work
 orders, you run github/cursor/gitlab, you review/refine the code and write to
 the COSMOS live tree.* **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.**
