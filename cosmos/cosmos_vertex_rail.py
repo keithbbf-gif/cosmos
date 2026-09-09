@@ -48,6 +48,9 @@ CODING_ENV = "VERTEX_CODING_API_KEY"
 DEFAULT_MODEL = "gemini-2.5-flash"
 # Kelly / orders.ggn coding seat — Keith 2026-09-08 named 3.8 Flash.
 CODING_DEFAULT_MODEL = "gemini-3.8-flash"
+# Vertex Model Garden MaaS. Spends Kelly $300. Global endpoint only.
+GEMMA4_CODING_MODEL = "gemma-4-26b-a4b-it-maas"
+GEMMA_MAAS = frozenset({GEMMA4_CODING_MODEL})
 THINK_BUDGET = {
     "gemini-2.5-pro": 512,
     "gemini-2.5-flash": 1024,
@@ -257,25 +260,48 @@ class VertexRail:
         self.http = http
         self.env = env
 
-    def ask(self, prompt: str, *, model: str | None = None) -> dict:
+    def ask(self, prompt: str, *, model: str | None = None,
+            system: str | None = None) -> dict:
         model = str(model or self.spec.get("default_model") or DEFAULT_MODEL).strip()
         if not model:
             model = DEFAULT_MODEL
         body = {
             "contents": [{"role": "user", "parts": [{"text": str(prompt)}]}],
         }
+        sys_t = str(system or "").strip()
+        if sys_t:
+            # Implicit cache: stable systemInstruction first, item in contents.
+            body["systemInstruction"] = {"parts": [{"text": sys_t}]}
         tb = THINK_BUDGET.get(model)
         if tb is not None:
             body["generationConfig"] = {
                 "thinkingConfig": {"thinkingBudget": tb},
             }
         payload = json.dumps(body).encode("utf-8")
-        if str(self.spec.get("auth") or "").strip().lower() == "adc":
+        # Kelly coding must hit the project-global Vertex SKU so the $300
+        # Cloud Free Trial can pay. Express publisher URL is a different
+        # meter (Google: express mode is not the Cloud Free Program).
+        use_project = (
+            str(self.spec.get("auth") or "").strip().lower() == "adc"
+            or str(self.spec.get("role") or "") == "coding"
+            or model in GEMMA_MAAS
+            or str(model).endswith("-maas")
+        )
+        if use_project and str(self.spec.get("auth") or "").strip().lower() == "adc":
             token = _adc_bearer(env=self.env)
             url = _adc_url(self.spec, model)
             headers = {
                 "Content-Type": "application/json",
                 "Authorization": "Bearer " + token,
+            }
+        elif use_project:
+            key = _read_key(
+                self.key_path, env=self.env,
+                coding=self.spec.get("role") == "coding")
+            url = _adc_url(self.spec, model)
+            headers = {
+                "Content-Type": "application/json",
+                "x-goog-api-key": key,
             }
         else:
             key = _read_key(
@@ -327,7 +353,13 @@ class VertexRail:
             "in": um.get("promptTokenCount") or 0,
             "out": um.get("candidatesTokenCount") or 0,
             "thinking": um.get("thoughtsTokenCount") or 0,
+            "cached": um.get("cachedContentTokenCount")
+            or um.get("cached_content_token_count")
+            or 0,
         }
+        for k, v in um.items():
+            if "cache" in str(k).lower() and k not in tokens:
+                tokens[k] = v
         if not text:
             return {
                 "ok": False, "reason": "EMPTY", "text": "",
@@ -527,6 +559,7 @@ def _selftest() -> int:
                 "promptTokenCount": 3,
                 "candidatesTokenCount": 2,
                 "thoughtsTokenCount": 0,
+                "cachedContentTokenCount": 0,
             },
         }
 
@@ -535,7 +568,15 @@ def _selftest() -> int:
     check("fake HTTP ask ok via=vertex",
           lambda: rec.get("ok") is True and rec.get("via") == "vertex"
           and rec.get("text") == "PONG-VERTEX"
-          and rec.get("model") == "gemini-2.5-flash")
+          and rec.get("model") == "gemini-2.5-flash"
+          and rec.get("tokens", {}).get("cached") == 0)
+    rec_sys = rail.ask("item", model="gemini-2.5-flash", system="STABLE PREFIX")
+    check("systemInstruction is the cache prefix, item stays in contents",
+          lambda: rec_sys.get("ok") is True
+          and (calls[-1][2].get("systemInstruction") or {})
+          .get("parts", [{}])[0].get("text") == "STABLE PREFIX"
+          and (calls[-1][2].get("contents") or [{}])[0]
+          .get("parts", [{}])[0].get("text") == "item")
     check("ok Vertex call is priced (cap can fire)",
           lambda: rec.get("cost_usd") is not None and rec.get("cost_usd") >= 0.0001)
     check("price_usd never None without tokens",
@@ -570,6 +611,29 @@ def _selftest() -> int:
         "default_model": "gemini-2.5-flash",
     }, http=fake_adc, env={"VERTEX_CODING_ADC_TOKEN": "test-adc-token-not-real"})
     adc_rec = adc_rail.ask("hi")
+    maas_calls = []
+
+    def fake_maas(method, url, body):
+        maas_calls.append((method, url, body))
+        return 200, {
+            "candidates": [{
+                "content": {"parts": [{"text": "PONG-GEMMA4"}]},
+            }],
+        }
+
+    maas_rail = VertexRail(ckey, {
+        "role": "coding", "auth": "apikey",
+        "project": "company-coding-project",
+        "location": "global",
+        "default_model": GEMMA4_CODING_MODEL,
+    }, http=fake_maas)
+    maas_rec = maas_rail.ask("hi", model=GEMMA4_CODING_MODEL)
+    check("Kelly Gemma 4 MaaS uses global project URL",
+          lambda: maas_rec.get("ok") is True
+          and maas_calls
+          and "/locations/global/" in maas_calls[0][1]
+          and GEMMA4_CODING_MODEL in maas_calls[0][1]
+          and "generateContent" in maas_calls[0][1])
     check("ADC coding rail uses project-scoped generateContent",
           lambda: adc_rec.get("ok") is True
           and adc_calls

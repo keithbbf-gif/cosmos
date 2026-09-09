@@ -128,8 +128,8 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 
 | Role | Pin | Wallet | Not |
 |---|---|---|---|
-| Quality **G46** | `grok-4.6` this TUI | SuperGrok Heavy | Not a cheap seat. CCr write pen. |
-| Quality **GF38** | `gemini-3.8-flash` | Kelly `vertex-coding` `orders.ggn` Free Trial **$300 / Dec 4** (`project-10b3a132-ec5b-41e9-a2c`). Screenshot 2026-09-08: **$0 used**. Do not click Upgrade. | Not Joanna `gem-api`. Not OpenWork. |
+| Quality **G46** | `grok-4.6` this TUI | SuperGrok Heavy. Cached input **$0.50/M**. Stay **under 200K** prompt tokens (else the whole request doubles). Cache-simpler than Gemini; not the cache-cost leader. | Not a cheap seat. CCr write pen. Do not burn G46 on 50K–200K repo dumps when GF38 can carry the prefix. |
+| Quality **GF38** | `gemini-3.8-flash` | Kelly `vertex-coding` `orders.ggn` Free Trial **$300 / Dec 4** (`project-10b3a132-ec5b-41e9-a2c`). Screenshot 2026-09-08: **$0 used**. Do not click Upgrade. **Cache-economics seat** for high-context coding-agent loops: cached input **$0.075/M** intro (90% off $0.75), implicit floor **4,096**. Not G46 for cache dollars. | Not Joanna `gem-api`. Not OpenWork. |
 | Cursor Models | `composer-2.5` · `grok-4.6` | Cursor Ultra **Cursor Models** pool (Grok + Composer). Measured 2026-09-08 **6% used**. | **Not Other Models** (73% used). Not Auto. On-demand Disabled — leave it. |
 | Quality **GPTS5.6SOL** | `gpt-5.6-sol` | `oa-api` / Codex | Costly. Do not poll (rails-prober `$150` scar). Terra Flex is a different pin. |
 | Credit first-pass **Luna Flex** | `openai/gpt-5.6-luna` via `openai/flex` | OpenRouter Flex **$0.10 / $0.60** (page $0.20/$1.20). Keith **pin flex** 2026-09-08. **P11:** preload PREFIX + CACHE_RULE; `prompt_cache_key`; measure `cached_tokens`. | Not Sol. Not oa-api poll. Not a quality seat. Cheap Chinese GLM/DS still cheaper for volume. Naked questions out of SOP. |
