@@ -99,3 +99,12 @@ source    = "Keith 2026-08-25; CCr 2026-09-04"
 canon     = "CLAUDE.md 'COW's role is a HARD CONTRACT'; docs/AGENT_BOUNDARIES.md; docs/CCR.md"
 check     = "agents_propose_only"
 severity  = "high"
+
+[[principle]]
+id        = "P11"
+name      = "prompt-cache-prefix"
+statement = "Every LLM call is a stable prefix plus an append-only tail. Static first (rules, tools, schemas, repo map, PREFIX.md, this cache rule); volatile last (task, diff, pytest, user). Exact byte match. ≥1024 tokens before cache. prompt_cache_key is routing affinity, not a substitute. Measure cached_tokens / cache_write_tokens — never assume a hit. Luna/Terra pin openai/flex, fallbacks off. Do not put dates, UUIDs, or timestamps in the prefix."
+source    = "Keith 2026-09-08"
+canon     = "docs/PROMPT_CACHE.md; docs/AGENT_BOUNDARIES.md item 15; work_orders/ccr/CREW/IN/PREFIX.md; work_orders/ccr/CREW/IN/CACHE_RULE.md"
+check     = "prompt_cache_prefix"
+severity  = "high"

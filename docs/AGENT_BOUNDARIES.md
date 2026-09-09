@@ -106,6 +106,14 @@ Nothing written here is authority until COW files it into the tree.
     close (silent deletion scar). **Do:** folder grant = pen (Cowork’s trick);
     `CCR.lease`; rogue dirty paths stage to `_delme\ccr-quarantine\` then fenced
     publish. Optional: orch agent profile denies Write under `cosmos/`.
+15. **Prompt cache prefix (Keith 2026-09-08).** Every LLM call is a **stable
+    prefix + append-only tail**. Static first (rules, tools, schemas, repo map,
+    `PREFIX.md`, `CACHE_RULE.md`); volatile last (task, diff, pytest, user).
+    Exact byte match. ≥1024 tokens before a vendor caches. `prompt_cache_key`
+    is routing affinity, not a substitute for a matching prefix. Measure
+    `cached_tokens` / `cache_write_tokens` — never assume a hit. Luna/Terra pin
+    `openai/flex`, fallbacks off. Do not put dates, UUIDs, or timestamps in the
+    prefix. Canon: `docs/PROMPT_CACHE.md`. Principle **P11**.
 
 ## Enforcement (hard-wired)
 The dispatcher (`cosmos_dispatcher_daemon` / `cosmos_dispatch`) auto-attaches this addendum to every

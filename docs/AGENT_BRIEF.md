@@ -20,6 +20,9 @@ engineer / builder. **This tree** = engine room (CORE write pen). **Main Squeeze
 Grok 4.1 Fast Reasoning on xAI Console `$0.20/$0.50` (A-tier; not Heavy, not Vertex).
 GFO files off-tree, runs on Core `:8770`. Brain GF38. SSA → Groq until moved.
 `docs/ORCH_SEAT.md`.
+**Prompt cache (Keith 2026-09-08):** static first, volatile last. Exact prefix.
+Measure `cached_tokens`. Luna Flex `prompt_cache_key` + `openai/flex`. Rule:
+`docs/PROMPT_CACHE.md`. P11. Boundaries item 15.
 **Gitur (Keith 2026-09-05) = GitHub + GitLab + Cursor.** CCr runs that triad.
 **Entire COSMOS BUILD goes through Gitur → branched trees / PRs** — including side jobs (Open Sessions, cowork_to_openwork, session-tools, cDeck). **One job, one branch, one PR.** P10 propose; CCr disposes to CORE. Not a pen. Not Bedrock. Map: `docs/ROUTING.md`.
 **Keith runs the ORC** (2026-09-06: *I run the ORC*). This TUI is **CCr in the engine house, running things itself** — Gitur, merge, Core. **You don't need me** (Keith 2026-09-06): engine work does not wait on him. Not the orch wheel. GFO is a sit (Legal / COSMOS_2), not live ORC while Keith runs it. No Legal from here. **Keith 2026-09-06:** kDash→cDeck too different to integrate with OpenWork. **Pivot:** OpenWork = Cowork clone; **cDeck = backend dashboard** (looks like KDash, improve from there). Separate windows. Host = `cdeck.exe`, not Chrome. Gitur BUILD on the cDeck product branch. **NO DUAL TREES** — occupancy lives on this live COSMOS tree, not a second GitHub/GitLab occupancy copy.
@@ -338,6 +341,20 @@ each marker to its result. Precise start/end times also live in `V:\Ai\_queue\ru
 - 2026-09-07T15:25:58.246350-05:00 · G46 · motif_chatbot_phone_free_forever_you_pick_the__s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) a… · cm/g46_grok_motif_chatbot_phone_free_forever_you_9ac84727__t1800.py
 - 2026-09-07T15:26:29.601146-05:00 · G46 · backlog_chatbot_phone_define_keith_2026_09_07 You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_backlog_chatbot_phone_define_keith_2_408c87d8__t1800.py
 - 2026-09-07T16:06:48.519350-05:00 · G46 · motif_oss_code_borrow_keith_2026_09_07_s1 You are G46 (Grok Build), COSMOS Motif next-stage. FIRST read docs/AGENT_BRIEF.md (DHx) and docs/… · cm/g46_grok_motif_oss_code_borrow_keith_2026_09_e0598021__t1800.py
+- 2026-09-07T20:15:41.557487-05:00 · G46 · backlog_the_api_cli_mcp_or_dom_can_be_picked_for You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) an… · cm/g46_grok_backlog_the_api_cli_mcp_or_dom_can_b_ce0a8e98__t1800.py
+- 2026-09-08T00:56:45.778125-05:00 · OPENROUTER · cheap-coder-cli-glm-5.3-flash · cm/openrouter_openrouter_cheap_coder_cli_glm_5_3_flash_5534380a__t180.py
+- 2026-09-08T00:56:46.020070-05:00 · OPENROUTER · cheap-coder-cli-deepseek-v4-flash-0731 · cm/openrouter_openrouter_cheap_coder_cli_deepseek_v4_flash_07_993f6cf6__t180.py
+- 2026-09-08T02:05:14.889065-05:00 · OPENROUTER · cheap-coder-cli-solar-pro4 · cm/openrouter_openrouter_cheap_coder_cli_solar_pro4_96b5e3c8__t180.py
+- 2026-09-08T02:05:15.178717-05:00 · OPENROUTER · cheap-coder-cli-ling-3.0-flash · cm/openrouter_openrouter_cheap_coder_cli_ling_3_0_flash_0b458215__t180.py
+- 2026-09-08T02:06:02.101457-05:00 · OPENROUTER · instances-glm-5.3-flash · cm/openrouter_openrouter_instances_glm_5_3_flash_ab535dd0__t180.py
+- 2026-09-08T02:06:02.378077-05:00 · OPENROUTER · instances-solar-pro4 · cm/openrouter_openrouter_instances_solar_pro4_9a585c9f__t180.py
+- 2026-09-08T02:06:02.656043-05:00 · OPENROUTER · instances-ling-3.0-flash · cm/openrouter_openrouter_instances_ling_3_0_flash_ea41d469__t180.py
+- 2026-09-08T02:14:44.264410-05:00 · OPENROUTER · cdeck-working-glm-5.3-flash · cm/openrouter_openrouter_cdeck_working_glm_5_3_flash_1cdda9b3__t180.py
+- 2026-09-08T02:14:44.421242-05:00 · OPENROUTER · cdeck-working-deepseek-v4-flash-07 · cm/openrouter_openrouter_cdeck_working_deepseek_v4_flash_07_e0fd5dd7__t180.py
+- 2026-09-08T02:14:44.595237-05:00 · OPENROUTER · cdeck-working-solar-pro4 · cm/openrouter_openrouter_cdeck_working_solar_pro4_94961672__t180.py
+- 2026-09-08T02:14:44.764003-05:00 · OPENROUTER · cdeck-working-ling-3.0-flash · cm/openrouter_openrouter_cdeck_working_ling_3_0_flash_26310516__t180.py
+- 2026-09-08T12:15:46.902085-05:00 · G46 · backlog_get_a_real_ux_design_going_this_sucks You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) and d… · cm/g46_grok_backlog_get_a_real_ux_design_going_t_214e47a9__t1800.py
+- 2026-09-08T13:15:50.716516-05:00 · G46 · backlog_read_the_review_file You are G46 (Grok Build) / Cursor, COSMOS backlog. FIRST read docs/AGENT_BRIEF.md (DHx) and docs/BACKLOG.md. O… · cm/g46_grok_backlog_read_the_review_file_you_are_1c82d93d__t1800.py
 
 ## Active assignments (from Keith, dropped hot by COW)
 - **Runner pool — CONCURRENT DRAIN** (assigned to **G46**, primary coder; Keith 2026-08-26 "more
