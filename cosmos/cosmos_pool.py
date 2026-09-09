@@ -18,7 +18,10 @@ Topology:
   * Fast slot claims ONLY --fast-lane (default: "default") so a short admin
     job is claimable within one poll while general slots drain pb/lg grok.
 
-Legacy cosmos_run.py is untouched. Pool off ⇒ COSMOS behaves as today.
+CLOCKS collapse: pool is the only claim_next on live/queue. cosmos_run.py
+is the double-claim surface — do not run it beside --supervise. This hour
+does not /delete COSMOS Runner Logon (reboot would respawn it). Pool off
+is no longer "behaves as today."
 
     py -3.14 cosmos\\cosmos_pool.py --root V:\\A\\Ai\\COSMOS\\live --supervise
     py -3.14 cosmos\\cosmos_pool.py --root ... --standup

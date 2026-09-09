@@ -50,6 +50,9 @@ def main() -> int:
           lambda: isinstance(rec.get("feed"), dict)
           and rec["feed"].get("ok") is True
           and rec["heartbeat"].get("claim") is False)
+    check("pool is the claim_next; cosmos_run is double-claim",
+          lambda: rec["heartbeat"].get("runner") == "pool"
+          and rec["heartbeat"].get("cosmos_run") == "double-claim")
     check("new result landed this tick",
           lambda: int(rec["collect"].get("new_this_tick") or 0) >= 1)
     check("no claim / no dispatch",
