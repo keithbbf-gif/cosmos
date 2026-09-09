@@ -14,6 +14,7 @@ Vetting: `VETTING.md` in this folder.
 | `P01_MOTIF_LOOP.md` | 8-stage iterate-to-research | FILE |
 | `P02_DUAL_LANE.md` | Dual-lane BUILD, no shared context | FILE |
 | `P03_POROSITY.md` | Family-axis occupancy; **Porosity**; superlinear cover | FILE |
+| `P03_PUBLIC_TENSOR.md` | Weighted public agent-tensor digest (optional chain projection) | **TABLED** (not this BUILD; not a 14th slot) |
 | `P04_RUNTIME_BIND.md` | Runtime-binding vs green-log | FILE |
 | `P05_ADVERSARIAL_ENGINE.md` | Adversarial occupancy; one disposer; products = skins | FILE (parent) |
 | `P06_LOCAL_FREE_WEIGHTS.md` | Local free-weight plurality; low fixed cost vs S-tier | FILE |

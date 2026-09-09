@@ -17,17 +17,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from cosmos_openrouter_rail import CHEAP_CODERS  # noqa: E402
+
 SCHEMA = "cosmos-forge-bg/1"
 BG_STAGES = frozenset({"research", "arch", "consensus1", "consensus2"})
 MAX_N = 5
 FALLBACK_FREE = (
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
-)
-# Named cheap paid pins (not :free, not the rotator). Keith 2026-09-08.
-CHEAP_CODERS = (
-    "z-ai/glm-5.3-flash",
-    "deepseek/deepseek-v4-flash-0731",
 )
 
 
@@ -97,7 +94,9 @@ def _setup(engine: dict, stage: str) -> dict:
     except (TypeError, ValueError):
         n_free = 3
     n_free = max(1, min(n_free, MAX_N))
-    return {"bar": bar, "arch_choice": choice, "n_free": n_free, "via": "cli"}
+    axis = str(raw.get("axis") or src.get("axis") or "coding").strip().lower() or "coding"
+    return {"bar": bar, "arch_choice": choice, "n_free": n_free, "via": "cli",
+            "axis": axis[:80]}
 
 
 def status(paths, stage: str = "") -> dict:
@@ -121,6 +120,9 @@ def status(paths, stage: str = "") -> dict:
                         "pid": rec.get("pid"),
                         "saved_at": rec.get("saved_at"),
                         "ballot": rec.get("ballot"),
+                        "n_chars": rec.get("n_chars"),
+                        "tokens": rec.get("tokens") if rec.get("tokens") is not None
+                        else rec.get("n_chars"),
                     })
         fac = None
         facp = d / "consensus.json"
@@ -175,6 +177,8 @@ def facilitate(paths, stage: str, engine: dict) -> dict:
               "tokens": r.get("n_chars")} for r in done],
             profile="forge", stage=stage, axis=axis,
             trial_id=str(rec.get("saved_at") or ""),
+            authority="crew:forge",
+            action="facilitate",
         )
         rec["porosity"] = hooked
     except Exception as e:  # noqa: BLE001
@@ -320,10 +324,12 @@ def _selftest() -> int:
           lambda: len(models) >= 2
           and all(":free" in m or m in FALLBACK_FREE for m in models)
           and "openrouter/free" not in models)
-    cheap = pick_cheap_coders(2)
-    check("cheap roster is GLM flash + DeepSeek V4 Flash 0731, not the rotator",
+    cheap = pick_cheap_coders(4)
+    check("cheap roster is GLM + DeepSeek + Solar + Ling, not the rotator",
           lambda: cheap == ["z-ai/glm-5.3-flash",
-                            "deepseek/deepseek-v4-flash-0731"]
+                            "deepseek/deepseek-v4-flash-0731",
+                            "upstage/solar-pro4",
+                            "inclusionai/ling-3.0-flash"]
           and "openrouter/free" not in cheap)
     d = bg_dir(paths, "consensus1")
     d.mkdir(parents=True, exist_ok=True)
@@ -333,6 +339,7 @@ def _selftest() -> int:
     for i, (b, m) in enumerate(zip(("A", "A", "B"), models, strict=True), 1):
         (d / ("run-x-%d.json" % i)).write_text(json.dumps({
             "id": "r%d" % i, "ok": True, "ballot": b, "model": m,
+            "n_chars": 400 * i,
         }), encoding="utf-8")
     from cosmos_profiles import load_engine
     fac = facilitate(paths, "consensus1", load_engine(paths, "forge"))
@@ -343,6 +350,10 @@ def _selftest() -> int:
           lambda: isinstance(fac.get("porosity"), dict)
           and fac["porosity"].get("n_written") == 3
           and fac["porosity"].get("kind") == "OK")
+    check("facilitate keeps n_chars/tokens so per-token seating is measurable",
+          lambda: all(r.get("tokens") or r.get("n_chars")
+                      for r in (status(paths, "consensus1")
+                                ["stages"]["consensus1"]["runs"])))
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

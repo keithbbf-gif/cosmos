@@ -35,10 +35,11 @@ class CrucibleError(RuntimeError):
 
 
 class Crucible:
-    def __init__(self, ledger: Ledger, out_dir: Path, clock=time.time):
+    def __init__(self, ledger: Ledger, out_dir: Path, clock=time.time, paths=None):
         self.ledger = ledger
         self.out = Path(out_dir)
         self._clock = clock
+        self.paths = paths
 
     # ---------------- packet ----------------
     def build_packet(self, header: str, sources: list[Path]) -> Path:
@@ -105,6 +106,19 @@ class Crucible:
                                if len(returned) < 2 else None)}
         self.ledger.append("CRUCIBLE_ROUND_DONE",
                            {"returned": sorted(returned), "failed": sorted(failed)})
+        paths = getattr(self, "paths", None)
+        if paths is not None and returned:
+            try:
+                from cosmos_porosity import hook_returns
+                verdict["porosity"] = hook_returns(
+                    paths, returned, profile="crucible", axis="law",
+                    authority="crew:crucible", action="round",
+                )
+            except Exception as e:  # noqa: BLE001
+                verdict["porosity"] = {
+                    "kind": "BROKE",
+                    "detail": f"{type(e).__name__}: {e}"[:200],
+                }
         return verdict
 
     # ---------------- merge skeleton ----------------

@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cosmos_porosity — pairwise orthogonal porosity tensor.
+"""cosmos_porosity — porosity (hole size + distribution) and pair orthogonality.
 
-Porosity of a coder is a VECTOR on named axes, measured against another
-model. Pair magnitude = disagreement_frequency × error_magnitude.
-More disagreement → more orthogonal that pair. Tensor grid T[i,j,a]
-seats models for token efficiency and error discovery.
+Porosity (Keith): how big the holes are, and how they are distributed
+across named axes. Per-model. Not a pair.
+
+Orthogonality (Keith): of a pair, different × accurate. High = they catch
+different errors well. Low = they catch (and miss) the same errors.
+Working sketch when who_erred is scored: signed complement
+(xor_err − cofail) × error_magnitude. Not disagreement frequency alone.
+Math still open. Do not invent scores.
+
+Pair mag = disagreement_frequency × error_magnitude is hole-size of the
+pair, not orthogonality. Tensor grid T[i,j,a] seats models for token
+efficiency and error discovery.
 
 JSONL is the observation log (authority for this measurement). SQLite is
 a rebuildable projection, never authority. GET never mkdir. GET never
@@ -23,7 +31,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-SCHEMA = "cosmos-porosity-tensor/2"
+SCHEMA = "cosmos-porosity-tensor/4"
 OBS_NAME = "obs.jsonl"
 DB_NAME = "porosity.sqlite"
 ROTATING = frozenset({
@@ -137,11 +145,15 @@ def empty_snapshot() -> dict:
         "complement_kind": "UNMEASURED",
         "axes": list(DEFAULT_AXES),
         "note": (
-            "T[i,j,a] |v| = disagreement_frequency × error_magnitude. "
-            "C[i,j,a] complement = rescue / co-failure / XOR-error from who_erred. "
-            "Unsigned mag does not split help vs hurt. Complement UNMEASURED until "
-            "who_erred is scored (a|b|both|none). Does not invent scores."
+            "SQLite projection: each agent_tensor row is the parameter set of "
+            "one named pin against one other agent on one axis. "
+            "Porosity = hole size + distribution. "
+            "Orthogonality = different x accurate (signed xor-cofail when scored). "
+            "JSONL is authority. GET never mkdir. Does not invent scores."
         ),
+        "tensors": {},
+        "tensors_shape": "tensors[agent][vs][axis]",
+        "last_obs": {},
     }
 
 
@@ -243,7 +255,7 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
             "freq": freq,
             "mean_err": mean_err,
             "mag": mag,
-            "orthogonality": mag,
+            "orthogonality": signed,
             "mean_tokens": mean_tok,
             "kind": "UNMEASURED" if mag is None else "MEASURED",
             "scored_n": scored,
@@ -258,47 +270,30 @@ def _fold_rows(rows: list[dict]) -> dict[tuple[str, str, str], dict]:
     return out
 
 
-def snapshot(paths, *, profile: str = "") -> dict:
-    """GET fold. Never mkdir. Never invents."""
-    rows = load_obs(paths)
-    rec = empty_snapshot()
-    rec["axes"] = list(axes_for(profile)) if profile else list(DEFAULT_AXES)
-    if not rows:
-        return rec
-    folds = _fold_rows(rows)
-    pairs = [folds[k] for k in sorted(folds)]
-    tensor: dict[str, dict] = {}
-    complement: dict[str, dict] = {}
-    for f in pairs:
-        pk = "%s|%s" % (f["model_a"], f["model_b"])
-        tensor.setdefault(pk, {})[f["axis"]] = {
-            "n": f["n"], "freq": f["freq"], "mean_err": f["mean_err"],
-            "mag": f["mag"], "kind": f["kind"],
-        }
-        complement.setdefault(pk, {})[f["axis"]] = {
-            "scored_n": f["scored_n"],
-            "rescue_hi_given_lo": f["rescue_hi_given_lo"],
-            "rescue_lo_given_hi": f["rescue_lo_given_hi"],
-            "cofail": f["cofail"],
-            "xor_err": f["xor_err"],
-            "style_fight": f["style_fight"],
-            "signed": f["signed"],
-            "kind": f["complement_kind"],
-        }
-    rec.update({
-        "kind": "MEASURED" if any(p["mag"] is not None for p in pairs)
-        else "FREQ_ONLY" if pairs else "UNMEASURED",
-        "complement_kind": (
-            "MEASURED" if any(p["complement_kind"] == "MEASURED" for p in pairs)
-            else "UNMEASURED"),
-        "n_obs": len(rows),
-        "n_pairs": len(pairs),
-        "pairs": pairs,
-        "tensor": tensor,
-        "complement": complement,
-        "db": "PRESENT" if db_path(paths).is_file() else "NO_HOST",
-    })
-    return rec
+def _directed_tensors(folds: dict) -> dict:
+    """Each agent -> vs -> axis -> parameter set. Does not invent."""
+    tensors: dict = {}
+    for f in folds.values():
+        lo, hi, axis = f["model_a"], f["model_b"], f["axis"]
+        cells = (
+            (lo, hi, f.get("rescue_hi_given_lo")),
+            (hi, lo, f.get("rescue_lo_given_hi")),
+        )
+        for agent, vs, rescue in cells:
+            params = {
+                "n": f["n"],
+                "freq": f["freq"],
+                "mean_err": f["mean_err"],
+                "mag": f["mag"],
+                "xor_err": f["xor_err"],
+                "cofail": f["cofail"],
+                "rescue": rescue,
+                "orthogonality": f.get("orthogonality"),
+                "kind": f["kind"],
+                "complement_kind": f["complement_kind"],
+            }
+            tensors.setdefault(agent, {}).setdefault(vs, {})[axis] = params
+    return tensors
 
 
 def _rebuild_sqlite(paths, rows: list[dict]) -> None:
@@ -314,7 +309,7 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
             "at TEXT, trial_id TEXT, profile TEXT, stage TEXT, axis TEXT,"
             "model_a TEXT, model_b TEXT, pair_lo TEXT, pair_hi TEXT,"
             "disagree INTEGER, error_mag REAL, tokens_a REAL, tokens_b REAL,"
-            "who_erred TEXT, source TEXT, note TEXT)"
+            "who_erred TEXT, source TEXT, authority TEXT, action TEXT, note TEXT)"
         )
         con.execute(
             "CREATE INDEX idx_pair_axis ON obs(pair_lo, pair_hi, axis)")
@@ -326,8 +321,17 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
             "kind TEXT,"
             "scored_n INTEGER, rescue_hi_given_lo REAL, rescue_lo_given_hi REAL,"
             "cofail REAL, xor_err REAL, style_fight REAL, signed REAL,"
-            "complement_kind TEXT,"
+            "orthogonality REAL, complement_kind TEXT,"
             "PRIMARY KEY (pair_lo, pair_hi, axis))"
+        )
+        con.execute("DROP TABLE IF EXISTS agent_tensor")
+        con.execute(
+            "CREATE TABLE agent_tensor ("
+            "agent TEXT NOT NULL, vs TEXT NOT NULL, axis TEXT NOT NULL,"
+            "n INTEGER, freq REAL, mean_err REAL, mag REAL,"
+            "xor_err REAL, cofail REAL, rescue REAL, orthogonality REAL,"
+            "kind TEXT, complement_kind TEXT,"
+            "PRIMARY KEY (agent, vs, axis))"
         )
         for o in rows:
             a = str(o.get("model_a") or "")
@@ -339,31 +343,50 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
             con.execute(
                 "INSERT INTO obs (at, trial_id, profile, stage, axis, "
                 "model_a, model_b, pair_lo, pair_hi, disagree, error_mag, "
-                "tokens_a, tokens_b, who_erred, source, note) "
-                "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "tokens_a, tokens_b, who_erred, source, authority, action, "
+                "note) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     o.get("at"), o.get("trial_id"), o.get("profile"),
                     o.get("stage"), o.get("axis"), a, b, lo, hi,
                     1 if o.get("disagree") in (True, 1, "1", "true") else 0,
                     em, _f(o.get("tokens_a")), _f(o.get("tokens_b")),
                     o.get("who_erred") or "", o.get("source") or "local",
+                    (o.get("authority") or "")[:80],
+                    (o.get("action") or "ballot")[:40],
                     (o.get("note") or "")[:240],
                 ),
             )
-        for f in _fold_rows(rows).values():
+        folds = _fold_rows(rows)
+        for f in folds.values():
             con.execute(
                 "INSERT INTO pair_fold (pair_lo, pair_hi, axis, n, disagree_n, "
                 "freq, mean_err, mag, kind, scored_n, rescue_hi_given_lo, "
                 "rescue_lo_given_hi, cofail, xor_err, style_fight, signed, "
-                "complement_kind) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "orthogonality, complement_kind) "
+                "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     f["model_a"], f["model_b"], f["axis"], f["n"],
                     f["disagree_n"], f["freq"], f["mean_err"], f["mag"],
                     f["kind"], f["scored_n"], f["rescue_hi_given_lo"],
                     f["rescue_lo_given_hi"], f["cofail"], f["xor_err"],
-                    f["style_fight"], f["signed"], f["complement_kind"],
+                    f["style_fight"], f["signed"], f.get("orthogonality"),
+                    f["complement_kind"],
                 ),
             )
+        for agent, vs_map in _directed_tensors(folds).items():
+            for vs, axes in vs_map.items():
+                for axis, p in axes.items():
+                    con.execute(
+                        "INSERT INTO agent_tensor (agent, vs, axis, n, freq, "
+                        "mean_err, mag, xor_err, cofail, rescue, "
+                        "orthogonality, kind, complement_kind) "
+                        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                        (
+                            agent, vs, axis, p["n"], p["freq"], p["mean_err"],
+                            p["mag"], p["xor_err"], p["cofail"], p["rescue"],
+                            p["orthogonality"], p["kind"], p["complement_kind"],
+                        ),
+                    )
         con.commit()
     finally:
         con.close()
@@ -372,7 +395,7 @@ def _rebuild_sqlite(paths, rows: list[dict]) -> None:
 def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
                 error_mag=None, profile="forge", stage="", trial_id="",
                 tokens_a=None, tokens_b=None, who_erred="", source="local",
-                note="") -> dict:
+                authority="", action="", note="") -> dict:
     """Append one pair observation. Does not invent a score."""
     a = _pin(model_a)
     b = _pin(model_b)
@@ -405,6 +428,8 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
         "tokens_b": _f(tokens_b),
         "who_erred": who,
         "source": src,
+        "authority": str(authority or "")[:80],
+        "action": str(action or "ballot")[:40],
         "note": str(note or "")[:240],
     }
     d = store_dir(paths)
@@ -421,8 +446,13 @@ def record_pair(paths, model_a, model_b, *, axis="", disagree=True,
 
 
 def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
-               trial_id="", error_mag=None, source="local") -> dict:
-    """Record every distinct named-model pair in one adversarial trial."""
+               trial_id="", error_mag=None, source="local",
+               authority="", action="") -> dict:
+    """Record every distinct named-model pair in one adversarial trial.
+
+    Irbe stamps (authority source:class, action) ride on each pair row.
+    Missing authority stays empty — UNMEASURED as an audit event.
+    """
     rows = []
     for r in runs or []:
         if not isinstance(r, dict):
@@ -438,6 +468,8 @@ def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
         })
     written = []
     skipped = 0
+    stamp_action = str(action or "trial")[:40]
+    stamp_auth = str(authority or "")[:80]
     for i in range(len(rows)):
         for j in range(i + 1, len(rows)):
             a, b = rows[i], rows[j]
@@ -452,6 +484,8 @@ def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
                 tokens_a=a["tokens"], tokens_b=b["tokens"],
                 who_erred="unknown" if disc else "none",
                 source=source,
+                authority=stamp_auth,
+                action=stamp_action,
                 note="hook_trial",
             )
             written.append(snap.get("last") or {})
@@ -465,7 +499,37 @@ def hook_trial(paths, runs, *, profile="forge", stage="", axis="",
         "profile": str(profile or "forge"),
         "stage": str(stage or ""),
         "axis": _axis(axis, profile),
+        "authority": stamp_auth,
+        "action": stamp_action,
     }
+
+
+def hook_returns(paths, returned, *, profile="forge", axis="",
+                 authority="", action="round", trial_id="",
+                 source="local") -> dict:
+    """Pair-fold named returns (critic / coder files) into the tensor.
+
+    `returned` is {name: path}. Ballot is file text. Missing path → empty
+    ballot. Does not invent who_erred.
+    """
+    runs = []
+    for name, p in (returned or {}).items():
+        body = ""
+        if p:
+            try:
+                body = Path(p).read_text(encoding="utf-8")[:4000]
+            except OSError:
+                body = ""
+        runs.append({
+            "model": str(name),
+            "ballot": body,
+            "tokens": float(len(body)),
+        })
+    return hook_trial(
+        paths, runs, profile=profile, axis=axis,
+        trial_id=trial_id, source=source,
+        authority=authority, action=action or "round",
+    )
 
 
 def _rescue_of(f: dict, candidate: str, seated: str):
@@ -545,6 +609,175 @@ def recommend(paths, seated, candidates, *, axes=None, costs=None,
     return ranked
 
 
+def _agent_pins(agents) -> list[str]:
+    seen = set()
+    out = []
+    for raw in agents or []:
+        m = str(raw or "").strip()
+        if not m or m.lower() in ROTATING:
+            continue
+        key = m.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(m)
+    return out
+
+
+def pair_matrix(paths, agents, *, profile="") -> list[dict]:
+    """Every unordered pair of named agents × profile axes.
+
+    Observed folds are copied. Never-seen pairs stay UNMEASURED.
+    Does not invent freq, mag, or complement. GET never mkdir.
+    """
+    pins = _agent_pins(agents)
+    axes = list(axes_for(profile))
+    folds = _fold_rows(load_obs(paths))
+    rows = []
+    for i in range(len(pins)):
+        for j in range(i + 1, len(pins)):
+            lo, hi = _pair(pins[i], pins[j])
+            for ax in axes:
+                f = folds.get((lo, hi, ax))
+                if f:
+                    rows.append(dict(f))
+                    continue
+                rows.append({
+                    "model_a": lo, "model_b": hi, "axis": ax,
+                    "n": 0, "disagree_n": 0, "freq": None,
+                    "mean_err": None, "mag": None, "orthogonality": None,
+                    "mean_tokens": None, "kind": "UNMEASURED",
+                    "scored_n": 0, "rescue_hi_given_lo": None,
+                    "rescue_lo_given_hi": None, "cofail": None,
+                    "xor_err": None, "style_fight": None, "signed": None,
+                    "complement_kind": "UNMEASURED",
+                })
+    return rows
+
+
+def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
+    """Greedy seating for error-discovery coverage per token.
+
+    First seat is the incumbent (or first named pin). Each next seat is
+    recommend() vs the already-seated set. UNMEASURED sorts last. Never
+    invents a bake-off number. Goal: cover residual holes cheaply.
+    """
+    pins = _agent_pins(agents)
+    inc = str(incumbent or "").strip()
+    seated = []
+    if inc and inc in pins:
+        seated = [inc]
+    elif pins:
+        seated = [pins[0]]
+    rest = [p for p in pins if p not in seated]
+    steps = []
+    while rest:
+        ranked = recommend(
+            paths, seated, rest, costs=costs, profile=profile, mode="complement")
+        if not ranked:
+            break
+        pick = ranked[0]
+        seated.append(pick["model"])
+        rest = [p for p in rest if p != pick["model"]]
+        steps.append(pick)
+    pairs = pair_matrix(paths, pins, profile=profile)
+    n_meas = sum(1 for p in pairs if p.get("kind") == "MEASURED")
+    return {
+        "schema": SCHEMA,
+        "ok": True,
+        "kind": "MEASURED" if n_meas else "UNMEASURED",
+        "goal": (
+            "Maximize error-discovery coverage per token. "
+            "Porosity = hole size + distribution. "
+            "Orthogonality = different x accurate (xor-cofail when scored). "
+            "Low orthogonality = same errors and same blinds. "
+            "UNMEASURED pairs sort last. Does not invent scores."
+        ),
+        "agents": pins,
+        "order": seated,
+        "steps": steps,
+        "n_pairs": len(pairs),
+        "n_measured": n_meas,
+        "pairs": pairs,
+        "profile": str(profile or ""),
+        "axes": list(axes_for(profile)),
+    }
+
+
+def _last_obs(rows: list[dict]) -> dict:
+    if not rows:
+        return {}
+    last = rows[-1]
+    return {
+        "at": last.get("at") or "",
+        "authority": last.get("authority") or "",
+        "action": last.get("action") or "",
+        "model_a": last.get("model_a") or "",
+        "model_b": last.get("model_b") or "",
+    }
+
+
+def snapshot(paths, *, profile: str = "", agents=None) -> dict:
+    """GET fold. Never mkdir. Never invents."""
+    rows = load_obs(paths)
+    rec = empty_snapshot()
+    rec["axes"] = list(axes_for(profile)) if profile else list(DEFAULT_AXES)
+    rec["last_obs"] = _last_obs(rows)
+    pins = _agent_pins(agents)
+    if pins:
+        pack = coverage(paths, pins, profile=profile)
+        rec.update({
+            "kind": pack["kind"],
+            "agents": pack["agents"],
+            "coverage": pack,
+            "pairs": pack["pairs"],
+            "n_pairs": pack["n_pairs"],
+            "n_obs": len(rows),
+            "axes": pack["axes"],
+        })
+        if rows:
+            rec["db"] = "PRESENT" if db_path(paths).is_file() else "NO_HOST"
+            rec["tensors"] = _directed_tensors(_fold_rows(rows))
+        return rec
+    if not rows:
+        return rec
+    folds = _fold_rows(rows)
+    pairs = [folds[k] for k in sorted(folds)]
+    tensor: dict[str, dict] = {}
+    complement: dict[str, dict] = {}
+    for f in pairs:
+        pk = "%s|%s" % (f["model_a"], f["model_b"])
+        tensor.setdefault(pk, {})[f["axis"]] = {
+            "n": f["n"], "freq": f["freq"], "mean_err": f["mean_err"],
+            "mag": f["mag"], "kind": f["kind"],
+        }
+        complement.setdefault(pk, {})[f["axis"]] = {
+            "scored_n": f["scored_n"],
+            "rescue_hi_given_lo": f["rescue_hi_given_lo"],
+            "rescue_lo_given_hi": f["rescue_lo_given_hi"],
+            "cofail": f["cofail"],
+            "xor_err": f["xor_err"],
+            "style_fight": f["style_fight"],
+            "signed": f["signed"],
+            "kind": f["complement_kind"],
+        }
+    rec.update({
+        "kind": "MEASURED" if any(p["mag"] is not None for p in pairs)
+        else "FREQ_ONLY" if pairs else "UNMEASURED",
+        "complement_kind": (
+            "MEASURED" if any(p["complement_kind"] == "MEASURED" for p in pairs)
+            else "UNMEASURED"),
+        "n_obs": len(rows),
+        "n_pairs": len(pairs),
+        "pairs": pairs,
+        "tensor": tensor,
+        "tensors": _directed_tensors(folds),
+        "complement": complement,
+        "db": "PRESENT" if db_path(paths).is_file() else "NO_HOST",
+    })
+    return rec
+
+
 def _selftest() -> int:
     import tempfile
     from cosmos_kernel import install
@@ -568,6 +801,8 @@ def _selftest() -> int:
           and snap0["complement_kind"] == "UNMEASURED"
           and snap0["complement"] == {}
           and snap0["schema"] == SCHEMA
+          and snap0.get("tensors_shape") == "tensors[agent][vs][axis]"
+          and snap0.get("tensors") == {}
           and not store_dir(paths).exists())
 
     refused = False
@@ -606,7 +841,7 @@ def _selftest() -> int:
     )
     check("mag = disagreement_freq × error_magnitude (1.0 × 8)",
           lambda: rec2["fold"]["mag"] == 8.0
-          and rec2["fold"]["orthogonality"] == 8.0
+          and rec2["fold"]["orthogonality"] is None
           and rec2["kind"] == "MEASURED")
     check("complement stays UNMEASURED until who_erred is scored",
           lambda: rec2["complement_kind"] == "UNMEASURED"
@@ -626,6 +861,7 @@ def _selftest() -> int:
           and rec3["fold"]["rescue_hi_given_lo"] == 1.0
           and rec3["fold"]["cofail"] == 0.0
           and rec3["fold"]["xor_err"] == 1.0
+          and rec3["fold"]["orthogonality"] == rec3["fold"]["signed"]
           and rec3["complement_kind"] == "MEASURED")
 
     rec4 = record_pair(
@@ -651,15 +887,19 @@ def _selftest() -> int:
             n = list(con.execute("SELECT COUNT(*) FROM pair_fold"))[0][0]
             kinds = [r[0] for r in con.execute(
                 "SELECT complement_kind FROM pair_fold")]
+            n_t = list(con.execute("SELECT COUNT(*) FROM agent_tensor"))[0][0]
+            tcols = [r[1] for r in con.execute("PRAGMA table_info(agent_tensor)")]
             return (
                 "signed" in cols and "xor_err" in cols and "cofail" in cols
                 and "mag" in cols and n >= 1
                 and "MEASURED" in kinds
+                and "agent" in tcols and "vs" in tcols and "rescue" in tcols
+                and n_t == 2
             )
         finally:
             con.close()
 
-    check("sqlite pair_fold holds T mag and C complement in the same dbase",
+    check("sqlite pair_fold + agent_tensor (each agent vs the other) in one dbase",
           _sqlite_holds_c)
 
     hook = hook_trial(
@@ -670,9 +910,16 @@ def _selftest() -> int:
             {"model": "openrouter/auto", "ballot": "C"},
         ],
         profile="forge", stage="research", axis="spec", error_mag=5,
+        authority="crew:forge", action="facilitate",
     )
     check("hook_trial writes distinct pairs and skips rotator",
           lambda: hook["n_written"] == 1 and hook["n_runs"] == 2)
+    check("hook_trial stamps Irbe authority source:class and action onto obs",
+          lambda: hook.get("authority") == "crew:forge"
+          and hook.get("action") == "facilitate"
+          and any(o.get("authority") == "crew:forge"
+                  and o.get("action") == "facilitate"
+                  for o in load_obs(paths)))
 
     ranked = recommend(
         paths,
@@ -701,6 +948,38 @@ def _selftest() -> int:
     check("recommend complement uses signed rescue−cofail, not unsigned mag alone",
           lambda: ranked_c[0]["via_tensor"] == "complement"
           and ranked_c[0]["kind"] == "MEASURED")
+
+    a = "google/gemma-4-26b-a4b-it:free"
+    b = "meta-llama/llama-3.3-70b-instruct:free"
+    c = "z-ai/glm-5.3-flash"
+    mat = pair_matrix(paths, [a, b, c], profile="forge")
+    check("pair_matrix enumerates every agent pair × forge axes; unseen UNMEASURED",
+          lambda: len(mat) == 3 * len(axes_for("forge"))
+          and any(p["model_a"] == a and p["model_b"] == b
+                  and p["axis"] == "coding" and p["kind"] == "MEASURED"
+                  for p in mat)
+          and any(p["model_b"] == c and p["kind"] == "UNMEASURED"
+                  and p["mag"] is None for p in mat))
+    cov = coverage(paths, [a, b, c], profile="forge", incumbent=a)
+    check("coverage seats incumbent first then recommend; does not invent mag",
+          lambda: cov["order"][0] == a
+          and set(cov["agents"]) == {a, b, c}
+          and cov["n_pairs"] == len(mat)
+          and "error-discovery" in cov["goal"])
+    snap_a = snapshot(paths, profile="forge", agents=[a, b, c])
+    check("GET snapshot with agents returns coverage pack, GET never mkdir",
+          lambda: snap_a.get("coverage") and snap_a["coverage"]["order"][0] == a
+          and snap_a["n_pairs"] == len(mat))
+    check("GET snapshot tensors is tensors[agent][vs][axis]",
+          lambda: snap_a.get("tensors_shape") == "tensors[agent][vs][axis]"
+          and isinstance(snap_a.get("tensors"), dict)
+          and a in snap_a["tensors"]
+          and b in snap_a["tensors"][a]
+          and "coding" in snap_a["tensors"][a][b]
+          and snap_a["tensors"][a][b]["coding"].get("mag") is not None)
+    check("GET snapshot last_obs carries Irbe stamps",
+          lambda: snap_a.get("last_obs", {}).get("action") == "facilitate"
+          and snap_a["last_obs"].get("authority") == "crew:forge")
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

@@ -159,6 +159,7 @@ def bind_worker(root: str, slot, lanes, exclude, adapt: bool) -> dict:
     sched = Scheduler(q, key, wid)
     runner = Runner(sched, work, wid)
     runner.tools_root = paths.role("tools")
+    runner.paths = paths
     runner.claim_lanes = lanes
     runner.claim_exclude = exclude
     if adapt:

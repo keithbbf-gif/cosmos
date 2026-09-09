@@ -51,6 +51,29 @@ GET never mkdir. GET never invents a score. Empty store = UNMEASURED.
 - Scalar Model Rater porosity (`loc_per_100 × severity`) stays as a
   **per-model hole-set fold**. It does not replace the pair tensor.
 
+## TERMS — Keith 2026-09-09 (concepts; math still open)
+
+Spoken: Pourosity, orthoganol. Written: **porosity**, **orthogonality**.
+Keith: math is still poorly defined. The **concepts** are:
+
+**Porosity** — of a model (or of the seated set). **How big** the holes
+are, **and the distribution** of those holes across the axes of interest.
+A scalar `loc_per_100 × severity` is size-only. Distribution is a vector
+over named axes (coding vs spec vs security…). UNMEASURED until holes are
+scored on those axes. Porosity is **not** the pair.
+
+**Orthogonality** — of a **pair**. **Different × accurate.**
+- **High:** the pair identifies **different** errors well (one catches what
+  the other misses).
+- **Low:** the pair identifies the **same** errors well — and shares the
+  **same** mistakes / blind spots.
+
+Disagreement frequency alone is not orthogonality (two models can disagree
+and both be right — style fight). Unsigned `|v| = freq × error_mag` is a
+pair **hole-size** fold, not orthogonality. Complement `xor_err − cofail`
+(when `who_erred` is scored) is the **working sketch** of orthogonality.
+Do not treat that sketch as a finished formula. Do not invent scores.
+
 ## WHY
 
 A scalar `p(m)` cannot tell you *which other model punches a different hole*.
@@ -93,6 +116,8 @@ performance (`docs/MOTIF.md` swiss cheese).
   disagreement on named axes is the measurement.
 - Do not add a 14th provisional slot. This is P03 new matter before filing,
   with a P05 embodiment (every adversarial trial writes the tensor).
+- Do not stand up a blockchain this tick. Public weighted-average digest
+  is TABLED in `docs/research/docket/P03_PUBLIC_TENSOR.md`, not Core.
 
 ## LIVE EMIT TO HONOR
 
