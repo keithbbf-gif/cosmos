@@ -141,6 +141,7 @@ OpenRouter is unlimited. Do not sell unlimited `:free` as Premium. Premium
 
 | Use | Model ID | Notes |
 |---|---|---|
+| **Cache-economics coder (GF38)** | `gemini-3.8-flash` | High-context coding-agent loops. Intro **$0.75 / $0.075 cached / $3.75** per 1M through **2026-12-31**. Implicit cache floor **4,096**. Farm puts PREFIX+CACHE_RULE+PROMPT_CACHE+BOUNDARIES in `systemInstruction`. Not G46 for cache dollars. Not Joanna. |
 | **Top-tier coder** | `gemini-3.1-pro-preview` | Google's most advanced (model card Feb 2026). Live ping **VERTEX-PRO-PONG** 2026-09-07, `ok true`, $0.000269. |
 | Default ping (cheap) | `gemini-2.5-flash` | Stays the spec default so routine probes do not burn Pro. |
 

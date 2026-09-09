@@ -23,17 +23,19 @@ stable needed-info block first, then appends the query:
 | Cursor / Gitur check | same PREFIX + CACHE_RULE | tab prompt |
 | Work order | DHx + AGENT_BOUNDARIES + PREFIX | Task paragraph |
 | MOTIF stages | frozen PROBLEM STATEMENT file | stage instruction |
-| Vertex GF38 | identical PREFIX first | `# ITEM` |
-| Luna/Terra Flex | string system prefix + `prompt_cache_key` | user task |
+| Vertex GF38 | PREFIX + CACHE_RULE + this file + AGENT_BOUNDARIES as `systemInstruction` (≥4096) | `# ITEM` user turn |
+| Luna/Terra Flex | PREFIX + CACHE_RULE + `prompt_cache_key` ≤64 + explicit breakpoint | user task |
+| Grok 4.6 (this TUI / Cursor Grok) | stable prefix + cache key; stay **under 200K** | task / diff / pytest |
 
 A call that sends only the question is out of SOP. Auto-attach the prefix;
 do not wait for the operator to paste it.
 
 ## The rule
 
-1. **Prefix ≥ 1,024 tokens** before a vendor will cache. COSMOS PREFIX alone
-   was ~926 tokens — Luna Flex measured `cached_tokens=0`. Pad with this
-   rule, not with timestamps.
+1. **Prefix must clear the vendor floor.** OpenAI/Luna **1,024**. Gemini 3.x
+   implicit **4,096**. COSMOS PREFIX alone was ~926 — Luna miss until
+   CACHE_RULE; Gemini still misses until BOUNDARIES is on the Vertex
+   systemInstruction. Pad with canon files, not timestamps.
 2. **Exact prefix.** Message order, roles, whitespace, tool JSON, schema JSON,
    and images must match byte-for-byte. Semantic similarity does not cache.
 3. **Matching is incremental** after the floor. An early one-character edit
@@ -71,8 +73,30 @@ provider auto-failover, idle > TTL, assuming a hit.
 Input $0.20/M · cache read $0.02/M (90% off) · Flex input $0.10/M · Flex
 output $0.60/M. Cache read is cheaper than Flex input. Hits are the point.
 
+## Grok 4.6 vs Gemini 3.8 Flash (cache economics)
+
+High-context **Python coding-agent loops** use **GF38 Vertex**, not G46, for
+cache dollars. G46 stays the CCr / behavior seat. Measure hits; do not assume.
+
+| Dimension | Grok 4.6 (xAI API) | Gemini 3.8 Flash (Kelly Vertex) |
+|---|---|---|
+| Normal input | $2.00/M | $0.75/M intro through **2026-12-31** |
+| Cached input | $0.50/M (75% off) | $0.075/M (90% off) |
+| Output | $6.00/M | $3.75/M intro |
+| Long-context cliff | **200K** prompt tokens → whole request doubles to $4/$1/$12 | No equivalent cliff in the Google cache guide |
+| Implicit cache | Yes, repeated eligible prefixes + stable cache key | Yes; min **4,096** tokens; discount automatic |
+| Explicit cache | Key/routing consistency; no cache object confirmed | Yes — cache object + TTL; storage $0.50 / 1M cached tokens / hour (intro) |
+| Best use | When G46 behavior wins (ambiguous debug, architecture) | Repeated repo context, RAG, high-volume coding-agent loops |
+
+After **2027-01-01** Gemini 3.8 Flash intro rates are reported to double — re-measure; do not invent a new table.
+
+**Grok SOP:** prefix first, tail last, stable cache key, calls close together, **stay under 200K**. New key when baseline repo / tools / policy bytes change. Never timestamp the key.
+
+**Gemini SOP:** same prefix rules. Implicit when traffic is frequent and the systemInstruction is ≥4096 and byte-stable. Explicit cache objects (TTL) when the corpus is huge, workers share it, or the session pauses past implicit TTL. COSMOS farm uses **implicit** first (systemInstruction = canon stack). Explicit `caches.create` is a later bind — do not invent a second Core.
+
 ## Bind
 
 Rail: `cosmos/cosmos_openrouter_rail.py` (`prompt_cache_key` on Flex seats;
-`fold_usage` copies `cached_tokens` / `cache_write_tokens`). Farm:
+`fold_usage` copies `cached_tokens` / `cache_write_tokens`). Vertex:
+`cosmos_vertex_rail.py` copies `cachedContentTokenCount`. Farm:
 `work_orders/ccr/_propose_seat.py`. Principle **P11**. Boundaries item **15**.
