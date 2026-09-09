@@ -10,7 +10,10 @@ only because Keith asked.
   google/gemma-4-31b-it:free
   z-ai/glm-5.3-flash              (value coder 2026-09-07: high skill, low cost)
   deepseek/deepseek-v4-flash-0731 (cheap coder 2026-09-08: coding MoE)
+  upstage/solar-pro4              (cheap coder 2026-09-08: Keith word)
+  inclusionai/ling-3.0-flash      (cheap coder 2026-09-08: Keith word)
   openai/gpt-5.6-terra            (value 2026-09-08: OpenAI Flex endpoint)
+  openai/gpt-5.6-luna             (credit 2026-09-08: OpenAI Flex — Keith pin flex)
 
 POST https://openrouter.ai/api/v1/chat/completions
 GET  https://openrouter.ai/api/v1/models
@@ -53,19 +56,28 @@ PINNED_FREE = frozenset({DEFAULT_MODEL, GEMMA_31B})
 # Different family from Grok / Gemini / Claude. Not the rotator.
 VALUE_CODER = "z-ai/glm-5.3-flash"
 DEEPSEEK_V4_FLASH = "deepseek/deepseek-v4-flash-0731"
+SOLAR_PRO4 = "upstage/solar-pro4"
+LING_FLASH = "inclusionai/ling-3.0-flash"
 GPT56_TERRA = "openai/gpt-5.6-terra"
-# OpenRouter model page endpoint= UUID for OpenAI Flex ($1/$6). Named tag, not a rotator.
-TERRA_FLEX = "openai/flex"
+GPT56_LUNA = "openai/gpt-5.6-luna"
+# OpenRouter model page endpoint= UUID for OpenAI Flex. Named tag, not a rotator.
+# Terra Flex $1/$6 (page standard $2/$12). Luna Flex $0.10/$0.60 (page $0.20/$1.20).
+# Keith 2026-09-08: pin flex — both GPT-5.6 OpenRouter seats default openai/flex.
+OPENAI_FLEX = "openai/flex"
+TERRA_FLEX = OPENAI_FLEX
 TERRA_ENDPOINT_UUID = "bf8a8d37-5c1b-4343-8f0f-eee99b60c5f2"
-ENDPOINT_TO_TAG = {TERRA_ENDPOINT_UUID: TERRA_FLEX}
-TERRA_PROVIDERS = frozenset({
+ENDPOINT_TO_TAG = {TERRA_ENDPOINT_UUID: OPENAI_FLEX}
+FLEX_MODELS = frozenset({GPT56_TERRA, GPT56_LUNA})
+FLEX_PROVIDERS = frozenset({
     "openai/flex", "openai", "openai/fast",
     "azure", "azure/us", "azure/eu",
     "amazon-bedrock/us-east-1",
 })
+TERRA_PROVIDERS = FLEX_PROVIDERS
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
-CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH)
-PINNED_VALUE = frozenset(CHEAP_CODERS) | {GPT56_TERRA}
+# Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
+CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, SOLAR_PRO4, LING_FLASH)
+PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
@@ -137,7 +149,7 @@ def model_refused(model: str) -> str | None:
 
 
 def _provider_tag(model: str, payload: dict) -> str | None:
-    """Named provider tag. Terra defaults to OpenAI Flex (the value endpoint)."""
+    """Named provider tag. Terra and Luna default to OpenAI Flex."""
     payload = payload if isinstance(payload, dict) else {}
     ep = str(payload.get("endpoint") or "").strip().lower()
     only = payload.get("provider_only") or payload.get("provider")
@@ -154,12 +166,12 @@ def _provider_tag(model: str, payload: dict) -> str | None:
             tag = str(raw[0]).strip()
         elif isinstance(raw, str) and raw.strip():
             tag = raw.strip()
-    elif model == GPT56_TERRA:
-        tag = TERRA_FLEX
+    elif model in FLEX_MODELS:
+        tag = OPENAI_FLEX
     if not tag:
         return None
-    if model == GPT56_TERRA and tag not in TERRA_PROVIDERS:
-        return f"REFUSED:provider {tag!r} is not a Terra pin"
+    if model in FLEX_MODELS and tag not in FLEX_PROVIDERS:
+        return f"REFUSED:provider {tag!r} is not a Flex pin"
     return tag
 
 
@@ -903,8 +915,8 @@ def _selftest() -> int:
             assert body.get("provider", {}).get("allow_fallbacks") is False
             assert "usage" not in body
             assert "stream_options" not in body
-            if body.get("model") == GPT56_TERRA:
-                assert body.get("provider", {}).get("only") == [TERRA_FLEX]
+            if body.get("model") in FLEX_MODELS:
+                assert body.get("provider", {}).get("only") == [OPENAI_FLEX]
             return 200, {}, {
                 "id": "gen-test",
                 "model": body.get("model"),
@@ -996,14 +1008,28 @@ def _selftest() -> int:
     ds = rail.dispatch({"model": DEEPSEEK_V4_FLASH, "text": "x"})
     check("cheap coder deepseek-v4-flash-0731 is a named pin",
           lambda: ds["ok"] and ds["model"] == DEEPSEEK_V4_FLASH)
+    solar = rail.dispatch({"model": SOLAR_PRO4, "text": "x"})
+    check("cheap coder solar-pro4 is a named pin",
+          lambda: solar["ok"] and solar["model"] == SOLAR_PRO4)
+    ling = rail.dispatch({"model": LING_FLASH, "text": "x"})
+    check("cheap coder ling-3.0-flash is a named pin",
+          lambda: ling["ok"] and ling["model"] == LING_FLASH)
     terra = rail.dispatch({"model": GPT56_TERRA, "text": "x"})
     check("GPT-5.6 Terra pins OpenAI Flex by default (value endpoint)",
           lambda: terra["ok"] and terra["model"] == GPT56_TERRA
-          and terra.get("provider_tag") == TERRA_FLEX)
+          and terra.get("provider_tag") == OPENAI_FLEX)
+    luna = rail.dispatch({"model": GPT56_LUNA, "text": "x"})
+    check("GPT-5.6 Luna pins OpenAI Flex by default (Keith pin flex)",
+          lambda: luna["ok"] and luna["model"] == GPT56_LUNA
+          and luna.get("provider_tag") == OPENAI_FLEX)
     bad_ep = rail.dispatch({"model": GPT56_TERRA, "text": "x",
                             "endpoint": "not-a-real-uuid"})
     check("unknown Terra endpoint uuid is REFUSED",
           lambda: (not bad_ep["ok"]) and bad_ep["kind"] == "REFUSED")
+    luna_bad = rail.dispatch({"model": GPT56_LUNA, "text": "x",
+                              "provider_only": "not-a-flex-provider"})
+    check("Luna non-Flex provider is REFUSED",
+          lambda: (not luna_bad["ok"]) and luna_bad["kind"] == "REFUSED")
     alias = rail.dispatch({"model": "~deepseek/deepseek-v4-flash-latest", "text": "x"})
     check("~latest alias is REFUSED",
           lambda: (not alias["ok"]) and alias["kind"] == "REFUSED")
