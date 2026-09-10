@@ -1,0 +1,9 @@
+{
+  "schema": "cosmos-bite/1",
+  "what": "P10 cosmos_paths sentinel identity (existence != identity)",
+  "empty_dir_kind": "IDENTITY_MISMATCH",
+  "sentinel_content_mismatch_kind": "IDENTITY_MISMATCH",
+  "tree_id_mismatch_kind": "IDENTITY_MISMATCH",
+  "valid_root_ok": true,
+  "all_bite": true
+}
