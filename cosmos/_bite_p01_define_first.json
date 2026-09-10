@@ -1,0 +1,8 @@
+{
+  "nine_stage_graph": true,
+  "build_without_define_kind": "REFUSED",
+  "critics_without_define_kind": "REFUSED",
+  "empty_statement_build_refused": true,
+  "build_with_define_ok": true,
+  "all_bite": true
+}

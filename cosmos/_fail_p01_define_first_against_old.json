@@ -1,0 +1,6 @@
+{
+  "old_build_runs_with_empty_define": true,
+  "no_motif_define_refusal_type": true,
+  "no_run_stage_gate": true,
+  "predecessor_define_first_open": true
+}
