@@ -812,6 +812,23 @@ class OpenRouterRail:
             list(messages) if isinstance(messages, list) else messages,
             flex=flex,
         )
+        motif_stage = str(payload.get("motif_stage") or "").strip().lower()
+        if motif_stage in ("build", "critics") and payload.get("root"):
+            try:
+                from cosmos_motif_run import start as motif_run_start
+                from cosmos_paths import CosmosPaths
+
+                motif_run_start(CosmosPaths(str(payload["root"])), motif_stage)
+            except Exception as e:  # noqa: BLE001
+                kind = getattr(e, "kind", "REFUSED")
+                return {
+                    "ok": False,
+                    "kind": kind,
+                    "detail": str(e)[:300],
+                    "model_requested": model,
+                    "link_id": self.link_id,
+                    "motif_stage": motif_stage,
+                }
         precache_exempt = (
             payload.get("precache_exempt") is True
             or payload.get("user_only_ping") is True

@@ -108,6 +108,9 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/profiles  - save a profile MOTIF skin (problem + dest + stage notes).
     POST /api/v1/profiles/bg - Forge RESEARCH→CONSENSUS background free CLI. Not IMPLEMENT.
                            Does not start MOTIF. Does not publish.
+    POST /api/v1/motif/run   - BUILD or CRITICS run gate (P01 DEFINE-first). Refuses
+                           when PROBLEM STATEMENT / STATED GOAL is empty. Does not
+                           launch Gitur or invent traces.
     POST /api/v1/session_kit - save COS/autosave/resession config. Does not
                            fire TidyUP or a resession.
     POST /api/v1/session_tools - Sessions verbs (scan/load/convert/diff/check/
@@ -1824,6 +1827,27 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, rec)
                 except PorosityError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if _wo_urlparse(self.path).path == "/api/v1/motif/run":
+                from cosmos_motif_define import MotifDefineError
+                from cosmos_motif_run import start as motif_run_start
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                try:
+                    rec = motif_run_start(
+                        kernel.paths,
+                        str(d.get("stage") or ""),
+                        profile=d.get("profile") or "forge",
+                    )
+                except MotifDefineError as e:
+                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/profiles/bg":
                 from cosmos_forge_bg import ForgeBgError, facilitate, start as forge_bg_start
                 from cosmos_profiles import load_engine

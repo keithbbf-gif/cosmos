@@ -115,6 +115,24 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
     if not repo:
         return {"ok": False, "kind": "REFUSED", "detail": "empty repo",
                 "reviewer": DEFAULT_REVIEWER}
+    from cosmos_motif_define import MotifDefineError
+    from cosmos_motif_run import start as motif_run_start
+    from cosmos_paths import CosmosPathError, CosmosPaths
+
+    live = root or Path(r"V:\A\Ai\COSMOS\live")
+    try:
+        paths = CosmosPaths(str(live))
+        motif_run_start(paths, "critics")
+    except MotifDefineError as e:
+        return {
+            "ok": False,
+            "kind": e.kind,
+            "detail": str(e).split("] ", 1)[-1][:200],
+            "reviewer": DEFAULT_REVIEWER,
+            "motif_stage": "critics",
+        }
+    except CosmosPathError:
+        pass
     if kind == "mr":
         url = f"https://gitlab.com/{repo}/-/merge_requests/{n}"
         gh_url = f"https://github.com/{repo}"
