@@ -290,6 +290,10 @@ def prepare_grok_workspace(source, *, live_root=None, attempt_id=None,
     assert_not_live_workspace(ws, live_root=live_root, source_tree=src)
     cloned["source"] = str(src)
     cloned["workspace"] = str(ws)
+    # P07 Layer A: folder grant at spawn. Not a cosmos_lock fencing token.
+    from cosmos_spawn_grant import SpawnGrant  # local import: seam, not a cycle
+    cloned["spawn_grant"] = SpawnGrant(ws, attempt)
+    cloned["spawn_grant_kind"] = SpawnGrant.kind
     return ws, cloned
 
 
