@@ -70,9 +70,11 @@ Coding sessions are **discrete dropped jobs**. You receive the work order (DHx +
 assignment + bounds), not the orch transcript. Stay inside that job. Do not pull COW's
 window into yours. That is how coder context stays small too.
 
-**Resession SOP** (`docs/RESESSION_SOP.md`, Keith 2026-09-01): at ~70% pack; at 90% or
-"resession now" TidyUP + TU2 + write next BU + paste into one new Grok Code session +
-print timestamps/paths + END OF SESSION ×3 as the last output. Do not invent another close.
+**Resession SOP** (`docs/RESESSION_SOP.md`, Keith 2026-09-10): at ~70% pack; on TidyUP /
+"resession now" / "write BUcr" — TidyUP + TU2 + **BUcr.toml** + pointer
+`BOOTUP_PASTE.md` into **one new interactive** Grok Build TUI (`--session-id` +
+positional prompt, **not** `-p`) + summary + END OF SESSION ×3 as the last output.
+Do not invent another close.
 
 ## Cursor lane — LIVE, free, COSMOS has its own key
 - **COSMOS's own key:** `Cursor COSMOS 2` (Admin, never-expires). Read the token from

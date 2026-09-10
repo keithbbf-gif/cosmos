@@ -105,8 +105,10 @@ That is the two-writer **deletion** scar: work vanishes with no ledger event.
 2. **`live/state/control/CCR.lease`** — sid, pid, fencing token, `taken_at`. A second CCr
    **REFUSES**. No lease → fenced commit gateway **REFUSES** live-tree writes. Orch still
    drops `work_orders/drop/` and `work_orders/ccr/`.
-3. **CCr close** = TidyUP + lease drop. Queued CORE changes from orch/OW wait for the
-   **next** CCr. Publish is fenced commit, not robocopy-over-main.
+3. **CCr close** = TidyUP + TU2 + **BUcr.toml** + pointer paste into **one new
+   interactive** Grok TUI + lease drop + END OF SESSION. SOP: `docs/RESESSION_SOP.md`.
+   Do **not** prime the successor with `grok -p` (it exits). Queued CORE changes from
+   orch/OW wait for the next CCr. Publish is fenced commit, not robocopy-over-main.
 4. If public tree is dirty from a rogue: **stage unexpected paths to `_delme\ccr-quarantine\<sid>\`**,
    ledger it, then CCr promote. Never silent clobber.
 
