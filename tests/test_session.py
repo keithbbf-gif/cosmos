@@ -18,6 +18,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_kernel import Kernel, install
 from cosmos_context import ContextError
 from cosmos_session import (SessionError, close_session, start_session,
+                            require_bootup, bootup_path, read_bootup,
+                            BOOTUP_NAME,
                             SEED_NAME, SEED_DECL_NAME, SEED_SCHEMA)
 from cosmos_validate import write_declared
 
@@ -96,6 +98,13 @@ def main() -> int:
           lambda: body["kind"] == "COSMOS_SEED" and body["schema"] == SEED_SCHEMA)
     check("close left SESSION_SEED_WRITTEN on the ledger",
           lambda: any(r["event"] == "SESSION_SEED_WRITTEN" for r in k.ledger.verify()))
+    bootup_p = bootup_path(k.paths)
+    check("close_session writes durable BootUP.json open=false",
+          lambda: bootup_p.is_file()
+          and read_bootup(k.paths) is not None
+          and read_bootup(k.paths).get("open") is False)
+    check("require_bootup after TidyUP -> NO_BOOTUP",
+          expect(SessionError, "NO_BOOTUP")(lambda: require_bootup(k.paths)))
 
     ctx = sm.start_session("pb")
     check("start_session injects facts into inherited context",
@@ -109,6 +118,15 @@ def main() -> int:
           and ctx["stream"] == "pb" and ctx["sid"] == "s2")
     check("start left SESSION_SEED_INJECTED on the ledger",
           lambda: any(r["event"] == "SESSION_SEED_INJECTED" for r in k.ledger.verify()))
+    check("start_session writes BootUP.json open=true on control path",
+          lambda: bootup_p.name == BOOTUP_NAME
+          and read_bootup(k.paths).get("open") is True
+          and read_bootup(k.paths).get("stream") == "pb")
+    check("require_bootup after BootUP succeeds",
+          lambda: require_bootup(k.paths).get("open") is True)
+    k3 = Kernel(root, worker="sess-durable")
+    check("BootUP gate survives CLI-shaped kernel drop (durable on disk)",
+          lambda: require_bootup(k3.paths).get("sid") == ctx["sid"])
     check("module-level start_session is the manager (facts already injected)",
           lambda: start_session is not None and sm.session._facts["lane"] == "f5")
 
