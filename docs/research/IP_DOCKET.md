@@ -45,6 +45,11 @@ US: ~1 year inventor grace from *their* disclosure. Many other countries:
 absolute novelty — GitHub can already bar those filings for what it enabled.
 Private-now does not un-publish. Another public article dump is a second clock.
 
+**Keith 2026-09-10:** GrokBot moved `cosmos` / `cdeck` / `cosmos-android` / `cdm`
+**private** for IP while patents are in work. Does not rewind `created_at`.
+Handoff for GrokBot (copy-paste): `docket/GROKBOT_PATENT_SESSION.md`.
+This TUI does not flip visibility and does not click USPTO.
+
 July 2026 operation = dated local predecessor records, **not** a GitHub date.
 
 ## Fees
