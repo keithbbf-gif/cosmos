@@ -1,0 +1,14 @@
+{
+  "compare_kind": "UNMEASURED",
+  "compare_n_obs": 0,
+  "compare_pair_is_none": true,
+  "compare_coverage_n_is_none": true,
+  "compare_pairs_empty": true,
+  "snap_kind": "UNMEASURED",
+  "snap_n_obs": 0,
+  "snap_pairs_empty": true,
+  "snap_no_coverage_key": true,
+  "same_family_refused": "REFUSED",
+  "rotator_refused": "REFUSED",
+  "all_bite": true
+}

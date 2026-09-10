@@ -662,7 +662,32 @@ def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
     recommend() vs the already-seated set. UNMEASURED sorts last. Never
     invents a bake-off number. Goal: cover residual holes cheaply.
     """
-    pins = _agent_pins(agents)
+    from cosmos_p06_compare import assert_distinct_seating_families
+
+    pins = assert_distinct_seating_families(agents)
+    rows = load_obs(paths)
+    goal = (
+        "Maximize error-discovery coverage per token. "
+        "Porosity = hole size + distribution. "
+        "Orthogonality = different x accurate (xor-cofail when scored). "
+        "Low orthogonality = same errors and same blinds. "
+        "UNMEASURED pairs sort last. Does not invent scores."
+    )
+    if not rows:
+        return {
+            "schema": SCHEMA,
+            "ok": True,
+            "kind": "UNMEASURED",
+            "goal": goal,
+            "agents": pins,
+            "order": [],
+            "steps": [],
+            "n_pairs": 0,
+            "n_measured": 0,
+            "pairs": [],
+            "profile": str(profile or ""),
+            "axes": list(axes_for(profile)),
+        }
     inc = str(incumbent or "").strip()
     seated = []
     if inc and inc in pins:
@@ -686,13 +711,7 @@ def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
         "schema": SCHEMA,
         "ok": True,
         "kind": "MEASURED" if n_meas else "UNMEASURED",
-        "goal": (
-            "Maximize error-discovery coverage per token. "
-            "Porosity = hole size + distribution. "
-            "Orthogonality = different x accurate (xor-cofail when scored). "
-            "Low orthogonality = same errors and same blinds. "
-            "UNMEASURED pairs sort last. Does not invent scores."
-        ),
+        "goal": goal,
         "agents": pins,
         "order": seated,
         "steps": steps,
@@ -725,6 +744,16 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
     rec["last_obs"] = _last_obs(rows)
     pins = _agent_pins(agents)
     if pins:
+        if not rows:
+            rec.update({
+                "kind": "UNMEASURED",
+                "agents": pins,
+                "n_obs": 0,
+                "n_pairs": 0,
+                "pairs": [],
+                "axes": list(axes_for(profile)) if profile else list(DEFAULT_AXES),
+            })
+            return rec
         pack = coverage(paths, pins, profile=profile)
         rec.update({
             "kind": pack["kind"],
@@ -735,9 +764,8 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
             "n_obs": len(rows),
             "axes": pack["axes"],
         })
-        if rows:
-            rec["db"] = "PRESENT" if db_path(paths).is_file() else "NO_HOST"
-            rec["tensors"] = _directed_tensors(_fold_rows(rows))
+        rec["db"] = "PRESENT" if db_path(paths).is_file() else "NO_HOST"
+        rec["tensors"] = _directed_tensors(_fold_rows(rows))
         return rec
     if not rows:
         return rec
