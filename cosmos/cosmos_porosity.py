@@ -9,7 +9,9 @@ Orthogonality (Keith): of a pair, different × accurate. High = they catch
 different errors well. Low = they catch (and miss) the same errors.
 Working sketch when who_erred is scored: signed complement
 (xor_err − cofail) × error_magnitude. Not disagreement frequency alone.
-Math still open. Do not invent scores.
+PRELIMINARY method (Keith 2026-09-10). Math still open. Do not invent scores.
+Interaction tensor slot stays UNMEASURED. JUDGE pack on every row so a
+different judge can re-score the same prompt+outputs.
 
 Pair mag = disagreement_frequency × error_magnitude is hole-size of the
 pair, not orthogonality. Tensor grid T[i,j,a] seats models for token
@@ -23,6 +25,7 @@ invents a score. UNMEASURED until observed. Rotators refused.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import sqlite3
 import sys
@@ -31,9 +34,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-SCHEMA = "cosmos-porosity-tensor/4"
+SCHEMA = "cosmos-porosity-tensor/5"
 OBS_NAME = "obs.jsonl"
 DB_NAME = "porosity.sqlite"
+JUDGE_TEXT_CAP = 8000
 ROTATING = frozenset({
     "openrouter/free", "openrouter/auto", "openrouter/free:free",
     "openrouter/pareto-code",
@@ -48,6 +52,27 @@ PROFILE_AXES = {
 }
 DEFAULT_AXES = ("task",)
 WHO_OK = frozenset({"", "a", "b", "both", "none", "unknown"})
+FAIL_OK = frozenset({"", "429", "timeout", "refuse", "empty-text", "fail"})
+
+
+def _full_sha256(value) -> str | None:
+    if value is None:
+        return None
+    return hashlib.sha256(str(value).encode("utf-8")).hexdigest()
+
+
+def _judge_text(value) -> str:
+    return str(value or "")[:JUDGE_TEXT_CAP]
+
+
+def _fail_kind(value) -> str:
+    kind = str(value or "").strip().lower()
+    if kind not in FAIL_OK:
+        raise PorosityError(
+            "BAD_INPUT",
+            f"fail_kind must be one of {sorted(FAIL_OK)}, got {value!r}",
+        )
+    return kind
 SRC_OK = frozenset({"local", "federation"})
 
 
@@ -662,32 +687,7 @@ def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
     recommend() vs the already-seated set. UNMEASURED sorts last. Never
     invents a bake-off number. Goal: cover residual holes cheaply.
     """
-    from cosmos_p06_compare import assert_distinct_seating_families
-
-    pins = assert_distinct_seating_families(agents)
-    rows = load_obs(paths)
-    goal = (
-        "Maximize error-discovery coverage per token. "
-        "Porosity = hole size + distribution. "
-        "Orthogonality = different x accurate (xor-cofail when scored). "
-        "Low orthogonality = same errors and same blinds. "
-        "UNMEASURED pairs sort last. Does not invent scores."
-    )
-    if not rows:
-        return {
-            "schema": SCHEMA,
-            "ok": True,
-            "kind": "UNMEASURED",
-            "goal": goal,
-            "agents": pins,
-            "order": [],
-            "steps": [],
-            "n_pairs": 0,
-            "n_measured": 0,
-            "pairs": [],
-            "profile": str(profile or ""),
-            "axes": list(axes_for(profile)),
-        }
+    pins = _agent_pins(agents)
     inc = str(incumbent or "").strip()
     seated = []
     if inc and inc in pins:
@@ -711,7 +711,13 @@ def coverage(paths, agents, *, profile="", costs=None, incumbent="") -> dict:
         "schema": SCHEMA,
         "ok": True,
         "kind": "MEASURED" if n_meas else "UNMEASURED",
-        "goal": goal,
+        "goal": (
+            "Maximize error-discovery coverage per token. "
+            "Porosity = hole size + distribution. "
+            "Orthogonality = different x accurate (xor-cofail when scored). "
+            "Low orthogonality = same errors and same blinds. "
+            "UNMEASURED pairs sort last. Does not invent scores."
+        ),
         "agents": pins,
         "order": seated,
         "steps": steps,
@@ -744,16 +750,6 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
     rec["last_obs"] = _last_obs(rows)
     pins = _agent_pins(agents)
     if pins:
-        if not rows:
-            rec.update({
-                "kind": "UNMEASURED",
-                "agents": pins,
-                "n_obs": 0,
-                "n_pairs": 0,
-                "pairs": [],
-                "axes": list(axes_for(profile)) if profile else list(DEFAULT_AXES),
-            })
-            return rec
         pack = coverage(paths, pins, profile=profile)
         rec.update({
             "kind": pack["kind"],
@@ -764,8 +760,9 @@ def snapshot(paths, *, profile: str = "", agents=None) -> dict:
             "n_obs": len(rows),
             "axes": pack["axes"],
         })
-        rec["db"] = "PRESENT" if db_path(paths).is_file() else "NO_HOST"
-        rec["tensors"] = _directed_tensors(_fold_rows(rows))
+        if rows:
+            rec["db"] = "PRESENT" if db_path(paths).is_file() else "NO_HOST"
+            rec["tensors"] = _directed_tensors(_fold_rows(rows))
         return rec
     if not rows:
         return rec
