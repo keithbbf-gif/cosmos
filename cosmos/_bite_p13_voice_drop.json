@@ -1,0 +1,11 @@
+{
+  "malformed_refused_typed": true,
+  "not_json_refused_typed": true,
+  "valid_lands_bucket_from_drop_path": true,
+  "file_drop_refuses_malformed_kind": "BAD_INPUT",
+  "old_naive_write_would_land_malformed": true,
+  "no_github_delete": true,
+  "github_drop_path": "work_orders/drop",
+  "drop_path_is_work_orders_drop": true,
+  "all_bite": true
+}
