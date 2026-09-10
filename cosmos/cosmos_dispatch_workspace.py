@@ -294,7 +294,31 @@ def prepare_grok_workspace(source, *, live_root=None, attempt_id=None,
     from cosmos_spawn_grant import SpawnGrant  # local import: seam, not a cycle
     cloned["spawn_grant"] = SpawnGrant(ws, attempt)
     cloned["spawn_grant_kind"] = SpawnGrant.kind
+    cloned["ballot_writer"] = False
     return ws, cloned
+
+
+def prepare_dual_lane_workspaces(source, *, live_root=None, attempt_id=None,
+                                 dest=None, areas=None) -> dict:
+    """Two private clones. Sibling recorded. No ballot. Peeking is a later check.
+
+    Lane A cannot read Lane B's workspace (assert_no_peek). Compare is not
+    a merge in this function.
+    """
+    attempt = _safe_attempt_id(attempt_id)
+    ws_a, rec_a = prepare_grok_workspace(
+        source, live_root=live_root, attempt_id=f"{attempt}-A",
+        dest=None if dest in (None, "") else Path(dest) / "A", areas=areas)
+    ws_b, rec_b = prepare_grok_workspace(
+        source, live_root=live_root, attempt_id=f"{attempt}-B",
+        dest=None if dest in (None, "") else Path(dest) / "B", areas=areas)
+    rec_a["lane"] = "A"
+    rec_b["lane"] = "B"
+    rec_a["sibling"] = str(ws_b)
+    rec_b["sibling"] = str(ws_a)
+    rec_a["ballot_writer"] = False
+    rec_b["ballot_writer"] = False
+    return {"A": (ws_a, rec_a), "B": (ws_b, rec_b)}
 
 
 def collect_workspace_proposal(workspace, *, diff_path=None) -> dict:

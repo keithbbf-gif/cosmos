@@ -79,7 +79,8 @@ from cosmos_dispatch_workspace import (  # noqa: E402,F401
     CLONE_IGNORE, GROK_WORK_LANE, PROPOSAL_DIFF_CAP, DispatchError,
     _CREATE_NO_WINDOW, _as_resolved, _safe_attempt_id, _seed_clone,
     assert_not_live_workspace, clone_attempt_workspace,
-    collect_workspace_proposal, prepare_grok_workspace,
+    collect_workspace_proposal, prepare_dual_lane_workspaces,
+    prepare_grok_workspace,
 )
 # PHASE 4 seam (docs/CORE_RESTRUCTURE.md): job-source builders live in
 # cosmos_dispatch_jobs and are re-exported here -- same objects, not copies
