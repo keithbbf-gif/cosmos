@@ -51,6 +51,9 @@ NAMED = (
     "no_cross_origin_header",
     "header_js_bytes",
     "deck_more_html_bytes",
+    "deck_tabs_js_bytes",
+    "kdash_name_not_cdeck",
+    "tab_smoke_fill",
 )
 # Inherited: unknown/traversal not the index. Loopback API is open (DT).
 # The bite is the shell actually being served as bytes.
@@ -105,7 +108,7 @@ def run_named_checks(svc) -> list:
     port = svc.port
     disk = {n: (UI / n).read_bytes() for n in (
         "index.html", "app.js", "app.css", "cdeck.webmanifest", "sw.js",
-        "header.js", "deck_more.html")}
+        "header.js", "deck_more.html", "deck_tabs.js")}
 
     code, hdrs, body = _raw_get(port, "/cdeck")
     rec("slashless_redirect",
@@ -130,7 +133,8 @@ def run_named_checks(svc) -> list:
             ("manifest_bytes", "/cdeck/cdeck.webmanifest", "cdeck.webmanifest"),
             ("sw_bytes", "/cdeck/sw.js", "sw.js"),
             ("header_js_bytes", "/cdeck/header.js", "header.js"),
-            ("deck_more_html_bytes", "/cdeck/deck_more.html", "deck_more.html")):
+            ("deck_more_html_bytes", "/cdeck/deck_more.html", "deck_more.html"),
+            ("deck_tabs_js_bytes", "/cdeck/deck_tabs.js", "deck_tabs.js")):
         c, h, b = _raw_get(port, path)
         rec(name,
             c == 200 and b == disk[key],
@@ -140,6 +144,18 @@ def run_named_checks(svc) -> list:
     rec("api_loopback_open",
         code == 200 and b'"ready"' in body,
         "status=%s" % code)
+
+    code, hdrs, body = _raw_get(port, "/cdeck/manifest.webmanifest")
+    rec("kdash_name_not_cdeck",
+        code in (401, 404) and body != disk["cdeck.webmanifest"],
+        "status=%s" % code)
+
+    tabs = disk["deck_tabs.js"].decode("utf-8", errors="replace")
+    fill = tabs.split("FILL_TABS = {")[1].split("};")[0] if "FILL_TABS = {" in tabs else ""
+    rec("tab_smoke_fill",
+        all(n + ":" in fill for n in (
+            "studio", "runs", "orders", "gitur", "forge", "crucible")),
+        "fill=%s" % fill[:120])
 
     code, hdrs, body = _raw_get(port, "/cdeck/nope")
     rec("unknown_cdeck_not_served",
@@ -213,7 +229,7 @@ def main() -> int:
     }
     EVIDENCE.write_text(json.dumps(evidence, indent=1), encoding="utf-8")
     _print_run("PRECHANGE (discriminating MUST fail)", pre)
-    _print_run("CURRENT (all ten MUST pass)", cur)
+    _print_run("CURRENT (all named MUST pass)", cur)
     print("EVIDENCE %s" % EVIDENCE)
     print("SELFTEST %s - %d checks current, %d passed; prechange discriminating "
           "failed=%s"

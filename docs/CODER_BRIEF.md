@@ -99,6 +99,7 @@ Parked leftover cDeck PRs: **#6 #16 #17 #68**. Parked leftover cosmos PRs: **#30
 5. **Coder crew (named, 2026-09-10):** Kelly Vertex **GF38** `gemini-3.8-flash` **and** **Gemini 3.1 Pro** `gemini-3.1-pro-preview` (Keith: fire review first; successor inherits `CREW/OUT/ELEGANT`). Cheap pair **GLM** + **DS V4 Flash** — **not** on the patent preload until Keith clears OR data-use. **Sol** major review (require mouth). **Cut** Ling and Solar. Luna Flex / Luna Pro Flex still credit pins; Terra escalate. Vendor benches are **guidelines**. **ANTHROPIC_OFF.**
 6. **P11 orthodoxy:** identical prefix bytes, append-only tail, measure `cached_tokens`. Vendor rates/TTL are guidelines.
 7. **Never delete** — stage to `_delme\`. **No bats.** GET never mkdir.
+8. **Sandbox notes (Keith 2026-09-10):** write every ephemeral idea and work product to `V:\A\Ai\COSMOS\ccr\sandbox_notes` (`NOW.md` first). Canon for ORC and CCr. Not chat. Not a second SEED. No unfiled patent bodies.
 
 **Tests you run**
 

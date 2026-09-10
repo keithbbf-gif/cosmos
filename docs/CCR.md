@@ -29,11 +29,25 @@ An empty lease file is not “no pen.” CCr **takes** the lease. A second CCr R
 | **OpenWork grant** | Workspace **`V:\Streams\openwork` only** | File work + orch mailbox. **Off** the OS live tree. No COSMOS folder grant. |
 | **Other streams** | **Own root only** | LEGAL, plumbing, UPS, … each have a tree. **No two streams share a root.** Mailbox before any shared write (BTS two-writer scar). |
 
-**Keith 2026-09-09:** **CCr reviews all code.** This TUI (Grok 4.6) is the
-disposing reviewer — every Gitur return, every farm proposal, every live-tree
-write. Gitur default PR/MR reviewer is **Claude** (`@claude review` on GitHub
-and GitLab). Vendor-plural: Claude on the forge, Grok as CCr. Not COSMOS
-`claude -p` (ANTHROPIC_OFF). Not Copilot-as-default. Diversity is the point.
+**Keith 2026-09-09:** **CCr reviews all code** then writes. This TUI is on
+**SuperGrok Heavy 52% used** (Grok Build; Voice/Chat share the same bar;
+reset Sep 10 5:35 PM). Do not Buy Credits. Do not Configure Auto Top-Up.
+**Shift autonomous QA** onto **Cursor Grok Bot** (weekly **3% used**, not
+Heavy, not SGH) — prebuilt Quality Assurance manager, 4.6 wrapper. She
+proposes. CCr disposes. She does not write `V:\A`. Do not spawn a second
+`grok.exe`. She can **orchestrate** (and may orch better than this TUI).
+**This TUI stays hard-core coding: direct ORC of CREW** (farm seats, Gitur
+BUILD) — that mouth is effective; do not move CREW coding orch onto Grok
+Bot. OpenWork remains GFO. **Trial 2026-09-09:** Grok Bot on a **cDeck tab
+overhaul** — propose only (`work_orders/ccr/GROKBOT_TAB_OVERHAUL.md`). CCr
+still the one writer. Gitur callable other-family reviewer stays
+**GLM**. Cursor Cloud Agents stay **grok-4.6** on Cursor Models (7%).
+Other Models 73% — do not park Sonnet/Opus there. Claude is optional
+diversity, not required.
+
+**Keith 2026-09-09 (field):** specialized cheap models, **orthogonal**, can
+equal or exceed a frontier. CREW is that bet (GLM + Ling + DS Flash + GF38
++ Luna). Direct ORC of CREW stays this TUI. Do not rent a monoculture.
 
 **Keith 2026-09-04 (this TUI, verbatim intent):** *you don't code — you write work
 orders, you run github/cursor/gitlab, you review/refine the code and write to
@@ -64,6 +78,8 @@ Gitur is not a pen and not a fourth writer. Map: `docs/ROUTING.md`.
 **Keith 2026-09-06: You don't need me.** Engine-house work does **not** wait on Keith. Merge, Gitur, Core, lift, keep-synced — execute. Need Keith only for money, credentials, course, and stop. No “want me to?” on cheap/low-risk engine work.
 
 **Engine house must have (Keith 2026-09-06):** rails **mapped, wired, measured, and up**; **CLI tools**; **MCPs**; **docs for every node**; **drives mapped and working**; **backup routine writing**. Run the existing clocks and probers. Do not invent a second mesh. Gitur BUILD for gaps. Paid rail `--live` prove is in-bounds when the engine house is standing itself up.
+
+**Sandbox notes (Keith 2026-09-10):** keep the sandbox written to **this drive** as we go. Every ephemeral idea and work product — take notes. Canon for **all future ORC and CCr sessions.** Path: `V:\A\Ai\COSMOS\ccr\sandbox_notes` (`NOW.md` living; dated dumps beside it). Chat and compaction are not the scratch. Do not copy unfiled patent packet bodies here — point. CCr writes; ORC reads on BootUP.
 
 **Keith 2026-09-05 (this chair):** keep COSMOS **ticking**, **finish features**, and optimize for **elegance, simplicity, and token economy**.
 
