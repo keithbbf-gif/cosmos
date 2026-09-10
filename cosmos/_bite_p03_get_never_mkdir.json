@@ -1,0 +1,9 @@
+{
+  "schema": "cosmos-porosity-tensor/4",
+  "absent_store_direct": true,
+  "absent_store_http": true,
+  "jsonl_without_sqlite_direct": true,
+  "jsonl_without_sqlite_http": true,
+  "empty_snapshot_no_invented_pair": true,
+  "all_bite": true
+}
