@@ -12,8 +12,9 @@ max; OpenRouter Flex is **½ off** the Pro page ($0.10/$0.875 vs $0.20/$1.75).
 **1.1M context.** Vendor cache-hit rates differ (Flex ~45% vs OpenAI ~76%
 on the 2026-09-10 Pricing table — not a COSMOS score). Measure
 `cached_tokens`. Not a swap of luna. Catalog COD UNMEASURED. Sol =
-openai/gpt-5.6-sol for **major full-code reviews only**. Cheap twins =
-z-ai/glm-5.3-flash + inclusionai/ling-3.0-flash. ANTHROPIC_OFF on COSMOS
+openai/gpt-5.6-sol for **major full-code reviews only**. Cheap pair (ROUTING) =
+z-ai/glm-5.3-flash + deepseek/deepseek-v4-flash-0731. Ling 3.0 Flash only
+if named; window 262144 — never CACHE_FAT. ANTHROPIC_OFF on COSMOS
 dispatch — Opus/Sonnet are not a COSMOS rail (Cursor/GitHub/GitLab only).
 
 Two-tier (guidelines, re-measure):
@@ -21,8 +22,9 @@ Two-tier (guidelines, re-measure):
   pages may rank 3.7 Flash as a daily driver — that is not a pin change.
 - Hard multi-file / tests+recover: escalate openai/gpt-5.6-terra Flex
   (`--seat terra`). Not Sol. Not oa-api poll.
-- Volume/boilerplate: cheap twins. DS V4 Flash is the 429 understudy, not
-  the named pair. Gemini 3.5 Flash-Lite speed is not a COSMOS pin.
+- Volume/boilerplate: cheap pair GLM + DS V4 Flash. Ling only if named.
+  DS is also the 429 retry mouth. Gemini 3.5 Flash-Lite speed is not a
+  COSMOS pin.
 
 Mouth still: unified diff FIRST or NONE. Live bytes win PREFIX lag.
 
