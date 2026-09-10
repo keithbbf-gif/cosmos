@@ -387,10 +387,14 @@ class VertexRail:
         }
 
     def ask(self, prompt: str, *, model: str | None = None,
-            system: str | None = None, cached_content: str | None = None) -> dict:
+            system: str | None = None, cached_content: str | None = None,
+            max_output_tokens: int | None = None,
+            timeout_s: int | None = None) -> dict:
         model = str(model or self.spec.get("default_model") or DEFAULT_MODEL).strip()
         if not model:
             model = DEFAULT_MODEL
+        if timeout_s is not None:
+            self.spec["timeout_s"] = max(1, int(timeout_s))
         body = {
             "contents": [{"role": "user", "parts": [{"text": str(prompt)}]}],
         }
@@ -402,11 +406,14 @@ class VertexRail:
         elif sys_t:
             # Implicit cache: stable systemInstruction first, item in contents.
             body["systemInstruction"] = {"parts": [{"text": sys_t}]}
+        cfg = {}
         tb = THINK_BUDGET.get(model)
         if tb is not None:
-            body["generationConfig"] = {
-                "thinkingConfig": {"thinkingBudget": tb},
-            }
+            cfg["thinkingConfig"] = {"thinkingBudget": tb}
+        if max_output_tokens is not None:
+            cfg["maxOutputTokens"] = max(1, int(max_output_tokens))
+        if cfg:
+            body["generationConfig"] = cfg
         use_project = (
             str(self.spec.get("auth") or "").strip().lower() == "adc"
             or str(self.spec.get("role") or "") == "coding"
@@ -447,13 +454,23 @@ class VertexRail:
         ).strip()
         um = parsed.get("usageMetadata") if isinstance(
             parsed.get("usageMetadata"), dict) else {}
+        ptd = um.get("promptTokensDetails") or um.get("prompt_tokens_details") or {}
+        if not isinstance(ptd, dict):
+            ptd = {}
+        cached = (
+            um.get("cachedContentTokenCount")
+            or um.get("cached_content_token_count")
+            or um.get("total_cached_tokens")
+            or um.get("cachedTokens")
+            or ptd.get("cachedTokens")
+            or ptd.get("cached_tokens")
+            or 0
+        )
         tokens = {
             "in": um.get("promptTokenCount") or 0,
             "out": um.get("candidatesTokenCount") or 0,
             "thinking": um.get("thoughtsTokenCount") or 0,
-            "cached": um.get("cachedContentTokenCount")
-            or um.get("cached_content_token_count")
-            or 0,
+            "cached": cached,
         }
         for k, v in um.items():
             if "cache" in str(k).lower() and k not in tokens:

@@ -15,8 +15,7 @@ on the 2026-09-10 Pricing table — not a COSMOS score). Measure
 openai/gpt-5.6-sol for **major full-code reviews only**. Cheap pair =
 z-ai/glm-5.3-flash + deepseek/deepseek-v4-flash-0731. **Cut** Ling and
 Solar (window/quality). Sol stays major-review. Kelly Vertex: GF38
-gemini-3.8-flash **and** gemini-3.1-pro-preview (see them run — do not
-fire until Keith says). ANTHROPIC_OFF on COSMOS dispatch — Opus/Sonnet
+gemini-3.8-flash **and** gemini-3.1-pro-preview. ANTHROPIC_OFF on COSMOS dispatch — Opus/Sonnet
 are not a COSMOS rail (Cursor/GitHub/GitLab only).
 
 Two-tier (guidelines, re-measure):
