@@ -108,9 +108,6 @@ that omits what it serves is an undocumented surface, not a short one):
     POST /api/v1/profiles  - save a profile MOTIF skin (problem + dest + stage notes).
     POST /api/v1/profiles/bg - Forge RESEARCH→CONSENSUS background free CLI. Not IMPLEMENT.
                            Does not start MOTIF. Does not publish.
-    POST /api/v1/motif/run   - BUILD or CRITICS run gate (P01 DEFINE-first). Refuses
-                           when PROBLEM STATEMENT / STATED GOAL is empty. Does not
-                           launch Gitur or invent traces.
     POST /api/v1/session_kit - save COS/autosave/resession config. Does not
                            fire TidyUP or a resession.
     POST /api/v1/session_tools - Sessions verbs (scan/load/convert/diff/check/
@@ -356,6 +353,7 @@ _CT_JS = "text/javascript; charset=utf-8"
 _CT_CSS = "text/css; charset=utf-8"
 _CT_SVG = "image/svg+xml"
 _CT_MP3 = "audio/mpeg"
+_CT_JPEG = "image/jpeg"
 # Exact names on disk under builds/cdeck/ui/. No wildcard. Nested planets/
 # only because those files exist (Holst). Do not invent icons/favicon.
 _CDECK_UI_FILES = (
@@ -379,7 +377,15 @@ _CDECK_UI_FILES = (
     ("deck_backup.js", _CT_JS),
     ("deck_session_kit.js", _CT_JS),
     ("deck_orders.js", _CT_JS),
+    ("deck_sfx.js", _CT_JS),
     ("openwork.svg", _CT_SVG),
+    ("skins/forge-engineroom.jpg", _CT_JPEG),
+    ("skins/crucible-chamber.jpg", _CT_JPEG),
+    ("skins/diligence-dealroom.jpg", _CT_JPEG),
+    ("skins/docket-archive.jpg", _CT_JPEG),
+    ("skins/ups-lab.jpg", _CT_JPEG),
+    ("skins/differentiator-clinic.jpg", _CT_JPEG),
+    ("skins/website-studio.jpg", _CT_JPEG),
     ("planets/jupiter.mp3", _CT_MP3),
     ("planets/mars.mp3", _CT_MP3),
     ("planets/venus.mp3", _CT_MP3),
@@ -937,6 +943,11 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, gitur_snapshot(kernel))
                 except GiturError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+            if parsed.path == "/api/v1/crew":
+                from cosmos_crew_roster import snapshot as crew_snapshot
+                rec = crew_snapshot(kernel.paths)
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(200, rec)
             if parsed.path == "/api/v1/cred":
                 from cosmos_cred_kit import snapshot as cred_snapshot
                 rails = {}
@@ -1747,7 +1758,6 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 from cosmos_porosity import (
                     PorosityError, coverage, hook_trial, record_pair, recommend,
                 )
-                from cosmos_p06_compare import compare_box_token
                 body = self._read_body()
                 if body is None:
                     return
@@ -1794,16 +1804,6 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             costs=d.get("costs"),
                             incumbent=d.get("incumbent") or "",
                         )
-                    elif act == "compare":
-                        rec = compare_box_token(
-                            kernel.paths,
-                            box_agents=d.get("box_agents") or d.get("box") or [],
-                            token_agents=d.get("token_agents") or d.get("token") or [],
-                            profile=d.get("profile") or "forge",
-                            token_incumbent=d.get("token_incumbent") or "",
-                            box_cost_usd=d.get("box_cost_usd"),
-                            token_costs=d.get("token_costs"),
-                        )
                     else:
                         rec = record_pair(
                             kernel.paths,
@@ -1827,27 +1827,6 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(200, rec)
                 except PorosityError as e:
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
-            if _wo_urlparse(self.path).path == "/api/v1/motif/run":
-                from cosmos_motif_define import MotifDefineError
-                from cosmos_motif_run import start as motif_run_start
-                body = self._read_body()
-                if body is None:
-                    return
-                try:
-                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
-                except Exception as e:  # noqa: BLE001
-                    return self._send(400, {"error": "BAD_REQUEST",
-                                            "detail": str(e)[:200]})
-                try:
-                    rec = motif_run_start(
-                        kernel.paths,
-                        str(d.get("stage") or ""),
-                        profile=d.get("profile") or "forge",
-                    )
-                except MotifDefineError as e:
-                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
-                rec["tree_id"] = kernel.paths.sentinel.tree_id
-                return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/profiles/bg":
                 from cosmos_forge_bg import ForgeBgError, facilitate, start as forge_bg_start
                 from cosmos_profiles import load_engine
