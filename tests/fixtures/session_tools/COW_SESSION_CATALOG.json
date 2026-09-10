@@ -1,0 +1,6 @@
+[
+  {"seq": 1, "filename": "001.md", "date": "2026-09-01", "stream": "plumbing",
+   "session_id": "abc", "turns": 1, "title": "clocks"},
+  {"seq": 2, "filename": "002.md", "date": "2026-09-02", "stream": "legal",
+   "session_id": "leg1", "turns": 1, "title": "parked"}
+]
