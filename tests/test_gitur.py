@@ -9,9 +9,9 @@ from types import SimpleNamespace
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "cosmos"))
 
 from cosmos_gitur import (  # noqa: E402
-    DEFAULT_REVIEW_COMMENT, DEFAULT_REVIEWER, JOB_NEEDLES, _SNAP_CACHE,
-    _SNAP_CACHE_S, _SNAP_LOCK, _gitur_job, github_live,
-    request_default_review, snapshot,
+    DEFAULT_REVIEW_MODEL, DEFAULT_REVIEW_TRIGGER, DEFAULT_REVIEWER,
+    JOB_NEEDLES, _SNAP_CACHE, _SNAP_CACHE_S, _SNAP_LOCK, _gitur_job,
+    github_live, request_default_review, snapshot, vendor_lives,
 )
 
 
@@ -119,6 +119,35 @@ def test_github_live_marks_parked_leftover():
     assert rec["runs"] and rec["runs"][0]["st"] == "CLEAN"
 
 
+def test_vendor_lives_overlap_threads(tmp_path):
+    """Sequential gh+glab+cursor first-fill measured 6.6s. Overlap must use
+    more than one thread; fake runner sleeps so wall time stays under the
+    sequential lower bound."""
+    import threading
+    import time
+    from cosmos_kernel import install
+    from cosmos_paths import CosmosPaths
+
+    ids = set()
+    lock = threading.Lock()
+
+    def slow(argv):
+        with lock:
+            ids.add(threading.get_ident())
+        time.sleep(0.08)
+        return _fake_gitur_run(argv)
+
+    root = install(tmp_path / "live", tree_id="spike-gitur-overlap")
+    paths = CosmosPaths(root)
+    t0 = time.time()
+    gh, gl, cur = vendor_lives(paths, run=slow, http=_fake_cursor_http)
+    elapsed = time.time() - t0
+    assert gh["ok"] is True and gl["ok"] is True and cur["ok"] is True
+    assert len(ids) >= 2
+    # 7 CLI sleeps * 0.08s sequential = 0.56s. Overlap must beat that.
+    assert elapsed < 0.48
+
+
 def test_snapshot_folds_rails_without_github_poll(tmp_path, monkeypatch):
     from cosmos_kernel import install
     from cosmos_paths import CosmosPaths
@@ -156,21 +185,34 @@ def test_snapshot_folds_rails_without_github_poll(tmp_path, monkeypatch):
     assert isinstance(rec["log"], list)
     assert "Does not invent PR lists" in rec["note"]
     assert "/v1/repositories" in rec["note"]
-    assert rec["review"]["default"] == "claude"
-    assert rec["review"]["trigger"] == "@claude review"
-    assert rec["panes"]["github"]["role"].startswith("origin, PRs, Claude review")
+    assert rec["review"]["default"] == "glm"
+    assert rec["review"]["model"] == "z-ai/glm-5.3-flash"
+    assert rec["review"]["via"] == "openrouter"
+    assert rec["panes"]["github"]["role"].startswith("origin, PRs, GLM")
 
 
-def test_request_default_review_posts_claude_not_copilot():
-    rec = request_default_review("keithbbf-gif/cdeck", 1, run=_fake_gitur_run)
+def test_request_default_review_uses_glm_not_cursor_sonnet():
+    seen = []
+
+    def fake_launch(prompt, extra):
+        seen.append((prompt, extra))
+        return {"ok": True, "kind": "OK", "agent_id": "glm-test",
+                "detail": "launched"}
+
+    rec = request_default_review("keithbbf-gif/cdeck", 1, launch=fake_launch)
     assert rec["ok"] is True
-    assert rec["reviewer"] == DEFAULT_REVIEWER == "claude"
-    assert rec["trigger"] == DEFAULT_REVIEW_COMMENT
-    assert rec["via"] == "gh"
+    assert rec["reviewer"] == DEFAULT_REVIEWER == "glm"
+    assert rec["model"] == DEFAULT_REVIEW_MODEL == "z-ai/glm-5.3-flash"
+    assert rec["trigger"] == DEFAULT_REVIEW_TRIGGER
+    assert rec["via"] == "openrouter"
+    prompt, extra = seen[0]
+    assert "z-ai/glm-5.3-flash" in prompt
+    assert "Not Fable" in prompt and "Not Opus" in prompt
+    assert extra["model"] == "z-ai/glm-5.3-flash"
     mr = request_default_review("keithbbf-gif/cosmos", 2, kind="mr",
-                                run=_fake_gitur_run)
-    assert mr["ok"] is True and mr["via"] == "glab"
-    bad = request_default_review("", "x", run=_fake_gitur_run)
+                                launch=fake_launch)
+    assert mr["ok"] is True and "merge_requests/2" in mr["url"]
+    bad = request_default_review("", "x", launch=fake_launch)
     assert bad["ok"] is False and bad["kind"] == "REFUSED"
 
 
