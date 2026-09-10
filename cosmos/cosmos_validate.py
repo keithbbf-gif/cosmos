@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 from pathlib import Path
 from typing import Callable, Optional
@@ -20,8 +21,8 @@ from cosmos_ledger import Ledger
 
 
 class ValidateError(RuntimeError):
-    """kind in {SHORT_READ, HASH_MISMATCH, FAILED_VALIDATION, NO_VALIDATOR,
-    UNVALIDATED}."""
+    """kind in {SHORT_READ, HASH_MISMATCH, VERIFY_MISMATCH, FAILED_VALIDATION,
+    NO_VALIDATOR, UNVALIDATED}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -53,11 +54,30 @@ def read_verified(path: Path, expect_len: Optional[int] = None,
 
 
 def write_declared(path: Path, content: bytes) -> dict:
-    """Write + return the declaration (len, sha) the reader will verify against."""
+    """Write, fsync, re-read. Declaration is disk bytes, never intended-only.
+
+    Predecessor: returned len/sha of the in-memory buffer after a raw write.
+    A truncated or mid-copy-mutated file still sealed. Round-trip is the gate.
+    """
+    want_len = len(content)
+    want_sha = hashlib.sha256(content).hexdigest()
     with open(extended(path), "wb") as fh:
         fh.write(content)
-    return {"path": str(path), "len": len(content),
-            "sha": hashlib.sha256(content).hexdigest()}
+        fh.flush()
+        os.fsync(fh.fileno())
+    try:
+        got = read_verified(path, expect_len=want_len, expect_sha=want_sha)
+    except ValidateError as e:
+        raise ValidateError(
+            "VERIFY_MISMATCH",
+            f"{path}: write did not round-trip ({e.kind})",
+        ) from e
+    if got != content:
+        raise ValidateError(
+            "VERIFY_MISMATCH",
+            f"{path}: disk bytes != intended after write",
+        )
+    return {"path": str(path), "len": want_len, "sha": want_sha}
 
 
 # ---------------- validators ----------------

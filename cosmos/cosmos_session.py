@@ -48,7 +48,7 @@ CONTROL_RELPATHS = (
 
 class SessionError(RuntimeError):
     """kind in {NO_SEED, BAD_SEED, UNPARSEABLE, IDENTITY_MISMATCH, NOT_FOUND,
-    ALREADY_OPEN, BAD_STREAM, CONTROL_INVALID}."""
+    ALREADY_OPEN, BAD_STREAM, CONTROL_INVALID, VERIFY_MISMATCH}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -283,15 +283,28 @@ class SessionManager:
             archive = self.k.paths.role("state", "seeds", f"{safe}-{stamp}.json")
             archive.parent.mkdir(parents=True, exist_ok=True)
             if not archive.exists():
-                archive.write_bytes(path.read_bytes())
+                raw = path.read_bytes()
+                archive.write_bytes(raw)
+                copied = archive.read_bytes()
+                if copied != raw:
+                    raise SessionError(
+                        "VERIFY_MISMATCH",
+                        f"SEED archive copy mutated during write: {archive}",
+                    )
 
-        decl = write_declared(path, payload)
-        write_declared(
-            decl_path,
-            json.dumps({"len": decl["len"], "sha": decl["sha"],
-                        "schema": SEED_SCHEMA,
-                        "mac": self._seed_mac(seed.get("tree_id", ""), payload)},
-                       indent=1, sort_keys=True).encode("utf-8"))
+        try:
+            decl = write_declared(path, payload)
+            write_declared(
+                decl_path,
+                json.dumps({"len": decl["len"], "sha": decl["sha"],
+                            "schema": SEED_SCHEMA,
+                            "mac": self._seed_mac(seed.get("tree_id", ""), payload)},
+                           indent=1, sort_keys=True).encode("utf-8"))
+        except ValidateError as e:
+            kind = getattr(e, "kind", "")
+            if kind in ("VERIFY_MISMATCH", "HASH_MISMATCH", "SHORT_READ"):
+                raise SessionError("VERIFY_MISMATCH", str(e)) from e
+            raise
         return path
 
     # ---------------- start = BootUP + inject ----------------
