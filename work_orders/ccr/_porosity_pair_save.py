@@ -24,6 +24,7 @@ sys.path.insert(0, str(ROOT / "work_orders" / "ccr"))
 from cosmos_paths import CosmosPaths  # noqa: E402
 from cosmos_session import require_bootup  # noqa: E402
 from _crew_tab_teams import TABS  # noqa: E402
+from itertools import combinations  # noqa: E402
 from _pair_pack import seat_pack, system_texts, user_cached_texts  # noqa: E402
 
 JUDGE_ID = "g46-ccr"
@@ -144,7 +145,17 @@ def main() -> int:
             seen = set()
     wrote = 0
     skipped = 0
-    for tab, sa, sb in TABS:
+    combos = list(TABS)
+    for tab_dir in MOUTH.iterdir():
+        if not tab_dir.is_dir():
+            continue
+        seats = sorted({p.name.split("-")[0] for p in tab_dir.glob("*.json")
+                        if "-" in p.name and not p.name.startswith("_")})
+        for sa, sb in combinations(seats, 2):
+            rec = (tab_dir.name, sa, sb)
+            if rec not in combos and (tab_dir.name, sb, sa) not in combos:
+                combos.append(rec)
+    for tab, sa, sb in combos:
         pairs = _pair_greedy(_mouths(tab, sa), _mouths(tab, sb))
         for a, b in pairs:
             na = a["_path"].name

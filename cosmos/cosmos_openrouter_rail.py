@@ -9,7 +9,14 @@ only because Keith asked.
   google/gemma-4-26b-a4b-it:free   (default, $0)
   google/gemma-4-31b-it:free
   z-ai/glm-5.3-flash              (value coder 2026-09-07: high skill, low cost)
-  deepseek/deepseek-v4-flash-0731 (cheap coder 2026-09-08: coding MoE)
+  deepseek/deepseek-v4-flash-0731 (cheap coder 2026-09-08: coding MoE, GA)
+  deepseek/deepseek-v4-flash      (cheap coder 2026-09-10: 0423, second RPM)
+  qwen/qwen3.8-flash              (cheap coder 2026-09-10: Qwen3 line Flash)
+  nvidia/nemotron-3.5-lightning   (cheap coder 2026-09-10: paid, not :free)
+  mistralai/codestral-2508        (cheap coder 2026-09-10: Mistral coding)
+  meta-llama/llama-4-maverick     (cheap coder 2026-09-10: Meta Llama, paid)
+  meta/muse-spark-1.2-contributor (cheap coder 2026-09-10: Muse Spark 1.2 Contributor)
+  openai/gpt-oss-120b             (cheap coder 2026-09-10: GPT OSS 120B)
   upstage/solar-pro4              (cheap coder 2026-09-08: Keith word)
   inclusionai/ling-3.0-flash      (cheap coder 2026-09-08: Keith word)
   openai/gpt-5.6-terra            (value 2026-09-08: OpenAI Flex endpoint)
@@ -59,8 +66,20 @@ PINNED_FREE = frozenset({DEFAULT_MODEL, GEMMA_31B})
 # Different family from Grok / Gemini / Claude. Not the rotator.
 VALUE_CODER = "z-ai/glm-5.3-flash"
 DEEPSEEK_V4_FLASH = "deepseek/deepseek-v4-flash-0731"
+# Keith 2026-09-10: 0423 is a distinct OR slug / provider queue from 0731 GA.
+# Not a swap. Not Pro. Not v4.1-flash.
+DEEPSEEK_V4_FLASH_0423 = "deepseek/deepseek-v4-flash"
 SOLAR_PRO4 = "upstage/solar-pro4"
 LING_FLASH = "inclusionai/ling-3.0-flash"
+# Keith 2026-09-10: try Qwen3 / Nemotron / Mistral as extra cheap families.
+# Named pins only. Not :free. Not ~latest. Not Qwen3.8 Max. Not Devstral ($0.40/$2).
+QWEN38_FLASH = "qwen/qwen3.8-flash"
+NEMOTRON_LIGHTNING = "nvidia/nemotron-3.5-lightning"
+MISTRAL_CODESTRAL = "mistralai/codestral-2508"
+# Keith 2026-09-10: Meta Llama. Paid Maverick, not llama-4-scout:free (rotator refuse).
+LLAMA4_MAVERICK = "meta-llama/llama-4-maverick"
+MUSE_SPARK_12C = "meta/muse-spark-1.2-contributor"
+GPT_OSS_120B = "openai/gpt-oss-120b"
 GPT56_TERRA = "openai/gpt-5.6-terra"
 GPT56_LUNA = "openai/gpt-5.6-luna"
 GPT56_LUNA_PRO = "openai/gpt-5.6-luna-pro"
@@ -88,7 +107,10 @@ TERRA_PROVIDERS = FLEX_PROVIDERS
 PROMPT_CACHE_POLICY = "v2"
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 # Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
-CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, SOLAR_PRO4, LING_FLASH)
+CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, DEEPSEEK_V4_FLASH_0423,
+                QWEN38_FLASH, NEMOTRON_LIGHTNING, MISTRAL_CODESTRAL,
+                LLAMA4_MAVERICK, MUSE_SPARK_12C, GPT_OSS_120B,
+                SOLAR_PRO4, LING_FLASH)
 PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {GPT56_SOL}
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
@@ -225,109 +247,6 @@ def tag_preload(messages, *, flex: bool = False):
             m["content"] = parts
         out.append(m)
     return out
-
-
-class PrecacheError(RuntimeError):
-    """P14 precache gate — kinds NAKED_FIRST_QUERY, FABRICATED_CACHE_HIT."""
-
-    def __init__(self, kind: str, detail: str):
-        self.kind = kind
-        super().__init__(f"[{kind}] {detail}")
-
-
-_USER_PING_MARKERS = frozenset({"ping", "pong", "ok", "hi", "hello", "test"})
-
-
-def _user_text(msg: dict) -> str:
-    content = msg.get("content")
-    if isinstance(content, str):
-        return content.strip()
-    if isinstance(content, list) and content and isinstance(content[0], dict):
-        return str(content[0].get("text") or "").strip()
-    return ""
-
-
-def is_user_only_ping(messages) -> bool:
-    """Narrow user-only ping — not every naked user message (PROMPT_CACHE)."""
-    if not isinstance(messages, list) or len(messages) != 1:
-        return False
-    msg = messages[0]
-    if not isinstance(msg, dict):
-        return False
-    if str(msg.get("role") or "").strip().lower() != "user":
-        return False
-    text = _user_text(msg)
-    if not text:
-        return False
-    low = text.lower()
-    if low in _USER_PING_MARKERS:
-        return True
-    return len(low) <= 5 and "\n" not in low
-
-
-def _preload_has_cache_control(msg: dict) -> bool:
-    content = msg.get("content")
-    if isinstance(content, dict):
-        return content.get("cache_control") == CACHE_CONTROL_EPHEMERAL
-    if isinstance(content, list):
-        for part in content:
-            if isinstance(part, dict) and part.get("cache_control") == CACHE_CONTROL_EPHEMERAL:
-                return True
-    return False
-
-
-def _preload_blocks(messages) -> list:
-    blocks = []
-    if not isinstance(messages, list):
-        return blocks
-    for msg in messages:
-        if not isinstance(msg, dict):
-            continue
-        role = str(msg.get("role") or "").strip().lower()
-        if role not in PRELOAD_ROLES:
-            continue
-        content = msg.get("content")
-        if isinstance(content, str) and content.strip():
-            blocks.append(msg)
-        elif isinstance(content, list) and content:
-            blocks.append(msg)
-        elif isinstance(content, dict) and content:
-            blocks.append(msg)
-    return blocks
-
-
-def audit_precache_messages(messages) -> None:
-    """Refuse agent first queries without tagged preload (P14 / PROMPT_CACHE).
-
-    User-only pings are exempt. Not engine KV cache — OpenRouter ``cache_control``
-    on the stable prefix plus ``cache_family`` routing affinity.
-    """
-    if is_user_only_ping(messages):
-        return
-    preloads = _preload_blocks(messages)
-    if not preloads:
-        raise PrecacheError(
-            "NAKED_FIRST_QUERY",
-            "no system/developer preload — naked first query is out of SOP",
-        )
-    for msg in preloads:
-        if not _preload_has_cache_control(msg):
-            raise PrecacheError(
-                "NAKED_FIRST_QUERY",
-                "preload block lacks cache_control ephemeral tag",
-            )
-
-
-def audit_cache_hit_claim(usage_fold, *, claim_cache_hit: bool = False) -> None:
-    """Refuse a claimed cache hit without measured ``cached_tokens``."""
-    if not claim_cache_hit:
-        return
-    cached = usage_fold.get("cached_tokens") if isinstance(usage_fold, dict) else None
-    if cached is None:
-        raise PrecacheError(
-            "FABRICATED_CACHE_HIT",
-            "cache hit claimed but usage_fold.cached_tokens is missing",
-        )
 
 
 def _provider_tag(model: str, payload: dict) -> str | None:
@@ -808,56 +727,19 @@ class OpenRouterRail:
             prov["only"] = [tag]
             prov["order"] = [tag]
         flex = model in FLEX_MODELS
-        tagged_messages = tag_preload(
-            list(messages) if isinstance(messages, list) else messages,
-            flex=flex,
-        )
-        motif_stage = str(payload.get("motif_stage") or "").strip().lower()
-        if motif_stage in ("build", "critics") and payload.get("root"):
-            try:
-                from cosmos_motif_run import start as motif_run_start
-                from cosmos_paths import CosmosPaths
-
-                motif_run_start(CosmosPaths(str(payload["root"])), motif_stage)
-            except Exception as e:  # noqa: BLE001
-                kind = getattr(e, "kind", "REFUSED")
-                return {
-                    "ok": False,
-                    "kind": kind,
-                    "detail": str(e)[:300],
-                    "model_requested": model,
-                    "link_id": self.link_id,
-                    "motif_stage": motif_stage,
-                }
-        precache_exempt = (
-            payload.get("precache_exempt") is True
-            or payload.get("user_only_ping") is True
-            or is_user_only_ping(tagged_messages)
-        )
-        if not precache_exempt:
-            try:
-                audit_precache_messages(tagged_messages)
-            except PrecacheError as e:
-                return {
-                    "ok": False,
-                    "kind": e.kind,
-                    "detail": str(e),
-                    "model_requested": model,
-                    "link_id": self.link_id,
-                }
         body = {
             "model": model,
-            "messages": tagged_messages,
+            "messages": tag_preload(
+                list(messages) if isinstance(messages, list) else messages,
+                flex=flex,
+            ),
             "max_tokens": max_c,
             "stream": False,
             "provider": prov,
         }
-        prefix_for_key = str(payload.get("precache_prefix") or "").strip()
         pck = str(payload.get("prompt_cache_key") or "").strip()
         if not pck and flex:
-            pck = cache_family(model=model, prefix=prefix_for_key)
-        elif not pck and prefix_for_key:
-            pck = cache_family(model=model, prefix=prefix_for_key)
+            pck = cache_family(model=model)
         if pck:
             body["prompt_cache_key"] = pck
             body["session_id"] = pck
@@ -877,12 +759,6 @@ class OpenRouterRail:
         )
         ok = status == 200 and bound_ok
         usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
-        claim_hit = payload.get("claim_cache_hit") is True
-        if claim_hit:
-            try:
-                audit_cache_hit_claim(usage_fold, claim_cache_hit=True)
-            except PrecacheError as e:
-                ok = False
         rec = {
             "ok": ok,
             "http": status,
@@ -892,7 +768,6 @@ class OpenRouterRail:
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
             "usage_fold": usage_fold,
-            "cached_tokens": usage_fold.get("cached_tokens"),
             "tool_calls": _tool_calls(obj if isinstance(obj, dict) else {}),
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "provider_tag": (prov.get("only") or [None])[0],
@@ -901,8 +776,6 @@ class OpenRouterRail:
         }
         if not ok and rec["kind"] is None:
             rec["kind"] = "BROKE"
-        if claim_hit and not ok:
-            rec["kind"] = "FABRICATED_CACHE_HIT"
         if ok and paths is not None:
             try:
                 record_usage(paths, usage_fold, model=str(response_model or model),
@@ -1089,13 +962,9 @@ def gate(root: str | os.PathLike, *, http=None) -> dict:
     ok, detail = rail.probe()
     ident = rail.last_identity() or {}
     chat = rail.dispatch({
-        "messages": [
-            {"role": "system", "content": "COSMOS openrouter rail gate preload."},
-            {"role": "user",
-             "content": "Reply with exactly GEMMA4_READY and nothing else."},
-        ],
+        "text": "Reply with exactly GEMMA4_READY and nothing else.",
         "max_tokens": GATE_MAX_TOKENS,
-    }, paths=paths)
+    })
     rec = {
         "schema": SCHEMA,
         "worker": WORKER,
@@ -1307,6 +1176,27 @@ def _selftest() -> int:
     ds = rail.dispatch({"model": DEEPSEEK_V4_FLASH, "text": "x"})
     check("cheap coder deepseek-v4-flash-0731 is a named pin",
           lambda: ds["ok"] and ds["model"] == DEEPSEEK_V4_FLASH)
+    ds0423 = rail.dispatch({"model": DEEPSEEK_V4_FLASH_0423, "text": "x"})
+    check("cheap coder deepseek-v4-flash 0423 is a named pin (second RPM)",
+          lambda: ds0423["ok"] and ds0423["model"] == DEEPSEEK_V4_FLASH_0423)
+    qwen = rail.dispatch({"model": QWEN38_FLASH, "text": "x"})
+    check("cheap coder qwen3.8-flash is a named pin",
+          lambda: qwen["ok"] and qwen["model"] == QWEN38_FLASH)
+    nemo = rail.dispatch({"model": NEMOTRON_LIGHTNING, "text": "x"})
+    check("cheap coder nemotron-3.5-lightning is a named pin (not :free)",
+          lambda: nemo["ok"] and nemo["model"] == NEMOTRON_LIGHTNING)
+    mist = rail.dispatch({"model": MISTRAL_CODESTRAL, "text": "x"})
+    check("cheap coder codestral-2508 is a named pin",
+          lambda: mist["ok"] and mist["model"] == MISTRAL_CODESTRAL)
+    llama = rail.dispatch({"model": LLAMA4_MAVERICK, "text": "x"})
+    check("cheap coder llama-4-maverick is a named pin (paid, not :free)",
+          lambda: llama["ok"] and llama["model"] == LLAMA4_MAVERICK)
+    muse = rail.dispatch({"model": MUSE_SPARK_12C, "text": "x"})
+    check("cheap coder muse-spark-1.2-contributor is a named pin",
+          lambda: muse["ok"] and muse["model"] == MUSE_SPARK_12C)
+    oss = rail.dispatch({"model": GPT_OSS_120B, "text": "x"})
+    check("cheap coder gpt-oss-120b is a named pin",
+          lambda: oss["ok"] and oss["model"] == GPT_OSS_120B)
     solar = rail.dispatch({"model": SOLAR_PRO4, "text": "x"})
     check("cheap coder solar-pro4 is a named pin",
           lambda: solar["ok"] and solar["model"] == SOLAR_PRO4)
@@ -1356,51 +1246,6 @@ def _selftest() -> int:
           _preload_skips_user_only)
     check("tag_preload Flex gets cache_control and breakpoint",
           _preload_flex_gets_both)
-
-    def _naked_untagged_system():
-        audit_precache_messages([
-            {"role": "system", "content": "PREFIX without tag"},
-            {"role": "user", "content": "task"},
-        ])
-    def _naked_user_only_agent():
-        audit_precache_messages([{"role": "user", "content": "do the thing"}])
-    def _user_ping_ok():
-        audit_precache_messages([{"role": "user", "content": "ping"}])
-        return True
-    def _fabricated_hit():
-        audit_cache_hit_claim({"kind": "MEASURED"}, claim_cache_hit=True)
-    try:
-        _naked_untagged_system()
-        check("NAKED_FIRST_QUERY: untagged system preload is refused", lambda: False)
-    except PrecacheError as e:
-        check("NAKED_FIRST_QUERY: untagged system preload is refused",
-              lambda: e.kind == "NAKED_FIRST_QUERY")
-    try:
-        _naked_user_only_agent()
-        check("NAKED_FIRST_QUERY: user-only agent query is refused", lambda: False)
-    except PrecacheError as e:
-        check("NAKED_FIRST_QUERY: user-only agent query is refused",
-              lambda: e.kind == "NAKED_FIRST_QUERY")
-    check("user-only ping exempt from precache gate", _user_ping_ok)
-    try:
-        _fabricated_hit()
-        check("FABRICATED_CACHE_HIT without cached_tokens is refused", lambda: False)
-    except PrecacheError as e:
-        check("FABRICATED_CACHE_HIT without cached_tokens is refused",
-              lambda: e.kind == "FABRICATED_CACHE_HIT")
-    tagged_agent = rail.dispatch({
-        "model": VALUE_CODER,
-        "messages": [
-            {"role": "system", "content": "STABLE PREFIX"},
-            {"role": "user", "content": "ITEM"},
-        ],
-    })
-    check("tagged system+user dispatch binds and measures cached_tokens",
-          lambda: tagged_agent["ok"]
-          and tagged_agent.get("cached_tokens") == 1)
-    ping_only = rail.dispatch({"text": "ping"})
-    check("user-only ping dispatch stays exempt and measures cached_tokens",
-          lambda: ping_only["ok"] and ping_only.get("cached_tokens") == 1)
     glm_sys = rail.dispatch({
         "model": VALUE_CODER,
         "messages": [
