@@ -3,6 +3,7 @@
 """Selftest: rest-surface backlog. Three seams, each with a positive path AND a
 typed refusal: (1) POST /api/v1/crucible submits a scheduled job and does
 not claim or run the round on the HTTP thread - or 501 when it cannot;
+GET /crucible and GET /forge stay 404 (no invented GET);
 (2) api_token.txt
 empty/whitespace is BLANK_TOKEN, a missing file on a remote bind is
 TOKEN_MISSING (never invented); (3) submit parse keeps priority words that
@@ -130,6 +131,13 @@ def main() -> int:
     k = Kernel(root, worker="core")
     svc = Service(k, host="127.0.0.1", port=0)
     svc.serve_background()
+
+    code, body = _http(svc, "GET", "/api/v1/crucible")
+    check("GET /crucible is 404 NOT_FOUND (submit-only POST, not an invented GET)",
+          lambda: code == 404 and body.get("error") == "NOT_FOUND")
+    code, body = _http(svc, "GET", "/api/v1/forge")
+    check("GET /forge is 404 NOT_FOUND (Forge is model_rater+studio, not invented)",
+          lambda: code == 404 and body.get("error") == "NOT_FOUND")
 
     # negative: no dispatchers composed -> 501, no print-stub job
     code, body = _http(svc, "POST", "/api/v1/crucible",
