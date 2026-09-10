@@ -43,6 +43,8 @@ from cosmos_paths import CosmosPaths  # noqa: E402
 
 SEATS = {
     "gf38": {"kind": "vertex", "model": "gemini-3.8-flash", "role": "quality"},
+    "gemini31pro": {"kind": "vertex", "model": "gemini-3.1-pro-preview",
+                    "role": "quality"},
     "glm": {"kind": "or", "model": "z-ai/glm-5.3-flash", "role": "cheap"},
     "ds": {"kind": "or", "model": "deepseek/deepseek-v4-flash-0731", "role": "cheap"},
     "ling": {"kind": "or", "model": "inclusionai/ling-3.0-flash", "role": "cheap"},

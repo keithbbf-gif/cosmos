@@ -12,9 +12,11 @@ scores. Do **not** click USPTO. Do **not** merge parked leftover PRs
 
 ## Seats (named — not the rotator)
 
-**Keith 2026-09-10 (setup, do not fire until he says):** cut Ling + Solar
-on window/quality. Keep GLM + DS V4. Keep Sol. **Run on Kelly (when named):**
-GF38 + Gemini 3.1 Pro. GrokBot will drop a doc-context summary first.
+**Keith 2026-09-10:** cut Ling + Solar on window/quality. Keep GLM + DS V4.
+Keep Sol. **Fire Kelly review first** (this backup CCr): GF38 + Gemini 3.1
+Pro. GBot preload staged (`CODER_PRELOAD_PATENT_IDEAS_CACHE.md`, local only).
+Successor CCr inherits `CREW/OUT/ELEGANT/*.json`. Do **not** send that pack
+to OpenRouter until Keith clears data-use.
 
 | Lane | Seat | Pin | Wallet | Job |
 |---|---|---|---|---|
@@ -27,7 +29,8 @@ GF38 + Gemini 3.1 Pro. GrokBot will drop a doc-context summary first.
 
 **Cut:** Ling 3.0 Flash (262k). Solar Pro4. Same fat prompt is refused for cheap seats.
 
-**Hold until Keith drops GBot summary + says go.** No pythonw farm this tick.
+**Keith 2026-09-10:** GBot summary is on disk. Fire Kelly Vertex now. Cheap
+GLM+DS+Sol stay **off** this corpus until Keith clears OR data-use.
 
 ---
 
@@ -62,7 +65,7 @@ Empty plan if the ideas are already occupancy. Quote a line that exists.
 
 ---
 
-## How CCr fires it (when Keith says go — not this tick)
+## How this backup CCr fires it (Keith: review first, successor inherits)
 
 1. Pack corpus + GBot summary + ideas into `CREW/OUT/ELEGANT/ITEM.md` (user tail). PREFIX + CACHE_RULE stay the stable preload (P11).
 2. Kelly: GF38 + Gemini 3.1 Pro, no peeking. Cheap GLM+DS on **slices** if named. **Not** a second grok.exe.

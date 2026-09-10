@@ -77,3 +77,7 @@ delme__*
 # Come back: kdash/ANDROID_VOICE_DRAFT.md. Not a mobile BE/FE.
 kdash/*.apk
 *.apk
+
+# ---- UNFILED IP PRELOAD (Keith 2026-09-10). Local CREW only. Never Gitur. ----
+work_orders/ccr/CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md
+work_orders/ccr/CREW/OUT/ELEGANT/
