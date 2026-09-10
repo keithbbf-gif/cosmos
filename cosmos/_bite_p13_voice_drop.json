@@ -1,13 +1,11 @@
 {
-  "drop_path": "work_orders/drop",
-  "repo": "keithbbf-gif/cosmos",
-  "malformed_kind": "BAD_INPUT",
-  "malformed_typed": true,
-  "broken_kind": "BAD_INPUT",
-  "broken_typed": true,
-  "valid_filed": true,
-  "valid_lands_drop_path": true,
-  "valid_in_bucket": true,
-  "errors_n": 2,
+  "malformed_refused_typed": true,
+  "not_json_refused_typed": true,
+  "valid_lands_bucket_from_drop_path": true,
+  "file_drop_refuses_malformed_kind": "BAD_INPUT",
+  "old_naive_write_would_land_malformed": true,
+  "no_github_delete": true,
+  "github_drop_path": "work_orders/drop",
+  "drop_path_is_work_orders_drop": true,
   "all_bite": true
 }
