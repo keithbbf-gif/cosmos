@@ -14,8 +14,10 @@ from pathlib import Path
 ROOT = Path(r"V:\A\Ai\COSMOS")
 IN = ROOT / "work_orders" / "ccr" / "CREW" / "IN"
 
+UI = ROOT / "builds" / "cdeck" / "ui"
 SYSTEM_FILES = (
     IN / "CACHE_RULE.md",
+    IN / "DEEP_CONTEXT.md",
     IN / "ELEGANT_OR_SYSTEM.md",
     IN / "CODING_GUIDELINES.md",
 )
@@ -31,6 +33,18 @@ HOUSE_USER_FILES = (
     IN / "CODE_CDECK.md",
     ROOT / "builds" / "cdeck" / "ORCH_HOME_SPEC.md",
 )
+# Live files for the ITEM tab — same bytes for both mouths. Cap keeps oss/llama under window.
+TAB_CONTEXT = {
+    "skins": (UI / "deck_profiles.js", UI / "deck_sfx.js", UI / "header.css"),
+    "gitur": (UI / "deck_gitur.js",),
+    "tools": (UI / "app.js",),
+    "recents": (UI / "app.js",),
+    "jobs": (UI / "app.js",),
+    "spend": (UI / "app.js",),
+    "voice": (UI / "header.js",),
+    "surfaces": (UI / "deck_more.html",),
+}
+TAB_CONTEXT_CAP = 80_000
 
 # Routed ctx (OpenRouter catalog 2026-09-10). Vertex GEM brothers = 1M.
 OR_WINDOW = {
@@ -82,7 +96,22 @@ def system_texts() -> list[str]:
     return [t.rstrip() for t in (_read(p) for p in SYSTEM_FILES) if t.strip()]
 
 
-def user_cached_texts(kind: str) -> list[str]:
+def tab_context_texts(tab: str) -> list[str]:
+    out = []
+    used = 0
+    for p in TAB_CONTEXT.get(tab or "", ()):
+        t = _read(p).rstrip()
+        if not t:
+            continue
+        chunk = "--- FILE %s ---\n%s" % (p.name, t)
+        if used + len(chunk) > TAB_CONTEXT_CAP:
+            break
+        out.append(chunk)
+        used += len(chunk)
+    return out
+
+
+def user_cached_texts(kind: str, tab: str = "") -> list[str]:
     if kind == "fat":
         pack = _read(IN / "CODER_PRELOAD_PATENT_IDEAS_CACHE.md")
         if len(pack) < 400000:
@@ -92,4 +121,6 @@ def user_cached_texts(kind: str) -> list[str]:
         files = HOUSE_USER_FILES
     else:
         raise SystemExit(f"REFUSED: pack kind {kind!r}")
-    return [t.rstrip() for t in (_read(p) for p in files) if t.strip()]
+    texts = [t.rstrip() for t in (_read(p) for p in files) if t.strip()]
+    texts.extend(tab_context_texts(tab))
+    return texts

@@ -48,7 +48,8 @@ def main(argv: list[str] | None = None) -> int:
     sys.path.insert(0, str(ROOT / "work_orders" / "ccr"))
     from _pair_pack import system_texts, user_cached_texts
     system = "\n\n".join(system_texts())
-    cached = "\n\n".join(user_cached_texts(ns.pack))
+    tab = Path(ns.item).stem if ns.item else ""
+    cached = "\n\n".join(user_cached_texts(ns.pack, tab))
     prompt = "\n\n".join((
         cached,
         "--- TASK ---",

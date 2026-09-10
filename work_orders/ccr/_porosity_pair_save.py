@@ -45,14 +45,17 @@ def _sha(text: str) -> str:
     return hashlib.sha256((text or "").encode("utf-8")).hexdigest()
 
 
-def _mouths(tab: str, seat: str) -> list[Path]:
+def _mouths(tab: str, seat: str) -> list:
     d = MOUTH / tab
     if not d.is_dir():
         return []
+    files = sorted(
+        (p for p in d.glob(f"{seat}-*.json") if not p.name.startswith("_")),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )[:24]
     out = []
-    for p in d.glob(f"{seat}-*.json"):
-        if p.name.startswith("_"):
-            continue
+    for p in files:
         try:
             rec = json.loads(p.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
@@ -101,22 +104,23 @@ def _fail(rec: dict) -> str:
 _PACK_CACHE: dict[str, tuple[str, str]] = {}
 
 
-def _prefix(kind: str) -> tuple[str, str]:
-    hit = _PACK_CACHE.get(kind)
+def _prefix(kind: str, tab: str) -> tuple[str, str]:
+    ck = kind + ":" + (tab or "")
+    hit = _PACK_CACHE.get(ck)
     if hit:
         return hit
     sys_t = "\n\n".join(system_texts())
-    user_t = "\n\n".join(user_cached_texts(kind))
+    user_t = "\n\n".join(user_cached_texts(kind, tab))
     prefix = sys_t + "\n\n" + user_t
     rec = (prefix, _sha(prefix))
-    _PACK_CACHE[kind] = rec
+    _PACK_CACHE[ck] = rec
     return rec
 
 
 def _input_pack(seat: str, tab: str) -> dict:
     kind = seat_pack(seat)
     item = (TABS_IN / f"{tab}.md").read_text(encoding="utf-8") if (TABS_IN / f"{tab}.md").is_file() else ""
-    prefix, prefix_sha = _prefix(kind)
+    prefix, prefix_sha = _prefix(kind, tab)
     # Fat patent is recoverable from pack files + sha. Do not copy 407k into every row.
     body = item if kind == "fat" else (prefix + "\n\n--- TASK ---\n\n" + item)
     return {
