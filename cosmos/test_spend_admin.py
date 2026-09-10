@@ -16,6 +16,9 @@ asserted together with the cap that did NOT move - a typed error beside an
 unchanged number, not a typed error on its own.
 
 Run:  py -3.14 cosmos/test_spend_admin.py
+
+Runtime-binding bite (P09, no second spend Core):
+  py -3.14 cosmos/_bite_p09_widen.py  ->  cosmos/_bite_p09_widen.json  all_bite:true
 """
 from __future__ import annotations
 import json
