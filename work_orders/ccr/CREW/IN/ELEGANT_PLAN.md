@@ -12,22 +12,29 @@ scores. Do **not** click USPTO. Do **not** merge parked leftover PRs
 
 ## Seats (named — not the rotator)
 
-| Lane | Seat | Pin | Wallet | Window | Job |
-|---|---|---|---|---|---|
-| A | `--seat luna-pro` | `openai/gpt-5.6-luna-pro` via `openai/flex` | OpenRouter Flex **$0.10 / $0.875** (½ of page $0.20/$1.75) | **1.1M** (catalog 1,050,000) | Plan. Reasoning max. Measure `cached_tokens` (Flex hit ~45% vs OpenAI ~76% — not a COSMOS score). |
-| B | Vertex **Gemini 3.1 Pro** | `gemini-3.1-pro-preview` | Kelly `vertex-coding` **$300 / 2026-12-04** | large | Plan. Different family from Luna. Not Joanna `gem-api`. Not OpenRouter `google/*` dump. Not GF38 flash. |
-| Critic (optional, **after** A+B return) | `--seat sol` | `openai/gpt-5.6-sol` | $10 OR envelope; **major** only | flagship | Review the **merged** plan, not a third full-tree load. Last Sol run: HTTP 200, **empty mouth** (reasoning tokens, 0 text). Require a mouth. Not daily. Not oa-api poll. |
-| Dispose | CCr G46 this TUI | `grok-4.6` | SuperGrok Heavy | this session | One writer. Does **not** load the whole tree again in a compacted window. |
+**Keith 2026-09-10 (setup, do not fire until he says):** cut Ling + Solar
+on window/quality. Keep GLM + DS V4. Keep Sol. **Run on Kelly (when named):**
+GF38 + Gemini 3.1 Pro. GrokBot will drop a doc-context summary first.
 
-**Not the fat corpus:** Luna Flex (smaller credit first-pass). GF38 `gemini-3.8-flash` (farm, not the load-the-corpus seat). Terra Flex (hard Python escalate **after** a plan exists). Cursor Other Models (73%). Opus/Sonnet (ANTHROPIC_OFF on COSMOS dispatch). Rotator `openrouter/free`.
+| Lane | Seat | Pin | Wallet | Job |
+|---|---|---|---|---|
+| Kelly A | GF38 | `gemini-3.8-flash` | Vertex `$300` / 2026-12-04 | See it run. Farm quality. Not Joanna. |
+| Kelly B | Gemini 3.1 Pro | `gemini-3.1-pro-preview` | same Kelly wallet | See it run. Fat plan. Different family. Not OpenRouter `google/*`. |
+| Cheap | GLM | `z-ai/glm-5.3-flash` | OpenRouter | Sliced files. Catalog COD 71.5 guideline. |
+| Cheap | DS V4 Flash | `deepseek/deepseek-v4-flash-0731` | OpenRouter | Sliced files. Catalog COD 69.1 guideline. |
+| Critic | Sol | `openai/gpt-5.6-sol` | $10 OR; major only | After plans return. Require **mouth** (last Sol empty text). |
+| Dispose | CCr G46 | `grok-4.6` | SuperGrok Heavy | One writer. |
 
-**Orthogonal cheap (sliced files only, not CACHE_FAT):** GLM `z-ai/glm-5.3-flash` + DS `deepseek/deepseek-v4-flash-0731` (ROUTING cheap pair; catalog COD 71.5 / 69.1 are **guidelines**, not COSMOS scores). Ling only if named (window **262,144**). Solar Pro4 if named. Same prompt as A/B is **refused** for these seats — they get live-byte slices, disjoint files, compact PREFIX.
+**Cut:** Ling 3.0 Flash (262k). Solar Pro4. Same fat prompt is refused for cheap seats.
+
+**Hold until Keith drops GBot summary + says go.** No pythonw farm this tick.
 
 ---
 
 ## Same prompt (identical bytes except the one-line seat tag)
 
-You are lane **A Luna Pro Flex** / **B Gemini 3.1 Pro** (one tag only).
+You are lane **Kelly A GF38** / **Kelly B Gemini 3.1 Pro** (one tag only).
+Not Joanna. Not OpenRouter Google. Not Ling. Not Solar.
 
 PROPOSE a plan. Do not write the COSMOS live tree. Do not invent GET/POST that occupancy forbids (no GET `/forge`; Crucible is POST-only). GET never mkdir. UNMEASURED if Core omitted the field.
 
@@ -40,7 +47,8 @@ PROPOSE a plan. Do not write the COSMOS live tree. Do not invent GET/POST that o
 - `cosmos/cosmos_porosity.py` + GET `/api/v1/porosity` contract
 - `cosmos/cosmos_runner.py` + `cosmos_crucible.py` (round is QUEUED on HTTP; runner executes)
 - `builds/cdeck/ui/deck_tabs.js` + extra-pane occupancy pin names in `test_kdash_working.py` (labels only, not the whole pin file if too fat)
-- Keith’s **new-ideas** markdown (ITEM — volatile tail)
+- GrokBot patent preload: `CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md` (`policy:patent-ideas-v1`, byte-stable)
+- Keith’s short task tail (volatile)
 
 **Return shape (this order):**
 
@@ -54,12 +62,12 @@ Empty plan if the ideas are already occupancy. Quote a line that exists.
 
 ---
 
-## How CCr fires it (when Keith drops the new-ideas file)
+## How CCr fires it (when Keith says go — not this tick)
 
-1. Pack corpus + ideas into `CREW/OUT/ELEGANT/ITEM.md` (user tail). PREFIX + CACHE_RULE stay the stable preload (P11).
-2. WMI `spawn_detached` pythonw `_propose_seat.py --seat luna-pro` (lane A). Vertex Pro lane B via Kelly coding spec — **not** a second grok.exe.
-3. No peeking. Two returns on disk: `ELEGANT/luna-pro.json` and `ELEGANT/gemini31pro.json`.
-4. CCr merges to `ELEGANT/PLAN.md`. Sol **only** if that plan is a major full-code review and Sol produces **text** (not reasoning-only).
+1. Pack corpus + GBot summary + ideas into `CREW/OUT/ELEGANT/ITEM.md` (user tail). PREFIX + CACHE_RULE stay the stable preload (P11).
+2. Kelly: GF38 + Gemini 3.1 Pro, no peeking. Cheap GLM+DS on **slices** if named. **Not** a second grok.exe.
+3. Returns on disk: `ELEGANT/gf38.json` and `ELEGANT/gemini31pro.json`.
+4. CCr merges to `ELEGANT/PLAN.md`. Sol **only** after, and only if Sol produces **text**.
 5. Gitur BUILD from the merged plan. CCr disposes.
 
 Measure `cached_tokens` on Luna Pro Flex. Do not override Flex to Azure EU/US2.

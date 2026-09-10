@@ -12,23 +12,24 @@ max; OpenRouter Flex is **½ off** the Pro page ($0.10/$0.875 vs $0.20/$1.75).
 **1.1M context.** Vendor cache-hit rates differ (Flex ~45% vs OpenAI ~76%
 on the 2026-09-10 Pricing table — not a COSMOS score). Measure
 `cached_tokens`. Not a swap of luna. Catalog COD UNMEASURED. Sol =
-openai/gpt-5.6-sol for **major full-code reviews only**. Cheap pair (ROUTING) =
-z-ai/glm-5.3-flash + deepseek/deepseek-v4-flash-0731. Ling 3.0 Flash only
-if named; window 262144 — never CACHE_FAT. ANTHROPIC_OFF on COSMOS
-dispatch — Opus/Sonnet are not a COSMOS rail (Cursor/GitHub/GitLab only).
+openai/gpt-5.6-sol for **major full-code reviews only**. Cheap pair =
+z-ai/glm-5.3-flash + deepseek/deepseek-v4-flash-0731. **Cut** Ling and
+Solar (window/quality). Sol stays major-review. Kelly Vertex: GF38
+gemini-3.8-flash **and** gemini-3.1-pro-preview (see them run — do not
+fire until Keith says). ANTHROPIC_OFF on COSMOS dispatch — Opus/Sonnet
+are not a COSMOS rail (Cursor/GitHub/GitLab only).
 
 Two-tier (guidelines, re-measure):
 - Daily pane / high-throughput Python: GF38 (named 3.8 Flash pin). Vendor
   pages may rank 3.7 Flash as a daily driver — that is not a pin change.
 - Hard multi-file / tests+recover: escalate openai/gpt-5.6-terra Flex
   (`--seat terra`). Not Sol. Not oa-api poll.
-- Volume/boilerplate: cheap pair GLM + DS V4 Flash. Ling only if named.
+- Volume/boilerplate: cheap pair GLM + DS V4 Flash. Ling and Solar cut.
   DS is also the 429 retry mouth. Gemini 3.5 Flash-Lite speed is not a
   COSMOS pin.
 
 Mouth still: unified diff FIRST or NONE. Live bytes win PREFIX lag.
 
 Field (Keith 2026-09-09, not a pin change): specialized cheap models, seated
-on orthogonality, can equal or exceed a frontier. Use the cheap twins and
-GF38/Luna for that. Do not escalate to Fable/Opus/Sol because a table says
-10% better.
+on orthogonality, can equal or exceed a frontier. Use GLM+DS and GF38/Luna
+for that. Do not escalate to Fable/Opus/Sol because a table says 10% better.
