@@ -192,12 +192,20 @@ def start(paths, stage: str, *, n: int | None = None, http=None) -> dict:
     if stage not in BG_STAGES:
         raise ForgeBgError("REFUSED",
                            "background free CLI is RESEARCH / ARCH / CONSENSUS only")
+    from cosmos_motif_define import MotifDefineError, frozen_statement
     from cosmos_profiles import load_engine
+
     engine = load_engine(paths, "forge")
-    text = str((engine.get("define") or {}).get("text") or "").strip()
-    if not text:
-        raise ForgeBgError("REFUSED",
-                           "PROBLEM STATEMENT / STATED GOAL empty — RESEARCH does not start")
+    try:
+        stmt = frozen_statement(paths, profile="forge")
+        text = str(stmt.get("text") or "").strip()
+        if not text:
+            raise MotifDefineError(
+                "REFUSED",
+                "PROBLEM STATEMENT / STATED GOAL empty — RESEARCH does not start",
+            )
+    except MotifDefineError as e:
+        raise ForgeBgError(e.kind, str(e).split("] ", 1)[-1]) from e
     setup = _setup(engine, stage)
     n_free = n if n is not None else setup["n_free"]
     models = pick_free_coders(paths, n_free, http=http)
