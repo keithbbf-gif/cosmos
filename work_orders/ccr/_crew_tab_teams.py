@@ -26,17 +26,25 @@ OR = ROOT / "work_orders" / "ccr" / "_code_or_seat.py"
 ITEMS = ROOT / "work_orders" / "ccr" / "CREW" / "IN" / "TABS"
 OUT = ROOT / "work_orders" / "ccr" / "CREW" / "OUT" / "TEAM_TABS"
 
-# One pair per tab. DS + Muse: house pack, no patent — discrete coding only.
-# GEM partners on those tabs may still take fat. oss+llama house (ctx). Not Sol.
+# Keith 2026-09-10: many OR×OR pairs on the same ITEMs (porosity variety).
+# GEM only on harder jobs (tools, gitur). One DS0731 per list. DS/Muse house no patent.
 TABS = (
-    ("skins", "gf38", "glm"),
     ("tools", "gemini31pro", "ds"),
-    ("recents", "gf38", "qwen"),
-    ("jobs", "gemini31pro", "ds0423"),
-    ("spend", "gf38", "mistral"),
-    ("voice", "gemini31pro", "nemo"),
     ("gitur", "gf38", "muse"),
+    ("skins", "glm", "qwen"),
+    ("skins", "mistral", "ds0423"),
+    ("recents", "glm", "mistral"),
+    ("recents", "qwen", "llama"),
+    ("jobs", "qwen", "nemo"),
+    ("jobs", "ds0423", "oss"),
+    ("spend", "mistral", "oss"),
+    ("spend", "glm", "nemo"),
+    ("voice", "nemo", "llama"),
+    ("voice", "qwen", "mistral"),
     ("surfaces", "oss", "llama"),
+    ("surfaces", "glm", "llama"),
+    ("gitur", "glm", "muse"),
+    ("tools", "glm", "oss"),
 )
 
 

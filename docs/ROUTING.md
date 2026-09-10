@@ -135,7 +135,21 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 | Quality **GPTS5.6SOL** | `gpt-5.6-sol` | OpenRouter named pin (oa-api poll still paused — `$150` scar) | **Major full-code reviews only** (Keith 2026-09-09). Not daily farm. Not each tab. Terra Flex is a different pin. |
 | Credit first-pass **Luna Flex** | `openai/gpt-5.6-luna` via `openai/flex` | OpenRouter Flex **$0.10 / $0.60** (page $0.20/$1.20). Keith **pin flex** 2026-09-08. **Use Luna mostly** (Keith 2026-09-09) — OpenAI credit mouth for farm/reviews except major full-code. **P11:** preload PREFIX + CACHE_RULE; `tag_preload` + `prompt_cache_key`; measure `cached_tokens`. | Not Sol daily. Not oa-api poll. Not a quality seat. Cheap Chinese GLM/DS still cheaper for volume. Naked questions out of SOP. |
 | Credit reasoning **Luna Pro Flex** | `openai/gpt-5.6-luna-pro` via `openai/flex` | Keith 2026-09-10: **½ off on Flex**; **1.1M context**; **cache hit rates differ**. Page **$0.20 / $1.75** → Flex **$0.10 / $0.875**. Vendor Pricing table: Flex cache hit **45.3%** vs OpenAI **76.3%** (not a COSMOS score). `--seat luna-pro`. Catalog COD UNMEASURED. | Not a swap of Luna Flex. Not Sol. Not oa-api poll. Not Azure EU/US2 override. Not the rotator. |
-| Cheap (2) | OpenRouter pair picked from the live catalog rank: `z-ai/glm-5.3-flash` (COD **71.5**, $0.075/$0.250) · `deepseek/deepseek-v4-flash-0731` (COD **69.1**, $0.14/$0.28) | OpenRouter named pin. **Orthogonal cheap seats can match a frontier** (Keith 2026-09-09). | **Not `grok-4.5`.** Not Ling unless named. Not the rotator. Not `~latest`. Not a second Grok. |
+| Cheap (2) | OpenRouter named pins, Keith 2026-09-10 try: `z-ai/glm-5.3-flash` · `deepseek/deepseek-v4-flash-0731` · `deepseek/deepseek-v4-flash` (0423) · `qwen/qwen3.8-flash` · `nvidia/nemotron-3.5-lightning` (paid) · `mistralai/codestral-2508` · `meta-llama/llama-4-maverick` (Meta Llama, paid) · `meta/muse-spark-1.2-contributor` (Muse Spark 1.2 Contributor, $0.10/$0.20) · `openai/gpt-oss-120b` (GPT OSS 120B, $0.03/$0.17, 131K — not Luna/Sol/Flex). Pairs: GLM+GF38, Qwen+GF38, Codestral+GF38, Muse+GF38, DS0731+G31, DS0423+G31, OSS+G31, Llama+G31. | OpenRouter named pin. **Orthogonal cheap seats can match a frontier** (Keith 2026-09-09). Two DS Flash slugs are two provider queues. | **Not `grok-4.5`.** Not Ling unless named. Not the rotator. Not `~latest`. Not `:free` Scout/Nemotron. Not Qwen Max. Not Devstral unless named. Not a second Grok. |
+
+Cheap-coder catalog (OpenRouter `/api/v1/models` 2026-09-10). Prices $/1M. Cache = `input_cache_read` (write only if listed). **Farm is `--thin`.** Fat patent pack ~103k tok — refused on ctx < 400k.
+
+| seat | slug | pair | ctx catalog | ctx routed | in / out | cache read | cache write | live this session |
+|---|---|---|---:|---:|---|---:|---:|---|
+| glm | `z-ai/glm-5.3-flash` | GF38 | 1.31M | 1.05M | 0.15 / 0.50 | 0.03 | — | 200 |
+| ds | `deepseek/deepseek-v4-flash-0731` | G31 | 1.31M | 1.05M | 0.065 / 0.18 | 0.016 | — implicit | 429 RPM |
+| ds0423 | `deepseek/deepseek-v4-flash` | G31 | 1.05M | 1.02M | 0.087 / 0.174 | 0.017 | — implicit | 200 |
+| qwen | `qwen/qwen3.8-flash` | GF38 | 1.00M | 1.00M | 0.15 / 0.47 | 0.016 | **0.20** | 200 |
+| nemo | `nvidia/nemotron-3.5-lightning` | G31 | 262K | 262K | 0.08 / 0.20 | 0.04 | — | 200; invented APIs |
+| mistral | `mistralai/codestral-2508` | GF38 | 256K | 256K | 0.30 / 0.90 | 0.03 | — | 200; thin-only |
+| llama | `meta-llama/llama-4-maverick` | G31 | 1.05M | **128K** | 0.20 / 0.70 | none | none | 200; **routed ctx 128K** |
+| muse | `meta/muse-spark-1.2-contributor` | — parked | 1.05M | 1.05M | 0.10 / 0.20 | **0.002** | — | **HTTP 404** |
+| oss | `openai/gpt-oss-120b` | G31 | 131K | 131K | 0.037 / 0.17 | none | none | 200; thin-only; not Luna |
 
 `grok-4.5` is **not a cheap seat right now** (Keith 2026-09-08). Do not spawn it as the 2-cheap half of a team.
 

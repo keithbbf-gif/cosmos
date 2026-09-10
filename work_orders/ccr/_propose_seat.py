@@ -47,6 +47,13 @@ SEATS = {
                     "role": "quality"},
     "glm": {"kind": "or", "model": "z-ai/glm-5.3-flash", "role": "cheap"},
     "ds": {"kind": "or", "model": "deepseek/deepseek-v4-flash-0731", "role": "cheap"},
+    "ds0423": {"kind": "or", "model": "deepseek/deepseek-v4-flash", "role": "cheap"},
+    "qwen": {"kind": "or", "model": "qwen/qwen3.8-flash", "role": "cheap"},
+    "nemo": {"kind": "or", "model": "nvidia/nemotron-3.5-lightning", "role": "cheap"},
+    "mistral": {"kind": "or", "model": "mistralai/codestral-2508", "role": "cheap"},
+    "llama": {"kind": "or", "model": "meta-llama/llama-4-maverick", "role": "cheap"},
+    "muse": {"kind": "or", "model": "meta/muse-spark-1.2-contributor", "role": "cheap"},
+    "oss": {"kind": "or", "model": "openai/gpt-oss-120b", "role": "cheap"},
     "ling": {"kind": "or", "model": "inclusionai/ling-3.0-flash", "role": "cheap"},
     "solar": {"kind": "or", "model": "upstage/solar-pro4", "role": "cheap"},
     # Named this turn: cheaper than G46 $2/$6 (catalog 0.2/1.2, COD 71.4).
