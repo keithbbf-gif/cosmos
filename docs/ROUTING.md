@@ -43,9 +43,9 @@ Anthropic-agent surface outside this name).
 
 | Member | Is | Does | Not |
 |---|---|---|---|
-| **GitHub** | origin `keithbbf-gif/cosmos` | **Claude review default** (`@claude review`). Issues, PRs, SGH drop path. Copilot coding-agent still available — not the default reviewer. | live-tree writer |
-| **GitLab** | `keithbbf-gif/cosmos` | **Claude review default**; Duo may still propose; **CI is the execute-the-gate** | a third brain |
-| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** (Opus 5 / Sonnet; refuse Composer 2.5). PR review still Claude on GitHub. | COSMOS `claude -p`; **not research** |
+| **GitHub** | origin `keithbbf-gif/cosmos` | Issues, PRs, SGH drop path. Review is GLM other-family, not Cursor Other Models. | live-tree writer |
+| **GitLab** | `keithbbf-gif/cosmos` | **CI is the execute-the-gate**. Review is GLM. Duo may still propose. | a third brain |
+| **Cursor** | Cloud Agents `cursor-api` | Lane B **BUILD** = **grok-4.6** native Cursor Models pool (7% used). Composer 2.5 if named. | Other Models (73%); Auto; on-demand; COSMOS `claude -p` |
 
 P10: Gitur **proposes**. CCr **disposes** and writes CORE. `ANTHROPIC_OFF` stays for
 COSMOS dispatch. Do not merge PRs #30 #32 #36 #37 #38 this occupancy.
@@ -87,8 +87,8 @@ stage 4 BUILD.
 | **Grok vs Claude Cowork (agenda)** | **GrokBot** (most capable — Keith 2026-09-02) | **Sequence:** finish the COSMOS house with this Grok Code TUI, **then** empower GrokBot. Handoff gate: work-order COMPLETED applies; mailbox proven; cDeck orch home usable. Until then GrokBot hands stay on `V:\Ai`. Start with orch tools: drive read/write, connectors, schedule, phone dispatch, permission modes, cDeck deliverables. Chrome extension **channel OPEN** (GrokBot vs Grok Code vs SGH). SGH Chatboxes need drive hands too; still a DOM research rail, not this TUI. |
 | **orchestrator profiles** | one profile per occupant | Keith 2026-09-02: Cowork / Grok Code / GrokBot / later federated. Pen + mailbox id + hands + Chrome profile + live/dark. Never share Chrome or folder-grants across occupants. |
 | **Work-agent class (agenda)** | GrokBot is our occupant; OpenWork is A-tier file harness (dark) | ChatGPT Work + Codex, Claude Cowork, Copilot Cowork + Scout, Gemini Spark / Workspace Studio, **OpenWork Labs**. File HANDS; no live path. Do not pen `V:\A`. |
-| **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 · **Lane B** Cursor Cloud Agent (**Opus 5 / Sonnet**, Ultra) | Same work order, no shared context. Spec `docs/ADVERSARIAL_LOOP.md`. **Code review** of that PR: Sonnet/Opus on **Gitur** (trial Credits) / Bedrock-when-bound. GitLab CI is the execute-the-gate, not a third brain. Composer 2.5 refused. |
-| **hard review / final polish** | **CCr** (Grok 4.6) reviews **all** code before dispose. Gitur default reviewer = **Claude**. GEM / OA / Llama judges extra. | Keith 2026-09-09: Claude on Gitur by default (diversity vs this Grok CCr). Keith 2026-09-04: Sonnet/Opus may be **best for code review** on those vendor surfaces. Not COSMOS `claude -p`. Not Composer 2.5. Not Copilot-as-default. |
+| **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 this TUI · **Lane B** Cursor Cloud Agent **`grok-4.6`** (Cursor Models pool, 7% used) | Same work order, no shared context. Other Models 73% — do not pin Lane B to Sonnet/Opus. Gitur **review** is GLM (other family). GitLab CI is the gate. |
+| **hard review / final polish** | **CCr** (Grok 4.6 this TUI) disposes. **Grok Bot QA manager** (Cursor Ultra weekly, 3%) is the autonomous QA seat. **GLM** is the cheap other-family Gitur reviewer. | Do not burn Heavy 52% on reviews. Do not burn Other Models 73%. Claude optional. Not Fable/Opus. Grok Bot is not SGH and not a second CCr. |
 | **MOTIF stage-5 extra judges** | **GEM Vertex (`gem-api`) as UPS-Judge**, plus OA, Meta Llama, Amazon Nova | A named deliberate load. Not everyday GEM. Vertex stays **not Claude**. Bedrock when bound: Nova **and** Llama **and** Anthropic agents (Keith 2026-09-04). |
 | **Anthropic / Claude** | **COSMOS dispatch OFF; vendor agents ON** | Keith 2026-09-01: `dispatch()` `ANTHROPIC_OFF` for claude/F5/sonnet/haiku/SSA. No `claude -p`. No Cowork as **this** COW. No `api.anthropic.com` key file (DL scar). **Keith 2026-09-04:** use Anthropic **agents** on **Cursor, GitHub, GitLab,** and **Bedrock when available**. **Keith 2026-09-05 URL:** Vertex Agent Platform Model Garden **Claude Sonnet 5** on **Joanna** `project-5a33f910-1251-4d6a-bf9` (`authuser=3`). Enablement questionnaire (picker showed **My First Project**). Partner **MaaS**, not `gem-api` Gemini, not `api.anthropic.com`. Anthropic ToS form (Google will share project + billing IDs). Anthropic **recommends** request-response logging ([docs](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/request-response-logging)); vendor: logging on does **not** give Google/Anthropic content access; a **separate** MaaS data-share is for Fable/Mythos + Safety Addendum. Web Search on that model needs public internet / org policy. **$300 credit cannot pay partner MaaS.** This TUI does **not** click Next / Set up logging / Enable. Industry dropdown showed Agriculture — do not submit as BBF. API: `publishers/anthropic/models/claude-sonnet-5:rawPredict`, `anthropic_version=vertex-2023-10-16` ([Claude on Vertex](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai)). If Keith enables later: same class as Bedrock Anthropic agents (P10 propose; CCr writes). Do not lift `ANTHROPIC_OFF`. |
 | **short / structured / scriptable** | cheapest API rail with headroom | optimize per budget |
@@ -131,10 +131,11 @@ Capability rank for **which brain does the work**. Not a Core rewrite. **Not an 
 | Quality **G46** | `grok-4.6` this TUI | SuperGrok Heavy | Not a cheap seat. CCr write pen. |
 | Quality **GF38** | `gemini-3.8-flash` | Kelly `vertex-coding` `orders.ggn` Free Trial **$300 / Dec 4** (`project-10b3a132-ec5b-41e9-a2c`). Screenshot 2026-09-08: **$0 used**. Do not click Upgrade. Cache rates/floors: `docs/PROMPT_CACHE.md` **guidelines**, not a seat lock. Vendor daily-driver talk of **3.7 Flash** is the same class of guideline — **not** a pin change. Farm mouth: `CREW/IN/GF38_MOUTH.md`. | Not Joanna `gem-api`. Not OpenWork. |
 | Escalate **Terra Flex** | `openai/gpt-5.6-terra` via `openai/flex` | Hard Python / multi-file / tests+recover. `--seat terra`. Vendor DeepSWE/Terminal-Bench lead is a **guideline** (`CREW/IN/CODING_GUIDELINES.md`), not occupancy. | Not Sol. Not oa-api poll. Not CCr. |
-| Cursor Models | `composer-2.5` · `grok-4.6` | Cursor Ultra **Cursor Models** pool (Grok + Composer). Measured 2026-09-08 **6% used**. | **Not Other Models** (73% used). Not Auto. On-demand Disabled — leave it. |
+| Cursor Models | **`grok-4.6` native** (Composer 2.5 if named) | Cursor Ultra **Cursor Models** pool. Shot 2026-09-09: **7% used**. Reset **Sep 14**. | **Not Other Models** (**73% used** — Sonnet/Opus live there). Not Auto. On-demand **Disabled** — leave it. |
 | Quality **GPTS5.6SOL** | `gpt-5.6-sol` | OpenRouter named pin (oa-api poll still paused — `$150` scar) | **Major full-code reviews only** (Keith 2026-09-09). Not daily farm. Not each tab. Terra Flex is a different pin. |
 | Credit first-pass **Luna Flex** | `openai/gpt-5.6-luna` via `openai/flex` | OpenRouter Flex **$0.10 / $0.60** (page $0.20/$1.20). Keith **pin flex** 2026-09-08. **Use Luna mostly** (Keith 2026-09-09) — OpenAI credit mouth for farm/reviews except major full-code. **P11:** preload PREFIX + CACHE_RULE; `tag_preload` + `prompt_cache_key`; measure `cached_tokens`. | Not Sol daily. Not oa-api poll. Not a quality seat. Cheap Chinese GLM/DS still cheaper for volume. Naked questions out of SOP. |
-| Cheap (2) | OpenRouter pair picked from the live catalog rank: `z-ai/glm-5.3-flash` (COD **71.5**, $0.075/$0.250) · `deepseek/deepseek-v4-flash-0731` (COD **69.1**, $0.14/$0.28) | OpenRouter named pin | **Not `grok-4.5`.** Not Ling unless named. Not the rotator. Not `~latest`. |
+| Credit reasoning **Luna Pro Flex** | `openai/gpt-5.6-luna-pro` via `openai/flex` | Keith 2026-09-10: **½ off on Flex**. Page **$0.20 / $1.75** → Flex **$0.10 / $0.875**. Same underlying Luna, reasoning max. `--seat luna-pro`. Catalog COD UNMEASURED. | Not a swap of Luna Flex. Not Sol. Not oa-api poll. Not the rotator. |
+| Cheap (2) | OpenRouter pair picked from the live catalog rank: `z-ai/glm-5.3-flash` (COD **71.5**, $0.075/$0.250) · `deepseek/deepseek-v4-flash-0731` (COD **69.1**, $0.14/$0.28) | OpenRouter named pin. **Orthogonal cheap seats can match a frontier** (Keith 2026-09-09). | **Not `grok-4.5`.** Not Ling unless named. Not the rotator. Not `~latest`. Not a second Grok. |
 
 `grok-4.5` is **not a cheap seat right now** (Keith 2026-09-08). Do not spawn it as the 2-cheap half of a team.
 
@@ -213,21 +214,27 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   (3) **coding sessions** — each is a discrete dropped job (one assignment, one cwd,
   DHx + the task, not the orch transcript).
 
-## Live quota snapshot — 2026-09-05 (READ FRESH each session; never quote these stale)
-- **SuperGrok Heavy weekly (Keith 2026-09-05):** **25% used** of one **Weekly SuperGrok
-  Heavy Limit** (quota). Supersedes **18% used** (2026-09-04 later) and the morning
-  **7%** (Build 6% + Automations 1%). Same bar, same week. Resets **September 10, 2026
-  at 5:35 PM**. **Last 2% of this bar stays reserve** — do not ride to 100%. Hitting
-  100% **pauses paid features** until reset; grok.com **free-tier Chat/Voice** still
-  run on their own schedule. Overflow (do not use unless Keith says): Extra Usage
-  Credits **$38.91** (web-only buy, after included is exhausted, **higher $/action**
-  than the weekly grant, expire ~1 year); Auto Top-Up **$20 when balance < $30, cap
-  $60/mo**; **Reset Available** expires Sep 12 — do not Redeem / Buy Credits / fire
-  top-up. Gemini side panel does **not** share this bar. **Grok Bot** (Cursor Ultra
-  weekly, 2%, resets Sep 6) does **not** share this bar — vendor: not grok.com.
-  Console `sgh-api` (`XAI_API_KEY` / `api.x.ai`) is still the other Grok wallet;
+## Live quota snapshot — 2026-09-09 (READ FRESH each session; never quote these stale)
+- **SuperGrok Heavy weekly (Keith shot 2026-09-09):** **52% used**, legend **Grok
+  Build 52%**. Same cumulative bar for **this TUI / code and grok.com Voice/Chat**.
+  Resets **September 10, 2026 at 5:35 PM**. **Last 2% of this bar stays reserve**.
+  Hitting 100% **pauses paid features** until reset. Extra Usage Credits **$37.97**
+  Additional Credits — **do not Buy Credits**. Auto Top-Up **$20 when balance < $30,
+  cap $60/mo** — **do not Configure**. Gemini side panel does **not** share this bar.
+- **Cursor Grok Bot weekly (Keith shot + check 2026-09-09):** **3% used**, resets
+  **Sep 13**. **Not SuperGrok Heavy. Not SGH / Console API.** Cursor Ultra teammate
+  wallet. Prebuilt **Quality Assurance manager** profile is a 4.6 wrapper — **use
+  her**. She can **orchestrate** (better general orch than this TUI). She does
+  **not** take CREW coding. **This TUI is hard-core coding, direct ORC of CREW —
+  effective.** Shift autonomous QA / general orch load here so this TUI stops
+  eating Heavy on those jobs. She **proposes**. CCr still disposes. She does
+  **not** write `V:\A`. Do not spawn a second `grok.exe` on this machine for her.
+- **Cursor Models (same Ultra shot):** **7% used** (Grok + Composer). Cloud Agents
+  pin **grok-4.6**. **Other Models 73% used** — do not park Sonnet/Opus there.
+  On-demand **Disabled**. Ultra reset **Sep 14**.
+  Console `sgh-api` (`XAI_API_KEY` / `api.x.ai`) is still the metered Grok wallet;
   grok.com Usage “API” is Heavy’s *product slice*, not Console invoices. This TUI
-  draws Heavy; volume coding still Cursor Ultra / GitHub / GitLab. No CLOCKS loop
+  draws Heavy; volume coding = Cursor Models + Grok Bot QA. No CLOCKS loop
   on this pool.
 - **GitLab Credits (Keith dashboard 2026-09-04, group BTS):** **Trial** period Aug 17 –
   Sep 16, 2026. User `keithbbf-gif` **Included 0 / 24**, **Total credits used 0**.
@@ -237,11 +244,10 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   2026-09-04); they spend these Credits, not `api.anthropic.com`. Do **not** Purchase
   credits or Upgrade to Premium unless Keith says. Trial end **Sep 16** is a cliff
   for Duo, not for `gitlab.com` git hosting.
-- **Two Grok wallets — do not mix** (`docs/research/XAI_GROK_HANDS.md`):
-  - **SuperGrok Heavy** = `grok login` / this TUI / `grok --single` with **`XAI_API_KEY` unset**.
-  - **Console API** = `bts_sgh` (`sgh-api`) reading the Research4 secrets file / `XAI_API_KEY`.
-    Metered `api.x.ai`. A leftover `XAI_API_KEY` in a `grok` env **steals** the weekly pool
-    onto Console. Crucible prefers **grok-sgh** (SGH). `sgh-api` is fallback if `grok` is absent.
+- **Three Grok wallets — do not mix** (`docs/research/XAI_GROK_HANDS.md`):
+  - **SuperGrok Heavy** = `grok login` / this TUI / `grok --single` with **`XAI_API_KEY` unset**. Shot **52% used**. Code + Voice/Chat share it.
+  - **Console API** = `bts_sgh` (`sgh-api`) / `XAI_API_KEY`. Metered `api.x.ai`. A leftover key in a `grok` env **steals** Heavy onto Console.
+  - **Cursor Grok Bot weekly** = Cursor Ultra teammate bar. Shot **3% used**. **Not Heavy. Not SGH.** QA manager profile (4.6 wrapper) — use her. Propose only. No `V:\A` pen.
 - **Crucible critics:** attached at `cosmos.py serve` (`cosmos_crucible_critics`). Families:
   grok-sgh (SGH) + gem-api family on **`vertex-coding`** (`orders.ggn@gmail.com` $300, not Joanna, not Studio) +
   oa-api (must report `gpt-5.6-terra` **when the lane is live**). **oa-api is paused**
@@ -364,8 +370,8 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   morning 7%, not “2% remaining”). Last **2% of the bar** is still reserve. Pour MOTIF
   **volume** coding/critics/checks here, not a Heavy dump:
   - **Cursor Ultra** (Opus 5 / Sonnet Cloud Agents, $0 marginal with Heavy)
-  - **GitHub** **Claude review default** (`@claude review`). Copilot coding-agent
-    issues still exist; Copilot is not the default reviewer.
+  - **GitHub** origin + PRs. **Review = Cursor Sonnet**, not Copilot-as-default,
+    not Anthropic API key. Copilot coding-agent issues still exist.
   - **GitLab** Duo Agent Platform / External Agents (Credits **0/24**, cliff
     **Sep 16**; CI minutes are a different meter)
   - **Grok Bot** (separate from grok.com Heavy weekly; Cursor Ultra weekly bar)
@@ -376,13 +382,13 @@ an Anthropic key in *its* occupant profile; that is not a COSMOS rail.
   unpause OA from this TUI. Do not Activate GCP.
 - **Anthropic / Claude Code:** COSMOS `dispatch()` OFF (no `claude -p`, no
   `anthropic_api_key.txt`). **Agents ON** Cursor / GitHub / GitLab / Bedrock-when-bound.
-- **Cursor (Keith's dashboard 2026-08-25, cycle Aug 14–Sep 14):** Ultra $200/mo **included with
-  SuperGrok Heavy → $0 marginal**. Cursor Models **4.6% used** (`cursor-grok-4.6-high-fast` 120.3M
-  tok = 4.5%); Other Models 0.7%; **on-demand DISABLED, $0**. Resets Sep 14. GrokBot weekly 0%
-  (resets Aug 30 — later restated Sep 6). ⇒ a near-empty free grok-4.6 coding lane (Cloud Agents
-  on the repo branch = stage-6/7, feeds GitLab CI). Key `Cursor BTS` (Admin, exp 2027-08-13,
-  `.secrets\`). Keith 2026-09-04: **pour volume coding here** (and GitHub / GitLab / Grok Bot).
-  Heavy is **25% used** this week (Keith 2026-09-05; reset Sep 10); this TUI may cook; do not drain the last 2%.
+- **Cursor (Keith dashboard 2026-09-09, cycle through Sep 14):** Ultra $200/mo
+  **included with SuperGrok Heavy → $0 marginal**. **Cursor Models 7% used**
+  (Grok + Composer). **Other Models 73% used**. **On-demand Disabled** — do not
+  Save/enable. Grok Bot weekly **3% used**, resets **Sep 13** — **not SGH /
+  not Heavy** (Keith checked). Pour Cloud Agents on **grok-4.6** (native pool).
+  Do not spend Other Models on Sonnet/Opus reviews. Gitur review = GLM other
+  family on OpenRouter, not Cursor Other Models.
 - **GitLab Ultimate Trial cliff: 2026-09-16** (12 days from 2026-09-04). Duo/Credits
   **0/24 used**. After the trial: git hosting on `gitlab.com` stays; **Duo Agent
   Platform and Ultimate CI/security extras drop** unless Keith upgrades. Do not

@@ -14,6 +14,8 @@ only because Keith asked.
   inclusionai/ling-3.0-flash      (cheap coder 2026-09-08: Keith word)
   openai/gpt-5.6-terra            (value 2026-09-08: OpenAI Flex endpoint)
   openai/gpt-5.6-luna             (credit 2026-09-08: OpenAI Flex — Keith pin flex)
+  openai/gpt-5.6-luna-pro         (credit 2026-09-10: OpenAI Flex ½ off — Keith)
+  openai/gpt-5.6-sol              (major full-code reviews only — Keith 2026-09-09)
 
 POST https://openrouter.ai/api/v1/chat/completions
 GET  https://openrouter.ai/api/v1/models
@@ -61,25 +63,30 @@ SOLAR_PRO4 = "upstage/solar-pro4"
 LING_FLASH = "inclusionai/ling-3.0-flash"
 GPT56_TERRA = "openai/gpt-5.6-terra"
 GPT56_LUNA = "openai/gpt-5.6-luna"
+GPT56_LUNA_PRO = "openai/gpt-5.6-luna-pro"
+GPT56_SOL = "openai/gpt-5.6-sol"
 # OpenRouter model page endpoint= UUID for OpenAI Flex. Named tag, not a rotator.
 # Terra Flex $1/$6 (page standard $2/$12). Luna Flex $0.10/$0.60 (page $0.20/$1.20).
-# Keith 2026-09-08: pin flex — both GPT-5.6 OpenRouter seats default openai/flex.
+# Luna Pro page 2026-09-10: standard $0.20/$1.75; Flex ½ off $0.10/$0.875 (cache $0.01).
+# Keith 2026-09-08: pin flex — GPT-5.6 OpenRouter seats default openai/flex.
+# Keith 2026-09-10: Luna Pro is ½ off on Flex. Same underlying Luna, reasoning max.
+# Not a swap of GPT56_LUNA. Catalog COD on Pro is UNMEASURED.
 OPENAI_FLEX = "openai/flex"
 TERRA_FLEX = OPENAI_FLEX
 TERRA_ENDPOINT_UUID = "bf8a8d37-5c1b-4343-8f0f-eee99b60c5f2"
 ENDPOINT_TO_TAG = {TERRA_ENDPOINT_UUID: OPENAI_FLEX}
-FLEX_MODELS = frozenset({GPT56_TERRA, GPT56_LUNA})
+FLEX_MODELS = frozenset({GPT56_TERRA, GPT56_LUNA, GPT56_LUNA_PRO})
 FLEX_PROVIDERS = frozenset({
     "openai/flex", "openai", "openai/fast",
     "azure", "azure/us", "azure/eu",
     "amazon-bedrock/us-east-1",
 })
 TERRA_PROVIDERS = FLEX_PROVIDERS
-PROMPT_CACHE_POLICY = "v1"
+PROMPT_CACHE_POLICY = "v2"
 # Named cheap-coder roster. Not :free. Not the rotator. Not ~latest aliases.
 # Keith 2026-09-08 word: pin Solar Pro4 + Ling 3.0 Flash (bound cheap pings).
 CHEAP_CODERS = (VALUE_CODER, DEEPSEEK_V4_FLASH, SOLAR_PRO4, LING_FLASH)
-PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS
+PINNED_VALUE = frozenset(CHEAP_CODERS) | FLEX_MODELS | {GPT56_SOL}
 PINNED = PINNED_FREE | PINNED_VALUE
 CHAT_PATH = "/chat/completions"
 MODELS_PATH = "/models"
@@ -157,6 +164,64 @@ def cache_family(*, model: str, prefix: str = "", tools: str = "v1") -> str:
     tag = "luna" if "luna" in low else ("terra" if "terra" in low else "or")
     key = f"cdeck-{tag}-p{PROMPT_CACHE_POLICY}-t{tools}-{fp}"
     return key[:64]
+
+
+PRELOAD_ROLES = frozenset({"system", "developer"})
+CACHE_CONTROL_EPHEMERAL = {"type": "ephemeral"}
+CACHE_BREAKPOINT_EXPLICIT = {"mode": "explicit"}
+
+
+def tag_preload(messages, *, flex: bool = False):
+    """Tag the first system/developer text block for explicit cache.
+
+    Default: ``cache_control: {type: ephemeral}`` on the stable preload.
+    Auto-cache vendors (OpenAI, DeepSeek, Z.AI/GLM) ignore the extra field.
+    Picky vendors (Qwen, Anthropic, Gemini explicit on OpenRouter) need it.
+    Flex seats also get ``prompt_cache_breakpoint``. User-only pings stay
+    untagged. Do not tag the volatile user tail.
+    """
+    if not isinstance(messages, list):
+        return messages
+    out = []
+    tagged = False
+    for msg in messages:
+        if tagged or not isinstance(msg, dict):
+            out.append(msg)
+            continue
+        role = str(msg.get("role") or "").strip().lower()
+        if role not in PRELOAD_ROLES:
+            out.append(msg)
+            continue
+        m = dict(msg)
+        c = m.get("content")
+        if isinstance(c, str) and c.strip():
+            block = {
+                "type": "text",
+                "text": c,
+                "cache_control": dict(CACHE_CONTROL_EPHEMERAL),
+            }
+            if flex:
+                block["prompt_cache_breakpoint"] = dict(
+                    CACHE_BREAKPOINT_EXPLICIT)
+            m["content"] = [block]
+            tagged = True
+        elif isinstance(c, list) and c:
+            parts = []
+            for i, part in enumerate(c):
+                if i == 0 and isinstance(part, dict):
+                    p0 = dict(part)
+                    if "cache_control" not in p0:
+                        p0["cache_control"] = dict(CACHE_CONTROL_EPHEMERAL)
+                    if flex and "prompt_cache_breakpoint" not in p0:
+                        p0["prompt_cache_breakpoint"] = dict(
+                            CACHE_BREAKPOINT_EXPLICIT)
+                    parts.append(p0)
+                    tagged = True
+                else:
+                    parts.append(part)
+            m["content"] = parts
+        out.append(m)
+    return out
 
 
 def _provider_tag(model: str, payload: dict) -> str | None:
@@ -636,34 +701,25 @@ class OpenRouterRail:
                         "model_requested": model, "link_id": self.link_id}
             prov["only"] = [tag]
             prov["order"] = [tag]
+        flex = model in FLEX_MODELS
         body = {
             "model": model,
-            "messages": messages,
+            "messages": tag_preload(
+                list(messages) if isinstance(messages, list) else messages,
+                flex=flex,
+            ),
             "max_tokens": max_c,
             "stream": False,
             "provider": prov,
         }
         pck = str(payload.get("prompt_cache_key") or "").strip()
-        if not pck and model in FLEX_MODELS:
+        if not pck and flex:
             pck = cache_family(model=model)
         if pck:
             body["prompt_cache_key"] = pck
             body["session_id"] = pck
-        if model in FLEX_MODELS:
+        if flex:
             body["prompt_cache_options"] = {"mode": "explicit", "ttl": "30m"}
-            # Mark the first system/user text block as the reusable prefix.
-            msgs = body.get("messages")
-            if isinstance(msgs, list) and msgs:
-                m0 = msgs[0] if isinstance(msgs[0], dict) else {}
-                c0 = m0.get("content")
-                if isinstance(c0, str) and c0.strip():
-                    m0["content"] = [{
-                        "type": "text", "text": c0,
-                        "prompt_cache_breakpoint": {"mode": "explicit"},
-                    }]
-                elif isinstance(c0, list) and c0 and isinstance(c0[0], dict):
-                    if "prompt_cache_breakpoint" not in c0[0] and "cache_control" not in c0[0]:
-                        c0[0]["prompt_cache_breakpoint"] = {"mode": "explicit"}
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
             body["tools"] = tools
@@ -970,6 +1026,35 @@ def _selftest() -> int:
                 assert body.get("provider", {}).get("only") == [OPENAI_FLEX]
                 assert isinstance(body.get("prompt_cache_key"), str)
                 assert body["prompt_cache_key"].startswith("cdeck-")
+            msgs = body.get("messages") if isinstance(body.get("messages"), list) else []
+            roles = [str((m or {}).get("role") or "") for m in msgs if isinstance(m, dict)]
+            if "system" in roles or "developer" in roles:
+                m0 = next(m for m in msgs if isinstance(m, dict)
+                           and str(m.get("role") or "") in ("system", "developer"))
+                c0 = m0.get("content")
+                assert isinstance(c0, list) and c0 and isinstance(c0[0], dict)
+                assert c0[0].get("cache_control") == {"type": "ephemeral"}
+                if body.get("model") in FLEX_MODELS:
+                    assert c0[0].get("prompt_cache_breakpoint") == {"mode": "explicit"}
+                user = next((m for m in msgs if isinstance(m, dict)
+                             and str(m.get("role") or "") == "user"), None)
+                if user is not None:
+                    uc = user.get("content")
+                    if isinstance(uc, dict):
+                        assert "cache_control" not in uc
+                    elif isinstance(uc, list) and uc and isinstance(uc[0], dict):
+                        assert "cache_control" not in uc[0]
+            else:
+                for m in msgs:
+                    if not isinstance(m, dict):
+                        continue
+                    uc = m.get("content")
+                    if isinstance(uc, dict):
+                        assert "cache_control" not in uc
+                    elif isinstance(uc, list):
+                        for part in uc:
+                            if isinstance(part, dict):
+                                assert "cache_control" not in part
             return 200, {}, {
                 "id": "gen-test",
                 "model": body.get("model"),
@@ -1080,11 +1165,59 @@ def _selftest() -> int:
     check("GPT-5.6 Luna pins OpenAI Flex by default (Keith pin flex)",
           lambda: luna["ok"] and luna["model"] == GPT56_LUNA
           and luna.get("provider_tag") == OPENAI_FLEX)
+    luna_pro = rail.dispatch({"model": GPT56_LUNA_PRO, "text": "x"})
+    check("GPT-5.6 Luna Pro pins OpenAI Flex by default (½ off, Keith 2026-09-10)",
+          lambda: luna_pro["ok"] and luna_pro["model"] == GPT56_LUNA_PRO
+          and luna_pro.get("provider_tag") == OPENAI_FLEX)
     check("cache_family is deterministic and has no timestamp",
           lambda: cache_family(model=GPT56_LUNA, prefix="P")
           == cache_family(model=GPT56_LUNA, prefix="P")
           and cache_family(model=GPT56_LUNA, prefix="P").startswith("cdeck-luna-")
           and len(cache_family(model=GPT56_LUNA, prefix="P")) <= 64)
+    def _preload_tags_system_not_user():
+        tagged = tag_preload([
+            {"role": "system", "content": "STABLE PREFIX"},
+            {"role": "user", "content": "ITEM TAIL"},
+        ])
+        sys0 = tagged[0]["content"][0]
+        return (sys0.get("cache_control") == {"type": "ephemeral"}
+                and tagged[1].get("content") == "ITEM TAIL"
+                and "cache_control" not in tagged[1])
+    def _preload_skips_user_only():
+        ping = tag_preload([{"role": "user", "content": "ping"}])
+        return ping[0].get("content") == "ping"
+    def _preload_flex_gets_both():
+        flexed = tag_preload(
+            [{"role": "system", "content": "P"},
+             {"role": "user", "content": "q"}],
+            flex=True)
+        b = flexed[0]["content"][0]
+        return (b.get("cache_control") == {"type": "ephemeral"}
+                and b.get("prompt_cache_breakpoint") == {"mode": "explicit"})
+    check("tag_preload puts cache_control on system, not the user tail",
+          _preload_tags_system_not_user)
+    check("tag_preload leaves a user-only ping untagged",
+          _preload_skips_user_only)
+    check("tag_preload Flex gets cache_control and breakpoint",
+          _preload_flex_gets_both)
+    glm_sys = rail.dispatch({
+        "model": VALUE_CODER,
+        "messages": [
+            {"role": "system", "content": "STABLE PREFIX"},
+            {"role": "user", "content": "ITEM TAIL"},
+        ],
+    })
+    check("GLM-with-system dispatch is tagged (auto ignores, picky works)",
+          lambda: glm_sys["ok"] and glm_sys["model"] == VALUE_CODER)
+    luna_sys = rail.dispatch({
+        "model": GPT56_LUNA,
+        "messages": [
+            {"role": "system", "content": "STABLE PREFIX"},
+            {"role": "user", "content": "ITEM TAIL"},
+        ],
+    })
+    check("Luna-with-system dispatch tags cache_control plus breakpoint",
+          lambda: luna_sys["ok"] and luna_sys["model"] == GPT56_LUNA)
     bad_ep = rail.dispatch({"model": GPT56_TERRA, "text": "x",
                             "endpoint": "not-a-real-uuid"})
     check("unknown Terra endpoint uuid is REFUSED",
@@ -1093,6 +1226,13 @@ def _selftest() -> int:
                               "provider_only": "not-a-flex-provider"})
     check("Luna non-Flex provider is REFUSED",
           lambda: (not luna_bad["ok"]) and luna_bad["kind"] == "REFUSED")
+    pro_bad = rail.dispatch({"model": GPT56_LUNA_PRO, "text": "x",
+                             "provider_only": "not-a-flex-provider"})
+    check("Luna Pro non-Flex provider is REFUSED",
+          lambda: (not pro_bad["ok"]) and pro_bad["kind"] == "REFUSED")
+    sol = rail.dispatch({"model": GPT56_SOL, "text": "x"})
+    check("GPT-5.6 Sol is a named pin (major full-code reviews only)",
+          lambda: sol["ok"] and sol["model"] == GPT56_SOL)
     alias = rail.dispatch({"model": "~deepseek/deepseek-v4-flash-latest", "text": "x"})
     check("~latest alias is REFUSED",
           lambda: (not alias["ok"]) and alias["kind"] == "REFUSED")

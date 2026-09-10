@@ -53,13 +53,18 @@ SEATS = {
     # Not :batch. Not Sol ($2/$10 — more than G46). Not grok-4.6.
     "luna": {"kind": "or", "model": "openai/gpt-5.6-luna", "role": "credit",
              "flex": True},
+    # Keith 2026-09-10: Luna Pro is ½ off on Flex. Same underlying Luna,
+    # reasoning max. Page $0.20/$1.75 → Flex $0.10/$0.875. Not a swap of luna.
+    # Catalog COD UNMEASURED. Not Sol.
+    "luna-pro": {"kind": "or", "model": "openai/gpt-5.6-luna-pro",
+                 "role": "credit", "flex": True},
     # Hard Python / repo escalate. Flex pin already in cosmos_openrouter_rail.
     # Vendor DeepSWE lead is a guideline, not a seat lock vs G46/GF38.
     "terra": {"kind": "or", "model": "openai/gpt-5.6-terra", "role": "escalate",
               "flex": True},
-    # Keith 2026-09-09: drop GPT SOL on each tab. OpenRouter named pin.
+    # Keith 2026-09-09 later: Luna mostly. Sol = major full-code reviews only.
     # oa-api stays paused (rails-prober scar). Not Flex unless named.
-    "sol": {"kind": "or", "model": "openai/gpt-5.6-sol", "role": "quality"},
+    "sol": {"kind": "or", "model": "openai/gpt-5.6-sol", "role": "major_review"},
 }
 
 
@@ -159,7 +164,7 @@ def main(argv: list[str] | None = None) -> int:
         from cosmos_openrouter_rail import (  # noqa: E402
             CHAT_PATH, FLEX_MODELS, OPENAI_FLEX, OpenRouterRail, cache_family,
             fold_usage, key_path_for, load_spec, model_refused, spec_path_for,
-            _message_text,
+            tag_preload, _message_text,
         )
         why = None if seat.get("skip_pin") else model_refused(seat["model"])
         if why:
@@ -176,33 +181,14 @@ def main(argv: list[str] | None = None) -> int:
                 prefix = prefix.rstrip() + "\n\n" + CODING_GUIDELINES.read_text(
                     encoding="utf-8")
             flex = bool(seat.get("flex") or seat["model"] in FLEX_MODELS)
-            if prefix and flex:
-                # GPT-5.6+: explicit breakpoint on the stable prefix (OpenRouter).
+            if prefix:
                 messages = [
-                    {
-                        "role": "system",
-                        "content": [{
-                            "type": "text",
-                            "text": prefix,
-                            "prompt_cache_breakpoint": {"mode": "explicit"},
-                        }],
-                    },
-                    {"role": "user", "content": prompt},
-                ]
-            elif prefix:
-                messages = [
-                    {
-                        "role": "system",
-                        "content": [{
-                            "type": "text",
-                            "text": prefix,
-                            "cache_control": {"type": "ephemeral"},
-                        }],
-                    },
+                    {"role": "system", "content": prefix},
                     {"role": "user", "content": prompt},
                 ]
             else:
                 messages = [{"role": "user", "content": prompt}]
+            messages = tag_preload(messages, flex=flex)
             prov = {"allow_fallbacks": False}
             if flex:
                 prov["only"] = [OPENAI_FLEX]
@@ -222,8 +208,22 @@ def main(argv: list[str] | None = None) -> int:
                     body["prompt_cache_options"] = {
                         "mode": "explicit", "ttl": "30m",
                     }
-            status, _hdrs, obj = rail._call("POST", CHAT_PATH, body)
-            obj = obj if isinstance(obj, dict) else {}
+            # Same OpenRouter key for every named pin. 429/502 are provider
+            # limits (GLM Z.AI), not AUTH. Retry with backoff; do not
+            # allow_fallbacks (H3 silent swap).
+            status, obj = 0, {}
+            last_err = ""
+            for attempt in range(4):
+                status, _hdrs, obj = rail._call("POST", CHAT_PATH, body)
+                obj = obj if isinstance(obj, dict) else {}
+                err = obj.get("error") if isinstance(obj.get("error"), dict) else None
+                last_err = (err or {}).get("message") if err else ""
+                if status == 200 and obj.get("model"):
+                    break
+                if status not in (429, 502) or attempt == 3:
+                    break
+                import time
+                time.sleep((5, 15, 30, 45)[attempt])
             bound = obj.get("model")
             usage = fold_usage(obj)
             text = _message_text(obj)
