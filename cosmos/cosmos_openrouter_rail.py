@@ -227,6 +227,109 @@ def tag_preload(messages, *, flex: bool = False):
     return out
 
 
+class PrecacheError(RuntimeError):
+    """P14 precache gate — kinds NAKED_FIRST_QUERY, FABRICATED_CACHE_HIT."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
+
+
+_USER_PING_MARKERS = frozenset({"ping", "pong", "ok", "hi", "hello", "test"})
+
+
+def _user_text(msg: dict) -> str:
+    content = msg.get("content")
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list) and content and isinstance(content[0], dict):
+        return str(content[0].get("text") or "").strip()
+    return ""
+
+
+def is_user_only_ping(messages) -> bool:
+    """Narrow user-only ping — not every naked user message (PROMPT_CACHE)."""
+    if not isinstance(messages, list) or len(messages) != 1:
+        return False
+    msg = messages[0]
+    if not isinstance(msg, dict):
+        return False
+    if str(msg.get("role") or "").strip().lower() != "user":
+        return False
+    text = _user_text(msg)
+    if not text:
+        return False
+    low = text.lower()
+    if low in _USER_PING_MARKERS:
+        return True
+    return len(low) <= 5 and "\n" not in low
+
+
+def _preload_has_cache_control(msg: dict) -> bool:
+    content = msg.get("content")
+    if isinstance(content, dict):
+        return content.get("cache_control") == CACHE_CONTROL_EPHEMERAL
+    if isinstance(content, list):
+        for part in content:
+            if isinstance(part, dict) and part.get("cache_control") == CACHE_CONTROL_EPHEMERAL:
+                return True
+    return False
+
+
+def _preload_blocks(messages) -> list:
+    blocks = []
+    if not isinstance(messages, list):
+        return blocks
+    for msg in messages:
+        if not isinstance(msg, dict):
+            continue
+        role = str(msg.get("role") or "").strip().lower()
+        if role not in PRELOAD_ROLES:
+            continue
+        content = msg.get("content")
+        if isinstance(content, str) and content.strip():
+            blocks.append(msg)
+        elif isinstance(content, list) and content:
+            blocks.append(msg)
+        elif isinstance(content, dict) and content:
+            blocks.append(msg)
+    return blocks
+
+
+def audit_precache_messages(messages) -> None:
+    """Refuse agent first queries without tagged preload (P14 / PROMPT_CACHE).
+
+    User-only pings are exempt. Not engine KV cache — OpenRouter ``cache_control``
+    on the stable prefix plus ``cache_family`` routing affinity.
+    """
+    if is_user_only_ping(messages):
+        return
+    preloads = _preload_blocks(messages)
+    if not preloads:
+        raise PrecacheError(
+            "NAKED_FIRST_QUERY",
+            "no system/developer preload — naked first query is out of SOP",
+        )
+    for msg in preloads:
+        if not _preload_has_cache_control(msg):
+            raise PrecacheError(
+                "NAKED_FIRST_QUERY",
+                "preload block lacks cache_control ephemeral tag",
+            )
+
+
+def audit_cache_hit_claim(usage_fold, *, claim_cache_hit: bool = False) -> None:
+    """Refuse a claimed cache hit without measured ``cached_tokens``."""
+    if not claim_cache_hit:
+        return
+    cached = usage_fold.get("cached_tokens") if isinstance(usage_fold, dict) else None
+    if cached is None:
+        raise PrecacheError(
+            "FABRICATED_CACHE_HIT",
+            "cache hit claimed but usage_fold.cached_tokens is missing",
+        )
+
+
 def _provider_tag(model: str, payload: dict) -> str | None:
     """Named provider tag. Terra and Luna default to OpenAI Flex."""
     payload = payload if isinstance(payload, dict) else {}
@@ -705,38 +808,44 @@ class OpenRouterRail:
             prov["only"] = [tag]
             prov["order"] = [tag]
         flex = model in FLEX_MODELS
+        tagged_messages = tag_preload(
+            list(messages) if isinstance(messages, list) else messages,
+            flex=flex,
+        )
+        precache_exempt = (
+            payload.get("precache_exempt") is True
+            or payload.get("user_only_ping") is True
+            or is_user_only_ping(tagged_messages)
+        )
+        if not precache_exempt:
+            try:
+                audit_precache_messages(tagged_messages)
+            except PrecacheError as e:
+                return {
+                    "ok": False,
+                    "kind": e.kind,
+                    "detail": str(e),
+                    "model_requested": model,
+                    "link_id": self.link_id,
+                }
         body = {
             "model": model,
-            "messages": tag_preload(
-                list(messages) if isinstance(messages, list) else messages,
-                flex=flex,
-            ),
+            "messages": tagged_messages,
             "max_tokens": max_c,
             "stream": False,
             "provider": prov,
         }
+        prefix_for_key = str(payload.get("precache_prefix") or "").strip()
         pck = str(payload.get("prompt_cache_key") or "").strip()
         if not pck and flex:
-            pck = cache_family(model=model)
+            pck = cache_family(model=model, prefix=prefix_for_key)
+        elif not pck and prefix_for_key:
+            pck = cache_family(model=model, prefix=prefix_for_key)
         if pck:
             body["prompt_cache_key"] = pck
             body["session_id"] = pck
         if flex:
             body["prompt_cache_options"] = {"mode": "explicit", "ttl": "30m"}
-        from cosmos_precache import (  # noqa: E402
-            PrecacheError, assert_cache_hit_measured, assert_not_naked_first_query,
-            has_stable_prefix, measure_cached,
-        )
-        first_in_family = payload.get("first_in_cache_family")
-        if first_in_family is None:
-            first_in_family = bool(pck) and has_stable_prefix(
-                list(messages) if isinstance(messages, list) else [])
-        try:
-            assert_not_naked_first_query(
-                body["messages"], first_in_family=bool(first_in_family))
-        except PrecacheError as e:
-            return {"ok": False, "kind": e.kind, "detail": str(e),
-                    "model_requested": model, "link_id": self.link_id}
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
             body["tools"] = tools
@@ -751,16 +860,12 @@ class OpenRouterRail:
         )
         ok = status == 200 and bound_ok
         usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
-        claimed_hit = bool(payload.get("cache_hit_claim") or payload.get("cache_hit"))
-        if claimed_hit:
+        claim_hit = payload.get("claim_cache_hit") is True
+        if claim_hit:
             try:
-                assert_cache_hit_measured(
-                    claimed_hit=True, usage_fold=usage_fold)
+                audit_cache_hit_claim(usage_fold, claim_cache_hit=True)
             except PrecacheError as e:
-                return {"ok": False, "kind": e.kind, "detail": str(e),
-                        "model_requested": model, "model": response_model,
-                        "usage_fold": usage_fold, "link_id": self.link_id}
-        precache = measure_cached(usage_fold)
+                ok = False
         rec = {
             "ok": ok,
             "http": status,
@@ -770,7 +875,7 @@ class OpenRouterRail:
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
             "usage_fold": usage_fold,
-            "precache": precache,
+            "cached_tokens": usage_fold.get("cached_tokens"),
             "tool_calls": _tool_calls(obj if isinstance(obj, dict) else {}),
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "provider_tag": (prov.get("only") or [None])[0],
@@ -779,6 +884,8 @@ class OpenRouterRail:
         }
         if not ok and rec["kind"] is None:
             rec["kind"] = "BROKE"
+        if claim_hit and not ok:
+            rec["kind"] = "FABRICATED_CACHE_HIT"
         if ok and paths is not None:
             try:
                 record_usage(paths, usage_fold, model=str(response_model or model),
@@ -965,9 +1072,13 @@ def gate(root: str | os.PathLike, *, http=None) -> dict:
     ok, detail = rail.probe()
     ident = rail.last_identity() or {}
     chat = rail.dispatch({
-        "text": "Reply with exactly GEMMA4_READY and nothing else.",
+        "messages": [
+            {"role": "system", "content": "COSMOS openrouter rail gate preload."},
+            {"role": "user",
+             "content": "Reply with exactly GEMMA4_READY and nothing else."},
+        ],
         "max_tokens": GATE_MAX_TOKENS,
-    })
+    }, paths=paths)
     rec = {
         "schema": SCHEMA,
         "worker": WORKER,
@@ -1228,33 +1339,51 @@ def _selftest() -> int:
           _preload_skips_user_only)
     check("tag_preload Flex gets cache_control and breakpoint",
           _preload_flex_gets_both)
-    from cosmos_precache import PrecacheError, assert_not_naked_first_query  # noqa: E402
 
-    def _p14_naked():
-        try:
-            assert_not_naked_first_query(
-                [{"role": "user", "content": "task without prefix"}],
-                first_in_family=True)
-            return False
-        except PrecacheError as e:
-            return e.kind == "NAKED_FIRST_QUERY"
-
-    check("P14: untagged first query is NAKED_FIRST_QUERY", _p14_naked)
-    def _p14_precache_fold():
-        tagged = tag_preload([
-            {"role": "system", "content": "P"},
-            {"role": "user", "content": "q"},
+    def _naked_untagged_system():
+        audit_precache_messages([
+            {"role": "system", "content": "PREFIX without tag"},
+            {"role": "user", "content": "task"},
         ])
-        rec = rail.dispatch({
-            "model": VALUE_CODER,
-            "messages": tagged,
-            "first_in_cache_family": True,
-        })
-        p = rec.get("precache") or {}
-        return isinstance(p, dict) and p.get("cached_tokens") == 1
-
-    check("P14: dispatch attaches precache.cached_tokens from vendor fold",
-          _p14_precache_fold)
+    def _naked_user_only_agent():
+        audit_precache_messages([{"role": "user", "content": "do the thing"}])
+    def _user_ping_ok():
+        audit_precache_messages([{"role": "user", "content": "ping"}])
+        return True
+    def _fabricated_hit():
+        audit_cache_hit_claim({"kind": "MEASURED"}, claim_cache_hit=True)
+    try:
+        _naked_untagged_system()
+        check("NAKED_FIRST_QUERY: untagged system preload is refused", lambda: False)
+    except PrecacheError as e:
+        check("NAKED_FIRST_QUERY: untagged system preload is refused",
+              lambda: e.kind == "NAKED_FIRST_QUERY")
+    try:
+        _naked_user_only_agent()
+        check("NAKED_FIRST_QUERY: user-only agent query is refused", lambda: False)
+    except PrecacheError as e:
+        check("NAKED_FIRST_QUERY: user-only agent query is refused",
+              lambda: e.kind == "NAKED_FIRST_QUERY")
+    check("user-only ping exempt from precache gate", _user_ping_ok)
+    try:
+        _fabricated_hit()
+        check("FABRICATED_CACHE_HIT without cached_tokens is refused", lambda: False)
+    except PrecacheError as e:
+        check("FABRICATED_CACHE_HIT without cached_tokens is refused",
+              lambda: e.kind == "FABRICATED_CACHE_HIT")
+    tagged_agent = rail.dispatch({
+        "model": VALUE_CODER,
+        "messages": [
+            {"role": "system", "content": "STABLE PREFIX"},
+            {"role": "user", "content": "ITEM"},
+        ],
+    })
+    check("tagged system+user dispatch binds and measures cached_tokens",
+          lambda: tagged_agent["ok"]
+          and tagged_agent.get("cached_tokens") == 1)
+    ping_only = rail.dispatch({"text": "ping"})
+    check("user-only ping dispatch stays exempt and measures cached_tokens",
+          lambda: ping_only["ok"] and ping_only.get("cached_tokens") == 1)
     glm_sys = rail.dispatch({
         "model": VALUE_CODER,
         "messages": [
