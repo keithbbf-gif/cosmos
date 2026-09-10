@@ -9,6 +9,7 @@ runs) and `glab` (identity). Cursor live is GET /v1/me only — never
 """
 from __future__ import annotations
 
+import concurrent.futures
 import json
 import re
 import subprocess
@@ -22,16 +23,20 @@ from cosmos_cursor_rail import LAUNCH_NAME, PROBE_NAME
 SCHEMA = "cosmos-gitur/1"
 LEGS = (
     ("cursor-api", "Cursor",
-     "Lane B BUILD. Cloud Agents. Probe is GET /v1/me."),
+     "Lane B BUILD grok-4.6 native pool. Probe is GET /v1/me."),
     ("github-forge", "GitHub",
-     "origin, PRs, Claude review default. Not the live-tree writer."),
+     "origin, PRs, GLM other-family review. Not the live-tree writer."),
     ("gitlab-forge", "GitLab",
-     "CI is the execute-the-gate. Claude review default. Duo still proposes."),
+     "CI is the execute-the-gate. GLM review. Duo still proposes."),
 )
-# Keith 2026-09-09: Gitur default reviewer is Claude. CCr (Grok) reviews
-# all code before dispose. Vendor-plural — not COSMOS claude -p.
-DEFAULT_REVIEWER = "claude"
-DEFAULT_REVIEW_COMMENT = "@claude review"
+# Keith 2026-09-09: Claude is optional diversity, not required. Sonnet is
+# not cheap. Gitur default reviewer = GLM (other family, named pin).
+# Cursor Cloud Agents stay on Cursor Models (Grok 4.6). Other Models 73%.
+# Grok Bot weekly is NOT SuperGrok Heavy. CCr still reviews all code.
+DEFAULT_REVIEWER = "glm"
+DEFAULT_REVIEW_VIA = "openrouter"
+DEFAULT_REVIEW_MODEL = "z-ai/glm-5.3-flash"
+DEFAULT_REVIEW_TRIGGER = "openrouter-named-pin"
 JOB_NEEDLES = ("gitur", "github", "gitlab", "cursor", "glab", "copilot")
 FORGE_NEEDLES = ("forge", "motif", "adversar", "cheap_coder")
 IMPLEMENT_NEEDLES = ("implement", "accept_order", "--accept", "dispose", "ccr write")
@@ -93,13 +98,13 @@ def _cli(argv, *, timeout=CLI_TIMEOUT_S, run=None) -> tuple[int, str, str]:
     return int(p.returncode), p.stdout or "", p.stderr or ""
 
 
-def request_default_review(repo: str, number, *, run=None,
-                           kind: str = "pr") -> dict:
-    """Gitur default: Claude reviews the PR/MR. CCr still reviews all code.
+def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
+                           launch=None, root=None) -> dict:
+    """Gitur default: GLM reviews the PR/MR (other family, cheap named pin).
 
-    Posts a top-level ``@claude review`` (Claude Code GitHub App / GitLab
-    Claude agent). Does not call COSMOS ``claude -p`` (ANTHROPIC_OFF).
-    Does not merge. Does not invent a hit — ok is the CLI exit.
+    Claude/Sonnet is optional diversity, not required. Does not spend Cursor
+    Other Models. Does not call COSMOS ``claude -p``. Does not merge.
+    ``launch`` injects tests.
     """
     repo = str(repo or "").strip()
     try:
@@ -111,22 +116,59 @@ def request_default_review(repo: str, number, *, run=None,
         return {"ok": False, "kind": "REFUSED", "detail": "empty repo",
                 "reviewer": DEFAULT_REVIEWER}
     if kind == "mr":
-        argv = ["glab", "mr", "note", str(n), "--repo", repo,
-                "-m", DEFAULT_REVIEW_COMMENT]
+        url = f"https://gitlab.com/{repo}/-/merge_requests/{n}"
+        gh_url = f"https://github.com/{repo}"
     else:
-        argv = ["gh", "pr", "comment", str(n), "--repo", repo,
-                "--body", DEFAULT_REVIEW_COMMENT]
-    rc, out, err = _cli(argv, timeout=max(CLI_TIMEOUT_S, 15.0), run=run)
-    ok = rc == 0
+        url = f"https://github.com/{repo}/pull/{n}"
+        gh_url = f"https://github.com/{repo}"
+    prompt = (
+        "REVIEW ONLY. You are the Gitur default reviewer: GLM "
+        f"({DEFAULT_REVIEW_MODEL}), a different family from CCr Grok 4.6. "
+        "Do not merge. Do not write V:\\A. Not Fable. Not Opus. Not Cursor "
+        f"Other Models. Target: {url}. Post findings with file and line. "
+        "No invented scores. Empty review if the diff is sound."
+    )
+    extra = {
+        "model": DEFAULT_REVIEW_MODEL,
+        "review": True,
+        "auto_create_pr": False,
+        "repo_url": gh_url,
+        "poll": False,
+        "name": f"gitur-glm-{kind}-{n}"[:100],
+    }
+    if launch is not None:
+        rec = launch(prompt, extra)
+    else:
+        from cosmos_openrouter_rail import (
+            OpenRouterRail, key_path_for, load_spec, spec_path_for,
+        )
+        from cosmos_paths import CosmosPaths
+        live = root or Path(r"V:\A\Ai\COSMOS\live")
+        paths = CosmosPaths(str(live))
+        spec = load_spec(spec_path_for(paths))
+        rail = OpenRouterRail(key_path_for(paths, spec), spec)
+        rec = rail.dispatch({
+            "model": DEFAULT_REVIEW_MODEL,
+            "messages": [
+                {"role": "system", "content": "Gitur reviewer. Findings only."},
+                {"role": "user", "content": prompt},
+            ],
+            "max_tokens": 2048,
+        })
+    rec = rec if isinstance(rec, dict) else {"ok": False, "detail": str(rec)[:200]}
+    ok = bool(rec.get("ok"))
     return {
         "ok": ok,
-        "kind": "OK" if ok else ("NO_CLI" if rc == 127 else "UNREACHABLE"),
+        "kind": rec.get("kind") or ("OK" if ok else "UNREACHABLE"),
         "reviewer": DEFAULT_REVIEWER,
-        "trigger": DEFAULT_REVIEW_COMMENT,
+        "model": DEFAULT_REVIEW_MODEL,
+        "trigger": DEFAULT_REVIEW_TRIGGER,
         "repo": repo,
         "number": n,
-        "via": "glab" if kind == "mr" else "gh",
-        "detail": (err or out or "")[:200],
+        "via": DEFAULT_REVIEW_VIA,
+        "url": url,
+        "agent_id": rec.get("agent_id") or (rec.get("dispatch") or {}).get("agent_id"),
+        "detail": (rec.get("detail") or rec.get("launch_error") or "")[:200],
     }
 
 
@@ -142,9 +184,72 @@ def _parked(repo: str, number) -> bool:
     return False
 
 
+def _github_prs(repo: str, *, run=None) -> list:
+    prc, pout, _perr = _cli(
+        ["gh", "pr", "list", "--repo", repo, "--state", "open",
+         "--json", "number,title,isDraft,url,headRefName,updatedAt",
+         "--limit", "12"],
+        timeout=CLI_TIMEOUT_S, run=run)
+    body = _json_from_cli(pout) if prc == 0 else None
+    prs = []
+    if isinstance(body, list):
+        for row in body:
+            if not isinstance(row, dict):
+                continue
+            num = row.get("number")
+            prs.append({
+                "repo": repo,
+                "number": num,
+                "title": row.get("title"),
+                "draft": bool(row.get("isDraft")),
+                "url": row.get("url"),
+                "branch": row.get("headRefName"),
+                "updated_at": row.get("updatedAt"),
+                "parked": _parked(repo, num),
+                "leg": "github",
+                "st": "DRAFT" if row.get("isDraft") else "OPEN",
+            })
+    return prs
+
+
+def _github_runs(repo: str, *, run=None) -> list:
+    rrc, rout, _rerr = _cli(
+        ["gh", "run", "list", "--repo", repo, "--limit", "6",
+         "--json", "databaseId,name,status,conclusion,headBranch,updatedAt,url,event"],
+        timeout=CLI_TIMEOUT_S, run=run)
+    rbody = _json_from_cli(rout) if rrc == 0 else None
+    runs = []
+    if isinstance(rbody, list):
+        for row in rbody:
+            if not isinstance(row, dict):
+                continue
+            st = str(row.get("status") or "").lower()
+            conc = str(row.get("conclusion") or "").lower()
+            word = "RUNNING" if st in ("in_progress", "queued") else (
+                "CLEAN" if conc == "success" else (
+                    "BROKE" if conc in ("failure", "cancelled", "timed_out")
+                    else (conc or st or "UNMEASURED").upper()))
+            runs.append({
+                "repo": repo,
+                "id": row.get("databaseId"),
+                "name": row.get("name"),
+                "st": word,
+                "status": row.get("status"),
+                "conclusion": row.get("conclusion") or "",
+                "branch": row.get("headBranch"),
+                "event": row.get("event"),
+                "url": row.get("url"),
+                "updated_at": row.get("updatedAt"),
+                "leg": "github",
+                "kind": "actions",
+            })
+    return runs
+
+
 def github_live(*, run=None) -> dict:
     """Measured `gh` CLI. Identity is rate_limit.limit. PRs/runs are lists
-    gh actually returned — empty list is measured zero, not invented."""
+    gh actually returned — empty list is measured zero, not invented.
+    Identity first, then per-repo PR + Actions walks overlap."""
     t0 = time.time()
     rc, out, err = _cli(["gh", "api", "rate_limit"], timeout=CLI_TIMEOUT_S, run=run)
     doc = _json_from_cli(out) if rc == 0 else None
@@ -156,60 +261,24 @@ def github_live(*, run=None) -> dict:
             "detail": (err or out or "gh api rate_limit failed")[:200],
             "prs": [], "runs": [], "age_s": round(time.time() - t0, 3),
         }
+    got = {repo: {"pr": [], "run": []} for repo in GH_REPOS}
+    with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, len(GH_REPOS) * 2)) as pool:
+        futs = {}
+        for repo in GH_REPOS:
+            futs[pool.submit(_github_prs, repo, run=run)] = ("pr", repo)
+            futs[pool.submit(_github_runs, repo, run=run)] = ("run", repo)
+        for fut in concurrent.futures.as_completed(futs):
+            kind, repo = futs[fut]
+            try:
+                rows = fut.result()
+            except Exception:  # noqa: BLE001
+                rows = []
+            got[repo][kind] = rows if isinstance(rows, list) else []
     prs, runs = [], []
     for repo in GH_REPOS:
-        prc, pout, _perr = _cli(
-            ["gh", "pr", "list", "--repo", repo, "--state", "open",
-             "--json", "number,title,isDraft,url,headRefName,updatedAt",
-             "--limit", "12"],
-            timeout=CLI_TIMEOUT_S, run=run)
-        body = _json_from_cli(pout) if prc == 0 else None
-        if isinstance(body, list):
-            for row in body:
-                if not isinstance(row, dict):
-                    continue
-                num = row.get("number")
-                prs.append({
-                    "repo": repo,
-                    "number": num,
-                    "title": row.get("title"),
-                    "draft": bool(row.get("isDraft")),
-                    "url": row.get("url"),
-                    "branch": row.get("headRefName"),
-                    "updated_at": row.get("updatedAt"),
-                    "parked": _parked(repo, num),
-                    "leg": "github",
-                    "st": "DRAFT" if row.get("isDraft") else "OPEN",
-                })
-        rrc, rout, _rerr = _cli(
-            ["gh", "run", "list", "--repo", repo, "--limit", "6",
-             "--json", "databaseId,name,status,conclusion,headBranch,updatedAt,url,event"],
-            timeout=CLI_TIMEOUT_S, run=run)
-        rbody = _json_from_cli(rout) if rrc == 0 else None
-        if isinstance(rbody, list):
-            for row in rbody:
-                if not isinstance(row, dict):
-                    continue
-                st = str(row.get("status") or "").lower()
-                conc = str(row.get("conclusion") or "").lower()
-                word = "RUNNING" if st in ("in_progress", "queued") else (
-                    "CLEAN" if conc == "success" else (
-                        "BROKE" if conc in ("failure", "cancelled", "timed_out")
-                        else (conc or st or "UNMEASURED").upper()))
-                runs.append({
-                    "repo": repo,
-                    "id": row.get("databaseId"),
-                    "name": row.get("name"),
-                    "st": word,
-                    "status": row.get("status"),
-                    "conclusion": row.get("conclusion") or "",
-                    "branch": row.get("headBranch"),
-                    "event": row.get("event"),
-                    "url": row.get("url"),
-                    "updated_at": row.get("updatedAt"),
-                    "leg": "github",
-                    "kind": "actions",
-                })
+        prs.extend(got[repo]["pr"])
+        runs.extend(got[repo]["run"])
     return {
         "kind": "OK",
         "ok": True,
@@ -221,6 +290,33 @@ def github_live(*, run=None) -> dict:
         "age_s": round(time.time() - t0, 3),
         "via": "gh",
     }
+
+
+def _live_or_broke(fut) -> dict:
+    try:
+        rec = fut.result()
+    except Exception as e:  # noqa: BLE001
+        return {
+            "kind": "BROKE", "ok": False,
+            "detail": f"{type(e).__name__}: {e}"[:200],
+        }
+    return rec if isinstance(rec, dict) else {
+        "kind": "BROKE", "ok": False, "detail": "BAD_LIVE",
+    }
+
+
+def vendor_lives(paths, *, run=None, http=None) -> tuple[dict, dict, dict]:
+    """GitHub / GitLab / Cursor folds are independent. Sequential first-fill
+    measured 6.6s and sat under the extra-pane 8s FAST GET; overlap them."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        f_gh = pool.submit(github_live, run=run)
+        f_gl = pool.submit(gitlab_live, run=run)
+        f_cur = pool.submit(cursor_live, paths, http=http)
+        return (
+            _live_or_broke(f_gh),
+            _live_or_broke(f_gl),
+            _live_or_broke(f_cur),
+        )
 
 
 def gitlab_live(*, run=None) -> dict:
@@ -639,9 +735,8 @@ def _snapshot_uncached(kernel) -> dict:
     launch = _public_launch(_read_json(paths.config(LAUNCH_NAME)))
     sgh = _sgh_fold(paths)
     run = getattr(kernel, "gitur_run", None)
-    gh_live = github_live(run=run)
-    gl_live = gitlab_live(run=run)
-    cur_live = cursor_live(paths, http=getattr(kernel, "gitur_http", None))
+    gh_live, gl_live, cur_live = vendor_lives(
+        paths, run=run, http=getattr(kernel, "gitur_http", None))
     by_leg = {L["id"]: L for L in legs}
     if gh_live.get("ok") and "github-forge" in by_leg:
         by_leg["github-forge"]["verified"] = True
@@ -662,7 +757,7 @@ def _snapshot_uncached(kernel) -> dict:
     panes = {
         "github": {
             "id": "github-forge", "name": "GitHub",
-            "role": "origin, PRs, Claude review default, SGH drop path. Not the live-tree writer.",
+            "role": "origin, PRs, GLM other-family review, SGH drop path. Not the live-tree writer.",
             "leg": next((L for L in legs if L["id"] == "github-forge"), {}),
             "jobs": _pane_jobs("github"),
             "n": sum(1 for j in jobs if j.get("leg") == "github"),
@@ -672,7 +767,7 @@ def _snapshot_uncached(kernel) -> dict:
         },
         "gitlab": {
             "id": "gitlab-forge", "name": "GitLab",
-            "role": "CI is the execute-the-gate. Claude review default. Duo still proposes.",
+            "role": "CI is the execute-the-gate. GLM review. Duo still proposes.",
             "leg": next((L for L in legs if L["id"] == "gitlab-forge"), {}),
             "jobs": _pane_jobs("gitlab"),
             "n": sum(1 for j in jobs if j.get("leg") == "gitlab"),
@@ -740,10 +835,12 @@ def _snapshot_uncached(kernel) -> dict:
         "ccr": ccr,
         "review": {
             "default": DEFAULT_REVIEWER,
-            "trigger": DEFAULT_REVIEW_COMMENT,
+            "model": DEFAULT_REVIEW_MODEL,
+            "via": DEFAULT_REVIEW_VIA,
+            "trigger": DEFAULT_REVIEW_TRIGGER,
             "ccr": "Grok 4.6 this TUI reviews all code before dispose",
-            "note": ("Vendor-plural: Claude on Gitur, Grok as CCr. "
-                     "Not COSMOS claude -p. Not Copilot-as-default."),
+            "note": ("GLM other-family reviews Gitur. Claude optional, not "
+                     "required. Cursor stays Grok 4.6 native pool. CCr is Grok."),
         },
         "legs": legs,
         "panes": panes,
