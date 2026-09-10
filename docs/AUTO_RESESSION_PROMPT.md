@@ -12,7 +12,7 @@ Resume at `RESESSION.json.resumed_from`, never earlier: take
 `SEED.inflight` or live in the runner ledger. Your first act is to reconcile DHx against the
 collector index and re-drop only rows that are JOB_STALE or never returned.
 
-Resession SOP is `docs/RESESSION_SOP.md` (Keith 2026-09-01). At ~70% pack only. At 90% or "resession now" run that SOP to the END OF SESSION banner. Do not invent another close.
+Resession SOP is `docs/RESESSION_SOP.md`. AUTO resession spawn (advancement 2026-09-10): **5a** `grok --prompt-file` inject (exits) then **5b** WMI `grok --cwd --fullscreen -r <same uuid>`. Script `work_orders/ccr/_spawn_ccr_successor.ps1`. Not `-c` of the dying window. At ~70% pack only. At 90% or "resession now" run that SOP to the END OF SESSION banner. Do not invent another close.
 
 You are the ORCHESTRATOR (P9): drop work in the box, do not run searches in your own context.
 Do not fill this window with code or tree mines — that is how the last orch session burned.

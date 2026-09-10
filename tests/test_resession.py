@@ -29,7 +29,8 @@ from cosmos_resession import (                                        # noqa: E4
     PROJECTION_NAME, ResessionRefusal, TASK_NAME, arm_gate_flag,
     classify_pause, close_banner, cosmos_tu2, decide, plan_task_argv,
     poll_once, precheck_seed, render_running_session, resume_plan,
-    spawn_argv, spawn_tui_argv, transcript_path, watermark,
+    spawn_argv, spawn_auto_resession, spawn_inject_argv, spawn_tui_argv,
+    transcript_path, watermark,
 )
 
 RESULTS: list[tuple[str, bool, str]] = []
@@ -261,11 +262,20 @@ def main() -> int:
           lambda: close_banner("X").splitlines()
           == ["SESSION CLOSED", "SESSION CLOSED", "SESSION CLOSED",
               "TEXT SAVED TO X"])
-    check("interactive TUI argv is grok --cwd --session-id, not -p/-c",
+    check("interactive TUI argv is grok --cwd --fullscreen -r, not -p/-c",
           lambda: spawn_tui_argv("V:/A/Ai/COSMOS", "u-9")
-          == ["grok", "--cwd", "V:/A/Ai/COSMOS", "--session-id", "u-9"]
+          == ["grok", "--cwd", "V:/A/Ai/COSMOS", "--fullscreen", "-r", "u-9"]
           and "-p" not in spawn_tui_argv("V:/A/Ai/COSMOS", "u-9")
           and "-c" not in spawn_tui_argv("V:/A/Ai/COSMOS", "u-9"))
+    check("5a inject is --prompt-file --session-id, exits, no -r/-c",
+          lambda: "--prompt-file" in spawn_inject_argv("V:/A", "u-9", "P.md")
+          and "--session-id" in spawn_inject_argv("V:/A", "u-9", "P.md")
+          and "-r" not in spawn_inject_argv("V:/A", "u-9", "P.md")
+          and "-c" not in spawn_inject_argv("V:/A", "u-9", "P.md"))
+    check("dry AUTO resession records 5a+5b and does not execute",
+          lambda: (lambda r: r.get("steps") == "5a+5b" and r.get("dry") is True
+                   and r.get("ok") is True)(
+              spawn_auto_resession("V:/A", "u-9", "P.md", execute=False)))
     check("proper close resumes fresh, never -c",
           lambda: resume_plan(proper_close=True, window_roomy=True,
                               vendor_log_exists=True, running_exists=True)

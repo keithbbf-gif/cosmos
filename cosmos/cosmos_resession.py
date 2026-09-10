@@ -52,6 +52,7 @@ import argparse
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 import time
@@ -263,8 +264,9 @@ def spawn_argv(rail: str, prompt: str, cwd: str, session_id: str,
 
     NOT used, and why: --continue / --resume / --fork-session replay the same full
     transcript (the failure being fixed); --bare skips CLAUDE.md (BootUP needs it);
-    --restore-code would snapshot-restore the LIVE tree; --prompt-file is not
-    combined with --single (passing a prompt twice is undefined on both rails).
+    --restore-code would snapshot-restore the LIVE tree. Interactive AUTO
+    resession is spawn_inject_argv + spawn_tui_argv (5a --prompt-file exits,
+    5b WMI -r same uuid) — not this --single headless set.
     """
     if rail == "grok":
         argv = ["grok", "--single", prompt]
@@ -280,13 +282,104 @@ def spawn_argv(rail: str, prompt: str, cwd: str, session_id: str,
     raise ResessionRefusal("NO_RAIL", f"unknown rail {rail!r}")
 
 
-def spawn_tui_argv(cwd: str, session_id: str) -> list[str]:
-    """Interactive Grok Build TUI in the COSMOS cwd. Fresh id. Not -p, not -c.
+def resolve_grok() -> str:
+    """PATH first; Keith's measured install is %USERPROFILE%\\.grok\\bin\\grok.exe."""
+    found = shutil.which("grok")
+    if found:
+        return found
+    home = Path.home() / ".grok" / "bin" / "grok.exe"
+    if home.is_file():
+        return str(home)
+    return "grok"
 
-    Keith 2026-09-01: spawn is a visible TUI so BootUP is on screen. Feeding
-    the seed is the prompt file + `session start`, not a paste.
+
+def spawn_inject_argv(cwd: str, session_id: str, prompt_file: str | Path,
+                      grok: str = "grok") -> list[str]:
+    """5a AUTO resession: inject paste into a NEW --session-id and EXIT.
+
+    Measured 2026-09-10. That exit is correct. Skip 5a → empty TUI
+    (`4ecfbb83`). Not -c of the dying window. Not combined with --single.
     """
-    return ["grok", "--cwd", str(cwd), "--session-id", str(session_id)]
+    return [str(grok), "--cwd", str(cwd), "--session-id", str(session_id),
+            "--prompt-file", str(prompt_file), "--always-approve"]
+
+
+def spawn_tui_argv(cwd: str, session_id: str, grok: str = "grok") -> list[str]:
+    """5b AUTO resession: live CCr TUI argv. Same uuid as 5a.
+
+    Measured 2026-09-10 grok 60372: --cwd --fullscreen -r <uuid>.
+    Not -p. Not -c of the dying window. Not cmd /c start (title quoting).
+    WMI Win32_Process.Create is how 5b is launched (spawn_auto_resession).
+    """
+    return [str(grok), "--cwd", str(cwd), "--fullscreen", "-r", str(session_id)]
+
+
+def wmi_create(command_line: str, current_directory: str) -> dict:
+    """Win32_Process.Create. Measured 5b. Not cmd /c start."""
+    ps = (
+        "$r = Invoke-CimMethod -ClassName Win32_Process -MethodName Create "
+        "-Arguments @{ CommandLine = %s; CurrentDirectory = %s }; "
+        "$r | ConvertTo-Json -Compress"
+        % (json.dumps(command_line), json.dumps(current_directory))
+    )
+    p = subprocess.run(
+        ["powershell", "-NoProfile", "-Command", ps],
+        capture_output=True, text=True, timeout=60,
+    )
+    raw = (p.stdout or "").strip()
+    body = {}
+    if raw:
+        try:
+            body = json.loads(raw[raw.find("{") :]) if "{" in raw else {}
+        except ValueError:
+            body = {"stdout": raw[:200]}
+    return {
+        "ok": p.returncode == 0 and int(body.get("ReturnValue") or 1) == 0,
+        "rc": p.returncode,
+        "pid": body.get("ProcessId"),
+        "return_value": body.get("ReturnValue"),
+        "stderr": (p.stderr or "")[:200],
+    }
+
+
+def spawn_auto_resession(cwd: str, session_id: str, prompt_file: str | Path,
+                         *, execute: bool = False,
+                         grok: str | None = None) -> dict:
+    """AUTO resession advancement: 5a inject (exits) then 5b WMI -r same uuid.
+
+    execute=False is the default for clocks; --spawn sets execute. Never
+    extra grok from a test.
+    """
+    exe = grok or "grok"
+    a5 = spawn_inject_argv(cwd, session_id, prompt_file, exe)
+    b5 = spawn_tui_argv(cwd, session_id, exe)
+    rec = {
+        "ok": False,
+        "vendor_session_id": str(session_id),
+        "inject_argv": a5,
+        "tui_argv": b5,
+        "steps": "5a+5b",
+    }
+    if not execute:
+        rec["ok"] = True
+        rec["dry"] = True
+        return rec
+    try:
+        inj = subprocess.run(a5, cwd=str(cwd), timeout=600)
+        rec["inject_rc"] = inj.returncode
+    except OSError as e:
+        rec["error"] = f"5a: {e}"
+        return rec
+    if inj.returncode != 0:
+        rec["error"] = f"5a rc={inj.returncode}; refusing 5b (empty TUI scar)"
+        return rec
+    if os.name == "nt":
+        rec["tui"] = wmi_create(subprocess.list2cmdline(b5), str(cwd))
+        rec["ok"] = bool(rec["tui"].get("ok"))
+        rec["pid"] = rec["tui"].get("pid")
+    else:
+        rec["error"] = "5b WMI is Windows-only"
+    return rec
 
 
 def close_banner(save_path: str) -> str:
@@ -661,14 +754,11 @@ def poll_once(root: str, repo: str | None = None, *, rail: str = "grok",
         rec["banner"] = banner if closed else None
     if spawn and rec.get("state") == "ARMED" and rail == "grok":
         sid = mint_session_id()
-        argv = spawn_tui_argv(str(repo_path), sid)
-        flags = 0x00000010 | 0x00000200 if os.name == "nt" else 0
-        try:
-            p = subprocess.Popen(argv, cwd=str(repo_path), creationflags=flags)
-            rec["spawn"] = {"ok": True, "pid": p.pid, "argv": argv,
-                            "vendor_session_id": sid}
-        except OSError as e:
-            rec["spawn"] = {"ok": False, "error": str(e), "argv": argv}
+        paste = repo_path / "live" / "state" / "BOOTUP_PASTE.md"
+        if not paste.is_file():
+            paste = repo_path.joinpath(*PROMPT_RELPATH)
+        rec["spawn"] = spawn_auto_resession(
+            str(repo_path), sid, paste, execute=True, grok=resolve_grok())
     atomic_json(control / PROJECTION_NAME, rec)
     return rec
 
@@ -834,8 +924,20 @@ def selftest() -> int:
           lambda: watermark({"spawned_at_epoch": 999, "last_act_epoch": 1000,
                              "turn_n": 0, "context_pct": 0.90}, 1000.0,
                             pid_is_alive=True)["reason"] == "watermark")
-    check("TUI spawn is grok --cwd --session-id",
-          lambda: spawn_tui_argv("C:/x", "u")[0:3] == ["grok", "--cwd", "C:/x"])
+    check("TUI spawn is grok --cwd --fullscreen -r (5b)",
+          lambda: spawn_tui_argv("C:/x", "u")
+          == ["grok", "--cwd", "C:/x", "--fullscreen", "-r", "u"])
+    check("5a inject is --prompt-file --session-id and exits (no -r)",
+          lambda: spawn_inject_argv("C:/x", "u", "P.md")
+          == ["grok", "--cwd", "C:/x", "--session-id", "u",
+              "--prompt-file", "P.md", "--always-approve"]
+          and "-r" not in spawn_inject_argv("C:/x", "u", "P.md")
+          and "-c" not in spawn_inject_argv("C:/x", "u", "P.md"))
+    check("dry AUTO resession is 5a+5b without execute",
+          lambda: spawn_auto_resession("C:/x", "u", "P.md", execute=False)
+          .get("steps") == "5a+5b"
+          and spawn_auto_resession("C:/x", "u", "P.md", execute=False).get("dry")
+          is True)
     check("close banner is three SESSION CLOSED lines",
           lambda: close_banner("P").count("SESSION CLOSED") == 3)
     check("spawn argv never carries a replay flag",
