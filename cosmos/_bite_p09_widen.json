@@ -1,0 +1,13 @@
+{
+  "module_refused_409": true,
+  "module_kind": "WIDEN_REQUIRES_CONFIRM",
+  "module_cap_unchanged": true,
+  "spendguard_config_unchanged": true,
+  "route_refused_409": true,
+  "route_kind": "WIDEN_REQUIRES_CONFIRM",
+  "get_cap_before": null,
+  "get_cap_after": null,
+  "module_refusal_ledgered": true,
+  "refusal_events": 2,
+  "all_bite": true
+}
