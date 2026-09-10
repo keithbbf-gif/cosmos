@@ -4,24 +4,21 @@ This session (sid `39d083c1`, grok pid **16628**) stays **open as backup**.
 Do **not** spawn a second `grok.exe` while 16628 is live. One CCr lease.
 Acquire `live/state/control/CCR.lease` on BootUP. Pen `V:\A`. Do not write `V:\Ai`.
 
-Keith: resession the CCR; leave the old TUI as backup; first job for the
-new agent is **patent → code integration**, pointed at Kelly review results
-(not a cold 407k reread).
+**Full result + prompt index + how to test the mouths:**
+`V:\A\Ai\COSMOS\ccr\sandbox_notes\SUCCESSOR_ROADMAP.md`
+
+Keith: patent → code from mouths on disk, not a cold 407k reread.
 
 ---
 
 ## First act (in order)
 
-1. Read `V:\A\Ai\COSMOS\ccr\sandbox_notes\NOW.md` (Keith: sandbox on this drive is canon), then this file, `docs/CCR.md`, `docs/CODER_BRIEF.md`, `work_orders/ccr/CREW/IN/ELEGANT_PLAN.md`. Keep writing that sandbox as you go.
-2. **Do not Gitur-publish** `CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md` (407,383 bytes, SHA256 `9E7C604D…`, `policy:patent-ideas-v1`). Gitignored. Unfiled IP.
-3. Read the Kelly returns (this backup CCr fires them before you sit):
-   - `work_orders/ccr/CREW/OUT/ELEGANT/gf38.json` — Kelly A `gemini-3.8-flash`
-   - `work_orders/ccr/CREW/OUT/ELEGANT/gemini31pro.json` — Kelly B `gemini-3.1-pro-preview`
-   - `_watch.json` — pids / spawn
-4. If either JSON is missing or `ok` is false or `text` is empty: **do not invent a plan**. Wait or re-fire **Kelly Vertex only**. Do **not** send the patent preload to OpenRouter (GLM/DS/Sol) until Keith clears data-use.
-5. Adjudicate (P10 / P02): merge subtract / keep / add. Write `CREW/OUT/ELEGANT/PLAN.md`. Dual-lane: they must not have peeked.
-6. First Gitur BUILD = the top occupancy gap in that merged plan. One job, one branch `ccr/<job>`, one PR. Cosmos vs cDeck not mixed. Do not `git pull origin/main` onto unique COSMOS HEAD. Do not force-push.
-7. Code the **embodiments**. Do not click USPTO. Do not post whitepaper/X/LI/arXiv. P12 HOLD. No 15th packet. Do not revive `P03_PUBLIC_TENSOR`. Do not invent porosity scores (`n_obs` stays honest).
+1. Read `ccr/sandbox_notes/NOW.md`, then **`ccr/sandbox_notes/SUCCESSOR_ROADMAP.md`**, then `docs/CCR.md` + `docs/CODER_BRIEF.md`. Keep writing the sandbox as you go.
+2. **Do not Gitur-publish** `CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md` (407,383 bytes, SHA256 `9E7C604D…`). Gitignored.
+3. Run the live gate in the roadmap §3.1 (`test_live_emit.py` 6/6, occupancy 154/154). If it fails, stop.
+4. Test all **use** mouths per roadmap §3.2–3.3. Write `CREW/OUT/ELEGANT/PLAN.md`. Drop ballot-writer (GLM/DS). Drop GF38 `V:\Ai` pen. Ignore `*_slice.json` and Luna Pro.
+5. First Gitur: **P11 SEED bite** (`ccr/p11-seed-bite`) — roadmap §5. Then P07 Layer A vs B. No ballot. Cosmos vs cDeck not mixed. Blob from origin. Do not pull unique HEAD.
+6. Embodiments only. No USPTO. No publish. P12 HOLD. No 15th packet. `n_obs=0` stays UNMEASURED.
 
 ---
 
