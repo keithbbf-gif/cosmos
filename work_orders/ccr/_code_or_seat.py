@@ -120,7 +120,8 @@ def main(argv: list[str] | None = None) -> int:
     for t in system_texts():
         sys_parts.append(_cached_part(t, flex=flex))
         sys_blob.append(t)
-    user_cached = user_cached_texts(kind)
+    tab = Path(ns.item).stem if ns.item else ""
+    user_cached = user_cached_texts(kind, tab)
     user_blob = list(user_cached)
     pack = user_cached[0] if kind == "fat" else ""
     item = _read(Path(ns.item)).rstrip() if ns.item else _read(IN / "CODE_PROPOSE.md").rstrip()

@@ -56,6 +56,13 @@ def main() -> int:
     else:
         n = n0
         log.append("2 ASSIGN skip (at floor)")
+    hhmm = datetime.now(timezone.utc).strftime("%H:%MZ")
+    tick = (
+        f"TICK {hhmm} n={n} luna=SKIP $ gitur=pending refill="
+        f"{'yes' if refill else 'no'}"
+    )
+    print(tick, flush=True)
+    log.append(tick)
     log.append("3 PROMPT ITEMs already TABS/*.md")
     log.append("4 LUNA skip — no freeze until cycles complete")
     log.append("5 CCR review = Luna q-NNN on disk; KEEP diffs only")
@@ -70,11 +77,7 @@ def main() -> int:
     low = gitur_out.lower()
     if "merged" in low and "none" not in low:
         gitur = "merged"
-    hhmm = datetime.now(timezone.utc).strftime("%H:%MZ")
-    log.append(
-        f"TICK {hhmm} n={n} luna=SKIP $ gitur={gitur} refill={'yes' if refill else 'no'}"
-    )
-    print("\n".join(log))
+    print("\n".join(log), flush=True)
     return 0
 
 
