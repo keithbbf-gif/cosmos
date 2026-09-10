@@ -8,11 +8,16 @@ Run: py -3.14 tests\\test_live_emit.py
 from __future__ import annotations
 
 import json
+import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO / "cosmos"))
+
+from cosmos_live_emit import quote_tree_id  # noqa: E402
+
 LIVE = REPO / "live"
 TOKEN = (LIVE / "config" / "api_token.txt").read_text(encoding="utf-8").strip()
 BASE = "http://127.0.0.1:8770"
@@ -48,6 +53,9 @@ def main() -> int:
           st == 200 and status.get("ready") is True
           and status.get("tree_id") == "KMesh-COSMOS-live",
           "status=%s tree=%s" % (st, status.get("tree_id")))
+    check("helper quote_tree_id matches live status",
+          quote_tree_id(status) == "KMesh-COSMOS-live",
+          "quoted=%s" % quote_tree_id(status))
 
     st, _h, body = get("/api/v1/porosity")
     por = {}
