@@ -1744,6 +1744,7 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 from cosmos_porosity import (
                     PorosityError, coverage, hook_trial, record_pair, recommend,
                 )
+                from cosmos_p06_compare import compare_box_token
                 body = self._read_body()
                 if body is None:
                     return
@@ -1789,6 +1790,16 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                             profile=d.get("profile") or "forge",
                             costs=d.get("costs"),
                             incumbent=d.get("incumbent") or "",
+                        )
+                    elif act == "compare":
+                        rec = compare_box_token(
+                            kernel.paths,
+                            box_agents=d.get("box_agents") or d.get("box") or [],
+                            token_agents=d.get("token_agents") or d.get("token") or [],
+                            profile=d.get("profile") or "forge",
+                            token_incumbent=d.get("token_incumbent") or "",
+                            box_cost_usd=d.get("box_cost_usd"),
+                            token_costs=d.get("token_costs"),
                         )
                     else:
                         rec = record_pair(
