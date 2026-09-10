@@ -836,13 +836,17 @@ def notify_core_picked(paths, order: dict, *, http=None, base_url=None,
 
 
 def file_done(paths, order: dict, *, run_rec: dict | None = None,
-              check_rails=None) -> dict:
+              check_rails=None, live_probe=None) -> dict:
     """DONE iff the Output file exists and is non-empty. Never writes COMPLETED.
 
     rc is recorded, not the predicate. Missing output is FAILED and is not
-    checked. On DONE deposit in assigned/, the same runner stamps
+    checked. When order['runtime_bind'] is true, DONE also requires a live
+    emit from Core (:8770 /api/v1/status); missing emit is FAILED with
+    fail_kind=MISSING_EMIT even if Output exists. Default runtime_bind off.
+    On DONE deposit in assigned/, the same runner stamps
     checks.github / checks.cursor / checks.gitlab (one each). check_rails
     is a dict of callables, None (live rails), or False (skip — tests).
+    live_probe= is an injectable callable(paths) for tests.
     """
     dirs = work_order_dirs(paths)
     oid = _safe_id(order.get("order_id") or new_order_id(order))
@@ -860,14 +864,39 @@ def file_done(paths, order: dict, *, run_rec: dict | None = None,
     outp = rec.get("_output_path")
     exists = bool(outp) and output_exists(Path(outp))
     rec["output_exists"] = exists
-    if exists:
-        rec["state"] = "DONE"
-        dest = order_file(dirs["assigned"], oid)
-    else:
+    runtime_bind = rec.get("runtime_bind") is True
+    emit_ok = True
+    emit_err = None
+    if exists and runtime_bind:
+        from cosmos_live_emit import LiveEmitError, require_live_emit
+
+        probe = live_probe
+        if probe is None:
+            probe = lambda _paths: require_live_emit(paths=_paths)  # noqa: E731
+        try:
+            emit = probe(paths)
+            rec["live_emit"] = emit if isinstance(emit, dict) else {"ok": True}
+        except LiveEmitError as e:
+            emit_ok = False
+            emit_err = e
+        except Exception as e:  # noqa: BLE001
+            emit_ok = False
+            emit_err = LiveEmitError("MISSING_EMIT", f"{type(e).__name__}: {e}"[:200])
+    if not exists:
         rec["state"] = "FAILED"
         rec["fail_kind"] = "FAILED"
         rec["fail_detail"] = "Output file missing or empty (rc is not the predicate)"
         dest = order_file(dirs["failed"], oid)
+    elif runtime_bind and not emit_ok:
+        rec["state"] = "FAILED"
+        rec["fail_kind"] = emit_err.kind if emit_err else "MISSING_EMIT"
+        rec["fail_detail"] = (
+            emit_err.detail if emit_err else "live emit missing (runtime_bind)"
+        )[:240]
+        dest = order_file(dirs["failed"], oid)
+    else:
+        rec["state"] = "DONE"
+        dest = order_file(dirs["assigned"], oid)
     _atomic_json(dest, rec)
     for name in ("picked", "bucket"):
         stale = order_file(dirs[name], oid)
@@ -876,7 +905,7 @@ def file_done(paths, order: dict, *, run_rec: dict | None = None,
                 stale.unlink()
             except OSError:
                 pass
-    if exists and check_rails is not False:
+    if rec.get("state") == "DONE" and check_rails is not False:
         from cosmos_work_order_checks import apply_done_checks
         rec = apply_done_checks(paths, rec, rails=check_rails, persist=True)
     return rec
