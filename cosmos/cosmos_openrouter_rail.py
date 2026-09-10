@@ -723,6 +723,20 @@ class OpenRouterRail:
             body["session_id"] = pck
         if flex:
             body["prompt_cache_options"] = {"mode": "explicit", "ttl": "30m"}
+        from cosmos_precache import (  # noqa: E402
+            PrecacheError, assert_cache_hit_measured, assert_not_naked_first_query,
+            has_stable_prefix, measure_cached,
+        )
+        first_in_family = payload.get("first_in_cache_family")
+        if first_in_family is None:
+            first_in_family = bool(pck) and has_stable_prefix(
+                list(messages) if isinstance(messages, list) else [])
+        try:
+            assert_not_naked_first_query(
+                body["messages"], first_in_family=bool(first_in_family))
+        except PrecacheError as e:
+            return {"ok": False, "kind": e.kind, "detail": str(e),
+                    "model_requested": model, "link_id": self.link_id}
         tools = payload.get("tools")
         if isinstance(tools, list) and tools:
             body["tools"] = tools
@@ -737,6 +751,16 @@ class OpenRouterRail:
         )
         ok = status == 200 and bound_ok
         usage_fold = fold_usage(obj if isinstance(obj, dict) else {})
+        claimed_hit = bool(payload.get("cache_hit_claim") or payload.get("cache_hit"))
+        if claimed_hit:
+            try:
+                assert_cache_hit_measured(
+                    claimed_hit=True, usage_fold=usage_fold)
+            except PrecacheError as e:
+                return {"ok": False, "kind": e.kind, "detail": str(e),
+                        "model_requested": model, "model": response_model,
+                        "usage_fold": usage_fold, "link_id": self.link_id}
+        precache = measure_cached(usage_fold)
         rec = {
             "ok": ok,
             "http": status,
@@ -746,6 +770,7 @@ class OpenRouterRail:
             "text": content[:4000],
             "usage": usage if isinstance(usage, dict) else {},
             "usage_fold": usage_fold,
+            "precache": precache,
             "tool_calls": _tool_calls(obj if isinstance(obj, dict) else {}),
             "id": obj.get("id") if isinstance(obj, dict) else None,
             "provider_tag": (prov.get("only") or [None])[0],
@@ -1203,6 +1228,33 @@ def _selftest() -> int:
           _preload_skips_user_only)
     check("tag_preload Flex gets cache_control and breakpoint",
           _preload_flex_gets_both)
+    from cosmos_precache import PrecacheError, assert_not_naked_first_query  # noqa: E402
+
+    def _p14_naked():
+        try:
+            assert_not_naked_first_query(
+                [{"role": "user", "content": "task without prefix"}],
+                first_in_family=True)
+            return False
+        except PrecacheError as e:
+            return e.kind == "NAKED_FIRST_QUERY"
+
+    check("P14: untagged first query is NAKED_FIRST_QUERY", _p14_naked)
+    def _p14_precache_fold():
+        tagged = tag_preload([
+            {"role": "system", "content": "P"},
+            {"role": "user", "content": "q"},
+        ])
+        rec = rail.dispatch({
+            "model": VALUE_CODER,
+            "messages": tagged,
+            "first_in_cache_family": True,
+        })
+        p = rec.get("precache") or {}
+        return isinstance(p, dict) and p.get("cached_tokens") == 1
+
+    check("P14: dispatch attaches precache.cached_tokens from vendor fold",
+          _p14_precache_fold)
     glm_sys = rail.dispatch({
         "model": VALUE_CODER,
         "messages": [
