@@ -1,0 +1,8 @@
+{
+  "naked_untagged_system": true,
+  "naked_user_agent_query": true,
+  "user_ping_exempt": true,
+  "fabricated_cache_hit_refused": true,
+  "dispatch_cached_tokens_measured": true,
+  "all_bite": true
+}
