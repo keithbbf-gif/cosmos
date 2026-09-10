@@ -110,10 +110,25 @@ Nothing written here is authority until COW files it into the tree.
     prefix + append-only tail**. Static first (rules, tools, schemas, repo map,
     `PREFIX.md`, `CACHE_RULE.md`); volatile last (task, diff, pytest, user).
     Exact byte match. ≥1024 tokens before a vendor caches. `prompt_cache_key`
-    is routing affinity, not a substitute for a matching prefix. Measure
-    `cached_tokens` / `cache_write_tokens` — never assume a hit. Luna/Terra pin
-    `openai/flex`, fallbacks off. Do not put dates, UUIDs, or timestamps in the
-    prefix. Canon: `docs/PROMPT_CACHE.md`. Principle **P11**.
+    is routing affinity, not a substitute for a matching prefix. Preload is
+    `cache_control` tagged by default (`tag_preload`); auto vendors ignore,
+    picky vendors hit. Measure `cached_tokens` / `cache_write_tokens` — never
+    assume a hit. Luna/Terra pin `openai/flex`, fallbacks off. Luna mostly;
+    Sol for major full-code reviews only. Do not put dates, UUIDs, or
+    timestamps in the prefix. **Precache:** first query to an agent writes
+    that prefix (MOTIF/Profile define when and size; model floor/window
+    cap it). Later calls in the family are hits. Canon: `docs/PROMPT_CACHE.md`.
+    Principle **P11**.
+16. **Agent audit trail (Keith 2026-09-09, Margie Irbe / 21 CFR Part 11).**
+    Every multi-agent action records **agent_id** (named-pin key), **action**,
+    **timestamp at the key point**, and **authority** as `source:class`.
+    The ledger is the trail. A log without those stamps is not an audit.
+    Canon: `docs/AGENT_AUDIT.md`.
+17. **Sandbox notes on this drive (Keith 2026-09-10).** CCr and ORC keep
+    ephemeral ideas and work product in `V:\A\Ai\COSMOS\ccr\sandbox_notes`
+    (`NOW.md` living). Chat is not the scratch. Compaction is not TidyUP.
+    Do not copy unfiled patent packet bodies here. GrokBot still does not
+    write `V:\A`.
 
 ## Enforcement (hard-wired)
 The dispatcher (`cosmos_dispatcher_daemon` / `cosmos_dispatch`) auto-attaches this addendum to every

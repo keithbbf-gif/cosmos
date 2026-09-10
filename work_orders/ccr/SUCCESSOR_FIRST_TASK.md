@@ -12,7 +12,7 @@ new agent is **patent → code integration**, pointed at Kelly review results
 
 ## First act (in order)
 
-1. Read this file, `docs/CCR.md`, `docs/CODER_BRIEF.md`, `work_orders/ccr/CREW/IN/ELEGANT_PLAN.md`.
+1. Read `V:\A\Ai\COSMOS\ccr\sandbox_notes\NOW.md` (Keith: sandbox on this drive is canon), then this file, `docs/CCR.md`, `docs/CODER_BRIEF.md`, `work_orders/ccr/CREW/IN/ELEGANT_PLAN.md`. Keep writing that sandbox as you go.
 2. **Do not Gitur-publish** `CREW/IN/CODER_PRELOAD_PATENT_IDEAS_CACHE.md` (407,383 bytes, SHA256 `9E7C604D…`, `policy:patent-ideas-v1`). Gitignored. Unfiled IP.
 3. Read the Kelly returns (this backup CCr fires them before you sit):
    - `work_orders/ccr/CREW/OUT/ELEGANT/gf38.json` — Kelly A `gemini-3.8-flash`
