@@ -96,7 +96,7 @@ Parked leftover cDeck PRs: **#6 #16 #17 #68**. Parked leftover cosmos PRs: **#30
 2. **Gitur:** one job, one branch `ccr/<job>`, one PR. Product `keithbbf-gif/cdeck` vs COSMOS `keithbbf-gif/cosmos` — do not mix.
 3. **Unified diffs** against live bytes. No whole-file `@@ -0,0 +1,`. Quote a line that exists.
 4. **Fat prefix** for farm seats: `work_orders/ccr/CREW/IN/PREFIX.md` + `CACHE_RULE.md` + live slices (`HOUR/SYSTEM.md`). Vertex **must** get those slices in the user turn (`_propose_seat.py`). GF38 mouth: `CREW/IN/GF38_MOUTH.md`.
-5. **Coder crew (named):** GF38 `gemini-3.8-flash` (Vertex Kelly coding), Luna Flex `openai/gpt-5.6-luna`, Luna Pro Flex `openai/gpt-5.6-luna-pro` (`--seat luna-pro`, ½ off on Flex, reasoning max — not a swap of luna), cheap twins GLM-5.3 Flash + Ling 3.0 Flash. Escalate hard Python: `--seat terra` (`openai/gpt-5.6-terra` Flex). Vendor bench tables are **guidelines** (`CREW/IN/CODING_GUIDELINES.md`), not P11. **ANTHROPIC_OFF.**
+5. **Coder crew (named, 2026-09-10):** Kelly Vertex **GF38** `gemini-3.8-flash` **and** **Gemini 3.1 Pro** `gemini-3.1-pro-preview` (see them run — do not fire until Keith says). Cheap pair **GLM** + **DS V4 Flash**. **Sol** major review (require mouth). **Cut** Ling and Solar. Luna Flex / Luna Pro Flex still credit pins; Terra escalate. Vendor benches are **guidelines**. **ANTHROPIC_OFF.**
 6. **P11 orthodoxy:** identical prefix bytes, append-only tail, measure `cached_tokens`. Vendor rates/TTL are guidelines.
 7. **Never delete** — stage to `_delme\`. **No bats.** GET never mkdir.
 
