@@ -68,6 +68,9 @@ GPT56_SOL = "openai/gpt-5.6-sol"
 # OpenRouter model page endpoint= UUID for OpenAI Flex. Named tag, not a rotator.
 # Terra Flex $1/$6 (page standard $2/$12). Luna Flex $0.10/$0.60 (page $0.20/$1.20).
 # Luna Pro page 2026-09-10: standard $0.20/$1.75; Flex ½ off $0.10/$0.875 (cache $0.01).
+# Context 1.1M (catalog 1,050,000). Vendor Pricing cache-hit: OpenAI 76.3% /
+# Azure 77.6% / Flex 45.3% / Azure US2 81.1% — not COSMOS scores. Flex list
+# is ½; Flex hit rate is not. Measure cached_tokens. Default stays openai/flex.
 # Keith 2026-09-08: pin flex — GPT-5.6 OpenRouter seats default openai/flex.
 # Keith 2026-09-10: Luna Pro is ½ off on Flex. Same underlying Luna, reasoning max.
 # Not a swap of GPT56_LUNA. Catalog COD on Pro is UNMEASURED.

@@ -9,7 +9,9 @@ gemini-3.8-flash (GF38) on Kelly vertex-coding — not OpenRouter Gemini Pro.
 Credit = openai/gpt-5.6-luna Flex (**use Luna mostly**). Luna Pro Flex =
 openai/gpt-5.6-luna-pro (`--seat luna-pro`) is the same model at reasoning
 max; OpenRouter Flex is **½ off** the Pro page ($0.10/$0.875 vs $0.20/$1.75).
-Not a swap of luna. Catalog COD UNMEASURED. Sol =
+**1.1M context.** Vendor cache-hit rates differ (Flex ~45% vs OpenAI ~76%
+on the 2026-09-10 Pricing table — not a COSMOS score). Measure
+`cached_tokens`. Not a swap of luna. Catalog COD UNMEASURED. Sol =
 openai/gpt-5.6-sol for **major full-code reviews only**. Cheap twins =
 z-ai/glm-5.3-flash + inclusionai/ling-3.0-flash. ANTHROPIC_OFF on COSMOS
 dispatch — Opus/Sonnet are not a COSMOS rail (Cursor/GitHub/GitLab only).
