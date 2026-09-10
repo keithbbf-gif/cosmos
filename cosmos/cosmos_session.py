@@ -30,14 +30,18 @@ import time
 from pathlib import Path
 from typing import Optional
 
+from cosmos_clock import atomic_json
 from cosmos_context import Session, ContextError, boot_inherit
 from cosmos_ledger import LedgerError
+from cosmos_paths import CosmosPaths
 from cosmos_validate import write_declared, read_verified, ValidateError
 
 
 SEED_NAME = "SEED.json"
 SEED_DECL_NAME = "SEED.decl.json"
 SEED_SCHEMA = "cosmos-session-seed/1"
+BOOTUP_NAME = "BOOTUP.json"
+BOOTUP_SCHEMA = "cosmos-session-bootup/1"
 
 # JSON control files TidyUP must parse AND validate. install_key.bin is material.
 CONTROL_RELPATHS = (
@@ -48,7 +52,7 @@ CONTROL_RELPATHS = (
 
 class SessionError(RuntimeError):
     """kind in {NO_SEED, BAD_SEED, UNPARSEABLE, IDENTITY_MISMATCH, NOT_FOUND,
-    ALREADY_OPEN, BAD_STREAM, CONTROL_INVALID, VERIFY_MISMATCH}."""
+    ALREADY_OPEN, BAD_STREAM, CONTROL_INVALID, VERIFY_MISMATCH, NO_BOOTUP}."""
 
     def __init__(self, kind: str, detail: str):
         self.kind = kind
@@ -83,6 +87,38 @@ def project_live_session(ledger) -> Optional[dict]:
         return s
 
     return ledger.project(fold, None)
+
+
+def bootup_path(paths: CosmosPaths) -> Path:
+    return paths.role("state", "control", BOOTUP_NAME)
+
+
+def read_bootup(paths: CosmosPaths) -> dict | None:
+    p = bootup_path(paths)
+    if not p.is_file():
+        return None
+    try:
+        raw = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError, UnicodeDecodeError):
+        return None
+    return raw if isinstance(raw, dict) else None
+
+
+def require_bootup(paths: CosmosPaths) -> dict:
+    """Durable BootUP gate: CREW and clocks refuse when TidyUP closed BootUP."""
+    body = read_bootup(paths)
+    p = bootup_path(paths)
+    if body is None:
+        raise SessionError(
+            "NO_BOOTUP",
+            f"no BootUP gate at {p} - cosmos session start opens it; "
+            f"spawned workers must not run blind after CLI exit")
+    if not body.get("open"):
+        raise SessionError(
+            "NO_BOOTUP",
+            f"BootUP gate at {p} is closed (open=false) - close_session() "
+            f"closed it; start_session(stream) before work")
+    return body
 
 
 class SessionManager:
@@ -268,7 +304,35 @@ class SessionManager:
             {"path": str(path), "sid": sid, "handoff": seed["handoff"],
              "facts": sorted(seed["facts"]),
              "watchers": sorted(seed["watchers"])})
+        self._write_bootup_closed(sid=sid)
         return path
+
+    def _write_bootup_closed(self, sid: str = "") -> None:
+        prev = read_bootup(self.k.paths) or {}
+        atomic_json(
+            bootup_path(self.k.paths),
+            {
+                "schema": BOOTUP_SCHEMA,
+                "open": False,
+                "stream": str(prev.get("stream") or ""),
+                "sid": str(sid or prev.get("sid") or ""),
+                "tree_id": self.k.paths.sentinel.tree_id,
+                "closed_epoch": self._clock(),
+            },
+        )
+
+    def _write_bootup_open(self, stream: str, sid: str) -> None:
+        atomic_json(
+            bootup_path(self.k.paths),
+            {
+                "schema": BOOTUP_SCHEMA,
+                "open": True,
+                "stream": str(stream),
+                "sid": str(sid),
+                "tree_id": self.k.paths.sentinel.tree_id,
+                "opened_epoch": self._clock(),
+            },
+        )
 
     def _write_seed(self, seed: dict, sid: str) -> Path:
         payload = json.dumps(seed, indent=1, sort_keys=True).encode("utf-8")
@@ -414,6 +478,7 @@ class SessionManager:
             {"sid": sid, "stream": stream.strip(), "path": str(seed_path),
              "facts": sorted(inherit["facts"]),
              "watchers": sorted(inherit["watchers"])})
+        self._write_bootup_open(stream.strip(), sid)
         return inherit
 
 
@@ -425,3 +490,8 @@ def close_session(kernel, handoff_to: str = "next", force: bool = False) -> Path
 def start_session(kernel, stream: str) -> dict:
     """Module-level BootUP: read seed, inject, open Session, return inherit."""
     return kernel.sessions.start_session(stream)
+
+
+def require_bootup_kernel(kernel) -> dict:
+    """Module-level BootUP gate check for callers holding a Kernel."""
+    return require_bootup(kernel.paths)

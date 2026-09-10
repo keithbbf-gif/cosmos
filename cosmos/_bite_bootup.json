@@ -1,0 +1,10 @@
+{
+  "missing_is_no_bootup": true,
+  "close_writes_open_false": true,
+  "closed_is_no_bootup": true,
+  "start_writes_open_true": true,
+  "require_bootup_open": true,
+  "survives_new_kernel": true,
+  "close_clears_gate": true,
+  "all_bite": true
+}
