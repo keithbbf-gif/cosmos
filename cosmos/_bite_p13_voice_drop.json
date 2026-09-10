@@ -1,0 +1,13 @@
+{
+  "drop_path": "work_orders/drop",
+  "repo": "keithbbf-gif/cosmos",
+  "malformed_kind": "BAD_INPUT",
+  "malformed_typed": true,
+  "broken_kind": "BAD_INPUT",
+  "broken_typed": true,
+  "valid_filed": true,
+  "valid_lands_drop_path": true,
+  "valid_in_bucket": true,
+  "errors_n": 2,
+  "all_bite": true
+}

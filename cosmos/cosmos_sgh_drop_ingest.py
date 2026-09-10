@@ -820,10 +820,32 @@ def _selftest() -> int:
             "html_url": _html_url(f"{GH_DROP_PATH}/notes.txt"),
             "text": "not json",
         },
+        "wo-malformed.json": {
+            "name": "wo-malformed.json",
+            "path": f"{GH_DROP_PATH}/wo-malformed.json",
+            "sha": "sha-malformed",
+            "type": "file",
+            "html_url": _html_url(f"{GH_DROP_PATH}/wo-malformed.json"),
+            "text": json.dumps({"Task": "missing six fields"}),
+        },
+        "wo-broken.json": {
+            "name": "wo-broken.json",
+            "path": f"{GH_DROP_PATH}/wo-broken.json",
+            "sha": "sha-broken",
+            "type": "file",
+            "html_url": _html_url(f"{GH_DROP_PATH}/wo-broken.json"),
+            "text": "{not valid json",
+        },
     }
     listed = [
         {k: drops[n][k] for k in ("name", "path", "sha", "type", "html_url")}
-        for n in ("README.md", "notes.txt", "wo-2026-09-02T11:31:00.json")
+        for n in (
+            "README.md",
+            "notes.txt",
+            "wo-malformed.json",
+            "wo-broken.json",
+            "wo-2026-09-02T11:31:00.json",
+        )
     ]
     drop_calls: list[dict] = []
 
@@ -845,6 +867,15 @@ def _selftest() -> int:
     check("valid drop files -> drop_order called",
           lambda: len(drop_calls) == 1
           and tick.get("filed_this_tick") == 1)
+    err_by_name = {e.get("name"): e for e in (tick.get("errors") or [])}
+    check("malformed six-field drop refuses BAD_INPUT",
+          lambda: err_by_name.get("wo-malformed.json", {}).get("kind") == "BAD_INPUT"
+          and "missing spec field" in str(
+              err_by_name.get("wo-malformed.json", {}).get("error") or ""))
+    check("non-JSON drop refuses BAD_INPUT typed",
+          lambda: err_by_name.get("wo-broken.json", {}).get("kind") == "BAD_INPUT"
+          and "not JSON" in str(
+              err_by_name.get("wo-broken.json", {}).get("error") or ""))
     check("README skipped",
           lambda: any(s.get("name") == "README.md"
                       and s.get("reason") == "readme"
@@ -861,6 +892,9 @@ def _selftest() -> int:
     bucket_rec = json.loads(
         (work_order_dirs(paths)["bucket"] / f"{filed_id}.json").read_text(
             encoding="utf-8"))
+    check("valid drop github_path is work_orders/drop",
+          lambda: str(bucket_rec.get("github_path") or "").replace("\\", "/")
+          .startswith(f"{GH_DROP_PATH}/"))
     check("comma context filed as a list of two read paths",
           lambda: isinstance(bucket_rec.get("Context source"), list)
           and len(bucket_rec["Context source"]) == 2
