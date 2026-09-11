@@ -185,13 +185,13 @@ def test_snapshot_folds_rails_without_github_poll(tmp_path, monkeypatch):
     assert isinstance(rec["log"], list)
     assert "Does not invent PR lists" in rec["note"]
     assert "/v1/repositories" in rec["note"]
-    assert rec["review"]["default"] == "glm"
-    assert rec["review"]["model"] == "z-ai/glm-5.3-flash"
+    assert rec["review"]["default"] == "sonnet"
+    assert rec["review"]["model"] == "anthropic/claude-sonnet-5"
     assert rec["review"]["via"] == "openrouter"
     assert rec["panes"]["github"]["role"].startswith("origin, PRs, GLM")
 
 
-def test_request_default_review_uses_glm_not_cursor_sonnet():
+def test_request_default_review_uses_sonnet_not_cursor_other_models():
     seen = []
 
     def fake_launch(prompt, extra):
@@ -201,7 +201,7 @@ def test_request_default_review_uses_glm_not_cursor_sonnet():
 
     rec = request_default_review("keithbbf-gif/cdeck", 1, launch=fake_launch)
     assert rec["ok"] is True
-    assert rec["reviewer"] == DEFAULT_REVIEWER == "glm"
+    assert rec["reviewer"] == DEFAULT_REVIEWER == "sonnet"
     assert rec["model"] == DEFAULT_REVIEW_MODEL == "z-ai/glm-5.3-flash"
     assert rec["trigger"] == DEFAULT_REVIEW_TRIGGER
     assert rec["via"] == "openrouter"

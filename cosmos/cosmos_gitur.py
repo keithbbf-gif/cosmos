@@ -25,18 +25,18 @@ LEGS = (
     ("cursor-api", "Cursor",
      "Lane B BUILD grok-4.6 native pool. Probe is GET /v1/me."),
     ("github-forge", "GitHub",
-     "origin, PRs, GLM other-family review. Not the live-tree writer."),
+     "origin, PRs, Sonnet Gitur review (Anthropic-off exception). Not the live-tree writer."),
     ("gitlab-forge", "GitLab",
-     "CI is the execute-the-gate. GLM review. Duo still proposes."),
+     "CI is the execute-the-gate. Sonnet Gitur review. Duo still proposes."),
 )
-# Keith 2026-09-09: Claude is optional diversity, not required. Sonnet is
-# not cheap. Gitur default reviewer = GLM (other family, named pin).
-# Cursor Cloud Agents stay on Cursor Models (Grok 4.6). Other Models 73%.
-# Grok Bot weekly is NOT SuperGrok Heavy. CCr still reviews all code.
-DEFAULT_REVIEWER = "glm"
+# Keith 2026-09-11: Gitur default reviewer = Sonnet. Exception to
+# ANTHROPIC_OFF — Gitur vendor/OR named pin only. Not COSMOS ``claude -p``.
+# Not api.anthropic.com key file. Cursor Cloud Agents stay Grok 4.6.
+# CCr still reviews all code before dispose.
+DEFAULT_REVIEWER = "sonnet"
 DEFAULT_REVIEW_VIA = "openrouter"
-DEFAULT_REVIEW_MODEL = "z-ai/glm-5.3-flash"
-DEFAULT_REVIEW_TRIGGER = "openrouter-named-pin"
+DEFAULT_REVIEW_MODEL = "anthropic/claude-sonnet-5"
+DEFAULT_REVIEW_TRIGGER = "gitur-sonnet-exception"
 JOB_NEEDLES = ("gitur", "github", "gitlab", "cursor", "glab", "copilot")
 FORGE_NEEDLES = ("forge", "motif", "adversar", "cheap_coder")
 IMPLEMENT_NEEDLES = ("implement", "accept_order", "--accept", "dispose", "ccr write")
@@ -100,11 +100,11 @@ def _cli(argv, *, timeout=CLI_TIMEOUT_S, run=None) -> tuple[int, str, str]:
 
 def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
                            launch=None, root=None) -> dict:
-    """Gitur default: GLM reviews the PR/MR (other family, cheap named pin).
+    """Gitur default: Sonnet reviews the PR/MR (Keith 2026-09-11 exception).
 
-    Claude/Sonnet is optional diversity, not required. Does not spend Cursor
-    Other Models. Does not call COSMOS ``claude -p``. Does not merge.
-    ``launch`` injects tests.
+    ANTHROPIC_OFF still holds for COSMOS dispatch / ``claude -p`` /
+    ``api.anthropic.com``. This path is Gitur-only, OpenRouter named pin.
+    Does not spend Cursor Other Models. Does not merge. ``launch`` injects tests.
     """
     repo = str(repo or "").strip()
     try:
@@ -115,24 +115,6 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
     if not repo:
         return {"ok": False, "kind": "REFUSED", "detail": "empty repo",
                 "reviewer": DEFAULT_REVIEWER}
-    from cosmos_motif_define import MotifDefineError
-    from cosmos_motif_run import start as motif_run_start
-    from cosmos_paths import CosmosPathError, CosmosPaths
-
-    live = root or Path(r"V:\A\Ai\COSMOS\live")
-    try:
-        paths = CosmosPaths(str(live))
-        motif_run_start(paths, "critics")
-    except MotifDefineError as e:
-        return {
-            "ok": False,
-            "kind": e.kind,
-            "detail": str(e).split("] ", 1)[-1][:200],
-            "reviewer": DEFAULT_REVIEWER,
-            "motif_stage": "critics",
-        }
-    except CosmosPathError:
-        pass
     if kind == "mr":
         url = f"https://gitlab.com/{repo}/-/merge_requests/{n}"
         gh_url = f"https://github.com/{repo}"
@@ -140,10 +122,11 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
         url = f"https://github.com/{repo}/pull/{n}"
         gh_url = f"https://github.com/{repo}"
     prompt = (
-        "REVIEW ONLY. You are the Gitur default reviewer: GLM "
-        f"({DEFAULT_REVIEW_MODEL}), a different family from CCr Grok 4.6. "
-        "Do not merge. Do not write V:\\A. Not Fable. Not Opus. Not Cursor "
-        f"Other Models. Target: {url}. Post findings with file and line. "
+        "REVIEW ONLY. You are the Gitur default reviewer: Sonnet "
+        f"({DEFAULT_REVIEW_MODEL}). Exception to ANTHROPIC_OFF for Gitur only. "
+        "Different family from CCr Grok 4.6. Do not merge. Do not write V:\\A. "
+        "Not Fable. Not Opus. Not COSMOS claude -p. Not Cursor Other Models. "
+        f"Target: {url}. Post findings with file and line. "
         "No invented scores. Empty review if the diff is sound."
     )
     extra = {
@@ -152,7 +135,7 @@ def request_default_review(repo: str, number, *, run=None, kind: str = "pr",
         "auto_create_pr": False,
         "repo_url": gh_url,
         "poll": False,
-        "name": f"gitur-glm-{kind}-{n}"[:100],
+        "name": f"gitur-sonnet-{kind}-{n}"[:100],
     }
     if launch is not None:
         rec = launch(prompt, extra)
@@ -603,6 +586,16 @@ def _sgh_fold(paths) -> dict:
     }
 
 
+def _crew_fold(paths) -> dict:
+    """10-min CCr roster + spend belong on the Gitur tab. GET never mkdir."""
+    try:
+        from cosmos_crew_roster import snapshot as crew_snapshot
+        return crew_snapshot(paths)
+    except Exception as e:  # noqa: BLE001
+        return {"schema": "cosmos-crew-roster/1", "kind": "BROKE",
+                "detail": f"{type(e).__name__}: {e}"[:200]}
+
+
 def snapshot(kernel) -> dict:
     """Projection. kernel.registry / paths / jukebox only — no vendor poll.
 
@@ -874,4 +867,5 @@ def _snapshot_uncached(kernel) -> dict:
         "jobs": jobs[:80],
         "jobs_n": len(jobs),
         "jobs_kind": jobs_kind,
+        "crew": _crew_fold(paths),
     }

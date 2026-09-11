@@ -26,6 +26,28 @@ Compute is not 1:1 (a chat is cheap; a long Build session or Imagine video is no
 **Grok Bot is not this pool** (vendor: durable cloud-computer teammates; not grok.com
 / Grok apps). Grok Studio is retired → Build.
 
+**A-team roster — best for the money (Keith 2026-09-11):**
+| Seat | Pin | $ | Job |
+|---|---|---|---|
+| **Grok 4.6** | this CCr / Gitur | $2/$6 | dispose, write `V:\A` |
+| **GrokBot** | **4.6 in a wrapper** | same pin | `V:\Ai` pen. **Not a separate rating.** |
+| **Gemini Flash 3.8** | `gemini-3.8-flash` Kelly | $0.75/$3.75 | hard tabs · not 3.7/3.5/3.1 Pro |
+| **GLM 5.3 / Flash** | `z-ai/glm-5.3` · `glm-5.3-flash` | Flash ≈ Sonnet 71.5 at ~1/16 | OR volume |
+| **Muse Spark 1.2** | `meta/muse-spark-1.2-contributor` | $1.25/$4.25 | pair · house · no patent |
+| **Luna Flex** | `openai/gpt-5.6-luna` | ~1/10 of Sonnet | review / judge |
+| **DS V4 Flash** | **0731** sticker 69.1 @ $0.05/$0.16 · **0423** serving slug | killer $ | house · no patent · two RPM queues |
+| **Codestral** | `mistralai/codestral-2508` | farm: restrained | overflow A-team (our mouths) |
+
+**Wallets:** Keith manages. CCr keeps cost down / quality up: A-team (Grok CCr, GLM Flash volume, Luna review, Muse pair, DS, Codestral). Flash 3.8 hard tabs only. No extra grok.exe. No Sonnet/Sol/G31 as default.
+
+**SGH diet (Keith 2026-09-11):** **$150 of SGH (2-week allotment) used in one week** — 2× plan. This TUI is that mouth. No extra `grok.exe`. 60m roster not 30m. Volume coding on **GLM Flash / Luna / OR**, not Grok 4.6. Grok stays CCr dispose/Gitur.
+
+**OpenWork ORC (day-long):** **GLM 5.3 Flash** (`z-ai/glm-5.3-flash`, 1.31M, $0.075/$0.25). Same index as Sonnet, cheap enough to leave running. GLM 5.3 full when the orch turn needs 74.8. GF38 stays Kelly hard-tabs, not the all-day OpenWork wallet. Luna still grades. CCr still writes `V:\A`.
+
+**Sol (GPT-5.6)** 77.4 @ $2/$10 — ~1% over Grok 76.8 / Flash 3.8 76.3, same family as **Luna**. Questionable value. OpenAI family-diff is Luna, not Sol. Sol stays Keith+CCr together / not A-team.
+Sonnet / Opus / Fable / Astra / G31 Pro are not A-team. Other OR pins = porosity.
+G31 skip at 70% Kelly extra. GF38 off at ≥95% of the $100 extra.
+
 **Standing (Keith 2026-09-01): the mesh is Grok-based.** COSMOS `dispatch()` stays
 `ANTHROPIC_OFF` for `claude -p` / F5 / Sonnet / Haiku / Cowork-as-COW / `api.anthropic.com`
 / Claude-on-Vertex. **Keith 2026-09-04:** Anthropic **agents** are in bounds on four
@@ -88,7 +110,7 @@ stage 4 BUILD.
 | **orchestrator profiles** | one profile per occupant | Keith 2026-09-02: Cowork / Grok Code / GrokBot / later federated. Pen + mailbox id + hands + Chrome profile + live/dark. Never share Chrome or folder-grants across occupants. |
 | **Work-agent class (agenda)** | GrokBot is our occupant; OpenWork is A-tier file harness (dark) | ChatGPT Work + Codex, Claude Cowork, Copilot Cowork + Scout, Gemini Spark / Workspace Studio, **OpenWork Labs**. File HANDS; no live path. Do not pen `V:\A`. |
 | **MOTIF dual-lane / adversarial coder** | **Lane A** Grok 4.6 this TUI · **Lane B** Cursor Cloud Agent **`grok-4.6`** (Cursor Models pool, 7% used) | Same work order, no shared context. Other Models 73% — do not pin Lane B to Sonnet/Opus. Gitur **review** is GLM (other family). GitLab CI is the gate. |
-| **hard review / final polish** | **CCr** (Grok 4.6 this TUI) disposes. **Grok Bot QA manager** (Cursor Ultra weekly, 3%) is the autonomous QA seat. **GLM** is the cheap other-family Gitur reviewer. | Do not burn Heavy 52% on reviews. Do not burn Other Models 73%. Claude optional. Not Fable/Opus. Grok Bot is not SGH and not a second CCr. |
+| **hard review / final polish** | **CCr** (Grok 4.6 this TUI) disposes. **Gitur default reviewer = Sonnet** (`anthropic/claude-sonnet-5` OR named pin). **Exception to ANTHROPIC_OFF** — Gitur only, not COSMOS `claude -p`, not `api.anthropic.com` key file. | Do not burn Heavy 52% on reviews. Do not burn Cursor Other Models 73%. Not Fable/Opus as default. Grok Bot is not SGH and not a second CCr. |
 | **MOTIF stage-5 extra judges** | **GEM Vertex (`gem-api`) as UPS-Judge**, plus OA, Meta Llama, Amazon Nova | A named deliberate load. Not everyday GEM. Vertex stays **not Claude**. Bedrock when bound: Nova **and** Llama **and** Anthropic agents (Keith 2026-09-04). |
 | **Anthropic / Claude** | **COSMOS dispatch OFF; vendor agents ON** | Keith 2026-09-01: `dispatch()` `ANTHROPIC_OFF` for claude/F5/sonnet/haiku/SSA. No `claude -p`. No Cowork as **this** COW. No `api.anthropic.com` key file (DL scar). **Keith 2026-09-04:** use Anthropic **agents** on **Cursor, GitHub, GitLab,** and **Bedrock when available**. **Keith 2026-09-05 URL:** Vertex Agent Platform Model Garden **Claude Sonnet 5** on **Joanna** `project-5a33f910-1251-4d6a-bf9` (`authuser=3`). Enablement questionnaire (picker showed **My First Project**). Partner **MaaS**, not `gem-api` Gemini, not `api.anthropic.com`. Anthropic ToS form (Google will share project + billing IDs). Anthropic **recommends** request-response logging ([docs](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/request-response-logging)); vendor: logging on does **not** give Google/Anthropic content access; a **separate** MaaS data-share is for Fable/Mythos + Safety Addendum. Web Search on that model needs public internet / org policy. **$300 credit cannot pay partner MaaS.** This TUI does **not** click Next / Set up logging / Enable. Industry dropdown showed Agriculture — do not submit as BBF. API: `publishers/anthropic/models/claude-sonnet-5:rawPredict`, `anthropic_version=vertex-2023-10-16` ([Claude on Vertex](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai)). If Keith enables later: same class as Bedrock Anthropic agents (P10 propose; CCr writes). Do not lift `ANTHROPIC_OFF`. |
 | **short / structured / scriptable** | cheapest API rail with headroom | optimize per budget |
