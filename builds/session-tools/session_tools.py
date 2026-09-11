@@ -19,11 +19,21 @@ sys.path.insert(0, str(REPO / "cosmos"))
 
 from adapters import cowork, grok_tui  # noqa: E402
 from adapters import openwork as openwork_native  # noqa: E402
+from adapters import unmeasured as _um  # noqa: E402
 from refusals import SessionToolsRefusal  # noqa: E402
 import verbs  # noqa: E402
 from schema import RESULT_SCHEMA, encode_jsonl, view, write_canonical  # noqa: E402
 
-FAMILIES = {"cowork": cowork, "grok_tui": grok_tui, "openwork_native": openwork_native}
+FAMILIES = {
+    "cowork": cowork,
+    "grok_tui": grok_tui,
+    "openwork_native": openwork_native,
+    "claude_desktop": _um.claude_desktop,
+    "cursor": _um.cursor,
+    "codex": _um.codex,
+    "gemini": _um.gemini,
+    "sgh_voice": _um.sgh_voice,
+}
 DEFAULT_FAMS = ("cowork", "grok_tui")
 
 

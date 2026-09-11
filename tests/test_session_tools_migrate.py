@@ -205,6 +205,14 @@ def test_scan_unknown_family_null_n():
     return fam["status"] == "UNMEASURED" and fam["n"] is None
 
 
+def test_hold_families_null_n():
+    rec = st.cmd_scan(["cursor", "codex", "gemini", "sgh_voice"], FIX, None)
+    return all(
+        f["status"] == "UNMEASURED" and f["n"] is None
+        for f in rec["families"]
+    ) and len(rec["families"]) == 4
+
+
 if __name__ == "__main__":
     check("WORKSPACE_UNKNOWN", test_workspace_unknown)
     check("cow DO_NOT_REINGEST", test_cow_refused)
@@ -216,6 +224,7 @@ if __name__ == "__main__":
     check("openwork load", test_openwork_load)
     check("openwork cow refuse", test_openwork_cow_refused)
     check("unknown family n is null", test_scan_unknown_family_null_n)
+    check("HOLD families n is null", test_hold_families_null_n)
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for l, ok, e in RESULTS:
         print(("PASS" if ok else "FAIL"), l, e)
