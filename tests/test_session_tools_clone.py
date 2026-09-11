@@ -8,7 +8,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "builds" / "session-tools"))
-from clone import shared_tail  # noqa: E402
+from clone import refuse_duplicate, shared_tail  # noqa: E402
 
 RESULTS = []
 
@@ -42,12 +42,22 @@ def test_n_zero():
     return shared_tail("abc", "abc", 0) is False
 
 
+def test_refuse_duplicate():
+    block = "Z" * 800
+    try:
+        refuse_duplicate("left:" + block, "right:" + block)
+    except Exception as e:  # noqa: BLE001
+        return getattr(e, "kind", None) == "CLONE"
+    return False
+
+
 if __name__ == "__main__":
     check("800 identical tail", test_same_800)
     check("799 not clone", test_799_not)
     check("empty", test_empty)
     check("short < n", test_short)
     check("n=0", test_n_zero)
+    check("duplicate mouth refuses with CLONE", test_refuse_duplicate)
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for l, ok, e in RESULTS:
         print(("PASS" if ok else "FAIL"), l, e)
