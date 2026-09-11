@@ -185,13 +185,15 @@ def test_snapshot_folds_rails_without_github_poll(tmp_path, monkeypatch):
     assert isinstance(rec["log"], list)
     assert "Does not invent PR lists" in rec["note"]
     assert "/v1/repositories" in rec["note"]
-    assert rec["review"]["default"] == "glm"
-    assert rec["review"]["model"] == "z-ai/glm-5.3-flash"
-    assert rec["review"]["via"] == "openrouter"
-    assert rec["panes"]["github"]["role"].startswith("origin, PRs, GLM")
+    assert rec["review"]["default"] == "sonnet"
+    assert rec["review"]["model"] == "claude-sonnet-5"
+    assert rec["review"]["via"] == "cursor"
+    assert rec["panes"]["github"]["role"].startswith("origin, PRs, Sonnet")
+    ids = [x["id"] for x in rec["review"]["select"]]
+    assert ids == ["sonnet", "opus5", "fable51", "gf38"]
 
 
-def test_request_default_review_uses_glm_not_cursor_sonnet():
+def test_request_default_review_uses_sonnet_not_cursor_other_models():
     seen = []
 
     def fake_launch(prompt, extra):
@@ -201,14 +203,14 @@ def test_request_default_review_uses_glm_not_cursor_sonnet():
 
     rec = request_default_review("keithbbf-gif/cdeck", 1, launch=fake_launch)
     assert rec["ok"] is True
-    assert rec["reviewer"] == DEFAULT_REVIEWER == "glm"
-    assert rec["model"] == DEFAULT_REVIEW_MODEL == "z-ai/glm-5.3-flash"
+    assert rec["reviewer"] == DEFAULT_REVIEWER == "sonnet"
+    assert rec["model"] == DEFAULT_REVIEW_MODEL == "claude-sonnet-5"
     assert rec["trigger"] == DEFAULT_REVIEW_TRIGGER
-    assert rec["via"] == "openrouter"
+    assert rec["via"] == "cursor"
     prompt, extra = seen[0]
-    assert "z-ai/glm-5.3-flash" in prompt
-    assert "Not Fable" in prompt and "Not Opus" in prompt
-    assert extra["model"] == "z-ai/glm-5.3-flash"
+    assert "claude-sonnet-5" in prompt
+    assert extra["model"] == "claude-sonnet-5"
+    assert extra["review"] is True
     mr = request_default_review("keithbbf-gif/cosmos", 2, kind="mr",
                                 launch=fake_launch)
     assert mr["ok"] is True and "merge_requests/2" in mr["url"]

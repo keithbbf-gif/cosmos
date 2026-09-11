@@ -61,25 +61,37 @@ TERMINAL = ("FINISHED", "ERROR", "CANCELLED", "EXPIRED")
 RESULT_CAP = 4000
 # Cursor Models pool (dashboard: Cursor Grok + Composer). Other Models
 # (Opus/Sonnet/GPT/Gemini via Cursor) are a separate Ultra quota.
-CURSOR_MODEL = "composer-2.5"
+# Shot 2026-09-09: Cursor Models 7% used; Other Models 73% used; Grok Bot
+# weekly 3% (NOT SuperGrok Heavy); on-demand Disabled; Ultra reset Sep 14.
 CURSOR_GROK = "grok-4.6"
+CURSOR_COMPOSER = "composer-2.5"
+CURSOR_MODEL = CURSOR_GROK
+CURSOR_SONNET = "claude-sonnet-5"
 _CURSOR_GROK_IDS = frozenset({
     "grok-4.6", "grok-4.5",
     "cursor-grok-4.6", "cursor-grok-4.6-high-fast",
 })
 
 
-def pin_cursor_model(raw) -> str:
-    """Pin Cloud Agent / cursor-api to the Cursor Models pool.
+def pin_cursor_model(raw, *, review: bool = False) -> str:
+    """Pin Cloud Agent to the Cursor Models pool.
 
-    Composer 2.5 is the default (independent family from Grok CLI).
-    Explicit Cursor Grok ids pass through. Auto / Other Models (Opus)
-    coerce to Composer — they draw the Other Models quota.
+    Default coding: grok-4.6. Composer 2.5 stays Composer.
+    Gitur review=True: Other Models selectable — Sonnet 5 default,
+    Opus 5 / Fable 5.1 select. Coding launches still coerce Sonnet→Grok.
     """
     low = str(raw or "").strip().lower()
-    if low in _CURSOR_GROK_IDS:
-        return CURSOR_GROK
-    return CURSOR_MODEL
+    if "composer" in low:
+        return CURSOR_COMPOSER
+    if review:
+        if "fable" in low:
+            return "claude-fable-5.1"
+        if "opus" in low:
+            return "claude-opus-5"
+        if "sonnet" in low or low.startswith("claude"):
+            return CURSOR_SONNET
+        return CURSOR_SONNET
+    return CURSOR_GROK
 
 
 class CursorRailError(RuntimeError):
@@ -382,7 +394,8 @@ class CursorRail:
             body["name"] = str(name)[:100]
         model = payload.get("model") or self.spec.get("model") or CURSOR_MODEL
         if isinstance(model, str):
-            model = pin_cursor_model(model)
+            model = pin_cursor_model(
+                model, review=bool(payload.get("review")))
         body["model"] = {"id": model} if isinstance(model, str) else model
         mode = payload.get("mode")
         if mode:
@@ -392,22 +405,6 @@ class CursorRail:
     def dispatch(self, payload: dict) -> dict:
         """Launch a Cloud Agent run. Opt-in. probe() never calls this."""
         payload = payload or {}
-        motif_stage = str(payload.get("motif_stage") or "").strip().lower()
-        if motif_stage in ("build", "critics") and payload.get("root"):
-            try:
-                from cosmos_motif_run import start as motif_run_start
-                from cosmos_paths import CosmosPaths
-
-                motif_run_start(CosmosPaths(str(payload["root"])), motif_stage)
-            except Exception as e:  # noqa: BLE001
-                kind = getattr(e, "kind", "REFUSED")
-                return {
-                    "ok": False,
-                    "kind": kind,
-                    "detail": str(e)[:300],
-                    "node": self.link_id,
-                    "motif_stage": motif_stage,
-                }
         try:
             read_key(self.key_path)
         except CursorRailError as e:
@@ -824,6 +821,18 @@ def launch_run(root: str | os.PathLike, prompt: str, *, http=None,
     keyp = key_path_for(paths, spec)
     attached, adapters, disp, led, gate_dir = _compose_isolated(
         paths, spec, keyp, http)
+    # Registration is not capability. Isolated compose has no LIVE row until
+    # probe. Skipping this was NO_LIVE_LINK on every --launch, so Cursor
+    # Cloud Agents never started and Gitur credits did not move.
+    try:
+        disp.registry.probe(attached["link_id"])
+    except Exception as e:  # noqa: BLE001
+        rec_fail = {
+            "ok": False, "kind": "UNREACHABLE",
+            "launch_error": f"probe-before-launch: {type(e).__name__}: {e}"[:200],
+            "gate": None, "launch": True,
+        }
+        return rec_fail
     payload = {"prompt": prompt, "poll": poll}
     rec = {
         "schema": SCHEMA,
@@ -902,11 +911,15 @@ def _selftest() -> int:
         except Exception as e:  # noqa: BLE001
             results.append((label, False, f"{type(e).__name__}: {e}"))
 
-    check("Cursor Models pin is Composer 2.5; Other Models Opus coerces",
-          lambda: pin_cursor_model("claude-opus-5") == CURSOR_MODEL
-          and pin_cursor_model("auto") == CURSOR_MODEL
-          and pin_cursor_model("composer-2.5") == CURSOR_MODEL
+    check("Cursor Models pin is native Grok 4.6; Composer stays if named",
+          lambda: pin_cursor_model("claude-opus-5") == CURSOR_GROK
+          and pin_cursor_model("auto") == CURSOR_GROK
+          and pin_cursor_model("composer-2.5") == CURSOR_COMPOSER
           and pin_cursor_model("grok-4.6") == CURSOR_GROK)
+    check("Gitur review=True unlocks Cursor Other Models Sonnet/Opus/Fable",
+          lambda: pin_cursor_model("claude-sonnet-5", review=True) == CURSOR_SONNET
+          and pin_cursor_model("claude-opus-5", review=True) == "claude-opus-5"
+          and pin_cursor_model("claude-fable-5.1", review=True) == "claude-fable-5.1")
 
     td = Path(tempfile.mkdtemp(prefix="cosmos_cursor_rail_"))
     root = install(td / "live", tree_id="spike-cursor-rail")
