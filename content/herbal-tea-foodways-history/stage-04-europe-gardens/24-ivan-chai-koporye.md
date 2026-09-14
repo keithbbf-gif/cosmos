@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Fireweed colonizes a burn and a railway cutting with the same indifference. The drink made from its leaves has spent two centuries trying on costumes: cheap stand-in, fraud, peasant pot, then — quite recently, for a lot of drinkers — a fashionable fermented "ancestral" cup. The plant is *Epilobium angustifolium*, also *Chamaenerion angustifolium*, rosebay willowherb, *kiprei*, *Ivan-chai*. The costumes are not the same garment.

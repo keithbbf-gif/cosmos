@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Method is not a personality. It is a decision about heat, time, and the part of the plant you bothered to keep.

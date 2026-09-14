@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Fynbos does not owe the world a second export celebrity. Honeybush grew in the same Cape scrub as the louder cup and then watched the louder cup take the microphone.

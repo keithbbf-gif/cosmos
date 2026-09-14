@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 December stains a Caribbean saucepan before anyone writes a menu. The calyces go in early because the spices need time, and the holiday will not wait for a botanist.
@@ -21,7 +21,7 @@ The name collision is worth a pause. *Sorrel* in British English can mean *Rumex
 
 Michael Twitty has insisted, in *The Cooking Gene* and in the public talk that travels with that book, that a red drink in African-diasporic foodways can be joy and survival in one glass. I am using that as a foodways claim, not as a lab result. The cup is allowed to be festive. It is allowed to be a thing people made and kept making. It does not have to climax in a condition to be historically serious.
 
-How the plant got into island gardens is a longer Atlantic story than a Christmas essay can finish. Judith Carney and Richard Rosomoff describe African botanical knowledge moving with enslaved people, and provision grounds — the plots captives were forced to feed themselves from — as places where African and American plants were grown, remembered, and cooked. Roselle belongs in that garden conversation. I will not turn this draft into a catalog of violence. The violence is the condition of the garden. The draft's job is to keep the drink and the garden visible: who knew the plant, who boiled it, who sweetened it with sugar that was itself a plantation product, who poured it at a holiday that the islands did not invent and then remade.
+How the plant got into island gardens is a longer Atlantic story than a Christmas essay can finish. Judith Carney and Richard Rosomoff describe African botanical knowledge moving with enslaved people, and provision grounds — the plots captives were forced to feed themselves from — as places where African and American plants were grown, remembered, and cooked. Roselle belongs in that garden conversation. I will not turn this draft into a catalog of violence. The violence is the premise of the garden. The draft's job is to keep the drink and the garden visible: who knew the plant, who boiled it, who sweetened it with sugar that was itself a plantation product, who poured it at a holiday that the islands did not invent and then remade.
 
 Sugar is not innocent in this pot, and it is not optional in most of the pots people actually serve. The drink is tart without it and a party with it. Cloves and cinnamon are ship spices. Ginger may be garden or market. Rum is molasses with a memory. A claims-guarded history can say all of that without converting the punch bowl into a sermon and without converting it into a clinic. Household literature in the wider Atlantic world sometimes filed hibiscus in a sickroom register. Christmas sorrel, as served, is a table drink. This series stays with the table.
 

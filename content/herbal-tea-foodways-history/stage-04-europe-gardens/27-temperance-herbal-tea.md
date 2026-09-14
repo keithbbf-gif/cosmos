@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The dram shop had a counter and a smell. Reformers answered with a table and a pledge, then had to invent something hot to put on the table, because a movement cannot live on cold water and sermons. The nineteenth-century "herbal tea" in this story is a social weapon. It is not a health-claim essay wearing a bonnet.

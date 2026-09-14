@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The grocery aisle is a poor linguist. It prints TEA on a box of chamomile, a box of roasted barley, a box of hibiscus calyces, and a box of actual *Camellia sinensis*, then lets the shelf do the rest of the thinking. English has been doing this for a long time. It is convenient. It is also a category error with a string tag.

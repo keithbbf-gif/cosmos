@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Every category has an unmarked term. In English hot drinks, the unmarked term is tea, and the tea that does not need an adjective is *Camellia sinensis*. Black, green, oolong — those are process words inside the default. "Herbal" is the adjective that means *not that*. The default is doing more work than it admits.

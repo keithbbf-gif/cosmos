@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Industry prose is rarely lovely. It is sometimes more honest than a lifestyle caption.
@@ -29,7 +29,7 @@ I will use THIE the way I use a dictionary: as a public categorization, dated, i
 
 Compare that with the American grocery phrase. In a U.S. supermarket, "herbal tea" is often a shelf talker, not a legal class with a Hamburg address. The same parent company may pack Camellia and chamomile in identical envelopes. The sameness is the product. A foodways reader should see the envelope as a historical artifact: the tea bag taught the herbal infusion how to look like tea. We will get to the bag in the next draft. The point here is prior: once the package is identical, the plant difference has to be restated on purpose or it disappears.
 
-This draft does not treat, cure, or prevent. It is not medical advice. A trade association is not a healer and not a villain in a cape. It is a place where someone had to write down that mint is not Camellia. I would like the rest of the folder to stay at least that dull, and that clear.
+This draft does not treat, cure, or prevent. It is not medical advice. A trade association is not a clinic and not a villain in a cape. It is a place where someone had to write down that mint is not Camellia. I would like the rest of the folder to stay at least that dull, and that clear.
 
 ## Claims box
 

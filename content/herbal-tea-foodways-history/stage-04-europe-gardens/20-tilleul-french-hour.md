@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The paper cone from the pharmacie still rustles like a small animal. Inside: pale bracts, a few twigs you are meant to pick out, a smell that is honey and old wardrobe and the tree that shaded the square. French households have a word that does not need a Latin sermon. They say *tilleul*. They mean a kitchen hour.

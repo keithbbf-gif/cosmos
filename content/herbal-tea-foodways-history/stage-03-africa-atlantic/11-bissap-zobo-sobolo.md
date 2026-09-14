@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Street ice in Dakar does not wait for a Latin binomial. The cooler is already bleeding color into meltwater while the seller negotiates sugar.

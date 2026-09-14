@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Gunpowder green tea did not arrive in Morocco as a ceremony. It arrived as a crate, and the crate needed sugar.
@@ -19,7 +19,7 @@ Draft 18 stayed in the pot with *chiba* and the other local herbs. This draft st
 
 Hospitality is the plot that survived the prices. A tray, small glasses, foam from a high pour, a second filling of the same leaves, an insistence that the guest drink — these are social technologies. They are not ancient Camellia rituals transplanted intact from Fujian. They are what a Maghrebi house did with a new pair of commodities and an old habit of offering something hot and sweet. The herb tradition, Cornwell notes, is hard to sketch from written sources and older than the boom. I will keep that hedge. Oral pots leave thinner paper.
 
-Urbanization in the twentieth century moved the glass from a rural performance to a city constant. I will not invent a census of cafés. Anyone who has walked a Moroccan or Maghrebi street in the last half-century has seen the drink as furniture. Television and advertising later sold togetherness back to the people who were already pouring it. That loop is ordinary for staples. Bread does it. Tea does it.
+Urbanization in the twentieth century moved the glass from a rural performance to a city constant. I will not invent a census of cafés. Anyone who has walked a Moroccan or Maghrebi city street in the last half-century has seen the drink as furniture. Television and advertising later sold togetherness back to the people who were already pouring it. That loop is ordinary for staples. Bread does it. Tea does it.
 
 Empire sits in the crate. British and other European trades moved Chinese leaf; colonial and semi-colonial markets moved sugar; Moroccan drinkers made a third thing. A foodways series that only says "Moroccan mint tea" as a flavor profile has deleted the ship. A series that only says "colonial imposition" has deleted the house. Both deletions are popular. Both are incomplete.
 

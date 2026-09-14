@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 A comida-corrida plate arrives with a sweating jug, not a ceremony. The red liquid is a cooler among other coolers — horchata, tamarindo, the day's cheaper thirst.

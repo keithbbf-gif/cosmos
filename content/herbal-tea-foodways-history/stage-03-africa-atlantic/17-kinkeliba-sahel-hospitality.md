@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 A guest in the western Sahel is often poured for before anyone asks what the leaf is called in a language that prints well. The pot is already on, and the house already knows the bush.

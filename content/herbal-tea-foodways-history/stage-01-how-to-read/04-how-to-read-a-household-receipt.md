@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 A receipt, in the older English sense, is a recipe. The word sat in cookery books and in household books that did not bother to keep cookery and physic in separate bindings. That mixed binding is the trap. A modern reader opens a stillroom manuscript, sees "for the cough" in the margin, and decides the whole history of herbal infusions is a history of treatment. A different modern reader, frightened of that margin, pretends the household never wrote it down. Both readers are doing marketing: one for the wellness aisle, one for a purity that never existed.

@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Height is part of the recipe in a Maghrebi mint pot. The host lifts the teapot so the stream cools, foams, and announces that the glasses are for company.

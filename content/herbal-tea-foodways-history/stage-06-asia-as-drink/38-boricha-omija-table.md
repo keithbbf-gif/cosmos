@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 In a lot of Korean restaurants, the first liquid on the table is not water as a European diner means water. It is roasted barley, pale brown, free, refilled without a performance. *Boricha* is so ordinary that writing an essay about it feels like writing an essay about the napkin. That is why it belongs here. Foodways is often the napkin.

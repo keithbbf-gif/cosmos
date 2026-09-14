@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The elder does not give you a month. It gives you a fortnight if the weather holds, three weeks if you live far enough north and the heads open late. *Sambucus nigra* — the European elder of hedges, railway cuttings, and the damp corner of a churchyard — is a foraging calendar before it is a flavor. Miss the cream plates and you are waiting a year, or you are buying a bottle that remembers June for you.

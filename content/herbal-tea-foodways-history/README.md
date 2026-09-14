@@ -18,8 +18,8 @@ If you only open one file besides the guardrails, open
 
 ## Voice and status
 
-Human essay voice. `status: draft` and `voice_check: writer-pass` on every
-essay file. The series is **staged** (seven argument stages) and
+Human essay voice. `status: draft` on every essay file; editor pass sets
+`voice_check: edited` on each draft. The series is **staged** (seven argument stages) and
 **git-staged** as a proposal, not published as canon and not wired into
 COSMOS Core.
 

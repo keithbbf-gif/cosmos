@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Turn the box around. The front is a story. The back is a shorter story with a legal department.
@@ -39,7 +39,7 @@ A practical sequence I use in a store, without romance:
 
 None of that makes you a better person. It makes you harder to flatten. Label literacy is not purity. People will still buy the pretty tin. I do. The point is to know you bought a pretty tin, a cut, and a story, not a courtyard, not a Cederberg farm, and not a finding.
 
-If the tin is honest — plant, part, cut, packer — you can decide whether you like the flavor. Flavor is a legal reason to buy a food. A body complaint is not a reason this folder will help you spend. Go to a clinician who knows you if you have a complaint. Go to the kettle if you have a pot. The two trips are not the same trip, even when the box wants them to be.
+If the tin is honest — plant, part, cut, packer — you can decide whether you like the flavor. Flavor is a legal reason to buy a food. A body complaint is not a reason this folder will help you shop. Go to a clinician who knows you if you have a complaint. Go to the kettle if you have a pot. The two trips are not the same trip, even when the box wants them to be.
 
 ## Claims box
 

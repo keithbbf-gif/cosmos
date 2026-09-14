@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 On a limestone slope the plant looks like a pale candle that forgot to be a shrub. Greeks have a household name for the drink that does not need an export office: *tsai tou vounou*, tea of the mountain. The Latin is a pile of species. *Sideritis raeseri*, *Sideritis scardica*, *Sideritis syriaca*, *Sideritis clandestina*, and their cousins grow on rocky ground with thin soil, often above the orchards, often where a goat has an opinion. The grocery phrase "Greek mountain tea" is a crate name. The mountain names are older.
@@ -27,7 +27,7 @@ I am refusing, on purpose, the payoff list that popular sources glue to this gen
 
 Labor on rock is slow. Someone walks up. Someone cuts in flower. Someone dries in the shade so the felt does not rot. Payment, when it exists, is not the postcard. When the plant moves to a field, the labor changes and the story tries not to. I would rather the story admit the field. A planted *Sideritis* is still *tsai tou vounou* if the drinkers say so. The drinkers own the name.
 
-This draft does not treat, cure, or prevent. It is not medical advice. *Tsai tou vounou* is a set of mountain plants, a kettle of stalks, a breakfast with cheese and barley, and a wildness that is now an argument about how much to pick. It is not a panacea in a paper sleeve.
+This draft does not treat, cure, or prevent. It is not medical advice. *Tsai tou vounou* is a set of mountain plants, a kettle of stalks, a breakfast with cheese and barley, and a wildness that is now an argument about how much to pick. It is not a cure story in a paper sleeve.
 
 ## Claims box
 

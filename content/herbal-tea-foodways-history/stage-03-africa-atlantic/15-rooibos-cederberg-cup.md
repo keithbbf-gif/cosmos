@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Paper arrived late to the Cederberg shrub. The mountain did not file a birth certificate, and the first confident year on an export sleeve is still a fight between brochure and quieter notes.

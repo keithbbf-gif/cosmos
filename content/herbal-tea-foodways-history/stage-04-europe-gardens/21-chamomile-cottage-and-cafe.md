@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 What the tin draws is a daisy with a yellow button. What the tin contains is a category. Grocery chamomile is not a single passport. It is a pile of small white heads that commerce has agreed to call one thing.

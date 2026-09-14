@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 I am going to spend the first page on what we will not do. If that sounds like a lawyer got to the kettle first, good. The English phrase *herbal tea* has spent a century sliding off a kitchen table and onto a claim. The slide is almost always greased with a condition name.

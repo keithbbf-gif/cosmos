@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 When the leaf that needs a ship becomes dear, the cupboard starts answering. Roasted grain, a jar of dried apple peel, a paper of linden, a hip from the hedge — these are not discoveries. They are stand-ins. Pride and shame share the same kettle.
@@ -19,7 +19,7 @@ Roasted grain is the oldest loud answer on the continental side. Prussian coffee
 
 Tea had its own ersatz. A National WWI Museum note mentions roasted plum leaves as a German stand-in; Dutch wartime plant lists put blackberry leaf in the teapot when Camellia was a luxury price. Linden blossom — the same *tilleul* that is a French peacetime hour — becomes, in a blockade cupboard, the thing you have because the tree is municipal and the crate is not. Dried apple peel shows up in British and continental "make-do" columns as a sweet-tart infusion when the caddy is empty. I have not got a single recipe as a universal. I have a pattern: fruit leather and hedge leaf learned to occupy the hour that "tea" had taught.
 
-Britain's Second World War is the chapter with the best public paperwork for a plant people now want to medicalize. Tea itself was rationed; Ministry of Food flashes explained the ounces as if ounces were a moral. Rose-hip collection was a different program: County Herb Committees, *Hedgerow Harvest* leaflets, school parties paid a few pence a pound, hips taken to depots, syrup later sold as a wartime food when imported fruit — oranges in the official story — could not fill the same shelf. I am staying in that sentence. This is food-supply history. It is not a clinic, and I will not turn a children's hedge walk into a deficiency lecture. The hip was a state-organized stand-in for a missing crate of fruit. The children were a labor force with scratches and pocket money. Pride was the letter from the factory thanking the school. Shame was the taste, or the knowledge that the "real" thing was elsewhere.
+Britain's Second World War is the chapter with the best public paperwork for a plant people now want to medicalize. Tea itself was rationed; Ministry of Food flashes explained the ounces as if ounces were a moral. Rose-hip collection was a different program: County Herb Committees, *Hedgerow Harvest* leaflets, school parties paid a few pence a pound, hips taken to depots, syrup later sold as a wartime food when imported fruit — oranges in the official story — could not fill the same shelf. I am staying in that sentence. This is food-supply history. It is not a clinic, and I will not turn a children's hedge walk into a nutrition lecture. The hip was a state-organized stand-in for a missing crate of fruit. The children were a labor force with scratches and pocket money. Pride was the letter from the factory thanking the school. Shame was the taste, or the knowledge that the "real" thing was elsewhere.
 
 Substitution has a class accent. A household that already drank linden did not feel the same loss as a household that had only ever bought a quarter of tea. A German family that had drunk chicory in peacetime was already trained. A British parlor that stretched the ration and then poured apple peel for guests was performing patriotism and apology at once. "Making do" is a slogan that flatters the maker. Guests can still tell.
 

@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The walled bed is a factory with better manners. A monastery garden, when it is doing its ordinary work, is a production site: labeled plots, a drying rack in a draft, a store of last summer's blossom that will go into a winter pot. The popular caption prefers a different picture — a monk as proto-clinician, the cloister as the origin story of every later sachet. That caption is a medical monastic myth. I am not writing it.

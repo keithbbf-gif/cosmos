@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Cairo's open-air tables have room for a red glass that is neither coffee nor Camellia. Vendors and cafes sell it as a drink people already know how to order.

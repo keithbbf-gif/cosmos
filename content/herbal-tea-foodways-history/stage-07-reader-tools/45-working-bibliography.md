@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 A bibliography in this folder is not a flex. It is a list of what I opened, what I only saw the face of, and what I refused to treat as a pot I had stood beside.

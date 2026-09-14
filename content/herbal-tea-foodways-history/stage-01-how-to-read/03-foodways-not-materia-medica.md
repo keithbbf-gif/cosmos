@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 There is already a way to write about plants in water, and it has a Latin name that sounds like a library. Materia medica catalogs what a tradition said a plant was *for*. Pharmacopeias, herbals, bencao, nighantu — those are real genres. They have their own historians. This repo even has folders that sit nearer that literature, with their own fences. This folder is not trying to win that argument by arriving late and speaking softly.

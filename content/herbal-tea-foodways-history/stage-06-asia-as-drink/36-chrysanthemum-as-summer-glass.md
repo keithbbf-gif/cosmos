@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 A pale gold glass in August is not a chapter of the *bencao*. It is a drink that learned to sit next to sweet bean and a slow fan.
@@ -17,7 +17,7 @@ I am starting there on purpose. Chinese chrysanthemum infusions — *juhua cha* 
 
 What do I actually know from ordinary public sources, without pretending I kept a stall in Mong Kok? Dried chrysanthemum heads are a grocery item. They are sold in bags that look like any other dry-goods bag. Shops brew them sweet or not, sometimes with a little rock sugar, sometimes with osmanthus, sometimes as a giant jug that tastes like a florist's cooler. The drink is cheap. It is a pause. It is what you hold when the tea you mean is too hot and too serious for the hour. Overseas, the same jug becomes "chrysanthemum tea" on an English menu, and the adjective *tea* does the Camellia-default trick we already scolded.
 
-I will not invent a dynasty origin. Flowers have been steeped in Chinese food life for a long time; that is a fair, dull sentence. A tourist caption that begins "for thousands of years the emperors" is not a citation. If a later editor has a specific Song painting or a specific shop ledger, they can drop it in. Until then, the honest object is the contemporary glass and the dried bag, with a deep background I am not going to fake into a timeline.
+I will not invent a dynasty origin. Flowers have been steeped in Chinese food life for a long time; that is a fair, dull sentence. A tourist caption that begins "for thousands of years the emperors" is not a citation. Without a specific Song painting or shop ledger in hand, the honest object is the contemporary glass and the dried bag, with a deep background I am not going to fake into a timeline.
 
 The hot/cool food vocabulary is the place English-language writers most like to smuggle a clinic. "Cooling" sounds like a therapy. In the kitchen it is nearer to a pairing rule: this dish is greasy, this drink is light; this weather is close, this bowl is pale. People argue about the rules the way people argue about whether iced water "is bad with" a meal. The argument is cultural. It does not become a finding because a menu printed it. I will not translate *liang* into a protocol.
 

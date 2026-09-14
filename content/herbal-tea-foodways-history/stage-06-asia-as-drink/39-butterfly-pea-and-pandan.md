@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 Blue that turns purple when you squeeze a lime is a hospitality trick before it is a botanist's anecdote.
@@ -21,7 +21,7 @@ I will not invent a royal Siamese origin story for the blue glass. Colorants in 
 
 What is the older foodway, as far as a cautious writer can say? Flowers used to tint rice cakes and drinks; leaves used to perfume. That is cookery. It belongs next to turmeric rice and next to rosewater, not next to a clinic. When a grandmother puts a leaf in a pot, she is closer to a baker than to a monograph. I am guessing at no particular grandmother. I am insisting on the genre.
 
-Export changes the object. Dried butterfly-pea flowers in a glass jar with a kraft label, sold beside "wellness" tins, are a different commodity from a night-market glass. The jar wants you to steep a mood. The night-market glass wants you to be hot and then less hot, and to watch the lime work. Pandan extract in a bottle is a different commodity from a leaf. Foodways uncompresses again: name the form.
+Export changes the object. Dried butterfly-pea flowers in a glass jar with a kraft label, sold beside "wellness" tins, are a different commodity from a night-market glass. The jar wants you to steep a mood, not a meal. The night-market glass wants you to be hot and then less hot, and to watch the lime work. Pandan extract in a bottle is a different commodity from a leaf. Foodways uncompresses again: name the form.
 
 I will also keep desserts in the same sentence as drinks. Pandan jelly, blue rice, a sweet glass — the leaf and the flower are kitchen colorists. A series that only files them under "herbal tea" has already lost the plate. The plate is why a child remembers the color. The plate is why a banquet uses the flower. A sachet that wants to be a mood has deleted the plate on purpose.
 

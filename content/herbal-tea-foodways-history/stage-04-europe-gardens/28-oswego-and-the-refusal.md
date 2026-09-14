@@ -8,7 +8,7 @@ voice: essay
 claims_posture: educational-foodways
 audience: curious-reader
 status: draft
-voice_check: writer-pass
+voice_check: edited
 ---
 
 The red flower is not in dispute. *Monarda didyma* grows, smells of citrus-mint, and takes a kettle. The flag people plant on it is another matter. Popular history likes to say that after Boston Harbor took the Camellia in 1773, colonists poured bee balm and called the refusal liberty. Sometimes someone did pour bee balm. The story, as a flag, is partly patriotic work. I will mark it as such and not polish it.
