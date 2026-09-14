@@ -11,6 +11,13 @@ portrait_status: none
 
 Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, and Wenhu Chen published “MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI” at CVPR 2024. The file is a college-level exam that refuses to drop the figures: charts, chemical structures, maps, scores, diagrams that a text-only model cannot honestly see.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multimodal-exam.svg" alt="MMMU multimodal college exam schematic with images and multiple-choice answers" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>MMMU (Yue et al., CVPR 2024).</strong> College-level multimodal questions where figures are required—multiple-choice scoring like MMLU with vision attached.</figcaption>
+</figure>
+
+
 The title’s “expert AGI” is a mouthful. The instrument is more modest and more useful: can a multimodal model do the kind of question a human student meets when the answer is in the image and the caption together?
 
 ## What an item is

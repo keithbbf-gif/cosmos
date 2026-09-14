@@ -11,6 +11,13 @@ portrait_status: none
 
 Grégoire Mialon, Clémentine Fourrier, Craig Swift, Thomas Wolf, Yann LeCun, and Thomas Scialom published “GAIA: a benchmark for General AI Assistants” in 2023 (arXiv:2311.12983). Meta, Hugging Face, and collaborators. The pitch is a set of questions that are conceptually simple for a person with a browser and a bit of time, and still hard for a 2023 model: look something up, open a file, do a small calculation, combine the pieces, return a short answer.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/gaia-tools.svg" alt="GAIA general AI assistant benchmark with tools and short answers schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>GAIA (Mialon et al., 2023).</strong> Questions requiring tools, browsing, and multi-step reasoning with short verifiable final answers.</figcaption>
+</figure>
+
+
 The name wants to be large. The scorer wants to be small. A short, checkable string. That tension is the instrument.
 
 ## What “general assistant” means here

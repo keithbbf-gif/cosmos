@@ -11,6 +11,13 @@ portrait_status: none
 
 BIG-bench is what happens when a field tries to crowdsource its own exam. Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, and a very long author list published “Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models” — the paper is dated 2022 on arXiv (2206.04615) and later appeared in *Transactions on Machine Learning Research* (2023). Google organized. The community donated tasks. The acronym is a stretch that everyone immediately shortened.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/big-bench-collaborative.svg" alt="BIG-bench collaborative task collection schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>BIG-bench (2022).</strong> Hundreds of contributor-written tasks probing odd capabilities; aggregate stories vary by task subset—no single eternal BIG-bench integer.</figcaption>
+</figure>
+
+
 The imitation game in the title is Turing’s. The “beyond” is a pile: hundreds of tasks, contributed by hundreds of people, covering problems that did not fit in GLUE’s English classification mood — arithmetic, proto-science, social reasoning, constructed languages, jokes that stop being jokes when you explain them.
 
 ## A benchmark as a conference

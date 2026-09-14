@@ -11,6 +11,13 @@ portrait_status: none
 
 Hector J. Levesque, Ernest Davis, and Leora Morgenstern published “The Winograd Schema Challenge” in 2012 (KR 2012; a widely cited technical report sits beside the proceedings version). The hardship is tiny and handmade. A pair of sentences. A pronoun. One word changed — “because he was so *strong*” versus “because he was so *weak*” — and the pronoun’s referent flips. A statistical system that has not met the world should not know why.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/winograd-resolution.svg" alt="Winograd schema pronoun coreference resolution schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Winograd Schema Challenge (Levesque et al.).</strong> Pronoun resolution requiring world knowledge—small, hard, easily recast into GLUE-style classification.</figcaption>
+</figure>
+
+
 They offered it as an alternative to a loose reading of Turing’s imitation game: less chat, more a crisp test of commonsense that language happens to carry.
 
 ## Why a schema

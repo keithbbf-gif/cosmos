@@ -1,0 +1,13 @@
+<svg width="720" height="400" viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="system-ui,Segoe UI,sans-serif">
+<title>N-gram overlap metrics schematic</title>
+<rect width="100%" height="100%" fill="#fafafa"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<polygon points="0 0, 8 3, 0 6" fill="#5f6368"/>
+</marker>
+</defs><text x="360" y="70" text-anchor="middle" font-size="17" font-weight="600">Reference vs hypothesis n-grams</text>
+<text x="120" y="130" font-size="13" fill="#202124">Reference: the quick brown fox</text>
+<text x="120" y="170" font-size="13" fill="#202124">Hypothesis: the fast brown fox</text>
+<rect x="120" y="200" width="480" height="40" fill="#e6f4ea" stroke="#188038"/>
+<text x="360" y="225" text-anchor="middle" font-size="13">Shared bigrams/trigrams → BLEU / ROUGE precision-recall style scores</text>
+</svg>

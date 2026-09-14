@@ -11,6 +11,13 @@ portrait_status: none
 
 Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt published “Measuring Mathematical Problem Solving with the MATH Dataset” at NeurIPS 2021. If GSM8K is a grade-school worksheet, MATH is a contest packet: problems in the spirit of AMC, AIME, and the harder end of high-school competition math, written so a model must do more than add the apples.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/math-competition.svg" alt="MATH competition mathematics benchmark schematic with LaTeX problems" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>MATH (Hendrycks et al.).</strong> Competition-style mathematics with difficulty bins; extraction and equivalence checking are as important as the model’s prose.</figcaption>
+</figure>
+
+
 The name is greedy. It claimed the noun. Later papers have to say “Hendrycks MATH” or “the MATH dataset” to leave room for FrontierMath, Minerva’s evaluation sets, and actual mathematics.
 
 ## What an item wants

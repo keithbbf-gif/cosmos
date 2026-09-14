@@ -11,6 +11,13 @@ portrait_status: none
 
 Neel Guha, Julian Nyarko, Daniel Ho, Christopher Ré, and a long list of legal and computer-science collaborators published “LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models” (arXiv:2308.11462, 2023; later a NeurIPS datasets paper). Stanford. The hardship is not “take the bar.” It is dozens of small legal tasks that lawyers and legal scholars actually named: classification of a clause, spotting a kind of issue, applying a given rule to a short fact pattern, extraction from a passage.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="LegalBench multi-task legal reasoning benchmark schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>LegalBench.</strong> A suite of legal NLP tasks from the public paper—contract clauses, citations, and rule-like items scored per task, not one law-school GPA.</figcaption>
+</figure>
+
+
 The collaborative build is the method. Legal experts proposed tasks. The suite keeps those task boundaries instead of blending them into one GPA.
 
 ## Why not one exam

@@ -1,0 +1,14 @@
+<svg width="720" height="320" viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img" font-family="system-ui,Segoe UI,sans-serif">
+<title>Trust and safety evaluation axes schematic</title>
+<rect width="100%" height="100%" fill="#fafafa"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<polygon points="0 0, 8 3, 0 6" fill="#5f6368"/>
+</marker>
+</defs><rect x="60" y="120" width="180" height="50" rx="8" fill="#fce8e6" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="150" y="150" text-anchor="middle" font-size="14" fill="#202124">Toxicity</text><rect x="270" y="120" width="180" height="50" rx="8" fill="#fef7e0" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="360" y="150" text-anchor="middle" font-size="14" fill="#202124">Stereotypes</text><rect x="480" y="120" width="180" height="50" rx="8" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="570" y="150" text-anchor="middle" font-size="14" fill="#202124">Adversarial prompts</text><rect x="165" y="220" width="180" height="50" rx="8" fill="#f3e8fd" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="255" y="250" text-anchor="middle" font-size="14" fill="#202124">Privacy / misuse</text><rect x="375" y="220" width="180" height="50" rx="8" fill="#e6f4ea" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="465" y="250" text-anchor="middle" font-size="14" fill="#202124">Fairness metrics</text><text x="360" y="70" text-anchor="middle" font-size="17" font-weight="600">Safety / trust suites (multi-axis)</text>
+</svg>

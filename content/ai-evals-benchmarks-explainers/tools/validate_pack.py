@@ -31,6 +31,7 @@ BANNED_NARRATOR = re.compile(
     re.I,
 )
 FM = re.compile(r"^---\n(.*?)\n---\n", re.S)
+FIGURE = re.compile(r"<figure>\s*<img\s+[^>]*src=\"([^\"]+)\"[^>]*/>\s*<figcaption>", re.S)
 
 
 def parse_front_matter(text: str) -> dict[str, str]:
@@ -80,6 +81,14 @@ def main() -> int:
         wc = word_count(text)
         if wc < 700:
             errors.append(f"{path.name}: word count {wc} < 700")
+        if path.parent.name in {"essays", "explainers"}:
+            figs = FIGURE.findall(text)
+            if not figs:
+                errors.append(f"{path.name}: missing <figure> with SEO figcaption")
+            for src in figs:
+                asset = (path.parent / src).resolve()
+                if not asset.is_file():
+                    errors.append(f"{path.name}: missing asset {src}")
         for i, line in enumerate(text.splitlines(), 1):
             if path.parent.name in {"essays", "explainers"} and LEAK.search(line):
                 errors.append(f"{path.name}:{i}: novelty leak: {line.strip()[:120]}")

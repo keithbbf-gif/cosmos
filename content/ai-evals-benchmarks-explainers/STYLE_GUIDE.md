@@ -67,6 +67,21 @@ portrait_status: none
 - `portrait` is `null` in this pack. This is an instruments series, not a portrait gallery. Do not generate faces of living authors.
 - `kind` is `essay` (problem / history of practice) or `explainer` (one public instrument).
 
+## Figures and SEO captions
+
+Each essay and explainer includes one original schematic under `assets/diagrams/` (see `assets/README.md`). Embed with HTML:
+
+```html
+<figure>
+  <img src="../assets/diagrams/example.svg" alt="Plain-language alt text naming the benchmark and what the diagram shows" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Instrument name (venue/year).</strong> One or two sentences for readers and search: task shape, scoring rule, and what the number refuses to claim—no live leaderboard integers.</figcaption>
+</figure>
+```
+
+- `alt` is mandatory and should name the benchmark (MMLU, HELM, Chatbot Arena, GLUE, …) plus the diagram topic.
+- `figcaption` uses `<strong>` for the instrument line, then prose. Do not paste rotating Elo or “current SOTA.”
+- Diagrams are original SVG schematics, not traced paper figures.
+
 ## Length and shape
 
 - Target 800–1,400 words. Cut before padding.

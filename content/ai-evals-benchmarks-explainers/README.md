@@ -5,3 +5,5 @@ Draft magazine series for later human edit and possible WordPress import. Start 
 This folder is public-evals copy only. It does not describe any private system, product roadmap, unpublished docket, or house scoring formula. See `NOVELTY_GUARDRAILS.md`.
 
 **46 articles** (6 essays, 40 explainers). Draft. Not a production import.
+
+**38 original SVG schematics** in `assets/diagrams/`; each article embeds one `<figure>` with an SEO `figcaption` (MMLU, HELM, Chatbot Arena, GLUE, and peers). Regenerate art with `tools/generate_diagrams.py`; re-apply embeds with `tools/apply_figures.py`.

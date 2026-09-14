@@ -11,6 +11,13 @@ portrait_status: none
 
 Stanford’s Alpaca project (Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, Tatsunori Hashimoto, and collaborators) started as a recipe for instruction-following from a relatively small model. The evaluation habit that escaped the recipe is AlpacaEval: a set of instructions, a baseline model’s replies, a judge model that picks a winner, and a win rate that looks like a percentage of truth.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/alpacaeval-win-rate.svg" alt="AlpacaEval automatic pairwise win-rate against reference outputs schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>AlpacaEval.</strong> Automatic preference-style win rates versus a reference model—cheap, judge-dependent sibling to human Arena votes.</figcaption>
+</figure>
+
+
 Yann Dubois and colleagues documented the evaluator in public technical reports and in the AlpacaFarm line (instruction-following evaluation as a preference problem). AlpacaEval 2.0 later added length control because the first version had a known vice: the longer reply was winning.
 
 ## What it actually scores

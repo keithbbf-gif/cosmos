@@ -11,6 +11,13 @@ portrait_status: none
 
 Hector Levesque’s Winograd Schema Challenge (2012) was a small, carefully written set of pronoun problems: two sentences, one word flipped, “it” pointing at a different noun because the world works that way. The set was tiny. Tiny sets die of overfitting and of fame. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi published “WinoGrande: An Adversarial Winograd Schema Challenge at Scale” at AAAI 2020 (preprint 2019). Allen Institute for AI. They tried to keep the pronoun trick and lose the smallness.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/winograd-resolution.svg" alt="WinoGrande scaled Winograd-style coreference schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>WinoGrande (Sakaguchi et al.).</strong> Crowd-filtered Winograd-style pairs at scale—still coreference, still not dialogue preference.</figcaption>
+</figure>
+
+
 ## What an item is
 
 A sentence with a blank or a pronoun, two candidate referents, a bit of commonsense that makes one candidate right. The “grande” is the count: tens of thousands of problems collected with crowdsourcing, then filtered so that then-current models could not coast on artifacts.

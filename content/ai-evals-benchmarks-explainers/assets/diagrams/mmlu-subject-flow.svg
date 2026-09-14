@@ -1,0 +1,13 @@
+<svg width="720" height="400" viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="system-ui,Segoe UI,sans-serif">
+<title>MMLU multitask multiple-choice schematic</title>
+<rect width="100%" height="100%" fill="#fafafa"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<polygon points="0 0, 8 3, 0 6" fill="#5f6368"/>
+</marker>
+</defs><rect x="40" y="130" width="160" height="55" rx="8" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="120" y="162" text-anchor="middle" font-size="14" fill="#202124">57 subject exams</text><rect x="240" y="130" width="160" height="55" rx="8" fill="#e6f4ea" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="320" y="162" text-anchor="middle" font-size="14" fill="#202124">4-choice items</text><rect x="440" y="130" width="160" height="55" rx="8" fill="#fef7e0" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="520" y="162" text-anchor="middle" font-size="14" fill="#202124">Few-shot prompt</text><rect x="240" y="240" width="240" height="55" rx="8" fill="#f3e8fd" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="360" y="272" text-anchor="middle" font-size="14" fill="#202124">Macro accuracy (headline)</text><line x1="200" y1="157" x2="240" y2="157" stroke="#5f6368" stroke-width="2" marker-end="url(#arr)"/><line x1="400" y1="157" x2="440" y2="157" stroke="#5f6368" stroke-width="2" marker-end="url(#arr)"/><line x1="520" y1="185" x2="360" y2="240" stroke="#5f6368" stroke-width="2" marker-end="url(#arr)"/><text x="360" y="70" text-anchor="middle" font-size="17" font-weight="600">MMLU (ICLR 2021) — protocol still matters</text>
+</svg>

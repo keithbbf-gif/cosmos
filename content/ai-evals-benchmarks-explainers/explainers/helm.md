@@ -11,6 +11,13 @@ portrait_status: none
 
 Most evaluation projects add a hardship. HELM added a tax on the way the field talked. Percy Liang, Rishi Bommasani, Tony Lee, and a long Stanford CRFM list published “Holistic Evaluation of Language Models” as a 2022 preprint (arXiv:2211.09110) and in *Transactions on Machine Learning Research* in 2023. A shorter telling by Bommasani, Liang, and Lee also appeared in the *Annals of the New York Academy of Sciences* that year. The website and the toolkit are public: crfm.stanford.edu/helm, github.com/stanford-crfm/helm.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/helm-metrics-grid.svg" alt="HELM holistic evaluation grid of scenarios crossed with multiple metrics" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>HELM (Liang et al., TMLR 2023).</strong> Stanford CRFM’s holistic grid runs many scenarios with accuracy, calibration, robustness, fairness, toxicity, and efficiency metrics—deliberately not one mascot number.</figcaption>
+</figure>
+
+
 The word in the title is the argument. Holistic, here, means: many scenarios, several metrics, the same models run the same way, and the raw generations released so a stranger can disagree.
 
 ## The diagnosis

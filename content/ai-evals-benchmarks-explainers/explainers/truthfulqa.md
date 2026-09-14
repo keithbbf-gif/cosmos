@@ -11,6 +11,13 @@ portrait_status: none
 
 Stephanie Lin, Jacob Hilton, and Owain Evans published “TruthfulQA: Measuring How Models Mimic Human Falsehoods” at ACL 2022 (preprint 2021). The hardship is not a trivia exam. It is a set of questions for which a common human answer is wrong, or a conspiracy is waiting, or a folk medical belief has more Google juice than the clinical one. A model that imitates the web’s average voice will sound sure and be false.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="TruthfulQA multiple-choice and metric schematic for factuality vs imitation" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>TruthfulQA.</strong> Questions designed to tempt popular misconceptions; scores measure imitative falsehoods versus truthful answers under the paper’s metrics.</figcaption>
+</figure>
+
+
 The paper’s uncomfortable claim is that larger models can be more fluent at the popular wrong answer. Scale helps you imitate. Imitation is not truth.
 
 ## Two scores that should not be merged in the head

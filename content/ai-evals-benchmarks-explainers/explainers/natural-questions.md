@@ -11,6 +11,13 @@ portrait_status: none
 
 Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, Kristina Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov published “Natural Questions: a Benchmark for Question Answering Research” in *Transactions of the ACL*, 2019. Google. The questions are real Google queries. The documents are Wikipedia pages. The annotators mark a long answer (a paragraph) and, when possible, a short answer (a span), or they mark that the page does not answer the query.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/open-qa-retrieval.svg" alt="Natural Questions open-domain QA schematic with short answers" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Natural Questions (Kwiatkowski et al.).</strong> Real Google queries paired with Wikipedia answers—retrieval and short-form correctness, not chat preference.</figcaption>
+</figure>
+
+
 SQuAD’s workers read a paragraph and invented a question. NQ’s pipeline starts from a person who wanted to know something. That reversal is the whole instrument.
 
 ## Why “natural” is doing work

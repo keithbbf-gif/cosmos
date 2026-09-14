@@ -11,6 +11,13 @@ portrait_status: none
 
 A zoo is not a hardship. A filter on a zoo can be. Mirac Suzgun, Nathan Scales, Nathanael Schärli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha Chowdhery, Quoc Le, Ed Chi, Denny Zhou, and Jason Wei published “Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them” in 2022 (arXiv:2210.09261; later Findings of ACL 2023). The filter is in the title: they took BIG-bench tasks that large models still failed and asked whether asking the model to think out loud would move the number.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/bbh-hard-subset.svg" alt="BIG-bench Hard subset schematic taken from harder BIG-bench tasks" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>BBH.</strong> A curated hard subset of BIG-bench tasks where frontier models still fail often—useful stress test, not a complete intelligence measure.</figcaption>
+</figure>
+
+
 The suite that stuck in model cards is BIG-bench Hard, BBH. Twenty-three tasks. A short enough list to run. A mean enough list to still embarrass a 2022 model that had already learned to sound general.
 
 ## How you get twenty-three

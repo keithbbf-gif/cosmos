@@ -11,6 +11,13 @@ portrait_status: none
 
 HumanEval is small enough to memorize as a folklore number: 164. Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, and a long OpenAI list published “Evaluating Large Language Models Trained on Code” in 2021 (arXiv:2107.03374). The paper is the Codex paper. The eval is a set of handwritten Python problems: a function signature, a docstring, a few visible examples, and hidden unit tests you do not get to see until you submit a body.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/humaneval-unit-tests.svg" alt="HumanEval schematic: Python function stub, model completion, hidden unit tests" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>HumanEval (Chen et al., Codex paper 2021).</strong> 164 Python problems scored by executing hidden unit tests—functional correctness, not stylistic preference.</figcaption>
+</figure>
+
+
 The scientific object is not “can the model program.” It is: given this docstring, can it write a function that satisfies these tests, under this sampling budget? See [pass@k](../essays/pass-at-k-and-the-coder-receipt.md).
 
 ## Why they wrote the items

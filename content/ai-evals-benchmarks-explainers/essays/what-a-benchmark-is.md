@@ -11,6 +11,13 @@ portrait_status: none
 
 A benchmark, in the sense this series uses the word, is a public agreement to be compared on a shared hardship. Someone publishes items. Someone publishes a scoring rule. Other people run models and report a number. The hardship is the point. If the items are easy, the agreement dies of saturation. If the rule is vague, the agreement dies of argument. If the items never leave one lab, the agreement was never public.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/benchmark-file-rule.svg" alt="Diagram of benchmark components: item file, scoring rule, and dated reported result" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Benchmark anatomy.</strong> A public eval is an item file plus a scoring protocol from a paper; the number in a model card is only meaningful when the protocol and date are named.</figcaption>
+</figure>
+
+
 That is already more than a dataset. A dataset can sit on a disk. A benchmark is a dataset plus a social life: a paper, a leaderboard or a table in a paper, a habit of citing the number in a model card, and a later literature that explains why the number lied.
 
 ## The parts

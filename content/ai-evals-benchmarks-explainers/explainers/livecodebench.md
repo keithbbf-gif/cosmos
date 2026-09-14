@@ -11,6 +11,13 @@ portrait_status: none
 
 HumanEval’s 164 docstrings could not stay young. Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida Wang, Armando Solar-Lezama, Koushik Sen, and Ion Stoica published “LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code” in 2024 (arXiv:2403.07974). The method is a calendar. Scrape new problems from contest sites after a model’s training cutoff, score by execution, and keep going.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/livecodebench-contest.svg" alt="LiveCodeBench time-stamped competitive programming eval schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>LiveCodeBench.</strong> Contest problems tagged by release date so models cannot be graded on stale memorized solutions alone.</figcaption>
+</figure>
+
+
 “Holistic” in their title is a smaller claim than HELM’s: not only generation, but also execution-related skills the paper bins as code generation, self-repair, execution, and test prediction. “Contamination free” is an aspiration the later literature would phrase more carefully as “contamination-limited.” New problems help. They do not make a time machine.
 
 ## Why a calendar

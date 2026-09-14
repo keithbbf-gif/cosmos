@@ -11,6 +11,13 @@ portrait_status: none
 
 ImageNet entered the world as a dataset paper (Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei, CVPR 2009): WordNet as a hierarchy, millions of labeled images, a scale of crowdsourcing that earlier vision sets had not attempted. It entered evaluation culture as a contest. The ImageNet Large Scale Visual Recognition Challenge — ILSVRC — made a 1,000-class subset into a yearly error rate.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/imagenet-classification.svg" alt="ImageNet classification schematic: labeled image to top-1 or top-5 accuracy" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>ImageNet (Deng et al., CVPR 2009).</strong> Large-scale object classification with top-1/top-5 accuracy—social template later leaderboards borrowed without the photographs.</figcaption>
+</figure>
+
+
 This explainer is about the second life. The photographs are the items. The contest is the benchmark. The 2012 drop in top-5 error (Krizhevsky, Sutskever, Hinton, NeurIPS 2012) is the moment the yardstick hurt enough to reorganize a field. Later language leaderboards borrowed the social form. They did not borrow the JPEGs.
 
 ## What the contest asked

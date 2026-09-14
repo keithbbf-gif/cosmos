@@ -11,6 +11,13 @@ portrait_status: none
 
 Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig published “WebArena: A Realistic Web Environment for Building Autonomous Agents” (ICLR 2024; preprint arXiv:2307.13854). Carnegie Mellon and collaborators. The hardship is not a screenshot quiz. It is a self-hosted bundle of sites — shopping, a forum, a GitLab-like service, a map, a content-management stack — and a natural-language task that wants you to click, type, and finish.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/web-agent-environment.svg" alt="WebArena simulated website agent task environment schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>WebArena.</strong> Realistic self-hosted websites for multi-step web agents—success is task completion in an environment, not a single QA span.</figcaption>
+</figure>
+
+
 The environment is the benchmark. If you run the same words against the live internet, you have built a different, noisier instrument.
 
 ## Why a fake town

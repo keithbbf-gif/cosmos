@@ -11,6 +11,13 @@ portrait_status: none
 
 Sequels in evaluation are usually a confession. SuperGLUE is a polite one. Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman published “SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems” at NeurIPS 2019. The title’s adjective is doing work. GLUE had become un-sticky. Models were climbing. The average was losing its ability to hurt.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/superglue-harder.svg" alt="Schematic of SuperGLUE succeeding saturated GLUE scores with harder tasks" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>SuperGLUE (NeurIPS 2019).</strong> A harder multi-task successor when GLUE averages neared ceiling; still English, still mostly classification—not a generative chat eval.</figcaption>
+</figure>
+
+
 The authors did not throw GLUE away. They built a smaller, meaner English suite with the same social contract: hidden test labels, a public leaderboard, a single headline number, and a hope that linguistic hardship would return.
 
 ## Fewer tasks, more stubborn ones

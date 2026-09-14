@@ -23,7 +23,16 @@ Staged Markdown in this folder is the source. WordPress is a projection.
 | `voice_check` | Custom field; discard from rendered HTML |
 | `portrait` | unused in this pack (`null`) |
 
-Convert the Markdown body with a CommonMark parser.
+Convert the Markdown body with a CommonMark parser. Allow raw HTML for `<figure>` / `<figcaption>` blocks.
+
+## Figures
+
+| Repo path | Import |
+| --- | --- |
+| `assets/diagrams/*.svg` | Upload to media; rewrite `../assets/diagrams/` in post HTML to the CDN URL |
+| `<!-- figure-pack -->` | Strip comment marker; keep figure HTML |
+
+Alt text and figcaption copy are the SEO caption pass—preserve them on import.
 
 ## Internal links
 

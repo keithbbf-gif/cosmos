@@ -11,6 +11,13 @@ portrait_status: none
 
 Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord published “Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge” in 2018 (arXiv:1803.05457). Allen Institute for AI. The questions are grade-school standardized science: multiple choice, the sort of item that asks why a shadow is longer at a certain hour, or what a plant gets from a dark closet.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="AI2 Reasoning Challenge grade-school science multiple-choice schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>AI2 ARC (Clark et al., 2018).</strong> Grade-school science multiple-choice (Easy and Challenge)—not to be confused with Chollet’s ARC-AGI grid benchmark.</figcaption>
+</figure>
+
+
 The paper’s taunt is in the title. SQuAD-style pointing had started to look solved. ARC asked for questions that need you to combine facts, not just highlight a span.
 
 ## Easy and Challenge

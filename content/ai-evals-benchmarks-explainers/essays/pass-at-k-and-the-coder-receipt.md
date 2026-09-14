@@ -11,6 +11,13 @@ portrait_status: none
 
 Coding benchmarks did not have to invent a new metaphysics. They inherited unit tests. A function either satisfies the hidden tests or it does not. That is already cleaner than BLEU. The mess arrived when the models became samplers.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/pass-at-k-samples.svg" alt="Schematic of pass@k metric with multiple code samples and unit tests" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>pass@k receipt.</strong> Coding benchmarks such as HumanEval and MBPP often report pass@k—whether any of k generated programs passes hidden tests—not a single deterministic completion.</figcaption>
+</figure>
+
+
 A language model does not emit one program. It emits a distribution. Temperature, nucleus sampling, and the number of tries are part of the instrument. Mark Chen and colleagues, in the 2021 Codex paper that also introduced HumanEval, needed a way to say “how often would you get a program that passes if you were allowed k samples?” They used `pass@k`.
 
 The metric is a receipt, not a personality. This essay is about what the receipt says, and what it hides.

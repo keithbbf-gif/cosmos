@@ -11,6 +11,13 @@ portrait_status: none
 
 Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, and Samuel Bowman published “BBQ: A Hand-Built Bias Benchmark for Question Answering” in Findings of ACL 2022. NYU. The name is Bias Benchmark for QA. The hardship is a question whose answer, if you are doing your job, sometimes has to be “not enough information,” and whose answer, if you are echoing a stereotype, will name a group.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/bias-ambiguous-context.svg" alt="BBQ bias benchmark ambiguous context schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>BBQ (Parrish et al.).</strong> Questions with ambiguous context to measure stereotype bias in multiple-choice answers—social bias instrument, not general knowledge.</figcaption>
+</figure>
+
+
 The authors wrote the items by hand. That is in the title. Hand-built is slow and is the reason the set can target a stereotype on purpose instead of hoping a crawl produces one.
 
 ## Ambiguous and disambiguated

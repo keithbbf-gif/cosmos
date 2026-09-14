@@ -11,6 +11,13 @@ portrait_status: none
 
 Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan published “SWE-bench: Can Language Models Resolve Real-world GitHub Issues?” as an ICLR 2024 oral (preprint arXiv:2310.06770). Princeton Language and Intelligence, with Chicago on the line. The hardship is not a docstring. It is a repository at a commit, an issue thread, and a demand for a patch that turns fail-to-pass tests green without breaking the tests that were already green.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/swe-bench-patch.svg" alt="SWE-bench schematic: real GitHub issue, model patch, repository test suite" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>SWE-bench (Jimenez et al., NeurIPS 2023).</strong> Real open-source issues with execution-based patch verification—closer to software engineering labor than single-function HumanEval.</figcaption>
+</figure>
+
+
 The paper’s first public number was small on purpose. Claude 2, in their harness, resolved 1.96 percent of 2,294 issues across 12 popular Python repositories. That integer is a 2023–2024 snapshot. Do not treat it as the live weather. Treat it as the authors saying: this file still hurts.
 
 ## How an instance is built

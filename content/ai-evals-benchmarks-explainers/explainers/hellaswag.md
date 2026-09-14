@@ -11,6 +11,13 @@ portrait_status: none
 
 Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi published “HellaSwag: Can a Machine Really Finish Your Sentence?” at ACL 2019. The name is a joke on SWAG, their earlier adversarial dataset, and on the swagger of a model that thinks it knows what happens next. The task is simple to state. You get a context. You pick which of four endings is the natural continuation.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/hellaswag-completion.svg" alt="HellaSwag adversarial commonsense sentence completion schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>HellaSwag (Zellers et al.).</strong> Pick the plausible continuation among adversarial endings—commonsense recognition, saturated on raw n-gram baselines early.</figcaption>
+</figure>
+
+
 The contexts come from everyday video captions and how-to text — ActivityNet, WikiHow — not from a logic puzzle. A person looks at the four endings and is rarely confused. The 2019 machines were. That gap is the paper’s exhibit.
 
 ## Adversarial filters, not random wrong answers

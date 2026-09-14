@@ -11,6 +11,13 @@ portrait_status: none
 
 Junjie Hu, Sebastian Ruder, Aditya Siddhant, Graham Neubig, Orhan Firat, and Melvin Johnson published “XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization” at ICML 2020. Google, DeepMind, CMU. The hardship is not a new English exam. It is a demand that the same model, or the same recipe, be compared on many languages at once: classification, structure, question answering, retrieval — tasks the paper selects from already-public sets, aligned so that “we ran XNLI” is not the whole story.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multilingual-xtreme.svg" alt="XTREME multilingual NLP benchmark schematic across languages and tasks" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>XTREME (Hu et al.).</strong> Cross-lingual evaluation suite spanning many languages and task types—reports are per-task, not one universal translation score.</figcaption>
+</figure>
+
+
 The English-only habit of GLUE had become, by 2020, an embarrassment that still printed well. XTREME is one of the public files that made the embarrassment visible in a table.
 
 ## What it bundles

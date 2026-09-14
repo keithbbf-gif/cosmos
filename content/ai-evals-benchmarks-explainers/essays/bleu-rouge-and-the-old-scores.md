@@ -11,6 +11,13 @@ portrait_status: none
 
 Before there were chat leaderboards, there was a workshop deadline and a shortage of bilinguals. Machine translation and summarization needed a number that could be computed at 2 a.m. without waking a human. The number they got — BLEU, then ROUGE — taught the next twenty years of evaluation how to feel finished.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/bleu-rouge-ngram.svg" alt="Schematic of n-gram overlap between reference and hypothesis for BLEU and ROUGE" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>BLEU / ROUGE (ACL 2002, Lin 2004).</strong> Overlap metrics cheaply proxy human judgment for translation and summarization; they remain historical baselines, not definitions of quality.</figcaption>
+</figure>
+
+
 This is not a history of all automatic metrics. It is a tour of the bargain: replace a judge with an overlap, then spend a generation explaining what the overlap missed.
 
 ## BLEU, 2002

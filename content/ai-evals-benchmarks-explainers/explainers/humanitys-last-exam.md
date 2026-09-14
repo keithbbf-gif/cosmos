@@ -11,6 +11,13 @@ portrait_status: none
 
 The public name is a dare. The archival name is quieter. Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, and a very large consortium — Center for AI Safety and Scale AI in the organizing seats, Dan Hendrycks, Summer Yue, and Alexandr Wang among the senior authors — released “Humanity’s Last Exam” as arXiv:2501.14249 in January 2025. *Nature* later published the work as “A benchmark of expert-level academic questions to assess AI capabilities” (2026, doi:10.1038/s41586-025-09962-4). Cite both if you are being careful. The acronym that escaped is HLE.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="Humanity's Last Exam difficult multidisciplinary exam schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Humanity’s Last Exam.</strong> Broad, difficult exam-style items aimed beyond saturated MMLU averages—protocol and contamination debates apply like any high-profile file.</figcaption>
+</figure>
+
+
 The dare is: stop writing easier sequels to MMLU when the models have eaten MMLU. Ask working experts for questions that they, not a quizlet, still respect.
 
 ## How the questions got there

@@ -11,6 +11,13 @@ portrait_status: none
 
 Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, and Nan Duan published “AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models” in 2023 (arXiv:2304.06364). Microsoft. The items come from human admissions and professional exams: the Gaokao, the SAT, LSAT, GRE, lawyer and CPA-style tests — the paper’s table is the authority for which forms and which years.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="AGIEval standardized exam multiple-choice schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>AGIEval.</strong> Bilingual exam-style items drawn from public standardized tests; multiple-choice accuracy varies with prompting like other exam suites.</figcaption>
+</figure>
+
+
 The name reaches for AGI. The file reaches for exams a person already sits. That is a more honest hardship than the title. If a model can do a published LSAT logical-reasoning section, you have learned something about that section. You have not learned that the model is a general mind.
 
 ## Why borrow a human exam

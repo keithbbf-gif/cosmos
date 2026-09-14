@@ -11,6 +11,13 @@ portrait_status: none
 
 Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, Sang T. Truong, Simran Arora, Mantas Mazeika, Dan Hendrycks, Zinan Lin, Yu Cheng, Sanmi Koyejo, Dawn Song, and Bo Li published “DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models” at NeurIPS 2023 (Outstanding Paper). The object is a suite: toxicity, stereotype, adversarial robustness, privacy, machine ethics, fairness, and out-of-distribution slices, as the paper tables them, run against GPT-family models and then adopted more widely as a public harness.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/trust-safety-axes.svg" alt="DecodingTrust multi-axis trust evaluation schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>DecodingTrust.</strong> Published trustworthiness axes (toxicity, stereotypes, adversarial behavior, privacy) evaluated with public scenarios—descriptive, not an attack manual.</figcaption>
+</figure>
+
+
 The title says GPT. The method is broader. The warning is the word “comprehensive.” No suite is. This one is wide, and that is already rare.
 
 ## Why a suite instead of a mascot

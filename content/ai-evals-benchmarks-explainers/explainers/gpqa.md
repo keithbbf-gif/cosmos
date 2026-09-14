@@ -11,6 +11,13 @@ portrait_status: none
 
 David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel R. Bowman published “GPQA: A Graduate-Level Google-Proof Q&A Benchmark” in 2023 (arXiv:2311.12022; later COLM 2024). The subtitle is the design. The questions are written by domain experts in biology, physics, and chemistry so that a non-expert with a search engine should still struggle, and an expert should be able to agree on the answer.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/multiple-choice-suite.svg" alt="GPQA-style expert multiple-choice science question schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>GPQA (2023).</strong> Graduate-level multiple-choice science questions written by domain experts—hard recognition tests, not open-ended proof grading.</figcaption>
+</figure>
+
+
 “Google-proof” is a 2023 sentence. It does not mean “proof against a 2026 agent with tools.” It means: we tried to write items that a web page will not politely hand you in the first snippet.
 
 ## What an item is

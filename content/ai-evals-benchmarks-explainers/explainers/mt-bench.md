@@ -11,6 +11,13 @@ portrait_status: none
 
 Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, Hao Zhang, Joseph Gonzalez, and Ion Stoica published “Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena” at NeurIPS 2023 (Datasets and Benchmarks). The same circle of people would write the Arena paper. MT-Bench is the file-shaped sibling: a set of multi-turn questions, a rubric, and another language model asked to assign a score.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/mt-bench-judge.svg" alt="MT-Bench multi-turn dialogue scored by strong LLM judge schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>MT-Bench (Zheng et al., NeurIPS 2023).</strong> Fixed multi-turn questions scored by a strong LLM judge—closer to Arena than to MMLU, with judge bias baked in.</figcaption>
+</figure>
+
+
 The title is the warning. They did not only release a bench. They asked whether a model judge is fit for work.
 
 ## What the file contains

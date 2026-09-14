@@ -11,6 +11,13 @@ portrait_status: none
 
 François Chollet published “On the Measure of Intelligence” in 2019 (arXiv:1911.01547). In that paper he introduced the Abstraction and Reasoning Corpus: small colored grids, a handful of input–output examples, a new input, and a demand that you paint the output grid. Later public materials, and a contest culture that grew around the file, call the instrument ARC-AGI. It is not the Allen Institute’s science quiz. If you only remember one collision in this series, remember this one. See [AI2 ARC](ai2-arc.md).
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/arc-agi-grid.svg" alt="ARC-AGI abstraction and reasoning corpus grid transformation schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>ARC / ARC-AGI (Chollet, 2019).</strong> Few-shot visual grid transformations testing abstraction—not the AI2 ARC multiple-choice science exam.</figcaption>
+</figure>
+
+
 ## What an item is
 
 A puzzle. Three, maybe four, pairs of grids that demonstrate a transformation: rotate, count, fill, group by color, obey a rule that is easy to see once you see it and expensive to guess from language priors. Then a test grid. The answer is a grid, not a letter. The cheap judge is exact match on cells.

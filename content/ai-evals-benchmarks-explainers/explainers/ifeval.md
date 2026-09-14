@@ -11,6 +11,13 @@ portrait_status: none
 
 Jeffrey Zhou, Tianjian Lu, Swaroop Mishra, Siddhartha Brahma, Sujoy Basu, Yi Luan, Denny Zhou, and Le Hou published “Instruction-Following Evaluation for Large Language Models” in 2023 (arXiv:2311.07911). Google. The hardship is petty on purpose. Write exactly four bullet points. Mention a keyword. Do not mention another. End with a certain punctuation. Wrap the answer in JSON. The content can be dull. The constraint is the test.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/instruction-constraints.svg" alt="IFEval verifiable instruction-following constraint checklist schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>IFEval.</strong> Prompts with automatically checkable constraints (format, keywords, length)—rule-based instruction following without human thumbs.</figcaption>
+</figure>
+
+
 Most preference evals will forgive a model that is helpful and slightly disobedient. IFEval does not. The scorer is a program. Either the output satisfies the verifiable constraint or it does not.
 
 ## Why verifiable is the word

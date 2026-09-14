@@ -11,6 +11,13 @@ portrait_status: none
 
 Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang published “SQuAD: 100,000+ Questions for Machine Comprehension of Text” at EMNLP 2016. Stanford. Wikipedia paragraphs. Questions written by crowdworkers. Answers that are spans in the paragraph. Exact match and token F1 against a small set of gold spans.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/squad-span.svg" alt="SQuAD reading comprehension span extraction schematic on Wikipedia passages" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>SQuAD (Rajpurkar et al., EMNLP 2016).</strong> Extract a span from a Wikipedia paragraph; exact match and token F1 punish paraphrases that humans would accept.</figcaption>
+</figure>
+
+
 For a few years this was the English question-answering yardstick the way ImageNet was the vision yardstick: a number, a race, a human ceiling printed on the site so you could hear yourself hit it.
 
 ## What the 2016 contract was

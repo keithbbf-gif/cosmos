@@ -11,6 +11,13 @@ portrait_status: none
 
 Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and Matt Gardner published “DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs” at NAACL 2019. Allen Institute and Irvine. SQuAD had made pointing fashionable. DROP asked for addition, subtraction, counting, sorting, and comparison on facts that are in the paragraph but are not sitting there as a pre-packaged span.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/reading-comprehension.svg" alt="DROP discrete reasoning over passage schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>DROP.</strong> Reading comprehension requiring discrete reasoning (numbers, dates)— harder than span-only SQuAD under the paper’s metrics.</figcaption>
+</figure>
+
+
 The name is Discrete Reasoning Over Paragraphs. The hardship is a football drive, a census table in prose, a list of people who entered a room. The answer is often a number or a short list you must assemble.
 
 ## Why pointing was not enough

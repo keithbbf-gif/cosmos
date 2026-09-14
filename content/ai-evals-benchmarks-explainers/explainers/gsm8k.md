@@ -11,6 +11,13 @@ portrait_status: none
 
 The name is a count. GSM8K is about eight thousand grade-school math word problems. Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman published “Training Verifiers to Solve Math Word Problems” in 2021 (arXiv:2110.14168). OpenAI. The paper is about verifiers. The dataset became the thing people meant when they said a model could “do math.”
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/gsm8k-word-problem.svg" alt="GSM8K grade-school math word problem to numeric answer schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>GSM8K (Cobbe et al.).</strong> Grade-school word problems with integer answers—often reported with chain-of-thought parsing, which is part of the instrument.</figcaption>
+</figure>
+
+
 That sentence was always too large. The items are the word problems a careful child meets: multi-step arithmetic, a few objects, a question that wants a number. Algebra sits mostly next door, in Hendrycks’s MATH. Proofs live somewhere else entirely.
 
 ## What an item looks like

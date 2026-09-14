@@ -11,6 +11,13 @@ portrait_status: none
 
 Jason Wei, Karina Nguyen, Hyung Won Chung, Yunxin Joy Jiao, Spencer Papay, Amelia Glaese, John Schulman, and William Fedus published “Measuring short-form factuality in large language models” in 2024 (arXiv:2411.04368; also posted by OpenAI as the SimpleQA paper). The file has 4,326 short, fact-seeking questions. The answers are supposed to be single and indisputable. The grades are three: correct, incorrect, not attempted.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/open-qa-retrieval.svg" alt="SimpleQA factual short-answer verification schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>SimpleQA.</strong> Short factual questions with verifiable answers—designed to stress hallucination rates under automatic checking.</figcaption>
+</figure>
+
+
 The third grade is the instrument. A model that guesses when it should shut up is not “informative.” It is wrong. A model that shuts up too often is calibrated and useless. SimpleQA wants the pairing: try the ones you know, skip the ones you do not.
 
 ## Why short form

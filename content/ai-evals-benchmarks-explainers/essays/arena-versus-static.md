@@ -11,6 +11,13 @@ portrait_status: none
 
 There are two kinds of public hardship, and they do not settle the same bet.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/arena-vs-static.svg" alt="Side-by-side schematic of frozen benchmark files versus live Chatbot Arena preference voting" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>File vs room.</strong> Static benchmarks (MMLU, HumanEval) measure key agreement under a fixed protocol; Chatbot Arena measures crowd preference on user prompts—complementary, not interchangeable.</figcaption>
+</figure>
+
+
 One kind is a file. GLUE, MMLU, HumanEval, GSM8K: a list of items and a key. You can download it, hash it, argue about item 412, and run it next year on a machine that does not exist yet. The file does not care who you are.
 
 The other kind is a room. Chatbot Arena, as Chiang, Zheng, Sheng, Angelopoulos, and colleagues described it at ICML 2024, is a pairwise vote. A person types a prompt. Two unnamed models answer. The person picks a winner, or a tie, or walks away. The prompts are whatever the public brought today. The leaderboard is a statistical summary of those fights.

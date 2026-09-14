@@ -11,6 +11,13 @@ portrait_status: none
 
 The oldest way to ace a test is to have read the test. Language models made that joke expensive. The training set is a library the size of a crawl. The benchmark is a pamphlet that was, at some point, on the internet. If the pamphlet was popular — and a successful benchmark is popular by design — the library may already contain it.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/contamination-path.svg" alt="Schematic of exam items leaking into web mirrors and pretraining corpora" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Contamination path (conceptual).</strong> Public items can reappear in crawls and forums; high benchmark accuracy then measures familiarity as much as skill—why suites like MMLU-Pro and LiveBench exist.</figcaption>
+</figure>
+
+
 Contamination is the name the 2020s settled on. Leakage is the older word from machine-learning hygiene: test items in the training split. They are cousins. The new problem is that nobody can produce a full, inspectable training set for the models people actually argue about.
 
 ## How a pamphlet gets into a library

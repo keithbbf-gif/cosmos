@@ -11,6 +11,13 @@ portrait_status: none
 
 When a four-choice exam stops hurting, you can add more wrong answers, throw out the noisy questions, and ask for work. Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, and colleagues — TIGER-Lab at Waterloo, with Toronto and Carnegie Mellon names on the line — published “MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark” at NeurIPS 2024 (Datasets and Benchmarks, Spotlight). The preprint is arXiv:2406.01574.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/mmlu-pro-hardening.svg" alt="Schematic comparing original MMLU to harder MMLU-Pro multiple-choice design" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>MMLU-Pro (2024).</strong> A harder multiple-choice successor when the original MMLU file became too familiar; still recognition, still sensitive to contamination.</figcaption>
+</figure>
+
+
 The title uses a word this series otherwise bans as house style. It is their title. Quote it. The substance is simpler: MMLU had plateaued as a discriminator, so they built a stickier exam.
 
 ## What they changed

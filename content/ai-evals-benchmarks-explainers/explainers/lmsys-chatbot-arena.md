@@ -11,6 +11,13 @@ portrait_status: none
 
 In May 2023 a site invited anyone with a browser to talk to two unnamed chatbots and pick a winner. The people who built it were around LMSYS and UC Berkeley Sky Lab. Wei-Lin Chiang, Lianmin Zheng, Ying Sheng, Anastasios Angelopoulos, Tianle Li, Dacheng Li, Banghua Zhu, Hao Zhang, Michael Jordan, Joseph Gonzalez, and Ion Stoica wrote the method up as “Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference” (ICML 2024; preprint arXiv:2403.04132). The paper’s URL is chat.lmsys.org. The later home is lmarena.ai. The scientific object is the pairwise vote.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/arena-pairwise-vote.svg" alt="Chatbot Arena schematic: user prompt, two anonymous models, vote, Bradley-Terry ranking" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Chatbot Arena / LMSYS (ICML 2024; chat.lmsys.org → lmarena.ai).</strong> Pairwise human preference with Bradley–Terry-style ranking measures which reply voters prefer—not factual correctness or exam accuracy.</figcaption>
+</figure>
+
+
 ## How a fight works
 
 You type a prompt. Two models, hidden behind aliases, answer. You vote for A, or B, or a tie, or you skip. The prompt is yours. It is not an item from a committee. That is the whole idea, and the whole sampling problem.

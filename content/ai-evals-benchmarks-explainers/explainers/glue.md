@@ -11,6 +11,13 @@ portrait_status: none
 
 GLUE is the reason a later model card can print one English number and expect you to nod. Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman published “GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding” as an ICLR 2019 paper; the preprint is dated 2018. The authors were at NYU and collaborators. The site that collected scores made the average famous.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/glue-nine-hub.svg" alt="GLUE benchmark schematic showing nine English NLU tasks feeding one average score" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>GLUE (Wang et al., ICLR 2019).</strong> Nine English understanding tasks (CoLA, MNLI, QQP, and others) roll into one leaderboard average with hidden test labels— the habit later suites copied or rejected.</figcaption>
+</figure>
+
+
 The paper did not claim to have measured intelligence. It claimed to have bundled existing English tasks so that a single model, and a single leaderboard, could be compared without nine separate papers. That bundling is the invention. The tasks were already in the literature.
 
 ## Nine hardships

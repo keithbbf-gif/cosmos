@@ -11,6 +11,13 @@ portrait_status: none
 
 A benchmark is a file, a rule, and a rumor that the file measures something larger than itself. The file is public. The rule is usually a paper. The rumor is hallway speech: this model “is a 90,” that one “wins Arena,” a third “cracked MATH.” The rumor is where the trouble starts.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/series-eval-timeline.svg" alt="Timeline schematic of public AI evaluation milestones from BLEU through Chatbot Arena" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Public eval timeline (original schematic).</strong> This series covers frozen files (GLUE, MMLU), holistic grids (HELM), and preference rooms (LMSYS Chatbot Arena / LMArena)—each instrument answers a different measurement question; none is a universal IQ score.</figcaption>
+</figure>
+
+
 This series is a set of explainers for the public instruments the field actually uses — GLUE and SuperGLUE, MMLU and MMLU-Pro, LMSYS’s Chatbot Arena, Stanford CRFM’s HELM, BIG-bench, HumanEval, GSM8K, SWE-bench, and the rest of the yardsticks named in `INDEX.md`. It is not a ranking. Rankings rot. The instruments remain.
 
 ## What belongs here

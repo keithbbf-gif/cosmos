@@ -1,0 +1,16 @@
+<svg width="720" height="360" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" role="img" font-family="system-ui,Segoe UI,sans-serif">
+<title>Static benchmark file versus live preference arena</title>
+<rect width="100%" height="100%" fill="#fafafa"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<polygon points="0 0, 8 3, 0 6" fill="#5f6368"/>
+</marker>
+</defs><rect x="40" y="120" width="280" height="160" rx="8" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="180" y="205" text-anchor="middle" font-size="14" fill="#202124">Frozen file
+(hashable items + key)</text><rect x="400" y="120" width="280" height="160" rx="8" fill="#f3e8fd" stroke="#1a73e8" stroke-width="1.5"/>
+<text x="540" y="205" text-anchor="middle" font-size="14" fill="#202124">Live arena
+(pairwise human votes)</text><text x="180" y="155" text-anchor="middle" font-size="13" fill="#202124">Reproducible agreement</text>
+<text x="540" y="155" text-anchor="middle" font-size="13" fill="#202124">Sampling + preference</text>
+<text x="360" y="60" text-anchor="middle" font-size="17" font-weight="600">Two public hardships</text>
+<text x="360" y="330" text-anchor="middle" font-size="12" fill="#5f6368">Do not average into one “intelligence” score</text>
+</svg>

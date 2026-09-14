@@ -11,6 +11,13 @@ portrait_status: none
 
 Elliot Glazer, Ege Erdil, Tamay Besiroglu, and a list of contributing mathematicians published “FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI” in 2024 (arXiv:2411.04872). Epoch AI organized. The hardship is original problems at a level the authors argue is far above Hendrycks MATH: research-adjacent, competition-beyond, the sort of item you would not assign as overnight homework to a strong undergraduate.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/math-competition.svg" alt="FrontierMath advanced mathematics evaluation schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>FrontierMath.</strong> Research-grade mathematics problems aimed beyond saturated GSM8K/MATH headlines—scores move; difficulty framing is the point.</figcaption>
+</figure>
+
+
 The paper includes interviews with Terence Tao, Timothy Gowers, and Richard Borcherds as public comments on difficulty — and notes that Tao contributed problems. Evan Chen is a co-author. Those names are in the document. They are not decorations you should invent around the file.
 
 ## Why another math set

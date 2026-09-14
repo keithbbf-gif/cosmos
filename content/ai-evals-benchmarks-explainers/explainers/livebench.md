@@ -11,6 +11,13 @@ portrait_status: none
 
 Colin White, Samuel Dooley, Manley Roberts, Arka Pal, and a list that includes Benjamin Feuer, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, and Micah Goldblum published “LiveBench: A Challenging, Contamination-Limited LLM Benchmark” as arXiv:2406.19314 (June 2024) and later as an ICLR 2025 paper. The title on arXiv is the honest one. An earlier draft said “contamination-free.” Free is a hope. Limited is a method.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/livebench-refresh.svg" alt="LiveBench rolling benchmark with fresh items and automatic keys schematic" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>LiveBench.</strong> Periodically refreshed items with automatic scoring to fight stale-file contamination and chatty judges.</figcaption>
+</figure>
+
+
 The method is three refusals at once: refuse a stale file, refuse a chatty human crowd as the only judge, refuse a model judge as the only scorer. New items, objective keys, a monthly refresh.
 
 ## Where the new items come from

@@ -11,6 +11,13 @@ portrait_status: none
 
 The title is a warning that the authors printed themselves. Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton published “Program Synthesis with Large Language Models” in 2021 (arXiv:2108.07732). The affiliation is Google. Buried in the work is a dataset they named Mostly Basic Programming Problems: MBPP.
 
+<!-- figure-pack -->
+<figure>
+  <img src="../assets/diagrams/code-problems-generic.svg" alt="MBPP Python programming benchmark schematic with automatic tests" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>MBPP.</strong> Mostly basic Python programming problems with execution-based scoring—cousin to HumanEval with different item distribution.</figcaption>
+</figure>
+
+
 Mostly basic is not an insult. It is the instrument. Short Python tasks, the sort a person might assign after a first course: lists, strings, simple arithmetic, a bit of bookkeeping. Each problem has a prompt in plain language and tests. The model writes a program. The tests run. Green or red.
 
 ## Why it exists beside HumanEval
