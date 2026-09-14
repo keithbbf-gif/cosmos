@@ -4,6 +4,7 @@ title: Hepplewhite, Sheraton, and the cellaret sideboard
 stage: 01-georgian
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

@@ -4,6 +4,7 @@ title: How to read a room before anyone draws a bar
 stage: 07-close
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 9
@@ -54,4 +55,4 @@ We will not end with a coupon. We will end with the box.
 
 The bottles can go back on the bench. The box has to be able to live here, in this room, on a Tuesday, when nobody is photographing anything.
 
-That is a liquor cabinet. That is a bar. That is a built-in. Call it the right one, and we can build it.
+That is a liquor cabinet. That is a bar. That is a built-in. Call it the right name, and the box can do its job.

@@ -4,6 +4,7 @@ title: Codes, GFCI, and what this shop will not pretend to be
 stage: 06-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

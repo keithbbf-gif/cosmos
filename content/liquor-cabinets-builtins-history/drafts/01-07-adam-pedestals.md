@@ -4,6 +4,7 @@ title: Adam's pedestals and the urn that was a bottle store
 stage: 01-georgian
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

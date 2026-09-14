@@ -4,6 +4,7 @@ title: A wet bar is plumbing that hired a cabinetmaker
 stage: 05-builtin
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

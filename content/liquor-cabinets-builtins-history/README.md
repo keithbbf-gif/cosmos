@@ -54,6 +54,10 @@ This landing is **44 staged drafts**. Machine index: `MANIFEST.json`.
 - Not plumbing, electrical, or building-code advice. Local code and a licensed trade beat a furniture essay.
 - Not COSMOS kernel work. This folder is channel copy sitting in the repo so the drafts have a git home and a PR.
 
+## Editor pass
+
+After a magazine-floor editor run, each draft carries `voice_check: edited` in frontmatter. Report: `EDITOR_REPORT.md`.
+
 ## Check the set
 
 ```bash

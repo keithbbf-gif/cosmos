@@ -4,6 +4,7 @@ title: The cold machine you hide — and why it needs to breathe
 stage: 06-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

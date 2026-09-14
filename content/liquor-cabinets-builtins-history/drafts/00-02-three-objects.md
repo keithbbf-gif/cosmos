@@ -4,6 +4,7 @@ title: Three objects that keep getting one name
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

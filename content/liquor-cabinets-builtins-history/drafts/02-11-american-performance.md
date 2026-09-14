@@ -4,6 +4,7 @@ title: When the American dining room became a performance
 stage: 02-american-dining
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

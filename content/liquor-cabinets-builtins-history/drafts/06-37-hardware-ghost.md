@@ -4,6 +4,7 @@ title: Hardware — locks, slides, and the ghost of 1925
 stage: 06-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

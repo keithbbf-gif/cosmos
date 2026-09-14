@@ -4,6 +4,7 @@ title: Paneled dens, sunken floors, and the 1970s bar
 stage: 04-home-bar
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

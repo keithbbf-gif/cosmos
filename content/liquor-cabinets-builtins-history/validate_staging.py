@@ -18,12 +18,14 @@ REQUIRED = (
     "stage",
     "status",
     "voice",
+    "voice_check",
     "form",
     "channel",
     "runtime_min",
     "standalone",
     "educational_claim",
 )
+ALLOWED_VOICE_CHECK = {"human", "edited"}
 ALLOWED_STATUS = {"staged", "hold", "cut", "aired"}
 ALLOWED_STAGE = {
     "00-frame",
@@ -106,6 +108,9 @@ def main() -> int:
             errors.append(f"{path.name}: channel must be BBF")
         if meta.get("voice") != "shop-floor-first-person":
             errors.append(f"{path.name}: voice must be shop-floor-first-person")
+        vc = meta.get("voice_check", "")
+        if vc not in ALLOWED_VOICE_CHECK:
+            errors.append(f"{path.name}: voice_check must be human or edited, got {vc!r}")
         ident = meta.get("id", "")
         if ident in ids:
             errors.append(f"duplicate id {ident}")

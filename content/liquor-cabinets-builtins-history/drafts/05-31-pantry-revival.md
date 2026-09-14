@@ -4,6 +4,7 @@ title: Butler's pantry revival versus the living-room bar
 stage: 05-builtin
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

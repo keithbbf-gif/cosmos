@@ -4,6 +4,7 @@ title: Wheels — the bar cart as hospitality
 stage: 04-home-bar
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

@@ -4,6 +4,7 @@ title: Finish that has to live with alcohol and citrus
 stage: 06-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

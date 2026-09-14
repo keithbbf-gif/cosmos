@@ -4,6 +4,7 @@ title: Bookcases, radios, and furniture that practiced looking innocent
 stage: 03-concealment
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
