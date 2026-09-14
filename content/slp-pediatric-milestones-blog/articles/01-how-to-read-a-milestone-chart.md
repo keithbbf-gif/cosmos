@@ -40,6 +40,21 @@ CDC’s own write-up is blunt about the old habit. “Wait and see” is named a
 
 ASHA was not on the working group. After members wrote in, ASHA published a careful objection: some language items, placed later, might *slow* a referral even as CDC hoped to speed conversations. Both things can be in the same folder. CDC answered that the lists are communication tools, not the way children are evaluated or found eligible for services. ASHA still wants clinicians to use their own tools. You, at the table, get to hold both memos.
 
+<figure class="slpwow-figure slpwow-figure--diagram" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/how-to-read-a-milestone-chart/surveillance-screening-evaluation.svg"
+    alt="Schematic diagram distinguishing milestone surveillance, standardized developmental screening, and professional evaluation"
+    width="720"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Surveillance, screening, and evaluation are different steps (schematic). A parent-facing checklist supports ongoing surveillance; formal screens and specialist evaluations follow their own rules and tools.
+    <span class="figure-credit">SLPWOW pediatric milestones — original editorial SVG. Not medical advice.</span>
+  </figcaption>
+</figure>
+
 ## Three words that are not synonyms
 
 **Surveillance** is the ongoing look. A checklist. A question at the well-child visit. You noticing that the wave came, or did not. Anyone who spends days with the child can do this. CDC says it does not take special training.

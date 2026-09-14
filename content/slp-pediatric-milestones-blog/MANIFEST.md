@@ -15,6 +15,13 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 | `BIBLIOGRAPHY.md` | Citations used across the pack |
 | `WP_IMPORT.md` | Staging import only |
 | `README.md` | One-page orientation |
+| `PHOTO_NOTES.md` | No child photos / no AI faces |
+| `RIGHTS.md` | Credits for SVG assets |
+| `GRAPHICS_INDEX.md` | Asset inventory (auto-generated) |
+| `AGENTS_GRAPHICS.md` | Graphics agent contract |
+| `assets/` | Original SVG figures |
+| `embeds/` | `<figure>` snippets for WP |
+| `scripts/regenerate_graphics_index.py` | Refresh `GRAPHICS_INDEX.md` |
 
 ## Article drafts (42)
 

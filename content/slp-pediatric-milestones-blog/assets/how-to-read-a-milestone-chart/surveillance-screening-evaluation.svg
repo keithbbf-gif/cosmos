@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic: surveillance, screening, and evaluation are not the same step</title>
+  <desc id="desc">Three-step diagram distinguishing ongoing milestone surveillance, standardized screening at set ages, and professional evaluation. Educational schematic only.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .box { fill: #FFFFFF; stroke: #1E293B; stroke-width: 1.5; }
+      .box-surv { fill: #CCFBF1; stroke: #0F766E; }
+      .box-screen { fill: #FEF3C7; stroke: #C2410C; }
+      .box-eval { fill: #E0E7FF; stroke: #4338CA; }
+      .title { font-family: Georgia, serif; font-size: 17px; font-weight: 600; fill: #1E293B; }
+      .h { font-family: system-ui, sans-serif; font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .p { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .arrow { stroke: #64748B; stroke-width: 1.5; fill: none; marker-end: url(#ah); }
+    </style>
+    <marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="720" height="420"/>
+  <text x="36" y="34" class="title">Three steps parents meet (schematic)</text>
+  <text x="36" y="54" class="p">A fridge checklist is not the same visit as a formal screen or a specialist evaluation.</text>
+
+  <rect class="box-surv" x="36" y="88" width="200" height="140" rx="6"/>
+  <text x="52" y="116" class="h">Surveillance</text>
+  <text x="52" y="138" class="p">Watching over time:</text>
+  <text x="52" y="154" class="p">checklists, questions at</text>
+  <text x="52" y="170" class="p">well-child visits, what you</text>
+  <text x="52" y="186" class="p">see at home.</text>
+
+  <path class="arrow" d="M236 158 H264"/>
+  <rect class="box-screen" x="264" y="88" width="200" height="140" rx="6"/>
+  <text x="280" y="116" class="h">Screening</text>
+  <text x="280" y="138" class="p">Standardized tool at set</text>
+  <text x="280" y="154" class="p">ages (e.g. 9, 18, 30 mo</text>
+  <text x="280" y="170" class="p">per AAP guidance)  not</text>
+  <text x="280" y="186" class="p">this blog post.</text>
+
+  <path class="arrow" d="M464 158 H492"/>
+  <rect class="box-eval" x="492" y="88" width="200" height="140" rx="6"/>
+  <text x="508" y="116" class="h">Evaluation</text>
+  <text x="508" y="138" class="p">Licensed clinician or team</text>
+  <text x="508" y="154" class="p">when someone needs a</text>
+  <text x="508" y="170" class="p">closer look  may include</text>
+  <text x="508" y="186" class="p">SLP, audiologist, EI.</text>
+
+  <rect class="box" x="36" y="260" width="656" height="120" rx="6"/>
+  <text x="52" y="288" class="h">What this figure does not do</text>
+  <text x="52" y="310" class="p">It does not diagnose your child, decide eligibility for services, or replace a hearing test.</text>
+  <text x="52" y="328" class="p">If a skill was present and is gone, CDC materials say to call now  that is about timing, not naming a condition here.</text>
+  <text x="52" y="356" class="p">Sources: CDC Act Early materials; AAP screening policy (see article citations).</text>
+</svg>
