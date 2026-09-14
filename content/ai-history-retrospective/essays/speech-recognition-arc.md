@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Hearsay, HMMs, and the long reduction of the spoken word"
 slug: speech-recognition-arc
 kind: essay

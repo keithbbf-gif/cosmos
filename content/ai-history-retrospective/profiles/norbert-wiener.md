@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Norbert Wiener’s loops"
 slug: norbert-wiener
 kind: profile

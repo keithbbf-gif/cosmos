@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Shakey’s building, and the body the field kept postponing"
 slug: robotics-shakey-to-field
 kind: essay
@@ -9,13 +10,13 @@ portrait: null
 portrait_status: none
 ---
 
-Shakey, at SRI from the mid-1960s into the early 1970s, rolled through a suite of rooms with a camera, a range finder, and a planner that could take a while. The Nils Nilsson group’s reports, and the later SRI films, show a robot that was a software project first. STRIPS, the planner, outlived the chassis in textbook memory.
+Shakey, at SRI from the mid-1960s into the early 1970s, rolled through a suite of rooms with a camera, a range finder, and a planner that could take a while. The Nilsson group’s reports, and the later SRI films, show a robot that was a software project first. STRIPS, the planner, outlived the chassis in textbook memory.
 
 Charles Rosen’s project and the list of contributors are documented in SRI’s own histories. The machine’s name is a joke about vibration. The joke has lasted longer than most of the hardware.
 
 ## Vehicles, not oracles
 
-At Stanford, the Cart, and later work associated with Hans Moravec, treated vision and motion as a race against a battery. At CMU, Reddy’s robotics institute and later Navlab put cameras on vans and asked about painted lines. Rodney Brooks’s subsumption architecture, in the mid-1980s at MIT, was a polemic in silicon: forget the central world model; stack behaviors. *Elephants Don’t Play Chess*, Brooks’s 1990 essay, is the polemic in prose.
+At Stanford, the Cart and later work associated with Hans Moravec treated vision and motion as a race against a battery. At CMU, Reddy’s robotics institute and later Navlab put cameras on vans and asked about painted lines. Rodney Brooks’s subsumption architecture, in the mid-1980s at MIT, was a polemic in silicon: forget the central world model; stack behaviors. *Elephants Don’t Play Chess*, Brooks’s 1990 essay, is the polemic in prose.
 
 These lines disagreed about representation. They agreed, against a certain symbolic habit, that a body in a room is not a theorem.
 

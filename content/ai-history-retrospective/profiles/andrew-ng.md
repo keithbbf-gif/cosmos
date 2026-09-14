@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Andrew Ng, a course, a lab, a dataset habit"
 slug: andrew-ng
 kind: profile

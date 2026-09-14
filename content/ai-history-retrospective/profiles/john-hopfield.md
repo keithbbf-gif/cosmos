@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "John Hopfield’s energy, 1982 and after"
 slug: john-hopfield
 kind: profile

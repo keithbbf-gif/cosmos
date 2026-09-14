@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Newell and Simon, at the chessboard and at the hypothesis"
 slug: newell-and-simon
 kind: profile

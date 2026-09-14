@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Ashish Vaswani’s group, 2017: attention without the recurrent spine"
 slug: attention-and-transformers
 kind: essay

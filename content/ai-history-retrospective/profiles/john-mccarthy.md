@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "John McCarthy, who needed a noun"
 slug: john-mccarthy
 kind: profile
@@ -9,7 +10,7 @@ portrait: assets/portraits/john-mccarthy.jpg
 portrait_status: sourced
 ---
 
-John McCarthy was born in 1927 in Boston, died in 2011 in Stanford, and spent a remarkable fraction of the years between inventing furniture the field still sits on: a name, a language, a laboratory, and a style of asking for common sense as if it were an engineering specification.
+John McCarthy was born in 1927 in Boston, died in 2011 at Stanford, and spent a remarkable fraction of the intervening years inventing the furniture the field still sits on: a name, a language, a laboratory, and a style of asking for common sense as if it were an engineering specification.
 
 ![John McCarthy at Stanford, 13 May 2006.](../assets/portraits/john-mccarthy.jpg)
 

@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "A database, a contest, and a 2012 drop in the error rate"
 slug: imagenet-moment
 kind: essay

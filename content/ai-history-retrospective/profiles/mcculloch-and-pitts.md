@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "McCulloch and Pitts, a calculus for a cartoon neuron"
 slug: mcculloch-and-pitts
 kind: profile

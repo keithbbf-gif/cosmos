@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Margaret Boden, who wrote the history as a science"
 slug: margaret-boden
 kind: profile

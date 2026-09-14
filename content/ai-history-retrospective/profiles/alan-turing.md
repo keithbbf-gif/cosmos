@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Alan Turing at the edge of the solvable"
 slug: alan-turing
 kind: profile

@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "1986: errors go backward, and the PDP volumes land"
 slug: connectionist-revival
 kind: essay

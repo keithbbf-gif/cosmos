@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Two kinds of weather: funding, fashion, and the word “winter”"
 slug: winters-and-summers
 kind: essay

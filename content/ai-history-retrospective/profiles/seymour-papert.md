@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Seymour Papert, geometry, children, and a brake"
 slug: seymour-papert
 kind: profile

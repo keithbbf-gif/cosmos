@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Hanover, 1956: a summer that named a bet"
 slug: dartmouth-1956
 kind: essay

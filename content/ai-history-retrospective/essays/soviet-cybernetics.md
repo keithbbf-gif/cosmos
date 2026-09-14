@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Cybernetics as a Soviet argument"
 slug: soviet-cybernetics
 kind: essay

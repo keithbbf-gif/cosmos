@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Fei-Fei Li and a yardstick that hurt"
 slug: fei-fei-li
 kind: profile

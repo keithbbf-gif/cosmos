@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Karen Spärck Jones, a weight for a word"
 slug: karen-sparck-jones
 kind: profile

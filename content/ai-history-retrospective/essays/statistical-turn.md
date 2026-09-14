@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "The 1990s: margins, corpora, and a quieter intelligence"
 slug: statistical-turn
 kind: essay

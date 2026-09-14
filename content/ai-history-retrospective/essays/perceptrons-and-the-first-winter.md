@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "A machine that learned, and a book that cooled the room"
 slug: perceptrons-and-the-first-winter
 kind: essay

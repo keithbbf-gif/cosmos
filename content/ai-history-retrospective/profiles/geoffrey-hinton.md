@@ -1,5 +1,6 @@
 ---
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 title: "Geoffrey Hinton, stubborn about depth"
 slug: geoffrey-hinton
 kind: profile
@@ -23,7 +24,7 @@ The 1986 *Nature* letter with Rumelhart and Williams, the Boltzmann-machine work
 
 ## 2012
 
-Alex Krizhevsky, Ilya Sutskever, and Hinton’s NIPS 2012 ImageNet paper is a students’ engineering victory with a supervisor’s long bet behind it. Google’s subsequent hiring of the group is a public business fact. Hinton’s later departure from Google, announced in 2023, and his public warnings about future systems, are also public facts. This profile will not turn those warnings into a second career. It will say they were said, dated, and reported.
+Alex Krizhevsky, Ilya Sutskever, and Hinton’s NIPS 2012 ImageNet paper is his students’ engineering victory with a supervisor’s long bet behind it. Google’s subsequent hiring of the group is a public business fact. Hinton’s later departure from Google, announced in 2023, and his public warnings about future systems, are also public facts. This profile will not turn those warnings into a second career. It will say they were said, dated, and reported.
 
 ## Two official sentences
 
