@@ -1,0 +1,8 @@
+{
+  "schema": "cosmos-transcript-decl/1",
+  "len": 768,
+  "sha": "3579e227b686cce294e286e86fa34392aeb2af0ddd4d744c38d701e698c3547d",
+  "n_turns": 1,
+  "fidelity": "span",
+  "hmac": false
+}
