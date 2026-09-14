@@ -557,10 +557,16 @@ def recommend_team(observations, candidates, k=3, *, incumbent="", scores=None,
                 comp = total / n_terms
                 value = comp * (1.0 if sc is None else sc / 10.0)
                 if cost is not None and cost > 0:
-                    value = value / cost
+                    value, per = value / cost, "usd"
+                elif cost == 0.0:
+                    # A known-zero cost is unbounded coverage per dollar, so a
+                    # free seat that discovers anything outranks a paid one.
+                    per = "free"
+                else:
+                    per = "flat"        # cost UNMEASURED: not divided, not faked
                 kind, via = MEASURED, "+".join(sorted(vias))
             else:
-                comp, value, kind, via = None, None, UNMEASURED, "none"
+                comp, value, kind, via, per = None, None, UNMEASURED, "none", "flat"
             ranked.append({
                 "model": c,
                 "value": _r(value),
@@ -572,11 +578,13 @@ def recommend_team(observations, candidates, k=3, *, incumbent="", scores=None,
                 "score": sc,
                 "score_kind": UNMEASURED if sc is None else MEASURED,
                 "cost": cost,
-                "per": "usd" if (cost is not None and cost > 0) else "flat",
+                "per": per,
             })
-        ranked.sort(key=lambda r: (r["kind"] != MEASURED,
-                                   -(r["value"] if r["value"] is not None else 0.0),
-                                   r["model"]))
+        ranked.sort(key=lambda r: (
+            r["kind"] != MEASURED,
+            0 if (r["per"] == "free" and (r["value"] or 0.0) > 0) else 1,
+            -(r["value"] if r["value"] is not None else 0.0),
+            r["model"]))
         if not seated:
             # No incumbent named: open with the best measured score, else
             # the first pin. Never with an invented complementarity.
@@ -796,6 +804,19 @@ def _selftest(quiet: bool = False) -> int:
           lambda: cheap["steps"][1]["per"] == "usd"
           and flat["steps"][1]["per"] == "flat"
           and cheap["steps"][1]["value"] < flat["steps"][1]["value"])
+    both_rescue = good + [observation(A, C, disagree=True, domain="core",
+                                      err=8, who_erred="a") for _ in range(4)]
+    free = recommend_team(both_rescue, [B, C], k=3, incumbent=A,
+                          costs={B: 0.0, C: 0.5})
+    check("a known-zero cost is unbounded coverage per dollar: the free seat "
+          "seats first even though the paid seat's per-dollar value is larger",
+          lambda: free["team"][1] == B and free["steps"][1]["per"] == "free"
+          and free["steps"][2]["per"] == "usd"
+          and free["steps"][2]["value"] > free["steps"][1]["value"])
+    free_cofail = recommend_team(
+        mixed, [B, C], k=3, incumbent=A, costs={C: 0.0, B: 1.0})
+    check("a free seat that only co-fails does not jump the queue",
+          lambda: free_cofail["team"][1] == B and free_cofail["team"][2] == C)
 
     # 14. pair_matrix enumerates and refuses to invent.
     mat = pair_matrix(good, [A, B, C], domains=["core"])

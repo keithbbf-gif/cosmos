@@ -38,6 +38,12 @@ Estimators, on pair `(i, j)` over a slice, after `n` scored trials:
 | `porosity(obs, axis=)` | per-model `P_i[a]`: `wrong_rate`, `mean_err`, `mass = rate × size` | `who_erred` |
 | `recommend_team(obs, cands, k)` | greedy: incumbent seated first, then complementarity × score per token | pair obs |
 
+Seating divides by cost only when a cost is known: `per="usd"` when it is
+positive, `per="free"` when it is a known zero (coverage per dollar is then
+unbounded, so a free seat that discovers anything seats before a paid one —
+but a free seat that only co-fails still sorts behind), and `per="flat"` when
+the cost is UNMEASURED, which is never treated as free.
+
 **Honesty law.** `kind` stays `UNMEASURED` until `mag` exists;
 `complement_kind` stays `UNMEASURED` until `who_erred` is scored; a pair
 nobody observed is `UNMEASURED` and sorts **last** in seating. Missing values

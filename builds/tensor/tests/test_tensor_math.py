@@ -225,6 +225,26 @@ def test_recommend_team_divides_by_cost():
         flat["steps"][1]["value"] / 4.0)
 
 
+def test_free_seat_is_unbounded_coverage_per_dollar():
+    obs = ([_obs(a=A, b=B, err=8, who_erred="a") for _ in range(4)]
+           + [_obs(a=A, b=C, err=8, who_erred="a") for _ in range(4)])
+    team = tm.recommend_team(obs, [B, C], 3, incumbent=A,
+                             costs={B: 0.0, C: 0.5})
+    assert team["team"] == [A, B, C]
+    assert team["steps"][1]["per"] == "free"
+    assert team["steps"][2]["per"] == "usd"
+    # the paid seat's per-dollar value is larger, yet the free seat seats first
+    assert team["steps"][2]["value"] > team["steps"][1]["value"]
+
+
+def test_free_seat_that_co_fails_does_not_jump_the_queue():
+    obs = ([_obs(a=A, b=B, err=8, who_erred="both") for _ in range(4)]
+           + [_obs(a=A, b=C, err=8, who_erred="a") for _ in range(4)])
+    team = tm.recommend_team(obs, [B, C], 3, incumbent=A,
+                             costs={B: 0.0, C: 1.0})
+    assert team["team"] == [A, C, B]
+
+
 def test_recommend_team_k_must_be_positive():
     with pytest.raises(tm.TensorError):
         tm.recommend_team([], [B], 0)
@@ -243,8 +263,12 @@ MUTATIONS = [
      "    return _r(c.both_n / c.scored_n)",
      "    return _r(c.both_n / c.scored_n) if c.scored_n else 0.0"),
     # unmeasured pairs promoted to the front of the seating field
-    ("unmeasured_first", 'ranked.sort(key=lambda r: (r["kind"] != MEASURED,',
-     'ranked.sort(key=lambda r: (r["kind"] == MEASURED,'),
+    ("unmeasured_first", '            r["kind"] != MEASURED,\n',
+     '            r["kind"] == MEASURED,\n'),
+    # the free-seat limit dropped: a paid seat outranks a free rescuer
+    ("free_tier_ignored",
+     '            0 if (r["per"] == "free" and (r["value"] or 0.0) > 0) else 1,\n',
+     "            0,\n"),
     # rescue no longer directed
     ("rescue_undirected",
      "    rescued = c.only_hi_n if side == \"lo\" else c.only_lo_n",
