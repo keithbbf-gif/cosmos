@@ -36,6 +36,6 @@ Round 1 adds one `<figure>` block to each **primary** draft listed in `MANIFEST.
 | 47 | sequence-measure-to-stools | `kitchen-tape-measure-prep.jpg` | Measure before you draw |
 | 18 | measure-the-room-you-have | `schematic-aisle-clearances.svg` | Room measurement context |
 
-Status: **round 1 complete** when all rows above contain a `<figure>` in the draft file.
+Status: **round 1 complete** — **31** drafts embed `<figure>` blocks (rows above).
 
 See also: `IMAGE_SOURCES.md`, `RIGHTS.md`, `MANIFEST.md`.
