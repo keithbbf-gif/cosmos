@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: pests
+meta_description: The last week before you eat them. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-fruit-halved-cc.jpg" alt="Ripe fig fruit — birds and squirrels in the last week before harvest on patio trees">
+<figcaption>Figure 1. Ripe fig fruit — birds and squirrels in the last week before harvest on patio trees. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # The last week before you eat them
 

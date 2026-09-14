@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: water
+meta_description: The quiet drink a dormant pot still needs. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/irrigation/garden-hose-season-cc-by.jpg" alt="Garden hose at season close — dormant potted figs still need a quiet winter drink">
+<figcaption>Figure 1. Garden hose at season close — dormant potted figs still need a quiet winter drink. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # The quiet drink a dormant pot still needs
 

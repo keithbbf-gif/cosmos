@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: pests
+meta_description: Scale, mealybug, and the indoor winter. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/diagnosis/ants-honeydew-cc.jpg" alt="Ants tending honeydew on a plant — scale and mealybug context on figs overwintered indoors">
+<figcaption>Figure 1. Ants tending honeydew on a plant — scale and mealybug context on figs overwintered indoors. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Scale, mealybug, and the indoor winter
 

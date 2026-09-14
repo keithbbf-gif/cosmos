@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: training
+meta_description: Flat and column forms on a patio. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/forms/espalier-fruit-wall-cc.jpg" alt="Espalier fruit trees on a wall — flat and column fig forms on a small patio">
+<figcaption>Figure 1. Espalier fruit trees on a wall — flat and column fig forms on a small patio. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Flat and column forms on a patio
 

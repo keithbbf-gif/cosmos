@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: propagation
+meta_description: Cuttings that actually take. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg" alt="USDA pomological plate of fig cutting wood — winter twigs for propagation">
+<figcaption>Figure 1. USDA pomological plate of fig cutting wood — winter twigs for propagation. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Cuttings that actually take
 

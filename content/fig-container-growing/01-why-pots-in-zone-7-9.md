@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: rationale
+meta_description: Why a pot beats the ground in Zone 7–9. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Potted common fig in a movable container — the pot as a climate tool in USDA Zones 7 through 9">
+<figcaption>Figure 1. Potted common fig in a movable container — the pot as a climate tool in USDA Zones 7 through 9. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Why a pot beats the ground in Zone 7–9
 

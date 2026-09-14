@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: problems
+meta_description: Fig rust in a wet summer. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/trouble/fig-rust-leaf-cc0.jpg" alt="Fig rust on foliage caused by Cerotelium fici — wet summer on container figs">
+<figcaption>Figure 1. Fig rust on foliage caused by Cerotelium fici — wet summer on container figs. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Fig rust in a wet summer
 

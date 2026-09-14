@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: cropping
+meta_description: Breba vs main crop — what the pot changes. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-fruit-halved-cc.jpg" alt="Halved ripe fig — breba crop on old wood versus main crop on new growth in pots">
+<figcaption>Figure 1. Halved ripe fig — breba crop on old wood versus main crop on new growth in pots. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Breba vs main crop — what the pot changes
 

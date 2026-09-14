@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: problems
+meta_description: Why they throw the crop. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-fruit-halved-cc.jpg" alt="Common fig fruit — why potted trees abort figs after stress or uneven water">
+<figcaption>Figure 1. Common fig fruit — why potted trees abort figs after stress or uneven water. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Why they throw the crop
 

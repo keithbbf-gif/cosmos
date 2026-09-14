@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [8]
 culture: pot
 topic: calendar
+meta_description: Zone 8 month by month. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/irrigation/watering-plants-cc.jpg" alt="Hand watering — month-by-month container fig rhythm for USDA Zone 8">
+<figcaption>Figure 1. Hand watering — month-by-month container fig rhythm for USDA Zone 8. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Zone 8 month by month
 

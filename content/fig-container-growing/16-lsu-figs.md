@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [8, 9]
 culture: pot
 topic: varieties
+meta_description: The LSU figs in Gulf humidity. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-fruit-halved-cc.jpg" alt="Halved common fig — LSU and Gulf-humidity varieties in container culture">
+<figcaption>Figure 1. Halved common fig — LSU and Gulf-humidity varieties in container culture. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # The LSU figs in Gulf humidity
 

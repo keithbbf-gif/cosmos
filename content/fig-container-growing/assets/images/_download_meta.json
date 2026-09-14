@@ -1,0 +1,164 @@
+[
+  {
+    "commons": "Ficus carica bonsai A D170130.jpg",
+    "bytes": 735253,
+    "sha256": "8032990aeda23a4900dc493dfb9ce26f850a4360be2705755fd5c42bcfe30114",
+    "path": "assets/images/shared/media/potted-fig-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Potting_soil.jpg",
+    "bytes": 393651,
+    "sha256": "156d24af637921e936cae5cbb2629610294bb5e92a1862ae57703ddbd6f0ec72",
+    "path": "assets/images/shared/drainage/potting-soil-cc.jpg"
+  },
+  {
+    "commons": "Schultz Horticultural Perlite.jpg",
+    "bytes": 201720,
+    "sha256": "1b7032573e09ade7fd78344b6980ddc025c4cf2633e48599a723489b5c11ec4e",
+    "path": "assets/images/shared/media/perlite-cc.jpg"
+  },
+  {
+    "commons": "Watering_plants.jpg",
+    "bytes": 1496120,
+    "sha256": "d288249992dfa57d2697444bfa147125c52a3b0a3fffabc33f0efddc058e27de",
+    "path": "assets/images/shared/irrigation/watering-plants-cc.jpg"
+  },
+  {
+    "commons": "2009-365-285 Garden Season Closes (4007099430).jpg",
+    "bytes": 966460,
+    "sha256": "c51702df999c220632ded20ca49e79392c96bb23a6f8fd5840ff3fb18b6f39d6",
+    "path": "assets/images/shared/irrigation/garden-hose-season-cc-by.jpg"
+  },
+  {
+    "commons": "Compost.jpg",
+    "bytes": 316745,
+    "sha256": "aab5e1e1095b6cad93f73efeea0144432c2ff7d7474465647c4ee26301a2250a",
+    "path": "assets/images/shared/soil/compost-cc.jpg"
+  },
+  {
+    "commons": "Ficus_carica_tree.jpg",
+    "bytes": 1178978,
+    "sha256": "573060b6ba81a7911d2709fe5e1e065ec94a7bbd623c6b570561019d45580a19",
+    "path": "assets/images/shared/reference/ficus-carica-tree-cc.jpg"
+  },
+  {
+    "commons": "Fig_tree.jpg",
+    "bytes": 444270,
+    "sha256": "0f73d1d97bad4e49117e1819f7cd37d387fb30960a8873245ae5df3a07c6ac42",
+    "path": "assets/images/shared/reference/fig-tree-cc.jpg"
+  },
+  {
+    "commons": "Fig (Ficus carica) leaves, Parque do Monteiro-Mor, Lisboa, Portugal julesvernex2.jpg",
+    "bytes": 331363,
+    "sha256": "111f3c8021907d7ab95a37c9b6da9b2ca443aa0b9ab73d22e677291ff6e6546b",
+    "path": "assets/images/shared/trouble/fig-leaves-yellow-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007410.jpg",
+    "bytes": 1135877,
+    "sha256": "e241f92817a3569eb78a71fa15e1744f09f63dfb4abb90c72dd9703ad92ee319",
+    "path": "assets/images/cultivars/mission-type-usda-pom-07410-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007441.jpg",
+    "bytes": 1312615,
+    "sha256": "869835e7bbd5177e0e52fac9a5ec709909eda66b83bd115ad645f3f3e1191a22",
+    "path": "assets/images/cultivars/celeste-usda-pom-07441-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001168.jpg",
+    "bytes": 1134940,
+    "sha256": "e6df2f4ef81473ccda71fef433d92b38f8a14280f2797784a656f01c6ca32928",
+    "path": "assets/images/cultivars/toulousienne-usda-pom-01168-pd.jpg"
+  },
+  {
+    "commons": "Fig (Ficus carica) fruit halved.jpg",
+    "bytes": 695948,
+    "sha256": "223a7f25cac4540c9c1237c3bace4f00b68d0676a19ea6f87f2d28150f01bb2d",
+    "path": "assets/images/shared/reference/fig-fruit-halved-cc.jpg"
+  },
+  {
+    "commons": "Fig rust caused by Cerotelium fici.jpg",
+    "bytes": 946063,
+    "sha256": "78c1026f5008bc1218b696ff747e1c783b67dc5bfb1d3473bf3b9c9bbf0b8f36",
+    "path": "assets/images/shared/trouble/fig-rust-leaf-cc0.jpg"
+  },
+  {
+    "commons": "Ants collecting honeydew drops 01.jpg",
+    "bytes": 1477355,
+    "sha256": "1ae33f09828a8f177684f4f11b5c8ef293da3fd1d812b03933d9684e59abf668",
+    "path": "assets/images/shared/diagnosis/ants-honeydew-cc.jpg"
+  },
+  {
+    "commons": "Arrels de figuera al jard\u00ed bot\u00e0nic de Val\u00e8ncia.JPG",
+    "bytes": 1143357,
+    "sha256": "f194dc03767a3376bae2dac8ddc192bf1da4d8d7f8a36a60d7057ada5e5cd208",
+    "path": "assets/images/shared/reference/fig-roots-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Wheelbarrow, Museum of Garden History, Lambeth, London.jpg",
+    "bytes": 1397460,
+    "sha256": "33234b1d856742c7a14ad94f2df18b032a631b2d4c4de28321eaf6e93d9eb9d5",
+    "path": "assets/images/shared/pots/wheelbarrow-garden-cc.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001042.jpg",
+    "bytes": 1104754,
+    "sha256": "884c4786a4e4a2df6e61c8ff14035d0093f6272cb33be01671a474203e742e80",
+    "path": "assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg"
+  },
+  {
+    "commons": "Terraccotta Flower Pot.jpg",
+    "bytes": 148887,
+    "sha256": "93c869485171ebe056db6e306c82f4ca46d4df9e70950ddff44561b2ec200e0b",
+    "path": "assets/images/shared/pots/nursery-pots-stack-cc.jpg"
+  },
+  {
+    "commons": "Drip_irrigation.jpg",
+    "bytes": 127473,
+    "sha256": "d41924b5946669b83f532abe109a311bdefccbc254f0bd39d572d7baa733a77c",
+    "path": "assets/images/shared/irrigation/drip-irrigation-cc.jpg"
+  },
+  {
+    "commons": "Tomatoes in a grow bag.jpg",
+    "bytes": 2050866,
+    "sha256": "6bfa2faac89fa25c2e5dca315b42dceaca681a508ae264e41dfd5b77c061aa20",
+    "path": "assets/images/shared/pots/fabric-grow-bag-cc.jpg"
+  },
+  {
+    "commons": "Blumentopf Kunststoff.jpg",
+    "bytes": 302538,
+    "sha256": "f4448ea3f70b822a9d11f00a9af6931a3f4ffe3d112cc9c6a635d92f991911e9",
+    "path": "assets/images/shared/pots/flowerpot-saucer-cc.jpg"
+  },
+  {
+    "commons": "A juvenile root-knot nematode (Meloidogyne incognita) penetrates a tomato root - USDA-ARS.jpg",
+    "bytes": 1175410,
+    "sha256": "187fcb0fbe1cc27ed3ca4cd0f9744790ef39b60bc428e74985cd46f71bffcc94",
+    "path": "assets/images/shared/nematodes/meloidogyne-usda-ars-cc-by.jpg"
+  },
+  {
+    "commons": "Espalier fruit tree at Standen, West Sussex, England May 2006.JPG",
+    "bytes": 976139,
+    "sha256": "0cb570164918d985d6b87580e0f044c77794563008b2b59344c781334f9eefc3",
+    "path": "assets/images/shared/forms/espalier-fruit-wall-cc.jpg"
+  },
+  {
+    "commons": "Soil Salinization Color.png",
+    "bytes": 513123,
+    "sha256": "af8d70eb0be6cca7465af6b9d6f4a20bbd5666ac3a1169c9a597cfce60b9ea93",
+    "path": "assets/images/shared/soil/salinity-diagram-cc.png"
+  },
+  {
+    "commons": "Frosty grass wave.jpg",
+    "bytes": 986511,
+    "sha256": "14dce0e40ad286ef8dca05db179307084af2975103f3cea182e32ca251b52188",
+    "path": "assets/images/shared/weather/frost-on-grass-cc.jpg"
+  },
+  {
+    "commons": "Ficus_carica_L,_1771.jpg",
+    "bytes": 113826,
+    "sha256": "2d76056f345974e0d66889aea481e33edaa617c0b453eb926293c1289fbbee5f",
+    "path": "assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg"
+  }
+]

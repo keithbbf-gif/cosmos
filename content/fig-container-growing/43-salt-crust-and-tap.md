@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: water
+meta_description: Salt crust and tap water. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/soil/salinity-diagram-cc.png" alt="Soil salinization diagram — salt crust on pot rims from tap water and fertilizer">
+<figcaption>Figure 1. Soil salinization diagram — salt crust on pot rims from tap water and fertilizer. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Salt crust and tap water
 

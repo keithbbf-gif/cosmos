@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8]
 culture: pot
 topic: varieties
+meta_description: Olympian and other cold-leaning pots. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/ficus-carica-tree-cc.jpg" alt="Common fig tree — cold-leaning potted varieties such as Olympian in Zones 7–9">
+<figcaption>Figure 1. Common fig tree — cold-leaning potted varieties such as Olympian in Zones 7–9. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Olympian and other cold-leaning pots
 

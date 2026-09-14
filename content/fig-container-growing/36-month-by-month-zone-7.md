@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7]
 culture: pot
 topic: calendar
+meta_description: Zone 7 month by month. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/irrigation/drip-irrigation-cc.jpg" alt="Drip irrigation line — month-by-month potted fig calendar for USDA Zone 7">
+<figcaption>Figure 1. Drip irrigation line — month-by-month potted fig calendar for USDA Zone 7. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Zone 7 month by month
 

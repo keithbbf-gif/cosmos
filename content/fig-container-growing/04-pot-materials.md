@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: containers
+meta_description: Fabric, plastic, clay, wood, and the barrel. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/media/perlite-cc.jpg" alt="Perlite in potting media — plastic, fabric, clay, and wood pots each change drying speed on a patio">
+<figcaption>Figure 1. Perlite in potting media — plastic, fabric, clay, and wood pots each change drying speed on a patio. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Fabric, plastic, clay, wood, and the barrel
 

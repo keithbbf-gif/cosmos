@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: establishment
+meta_description: Year one without the grocery-store fantasy. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Young potted fig — first container year without grocery-store harvest expectations">
+<figcaption>Figure 1. Young potted fig — first container year without grocery-store harvest expectations. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Year one without the grocery-store fantasy
 

@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [9]
 culture: pot
 topic: heat
+meta_description: Zone 9 heat, cooked roots, stalled fruit. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/trouble/fig-leaves-yellow-cc-by-sa.jpg" alt="Fig foliage in summer heat — cooked roots and stalled fruit on pots in Zone 9">
+<figcaption>Figure 1. Fig foliage in summer heat — cooked roots and stalled fruit on pots in Zone 9. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Zone 9 heat, cooked roots, stalled fruit
 

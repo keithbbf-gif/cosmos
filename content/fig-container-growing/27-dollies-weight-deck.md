@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: siting
+meta_description: Weight, dollies, and the deck. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/pots/wheelbarrow-garden-cc.jpg" alt="Wheelbarrow in a garden — moving heavy potted figs with dollies and deck weight limits">
+<figcaption>Figure 1. Wheelbarrow in a garden — moving heavy potted figs with dollies and deck weight limits. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Weight, dollies, and the deck
 

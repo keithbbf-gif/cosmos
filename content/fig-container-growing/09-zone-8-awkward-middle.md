@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [8]
 culture: pot
 topic: winter
+meta_description: Zone 8, the awkward middle. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-tree-cc.jpg" alt="Fig tree in the landscape — Zone 8 winters that are usually mild until they are not">
+<figcaption>Figure 1. Fig tree in the landscape — Zone 8 winters that are usually mild until they are not. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Zone 8, the awkward middle
 

@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: containers
+meta_description: How big the pot actually needs to be. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Container-grown fig — pot volume in gallons decides whether the plant fruits or only grows leaves">
+<figcaption>Figure 1. Container-grown fig — pot volume in gallons decides whether the plant fruits or only grows leaves. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # How big the pot actually needs to be
 

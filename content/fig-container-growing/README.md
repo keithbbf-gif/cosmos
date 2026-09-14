@@ -58,3 +58,10 @@ to build; skip around if you already know why the pot exists.
 | 47 | `47-a-small-collection.md` | More than one pot without a jungle |
 
 `status: staged` in the front matter means ready for a human pass, not live.
+
+## Image + SEO (staging)
+
+- **Graphics pipeline:** `GRAPHICS_CHECKLIST.md` — `fig_pack_rasters.py container`, `embed_fig_container_growing.py`, `validate.py`
+- **Rights:** `RIGHTS.md` for every raster under `assets/images/`
+- **Keith heroes:** `PHOTO_NOTES.md` and `D:\FIGS` stills replace Commons fills before publish
+- Each numbered draft carries YAML `meta_description`, an `images:` shot list, and one `<figure>` with `alt` + `<figcaption>`

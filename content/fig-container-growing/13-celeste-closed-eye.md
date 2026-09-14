@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: varieties
+meta_description: Celeste and why a closed eye matters here. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/cultivars/celeste-usda-pom-07441-pd.jpg" alt="USDA pomological watercolor of Celeste-type fig — closed eye and rain resistance in pot culture">
+<figcaption>Figure 1. USDA pomological watercolor of Celeste-type fig — closed eye and rain resistance in pot culture. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Celeste and why a closed eye matters here
 

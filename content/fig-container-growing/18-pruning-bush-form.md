@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: pruning
+meta_description: Pruning a pot fig as a bush. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/reference/fig-tree-cc.jpg" alt="Fig tree canopy — bush form pruning that fits a patio pot without a pole saw">
+<figcaption>Figure 1. Fig tree canopy — bush form pruning that fits a patio pot without a pole saw. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Pruning a pot fig as a bush
 

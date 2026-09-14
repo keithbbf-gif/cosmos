@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: varieties
+meta_description: Brown Turkey, Texas Everbearing, and the name mess. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="./assets/images/cultivars/mission-type-usda-pom-07410-pd.jpg" alt="USDA pomological plate of a brown fig type — staging reference, not a tagged Brown Turkey yard photo">
+<figcaption>Figure 1. USDA pomological plate of a brown fig type — staging reference, not a tagged Brown Turkey yard photo. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Brown Turkey, Texas Everbearing, and the name mess
 

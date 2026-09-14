@@ -7,7 +7,21 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: fertilizer
+meta_description: Feeding without growing a leaf factory. Pot-grown common figs in USDA Zones 7–9 — container culture draft (staged, not live).
+
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
 ---
+
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="./assets/images/shared/soil/compost-cc.jpg" alt="Finished compost — feed potted figs for fruit, not a nitrogen hedge on the patio">
+<figcaption>Figure 1. Finished compost — feed potted figs for fruit, not a nitrogen hedge on the patio. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Feeding without growing a leaf factory
 
