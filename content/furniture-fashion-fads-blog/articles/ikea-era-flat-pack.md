@@ -4,8 +4,8 @@ slug: ikea-era-flat-pack
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1178
+voice_check: edited
+word_count: 1239
 ---
 
 # The IKEA Era Changed What We Expect
@@ -25,7 +25,7 @@ For a few decades the most widely distributed furniture magazine in the world di
 
 LACK is the object-lesson because it is almost nothing. The IKEA Museum dates the side table to 18 May 1979: Jan Hellzén’s sketch, a particleboard trial that came out too heavy, Kamprad pointing at the sample and refusing the first price. Board-on-frame, a sandwich, a hollow that made the thing light enough to carry. Into the range in white and four other colors at 78 kronor. Visually it has barely moved. A square top, four legs, a finish that is a color not a wood. Nightstand, projector stand, the table a roommate leaves behind because it is not worth the argument. Anyone can have a table this afternoon. The table will not become an antique. It will become a curb. That is the bargain the catalog never quite printed: we will give you a room now, and the room will not owe you a future.
 
-Status, in the IKEA era, flipped. Before Plymouth Meeting, a certain kind of American room still assumed that furniture was a wedding, a suite, a delivery men in uniforms. After Plymouth Meeting, a certain kind of American room assumed that furniture was a Saturday, a bag of screws, a look you could change when the lease ended. That is a democratic gain. It is also a training. We learned to expect a sofa that photographs as a life and costs as a weekend. We learned to expect a bookcase that can ride a bus and cannot ride a third move. We learned to expect the catalog’s grammar: low, birch-look, a plant in the corner, a price in the caption.
+Status, in the IKEA era, flipped. Before Plymouth Meeting, a certain kind of American room still assumed that furniture was a wedding, a suite, deliverymen in uniforms. After Plymouth Meeting, a certain kind of American room assumed that furniture was a Saturday, a bag of screws, a look you could change when the lease ended. That is a democratic gain. It is also a training. We learned to expect a sofa that photographs as a life and costs as a weekend. We learned to expect a bookcase that can ride a bus and cannot ride a third move. We learned to expect the catalog’s grammar: low, birch-look, a plant in the corner, a price in the caption.
 
 The hangover is not that particleboard exists. Particleboard exists because it is cheap, flat, and good at being a door on a cabinet. The hangover is that a generation was taught to treat all furniture as if it were LACK: temporary, graphic, replaceable. BILLY, POÄNG, MALM — the names that behaved like friends — were always closer to print than to timber. When the print dated, so did the friend. The white lacquer yellows. The cam lock strips. The paper foil on the edge lifts in a humid summer and never lies down again. You do not call a shop. You buy another.
 

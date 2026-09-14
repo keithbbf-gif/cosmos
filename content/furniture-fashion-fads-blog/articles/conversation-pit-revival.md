@@ -4,15 +4,15 @@ slug: conversation-pit-revival
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 850
+voice_check: edited
+word_count: 890
 ---
 
 # Conversation Pits Try Again Every Generation
 
 The floor has a hole in it, on purpose. The hole is square, lined, maybe fifteen feet on a side, and the table at the center has to be lifted out if you want to vacuum. You sit, and the house becomes a rim. That is still the most famous pit in American modern: the Miller House, Columbus, Indiana, 1957 — Eero Saarinen on the architecture, Alexander Girard on the interiors, Dan Kiley on the grounds. J. Irwin and Xenia Miller paid for a room that could not be dragged to the wall. Newfields, the Indianapolis Museum of Art, owns the house now. Visitors look down, then step down, and discover that conversation at knee height is a different sport from conversation on a sofa.
 
-Every generation that sees that photograph wants one. Every generation that inherits a cheap copy wants it gone. That is the whole cycle, and it has already run more than once.
+Every generation that sees that photograph wants one. Every generation that inherits a cheap copy wants it gone. The cycle has already run more than once.
 
 Saarinen is said to have worried, later, that the pit had become a cliché [CITE NEEDED — the remark circulates in secondary write-ups; I have not got his sentence in hand]. If the sentence exists, it was earned. By the late 1960s and through the 1970s, builders were dropping living rooms a half-flight and ringing the depression with tufted benches, shag, and a fireplace that had to be stepped down to as if it were an altar. The suburban pit said: we have a great room, we have conversation, we are not our parents’ sofa-and-two-chairs. It also said: we have poured a furniture arrangement into concrete. The Miller pit was a commissioned textile square in a civic-modern house. The subdivision pit was a package. Same diagram. Different boast.
 

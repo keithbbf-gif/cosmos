@@ -4,8 +4,8 @@ slug: cargo-pants-resurgence
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 800
+voice_check: edited
+word_count: 828
 ---
 
 # Cargo Pants Return (Again)
@@ -23,7 +23,7 @@ The 2021 revival was not subtle. Balenciaga showed cargos as part of a larger ba
   <figcaption>Style cycle schematic for Cargo Pants Return (Again).</figcaption>
 </figure>
 
-Utility fashion always has to decide whether the hardware is for use or for show. A real surplus trouser has a pocket you can fill. A fashion cargo often has a pocket you are not supposed to fill, because a bulge ruins the hang. That tension is the whole story. The rave kid needed the pocket. The 2021 kid wanted the outline of the pocket.
+Utility fashion always has to decide whether the hardware is for use or for show. A real surplus trouser has a pocket you can fill. A fashion cargo often has a pocket you are not supposed to fill, because a bulge ruins the hang. That tension is the point. The rave kid needed the pocket. The 2021 kid wanted the outline of the pocket.
 
 Rooms run a close version of this with industrial hardware on furniture that will never see a factory. The industrial-farmhouse kitchen of the 2010s — a black iron pull on a white shaker door, a cage light, a rolling cart with caster wheels — treated hardware as jewelry the way a cargo treats a flap. Restoration Hardware and a dozen copycats sold the look as honesty. The honesty was partial. A barn door on an interior hallway is a pocket that does not need to hold a map. It still looks as if it could.
 

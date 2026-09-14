@@ -4,8 +4,8 @@ slug: fast-furniture-vs-fast-fashion
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 968
+voice_check: edited
+word_count: 986
 ---
 
 # Fast Furniture vs Fast Fashion: Same Clock?
@@ -29,9 +29,9 @@ Zara’s clock, associated with Inditex and Amancio Ortega’s model of rapid re
 
 Wayfair’s 2002 bet — and the 2011 bet that followed — was assortment. If the catalog is infinite, the trend can be infinite. Infinite trend is how a nightstand gets a new leg every year. The customer is not more fickle than in 1985. The menu is longer. Fast fashion learned the same trick: if the rack refreshes on Tuesday, Tuesday becomes a reason.
 
-The slow analog is not a sermon. It is a different substrate. Bradley Brand Furniture’s company copy still says the quiet part: solid hardwood, built in the United States, a line that traces itself to 1903 and a mill town that actually cut trees. The bbfur shop does not need a hymn about virtue. A hardwood dresser is slower because wood does not swell and shed its skin after one move. You can refinish it when the feed changes color. You cannot refinish a photo of walnut.
+The slow analog is not a sermon. It is a different substrate. Bradley Brand Furniture’s company copy still says the quiet part: solid hardwood, built in the United States, a line that traces itself to 1902 and a mill town that actually cut trees [CITE NEEDED]. The bbfur shop does not need a hymn about virtue. A hardwood dresser is slower because wood does not swell and shed its skin after one move. You can refinish it when the feed changes color. You cannot refinish a photo of walnut.
 
-That is the whole comparison, minus the folklore. Fast fashion and fast furniture share a marketing department: newness as a subscription. They do not share a disposal department. One fits in a bag. The other needs a truck.
+Strip the folklore and the comparison still holds on one side. Fast fashion and fast furniture share a marketing department: newness as a subscription. They do not share a disposal department. One fits in a bag. The other needs a truck.
 
 Designers sit on both clocks. A Zara knockoff of a runway jacket can be in a dorm by the time the review is posted. A Wayfair knockoff of a designer chair can be in a living room by the time the designer’s lawyer writes a letter. The legal story is a different article. The material story is this: the jacket will leave. The chair will stay long enough to become embarrassing.
 
