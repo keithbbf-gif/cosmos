@@ -13,13 +13,19 @@ Quality gates (fail closed):
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DRAFT_DIR = ROOT / "content" / "kitchen-island-design-guide" / "drafts"
+DRAFT_DIR = Path(
+    os.environ.get(
+        "COSMOS_ISLAND_DRAFT_DIR",
+        ROOT / "content" / "kitchen-island-design-guide" / "drafts",
+    )
+)
 MIN_DRAFTS = 40
 MIN_WORDS = 280
 REQUIRED_FRONT = ("id", "slug", "title", "stage", "status", "topics")
