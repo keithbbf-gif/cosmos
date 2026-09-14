@@ -13,7 +13,7 @@ figure_dates: "1934–1992"
 meta_description: Wylie J. “Jerry” Dodds (1934–1992) of the Medical College of Wisconsin joined manometry to a barium picture. The birth year is inferred from memorial age. The papers are not.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

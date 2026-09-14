@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Michael Groher’s mid-1980s textbooks made dysphagia an SLP-edited shelf object with a VA accent. Not a sidekick to the 1983 book. A second spine.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

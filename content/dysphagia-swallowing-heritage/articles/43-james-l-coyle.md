@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: James L. Coyle’s Pittsburgh work is the dark-room conscience — recording quality, claims after twenty seconds of fluoro, who is looking. Not a how-to.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -29,11 +29,9 @@ A swallow study is a culture: a slot, a code, a person standing in a dark room. 
 
 Coyle’s neighborhood is the unromantic half of Martin-Harris’s dialect project. If you are going to score a film, the film has to be a film. Pulse rate, contrast, a view that actually includes the crossing — details conference slides skip and lawsuits do not. Professional ethics sits next to the knobs. An SLP who cannot say what the file is *for* is not saved by a good cookie.
 
-Pittsburgh as a city habit: Leslie on the cup, Coyle on the room. Two consciences. This pack will not merge them.
+Pittsburgh as a city habit: Leslie on the cup, Coyle on the room. Two consciences. This pack will not merge them. The city’s communication-science habit is older than Coyle — the sibling profession pack has its own Western Pennsylvania names — but his swallow work is the dark-room half: if you are going to claim a finding, the recording has to be a recording.
 
-Pittsburgh’s communication-science habit is older than Coyle — the sibling profession pack has its own Western Pennsylvania names. His swallow work is the dark-room half of that habit: if you are going to claim a finding, the recording has to be a recording. Pulse rate, contrast, a view that includes the crossing. Details that sound like engineering until a file is subpoenaed.
-
-Teaching pages mention instrumentation courses. Fine. The heritage fact is that someone treated a competency card as insufficient conscience. A card is a start. A file is a claim. The claim is the part that can fail in public. Pittsburgh’s dark rooms are full of claims. Coyle’s papers are about which ones deserved the lights coming up. The rest can stay in the dark with the unrecorded shrug they came from.
+Teaching pages mention instrumentation courses. Fine. The heritage fact is that someone treated a competency card as insufficient conscience. A card is a start. A file is a claim. The claim is the part that can fail in public. Coyle’s papers are about which claims deserved the lights coming up. The rest can stay in the dark with the unrecorded shrug they came from. That is not pessimism. It is what happens when a study becomes a culture with a file name and a dark room that outlives the slot.
 
 ## What later people kept
 

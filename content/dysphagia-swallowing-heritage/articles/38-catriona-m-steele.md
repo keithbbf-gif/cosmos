@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Catriona Steele’s Toronto laboratory treated thin liquid as a measurable object. IDDSI’s science neighbor, not a brand ambassador, and not a kitchen coach.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

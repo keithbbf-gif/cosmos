@@ -12,7 +12,7 @@ tags:
 meta_description: In 1896–98 Walter Cannon put bismuth in a meal and asked Röntgen’s new rays to draw a swallow. The picture, not the later barium brand, is the event.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

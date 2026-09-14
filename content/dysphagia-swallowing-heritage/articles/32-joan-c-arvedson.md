@@ -12,7 +12,7 @@ figure_dates: "living at pack date"
 meta_description: Joan C. Arvedson’s Pediatric Swallowing and Feeding made the children’s-hospital team a portable curriculum. A textbook life, not a home pacing plan.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

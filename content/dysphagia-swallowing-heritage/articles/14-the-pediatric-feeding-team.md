@@ -12,7 +12,7 @@ tags:
 meta_description: Pediatric feeding teams grew from infant cine, NICUs, and textbooks by Arvedson, Brodsky, and Lefton-Greif. A hallway history, not a home feeding plan.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

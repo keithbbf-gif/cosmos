@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Maureen Lefton-Greif’s Hopkins pediatric line is the other American academic address for children’s swallow — reviews, teams, and a name that migrated onto Arvedson’s spine.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

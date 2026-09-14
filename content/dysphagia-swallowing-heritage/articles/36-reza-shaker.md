@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Reza Shaker’s Milwaukee GI laboratory made the UES and the head-lift paper famous. History of a publication. Not a repetition count.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

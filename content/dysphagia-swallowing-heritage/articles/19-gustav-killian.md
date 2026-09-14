@@ -12,7 +12,7 @@ figure_dates: "1860–1921"
 meta_description: Gustav Killian (1860–1921) removed a foreign body through a rigid bronchoscope in 1897. The triangle that later writers attach to Zenker is the quieter residue.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

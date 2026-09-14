@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Rosemary Martino’s TOR-BSST literature tried to make stroke swallow screening a procedure rather than a vibe. History of a screen. Not the items.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

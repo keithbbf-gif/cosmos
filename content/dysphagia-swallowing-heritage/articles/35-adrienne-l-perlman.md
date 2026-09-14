@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Adrienne L. Perlman’s Iowa and Illinois line treated the swallow as physiology you could wire — EMG, timing, the unromantic traces behind a clinic adjective.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -43,11 +43,11 @@ What they had to argue with: clinic culture that wanted a maneuver more than a m
 
 Living — no family, no home. Portrait: placeholder.
 
-If your clinic note cannot survive a millisecond, it is still a story. Perlman’s traces are the unromantic version of that sentence. They will not make a better cup by themselves. They will make a sloppier sentence harder to defend.
+Perlman’s traces will not make a better cup by themselves. They will make a sloppier sentence harder to defend when a colleague asks what “delay” meant on the trace — a small discipline, not a maneuver sheet.
 
 ## Residue
 
-A tracing that does not care about your cookie folklore. The residue is the tracing.
+A tracing that does not care about your cookie folklore. The residue is the tracing — and the millisecond your clinic note still owes it.
 
 ## Portrait
 

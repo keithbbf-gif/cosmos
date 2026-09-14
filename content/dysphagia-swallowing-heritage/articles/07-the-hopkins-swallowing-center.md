@@ -12,7 +12,7 @@ tags:
 meta_description: In 1981 Martin Donner opened a multidisciplinary swallowing center at Johns Hopkins and then a journal, Dysphagia. Colleagues called it the first. A census was never the point.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

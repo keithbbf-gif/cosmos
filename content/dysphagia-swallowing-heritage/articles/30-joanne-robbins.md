@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: JoAnne Robbins’s Wisconsin and Madison VA work made the aging swallow a research object. Lingual strengthening is a literature, not a magazine workout.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

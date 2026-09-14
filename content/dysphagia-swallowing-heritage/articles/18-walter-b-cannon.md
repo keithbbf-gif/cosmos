@@ -13,7 +13,7 @@ figure_dates: "1871–1945"
 meta_description: Walter B. Cannon (1871–1945) stained a living meal with bismuth and asked Röntgen’s rays to draw it. Homeostasis made him famous. The goose made him ours.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

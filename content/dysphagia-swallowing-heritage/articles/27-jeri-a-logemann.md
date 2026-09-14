@@ -13,7 +13,7 @@ figure_dates: "1942–2014"
 meta_description: Jerilyn Ann Logemann (21 May 1942–19 June 2014) wrote the 1983 book that made swallowing a teachable American SLP job. Ph.D., not M.D. Cookie folklore sits on a real method.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -13,7 +13,7 @@ figure_dates: "1879–1944"
 meta_description: Sir Arthur Hurst (1879–1944) of Guy’s wrote cardiospasm and barium into British clinical habit. He had other lives. This pack keeps the swallow one in the room.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

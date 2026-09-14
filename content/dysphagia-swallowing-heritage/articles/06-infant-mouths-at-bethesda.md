@@ -12,7 +12,7 @@ tags:
 meta_description: James Bosma’s NIH and Karolinska cine made the infant mouth a research object — cry, suck, swallow, airway — years before “pediatric feeding team” was a hallway phrase.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

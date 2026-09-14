@@ -12,7 +12,7 @@ tags:
 meta_description: Head-and-neck cancer taught swallow clinicians a second clock — the surgical defect and, later, the radiation that keeps working after the beam stops. History, not a pathway.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -36,7 +36,7 @@ Organ preservation changed the arithmetic. Keep the larynx, accept the beam, hop
 
 ## What the decade thought it was solving
 
-Survival that outran the meal. Laryngectomy voices and laryngectomy swallows, which are not the same job. The partial glossectomee who could talk and not eat, or eat and not be understood. The later organ-preservation bet: keep the larynx, accept the beam, hope the swallow forgives you. Sometimes it does not.
+Survival that outran the meal. Laryngectomy voices and laryngectomy swallows, which are not the same job. The partial glossectomee who could talk and not eat, or eat and not be understood. After the organ-preservation bet named above, sometimes the preserved larynx still loses the meal anyway.
 
 Two or three institutions, not twelve: Jackson’s old cancer rooms as the ancestor; Northwestern’s HNC-and-swallow papers; the later comprehensive cancer center as a place that hired SLPs because the surgeons were tired of being asked about supper.
 

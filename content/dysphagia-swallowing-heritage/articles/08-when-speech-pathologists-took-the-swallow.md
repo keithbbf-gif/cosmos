@@ -12,7 +12,7 @@ tags:
 meta_description: In the 1970s and early 1980s American speech pathologists walked into radiology and cancer wards already owned by other trades. They did not invent the swallow. They made it a job.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -30,7 +30,7 @@ This essay is about the taking, not the victory lap.
 
 George L. Larsen and other clinicians in the late 1960s and 1970s published rehabilitation notes on swallow after oral cancer surgery — papers a later student will meet as “early SLP dysphagia” if the syllabus is honest. The VA system mattered. So did the cancer ward. These were not wellness visits. They were people who had lost a piece of a mouth or a nerve and were still expected to eat.
 
-ASHA would spend the next fifteen years deciding what a competency looked like — preferred practice patterns, later board recognition, the usual machinery of a profession that has just noticed it is doing a new job. That machinery is not this essay’s plot. The plot is the ward: a person who had lost a piece of a mouth and was still expected to eat on Tuesday.
+ASHA would spend the next fifteen years deciding what a competency looked like — preferred practice patterns, later board recognition, the usual machinery of a profession that has just noticed it is doing a new job. That machinery is not this essay’s plot. The plot is Tuesday supper on a ward that already owns the mouth and the tray.
 
 Radiology already had the picture. ENT already had the tube. Nursing already had the tray. The speech pathologist who entered that room entered as a guest who could talk about the oral stage with a teacher’s patience and, increasingly, as a person who wanted the fluoro slot. Guests who want slots start fights. The fights are part of the heritage. They are not a morality play. Radiologists who thought a cookie was a silly object and SLPs who thought a radiologist could not hear a wet voice were both, sometimes, right and tiresome.
 
@@ -40,7 +40,7 @@ Michael Groher’s textbooks, from the mid-1980s onward, are the other American 
 
 Aspiration you could hear and aspiration you could not. The patient who passed a bedside chat and then filled a lung. The laryngectomee and the partial glossectomee who were alive because the surgeon was good and hungry because no one owned the meal. Training programs that still treated swallowing as a Friday lecture.
 
-Two or three institutions, not twelve: the VA hospital as a workplace; Northwestern as the place the 1983 book would come from; ASHA as the body that would have to decide, later, what a competency looked like. The Hotel McAlpin and the Iowa stuttering school are *not* this origin story. They live in `content/slpwow-speech-pathology-history/`. Point, then stay on the meal.
+Two or three institutions, not twelve: the VA hospital as a workplace; Northwestern as the place the 1983 book would come from; ASHA as the body that would still have to write the competency down in ink. The Hotel McAlpin and the Iowa stuttering school are *not* this origin story. They live in `content/slpwow-speech-pathology-history/`. Point, then stay on the meal.
 
 ## Who was left out
 

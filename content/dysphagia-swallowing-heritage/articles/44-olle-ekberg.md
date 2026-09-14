@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Olle Ekberg’s Lund cine radiology is the reminder that the filmed pharynx is not an American SLP invention. European pictures, same crossing.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -29,9 +29,7 @@ American training myths like a 1983 start date. Olle Ekberg’s Lund career — 
 
 Donner’s Hopkins center and Ekberg’s Swedish rooms are cousins, not copies. Both treated the pharynx as a radiology problem that happens to be fast. Both wrote into the same journal Donner founded. The difference that matters for this pack is geographic honesty. A cookie in Evanston is not the first time a human swallow was recorded. Cannon’s plate was already a rumor of motion. European cine made the rumor a loop.
 
-Ekberg’s later editorial and textbook work — swallowing imaging as something you can assign in more than one language — is the continuation. This pack will not inventory every chapter. The point is the address: Lund, not only Chicago and Baltimore.
-
-Lund’s radiology is a European cine address the way Hopkins is an American one. Ekberg’s papers in Donner’s journal are the proof the journal was not a house organ. A Swedish loop in a New York spine. Later textbooks he edited or contributed to made swallowing imaging assignable in more than one language. Students who meet VFSS only as an ASHA competency have not been assigned those chapters. Assign them. The pause button had other parents. Lund is one. A syllabus that cannot name Lund is still telling a national story and calling it a science.
+Ekberg’s later editorial and textbook work — swallowing imaging as something you can assign in more than one language — is the continuation. Lund’s radiology is a European cine address the way Hopkins is an American one. His papers in Donner’s journal are proof the spine was not a house organ: a Swedish loop in a New York binding. Students who meet VFSS only as an ASHA competency have not been assigned those chapters. Assign them. The pause button had other parents. Lund is one. A syllabus that cannot name Lund is still telling a national story and calling it a science.
 
 The filmed pharynx has several birth certificates. This pack will keep more than one on file.
 
@@ -43,11 +41,11 @@ What they had to argue with: North American syllabi that treat VFSS as a nationa
 
 Living — no family, no home. Portrait: placeholder.
 
-Several birth certificates for the filmed pharynx can sit in one folder. Lund’s is one. Evanston’s is another. 1898 Boston is older than both. This pack will not let a 1983 spine retire the others.
+Lund’s loop sits in the folder next to Evanston’s and to 1898 Boston. A 1983 spine does not retire the older flicker. Ekberg’s living career is a reminder that the loop was already European before it was assigned in Evanston — and that Lund belongs on the same syllabus as Baltimore.
 
 ## Residue
 
-A Lund loop and a student in another country who thinks the pause button was born in 1983. The residue is the older flicker.
+A Lund loop and a student in another country who thinks the pause button was born in 1983. The residue is the older flicker — and the syllabus that forgot Lund on purpose, not by accident.
 
 ## Portrait
 

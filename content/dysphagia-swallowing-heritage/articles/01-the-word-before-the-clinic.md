@@ -11,7 +11,7 @@ tags:
 meta_description: Dysphagia is an old Greek complaint, not an SLP invention. Before fluoroscopy and FEES there were caregivers, foreign bodies, and a dictionary word.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

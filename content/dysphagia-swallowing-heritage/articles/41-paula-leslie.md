@@ -12,7 +12,7 @@ figure_dates: "living at pack date"
 meta_description: Paula Leslie’s ethics-of-feeding papers treated the cup as a moral object. Risk, harm, the end of a life — a literature, not a decision for a stranger.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

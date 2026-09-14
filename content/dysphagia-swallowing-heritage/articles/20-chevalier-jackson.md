@@ -13,7 +13,7 @@ figure_dates: "1865–1958"
 meta_description: Chevalier Jackson (1865–1958) built American bronchoesophagology around a clinic of pins, coins, and children. The autobiography is a source and a performance.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

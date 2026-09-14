@@ -13,7 +13,7 @@ tags:
 meta_description: Silent aspiration made the bedside chat look thin. Daniels, Martino, and others turned that fear into screening literature — history of an argument, not a how-to.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

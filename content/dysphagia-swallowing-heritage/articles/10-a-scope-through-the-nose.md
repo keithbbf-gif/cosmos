@@ -12,7 +12,7 @@ tags:
 meta_description: Langmore, Schatz, and Olsen’s 1988 Dysphagia paper described FEESS — later FEES — as a way to look at a swallow when the fluoro room was the wrong room.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

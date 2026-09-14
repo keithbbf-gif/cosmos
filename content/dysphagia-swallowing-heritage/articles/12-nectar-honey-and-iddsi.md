@@ -13,7 +13,7 @@ tags:
 meta_description: American nectar-and-honey labels were a local dialect. IDDSI, from 2013, tried to make texture a shared measurement. History of a vocabulary, not a household diet.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -13,7 +13,7 @@ figure_dates: "1867–1954"
 meta_description: Harris Peyton Mosher (1867–1954) was Harvard’s first full-time professor of laryngology and otology, and a man of the lower esophagus. The Mosher Course outlived him.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -13,7 +13,7 @@ tags:
 meta_description: From Cannon’s 1898 plate to a billing code, a society (1992), and MBSImP, the swallow study became a culture. Two pictures, still blind to different things.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -51,6 +51,6 @@ A student in 2026 can rewind a swallow Cannon could only stain. That sentence is
 
 ## Residue
 
-The residue is a pause button. A student can rewind a swallow Cannon could only catch as a rumor of motion. That is a real gain. It is also a temptation: to treat the rewind as the person. Magendie cut. Cannon stained. Jackson entered. Logemann assigned. Langmore visited the bed. Martin-Harris scored. Somewhere in that list a caregiver still holds a cup. The heritage is the list. The job, for a living clinician, is still the cup — and this magazine will not tell you how to fill it.
+The residue is a pause button and a temptation to mistake the file for the person. Rewind is a real gain; it is not a substitute for the hand on the cup. Magendie cut. Cannon stained. Jackson entered. Logemann assigned. Langmore visited the bed. Martin-Harris scored. Somewhere in that list a caregiver still holds a cup. The heritage is the list. The job, for a living clinician, is still the cup — and this magazine will not tell you how to fill it.
 
 **Further in this series.** Martin-Harris (profile 31). Ekberg (44). Coyle (43). Cannon (18). The foyer (essay 01).

@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Julie Cichero’s Queensland work and the IDDSI framework papers tried to make texture a shared measurement across countries. A translator’s career, not a fridge chart.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -13,7 +13,7 @@ figure_dates: "c. 1920–1992"
 meta_description: Martin W. Donner (c. 1920–1992) ran Hopkins radiology, opened a swallowing center in 1981, and founded the journal Dysphagia. Colleagues said first. He built a meeting.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

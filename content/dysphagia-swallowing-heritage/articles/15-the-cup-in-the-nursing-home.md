@@ -13,7 +13,7 @@ tags:
 meta_description: NPO, thickened cups, and “risk feeding” grew up in nursing homes and ethics papers, not only in fluoro suites. Paula Leslie’s literature is a map of the argument, not a decision for a reader.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

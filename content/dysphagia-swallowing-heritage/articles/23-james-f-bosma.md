@@ -13,7 +13,7 @@ figure_dates: "1916–2001"
 meta_description: James F. Bosma (1916–2001) filmed infant cry and swallow, then spent twenty years at NIH making the infant head an atlas. The 1986 book is the object you can still hold.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

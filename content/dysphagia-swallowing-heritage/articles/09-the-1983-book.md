@@ -12,7 +12,7 @@ tags:
 meta_description: Jeri Logemann’s 1983 Evaluation and Treatment of Swallowing Disorders put a physiology and a cookie into American SLP training. The book is the event. The maneuvers are later arguments.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Stephanie K. Daniels’s clinical-indicator papers after stroke made the bedside a probability, not a clearance. Clusters, not a pocket diagnosis.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -12,7 +12,7 @@ figure_dates: "1783–1855"
 meta_description: François Magendie (1783–1855) made deglutition a reflex you could interrupt. A physiology life, not a swallow clinic.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

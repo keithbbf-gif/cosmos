@@ -11,7 +11,7 @@ tags:
 meta_description: Before anyone filmed a swallow, Magendie’s Paris laboratory treated deglutition as a reflex you could interrupt in an animal and then argue about.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

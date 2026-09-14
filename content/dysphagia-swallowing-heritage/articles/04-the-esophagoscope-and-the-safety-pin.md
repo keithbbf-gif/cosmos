@@ -13,7 +13,7 @@ tags:
 meta_description: Killian’s 1897 bronchoscopy and Chevalier Jackson’s American clinic made the swallowed object a public case, not a household rumor. The safety pin is the mascot. The child is the point.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

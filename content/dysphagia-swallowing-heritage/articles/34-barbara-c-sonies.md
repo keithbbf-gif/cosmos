@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Barbara C. Sonies used ultrasound at NIH to watch a swallow without a lead apron. A third picture, quieter than fluoro or FEES, and not a home gadget.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

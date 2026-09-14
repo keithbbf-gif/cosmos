@@ -13,7 +13,7 @@ tags:
 meta_description: Before the pharynx was an SLP problem, the esophagus was a British and Midwestern one — cardiospasm, webs, and barium as a daily habit at Guy’s and Mayo.
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

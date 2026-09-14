@@ -13,7 +13,7 @@ figure_dates: "living at pack date"
 meta_description: Bonnie Martin-Harris’s MBSImP papers, from 2008 on, tried to make two strangers score the same swallow film. A dialect project, not a treatment pad.
 portrait: null
 portrait_status: note
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -33,7 +33,7 @@ The project also pulled radiology and SLP back into the same sentence: the film 
 
 MUSC as the early public address matters because standardization is easier to parody when you pretend it was born in a brand office. It was born in a teaching hospital that had to train people who would leave. Northwestern later put her in a building that already had Logemann’s ghost. That is not a succession myth. It is a campus that kept hiring swallow.
 
-Reliability studies are dull to read and expensive to run. That dullness is the point. A field that only publishes miracles will not agree on a residue score. Martin-Harris’s bet was that dullness could be a public good.
+Reliability studies are dull to read and expensive to run. That dullness is the point. A field that only publishes miracles will not agree on a residue score. She treated that dullness as a public good worth funding.
 
 ## What later people kept
 
