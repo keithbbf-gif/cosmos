@@ -1,13 +1,22 @@
 ---
 id: 07
 slug: kneehole-pedestal
-title: The kneehole is not a style
+title: "The kneehole is not a style"
+meta_description: "The kneehole is not a style. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design, proportions]
+figure_image: ../assets/images/kneehole-desk-kensington.jpg
 ---
-
 The kneehole is not a style. It is a place for your legs.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/kneehole-desk-kensington.jpg" alt="Kneehole desk with marquetry — pedestal blocks with a void for the writer's knees" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Kneehole desk with marquetry. Wikimedia Commons contributor. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Eighteenth-century cabinetmakers pulled the drawers into two stacks and left a void in the middle so a person could sit close to the work. That void is the kneehole. Pedestals are just the stacks given a heavier name. Pedestal desk, kneehole desk — same family. One working face. Drawers where your hands can reach without standing up.
 

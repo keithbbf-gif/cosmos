@@ -1,13 +1,22 @@
 ---
 id: 06
 slug: partner-desk
-title: A partner desk is two desks sharing a carcass
+title: "A partner desk is two desks sharing a carcass"
+meta_description: "A partner desk is two desks sharing a carcass. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design]
+figure_image: ../assets/images/partners-desk-am-91419.jpg
 ---
-
 A partner desk is two desks pretending to be one piece of furniture, and that is not an insult.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/partners-desk-am-91419.jpg" alt="Partners desk with two working faces sharing one carcass — banking-house form, not a big pedestal" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Partners desk with two working faces sharing one carcass. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Nineteenth-century banks and counting houses put two clerks, or a partner and a clerk, on opposite sides of one carcass. Drawers both ways. Kneeholes both ways. A top wide enough that ledgers did not collide in the middle. The furniture encoded a social fact: two people were going to sit in each other's air and pretend it was efficiency.
 

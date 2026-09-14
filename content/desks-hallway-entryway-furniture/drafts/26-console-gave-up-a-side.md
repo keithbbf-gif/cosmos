@@ -1,13 +1,22 @@
 ---
 id: 26
 slug: console-gave-up-a-side
-title: The console is a table that gave up one long side
+title: "The console is a table that gave up one long side"
+meta_description: "The console is a table that gave up one long side. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway, design, proportions]
+figure_image: ../assets/images/console-table-met-dp112643.jpg
 ---
-
 The console is a table that gave up one long side.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/console-table-met-dp112643.jpg" alt="Console table against a wall — one long side surrendered to the architecture" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Console table against a wall. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 French rooms pinned tables to walls with brackets. English and American rooms made free-standing versions that still behaved as if the wall were a partner. The depth shrank. The back could be unfinished. The front became a face. That is the form we now park opposite a sofa or beside a door and argue about.
 

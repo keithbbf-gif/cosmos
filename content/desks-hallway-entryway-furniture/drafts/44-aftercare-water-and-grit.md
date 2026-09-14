@@ -1,13 +1,22 @@
 ---
 id: 44
 slug: aftercare-water-and-grit
-title: Aftercare in a hall is water and grit
+title: "Aftercare in a hall is water and grit"
+meta_description: "Aftercare in a hall is water and grit. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 7-live-with-it
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, desk, design]
+figure_image: ../assets/images/umbrella-stand-am-824-1.jpg
 ---
-
 Aftercare in a hall is about water and grit, not lemon oil advertisements.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/umbrella-stand-am-824-1.jpg" alt="Umbrella stand after wet weather — aftercare in a hall is water, salt, and grit" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Umbrella stand after wet weather. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Wipe the drip pan. Shake the mat. Run a broom under the bench before the grit becomes a sandpaper for the finish. Once a season, take the hooks off if they are designed to come off and clean the wall rail. Look at the feet. If a leveler walked, the bench will rock and a child will notice with their teeth.
 

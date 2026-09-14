@@ -1,13 +1,22 @@
 ---
 id: 15
 slug: twenty-nine-inches
-title: Twenty-nine inches is not a suggestion I invented
+title: "Twenty-nine inches is not a suggestion I invented"
+meta_description: "Twenty-nine inches is not a suggestion I invented. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design, proportions]
+figure_image: ../assets/images/writing-desk-met-dp14204.jpg
 ---
-
 Twenty-nine inches is not a suggestion I invented.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/writing-desk-met-dp14204.jpg" alt="Writing table proportions in a museum photograph — seated height near twenty-nine to thirty inches" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Writing table proportions in a museum photograph. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 American case shops have landed seated writing tops around 29–30 inches for a long time. European antiques sometimes sit a little higher or lower. Drafting tables tilt and jump. Kitchen counters are 36 and will ruin a writing session if you treat them as a desk. None of these numbers are law. They are habits that fit a lot of bodies in a wooden chair with an 18-inch seat.
 

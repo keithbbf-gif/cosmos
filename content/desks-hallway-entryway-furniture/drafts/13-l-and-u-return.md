@@ -1,13 +1,22 @@
 ---
 id: 13
 slug: l-and-u-return
-title: An L-desk is a confession that one rectangle was not enough
+title: "An L-desk is a confession that one rectangle was not enough"
+meta_description: "An L-desk is a confession that one rectangle was not enough. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design, proportions]
+figure_image: ../assets/images/l-shaped-desk-1911.jpg
 ---
-
 An L-desk is a confession that one rectangle was not enough.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/l-shaped-desk-1911.jpg" alt="Early twentieth-century L-shaped desk layout — one rectangle was not enough surface" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Early twentieth-century L-shaped desk layout. Internet Archive / Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 The return is the short wing. It comes from the typewriter and from the clerk who needed a second pile. In a modern room it holds the printer you swore you would not own, the scanner, the second screen, the cat. I have never met an L that stayed as clean as the drawing.
 

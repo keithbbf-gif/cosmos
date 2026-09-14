@@ -1,13 +1,22 @@
 ---
 id: 01
 slug: why-this-folder
-title: Why this folder exists
+title: "Why this folder exists"
+meta_description: "Why this folder exists. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 1-brief
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [intro, voice, bbf, collections]
+figure_image: ../assets/images/writing-desk-met-113085.jpg
 ---
-
 I am not going to start with a product shot.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/writing-desk-met-113085.jpg" alt="American writing desk in a museum collection — staged history beside BBF collections, not a catalog hero" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. American writing desk in a museum collection. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 If I start with a product shot, you will look at the finish, and that is a good way to waste a Saturday and a bad way to understand a desk or a hall. The finish is the easy part. The hard part is the job. A desk has to hold work overnight without making you feel like a guest in your own room. A hall piece has to take a wet coat, a bag, and a body in a hurry, and still leave a path for the next person.
 

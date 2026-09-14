@@ -1,13 +1,22 @@
 ---
 id: 10
 slug: campaign-desk
-title: Campaign furniture is a desk that had to survive a hold
+title: "Campaign furniture is a desk that had to survive a hold"
+meta_description: "Campaign furniture is a desk that had to survive a hold. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design]
+figure_image: ../assets/images/campaign-desk-bartow-pell.jpg
 ---
-
 Campaign furniture is what you get when the British Army decides a desk has to survive a ship.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/campaign-desk-bartow-pell.jpg" alt="Campaign-style desk with traveling furniture context — knock-down forms that survived a hold" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Campaign-style desk with traveling furniture context. Wikimedia Commons. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Eighteenth- and nineteenth-century officers took a household to war and to colony. The furniture had to knock down, crate, and not shame the owner when it was assembled in a tent or a bungalow. Brass corners. Short, often turned, legs that unscrew. Chests that become sofas. Desks that are boxes until the gallery goes on. The look people now call "campaign" in a catalog is usually the brass and the flush handles. The job was travel.
 

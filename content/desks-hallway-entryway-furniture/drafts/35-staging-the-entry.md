@@ -1,13 +1,22 @@
 ---
 id: 35
 slug: staging-the-entry
-title: Staging an entry is traffic control
+title: "Staging an entry is traffic control"
+meta_description: "Staging an entry is traffic control. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, staging]
+figure_image: ../assets/images/parlor-greek-revival-met.jpg
 ---
-
 Staging an entry is not decorating. It is traffic control.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/parlor-greek-revival-met.jpg" alt="Greek Revival parlor staging — traffic control is not the same as decorating" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Greek Revival parlor staging. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 I use staging here as the shop word: how you set the objects so the next body can move. Not the real-estate word, though real-estate staging stole our language and filled bowls with lemons. Lemons do not take a wet glove. A tray does.
 

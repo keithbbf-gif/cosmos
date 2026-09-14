@@ -1,13 +1,22 @@
 ---
 id: 25
 slug: pier-table-is-not-hall
-title: A pier table is not a hall table
+title: "A pier table is not a hall table"
+meta_description: "A pier table is not a hall table. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway, design]
+figure_image: ../assets/images/pier-table-met-dp252446.jpg
 ---
-
 A pier table is not a hall table, and I am tired of catalogs that mix them.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/pier-table-met-dp252446.jpg" alt="Pier table between windows in a parlor — not a console at the front door" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Pier table between windows in a parlor. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 The pier is the wall between two windows. In early nineteenth-century American parlors — Philadelphia inventories are blunt about this — the fashionable table sat there, often with a mirrored back, often under a pier glass, bouncing light and showing you off to yourself. Marble tops. Gilt. A form that wanted to be architecture. Chipstone's furniture journal has walked the inventories: these things lived in front parlors. They almost never lived in halls.
 

@@ -1,13 +1,22 @@
 ---
 id: 23
 slug: hall-as-a-room
-title: If the hallway is a room, furnish it like one
+title: "If the hallway is a room, furnish it like one"
+meta_description: "If the hallway is a room, furnish it like one. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/hall-cupboard-am-1991-2.jpg
 ---
-
 If the hallway is a room, it deserves furniture that admits it.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/hall-cupboard-am-1991-2.jpg" alt="Hall cupboard with mirror and hooks — furnish the passage like a room, not a tunnel" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Hall cupboard with mirror and hooks. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 American houses before the bungalow often had a hall you could stand in with your hat on and not feel like you were in a closet. That hall took a stand, a chair, a table, a stair. It had a job: receive, sort, and release people. Furniture historians get excited about the parlor. I get excited about the strip of floor that decided whether the parlor would stay clean.
 

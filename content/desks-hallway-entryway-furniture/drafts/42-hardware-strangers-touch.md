@@ -1,13 +1,22 @@
 ---
 id: 42
 slug: hardware-strangers-touch
-title: Hardware is the only part strangers will touch
+title: "Hardware is the only part strangers will touch"
+meta_description: "Hardware is the only part strangers will touch. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, collections]
+figure_image: ../assets/images/hall-cupboard-am-1991-5.jpg
 ---
-
 Hardware is the only part of a hall piece that strangers will touch.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/hall-cupboard-am-1991-5.jpg" alt="Hall cupboard hardware and mirror — strangers touch pulls before they touch your kitchen" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Hall cupboard hardware and mirror. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 They will not caress the finish. They will grab a hook, a pull, a knob on a storm-door-adjacent cabinet, the edge of a bench. If the hook is sharp, they will bleed and you will hear about it. If the pull is loose, they will finish the loosening. If the hook is pretty and weak, the coat will teach physics.
 

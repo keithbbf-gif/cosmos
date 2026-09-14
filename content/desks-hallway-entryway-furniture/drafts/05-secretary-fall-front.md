@@ -1,13 +1,22 @@
 ---
 id: 05
 slug: secretary-fall-front
-title: The secretary is a closet that learned to write
+title: "The secretary is a closet that learned to write"
+meta_description: "The secretary is a closet that learned to write. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/secretary-desk-met-dp105743.jpg
 ---
-
 The secretary is a closet that learned to write.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/secretary-desk-met-dp105743.jpg" alt="Fall-front secretary desk with closed lid — writing surface that locks the pigeonholes" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Fall-front secretary desk with closed lid. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 In the eighteenth century, European cabinetmakers hinged a flap on a cabinet, lined the interior with pigeonholes, and called the result a secrétaire à abattant — a fall-front. You drop the flap. It becomes the desk. You lift the flap. The work disappears. That is a moral furniture. It lets a parlor stay a parlor after the letters are done.
 

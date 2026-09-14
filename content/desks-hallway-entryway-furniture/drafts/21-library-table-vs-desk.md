@@ -1,13 +1,22 @@
 ---
 id: 21
 slug: library-table-vs-desk
-title: A library table is a desk that invited company
+title: "A library table is a desk that invited company"
+meta_description: "A library table is a desk that invited company. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design]
+figure_image: ../assets/images/library-table-met-dt185.jpg
 ---
-
 A library table is a desk that invited company.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/library-table-met-dt185.jpg" alt="Library table with generous top — desk that invited someone across the table" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Library table with generous top. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 It sits in the middle of a room or under a window, drawers in the apron, legs you can walk around, a top you can spread a newspaper or a map on. Nineteenth-century libraries used them because a pedestal desk is a one-body machine and a library is a two- or three-body room. You can sit opposite someone. You can stand along the side. You can leave the books out overnight and the table will forgive you, which is my desk test, but it will also forgive a guest, which is the extra test.
 

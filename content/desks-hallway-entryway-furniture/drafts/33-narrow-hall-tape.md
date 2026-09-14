@@ -1,13 +1,22 @@
 ---
 id: 33
 slug: narrow-hall-tape
-title: A narrow hall will tell you the truth
+title: "A narrow hall will tell you the truth"
+meta_description: "A narrow hall will tell you the truth. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, proportions]
+figure_image: ../assets/images/berrington-hall-tree.jpg
 ---
-
 A narrow hall will tell you the truth if you let a tape do the talking.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/berrington-hall-tree.jpg" alt="Long narrow hall with tree and passage — tape the walkway before you buy romance" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Long narrow hall with tree and passage. geograph.org.uk / Wikimedia Commons. CC BY-SA 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 I measure the clear width at the pinch points: the open door, the radiator, the stair newel, the thermostat someone put at hip height. Then I subtract the furniture. A 36-inch hall with a 16-inch console leaves 20 inches if the console sits tight. Twenty inches is a shoulder turn. Two people cannot pass without a conversation they did not want. I like 36 inches of remaining walkway when I can get it. I will take 30 if the household is one body at a time. Below that I start refusing objects.
 

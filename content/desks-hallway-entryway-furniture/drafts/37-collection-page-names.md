@@ -1,13 +1,22 @@
 ---
 id: 37
 slug: collection-page-names
-title: A collection page that misnames a bench teaches the wrong century
+title: "A collection page that misnames a bench teaches the wrong century"
+meta_description: "A collection page that misnames a bench teaches the wrong century. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 6-bbf-adjacent
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [bbf, collections, hallway, entryway, history]
+figure_image: ../assets/images/jasper-desk-catalog-page-11.jpg
 ---
-
 A collection page that calls every bench a hall tree is teaching the wrong century.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/jasper-desk-catalog-page-11.jpg" alt="Historic desk catalog engraving — collection names must survive the century they borrow" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Historic desk catalog engraving. Digital Public Library of America / Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Words are how buyers learn. If we say hall tree and mean a shoe bench with three hooks, the next time that buyer sees a Victorian stand they will think it is the same object with extra carving. Then they will buy the stand for a 36-inch hall and hate us. If we say secretary and mean a writing table with a hutch, they will buy a hutch and wonder why the work cannot disappear. The damage is quiet and it compounds.
 

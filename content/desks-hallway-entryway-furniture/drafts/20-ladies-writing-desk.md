@@ -1,13 +1,22 @@
 ---
 id: 20
 slug: ladies-writing-desk
-title: The small writing desk was a room, not a gender
+title: "The small writing desk was a room, not a gender"
+meta_description: "The small writing desk was a room, not a gender. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk, design]
+figure_image: ../assets/images/lady-writing-desk-master-half-length.jpg
 ---
-
 The small writing desk was a room, not a gender.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/lady-writing-desk-master-half-length.jpg" alt="Small writing desk in a period painting — a room-sized surface, not a gender label" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Small writing desk in a period painting. Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Nineteenth-century catalogs said "ladies' desk" the way they said "ladies' chair": smaller, prettier, often a fall-front or a tambour on a delicate frame, meant for a bedroom or a morning room. The work was real — letters, accounts of a household, the correspondence that ran a family. The name was a cage. The form was a gift to small rooms.
 

@@ -1,13 +1,22 @@
 ---
 id: 12
 slug: typewriter-changed-the-top
-title: The typewriter did more to a desk than any designer after 1900
+title: "The typewriter did more to a desk than any designer after 1900"
+meta_description: "The typewriter did more to a desk than any designer after 1900. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/typewriter-desk-bletchley.jpg
 ---
-
 The typewriter did more to a desk than any designer after 1900.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/typewriter-desk-bletchley.jpg" alt="Desk with manual typewriter — machine height and carriage return changed the top" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Desk with manual typewriter. Wikimedia Commons. CC BY 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 A pen wants a slight slope or a flat blotter and a place for the inkwell. A typewriter wants a lower, stiffer surface, room for the carriage to travel, and often a return — a second surface at a right angle — so the paper and the extra machine have a home. Office furniture after the 1890s is a conversation with a machine. Steel cases. Linoleum tops. Drop-front typewriter compartments that look clever until the machine weighs thirty pounds and the hinges sag.
 

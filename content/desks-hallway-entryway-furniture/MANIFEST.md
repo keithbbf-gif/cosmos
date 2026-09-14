@@ -62,4 +62,6 @@ Required brief topics and where they live:
 | 43 | sequence-walk-in-to-leave | 7-live-with-it | Sequence — walk in, put something down, sit, hang, leave |
 | 44 | aftercare-water-and-grit | 7-live-with-it | Aftercare in a hall is water and grit |
 
-Last `tools/check_desk_entryway_drafts.py` pass: **44 drafts**, **16,300 words**, min **332**, max **510**, unique openings **44/44**, status `OK`.
+Last `tools/check_desk_entryway_drafts.py` pass: **44 drafts**, **~18,900 body words** (includes figure captions), min **~388**, max **~575**, unique openings **44/44**, **44/44** Commons `<figure>` embeds, `voice_check: edited`, status `OK`.
+
+Image authority: `RIGHTS.md` + `assets/images/manifest.json`.

@@ -1,13 +1,22 @@
 ---
 id: 29
 slug: umbrella-drip
-title: The drip pan is the most honest hardware in the house
+title: "The drip pan is the most honest hardware in the house"
+meta_description: "The drip pan is the most honest hardware in the house. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway, design]
+figure_image: ../assets/images/umbrella-stand-am-824.jpg
 ---
-
 The umbrella drip pan is the most honest hardware in the house.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/umbrella-stand-am-824.jpg" alt="Victorian umbrella stand with drip tray — honest hardware for wet fabric" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Victorian umbrella stand with drip tray. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Victorian hall stands put a well at the bottom, often zinc or another metal that could take water, because the umbrella had come inside and it was not going to apologize. That pan is a sentence about weather. Everything else on the stand is etiquette. The pan is physics.
 

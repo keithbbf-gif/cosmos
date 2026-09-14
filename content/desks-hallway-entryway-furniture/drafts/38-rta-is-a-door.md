@@ -1,13 +1,22 @@
 ---
 id: 38
 slug: rta-is-a-door
-title: Ready-to-assemble is a door, not a sin
+title: "Ready-to-assemble is a door, not a sin"
+meta_description: "Ready-to-assemble is a door, not a sin. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 6-bbf-adjacent
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [bbf, collections, design, desk, hallway]
+figure_image: ../assets/images/slant-front-desk-connecticut.jpg
 ---
-
 Ready-to-assemble is a door, not a sin.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/slant-front-desk-connecticut.jpg" alt="Queen Anne slant-front desk — ready-to-assemble is a door, not a sin against solid wood" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Queen Anne slant-front desk. Wikimedia Commons. CC BY-SA 3.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 A crate that becomes a desk on a Saturday is how a lot of American work found a surface after 1980. Cam locks, dowels, paper laminate, a hex key, a missing barrel nut. I have cursed those boxes. I have also watched a student write a thesis on one. Usefulness is not a joinery contest. It is a surface that holds the night.
 

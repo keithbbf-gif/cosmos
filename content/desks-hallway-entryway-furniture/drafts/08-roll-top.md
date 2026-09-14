@@ -1,13 +1,22 @@
 ---
 id: 08
 slug: roll-top
-title: The roll-top is a curtain, not a personality
+title: "The roll-top is a curtain, not a personality"
+meta_description: "The roll-top is a curtain, not a personality. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/rolltop-desk-met-dp270770.jpg
 ---
-
 The roll-top is a curtain, not a personality.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/rolltop-desk-met-dp270770.jpg" alt="Oak roll-top desk with tambour curtain closed — privacy lid, not a personality test" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Oak roll-top desk with tambour curtain closed. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Late nineteenth-century American offices had a paper problem and a pride problem. The work was ugly when you left it. The S-curtain — slats glued to a canvas, running in a track — let a clerk hide the ugliness without stacking it. That is a tambour. Furniture people will say tambour if they want to sound like they have been in a shop. Roll-top is the name that stuck because you can see it from the door.
 

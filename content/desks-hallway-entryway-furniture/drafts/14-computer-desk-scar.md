@@ -1,13 +1,22 @@
 ---
 id: 14
 slug: computer-desk-scar
-title: The computer desk of 1994 apologized for a beige box
+title: "The computer desk of 1994 apologized for a beige box"
+meta_description: "The computer desk of 1994 apologized for a beige box. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/office-desk-typewriter-fortepan.jpg
 ---
-
 The computer desk of 1994 was a piece of furniture that apologized for a beige box.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/office-desk-typewriter-fortepan.jpg" alt="Mid-century office desk with typewriter era hardware — ancestor of the beige-box apology desk" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Mid-century office desk with typewriter era hardware. Fortepan / Wikimedia Commons. CC BY-SA 3.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 It had a cubby for a tower, a sliding tray for a keyboard, a hole for cables that was never in the right place, and a hutch that held speakers the size of lunchboxes. The monitor sat too high or too low. The printer lived on the top shelf so you could hear every page. We called it a computer desk because we were ashamed of the computer. Furniture was supposed to hide the future.
 

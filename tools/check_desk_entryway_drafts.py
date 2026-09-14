@@ -9,10 +9,14 @@ Quality gates (fail closed):
   - minimum body length (words after frontmatter)
   - required brief topics appear in at least one draft's topics list
   - refuse common brochure / LLM-slop phrases
+  - voice_check: edited, lane, meta_description, figure_image in frontmatter
+  - one Commons/museum <figure class="desk-entry-figure"> per draft (SEO alt + figcaption)
+  - RIGHTS.md present; raster files on disk match embeds
 """
 
 from __future__ import annotations
 
+import json
 import os
 import re
 import sys
@@ -20,6 +24,9 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+PACK_DIR = ROOT / "content" / "desks-hallway-entryway-furniture"
+RIGHTS = PACK_DIR / "RIGHTS.md"
+IMAGE_DIR = PACK_DIR / "assets" / "images"
 DRAFT_DIR = Path(
     os.environ.get(
         "COSMOS_DESK_ENTRY_DRAFT_DIR",
@@ -28,7 +35,19 @@ DRAFT_DIR = Path(
 )
 MIN_DRAFTS = 40
 MIN_WORDS = 280
-REQUIRED_FRONT = ("id", "slug", "title", "stage", "status", "topics")
+MIN_ALT_LEN = 48
+REQUIRED_FRONT = (
+    "id",
+    "slug",
+    "title",
+    "meta_description",
+    "stage",
+    "status",
+    "lane",
+    "voice_check",
+    "topics",
+    "figure_image",
+)
 REQUIRED_TOPICS = {
     "history": "history",
     "desk": "desk",
@@ -60,6 +79,13 @@ SLOP = (
 )
 
 FM_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.S)
+FIGURE_CLASS_RE = re.compile(
+    r'<figure class="desk-entry-figure">\s*'
+    r'<img src="(?P<src>\.\./assets/images/[^"]+)" alt="(?P<alt>[^"]+)"[^>]*/>\s*'
+    r"<figcaption>Figure 1\.[^<]+RIGHTS\.md\.</figcaption>\s*"
+    r"</figure>",
+    re.S,
+)
 
 
 def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
@@ -91,6 +117,14 @@ def main() -> int:
     warnings: list[str] = []
     rows: list[dict] = []
 
+    if not RIGHTS.is_file():
+        errors.append(f"missing {RIGHTS.relative_to(ROOT)}")
+    manifest = IMAGE_DIR / "manifest.json"
+    if not manifest.is_file():
+        errors.append(f"missing {manifest.relative_to(ROOT)}")
+    else:
+        manifest_slugs = {r["slug"] for r in json.loads(manifest.read_text(encoding="utf-8"))}
+
     if len(files) < MIN_DRAFTS:
         errors.append(f"draft count {len(files)} < {MIN_DRAFTS}")
 
@@ -108,6 +142,28 @@ def main() -> int:
             errors.append(f"{path.name}: missing frontmatter {missing}")
         if fm.get("status") != "staged":
             errors.append(f"{path.name}: status {fm.get('status')!r} is not staged")
+        if fm.get("voice_check") != "edited":
+            errors.append(f"{path.name}: voice_check {fm.get('voice_check')!r} != edited")
+        if fm.get("lane") != "bbf-desks-hall":
+            errors.append(f"{path.name}: lane {fm.get('lane')!r} != bbf-desks-hall")
+        slug = fm.get("slug", "")
+        if manifest.is_file() and slug and slug not in manifest_slugs:
+            errors.append(f"{path.name}: slug {slug!r} missing from image manifest")
+        figs = FIGURE_CLASS_RE.findall(body)
+        if len(figs) != 1:
+            errors.append(f"{path.name}: want exactly one desk-entry-figure embed")
+        else:
+            src, alt = figs[0]
+            if fm.get("figure_image") != src:
+                errors.append(f"{path.name}: figure_image {fm.get('figure_image')!r} != embed {src!r}")
+            if len(alt) < MIN_ALT_LEN:
+                errors.append(f"{path.name}: img alt too short ({len(alt)} < {MIN_ALT_LEN})")
+            rel_file = src.replace("../assets/images/", "")
+            disk = IMAGE_DIR / rel_file
+            if not disk.is_file():
+                errors.append(f"{path.name}: missing raster {rel_file}")
+        if "<!-- figure:commons -->" not in body:
+            errors.append(f"{path.name}: missing figure:commons marker")
         wc = words(body)
         if wc < MIN_WORDS:
             errors.append(f"{path.name}: {wc} words < {MIN_WORDS}")

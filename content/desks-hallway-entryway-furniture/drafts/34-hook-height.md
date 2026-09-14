@@ -1,13 +1,22 @@
 ---
 id: 34
 slug: hook-height
-title: Hook height is a kindness or a slight
+title: "Hook height is a kindness or a slight"
+meta_description: "Hook height is a kindness or a slight. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, proportions]
+figure_image: ../assets/images/coat-stand-wrought-iron.jpg
 ---
-
 Hook height is a kindness or a slight, depending on who lives there.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/coat-stand-wrought-iron.jpg" alt="Coat stand hook height in a furnished entry — kindness or slight for adults and children" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Coat stand hook height in a furnished entry. Wikimedia Commons. CC BY 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Adult coats want a hook near 60–66 inches so the hem clears the bench and the floor. Children want a row near 36–42 inches so they can hang the coat without a speech. Guests want one hook that is empty and obvious. If every hook is at a "designer's eye line," you have designed for a photograph of empty pegs.
 

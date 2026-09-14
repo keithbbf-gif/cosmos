@@ -1,13 +1,22 @@
 ---
 id: 32
 slug: settle-and-the-bench
-title: The settle is the hall bench with a longer memory
+title: "The settle is the hall bench with a longer memory"
+meta_description: "The settle is the hall bench with a longer memory. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway, design]
+figure_image: ../assets/images/settle-oak-am-11930.jpg
 ---
-
 The settle is the hall bench with a longer memory.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/settle-oak-am-11930.jpg" alt="Oak settle bench — hall seating with a longer memory than a photo bench" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Oak settle bench. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 A settle is a bench with a back, sometimes with arms, sometimes with a chest under the seat, that sat near fires and in halls when those were the same kind of room — cold, public, a place to wait. American and British houses used them for centuries before anyone said "entryway bench." The hall stand borrowed a seat now and then. The mudroom stole the chest. The collection page stole the silhouette and lost the thickness.
 

@@ -1,13 +1,22 @@
 ---
 id: 09
 slug: wooton-indianapolis
-title: Indiana built a desk that behaved like a filing cabinet
+title: "Indiana built a desk that behaved like a filing cabinet"
+meta_description: "Indiana built a desk that behaved like a filing cabinet. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/wooton-desk-chester-arthur.jpg
 ---
-
 Indiana made a desk that looked like a church organ and behaved like a filing cabinet.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/wooton-desk-chester-arthur.jpg" alt="Wooton patent cabinet office secretary — Indiana desk with locking wings and cubbies" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Wooton patent cabinet office secretary. Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 William S. Wooton was a Quaker minister and a furniture man. On 6 October 1874 the United States Patent Office issued patent 155,604 for what he called a cabinet office secretary. Indianapolis built them. The 1876 Centennial Exhibition in Philadelphia gave the form a stage. People still call it the King of Desks, which is a Smithsonian phrase with a straight face, and I will allow it because the object is genuinely strange.
 

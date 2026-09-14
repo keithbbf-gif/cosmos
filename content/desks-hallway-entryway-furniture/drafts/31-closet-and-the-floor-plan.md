@@ -1,13 +1,22 @@
 ---
 id: 31
 slug: closet-and-the-floor-plan
-title: The closet did not kill the hall tree. The floor plan did.
+title: "The closet did not kill the hall tree. The floor plan did."
+meta_description: "The closet did not kill the hall tree. The floor plan did.. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/independence-hall-interior.jpg
 ---
-
 The closet did not kill the hall tree. The floor plan did.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/independence-hall-interior.jpg" alt="Colonial interior passage — built-in storage changed what the hall had to carry" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Colonial interior passage. Wikimedia Commons. CC BY-SA 3.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 By the time built-in coat closets became standard in American houses, the foyer had already shrunk or vanished. Bungalows opened into living rooms. Ranches offered a mat and a hope. There was no volume of air for a 90-inch carved stand, and there was a door in the wall that could hide the coats. The freestanding piece looked like a leftover relative. Of course it went to the barn.
 

@@ -1,13 +1,22 @@
 ---
 id: 16
 slug: depth-is-where-people-lie
-title: Depth is where people lie to themselves
+title: "Depth is where people lie to themselves"
+meta_description: "Depth is where people lie to themselves. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design, proportions]
+figure_image: ../assets/images/library-table-met-dp351099.jpg
 ---
-
 Depth is where people lie to themselves.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/library-table-met-dp351099.jpg" alt="Library table depth in a museum view — long top invited company, not keyboard trays" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Library table depth in a museum view. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 They buy 20 inches because the room is tight, then they add a monitor, a lamp, a notebook, and a drink. The monitor wins. The notebook lives on a chair. The drink lives on a windowsill. Then they say the desk is too small, which is true, and that the room is too small, which may be true, and that they need an L, which is how a tight room becomes a trapped room.
 

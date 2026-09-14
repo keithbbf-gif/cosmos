@@ -1,13 +1,22 @@
 ---
 id: 04
 slug: board-on-trestles
-title: Before it was a desk it was a board on trestles
+title: "Before it was a desk it was a board on trestles"
+meta_description: "Before it was a desk it was a board on trestles. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 2-desk-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, desk]
+figure_image: ../assets/images/luttrell-psalter-table.jpg
 ---
-
 Before it was a desk it was a board on trestles.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/luttrell-psalter-table.jpg" alt="Medieval trestle table scene from the Luttrell Psalter — board and legs before the fixed desk" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Medieval trestle table scene from the Luttrell Psalter. British Library / Wikimedia Commons. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Medieval and early modern rooms did not owe a piece of furniture a permanent job. You ate, you wrote, you counted coin, you took the board down. The trestle table is the ancestor that furniture historians get polite about and shops still understand. A thick top. Legs that can leave. A surface that exists because work exists, not because a floor plan had a "home office" label.
 

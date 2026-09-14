@@ -1,13 +1,22 @@
 ---
 id: 19
 slug: when-to-refuse-a-desk
-title: Some rooms should not get a desk
+title: "Some rooms should not get a desk"
+meta_description: "Some rooms should not get a desk. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design, proportions]
+figure_image: ../assets/images/slant-front-desk-met-147708.jpg
 ---
-
 Some rooms should not get a desk.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/slant-front-desk-met-147708.jpg" alt="Slant-front desk in a museum — beautiful form that still has to fit the room" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Slant-front desk in a museum. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 I will refuse a desk in a bedroom that already lost its walking space to a bed and a dresser. I will refuse a desk in a hall that is doing hall work — the mail will eat the writing, the wet will eat the finish, and you will stand up every time the door opens. I will refuse a desk in front of the only good window if the monitor will close the window like a shutter. Light is not furniture. Do not murder it for a hutch.
 

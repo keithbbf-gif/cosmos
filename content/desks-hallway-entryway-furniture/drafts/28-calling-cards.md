@@ -1,13 +1,22 @@
 ---
 id: 28
 slug: calling-cards
-title: Calling cards made a piece of furniture
+title: "Calling cards made a piece of furniture"
+meta_description: "Calling cards made a piece of furniture. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/wrought-iron-coat-umbrella-stand.jpg
 ---
-
 Calling cards made a piece of furniture.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/wrought-iron-coat-umbrella-stand.jpg" alt="Wrought iron hall stand with umbrella well — social hardware for coats and weather" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Wrought iron hall stand with umbrella well. Wikimedia Commons. CC BY 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Mid-to-late nineteenth-century visits ran on paper. You left a card. You might not be received. The hall was the mailbox and the checkpoint. Better hall stands and consoles had a small tray or a receiver — silver if you were performing, wood if you were tired. The furniture exists because the ritual existed. When the ritual died, the tray became a place for keys, then for takeout menus, then for the thing nobody claims.
 

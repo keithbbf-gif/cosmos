@@ -1,13 +1,22 @@
 ---
 id: 17
 slug: drawers-that-earn-keep
-title: A drawer that will not take a folder is a jewelry box
+title: "A drawer that will not take a folder is a jewelry box"
+meta_description: "A drawer that will not take a folder is a jewelry box. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design]
+figure_image: ../assets/images/partners-desk-mahogany-drawers.jpg
 ---
-
 A drawer that will not take a file folder is a jewelry box in the wrong room.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/partners-desk-mahogany-drawers.jpg" alt="Partner desk drawer bank — a drawer that will not take a folder is jewelry storage" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Partner desk drawer bank. Wikimedia Commons. CC BY-SA 3.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 I am not against jewelry boxes. I am against lying about storage. Pencil drawers are honest when they are shallow and close to the writing hand. Box drawers are honest when they take the stapler, the stamps, the tape that always vanishes. File drawers are honest when they take letter or legal hanging files without pinching the tabs. If a collection page says "storage desk" and shows three pencil trays, the page should say "small things."
 

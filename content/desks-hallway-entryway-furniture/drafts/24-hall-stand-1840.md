@@ -1,13 +1,22 @@
 ---
 id: 24
 slug: hall-stand-1840
-title: The hall stand is a nineteenth-century invention
+title: "The hall stand is a nineteenth-century invention"
+meta_description: "The hall stand is a nineteenth-century invention. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/renaissance-revival-hall-stand.png
 ---
-
 The hall stand is a nineteenth-century invention with almost no ancestors.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/renaissance-revival-hall-stand.png" alt="Renaissance Revival walnut hall stand — Victorian etiquette machine with mirror and drip pan" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Renaissance Revival walnut hall stand. Wikimedia Commons. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Around 1840, houses large enough to have a true front hall needed a place for the outdoor self. Hooks. A mirror. An umbrella well, because the umbrella had become a middle-class object and it was wet. Sometimes a shelf for gloves or a card receiver. Furniture writers have said it plainly: this is not a medieval form. It is not a colonial form. It is a Victorian machine for etiquette and weather.
 

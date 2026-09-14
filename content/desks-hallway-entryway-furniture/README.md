@@ -8,7 +8,7 @@ If you want the short path: read `drafts/36-bbf-collections-sit-beside-history.m
 
 ## What this is
 
-Forty-four staged drafts under `drafts/`. Each file is a standalone piece with the same frontmatter (`id`, `slug`, `title`, `stage`, `status`, `topics`). Together they cover the jobs the brief named:
+Forty-four staged drafts under `drafts/`. Each file is a standalone piece with frontmatter (`id`, `slug`, `title`, `meta_description`, `stage`, `status`, `lane`, `voice_check`, `topics`, `figure_image`) and one museum / Commons `<figure>` embed for image SEO. Together they cover the jobs the brief named:
 
 | Stage | Job | Drafts |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ Forty-four staged drafts under `drafts/`. Each file is a standalone piece with t
 
 ## Voice
 
-Human. Shop-floor first person. A person who has built, repaired, and refused desks and hall pieces, talking to a homeowner or a dealer who is about to spend real money or real floor space.
+Human. Shop-floor first person. `voice_check: edited` on every draft after the editor pass. A person who has built, repaired, and refused desks and hall pieces, talking to a homeowner or a dealer who is about to spend real money or real floor space.
 
 We do not invent SKUs, lead times, or warranty language. We do not call a shoe bench a Victorian hall stand. We do not call a pedestal desk a partner desk. Public history (Wooton 1874, hall stands ~1840, pier tables in parlors) is paraphrased, not copied. Shop numbers are shop numbers. Guidelines are not law.
 
@@ -39,11 +39,12 @@ BBF collections are the adjacent door: ready forms a person can buy after they u
 
 ## Manifest
 
-See `MANIFEST.md` for the roster, required-topic map, and word counts after the last checker pass. Sources: `SOURCES.md`.
+See `MANIFEST.md` for the roster, required-topic map, and word counts after the last checker pass. Sources: `SOURCES.md`. Image rights and Commons file pages: `RIGHTS.md`. Rasters live under `assets/images/` (see `manifest.json`).
 
 ## Check the set
 
 ```bash
+python3 tools/download_desk_entryway_commons.py   # optional: refresh rasters from Commons
 python3 tools/check_desk_entryway_drafts.py
 ```
 

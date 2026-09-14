@@ -1,13 +1,22 @@
 ---
 id: 22
 slug: lamp-and-the-left-hand
-title: Put the lamp where the hand is not
+title: "Put the lamp where the hand is not"
+meta_description: "Put the lamp where the hand is not. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design]
+figure_image: ../assets/images/lady-writing-ter-borch.jpg
 ---
-
 Put the lamp where the hand is not.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/lady-writing-ter-borch.jpg" alt="Writer at a desk in a Dutch interior — lamp hand and writing hand negotiate space" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Writer at a desk in a Dutch interior. Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Right-handed writers want light from the left so the hand does not throw a shadow across the line. Left-handed writers want the opposite. Screens want a lamp that does not glare in the glass. That is three sentences and they will save more necks than a new chair.
 

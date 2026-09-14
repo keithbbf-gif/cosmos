@@ -1,13 +1,22 @@
 ---
 id: 39
 slug: drop-zone
-title: The drop zone is a military phrase that stayed
+title: "The drop zone is a military phrase that stayed"
+meta_description: "The drop zone is a military phrase that stayed. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, staging]
+figure_image: ../assets/images/coat-rack-4438970712.jpg
 ---
-
 The drop zone is a military phrase that wandered into a mudroom and stayed.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/coat-rack-4438970712.jpg" alt="Wall-mounted coat rack drop zone — keys and bags need a landing, not a sermon" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Wall-mounted coat rack drop zone. Wikimedia Commons. CC BY 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 I do not mind borrowed language if the operation stays. A drop zone is where incoming material lands so the rest of the house does not have to process it in a panic. Keys, mail, devices, the form from school, the leash. One tray. One hook. One charger if you must. Not four surfaces competing.
 

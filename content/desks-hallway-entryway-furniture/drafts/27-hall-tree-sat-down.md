@@ -1,13 +1,22 @@
 ---
 id: 27
 slug: hall-tree-sat-down
-title: A hall tree is a coat rack that sat down
+title: "A hall tree is a coat rack that sat down"
+meta_description: "A hall tree is a coat rack that sat down. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/entry-hall-hat-stand.jpg
 ---
-
 A hall tree is a coat rack that sat down.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/entry-hall-hat-stand.jpg" alt="Entry hall hat stand with seat — coat rack that sat down, not a mudroom shoe bench" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Entry hall hat stand with seat. Wikimedia Commons. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 The name wanders. Hatstand, hatrack, coat tree, portmanteau, hall tree. The British like hatstand for the pole with pegs. Americans like hall tree for the combined piece: hooks above, seat below, sometimes a slat back, sometimes a mirror. The Victorian hall stand is the tall cousin without a commitment to sitting. The modern hall tree is usually a bench with a spine.
 

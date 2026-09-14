@@ -1,13 +1,22 @@
 ---
 id: 36
 slug: bbf-collections-sit-beside-history
-title: BBF collections can sit beside this history
+title: "BBF collections can sit beside this history"
+meta_description: "BBF collections can sit beside this history. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 6-bbf-adjacent
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [bbf, collections, history, desk, hallway]
+figure_image: ../assets/images/jasper-desk-company-catalog.jpg
 ---
-
 BBF collections can sit next to this history. They should not replace it.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/jasper-desk-company-catalog.jpg" alt="Jasper Desk Company catalog page — Indiana factory desks beside history essays" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Jasper Desk Company catalog page. Digital Public Library of America / Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 A collection is a set of forms that can be bought in the same finish, the same hardware language, the same height story. That is a real gift. A house can match a desk to a bookcase, a hall tree to a bench, without hiring a shop to invent a language. Matching is not a sin. Matching without a job is a rental.
 

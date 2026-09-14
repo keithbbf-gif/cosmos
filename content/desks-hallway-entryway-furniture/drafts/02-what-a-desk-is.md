@@ -1,13 +1,22 @@
 ---
 id: 02
 slug: what-a-desk-is
-title: What a desk is, said without the catalog
+title: "What a desk is, said without the catalog"
+meta_description: "What a desk is, said without the catalog. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 1-brief
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design, intro]
+figure_image: ../assets/images/writing-desk-met-191792.jpg
 ---
-
 A desk is a horizontal surface that will forgive you for leaving work on it overnight.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/writing-desk-met-191792.jpg" alt="Writing table with drawers — the desk job before marketing renamed every rectangle" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Writing table with drawers. The Metropolitan Museum of Art, Open Access. CC0 1.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 That is the whole definition. The drawers, the kneehole, the return, the hutch — those are arguments about what kind of mess you keep and whether other people are allowed to see it. If the top will not take a day's paper, a laptop, and a cup that will leave a ring, you do not have a desk. You have a console that wandered into the wrong room.
 

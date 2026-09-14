@@ -1,13 +1,22 @@
 ---
 id: 03
 slug: what-a-hall-is
-title: The hallway is allowed to be rude
+title: "The hallway is allowed to be rude"
+meta_description: "The hallway is allowed to be rude. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 1-brief
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, intro, staging]
+figure_image: ../assets/images/hall-cupboard-am-1991.jpg
 ---
-
 The hallway is the only room in the house that is allowed to be rude.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/hall-cupboard-am-1991.jpg" alt="Victorian hall cupboard with hooks and storage — a hallway treated as a furnished room" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Victorian hall cupboard with hooks and storage. Auckland War Memorial Museum (via Wikimedia Commons). CC BY 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 It does not owe you a conversation. It owes you a place to stop being outside. Coats come off. Shoes hesitate. Bags hit a surface. Someone looks in a glass. Then the house begins. If the furniture in that strip of floor cannot do those jobs, it is decoration in a doorway, and decoration in a doorway is how people trip.
 

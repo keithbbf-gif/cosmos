@@ -1,13 +1,22 @@
 ---
 id: 43
 slug: sequence-walk-in-to-leave
-title: Sequence — walk in, put something down, sit, hang, leave
+title: "Sequence — walk in, put something down, sit, hang, leave"
+meta_description: "Sequence — walk in, put something down, sit, hang, leave. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 7-live-with-it
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, desk, design, staging, bbf]
+figure_image: ../assets/images/renaissance-hall-stand-entry.png
 ---
-
 Sequence: walk in, put something down, sit, hang, leave.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/renaissance-hall-stand-entry.png" alt="Victorian hall stand sequence — hang, drip, mirror, then leave without blocking the door" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Victorian hall stand sequence. Wikimedia Commons. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 That is the hall. If you also work at a desk in this house, add: sit, light, stay, hide the work, walk back through the hall. The two sequences should not share a surface. I have said that enough times that I can hear myself. I will say it again because houses keep trying to make one table do both.
 

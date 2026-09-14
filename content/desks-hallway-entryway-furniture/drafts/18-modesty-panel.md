@@ -1,13 +1,22 @@
 ---
 id: 18
 slug: modesty-panel
-title: The modesty panel still earns its keep
+title: "The modesty panel still earns its keep"
+meta_description: "The modesty panel still earns its keep. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 3-desk-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [desk, design, history]
+figure_image: ../assets/images/art-deco-desk-va.jpg
 ---
-
 The modesty panel is a Victorian leftover that still earns its keep in an open room.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/art-deco-desk-va.jpg" alt="Art Deco desk with modesty panel and closed sides — knees hidden from the doorway" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Art Deco desk with modesty panel and closed sides. Wikimedia Commons. CC BY-SA 2.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 It began as etiquette. A woman's ankles, a clerk's knees, a desk in a parlor that was not supposed to show the underside of work. We can laugh. Then we put a desk in a living room, facing the sofa, and discover that cables, knees, and the ugly back of a drawer box are now part of the seating arrangement. The panel is a wall for a piece of furniture that has to be seen from two sides.
 

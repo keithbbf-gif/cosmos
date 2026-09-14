@@ -1,13 +1,22 @@
 ---
 id: 41
 slug: wood-in-a-hall
-title: Wood in a hall has a different job than wood in a study
+title: "Wood in a hall has a different job than wood in a study"
+meta_description: "Wood in a hall has a different job than wood in a study. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, desk]
+figure_image: ../assets/images/monks-bench-seventeenth-century.jpg
 ---
-
 Wood in a hall has a different job than wood in a study.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/monks-bench-seventeenth-century.jpg" alt="Seventeenth-century monks bench — wood in a hall takes grit and wet, not study polish" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Seventeenth-century monks bench. Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 A study can take a film finish you oil with a cloth and a story. A hall takes grit, water, salt, and the edge of a backpack every afternoon. If you put a dining-room sheen by the door, you will spend the winter touching up black dots that are not stains so much as sanded finish. I want something you can wipe, something that does not show every scar as a moral failure, and something that can be renewed without a truck.
 

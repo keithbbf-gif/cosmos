@@ -1,13 +1,22 @@
 ---
 id: 30
 slug: mudroom-ate-the-hall
-title: The American mudroom ate the Victorian hall
+title: "The American mudroom ate the Victorian hall"
+meta_description: "The American mudroom ate the Victorian hall. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 4-hall-history
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [history, hallway, entryway]
+figure_image: ../assets/images/coat-rack-hollygrove.jpg
 ---
-
 The American mudroom ate the Victorian hall and did not send a card.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/coat-rack-hollygrove.jpg" alt="Freestanding coat rack in a school entry — mudroom habits without Victorian volume" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Freestanding coat rack in a school entry. Wikimedia Commons. CC BY-SA 4.0. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Farmhouses always had a place where the outside stopped — a porch, a washroom, a back entry with a bench. Twentieth-century houses, especially after the war, often lost the front hall and kept a kitchen door that did the real arriving. Then we named the leftover a mudroom and filled it with cubbies. The calling card never lived there. The boot did.
 

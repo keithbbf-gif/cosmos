@@ -1,13 +1,22 @@
 ---
 id: 40
 slug: door-swing-before-romance
-title: Measure the door swing before you buy the romance
+title: "Measure the door swing before you buy the romance"
+meta_description: "Measure the door swing before you buy the romance. Shop-floor history and design — staged beside BBF collections, not a SKU list."
 stage: 5-hall-design
 status: staged
+lane: bbf-desks-hall
+voice_check: edited
 topics: [hallway, entryway, design, proportions, staging]
+figure_image: ../assets/images/carved-gilt-console-table.jpg
 ---
-
 Measure the door swing before you buy the romance.
+
+<!-- figure:commons -->
+<figure class="desk-entry-figure">
+<img src="../assets/images/carved-gilt-console-table.jpg" alt="Gilt console at the wall — measure door swing before the table owns the hall" width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Gilt console at the wall. Wikimedia Commons. Public domain. Full credits: RIGHTS.md.</figcaption>
+</figure>
 
 Every pretty entry I have regretted had a door in it. Front doors swing in. Storm doors swing in or fight you. Closet doors swing into the bench. Bedroom doors swing into the "office nook" that is really a hall. I put painter's tape on the floor and I make the client walk the arc with a grocery bag. If they clip the tape, the furniture is already guilty.
 
