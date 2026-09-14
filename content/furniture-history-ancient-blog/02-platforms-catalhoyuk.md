@@ -53,11 +53,27 @@ What Çatalhöyük adds, besides the completeness of the grammar, is the duratio
 
 Obsidian caches, lentil bins, and the grinding set in Building 1’s later phase are the kitchen. A furniture series that only photographs horned benches will lie about the day’s work. The south end of the room is hot, dirty, and full of tools. The north and east are cleaner, painted, and reserved. That split is as close as this site comes to a “suite.”
 
+## How a platform is built, and what the dirt still holds
+
+A Çatalhöyük platform is not a slab dropped on a floor. It is a low plinth of packing — reused brick, midden, clay — skinned with white plaster that had to be mixed, spread, and left to set. Wendy Matthews’s micromorphology, published through the Hodder volumes, is the closest thing this site has to a joiner’s section. Thin-sections from the central floors show trampled ash, food crumbs, and the grit of daily traffic. Thin-sections from the north and east platforms show cleaner plaster, fewer inclusions, and the repeated skins of repair. The furniture of the room can be read in dirt. South was hot and dirty because that is where the oven lived. North and east were reserved because people slept there and buried there and painted there. That split is not a story a visitor projects onto a ruin. It is a laboratory fact about which surfaces were allowed to get filthy.
+
+The plaster itself is a recipe. Marl from the plain, sometimes mixed with other clays, laid in coats thin enough that a building lived long enough can look, in section, like a closed book. Red paint on a kerb or around a burial is a finish chosen in advance of the next replastering. Shahina Farid’s building biographies for the project treated each house as a sequence of those decisions: oven blocked, platform raised, bin added, ladder moved. Building 1 in the North Area remains the textbook because the sequence is long and the publication is thick. None of this requires a named plasterer. It requires a household that knew how to make a floor and when to skin it again.
+
+## Building 77, history houses, and the argument about rank
+
+Building 77, in the South Area, burned. Fire is why we have more of it than of its quieter neighbors: a painted calf’s head with the horns still on, set above a niche ringed in red; a row of painted hands on the north wall; a horned bench and bucrania toward the northeast; more than nine burials under the painted platform, with more still coming when the 2011 archive report was written. Jason Quinlan’s site photographs of those installations are the images that replaced Mellaart’s shrine postcards for a generation of readers. Daniel Eddisford and later James Taylor treated the building as a biography, not a type. The house sits in the slot of the unusually large Building 132. Someone chose to rebuild smaller and heavier with the dead.
+
+Hodder and Peter Pels named buildings of this kind “history houses” (2010): houses rebuilt on the same footprint, richer in burials and installations than their neighbors, carrying a memory practice that looks, from outside, like rank. The Shrine 10 sequence — Mellaart’s old number, Hodder’s long cut — runs from the early seventh millennium into the middle of the site. Another late sequence, Buildings 65–56–44–10, keeps the internal layout through rebuild after rebuild. Critics of the category say it is too neat: burial counts grade rather than split, and a “history house” can look like a house that simply lasted. Düring had already argued that shrine versus house does not survive a count. The history-house argument is the same fight with better numbers. Rank, if it is here, may be the right to sleep on a more storied rectangle, and to bury more people under it, and to paint the wall that faces those graves.
+
+Mellaart’s seated female figurine from a grain bin — the object popular books still caption “Mother Goddess” — belongs to this argument even though it is not furniture. It trained a generation to read platforms as altars first and beds second. Hodder’s project did not deny ritual. It refused the empty shrine. Building 77 cooked. It also held a painted calf over a platform full of bodies. A furniture history that keeps only the horns will lie about the lentils. A furniture history that keeps only the lentils will lie about the horns.
+
 ## After Mellaart’s town
+
+Phytoliths and the rare mat impression are the soft half of the bed. Without them the platform is a plaster ledge; with them it is closer to later Southwest Asian floor sitting than a European bedstead will ever be. The comparison is a rhyme, not a genealogy. Four thousand years and many cultures sit between a Konya platform and a *sofra*. What they share is a refusal to treat the floor as empty.
 
 The word “town” in Mellaart’s subtitle has been argued to a standstill. Population estimates swing. Streetless clusters of houses entered from the roof do not behave like a High Street. For furniture, the urban question is simpler: was there a specialist who only built platforms? The regularity of the plan looks like shared know-how, not a named workshop. No tool kit has been isolated as “the plasterer’s furniture set.” The sophistication Mellaart saw is real and anonymous.
 
-Hodder’s final project volumes (*Çatalhöyük Research Project* series, British Institute at Ankara / Cotsen) are the place to follow individual buildings. Building 77’s installations, Building 52’s horns, Building 1’s sequence of ovens — these are the monographs behind this essay’s generalizations. A magazine chapter cannot replace them. It can insist that the next time a reader meets an Egyptian bed-frame in a glass case, they remember a Konya platform that held a body above other bodies, and that this, too, was a way to make a place to lie down.
+Hodder’s final project volumes (*Çatalhöyük Research Project* series, British Institute at Ankara / Cotsen) are the place to follow individual buildings. Building 77’s installations, Building 52’s horns, Building 1’s sequence of ovens — these are the monographs behind this essay’s generalizations. A magazine chapter cannot replace them. It can insist that the next time a reader meets an Egyptian bed-frame in a glass case, they remember a Konya platform that held a body above other bodies, and that this, too, was a way to make a place to lie down. The platform is not a failed chair. It is a finished raised rectangle with a stratigraphy of plaster and a grave under the sleep. Mellaart’s 1961 list — platforms, east bench, south oven, bins, red posts, niches — is still the inventory. Hodder and Düring changed the interpretation, not the kit. That is enough to keep this mound in a furniture series that otherwise waits for a free-standing back.
 
 ## Notes
 
@@ -65,7 +81,9 @@ Hodder’s final project volumes (*Çatalhöyük Research Project* series, Briti
 - Ian Hodder, *The Leopard’s Tale* (London: Thames & Hudson, 2006); Hodder, ed., *Çatalhöyük Excavations* project volumes (2013–); Hodder 2014 synthesis essays.
 - Bleda Düring, *Constructing Communities* (Leiden: Nederlands Instituut voor het Nabije Oosten, 2006); Düring 2007 on houses versus shrines.
 - Sharon R. Steadman, “Material Geographies of House Societies: Reconsidering Neolithic Çatalhöyük, Turkey,” *Cambridge Archaeological Journal* 28, no. 3 (2018).
-- Çatalhöyük 2005 Archive Report, South Area concluding remarks (catalhoyuk.com).
+- Çatalhöyük 2005 Archive Report, South Area concluding remarks (catalhoyuk.com); 2011 Archive Report on Building 77 (Eddisford; Quinlan photographs).
+- Ian Hodder and Peter Pels, “History Houses,” in Hodder, ed., *Religion in the Emergence of Civilization* (Cambridge: Cambridge University Press, 2010).
+- Wendy Matthews, micromorphology essays in the Çatalhöyük Research Project volumes, on dirty central floors versus cleaner platform plasters.
 
 ## Figure plan
 

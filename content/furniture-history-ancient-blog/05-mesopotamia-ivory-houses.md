@@ -45,9 +45,39 @@ When the Bible and the Assyrian royal inscriptions talk about ivory, they are ta
 
 Egypt, in the same centuries, used ivory as inlay on stools and boxes (Tutankhamun’s tomb is a late, rich example). The Mesopotamian and Levantine habit is more plaque than inlay: a carved panel nailed or pegged to a frame that has disappeared. That is why our museums are full of ivories and empty of the chairs they faced.
 
+## Language on clay, furniture in the air
+
+Lexical lists from the third and second millennia — the great compilations that teach scribes the words for things — are a furniture catalog written for a different purpose. A bed, a stool, a box, a stand: the signs exist. What they pointed to on a given Tuesday in a house at Nippur is harder. Some texts distinguish a “night bed” from a ceremonial seat; some list repairs of a throne as an administrative event, like the issue of oil. The Mari palace, again, is the richest address for that kind of sentence when the tablets are published with furniture in the index. Until a tablet is cited, this paragraph stays general. `[CITE NEEDED: CAD or PSD entries for bed/chair terms with a palace-repair example.]`
+
+Stone statues sit because stone lasts. Gudea’s cubic throne, the later seated goddesses, the Assyrian king already on a backed chair in relief: these are the public faces of sitting. Behind them, the reed mat and the low clay bench did the daily work, as they had since the first packed houses on these rivers. A furniture history that only chases ivory will miss the majority sitters.
+
+Trade in cedar is not a metaphor in the royal inscriptions. Kings boast of mountains and of logs floated down. A beam for a temple and a rail for a bed may travel on the same water. The difference is scale and finish. The carpenter at the end of the journey still has to cut a joint the flood will not see.
+
+Megiddo’s ivories, again, are the Levantine hinge: a palace that looked both to Egypt and to Mesopotamia, plaques that may have faced boxes and chairs, a catalog (Loud 1939) that later writers have nibbled without replacing. Samaria’s later hoard (Crowfoot) is the Israelite chapter of the same trade. The Bible’s ivory house is a neighbor of those plaques, not a photograph of them.
+
+## Gudea’s cube, Tello, and stone that may be remembering wood
+
+The seated statues of Gudea of Lagash, carved in diorite about 2120 BCE and found at Tello (ancient Girsu) by Ernest de Sarzec from 1877, are the third millennium’s most stubborn furniture drawings. Louvre AO 2 — Gudea B, “the Architect with a Plan” — shows the ruler on a cubic stool, a tablet with a temple plan on his lap, a stylus and a graduated rule. The seat is a box: paneled sides, a flat top, no animal legs, no stretchers a carpenter would photograph. Other seated Gudeas repeat the cube. Art historians call it a box throne. It may record a wooden object sheathed or paneled. It may be stone thinking about stone. The honest sentence is the one that keeps both. A furniture history that treats AO 2 as a carpenter’s working drawing will be disappointed. A furniture history that ignores it will miss the fact that, in the neo-Sumerian court, the seat of a ruler could be imagined as a block with sides, not as a lion.
+
+Early Dynastic Mari already knew furniture as a surface for inlay. The so-called War Panel from the Temple of Ishtar, courtyard 20 — Louvre AO 17572, excavation M. 470 — is catalogued as *incrustation de meuble*: shell figures that André Parrot once mounted as a single mosaic and that the Louvre has since split into three. Soldiers, prisoners, a chariot. The wooden chassis is gone. The inlay is what the ground kept. Woolley’s Standard of Ur (BM 121201) is a cousin of that habit, a box rather than a chair, wooden architecture with a precious skin. Puabi’s tomb (PG 800) held a sledge and lyres, not a throne a catalog can number. The Queen’s Lyre in the British Museum (121198) and its cousins in Philadelphia are the closest Ur comes to a named wooden object with animal terminals. They are instruments. They are also the thought a lost chair would have shared: a wooden core, a mosaic skin, a beast at the end of a member.
+
+## Ebla’s burned chairs and Ugarit’s bed that is not a shop
+
+Royal Palace G at Ebla (Tell Mardikh) burned around 2300 BCE. Fire, for once, was a friend to joinery. Paolo Matthiae’s excavations recovered carbonized wood and inlay from rooms above the Court of Audience — L.2601 among them — enough for later work to reconstruct a chair and a table. The chair carried carved animal-contest scenes and inlay; the table used dovetail joints on the order of eight to ten centimeters `[CITE NEEDED: the reconstruction essay on Palace G furniture, placing and measurements]`. Those are carpenter’s facts, rare in this river system. They belong in a furniture history that is tired of being told that Mesopotamia has only words. Ebla had a shop, or several, capable of openwork, pegs, and a ceremonial chair that was not a statue’s cube.
+
+Mari, five centuries later in the palace Jean-Claude Margueron has spent a career planning, is richer in architecture and poorer in wood. The Investiture painting from court 106 (Louvre AO 19826) shows Zimri-Lim before Ishtar; it is a political picture, not a furniture catalog. The ARM tablets are the catalog. Beds, chairs, and repairs appear in the administrative language of a palace that issued objects the way it issued oil `[CITE NEEDED: specific ARM numbers that list giš-ná or chairs]`. A department for furniture is still a department if the chairs have gone back to the river.
+
+Claude Schaeffer found the ivory furniture of Ugarit’s royal palace in Court III, a garden court, stacked or dropped on about twelve square meters (his point 302). He thought the pieces had been rushed from an ivory workshop in room 44 as the city burned. Jacqueline Gachet-Bizollon, publishing the bed panel in *Syria* 78 (2001) and the ivories as a corpus in 2007, walked that story back. There are no tools, no offcuts, no work in progress. Margueron read room 44 as a rest pavilion by the garden, a room that could have held a bed. The ivories themselves, already mounted on wood, make more sense as finished furniture than as a shop’s inventory.
+
+The bed panel — Damascus National Museum 3599, joining Ras Shamra 16.56 and 28.31 — is the Late Bronze object this chapter can finally point at without inventing a throne for Puabi. Both faces carried carved plaques; Egyptianizing figures and plants run in registers. A separate ivory skin belonged to a small table, a *guéridon* on a wooden stem with an ivory capital. Lion paws in ivory survive as feet. A “triple frame” of plain ivory moldings was complete when found and has never been fully remounted; the fragments remain in Damascus boxes. That last sentence is the one to keep. Even a famous ivory bed is a reconstruction plus a tray of moldings.
+
+Megiddo’s hoard, from the treasury of Palace 2041 in Stratum VIIA, is the other Late Bronze address. Gordon Loud’s *The Megiddo Ivories* (Oriental Institute, 1939) is still how most readers meet the plaques. Dowel holes and formats make more sense as box and furniture ornament than as free sculpture. Anthony Cutler’s *The Craft of Ivory* (1985) is the technical book for how a tusk becomes a plaque. The plaque becomes furniture only when someone still has the wood. SW7, in the next chapter, is the room that finally keeps the arrangement.
+
 ## Toward Assyria
 
 The next chapter is a storeroom: Fort Shalmaneser, Room SW7, nineteen furniture backs stacked as the city died in 612 BCE. That room is the payoff of the trade this chapter can only outline. To get there, a reader needs Ur’s caution, Mari’s lists, Megiddo’s plaques, and the refusal to invent a throne for Puabi. The Tigris and Euphrates kept the words. The wood went back to the river.
+
+A reader coming from Giza will want a reconstructed chair. Ur will not give one. What it gives is the habit of sheathing, the administrative list, the plaque with dowel holes, the later Assyrian couch in relief. Those are enough if the chapter refuses to draw a throne for Puabi and call the drawing evidence. The next room — SW7 — is the first time we can count backs. This room is the trade that made those backs possible: tusks, cedars, a floodplain that eats joinery and keeps clay words.
 
 ## Notes
 
@@ -57,6 +87,10 @@ The next chapter is a storeroom: Fort Shalmaneser, Room SW7, nineteen furniture 
 - Jean-Claude Margueron, *Mari: Capital of Northern Mesopotamia in the Third Millennium* (Oxford: Oxbow, 2014), for palace context.
 - Richard D. Barnett, *A Catalogue of the Nimrud Ivories in the British Museum* (London: British Museum, 1957; 2nd ed. 1975), for the later hoard’s bibliography.
 - Biblical citations as literary memory, not as excavation: 1 Kings 22:39; Amos 6:4; Ezekiel 27 (Tyre and ivory).
+- Louvre AO 2 (Gudea B, “Architecte au plan”); AO 17572 (Mari, Temple of Ishtar, furniture inlay); AO 19826 (Investiture painting, court 106).
+- Jacqueline Gachet-Bizollon, “Le panneau de lit en ivoire de la Cour III du Palais Royal d’Ougarit,” *Syria* 78 (2001); Gachet-Bizollon, *Les ivoires d’Ougarit* (Paris: ERC, 2007). Damascus National Museum 3599 (RS 16.56 + 28.31).
+- Anthony Cutler, *The Craft of Ivory* (Washington, D.C.: Dumbarton Oaks, 1985).
+- Paolo Matthiae and later reconstructions of wooden furniture from Ebla, Royal Palace G, room L.2601 `[CITE NEEDED: placing-and-reconstruction essay]`.
 
 ## Figure plan
 

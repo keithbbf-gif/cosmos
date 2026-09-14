@@ -57,17 +57,35 @@ Old Kingdom offering lists put beds, headrests, and boxes among bread and beer. 
 
 ## Copper, the adze, and the un-famous carpenter
 
-The adze in a carpenter’s hand, on a Fifth-Dynasty relief, is the same tool that will still be recognizable in a Roman shop and, in changed steel, in a Fort Smith turning room. Copper in Dynasty 4 is soft by later standards. It is sharpened often. The quality of a lion’s paw on the Hetepheres armchair is therefore a quality of time spent, not of a hardened chisel. Reisner’s gold sheet keeps the time: the furrows of the mane are a chaser’s hours.
+The adze in a carpenter’s hand, on a Fifth-Dynasty relief, is the same tool that will still be recognizable in a Roman shop and, in changed steel, in a later turning shop. Copper in Dynasty 4 is soft by later standards. It is sharpened often. The quality of a lion’s paw on the Hetepheres armchair is therefore a quality of time spent, not of a hardened chisel. Reisner’s gold sheet keeps the time: the furrows of the mane are a chaser’s hours.
 
 Un-famous carpenters appear in tomb scenes with names that Egyptologists know and furniture books skip. A named “overseer of carpenters” in a Giza mastaba is not a signature on JE 53263. It is evidence that the trade had ranks. The queen’s furniture was not a weekend project. It was a shop with a boss.
 
 Dryness is the last material. Without the shaft’s sealed air and the desert’s lack of rain, this chapter would be a relief and a guess. The Old Kingdom’s gift to furniture history is accidental climate plus a gold skin that outlasted its tree.
 
+## The canopy, the curtain box, and a second chair that stayed a drawing
+
+The bed in G 7000 X was not a bare frame. Reisner reconstructed a canopy: gold hieroglyphs on uprights, a box of wooden members that once held linen, a room that could be assembled over the lion-legged bed and taken down again. The curtains had their own box. Cairo’s reconstruction of that box is JE 72030 (now also GEM 6426); the woodwork is modern, the gold and inlay are not. Ahmed Youssef Mustapha assembled the fragile sheets onto a new carcass. Boston’s copy, MFA 39.746, is his work as well, dated 1939. William Stevenson Smith published the box for the MFA in the *Bulletin* of June 1953; the inscriptions name Snefru, the queen’s husband, not only her son. A curtain box is easy to skip in a furniture history that wants chairs. It is the piece that proves the bed was a portable room, with textiles as structural as gold.
+
+There was a second armchair. Reisner and Smith could restore it only on paper: an elaborately inlaid chair whose gold sheets and faience they had, whose wood they did not. Peter Der Manuelian returned to that “lost throne” in the *Journal of the American Research Center in Egypt* 53 (2017), with a visualization and a fabricated study piece. The famous armchair in the case — JE 53263, or Gerte’s MFA 38.957 — is therefore not “the” Hetepheres chair. It is the one that could be rebuilt first. The household was larger than the postcard.
+
+The silver bracelets in their gold-covered box are the other object that trained the excavators to argue. Reisner called them anklets. Dows Dunham thought the smaller ones would never pass a foot. An inlay from the curtain box later showed the queen wearing them on her arms. Reisner did not recant. The official position of the expedition, he said, was that they were anklets. Furniture history has no need of that quarrel except as a reminder that even a sealed shaft produces interpretation, and that the man who found the gold did not always win.
+
+## What the gold letters said, and who put the wood back
+
+The carrying chair identified the tomb. The wood of the poles and seat had gone to dust; the inlaid gold hieroglyphs on the back had fallen in order on the chamber floor. They name Hetepheres as mother of the king of Upper and Lower Egypt. Without those signs G 7000 X would be a rich shaft with an empty alabaster sarcophagus. With them it is a queen’s household. Gerte’s Boston copy (MFA 38.874) had to reproduce the signs in electrotype — William Young’s work — because the inscription is part of the object. Cairo’s original reconstruction is JE 52372.
+
+Reisner was in the United States when the sealed mouth of the shaft was found in 1925. A surveying instrument broke through the plaster that hid it; the news went by telegram. The full publication is not the 1929 *Bulletin* essay this chapter began with. It is *A History of the Giza Necropolis*, volume II, *The Tomb of Hetep-heres the Mother of Cheops*, Reisner’s manuscript completed by William Stevenson Smith and issued by Harvard in 1955. Twenty-five years of sorting gold sheet, inlay, and pottery sherds sit in that book. Anyone who photographs a reconstructed bed as if it had come intact from the limestone is skipping the only honest part of the story: the furniture is a drawing that gold made possible, and that Cairo’s and Boston’s cabinetmakers then had to cut.
+
+Ahmed Youssef’s Cairo reconstructions and Gerte’s Boston copies are not forgeries. They are the form in which Dynasty 4 joinery can still be walked around. The gold is ancient. The grain direction inside it is a hypothesis. That is enough, if the caption stays honest.
+
 ## From platform to frame
 
 Place Hetepheres next to a Çatalhöyük platform and the difference is the frame. The platform is the house. The bed is a portable house for one body, small enough to carry down a shaft, expensive enough to cover in gold, animal enough to stand on paws. Portable prestige has begun — or rather, it has begun in the surviving record. Earlier wooden frames in Egypt, from Tarkhan and other Predynastic and Early Dynastic cemeteries, already show the bed as a type (Killen’s opening catalog). G 7000 X is not the invention. It is the first time the type meets a queen, a pyramid field, and a modern museum’s need for a room to reconstruct.
 
-The chapters immediately after this one stay in Egypt because the New Kingdom will multiply the evidence: Hatnefer’s chair with its original linen seat, Tutankhamun’s Carter 91 / JE 62028 throne, folding stools with duck-head terminals. The Old Kingdom chapter has to do more with less. It has a shaft, a bulletin article, two museums’ reconstructions, and a set of reliefs. That is a lot, if the gold is allowed to be a drawing.
+Headrests — alabaster, wood, sometimes inscribed — are the bed’s other carpenter. A sleeper’s neck meets a curve that is an object in its own right, collected today as sculpture. In the tomb it was the pillow. Museums split them from bed-frames because the materials differ. A Dynasty 4 household did not.
+
+The chapters immediately after this one stay in Egypt because the New Kingdom will multiply the evidence: Hatnefer’s chair with its original linen seat, Tutankhamun’s Carter 91 / JE 62028 throne, folding stools with duck-head terminals. The Old Kingdom chapter has to do more with less. It has a shaft, a bulletin article, two museums’ reconstructions, and a set of reliefs. That is a lot, if the gold is allowed to be a drawing. A visitor in Cairo who photographs JE 53263 as “the queen’s chair” is photographing a century of restoration plus a Dynasty 4 skin of gold. Both facts can sit in one caption. The gold is ancient. The tree inside it is a hypothesis with a grain direction chosen in the twentieth century.
 
 ## Notes
 
@@ -75,7 +93,10 @@ The chapters immediately after this one stay in Egypt because the New Kingdom wi
 - Digital Giza object records MFAB_38.957, MFAB_38.874; Cairo JE 53263, JE 52372.
 - Geoffrey Killen, *Ancient Egyptian Furniture*, vol. I, *4000–1300 BC*, 2nd ed. (Oxford: Oxbow, 2017), chs. 1–3, 5.
 - Mark Lehner, *The Complete Pyramids* (London: Thames & Hudson, 1997), on the eastern cemetery and G 7000 X context.
-- Peter der Manuelian, *Walking Among Pharaohs* (on Reisner) — use for expedition history, not for joinery `[CITE NEEDED: page on G 7000 X if used in revision]`.
+- Peter Der Manuelian, *Walking Among Pharaohs* (on Reisner) — use for expedition history, not for joinery `[CITE NEEDED: page on G 7000 X if used in revision]`.
+- George A. Reisner and William Stevenson Smith, *A History of the Giza Necropolis*, vol. II, *The Tomb of Hetep-heres the Mother of Cheops* (Cambridge, MA: Harvard University Press, 1955).
+- William Stevenson Smith, “The Tomb of Hetep-heres I,” *Bulletin of the Museum of Fine Arts* 51, no. 284 (June 1953): 23–30, on the curtain box (Cairo JE 72030; MFA 39.746).
+- Peter Der Manuelian, “The Lost Throne of Queen Hetepheres from Giza,” *Journal of the American Research Center in Egypt* 53 (2017): 1–46.
 
 ## Figure plan
 

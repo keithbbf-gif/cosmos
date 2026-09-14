@@ -45,6 +45,34 @@ Amos’s people who “lie upon beds of ivory” and Ahab’s ivory house are ei
 
 Winter, in the 1976 article, puts those texts in a footnote and keeps her eyes on the faces. That is the right ratio. The Bible proves that ivory furniture was a known scandal of wealth. SW7 proves what it looked like when stacked.
 
+## Tribute, three styles, a chair that is now a diaspora
+
+Ashurnasirpal’s Kalhu took ivory as tribute. The plaques are mostly not “Assyrian” in the orthostat sense. Barnett (1957/1975) sorted Layard and Loftus heaps into Phoenician, Syrian, and a smaller Assyrian group; Herrmann’s corpus volumes are the heavy catalog. Phoenician work likes Egyptian crowns, sphinxes, openwork, glass inlay. Winter’s SW7 faces do not. Assyrian-style pieces speak like the reliefs. One storeroom, three trades, and Barnett’s warning that some trays are not even from Nimrud.
+
+SW7 is the clean furniture context: about nineteen backs stacked, long strips for a couch (Met 59.107.2), a tree-pattern back (59.107.1) in a modern frame. We do not know who sat. We know the pieces were stored and not carried out in 612. Construction was mixed-media: ivory on a wooden chassis, moldings that once alternated materials now restored in wood. Museum ivories are a bleach of that object.
+
+Ahab’s ivory house and Amos’s ivory beds are eighth-century sentences, contemporary with the trade, not captions for SW7. Samaria’s hoard (Crowfoot 1938) is closer to Phoenician style. Ezekiel’s Tyre list is a merchant poem. Winter kept those texts in a footnote. The fire that preserved arrangement also calcined much ivory. A chair that was one chair is now London, New York, Baghdad.
+
+## How big a back is, and how a tusk becomes a chair
+
+Irene Winter gave the measurements. The SW7 panels run about 85 by 55 centimeters. Each back is not one slab of ivory — a tusk will not give that — but a center of four to six contiguous plaques, framed top and bottom by narrow strips, then bound at the sides by two or three vertical plaques. The whole was backed on wood that is gone. Mallowan and Georgina Herrmann published the set as *Ivories from Nimrud* III, *Furniture from SW7, Fort Shalmaneser* (London: British School of Archaeology in Iraq, 1974): commentary, catalog, 111 plates. Winter’s 1976 *Metropolitan Museum Journal* essay is the argument that turned those plates into a workshop problem. The first guess, bed-heads, dies on the dimensions and on the comparison. High-backed chairs with carved panels under the arms appear on the reliefs of Tiglath-pileser III, Sennacherib, and Ashurbanipal, and on North Syrian reliefs from Carchemish and Zincirli (Sam'al). Decorated backs are what those silhouettes lead you to expect.
+
+Construction is mixed media. Ivory plaques pegged or pinned to a wooden chassis; moldings that once alternated ivory with a second material now missing; sometimes glass inlay, sometimes gold leaf, sometimes stain that the fire and the conservators have since bleached. The Met’s tree-pattern panel (59.107.1) still has a curved top molding restored in wood. Our white museum ivories are a bleach of a darker, colored object. A reader who thinks “ivory furniture” means a chair carved from a single tusk is thinking of a different luxury, and a later one.
+
+Winter also put Ugarit’s Court III bed in the footnote where it belongs: the practice of joining plaques into a furniture panel is already Late Bronze. SW7 is not the invention of the habit. It is the first time we can count the backs and say nineteen, stacked, in a room that died in 612 BCE.
+
+## Rooms that were not SW7
+
+Fort Shalmaneser had other ivory rooms. Herrmann’s later fascicles — especially *Ivories from Nimrud* IV, on room SW37 — are the heavy reminder that SW7 is the clean furniture context, not the only pile. The Northwest Palace, where Layard worked from December 1845, produced the first famous heap: calcined fragments that Barnett had to sort in 1957, then sort again in 1975. Loftus’s smashed ivories and so-called horse-trappings came from another part of the palace and spent a century in the wrong trays. Mallowan’s wells, including Well AJ, later gave up ivory heads that had been thrown down the shaft. The Burnt Palace had its own group. The Iraq Museum, the British Museum, and the Metropolitan split the shares. A chair that was one chair is now a diaspora of plaques, and some of the plaques were never a chair.
+
+This matters because a plaque without a room is jewelry. A plaque in SW7 is a chair. The difference is archaeological, not aesthetic. Georgina Herrmann’s life’s work was giving fragments back to groups and, where the records allowed, to rooms. Joan and David Oates kept the architecture honest. The 1990s–2000s looting of the Iraq Museum, and the 2015 destruction of the Northwest Palace by the Islamic State, are part of the objects’ later life. They are not part of SW7’s death. Those backs had already been lifted, divided, and framed.
+
+## Woman at the window, Egyptian looks, and a capital that consumed workshops
+
+The Phoenician-style plaques like Egyptian crowns, sphinxes, openwork, and the “woman at the window” — a frontal female face in a recessed frame, a type the British Museum’s trays made famous — are not Egyptian manufacture. Layard saw that on the second day. They are Levantine carving in an Egyptianizing dialect, colored glass in the cut-outs, a different trade from Winter’s oval North Syrian faces. Assyrian-style pieces speak the language of the orthostats: genies, sacred trees, a harder outline. One storeroom, three carving traditions. The royal inscriptions of Ashurnasirpal II and his successors are not shy about ivory as tribute and booty. Kalhu was rebuilt to receive it.
+
+Who carved, and where, remains the live argument. Workshops in the Hatay and the upper Euphrates, plaques traveling as tribute; carvers working in Assyria from imported tusks; both, in different years. What the inscriptions do not support is an Assyrian relief-sculptor moonlighting in ivory. The trades are different. The tusks are African and, still in this century, Syrian; the Syrian elephant would not last. Cutler’s craft book, again, is the place for how a tusk is split. We do not know who sat in these chairs, or whether they were sat in at Kalhu at all. We know they were valued enough to store in an arsenal-palace and not valued enough, in the last days, to carry away. Nineteen backs. The wood gone. The faces still in a row.
+
 ## After 612
 
 The fire that preserved the arrangement also calcined much of the ivory. British Museum pieces from Layard’s rooms are often a ghost of a ghost. The Met’s SW7 group is in better health because of the way the room died. Modern frames, modern plaster fills, and the 1990s–2000s catastrophe of looting at Nimrud (the site, not SW7’s already-excavated ivories) are part of the objects’ later life. Some ivories still in Baghdad, some in London, some in New York: a chair that was one chair is now a diaspora of plaques.
@@ -60,6 +88,8 @@ For this series, SW7 is the first time we can count backs and say “nineteen.�
 - Max Mallowan, *Nimrud and Its Remains* (London: Collins, 1966).
 - J. W. and G. M. Crowfoot, *Early Ivories from Samaria* (London: Palestine Exploration Fund, 1938).
 - Joan Oates, “Assyrian Nimrud and the Phoenicians,” *Archaeology International* (on Layard’s first days).
+- M. E. L. Mallowan and Georgina Herrmann, *Ivories from Nimrud* III, *Furniture from SW7, Fort Shalmaneser* (London: British School of Archaeology in Iraq, 1974).
+- Georgina Herrmann, *Ivories from Nimrud* IV, on Fort Shalmaneser room SW37.
 
 ## Figure plan
 

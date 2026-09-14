@@ -57,6 +57,20 @@ Grooved Ware pots, when they appear in the houses, are the movable half of the d
 
 Dating has tightened since Childe. The two-phase village — earlier circular houses, later rectangular ones with projecting boxes — is now the sequence a visitor is given. Radiocarbon on the Heart of Neolithic Orkney sites clusters the late houses in the centuries around 2800–2500 BCE, contemporary with the great passage graves and the stone circles a short walk inland. Furniture at Skara Brae is therefore not a “primitive” prelude to those monuments. It is the domestic version of the same right-angle, slab-on-end habit. Maeshowe’s chamber is a dresser idea at tomb scale: a rear space you face after a low passage.
 
+## The boxes, the cist, and the storm that did not happen
+
+House 7 is the house Childe thought still held its life. He found it the best preserved of the late dwellings: a stone door that could be barred from the inside, incised decoration on the masonry (the same habit turns up in House 8), and a cist built under the eastern wall at the back of the eastern box. Two female skeletons lay in that cist. Childe read them as a foundation deposit, or as a burial older than the house as it stood. Historic Environment Scotland still gives the visitor the foundation-deposit sentence. What the house does not give is a last night. Popular accounts have sometimes dressed House 7 as a disaster tableau — a woman who locked herself in against a storm, a village abandoned at a run. Clarke’s 1972–73 trenches, cut with Anna Ritchie for the National Museum of Antiquities of Scotland, did not find that cinema. They found more houses (11, 12, 13), a thicker sequence of midden and sand, and a village that had been rebuilt and partly cleared on purpose. Childe’s own 1931 final report in the *Proceedings of the Society of Antiquaries of Scotland* had already admitted that some huts looked deliberately abandoned. The storm of 1850 uncovered the site. It did not empty it.
+
+The boxes remain the harder problem. They are short. Some of them, on Towrie’s reading and on the Ness team’s comparisons, held cattle skulls and smashed Grooved Ware; at Links of Noltland the cattle-skull deposit under Structure 9 is published with photographs by Hazel Moore and Graeme Wilson. A rectangular stall of flagstone is a container. It becomes a bed if someone slept in it. It becomes a chest if someone stored in it. It becomes a grave-adjacent box if the wall behind it holds a cist. The later European habit of giving each of those jobs its own named piece of furniture is a habit this village did not share.
+
+## Rinyo, Knap of Howar, and a kit that was already Orkney’s
+
+Walter G. Grant and Childe dug the Braes of Rinyo on Rousay in 1938 and again in 1946. The reports in the *Proceedings of the Society of Antiquaries of Scotland* (vol. 73, 1938–39; vol. 81, 1946–47) describe cellular houses with central hearths, stone beds, dressers, and drains — the Skara Brae kit without the Bay of Skaill. Rinyo also gave Grooved Ware its first clear domestic character; Childe’s older name for the pottery, Rinyo-Clacton Ware, still sits in the footnotes. The site kills the accident theory. House 1’s dresser is not a curiosity produced by one lucky storm and one unique mason. It is one address in a late-Neolithic Orkney habit.
+
+Knap of Howar, on Papa Westray, is earlier and differently equipped. William Traill and William Kirkness cleared the two conjoined houses in the late 1920s; Anna Ritchie re-excavated in 1973 and 1975 and published in *PSAS* 113 (1983). She put the farmstead with Unstan Ware in the centuries around 3500–3100 BCE, before the late rectangular houses on the Bay of Skaill took their standard form. House 1 has upright partitions, a hearth, a stone cupboard. House 2 is divided into three compartments; Ritchie and Historic Environment Scotland both allow that it may have been a workshop or store rather than a dwelling. There is no three-shelf dresser of the House 1 type. The idea is already there: raise a place to sit or sleep, cut a place to put things, keep fire in a known spot. What the later village adds is repetition, the dresser facing the door, and the packing of houses into their own midden.
+
+Skaill knives — the flaked stone tools that are this culture’s everyday cutter — come from the same rooms as the dressers. A furniture history that photographs only the shelves will miss the fact that the room was also a place to work hide and meat. The dresser faced the door. The knives were in the hand.
+
 ## What this chapter is for
 
 The series that follows will fill with named woods, named joiners, named patrons. Skara Brae has none of those. It has a plan that repeats, a rear wall that faces the door, and a set of stone fittings that later writers could not help but call furniture. That is enough to start. The first problem in this history is not the invention of the chair. It is the decision, in a particular house, to raise part of the floor and to put a shelf where a guest would look.
@@ -71,6 +85,9 @@ Childe wanted a domestic picture he recognized. Towrie and Richards want a ritua
 - Caroline Wickham-Jones, *Between the Wind and the Water: World Heritage Orkney* (Oxford: Windgather, 2006).
 - Sigurd Towrie, Ness of Brodgar Project notes on houses and dressers, nessofbrodgar.co.uk (accessed 2026).
 - Colin Richards, ed., *Dwelling among the Monuments* (Cambridge: McDonald Institute, 2005), for Barnhouse and the Stenness cluster.
+- David V. Clarke, *The Neolithic Village at Skara Brae, Orkney: Excavations 1972–73* (interim; Edinburgh: National Museum of Antiquities of Scotland, 1976).
+- V. Gordon Childe and Walter G. Grant, “A Stone-Age Settlement at the Braes of Rinyo, Rousay, Orkney,” *Proceedings of the Society of Antiquaries of Scotland* 73 (1938–39): 6–31, and 81 (1946–47): 16–42.
+- Anna Ritchie, “Excavation of a Neolithic farmstead at Knap of Howar, Papa Westray, Orkney,” *Proceedings of the Society of Antiquaries of Scotland* 113 (1983): 40–121.
 
 ## Figure plan
 

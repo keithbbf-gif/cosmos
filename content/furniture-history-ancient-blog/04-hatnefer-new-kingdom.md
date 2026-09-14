@@ -61,9 +61,27 @@ Boxwood for fine members, tamarisk for a cheaper chair (12.182.28), cypress, ced
 
 Pegs of contrasting color are a joiner’s signature that does not need a name. They show on Hatnefer’s chair as dots in the rails. A modern viewer who has been taught that “good furniture hides the fasteners” is looking with a nineteenth-century eye. Dynasty 18 liked the peg to be seen. It is a rhythm as much as a lock.
 
+## Senenmut’s hill, an intact tomb, and a chair left outside
+
+Ambrose Lansing and William C. Hayes, writing the Metropolitan’s 1935–36 season in the *Bulletin of the Metropolitan Museum of Art* (January 1937, section II), are the first published witnesses. The tomb of Hatnefer and Ramose was found on 11 January 1936, under the terrace of Senenmut’s chapel TT 71 at Sheikh Abd el-Qurna. It was intact. Hatnefer’s coffin in New York is 36.3.1; her heart scarab is in the same accession series; Senenmut himself is represented in the museum by 36.3.252 and a thick modern bibliography. The chair, 36.3.152, was not among the coffins. It stood in front of the entrance. The Egyptian government gave it to New York in the division of finds. Rogers Fund, 1936.
+
+The household around the chair is the social fact the gold throne in Cairo cannot supply. Hatnefer was the mother of Hatshepsut’s great steward, born late in the reign of Ahmose I if the museum’s biography is right, dead as an old woman with grey hair. Ramose, her husband, looks in the reports like a man of fifty or sixty who never rose as far as his son. Six other poorly wrapped bodies — three women, three children — shared the tomb. Lansing and Hayes floated a family tragedy. Later writers have been less sure. This essay will not invent a plague. It will keep the chair’s find-spot: outside, at the threshold of an intact burial, in the reign of Thutmose II and the early joint reign, about 1492–1473 BCE. Elite, not royal. A 53-centimeter chair with a 24.5-centimeter seat, linen still on the rails, Bes still on the splat.
+
+Hayes’s later *Scepter of Egypt* (Harvard, 1953–59) is the museum handbook that put Hatnefer’s generation on a shelf next to Wah’s Middle Kingdom tomb and the Ramesside family of Khonsu. The comparison is useful only if it stays material. Wah’s tomb, found in 1920 under Meketre’s causeway, is another intact private burial. It does not give us a chair of this quality. Hatnefer’s does. That is why 36.3.152 carries a chapter.
+
+## Rekhmire’s shop, duck heads, and the stools paintings still outnumber
+
+Theban tomb TT 100, the chapel of Rekhmire, vizier under Thutmose III and Amenhotep II, is the New Kingdom’s best picture of a furniture shop that is not a reconstruction. Wall scenes show carpenters adzing, sawing, drilling, stretching webbing on a frame, assembling a chair. The tools match Killen’s catalog: adze, pull-saw, bow-drill, the copper kit that has to be sharpened often. The webbing scene is the one to keep beside Hatnefer’s linen seat. Painters knew that a chair was a frame plus a textile. Museums that restore a mesh are repeating a gesture the tomb already recorded.
+
+Folding stools with duck-head terminals are the other Theban type a reader will meet in Cairo and in New York. Tutankhamun’s tomb held several; the Met’s 12.182.49 is the accessible cousin, wood inlaid with ebony and ivory, the leather seat gone. The X-frame is a carpenter’s problem in motion: a pivot that must work, terminals that can be carved as birds without weakening the joint, a seat that can be rolled and carried. Rome will later call a descendant *sella curulis* and write laws about who may sit on it. The Egyptian joiner was solving a tent and a boat, not a senate.
+
+Stools still outnumber chairs in Killen’s pages and in the paintings. The three-legged stool in craft scenes, the four-legged seat for an attendant, the low chair for a woman at a banquet in TT 52 (Nakht): these are a graded kit, not a single “Egyptian chair.” Deir el-Medina’s workmen sat on the cheaper end of that kit. Amarna’s houses, abandoned in a hurry, have given up fragments that belong on the same gradient `[CITE NEEDED: a specific Amarna stool in the Ashmolean or Berlin]`. Hatnefer’s chair looks expensive because the village and the city were full of seats that were not it. The original cord is the proof that we are not only looking at a restorer’s guess. Almost no other Egyptian chair in a public collection can say that, and the Met’s label is right to say it first.
+
 ## After Thebes
 
-Amarna will show stools and beds in a different light; the Ramesside centuries will keep the types. Then wood in Egypt becomes, for the archaeologist, a wetter and more fragmented problem. The New Kingdom is the plateau of survival. That is why these two Met chairs and Carter’s 91 can carry a whole chapter. They are not a complete sociology of sitting in Dynasty 18. They are what a joiner, a weaver, and a goldworker actually finished.
+Amarna will show stools and beds in a different light; the Ramesside centuries will keep the types. Then wood in Egypt becomes, for the archaeologist, a wetter and more fragmented problem. The New Kingdom is the plateau of survival. That is why these two Met chairs and Carter’s 91 can carry a whole chapter. They are not a complete sociology of sitting in Dynasty 18. They are what a joiner, a weaver, and a goldworker actually finished. A folding stool without its leather, a low chair with its original cord, a gold armchair with an Aten still on the back: three answers to sitting in one dynasty, three different budgets, one river of imported wood.
+
+Harry Burton’s photographs of Carter 91, still under Griffith Institute control, are how most readers first met the gold armchair: linen wraps, then studio light, then a century of posters. GEM 4573 is the same object with a new number. A furniture history that only knows the poster will miss Hatnefer’s linen cord, which is the rarer survival.
 
 The next chapters leave the Nile for ivory in the Tigris and a storeroom at Nimrud. The Egyptian lesson to take along is technical: mortise, peg, glue, a seat of cord, a leg that is an animal, a back that can be an amulet or a throne. Skara Brae’s dresser did not need those sentences. Giza’s gold remembered them. Thebes still has the wood.
 
@@ -74,6 +92,9 @@ The next chapters leave the Nile for ivory in the Tigris and a storeroom at Nimr
 - Howard Carter, *The Tomb of Tut.ankh.Amen*, vol. 1 (London: Cassell, 1923); Griffith Institute, Carter no. 091; Tutankhamun Spatial Archive, object 91 (JE 62028; GEM 4573).
 - Horst Beinlich and Mohamed Saleh, *Corpus der hieroglyphischen Inschriften aus dem Grab des Tutanchamun* (Oxford: Griffith Institute, 1989), 35–36.
 - Grand Egyptian Museum, “Golden Throne,” GEM 4573.
+- Ambrose Lansing and William C. Hayes, “The Egyptian Expedition 1935–1936: The Museum’s Excavations at Thebes,” *Bulletin of the Metropolitan Museum of Art* 32 (January 1937, sect. II): 4–39.
+- William C. Hayes, *The Scepter of Egypt*, 2 vols. (Cambridge, MA: Harvard University Press, 1953–59).
+- Tomb of Rekhmire (TT 100), Theban workshop scenes of carpentry and webbing.
 
 ## Figure plan
 
