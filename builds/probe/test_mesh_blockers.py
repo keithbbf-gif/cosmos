@@ -122,6 +122,9 @@ def main() -> int:
     check("claude-cli (module=None in WIRED_NODES) routes to the claude rail",
           lambda: [x for x in r if x["link_id"] == "claude-cli"][0]["probe_with"]
           == "cosmos_claude_rail")
+    check("gem-api (GEM-VERTEX) is probed with cosmos_vertex_rail, never Anthropic",
+          lambda: [x for x in r if x["link_id"] == "gem-api"][0]["probe_with"]
+          == "cosmos_vertex_rail")
     # The UNION, not the sum: a rail that has been wired leaves UNWIRED_ROWS on
     # the way out of rows(), so summing the two tables double-counts exactly the
     # rails whose duplication this check exists to catch.

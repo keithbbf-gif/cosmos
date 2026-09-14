@@ -86,8 +86,12 @@ FIRECRAWL_RESPONDER = "firecrawl/v2-research-papers"
 WIRED_NODES = (
     {"link_id": "sgh-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "g46-grok", "module": "bts_sgh"},
+    # GEM via Vertex (Joanna GCP credit ~Oct 13). Native prove path is
+    # cosmos_vertex_rail; bts_gem is failover when the Vertex key is absent.
+    # satellite=vertex so probe_module_for cannot fall through to Anthropic
+    # or treat import-liveness of bts_gem as a proof (F-24).
     {"link_id": "gem-api", "rail_type": "API", "src": "core", "dst": "models",
-     "family": "gem-vertex", "module": "bts_gem"},
+     "family": "gem-vertex", "module": None, "satellite": "vertex"},
     {"link_id": "gw-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "gw-grok-build", "module": "bts_gw"},
     {"link_id": "oa-api", "rail_type": "API", "src": "core", "dst": "models",
@@ -412,6 +416,84 @@ def _forge_live_call(paths: CosmosPaths, link_id: str) -> dict:
             "detail": str(detail)[:300]}
 
 
+def _vertex_live_call(paths: CosmosPaths) -> dict:
+    """GEM via Vertex (Joanna). Prove-shaped generateContent.
+
+    Binds the vendor-emitted `modelVersion` only. A requested id is not a
+    proof. Missing key is UNMEASURED (never GREEN). Failover from GEM:
+    if Vertex has no key and the incumbent bts_gem answers, that body is
+    the measurement — tagged via=bts_gem, not a forged Vertex GREEN.
+    """
+    from cosmos_vertex_rail import (
+        VertexRailError, key_path_for, load_spec, rail_for,
+    )
+    rec = None
+    try:
+        spec = load_spec(paths)
+        try:
+            kp = key_path_for(paths, spec)
+        except VertexRailError:
+            kp = None
+        env_key = bool(str(os.environ.get("VERTEX_API_KEY") or "").strip())
+        if kp is not None or env_key:
+            rail = rail_for(paths)
+            out = rail.dispatch({"prompt": LIVE_PROMPT})
+            ident = rail.last_identity() or {}
+            vendor = str(ident.get("modelVersion") or "")
+            body = str(out.get("text") or out.get("body") or "")
+            live = bool(out.get("ok") and vendor and body.strip())
+            rec = {
+                "ok": live, "rc": 0 if live else 2, "body": body if live else "",
+                "body_bytes": len((body if live else "").encode("utf-8")),
+                "model": vendor if live else "",
+                "model_source": "modelVersion (generateContent)" if live else "",
+                "via": "vertex",
+                "detail": (
+                    f"gem-api vertex generateContent modelVersion={vendor}"
+                    if live else str(out.get("detail") or out.get("reason")
+                                     or out.get("kind") or "")[:300]),
+                "kind": None if live else (out.get("kind") or out.get("reason")
+                                           or "BROKE"),
+            }
+            if live:
+                return rec
+            kind = str(rec.get("kind") or "")
+            if kind not in ("NO_KEY", "UNMEASURED"):
+                return rec
+    except VertexRailError as e:
+        rec = {"ok": False, "rc": 2, "body": "", "body_bytes": 0,
+               "model": "", "detail": f"{e.kind}: {e}", "kind": e.kind}
+        if e.kind != "NO_KEY":
+            return rec
+    except Exception as e:  # noqa: BLE001
+        return {"ok": False, "rc": 2, "body": "", "body_bytes": 0,
+                "model": "", "detail": f"{type(e).__name__}: {e}",
+                "kind": "BROKE"}
+
+    gem = _node_live_call(paths, "bts_gem")
+    if gem.get("ok") and str(gem.get("model") or "").strip() and str(
+            gem.get("body") or gem.get("text") or "").strip():
+        gem = dict(gem)
+        gem["via"] = gem.get("via") or "bts_gem"
+        gem["model_source"] = gem.get("model_source") or "bts_gem.ask model"
+        prior = rec.get("detail") if rec else "NO_KEY"
+        gem["detail"] = (
+            f"failover from GEM (bts_gem); vertex {prior}: "
+            f"{gem.get('detail') or ''}")[:300]
+        return gem
+    if rec is not None:
+        if rec.get("kind") == "NO_KEY" or "NO_KEY" in str(rec.get("detail") or ""):
+            rec["kind"] = "UNMEASURED"
+            rec["detail"] = (
+                "UNMEASURED: " + str(rec.get("detail") or "NO_KEY")
+            )[:300]
+        return rec
+    return {"ok": False, "rc": 2, "body": "", "body_bytes": 0, "model": "",
+            "detail": "UNMEASURED: vertex_key.txt / VERTEX_API_KEY absent "
+                      "(Joanna GCP); bts_gem incumbent did not answer",
+            "kind": "UNMEASURED"}
+
+
 def _groq_live_call(paths: CosmosPaths) -> dict:
     """GET /models; bind openai/gpt-oss-20b in the vendor id list."""
     from cosmos_groq_rail import (
@@ -452,6 +534,7 @@ SATELLITES = {
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
+    "vertex": ("cosmos_vertex_rail", _vertex_live_call),
 }
 
 
@@ -550,6 +633,16 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # the key file is the configuration fact.
         from cosmos_codex_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
+    if sat == "vertex":
+        # Joanna Vertex Express. Key file or VERTEX_API_KEY, else incumbent
+        # bts_gem (failover from GEM). Existence only — never a read.
+        from cosmos_vertex_rail import KEY_NAME
+        if paths.config(KEY_NAME).exists():
+            return True
+        if str(os.environ.get("VERTEX_API_KEY") or "").strip():
+            return True
+        from cosmos_node_rails import resolve_incumbent_root
+        return bool(resolve_incumbent_root(paths))
     return _claude_configured(paths)
 
 

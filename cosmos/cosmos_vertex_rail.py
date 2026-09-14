@@ -290,6 +290,11 @@ class VertexRail:
         self.spec = spec
         self.http = http
         self.env = env
+        self._last: dict = {}
+
+    def last_identity(self) -> dict:
+        """Last generateContent identity. Empty until a call names the vendor."""
+        return dict(self._last) if self._last else {}
 
     def _auth_headers(self) -> dict:
         use_project = (
@@ -452,6 +457,16 @@ class VertexRail:
         text = "".join(
             str(p.get("text") or "") for p in parts if isinstance(p, dict)
         ).strip()
+        # Vendor-emitted responder. Requested id is not a proof (F-24).
+        vendor_model = str(
+            parsed.get("modelVersion") or parsed.get("model") or ""
+        ).strip()
+        self._last = {
+            "http": status,
+            "modelVersion": vendor_model,
+            "model_requested": model,
+            "via": "vertex",
+        }
         um = parsed.get("usageMetadata") if isinstance(
             parsed.get("usageMetadata"), dict) else {}
         ptd = um.get("promptTokensDetails") or um.get("prompt_tokens_details") or {}
@@ -478,7 +493,9 @@ class VertexRail:
         if not text:
             return {
                 "ok": False, "reason": "EMPTY", "text": "",
-                "model": model, "via": "vertex",
+                "model": vendor_model, "via": "vertex",
+                "model_source": "modelVersion (generateContent)" if vendor_model
+                else "",
                 "detail": "Vertex returned no text",
                 "tokens": tokens,
                 "cost_usd": None,
@@ -486,7 +503,9 @@ class VertexRail:
             }
         return {
             "ok": True, "reason": "OK", "text": text,
-            "model": model, "via": "vertex",
+            "model": vendor_model, "via": "vertex",
+            "model_source": "modelVersion (generateContent)" if vendor_model
+            else "",
             "tokens": tokens,
             "cost_usd": price_usd(tokens, len(prompt)),
             "cached_content": cache_name or None,
@@ -507,6 +526,7 @@ class VertexRail:
             "kind": "API" if r.get("ok") else (r.get("reason") or "BROKE"),
             "text": r.get("text") or "",
             "model": r.get("model"),
+            "model_source": r.get("model_source") or "",
             "via": "vertex",
             "usd": usd,
             "detail": r.get("detail") or r.get("reason"),
@@ -680,6 +700,7 @@ def _selftest() -> int:
             "candidates": [{
                 "content": {"parts": [{"text": "PONG-VERTEX"}]},
             }],
+            "modelVersion": "gemini-2.5-flash",
             "usageMetadata": {
                 "promptTokenCount": 3,
                 "candidatesTokenCount": 2,
@@ -694,7 +715,17 @@ def _selftest() -> int:
           lambda: rec.get("ok") is True and rec.get("via") == "vertex"
           and rec.get("text") == "PONG-VERTEX"
           and rec.get("model") == "gemini-2.5-flash"
+          and rec.get("model_source") == "modelVersion (generateContent)"
           and rec.get("tokens", {}).get("cached") == 0)
+    nameless = VertexRail(keyp, spec, http=lambda *_a, **_k: (200, {
+        "candidates": [{"content": {"parts": [{"text": "PONG"}]}}],
+    }))
+    nameless_rec = nameless.ask("x")
+    check("http=200 with no modelVersion is not a named responder",
+          lambda: nameless_rec.get("ok") is True
+          and nameless_rec.get("model") == ""
+          and not nameless_rec.get("model_source")
+          and nameless.last_identity().get("modelVersion") == "")
     rec_sys = rail.ask("item", model="gemini-2.5-flash", system="STABLE PREFIX")
     check("systemInstruction is the cache prefix, item stays in contents",
           lambda: rec_sys.get("ok") is True
@@ -736,6 +767,7 @@ def _selftest() -> int:
             "candidates": [{
                 "content": {"parts": [{"text": "PONG-ADC"}]},
             }],
+            "modelVersion": "gemini-2.5-flash",
             "usageMetadata": {
                 "promptTokenCount": 1,
                 "candidatesTokenCount": 1,
@@ -758,6 +790,7 @@ def _selftest() -> int:
             "candidates": [{
                 "content": {"parts": [{"text": "PONG-GEMMA4"}]},
             }],
+            "modelVersion": GEMMA4_CODING_MODEL,
         }
 
     maas_rail = VertexRail(ckey, {

@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import cosmos_cursor_rail                                        # noqa: E402
 import cosmos_firecrawl_rail                                     # noqa: E402
 import cosmos_playwright_rail                                    # noqa: E402
+import cosmos_vertex_rail                                        # noqa: E402
 import cosmos_rails_prober as P                                  # noqa: E402
 import cosmos_registry                                           # noqa: E402
 from cosmos_kernel import install                                # noqa: E402
@@ -164,14 +165,20 @@ def wiring(td: Path) -> None:
            "playwright-dom": "cosmos_playwright_rail",
            "github-forge": "cosmos_forge_rail",
            "gitlab-forge": "cosmos_forge_rail",
-           "codex-cli": "cosmos_codex_rail"}
+           "codex-cli": "cosmos_codex_rail",
+           "gem-api": "cosmos_vertex_rail"}
     mods = {lid: _call_prober("probe_module_for", by_id[lid]) for lid in by_id}
     check("each satellite is probed with ITS OWN rail module, never the "
           "Anthropic default (the F-24 wiring left probe_with behind)",
           lambda: {k: mods[k] for k in own} == own)
-    check("the incumbent rows still name their bts_* module",
+    check("the remaining incumbent rows still name their bts_* module",
           lambda: all(mods[lid] == by_id[lid]["module"]
-                      for lid in ("sgh-api", "gem-api", "gw-api", "oa-api")))
+                      for lid in ("sgh-api", "gw-api", "oa-api")))
+    check("gem-api is a vertex satellite (Joanna), not bts_gem import-liveness",
+          lambda: by_id["gem-api"].get("satellite") == "vertex"
+          and by_id["gem-api"].get("module") is None
+          and by_id["gem-api"].get("family") == "gem-vertex"
+          and mods["gem-api"] == "cosmos_vertex_rail")
     check("claude-cli - module=None and no satellite - is the ONLY row that "
           "falls through to the claude rail",
           lambda: mods["claude-cli"] == "cosmos_claude_rail"
@@ -253,10 +260,13 @@ def responders(td: Path) -> None:
         paths.config(cosmos_firecrawl_rail.SPEC_NAME))
     cosmos_playwright_rail.write_spec(
         paths.config(cosmos_playwright_rail.SPEC_NAME))
+    paths.config(cosmos_vertex_rail.KEY_NAME).write_text(
+        "vertex-test-key-not-real\n", encoding="utf-8")
 
     real_cursor = cosmos_cursor_rail.CursorRail
     real_fire = cosmos_firecrawl_rail.FirecrawlRail
     real_play = cosmos_playwright_rail.PlaywrightRail
+    real_vertex = cosmos_vertex_rail.VertexRail
 
     def _bind(module, attr, real, **extra):
         module.__dict__[attr] = (
@@ -328,10 +338,44 @@ def responders(td: Path) -> None:
               and pw["model_source"].startswith("MCP serverInfo"))
         check("playwright-dom proof body quotes the measured tool count",
               lambda: "tools/list n=" in pw["body"] and pw["rc"] == 0)
+
+        # -- vertex / gem-api: modelVersion is the responder the vendor emitted
+        def vertex_http(version, text="PONG"):
+            def _h(method, url, body=None):
+                parsed = {
+                    "candidates": [{
+                        "content": {"parts": [{"text": text}]},
+                    }],
+                    "usageMetadata": {
+                        "promptTokenCount": 1,
+                        "candidatesTokenCount": 1,
+                    },
+                }
+                if version:
+                    parsed["modelVersion"] = version
+                return 200, parsed
+            return _h
+
+        _bind(cosmos_vertex_rail, "VertexRail", real_vertex,
+              http=vertex_http("gemini-2.5-flash"))
+        vx = _call_prober("_vertex_live_call", paths)
+        check("gem-api proof names the modelVersion the VENDOR emitted",
+              lambda: vx.get("ok") and vx["model"] == "gemini-2.5-flash"
+              and vx["model_source"].startswith("modelVersion"))
+        check("gem-api proof clears the registry runtime-binding gate",
+              lambda: __import__("cosmos_registry").proof_ok(vx))
+
+        _bind(cosmos_vertex_rail, "VertexRail", real_vertex,
+              http=vertex_http(None))
+        vx_dead = _call_prober("_vertex_live_call", paths)
+        check("gem-api: http=200 with no modelVersion is NOT a proof",
+              lambda: vx_dead.get("ok") is False and vx_dead["model"] == ""
+              and not __import__("cosmos_registry").proof_ok(vx_dead))
     finally:
         cosmos_cursor_rail.__dict__["CursorRail"] = real_cursor
         cosmos_firecrawl_rail.__dict__["FirecrawlRail"] = real_fire
         cosmos_playwright_rail.__dict__["PlaywrightRail"] = real_play
+        cosmos_vertex_rail.__dict__["VertexRail"] = real_vertex
 
 
 # ------------------------ F-24 x F-25: proven, then aged out of the projection

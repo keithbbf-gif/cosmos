@@ -35,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from datetime import datetime
@@ -45,7 +46,9 @@ REPO = HERE.parents[1]
 sys.path.insert(0, str(REPO / "cosmos"))
 
 from cosmos_paths import CosmosPaths, CosmosPathError            # noqa: E402
-from cosmos_rails_prober import NODE_PROOF_TTL_S, WIRED_NODES    # noqa: E402
+from cosmos_rails_prober import (  # noqa: E402
+    NODE_PROOF_TTL_S, WIRED_NODES, probe_module_for,
+)
 
 WIRED = {w["link_id"]: w for w in WIRED_NODES}
 # Ordered SPECIFIC CAUSE first, generic wrapper last. Rails nest their refusals
@@ -79,6 +82,11 @@ NOTES = {
         "back to the prepaid SEAT (`claude -p` with ANTHROPIC_API_KEY unset). The "
         "recorded proof came from the seat path, so ClaudeRail.probe() refusing "
         "NO_KEY does not contradict the registry row.",
+    "gem-api":
+        "GEM via Vertex (Joanna GCP credit ~Oct 13). Prove path is "
+        "cosmos_vertex_rail generateContent binding vendor modelVersion. "
+        "bts_gem is failover when vertex_key.txt / VERTEX_API_KEY is absent. "
+        "A missing credential is UNMEASURED, never GREEN.",
 }
 
 
@@ -86,7 +94,7 @@ def rows() -> list[dict]:
     """The wired four (from the prober's own table) + the rails it never asks."""
     out = []
     for w in WIRED_NODES:
-        out.append(dict(w, probe_with=w.get("module") or "cosmos_claude_rail",
+        out.append(dict(w, probe_with=probe_module_for(w),
                         route=f"{w['src']}->{w['dst']}", note=NOTES.get(w["link_id"])))
     # A rail that has since been WIRED must leave the unasked list, or rows()
     # reports it twice in contradictory states -- once wired, once "no prove()
@@ -180,6 +188,22 @@ def probe_playwright(paths, deep: bool) -> dict:
     return {"ok": ok, "detail": detail, "evidence": ev}
 
 
+def probe_vertex_rail(paths) -> dict:
+    """Key/spec identity only. Never generateContent (that is --live prove)."""
+    import cosmos_vertex_rail as m
+    spec = m.load_spec(paths)
+    keyp = paths.config(m.KEY_NAME)
+    ev = {"key_path": str(keyp), "key_present": keyp.exists(),
+          "account": spec.get("account"), "project": spec.get("project")}
+    if not keyp.exists() and not str(
+            os.environ.get("VERTEX_API_KEY") or "").strip():
+        return {"ok": False, "kind": "UNMEASURED", "evidence": ev,
+                "detail": "UNMEASURED: vertex_key.txt / VERTEX_API_KEY absent"}
+    return {"ok": True,
+            "detail": f"vertex key present project={spec.get('project')}",
+            "evidence": ev}
+
+
 def measure(paths, row: dict, *, deep: bool) -> dict:
     mod = row["probe_with"]
     try:
@@ -187,6 +211,8 @@ def measure(paths, row: dict, *, deep: bool) -> dict:
             return probe_node_rail(paths, mod)
         if mod == "cosmos_playwright_rail":
             return probe_playwright(paths, deep)
+        if mod == "cosmos_vertex_rail":
+            return probe_vertex_rail(paths)
         if mod in ("cosmos_cursor_rail", "cosmos_firecrawl_rail"):
             return probe_http_rail(paths, mod)
         return probe_binary_rail(paths, mod)

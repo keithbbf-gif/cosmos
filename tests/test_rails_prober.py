@@ -145,6 +145,11 @@ def main() -> int:
                   "codex-cli",
                   "cursor-api", "firecrawl-web", "groq-api", "playwright-dom",
                   "github-forge", "gitlab-forge"])
+        gem = next(s for s in WIRED_NODES if s["link_id"] == "gem-api")
+        check("gem-api is GEM-VERTEX satellite (Joanna), not bts_gem prove",
+              lambda: gem.get("family") == "gem-vertex"
+              and gem.get("satellite") == "vertex"
+              and gem.get("module") is None)
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"
                / "cosmos_rails_prober.py").read_text(encoding="utf-8")
