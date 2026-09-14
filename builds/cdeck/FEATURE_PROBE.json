@@ -1,0 +1,43 @@
+{
+ "label": "FEATURE_PROBE-ui-refresh-2026-09-14T12:31:21Z",
+ "schema": "cosmos-cdeck-feature-probe/1",
+ "ui_files": {
+  "app.js": {
+   "bytes": 2680,
+   "sha256": "ee03ef92bdc709eceadb57cc164e83c45a8a0423871883ea16ba1b3bcd4abdb1"
+  },
+  "deck_forge.js": {
+   "bytes": 1772,
+   "sha256": "30a31c5399286f27442b3a790f9a9621ced7352c3d55ccdb4fb69fe224650dfa"
+  },
+  "deck_more.css": {
+   "bytes": 429,
+   "sha256": "485dbdd4229b2eb01f6e14ec2de8d67cf803f0b86a144390c2605354806d21fe"
+  },
+  "deck_more.html": {
+   "bytes": 274,
+   "sha256": "99e6ca3c5f5bbdb3a225ada1d79619f0efb8766866a2e4edaf8285e6adc3ec88"
+  },
+  "deck_profiles.js": {
+   "bytes": 15707,
+   "sha256": "02c2c94b293462ab05789988d134171be4cd868c15441b55765ccbd92a430ee1"
+  },
+  "deck_studio.js": {
+   "bytes": 9356,
+   "sha256": "fd8f53d4cf992a445c55542057594fc2277176c1852c572e7383aa732acc3560"
+  },
+  "deck_tabs.js": {
+   "bytes": 932,
+   "sha256": "af0749e09c4505a8000e34f60ce431d219ddf5731718980d1d0db97987ef5f35"
+  },
+  "header.css": {
+   "bytes": 688,
+   "sha256": "d5856f02849fc3f320f4196dd67f66f5893132463247af01ab83d3ffee63fad8"
+  },
+  "header.js": {
+   "bytes": 2758,
+   "sha256": "ee4e78ee823072040d3111fc6cc5ea0ce3480ab782f8327e050999dc2ba39d6b"
+  }
+ },
+ "ui_fingerprint_at": "2026-09-14T12:31:21Z"
+}
