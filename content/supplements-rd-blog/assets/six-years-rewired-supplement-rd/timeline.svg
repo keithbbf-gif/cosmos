@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Supplement R&amp;D — selected public milestones (2020–2026)</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Supplement R&amp;D — selected public milestones (2020–2026)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Dated milestones from cited public sources — not a trend forecast</text>
+  <line x1="120" y1="80" x2="120" y2="152" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="92" width="80" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff">2020</text>
+  <text x="136" y="108" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">COVID enforcement</text>
+  <text x="136" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">FDA/FTC COVID warning letters; GMP inspection thinning (cited</text>
+  <text x="136" y="144" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">in draft 01)</text>
+  <line x1="120" y1="152" x2="120" y2="224" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="164" width="80" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="184" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2b6cb0">2022</text>
+  <text x="136" y="180" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">FTC + trials</text>
+  <text x="136" y="200" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Health Products Compliance Guidance (Dec); STRENGTH futility</text>
+  <text x="136" y="216" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">published</text>
+  <line x1="120" y1="224" x2="120" y2="296" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="236" width="80" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="256" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff">2022</text>
+  <text x="136" y="252" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">NAC discretion</text>
+  <text x="136" y="272" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">FDA enforcement discretion for certain NAC products</text>
+  <line x1="120" y1="296" x2="120" y2="368" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="308" width="80" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="328" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2b6cb0">2023</text>
+  <text x="136" y="324" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">CBD + NAMS</text>
+  <text x="136" y="344" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">FDA: frameworks not appropriate for CBD (Jan); NAMS nonhormone</text>
+  <text x="136" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">statement (Jun)</text>
+  <line x1="120" y1="368" x2="120" y2="440" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="380" width="80" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff">2025</text>
+  <text x="136" y="396" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">NMN petitions</text>
+  <text x="136" y="416" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">FDA 29 Sep 2025 citizen-petition responses on NMN marketing</text>
+  <text x="136" y="432" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">history</text>
+  <text x="24" y="506" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Sources listed in article 01 front matter and BIBLIOGRAPHY.md</text>
+</svg>

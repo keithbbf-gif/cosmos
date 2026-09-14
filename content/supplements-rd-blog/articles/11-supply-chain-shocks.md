@@ -25,6 +25,13 @@ I do not have a single federal time series that says "vitamin D3 API lead time w
 
 ## What actually broke
 
+<!-- graphics-pack:v1 -->
+
+![Timeline of 2020–2022 supply-chain shock beats for operators.](../assets/supply-chain-api-shocks-2020-2022/timeline.svg)
+
+*Figure 1. Illustrative sequencing of lead-time, cost, and qualification backlog themes.*
+
+
 **China and India as default.** Most US vitamin D3, many B vitamins, a lot of ascorbic acid, creatine, and botanical extracts have a short list of upstream plants. When Hubei locked down in early 2020, then when Indian solvent and labor disruptions hit, the US brand that thought it "bought American" discovered the premix was still an import. Lanolin-derived D3 and some lichen D3 are not the same supply graph; swapping them to keep Amazon in stock is a label and allergen/source statement event, not a silent PO.
 
 **Freight.** Container rates and port dwell times in 2020–2022 are documented in freight indices. `[VERIFY]` a specific Drewry or Freightos number if you put it on a slide. The operator fact: landed cost of a commodity vitamin moved more because of the box than because of the molecule.
@@ -46,6 +53,13 @@ NOW's Sparks, Nevada plant, as of KUER 2022, was still running hard two years in
 5. **Label artwork frozen while the formula moved.** "Contains soy" off the label after a lecithin swap — or still on it after you removed lecithin.
 
 ## What a dual-source program looks like when it is real
+
+<!-- graphics-pack:v1 -->
+
+![Schematic fork between single API supplier and qualified alternate.](../assets/supply-chain-api-shocks-2020-2022/dual-source-decision.svg)
+
+*Figure 2. Dual-source is identity plus audit trail, not a second phone number.*
+
 
 - Two qualified manufacturers, not two trading names for one plant. You have audited (or paid someone to audit) both. You have kept samples.
 - Incoming ID and assay on *every* lot during a disruption, even if you were skip-lot in 2019. Part 111 lets you tighten; it does not let you wish.

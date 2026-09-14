@@ -27,6 +27,13 @@ The NAD shelf sold a feeling: a battery icon, a mouse paper, a founder in a blac
 
 ## The biochemistry in one paragraph
 
+<!-- graphics-pack:v1 -->
+
+![Schematic NAD salvage pathway from NAM through NMN or NR to NAD+.](../assets/nad-nmn-longevity-evidence/nad-salvage-pathway.svg)
+
+*Figure 1. Biochemistry schematic for literacy (Yoshino, Baur, Imai 2018 review). Raising NAD+ is not the same as reversing aging.*
+
+
 NAD+ is a cofactor. Levels tend to decline with age in some tissues in some models. Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) are intermediates that can raise NAD+ in humans at sufficient doses. Yoshino, Baur, and Imai's *Cell Metabolism* 2018 review is the map most people steal their figures from. Raising a cofactor is not the same as reversing aging. A lot of copy treats those as synonyms.
 
 ## The human evidence, without the keynote
@@ -40,6 +47,13 @@ Safety: flushing and GI effects show up; long-horizon human safety at gram doses
 NR (nicotinamide riboside, often as chloride, Niagen-class) had a cleaner *early* US commerce path than NMN and its own human NAD-metabolome papers. It is still not a lifespan drug. Do not treat NR and NMN as interchangeable on a label: different article, different NDIN file, different assay. Nicotinamide (niacinamide) is cheaper and is already a form of vitamin B3 with a UL. Some "NAD complex" SKUs are mostly nicotinamide with a dusting of NMN. Assay all three if you print all three.
 
 ## The regulatory plot, which actually has dates
+
+<!-- graphics-pack:v1 -->
+
+![Table of NMN regulatory dates to verify before print.](../assets/nad-nmn-longevity-evidence/nmn-regulatory-dates.svg)
+
+*Figure 2. Agency status with dates — not an efficacy claim.*
+
 
 **May–July 2022.** FDA filed NDINs for NMN (including SyncoZymes). Filing is procedural. It is not a safety finding. FDA said so in the ack letters.
 

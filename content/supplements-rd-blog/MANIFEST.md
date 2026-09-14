@@ -1,6 +1,6 @@
 # Manifest — `content/supplements-rd-blog/`
 
-Draft-only pack. Count target: **≥40** article drafts. This expand: **40**.
+Draft-only pack. Count target: **≥40** article drafts. This expand: **40**, rewritten as evidence-careful longform (quality over quota). Wave-2 figures on slugs 17–40; PR #240 embeds preserved on 01–16.
 
 Editor agent: QA against `STYLE_GUIDE.md` after this commit. Do not publish.
 

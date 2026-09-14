@@ -47,6 +47,13 @@ Clean Label Project has run similar consumer tests. Treat them as press tests: u
 
 ## The three marks people mean when they are being precise
 
+<!-- graphics-pack:v1 -->
+
+![Two-column comparison of third-party mark verification versus lot-matched COA duties.](../assets/heavy-metals-usp-nsf-informed-sport/program-compare.svg)
+
+*Figure 1. USP, NSF, and Informed-Sport are trademarks — use only when the SKU is in-program.*
+
+
 ### USP Verified (dietary supplement program)
 
 USP audits the facility, checks GMP, tests products against USP standards (identity, potency, contaminants, disintegration), and does marketplace surveillance. The mark is for **specific SKUs** that stay in the program. Look up the product in USP's verified directory. A factory that "follows USP" is not USP Verified. USP monographs and the Verification Program are related and not identical.
@@ -62,6 +69,13 @@ Batch testing against a banned-substance screen, plus manufacturing quality comp
 **None of these marks mean "the ingredient treats a disease."** They mean a program was paid for, a standard was applied, and (if current) the SKU is in the database.
 
 ## What a finished-product COA has to have
+
+<!-- graphics-pack:v1 -->
+
+![Table of expected finished-product COA rows and why each matters.](../assets/heavy-metals-usp-nsf-informed-sport/coa-rows-finished-product.svg)
+
+*Figure 2. Row set for buyer literacy — your spec column still has to exist in the MMR.*
+
 
 Piece 16 goes deeper. The short list:
 

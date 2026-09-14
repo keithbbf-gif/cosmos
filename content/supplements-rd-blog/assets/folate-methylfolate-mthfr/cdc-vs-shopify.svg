@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Folate brief — public health vs merch</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Folate brief — public health vs merch</text>
+  <rect x="24" y="70" width="340" height="300" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <rect x="400" y="70" width="336" height="300" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="40" y="98" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="15" font-weight="600" fill="#2b6cb0">CDC / ODS lane</text>
+  <text x="416" y="98" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="15" font-weight="600" fill="#9b2c2c">DTC MTHFR merch</text>
+  <text x="40" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• Folic acid is the NTD trial molecule</text>
+  <text x="40" y="150" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• 400 mcg folic acid language (verify live)</text>
+  <text x="40" y="172" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• Label unit is mcg DFE</text>
+  <text x="416" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• Common SNP sold as a disease</text>
+  <text x="416" y="150" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• Folic acid called toxic</text>
+  <text x="416" y="172" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#1a2332">• Quiz-to-claim gap (article 13)</text>
+  <text x="24" y="426" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Educational split — article 25; not genetic advice</text>
+</svg>

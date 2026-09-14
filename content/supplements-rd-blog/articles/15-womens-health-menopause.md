@@ -26,6 +26,13 @@ voice_check: human
 
 ## What NAMS 2023 actually recommended
 
+<!-- graphics-pack:v1 -->
+
+![Qualitative evidence map for menopause nutraceutical claims.](../assets/womens-health-menopause-nutraceuticals/nams-evidence-map.svg)
+
+*Figure 1. Qualitative map aligned to NAMS 2023 — not a product ranking.*
+
+
 *Menopause* 2023, PMID 37252752. Nonhormone options for **vasomotor symptoms** (hot flashes, night sweats).
 
 **Recommended (with their evidence grades):** cognitive-behavioral therapy, clinical hypnosis, SSRIs/SNRIs, gabapentin, fezolinetant (Level I); oxybutynin (I–II); weight loss and stellate ganglion block (II–III). Those are mostly *not supplements*. Fezolinetant is a drug.

@@ -110,6 +110,8 @@ Real sources used in the drafts. If a draft needed a number we could not pin, th
 
 - Sesso HD, et al. Multivitamins in the prevention of cancer and CVD: COSMOS. *Am J Clin Nutr.* 2022. PMID 35294969. NCT02422745.
 - Baker LD, et al. COSMOS-Mind. *Alzheimers Dement.* 2022. PMID 36102337.
+- Yeung LK, et al. COSMOS-Web. *Am J Clin Nutr.* 2023. PMID 37244291. NCT04582617.
+- Vyas CM, et al. COSMOS-Clinic + meta of three COSMOS cognitive ancillaries. *Am J Clin Nutr.* 2024. PMID 38244989.
 - Gaziano JM, et al. PHS II multivitamin. *JAMA.* 2012. PMID 23162860.
 
 ## Melatonin / pediatrics
@@ -135,9 +137,20 @@ Real sources used in the drafts. If a draft needed a number we could not pin, th
 - Gibson GR, et al. ISAPP prebiotic consensus. *Nat Rev Gastroenterol Hepatol.* 2017. PMID 28611380.
 - Swanson KS, et al. ISAPP synbiotic consensus. *Nat Rev Gastroenterol Hepatol.* 2020. PMID 32810439.
 - Tacklind J, et al. Saw palmetto for BPH. *Cochrane Database Syst Rev.* 2012;12:CD001423.
-- Yin J, Xing H, Ye J. Berberine in type 2 diabetes (early RCT). *Metabolism.* 2008;57:712-717.
-- Proksch E, et al. Collagen peptides and skin. *Skin Pharmacol Physiol.* 2014;27:47-55.
+- Yin J, Xing H, Ye J. Berberine in type 2 diabetes (early RCT). *Metabolism.* 2008;57:712-717. PMID 18442638.
+- Proksch E, et al. Collagen peptides and skin. *Skin Pharmacol Physiol.* 2014;27:47-55. PMID 23949208.
 - Choi FD, et al. Oral collagen and skin (review). *J Drugs Dermatol.* 2019.
+- Zdzieblik D, et al. Collagen peptides + resistance training in older men. *Br J Nutr.* 2015. PMID 26353786.
+- Abbasi B, et al. Magnesium and primary insomnia in elderly (n=46). *J Res Med Sci.* 2012. PMID 23853635.
+- Inagawa K, et al. Glycine 3 g, subjective morning ratings. *Sleep Biol Rhythms.* 2006;4:75-77.
+- Qu H, et al. CoQ10 and statin-associated muscle symptoms (12 RCTs, n=575). *J Am Heart Assoc.* 2018. PMID 30371340.
+- Mortensen SA, et al. Q-SYMBIO. *JACC Heart Fail.* 2014. PMID 25282031 (disease trial — not a DTC file).
+- USPSTF. Vitamin D, calcium, or combined supplementation for primary fracture prevention. *JAMA.* 2018;320:1402-1412. (2024 draft update: `[VERIFY]` final grade.)
+- Cowell W, et al. Ground turmeric as a source of lead exposure. *Public Health Rep.* 2017. PMID 28358991.
+- Kappel M, et al. Childhood lead poisoning associated with turmeric — Las Vegas, 2019. *MMWR.* 2021;70:1584-1585.
+- Angelon-Gaetz KA, et al. Lead in spices/herbs, North Carolina. *MMWR.* 2018;67:1290-1294.
+- Shoba G, et al. Piperine and curcumin PK. *Planta Med.* 1998. PMID 9619120 (`[VERIFY]` fold-change before quoting).
+- FDA. NDIN Master Files draft guidance. Announced 3 Apr 2024; 89 FR 23599 (4 Apr 2024); docket FDA-2024-D-0706.
 - USP <467> Residual Solvents.
 - FDA tainted-supplements page. https://www.fda.gov/food/dietary-supplement-products-ingredients/tainted-products-marketed-dietary-supplements
 - FASTER Act (sesame as ninth major allergen, labeling 2023).
