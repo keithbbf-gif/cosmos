@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Baltimore painted dining furniture
 meta_description: Fancy chairs, painted settees, and a mahogany table — Baltimore’s Federal dining room was a paint shop as much as a cabinet shop.
 seo_intent: informational
+plate: "plates/baltimore-painted-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Baltimore painted dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/baltimore-painted-dining/plate.jpg"
+    alt="Painted and gilded pier table, Baltimore school, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Painted pier table</strong>, c. 1820 — Baltimore painted and gilded furniture at the formal table.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The Met’s Baltimore Room is a parlor dressed as a dining room, Craig woodwork, Gallery 724. The furniture the Museum puts in it has changed with curators. What Baltimore actually made for dining in the Federal years is a split: mahogany tables and sideboards like every other port, and a painted fancy — chairs, settees, sometimes tables — that is the city’s accent. The paint is not a substitute for carving only. It is a school: landscapes, gilt, grisaille, a chair that costs less than a Phyfe reeded mahogany and looks, under candles, like a different kind of money.
 

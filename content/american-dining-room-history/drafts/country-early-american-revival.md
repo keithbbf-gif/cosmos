@@ -13,10 +13,25 @@ pillar: furniture-history
 primary_keyword: Early American dining revival 1970s
 meta_description: Harvest gold, wagon-wheel lights, and maple suites — the Late Colonial Revival dining room of the 1970s catalog.
 seo_intent: informational
+plate: "plates/country-early-american-revival/plate.jpg"
+plate_status: cleared
 ---
-
 # Country and Early American revival
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/country-early-american-revival/plate.jpg"
+    alt="American Windsor armchair, Early American Revival dining, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Windsor armchair</strong>, c. 1790 — Windsor chairs revived as Early American icons in twentieth-century dining rooms.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 The 1970s dining room that was not Mediterranean pecan was often “Early American”: maple or pine, turned legs, a hutch with pewter-looking plates, Windsor or captain’s chairs, a dry-sink in the corner, a wagon-wheel or hurricane fixture. It is Colonial Revival after television. *The Waltons* and a hundred furniture ads taught a dining room that was neither 1720 nor Nutting’s sepia. It was honey maple, plasticized, and available on credit.
 
 This is a second Revival, not a continuation of 1925. The first Revival still knew antiques. The second Revival is a factory finish that does not want to be oiled. Ethan Allen is the name people remember. Other companies sold the same chair. The dry-sink was not a dining form in 1740. It became one on a 1974 showroom floor.

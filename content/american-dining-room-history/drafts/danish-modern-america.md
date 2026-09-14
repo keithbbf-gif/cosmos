@@ -14,10 +14,25 @@ pillar: furniture-history
 primary_keyword: Danish modern dining America
 meta_description: Teak extensions, paper-cord seats, and a suburban import — how Danish modern became the American dining room of 1962.
 seo_intent: informational
+plate: "plates/danish-modern-america/plate.jpg"
+plate_status: cleared
 ---
-
 # Danish modern in America
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/danish-modern-america/plate.jpg"
+    alt="Danish modern teak dining chair, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Teak dining chair</strong>, c. 1960 — Teak and Danish modern chair imports in American suburban dining rooms.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 A teak dining table with tapered legs, a draw leaf at each end, and six chairs in paper cord or wool is not an American invention. It is an American dining room. After the war, Danish makers (and Swedish, and then American copies) sold a modern that was warmer than Knoll’s marble and more wooden than chrome. Department stores and specialty shops — the names collectors recite, from Georg Jensen’s shops to later mall “Danish” — put oil finishes into houses that had been golden oak or mahogany revival. The table extends. The chairs are light. The sideboard is a low credenza. The dining room, if it exists, looks like a living room.
 
 Wegner, Juhl, Mogensen, Jacobsen (the last more chair than table) are the design names. Most American families bought unsigned teak. Both are history.

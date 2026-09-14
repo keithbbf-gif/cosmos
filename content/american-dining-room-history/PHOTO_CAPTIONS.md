@@ -7,7 +7,7 @@ series: american-dining-room-history
 
 # Photo captions
 
-Staged plates. Do not drop copyrighted magazine interiors into drafts. Prefer museum open-access, public-domain catalogs, and BBF shop fills where the wood is the subject.
+Staged plates. **On disk (2026-09-14):** each draft slug has `plates/<slug>/plate.jpg` and `RIGHTS.md`; the draft embeds an SEO `<figure>` after the H1. Ledger: `PLATE_SOURCES.md`. Museum PD/CC only — never AI. Do not drop copyrighted magazine interiors into drafts.
 
 | Draft slug | Preferred plate | Rights note | Caption direction |
 | --- | --- | --- | --- |

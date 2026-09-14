@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Eastlake dining furniture
 meta_description: Incised lines, honest joinery talk, and factory “Eastlake” — Charles Eastlake’s reform as it reached the American dining room.
 seo_intent: informational
+plate: "plates/eastlake-reform-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Eastlake and the reform dining room
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/eastlake-reform-dining/plate.jpg"
+    alt="Eastlake reform side chair with incised decoration, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Eastlake side chair</strong>, c. 1875 — Incised oak and Eastlake line reform at the dining chair.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Charles Locke Eastlake’s *Hints on Household Taste* (1868; American editions soon after) is a book against the fruit. He wants furniture whose construction you can see, ornament that is incised or geometric, wood that is not a composition grape. American factories read him the way they read every English book: they stamped “Eastlake” on a chair with a few incised lines and a factory finish and sold a dining suite to people who wanted to be good. The reform is real at the high end and a decal at the volume end. Both ended up at American tables.
 

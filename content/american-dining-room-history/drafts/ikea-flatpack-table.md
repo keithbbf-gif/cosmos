@@ -14,10 +14,25 @@ pillar: furniture-history
 primary_keyword: IKEA dining table America
 meta_description: Particleboard, hex keys, and a price — how IKEA’s American stores changed what a first dining table is.
 seo_intent: informational
+plate: "plates/ikea-flatpack-table/plate.jpg"
+plate_status: cleared
 ---
-
 # IKEA and the flat-pack table
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/ikea-flatpack-table/plate.jpg"
+    alt="Historic folding table with knockdown joinery, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Folding table</strong>, 19th century — Knockdown and folding tables as ancestors of flat-pack dining furniture.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 IKEA opened in the United States in 1985 (Plymouth Meeting, Pennsylvania). The dining table that comes home in a box — particleboard or veneered composite, cam locks, a hex key, legs you screw on — is the Hitchcock chair of the late century: a volume product, a brand, a first table for people who will later buy wood or never will. The INGATORP, the BJURSTA, later the EKEDALEN — names change. The idea does not: a table that ships cheap because you are the factory’s last worker.
 
 This is not a sneer. Flat-pack is an engineering and a class fact. American dining-room history after 1985 that omits it is a collector history.

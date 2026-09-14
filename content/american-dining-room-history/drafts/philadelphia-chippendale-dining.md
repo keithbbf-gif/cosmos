@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Philadelphia Chippendale dining furniture
 meta_description: Director plates, claw-and-ball chairs, and mahogany leaves — how Philadelphia shops set a Chippendale dining parlor.
 seo_intent: informational
+plate: "plates/philadelphia-chippendale-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Philadelphia Chippendale dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/philadelphia-chippendale-dining/plate.jpg"
+    alt="Chippendale carved mahogany side chair, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Chippendale carved mahogany side chair</strong>, c. 1765 — Philadelphia carving vocabulary at the Chippendale dining chair.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Thomas Chippendale never kept a bench on Second Street. What Philadelphia had, after 1754, was a book: *The Gentleman and Cabinet-Maker’s Director*, plates of chairs, tables, and case furniture that a shop could pirate, thicken, and make American. The dining parlor that comes out of those shops is mahogany on the show faces, tulip poplar and pine in the hidden ones, claw-and-ball feet on the chairs, and a drop-leaf or a large rectangular table that still folds because the room is not always a dining room yet.
 

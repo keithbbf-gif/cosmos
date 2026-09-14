@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: Southern hunt board furniture
 meta_description: Tall Southern serving tables, bottle drawers, and a 20th-century name — what hunt boards were before dealers invented the hunt.
 seo_intent: informational
+plate: "plates/hunt-board-southern-vernacular/plate.jpg"
+plate_status: cleared
 ---
-
 # Hunt boards and Southern vernacular
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/hunt-board-southern-vernacular/plate.jpg"
+    alt="Southern vernacular sideboard serving table, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Sideboard table</strong>, c. 1820 — Tall serving tables later called hunt boards in the Southern dining passage.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The word is late. University of Delaware’s Material Matters essay (2017) puts “hunt board” in dealer and collector language from the 1920s on, not in colonial bills. Period names were server, sideboard table, slab table, sideboard. The tall, often six-legged walnut or cherry serving piece of the Southern Piedmont — bottle drawers at the ends, a shallow center, legs that go on a little too long — is real. The story that horsemen ate off it without dismounting is a 1932 *Magazine Antiques* romance, Mr. Thomas of Athens, Georgia, quoted by Mary Ralls Dockstader, and a collector’s need for moonlight.
 

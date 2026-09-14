@@ -14,10 +14,25 @@ pillar: furniture-history
 primary_keyword: postmodern dining furniture 1980s
 meta_description: Laminate, color, and a joke at the table — Memphis, Graves, and the American postmodern dining room.
 seo_intent: informational
+plate: "plates/postmodern-memphis-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Postmodern dining
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/postmodern-memphis-dining/plate.jpg"
+    alt="Ettore Sottsass Carlton bookcase for Memphis Milano, 1981."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Carlton room divider</strong>, 1981 — Memphis Milano color and irony at the postmodern dining room edge.
+    <span class="figure-credit">Photo: Sailko. Wikimedia Commons. CC BY 3.0.</span>
+  </figcaption>
+</figure>
 The Memphis dinner — a table that looks like a toy, a laminate that is a pattern, a chair that is a color first — was an Italian argument that a few Americans ate at. Ettore Sottsass and the Memphis group (1981) designed objects that refused both teak piety and Knoll marble. Michael Graves’s chairs and tables for American makers brought a cartoon classicism into showrooms: a pediment on a chair back, a pastel, a squashed column. Most American dining rooms ignored them and bought oak. This page is the ignored argument, because it is part of the history of what a dining table was allowed to look like.
 
 A postmodern dining table is allowed to be funny. American dining furniture had not been funny on purpose since the painted fancy. Hitchcock’s fruit was not a joke. Memphis’s pattern is a joke that you still have to put a plate on.

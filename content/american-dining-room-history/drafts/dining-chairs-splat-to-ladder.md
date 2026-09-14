@@ -13,9 +13,25 @@ pillar: furniture-history
 primary_keyword: American dining chair history
 meta_description: From vase splats and haircloth to Windsors, Hitchcocks, and the ladder-back — a chair history written for the table, not the parlor.
 seo_intent: informational
+plate: "plates/dining-chairs-splat-to-ladder/plate.jpg"
+plate_status: cleared
 ---
-
 # Dining chairs, splat to ladder
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/dining-chairs-splat-to-ladder/plate.jpg"
+    alt="American ladder-back armchair for dining, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ladder-back armchair</strong>, c. 1800 — Ladder-back and splat-back chair forms at the American dining table.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 A dining chair is a chair that must accept a table rail, a coat, a long sit, and crumbs. Parlor chairs can be weaker and prettier. The American dining chair runs from the joint stool and the leather side chair through vase splats, pierced Chippendale backs, Federal shields, Grecian sabers, Hitchcock tablets, press-backs, Mission slats, and the mid-century plywood shell. This page is a spine so the shop essays do not each invent seating from nothing. It does not replace those essays.
 

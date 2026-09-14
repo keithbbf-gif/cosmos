@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Boston Salem colonial dining furniture
 meta_description: Maple, mahogany, and a reserved hand — dining tables and chairs from Boston and Salem shops, from William and Mary through the Seymours.
 seo_intent: informational
+plate: "plates/boston-salem-colonial-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Boston and Salem
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/boston-salem-colonial-dining/plate.jpg"
+    alt="Colonial high chest of drawers, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>High chest of drawers</strong>, c. 1750 — Boston-area case furniture that shared shops with colonial dining tables.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Boston eats first and carves less. That is a slander with a lot of evidence. From the William and Mary hour through Chippendale and into Federal, Boston and then Salem shops supply New England tables that prefer a clean turning or a quiet cabriole to Philadelphia’s wet claw. The woods begin as maple and white pine and become mahogany when the ships allow. The dining is mercantile: a counting-house family, a minister on Sundays, a leaf that still folds in 1760 and a pedestal that will not in 1810.
 

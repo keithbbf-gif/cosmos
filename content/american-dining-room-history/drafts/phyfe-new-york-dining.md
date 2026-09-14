@@ -13,9 +13,25 @@ pillar: furniture-history
 primary_keyword: Duncan Phyfe dining table
 meta_description: Brooklyn’s 1805 dining table and the Met’s Pembrokes — what Phyfe’s workshop actually made for New York dinner.
 seo_intent: informational
+plate: "plates/phyfe-new-york-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Phyfe’s New York dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/phyfe-new-york-dining/plate.jpg"
+    alt="Drop-leaf Pembroke table attributed to the New York Phyfe circle, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Drop-leaf Pembroke table</strong>, c. 1810 — New York Pembroke and card tables in the Phyfe shop grammar.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The Brooklyn Museum’s dining table 1997.150.15a–c is the object to start with if you want dinner, not a sofa. Attributed to Duncan Phyfe, about 1805, mahogany with beech, twenty-nine and a half by forty-eight by seventy-eight inches, Matthew Scott Sloan Collection, gift of Lidie Lane Sloan McBurney. It is a table with parts — the a–c in the accession — the way Federal dining tables are parts. The Met’s better-known Phyfe pieces in the dining line are smaller or adjacent: Pembroke 31.44.15, drop-leaf Pembroke 22.98, sideboard table 1971.160. The sofa 42.16 is a masterpiece of the shop and not a dining table. This page keeps the cloth on the wood you eat from.
 

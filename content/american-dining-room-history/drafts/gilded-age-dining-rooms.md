@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: Gilded Age dining room furniture
 meta_description: Imported rooms, twenty-foot tables, and a staffed service — Gilded Age American dining furniture from Newport cottages to mail-order suites.
 seo_intent: informational
+plate: "plates/gilded-age-dining-rooms/plate.jpg"
+plate_status: cleared
 ---
-
 # Gilded Age dining rooms
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/gilded-age-dining-rooms/plate.jpg"
+    alt="Interior of the Marble House dining room, Newport, Gilded Age."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Marble House dining room interior</strong>, c. 1892 — Gilded Age dining rooms scaled for course service and spectacle.
+    <span class="figure-credit">Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 The dining room at a Newport “cottage” is a European room that happens to be in Rhode Island: paneling shipped or copied, a table that extends toward twenty, chairs that are English or French or Italian in style and American in their last polish, a sideboard that is architecture, silver that needs a room of its own. McKim, Mead & White and Richard Morris Hunt built the envelopes. Herter, Allard, and a chain of decorators filled them. This is not how most Americans dined. It is the image that made the middle-class suite feel small and the Colonial Revival feel like a relief.
 

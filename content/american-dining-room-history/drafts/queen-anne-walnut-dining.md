@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: Queen Anne dining table America
 meta_description: Cabriole legs, pad feet, and walnut drop-leaves — the American Queen Anne dining table before Chippendale’s mahogany hour.
 seo_intent: informational
+plate: "plates/queen-anne-walnut-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Queen Anne walnut
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/queen-anne-walnut-dining/plate.jpg"
+    alt="Queen Anne burl walnut veneered dressing table, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Queen Anne burl walnut dressing table</strong>, c. 1740 — Burl walnut veneer and cabriole lines that define Queen Anne dining furniture.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The cabriole is a bent knee. On an American Queen Anne dining table it is usually walnut, sometimes maple painted to look like walnut, later mahogany pretending the hour is still this one. The leg springs from a rounded knee, tapers, and ends in a pad foot — a disc, a slipper, a trifid in Philadelphia. Stretchers have mostly gone. The table stands on four (or six) legs that you can see under a hanging leaf, and the silhouette is the fashion: open, curved, a little proud.
 

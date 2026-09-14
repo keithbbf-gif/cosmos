@@ -13,10 +13,25 @@ pillar: furniture-history
 primary_keyword: how to read an antique dining table
 meta_description: Underside first — secondary woods, pins, slides, and wear — a field method for dating an American dining table.
 seo_intent: informational
+plate: "plates/reading-a-table-now/plate.jpg"
+plate_status: cleared
 ---
-
 # How to read an American dining table
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/reading-a-table-now/plate.jpg"
+    alt="Underside view of gate-leg drop-leaf table joinery, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gate-leg drop-leaf table</strong>, 18th century — Reading pins, secondary woods, and joinery from under the dining table.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 Get on the floor. The show top will lie. The underside keeps the shop. This page is a method, not a price guide. It exists so the series can end in a room you actually have, with a table you did not buy at the Met.
 
 Bring a flashlight, a notebook, and no certainty. Attribution is a specialist’s fight. What you can do is refuse the tag’s century until the joints agree.

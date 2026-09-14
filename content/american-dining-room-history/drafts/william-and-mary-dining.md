@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: William and Mary dining furniture America
 meta_description: Trumpet legs, ball feet, and high-stretchers — how American shops translated William and Mary dining tables and chairs after 1690.
 seo_intent: informational
+plate: "plates/william-and-mary-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # William and Mary at table
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/william-and-mary-dining/plate.jpg"
+    alt="William and Mary banister-back side chair, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Banister-back side chair</strong>, 1700–1720 — Turned banister-back seating at the William and Mary table before Queen Anne walnut.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The turning is the giveaway. A William and Mary dining table in America does not announce itself with a royal cipher. It announces itself with a trumpet: a leg that swells, cups, and drops to a ball foot, often with a high stretcher tying the legs in an X or a box. The fashion is Dutch and English, post-1688, and it reaches Boston, New York, and Philadelphia in the 1690s and the first quarter of the new century. The dining it serves is still a hall dining. The style is what you notice when the leaves are up and the candles are lit.
 

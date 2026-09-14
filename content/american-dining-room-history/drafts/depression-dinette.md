@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: 1930s dinette set history
 meta_description: Chromium, enamel, and a table that fits an alcove — how the dinette replaced the dining suite in American apartments.
 seo_intent: informational
+plate: "plates/depression-dinette/plate.jpg"
+plate_status: cleared
 ---
-
 # Depression dinettes
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/depression-dinette/plate.jpg"
+    alt="Dymaxion House kitchen exhibit at the Henry Ford Museum of American Innovation."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Dymaxion House kitchen exhibit</strong>, c. 1945 — Compact kitchen and dinette culture between Depression housing and suburban boom.
+    <span class="figure-credit">Photo: Andrew Balet. Wikimedia Commons. CC BY-SA 4.0.</span>
+  </figcaption>
+</figure>
 
 The dinette is a dining room that has admitted it lost the room. A table for four, often with a porcelain-enamel or linoleum top, chromium or painted-wood legs, chairs with tubular frames or thin painted wood, sometimes a matching cabinet. It lives in an alcove, a kitchen, or the end of a living room. Catalogs of the 1930s and 1940s sell it without shame. The Grand Rapids oak suite is still in the farmhouse. The city apartment buys this.
 

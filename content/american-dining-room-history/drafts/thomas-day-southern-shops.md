@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Thomas Day sideboard Milton
 meta_description: Free Black cabinetmaker Thomas Day’s S-scroll sideboards and interiors — a Southern dining room that is not a New York copy.
 seo_intent: informational
+plate: "plates/thomas-day-southern-shops/plate.jpg"
+plate_status: cleared
 ---
-
 # Thomas Day in Milton
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/thomas-day-southern-shops/plate.jpg"
+    alt="Bureau of 1855 by Thomas Day, North Carolina Museum of History."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Bureau by Thomas Day</strong>, 1855 — Thomas Day’s Milton shop and S-scrolls on a Southern dining-room bureau.
+    <span class="figure-credit">North Carolina Museum of History. Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 The sideboard made for Caleb Hazard Richmond, now at the North Carolina Museum of History, is the dining object to stand in front of. Mahogany and mahogany veneer, yellow pine, tulip poplar, walnut, 1840–1855, attributed to Thomas Day, Milton, North Carolina. Chipstone’s 2013 essay, “The Missing Chapter in the Life of Thomas Day,” publishes a detail of the scrolled mirror support and names the donors: Museum of History Associates and Mr. Thomas S. Erwin. The S is too big. That is the point. Day’s shop took a conservative sideboard plan and put exuberant scrolls on it until the piece moved.
 

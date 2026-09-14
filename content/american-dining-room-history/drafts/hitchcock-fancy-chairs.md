@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Hitchcock chairs dining room
 meta_description: Lambert Hitchcock’s 1825 factory and the stenciled rail — how a Connecticut mill put fancy chairs around American dinner tables.
 seo_intent: informational
+plate: "plates/hitchcock-fancy-chairs/plate.jpg"
+plate_status: cleared
 ---
-
 # Hitchcock chairs at table
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/hitchcock-fancy-chairs/plate.jpg"
+    alt="Stenciled Hitchcock-style fancy side chair, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Stenciled fancy chair</strong>, c. 1830 — Stenciled seat rails and factory fancy chairs at the American table.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The stencil on the back of the seat rail is the document: “L. HITCHCOCK. HITCHCOCKS-VILLE. CONN. WARRANTED.” Sometimes the wording shifts with partners. The chair under it is a painted fancy — turned legs, a pillowed tablet or a slat, rush or cane seat, gilt fruit and leaves in bronze powder. It is light. It was cheap. By the late 1820s a three-story brick factory on the Farmington River was turning out on the order of three hundred a week, something like fifteen thousand a year in the Henry Ford account, at prices the same essay puts between forty-five cents and a dollar seventy-five. That is not a cabinetmaker’s dining chair. It is a mill’s dining chair. America sat on it anyway.
 

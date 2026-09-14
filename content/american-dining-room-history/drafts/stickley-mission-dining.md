@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Stickley Mission dining table
 meta_description: Two-inch plank tops, trestles, and fumed oak — Gustav Stickley’s Craftsman dining tables from the 1901 drawings to Catalogue D.
 seo_intent: informational
+plate: "plates/stickley-mission-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Stickley and Mission dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/stickley-mission-dining/plate.jpg"
+    alt="Arts and Crafts Mission oak dining table, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Arts and Crafts dining table</strong>, c. 1905 — Thick oak tops and honest joinery in Stickley-era Mission dining tables.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Gustav Stickley’s Dining Table no. 631 is a plank. The Stickley Project notes put the idea in 1901 — a drawing for Things Wrought by the United Crafts at Eastwood, and the first issue of *The Craftsman*, then with a medial stretcher on the floor — numbered about 1904, made circa 1902–15, thirty by ninety-six by forty-eight inches in a recorded example. Catalogue D called it heavy construction, a two-inch top, a table for a large dining room that did not need to close, also used as a director’s table. Fumed oak. A price, in one list, of sixty-six dollars. That is a dining table that has stopped pretending to be French.
 

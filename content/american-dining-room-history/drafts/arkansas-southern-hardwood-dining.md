@@ -14,10 +14,25 @@ pillar: furniture-history
 primary_keyword: Southern hardwood dining table
 meta_description: Oak, walnut, pecan, hickory, pine — dining tables from the Southern forest, from vernacular servers to a shop that still cuts.
 seo_intent: informational
+plate: "plates/arkansas-southern-hardwood-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Southern hardwoods at table
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/arkansas-southern-hardwood-dining/plate.jpg"
+    alt="American oak dining table, southern hardwood tradition, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Oak dining table</strong>, c. 1900 — Oak and walnut dining tables in the southern hardwood tradition Bradley Brand works.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 A dining table in the Southern hardwood belt does not have to be mahogany. White oak and red oak, black walnut, cherry, pecan, hickory, pine, cypress — the forest that paid mills and furniture factories from the Carolinas to Arkansas is a dining forest. Charleston used mahogany because it was a port. The Piedmont and the interior used what grew. This page is that interior. Bradley Brand works Arkansas hardwoods; the series uses that shop as a way to look at oak, walnut, and pecan at dinner, not as a catalog.
 
 The furniture-history pillar asked for Southern vernacular and for a woods cluster that is photographed, not invented. What follows is history and a shopping literacy, not a line of chairs.

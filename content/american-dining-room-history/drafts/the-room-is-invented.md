@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: American dining room history
 meta_description: How Americans carved a dedicated dining room from halls and parlors, from Pain and Biddle to the Met’s Baltimore Room.
 seo_intent: informational
+plate: "plates/the-room-is-invented/plate.jpg"
+plate_status: cleared
 ---
-
 # The dining room is invented
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/the-room-is-invented/plate.jpg"
+    alt="Carved Federal mantel from the Henry Craig House drawing room, Baltimore, at the Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Mantel from the drawing room of the Henry Craig House, Baltimore</strong>, c. 1810 — Baltimore woodwork tied to the Met’s staged dining-room narrative and Biddle’s 1805 sideboard recess.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The Metropolitan Museum’s Baltimore Room, Gallery 724, is a parlor pretending to be a dining room. The woodwork came from Henry Craig’s townhouse on East Pratt Street. Craig (1767–1832) was a Baltimore merchant and shipowner. The room served his family as a parlor. Since the American Wing opened in 1924 the Museum has set it for dinner: table, chairs, sideboard, plate. The curators of the 1920s preferred this architecture to the house’s actual dining room. They were staging a fashion that had only recently become ordinary.
 

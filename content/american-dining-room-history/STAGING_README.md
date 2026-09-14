@@ -13,7 +13,11 @@ Forty-four magazine essays on American dining-room furniture from about 1700 to 
 - `INDEX.md` — reading order + publish queue
 - `STYLE_GUIDE.md` — voice, citations, banned phrasing
 - `BIBLIOGRAPHY.md` — series sources
-- `PHOTO_CAPTIONS.md` — plates to shoot or license
+- `PHOTO_CAPTIONS.md` — editorial plate notes (see also on-disk plates)
+- `PLATE_SOURCES.md` — cleared museum PD/CC ledger (44 slugs)
+- `plates/<slug>/plate.jpg` + `plates/<slug>/RIGHTS.md` — ingested museum plates (never AI)
+- `furniture_plates_pass.py` / `verify_plates.py` — ingest and QA
+- `embeds/plate-figure-block.md` — `<figure>` / `<img alt>` / `<figcaption>` template
 - `MANIFEST.md` — word counts
 
 ## SEO rules

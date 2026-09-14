@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Renaissance Revival sideboard America
 meta_description: Pedestals, pediments, and a wall of walnut — how the post–Civil War sideboard became dining-room architecture.
 seo_intent: informational
+plate: "plates/renaissance-revival-sideboards/plate.jpg"
+plate_status: cleared
 ---
-
 # Renaissance Revival sideboards
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/renaissance-revival-sideboards/plate.jpg"
+    alt="Renaissance Revival walnut sideboard, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Renaissance Revival sideboard</strong>, c. 1870 — Massive walnut Renaissance Revival sideboards that anchor late Victorian dining.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 The Federal sideboard was a long table with locks. The Renaissance Revival sideboard is a building. Pedestals at the ends, a high back, a pediment, carved heads, fruit, game, a marble slab in the middle, walnut or ebonized wood, sometimes incised gold. Herter Brothers at the top. Grand Rapids and a hundred factories at the volume. The dining room of the 1870s hangs its identity on this wall. Eliza Leslie’s “closet” has become a monument.
 

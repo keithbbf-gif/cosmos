@@ -13,9 +13,25 @@ pillar: furniture-history
 primary_keyword: Belter dining furniture Rococo Revival
 meta_description: Laminated rosewood, parlor suites, and the dining chairs that followed — Belter, Meeks, and the American Rococo Revival table.
 seo_intent: informational
+plate: "plates/rococo-revival-belter/plate.jpg"
+plate_status: cleared
 ---
-
 # Rococo Revival, Belter, Meeks
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/rococo-revival-belter/plate.jpg"
+    alt="Rococo Revival laminated rosewood armchair, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Rococo Revival armchair</strong>, c. 1855 — Laminated rosewood and Rococo Revival carving in the Belter manner.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 John Henry Belter’s patents of the 1840s and 1850s are parlor patents: laminated rosewood, pierced and carved, a chair back that is a bouquet. The dining room borrowed the look. It did not always borrow the lamination. A Rococo Revival dining table in America is more often a carved mahogany or rosewood pedestal with a marble or wood top, cabriole legs that have learned a new plumpness, and chairs that may or may not be Belter. Joseph Meeks & Sons and a dozen New York shops sold the same C-scrolls. “Belter” on a dining tag is a brand people want. Construction is the check.
 

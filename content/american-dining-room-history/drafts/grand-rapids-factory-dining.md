@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Grand Rapids dining furniture factory
 meta_description: Dining-room “suits,” golden oak, and a Michigan industry — how Grand Rapids put factory tables in American houses.
 seo_intent: informational
+plate: "plates/grand-rapids-factory-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Grand Rapids factory dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/grand-rapids-factory-dining/plate.jpg"
+    alt="Historic photograph of Berkey and Gay Furniture Company sales rooms, Grand Rapids, Michigan."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Berkey & Gay sales rooms</strong>, c. 1870 — Grand Rapids factory showrooms that fed middle-class dining suites.
+    <span class="figure-credit">Library of Congress / Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 Hitchcock proved a chair could be a mill product. Grand Rapids, Michigan, proved a dining room could be. From the 1870s into the Depression, the city’s factories and the smaller towns around them sold “suits”: table, six chairs, sideboard, sometimes a china closet and serving table, in Renaissance, Eastlake, golden oak, Mission, Colonial Revival, whatever the catalog page needed. The furniture went out by rail. The woods were Midwestern oak, elm, birch, a mahogany veneer when the price allowed. The joinery was dowels, machine dovetails, slides from a hardware supplier. Most American families who owned a matching dining set in 1910 owned this, not Phyfe and not Stickley.
 

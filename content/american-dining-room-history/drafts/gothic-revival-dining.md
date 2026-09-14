@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Gothic Revival dining room America
 meta_description: Pointed arches, Downing’s advice, and a darker dining room — Gothic Revival tables and chairs in American houses.
 seo_intent: informational
+plate: "plates/gothic-revival-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Gothic Revival dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/gothic-revival-dining/plate.jpg"
+    alt="Gothic Revival side chair for the dining room, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gothic Revival side chair</strong>, c. 1850 — Pointed arches and tracery on Gothic Revival dining chairs.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Andrew Jackson Downing’s *Architecture of Country Houses* (1850) is a dining-room book as much as a villa book. He wants rooms labeled, servants counted, and a moral style. Gothic — pointed arches, clustered columns, a certain earnest darkness — is one of the styles he will allow a country house. The dining furniture that follows is oak or walnut, sometimes rosewood, chairs with trefoil backs, tables with clustered or octagonal pillars, a sideboard that looks like a choir stall if the budget ran that far. Alexander Jackson Davis’s villas (Lyndhurst the famous one) gave the style a Hudson Valley architecture. Shops in New York and later the factories gave it a chair you could buy without a villa.
 

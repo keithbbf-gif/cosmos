@@ -15,9 +15,25 @@ pillar: furniture-history
 primary_keyword: Charleston colonial dining furniture
 meta_description: Cypress, mahogany, and a marble slab — Charleston dining parlors and the enslaved service the furniture already assumes.
 seo_intent: informational
+plate: "plates/charleston-southern-colonial-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Charleston and the Southern dining parlor
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/charleston-southern-colonial-dining/plate.jpg"
+    alt="Marble-top sideboard table for Southern formal dining, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Marble-top sideboard table</strong>, c. 1800 — Marble slab and serving height in the Southern dining parlor.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 MESDA’s sideboard table 3163 is not a dining table. It is a mahogany frame, cypress where you cannot see, and a marble slab, Charleston, 1750–1765, thirty and a quarter inches high, forty wide, not quite twenty-three deep. The museum’s label is blunt: marble is cool, water-resistant, and expensive; paired with carved mahogany it telegraphs elite status; it also implies servants — usually enslaved — who mix and serve while guests stay seated.
 

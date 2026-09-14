@@ -14,10 +14,25 @@ pillar: furniture-history
 primary_keyword: 1950s formal dining furniture
 meta_description: Lacquer, brass, and a chandelier over mahogany — the formal 1950s dining room that refused to go modern.
 seo_intent: informational
+plate: "plates/hollywood-regency-fifties/plate.jpg"
+plate_status: cleared
 ---
-
 # Hollywood Regency and the formal fifties
 
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/hollywood-regency-fifties/plate.jpg"
+    alt="Morning room at Hearst Castle, Hollywood Regency interior, San Simeon."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Morning room interior</strong>, c. 1930 — Hollywood Regency gloss and staged formality in mid-century dining rooms.
+    <span class="figure-credit">Photo: King of Hearts. Wikimedia Commons. CC BY-SA 2.0.</span>
+  </figcaption>
+</figure>
 Not every postwar table was a tulip. A large American dining room of 1955 might still be mahogany, or mahogany-colored, with a breakfront, a crystal fixture, shield-back chairs that are Colonial Revival’s grandchildren, and a table that extends to Thanksgiving. Hollywood Regency — the decorator name for lacquer, brass ormolu, a little Empire, a little chinoiserie, a glamour that photographs — sits at the expensive end. The suburban “formal dining room” sits at the volume end. Both refuse the chrome dinette as a public room. The dinette is in the kitchen. Company sees mahogany.
 
 Dorothy Draper and later decorators are the loud names. Most rooms were done from a store’s “traditional” floor. This page is the refusal of modernism at dinner, which is as American as Saarinen.

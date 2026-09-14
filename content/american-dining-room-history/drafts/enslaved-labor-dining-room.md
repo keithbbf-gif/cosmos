@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: enslaved cabinetmakers dining furniture
 meta_description: John Hemmings, unnamed shop labor, and the people who served from the sideboard — dining furniture’s unfree making and use.
 seo_intent: informational
+plate: "plates/enslaved-labor-dining-room/plate.jpg"
+plate_status: cleared
 ---
-
 # Who made the table
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/enslaved-labor-dining-room/plate.jpg"
+    alt="Historic photograph of the Marble House dining room, Newport, Rhode Island."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Marble House dining room</strong>, c. 1892 — Formal dining rooms that depended on unseen kitchen and service labor.
+    <span class="figure-credit">Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 John Hemmings (1776–1833), enslaved at Monticello, joiner, made furniture and interior woodwork for Thomas Jefferson’s houses. He is a name. Most of the people who made and served at American dining tables before 1865 are not. This page is a dining-room labor history, not a complete census. It exists so the other essays cannot treat mahogany, marble, and Hepplewhite as if they arranged themselves.
 

@@ -16,9 +16,25 @@ pillar: furniture-history
 primary_keyword: American Empire dining table
 meta_description: Pedestal pillars, carved paws, and crotch mahogany — the American Empire dining table after Federal taper.
 seo_intent: informational
+plate: "plates/empire-pillar-and-claw/plate.jpg"
+plate_status: cleared
 ---
-
 # Empire pillar and claw
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/empire-pillar-and-claw/plate.jpg"
+    alt="Design for an American Empire pedestal dining table, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Design for pedestal dining table</strong>, c. 1830 — Pedestal bases and carved paws on Empire dining tables.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 After about 1815 the Federal dining table puts on weight. The tapered leg thickens into a pillar. The foot becomes a carved paw, a scroll, or a hairy claw. The top goes from a quiet mahogany board to a crotch-veneered disc or oval that looks like a flame under polish. Leaves still add length, but the image of the table is now a central support and a cloth that falls onto a carved animal. American dealers call this Empire. The word is borrowed, stretched, and applied to shops that never saw a Bonaparte.
 

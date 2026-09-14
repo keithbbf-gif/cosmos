@@ -17,9 +17,25 @@ pillar: furniture-history
 primary_keyword: Federal sideboard history America
 meta_description: Shearer’s priced form and Hepplewhite’s plates — how the Federal sideboard gave the American dining room a wall and a lock.
 seo_intent: informational
+plate: "plates/hepplewhite-sideboard-arrives/plate.jpg"
+plate_status: cleared
 ---
-
 # The sideboard arrives
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/hepplewhite-sideboard-arrives/plate.jpg"
+    alt="Federal Hepplewhite sideboard with drawers, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Federal sideboard</strong>, c. 1795 — The Federal sideboard that claims a wall recess in the named dining room.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Eliza Leslie, in *The House Book* (1844), tells a middle-class reader that a large closet is indispensable to a dining room. By closet she means a sideboard. If the wall cannot take a large one, she allows two small ones in the recesses. That sentence is the form after it has won. This page is the winning: the 1780s and 1790s, when a long, narrow cabinet of drawers and bottle wells became the furniture that proved you had a dining room.
 

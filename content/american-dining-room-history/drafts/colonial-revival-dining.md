@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Colonial Revival dining room
 meta_description: After 1876, America re-imagined the colonial dining room — gatelegs, faked Pilgrims, and factory maple that still fills houses.
 seo_intent: informational
+plate: "plates/colonial-revival-dining/plate.jpg"
+plate_status: cleared
 ---
-
 # Colonial Revival dining
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/colonial-revival-dining/plate.jpg"
+    alt="Colonial Revival assembly room at Hearst Castle, San Simeon, California."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Colonial Revival assembly room</strong>, c. 1930 — Colonial Revival paneling and formal dining in twentieth-century great houses.
+    <span class="figure-credit">Photo: King of Hearts. Wikimedia Commons. CC BY-SA 2.0.</span>
+  </figcaption>
+</figure>
 
 The Centennial Exhibition of 1876 in Philadelphia put colonial objects in a national mood. What followed was not a return to 1720. It was a new dining-room style: gateleg tables made yesterday, “Pilgrim” chairs that William and Mary would not have recognized, maple stained to look older than the house, Windsor sets sold as ancestral. Museums and collectors (Wallace Nutting the loud name) photographed and then manufactured a past. The American dining room, tired of walnuts grapes and gilt, put on a costume from its own attic — or from a factory’s idea of an attic.
 

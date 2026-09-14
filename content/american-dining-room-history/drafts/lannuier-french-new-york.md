@@ -14,9 +14,25 @@ pillar: furniture-history
 primary_keyword: Lannuier dining furniture New York
 meta_description: Charles-Honoré Lannuier’s labeled New York Grecian — gilt, marble, and a French shop next to Phyfe’s dining trade.
 seo_intent: informational
+plate: "plates/lannuier-french-new-york/plate.jpg"
+plate_status: cleared
 ---
-
 # Lannuier and the French table
+
+
+<figure class="bbf-figure bbf-figure--plate">
+  <img
+    src="../plates/lannuier-french-new-york/plate.jpg"
+    alt="French-influenced New York sideboard table, Metropolitan Museum of Art."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Sideboard table</strong>, c. 1815 — Gilt and marble on New York serving tables in the Lannuier manner.
+    <span class="figure-credit">The Metropolitan Museum of Art, Open Access. CC0 1.0.</span>
+  </figcaption>
+</figure>
 
 Charles-Honoré Lannuier (1779–1819) lasted sixteen years in New York and left labeled furniture that still looks like it got off a different ship than Phyfe’s. He arrived in 1803, French-trained, and died in 1819, at forty, at the height of the work. The Met’s Heilbrunn essay and the 1998 catalog *Honoré Lannuier, Cabinetmaker from Paris* keep him adjacent to Phyfe without collapsing them: more gilt bronze, more marble, more Paris, a Grecian that has not been fully translated into merchant English. Dining-specific labeled pieces are scarcer in the public conversation than pier tables and card tables. That scarcity is the first fact. Do not invent a suite.
 
