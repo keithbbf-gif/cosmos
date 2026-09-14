@@ -16,6 +16,8 @@ Run:  py -3.14 tests/test_sessions_app.py
 """
 from __future__ import annotations
 
+import contextlib
+import io
 import json
 import sys
 import tempfile
@@ -76,13 +78,29 @@ class StubCore:
 
     def __init__(self, body=None, open_body=None, status=200):
         self.body = RECENTS_BODY if body is None else body
-        self.open_body = open_body or {
-            "ok": True, "kind": "OPENED", "id": "cow-abc",
-            "opencode_id": "ses_cow_001", "title": "clocks",
-            "text": "hello deck", "openwork": "focused",
-        }
+        self.open_body = open_body
         self.status = status
         outer = self
+
+        def opened(rec_id):
+            """Core answers about the id it was asked for. A stub that returns
+            one canned session no matter the id would hide an ignored id."""
+            if outer.open_body is not None:
+                return outer.open_body
+            row = next((r for r in (outer.body.get("rows") or [])
+                        if r.get("id") == rec_id), None)
+            if row is None:
+                return {"ok": False, "kind": "NOT_FOUND", "id": rec_id,
+                        "detail": "not in the recents projection"}
+            return {
+                "ok": True, "kind": "OPENED", "id": rec_id,
+                "opencode_id": "ses_cow_" + str(row.get("session_id") or ""),
+                "title": row.get("title"),
+                "text": f"# {row.get('title')}\n\nstream {row.get('stream')} · "
+                        f"{row.get('date')} · vendor session "
+                        f"{row.get('session_id')}\n",
+                "openwork": "focused",
+            }
 
         class H(BaseHTTPRequestHandler):
             def log_message(self, *a):  # noqa: A003
@@ -93,7 +111,8 @@ class StubCore:
                 if parsed.path != "/api/v1/recents":
                     payload, code = {"error": "NOT_FOUND"}, 404
                 elif parse_qs(parsed.query).get("open"):
-                    payload, code = outer.open_body, outer.status
+                    rec_id = parse_qs(parsed.query).get("id", [""])[0]
+                    payload, code = opened(rec_id), outer.status
                 else:
                     payload, code = outer.body, outer.status
                 raw = json.dumps(payload).encode("utf-8")
@@ -342,7 +361,10 @@ def t_shell_and_api_end_to_end():
                   and rec["omission"]["opened"] == 0)
 
         code, _h, raw = _get(a.port, "/api/sessions/open?id=cow-abc")
-        opened = code == 200 and json.loads(raw)["text_len"] == len("hello deck")
+        orec = json.loads(raw)
+        opened_ok = (code == 200 and orec["id"] == "cow-abc"
+                     and orec["opencode_id"] == "ses_cow_abc"
+                     and orec["text_len"] == len(orec["text"]))
 
         code, _h, raw = _get(a.port, "/api/sessions/open?id=../etc/passwd")
         bad_id = code == 400 and json.loads(raw)["error"] == "BAD_ID"
@@ -364,7 +386,7 @@ def t_shell_and_api_end_to_end():
         nf = _get(a.port, "/nope")[0] == 404
         trav_code, _h, trav_body = _get(a.port, "/sessions/../ui/app.js")
         traversal = trav_code == 404 and b"sessions-app-refusal/1" in trav_body
-        return all([redirect, shell, css, js, listed, opened, bad_id, verbs_ok,
+        return all([redirect, shell, css, js, listed, opened_ok, bad_id, verbs_ok,
                     scan_ok, timeline_ok, nf, traversal])
     finally:
         a.shutdown()
@@ -402,6 +424,18 @@ def t_no_store_no_root_are_typed_not_faked():
 
 def t_non_loopback_bind_refuses():
     return refuses("REMOTE_OPEN_ACCESS", lambda: app.App(host="0.0.0.0", port=0))
+
+
+def t_cli_takes_flags_on_both_sides_of_the_verb():
+    """`timeline --root X` is what the README prints; argparse would otherwise
+    reject a global flag placed after the verb."""
+    root = str(_root("cli"))
+    out = io.StringIO()
+    with contextlib.redirect_stdout(out):
+        after = app.main(["timeline", "--root", root])
+        before = app.main(["--root", root, "timeline"])
+    text = out.getvalue()
+    return after == 0 and before == 0 and text.count("NO_SOURCE") == 2
 
 
 # ------------------------------------------------------ cDeck is not broken
@@ -453,6 +487,7 @@ CHECKS = (
     ("Core down through the shell is 503 null", t_core_down_through_the_shell_is_503_null),
     ("no --store / no --root are typed", t_no_store_no_root_are_typed_not_faked),
     ("non-loopback bind refuses", t_non_loopback_bind_refuses),
+    ("CLI flags work on both sides of the verb", t_cli_takes_flags_on_both_sides_of_the_verb),
     ("cDeck Sessions route still intact", t_cdeck_sessions_route_still_intact),
     ("app is one-directional (additive)", t_app_is_one_directional),
 )

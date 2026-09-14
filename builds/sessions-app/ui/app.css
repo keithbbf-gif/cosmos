@@ -77,7 +77,7 @@ button:disabled{opacity:.45;cursor:default}
 .vrow .vname{color:var(--head)}
 .vrow .vdoes{color:var(--ink-dim);font-size:11px}
 
-.trow{display:grid;grid-template-columns:11em 5em 6em 1fr;gap:6px;padding:2px 0;border-left:2px solid var(--panel-edge);padding-left:8px}
+.trow{display:grid;grid-template-columns:12em 5em 6em 1fr;gap:6px;padding:2px 0;border-left:2px solid var(--panel-edge);padding-left:8px}
 .trow .tt{color:var(--ink-faint);font-size:11px}
 .trow .tseat{color:var(--cyan);font-size:11px}
 .trow .tkind{color:var(--amber);font-size:10px;letter-spacing:1px}

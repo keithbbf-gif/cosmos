@@ -243,33 +243,49 @@ def _print_timeline(rec: dict) -> None:
     if not rec["rows"]:
         print(f"  {rec.get('detail') or 'no milestones'}")
     for r in rec["rows"][:20]:
-        print(f"  {r['t']}  {r['seat']}  {r['kind']}  {r['title']}  {r['ref']}")
+        cells = ["UNMEASURED" if r[f] is None else r[f] for f in timeline.FIELDS]
+        print("  " + "  ".join(str(c) for c in cells))
+
+
+def _add_common(p, sub: bool) -> None:
+    """The shared flags on both sides of the verb, so `list --core X` and
+    `--core X list` both work. On a subparser the default is SUPPRESS: an absent
+    flag must not overwrite what was given before the verb."""
+    def dflt(value):
+        return argparse.SUPPRESS if sub else value
+    p.add_argument("--core", default=dflt(core.DEFAULT_CORE), help="Core base URL")
+    p.add_argument("--core-token", default=dflt(None),
+                   help="bearer for a non-loopback Core (loopback auto-connects)")
+    p.add_argument("--root", default=dflt(None), help="COSMOS runtime root (live/)")
+    p.add_argument("--json", action="store_true", default=dflt(False))
 
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="sessions_app.py", description=(
         "Sessions - standalone app over Core's recents projection and the "
         "session-tools verb suite."))
-    p.add_argument("--core", default=core.DEFAULT_CORE, help="Core base URL")
-    p.add_argument("--core-token", default=None,
-                   help="bearer for a non-loopback Core (loopback auto-connects)")
-    p.add_argument("--root", default=None, help="COSMOS runtime root (live/)")
-    p.add_argument("--json", action="store_true")
+    _add_common(p, False)
     sub = p.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("list", help="list sessions (legal counted, not opened)")
-    op = sub.add_parser("open", help="open one session over Core")
-    op.add_argument("id")
-    sub.add_parser("verbs", help="the verb set and its bind status")
-    vb = sub.add_parser("verb", help="run one BOUND verb")
-    vb.add_argument("name")
-    vb.add_argument("--store", default=None)
-    vb.add_argument("--family", action="append", dest="families")
-    sub.add_parser("timeline", help="ROLLED milestone feed projection")
-    sv = sub.add_parser("serve", help="serve the app shell on its own origin")
-    sv.add_argument("--host", default="127.0.0.1")
-    sv.add_argument("--port", type=int, default=DEFAULT_PORT)
-    sv.add_argument("--store", default=None,
-                    help="store the VERBS pane may scan (operator-declared)")
+    for name, helptext in (
+            ("list", "list sessions (legal counted, not opened)"),
+            ("open", "open one session over Core"),
+            ("verbs", "the verb set and its bind status"),
+            ("verb", "run one BOUND verb"),
+            ("timeline", "ROLLED milestone feed projection"),
+            ("serve", "serve the app shell on its own origin")):
+        sp = sub.add_parser(name, help=helptext)
+        _add_common(sp, True)
+        if name == "open":
+            sp.add_argument("id")
+        elif name == "verb":
+            sp.add_argument("name")
+            sp.add_argument("--store", default=None)
+            sp.add_argument("--family", action="append", dest="families")
+        elif name == "serve":
+            sp.add_argument("--host", default="127.0.0.1")
+            sp.add_argument("--port", type=int, default=DEFAULT_PORT)
+            sp.add_argument("--store", default=None,
+                            help="store the VERBS pane may scan (operator-declared)")
     a = p.parse_args(argv)
     token = core.read_token(a.root, a.core_token)
 

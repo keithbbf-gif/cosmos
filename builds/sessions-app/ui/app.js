@@ -21,6 +21,14 @@ function setCount(el, n, unit) {
   el.className = "count";
 }
 
+// A measured epoch is shown as UTC; anything unmeasured stays UNMEASURED. The
+// raw value is never replaced by a guess (no "now" fallback).
+function stamp(t) {
+  const n = Number(t);
+  if (t === null || t === undefined || !Number.isFinite(n)) { return "UNMEASURED"; }
+  return new Date(n * 1000).toISOString().replace("T", " ").slice(0, 16) + "Z";
+}
+
 function refusalHTML(body) {
   return '<div class="refusal"><span class="rkind">' + esc(body.kind || body.error) +
     "</span> " + esc(body.detail || "") + "</div>";
@@ -150,7 +158,7 @@ function renderTimeline(http, b) {
     return;
   }
   $("timeline").innerHTML = b.rows.map((r) =>
-    '<div class="trow"><span class="tt">' + esc(r.t === null ? "UNMEASURED" : r.t) +
+    '<div class="trow"><span class="tt">' + esc(stamp(r.t)) +
     '</span><span class="tseat">' + esc(r.seat || "—") + '</span>' +
     '<span class="tkind">' + esc(r.kind || "—") + '</span>' +
     '<span class="ttitle">' + esc(r.title || "—") +
