@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">Lower Jordan Valley sites named in the Gilgal fig argument</title>
+  <desc id="desc">Schematic. Gilgal I north of Jericho; Netiv Hagdud nearby. Not a surveyed excavation plan.</desc>
+  <rect width="720" height="560" fill="#f4efe4"/>
+  <text x="28" y="36" font-family="Georgia, serif" font-size="20" fill="#2c2416">Lower Jordan  Gilgal country</text>
+  <text x="28" y="58" font-family="Georgia, serif" font-size="12" fill="#6a5b45">Schematic for article 01 · not an excavation plan</text>
+  <rect x="260" y="80" width="70" height="400" fill="#c5d4c8"/>
+  <text x="295" y="280" font-family="Georgia, serif" font-size="13" fill="#3d5348" transform="rotate(-90 295 280)">Jordan Valley</text>
+  <circle cx="300" cy="210" r="8" fill="#8b3a2a"/>
+  <text x="320" y="206" font-family="Georgia, serif" font-size="14" fill="#2c2416">Gilgal I</text>
+  <text x="320" y="224" font-family="Georgia, serif" font-size="11" fill="#6a5b45">PPNA · Kislev et al. 2006</text>
+  <circle cx="248" cy="218" r="5" fill="#4a6b52"/>
+  <text x="140" y="222" font-family="Georgia, serif" font-size="12" fill="#2c2416">Netiv Hagdud</text>
+  <circle cx="300" cy="310" r="6" fill="#2c2416"/>
+  <text x="320" y="314" font-family="Georgia, serif" font-size="14">Jericho (Tell es-Sultan)</text>
+  <text x="320" y="332" font-family="Georgia, serif" font-size="11" fill="#6a5b45">~12 km south of Gilgal I (ScienceDaily / Bar-Yosef)</text>
+  <text x="28" y="520" font-family="Georgia, serif" font-size="11" fill="#6a5b45">Nine carbonized figs + 313 drupelets. Domestication vs. gathering remains an argument.</text>
+</svg>

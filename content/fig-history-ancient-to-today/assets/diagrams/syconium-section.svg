@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Syconium in section</title>
+  <desc id="desc">Hollow receptacle with ostiole and flowers on the inner wall. Schematic, not a micrograph.</desc>
+  <rect width="800" height="420" fill="#f4efe4"/>
+  <text x="24" y="34" font-family="Georgia, serif" font-size="20" fill="#2c2416">A fig is a room</text>
+  <text x="24" y="56" font-family="Georgia, serif" font-size="12" fill="#6a5b45">Syconium · schematic section · article 38</text>
+  <ellipse cx="260" cy="230" rx="140" ry="110" fill="#e8c48a" stroke="#8b3a2a" stroke-width="2"/>
+  <ellipse cx="260" cy="230" rx="108" ry="82" fill="#f7e6c4"/>
+  <!-- ostiole -->
+  <path d="M390,210 C410,220 410,240 390,250" fill="none" stroke="#8b3a2a" stroke-width="3"/>
+  <text x="420" y="234" font-family="Georgia, serif" font-size="13" fill="#8b3a2a">ostiole (eye)</text>
+  <!-- flowers -->
+  <g stroke="#6a5b45" stroke-width="1">
+    <line x1="200" y1="180" x2="220" y2="200"/><line x1="230" y1="170" x2="240" y2="195"/>
+    <line x1="260" y1="168" x2="260" y2="196"/><line x1="290" y1="175" x2="275" y2="200"/>
+    <line x1="180" y1="230" x2="210" y2="230"/><line x1="185" y1="260" x2="215" y2="245"/>
+    <line x1="220" y1="290" x2="235" y2="260"/><line x1="260" y1="300" x2="260" y2="270"/>
+    <line x1="300" y1="285" x2="280" y2="255"/>
+  </g>
+  <text x="500" y="140" font-family="Georgia, serif" font-size="14" fill="#2c2416">What you eat is the swollen</text>
+  <text x="500" y="160" font-family="Georgia, serif" font-size="14" fill="#2c2416">peduncle. The true fruits</text>
+  <text x="500" y="180" font-family="Georgia, serif" font-size="14" fill="#2c2416">are the drupelets on the wall.</text>
+  <text x="500" y="220" font-family="Georgia, serif" font-size="13" fill="#6a5b45">Long-styled flowers: edible fig.</text>
+  <text x="500" y="240" font-family="Georgia, serif" font-size="13" fill="#6a5b45">Short-styled flowers: caprifig galls.</text>
+  <text x="500" y="260" font-family="Georgia, serif" font-size="13" fill="#6a5b45">Stamens (pollen) sit near the eye</text>
+  <text x="500" y="280" font-family="Georgia, serif" font-size="13" fill="#6a5b45">of the caprifig profichi.</text>
+  <text x="24" y="400" font-family="Georgia, serif" font-size="11" fill="#6a5b45">After the morphology in Condit / Galil &amp; Neeman  a teaching drawing, not a photograph.</text>
+</svg>
