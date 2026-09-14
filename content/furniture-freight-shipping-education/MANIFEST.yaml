@@ -1,0 +1,25 @@
+# Staged draft manifest — furniture freight / shipping education (BBF)
+# status: staged-draft = ready for BBF edit, not live web
+cluster: furniture-freight-shipping-education
+audience: Bradley Brand Furniture shop / freight desk
+status: staged-draft
+draft_count: 42
+stages:
+  - id: 1
+    name: Ground
+    drafts: [1, 2, 3, 4, 5, 6]
+  - id: 2
+    name: Modes
+    drafts: [7, 8, 9, 10, 11, 12]
+  - id: 3
+    name: Wrap & protect
+    drafts: [13, 14, 15, 16, 17, 18, 19, 20]
+  - id: 4
+    name: Delivery promise
+    drafts: [21, 22, 23, 24, 25, 26, 27, 28]
+  - id: 5
+    name: Paper & money
+    drafts: [29, 30, 31, 32, 33, 34]
+  - id: 6
+    name: Damage & claims
+    drafts: [35, 36, 37, 38, 39, 40, 41, 42]
