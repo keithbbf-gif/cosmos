@@ -28,4 +28,6 @@ I like one file drawer and two box drawers for a one-person desk. I like a cente
 
 Locks are a Victorian leftover that still make sense in a shared house. If you lock, lock a well that is worth locking. A lock on a pencil tray is theater.
 
+Full-extension slides changed what “deep” means inside the box. If you can see the back corner without fishing, you will use it. If the drawer stops at three-quarters, the back becomes a graveyard for dead batteries and cables you were afraid to throw away. When you spec a desk, open every drawer with a legal folder and a tape measure. If the folder binds on the slide hardware, that drawer is not a file drawer no matter what the label says.
+
 History: the pigeonhole was a drawer that did not move. It taught us to sort. The hanging file taught us to stop sorting by the size of a cubby. Use both if you want. Do not use neither and then pile paper on the chair. The chair is not a drawer. I have said that in more houses than I can count.

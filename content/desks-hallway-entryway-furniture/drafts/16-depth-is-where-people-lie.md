@@ -32,4 +32,6 @@ The lie is the monitor. People measure the desk and forget the screen has a base
 
 Reach is the other lie. A deep desk feels powerful in a photograph taken from a ladder. In a body it becomes a swimming pool for crumbs. Keep daily tools inside a forearm. Put the archive in a pedestal. If you want to spread maps, get a table. Desks that try to be tables and archives at once become neither.
 
+Corner placement makes the lie worse. A 24-inch desk pushed into a corner gives you a triangle of usable top. The monitor goes on the long leg, the lamp on the short leg, and the keyboard ends up on your thighs. Measure the corner as a work zone, not as a rectangle on the plan. Sometimes the honest move is a shallow wall ledge for the screen and a separate table for paper — two depths instead of one fantasy depth.
+
 Hall crossover: a console at 16 inches is a good hall depth and a bad desk depth. Do not work there unless the work is a two-minute note. Your back will file a complaint with the house.
