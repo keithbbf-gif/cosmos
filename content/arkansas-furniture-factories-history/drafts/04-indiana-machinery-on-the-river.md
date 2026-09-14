@@ -3,7 +3,7 @@ title: "Indiana Machinery on the River"
 slug: indiana-machinery-on-the-river
 status: draft
 voice_check: human
-word_count: 1524
+word_count: 1351
 dek: "In 1878 William Ott brought Indiana woodworkers and a used factory’s machines to Fort Smith. The first company failed. The transfer of skill did not."
 series: arkansas-furniture-factories-history
 topic: origins
@@ -28,6 +28,8 @@ verify:
   - "Fort Smith Historical Society Ballman biography: Ott, Meier & Co. partners William Ott, Fred Meier, Charles Kade, F. Schaidt; factory aka Fort Smith Furniture Manufacturing Company; Ott supplied machinery from an Indiana factory. Confirm spellings against Journal vol. 38."
   - "Sale to Alex H. Reynolds circa 1880 — keep the circa."
   - "Do not invent the street address of the 1878 brick building."
+  - "Boulden: railroads in the 1870s; natural gas 1887; 1898 tornado killed more than fifty. Those are town facts, not Ott invoices."
+  - "Bulletin 106 furniture-square freight (about 34 percent above boards from Leslie) is statewide forest shipping, not Ott’s 1878 rate card."
 ---
 
 They came south with machines that already knew their jobs. William Ott had owned a furniture factory in Indiana. In 1878 he and his partners put that iron to work in Fort Smith under the name Ott, Meier & Co., on a factory the records call the Fort Smith Furniture Factory or the Fort Smith Furniture Manufacturing Company. The Fort Smith Historical Society’s Ballman biography is the cleanest public telling. Fred Meier, Charles Kade, and F. Schaidt were the other names on the paper. The men who rode with them were not tourists. They were woodworkers. One of them was a turner named Edward Ballman.
@@ -38,7 +40,7 @@ This is the opposite of a bootstrap myth. Fort Smith did not invent factory furn
 
 ## Why Indiana, why then
 
-After the war the town was no longer only a fort. The 1870s brought railroads that mattered as much as the river. The 1880s would nearly triple the population. Natural gas, discovered in 1887, would later pull glass. In 1878 the bet was simpler: a western market, cheap hardwood, and a city that sat on the line between the states and the Territory that would become Oklahoma.
+After the war the town was no longer only a fort. Boulden’s census table is the stubborn version: 2,227 people in 1870, 3,099 in 1880, then a jump to 11,311 in 1890. The 1870s brought railroads that mattered as much as the river. The *Encyclopedia of Arkansas* names railroad transportation as the important alternative to the Arkansas; Harris and Maxwell, a generation later, still listed the Iron Mountain between Fort Smith and Little Rock and the Frisco on the west. Natural gas, discovered in 1887, would later pull glass. In early 1898 a tornado tore through the city and killed more than fifty people — civic weather Ott could not have billed in 1878, and a reminder that brick on a river is not a guarantee. In 1878 the bet was simpler: a western market, cheap hardwood, and a city that sat on the line between the states and the Territory that would become Oklahoma.
 
 Midwestern furniture capital had been doing this move for a generation — taking machinery toward timber and toward new towns that still needed whole households of goods. Ott’s old factory was not a metaphor. The biography says he supplied the new plant from the old one. That sentence is a bill of lading. Belts, lathes, saws, the boring machines that turn a post from a square — you do not crate those as decoration.
 
@@ -56,7 +58,9 @@ Do not tidy this into destiny. Meier was back in. Huff had money or nerve or bot
 
 ## What “machinery” means on a shop floor
 
-A furniture factory in 1878 is a power question. Line shaft, belts, a boiler if you are not on a city steam main, sawyers who know how a gum board moves differently from oak. Indiana practice coming south is not just hardware. It is speeds, knife profiles, the habit of a finish room that can fake a more expensive species. The 1912 bulletin would later show Arkansas furniture living on red gum and white oak. An Indiana crew would have met those woods as production problems, not as romance.
+A furniture factory in 1878 is a power question. Line shaft, belts, a boiler if you are not on a city steam main, sawyers who know how a gum board moves differently from oak. Indiana practice coming south is not just hardware. It is speeds, knife profiles, the habit of a finish room that can fake a more expensive species. The 1912 bulletin would later show Arkansas furniture living on red gum and white oak — 9,061,000 board feet of gum, 5,586,000 of white oak, ninety-five percent of a 15,373,000-foot diet, most of it grown in the state. White oak as the outside wood that had to look like furniture. Gum cheaper, stainable, inside and outside. An Indiana crew would have met those woods as production problems, not as romance.
+
+Freight was already a species of machine. Bulletin 106 recorded that furniture squares and wagon stock paid about a third more than ordinary boards on the Ozark Forest haul from Leslie. Ott did not need that table in 1878. He needed the fact the table later measured: dimensioned hardwood is expensive to move, so you put the factory near the trees and the rail, not near a showroom in Indiana.
 
 Ballman the turner is the right emblem. Turning is the furniture operation that looks like magic to a civilian and like rate to a factory. Bedposts, table legs, balusters if the house still wanted them — a lathe crew is how a factory outruns a cabinetmaker. Ott did not need a genius. He needed men who could keep the iron cutting.
 
@@ -66,7 +70,7 @@ The first company still failed. Skill does not cancel a bad location, a bad cred
 
 Fort Smith in 1878 had 3,099 people by the next census, then 11,311 in 1890. The boom is slightly later than Ott’s arrival, which is the point. The machinery got there just before the civic explosion, or the civic explosion is partly what a working factory and its cousins helped cause. Garrison Avenue became a wholesale and retail strip. Furniture is a wholesale object. You do not build a row of factories for a town of three thousand unless you intend to ship.
 
-The Indian Territory market — later Oklahoma — sat across the river. A Fort Smith factory could sell into a frontier that was becoming households. That is a colder sentence than “opening the West.” It is also closer to a salesman’s route book.
+The Indian Territory market — later Oklahoma — sat across the river. A Fort Smith factory could sell into a frontier that was becoming households. That is a colder sentence than “opening the West.” It is also closer to a salesman’s route book. The automobile bridge at the west end of Garrison would not open until May 11, 1922, Boulden writes. In 1878 the crossing was still ferry, rail, and nerve. The machinery got here before the easy road.
 
 ## Against the founder portrait
 

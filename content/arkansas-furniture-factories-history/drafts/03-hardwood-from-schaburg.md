@@ -3,7 +3,7 @@ title: "Hardwood from Schaburg"
 slug: hardwood-from-schaburg
 status: draft
 voice_check: human
-word_count: 1468
+word_count: 1444
 dek: "A vanished Crawford County settlement fed oak and gum into Fort Smith’s furniture shops. The factories were urban. The timber was a mountain and a ghost town."
 series: arkansas-furniture-factories-history
 topic: origins
@@ -28,6 +28,8 @@ verify:
   - "Times Record 2019: Schaburg, Crawford County, north of Mountainburg near Artist's Point, supplied hardwood to Fort Smith furniture shops. Confirm spelling, site, and dates against county histories before a map caption."
   - "Do not invent a mill owner, board-foot count, or closing year for Schaburg."
   - "1912 Harris–Maxwell statewide furniture mix (gum/oak) is statewide, not a Schaburg invoice. Keep the scales separate."
+  - "Bulletin 106 freight note (furniture and wagon squares ~34 percent higher than boards from Leslie) is an Ozark Forest shipping example, not a Schaburg tariff."
+  - "Ozark Forest white-oak stand figures are national-forest estimates, not a Crawford County cruise."
 ---
 
 North of Mountainburg, near the overlook people still call Artist’s Point, there is a name that behaves like a rumor: Schaburg. The *Times Record*, quoting the same Fort Smith manufacturing series that leaned on Billy Higgins, called it a ghost town in Crawford County and one of the places that sent hardwood down to the furniture shops. I have not walked a foundation there. I have watched how factory towns erase their woods.
@@ -42,11 +44,15 @@ Schaburg never became a brand. That is why it is useful. Warren got Bradley Lumb
 
 What you can say without lying: Crawford County rises fast from the river valley into the Boston Mountains. Oak and the mixed hardwoods that factories actually used — white oak for show, red oak when the buyer would take it, gum in the bottoms — do not grow on Garrison Avenue. They grow where a settlement can exist for a generation as a camp, a mill, a store, and then stop existing when the easy timber is gone or the road loses the argument with the next ridge.
 
+The *Times Record* placed Schaburg north of Mountainburg, near the overlook people still call Artist’s Point. That is a tourist sentence wearing a supply sentence. Mountainburg is a Crawford County town on the way into the hills. Artist’s Point is a view. Schaburg, if the newspaper’s geography holds, sat in the timber between those two facts. I have not walked a foundation. Until a plat or a post-office date is in hand, keep the placement as the paper’s placement.
+
 Higgins’s larger point in that interview was supply. Fort Smith had coal and hardwood. Industrialists came because the ingredients were already in the county. Schaburg is one named ingredient. There were others that no feature writer happened to spell.
 
 ## How wood reached a factory
 
-Before a decent rail spur, hardwood walks or it floats or it wrecks a wagon. The 1912 Forest Service bulletin spent pages on this problem in the national forests: furniture squares and wagon stock paid a higher freight rate than boards; local roads were county work; a stave man took the best of a white oak and left the rest. That bulletin is not a Schaburg document. It is the weather system Schaburg lived in.
+Before a decent rail spur, hardwood walks or it floats or it wrecks a wagon. Forest Service Bulletin 106, the 1912 Harris–Maxwell survey, spent pages on this problem in the national forests. From Leslie, a central shipping point on the Ozark Forest, furniture squares, wagon squares, hubs, and spokes paid about 34 percent more per hundredweight than ordinary boards. Local roads were county work. Some of those roads, the bulletin said, would need repairs before they could take a load to the rail. A stave man took the best of a white oak and left the rest. That bulletin is not a Schaburg document. It is the weather system Schaburg lived in.
+
+The rails that could take a Fort Smith factory’s output were already in the picture. Harris and Maxwell named the St. Louis, Iron Mountain & Southern between Fort Smith and Little Rock, and the Frisco on the west edge of the Ozark Forest. Those are lines a city can brag about. They are also lines a ridge town may never quite reach. A ghost settlement is often a settlement that lost the last mile.
 
 A Fort Smith factory in 1890 wanted dry, graded, dimensioned stock if it could get it, and logs if it had to. Kilns came when the volume justified the brick. North Arkansas Wood Products in St. Joe later ran a Moore kiln that held 90,000 board feet and rolled cars in on a stub of rail. That is a mid-century picture. The nineteenth-century picture is more often air-dried piles, a river landing, and a lot of waste. Furniture factories still made waste into fuel because steam is hungry and scrap is free.
 
@@ -56,7 +62,9 @@ If you are writing captions later, do not put a model in a slouch hat at Artist�
 
 ## Gum, oak, and the lie of “Ozark oak”
 
-The 1912 table is the cleanest statewide snapshot we have. Red gum was 58.94 percent of the wood Arkansas furniture factories consumed; white oak 36.34 percent; together about ninety-five percent. Most of it was grown in the state. Shortleaf pine, which dominated other Arkansas manufacturing, barely showed in furniture. That is a factory preference, not a forest preference. The hills had pine. The finish rooms wanted hardwood that would take stain and survive a customer.
+The 1912 table is the cleanest statewide snapshot we have. Table 8, annual consumption of wood for furniture: 15,373,000 board feet. Red gum 9,061,000 feet, 58.94 percent, $20.29 a thousand at the factory. White oak 5,586,000 feet, 36.34 percent, $32.45 a thousand. Together about ninety-five percent. 85.44 percent of the whole diet grown in Arkansas. White oak, they wrote, was “generally an outside wood” finished for appearance. Red gum could be inside and outside, stained toward walnut, oak, cherry, mahogany. Shortleaf pine, which they said was nearly three-fourths of all manufacturing wood in the state, made a “remarkable” small showing in furniture. That is a factory preference, not a forest preference. The hills had pine. The finish rooms wanted hardwood that would take stain and survive a customer.
+
+Do not turn those prices into a Schaburg invoice. Do not turn the Ozark Forest’s white-oak stand estimates — hundreds of millions of board feet on paper — into a cruise of one vanished camp. The table is statewide. Schaburg, if it was sending hardwood down the mountain, is one unnamed acre inside the 85 percent.
 
 Schaburg, if it was sending “hardwood” to Fort Smith, was not sending a mystique. It was sending whatever the ridge would yield that a buyer in town would pay for. White oak as the respectable face. Gum as the versatile understudy that could be stained to look like walnut or oak. The woods pack in this repo already told that species story. This essay’s job is the geography: the face was sawn somewhere the tourist overlook now pretends is only a view.
 

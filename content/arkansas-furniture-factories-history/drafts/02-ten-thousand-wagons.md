@@ -3,7 +3,7 @@ title: "Ten Thousand Wagons"
 slug: ten-thousand-wagons
 status: draft
 voice_check: human
-word_count: 1512
+word_count: 1506
 dek: "Before Fort Smith was a furniture hub it was a factory for leaving: Gold Rush outfits, army contracts, and a number — about ten thousand wagons a year — that explains the later row."
 series: arkansas-furniture-factories-history
 topic: origins
@@ -28,6 +28,8 @@ verify:
   - "Confirm Higgins's '10,000 wagons a year just prior to the Civil War' against his 2007 book or a primary count. Times Record 2018 and 2019 both carry it."
   - "Encyclopedia of Arkansas: one of the first overland Gold Rush trains left from Fort Smith because the southern route had earlier grass. Keep that as Boulden unless a trail diary is cited."
   - "Do not invent a named wagon company payroll."
+  - "Bulletin 106 Tables 5 and 13 (vehicle stock ~76,000,000 bd ft; finished vehicles ~3,500,000) are 1912 statewide, not an 1859 Fort Smith wagon count. Keep the scales separate."
+  - "Boulden population table: 964 (1850), 1,532 (1860), 2,227 (1870). Confirm against the published census rolls if a caption uses a single year."
 ---
 
 The number is too round to love and too useful to drop. About ten thousand wagons a year, just before the Civil War, built in a river town that the rest of the country still thought of as the edge. Billy Higgins gave that figure to the *Southwest Times Record*. I am not going to pretend I have counted the axles. I am going to treat the number as a production problem.
@@ -38,15 +40,17 @@ Ten thousand wagons is not a craftsman in a doorway. It is a stack of hubs, a cr
 
 ## Why they left from here
 
-The *Encyclopedia of Arkansas* is drier than a museum label and better for it. Fort Smith outfitted forty-niners in 1848–49 and soldiers for the Mexican War. More gold-seekers left from Missouri. One of the first overland trains still left from Fort Smith, Benjamin Boulden writes, because the southern route had fresh grass earlier in the spring. That sentence is geography doing economic work. A week of grass is a week you are not buying feed. A week of grass is why a family will buy a wagon in Sebastian County instead of waiting on the Missouri border.
+The *Encyclopedia of Arkansas* is drier than a museum label and better for it. Fort Smith outfitted forty-niners in late 1848 and early 1849 and soldiers for the Mexican War from 1846 to 1848. More gold-seekers left from Missouri. One of the first overland trains still left from Fort Smith, Benjamin Boulden writes, because the southern route had fresh grass earlier in the spring. That sentence is geography doing economic work. A week of grass is a week you are not buying feed. A week of grass is why a family will buy a wagon in Sebastian County instead of waiting on the Missouri border.
 
-John Rogers had been selling to the fort and the road since the 1820s. The army left and came back. Stage, steamboat, and mail thickened. None of that is furniture. All of it is demand for wooden vehicles and the boxes that rode in them. The later furniture row on the riverfront looks sudden if you start the story in 1878. It looks inevitable if you start with a ferry and a grass calendar.
+The confluence is why any of this sits here. Belle Point is a bluff just north of where the Poteau meets the Arkansas. Boulden’s entry is blunt about the vantage: west-looking, defensible, the place the first American troops began building in November 1817. French names along the water — Poteau, Belle Point, Massard Prairie — are older than the wagon count and older than the furniture row. The army left for Fort Gibson and came back in the 1830s to raise a second post. Congress funded military roads, including Fort Smith to Jackson. A still frame, if you want one: silt water after rain, the bluff, no reenactor.
+
+John Rogers had been selling to the fort and the road since he arrived in 1822. Boulden calls him a supplier to the post and a trader with trappers, Native people, and settlers; later writers treat him as the town’s civilian founder because he lobbied the army back. The army left and came back. Stage, steamboat, and mail thickened. None of that is furniture. All of it is demand for wooden vehicles and the boxes that rode in them. The later furniture row on the riverfront looks sudden if you start the story in 1878. It looks inevitable if you start with a ferry and a grass calendar.
 
 Higgins added the line the chamber of commerce likes less: some people made their Gold Rush fortune by selling to the people who went. That is not cynicism. That is how a depot becomes a factory. The customer is leaving. The shop stays.
 
 ## What a wagon factory actually is
 
-A wagon is a bill of hardwoods. Oak in the parts that take the road. Hickory if you can get the spring. Pine in the box if the buyer will accept it. Iron from someone else’s fire. Paint that will hide a mixed load of species. The 1912 Forest Service bulletin that later measured Arkansas furniture woods still had a whole table for vehicle stock. The state did not forget how to make things that move. It added rooms that stay.
+A wagon is a bill of hardwoods. Oak in the parts that take the road. Hickory if you can get the spring. Pine in the box if the buyer will accept it. Iron from someone else’s fire. Paint that will hide a mixed load of species. The 1912 Forest Service bulletin that later measured Arkansas furniture woods still treated vehicles as a living industry. Harris and Maxwell split the work into two tables, and the split is the factory lesson. Table 5 is vehicle stock — spokes, rims, hubs, axles, poles, shafts — about 76,000,000 board feet a year, most of it shipped to northern assembling plants in Chicago, Cincinnati, St. Louis, and Memphis. Table 13 is finished vehicles made inside Arkansas: about 3,500,000 feet, almost all farm and road wagons. Cottonwood for the beds, they wrote, because yellow poplar had gotten too dear. Hickory among the high-priced woods. Osage orange, mostly from Oklahoma and Texas, for parts that must not shrink and swell. Those numbers are not an 1859 Fort Smith payroll. They are the cousin industry still running when the furniture factories were already on the river. The state did not forget how to make things that move. It added rooms that stay.
 
 <!-- PHOTO: fig-02 D:\BBF\BBF Photos — heavy oak spoke, felloe, or wagon-box board in the yard (filename pending shop pull) -->
 
@@ -56,7 +60,7 @@ It also needs credit. A wagon sold to a family going to California is a wagon th
 
 ## The fort, the road, the count
 
-Census numbers are less romantic and more stubborn. Fort Smith had 964 people in 1850 and 1,532 in 1860. That is not a metropolis. It is a town that can still put a surprising amount of wood on the road if the hinterland is doing the cutting and the town is doing the assembly. “Ten thousand wagons” in a town of fifteen hundred only works if the labor is a region, not a city block. Teamsters, timber men, ironworkers, the farms that sold feed to the outfits — the factory is larger than the brick.
+Census numbers are less romantic and more stubborn. Boulden’s table gives Fort Smith 964 people in 1850, 1,532 in 1860, and 2,227 in 1870. That is not a metropolis. It is a town that can still put a surprising amount of wood on the road if the hinterland is doing the cutting and the town is doing the assembly. “Ten thousand wagons” in a town of fifteen hundred only works if the labor is a region, not a city block. Teamsters, timber men, ironworkers, the farms that sold feed to the outfits — the factory is larger than the brick. After the war the same table climbs to 3,099 in 1880 and then nearly triples to 11,311 in 1890. The wagon number belongs to the small town. The furniture skyline belongs to the boom. Do not mash them into one civic postcard.
 
 The Civil War then did what wars do to a depot. The army abandoned the post. Arkansas seceded. Confederates took the fort. Union troops returned in 1863. The countryside in 1864 was raids and hunger. You do not sell ten thousand emigrant wagons into that. You sell what a garrison and a trapped town will buy. The diversion into furniture, which the next essay treats as a craft conversion, is also a collapse of this number.
 

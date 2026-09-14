@@ -3,7 +3,7 @@ title: "Furniture Row on the Riverfront"
 slug: furniture-row-on-the-riverfront
 status: draft
 voice_check: human
-word_count: 1488
+word_count: 1315
 dek: "Chuck Girard counted about two dozen furniture manufacturers along what is now Riverfront Drive. The row was a shipping argument that looked like a skyline."
 series: arkansas-furniture-factories-history
 topic: fort-smith-companies
@@ -28,6 +28,8 @@ verify:
   - "Girard via Times Record 2019: about two dozen manufacturers on Riverfront Drive; names Ayers, Garrison, DeSoto, Ward, Covey, Fort Smith Chair. Confirm each existence in a directory before a caption that treats a name as a standing building."
   - "Do not invent addresses, employment, or product lines for Garrison, DeSoto, Ward, or Covey."
   - "1996 tornado damage to 'furniture row' is Girard's phrase — keep it attributed."
+  - "NWS April 21, 1996: 11:12 p.m. CDT touchdown, west side of downtown, industrial/warehouse damage, ~10-mile path. Democrat-Gazette: Eads fire April 24."
+  - "1885 Ballman river move is a lease fact, not a ribbon-cutting for the later row."
 ---
 
 Chuck Girard, when he was executive director of the Fort Smith Museum of History, gave the papers a spoken map. About two dozen furniture manufacturers along what is now Riverfront Drive. Names like Ayers, Garrison, DeSoto, Ward, Covey, Fort Smith Chair. A tornado in April 1996 hit the downtown hard, including “furniture row.” I am going to treat that list as a witness list, not as a complete plat.
@@ -35,6 +37,8 @@ Chuck Girard, when he was executive director of the Fort Smith Museum of History
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — riverfront brick wall, loading door, or rail spur analog (filename pending shop pull) -->
 
 A row is an industrial sentence. You put factories in a line because the rail and the river are a line. You share a labor pool that can walk from one whistle to the next. You share a fire risk. You share a civic nickname that later becomes a museum sentence. You do not share a catalog unless someone founds a cooperative, and even then the brick stays stubbornly separate.
+
+The geography is older than Girard’s street name. Belle Point sits just north of the Poteau’s mouth. The army wanted the bluff in 1817. The furniture plants later wanted the bank, the siding, and a door tall enough for a car. Boulden puts railroads in the 1870s and an automobile bridge at the west end of Garrison on May 11, 1922. Harris and Maxwell, in 1912, still listed the Iron Mountain between Fort Smith and Little Rock and the Frisco on the west. A row is what happens when those facts stop being a map and start being a neighbor. The 1885 Ballman move — lease expired, a permanent site on the Arkansas just north of town — is the first dated time this pack will let a furniture plant choose that bank. It is not a ribbon-cutting for a district. Districts are what other people call a habit after the habit has worked.
 
 ## The names we can stand on
 
@@ -46,11 +50,13 @@ Garrison, DeSoto, Ward, Covey — Girard said them in a row, the way a person wh
 
 Two dozen is also his number. Higgins’s “34 manufacturers” in the 2018 piece is a wider industrial count. Keep them apart. A town can have thirty-four plants and twenty-four of them can be furniture if the year is right, or eight of them can be furniture and the rest boxes, glass, and later appliances. Girard was looking at a street. Higgins was looking at a city.
 
+The woods under the street were not a mystery even if the street’s complete directory is. Bulletin 106’s furniture table — 15,373,000 board feet, 85.44 percent grown in Arkansas, gum and white oak almost the whole diet — is statewide. Fort Smith is the city the telling attaches it to. Furniture squares paid more to haul than boards. A row on a river is a way to stop paying that premium twice: finish the hardwood where the cars can be spotted, then send rooms instead of logs.
+
 ## Why a row instead of a campus
 
 Ballman’s specialized companies — folding beds, couches, kitchen cabinets, metal products — could have been one campus with four roofs. Some of them may have been close. The row as Girard remembered it is the opposite of a single corporate park. Competing houses on the same water, selling into the same dealers, raiding the same finishers. That is how a hub feels from the inside: not a brand, a labor market.
 
-It is also how a tornado and a container ship unmake a hub. One campus can rebuild. A row of separately owned brick can lose three houses and never look like a row again. Girard’s remark that the 1996 storm “opened a door” for cheaper Chinese furniture is a compression of a national shift onto a local wound. Keep the compression labeled as his. The empty lots were real. The imports were already coming.
+It is also how a tornado and a container ship unmake a hub. One campus can rebuild. A row of separately owned brick can lose three houses and never look like a row again. The National Weather Service assessment of April 21, 1996, puts touchdown at 11:12 p.m. CDT on the west side of downtown, industrial and warehouse damage, a path on the order of ten miles. The *Arkansas Democrat-Gazette*, writing later, put the Eads Brothers fire on April 24, after utilities came back. Girard’s remark that the storm “opened a door” for cheaper Chinese furniture is a compression of a national shift onto a local wound. Keep the compression labeled as his. The empty lots were real. The imports were already coming. An 1898 tornado had already killed more than fifty people in this city. The row did not invent weather. The 1996 storm made the remembering urgent because the brick was still supposed to mean work.
 
 ## Walking it without a tour script
 
@@ -60,7 +66,9 @@ A still frame, if you want one: a loading door taller than a wagon, brick with t
 
 ## The row as a sales system
 
-Dealers did not buy “Riverfront Drive.” They bought Chair, or Ayers, or a Border Queen cabinet from a house that might or might not have sat on that exact curb. The row mattered because a buyer could do a town in two days. The 1921 Manufacturers Company tried to make that official. Freight clerks tried to make it a single car. ICC rules later made pairing two factories’ goods in one trailer a legal problem — John Ayers would tell a court that the 1967 partnership existed partly so he could load both plants legally. A row is also a regulation problem.
+Dealers did not buy “Riverfront Drive.” They bought Chair, or Ayers, or a Border Queen cabinet from a house that might or might not have sat on that exact curb. The row mattered because a buyer could do a town in two days. The 1921 Manufacturers Company tried to make that official. Freight clerks tried to make it a single car. In November 1967, John Ayers told the Arkansas Supreme Court — the fact appears in *Pratt v. Ballman-Cummings* (1973) — that ICC rules would not let two corporations’ furniture share a trailer unless a partnership owned the goods. Each side put up fifteen hundred dollars. The partnership name was Ayers Furniture Industries. A row is also a regulation problem.
+
+A still frame, if the 1967 sentence needs one: two stencils on one crate, or a trailer at a door that used to be two doors. No courtroom column. The dock is the civic building that mattered.
 
 ## What the row does not give you
 

@@ -3,7 +3,7 @@ title: "One of Three Hubs"
 slug: one-of-three-hubs
 status: draft
 voice_check: human
-word_count: 1506
+word_count: 1249
 dek: "Billy Higgins said Fort Smith was once considered one of three furniture hubs in the United States. The boast needs a scale. The industry, for a while, could bear it."
 series: arkansas-furniture-factories-history
 topic: origins
@@ -28,13 +28,15 @@ verify:
   - "Higgins via Times Record 2018/2019: 'one of three furniture hubs in the United States.' Find whether he named the other two. Do not freeze Grand Rapids / High Point / Chicago as fact without his list or a period source."
   - "FSHS Journal 38: furniture was Fort Smith's largest industry and job provider in the late 19th and early 20th centuries. Keep that as the Journal's claim."
   - "Times Record 2018: town at one point had 34 manufacturers — Higgins, all manufacturing, not furniture only. Do not collapse 34 into furniture plants."
+  - "Higgins 2018: Whirlpool about 6,000 at peak; boxing furniture as a spinoff. Keep those as his interview numbers."
+  - "Boulden: Norge opened February 1, 1962; Whirlpool purchased 1968. Jebaraj via Times Record 2019: 31,000 metro manufacturing jobs in 1999."
 ---
 
 “One of three” is a dangerous phrase. It is how a river town joins a national sentence. Billy Higgins said Fort Smith was once considered one of three furniture hubs in the United States. The *Times Record* printed it twice, in 2018 and 2019, which means the phrase is now part of the local canon. I am going to keep it and refuse to let it do all the work.
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — dense brick industrial row or riverfront mill wall (filename pending shop pull) -->
 
-A hub, if the word means anything, is a place other places buy from. It is dealers, a freight pattern, a labor pool that can staff more than one plant, a supply forest, and a civic story that recruits the next owner. Fort Smith had those for a stretch of decades. It also had a population that, even at the 1910 boom, was 23,975 — not Chicago, not Grand Rapids, not the High Point that would later eat the trade. So the boast is comparative in kind, not in census.
+A hub, if the word means anything, is a place other places buy from. It is dealers, a freight pattern, a labor pool that can staff more than one plant, a supply forest, and a civic story that recruits the next owner. Fort Smith had those for a stretch of decades. It also had a population that, even at the 1910 boom, was 23,975 — 28,870 in 1920, 31,429 in 1930, on Boulden’s table — not Chicago, not Grand Rapids, not the High Point that would later eat the trade. So the boast is comparative in kind, not in census. A still frame for the boast is not a medal. It is a brick loading door and a siding.
 
 ## What the Journal actually said
 
@@ -50,19 +52,21 @@ The other two hubs, in the usual American furniture sentence, are Grand Rapids a
 
 Geography again, without apology. Hardwood in the hills and bottoms. Coal for steam. Rails from the 1870s. A river that had already taught the town to ship. A western market that was still buying first households. Natural gas after 1887, which pulled glass but also cheap heat. Ballman’s habit of splitting lines so the town could sell a whole room. A row on the river that Girard later counted at about two dozen furniture names.
 
-Higgins also said that to manufacture furniture you need upholsterers, cloth, mirrors, steel fittings. The spinoffs made Fort Smith “an industrial city” in the documented sense: not one plant, a train of smaller ones. A hub is that train. A single famous factory is a landmark.
+Higgins also said that to manufacture furniture you need upholsterers, cloth, mirrors, steel fittings. In the 2018 interview he added the crate: someone had to box the goods, and boxing is manufacturing too. The spinoffs made Fort Smith “an industrial city” in the documented sense: not one plant, a train of smaller ones. A hub is that train. A single famous factory is a landmark.
 
-The 1912 bulletin helps at the state scale. Arkansas furniture factories consumed 15,373,000 board feet that year, 85 percent grown in-state, almost all gum and white oak. That is not Grand Rapids volume. It is enough volume to mean the state had an industry, and Fort Smith was the city that industry is usually attached to in the telling. Other Arkansas towns made furniture — Harrison later, St. Joe, chair-stock mills the bulletin separates from “furniture.” The hub claim is a Fort Smith claim.
+The 1912 bulletin helps at the state scale. Table 8: Arkansas furniture factories consumed 15,373,000 board feet that year, 85.44 percent grown in-state. Red gum 9,061,000 feet. White oak 5,586,000. Together about ninety-five percent. White oak the outside wood; gum the stainable majority. Furniture squares costing more to haul than boards. Chair stock counted on a separate table because Harris and Maxwell already knew chairs often lived in another building. That is not Grand Rapids volume. It is enough volume to mean the state had an industry, and Fort Smith was the city that industry is usually attached to in the telling. Other Arkansas towns made furniture — Harrison later, St. Joe, chair-stock mills the bulletin separates from “furniture.” The hub claim is a Fort Smith claim.
 
 ## The peak they actually name
 
 Higgins placed the peak in the late 1950s and early 1960s, “before it largely faded out.” That is two generations after the Journal’s “largest industry” era. So there are two peaks, or a plateau with a late ridge: the Gilded and Progressive city that ran on furniture, and the mid-century city that still had Riverside, Ayers, and the row before appliances and then imports rearranged the payroll.
 
-The 2018 piece adds another Higgins number: the town at one point had 34 manufacturers. In context that is manufacturing at large — boxes, the little shops that packed furniture, later Dixie Cup and the rest — not 34 furniture plants. Keep the 34 on the wider industrial sentence. Girard’s two dozen is the furniture row sentence.
+The 2018 piece adds another Higgins number: the town at one point had 34 manufacturers. In context that is manufacturing at large — boxes, the little shops that packed furniture, later Dixie Cup and the rest — not 34 furniture plants. Keep the 34 on the wider industrial sentence. Girard’s two dozen is the furniture row sentence. Higgins also gave Whirlpool “6,000 people” at its peak as the later scale that made civilians forget dressers. Boulden dates the appliance arrival more tightly: Norge opened a refrigerator, freezer, and air-conditioner factory on February 1, 1962; Whirlpool bought it in 1968. Those dates sit on the far side of Higgins’s furniture peak. A hub can lose its specialty and keep calling itself a manufacturing city. Fort Smith did.
 
 ## How a hub ends without a funeral
 
-Grand Rapids did not vanish. High Point learned to be a showroom city. Fort Smith kept making other things: Norge in 1962, Whirlpool after 1968, Rheem, Baldor, trucking under Arkansas Best. The furniture hub faded while the manufacturing city insisted it was still a manufacturing city. Jebaraj’s later number — 31,000 manufacturing jobs in the metro at the 1999 peak — is an appliance-and-after number, not a dresser number.
+Grand Rapids did not vanish. High Point learned to be a showroom city. Fort Smith kept making other things: Norge in 1962, Whirlpool after 1968, Rheem, Baldor, trucking under Arkansas Best. The furniture hub faded while the manufacturing city insisted it was still a manufacturing city. Jebaraj’s later number — 31,000 manufacturing jobs in the metro at the 1999 peak, then 6,500 gone by 2007 and 7,500 more after 2008, in the 2019 *Times Record* rendering — is an appliance-and-after number, not a dresser number.
+
+An 1898 tornado had already killed more than fifty people in this city. The April 21, 1996, storm, with a Weather Service touchdown at 11:12 p.m. on the west side of downtown, made the furniture row look like a past. Hubs end in weather and in freight. They also end when the civic camera moves to a refrigerator plant.
 
 Chuck Girard’s remark about the 1996 tornado and cheaper Chinese furniture is a compression. Imports were already a national fact. The tornado was a local wound that made the compression visible: empty lots on Garrison, a lost upholstery plant, a row that looked like a past. Hubs end when the dealers stop needing your freight car. They also end when the civic story moves to refrigerators.
 
