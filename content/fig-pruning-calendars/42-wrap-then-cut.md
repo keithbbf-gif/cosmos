@@ -31,3 +31,5 @@ You can skip this draft until the winter you need it. The year you need it, the 
 ## What the wrap is for
 
 Old wood. Tips. Breba. A crown that does not sit in a wind lane. It is not a license to keep a twenty-foot tree. If the plant is too big to wrap, the prune (over years) is how you re-enter this draft. Draft 30 is the form. This is the sequence.
+
+If you only wrap every third winter, still keep the form. The year you skip the wrap and get 11 °F is the year the bush-shaped plant loses tips and the tree-shaped plant loses a trunk. Sequence cannot save a form you refused in February.

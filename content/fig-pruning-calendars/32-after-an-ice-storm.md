@@ -31,3 +31,5 @@ You will feel punished. You are not required to prune again. Emergency hangers o
 ## Staking, going forward
 
 A counted set of leaders, not a thicket of skinny ones, takes ice better. So does a tie to a stake before the storm, not after. Put “stake the heavy ones” on the May list. Ice is a winter story that begins in the way you thinned.
+
+In 8a, ice often arrives in January on wood you have not pruned yet. That is luck in one direction: you have not opened extra wounds. It is unlucky in the other: last year’s long extensions are sails. After the emergency cuts, the February vote should lean toward leaving more tips than usual only if they are intact. Split wood is not breba wood anymore. It is firewood that has not hit the pile.

@@ -24,6 +24,8 @@ If a shoot is in the walkway in August, tie it or take the *whole* shoot at a cr
 
 7a and the colder 8a pockets have a limited number of warm nights left after August 1. A heading now is not “invigorating.” It is a delay you cannot buy back. This is the same reason draft 39 exists: do not spend time you do not have.
 
+If the walkway is the real problem, put a stake and a tie on the offending shoot today and write “thin at the base in February” on the shed card. That keeps the fruit on the plant and keeps you from inventing a summer architecture season.
+
 9b can shrug. Even 9b should not heading-cut a Gold or a Magnolia in a rainy August for fun. Those fruits are already in a spoilage race.
 
 ## What is still legal

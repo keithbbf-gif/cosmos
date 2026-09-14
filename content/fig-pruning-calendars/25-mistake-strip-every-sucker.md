@@ -36,4 +36,6 @@ You can afford to be choosier than 7a. You cannot afford to be a rose gardener. 
 
 A bare trunk, a lollipop of leaves, a circle of mulch. It photographs. It also concentrates every winter risk and every sun-scald risk on one column. UF mentions sun scald on exposed trunks. Your sucker-stripping is how the trunk became exposed.
 
+A practical 8a count: if you already have six good leaders, you may take the week’s soft suckers without guilt. If you have two, you are not weeding. You are deleting next year’s orchard. Count before you kneel.
+
 If you want that look, do it in 9b on a common fig you are willing to lose, and keep a cutting in a pot. In 8a, keep the family around the trunk.
