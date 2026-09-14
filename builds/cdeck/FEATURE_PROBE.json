@@ -1,0 +1,95 @@
+{
+ "label": "FEATURE_PROBE-ui-refresh-2026-09-14T12:31:21Z",
+ "schema": "cosmos-cdeck-feature-probe/1",
+ "ui_files": {
+  "app.css": {
+   "bytes": 2621,
+   "sha256": "914b5bbc801c7859a58c3055a45469b299af3345a4f067ffb45de6d8c5818a44"
+  },
+  "app.js": {
+   "bytes": 7573,
+   "sha256": "4739859f8043cd2f1034f537c5a3d4708800389e9c0879e567a7634380e2b929"
+  },
+  "cdeck.webmanifest": {
+   "bytes": 176,
+   "sha256": "22f4d8ea123d8e4be1dc7744b0f5e352da90a96442c6260645a2ee184acd9411"
+  },
+  "deck_forge.js": {
+   "bytes": 1772,
+   "sha256": "30a31c5399286f27442b3a790f9a9621ced7352c3d55ccdb4fb69fe224650dfa"
+  },
+  "deck_more.css": {
+   "bytes": 429,
+   "sha256": "485dbdd4229b2eb01f6e14ec2de8d67cf803f0b86a144390c2605354806d21fe"
+  },
+  "deck_more.html": {
+   "bytes": 274,
+   "sha256": "99e6ca3c5f5bbdb3a225ada1d79619f0efb8766866a2e4edaf8285e6adc3ec88"
+  },
+  "deck_profiles.js": {
+   "bytes": 15707,
+   "sha256": "02c2c94b293462ab05789988d134171be4cd868c15441b55765ccbd92a430ee1"
+  },
+  "deck_settings.js": {
+   "bytes": 6613,
+   "sha256": "d6728354e741d0963fd4ee6c743965f02243f842964aac9a08f35d4ebac70548"
+  },
+  "deck_studio.js": {
+   "bytes": 9356,
+   "sha256": "fd8f53d4cf992a445c55542057594fc2277176c1852c572e7383aa732acc3560"
+  },
+  "deck_tabs.js": {
+   "bytes": 932,
+   "sha256": "af0749e09c4505a8000e34f60ce431d219ddf5731718980d1d0db97987ef5f35"
+  },
+  "header.css": {
+   "bytes": 688,
+   "sha256": "d5856f02849fc3f320f4196dd67f66f5893132463247af01ab83d3ffee63fad8"
+  },
+  "header.js": {
+   "bytes": 2758,
+   "sha256": "ee4e78ee823072040d3111fc6cc5ea0ce3480ab782f8327e050999dc2ba39d6b"
+  },
+  "index.html": {
+   "bytes": 2447,
+   "sha256": "390fe579c006a9b36173953ebbf7497d86d41e546e9cd19597c35f1a2fe478f4"
+  },
+  "kdash_native.js": {
+   "bytes": 181,
+   "sha256": "e65ee41e59d80cac3378e9ffea6e6fbcd7645aa4cafe0c25b17613c3fc0c2452"
+  },
+  "planets/jupiter.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/mars.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/mercury.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/neptune.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/saturn.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/uranus.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "planets/venus.mp3": {
+   "bytes": 3,
+   "sha256": "041149186b23a9502aea5a4e81bbc9620d2b4b76b4bad94e36c744abcf9d3771"
+  },
+  "sw.js": {
+   "bytes": 230,
+   "sha256": "2a34a78d836b6832a50d70f180d734ebcbafadc21143239c31afa91de1b4d5c7"
+  }
+ },
+ "ui_fingerprint_at": "2026-09-14T12:35:26Z"
+}
