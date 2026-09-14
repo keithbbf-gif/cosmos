@@ -65,6 +65,9 @@ class SurfaceError(RuntimeError):
 # disqualifier for a backup target, never silently treated as zero or as infinite.
 Probe = Callable[[], "tuple[bool, Optional[int], str]"]
 
+# Native desk-of-record lineage (Windows). Cloud / install hosts use live/state.
+ROLD_LINEAGE = Path(r"V:\Ai\ROLD")
+
 
 class Surfaces:
     """Backed by the ledger: every registration, every measurement and every qualification
@@ -232,6 +235,16 @@ class Surfaces:
         return rows
 
 
+def rold_desk_path(live_root: Path | str) -> Path:
+    """ROLD desk: V:\\Ai\\ROLD when present; else COSMOS-side state under live/."""
+    if ROLD_LINEAGE.is_dir():
+        return ROLD_LINEAGE
+    state = Path(live_root) / "state"
+    if state.is_dir():
+        return state
+    return ROLD_LINEAGE
+
+
 def local_disk_probe(path: str) -> Probe:
     """() -> (reachable, free_bytes, detail) for a filesystem root."""
 
@@ -248,18 +261,33 @@ def local_disk_probe(path: str) -> Probe:
     return _probe
 
 
-def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
-    """Idempotent: register + probe + measure the COSMOS runtime root.
+def _seed_measured_local(
+    sf: "Surfaces", surface_id: str, kind: str, path: Path | str, role: str
+) -> None:
+    path_s = str(path)
+    if surface_id not in sf.state():
+        sf.register(surface_id, kind, path_s, role)
+    sf.attach_probe(surface_id, local_disk_probe(path_s))
+    if sf.state().get(surface_id, {}).get("measurement") is None:
+        sf.measure(surface_id)
 
-    One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
-    catalog on a writing boot. Extra volumes are claims the operator
-    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+
+def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
+    """Idempotent: register + probe + measure host-known storage surfaces.
+
+    Seeds cosmos-live (runtime root) and ROLD (desk-of-record). ITC/GDX/ODX/TB1
+    stay operator claims until registered; cDeck paints them UNMEASURED when absent.
+    Does not invent V:\\ / P:\\ backup rows in tests.
     """
-    sid = "cosmos-live"
-    root_s = str(Path(root))
-    if sid not in sf.state():
-        sf.register(sid, "LOCAL", root_s, "SCRATCH")
-    sf.attach_probe(sid, local_disk_probe(root_s))
-    if sf.state().get(sid, {}).get("measurement") is None:
-        sf.measure(sid)
-    return [sid]
+    root_p = Path(root)
+    root_s = str(root_p)
+    seeded: list[str] = []
+
+    _seed_measured_local(sf, "cosmos-live", "LOCAL", root_s, "SCRATCH")
+    seeded.append("cosmos-live")
+
+    rold_path = rold_desk_path(root_p)
+    _seed_measured_local(sf, "ROLD", "LOCAL", rold_path, "ARCHIVE")
+    seeded.append("ROLD")
+
+    return seeded
