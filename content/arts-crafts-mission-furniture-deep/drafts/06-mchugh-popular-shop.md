@@ -10,7 +10,7 @@ period: 1878–1916
 regions: New York, Buffalo
 word_target: 1800-2600
 figures: 6
-meta_description: "Joseph P. McHugh’s Popular Shop branded Mission in New York. Dudley drew it. D’Ambrosio documented it. The sacristy tale does not hold."
+meta_description: "Joseph P. McHugh’s Popular Shop branded Mission oak in New York. Dudley drew the line. D’Ambrosio documented it. The sacristy tale does not hold."
 tags:
   - mchugh
   - popular-shop

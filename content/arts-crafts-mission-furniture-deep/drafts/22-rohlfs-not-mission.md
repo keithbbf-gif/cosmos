@@ -10,7 +10,7 @@ period: 1887–1907
 regions: Buffalo, New York
 word_target: 1800-2600
 figures: 6
-meta_description: "Charles Rohlfs’s Buffalo desks are carved sculpture with a saw-mark. They sat near Mission oak in 1901 and refused the slat."
+meta_description: "Charles Rohlfs’s Buffalo desks are carved oak sculpture with a saw-mark. They sat near Mission furniture at the 1901 fair and refused the slat."
 tags:
   - charles-rohlfs
   - buffalo

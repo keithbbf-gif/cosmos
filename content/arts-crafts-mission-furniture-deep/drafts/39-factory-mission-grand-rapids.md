@@ -10,7 +10,7 @@ period: 1900–1916
 regions: Grand Rapids, Hastings, Holland
 word_target: 1800-2600
 figures: 6
-meta_description: "Grand Rapids put Mission suites in The Furniture Record as fast as the look sold. Knockoff speed was a shop skill, not a moral failing."
+meta_description: "Grand Rapids put matching Mission suites into The Furniture Record as fast as the look sold. Knockoff speed was a factory skill, not snobbery."
 tags:
   - mission-furniture
   - grand-rapids

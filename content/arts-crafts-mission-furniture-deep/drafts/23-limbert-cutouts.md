@@ -10,7 +10,7 @@ period: 1902–1915
 regions: Grand Rapids; Holland, Michigan
 word_target: 1800-2600
 figures: 6
-meta_description: "Limbert’s oval cutout tables were a Holland, Michigan factory product. The catalog said Dutch. The voids also knew Glasgow."
+meta_description: "Limbert’s oval cutout tables were Holland, Michigan factory work. The catalog said Dutch. The voids also remembered Glasgow, not Japan only."
 tags:
   - limbert
   - holland-michigan

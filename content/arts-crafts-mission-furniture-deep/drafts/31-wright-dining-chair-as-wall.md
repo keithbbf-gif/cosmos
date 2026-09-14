@@ -36,7 +36,7 @@ Frederick C. Robie asked Wright for a house on a corner lot in Hyde Park in 1906
 
 The table is part of the wall. Piers rise at the corners and carry electrified leaded-glass fixtures. Hanks treats the suite as one decorative design, not as a chair that happened to match a house. The lamps pull the diners’ eyes inward. The chair backs stop the room’s long draft. A person sitting down is inside a wooden enclosure that can be broken by pushing a chair away. That is architecture you can move. It is the opposite of a Craftsman inglenook, where the settle is built into the chimney (chapter 13). Wright’s wall packs up.
 
-George Mann Niedecken, the Milwaukee interior architect, is the shop name that belongs beside Wright’s on much of the Robie movable furniture. Wright designed. Niedecken’s studio executed oak pieces the house required. The Hall brothers are the Pasadena version of that sentence (chapter 30). The American Arts and Crafts house that wanted custom furniture needed a mill that would take orders from a drawing. Eastwood took orders from a catalog. The jobs are not interchangeable.
+George Mann Niedecken, the Milwaukee interior architect, is the shop name that belongs beside Wright’s on much of the Robie movable furniture. Wright designed. Niedecken’s studio executed oak pieces the house required. Robie himself left the house in 1911; later occupants and the University of Chicago’s near-demolition years scattered the suite. The Smart accession is a recovery, not a continuous household. The Hall brothers are the Pasadena version of that sentence (chapter 30). The American Arts and Crafts house that wanted custom furniture needed a mill that would take orders from a drawing. Eastwood took orders from a catalog. The jobs are not interchangeable.
 
 ## What Hanks was looking at
 
@@ -75,7 +75,7 @@ A bungalow in a later suburb can hold a dark slat armchair and a poster of Robie
 Dimensions help when adjectives fail. Hanks and the Smart Museum give the side chair about 52⅜ inches of height on a seat roughly 17 by 19¾. That is a wall a seated person disappears into. A Stickley dining chair of the same years is shorter in the back and willing to be pulled away from the table. Wright’s chair does not want to be pulled away. It wants the table to remain a room. The difference is not taste. It is a job, and the job is architectural rather than retail. A store cannot stock a wall.
 
 
-Woodlawn Avenue is a street. The chair is a wall on that street. A poster of the house is neither.
+Woodlawn Avenue is a Chicago street. The dining chair is a wall on that street. A poster of the house is neither.
 
 ## Notes
 

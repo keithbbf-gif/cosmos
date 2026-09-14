@@ -38,6 +38,8 @@ Competition, here, is not a soap opera about who spoke to whom at Thanksgiving. 
 
 Look at a Morris chair in each book. The Eastwood chair has a shop number a collector can still recite. The Fayetteville chair has a different number and, after 1906, a clamp. The Grand Rapids chair has a Quaint tag and a line in Catalogue No. 38. Reclining mechanisms, slat counts, and bow-arm versus straight-arm variants do not line up. A retailer who stocked two of them was not stocking a backup SKU. He was stocking two answers to the same English chair (chapter 36 will take the Morris form as an American problem). The price difference, when you can recover both numbers for the same year, is the competition made arithmetic. `[CITE NEEDED: a paired year in which both an Eastwood and an L. & J.G. Morris chair price can be quoted on the page.]`
 
+A retailer wrote the order in the shop’s language. Eastwood wanted a shop number and a finish. Fayetteville wanted a Handcraft number, then, after about 1912, a “work of L. & J.G.” number. Grand Rapids wanted a Quaint plate from Catalogue No. 38 and a line on the January list. Cushions, leather color, and whether the piece shipped set up or in a crate moved the freight. None of that is in *The Craftsman*. All of it is in the letters and ledgers COL 60 kept when the companies’ papers landed in the same archive. The facing catalogs are the public half. The invoices are the private half. Together they are the American oak trade, which did not wait for a brother to finish a sentence.
+
 ## Franchises and the same window
 
 Winterthur says Craftsman furniture was sold by more than fifty franchises while the Homebuilders’ Club grew. L. & J.G. used traveling sales and city accounts John George already knew how to work. Albert used the Grand Rapids markets. In a town large enough for two oak lines, the window could hold a Craftsman settle and a Handcraft settle and a Quaint rocker without the retailer feeling dishonest. He was not dishonest. He was reading three lists.
@@ -69,6 +71,14 @@ What remains, if the stories are left out, is a market that could support multip
 The residual image is not a handshake. It is a masthead. Leopold president, Gustav vice president, J. George treasurer — then a year, then two names. *Furniture World* did not print the feeling in the room. It printed officers. COL 60 will give a researcher the checks and the minutes if the researcher goes to Winterthur. This essay is a magazine chapter. It can only keep the notice from becoming a healing.
 
 The leftover fact is the facing catalogs themselves. Two books, one desk, two numbers for a chair a customer wanted to call by a brother’s first name. The next essays leave the surname and take a different American campus: Elbert Hubbard’s Roycroft at East Aurora, which printed first and made furniture because the buildings needed chairs — and because visitors bought the chairs. That campus used a mark of its own. It did not need Stickley on the rail.
+
+A buyer in 1910 who asked for “a Stickley chair” was already speaking a blurred sentence. The salesman who answered with one catalog was doing the buyer a kindness or a cheat, depending on the mark under the rail. Associated Cabinetmakers and the later Rogers-loan stories in the collector literature are later attempts to legalize the blur `[VERIFY against COL 60]`. This chapter does not need those later firms to make the 1904–16 point. Two lists were enough. Three, if Albert’s mahogany page is on the same desk. The surname was a search term before there were search boxes. The shops knew it. They printed it. They also printed different numbers, which is the only reason the surname did not become a single factory.
+
+
+A salesman with two books on one desk is the American movement at retail scale. The books disagreed about price and sometimes about a slat count. They agreed about a surname. That agreement sold chairs. The disagreement is why a mark still matters more than a silhouette in a later sale room.
+
+
+The 1918 masthead lasted a year because a name can be an officer and then not be. Lists last longer than officers. A Handcraft clamp and a Craftsman decal still disagree in a drawer.
 
 ## Notes
 

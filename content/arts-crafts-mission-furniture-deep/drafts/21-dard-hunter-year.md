@@ -10,7 +10,7 @@ period: 1904–1910
 regions: East Aurora, New York; Vienna
 word_target: 1800-2600
 figures: 6
-meta_description: "Dard Hunter’s Roycroft years were glass, books, and a Vienna honeymoon. The rose window is his; the oak furniture shop is not."
+meta_description: "Dard Hunter’s Roycroft years were stained glass, books, and a 1908 Vienna honeymoon. The rose window is his; the East Aurora oak shop is not."
 tags:
   - dard-hunter
   - roycroft

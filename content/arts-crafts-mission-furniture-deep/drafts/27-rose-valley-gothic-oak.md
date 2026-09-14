@@ -10,7 +10,7 @@ period: 1901–1906
 regions: Rose Valley, Pennsylvania; Philadelphia
 word_target: 1800-2600
 figures: 6
-meta_description: "William Lightfoot Price’s Rose Valley shop carved Gothic oak in a dead mill village. The Artsman argued. It was not a Cotswold copy."
+meta_description: "William Lightfoot Price’s Rose Valley shop carved Gothic oak in a dead mill village. The Artsman argued the case; the creek was not a Cotswold copy."
 tags:
   - rose-valley
   - william-lightfoot-price

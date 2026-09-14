@@ -10,7 +10,7 @@ period: 1900–1916
 regions: Hastings, Michigan; Grand Rapids
 word_target: 1800-2600
 figures: 5
-meta_description: "Lifetime was a paper label, not Gustav Stickley. Grand Rapids Bookcase & Chair sold middle-market Mission from Hastings."
+meta_description: "Lifetime was a paper label, not Gustav Stickley. Grand Rapids Bookcase & Chair sold middle-market Mission oak from Hastings under Cloister styles."
 tags:
   - lifetime-furniture
   - grand-rapids

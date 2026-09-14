@@ -10,7 +10,7 @@ period: 1972–1989
 regions: Princeton, New York, national auction rooms
 word_target: 1800-2600
 figures: 6
-meta_description: "Princeton, Jordan-Volpe, Cathers, and Streisand-era headlines made leftover oak a category. Price guides describe 1982, not 1904."
+meta_description: "Princeton in 1972, Jordan-Volpe, Cathers, and Streisand-era headlines made leftover oak a category. Price guides describe 1982, not 1904 shops."
 tags:
   - mission-furniture
   - collecting

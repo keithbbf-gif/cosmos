@@ -10,7 +10,7 @@ period: 1858–1898
 regions: Osceola Wisconsin, Brandt Pennsylvania, Binghamton, Auburn, Eastwood Syracuse
 word_target: 1800-2600
 figures: 5
-meta_description: "Before The Craftsman, Stickley cut chairs in Binghamton, Auburn Prison, and Stickley-Simonds at Eastwood. The magazine is a late chapter."
+meta_description: "Before The Craftsman, Stickley cut chairs in Binghamton, Auburn Prison, and at Stickley-Simonds in Eastwood. The magazine is a late chapter."
 tags:
   - gustav-stickley
   - binghamton
@@ -40,11 +40,13 @@ Binghamton is where he learned to sell. The brothers’ rooms were wholesale and
 
 ## Streetcars, Simonds, and Auburn
 
-In 1888 Gustav invested in the Binghamton streetcar line and, that December, formed Stickley & Simonds with Elgin Simonds (1854–1903), a salesman. Simonds was president and ran sales from New York. Stickley was treasurer and oversaw making. In 1889 he worked with the financier G. Tracy Rogers on another rail project. The Henry Ford’s Benson Ford Research Center still holds deeds from this period (Stickley Family Collection, accession 1624). The later Craftsman is sometimes written as if commerce arrived in 1913 with a Manhattan lease. Commerce was there in the 1880s, in a streetcar and a partnership.
+The first Susquehanna year, 1883, was manufacture: chairs from a new brothers’ shop in a Pennsylvania town that already knew how to cut a post. Binghamton, from 1884, added wholesale rooms and other men’s stock. That split — make a little, sell a lot — is the early Stickley method. It is also why a later magazine that preached the handmade had to forget a warehouse.
+
+In 1888 Gustav invested in the Binghamton streetcar line and, that December, formed Stickley & Simonds with Elgin Simonds (1854–1903), a salesman. The later *New York Times* obituary would still remember him as a furniture manufacturer, publisher, and operator of an early electric streetcar line. The streetcar is not a craftsman credential. It is a man who understood how shoppers reached a store. Simonds was president and ran sales from New York. Stickley was treasurer and oversaw making. In 1889 he worked with the financier G. Tracy Rogers on another rail project. The Henry Ford’s Benson Ford Research Center still holds deeds from this period (Stickley Family Collection, accession 1624). The later Craftsman is sometimes written as if commerce arrived in 1913 with a Manhattan lease. Commerce was there in the 1880s, in a streetcar and a partnership.
 
 In 1890 Stickley & Simonds moved operations toward Auburn, New York. Gustav ran the furniture workshop at Auburn Prison. Cathers’s line, which Melissa Renn quotes, is the one to keep: the prison contract showed a man willing to flout industry norms when it suited him, and a man who liked the role of mentor — here, teaching inmates to make chairs. Leopold served with him as a foreman. Prison labor was cheaper than free labor. The practice was unpopular in the trade, which is a way of saying it worked. Cathers puts the workshop under Stickley’s hand from 1891 until it closed in 1897. The chairs that left Auburn were not Craftsman chairs. They were contract chairs. A series that starts in 1901 can afford to skip them. A series that wants the man who later printed a guild vocabulary cannot. The guild vocabulary and the prison time sheet are the same career.
 
-He was still a trade furniture man. The 1890s product of Stickley & Simonds included the revival suites a hotel would buy. The Waldorf-Astoria ordered mahogany for a foyer `[VERIFY the 1896 commission as given in the immigrant-entrepreneurship account]`. After a European trip in 1896 he invested in machinery that could shape wood into imitation bamboo, a Japan-craze good that leads backward to the 1876 courts (chapter 4) and forward to nothing in the 1901 magazine. Rocking chairs with acorn finials and tapestry seats survive in the literature as the sort of thing the partnership knew how to make. This is not a fall from grace. It is the job.
+He was still a trade furniture man. The 1890s product of Stickley & Simonds included the revival suites a hotel would buy. The Waldorf-Astoria ordered mahogany for a foyer `[VERIFY the 1896 commission as given in the immigrant-entrepreneurship account]`. After a European trip in 1896 he invested in machinery that could shape wood into imitation bamboo, a Japan-craze good that leads backward to the 1876 courts (chapter 4) and forward to nothing in the 1901 magazine. Rocking chairs with acorn finials and upholstered seats survive in the literature as the sort of thing the partnership knew how to make. This is not a fall from grace. It is the job.
 
 ## Eastwood, 1893: a plant before a creed
 

@@ -44,7 +44,7 @@ L. & J.G. Stickley later printed a “Prairie” cube chair and settle in a 1910
 
 Put the Art Institute cube and a documented Eastwood slat armchair in the same bungalow living room. The cube leaks light. You see the window through it. The slat chair is a small fence: five planes of quartersawn oak, the fleck running, the leather seat a pad you are meant to use. One object is a screen that continues the studio’s vertical moldings. The other is a seat that continues a catalog page of seats. Both can be sat in. Only one was designed to finish a particular set of walls.
 
-The fog that joins them is a later sentence: “Prairie was influenced by Mission,” or the reverse. This chapter will not write that sentence. Influence, used that way, is a handshake that erases the invoice. Wright knew Arts and Crafts furniture; he used Morris-type armchairs in the Oak Park living room in the 1890s; Hanks and the Wright Trust both say so. Stickley knew that architects were making cubic chairs; the 1905 spindle line is not an accident. Knowing is not a merger. A man can read a neighbor’s chair and still be in a different business.
+The fog that joins them is a later sentence that treats Prairie as a child of Mission, or the reverse, without a date or an invoice. This chapter will not write that sentence. A causal arrow used that way is a handshake that erases the shop. Wright knew Arts and Crafts furniture; he used Morris-type armchairs in the Oak Park living room in the 1890s; Hanks and the Wright Trust both say so. Stickley knew that architects were making cubic chairs; the 1905 spindle line is not an accident. Knowing is not a merger. A man can read a neighbor’s chair and still be in a different business.
 
 What they shared, when they shared anything, was a refusal of the Victorian parlor suite as a carved set. That refusal was already American by 1901. It does not make Wright a Mission designer. It does not make Stickley a Prairie architect. Chapter 1 spent its length keeping Mission, Craftsman, and Arts and Crafts from collapsing. Prairie is a fourth word. It belongs to a house plan and a Chicago conversation, not to a branded New York rail.
 
@@ -72,7 +72,7 @@ The living hall of a Craftsman house plan (chapter 13) and the living-dining con
 
 Stand in the Art Institute gallery and look through the cube. You can see the next gallery. That is the Prairie sentence: furniture as a continuation of space. Stand in front of a slat armchair and you see oak. That is the Mission and Craftsman sentence: furniture as a plane you can price. The next essay starts on the plane itself — the end grain of a white-oak arm, the medullary ray that factories loved — because once the names are pulled apart, the wood still has to be cut.
 
-The word *influence* is the other fog. A catalog that says Wright was influenced by Mission, or Mission by Wright, has declined to do the work of a date. The Art Institute cube is 2007.79, poplar, twenty-nine inches, a documented Oak Park object. A Grand Rapids Mission suite in the *Record* is a cut with a price. Those two facts can sit in one paragraph without a causal arrow. If a designer in Holland, Michigan, saw a photograph of a Prairie interior, say so when the photograph is found. Until then, two chairs in one room are two jobs, not a lineage.
+A catalog that derives Wright from Mission, or Mission from Wright, has declined to do the work of a date. The Art Institute cube is 2007.79, poplar, twenty-nine inches, a documented Oak Park object. A Grand Rapids Mission suite in the *Record* is a cut with a price. Those two facts can sit in one paragraph without a causal arrow. If a designer in Holland, Michigan, saw a photograph of a Prairie interior, say so when the photograph is found. Until then, two chairs in one room are two jobs, not a lineage.
 
 Purcell and Elmslie, Griffin, Mahony — the Prairie furniture that is not Wright — deserve their own sentences in a longer architectural series. Here they are a warning: even “Prairie furniture” is already a bundle. Do not make the bundle bigger by stuffing McHugh into it. The spindle cube is enough object for one argument. The slat armchair is enough object for the other. The room that holds both is a later collector’s room, or a museum’s. It is not 1906 in a single shop, and it is not a proof that the names were ever the same.
 
@@ -88,7 +88,7 @@ If a museum must hang both chairs on one wall, the label should say two jobs, tw
 - L. & J.G. Stickley 1910 “Prairie” cube chair and settle: catalog adjective `[VERIFY plate in the 1910 Handcraft / Onondaga book]`.
 - Wendy Kaplan, *The Art that is Life* (Boston: MFA, 1987), for Prairie within the American movement.
 - Robert W. Winter, *The California Bungalow* (Los Angeles: Hennessey & Ingalls, 1980).
-- Do not use “influenced by” as a substitute for a shop record or a drawing.
+- Do not use a causal handshake as a substitute for a shop record or a drawing.
 
 ## Figure plan
 

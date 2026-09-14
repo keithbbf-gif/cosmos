@@ -10,7 +10,7 @@ period: 1902–1918
 regions: Fayetteville, New York
 word_target: 1800-2600
 figures: 6
-meta_description: "L. & J.G. Stickley at Fayetteville were not Gustav’s second factory. Onondaga Shops labels and the Handcraft clamp mark a separate oak line."
+meta_description: "L. & J.G. Stickley at Fayetteville were not Gustav’s second factory. Onondaga Shops labels and the Handcraft clamp mark a separate oak line from Eastwood."
 tags:
   - l-and-jg-stickley
   - onondaga-shops
@@ -47,6 +47,8 @@ In 1906 the clamp appears: a red woodworker’s clamp and the line L. & J.G. STI
 By 1912 the clamp gives way, on many pieces, to a red-and-yellow rectangle: THE WORK OF L. & J.G. STICKLEY. The same words appear as a brand. The usual explanations are pressure from Gustav or confusion among buyers, or both. Either explanation grants the thing this chapter needs: by 1912 the Fayetteville firm was a name people could mix up with Eastwood, and the firm chose a sentence that named the two brothers and no one else. “The work of” is a craftsman claim without the trademark Craftsman. It is also, if you are unkind, a way of keeping the surname and dropping the echo.
 
 A 1905 Grand Rapids trade show is often named as the public debut of an L. & J.G. Mission oak line alongside Gustav’s. `[VERIFY the 1905 pairing in Furniture Record or the show program.]` If the pairing holds, it is a pretty fact: two Stickley booths, two price lists, one convention hall. Chapter 18 will put those lists on a table. This chapter only needs the booth to be Fayetteville’s.
+
+The Fayetteville plant was a wood shop with the usual American sequence: rough mill, cabinet room, finish, upholstery for the leather seats. It was not a magazine office with a saw in the back. Shop photographs from the later collector literature show a floor of machines and benches, not a guild hall. That is the same mixture Eastwood had (chapter 11). The difference is what left the office: a catalog and a mark, not a monthly that taught a household how to talk. When a Fayetteville Morris chair is good, it is good as furniture. It does not need Irene Sargent to finish it.
 
 ## What they did not do
 

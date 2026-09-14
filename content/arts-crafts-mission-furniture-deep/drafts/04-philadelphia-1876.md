@@ -74,9 +74,13 @@ This series uses Clark’s door without kneeling to it. The Centennial is a shop
 
 The cosmic sentence — Japan changed everything — is the sentence this chapter is not allowed. Japan changed some catalogs. Britain confirmed a Gothic already in print. American factories kept their saws. The oak that later got called Mission would need a different theft, a different coast, and a New York decorator willing to misread a church.
 
-The next essay leaves the park for a hall with a ticket: Chickering Hall, Fifth Avenue and Eighteenth Street, 9 January 1882, and a talk that was never a furniture line.
+## Named shops, and the walk that did not leave a diary
 
-Attendance figures in the souvenir books like a round million-count; treat them as publicity `[VERIFY official paid attendance]`. The useful number is smaller: how many furniture men from named cities left a record of the walk. Most did not. The ones who did left sketches and, later, catalog pages. That thin paper trail is why 1876 can be a door without being a miracle. A shop floor with flags is enough. The flags are not a style. They are a date a later curator could print on a museum wall text. Print is not joinery. The wall text is not the dwelling.
+Daniel Pabst’s Philadelphia Modern Gothic — the Furness orbit, the carved walnut that a local man could already make without a Japanese house — had a home-city advantage. A Cincinnati man from Mitchell & Rammelsberg could walk the British court and go home to a plant that already filled catalogs. A Grand Rapids jobber could do the same and add a page of incised suites for 1877. Named shops left traces. Most furniture men did not. Attendance figures in the souvenir books like a round million-count; treat them as publicity `[VERIFY official paid attendance]`. The useful number is smaller: how many cabinetmakers from named cities left a record of the walk. The ones who did left sketches and, later, catalog pages. That thin paper trail is why 1876 can be a door without being a miracle.
+
+Herter Brothers, if they showed or only visited `[VERIFY a Herter stand versus a Herter visit]`, were already past the price of a factory parlor table. The fair’s lesson for them was prestige. The lesson for a journeyman on Chestnut Street was a bracket he could copy on Monday. Both lessons are American. Neither is a conversion.
+
+The next essay leaves the park for a hall with a ticket: Chickering Hall, Fifth Avenue and Eighteenth Street, 9 January 1882, and a talk that was never a furniture line.
 
 ## Notes
 

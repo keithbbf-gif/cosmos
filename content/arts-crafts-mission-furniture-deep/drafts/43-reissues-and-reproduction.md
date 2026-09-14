@@ -10,7 +10,7 @@ period: 1974–1990s
 regions: Fayetteville, Manlius, national shops
 word_target: 1800-2600
 figures: 5
-meta_description: "A 1989 Stickley tag is a reissue, not a 1904 chair. Fakes lie about the mark. Shops still making in the grammar are a third thing."
+meta_description: "A 1989 L. & J.G. Stickley tag is a reissue, not a 1904 chair. Fakes lie about the mark. Shops still making in the grammar are a third thing."
 tags:
   - mission-furniture
   - stickley

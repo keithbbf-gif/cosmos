@@ -10,7 +10,7 @@ period: 1882
 regions: New York, the lecture circuit, Leadville
 word_target: 1800-2600
 figures: 5
-meta_description: "Oscar Wilde’s 1882 American tour sold a talk called The House Beautiful. It was not a furniture line. The rooms still held Eastlake tables."
+meta_description: "Oscar Wilde’s 1882 American tour sold a talk called The House Beautiful. It was not a furniture line. Dated halls still held Eastlake tables."
 tags:
   - wilde
   - house-beautiful
@@ -33,7 +33,7 @@ This chapter is a tour, not a biography. The Irish life, the trials, the later f
 
 The 1882 itinerary is long enough to be its own document. Lloyd Lewis and Henry Justin Smith’s *Oscar Wilde Discovers America* (1936) is the old narrative census. Later reprints of the lecture texts — “The Decorative Arts” and “The House Beautiful” as reconstructed from notes and newspaper transcripts — are the words a furniture historian can use. The first talk leaned on a Renaissance of English making. The later talks got more practical: what to put on a wall, what not to varnish, why a young man in a factory town might still care about a pot. Newspapers paraphrased. They also invented. A quote without a paper and a date is a parlor game. Mark those `[VERIFY]`.
 
-He went west. He went south. He went to Leadville, Colorado, in April, and the story that followed him out of the Matchless mine — reciting Cellini to miners, drinking, being liked because he could take a joke — is the American Wilde the later furniture world prefers, because it makes taste look democratic. The Leadville papers are checkable. The Cellini flourish is the kind of flourish a lecturer uses when the room is not Chickering Hall. None of it designs a settle.
+He went west. He went south. The titles moved with the box office. By early February the long English-Renaissance talk had been recut as “The Decorative Arts”; Wilde wrote his manager, Colonel W. F. Morse, to stop advertising the old name. The most conscious switch is usually put at Chicago on 13 February 1882. He needed a second lecture for cities that booked him twice. On Saturday, 11 March, at Central Music Hall, State and Randolph, Chicago, he gave the domestic version that began as “Interior and Exterior House Decoration” and became known as “The House Beautiful.” Platt’s Hall, 216 Montgomery Street, San Francisco, took four nights: 27 March (a revived Renaissance, because four dates had been sold), 29 March (art decoration applied to the home), 1 April (a ladies’ matinee billed as House Beautiful and Decorative Arts), and 5 April (Irish poets, invented for the extra night). Charles E. Locke managed the local dates; the Palace Hotel held the rooms. The *San Francisco Chronicle* of 2 April noticed the Saturday hybrid. He went to Leadville, Colorado, in April, and the story that followed him out of the Matchless mine — reciting Cellini to miners, drinking, being liked because he could take a joke — is the American Wilde the later furniture world prefers, because it makes taste look democratic. The Leadville papers are checkable. The Cellini flourish is the kind of flourish a lecturer uses when the room is not Chickering Hall. None of it designs a settle. A modern count puts the year at 141 lectures. Chickering Hall, demolished in 1901, is only the first dated room.
 
 What the tour did design, if the word is allowed, was a public who had heard an Englishman say that a house could be an art problem without being a palace. American women’s clubs and lecture bureaus already sold that idea in thinner form. Wilde made it theatrical. *House Beautiful* as a magazine title (later, 1896, in Chicago, under a different enterprise) is not his trademark. The phrase was in the air. His tour is why furniture people still put his name next to it. The magazine will furnish bungalows. The 1882 talk furnished an evening.
 
@@ -79,8 +79,10 @@ A last dated scrap: the D’Oyly Carte office booked the tour because *Patience*
 
 ## Notes
 
-- First New York lecture: Chickering Hall, 9 January 1882, “The English Renaissance.”
-- Later American titles: “The Decorative Arts”; “The House Beautiful.” Texts survive as reconstructions from notes and newspapers; treat wording as approximate unless a named paper is cited.
+- First New York lecture: Chickering Hall, NW corner of Fifth Avenue and 18th Street, 9 January 1882, “The English Renaissance.” *New York Times*, 10 January 1882, p. 5. George B. Post, 1875; demolished 1901.
+- “The Decorative Arts” from early February 1882 (Chicago, 13 February, as the usual hinge). “The House Beautiful” first required in Chicago, Central Music Hall, 11 March 1882.
+- San Francisco: Platt’s Hall, 216 Montgomery Street; 27 March, 29 March, 1 April, 5 April 1882. Palace Hotel. Charles E. Locke, local manager. *San Francisco Chronicle*, 31 March and 2 April 1882.
+- Later American titles survive as reconstructions from notes and newspapers; treat wording as approximate unless a named paper is cited. John Cooper’s lecture chronology is the dated spine; 141 lectures in 1882.
 - Lloyd Lewis and Henry Justin Smith, *Oscar Wilde Discovers America* (New York: Harcourt, Brace, 1936).
 - Leadville, April 1882: local papers; later anecdotal overlays `[VERIFY Cellini / Matchless details against the Leadville *Herald* or equivalent]`.
 - *House Beautiful* magazine (Chicago, from 1896): not Wilde’s organ; phrase only.

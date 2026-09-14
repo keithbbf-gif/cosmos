@@ -10,7 +10,7 @@ period: 1902–1905
 regions: Woodstock, New York
 word_target: 1800-2600
 figures: 6
-meta_description: "Byrdcliffe’s Woodstock benches were a colony product, not a factory line. Steele and Walker designed. White Pines sat on more than one oak."
+meta_description: "Byrdcliffe’s Woodstock benches were colony work, not a factory line. Zulma Steele and Edna Walker designed; White Pines sat on more than one oak."
 tags:
   - byrdcliffe
   - woodstock
@@ -61,7 +61,7 @@ Robert W. Clark’s 1972 Princeton exhibition had already put Byrdcliffe on the 
 
 ## A residual leaf
 
-The Met linen press, which is not a bench, is the object a museum visitor will actually see. The lily chair is the object a sale-room visitor will see. The White Pines settle is the object this chapter insisted on because the house is where the colony’s furniture was meant to be used, not photographed as a trophy. All three share a shallow plant and a boxy case. All three were made in a window of two or three years on a Catskill shelf that could not become a mill town. Whitehead died in Santa Barbara in 1929. Jane lived until 1955. Steele painted in Woodstock for decades. The benches stayed few. The McHugh chair, if it is still in the story at all, is a guest. The leaf on the splat is the host.
+The Met linen press, which is not a bench, is the object a museum visitor will actually see. The lily chair is the object a sale-room visitor will see. The White Pines settle is the object this chapter insisted on because the house is where the colony’s furniture was meant to be used, not photographed as a trophy. All three share a shallow plant and a boxy case. All three were made in a window of two or three years on a Catskill shelf that could not become a mill town. A later Woodstock that became an art town is a sequel, not a proof that the woodshop worked. Whitehead died in Santa Barbara in 1929. Jane lived until 1955. Steele painted in Woodstock for decades. The benches stayed few. The McHugh chair, if it is still in the story at all, is a guest. The leaf on the splat is the host.
 
 Fifty pieces in a busy year, if Winterthur’s finding aid is right, is not a factory. It is a season. A reader who wants a national oak look will not find it on the Catskill shelf. They will find a linen press in the Met and a lily chair in Milwaukee and a settle that still belongs to a house. That is a colony’s proper scale. It is also why Byrdcliffe cannot answer a Mission search except by refusing the word.
 

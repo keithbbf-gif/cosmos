@@ -10,7 +10,7 @@ period: 1906–1918
 regions: Chicago, Buffalo, Ann Arbor, Jamestown
 word_target: 1800-2600
 figures: 6
-meta_description: "Sears pages and Larkin soap premiums shipped Mission oak by freight, often knocked down. A catalog year is a price, not a pilgrimage."
+meta_description: "Sears Catalog No. 124 and a February 1916 Larkin premium page shipped Mission oak by freight, often knocked down. A catalog year is a price."
 tags:
   - mission-furniture
   - sears
