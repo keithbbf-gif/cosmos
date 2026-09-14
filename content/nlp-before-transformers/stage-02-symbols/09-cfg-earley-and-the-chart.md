@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1956-1970"
 topics: [CFG, Earley, CYK, chart-parsing]
+voice_check: edited
 ---
 
 # CFGs, Earley, and the chart: parsing as bookkeeping

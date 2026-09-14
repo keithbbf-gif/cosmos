@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2001"
 topics: [CRF, structured-prediction, sequence-labeling]
+voice_check: edited
 ---
 
 # CRFs: Lafferty, McCallum, Pereira, 2001

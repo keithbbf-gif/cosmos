@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2015"
 topics: [Luong, attention, OpenNMT]
+voice_check: edited
 ---
 
 # Luong attention: when looking became a module you could swap

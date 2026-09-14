@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1977-2013"
 topics: [dialogue, slot-filling, POMDP, ATIS]
+voice_check: edited
 ---
 
 # Dialogue before seq2seq: slots, states, and the phone tree

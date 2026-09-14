@@ -9,11 +9,14 @@ publish: false
 novelty: public-record
 era: "1990"
 topics: [LSA, LSI, Deerwester, SVD]
+voice_check: edited
 ---
 
 # LSA: when SVD looked like meaning
 
-Deerwester, Dumais, Furnas, Landauer, and Harshman, 1990,
+Before Word2Vec made vectors fashionable again, retrieval people
+had a linear-algebra trick that felt like mind reading for about a
+decade. Deerwester, Dumais, Furnas, Landauer, and Harshman, 1990,
 *Indexing by Latent Semantic Analysis*. The practical
 problem was retrieval. Query words and document words often
 refuse to match. A user says "car." The paper says

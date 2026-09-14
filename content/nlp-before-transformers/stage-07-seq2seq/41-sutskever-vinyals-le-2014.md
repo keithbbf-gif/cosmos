@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2014"
 topics: [seq2seq, NMT, encoder-decoder]
+voice_check: edited
 ---
 
 # Sutskever, Vinyals, Le 2014: sequence to sequence, no apology

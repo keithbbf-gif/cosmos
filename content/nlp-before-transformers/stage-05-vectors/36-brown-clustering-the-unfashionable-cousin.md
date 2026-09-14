@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1992"
 topics: [Brown-clustering, word-classes, features]
+voice_check: edited
 ---
 
 # Brown clustering: the unfashionable cousin that still worked

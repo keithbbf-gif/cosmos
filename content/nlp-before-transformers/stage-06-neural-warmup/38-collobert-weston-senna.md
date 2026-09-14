@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2008-2011"
 topics: [SENNA, Collobert, Weston, multitask]
+voice_check: edited
 ---
 
 # Collobert and Weston: almost end-to-end NLP in 2011

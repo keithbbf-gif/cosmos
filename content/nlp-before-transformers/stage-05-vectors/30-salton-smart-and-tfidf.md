@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1971-1988"
 topics: [Salton, SMART, TF-IDF, vector-space]
+voice_check: edited
 ---
 
 # Salton's SMART: the vector space that search actually used

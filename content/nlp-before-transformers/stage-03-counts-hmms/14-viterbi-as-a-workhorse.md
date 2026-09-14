@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1967"
 topics: [Viterbi, decoding, dynamic-programming]
+voice_check: edited
 ---
 
 # Viterbi as a workhorse, not a shrine

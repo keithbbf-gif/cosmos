@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1966-1989"
 topics: [HMM, speech, POS-tagging, Rabiner]
+voice_check: edited
 ---
 
 # Hidden Markov Models: the quiet engine under speech and tags

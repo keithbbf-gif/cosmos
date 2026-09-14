@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2014"
 topics: [GloVe, Pennington, embeddings]
+voice_check: edited
 ---
 
 # GloVe: global counts with a local-looking vector

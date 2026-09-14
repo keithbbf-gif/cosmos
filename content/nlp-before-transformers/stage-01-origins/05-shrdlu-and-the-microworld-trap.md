@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1970-1972"
 topics: [SHRDLU, Winograd, grounded-language]
+voice_check: edited
 ---
 
 # SHRDLU and the microworld that looked like understanding

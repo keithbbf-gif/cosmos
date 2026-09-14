@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2010-2012"
 topics: [RNNLM, Mikolov, language-models]
+voice_check: edited
 ---
 
 # RNNLM: Mikolov’s recurrent language model you could train at home

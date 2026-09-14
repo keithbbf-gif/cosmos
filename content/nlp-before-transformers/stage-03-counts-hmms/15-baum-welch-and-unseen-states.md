@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1970"
 topics: [Baum-Welch, EM, HMM-training]
+voice_check: edited
 ---
 
 # Baum–Welch: learning when you cannot see the states

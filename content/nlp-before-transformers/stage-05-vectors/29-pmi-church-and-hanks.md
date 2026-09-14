@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1990"
 topics: [PMI, collocation, Church, Hanks]
+voice_check: edited
 ---
 
 # Church and Hanks: PMI and the collocation as a number

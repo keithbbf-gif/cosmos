@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1957-1990"
 topics: [Chomsky, generative-grammar, empiricism]
+voice_check: edited
 ---
 
 # Chomsky versus the counters: a forty-year argument

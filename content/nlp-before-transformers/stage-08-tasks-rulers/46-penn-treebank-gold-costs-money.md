@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1993"
 topics: [Penn-Treebank, Marcus, annotation]
+voice_check: edited
 ---
 
 # Penn Treebank: gold structure, and what it costs

@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1966"
 topics: [ALPAC, machine-translation, funding]
+voice_check: edited
 ---
 
 # ALPAC 1966: the report that sent MT into the wilderness

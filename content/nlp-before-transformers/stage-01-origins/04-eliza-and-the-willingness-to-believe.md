@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1966"
 topics: [ELIZA, dialogue, Weizenbaum]
+voice_check: edited
 ---
 
 # ELIZA and the first users who wanted to believe

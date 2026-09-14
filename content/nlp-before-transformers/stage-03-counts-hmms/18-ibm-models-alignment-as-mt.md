@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1988-1993"
 topics: [IBM-models, statistical-MT, alignment]
+voice_check: edited
 ---
 
 # IBM Models 1–5: alignment as the first statistical MT

@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1997-2015"
 topics: [LSTM, Hochreiter, Schmidhuber, vanishing-gradient]
+voice_check: edited
 ---
 
 # LSTM: a 1997 paper that got its career in the 2010s

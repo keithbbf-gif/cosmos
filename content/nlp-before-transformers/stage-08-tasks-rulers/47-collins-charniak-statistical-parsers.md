@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1996-2000"
 topics: [Collins, Charniak, PCFG, parsing]
+voice_check: edited
 ---
 
 # Collins and Charniak: the last great statistical parsers

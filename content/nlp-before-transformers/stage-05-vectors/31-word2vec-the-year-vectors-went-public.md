@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2013"
 topics: [Word2Vec, Mikolov, embeddings]
+voice_check: edited
 ---
 
 # Word2Vec, 2013: the year vectors left the lab

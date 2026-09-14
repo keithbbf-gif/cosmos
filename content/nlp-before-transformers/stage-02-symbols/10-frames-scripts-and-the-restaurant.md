@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1974-1977"
 topics: [frames, scripts, Schank, Minsky, Fillmore]
+voice_check: edited
 ---
 
 # Frames, scripts, and the restaurant that stood for the world

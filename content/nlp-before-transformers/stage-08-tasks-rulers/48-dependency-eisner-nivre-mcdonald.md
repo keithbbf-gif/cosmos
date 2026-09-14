@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1996-2006"
 topics: [dependency-parsing, Eisner, Nivre, McDonald]
+voice_check: edited
 ---
 
 # Dependency parsing: Eisner, Nivre, McDonald

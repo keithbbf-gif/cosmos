@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1961-1979"
 topics: [Brown-Corpus, corpus-linguistics, Kučera, Francis]
+voice_check: edited
 ---
 
 # The Brown Corpus: when counting became a method

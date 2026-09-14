@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1980-2008"
 topics: [n-grams, language-models, perplexity]
+voice_check: edited
 ---
 
 # N-grams: the Shannon game at industrial scale

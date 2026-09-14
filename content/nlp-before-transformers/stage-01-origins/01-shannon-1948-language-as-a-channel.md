@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1948"
 topics: [information-theory, n-grams, language-models]
+voice_check: edited
 ---
 
 # Shannon 1948: language as a channel, not a mind
@@ -19,14 +20,16 @@ mentions meaning. Claude Shannon's *A Mathematical Theory of
 Communication* (1948) treated English the way an engineer treats a
 noisy wire: symbols in, symbols out, uncertainty in the middle.
 
-That sounds cold. It was also the first time a serious technical
-community had a way to *measure* how surprising the next word is.
-Shannon printed a table of letter and word frequencies, then played
-what people still call the Shannon game. Cover a sentence. Guess
-the next character. Count how many guesses you needed. The number
-is a stand-in for entropy. You do not need a theory of mind to
-run the game. You need a pencil and a willingness to be wrong in
-public.
+That sounds cold. It was still the first time a serious technical
+community had a way to *measure* how surprising the next symbol is.
+The 1948 paper builds the channel and the entropy machinery; the
+letter and word counts are already there as engineering fuel. The
+guessing game most people teach — cover a sentence, guess the next
+character, count guesses — is what Shannon ran with human subjects
+in the 1951 note on prediction and entropy of printed English. The
+number of guesses is a stand-in for entropy. You do not need a
+theory of mind to run the game. You need a pencil and a willingness
+to be wrong in public.
 
 People who came to language from philosophy hated this. They were
 not wrong to hate it. A channel model does not know that "bank"
@@ -57,10 +60,8 @@ it or not. You observe something messy. You infer a cleaner
 string. The messy thing is not a failure of the theory. It *is*
 the theory.
 
-There is a second Shannon paper people skip, the 1951 note on
-prediction and entropy of printed English. He had people guess
-letters in a text and used the guess counts to bound the entropy
-of English from above and below. The bounds were crude. The
+That 1951 note also used the guess counts to bound the entropy of
+printed English from above and below. The bounds were crude. The
 method was not. It said: if you want to know how much information
 is in language, watch a human predict, then do the arithmetic.
 Later, language-model researchers would replace the human with a

@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1987-2003"
 topics: [MUC, ACE, CoNLL, shared-tasks]
+voice_check: edited
 ---
 
 # MUC, ACE, CoNLL: shared tasks as the real curriculum

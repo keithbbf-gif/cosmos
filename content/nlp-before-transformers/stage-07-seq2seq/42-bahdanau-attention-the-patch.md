@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2014-2015"
 topics: [attention, Bahdanau, NMT]
+voice_check: edited
 ---
 
 # Bahdanau attention: the patch that became the point

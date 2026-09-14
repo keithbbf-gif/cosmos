@@ -58,9 +58,14 @@ stage: draft
 status: staged
 publish: false
 novelty: public-record
+voice_check: edited
 era: "1954"
 topics: [machine-translation]
 ```
+
+`voice_check: edited` means a human editor pass on voice and
+novelty-safe framing (still `publish: false` until a separate publish
+step).
 
 ## What "done" means here
 

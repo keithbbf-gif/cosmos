@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2003"
 topics: [LDA, topic-models, Blei]
+voice_check: edited
 ---
 
 # LDA: Blei, Ng, Jordan, and topics as mixtures

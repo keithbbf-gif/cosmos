@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2003-2016"
 topics: [Moses, SMT, NMT, Koehn]
+voice_check: edited
 ---
 
 # From Pharaoh and Moses to neural MT: what actually got replaced
@@ -39,8 +40,8 @@ already been leaning. The marker matters because it told
 everyone the factory had a successor, not just a workshop
 rival.
 
-What got lost, for a while, was intervenability. You cannot
-grep a 512-dimensional state for a bad idiom. What got gained
+What got lost, for a while, was a phrase table you could grep. You
+cannot grep a 512-dimensional state for a bad idiom. What got gained
 was fluency, especially on morphology and on reordering that
 phrase pairs had to memorize the hard way. German verbs, Czech
 agreement, Japanese honorifics — SMT could do them with enough

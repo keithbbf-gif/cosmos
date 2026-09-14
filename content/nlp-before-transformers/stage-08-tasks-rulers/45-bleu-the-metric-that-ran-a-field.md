@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2002"
 topics: [BLEU, evaluation, Papineni]
+voice_check: edited
 ---
 
 # BLEU: Papineni 2002 and the metric that ran a field

@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1998"
 topics: [SVM, text-classification, Joachims, TF-IDF]
+voice_check: edited
 ---
 
 # Joachims and the wide vector: SVMs for text

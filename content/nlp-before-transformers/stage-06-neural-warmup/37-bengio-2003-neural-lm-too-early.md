@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2003"
 topics: [Bengio, neural-LM, embeddings]
+voice_check: edited
 ---
 
 # Bengio 2003: a neural language model that arrived too early

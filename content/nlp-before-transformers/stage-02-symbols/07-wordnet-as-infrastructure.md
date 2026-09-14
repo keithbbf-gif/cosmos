@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1985-1995"
 topics: [WordNet, lexical-semantics, Miller]
+voice_check: edited
 ---
 
 # WordNet: a lexical database that became plumbing

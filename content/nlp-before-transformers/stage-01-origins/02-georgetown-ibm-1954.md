@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1954"
 topics: [machine-translation, demos, rule-based-mt]
+voice_check: edited
 ---
 
 # Georgetown–IBM, 1954: sixty sentences and a press line

@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "2016-2017"
 topics: [fastText, subword, Bojanowski, morphology]
+voice_check: edited
 ---
 
 # fastText: subwords sneak back in before the transformer break

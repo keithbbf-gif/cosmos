@@ -9,6 +9,7 @@ publish: false
 novelty: public-record
 era: "1983-2003"
 topics: [FST, morphology, Karttunen, two-level]
+voice_check: edited
 ---
 
 # Finite-state morphology: the unglamorous machine that worked
