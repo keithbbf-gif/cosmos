@@ -11,15 +11,9 @@
 - Removed generic repeated paragraphs (folding stool / throne boilerplate on unrelated topics).
 - No invented museum accession numbers; thin spots flagged below.
 
-## Remaining weak articles (evidence thin — needs future citation pass)
+## Citation pass (2026-09-14)
 
-- `catacombs-funeral-furniture`
-- `chinese-kang-platform-beds`
-- `indus-valley-household-forms`
-- `islamic-early-seating`
-- `korean-on-demand-platforms`
-- `mauryan-palace-furniture`
-- `vedic-india-low-seating`
+Seven formerly thin essays were deepened with named excavations and published translations; details in `CITATION_PASS_REPORT.md`. Other slugs in the pack may still warrant future citation work (e.g. Han lacquer platforms essay).
 
 ## Banned-phrase scan
 
