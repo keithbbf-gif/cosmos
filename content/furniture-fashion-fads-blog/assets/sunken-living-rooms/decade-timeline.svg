@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="figTitle">
+  <title>Sunken Living Rooms: Architecture as Status</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">Sunken Living Rooms: Architecture as Status</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Decade markers · editorial schematic (not sales data)</text>
+  <line x1="56" y1="200" x2="680" y2="200" stroke="#C9C4BA" stroke-width="2"/>
+  <line x1="56.0" y1="194" x2="56.0" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="137.03896103896102" y1="194" x2="137.03896103896102" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="218.07792207792207" y1="194" x2="218.07792207792207" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="299.1168831168831" y1="194" x2="299.1168831168831" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="380.15584415584414" y1="194" x2="380.15584415584414" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="461.1948051948052" y1="194" x2="461.1948051948052" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="542.2337662337662" y1="194" x2="542.2337662337662" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="623.2727272727273" y1="194" x2="623.2727272727273" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <circle cx="96.51948051948051" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="96.51948051948051" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Conversation pit</text>
+  <text x="96.51948051948051" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Miller House</text>
+  <circle cx="412.57142857142856" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="412.57142857142856" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">McMansion era</text>
+  <text x="412.57142857142856" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Great rooms</text>
+  <circle cx="509.8181818181818" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="509.8181818181818" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Safety codes</text>
+  <text x="509.8181818181818" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Fewer new pits</text>
+  <circle cx="615.1688311688312" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="615.1688311688312" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Nostalgia posts</text>
+  <text x="615.1688311688312" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Zillow roasts</text>
+  <text x="56" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Source: period press &amp; trade history · sunken-living-rooms</text>
+</svg>

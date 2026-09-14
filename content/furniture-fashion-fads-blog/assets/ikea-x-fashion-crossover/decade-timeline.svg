@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="figTitle">
+  <title>When IKEA Dressed Like a Fashion Label</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">When IKEA Dressed Like a Fashion Label</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Decade markers · editorial schematic (not sales data)</text>
+  <line x1="56" y1="200" x2="680" y2="200" stroke="#C9C4BA" stroke-width="2"/>
+  <line x1="56.0" y1="194" x2="56.0" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="423.05882352941177" y1="194" x2="423.05882352941177" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <circle cx="312.94117647058823" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="312.94117647058823" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Wearable IKEA</text>
+  <text x="312.94117647058823" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Markerad</text>
+  <circle cx="239.52941176470588" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="239.52941176470588" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Frakta bag fashion</text>
+  <text x="239.52941176470588" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Balenciaga echo</text>
+  <circle cx="386.3529411764706" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="386.3529411764706" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Home in outfits</text>
+  <text x="386.3529411764706" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Room tours</text>
+  <text x="56" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Source: period press &amp; trade history · ikea-x-fashion-crossover</text>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" role="img" aria-labelledby="figTitle">
+  <title>The IKEA Era Changed What We Expect</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">The IKEA Era Changed What We Expect</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Decade markers · editorial schematic (not sales data)</text>
+  <line x1="56" y1="200" x2="680" y2="200" stroke="#C9C4BA" stroke-width="2"/>
+  <line x1="56.0" y1="194" x2="56.0" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="171.55555555555554" y1="194" x2="171.55555555555554" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="287.1111111111111" y1="194" x2="287.1111111111111" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="402.6666666666667" y1="194" x2="402.6666666666667" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="518.2222222222222" y1="194" x2="518.2222222222222" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <line x1="633.7777777777778" y1="194" x2="633.7777777777778" y2="206" stroke="#C9C4BA" stroke-width="1"/>
+  <circle cx="148.44444444444446" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="148.44444444444446" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Billy shelf</text>
+  <text x="148.44444444444446" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Global SKU</text>
+  <circle cx="113.77777777777777" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="113.77777777777777" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Poäng</text>
+  <text x="113.77777777777777" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Chair democracy</text>
+  <circle cx="344.8888888888889" cy="200" r="7" fill="#7A6B56" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="344.8888888888889" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Frakta bag</text>
+  <text x="344.8888888888889" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">Meme-adjacent</text>
+  <circle cx="587.5555555555555" cy="200" r="7" fill="#8B4A5E" stroke="#1C1C1C" stroke-width="1"/>
+  <text x="587.5555555555555" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="bold" fill="#1C1C1C" text-anchor="middle">Place app</text>
+  <text x="587.5555555555555" y="238" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">AR try-on</text>
+  <text x="56" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Source: period press &amp; trade history · ikea-era-flat-pack</text>
+</svg>

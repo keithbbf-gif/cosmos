@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-labelledby="figTitle">
+  <title>When Shiplap Became a Punchline</title>
+  <rect width="100%" height="100%" fill="#F7F5F0"/>
+  <text x="56" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1C1C1C" text-anchor="start">When Shiplap Became a Punchline</text>
+  <text x="56" y="58" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#5C5A55" text-anchor="start">Relative retail visibility · indexed schematic, not revenue</text>
+  <line x1="48" y1="320" x2="672" y2="320" stroke="#1C1C1C" stroke-width="1.5"/>
+  <rect x="228" y="200.0" width="48" height="120.0" fill="#7A6B56" opacity="0.85"/>
+  <text x="252.0" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1C1C1C" text-anchor="middle">2013</text>
+  <text x="252.0" y="192.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">6</text>
+  <rect x="300" y="120.0" width="48" height="200.0" fill="#8B4A5E" opacity="0.85"/>
+  <text x="324.0" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1C1C1C" text-anchor="middle">2017</text>
+  <text x="324.0" y="112.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">10</text>
+  <rect x="372" y="260.0" width="48" height="60.0" fill="#7A6B56" opacity="0.85"/>
+  <text x="396.0" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1C1C1C" text-anchor="middle">2021</text>
+  <text x="396.0" y="252.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">3</text>
+  <rect x="444" y="280.0" width="48" height="40.0" fill="#8B4A5E" opacity="0.85"/>
+  <text x="468.0" y="336" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1C1C1C" text-anchor="middle">2024</text>
+  <text x="468.0" y="272.0" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="middle">2</text>
+  <text x="56" y="376" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#5C5A55" text-anchor="start">Ironic salvage</text>
+</svg>
