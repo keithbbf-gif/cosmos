@@ -1,0 +1,32 @@
+{
+ "schema": "cosmos-sgh-api-rail-live/1",
+ "link_id": "sgh-api",
+ "tree_id": "KMesh-COSMOS-live",
+ "measurement": "UNMEASURED",
+ "core_8770": {
+  "ok": false,
+  "detail": "ConnectionRefusedError: [Errno 111] Connection refused"
+ },
+ "core_status": {
+  "ok": false,
+  "detail": "core down"
+ },
+ "key_present": false,
+ "key_bytes": null,
+ "wired": {
+  "rail_type": "API",
+  "src": "core",
+  "dst": "models",
+  "module": "bts_sgh",
+  "family": "g46-grok"
+ },
+ "prove_error": "NO xai_api_key.txt \u2014 credential absent",
+ "proof": null,
+ "ledger_probe_result_tail": [],
+ "runtime": {
+  "count": null,
+  "nodes": [],
+  "sgh_in_nodes": false
+ },
+ "ok": false
+}
