@@ -2,8 +2,8 @@
 title: "Cherry Changes Its Mind"
 slug: cherry-changes-its-mind
 status: draft
-voice_check: human
-word_count: 1244
+voice_check: edited
+word_count: 1072
 dek: "A cherry top is paler than the customer wanted on delivery day. Wait. The color is a process, not a can."
 series: furniture-craft
 topic: materials
@@ -81,7 +81,3 @@ It will darken. It will not darken under a runner. Gum is not a crack. Do not st
 I show the old rail. I let them hold it. The hand believes the old rail. The eye will believe the new apron later. My job is to keep them from making me stain the apron so the later never comes.
 
 When they call in a year, sometimes they are calling to say they get it. Those calls are short and good. Sometimes they are calling because a leaf they had in a closet is pale next to the table. That call is the tablecloth lesson again. I do not charge extra to repeat it. I do charge extra to stain a leaf into a lie that will then age beside a table that is still changing its mind.
-
-A UV-heavy film will keep cherry paler. Say so if that is the look. Do not use it and then complain the piece is not “cherry enough” in October. Sap through a formal field is a lightning bolt I cut out, hide, or sell as itself. I do not stain sap and heart as if they had the same thirst. The old rail on the bench is still the best sample I have. I let them hold it. The hand believes the old rail. The eye will believe the new apron later, if we do not stain the later away.
-
-Cherry burns with a dull tool: a brown shine on a saw cut, a track on a plane. Sharp, light, a scraper on the curl. It still takes a ring. It still moves. A wide flatsawn cherry top wants both faces finished and a breadboard that can slide. The species is not a force field. It is a color that arrives late, if we let it.

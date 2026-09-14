@@ -2,8 +2,8 @@
 title: "Walls You Can Trust"
 slug: walls-you-can-trust
 status: draft
-voice_check: human
-word_count: 1260
+voice_check: edited
+word_count: 1251
 dek: "A mortise is a hole with opinions. The walls have to be flat, the ends square, and the bottom deep enough that the tenon does not bottom out before the shoulders shut."
 series: furniture-craft
 topic: tools

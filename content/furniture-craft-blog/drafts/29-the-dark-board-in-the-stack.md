@@ -2,8 +2,8 @@
 title: "The Dark Board in the Stack"
 slug: the-dark-board-in-the-stack
 status: draft
-voice_check: human
-word_count: 1214
+voice_check: edited
+word_count: 1173
 dek: "Walnut is a color you find, a sapwood you decide about, and a board that will go quieter in the room if you let it."
 series: furniture-craft
 topic: materials
@@ -67,8 +67,6 @@ A waterborne that goes gray-cool on walnut will disappoint a person who wanted w
 ## Sapwood I stained once
 
 A formal top with a sap lightning bolt: I stained it into a brown fog. The arris wore, the stripe came back. I recut the top later, on my dime, and I kept the sap off the field. Now I cut it off, or I design with it, or I say no to formal. A rustic edge of sap can be a drawing. A smear in the middle is a smear.
-
-Steamed lots are more even. Unsteamed can be louder. I name which if the customer names things. Fresh walnut is brighter than their piano memory. A year will quiet it. I say that before the truck.
 
 ## Dust on a maple door
 

@@ -2,8 +2,8 @@
 title: "The Slats Come Off Warm"
 slug: the-slats-come-off-warm
 status: draft
-voice_check: human
-word_count: 1277
+voice_check: edited
+word_count: 1234
 dek: "Steam, a strap, a form, and the springback you either designed for or you chase with a clamp that will not live in the house."
 series: furniture-craft
 topic: materials
@@ -76,8 +76,6 @@ A slat that felt dry on the outside and wet in the core moved after I mortised i
 ## Lamination as the adult answer
 
 Thin strips, glue, a form, no steam: a curve that stays closer to the drawing. I show the lines if the customer cares about theology. Most care about the arm. A designer who specified steam gets a sample of a break and a sample of a lamination when the wood will not take the solid bend. The break is persuasive.
-
-Short grain on a sawn curve is a weak spot you can point to. A bent slat keeps the fibers running around the corner. That is why we bother, when we bother.
 
 ## Why a shop in this climate still bothers
 

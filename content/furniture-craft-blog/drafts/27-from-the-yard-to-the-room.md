@@ -2,8 +2,8 @@
 title: "From the Yard to the Room"
 slug: from-the-yard-to-the-room
 status: draft
-voice_check: human
-word_count: 1286
+voice_check: edited
+word_count: 1207
 dek: "Kiln sticks, a truck, a mill town that cut hardwood before it built dining tables: the continuum is place and practice, not a corporate bloodline."
 series: furniture-craft
 topic: materials
@@ -73,13 +73,11 @@ If a family employment path into the old plants is confirmed, that is a differen
 
 I cooked a finish in a closed truck that became a kiln I did not schedule. I do not again. Acclimate, mill, join, finish both faces, ship without undoing the kiln. A pretty cathedral at the wrong moisture is a table that moves after it is paid for. I meter. I do not trust the stamp alone.
 
-I will not put “since 1901” on an invoice as if the LLC poured the mill foundation. I will say: built in this county, in this county’s hardwood habit. The 1901 date is a neighbor in the facts. The delivery ticket is the meter and the room.
-
 ## The yard test
 
 I walk a stack the way a mill buyer walks a stack. Twist, cup, a board that was too close to the bark, a board that wants to be a sled. I think about the room. A wild cathedral can be a panel in a frame. It should not be a 42-inch glued top unless we have designed the movement. A quiet rift board can be a stile. A flecked quarter can be the top that earns the heritage footnote without a speech.
 
-Then the shop: acclimate, mill, join, finish both faces, ship in a way that does not undo the kiln. A closed truck in August is a kiln you did not schedule. I have cooked a finish that way. I do not again.
+Then the shop: acclimate, mill, join, finish both faces, ship in a way that does not undo the kiln.
 
 The room is the last mill. Heat, sun, a humidifier or none, a glass that sweats. The piece has to arrive as wood that already learned this county’s air, or it will learn it in front of the customer. I would rather the learning happen on the sticks, in the yard, with a meter in my hand, than on a dining night in June.
 

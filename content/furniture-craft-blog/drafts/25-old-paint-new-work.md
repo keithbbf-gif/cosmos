@@ -2,8 +2,8 @@
 title: "Old Paint, New Work"
 slug: old-paint-new-work
 status: draft
-voice_check: human
-word_count: 1258
+voice_check: edited
+word_count: 1057
 dek: "Milk paint, limey and flat, and the difference between a finish that wants to wear and a distressing kit that wants to look like it already did."
 series: furniture-craft
 topic: finish
@@ -77,9 +77,3 @@ Milk paint on a sealed door without a binder is a sunburn waiting. I scuff, I us
 A chip from shipping: I touch in. A chip from a year of a boot: I ask. Sometimes they want it touched. Sometimes they have already decided the piece is theirs. The second call is the one I like.
 
 I do not sell milk paint as indestructible. I sell it as a color that belongs to wood and lime and a room, and as a finish that will tell the truth about hands. If they need indestructible, we are in conversion varnish and a different essay, and I will not put a farmhouse word on that door.
-
-A painted poplar cupboard is not a lesser cupboard. It is a cupboard that chose color instead of a walnut lie. Millwork already knows painted doors and stained doors are different shops. Furniture pretends otherwise because the tag likes a species. I would rather say painted, and mean the limey flat, and let a year of hands write the only distressing I will sign.
-
-Oil or wax over milk paint deepens the color and makes it wipeable. A hard film can make it look like a photograph of a farmhouse. I stop before photograph. A chip from shipping I touch in. A chip from a year of a boot I ask about. Sometimes they have already decided the piece is theirs. That is the call I like.
-
-The old colors — iron red, ochre, lamp black, a blue that is never quite the catalog — sit on the wood. They do not become the wood. A little grain telegraph on a cupboard I like. A perfect field that was sold as a perfect field I do not like if the coat is a sheet waiting to chip. Two thin coats. I mix, I wait, I stir again.

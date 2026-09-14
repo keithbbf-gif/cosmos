@@ -2,8 +2,8 @@
 title: "What the Cloth Leaves Behind"
 slug: what-the-cloth-leaves-behind
 status: draft
-voice_check: human
-word_count: 1331
+voice_check: edited
+word_count: 1319
 dek: "Oil, varnish, the film that sits on top and the film that lives in the fibers: a finish is a use, a climate, and a repair plan, not a moral category."
 series: furniture-craft
 topic: finish
@@ -47,7 +47,7 @@ Hardwax oils are a fashion that sometimes earns it: a thin film, a repair story,
 
 A film is a plastic, in the old sense: a formable coat. Varnish (alkyd, polyurethane, spar) cures into a sheet. Lacquer flashes and builds fast and is still a shop standard in many places. Conversion finishes and 2K waterbornes are how a lot of kitchens stay kitchens. They need air, they need a booth or a discipline that is close to a booth, they need a person who reads the data sheet.
 
-A film fails by cracking, by blushing, by not sticking to a oily contaminant, by being too hard on a wood that moves and then checking. A film fails by being too thin on the edges and too thick in the panels. The edges are where hands live.
+A film fails by cracking, by blushing, by not sticking to an oily contaminant, by being too hard on a wood that moves and then checking. A film fails by being too thin on the edges and too thick in the panels. The edges are where hands live.
 
 I like a satin film on a dining table more than a mirror. The mirror shows every pad mark and every crumb. The satin shows the wood and still wipes. Rubbing out a film — pumice, rottenstone, or the modern pads — is how you get a level, even sheen that the gun did not quite give you. That is a separate day’s work and worth it on a piece that will be stared at.
 

@@ -2,8 +2,8 @@
 title: "Color Without a Lie"
 slug: color-without-a-lie
 status: draft
-voice_check: human
-word_count: 1266
+voice_check: edited
+word_count: 1183
 dek: "Stain is a tool. It is also how a good board becomes a brown photograph of a board. The sample in the customer’s light is the only honest argument."
 series: furniture-craft
 topic: finish
@@ -78,7 +78,7 @@ Lap marks: I stopped in the middle of a panel to take a call. The river is still
 
 They picked the warm sample under the fluorescent. Overnight in their dining room they picked the duller one. I had left both. The night did the work. I do not do color on a phone in a parking lot. I have tried. The piece arrived as a different brown than the one they remembered, which was the phone’s brown.
 
-Glaze in the corners of a raise can quiet a wild panel. It can also make a cupboard look unwashed. I wipe, I step back, I stop. Stopping is the only hard part of glaze.
+Glaze in the corners of a raised panel can quiet a wild field. It can also make a cupboard look unwashed. I wipe, I step back, I stop. Stopping is the only hard part of glaze.
 
 ## The lie I will not print
 
@@ -87,5 +87,3 @@ Glaze in the corners of a raise can quiet a wild panel. It can also make a cupbo
 If the boards do not belong together, color will not make them family. It will make them a group in the same shirt.
 
 I leave the sample with the customer for a night. In the morning they have a different favorite, or the same one, and I can work. The night is part of the finish. So is the west window. So is the refusal to brown a board that only needed a better friend in the glue-up.
-
-A toner sprayed light can save a match. A toner sprayed heavy looks like plastic. I do not pretend a hand-wiped pigment is holier than a good toner. I pretend less. Southern noon will turn a catalog gray into dirty-gray and a night LED will turn it purple. I test here, at the hour they eat, on this lot of oak, with the topcoat on. Wet stain is not the color. The system is.
