@@ -71,6 +71,12 @@ def main() -> int:
 
     appjs = _read("app.js")
     check(
+        "SESSIONS: suite verb dispatch collects required args",
+        "suiteVerbBody" in skit and "runSuiteVerb" in skit,
+        "session_tools POST body",
+    )
+
+    check(
         "SESSIONS: Recents GET + OPENED card + explicit empty (app.js)",
         "paintRecentsTab" in appjs
         and 'apiGet("/api/v1/recents")' in appjs
@@ -93,12 +99,21 @@ def main() -> int:
     )
 
     check(
-        "SESSIONS: ROLLED timeline when Core serves /api/v1/rolled",
+        "SESSIONS: ROLLED timeline COSMOS_ROLLED_FEED + GET /api/v1/rolled",
         'apiGet("/api/v1/rolled")' in skit
         and "rolled-event/1" in skit
-        and "ROLLED.md not present" in skit
+        and "COSMOS_ROLLED_FEED" in skit
         and "paintRolledTimeline" in skit,
         "rolled timeline",
+    )
+
+    check(
+        "SESSIONS: ROLLED parseRolledFeeds orders (t, seq) + UNRESOLVED ref",
+        "parseRolledFeeds" in skit
+        and "parseRolledEventLine" in skit
+        and "UNRESOLVED" in skit
+        and "suiteVerbBody" in skit,
+        "timeline parse + suite args",
     )
 
     css = _read("app.css")

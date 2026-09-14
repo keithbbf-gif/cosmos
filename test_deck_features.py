@@ -51,10 +51,11 @@ def main() -> int:
         "/api/v1/session_kit" in skit and "/api/v1/session_tools" in skit,
     )
     check(
-        "ROLLED: timeline fetch + explicit NO_SOURCE copy",
+        "ROLLED: timeline fetch + explicit empty copy",
         'apiGet("/api/v1/rolled")' in skit
-        and "ROLLED.md not present" in skit
-        and "no rolled-event/1 lines" in skit,
+        and "COSMOS_ROLLED_FEED" in skit
+        and "explicit empty" in skit
+        and "parseRolledFeeds" in skit,
     )
     check(
         "ROLLED: no GET poll loop on session_tools or rolled",

@@ -45,10 +45,59 @@
     });
   }
 
+  function suiteVerbBody(verb) {
+    var body = { verb: verb };
+    if (verb === "scan") {
+      var store = window.prompt("scan: store path (optional, Enter to skip)", "");
+      if (store) body.store = store;
+      var fam = window.prompt("scan: family (optional, Enter to skip)", "");
+      if (fam) body.families = [fam];
+      return body;
+    }
+    if (verb === "load") {
+      body.id = window.prompt("load: session id (required)", "") || "";
+      body.store = window.prompt("load: store path (required)", "") || "";
+      if (!body.id || !body.store) return null;
+      return body;
+    }
+    if (verb === "convert" || verb === "anonymize") {
+      body.id = window.prompt(verb + ": session id (required)", "") || "";
+      body.store = window.prompt(verb + ": store path (required)", "") || "";
+      body.out_dir = window.prompt(verb + ": out_dir (required)", "") || "";
+      if (!body.id || !body.store || !body.out_dir) return null;
+      return body;
+    }
+    if (verb === "diff") {
+      body.left = window.prompt("diff: left path (required)", "") || "";
+      body.right = window.prompt("diff: right path (required)", "") || "";
+      if (!body.left || !body.right) return null;
+      return body;
+    }
+    if (verb === "check") {
+      body.path = window.prompt("check: path or store (required)", "") || "";
+      if (!body.path) return null;
+      body.what = window.prompt("check: what (default catalog)", "catalog") || "catalog";
+      return body;
+    }
+    if (verb === "crash-recover") {
+      body.target = window.prompt("crash-recover: target path (required)", "") || "";
+      if (!body.target) return null;
+      var bak = window.prompt("crash-recover: bak path (optional)", "");
+      if (bak) body.bak = bak;
+      return body;
+    }
+    return body;
+  }
+
   function runSuiteVerb(verb, sayEl) {
     if (!verb) return;
+    var body = suiteVerbBody(verb);
+    if (!body) {
+      if (sayEl) sayEl.textContent = "Cancelled — " + verb + " requires arguments.";
+      return;
+    }
     if (sayEl) sayEl.textContent = "POST /api/v1/session_tools verb=" + verb + " …";
-    apiPost("/api/v1/session_tools", { verb: verb }).then(function (rec) {
+    apiPost("/api/v1/session_tools", body).then(function (rec) {
       if (sayEl) sayEl.textContent = JSON.stringify(rec, null, 2);
     }).catch(function (e) {
       if (sayEl) sayEl.textContent = String((e && e.message) || e);
@@ -132,21 +181,71 @@
     return "dim";
   }
 
-  /* ROLLED milestone timeline — one GET when Core serves /api/v1/rolled (no poll). */
+  /* Server marks missing path refs UNRESOLVED; client parseRolledFeeds sorts by (t, seq). */
+  var ROLLED_EVENT_SCHEMA = "rolled-event/1";
+
+  function parseRolledEventLine(line, autoSeq) {
+    var stripped = String(line || "").trim();
+    if (stripped.indexOf(ROLLED_EVENT_SCHEMA) !== 0) return null;
+    var body = stripped.slice(ROLLED_EVENT_SCHEMA.length).trim();
+    var parts = body.split("|").map(function (p) { return p.trim(); });
+    if (parts.length < 4) return null;
+    var seq = autoSeq;
+    if (parts.length > 5 && parts[5] !== "") {
+      var n = parseInt(parts[5], 10);
+      if (!isNaN(n)) seq = n;
+    }
+    var ref = parts.length > 4 ? parts[4] : "";
+    return {
+      t: parts[0] || "",
+      seat: parts[1] || "",
+      kind: parts[2] || "",
+      title: parts[3] || "",
+      ref: ref,
+      seq: seq
+    };
+  }
+
+  function parseRolledFeeds(feeds) {
+    var events = [];
+    var autoSeq = 0;
+    (feeds || []).forEach(function (fd) {
+      var text = fd && fd.text != null ? String(fd.text) : "";
+      text.split(/\r?\n/).forEach(function (line) {
+        autoSeq += 1;
+        var ev = parseRolledEventLine(line, autoSeq);
+        if (ev) events.push(ev);
+      });
+    });
+    events.sort(function (a, b) {
+      var ta = String(a.t || "");
+      var tb = String(b.t || "");
+      if (ta !== tb) return ta < tb ? -1 : 1;
+      return (a.seq || 0) - (b.seq || 0);
+    });
+    return events;
+  }
+
   function paintRolledTimeline(host) {
     if (!host) return;
     host.textContent = "GET /api/v1/rolled …";
     apiGet("/api/v1/rolled").then(function (d) {
       d = d || {};
-      var events = Array.isArray(d.events) ? d.events : [];
+      var feeds = Array.isArray(d.feeds) ? d.feeds : [];
+      var events = [];
+      if (Array.isArray(d.events) && d.events.length) {
+        events = d.events;
+      } else if (feeds.length) {
+        events = parseRolledFeeds(feeds);
+      }
       var available = !!d.available;
       var kind = String(d.kind || "");
       if (!available || events.length === 0) {
         var why = !available
           ? (kind === "NO_SOURCE"
-              ? "ROLLED.md not present — no milestones recorded yet"
-              : "ROLLED.md unavailable (" + kind + ")")
-          : "ROLLED.md present but contains no rolled-event/1 lines"; /* schema rolled-event/1 */
+              ? "COSMOS_ROLLED_FEED / ROLLED.md not present — explicit empty"
+              : "ROLLED feed unavailable (" + esc(kind) + ")")
+          : "ROLLED feed present but no rolled-event/1 lines — explicit empty";
         host.innerHTML = '<div class="tl-empty">' + esc(why) + "</div>";
         return;
       }
