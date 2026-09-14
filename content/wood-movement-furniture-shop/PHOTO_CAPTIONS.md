@@ -15,6 +15,17 @@ Prefer Keith's library: `D:\BBF\BBF Photos`. If a Commons plate
 is used later, it needs a live URL, a license, and a caption
 that teaches — not a keyword stack.
 
+## Original SVG diagrams (in repo)
+
+| File | Drafts | SEO id |
+| --- | --- | --- |
+| `images/svg/emc-rh-equilibrium-70f.svg` | 09 | `diagram-emc-70f` |
+| `images/svg/breadboard-end-seasonal-movement.svg` | 27 (also 02) | `diagram-breadboard-seasonal` |
+| `images/svg/dimensional-change-delta-mc-formula.svg` | 11 (also 26, 50) | `diagram-delta-mc-formula` |
+
+Alt text, WordPress filenames, and schema copy: [`FIGURE_SEO.md`](FIGURE_SEO.md).
+License: [`RIGHTS.md`](RIGHTS.md).
+
 ## Preferred BBF shop fills (not in repo)
 
 | Slot | Drafts | Path hint | Status |
@@ -38,6 +49,8 @@ that teaches — not a keyword stack.
 - A diagram, if drawn later, should show rings, grain
   direction, and the arrow of movement — not a decorative
   oak leaf.
+- In-repo SVGs meet that bar; do not replace them with
+  decorative clip art.
 - Do not substitute stock interiors of staged living rooms
   for shop proof.
 
@@ -46,3 +59,6 @@ that teaches — not a keyword stack.
 Owner clearance required on BBF library files before public
 use. Do not commit binary photos in this pack until rights
 are written down.
+
+Original SVG diagrams: see [`RIGHTS.md`](RIGHTS.md). SEO fields:
+[`FIGURE_SEO.md`](FIGURE_SEO.md).

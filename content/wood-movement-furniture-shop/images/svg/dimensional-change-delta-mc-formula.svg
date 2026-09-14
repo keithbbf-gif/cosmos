@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">Wood movement formula - width times coefficient times change in moisture content</title>
+  <desc id="desc">Dimensional change equals panel width in inches times Wood Handbook coefficient times delta MC in percentage points. Worked example for flatsawn red oak 11.25 inches wide and four points moisture change yields about five thirty-seconds inch travel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3eb"/>
+      <stop offset="100%" stop-color="#ebe4d6"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3d3429"/>
+    </marker>
+  </defs>
+  <rect width="720" height="500" fill="url(#bg)"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#2c2416">Scrap-paper dimensional change</text>
+  <rect x="60" y="56" width="600" height="72" fill="#fff" stroke="#3d3429" stroke-width="2" rx="6"/>
+  <text x="360" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2c2416">Delta width approx width x coefficient x Delta MC</text>
+  <text x="360" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#5c5346">width in inches; coefficient from Handbook (tangential / radial); Delta MC in points (11 - 7 = 4)</text>
+  <g font-family="system-ui, sans-serif" fill="#2c2416">
+    <text x="60" y="168" font-size="15" font-weight="600">Example - flatsawn red oak panel in a frame</text>
+    <text x="80" y="198" font-size="14">width = 11.25 in</text>
+    <text x="80" y="222" font-size="14">coefficient (tangential) = 0.00369</text>
+    <text x="80" y="246" font-size="14">Delta MC = 4 points (wet shop to dry house, or reverse)</text>
+    <rect x="80" y="262" width="420" height="36" fill="#f0ebe0" stroke="#8b6914" stroke-width="1" rx="4"/>
+    <text x="100" y="286" font-size="16" font-family="Georgia, serif">11.25 x 0.00369 x 4 approx 0.166 in (approx 5/32 in)</text>
+  </g>
+  <g transform="translate(60, 320)">
+    <text x="0" y="-8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2c2416">Groove must budget both sides + mercy</text>
+    <rect x="0" y="20" width="48" height="120" fill="#a08050" stroke="#3d3429" stroke-width="1.5"/>
+    <rect x="520" y="20" width="48" height="120" fill="#a08050" stroke="#3d3429" stroke-width="1.5"/>
+    <text x="24" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5c5346">stile</text>
+    <text x="544" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5c5346">stile</text>
+    <rect x="48" y="36" width="472" height="8" fill="#6b5344"/>
+    <rect x="48" y="116" width="472" height="8" fill="#6b5344"/>
+    <rect x="72" y="48" width="424" height="64" fill="#d4c4a8" stroke="#1a5f4a" stroke-width="2" rx="2"/>
+    <text x="284" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2c2416">panel at high MC</text>
+    <rect x="96" y="52" width="376" height="56" fill="none" stroke="#8b3a2a" stroke-width="2" stroke-dasharray="6 4" rx="2"/>
+    <text x="284" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#8b3a2a">at low MC (dashed)</text>
+    <path d="M 72,140 L 52,140" stroke="#3d3429" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <path d="M 496,140 L 516,140" stroke="#3d3429" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="284" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#3d3429">approx Delta width each way (split travel + mercy in groove)</text>
+  </g>
+  <text x="360" y="488" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7a6f5f">Coefficients valid ~6-14% MC band. Verify Handbook edition. Do not use green-to-ovendry as Delta MC for kiln-dried stock.</text>
+</svg>

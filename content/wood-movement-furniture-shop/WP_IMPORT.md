@@ -14,6 +14,9 @@ Import every numbered draft as a **draft** post only.
 - Series slug: `wood-movement-furniture-shop`.
 - Stage order is the reading order (01–50).
 
-Photographs are `status: needed` in this writer pack. Do not
-publish with empty figure slots unless an images lane has
-filled them and `RIGHTS` is written down.
+Photographs are `status: needed` in this writer pack unless
+noted. Three teaching diagrams are in `images/svg/` with
+`status: ready` in drafts 09, 11, and 27 — import with alt
+text from `FIGURE_SEO.md` and confirm `RIGHTS.md` before
+publish. Do not publish with empty **photo** slots unless an
+images lane has filled them and rights are written down.

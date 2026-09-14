@@ -15,6 +15,14 @@ word_count: 760
 dek: "Width times coefficient times the moisture change. That is the gap. Everything else is a proverb."
 meta_description: "Dimensional change ≈ width × handbook coefficient × ΔMC. Work it on a scrap before you size a groove, a slot, or a breadboard pin."
 figures:
+  - id: fig-diagram-delta-mc
+    file: images/svg/dimensional-change-delta-mc-formula.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-delta-mc-formula)"
+    caption: "The groove is not a feeling. It is width × coefficient × ΔMC, split across both sides, plus a little mercy."
+    alt: "Formula for wood dimensional change delta width equals width times handbook coefficient times change in moisture content, with red oak panel example about five thirty-seconds inch"
+    credit: "Original diagram — wood-movement-furniture-shop pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — pencil math on a pine scrap, oak panel behind"
     caption: "The groove is not a feeling. It is this product, plus a little mercy."
@@ -38,6 +46,10 @@ Width in inches. Coefficient from the Wood Handbook
 (tangential for flatsawn face, radial for quartersawn).
 Change in MC in percentage points — 11 minus 7 is 4, not
 "a lot."
+
+![Formula for wood dimensional change delta width equals width times handbook coefficient times change in moisture content, with red oak panel example about five thirty-seconds inch](images/svg/dimensional-change-delta-mc-formula.svg)
+
+*The groove is not a feeling. It is width × coefficient × ΔMC, split across both sides, plus a little mercy.*
 
 ## One oak panel, done in the open
 

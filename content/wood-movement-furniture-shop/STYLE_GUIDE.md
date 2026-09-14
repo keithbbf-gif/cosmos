@@ -117,6 +117,7 @@ word_count: integer   # body copy only, after last self-edit
 dek: one or two sentences, no slogan
 meta_description: one or two sentences from the lede
 figures: list (id, preferred, caption, credit, license, status)
+  Optional for in-repo art: file, alt (must match FIGURE_SEO.md)
 verify: list of claims still open
 ```
 
@@ -134,6 +135,9 @@ in the draft front matter **and** in `PHOTO_CAPTIONS.md`.
   before anyone embeds them.
 - This writer pack leaves photographs at `status: needed`. An
   images lane can fill them. Do not drop unlicensed stock.
+- Original teaching diagrams live in `images/svg/` with `status:
+  ready`. Register SEO in `FIGURE_SEO.md` and rights in
+  `RIGHTS.md` before any public publish.
 
 ## WordPress
 

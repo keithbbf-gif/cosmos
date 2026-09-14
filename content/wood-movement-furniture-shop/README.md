@@ -108,6 +108,8 @@ get `[VERIFY]`. Do not invent a reading.
 See [`MANIFEST.md`](MANIFEST.md) for slugs, stages, and topics.
 House rules: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Sources:
 [`SOURCES.md`](SOURCES.md). Photo slots: [`PHOTO_CAPTIONS.md`](PHOTO_CAPTIONS.md).
+Diagram SEO: [`FIGURE_SEO.md`](FIGURE_SEO.md). Rights:
+[`RIGHTS.md`](RIGHTS.md).
 
 Drafts are numbered so the folder *is* the syllabus.
 

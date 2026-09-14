@@ -15,6 +15,14 @@ word_count: 732
 dek: "Glue the middle. Slot the ends. Finish the field's end grain. Anything else is a splitter with a traditional name."
 meta_description: "A working breadboard is a long-grain cap on a live-width field. Center glue and elongated pins let the field shrink without splitting the tenon."
 figures:
+  - id: fig-diagram-breadboard
+    file: images/svg/breadboard-end-seasonal-movement.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-breadboard-seasonal)"
+    caption: "The cap stays on length; the field still changes width. Glue the center, slot the outer pins, size travel from ΔMC on the scrap."
+    alt: "Plan view of table breadboard end cap with center glue and slotted pins while the field panel grows wider in humid summer and narrower in dry winter"
+    credit: "Original diagram — wood-movement-furniture-shop pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — underside or end of a breadboard, elongated pin holes visible"
     caption: "The outer pins have somewhere to walk. The center keeps the cap on the centerline."
@@ -33,6 +41,10 @@ are trouble. Breadboards are trouble
 when they are asked to be clamps. They
 are quiet when they are asked to be
 caps.
+
+![Plan view of table breadboard end cap with center glue and slotted pins while the field panel grows wider in humid summer and narrower in dry winter](images/svg/breadboard-end-seasonal-movement.svg)
+
+*The cap stays on length; the field still changes width. Glue the center, slot the outer pins, size travel from ΔMC on the scrap.*
 
 ## The job, again
 

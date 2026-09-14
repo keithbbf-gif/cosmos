@@ -15,6 +15,14 @@ word_count: 677
 dek: "The board is not chasing yesterday's rain. It is settling toward a moisture content the air will allow. That number has a name."
 meta_description: "Equilibrium moisture content is the moisture the wood is headed for in a given relative humidity and temperature. The shop hygrometer is a forecast for the rack."
 figures:
+  - id: fig-diagram-emc
+    file: images/svg/emc-rh-equilibrium-70f.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-emc-70f)"
+    caption: "At shop temperature, relative humidity sets the moisture content the board is headed for — verify Handbook cells before you bet a rack on one number."
+    alt: "Chart of equilibrium moisture content EMC versus relative humidity at 70 degrees F for furniture wood drying in the shop"
+    credit: "Original diagram — wood-movement-furniture-shop pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — hygrometer beside a stickered rack"
     caption: "The wall number is the weather the boards will become, if you give them time."
@@ -43,6 +51,10 @@ hold, because temperature slides the rows:
 At about 70°F, 30 percent RH sits near 6.2 percent EMC.
 40 percent RH near 7.7. 50 percent near 9.2. 60 percent
 near 11. 70 percent near 13.1. 80 percent near 16.
+
+![Chart of equilibrium moisture content EMC versus relative humidity at 70 degrees F for furniture wood drying in the shop](images/svg/emc-rh-equilibrium-70f.svg)
+
+*At shop temperature, relative humidity sets the moisture content the board is headed for — verify Handbook cells before you bet a rack on one number.*
 
 A furniture shop that holds 40 to 50 percent RH is asking
 the rack to live around 8 to 9 percent moisture. A house
