@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "The creatine research landscape in one map. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-05-literature-provinces-map.svg"
+graphic_kind: "map"
+last_verified: "2026-09-14"
 ---
 
 # CRL-01 — The creatine research landscape in one map
@@ -22,6 +26,21 @@ audience: adult learners of exercise physiology and research methods
   and a heavily studied oral powder in exercise physiology.
 - See why "the creatine literature" is not one literature.
 - Know which stage of this series answers which kind of question.
+
+
+<figure class="crl-figure crl-figure--map">
+  <img
+    src="graphics/fig-05-literature-provinces-map.svg"
+    alt="Six labeled provinces: chemistry, distribution, measurement, feeding protocols as methods, exercise tasks, and product statute."
+    width="1200"
+    height="600"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 5</strong> — Provinces of the published map (methods geography, not a shop shelf).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## Three files, not one slogan
 

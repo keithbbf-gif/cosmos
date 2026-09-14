@@ -40,10 +40,17 @@ or prevents any disease.
 - `verify_landscape.py` checks draft count, required sections, and a banned-claim
   phrase list. It does not certify scientific completeness.
 
+## Graphics and figure SEO
+
+Original timeline and pathway SVGs live under `graphics/`; embed snippets in
+`embeds/figure-blocks.md`. Policy: no dosing charts as advice — see
+[GRAPHICS_POLICY.md](GRAPHICS_POLICY.md) and [GRAPHICS_INDEX.md](GRAPHICS_INDEX.md).
+
 ## Manifest and verification
 
 - [MANIFEST.toml](MANIFEST.toml) — machine-readable index
 - [verify_landscape.py](verify_landscape.py) — `python3 verify_landscape.py`
+- [tools/check_graphics.py](tools/check_graphics.py) — figure SEO and asset tripwire
 
 ## Provenance
 

@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "What human trials actually put in the bottle. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "assets/_shared/series-featured.svg"
+graphic_kind: "essay"
+last_verified: "2026-09-14"
 ---
 
 # CRL-18 — What human trials actually put in the bottle

@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "Annotated timeline of landmark papers. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-01-landmark-timeline.svg"
+graphic_kind: "timeline"
+last_verified: "2026-09-14"
 ---
 
 # CRL-49 — Annotated timeline of landmark papers
@@ -22,6 +26,21 @@ audience: adult learners of exercise physiology and research methods
   hinge, and the schedule fork.
 - See later documents as secondary until they earn a new assay.
 - Use the timeline as a reading order, not as a worship order.
+
+
+<figure class="crl-figure crl-figure--timeline">
+  <img
+    src="graphics/fig-01-landmark-timeline.svg"
+    alt="Timeline from 1832 Chevreul isolation through 1990s biopsy hinge papers to later reviews and position stands; dates name publications, not personal protocols."
+    width="1200"
+    height="560"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 1</strong> — Selected landmark dates in the creatine research file (not a dosing guide).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## Before the oral file
 

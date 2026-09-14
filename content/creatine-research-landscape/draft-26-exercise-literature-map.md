@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "A map of the exercise literature by task, not by slogan. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-06-exercise-task-spectrum.svg"
+graphic_kind: "map"
+last_verified: "2026-09-14"
 ---
 
 # CRL-26 — A map of the exercise literature by task, not by slogan
@@ -22,6 +26,21 @@ audience: adult learners of exercise physiology and research methods
 - Predict, before opening the results, where a phosphagen story is
   even eligible.
 - Resist one-diamond summaries of unlike tasks.
+
+
+<figure class="crl-figure crl-figure--map">
+  <img
+    src="graphics/fig-06-exercise-task-spectrum.svg"
+    alt="Horizontal spectrum from seconds-long high-intensity tasks toward steady endurance work, marking where phosphagen-limited designs cluster."
+    width="1200"
+    height="500"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 6</strong> — Task duration vs metabolic bottleneck (why forests should not mix sprints and rides).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## The eligible neighborhood
 

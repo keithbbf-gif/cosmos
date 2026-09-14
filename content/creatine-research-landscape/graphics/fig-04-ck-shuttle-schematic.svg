@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="f4-title f4-desc">
+  <title id="f4-title">Fig. 4  Creatine kinase shuttle hypothesis (schematic)</title>
+  <desc id="f4-desc">Mitochondrial creatine kinase forms phosphocreatine at the outer mitochondrial compartment; phosphocreatine diffuses to cytosolic creatine kinase at ATP-using sites; creatine diffuses back. A spatial hypothesis, not proof from an oral trial.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f3f6f9; }
+      .ink { fill: #152028; font-family: Georgia, serif; }
+      .muted { fill: #4a5560; font-family: Georgia, serif; font-size: 12px; }
+      .caps { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; }
+      .mito { fill: #e8dcc8; stroke: #6b5a48; stroke-width: 1.5; }
+      .myo { fill: #dce8f4; stroke: #1e5a8a; stroke-width: 1.5; }
+      .flow { stroke: #1e5a8a; stroke-width: 2; fill: none; marker-end: url(#arr); }
+      .flow2 { stroke: #6b5a48; stroke-width: 2; fill: none; marker-end: url(#arr2); }
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1e5a8a"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#6b5a48"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#1e5a8a"/>
+  <text x="48" y="42" class="ink caps">Fig. 04</text>
+  <text x="48" y="72" class="ink" font-size="24" font-weight="bold">PCr shuttle (working hypothesis)</text>
+  <text x="48" y="98" class="muted">Wallimann compartmentation vocabulary  feeding trials do not prove the shuttle.</text>
+
+  <ellipse cx="280" cy="280" rx="160" ry="100" class="mito"/>
+  <text x="280" y="260" class="ink" text-anchor="middle" font-size="14" font-weight="bold">Mitochondrion</text>
+  <text x="280" y="282" class="muted" text-anchor="middle">mito-CK -> PCr</text>
+  <text x="280" y="300" class="muted" text-anchor="middle">at outer compartment</text>
+
+  <rect x="720" y="180" width="280" height="200" class="myo" rx="8"/>
+  <text x="860" y="220" class="ink" text-anchor="middle" font-size="14" font-weight="bold">Myofibril / ATP use</text>
+  <text x="860" y="244" class="muted" text-anchor="middle">cytosolic CK</text>
+  <text x="860" y="264" class="muted" text-anchor="middle">PCr -> ATP buffer</text>
+
+  <path d="M 440 250 Q 580 200 720 240" class="flow"/>
+  <text x="580" y="190" class="muted" text-anchor="middle">PCr diffusion</text>
+
+  <path d="M 720 340 Q 580 390 440 310" class="flow2"/>
+  <text x="580" y="410" class="muted" text-anchor="middle">Creatine return</text>
+
+  <text x="48" y="460" class="muted" font-size="11">Picture 1 (buffer) vs Picture 2 (shuttle)  CRL-13. Educational landscape only.</text>
+</svg>

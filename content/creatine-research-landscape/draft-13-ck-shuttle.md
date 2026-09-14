@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "The creatine kinase shuttle as a working hypothesis. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-04-ck-shuttle-schematic.svg"
+graphic_kind: "pathway"
+last_verified: "2026-09-14"
 ---
 
 # CRL-13 — The creatine kinase shuttle as a working hypothesis
@@ -22,6 +26,21 @@ audience: adult learners of exercise physiology and research methods
 - Separate "CK is near-equilibrium in the cytosol" from "PCr is a
   courier between mitochondria and myofibrils."
 - Know why a feeding trial does not prove the shuttle.
+
+
+<figure class="crl-figure crl-figure--pathway">
+  <img
+    src="graphics/fig-04-ck-shuttle-schematic.svg"
+    alt="Schematic of mitochondrial creatine kinase rebuilding phosphocreatine, phosphocreatine diffusing to cytosolic sites of ATP use, and creatine returning."
+    width="1200"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 4</strong> — Spatial PCr shuttle as a working hypothesis (Wallimann vocabulary).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## Two pictures that get blended
 

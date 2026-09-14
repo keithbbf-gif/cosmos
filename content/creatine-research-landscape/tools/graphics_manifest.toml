@@ -1,0 +1,37 @@
+# Anchor drafts with in-body figure embeds (creatine research landscape)
+
+[[anchor]]
+draft = "draft-01-series-map.md"
+figure = "graphics/fig-05-literature-provinces-map.svg"
+graphic_kind = "map"
+embed = "fig-05"
+
+[[anchor]]
+draft = "draft-06-endogenous-synthesis.md"
+figure = "graphics/fig-02-endogenous-synthesis-pathway.svg"
+graphic_kind = "pathway"
+embed = "fig-02"
+
+[[anchor]]
+draft = "draft-10-phosphagen-and-ck.md"
+figure = "graphics/fig-03-phosphagen-ck-reaction.svg"
+graphic_kind = "reaction"
+embed = "fig-03"
+
+[[anchor]]
+draft = "draft-13-ck-shuttle.md"
+figure = "graphics/fig-04-ck-shuttle-schematic.svg"
+graphic_kind = "pathway"
+embed = "fig-04"
+
+[[anchor]]
+draft = "draft-26-exercise-literature-map.md"
+figure = "graphics/fig-06-exercise-task-spectrum.svg"
+graphic_kind = "map"
+embed = "fig-06"
+
+[[anchor]]
+draft = "draft-49-landmark-timeline.md"
+figure = "graphics/fig-01-landmark-timeline.svg"
+graphic_kind = "timeline"
+embed = "fig-01"

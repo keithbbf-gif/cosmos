@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="f1-title f1-desc">
+  <title id="f1-title">Fig. 1  Selected landmark dates in creatine research</title>
+  <desc id="f1-desc">Horizontal timeline from 1832 isolation through twentieth-century phosphagen biochemistry, the 1992 biopsy hinge, 1990s exercise metabolism papers, brain MRS, and later reviews. Dates name publications and methods, not personal supplement schedules.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f3f6f9; }
+      .ink { fill: #152028; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #4a5560; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: bold; fill: #1e5a8a; }
+      .band-chem { fill: #d9e4ef; }
+      .band-method { fill: #e2dfd4; }
+      .band-hinge { fill: #dce8dc; }
+      .band-expand { fill: #e8dce8; }
+      .rule { stroke: #152028; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #152028; stroke-width: 1; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#152028"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="560"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#1e5a8a"/>
+  <text x="48" y="42" class="ink caps">Fig. 01</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Landmark papers on a timeline</text>
+  <text x="48" y="98" class="muted note">Selected milestones  not exhaustive. Years name chemistry, assays, or publications; they are not dosing advice.</text>
+  <line x1="48" y1="118" x2="1152" y2="118" class="rule" stroke-width="0.6" opacity="0.35"/>
+
+  <rect x="60" y="132" width="300" height="34" class="band-chem" rx="2"/>
+  <text x="70" y="154" class="muted caps" font-size="10">Chemistry &amp; early muscle science</text>
+  <rect x="370" y="132" width="280" height="34" class="band-method" rx="2"/>
+  <text x="380" y="154" class="muted caps" font-size="10">Measurement methods</text>
+  <rect x="660" y="132" width="240" height="34" class="band-hinge" rx="2"/>
+  <text x="670" y="154" class="muted caps" font-size="10">1990s oral + biopsy hinge</text>
+  <rect x="910" y="132" width="250" height="34" class="band-expand" rx="2"/>
+  <text x="920" y="154" class="muted caps" font-size="10">Expansion &amp; secondary lit</text>
+
+  <line x1="72" y1="300" x2="1128" y2="300" class="rule" marker-end="url(#arrow)"/>
+  <text x="72" y="286" class="muted caps">Time</text>
+
+  <line x1="100" y1="292" x2="100" y2="308" class="tick"/>
+  <text x="100" y="328" class="year" text-anchor="middle">1832</text>
+  <text x="100" y="348" class="muted note" text-anchor="middle">Chevreul</text>
+  <text x="100" y="364" class="muted note" text-anchor="middle">isolation</text>
+
+  <line x1="220" y1="292" x2="220" y2="308" class="tick"/>
+  <text x="220" y="328" class="year" text-anchor="middle">~1900</text>
+  <text x="220" y="348" class="muted note" text-anchor="middle">Phosphagens</text>
+  <text x="220" y="364" class="muted note" text-anchor="middle">&amp; CK</text>
+
+  <line x1="360" y1="292" x2="360" y2="308" class="tick"/>
+  <text x="360" y="328" class="year" text-anchor="middle">1962</text>
+  <text x="360" y="348" class="muted note" text-anchor="middle">Bergstrom</text>
+  <text x="360" y="364" class="muted note" text-anchor="middle">biopsy</text>
+
+  <line x1="500" y1="292" x2="500" y2="308" class="tick"/>
+  <text x="500" y="328" class="year" text-anchor="middle">1979</text>
+  <text x="500" y="348" class="muted note" text-anchor="middle">Walker</text>
+  <text x="500" y="364" class="muted note" text-anchor="middle">synthesis review</text>
+
+  <line x1="640" y1="292" x2="640" y2="308" class="tick"/>
+  <text x="640" y="328" class="year" text-anchor="middle">1992</text>
+  <text x="640" y="348" class="muted note" text-anchor="middle">Harris et al.</text>
+  <text x="640" y="364" class="muted note" text-anchor="middle">muscle TCr</text>
+
+  <line x1="760" y1="292" x2="760" y2="308" class="tick"/>
+  <text x="760" y="328" class="year" text-anchor="middle">199496</text>
+  <text x="760" y="348" class="muted note" text-anchor="middle">Greenhaff</text>
+  <text x="760" y="364" class="muted note" text-anchor="middle">Hultman arms</text>
+
+  <line x1="900" y1="292" x2="900" y2="308" class="tick"/>
+  <text x="900" y="328" class="year" text-anchor="middle">2000</text>
+  <text x="900" y="348" class="muted note" text-anchor="middle">Wyss review</text>
+  <text x="900" y="364" class="muted note" text-anchor="middle">metabolism</text>
+
+  <line x1="1040" y1="292" x2="1040" y2="308" class="tick"/>
+  <text x="1040" y="328" class="year" text-anchor="middle">2007+</text>
+  <text x="1040" y="348" class="muted note" text-anchor="middle">Position</text>
+  <text x="1040" y="364" class="muted note" text-anchor="middle">stands</text>
+
+  <text x="48" y="520" class="muted note">Educational landscape only  read primary methods tables for oral arms; not a supplement schedule diagram.</text>
+</svg>

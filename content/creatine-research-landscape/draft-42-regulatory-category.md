@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "Statute category: supplement speech is not drug speech. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "assets/_shared/series-featured.svg"
+graphic_kind: "essay"
+last_verified: "2026-09-14"
 ---
 
 # CRL-42 — Statute category: supplement speech is not drug speech

@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "The phosphagen system and creatine kinase. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-03-phosphagen-ck-reaction.svg"
+graphic_kind: "reaction"
+last_verified: "2026-09-14"
 ---
 
 # CRL-10 — The phosphagen system and creatine kinase
@@ -22,6 +26,21 @@ audience: adult learners of exercise physiology and research methods
 - Keep cytosolic CK, mitochondrial CK, and serum CK as different
   appearances of one enzyme family.
 - Know which exercise tasks sit near this bottleneck and which do not.
+
+
+<figure class="crl-figure crl-figure--reaction">
+  <img
+    src="graphics/fig-03-phosphagen-ck-reaction.svg"
+    alt="Creatine kinase reaction showing phosphocreatine plus ADP reversibly forming creatine plus ATP near equilibrium in the cytosol."
+    width="1200"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 3</strong> — The phosphagen buffer reaction (vocabulary, not a performance promise).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## The reaction, said slowly
 

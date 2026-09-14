@@ -145,6 +145,23 @@ def main() -> int:
     elif "no disease" not in readme.read_text(encoding="utf-8").lower():
         errors.append("README.md must state the no-disease-claim fence")
 
+    gfx = ROOT / "tools" / "check_graphics.py"
+    if gfx.is_file():
+        import subprocess
+
+        proc = subprocess.run(
+            [sys.executable, str(gfx)],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+        if proc.returncode != 0:
+            errors.append("check_graphics.py failed (run tools/check_graphics.py)")
+            if proc.stdout:
+                print(proc.stdout.rstrip())
+            if proc.stderr:
+                print(proc.stderr.rstrip())
+
     if errors:
         print("\nFAIL")
         for e in errors:

@@ -7,6 +7,10 @@ kind: educational-landscape
 claims: none
 voice_check: edited
 audience: adult learners of exercise physiology and research methods
+meta_description: "Endogenous synthesis: AGAT, GAMT, and a methyl group. Educational creatine research landscape; methods and history only. Not medical or dosing advice."
+featured_image: "graphics/fig-02-endogenous-synthesis-pathway.svg"
+graphic_kind: "pathway"
+last_verified: "2026-09-14"
 ---
 
 # CRL-06 — Endogenous synthesis: AGAT, GAMT, and a methyl group
@@ -23,6 +27,21 @@ audience: adult learners of exercise physiology and research methods
   item.
 - Keep "the body makes about a gram" as a **review-level range**, not as
   your personal output.
+
+
+<figure class="crl-figure crl-figure--pathway">
+  <img
+    src="graphics/fig-02-endogenous-synthesis-pathway.svg"
+    alt="Schematic of arginine and glycine to guanidinoacetate via AGAT, then methylation to creatine via GAMT using S-adenosylmethionine."
+    width="1200"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 2</strong> — Two-enzyme synthesis route (textbook geography; not a clinical pathway claim).
+    <span class="figure-credit">Original diagram, creatine research landscape series.</span>
+  </figcaption>
+</figure>
 
 ## The route in one paragraph
 
