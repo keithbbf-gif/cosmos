@@ -463,6 +463,12 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     meta["matrix"] = mx
     meta["composed"] = len(mx)
     meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+    try:
+        stale = list(kr.stale_nodes().values())
+    except Exception:  # noqa: BLE001
+        stale = []
+    meta["stale"] = stale
+    meta["stale_count"] = len(stale)
     out = dict(body)
     out["registry"] = meta
     return out

@@ -64,6 +64,7 @@ SECRET_FIELDS = (
     "cursor_api_key", "CURSOR_API_KEY",
     "firecrawl_api_key", "FIRECRAWL_API_KEY",
     "groq_api_key", "GROQ_API_KEY",
+    "cop_token", "COP_TOKEN", "token",
 )
 
 

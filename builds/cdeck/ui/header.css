@@ -1,0 +1,4 @@
+#cdeck-viewport { min-height: 0; }
+#cdeck-mesh-fold { min-height: 0; }
+#cdeck-more { min-height: 0; }
+.deck-tabs-rail { overflow-y: auto; }

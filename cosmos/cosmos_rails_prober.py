@@ -33,6 +33,8 @@ proof fails, fail-closed:
     firecrawl-web   firecrawl/v2-research-papers   endpoint, emitted ONLY on a
                                                live arxiv:/doi:/pmid: primaryId
     playwright-dom  Playwright/<version>       MCP serverInfo from initialize
+    cop-chat        <vendor chat model>        Graph Copilot chat response.model
+                                               (empty unless a real attach named it)
 
     py -3.14 cosmos\\cosmos_rails_prober.py --root V:\\A\\Ai\\COSMOS\\live --once
     py -3.14 cosmos\\cosmos_rails_prober.py --root ... --once --live
@@ -117,6 +119,12 @@ WIRED_NODES = (
     {"link_id": "gitlab-forge", "rail_type": "CLI", "src": "core",
      "dst": "forge", "family": "gitlab-cli", "module": None,
      "satellite": "gitlab-forge"},
+    # CoP — M365 Copilot. Office/docs, read-only, chat-attach only.
+    # CHAT + dst=docs so a proven chat cannot capture core->models/code.
+    # satellite=cop so probe_module_for cannot fall through to Anthropic.
+    {"link_id": "cop-chat", "rail_type": "CHAT", "src": "core",
+     "dst": "docs", "family": "m365-copilot", "module": None,
+     "satellite": "cop"},
 )
 
 CLI_RAILS = (
@@ -441,6 +449,26 @@ def _gitlab_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "gitlab-forge")
 
 
+def _cop_live_call(paths: CosmosPaths) -> dict:
+    """Real CoP chat-attach. The vendor NAMES the responder on the chat
+    response (`model`). A spec file cannot forge that field — empty model
+    is not a proof. Write/send/create never run on this path.
+    """
+    from cosmos_cop_rail import CopRail, key_path_for, load_spec, spec_path_for
+    sp = spec_path_for(paths)
+    spec = load_spec(sp if sp.exists() else None)
+    rail = CopRail(key_path_for(paths, spec), spec)
+    rec = rail.dispatch({"prompt": LIVE_PROMPT, "verb": "attach"})
+    out = _norm_proof(rec)
+    out["model_source"] = rec.get("model_source") or ""
+    kind = rec.get("kind") or ""
+    if kind in ("NO_KEY", "UNREACHABLE", "BROKE", "REFUSED", "AUTH_REQUIRED",
+                "BAD_SPEC"):
+        out["detail"] = f"{kind}: {rec.get('detail') or out.get('detail')}".strip(": ")
+        out["kind"] = kind
+    return out
+
+
 # satellite name -> (the rail module that speaks for it, its prove-shaped call).
 # ONE table: "which module IS this rail?" and "what do I call to prove it?" are
 # read off the same row, so the two answers cannot drift apart.
@@ -452,6 +480,7 @@ SATELLITES = {
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
     "codex": ("cosmos_codex_rail", _codex_live_call),
+    "cop": ("cosmos_cop_rail", _cop_live_call),
 }
 
 
@@ -549,6 +578,11 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         # dispatch time. A spec overlay is optional (load_spec handles None);
         # the key file is the configuration fact.
         from cosmos_codex_rail import KEY_NAME
+        return paths.config(KEY_NAME).exists()
+    if sat == "cop":
+        # Token existence only — never a read. Spec overlay is optional.
+        # A bare install has no token and stays offline (no Graph spend).
+        from cosmos_cop_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
     return _claude_configured(paths)
 

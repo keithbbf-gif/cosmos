@@ -53,6 +53,8 @@ FAKES = {
                             "Playwright/1.63.0-alpha-2026-08-05"),
     "github-forge": _fake("github-forge", "rest_limit=5000 remaining=4999"),
     "gitlab-forge": _fake("gitlab-forge", "user_id=42 username=probe-user"),
+    "groq-api": _fake("groq-api", "openai/gpt-oss-20b"),
+    "cop-chat": _fake("cop-chat", "gpt-5.6"),
 }
 
 WIRED_IDS = [s["link_id"] for s in WIRED_NODES]
@@ -141,6 +143,8 @@ def main() -> int:
               == "rest_limit=5000 remaining=4999"
               and by_id["gitlab-forge"]["model"]
               == "user_id=42 username=probe-user"
+              and by_id["groq-api"]["model"] == "openai/gpt-oss-20b"
+              and by_id["cop-chat"]["model"] == "gpt-5.6"
               and all(row["rc"] == 0 and row["body_bytes"] > 0
                       and row.get("verified") is True
                       for row in d["matrix"]))
@@ -167,6 +171,8 @@ def main() -> int:
                                     body=""),
             "github-forge": _fake("github-forge", "", ok=False, rc=2, body=""),
             "gitlab-forge": _fake("gitlab-forge", "", ok=False, rc=2, body=""),
+            "groq-api": _fake("groq-api", "", ok=False, rc=2, body=""),
+            "cop-chat": _fake("cop-chat", "", ok=False, rc=2, body=""),
         }
         root2 = install(td / "live2", tree_id="boot-attach-2")
         k2 = Kernel(root2, worker="core", live_calls=mixed)

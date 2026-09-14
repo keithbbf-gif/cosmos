@@ -1,0 +1,17 @@
+#cdeck-viewport { display: flex; flex-direction: column; min-height: 0; height: 100%; }
+#cdeck-mesh-fold { min-height: 0; }
+#cdeck-more { min-height: 0; flex: 1; display: flex; }
+.extra-pane-shell { min-height: 0; }
+.deck-tab-shell { grid-column: 1 / -1; display: flex; min-height: 0; }
+.deck-more-fold { display: grid; min-height: 0; }
+.deck-tabs-rail { overflow-y: auto; min-height: 0; }
+.deck-stage { overflow-y: scroll; min-height: 0; }
+.stale-red { color: #c0392b; background: #fdecea; font-weight: 700; }
+.independence-note { color: #7a5c00; font-size: 12px; }
+.sys-err { color: #c0392b; }
+.empty { color: #666; font-style: italic; }
+.ok { color: #1b7a3a; }
+.bad, .red { color: #c0392b; }
+.sys-hd { margin: 0 0 4px; font-size: 14px; }
+.dim { color: #666; }
+.tiny { font-size: 11px; }

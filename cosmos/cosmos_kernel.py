@@ -211,6 +211,8 @@ class Kernel:
             # dst=forge so a proven forge cannot capture core->code.
             ("forge-rails", "cosmos_forge_rail", "attach_to_kernel", True),
             ("claude-cli", "cosmos_claude_rail", "attach_to_kernel", True),
+            # CoP — M365 Copilot. Office/docs, read-only, chat-attach only.
+            ("cop-chat", "cosmos_cop_rail", "attach_to_kernel", True),
             # F-29: tools/ surface. Not a rail — attach binds kernel.tools
             # and does not invoke, spend, or LINK_REGISTER. A bad row is
             # fail-open here (_try); it must not abort READY.

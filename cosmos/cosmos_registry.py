@@ -299,11 +299,27 @@ class Registry:
         now = self._clock()
         rows = []
         for lid, v in sorted(self.state().items()):
+            age = (now - v["last_probe"]) if v["last_probe"] else None
+            if v["last_probe"] is None:
+                proof_state = "UNMEASURED"
+            elif not v["ok"]:
+                proof_state = "FAIL"
+            elif age is None or age > PROOF_TTL_S:
+                proof_state = "STALE"
+            else:
+                proof_state = "LIVE"
+            model = v.get("model")
+            if model is not None:
+                model = str(model)
             rows.append({"link_id": lid,
                          "rail_type": v["claim"]["rail_type"],
                          "route": f"{v['claim']['src']}->{v['claim']['dst']}",
                          "verified": v["ok"],
-                         "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
+                         "age_s": age,
+                         "model": model,
+                         "rc": v.get("rc"),
+                         "body_bytes": v.get("body_bytes"),
+                         "proof_state": proof_state})
         return rows
 
     def route(self, src: str, dst: str,
