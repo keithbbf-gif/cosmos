@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none
@@ -26,7 +27,7 @@ That is not a legend invented for textbooks. It is the kind of accident a good o
 
 Gerrit Grijns, who stayed with the problem after Eijkman went home, is the one who pushed the sentence over into absence: the bran is not an antidote to a poison in the white grain. The bran holds something the animal needs, and polishing throws it away. The field still argues, in the polite way historians argue, about how cleanly to split credit. Eijkman got the medal in 1929. Grijns did not. Medals are a poor census.
 
-What the chicken yard did for the later industry is easy to overstate and easy to understate. Overstate: as if a Dutch army hospital invented the multivitamin aisle. Understate: as if isolation chemistry would have happened anyway, in some Cambridge bench, without the colonial ration as a natural experiment. The honest middle is that a cheap industrial habit — milling rice until it was white — had made a deficiency visible at scale. The mill was the instrument. The bird was the readout.
+What the chicken yard did for the later industry is easy to overstate and easy to understate. Overstate: as if a Dutch army hospital invented the multivitamin aisle. Understate: as if isolation chemistry would have happened anyway, in some Cambridge bench, without the colonial ration as a natural experiment. The honest middle is that a cheap industrial habit — milling rice until it was white — had made the missing-factor pattern visible at scale. The mill was the instrument. The bird was the readout.
 
 I will not tell you to eat brown rice. That would be a different magazine. I will tell you that a color of grain, chosen for storage and status, became a scientific object because someone watched the yard instead of only the ward.
 

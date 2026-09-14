@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none
@@ -24,7 +25,7 @@ The 1970 book *Vitamin C and the Common Cold* is a cultural object more than a b
 
 I will not referee the cold. Refereeing the cold is how this page becomes a claim. Pauling's later, wider arguments — about more serious names — are exactly the 101.93(g) list and are refused here in our own voice. He was a man who believed the orthomolecular sentence: the right molecule, the right amount. Belief is history. A carton that borrows his silhouette to talk about a disease is a carton we will not write.
 
-What belongs in commercial history is the *permission structure* he gave shoppers. If a double laureate says the Board's milligrams are timid, a shopper can feel sophisticated buying the 1000 mg tin. Sophistication is a market. The tin was already cheap because of Reichstein's descendants. Pauling did not invent C. He invented a mood around C: the official number is a floor you should ignore.
+What belongs in commercial history is the *permission structure* he gave shoppers. If a double laureate says the Board's milligrams are timid, a shopper can feel sophisticated buying the 1000 mg tin. Sophistication is a market. The tin was already cheap because of Reichstein's descendants. Pauling did not invent C. He invented a mood around C: the official number was a floor a shopper could treat as timid — a market permission, not a sentence this folder repeats.
 
 Scientists who disliked the mood were not all villains. Some of them were protecting a method: you do not get to skip the assay because you are famous. Pauling's fame was a solvent. It dissolved caution in public.
 

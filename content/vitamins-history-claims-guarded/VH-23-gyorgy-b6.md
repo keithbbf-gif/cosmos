@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none
@@ -35,7 +36,7 @@ Pyridoxine, pyridoxal, pyridoxamine — the family again, hiding under one numbe
 György's rats, a skin finding, a number. I will not tell you what to do with a tablet that borrowed the number. The number was a cage code.
 
 
-I keep saying boarding house because the 1930s papers sound like landlords. Eluate, filtrate, the tenant who will not pay rent to the known letters. György was a careful landlord. The later carnival that rented B6 to magazines was not. If you take one craft lesson from him, take the adsorption column, not the magazine. Columns are how you find out you were wrong. Magazines are how you stay wrong at scale. The boarding house, at least, kept a ledger of who had paid and who was still hiding in the filtrate. A ledger is a better ancestor than a carnival booth.
+I keep saying boarding house because the 1930s papers sound like landlords. Eluate, filtrate, the tenant who will not pay rent to the known letters. György was a careful landlord. The later carnival that rented B6 to magazines was not. If a reader keeps one craft lesson from him, let it be the adsorption column, not the magazine. Columns are how you find out you were wrong. Magazines are how you stay wrong at scale. The boarding house, at least, kept a ledger of who had paid and who was still hiding in the filtrate. A ledger is a better ancestor than a carnival booth.
 
 ## Claims desk
 

@@ -17,6 +17,7 @@ REQUIRED_FRONT = {
     "status": "staged",
     "stage": "claims-guarded",
     "voice": "human",
+    "voice_check": "edited",
     "claims_class": "history-education",
     "dshea": "no-disease-claim",
     "product_claim": "none",
@@ -76,6 +77,8 @@ DISEASE_CLAIM = (
     r"\bboosts? (?:your )?(?:immune|immunity|energy|metabolism)\b",
     r"\bfor everyday vitality\b",
     r"\bask (?:your doctor|a physician) about this supplement\b",
+    r"\bfloor you should ignore\b",
+    r"\byou should ignore\b[^.!?\n]{0,40}\b(?:RDA|DV|milligram|mg)\b",
 )
 
 FRONT_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.S)

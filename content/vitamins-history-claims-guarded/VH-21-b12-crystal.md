@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none

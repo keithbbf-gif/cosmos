@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none
@@ -30,7 +31,7 @@ The Nobel committee, in 1929, split the medicine prize between Hopkins and Eijkm
 
 What I like in Hopkins is the refusal to rush a bottle. Accessory food factor is not a brand. It is a hole in a table. The later industry will fill the hole with letters and prices. That is a later story. In 1912 the honest sentence is still: we have been weighing the wrong columns.
 
-If you take one habit from him, take this one — not a dose, not a product. Take the habit of distrusting a complete-looking list. Food is older than the columns we pour it into.
+If a reader keeps one habit from him, let it be this one — not a dose, not a product. Distrust a complete-looking list. Food is older than the columns we pour it into.
 
 ## Claims desk
 

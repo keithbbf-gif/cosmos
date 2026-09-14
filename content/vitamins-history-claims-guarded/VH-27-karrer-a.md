@@ -6,6 +6,7 @@ series: vitamins-history-claims-guarded
 status: staged
 stage: claims-guarded
 voice: human
+voice_check: edited
 claims_class: history-education
 dshea: no-disease-claim
 product_claim: none
@@ -20,7 +21,7 @@ sources:
 
 Paul Karrer drew beautiful molecules. You can see it in the carotenoid chains — a parade of double bonds that look like they want to be painted.
 
-He shared the 1937 chemistry Nobel (with Haworth's year overlapping Szent-Györgyi's medicine prize; 1937 was a vitamin harvest). The A work sits on McCollum's fat-soluble bucket and on the older observation that some yellow plant pigments and some pale animal oils were in conversation. Beta-carotene can be split, in an animal that has the enzyme, toward retinol. The carrot is not "vitamin A" the way a cartoon says. The carrot is a bet, placed by a plant, that an animal will know what to do with a pigment.
+He shared the 1937 chemistry Nobel (with Haworth's year overlapping Szent-Györgyi's medicine prize; 1937 was a vitamin harvest). The A work sits on McCollum's fat-soluble bucket and on the older observation that some yellow plant pigments and some pale animal oils were in conversation. Beta-carotene can be split, in an animal that has the enzyme, toward retinol. The carrot is not "vitamin A" the way a cartoon says. The carrot is a bet, placed by a plant, on a pigment some animals can enzymatically split toward retinol.
 
 War Britain later leaned on carrot lore for night flying, and the lore got tangled with a disinformation story about radar. Popular history loves that tangle. This folder will not turn night vision into a claim. Period observers knew a dietary A problem could show up in the eye. That is ward history. A modern gummy is not a night-fighter.
 

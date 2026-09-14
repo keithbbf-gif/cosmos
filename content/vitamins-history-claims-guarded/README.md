@@ -19,6 +19,7 @@ Every `VH-*.md` draft carries YAML frontmatter:
 | `status` | `staged` |
 | `stage` | `claims-guarded` |
 | `voice` | `human` |
+| `voice_check` | `edited` after human editor pass; `pending` before |
 | `claims_class` | `history-education` |
 | `dshea` | `no-disease-claim` |
 | `product_claim` | `none` |

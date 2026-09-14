@@ -124,6 +124,7 @@ dshea: no-disease-claim
 product_claim: none
 structure_function: none
 voice: human
+voice_check: edited
 ```
 
 `staged` means: fit for human review, not for a label printer, not for a store page, not for an ad account. Promotion out of this folder is a later, human act.
