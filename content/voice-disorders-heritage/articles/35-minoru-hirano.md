@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, hirano, kurume, body-cover, grbas]
 portrait: null
 portrait_status: placeholder
 figure_dates: "d. 2017"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -22,7 +22,7 @@ Minoru Hirano died suddenly on 19 December 2017. The American Laryngological Ass
 
 ## Five pages, then an atlas
 
-“Morphological Structure of the Vocal Cord as a Vibrator and its Variations,” *Folia Phoniatrica* 26 (1974): 89–94, received 7 February 1973, accepted 8 August. Essay 11 is the reading. The life is a Kurume otolaryngologist who gave the West a sandwich: body and cover, muscle and traveling mucosa, a reason for a microflap to stay in a layer. *Clinical Examination of Voice* (1981) and the *Histological Color Atlas of the Human Larynx* are the luxury editions. GRBAS — grade, roughness, breathiness, asthenia, strain — is the student form. The Voice Foundation’s 1987 G. Paul Moore Lecture was his. The ALA made him a corresponding fellow in 1984 and gave him its award in 2012.
+“Morphological Structure of the Vocal Cord as a Vibrator and its Variations,” *Folia Phoniatrica* 26 (1974): 89–94, received 7 February 1973, accepted 8 August. Essay 11 is the reading. He was a Kurume otolaryngologist who gave the West a sandwich: body and cover, muscle and traveling mucosa, a reason for a microflap to stay in a layer. *Clinical Examination of Voice* (1981) and the *Histological Color Atlas of the Human Larynx* are the luxury editions. GRBAS — grade, roughness, breathiness, asthenia, strain — is the student form. The Voice Foundation’s 1987 G. Paul Moore Lecture was his. The ALA made him a corresponding fellow in 1984 and gave him its award in 2012.
 
 He spent the academic career at Kurume University and trained a generation of Japanese laryngeal surgeons, including his son Shigeru, whom the ALA notice names as a leading figure in his own right. That sentence is enough family. The films in the Voice Foundation archive — *Vocal Cord Vibration*, the microsurgery tape — are teaching objects, not advertisements.
 

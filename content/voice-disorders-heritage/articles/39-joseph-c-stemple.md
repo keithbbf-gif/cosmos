@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, stemple, vocal-function-exercises]
 portrait: null
 portrait_status: placeholder
 figure_dates: "living at pack date"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -36,6 +36,6 @@ Boone’s 1971 book offered techniques. Stemple’s line offered a program that 
 
 Kentucky and Cincinnati appear on ordinary academic pages as the workplaces. Those pages move. The book editions move. Cite the edition on your desk.
 
-Supervisors who assign Stemple after Boone are often trying to give a student a spine. Supervisors who assign only Stemple are often trying to give a student a brand. Heritage copy prefers the first use. The second is a curriculum choice this pack will not make for you.
+Assigning Stemple after Boone often gives students a spine; assigning only Stemple often gives them a brand — a curriculum choice this pack does not make. The difference is syllabus design, not a verdict from this heritage series.
 
 **Further in this series.** Essay 16. Boone (38). Verdolini Abbott (44).

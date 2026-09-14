@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, froeschels, vienna, logopedics, chewing]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1884–1972"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -20,7 +20,7 @@ stage: draft
 
 Emil Fröschels coined a word for the therapy side of the work and then had to carry the word out of the city that made it.
 
-He was born in Vienna on 24 August 1884 and died in New York on 3 January 1972. The M.D. is Vienna, 1907. Some web pages still send him to Jena for the degree. Vienna is the better-sourced one; say so if you reprint a CV that disagrees. *Lehrbuch der Sprachheilkunde (Logopädie)* appeared in 1913 (later editions 1925, 1931). In 1924 he called the meeting that became the International Association of Logopedics and Phoniatrics. The sibling pack tells the association and the American academy’s parallel. This profile stays with the voice methods and the suitcase.
+He was born in Vienna on 24 August 1884 and died in New York on 3 January 1972. He earned his M.D. in Vienna in 1907. Some web pages still send him to Jena for the degree. Vienna is the better-sourced one; say so if you reprint a CV that disagrees. *Lehrbuch der Sprachheilkunde (Logopädie)* appeared in 1913 (later editions 1925, 1931). In 1924 he called the meeting that became the International Association of Logopedics and Phoniatrics. The sibling pack tells the association and the American academy’s parallel. This profile stays with the voice methods and the suitcase.
 
 ## Chewing, pushing, exile
 
@@ -30,7 +30,7 @@ He fled in 1938. St. Louis and New York were the American rooms. The IALP word t
 
 ## How to read him now
 
-Read the 1913 textbook as a physician writing for teachers and doctors at once — Gutzmann’s double claim in an Austrian key. Read the chewing paper as an exile document. Read the American afterlife as a few stubborn textbook paragraphs and a New York clinic, not as a modern efficacy trial. Do not resurrect a 1930s gesture from a heritage page.
+The 1913 textbook is a physician writing for teachers and doctors at once — Gutzmann’s double claim in an Austrian key. The chewing paper reads as an exile document. The American afterlife survives in a few textbook paragraphs and a New York clinic — not as a modern efficacy trial. A heritage page is not a place to revive a 1930s gesture.
 
 The sibling pack’s Fröschels profile covers the association politics and the stuttering side. Use both. Do not merge them into one “pioneer” blur.
 

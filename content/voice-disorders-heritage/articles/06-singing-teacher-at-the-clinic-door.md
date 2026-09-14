@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, singing-pedagogy, garcia, behnke, vennard, sundberg]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -39,7 +39,7 @@ CoMeT — the Collegium Medicorum Theatri, founded 14 August 1969 in Mexico City
 
 ## Who was left out
 
-Church choir directors. School music teachers. Broadway pit singers without a conservatoire pedigree. The immigrant cantor. The woman who taught parlor song in a rented room. Official histories of “the singing teacher and the clinic” prefer García, Vennard, and a named opera house. The unlicensed majority did the daily work and still do.
+Church choir directors. School music teachers. Broadway pit singers without a conservatoire pedigree. The immigrant cantor. The woman who taught parlor song in a rented room. Official histories of “the singing teacher and the clinic” prefer García, Vennard, and a named opera house. The unlicensed majority did the daily work, and still does.
 
 A speech-language pathologist who treats “professional voice” as synonymous with “famous singer” has learned the official history too well. Teachers, preachers, dispatchers, and kindergarten workers are professional voice users. Gould’s Foundation said so in public; the older studio literature often did not.
 

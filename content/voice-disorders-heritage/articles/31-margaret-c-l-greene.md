@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, greene, britain, voice-and-its-disorders]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1913–2007"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -26,7 +26,7 @@ She was born in 1913 and died in 2007. *The Voice and Its Disorders* appeared in
 
 It gave speech therapists in the National Health Service a single volume that was not a laryngologist’s hygiene paperback and not an American undergraduate menu. The tone is medical. The reader is a clinician. The disorders are named as if they belonged on a ward list. That combination — therapist as reader, larynx as object — is the British mid-century settlement. Elsie Fogerty had opened a speech clinic at St Thomas’ in 1913; Greene, two generations later, gave the voice caseload a book.
 
-Do not treat 1957 as current protocol. Treat it as the date British training could point to a *voice* text the way American training would point to Boone in 1971.
+1957 is not current protocol; it is the year British training could point to a *voice* text the way American training would point to Boone in 1971.
 
 ## Residue
 
@@ -38,4 +38,4 @@ The 1968 parents’ organization is the sibling pack’s Greene. It belongs in o
 
 Mathieson’s sixth edition is already a historical object. Cite 1957 when you mean Greene’s voice; cite 2001 when you mean the book as later teaching found it.
 
-**Further in this series.** Essay 16. Essay 11 in the sibling pack. Boone (38), for the American shelf.
+**Further in this series.** Essay 16. The sibling SLPWOW pack’s British speech-therapy essay (Fogerty / NHS thread). Boone (38), for the American shelf.

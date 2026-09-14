@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, garcia, laryngoscopy, singing]
 portrait: assets/portraits/manuel-garcia-jr.jpg
 portrait_status: downloaded
 figure_dates: "1805–1906"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -37,7 +37,7 @@ He taught people to sing for a living and, one afternoon, used a dentist’s mir
 
 His father, Manuel García Sr., was a tenor and a teacher. His sisters, Maria Malibran and Pauline Viardot, were the famous ones. The son wrote *École de García* (1840, expanded 1847) and taught in Paris and then for decades in London. He did not take a medical degree. He did not want one. The 1854–55 autolaryngoscopy was a teacher’s experiment: if registers have a mechanism, the mechanism ought to be visible.
 
-“Observations on the Human Voice,” read to the Royal Society on 24 May 1855, is the public act. The private Paris window is the legend. This profile follows essay 02: keep the Society date as the document; keep the window as the reported experiment; do not invent a diary.
+“Observations on the Human Voice,” read to the Royal Society on 24 May 1855, is the public act. The private Paris window is the legend. This profile follows essay 02: the Society date is the document; the Paris window is the reported experiment — no diary line has been verified.
 
 ## What he was not
 
@@ -49,7 +49,7 @@ He was a man who lived long enough to watch medicine take his party trick and bu
 
 A paper. A myth that needs the paper. A reminder, useful in staffing meetings, that the first person to see a living glottis in the English scientific record was listening for a register, not a tumor.
 
-Portraits exist. Many are late photographs. Log a clearly licensed one before retiring the placeholder. Do not use a painted “young García” of unknown date as if it were a studio fact.
+Portraits exist. Many are late photographs. The Wellcome image is the pack default; log any swap in `PORTRAIT_SOURCES.md`. Do not use a painted “young García” of unknown date as if it were a studio fact.
 
 ## London years, a hundred candles
 

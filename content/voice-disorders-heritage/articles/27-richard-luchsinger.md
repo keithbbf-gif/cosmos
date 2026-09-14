@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, luchsinger, switzerland, folia]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1900–1993"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -24,7 +24,7 @@ He was a Swiss otorhinolaryngologist, born 1900, died 1993. This pack does not f
 
 ## A textbook that is a map
 
-*Voice-Speech-Language* is not a paperback of hygiene. It is a communicology: physiology and pathology, voice and speech under one roof, the European medical claim that Gutzmann had wanted in 1905, now in a language an Iowa student could be assigned. Arnold’s American career (profile 28) is why the English edition exists. Luchsinger’s Swiss address is why the German one did.
+*Voice-Speech-Language* is not a paperback of hygiene. It is a single-volume treatise on voice, speech, and language — physiology and pathology under one roof, the European medical claim that Gutzmann had wanted in 1905, now in a language an Iowa student could be assigned. Arnold’s American career (profile 28) is why the English edition exists. Luchsinger’s Swiss address is why the German one did.
 
 Read the 1965 book as a *map of what counted* in mid-century European voice medicine, not as current protocol. The surgery chapters age. The ambition does not: one volume, two men, three words in the title.
 

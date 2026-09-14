@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, nadoleczny, munich, phoniatrics]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1874–1940"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, von-leden, phonosurgery, comet]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1918–2014"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

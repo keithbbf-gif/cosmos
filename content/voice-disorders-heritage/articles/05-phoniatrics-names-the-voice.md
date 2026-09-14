@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, phoniatrics, gutzmann, nadoleczny, berlin, munich]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

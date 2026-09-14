@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, turck, czermak, vienna, laryngoscopy]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -39,7 +39,7 @@ Czermak left for Pest and then Leipzig. He died in 1873, at forty-five. Türck d
 
 The priority fight is still reprinted because it is a good story. The useful residue is plainer. A voice clinic that can put a scope in a nose on a cloudy Thursday is living in Czermak’s weather. A clinic that still writes “who documented the lesion first” on a consult is living in Türck’s pride.
 
-Do not pick a winner for a brand page. Print both names. Print the lamp. Then go on to the city that turned the mirror into a British institution — and a scandal.
+A fair account names both men and the lamp; a brand page that picks a single “inventor” is selling a story, not teaching the quarrel. Then go on to the city that turned the mirror into a British institution — and a scandal.
 
 ## Print, lamp, and the winter clinic
 

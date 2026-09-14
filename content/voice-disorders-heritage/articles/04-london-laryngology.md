@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, mackenzie, london, frederick-iii, laryngology]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

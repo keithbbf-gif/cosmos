@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, bozzini, endoscopy, lichtleiter]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1773–1809"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

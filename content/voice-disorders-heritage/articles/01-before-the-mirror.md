@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, laryngoscopy, bozzini, babington, horace-green, singing]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -41,7 +41,7 @@ Green does not become a hero in this series by being first. He becomes a warning
 
 While physicians argued about sponges, singing teachers already had a craft vocabulary for registers, breaks, and fatigue. Manuel García the elder sold that vocabulary in Paris and London. His children — Maria Malibran, Pauline Viardot, Manuel García Jr. — grew up inside it. The younger García’s later mirror was not a medical student’s toy. It was a teacher’s attempt to *see* the mechanism his family had been talking about for a generation.
 
-Elocutionists were in the same market with different customers. James Rush’s *The Philosophy of the Human Voice* (1827) tried to turn American oratory into a physiology. Alexander Melville Bell’s Visible Speech (1867) is slightly later than our foyer, but the habit is older: write the voice as positions of a body you cannot yet inspect.
+Elocutionists were in the same market, but for different customers. James Rush’s *The Philosophy of the Human Voice* (1827) tried to turn American oratory into a physiology. Alexander Melville Bell’s Visible Speech (1867) is slightly later than our foyer, but the habit is older: write the voice as positions of a body you cannot yet inspect.
 
 Three trades, then, before the clinic:
 

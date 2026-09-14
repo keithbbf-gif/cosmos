@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, arnold, phonosurgery, teflon, vienna]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1914–1989"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

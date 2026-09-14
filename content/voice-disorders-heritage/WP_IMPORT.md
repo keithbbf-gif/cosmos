@@ -53,7 +53,7 @@ Do not hang these under `/services/` or `/voice-therapy/exercises/`.
 | `stage: draft` | WP status **Draft** on first import |
 | `audience: slpwow` | unused publicly |
 
-Strip the YAML before the post body. Do not print `voice_check: human` on the site.
+Strip the YAML before the post body. Do not print `voice_check` (or other editorial flags) on the site.
 
 Keep the italic educational line under the title. It is not optional.
 

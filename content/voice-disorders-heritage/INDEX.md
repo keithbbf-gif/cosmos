@@ -4,7 +4,7 @@ Staged series for **SLPWOW.com**. Pack path: `content/voice-disorders-heritage/`
 
 **Host note.** SLPWOW is Keith’s wife’s speech-language pathology brand (WOW Therapies). These essays and profiles are magazine copy for a later WordPress import. See `WP_IMPORT.md`.
 
-**Voice check.** Every article carries `voice_check: human`. House rules: `STYLE_GUIDE.md`. Guardrails: `CLAIMS_GUARDRAILS.md`.
+**Voice check.** Every article carries `voice_check: edited` (post editor pass). House rules: `STYLE_GUIDE.md`. Guardrails: `CLAIMS_GUARDRAILS.md`.
 
 **Sibling pack.** General speech-language pathology history (McAlpin, Iowa, ASHA names) is `content/slpwow-speech-pathology-history/`. This calendar is the voice-disorders lane.
 

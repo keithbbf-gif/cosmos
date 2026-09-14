@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, froeschels, chewing-method, vienna, logopedics]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -37,7 +37,7 @@ They kept the *idea* that voice therapy is allowed to use the rest of the head: 
 
 Svend Smith’s accent method, from Denmark, is a cousin from another city: rhythmic, breath-led, studio-adjacent. It belongs in essay 16 with Boone and Verdolini, not as a Vienna sequel. The Viennese residue is specific: a physician who thought like a teacher, a teacher-movement that thought it was medicine, and a word — logopedics — that still names the European therapy profession.
 
-Fröschels fled in 1938. He died in New York in 1972. The chewing method’s American afterlife is Brodnitz’s clinic and a few stubborn textbook paragraphs. If your training program still mentions it, mention the date and the exile. If it does not, do not resurrect it from this page as a protocol.
+Fröschels fled in 1938. He died in New York in 1972. The chewing method’s American afterlife is Brodnitz’s clinic and a few stubborn textbook paragraphs. Programs that still cite the chewing method owe students the 1930s date and the 1938 exile; a heritage page is not a place to revive the gesture as homework.
 
 ## After 1938 the method became English
 

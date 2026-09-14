@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, garcia, laryngoscopy, royal-society, singing]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -27,7 +27,7 @@ Some later summaries slide the first successful self-view into 1855 to match the
 
 García had a problem physicians did not share. Surgeons could wait for an autopsy. A teacher has to change a sound on Tuesday. The difference between a chest register and a head register was already a paying argument in Conservatoire corridors. A view of the folds — García and his century still said “cords” — offered a chance to stop arguing from sensation alone.
 
-He did not found a hospital. He did not take a medical degree. He taught in Paris and then for decades in London, lived to 1906, and was celebrated on his hundredth birthday as if the mirror were a knighthood. Physicians who later called him the father of laryngoscopy were doing what specialties do: they needed a clean origin. The clean origin is a little too clean. Babington had already shown a glottiscope. Türck and Czermak were about to fight over patients and lamps. García’s gift was autolaryngoscopy plus a paper the Royal Society would print.
+He never founded a hospital. He did not take a medical degree. He taught in Paris and then for decades in London, and lived to 1906. He was celebrated on his hundredth birthday as if the mirror were a knighthood. Physicians who later called him the father of laryngoscopy were doing what specialties do: they needed a clean origin. The clean origin is a little too clean. Babington had already shown a glottiscope. Türck and Czermak were about to fight over patients and lamps. García’s gift was autolaryngoscopy plus a paper the Royal Society would print.
 
 ## What the paper actually claimed
 

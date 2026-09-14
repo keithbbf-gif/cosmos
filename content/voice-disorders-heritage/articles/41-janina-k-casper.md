@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, casper, colton, syracuse]
 portrait: null
 portrait_status: placeholder
 figure_dates: "d. 2008"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -18,7 +18,7 @@ stage: draft
 
 > **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
 
-Janina K. Casper died on 15 May 2008, of lung cancer. The *Journal of Voice* memorial (2008) is the warrant. It says she came to the United States from Poland in 1937 without English, and later built, in Syracuse, a career that refused to be only one organ.
+Janina K. Casper died on 15 May 2008, of lung cancer. The *Journal of Voice* memorial (2008) is the warrant. It says she came to the United States from Poland in 1937 without English, and later built, in Syracuse, a career that refused to center on a single organ.
 
 ## The book, and the other rooms
 

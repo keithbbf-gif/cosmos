@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, exile, brodnitz, moses, froeschels, new-york]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -41,7 +41,7 @@ They also arrived as Jews, or as men who had worked with Jews, into a profession
 
 A joint clinic. A hygiene paperback. A suspicion that the larynx is not the whole story. A later generation — Moore and von Leden with a camera, Gould with a foundation, Sataloff with a double degree — would Americanize the hallway and forget, sometimes, who had furnished it.
 
-If your training program’s history slide jumps from García to Hirano, insert 1938.
+Training timelines that jump from García to Hirano without 1938 erase the émigré staffing that built the American voice clinic.
 
 ## St. Louis, Hunter College, a board exam
 

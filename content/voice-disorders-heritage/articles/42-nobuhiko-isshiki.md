@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, isshiki, thyroplasty, phonosurgery, kyoto]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1930–2022"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

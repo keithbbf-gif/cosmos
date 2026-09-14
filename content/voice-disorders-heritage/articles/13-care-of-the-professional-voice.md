@@ -6,7 +6,7 @@ type: era
 tags: [voice-disorders-heritage, voice-foundation, gould, sataloff, comet]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
@@ -33,7 +33,7 @@ This pack does not give Sataloff a numbered profile. He was living at the stagin
 
 ## Who counts as professional
 
-The Foundation’s own later prose is careful: teachers, clergy, attorneys, dispatchers. The early symposiums were less careful. Famous singers make better galas. (The 1973 gala became, in time, Voices of Summer.) A history that only remembers Pavarotti’s doctor is doing the gala’s work. Gould did treat famous people; NCVS names some of them. He also, if the institutional story is true, wanted the un-famous ones in the definition.
+The Foundation’s own later prose is careful: teachers, clergy, attorneys, dispatchers. The early symposia were less careful. Famous singers make better galas. (The 1973 gala became, in time, Voices of Summer.) A history that only remembers Pavarotti’s doctor is doing the gala’s work. Gould did treat famous people; NCVS names some of them. He also, if the institutional story is true, wanted the un-famous ones in the definition.
 
 A school SLP who treats a fifth-grade teacher’s Friday voice is doing professional-voice work. The Foundation did not invent that caseload. It gave the caseload a conference badge.
 

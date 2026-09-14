@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, verdolini, resonant-voice, lmrvt]
 portrait: null
 portrait_status: placeholder
 figure_dates: "living at pack date"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---

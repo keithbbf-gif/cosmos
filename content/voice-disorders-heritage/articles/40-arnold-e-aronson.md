@@ -7,7 +7,7 @@ tags: [voice-disorders-heritage, aronson, mayo, clinical-voice-disorders]
 portrait: null
 portrait_status: placeholder
 figure_dates: "dates incomplete"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 ---
