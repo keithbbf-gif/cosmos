@@ -30,9 +30,11 @@ If you flip it you have cyma reversa, the ogee, a different job. People call bot
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Cyma recta: the wave that wants to be a gutter.](../assets/cyma-recta-cymatium/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/cyma-recta-cymatium/historical-timeline.svg" alt="Historical timeline for Cyma recta: the wave that wants to be a gutter: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Cymatium as the cornice’s top through One-piece crown still starts here — see “A wave with a weather job.”</figcaption>
+</figure>
 
-*Figure 1. Cymatium as a lid, Benjamin’s covering rule, Victorian carving, and the one-piece crown that still starts here.*
 
 An exterior cyma that still works as a gutter has a drip. An interior cyma has a shadow. Same outline, different weather. If you use a recta as a bedmould under a corona, the corona will look like it is sitting on a slide. Your eye knows. Designers who “just like the shape” put it there anyway. Then they ask why the crown looks like it is melting.
 
@@ -46,9 +48,11 @@ One-piece crowns still start as a recta because the saw and the yard understand 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Cyma recta: the wave that wants to be a gutter.](../assets/cyma-recta-cymatium/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/cyma-recta-cymatium/shop-plate.svg" alt="Shop plate for Cyma recta: the wave that wants to be a gutter: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Recta against reversa.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Covering wave (recta) beside supporting wave (reversa). Hollow-first versus belly-first.*
 
 Figure 2 is the only diagram you need in a fight with a drawing. Recta: hollow, then belly, as you descend. Reversa: belly, then hollow. Recta covers. Reversa supports. Put reversa on top and it will look like a rolled lip trying to hold the ceiling up. Sometimes that is a look (certain bedmoulds at a shelf). On a cornice lid it is a mistake.
 

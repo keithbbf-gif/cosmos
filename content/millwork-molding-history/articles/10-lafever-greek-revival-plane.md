@@ -30,9 +30,11 @@ Greek Revival is the first American style that asked ordinary shops for special 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Lafever, the arris, and the Greek Revival plane.](../assets/lafever-greek-revival-plane/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/lafever-greek-revival-plane/historical-timeline.svg" alt="Historical timeline for Lafever, the arris, and the Greek Revival plane: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Lafever, Modern Builder’s Guide through Strickland’s Tennessee Capitol interiors — see “New York plates, country houses.”</figcaption>
+</figure>
 
-*Figure 1. Lafever in print, Virginia mantels, and Strickland’s Nashville stone as the high-style cousin.*
 
 Strickland’s Tennessee Capitol (done 1859) is the dressed version: stone piers with sharp ovolos and a quirk that reads as a dark thread. Wood shops copied the thread at mantel scale. The dates in Figure 1 overlap on purpose. The plates and the houses are a conversation, not a relay race. A farmhouse can be earlier than the book and still belong to the same iron.
 
@@ -46,9 +48,11 @@ Figure 1 is also a warning about dating. 1830s wood and 1859 stone share a famil
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Lafever, the arris, and the Greek Revival plane.](../assets/lafever-greek-revival-plane/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/lafever-greek-revival-plane/shop-plate.svg" alt="Shop plate for Lafever, the arris, and the Greek Revival plane: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Stacked arrises under a shelf.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Two quirked ovolos as a bedmould idea. The hairlines are the architecture.*
 
 Figure 2 is the rural mantel thought: repeat the quirk until the shelf is a conclusion. In stone, Strickland can do it with one good ovolo. In wood, repetition is how you get projection without a giant solid. Each ovolo is a small knife. Stacked, they make a bedmould that throws a lot of line.
 

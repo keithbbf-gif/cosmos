@@ -30,9 +30,11 @@ A one-piece crown can include a little of all three. Most do not. Most are a spr
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Built-up crown: cyma, corona, bedmould.](../assets/built-up-crown-three-parts/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/built-up-crown-three-parts/historical-timeline.svg" alt="Historical timeline for Built-up crown: cyma, corona, bedmould: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Cyma–corona–bedmould through Built-up from stock knives — see “Keep the order even when you cheapen the sticks.”</figcaption>
+</figure>
 
-*Figure 1. The three-part sentence, Georgian weight, Victorian shrink, and a built-up from stock knives.*
 
 Georgians, especially Palladians, liked heavier interior cornices. Victorians often used smaller ones and spent the money elsewhere. Both still stacked jobs. The ranch deleted the stack. We are putting it back with paint-grade poplar and a ripped fascia.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the working method. I would rather pull three knives w
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Built-up crown: cyma, corona, bedmould.](../assets/built-up-crown-three-parts/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/built-up-crown-three-parts/shop-plate.svg" alt="Shop plate for Built-up crown: cyma, corona, bedmould: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Three sticks, one shadow.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Cyma, corona, bed — three sticks, one hat. The dashed line is still the wall.*
 
 Figure 2 is the assembly. Nail or glue the bed to the wall first if the site likes it that way, or build a ladder on the bench. Site conditions win. The corona must land so its soffit is a dark. The cyma must sit so its covering point does not get sanded into a radius by a helpful painter.
 

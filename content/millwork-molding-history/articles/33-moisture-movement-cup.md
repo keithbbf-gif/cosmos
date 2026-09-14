@@ -30,9 +30,11 @@ Interior target moisture is often talked as 6–8 percent. `[VERIFY]` against th
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Moisture, movement, and why a stick cups.](../assets/moisture-movement-cup/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/moisture-movement-cup/historical-timeline.svg" alt="Historical timeline for Moisture, movement, and why a stick cups: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. 6–8% interior MC target [VERIFY] job through Acclimate or watch the joints open — see “The kiln ticket is part of the profile.”</figcaption>
+</figure>
 
-*Figure 1. A target MC, a Southern summer EMC, a two-face crown, and a site that was not the kiln.*
 
 Crown is the worst offender because it is cut on two faces and then sprung. The back flats are thin. The face is a landscape of hollows. Moisture leaves the thin flats first. The stick tries to become a smile or a frown. Either way the copes open.
 
@@ -44,9 +46,11 @@ Figure 1 is a process, not a style. Write MC on the ticket. Write the date the s
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Moisture, movement, and why a stick cups.](../assets/moisture-movement-cup/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/moisture-movement-cup/shop-plate.svg" alt="Shop plate for Moisture, movement, and why a stick cups: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “How a sprung crown wants to cup.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Two cup thoughts on the same wave. The back flats are thinner than they look.*
 
 Figure 2 is a cartoon of a fact. You cannot grind a cup out of a finished stick on site. You can hold it with nails and glue and still watch it crawl. Better: let it live in the room, then cut. Better still: do not run 16-foot solid crowns in July for a house that is not conditioned. Run shorter, or run FJ paint-grade, or wait.
 

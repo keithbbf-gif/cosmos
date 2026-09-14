@@ -30,9 +30,11 @@ Fullerton incorporated Bradley Lumber in 1901. By 1907 it is in the 100,000 bf/d
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Bradley County in the hardwood belt.](../assets/bradley-county-hardwood-belt/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/bradley-county-hardwood-belt/historical-timeline.svg" alt="Historical timeline for Bradley County in the hardwood belt: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Bradley Lumber incorporated by S. H. Fullerton through Hardwood sawmill strain in the state — see “Three mills and a doubled town.”</figcaption>
+</figure>
 
-*Figure 1. Incorporation, the 1903 open, Arkansas Lumber’s 1928 exit, and the 2008 hardwood strain.*
 
 Arkansas Lumber’s 1928 exit is the caution. A mill that owns 85,000 acres can still cut itself out of a county. Southern and Bradley lasted longer, then became Potlatch, then the later hardwood story got thinner. In November 2008 the *Democrat-Gazette* reported statewide strain and noted the Bradley Lumber hardwood sawmill in Warren among the shuttered — opened 1903, later owned outside the old Fullerton/Potlatch line. `[VERIFY]` any modern ownership sentence against the paper if you need it in a caption; this essay is not a corporate history. It is a species history.
 
@@ -46,9 +48,11 @@ Figure 1’s last hook is 2008 because that is when a lot of people learned that
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Bradley County in the hardwood belt.](../assets/bradley-county-hardwood-belt/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/bradley-county-hardwood-belt/shop-plate.svg" alt="Shop plate for Bradley County in the hardwood belt: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Oak, pine, and what a shop still buys.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Two belts in one county: an oak thought and a pine thought. Different knives, different tickets.*
 
 Figure 2 is the buy list. Oak: stain-grade, a shear head if you have it, lower hook, watch the ray fleck on quartersawn if the designer asked for it and then flinched. Pine: paint-grade or a clear that will still dent, old “Arkansas soft pine” as a mild interior wood, new SYP as a harder, resinous cousin that will gum a knife if you let it. Poplar, which the mountains grow better than the Delta, is the paint-grade we actually want for a quirk. We buy it. We do not pretend it grew behind the courthouse.
 

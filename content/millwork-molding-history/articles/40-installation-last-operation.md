@@ -30,9 +30,11 @@ Find high corners. Spring long runs so the middle sits. Nail into backing, not i
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Installation is the last millwork operation.](../assets/installation-last-operation/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/installation-last-operation/historical-timeline.svg" alt="Historical timeline for Installation is the last millwork operation: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Find high corners, spring the long runs through A hairline, not a fillet — see “The wall was never straight.”</figcaption>
+</figure>
 
-*Figure 1. Layout, fasteners, scribes, and caulk as a confession instead of a member.*
 
 A story pole is older than a laser and still better for a rail height. A laser is better for a long hall that wants a waterline. Use both if the room is a hotel. Use neither if you are guessing from the floor. Floors lie.
 
@@ -44,9 +46,11 @@ Figure 1 is a sequence. People skip to caulk. Caulk is the last line, not the fi
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Installation is the last millwork operation.](../assets/installation-last-operation/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/installation-last-operation/shop-plate.svg" alt="Shop plate for Installation is the last millwork operation: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Nails, glue, and a confession of caulk.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A scribe thought and a caulk thought. One follows the wall. The other hides from it.*
 
 Figure 2 is the moral. Scribe is millwork. Caulk is a confession. Confessions should be quiet. A 3/8 caulk fillet is a shout.
 

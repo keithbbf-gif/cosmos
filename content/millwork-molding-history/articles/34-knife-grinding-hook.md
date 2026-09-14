@@ -30,9 +30,11 @@ Hook (rake) is the attack. Softer wood likes more slice. Harder wood likes more 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Knife grinding, hook, and the finish you can feel.](../assets/knife-grinding-hook/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/knife-grinding-hook/historical-timeline.svg" alt="Historical timeline for Knife grinding, hook, and the finish you can feel: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Square heads and a face grind through Match knives to ~0.0002 in if you can — see “Balance is not a personality trait.”</figcaption>
+</figure>
 
-*Figure 1. Face-grind days, chosen hook on rounds, oak with shear, and a match to a couple of ten-thousandths.*
 
 The old balance stories are still true in spirit: a little extra weight at speed becomes a lot of force. You will not run 6,000 rpm with sloppy bits and call it a finish. You will shake the spindle and wave the land.
 
@@ -44,9 +46,11 @@ Figure 1 is a shop-history of the head. We are in the corrugated-round world. If
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Knife grinding, hook, and the finish you can feel.](../assets/knife-grinding-hook/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/knife-grinding-hook/shop-plate.svg" alt="Shop plate for Knife grinding, hook, and the finish you can feel: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Hook, clearance, and a profile land.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A hook thought and a land thought. The land is where the finish lives.*
 
 Figure 2 is not a grind template. It is a reminder that the land — the little flat after jointing — is the finish surface. Too much land and you have no clearance, heat, glaze. Too little and the knife is a needle. Needles chip in oak.
 

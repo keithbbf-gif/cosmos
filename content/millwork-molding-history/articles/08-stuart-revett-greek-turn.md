@@ -30,9 +30,11 @@ Le Roy’s *Ruines* (1758) and Piranesi’s borrowings ran in the same decade. A
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Stuart, Revett, and the 1762 Greek turn.](../assets/stuart-revett-greek-turn/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/stuart-revett-greek-turn/historical-timeline.svg" alt="Historical timeline for Stuart, Revett, and the 1762 Greek turn: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Stuart and Revett reach Athens through Adam, Works in Architecture, vol. 1 — see “A book that changed a plane iron.”</figcaption>
+</figure>
 
-*Figure 1. Athens fieldwork, Le Roy, the 1762 volume, and Adam’s published preference.*
 
 A plane iron is a small thing to change after a war of plates, but that is how style arrives in wood. A quirked ovolo needs a different hollow. A Greek cyma is not two compass swings. Country carpenters in New England and Virginia did not all own *The Antiquities*. They owned Benjamin and Lafever, who had owned Stuart and Revett, or said they had. Lafever’s 1833 preface names the London volumes as the source for the ancient orders. That is a chain of custody. If you skip it, you will date a mantel by vibe.
 
@@ -46,9 +48,19 @@ The Ilissus plates also taught a lesson about the abacus: it can be a moulding, 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Stuart, Revett, and the 1762 Greek turn.](../assets/stuart-revett-greek-turn/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/stuart-revett-greek-turn/shop-plate.svg" alt="Shop plate for Stuart, Revett, and the 1762 Greek turn: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Ilissus quirk against a Roman abacus.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Quirked abacus thought against a straight Roman slab. The hairline is the news.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/stuart-revett-greek-turn/historical-plate.jpg" alt="Measured outline plate from Stuart and Revett's Antiquities of Athens, Greek moulding dimensions." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. James Stuart and Nicholas Revett, *The Antiquities of Athens* (London, 1762–1816 series). Public domain. Wikimedia Commons.</figcaption>
+</figure>
+
 
 Figure 2 is the news of 1762 in two lines. The Roman abacus is a fillet with thickness. The Greek one is a curve that tucks. On a wood pilaster in a dining room, that tuck is a 1/8-inch event. You will sand it off if you are sloppy. You will lose it in paint if the painter films it like a truck bumper. Tell the painter the quirk is the design. Painters are not the enemy. Unlabeled quirks are.
 

@@ -32,9 +32,11 @@ BBF-lane work has always had this split: linear millwork for the wall, each-part
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for CNC parts against the sticker line.](../assets/cnc-vs-sticker-line/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/cnc-vs-sticker-line/historical-timeline.svg" alt="Historical timeline for CNC parts against the sticker line: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. CNC routers enter custom shops through BBF-style shops run both on one job — see “Two machines, two kinds of money.”</figcaption>
+</figure>
 
-*Figure 1. Routers arrive, cabinets nest, knives still win footage, and a shop that runs both on one job.*
 
 Setup is the tell. A moulder setup is a grind (or a pulled knife from the cabinet), a joint, a test stick, a first-stick waste. That cost wants footage. A CNC setup is a program, a fixture, a tool list, a first-part waste. That cost wants repeats of a *part*, not a *foot*. If you have 12 identical newels, CNC. If you have 12 feet of newel-shaped moulding, you probably do not have a product.
 
@@ -48,9 +50,11 @@ AWI’s split between custom architectural woodwork and stock millwork is a pape
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for CNC parts against the sticker line.](../assets/cnc-vs-sticker-line/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/cnc-vs-sticker-line/shop-plate.svg" alt="Shop plate for CNC parts against the sticker line: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A part versus a stick.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Each-thinking on the left, footage-thinking on the right. Do not invoice them as cousins.*
 
 Figure 2 is the invoice. Left, a part: bounded, nested, maybe a newel or a bracket. Right, a stick: a profile that wants a tunnel. If you find yourself drawing a 16-foot base as a 3D solid with a toolpath, stop and ask whether a knife exists. If it does not, ask whether the footage will pay to grind one. If the footage is 40 feet, maybe CNC. If the footage is 400, grind.
 

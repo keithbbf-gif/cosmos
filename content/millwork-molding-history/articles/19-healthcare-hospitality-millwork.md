@@ -30,9 +30,11 @@ We are not going to name client buildings here. The CV list exists elsewhere. Th
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Healthcare and hospitality millwork, as a shop lane.](../assets/healthcare-hospitality-millwork/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/healthcare-hospitality-millwork/historical-timeline.svg" alt="Historical timeline for Healthcare and hospitality millwork, as a shop lane: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. ADA as a daily shop constraint through Same shop language, harder spec — see “FF&E that has to take a gurney.”</figcaption>
+</figure>
 
-*Figure 1. ADA as a daily constraint, package work, mixed materials, and a harder spec on the same grammar.*
 
 ADA (the 2010 Standards are the desk copy; the 1990 Act is the civic one) moves casework even when the designer is thinking about stain. Knee clearances, protruding objects, cane detection, door clearances: these change the box before you pick an ogee. A beautiful bolection on a transaction counter that eats the clear floor space is a failed beautiful bolection. `[VERIFY]` the section that applies to the piece in front of you. This essay is not a code review.
 
@@ -46,9 +48,11 @@ Solid surface and hardwood sharing a room is a joint problem. Different movement
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Healthcare and hospitality millwork, as a shop lane.](../assets/healthcare-hospitality-millwork/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/healthcare-hospitality-millwork/shop-plate.svg" alt="Shop plate for Healthcare and hospitality millwork, as a shop lane: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A cleanable edge against a dust ledge.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A dust-catching ovolo ledge beside a radiused clean edge. Same height, different mop.*
 
 Figure 2 is the argument with the designer who wants a Greek Revival cliff on a med-surg corridor. The cliff is a dust ledge. The radiused edge is a maintenance profile. You can still have shade: a shallow scotia that goes dark without a shelf, a small quirk that does not hold a swab. You cannot have a stacked arris that needs a toothbrush.
 

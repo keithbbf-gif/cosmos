@@ -32,9 +32,11 @@ None of that replaces the knife. A Unimat with a bad grind is a very expensive w
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for The four-side moulder, from sticker to Unimat.](../assets/four-side-moulder-history/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/four-side-moulder-history/historical-timeline.svg" alt="Historical timeline for The four-side moulder, from sticker to Unimat: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. C. B. Rogers at Norwich through Weinig line assembly, Unimat era — see “American stickers, then German series.”</figcaption>
+</figure>
 
-*Figure 1. Norwich, heavy moulders, Weinig’s specialty, and series assembly.*
 
 Tompkins and the VintageMachinery short history are the American shelf. They will argue details — who built the first inside moulder, whether Lee’s old machines still run, who invented the side-head chipbreaker (J. B. Tarr of Chicago is in that chorus). `[VERIFY]` a patent name before you put it on a wall. The shop lesson is earlier: once you have side heads, you can pattern a stick without walking it around a shaper. That is the birth of linear millwork as a product.
 
@@ -48,9 +50,11 @@ Figure 1 is a relay. If you skip the American sticker and start at 1964, you wil
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for The four-side moulder, from sticker to Unimat.](../assets/four-side-moulder-history/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/four-side-moulder-history/shop-plate.svg" alt="Shop plate for The four-side moulder, from sticker to Unimat: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Four heads around one stick.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Bottom, right, left, top — four verbs around a blank. Crown still wants a second thought on the back.*
 
 Figure 2 is the tunnel. Bottom usually cleans and may cut a back. Right and left take the edges. Top takes the face. Crown, bed, and picture-frame work often need both a top and a bottom profile — two passes, or two dedicated knives, because the stick is shaped on opposite faces. Woodmaster’s catalog language still says this in the hobby-industrial world: T knives and B knives, same gibs. Industrial shops know it in their sleep. New estimators forget it and wonder why the first crown run looks like a boat.
 

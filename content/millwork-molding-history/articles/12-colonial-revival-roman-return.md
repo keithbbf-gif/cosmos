@@ -32,9 +32,11 @@ Warren’s 1935–36 post office, Louis A. Simon for the Treasury, is Colonial R
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Colonial Revival and the return of Roman curves.](../assets/colonial-revival-roman-return/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/colonial-revival-roman-return/historical-timeline.svg" alt="Historical timeline for Colonial Revival and the return of Roman curves: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Centennial Exhibition taste through Warren, Ark., Colonial Revival post office — see “A fashion that flattened the quirk.”</figcaption>
+</figure>
 
-*Figure 1. Centennial taste, the big offices, catalog Colonial, and a Treasury post office in Warren.*
 
 Figure 1 is civic on purpose. Revival is a public language. It is also a kitchen language: six-panel doors, a small ogee backband, a base with a torus-ish cap. The quirked Greek mantel in the parlor — if the house is 1840 — may have been left alone while the 1920s added a Colonial stair. Two centuries, one address. Cookie each room.
 
@@ -48,9 +50,11 @@ The Warren post office date is from the 2012 AHPP walk. `[VERIFY]` if a caption 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Colonial Revival and the return of Roman curves.](../assets/colonial-revival-roman-return/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/colonial-revival-roman-return/shop-plate.svg" alt="Shop plate for Colonial Revival and the return of Roman curves: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Revival casing against a Greek door.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A calm Revival casing section beside a leftover Greek door thought.*
 
 Figure 2 is the mismatch you will find in remuddled houses. A 1920s casing — stepped fillets and a Roman ovolo — next to an 1840 door that still wants a quirked cap. You can keep both. You should not average them into a third profile that belongs to no year. Averaging is how “transitional” becomes a crime scene.
 

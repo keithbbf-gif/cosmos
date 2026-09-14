@@ -30,9 +30,11 @@ This is not a sermon against FJ. A 16-foot primed FJ casing that stays straight 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Finger-joint, MDF, and the paint-grade century.](../assets/finger-joint-mdf-paint-grade/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/finger-joint-mdf-paint-grade/historical-timeline.svg" alt="Historical timeline for Finger-joint, MDF, and the paint-grade century: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Finger-joint trim in merchant yards through Stain-grade is a special order again — see “Why the joint disappeared under primer.”</figcaption>
+</figure>
 
-*Figure 1. FJ in the yards, MDF lines, primed default sticks, and stain-grade as a special again.*
 
 Finger joints exist to make short clear pine into long sticks. The glue line is stronger than the wood if the plant is honest. Primer hides the fingers until raking light or a dark paint. Dark paint is how people discover they bought FJ. Tell them on the quote. If they want no fingers, they want solid, and they will pay for shorts and more joints in the room.
 
@@ -46,9 +48,11 @@ Healthcare specs will often name a finish system and a cleanability test. They m
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Finger-joint, MDF, and the paint-grade century.](../assets/finger-joint-mdf-paint-grade/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/finger-joint-mdf-paint-grade/shop-plate.svg" alt="Shop plate for Finger-joint, MDF, and the paint-grade century: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Solid, finger-joint, and a painted MDF.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three paint-grade lives: solid, finger-joint, MDF. Same cyma, three weathers.*
 
 Figure 2 is one profile in three materials. Solid poplar: the honest paint-grade, takes a quirk, takes a little ding, moves with the seasons as wood. FJ pine: long, straight, fingers under the film, will still move a little, ends can drink. MDF: stable until it is not, crisp profile, heavy, edges need sealing like you mean it.
 

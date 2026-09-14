@@ -30,9 +30,11 @@ This essay is the map we use before we grind. It is not a demand that every bedr
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Reading a room as if it still had an order.](../assets/reading-a-room-as-an-order/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/reading-a-room-as-an-order/historical-timeline.svg" alt="Historical timeline for Reading a room as if it still had an order: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Entablature on a wall through Stock rooms still obey or fail the map — see “The wall is still a temple, cheaply.”</figcaption>
+</figure>
 
-*Figure 1. The wall-as-order idea, Gibbs’s interior math, Benjamin’s assemblies, and stock rooms that still pass or fail.*
 
 Gibbs gives you the cornice fraction once you invent a column. Method 1 (pedestal + column + entablature) makes a smaller cornice. Method 3 (column on the floor) makes a larger one. That invention is the cheap temple. You do not build the column. You use it as a ruler. A 9-foot room can take a bigger hat than an 8-foot room. A parlor can take a bigger hat than a hall if you want hierarchy. Or the reverse, if you want the hall to announce and the parlor to refine. The old men did both. Pick one on purpose.
 
@@ -46,9 +48,11 @@ Doors are the architrave. That is why a header should be a little more serious t
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Reading a room as if it still had an order.](../assets/reading-a-room-as-an-order/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/reading-a-room-as-an-order/shop-plate.svg" alt="Shop plate for Reading a room as if it still had an order: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Pedestal, column, entablature on drywall.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three marks on a wall: base as pedestal, chair as dado, crown as cornice.*
 
 Figure 2 is the cheap temple in three marks. Base (and plinth, and shoe). Chair rail if the dado exists; skip it if you do not have a dado, unless you want a stick at chair height for scars. Crown. The field between is the shaft. Picture rail, if you have it, is a hanging device, not a dado cap — different essay, different height.
 

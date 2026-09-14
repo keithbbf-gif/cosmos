@@ -30,9 +30,11 @@ Benjamin and Lafever both drew doors as if they still believed in beams. We stil
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Casing is an architrave that learned to wrap a jamb.](../assets/casing-as-architrave/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/casing-as-architrave/historical-timeline.svg" alt="Historical timeline for Casing is an architrave that learned to wrap a jamb: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Architrave as the beam through Clamshell and a 1/8 reveal if you are lucky — see “A door that remembers a beam.”</figcaption>
+</figure>
 
-*Figure 1. Beam language, Federal steps, Greek ears, and the clamshell with a lucky reveal.*
 
 Federal stepped casings are fillets and a small ovolo — Roman, calm. Greek Revival likes ears (crossettes) and a heavier cap. Ranch likes a single clamshell and a hope. All three can be cut well. The mumble happens when you mix a Greek ear, a Federal step, and a ranch reveal that wanders from 1/16 to 3/8 down the hall.
 
@@ -42,9 +44,11 @@ Figure 1’s last hook is that lucky reveal. I have seen good carpenters save a 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Casing is an architrave that learned to wrap a jamb.](../assets/casing-as-architrave/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/casing-as-architrave/shop-plate.svg" alt="Shop plate for Casing is an architrave that learned to wrap a jamb: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Three casings and a reveal.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Clamshell, stepped, and a heavier eared thought. The reveal is the dark the drawing forgot.*
 
 Figure 2 is a lineup. Pick a family and stay. Backband is how a thin inner casing grows: a second stick, often an ogee, that makes a cheap architrave look like it ate dinner. We use it when the owner wants more door without a full Greek conversion.
 

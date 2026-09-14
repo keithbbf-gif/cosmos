@@ -30,9 +30,11 @@ A router 1/4-round is an ovolo the way a paper plate is a dish. It will get you 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Ovolo, echinus, and the quirk that makes a line.](../assets/ovolo-echinus-quirk/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/ovolo-echinus-quirk/historical-timeline.svg" alt="Historical timeline for Ovolo, echinus, and the quirk that makes a line: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Single-radius quarter-round through Router quarter-round is not an echinus — see “Egg, quarter-round, and a hairline.”</figcaption>
+</figure>
 
-*Figure 1. Roman circle, Greek echinus, Benjamin’s experiment, and the router bit that flattened the argument.*
 
 Eggs-and-darts are an enrichment on an ovolo, not a different member. CNC likes them. So did Roman stone. On a 16-foot painted casing they are noise. On a mantel they can be the point. Do not put them on a healthcare edge. Dirt lives in darts.
 
@@ -44,9 +46,11 @@ Figure 1 ends on the router because that is the living enemy of this member. The
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Ovolo, echinus, and the quirk that makes a line.](../assets/ovolo-echinus-quirk/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/ovolo-echinus-quirk/shop-plate.svg" alt="Shop plate for Ovolo, echinus, and the quirk that makes a line: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Three ovolos in one height.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Roman, Greek, and a router quarter-round. Same height, three tempers.*
 
 Figure 2 is a lineup. Roman: calm, even light. Greek: bright lip, black quirk. Router: a radius that dies into a fillet the bit happened to leave. On a moulder the Greek one is the grind that scares apprentices. The fin is thin. The oak is mean. Shear, hook, test stick. If the quirk chips, you went too thin or too fast, not “the style is impossible.” The style was cut in pine with planes for twenty years in every county that owned Lafever.
 

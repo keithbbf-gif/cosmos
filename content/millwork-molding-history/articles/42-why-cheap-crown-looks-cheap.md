@@ -30,9 +30,11 @@ Chambers wanted a simple interior cornice between 1/15 and 1/20. Gibbs’s table
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Why cheap crown looks cheap.](../assets/why-cheap-crown-looks-cheap/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/why-cheap-crown-looks-cheap/historical-timeline.svg" alt="Historical timeline for Why cheap crown looks cheap: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Gibbs: nearer 1/15–1/20 than 1/40 through Whole back kissing a bad ceiling — see “Four ways a stick loses the argument.”</figcaption>
+</figure>
 
-*Figure 1. Height, parts, curve, and landing — four tests a yard stick usually skips.*
 
 You can fix height with a built-up without becoming a palace. You can add a ripped corona to a stock cyma. You can grind a small quirk into a blob. You can land on an edge. None of that is a marble hall. It is the grammar.
 
@@ -44,9 +46,11 @@ Figure 1 is a checklist we use on the sample wall. If two tests fail, we say so 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Why cheap crown looks cheap.](../assets/why-cheap-crown-looks-cheap/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/why-cheap-crown-looks-cheap/shop-plate.svg" alt="Shop plate for Why cheap crown looks cheap: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Stock 3-5/8 against a built-up 7.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A skinny yard wave beside a short built-up that still has a slab. Same room, different hat.*
 
 Figure 2 is the remodel picture from the ranch essay, said again because it is the living problem. Left, 3-5/8 sprung. Right, about 7 inches of three jobs. In a 10-foot room the right one is near Chambers’s ceiling. In an 8-foot room, thin it. Do not use the 7 as a religion. Use the tests.
 

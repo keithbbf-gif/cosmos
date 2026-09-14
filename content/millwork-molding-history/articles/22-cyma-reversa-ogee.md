@@ -30,9 +30,11 @@ A quirked ogee tucks at the end and throws a hairline. Greek plates love it. A p
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Cyma reversa, or the ogee that can hold weight.](../assets/cyma-reversa-ogee/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/cyma-reversa-ogee/historical-timeline.svg" alt="Historical timeline for Cyma reversa, or the ogee that can hold weight: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Cyma reversa / French talon through Door cap and bedmould still use it — see “The support wave.”</figcaption>
+</figure>
 
-*Figure 1. The reversa as a support, Benjamin’s rule, the Greek quirk, and the door cap that still uses it.*
 
 Radocchia, reading Benjamin, liked that he made you feel whether a moulding supports or shelters, and that he remembered rain. An ogee on the outside can hold a drip in the hollow if you are careless; on the inside that hollow is a dust line under a shelf. Either way the member is a shoulder. A cavetto in the same seat will look like a shrug.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is that door cap. We grind more ogees for doors than for 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Cyma reversa, or the ogee that can hold weight.](../assets/cyma-reversa-ogee/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/cyma-reversa-ogee/shop-plate.svg" alt="Shop plate for Cyma reversa, or the ogee that can hold weight: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Quirked ogee and a plain talon.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A plain supporting ogee beside a quirked cousin. Same verb, different hairline.*
 
 Figure 2 is the grind choice. Plain talon: restful, Roman, easy paint. Quirked: a dark thread, more grind, more sanding risk. On stain-grade oak the quirk is a pride if it lives and a brown burn if the side clearance was a wish. On paint-grade poplar it is almost free once the knife exists.
 

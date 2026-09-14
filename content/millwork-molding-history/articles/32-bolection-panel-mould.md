@@ -30,9 +30,11 @@ An MDF slab with a planted stick is the 21st-century grandchild. It can look fin
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Bolection, stuck mould, and the applied panel.](../assets/bolection-panel-mould/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/bolection-panel-mould/historical-timeline.svg" alt="Historical timeline for Bolection, stuck mould, and the applied panel: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Stuck moulds and fielded panels through MDF slab with a planted stick — see “How a panel meets a rail.”</figcaption>
+</figure>
 
-*Figure 1. Stuck and fielded, the 1786 book, Newlands’s applied Greek, and the planted MDF stick.*
 
 Fielding a panel is millwork that thinks like a door shop: bevels, a raise, a flat field. It moves with the seasons if the panel is solid. Applied moulds on a plywood panel are how hotels get 200 doors that stay flat. Both are honest if named.
 
@@ -44,9 +46,11 @@ Figure 1 is a technology story as much as a style story. Applied moulds are easi
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Bolection, stuck mould, and the applied panel.](../assets/bolection-panel-mould/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/bolection-panel-mould/shop-plate.svg" alt="Shop plate for Bolection, stuck mould, and the applied panel: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Stuck, applied, bolection.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three meetings: cut on the frame, planted on the joint, stepping over both.*
 
 Figure 2 is the punch-list picture. If you are matching 1780, look for fielding and a stuck ovolo. If you are matching 1850, look for a planted quirked mould and a flat panel. If you average them, you get a door from nowhere.
 

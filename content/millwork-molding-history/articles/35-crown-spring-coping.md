@@ -30,9 +30,11 @@ Stock U.S. springs are often 38 and 45. `[VERIFY]` the stick in your hand. The a
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Spring angle, nested crown, and the cope.](../assets/crown-spring-coping/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/crown-spring-coping/historical-timeline.svg" alt="Historical timeline for Spring angle, nested crown, and the cope: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. 38° and 45° springs as common stock through Ceiling edge, not the whole soffit, should land — see “Fence is the wall.”</figcaption>
+</figure>
 
-*Figure 1. Two common springs, nested versus flat, the cope, and a ceiling that should meet an edge.*
 
 If the whole soffit back kisses a wavy ceiling, every hump is a joint. A well-ground crown lands on an outer edge so the wave can hide. Ranch ceilings need that more than Georgian ones. Georgian ceilings were sometimes plaster and proud of it. Ranch ceilings are a weekend.
 
@@ -44,9 +46,11 @@ Figure 1 is a jobsite spine. The shop’s job is to grind flats that actually si
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Spring angle, nested crown, and the cope.](../assets/crown-spring-coping/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/crown-spring-coping/shop-plate.svg" alt="Shop plate for Spring angle, nested crown, and the cope: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Nested 38 against nested 45.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Two nested thoughts. The fence is the wall in both; the hat sits differently.*
 
 Figure 2 is not a saw chart. It is a reminder that 38 and 45 throw the face differently. A 45 spring puts more of the stick on the ceiling. A 38 puts more on the wall. Rooms with bad ceilings like more wall. Rooms with short walls and a high lid like more ceiling — the Victorian flatten, cheaply.
 

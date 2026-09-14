@@ -32,9 +32,11 @@ NPS and the rehab briefs say replace in kind. `[VERIFY]` the brief that applies 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Matching a dead profile without guessing.](../assets/matching-historic-profiles/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/matching-historic-profiles/historical-timeline.svg" alt="Historical timeline for Matching a dead profile without guessing: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Sawn section or lead-sheet rubbing through Make extra; the next opening will lie — see “A cookie is better than a memory.”</figcaption>
+</figure>
 
-*Figure 1. A sawn section, a full-size plot, a stripped sample, and extras because the next opening will lie.*
 
 Take the cookie from a scrap, a closet, a piece that is coming out anyway. Do not vandalize a parlor for a souvenir. If you cannot saw, rub. If you cannot rub, scribe with a profile gauge and then distrust the gauge — they flex.
 
@@ -46,9 +48,11 @@ Figure 1’s last hook is extras. The next opening is always a little different.
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Matching a dead profile without guessing.](../assets/matching-historic-profiles/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/matching-historic-profiles/shop-plate.svg" alt="Shop plate for Matching a dead profile without guessing: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Catalog cousin against the house section.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. The house cookie beside the cousin the yard wanted to sell. They are not friends.*
 
 Figure 2 is the sales fight. The cousin is cheaper. The cousin is in stock. The cousin will make the new hall look like 1998 next to an 1840 parlor. Sometimes the owner wants that — a clean new wing. Write it. Do not call it a match.
 

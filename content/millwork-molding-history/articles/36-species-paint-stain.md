@@ -30,9 +30,11 @@ The Bradley postcard sold mild-textured oak and soft pine in the same breath. We
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Poplar, oak, walnut, pine: paint-grade and stain-grade.](../assets/species-paint-stain/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/species-paint-stain/historical-timeline.svg" alt="Historical timeline for Poplar, oak, walnut, pine: paint-grade and stain-grade: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Paint-grade workhorse through Old millwork and new FJ — see “What the belt actually grew.”</figcaption>
+</figure>
 
-*Figure 1. Four species, four tickets. The belt grew oak and pine; we import the rest.*
 
 Poplar is an Appalachian and bottomland gift that did not need to grow in the courthouse square to be our paint-grade. We buy it. Oak did grow here. Walnut is a fence-row and furniture-room wood. Pine built the town.
 
@@ -44,9 +46,11 @@ Figure 1 is a buy list, not a forest inventory. If a caption needs a county spec
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Poplar, oak, walnut, pine: paint-grade and stain-grade.](../assets/species-paint-stain/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/species-paint-stain/shop-plate.svg" alt="Shop plate for Poplar, oak, walnut, pine: paint-grade and stain-grade: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Four species, one cyma.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. The same wave in four woods. The knife does not get to pretend they are one.*
 
 Figure 2 is why we test in the job species. A poplar cyma can look fair and still fuzz in oak. A pine cyma can gum. A walnut cyma can burn at the hollow. One grind, four personalities.
 

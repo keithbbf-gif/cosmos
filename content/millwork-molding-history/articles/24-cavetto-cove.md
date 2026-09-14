@@ -30,9 +30,11 @@ A large Egyptian gorge is a cavetto at architectural volume. A scotia is a deepe
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Cavetto and cove: the hollow that covers.](../assets/cavetto-cove/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/cavetto-cove/historical-timeline.svg" alt="Historical timeline for Cavetto and cove: the hollow that covers: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Cavetto as covering member through Sprung cove as the cheap cornice — see “A point that must not carry.”</figcaption>
+</figure>
 
-*Figure 1. Covering hollow, the Egyptian cousin, a Victorian stand-in, and the sprung cove as a cheap cornice.*
 
 Victorian designers sometimes replaced a corona with a big scotia to lighten a cornice and lift a ceiling. That is a dialect. The hollow is then sitting where a flat soffit was. It can work if the other members stay in their seats. It does not work if you delete everything and leave the hollow. That leftover is the 1950s sprung cove.
 
@@ -44,9 +46,11 @@ Figure 1 is a descent in scale. Temple, book, dialect, remnant. The remnant stil
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Cavetto and cove: the hollow that covers.](../assets/cavetto-cove/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/cavetto-cove/shop-plate.svg" alt="Shop plate for Cavetto and cove: the hollow that covers: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Cove sprung, cove built.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A proper small cavetto beside a sprung hollow asked to do a whole hat.*
 
 Figure 2 is the ranch problem in the hollow family. A small cavetto is a member. A sprung cove is a member asked to be an order. If you must use the sprung stick, give it a ceiling fascia so a soffit appears, and a bed so a shoulder appears. Now you have a built-up that happens to use a cove as the cyma. Fine. That is a decision.
 

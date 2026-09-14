@@ -30,9 +30,11 @@ The shoe is a scribe. It follows a floor that was never flat. It is not a profil
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Base, plinth, and the shoe that hides the sin.](../assets/base-plinth-shoe/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/base-plinth-shoe/historical-timeline.svg" alt="Historical timeline for Base, plinth, and the shoe that hides the sin: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Pedestal plinth and die through Shoe as scribe, not as profile — see “What the floor is allowed to do.”</figcaption>
+</figure>
 
-*Figure 1. Pedestal language, the two-piece habit, the skinny mopboard, and the shoe as a scribe.*
 
 Two-piece base — a die plus a cap, sometimes a separate plinth — is 19th-century common and still the best custom answer. You can run long flats and short fancy caps. You can replace a damaged cap without ripping the hall. You can scribe the die or the shoe and leave the cap calm.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the shoe. I would rather see a small shoe and a proud 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Base, plinth, and the shoe that hides the sin.](../assets/base-plinth-shoe/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/base-plinth-shoe/shop-plate.svg" alt="Shop plate for Base, plinth, and the shoe that hides the sin: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Two-piece base against a one-piece.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Plinth, cap, and shoe as three thoughts. A one-piece mash is a different, thinner sentence.*
 
 Figure 2 names the parts. If the ticket says “base,” we ask which parts. Height of die, profile of cap, yes/no shoe, yes/no plinth block at doors. Plinth blocks are a casing conversation that saves the base from dying into a thin door mould. We will get there. Here, know that a base that is thicker than the casing wants a plinth or a return, not a hope.
 

@@ -30,9 +30,11 @@ A reveal is the dark step from jamb to casing. 1/8 is tight and fussy. 1/4 is ea
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Reveals, plinth blocks, and backband.](../assets/reveals-plinth-backband/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/reveals-plinth-backband/historical-timeline.svg" alt="Historical timeline for Reveals, plinth blocks, and backband: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. 1/8 to 1/4 common; pick one through Clamshell with no plinth, and it shows — see “The lines a room reads first.”</figcaption>
+</figure>
 
-*Figure 1. A reveal range, a plinth that is actually thicker, a backband habit, and a clamshell that skipped the block.*
 
 Plinths exist so the base can die into a block instead of into a thin moulding. If the plinth is thinner than the base, you have a backward step. If it is shorter than the base is tall, you have a base that climbs the block. Both look like mistakes even when the knife is perfect.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the clamshell with no plinth. We still install those. 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Reveals, plinth blocks, and backband.](../assets/reveals-plinth-backband/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/reveals-plinth-backband/shop-plate.svg" alt="Shop plate for Reveals, plinth blocks, and backband: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Thin casing, then a backband.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Plinth, casing, backband as a stack. The reveal is the dark the stack sits on.*
 
 Figure 2 is the door bottom. The plinth is a block. The casing lands on it. The backband lands on the casing. The reveal is under the whole stack at the jamb. If any of those levels is inverted, the door mumbles.
 

@@ -30,9 +30,11 @@ He is not Palladio. He is the man who thought a joiner in a wooden republic shou
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Asher Benjamin and the American country shop.](../assets/asher-benjamin-companion/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/asher-benjamin-companion/historical-timeline.svg" alt="Historical timeline for Asher Benjamin and the American country shop: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Country Builder’s Assistant through Lafever cites Stuart & Revett — see “Greenfield plates for a wooden republic.”</figcaption>
+</figure>
 
-*Figure 1. Assistant, Companion, the thick 1827 edition, and Lafever taking the next shift.*
 
 The Assistant is the earlier, thinner tool. Regular and quirked. Thirty-seven plates in the early issues. `[VERIFY]` plate counts if you caption a specific edition; they move. The Companion is the system: geometry, Grecian and Roman mouldings, doors, cornices, a whole house language “adapted to the present style of building” in the United States. Present style, 1806, already means Greek is winning. Present style, 1827, means the plates have multiplied.
 
@@ -46,9 +48,19 @@ Country, in his title, is not an insult. It means the builder is not in a London
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Asher Benjamin and the American country shop.](../assets/asher-benjamin-companion/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/asher-benjamin-companion/shop-plate.svg" alt="Shop plate for Asher Benjamin and the American country shop: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “The 45-degree cornice experiment.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Benjamin’s point: a quirked section can trade height for contrast. Dotted thought, solid grind.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/asher-benjamin-companion/historical-plate.jpg" alt="Copperplate of moulding profiles from Asher Benjamin's American Builder's Companion (1827 edition)." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Scan from Asher Benjamin, *The American Builder's Companion* (Boston, 6th ed., 1827). Public domain. Wikimedia Commons / Internet Archive.</figcaption>
+</figure>
+
 
 Figure 2 restates the 1806 experiment without pretending to be his copper. A Roman ovolo and a quirked ovolo, same conversation about height. He said a modern cornice two-thirds as tall as a Tuscan copied from Langley could look nearly as tall at forty-five degrees, and that you might save a fourth of the expense besides keeping wall height. `[VERIFY]` the fractions on the plate before you sell a “Benjamin two-thirds” as a number. The usable claim is: contrast buys apparent size. A timid, tall profile can look smaller than a shorter one with a quirk and a real soffit.
 

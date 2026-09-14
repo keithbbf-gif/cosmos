@@ -30,9 +30,11 @@ A catalog number is a machine’s memory. Once a profile is a SKU, a shop in Chi
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Victorian catalogs and the stock stick.](../assets/victorian-stock-catalogs/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/victorian-stock-catalogs/historical-timeline.svg" alt="Historical timeline for Victorian catalogs and the stock stick: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Woodworth planer in wide use through Mail-order millwork to the prairie — see “When a profile became a SKU.”</figcaption>
+</figure>
 
-*Figure 1. Planer, heavy moulder, Tompkins’s book, and mail-order millwork riding the rails.*
 
 Mail-order millwork is the last hook in Figure 1. By the 1890s a house on the prairie could have a spindle porch and a boxed cornice that never saw a local joiner’s plane. The sticks rode in mixed cars — the same language Bradley Lumber used on a postcard: mixed car headquarters, pine millwork, furniture stock. A Southern mill town was not only logs. It was a factory that could load trim.
 
@@ -46,9 +48,11 @@ Figure 1 is industrial on purpose. This is not a style essay about Eastlake vs Q
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Victorian catalogs and the stock stick.](../assets/victorian-stock-catalogs/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/victorian-stock-catalogs/shop-plate.svg" alt="Shop plate for Victorian catalogs and the stock stick: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Catalog crown against a built-up.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A one-piece catalog wave beside the corona it usually forgot.*
 
 Figure 2 is the visual of the century. Left, a sprung wave that tries to be a whole entablature. Right, a corona — the flat with a soffit — that the wave omitted. You can buy both in a yard if you look. Most tickets buy the wave. The room looks thinner than the money.
 

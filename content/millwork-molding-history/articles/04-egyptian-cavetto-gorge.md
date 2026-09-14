@@ -30,9 +30,11 @@ Benjamin would still call a cavetto a covering member. It ends in a point. It do
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for The Egyptian cavetto and the gorge cornice.](../assets/egyptian-cavetto-gorge/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/egyptian-cavetto-gorge/historical-timeline.svg" alt="Historical timeline for The Egyptian cavetto and the gorge cornice: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Cavetto cornice on temple walls through Stock cove is not a gorge — see “A hollow older than the orders.”</figcaption>
+</figure>
 
-*Figure 1. Temple hollow, Napoleonic plates, American Revival rooms, and the stock cove that forgot the gorge.*
 
 Dating a first cavetto is a fool’s errand in a millwork essay. The form is pharaonic, repeated on pylons and shrine walls for centuries. `[VERIFY]` any specific temple you want to name in a caption; this plate is the type, not a site report. What matters for a later shop is the afterlife. French plates put the gorge in libraries. English and American architects put it on cemetery gates, medical-college doorways, and the occasional parlor that wanted to feel like a Nile that had never seen Arkansas.
 
@@ -46,9 +48,11 @@ Figure 1 ends on the stock cove because that is the living fossil. People buy it
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for The Egyptian cavetto and the gorge cornice.](../assets/egyptian-cavetto-gorge/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/egyptian-cavetto-gorge/shop-plate.svg" alt="Shop plate for The Egyptian cavetto and the gorge cornice: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Gorge against a small cove.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A large gorge flare beside a timid cavetto. Same family, not the same job.*
 
 Figure 2 is a scale lesson. The small cavetto is the classic covering hollow, the one Benjamin pairs with a cyma recta as a lid. The gorge is the same verb shouted. On a moulder you will not run a true temple flare in one stick unless the ceiling is a warehouse. You build it: a wide cove, a fascia, a torus. Or you admit you are making a cove crown and stop using the word Egyptian.
 

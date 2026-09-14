@@ -30,9 +30,11 @@ This series lives in that middle country. Bradley Brand Furniture grew up next t
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for What millwork is, and what it is not.](../assets/what-millwork-is/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/what-millwork-is/historical-timeline.svg" alt="Historical timeline for What millwork is, and what it is not: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. American pattern books name mouldings through Sticker line and CNC share one ticket — see “Three words that get borrowed.”</figcaption>
+</figure>
 
-*Figure 1. Four dates a shop can argue about — pattern books, moulders, Warren’s cut, and the split ticket.*
 
 A *mill* saws or planes. In south Arkansas that meant a daily board-foot number and a whistle. Bradley Lumber, Southern Lumber, and Arkansas Lumber were mills in that sense: log deck, head rig, kiln, planer. Postcard language from Bradley Lumber still says the quiet part — oak and other native hardwoods, furniture stock, pine millwork, mixed cars. Millwork left those sheds as a product line, not as a philosophy.
 
@@ -48,9 +50,11 @@ Figure 1 hangs four hooks. American pattern books — Benjamin in Greenfield, la
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for What millwork is, and what it is not.](../assets/what-millwork-is/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/what-millwork-is/shop-plate.svg" alt="Shop plate for What millwork is, and what it is not: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A stick, a profile, a length.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three words you can hold: a profile, a length, a stick. The dashed line is the wall or the fence.*
 
 Hold a piece of crown. The back is two rabbets, or two flats, that want a wall and a ceiling. The face is a conversation about shade. The length is whatever the kiln and the moulder left you after you cut out the pith and the shake. That object is millwork. Figure 2 is a reminder to keep the three words from collapsing. A profile without a length is a router bit. A length without a profile is a board. A stick that is neither is firewood.
 

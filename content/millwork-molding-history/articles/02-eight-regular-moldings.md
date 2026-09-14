@@ -30,9 +30,11 @@ Hatfield, later, in *The American House Carpenter*, still counted eight and stil
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for The eight regular moldings, as a shop grammar.](../assets/eight-regular-moldings/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/eight-regular-moldings/historical-timeline.svg" alt="Historical timeline for The eight regular moldings, as a shop grammar: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Roman and Greek sections named through Stock knives still chase the eight — see “Benjamin’s eight, and why they have jobs.”</figcaption>
+</figure>
 
-*Figure 1. From named antique sections to a stock rack that still chases the same eight.*
 
 Palladio’s 1570 books are the Italian grandfather. He drew Roman circles because Rome was what he could measure. The names were already old: *ovolo* from *ovum*, the egg; *cavetto* from a hollow; *scotia* from darkness; *cymatium* from a small wave. A shop in Warren does not need to love Venice. It needs to know that a covering member and a supporting member are not interchangeable just because both look “fancy” on a phone.
 
@@ -48,9 +50,19 @@ The other failure is the missing separator. Two torus-shaped members butted toge
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for The eight regular moldings, as a shop grammar.](../assets/eight-regular-moldings/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/eight-regular-moldings/shop-plate.svg" alt="Shop plate for The eight regular moldings, as a shop grammar: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A plate of eight sections.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Eight regular sections, wall at the dashed line. Jobs first, catalog numbers later.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/eight-regular-moldings/historical-plate.jpg" alt="Benjamin Companion copperplate of classical moulding sections—the eight regular profiles in American shops." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Asher Benjamin, *The American Builder's Companion* (1827), profile plate. Public domain. Wikimedia Commons / Internet Archive.</figcaption>
+</figure>
+
 
 Figure 2 is the alphabet. Read it left to right the way Benjamin listed them, more or less: fillet, astragal, ogee, cyma recta, cavetto, ovolo, scotia, torus. The dashed line is the wall, or the fence of the moulder, or the arris you are measuring from. None of these paths is a grind. A grind needs a cutting circle, a hook, and a piece of M2 that has been balanced. This is the talk that happens before the grind.
 

@@ -30,9 +30,11 @@ Chambers, in the 18th century, said a simple interior cornice ought never to exc
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for The ranch house and the skinny crown.](../assets/postwar-ranch-skinny-crown/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/postwar-ranch-skinny-crown/historical-timeline.svg" alt="Historical timeline for The ranch house and the skinny crown: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. FHA minimums and the 8-foot plate through Colonial appliqué on the same box — see “A ceiling that refused an order.”</figcaption>
+</figure>
 
-*Figure 1. Eight-foot habits, the missing cornice, finger-joint paint-grade, and Colonial stickers on the same box.*
 
 Figure 1 is a decline with a little costume at the end. 1970s Colonial appliqué on a ranch is a fanlight sticker and the same skinny crown. The order did not come back. A memory of an order came back, in plastic and in 3-inch casing.
 
@@ -46,9 +48,11 @@ Finger-joint paint-grade is the material of this era. It is not a moral failure.
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for The ranch house and the skinny crown.](../assets/postwar-ranch-skinny-crown/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/postwar-ranch-skinny-crown/shop-plate.svg" alt="Shop plate for The ranch house and the skinny crown: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Skinny sprung crown against a built-up.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A 2-1/4 sprung thought beside a small built-up that still has a corona.*
 
 Figure 2 is the remodel choice. Left, the yard stick, sprung, no soffit, a cove pretending to be an entablature. Right, a short built-up: cyma, a thin corona, a bed. Same room. Different shadow. The built-up can be three paint-grade sticks you already stock. It does not require a Greek Revival conversion. It requires a decision.
 

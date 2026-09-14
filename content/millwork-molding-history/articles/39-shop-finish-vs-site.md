@@ -32,9 +32,11 @@ Prefinish long runs. Leave a touch-up kit that is the actual system, not a hardw
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Shop finish against a site finish.](../assets/shop-finish-vs-site/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/shop-finish-vs-site/historical-timeline.svg" alt="Historical timeline for Shop finish against a site finish: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Shop stain, shop sealer through Caulk is not a finish plan — see “Where the dust is allowed to live.”</figcaption>
+</figure>
 
-*Figure 1. Shop stain, paint paths, a named healthcare system, and caulk that is not a finish plan.*
 
 Dust in a booth is a failure of process. Dust on a site is weather. You cannot run a 16-foot stain-grade walnut rail in a hotel lobby with the drywallers still sanding and then blame the wood. Sequence is a finish spec.
 
@@ -46,9 +48,11 @@ Figure 1’s last hook is caulk. Painters will caulk a bad cope and then paint t
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Shop finish against a site finish.](../assets/shop-finish-vs-site/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/shop-finish-vs-site/shop-plate.svg" alt="Shop plate for Shop finish against a site finish: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Booth film against a site film.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A booth thought and a ladder thought. Same color name, two builds.*
 
 Figure 2 is why “match this fan deck” fails. The name is not the build. Sheen, film thickness, and the way a quirk holds paint are the build. A shop sample and a site wall can share a name and still fight at the door.
 

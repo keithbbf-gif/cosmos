@@ -30,9 +30,11 @@ The planer mill is where lumber becomes a product a carpenter will touch. Rough 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Southern mill towns and the planer mill.](../assets/southern-mill-towns-planer/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/southern-mill-towns-planer/historical-timeline.svg" alt="Historical timeline for Southern mill towns and the planer mill: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Lindsay & Ainsworth operation, later Southern Lumber through Potlatch buys Southern and Bradley — see “A town built on a daily cut.”</figcaption>
+</figure>
 
-*Figure 1. An 1880s start, the 1901–02 incorporations, the 1907 class of cut, and Potlatch’s 1950s buy.*
 
 Southern and Arkansas jointly built the Warren & Ouachita Valley to Banks to meet the Rock Island. Logs came by rail and by animal. Commissaries paid in scrip. The AHPP walk through downtown Warren still points at the Bradley Store building (1920) and the hole where a commissary sat. That is not nostalgia. It is how a linear foot of pine trim was financed: a town that ate, slept, and bought flour in the same ledger as the cut.
 
@@ -46,9 +48,11 @@ Figure 1 stops at Potlatch because that is when the big-town mill story becomes 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Southern mill towns and the planer mill.](../assets/southern-mill-towns-planer/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/southern-mill-towns-planer/shop-plate.svg" alt="Shop plate for Southern mill towns and the planer mill: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “From log deck to sticker shed.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three thoughts in a line: log, planer, sticker. Millwork is the last shed, not the first.*
 
 Figure 2 is a flow, not a measured plant. Log deck, planer, sticker. A furniture shop that still has access to a planer mill — this lane has talked that way when the footage is real, 500 units and up — is standing in that flow. Most custom shops now buy kiln-dried S4S and pretend the first two sheds never existed. They existed. They set the moisture, the grain, the length, the waste. If your oak is mild-textured, someone at a head rig decided which log you got. Bradley’s postcard bragged on that texture. Brag or not, texture is a knife problem. Mild oak is a gift. Wild oak is a Monday.
 

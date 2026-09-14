@@ -6,12 +6,15 @@
   <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#2c2416">Gibbs, Swan, and the Anglo-Palladian shop — shop plate</text>
   <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Line sections for the second heading. Not a knife grind.</text>
   <rect x="24" y="72" width="712" height="360" fill="#efe6d4" stroke="#c4b49a"/>
-  <path d="M 123.68 150 C 133.28 157.2 130.88 171.6 147.68 174.0 C 166.88 176.4 171.68 186.0 171.68 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="115.68" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Gibbs cyma</text>
-  <line x1="113.68" y1="140" x2="113.68" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
-  <path d="M 479.68 150 L 527.6800000000001 150 L 527.6800000000001 163.44 L 490.24 163.44 L 490.24 176.4" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="471.68" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">corona</text>
-  <line x1="469.68" y1="140" x2="469.68" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 90.45333333333335 150 C 100.05333333333334 157.2 97.65333333333335 171.6 114.45333333333335 174.0 C 133.65333333333336 176.4 138.45333333333335 186.0 138.45333333333335 198" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82.45333333333335" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">Gibbs cyma</text>
+  <line x1="80.45333333333335" y1="140" x2="80.45333333333335" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 327.78666666666675 150 L 344.58666666666676 150 L 344.58666666666676 166.8 L 327.78666666666675 166.8" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="319.78666666666675" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">listel</text>
+  <line x1="317.78666666666675" y1="140" x2="317.78666666666675" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
+  <path d="M 565.12 150 L 613.12 150 L 613.12 163.44 L 575.68 163.44 L 575.68 176.4" fill="none" stroke="#2c2416" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="557.12" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#2c2416">corona</text>
+  <line x1="555.12" y1="140" x2="555.12" y2="310" stroke="#c4b49a" stroke-dasharray="3 4"/>
   <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#6b5a45">Wall / fence is the dashed line. Curves are shop language, not CAD export.</text>
   <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#6b5a45">Illustrative shop plate — not a grind template. BBF millwork lane, staged.</text>
 </svg>

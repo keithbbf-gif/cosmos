@@ -30,9 +30,11 @@ A shoe is not a scotia. A timid cove is not a scotia. A shadow-gap in modern cab
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Scotia: the hollow named for darkness.](../assets/scotia-dark-hollow/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/scotia-dark-hollow/historical-timeline.svg" alt="Historical timeline for Scotia: the hollow named for darkness: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Attic base: torus, scotia, torus through Shoe mould pretending to be a scotia — see “Why the hollow is supposed to go black.”</figcaption>
+</figure>
 
-*Figure 1. Attic base, the Greek word, Benjamin’s separator, and a shoe pretending to be a hollow.*
 
 Set a sample under raking light. If you can still see the back of the hollow easily, it is too shy. Paint will make it shyer. Stain will sometimes help if the hollow goes darker, but stain will not invent depth. Depth is the grind.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the shoe, because that is the living insult. A quarter
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Scotia: the hollow named for darkness.](../assets/scotia-dark-hollow/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/scotia-dark-hollow/shop-plate.svg" alt="Shop plate for Scotia: the hollow named for darkness: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Attic base in three moves.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Upper torus, scotia, lower torus. The middle is supposed to disappear.*
 
 Figure 2 is the Attic sentence. You can build it in wood as three sticks. You should, if the scale is a room base and not a dollhouse. One wide grind will cup and the darkness will move with the weather. Three sticks let the hollow stay hollow.
 

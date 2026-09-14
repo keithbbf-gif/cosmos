@@ -30,9 +30,11 @@ This is the shop culture the colonies actually had: compass, module, Roman circl
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Gibbs, Swan, and the Anglo-Palladian shop.](../assets/gibbs-swan-anglo-palladian/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/gibbs-swan-anglo-palladian/historical-timeline.svg" alt="Historical timeline for Gibbs, Swan, and the Anglo-Palladian shop: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Gibbs, Rules for Drawing through Drayton Hall mantel follows Roman rules — see “English plates in American tool chests.”</figcaption>
+</figure>
 
-*Figure 1. Gibbs, Swan, Salmon, and a Charleston mantel that did the homework.*
 
 Gibbs matters for a second reason that has nothing to do with Charleston. Interior designers who still believe in cornices use his fractions — or the Classical Proportions tables derived from him — to pick a height from a ceiling. Method 1 (full order with pedestal) makes a smaller cornice, about 1/19 of the height on his Ionic. Method 3 (column on the floor) makes a larger one, about 1/15. Hierarchy between rooms is the point. A hall can be heavier than a bedroom. A drawing room can go the other way. The numbers are not laws. They are a way to stop buying the same 4-inch stick for every ceiling.
 
@@ -46,9 +48,19 @@ Colonial shops from Boston to the low country owned these plates the way a moder
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Gibbs, Swan, and the Anglo-Palladian shop.](../assets/gibbs-swan-anglo-palladian/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/gibbs-swan-anglo-palladian/shop-plate.svg" alt="Shop plate for Gibbs, Swan, and the Anglo-Palladian shop: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Gibbs cornice fractions.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A Gibbs-style cyma and corona. Height is a fraction of the room, not a SKU.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/gibbs-swan-anglo-palladian/historical-plate.jpg" alt="Engraved plate from Abraham Swan's British Architect pattern book, Anglo-Palladian moulding and stair details." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Abraham Swan, *The British Architect* (London, 1745), plate scan via The Metropolitan Museum of Art (Open Access). CC0 1.0 where marked on Commons.</figcaption>
+</figure>
+
 
 Figure 2 is the interior object: a covering cyma and a corona with a soffit. The bedmould is implied. The lesson is the height. Take a 10-foot room (120 inches). Ionic, method 3, Gibbs-derived, is about 1/15.43 — call it 7-3/4 inches of cornice if you are not going to fight the table. Method 1 on the same order is nearer 6-1/4. That difference is visible. It is also the difference between “the room has a hat” and “the room has a line.” Chambers later said a simple interior cornice ought to sit between 1/15 and 1/20. A 3-5/8 stock crown in that 10-foot room is about 1/33. That is why it looks like a mistake even when the paint is perfect.
 

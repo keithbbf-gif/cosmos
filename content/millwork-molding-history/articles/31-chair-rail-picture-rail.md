@@ -30,9 +30,11 @@ If you do not have a dado — no change of field, no wainscot, no armor — a ch
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Chair rail, picture rail, and the dado that is not a chair.](../assets/chair-rail-picture-rail/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/chair-rail-picture-rail/historical-timeline.svg" alt="Historical timeline for Chair rail, picture rail, and the dado that is not a chair: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Chair rail as dado cap through One stick sold as both — see “Two rails, two centuries.”</figcaption>
+</figure>
 
-*Figure 1. Dado cap, high parlor dados, the picture-rail decades, and the one stick sold as both.*
 
 High dados in 19th-century parlors can sit well above a modern chair. Do not set a historic cap at 32 inches because a website said “chair height.” Cookie the scars and the paper line. `[VERIFY]` a specific house before you publish a number as law. 32–36 is a common modern chair stripe. Historic dados wander.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the catalog mash. We will cut one profile for both if 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Chair rail, picture rail, and the dado that is not a chair.](../assets/chair-rail-picture-rail/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/chair-rail-picture-rail/shop-plate.svg" alt="Shop plate for Chair rail, picture rail, and the dado that is not a chair: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Dado cap against a picture mould.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A supporting dado cap beside a hanging picture mould. Different verbs, different air.*
 
 Figure 2 is the verb split. Dado cap: often an ogee or a small cornice thought, a shoulder. Picture mould: a hookable hollow or a small crown-ish stick. If you use a crown knife at dado height, the wall will look like it has a second, lower sky. Sometimes that is a look (a plate rail in a dining room is a cousin). Usually it is a mistake.
 

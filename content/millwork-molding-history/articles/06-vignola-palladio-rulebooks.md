@@ -30,9 +30,11 @@ The orders are not five flavors of column. They are five coordinated sets of mem
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Vignola, Palladio, and the Renaissance rule books.](../assets/vignola-palladio-rulebooks/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/vignola-palladio-rulebooks/historical-timeline.svg" alt="Historical timeline for Vignola, Palladio, and the Renaissance rule books: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Vignola, Regola delli cinque ordini through Ware’s English Palladio — see “Who wrote the shop’s Latin.”</figcaption>
+</figure>
 
-*Figure 1. Vignola’s rule, Palladio’s books, Scamozzi, and Ware’s English Palladio.*
 
 Vignola is the schoolmaster. The *Regola* is a thin, fierce book: modules, parts, a way to draw an order without inventing. Shops like a module. A module is a grind that scales. If the room is smaller, the parts shrink together. If you shrink only the crown and leave the base from another book, the wall looks like it was dressed by two uncles.
 
@@ -46,9 +48,19 @@ A shop in the hardwood belt meets this tradition as a PDF from an architect who 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Vignola, Palladio, and the Renaissance rule books.](../assets/vignola-palladio-rulebooks/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/vignola-palladio-rulebooks/shop-plate.svg" alt="Shop plate for Vignola, Palladio, and the Renaissance rule books: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Tuscan cornice as three jobs.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Tuscan cornice in three verbs: covering cyma, flat corona, supporting bedmould.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/vignola-palladio-rulebooks/historical-plate.jpg" alt="Palladio Four Books woodcut of classical orders and moulding rules, pattern-book plate." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Andrea Palladio, *I quattro libri dell'architettura* (Venice, 1570), plate via The Metropolitan Museum of Art (Open Access). CC0 1.0 where marked on Commons.</figcaption>
+</figure>
+
 
 Figure 2 is the smallest order doing the full sentence. Cyma on top (covering, once a gutter). Corona in the middle (the eave slab; the word *crown* lives here). Bedmould below (support, once a beam for rafters). Vignola and Palladio will enrich the cyma and the bed as you climb Doric, Ionic, Corinthian, Composite. They do not promote the corona out of the stack. Victorian designers sometimes flattened it or replaced it with a scotia to lift a ceiling. That is a later dialect. The Renaissance kit still wants the flat.
 

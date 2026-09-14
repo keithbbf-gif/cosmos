@@ -30,9 +30,11 @@ Until 1762 most English and American joiners were Roman whether they knew the wo
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Greek curves against Roman circles.](../assets/greek-vs-roman-profiles/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/greek-vs-roman-profiles/historical-timeline.svg" alt="Historical timeline for Greek curves against Roman circles: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Palladio draws Roman circles through Colonial Revival puts Roman back — see “When the books changed the knives.”</figcaption>
+</figure>
 
-*Figure 1. Palladio’s circles, Stuart and Revett, Benjamin’s quirk, and the Colonial Revival undo.*
 
 Calder Loth, writing for the Institute of Classical Architecture & Art, walks this as a historian. The short version for a grinder is: you cannot strike a Greek ovolo with the same iron you used for a Roman one. A quirk is a second idea. It is a small reverse that makes a hairline of shadow between the curve and the member above. Benjamin, already in the 1806 Companion, printed a plate to show that a quirked ovolo could be a third taller in effect without gaining the height, or a third shorter without looking starved. He also claimed a lighter cornice could look nearly as tall as a heavier Roman one when seen at forty-five degrees, which is how you see a cornice if you are standing in a room and not lying on the floor. `[VERIFY]` the fractions against the plate if you are going to grind from them. The argument is the thing: Greek sections buy contrast.
 
@@ -46,9 +48,11 @@ Figure 1 is the pendulum. If a restoration job is 1840 in the South, look for th
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Greek curves against Roman circles.](../assets/greek-vs-roman-profiles/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/greek-vs-roman-profiles/shop-plate.svg" alt="Shop plate for Greek curves against Roman circles: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Quirked ovolo against a quarter-round.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Same height, two tempers: a Roman quarter-round and a quirked Greek ovolo.*
 
 Figure 2 is the whole essay in two paths. The Roman ovolo leaves the wall and arrives at the fillet in a quarter circle. Sun on it is even. Shadow under it is a soft pad. The Greek ovolo starts, leans, and tucks. Sun on it makes a bright upper edge. The quirk goes black. Benjamin said as much in 1827: the Roman ovolo will not be as bright at the top, nor make as beautiful a line of distinction when it is in shadow and lit by reflection. He was selling plates. He was also right about light. Millwork is a lighting instrument. Anyone who has set a crown under a can light and a crown under a window knows it.
 

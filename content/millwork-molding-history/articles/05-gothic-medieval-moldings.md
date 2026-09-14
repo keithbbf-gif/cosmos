@@ -32,9 +32,11 @@ American catalogs in the 1870s sold “Gothic” stock the way they sold everyth
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Gothic hollows and the medieval section.](../assets/gothic-medieval-moldings/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/gothic-medieval-moldings/historical-timeline.svg" alt="Historical timeline for Gothic hollows and the medieval section: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Early Gothic roll mouldings through U.S. catalogs sell Gothic stock — see “Hollows that swallow light.”</figcaption>
+</figure>
 
-*Figure 1. Early rolls, deep later hollows, Pugin’s revival, and the catalog Gothic stick.*
 
 Early Gothic (12th century in the usual textbook) likes a roll moulding — a three-quarter circle sitting in a recess — and a modest hollow. Later medieval work, especially 14th-century English, deepens the hollows and adds wave mouldings, the kind of compound that looks like a cyma until you notice it is chasing a different rhythm. `[VERIFY]` a specific cathedral section before you put a building name in a print caption. This essay is about the family, not a measured bay at Amiens.
 
@@ -48,9 +50,19 @@ Figure 1 ends on the catalog because that is what a restoration job will hand yo
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Gothic hollows and the medieval section.](../assets/gothic-medieval-moldings/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/gothic-medieval-moldings/shop-plate.svg" alt="Shop plate for Gothic hollows and the medieval section: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A roll, a hollow, a fillet.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A roll-and-hollow family beside a fillet. Light is supposed to die in the channel.*
+
+<!-- graphics-pack:v1 -->
+
+<figure class="millwork-figure millwork-figure--historical">
+<img src="../assets/gothic-medieval-moldings/historical-plate.jpg" alt="Gothic moulding and tracery plate from Pugin's Examples of Gothic Architecture." width="760" loading="lazy" decoding="async" />
+<figcaption>Figure 3. A. W. N. Pugin, *Examples of Gothic Architecture* (London, 1836). Public domain. Wikimedia Commons / Internet Archive.</figcaption>
+</figure>
+
 
 Figure 2 is not a measured medieval bay. It is the shop sentence: a roll (convex, almost a torus in a pocket), a hollow (the swallow), a fillet to keep them from smearing. If you cannot get the hollow black in the sample under a raking work-light, grind deeper or add a quirk at the lip. A timid hollow is a cove. Coves are classical covering members. Different church.
 

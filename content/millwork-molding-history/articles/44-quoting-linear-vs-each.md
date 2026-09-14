@@ -30,9 +30,11 @@ This lane has always split the ticket: linear millwork, and the each-parts that 
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Quoting footage against quoting each.](../assets/quoting-linear-vs-each/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/quoting-linear-vs-each/historical-timeline.svg" alt="Historical timeline for Quoting footage against quoting each: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Grind, joint, first-stick waste through A profile change is a new setup — see “Setup is the first board foot.”</figcaption>
+</figure>
 
-*Figure 1. Grind and waste, the run, the each-parts, and a profile change as a new setup.*
 
 A profile change is a new setup. Clients think a “slightly taller ogee” is a conversation. It is a grind. Date it. Price it. If they want to see two samples, price two grinds or grind one and mock the other in poplar with a router and call it a sketch.
 
@@ -44,9 +46,11 @@ Figure 1 is the invoice spine. If a line cannot be mapped to one of those four h
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Quoting footage against quoting each.](../assets/quoting-linear-vs-each/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/quoting-linear-vs-each/shop-plate.svg" alt="Shop plate for Quoting footage against quoting each: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A ticket that can be built.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Setup, feet, and each — three boxes. If a part will not sit in one box, you do not yet understand it.*
 
 Figure 2 is the test I give a new estimate. Every item goes in a box. Setup. Feet. Each. A built-up crown is setup times three plus feet times three, or setup once if we already own the knives — write which. A stair newel is each. A nosing might be feet if we run it on blanks, or each if we apply it. Pick.
 

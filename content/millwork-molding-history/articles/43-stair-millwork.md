@@ -30,9 +30,11 @@ Nosing is a profile. It is often an ovolo. It is sometimes a more serious echinu
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Stair millwork: treads, skirt, and a newel that is not a post.](../assets/stair-millwork/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/stair-millwork/historical-timeline.svg" alt="Historical timeline for Stair millwork: treads, skirt, and a newel that is not a post: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Thickness and nosing as a profile through Guard and handrail are not suggestions — see “Parts that work like furniture and like a bridge.”</figcaption>
+</figure>
 
-*Figure 1. Nosing as a profile, open vs closed string, through-post vs face-mount, and a code that is not a style.*
 
 Treads are each-parts that want a species and a thickness, not a WM number. Oak is the American default because it dents less than pine and stains like the old mill-town floors. Pine treads are a historic match and a dent farm. Say so.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the code. Style can survive a graspable rail if you de
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Stair millwork: treads, skirt, and a newel that is not a post.](../assets/stair-millwork/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/stair-millwork/shop-plate.svg" alt="Shop plate for Stair millwork: treads, skirt, and a newel that is not a post: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Skirt, nosing, and a newel block.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three stair thoughts: a tread flat, a nosing curve, a skirt member. The newel is the each-part.*
 
 Figure 2 is the sticker’s share. Nosing can be a moulder job on the tread blank or a separate nosing stuck on. Separate nosings are how you repair a dent. Through-newels are furniture and framing. CNC can flute a newel. A moulder can run a newel-cap mould. Neither machine will save a newel that is screwed to a stringer with hope.
 

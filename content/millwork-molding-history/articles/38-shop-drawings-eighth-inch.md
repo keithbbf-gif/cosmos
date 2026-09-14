@@ -30,9 +30,11 @@ Eighths are not decoration. A 3/8 quirk and a 1/4 quirk are different members. A
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Shop drawings and the eighth of an inch that pays.](../assets/shop-drawings-eighth-inch/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/shop-drawings-eighth-inch/historical-timeline.svg" alt="Historical timeline for Shop drawings and the eighth of an inch that pays: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Profile, species, finish, footage through A revised eighth is a new knife — see “The paper that keeps a knife honest.”</figcaption>
+</figure>
 
-*Figure 1. What a ticket must name, a section you can grind, a field check, and a revised eighth as a new knife.*
 
 Field verify openings before you grind a custom casing that has to wrap a specific jamb. Jambs lie. Drywall lies. The drawing from the architect is a hope about a wall that has since been floated. A tape is cheaper than a knife.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the change order. A revised eighth is a new grind if t
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Shop drawings and the eighth of an inch that pays.](../assets/shop-drawings-eighth-inch/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/shop-drawings-eighth-inch/shop-plate.svg" alt="Shop plate for Shop drawings and the eighth of an inch that pays: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “A section that can be ground.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Paper against grind. If they disagree, stop before the 400 feet.*
 
 Figure 2 is the hold point. Full-size the section. Overlay the knife plot. If they disagree, stop. I have seen shops “fair it in” and then meet a carpenter who coped to the drawing. The cope and the stick then argue in public.
 

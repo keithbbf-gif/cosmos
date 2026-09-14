@@ -30,9 +30,11 @@ Benjamin’s fillet is a separator. It can be a sixteenth. It can be a half-inch
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Fillet, fascia, corona: the flats that make shade.](../assets/fillet-fascia-corona/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/fillet-fascia-corona/historical-timeline.svg" alt="Historical timeline for Fillet, fascia, corona: the flats that make shade: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Corona as the eave slab through One-piece crown with no soffit — see “The members nobody puts on a T-shirt.”</figcaption>
+</figure>
 
-*Figure 1. The eave slab, the word crown, the Victorian flatten, and the one-piece stick with no soffit.*
 
 Victorian designers flattened the corona to throw more of the cornice onto the ceiling and lift the wall. The soffit stayed. That is the test. If the underside still exists, you still have a crown. If the underside is a painted wave kissing drywall, you have a sticker.
 
@@ -44,9 +46,11 @@ Figure 1 ends on the one-piece because that is the daily fight. You can grind a 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Fillet, fascia, corona: the flats that make shade.](../assets/fillet-fascia-corona/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/fillet-fascia-corona/shop-plate.svg" alt="Shop plate for Fillet, fascia, corona: the flats that make shade: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Corona with a soffit, and without.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. A corona that still has an underside beside a wave that spent the word crown.*
 
 Figure 2 is the punch list we send without sending it. Left, a flat with a return — soffit. Right, a cyma trying to be the whole hat. Clients see this in a sample corner and go quiet. Quiet is good.
 

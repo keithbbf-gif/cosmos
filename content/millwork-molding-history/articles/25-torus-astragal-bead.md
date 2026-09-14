@@ -30,9 +30,11 @@ Bead is the small shop cousin. Stuck on a rail, applied as a panel mould, run as
 
 <!-- graphics-pack:v1 -->
 
-![Dated anchors for Torus, astragal, bead: the ropes.](../assets/torus-astragal-bead/historical-timeline.svg)
+<figure class="millwork-figure">
+<img src="../assets/torus-astragal-bead/historical-timeline.svg" alt="Historical timeline for Torus, astragal, bead: the ropes: dated millwork and pattern-book anchors (verify years in prose before print)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Torus at the base, astragal at the neck through Router bead bits flatten the rope — see “Ropes that pretend to hold the work together.”</figcaption>
+</figure>
 
-*Figure 1. Fat rope, thin rope, carved reel, and the router bead that flattened the rope.*
 
 Roman torus is a bold half-round. Greek can flatten or tighten it. Either way it wants a scotia next to it so the rope has a night to sit against. A torus next to a torus is a sausage. Fillet or scotia. Always.
 
@@ -44,9 +46,11 @@ Figure 1’s last hook is the router bead bit: a half-round with a pilot and no 
 
 <!-- graphics-pack:v1 -->
 
-![Shop plate for Torus, astragal, bead: the ropes.](../assets/torus-astragal-bead/shop-plate.svg)
+<figure class="millwork-figure">
+<img src="../assets/torus-astragal-bead/shop-plate.svg" alt="Shop plate for Torus, astragal, bead: the ropes: illustrative moulding sections on shop paper, not a knife-grind template." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Profile plate for “Torus, astragal, and a stuck bead.” Line sections, not a grind.</figcaption>
+</figure>
 
-*Figure 2. Three ropes: base-scale, neck-scale, cabinet-scale. Same family, three jobs.*
 
 Figure 2 is scale. If you grind one half-round and use it everywhere, the room will look like it owns one idea. That can be a style. It is usually laziness.
 
