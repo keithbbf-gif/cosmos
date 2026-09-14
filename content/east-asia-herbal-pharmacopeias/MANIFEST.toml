@@ -1,0 +1,325 @@
+# Reading order for content/east-asia-herbal-pharmacopeias
+# status values: draft | checked | held
+# A file is a "draft" in the ≥40 count iff kind = "essay"
+
+collection = "east-asia-herbal-pharmacopeias"
+status = "draft"
+essay_count_target = 40
+voice = "human-essay"
+claims_guard = "strict"
+updated = "2026-09-14"
+
+[[essay]]
+id = "eahp-00"
+seq = 0
+stage = 0
+path = "drafts/00-frame/00-how-to-read.md"
+title = "How to read these drafts"
+
+[[essay]]
+id = "eahp-01"
+seq = 1
+stage = 0
+path = "drafts/00-frame/01-what-a-pharmacopeia-is.md"
+title = "What a pharmacopeia is, and is not, in East Asia"
+
+[[essay]]
+id = "eahp-02"
+seq = 2
+stage = 0
+path = "drafts/00-frame/02-the-claims-guard.md"
+title = "The claims guard"
+
+[[essay]]
+id = "eahp-03"
+seq = 3
+stage = 0
+path = "drafts/00-frame/03-names-scripts-romanization.md"
+title = "Names, scripts, romanization"
+
+[[essay]]
+id = "eahp-04"
+seq = 4
+stage = 0
+path = "drafts/00-frame/04-tradition-is-not-a-pipeline.md"
+title = "Tradition is not a pipeline"
+
+[[essay]]
+id = "eahp-05"
+seq = 5
+stage = 1
+path = "drafts/10-china-early/05-shennong-is-a-figure.md"
+title = "Shennong is a figure, not a byline"
+
+[[essay]]
+id = "eahp-06"
+seq = 6
+stage = 1
+path = "drafts/10-china-early/06-shennong-bencao-jing-reconstruction.md"
+title = "The Shennong bencao jing reconstruction problem"
+
+[[essay]]
+id = "eahp-07"
+seq = 7
+stage = 1
+path = "drafts/10-china-early/07-three-grades.md"
+title = "Upper, middle, lower: classification as a moral machine"
+
+[[essay]]
+id = "eahp-08"
+seq = 8
+stage = 1
+path = "drafts/10-china-early/08-tao-hongjing.md"
+title = "Tao Hongjing and the collected commentaries"
+
+[[essay]]
+id = "eahp-09"
+seq = 9
+stage = 1
+path = "drafts/10-china-early/09-mingyi-bielu.md"
+title = "Mingyi bielu and the extra drugs"
+
+[[essay]]
+id = "eahp-10"
+seq = 10
+stage = 1
+path = "drafts/10-china-early/10-road-to-the-tang-court.md"
+title = "Why a court needed a book"
+
+[[essay]]
+id = "eahp-11"
+seq = 11
+stage = 1
+path = "drafts/10-china-early/11-food-as-drug.md"
+title = "Food as drug, and the edge of the list"
+
+[[essay]]
+id = "eahp-12"
+seq = 12
+stage = 2
+path = "drafts/20-china-imperial/12-xinxiu-bencao.md"
+title = "Xinxiu bencao: the Tang state's book"
+
+[[essay]]
+id = "eahp-13"
+seq = 13
+stage = 2
+path = "drafts/20-china-imperial/13-what-survives.md"
+title = "What survives: Dunhuang, Japan, reconstruction"
+
+[[essay]]
+id = "eahp-14"
+seq = 14
+stage = 2
+path = "drafts/20-china-imperial/14-chen-cangqi.md"
+title = "Chen Cangqi's supplements"
+
+[[essay]]
+id = "eahp-15"
+seq = 15
+stage = 2
+path = "drafts/20-china-imperial/15-kaibao-print.md"
+title = "Kaibao: print arrives"
+
+[[essay]]
+id = "eahp-16"
+seq = 16
+stage = 2
+path = "drafts/20-china-imperial/16-su-song-tujing.md"
+title = "Su Song and the illustrated classic"
+
+[[essay]]
+id = "eahp-17"
+seq = 17
+stage = 2
+path = "drafts/20-china-imperial/17-zhenglei-bencao.md"
+title = "Zhenglei bencao: a private encyclopedia the state later ate"
+
+[[essay]]
+id = "eahp-18"
+seq = 18
+stage = 2
+path = "drafts/20-china-imperial/18-pinhui-jingyao.md"
+title = "The Ming album that stayed in the palace"
+
+[[essay]]
+id = "eahp-19"
+seq = 19
+stage = 2
+path = "drafts/20-china-imperial/19-li-shizhen-without-the-statue.md"
+title = "Li Shizhen without the statue"
+
+[[essay]]
+id = "eahp-20"
+seq = 20
+stage = 2
+path = "drafts/20-china-imperial/20-gangmu-as-a-machine.md"
+title = "Bencao gangmu as a machine for reading"
+
+[[essay]]
+id = "eahp-21"
+seq = 21
+stage = 2
+path = "drafts/20-china-imperial/21-jinling-jiangxi.md"
+title = "Jinling, Jiangxi, and the 1596 story"
+
+[[essay]]
+id = "eahp-22"
+seq = 22
+stage = 2
+path = "drafts/20-china-imperial/22-zhao-xuemin.md"
+title = "Zhao Xuemin and the leftover drugs"
+
+[[essay]]
+id = "eahp-23"
+seq = 23
+stage = 3
+path = "drafts/30-japan/23-tang-book-as-japanese-problem.md"
+title = "How a Tang book became a Japanese problem"
+
+[[essay]]
+id = "eahp-24"
+seq = 24
+stage = 3
+path = "drafts/30-japan/24-honzo-wamyo.md"
+title = "Honzō wamyō: naming as local knowledge"
+
+[[essay]]
+id = "eahp-25"
+seq = 25
+stage = 3
+path = "drafts/30-japan/25-ishinpo.md"
+title = "Ishinpō: an archive that looks like a medical book"
+
+[[essay]]
+id = "eahp-26"
+seq = 26
+stage = 3
+path = "drafts/30-japan/26-medieval-honzo.md"
+title = "Medieval honzō, temples, and the court"
+
+[[essay]]
+id = "eahp-27"
+seq = 27
+stage = 3
+path = "drafts/30-japan/27-hayashi-razan-gangmu.md"
+title = "Hayashi Razan and the arrival of the Gangmu"
+
+[[essay]]
+id = "eahp-28"
+seq = 28
+stage = 3
+path = "drafts/30-japan/28-yamato-honzo.md"
+title = "Kaibara Ekiken's Yamato honzō"
+
+[[essay]]
+id = "eahp-29"
+seq = 29
+stage = 3
+path = "drafts/30-japan/29-ono-ranzan.md"
+title = "Ono Ranzan and the field as commentary"
+
+[[essay]]
+id = "eahp-30"
+seq = 30
+stage = 3
+path = "drafts/30-japan/30-yakkyokuho-1886.md"
+title = "The Japanese Pharmacopoeia of 1886 and the long exile of Kampo"
+
+[[essay]]
+id = "eahp-31"
+seq = 31
+stage = 4
+path = "drafts/40-korea/31-hyangyak-as-politics.md"
+title = "Hyangyak: the local as a political category"
+
+[[essay]]
+id = "eahp-32"
+seq = 32
+stage = 4
+path = "drafts/40-korea/32-hyangyak-gugeupbang.md"
+title = "Hyangyak gugeupbang"
+
+[[essay]]
+id = "eahp-33"
+seq = 33
+stage = 4
+path = "drafts/40-korea/33-goryeo-to-joseon.md"
+title = "From Goryeo lists to early Joseon compilations"
+
+[[essay]]
+id = "eahp-34"
+seq = 34
+stage = 4
+path = "drafts/40-korea/34-hyangyak-jipseongbang.md"
+title = "Hyangyak jipseongbang, 1433"
+
+[[essay]]
+id = "eahp-35"
+seq = 35
+stage = 4
+path = "drafts/40-korea/35-uibang-yuchwi.md"
+title = "Uibang yuchwi: the giant that waited"
+
+[[essay]]
+id = "eahp-36"
+seq = 36
+stage = 4
+path = "drafts/40-korea/36-donguibogam.md"
+title = "Donguibogam: encyclopedia, not just a drug list"
+
+[[essay]]
+id = "eahp-37"
+seq = 37
+stage = 4
+path = "drafts/40-korea/37-after-heo-jun.md"
+title = "After Heo Jun: vernacular, war, reprint"
+
+[[essay]]
+id = "eahp-38"
+seq = 38
+stage = 4
+path = "drafts/40-korea/38-modern-cut.md"
+title = "Modern Korean pharmacopeias and the colonial cut"
+
+[[essay]]
+id = "eahp-39"
+seq = 39
+stage = 5
+path = "drafts/50-comparative/39-tribute-trade-object.md"
+title = "Tribute, trade, and the drug as object"
+
+[[essay]]
+id = "eahp-40"
+seq = 40
+stage = 5
+path = "drafts/50-comparative/40-pictures-that-argue.md"
+title = "Pictures that argue"
+
+[[essay]]
+id = "eahp-41"
+seq = 41
+stage = 5
+path = "drafts/50-comparative/41-poison-dose-upper-drugs.md"
+title = "Poison, dose, and the upper-drug problem"
+
+[[essay]]
+id = "eahp-42"
+seq = 42
+stage = 5
+path = "drafts/50-comparative/42-what-official-books-leave-out.md"
+title = "What official books leave out"
+
+[[essay]]
+id = "eahp-43"
+seq = 43
+stage = 5
+path = "drafts/50-comparative/43-three-modern-books.md"
+title = "Three modern books and a shared ancestor they do not admit the same way"
+
+[[essay]]
+id = "eahp-44"
+seq = 44
+stage = 5
+path = "drafts/50-comparative/44-what-this-collection-cannot-do.md"
+title = "What this collection cannot do"
