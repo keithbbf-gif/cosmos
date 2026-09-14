@@ -13,6 +13,11 @@ places: ["El Borge", "Coín", "Málaga", "La Vera"]
 hero: IMAGE_SOURCES.md#fig-med-35
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Pan_de_higo.jpg" alt="Andalusian pan de higo pressed fig and almond cake" width="500" height="329" loading="lazy"/>
+  <figcaption><strong>Fig. 35.</strong> Pan de higo from Málaga province—pressed fig-and-almond cake beside mountain cheese.</figcaption>
+</figure>
 
 The name is a tease. *Pan de higo* is not bread. It is what happens when a surplus of dried figs meets a mortar and a weight, and a household decides that leftover fruit will not be allowed to become a smell.
 

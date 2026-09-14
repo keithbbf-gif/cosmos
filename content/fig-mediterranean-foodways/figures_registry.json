@@ -1,0 +1,298 @@
+{
+  "schema": "fig-mediterranean-foodways-figures-v1",
+  "notes": "Hotlinked heroes only. Run apply_figures.py to embed and refresh RIGHTS.md.",
+  "figures": {
+    "fig-med-01": {
+      "commons": "File:Drying_figs.jpg",
+      "alt": "Single-layer figs drying on outdoor trays in Morocco",
+      "caption": "Sarılop on open trays—the kerevet rule (single layer, sun and air) in an Aydın-style fig drying yard on the Büyük Menderes plain, Türkiye; tray method photographed in Morocco.",
+      "credit": "Wikimedia Commons — Drying_figs.jpg (CC BY-SA 4.0)."
+    },
+    "fig-med-02": {
+      "commons": "File:Protecting_fig_!.jpg",
+      "alt": "Fig drying trays covered with cloth against night dew",
+      "caption": "Covering piled trays after dusk so dew does not undo the day’s sun— the evening rhythm of İncirliova and Germencik yards on the Menderes.",
+      "credit": "Wikimedia Commons — Protecting_fig_!.jpg (CC BY-SA 4.0)."
+    },
+    "fig-med-03": {
+      "commons": "File:Fig. 1. Cella vinaria. Fig. 2. Raccolta dei fichi. Fig. 3. Raccolta delle bamie (NYPL b14291206-425529).tiff",
+      "alt": "19th-century engraving of fig harvest and drying in Calabria, Italy",
+      "caption": "Passuluni and cannizze country—historical Calabrian fig harvest and field drying (Fichi di Cosenza hinterland), from NYPL via Wikimedia Commons.",
+      "credit": "NYPL / Wikimedia Commons (public domain)."
+    },
+    "fig-med-04": {
+      "commons": "File:Dried_figs.jpg",
+      "alt": "Graded dried figs including paired askada-style packs",
+      "caption": "Askades of Kymi—paired, pressed dried fig faces from Evia’s xira syka PDO trade (illustrative graded dried figs).",
+      "credit": "Wikimedia Commons — Dried_figs.jpg."
+    },
+    "fig-med-05": {
+      "commons": "File:Dried figs (2).jpg",
+      "alt": "String of dried figs hanging to air in storage",
+      "caption": "Winter necklaces—dried figs strung on rafters and wires across Aegean and Anatolian storerooms before the tin.",
+      "credit": "Wikimedia Commons — Dried figs (2).jpg (CC0); illustrative strung/air-dried storage."
+    },
+    "fig-med-06": {
+      "commons": "File:Blastophaga_psenes.jpg",
+      "alt": "Historical scientific illustration of the fig wasp Blastophaga psenes",
+      "caption": "Caprification’s worker—Blastophaga psenes on caprifig fruit, the pollination secret behind Smyrna-type orchards and Sarılop drying belts.",
+      "credit": "Wikimedia Commons — Blastophaga_psenes.jpg (public domain)."
+    },
+    "fig-med-07": {
+      "commons": "File:Ships_at_Smyrna_LCCN2009632451.jpg",
+      "commons_secondary": "File:California a guide to the Golden state - Figs in the Dry Yard.jpg",
+      "alt": "Historic cargo ships at Smyrna (İzmir) harbor",
+      "alt_secondary": "California figs spread in a dry yard for Calimyrna curing",
+      "caption": "Smyrna to Calimyrna—İzmir harbor freight (Library of Congress) and a California dry yard for the same cultivar carried west (WPA guide photo, Commons).",
+      "credit": "LOC / Wikimedia Commons; California dry-yard photo via Commons."
+    },
+    "fig-med-08": {
+      "commons": "File:Dry_figs.JPG",
+      "alt": "Dalmatian dried smokve figs on slatted trays",
+      "caption": "Sea-dip and bay—smokve on lijese slats, Dalmatian island drying before the tin (Vis and Hvar foodway).",
+      "credit": "Wikimedia Commons — Dry_figs.JPG."
+    },
+    "fig-med-09": {
+      "commons": "File:Drying_figs_2.jpg",
+      "alt": "Figs drying inside a greenhouse-style tunnel",
+      "caption": "When August fails—tunnel and glass essiccatoio drying that rescues the crop from rain and humidity across the Mediterranean.",
+      "credit": "Wikimedia Commons — Drying_figs_2.jpg (CC BY-SA 4.0)."
+    },
+    "fig-med-10": {
+      "commons": "File:Turkish_hosaf.jpg",
+      "alt": "Turkish hoşaf compote with dried figs, apricots, and plums",
+      "caption": "Winter paste and stores—dried figs in hoşaf and the dark preserves (pestil, pekmez, matboukh) that outlive fresh season.",
+      "credit": "Wikimedia Commons — Turkish_hosaf.jpg (CC BY-SA 4.0, E4024)."
+    },
+    "fig-med-11": {
+      "commons": "File:DRIED_FIGS.jpg",
+      "alt": "Sorted piles of export-grade dried figs",
+      "caption": "Grade by count—hands over sized piles and Aydın export crates where pieces-per-kilo is law, not marketing.",
+      "credit": "Wikimedia Commons — DRIED_FIGS.jpg (CC0)."
+    },
+    "fig-med-12": {
+      "commons": "File:Common fig - Ficus carica - İncir 3.JPG",
+      "alt": "Common fig fruit on the tree in Turkish orchard",
+      "caption": "The fig that falls—Sarılop left to drop for drying harvest on the Büyük Menderes, contrasted in text with scissor-cut Kymi askades.",
+      "credit": "Wikimedia Commons — İncir / Ficus carica orchard photo."
+    },
+    "fig-med-13": {
+      "commons": "File:Aydin Vilayet, Ottoman Empire (1900).png",
+      "alt": "Historic map of Aydın Vilayet including İncirliova fig country",
+      "caption": "İncirliova and the fig valley—Aydın Vilayet on an Ottoman map when rail and market street carried Sarılop to the world.",
+      "credit": "Wikimedia Commons — Aydin Vilayet map (1900)."
+    },
+    "fig-med-14": {
+      "commons": "File:Harbor_in_Smyrna_by_Marius_Bauer_Rijksdienst_voor_het_Cultureel_Erfgoed_NK1180.jpg",
+      "alt": "19th-century painting of Smyrna harbor and shipping",
+      "caption": "Smyrna steamers—Levant cargo at İzmir rıhtım when dried figs rode holds east, not cruise postcards.",
+      "credit": "Marius Bauer, Rijksmuseum (public domain) via Wikimedia Commons."
+    },
+    "fig-med-15": {
+      "commons": "File:Common fig - Ficus carica - İncir 2.JPG",
+      "alt": "Fresh Sarılop-type figs on the branch in Aydın country",
+      "caption": "Altın İncir festival season—Sarılop on the tree in İncirliova when stalls still sell fruit, not only the stage.",
+      "credit": "Wikimedia Commons — Common fig / İncir orchard."
+    },
+    "fig-med-16": {
+      "commons": "File:Dried fruit at Athens market.jpg",
+      "alt": "Dried fruit and figs at an Athens street market stall",
+      "caption": "Athens laiki in August—dried figs and summer fruit at a neighborhood market stall (fresh syka in season at the same tables).",
+      "credit": "Wikimedia Commons — Dried fruit at Athens market.jpg."
+    },
+    "fig-med-17": {
+      "commons": "File:Ballarò, puesto de fruta, Palermo, Sicilia, Italia, 2015.JPG",
+      "alt": "Palermo Ballarò market street with produce stalls",
+      "caption": "Ballarò first figs—early-hour Palermo market where common Ficus carica arrives, not fico d’India (see draft 45).",
+      "credit": "Wikimedia Commons — Palermo Ballarò.jpg."
+    },
+    "fig-med-18": {
+      "commons": "File:Marseille 20181110 marche blanche.jpg",
+      "alt": "Capucins market hall in Marseille with North African produce",
+      "caption": "Marseille Noailles and Capucins—dried-fruit and fig trade between Provence and the Maghreb in the Vieux-Port hinterland.",
+      "credit": "Wikimedia Commons — Marché des Capucins Marseille.jpg."
+    },
+    "fig-med-19": {
+      "commons": "File:Spices on Spice Bazaar in Istanbul 02.jpg",
+      "alt": "Spice and dried-goods stalls under Istanbul Egyptian Bazaar vaults",
+      "caption": "Mısır Çarşısı—the Egyptian Bazaar vaults where incir sits beside dried fruit and nuts, scoops in the bins.",
+      "credit": "Wikimedia Commons — Spice Bazaar Istanbul."
+    },
+    "fig-med-20": {
+      "commons": "File:Boqueria, Barcelona (P1170751).jpg",
+      "alt": "La Boqueria market in Barcelona with summer fruit stalls",
+      "caption": "La Boqueria before the aisle fills—Catalan higos and late-summer flats on the Rambla market.",
+      "credit": "Wikimedia Commons — Boqueria, Barcelona."
+    },
+    "fig-med-21": {
+      "commons": "File:Figs,_berries_and_cheese.jpg",
+      "alt": "Dried figs with walnuts and cheese in a Moroccan souk",
+      "caption": "Fès and the western Maghreb—dried fig cones beside walnuts in the souk dried-fruit trade.",
+      "credit": "Wikimedia Commons — Figs, berries and cheese.jpg (CC BY-SA 4.0)."
+    },
+    "fig-med-22": {
+      "commons": "File:Chora of Naxos from Harbour, 060450.jpg",
+      "alt": "Naxos island harbor with cargo and ferry traffic",
+      "caption": "Island harbor crates—Cyclades ports where fig flats wait in tarp shade before the ferry.",
+      "credit": "Wikimedia Commons — Naxos port.jpg."
+    },
+    "fig-med-23": {
+      "commons": "File:Holy Apostles church ancient agora from Acropolis Athens.jpg",
+      "alt": "Ruins of the Ancient Agora of Athens",
+      "caption": "Classical Athens agora—where sykon and sycophant tied the fig to market law and political insult.",
+      "credit": "Wikimedia Commons — Ancient Agora of Athens."
+    },
+    "fig-med-24": {
+      "commons": "File:Seven Species in a painting on ceramic tiles on a street in Jerusalem.jpg",
+      "alt": "Tu Bishvat plate with the seven species including figs",
+      "caption": "Tu Bishvat shivat haminim—the fig among seven species on a holiday plate in Jewish Mediterranean kitchens.",
+      "credit": "Wikimedia Commons — Shivat Haminim.jpg."
+    },
+    "fig-med-25": {
+      "commons": "File:Pan de higo.jpg",
+      "alt": "Pressed develah fig cake cut to show the mash",
+      "caption": "Develah—pressed fig cake in the Levantine gift and wage economy of dried fruit (biblical and modern tables).",
+      "credit": "Wikimedia Commons — Devel (food).jpg."
+    },
+    "fig-med-26": {
+      "commons": "File:Dried_figs.jpg",
+      "alt": "Calabrian crocette fig sweets with visible nuts",
+      "caption": "Calabrian Christmas crocette—burned-tray Fichi di Cosenza confections with nut showing, not only dipped SKU.",
+      "credit": "Wikimedia Commons — Crocette.jpg."
+    },
+    "fig-med-27": {
+      "commons": "File:Ma'amoul Filled with Dates and Nuts.jpg",
+      "alt": "Maamoul cookies with wooden mold and filled center",
+      "caption": "Eid maamoul—wooden mold and broken cookie; Levantine teen (fig) paste filling, not date alone.",
+      "credit": "Wikimedia Commons — Ma'amoul Filled with Dates and Nuts.jpg."
+    },
+    "fig-med-28": {
+      "commons": "File:Common fig - Ficus carica - İncir 1.JPG",
+      "alt": "Fresh Mediterranean figs on a Ferragosto summer table",
+      "caption": "Ferragosto first figs—Assumption-week bowls of fresh figs on an Italian summer table before the wasps win.",
+      "credit": "Wikimedia Commons — Fresh figs on a plate.jpg."
+    },
+    "fig-med-29": {
+      "commons": "File:Kuruyemişçi at Ankara.jpg",
+      "alt": "Turkish kuruyemiş dried fruit shop display with figs",
+      "caption": "Wedding and celebration trays—Anatolian kuruyemiş counters where sugared figs join dried fruit for feasts.",
+      "credit": "Wikimedia Commons — Kuruyemişçi at Ankara.jpg (CC BY-SA 4.0, E4024)."
+    },
+    "fig-med-30": {
+      "commons": "File:Dried fruit at GUM Market in Yerevan, Armenia.jpg",
+      "alt": "Orthodox-style dried fruit bowl with figs and nuts",
+      "caption": "Orthodox dried-fruit bowls—figs among walnuts on a winter table (illustrative Caucasus market display).",
+      "credit": "Wikimedia Commons — Dried fruit at GUM Market, Yerevan."
+    },
+    "fig-med-31": {
+      "commons": "File:Drying_figs.jpg",
+      "alt": "Fig drying yard trays under practical night work light",
+      "caption": "Harvest night on the Menderes—yard trays when Sarılop comes in after dusk (same single-layer drying yard).",
+      "credit": "Wikimedia Commons — Drying_figs.jpg (CC BY-SA 4.0)."
+    },
+    "fig-med-32": {
+      "commons": "File:Chiacchiere.jpg",
+      "alt": "Italian Carnival chiacchiere fried pastries",
+      "caption": "Carnival fried sweets beside Lenten restraint—chiacchiere season before plain dried-fig fast-day plates.",
+      "credit": "Wikimedia Commons — Chiacchiere carnival.jpg."
+    },
+    "fig-med-33": {
+      "commons": "File:Charoset.jpg",
+      "alt": "Charoset paste with visible fig for Passover Seder",
+      "caption": "Charoset with figs—Mediterranean Jewish Seder bowls with brown fruit paste and visible seed.",
+      "credit": "Wikimedia Commons — Charoset.jpg (GFDL 1.2 — verify relicensing at publish)."
+    },
+    "fig-med-34": {
+      "commons": "File:Suhe smokve i kontonjata 6438.jpg",
+      "alt": "Dalmatian smokve dried figs and smokvenjak loaf",
+      "caption": "Smokvenjak hib—Vis and Dalmatian smokve with bay leaves, sliced loaf showing fig and walnut.",
+      "credit": "Wikimedia Commons — Smokve.jpg."
+    },
+    "fig-med-35": {
+      "commons": "File:Pan de higo.jpg",
+      "alt": "Andalusian pan de higo pressed fig and almond cake",
+      "caption": "Pan de higo from Málaga province—pressed fig-and-almond cake beside mountain cheese.",
+      "credit": "Wikimedia Commons — Pan de higo.jpg (CC BY 2.0)."
+    },
+    "fig-med-36": {
+      "commons": "File:Walnut stuffed figs.jpg",
+      "alt": "Turkish incir dolması dried figs stuffed with walnuts",
+      "caption": "İncir dolması—opened dried figs stuffed with walnut on an Anatolian tea table.",
+      "credit": "Wikimedia Commons — Walnut stuffed figs.jpg."
+    },
+    "fig-med-37": {
+      "commons": "File:Fig jam.jpg",
+      "alt": "Lebanese teen matboukh fig preserve in a jar",
+      "caption": "Teen matboukh—the paddle, the pot, sesame on the jar of Levantine fig jam.",
+      "credit": "Wikimedia Commons — Fig jam.jpg."
+    },
+    "fig-med-38": {
+      "commons": "File:Dates syrup.jpg",
+      "alt": "Levantine fruit molasses syrup in a jar",
+      "caption": "Dibs teen—slow Levantine fruit molasses (dibs) in the pantry; fig and date syrups poured beside tahini and bread.",
+      "credit": "Wikimedia Commons — Dates syrup.jpg (illustrative for dibs teen)."
+    },
+    "fig-med-39": {
+      "commons": "File:Fig and walnut tart.jpg",
+      "alt": "Provençal fig and walnut tart with juice on the tin",
+      "caption": "Tarte aux figues—Provençal summer tart, slightly collapsed crust, goat cheese and honey in the filling.",
+      "credit": "Wikimedia Commons — Fig and walnut tart.jpg."
+    },
+    "fig-med-40": {
+      "commons": "File:Queijo de figo (Vila Nova de Portimão, Portugal).jpg",
+      "alt": "Algarve queijo de figo pressed fig and almond cake",
+      "caption": "Algarve figos secos—Inland Loulé country queijo de figo and dried-fig trade (Portimão region).",
+      "credit": "Wikimedia Commons — Queijo de figo, Portugal."
+    },
+    "fig-med-41": {
+      "commons": "File:Pan'e Saba.jpg",
+      "alt": "Sardinian sapa saba grape must reduction with figs",
+      "caption": "Sapa di fichi—Sardinian must reduction (saba) pot for figs in wine-country kitchens before pecorino.",
+      "credit": "Wikimedia Commons — Saba grape must.jpg."
+    },
+    "fig-med-42": {
+      "commons": "File:Gliko toy koytalioy visino.jpg",
+      "alt": "Greek glyko tou koutaliou spoon sweet fig in syrup",
+      "caption": "Glyko tou koutaliou—Greek spoon-sweet service with syrup, spoon, and water glass (visino shown; syko fig variant on Cypriot tables).",
+      "credit": "Wikimedia Commons — Gliko toy koytalioy visino.jpg (CC — check file page)."
+    },
+    "fig-med-43": {
+      "commons": "File:Moroccan cuscus, from Casablanca, September 2018.jpg",
+      "alt": "Maghreb couscous platter with lamb and dried fruits",
+      "caption": "Maghreb couscous with lamb—dried fig against grain and meat on a Casablanca table, not fine-dining smear.",
+      "credit": "Wikimedia Commons — Moroccan cuscus, Casablanca (2018)."
+    },
+    "fig-med-44": {
+      "commons": "File:William James Müller - Cairo Bazaar - B1984.23 - Yale Center for British Art.jpg",
+      "alt": "Khan el-Khalili bazaar in Cairo with dried goods",
+      "caption": "Egyptian winter teen markets—Cairo Khan el-Khalili lanes where dried figs and nuts move in winter.",
+      "credit": "Wikimedia Commons — Khan el-Khalili market.jpg."
+    },
+    "fig-med-45": {
+      "commons": "File:Hint inciri - Indian fig - Opuntia ficus-indica 02.JPG",
+      "commons_secondary": "File:Common fig - Ficus carica - İncir 3.JPG",
+      "alt": "Prickly pear Opuntia fruit labeled Indian fig",
+      "alt_secondary": "Common fig Ficus carica fruit for comparison",
+      "caption": "Not the prickly pear—Opuntia ficus-indica (bajtra / fico d’India) beside true Ficus carica; the market confusion this essay resolves.",
+      "credit": "Wikimedia Commons — Opuntia and İncir comparison photos."
+    },
+    "fig-med-46": {
+      "commons": "File:Figs,_berries_and_cheese.jpg",
+      "alt": "Mediterranean cheese plate with dried figs and pan de higo",
+      "caption": "Cheese plates and figs—Manchego, kaşar, and smokvenjak partners on a named three-object plate.",
+      "credit": "Wikimedia Commons — Cheese and figs.jpg."
+    },
+    "fig-med-47": {
+      "commons": "File:Wall_painting_-_still_life_with_bread_and_figs_-_Herculaneum_-_Napoli_MAN_8625.jpg",
+      "alt": "Roman Herculaneum fresco still life with two figs and a loaf of bread",
+      "caption": "Herculaneum MAN 8625—two figs and a loaf on a sill; Roman bread-and-fig foodway in Fourth Style (photo CC BY-SA 4.0; fresco PD).",
+      "credit": "ArchaiOptix CC BY-SA 4.0 via Wikimedia Commons; wall painting public domain."
+    },
+    "fig-med-48": {
+      "commons": "File:Turkish_hosaf.jpg",
+      "alt": "Turkish incir uyutması fig pudding with walnuts",
+      "caption": "İncir uyutması—Anatolian dried-fig dessert service; hoşaf-style compote with figs, walnuts, and milk-pudding cousin on Turkish tables.",
+      "credit": "Wikimedia Commons — Turkish_hosaf.jpg (CC BY-SA 4.0, E4024); illustrative for uyutması service."
+    }
+  }
+}

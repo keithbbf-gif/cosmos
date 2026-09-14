@@ -13,6 +13,11 @@ places: ["Herculaneum", "Napoli MAN", "Pompeii"]
 hero: IMAGE_SOURCES.md#fig-med-47
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Wall_painting_-_still_life_with_bread_and_figs_-_Herculaneum_-_Napoli_MAN_8625.jpg" alt="Roman Herculaneum fresco still life with two figs and a loaf of bread" width="1400" height="2175" loading="lazy"/>
+  <figcaption><strong>Fig. 47.</strong> Herculaneum MAN 8625—two figs and a loaf on a sill; Roman bread-and-fig foodway in Fourth Style (photo CC BY-SA 4.0; fresco PD).</figcaption>
+</figure>
 
 In the Archaeological Museum in Naples there is a small wall that understands lunch.
 

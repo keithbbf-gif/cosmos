@@ -14,6 +14,11 @@ cultivars: ["Traganikà"]
 hero: IMAGE_SOURCES.md#fig-med-04
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Dried_figs.jpg" alt="Graded dried figs including paired askada-style packs" width="1400" height="4032" loading="lazy"/>
+  <figcaption><strong>Fig. 04.</strong> Askades of Kymi—paired, pressed dried fig faces from Evia’s xira syka PDO trade (illustrative graded dried figs).</figcaption>
+</figure>
 
 Kymi sits on the back of Evia as if it were still waiting for a ship. The town has had wine money and lost it. Phylloxera took the rare black grape; the shipowners took themselves elsewhere. What remained, shining in a climate that will not let a fresh fig travel with dignity, was a drying trick so specific it became a protected name.
 

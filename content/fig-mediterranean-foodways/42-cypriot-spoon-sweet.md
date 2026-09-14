@@ -13,6 +13,11 @@ places: ["Nicosia houses", "mountain villages", "Athenian cousins"]
 hero: IMAGE_SOURCES.md#fig-med-42
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Gliko_toy_koytalioy_visino.jpg" alt="Greek glyko tou koutaliou spoon sweet fig in syrup" width="1400" height="2448" loading="lazy"/>
+  <figcaption><strong>Fig. 42.</strong> Glyko tou koutaliou—Greek spoon-sweet service with syrup, spoon, and water glass (visino shown; syko fig variant on Cypriot tables).</figcaption>
+</figure>
 
 The ritual is older than your visit: a small plate, a spoon, a glass of cold water. The guest takes one sweet. Not three. The lid goes back. This is *glyko tou koutaliou*, and it is a test of whether you were raised or whether you will be forgiven for having been raised elsewhere.
 

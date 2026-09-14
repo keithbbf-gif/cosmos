@@ -13,6 +13,11 @@ places: ["Vis", "Hvar", "Vinodol hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-08
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Dry_figs.JPG" alt="Dalmatian dried smokve figs on slatted trays" width="1400" height="1999" loading="lazy"/>
+  <figcaption><strong>Fig. 08.</strong> Sea-dip and bay—smokve on lijese slats, Dalmatian island drying before the tin (Vis and Hvar foodway).</figcaption>
+</figure>
 
 On Vis they will tell you the fig is not done when it is dry. It is done when it can sit.
 

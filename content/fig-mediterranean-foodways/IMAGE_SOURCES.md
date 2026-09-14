@@ -2,6 +2,8 @@
 
 Art-desk notes for the staged series. **Do not download a file into the repo.** Log the candidate, the rights, and the caption problem. Prefer public-domain works and Wikimedia Commons files whose license is visible on the file page. Recheck every Commons license at the moment of use; people change deletions and credit lines.
 
+**Embedded heroes (2026 desk pass):** each `NN-slug.md` now opens with a hotlinked `<figure class="fmf-figure">` resolved from `figures_registry.json`. Authoritative credits live in `RIGHTS.md`. Re-run `apply_figures.py` after registry edits.
+
 House rules:
 
 - No wellness clichés: woman in linen biting a fig, dew-drop hero, “superfood” flat lay.

@@ -13,6 +13,11 @@ places: ["Samos", "Chios", "coastal Anatolia", "Cyclades"]
 hero: IMAGE_SOURCES.md#fig-med-05
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Dried_figs_%282%29.jpg" alt="String of dried figs hanging to air in storage" width="1400" height="3000" loading="lazy"/>
+  <figcaption><strong>Fig. 05.</strong> Winter necklaces—dried figs strung on rafters and wires across Aegean and Anatolian storerooms before the tin.</figcaption>
+</figure>
 
 Before the plastic tray and the nitrogen flush, a household had a rafter.
 

@@ -13,6 +13,11 @@ places: ["İncirliova", "Aydın"]
 hero: IMAGE_SOURCES.md#fig-med-15
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Common_fig_-_Ficus_carica_-_%C4%B0ncir_2.JPG" alt="Fresh Sarılop-type figs on the branch in Aydın country" width="1400" height="1716" loading="lazy"/>
+  <figcaption><strong>Fig. 15.</strong> Altın İncir festival season—Sarılop on the tree in İncirliova when stalls still sell fruit, not only the stage.</figcaption>
+</figure>
 
 Do not go to a fig festival looking for silence. Go looking for the place where the fruit is still being sold while someone is making a speech.
 

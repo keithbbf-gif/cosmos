@@ -13,6 +13,11 @@ places: ["Rome hinterlands", "Calabria", "Dalmatian coast"]
 hero: IMAGE_SOURCES.md#fig-med-28
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Common_fig_-_Ficus_carica_-_%C4%B0ncir_1.JPG" alt="Fresh Mediterranean figs on a Ferragosto summer table" width="1400" height="1956" loading="lazy"/>
+  <figcaption><strong>Fig. 28.</strong> Ferragosto first figs—Assumption-week bowls of fresh figs on an Italian summer table before the wasps win.</figcaption>
+</figure>
 
 The fifteenth of August is a religious date and a horticultural one, and the two have been shaking hands for a long time.
 

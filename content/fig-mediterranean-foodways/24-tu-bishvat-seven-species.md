@@ -13,6 +13,11 @@ places: ["Jerusalem", "diaspora tables"]
 hero: IMAGE_SOURCES.md#fig-med-24
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Seven_Species_in_a_painting_on_ceramic_tiles_on_a_street_in_Jerusalem.jpg" alt="Tu Bishvat plate with the seven species including figs" width="1400" height="2657" loading="lazy"/>
+  <figcaption><strong>Fig. 24.</strong> Tu Bishvat shivat haminim—the fig among seven species on a holiday plate in Jewish Mediterranean kitchens.</figcaption>
+</figure>
 
 The list is short and it does not care about your brunch.
 

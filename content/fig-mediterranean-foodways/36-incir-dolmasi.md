@@ -13,6 +13,11 @@ places: ["Aegean and southeastern tables", "Gaziantep influence"]
 hero: IMAGE_SOURCES.md#fig-med-36
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Walnut_stuffed_figs.jpg" alt="Turkish incir dolması dried figs stuffed with walnuts" width="1400" height="2448" loading="lazy"/>
+  <figcaption><strong>Fig. 36.</strong> İncir dolması—opened dried figs stuffed with walnut on an Anatolian tea table.</figcaption>
+</figure>
 
 Turks already knew how to stuff a leaf, a pepper, a mussel, a squash that had no other plans. Stuffing a dried fig is the same idea in a sweeter key: a hollow, a tenant, a lid that is the fruit itself.
 

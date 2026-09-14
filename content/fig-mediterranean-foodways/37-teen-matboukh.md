@@ -13,6 +13,11 @@ places: ["mountain houses", "Beirut apartments that still bother"]
 hero: IMAGE_SOURCES.md#fig-med-37
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Fig_jam.jpg" alt="Lebanese teen matboukh fig preserve in a jar" width="684" height="1066" loading="lazy"/>
+  <figcaption><strong>Fig. 37.</strong> Teen matboukh—the paddle, the pot, sesame on the jar of Levantine fig jam.</figcaption>
+</figure>
 
 Someone’s father had a spoon like a flat oar.
 

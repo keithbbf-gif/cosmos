@@ -13,6 +13,11 @@ places: ["Venice hinterlands", "Dalmatia", "southern Italy"]
 hero: IMAGE_SOURCES.md#fig-med-32
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Chiacchiere.jpg" alt="Italian Carnival chiacchiere fried pastries" width="1400" height="1854" loading="lazy"/>
+  <figcaption><strong>Fig. 32.</strong> Carnival fried sweets beside Lenten restraint—chiacchiere season before plain dried-fig fast-day plates.</figcaption>
+</figure>
 
 Carnival is a fryer. Lent is a cupboard. Figs have papers for both rooms.
 

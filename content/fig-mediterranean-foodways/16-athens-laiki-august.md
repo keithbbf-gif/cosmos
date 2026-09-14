@@ -13,6 +13,11 @@ places: ["neighborhood laiki markets", "Evia stalls"]
 hero: IMAGE_SOURCES.md#fig-med-16
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dried_fruit_at_Athens_market.jpg" alt="Dried fruit and figs at an Athens street market stall" width="1400" height="2588" loading="lazy"/>
+  <figcaption><strong>Fig. 16.</strong> Athens laiki in August—dried figs and summer fruit at a neighborhood market stall (fresh syka in season at the same tables).</figcaption>
+</figure>
 
 A dried fig is a document. A fresh fig on a Tuesday *laiki* is a rumor that happens to be true.
 

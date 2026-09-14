@@ -13,6 +13,11 @@ places: ["Naxos", "Samos", "Vis", "Hvar"]
 hero: IMAGE_SOURCES.md#fig-med-22
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Chora_of_Naxos_from_Harbour%2C_060450.jpg" alt="Naxos island harbor with cargo and ferry traffic" width="1400" height="2304" loading="lazy"/>
+  <figcaption><strong>Fig. 22.</strong> Island harbor crates—Cyclades ports where fig flats wait in tarp shade before the ferry.</figcaption>
+</figure>
 
 An island fig has a deadline with a horn.
 

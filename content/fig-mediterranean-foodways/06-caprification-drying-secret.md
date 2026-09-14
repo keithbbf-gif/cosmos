@@ -14,6 +14,11 @@ cultivars: ["Sarılop", "Calimyrna"]
 hero: IMAGE_SOURCES.md#fig-med-06
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Blastophaga_psenes.jpg" alt="Historical scientific illustration of the fig wasp Blastophaga psenes" width="300" height="226" loading="lazy"/>
+  <figcaption><strong>Fig. 06.</strong> Caprification’s worker—Blastophaga psenes on caprifig fruit, the pollination secret behind Smyrna-type orchards and Sarılop drying belts.</figcaption>
+</figure>
 
 If you cut a proper drying fig from the Menderes, you meet seeds. Not the ghost seeds of a parthenocarpic table fig. Real ones, a little grit, the reason the flesh tastes finished.
 

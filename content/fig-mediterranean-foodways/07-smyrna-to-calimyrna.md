@@ -14,6 +14,12 @@ cultivars: ["Sarılop", "Calimyrna"]
 hero: IMAGE_SOURCES.md#fig-med-07
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ships_at_Smyrna_LCCN2009632451.jpg" alt="Historic cargo ships at Smyrna (İzmir) harbor" width="1400" height="4856" loading="lazy"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/California_a_guide_to_the_Golden_state_-_Figs_in_the_Dry_Yard.jpg" alt="California figs spread in a dry yard for Calimyrna curing" width="1400" height="1764" loading="lazy"/>
+  <figcaption><strong>Fig. 07.</strong> Smyrna to Calimyrna—İzmir harbor freight (Library of Congress) and a California dry yard for the same cultivar carried west (WPA guide photo, Commons).</figcaption>
+</figure>
 
 For a century of English-language grocers, the dried fig was Smyrna. The word meant a pale, seeded, honeyed disc that arrived in a wooden box with a paper doily and a lie of geography. Most of those figs had not seen Smyrna’s water. They had seen Aydın’s dust. İzmir was the mouth. The valley was the stomach.
 

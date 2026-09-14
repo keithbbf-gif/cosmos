@@ -13,6 +13,11 @@ places: ["home kitchens from Aegean to central Anatolia"]
 hero: IMAGE_SOURCES.md#fig-med-48
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Turkish_hosaf.jpg" alt="Turkish incir uyutması fig pudding with walnuts" width="1400" height="1920" loading="lazy"/>
+  <figcaption><strong>Fig. 48.</strong> İncir uyutması—Anatolian dried-fig dessert service; hoşaf-style compote with figs, walnuts, and milk-pudding cousin on Turkish tables.</figcaption>
+</figure>
 
 *Uyutmak* is to put to sleep. *İncir uyutması* is what happens when dried figs and milk share a pot long enough to forget they were separate.
 

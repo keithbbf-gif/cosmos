@@ -13,6 +13,11 @@ places: ["La Boqueria", "Maresme", "Extremadura"]
 hero: IMAGE_SOURCES.md#fig-med-20
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Boqueria%2C_Barcelona_%28P1170751%29.jpg" alt="La Boqueria market in Barcelona with summer fruit stalls" width="1400" height="3456" loading="lazy"/>
+  <figcaption><strong>Fig. 20.</strong> La Boqueria before the aisle fills—Catalan higos and late-summer flats on the Rambla market.</figcaption>
+</figure>
 
 La Boqueria is guilty of being photographed. It is not guilty of failing to sell figs.
 

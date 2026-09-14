@@ -13,6 +13,12 @@ places: ["Sicilian interiors", "Maltese summer stalls"]
 hero: IMAGE_SOURCES.md#fig-med-45
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Hint_inciri_-_Indian_fig_-_Opuntia_ficus-indica_02.JPG" alt="Prickly pear Opuntia fruit labeled Indian fig" width="1400" height="2226" loading="lazy"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Common_fig_-_Ficus_carica_-_%C4%B0ncir_3.JPG" alt="Common fig Ficus carica fruit for comparison" width="1400" height="1236" loading="lazy"/>
+  <figcaption><strong>Fig. 45.</strong> Not the prickly pear—Opuntia ficus-indica (bajtra / fico d’India) beside true Ficus carica; the market confusion this essay resolves.</figcaption>
+</figure>
 
 This piece exists to save an art desk from a lawsuit with botany.
 

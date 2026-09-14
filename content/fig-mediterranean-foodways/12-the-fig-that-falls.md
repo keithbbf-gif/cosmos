@@ -14,6 +14,11 @@ cultivars: ["Sarılop", "Traganikà"]
 hero: IMAGE_SOURCES.md#fig-med-12
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Common_fig_-_Ficus_carica_-_%C4%B0ncir_3.JPG" alt="Common fig fruit on the tree in Turkish orchard" width="1400" height="1236" loading="lazy"/>
+  <figcaption><strong>Fig. 12.</strong> The fig that falls—Sarılop left to drop for drying harvest on the Büyük Menderes, contrasted in text with scissor-cut Kymi askades.</figcaption>
+</figure>
 
 Watch a Sarılop orchard in the real harvest and you will understand why the work looks lazy to a person who picks apples.
 

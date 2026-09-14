@@ -14,6 +14,11 @@ cultivars: ["Sarılop"]
 hero: IMAGE_SOURCES.md#fig-med-01
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Drying_figs.jpg" alt="Single-layer figs drying on outdoor trays in Morocco" width="960" height="720" loading="lazy"/>
+  <figcaption><strong>Fig. 01.</strong> Sarılop on open trays—the kerevet rule (single layer, sun and air) in an Aydın-style fig drying yard on the Büyük Menderes plain, Türkiye; tray method photographed in Morocco.</figcaption>
+</figure>
 
 By late August the valley smells like a bakery that forgot to close. Not bread. Something darker, almost tobacco at the edges, honey if you stand in the wind. The fig trees on the slopes above the Büyük Menderes have already done the impolite part of harvest: they drop the fruit. Nobody climbs for the drying crop the way you climb for a table fig. The good ones let go.
 

@@ -13,6 +13,11 @@ places: ["inland Algarve", "Loulé", "old quinta yards"]
 hero: IMAGE_SOURCES.md#fig-med-40
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Queijo_de_figo_%28Vila_Nova_de_Portim%C3%A3o%2C_Portugal%29.jpg" alt="Algarve queijo de figo pressed fig and almond cake" width="1400" height="922" loading="lazy"/>
+  <figcaption><strong>Fig. 40.</strong> Algarve figos secos—Inland Loulé country queijo de figo and dried-fig trade (Portimão region).</figcaption>
+</figure>
 
 Tourism painted the Algarve blue. The older palette had a brown bag in it.
 

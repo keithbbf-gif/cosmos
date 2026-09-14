@@ -13,6 +13,11 @@ places: ["campidano kitchens", "Nuoro hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-41
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Pan%27e_Saba.jpg" alt="Sardinian sapa saba grape must reduction with figs" width="1296" height="772" loading="lazy"/>
+  <figcaption><strong>Fig. 41.</strong> Sapa di fichi—Sardinian must reduction (saba) pot for figs in wine-country kitchens before pecorino.</figcaption>
+</figure>
 
 *Sapa* — *saba* on the mainland — is what you get when you refuse to let grape juice become only wine. Cook it down in a pot that will be stained for a generation. The house fills with a smell that is jam and iron and a little like a forge if the reduction goes far. Into that dark you can put walnuts, or squash, or the dried figs that have been waiting for a liquid with authority.
 

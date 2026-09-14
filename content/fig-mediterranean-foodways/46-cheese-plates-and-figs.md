@@ -13,6 +13,11 @@ places: ["La Mancha", "Pag", "Anatolian dairies"]
 hero: IMAGE_SOURCES.md#fig-med-46
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Figs%2C_berries_and_cheese.jpg" alt="Mediterranean cheese plate with dried figs and pan de higo" width="1400" height="1152" loading="lazy"/>
+  <figcaption><strong>Fig. 46.</strong> Cheese plates and figs—Manchego, kaşar, and smokvenjak partners on a named three-object plate.</figcaption>
+</figure>
 
 A hotel will put a dried fig next to any cheese and call it Mediterranean. Sometimes the hotel is accidentally correct. Usually the hotel is using a fruit from one sea and a cheese from a catalog.
 

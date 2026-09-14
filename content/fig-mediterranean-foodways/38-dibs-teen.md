@@ -13,6 +13,11 @@ places: ["Lebanese villages", "Syrian kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-38
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Dates_syrup.jpg" alt="Levantine fruit molasses syrup in a jar" width="1400" height="1204" loading="lazy"/>
+  <figcaption><strong>Fig. 38.</strong> Dibs teen—slow Levantine fruit molasses (dibs) in the pantry; fig and date syrups poured beside tahini and bread.</figcaption>
+</figure>
 
 Not every fig will take the tray. Some are too far gone in sweetness, too soft, too many, the ones that would sour if you asked them to be a shape and a grade. Those go to the pot and become *dibs*. The word is the same family as other Levantine molasses: a reduction, a winter, a bottle that does not need a story on the glass.
 

@@ -13,6 +13,11 @@ places: ["Vis", "Cres", "Krk", "Vinodol"]
 hero: IMAGE_SOURCES.md#fig-med-34
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Suhe_smokve_i_kontonjata_6438.jpg" alt="Dalmatian smokve dried figs and smokvenjak loaf" width="1200" height="1600" loading="lazy"/>
+  <figcaption><strong>Fig. 34.</strong> Smokvenjak hib—Vis and Dalmatian smokve with bay leaves, sliced loaf showing fig and walnut.</figcaption>
+</figure>
 
 They call it a cake because English is lazy. It is a press.
 

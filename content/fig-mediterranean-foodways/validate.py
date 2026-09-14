@@ -43,6 +43,7 @@ MED = [
     "nutrient-rich",
     "boosts",
 ]
+FIGURE_MARKER = "<!-- fmf-hero-figure -->"
 
 
 def body_words(body: str) -> int:
@@ -52,6 +53,11 @@ def body_words(body: str) -> int:
 def main() -> int:
     drafts = sorted(ROOT.glob("[0-9][0-9]-*.md"))
     img = (ROOT / "IMAGE_SOURCES.md").read_text(encoding="utf-8")
+    rights = (ROOT / "RIGHTS.md")
+    if not rights.is_file():
+        errors.append("missing RIGHTS.md")
+    else:
+        rights_text = rights.read_text(encoding="utf-8")
     man = json.loads((ROOT / "MANIFEST.json").read_text(encoding="utf-8"))
     errors: list[str] = []
     rows: list[dict] = []
@@ -93,6 +99,10 @@ def main() -> int:
         slugs.add(slug)
         if ident and f"## {ident}" not in img:
             errors.append(f"{ident}: missing IMAGE_SOURCES block")
+        if rights.is_file() and ident and f"`{ident}`" not in rights_text:
+            errors.append(f"{ident}: missing RIGHTS.md row")
+        if FIGURE_MARKER not in body or "<figure" not in body or "<figcaption" not in body:
+            errors.append(f"{path.name}: missing SEO hero figure")
         low = body.lower()
         for term in SLOP:
             if term in low:

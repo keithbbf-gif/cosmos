@@ -13,6 +13,11 @@ places: ["Anatolian weddings", "Levantine zaffeh tables", "island engagements"]
 hero: IMAGE_SOURCES.md#fig-med-29
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kuruyemi%C5%9F%C3%A7i_at_Ankara.jpg" alt="Turkish kuruyemiş dried fruit shop display with figs" width="1400" height="1920" loading="lazy"/>
+  <figcaption><strong>Fig. 29.</strong> Wedding and celebration trays—Anatolian kuruyemiş counters where sugared figs join dried fruit for feasts.</figcaption>
+</figure>
 
 A wedding tray is a market stall that has been told to behave.
 

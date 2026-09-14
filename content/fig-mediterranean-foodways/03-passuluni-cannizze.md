@@ -14,6 +14,11 @@ cultivars: ["Dottato"]
 hero: IMAGE_SOURCES.md#fig-med-03
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Fig._1._Cella_vinaria._Fig._2._Raccolta_dei_fichi._Fig._3._Raccolta_delle_bamie_%28NYPL_b14291206-425529%29.tiff" alt="19th-century engraving of fig harvest and drying in Calabria, Italy" width="1400" height="5428" loading="lazy"/>
+  <figcaption><strong>Fig. 03.</strong> Passuluni and cannizze country—historical Calabrian fig harvest and field drying (Fichi di Cosenza hinterland), from NYPL via Wikimedia Commons.</figcaption>
+</figure>
 
 In the Crati valley they wait for the stalk to bow.
 

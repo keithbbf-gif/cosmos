@@ -13,6 +13,11 @@ places: ["Aubagne", "Aix hinterland", "Luberon kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-39
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Fig_and_walnut_tart.jpg" alt="Provençal fig and walnut tart with juice on the tin" width="1400" height="1536" loading="lazy"/>
+  <figcaption><strong>Fig. 39.</strong> Tarte aux figues—Provençal summer tart, slightly collapsed crust, goat cheese and honey in the filling.</figcaption>
+</figure>
 
 Recipes will give you pastry, almond cream, a spiral of halved figs, thyme, a glaze that shines like a brochure. The foodway is simpler: too many figs, a neighbor who said she might come, an oven that was already hot from a gratin or a loaf. You roll what you have. You cut the fruit that will not last the night. You do not wash the board as if a photographer were coming.
 

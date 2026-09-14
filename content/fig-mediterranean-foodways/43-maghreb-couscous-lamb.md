@@ -13,6 +13,11 @@ places: ["Tunis kitchens", "Fassi houses", "Algiers tables"]
 hero: IMAGE_SOURCES.md#fig-med-43
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg" alt="Maghreb couscous platter with lamb and dried fruits" width="1080" height="1191" loading="lazy"/>
+  <figcaption><strong>Fig. 43.</strong> Maghreb couscous with lamb—dried fig against grain and meat on a Casablanca table, not fine-dining smear.</figcaption>
+</figure>
 
 A lamb shoulder, a cinnamon stick, a handful of the fruit that kept.
 

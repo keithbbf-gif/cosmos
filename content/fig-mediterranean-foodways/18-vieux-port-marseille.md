@@ -13,6 +13,11 @@ places: ["Vieux-Port", "Noailles", "Aubagne hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-18
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Marseille_20181110_marche_blanche.jpg" alt="Capucins market hall in Marseille with North African produce" width="1400" height="1854" loading="lazy"/>
+  <figcaption><strong>Fig. 18.</strong> Marseille Noailles and Capucins—dried-fruit and fig trade between Provence and the Maghreb in the Vieux-Port hinterland.</figcaption>
+</figure>
 
 Marseille is a fig city that pretends it is a fish city.
 

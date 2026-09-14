@@ -13,6 +13,11 @@ places: ["Aydın", "İzmir", "Hamburg buyers"]
 hero: IMAGE_SOURCES.md#fig-med-11
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/DRIED_FIGS.jpg" alt="Sorted piles of export-grade dried figs" width="1400" height="8160" loading="lazy"/>
+  <figcaption><strong>Fig. 11.</strong> Grade by count—hands over sized piles and Aydın export crates where pieces-per-kilo is law, not marketing.</figcaption>
+</figure>
 
 The romantic sentence is that every fig is unique. The packing shed does not have time for that sentence.
 

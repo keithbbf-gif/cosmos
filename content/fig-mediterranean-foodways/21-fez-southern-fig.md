@@ -13,6 +13,11 @@ places: ["Fez", "Meknès hinterland", "Rif orchards"]
 hero: IMAGE_SOURCES.md#fig-med-21
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Figs%2C_berries_and_cheese.jpg" alt="Dried figs with walnuts and cheese in a Moroccan souk" width="1400" height="1152" loading="lazy"/>
+  <figcaption><strong>Fig. 21.</strong> Fès and the western Maghreb—dried fig cones beside walnuts in the souk dried-fruit trade.</figcaption>
+</figure>
 
 The Mediterranean has a southern shore that does not ask permission of the tourist map.
 

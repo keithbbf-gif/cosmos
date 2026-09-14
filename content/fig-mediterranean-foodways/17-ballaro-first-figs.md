@@ -13,6 +13,11 @@ places: ["Ballarò", "Palermo", "Capo"]
 hero: IMAGE_SOURCES.md#fig-med-17
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Ballar%C3%B2%2C_puesto_de_fruta%2C_Palermo%2C_Sicilia%2C_Italia%2C_2015.JPG" alt="Palermo Ballarò market street with produce stalls" width="1400" height="3000" loading="lazy"/>
+  <figcaption><strong>Fig. 17.</strong> Ballarò first figs—early-hour Palermo market where common Ficus carica arrives, not fico d’India (see draft 45).</figcaption>
+</figure>
 
 In Palermo you must ask which fig.
 

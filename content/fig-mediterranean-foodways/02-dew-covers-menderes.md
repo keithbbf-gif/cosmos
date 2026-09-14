@@ -13,6 +13,11 @@ places: ["Germencik", "İncirliova", "Efeler"]
 hero: IMAGE_SOURCES.md#fig-med-02
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Protecting_fig_%21.jpg" alt="Fig drying trays covered with cloth against night dew" width="1400" height="1536" loading="lazy"/>
+  <figcaption><strong>Fig. 02.</strong> Covering piled trays after dusk so dew does not undo the day’s sun— the evening rhythm of İncirliova and Germencik yards on the Menderes.</figcaption>
+</figure>
 
 Ask an old grower in Germencik what ruined a tray and you will not hear a speech about terroir. You will hear about a night.
 

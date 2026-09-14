@@ -13,6 +13,11 @@ places: ["Kymi", "Cosenza", "Aydın", "Algarve"]
 hero: IMAGE_SOURCES.md#fig-med-09
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Drying_figs_2.jpg" alt="Figs drying inside a greenhouse-style tunnel" width="960" height="720" loading="lazy"/>
+  <figcaption><strong>Fig. 09.</strong> When August fails—tunnel and glass essiccatoio drying that rescues the crop from rain and humidity across the Mediterranean.</figcaption>
+</figure>
 
 Every drying culture has a sentence it says when the sky misbehaves. In Kymi the product file allows a special oven before the fruit is opened and paired. In Cosenza the “protected” method is a greenhouse that must not exceed fifty degrees. In Aydın the plastic tunnels go up along the same roads that used to trust the open *kerevet*. In the Algarve a grandmother will finish a tray in the residual heat after bread, as if the fig were a second loaf.
 

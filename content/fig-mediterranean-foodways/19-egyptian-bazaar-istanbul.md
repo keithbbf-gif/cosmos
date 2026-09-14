@@ -13,6 +13,11 @@ places: ["Mısır Çarşısı", "Eminönü", "Aydın lots"]
 hero: IMAGE_SOURCES.md#fig-med-19
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Spices_on_Spice_Bazaar_in_Istanbul_02.jpg" alt="Spice and dried-goods stalls under Istanbul Egyptian Bazaar vaults" width="1400" height="4912" loading="lazy"/>
+  <figcaption><strong>Fig. 19.</strong> Mısır Çarşısı—the Egyptian Bazaar vaults where incir sits beside dried fruit and nuts, scoops in the bins.</figcaption>
+</figure>
 
 The Egyptian Bazaar is named for coffee and rice and a Nile that does not run through Eminönü. It behaves, on a weekday morning, like a pantry for a city that is too big to have a single harvest.
 

@@ -13,6 +13,11 @@ places: ["İzmir / Smyrna", "Kordon", "Aydın line"]
 hero: IMAGE_SOURCES.md#fig-med-14
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Harbor_in_Smyrna_by_Marius_Bauer_Rijksdienst_voor_het_Cultureel_Erfgoed_NK1180.jpg" alt="19th-century painting of Smyrna harbor and shipping" width="633" height="419" loading="lazy"/>
+  <figcaption><strong>Fig. 14.</strong> Smyrna steamers—Levant cargo at İzmir rıhtım when dried figs rode holds east, not cruise postcards.</figcaption>
+</figure>
 
 A fig does not swim. It takes a road, then a rail, then a gangplank.
 

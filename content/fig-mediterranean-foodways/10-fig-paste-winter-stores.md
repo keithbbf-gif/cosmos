@@ -13,6 +13,11 @@ places: ["Gaziantep", "Calabria", "Levantine kitchens", "Sicily"]
 hero: IMAGE_SOURCES.md#fig-med-10
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Turkish_hosaf.jpg" alt="Turkish hoşaf compote with dried figs, apricots, and plums" width="1400" height="1920" loading="lazy"/>
+  <figcaption><strong>Fig. 10.</strong> Winter paste and stores—dried figs in hoşaf and the dark preserves (pestil, pekmez, matboukh) that outlive fresh season.</figcaption>
+</figure>
 
 A whole dried fig is a performance. It has a shape you can grade. It has a face for a box. A great many figs will never be that person.
 

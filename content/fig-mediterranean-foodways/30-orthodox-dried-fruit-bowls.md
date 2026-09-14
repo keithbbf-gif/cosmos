@@ -13,6 +13,11 @@ places: ["Athens homes", "Thessaloniki", "Cypriot and Antiochian tables"]
 hero: IMAGE_SOURCES.md#fig-med-30
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Dried_fruit_at_GUM_Market_in_Yerevan%2C_Armenia.jpg" alt="Orthodox-style dried fruit bowl with figs and nuts" width="1400" height="4548" loading="lazy"/>
+  <figcaption><strong>Fig. 30.</strong> Orthodox dried-fruit bowls—figs among walnuts on a winter table (illustrative Caucasus market display).</figcaption>
+</figure>
 
 There is a bowl that does not get a name in the cookbook because it is not a dish. It is a climate.
 

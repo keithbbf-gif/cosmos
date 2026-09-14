@@ -13,6 +13,11 @@ places: ["İncirliova", "Aydın", "İzmir–Aydın railway"]
 hero: IMAGE_SOURCES.md#fig-med-13
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Aydin_Vilayet%2C_Ottoman_Empire_%281900%29.png" alt="Historic map of Aydın Vilayet including İncirliova fig country" width="1400" height="1905" loading="lazy"/>
+  <figcaption><strong>Fig. 13.</strong> İncirliova and the fig valley—Aydın Vilayet on an Ottoman map when rail and market street carried Sarılop to the world.</figcaption>
+</figure>
 
 Most towns are named for a spring, a saint, a forgotten landlord. İncirliova is named for a crop. Fig-valley. The older name, Karapınar, dark spring, was a water name, which is also honest: this part of the Büyük Menderes is a wet idea in a dry season. In the 1930s the water name lost. Atatürk, the story goes, looked at the trees and the paperwork changed.
 

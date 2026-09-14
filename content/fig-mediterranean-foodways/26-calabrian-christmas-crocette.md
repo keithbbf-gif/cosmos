@@ -13,6 +13,11 @@ places: ["Amantea", "Belmonte Calabro", "Cosenza Vecchia"]
 hero: IMAGE_SOURCES.md#fig-med-26
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Dried_figs.jpg" alt="Calabrian crocette fig sweets with visible nuts" width="1400" height="4032" loading="lazy"/>
+  <figcaption><strong>Fig. 26.</strong> Calabrian Christmas crocette—burned-tray Fichi di Cosenza confections with nut showing, not only dipped SKU.</figcaption>
+</figure>
 
 Open a proper Cosenza tin at Christmas and you will not find a pile. You will find carpentry.
 

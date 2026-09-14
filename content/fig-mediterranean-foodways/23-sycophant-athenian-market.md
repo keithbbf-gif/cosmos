@@ -13,6 +13,11 @@ places: ["Agora", "Attica"]
 hero: IMAGE_SOURCES.md#fig-med-23
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Holy_Apostles_church_ancient_agora_from_Acropolis_Athens.jpg" alt="Ruins of the Ancient Agora of Athens" width="1400" height="2826" loading="lazy"/>
+  <figcaption><strong>Fig. 23.</strong> Classical Athens agora—where sykon and sycophant tied the fig to market law and political insult.</figcaption>
+</figure>
 
 We are not supposed to be sure.
 

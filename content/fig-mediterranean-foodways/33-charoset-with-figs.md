@@ -13,6 +13,11 @@ places: ["Sephardi tables", "Italian Jewish kitchens", "Israeli Seders"]
 hero: IMAGE_SOURCES.md#fig-med-33
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Charoset.jpg" alt="Charoset paste with visible fig for Passover Seder" width="1400" height="2200" loading="lazy"/>
+  <figcaption><strong>Fig. 33.</strong> Charoset with figs—Mediterranean Jewish Seder bowls with brown fruit paste and visible seed.</figcaption>
+</figure>
 
 *Charoset* is a paste that has a job: to look like mortar and taste like a reason to stay at the table.
 

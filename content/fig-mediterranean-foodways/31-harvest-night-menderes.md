@@ -13,6 +13,11 @@ places: ["village yards off the Büyük Menderes"]
 hero: IMAGE_SOURCES.md#fig-med-31
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Drying_figs.jpg" alt="Fig drying yard trays under practical night work light" width="960" height="720" loading="lazy"/>
+  <figcaption><strong>Fig. 31.</strong> Harvest night on the Menderes—yard trays when Sarılop comes in after dusk (same single-layer drying yard).</figcaption>
+</figure>
 
 When the last good drop has been taken and the trays are either under cloth or already in the shed, a yard will sometimes become a table.
 

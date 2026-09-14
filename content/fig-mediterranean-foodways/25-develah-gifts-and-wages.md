@@ -13,6 +13,11 @@ places: ["Judah", "later Levantine kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-25
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Pan_de_higo.jpg" alt="Pressed develah fig cake cut to show the mash" width="500" height="329" loading="lazy"/>
+  <figcaption><strong>Fig. 25.</strong> Develah—pressed fig cake in the Levantine gift and wage economy of dried fruit (biblical and modern tables).</figcaption>
+</figure>
 
 When Abigail goes to meet David in First Samuel, the list of what she takes includes *develah* — cakes of pressed figs — among the other portable arguments: bread, wine, sheep, grain. The text is not doing recipe writing. It is doing diplomacy with food that will last the ride.
 

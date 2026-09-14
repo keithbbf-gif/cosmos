@@ -40,6 +40,10 @@ If an older source praises figs as a remedy, quote the source as a period voice.
 | --- | --- |
 | `SERIES.md` | this brief |
 | `IMAGE_SOURCES.md` | art-desk notes, one block per draft |
+| `RIGHTS.md` | hero image licenses and credit lines (hotlink, no binaries) |
+| `figures_registry.json` | machine map of Commons heroes + SEO captions |
+| `apply_figures.py` | embed `<figure>` blocks from the registry |
+| `validate.py` | desk check (copy, themes, figures, RIGHTS) |
 | `MANIFEST.json` | inventory used by the desk |
 | `NN-slug.md` | staged drafts, numbered for reading order, not publication order |
 

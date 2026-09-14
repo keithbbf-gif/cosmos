@@ -13,6 +13,11 @@ places: ["Alexandria markets", "Delta gardens", "Cairo winter shops"]
 hero: IMAGE_SOURCES.md#fig-med-44
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/William_James_M%C3%BCller_-_Cairo_Bazaar_-_B1984.23_-_Yale_Center_for_British_Art.jpg" alt="Khan el-Khalili bazaar in Cairo with dried goods" width="1400" height="1435" loading="lazy"/>
+  <figcaption><strong>Fig. 44.</strong> Egyptian winter teen markets—Cairo Khan el-Khalili lanes where dried figs and nuts move in winter.</figcaption>
+</figure>
 
 Egypt is a fig country in the tables that count tons, and a fig country in a more complicated way than a PDO map.
 

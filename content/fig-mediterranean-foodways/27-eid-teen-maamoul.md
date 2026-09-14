@@ -13,6 +13,11 @@ places: ["Lebanese mountain kitchens", "Syrian and Palestinian tables"]
 hero: IMAGE_SOURCES.md#fig-med-27
 claims_policy: no-medical
 ---
+<!-- fmf-hero-figure -->
+<figure class="fmf-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Ma%27amoul_Filled_with_Dates_and_Nuts.jpg" alt="Maamoul cookies with wooden mold and filled center" width="1400" height="902" loading="lazy"/>
+  <figcaption><strong>Fig. 27.</strong> Eid maamoul—wooden mold and broken cookie; Levantine teen (fig) paste filling, not date alone.</figcaption>
+</figure>
 
 *Maamoul* is a cookie that remembers a mold.
 
