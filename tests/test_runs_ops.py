@@ -1,8 +1,10 @@
-#!/usr/bin/env py -3.14
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Runs ops fold: GET only, never invents tokens or vendor PR lists."""
 from __future__ import annotations
 
 import sys
+import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,17 +13,24 @@ sys.path.insert(0, str(ROOT / "cosmos"))
 from cosmos_runs_ops import _selftest as runs_ops_selftest  # noqa: E402
 
 
-def test_runs_ops_fold():
-    assert runs_ops_selftest() == 0
+class TestRunsOps(unittest.TestCase):
+    def test_runs_ops_fold(self):
+        self.assertEqual(runs_ops_selftest(), 0)
 
+    def test_runs_ops_exposes_product_spend_fold(self):
+        src = (ROOT / "cosmos" / "cosmos_runs_ops.py").read_text(encoding="utf-8")
+        self.assertIn("by_product", src)
+        self.assertIn("audit_by_product", src)
+        self.assertIn("scheduler_jobs", src)
+        self.assertIn("UNATTRIBUTED", src)
 
-def test_service_names_runs_ops():
-    src = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
-    assert 'parsed.path == "/api/v1/runs_ops"' in src
-    assert "runs_ops_snapshot" in src
-    assert "GET /api/v1/runs_ops" in src
-    assert "runs_ops_save" not in src
+    def test_service_names_runs_ops(self):
+        src = (ROOT / "cosmos" / "cosmos_service.py").read_text(encoding="utf-8")
+        self.assertIn('parsed.path == "/api/v1/runs_ops"', src)
+        self.assertIn("runs_ops_snapshot", src)
+        self.assertIn("GET /api/v1/runs_ops", src)
+        self.assertNotIn("runs_ops_save", src)
 
 
 if __name__ == "__main__":
-    raise SystemExit(runs_ops_selftest())
+    unittest.main()
