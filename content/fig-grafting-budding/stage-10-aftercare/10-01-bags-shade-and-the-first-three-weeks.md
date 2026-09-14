@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: fig-graft-aftercare-bags-shade-three-weeks
+meta_description: Fig graft aftercare in Zone 8a — humidity bags, partial shade, watering the plant not the union, and avoiding dry scions in the first three weeks.
+figures:
+  - shared.aftercare-first-three-weeks
 related: [01-03, 02-01, 12-01]
 ---
+
+<!-- figure-id: shared.aftercare-first-three-weeks -->
+<figure>
+<img src="../../assets/diagrams/svg/aftercare-first-three-weeks.svg" alt="Fig graft aftercare in the first three weeks — humidity bag on the scion, partial shade, sucker removal, and stake">
+<figcaption>Figure 1. Fig graft aftercare in the first three weeks — humidity bag on the scion, partial shade, sucker removal, and stake. Most 8a failures are dryness and sunburn, not mystical incompatibility. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Bags, shade, and the first three weeks
 

@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: side-veneer-fig-graft-no-head
+meta_description: Side veneer graft on figs when you cannot head the trunk — shallow flap, flat scion, and cambium contact without topping the tree.
+figures:
+  - shared.graft-cuts-plate
 related: [07-03, 08-01, 10-03]
 ---
+
+<!-- figure-id: shared.graft-cuts-plate -->
+<figure>
+<img src="../../assets/diagrams/svg/graft-cuts-plate.svg" alt="Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked">
+<figcaption>Figure 1. Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked. Panel C is the side veneer used when heading the stub is not an option. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Side veneer when you cannot head
 

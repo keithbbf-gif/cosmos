@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: saddle-omega-fig-graft
+meta_description: Saddle and omega grafts for figs — notched stock and scion seats for diameter mismatch on the bench.
+figures:
+  - shared.graft-cuts-plate
 related: [06-02, 05-03, 09-01]
 ---
+
+<!-- figure-id: shared.graft-cuts-plate -->
+<figure>
+<img src="../../assets/diagrams/svg/graft-cuts-plate.svg" alt="Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked">
+<figcaption>Figure 1. Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked. Saddle and omega are variants of the same cambium-matching problem shown on panels B–C. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Saddle and omega
 

@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: chip-bud-fig-reliable
+meta_description: Chip-bud grafting on figs — stock slot, scion chip, insertion, and wrap without needing slipping bark in Zone 8a.
+figures:
+  - shared.chip-bud-sequence
 related: [04-03, 08-04, 09-02]
 ---
+
+<!-- figure-id: shared.chip-bud-sequence -->
+<figure>
+<img src="../../assets/diagrams/svg/chip-bud-sequence.svg" alt="Chip-bud grafting sequence on fig wood — stock slot, scion chip with bud, insertion, and parafilm wrap">
+<figcaption>Figure 1. Chip-bud grafting sequence on fig wood — stock slot, scion chip with bud, insertion, and parafilm wrap. Preferred backyard method when T-bud wants slipping bark. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Chip-bud, the reliable one
 

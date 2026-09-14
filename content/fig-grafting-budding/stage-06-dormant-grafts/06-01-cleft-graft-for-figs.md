@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: cleft-graft-figs-zone-8a
+meta_description: Cleft graft for common figs in Zone 8a — split stub, wedge scions at cambium, and wrap the dry crack.
+figures:
+  - shared.graft-cuts-plate
 related: [05-01, 05-03, 07-01]
 ---
+
+<!-- figure-id: shared.graft-cuts-plate -->
+<figure>
+<img src="../../assets/diagrams/svg/graft-cuts-plate.svg" alt="Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked">
+<figcaption>Figure 1. Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked. Panel A is the conversion cleft; panels B–C for matched-diameter and side-stub work. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Cleft graft for figs
 

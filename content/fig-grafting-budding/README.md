@@ -72,6 +72,7 @@ Contested points are marked in the drafts, not smoothed:
 
 ```text
 python3 content/fig-grafting-budding/_check.py
+python3 content/fig-grafting-budding/validate_graphics.py
 ```
 
-Inventory: `MANIFEST.toml`.
+Inventory: `MANIFEST.toml`. Figures: `GRAPHICS_INDEX.md`, `RIGHTS.md`, `GRAPHICS_CHECKLIST.md`.

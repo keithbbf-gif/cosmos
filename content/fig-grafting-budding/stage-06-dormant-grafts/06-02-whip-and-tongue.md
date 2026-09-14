@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: whip-and-tongue-fig-graft
+meta_description: Whip-and-tongue graft for figs when stock and scion match — long slopes, locking tongues, and a union that thickens without a cleft knuckle.
+figures:
+  - shared.graft-cuts-plate
 related: [05-02, 06-03, 09-01]
 ---
+
+<!-- figure-id: shared.graft-cuts-plate -->
+<figure>
+<img src="../../assets/diagrams/svg/graft-cuts-plate.svg" alt="Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked">
+<figcaption>Figure 1. Three dormant fig graft cuts — cleft, whip-and-tongue, and side veneer — with cambium contact targets marked. Panel B shows the matched-diameter whip-and-tongue lock used on bench and same-size wood. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # Whip and tongue
 

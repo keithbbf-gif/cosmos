@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Common fig graft cuts  -  cleft, whip-and-tongue, side veneer</title>
+  <desc id="desc">Three-panel instructional schematic of dormant fig grafting cuts with cambium alignment notes</desc>
+  <rect width="960" height="620" fill="#f5f0e8"/>
+  <text x="480" y="34" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="#2c2416">Dormant fig graft cuts (Zone 8a stock moving, scion asleep)</text>
+  <!-- panel A cleft -->
+  <rect x="30" y="55" width="290" height="480" fill="#fff" stroke="#d4c8b8"/>
+  <text x="175" y="82" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2c2416">A. Cleft graft</text>
+  <rect x="120" y="110" width="40" height="200" fill="#c9bcaa" stroke="#5c4a32"/>
+  <line x1="140" y1="110" x2="140" y2="180" stroke="#2c2416" stroke-width="2"/>
+  <path d="M 100 180 L 180 180" stroke="#2c2416" stroke-width="1.5"/>
+  <path d="M 115 200 L 125 280" fill="#e8dfd0" stroke="#4a6741" stroke-width="1.5"/>
+  <path d="M 155 200 L 165 280" fill="#e8dfd0" stroke="#4a6741" stroke-width="1.5"/>
+  <text x="175" y="305" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Split stub; wedge scions at cambium</text>
+  <text x="175" y="322" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">Wrap the chimney  -  figs dry the crack</text>
+  <!-- panel B whip -->
+  <rect x="335" y="55" width="290" height="480" fill="#fff" stroke="#d4c8b8"/>
+  <text x="480" y="82" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2c2416">B. Whip-and-tongue</text>
+  <path d="M 400 280 L 470 180" stroke="#8b5a2b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 490 280 L 560 180" stroke="#4a6741" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 455 230 L 465 245 L 450 250 Z" fill="#f5f0e8" stroke="#2c2416"/>
+  <path d="M 505 230 L 495 245 L 510 250 Z" fill="#f5f0e8" stroke="#2c2416"/>
+  <text x="480" y="305" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Matched diameter; long sloping faces</text>
+  <text x="480" y="322" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">Tongues lock  -  bench and same-size wood</text>
+  <!-- panel C side veneer -->
+  <rect x="640" y="55" width="290" height="480" fill="#fff" stroke="#d4c8b8"/>
+  <text x="785" y="82" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2c2416">C. Side veneer</text>
+  <rect x="760" y="120" width="50" height="220" fill="#c9bcaa" stroke="#5c4a32"/>
+  <path d="M 720 200 L 760 200 L 755 320 L 715 310 Z" fill="#e8dfd0" stroke="#4a6741" stroke-width="1.5"/>
+  <text x="785" y="305" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Shallow flap on stock; scion flat</text>
+  <text x="785" y="322" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">When you cannot head the trunk</text>
+  <!-- cambium legend -->
+  <rect x="30" y="545" width="900" height="55" fill="#fff" stroke="#d4c8b8"/>
+  <line x1="55" y1="570" x2="85" y2="570" stroke="#4a6741" stroke-width="4"/>
+  <text x="95" y="575" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Green stroke = cambium contact target (outer face on wedges)</text>
+  <text x="480" y="575" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">Ink schematic for teaching  -  not a cultivar-specific union photo</text>
+  <text x="480" y="608" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Schematic  -  not to scale � shared.graft-cuts-plate</text>
+</svg>

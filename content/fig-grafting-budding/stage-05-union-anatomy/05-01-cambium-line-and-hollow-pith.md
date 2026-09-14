@@ -8,8 +8,18 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+slug: cambium-line-hollow-pith-fig-graft
+meta_description: Fig graft union anatomy — where cambium lives under bark and why hollow pith makes wedge cuts fail in Zone 8a.
+figures:
+  - shared.cambium-cross-section
 related: [05-03, 06-01, 08-01]
 ---
+
+<!-- figure-id: shared.cambium-cross-section -->
+<figure>
+<img src="../../assets/diagrams/svg/cambium-cross-section-fig.svg" alt="Fig stem cross-section showing the cambium ring under bark and the large hollow pith that makes wedge cuts fail">
+<figcaption>Figure 1. Fig stem cross-section showing the cambium ring under bark and the large hollow pith that makes wedge cuts fail. Ink schematic for teaching; swap for a winter wedge-face still from PHOTO_NOTES before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 # The cambium line and the hollow pith
 
