@@ -198,9 +198,20 @@ def t_open_legal_is_counted_not_opened():
         "ok": False, "kind": "LEGAL_OMITTED", "detail": "legal stream"},
         "cow-leg1", "stub")
     return (rec["ok"] is False and rec["kind"] == "LEGAL_OMITTED"
+            and rec["id"] == "cow-leg1"
             and rec["omission"]["opened"] == 0
-            and rec["omission"]["counted"] == 1
-            and rec["text"] is None and rec["text_len"] is None)
+            and rec["omission"]["counted"] == 1)
+
+
+def t_open_legal_omitted_carries_no_content_fields():
+    """Pin: adversarial upstream text/title/body must not leak on LEGAL_OMITTED."""
+    rec = recents.project_open(409, {
+        "ok": True, "kind": "LEGAL_OMITTED",
+        "title": "privileged", "text": "privileged", "body": "privileged",
+        "opencode_id": "ow-leak", "openwork": {"path": "/legal/"}},
+        "cow-leg1", "stub")
+    forbidden = ("title", "text", "text_len", "body", "opencode_id", "openwork")
+    return all(k not in rec for k in forbidden)
 
 
 def t_core_error_body_keeps_null_count():
@@ -470,6 +481,7 @@ CHECKS = (
     ("id must be cow-<session_id>", t_id_must_be_cow_session_id),
     ("bad id shape refused before the wire", t_bad_id_shape_refused_before_the_wire),
     ("open legal: counted 1, opened 0", t_open_legal_is_counted_not_opened),
+    ("open legal omitted: no content fields (pin)", t_open_legal_omitted_carries_no_content_fields),
     ("Core error body keeps null count", t_core_error_body_keeps_null_count),
     ("Core down is CORE_UNREACHABLE", t_core_down_is_unreachable_not_empty),
     ("Core 401 is CORE_REFUSED", t_core_401_is_refused),

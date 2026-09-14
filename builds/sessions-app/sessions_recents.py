@@ -113,14 +113,26 @@ def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
     """Core's open body → the app's open projection. A legal (omitted) session
     is reported as omitted with opened=0, never rendered as empty text."""
     kind = str(body.get("kind") or body.get("error") or "UNMEASURED")
-    text = body.get("text")
     omitted = kind == "LEGAL_OMITTED"
+    if omitted:
+        return {
+            "schema": OPEN_SCHEMA,
+            "product": PRODUCT,
+            "source": source,
+            "http": code,
+            "ok": False,
+            "kind": kind,
+            "id": rec_id,
+            "omission": _omission(1),
+            "detail": str(body.get("detail") or "")[:400] or None,
+        }
+    text = body.get("text")
     return {
         "schema": OPEN_SCHEMA,
         "product": PRODUCT,
         "source": source,
         "http": code,
-        "ok": bool(body.get("ok")) and not omitted,
+        "ok": bool(body.get("ok")),
         "kind": kind,
         "id": rec_id,
         "opencode_id": body.get("opencode_id"),
@@ -128,6 +140,5 @@ def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
         "text": text if isinstance(text, str) else None,
         "text_len": len(text) if isinstance(text, str) else None,
         "openwork": body.get("openwork"),
-        "omission": _omission(1 if omitted else None) if omitted else None,
         "detail": str(body.get("detail") or "")[:400] or None,
     }
