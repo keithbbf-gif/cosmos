@@ -11,6 +11,13 @@ topics: [inventory, cooler, dormant, cut-to-order]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d07.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Dormant fig cuttings staged for cut-to-order versus cooler inventory">
+<figcaption>Figure 1. Cut-to-order wood leaves the blade warm; cooler inventory is a bet that labels and temps hold until the slip prints. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Cut-to-order is fresher. The cooler is how you survive the week you
 sold too many. I live in both sentences and I do not let them cancel.
 

@@ -11,6 +11,13 @@ topics: [caliper, cull, pith, grade]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d06.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Pencil-thick fig propagation sticks on USDA cutting plate with cull context">
+<figcaption>Figure 1. Pencil-thick wood with two honest culls beside it beats a bag of pretty twigs that will not root. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Pencil-thick is the floor. Two culls sit on either side of it. One is
 the twig that looks like a promise and snaps like a herb. The other is
 the club that looks expensive and is mostly pith.

@@ -11,6 +11,13 @@ topics: [heat-pack, shipping, weather, packing]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d36.usda-phzm-2012 -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA zone map — heat pack risk against dormant bark in cold snaps">
+<figcaption>Figure 1. A heat pack against bark is an oven — mild map bands do not mean every stick wants bottom heat in the mail. Historic plate — not our pack bench. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A heat pack against bark is an oven with no thermostat. I
 have used them. I have also opened a box where the bundle
 next to the pack looked boiled and the bundle in the far

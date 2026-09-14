@@ -11,6 +11,13 @@ topics: [shipping, plants, not-medical, usps]
 author: PapaFig
 ---
 
+<!-- figure-id: d34.ehret-trew-1771 -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/ehret-trew-1771.jpg" alt="Botanical Ficus carica plate — mailable dormant plants not produce snacks">
+<figcaption>Figure 1. We ship plants, not snacks — dormant wood and liners ride under plant rules, not grocery fantasy. Historic plate — not our pack bench. Credit: G. D. Ehret; C. J. Trew, Plantae selectae (1771). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 We ship plants. We do not ship snacks, and we do not
 ship medicine. I put that at the front of the ship
 stage because the internet will try to drag a fig box

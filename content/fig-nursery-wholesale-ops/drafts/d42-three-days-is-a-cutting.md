@@ -11,6 +11,13 @@ topics: [transit, cuttings, pots, shipping]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d42.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Aging dormant fig cuttings — three days changes the product class">
+<figcaption>Figure 1. Three days in a warm back room turns a cutting into compost math — the plate is dormant wood, not what Thursday smells like. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Three days is a cutting. A leafy pot wants a different
 clock. I buy service by the object, not by the habit of
 “we always do Priority.”

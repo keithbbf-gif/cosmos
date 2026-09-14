@@ -11,6 +11,13 @@ topics: [phytosanitary, compliance, shipping, inspector]
 author: PapaFig
 ---
 
+<!-- figure-id: d40.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="USDA voucher plate — official documents versus vibe certificates">
+<figcaption>Figure 1. A phytosanitary certificate is a document with an inspector's name — not a sticker you print because the buyer sounded serious. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A phytosanitary certificate is a document from an
 inspector, not a sentence in your listing. I have seen
 listings that say “phyto certified” the way people say

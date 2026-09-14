@@ -11,6 +11,13 @@ topics: [packing, wholesale, retail, grade]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d26.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Retail sleeve versus wholesale brick of dormant fig cuttings">
+<figcaption>Figure 1. A retail sleeve is a conversation; a brick is a count — different dunnage, different label density, same damp-not-wet rule. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A retail sleeve is a conversation. A wholesale brick is a
 count. I pack them differently because they will be opened
 differently.

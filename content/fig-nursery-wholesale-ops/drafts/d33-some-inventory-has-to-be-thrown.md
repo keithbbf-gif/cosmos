@@ -11,6 +11,13 @@ topics: [cull, inventory, grade, cooler]
 author: PapaFig
 ---
 
+<!-- figure-id: d33.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Cull fig sticks on USDA plate — inventory that must leave the trade">
+<figcaption>Figure 1. Some inventory has to go in the burn pile — fuzzy wood at pack-out is not a wholesale discount, it is trash. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Some inventory has to go in the burn pile. That is part
 of the grade. I say it ugly because the tote will say it
 pretty: “still usable,” “someone will take it,” “we

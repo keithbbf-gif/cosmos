@@ -11,6 +11,13 @@ topics: [cooler, temperature, dormant, storage]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d30.usda-phzm-2012 -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA Plant Hardiness Zone Map — cooler temperature band context">
+<figcaption>Figure 1. 36–40°F is a reading, not a sticker — map bands remind you why a drawer thermometer beats a logo on the door. Historic plate — not our pack bench. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 36 to 40°F is a thermometer reading, not a sticker on the
 door. I have believed a sticker. The sticker was optimistic.
 The wood was waking in the back of the box like it had

@@ -11,6 +11,13 @@ topics: [labeling, identity, mother-block]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d11.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="USDA Nameless fig watercolor — identity before the blade falls">
+<figcaption>Figure 1. The name goes on before the cut; anonymous wood is how a bench lies to itself in February. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 I write the name before I cut. After the pile exists, I am guessing.
 I can guess well. I have also guessed wrong with a confidence that
 still makes my neck hot.

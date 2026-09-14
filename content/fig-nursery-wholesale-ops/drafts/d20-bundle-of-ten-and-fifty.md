@@ -11,6 +11,13 @@ topics: [packing, count, wholesale, bundles]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d20.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Counted bundles of fig cuttings — tens and fifties as trade units">
+<figcaption>Figure 1. Ten is a handful; fifty is a trade unit — count bands exist so wholesale does not devolve into handful math. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Ten is a retail handful. Fifty is a trade unit. Do not mix the
 math. I have packed a “fifty” that was two twenties and a ten
 in my head and a forty-seven on the table. The head lost.

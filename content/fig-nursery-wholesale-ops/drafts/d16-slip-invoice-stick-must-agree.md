@@ -11,6 +11,13 @@ topics: [packing-slip, invoice, count, labeling]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d16.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="USDA documentation plate — packing slip, invoice, and stick must match">
+<figcaption>Figure 1. Slip, invoice, and stick must agree before tape; paper that disagrees is a chargeback waiting on a porch. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 If the slip says twenty and the bag has eighteen, you did not
 pack. You hoped. Hope is not a count. I have hoped. I have also
 opened my own box at the post office in my head and felt the

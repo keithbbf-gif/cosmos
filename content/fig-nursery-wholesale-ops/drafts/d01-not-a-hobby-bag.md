@@ -11,6 +11,13 @@ topics: [wholesale, grade, count, retail]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d01.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Bundled dormant fig cutting wood graded for wholesale trade on a USDA propagation plate">
+<figcaption>Figure 1. A wholesale brick is counted lignified wood in trade lengths — not hobby envelopes of green tips. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A wholesale box is not a hobby envelope with a bigger stamp. That is the
 first fight on this bench, and we lose it every December when someone
 wants “just a few extra” stuffed into a trade carton that already has a

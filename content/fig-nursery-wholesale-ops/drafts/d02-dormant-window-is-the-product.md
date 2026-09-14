@@ -11,6 +11,13 @@ topics: [dormant, timing, lignified, season]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d02.amwell-fig-tree -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Mature common fig tree Ficus carica in a temperate garden — dormant-season trade context">
+<figcaption>Figure 1. The dormant window is the product: winter wood taken while the tree is asleep, not summer growth rushed into a bag. Historic plate — not our pack bench. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 The product is dormant wood. Everything else is a delay or a problem.
 People talk like the product is the variety name. The name is a promise
 about a tree. The thing in the bag is a stick that either went to sleep

@@ -11,6 +11,13 @@ topics: [weekend, cooler, dormant, inventory]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d32.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Weekend-held dormant cuttings in a tote — Friday wood to Monday ship">
+<figcaption>Figure 1. Friday wood in a tote until Monday is a decision — every extra day in plastic is a vote for mold. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Friday wood in a tote until Monday is a decision. Write
 it down or throw it. I have left a tote on a shop floor
 because I was “done for the week” and the floor was not

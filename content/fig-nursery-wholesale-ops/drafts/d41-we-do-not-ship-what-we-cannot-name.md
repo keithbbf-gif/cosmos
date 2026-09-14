@@ -11,6 +11,13 @@ topics: [identity, no-ship, unknown, honesty]
 author: PapaFig
 ---
 
+<!-- figure-id: d41.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="USDA Nameless fig plate — do not ship unnamed wood as a celebrity SKU">
+<figcaption>Figure 1. If I cannot name it, I do not ship it as a name — honesty on the slip beats a hopeful cultivar on the invoice. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 If I cannot name it, I do not ship it as a name. That is
 a ship rule, not only a mark rule. The box is the last
 gate. I have killed a carton at the door because the

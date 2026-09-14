@@ -11,6 +11,13 @@ topics: [synonyms, identity, labeling, honesty]
 author: PapaFig
 ---
 
+<!-- figure-id: d14.usda-pom-toulousienne -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-toulousienne.jpg" alt="USDA Toulousienne fig watercolor — synonyms are not extra SKUs">
+<figcaption>Figure 1. Synonyms are not extra SKUs; one stick, one trade name on the invoice, or you are running a guessing game. Historic plate — not our pack bench. Credit: Deborah Griscom Passmore; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Lattarula and Italian Honey are not two SKUs. I have seen lists
 that sell both from the same row and call it depth. That is not
 depth. That is a filing error with a price.

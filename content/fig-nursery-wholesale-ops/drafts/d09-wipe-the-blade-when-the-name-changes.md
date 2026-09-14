@@ -11,6 +11,13 @@ topics: [tools, sanitation, identity, sap]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d09.ehret-trew-1771 -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/ehret-trew-1771.jpg" alt="Historic botanical plate of Ficus carica — bench hygiene when cultivar changes">
+<figcaption>Figure 1. Wipe the blade when the name changes; sap on steel is how Celeste becomes Turkey in a mixed afternoon. Historic plate — not our pack bench. Credit: G. D. Ehret; C. J. Trew, Plantae selectae (1771). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 I wipe the blade when the name changes. Not when I remember. Not
 when the sap gets embarrassing. When the card in my pocket changes,
 the knife gets a rag.

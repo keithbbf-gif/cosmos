@@ -11,6 +11,13 @@ topics: [shipping, tracking, porch, carriers]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d38.amwell-fig-tree -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Garden fig tree at delivery — porch care beats tracking numbers">
+<figcaption>Figure 1. Tracking is not care; the porch is care — a scanned label does not unwrap a box on the other bench. Historic plate — not our pack bench. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Tracking is not care. The porch at 12°F is care. I can
 send a number that moves across a map and still kill a
 box at the last ten feet. I have done the map. I prefer

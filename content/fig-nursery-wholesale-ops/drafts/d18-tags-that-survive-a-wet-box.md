@@ -11,6 +11,13 @@ topics: [labeling, materials, packing]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d18.wellcome-v0044761 -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Fig stem and fruit anatomy plate — tags that must survive a wet box">
+<figcaption>Figure 1. A pulp tag is not a label; ink that survives a wet box is part of the cultivar promise. Historic plate — not our pack bench. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 A paper tag that turns to pulp in a wet box is not a label. It
 is compost. I have fished a gray wad out of a bag and tried to
 read it like a prophecy. The prophecy said I was cheap in

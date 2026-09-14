@@ -11,6 +11,13 @@ topics: [packing, crush, boxes, shipping]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d23.eb1911-moraceae-diagram -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/eb1911-moraceae-diagram.jpg" alt="Fig structure diagram — void fill and crush in shipping cartons">
+<figcaption>Figure 1. Empty air in a box is a hammer — void is acceleration; staged wood still needs something between sticks and cardboard. Historic plate — not our pack bench. Credit: Encyclopaedia Britannica 1911. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 Empty air in a box is a hammer. Fill it or the post office
 will. I have opened cartons where the bundles looked like
 they had been in a dice cup. The wood was honest when it

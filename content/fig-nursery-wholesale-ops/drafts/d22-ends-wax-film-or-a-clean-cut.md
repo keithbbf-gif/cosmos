@@ -11,6 +11,13 @@ topics: [packing, wax, parafilm, polarity]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d22.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Fig cutting ends on USDA plate — wax, film, or clean cut choices">
+<figcaption>Figure 1. Ends: wax, film, or a clean cut — exposed pith dries in transit; sealed ends rot if the bag is already wet. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A clean cut ships. Wax is a choice. Sealed wet ends are a
 rot plan. I have tried all three in the same week and the
 wet ends wrote the review.

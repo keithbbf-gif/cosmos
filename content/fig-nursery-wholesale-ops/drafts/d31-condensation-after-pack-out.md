@@ -11,6 +11,13 @@ topics: [condensation, packing, cooler, moisture]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d31.wellcome-v0044761 -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Fig stem cross-section — condensation after warm pack meets cold truck">
+<figcaption>Figure 1. Warm wood in a cold bag sweats — fog on plastic is normal; a pond at the bottom is a repack. Historic plate — not our pack bench. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Warm wood in a cold bag sweats. That water is yours to
 manage. I have sealed a bundle in a heated shop, set it
 on a cold stoop, and made a rainstorm in a zip bag that

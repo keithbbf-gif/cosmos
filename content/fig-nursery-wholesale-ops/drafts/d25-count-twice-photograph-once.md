@@ -11,6 +11,13 @@ topics: [packing, count, photo, packing-slip]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d25.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Open-bundle fig cuttings — bench photograph as packing receipt">
+<figcaption>Figure 1. Count twice, photograph once, then tape — an open-box bench photo beats reconstructing Tuesday from memory. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 I count, I write, I photograph the open box. Then I tape. Tape
 is the line after which I am arguing with a memory. I have a
 bad memory at 10 p.m. The photo does not.

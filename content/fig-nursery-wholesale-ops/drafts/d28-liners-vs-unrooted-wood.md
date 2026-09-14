@@ -11,6 +11,13 @@ topics: [liners, cuttings, packing, grade]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d28.wellcome-v0044761 -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Fig stem with roots implied — liners versus unrooted dormant wood">
+<figcaption>Figure 1. A liner has roots; a cutting does not — do not invoice one as the other because the bag looks similar. Historic plate — not our pack bench. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 A liner has roots. A cutting does not. The pack and the
 promise change. I will not sell them as the same line
 item with a shrug.

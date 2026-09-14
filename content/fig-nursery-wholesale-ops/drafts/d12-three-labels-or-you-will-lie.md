@@ -11,6 +11,13 @@ topics: [labeling, lot-code, packing-slip, identity]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d12.usda-pom-magnolia -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-magnolia.jpg" alt="USDA Magnolia fig plate — three-label discipline for wholesale lots">
+<figcaption>Figure 1. Three labels or you will lie in March: mother, bundle, and slip must still agree when the box is wet. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 One label is a wish. Three labels is a habit. I will die on this
 small hill because I have already died on it in March, when the
 only tag left was a smear in the bottom of a bag.

@@ -11,6 +11,13 @@ topics: [polarity, basal, pack, labeling]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d10.eb1911-moraceae-diagram -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/eb1911-moraceae-diagram.jpg" alt="Moraceae stem diagram showing nodes and polarity on fig wood">
+<figcaption>Figure 1. Mark the basal end like you mean it — polarity errors are silent until March when every stick points the wrong way. Historic plate — not our pack bench. Credit: Encyclopaedia Britannica 1911. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 The basal end is the end that was closer to the ground. Mark it like
 you mean it. A wholesale tray of fifty does not have time to study
 each stick’s bud direction under a kitchen light.

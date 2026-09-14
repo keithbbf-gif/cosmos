@@ -11,6 +11,13 @@ topics: [receiving, photo, packing-slip, wholesale]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d43.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Fig cuttings unpacked on the receiving bench — open box inspection">
+<figcaption>Figure 1. Open the box on the bench before peanuts hit the floor — receiving starts with counts, not feelings. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Open the box on the bench, not in the driveway. Photograph
 before you argue. I write this for the other bench — the
 wholesale buyer, the second nursery, the person who is

@@ -11,6 +11,13 @@ topics: [grade, cull, wholesale, honesty]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d05.usda-pom-celeste -->
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-celeste.jpg" alt="USDA Celeste fig watercolor used as grade and cultivar voucher">
+<figcaption>Figure 1. Grade is a promise tied to a name — a USDA plate is documentation, not proof your bundle matches this stick. Historic plate — not our pack bench. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Grade is what you will still stand behind when the buyer opens the bag
 in Ohio. It is not a feeling you had at the table saw. It is not
 “premium” because the variety is fashionable. I have seen skinny,

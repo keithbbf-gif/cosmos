@@ -11,6 +11,13 @@ topics: [wood, caliper, lignified, cull]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d03.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="One-year lignified fig cutting wood with nodes visible on USDA watercolor plate">
+<figcaption>Figure 1. One-year wood carries the nodes a bench needs; pretty green tips belong in the compost, not the invoice. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Green tips look generous in a photo and die in a bag. I have thrown
 away more “pretty” wood than I have thrown away ugly gray sticks, and
 that is not a personality trait. That is moisture and pith.

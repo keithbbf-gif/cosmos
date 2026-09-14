@@ -11,6 +11,13 @@ topics: [packing, potted, soil, shipping]
 author: PapaFig
 ---
 
+<!-- figure-id: d27.hortus-leiden-fig-2021 -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/living/hortus-leiden-fig-2021.jpg" alt="Potted and field fig trees — soil weight and quarantine packing">
+<figcaption>Figure 1. Dirt is weight, quarantine, and a different box — potted plants are not sticks with roots tucked in for free. Historic plate — not our pack bench. Credit: Rudolphous (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Dirt is weight, quarantine, and a different box. Do not
 treat a pot like a stick. I have, once, because the week
 was ugly and the pot was small. The pot arrived on its

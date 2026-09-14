@@ -11,6 +11,13 @@ topics: [unknown, identity, honesty, wholesale]
 author: PapaFig
 ---
 
+<!-- figure-id: d17.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="Unnamed USDA fig voucher — honest unknown-until-fruit language">
+<figcaption>Figure 1. Unknown until it fruits is a nursery sentence — ship the honesty on the tag, not a celebrity name you hope is right. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 “Unknown” on a wholesale invoice is honesty. “Mystery fig” as a
 named sale is a different business. I will sell unknown wood. I
 will not perfume it.

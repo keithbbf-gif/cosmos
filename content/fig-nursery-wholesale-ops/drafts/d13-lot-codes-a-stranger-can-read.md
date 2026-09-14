@@ -11,6 +11,13 @@ topics: [lot-code, labeling, traceability]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d13.usda-pom-nameless -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-nameless.jpg" alt="USDA plate with lot-style cultivar documentation for traceability">
+<figcaption>Figure 1. A lot code a stranger can read beats a clever nickname on a tag that smears in a damp bag. Historic plate — not our pack bench. Credit: Mary Daisy Arnold; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A lot code a stranger can read is the only lot code that matters in
 February. I have a notebook full of codes that only I understood in
 December. By the week the box comes back as a question, I am a

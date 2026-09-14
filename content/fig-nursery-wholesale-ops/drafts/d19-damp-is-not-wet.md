@@ -11,6 +11,13 @@ topics: [packing, moisture, rot, paper]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d19.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Dormant fig cutting wood moisture context on USDA plate — damp not wet">
+<figcaption>Figure 1. If you can wring the paper, you packed a mushroom farm — dormant wood needs fog, not a pond in the bag. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 If you can wring a drop out of the paper, you packed a mushroom
 farm. I do not care how many forum posts say “keep them moist.”
 Moist is a feeling. A drop is a measurement. The drop loses.

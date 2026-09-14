@@ -11,6 +11,13 @@ topics: [shipping, friday, weekend, weather]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d37.usda-phzm-2012 -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA Plant Hardiness Zone Map — Friday drop into Monday freeze timing">
+<figcaption>Figure 1. A Friday drop into a Monday freeze is a scheduling scar — the map is not the forecast, but it frames whose porch is still in play. Historic plate — not our pack bench. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A Friday drop into a Monday freeze is how you donate
 cuttings to a loading dock. Tracking will look fine. The
 wood will not. I have watched a scan sit in a sort

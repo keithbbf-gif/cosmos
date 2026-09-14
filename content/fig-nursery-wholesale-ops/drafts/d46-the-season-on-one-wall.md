@@ -11,6 +11,13 @@ topics: [calendar, dormant, shipping, season]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d46.usda-phzm-2012 -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA zone map as seasonal wall calendar for take-mark-pack-hold-ship-land">
+<figcaption>Figure 1. The season on one wall — take, mark, pack, hold, ship, land — is how a trade year stays legible when the inbox is loud. Historic plate — not our pack bench. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 The wall calendar is the operation. November through
 March, then we stop pretending. I write this last so
 the stages can hang on one page a person can read with

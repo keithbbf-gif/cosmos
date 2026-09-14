@@ -11,6 +11,13 @@ topics: [mother-block, pruning, fruit, allocation]
 author: PapaFig
 ---
 
+<!-- figure-id: d04.amwell-fig-tree -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Mother fig tree with multiple stems available for limited winter cutting">
+<figcaption>Figure 1. A mother block is a factory with a budget — how much wood you spare this January is next summer's canopy. Historic plate — not our pack bench. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Every stick you take is a fig you will not eat next August. I say that
 out loud in December because the tote does not say it. The tote just
 gets heavier and looks like money.

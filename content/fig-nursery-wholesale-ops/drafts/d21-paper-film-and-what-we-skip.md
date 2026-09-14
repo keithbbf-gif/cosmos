@@ -11,6 +11,13 @@ topics: [packing, materials, parafilm, paper]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d21.wellcome-v0044761 -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/wellcome-v0044761.jpg" alt="Fig wood and fruit stem — kraft paper and film choices at pack-out">
+<figcaption>Figure 1. Paper, film, and what we skip are moisture decisions — the stem plate is a reminder that bark, not fruit, rides in January. Historic plate — not our pack bench. Credit: Wellcome Collection V0044761. License: CC BY 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 I pack with paper and a bag. I do not pack with yesterday’s
 lunch towel. That sounds like a joke until you smell a box
 that borrowed a kitchen rag. Kitchen rags have dinners. Dinners

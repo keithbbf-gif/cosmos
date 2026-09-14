@@ -11,6 +11,13 @@ topics: [doa, claims, photo, shipping]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d44.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Dormant fig sticks for DOA clock and replacement claims">
+<figcaption>Figure 1. DOA is a clock — two bench photos and a timestamp beat a paragraph of polite rage. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Dead on arrival is a clock. May is a garden problem. I
 will make a box right when you show me the box. I will
 not make a summer right when you show me a cup you

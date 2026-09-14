@@ -11,6 +11,13 @@ topics: [shipping, weather, no-ship, forecast]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d35.usda-phzm-2012 -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/usda-phzm-2012.jpg" alt="USDA hardiness zone map for weather-driven ship holds">
+<figcaption>Figure 1. The forecast can cancel a paid order — zone context is background when polar air crosses your lane mid-week. Historic plate — not our pack bench. Credit: USDA Agricultural Research Service. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 The forecast can cancel a paid order. That is cheaper
 than a cooked box. I have to say it before the week
 starts, in the listing and in the invoice notes, or I

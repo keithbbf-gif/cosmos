@@ -11,6 +11,13 @@ topics: [labeling, color-code, identity]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d15.usda-pom-royal-black -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-royal-black.jpg" alt="Dark-fruited USDA fig plate — color ties need a written legend">
+<figcaption>Figure 1. Color ties without a legend are a future mix-up — ribbon color is a tool, not a cultivar name. Historic plate — not our pack bench. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 A red zip tie without a card on the wall is how two varieties
 become one argument. I like color. I can see color at ten feet
 when I cannot read my own print. Color is a servant. The minute

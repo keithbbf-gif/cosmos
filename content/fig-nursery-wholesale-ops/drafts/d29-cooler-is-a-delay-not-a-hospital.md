@@ -11,6 +11,13 @@ topics: [cooler, dormant, storage, cull]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d29.usda-pom-cutting -->
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/propagation/usda-pom-cutting.jpg" alt="Dormant fig wood held in cooler storage — delay not hospital">
+<figcaption>Figure 1. The cooler holds wood; it does not heal it — storage is a pause on the DOA clock, not a mold cure. Historic plate — not our pack bench. Credit: James Marion Shull; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 The cooler holds wood. It does not fix a bad cut or a wet
 pack. I have to say this to myself when I slide a tote
 in and feel the little relief of “it’s put away.” Put

@@ -11,6 +11,13 @@ topics: [not-medical, lane, education, shipping]
 author: PapaFig
 ---
 
+<!-- figure-id: d45.kohler-type-med-plate -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/botanical/kohler-type-med-plate.jpg" alt="Historic medicinal fig plate — this lane is not human pharmacy copy">
+<figcaption>Figure 1. This lane is not a pharmacy — fig wood ships as plants; human medicine and supplement claims stay off the buyfigs table. Historic plate — not our pack bench. Credit: Köhler-type medicinal plate (Commons scan). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 This lane teaches packing and shipping. It does not
 treat people. I am putting that in a draft of its own
 so a later editor cannot “add a health section” because

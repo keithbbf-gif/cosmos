@@ -33,6 +33,17 @@ to run a winter trade, not a pile of posts:
 
 A manifest lives in `_manifest.toml`. Drafts live in `drafts/`.
 
+## Graphics (IMAGE+SEO)
+
+Staged Commons/USDA reference rasters live in `assets/images/` with `RIGHTS.md`.
+Each draft embeds one SEO `<figure>` (`GRAPHICS_INDEX.md`). **`D:\FIGS` stills
+replace plates before publish** — see `PHOTO_NOTES.md` / `PHOTO_MANIFEST.md`.
+No AI imagery.
+
+Regenerate embeds after asset changes:
+
+`python3 tools/fig_nursery_wholesale_graphics.py all`
+
 ## Voice
 
 First person. Jack Chambers on the pack bench (count, damp paper, labels).

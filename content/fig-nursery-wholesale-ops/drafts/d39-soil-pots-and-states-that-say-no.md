@@ -11,6 +11,13 @@ topics: [soil, states, quarantine, shipping]
 author: PapaFig
 ---
 
+<!-- figure-id: d39.usda-pom-calimyrna-1912 -->
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-calimyrna-1912.jpg" alt="USDA Calimyrna plate — state soil and quarantine paperwork context">
+<figcaption>Figure 1. Some states want paper; some want no soil — destination rules are not uniform, and fruit plates are not phytosanitary certificates. Historic plate — not our pack bench. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Some states want paper. Some want no soil. Some want
 you to stay home. I do not memorize a swagger version
 of that sentence and then ship. I **[VERIFY]** the

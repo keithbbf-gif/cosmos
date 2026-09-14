@@ -11,6 +11,13 @@ topics: [packing, mixed-lots, labeling, identity]
 author: Jack Chambers
 ---
 
+<!-- figure-id: d24.usda-pom-celeste -->
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/usda-pom-celeste.jpg" alt="Two cultivar vouchers on USDA plates — mixed boxes need internal walls">
+<figcaption>Figure 1. Two varieties in one box need a wall — mixed cartons without dividers become March synonym soup. Historic plate — not our pack bench. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 Two varieties in one box need a wall, not a prayer. I have
 prayed. Prayer looks like two bags that were obviously
 different at 10 p.m. and obviously interchangeable at 8 a.m.

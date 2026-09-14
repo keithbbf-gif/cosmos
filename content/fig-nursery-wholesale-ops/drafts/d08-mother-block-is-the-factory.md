@@ -11,6 +11,13 @@ topics: [mother-block, identity, true-to-type, maps]
 author: PapaFig
 ---
 
+<!-- figure-id: d08.amwell-fig-tree -->
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/living/amwell-fig-tree.jpg" alt="Row of mature fig trees representing a mother block in production">
+<figcaption>Figure 1. The mother block is the factory floor — every wholesale SKU you ship this winter walked out of these stems. Historic plate — not our pack bench. Credit: Hopefully Acceptable Use (Wikimedia Commons). License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 If the mother is wrong, the whole winter is a lie. Packing will not
 fix it. A pretty label will not fix it. A phytosanitary stamp will
 not turn a Brown Turkey into the name you wanted to sell.
