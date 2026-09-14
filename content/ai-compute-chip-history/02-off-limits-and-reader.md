@@ -13,7 +13,7 @@ They will not tolerate a brochure.
 
 - Any private system, house operating system, or internal mesh. This
   is public chip history. Period.
-- Legal strategy, filings, claim charts, inventor stories dressed as
+- Legal strategy, courtroom filings, or origin stories dressed as
   education. Counsel does not live here.
 - Undisclosed roadmaps. If it is only a rumor, it stays out or it is
   labeled as a rumor and then dropped.

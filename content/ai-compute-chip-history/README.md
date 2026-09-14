@@ -24,6 +24,7 @@ If you only have time for one file, read that.
 | Full drafts | `32`–`44` | Whole-essay revisions with a named job each time |
 | Critics | `45`–`47` | Accuracy, voice, teaching |
 | After critics | `48`–`50` | Repair, read-aloud, final |
+| Last looks | `51`–`61` | Log, refusals, close-reads, line edit |
 
 A later draft is supposed to be *better*, not longer. If a pass added
 words without adding sense, it failed.
