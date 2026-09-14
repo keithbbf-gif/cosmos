@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Educational opening test concepts: tapered torso block and nine-inch sphere</title>
+  <desc id="desc">Simplified teaching drawing. A tapered block represents torso entrapment checks under guardrails and end openings. A nine-inch circle represents the head-must-follow rule for lower-bunk openings. Shapes are not to CFR scale.</desc>
+  <rect width="720" height="420" fill="#fafafa"/>
+  <text x="360" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">Educational schematic — not CPSC Figure 1 or Figure 2</text>
+  <!-- wedge -->
+  <polygon points="120,120 120,280 280,280 220,120" fill="#f4c2a0" stroke="#a65" stroke-width="2"/>
+  <text x="200" y="310" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#a65">Tapered torso block (concept)</text>
+  <text x="200" y="328" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#666">Most-adverse orientation in lab tests</text>
+  <!-- opening under rail -->
+  <rect x="300" y="200" width="140" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="180" x2="440" y2="180" stroke="#2a6" stroke-width="6"/>
+  <text x="370" y="260" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#333">Opening under upper rail</text>
+  <text x="370" y="276" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#666">33 lbf - 1 min (CFR procedure)</text>
+  <!-- sphere -->
+  <circle cx="560" cy="200" r="72" fill="none" stroke="#06c" stroke-width="2"/>
+  <text x="560" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#06c">9 in sphere</text>
+  <text x="560" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#06c">Head-can-follow check</text>
+  <text x="560" y="306" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#666">Lower-bunk end openings</text>
+  <!-- forbidden band note -->
+  <rect x="80" y="350" width="560" height="52" fill="#fff8e6" stroke="#c90" rx="4"/>
+  <text x="360" y="372" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#630">Forbidden band: torso passes but head cannot - see draft 14 and 16 CFR 1213.4</text>
+  <text x="360" y="390" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#630">Do not use this drawing as a home test template</text>
+</svg>

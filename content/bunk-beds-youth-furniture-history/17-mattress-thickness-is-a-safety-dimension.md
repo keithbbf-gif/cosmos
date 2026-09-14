@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: Guardrail height is measured with the manufacturer's maximum mattress thickness—a thicker mattress shortens the effective fence.
+  image: images/schematics/schematic-mattress-thickness-rail-height.svg
 ---
 
 # Mattress thickness is a safety dimension
@@ -15,6 +18,16 @@ Comfort is a sales word. Thickness is a measurement that eats a rail.
 The 5-inch guardrail height and the 5-inch end-structure height are both taken **with the manufacturer's maximum mattress (and, for ends, foundation) stack on the bed**. The instructions must state that maximum. 16 CFR 1213.6(a). Length and width too — twin, twin XL, or numbers.
 
 If you put a taller mattress on, you have not upgraded the bed. You have **shortened the fence** and you may have changed the lower-end openings the second time they are probed.
+
+<figure id="fig-mattress-thickness-rail-height">
+  <img src="images/schematics/schematic-mattress-thickness-rail-height.svg"
+       alt="Two side views comparing manufacturer maximum mattress thickness with adequate five-inch guardrail clearance versus a taller mattress that leaves less rail above the sleep surface."
+       width="720"
+       height="380"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic.</strong> Same rail hardware, different mattress plane — why the instruction sheet's maximum thickness is a safety dimension, not comfort copy.</figcaption>
+</figure>
 
 ## Why makers specify a maximum, not a vibe
 

@@ -35,7 +35,7 @@ If you need a ruling for a specific product, read the current Code of Federal Re
 
 | Stage | Files | What it does |
 | --- | --- | --- |
-| 0 — Frame | `00`, this README, `SOURCES` | Method, voice, limits |
+| 0 — Frame | `00`, this README, `SOURCES`, `RIGHTS`, `IMAGE-SEO` | Method, voice, limits, image rights, figure SEO |
 | 1 — History | `01`–`12` | Ship, barracks, camp, suburb, category |
 | 2 — Anatomy | `13`–`18` | Rails, gaps, mattress thickness, ladders |
 | 3 — U.S. bunk rules | `19`–`28` | The 1990s file, 16 CFR 1213/1513, CPSIA |
@@ -72,3 +72,7 @@ If those six are the only facts you keep, you already know more than the average
 Drafted 2026-09-14 for the COSMOS tree as educational content. Sources listed in `SOURCES.md`. Primary U.S. bunk text: 64 Fed. Reg. 71888 (Dec. 22, 1999); 16 CFR parts 1213 and 1513; CPSC bunk-bed business guidance. Primary dresser text: 88 Fed. Reg. 28403 (May 4, 2023); 16 CFR part 1261; ASTM F2057-23.
 
 If a later reader finds a standard revision I missed, correct the draft. Do not "update" a number by memory.
+
+## Images
+
+Historical essays use **public domain or Creative Commons** photographs with credits in `<figcaption>` (see drafts `03`, `04`, `06`). Anatomy and standards essays use **original SVG safety-dimension schematics** — educational drawings, not CPSC or ASTM figure clones. Full chain of title: `RIGHTS.md`. Figure markup rules: `IMAGE-SEO.md`.

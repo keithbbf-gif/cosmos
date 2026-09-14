@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: Bunk lab tests use wedge blocks, nine-inch spheres, and neck templates as stand-ins for children—not DIY probes at home.
+  image: images/schematics/schematic-probe-family-overview.svg
 ---
 
 # What a probe is
@@ -19,6 +22,16 @@ The bunk rule uses at least three stand-ins:
 1. The **wedge block** (Figure 1) — torso metaphor, tapered, "most adverse" orientation.
 2. The **9-inch rigid sphere** — head-can-follow metaphor.
 3. The **neck template** (Figure 2, A and B) — head-then-neck metaphor.
+
+<figure id="fig-probe-family-overview">
+  <img src="images/schematics/schematic-probe-family-overview.svg"
+       alt="Overview of three teaching icons: tapered wedge block, nine-inch sphere, and simplified neck template silhouette for bunk entrapment tests."
+       width="720"
+       height="360"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic — not CPSC test figures.</strong> Names map to 16 CFR 1213.4; open the CFR to run procedures, not this drawing.</figcaption>
+</figure>
 
 CPSC's guidance mentions a specially designed probe that simulates a child's head and neck and then **refuses to summarize** the motion. I am following that refusal past the purpose-level description in draft 15. The CFR is the procedure. This page is the **idea**.
 

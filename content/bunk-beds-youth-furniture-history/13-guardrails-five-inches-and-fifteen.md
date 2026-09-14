@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: U.S. bunk guardrails need two sides, a continuous wall-side rail, a 15-inch ladder gap, and 5 inches above the max mattress.
+  image: images/schematics/schematic-guardrail-dimensions.svg
 ---
 
 # Guardrails: five inches and fifteen
@@ -13,6 +16,16 @@ not: legal-advice
 A rail is not a vibe. It is a set of measurements that only make sense together.
 
 I am going to walk the U.S. mandatory rail the way the CFR walks it. Not because the CFR is poetry. Because every informal "make sure it has a rail" conversation I have heard dropped at least one of these numbers, and the dropped number is usually the one that killed someone.
+
+<figure id="fig-guardrail-dimensions">
+  <img src="images/schematics/schematic-guardrail-dimensions.svg"
+       alt="Plan view of an upper bunk showing a continuous guardrail on one side, a ladder-side opening up to 15 inches, and a side inset for guardrail height at least 5 inches above the maximum mattress."
+       width="720"
+       height="440"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic.</strong> Continuous wall-side rail (≤0.22 in end gap), ladder-side opening ≤15 in, rail ≥5 in above max mattress — literacy summary of 16 CFR 1213.3. Not a CPSC diagram.</figcaption>
+</figure>
 
 ## Two rails, one on each side
 

@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: Bunk entrapment tests use a wedge block and 9-inch sphere—teaching shapes, not kitchen DIY, and not CFR figure clones.
+  image: images/schematics/schematic-wedge-sphere-educational.svg
 ---
 
 # Openings, wedges, and the block
@@ -15,6 +18,16 @@ Kids fit through holes that furniture designers thought were decoration.
 The U.S. bunk rule's central tool is not a slogan. It is a **wedge block** — Figure 1 in parts 1213 and 1513 — that stands in for a child's torso. If the block can pass, the opening is the wrong size for a body that might follow.
 
 I am going to describe what the test is **for**, not how to machine a block and go to war with a store display. The procedure lives at 16 CFR 1213.4. If you need to run it, open that. If you need to understand a death, stay here.
+
+<figure id="fig-wedge-sphere-educational">
+  <img src="images/schematics/schematic-wedge-sphere-educational.svg"
+       alt="Teaching diagram with a tapered torso block, an opening under an upper guardrail, and a nine-inch circle labeled as a head-can-follow check—not drawn to CFR scale."
+       width="720"
+       height="420"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic — not CPSC Figure 1.</strong> Torso wedge, 9 in sphere, and the forbidden in-between opening band explained in draft 14. Do not use as a home test.</figcaption>
+</figure>
 
 ## Torso-first
 

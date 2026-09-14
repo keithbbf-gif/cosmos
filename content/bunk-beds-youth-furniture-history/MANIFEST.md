@@ -17,6 +17,8 @@ Educational series. Human voice (Keith BBF). Not legal advice.
 | `README.md` | 0-frame | Series map |
 | `00-how-to-read-this-series.md` | 0-frame | Method |
 | `SOURCES.md` | 0-frame | Primary citations |
+| `RIGHTS.md` | 0-frame | Image licenses and attribution |
+| `IMAGE-SEO.md` | 0-frame | `<figure>` / alt / SEO conventions |
 | `MANIFEST.md` | 0-frame | This table |
 | `01-why-this-series-exists.md` | 1-history | Why this series exists |
 | `02-what-a-bunk-bed-actually-is.md` | 1-history | What a bunk bed actually is |
@@ -64,6 +66,8 @@ Educational series. Human voice (Keith BBF). Not legal advice.
 | `44-a-walk-through-a-real-youth-room.md` | 6-practice | A walk through a real youth room |
 | `45-what-this-series-is-not.md` | 6-practice | What this series is not |
 
-**Numbered drafts:** 00 plus 01–45 = **46** essays. Frame extras: README, SOURCES, MANIFEST.
+**Numbered drafts:** 00 plus 01–45 = **46** essays. Frame extras: README, SOURCES, MANIFEST, RIGHTS, IMAGE-SEO.
+
+**Illustrated drafts (figures):** `02`, `03`, `04`, `06`, `13`, `14`, `16`, `17`, `28` — assets under `images/historical/` and `images/schematics/`.
 
 **Locked facts (do not "update from memory"):** see `SOURCES.md` and draft 19's *Federal Register* table.

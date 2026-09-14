@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: Pullman sleeping cars carried tiered berths across the country—traveling stack geometry before youth furniture.
+  image: images/historical/pullman-car-interior-1917.jpg
 ---
 
 # Pullman, berths, and the traveling stack
@@ -15,6 +18,16 @@ The bunk learned to move.
 Once "bunk" is a ship's berth, the railroad is an obvious next room. A sleeping car is a corridor with walls that fold. Upper berth, lower berth. A ladder the porter keeps track of. Curtains instead of guardrails. The 19th-century passenger did not think "youth furniture." They thought "I am not sitting up until Cincinnati."
 
 I am not going to reconstruct George Pullman's whole corporate biography here. You can get that from railroad history that is actually about railroads. What I need is the **geometry that traveled**: two sleeps, one bay, a vertical order that tells you who climbs.
+
+<figure id="fig-pullman-car-interior-1917">
+  <img src="images/historical/pullman-car-interior-1917.jpg"
+       alt="1917 illustration of a Pullman sleeping-car interior with upper and lower berths along a narrow aisle."
+       width="902"
+       height="1426"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><em>The Story of the Pullman Car</em> (1917), Internet Archive / Flickr Commons — U.S. public domain. Railroad berth stack, not a CPSC-tested youth bunk.</figcaption>
+</figure>
 
 ## Berth is not bunk-bed
 

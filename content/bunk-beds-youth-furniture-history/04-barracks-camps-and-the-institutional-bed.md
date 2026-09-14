@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: Barracks and camps show where stacked sleep came from before the suburban kids' room—and why "institutional" still matters in bunk law.
+  image: images/historical/usmc-barracks-bunk-miller.jpg
 ---
 
 # Barracks, camps, and the institutional bed
@@ -15,6 +18,16 @@ If you want the bunk in its honest habitat, skip the kids' aisle and walk a barr
 Stacked steel. Identical mattresses. A ladder that is a suggestion. Personal life reduced to a footlocker. The bed is not a personality. It is a headcount.
 
 Natalie Larson, working from wills, inventories, and archaeological habit, put early-19th-century bunks in **prison wards, railroad cars, and military barracks**. That list is not a vibe. It is where the written and built record actually shows tiers. Submarines, schools, summer camps, bomb shelters, and — this needs to be said without flinching — concentration camps used the same density idea. A bunk is morally empty as an object and morally loaded as a setting. The frame does not care. The institution does.
+
+<figure id="fig-usmc-barracks-bunk">
+  <img src="images/historical/usmc-barracks-bunk-miller.jpg"
+       alt="Black-and-white photograph of a U.S. Marine lying on a simple barracks bunk with a footlocker beside the bed."
+       width="682"
+       height="487"
+       loading="lazy"
+       decoding="async" />
+  <figcaption>Wikimedia Commons, no known copyright restrictions — mid-20th-century barracks bunk. Institutional stacked sleep, not a children's product photo.</figcaption>
+</figure>
 
 ## Why institutions loved the stack
 

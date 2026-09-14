@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: The English word bunk begins as a ship's sleeping berth in 1758—stacked sleep before it became youth furniture.
+  image: images/historical/ship-sick-berth-1806-wellcome.jpg
 ---
 
 # The word "bunk" and the ship
@@ -17,6 +20,16 @@ Before it was a childhood flex, it was a place to sleep when the floor was spoke
 The *Oxford English Dictionary* is colder, which I like. Mid-1700s. Origin: unknown. Subjects tagged later: nautical, logging, education. That "unknown" is the honest setting. Folk pages will tell you Dutch *bank*, Scottish *bunker*, a carpenter in 1813, a monk in 1400. Some of those may be cousins. None of them is a signed birth certificate.
 
 Hold the 1758 berth. That is enough.
+
+<figure id="fig-ship-sick-berth-1806">
+  <img src="images/historical/ship-sick-berth-1806-wellcome.jpg"
+       alt="1806 engraving of a sick berth on a ship, showing a boxed sleeping space in the hull below deck."
+       width="720"
+       height="1070"
+       loading="lazy"
+       decoding="async" />
+  <figcaption>Wellcome Collection (CC BY 4.0), sick berth panel c. 1806 — tiered sleep in the hull before the consumer bunk. The full plate includes an unrelated truss diagram above this panel.</figcaption>
+</figure>
 
 ## Why ships get the first paragraph
 

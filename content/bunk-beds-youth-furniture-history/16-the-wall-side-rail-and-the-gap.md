@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: A bunk against the wall creates a bed–wall slot; the 1999 rule requires a continuous guardrail on the wall side.
+  image: images/schematics/schematic-wall-bed-gap.svg
 ---
 
 # The wall-side rail and the gap
@@ -15,6 +18,16 @@ Put a bed against a wall. Of course you did. The room is small. That is why you 
 Now you have invented a third surface: mattress, rail, **drywall**. The gap between bed and wall is not empty. It is a slot the width of whatever the carpet and the baseboard and the slightly-out-of-square frame left you.
 
 The 1990s file knew this slot. Eleven entrapment incidents were coded **bed/wall** on the top bunk (nine fatal). Six more bed/wall on the bottom (all six fatal in that table). Bottom-bunk wall deaths are a thing people do not expect. They happen.
+
+<figure id="fig-wall-bed-gap">
+  <img src="images/schematics/schematic-wall-bed-gap.svg"
+       alt="Side view of an upper bunk pressed against a wall, highlighting a vertical bed-to-wall slot and a continuous guardrail along the mattress side."
+       width="720"
+       height="400"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic.</strong> Bed–wall slot geometry from the 1990s death file and the continuous-rail response — not a lab test diagram.</figcaption>
+</figure>
 
 ## The two ASTM children
 

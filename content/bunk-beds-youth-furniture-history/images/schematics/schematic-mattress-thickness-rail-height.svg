@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
+  <title id="title">Educational side view: thicker mattress shortens effective guardrail height</title>
+  <desc id="desc">Two upper-bunk profiles. Left shows manufacturer maximum mattress with guardrail at least five inches above mattress top. Right shows a taller mattress that reduces clearance above the sleeping surface while rail height stays fixed.</desc>
+  <rect width="720" height="380" fill="#fafafa"/>
+  <text x="360" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#333">Educational schematic — not a CPSC or ASTM figure</text>
+  <!-- left: spec mattress -->
+  <text x="180" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#333">At manufacturer max thickness</text>
+  <rect x="80" y="240" width="200" height="10" fill="#c9b896"/>
+  <rect x="92" y="210" width="176" height="30" fill="#e8dcc8" stroke="#8b7355"/>
+  <rect x="80" y="198" width="200" height="8" fill="#2a6"/>
+  <line x1="300" y1="238" x2="300" y2="198" stroke="#2a6" stroke-width="2"/>
+  <text x="310" y="222" font-family="system-ui,sans-serif" font-size="11" fill="#2a6">≥5 in</text>
+  <!-- right: too-thick mattress -->
+  <text x="540" y="52" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#c00">Taller mattress (unspecified)</text>
+  <rect x="440" y="240" width="200" height="10" fill="#c9b896"/>
+  <rect x="452" y="175" width="176" height="65" fill="#e8dcc8" stroke="#c00" stroke-dasharray="5 3"/>
+  <rect x="440" y="168" width="200" height="8" fill="#2a6"/>
+  <line x1="660" y1="240" x2="660" y2="168" stroke="#c00" stroke-width="2"/>
+  <text x="670" y="210" font-family="system-ui,sans-serif" font-size="11" fill="#c00">&lt;5 in</text>
+  <text x="540" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#666">Same rail hardware - different mattress plane</text>
+  <text x="360" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#333">Instructions must state maximum mattress thickness (16 CFR 1213.6)</text>
+  <text x="360" y="362" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#555">Comfort marketing is not a substitute for the labeled maximum</text>
+</svg>

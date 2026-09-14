@@ -6,6 +6,9 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+seo:
+  description: U.S. bunk-bed law starts at 30 inches from floor to upper foundation underside—not two mattresses on a box.
+  image: images/schematics/schematic-us-30-inch-bunk-definition.svg
 ---
 
 # What a bunk bed actually is
@@ -19,6 +22,16 @@ That definition does a lot of violence to common speech, and it is supposed to.
 A loft bed with a desk underneath is a bunk if the foundation hangs high enough. A "twin over twin" that someone built low to the floor might not be. A triple stack is three arguments with the tape, not one product name. A trundle that slides out at shin height is usually not a bunk; the upper bunk on the same frame probably is.
 
 CPSC's own business guidance repeats the same line in plainer English: a bunk bed is a bed with the bottom of its mattress foundation more than 30 inches above the floor. The ends are the uprights at head and foot that the side rails attach to. Those ends are where a lot of the later tests live.
+
+<figure id="fig-30-inch-bunk-definition">
+  <img src="images/schematics/schematic-us-30-inch-bunk-definition.svg"
+       alt="Side elevation of a bunk bed with a red dimension line from the floor to the underside of the upper mattress foundation labeled 30 inches or 760 millimeters."
+       width="720"
+       height="420"
+       loading="lazy"
+       decoding="async" />
+  <figcaption><strong>Educational schematic.</strong> Measure to the underside of the upper foundation, not the top of the mattress or the catalog name. Not a CPSC diagram. See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 ## Why height, not "two beds"
 

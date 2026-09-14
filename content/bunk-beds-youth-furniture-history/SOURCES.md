@@ -12,6 +12,10 @@ not: legal-advice
 
 Primary first. Commentary last. If a draft asserts a number, the number lives here.
 
+## Illustrations
+
+Raster and vector assets live in `images/`. Licenses and attribution strings: `RIGHTS.md`. Wikimedia and Wellcome sources are linked in that register; verify license pages before republishing outside this tree.
+
 ## United States — bunk beds
 
 - CPSC, *Safety Standard for Bunk Beds; Final Rule*, 64 Fed. Reg. 71888 (Dec. 22, 1999). Effective June 19, 2000. Death and injury tables are in section B. [govinfo HTML](https://www.govinfo.gov/content/pkg/FR-1999-12-22/html/99-32676.htm)

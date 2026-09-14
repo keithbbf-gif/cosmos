@@ -49,3 +49,7 @@ The room is a system. Cribs (16 CFR 1219 / 1220, the 2011 line), toddler beds (1
 I talk the way I write the rest of this tree. Short when the fact is short. Long when the Commission was long. I will name the vote when the vote was 2–1. I will name the Commissioner who dissented. Disagreement is part of how a rule gets born.
 
 If a paragraph sounds like a store, I failed. If a paragraph sounds like a statute dumped into English without a human in the room, I also failed. The job is the middle: a person who read the file, telling you what is in it.
+
+## Figures in this series
+
+Essays that teach **measurements** carry original SVG schematics. Essays that teach **lineage** carry PD/CC historical photographs. Every image uses HTML `<figure>` with descriptive `alt` text and a `<figcaption>` that states provenance or "educational schematic — not a CPSC diagram." Register: `RIGHTS.md`. Markup rules: `IMAGE-SEO.md`.
