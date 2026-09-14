@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic: gestures and early words as parallel communication paths</title>
+  <desc id="desc">Diagram with gesture examples and word examples joining toward shared meaning. No photographs; icons are simple geometric shapes.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .col-g { fill: #FEF3C7; stroke: #C2410C; stroke-width: 1.2; }
+      .col-w { fill: #CCFBF1; stroke: #0F766E; stroke-width: 1.2; }
+      .merge { fill: #E2E8F0; stroke: #1E293B; stroke-width: 1.2; }
+      .h { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 700; fill: #1E293B; }
+      .icon { fill: none; stroke: #1E293B; stroke-width: 1.5; }
+    </style>
+  </defs>
+  <rect class="bg" width="700" height="340"/>
+  <text x="32" y="34" class="title">Gestures count as language (schematic)</text>
+  <text x="32" y="54" class="label">CDC and ASHA checklists include pointing, showing, and waving - not only spoken words.</text>
+  <rect class="col-g" x="32" y="76" width="200" height="200" rx="6"/>
+  <text x="48" y="100" class="h">Gestures</text>
+  <circle class="icon" cx="80" cy="140" r="14"/><text x="100" y="144" class="label">Point</text>
+  <rect class="icon" x="66" y="168" width="28" height="20" rx="2"/><text x="100" y="184" class="label">Show object</text>
+  <path class="icon" d="M70 220 Q90 200 110 220"/><text x="120" y="224" class="label">Wave</text>
+  <rect class="col-w" x="248" y="76" width="200" height="200" rx="6"/>
+  <text x="264" y="100" class="h">Early words</text>
+  <text x="264" y="140" class="label">Names for people,</text>
+  <text x="264" y="156" class="label">routine words,</text>
+  <text x="264" y="172" class="label">sounds used</text>
+  <text x="264" y="188" class="label">consistently with</text>
+  <text x="264" y="204" class="label">intent (see essay 15)</text>
+  <rect class="merge" x="464" y="120" width="200" height="112" rx="6"/>
+  <text x="480" y="148" class="h">Shared job</text>
+  <text x="480" y="168" class="label">Get needs and ideas</text>
+  <text x="480" y="184" class="label">across to someone</text>
+  <text x="480" y="200" class="label">who loves them</text>
+  <line x1="232" y1="176" x2="248" y2="176" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="448" y1="176" x2="464" y2="176" stroke="#64748B" stroke-width="1.5"/>
+  <text x="32" y="308" class="label">A child who points but has few spoken words may still be building language. This figure is not a screen.</text>
+</svg>

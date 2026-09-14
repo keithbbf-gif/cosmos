@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic: CDC Act Early checklist ages from 2 months through 5 years</title>
+  <desc id="desc">Horizontal schematic of well-child checklist ages aligned to the Learn the Signs Act Early program. Educational only; not a screening tool.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .spine { stroke: #1E293B; stroke-width: 2; fill: none; }
+      .label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .age { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .dot { fill: #0F766E; }
+      .band { fill: #CCFBF1; }
+      .note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="300"/>
+  <text x="40" y="36" class="title">Checklist ages birth through five (schematic)</text>
+  <text x="40" y="56" class="label">CDC Learn the Signs. Act Early. pages align to well-child visits - not every birthday.</text>
+  <rect class="band" x="40" y="72" width="880" height="148" rx="4"/>
+  <line class="spine" x1="60" y1="200" x2="900" y2="200"/>
+  <text x="60" y="92" class="label" style="font-weight:600;fill:#0F766E">Surveillance tool - not a diagnosis</text>
+  <!-- ages -->
+  <circle class="dot" cx="80" cy="200" r="5"/><text x="68" y="224" class="age">2 mo</text>
+  <circle class="dot" cx="140" cy="200" r="5"/><text x="128" y="224" class="age">4 mo</text>
+  <circle class="dot" cx="200" cy="200" r="5"/><text x="188" y="224" class="age">6 mo</text>
+  <circle class="dot" cx="260" cy="200" r="5"/><text x="248" y="224" class="age">9 mo</text>
+  <circle class="dot" cx="320" cy="200" r="5"/><text x="302" y="224" class="age">12 mo</text>
+  <circle class="dot" cx="390" cy="200" r="5"/><text x="372" y="224" class="age">15 mo</text>
+  <circle class="dot" cx="460" cy="200" r="5"/><text x="442" y="224" class="age">18 mo</text>
+  <circle class="dot" cx="530" cy="200" r="5"/><text x="512" y="224" class="age">24 mo</text>
+  <circle class="dot" cx="600" cy="200" r="5"/><text x="582" y="224" class="age">30 mo</text>
+  <circle class="dot" cx="670" cy="200" r="5"/><text x="658" y="224" class="age">3 yr</text>
+  <circle class="dot" cx="740" cy="200" r="5"/><text x="728" y="224" class="age">4 yr</text>
+  <circle class="dot" cx="810" cy="200" r="5"/><text x="798" y="224" class="age">5 yr</text>
+  <text x="40" y="268" class="note">Items on each page reflect skills many children show by that age (CDC uses a 75% rule on revised lists). Missed items are a reason to talk with the doctor - not a label.</text>
+  <text x="40" y="284" class="note">SLPWOW pediatric milestones - original editorial graphic. Verify against current CDC PDF before print.</text>
+</svg>
