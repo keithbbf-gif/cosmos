@@ -19,7 +19,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 - path: D:\FIGS\More Fig Pictures
-  caption: Stagg’s line: moderate-sized yellow fruit on robust, upright trees. Measure yours.
+  caption: Stagg’s line: moderate-sized yellow fruit on upright trees. Measure yours.
   source: ours
   folder_pick: More Fig Pictures
 status: draft
