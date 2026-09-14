@@ -9,7 +9,7 @@ mix_secondary: C
 region: rural south Arkansas
 era: 2020s
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -29,7 +29,7 @@ sources_key:
 
 # A Workshop Named for a River
 
-In a public interview on July 25, 2025, the shop name Saline River Workshop was already in the air. The staged furniture-pillar map (`content/_seo/furniture-pillars.md`, when that SEO file is present) records the interview as Fig Jam and treats it as a public source, not as a catalog. A 65-by-15 glass-front woodshop in rural south Arkansas. Figs wintering in the same building because a collection has to go somewhere in January. BBF as Keith’s furniture and craft mark. *bbfur* as a future door. The map warns a writer not to invent a homepage that does not exist. This essay is the one place in the forty-six where the living shop is allowed to be the subject. It will still not sell a chair.
+In a public interview on July 25, 2025, the shop name Saline River Workshop was already in the air. The staged furniture-pillar map (see `BIBLIOGRAPHY.md`; not a live catalog) records the interview as Fig Jam and treats it as a public source, not as a product grid. A 65-by-15 glass-front woodshop in rural south Arkansas. Figs wintering in the same building because a collection has to go somewhere in January. BBF as Keith’s furniture and craft mark. *bbfur* as a future door. The map warns a writer not to invent a homepage that does not exist. This essay is the one place in the forty-six where the living shop is allowed to be the subject. It will still not sell a chair.
 
 The name is the historical claim. After Gates Lumber Company, after the Wilmar and Saline Valley Railroad, after the *Gate City* went down near Warren on October 14, 1913, after a Corps dam that Governor David Pryor refused in February 1975, someone in this country put *Saline River* on a workshop. That is either sentiment or accuracy. Jann Woodard’s river is free-flowing, the last in the Ouachita basin, mountain water at the forks and a Delta-type bayou at Felsenthal. Steven Teske’s Wilmar is 395 people and a June table. A shop is a household. The name ties the household to the water instead of to a vanished mill.
 
@@ -96,4 +96,4 @@ Wilmar’s June table will not be catered by a brand. The five names in Anderson
 
 ## Sources for this piece
 
-Staged map: `content/_seo/furniture-pillars.md` (BBF / *bbfur* / Saline River Workshop; shop dimensions 65 by 15; figs wintering in the building; Fig Jam interview, 2025-07-25, as the map’s public source; one memoir cluster permitted; homepage not live). Woodard, “Saline River.” Teske, “Wilmar (Drew County).” Balogh, “Timber Industry,” and Heady, “Drew County,” for the cutover sequence the name refuses. No live *bbfur* URL is cited because the map says the homepage is not up.
+Staged furniture-pillar map (see `BIBLIOGRAPHY.md`: BBF / *bbfur* / Saline River Workshop; shop dimensions 65 by 15; figs wintering in the building; Fig Jam interview, 2025-07-25, as the map’s public source; one memoir cluster permitted; homepage not live). Woodard, “Saline River.” Teske, “Wilmar (Drew County).” Balogh, “Timber Industry,” and Heady, “Drew County,” for the cutover sequence the name refuses. No live *bbfur* URL is cited because the homepage is not up.

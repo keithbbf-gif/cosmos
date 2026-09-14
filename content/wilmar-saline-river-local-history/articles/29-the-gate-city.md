@@ -9,7 +9,7 @@ mix_secondary: C
 region: Saline River near Warren
 era: 1913
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -53,7 +53,7 @@ Fifty-four steamboats, Woodard writes, have been documented on the Saline. Bob W
 
 A reader who wants the *Gate City* to feel like a frontier accident is asking the calendar to lie. The Iron Mountain’s Warren Branch already crossed Drew County. Teske’s later sentence: the Wilmar and Saline Valley Railroad interchanged with the Iron Mountain, later the Missouri Pacific, at the Gates sawmill. By 1907 that company road had twenty-five miles of track, four locomotives, fifty-five log cars, and two loaders. Cotton, staves, and timber that had once needed a winter rise could leave on a car. The boat that sank in 1913 was working a leftover. Leftovers are historical. They are also how wrecks happen: the channel is still used by people who remember when it was the road, after the road has moved.
 
-Wilmar in 1913 was still a mill town. Beauvoir had closed in 1907. The stave factory the *Advance* had advertised at 10,000 a day may or may not have still been running; this draft has no 1913 city directory. Gates was still the reason a stranger looked at the map. The 1920 census would count 1,034 people, the peak. The wreck did not empty Wilmar. It marked, on a neighboring county’s water, the decade in which the river’s commercial argument finished losing. Woodard’s later clause is that commerce diminished by the 1930s and that fishing and recreation took the channel. The *Gate City* is six years into that slack and seventeen years short of the decade she names. A wreck can be early to a historian’s period and still be late to a trade.
+The stave factory the *Advance* had advertised at 10,000 a day may or may not have still been running in 1913; this draft has no city directory for that year. Gates was still the reason a stranger looked at the map. The wreck did not empty Wilmar. It marked, on a neighboring county’s water, the decade in which the river’s commercial argument finished losing. Woodard’s later clause is that commerce diminished by the 1930s and that fishing and recreation took the channel. The *Gate City* is six years into that slack and seventeen years short of the decade she names. A wreck can be early to a historian’s period and still be late to a trade.
 
 Bradley County is not this pack’s monograph. The style guide is blunt about that. Warren, Bradley lumber, and the Warren and Saline River Railroad appear here as river and rail neighbors. The wreck sits on that neighbor’s water. The Warren and Saline River Railroad — incorporated August 7, 1905, as the Warren, Johnsville and Saline River, reorganized in 1920 — is not the Wilmar and Saline Valley Railroad and is not a steamboat company. Keep the names in their counties. The *Gate City* does not become a Bradley mill story because it sank near a Bradley mill town. It remains a Saline story with a Warren coordinate.
 

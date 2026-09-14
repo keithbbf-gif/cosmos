@@ -8,7 +8,7 @@ mix: A
 region: Wilmar, Drew County
 era: 1868–1928
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

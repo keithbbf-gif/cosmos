@@ -9,7 +9,7 @@ mix_secondary: C
 region: Cleveland County / Saline River
 era: steamboat era
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

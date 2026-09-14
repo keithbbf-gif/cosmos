@@ -22,7 +22,7 @@ This is a **Ken Burns** register: documentary narration, still photographs impli
 - **Do not flatten people.** Enslaved field hands, stave cutters from the Adriatic, Black ballplayers at Hudspeth Park, mill commissary clerks, and a Berlin concertmaster teaching violin in a timber town are not extras in a pine romance.
 - **Do not flatten violence.** Lynching, the Klan, secession, and the labor of bondage are history, not spice. Name what the record names. Do not reconstruct a crime the sources do not describe. Do not use those essays to sell furniture.
 
-Front matter on every article must include `voice_check: human`. That field is a pledge, not decoration. If a draft reads like a model summary, rewrite it before staging.
+Front matter on every article must include `voice_check: edited` after a human editor pass on voice, seams, and novelty-safe framing (`status: staged`, `wp_status: draft` until import). If a draft reads like a model summary, rewrite it before you mark it edited.
 
 ## Facts and citations
 

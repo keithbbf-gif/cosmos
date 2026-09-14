@@ -9,7 +9,7 @@ mix_secondary: D
 region: Monticello and Wilmar
 era: 1909–1971
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

@@ -9,7 +9,7 @@ mix_secondary: C
 region: Saline River
 era: 19th century–1913
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

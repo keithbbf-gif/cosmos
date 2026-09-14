@@ -9,7 +9,7 @@ mix_secondary: A
 region: Drew County
 era: 1880s–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

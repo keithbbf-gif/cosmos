@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River / Ouachita basin
 era: 1937–1975
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

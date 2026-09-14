@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: late 19th century–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

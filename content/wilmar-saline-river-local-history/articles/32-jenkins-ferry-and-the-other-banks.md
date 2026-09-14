@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River corridor
 era: 1864–1865
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

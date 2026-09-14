@@ -9,7 +9,7 @@ mix_secondary: B
 region: Wilmar and the Saline valley
 era: 1904–1928
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post

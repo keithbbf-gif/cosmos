@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar to Crossett
 era: 1890–1926
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
