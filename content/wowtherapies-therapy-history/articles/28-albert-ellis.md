@@ -39,6 +39,8 @@ He was not Beck. He did not wait for the trial to authorize the sentence. The la
 
 The Albert Ellis Institute survived him as a training shop and as a New York address with a myth attached. Like every founder shop, it has to decide whether the myth is the method. REBT's useful remainder does not require his vocabulary of insults. It requires a clinician who can hear a demand pretending to be a fact, and who can say so without becoming a second tyrant in the room.
 
+He was ousted, briefly and bitterly, from the institute's board in the last years — a public fight about money and control that the obituaries had to mention. Founder shops eat their founders. The clinical idea does not need the address on East 65th Street. It needs a clinician who can hear a demand. The address is a New York story. The demand is an American one.
+
 He wrote too many books. The 1962 volume is the one this pack names. Later editions restated the same fight with new cultural examples. The fight did not get quieter. It did not need to: the American "must" did not get quieter either.
 
 ## Inheritance without the impersonation

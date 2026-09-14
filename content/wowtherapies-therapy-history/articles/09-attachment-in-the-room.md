@@ -15,6 +15,7 @@ citations:
   - "Bowlby, John. Attachment and Loss. 1969–1980."
   - "Ainsworth, Mary D. S. Infancy in Uganda. 1967."
   - "Ainsworth, Mary D. S., et al. Patterns of Attachment. 1978."
+  - "Robertson, James, and Joyce Robertson. A Two-Year-Old Goes to Hospital. 1952."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -25,6 +26,8 @@ last_verified: 2026-09-14
 During the Second World War, British children were moved out of cities, parked in nurseries, and filmed. Dorothy Burlingham and Anna Freud wrote from the Hampstead nurseries. René Spitz filmed infants in institutions and used the word *anaclitic depression*. John Bowlby, a psychiatrist and psychoanalyst who had already been arguing with his own institute, took a WHO assignment and in 1951 published *Maternal Care and Mental Health*.
 
 The monograph was read, in newspapers and in parliaments, as: mothers must stay home or children will be ruined. Bowlby spent the rest of his life trying to refine "maternal deprivation" into something more precise — a need for a continuous, responsive figure, not a commandment against women's work. The misreading had already gone to work in policy.
+
+James and Joyce Robertson's films of children in hospital — *A Two-Year-Old Goes to Hospital* (1952) is the one people still name — belong in the same file. They are not Bowlby's books. They are the pictures that made visiting-hour rules look like a theory you could no longer afford. Attachment research's first public victory was a cot in a ward, not a category on a dating site.
 
 This essay is about that refinement, and about Mary Ainsworth's stubborn gift for watching actual babies in Uganda and Baltimore, and about the later industry that turned a research program into a quiz.
 
@@ -46,7 +49,11 @@ Those letters are research categories. They are not personalities. They are not 
 
 By the 1980s and 1990s, clinicians were asking whether the infant categories helped with adults who could not use another person as a base. Some of the best work stayed close to observation: how a patient greets, how they leave, how they treat the therapist as dangerous or as furniture.
 
+Hospital visiting hours changed in living memory because films and monographs made the unvisited child impossible to unsee. A parent who now sleeps in a pediatric room is standing in a policy Bowlby and the Robertsons won. A therapy office that treats a missed session only as resistance, never as protest or as a test of the base, has not collected that win. The two rooms — ward and consulting room — are the same argument at different scales.
+
 Sue Johnson's emotionally focused therapy for couples — a later, manualized descendant — put attachment protest in the center of the couple hour. Johnson died in 2024; her books are widely taught. This pack does not give her a full figure essay because the research spine is still Bowlby and Ainsworth. The couple application is an inheritance, not the origin.
+
+Peter Fonagy and colleagues' work on mentalization, and the later "attachment-based" brand of therapies for adolescents, are further descendants. Some of that work is careful. Some of it is a certificate. The historical test is the same as Ainsworth's: did anyone watch, or did they only name a style?
 
 ## Pop attachment and the clinic's job
 

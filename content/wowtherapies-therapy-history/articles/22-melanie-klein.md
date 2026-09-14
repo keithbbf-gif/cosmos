@@ -44,6 +44,8 @@ The Freud–Klein controversies were about children, about technique, about who 
 
 Klein did not win a crown. She won a stream. The Independent or Middle Group (Winnicott among them) grew in the space neither woman would cede.
 
+She had arrived in London in 1926 at Ernest Jones's invitation, already in a fight with Anna Freud that Vienna and Berlin had previewed. The British Society's later three-train settlement is a bureaucratic peace. It did not make the theories compatible. It made it possible to train without a schism that would have ended the society in wartime. Students still choose a stream. Patients still meet a clinician whose infant is either dark from the start or in need of a developmental timetable. The choice is not advertised at intake. It is in the room.
+
 ## Caution for a general reader
 
 Klein is easy to parody and easy to use as a hammer on mothers. She wrote about the infant's inner world, not about a verdict on your parenting. A website that turned her into child-rearing advice would be a betrayal of both the children and the theory.

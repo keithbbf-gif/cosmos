@@ -45,7 +45,7 @@ Also drop the cousins: "navigate," "tapestry," "plethora," "utilize," "harness,"
 4. Mark uncertainty. `[CITE NEEDED]` or a plain "historians disagree" beats a clean falsehood.
 5. Put Freud, Jung, and the other famous names in their century. Do not offer them as current treatment manuals.
 6. Give non-European and women's work full essays, not a closing paragraph titled "diversity."
-7. Stop when the piece has said the thing. Target 1,000–1,800 words for figures, 1,200–2,000 for era essays. Cut the recap paragraph if it only restates the headings.
+7. Stop when the piece has said the thing. Target 1,000–1,800 words for figures, 1,200–2,000 for era essays. Cut the recap paragraph if it only restates the headings. The mechanical QA floor in `check_pack.py` is lower (700) so a thin draft fails loudly; the editorial target is still the magazine range. Deepen with dated scenes, not with recap.
 
 ## Claims posture
 

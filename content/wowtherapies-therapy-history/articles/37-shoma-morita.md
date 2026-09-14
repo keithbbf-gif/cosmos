@@ -33,7 +33,7 @@ This essay will not specify those stages as something a reader should run at hom
 
 The home clinic is a specific Japanese modernity: a professor's house as a ward, meals as treatment, the garden as the place a person learns to do the next necessary thing while anxiety is still present. Later outpatient and "modified" Morita therapies shortened the stay and borrowed the attitude without the house. English-language "Morita" in the 1970s sometimes became a cousin of constructive living, a Reynolds synthesis. Historians of the Japanese clinic ask readers to keep the 1919 house and the later export distinct.
 
-He taught at Jikei. Students carried the method into hospitals that still, in some places, run Morita wards. This is not a dead museum piece. It is also not a universal anxiety program. *Shinkeishitsu*, in his usage, is a temperament and a loop, not every panic on earth.
+He taught at Jikei University School of Medicine. Students carried the method into hospitals that still, in some places, run Morita wards. This is not a dead museum piece. It is also not a universal anxiety program. *Shinkeishitsu*, in his usage, is a temperament and a loop, not every panic on earth. Later Japanese psychiatrists argued about how far the diagnosis travels into DSM anxiety disorders. The argument is a translation problem as much as a clinical one. This page will not settle it by renaming 1919 as "GAD."
 
 ## Against neurasthenia-as-civilization
 

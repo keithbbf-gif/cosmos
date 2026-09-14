@@ -23,6 +23,8 @@ Wave the import (staging only — `WP_IMPORT.md`):
 
 Hold any piece that still carries `[CITE NEEDED]` or `[VERIFY]` on a date you would print.
 
+A 2026-09-14 writer pass deepened era and figure essays with dated scenes (Pussin, Robertson films, Burgess 1974, Chesler 1972, BFTC, UCA, Northside). Mechanical QA (`check_pack.py`) is a floor. Magazine length in `STYLE_GUIDE.md` remains the editorial target — keep deepening with sources, not recap.
+
 ## Calendar
 
 ### Era essays

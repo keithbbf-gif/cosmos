@@ -46,6 +46,8 @@ It is possible to read Anna Freud only as the loyal daughter. That reading is la
 
 She never married. She lived and worked with Burlingham for decades. A history that is nosy about that household and thin about the clinic has the proportions wrong.
 
+The 1938 flight from Vienna is not only a famous son's story. Anna Freud organized papers, patients, and a household under a deadline the Anschluss had set. In London she had to become a British clinician in a society that was already fighting about Klein. The Hampstead clinic is what she built instead of becoming only a keeper of the archive. The Freud Museum later occupied the Maresfield Gardens house. The clinic's work is the larger monument, even when tourists prefer the couch.
+
 ## Inheritance
 
 Every school counselor who thinks about defense mechanisms, every child clinician who refuses to treat a seven-year-old as a miniature neurotic, every ethics code that would now forbid analyzing your own child — all of that touches her file. So does a certain conservatism: the ego must adapt. The 1960s would call that adaptation a problem. She had already buried her father and a continent.

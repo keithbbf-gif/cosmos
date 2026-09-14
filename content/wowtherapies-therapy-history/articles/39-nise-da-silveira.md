@@ -40,6 +40,8 @@ She read Jung and corresponded with Jungians. She also read the people in the ro
 
 Henry Ey and other European visitors later stood in the museum and said the collection was unlike anything they had. Institutional praise is not the point. The point is that a Brazilian woman physician, blocked from the prestige treatments, built a prestige of another kind: an archive the hospital could not throw away. Casa das Palmeiras still operates in Botafogo as of the museum's own recent chronology. Continuity is rarer than a founding date.
 
+She was arrested in the 1930s under a political charge and spent time in prison — a fact Brazilian biographies do not treat as a side quest. A physician who had already been a political prisoner did not arrive at Engenho de Dentro as a naive reformer. She arrived as a person who knew what a locked building can do.
+
 ## What a North American site must not do
 
 Do not use the patients' paintings as free illustrations of "madness." They have authors. The museum has terms. This pack's photo rules already say so.

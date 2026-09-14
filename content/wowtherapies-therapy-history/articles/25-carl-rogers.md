@@ -31,6 +31,8 @@ He was not saying "be nice." He was saying the relationship, under specified con
 
 The Chicago Counseling Center was a factory of recordings and of a new graduate role: the counselor who was not a physician and not an analyst. That factory is part of why "counseling" in the United States could later claim a lineage that was not only Parsons and schools. Rogers gave the master's-level hour a theory that did not apologize for lacking a couch.
 
+The filmed sessions with "Gloria" (Everett Shostrom's *Three Approaches to Psychotherapy*, 1965) made him, with Perls and Ellis, a classroom object. Students still watch the tape and pick a favorite. The tape is a historical document of a woman who consented to a demonstration. It is not a license to treat a first session as a performance. Rogers on that film is quieter than the parody. The parody is the student who reflects every noun and calls it person-centered.
+
 He also gave it a research habit that later CBT would claim as its own: tape the session, define a variable, argue with the tape. The 1957 conditions are hypotheses. He wanted them tested. The fact that later students treated them as commandments is a familiar founder problem.
 
 ## Wisconsin, and a research bruise

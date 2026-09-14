@@ -30,6 +30,8 @@ De Shazer's *Keys to Solution in Brief Therapy* (1985) is the book people assign
 
 She arrived in American social work without the Ivy pedigree the family-therapy histories prefer. Pharmacy, then Milwaukee Family Services, then consultation to systems that do not look like a private analytic practice: child protection, addictions, shelters. Solution-focused work makes more sense from that caseload than from a seminar on epistemology. If the hour is short and the client may not return, you had better notice what already works.
 
+The "miracle question" and the scaling questions became training-room objects that this page will not reprint as a script. What belongs in history is the decision to treat a brief hour as a moral form: do not spend it proving the problem is deep if the person has to go back to a shelter tonight. Depth is not always a kindness. Sometimes it is a luxury of a long analysis. Berg's caseload did not have that luxury.
+
 De Shazer wrote more of the theory books. Berg did more of the traveling teaching in later years, especially internationally. A history that lists only his titles is the old habit. Korean-language and other translations carried her voice into rooms this pack cannot survey. The fact of the carrying is enough: SFBT is not a Milwaukee curiosity.
 
 ## What the parody gets wrong

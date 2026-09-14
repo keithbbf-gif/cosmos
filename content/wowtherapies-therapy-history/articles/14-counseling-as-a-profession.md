@@ -33,7 +33,7 @@ This matters on a site named WOW Therapies. The word *therapy* in American Engli
 
 **Clinical psychology** dates a founding clinic to Lightner Witmer at the University of Pennsylvania in 1896; he used the phrase "clinical psychology" in 1907. Psychologists fought, for decades, for the right to test, then to treat, then to prescribe in a few states. Their doctorate culture is not identical with a counselor's master's culture.
 
-**Counseling** grew from vocational guidance, school guidance, college personnel work, and the veterans' programs after 1945. The American Personnel and Guidance Association (1952) became, after several renamings, the American Counseling Association. CACREP, founded in 1981, standardized the master's. State licensure as LPC, LCPC, LMHC — the letters vary — is mostly a story of the 1970s through the 2000s. The Counseling Compact is a 2020s attempt to let a license travel.
+**Counseling** grew from vocational guidance, school guidance, college personnel work, and the veterans' programs after 1945. The American Personnel and Guidance Association formed in 1952 from a merger of existing guidance groups and became, after several renamings, the American Counseling Association. CACREP, founded in 1981, standardized the master's. Virginia passed the first general counselor-licensure statute in 1976. Other states followed slowly; some still argue about title and scope. The letters — LPC, LCPC, LMHC, LPCC — are a map of those arguments, not a secret ranking. The Counseling Compact, with legislation spreading in the early 2020s, is an attempt to let a license travel the way a nurse's sometimes can. It does not make the fifty ethics codes into one.
 
 A client does not need this org chart. A history series does, because "I saw a therapist" erases who was allowed to see them, under what law, and with what training in diagnosis versus in guidance.
 
@@ -51,7 +51,9 @@ Bayer (1981) on the 1973 diagnosis fight is psychiatric history that counseling 
 
 ## Arkansas, without inventing a myth
 
-Southeast Arkansas, like most rural American places, met mental-health care later and thinner than it met the state hospital. Travel, stigma, and the shortage of licensed people are part of the professional history, not a footnote. Telehealth and compact legislation are attempts to change the geography. They do not change the older fact: the profession was built in cities and universities and then asked to work everywhere.
+Southeast Arkansas, like most rural American places, met mental-health care later and thinner than it met the state hospital. The state hospital at Little Rock (later the Arkansas State Hospital) is the older address. Outpatient counseling as a licensed job is the newer one. Travel, stigma, and the shortage of licensed people are part of the professional history, not a footnote. Telehealth and compact legislation are attempts to change the geography. They do not change the older fact: the profession was built in cities and universities and then asked to work everywhere.
+
+School counseling is the sibling that still employs more people than the private-practice myth admits. The American School Counselor Association's later identity fight — guidance versus clinical mental health in a building full of children — is a professional history of its own. This essay will not annex it. It will say: a great many Americans first met a "counselor" as a person with a filing cabinet and a bell schedule, not as a fifty-minute outpatient.
 
 WOW Therapies' live clinical identity, as of the site this pack was written against, is speech-language pathology. These essays do not pretend otherwise. They build an educational lane for readers who want the mental-health heritage that shares the word *therapy* and not the same license.
 

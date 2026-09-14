@@ -46,9 +46,13 @@ Lists have a life. They can make a white clinician slightly less dangerous. They
 
 Lillian Comas-Díaz, Melba Vasquez, Beverly Greene, Nancy Boyd-Franklin, and others wrote the books that made that admission into techniques of care rather than into guilt. This essay cannot summarize them. The bibliography names doors.
 
+Comas-Díaz's later *Multicultural Care* (2012) is a usable door for a reader who wants the American counseling version of this argument without a war next to the hospital. Boyd-Franklin's work on Black families refused both the deficit story and the polite silence. Greene wrote as a Black lesbian psychologist when that sentence still had to be a career decision. These are not garnish names. They are why a 1992 competencies paper did not remain a paper.
+
 ## Africa, Japan, India — not as spice
 
-T. Adeoye Lambo, at Aro in Abeokuta in the 1950s and 1960s, built a village system in which patients lived with relatives and the hospital was not the only building that counted. He published in *The Lancet*. He later worked at WHO. The model is not a folk souvenir. It is a mid-century experiment in what a psychiatric institution is *for*.
+T. Adeoye Lambo, at Aro in Abeokuta in the 1950s and 1960s, built a village system in which patients lived with relatives and the hospital was not the only building that counted. He published in *The Lancet* (including "The Village of Aro," 1964). He later worked at WHO. The model is not a folk souvenir. It is a mid-century experiment in what a psychiatric institution is *for*. It is also, like every famous African clinical experiment written up in a London journal, at risk of being quoted as a parable and never staffed as a policy.
+
+Takeo Doi's *Amae no kōzō* (1971; English *The Anatomy of Dependence*, 1973) is not a liberation text. It is a Japanese psychiatrist's argument that a certain permitted dependence is a psychological fact, not a Western developmental failure. This pack names it here so that "multicultural" does not mean only American competencies plus Caribbean and Latin American wars. Sometimes the argument is with the developmental chart itself.
 
 Shōma Morita in Tokyo (1919) and Girindrasekhar Bose in Calcutta (1922) have their own figure essays. They belong in this era piece as proof that "the West invented psychotherapy, then exported it" is a bad map. Sometimes Europe was the late letter.
 

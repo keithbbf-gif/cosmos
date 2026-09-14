@@ -51,7 +51,11 @@ The same years produced encounter groups, Esalen, and a faith that a weekend of 
 
 Rogers himself moved toward large-group work and toward political encounters (including filmed work in Northern Ireland and South Africa). The recordings remain as documents of hope and of the limits of hope. They are not a script for a community meeting in Arkansas.
 
+Fritz Perls and gestalt therapy — the empty chair that every introductory course now mimes — sat in the same mid-century weather and then at Esalen. This pack will not teach the chair. It will say: experiential humanism had more than one address, and some of those addresses charged a weekend rate that a county clinic never could. The hangover is the same hangover: a method that needs a stable relationship was sold as an event.
+
 ## What remained in ordinary counseling
+
+Charlotte Bühler, Clark Moustakas, and the early Association for Humanistic Psychology meetings (the 1960s, with Maslow and others) are the organizational half of "third force." A movement that wanted to be more than two reductions also wanted journals, conferences, and a name on a masthead. Some of that institutional work was serious. Some of it was a new church. Rogers kept one foot in the research habit even when the other foot walked toward Esalen. The split is why a later counselor can use the 1957 conditions without owing the weekend.
 
 Licensure exams still list "person-centered" as if it were a brand of furniture. The living inheritance is more specific:
 

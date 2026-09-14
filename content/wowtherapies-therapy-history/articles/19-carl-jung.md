@@ -34,6 +34,8 @@ Sonu Shamdasani's scholarship is the guardrail against both devotion and cartoon
 
 The Burghölzli years matter more than the sage photographs. Under Bleuler he met "dementia praecox" (the word that would become schizophrenia) as a daily census, not as a symbol. The word-association experiments were an attempt to catch complexes in reaction time. They are easy to overclaim. They are also an ancestor of every later test that tries to make the inner world leave a mark on a clock.
 
+Sabina Spielrein was a patient, then a colleague, then a theorist whose 1912 paper on destruction as a cause of coming-into-being sits in the same decade as Jung's break with Freud. Later films flattened her into a romance. The historical correction is to read her as a thinker. This pack does not give her a full figure essay; it refuses the flattening. A counseling history that only uses her as Jung's subplot has learned the wrong lesson from the archive.
+
 Jung's typology (*Psychological Types*, 1921) leaked into the Myers-Briggs industry, which is a separate commercial history and not a clinical credential. Introversion and extraversion, in his usage, were attitudes of libido, not a party trick about who talks at dinner. A counseling site that uses those words owes him a footnote and owes the reader a warning about the quiz.
 
 ## The 1930s

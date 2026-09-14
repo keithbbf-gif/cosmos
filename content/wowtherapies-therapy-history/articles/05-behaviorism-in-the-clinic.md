@@ -16,6 +16,7 @@ citations:
   - "Jones, Mary Cover. A Laboratory Study of Fear: The Case of Peter. 1924."
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
   - "Skinner, B. F. Science and Human Behavior. 1953."
+  - "Eysenck, H. J. The Effects of Psychotherapy. 1952."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -33,6 +34,8 @@ Mary Cover Jones, at Columbia and then at the Institute of Child Welfare in Berk
 
 Joseph Wolpe, who trained in South Africa and later taught in the United States, gave the idea a clinic and a book: *Psychotherapy by Reciprocal Inhibition* (1958). He had treated soldiers and then civilians with a graded imagination of feared scenes paired with relaxation. He measured. He argued with analysts. He also inherited a medical hierarchy that this series will not romanticize. The technical gift was specific: anxiety can be treated as a response that competes with another response, not only as a message to be decoded.
 
+Hans Eysenck, in a 1952 paper that later textbooks still fight about, claimed that psychotherapy had not beaten spontaneous remission. The paper is a historical object: a gauntlet, a selection of studies, a tone. Analysts heard a smear. Behavior therapists heard a permission to build something countable. Whether Eysenck was fair is a reviewer's job. That 1952 became a date people cited when they wanted a fight is the historian's job.
+
 ## Skinner did not run a couch
 
 B. F. Skinner's *Science and Human Behavior* (1953) and the later applied-behavior-analysis tradition belong to laboratories, classrooms, and, controversially, institutions for people with developmental disabilities. A counseling website that pretends Skinner was a psychotherapist is doing public relations. What entered the talking professions was a subset: functional analysis (what does this behavior *get*), reinforcement, and a suspicion of inner nouns.
@@ -40,6 +43,8 @@ B. F. Skinner's *Science and Human Behavior* (1953) and the later applied-behavi
 Token economies, exposure without the psychoanalytic story, and the first behavioral treatments of phobia and of some sexual problems (the last of these shaded, in too many hands, into coercive "reorientation" — name the harm, do not teach the protocol) all claimed this lineage. The 1973 removal of homosexuality from DSM-II as a disorder is part of the same decade's fight over what a behavior was *for*.
 
 Applied behavior analysis with people who cannot consent remains a live ethics argument, especially in autism services. This pack will not settle it. It will say: a school that began by conditioning an infant without a plan to reverse the fear has a duty to keep that origin in view whenever it talks about "the science of behavior." Jones is the corrective ancestor. Watson is the warning.
+
+Joseph Wolpe's South African years, including work with soldiers, are part of why reciprocal inhibition arrived as a medical technique rather than as a classroom trick. The later American Wolpe argued in print with analysts and with anyone who thought measurement was a coarsening. He could be sure of himself. The surety built a clinic. It also built disciples who treated a hierarchy of feared scenes as a faith. This pack names the 1958 book and stops before the hierarchy becomes a homework this page will not assign.
 
 ## Why analysts heard an insult
 

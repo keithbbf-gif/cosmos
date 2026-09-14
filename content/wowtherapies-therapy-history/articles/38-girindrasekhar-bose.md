@@ -31,6 +31,8 @@ This is not a story of a "remote" man receiving the light. Bose had already been
 
 Calcutta University's psychology department in the 1910s was already a place where European texts arrived and were not merely copied. Bose taught. He saw patients. He wrote in a city that was a colonial capital and a nationalist furnace. Psychoanalysis, in that setting, was a way to talk about the inner life without handing the whole conversation to the colonial asylum. Hartnack's book is the place to watch that double bind.
 
+He was a physician who also painted and who wrote on yoga and on the Upanishads as a psychologist, not as a tourist. Those writings are easy for a Western pack to exoticize. They are part of how a Calcutta doctor argued that the inner life already had languages. The IPS minutes are the less romantic document: membership, training, a journal, a hospital. This pack prefers the minutes.
+
 Owen Berkeley-Hill at Ranchi is a reminder that the first IPS membership included British army doctors. The society was never a purely "Indian" purity tale. It was a mixed room in a mixed empire, with Bose in the chair.
 
 ## Opposite wishes

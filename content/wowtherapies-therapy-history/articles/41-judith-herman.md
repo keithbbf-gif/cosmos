@@ -28,7 +28,7 @@ Judith Lewis Herman was born on 31 March 1942, trained as a psychiatrist, and ta
 
 *Father–Daughter Incest* (Harvard, 1981) is a clinical and sociological study of a crime that mid-century theory had a talent for dissolving into "seduction" and inner wish. Herman wrote as a physician who believed her patients and then went looking for a pattern. The book is not a memoir. It is a hinge between the feminist clinic and the trauma field that still thought of itself as a veterans' science.
 
-She wrote from a feminist clinic culture in Boston that had already learned to hear incest as a present tense. The 1981 book is closer to that clinic than the 1992 book, which had to speak to psychiatry at large. The movement from one audience to the other is the craft: keep the patients' reality, change the official language enough that a veteran and a woman leaving a locked marriage can appear in one theory without either being used as a mascot.
+She wrote from a feminist clinic culture in Boston — including work associated with the Women's Mental Health Collective in Somerville — that had already learned to hear incest as a present tense. The 1981 book is closer to that clinic than the 1992 book, which had to speak to psychiatry at large. The movement from one audience to the other is the craft: keep the patients' reality, change the official language enough that a veteran and a woman leaving a locked marriage can appear in one theory without either being used as a mascot.
 
 Complex trauma, as a phrase, now walks into intakes uninvited. Sometimes it fits. Sometimes it is a way to skip a careful history. Herman's own writing is more careful than the phrase's afterlife. ICD-11's later adoption is a bureaucratic echo, not a crown she asked this series to place.
 
@@ -42,7 +42,9 @@ Safety, remembrance, reconnection — the triad is now printed on continuing-edu
 
 ## 2023
 
-*Truth and Repair* returned to justice as a clinical topic: what survivors say they need from a community, not only from an hour. A counseling site can note the book without becoming a court.
+*Truth and Repair* returned to justice as a clinical topic: what survivors say they need from a community, not only from an hour. Acknowledgment, apology, and a public record are not billing codes. They are the social half of a recovery that an isolated hour cannot finish. A counseling site can note the book without becoming a court.
+
+Harvard and Cambridge Hospital are the institutional addresses. The books are the public ones. Trainees who met her only through a slide titled "three stages" missed the 1981 sociology of a crime and the 1992 argument with a veterans' science that had forgotten households. The 2023 book is a late insistence that the community is still on the hook. This pack keeps all three dates visible so a reader cannot reduce her to a poster.
 
 The 1992 book remains the public hinge for readers who met trauma through veterans' science. The 1981 book remains the harder one for a profession that still sometimes prefers a combat story to a household crime. Read both, in that order or the reverse. Do not reduce either to a slide titled "the three stages." The stages were a social argument about what recovery requires of a community. A slide is only a souvenir.
 

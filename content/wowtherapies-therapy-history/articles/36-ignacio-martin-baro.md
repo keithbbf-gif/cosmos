@@ -30,7 +30,9 @@ Martín-Baró argued that Latin American psychology was imported: it asked North
 
 He did not write a treatment manual for a private office in a peaceful county. He wrote from a campus that was already a target.
 
-He trained in Europe as well as in Central America, and he knew the journals he was refusing. Social psychology, in the US of his youth, had already produced obedience studies and bystander studies. He wanted a psychology that did not treat El Salvador as a lab for someone else's theory. The UCA was a Jesuit university that had chosen, under Ignacio Ellacuría and others, a dangerous "preferential option." Psychology, in Martín-Baró's hands, was part of that option or it was decoration.
+He trained in Europe as well as in Central America — including Chicago, a fact North American readers like because it makes him "ours" — and he knew the journals he was refusing. Social psychology, in the US of his youth, had already produced obedience studies and bystander studies. He wanted a psychology that did not treat El Salvador as a lab for someone else's theory. The UCA was a Jesuit university that had chosen, under Ignacio Ellacuría and others, a dangerous "preferential option." Psychology, in Martín-Baró's hands, was part of that option or it was decoration.
+
+The other murdered Jesuits — Ellacuría, Moreno, López, Martín-Baró, López y López, Montes — are a community, not a single famous psychologist. This pack names him because he is the one who wrote the psychology. The community is why the psychology had a university to sit in.
 
 ## The fatal poll
 

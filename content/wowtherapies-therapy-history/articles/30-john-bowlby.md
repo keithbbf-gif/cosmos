@@ -13,6 +13,7 @@ citations:
   - "Bowlby, John. Maternal Care and Mental Health. WHO, 1951."
   - "Bowlby, John. Attachment and Loss. 1969–1980."
   - "van Dijken, Suzan. John Bowlby: His Early Life. 1998."
+  - "Bowlby, John. Forty-Four Juvenile Thieves. 1944."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -29,6 +30,8 @@ Edward John Mostyn Bowlby was born in 1907 into a London household that farmed c
 The misreading still walks into parenting arguments. A historically literate clinician should not help it.
 
 The Tavistock Clinic, where he worked after the war, was a place where child guidance, psychoanalysis, and later family work shared a building and not always a theory. Bowlby used that building to run a research unit that looked at separations as they happened — hospital visiting rules, the two-year-old left on a ward. James and Joyce Robertson's films of children in hospital sit in the same argument: look at the child, then change the visiting hours. Attachment theory's first policy victory was furniture and a cot for a parent, not a quiz.
+
+He had worked, before the WHO assignment, with "delinquent" boys and had already decided that a broken affectional bond was a better first hypothesis than a broken character. The 44 juvenile thieves paper (1944) is an ancestor of the 1951 monograph. Institutes that wanted a drive story heard a social worker. He kept writing as if the institute were wrong.
 
 ## Ethology and the three volumes
 

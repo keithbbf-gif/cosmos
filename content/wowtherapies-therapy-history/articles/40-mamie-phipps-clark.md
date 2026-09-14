@@ -33,7 +33,9 @@ The dolls are famous. The fame has a cost: a pair of psychologists become a sing
 
 The doll photographs are not automatically free to reproduce. Do not use them as thumbnails. The finding is a historical event, not clip art.
 
-Hot Springs in the 1910s and 1920s was a spa town with a Black professional class that the national story of Arkansas often skips. Her father was a physician. Howard University, then Columbia, then Harlem — the path is a specific American geography of Black excellence under segregation. Guthrie wrote the textbook that made students meet that geography. This pack names the Arkansas end of it because the brand lane is here.
+Hot Springs in the 1910s and 1920s was a spa town with a Black professional class that the national story of Arkansas often skips. Her father, Harold Phipps, was a physician. Howard University, then Columbia, then Harlem — the path is a specific American geography of Black excellence under segregation. Guthrie wrote the textbook that made students meet that geography. This pack names the Arkansas end of it because the brand lane is here.
+
+Columbia's psychology department in the early 1940s was not waiting to be integrated as a favor. She finished the doctorate anyway. The "first Black woman" sentence is true and is also a sentence about how late the department was. Northside is what she did with the degree: not a monument in a footnote, a clinic on a Harlem street.
 
 The doll studies have been re-run, criticized, defended, and taught in every introductory psych course. The methodological arguments are real. They do not erase the historical event: a social-science citation in a constitutional case about children's schools. Clark's later life was not a victory lap. Northside still had to fund itself. Harlem still had the same city.
 

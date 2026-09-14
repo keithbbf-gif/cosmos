@@ -29,6 +29,8 @@ The *Memorial to the Legislature of Massachusetts* (1843) is not a gentle docume
 
 When the war came she was appointed superintendent of women nurses for the Union, unpaid, for years. She wanted her nurses plain, Protestant, and older than thirty. Surgeons found her impossible. Soldiers called her kind. The same will that walked almshouses tried to command a medical bureau. It is of a piece. Dix did not believe in waiting for a gentleman to notice.
 
+She also failed, famously, at a federal land-grant bill for hospitals that President Pierce vetoed in 1854. The veto is part of the file: a woman who could move states could still lose Washington. She went to Europe instead of retiring. The Scottish inspections of the mid-1850s are the same notebook in another country.
+
 ## The memorial as a method
 
 Dix did not invent the inspection. Prison reformers and Quaker visitors already wrote reports. What she did was industrialize the inspection: state after state, the same walk, the same notebook, the same decision to speak to a legislature as if it were a classroom that had failed a recitation. The Massachusetts memorial of 1843 names East Cambridge, names the cage, names the weather on the day she saw a woman without heat. Later memorials learned the trick of the list. A legislator who will not feel a principle may still be unable to unread a town name.

@@ -21,6 +21,9 @@ Last pass: 2026-09-14.
 - Weiner, Dora B. "The Apprenticeship of Philippe Pinel: A New Document, 'Observations of Citizen Pussin on the Insane.'" *American Journal of Psychiatry* 136, no. 9 (1979): 1128–1134. PMID 382874.
 - Weiner, Dora B. "'Le geste de Pinel': The History of a Psychiatric Myth." In *Discovering the History of Psychiatry*, edited by Mark S. Micale and Roy Porter, 232–247. New York: Oxford University Press, 1994.
 - Pinel, Philippe. *Traité médico-philosophique sur l'aliénation mentale, ou la manie*. Paris: Richard, Caille et Ravier, 1801. (English: *A Treatise on Insanity*, trans. D. D. Davis, 1806.)
+- Chiarugi, Vincenzo. *Della pazzia in genere e in specie*. Florence, 1793–1794.
+- Tuke, Samuel. *Description of the Retreat, an Institution near York, for Insane Persons of the Society of Friends*. York, 1813.
+- Kirkbride, Thomas S. *On the Construction, Organization, and General Arrangements of Hospitals for the Insane*. Philadelphia, 1854 (and later editions). Architecture as moral treatment — and as a census machine.
 - Dix, Dorothea L. *Memorial to the Legislature of Massachusetts*. Boston, 1843.
 - Gollaher, David. *Voice for the Mad: The Life of Dorothea Dix*. New York: Free Press, 1995.
 - Beers, Clifford Whittingham. *A Mind That Found Itself: An Autobiography*. New York: Longmans, Green, 1908.
@@ -33,6 +36,7 @@ Last pass: 2026-09-14.
 - Freud, Sigmund. *Zur Geschichte der psychoanalytischen Bewegung*. 1914.
 - Janet, Pierre. *L'Automatisme psychologique*. Paris: Alcan, 1889.
 - Shamdasani, Sonu. *Jung and the Making of Modern Psychology: The Dream of a Science*. Cambridge: Cambridge University Press, 2003.
+- Spielrein, Sabina. "Die Destruktion als Ursache des Werdens." *Jahrbuch für psychoanalytische und psychopathologische Forschungen* 4 (1912): 465–503. Read her as a theorist, not as a subplot.
 - Jung, C. G. *Wandlungen und Symbole der Libido*. 1912. Later *Symbols of Transformation*.
 - Adler, Alfred. *Über den nervösen Charakter*. Wiesbaden: Bergmann, 1912. (*The Neurotic Constitution*.)
 - Adler, Alfred. *Menschenkenntnis*. 1927. (*Understanding Human Nature*.)
@@ -54,6 +58,10 @@ Last pass: 2026-09-14.
 
 ## Behavior, cognition, third wave
 
+- Eysenck, H. J. "The Effects of Psychotherapy: An Evaluation." *Journal of Consulting Psychology* 16, no. 5 (1952): 319–324. (Historical gauntlet; do not treat as a last word.)
+- Chambless, Dianne L., and colleagues. Society of Clinical Psychology (APA Division 12) empirically supported treatment reports, 1990s. Cite as professional-history objects, not as a shopping list.
+- Cahalan, Susannah. *The Great Pretender*. New York: Grand Central, 2019. (Archival critique of Rosenhan 1973 — do not use Rosenhan as a clean parable.)
+- Beck, A. T., C. H. Ward, M. Mendelson, J. Mock, and J. Erbaugh. "An Inventory for Measuring Depression." *Archives of General Psychiatry* 4 (1961): 561–571.
 - Watson, John B., and Rosalie Rayner. "Conditioned Emotional Reactions." *Journal of Experimental Psychology* 3, no. 1 (1920): 1–14. (Little Albert — cite as ethics history, not as a method to copy.)
 - Jones, Mary Cover. "A Laboratory Study of Fear: The Case of Peter." *Pedagogical Seminary* 31 (1924): 308–315.
 - Wolpe, Joseph. *Psychotherapy by Reciprocal Inhibition*. Stanford: Stanford University Press, 1958.
@@ -85,6 +93,7 @@ Last pass: 2026-09-14.
 
 ## Attachment, development
 
+- Bowlby, John. "Forty-Four Juvenile Thieves: Their Characters and Home-Life." *International Journal of Psycho-Analysis* 25 (1944): 19–53, 107–128.
 - Bowlby, John. *Maternal Care and Mental Health*. Geneva: WHO, 1951.
 - Bowlby, John. *Attachment and Loss*. 3 vols. London: Hogarth, 1969, 1973, 1980.
 - van Dijken, Suzan. *John Bowlby: His Early Life*. London: Free Association, 1998.
@@ -110,6 +119,8 @@ Last pass: 2026-09-14.
 - Kardiner, Abram. *The Traumatic Neuroses of War*. New York: Hoeber, 1941.
 - Horowitz, Mardi. *Stress Response Syndromes*. New York: Aronson, 1976.
 - Figley, Charles R., ed. *Trauma and Its Wake*. New York: Brunner/Mazel, 1985. (PTSD after DSM-III, 1980.)
+- Burgess, Ann Wolbert, and Lynda Lytle Holmstrom. "Rape Trauma Syndrome." *American Journal of Psychiatry* 131, no. 9 (1974): 981–986.
+- Robertson, James, and Joyce Robertson. *A Two-Year-Old Goes to Hospital*. Film, 1952. Tavistock / Concord Media later distribution. Cite as a historical film, not as a still of a child for a thumbnail.
 - Herman, Judith Lewis. *Father–Daughter Incest*. Cambridge, MA: Harvard University Press, 1981.
 - Herman, Judith Lewis. *Trauma and Recovery*. New York: Basic Books, 1992.
 - Herman, Judith Lewis. *Truth and Repair*. New York: Basic Books, 2023.
@@ -118,6 +129,7 @@ Last pass: 2026-09-14.
 
 ## Feminist, relational, multicultural, liberation
 
+- Chesler, Phyllis. *Women and Madness*. New York: Doubleday, 1972.
 - Miller, Jean Baker. *Toward a New Psychology of Women*. Boston: Beacon, 1976.
 - Jordan, Judith V., Alexandra G. Kaplan, Jean Baker Miller, Irene P. Stiver, and Janet L. Surrey. *Women's Growth in Connection*. New York: Guilford, 1991. (Stone Center / RCT.)
 - Brown, Laura S. *Subversive Dialogues: Theory in Feminist Therapy*. New York: Basic Books, 1994.

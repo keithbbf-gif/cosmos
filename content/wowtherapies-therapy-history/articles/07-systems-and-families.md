@@ -40,9 +40,11 @@ Salvador Minuchin, an Argentine-born psychiatrist, learned a different lesson at
 
 Murray Bowen, at Georgetown, drew diagrams of triangles and differentiation that still cover whiteboards in counseling programs. His theory can sound like weather: anxiety moves through a system. It can also sound like fate. Good teachers use the diagrams as hypotheses. Bad ones use them as a family curse.
 
+Nathan Ackerman in New York had already been seeing families as a unit in the 1950s, and the Ackerman Institute later became one of the East Coast addresses for the same argument. Milan, in the 1970s, produced a different dialect: Selvini Palazzoli, Boscolo, Cecchin, and Prata wrote about paradox, circular questions, and a team behind the mirror. American trainees imported the mirror and sometimes left the politics. The one-way glass is a historical object. It trained a generation. It also turned a household into a specimen. Consent forms got longer for a reason.
+
 ## Brief, solution, narrative
 
-The Mental Research Institute in Palo Alto (Jackson, Weakland, Paul Watzlawick, Richard Fisch) shortened the ambition: interrupt the attempted solution that has become the problem. In Milwaukee, Steve de Shazer and Insoo Kim Berg founded the Brief Family Therapy Center in 1978 and spent the 1980s asking what was already working. Solution-focused brief therapy is easy to parody ("miracle question") and harder to do without becoming a cheerleader. Berg's own path — pharmacy training in Seoul, then American social work, then MRI, then BFTC — is the figure essay in this pack.
+The Mental Research Institute in Palo Alto — Don Jackson opened it in 1958 or 1959, depending on which institutional sentence you trust — gathered Jackson, Weakland, Paul Watzlawick, and Richard Fisch. They shortened the ambition: interrupt the attempted solution that has become the problem. In Milwaukee, Steve de Shazer and Insoo Kim Berg founded the Brief Family Therapy Center in 1978 and spent the 1980s asking what was already working. Solution-focused brief therapy is easy to parody ("miracle question") and harder to do without becoming a cheerleader. Berg's own path — pharmacy training in Seoul, then American social work, then MRI, then BFTC — is the figure essay in this pack.
 
 Michael White in Adelaide and David Epston in Auckland wrote *Narrative Means to Therapeutic Ends* (1990). They treated problems as stories that had recruited a person, and they looked for the moments the story did not win. Narrative therapy's politics (against the expert who owns the meaning) belong with the liberation essay later in this series. Its technique belongs here: the unit of treatment can be a story the family has agreed to tell.
 
@@ -54,6 +56,8 @@ A contemporary clinician who invites a partner, a parent, or a translator into t
 
 Those are not questions a history essay answers. They are questions this history *invented* as professional questions rather than as gossip over a fence.
 
+Recording a family, once a research glamour, is now an ethics exam. Who owns the tape? Who is in the frame when a child recants? Palo Alto and Philadelphia both filmed. The films trained. They also outlived the consent that made them. A contemporary clinician who wants a consultant behind a mirror inherits that file, not only the clever question.
+
 ## What not to do with this lineage
 
 Do not use systems language to tell a woman she caused her child's psychosis. Do not use "enmeshment" as a polite word for cultural closeness you have not earned the right to judge. Do not treat a fifty-minute newscast of family week as a structural intervention.
@@ -62,6 +66,6 @@ Satir liked to say that the problem was not the problem; coping was. Like most a
 
 ## Sources
 
-Satir 1964, 1972; Minuchin 1967, 1974; Bateson et al. 1956; de Shazer 1985; White and Epston 1990. On the afterlife of the double bind, see later statements by the Palo Alto group and the critiques in the schizophrenia family-research literature.
+Satir 1964, 1972; Minuchin 1967, 1974; Bateson et al. 1956; de Shazer 1985; White and Epston 1990. On MRI's opening years, Jackson's 1958–59 institutional papers and later MRI histories. On the afterlife of the double bind, see later statements by the Palo Alto group and the critiques in the schizophrenia family-research literature. For Milan, Selvini Palazzoli and colleagues' 1970s papers as history, not as a script.
 
 *WOW Therapies educational series. Complementary to the SLPWOW speech-pathology history pack; this lane is counseling and clinical heritage only.*

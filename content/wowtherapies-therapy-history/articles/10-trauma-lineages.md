@@ -16,6 +16,7 @@ citations:
   - "Janet, Pierre. L'Automatisme psychologique. 1889."
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "WHO. ICD-11, Complex post traumatic stress disorder."
+  - "Burgess, Ann Wolbert, and Lynda Lytle Holmstrom. Rape Trauma Syndrome. 1974."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -37,7 +38,9 @@ Sándor Ferenczi's 1932 lecture "Confusion of Tongues Between Adults and the Chi
 
 Abram Kardiner's *The Traumatic Neuroses of War* (1941) described a physioneurosis: the body stays on watch. After 1945, American psychiatry did not build a lasting civilian trauma field. It built psychoanalysis, then psychopharmacology. Korea and the early Vietnam years reused old words.
 
-What changed after Vietnam was politics plus numbers plus a veterans' movement that would not accept "personality" as the explanation. Researchers and clinicians (Mardi Horowitz's *Stress Response Syndromes*, 1976; the people around the first ISTSS) pushed a diagnosis into DSM-III (1980): post-traumatic stress disorder. The criteria required an event "outside the range of usual human experience" — a phrase that later collapsed, because usual human experience, for many people, includes violence.
+What changed after Vietnam was politics plus numbers plus a veterans' movement that would not accept "personality" as the explanation. Researchers and clinicians (Mardi Horowitz's *Stress Response Syndromes*, 1976; the people around the first ISTSS, organized in the mid-1980s) pushed a diagnosis into DSM-III (1980): post-traumatic stress disorder. The criteria required an event "outside the range of usual human experience" — a phrase that later collapsed, because usual human experience, for many people, includes violence.
+
+Ann Burgess and Lynda Lytle Holmstrom's "rape trauma syndrome" (1974) is the civilian cousin that textbooks still under-cite. They wrote from an emergency ward, not from a VA. The later feminist trauma literature, including Herman, could point to that paper when someone said trauma meant combat. It did not. Combat was only the injury a government had to count.
 
 ## Herman's hinge
 
@@ -50,6 +53,8 @@ Herman also wrote that trauma work has stages — safety, remembrance, reconnect
 EMDR (Francine Shapiro, late 1980s), prolonged exposure (Edna Foa and colleagues), cognitive processing therapy (Patricia Resick), and a dozen somatic schools all belong to the decades after DSM-III. Each has a research file of some thickness. Each has been marketed past its file. A practice site that names one of them as a service must do that on a service page, with its own review. A history series names them as *arrivals*, not as instructions.
 
 Bessel van der Kolk's later popular book made "the body keeps the score" into a phrase people bring to intake. The phrase is older than the book. Use it as a reminder that Kardiner already knew about the watchful body. Do not use it as a credential.
+
+DSM-IV (1994) and DSM-5 (2013) rewrote Criterion A and the symptom clusters. Those rewrites are professional history, not a reason to diagnose yourself from a table of contents. ICD-11's decision to split PTSD from complex PTSD is a later official admission that duration and captivity change the picture. The admission arrived after decades of clinic talk. Official language is slow on purpose. Survivors are not.
 
 ## Forgetting as a clinical fact
 

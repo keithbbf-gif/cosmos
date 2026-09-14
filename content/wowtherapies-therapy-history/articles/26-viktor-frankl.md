@@ -34,6 +34,8 @@ Logotherapy's "third Viennese school" claim is a piece of professional positioni
 
 He returned to Vienna, directed a polyclinic, and lectured until the paperback made him a global name. The later fame sometimes flattened the psychiatrist into a motivational speaker. The 1946 German text is starker than some English introductions.
 
+The American title arrived later and traveled farther than *Ärztliche Seelsorge*, his medical book on the doctor's spiritual care. Pastoral counselors in the United States adopted him because he let a pulpit and a clinic share a vocabulary of purpose. Empirical psychology mostly did not run his trials. Both facts are his American afterlife. Neither fact makes the camps a seminar. The chronology still stands: the theory is 1930s Vienna; the testimony is 1946; the paperback is a later industry.
+
 ## What a careful reader refuses
 
 He is not a proof that suffering is ennobling. He said the opposite often enough: suffering is not required; meaning is. He is not a proof that everyone in the camps "chose their attitude" in a way that makes survival a moral grade. Using him that way is a cruelty to the dead, including his own dead.

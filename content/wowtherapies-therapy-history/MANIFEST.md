@@ -72,4 +72,4 @@ Required body: educational note (not a diagnosis, not a treatment plan, not a su
 
 ## QA script
 
-`tools/check_pack.py` — counts files, required YAML, disclaimer, banned phrases, minimum word counts.
+`check_pack.py` (this folder) — counts files, required YAML, disclaimer, banned phrases, minimum word counts.

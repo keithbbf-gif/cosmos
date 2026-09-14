@@ -45,6 +45,8 @@ What he found was a city of men in rooms that were also cells. Bicêtre was poor
 
 The *Traité* of 1801 is written after Bicêtre and after the first Salpêtrière years. It is a book of classification and of hope that now reads as both humane and managerial. He wanted statistics. He wanted a language that a later superintendent could argue with. That is a different ambition from a painting of a single afternoon.
 
+The English translation of 1806 (*A Treatise on Insanity*, D. D. Davis) carried him into British and American asylums that wanted a French republican founder to quote. Superintendents cited Pinel the way later clinicians cite Rogers: as a permission to be kinder than the last building. They did not always cite Pussin. The translation history is part of the myth history.
+
 ## Straitjackets are not freedom
 
 When chains came off, jackets often went on. Pinel and Pussin both knew this. The moral of the reform is not "restraint ended." It is "restraint was made into a medical decision instead of a default." A later century would invent seclusion rooms, chemical restraint, and the quiet of a back ward that needed no iron because the door locked. Pinel's name gets borrowed for all of those, unfairly. It also gets borrowed for a kindness he did not invent alone.

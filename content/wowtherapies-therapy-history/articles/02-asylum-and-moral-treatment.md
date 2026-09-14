@@ -35,7 +35,9 @@ If you remember one correction from this whole series, remember that one. Reform
 
 William Tuke, a Quaker tea merchant, opened the York Retreat in 1796 after a death in the local asylum shamed the Society of Friends. The Retreat used surveillance and expectation more than irons. Visitors wrote it up as a garden with rules. Andrew Scull and others have since described the steel inside the kindness: time-tables, withheld privileges, the gaze of staff who recorded every deviation. Moral treatment was still a power relation. It was a different power relation from a chain in a stone ring.
 
-Vincenzo Chiarugi in Florence and a handful of German and American superintendents ran parallel experiments. Benjamin Rush in Philadelphia mixed bleeding and a "tranquilizer" chair with republican rhetoric. There was no single enlightened dawn. There were institutions arguing with one another about what a building could do to a mind.
+Vincenzo Chiarugi in Florence published *Della pazzia* in 1793–94 and tried, in the Bonifacio hospital, a medical order that did not begin with irons. Samuel Tuke, William's grandson, wrote *Description of the Retreat* (1813) and exported the York story to readers who would never see Yorkshire. Benjamin Rush in Philadelphia mixed bleeding and a "tranquilizer" chair with republican rhetoric. There was no single enlightened dawn. There were institutions arguing with one another about what a building could do to a mind.
+
+The American "Kirkbride plan" later in the nineteenth century — Thomas Story Kirkbride's long, staggered wards, light, and air — is architecture as moral treatment. It is also architecture as a census machine. The buildings outlived the staffing ratios they required. A contemporary reader who sees a ruined state hospital on a hill is looking at that outliving, not at a proof that kindness was a lie. Kindness was a ratio. The ratio was not funded.
 
 ## The asylum as a machine that filled
 

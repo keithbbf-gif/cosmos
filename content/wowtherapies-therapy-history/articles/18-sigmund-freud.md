@@ -35,6 +35,8 @@ Cocaine is part of the early medical story and not a cute footnote: he advocated
 
 The Wednesday Psychological Society (1902) became the Vienna Psychoanalytic Society. Minutes were kept. Visitors were judged. A movement that claimed to study resistance also practiced it as membership policy. The 1909 trip to Clark University with Jung and Ferenczi is the American postcard: Freud lecturing in German, a photograph on the steps, a New England audience that would later build institutes and then, mid-century, almost make analysis into official psychiatry. Nathan Hale's histories are the American half of that postcard.
 
+Berggasse 19 is now a museum. It was a family apartment and a practice. The waiting room, the couch, the antiquities — tourists photograph the furniture. The historical object is the fee and the hour, not the rug. A counseling site that uses the couch as a logo is using a souvenir. This pack uses the 1909 Halberstadt photograph because it is a licensed likeness of a man, not a stage set.
+
 He wrote more than the case studies. The metapsychology papers (1915 and after), the dual-instinct turn after the First World War (*Beyond the Pleasure Principle*, 1920), the structural model of ego, id, and superego (*The Ego and the Id*, 1923) — these are the pages later schools either lived inside or defined themselves against. A counselor who only knows "Freud said everything is sexual" has not met these turns. A counselor who treats the structural model as anatomy has met them too literally.
 
 ## What he could not see, or would not

@@ -38,7 +38,9 @@ What survived was a technique of attention and command. The Marquis de Puységur
 
 Josef Breuer, a respected Viennese internist, treated a woman the published case called "Anna O." (Bertha Pappenheim, who later became a social worker and feminist organizer, and who did not remain a case). In the early 1880s she invented, with him, a ritual she named in English "the talking cure" and, jokingly, "chimney-sweeping." They used hypnosis; they also used recollection. The published *Studien über Hysterie* (1895), which Breuer and a younger colleague named Sigmund Freud signed together, turned those afternoons into a method: symptoms as residues of scenes that had not been spoken through.
 
-The book is not a miracle story. Pappenheim's later life was larger than the case. Freud and Breuer soon disagreed about sexuality as the preferred plot. Freud dropped hypnosis because, he said, not everyone could be hypnotized, and because he wanted the patient awake enough to resist. Free association — say what comes, even if it is stupid — is a technical answer to a failed trance.
+The book is not a miracle story. Pappenheim's later life was larger than the case: she organized Jewish women's social work, translated, and did not spend her remaining decades as "Anna O." Freud and Breuer soon disagreed about sexuality as the preferred plot. Freud dropped hypnosis because, he said, not everyone could be hypnotized, and because he wanted the patient awake enough to resist. Free association — say what comes, even if it is stupid — is a technical answer to a failed trance.
+
+Hippolyte Bernheim's Nancy school already had a simpler explanation: suggestion, without a Salpêtrière celebrity. Freud visited Nancy as well as Paris. The talking cure is, among other things, what happened when a Viennese neurologist decided that suggestion was not enough of an explanation and not enough of a method. Whether he was right is a century of argument. That he made the argument in a private study rather than a Tuesday amphitheater is the social fact this essay is after.
 
 ## Janet's other unconscious
 

@@ -32,6 +32,8 @@ Borderline personality disorder, as a DSM object, had already become a slur in s
 
 The consultation team is the least glamorous and most serious part of the design. Therapists burn, stray, and rescue. A team that watches the therapists is a moral technology. Administrators who buy "DBT-informed" without buying the team have bought a brand.
 
+University of Washington was not an accident of weather. She built a research clinic that could keep chronically suicidal people in a protocol long enough to measure something. That sentence is easy to hear as cold. The alternative, in the wards she had known, was a shrug. The 1991 paper's sample is small by later standards and specific in its inclusion rules. Later trials and adaptations (adolescents, other diagnoses, other countries) are a second literature. This page stays with the founding objects so a reader can see what "DBT" named before it named a hashtag.
+
 ## Zen, behaviorism, and a refusal of the romantic patient
 
 Linehan took behavioral analysis seriously: what does this act *do* in the environment? She also sat zazen and treated attention as a skill, not as a vibe. The combination offended people who wanted either a warm bath or a token economy. It also produced a generation of clinicians who could stay in the room with chronic suicidality without becoming the rescuer or the punisher — some of the time.

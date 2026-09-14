@@ -24,7 +24,7 @@ Irvin David Yalom was born in 1931 in Washington, D.C., to parents who had left 
 
 ## The group book
 
-*The Theory and Practice of Group Psychotherapy* (1970, then the later editions that kept it on every residency shelf) did something American psychiatry needed: it made group a craft with named mechanisms — instillation of hope, universality, catharsis, interpersonal learning — rather than a warehouse solution. Yalom wrote as a man who had sat in groups and as a man who had read. The "therapeutic factors" leaked into every later process group, including some that never paid him a courtesy citation.
+*The Theory and Practice of Group Psychotherapy* (1970, then the later editions that kept it on every residency shelf) did something American psychiatry needed: it made group a craft with named mechanisms — instillation of hope, universality, catharsis, interpersonal learning — rather than a warehouse solution. Some of those factors came out of a research program with Morton Lieberman and others as well as out of his own rooms. Yalom wrote as a man who had sat in groups and as a man who had read. The "therapeutic factors" leaked into every later process group, including some that never paid him a courtesy citation.
 
 Group can heal. Group can scapegoat. His book is better on the first. A clinician still has to watch for the second.
 
@@ -41,6 +41,8 @@ He then wrote actual novels (*When Nietzsche Wept*, *The Schopenhauer Cure*) and
 He and Marilyn Yalom, a literary scholar, wrote together late in life about her dying. Those pages are a public grief. They are not a clinical demonstration. A counseling site can point to the fact of the books without mining them.
 
 Stanford psychiatry in his decades was a place where group, inpatient work, and a literary ambition could share one career. That combination is rarer now, and the rarity is not an improvement. The rarity is why the books still get assigned: they remember a medicine that was allowed to sound like sentences. They are not a reason to skip the current chart, the current risk, or the current consent form.
+
+Washington, D.C., in the 1930s, a grocery, a Russian-Jewish household, a boy who read in a back room — the memoir pages that mention this are not a brand story. They are why a later professor could write about death without sounding as if he had met it only in a seminar. The novels smuggle philosophy into plots. The textbooks smuggle plots into residencies. Both are the same writer refusing a medicine that had become only a code.
 
 ## What not to do with a living writer
 

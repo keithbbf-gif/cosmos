@@ -46,6 +46,8 @@ Adler lectured constantly in the United States. Individual psychology became a t
 
 If Rogers is the American name for respect in the hour, Adler is an older European name for respect as a *social* fact: the patient is discouraged, not merely driven, and encouragement is a technical act. That last sentence has been turned into poster copy. In the clinic it means: do not confuse a style of life with a destiny.
 
+He died on 28 May 1937, in Aberdeen, during a British lecture tour. The date is a European fact: a Jewish physician already living between continents, a movement that would have to survive without its founder just as the continent closed. Individual-psychology societies in the United States and elsewhere kept the teaching. They did not keep Vienna's municipal clinics. A counseling history that treats Adler as a personality-quiz ancestor has skipped the closed clinics and the dead founder on a Scottish lecture platform.
+
 ## Portrait
 
 Confirm any Commons photograph before featuring (`PORTRAIT_SOURCES.md`). The 1912 title page is a safer lead than an unconfirmed face.

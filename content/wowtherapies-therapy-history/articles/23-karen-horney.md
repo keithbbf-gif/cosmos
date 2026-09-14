@@ -45,6 +45,8 @@ The New York fight was about doctrine and about power. Horney's students wanted 
 
 She wrote in English that is still readable, which is not a small gift. A general reader can finish *The Neurotic Personality of Our Time* without a decoder ring. That accessibility made her, for a mid-century public, more present than Klein and less mythic than Freud.
 
+The Association for the Advancement of Psychoanalysis and the American Institute for Psychoanalysis (early 1940s) are the institutional remainder. *The American Journal of Psychoanalysis* still carries a lineage that began as a walkout. Walkouts are how some of the better American clinical ideas escaped a medical lock. Counseling programs that assign Horney without assigning the walkout are assigning a personality triad and skipping the workplace.
+
 ## Inheritance
 
 - Personality as strategies in a social field.

@@ -29,6 +29,8 @@ A series that claims global threads and then skips this book would be performing
 
 Toronto, before London, already had her working on security theory with William Blatz. The Canadian years are easy to skip in a Bowlby-centered story. She did not arrive in London as a blank assistant. She arrived as a person who already thought "security" was a researchable word.
 
+She also ran, in Baltimore, the kind of home-visit observation that later grant panels would call too expensive. The Strange Situation is famous because it is short. The home visits are why she trusted the short procedure. A field that kept only the twenty minutes kept the brand and lost the fatigue.
+
 The Ganda fieldwork was not a tropical interlude. It forced her to see attachment in a polygynous, multi-caregiver world and still find patterns of using a person as a base. People who say attachment research is "WEIRD psychology" only — Western, educated, industrial — have to sit with 1954–55. The later Strange Situation is more American. The first book is not.
 
 ## Baltimore, and twenty minutes that ate a field

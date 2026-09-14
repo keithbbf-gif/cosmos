@@ -29,6 +29,8 @@ She believed in growth the way some people believe in weather: it will happen if
 
 She trained at the Illinois Psychiatric Institute and then at MRI, and she never sounded like a Palo Alto engineer. Where Watzlawick wrote about paradox, Satir wrote about self-worth. The family, in her pages, is a place people learn whether they are allowed to exist. That sentence can become greeting-card psychology. In a first hour with a silenced teenager it can also be the only true sentence in the chart.
 
+Neillsville to Chicago to California is a social-work geography, not an institute geography. She directed training at MRI in the early 1960s and then left the engineer's table for a traveling practice. The leaving is not a failure of theory. It is a decision about which room she wanted: a research institute or a family that would stand up and show its loyalties in space.
+
 The "iceberg" metaphor later associated with her teaching — behavior at the tip, yearnings underneath — is a training-room object. This page will not turn it into a handout. The historical point is that she insisted the visible fight was not the whole person.
 
 International workshops in the 1970s and 1980s made her a traveling founder. Some of those rooms were serious. Some were the human-potential hangover the humanistic-era essay already named. Satir's gift and her risk are the same: she believed a family could change in a short, intense encounter if someone told the truth and was not destroyed for it.

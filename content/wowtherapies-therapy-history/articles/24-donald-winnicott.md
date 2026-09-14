@@ -46,6 +46,8 @@ Winnicott's advantage over some of his colleagues was the Wednesday clinic: he h
 
 He broadcast on the BBC to parents. Those talks are documents of mid-century Britain, not handbooks for 2026 Arkansas. The useful residue is his unembarrassed interest in the daily: feeding, sleeping, the look on a face when the baby is handed back.
 
+Paddington Green was a hospital for children who arrived with rashes, coughs, and mothers who had been told the crying was a character flaw. Winnicott's notes from those clinics are why "good-enough" is a pediatric sentence before it is a greeting card. He saw the baby and the mother in the same half hour. Analysts who only saw the inner theater envied that half hour and sometimes condescended to it. He kept both jobs.
+
 ## What not to do with him
 
 Do not sell "attachment parenting" under his name. Do not tell a mother she must enjoy every minute or she has failed the holding environment. Do not use "good-enough" as a way to end a conversation about neglect.

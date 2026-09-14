@@ -33,6 +33,8 @@ He trained in a France that had used colonial troops and then asked them to be g
 
 François Tosquelles and the institutional psychotherapy current in France are part of the air Fanon breathed; so is a psychiatry that still measured North Africans with racist instruments. He wrote against the latter with the tools of the former, then left the tools when the war made the hospital an annex of the occupation.
 
+He died on 6 December 1961 at the National Institutes of Health in Bethesda, after treatment that could not stop the leukemia. *The Wretched of the Earth* was already in press. Sartre's preface, which later readers have argued with, is part of the book's European life. Fanon did not get a second edition to answer it. Thirty-six is not a career. It is a compressed file. This pack reads the file as a clinician's, not as a poster.
+
 ## The gaze
 
 *Black Skin, White Masks* is a psychology of being seen. The white child's pointing finger, the language that dresses a man in someone else's clothes, the bodily explosion of shame and rage — Fanon wrote these as a clinician who had read Lacan and Hegel and the everyday. He is not "applying" psychoanalysis to race as a decoration. He is showing that the consulting room's "universal" subject was already a racial position.

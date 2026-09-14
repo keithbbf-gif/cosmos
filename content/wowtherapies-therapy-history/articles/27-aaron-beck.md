@@ -13,6 +13,7 @@ citations:
   - "Beck, Aaron T. Depression. 1967."
   - "Beck, Aaron T. Cognitive Therapy and the Emotional Disorders. 1976."
   - "Beck, Aaron T., Rush, Shaw, and Emery. Cognitive Therapy of Depression. 1979."
+  - "Beck, A. T., et al. An Inventory for Measuring Depression. 1961."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -28,7 +29,7 @@ Beck expected, as an analyst, to find hostility under depression. He listened an
 
 The cognitive triad (self, world, future) and the idea of systematic bias are his popular residue. The less popular residue is the discipline: a session that can be taped, a thought that can be tested before Thursday, a student who can be told they missed the hot cognition.
 
-The Beck Depression Inventory is one of those instruments that escaped the lab and became a waiting-room ritual. A score is not a person. It is a way a clinic can talk to itself and to an insurer. Beck knew the difference. The later industry of "outcomes" sometimes forgot it.
+The Beck Depression Inventory (the 1961 paper is the historical object; later revisions are a publishing history) is one of those instruments that escaped the lab and became a waiting-room ritual. A score is not a person. It is a way a clinic can talk to itself and to an insurer. Beck knew the difference. The later industry of "outcomes" sometimes forgot it.
 
 He trained analysts and then trained people who would never lie on a couch. The Beck Institute, the supervision model, the competence rating scales — these are how a school becomes a workforce. They are also how a school becomes a franchise. He lived long enough to see both.
 
@@ -41,6 +42,8 @@ Albert Ellis had already been interrupting musts. Beck's temperament was quieter
 He also kept extending the model — anxiety, personality, later schizophrenia — with mixed reception. A founder who cannot stop founding will overreach. The depression work remains the load-bearing wall.
 
 He kept seeing patients into old age. The biographies and obituaries (2021) describe a man more interested in a single belief than in a keynote. That temperament is why CBT could be filmed: he wanted the work visible. Visibility invited imitation, including the worksheet that never looks up. The imitation is not his best student.
+
+Providence, a Jewish household, a brother who died in the 1918 influenza pandemic — the early life that biographies mention is not a key to the triad. It is a reminder that he came to psychiatry after a century that had already taught him what a death in a family does to a story. Yale, then Cushing, then Penn: a medical path, not a California workshop path. Cognitive therapy's hospital manners come from that path. So does its comfort with a score.
 
 ## The cost of winning
 

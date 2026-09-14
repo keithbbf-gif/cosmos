@@ -41,19 +41,21 @@ Linehan's later work on high-risk adolescents and on adaptations for other diagn
 
 ## ACT and the argument about language
 
-Hayes and colleagues described psychological suffering as, in part, the over-extension of language: we follow rules that were useful in one context into a life they ruin. ACT asks for acceptance of inner experience, defusion from sentences, and movement toward stated values. The 1999 book is the landmark; the workshops became an industry.
+Hayes and colleagues described psychological suffering as, in part, the over-extension of language: we follow rules that were useful in one context into a life they ruin. ACT asks for acceptance of inner experience, defusion from sentences, and movement toward stated values. The 1999 book is the landmark; the workshops became an industry. Hayes had been publishing behavioral accounts of rule-governed behavior since the 1980s. The "third wave" nickname, which he and others used in the mid-2000s, is a historian's convenience and a marketer's gift. Stefan Hofmann and others later argued that the wave metaphor overstated a break from CBT. The argument is intra-family. A practice site does not need to pick a champion. It needs to know the fight is about how much "acceptance" is a new school and how much it is exposure with better manners.
 
 Take what you need from that sentence. The historical fact is that a behavioral school put "values" and "acceptance" on the same page as an exposure tradition, and then ran trials.
 
 ## MBCT and the borrowed cushion
 
-Jon Kabat-Zinn's mindfulness-based stress reduction (clinic at UMass, book 1990) was a medical-behavioral program, not a psychotherapy school. Segal, Williams, and Teasdale adapted mindfulness practices for people with recurrent depression who were between episodes (*Mindfulness-Based Cognitive Therapy for Depression*, 2002). The aim, in their telling, was to keep a passing sad mood from restarting an old cognitive loop.
+Jon Kabat-Zinn's mindfulness-based stress reduction began as a clinic at the University of Massachusetts Medical Center in 1979; the book *Full Catastrophe Living* (1990) is the public object. It was a medical-behavioral program, not a psychotherapy school. Segal, Williams, and Teasdale adapted mindfulness practices for people with recurrent depression who were between episodes (*Mindfulness-Based Cognitive Therapy for Depression*, 2002). The aim, in their telling, was to keep a passing sad mood from restarting an old cognitive loop. Their earlier collaboration with Beck's cognitive model is the bridge: they were not converting to a religion. They were trying to stop relapse in people who already knew the thought record.
 
 Buddhist teachers have had opinions about this borrowing. Some are grateful. Some see a technique stripped of ethics. A counseling history can admit the debt without pretending a county-clinic group is a sangha.
 
 ## The boom, and the flattening
 
 By the 2010s "mindfulness" was an app, a corporate retreat, and a word on yogurt. Third-wave therapies rode that boom and were cheapened by it. A clinician who says "just notice that" after three hours of training is not doing DBT or ACT. They are doing a vibe.
+
+The Association for Contextual Behavioral Science grew around ACT the way DBT grew around a research clinic and a Guilford book. Workshops, listservs, a journal: a school becoming a workforce. The historical question is not whether acceptance "works." The question is what a school does when its vocabulary leaves the room where someone is still at risk. Linehan's staffing pattern was one answer. An app is another. They are not the same answer.
 
 There is also a justice critique: acceptance, taught badly, can sound like "tolerate your oppression." Linehan's and Hayes's better students treat acceptance as a way to *move*, not as a muzzle. The critique still has to be answered in rooms where a woman's "value" has been defined by someone else.
 

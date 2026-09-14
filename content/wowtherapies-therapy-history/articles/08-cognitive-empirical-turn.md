@@ -16,6 +16,8 @@ citations:
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
   - "Decker, Hannah S. The Making of DSM-III. 2013."
+  - "Eysenck, H. J. Journal of Consulting Psychology, 1952 (historical gauntlet)."
+  - "Cahalan, Susannah. The Great Pretender. 2019."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
@@ -39,6 +41,10 @@ Randomized studies of psychotherapy existed before Beck. They did not run the cu
 
 Cognitive therapy of depression (Beck, Rush, Shaw, and Emery, 1979) was built to be taught, supervised, and compared. That is a political fact as well as a clinical one. A therapy that can be written as a manual can be granted. A therapy that cannot is, in a managed system, a hobby.
 
+A. John Rush's name on the 1979 manual matters. Pharmacologists and cognitive therapists were already sharing depressed inpatients and arguing about what a "response" looked like. The later STAR*D trial (2000s) is a descendant of that shared graph, not of a conversion story in which pills defeated talk or talk defeated pills. History's useful sentence is smaller: the object of treatment became something you could score on a Tuesday.
+
+In the 1990s the Society of Clinical Psychology (APA Division 12) published lists of "empirically supported treatments." Dianne Chambless and colleagues wrote the rules. The lists were a reform against unfalsifiable guild talk. They were also a new guild. A therapy that had not yet run the right trial in the right journal looked, on a slide, like a superstition. Rural, bilingual, and community work arrived late to those slides or not at all.
+
 ## What the turn clarified
 
 Thoughts are not only foam on a drive. They can be sampled. They can be wrong in patterned ways. A person can be invited, without a lecture on the unconscious, to treat a belief as a hypothesis. For a great many people with unipolar depression and with panic, that invitation was a better hour than an ambiguous silence.
@@ -58,6 +64,8 @@ There is also the marketing hangover. "Evidence-based" became a brand. A trial i
 This series is not a history of diagnosis. But the empirical turn in therapy is unintelligible without DSM-III and its children. A counselor who writes "major depressive disorder" on a form is speaking 1980. A counselor who thinks the form *is* the person has mistaken a billing language for a soul.
 
 ICD-11 now sits beside DSM-5-TR as another official dialect. The point for a history reader is not which code is truer. It is that psychotherapy agreed, in a specific decade, to be judged by the same kind of object a pill is judged by. That agreement won money and lost mystery. Both results are real.
+
+Rosenhan's 1973 *Science* paper — pseudopatients, the words "on being sane in insane places" — was used for a generation as proof that diagnosis was a costume. Susannah Cahalan's later archival work (*The Great Pretender*, 2019) made the study a less stable parable. This pack will not use Rosenhan as a clean stick with which to beat DSM-III. It will say: the 1970s wanted a scandal about labels, and the 1980s answered with more labels, written as lists.
 
 ## How to read this on a practice site
 
