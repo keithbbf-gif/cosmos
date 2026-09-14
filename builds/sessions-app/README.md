@@ -58,7 +58,9 @@ The desktop wrap lives in `src-tauri/`. Static assets are copied unchanged from
 loopback (`127.0.0.1:8785`) so `app.js` keeps its same-origin `/api/*` fetches.
 The backend runs as a Tauri **sidecar** (`sessions_app.py serve --host 127.0.0.1`).
 
-Build (from `builds/sessions-app/`):
+Build (from `builds/sessions-app/`). Needs **Rust 1.85+** (lockfile MSRV;
+`Cargo.toml` pins `rust-version = "1.85.0"`) plus the Tauri Linux GTK/WebKit
+dev packages when compiling on Linux:
 
 ```bash
 npm install

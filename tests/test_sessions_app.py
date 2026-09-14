@@ -454,6 +454,7 @@ def t_tauri_config_and_sidecar_wiring():
     dist = conf["build"]["frontendDist"]
     ext = conf["bundle"]["externalBin"]
     rust = (tauri / "src" / "lib.rs").read_text(encoding="utf-8")
+    cargo = (tauri / "Cargo.toml").read_text(encoding="utf-8")
     caps = json.loads((tauri / "capabilities" / "default.json").read_text(encoding="utf-8"))
     sidecar_linux = tauri / "binaries" / "sessions-app-sidecar-x86_64-unknown-linux-gnu"
     sidecar_win = tauri / "binaries" / "sessions-app-sidecar-x86_64-pc-windows-msvc.bat"
@@ -480,6 +481,7 @@ def t_tauri_config_and_sidecar_wiring():
             and "tauri_plugin_single_instance" in rust
             and "SESSIONS_APP_ROOT" in rust
             and "invoke(" not in rust
+            and 'rust-version = "1.85.0"' in cargo
             and cap_sidecar
             and res_ok
             and dist == "../dist"
