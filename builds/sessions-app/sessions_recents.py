@@ -81,30 +81,42 @@ def _rows(raw) -> list[dict]:
 def project_list(code: int, body: dict, source: str) -> dict:
     """Core's recents body → the app's list projection."""
     if body.get("error"):
+        kind = str(body["error"])
         return {
             "schema": LIST_SCHEMA, "product": PRODUCT, "source": source,
-            "http": code, "available": False,
-            "kind": str(body["error"]), "tree_id": body.get("tree_id"),
-            "n_shown": None, "omission": _omission(None), "rows": [],
+            "http": code, "available": False, "ok": False,
+            "kind": kind, "tree_id": body.get("tree_id"),
+            "n_shown": None, "n_omitted_legal": None,
+            "omission": _omission(None), "rows": [],
             "upstream_schema": body.get("schema"),
+            "served_at": body.get("served_at"),
             "detail": str(body.get("detail") or "")[:400] or None,
         }
     available = bool(body.get("available"))
     rows = _rows(body.get("rows")) if available else []
     counted = _int_or_none(body.get("n_omitted_legal"))
+    kind = str(body.get("kind") or ("OK" if available else "UNMEASURED"))
+    upstream_n = _int_or_none(body.get("n_shown"))
+    if available:
+        n_shown = upstream_n if upstream_n is not None else len(rows)
+    else:
+        n_shown = None
     return {
         "schema": LIST_SCHEMA,
         "product": PRODUCT,
         "source": source,
         "http": code,
         "available": available,
-        "kind": str(body.get("kind") or ("OK" if available else "UNMEASURED")),
+        "ok": body.get("ok") if "ok" in body else available,
+        "kind": kind,
         "tree_id": body.get("tree_id"),
         # an unavailable feed has no measured count - null, not 0
-        "n_shown": len(rows) if available else None,
+        "n_shown": n_shown,
+        "n_omitted_legal": counted,
         "omission": _omission(counted),
         "rows": rows,
         "upstream_schema": body.get("schema"),
+        "served_at": body.get("served_at"),
         "detail": str(body.get("detail") or "")[:400] or None,
     }
 
@@ -115,6 +127,9 @@ def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
     kind = str(body.get("kind") or body.get("error") or "UNMEASURED")
     text = body.get("text")
     omitted = kind == "LEGAL_OMITTED"
+    legal_count = _int_or_none(body.get("n_omitted_legal"))
+    if omitted and legal_count is None:
+        legal_count = 1
     return {
         "schema": OPEN_SCHEMA,
         "product": PRODUCT,
@@ -128,6 +143,7 @@ def project_open(code: int, body: dict, rec_id: str, source: str) -> dict:
         "text": text if isinstance(text, str) else None,
         "text_len": len(text) if isinstance(text, str) else None,
         "openwork": body.get("openwork"),
-        "omission": _omission(1 if omitted else None) if omitted else None,
+        "omission": _omission(legal_count) if omitted else None,
+        "served_at": body.get("served_at"),
         "detail": str(body.get("detail") or "")[:400] or None,
     }

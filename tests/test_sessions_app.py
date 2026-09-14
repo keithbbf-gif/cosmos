@@ -76,10 +76,12 @@ class StubCore:
     """Answers /api/v1/recents the way the resident Core does. The app is a
     client of that route; the suite must not need a live Core to prove it."""
 
-    def __init__(self, body=None, open_body=None, status=200):
+    def __init__(self, body=None, open_body=None, status=200, host="127.0.0.1"):
         self.body = RECENTS_BODY if body is None else body
         self.open_body = open_body
         self.status = status
+        self.host = host
+        self.seen_auth: list[str | None] = []
         outer = self
 
         def opened(rec_id):
@@ -107,6 +109,7 @@ class StubCore:
                 pass
 
             def do_GET(self):  # noqa: N802
+                outer.seen_auth.append(self.headers.get("Authorization"))
                 parsed = urlparse(self.path)
                 if parsed.path != "/api/v1/recents":
                     payload, code = {"error": "NOT_FOUND"}, 404
@@ -122,9 +125,9 @@ class StubCore:
                 self.end_headers()
                 self.wfile.write(raw)
 
-        self.httpd = ThreadingHTTPServer(("127.0.0.1", 0), H)
+        self.httpd = ThreadingHTTPServer((host, 0), H)
         self.port = self.httpd.server_address[1]
-        self.base = f"http://127.0.0.1:{self.port}"
+        self.base = f"http://{host}:{self.port}"
         threading.Thread(target=self.httpd.serve_forever, daemon=True).start()
 
     def shutdown(self):
@@ -221,11 +224,85 @@ def t_core_down_is_unreachable_not_empty():
 
 
 def t_core_401_is_refused():
-    stub = StubCore(body={"error": "UNAUTHORIZED"}, status=401)
+    stub = StubCore(body={"error": "UNAUTHORIZED", "detail": "bearer required"},
+                    status=401)
     try:
         return refuses("CORE_REFUSED", lambda: core.recents(stub.base))
     finally:
         stub.shutdown()
+
+
+def t_non_loopback_without_token_is_no_token():
+    return refuses(
+        "NO_TOKEN",
+        lambda: core.recents("http://192.168.1.50:8770", token=None))
+
+
+def t_non_loopback_sends_bearer_when_configured():
+    stub = StubCore()
+    try:
+        core.recents(stub.base, token="tok-measure")
+        return stub.seen_auth == ["Bearer tok-measure"]
+    finally:
+        stub.shutdown()
+
+
+def t_loopback_core_needs_no_bearer():
+    stub = StubCore()
+    try:
+        core.recents(stub.base)
+        return stub.seen_auth == [None]
+    finally:
+        stub.shutdown()
+
+
+def t_empty_core_body_is_unparseable():
+    class EmptyBodyHandler(BaseHTTPRequestHandler):
+        def log_message(self, *a):  # noqa: A003
+            pass
+
+        def do_GET(self):  # noqa: N802
+            self.send_response(200)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), EmptyBodyHandler)
+    port = httpd.server_address[1]
+    threading.Thread(target=httpd.serve_forever, daemon=True).start()
+    try:
+        return refuses("CORE_UNPARSEABLE",
+                       lambda: core.recents(f"http://127.0.0.1:{port}"))
+    finally:
+        httpd.shutdown()
+        httpd.server_close()
+
+
+def t_core_503_error_body_projects_null_count():
+    stub = StubCore(body={"error": "CDECK_PANEL_NOT_COMPOSED", "detail": "no binder"},
+                    status=503)
+    try:
+        code, body = core.recents(stub.base)
+        rec = recents.project_list(code, body, stub.base + "/api/v1/recents")
+        return (code == 503 and rec["available"] is False and rec["n_shown"] is None
+                and rec["kind"] == "CDECK_PANEL_NOT_COMPOSED" and rec["ok"] is False)
+    finally:
+        stub.shutdown()
+
+
+def t_list_maps_cdeck_recents_fields():
+    body = dict(RECENTS_BODY)
+    body["n_shown"] = 99  # upstream count preserved when rows are present
+    body["served_at"] = 1.0
+    rec = recents.project_list(200, body, "stub")
+    return (rec["ok"] is True and rec["n_omitted_legal"] == 1
+            and rec["n_shown"] == 99 and rec["served_at"] == 1.0
+            and rec["upstream_schema"] == "cdeck-recents/1")
+
+
+def t_open_passes_core_not_found_kind():
+    rec = recents.project_open(200, {
+        "ok": False, "kind": "NOT_FOUND", "detail": "gone"}, "cow-nope", "stub")
+    return rec["ok"] is False and rec["kind"] == "NOT_FOUND" and rec["text"] is None
 
 
 def t_token_absent_is_none_not_a_crash():
@@ -473,6 +550,13 @@ CHECKS = (
     ("Core error body keeps null count", t_core_error_body_keeps_null_count),
     ("Core down is CORE_UNREACHABLE", t_core_down_is_unreachable_not_empty),
     ("Core 401 is CORE_REFUSED", t_core_401_is_refused),
+    ("non-loopback without token is NO_TOKEN", t_non_loopback_without_token_is_no_token),
+    ("configured bearer is sent Authorization", t_non_loopback_sends_bearer_when_configured),
+    ("loopback Core needs no bearer", t_loopback_core_needs_no_bearer),
+    ("empty Core body is CORE_UNPARSEABLE", t_empty_core_body_is_unparseable),
+    ("Core 503 error body projects null count", t_core_503_error_body_projects_null_count),
+    ("list maps cdeck-recents/1 fields", t_list_maps_cdeck_recents_fields),
+    ("open passes Core NOT_FOUND kind", t_open_passes_core_not_found_kind),
     ("absent token is None", t_token_absent_is_none_not_a_crash),
     ("registry names all 8 verbs, 1 bound", t_registry_names_the_whole_set),
     ("DECLARED verbs refuse", t_declared_verbs_refuse),
