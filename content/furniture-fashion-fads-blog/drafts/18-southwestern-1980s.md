@@ -2,10 +2,10 @@
 title: Howling Coyote, Bleached Pine, and the Mall Desert
 slug: southwestern-1980s
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Santa Fe sold a suburb a desert it did not live in — and left a pastel pine armoire at the Habitat store.
-word_count: 1701
+word_count: 1656
 ---
 
 The coyote is howling on a kitchen wall in Ohio. He is black, cut from sheet metal or printed on a plaque, head tipped back, a little bandanna implied if not painted. Under him: a bleached-pine dinette, terracotta tile glued to a tabletop that is not stone, and a runner with a stepped diamond that wants you to think of a chief’s blanket. The house has vinyl siding. There is no mesa. This is the 1980s Southwestern boom as it actually arrived — not in Santa Fe, but in a subdivision that had never seen a viga until a decorator ordered one in foam and whitewash.

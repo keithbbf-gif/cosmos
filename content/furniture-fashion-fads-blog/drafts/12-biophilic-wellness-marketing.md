@@ -2,10 +2,10 @@
 title: Biophilic Wellness Marketing
 slug: biophilic-wellness-marketing
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: A wood grain does not need a wellness label; a printed leaf on laminate does, which is how you know which one is the product.
-word_count: 1503
+word_count: 1461
 ---
 
 The cane is real on the cabinet door and fake on the side panel, and both are being sold as the same idea: you will feel better because a plant once grew. The showroom card says biophilic. The photograph behind the cabinet is a living wall of pothos, lit as if it were a spa. You are looking at a sideboard. The sideboard cannot love you back.

@@ -2,10 +2,10 @@
 title: How a Room Gets a Year Attached to It
 slug: how-a-room-gets-a-year
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Taste in furniture is a clock. Status is what you hope the clock says about you. The hangover is the object that still works after the clock has moved.
-word_count: 1557
+word_count: 1505
 ---
 
 The dining chairs do not match the table, and that is the first honest thing in the house. The table is oak, heavy, a little thirsty on top where someone once used it as a desk. The chairs are metal, black, the kind a catalog called “industrial” in 2014 and a thrift store now calls “chairs.” Between them sits a decade. You can feel it in the way guests pick a seat: they trust the table and they test the chairs. Furniture fashion is that interval — the time between a purchase that was trying to say something and a leftover that only has to hold a body.

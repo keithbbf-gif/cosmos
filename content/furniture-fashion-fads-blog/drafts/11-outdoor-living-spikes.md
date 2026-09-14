@@ -2,10 +2,10 @@
 title: Outdoor Living Spikes
 slug: outdoor-living-spikes
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Every warm decade discovers the patio; the leftover resin stack is how you know the decade ended.
-word_count: 1493
+word_count: 1459
 ---
 
 The chair is iron painted white, the back a morning-glory scroll, and it is sitting on a department-store floor in Los Angeles in 1945 as if the war had not just ended. Brown Jordan — Robert Brown and Hubert Jordan, Pasadena — showed the Morning Glory collection at Bullock’s Wilshire that year. Iron, romantic, a little movie-set. Three years later the same company put Leisure on the floor: aluminum frames, vinyl lace, a lighter idea of sitting outside. The company would keep doing this, collection after collection. Tamiami, by Hall Bradley, came in fashion colors, as if a patio chair were a dress. Outdoor furniture is always a dress. That is why it spikes.

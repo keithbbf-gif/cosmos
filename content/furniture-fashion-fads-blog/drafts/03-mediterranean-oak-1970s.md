@@ -2,10 +2,10 @@
 title: Mediterranean Oak, High Point Spanish
 slug: mediterranean-oak-1970s
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Thomasville carved a Spain that never left North Carolina, and a generation ate dinner under it.
-word_count: 1665
+word_count: 1630
 ---
 
 The gentleman’s chest is too wide for the hallway, which is how you know it was never meant to live here. It is oak, or wants to be read as oak: a heavy brown that goes orange when the afternoon hits the raised drawer fronts, brass pulls with a blackened wash in the recesses, a carved arch over the upper doors that looks like a church window drawn from memory. Someone has stacked winter coats on the left side and a sewing machine on the right. The chest was sold as a bedroom, in a suite, with a triple dresser and a headboard that repeated the same arch. It is in a hallway now because the bedroom went gray and this piece would not.
@@ -16,7 +16,7 @@ This was American factory Spanish, and it had a name. Thomasville Furniture, wor
 
 Broyhill and a dozen other Carolina and Virginia names ran adjacent lines in the late 1960s and through the 1970s: Mediterranean, Spanish Colonial, a carved oak that was not a copy of one Spanish room so much as a mood assembled from catalogs. Dark dining rooms. Wrought-iron chandeliers with yellow glass. Doors with panels that wanted to be a hacienda. Red shag, or a rust sculptured carpet, running up to the base of a table that could have hosted a treaty. The adjacency mattered. The furniture did not invent the decade. It sat in a decade that had already decided brown was substance and carving was history.
 
-None of it was Mediterranean vernacular. A farm table from Catalonia or a painted chest from a Greek island does not look like a 1973 bedroom suite from High Point. The American version was a factory’s idea of Spain: arches, turned feet, a stain that made new oak look inherited. Inheritance, in those showrooms, was a finish. You could buy a past on a Saturday and have it delivered before the in-laws came. That is not a crime. It is a retail service. The country had just finished a long run of blonde modern and walnut dingbat, and it wanted weight.
+None of it was Mediterranean vernacular. A farm table from Catalonia or a painted chest from a Greek island does not look like a 1973 bedroom suite from High Point. The American version was a factory’s idea of Spain: arches, turned feet, a stain that made new oak look inherited. Inheritance, in those showrooms, was a finish. You could buy a past on a Saturday and have it delivered before the in-laws came. That is not a crime. It is a retail service. The country had just finished a long run of blonde modern and walnut Danish, and it wanted weight.
 
 Status, then, was Old World without a passport. A Segovia bedroom said you had arrived at a kind of adulthood that mid-century had not offered: dark, carved, complete. The gentleman’s chest — a tall case with doors over drawers, sold as the man’s piece in a matched pair — was the boast inside the suite. It held suits, or it was supposed to. A lot of them held Christmas wrap and a bowling bag. The triple dresser held the rest of a marriage’s hardware: jewelry trays, a church bulletin, a comb. Formal dining under the same stain said the same sentence in a louder room. You were not the family with the kidney coffee table anymore. You were the family with a sideboard.
 

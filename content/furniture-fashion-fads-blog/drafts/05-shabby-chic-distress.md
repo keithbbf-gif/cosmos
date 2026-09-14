@@ -2,10 +2,10 @@
 title: Chippy Paint, Washable White, and the Factory Vintage
 slug: shabby-chic-distress
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Rachel Ashwell sold ease you could wash. The hangover is a gray-white suite beaten in a plant to look inherited.
-word_count: 1553
+word_count: 1510
 ---
 
 The sofa is white and it has been washed, which is the only reason it is still in the room. The slipcover comes off in pieces you learn by doing, not by a diagram. Under it: a body that has taken children and a dog and a decade of Sunday papers. Beside it, a side table with paint so thin the wood shows through in a pattern that is not a pattern — real wear, from real years, before anyone called it a look. A chandelier with missing crystals hangs a little crooked. Roses on a pillow that has faded to the color of a receipt. This is the room Rachel Ashwell was aiming at, or close to it: English flea-market childhood, California light, a house that looked as if it had always been slightly undone on purpose.
@@ -14,7 +14,7 @@ The sofa is white and it has been washed, which is the only reason it is still i
 
 Rachel Ashwell opened a Shabby Chic store in Santa Monica in 1989. That is the company’s date. The Los Angeles *Times*, on October 19, 1996, said she rented in Malibu in 1988 and opened a shop within a year. Both can be true in the way retail lives are true: a rental, then a sign. The book *Shabby Chic* came from Harper in 1996 and taught a country that had not been to the shop how to talk: slipcovers, chippy paint, roses, washable white sofas, chandeliers that had already lived. Ashwell’s childhood, as she has told it, was English flea markets — objects with a prior, bought cheap, used hard. The store sold that prior as a present tense.
 
-The look was not “distressed” as a verb the factory did to a new suite. It was a pile of things that had already been used, then covered in a cloth you could clean. That distinction is the whole essay. A washed white sofa is a practical luxury. A new dresser beaten with chains in a plant to impersonate a washed life is a SKU. Both got called shabby chic after a while. Only one of them had been a shopkeeper’s habit.
+The look was not “distressed” as a verb the factory did to a new suite. It was a pile of things that had already been used, then covered in a cloth you could clean. That distinction is the hinge. A washed white sofa is a practical luxury. A new dresser beaten with chains in a plant to impersonate a washed life is a SKU. Both got called shabby chic after a while. Only one of them had been a shopkeeper’s habit.
 
 The book made the habit portable. Harper’s 1996 volume is a how-to that does not apologize for chipped paint or a sofa that looks slept on. It also, by existing, gave factories a mood board. Once a look has page numbers, a plant can hit those page numbers. Slipcovers went from a California shop practice to a department-store SKU: white, cream, a faded rose, a denim that was trying to be English without the rain. Chandeliers followed, many of them new, already missing nothing, the “rescue” applied as a dark wax. The shop had sold objects with a prior. The floor sold the prior as a finish.
 

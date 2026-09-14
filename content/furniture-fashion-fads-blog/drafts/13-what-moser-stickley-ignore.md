@@ -2,10 +2,10 @@
 title: What Moser and Stickley Ignore
 slug: what-moser-stickley-ignore
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Color-of-the-year, distress as costume, barn-door jewelry, the logo on the apron — joinery that does not need a year simply does not look up.
-word_count: 1473
+word_count: 1424
 ---
 
 The arm is one piece of wood that runs from the front post, around your back, and down the other side without a break you can feel. Thos. Moser’s Continuous Arm Chair, designed in 1977, is that line. Tom and Mary Moser had founded the shop in 1972 in a grange in New Gloucester, Maine. The chair is still the piece people can name. The shop moved to Auburn in 1987. Company timeline says they have hand-signed pieces since 1977 [CITE NEEDED against the firm’s own chronology if you want a signature in the wild]. You pick the chair up by the arm and the arm is the structure, not a decoration applied to a structure.
@@ -36,6 +36,6 @@ Bradley Brand Furniture, in Warren, Arkansas, is not Moser and is not Stickley, 
 
 *Photo cue: FFF-13d — underside of a chair, maker’s signature or shop stamp, no face-forward branding; Moser or Stickley, documented.*
 
-Stand a Continuous Arm next to a 2016 color-of-the-year side chair from a mall brand. The mall chair will tell you the year even if you sand it. The pigment was the idea. Stand a Stickley settle next to a distressed dining set whose wear was applied with a chain in a factory. The settle’s dents, if it has them, will be in the places a body goes. The factory’s dents will be in the places a camera goes. That is the whole essay, and it is not a moral. It is a map of where the tool hit.
+Stand a Continuous Arm next to a 2016 color-of-the-year side chair from a mall brand. The mall chair will tell you the year even if you sand it. The pigment was the idea. Stand a Stickley settle next to a distressed dining set whose wear was applied with a chain in a factory. The settle’s dents, if it has them, will be in the places a body goes. The factory’s dents will be in the places a camera goes. That is not a moral. It is a map of where the tool hit.
 
 What they ignore, they ignore because looking up would cost them the chair. A year is a short customer. A joint is a long one. Gustav lost the factory anyway. The Mosers built a company that still answers the phone in Maine. L. & J.G.’s successors still build in Manlius. Continuity is not a halo. It is a shop that kept a jig. The jig does not know what Pantone named this year. Good. The year will name itself something else, and the arm will still be one piece.

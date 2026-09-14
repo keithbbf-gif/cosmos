@@ -2,10 +2,10 @@
 title: The Board That Was a Photograph
 slug: particleboard-vs-solid
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Himmelheber made a useful board from waste. The hangover is a dresser that cannot be moved twice and a grain that is paper.
-word_count: 1515
+word_count: 1472
 ---
 
 The dresser lists to the left because the corner has gone soft. You can see the substrate where the paper tore: a pale crumb, not quite wood, not quite anything you would name at a lumberyard. A cam lock spins in its hole and does not catch. The piece has moved house once. The second move is the one it will not survive, and everyone in the room already knows it. On the other wall, an older chest — oak, heavy, a drawer that sticks in August — waits as if it had been waiting since a different administration. Two storage technologies. One of them was designed to be furniture for a while. The other was designed to be furniture.

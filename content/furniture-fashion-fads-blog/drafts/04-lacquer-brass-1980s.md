@@ -2,10 +2,10 @@
 title: Lacquer, Brass, and the Other Eighties
 slug: lacquer-brass-1980s
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Memphis lasted eight years in Milan. The mall brass-and-glass table lasted a generation in the den.
-word_count: 1611
+word_count: 1575
 ---
 
 The cocktail table is a rectangle of smoked glass on a brass X, and it still has a ring from a plant that was never emptied. Under the glass: a remote, a TV Guide from a year the magazine still existed, a book of matches from a restaurant that is now a parking lot. The dining room beyond it is black lacquer, or a black that wants to be lacquer — high shine, brass ferrules on the chair legs, a sideboard that reflects the chandelier as a smear. This is not Memphis. This is the American 1980s as a furniture floor sold them: power, gloss, metal that caught a downlight. Memphis was the argument in Milan. This table is what the argument looked like after it went through a catalog.

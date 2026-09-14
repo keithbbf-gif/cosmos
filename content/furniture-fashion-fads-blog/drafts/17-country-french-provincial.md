@@ -2,10 +2,10 @@
 title: The Wheat-Sheaf Chair Was a Ticket Out of Oak
 slug: country-french-provincial
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: American provincial was a vacation from Mediterranean oak — and a gold-leaf hangover on MDF.
-word_count: 1816
+word_count: 1778
 ---
 
 The chair in the corner has a wheat sheaf carved into the crest rail, the ears of grain fanned like a badge, and a rush seat that has gone the color of old straw. Someone sat here for decades. The rush has a hip-shaped dish in it. The cherry — or the stain that wanted to be cherry — has a wear stripe on the front stretcher where a shoe scuffed every supper. This is the object that survived the American Country French binge, and it is not the gold-leaf console that came in the same catalog spread.
@@ -22,7 +22,7 @@ Ethan Allen’s French collections — Country French, French Country, the names
 
 Toile de Jouy did the wall and the pillow. Pastoral scenes in a single color on cream: shepherds, ruins, a river that never muddies. Brunschwig & Fils and the old document houses had sold the real stuff for years. The 1980s suburban version arrived as a border, a duvet, a wallpaper sample book at the paint store. Pair it with a ladder-back chair and you had “French” without speaking any. Laura Ashley’s English cottage and Pierre Deux’s Provence sat on the same American sofa more often than either firm would have liked. The customer was not choosing a nation. She was choosing not-oak.
 
-Status was the point, and it was a soft status. Mediterranean oak had been a dinner-party flex: I have a dining room, it is dark, it is complete. Country French said something more flattering. I have been to the countryside. I know about rush. I own a sheaf of wheat in wood. It was leisure coded as simplicity, which is the oldest rich trick in the furniture book. A real Provençal farmhouse chair is simple because a farmer sat on it. An American provincial suite is simple because the catalog said * Informal elegance * in a serif font. The wheat sheaf is agricultural heraldry for people whose wheat arrives as bread.
+Status was the point, and it was a soft status. Mediterranean oak had been a dinner-party flex: I have a dining room, it is dark, it is complete. Country French said something more flattering. I have been to the countryside. I know about rush. I own a sheaf of wheat in wood. It was leisure coded as simplicity, which is the oldest rich trick in the furniture book. A real Provençal farmhouse chair is simple because a farmer sat on it. An American provincial suite is simple because the catalog said *Informal elegance* in a serif font. The wheat sheaf is agricultural heraldry for people whose wheat arrives as bread.
 
 Walk a 1992 model home in a Sun Belt subdivision and you can still smell it. Cherry stain on poplar or worse. Gold-leaf highlights on a carved apron that was pressed, not cut. A mirror with a “Provençal” pediment and a factory gilt that flakes if you look at it. The table has a parquet top printed on a veneer so thin a hot casserole leaves a ghost. Under the distressed cherry, if you nick it, you find a core that is not cherry. Sometimes it is not even wood in the old sense.
 

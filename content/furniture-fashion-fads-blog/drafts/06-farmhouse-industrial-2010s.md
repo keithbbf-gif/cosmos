@@ -2,10 +2,10 @@
 title: Shiplap, Barn Doors, and the Subdivision Farm
 slug: farmhouse-industrial-2010s
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Fixer Upper taught a country to paint the wood white and hang a barn door on a closet that had never seen a barn.
-word_count: 1572
+word_count: 1527
 ---
 
 The sliding door is off the track. It is pine, or a pine veneer, black strap hardware, a handle that is a handle the way jewelry is a handle — meant to be seen, not particularly meant to be used twice a day by a person in a hurry. Behind it: a water heater, or a pantry, or a pair of coats. The house is a 2016 spec build in a county that grows more garages than hay. The walls in the living room are shiplap, painted white, running past a television the size of a small door. A Mason jar holds spoons. Another holds flowers that came from the supermarket in a rubber band. This is modern farmhouse as it arrived in the rooms that had never had a farm: a hardware store of signs, a softness of white, a black line of iron to keep the white from floating away.

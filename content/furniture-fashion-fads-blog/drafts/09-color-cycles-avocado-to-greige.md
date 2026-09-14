@@ -2,10 +2,10 @@
 title: Color Cycles — Avocado to Greige
 slug: color-cycles-avocado-to-greige
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Paint is cheap fashion; a sofa dyed to match the paint year is expensive fashion that dies on the same clock.
-word_count: 1822
+word_count: 1781
 ---
 
 The refrigerator is avocado and the range is harvest gold, and they were sold as a pair. The laminate on the counters tries to split the difference and fails. Someone has left a teak cutting board on that laminate, and the teak is the only object in the room that does not look like a year. You can date the kitchen to a band of years in the 1970s without opening a cabinet. The wood does not help you. The appliances do.

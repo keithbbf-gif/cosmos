@@ -2,10 +2,10 @@
 title: Catalog, Showroom, Feed
 slug: catalog-showroom-feed
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: The picture teaches desire before the body meets the chair; High Point makes the pictures in bulk.
-word_count: 1523
+word_count: 1489
 ---
 
 The child is lying on the living-room carpet with the Sears Wish Book open to a room that does not exist in the house. A sofa, a lamp, a tree in a tub, a father-shaped blur in a cardigan. The room is a set. The set is for sale in pieces. You could, if the adult cooperated, reconstruct a corner of it. You will remember the corner longer than you remember the chair. That is the catalog’s job: to get the want in before the sit.

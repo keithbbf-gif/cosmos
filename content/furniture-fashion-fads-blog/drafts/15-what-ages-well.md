@@ -2,10 +2,10 @@
 title: What Ages Well
 slug: what-ages-well
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Solid wood, an honest finish, a joint you can get back into — versus a printed grain, a one-year color, and a sofa no one will re-cover.
-word_count: 1483
+word_count: 1439
 ---
 
 The table is oak, the top a little proud at one end where a leaf used to live, the finish worn to a pale path between the two chairs that were always used. Someone has put a mason jar of spoons on it. The kitchen around it has been painted four times since 1978. The table has been wiped. That is the whole inheritance. You do not have to love 1970s oak to keep the table. You have to recognize that the top is a board, the boards are joined, and the finish is a film you can cut through without cutting through the idea.

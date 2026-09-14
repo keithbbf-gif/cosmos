@@ -2,10 +2,10 @@
 title: Hollywood Regency
 slug: hollywood-regency
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: Studio glamour had weight and lacquer; the boutique-hotel copy often has resin and a palm that came in a roll.
-word_count: 1557
+word_count: 1521
 ---
 
 The chest is black lacquer, high enough to throw a lamp, the doors a pair of Greek-key panels that catch the light like water. Someone has put a porcelain dog on it. The dog is a little much. The chest can take the dog. That is Hollywood Regency when it is working: a surface that will accept a joke because the surface was built. When it is not working, the same idea is a resin box with a foil key pattern and a palm-print pillow, and the dog looks like the only honest object in the room.

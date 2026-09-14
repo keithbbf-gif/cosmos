@@ -2,10 +2,10 @@
 title: The Sectional as Fad Architecture
 slug: sectional-as-fad-architecture
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: A pit that was a room, then a cliché, then a cloud that ate the floor plan.
-word_count: 1625
+word_count: 1589
 ---
 
 The floor drops. Not a step you notice from the hallway — a square cut out of the living room, maybe fifteen feet on a side, lined in fabric, with a table in the middle that has nowhere to go except down. You sit, and the rest of the house rises around your shoulders. Conversation happens at the level of knees if someone remains standing. That is the Miller House pit in Columbus, Indiana, finished in 1957: Eero Saarinen on the house, Alexander Girard on the interiors, Dan Kiley on the grounds. The pit is Girard’s. The house now belongs to Newfields, the Indianapolis Museum of Art, and you tour it on their terms.
@@ -26,7 +26,7 @@ Restoration Hardware — later RH — launched the Cloud sofa in 2015, a Timothy
 
 Status moved with the construction type. The Miller pit said: we commissioned this. The 1970s sunken room said: the builder included this, and we are current. The Rooms To Go leather pit said: we can seat the playoffs. The Cloud said: we have the same sofa as the people in the magazine, and we have the square footage to let it sprawl. None of those sentences is about lumbar support. A sectional is almost never about sitting well. It is about occupying. It is architecture you finance.
 
-Modular systems tried, at intervals, to be the intelligent version. Harvey Probber’s mid-century modulars, the Italian systems of the 1970s, the grid sofas that could be a bed or a corner — they assumed a owner who would reconfigure. Most owners do not reconfigure. They buy the floor-plan drawing the salesperson sketched on a tablet, then they live inside that drawing until they move. The fad is not the module. The fad is the belief that the module is a plan for the rest of your life.
+Modular systems tried, at intervals, to be the intelligent version. Harvey Probber’s mid-century modulars, the Italian systems of the 1970s, the grid sofas that could be a bed or a corner — they assumed an owner who would reconfigure. Most owners do not reconfigure. They buy the floor-plan drawing the salesperson sketched on a tablet, then they live inside that drawing until they move. The fad is not the module. The fad is the belief that the module is a plan for the rest of your life.
 
 *Photo cue: FFF-10c — RH Cloud or Cloud-type modular in a pale room, modules filling the floor to the window wall; 2010s–2020s shelter photograph, rights dependent.*
 

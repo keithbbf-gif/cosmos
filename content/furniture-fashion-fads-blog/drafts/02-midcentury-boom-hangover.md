@@ -2,10 +2,10 @@
 title: Mid-Century Boom and Hangover
 slug: midcentury-boom-hangover
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: The Eames lounge was a 1956 argument about how to sit. The $79 knockoff is an argument about how to photograph a sit.
-word_count: 1590
+word_count: 1549
 ---
 
 The rosewood is almost certainly not rosewood. You can tell from the door, before you sit, because the grain repeats every eighteen inches the way a printed ribbon repeats. The leather is a leather-like. The ottoman is a cube of foam with button tufts that were glued, not pulled. The listing says “Eames style,” which is the most American phrase in furniture: a name that once meant a factory in Michigan and a pair of designers in California, now a silhouette you can order by Friday.

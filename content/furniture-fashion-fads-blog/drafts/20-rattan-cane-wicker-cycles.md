@@ -2,13 +2,13 @@
 title: Cane Comes Back. Plastic Cane Does Not Age.
 slug: rattan-cane-wicker-cycles
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: From Wakefield porches to a 2021 cane-bed feed — the weave that can be recaned lasts; the print of a weave does not.
-word_count: 1521
+word_count: 1476
 ---
 
-The seat is a grid of cane, seven-by-seven or thereabouts, the glossy outer skin of rattan pulled through holes in a hardwood rail. One strand has snapped. The break is clean. You can see the hollow where the cane left the hole. This is a chair that can be recaned. It is also, depending on the year you bought it, a Victorian porch leftover, a 1970s peacock throne, an 1980s sunroom leftover, or a 2021 Instagram bed frame with a cane headboard from West Elm. The material keeps returning. The quality does not.
+The seat is a grid of cane, seven-by-seven or thereabouts, the glossy outer skin of rattan pulled through holes in a hardwood rail. One strand has snapped. The break is clean. You can see the hollow where the cane left the hole. This is a chair that can be recaned. It is also, depending on the year you bought it, a Victorian porch leftover, a 1970s peacock throne, a 1980s sunroom leftover, or a 2021 Instagram bed frame with a cane headboard from West Elm. The material keeps returning. The quality does not.
 
 *Photo cue: FFF-20a — Close on a hardwood chair seat with real cane, one broken strand, holes in the rail. Hands or tools optional.*
 
@@ -20,7 +20,7 @@ The peacock chair is the 1960s–70s object everyone thinks they remember sittin
 
 *Photo cue: FFF-20b — A peacock chair in a 1960s–70s studio or domestic interior. No invented celebrity caption; period room or anonymous portrait only.*
 
-The 1980s put rattan in the sunroom as a set. Loveseat, two chairs, a glass-topped coffee table with a rattan base, maybe a baker’s rack. Pale cushions with a chintz or a tropical leaf. The sunroom was a suburban invention that needed furniture which said *outdoor* while staying in. Rattan did that work. It also did the work of dating the room the minute the cushions faded. Those sets still turn up complete, which is a curse. Complete means matching, and matching rattan from 1986 looks like 1986. A single good chair from the set can be recushioned and live. The four-piece conversation group cannot, not without irony, and irony is a thin seat.
+The 1980s put rattan in the sunroom as a set. Loveseat, two chairs, a glass-topped coffee table with a rattan base, maybe a baker’s rack. Pale cushions with a chintz or a tropical leaf. The sunroom was a suburban invention that needed furniture that said *outdoor* while staying in. Rattan did that work. It also did the work of dating the room the minute the cushions faded. Those sets still turn up complete, which is a curse. Complete means matching, and matching rattan from 1986 looks like 1986. A single good chair from the set can be recushioned and live. The four-piece conversation group cannot, not without irony, and irony is a thin seat.
 
 Then the feed returned the weave. Around 2020–2021, cane became a bedroom and a dining chair again: Urban Outfitters, CB2, West Elm, the cane bed, the cane-front credenza, the Breuer-adjacent chair that was not a Marcel Breuer but wanted the same grid. Instagram liked the light through the hexagons. A cane headboard photographs as texture without asking for a color commitment. Design blogs called it a revival; shops called it a collection. Some of those pieces used real cane on a hardwood or engineered frame. Some used a plastic sheet printed or molded to look like cane, stapled into a rebate, interchangeable with a speaker grille. The photograph cannot always tell. Your fingernail can.
 

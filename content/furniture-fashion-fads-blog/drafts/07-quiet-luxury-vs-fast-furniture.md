@@ -2,10 +2,10 @@
 title: Quiet Oak, Loud Cart
 slug: quiet-luxury-vs-fast-furniture
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: One room refuses a logo. The other room is a photograph of oak in a box that will not survive a second apartment.
-word_count: 1590
+word_count: 1549
 ---
 
 The table is pale oak and there is nothing on it except a linen runner that looks as if it were ironed once and then allowed to forget. The walls are plaster, or a paint that wants to be plaster. No monogram. No metal word. No clock that says the brand of the clock. A sofa in a cloth that photographs as oatmeal. The listing, if this were a listing, would say quiet luxury and mean 2023. Two miles away, in a walk-up, a different oak table is coming out of a carton: the grain repeats, the edge is paper, the cams are in a plastic bag. Same word, oak, two objects. One of them is a refusal. One of them is a cart.

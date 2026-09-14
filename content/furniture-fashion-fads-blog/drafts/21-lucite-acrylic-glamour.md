@@ -2,10 +2,10 @@
 title: The Invisible Chair That Photographs Better Than It Lives
 slug: lucite-acrylic-glamour
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: From Hollis Jones’s Hollywood Lucite to the Amazon stool — see-through furniture is a status trick that yellows.
-word_count: 1534
+word_count: 1493
 ---
 
 The chair is almost not there. That is the pitch. Four legs, a seat, a back, all of it clear, all of it catching a lamp in a green-tinged edge that is the only proof the object occupies space. In the listing photograph the room looks larger. In the room the seat is already scratched in a fan where someone sat down with a key in a back pocket. This is acrylic furniture’s promise and its hangover in one object: glamour as disappearance, then a cloud of scuffs that will not disappear.

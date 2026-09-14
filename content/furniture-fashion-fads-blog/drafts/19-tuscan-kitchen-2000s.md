@@ -2,17 +2,17 @@
 title: The Granite Blob and the Wine-Country Kitchen
 slug: tuscan-kitchen-2000s
 status: draft
-voice_check: human
+voice_check: edited
 series: furniture-fashion-fads
 dek: New subdivisions bought an old-world kitchen — faux plaster, grape hardware, a farm table that was a print.
-word_count: 1528
+word_count: 1487
 ---
 
 The island is a peninsula of granite with an ogee edge thick enough to look edible. Under the overhang, a carved corbel that never held an arch. The cabinets are “cherry,” a printed grain that repeats every eighteen inches if you know how to look. On the backsplash, tumbled travertine in a mosaic no farmhouse in Tuscany ordered from a big-box aisle. A grape cluster is cast into the oil-rubbed bronze pull. The year is about 2004. The subdivision is new. The kitchen is old-world, which in those years meant wine-country leisure in a house that still smelled of carpet adhesive.
 
 *Photo cue: FFF-19a — A ~2000–2008 American “Tuscan” kitchen: granite ogee, oil-rubbed bronze grape pull, travertine mosaic, glazed cabinets. New construction if possible.*
 
-Call the window 1998 to 2008 and you will not be far wrong. That is the decade when HGTV matured into a furniture-and-finish authority and *Trading Spaces* (TLC, premiered 2000) taught a generation that a weekend and a themed room could change a life. Tuscan was not the only theme. It was the one that sold the most granite. Faux plaster — or a sponge-and-glaze stand-in — on walls that were still gypsum. Grape motifs on tile murals, on iron pot racks, on the aforementioned pulls. Oil-rubbed bronze as the hardware religion, replacing the chrome and brass of the decade before. Travertine on the floor if the budget held, ceramic printed as travertine if it did not. Cabinets with a glaze in the corners, a “old world” distress that came from the finishing line, not from a century of hands.
+Call the window 1998 to 2008 and you will not be far wrong. That is the decade when HGTV matured into a furniture-and-finish authority and *Trading Spaces* (TLC, premiered 2000) taught a generation that a weekend and a themed room could change a life. Tuscan was not the only theme. It was the one that sold the most granite. Faux plaster — or a sponge-and-glaze stand-in — on walls that were still gypsum. Grape motifs on tile murals, on iron pot racks, on the aforementioned pulls. Oil-rubbed bronze as the hardware religion, replacing the chrome and brass of the decade before. Travertine on the floor if the budget held, ceramic printed as travertine if it did not. Cabinets with a glaze in the corners, an “old-world” distress that came from the finishing line, not from a century of hands.
 
 The look was signaling something precise. Not Italy. Leisure. Specifically the leisure of wine country as Americans had learned it from Napa tourism, from *Under the Tuscan Sun* (the 2003 film, after Frances Mayes’s 1996 memoir), from food television that had already made olive oil a personality. A kitchen that looked as if you pressed your own oil was a kitchen that said you had time, even if you were heating a rotisserie chicken from the supermarket. The granite blob — those islands that grew like a geological event, seating four on one side, a sink on the other, a cooktop in the middle — was a banquet table for people who ate standing up. You were supposed to gather. The gathering was the point. The grapes on the hardware were a toast.
 
@@ -36,6 +36,6 @@ I have cooked in kitchens that were trying to be Chianti and kitchens that were 
 
 New subdivisions from that decade are now old enough to renovate. The first renovation is almost always the kitchen, and the first decision is whether to keep the granite. Keep it if it is a good slab and you can live with the edge. Replace the doors if the print has started to ghost. Do not keep the mural out of loyalty. Loyalty is for a table that can be repaired.
 
-A real farm table from Tuscany, or from a hardwood shop that never claimed Tuscany, will take another generation of elbows. The printed suite will take another listing photograph and then a curb. That is the whole essay, in oak and in film. The 2000s kitchen wanted old-world. It bought a binder. The thing that ages is the surface you can sand. The thing that dates is the grape you cannot unscrew fast enough.
+A real farm table from Tuscany, or from a hardwood shop that never claimed Tuscany, will take another generation of elbows. The printed suite will take another listing photograph and then a curb. Oak for the table; film for the cabinets. The 2000s kitchen wanted old-world. It bought a binder. The thing that ages is the surface you can sand. The thing that dates is the grape you cannot unscrew fast enough.
 
 *Photo cue: FFF-19c — Butcher-block island, knife marks, a resanded patch — in a kitchen that has otherwise shed its grapes.*
