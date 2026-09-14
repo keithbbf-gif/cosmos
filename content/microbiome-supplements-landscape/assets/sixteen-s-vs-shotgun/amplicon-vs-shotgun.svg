@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-labelledby="t d">
+  <title id="t">16S amplicon versus shotgun metagenomics</title>
+  <desc id="d">Schematic contrast: one gene region versus many fragments. Not a product chart.</desc>
+  <rect width="720" height="260" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" fill="#2c2416">What the machine actually saw (schematic)</text>
+  <rect x="24" y="52" width="330" height="180" fill="#e8d9c0" stroke="#5a4a32"/>
+  <rect x="366" y="52" width="330" height="180" fill="#d5e0d6" stroke="#3a4a3c"/>
+  <text x="189" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2c2416">16S amplicon</text>
+  <text x="531" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2c2416">shotgun</text>
+  <text x="189" y="120" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">one ribosomal region</text>
+  <text x="531" y="120" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">many DNA fragments</text>
+  <text x="189" y="150" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">genus, sometimes species</text>
+  <text x="531" y="150" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">genes, strains if deep</text>
+  <text x="189" y="190" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">cheap kit default</text>
+  <text x="531" y="190" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">still not a prescription</text>
+</svg>

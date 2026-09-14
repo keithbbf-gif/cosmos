@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="t d">
+  <title id="t">Three load-bearing words in the ISAPP probiotic definition</title>
+  <desc id="d">Schematic: live, adequate amounts, and a demonstrated host benefit  not a product claim.</desc>
+  <rect width="720" height="280" fill="#f6f1e8"/>
+  <text x="24" y="36" font-family="Georgia, serif" font-size="18" fill="#2c2416">Hill et al., 2014  load-bearing words (schematic)</text>
+  <rect x="24" y="64" width="210" height="180" fill="#e8d9c0" stroke="#5a4a32"/>
+  <rect x="255" y="64" width="210" height="180" fill="#e8d9c0" stroke="#5a4a32"/>
+  <rect x="486" y="64" width="210" height="180" fill="#e8d9c0" stroke="#5a4a32"/>
+  <text x="129" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2c2416">live</text>
+  <text x="360" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2c2416">adequate</text>
+  <text x="591" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#2c2416">benefit</text>
+  <text x="129" y="160" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">viable cells at use</text>
+  <text x="360" y="160" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">dose that was studied</text>
+  <text x="591" y="160" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">named host endpoint</text>
+  <text x="129" y="200" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">not a dead powder</text>
+  <text x="360" y="200" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">not CFU at fill only</text>
+  <text x="591" y="200" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">not gut health</text>
+</svg>

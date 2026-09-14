@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-labelledby="t d">
+  <title id="t">Dietary supplement versus live biotherapeutic product</title>
+  <desc id="d">US category boxes. Educational schematic, not legal advice.</desc>
+  <rect width="720" height="280" fill="#f6f1e8"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="17" fill="#2c2416">US categories (schematic)  intended use decides the box</text>
+  <rect x="24" y="56" width="330" height="196" fill="#e8d9c0" stroke="#5a4a32"/>
+  <rect x="366" y="56" width="330" height="196" fill="#e4d0d0" stroke="#5a3232"/>
+  <text x="189" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2c2416">dietary supplement</text>
+  <text x="531" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2c2416">live biotherapeutic</text>
+  <text x="189" y="128" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">DSHEA food category</text>
+  <text x="531" y="128" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">drug (FDA 2016 LBP guidance)</text>
+  <text x="189" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">no disease intended use</text>
+  <text x="531" y="162" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#3d3426">IND / BLA path</text>
+  <text x="189" y="196" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Part 111, 101.93</text>
+  <text x="531" y="196" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Rebyota, Vowst sit here</text>
+  <text x="189" y="226" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">FDA does not pre-approve SKUs</text>
+  <text x="531" y="226" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">not an aisle analogue</text>
+</svg>
