@@ -88,7 +88,7 @@ Calendars in the lane files run **October 2026 – September 2027**. Dates are p
 ## How to use a lane file
 
 1. Read **Already live** so you do not rewrite a page that exists.
-2. Pick the next row in **This quarter** (or the month table).
+2. Pick the next row in that file’s month table (Oct 2026–Sep 2027).
 3. Draft on the public CMS. Title and slug from the cluster table unless search data says the query is different — then change the table.
 4. Add links using that file’s **Linking** section, then check this INDEX so you did not sneak a cross-lane footer.
 5. When a hub’s cluster list is stale, update the hub *and* the map in the same sitting.
