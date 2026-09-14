@@ -1,7 +1,7 @@
 ---
 title: Style Guide — Dining Chairs, History and Sitting
 status: draft
-voice_check: human
+voice_check: edited
 series: dining-chairs-history-design
 ---
 
@@ -96,7 +96,7 @@ title: string
 slug: kebab-case
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: integer
 word_count: integer   # body copy only, after last self-edit
 dek: one or two sentences, no slogan

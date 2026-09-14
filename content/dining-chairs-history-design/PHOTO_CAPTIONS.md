@@ -1,7 +1,7 @@
 ---
 title: Photo captions — Dining Chairs, History and Sitting
 status: draft
-voice_check: human
+voice_check: edited
 series: dining-chairs-history-design
 ---
 

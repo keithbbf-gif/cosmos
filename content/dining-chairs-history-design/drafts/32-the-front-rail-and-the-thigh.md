@@ -3,7 +3,7 @@ title: "The front rail and the thigh"
 slug: the-front-rail-and-the-thigh
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 32
 word_count: 1496
 dek: "A sharp bar under the hamstring is not a style. It is a rail that was left square, or a seat that is too high, or a cushion that slid you forward onto an arris."

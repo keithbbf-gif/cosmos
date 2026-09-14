@@ -3,9 +3,9 @@ title: "Host and hostess"
 slug: host-and-hostess
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 34
-word_count: 1621
+word_count: 1601
 dek: "Two arms at the ends, a rank leftover from rooms that inscribed a seat. The furniture still asks who carves and who faces the door."
 topic: culture
 era: "long"
@@ -71,8 +71,6 @@ Egypt put a name on a back. A medieval hall put a wainscot at the high table and
 The end chairs are often a little taller, often a little wider, sometimes carved when the sides are plain. None of that requires a throne. It requires a chair you can get out of without walking on a child, and arms that do not fight the apron. The last essay owns the collision. This one owns the plan.
 
 Etiquette books made a diagram of who sits where. John Kasson’s *Rudeness and Civility* is manners, not joinery. If you quote a manual, quote a named one. I will not invent Mrs. Somebody’s rule about the wife’s back to the pantry. Facing the door, in houses that cared who entered, was a real brief. Rising to serve was a real brief. A slightly more lounge-ish back for the person who stays when others clear is a real brief. A carved crest for a photograph is a catalog brief.
-
-In some families the “host” chair is just the one that does not wobble. Honesty has a sense of humor.
 
 ## Clearance at the ends is still clearance
 

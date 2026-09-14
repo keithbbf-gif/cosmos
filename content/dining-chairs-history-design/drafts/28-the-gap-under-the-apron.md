@@ -3,7 +3,7 @@ title: "The gap under the apron"
 slug: the-gap-under-the-apron
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 28
 word_count: 1547
 dek: "Thigh to wood. The history of the dining chair is fashion above the rail and a clearance below it. If the gap is wrong, the splat is a drawing."

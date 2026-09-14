@@ -3,7 +3,7 @@ title: "How to measure a dining chair"
 slug: how-to-measure-a-dining-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_count: 1582
 dek: "A tape, a fist in the foam, the underside of the table, the path of an arm. Catalog numbers are a starting rumor."

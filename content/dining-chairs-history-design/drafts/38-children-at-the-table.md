@@ -3,7 +3,7 @@ title: "Children at the table"
 slug: children-at-the-table
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 38
 word_count: 1714
 dek: "A dining chair is an adult camp. Children perch, slide, tilt, and grow. Boosters, straps, and a foot that finds something are the household tools. The chair is not a crib."

@@ -3,7 +3,7 @@ title: "Egypt, the chair as rank"
 slug: egypt-the-chair-as-rank
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_count: 1998
 dek: "Hatnefer’s cedar and ebony survive because a tomb is drier than a dining room. The Egyptian chair is rank you can still measure — not a template for a modern side chair."

@@ -3,7 +3,7 @@ title: "Eastlake, spindle reform"
 slug: eastlake-spindle-reform
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_count: 1720
 dek: "Hints on Household Taste (1868) wants honesty and fewer cabrioles. American factories read that as turned spindles and ebonized grooves. The sit gets more vertical. The sermon gets a catalog."

@@ -3,7 +3,7 @@ title: "Sheraton, square and reeded"
 slug: sheraton-square-and-reeded
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_count: 1511
 dek: "The Drawing-Book squares the back and reeds the leg. Dinner sits in a grid. The chair is a draftsman’s object that still has to take a hip."

@@ -3,7 +3,7 @@ title: "Ladderback, farm and revival"
 slug: ladderback-farm-and-revival
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_count: 1715
 dek: "Slats across a post, a rush or tape seat, a chair that stacks better than a claw. The farm type is older than the 1930s mood that sold it as ‘Early American.’"

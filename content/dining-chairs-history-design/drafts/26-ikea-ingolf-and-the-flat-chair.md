@@ -3,9 +3,9 @@ title: "IKEA Ingolf and the flat chair"
 slug: ikea-ingolf-and-the-flat-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 26
-word_count: 1695
+word_count: 1552
 dek: "A boxed spindle chair, a hex key, a sit that millions know. The sibling pack owns the IKEA table. This hour is the chair that comes out of the box and meets an apron."
 topic: history
 era: "late 20th c.–present"
@@ -79,8 +79,6 @@ The armchair version is the same kit with arms. Those arms will fight aprons the
 
 ## The summer after assembly
 
-A bolted chair racks at the bolts. Wood screws in inserts strip. People glue the joints as if they were mortises and then cannot take the chair apart when a leg splits. I would rather see a chair kept tight than a chair glued into a sculpture.
-
 Weight ratings live on the sheet that came in the box. I will not invent a number. Read the sheet. Institutional cousins — IKEA’s heavier lines, other flat-pack contract chairs — use a different insert and a different expectation. Garage-sale mixes hide that difference.
 
 Children tilt these. The back legs and the bolts take the story. A split at a screw is common. Repair can be a dowel and a prayer, or a replacement chair from the same aisle. The type expects replacement more than a rush Hitchcock does. That is honesty if you admit it, and a waste if you thought you bought an heirloom silhouette.
@@ -91,8 +89,6 @@ I have watched a set of six go racky in a rental with a swamp cooler and no scre
 
 ## The sit at someone else’s table
 
-I have eaten good dinners in INGOLFs. The spindle height was right, the table was the matching height, the pad was thin. I have eaten bad dinners in INGOLFs at a table whose apron was a drawer. The brand was not the variable. The pair was.
-
 The sit is upright, a little hard, a spindle grate. Air between the members. A contact that is closer to a cheap Eastlake than to a shell. Some people never find a slat and call the chair mean. Some people like not being held. A thin pad appears in a lot of houses within a month. The pad steals the gap. The table in the same catalog may have been drawn for the bare seat. Mixed marriages — INGOLF at a 19th-century oak table, or at a too-tall island — are the usual failure.
 
 European 75-centimeter tables and American inch tables are in the same neighborhood. IKEA sells in both languages. If the chair came from one country and the table from another, import the tape. Do not assume the catalog pair survived the move.
@@ -100,8 +96,6 @@ European 75-centimeter tables and American inch tables are in the same neighborh
 A custom oak table built for a client who already owns six INGOLFs should be built to the finished seat with the pad they actually use. That is the whole job. The sibling pack owns the flat-pack table. This hour refuses to steal that lede. The chair is a product. The apron may not have been in the same box.
 
 ## What a shop should notice, and refuse
-
-A southern oak shop should not CNC an INGOLF and stain it “heirloom.” It should notice that millions of people accepted a spindle sit and a bolt, and then it should offer a mortise and a seat you can recane. The competition is the box, not a phantom Chippendale buyer.
 
 Volume seating is a real brief. Thonet understood it. Hitchcock understood it. IKEA understood it with a hex key and a price that does not require a shop. Sneering at the brief is not a design. Answering it in oak, with a joint you can recut, is a design.
 

@@ -1,13 +1,13 @@
 ---
 title: Staged for BBF — dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 series: dining-chairs-history-design
 ---
 
 # Staged for BBF SEO — dining-chairs-history-design
 
-**Status:** staged only. Every article is `status: draft`, `voice_check: human`. Do not set WordPress publish dates. Do not paste these files onto a live domain until a photograph plan exists. An editor agent still has to run.
+**Status:** staged only. Every article is `status: draft`, `voice_check: edited` (editor pass 2026-09-14; see `EDITOR_REPORT.md`). Do not set WordPress publish dates. Do not paste these files onto a live domain until a photograph plan exists.
 
 ## What this pack is
 

@@ -3,9 +3,9 @@ title: "Rake is not a lounge"
 slug: rake-is-not-a-lounge
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 30
-word_count: 1673
+word_count: 1594
 dek: "A few degrees of back tilt keep you at the plate. Too much and the salt is a reach. Dining is not a club chair with a shorter seat."
 topic: ergonomics
 era: "long"
@@ -74,8 +74,6 @@ A seat that is dead level can feel like you are sliding out, especially in slick
 
 Upholstery can add rake the frame does not have. A foam wedge sold as “posture” is often a lounge wedge. I am suspicious of wedges at dinner. A pillow at the back that tilts you is the same theft in cloth.
 
-Windsor saddles dish instead of tilting the whole plane. The dish is a local rake. It can be kinder than a flat plank. A router dent called a saddle is not a dish.
-
 ## Backs that were drawn, backs that were recut
 
 Federal square-backs are often quite upright. You sit to the plate. Balloon-backs and some Grecian tablets give you more. Mission slats can be nearly vertical and then feel stern. Shells — Eames, Jacobsen, tulip — bake a curve that is a rake by another name. A Wishbone hoop is a contact in the air; the rake is the hoop’s lean.
@@ -97,8 +95,6 @@ Too much seat tilt: the front rail rises, the thigh meets wood, the gap dies. Pe
 Mixing chairs at one table with different rakes is how one guest looks slouched and one looks punished. Heights can match and the photograph still lie. I sit the mix with a plate. If one person is in a lounge and one is in a pew, the set is not a set. It is a storage problem wearing matching stain.
 
 ## The plate test in the shop
-
-We set rake on the rear post and we sit in a mock before we commit six. A customer who wants “a little lounge” at dinner will get a little, then we put a plate in front of them. If they reach, we take it back.
 
 The mock can be crude: two sticks at an angle, a plywood seat, a sawhorse table. The body is not crude. If the shoulders climb, height is the other essay. If the thighs jam, the gap is the other essay. If they crunch to the salt, rake is this one.
 

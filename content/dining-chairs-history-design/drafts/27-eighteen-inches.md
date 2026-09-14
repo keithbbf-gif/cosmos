@@ -3,7 +3,7 @@ title: "Eighteen inches"
 slug: eighteen-inches
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 27
 word_count: 1955
 dek: "A finished-seat habit, not a law. Seventeen to nineteen inches for a table sold as twenty-nine or thirty — and why a pad, a rug, and a recut foot each steal the number."

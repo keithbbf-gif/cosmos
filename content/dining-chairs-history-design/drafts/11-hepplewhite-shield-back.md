@@ -3,7 +3,7 @@ title: "Hepplewhite, the shield"
 slug: hepplewhite-shield-back
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 11
 word_count: 1472
 dek: "The 1788 Guide thins the back into a shield, an oval, a heart. Federal dining rooms sat in a drawing. The sit is lighter, and the splat has become a picture."

@@ -3,7 +3,7 @@ title: "Stickley, slat and the hour"
 slug: stickley-slat-and-the-hour
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_count: 1871
 dek: "A post, a row of slats, a leather seat — Mission dining as a long sit that occupies the room even when no one is eating. The slat is structure and a sermon."

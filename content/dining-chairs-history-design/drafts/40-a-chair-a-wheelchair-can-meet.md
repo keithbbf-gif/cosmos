@@ -3,7 +3,7 @@ title: "A chair a wheelchair can meet"
 slug: a-chair-a-wheelchair-can-meet
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_count: 1629
 dek: "Dinner is a table height and a place to put a plate. The spare ‘chair’ is sometimes a wheelchair. The dining chairs have to leave, and the underside has to be a cave you can enter."

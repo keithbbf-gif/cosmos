@@ -3,7 +3,7 @@ title: "The chair at dinner"
 slug: the-chair-at-dinner
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_count: 1585
 dek: "Dinner is a pair: a table height and a seat that has to clear the apron, take a hip, and last the meal. The room is another series. This one is the chair."

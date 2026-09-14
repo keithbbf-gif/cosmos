@@ -3,9 +3,9 @@ title: "Arms that clear"
 slug: arms-that-clear
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 33
-word_count: 1593
+word_count: 1503
 dek: "If the arm hits the apron, the armchair is a parlor chair in exile. Host furniture is a clearance problem before it is a hierarchy."
 topic: ergonomics
 era: "long"
@@ -95,10 +95,6 @@ A platter walking behind a table of eight arms is a server’s complaint I will 
 I have sat a Wishbone whose hoop-ends cleared a thin Danish table and failed a 2-inch oak slab with a breadboard. Same arms. Different underside. The brand was not the variable.
 
 ## Shop: build to the underside, or refuse the arms
-
-If we build arms, we build them to the table’s underside and to the scoot, or we refuse the arms. I would rather sell two well-cleared hosts and four sides than six arms that make a fence.
-
-A customer who wants arms on every chair for “comfort” is often asking for a rest for elbows during a long talk. That rest can be a table edge if the height is right. It can be a side chair and a pause. It does not have to be six collisions.
 
 Mock the arm with a stick at the finished height. Sit, pull in, cut. If the stick hits, lower the arm or drop the apron or drop the arms. Three choices. A carving on the knuckle is not a fourth.
 

@@ -3,7 +3,7 @@ title: "Rome and the sella"
 slug: rome-and-the-sella
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_count: 1817
 dek: "A folding stool that meant office, a cathedra that meant a teacher, and couches that did the actual dining. Rome’s seating is a vocabulary, not a set of eight."

@@ -3,9 +3,9 @@ title: "Breuer, Cesca and the tube"
 slug: breuer-cesca-and-the-tube
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 19
-word_count: 1670
+word_count: 1415
 dek: "A steel sled, a cane seat, a back that floats. The Cesca (B32) brings the café’s cane onto a tube and asks dinner to sit in a modern line that still sags."
 topic: form
 era: "1928 onward"
@@ -55,25 +55,13 @@ Arms on the armchair version change the dinner: they can clear a thin table and 
 
 These chairs entered apartments and institutional dining and every later restaurant that wanted “Bauhaus” without a lecture. They stack poorly compared with plastic. They hang if you are bold. They occupy less visually than Mission posts and more than a ghost of a shield.
 
-Copies are the majority of what people sit in. A Knoll or a documented Gavina/Knoll-era chair is one object. A no-name chrome 14-with-a-tube is another. Pay for the one you are buying. The sit can be close. The steel quality is not.
-
-I will not run a Bauhaus campus tour. The dining fact is: cane plus spring plus a sled is a specific fatigue. After two hours you have sat in a slightly moving object. After two hours in oak you have sat in a still one. Choose the fatigue you can live with.
-
-## Pairing
-
-A Cesca at a thick farm table can look like a mistake or like a relief, depending on whether you wanted a museum or a meal. A Cesca at a glass or laminate table is the catalog pair. Apron clearance is usually easy because the sled is low and the seat frame is the only bar. Knees win more often than they do with cabrioles.
-
-Seat height is a modern dining band. Foam added on top of cane is a confession. If you need foam, buy a different chair.
-
-Southern houses got these through the same modern catalogs as everyone else. An Arkansas dining room with Cescas is not a betrayal of oak. It is a century. The oak can stay in the table.
-
 ## What the sled does to a floor, and to a cut
 
 I pull a Cesca in without lifting. On a good hard floor that is a dinner gift for anyone who hates the scrape of oak posts. On a grit floor the runners scratch and then the scratches collect dirt. On a rug the sled fights: it either climbs the pile and sits high or it refuses to move and you lift the chair anyway, which is the job the sled was meant to spare you. I treat the floor as part of the pair. Felt on the runners is a household decision. Castors would make a different, worse object — a chair that skates while you saw a roast.
 
 The same slide that is a gift is a tax. The chair can leave you while you cut. I have watched a guest chase a Cesca backward an inch at a time through the main course. A stop, a rug pad that is not a pile, a sitter who plants feet: those are the fixes. The tube will not grow a stretcher box.
 
-The tube flexes. A heavy sitter feels a give that a Stickley post refuses. Some people call that comfort. Some call it cheap. It is the material. After two hours you have sat in a slightly moving object. After two hours in oak you have sat in a still one. Choose the fatigue you can live with. A cracked tube or a wrinkled bend is a retirement, not a glue job. I do not sister steel with a wooden dowel and call it a shop trick.
+The tube flexes. A heavy sitter feels a give that a Stickley post refuses. Some people call that comfort. Some call it cheap. It is the material. A cracked tube or a wrinkled bend is a retirement, not a glue job. I do not sister steel with a wooden dowel and call it a shop trick.
 
 ## Cane on wood, wood on steel
 

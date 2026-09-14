@@ -3,7 +3,7 @@ title: "The Greek klismos"
 slug: the-greek-klismos
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_count: 1872
 dek: "Saber legs and a concave back from vase-painting — a chair almost no wood survives to prove, and a silhouette later rooms could not leave alone."

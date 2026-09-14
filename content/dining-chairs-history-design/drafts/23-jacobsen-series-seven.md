@@ -3,7 +3,7 @@ title: "Jacobsen, Series 7"
 slug: jacobsen-series-seven
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 23
 word_count: 1819
 dek: "A single plywood veneer shell on a tubular base — 3107 / Series 7, 1955. The dining chair becomes a stack of silhouettes and a sit that is all curve."

@@ -1,7 +1,7 @@
 ---
 title: Index — Dining Chairs, History and Sitting
 status: draft
-voice_check: human
+voice_check: edited
 series: dining-chairs-history-design
 ---
 
@@ -13,7 +13,7 @@ Bradley Brand works Arkansas hardwoods. These drafts teach how dining chairs wer
 
 Sibling: [`content/american-dining-room-history/`](../american-dining-room-history/) owns the room, the table, and the splat-to-ladder survey. This pack owns the chair as a sitting machine. It does not rewrite `dining-chairs-splat-to-ladder`, `hitchcock-fancy-chairs`, `midcentury-eames-saarinen`, or `ikea-flatpack-table`.
 
-Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. All articles: `status: draft`, `voice_check: human`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. Staging: `STAGING_README.md`.
+Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. All articles: `status: draft`, `voice_check: edited`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. Staging: `STAGING_README.md`.
 
 Staged for BBF chair-pillar SEO. One slug owns one query.
 

@@ -3,7 +3,7 @@ title: "Stacking and the spare"
 slug: stacking-and-the-spare
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 37
 word_count: 1542
 dek: "The extra chair is the problem a dining room pretends not to have. Hang, stack, line the wall, or own a column of plastic. Occupancy is a design choice."

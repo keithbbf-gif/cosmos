@@ -3,7 +3,7 @@ title: "The plastic stacker"
 slug: the-plastic-stacker
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_count: 1668
 dek: "Polypropylene, a gas-lift of a silhouette, a column in a closet. The cafeteria taught dining rooms that a chair could be a unit of storage."

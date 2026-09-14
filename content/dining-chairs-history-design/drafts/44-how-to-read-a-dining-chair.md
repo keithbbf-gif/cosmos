@@ -3,7 +3,7 @@ title: "How to read a dining chair"
 slug: how-to-read-a-dining-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 44
 word_count: 1568
 dek: "Joints, seat diary, recut feet, the pair on the floor. A method for a chair in a room, an auction, or a shop — without a sermon."

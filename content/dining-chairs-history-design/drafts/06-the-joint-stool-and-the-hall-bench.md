@@ -3,7 +3,7 @@ title: "The joint stool and the hall bench"
 slug: the-joint-stool-and-the-hall-bench
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_count: 1794
 dek: "English oak, a boarded seat, stretchers in a box — the cheap dining seat of inventories, and the bench that made the hall a table."

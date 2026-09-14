@@ -3,7 +3,7 @@ title: "Lumbar is the wrong word"
 slug: lumbar-is-the-wrong-word
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_count: 1499
 dek: "Office chairs sell a knob for a workday spine. Dinner sells a splat, a hoop, a shell, an hour. Borrow fit if you want. Do not borrow the vocabulary as if it were a dining feature."

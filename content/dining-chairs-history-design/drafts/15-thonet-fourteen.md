@@ -3,7 +3,7 @@ title: "Thonet fourteen"
 slug: thonet-fourteen
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_count: 1841
 dek: "Steam, a few screws, a cane seat, a café that taught the world a dining chair could be a repeating product without looking like a Hitchcock stencil."

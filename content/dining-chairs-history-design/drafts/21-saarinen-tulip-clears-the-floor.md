@@ -3,7 +3,7 @@ title: "Saarinen tulip clears the floor"
 slug: saarinen-tulip-clears-the-floor
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_count: 1569
 dek: "One stem, a shell, a floor you can see. The Pedestal side chair is a dining sit that refused the slum of legs — and then asked the table to refuse it too."

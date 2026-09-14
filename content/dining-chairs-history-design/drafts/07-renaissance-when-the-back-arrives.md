@@ -3,7 +3,7 @@ title: "When the back arrives"
 slug: renaissance-when-the-back-arrives
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_count: 1714
 dek: "Sgabelletti, caquetoires, wainscot and upholstered backs — the century when more people got something to lean on, and dinner started to individualize."

@@ -3,7 +3,7 @@ title: "Comfort myths"
 slug: comfort-myths
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_count: 1517
 dek: "Old chairs are uncomfortable. Soft is kind. Lumbar is required. Matching matters more than measuring. A short list of sentences that ruin dinners."

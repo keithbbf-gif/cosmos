@@ -3,7 +3,7 @@ title: "Hitchcock, sitting in paint"
 slug: hitchcock-sitting-in-paint
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_count: 1981
 dek: "The mill essay next door owns the factory and the stencil. This hour is the sit: rush, a light frame, paint as the chair, and what gravy does to bronze powder."

@@ -3,7 +3,7 @@ title: "Balloon-back and the long course"
 slug: balloon-back-and-the-long-course
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_count: 1926
 dek: "A rounded open back, a stuffed seat, a Victorian dinner that outlasted hunger. The balloon is a hoop that learned upholstery, and a sit that assumes courses."

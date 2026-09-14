@@ -3,9 +3,9 @@ title: "Queen Anne, the compass seat"
 slug: queen-anne-compass-seat
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 8
-word_count: 1622
+word_count: 1488
 dek: "A rounded front, a vase splat, cabriole legs — the dining chair gets lighter and starts to turn as you eat. The compass is the sit, not the date."
 topic: form
 era: "c. 1710–1740 (style longer)"
@@ -57,15 +57,11 @@ A square Federal seat parks you. A compass seat is a shallow invitation to turn.
 
 Slip seats — an upholstered frame dropped into the rabbet — mean the seat is a replaceable document. Horsehair, linen, a show cover. Dining wrecks show covers. A compass slip seat with a later foam pad sits higher and changes the relation to the table. Measure the finished sit, not the rail.
 
-I do not have a Pheasant percentile for 1730. I have a shop habit: if the table is a drop-leaf in the 28-to-29-inch world, the chair’s finished seat often lands where a modern 18-inch chair does, plus or minus the pad. `[VERIFY]` against the specific museum pair before you print a rule. Recut legs are common. Recut legs at the ankle are how a chair follows a later table.
-
 ## American wood, English name
 
 Walnut is the English luxury story. America uses walnut where it has it, maple where it does not, painted maple where the shop is selling a look. A painted Queen Anne is not a failed walnut. It is a surface. Strip it and you have committed a different crime than stripping a Hitchcock, but it is still a crime if the paint was the finish.
 
 Newport and Philadelphia will get louder in Chippendale. Queen Anne in the colonies is already a dining chair when it sits at a tea table or a drop-leaf in a room that eats. Not every compass chair was a dining chair. The ones with wrecked front rails and repaired knees probably were.
-
-Labor: these are still shop chairs, not mill chairs. Apprentices, journeymen, enslaved workers in Southern shops that made fashionable seats for white dining rooms. If the object is Southern and unnamed, do not fill the name with a dynasty. The Thomas Day hour in the sibling pack is a later, documented shop. This hour only refuses the empty attribution.
 
 ## What I look for
 

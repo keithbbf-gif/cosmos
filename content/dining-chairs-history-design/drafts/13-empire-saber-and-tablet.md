@@ -3,7 +3,7 @@ title: "Empire, saber and tablet"
 slug: empire-saber-and-tablet
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 13
 word_count: 1987
 dek: "The splat thins to a tablet or disappears into a saber. Grecian chairs come to dinner with a kick that takes a coat and a sit that is more lounge than Hepplewhite allowed."

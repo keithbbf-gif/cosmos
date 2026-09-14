@@ -3,7 +3,7 @@ title: "Windsor, stick and saddle"
 slug: windsor-stick-and-saddle
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_count: 1472
 dek: "Turned sticks in a plank seat, painted, light enough to carry — the other American dining chair. Not a failed mahogany. A different machine."

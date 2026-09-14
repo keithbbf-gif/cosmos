@@ -3,7 +3,7 @@ title: "Seat depth and the knee"
 slug: seat-depth-and-the-knee
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_count: 1528
 dek: "Buttock to popliteal. A dining seat that is too deep cuts the back of the knee. A seat that is too shallow leaves a long femur floating. Dinner does not have a slider."

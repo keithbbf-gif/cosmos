@@ -3,9 +3,9 @@ title: "Wegner, Y and the wishbone"
 slug: wegner-y-and-the-wishbone
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 22
-word_count: 1801
+word_count: 1731
 dek: "CH24, 1949: a Y of wood, a steam-bent back, a paper-cord seat. The dining chair becomes a joinery problem you can see, and a sit that depends on the cord."
 topic: form
 era: "1949 onward"
@@ -78,8 +78,6 @@ The front legs and the back posts are a chair in the old sense: a box that can r
 Olesen’s monograph is the trail for the “one good chair” line and for the many chairs that followed. Confirm CH24’s 1949 date there or at Designmuseum Danmark / Carl Hansen before you treat the year as a caption. I will not invent a workshop quote. I will not invent a production total. Carl Hansen’s long factory afterlife is a business story; dinner needs the cord and the hoop.
 
 ## Paper cord as a rush cousin with a finer clock
-
-Paper cord — twisted paper, woven — is the seat that made the type famous in a certain finish. It is not indestructible. It abrades where jeans and the front rail meet. It stains. It can be rewoven. A sagging cord is a sit that has gone hammock, like rush, like cane. People who buy a Wishbone for “the look” and then put a plywood pad on it have bought a sculpture.
 
 The weave is part of the sit: a slight give, a texture, a coolness compared with foam. I like it for dinner. I do not like it for a toddler with a fork and a berry. Crumbs go into the pattern. That is dinner. A tablecloth helps the table more than the seat. A sitter who does not grind salt into the weave helps the chair.
 

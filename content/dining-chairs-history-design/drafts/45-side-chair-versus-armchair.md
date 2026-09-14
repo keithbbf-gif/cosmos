@@ -3,7 +3,7 @@ title: "Side chair versus armchair"
 slug: side-chair-versus-armchair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 45
 word_count: 1501
 dek: "The side chair is the dining type. The armchair is a clearance problem and a leftover rank. Mixing them is a set. Filling the table with arms is a fence."

@@ -3,7 +3,7 @@ title: "Chippendale, the pierced splat"
 slug: chippendale-the-pierced-splat
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 9
 word_count: 1484
 dek: "The Director opens the back: ribbon, tassel, Gothic tracery, a hole a sleeve can catch. Dinner finds the piercing and the claw."

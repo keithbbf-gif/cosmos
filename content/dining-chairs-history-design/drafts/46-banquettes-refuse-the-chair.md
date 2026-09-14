@@ -3,7 +3,7 @@ title: "Banquettes refuse the chair"
 slug: banquettes-refuse-the-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 46
 word_count: 1743
 dek: "A built-in seat along a wall is a bench that learned upholstery and a floor plan. It refuses the individual side chair — and it brings back the problem of getting out."

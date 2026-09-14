@@ -3,9 +3,9 @@ title: "Arkansas oak side chair"
 slug: arkansas-oak-side-chair
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 42
-word_count: 1550
+word_count: 1492
 dek: "A side chair cut in southern oak for a table that already exists. Bradley Brand may appear here because the wood is the subject. No SKU. No succession story."
 topic: shop
 era: "present shop; mill geography older"
@@ -94,8 +94,6 @@ Through-tenons on a show face if the customer wants to read the joint. Hidden pi
 Bradley Brand works that geography — Warren, Wilmar, hardwood along the Saline — as a present shop. One sentence is enough. The chair is a pairing problem, not a collection page. I will not write a corporate genealogy. Place is fair. Succession is not.
 
 ## Labor and the leftover mill, without a slogan
-
-The county cut stock for other people’s factories. Enslaved labor and later mill labor are part of Southern furniture history the sibling pack already refused to bleach. A present shop is a present shop. It does not inherit a saint or a crime by slogan. It inherits a habit of oak and a duty to name work.
 
 If a chair is handmade in the listing, say who cut the mortise. If it is a small run with a hollow-chisel and a tenoner, say that. Honesty is the Eastlake thing that actually matters. I will not pretend a mill-town postcard is a shop photograph. Rights first. `[VERIFY rights]`. I will not distress a ladderback to 1840. I will not bolt an INGOLF silhouette and call it heirloom. I will not put lion feet on a chair that has to clear a farm apron. I will not sell eight arms.
 

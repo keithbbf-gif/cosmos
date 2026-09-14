@@ -3,7 +3,7 @@ title: "Cane, rush, leather, foam"
 slug: cane-rush-leather-foam
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 35
 word_count: 1969
 dek: "The seat is the part that fails first and the part that tells the meal. Date the frame. Read the seat as a history of dinners."

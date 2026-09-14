@@ -3,7 +3,7 @@ title: "Rack is the dinner test"
 slug: rack-is-the-dinner-test
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_count: 1752
 dek: "A dining chair is a box that wants to become a parallelogram when a twelve-year-old leans. Stretchers, shoulders, and a dry-fit are the adult answers. Glue is a guest."

@@ -3,7 +3,7 @@ title: "The long dinner"
 slug: the-long-dinner
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 39
 word_count: 1752
 dek: "Forty minutes forgives a stern splat. Three hours will not. Duration is the ergonomic that catalogs skip because it cannot be a SKU."

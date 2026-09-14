@@ -3,7 +3,7 @@ title: "Eames DCM, plywood side"
 slug: eames-dcm-plywood-side
 series: dining-chairs-history-design
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_count: 1599
 dek: "A molded seat and back on a wire or wood base — the dining chair becomes two shells. The lounge is another object. This hour is the side chair at a table."
