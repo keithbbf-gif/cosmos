@@ -50,3 +50,21 @@ Verb bind status this slice: **scan BOUND**, the other seven DECLARED
 (`VERB_NOT_BOUND`) — a route is not a proof.
 
 Tests: `tests/test_sessions_app.py`
+
+## Native shell (Tauri v2)
+
+The desktop wrap lives in `src-tauri/`. Static assets are copied unchanged from
+`ui/` into `dist/` at build time; the webview loads the Python backend on
+loopback (`127.0.0.1:8785`) so `app.js` keeps its same-origin `/api/*` fetches.
+The backend runs as a Tauri **sidecar** (`sessions_app.py serve --host 127.0.0.1`).
+
+Build (from `builds/sessions-app/`):
+
+```bash
+npm install
+npm run tauri:build
+```
+
+Release binary: `src-tauri/target/release/sessions-app.exe` (Windows) or
+`sessions-app` (Linux). Equivalent: `cargo tauri build` from `src-tauri/` after
+`npm run prepare:dist`.

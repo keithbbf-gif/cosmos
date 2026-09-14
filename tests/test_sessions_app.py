@@ -446,6 +446,26 @@ def t_cdeck_sessions_route_still_intact():
             and '_CDECK_ROUTES["/cdeck/" + _n]' in svc)
 
 
+def t_tauri_config_and_sidecar_wiring():
+    """Native wrap: dist/ is ui/, Python backend is a declared Tauri sidecar."""
+    tauri = APP / "src-tauri"
+    conf = json.loads((tauri / "tauri.conf.json").read_text(encoding="utf-8"))
+    win = conf["app"]["windows"][0]
+    dist = conf["build"]["frontendDist"]
+    ext = conf["bundle"]["externalBin"]
+    sidecar_linux = tauri / "binaries" / "sessions-app-sidecar-x86_64-unknown-linux-gnu"
+    sidecar_win = tauri / "binaries" / "sessions-app-sidecar-x86_64-pc-windows-msvc.bat"
+    pkg = json.loads((APP / "package.json").read_text(encoding="utf-8"))
+    return (win["title"] == "COSMOS Sessions"
+            and conf.get("plugins", {}).get("singleInstance") is not None
+            and dist == "../dist"
+            and ext == ["binaries/sessions-app-sidecar"]
+            and sidecar_linux.is_file() and sidecar_win.is_file()
+            and "sessions_app.py" in sidecar_linux.read_text(encoding="utf-8")
+            and "tauri:build" in (pkg.get("scripts") or {})
+            and "prepare:dist" in (pkg.get("scripts") or {}).get("tauri:build", ""))
+
+
 def t_app_is_one_directional():
     """cosmos/ and the verb suite must not have grown a dependency on this app,
     and this app must not claim a /cdeck/ route."""
@@ -490,6 +510,7 @@ CHECKS = (
     ("CLI flags work on both sides of the verb", t_cli_takes_flags_on_both_sides_of_the_verb),
     ("cDeck Sessions route still intact", t_cdeck_sessions_route_still_intact),
     ("app is one-directional (additive)", t_app_is_one_directional),
+    ("tauri config + sidecar wiring", t_tauri_config_and_sidecar_wiring),
 )
 
 

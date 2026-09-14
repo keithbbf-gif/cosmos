@@ -1,0 +1,53 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "sessions-app",
+  "version": "0.1.0",
+  "identifier": "cosmos.sessions-app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://127.0.0.1:8785/sessions/",
+    "beforeDevCommand": "npm run prepare:dist",
+    "beforeBuildCommand": "npm run prepare:dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "COSMOS Sessions",
+        "width": 1280,
+        "height": 860,
+        "resizable": true,
+        "fullscreen": false,
+        "create": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "externalBin": ["binaries/sessions-app-sidecar"],
+    "resources": [
+      "../sessions_app.py",
+      "../sessions_core.py",
+      "../sessions_recents.py",
+      "../sessions_timeline.py",
+      "../sessions_verbs.py",
+      "../sessions_refusals.py"
+    ]
+  },
+  "plugins": {
+    "singleInstance": {
+      "exitOnSecondInstance": false
+    }
+  }
+}

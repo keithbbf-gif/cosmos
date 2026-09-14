@@ -1,0 +1,15 @@
+{
+  "name": "sessions-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "COSMOS Sessions — Tauri shell over sessions_app.py",
+  "scripts": {
+    "prepare:dist": "mkdir -p dist && cp ui/index.html ui/app.css ui/app.js dist/",
+    "tauri": "tauri",
+    "tauri:dev": "npm run prepare:dist && tauri dev",
+    "tauri:build": "npm run prepare:dist && tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4"
+  }
+}

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Tauri externalBin sidecar: runs the Sessions Python backend (loopback serve).
+set -euo pipefail
+BIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ -f "$BIN_DIR/../../../sessions_app.py" ]]; then
+  APP_ROOT="$(cd "$BIN_DIR/../../.." && pwd)"
+elif [[ -f "$BIN_DIR/../resources/sessions_app.py" ]]; then
+  APP_ROOT="$(cd "$BIN_DIR/../resources" && pwd)"
+else
+  echo "sessions-app-sidecar: sessions_app.py not found" >&2
+  exit 1
+fi
+exec python3 "$APP_ROOT/sessions_app.py" "$@"
