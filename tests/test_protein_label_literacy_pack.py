@@ -84,6 +84,18 @@ def _educational(snippet: str) -> bool:
     low = snippet.lower()
     return any(p in low for p in EDU_CONTEXT)
 
+
+def promo_hits_in(text: str) -> list[str]:
+    """Return non-educational promotional disease snippets."""
+    hits: list[str] = []
+    for rx in (PROMO_DISEASE, PROMO_DISEASE_TARGET):
+        for m in rx.finditer(text):
+            snippet = text[max(0, m.start() - 80) : m.end() + 40].replace("\n", " ")
+            if _educational(snippet):
+                continue
+            hits.append(snippet.strip())
+    return hits
+
 RESULTS: list[tuple[str, bool, str]] = []
 
 
@@ -215,6 +227,16 @@ def main() -> int:
     check("canon carries product lock", LOCK_PRODUCT in lock)
     check("canon carries label lock", LOCK_LABEL in lock)
     check("canon quotes statutory disclaimer", "not intended to diagnose, treat, cure, or prevent" in lock)
+
+    # Isolated strings — a checker that cannot fail is not a checker.
+    isolated_bad = "Buy this today. Protein powder treats diabetes and cures obesity."
+    isolated_ok = (
+        LOCK_PRODUCT + " " + LOCK_LABEL
+        + " This pack will not say whey treats a named diagnosis."
+    )
+    check("scanner flags isolated promotional claim", bool(promo_hits_in(isolated_bad)))
+    check("scanner allows isolated lock + refusal", not promo_hits_in(isolated_ok))
+    check("scanner flags bare treat+disease", bool(promo_hits_in("This whey isolate treats cancer.")))
 
     failed = 0
     for label, ok, err in RESULTS:
