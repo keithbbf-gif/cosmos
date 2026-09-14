@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <rect width="900" height="1100" fill="#f4f1ea"/>
+  <rect x="36" y="36" width="828" height="1028" fill="none" stroke="#5c5346" stroke-width="3"/>
+  <rect x="60" y="60" width="780" height="980" fill="none" stroke="#5c5346" stroke-width="1"/>
+  <text x="450" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#2b261f">Muriel E. Morley</text>
+  <text x="450" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#5c5346">1899–1993</text>
+  <text x="450" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#8a1f1f">Not a photograph</text>
+  <text x="450" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2b261f">Portrait pending — rights not cleared</text>
+  <text x="450" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#2b261f">RCSLT / ODNB image is paywalled.</text>
+  <text x="450" y="728" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#2b261f">Ask RCSLT Archives.</text>
+</svg>

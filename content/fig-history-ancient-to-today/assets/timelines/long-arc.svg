@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" role="img" aria-labelledby="title desc">
+  <title id="title">Long-arc timeline, dated nodes only</title>
+  <desc id="desc">Selected dated nodes from the series. Not a complete history.</desc>
+  <rect width="1100" height="280" fill="#f4efe4"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" fill="#2c2416">Dated nodes  not a complete history</text>
+  <line x1="40" y1="150" x2="1060" y2="150" stroke="#8a7349" stroke-width="2"/>
+  <g font-family="Georgia, serif" font-size="10" fill="#2c2416">
+    <line x1="70" y1="150" x2="70" y2="120" stroke="#8b3a2a"/><text x="70" y="110" text-anchor="middle">Gilgal I</text><text x="70" y="175" text-anchor="middle">c. 11,300 BP</text>
+    <line x1="200" y1="150" x2="200" y2="120" stroke="#8b3a2a"/><text x="200" y="110" text-anchor="middle">Old Kingdom</text><text x="200" y="175" text-anchor="middle">two figs in art</text>
+    <line x1="320" y1="150" x2="320" y2="120" stroke="#8b3a2a"/><text x="320" y="110" text-anchor="middle">Cato / Pliny</text><text x="320" y="175" text-anchor="middle">2nd c. BCE79</text>
+    <line x1="450" y1="150" x2="450" y2="120" stroke="#8b3a2a"/><text x="450" y="110" text-anchor="middle">Ibn al-¿Awwm</text><text x="450" y="175" text-anchor="middle">late 1100s</text>
+    <line x1="580" y1="150" x2="580" y2="120" stroke="#8b3a2a"/><text x="580" y="110" text-anchor="middle">Missions</text><text x="580" y="175" text-anchor="middle">1560s1769</text>
+    <line x1="720" y1="150" x2="720" y2="120" stroke="#8b3a2a"/><text x="720" y="110" text-anchor="middle">Wasp in CA</text><text x="720" y="175" text-anchor="middle">18991900</text>
+    <line x1="860" y1="150" x2="860" y2="120" stroke="#8b3a2a"/><text x="860" y="110" text-anchor="middle">Condit</text><text x="860" y="175" text-anchor="middle">1947 / 1955</text>
+    <line x1="1000" y1="150" x2="1000" y2="120" stroke="#8b3a2a"/><text x="1000" y="110" text-anchor="middle">PDO wave</text><text x="1000" y="175" text-anchor="middle">19942016</text>
+  </g>
+  <text x="24" y="250" font-family="Georgia, serif" font-size="11" fill="#6a5b45">Each tick is argued in an article. Gaps are real. Do not interpolate a dynasty onto a blank stretch.</text>
+</svg>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" role="img" aria-labelledby="title desc">
+  <title id="title">Wartime speech wards to postwar objects</title>
+  <desc id="desc">Editorial flow from wartime language-rehabilitation rooms to named postwar tests, books, and professional colleges. Historical geography only; not a clinical pathway or treatment protocol.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .sub { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .band { fill: #E2E8F0; }
+      .box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+      .box-teal { fill: #CCFBF1; stroke: #0F766E; stroke-width: 1; }
+      .box-amber { fill: #FEF3C7; stroke: #B45309; stroke-width: 1; }
+      .ink { font-family: system-ui, sans-serif; font-size: 12px; fill: #1E293B; }
+      .label { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+      .head { font-family: Georgia, serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="400"/>
+  <text x="36" y="34" class="title">From war rooms to shelf objects (schematic)</text>
+  <text x="36" y="52" class="sub">Named services, not a care pathway. No drills, no homework, no patient data.</text>
+
+  <rect class="band" x="36" y="68" width="848" height="52" rx="4"/>
+  <text x="52" y="90" class="head">Caseload the wars made official</text>
+  <text x="52" y="108" class="label">Young men, focal wounds, aphasia and hearing as government problems  -  1914-18 notes, 1939-45 systems</text>
+
+  <rect class="box" x="36" y="136" width="160" height="88" rx="4"/>
+  <text x="48" y="158" class="ink">Halloran GH</text>
+  <text x="48" y="176" class="label">Staten Island</text>
+  <text x="48" y="194" class="label">Eisenson, language</text>
+  <text x="48" y="208" class="label">rehab, Surgeon General</text>
+
+  <rect class="box" x="208" y="136" width="160" height="88" rx="4"/>
+  <text x="220" y="158" class="ink">Framingham /</text>
+  <text x="220" y="176" class="ink">Boston VA</text>
+  <text x="220" y="194" class="label">Goodglass 1951-</text>
+  <text x="220" y="208" class="label">Jamaica Plain hallway</text>
+
+  <rect class="box" x="380" y="136" width="160" height="88" rx="4"/>
+  <text x="392" y="158" class="ink">Minneapolis VA</text>
+  <text x="392" y="176" class="label">Schuell from 1948</text>
+  <text x="392" y="194" class="label">later Brookshire</text>
+  <text x="392" y="208" class="label">neurology service</text>
+
+  <rect class="box" x="552" y="136" width="160" height="88" rx="4"/>
+  <text x="564" y="158" class="ink">Burdenko /</text>
+  <text x="564" y="176" class="ink">Moscow rear</text>
+  <text x="564" y="194" class="label">Luria, 1941-</text>
+  <text x="564" y="208" class="label">Traumatic Aphasia 1947</text>
+
+  <rect class="box" x="724" y="136" width="160" height="88" rx="4"/>
+  <text x="736" y="158" class="ink">Newcastle</text>
+  <text x="736" y="176" class="label">Morley, hospitals</text>
+  <text x="736" y="194" class="label">cleft + ex-servicemen</text>
+  <text x="736" y="208" class="label">College, 1945</text>
+
+  <rect class="box-teal" x="36" y="244" width="270" height="88" rx="4"/>
+  <text x="50" y="266" class="ink">Minnesota Test (1965)</text>
+  <text x="50" y="284" class="label">Schuell  -  university-press battery</text>
+  <text x="50" y="302" class="label">Aphasia in Adults, 1964</text>
+
+  <rect class="box-teal" x="322" y="244" width="270" height="88" rx="4"/>
+  <text x="336" y="266" class="ink">BDAE (1972)</text>
+  <text x="336" y="284" class="label">Goodglass &amp; Kaplan  -  ward practice</text>
+  <text x="336" y="302" class="label">from c. 1960, then a book</text>
+
+  <rect class="box-amber" x="608" y="244" width="276" height="88" rx="4"/>
+  <text x="622" y="266" class="ink">English Luria, 1970</text>
+  <text x="622" y="284" class="label">Mouton translation of 1947/59</text>
+  <text x="622" y="302" class="label">British college already 1945</text>
+
+  <text x="36" y="360" class="sub">Figure: SLPWOW History series   -   geography of rooms and books. Not a treatment algorithm.</text>
+  <text x="36" y="378" class="sub">Audiology's split (Carhart; 1947 association name) is discussed in the essay, not drawn here.</text>
+</svg>

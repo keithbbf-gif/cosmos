@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Allen Newell portrait placeholder">
+  <rect width="800" height="1000" fill="#1f1c18"/>
+  <rect x="48" y="48" width="704" height="904" fill="none" stroke="#c4b49a" stroke-width="2"/>
+  <text x="400" y="430" fill="#f3ead8" font-size="34" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">Allen Newell</text>
+  <text x="400" y="490" fill="#c4b49a" font-size="18" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">No clean redistributable photograph</text>
+  <text x="400" y="524" fill="#c4b49a" font-size="18" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">Labeled placeholder — not a photograph</text>
+  <text x="400" y="580" fill="#8a7f70" font-size="14" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">AAAI anniversary graphic retired from this series</text>
+</svg>

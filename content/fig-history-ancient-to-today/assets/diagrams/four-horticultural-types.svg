@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Four horticultural types of edible fig</title>
+  <desc id="desc">Common, Smyrna, San Pedro, caprifig  Condit/Eisen types. Schematic.</desc>
+  <rect width="900" height="420" fill="#f4efe4"/>
+  <text x="24" y="34" font-family="Georgia, serif" font-size="20" fill="#2c2416">Four kinds of work the tree will do</text>
+  <text x="24" y="56" font-family="Georgia, serif" font-size="12" fill="#6a5b45">EisenCondit horticultural types · article 39</text>
+  <g font-family="Georgia, serif" fill="#2c2416">
+    <rect x="24" y="80" width="200" height="280" fill="#e8c48a" stroke="#8b3a2a"/>
+    <text x="40" y="110" font-size="16">Common</text>
+    <text x="40" y="140" font-size="12">Parthenocarpic.</text>
+    <text x="40" y="158" font-size="12">Sets without the wasp.</text>
+    <text x="40" y="190" font-size="12">Mission, Adriatic,</text>
+    <text x="40" y="208" font-size="12">Kadota, Dottato.</text>
+    <text x="40" y="240" font-size="12">The mission and the</text>
+    <text x="40" y="258" font-size="12">back-garden tree.</text>
+    <rect x="240" y="80" width="200" height="280" fill="#e0d3b8" stroke="#8a7349"/>
+    <text x="256" y="110" font-size="16">Smyrna</text>
+    <text x="256" y="140" font-size="12">Needs pollination.</text>
+    <text x="256" y="158" font-size="12">Drops if not caprified.</text>
+    <text x="256" y="190" font-size="12">Sar1lop / Calimyrna,</text>
+    <text x="256" y="208" font-size="12">Bardac1k, Kassaba.</text>
+    <text x="256" y="240" font-size="12">Seeded eating quality.</text>
+    <text x="256" y="258" font-size="12">The dried-fig empire.</text>
+    <rect x="456" y="80" width="200" height="280" fill="#d7c4a3" stroke="#8a7349"/>
+    <text x="472" y="110" font-size="16">San Pedro</text>
+    <text x="472" y="140" font-size="12">Breba sets alone.</text>
+    <text x="472" y="158" font-size="12">Main crop needs wasp.</text>
+    <text x="472" y="190" font-size="12">White San Pedro and</text>
+    <text x="472" y="208" font-size="12">kin (Condit).</text>
+    <text x="472" y="240" font-size="12">A split personality</text>
+    <text x="472" y="258" font-size="12">on one tree.</text>
+    <rect x="672" y="80" width="200" height="280" fill="#c5d4c8" stroke="#4a6b52"/>
+    <text x="688" y="110" font-size="16">Caprifig</text>
+    <text x="688" y="140" font-size="12">Short-styled flowers.</text>
+    <text x="688" y="158" font-size="12">Houses the wasp.</text>
+    <text x="688" y="190" font-size="12">Mamme, profichi,</text>
+    <text x="688" y="208" font-size="12">mammoni crops.</text>
+    <text x="688" y="240" font-size="12">Pollen source </text>
+    <text x="688" y="258" font-size="12">not a dessert fruit.</text>
+  </g>
+</svg>

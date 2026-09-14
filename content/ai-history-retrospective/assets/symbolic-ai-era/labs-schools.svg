@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d">
+  <title id="t">Symbolic AI institutional lineage</title>
+  <desc id="d">MIT, Stanford, and CMU as anchor labs for symbolic AI in the 1960s and 1970s.</desc>
+  <rect width="640" height="300" fill="#f3efe6"/>
+  <text x="320" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2a241c">SYMBOLIC AI: THREE ANCHOR LABS</text>
+  <line x1="40" y1="52" x2="600" y2="52" stroke="#6b6358" stroke-width="0.5"/>
+  <g font-family="Georgia, serif">
+    <rect x="48" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="132" y="108" text-anchor="middle" font-size="12" fill="#2a241c">MIT AI Lab</text>
+    <text x="132" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Lisp, robotics, vision</text>
+    <rect x="236" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="320" y="108" text-anchor="middle" font-size="12" fill="#2a241c">Stanford AI</text>
+    <text x="320" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Search, knowledge</text>
+    <rect x="424" y="80" width="168" height="64" fill="#ebe4d6" stroke="#6b6358" stroke-width="0.8"/>
+    <text x="508" y="108" text-anchor="middle" font-size="12" fill="#2a241c">CMU</text>
+    <text x="508" y="128" text-anchor="middle" font-size="9" fill="#5c5248">Cognitive modeling, SOAR</text>
+  </g>
+  <text x="320" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Shared toolkit: representation, search, theorem proving, microworlds</text>
+  <text x="320" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#8a8074">Institutional map; not a family tree of every researcher.</text>
+</svg>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="fig02-title fig02-desc">
+  <title id="fig02-title">Fig. 2 - Major schools of thought in psychotherapy (conceptual map)</title>
+  <desc id="fig02-desc">Diagram linking psychodynamic, behavioral, humanistic, cognitive-behavioral, systemic, and constructivist families to characteristic focus and methods.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .h { font-size: 15px; font-weight: bold; }
+      .b { font-size: 12px; }
+      .link { stroke: #1C1A17; stroke-width: 1; fill: none; opacity: 0.45; stroke-dasharray: 4 3; }
+      .hub { fill: #6B2D3E; }
+      .box-psy { fill: #E8DCC8; stroke: #1C1A17; stroke-width: 0.8; }
+      .box-beh { fill: #D4E3D0; stroke: #1C1A17; stroke-width: 0.8; }
+      .box-hum { fill: #D8E0EB; stroke: #1C1A17; stroke-width: 0.8; }
+      .box-cog { fill: #E9D4DC; stroke: #1C1A17; stroke-width: 0.8; }
+      .box-sys { fill: #EDE6F2; stroke: #1C1A17; stroke-width: 0.8; }
+      .box-con { fill: #F0E4D4; stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="640"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6B2D3E"/>
+  <text x="48" y="42" class="ink caps">Fig. 02</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Schools of thought  how families differ</text>
+  <text x="48" y="98" class="muted b">Shared goal: relief of distress and richer living. Divergence is in what is treated as causal and what the therapist does in session.</text>
+
+  <!-- Hub -->
+  <circle class="hub" cx="600" cy="320" r="42"/>
+  <text x="600" y="316" text-anchor="middle" fill="#FFF" font-family="Georgia" font-size="13" font-weight="bold">Clinical</text>
+  <text x="600" y="334" text-anchor="middle" fill="#FFF" font-family="Georgia" font-size="13" font-weight="bold">encounter</text>
+
+  <!-- Psychodynamic -->
+  <rect class="box-psy" x="72" y="140" width="240" height="120" rx="4"/>
+  <text x="92" y="168" class="h ink">Psychodynamic</text>
+  <text x="92" y="192" class="b muted">Focus: unconscious conflict,</text>
+  <text x="92" y="210" class="b muted">attachment, meaning</text>
+  <text x="92" y="234" class="b ink">Methods: interpretation,</text>
+  <text x="92" y="252" class="b ink">transference, insight</text>
+  <path class="link" d="M312,200 Q420,240 558,300"/>
+
+  <!-- Behavioral -->
+  <rect class="box-beh" x="72" y="380" width="240" height="120" rx="4"/>
+  <text x="92" y="408" class="h ink">Behavioral</text>
+  <text x="92" y="432" class="b muted">Focus: learned contingencies,</text>
+  <text x="92" y="450" class="b muted">avoidance, reinforcement</text>
+  <text x="92" y="474" class="b ink">Methods: exposure, skills,</text>
+  <text x="92" y="492" class="b ink">behavioral experiments</text>
+  <path class="link" d="M312,440 Q420,380 558,340"/>
+
+  <!-- Humanistic -->
+  <rect class="box-hum" x="888" y="140" width="240" height="120" rx="4"/>
+  <text x="908" y="168" class="h ink">Humanistic</text>
+  <text x="908" y="192" class="b muted">Focus: self, authenticity,</text>
+  <text x="908" y="210" class="b muted">actualizing tendency</text>
+  <text x="908" y="234" class="b ink">Methods: empathic attunement,</text>
+  <text x="908" y="252" class="b ink">congruence, here-and-now</text>
+  <path class="link" d="M888,200 Q780,240 642,300"/>
+
+  <!-- CBT -->
+  <rect class="box-cog" x="888" y="380" width="240" height="120" rx="4"/>
+  <text x="908" y="408" class="h ink">Cognitive-behavioral</text>
+  <text x="908" y="432" class="b muted">Focus: thoughts, beliefs,</text>
+  <text x="908" y="450" class="b muted">problem-solving cycles</text>
+  <text x="908" y="474" class="b ink">Methods: cognitive restructuring,</text>
+  <text x="908" y="492" class="b ink">homework, measurement</text>
+  <path class="link" d="M888,440 Q780,380 642,340"/>
+
+  <!-- Systemic -->
+  <rect class="box-sys" x="456" y="48" width="288" height="88" rx="4"/>
+  <text x="476" y="76" class="h ink">Systemic &amp; family</text>
+  <text x="476" y="100" class="b muted">Focus: patterns in relationships - circular causality</text>
+  <text x="476" y="118" class="b ink">Methods: genogram, reframing, enactment</text>
+  <path class="link" d="M600,136 L600,278"/>
+
+  <!-- Constructivist / narrative -->
+  <rect class="box-con" x="456" y="504" width="288" height="88" rx="4"/>
+  <text x="476" y="532" class="h ink">Constructivist &amp; narrative</text>
+  <text x="476" y="556" class="b muted">Focus: stories, social context, preferred identity</text>
+  <text x="476" y="574" class="b ink">Methods: externalizing, re-authoring, collaboration</text>
+  <path class="link" d="M600,504 L600,362"/>
+
+  <rect x="48" y="598" width="1104" height="1" fill="#1C1A17" opacity="0.2"/>
+  <text x="48" y="628" class="muted b">Dashed lines: conceptual affinity, not strict genealogy. Modern integrative practice deliberately mixes boxes.</text>
+</svg>

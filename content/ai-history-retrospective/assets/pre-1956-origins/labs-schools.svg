@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-labelledby="t d">
+  <title id="t">Early cybernetics and computation schools</title>
+  <desc id="d">Influence sketch of meeting places and research clusters before 1956. Not exhaustive.</desc>
+  <rect width="600" height="320" fill="#f3efe6"/>
+  <text x="300" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2a241c">EARLY SCHOOLS AND MEETING PLACES</text>
+  <line x1="48" y1="52" x2="552" y2="52" stroke="#6b6358" stroke-width="0.5"/>
+  <g font-family="Georgia, serif" font-size="11" fill="#2a241c" stroke="#6b6358" stroke-width="0.7">
+    <rect x="56" y="72" width="148" height="52" fill="#ebe4d6"/>
+    <text x="130" y="102" text-anchor="middle">MIT circle</text>
+    <rect x="226" y="72" width="148" height="52" fill="#ebe4d6"/>
+    <text x="300" y="102" text-anchor="middle">Macy conferences</text>
+    <rect x="396" y="72" width="148" height="52" fill="#ebe4d6"/>
+    <text x="470" y="102" text-anchor="middle">UK logic, Bletchley</text>
+    <rect x="141" y="168" width="148" height="52" fill="#e4dbd0"/>
+    <text x="215" y="198" text-anchor="middle">Bell Labs</text>
+    <rect x="311" y="168" width="148" height="52" fill="#e4dbd0"/>
+    <text x="385" y="198" text-anchor="middle">RAND systems</text>
+  </g>
+  <g stroke="#9a9084" stroke-width="0.8" fill="none">
+    <line x1="130" y1="124" x2="215" y2="168"/>
+    <line x1="300" y1="124" x2="215" y2="168"/>
+    <line x1="470" y1="124" x2="385" y2="168"/>
+  </g>
+  <text x="300" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#6b6358">One supplemental map per article maximum when institutions matter.</text>
+  <text x="300" y="286" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#8a8074">Influence sketch only.</text>
+</svg>

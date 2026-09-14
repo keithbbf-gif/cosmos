@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Schematic fig belt of the Mediterranean and Near East</title>
+  <desc id="desc">Not a surveyed map. Long-cultivation belt from the Atlantic Maghreb to the Iranian plateau, with Levant, Aegean, and Nile labeled.</desc>
+  <rect width="960" height="540" fill="#f4efe4"/>
+  <text x="32" y="40" font-family="Georgia, serif" font-size="22" fill="#2c2416">The fig belt  schematic</text>
+  <text x="32" y="64" font-family="Georgia, serif" font-size="13" fill="#6a5b45">History of the Fig · FigRoots pack · not GIS</text>
+  <!-- water -->
+  <ellipse cx="380" cy="280" rx="280" ry="90" fill="#c5d4c8" opacity="0.9"/>
+  <text x="300" y="285" font-family="Georgia, serif" font-size="14" fill="#3d5348">Mediterranean</text>
+  <!-- land masses as soft blocks -->
+  <path d="M80,210 C140,170 220,180 280,200 C340,160 420,150 500,170 C560,140 640,150 720,190 C800,160 880,200 900,240 L900,360 C820,340 740,350 660,370 C560,400 460,390 360,370 C260,400 160,380 80,340 Z" fill="#e0d3b8" stroke="#8a7349" stroke-width="1.2"/>
+  <!-- belt -->
+  <path d="M100,250 C200,230 320,240 420,235 C560,228 700,250 860,270" fill="none" stroke="#8b3a2a" stroke-width="18" stroke-linecap="round" opacity="0.25"/>
+  <path d="M100,250 C200,230 320,240 420,235 C560,228 700,250 860,270" fill="none" stroke="#8b3a2a" stroke-width="2" stroke-dasharray="6 5"/>
+  <!-- nodes -->
+  <g font-family="Georgia, serif" font-size="12" fill="#2c2416">
+    <circle cx="150" cy="255" r="5" fill="#8b3a2a"/>
+    <text x="150" y="242" text-anchor="middle">Maghreb</text>
+    <circle cx="250" cy="268" r="5" fill="#8b3a2a"/>
+    <text x="250" y="292">Iberia</text>
+    <circle cx="360" cy="248" r="5" fill="#8b3a2a"/>
+    <text x="348" y="236">Italy</text>
+    <circle cx="430" cy="255" r="5" fill="#8b3a2a"/>
+    <text x="438" y="248">Aegean</text>
+    <circle cx="500" cy="268" r="5" fill="#8b3a2a"/>
+    <text x="508" y="286">Levant</text>
+    <circle cx="470" cy="310" r="4" fill="#4a6b52"/>
+    <text x="478" y="324" fill="#4a6b52">Nile</text>
+    <circle cx="620" cy="250" r="5" fill="#8b3a2a"/>
+    <text x="628" y="242">Anatolia</text>
+    <circle cx="760" cy="268" r="5" fill="#8b3a2a"/>
+    <text x="770" y="262">Iranian plateau</text>
+  </g>
+  <text x="32" y="510" font-family="Georgia, serif" font-size="11" fill="#6a5b45">Dashed line = long historic cultivation, not wild limit. Green = Nile (two fig species). See articles 01, 17, 42, 47.</text>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="fig03-title fig03-desc">
+  <title id="fig03-title">Fig. 3 - Portrait plate: Sigmund Freud</title>
+  <desc id="fig03-desc">Editorial portrait plate with cleared public-domain photograph (Max Halberstadt, c. 1921) per PORTRAIT_SOURCES.md.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+      .name { font-size: 28px; font-weight: bold; }
+      .dates { font-size: 16px; fill: #6B2D3E; }
+      .frame { fill: none; stroke: #1C1A17; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect class="paper" width="960" height="720"/>
+  <rect x="0" y="0" width="960" height="6" fill="#6B2D3E"/>
+  <text x="40" y="38" class="ink caps">Fig. 03 - Portrait plate</text>
+  <rect class="frame" x="120" y="80" width="720" height="480" rx="2"/>
+  <rect class="frame" x="132" y="92" width="696" height="456" rx="2" stroke-width="0.6"/>
+  <image href="../../assets/portraits/sigmund-freud.jpg" x="200" y="140" width="560" height="360" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="200" y="140" width="560" height="360" fill="none" stroke="#6B2D3E" stroke-width="1"/>
+  <text x="480" y="590" text-anchor="middle" class="name ink">Sigmund Freud</text>
+  <text x="480" y="618" text-anchor="middle" class="dates">1856-1939 - Psychoanalysis</text>
+  <text x="40" y="670" class="muted caps">Credit</text>
+  <text x="40" y="692" class="ink" font-size="11">Max Halberstadt, studio portrait c. 1921. Public domain. Wikimedia Commons: File:Sigmund Freud, by Max Halberstadt (cropped).jpg</text>
+</svg>

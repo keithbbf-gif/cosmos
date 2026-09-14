@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" role="img" aria-labelledby="title desc">
+  <title id="title">Door signs for one overlapping job in several languages</title>
+  <desc id="desc">Teaching schematic of common professional titles: speech-language pathologist, speech and language therapist, Logop-de and Phoniater, orthophoniste, fonoaudi-logo. Not a complete world atlas and not a statement of legal equivalence.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .sub { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+      .center { fill: #FEF3C7; }
+      .ink { font-family: system-ui, sans-serif; font-size: 12px; fill: #1E293B; }
+      .name { font-family: Georgia, serif; font-size: 14px; font-weight: 600; fill: #1E293B; }
+      .label { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="400"/>
+  <text x="36" y="34" class="title">Names that do not match (door-sign sketch)</text>
+  <text x="36" y="52" class="sub">Same stroke, different letterhead. Not an equivalence table for licensure.</text>
+
+  <rect class="center" x="310" y="72" width="300" height="88" rx="4"/>
+  <text x="326" y="100" class="name">IALP congress word</text>
+  <text x="326" y="120" class="ink">Logopedics &amp; phoniatrics</text>
+  <text x="326" y="140" class="label">Vienna 1924  -  a shared room, not one job</text>
+
+  <rect class="box" x="36" y="72" width="250" height="100" rx="4"/>
+  <text x="50" y="98" class="name">United States</text>
+  <text x="50" y="120" class="ink">Speech-language pathologist</text>
+  <text x="50" y="140" class="label">Older: correctionist; pathologist</text>
+  <text x="50" y="156" class="label">ASHA stamp; graduate entry</text>
+
+  <rect class="box" x="634" y="72" width="250" height="100" rx="4"/>
+  <text x="648" y="98" class="name">United Kingdom</text>
+  <text x="648" y="120" class="ink">Speech and language therapist</text>
+  <text x="648" y="140" class="label">Older: speech therapist</text>
+  <text x="648" y="156" class="label">RCSLT / HCPC registration</text>
+
+  <rect class="box" x="36" y="188" width="270" height="100" rx="4"/>
+  <text x="50" y="214" class="name">German-speaking Europe</text>
+  <text x="50" y="236" class="ink">Logop-de/in  -  Phoniater</text>
+  <text x="50" y="256" class="label">Therapist vs physician titles</text>
+  <text x="50" y="274" class="label">UEP on the medical side</text>
+
+  <rect class="box" x="322" y="188" width="276" height="100" rx="4"/>
+  <text x="338" y="214" class="name">France</text>
+  <text x="338" y="236" class="ink">Orthophoniste</text>
+  <text x="338" y="256" class="label">Medical partner: ORL</text>
+  <text x="338" y="274" class="label">Name does not calque 'SLP'</text>
+
+  <rect class="box" x="614" y="188" width="270" height="100" rx="4"/>
+  <text x="628" y="214" class="name">Much of Latin America</text>
+  <text x="628" y="236" class="ink">Fonoaudi-logo/a</text>
+  <text x="628" y="256" class="label">Hearing and speech in one word</text>
+  <text x="628" y="274" class="label">National laws move</text>
+
+  <text x="36" y="322" class="sub">Japan, India, African, and Indigenous histories are not boxes here  -  the essay says why, and refuses Iowa as the map's center.</text>
+  <text x="36" y="348" class="sub">Figure: SLPWOW History series   -   editorial graphic. WHO head-counts hit the same translation problem.</text>
+  <text x="36" y="366" class="sub">Older titles (Sprachheilp-dagoge, speech correctionist) sit in the article table.</text>
+</svg>
