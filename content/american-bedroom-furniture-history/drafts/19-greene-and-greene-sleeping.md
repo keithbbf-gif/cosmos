@@ -10,9 +10,21 @@ regions: Pasadena, Southern California
 word_target: 1800-2800
 dek: "The Gamble House master bedroom is a black-walnut argument, not a teak suite from a catalog. The posts, pegs, and sleeping porch were made for one couple’s winter house."
 figures: 7
+
+figure_id: plates.lacma-blockfront-kneehole
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The Gamble House master bedroom is a black-walnut argument, not a teak suite from a catalog. The posts, pegs, and sleeping porch were made for one couple’s winter house."
 ---
 
 # Greene & Greene Sleeping
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg" alt="Newport block-and-shell kneehole bureau table at LACMA" width="1200" height="1303" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Arts-and-Crafts case joinery in American hardwood — Gamble House bedroom photos remain rights-reserved; museum case work stands in. <em>Rights:</em> Public domain; Los Angeles County Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg">source</a>. Newport block-and-shell kneehole bureau; LACMA M.2006.51.18.</figcaption>
+</figure>
+
 
 The bed in Bedroom No. 1 of the Gamble House, 4 Westmoreland Place, Pasadena, is black walnut. Not teak. Not mahogany. Those woods belong to other rooms in the same 1908 winter house: Burma teak in the entry, Honduras mahogany in the dining room, California redwood in the living-room panels, Douglas fir in the rafter tails that tourists photograph from the lawn. The USC Greene and Greene Digital Archive records the master-bedroom bedframe as unmarked black walnut, accession 01-66-205 in their numbering, with a footboard whose inlaid panel is the thing you actually stop for. A matching single-drawer night table, 01-66-207, is the same walnut, twenty-six inches high. The shop that cut them was not Grand Rapids. It was Peter and John Hall, working to drawings by Charles Sumner Greene and Henry Mather Greene, for David Berry Gamble and Mary Huggins Gamble, who already had a house in Cincinnati and wanted a Pasadena season that did not look like Ohio.
 

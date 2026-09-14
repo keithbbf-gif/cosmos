@@ -10,9 +10,21 @@ regions: United States, Atlantic shipping, northern Europe
 word_target: 1800-2800
 dek: "Drawers under the mattress do the high chest’s job in the only footprint a small room has left: the sleeper’s rectangle."
 figures: 6
+
+figure_id: plates.commons-malm-bedframe
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Drawers under the mattress do the high chest’s job in the only footprint a small room has left: the sleeper’s rectangle."
 ---
 
 # The Storage Bed
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Malm_bedframe_from_Ikea%2C_Brisbane%2C_Australia.jpg" alt="Flat-pack bed frame with under-bed clearance for storage drawers" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Storage beds start with a platform low enough to hide drawers — flat-pack made the idea cheap. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Malm_bedframe_from_Ikea,_Brisbane,_Australia.jpg">source</a>. IKEA MALM bed frame; flat-pack particleboard bedroom.</figcaption>
+</figure>
+
 
 A captain’s bed, in the language of American furniture ads, is a platform with drawers in the box the mattress sits on. Sometimes a bookcase headboard. Sometimes a cubby at the foot. The name wants a ship: a cabin so tight that the only place for shirts is under the berth, the captain’s privilege a few extra drawers. Maritime museums hold shipboard furniture — folding desks, berths built into bulkheads, chests lashed to the deck — but the retail “captain’s bed” of a 1970s apartment is not a documented descendant of a named naval type the way a Boston high chest is a Boston high chest. It is a nickname that stuck because it sounds like thrift and authority at once. `[CITE NEEDED: a dated ship-chandler or naval-furniture catalog that uses “captain’s bed” for a drawer-berth, if one exists; until then treat the nautical origin as folklore with a plausible cabin logic.]`
 

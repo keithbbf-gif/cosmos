@@ -10,9 +10,21 @@ regions: Philadelphia, Boston, Bradley County, Arkansas
 word_target: 1800-2800
 dek: "A maker in Bradley County looking at a Philadelphia or Boston high chest: shoulders and drawer boxes still earn their keep. A gilt pediment is theater. No SKU required."
 figures: 6
+
+figure_id: plates.nga-townsend-high-chest
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A maker in Bradley County looking at a Philadelphia or Boston high chest: shoulders and drawer boxes still earn their keep. A gilt pediment is theater. No SKU required."
 ---
 
 # A Shop Looking at a Highboy
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/High_Chest%2C_attributed_to_John_Townsend%2C_Newport%2C_1765-1770%2C_mahogany%2C_brass_-_National_Gallery_of_Art%2C_Washington_-_DSC08769.JPG" alt="Newport high chest with block-and-shell vocabulary, NGA Washington" width="1200" height="1880" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A shop measures pediment height and foot stance against a documented high chest. <em>Rights:</em> CC0 1.0; National Gallery of Art, Washington; <a href="https://commons.wikimedia.org/wiki/File:High_Chest,_attributed_to_John_Townsend,_Newport,_1765-1770,_mahogany,_brass_-_National_Gallery_of_Art,_Washington_-_DSC08769.JPG">source</a>. High chest attributed to John Townsend, Newport, 1765–70.</figcaption>
+</figure>
+
 
 I had a Philadelphia-type high chest in front of me only as photographs and a measured drawing — Downs’s Van Pelt description, a Met label, a Kindel reproduction in a dealer’s picture — and a Boston japanned stack in a museum file. I had oak on the bench in Bradley County. The useful question is not whether a Warren shop should build a bonnet top. It is which parts of that object still answer a room, and which parts are a theater that needs a parlor and a spotlight.
 

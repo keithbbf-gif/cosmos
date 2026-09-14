@@ -10,9 +10,21 @@ regions: Grand Rapids, Michigan
 word_target: 1800-2800
 dek: "Berkey & Gay began in door trim on Erie Street in 1859, showed Neo-Grec chamber suites at the 1876 Centennial, and closed in 1948. Grand Rapids taught the country to buy a bedroom by the set."
 figures: 7
+
+figure_id: plates.heywood-wakefield-complex
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Berkey & Gay began in door trim on Erie Street in 1859, showed Neo-Grec chamber suites at the 1876 Centennial, and closed in 1948. Grand Rapids taught the country to buy a bedroom by the set."
 ---
 
 # The Grand Rapids Bedroom Factory
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Heywood-Wakefield_Company_Complex_-_Gardner%2C_MA_-_DSC00884.JPG" alt="Heywood-Wakefield factory complex in Gardner, Massachusetts" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Grand Rapids and Gardner factory towns — bedroom furniture at industrial scale before the catalog hero. <em>Rights:</em> CC0 1.0; Wikimedia Commons (National Register photograph); <a href="https://commons.wikimedia.org/wiki/File:Heywood-Wakefield_Company_Complex_-_Gardner,_MA_-_DSC00884.JPG">source</a>. Heywood-Wakefield factory complex, Gardner, Massachusetts.</figcaption>
+</figure>
+
 
 In 1859 Julius Berkey and James Eggleston started making sash, doors, and blinds in a small shop on Erie Street in Grand Rapids. Door trim. Not beds. Julius, a mechanic, also made quartette stands — small tables — on the side. William A. Berkey had a similar millwork factory on Mill Street. In 1860 Julius and Alphonso Ham were using part of that building’s second floor for furniture. The winter after, Julius sold his interest in Berkey and Eggleston to his partner, who wound the sash shop up. In April 1861 Julius started again at the same place, furniture this time, alone until November 1862, when Elias Matter came in and the firm became Berkey & Matter. Julius put in about five dollars in cash and a few hundred dollars’ worth of machinery and materials. Matter inventoried his tool chest at about six dollars. Those figures come from a Grand Rapids institutional memory (Robert W. Merrill is named as the source in the later company sketches) and should be treated as lore with a price tag, not as a audited ledger. `[CITE NEEDED: the 1891 or 1926 company history page that quotes the five-dollar / six-dollar start, before a caption uses the numbers as fact.]`
 

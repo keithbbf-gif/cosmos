@@ -10,9 +10,21 @@ regions: San Francisco; United States
 word_target: 1800-2800
 dek: "Charles Hall’s vinyl bladder, a brass four-poster revival, and Mediterranean oak suites split the American bedroom into three kinds of theater. The Craftsman bed waited."
 figures: 7
+
+figure_id: plates.commons-waterbed-softside
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Charles Hall’s vinyl bladder, a brass four-poster revival, and Mediterranean oak suites split the American bedroom into three kinds of theater. The Craftsman bed waited."
 ---
 
 # Waterbeds and 1970s Brass
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Softside_Waterbed_Inside.JPG" alt="Interior of a softside waterbed showing the bladder and frame" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The waterbed is a furniture technology — bladder, heater, and frame in one chamber argument. <em>Rights:</em> Public domain; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Softside_Waterbed_Inside.JPG">source</a>. Softside waterbed interior; 1970s bedroom technology.</figcaption>
+</figure>
+
 
 Charles Hall, a design student at San Francisco State, showed an eight-foot-square heated water mattress called the Pleasure Pit at a 1968 gallery event, “The Happy Happening,” on Leavenworth Street (some later accounts say the Cannery). He had tried starch and Jell-O. They stank and weighed too much. Water in a vinyl bladder, with heat, became the object. Innerspace Environments manufactured. U.S. Patent 3,585,356, “Liquid Support for Human Bodies,” issued 15 June 1971. Hugh Hefner ordered a king covered in Tasmanian opossum for the Playboy Mansion. Jefferson Airplane and a Smothers Brother appear in the early press. Bloomingdale’s later stocked waterbeds. By 1978 the *New York Times* could run “The Waterbed Has Come Out of the Closet”: Abraham Herrar of the Waterbed Factory in San Francisco selling 1,500 a year, frames in Early American and French Provincial, a $139 pine single and a $1,900 king with a mirrored canopy. Ike Fogel of the waterbed association remembered the 1960s as a joke that had become a product.
 

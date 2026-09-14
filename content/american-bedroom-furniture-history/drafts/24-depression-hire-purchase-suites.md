@@ -10,9 +10,21 @@ regions: United States
 word_target: 1800-2800
 dek: "A complete bedroom in 1934 was a bed, a dresser, and a payment book. The woods were cheaper than the copy. The room was often someone else’s house."
 figures: 6
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A complete bedroom in 1934 was a bed, a dresser, and a payment book. The woods were cheaper than the copy. The room was often someone else’s house."
 ---
 
 # Depression Hire-Purchase Suites
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="Victorian slipper chair with low seat, Met American Wing" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Hire-purchase bedrooms sold a chair and a dresser before they sold a story — slipper seating in the chamber. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair; Depression-era bedroom seating fill.</figcaption>
+</figure>
+
 
 Sears’s 1938 bedroom page does not open on a wood. It opens on an outfit: dresser, chest, vanity, bed, and stool, three styles on one sheet, then four beds sold alone — Honor Bilt, heavy hardwood, Jenny Lind, rich veneer, modern panel. The customer is not a collector. The customer is a couple who need a room to be a room. If they have no closet, the facing page will sell them a chifforobe. If they have no cash, the catalog’s credit language — easy terms, time, the store’s own installment desk — will do what the furniture dealer on Main Street already did: take a dollar down and a promise.
 

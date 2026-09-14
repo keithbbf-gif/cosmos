@@ -10,9 +10,21 @@ regions: United States
 word_target: 1800-2800
 dek: "A small table by the bed becomes a type when the lamp, the glass, and the telephone need a home. It is the last piece the photographed suite cannot do without."
 figures: 6
+
+figure_id: plates.met-dressing-stand-194006
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A small table by the bed becomes a type when the lamp, the glass, and the telephone need a home. It is the last piece the photographed suite cannot do without."
 ---
 
 # The Nightstand Invention
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Dressing_Stand_MET_194006.jpg" alt="Dressing stand with mirror and small drawers beside the bed wall" width="1200" height="1584" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The nightstand inherits the dressing stand's footprint — a small case within arm's reach. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dressing_Stand_MET_194006.jpg">source</a>. Dressing stand with mirror; vanity and night-table kin.</figcaption>
+</figure>
+
 
 A four-legged stand beside the bed, the top about mattress height, one or two drawers for what the night required, is not a colonial type. Candle stands of the eighteenth century were light, often tripod, easy to tip, parked where light was needed, not dedicated to sleep. The Kovel column that traced the four-legged lamp table to the early 1800s — safer than a three-leg, a drawer for nighttime things, maple or mahogany, later drop leaves and glass knobs — is a popular version of a real shift. Whale-oil lamps wanted a stable deck. A glass of water wanted the same. The object that furniture English would eventually call a nightstand is a small case or a table that has agreed to live next to the sleeper.
 

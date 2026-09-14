@@ -10,9 +10,21 @@ regions: New Hope, Pennsylvania
 word_target: 1800-2800
 dek: "A Conoid headboard is a tree, sliding doors, and a platform. George Nakashima’s New Hope shop made one-offs while Grand Rapids made suites. Mira kept the bench going."
 figures: 7
+
+figure_id: plates.nakashima-arlyn
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A Conoid headboard is a tree, sliding doors, and a platform. George Nakashima’s New Hope shop made one-offs while Grand Rapids made suites. Mira kept the bench going."
 ---
 
 # Nakashima Slab Headboard
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/%22Arlyn%22_table_by_George_Nakashima.jpg" alt="George Nakashima Arlyn table with live edge and butterfly keys" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Slab and butterfly keys — Nakashima's chamber tables share the headboard's tree. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:%22Arlyn%22_table_by_George_Nakashima.jpg">source</a>. George Nakashima "Arlyn" table with live edge and butterfly keys.</figcaption>
+</figure>
+
 
 A Conoid headboard and platform bed from George Nakashima’s shop in New Hope, Pennsylvania, dated 1976 in one auction file, is French olive ash burl and American ash: a headboard about twenty-four inches high and 108 inches wide, an overhang with sap grain and a free edge, four sliding doors, a shelf behind, a platform about ten inches high for a sixty-inch mattress. Another, 1974, for a client named Schull, is signed on the underside of the platform. Order cards exist. Drawings exist. This is not a suite number in a Winchendon folder. It is a tree, a client, a date, and a shop on Aquetong Road.
 

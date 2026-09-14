@@ -10,9 +10,21 @@ regions: Grand Rapids, Midwest factories, United States
 word_target: 1800-2800
 dek: "A waterfall suite is plywood bent to a curve and sold as a complete bedroom. It is not Ruhlmann, and it did not need to be."
 figures: 7
+
+figure_id: plates.memphis-paris
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A waterfall suite is plywood bent to a curve and sold as a complete bedroom. It is not Ruhlmann, and it did not need to be."
 ---
 
 # Waterfall and Art Deco Suites
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg" alt="Memphis Group furniture objects on display in Paris" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Streamlined waterfall veneers and later postmodern color — both are suite-selling surfaces. <em>Rights:</em> CC BY-SA 4.0; Musée des Arts Décoratifs, Paris; <a href="https://commons.wikimedia.org/wiki/File:Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg">source</a>. Memphis Group objects — postmodern color for Art Deco suite context.</figcaption>
+</figure>
+
 
 A Sears, Roebuck bedroom “outfit” of the 1930s is a photograph of a bed, a vanity with a stool, a dresser, a chest, sometimes a nightstand, all with the same rounded front. The top of the dresser does not end in a sharp arris. It pours. Veneer — walnut, a figured stripe, a blond — runs over the curve so the grain looks like water going over a lip. Buyers called it waterfall. The factories called it modern. It was the American bedroom’s Art Deco: not the 1925 Paris of Jacques-Émile Ruhlmann’s macassar and ivory, not Süe et Mare, not an ébéniste’s file. It was lumber-core plywood, a mold, a glue pot, and a price that a newlywed could carry on time.
 

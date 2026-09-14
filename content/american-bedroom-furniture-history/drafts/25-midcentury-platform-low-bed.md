@@ -10,9 +10,21 @@ regions: United States
 word_target: 1800-2800
 dek: "The posts go. The bed becomes a mattress on a low box, advertised with Japan in the copy and made in American factories that were not Danish."
 figures: 6
+
+figure_id: plates.moma-midcentury-chairs
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The posts go. The bed becomes a mattress on a low box, advertised with Japan in the copy and made in American factories that were not Danish."
 ---
 
 # The Midcentury Platform and the Low Bed
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/MOMA_chairs_2.jpg" alt="Mid-century modern chairs on display at the Museum of Modern Art" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Low silhouettes and platform logic — mid-century sleep borrowed dining-room modernism. <em>Rights:</em> CC BY 2.5; Museum of Modern Art (photograph on Commons); <a href="https://commons.wikimedia.org/wiki/File:MOMA_chairs_2.jpg">source</a>. Mid-century seating on display; platform-bed era.</figcaption>
+</figure>
+
 
 George Nelson and Henry Wright’s *Tomorrow’s House* (1945) asks the reader to look at the bedroom as a place where more than sleep happens, not as a room that exists to hold a standard suite. Nelson, from 1946 design director at Herman Miller, had the factory to try the thought. The Thin Edge bed of 1954 is a low platform with a slim headboard, a horizontal line, no posts, no footboard theater. It sits close to the floor by the standard of a 1938 waterfall. It is an American industrial object, designed in Michigan’s orbit, not a futon and not a Copenhagen export. If you want the postwar American bedroom’s argument in one piece, start here rather than with a teak headboard that arrived in a department-store container.
 

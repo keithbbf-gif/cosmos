@@ -1,0 +1,271 @@
+# src URLs are Wikimedia Commons upload links (no utm params in embeds).
+
+[plates.met-high-chest-18-110-4]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/33/High_chest_of_drawers_MET_h1_18.110.4_av3.jpg"
+width = 1200
+height = 1831
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_h1_18.110.4_av3.jpg"
+credit = "Philadelphia high chest of drawers; Met 18.110.4."
+
+[plates.met-high-chest-18-110-6]
+src = "https://upload.wikimedia.org/wikipedia/commons/0/05/High_chest_of_drawers_MET_ADA3121.jpg"
+width = 1200
+height = 1787
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_ADA3121.jpg"
+credit = "Philadelphia high chest of drawers; Met 18.110.6 line."
+
+[plates.met-high-chest-dp105043]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/31/High_chest_of_drawers_MET_DP105043.jpg"
+width = 1200
+height = 1500
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP105043.jpg"
+credit = "American high chest of drawers; Met American Wing."
+
+[plates.met-high-chest-dp360492]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f4/High_chest_of_drawers_MET_DP360492.jpg"
+width = 1200
+height = 1599
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP360492.jpg"
+credit = "High chest of drawers; Met collection photograph."
+
+[plates.met-chest-on-chest-64-249-3]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Chest-on-chest_MET_ADA6376.jpg"
+width = 1200
+height = 1862
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Chest-on-chest_MET_ADA6376.jpg"
+credit = "New York chest-on-chest; Met 64.249.3 Van Rensselaer provenance."
+
+[plates.lacma-blockfront-kneehole]
+src = "https://upload.wikimedia.org/wikipedia/commons/6/69/Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg"
+width = 1200
+height = 1303
+license = "Public domain"
+institution = "Los Angeles County Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg"
+credit = "Newport block-and-shell kneehole bureau; LACMA M.2006.51.18."
+
+[plates.nga-townsend-high-chest]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/2e/High_Chest%2C_attributed_to_John_Townsend%2C_Newport%2C_1765-1770%2C_mahogany%2C_brass_-_National_Gallery_of_Art%2C_Washington_-_DSC08769.JPG"
+width = 1200
+height = 1880
+license = "CC0 1.0"
+institution = "National Gallery of Art, Washington"
+source_page = "https://commons.wikimedia.org/wiki/File:High_Chest,_attributed_to_John_Townsend,_Newport,_1765-1770,_mahogany,_brass_-_National_Gallery_of_Art,_Washington_-_DSC08769.JPG"
+credit = "High chest attributed to John Townsend, Newport, 1765–70."
+
+[plates.met-lannuier-bedstead-2007-475]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d2/Bedstead_MET_DT2847.jpg"
+width = 1200
+height = 799
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Bedstead_MET_DT2847.jpg"
+credit = "Bedstead by Charles-Honoré Lannuier and Jean-Charles Cochois; Met 2007.475a–i."
+
+[plates.met-bedstead-doggett-41840]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/25/Bedstead_MET_41840.jpg"
+width = 1200
+height = 1452
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Bedstead_MET_41840.jpg"
+credit = "American four-poster bedstead; John Doggett & Co. orbit; Met 41840."
+
+[plates.met-bedstead-doggett-139067]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/Bedstead_MET_139067.jpg"
+width = 1200
+height = 1477
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Bedstead_MET_139067.jpg"
+credit = "American bedstead with tall posts; Met 139067."
+
+[plates.met-shaker-bedstead-dp263973]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bedstead_MET_DP263973.jpg"
+width = 1200
+height = 836
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Bedstead_MET_DP263973.jpg"
+credit = "Shaker bedstead; Met American Wing."
+
+[plates.met-blanket-chest-shaker-190605]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanket_Chest_MET_190605.jpg"
+width = 1200
+height = 972
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Blanket_Chest_MET_190605.jpg"
+credit = "Shaker blanket chest; chamber storage in a plain room."
+
+[plates.met-empire-bed-alcove-dp830909]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Design_for_a_Bed_Alcove_in_Empire_Style_MET_DP830909.jpg"
+width = 1200
+height = 944
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Design_for_a_Bed_Alcove_in_Empire_Style_MET_DP830909.jpg"
+credit = "Empire-style bed alcove design; Met Drawings and Prints."
+
+[plates.met-gothic-bed-drawing-dp104159]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/fb/Gothick_-Gothic-_Bed%2C_in_Chippendale_Drawings%2C_Vol._I_MET_DP104159.jpg"
+width = 1200
+height = 897
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Gothick_-Gothic-_Bed,_in_Chippendale_Drawings,_Vol._I_MET_DP104159.jpg"
+credit = "Gothick bed design after Chippendale; reform-bedroom plate."
+
+[plates.met-wardrobe-dp240601]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wardrobe_MET_DP240601.jpg"
+width = 1200
+height = 900
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Wardrobe_MET_DP240601.jpg"
+credit = "American wardrobe; standing bedroom storage before the closet."
+
+[plates.met-dressing-stand-194006]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/af/Dressing_Stand_MET_194006.jpg"
+width = 1200
+height = 1584
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Dressing_Stand_MET_194006.jpg"
+credit = "Dressing stand with mirror; vanity and night-table kin."
+
+[plates.met-cradle-197317]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/3b/Cradle_MET_197317.jpg"
+width = 1200
+height = 1035
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Cradle_MET_197317.jpg"
+credit = "American cradle; children's beds chapter."
+
+[plates.stickley-celadine-table]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/26/Gustav_stickley_per_gustave_stickley_company%2C_tavolino_da_the_celadine_%28n._27%29%2C_eastwood_NY_1900_ca.jpg"
+width = 1200
+height = 1485
+license = "CC BY 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Gustav_stickley_per_gustave_stickley_company,_tavolino_da_the_celadine_(n._27),_eastwood_NY_1900_ca.jpg"
+credit = "Gustav Stickley No. 27 table, Eastwood, New York, c. 1900."
+
+[plates.roycroft-morris-chair-235723]
+src = "https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg"
+width = 1200
+height = 1357
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg"
+credit = "Reclining Morris chair; Arts and Crafts chamber seating."
+
+[plates.met-rococo-sofa-dp216417]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/77/Sofa_MET_DP216417.jpg"
+width = 1200
+height = 1127
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Sofa_MET_DP216417.jpg"
+credit = "Rococo Revival parlor sofa; Hollywood Regency glamour antecedent."
+
+[plates.memphis-paris]
+src = "https://upload.wikimedia.org/wikipedia/commons/a/a4/Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 4.0"
+institution = "Musée des Arts Décoratifs, Paris"
+source_page = "https://commons.wikimedia.org/wiki/File:Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg"
+credit = "Memphis Group objects — postmodern color for Art Deco suite context."
+
+[plates.met-slipper-chair-150203]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg"
+width = 1200
+height = 1677
+license = "CC0 1.0 (Met Open Access)"
+institution = "The Metropolitan Museum of Art"
+source_page = "https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg"
+credit = "Victorian slipper chair; Depression-era bedroom seating fill."
+
+[plates.moma-midcentury-chairs]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/1c/MOMA_chairs_2.jpg"
+width = 1200
+height = 900
+license = "CC BY 2.5"
+institution = "Museum of Modern Art (photograph on Commons)"
+source_page = "https://commons.wikimedia.org/wiki/File:MOMA_chairs_2.jpg"
+credit = "Mid-century seating on display; platform-bed era."
+
+[plates.wegner-wishbone-chair]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hans_Wegner_Wishbone_Chair.jpg"
+width = 800
+height = 1200
+license = "CC BY-SA 2.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg"
+credit = "Hans Wegner Wishbone chair — Danish modern in American bedrooms."
+
+[plates.nakashima-arlyn]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/5d/%22Arlyn%22_table_by_George_Nakashima.jpg"
+width = 1200
+height = 1600
+license = "CC0 1.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:%22Arlyn%22_table_by_George_Nakashima.jpg"
+credit = "George Nakashima \"Arlyn\" table with live edge and butterfly keys."
+
+[plates.commons-waterbed-softside]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b3/Softside_Waterbed_Inside.JPG"
+width = 1200
+height = 900
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Softside_Waterbed_Inside.JPG"
+credit = "Softside waterbed interior; 1970s bedroom technology."
+
+[plates.commons-ethan-allen-plant]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/26/Ethan_Allen_furniture_plant_and_lumber_processing_manufacturing_facility_in_Old_Fort%2C_North_Carolina_07.jpg"
+width = 1200
+height = 900
+license = "CC BY 4.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Ethan_Allen_furniture_plant_and_lumber_processing_manufacturing_facility_in_Old_Fort,_North_Carolina_07.jpg"
+credit = "Ethan Allen manufacturing plant; catalog-suite industrial scale."
+
+[plates.commons-malm-bedframe]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/e7/Malm_bedframe_from_Ikea%2C_Brisbane%2C_Australia.jpg"
+width = 1200
+height = 1600
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Malm_bedframe_from_Ikea,_Brisbane,_Australia.jpg"
+credit = "IKEA MALM bed frame; flat-pack particleboard bedroom."
+
+[plates.ikea-lack]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/15/IKEA_Lack.jpg"
+width = 1050
+height = 1198
+license = "CC BY 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:IKEA_Lack.jpg"
+credit = "IKEA LACK table — flat-pack nightstand and case-good cousin."
+
+[plates.heywood-wakefield-complex]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b7/Heywood-Wakefield_Company_Complex_-_Gardner%2C_MA_-_DSC00884.JPG"
+width = 1200
+height = 900
+license = "CC0 1.0"
+institution = "Wikimedia Commons (National Register photograph)"
+source_page = "https://commons.wikimedia.org/wiki/File:Heywood-Wakefield_Company_Complex_-_Gardner,_MA_-_DSC00884.JPG"
+credit = "Heywood-Wakefield factory complex, Gardner, Massachusetts."

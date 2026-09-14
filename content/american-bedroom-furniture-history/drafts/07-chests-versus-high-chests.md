@@ -10,9 +10,21 @@ regions: Philadelphia, New York, New England, Newport
 word_target: 1800-2800
 dek: "Americans kept the high chest on legs and the chest-on-chest on bracket feet because they did different jobs. The highboy dies as a shop product around 1800 and comes back as an antique."
 figures: 7
+
+figure_id: plates.met-high-chest-18-110-4
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Americans kept the high chest on legs and the chest-on-chest on bracket feet because they did different jobs. The highboy dies as a shop product around 1800 and comes back as an antique."
 ---
 
 # Chests versus High Chests
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/High_chest_of_drawers_MET_h1_18.110.4_av3.jpg" alt="Philadelphia high chest of drawers with scrolled pediment and cabriole legs, Met 18.110.4" width="1200" height="1831" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The legs are the argument — a high chest on cabriole feet, not a floor-standing chest-on-chest. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_h1_18.110.4_av3.jpg">source</a>. Philadelphia high chest of drawers; Met 18.110.4.</figcaption>
+</figure>
+
 
 Met 18.110.4 stands ninety-one and three-quarter inches in the American Wing: mahogany and mahogany veneer over yellow pine, tulip poplar, and northern white cedar, Philadelphia, 1762–65. A scrolled pediment, a figural finial, a serpent-and-swan carving on the bottom drawer that Morrison Heckscher’s catalog traces to Thomas Johnson’s *A New Book of Ornaments* (London, 1762). Collectors call it a highboy. The shop that made it called it a high chest of drawers. The legs are the argument. This case does not sit on the floor. It stands on cabriole legs the way a dressing table stands, and that is why Philadelphia could sell it with a matching low chest — the dressing table — as a pair without ever inventing a suite.
 

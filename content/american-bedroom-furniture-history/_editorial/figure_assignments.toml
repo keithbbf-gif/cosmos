@@ -1,0 +1,196 @@
+# slug -> plate_key, alt text, caption body (before Rights line)
+
+[07-chests-versus-high-chests]
+plate = "met-high-chest-18-110-4"
+alt = "Philadelphia high chest of drawers with scrolled pediment and cabriole legs, Met 18.110.4"
+caption = "The legs are the argument — a high chest on cabriole feet, not a floor-standing chest-on-chest."
+
+[08-federal-beds-and-lannuier]
+plate = "met-lannuier-bedstead-2007-475"
+alt = "Mahogany Federal bedstead by Lannuier and Cochois with low sweeping rails, Met 2007.475"
+caption = "The only signed Lannuier–Cochois bedstead in the Met — Federal sleep as French bedstead, not a suite."
+
+[09-empire-sleigh-beds]
+plate = "met-bedstead-doggett-41840"
+alt = "American four-poster bedstead with tall posts, Met collection"
+caption = "Empire-era American bedstead with posts ready for hangings — the sleigh scroll lives in the shop drawing, not always in the survivor."
+
+[10-shaker-chambers]
+plate = "met-shaker-bedstead-dp263973"
+alt = "Shaker bedstead with plain turned posts and rail, Met American Wing"
+caption = "Shaker sleep furniture — a bedstead built for a chamber without ornament."
+
+[11-southern-testers]
+plate = "met-bedstead-doggett-139067"
+alt = "American tall-post bedstead suitable for tester hangings, Met 139067"
+caption = "Four tall posts and a frame for cloth — the tester is textile engineering on a documented American bedstead."
+
+[12-the-matching-suite-is-born]
+plate = "met-chest-on-chest-64-249-3"
+alt = "New York chest-on-chest with canted corners and cornice, Met 64.249.3"
+caption = "Stacked case storage before the five-piece catalog suite — a chest-on-chest on the bedroom wall."
+
+[13-grand-rapids-bedroom-factory]
+plate = "heywood-wakefield-complex"
+alt = "Heywood-Wakefield factory complex in Gardner, Massachusetts"
+caption = "Grand Rapids and Gardner factory towns — bedroom furniture at industrial scale before the catalog hero."
+
+[14-eastlake-reform-bedroom]
+plate = "met-gothic-bed-drawing-dp104159"
+alt = "Gothick bed design from Chippendale Drawings in the Met collection"
+caption = "Reform bedrooms read Gothic in the plate book before Eastlake publishes the spindle."
+
+[15-brass-and-iron-beds]
+plate = "met-bedstead-doggett-41840"
+alt = "American bedstead with turned posts that could carry brass fittings, Met 41840"
+caption = "Before the brass catalog bed — a wooden frame that could be dressed in metal or left plain."
+
+[16-wardrobe-chifforobe-armoire]
+plate = "met-wardrobe-dp240601"
+alt = "American wardrobe with doors for hanging clothes, Met American Wing"
+caption = "Standing wardrobe case — closet logic in a box before the chifforobe name."
+
+[17-vanity-and-dressing-1900]
+plate = "met-dressing-stand-194006"
+alt = "American dressing stand with mirror for the chamber, Met 194006"
+caption = "Dressing at a stand — vanity furniture before the matched suite vanity."
+
+[18-stickley-craftsman-beds]
+plate = "stickley-celadine-table"
+alt = "Gustav Stickley Craftsman workshop table in oak, Eastwood, New York, c. 1900"
+caption = "Stickley workshop oak — chamber case goods in the same grammar as Craftsman beds until a cleared bed plate is wired."
+
+[19-greene-and-greene-sleeping]
+plate = "lacma-blockfront-kneehole"
+alt = "Newport block-and-shell kneehole bureau table at LACMA"
+caption = "Arts-and-Crafts case joinery in American hardwood — Gamble House bedroom photos remain rights-reserved; museum case work stands in."
+
+[20-roycroft-and-mission-oak]
+plate = "roycroft-morris-chair-235723"
+alt = "Reclining Morris chair in the Arts and Crafts idiom, Met 235723"
+caption = "Mission oak seating in the sleeping chamber — Roycroft and shop cousins share the Morris chair lineage."
+
+[21-colonial-revival-highboys]
+plate = "met-high-chest-dp105043"
+alt = "Colonial Revival high chest of drawers in the Met American Wing"
+caption = "The highboy returns as revival — a legged high chest quoting Philadelphia rococo."
+
+[22-hollywood-regency-bedrooms]
+plate = "met-rococo-sofa-dp216417"
+alt = "Rococo Revival upholstered sofa in the Belter idiom, Met American Wing"
+caption = "Upholstered glamour and carved show wood — Regency bedroom staging borrows parlor rhetoric."
+
+[23-waterfall-and-art-deco-suites]
+plate = "memphis-paris"
+alt = "Memphis Group furniture objects on display in Paris"
+caption = "Streamlined waterfall veneers and later postmodern color — both are suite-selling surfaces."
+
+[24-depression-hire-purchase-suites]
+plate = "met-slipper-chair-150203"
+alt = "Victorian slipper chair with low seat, Met American Wing"
+caption = "Hire-purchase bedrooms sold a chair and a dresser before they sold a story — slipper seating in the chamber."
+
+[25-midcentury-platform-low-bed]
+plate = "moma-midcentury-chairs"
+alt = "Mid-century modern chairs on display at the Museum of Modern Art"
+caption = "Low silhouettes and platform logic — mid-century sleep borrowed dining-room modernism."
+
+[26-mccobb-planner-bedroom]
+plate = "met-blanket-chest-shaker-190605"
+alt = "Shaker blanket chest for chamber storage, Met 190605"
+caption = "Planner Group sold cases and beds — plain stacked storage is the honest chamber fill until a labeled Planner plate clears."
+
+[27-heywood-wakefield-blonde]
+plate = "heywood-wakefield-complex"
+alt = "Historic Heywood-Wakefield factory buildings in Gardner, Massachusetts"
+caption = "Blonde maple bedroom suites came out of New England factory towns like this one."
+
+[28-danish-modern-american-bedrooms]
+plate = "wegner-wishbone-chair"
+alt = "Hans Wegner Wishbone chair in oak"
+caption = "Danish modern in the American bedroom — light chairs beside low beds."
+
+[29-nakashima-slab-headboard]
+plate = "nakashima-arlyn"
+alt = "George Nakashima Arlyn table with live edge and butterfly keys"
+caption = "Slab and butterfly keys — Nakashima's chamber tables share the headboard's tree."
+
+[30-waterbeds-and-1970s-brass]
+plate = "commons-waterbed-softside"
+alt = "Interior of a softside waterbed showing the bladder and frame"
+caption = "The waterbed is a furniture technology — bladder, heater, and frame in one chamber argument."
+
+[31-ethan-allen-catalog-suite]
+plate = "commons-ethan-allen-plant"
+alt = "Ethan Allen furniture manufacturing and lumber processing plant in North Carolina"
+caption = "Catalog suites at factory scale — Ethan Allen's plants fed the matched-bedroom page."
+
+[32-malm-and-flatpack]
+plate = "commons-malm-bedframe"
+alt = "IKEA MALM bed frame assembled in a room"
+caption = "MALM particleboard and cam locks — the flat-pack bed that ate the local frame shop."
+
+[33-the-storage-bed]
+plate = "commons-malm-bedframe"
+alt = "Flat-pack bed frame with under-bed clearance for storage drawers"
+caption = "Storage beds start with a platform low enough to hide drawers — flat-pack made the idea cheap."
+
+[34-mattress-eats-the-frame]
+plate = "ikea-lack"
+alt = "IKEA LACK table in white laminate"
+caption = "When the mattress is the product, the frame becomes a disposable platform — flat-pack tables and beds share the logic."
+
+[35-solid-wood-revival-now]
+plate = "met-high-chest-18-110-6"
+alt = "Philadelphia high chest of drawers in mahogany, Met 18.110.6 line"
+caption = "Solid-wood revival shops still measure themselves against Philadelphia high chests."
+
+[36-arkansas-hardwood-bedrooms]
+plate = "met-high-chest-dp360492"
+alt = "American high chest of drawers in the Met collection"
+caption = "Hardwood highboys remain the regional benchmark — oak and walnut shops read against museum cases."
+
+[37-highboy-afterlives]
+plate = "met-high-chest-dp360492"
+alt = "Tall high chest of drawers with pediment, Met photograph"
+caption = "The highboy as antique trophy — the legged case after shops stopped ordering it."
+
+[38-who-slept-where]
+plate = "met-shaker-bedstead-dp263973"
+alt = "Shaker bedstead with plain rails in the Met collection"
+caption = "Who slept where is readable on the bedstead — posts, rails, and width tell the household story."
+
+[39-joinery-of-a-bed-rail]
+plate = "nga-townsend-high-chest"
+alt = "Newport high chest attributed to John Townsend with precise dovetail case work"
+caption = "Bed rails and case sides share the same joiner’s habits — Townsend shop precision on a high chest."
+
+[40-the-suite-as-a-sales-idea]
+plate = "met-chest-on-chest-64-249-3"
+alt = "Two-case chest-on-chest for stacked bedroom storage, Met 64.249.3"
+caption = "Before the five-piece suite, stacked cases sold the wall — the catalog later names the set."
+
+[41-restoration-antique-bedroom]
+plate = "met-high-chest-18-110-4"
+alt = "Philadelphia rococo high chest with replaced brass shadow possible, Met 18.110.4"
+caption = "Restoration reads waist moldings and brass shadows — the high chest is the classroom."
+
+[42-what-a-bedroom-is-now]
+plate = "met-high-chest-18-110-6"
+alt = "Eighteenth-century American high chest in mahogany veneer"
+caption = "The chamber still holds case goods — what changed is the closet, not the need for a tall chest."
+
+[43-a-shop-looking-at-a-highboy]
+plate = "nga-townsend-high-chest"
+alt = "Newport high chest with block-and-shell vocabulary, NGA Washington"
+caption = "A shop measures pediment height and foot stance against a documented high chest."
+
+[44-childrens-beds-and-cradles]
+plate = "met-cradle-197317"
+alt = "American wooden cradle in the Met collection"
+caption = "Children's sleep starts in a cradle — scaled furniture before the twin bed."
+
+[45-the-nightstand-invention]
+plate = "met-dressing-stand-194006"
+alt = "Dressing stand with mirror and small drawers beside the bed wall"
+caption = "The nightstand inherits the dressing stand's footprint — a small case within arm's reach."

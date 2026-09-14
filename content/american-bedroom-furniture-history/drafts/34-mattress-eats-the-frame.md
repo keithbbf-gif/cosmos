@@ -10,9 +10,21 @@ regions: United States, Sweden
 word_target: 1800-2800
 dek: "Memory foam and a box on the porch turned the bed into a cushion. The headboard is a separate SKU. Joinery waits in the other room."
 figures: 6
+
+figure_id: plates.ikea-lack
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Memory foam and a box on the porch turned the bed into a cushion. The headboard is a separate SKU. Joinery waits in the other room."
 ---
 
 # The Mattress Eats the Frame
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/IKEA_Lack.jpg" alt="IKEA LACK table in white laminate" width="1050" height="1198" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> When the mattress is the product, the frame becomes a disposable platform — flat-pack tables and beds share the logic. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:IKEA_Lack.jpg">source</a>. IKEA LACK table — flat-pack nightstand and case-good cousin.</figcaption>
+</figure>
+
 
 In 1991, Fagerdala World Foams in Sweden sold a viscoelastic mattress under the name TEMPUR. In 1992, Bob Trussell, a Kentucky horseman who had met a Fagerdala executive, brought the product into the United States as Tempur-Pedic. NASA had already, in the late 1960s, paid for the foam’s ancestor. Charles Yost, working under contract on energy-absorbing seating, made an open-cell polyurethane with slow spring-back — “temper foam” — for crash and vibration work. NASA later let the formula into wider commercial use. Swedish labs spent the 1980s making a version that could be slept on. Hospitals tried it. Then the American bedroom did.
 

@@ -10,9 +10,21 @@ regions: New England, New York, United States collecting
 word_target: 1800-2800
 dek: "Wallace Nutting sold a Philadelphia highboy that was born in Massachusetts in the 1920s. The Girl Scouts show taught a generation to see the chamber as a shrine of casework."
 figures: 7
+
+figure_id: plates.met-high-chest-dp105043
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Wallace Nutting sold a Philadelphia highboy that was born in Massachusetts in the 1920s. The Girl Scouts show taught a generation to see the chamber as a shrine of casework."
 ---
 
 # Colonial Revival Highboys
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/High_chest_of_drawers_MET_DP105043.jpg" alt="Colonial Revival high chest of drawers in the Met American Wing" width="1200" height="1500" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The highboy returns as revival — a legged high chest quoting Philadelphia rococo. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP105043.jpg">source</a>. American high chest of drawers; Met American Wing.</figcaption>
+</figure>
+
 
 A Wallace Nutting Philadelphia Chippendale-style highboy, branded, with a paper label in the lower right drawer dated 1927 and numbered 992, stands about ninety-six inches high, forty-six wide, twenty-two deep. It is Massachusetts furniture pretending, with skill, to be 1770 Walnut Street. The bonnet top, the carved drawers, the cabriole legs and claw-and-ball feet are a lesson Nutting had already published in photographs. *Furniture Treasury* (1928–33) taught Americans what a highboy was supposed to look like. Then the Nutting shop in the Framingham–Ashland–Saugus orbit sold them a wooden copy they could put in a bedroom that had never seen a colonial chamber.
 

@@ -10,9 +10,21 @@ regions: Eastwood, New York; Craftsman Farms, New Jersey
 word_target: 1800-2800
 dek: "The Craftsman Farms daughters’ bed, object 1997.2, never got a catalog number. Its headboard rhymes with a dresser that is not a bed. Stickley went bankrupt in 1915; the Farny sale was 1917."
 figures: 7
+
+figure_id: plates.stickley-celadine-table
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The Craftsman Farms daughters’ bed, object 1997.2, never got a catalog number. Its headboard rhymes with a dresser that is not a bed. Stickley went bankrupt in 1915; the Farny sale was 1917."
 ---
 
 # Stickley Craftsman Beds
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Gustav_stickley_per_gustave_stickley_company%2C_tavolino_da_the_celadine_%28n._27%29%2C_eastwood_NY_1900_ca.jpg" alt="Gustav Stickley Craftsman workshop table in oak, Eastwood, New York, c. 1900" width="1200" height="1485" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stickley workshop oak — chamber case goods in the same grammar as Craftsman beds until a cleared bed plate is wired. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Gustav_stickley_per_gustave_stickley_company,_tavolino_da_the_celadine_(n._27),_eastwood_NY_1900_ca.jpg">source</a>. Gustav Stickley No. 27 table, Eastwood, New York, c. 1900.</figcaption>
+</figure>
+
 
 The Craftsman Farms daughters’ beds never got a catalog number. Object 1997.2 in the Stickley Museum at Craftsman Farms, Morris Plains, New Jersey, is oak and oak veneer, inlaid with copper and tinted woods, manufacture of the inlay attributed to George H. Jones. Thirty-eight and five-eighths by fifty-seven and a half by seventy-eight and a half inches. About 1907–11. A shop-mark decal on the inside of the headboard rail. Anonymous gift. Gustav Stickley had the bed by 1911; it sold with the contents of Craftsman Farms in 1917 to George and Sylvia Farny; by descent to Cyril Farny; purchased by an anonymous donor for the Craftsman Farms Foundation.
 

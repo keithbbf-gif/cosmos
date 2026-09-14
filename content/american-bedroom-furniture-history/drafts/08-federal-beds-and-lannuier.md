@@ -10,9 +10,21 @@ regions: New York
 word_target: 1800-2800
 dek: "The Met’s signed Lannuier–Cochois bedstead is the early New York French bed. Bartow-Pell still has its crown. The Van Rensselaers slept in another. Bayard bought Phyfe and Lannuier both."
 figures: 7
+
+figure_id: plates.met-lannuier-bedstead-2007-475
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The Met’s signed Lannuier–Cochois bedstead is the early New York French bed. Bartow-Pell still has its crown. The Van Rensselaers slept in another. Bayard bought Phyfe and Lannuier both."
 ---
 
 # Federal Beds and Lannuier
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Bedstead_MET_DT2847.jpg" alt="Mahogany Federal bedstead by Lannuier and Cochois with low sweeping rails, Met 2007.475" width="1200" height="799" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The only signed Lannuier–Cochois bedstead in the Met — Federal sleep as French bedstead, not a suite. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_DT2847.jpg">source</a>. Bedstead by Charles-Honoré Lannuier and Jean-Charles Cochois; Met 2007.475a–i.</figcaption>
+</figure>
+
 
 Met 2007.475a–i is a bedstead, not a four-poster. Forty-two and a half inches high, fifty-eight wide, ninety-two and a half long. Mahogany, ebony, and rosewood; secondary woods ash and yellow poplar; gilded gesso; die-cut and stamped brass; iron. New York, about 1805–8. Charles-Honoré Lannuier and his Parisian cousin Jean-Charles Cochois. The American Wing’s label calls it the only signed piece the two men produced together. Cochois was in New York only from 1804 to 1808. That window is the date.
 

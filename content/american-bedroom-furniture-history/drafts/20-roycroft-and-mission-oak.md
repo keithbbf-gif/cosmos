@@ -10,9 +10,21 @@ regions: East Aurora, Eastwood, Grand Rapids, Holland, Michigan
 word_target: 1800-2800
 dek: "Mission is a store word. Roycroft beds and Stickley beds share oak and a rectangle. They do not share a shop, a catalog, or an ethic."
 figures: 7
+
+figure_id: plates.roycroft-morris-chair-235723
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Mission is a store word. Roycroft beds and Stickley beds share oak and a rectangle. They do not share a shop, a catalog, or an ethic."
 ---
 
 # Roycroft and Mission Oak
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Reclining_Morris_Chair_MET_235723.jpg" alt="Reclining Morris chair in the Arts and Crafts idiom, Met 235723" width="1200" height="1357" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mission oak seating in the sleeping chamber — Roycroft and shop cousins share the Morris chair lineage. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Reclining_Morris_Chair_MET_235723.jpg">source</a>. Reclining Morris chair; Arts and Crafts chamber seating.</figcaption>
+</figure>
+
 
 The Roycroft Inn at East Aurora, New York, put paneled twin beds in its rooms. Model 0106 in the 1912 *Roycroft Handmade Furniture* catalog is oak, about forty-eight inches at the headboard, thirty-nine wide, seventy-eight long, a pair of closed panel beds with an impressed inventory number on a lower leg — R 106 on surviving Inn examples that later went through Chicago auction rooms. The orb-and-cross is carved or branded. The shoulders are heavier than a Gustav Stickley bed of the same years. The Gothic is not a joke. Elbert Hubbard wanted a medieval shop in Erie County, and the bed looks like it.
 

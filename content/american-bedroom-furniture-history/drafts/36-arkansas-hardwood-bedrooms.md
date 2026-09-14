@@ -10,9 +10,21 @@ regions: Arkansas, Fort Smith, Bradley County, Ashley County
 word_target: 1800-2800
 dek: "Fort Smith made chamber suites because hardwood came down the river. Warren cut timber. Crossett made pine and paper. A shop that still names oak is a different clock from a mill that shipped boards."
 figures: 7
+
+figure_id: plates.met-high-chest-dp360492
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Fort Smith made chamber suites because hardwood came down the river. Warren cut timber. Crossett made pine and paper. A shop that still names oak is a different clock from a mill that shipped boards."
 ---
 
 # Arkansas Hardwood Bedrooms
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/High_chest_of_drawers_MET_DP360492.jpg" alt="American high chest of drawers in the Met collection" width="1200" height="1599" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Hardwood highboys remain the regional benchmark — oak and walnut shops read against museum cases. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP360492.jpg">source</a>. High chest of drawers; Met collection photograph.</figcaption>
+</figure>
+
 
 On 6 August 1894, Edward Ballman, Charles Cummings, and W. J. Johnston opened Ballman-Cummings Furniture Co. in Fort Smith, Arkansas. Chamber suites, dressers, chiffoniers, sideboards, desks. The *Southwest Times Record* still treats that Tuesday as a city date. The Fort Smith Historical Society’s *Journal* — the March 2007 Ballman biography, and Matthew Myers’s later piece in the April 2014 issue — is the local spine. This is not a lost civilization. It is a river town that made bedroom furniture because the hardwood was inland and the rails were in.
 

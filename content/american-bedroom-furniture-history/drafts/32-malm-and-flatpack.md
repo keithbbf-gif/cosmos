@@ -10,9 +10,21 @@ regions: Sweden, Poland, Germany, United States
 word_target: 1800-2800
 dek: "A 2002 napkin sketch, a Polish prototype, a wooden knob Kamprad liked, and a chest that had to be recalled because it would not stay up. The late suite is particleboard."
 figures: 7
+
+figure_id: plates.commons-malm-bedframe
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A 2002 napkin sketch, a Polish prototype, a wooden knob Kamprad liked, and a chest that had to be recalled because it would not stay up. The late suite is particleboard."
 ---
 
 # MALM and the Flat Pack
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Malm_bedframe_from_Ikea%2C_Brisbane%2C_Australia.jpg" alt="IKEA MALM bed frame assembled in a room" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> MALM particleboard and cam locks — the flat-pack bed that ate the local frame shop. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Malm_bedframe_from_Ikea,_Brisbane,_Australia.jpg">source</a>. IKEA MALM bed frame; flat-pack particleboard bedroom.</figcaption>
+</figure>
+
 
 The IKEA Museum in Älmhult files the MALM chest of drawers as a 2002 object: function, chest of drawers; design, IKEA of Sweden; price, EUR 75. The series, the museum says, is a modern bedroom classic — beds, wardrobes, chests in three, four, five, or six drawers, beech, birch, oak. Tomas Lundin, a former product developer for bedroom storage, remembered the chest this way: the team developed it with a furniture factory in Poland. The idea was sketched on a napkin. An engineer made a simple drawing. The factory built a prototype. The team went to Poland to finish it on site. “It was a quick and efficient process.”
 

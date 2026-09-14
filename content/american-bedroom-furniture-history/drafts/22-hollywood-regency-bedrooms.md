@@ -10,9 +10,21 @@ regions: Los Angeles, New York, United States
 word_target: 1800-2800
 dek: "Cedric Gibbons put a bed on a white set and taught a Depression audience what glamour looked like when the highboy stayed in the attic."
 figures: 6
+
+figure_id: plates.met-rococo-sofa-dp216417
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Cedric Gibbons put a bed on a white set and taught a Depression audience what glamour looked like when the highboy stayed in the attic."
 ---
 
 # Hollywood Regency Bedrooms
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Sofa_MET_DP216417.jpg" alt="Rococo Revival upholstered sofa in the Belter idiom, Met American Wing" width="1200" height="1127" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Upholstered glamour and carved show wood — Regency bedroom staging borrows parlor rhetoric. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sofa_MET_DP216417.jpg">source</a>. Rococo Revival parlor sofa; Hollywood Regency glamour antecedent.</figcaption>
+</figure>
+
 
 MGM’s publicity for *Our Dancing Daughters* (1928) bragged that Cedric Gibbons had designed “modernistic” effects, including “weird beds” without conventional legs. Joan Crawford moved through rooms that were white solids and black voids, stepped recesses, mirrors, a bed that did not look like Nutting’s ancestor and did not look like a Stickley oak rectangle. Gibbons had been to the 1925 Exposition Internationale des Arts Décoratifs in Paris. He ran MGM’s art department from the studio’s start in 1924 until he retired in 1956. Howard Gutner’s *MGM Style* is the career book. The bedroom this chapter needs is not a surviving suite in a museum. It is a set that existed to be filmed, then a house that tried to live like the set, then a decorator’s trade that later got named Hollywood Regency.
 

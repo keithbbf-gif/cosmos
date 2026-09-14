@@ -10,9 +10,21 @@ regions: United States, especially the South
 word_target: 1800-2800
 dek: "American houses often lacked closets. The wardrobe was a piece of furniture. The chifforobe — chest plus hanging space — is a southern and mail-order word, in the 1908 Sears catalog as a ‘modern invention.’"
 figures: 6
+
+figure_id: plates.met-wardrobe-dp240601
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "American houses often lacked closets. The wardrobe was a piece of furniture. The chifforobe — chest plus hanging space — is a southern and mail-order word, in the 1908 Sears catalog as a ‘modern invention.’"
 ---
 
 # Wardrobe, Chifforobe, Armoire
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Wardrobe_MET_DP240601.jpg" alt="American wardrobe with doors for hanging clothes, Met American Wing" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Standing wardrobe case — closet logic in a box before the chifforobe name. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Wardrobe_MET_DP240601.jpg">source</a>. American wardrobe; standing bedroom storage before the closet.</figcaption>
+</figure>
+
 
 The 1908 Sears, Roebuck catalog put chifforobes on a page and called them “a modern invention, having been in use only a short time.” The *Oxford English Dictionary* takes that catalog as the first recorded use of the American word: a piece of furniture incorporating a wardrobe and a chest of drawers. Chiffonier plus wardrobe. Drawers on one side, a hanging well on the other, doors or an exposed chest face, depending on the design. Mail-order. Freight to a town whose houses were built without closets.
 

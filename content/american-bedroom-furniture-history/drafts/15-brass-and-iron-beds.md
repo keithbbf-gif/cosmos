@@ -10,9 +10,21 @@ regions: United States; Birmingham and West Bromwich, England
 word_target: 1800-2800
 dek: "Metal beds sold washability. Hospitals wanted them first. Kenrick is English ironmongery in the story; American makers filled the catalogs. No tester, on purpose."
 figures: 6
+
+figure_id: plates.met-bedstead-doggett-41840
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Metal beds sold washability. Hospitals wanted them first. Kenrick is English ironmongery in the story; American makers filled the catalogs. No tester, on purpose."
 ---
 
 # Brass and Iron Beds
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Bedstead_MET_41840.jpg" alt="American bedstead with turned posts that could carry brass fittings, Met 41840" width="1200" height="1452" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Before the brass catalog bed — a wooden frame that could be dressed in metal or left plain. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_41840.jpg">source</a>. American four-poster bedstead; John Doggett & Co. orbit; Met 41840.</figcaption>
+</figure>
+
 
 In 1837 Thomas Lawson, Surgeon General of the United States Army, wanted better hospital equipment. Wooden bedsteads in wards were hard to clean and easy for vermin. He had one single and one double metal bedstead made and sent to the War Department that fall. Fifteen dollars each. The experiment was good enough that Congress appropriated money for more, and the Army began buying metal bedsteads for hospitals and barracks. In December 1842 Charles P. Curtis of New Haven received a U.S. patent for an improved iron bedstead, aimed in part at institutional use, prisons included. The patent talked about durability, cleanliness, and resistance to vermin. Iron beds, the patent implied, had already been around long enough to improve.
 
