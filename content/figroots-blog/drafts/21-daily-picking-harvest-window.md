@@ -1,32 +1,34 @@
 ---
-title: "A ripe fig is a morning job"
+title: A ripe fig is a morning job
 slug: daily-picking-fig-harvest-window
-meta_description: "Figs do not finish on the counter. Soft means now. In a wet Arkansas week, the window is a day, not a weekend visit."
+meta_description: Figs do not finish on the counter. Soft means now. In a wet Arkansas
+  week, the window is a day, not a weekend visit.
 author: PapaFig
 tags:
-  - harvest
-  - ripening
-  - picking
-  - birds
+- harvest
+- ripening
+- picking
+- birds
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Neck bent, fruit heavy. This is breakfast, not Thursday."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Green-ripe fruit. You grade by feel, not by porch color."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "A tree in a flush. Daily walk or you donate it."
-    source: ours
-    folder_pick: "Figs-summer-23"
+- path: D:\FIGS\Fig Fruit
+  caption: Neck bent, fruit heavy. This is breakfast, not Thursday.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Green-ripe fruit. You grade by feel, not by porch color.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\Figs-summer-23
+  caption: A tree in a flush. Daily walk or you donate it.
+  source: ours
+  folder_pick: Figs-summer-23
 status: draft
 voice_check: human
 pillar: fruit
 priority: 21
+figures:
+- ../assets/daily-picking-fig-harvest-window/morning-pick-flow.svg
 ---
-
 I have lost more good figs to “I’ll get them after supper” than I have lost to a bad winter.
 
 A fig has to ripen on the tree. [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) already said that. University of Arkansas Extension said the fruit is perishable, and when a tree is in production you may need to pick every day. Soft neck, a little give, fruit that hangs instead of standing proud — that fig is done arguing. It will not finish into jam on a windowsill if you picked it hard to beat the birds. You beat the birds to a sour marble.
@@ -34,6 +36,10 @@ A fig has to ripen on the tree. [An Introduction to Figs](https://figroots.com/a
 Ripe is a morning job in zone **8a**. Heat climbs. Birds eat breakfast. Wasps clock in. A fig that was perfect at 7 a.m. is a husk at 2.
 
 ## Soften, hang, then pick
+
+<!-- figroots-graphic: morning-pick-flow -->
+![Morning harvest walk: feel, two buckets, fridge pause](../assets/daily-picking-fig-harvest-window/morning-pick-flow.svg)
+*Soft means now. A wet week is a day, not a weekend visit.*
 
 NC State’s fig culture page is blunt: fresh figs are not tasty until they are **soft and ripe**, so you pick them just as the fruit begins to soften. Mississippi State’s Celeste-versus-Southern-Brown-Turkey note adds the cue I actually use on a dark fig I can see from the porch: skin fully colored, fruit softened, and if the **neck wilts and the fig hangs down**, it is time. That MSU page also said kitchen life is short — typically **two or three days** after you pick. I will not turn that into a fridge-month guarantee. Eat them.
 

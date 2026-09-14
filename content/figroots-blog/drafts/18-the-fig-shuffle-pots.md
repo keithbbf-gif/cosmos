@@ -1,32 +1,35 @@
 ---
-title: "The fig shuffle: moving pots so winter and July do not eat them"
+title: 'The fig shuffle: moving pots so winter and July do not eat them'
 slug: the-fig-shuffle-pots
-meta_description: "Hundreds of #3s do not winter on a porch. They also do not ripen on a gravel griddle. The shuffle is the climate control."
+meta_description: 'Hundreds of #3s do not winter on a porch. They also do not ripen
+  on a gravel griddle. The shuffle is the climate control.'
 author: PapaFig
 tags:
-  - pots
-  - winter
-  - shade
-  - greenhouse
+- pots
+- winter
+- shade
+- greenhouse
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots rolled under cover. This is the winter shuffle, not a catalog greenhouse."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Hundreds of 3- and 5-gallon pots. Hand-carrying this block is why the wagon lives in the aisle."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "Summer pad at 2 p.m. West gravel first, or the roots cook."
-    source: ours
-    folder_pick: "Figs-summer-23"
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots rolled under cover. This is the winter shuffle, not a catalog greenhouse.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Fig Jam Article
+  caption: Hundreds of 3- and 5-gallon pots. Hand-carrying this block is why the wagon
+    lives in the aisle.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\Figs-summer-23
+  caption: Summer pad at 2 p.m. West gravel first, or the roots cook.
+  source: ours
+  folder_pick: Figs-summer-23
 status: draft
 voice_check: human
 pillar: culture
 priority: 18
+figures:
+- ../assets/the-fig-shuffle-pots/shuffle-two-moves.svg
 ---
-
 A #3 on a gravel pad in January is a block of ice with a stick in it. The same pot on that pad in July is a Dutch oven. We do not have a greenhouse-catalog problem. We have a climate we can roll.
 
 The [Fig Jam interview](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) put the honest count in public: hundreds of trees, most in **3- and 5-gallon** cans, a couple dozen in the ground. The ground is the keepers. The pots are the library. The library has to **move**. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already split the South from the North on shade and water. The [Winter Protection](https://figroots.com/winter-protection/) page already said pots above about **40°F**, barely moist, not a heated den. The shuffle is how those sentences become hardware.
@@ -34,6 +37,10 @@ The [Fig Jam interview](https://www.thefigjam.co/p/interview-with-a-fig-grower-k
 People only talk about the freeze. July has a shuffle too.
 
 ## Winter is a move, not a spa
+
+<!-- figroots-graphic: shuffle-two-moves -->
+![Two required pot moves: night before a hard freeze and first 100-degree week](../assets/the-fig-shuffle-pots/shuffle-two-moves.svg)
+*Night low and afternoon high — not the daytime slogan.*
 
 Before the night that will freeze a thin pot solid, the cans come in. Shop. Glass frontage. Hoop. Somewhere the roots are not at 15°F. UAEX talks winter injury worse in the north of the state, and TAMU’s figs PDF uses something like **17°F** as a mature-wood conversation number. A black nursery pot does not get the courtesy of mature wood. Roots in a thin can see every degree.
 

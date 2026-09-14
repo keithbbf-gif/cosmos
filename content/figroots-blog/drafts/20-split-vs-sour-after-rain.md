@@ -1,33 +1,37 @@
 ---
-title: "Split is not the same as sour — both show up after rain"
+title: Split is not the same as sour — both show up after rain
 slug: fig-split-vs-sour-after-rain
-meta_description: "A water binge cracks the skin. An open eye plus beetles and yeast makes vinegar. Pull both. Do not treat them as one disease."
+meta_description: A water binge cracks the skin. An open eye plus beetles and yeast
+  makes vinegar. Pull both. Do not treat them as one disease.
 author: PapaFig
 tags:
-  - splitting
-  - souring
-  - rain
-  - ostiole
-  - harvest
+- splitting
+- souring
+- rain
+- ostiole
+- harvest
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Split skin and a wet eye after August rain. Two buckets: still a fig, or vinegar."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Sour cavity — smell it on the tree. This is biology, not a flavor family."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\Malta_Black_Fig"
-    caption: "Dark fruit after a storm. Eye and skin both tell the story; the nose decides the bucket."
-    source: ours
-    folder_pick: "Malta_Black_Fig"
+- path: D:\FIGS\Fig Fruit
+  caption: 'Split skin and a wet eye after August rain. Two buckets: still a fig,
+    or vinegar.'
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Sour cavity — smell it on the tree. This is biology, not a flavor family.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\Malta_Black_Fig
+  caption: Dark fruit after a storm. Eye and skin both tell the story; the nose decides
+    the bucket.
+  source: ours
+  folder_pick: Malta_Black_Fig
 status: draft
 voice_check: human
 pillar: fruit
 priority: 20
+figures:
+- ../assets/fig-split-vs-sour-after-rain/split-vs-sour.svg
 ---
-
 August rain. Hot morning. Two kinds of trash on the same tree, and people use one word for both.
 
 **Split** is physics. The fig took up water faster than the skin could grow. Side cracks. Ostiole-end tears. You can split a tight-eye fig. The screen door was shut. The balloon still popped.
@@ -37,6 +41,10 @@ August rain. Hot morning. Two kinds of trash on the same tree, and people use on
 A splitter that sits a day becomes sour. That does not mean split and sour were the same at 7 a.m. If you treat them as one disease you will keep the wrong fruit and leave the right tax on the tree.
 
 ## Split is physics
+
+<!-- figroots-graphic: split-vs-sour -->
+![Comparison of split fig fruit versus sour fig fruit after rain](../assets/fig-split-vs-sour-after-rain/split-vs-sour.svg)
+*Split is physics. Sour is biology. Two buckets, once.*
 
 Kong, Lampinen, Shackel, and Crisosto (2013), in *Postharvest Biology and Technology*, put numbers on how **side cracks** and **ostiole-end splits** shorten postharvest life and open the fruit to decay. That paper is California work on **Brown Turkey** and **Sierra**. Late irrigation swings made cracking worse in that trial. Regulated deficit irrigation at **55% ETc** helped those two cultivars **in that California orchard**.
 

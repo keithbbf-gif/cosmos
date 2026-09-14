@@ -1,32 +1,35 @@
 ---
-title: "Water rooting a fig cutting — when I would, and when I would not"
+title: Water rooting a fig cutting — when I would, and when I would not
 slug: water-rooting-fig-cuttings
-meta_description: "Water can save a green cutting you cannot store. It is not the default for dormant 6–8 inch wood. Change the jar or you are growing soup."
+meta_description: Water can save a green cutting you cannot store. It is not the default
+  for dormant 6–8 inch wood. Change the jar or you are growing soup.
 author: Jack Chambers
 tags:
-  - water-rooting
-  - cuttings
-  - green-wood
-  - propagation
+- water-rooting
+- cuttings
+- green-wood
+- propagation
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "Lignified wood I would rather put in coir than in a jar."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "Green or dehydrated wood that cannot wait for a fridge — water is a now option."
-    source: ours
-    folder_pick: "Damaged Cuttings"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Any site still of a jar or cup if we have one. Do not stage a fake root."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Bulk Cuttings
+  caption: Lignified wood I would rather put in coir than in a jar.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: Green or dehydrated wood that cannot wait for a fridge — water is a now
+    option.
+  source: ours
+  folder_pick: Damaged Cuttings
+- path: D:\FIGS\FigRoots
+  caption: Any site still of a jar or cup if we have one. Do not stage a fake root.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: propagation
 priority: 15
+figures:
+- ../assets/water-rooting-fig-cuttings/water-root-when.svg
 ---
-
 Somebody always swears water is easier. They show a jar on a windowsill and a white nubble. Then they pot it, the roots snap, and they come back asking why pops are “more complicated.”
 
 Water is a tool. It is not the Fig Pop method. The [Introduction](https://figroots.com/an-introduction-to-figs/) already said you can root in water in a pinch. The [cuttings post](https://figroots.com/2025/12/23/lets-talk-about-fig-cuttings/) said green wood may belong there because it will not store. I agree with both. I do not agree with turning every dormant **6–8 inch**, three-node stick into aquarium decoration.
@@ -34,6 +37,10 @@ Water is a tool. It is not the Fig Pop method. The [Introduction](https://figroo
 Mix is the default. Coir, a drainy mix, squeeze test, heat mat on a **thermostat**. That is the work we already published. Water is the emergency lane.
 
 ## When I would put a stick in a jar
+
+<!-- figroots-graphic: water-root-when -->
+![When Jack would water-root a fig cutting versus stick it in mix](../assets/water-rooting-fig-cuttings/water-root-when.svg)
+*Emergency lane — not a second method we ran a trial on.*
 
 **Green wood you got today.** Soft, leaking sap, cannot go in the crisper. A jar is faster than building a tray if you have one stick. The cuttings post already said non-lignified wood does not store and rots the fastest. I would rather see white in a jar than fuzz in a bag.
 

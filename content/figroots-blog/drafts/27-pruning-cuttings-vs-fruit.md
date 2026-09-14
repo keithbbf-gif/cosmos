@@ -1,32 +1,37 @@
 ---
-title: "Every stick you cut is a fig you will not eat"
+title: Every stick you cut is a fig you will not eat
 slug: pruning-figs-for-cuttings-vs-fruit
-meta_description: "Prune for wood and you delete breba and, on some varieties, the year’s crop. Prune for fruit and you take fewer cuttings. Pick the job before you pick up the loppers."
+meta_description: Prune for wood and you delete breba and, on some varieties, the
+  year’s crop. Prune for fruit and you take fewer cuttings. Pick the job before you
+  pick up the loppers.
 author: PapaFig
 tags:
-  - pruning
-  - cuttings
-  - breba
-  - celeste
+- pruning
+- cuttings
+- breba
+- celeste
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "6–8 inch, three-node sticks from a prune day. Count them for the tray you will actually stick."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Breba 2025"
-    caption: "Nubs on last year’s wood. A hard late-winter prune never lets this conversation start."
-    source: ours
-    folder_pick: "Breba 2025"
-  - path: "D:\\FIGS\\Figs"
-    caption: "A tree left enough live shoots. Main crop still needs this year’s wood."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Bulk Cuttings
+  caption: 6–8 inch, three-node sticks from a prune day. Count them for the tray you
+    will actually stick.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Breba 2025
+  caption: Nubs on last year’s wood. A hard late-winter prune never lets this conversation
+    start.
+  source: ours
+  folder_pick: Breba 2025
+- path: D:\FIGS\Figs
+  caption: A tree left enough live shoots. Main crop still needs this year’s wood.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: culture
 priority: 27
+figures:
+- ../assets/pruning-figs-for-cuttings-vs-fruit/prune-card.svg
 ---
-
 Jack’s job on a prune day is cuttings: **6–8 inches, three nodes**, lignified if we can get it. My job is to remember that every stick in that bag used to be a fig we were going to eat.
 
 Those jobs fight.
@@ -36,6 +41,10 @@ Breba lives on last year’s wood. Main crop lives on this year’s shoot. Unive
 [Lets Talk About Fig Cuttings](https://figroots.com/2025/12/23/lets-talk-about-fig-cuttings/) is the stick. The breba draft in this set is the two crops. This page is the card on the shed before the loppers come out.
 
 ## The card on the shed: wood or fruit
+
+<!-- figroots-graphic: prune-card -->
+![Shed card: prune this fig for wood or for fruit this year](../assets/pruning-figs-for-cuttings-vs-fruit/prune-card.svg)
+*Every stick is a fig you will not eat on that branch.*
 
 Ask what this tree is for **this year**. Write it. Hand Jack the card.
 

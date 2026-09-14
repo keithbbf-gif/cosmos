@@ -1,33 +1,36 @@
 ---
-title: "When to cut, store, and stick — a US cuttings calendar"
+title: When to cut, store, and stick — a US cuttings calendar
 slug: seasonal-fig-cuttings-calendar
-meta_description: "Dormant lignified wood is a winter object. Green wood is a now object. The month on the calendar only matters after you know which one you are holding."
+meta_description: Dormant lignified wood is a winter object. Green wood is a now object.
+  The month on the calendar only matters after you know which one you are holding.
 author: Jack Chambers
 tags:
-  - cuttings
-  - calendar
-  - dormancy
-  - regions
-  - shipping
+- cuttings
+- calendar
+- dormancy
+- regions
+- shipping
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "Dormant prune wood. This is the cutting season that stores."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "A package that sat in a hot box, or crushed wood. Open it in the shade and decide fast."
-    source: ours
-    folder_pick: "Damaged Cuttings"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "Green summer wood. Root it. Do not file it in the crisper."
-    source: ours
-    folder_pick: "Figs-summer-23"
+- path: D:\FIGS\Bulk Cuttings
+  caption: Dormant prune wood. This is the cutting season that stores.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: A package that sat in a hot box, or crushed wood. Open it in the shade
+    and decide fast.
+  source: ours
+  folder_pick: Damaged Cuttings
+- path: D:\FIGS\Figs-summer-23
+  caption: Green summer wood. Root it. Do not file it in the crisper.
+  source: ours
+  folder_pick: Figs-summer-23
 status: draft
 voice_check: human
 pillar: propagation
 priority: 12
+figures:
+- ../assets/seasonal-fig-cuttings-calendar/cuttings-calendar.svg
 ---
-
 The worst cuttings I have opened were not “bad varieties.” They were good wood that spent three days in a hot mailbox because somebody shipped winter sticks in May, or summer sticks in July, and called it a season.
 
 The calendar is not the boss. The **wood** is the boss.
@@ -43,6 +46,10 @@ Industry stick, because people skip it: **6–8 inches, three nodes**, lignified
 Air layers are a third clock. We already posted [fall air-layer timing by zone](https://figroots.com/2025/09/18/setting-fall-airlayers-in-zones-6-9/). In-ground trees need an earlier start than pots you can walk into a greenhouse. That page is the air-layer calendar. This page is sticks.
 
 ## South Arkansas (our 8a) as the example
+
+<!-- figroots-graphic: cuttings-calendar -->
+![Schematic year band chart for dormant cut, storage, sticking, and greenwood](../assets/seasonal-fig-cuttings-calendar/cuttings-calendar.svg)
+*US-wide bands — verify frost dates for your zip.*
 
 I will start where we actually live, then fan out.
 

@@ -1,0 +1,15 @@
+"""FigRoots diagram palette — magazine, limited, no gradient slop."""
+
+BG = "#f7f4ef"
+INK = "#1c2420"
+MUTED = "#5c6b63"
+ACCENT = "#2f5d4a"
+ACCENT_LIGHT = "#d4e4dc"
+WARM = "#8b5e34"
+WARM_LIGHT = "#e8dcc8"
+LINE = "#9aa89f"
+WARN = "#a0452a"
+WHITE = "#ffffff"
+
+FONT = "system-ui, 'Segoe UI', Helvetica, Arial, sans-serif"
+MONO = "ui-monospace, 'Cascadia Mono', Consolas, monospace"

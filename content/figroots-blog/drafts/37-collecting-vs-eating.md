@@ -1,32 +1,36 @@
 ---
-title: "A collection is not a pantry"
+title: A collection is not a pantry
 slug: collecting-figs-vs-eating-figs
-meta_description: "Hundreds of names in #3s will not feed you like two tool trees in the ground. Admit which job you are doing this year."
+meta_description: 'Hundreds of names in #3s will not feed you like two tool trees
+  in the ground. Admit which job you are doing this year.'
 author: PapaFig
 tags:
-  - collecting
-  - varieties
-  - pots
-  - harvest
+- collecting
+- varieties
+- pots
+- harvest
 images:
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "The library in 3- and 5-gallon pots. This is collecting. It has a different harvest than a yard tree."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground keepers. This is the pantry if the fruit is good and you actually pick it."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "A bowl from trees you walk first. Names do not taste like anything."
-    source: ours
-    folder_pick: "Fig Fruit"
+- path: D:\FIGS\Fig Jam Article
+  caption: The library in 3- and 5-gallon pots. This is collecting. It has a different
+    harvest than a yard tree.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\Figs
+  caption: In-ground keepers. This is the pantry if the fruit is good and you actually
+    pick it.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Fig Fruit
+  caption: A bowl from trees you walk first. Names do not taste like anything.
+  source: ours
+  folder_pick: Fig Fruit
 status: draft
 voice_check: human
 pillar: identity
 priority: 37
+figures:
+- ../assets/collecting-figs-vs-eating-figs/pantry-vs-library.svg
 ---
-
 Jack’s least-favorite chore, on the record, is fertilizing that many pots. Mine is walking dead-outs. Neither of those jobs puts a fig on a plate in August.
 
 We have lived both jobs in the same week. A collection of a few hundred trees and a few hundred names, most in **3- and 5-gallon** cans. A much smaller in-ground set. The [Fig Jam interview](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) is where we said that out loud. None of that is a pantry.
@@ -36,6 +40,10 @@ A pantry is two or six trees that finish in your climate, tight enough for Augus
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already asked flavor, GDD, tight eye, pots, and birds as one checklist. This page is the job behind the checklist. Are you feeding a household this year, or are you keeping names alive until fruit tells the truth?
 
 ## The jobs fight
+
+<!-- figroots-graphic: pantry-vs-library -->
+![Collection library versus pantry trees that actually feed you](../assets/collecting-figs-vs-eating-figs/pantry-vs-library.svg)
+*Count bowls, not names. Pantry trees first on the fridge list.*
 
 The library wants space, mix, a winter shop, labels, patience, money in sticks. The pantry wants water, morning walks, a net if birds are heavy, and a variety you already believe.
 

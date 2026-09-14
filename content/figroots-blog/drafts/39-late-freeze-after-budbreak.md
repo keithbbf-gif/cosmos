@@ -1,32 +1,35 @@
 ---
-title: "The cruel freeze is the one after the buds move"
+title: The cruel freeze is the one after the buds move
 slug: late-freeze-after-fig-budbreak
-meta_description: "A warm spell, green tips, then a night in the 20s. That freeze steals the push and resets your GDD clock. Wait before you saw."
+meta_description: A warm spell, green tips, then a night in the 20s. That freeze steals
+  the push and resets your GDD clock. Wait before you saw.
 author: PapaFig
 tags:
-  - freeze
-  - budbreak
-  - spring
-  - arkansas
+- freeze
+- budbreak
+- spring
+- arkansas
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: "Tips burned after a late freeze. Live wood may still be below."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Breba 2025"
-    caption: "Breba nubs do not like this night. Main crop can still come on new wood."
-    source: ours
-    folder_pick: "Breba 2025"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots you can roll inside for one ugly night. That is the shuffle earning its keep."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Figs
+  caption: Tips burned after a late freeze. Live wood may still be below.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Breba 2025
+  caption: Breba nubs do not like this night. Main crop can still come on new wood.
+  source: ours
+  folder_pick: Breba 2025
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots you can roll inside for one ugly night. That is the shuffle earning
+    its keep.
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: climate
 priority: 39
+figures:
+- ../assets/late-freeze-after-fig-budbreak/late-freeze-kit.svg
 ---
-
 University of Arkansas Extension talks rollercoaster winters. The mean version is not the January 15°. It is the March night after a week of 75.
 
 Buds move. You relax. Then 24°F. The tips go black. Breba, if you had any, is often done. The growing-degree-day toys that let you reset after a freeze are trying to model this. A warm February does not count if March took the wood.
@@ -56,6 +59,10 @@ After the night, walk pots first. They freeze through. In-ground can wait an hou
 If you gambled and lost, wait for the base. If the base is dead, the label comes off. If it moves from the base, you may still be in the freeze-recovery draft — thicket, five or six trunks, patience. A pot that froze in the roots is a different sentence. Smell the mix. Sour and still after the rest of the block is leafing is a corpse.
 
 ## A night-of kit that is not cute
+
+<!-- figroots-graphic: late-freeze-kit -->
+![Late freeze night kit: forecast, wagon, covers, wait days to saw](../assets/late-freeze-after-fig-budbreak/late-freeze-kit.svg)
+*The cruel freeze is the one after the buds move.*
 
 This is the night I actually run.
 

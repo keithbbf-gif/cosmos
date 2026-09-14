@@ -1,37 +1,43 @@
 ---
-title: "A heat mat without a thermostat will cook the tray"
+title: A heat mat without a thermostat will cook the tray
 slug: heat-mat-thermostat-fig-cuttings
-meta_description: "Fig Pops already said 75–78°F on a controller. A bare mat on a basement floor does not know when to stop. Measure it."
+meta_description: Fig Pops already said 75–78°F on a controller. A bare mat on a basement
+  floor does not know when to stop. Measure it.
 author: Jack Chambers
 tags:
-  - heat-mat
-  - thermostat
-  - fig-pops
-  - rooting
+- heat-mat
+- thermostat
+- fig-pops
+- rooting
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: "Cups on a mat. The controller is the part people skip."
-    source: ours
-    folder_pick: "DE vs CC"
-  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
-    caption: "The 2023 tray. Stable basement, not a sunny car."
-    source: ours
-    folder_pick: "DE vs Coco Coir Photos"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Any Fig Pop still that shows the mat setup."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\DE vs CC
+  caption: Cups on a mat. The controller is the part people skip.
+  source: ours
+  folder_pick: DE vs CC
+- path: D:\FIGS\DE vs Coco Coir Photos
+  caption: The 2023 tray. Stable basement, not a sunny car.
+  source: ours
+  folder_pick: DE vs Coco Coir Photos
+- path: D:\FIGS\FigRoots
+  caption: Any Fig Pop still that shows the mat setup.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: propagation
 priority: 31
+figures:
+- ../assets/heat-mat-thermostat-fig-cuttings/mat-thermostat.svg
 ---
-
 The [Fig Pop](https://figroots.com/fig-pops/) page is not shy. Set the mat to about **78/75°F**. Use a **thermostat**. Otherwise you will roast the cuttings.
 
 I have seen trays go soft and sour on a mat that ran like a griddle. The mix was fine on Monday. The controller was “I’ll watch it.” Nobody watched it.
 
 ## The number is 75–78°F, and it needs a controller
+
+<!-- figroots-graphic: mat-thermostat -->
+![Heat mat setup: thermostat, probe in the mix, 75 to 78 F](../assets/heat-mat-thermostat-fig-cuttings/mat-thermostat.svg)
+*A mat without a controller cooks the tray.*
 
 Bottom heat is for a **stick**. Roots like a warm floor. Leaves do not need a tanning bed. Low light. You are not growing lettuce.
 

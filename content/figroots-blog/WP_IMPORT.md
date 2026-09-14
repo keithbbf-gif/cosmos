@@ -6,7 +6,7 @@ These files are for Keith / Jack to paste into the FigRoots WordPress (Website B
 
 1. Read `STYLE_GUIDE.md`. If a paragraph sounds like a newsletter, fix the markdown here first.
 2. Open the draft you want. Front matter stays in git. It does **not** all belong on the public page.
-3. Photos: walk `PHOTO_MANIFEST.md`. Use `D:\FIGS` (and FigRoots media) before any Commons file. PD fills need the Commons URL + license in the media caption.
+3. Photos: walk `PHOTO_NOTES.md` first, then `PHOTO_MANIFEST.md`. Use `D:\FIGS` (and FigRoots media) before any Commons file. PD fills need the Commons URL + license in the media caption. Graphics SVGs live under `assets/<slug>/` and are already marked `<!-- figroots-graphic: ... -->` in the draft.
 
 ## Website Builder / block editor paste
 
@@ -27,7 +27,7 @@ WordPress will eat a raw `.md` file badly if you drop the YAML on the canvas.
 
 - The YAML block (`title:`, `voice_check:`, `priority:`)
 - Internal paths (`D:\FIGS\...`) as visible reader text. Those are for you in the media library caption field: `source: ours`.
-- This file, `INDEX.md`, `SOURCES.md`, `STYLE_GUIDE.md`, `PHOTO_MANIFEST.md`
+- This file, `INDEX.md`, `SOURCES.md`, `BIBLIOGRAPHY.md`, `STYLE_GUIDE.md`, `PHOTO_NOTES.md`, `PHOTO_MANIFEST.md`
 
 ## After paste (still a draft)
 

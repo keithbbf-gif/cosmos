@@ -1,37 +1,43 @@
 ---
-title: "LSU figs were bred in the same sticky air we grow in"
+title: LSU figs were bred in the same sticky air we grow in
 slug: lsu-figs-for-humid-south
-meta_description: "Purple, Gold, O’Rourke, Champagne, Tiger — LSU released common figs for the Gulf. Verify the eye and the season on your tree, not on a brochure."
+meta_description: Purple, Gold, O’Rourke, Champagne, Tiger — LSU released common figs
+  for the Gulf. Verify the eye and the season on your tree, not on a brochure.
 author: PapaFig
 tags:
-  - lsu
-  - louisiana
-  - humidity
-  - varieties
+- lsu
+- louisiana
+- humidity
+- varieties
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Humid-South fruit. Eye and skin after rain matter more than a release date."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Gold vs purple pulp. Taste it. Do not assume the name."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "LSU tag on a pot. Still wait for fruit to call it true."
-    source: ours
-    folder_pick: "Fig Labels"
+- path: D:\FIGS\Fig Fruit
+  caption: Humid-South fruit. Eye and skin after rain matter more than a release date.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Gold vs purple pulp. Taste it. Do not assume the name.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\Fig Labels
+  caption: LSU tag on a pot. Still wait for fruit to call it true.
+  source: ours
+  folder_pick: Fig Labels
 status: draft
 voice_check: human
 pillar: identity
 priority: 24
+figures:
+- ../assets/lsu-figs-for-humid-south/lsu-release-years.svg
 ---
-
 If you live in steam, a fig released by LSU is not magic. It is a clue. Those plants were selected where summers are wet and rust is not a rumor.
 
 I will not invent a tasting score. I will not tell you we ranked LSU Purple against **Negra d’Agde**. Jack’s plate from [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) is fruit we ate — Red Sicilian, Syrian Dark #2, Jack Lilly, NSDC, Negra d’Agde. I am still not a fan of Celeste or Brown Turkey so far. An LSU tag does not skip that wait.
 
 ## The real releases
+
+<!-- figroots-graphic: lsu-release-years -->
+![Timeline of LSU fig releases from Purple through O’Rourke](../assets/lsu-figs-for-humid-south/lsu-release-years.svg)
+*Release years from AgCenter news — not our tasting scores.*
 
 LSU AgCenter’s 2015 note, Charlie Johnson talking, is the list I will stand on.
 

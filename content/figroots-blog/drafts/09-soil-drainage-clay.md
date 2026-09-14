@@ -1,33 +1,37 @@
 ---
-title: "Clay, drainage, and a fig that will not sit in a puddle"
+title: Clay, drainage, and a fig that will not sit in a puddle
 slug: fig-soil-drainage-clay-beds
-meta_description: "Figs take hard ground. They do not take a bathtub. In Arkansas clay, raise the bed, mulch the shallow roots, and stop planting in a hole that holds a lake."
+meta_description: Figs take hard ground. They do not take a bathtub. In Arkansas clay,
+  raise the bed, mulch the shallow roots, and stop planting in a hole that holds a
+  lake.
 author: PapaFig
 tags:
-  - soil
-  - clay
-  - drainage
-  - raised-beds
-  - arkansas
+- soil
+- clay
+- drainage
+- raised-beds
+- arkansas
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground or bed after rain. If the hole still holds water the next morning, it is not a fig hole."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pot mix and drainage — water standing on top means the pot is lying."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "Raised-bed / outdoor stick rows. Same physics as planting high on clay."
-    source: ours
-    folder_pick: "Bulk Cuttings"
+- path: D:\FIGS\Figs
+  caption: In-ground or bed after rain. If the hole still holds water the next morning,
+    it is not a fig hole.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Greenhouse photos
+  caption: Pot mix and drainage — water standing on top means the pot is lying.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Bulk Cuttings
+  caption: Raised-bed / outdoor stick rows. Same physics as planting high on clay.
+  source: ours
+  folder_pick: Bulk Cuttings
 status: draft
 voice_check: human
 pillar: culture
 priority: 9
+figures:
+- ../assets/fig-soil-drainage-clay-beds/drainage-cross-section.svg
 ---
-
 I have watched a thunderstorm turn a new planting into a birdbath. The fig sat in it overnight. People love to say figs are tough. Tough is not gills.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) said most figs can take harder soil — clay, rock — and that you still want air. They hate being drowned. That is the whole soil chapter. The rest is how you keep a South Arkansas hole from becoming a cup.
@@ -35,6 +39,10 @@ I have watched a thunderstorm turn a new planting into a birdbath. The fig sat i
 Run the puddle test **before** you shop a tree. A $40 name in a lake is a donation.
 
 ## Dig the hole. Fill it. Come back in the morning.
+
+<!-- figroots-graphic: drainage-cross-section -->
+![Cross-section schematic of a fig on a raised berm over clay soil with mulch](../assets/fig-soil-drainage-clay-beds/drainage-cross-section.svg)
+*Bed profile schematic — not a engineered drainage spec.*
 
 Dig the hole. Fill it with water. If it is still there hours later — if it is still a puddle the next morning — do not put a fig in it.
 

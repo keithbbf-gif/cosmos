@@ -1,32 +1,35 @@
 ---
-title: "The first two summers in the ground are still a pot, only you cannot lift them"
+title: The first two summers in the ground are still a pot, only you cannot lift them
 slug: first-two-summers-in-ground-fig
-meta_description: "An in-ground fig is not established because you kicked the pot off. Water those summers. Mulch. Do not plant a cutting and walk away until year three."
+meta_description: An in-ground fig is not established because you kicked the pot off.
+  Water those summers. Mulch. Do not plant a cutting and walk away until year three.
 author: PapaFig
 tags:
-  - planting
-  - in-ground
-  - watering
-  - arkansas
+- planting
+- in-ground
+- watering
+- arkansas
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: "A first-year hole. The hose still has to reach in August."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "July in the hole. Shallow new roots do not know the county yet."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "The #3 it came out of. Do not plant a cup-sized root into a drought and call it in-ground."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Figs
+  caption: A first-year hole. The hose still has to reach in August.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Figs-summer-23
+  caption: July in the hole. Shallow new roots do not know the county yet.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Greenhouse photos
+  caption: 'The #3 it came out of. Do not plant a cup-sized root into a drought and
+    call it in-ground.'
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: culture
 priority: 40
+figures:
+- ../assets/first-two-summers-in-ground-fig/two-summer-hole.svg
 ---
-
 People hear figs are easy and skip the hose. Then August crisps the leaves, the fruit drops, and the variety is “no good here.” The hole is still a pot. You just cannot roll it into the shade.
 
 [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) said plant in-ground in zone 8 or higher in spring, water in the heat, do not count on fruit, wait for the tree to become a tree about year three. University of Arkansas Extension’s planting window is **late winter through spring** so it can settle before the next winter. I would not plant a leafy July plant to prove a point. Wait.
@@ -34,6 +37,10 @@ People hear figs are easy and skip the hose. Then August crisps the leaves, the 
 The hole is a pot you cannot lift for two summers. Treat it that way.
 
 ## What I put in the hole
+
+<!-- figroots-graphic: two-summer-hole -->
+![First two summers in the ground: plant, water, mulch, still a hose job](../assets/first-two-summers-in-ground-fig/two-summer-hole.svg)
+*The hole is a pot you cannot lift until year three.*
 
 A plant with a real root system, not a two-week pop. A variety I have eaten, or a tool tree I am willing to own. A hole that **drains**. High if the clay holds a lake. East wall if I have one — TAMU likes east or south of a building; UAEX likes an east wall that knocks wind. You still need **6–8 hours** of sun if you want fruit. A warm grave in deep shade is still shade.
 

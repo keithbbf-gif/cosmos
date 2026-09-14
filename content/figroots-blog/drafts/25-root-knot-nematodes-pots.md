@@ -1,37 +1,45 @@
 ---
-title: "Root-knot nematodes: do not donate a rare cutting to that hole"
+title: 'Root-knot nematodes: do not donate a rare cutting to that hole'
 slug: root-knot-nematodes-fig-pots
-meta_description: "Galls on fig roots, a tired top, sandy ground. Pick The Right Fig already said pots. That sentence is the whole control program for a collector."
+meta_description: Galls on fig roots, a tired top, sandy ground. Pick The Right Fig
+  already said pots. That sentence is the whole control program for a collector.
 author: PapaFig
 tags:
-  - nematodes
-  - pots
-  - roots
-  - sand
+- nematodes
+- pots
+- roots
+- sand
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "A pot of mix you trust. This is how a rare name stays off infested ground."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground only after you know the hole. TAMU says sandy ground is where root-knot gets ugly."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "Do not root a rare stick in mystery yard soil. Wood travels. Galls stay in the trash."
-    source: ours
-    folder_pick: "Damaged Cuttings"
+- path: D:\FIGS\Greenhouse photos
+  caption: A pot of mix you trust. This is how a rare name stays off infested ground.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Figs
+  caption: In-ground only after you know the hole. TAMU says sandy ground is where
+    root-knot gets ugly.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Damaged Cuttings
+  caption: Do not root a rare stick in mystery yard soil. Wood travels. Galls stay
+    in the trash.
+  source: ours
+  folder_pick: Damaged Cuttings
 status: draft
 voice_check: human
 pillar: culture
 priority: 25
+figures:
+- ../assets/root-knot-nematodes-fig-pots/nematode-pot-rule.svg
 ---
-
 You knock a tired fig out of a pot and the roots look like they swallowed BBs. Fertilizer will not talk those galls into a fibrous mat. That plant is not hungry. It is occupied.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) said it in a bullet: if you have nematodes, grow in pots. [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) said do not root in mystery local soil. I am not writing a fumigation manual. I am writing the collector’s rule: **a rare stick goes in mix you trust.**
 
 ## Galls, sand, and a tired top
+
+<!-- figroots-graphic: nematode-pot-rule -->
+![Decision: rare fig cutting goes in trusted mix if roots show galls or sand is infested](../assets/root-knot-nematodes-fig-pots/nematode-pot-rule.svg)
+*See galls: pot. Sand + rare stick: pot. No fumigant recipe.*
 
 Texas A&M’s disease notes list root-knot as a common fig problem. Galls. Swellings. The top looks tired no matter how you feed. The 2015 figs PDF is blunt that **sandy ground** is where root-knot gets ugly. Clay is not innocent, but sand is the usual story. NC State’s fig-disease page puts cold and nematodes as the two limits in their climate, and root-knot as a major problem on sand.
 

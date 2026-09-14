@@ -1,32 +1,35 @@
 ---
-title: "If water stands on the mix, the pot is lying"
+title: If water stands on the mix, the pot is lying
 slug: fig-potting-mix-that-drains
-meta_description: "Figs drown quieter than they dry. Promix HP, perlite you can see, squeeze-test coir for cups. Heavy bagged garden soil in a #3 is how you get a sour smell."
+meta_description: 'Figs drown quieter than they dry. Promix HP, perlite you can see,
+  squeeze-test coir for cups. Heavy bagged garden soil in a #3 is how you get a sour
+  smell.'
 author: PapaFig
 tags:
-  - potting-mix
-  - perlite
-  - drainage
-  - coco-coir
+- potting-mix
+- perlite
+- drainage
+- coco-coir
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Open mix. If you cannot see air, the fig cannot either."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
-    caption: "Coir vs DE in cups — damp, not wet. The A/B stills belong to that post."
-    source: ours
-    folder_pick: "DE vs Coco Coir Photos"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Any potting-mix stills already used on the site."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Greenhouse photos
+  caption: Open mix. If you cannot see air, the fig cannot either.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\DE vs Coco Coir Photos
+  caption: Coir vs DE in cups — damp, not wet. The A/B stills belong to that post.
+  source: ours
+  folder_pick: DE vs Coco Coir Photos
+- path: D:\FIGS\FigRoots
+  caption: Any potting-mix stills already used on the site.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: culture
 priority: 30
+figures:
+- ../assets/fig-potting-mix-that-drains/mix-drain-test.svg
 ---
-
 Jack has said the potted trees run a lot of worm castings and perlite. I have built mix from perlite we buy from an expander, plus topsoil, castings, leaf compost, aged chicken manure. Coir and DE are the rooting room more than the 5-gallon language.
 
 I will not sell a secret ratio as law. I will sell this: **if water stands on top, the pot is lying.**
@@ -34,6 +37,10 @@ I will not sell a secret ratio as law. I will sell this: **if water stands on to
 Figs drown quieter than they dry. A wilted plant in a light can is a drink. A wilted plant in a cinder-block can is a swamp. Learn the difference with your hand, not with a product name.
 
 ## Promix, field capacity, the feel
+
+<!-- figroots-graphic: mix-drain-test -->
+![Hand test: if water stands on fig potting mix, add air](../assets/fig-potting-mix-that-drains/mix-drain-test.svg)
+*If water stands on top, the pot is lying.*
 
 [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) already told beginners to buy a known bag. Promix HP is the one we named. It is consistent. It is not cheap. Field capacity on that page is about **70%** — damp, not dripping — the feel you want when you firm mix around a stick.
 

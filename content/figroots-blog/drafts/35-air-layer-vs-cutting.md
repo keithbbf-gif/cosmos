@@ -1,36 +1,45 @@
 ---
-title: "Air layer when you want a bigger plant. Cut a stick when you want a tray."
+title: Air layer when you want a bigger plant. Cut a stick when you want a tray.
 slug: air-layer-vs-fig-cutting
-meta_description: "A cutting is 6–8 inches and a wait. An air layer keeps the branch on the mother and makes a root ball the size of the wrap. Fall timing is already on FigRoots."
+meta_description: A cutting is 6–8 inches and a wait. An air layer keeps the branch
+  on the mother and makes a root ball the size of the wrap. Fall timing is already
+  on FigRoots.
 author: Jack Chambers
 tags:
-  - air-layer
-  - cuttings
-  - propagation
+- air-layer
+- cuttings
+- propagation
 images:
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Air-layer stills already on the site. Coco or sphagnum at field capacity, foil, weekly moisture check."
-    source: ours
-    folder_pick: "FigRoots"
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "A handful of 6–8 inch sticks. This is how you fill a tray, not how you make a four-foot tree."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "A rooted layer slid into a pot without shaking the ball apart."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\FigRoots
+  caption: Air-layer stills already on the site. Coco or sphagnum at field capacity,
+    foil, weekly moisture check.
+  source: ours
+  folder_pick: FigRoots
+- path: D:\FIGS\Bulk Cuttings
+  caption: A handful of 6–8 inch sticks. This is how you fill a tray, not how you
+    make a four-foot tree.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Greenhouse photos
+  caption: A rooted layer slid into a pot without shaking the ball apart.
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: propagation
 priority: 35
+figures:
+- ../assets/air-layer-vs-fig-cutting/layer-vs-cutting.svg
 ---
-
 I have watched a person wrap the only trunk on a one-tree yard because an air layer “feels safer” than a stick in a cup. Safer is the wrong word. If that wrap sours, you do not have a failed cup. You have a stump.
 
 We already posted the hands: the [air-layer how-to](https://figroots.com/air-layering/) and a [fall timing page for zones 6–9](https://figroots.com/2025/09/18/setting-fall-airlayers-in-zones-6-9/). I am not restaging foil, girdle, or the zone table. This page is the job. When I would peel a ring, and when I would fill a bag with sticks.
 
 ## A cutting is a tray. A layer is a plant you can already picture.
+
+<!-- figroots-graphic: layer-vs-cutting -->
+![When to air-layer a fig versus cut 6–8 inch sticks](../assets/air-layer-vs-fig-cutting/layer-vs-cutting.svg)
+*A cutting is a tray. A layer is a plant you can already picture.*
 
 The industry cutting we already defined is **6–8 inches and three nodes**. Lignified if you can get it. Fridge if it is dormant. That stick is cheap, mail-able, and on its own from the first minute. Failures have names: rot, callus-only, a dry stick. I wrote those up. The cutting does not get a mother to drink from while it thinks.
 

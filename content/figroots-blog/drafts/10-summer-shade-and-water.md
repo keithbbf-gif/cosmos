@@ -1,33 +1,36 @@
 ---
-title: "July in the South: afternoon shade and enough water"
+title: 'July in the South: afternoon shade and enough water'
 slug: summer-shade-water-hot-south
-meta_description: "Northern figs want all the sun you have. Southern figs want morning sun, afternoon shade, and water that does not come as a flood after a drought."
+meta_description: Northern figs want all the sun you have. Southern figs want morning
+  sun, afternoon shade, and water that does not come as a flood after a drought.
 author: PapaFig
 tags:
-  - shade
-  - watering
-  - heat
-  - pots
-  - southeast
+- shade
+- watering
+- heat
+- pots
+- southeast
 images:
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "July wilt, afternoon sun, summer water. Heat is not a variety defect."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots under cover or shade cloth. Black plastic on gravel at 2 p.m. is a different climate."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Figs"
-    caption: "East-wall or yard shade if 2023 is all full-sun hero shots."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Figs-summer-23
+  caption: July wilt, afternoon sun, summer water. Heat is not a variety defect.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots under cover or shade cloth. Black plastic on gravel at 2 p.m. is a
+    different climate.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Figs
+  caption: East-wall or yard shade if 2023 is all full-sun hero shots.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: climate
 priority: 10
+figures:
+- ../assets/summer-shade-water-hot-south/shade-day-chart.svg
 ---
-
 A fig can have all the growing degree days in the county and still taste like a dry sponge if you fried it.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) split the country in one clause: full sun in the North; in the South they need **some shade in the summer, and lots of water**. People skip that sentence because every generic fruit article says “full sun.” Generic fruit articles were not written in South Arkansas in July.
@@ -35,6 +38,10 @@ A fig can have all the growing degree days in the county and still taste like a 
 Morning sun. Afternoon shade. **6–8 hours** still. A black pot on gravel is an oven. Do not cargo-cult a California deficit recipe onto that oven.
 
 ## Morning sun, afternoon shade
+
+<!-- figroots-graphic: shade-day-chart -->
+![Schematic July day showing morning sun and afternoon shade bands](../assets/summer-shade-water-hot-south/shade-day-chart.svg)
+*Tune shade to your row — hours shown are illustrative.*
 
 Morning sun dries leaves and fruit after a wet night. That is the sun I want. It also stacks heat without turning a black nursery pot into a Dutch oven.
 

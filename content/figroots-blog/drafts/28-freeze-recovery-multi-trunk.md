@@ -1,32 +1,34 @@
 ---
-title: "Frozen to the ground: pick five or six shoots and make a tree"
+title: 'Frozen to the ground: pick five or six shoots and make a tree'
 slug: fig-freeze-recovery-multi-trunk
-meta_description: "A fig that dies to the soil line can still fruit on new wood. Thin the thicket. Do not hat-rack a Celeste in a panic in January."
+meta_description: A fig that dies to the soil line can still fruit on new wood. Thin
+  the thicket. Do not hat-rack a Celeste in a panic in January.
 author: PapaFig
 tags:
-  - freeze
-  - pruning
-  - multi-trunk
-  - arkansas
+- freeze
+- pruning
+- multi-trunk
+- arkansas
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: "Sprouts after a winter bite. This is a thicket until you choose trunks."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "New wood in summer. Main crop can ride these shoots."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "A young pot that froze. Recovery is slower when the roots cooked too."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Figs
+  caption: Sprouts after a winter bite. This is a thicket until you choose trunks.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Figs-summer-23
+  caption: New wood in summer. Main crop can ride these shoots.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Greenhouse photos
+  caption: A young pot that froze. Recovery is slower when the roots cooked too.
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: culture
 priority: 28
+figures:
+- ../assets/fig-freeze-recovery-multi-trunk/five-trunk-rebuild.svg
 ---
-
 University of Arkansas Extension’s comfort line: even if figs freeze to the soil, they often resprout from the roots and may bear that year, because they fruit on **current-season wood**. Texas A&M’s 2015 figs PDF gives the picture: a crowd of shoots, then you keep **five or six** as new trunks, and you thin over **two or three weeks** so you do not strip the leaf factory in one afternoon.
 
 That is the Southern fig after a bad winter. It is a bush that you turn back into a bush on purpose. Zone **8a** South Arkansas still pays this tax. It is not a funeral if the roots lived.
@@ -54,6 +56,10 @@ If everything above ground is meat, you are in TAMU’s resprout program. Let th
 I would not strip a thicket in one Saturday to feel useful. You will cook the remaining shoots and then blame July.
 
 ## Five or six trunks, not twenty
+
+<!-- figroots-graphic: five-trunk-rebuild -->
+![Freeze recovery: wait, let shoots reach two feet, keep five or six trunks](../assets/fig-freeze-recovery-multi-trunk/five-trunk-rebuild.svg)
+*TAMU’s number. Thin over two or three weeks.*
 
 This is the week I actually run, once the shoots are about **two feet**.
 

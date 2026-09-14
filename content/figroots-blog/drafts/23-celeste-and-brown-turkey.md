@@ -1,32 +1,35 @@
 ---
-title: "Celeste and Brown Turkey are tools. They are not a personality."
+title: Celeste and Brown Turkey are tools. They are not a personality.
 slug: celeste-vs-brown-turkey-arkansas
-meta_description: "County agents recommend Celeste and Brown Turkey because they live here. One hates a hard prune. The other rebounds. Neither has to be your favorite flavor."
+meta_description: County agents recommend Celeste and Brown Turkey because they live
+  here. One hates a hard prune. The other rebounds. Neither has to be your favorite
+  flavor.
 author: PapaFig
 tags:
-  - celeste
-  - brown-turkey
-  - arkansas
-  - varieties
+- celeste
+- brown-turkey
+- arkansas
+- varieties
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Small brown yard fig. Useful. Taste it before you plant a row of celebrities."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\Figs"
-    caption: "The in-ground workhorse after a winter bite."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "Brown Turkey is a crowd of names. Read the fruit, not the tag."
-    source: ours
-    folder_pick: "Fig Labels"
+- path: D:\FIGS\Fig Fruit
+  caption: Small brown yard fig. Useful. Taste it before you plant a row of celebrities.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\Figs
+  caption: The in-ground workhorse after a winter bite.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Fig Labels
+  caption: Brown Turkey is a crowd of names. Read the fruit, not the tag.
+  source: ours
+  folder_pick: Fig Labels
 status: draft
 voice_check: human
 pillar: identity
 priority: 23
+figures:
+- ../assets/celeste-vs-brown-turkey-arkansas/celeste-turkey-tools.svg
 ---
-
 I have said out loud, on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith), that I am not a fan of Brown Turkey or Celeste for eating, so far. We still have them. We give a long trial. We would graft over before we would throw a live root system in a pile.
 
 That is not hypocrisy. That is two jobs. **Climate tool** and **dessert**. County extension is in the tool business. I am in both. A tool fig can feed a kid in a year the celebrities are still sticks. A boring fig with a live hole is still a hole I can change later.
@@ -40,6 +43,10 @@ University of Arkansas Extension names them because they live here, they are the
 I will keep saying the Fig Jam line until the fruit changes my mind: not a fan so far. I will also keep the trees. A long trial is how we still have plants I would graft before I would cut. If you want a conversation on the plate, trial a berry type in a **#3** you can afford to lose. Do not skip the tool tree to prove you have taste.
 
 ## What UAEX actually wrote
+
+<!-- figroots-graphic: celeste-turkey-tools -->
+![Celeste versus Brown Turkey as climate tools in Arkansas](../assets/celeste-vs-brown-turkey-arkansas/celeste-turkey-tools.svg)
+*County-agent tools. Not a personality. Fruit still has to be eaten.*
 
 Celeste: most cold-hardy of the common yard figs they talk about. Small brown fruit. Ripens usually before Brown Turkey. **Tight eye.** Helps keep beetles and souring out. Does **not** bounce from a hard late-winter prune. Chop it and you may delete the crop. UAEX’s words: if you severely prune a Celeste in late winter, you will greatly limit that season’s fruit.
 

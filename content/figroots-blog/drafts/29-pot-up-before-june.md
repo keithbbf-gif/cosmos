@@ -1,37 +1,43 @@
 ---
-title: "Pot up before June or live with a sulk"
+title: Pot up before June or live with a sulk
 slug: pot-up-fig-before-june
-meta_description: "The Introduction page already warned you. A late pot-up into Arkansas heat shocks a plant that should have been growing in a #3."
+meta_description: 'The Introduction page already warned you. A late pot-up into Arkansas
+  heat shocks a plant that should have been growing in a #3.'
 author: Jack Chambers
 tags:
-  - potting-up
-  - containers
-  - summer
-  - timing
+- potting-up
+- containers
+- summer
+- timing
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "A #3 that got its plant in spring. This is the timing we want."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: "Cup roots ready in April or May — move them while they still want to grow."
-    source: ours
-    folder_pick: "DE vs CC"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "July heat. This is a bad week to shock a root ball."
-    source: ours
-    folder_pick: "Figs-summer-23"
+- path: D:\FIGS\Greenhouse photos
+  caption: 'A #3 that got its plant in spring. This is the timing we want.'
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\DE vs CC
+  caption: Cup roots ready in April or May — move them while they still want to grow.
+  source: ours
+  folder_pick: DE vs CC
+- path: D:\FIGS\Figs-summer-23
+  caption: July heat. This is a bad week to shock a root ball.
+  source: ours
+  folder_pick: Figs-summer-23
 status: draft
 voice_check: human
 pillar: propagation
 priority: 29
+figures:
+- ../assets/pot-up-fig-before-june/june-pot-deadline.svg
 ---
-
 The [Introduction](https://figroots.com/an-introduction-to-figs/) said pot into a **3-gallon** before the plant is a knot, and do it **before June** because a late pot-up can shock them. I have watched that sentence come true. The leaves look insulted. The pot sits wet because you panicked. Then it sits dry because you got scared of rot. Then it is August.
 
 This is not a new method. It is a calendar. The other pot-up draft in this set is the **root check**: roots on the cup wall, do not shake the mix, leaves lie. This page is the **deadline**. If the plant is already growing in spring, move it while it still wants to grow. After June in South Arkansas, you are asking a wounded root system to drink as fast as July evaporates a **#3** on gravel.
 
 ## This page is the date. The other page is the roots.
+
+<!-- figroots-graphic: june-pot-deadline -->
+![Calendar: pot a rooted fig into a 3-gallon before June](../assets/pot-up-fig-before-june/june-pot-deadline.svg)
+*This page is the date. The other page is the roots.*
 
 The when-to-pot-up draft in this set is whether the cup is ready. Callus is not roots. A leafy stick with an empty cup is a battery. Outdoor bulk starts run a different clock: the [Outdoor](https://figroots.com/outdoor/) page waits for **7–8 nice leaves** in a pot, or **9–10** in a bed, about **60–90 days**, or you wait until fall dormancy and dig then. Do not mash those calendars into this one.
 

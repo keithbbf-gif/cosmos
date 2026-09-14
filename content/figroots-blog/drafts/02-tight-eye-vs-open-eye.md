@@ -1,34 +1,39 @@
 ---
-title: "Tight-eye vs open-eye when August stays wet"
+title: Tight-eye vs open-eye when August stays wet
 slug: tight-eye-vs-open-eye-humid-climates
-meta_description: "In a humid South, the hole at the bottom of the fig is not a trivia fact. A tight eye keeps rain and beetles out. An open eye invites vinegar."
+meta_description: In a humid South, the hole at the bottom of the fig is not a trivia
+  fact. A tight eye keeps rain and beetles out. An open eye invites vinegar.
 author: PapaFig
 tags:
-  - tight-eye
-  - ostiole
-  - humidity
-  - souring
-  - arkansas
-  - southeast
+- tight-eye
+- ostiole
+- humidity
+- souring
+- arkansas
+- southeast
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Tight ostiole close-up, or split/sour after rain. This is the hole you are betting the season on."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Open eye after a storm if Fig Fruit is all pretty ripe shots."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\Malta_Black_Fig"
-    caption: "Dark fruit eye on a named tree we actually have. Do not call it tight unless the photo shows it."
-    source: ours
-    folder_pick: "Malta_Black_Fig"
+- path: D:\FIGS\Fig Fruit
+  caption: Tight ostiole close-up, or split/sour after rain. This is the hole you
+    are betting the season on.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Open eye after a storm if Fig Fruit is all pretty ripe shots.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\Malta_Black_Fig
+  caption: Dark fruit eye on a named tree we actually have. Do not call it tight unless
+    the photo shows it.
+  source: ours
+  folder_pick: Malta_Black_Fig
 status: draft
 voice_check: human
 pillar: fruit
 priority: 2
+figures:
+- ../assets/tight-eye-vs-open-eye-humid-climates/eye-comparison.svg
+- ../assets/tight-eye-vs-open-eye-humid-climates/humidity-decision-tree.svg
 ---
-
 You wait all year. The fig finally colors. Then a night of rain, a hot morning, and the thing smells like a cider jug that sat in the sun.
 
 That is not “bad luck.” That is an open door.
@@ -51,6 +56,10 @@ The old Caldis work in *Hilgardia* is the beetle story: they ride in through the
 
 ## What “tight” looks like in the hand
 
+<!-- figroots-graphic: eye-comparison -->
+![Side-by-side schematic of tight-eye and open-eye fig fruit cross-sections](../assets/tight-eye-vs-open-eye-humid-climates/eye-comparison.svg)
+*Ostiole size schematic — pair with a real fruit photo from D:\FIGS\Fig Fruit.*
+
 I do not grade ostioles with a caliper. I look.
 
 A tight eye is a pin, a crease, sometimes a little scale that stays shut when the fig is soft. An open eye is a hole you could drop a seed through, or a mouth that wets after dew. After rain, the open ones show a dark stain or a bead of juice. That bead is an invitation.
@@ -72,6 +81,10 @@ Open-eye dessert figs are a dry-climate hobby unless you pick them *early* in th
 I still trial open-eye names in **#3** pots I can watch. I do not plant ten of them in the ground because a California video called them dessert. One wet August is the exam. Pass it, then talk about a hole.
 
 ## What you do in a wet week
+
+<!-- figroots-graphic: humidity-decision-tree -->
+![Decision tree for humid-week harvest choices on fig trees](../assets/tight-eye-vs-open-eye-humid-climates/humidity-decision-tree.svg)
+*After rain + heat — illustrative choices, not a spray schedule.*
 
 Variety first. Then culture.
 

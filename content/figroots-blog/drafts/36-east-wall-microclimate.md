@@ -1,37 +1,43 @@
 ---
-title: "The east wall is a climate, not a decoration"
+title: The east wall is a climate, not a decoration
 slug: east-wall-fig-microclimate
-meta_description: "UAEX and TAMU both point at a building: morning sun, less west fry, a little winter heat. You still need 6–8 hours if you want fruit."
+meta_description: 'UAEX and TAMU both point at a building: morning sun, less west
+  fry, a little winter heat. You still need 6–8 hours if you want fruit.'
 author: PapaFig
 tags:
-  - microclimate
-  - siting
-  - arkansas
-  - winter
+- microclimate
+- siting
+- arkansas
+- winter
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground fig against a wall. Morning sun on fruit after a night rain."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "West reflectors at 2 p.m. are a different plant than this."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots can steal a wall too. Then you can still shuffle them."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Figs
+  caption: In-ground fig against a wall. Morning sun on fruit after a night rain.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Figs-summer-23
+  caption: West reflectors at 2 p.m. are a different plant than this.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots can steal a wall too. Then you can still shuffle them.
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: climate
 priority: 36
+figures:
+- ../assets/east-wall-fig-microclimate/east-wall-day.svg
 ---
-
 UAEX: plant on the **east** side of a house, or with rock or brick at their back, to block wind and throw heat in winter. You still need **6–8 hours** of sun. TAMU likes **south or east** of a home or barn for the same winter logic, and so morning sun dries fruit and leaves after a night rain.
 
 That is not decorating talk. That is a cheaper hoop house made of a wall you already paid for. A fig is not a foundation shrub you stuck there because the blank siding looked lonely. If you cannot stand at the spot at 2 p.m. in July, the pot you set there will not enjoy it either.
 
 ## East or south of a building
+
+<!-- figroots-graphic: east-wall-day -->
+![East-wall day: morning sun dries fruit, afternoon shade, still 6–8 hours](../assets/east-wall-fig-microclimate/east-wall-day.svg)
+*TAMU/UAEX: east or south of a building. West fries.*
 
 Morning light. Fruit that dries. A little less of the west hammer in July. A pocket that can be kinder on a still, cold night.
 

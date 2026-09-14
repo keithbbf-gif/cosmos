@@ -1,37 +1,44 @@
 ---
-title: "Arkansas grows common figs. Leave the wasp types in the book."
+title: Arkansas grows common figs. Leave the wasp types in the book.
 slug: common-figs-only-arkansas
-meta_description: "Four horticultural types exist. In the mid-South only common figs set without a wasp. A Smyrna name on a stick is a science project, not a backyard crop."
+meta_description: Four horticultural types exist. In the mid-South only common figs
+  set without a wasp. A Smyrna name on a stick is a science project, not a backyard
+  crop.
 author: PapaFig
 tags:
-  - common-figs
-  - caprifig
-  - pollination
-  - arkansas
+- common-figs
+- caprifig
+- pollination
+- arkansas
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "A common fig we ate. No wasp required. This is the type that works here."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "Read the type, not just the pretty name."
-    source: ours
-    folder_pick: "Fig Labels"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground common fig in Arkansas. Main crop on new wood."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Fig Fruit
+  caption: A common fig we ate. No wasp required. This is the type that works here.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\Fig Labels
+  caption: Read the type, not just the pretty name.
+  source: ours
+  folder_pick: Fig Labels
+- path: D:\FIGS\Figs
+  caption: In-ground common fig in Arkansas. Main crop on new wood.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: identity
 priority: 22
+figures:
+- ../assets/common-figs-only-arkansas/fig-types-arkansas.svg
 ---
-
 University of Arkansas Extension puts it in county ink. There are four horticultural types. **In our climate only the common figs can be grown.** California and the old country have types that need a tiny wasp to walk into the eye and do business. We do not have a working backyard version of that system, and we do not need it.
 
 A listing that ships you a Smyrna or a caprifig as if it were a Celeste is not giving you a rare treat. It is giving you a plant that will set fruit and dump it, or a male tree you did not ask for. I will not grow wasp culture as a backyard project in zone **8a**. The wasp stays in the book.
 
 ## Four types, one that works here
+
+<!-- figroots-graphic: fig-types-arkansas -->
+![Horticultural fig types and which one Arkansas actually grows](../assets/common-figs-only-arkansas/fig-types-arkansas.svg)
+*Common figs only. Wasp types stay in the book.*
 
 **Common.** The fig sets without pollination. Parthenocarpic. Texas A&M’s 2015 figs PDF: fleshy stem tissue, no seeds, gelatin-like interior that is unfertilized flower structures. This is Celeste, Brown Turkey / Texas Everbearing, LSU Purple, the berry names we actually eat. This is what you want in Arkansas, Louisiana, most of the Southeast. UAEX: the edible structure is a syconium — inverted flowers inside stem tissue — and the crunchy bits are usually unfertilized ovaries, not a proof a wasp visited.
 

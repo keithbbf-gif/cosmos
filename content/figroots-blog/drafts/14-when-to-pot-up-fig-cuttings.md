@@ -1,37 +1,43 @@
 ---
-title: "When to pot up a rooted cutting (and when to leave it alone)"
+title: When to pot up a rooted cutting (and when to leave it alone)
 slug: when-to-pot-up-fig-cuttings
-meta_description: "Fig-pop roots break if you treat them like a weed. Wait for a real root system, pot up before June if you can, and do not shake the mix off."
+meta_description: Fig-pop roots break if you treat them like a weed. Wait for a real
+  root system, pot up before June if you can, and do not shake the mix off.
 author: Jack Chambers
 tags:
-  - potting-up
-  - fig-pops
-  - roots
-  - containers
+- potting-up
+- fig-pops
+- roots
+- containers
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: "Roots on the cup wall. This is closer to pot-up than a white callus."
-    source: ours
-    folder_pick: "DE vs CC"
-  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
-    caption: "Fragile pop roots. Support the mix. Do not shake it clean."
-    source: ours
-    folder_pick: "DE vs Coco Coir Photos"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Trade gallon or #3 after the cup. Label moves with the plant."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\DE vs CC
+  caption: Roots on the cup wall. This is closer to pot-up than a white callus.
+  source: ours
+  folder_pick: DE vs CC
+- path: D:\FIGS\DE vs Coco Coir Photos
+  caption: Fragile pop roots. Support the mix. Do not shake it clean.
+  source: ours
+  folder_pick: DE vs Coco Coir Photos
+- path: D:\FIGS\Greenhouse photos
+  caption: 'Trade gallon or #3 after the cup. Label moves with the plant.'
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: propagation
 priority: 14
+figures:
+- ../assets/when-to-pot-up-fig-cuttings/pot-up-root-check.svg
 ---
-
 The first time I dumped a fig pop like it was a tomato start, the roots came off in my hand. The leaves looked great. The plant was done.
 
 [Fig Pops](https://figroots.com/fig-pops/) already said it: those roots are brittle. The [Introduction](https://figroots.com/an-introduction-to-figs/) already said pot into a 3-gallon before the thing is a knot, and try to do that **before June**. This is the in-between — when the cup is ready, and when you are just bored. The June deadline is its own draft in this set. This page is the **root check**.
 
 ## Ready is roots, not leaves
+
+<!-- figroots-graphic: pot-up-root-check -->
+![Decision fork: pot a fig pop when roots exist, not when leaves exist](../assets/when-to-pot-up-fig-cuttings/pot-up-root-check.svg)
+*Leaves lie. Roots on the wall are the check.*
 
 Leaves lie. A cutting will throw a flush on stored food and then fold. I wait until I see roots on the wall of a clear cup, or I feel a web when I squeeze *gently*, or I peek from the bottom holes.
 

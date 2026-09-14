@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="264" viewBox="0 0 720 264" role="img" aria-labelledby="title desc">
+<title id="title">Pick the job</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Do not layer the only trunk. Fall clock is on the live site.</tspan>
+</text>
+<rect x="24" y="56" width="672" height="184" rx="6" fill="#ffffff" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="label" x="40" y="80">Want</text>
+<text class="label" x="250" y="80">Cutting</text>
+<text class="label" x="470" y="80">Layer</text>
+<text class="small" x="40" y="124">Twenty plants</text>
+<text class="small" x="250" y="124">Yes</text>
+<text class="small" x="470" y="124">No</text>
+<line x1="32" y1="136" x2="688" y2="136" stroke="#9aa89f"/>
+<text class="small" x="40" y="172">One #5 this year</text>
+<text class="small" x="250" y="172">Slow</text>
+<text class="small" x="470" y="172">Yes</text>
+<line x1="32" y1="184" x2="688" y2="184" stroke="#9aa89f"/>
+<text class="small" x="40" y="220">Only trunk</text>
+<text class="small" x="250" y="220">Side stick</text>
+<text class="small" x="470" y="220">Do not</text>
+</svg>

@@ -1,33 +1,37 @@
 ---
-title: "Birds, beetles, and why a green fig lasts longer on the tree"
+title: Birds, beetles, and why a green fig lasts longer on the tree
 slug: birds-pests-green-vs-dark-figs
-meta_description: "Birds see a dark ripe fig from the fence line. Green fruit hides better. Beetles and raccoons do not care what color you planted — unless you leave splitters hanging."
+meta_description: Birds see a dark ripe fig from the fence line. Green fruit hides
+  better. Beetles and raccoons do not care what color you planted — unless you leave
+  splitters hanging.
 author: PapaFig
 tags:
-  - birds
-  - pests
-  - green-figs
-  - dried-fruit-beetle
-  - harvest
+- birds
+- pests
+- green-figs
+- dried-fruit-beetle
+- harvest
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Pecked fruit, or a ripe dark fig birds would hit from the fence line."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Ripe green-skinned fig on the tree. Easy to miss if you only hunt purple."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\Malta_Black_Fig"
-    caption: "Dark ripe contrast on a named tree we have. Netting is a new still if we never shot it."
-    source: ours
-    folder_pick: "Malta_Black_Fig"
+- path: D:\FIGS\Fig Fruit
+  caption: Pecked fruit, or a ripe dark fig birds would hit from the fence line.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Ripe green-skinned fig on the tree. Easy to miss if you only hunt purple.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\Malta_Black_Fig
+  caption: Dark ripe contrast on a named tree we have. Netting is a new still if we
+    never shot it.
+  source: ours
+  folder_pick: Malta_Black_Fig
 status: draft
 voice_check: human
 pillar: fruit
 priority: 8
+figures:
+- ../assets/birds-pests-green-vs-dark-figs/birds-color-chart.svg
 ---
-
 Jack will tell you his least favorite part of fig season after a dead tree: birds hitting fruit that is almost ripe. That is on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith), not a story I made up for this page. I have stood under a tree at dusk and counted pecks I did not hear happen.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) put it in one line. If you have a lot of birds, a **green fig might get eaten less than a dark one**. That is not folklore we invented. It is how contrast works on a tree. A purple-black fig on green leaves is a billboard. A ripe green fig looks like a leaf that got thick.
@@ -35,6 +39,10 @@ Jack will tell you his least favorite part of fig season after a dead tree: bird
 It is not invisibility. It is a head start. Birds still cost the most fruit.
 
 ## Birds first, because they cost the most fruit
+
+<!-- figroots-graphic: birds-color-chart -->
+![Illustration comparing green and dark ripe fig visibility to birds](../assets/birds-pests-green-vs-dark-figs/birds-color-chart.svg)
+*Illustrative contrast — local bird pressure still wins.*
 
 Figs have to ripen on the tree. You cannot pick them hard and finish them on the counter like a peach you almost got right. Soft means now. Morning is when I want to be out there. A lot of the damage is breakfast.
 

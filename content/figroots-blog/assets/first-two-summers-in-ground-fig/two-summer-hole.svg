@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+<title id="title">Two summers</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Graduation = live trunk in March of year three + hose in August of</tspan>
+<tspan x="24" dy="16">year two.</tspan>
+</text>
+<defs><marker id='arrowhead' markerWidth='8' markerHeight='8' refX='6' refY='4' orient='auto'><polygon points='0 0, 8 4, 0 8' fill='#9aa89f'/></marker></defs>
+<rect x="30" y="90" width="150" height="70" rx="6" fill="#e8dcc8" stroke="#8b5e34" stroke-width="1.5"/>
+<text class="label" x="105.0" y="118" text-anchor="middle">Drain hole</text>
+<line x1="180" y1="125" x2="196" y2="125" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="196" y="90" width="150" height="70" rx="6" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="1.5"/>
+<text class="label" x="271.0" y="118" text-anchor="middle">Water in</text>
+<line x1="346" y1="125" x2="362" y2="125" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="362" y="90" width="150" height="70" rx="6" fill="#e8dcc8" stroke="#8b5e34" stroke-width="1.5"/>
+<text class="label" x="437.0" y="118" text-anchor="middle">Two Augusts</text>
+<line x1="512" y1="125" x2="528" y2="125" stroke="#9aa89f" stroke-width="2" marker-end="url(#arrowhead)"/>
+<rect x="528" y="90" width="150" height="70" rx="6" fill="#d4e4dc" stroke="#2f5d4a" stroke-width="1.5"/>
+<text class="label" x="603.0" y="118" text-anchor="middle">Year three</text>
+</svg>

@@ -1,32 +1,36 @@
 ---
-title: "The name walks off the pot before the fruit ever shows"
+title: The name walks off the pot before the fruit ever shows
 slug: labeling-fig-cuttings-and-pots
-meta_description: "A paper tag in a hose storm is how Red Sicilian becomes the green pot by the door. Write the name before you stick, and again before you pot up."
+meta_description: A paper tag in a hose storm is how Red Sicilian becomes the green
+  pot by the door. Write the name before you stick, and again before you pot up.
 author: PapaFig
 tags:
-  - labels
-  - collecting
-  - true-to-type
-  - pots
+- labels
+- collecting
+- true-to-type
+- pots
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "Tags that still match the pot. This folder exists because names walk off."
-    source: ours
-    folder_pick: "Fig Labels"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Paint pen on both sides of a black pot. Sun fades the south face; the back side is the spare."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "A block of #3s. If two labels swap on pot-up day, you will not know for two years."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Fig Labels
+  caption: Tags that still match the pot. This folder exists because names walk off.
+  source: ours
+  folder_pick: Fig Labels
+- path: D:\FIGS\Fig Jam Article
+  caption: Paint pen on both sides of a black pot. Sun fades the south face; the back
+    side is the spare.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\Greenhouse photos
+  caption: 'A block of #3s. If two labels swap on pot-up day, you will not know for
+    two years.'
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: identity
 priority: 32
+figures:
+- ../assets/labeling-fig-cuttings-and-pots/label-three-times.svg
 ---
-
 A paper tag in a hose storm is how Red Sicilian becomes the green pot by the door, and you will not know until the first plate two summers later.
 
 True-to-type takes a year or three. A missing label takes one afternoon. I like black nursery pots because a **paint pen** (Posca is what I have used) stays on plastic the hose actually hits. I have watched paper tags pulp, fade, and migrate to the next #3. I have watched two cups swap on a pot-up table and a shrug that says we will remember. That shrug is a lie you will tell a buyer later if you are not careful.
@@ -34,6 +38,10 @@ True-to-type takes a year or three. A missing label takes one afternoon. I like 
 [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) already said it takes **a year or more, sometimes two or three**, to prove type. The notebook in the true-to-type draft is that clock. This page is the pen that keeps the clock pointed at a pot. Hundreds of pots. Winter shuffle. I will not keep identity in my head. I will lie to myself.
 
 ## Write the name three times
+
+<!-- figroots-graphic: label-three-times -->
+![Write a fig name on the bag, the cup, and the 3-gallon pot](../assets/labeling-fig-cuttings-and-pots/label-three-times.svg)
+*A missing label takes one afternoon. True-to-type takes years.*
 
 **On the bag the cutting arrived in.** Date. Source. Claimed name. If there is no name, write that. “Unlabeled box 3” is honest. “Probably Black Madeira” is how a guess becomes a trade.
 

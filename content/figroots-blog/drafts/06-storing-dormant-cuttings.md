@@ -1,33 +1,37 @@
 ---
-title: "Fridge storage for lignified dormant cuttings"
+title: Fridge storage for lignified dormant cuttings
 slug: storing-dormant-fig-cuttings
-meta_description: "Green cuttings rot in a fridge. Dormant, lignified wood can wait in the crisper if you keep it sealed and not wet. Check the bag. Do not guess."
+meta_description: Green cuttings rot in a fridge. Dormant, lignified wood can wait
+  in the crisper if you keep it sealed and not wet. Check the bag. Do not guess.
 author: Jack Chambers
 tags:
-  - cuttings
-  - storage
-  - dormancy
-  - parafilm
-  - propagation
+- cuttings
+- storage
+- dormancy
+- parafilm
+- propagation
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "Brown / gray lignified bundle, no sap on a fresh cut. This is what you may store."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "Fuzzy or crushed wood. Pull it. Do not ‘wait and see’ on mold."
-    source: ours
-    folder_pick: "Damaged Cuttings"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Existing cuttings-standard still from site assets, if the bulk folders lack a clean dormant shot."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Bulk Cuttings
+  caption: Brown / gray lignified bundle, no sap on a fresh cut. This is what you
+    may store.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: Fuzzy or crushed wood. Pull it. Do not ‘wait and see’ on mold.
+  source: ours
+  folder_pick: Damaged Cuttings
+- path: D:\FIGS\FigRoots
+  caption: Existing cuttings-standard still from site assets, if the bulk folders
+    lack a clean dormant shot.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: propagation
 priority: 6
+figures:
+- ../assets/storing-dormant-fig-cuttings/fridge-storage-flow.svg
 ---
-
 A box shows up in January. You are not ready to stick a tray. The wood looks good. The fridge is right there.
 
 That is when people ruin cuttings they already paid for.
@@ -47,6 +51,10 @@ Texas A&M’s 2015 figs PDF is in the same camp on the farm side: hardwood cutti
 If you only remember one rule: **the fridge is for dormant, lignified wood.** Everything else is a now problem. A pretty green stick in a zip bag in July is a mushroom farm you paid postage on.
 
 ## Wash, wrap, double-bag, crisper
+
+<!-- figroots-graphic: fridge-storage-flow -->
+![Process diagram for washing, bagging, and refrigerating dormant fig cuttings](../assets/storing-dormant-fig-cuttings/fridge-storage-flow.svg)
+*Jack’s fridge workflow — see the cuttings post for the spoken version.*
 
 This is the line I gave [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). It is practice, not a month-survival table.
 

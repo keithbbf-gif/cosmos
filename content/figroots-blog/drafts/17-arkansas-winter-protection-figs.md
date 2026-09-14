@@ -1,38 +1,45 @@
 ---
-title: "Winter in Arkansas: protect the wood you still want in March"
+title: 'Winter in Arkansas: protect the wood you still want in March'
 slug: arkansas-winter-protection-figs
-meta_description: "8a will freeze a pot solid and bite in-ground wood. Move containers, keep them barely moist, and do not pretend a heated den is dormancy."
+meta_description: 8a will freeze a pot solid and bite in-ground wood. Move containers,
+  keep them barely moist, and do not pretend a heated den is dormancy.
 author: PapaFig
 tags:
-  - winter
-  - arkansas
-  - freeze
-  - pots
-  - protection
+- winter
+- arkansas
+- freeze
+- pots
+- protection
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots in a shop or hoop for the cold months. Roots do not want a hard freeze in a #3."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground tree after winter. Count live wood before you plan breba."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Any existing winter-protection stills already on the site."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Greenhouse photos
+  caption: 'Pots in a shop or hoop for the cold months. Roots do not want a hard freeze
+    in a #3.'
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Figs
+  caption: In-ground tree after winter. Count live wood before you plan breba.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\FigRoots
+  caption: Any existing winter-protection stills already on the site.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: climate
 priority: 17
+figures:
+- ../assets/arkansas-winter-protection-figs/winter-pot-vs-ground.svg
 ---
-
 We already keep a [Winter Protection](https://figroots.com/winter-protection/) page. This is the Arkansas version of that argument: zone **8a**, rollercoaster winters, pots that will freeze through, in-ground wood that may or may not be there in March.
 
 UAEX is blunt. North counties take the worst swings. A fig can die to the ground and still throw main-crop fruit on new shoots. Breba rarely rides through our winter on unprotected wood. If you prune like you live in San Diego, you will meet March with a hat rack and a story.
 
 ## Pots: the shuffle is the protection
+
+<!-- figroots-graphic: winter-pot-vs-ground -->
+![Winter protection comparison for potted versus in-ground figs in Arkansas](../assets/arkansas-winter-protection-figs/winter-pot-vs-ground.svg)
+*8a conversation — not a heated-den catalog.*
 
 A #3 on a porch in January is a block of ice with a stick in it. Roots in a thin black pot see every degree.
 

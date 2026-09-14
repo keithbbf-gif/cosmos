@@ -1,33 +1,36 @@
 ---
-title: "Berry, honey, sugar, melon, peach — taste the fig, not the name"
+title: Berry, honey, sugar, melon, peach — taste the fig, not the name
 slug: fig-flavor-families
-meta_description: "Fig flavor is not one brown paste. Berry, honey, sugar, melon, and peach are working words. Prove them on ripe fruit from a tree you trust."
+meta_description: Fig flavor is not one brown paste. Berry, honey, sugar, melon, and
+  peach are working words. Prove them on ripe fruit from a tree you trust.
 author: PapaFig
 tags:
-  - flavor
-  - varieties
-  - berry
-  - honey
-  - tasting
+- flavor
+- varieties
+- berry
+- honey
+- tasting
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Cut fruit on a plate. Red pulp and a berry nose — this is the argument, not the label."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\More Fig Pictures"
-    caption: "Amber / honey pulp if Fig Fruit is one color family."
-    source: ours
-    folder_pick: "More Fig Pictures"
-  - path: "D:\\FIGS\\El Dorado Fig"
-    caption: "Named fruit we have eaten, captioned as that tree — not a catalog clone."
-    source: ours
-    folder_pick: "El Dorado Fig"
+- path: D:\FIGS\Fig Fruit
+  caption: Cut fruit on a plate. Red pulp and a berry nose — this is the argument,
+    not the label.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\More Fig Pictures
+  caption: Amber / honey pulp if Fig Fruit is one color family.
+  source: ours
+  folder_pick: More Fig Pictures
+- path: D:\FIGS\El Dorado Fig
+  caption: Named fruit we have eaten, captioned as that tree — not a catalog clone.
+  source: ours
+  folder_pick: El Dorado Fig
 status: draft
 voice_check: human
 pillar: fruit
 priority: 5
+figures:
+- ../assets/fig-flavor-families/flavor-wheel.svg
 ---
-
 I used to think I did not like figs. I had not had a good one.
 
 That sentence is already on [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/). It is still the right sentence. Grocery figs are picked for freight. A ripe fig off a tree is a different food. Some eat like jam and berries. Some eat like honey on bread. Some are just sugar and a little grit, and you wonder why anyone mailed a cutting of it across the country.
@@ -45,6 +48,10 @@ Do this on a tree you believe. A mislabeled cutting will teach you the wrong fam
 I taste in the morning, not after the fruit sat in a hot bowl. A fig that soured in the eye is not a flavor family. It is trash. The split-versus-sour draft is that bucket. This page is the plate.
 
 ## The five words we actually use
+
+<!-- figroots-graphic: flavor-wheel -->
+![Diagram of five fig flavor family descriptors arranged around ripe fruit](../assets/fig-flavor-families/flavor-wheel.svg)
+*Tasting vocabulary only — not lab chemistry or Brix.*
 
 **Berry.**  
 Red to strawberry pulp. Smell like raspberry jam or dark berries, sometimes with a wine note. This is the fig that converts people who “don’t like figs.” Jack’s 2025 short list was heavy here: Red Sicilian (productive, sweet, medium, berry), Negra d’Agde (not the sweetest, more berry than anything else he had on that list), Syrian Dark #2 (strong berry, small, extremely tight eye). Those are *our* notes on *our* fruit. I will not hang a score on them. Your soil and your year will move the needle.

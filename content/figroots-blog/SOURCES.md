@@ -1,6 +1,8 @@
 # Sources and research notes
 
-Drafts in this folder cite public pages and mark unproven claims `[VERIFY]`. Nothing here is a new experiment. Do not scrape nursery catalogs for photos or variety claims.
+The cite list for the 40-draft pack is [`BIBLIOGRAPHY.md`](BIBLIOGRAPHY.md). This file is the working notepad.
+
+Drafts cite public pages and mark unproven claims `[VERIFY]`. Nothing here is a new experiment. Do not scrape nursery catalogs for photos or variety claims.
 
 ## FigRoots (voice + facts already on the site)
 

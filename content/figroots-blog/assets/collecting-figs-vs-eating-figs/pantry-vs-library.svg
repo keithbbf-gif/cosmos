@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="264" viewBox="0 0 720 264" role="img" aria-labelledby="title desc">
+<title id="title">Two jobs</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Three eaters before twenty names.</tspan>
+</text>
+<rect x="24" y="56" width="672" height="184" rx="6" fill="#ffffff" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="label" x="40" y="80">Job</text>
+<text class="label" x="250" y="80">Pantry</text>
+<text class="label" x="470" y="80">Library</text>
+<text class="small" x="40" y="124">Plant</text>
+<text class="small" x="250" y="124">Few in-ground</text>
+<text class="small" x="470" y="124">Many #3s</text>
+<line x1="32" y1="136" x2="688" y2="136" stroke="#9aa89f"/>
+<text class="small" x="40" y="172">July</text>
+<text class="small" x="250" y="172">Pick daily</text>
+<text class="small" x="470" y="172">Shuffle / labels</text>
+<line x1="32" y1="184" x2="688" y2="184" stroke="#9aa89f"/>
+<text class="small" x="40" y="220">Buy</text>
+<text class="small" x="250" y="220">Net + hose</text>
+<text class="small" x="470" y="220">Mix + shop</text>
+</svg>

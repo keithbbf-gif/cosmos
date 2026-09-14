@@ -92,7 +92,7 @@ priority: 1-12
 
 ## Length
 
-Aim 900–1600 words of useful grower copy. Cut filler before you pad. Quality beats quota.
+Aim 1200–1600 words of useful grower copy for this magazine pack. Cut filler before you pad. Quality beats quota. A human editor should keep the piece.
 
 ## What we will not write
 

@@ -1,33 +1,37 @@
 ---
-title: "Why the cutting failed: rot, callus-only, or a dry stick"
+title: 'Why the cutting failed: rot, callus-only, or a dry stick'
 slug: fig-cutting-rooting-failures
-meta_description: "Most failed fig cuttings die one of three ways: too wet, roots that never leave the callus, or a stick that dried before it could drink. Read the wood."
+meta_description: 'Most failed fig cuttings die one of three ways: too wet, roots
+  that never leave the callus, or a stick that dried before it could drink. Read the
+  wood.'
 author: Jack Chambers
 tags:
-  - rooting
-  - cuttings
-  - fig-pops
-  - coco-coir
-  - failure
+- rooting
+- cuttings
+- fig-pops
+- coco-coir
+- failure
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: "Rot, callus-only, or a dry cup from the A/B set. Do not sniff mush and put it back."
-    source: ours
-    folder_pick: "DE vs CC"
-  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
-    caption: "Same 2023 coir vs DE stills. Link the live post. Do not restage the counts."
-    source: ours
-    folder_pick: "DE vs Coco Coir Photos"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "If the DE folders are only success cups, use a failed stick from here."
-    source: ours
-    folder_pick: "Damaged Cuttings"
+- path: D:\FIGS\DE vs CC
+  caption: Rot, callus-only, or a dry cup from the A/B set. Do not sniff mush and
+    put it back.
+  source: ours
+  folder_pick: DE vs CC
+- path: D:\FIGS\DE vs Coco Coir Photos
+  caption: Same 2023 coir vs DE stills. Link the live post. Do not restage the counts.
+  source: ours
+  folder_pick: DE vs Coco Coir Photos
+- path: D:\FIGS\Damaged Cuttings
+  caption: If the DE folders are only success cups, use a failed stick from here.
+  source: ours
+  folder_pick: Damaged Cuttings
 status: draft
 voice_check: human
 pillar: propagation
 priority: 7
+figures:
+- ../assets/fig-cutting-rooting-failures/rooting-failure-tree.svg
 ---
-
 The leaves come out and you relax. A week later the whole thing folds like a cheap tent.
 
 That cutting did not “just fail.” It failed in a way you can name. If you cannot name it, you will do the same thing to the next bag.
@@ -35,6 +39,10 @@ That cutting did not “just fail.” It failed in a way you can name. If you ca
 I am not going to give you a new miracle mix. We already ran a real comparison — coco coir versus DE, 64 varieties, two cuttings each — and wrote it up. Coir was faster in that basement test. DE was slower and needed more watering attention. Both worked when we did not drown them. Read [the A/B post](https://figroots.com/2026/02/10/rooting-fig-cuttings-coco-coir-vs-diatomaceous-earth-de-lessons-from-my-a-b-test/) for those counts. I will not invent a second trial here.
 
 ## Failure 1: rot
+
+<!-- figroots-graphic: rooting-failure-tree -->
+![Decision tree for diagnosing rot, callus-only, or dry fig cuttings](../assets/fig-cutting-rooting-failures/rooting-failure-tree.svg)
+*Name the failure mode before you restick — schematic autopsy.*
 
 The base goes dark, soft, sour. Sometimes the bag smells before the leaves tell you.
 

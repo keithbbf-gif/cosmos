@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+<title id="title">Fig flavor families — descriptive axes</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Tasting vocabulary — not chemical analysis or Brix</tspan>
+<tspan x="24" dy="16">data.</tspan>
+</text>
+<circle cx="360.0" cy="134.0" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
+<text class="label" x="360.0" y="50.0" text-anchor="middle">Berry</text>
+<circle cx="422.76973007548014" cy="179.60487837125348" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
+<text class="label" x="502.658477444273" y="153.6474508437579" text-anchor="middle">Honey</text>
+<circle cx="398.7938266513032" cy="253.39512162874652" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
+<text class="label" x="448.167787843871" y="321.3525491562421" text-anchor="middle">Sugar</text>
+<circle cx="321.2061733486968" cy="253.39512162874652" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
+<text class="label" x="271.83221215612906" y="321.3525491562421" text-anchor="middle">Melon</text>
+<circle cx="297.23026992451986" cy="179.60487837125348" r="28" fill="#d4e4dc" stroke="#2f5d4a"/>
+<text class="label" x="217.34152255572695" y="153.6474508437579" text-anchor="middle">Peach</text>
+<text class="small" x="360" y="200" text-anchor="middle">ripe
+fruit</text>
+</svg>

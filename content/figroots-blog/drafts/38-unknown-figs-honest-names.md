@@ -1,32 +1,34 @@
 ---
-title: "Call it unknown until the plate says otherwise"
+title: Call it unknown until the plate says otherwise
 slug: unknown-figs-honest-names
-meta_description: "An honest unknown that fruits well beats a famous sticker on a mutt. Write what you received, not what you hoped."
+meta_description: An honest unknown that fruits well beats a famous sticker on a mutt.
+  Write what you received, not what you hoped.
 author: PapaFig
 tags:
-  - unknown
-  - labels
-  - true-to-type
-  - collecting
+- unknown
+- labels
+- true-to-type
+- collecting
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "Unknown on the pot. That word is a virtue when it is true."
-    source: ours
-    folder_pick: "Fig Labels"
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "The plate is the name. Keep the photo with the pot tag."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Navid’s Unk and other unknowns we have eaten. The Unk stayed in the name."
-    source: ours
-    folder_pick: "Fig Jam Article"
+- path: D:\FIGS\Fig Labels
+  caption: Unknown on the pot. That word is a virtue when it is true.
+  source: ours
+  folder_pick: Fig Labels
+- path: D:\FIGS\Fig Fruit
+  caption: The plate is the name. Keep the photo with the pot tag.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\Fig Jam Article
+  caption: Navid’s Unk and other unknowns we have eaten. The Unk stayed in the name.
+  source: ours
+  folder_pick: Fig Jam Article
 status: draft
 voice_check: human
 pillar: identity
 priority: 38
+figures:
+- ../assets/unknown-figs-honest-names/unknown-until-plate.svg
 ---
-
 Jack’s tasting list on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) had **Navid’s Unk Dark Greek** on it. The “Unk” stayed. That is more honest than a lot of tags I have seen on a marketplace.
 
 University of Arkansas Extension said name confusion is normal. Fifty names in stores, hundreds on lists, the same plant wearing two hats. [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/) said wait a year or three to prove type.
@@ -34,6 +36,10 @@ University of Arkansas Extension said name confusion is normal. Fifty names in s
 If you do not know, write **unknown**. Then add the source and the year. “Unknown, neighbor, 2024, small brown, tight eye” is a working identity. “Black Madeira?” is a wish.
 
 ## Unknown is a working name
+
+<!-- figroots-graphic: unknown-until-plate -->
+![Keep Unk in the name until fruit on the plate says otherwise](../assets/unknown-figs-honest-names/unknown-until-plate.svg)
+*Jack kept Unk on Navid’s Unk Dark Greek. That is the method.*
 
 Unknown is not a stain. A fake name is.
 

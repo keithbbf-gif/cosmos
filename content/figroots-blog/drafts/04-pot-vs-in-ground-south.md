@@ -1,33 +1,37 @@
 ---
-title: "Pots or in-ground in the South (Arkansas notes)"
+title: Pots or in-ground in the South (Arkansas notes)
 slug: pot-vs-in-ground-figs-south
-meta_description: "Pots let you move a fig, dodge nematodes, and keep last year’s wood. In-ground trees drink less once they are established — if the hole is not a bathtub."
+meta_description: Pots let you move a fig, dodge nematodes, and keep last year’s wood.
+  In-ground trees drink less once they are established — if the hole is not a bathtub.
 author: PapaFig
 tags:
-  - containers
-  - in-ground
-  - arkansas
-  - nematodes
-  - potting-mix
+- containers
+- in-ground
+- arkansas
+- nematodes
+- potting-mix
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Black #3 and #5 pots, labels, mix. This is most of the collection on a given July day."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Collection-in-pots stills already used in public notes."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground fig after a South Arkansas winter. Count the live wood before you brag on the variety."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Greenhouse photos
+  caption: 'Black #3 and #5 pots, labels, mix. This is most of the collection on a
+    given July day.'
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Fig Jam Article
+  caption: Collection-in-pots stills already used in public notes.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\Figs
+  caption: In-ground fig after a South Arkansas winter. Count the live wood before
+    you brag on the variety.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: culture
 priority: 4
+figures:
+- ../assets/pot-vs-in-ground-figs-south/pot-vs-ground-chart.svg
 ---
-
 We have lived this argument in hardware, not in theory.
 
 A few years back the honest count was hundreds of trees in 3- and 5-gallon pots and a couple dozen in the ground. The ground ones are the ones I want long-term. The pots are how you keep 300 names alive while you learn which names deserve a hole.
@@ -89,6 +93,10 @@ A late-winter or early-spring plant has a season to settle. A July transplant in
 If you are north of the reliable fig belt, in-ground is a bush you bury or wrap, and you are growing main crop on whatever wood the winter leaves you. That can be a fine life. It is not a California orchard.
 
 ## A blunt chooser
+
+<!-- figroots-graphic: pot-vs-ground-chart -->
+![Comparison table of container vs in-ground fig growing in the South](../assets/pot-vs-in-ground-figs-south/pot-vs-ground-chart.svg)
+*Arkansas-weighted tradeoffs — your site may differ.*
 
 **Stay in a pot if** you are collecting names, you have nematodes, you need to hide the tree from a hard freeze, or you do not have a drained hole yet.
 

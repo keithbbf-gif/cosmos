@@ -1,37 +1,44 @@
 ---
-title: "Fig rust shows up when the air is already thick"
+title: Fig rust shows up when the air is already thick
 slug: fig-rust-in-humidity
-meta_description: "Yellow angular spots, then a tree that drops leaves as the fruit tries to finish. Sanitation first. Do not coat baby figs in residue because a bottle said spray."
+meta_description: Yellow angular spots, then a tree that drops leaves as the fruit
+  tries to finish. Sanitation first. Do not coat baby figs in residue because a bottle
+  said spray.
 author: PapaFig
 tags:
-  - fig-rust
-  - humidity
-  - leaves
-  - southeast
+- fig-rust
+- humidity
+- leaves
+- southeast
 images:
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "Summer canopy in sticky air. Rust likes this weather."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Figs"
-    caption: "Yellowing leaves at the edge of a flush. Photograph both sides."
-    source: ours
-    folder_pick: "Figs"
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Pots with wet leaves overnight. Air movement matters."
-    source: ours
-    folder_pick: "Greenhouse photos"
+- path: D:\FIGS\Figs-summer-23
+  caption: Summer canopy in sticky air. Rust likes this weather.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs
+  caption: Yellowing leaves at the edge of a flush. Photograph both sides.
+  source: ours
+  folder_pick: Figs
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots with wet leaves overnight. Air movement matters.
+  source: ours
+  folder_pick: Greenhouse photos
 status: draft
 voice_check: human
 pillar: culture
 priority: 26
+figures:
+- ../assets/fig-rust-in-humidity/rust-litter-cycle.svg
 ---
-
 Texas A&M’s 2015 figs PDF names fig rust as the greatest disease threat to fig production in Texas, and they use the name I will use: ***Cerotelium fici***. The older handbook page says *Physopella fici* — same fungus, older hat. Yellow-green flecks that go yellow-brown. Blisters on the underside. Brown spores. Then a tree that can strip in a couple of ugly weeks.
 
 Gulf and lower South see it more than a dry ridge. We still see leaf trouble in **8a** when August is a steam bath. I will not pretend every yellow leaf on our place is rust I cultured in a lab. **[VERIFY]** with a county agent if a tree is stripping and you want a name.
 
 ## Spores on litter, a wet-summer cycle
+
+<!-- figroots-graphic: rust-litter-cycle -->
+![Fig rust cycle: litter spores, wet leaves, drop, repeat](../assets/fig-rust-in-humidity/rust-litter-cycle.svg)
+*Fruit is not the rust host. Rake is the program.*
 
 LSU AgCenter’s 2015 fig note is the cycle I want in grower English. The spores live on diseased leaves on the ground. Wind blows them into new leaves. Infected leaves turn brown and fall. New leaves appear. In a wet summer that defoliation-and-regrowth can happen **three or four times**.
 

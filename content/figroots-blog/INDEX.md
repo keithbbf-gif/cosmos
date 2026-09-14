@@ -51,7 +51,11 @@ Scope: `content/figroots-blog/` only. Every article: **draft**. Do not publish l
 ## House files
 
 - [`STYLE_GUIDE.md`](STYLE_GUIDE.md) — Jack / PapaFig voice, bans
-- [`MANIFEST.md`](MANIFEST.md) — 40 slugs + word counts
-- [`SOURCES.md`](SOURCES.md) — research notes + PD/CC0 backups
-- [`PHOTO_MANIFEST.md`](PHOTO_MANIFEST.md) — KC-PC `D:\FIGS` folders first
+- [`MANIFEST.md`](MANIFEST.md) — 40 slugs + word counts (magazine bar)
+- [`BIBLIOGRAPHY.md`](BIBLIOGRAPHY.md) — real pages and papers; no invented trials
+- [`SOURCES.md`](SOURCES.md) — research notepad + PD/CC0 backups
+- [`PHOTO_NOTES.md`](PHOTO_NOTES.md) — shoot/pick brief; `D:\FIGS` first
+- [`PHOTO_MANIFEST.md`](PHOTO_MANIFEST.md) — KC-PC folder checklist
+- [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md) — SVG embeds for all 40 slugs
+- [`GRAPHICS_CHECKLIST.md`](GRAPHICS_CHECKLIST.md) — pipeline status
 - [`WP_IMPORT.md`](WP_IMPORT.md) — Website Builder paste, **drafts only**

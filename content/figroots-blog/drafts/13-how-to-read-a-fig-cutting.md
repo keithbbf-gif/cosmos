@@ -1,37 +1,43 @@
 ---
-title: "How to read a fig cutting before you stick it"
+title: How to read a fig cutting before you stick it
 slug: how-to-read-a-fig-cutting
-meta_description: "A cutting is not a mystery stick. Nodes, polarity, lignified bark, and a dry fresh cut tell you whether it belongs in a cup or in the trash."
+meta_description: A cutting is not a mystery stick. Nodes, polarity, lignified bark,
+  and a dry fresh cut tell you whether it belongs in a cup or in the trash.
 author: Jack Chambers
 tags:
-  - cuttings
-  - nodes
-  - polarity
-  - lignified
+- cuttings
+- nodes
+- polarity
+- lignified
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "6–8 inch sticks, three nodes, brown wood. This is the industry cutting."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "Crushed, moldy, or one sad node. Read it and throw it."
-    source: ours
-    folder_pick: "Damaged Cuttings"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Site stills of lignified vs green if the bulk folder is all bundles."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Bulk Cuttings
+  caption: 6–8 inch sticks, three nodes, brown wood. This is the industry cutting.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: Crushed, moldy, or one sad node. Read it and throw it.
+  source: ours
+  folder_pick: Damaged Cuttings
+- path: D:\FIGS\FigRoots
+  caption: Site stills of lignified vs green if the bulk folder is all bundles.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: propagation
 priority: 13
+figures:
+- ../assets/how-to-read-a-fig-cutting/cutting-read-checklist.svg
 ---
-
 You can kill a good variety by sticking it upside down. You can also baby a stick that was already dead when it left the seller.
 
 I want the wood in my hand for ten seconds before it sees mix. The [cuttings post](https://figroots.com/2025/12/23/lets-talk-about-fig-cuttings/) already set the standard: **6–8 inches, three nodes**. This is how you tell if the stick in the bag is that, or a leftover.
 
 ## Which end is up
+
+<!-- figroots-graphic: cutting-read-checklist -->
+![Checklist for reading a fig cutting: polarity, nodes, wood, damage](../assets/how-to-read-a-fig-cutting/cutting-read-checklist.svg)
+*Read the stick before you stick it — schematic only.*
 
 Figs have polarity. The end that was toward the sky grows the shoot. The end that was toward the roots is where you want the callus.
 

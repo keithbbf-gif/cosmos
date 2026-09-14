@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+<title id="title">Breba vs main crop on last year's wood</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Season schematic — timing varies by variety and prune.</tspan>
+</text>
+<line x1="60" y1="200" x2="660" y2="200" stroke="#8b5e34" stroke-width="6"/>
+<rect x="90" y="120" width="140" height="36" rx="6" fill="#2f5d4a" stroke="#2f5d4a" stroke-width="1.5"/>
+<text fill="#ffffff" x="160" y="144" text-anchor="middle" class="label">Breba</text>
+<text class="small" x="160" y="170" text-anchor="middle">old wood</text>
+<rect x="380" y="210" width="160" height="36" rx="6" fill="#8b5e34" stroke="#8b5e34" stroke-width="1.5"/>
+<text fill="#ffffff" x="460" y="234" text-anchor="middle" class="label">Main crop</text>
+<text class="small" x="460" y="260" text-anchor="middle">new growth</text>
+<text class="label" x="60" y="100">Prior season wood ─────────────►</text>
+<text class="label" x="60" y="290">Current season push ─────────────►</text>
+</svg>

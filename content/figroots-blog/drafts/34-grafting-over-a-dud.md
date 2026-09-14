@@ -1,32 +1,34 @@
 ---
-title: "Graft over the tree you do not like. Keep the hole."
+title: Graft over the tree you do not like. Keep the hole.
 slug: grafting-over-a-dud-fig
-meta_description: "A boring fig with a live root system is rootstock. We would rather change the top than throw away a hole that already drains."
+meta_description: A boring fig with a live root system is rootstock. We would rather
+  change the top than throw away a hole that already drains.
 author: PapaFig
 tags:
-  - grafting
-  - rootstock
-  - varieties
-  - collecting
+- grafting
+- rootstock
+- varieties
+- collecting
 images:
-  - path: "D:\\FIGS\\Grafting"
-    caption: "Scion on a live trunk. The hole stays. The name on the pot changes."
-    source: ours
-    folder_pick: "Grafting"
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "Relabel the day the graft takes. The old name is a lie after that."
-    source: ours
-    folder_pick: "Fig Labels"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground tool tree. This is the kind of root system I would reuse."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Grafting
+  caption: Scion on a live trunk. The hole stays. The name on the pot changes.
+  source: ours
+  folder_pick: Grafting
+- path: D:\FIGS\Fig Labels
+  caption: Relabel the day the graft takes. The old name is a lie after that.
+  source: ours
+  folder_pick: Fig Labels
+- path: D:\FIGS\Figs
+  caption: In-ground tool tree. This is the kind of root system I would reuse.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: identity
 priority: 34
+figures:
+- ../assets/grafting-over-a-dud-fig/graft-keep-hole.svg
 ---
-
 I said on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) we have not cut some trees we are not fans of yet. Long trial. If they stay boring, we graft over. They live on as rootstock.
 
 That is the polite version of: I will not throw a drained hole and a winter-surviving root system in a pile because the fruit was sugar and nothing else. I am still not a fan of Brown Turkey or Celeste for eating, so far. We still have them. We would graft before we would cut. The tool-tree draft is why they were planted. This page is what the hole is for when the plate stays dull.
@@ -34,6 +36,10 @@ That is the polite version of: I will not throw a drained hole and a winter-surv
 I am not writing a surgery manual. I will not pretend a magazine page replaces a person who has grafted in your climate. I will write **when**, and I will write **aftercare**, because that is where people lose the tree they meant to save.
 
 ## Keep the hole
+
+<!-- figroots-graphic: graft-keep-hole -->
+![Graft-over sequence: trial, scion, wrap, sucker fight, relabel](../assets/grafting-over-a-dud-fig/graft-keep-hole.svg)
+*Keep the hole. The rootstock will try to take the tree back.*
 
 A healthy common fig. Celeste, a Turkey type, a vigorous unknown that fruited dull. Roots that are not a nematode necklace. A hole that is not a bathtub. University of Arkansas Extension: common figs only here, and they fruit on current wood after a freeze if the roots lived. That root system is the asset. The name on the tag is the part you are allowed to change.
 

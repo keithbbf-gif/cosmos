@@ -1,37 +1,45 @@
 ---
-title: "Fertigate the fig once it is a plant, not while it is a stick"
+title: Fertigate the fig once it is a plant, not while it is a stick
 slug: fig-fertigation-after-pot-up
-meta_description: "A cutting has no roots to eat with. After pot-up, regular weak feed in the water is how our pots put on a foot or more of wood. Winter is the opposite."
+meta_description: A cutting has no roots to eat with. After pot-up, regular weak feed
+  in the water is how our pots put on a foot or more of wood. Winter is the opposite.
 author: PapaFig
 tags:
-  - fertigation
-  - fertilizer
-  - pots
-  - growth
+- fertigation
+- fertilizer
+- pots
+- growth
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: "Hose and a siphon mixer on a pot block. Hand-feeding this many cups is a fantasy."
-    source: ours
-    folder_pick: "Greenhouse photos"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Spring push on potted trees after we got serious about feeding with the water."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "Summer growth. This is when the hose has food in it, not January."
-    source: ours
-    folder_pick: "Figs-summer-23"
+- path: D:\FIGS\Greenhouse photos
+  caption: Hose and a siphon mixer on a pot block. Hand-feeding this many cups is
+    a fantasy.
+  source: ours
+  folder_pick: Greenhouse photos
+- path: D:\FIGS\Fig Jam Article
+  caption: Spring push on potted trees after we got serious about feeding with the
+    water.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\Figs-summer-23
+  caption: Summer growth. This is when the hose has food in it, not January.
+  source: ours
+  folder_pick: Figs-summer-23
 status: draft
 voice_check: human
 pillar: culture
 priority: 16
+figures:
+- ../assets/fig-fertigation-after-pot-up/fertigate-after-plant.svg
 ---
-
 Jack’s line on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) was simple: fertigate. The growth after we started was obvious. His least-favorite chore was still walking fertilizer around hundreds of pots.
 
 A cutting in a cup does not get that treatment. There is nothing down there to drink a feast. You feed a **plant**.
 
 ## Fertigate the plant, not the stick
+
+<!-- figroots-graphic: fertigate-after-plant -->
+![Sequence: root first, then pot, then fertigate a living fig](../assets/fig-fertigation-after-pot-up/fertigate-after-plant.svg)
+*Feed the plant, not the stick. Mixer settings [VERIFY].*
 
 Once a tree is potted and growing, we put water-soluble fertilizer in the water. Miracle-Gro is what Jack named. Schultz slow-release in the pot in summer. I am not married to a brand. I am married to **regular weak feed while they are moving**, not a heroic dump in March and then neglect.
 

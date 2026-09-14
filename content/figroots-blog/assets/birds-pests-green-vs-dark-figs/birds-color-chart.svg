@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+<title id="title">Bird visibility — illustrative</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Illustrative contrast only — local bird pressure varies.</tspan>
+</text>
+<circle cx="120" cy="150" r="55" fill="#6b8f5b" stroke="#1c2420" stroke-width="2"/>
+<text class="label" x="120" y="230" text-anchor="middle">Green fruit</text>
+<circle cx="400" cy="150" r="55" fill="#3d2914" stroke="#1c2420" stroke-width="2"/>
+<text class="label" x="400" y="230" text-anchor="middle">Dark ripe fruit</text>
+<text class="small" x="360" y="270" text-anchor="middle">Often picked earlier when color signals sugar</text>
+</svg>

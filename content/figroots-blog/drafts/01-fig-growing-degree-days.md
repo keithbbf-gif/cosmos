@@ -1,38 +1,47 @@
 ---
-title: "Your fig never ripened. Count the heat, not the calendar."
+title: Your fig never ripened. Count the heat, not the calendar.
 slug: fig-growing-degree-days
-meta_description: "A fig can look healthy all summer and still go into frost hard-green. Growing degree days tell you if your climate had the heat that variety needed."
+meta_description: A fig can look healthy all summer and still go into frost hard-green.
+  Growing degree days tell you if your climate had the heat that variety needed.
 author: PapaFig
 tags:
-  - growing-degree-days
-  - ripening
-  - arkansas
-  - variety-selection
-  - climate
+- growing-degree-days
+- ripening
+- arkansas
+- variety-selection
+- climate
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Hard-green fruit that never softened — heat ran out before the variety did."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "South Arkansas July canopy. Plenty of heat. Still not a license for every late fig."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Figs 2020"
-    caption: "Older late-season tree still if 2023 has no stubborn green fruit."
-    source: ours
-    folder_pick: "Figs 2020"
+- path: D:\FIGS\Fig Fruit
+  caption: Hard-green fruit that never softened — heat ran out before the variety
+    did.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\Figs-summer-23
+  caption: South Arkansas July canopy. Plenty of heat. Still not a license for every
+    late fig.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs 2020
+  caption: Older late-season tree still if 2023 has no stubborn green fruit.
+  source: ours
+  folder_pick: Figs 2020
 status: draft
 voice_check: human
 pillar: climate
 priority: 1
+figures:
+- ../assets/fig-growing-degree-days/gdd-daily-bars.svg
+- ../assets/fig-growing-degree-days/gdd-filter-flow.svg
 ---
-
 I have walked a row in late September and pinched fruit that should have been jam. Skin still tight. Neck still stiff. The tree was fine. Leaves were fine. The variety was the problem.
 
 People ask for “the best fig.” That question skips the heat budget. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already said it in one line: you can have a wonderful fig and not have the growing degree days to finish it. This is that line, stretched out so you can use it.
 
 ## What a growing degree day actually is
+
+<!-- figroots-graphic: gdd-daily-bars -->
+![Schematic bar chart showing how daily GDD50 units accumulate from high and low temperatures](../assets/fig-growing-degree-days/gdd-daily-bars.svg)
+*Illustrative GDD50 bars for one week — replace with your station math, not this drawing.*
 
 A growing degree day is not a calendar day. It is a heat unit.
 
@@ -96,6 +105,10 @@ Late names: skin tight, neck stiff. I do not fertilize them to “finish.” I d
 A 88° / 52° day is (88+52)/2 − 50 = 20 GDD50 if you are not capping. Nights are falling. If my known finisher already hit the plate in August and this celebrity is still green, I am out of budget. A hoop for two extra weeks is a microclimate, not a variety proof.
 
 ## A simple way to run the number this year
+
+<!-- figroots-graphic: gdd-filter-flow -->
+![Flowchart for filtering late fig varieties by local heat budget before frost](../assets/fig-growing-degree-days/gdd-filter-flow.svg)
+*Grower workflow: use your own GDD total and frost date — schematic only.*
 
 Pick one variety you already know. Write down the date it first softened last year, or this year if you are in season. Run your zip through a GDD50 calculator from a spring start date you will reuse (last frost, or the week you saw budbreak). That total is *your* local number for *that* tree, that year.
 

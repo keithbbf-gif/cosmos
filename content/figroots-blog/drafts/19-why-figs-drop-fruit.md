@@ -1,32 +1,34 @@
 ---
-title: "The figs fell off. It was probably not a curse."
+title: The figs fell off. It was probably not a curse.
 slug: why-figs-drop-fruit
-meta_description: "Figs drop after drought, a storm, a cool snap after set, or a weak tree. In Texas they also drop because common figs have no seeds to hold them."
+meta_description: Figs drop after drought, a storm, a cool snap after set, or a weak
+  tree. In Texas they also drop because common figs have no seeds to hold them.
 author: PapaFig
 tags:
-  - fruit-drop
-  - drought
-  - watering
-  - arkansas
+- fruit-drop
+- drought
+- watering
+- arkansas
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: "Small green figs on the ground after a dry week. The tree was talking."
-    source: ours
-    folder_pick: "Fig Fruit"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "A loaded shoot in July. This is the week water has to stay even."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Figs"
-    caption: "In-ground tree. Shallow roots do not go find the creek for you."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Fig Fruit
+  caption: Small green figs on the ground after a dry week. The tree was talking.
+  source: ours
+  folder_pick: Fig Fruit
+- path: D:\FIGS\Figs-summer-23
+  caption: A loaded shoot in July. This is the week water has to stay even.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs
+  caption: In-ground tree. Shallow roots do not go find the creek for you.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: fruit
 priority: 19
+figures:
+- ../assets/why-figs-drop-fruit/drop-causes.svg
 ---
-
 You wait for the first figs. They show up in the axils. Then you walk out after a hot wind and they are on the mulch, still hard, still green, as if the tree changed its mind.
 
 That is not a curse. It is not a variety “failing to pollinate” if you planted a common fig. It is a tree that had a bad week, or a baby that set buttons it cannot finish, or — rarely — a wasp type you should not have planted in Arkansas.
@@ -34,6 +36,10 @@ That is not a curse. It is not a variety “failing to pollinate” if you plant
 Name it right or you will apply the wrong fix.
 
 ## UAEX already named the fathers
+
+<!-- figroots-graphic: drop-causes -->
+![Fork for naming fig fruit drop: drought, buttons, or wasp-type](../assets/why-figs-drop-fruit/drop-causes.svg)
+*UAEX already named the fathers. Not a curse.*
 
 University of Arkansas Extension lists them: **dry conditions, storms, cool weather soon after fruit set, a weak tree**. Shallow, fibrous roots. If the tree gets too dry, it can drop fruit.
 

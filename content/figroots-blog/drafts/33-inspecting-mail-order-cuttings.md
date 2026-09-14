@@ -1,32 +1,35 @@
 ---
-title: "Open the box the day it lands"
+title: Open the box the day it lands
 slug: inspecting-mail-order-fig-cuttings
-meta_description: "A hot mailbox can finish a good cutting. Inventory in the shade, photograph damage, then stick or fridge. Do not leave the bundle on the counter until Saturday."
+meta_description: A hot mailbox can finish a good cutting. Inventory in the shade,
+  photograph damage, then stick or fridge. Do not leave the bundle on the counter
+  until Saturday.
 author: Jack Chambers
 tags:
-  - cuttings
-  - shipping
-  - damaged
-  - mail-order
+- cuttings
+- shipping
+- damaged
+- mail-order
 images:
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: "Crushed, moldy, or cooked wood. Photograph it before you argue."
-    source: ours
-    folder_pick: "Damaged Cuttings"
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: "A clean dormant bundle. This is what you hoped was in the box."
-    source: ours
-    folder_pick: "Bulk Cuttings"
-  - path: "D:\\FIGS\\FigRoots"
-    caption: "Site stills from the damaged-cuttings post if we already shot the signs."
-    source: ours
-    folder_pick: "FigRoots"
+- path: D:\FIGS\Damaged Cuttings
+  caption: Crushed, moldy, or cooked wood. Photograph it before you argue.
+  source: ours
+  folder_pick: Damaged Cuttings
+- path: D:\FIGS\Bulk Cuttings
+  caption: A clean dormant bundle. This is what you hoped was in the box.
+  source: ours
+  folder_pick: Bulk Cuttings
+- path: D:\FIGS\FigRoots
+  caption: Site stills from the damaged-cuttings post if we already shot the signs.
+  source: ours
+  folder_pick: FigRoots
 status: draft
 voice_check: human
 pillar: propagation
 priority: 33
+figures:
+- ../assets/inspecting-mail-order-fig-cuttings/mailbox-inspect.svg
 ---
-
 People still leave the box in a hot truck because they are “busy.”
 
 I open it the day it lands. Shade. Hands clean enough not to add dirt. Inventory. Then I decide: stick, fridge, or a photo to the seller.
@@ -34,6 +37,10 @@ I open it the day it lands. Shade. Hands clean enough not to add dirt. Inventory
 [Lets Talk About Fig Cuttings](https://figroots.com/2025/12/23/lets-talk-about-fig-cuttings/) already defined the industry stick: **6–8 inches, three nodes**. Lignified versus dormant versus green. Fridge is for dormant wood. This page is what you do in the hour the cardboard hits the porch. The Damaged Cuttings folder on KC-PC is the stills — mold, crush, dehydrate, mailbox damage. Teaching discard. Not a customer-complaint pie chart. I will not invent a percentage of boxes that arrive sad. I will tell you what I look at.
 
 ## Open it the day it lands
+
+<!-- figroots-graphic: mailbox-inspect -->
+![Mail-order fig cutting inspection: keep, restick, or trash](../assets/inspecting-mail-order-fig-cuttings/mailbox-inspect.svg)
+*Open the box the day it lands. Photo the same day.*
 
 If the box hits the porch at 8 p.m. in July, open it. Do not let it sit in a still-hot box until morning. Morning on a porch in Arkansas is still a cook. Shade, kitchen counter, decide. Sleep after the sticks are out of the cardboard oven.
 

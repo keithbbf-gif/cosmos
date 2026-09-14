@@ -1,33 +1,36 @@
 ---
-title: "Is it the variety on the label? Wait for fruit."
+title: Is it the variety on the label? Wait for fruit.
 slug: verifying-fig-variety-true-to-type
-meta_description: "A fig cutting is a promise. Fruit is the proof. Trusted wood, one to three years, and a notebook beat a marketplace review that closed in thirty days."
+meta_description: A fig cutting is a promise. Fruit is the proof. Trusted wood, one
+  to three years, and a notebook beat a marketplace review that closed in thirty days.
 author: PapaFig
 tags:
-  - true-to-type
-  - varieties
-  - trusted-sources
-  - cuttings
-  - collecting
+- true-to-type
+- varieties
+- trusted-sources
+- cuttings
+- collecting
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: "The tag says one name. The first plate says another. Keep both photos."
-    source: ours
-    folder_pick: "Fig Labels"
-  - path: "D:\\FIGS\\Fig Jam Article"
-    caption: "Collection labels / known wood from a tree we have eaten."
-    source: ours
-    folder_pick: "Fig Jam Article"
-  - path: "D:\\FIGS\\El Dorado Fig"
-    caption: "One named tree we can stand behind. A folder name is not automatic proof of type."
-    source: ours
-    folder_pick: "El Dorado Fig"
+- path: D:\FIGS\Fig Labels
+  caption: The tag says one name. The first plate says another. Keep both photos.
+  source: ours
+  folder_pick: Fig Labels
+- path: D:\FIGS\Fig Jam Article
+  caption: Collection labels / known wood from a tree we have eaten.
+  source: ours
+  folder_pick: Fig Jam Article
+- path: D:\FIGS\El Dorado Fig
+  caption: One named tree we can stand behind. A folder name is not automatic proof
+    of type.
+  source: ours
+  folder_pick: El Dorado Fig
 status: draft
 voice_check: human
 pillar: identity
 priority: 11
+figures:
+- ../assets/verifying-fig-variety-true-to-type/variety-verify-flow.svg
 ---
-
 You can root a stick in a month. You cannot know what you rooted until it fruits.
 
 That gap is where the fig market makes its money and loses its friends.
@@ -78,6 +81,10 @@ Do not “correct” a tree by buying a second copy of the same name from the sa
 Paint pen on the pot. The name walks off paper in a hose storm. The labeling draft is the hardware. This page is why the hardware matters. A true-to-type fight that started because two cups mixed in a June rush is a fight you started with dirty hands.
 
 ## How long I actually wait
+
+<!-- figroots-graphic: variety-verify-flow -->
+![Flowchart for verifying fig variety identity over multiple fruiting seasons](../assets/verifying-fig-variety-true-to-type/variety-verify-flow.svg)
+*True-to-type takes seasons — document while you wait.*
 
 Year one: you might get a fig. You might get a lie. A stressed pot throws odd fruit. A first fig can be small, pale, or split. I taste it. I do not write a verdict. The Intro said you may get figs the first year and more by the second, and it takes about **three years** for the tree to get well-established. I still get greedy. I still wait.
 

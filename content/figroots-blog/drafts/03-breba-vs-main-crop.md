@@ -1,38 +1,46 @@
 ---
-title: "Breba vs main crop: what you are actually pruning for"
+title: 'Breba vs main crop: what you are actually pruning for'
 slug: breba-vs-main-crop-planning
-meta_description: "Breba figs ride last year’s wood. Main crop rides this year’s shoot. In Arkansas, winter usually picks the crop for you."
+meta_description: Breba figs ride last year’s wood. Main crop rides this year’s shoot.
+  In Arkansas, winter usually picks the crop for you.
 author: PapaFig
 tags:
-  - breba
-  - main-crop
-  - pruning
-  - arkansas
-  - winter
+- breba
+- main-crop
+- pruning
+- arkansas
+- winter
 images:
-  - path: "D:\\FIGS\\Breba 2025"
-    caption: "Swelling on last year’s wood — a breba attempt. Photograph it before a late freeze writes the ending."
-    source: ours
-    folder_pick: "Breba 2025"
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: "Figs in the leaf axils of this year’s shoot. This is the crop we actually eat in 8a."
-    source: ours
-    folder_pick: "Figs-summer-23"
-  - path: "D:\\FIGS\\Figs"
-    caption: "Wood / prune contrast if Breba 2025 is fruit-only."
-    source: ours
-    folder_pick: "Figs"
+- path: D:\FIGS\Breba 2025
+  caption: Swelling on last year’s wood — a breba attempt. Photograph it before a
+    late freeze writes the ending.
+  source: ours
+  folder_pick: Breba 2025
+- path: D:\FIGS\Figs-summer-23
+  caption: Figs in the leaf axils of this year’s shoot. This is the crop we actually
+    eat in 8a.
+  source: ours
+  folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs
+  caption: Wood / prune contrast if Breba 2025 is fruit-only.
+  source: ours
+  folder_pick: Figs
 status: draft
 voice_check: human
 pillar: culture
 priority: 3
+figures:
+- ../assets/breba-vs-main-crop-planning/breba-timeline.svg
 ---
-
 Somebody on a forum swears their tree is “everbearing.” They prune it like a rose in March. Then they wait for the June figs that live on the wood they just threw in the burn pile.
 
 Two crops. Two kinds of wood. Mix them up and you will swear the variety is a dud.
 
 ## The two crops, in plain wood
+
+<!-- figroots-graphic: breba-timeline -->
+![Timeline diagram showing breba fruit on old wood and main crop on new growth](../assets/breba-vs-main-crop-planning/breba-timeline.svg)
+*Season schematic — timing shifts with prune and variety.*
 
 **Breba** is the early crop. It sets on last season’s shoots — the wood that already went through a winter. In a mild-winter climate those figs overwinter as little nubbins and finish in late spring or early summer.
 
