@@ -18,5 +18,6 @@ Start here:
 | `WP_IMPORT.md` | Staging WordPress only |
 | `articles/` | The essays |
 | `check_pack.py` | Structural QA |
+| `EDITOR_REPORT.md` | Latest editor pass (voice, guardrails, verify holds) |
 
 Educational only. Not medical advice. No DIY treatment protocols. No patient PHI. No session scripts, no genogram how-tos, no "try this miracle question at home."

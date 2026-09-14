@@ -16,6 +16,7 @@ Do not write to live wowtherapies.com from this folder.
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
 | `WP_IMPORT.md` | Staging import only |
+| `EDITOR_REPORT.md` | Editor pass log (`voice_check: edited`, QA, verify holds) |
 
 ## Required YAML on each article
 

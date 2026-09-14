@@ -25,7 +25,7 @@ Import in waves (`INDEX.md`). Do not dump forty-four URLs onto a live sitemap in
 | `portrait` | custom field; values `pd`, `cc`, `confirm`, `none` |
 | `citations` | custom field (one title per line). Also a visible "Sources" block. |
 | `status: draft` or `publishable` | Map to **Draft** or **Pending review** on staging. Never map straight to `publish` on production. |
-| `voice_check: human` | custom field. Internal QA flag, not a byline. |
+| `voice_check: human` or `edited` | custom field. Internal QA flag, not a byline. `edited` = read-aloud editor pass. |
 
 Suggested post type: `post`. Category: `Therapy History` (create once). Optional child category: `Family Systems`. Do not file under `Speech Therapy` or `Book an Evaluation`.
 
