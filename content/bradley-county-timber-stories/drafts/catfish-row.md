@@ -1,0 +1,52 @@
+---
+title: "Catfish Row"
+slug: catfish-row
+series: bradley-county-timber-stories
+status: staged
+voice_check: human
+reading_order: 25
+word_target: 1400-2200
+lane: bradleylumbercompany.com
+commerce: false
+tone: ken-burns
+era: "1907–1941"
+place: "Warren, Bradley County, Arkansas"
+---
+
+# Catfish Row
+
+The letters G W H are still in the brick on the easternmost of four storefronts at 101 East Elm. George W. Hammons. The building is one story, 1920s, and it is what remains of a block the town called Catfish Row. Hammons Funeral Home keeps the address. A funeral home on a former business row is not irony. It is the last trade that still needs the street.
+
+East Elm, just north of the railroad tracks, is a short walk from the square and a long walk from the way the square told its story. Silva’s 2012 script, which is the best public inventory of the downtown, gives the Sanborn sequence without raising its voice. By 1907: wood-frame restaurant, barber shops, a boarding house. By 1920: a bottling works, confectionery, pool hall, dry cleaners, cobbler, barber, grocery. By 1931 the whole block is one- and two-story brick — restaurants, a movie theater, two bottling works (the eastern plant a Dr. Pepper works, later the site of storage units), and a lodge hall. That is not a footnote to Main. That is a commercial street. The name Catfish Row is local speech. The maps are insurance.
+
+Warren’s white downtown, in the same years, is assembling Hurley Hardware, Gannaway Drug, McCann’s Grocery that delivered, the Sutherland Hotel with the only commercial elevator in town, the Bradley Store at 215 South Main where mill hands settled scrip at the week’s end. East Elm is the other ledger. Black-owned. North of the tracks. Close enough that a man could walk from a commissary cage to a barber who did not have to ask him to wait. Far enough that the National Register’s commercial-district narrative can spend pages on the courthouse and the Pastime’s marquee and still treat this block as a sentence.
+
+The 1912 Sanborn labels a half-block at Walnut and Ash “Negro Settlement”: twelve small frame dwellings on ground that will later be a baseball field. Catfish Row is the business face of that geography. Boarding house, then brick. Lodge hall. A theater of its own by 1931, which means the Pastime on West Cedar was not the only screen in town. It was the screen that required a separate door. The row’s theater is a thinner published fact. `[CITE NEEDED: the name, proprietor, and years of the East Elm movie house shown on the 1931 Sanborn.]` Thin is not empty. A lodge and a theater on a Black block in a mill town are institutions. They are how a payroll becomes a public.
+
+The mills that doubled Warren’s population between 1900 and 1910 — Southern, Bradley, Arkansas Lumber, 300 and 350 and 400 men on the 1907 counts — did not publish a racial table the encyclopedia reprints. The floors were mixed in the way southern pine floors were mixed: Black labor in the woods and on the pond and in the yard, white names in the front office, a company store that took everyone’s scrip and did not have to say so. Catfish Row is what that labor built when the whistle stopped. Bottling is not folklore. Dry cleaning is not atmosphere. A cobbler is a man who keeps other men’s work shoes alive for another week of shortleaf.
+
+The Pastime Theater at 110 West Cedar is the white downtown’s moving-picture house of the mid-1920s. W. A. Halley, a Warren architect, was preparing plans in March 1924 at a cost the *Reel Journal* put at approximately $20,000. The building that opened circa 1925 wears a Mission parapet in stucco and still keeps, in the later photographs, its marquee. It had a separate rear entrance. Black patrons sat in the balcony. Henry D. Wharton, who had come out of the lumber business into exhibition, is named in an older biographical notice as proprietor of a Pastime in Warren and, until 1918, of houses in Monticello and Wilmar. The name is older than the 1925 brick. The balcony is the 1925 fact that matters.
+
+In 1941 there was a protest against the Pastime for police brutality. A policeman kicked Ms. O. Z. Jackson because she refused to wait in an alley until all of the white patrons had purchased their tickets. That is the Register’s sentence. It is enough. She would not stand in an alley. She was kicked. People protested. The year is the same year a later-owner mill history will claim about 1,100 names on Bradley’s payroll — a figure that belongs to a company page, not to a 1941 ledger anyone has shown. The kick does not need the payroll number. It needs the alley, the ticket window, the balcony, and her name.
+
+Dignity here is a method. The county’s lynching record exists and is not a backdrop. William and Henry Beavers, brothers, 1890 and 1892, accused in the usual southern grammar, ages later estimated at fourteen and sixteen; a man named John Turner in 1903; Crane Green in some counts the same year. The encyclopedia and the Warren entry keep the names. Catfish Row is not those nights. It is the daylight that had to be built anyway: a grocery, a lodge, a bottling line, a funeral initial in the parapet. To skip the lynchings when the essay is about the other street would be a different kind of spectacle — the spectacle of cleanliness. To linger on them as color would be the old one. The row is the argument that Black Warren was a commercial fact, not a crime blotter.
+
+The white county paper sometimes reduced East Elm to an address for Saturday trouble. That is how papers of that hour talked. The Sanborns talk differently. They count storefronts. They note a lodge hall. They put two bottling works on one block, which is more industry than several white corners could claim. Dr. Pepper on the eastern end is a franchise fact, not a folk tale. Someone had capital, a franchise, and a building. George W. Hammons had enough of a name to set three letters in clay. The 2019 genealogical-society program that still had to be titled “Catfish” to get people into a room is evidence that the street’s memory survived the demolition of most of its brick.
+
+What was demolished is the larger part. Silva is blunt: all that remains is the one-story, four-storefront building now used as a funeral home. The rest of the 1931 wall of restaurants, theater, lodge, and bottling is gone. Storage units take the Dr. Pepper end. North of the tracks and west of Main there were, separately, three one-story buildings facing Main, one of them the post office from at least 1912 to 1931, later Ben’s Bakery. The post office’s wanderings — clerk’s office on the 1907 Sanborn, perhaps a brief stay at Myrtle and Church, then Louis A. Simon’s Colonial Revival pile of 1935–36 on the old Bradley commissary corner — are a white civic story. Catfish Row did not get a Treasury architect. It got brick in the 1920s because the mill decade had made a market, and it lost the brick later because markets move and towns forget which markets they needed.
+
+The Bradley Store, 1920, 215 South Main, is three blocks and a caste away. Workers shopped there in company scrip and settled weekly. J. J. Neal would buy the building in the 1950s and make it a dollar store. The store is the mill’s idea of a street. Catfish Row is the workers’ idea of a street when the mill is not looking. Both sold groceries. Only one of them required a man to come back on Saturday and make the ticket whole.
+
+A later hardwood shop in Warren that still names oak and hickory is not the heir of East Elm. Bradley Brand Furniture dates a practice from the mill hour. The row’s heir is the funeral home that kept the initials and the four doors. Death is a business that cannot be suburbanized as easily as a cobbler. The letters G W H are the still. They are also a refusal to let the block become only a nickname.
+
+Mill-town America has a Catfish Row in more towns than will admit the name: the street across the tracks, the balcony, the lodge, the undertaker who is also a civic man. Warren’s particular is how close the row sat to the cupola. Gibb’s 1903 courthouse is a short walk. The 1927 brick streets run on Elm. A person could stand on vitrified paving laid to please automobiles and look at Black brick laid to please a neighborhood. The paving was listed on the National Register in 2007. The row was not listed as a district of its own. Four storefronts remain inside a larger commercial nomination that treats them as a remnant. Remnant is a word that should embarrass a map.
+
+Ms. O. Z. Jackson’s refusal is the other still, and it does not happen on Elm. It happens at a ticket window on Cedar. The two streets belong in one essay because Jim Crow was a circulation plan. You bottled soda on Elm. You climbed stairs on Cedar. You bought meat in a store that took scrip on Main. You were kicked for not waiting in an alley. The protest of 1941 is the documented hour when that plan was answered in public. The published record does not give the size of the crowd or the disposition of the officer. `[CITE NEEDED: Eagle Democrat or other 1941 coverage of the Pastime protest and Ms. O. Z. Jackson.]` The Register’s clause is the floor. It is enough to stand on.
+
+If this were a film, the camera would not crane over poverty. It would hold the G W H and then pan, slowly, to the tracks, to the depot’s old colored waiting room that the Iron Mountain / Missouri Pacific pair of stations once required, to the Pastime’s rear door, and back to the four storefronts. No narrator would need to say dignity. The buildings already said commerce. Commerce is a form of dignity a mill town understands. The name Catfish Row can sound like a joke from the next block. The Sanborn of 1931 does not joke. It draws a lodge hall.
+
+## Sources
+
+Rachel Silva, “Walks through History: Historic Downtown Warren,” 14 July 2012 (East Elm sequence 1907–1931; G W H / George W. Hammons; Negro Settlement on 1912 Sanborn; Pastime separate entrance). National Register, Warren Commercial Historic District (Pastime balcony; 1941 protest; Ms. O. Z. Jackson; Council of 22 / YMCA as the white recreational counterpart). *Encyclopedia of Arkansas*, “Warren”; “Bradley County” (lynching record: Beavers brothers 1890/1892; Turner 1903). *The Reel Journal*, 22 March 1924 (Halley; Pastime cost), as cited on Cinema Treasures. Bradham 1951 (mill sequence).
+
+See: `ymca-nineteen-twenty`, `brick-streets-1927`, `pastime-balcony`, `bradley-store-on-main`, `three-mills-one-town`, `two-names-for-warren`.
