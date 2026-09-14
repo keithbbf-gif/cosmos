@@ -16,13 +16,15 @@ stack:
 
 # The stack as of September 2026
 
-![Four public layers: framework, hub, weights, and the engine you run.](../assets/four-stacks/layers.svg)
-
-*Figure 2. The layers a 2026 shop actually mixes.*
-
 A workstation this month still `import torch`s. It still talks to the Hub. It still has a GGUF cache and, if it serves, a vLLM container. The weight file on the card might be Llama 4 Maverick, Qwen3.6, DeepSeek-V4-Flash, Gemma 4, Mistral Small 4, or gpt-oss-20b. The license file is the part that changed most since 2023, and the part people still skip.
 
 This chapter is a look, not a leaderboard. Dates after April 2026 that are not in the first-party posts already cited are marked `[CITE NEEDED]` rather than invented. Later summer 2026 cards may exist that this pack does not name. Do not invent a September surprise to make the chapter feel current. Current is the pin you have.
+
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/four-stacks/layers.svg" alt="Diagram of four public layers in open AI: training framework, model hub, downloadable weights, and local or server inference engines." width="960" height="280" loading="lazy" decoding="async" />
+<figcaption>Figure 2. The layers a 2026 shop actually mixes.</figcaption>
+</figure>
 
 ## Frameworks
 

@@ -18,9 +18,11 @@ Georgi Gerganov’s first `llama.cpp` commit, titled “Initial release,” is 1
 
 On 21 August 2023 pull request 2398 landed GGUF — a single-file container for tensors and key–value metadata, magic `GGUF`, a replacement for the moving-target GGML / GGMF / GGJT files. You could copy one file. You could `mmap` it. You could version it by filename. Architecture flags and tokenizer tables lived in the file instead of in the loader. That is why adding Mistral, Falcon, and later everybody did not require a new binary for every new hyperparameter.
 
-![Two engines: llama.cpp versus vLLM.](../assets/local-vs-serve/engines.svg)
-
-*Figure 4. Two jobs. This chapter is the left box.*
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/local-vs-serve/engines.svg" alt="Comparison of llama.cpp with GGUF for single-machine inference versus vLLM with PagedAttention for batched GPU serving." width="960" height="240" loading="lazy" decoding="async" />
+<figcaption>Figure 4. Two jobs. This chapter is the left box.</figcaption>
+</figure>
 
 ## Why C++ was the intervention
 

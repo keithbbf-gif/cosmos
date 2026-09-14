@@ -13,13 +13,15 @@ stack:
 
 # Open weight versus open source
 
-![A ladder from research grants to Apache and MIT.](../assets/license-ladder/ladder.svg)
-
-*Figure 3. Availability of a file is not the OSI test.*
-
 **Open weight** means the parameters are a file you can download. **Open source**, in the software sense this series uses, means an OSI-approved license without field-of-use bans. A model can be one, both, or — if it is API-only — neither. The confusion is the story of 2023–2026.
 
 The Open Source Definition is older than TensorFlow. It asks for use, study, modification, and redistribution, without field-of-use bans. Apache 2.0 and MIT pass. A research-only grant fails. A community license with an acceptable-use list and a user-count cap fails. A RAIL that forbids named applications fails. Those failures can still be good policy. They are not open source under that definition.
+
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/license-ladder/ladder.svg" alt="License ladder for AI weights and code: research-only grants, community acceptable-use terms, and OSI-shaped Apache or MIT licenses." width="960" height="290" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Availability of a file is not the OSI test.</figcaption>
+</figure>
 
 ## Three layers, three answers
 

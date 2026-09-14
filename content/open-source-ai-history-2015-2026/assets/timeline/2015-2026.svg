@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-labelledby="t1">
   <title id="t1">Public open-stack milestones, 2015-2026</title>
+  <desc>Editorial timeline of TensorFlow, PyTorch, Hugging Face Transformers, TensorFlow 2, PyTorch Foundation, LLaMA, Llama 3.1, and 2025–2026 open-weight releases.</desc>
   <rect width="960" height="220" fill="#f7f4ee"/>
   <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">Public open-stack milestones, 2015-2026</text>
   <line x1="40" y1="120" x2="920" y2="120" stroke="#222" stroke-width="2"/>

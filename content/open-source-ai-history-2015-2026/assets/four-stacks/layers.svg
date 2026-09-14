@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="t2">
   <title id="t2">Four public layers of the open stack</title>
+  <desc>Four columns for framework, hub, weights, and run-time engines in the public open AI stack.</desc>
   <rect width="960" height="280" fill="#f7f4ee"/>
   <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">Four public layers, not one product</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">

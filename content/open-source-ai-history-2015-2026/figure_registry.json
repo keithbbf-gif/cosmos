@@ -1,0 +1,81 @@
+{
+  "marker": "<!-- oss-graphics:v1 -->",
+  "assets": {
+    "timeline-2015-2026": {
+      "file": "../assets/timeline/2015-2026.svg",
+      "width": 960,
+      "height": 220,
+      "alt": "Timeline of public open-source AI stack milestones from TensorFlow in 2015 through Llama 4, DeepSeek-R1, and gpt-oss in 2025–2026.",
+      "caption": "Figure 1. Milestone years in the public open stack, from TensorFlow’s 2015 release through DeepSeek-R1, gpt-oss, and Llama 4. Dates are first-party announcements named in the bibliography."
+    },
+    "four-stacks-layers": {
+      "file": "../assets/four-stacks/layers.svg",
+      "width": 960,
+      "height": 280,
+      "alt": "Diagram of four public layers in open AI: training framework, model hub, downloadable weights, and local or server inference engines.",
+      "caption": "Figure 2. Four layers, not one product. A shop in 2026 mixes them. The license on one layer does not cover the others."
+    },
+    "license-ladder": {
+      "file": "../assets/license-ladder/ladder.svg",
+      "width": 960,
+      "height": 290,
+      "alt": "License ladder for AI weights and code: research-only grants, community acceptable-use terms, and OSI-shaped Apache or MIT licenses.",
+      "caption": "Figure 3. A ladder, not a compliment. Placement is illustrative. Read the named license file, not this drawing."
+    },
+    "local-vs-serve": {
+      "file": "../assets/local-vs-serve/engines.svg",
+      "width": 960,
+      "height": 240,
+      "alt": "Comparison of llama.cpp with GGUF for single-machine inference versus vLLM with PagedAttention for batched GPU serving.",
+      "caption": "Figure 4. Two jobs, two engines. llama.cpp is the portable file; vLLM is concurrent GPU serving."
+    },
+    "hub-card": {
+      "file": "../assets/hub-as-distribution/card.svg",
+      "width": 960,
+      "height": 240,
+      "alt": "Annotated Hugging Face Hub model card showing license string, files, pipeline tags, gating, and what the card does not disclose.",
+      "caption": "Figure 5. What a Hub card is asked to carry. It will not carry the training dump."
+    }
+  },
+  "drafts": {
+    "intro-the-open-stack": ["timeline-2015-2026", "four-stacks-layers"],
+    "twenty-twenty-six-the-stack": [
+      {
+        "asset": "four-stacks-layers",
+        "caption": "Figure 2. The layers a 2026 shop actually mixes."
+      }
+    ],
+    "licenses-that-are-not-open": ["license-ladder"],
+    "open-weight-vs-open-source": [
+      {
+        "asset": "license-ladder",
+        "caption": "Figure 3. Availability of a file is not the OSI test."
+      }
+    ],
+    "what-a-license-actually-permits": [
+      {
+        "asset": "license-ladder",
+        "caption": "Figure 3. Read the file. Then do the work the file allows."
+      }
+    ],
+    "llama-cpp-gguf": [
+      {
+        "asset": "local-vs-serve",
+        "caption": "Figure 4. Two jobs. This chapter is the left box."
+      }
+    ],
+    "vllm-paged-attention": [
+      {
+        "asset": "local-vs-serve",
+        "caption": "Figure 4. Two jobs. This chapter is the right box."
+      }
+    ],
+    "hub-as-distribution": [
+      {
+        "asset": "hub-card",
+        "caption": "Figure 5. The card is the crate label. The git repo is the crate."
+      }
+    ],
+    "bert-gpt2-model-cards": ["hub-card"]
+  }
+}

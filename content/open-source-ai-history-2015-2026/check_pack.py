@@ -27,6 +27,12 @@ BAND = (600, 1800)
 def body_words(text: str) -> int:
     text = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.S)
     text = re.sub(r"!\[.*?\]\(.*?\)", "", text)
+    text = re.sub(
+        r"<!-- oss-graphics:v1 -->[\s\S]*?</figure>\s*",
+        "",
+        text,
+        flags=re.I,
+    )
     text = re.sub(r"^\*.*?\*$", "", text, flags=re.M)
     text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
     text = re.split(r"^## Sources", text, flags=re.M)[0]

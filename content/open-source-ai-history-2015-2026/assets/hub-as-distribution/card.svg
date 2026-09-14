@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="t5">
   <title id="t5">What a model card is asked to carry</title>
+  <desc>Fields typically shown on a model hub card: org, license, files, tags, gating, and limits of disclosure.</desc>
   <rect width="960" height="240" fill="#f7f4ee"/>
   <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">A Hub card is a crate label</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">

@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="t4">
   <title id="t4">Two engines: llama.cpp and vLLM</title>
+  <desc>Side-by-side comparison of portable GGUF inference and GPU batched serving with PagedAttention.</desc>
   <rect width="960" height="240" fill="#f7f4ee"/>
   <text x="24" y="28" font-family="Georgia, serif" font-size="16" fill="#222">Two jobs, two engines</text>
   <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#222">

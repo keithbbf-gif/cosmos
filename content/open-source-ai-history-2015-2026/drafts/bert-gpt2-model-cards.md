@@ -15,9 +15,11 @@ stack:
 
 Google’s BERT paper (Devlin, Chang, Lee, Toutanova, arXiv:1810.04805, October 2018) and OpenAI’s GPT-2 technical report (Radford et al., February 2019) are not Hugging Face documents. They became Hugging Face objects because the library’s job was to make a checkpoint a callable. The **model card** — Mitchell et al., 2019, “Model Cards for Model Reporting” — is not a Hugging Face invention either. It became a Hub noun. This chapter is about that meeting: two famous weight releases, a documentation genre, and a website that turned both into a page you scroll.
 
-![A Hub card as a crate label.](../assets/hub-as-distribution/card.svg)
-
-*Figure 5. What a card is asked to carry. It will not carry the training dump.*
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/hub-as-distribution/card.svg" alt="Annotated Hugging Face Hub model card showing license string, files, pipeline tags, gating, and what the card does not disclose." width="960" height="240" loading="lazy" decoding="async" />
+<figcaption>Figure 5. What a Hub card is asked to carry. It will not carry the training dump.</figcaption>
+</figure>
 
 ## BERT as a public checkpoint
 

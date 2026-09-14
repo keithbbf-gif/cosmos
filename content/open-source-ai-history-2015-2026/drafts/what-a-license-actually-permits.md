@@ -13,11 +13,13 @@ stack:
 
 # What a license actually permits
 
-![A ladder from research grants to Apache and MIT.](../assets/license-ladder/ladder.svg)
-
-*Figure 3. Read the file. Then do the work the file allows.*
-
 This series is not counsel. It is a shop checklist. Before you train, merge, serve, or sell, you are looking at several instruments at once: the weight license, the code license, the dataset story, the Hub gate you clicked, the acceptable-use PDF, sometimes a separate enterprise grant. “The model is open” is not a step on the checklist.
+
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/license-ladder/ladder.svg" alt="License ladder for AI weights and code: research-only grants, community acceptable-use terms, and OSI-shaped Apache or MIT licenses." width="960" height="290" loading="lazy" decoding="async" />
+<figcaption>Figure 3. Read the file. Then do the work the file allows.</figcaption>
+</figure>
 
 ## A working order
 

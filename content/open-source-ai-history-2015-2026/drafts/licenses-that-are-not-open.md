@@ -13,13 +13,15 @@ stack:
 
 # Licenses that are not open
 
-![A ladder from research grants to Apache and MIT.](../assets/license-ladder/ladder.svg)
-
-*Figure 3. A ladder, not a compliment. Placement is illustrative. Read the named file.*
-
 The Open Source Definition is older than TensorFlow. It asks for free use, study, modification, and redistribution, without field-of-use bans. Apache 2.0 and MIT pass. A research-only grant fails. A community license with an acceptable-use list and a user-count cap fails. A RAIL that forbids named applications fails. Those failures can still be good policy. They are not open source under that definition.
 
 This chapter is a parts list of the instruments this series keeps meeting. The next chapter (`open-weight-vs-open-source`) is the vocabulary. The last chapter (`what-a-license-actually-permits`) is the work order.
+
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/license-ladder/ladder.svg" alt="License ladder for AI weights and code: research-only grants, community acceptable-use terms, and OSI-shaped Apache or MIT licenses." width="960" height="290" loading="lazy" decoding="async" />
+<figcaption>Figure 3. A ladder, not a compliment. Placement is illustrative. Read the named license file, not this drawing.</figcaption>
+</figure>
 
 ## Research grants
 

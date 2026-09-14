@@ -39,7 +39,7 @@ License names are facts. “Open source” is a claim. When Meta, Google, or a s
 
 Canonical drafts live in `drafts/<slug>.md`. Slug list: `writer-slugs.json` (46). Do not add a second article tree.
 
-After the lede, paste the matching block from `staged-embeds/<slug>.md` when one exists (figure paths are relative to `drafts/`: `../assets/...`). Keep the figure caption. Do not leave production comments in the body.
+After the lede, paste the matching block from `staged-embeds/<slug>.md` when one exists, or run `python3 scripts/embed_figures.py` to sync from `figure_registry.json`. Figures use HTML `<figure class="oss-stack-figure">`, `<img alt="…">` (SEO-length alt), and `<figcaption>`. Paths are relative to `drafts/`: `../assets/...`. Do not leave production comments in the body except the `<!-- oss-graphics:v1 -->` marker.
 
 ## Structure of an article
 
@@ -86,4 +86,4 @@ Parameter counts as the vendor published them (7B, 70B, 405B, 671B total / 37B a
 
 ## Photos and figures
 
-Editorial SVGs live in `assets/`. Captions stay with the figure. Prefer public-domain or first-party diagrams you redrew. Do not paste copyrighted press photos.
+Editorial SVGs live in `assets/`. Captions stay in `<figcaption>`. Prefer public-domain or first-party diagrams you redrew. Do not paste copyrighted press photos. Rights ledger: `RIGHTS.md`. QA: `python3 scripts/validate_graphics.py`.

@@ -17,9 +17,11 @@ On 20 June 2023 Woosuk Kwon, Zhuohan Li, and colleagues at UC Berkeley’s Sky C
 
 The idea is ordinary if you have seen an operating system: the KV cache is virtual memory. You allocate pages as sequences grow, you free them when a request ends, you stop reserving a giant contiguous slab for the worst-case length. Fragmentation drops. Concurrency rises. The June post’s vendor-shaped number — “up to 24× higher throughput than Hugging Face Transformers” — is a blog number. Treat it as a blog number. The paper (arXiv:2309.06180; SOSP, Koblenz, 23–26 October 2023) compares against FasterTransformer and Orca and talks 2–4× at matched latency. Ask “than what, at what concurrency, at what precision” before you reprint either figure.
 
-![Two engines: llama.cpp versus vLLM.](../assets/local-vs-serve/engines.svg)
-
-*Figure 4. Two jobs. This chapter is the right box.*
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/local-vs-serve/engines.svg" alt="Comparison of llama.cpp with GGUF for single-machine inference versus vLLM with PagedAttention for batched GPU serving." width="960" height="240" loading="lazy" decoding="async" />
+<figcaption>Figure 4. Two jobs. This chapter is the right box.</figcaption>
+</figure>
 
 ## Serving is not generating one token for yourself
 

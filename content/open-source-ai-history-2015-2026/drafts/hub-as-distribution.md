@@ -15,9 +15,11 @@ stack:
 
 By 2020–2021 the Hugging Face website was no longer a landing page for a library. It was a CDN, a git server for large files (Git-LFS), a card renderer, a permissions layer, and a search box. `huggingface_hub` as a standalone client arrived in that window. `from_pretrained` stopped meaning “fetch our S3 dict” and started meaning “resolve a repo id.” The Hub is a distribution system. Treat it like one.
 
-![A Hub card as a crate label.](../assets/hub-as-distribution/card.svg)
-
-*Figure 5. The card is the crate label. The git repo is the crate.*
+<!-- oss-graphics:v1 -->
+<figure class="oss-stack-figure">
+<img src="../assets/hub-as-distribution/card.svg" alt="Annotated Hugging Face Hub model card showing license string, files, pipeline tags, gating, and what the card does not disclose." width="960" height="240" loading="lazy" decoding="async" />
+<figcaption>Figure 5. The card is the crate label. The git repo is the crate.</figcaption>
+</figure>
 
 ## Git for weights
 
