@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 2006–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -94,12 +94,17 @@ It will not put pound cake on a furniture page as local flavor. It will not scor
 
 If a photographer is invited, photograph hands and smoke, with permission. Do not photograph children as emblems. Do not invent a secret recipe. Do not caption a generated feast as 2006. Graham’s pictures and PBS’s stills exist; ask the people who hold them. The Colored School grounds are the set. The work is the cooking. The theology, if any, is the date: news of freedom, late, then annually on time, with goat and tamales and a cake that made the headline.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from land entry through mill, college, June Dinner, gas, and census">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from land entry through mill, college, June Dinner, gas, and census">
 <figcaption>Figure 1. The dinner outlasts the mill on the pack’s own timeline. Schematic, not a menu. Pack graphic AS-TL-01.</figcaption>
 </figure>
 
 <!-- photo_slot: P-05 June Dinner food and grounds, PBS or family, with consent. Not a generated feast. Not children as emblems. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-general-order-3-juneteenth.jpg" alt="General Order No. 3 Juneteenth monument text" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. General Order No. 3 Juneteenth monument text. Credit: Larry D. Moore / Wikimedia Commons. License: CC BY-SA 4.0.</figcaption>
+</figure>
 
 ## Sources for this piece
 

@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar, Drew County
 era: 1906
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -74,9 +74,14 @@ The record will not give a photograph of Bryan on those steps. IMAGE_SOURCES wil
 
 No shop belongs on this night. The hunger to be mentioned is not a brand. The daughter’s name on the cancellation is not a logo. The roof was a college roof. The foundations are grass. Leave the reel there.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline placing 1906 between the 1905 epidemic and the 1907 Panic">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline placing 1906 between the 1905 epidemic and the 1907 Panic">
 <figcaption>Figure 1. Bryan sits between forty dead and a panic. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-arkansas-review-1911.jpg" alt="1911 Arkansas commerce and industry review title plate" width="1280" height="1485" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1911 Arkansas commerce and industry review title plate. Credit: Internet Archive / Wikimedia Commons. License: No known restrictions (Internet Archive scan).</figcaption>
 </figure>
 
 ## Sources for this piece

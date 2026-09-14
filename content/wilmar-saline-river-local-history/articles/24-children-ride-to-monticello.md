@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar and Monticello
 era: 1927–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -67,9 +67,14 @@ In 2003, Heady writes, UAM added technology campuses at Crossett and at McGehee.
 
 The shop does not belong on the bus. A furniture lane that wants a child as a heritage extra has failed the style guide. No price at the door. No “invest in our schools” close from a workshop. The weekday is the community’s. The June weekend is the community’s. This essay is only the map of who took the weekday.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River, Wilmar west of Monticello">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River, Wilmar west of Monticello">
 <figcaption>Figure 1. Eight miles, reversed. Schematic, not a bus route. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-iron-mountain-railroad-map-loc.jpg" alt="Iron Mountain railroad connection map, children riding to Monticello by rail" width="1280" height="950" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Iron Mountain railroad connection map, children riding to Monticello by rail. Credit: Library of Congress, Geography and Map Division / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

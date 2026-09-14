@@ -4,9 +4,9 @@ Staged magazine series for BBF / Saline River Workshop heritage. **Not live.** *
 
 Forty-six essays on a mill town in Drew County, a free-flowing river, and the farms between them. Read in order for the long argument; open any file for a standing piece. Mix codes: **A** town/civic/people · **B** river/landscape · **C** mills/rail/energy · **D** farm/food/after the mill.
 
-This is a **staged first wave**: sourced, license-logged, not live. Flagship pieces (Anderson’s dollar, five names, Gates, Beauvoir, June Dinner, the census table, four forks, the dam fight, the workshop name) are the length standard. Shorter companions are real arguments, not stubs. Nothing here invents a citation.
+This is a **staged first wave**: sourced, license-logged, figure-tagged for SEO, not live. Flagship pieces (Anderson’s dollar, five names, Gates, Beauvoir, June Dinner, the census table, four forks, the dam fight, the workshop name) are the length standard. Shorter companions are real arguments, not stubs. Nothing here invents a citation.
 
-House files: `STYLE_GUIDE.md` · `BIBLIOGRAPHY.md` · `IMAGE_SOURCES.md` · `PHOTO_NOTES.md` · `WP_IMPORT.md` · `assets/`
+House files: `STYLE_GUIDE.md` · `BIBLIOGRAPHY.md` · `IMAGE_SOURCES.md` · `RIGHTS.md` · `GRAPHICS_INDEX.md` · `PHOTO_NOTES.md` · `WP_IMPORT.md` · `assets/`
 
 Non-commerce. Soft-link BBF / Saline River Workshop only where the style guide allows. No SKU. No June Dinner as a brand.
 

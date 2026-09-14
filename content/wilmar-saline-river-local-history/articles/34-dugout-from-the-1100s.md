@@ -9,7 +9,7 @@ mix_secondary: A
 region: Peeler Bend, Saline County
 era: 1100s / 1999–2017
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -63,9 +63,14 @@ Woodard’s Native paragraph and her dugout paragraph are not a complete Indigen
 
 Anderson cleared five acres in 1859 and planted corn that five enslaved people tended. That is the beginning of Wilmar as Teske “generally” tells it. The dugout is the beginning of this pack’s honesty about the water the town later borrowed for a name. Two beginnings. One river. The camera, if it had any decency, would hold the canoe longer than the receipt.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline’s four forks meeting near Riverside in Saline County">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline’s four forks meeting near Riverside in Saline County">
 <figcaption>Figure 1. Peeler Bend belongs to the forks country, not to Wilmar. Schematic. Pack graphic AS-MAP-02. Do not caption a drawing as the 1999 canoe. The object’s photograph, when a museum allows it, is the still.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-mo-ark-map-nara.jpg" alt="Regional map of Missouri and northeastern Arkansas" width="1280" height="1691" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Regional map of Missouri and northeastern Arkansas. Credit: U.S. National Archives / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1905
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -76,9 +76,14 @@ The record will not say the dinner spread the pox. It will not say the W&SVR spr
 
 Coleman’s “A School Tale” (1989) is a bibliography lead. Stewart’s ARP pieces are neighbors. None of them has been used here as a quarry for a name. Until a first name can be pointed to on a page in hand, the boy is five. The student is a student. The town lost forty. That is the film.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Wilmar timeline with 1905 as a tick between the college charter and the Panic">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Wilmar timeline with 1905 as a tick between the college charter and the Panic">
 <figcaption>Figure 1. A tick is not a face. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wilmar-high-school.jpg" alt="Wilmar High School building in Wilmar, Arkansas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Wilmar High School building in Wilmar, Arkansas. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

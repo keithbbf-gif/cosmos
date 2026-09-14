@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: late 19th century–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -77,12 +77,17 @@ If a later editor wants a photograph, the request goes to the families and to PB
 
 The next essay stays on that ground. Essay 40 stays with the food. This one is the origin as the record will bear it: Teske’s oldest-in-Arkansas clause, Perry’s Galveston kinship, a 2006 list of plates, a 2023 oral method, and a prohibition on selling any of it.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from land entry through mill, college, June Dinner, gas, and the census step-down">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from land entry through mill, college, June Dinner, gas, and the census step-down">
 <figcaption>Figure 1. The dinner outlasts the mill on the same arc. Schematic ticks, not a charter. Pack graphic AS-TL-01.</figcaption>
 </figure>
 
 <!-- photo_slot: P-05 June Dinner / Wilmar Colored School grounds — PBS or family, with consent. Do not generate. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-general-order-3-juneteenth.jpg" alt="Juneteenth General Order No. 3 text on a public monument" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Juneteenth General Order No. 3 text on a public monument. Credit: Larry D. Moore / Wikimedia Commons. License: CC BY-SA 4.0.</figcaption>
+</figure>
 
 ## Sources for this piece
 

@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River / Ouachita basin
 era: 1937–1975
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -71,9 +71,14 @@ Wilmar, 395 people in 2020, sits inland of the bank. Teske never puts the city o
 
 204 miles. About 3,350 square miles of watershed. Four forks. Seven counties. Last free-flowing in the basin. February 1975. Those are the cards. Film them in that order. No violin on the word *free*. The freedom is hydraulic and political. The dinner’s freedom is a different essay. Do not collapse them to make a theme.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River from four forks to the Ouachita, undammed">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River from four forks to the Ouachita, undammed">
 <figcaption>Figure 1. The schematic has no reservoir because the river has no reservoir. Pack graphic AS-MAP-02. Not a Corps plan.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-saline-river-ouachita-nf.jpg" alt="Saline River landscape, Arkansas, undammed reach" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Saline River landscape, Arkansas, undammed reach. Credit: U.S. Forest Service / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

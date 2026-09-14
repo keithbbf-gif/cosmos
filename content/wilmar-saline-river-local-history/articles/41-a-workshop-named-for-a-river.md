@@ -9,7 +9,7 @@ mix_secondary: C
 region: rural south Arkansas
 era: 2020s
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -87,12 +87,17 @@ If there is a still, it is the glass front on a winter day, pots and benches in 
 
 Wilmar’s June table will not be catered by a brand. The five names in Anderson’s first field will not be asked to bless a bench. Those refusals are the ethics this pack promised. This essay exists so the refusals have a place to live, and so the name is explained as history rather than as a logo.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River">
 <figcaption>Figure 1. The ridge between two waters. A shop name takes the western one. Schematic, not a survey. Pack graphic AS-MAP-01.</figcaption>
 </figure>
 
 <!-- photo_slot: P-10 glass-front shop, one frame, no product grid, only if the person who owns the negative says yes. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-saline-river-ouachita-nf.jpg" alt="Saline River in the Ouachita National Forest, river that names the workshop" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Saline River in the Ouachita National Forest, river that names the workshop. Credit: U.S. Forest Service / Wikimedia Commons. License: CC0 1.0.</figcaption>
+</figure>
 
 ## Sources for this piece
 

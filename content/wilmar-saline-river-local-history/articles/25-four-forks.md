@@ -9,7 +9,7 @@ mix_secondary: C
 region: Saline River, Ouachita basin
 era: geology to present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -68,9 +68,14 @@ A shop that took the river’s name in the twenty-first century took the whole c
 
 Dunnahoo remains on the desk that has not been opened. Until it is, Woodard’s four lengths and seven counties are the film. 204 miles. About 3,350 square miles of watershed. Last free-flowing in the Ouachita basin. Essay 27 will stay with that lastness as a political fact. This essay is only the four streams that made the one water.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River’s four forks meeting near Riverside and running to the Ouachita">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River’s four forks meeting near Riverside and running to the Ouachita">
 <figcaption>Figure 1. Four forks to a mouth. Schematic, not a survey. Pack graphic AS-MAP-02.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-saline-river-ouachita-nf.jpg" alt="Saline River flowing through Ouachita National Forest, Arkansas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Saline River flowing through Ouachita National Forest, Arkansas. Credit: U.S. Forest Service / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

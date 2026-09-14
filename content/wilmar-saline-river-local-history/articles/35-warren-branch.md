@@ -9,7 +9,7 @@ mix_secondary: A
 region: Drew County
 era: 1880s–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -65,9 +65,14 @@ Hardwood that still leaves this ridge as a piece of furniture is more likely to 
 
 Balogh’s warning remains the harsher sentence. For towns whose livelihood relied on timber, relocation of production meant decline and possible death. Wilmar declined. The branch did not die on the same day the mill did. A siding can outlive a payroll. A city charter can outlive a siding’s importance. Teske’s modern Wilmar is “mostly a suburb of Monticello.” Suburbs are a kind of branch town that has learned to send people instead of boards. The Warren Branch, if a length of it still holds a rail, is a relic of the older sending. This pack will not invent a current train to make the relic feel useful.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic distinguishing the Warren Branch, the Wilmar and Saline Valley Railroad, and the Warren and Saline River Railroad">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic distinguishing the Warren Branch, the Wilmar and Saline Valley Railroad, and the Warren and Saline River Railroad">
 <figcaption>Figure 1. Three names, three jobs. Pack graphic AS-MAP-03. The Warren Branch of the Iron Mountain is not the Wilmar and Saline Valley Railroad and is not the Warren and Saline River Railroad.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-iron-mountain-railroad-map-loc.jpg" alt="Iron Mountain railroad map, Warren Branch context" width="1280" height="950" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Iron Mountain railroad map, Warren Branch context. Credit: Library of Congress, Geography and Map Division / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1900–2020
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -77,9 +77,14 @@ A shop that works in this county in the 2020s works in a 395-person city’s hin
 
 The still, if this were a Burns hour, would be the encyclopedia grid, then a finger on 1,034, then a finger on 395, then Teske’s 2010 race line, then stop. No violin swell. No civic sermon on the last bar. 395 people, a June table that can still draw thousands, a turbine on a line, churches Teske could still list in 2013. The table is not the whole town. It is the town’s longest film.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from 1848 land entry through 2020 census">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar from 1848 land entry through 2020 census">
 <figcaption>Figure 1. The ticks are dates; the hymn board is Teske’s table. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wilmar-high-school.jpg" alt="Wilmar High School, Wilmar, Arkansas, census-era town still" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Wilmar High School, Wilmar, Arkansas, census-era town still. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

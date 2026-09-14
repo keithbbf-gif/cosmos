@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1915
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -72,12 +72,17 @@ If a scorebook survives, it should be filmed like a letter. If Shea and Droessle
 
 No shop. No “America’s pastime” moral. Two teams, one park, alternate days. The town was large enough to need the sentence and small enough that everyone knew which day was whose.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline with 1915 among mill, college, and census ticks">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline with 1915 among mill, college, and census ticks">
 <figcaption>Figure 1. 1915 sits on the last climb toward 1,034. Pack graphic AS-TL-01. No generated grandstand.</figcaption>
 </figure>
 
 <!-- photo_slot: P-06 Hudspeth Park or a 1915 score book — only if a real still appears. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-leland-giants-1910.png" alt="1910 Leland Giants baseball team portrait, era of segregated town ball" width="1280" height="950" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1910 Leland Giants baseball team portrait, era of segregated town ball. Chicago Leland Giants, 1910 — not Hudspeth Park’s roster; an era plate for segregated town ball. Credit: Wikimedia Commons. License: Public domain.</figcaption>
+</figure>
 
 ## Sources for this piece
 

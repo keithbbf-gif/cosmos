@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1889–1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -82,9 +82,14 @@ It will not choose 1889 or 1890. It will not name the 1887 competitor. It will n
 
 This pack will not flatten Gates into a villain or a founder-saint. It was a firm that did what south Arkansas firms did between 1880 and 1925, and it did it on a daughter’s postmark. The later shop that takes the river’s name works in the aftermath, not in the commissary. Hardwood still grows on the ridge. The virgin pine does not. That is the whole Gates lesson, and it does not need a moral tag at the end of the reel.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic of Gates’s Wilmar and Saline Valley road meeting the Iron Mountain at Wilmar">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic of Gates’s Wilmar and Saline Valley road meeting the Iron Mountain at Wilmar">
 <figcaption>Figure 1. Interchange at the sawmill, not at the square. Pack graphic AS-MAP-03.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-woods-crew-1929.jpg" alt="Timber woods crew with logging equipment, circa 1929" width="1280" height="1695" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Timber woods crew with logging equipment, circa 1929. Credit: Kinsey Brothers Photography / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1924–2020
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -67,9 +67,14 @@ The city remains incorporated, the date still March 8, 1899. The elevation is st
 
 A documentary that ends on an empty depot has chosen a still this series will not end on. The still is a table in June, a church list, a turbine on a line, a mayor on PBS, a count of 395, and a ridge that still grows wood. Subtracted is not vanished. The arithmetic is the town’s.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline of Wilmar from land entry through mill, college, gas, and the census decline">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline of Wilmar from land entry through mill, college, gas, and the census decline">
 <figcaption>Figure 1. After the whistle is most of the line. Pack graphic AS-TL-01. 1,034 to 395 is a subtraction, not a funeral, unless a columnist needs a verb.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wilmar-high-school.jpg" alt="Wilmar High School after the mill whistle" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Wilmar High School after the mill whistle. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

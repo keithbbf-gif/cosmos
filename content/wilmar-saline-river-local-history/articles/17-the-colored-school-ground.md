@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: late 19th century–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -77,12 +77,17 @@ Reaves’s *Wilmar, Arkansas: Scrapbook of Memories* (2005) and DeArmond’s *Ol
 
 The still, if a crew can get permission, is the present ground in ordinary light, then the PBS mid-1950s frame, then Perry’s sentence on a card. No generated sepia. No child asked to smile for 1899. The yard is already doing the work.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar civic dates including school and dinner ticks">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar civic dates including school and dinner ticks">
 <figcaption>Figure 1. The Colored School is a name on the civic arc; Teske does not give it a year. Pack graphic AS-TL-01.</figcaption>
 </figure>
 
 <!-- photo_slot: P-05 Wilmar Colored School, mid-1950s still or present grounds — PBS or family consent. Never generate. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-general-order-3-juneteenth.jpg" alt="Juneteenth General Order No. 3 inscription, emancipation proclamation in Texas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Juneteenth General Order No. 3 inscription, emancipation proclamation in Texas. Credit: Larry D. Moore / Wikimedia Commons. License: CC BY-SA 4.0.</figcaption>
+</figure>
 
 ## Sources for this piece
 

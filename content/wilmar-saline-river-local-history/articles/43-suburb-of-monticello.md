@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar and Monticello
 era: 1852–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -75,9 +75,14 @@ A century later the second town is mostly a suburb. The booster could not have w
 
 A shop in the county may sit closer to Wilmar’s silence than to the Walmart strip. That is a location fact, not a virtue. Do not advertise quiet. Quiet is other people’s lives. This is not the essay that explains a workshop name. It is the essay that explains why the weekday goes east.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County with Monticello on the ridge and Wilmar eight miles west">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County with Monticello on the ridge and Wilmar eight miles west">
 <figcaption>Figure 1. Eight miles nearly due west, the 1907 paper said. The weekday now runs the other way. Schematic, not a highway map. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wilmar-high-school.jpg" alt="Wilmar High School, suburb-of-Monticello era building" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Wilmar High School, suburb-of-Monticello era building. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

@@ -9,7 +9,7 @@ mix_secondary: D
 region: Monticello and Wilmar
 era: 1909–1971
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -73,9 +73,14 @@ The record will not say Wilmar was offered the 1909 campus and declined. The pat
 
 No shop CTA belongs here. The campus is not a vendor. The sentence is only: the knowledge lives eight miles east of the foundation lines, and the foundation lines are why the knowledge had to live somewhere. Hardwood still leaves the ridge. The virgin pine does not. The school that talks about yield sits on the square’s side of the eight miles. The rehearsal sat on the mill’s. Both facts are the transfer. Neither is a catalog.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of the dividing ridge with Monticello on the high ground and Wilmar eight miles west">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of the dividing ridge with Monticello on the high ground and Wilmar eight miles west">
 <figcaption>Figure 1. Eight miles is the bid’s geography. Schematic, not a survey. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wilmar-high-school.jpg" alt="Wilmar High School in Wilmar, Drew County, Arkansas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Wilmar High School in Wilmar, Drew County, Arkansas. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

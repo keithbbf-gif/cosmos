@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1848–1869
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -66,9 +66,14 @@ The 1907 paper, writing while Anderson still walked the town, needed him as foun
 
 A dollar an acre is a small sentence. It is also the only honest cold open this series has. Everything that follows — Gates, Beauvoir, a June table, a turbine on a gas line, a shop that took the river’s name — is what people did after the receipt was filed. The receipt, if it still exists, would be a poor photograph. The land is the better one. The names in the first field are the ones the photograph would have to include if it meant to tell the truth.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River, with Wilmar west of Monticello">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River, with Wilmar west of Monticello">
 <figcaption>Figure 1. Drew County between two waters. Schematic, not a survey. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-1859-colton-arkansas-railroads.jpg" alt="1859 Colton pocket map of Arkansas showing railroad lines and county geography" width="1280" height="1054" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1859 Colton pocket map of Arkansas showing railroad lines and county geography. Credit: J. H. Colton & Co., 1859; Geographicus / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

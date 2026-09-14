@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -79,9 +79,14 @@ Because a stave factory at 10,000 a day and a violin teacher are the same town. 
 
 W. B. Massey’s two hundred students, one music teacher. The ratio is the fact. Otto Mahling, as of December 17, 1907, was the one. After that date this folder is silent. Silence, after a full biography, is the correct last still. Do not fill it.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar including the college years and 1907">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar including the college years and 1907">
 <figcaption>Figure 1. 1907 sits after Beauvoir’s abandonment and before the census peak. The souvenir put a Berliner in that gap. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-arkansas-review-1911.jpg" alt="1911 Arkansas historical review plate, music-and-civic culture context" width="1280" height="1485" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1911 Arkansas historical review plate, music-and-civic culture context. Credit: Internet Archive / Wikimedia Commons. License: No known restrictions (Internet Archive scan).</figcaption>
 </figure>
 
 ## Sources for this piece

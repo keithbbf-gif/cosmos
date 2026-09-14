@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1859–1865
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -69,6 +69,16 @@ A local history can say this without a sermon and without a product. The first r
 Simon Taylor. Lizza Taylor. Virginia Thurman. Wealthy Thurman. Gill Gordon.
 
 The encyclopedia kept them. Teske’s sentence still uses the period noun *slaves*. This pack prefers *enslaved people* in its own voice and does not pretend that changing the noun recovered a biography. The names are the recovery. A later pass that finds a Freedmen’s Bureau complaint, a marriage, or a grave should add the paper, not a scene. Until then the five names and the 1860 county counts are the photograph. The mill, the college, and the dinner all happen on the same ground. They do not get to start the reel.
+
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline River, with Wilmar west of Monticello">
+<figcaption>Figure 1. The ridge between two waters — where Anderson’s clearing sat. Schematic, not a survey. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-pickers-pulaski-met.jpg" alt="Cotton pickers in a Pulaski County, Arkansas field, early twentieth century photograph" width="1280" height="1629" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton pickers in a Pulaski County, Arkansas field, early twentieth century photograph. Pulaski County, not Drew — used here as a period still for field labor the encyclopedia names but does not photograph. Credit: The Metropolitan Museum of Art / Wikimedia Commons. License: CC0 1.0.</figcaption>
+</figure>
 
 ## Sources for this piece
 

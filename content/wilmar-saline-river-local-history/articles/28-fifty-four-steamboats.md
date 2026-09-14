@@ -9,7 +9,7 @@ mix_secondary: C
 region: Saline River
 era: 19th century–1913
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -74,9 +74,14 @@ The 1930s are also Teske’s census drop: 1,034 people in Wilmar in 1920, 627 in
 
 A shop named for the river works in the recreation century with a memory of the export century. The name is older than the shop and heavier than a canoe. No SKU.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from four forks to the Ouachita mouth, with Warren and the Drew line">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from four forks to the Ouachita mouth, with Warren and the Drew line">
 <figcaption>Figure 1. The Saline as a road: forks, counties, mouth. Schematic, not a survey. Pack graphic AS-MAP-02. A USGS sheet of the Warren reach is the period still this essay still wants (WC-USGS-01).</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-red-river-steamboat-blessing.jpg" alt="Red River steamboat landing, nineteenth-century river commerce" width="1280" height="650" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Red River steamboat landing, nineteenth-century river commerce. Red River landing — river trade neighbor to the Saline-Ouachita system, not the *Gate City* wreck site. Credit: S. T. Blessing, c. 1873; Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

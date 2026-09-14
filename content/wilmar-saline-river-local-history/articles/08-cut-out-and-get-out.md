@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar and south Arkansas
 era: 1880–1930
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -84,9 +84,14 @@ It will not give a photograph of the cutover in this folder, and IMAGE_SOURCES w
 
 The record will also not say the town died. 395 in 2020 is a count. The legal person of March 8, 1899, persisted. Churches Teske could still list in 2013 persisted longer than the whistle. The method relocated production. It did not erase a postmark. That distinction is the difference between Balogh’s “possible death” and a documentary that films the living.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Wilmar timeline with the 1920 peak and 1930 drop marked among other ticks">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Wilmar timeline with the 1920 peak and 1930 drop marked among other ticks">
 <figcaption>Figure 1. 1,034 to 627 is the method in ticks. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-woods-crew-1929.jpg" alt="Timber woods crew felling and yarding logs, circa 1929" width="1280" height="1695" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Timber woods crew felling and yarding logs, circa 1929. Pacific Northwest, circa 1929 — extraction method, not Wilmar’s acreage. Credit: Kinsey Brothers Photography / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

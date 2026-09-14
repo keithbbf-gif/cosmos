@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River
 era: 1700s–1860
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -70,9 +70,14 @@ The first still is the mouth: a salty marsh, French name, Ouachita waiting. The 
 
 The forks essay gave the lengths. This one gives the name’s argument. The dam essay will give the refusal. None of the three is a canoe brochure.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from four forks to the Ouachita mouth">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from four forks to the Ouachita mouth">
 <figcaption>Figure 1. Mouth and headwaters on one schematic. The marsh is at the mouth; the 1827 works, in one telling, near Benton. Pack graphic AS-MAP-02.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-saline-river-ouachita-nf.jpg" alt="Saline River in the Ouachita National Forest, free-flowing water" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Saline River in the Ouachita National Forest, free-flowing water. Credit: U.S. Forest Service / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1897–1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -79,9 +79,14 @@ This pack’s farm essays are not seed catalogs. They are about the units people
 
 The first corn on this ground was made by people who could not leave. The later corn that paid a tuition was made by households the catalog would admit. Both facts are the farm history. A bursar’s kindness that stops at a color line is still a bursar’s kindness inside the line. Say the line. Then say the shoat. Then stop.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew bottoms, the dividing ridge, and Saline bottoms, with Wilmar west of Monticello">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew bottoms, the dividing ridge, and Saline bottoms, with Wilmar west of Monticello">
 <figcaption>Figure 1. A bursar who took crops already knew these three parts. Schematic, not a survey. Pack graphic AS-MAP-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-bale-warehouse-haer.jpg" alt="Cotton bale storage warehouse at a southern mill, Historic American Engineering Record" width="1280" height="917" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton bale storage warehouse at a southern mill, Historic American Engineering Record. Credit: Historic American Engineering Record / Library of Congress / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

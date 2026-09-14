@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar, Drew County
 era: 1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -74,9 +74,14 @@ The paper’s county population by decades — 3,276 in 1850; 9,087 in 1860; 9,9
 
 Do not sell this inventory as a golden age for a chair. The town of second importance was a mill town with a closed college, a new warehouse, and a paper that needed it to look busy. That is already a lot. It is enough.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline ticks for Wilmar from land entry through mill, college, and later census">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline ticks for Wilmar from land entry through mill, college, and later census">
 <figcaption>Figure 1. 1907 sits on the rising side of Teske’s table, after Beauvoir’s close and before the 1920 peak. Pack graphic AS-TL-01. The souvenir’s 1,000-or-1,200 is not a census.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-1859-colton-arkansas-railroads.jpg" alt="1859 Arkansas railroad pocket map, Drew County region" width="1280" height="1054" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1859 Arkansas railroad pocket map, Drew County region. Credit: J. H. Colton & Co., 1859; Geographicus / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

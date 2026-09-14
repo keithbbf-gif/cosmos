@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1892–1903
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -73,9 +73,14 @@ The record will not name the 1887 mill competitors who were already on the ridge
 
 A Ken Burns hour would film the name on a catalog cover, if Taylor Library will allow the plate, then the well, then the color-line phrase, then stop. Music under Davis’s house would be a mistake. The combination is the South, not a puzzle. A mill town asked for a college. Donors who owned land and water gave it. The school named itself for a shrine and advertised itself for whites and took livestock at the door. Ten years, if you are generous. Four, if you start at the charter. Foundation lines after that. The rehearsal was real. The gravity was always the seat’s.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline including the 1897 school opening and the 1903 Beauvoir charter among mill and census ticks">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline including the 1897 school opening and the 1903 Beauvoir charter among mill and census ticks">
 <figcaption>Figure 1. Drew Normal is older than the city’s charter. Beauvoir is not. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-arkansas-review-1911.jpg" alt="1911 Arkansas commerce and industry review title plate" width="1280" height="1485" loading="lazy" decoding="async" />
+<figcaption>Figure 2. 1911 Arkansas commerce and industry review title plate. Credit: Internet Archive / Wikimedia Commons. License: No known restrictions (Internet Archive scan).</figcaption>
 </figure>
 
 ## Sources for this piece

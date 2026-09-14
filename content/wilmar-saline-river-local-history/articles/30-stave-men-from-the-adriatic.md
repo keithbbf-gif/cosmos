@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River country
 era: early 1900s
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -67,9 +67,14 @@ Barrels are bent wood. Furniture is usually not. The kinship is only this: hardw
 
 George Balogh notes that between 1880 and 1920 community development and the timber industry fed each other: schools, churches, stores, the institutions a payroll requires. He is thinking of Fordyce, Warren, Crossett, the company towns and the county seats. The Slavonian stave crews sit in a thinner version of that sentence. They needed a landing, a woods, a way to send a bundle out. They did not, in Woodard’s telling, need a city named for them. That is not romance. It is how a last extractive trade looks when the rail has already won.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline, with Wilmar toward the timber side">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline, with Wilmar toward the timber side">
 <figcaption>Figure 1. Wilmar toward the Saline woods, not at the Saline wharf. Schematic. Pack graphic AS-MAP-01. The families Woodard names are a river fact; the 1898 stave mill is a town fact. Do not collapse them.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-woods-crew-1929.jpg" alt="Logging woods crew, southern timber industry stand-in" width="1280" height="1695" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Logging woods crew, southern timber industry stand-in. Credit: Kinsey Brothers Photography / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

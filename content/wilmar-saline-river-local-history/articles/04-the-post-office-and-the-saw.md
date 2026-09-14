@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1881–1899
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -80,9 +80,14 @@ Absence is not emptiness. It is a seam. A series that irons the seam into a fini
 
 A workshop that now takes its name from the Saline — the public shop name already spoken, not a catalog — can live with this chronology. Boards left this ridge before anyone filed a city. They still leave, in smaller numbers and for different rooms. The 1881 saw is not an ancestor to flatter. It is a reminder that the first civic act here was cutting, and the second was mail.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic of the Iron Mountain Warren Branch, the Wilmar and Saline Valley logging road, and the Bradley County Warren and Saline River line">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic of the Iron Mountain Warren Branch, the Wilmar and Saline Valley logging road, and the Bradley County Warren and Saline River line">
 <figcaption>Figure 1. Rail as location, not metaphor. Schematic, not a valuation map. Pack graphic AS-MAP-03.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-lumber-survey-crew-1929.jpg" alt="Logging company survey crew at a camp office, Pacific Northwest, circa 1929" width="1280" height="965" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Logging company survey crew at a camp office, Pacific Northwest, circa 1929. Pacific Northwest camp — not Gates’s woods; a logging-office still the prose can borrow without pretending it is Drew County. Credit: Kinsey Brothers Photography / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

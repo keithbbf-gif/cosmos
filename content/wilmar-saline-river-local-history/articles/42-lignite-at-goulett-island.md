@@ -9,7 +9,7 @@ mix_secondary: C
 region: Bradley County / Saline River
 era: 1860
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -75,9 +75,14 @@ Cut out and get out, when it came, erased towns more efficiently than it erased 
 
 A shop that later took the river’s name — the one essay in this pack allowed to say so at length — takes water, not brown coal. That is correct. Lignite is a poor brand and an honest ancestor. The valley was fuel before it was furniture, and fuel before it was pine. Say it here. Do not say it on a product page.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River from four forks to the Ouachita mouth">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River from four forks to the Ouachita mouth">
 <figcaption>Figure 1. Four forks to the mouth. Goulett Island sits on the southern reach, Bradley County, not on the mountain forks. Schematic, not a mineral survey. Pack graphic AS-MAP-02.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-saline-river-ouachita-nf.jpg" alt="Saline River landscape, lignite and river energy context" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Saline River landscape, lignite and river energy context. Credit: U.S. Forest Service / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

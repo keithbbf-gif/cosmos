@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar, Drew County
 era: 1869–1884
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -70,6 +70,16 @@ That gap is better than a generated girl in a white dress. The name is the docum
 If a family ever offers a picture of Willie Elvira Anderson, it should be filmed the way Burns films a face we have only one of: long enough that the viewer understands the town was, for a while, a person. Then the camera should go back to the cancellation, which is what lasted.
 
 The 1900 count of 844 is the first census that treats the daughter’s name as a city. Incorporation was the year before. In sixteen years the postmark had filled with enough bodies to satisfy a census enumerator. That is faster than a farm name fills, slower than a boom camp. It is the pace of a rail stop that also had a mill. Willie Elvira, if she lived to see 1900, could have walked a town that had taken her name and then taken Gates’s payroll as its biography. The *Advance* would do that retelling seven years later. The cancellation did not change. Names outlast the people who prefer a different origin story. That is the only romance this essay will allow, and it is not romantic. It is postal.
+
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic of the Warren Branch and logging roads serving Wilmar">
+<figcaption>Figure 1. Rail before the daughter’s name filled the census. Pack graphic AS-MAP-03. Not a survey.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-mopac-depot-charleston.jpg" alt="Missouri Pacific railroad depot building, representative of Warren Branch era depots" width="1280" height="720" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Missouri Pacific railroad depot building, representative of Warren Branch era depots. Charleston, Mississippi County — not Wilmar’s four-function house; a depot type the Warren Branch made ordinary. Credit: Mississippi County Port Authority / Wikimedia Commons. License: Public domain.</figcaption>
+</figure>
 
 ## Sources for this piece
 

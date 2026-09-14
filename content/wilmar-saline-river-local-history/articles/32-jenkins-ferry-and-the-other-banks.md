@@ -9,7 +9,7 @@ mix_secondary: A
 region: Saline River corridor
 era: 1864–1865
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -63,9 +63,14 @@ A free-flowing river in 1975 is a political survivor. A county that shot into Ma
 
 No shop. No “brothers’ war” music. The still is a ferry name on a map and Heady’s last date. Do not use this essay to sell furniture. The style guide is not being delicate. Lynching, the Klan, secession, and the labor of bondage are history, not spice. A wreck essay refuses invented passengers. A war essay refuses invented last words. The names Woodard listed, the dates Heady listed, and the book DeBlack wrote are the file. A generated battle smoke is a lie. A USGS bend labeled Jenkins’ Ferry is enough.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River through Grant, Cleveland, Bradley, Drew, and Ashley counties">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River through Grant, Cleveland, Bradley, Drew, and Ashley counties">
 <figcaption>Figure 1. Woodard’s four names on one water: Jenkins’ Ferry, Mount Elba, Marks’ Mills, Longview. Schematic. Pack graphic AS-MAP-02. Not a battle map; DeBlack is the book for that.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-mo-ark-map-nara.jpg" alt="Historic map of southeastern Missouri and northeastern Arkansas" width="1280" height="1691" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Historic map of southeastern Missouri and northeastern Arkansas. Credit: U.S. National Archives / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

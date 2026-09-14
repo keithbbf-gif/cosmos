@@ -10,6 +10,8 @@ content/wilmar-saline-river-local-history/
   STYLE_GUIDE.md
   BIBLIOGRAPHY.md
   IMAGE_SOURCES.md
+  RIGHTS.md
+  GRAPHICS_INDEX.md
   PHOTO_NOTES.md
   WP_IMPORT.md          ← this file
   articles/NN-slug.md
@@ -30,7 +32,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1859–1869
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -54,7 +56,7 @@ sources_key:
 | `series_no` | Integer, unique, matches `INDEX.md` |
 | `mix` | `A` town/civic · `B` river/landscape · `C` mills/rail · `D` farm/food/after |
 | `status` | `staged` until a human marks `ready` |
-| `voice_check` | Must be `human`. Importer should reject the post if missing. |
+| `voice_check` | `human` (draft) or `edited` (after editor + figure pass). Importer should reject the post if missing. |
 | `wp_status` | Always `draft` in this pack |
 | `canonical_site` | `bbfur` (future furniture/heritage door). Not a live URL. Soft-link only. |
 
@@ -66,9 +68,9 @@ sources_key:
 - Figures:
 
 ```markdown
-<figure>
-<img src="…" alt="…">
-<figcaption>Caption. Credit: … License: …</figcaption>
+<figure class="wilmar-figure">
+<img src="…" alt="…" width="…" height="…" loading="lazy" decoding="async">
+<figcaption>Figure N. Caption. Credit: … License: …</figcaption>
 </figure>
 ```
 

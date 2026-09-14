@@ -9,7 +9,7 @@ mix_secondary: B
 region: Wilmar and the Saline valley
 era: 1904–1928
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -75,9 +75,14 @@ ICC notes and Wikipedia dates for the Warren, Johnsville and Saline River (incor
 
 Twenty-five miles of track is a short sentence. It is also the whole industrial film of Wilmar between the 1903 college charter and the 1924 mill death: a company built a road to finish a woods, handed the boards to a larger road, and then sent the tools to a better woods. The town at one end kept the daughter’s name and lost the fleet.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic keeping the Wilmar and Saline Valley Railroad distinct from the Warren and Saline River Railroad">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic keeping the Wilmar and Saline Valley Railroad distinct from the Warren and Saline River Railroad">
 <figcaption>Figure 1. Two roads, one river word, two counties. Pack graphic AS-MAP-03. Not a survey.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-iron-mountain-railroad-map-loc.jpg" alt="Historic map of the Iron Mountain railroad and its connections" width="1280" height="950" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Historic map of the Iron Mountain railroad and its connections. Credit: Library of Congress, Geography and Map Division / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

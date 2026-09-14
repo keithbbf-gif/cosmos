@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar, Drew County
 era: 1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -71,12 +71,17 @@ The building’s later life is not in this pack. A later pass should ask whether
 
 Do not treat the *Advance* as a census. Do not treat Sandage’s statewide membership as a Wilmar roll. Do not treat Heady’s Hill sentence as a caption for the 1907 shed. Three documents, three scales. The plate that would make a Ken Burns hour is the souvenir’s inventory line, then the Little Rock front page of September, then a blank for the building’s death date. Music would be wrong. Cotton is weight. Weight is enough.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline, with Wilmar west of Monticello">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County between Bayou Bartholomew and the Saline, with Wilmar west of Monticello">
 <figcaption>Figure 1. Remainder cotton, the 1907 paper said, moved through Wilmar, Collins, and Tillar. The union shed stood in the second town. Schematic. Pack graphic AS-MAP-01.</figcaption>
 </figure>
 
 <!-- photo_slot: P-09 Farmer’s Union warehouse, if a later photograph or a foundation line is offered. Not a generated shed. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-bale-warehouse-haer.jpg" alt="Cotton bale warehouse, Farmers Union storage analog" width="1280" height="917" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton bale warehouse, Farmers Union storage analog. Credit: Historic American Engineering Record / Library of Congress / Wikimedia Commons. License: Public domain.</figcaption>
+</figure>
 
 ## Sources for this piece
 

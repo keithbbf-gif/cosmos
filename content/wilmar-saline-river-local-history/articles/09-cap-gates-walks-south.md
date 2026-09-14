@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar to Crossett
 era: 1890–1926
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -75,9 +75,14 @@ The record will not give the names of the Wilmar hands who went south. It will n
 
 A workshop that takes the river’s name is not in this walk. Soft-link: none required. The brother’s job is enough. Hardwood still grows on the ridge he left. The virgin pine he came for does not. Crossett learned to grow a crop. Wilmar learned to live after a payroll. Both sentences are true. Only one of them is this town’s.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic locating Wilmar’s company road relative to the Iron Mountain and, to the south, Crossett’s later reach">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic locating Wilmar’s company road relative to the Iron Mountain and, to the south, Crossett’s later reach">
 <figcaption>Figure 1. The walk is south. The first interchange stayed at Wilmar until the tools moved. Pack graphic AS-MAP-03.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-lumber-survey-crew-1929.jpg" alt="Logging survey crew at a lumber company camp office, circa 1929" width="1280" height="965" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Logging survey crew at a lumber company camp office, circa 1929. Same seam as essay 08: method plate, not a Gates portrait. Credit: Kinsey Brothers Photography / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

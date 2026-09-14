@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -74,12 +74,17 @@ Anderson, the 1907 paper said, had once used a single house as store, post offic
 
 If this were a Burns hour, the still would be a floor plan, not a smiling clerk. 1,200 feet, then near 5,000, plus warehouse and icehouse. Then the civic list’s five unnamed stores. Then Harris’s only drugstore. Then the union shed for cotton. Then stop. The mill hand’s ticket, if it ever existed on paper, is not in this folder. Absence is not emptiness. It is a seam. The souvenir named the brothers, their parents, their partners Stewart and Biggs, their offices, their sales. It did not name the army. Teske’s later table named the army as a subtraction: four hundred people gone in a decade. Some of them had stood at this counter.
 
-<figure>
-<img src="../assets/maps/logging-roads.svg" alt="Schematic of logging roads including the Wilmar and Saline Valley line at the Gates mill">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/logging-roads.svg" alt="Schematic of logging roads including the Wilmar and Saline Valley line at the Gates mill">
 <figcaption>Figure 1. The mill’s road and the Iron Mountain interchange. The commissary sat where the payroll had to walk. Schematic, not a store plan. Pack graphic AS-MAP-03.</figcaption>
 </figure>
 
 <!-- photo_slot: P-09 Kidd Bros. commissary or a later brick, only if a photograph is offered. Not a generated interior. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-bale-warehouse-haer.jpg" alt="Cotton bale warehouse interior, commissary-and-staple still" width="1280" height="917" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton bale warehouse interior, commissary-and-staple still. Credit: Historic American Engineering Record / Library of Congress / Wikimedia Commons. License: Public domain.</figcaption>
+</figure>
 
 ## Sources for this piece
 

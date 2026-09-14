@@ -9,7 +9,7 @@ mix_secondary: C
 region: Cleveland County / Saline River
 era: steamboat era
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -70,9 +70,14 @@ The still is a map, not a reenacted packet boat. Label Bridges Bluff. Label Warr
 
 Do not put a shop on this landing. The bluff is a depth. A workshop named for the river, when that sentence is allowed, belongs to later essays about the name and the ridge. Head of navigation is not a hangtag. It is the sentence that keeps a landlocked mill town from pretending it was New Orleans.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River with Cleveland County on the middle-lower reach">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River with Cleveland County on the middle-lower reach">
 <figcaption>Figure 1. Head of navigation as a point on a schematic, not a painted landing. Pack graphic AS-MAP-02. Bridges Bluff is Woodard’s function; the warehouse inventory is not in this file.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-red-river-steamboat-blessing.jpg" alt="Red River steamboat landing photograph, packet-boat era" width="1280" height="650" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Red River steamboat landing photograph, packet-boat era. Packet-boat era plate; Bridges Bluff is upstream geography, not this landing. Credit: S. T. Blessing, c. 1873; Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

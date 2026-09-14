@@ -9,7 +9,7 @@ mix_secondary: C
 region: Drew County
 era: 1859–1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -61,9 +61,14 @@ Balogh’s statewide timber story is the later weather. Cut out and get out, the
 
 A shop that works wood is a cousin of the mill, not of the gin. The farm essays are in this pack so the cousin does not forget the household. Soft-link: none required. The corn is enough.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County with Bartholomew bottoms, dividing ridge, and Saline bottoms">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic of Drew County with Bartholomew bottoms, dividing ridge, and Saline bottoms">
 <figcaption>Figure 1. East: cotton country. Southwest: timbered Saline bottoms. Middle: the upland the souvenir wanted to prove could grow corn. Pack graphic AS-MAP-01. Acreages are 1907-round.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-pickers-pulaski-met.jpg" alt="Cotton pickers in an Arkansas field, farm-before-lumber still" width="1280" height="1629" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton pickers in an Arkansas field, farm-before-lumber still. Credit: The Metropolitan Museum of Art / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

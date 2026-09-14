@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar and Monticello
 era: 1907
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -75,9 +75,14 @@ The record will not print the 1909 bid in this essay. Heady does not print it. B
 
 No shop CTA belongs on a foundation line. The grass is not a brand. The haul is not a delivery. A later workshop that takes the river’s name works in a county that once moved a campus eight miles and called the remainder a line. That sentence is geography, not a close.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline placing the 1907 Panic and college removal among mill and census ticks">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline placing the 1907 Panic and college removal among mill and census ticks">
 <figcaption>Figure 1. The souvenir and the Panic share a year. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wpa-building-wilmar.jpg" alt="WPA-era civic building in Wilmar, Arkansas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. WPA-era civic building in Wilmar, Arkansas. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

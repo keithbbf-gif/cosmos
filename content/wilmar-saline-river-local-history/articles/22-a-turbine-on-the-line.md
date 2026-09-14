@@ -9,7 +9,7 @@ mix_secondary: A
 region: Wilmar, Drew County
 era: 1928–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -70,12 +70,17 @@ A furniture lane has almost nothing honest to say here. Hardwood does not compre
 
 The still is a USGS sheet with a pipeline easement if the sheet shows one, then Teske’s 1948 date on a card, then the census bars 627–695–746, then the flag on *first*. Then stop.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar with gas-industry ticks after the mill">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar with gas-industry ticks after the mill">
 <figcaption>Figure 1. 1928 and 1948 after the cutover. Pack graphic AS-TL-01. No generated turbine.</figcaption>
 </figure>
 
 <!-- photo_slot: P-07 Wilmar Transmission Station / turbine pump — corporate archive; ask. -->
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-mopac-depot-charleston.jpg" alt="Missouri Pacific depot, stand-in for rail-and-utility corridor towns" width="1280" height="720" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Missouri Pacific depot, stand-in for rail-and-utility corridor towns. Depot stand-in for rail-and-pipeline towns; not the Wilmar Transmission Station. Credit: Mississippi County Port Authority / Wikimedia Commons. License: Public domain.</figcaption>
+</figure>
 
 ## Sources for this piece
 

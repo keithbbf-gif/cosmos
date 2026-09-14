@@ -8,7 +8,7 @@ mix: A
 region: Wilmar, Drew County
 era: 1868–1928
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -71,9 +71,14 @@ Martial law ended in February 1869. The first Klan, in Heady’s telling, lasted
 
 The still is Teske’s sentence after the baseball paragraph. Then Heady’s 1915–1928 clause. Then the census drop. Then stop. The town is more than the chapter. The chapter is not therefore a footnote.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar; 1923 sits with the mill’s last decade">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar; 1923 sits with the mill’s last decade">
 <figcaption>Figure 1. 1923 on the same arc as 1,034 and 627. Schematic. Pack graphic AS-TL-01. No costume still.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wpa-building-wilmar.jpg" alt="WPA building in Wilmar, Arkansas, civic architecture after the mill" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. WPA building in Wilmar, Arkansas, civic architecture after the mill. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

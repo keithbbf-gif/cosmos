@@ -9,7 +9,7 @@ mix_secondary: D
 region: Wilmar, Drew County
 era: 1861–2013
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -72,9 +72,14 @@ The June table is not a denomination. It is a holiday that has used a school gro
 
 The still is Teske’s parenthesis. Eight active members. 1974. Then the 1861 date. Then the 2013 list read slowly. Then stop. No TED-talk about faith in hard times. The hard time is the membership. The faith, if any, is whoever still has a key.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar including 1861 church, 1893 Methodist organization, and 1974 Presbyterian closure">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar including 1861 church, 1893 Methodist organization, and 1974 Presbyterian closure">
 <figcaption>Figure 1. Steeple dates on the civic arc. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wpa-building-wilmar.jpg" alt="WPA-era building in Wilmar, Arkansas, churches-after-mill civic context" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. WPA-era building in Wilmar, Arkansas, churches-after-mill civic context. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

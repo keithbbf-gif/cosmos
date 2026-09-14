@@ -9,7 +9,7 @@ mix_secondary: C
 region: Saline River near Warren
 era: 1913
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -69,9 +69,14 @@ No shop. The boat’s name is *Gate City*, not a brand cousin. The temptation to
 
 Commerce on the river, Woodard says, diminished by the 1930s. Fishing and recreation took the channel. The *Gate City* is the date people use when they want the slack to have a funeral. The fifty-four are the career. A funeral that invents mourners is a different kind of wreck.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River showing Warren on the lower-middle reach">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline River showing Warren on the lower-middle reach">
 <figcaption>Figure 1. Warren’s reach of the Saline, schematic. Pack graphic AS-MAP-02. Do not caption a generated steamer as the *Gate City*. The date is the still.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-red-river-steamboat-blessing.jpg" alt="Steamboat at a Red River landing, era of the Gate City trade" width="1280" height="650" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Steamboat at a Red River landing, era of the Gate City trade. Blessing’s Red River landing — commerce plate, not the October 1913 wreck photograph. Credit: S. T. Blessing, c. 1873; Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

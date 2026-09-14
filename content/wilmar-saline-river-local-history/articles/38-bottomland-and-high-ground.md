@@ -9,7 +9,7 @@ mix_secondary: D
 region: Drew County
 era: 1907–present
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -61,9 +61,14 @@ A shop on this ridge — glass front, 65 by 15, in the public interview — sits
 
 Do not let the metaphor run. The dividing ridge is a landform the 1907 paper could walk. It is not a sermon about two Americas. East water and west water are drainage. The people who worked both sides — enslaved field hands in 1860, tenants after, stave cutters, mill hands, the households that still cook in June — were not symbols. They were on the ground. The map is for locating them, not for replacing them.
 
-<figure>
-<img src="../assets/maps/drew-saline-ridge.svg" alt="Schematic cross-section of Drew County between Bayou Bartholomew and the Saline River">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/drew-saline-ridge.svg" alt="Schematic cross-section of Drew County between Bayou Bartholomew and the Saline River">
 <figcaption>Figure 1. Three parts, as the 1907 paper had them: Bartholomew bottoms, dividing ridge, Saline bottoms. Schematic, not a survey. Pack graphic AS-MAP-01. Acreages are souvenir-round; 828.66 square miles is Heady’s county.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-mo-ark-map-nara.jpg" alt="Historic map of Missouri and northeastern Arkansas bottomlands" width="1280" height="1691" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Historic map of Missouri and northeastern Arkansas bottomlands. Credit: U.S. National Archives / Wikimedia Commons. License: Public domain.</figcaption>
 </figure>
 
 ## Sources for this piece

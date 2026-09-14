@@ -9,7 +9,7 @@ mix_secondary: C
 region: Wilmar, Drew County
 era: 1893–1900
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -79,9 +79,14 @@ The record will also not say that incorporation made the town equal to the mill.
 
 A Ken Burns hour would film a docket, if the courthouse kept it. The voice-over is Teske’s date, then the 1900 count, then the list of what already existed: church, school, mill, stave mill, post office, Warren Branch. No fife. The temptation is to treat March 8 as a birthday. Birthdays are for people. Cities have filing dates. Wilmar’s is late, honest, and smaller than the whistle. That is enough.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Timeline ticks for Wilmar from land purchase through mill, college, and later census">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Timeline ticks for Wilmar from land purchase through mill, college, and later census">
 <figcaption>Figure 1. March 8, 1899, is a tick, not a birth. Pack graphic AS-TL-01.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-wpa-building-wilmar.jpg" alt="WPA-era public building in Wilmar, Drew County, Arkansas" width="1280" height="853" loading="lazy" decoding="async" />
+<figcaption>Figure 2. WPA-era public building in Wilmar, Drew County, Arkansas. Credit: U.S. Government work / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

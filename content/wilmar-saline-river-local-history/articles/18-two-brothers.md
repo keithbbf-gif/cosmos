@@ -8,7 +8,7 @@ mix: A
 region: Wilmar and Bradley County
 era: 1890–1892
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -76,9 +76,14 @@ The close is the names and the years.
 
 William Beavers, 1890. Henry Beavers, 1892. Teen brothers. William in Bradley County, in Heady; Henry two years later, in Teske’s pair. Each accused, in the record we have, of assaulting a white woman. The town went on to incorporate. Gates went on to cut. The June Dinner, if Teske’s nineteenth-century start holds, was already a fact in the same country. The record, such as it is, did not go on to give the brothers more than a clause. This series gives them an essay so the clause cannot be skipped.
 
-<figure>
-<img src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar dates; the Beavers years sit with the mill’s arrival">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/timelines/wilmar-arc.svg" alt="Schematic timeline of Wilmar dates; the Beavers years sit with the mill’s arrival">
 <figcaption>Figure 1. 1890 and 1892 belong on the same arc as the mill. Schematic only. Pack graphic AS-TL-01. No crime scene.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-cotton-pickers-pulaski-met.jpg" alt="Cotton field laborers in Arkansas, period photograph used as ledger still" width="1280" height="1629" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Cotton field laborers in Arkansas, period photograph used as ledger still. Not a lynching image. A field still for a county whose violence the record names without photographs. Credit: The Metropolitan Museum of Art / Wikimedia Commons. License: CC0 1.0.</figcaption>
 </figure>
 
 ## Sources for this piece

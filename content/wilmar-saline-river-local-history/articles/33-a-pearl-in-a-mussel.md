@@ -9,7 +9,7 @@ mix_secondary: D
 region: Saline River
 era: 1890s
 status: staged
-voice_check: human
+voice_check: edited
 author: BBF Editorial
 canonical_site: bbfur
 wp_type: post
@@ -63,9 +63,14 @@ Do not hang a pearl on a furniture tag. Do not write “hidden gem,” which thi
 
 A shop named for the river is not a pearl shop. This essay does not owe that sentence a close. The names are Davidson, Hinemon, Benton, Monticello, $30 to $250. That is the still. A generated nacre close-up is a catalog. A card with the price range is a documentary.
 
-<figure>
-<img src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from the Benton forks to the Ouachita mouth">
+<figure class="wilmar-figure">
+<img loading="lazy" decoding="async" src="../assets/maps/saline-four-forks.svg" alt="Schematic of the Saline from the Benton forks to the Ouachita mouth">
 <figcaption>Figure 1. “All sections of the river,” Woodard’s phrase, on a schematic that runs from Benton to Felsenthal. Pack graphic AS-MAP-02. No Drew County pearl is named in the sources used here.</figcaption>
+</figure>
+
+<figure class="wilmar-figure wilmar-figure--period">
+<img src="../assets/photos/wsr-freshwater-mussel.jpg" alt="Freshwater mussels grouped on a stream bottom" width="1280" height="960" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Freshwater mussels grouped on a stream bottom. European mussel group — species plate, not a Saline pearl harvest. Credit: H. Krisp / Wikimedia Commons. License: CC BY-SA 3.0.</figcaption>
 </figure>
 
 ## Sources for this piece
