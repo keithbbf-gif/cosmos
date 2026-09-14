@@ -1,16 +1,34 @@
 ---
-id: "10"
+id: 10
 slug: benson-1975-relaxation-response
 title: "Benson, 1975: A Medical Object Named Relaxation"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Herbert Benson’s 1975 relaxation-response book as a medical object — not a meditation prescription. Educational draft; no cleared portrait."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: portrait-pending
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--portrait wow-act-figure--portrait-pending">
+  <img
+    src="../../assets/_shared/portrait-pending.svg"
+    alt="Portrait placeholder — rights not cleared for Herbert Benson."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Herbert Benson</strong> (1935–2022) — <em>Portrait placeholder; rights not cleared.</em>
+    See <code>plates/herbert-benson/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
 
 William Morrow published Herbert Benson's *The Relaxation Response* in 1975, written with Miriam Z. Klipper. A Harvard-affiliated cardiologist put a name on a pattern he and colleagues had been measuring in people who practiced Transcendental Meditation and then in simpler, stripped techniques: decreased metabolism, blood pressure changes, a physiological counter to a "fight-or-flight" story Americans already knew from mid-century stress talk.
 

@@ -1,13 +1,17 @@
 ---
-id: "40"
+id: 40
 slug: how-to-read-a-mindfulness-works-headline
-title: "How to Read a \"Mindfulness Works\" Headline"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+title: How to Read a \"Mindfulness Works\" Headline
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "How to read a “mindfulness works” headline: sample, comparator, duration, and who paid — a reader tool, not medical advice."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

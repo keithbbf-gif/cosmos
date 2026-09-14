@@ -1,16 +1,34 @@
 ---
-id: "07"
+id: 07
 slug: american-zendo-after-1950
 title: "The American Zendo After 1950"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "American zendos after 1950: Suzuki, Watts, and the sitting rooms that shaped clinicians — without a portrait we have not cleared."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: portrait-pending
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--portrait wow-act-figure--portrait-pending">
+  <img
+    src="../../assets/_shared/portrait-pending.svg"
+    alt="Portrait placeholder — rights not cleared for Shunryu Suzuki."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Shunryu Suzuki</strong> (1904–1971) — <em>Portrait placeholder; rights not cleared.</em>
+    See <code>plates/shunryu-suzuki/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
 
 In 1962, Shunryu Suzuki and students established the San Francisco Zen Center. In 1970, Weatherhill published *Zen Mind, Beginner's Mind*, talks compiled with the help of Trudy Dixon and others. Those two dates are enough to locate a room that later clinicians walked through, sat in, or read on a couch and then cited as if a paperback were a transmission.
 

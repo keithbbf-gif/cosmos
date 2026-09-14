@@ -1,16 +1,34 @@
 ---
-id: "18"
+id: 18
 slug: hayes-before-the-1999-book
 title: "Hayes Before the 1999 Book"
-stage: "04-act-as-a-school"
-stage_name: "ACT as a school"
+stage: 04-act-as-a-school
+stage_name: ACT as a school
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Steven C. Hayes before the 1999 Guilford volume: two decades of papers, not an overnight brand. No portrait; living author."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--timeline">
+  <img
+    src="../../graphics/fig-03-act-naming-dates.svg"
+    alt="Sequence from 1980s comprehensive distancing through 1991 talk title, 1994 journal article, 1999 book, and 2005 society membership."
+    width="1200"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 3</strong> — How the name ACT entered the public record.
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 Steven C. Hayes is living as of last verification (2026-09-14). This essay uses only what he and his coauthors have put in public: papers, books, the ACBS pages that tell the lab's age. No health speculation. No origin-story cartoon.
 

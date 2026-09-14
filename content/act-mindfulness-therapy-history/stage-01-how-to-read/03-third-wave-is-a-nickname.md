@@ -1,13 +1,17 @@
 ---
-id: "03"
+id: 03
 slug: third-wave-is-a-nickname
 title: "Third Wave Is a Nickname"
-stage: "01-how-to-read"
-stage_name: "How to read"
+stage: 01-how-to-read
+stage_name: How to read
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Why “third wave” is a nickname, not geology — Hayes 2004, Hofmann 2008, and the family argument over CBT and ACT. Educational therapy history."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

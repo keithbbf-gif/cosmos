@@ -1,16 +1,34 @@
 ---
-id: "25"
+id: 25
 slug: kabat-zinn-1979
 title: "Kabat-Zinn, 1979"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Jon Kabat-Zinn and the 1979 Worcester stress-reduction clinic — a dated hospital program, not a meditation course for readers."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: map
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--map">
+  <img
+    src="../../graphics/fig-02-clinic-places-map.svg"
+    alt="Schematic map labeling Worcester, Barre, Reno, London, and Almería as places named in this essay series."
+    width="1200"
+    height="560"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 2</strong> — Places the essays name (schematic, not a travel map).
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 In September 1979, Jon Kabat-Zinn started what was first called the Stress Reduction and Relaxation Program at the University of Massachusetts Medical Center. It was later renamed the Stress Reduction Clinic, he wrote, to sound like other clinical services in the Department of Medicine. He is living as of last verification. This essay uses his 2011 *Contemporary Buddhism* article, later institutional pages, and the 1990 book — public objects. No health speculation.
 

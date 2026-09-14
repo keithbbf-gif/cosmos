@@ -1,13 +1,17 @@
 ---
-id: "27"
+id: 27
 slug: three-cognitive-therapists-wanted-a-cushion
 title: "Why Three Cognitive Therapists Wanted a Cushion"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Why Segal, Williams, and Teasdale wanted mindfulness in MBCT — relapse prevention history, not religion. Educational draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

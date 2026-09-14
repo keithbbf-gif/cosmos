@@ -1,13 +1,17 @@
 ---
-id: "30"
+id: 30
 slug: marlatt-and-mbrp
 title: "Marlatt and MBRP"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Alan Marlatt and mindfulness-based relapse prevention — adjacent program history without teaching either MBRP or relapse skills."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

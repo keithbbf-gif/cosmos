@@ -1,16 +1,34 @@
 ---
-id: "43"
+id: 43
 slug: what-we-opened
 title: "What We Opened"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Bibliography honesty list for the ACT and mindfulness history pack — what these forty-five drafts actually opened."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: timeline
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--timeline">
+  <img
+    src="../../graphics/fig-01-document-milestones.svg"
+    alt="Timeline of selected publications and programs from 1979 to 2009 in ACT and mindfulness-based therapy history."
+    width="1200"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 1</strong> — Selected document and program dates (not treatment-outcome claims).
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 This is the honesty list. `CITATIONS.md` is the shelf. This essay is the confession of what I actually opened, what I took from a society's own memory, and what I did not hold.
 

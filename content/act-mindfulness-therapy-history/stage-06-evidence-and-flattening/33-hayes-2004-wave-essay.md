@@ -1,16 +1,34 @@
 ---
-id: "33"
+id: 33
 slug: hayes-2004-wave-essay
 title: "Hayes 2004 and the Wave Essay"
-stage: "06-evidence-and-flattening"
-stage_name: "Evidence, institutions, flattening"
+stage: 06-evidence-and-flattening
+stage_name: Evidence, institutions, flattening
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Hayes 2004 Behavior Therapy “third wave” essay as a public nickname — geology metaphor meets the record. Educational draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: timeline
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--timeline">
+  <img
+    src="../../graphics/fig-01-document-milestones.svg"
+    alt="Timeline of selected publications and programs from 1979 to 2009 in ACT and mindfulness-based therapy history."
+    width="1200"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 1</strong> — Selected document and program dates (not treatment-outcome claims).
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 *Behavior Therapy* 35, no. 4 (2004) printed Steven C. Hayes, "Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies," pages 639–665. Draft 03 already called the nickname a nickname. This essay is the paper as a dated object: what it tried to do in a flagship behavior-therapy journal, and what escaped.
 

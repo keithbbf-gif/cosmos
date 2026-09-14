@@ -1,13 +1,17 @@
 ---
-id: "16"
+id: 16
 slug: relational-frame-theory-2001
 title: "Relational Frame Theory, 2001"
-stage: "03-behavioral-roots"
-stage_name: "Behavioral roots"
+stage: 03-behavioral-roots
+stage_name: Behavioral roots
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Relational frame theory, 2001: a research program behind ACT, not a personality quiz. Educational psychotherapy history draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

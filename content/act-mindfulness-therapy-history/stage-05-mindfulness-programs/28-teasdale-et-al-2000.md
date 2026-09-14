@@ -1,13 +1,17 @@
 ---
-id: "28"
+id: 28
 slug: teasdale-et-al-2000
 title: "Teasdale et al., 2000"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Teasdale, Segal, and Williams, 2000 JCCP trial: sample, follow-up, and episode split as historical facts — not enrollment advice."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

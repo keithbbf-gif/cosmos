@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="sf-title sf-desc">
+  <title id="sf-title">WOW Therapies  ACT and mindfulness-based therapy history (draft series)</title>
+  <desc id="sf-desc">Type-only featured template. No portrait or AI-generated face.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f7f2e8; }
+      .ink { fill: #1c1a17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5c564c; font-family: Georgia, serif; }
+      .accent { fill: #6b2d3e; }
+      .rule { stroke: #1c1a17; stroke-width: 1.2; fill: none; opacity: 0.35; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="630"/>
+  <rect x="0" y="0" width="1200" height="8" class="accent"/>
+  <text x="72" y="120" class="muted" font-size="14" letter-spacing="0.14em">WOW THERAPIES · EDUCATIONAL HISTORY</text>
+  <text x="72" y="200" class="ink" font-size="42" font-weight="bold">ACT &amp; mindfulness</text>
+  <text x="72" y="252" class="ink" font-size="42" font-weight="bold">therapy history</text>
+  <line x1="72" y1="290" x2="520" y2="290" class="rule"/>
+  <text x="72" y="340" class="muted" font-size="20">Draft essays  not treatment advice</text>
+  <text x="72" y="380" class="muted" font-size="16">Type plate · no likeness embedded</text>
+  <text x="72" y="560" class="muted" font-size="13">See content/act-mindfulness-therapy-history/RIGHTS.md</text>
+</svg>

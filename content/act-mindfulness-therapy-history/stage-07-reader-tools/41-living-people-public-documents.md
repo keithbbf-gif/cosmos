@@ -1,13 +1,17 @@
 ---
-id: "41"
+id: 41
 slug: living-people-public-documents
 title: "Living People, Public Documents"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Living ACT and mindfulness authors in public documents only — no gossip dressed as context. Educational ethics note."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

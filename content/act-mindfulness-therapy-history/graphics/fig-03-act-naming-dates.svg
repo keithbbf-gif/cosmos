@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="f3-title f3-desc">
+  <title id="f3-title">Fig. 3  How the name ACT entered the public record</title>
+  <desc id="f3-desc">Vertical sequence from comprehensive distancing in the 1980s through the 1991 talk title, 1994 journal article, 1999 Guilford book, and 2005 ACBS membership opening.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f7f2e8; }
+      .ink { fill: #1c1a17; font-family: Georgia, serif; }
+      .muted { fill: #5c564c; font-family: Georgia, serif; font-size: 12px; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .box { fill: #fff; stroke: #1c1a17; stroke-width: 1.2; }
+      .year { fill: #6b2d3e; font-weight: bold; font-size: 14px; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="480"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6b2d3e"/>
+  <text x="48" y="42" class="ink caps">Fig. 03</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Naming ACT in public</text>
+  <text x="48" y="98" class="muted">Lab nickname ’ talk ’ journal ’ book ’ society. Not a brand-origin myth.</text>
+
+  <rect x="120" y="140" width="960" height="56" class="box" rx="4"/>
+  <text x="140" y="168" class="year">1980s</text>
+  <text x="220" y="168" class="ink" font-size="15">Comprehensive distancing in the behavior-analytic lab</text>
+  <text x="220" y="186" class="muted">Pre-market name; see essay 15</text>
+
+  <rect x="120" y="210" width="960" height="56" class="box" rx="4"/>
+  <text x="140" y="238" class="year">1991</text>
+  <text x="220" y="238" class="ink" font-size="15">ABA talk title uses acceptance and commitment therapy</text>
+
+  <rect x="120" y="280" width="960" height="56" class="box" rx="4"/>
+  <text x="140" y="308" class="year">1994</text>
+  <text x="220" y="308" class="ink" font-size="15">Name in <tspan font-style="italic">The Behavior Analyst</tspan> (Hayes &amp; Wilson)</text>
+
+  <rect x="120" y="350" width="960" height="56" class="box" rx="4"/>
+  <text x="140" y="378" class="year">1999 · 2005</text>
+  <text x="280" y="378" class="ink" font-size="15">Guilford volume · ACBS membership opens (October 2005)</text>
+
+  <text x="48" y="450" class="muted" font-size="11">Original diagram · WOW Therapies educational series</text>
+</svg>

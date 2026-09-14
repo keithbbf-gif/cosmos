@@ -1,13 +1,17 @@
 ---
-id: "14"
+id: 14
 slug: rule-governed-behavior-1980s
 title: "Rule-Governed Behavior, 1980s"
-stage: "03-behavioral-roots"
-stage_name: "Behavioral roots"
+stage: 03-behavioral-roots
+stage_name: Behavioral roots
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Rule-governed behavior in 1980s ACT precursors: when following language saves a life and when it ruins one. Educational draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

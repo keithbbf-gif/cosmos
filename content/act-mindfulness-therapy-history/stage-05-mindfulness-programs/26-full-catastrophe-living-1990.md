@@ -1,13 +1,17 @@
 ---
-id: "26"
+id: 26
 slug: full-catastrophe-living-1990
 title: "Full Catastrophe Living, 1990"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Full Catastrophe Living, 1990: the public book that carried MBSR out of Worcester — a bibliographic object, not instruction."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

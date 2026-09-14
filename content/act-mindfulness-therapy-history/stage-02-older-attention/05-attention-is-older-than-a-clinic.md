@@ -1,16 +1,34 @@
 ---
-id: "05"
+id: 05
 slug: attention-is-older-than-a-clinic
 title: "Attention Is Older Than a Clinic"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Attention practices predate hospital mindfulness programs: a dated look at clinics, texts, and borrowed vocabulary. Not treatment advice."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: timeline
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--timeline">
+  <img
+    src="../../graphics/fig-01-document-milestones.svg"
+    alt="Timeline of selected publications and programs from 1979 to 2009 in ACT and mindfulness-based therapy history."
+    width="1200"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 1</strong> — Selected document and program dates (not treatment-outcome claims).
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 In September 1979, a molecular biologist turned hospital teacher opened an outpatient program in Worcester, Massachusetts, and eventually taught the English-speaking medical world to say *mindfulness* as if the word had been waiting in the corridor. The program was new. The sitting was not.
 

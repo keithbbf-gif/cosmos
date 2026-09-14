@@ -1,13 +1,17 @@
 ---
-id: "44"
+id: 44
 slug: map-to-the-sister-packs
 title: "Map to the Sister Packs"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Where to send readers who want Freud, Van Riper, or full Linehan — map to sister WOW Therapies and SLPWOW packs."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

@@ -144,6 +144,7 @@ def first_sentence(body: str) -> str:
     # skip educational note paragraph
     parts = body.split("\n\n", 1)
     rest = parts[1] if len(parts) > 1 else body
+    rest = re.sub(r"<figure\b.*?</figure>\s*", "", rest, flags=re.I | re.S)
     rest = re.sub(r"^#+\s+.*\n", "", rest).strip()
     m = re.search(r"([^.?!]+[.?!])", rest)
     return (m.group(1) if m else rest[:120]).strip()
@@ -227,6 +228,8 @@ def main() -> int:
         "CITATIONS.md",
         "PHOTO_NOTES.md",
         "PORTRAIT_SOURCES.md",
+        "RIGHTS.md",
+        "GRAPHICS_INDEX.md",
         "WP_IMPORT.md",
     ]
     for name in ops:

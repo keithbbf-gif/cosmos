@@ -12,7 +12,8 @@ Markdown essays with YAML front matter under `stage-*/`. Forty-five drafts.
 Ops files are **not** posts:
 
 `README.md`, `GUARDRAILS.md`, `STYLE_GUIDE.md`, `CITATIONS.md`,
-`PHOTO_NOTES.md`, `PORTRAIT_SOURCES.md`, `WP_IMPORT.md`, `MANIFEST.toml`.
+`PHOTO_NOTES.md`, `PORTRAIT_SOURCES.md`, `RIGHTS.md`, `GRAPHICS_INDEX.md`,
+`WP_IMPORT.md`, `MANIFEST.toml`.
 
 Import in waves (see `README.md` stages). Do not dump forty-five URLs onto a
 live sitemap in a week.
@@ -26,6 +27,9 @@ live sitemap in a week.
 | `stage` / `stage_name` | custom fields |
 | `status: draft` | **Draft** or **Pending review** on staging. Never `publish` on production. |
 | `claims_posture` | custom field. Internal. |
+| `meta_description` | Yoast / Rank Math meta description (do not rewrite to symptom CTAs) |
+| `featured_image` | Path under this pack; default is `assets/_shared/series-featured.svg` (type plate) |
+| `graphic_kind` | Internal: `essay`, `timeline`, `map`, `type`, `portrait-pending` |
 
 Suggested post type: `post`. Category: `Therapy History` (create once).
 Optional child category: `ACT & mindfulness history`. Do not file under

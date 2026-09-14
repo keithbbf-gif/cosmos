@@ -1,13 +1,17 @@
 ---
-id: "20"
+id: 20
 slug: strosahl-and-the-primary-care-door
 title: "Strosahl and the Primary-Care Door"
-stage: "04-act-as-a-school"
-stage_name: "ACT as a school"
+stage: 04-act-as-a-school
+stage_name: ACT as a school
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Kirk Strosahl and primary-care ACT dissemination — how a school left the university lab. Educational history; no portrait."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

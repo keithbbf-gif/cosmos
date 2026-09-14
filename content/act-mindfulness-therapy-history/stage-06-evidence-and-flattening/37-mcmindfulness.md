@@ -1,13 +1,17 @@
 ---
-id: "37"
+id: 37
 slug: mcmindfulness
 title: "McMindfulness"
-stage: "06-evidence-and-flattening"
-stage_name: "Evidence, institutions, flattening"
+stage: 06-evidence-and-flattening
+stage_name: Evidence, institutions, flattening
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "McMindfulness criticism: Purser, Loy, and corporate flattening of a hospital vocabulary — cultural history, not a boycott list."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

@@ -1,13 +1,17 @@
 ---
-id: "02"
+id: 02
 slug: how-to-read-a-therapy-history-claim
 title: "How to Read a Therapy-History Claim"
-stage: "01-how-to-read"
-stage_name: "How to read"
+stage: 01-how-to-read
+stage_name: How to read
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "How to read a therapy-history claim: trials as events, guidelines as committees, and why a mindfulness headline is not homework. Educational draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

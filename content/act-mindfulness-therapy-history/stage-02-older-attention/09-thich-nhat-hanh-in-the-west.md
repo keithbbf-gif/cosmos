@@ -1,16 +1,34 @@
 ---
-id: "09"
+id: 09
 slug: thich-nhat-hanh-in-the-west
 title: "Thich Nhat Hanh in the West"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Thích Nhất Hạnh in Western public life: engaged Buddhism as history, not a clinic script. Portrait placeholder; rights not cleared."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: portrait-pending
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--portrait wow-act-figure--portrait-pending">
+  <img
+    src="../../assets/_shared/portrait-pending.svg"
+    alt="Portrait placeholder — rights not cleared for Thích Nhất Hạnh."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Thích Nhất Hạnh</strong> (1926–2022) — <em>Portrait placeholder; rights not cleared.</em>
+    See <code>plates/thich-nhat-hanh/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
 
 Beacon Press published an English *The Miracle of Mindfulness* in 1975 (some catalogs, 1976), a slim book Thích Nhất Hạnh had written as a manual for social workers in wartime Vietnam and that a Western readership received as a gentle introduction to attention. The title did enormous later work. "Miracle" and "mindfulness" in the same breath is already a marketing problem a history series has to handle without sneering at a monk who was trying to keep people alive.
 

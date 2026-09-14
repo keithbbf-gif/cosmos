@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="f2-title f2-desc">
+  <title id="f2-title">Fig. 2  Schematic map of clinic and retreat places named in this series</title>
+  <desc id="f2-desc">Not a travel map. Five labeled points: Worcester Massachusetts, Barre Massachusetts, Reno Nevada, London England, and Almería Spain, connected as a teaching schematic.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f7f2e8; }
+      .ink { fill: #1c1a17; font-family: Georgia, serif; }
+      .muted { fill: #5c564c; font-family: Georgia, serif; font-size: 12px; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .dot { fill: #6b2d3e; }
+      .link { stroke: #8a8278; stroke-width: 1.5; fill: none; stroke-dasharray: 6 5; }
+    </style>
+  </defs>
+  <rect class="paper" width="1200" height="560"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6b2d3e"/>
+  <text x="48" y="42" class="ink caps">Fig. 02</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Places the essays name</text>
+  <text x="48" y="98" class="muted">Schematic only  not distances, not a retreat itinerary.</text>
+
+  <!-- stylized landmass hint -->
+  <path d="M 180 420 Q 280 360 420 380 T 720 400 T 1020 360 L 1020 480 L 180 480 Z" fill="#e8dcc8" opacity="0.5" stroke="#c4b8a8"/>
+
+  <line x1="320" y1="280" x2="520" y2="240" class="link"/>
+  <line x1="520" y1="240" x2="780" y2="300" class="link"/>
+  <line x1="780" y1="300" x2="920" y2="220" class="link"/>
+  <line x1="920" y1="220" x2="1020" y2="340" class="link"/>
+
+  <circle cx="320" cy="280" r="10" class="dot"/>
+  <text x="320" y="310" text-anchor="middle" class="ink" font-size="14" font-weight="bold">Worcester</text>
+  <text x="320" y="328" text-anchor="middle" class="muted">MBSR clinic (1979)</text>
+
+  <circle cx="520" cy="240" r="10" class="dot"/>
+  <text x="520" y="210" text-anchor="middle" class="ink" font-size="14" font-weight="bold">Barre</text>
+  <text x="520" y="228" text-anchor="middle" class="muted">IMS (1975 onward)</text>
+
+  <circle cx="780" cy="300" r="10" class="dot"/>
+  <text x="780" y="330" text-anchor="middle" class="ink" font-size="14" font-weight="bold">Reno</text>
+  <text x="780" y="348" text-anchor="middle" class="muted">ACT workshop economy</text>
+
+  <circle cx="920" cy="220" r="10" class="dot"/>
+  <text x="920" y="190" text-anchor="middle" class="ink" font-size="14" font-weight="bold">London</text>
+  <text x="920" y="208" text-anchor="middle" class="muted">MBCT trial authors</text>
+
+  <circle cx="1020" cy="340" r="10" class="dot"/>
+  <text x="1020" y="370" text-anchor="middle" class="ink" font-size="14" font-weight="bold">Almería</text>
+  <text x="1020" y="388" text-anchor="middle" class="muted">ACBS early meetings</text>
+
+  <text x="48" y="520" class="muted" font-size="11">Original diagram · WOW Therapies educational series</text>
+</svg>

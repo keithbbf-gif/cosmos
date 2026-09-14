@@ -1,13 +1,17 @@
 ---
-id: "32"
+id: 32
 slug: neighbors-fap-cft-compassion
 title: "Neighbors: FAP, CFT, and the Compassion Boom"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "FAP, CFT, and the compassion boom as neighboring rooms — not a merger into one third-wave brand. Educational history."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

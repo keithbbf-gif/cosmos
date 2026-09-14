@@ -1,13 +1,17 @@
 ---
-id: "29"
+id: 29
 slug: the-2002-mbct-book
 title: "The 2002 MBCT Book"
-stage: "05-mindfulness-programs"
-stage_name: "Mindfulness-based programs"
+stage: 05-mindfulness-programs
+stage_name: Mindfulness-based programs
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "The 2002 MBCT Guilford manual as an object the NHS could name — committee history, not a reader workbook."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

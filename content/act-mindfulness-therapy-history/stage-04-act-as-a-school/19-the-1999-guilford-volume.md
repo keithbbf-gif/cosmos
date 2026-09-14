@@ -1,13 +1,17 @@
 ---
-id: "19"
+id: 19
 slug: the-1999-guilford-volume
 title: "The 1999 Guilford Volume"
-stage: "04-act-as-a-school"
-stage_name: "ACT as a school"
+stage: 04-act-as-a-school
+stage_name: ACT as a school
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "The 1999 Guilford ACT book as an orderable hospital object — history of a manual, not a session script. Educational essay."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

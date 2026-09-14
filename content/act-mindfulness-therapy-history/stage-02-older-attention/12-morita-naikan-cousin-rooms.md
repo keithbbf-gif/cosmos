@@ -1,16 +1,34 @@
 ---
-id: "12"
+id: 12
 slug: morita-naikan-cousin-rooms
 title: "Morita, Naikan, and the Cousin Rooms"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Morita therapy, Naikan, and cousin rooms to ACT talk — Japanese clinical history without a conversion story. Portrait not cleared."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: portrait-pending
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--portrait wow-act-figure--portrait-pending">
+  <img
+    src="../../assets/_shared/portrait-pending.svg"
+    alt="Portrait placeholder — rights not cleared for Shōma Morita."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Shōma Morita</strong> (1874–1938) — <em>Portrait placeholder; rights not cleared.</em>
+    See <code>plates/shoma-morita/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
 
 Shōma Morita (1874–1938) published *Shinkeishitsu no hontai to ryōhō* in 1921, after clinical work often dated from 1919. He described a treatment for a cluster of anxious, hypochondriacal, socially frightened presentations then gathered under *shinkeishitsu*: rest, then work, then a stance later summarized as *arugamama* — as-it-is-ness — rather than a war on symptoms. The sister pack already holds a figure essay. This page will not steal it.
 

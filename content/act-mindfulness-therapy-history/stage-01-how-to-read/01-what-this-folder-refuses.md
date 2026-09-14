@@ -1,16 +1,34 @@
 ---
-id: "01"
+id: 01
 slug: what-this-folder-refuses
 title: "What This Folder Refuses to Say"
-stage: "01-how-to-read"
-stage_name: "How to read"
+stage: 01-how-to-read
+stage_name: How to read
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "What this ACT and mindfulness history pack refuses to claim: no diagnosis, no worksheets, no borrowed cushions sold as treatment. Educational WOW Therapies draft."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: type
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--type">
+  <img
+    src="../../assets/_shared/type-plate-essay.svg"
+    alt="Type-only plate for a WOW Therapies ACT and mindfulness history essay; no portrait embedded."
+    width="960"
+    height="540"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACT &amp; mindfulness history</strong> — educational draft; no likeness. See <code>RIGHTS.md</code>.
+    <span class="figure-credit">Original type plate, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 I am going to waste the first page on what we will not do. If that sounds like a lawyer got to the manuscript first, good. The words *mindfulness* and *acceptance* have spent a generation sliding off research clinics and onto apps, and the slide is almost always greased with a symptom name.
 

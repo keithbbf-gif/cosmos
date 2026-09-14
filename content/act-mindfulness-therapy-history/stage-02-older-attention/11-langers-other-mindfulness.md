@@ -1,13 +1,17 @@
 ---
-id: "11"
+id: 11
 slug: langers-other-mindfulness
 title: "Langer's Other Mindfulness"
-stage: "02-older-attention"
-stage_name: "Older attention practices"
+stage: 02-older-attention
+stage_name: Older attention practices
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Ellen Langer’s 1989 social-psychology mindfulness: same English word, different job from hospital MBSR. Educational history essay."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

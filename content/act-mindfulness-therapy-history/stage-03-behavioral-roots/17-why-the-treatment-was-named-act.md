@@ -1,16 +1,34 @@
 ---
-id: "17"
+id: 17
 slug: why-the-treatment-was-named-act
 title: "Why the Treatment Was Named ACT"
-stage: "03-behavioral-roots"
-stage_name: "Behavioral roots"
+stage: 03-behavioral-roots
+stage_name: Behavioral roots
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Why the treatment was named ACT: 1991 talk, 1994 article, and the rejected synonyms — a naming chain, not brand myth."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--timeline">
+  <img
+    src="../../graphics/fig-03-act-naming-dates.svg"
+    alt="Sequence from 1980s comprehensive distancing through 1991 talk title, 1994 journal article, 1999 book, and 2005 society membership."
+    width="1200"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Fig. 3</strong> — How the name ACT entered the public record.
+    <span class="figure-credit">Original diagram, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 In May 1991, at the Association for Behavior Analysis in Atlanta, Wilson, Khorakiwala, and Hayes presented "Change in Acceptance and Commitment Therapy." Zettle's 2005 history and the ACBS "How old is ACT?" page both treat that title as the first documented use of the name in a talk. In 1994, Hayes and Wilson published "Acceptance and Commitment Therapy: Altering the Verbal Support for Experiential Avoidance" in *The Behavior Analyst*. The paper says, in so many words, that the approach had been known as comprehensive distancing and was renamed to avoid dissociative connotations. It also says the acronym is pronounced "act," not "A-C-T."
 

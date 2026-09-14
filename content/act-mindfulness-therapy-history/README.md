@@ -118,9 +118,12 @@ Human essay voice. `status: draft` on every file. The series is **staged** (seve
 
 ```text
 python3 content/act-mindfulness-therapy-history/tools/lint_claims.py
+python3 content/act-mindfulness-therapy-history/tools/check_graphics.py
 ```
 
 The linter checks count (≥40), frontmatter, word floor, uniqueness, the claims box, and a list of forbidden protocol and bot-voice patterns. It does not certify truth. It certifies that the fence is still standing in the places a machine can see.
+
+`check_graphics.py` validates `meta_description`, `featured_image` paths, and `<figure class="wow-act-figure">` embeds on graphic essays.
 
 `MANIFEST.toml` is generated from frontmatter. Do not hand-edit it; rerun the linter with `--write-manifest`.
 
@@ -133,5 +136,7 @@ The linter checks count (≥40), frontmatter, word floor, uniqueness, the claims
 | `CITATIONS.md` | Working bibliography |
 | `PHOTO_NOTES.md` | Image rules; never fake a face |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
+| `RIGHTS.md` | Pack-wide image rights policy |
+| `GRAPHICS_INDEX.md` | SVG timelines, type plates, embed map |
 | `WP_IMPORT.md` | Staging WordPress only |
 | `MANIFEST.toml` | Machine inventory |

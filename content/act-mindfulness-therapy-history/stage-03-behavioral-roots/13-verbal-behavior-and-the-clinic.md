@@ -1,13 +1,17 @@
 ---
-id: "13"
+id: 13
 slug: verbal-behavior-and-the-clinic
 title: "Verbal Behavior and the Clinic That Walked Past It"
-stage: "03-behavioral-roots"
-stage_name: "Behavioral roots"
+stage: 03-behavioral-roots
+stage_name: Behavioral roots
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Skinner’s 1957 Verbal Behavior and the clinic that walked past it toward cognitive models. Educational behavior-analysis history."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

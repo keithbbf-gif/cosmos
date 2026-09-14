@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="tp-title tp-desc">
+  <title id="tp-title">Essay type plate  ACT and mindfulness history series</title>
+  <desc id="tp-desc">Decorative type frame for essays without a cleared portrait.</desc>
+  <rect width="960" height="540" fill="#f3f0ea"/>
+  <rect x="32" y="32" width="896" height="476" fill="none" stroke="#8a8278" stroke-width="2"/>
+  <rect x="0" y="0" width="960" height="6" fill="#6b2d3e"/>
+  <text x="480" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1c1a17">ACT &amp; mindfulness history</text>
+  <text x="480" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5c564c">Educational essay · draft</text>
+  <text x="480" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8a8278">No portrait  see RIGHTS.md</text>
+</svg>

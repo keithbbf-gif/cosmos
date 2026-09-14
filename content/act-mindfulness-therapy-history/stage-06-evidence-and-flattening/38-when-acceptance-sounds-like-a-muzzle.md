@@ -1,13 +1,17 @@
 ---
-id: "38"
+id: 38
 slug: when-acceptance-sounds-like-a-muzzle
 title: "When Acceptance Sounds Like a Muzzle"
-stage: "06-evidence-and-flattening"
-stage_name: "Evidence, institutions, flattening"
+stage: 06-evidence-and-flattening
+stage_name: Evidence, institutions, flattening
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "When acceptance language sounds like a muzzle — justice critiques ACT must answer. Educational argument history."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

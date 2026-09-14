@@ -14,7 +14,7 @@ slug = "what-this-folder-refuses"
 title = "What This Folder Refuses to Say"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/01-what-this-folder-refuses.md"
-words = "1230"
+words = "1299"
 
 [[draft]]
 id = "02"
@@ -46,7 +46,7 @@ slug = "attention-is-older-than-a-clinic"
 title = "Attention Is Older Than a Clinic"
 stage = "02-older-attention"
 path = "stage-02-older-attention/05-attention-is-older-than-a-clinic.md"
-words = "942"
+words = "1010"
 
 [[draft]]
 id = "06"
@@ -62,7 +62,7 @@ slug = "american-zendo-after-1950"
 title = "The American Zendo After 1950"
 stage = "02-older-attention"
 path = "stage-02-older-attention/07-american-zendo-after-1950.md"
-words = "857"
+words = "923"
 
 [[draft]]
 id = "08"
@@ -70,7 +70,7 @@ slug = "ims-1975"
 title = "IMS, 1975"
 stage = "02-older-attention"
 path = "stage-02-older-attention/08-ims-1975.md"
-words = "879"
+words = "948"
 
 [[draft]]
 id = "09"
@@ -78,7 +78,7 @@ slug = "thich-nhat-hanh-in-the-west"
 title = "Thich Nhat Hanh in the West"
 stage = "02-older-attention"
 path = "stage-02-older-attention/09-thich-nhat-hanh-in-the-west.md"
-words = "805"
+words = "880"
 
 [[draft]]
 id = "10"
@@ -86,7 +86,7 @@ slug = "benson-1975-relaxation-response"
 title = "Benson, 1975: A Medical Object Named Relaxation"
 stage = "02-older-attention"
 path = "stage-02-older-attention/10-benson-1975-relaxation-response.md"
-words = "803"
+words = "869"
 
 [[draft]]
 id = "11"
@@ -102,7 +102,7 @@ slug = "morita-naikan-cousin-rooms"
 title = "Morita, Naikan, and the Cousin Rooms"
 stage = "02-older-attention"
 path = "stage-02-older-attention/12-morita-naikan-cousin-rooms.md"
-words = "816"
+words = "884"
 
 [[draft]]
 id = "13"
@@ -142,7 +142,7 @@ slug = "why-the-treatment-was-named-act"
 title = "Why the Treatment Was Named ACT"
 stage = "03-behavioral-roots"
 path = "stage-03-behavioral-roots/17-why-the-treatment-was-named-act.md"
-words = "816"
+words = "885"
 
 [[draft]]
 id = "18"
@@ -150,7 +150,7 @@ slug = "hayes-before-the-1999-book"
 title = "Hayes Before the 1999 Book"
 stage = "04-act-as-a-school"
 path = "stage-04-act-as-a-school/18-hayes-before-the-1999-book.md"
-words = "832"
+words = "901"
 
 [[draft]]
 id = "19"
@@ -182,7 +182,7 @@ slug = "acbs-2005"
 title = "ACBS, 2005"
 stage = "04-act-as-a-school"
 path = "stage-04-act-as-a-school/22-acbs-2005.md"
-words = "830"
+words = "899"
 
 [[draft]]
 id = "23"
@@ -206,7 +206,7 @@ slug = "kabat-zinn-1979"
 title = "Kabat-Zinn, 1979"
 stage = "05-mindfulness-programs"
 path = "stage-05-mindfulness-programs/25-kabat-zinn-1979.md"
-words = "818"
+words = "887"
 
 [[draft]]
 id = "26"
@@ -270,7 +270,7 @@ slug = "hayes-2004-wave-essay"
 title = "Hayes 2004 and the Wave Essay"
 stage = "06-evidence-and-flattening"
 path = "stage-06-evidence-and-flattening/33-hayes-2004-wave-essay.md"
-words = "807"
+words = "875"
 
 [[draft]]
 id = "34"
@@ -350,7 +350,7 @@ slug = "what-we-opened"
 title = "What We Opened"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/43-what-we-opened.md"
-words = "825"
+words = "893"
 
 [[draft]]
 id = "44"
@@ -366,4 +366,4 @@ slug = "portraits-we-will-not-fake"
 title = "Portraits We Will Not Fake"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/45-portraits-we-will-not-fake.md"
-words = "808"
+words = "877"

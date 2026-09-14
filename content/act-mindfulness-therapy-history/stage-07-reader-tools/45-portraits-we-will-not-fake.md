@@ -1,16 +1,34 @@
 ---
-id: "45"
+id: 45
 slug: portraits-we-will-not-fake
 title: "Portraits We Will Not Fake"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "Portraits we will not fake: type plates, title pages, and a refuse list for AI faces in therapy history thumbnails."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: type
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="wow-act-figure wow-act-figure--type">
+  <img
+    src="../../assets/_shared/type-plate-essay.svg"
+    alt="Type-only plate for a WOW Therapies ACT and mindfulness history essay; no portrait embedded."
+    width="960"
+    height="540"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>ACT &amp; mindfulness history</strong> — educational draft; no likeness. See <code>RIGHTS.md</code>.
+    <span class="figure-credit">Original type plate, WOW Therapies educational series.</span>
+  </figcaption>
+</figure>
 
 The last essay in a history pack is sometimes a gallery. This one is a refuse list.
 

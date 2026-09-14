@@ -1,13 +1,17 @@
 ---
-id: "42"
+id: 42
 slug: what-a-small-city-clinic-inherited
 title: "What a Small-City Clinic Inherited"
-stage: "07-reader-tools"
-stage_name: "Reader tools"
+stage: 07-reader-tools
+stage_name: Reader tools
 voice: essay
 claims_posture: educational-therapy-history
 audience: curious-reader
 status: draft
+meta_description: "What a small-city clinic inherits from third-wave vocabulary without a trained team — scope honesty for readers."
+featured_image: assets/_shared/series-featured.svg
+graphic_kind: essay
+last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.

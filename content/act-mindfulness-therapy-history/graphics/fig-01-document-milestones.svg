@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="f1-title f1-desc">
+  <title id="f1-title">Fig. 1  Selected document and program dates in ACT and mindfulness-based therapy history</title>
+  <desc id="f1-desc">Horizontal timeline from 1979 MBSR program opening through 2009 NICE depression guideline naming MBCT. Dates mark named publications, societies, or programsnot treatment outcomes.</desc>
+  <defs>
+    <style>
+      .paper { fill: #f7f2e8; }
+      .ink { fill: #1c1a17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5c564c; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .label { font-size: 13px; font-weight: bold; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: bold; fill: #6b2d3e; }
+      .band-mbsr { fill: #d8e0eb; }
+      .band-act { fill: #e9d4dc; }
+      .band-mbct { fill: #d4e3d0; }
+      .band-inst { fill: #e8dcc8; }
+      .rule { stroke: #1c1a17; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #1c1a17; stroke-width: 1; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1c1a17"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6b2d3e"/>
+  <text x="48" y="42" class="ink caps">Fig. 01</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Documents on a timeline</text>
+  <text x="48" y="98" class="muted note">Selected milestones  not exhaustive. Dates name programs, books, trials, or guidelines; they are not outcome claims.</text>
+  <line x1="48" y1="118" x2="1152" y2="118" class="rule" stroke-width="0.6" opacity="0.35"/>
+
+  <rect x="80" y="140" width="280" height="36" class="band-mbsr" rx="2"/>
+  <text x="90" y="162" class="muted caps" font-size="10">Hospital mindfulness programs</text>
+  <rect x="360" y="140" width="240" height="36" class="band-act" rx="2"/>
+  <text x="370" y="162" class="muted caps" font-size="10">ACT as a named school</text>
+  <rect x="600" y="140" width="220" height="36" class="band-mbct" rx="2"/>
+  <text x="610" y="162" class="muted caps" font-size="10">MBCT research line</text>
+  <rect x="820" y="140" width="300" height="36" class="band-inst" rx="2"/>
+  <text x="830" y="162" class="muted caps" font-size="10">Societies &amp; health-system objects</text>
+
+  <line x1="80" y1="280" x2="1120" y2="280" class="rule" marker-end="url(#arrow)"/>
+  <text x="80" y="268" class="muted caps">Time</text>
+
+  <!-- ticks 1979-2009 mapped 80-1120 -->
+  <line x1="120" y1="272" x2="120" y2="288" class="tick"/>
+  <text x="120" y="310" class="year" text-anchor="middle">1979</text>
+  <text x="120" y="332" class="muted note" text-anchor="middle">MBSR program</text>
+  <text x="120" y="348" class="muted note" text-anchor="middle">opens (Worcester)</text>
+
+  <line x1="280" y1="272" x2="280" y2="288" class="tick"/>
+  <text x="280" y="310" class="year" text-anchor="middle">1990</text>
+  <text x="280" y="332" class="muted note" text-anchor="middle">Full Catastrophe</text>
+  <text x="280" y="348" class="muted note" text-anchor="middle">Living (book)</text>
+
+  <line x1="420" y1="272" x2="420" y2="288" class="tick"/>
+  <text x="420" y="310" class="year" text-anchor="middle">1991</text>
+  <text x="420" y="332" class="muted note" text-anchor="middle">ACT title in</text>
+  <text x="420" y="348" class="muted note" text-anchor="middle">ABA talk</text>
+
+  <line x1="520" y1="272" x2="520" y2="288" class="tick"/>
+  <text x="520" y="310" class="year" text-anchor="middle">1994</text>
+  <text x="520" y="332" class="muted note" text-anchor="middle">ACT name in</text>
+  <text x="520" y="348" class="muted note" text-anchor="middle">Behavior Analyst</text>
+
+  <line x1="640" y1="272" x2="640" y2="288" class="tick"/>
+  <text x="640" y="310" class="year" text-anchor="middle">1999</text>
+  <text x="640" y="332" class="muted note" text-anchor="middle">Guilford ACT</text>
+  <text x="640" y="348" class="muted note" text-anchor="middle">volume</text>
+
+  <line x1="760" y1="272" x2="760" y2="288" class="tick"/>
+  <text x="760" y="310" class="year" text-anchor="middle">2000</text>
+  <text x="760" y="332" class="muted note" text-anchor="middle">MBCT trial</text>
+  <text x="760" y="348" class="muted note" text-anchor="middle">(JCCP)</text>
+
+  <line x1="880" y1="272" x2="880" y2="288" class="tick"/>
+  <text x="880" y="310" class="year" text-anchor="middle">2002</text>
+  <text x="880" y="332" class="muted note" text-anchor="middle">MBCT manual</text>
+  <text x="880" y="348" class="muted note" text-anchor="middle">(Guilford)</text>
+
+  <line x1="980" y1="272" x2="980" y2="288" class="tick"/>
+  <text x="980" y="310" class="year" text-anchor="middle">2005</text>
+  <text x="980" y="332" class="muted note" text-anchor="middle">ACBS</text>
+  <text x="980" y="348" class="muted note" text-anchor="middle">membership opens</text>
+
+  <line x1="1080" y1="272" x2="1080" y2="288" class="tick"/>
+  <text x="1080" y="310" class="year" text-anchor="middle">2009</text>
+  <text x="1080" y="332" class="muted note" text-anchor="middle">NICE CG90</text>
+  <text x="1080" y="348" class="muted note" text-anchor="middle">names MBCT</text>
+
+  <text x="48" y="470" class="muted note">Original diagram · WOW Therapies educational series · See CITATIONS.md for sources</text>
+</svg>
