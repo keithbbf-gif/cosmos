@@ -99,6 +99,26 @@ If you inherit a Medilodge-era binder from 2009, you may see F461 on a closet no
 
 If a vendor tells you the old tags are gone so the old problems are gone, they are selling. The CFR sentences are still there. The chairs are still there.
 
+## Linens and the furniture that fights them
+
+F584 still carries housekeeping and linens. A bedspread that cannot come off without moving the bed is a linen problem wearing a furniture problem. A drawer that eats washcloths because the box was never sealed is the same fight. EVS will tell you before nursing will, if you ask EVS.
+
+I have seen a “homelike” throw that infection control condemned in a week and a “institutional” bedspread that a resident actually liked because it was hers and it washed. The tag does not pick a print. It picks a condition: linens in good repair, a room that can be kept clean, personal belongings to the extent possible. Furniture that makes those three sentences impossible is an F584 failure even if the wood is pretty.
+
+## Dignity is a cousin, not a substitute
+
+Dignity tags are not F584 and they are not F917. They will still write a chair you cannot leave and a closet you cannot open. People collapse the numbers because the feeling is the same. Keep them separate on a drawing. Homelike is environment. Functional furniture is the packing list. Dignity is how a person is treated, including by objects.
+
+If a vendor says their suite is “dignity compliant,” ask which sentence. If they cannot point at the SOM, they are selling a feeling.
+
+## What a 2567 sentence actually sounds like
+
+I am not going to invent a deficiency. I will say the shape. The note is short. It names the room or the unit, the object, and the resident impact. “Wardrobe rod not accessible.” “No chair for visitor.” “Furniture stained / in disrepair.” “Personal items stored in a community drawer.” The mill that only reads the catalog page never sees that sentence until the house calls in a panic.
+
+The educational use of the tags is to write the sentence *before* the surveyor does. Not as a scare. As a cut list. A rod height on a drawing is cheaper than a plan of correction. A visitor chair in the leftover is cheaper than a marketing rewrite after the 2567 is public.
+
+Confirm the tag number in the SOM you are holding. I will keep saying that. The chair does not care what number it failed under.
+
 ## Sources
 
 - 42 CFR 483.10(i) (F584’s regulation).

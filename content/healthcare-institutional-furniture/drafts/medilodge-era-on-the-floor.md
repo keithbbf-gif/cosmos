@@ -96,6 +96,26 @@ Vienna Road is a real road. The building is a real building. The era was a real 
 
 If you stand in any house on that public list — or in a house like them — and you can still see the route, this series is doing its job. If you only see a cherry print, read the next drafts until the print becomes a box again.
 
+## The dock is the first room
+
+Before Vienna Road is a corridor it is a receiving door. A 121-bed house takes freight the way it takes lunch: on a schedule that does not care about your carton. The Medline-era dock I knew in houses like this was a corridor with a liftgate argument, a receiving clerk who already knew the glove truck, and a place to stage cartons that was also the place EVS parked a buffer.
+
+If you never saw the dock you never saw the package. A wardrobe that will not take the elevator on its back is not a design problem. It is a dock problem that became a design problem because no one asked. Michigan January on that concrete is a finish problem. A carton left in the rain because the truck came at shift change is a laminate-edge problem.
+
+I will not invent Montrose’s dock. I will say any Midwest SNF of that bed count has one, and the mill that ignored it wrote a pretty complaint.
+
+## What 121 beds means to a cut list
+
+121 is not a vibe. It is a run. Even a mixed floor — privates, doubles, a bariatric pair, a memory wing if the license held one — wants sameness or the warehouse cannot stock a pull. That is why the public project list and the Arkansas and Texas geography taught the same lesson: one nightstand, one vinyl grade, one rod height written down, attic stock if anyone was grown-up.
+
+I will not invent how Montrose split those 121. CMS files will tell you certified beds. They will not tell you the leftover in room 12. The educational use of the number is scale. A mill that treats 121 as twelve custom rooms will miss the truck. A mill that treats 121 as one JPEG will miss the lift.
+
+## The other names on the list
+
+Byrd Haven, Searcy. Chenal Heights. Green Acres, Paragould. GreenBrier Rehab. Little Rock Healthcare & Rehab. Delta Memorial, Dumas. Tuscany Village, Pearland. Baywind Village, League City. I am repeating the public list so no one thinks Montrose was a mascot. Different heat, different state books, same route: distributor face, mill wood, a bed from a device company, a curtain from a textile house.
+
+If you only remember one address, remember 9317 W. Vienna Road because it is the one this series is allowed to locate. If you only remember one lesson, remember that the era is a way of buying a room, not a review of an operator.
+
 ## Sources
 
 - MediLodge of Montrose public materials: 9317 W. Vienna Road, Montrose, MI 48457; MediLodge corporate, Washington, MI.

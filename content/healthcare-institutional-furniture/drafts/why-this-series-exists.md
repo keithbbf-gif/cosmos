@@ -73,6 +73,22 @@ If you came here from a store, slow down. If you came here from a standard, stay
 
 The furniture will still be there in the morning. The question is whether you can still see it.
 
+## What I will not invent
+
+A series like this dies the first time it fabricates a purchase order to sound like it was in the room. I was in rooms. I was not in every room, and I was not in the FDA docket as a clerk. So the rule is simple. If a number lives in a public document — 691 reports, 413 deaths, 80 square feet, 121 certified beds on Vienna Road — I will use the number and name the document. If a number lived in a mill ticket or a Medline cart, it stays there. I will not reconstruct a SKU from a JPEG I remember. I will not give Medilodge of Montrose a room mix I did not count. I will not put a dollar on a nightstand.
+
+Shop knowledge gets marked as shop knowledge. A `[CITE NEEDED]` is not decoration. It is the sentence I refused to fake.
+
+That refusal is the same ethic as a finish that fails closed: a visible gap is better than a pretty lie. Educational writing that invents a dock date is just a catalog with better verbs.
+
+## Why a mill is allowed to write this
+
+A geriatrician owns the body. A surveyor owns the tag. A mill owns the leftover: the strip of floor that is not bed, not toilet, not aisle, and still has to hold a life. I can tell you why a drawer box is sealed and why a pull has no place for a cuff. I can tell you why a punchout screenshot is not a specification. I cannot tell you who needs a rail. I will not.
+
+The permission is narrow and I am using all of it. Forty-two drafts is not a brand campaign. It is the number of objects and clauses that would not sit still in one pamphlet. If a later editor wants a product name, they can start a different folder.
+
+Photographs in this pack, if they ever get shot, will be empty rooms, agency diagrams, and shop wood. No resident’s face. A face turns a leftover into a testimonial, and a testimonial is a different job.
+
 ## Sources
 
 - FDA, *Hospital Bed System Dimensional and Assessment Guidance to Reduce Entrapment* (March 10, 2006). About 691 reports, January 1, 1985–January 1, 2006; 413 deaths; 120 injuries; 158 near-misses.

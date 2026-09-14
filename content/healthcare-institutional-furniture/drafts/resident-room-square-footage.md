@@ -95,6 +95,26 @@ Then I assign objects only to (3). If (3) is a sliver, the honest package is a s
 
 The number in the CFR is simple on purpose. The room is not. Furniture that ignores the leftover is how a legal area becomes an illegal life.
 
+## What 80 and 100 are for
+
+They are a density floor from a payment world that needed a number a surveyor could tape. They are not a dignity floor. They are not a bariatric floor. They are not a memory-care floor. They are the smallest rectangle the federal book will still call a bedroom.
+
+A chain can run one furniture package across Michigan, Arkansas, and Texas because 80 and 100 are the shared floor. The state book may take more. The body in the room may need more. The lift almost always needs more than the leftover the package assumed.
+
+When a brochure says “spacious private suites,” ask for the number. If the number is 100, it is the federal minimum wearing a marketing adjective. If the number is honestly larger, the furniture problem changes and I will be glad. I will still draw the lift first.
+
+## Bariatric rooms and the same floor
+
+The CFR’s area sentence does not grow when the resident does. A bariatric bed is wider. The working side wants more, not less. The chair is a different object. The toilet plan is a different object. If you drop a standard package into that room because the area table still says 80 or 100, you have met the floor and failed the body.
+
+I will not invent a federal bariatric square-footage number that is not in 483.90(e)(1)(ii). I will say the leftover math is merciless, and the honest package for those rooms is a different kit, not a plus sign on the same nightstand.
+
+## How I have seen people cheat the tape
+
+Closet counted as room. Toilet counted as room. A vestibule counted as room. I am not your SOM. Some of those arguments win and some die on appeal. The mill’s version of the cheat is simpler: drawing furniture as if the area were empty. A plan that meets 80 per person with two beds already placed is a plan. A plan that meets 80 on a blank rectangle and then adds beds is a wish.
+
+If you are marking a teaching file, tape the bed envelopes first. Write the leftover second. Then decide whether you still believe the catalog JPEG.
+
 ## Sources
 
 - 42 CFR 483.90(e)(1)(ii) (80 square feet per resident in multiples; 100 in singles).

@@ -16,18 +16,18 @@ Counted: 42 drafts.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
-| 1 | `why-this-series-exists` | Why this series exists | 1259 | `drafts/why-this-series-exists.md` |
+| 1 | `why-this-series-exists` | Why this series exists | 1617 | `drafts/why-this-series-exists.md` |
 | 2 | `what-institutional-furniture-is` | What institutional furniture is | 1519 | `drafts/what-institutional-furniture-is.md` |
-| 3 | `the-snf-room-as-a-product` | The SNF room as a product | 1424 | `drafts/the-snf-room-as-a-product.md` |
-| 4 | `from-ward-to-private-room` | From ward to private room | 1188 | `drafts/from-ward-to-private-room.md` |
-| 5 | `obra-1987-and-homelike` | OBRA 1987 and homelike | 1208 | `drafts/obra-1987-and-homelike.md` |
-| 6 | `cms-f584-f917-furniture-tags` | CMS F584 and F917, the furniture tags | 1217 | `drafts/cms-f584-f917-furniture-tags.md` |
-| 7 | `resident-room-square-footage` | Resident room square footage | 1227 | `drafts/resident-room-square-footage.md` |
-| 8 | `medline-as-a-channel` | Medline as a channel | 1328 | `drafts/medline-as-a-channel.md` |
-| 9 | `medilodge-era-on-the-floor` | Medilodge-era on the floor | 1176 | `drafts/medilodge-era-on-the-floor.md` |
-| 10 | `the-room-package` | The room package | 1081 | `drafts/the-room-package.md` |
-| 11 | `hospital-beds-are-not-residential` | Hospital beds are not residential | 1116 | `drafts/hospital-beds-are-not-residential.md` |
-| 12 | `seven-entrapment-zones` | Seven entrapment zones | 1150 | `drafts/seven-entrapment-zones.md` |
+| 3 | `the-snf-room-as-a-product` | The SNF room as a product | 1552 | `drafts/the-snf-room-as-a-product.md` |
+| 4 | `from-ward-to-private-room` | From ward to private room | 1656 | `drafts/from-ward-to-private-room.md` |
+| 5 | `obra-1987-and-homelike` | OBRA 1987 and homelike | 1599 | `drafts/obra-1987-and-homelike.md` |
+| 6 | `cms-f584-f917-furniture-tags` | CMS F584 and F917, the furniture tags | 1592 | `drafts/cms-f584-f917-furniture-tags.md` |
+| 7 | `resident-room-square-footage` | Resident room square footage | 1600 | `drafts/resident-room-square-footage.md` |
+| 8 | `medline-as-a-channel` | Medline as a channel | 1507 | `drafts/medline-as-a-channel.md` |
+| 9 | `medilodge-era-on-the-floor` | Medilodge-era on the floor | 1600 | `drafts/medilodge-era-on-the-floor.md` |
+| 10 | `the-room-package` | The room package | 1557 | `drafts/the-room-package.md` |
+| 11 | `hospital-beds-are-not-residential` | Hospital beds are not residential | 1611 | `drafts/hospital-beds-are-not-residential.md` |
+| 12 | `seven-entrapment-zones` | Seven entrapment zones | 1670 | `drafts/seven-entrapment-zones.md` |
 | 13 | `side-rails-restraint-and-geometry` | Side rails, restraint, and geometry | 996 | `drafts/side-rails-restraint-and-geometry.md` |
 | 14 | `low-beds-and-fall-culture` | Low beds and fall culture | 821 | `drafts/low-beds-and-fall-culture.md` |
 | 15 | `mattress-fit-is-a-gap` | Mattress fit is a gap | 813 | `drafts/mattress-fit-is-a-gap.md` |
@@ -52,12 +52,12 @@ Counted: 42 drafts.
 | 34 | `replacement-cycles-and-capex` | Replacement cycles and CapEx | 1840 | `drafts/replacement-cycles-and-capex.md` |
 | 35 | `used-and-refurbished` | Used and refurbished | 1939 | `drafts/used-and-refurbished.md` |
 | 36 | `how-to-read-a-spec-sheet` | How to read a spec sheet | 2087 | `drafts/how-to-read-a-spec-sheet.md` |
-| 37 | `what-i-would-ask-a-don` | What I would ask a DON | 627 | `drafts/what-i-would-ask-a-don.md` |
-| 38 | `a-walk-through-a-real-snf-room` | A walk through a real SNF room | 721 | `drafts/a-walk-through-a-real-snf-room.md` |
-| 39 | `headwalls-and-overbed-light` | Headwalls and overbed light | 504 | `drafts/headwalls-and-overbed-light.md` |
-| 40 | `medline-catalog-vs-the-mill` | The Medline catalog vs the mill | 734 | `drafts/medline-catalog-vs-the-mill.md` |
-| 41 | `common-myths` | Common myths | 531 | `drafts/common-myths.md` |
-| 42 | `what-this-series-is-not` | What this series is not | 646 | `drafts/what-this-series-is-not.md` |
+| 37 | `what-i-would-ask-a-don` | What I would ask a DON | 1677 | `drafts/what-i-would-ask-a-don.md` |
+| 38 | `a-walk-through-a-real-snf-room` | A walk through a real SNF room | 1792 | `drafts/a-walk-through-a-real-snf-room.md` |
+| 39 | `headwalls-and-overbed-light` | Headwalls and overbed light | 1852 | `drafts/headwalls-and-overbed-light.md` |
+| 40 | `medline-catalog-vs-the-mill` | The Medline catalog vs the mill | 1542 | `drafts/medline-catalog-vs-the-mill.md` |
+| 41 | `common-myths` | Common myths | 1600 | `drafts/common-myths.md` |
+| 42 | `what-this-series-is-not` | What this series is not | 1567 | `drafts/what-this-series-is-not.md` |
 
 ## Series files (not in word band)
 

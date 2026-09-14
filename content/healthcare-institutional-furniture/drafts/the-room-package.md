@@ -105,6 +105,34 @@ A package that cannot take a punch list is a product, not a room. Mills that sur
 
 If you are reading this as history, look at a floor and find the two-inch cut. That is the document.
 
+## Who is not in the package
+
+The toilet is not in the package. The grab bars are not in the package. The headwall is not in the package. The bed often pretends to be in the package and then arrives on a different truck. The family’s recliner is not in the package and will still win the leftover.
+
+A bid that says “complete room” and does not name those absences is selling a feeling. Write the absences on the tab. “Bed by others.” “Headwall by electrical.” “Curtain by textiles.” “Existing closet.” Then decide whether you still have a room.
+
+The mill’s half of a package is case goods and sometimes seating. When Bradley Brand was in a kit, that was usually the half. Owning the half does not own the gap. The sentence I want on the tab is who owns the interface. No sentence, no package.
+
+## The condemned pile is a specification
+
+Every house I walked had a courtyard or a basement or a locked shower with the last package in it. Cup rings. A missing pull. A chair with a split on the front edge. A bedside whose lock had been drilled. That pile is more honest than the JPEG. If you are replacing a floor, photograph the pile before you punch a page.
+
+Shop knowledge: the pile tells you the wipe, the staff hip, and the lock story. It does not tell you the leftover, because the leftover is in the room the pile came from. Walk both.
+
+## Attic stock is ethics
+
+A 120-bed run that buys exact count is a run that will orphan a damaged door. Extra pulls, a spare bedside, a hide of the vinyl — those are not luxury. They are how a floor stays kin when the elevator takes a bite. I will not invent a percentage. I will say a childish package screams at the mill for a door that the carton already confessed.
+
+The channel will try to treat attic stock as a cost to value-engineer. Value-engineer the crown first. Keep the pull.
+
+## Stain matching across vendors
+
+The bed’s plastic, the curtain’s mesh, the nightstand’s maple, the vinyl’s grain — four factories. “Match” is a meeting, not a chemistry. The honest package matches height and edge and then stops claiming kinship. A later replacement that is “close” in a double becomes a roommate story. Specify a finish system that will still exist, or accept the story.
+
+## When the package is a flood
+
+Pipe burst. A wing wet. Twenty nightstands and a promise of two weeks. This is the punchout’s honest hour. Copy the leftover, not the brochure. The old footprint may have been the thing that made the aisle a crash. Measure. Then punch. A flood is not permission to freeze a JPEG that never walked the room.
+
 ## Sources
 
 - 42 CFR 483.90(e) (what the room must contain).

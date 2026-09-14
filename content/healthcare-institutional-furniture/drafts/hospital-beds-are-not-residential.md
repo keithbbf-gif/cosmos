@@ -86,6 +86,32 @@ Write the low height, the high height, the capacity, the rail type, the mattress
 
 If that paragraph feels too clinical for a “homelike” package, you are beginning to understand the job.
 
+## The 1995 alert is the ancestor
+
+On August 23, 1995, FDA told the country that hospital bed side rails were killing people. Ferlo Todd, Ruhl, and Gross spent the next two years on the 1985–1995 reports and put the paper in the *American Journal of Public Health* in 1997. The 2006 guidance is that pile, grown: about 691 reports by January 1, 2006, 413 deaths, 120 injuries, 158 near-misses. I am repeating the numbers because this draft is the place a specifier still tries to treat a bed as a platform.
+
+A platform does not generate a safety alert. A machine with a rail and a moving deck does.
+
+If someone tells you the 1995 story was “hospital only,” they have not read the settings list. Nursing homes are in it. Private homes are in it. The quilt is not a classification.
+
+## Wooden panels are a costume
+
+The Medline-era brochure loved a wooden headboard on a metal frame. Families loved it. I understand why. A painted steel headboard says ward. A cherry panel says bedroom. The panel does not change the motor, the deck width, the rail geometry, or the plug. It can change Zone 6 and Zone 7 if it sits off the frame or pretends to be the board.
+
+The mill’s ethical job, when we were asked for that panel, was to write whether it joined the system. “Matches the nightstand” is a stain note. It is not a bed note. If the bed-maker will not bless the panel, the panel stays off. I have left money on the table for that sentence. I will leave it again.
+
+## Home-care beds in a SNF closet
+
+Houses inherit devices. A home-care bed comes in with an admission. A nursing-home bed goes out with a discharge and shows up on a Facebook listing. FDA already knew the traffic. The used-and-refurbished draft will sit with the listing. Here the typology is enough: if it articulates and takes a rail, it is in the 2006 conversation whether the room has a quilt or a cubicle curtain.
+
+Staff will sometimes strip a rail to “make it look like home.” That is a restraint conversation and a geometry conversation at once. It is not a decorating conversation. An incomplete device is not a house.
+
+## What “proper size and height” is asking
+
+42 CFR 483.90(e)(2) wants a bed of proper size and height. It does not give you the inches. Proper is the resident, the transfer, the fall program, the bariatric fact if there is one. A residential queen in a SNF double is not proper because a catalog called it homelike. A device that cannot go low when the fall program needs low is not proper because the JPEG showed a wood panel.
+
+Write the heights. Write the capacity. Write the mattress match. Then let the furniture live with the machine instead of pretending to replace it.
+
 ## Sources
 
 - FDA, *Hospital Bed System Dimensional and Assessment Guidance to Reduce Entrapment* (March 10, 2006): settings; system components; articulation; classification language.

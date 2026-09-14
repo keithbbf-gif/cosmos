@@ -105,6 +105,12 @@ A bariatric resident in a standard chair is not a style mismatch. A memory-care 
 
 The product is the room **as inhabited**. The later drafts will keep coming back to that. The package is how the channel talks. The inhabitant is how the surveyor and the family talk. You have to be bilingual.
 
+## The clock is on the packing list
+
+Appendix PP bothers to name a bedside clock. Vendors skip it because a clock is not a SKU they sell. Houses skip it because a television is already on the wall. A television is a program. A clock is how a person knows it is still night.
+
+I have walked new packages that had matching grain and no surface a clock could live on that was not the overbed. The overbed leaves. The clock should not. If I am still writing a teaching bid tab, the clock surface is a line under the bedside, not a hope. It is a cheap line. It is also how you can tell whether anyone in the meeting read the tag or only the JPEG.
+
 ## Sources
 
 - 42 CFR 483.90(e) (room size; bed; mattress; functional furniture; closet).

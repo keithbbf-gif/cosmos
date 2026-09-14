@@ -91,6 +91,34 @@ If you are staff or a vendor with permission: measure at flat and at head-up, ra
 
 This series is educational. It is not a bedside procedure.
 
+## Why 1 through 4 got numbers
+
+The 2006 document is blunt about its own limits. Most of the reports lived in openings the Workgroup could describe with a number, so zones 1–4 got recommended limits: 120 mm for 1–3, 60 mm for 4, with the angle condition in the table. Zones 5–7 were still killing people and still getting names. They did not get the same FDA dimensional line in that guidance.
+
+That is not a permission structure. It is a data structure. A split-rail gap (zone 5) is not “free” because it lacks a millimetre. A decorative headboard gap (zone 6) is not free because a mill built it. A mattress that has crept from a footboard (zone 7) is not free because the quilt covers the canyon.
+
+IEC 60601-2-38, as the 2006 text discusses it, had already numbered some of those cousins and was moving. The later 60601-2-52 is the lineage a specifier opens now. I will not fake the current table. I will say the furniture temptation did not wait for the table.
+
+## Compression is how a legal gap becomes a canyon
+
+You measure an unused mattress on a new deck and write 120 mm like a prayer. Then a body lies on the foam for a week. Then EVS flips the mattress. Then purchasing punches a replacement from a different page because the original cover ripped. The edge drops. Zone 3 arrives. The 2006 guidance already warned that replacement components change openings. A mill that only hears “36-inch mattress” has not heard the guidance.
+
+Shop knowledge: I do not trust a gap I measured on a virgin foam. I trust a gap someone whose job is assessment measured on the bed as inhabited, at flat and at head-up, rail up and intermediate. My tape is a reason to call that person. It is not their tool.
+
+## What I write in a title block near a bed
+
+If a shop drawing of ours is going into a room with a device, I want three sentences in the block:
+
+- Headboard / footboard panel does **not** join the bed system unless the bed-maker’s drawing says it does.
+- Decorative panel clearance is a decision; write the decision; do not hide it in a stain note.
+- Mattress and rail are by others; mill is not the zone assessor; daylight at install is a punch-list item for nursing, not a mill sign-off.
+
+Those sentences will not save a life by themselves. They will keep a mill from signing a system it cannot see.
+
+## Do not mix this file with a bunk probe
+
+I have written bunk-bed history in another folder in this tree. The CPSC probe and the HBSW tool are different laws, different bodies, different decades. The only shared sentence is that an opening is designed, even when nobody designed it on purpose. If you carry a bunk number into a SNF rail you are doing theater. If you carry a 120 mm rail number onto a child’s bunk you are doing the same theater backward.
+
 ## Sources
 
 - FDA, *Hospital Bed System Dimensional and Assessment Guidance to Reduce Entrapment* (March 10, 2006): seven zones; 120 mm / 60 mm recommendations; 691 / 413 / 120 / 158; HBSW methods.

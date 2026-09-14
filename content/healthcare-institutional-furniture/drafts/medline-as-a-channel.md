@@ -101,6 +101,14 @@ If the label says a distributor, you have a route. If it says a mill, you have a
 
 Do not call the piece “a Medline” the way people call a tissue “a Kleenex” unless you mean the route. The wood may be ours, or Indiana, or a polymer shop, or a later copy. The channel is the reason you cannot tell from the hallway.
 
+## Why gloves and nightstands share a binder
+
+Consumables taught the house to trust a truck. Furniture borrowed the truck. That is the whole channel in one habit. A DON already had an account number, a Tuesday visit, and a way to get a credit when a case of wipes was short. Extending that habit to a chair was rational. It was also how a capital object learned to be reordered like a glove.
+
+I do not resent the habit. I resent the amnesia. A glove that fails is a box. A wardrobe that fails is a resident who cannot hang a dress. The binder does not know the difference unless someone writes inches on the page.
+
+Medline’s public story — 1910 A.L. Mills in Chicago garments and hospital supply, 1966 Jim and Jon Mills in Evanston, later Northfield — is the story of a company that got very good at being in the building. Furniture rode that competence. A mill in Warren rode the ride. The educational job is to keep those three sentences from collapsing into one logo.
+
 ## Sources
 
 - Medline public history: 1910 A.L. Mills; 1966 Jim and Jon Mills, Evanston; later Northfield HQ; manufacturer-distributor model (company newsroom / Wikipedia as secondary).

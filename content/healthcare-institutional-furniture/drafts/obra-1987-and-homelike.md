@@ -95,6 +95,26 @@ Ask whether anyone moved a wall after 1987 or only bought objects. Objects are w
 
 Then sit in the chair and open the closet. The statute, if it is working, will be in your knees and your shoulder, not in the brochure.
 
+## Quality of life is not a bedspread
+
+OBRA’s quality-of-life language is why activities, dining, and dignity tags exist. Furniture people hear “quality of life” and reach for a quilt. A quilt is easy. A dining chair a person can leave is work. A wardrobe rod a seated woman can use is work. A clock she can see without her glasses is work.
+
+I have watched houses spend the reform money on a bedspread program and keep the stacking chair. The bedspread photographs. The stacking chair is still in Appendix PP’s uncomfortable-furniture sentence, whether anyone put a floral on it or not.
+
+The statute’s real furniture instruction, if you strip the industry marketing off it, is this: the room has to support a person who still has a life, not only a diagnosis. That is a chair, a closet, a surface for a belonging, and a bed that is a bed. It is not a collection name.
+
+## The 1990 temperature band
+
+Facilities first certified after October 1, 1990, live with 71 to 81 °F in the same homelike cluster. I put that here because 1987’s descendants include climate, and climate is a furniture fact. Vinyl at 80 degrees on a west wall is a slip. A metal pull at 71 degrees in a Michigan January is a cold the resident will mention before she mentions the cherry print.
+
+Homelike that ignores temperature is a finish meeting. Homelike that includes temperature is why I ask what the room actually is in August before I bless a seat cover.
+
+## Hotel is not the direction
+
+After 1987 a lot of owners heard “homelike” and bought hotel. A padded headboard, a running carpet, a sconce, a desk no one can use. A hotel is another institution. It has its own density, its own wipe, its own chair that looks soft and sits dead.
+
+CMS’s word is home, as close as possible, inside fiscal constraint. A hotel lobby in a SNF corridor is often just a new warehouse with better lamps. The Pioneer Network papers have been saying the traditional plant is not traditional in any domestic sense. I will not baptize a model. I will say a hotel chair that fails sit-to-stand has failed the statute twice: once as furniture, once as a costume of reform.
+
 ## Sources
 
 - Omnibus Budget Reconciliation Act of 1987, Pub. L. 100-203, nursing-home reform provisions (Nursing Home Reform Act).
