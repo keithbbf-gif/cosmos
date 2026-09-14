@@ -2,8 +2,8 @@
 title: "Clamps, Then Quiet"
 slug: clamps-then-quiet
 status: draft
-voice_check: human
-word_count: 1226
+voice_check: edited
+word_count: 1212
 dek: "A glue-up is a short play with a long silence after. The dry run is the rehearsal. The clamps are not how you fix a joint you did not cut."
 series: furniture-craft
 topic: shop
@@ -76,15 +76,9 @@ I have sent a smear to the finish room. The finish room sent it back.
 
 ## Hunting a clamp
 
-I hunted a clamp during hide’s open time and I lost a shoulder. Now the clamps are on the bench, on pads, in the dry run, before the glue. A hero session of four stretchers in a hot shop is how I get three good corners and one that was rushed. Two sessions. Ends, then stretchers.
+I hunted a clamp during hide’s open time and I lost a shoulder. Now the clamps are on the bench, on pads, in the dry run, before the glue. A hero session of four stretchers in a hot Arkansas shop is how I get three good corners and one that was rushed. Two sessions: ends, then stretchers.
 
-Hungry clamps bowed a panel and starved a joint. Another quarter-turn after the glue has started to grab is a bow. I wipe, I check diagonals, I walk. The quiet is the job.
-
-## Pipe stain, chips, a second pair
-
-Black marks from a pipe clamp on a wet rail: I tape the pipes or I use wood pads. A tenon hydraulicked out on a puddle in the mortise floor: I butter the cheeks, I leave the floor a film, not a lake.
-
-I ask for a second pair of hands on a dining base. Pride is a racked frame. Alone, I use a longer clock or I drawbore so I am not also the clamp. I do not stack other work on a setting panel. I have. The dent was a pad I did not deserve.
+Black marks from a pipe clamp on a wet rail taught me to tape the pipes or use wood pads. A tenon hydraulicked out on a puddle in the mortise floor looks possessed. It is glue with nowhere to go. I ask for a second pair of hands on a dining base. Pride is a racked frame.
 
 ## After the quiet
 
@@ -94,4 +88,6 @@ The clamps hang. The piece sits. I do not stack other work on it. I have stacked
 
 Clamps, then quiet. The sentence is the method. Everything else is a way of not rushing the sentence.
 
-A panel whose edges needed a clamp to close is a panel I recut. The clamp will not stay in the house. I sticker a glued panel so both faces see air. A panel left on a cold table overnight can cup to the table. Inside a drawer, the glue ridge comes off now, not in the finish room. A ridge is a cut waiting for a knuckle. I have sent a smear downstairs. Downstairs sent it back.
+A panel whose edges needed a clamp to close is a panel I recut. The clamp will not stay in the house. Inside a drawer, a glue ridge comes off now, not in the finish room. A ridge is a cut waiting for a knuckle. I have sent a smear downstairs. Downstairs sent it back.
+
+Sticker a glued panel so both faces see air. A panel left on a cold table overnight can cup to the table. Alone on a dining base I use a longer clock or I drawbore so I am not also the clamp. Hungry clamps starved a joint and bowed a panel in a glue-up I still remember. Another quarter-turn after the glue has started to grab is a bow, not a fix. Overnight is a habit I like for structural joints even when the sheet says an hour.

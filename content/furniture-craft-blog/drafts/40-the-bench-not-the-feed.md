@@ -2,8 +2,8 @@
 title: "The Bench, Not the Feed"
 slug: the-bench-not-the-feed
 status: draft
-voice_check: human
-word_count: 1215
+voice_check: edited
+word_count: 1205
 dek: "Maker culture, without the show: a shop that posts less and sharpens more, and a county that already had makers before the word got a camera."
 series: furniture-craft
 topic: culture
@@ -71,13 +71,9 @@ I have dropped details that photographed well and did not live well. A proud pin
 
 ## A detail I dropped
 
-Proud pins that caught a sleeve. A live edge that held bark and a future pest. A glaze that looked historic and looked dirty by week two. The feed liked them. The room did not. I dropped them. A better shop is not always a bigger shop. It is a sharper knife, a clearer drawing, a joint you stopped doing because it was theater.
+Proud pins that caught a sleeve. A live edge that held bark and a future pest. A glaze that looked historic and looked dirty by week two. The feed liked them. The room did not. I dropped them.
 
-I do not start a new person on a post. I start them on a face mark and a mortise wall. If they want a following, they can follow the work home. A well-jigged maple drawer that still runs in August is a higher object than a sloppy hand-cut drawer that was filmed. I have made both.
-
-## CNC is not a team
-
-I will nest a part and I will still shoot a shoulder. The customer is buying the shoulder. A mill town does not need to import a maker story. It has a hardwood story. We do not wear 1901 as a costume. We do not pretend a machine is a moral fall. We also do not sneer at a chisel from the knife room. The chisel squares the router mortise.
+I will nest a part and I will still shoot a shoulder. The customer is buying the shoulder, not which team cut it. A good photograph of a dry-fit or a winter breadboard line is a record. A flat-lay of unused tools is a costume. I know which one I want on the wall of a shop that still has to ship on Friday.
 
 ## Where the brand sits, softly
 
@@ -87,4 +83,8 @@ I would rather a reader finish this essay and go sharpen something than follow a
 
 The bench is not a metaphor for a life. It is a height, a set of holes, a place where a clamp can hang. I keep it clear enough to work and dirty enough to prove I did. That balance is the only culture I am interested in exporting. The rest can stay on the phone, face-down, in the office, until the clamps are on and the quiet has started.
 
-I would rather a reader sharpen something than follow anyone. The stone is closer than the feed. It does not care if you posted. It cares if the iron raises a wire edge. A good photograph of a dry-fit or a winter breadboard line is a record. A flat-lay of unused tools is a costume. I know which one I want on the wall of a shop that still has to ship on Friday.
+Warren and Wilmar do not need to import a maker story. They have a hardwood story already in the rooms. We do not wear 1901 as a costume. We also do not sneer at a chisel from the knife room. The chisel squares the router mortise the machine left proud.
+
+A better shop is not always a bigger shop. It is a sharper knife, a clearer drawing, a stack that is metered, a person who can say stop at the saw. It is also the joint you stopped doing because it was theater.
+
+I do not start a new person on a post. I start them on a face mark and a mortise wall. If they want a following, they can follow the work home. A well-jigged maple drawer that still runs in August is a higher object than a sloppy hand-cut drawer that was filmed. I have made both. I know which one I would put in a house I loved.

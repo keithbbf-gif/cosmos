@@ -2,8 +2,8 @@
 title: "Climbing Cut, Tearout"
 slug: climbing-cut-tearout
 status: draft
-voice_check: human
-word_count: 1244
+voice_check: edited
+word_count: 1203
 dek: "Grain direction is a map. Tearout is what happens when you ignore the map, or when the map contradicts itself in the middle of a cathedral."
 series: furniture-craft
 topic: materials
@@ -60,26 +60,24 @@ A rustic piece can keep a little pick. A formal dining top cannot. I decide at t
 
 Painted work can tolerate more. The crater is still a crater under paint if it is deep; it is a shadow. Fill, or recut.
 
-## A cathedral valley
+On a profile run I will stop and scrape a torn quirk before the next stick copies the pick. Tearout is contagious in a molder the same way it is on a jointer: one bad pass teaches the machine a habit.
 
-The jointer cratered the valley of a cathedral because I fed it like a board with one direction. A cathedral is two. I work from both ends, or I scrape the valley, or I take a lighter cut. I do not sand the crater into a dish and call it blended.
+## A smear, a walk, a crotch
 
-A climb cut on a router that was hogging, not skinning, walked. I was lucky. I climb only with a small bite and a stance I would show a new person. Two conventional passes are slower and I still have a shop.
+I planed squeeze-out while it was still a smear and drove it into the pores. The stain found it: a mineral streak along the joint, a tell I still remember. Let it gel, scrape, then plane.
 
-## Glue smear
+A climb that was hogging, not skinning, walked the router. I was lucky. Two conventional passes are slower; I still have a shop.
 
-I planed squeeze-out that was still a smear and I drove it into the pores. The stain found it: a mineral streak that followed the joint, a tell. Let it gel, scrape, then plane. The tell is how I remember.
+Figured wood not in the quote should not be in the glue-up. I have put it in the glue-up anyway. The planer ate a crotch the scraper would have saved if I had started there.
 
-Figured wood in the quote: the extra hour is in the quote. Figured wood not in the quote should not be in the glue-up. I have put it in the glue-up. The planer ate a crotch. The scraper would have saved it if I had started there.
+The jointer cratered a cathedral valley because I fed it like a board with one direction. I worked from both ends, scraped the middle, and I did not sand the crater into a dish and call it blended.
 
 ## Teaching it
 
-I hand a new person a board with an obvious grain dive and I let them joint it the wrong way once, on a scrap. Then the right way. The crater is a better teacher than a speech. I do not let them learn it on a customer’s top. The scrap is cheap. The speech is cheap. The top is not.
-
-Then I show the scraper. Then I show the raking light. Then I take the board away if they reach for 80 grit to “level” a crater. We fill or we recut or we live with a shallow pick that the finish will not turn into a cave.
+I hand a new person a scrap with an obvious grain dive and I let them joint it the wrong way once. The crater teaches better than a speech. Then the right way. Then the scraper. Then the raking light. Then I take the board away if they reach for 80 grit to “level” the hole. We fill, we recut, or we live with a shallow pick the finish will not turn into a cave. The customer’s top is not the classroom. The scrap is cheap. The speech is cheap. The top is not.
 
 Tearout is the wood’s punctuation. You can read it and change direction, or you can talk over it with a sander. I have done both. The rooms that still look like I meant them are the ones where I changed direction.
 
-I hand a new person a scrap with an obvious dive and I let them joint it the wrong way once. The crater teaches. Then the right way. Then the scraper. Then I take the board away if they reach for 80 grit to “level” the hole. We fill, we recut, or we live with a shallow pick the finish will not turn into a cave. The customer’s top is not the classroom. The scrap is cheap. The speech is cheap. The top is not.
+On a glued panel I scrape squeeze-out before the plane sees the joint. A knife that meets cured glue is a nick that will print on the next ten boards. I have paid for that nick in time at the stone. The stone is cheaper than pretending the nick is not there.
 
-Dull planer knives pound. The pounding is tearout with a drumbeat. Change knives. A helical head is kinder; it is not a pardon. A jointer fence and a board you refuse to flip because the cup sits nicer: you will get a nice cup and a torn face. I mark arrows on the edge. I trust the last cut more than the last theory.
+Dull planer knives pound. The pounding is tearout with a drumbeat. Change knives. A helical head is kinder; it is not a pardon for a board you should have scraped. I mark arrows on the edge and I trust the last cut more than the last theory. A jointer fence and a board you refuse to flip because the cup sits nicer will give you a nice cup and a torn face. I joint the face that lets me cut downhill first.

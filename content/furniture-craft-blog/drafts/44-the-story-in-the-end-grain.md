@@ -2,8 +2,8 @@
 title: "The Story in the End Grain"
 slug: the-story-in-the-end-grain
 status: draft
-voice_check: human
-word_count: 1258
+voice_check: edited
+word_count: 1213
 dek: "Rings, rays, a sawing choice you can read with a thumbnail: end grain is the one face that does not advertise, and the one that tells you if the board will stay."
 series: furniture-craft
 topic: materials
@@ -62,15 +62,11 @@ Warren’s hardwood years were, in part, an education in ends — flooring, furn
 
 ## Pith I left in a rail
 
-A tiny broken star in the end, a chair rail, a split along the pith after a dry week. I cut pith out of load parts now. I can leave it in a rustic slab if the slab is supported and the customer heard me. Juvenile wood twists after you have been kind. I cut it shorter.
-
-Wane on a show arris is a hole in the finish. A little wane on the back of a rail is yield. Live edge is wane as a design; then the rot and most of the bark go, and the support is real.
+A tiny broken star in the end, a chair rail, a split along the pith after a dry week. I cut pith out of load parts now.
 
 ## Two ends, one price conversation
 
-Why one oak table costs more than another: I show two ends, not a brand story. Rings standing or arching. The face can be a pleasure. The end is a fact. I stack keepers with the ends out so I am not surprised next week. A sealer on a mill end hides the rings; I cut a sliver. The sliver is cheaper than a top.
-
-A mixed-orientation panel argues with itself. Sometimes I want opposing cups. Sometimes I want a family of vertical rings. I look at every end in the glue-up, not just the pretty faces.
+Why one oak table costs more than another: I show two ends, not a brand story. Rings standing or arching. The face can be a pleasure. The end is a fact.
 
 ## Teaching it
 
@@ -80,6 +76,10 @@ Then I have them meter the same two boards. The orientation and the number toget
 
 I stack the keepers with the ends out, a little, so I can read them next week without a hunt. A stack that hides the ends is a stack that will surprise me. I am too old for that surprise. The face can be a pleasure. The end is a fact. I buy facts, and I let the pleasure follow if the fact allows it.
 
-When a customer wants to know why one oak table costs more than another, I show them two ends, not a brand story. The rings stand or they arch. The rest of the conversation gets easier. The heritage footnote can wait until they have seen the fence of rings and understood that someone at a mill, and then someone at a bench, chose that fence on purpose.
+When a customer wants to know why one oak table costs more than another, I show them two ends, not a brand story. The rings stand or they arch. The heritage footnote can wait until they have seen the fence of rings and understood that someone at a mill, and then someone at a bench, chose that fence on purpose.
+
+A mixed-orientation panel argues with itself. Sometimes I want opposing cups. Sometimes I want a family of vertical rings. I look at every end in the glue-up, not just the pretty faces. A sealer on a mill end hides the rings; I cut a sliver. The sliver is cheaper than a top that cups in the dining room.
 
 I still like a species certainty when the lot is mixed. A wrong wood in a glue-up is a finish surprise and a movement surprise. The end, a knife, the smell: usually enough. If it is not, I do not guess a table into a mystery. The mill asks what cuttings. I ask what joint, what width, what room. Same pile. Different question. The end answers first.
+
+Juvenile wood twists after you have been kind. I cut it into shorter parts. Wane on a show arris is a hole in the finish. A little wane on the back of a rail is yield I will take.

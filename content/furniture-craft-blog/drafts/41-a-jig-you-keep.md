@@ -2,8 +2,8 @@
 title: "A Jig You Keep"
 slug: a-jig-you-keep
 status: draft
-voice_check: human
-word_count: 1233
+voice_check: edited
+word_count: 1210
 dek: "Some jigs are scrap that die with the job. Some earn a nail on the wall. The difference is whether the second time is safer and truer than the first."
 series: furniture-craft
 topic: shop
@@ -62,15 +62,11 @@ Species, date, which way the face goes, which machine it lives on, a warning if 
 
 If two people use it, the note is not optional. I have cut a tenon from the wrong face because the note was in my head. The rail is still under a bench as a reminder, too short to be a rail.
 
-## A jig that required bravery
-
-If the operation is brave, the jig is unfinished. I will not keep a fence that asks a hand to be near a bit “just for this cut.” A crosscut sled with a hold-down, a tenoning jig that separates rail and fingers, a router surround that stops a dive — those stay. A weekend plywood fence for one bookcase can die with the check.
-
-I built a jig from cupped MDF and I copied the cup for a week. I flatten the stock I build from. I run a test on scrap and I measure the scrap. I do not measure the jig and believe.
-
 ## The short rail under the bench
 
 I cut a tenon from the wrong face because the note was in my head. The rail is too short to be a rail. The note is on the wood now: which face, which machine, fat in August. Two people use it; the note is not optional. The CNC fixture is the same religion. The wrong revision at speed is a beautiful waste.
+
+I built a jig from cupped MDF and copied the cup for a week before I noticed. I flatten the stock I build from. I run a test on scrap and I measure the scrap. If the operation still feels brave — a hand too close to a bit — the jig is unfinished, not the person.
 
 ## Mill culture, again
 
@@ -80,8 +76,10 @@ I do not need a brand of jig. I need the second door to match, and I need my han
 
 I run a hand down the tenoning jig’s fence before I use it. If I feel a nick that will print, I scrape it. The jig is a tool. It is allowed to need a minute. It is not allowed to need a prayer.
 
-A hundred hinge gains earn a jig. A single gain earns a knife. The wall of keepers stays small on purpose. A rumor that stays on the wall — a fence that is out, a runner that swells in August and no one wrote it down — is the most expensive scrap in the building. I check a keeper when I take it down. Plywood remembers a wet week. I do not.
+A hundred hinge gains earn a jig. A single gain earns a knife. People who jig everything have a shop of fences. People who jig nothing have a shop of almosts. I want the small wall and the pile of scrap that was allowed to die. The molder’s test stick is the same habit with a different name. The hang hole is how we store the belief.
 
-A shooting board, a donkey’s-ear, a coping sled, a saddle for a round leg: those stay if I use them three times a year and they stay true. A brass screw as a stop does not crush the way a wood stop does. The idea was not mine. The second door matching the first is mine. That is the only reason a jig earns a hang hole.
+A bad jig that stays on the wall is a rumor that keeps getting used. Those are the most expensive scraps in the building. I check a keeper when I take it down. Plywood remembers a wet week. A shooting board, a donkey’s-ear, a coping sled: they stay if I use them three times a year and they stay true.
 
-People who jig everything have a shop of fences. People who jig nothing have a shop of almosts. I want the small wall and the pile of scrap that was allowed to die. The molder’s test stick is the same habit with a different name. A furniture shop that came from mill country should already believe in a test stick. The hang hole is just how we store the belief.
+If the operation is brave, the jig is unfinished. I will not keep a fence that asks a hand to be near a bit “just for this cut.” A crosscut sled with a hold-down, a tenoning jig that separates rail and fingers, a router surround that stops a dive — those earn the hang hole.
+
+A weekend plywood fence for one bookcase can die with the check. I write the job number on it and I break it down when the check clears. Truth on scrap is cheaper than truth on a customer’s rail. The second door matching the first is the only reason a jig earns a nail on the wall.

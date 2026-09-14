@@ -2,8 +2,8 @@
 title: "Raising the Field"
 slug: raising-the-field
 status: draft
-voice_check: human
-word_count: 1237
+voice_check: edited
+word_count: 1202
 dek: "A raised panel is a bevel, a field, and a shoulder that has to die into a sticking without a step you can catch with a thumb."
 series: furniture-craft
 topic: millwork
@@ -62,24 +62,20 @@ Old doors have raises that are not 15 degrees and a 3/8 shoulder. I take a secti
 
 A furniture piece — a cupboard, a chest — can use a raise as a quote of millwork. It should still float. I have glued a raised panel in a chest because I was thinking like a box maker. The chest split at the stile. The field was pretty. The pretty is in a photo in a drawer I do not show.
 
-## End grain of the raise
-
-The top and bottom bevels are end grain. They drink stain. I size them. I have made a door with two dark ends, a frame of thirst. On the long-grain bevel, tearout is a pick in a highlight. Sharp knives, downhill if the panel has a direction.
-
-A second pass that did not meet the first left a ridge my thumb found. Same fence, same face down, or recut. A wide-belt after the raise will dish the field if you stay. I raise last, or I only kiss the field after.
+A second pass that did not meet the first left a ridge my thumb found before the sticking went on. Same fence, same face down, or recut. A wide-belt after the raise will dish the field if you stay too long. I raise last, or I only kiss the field afterward.
 
 ## A kitchen raise in a 1910 hall
 
-The catalog angle was not the house angle. I took a section, I had a knife ground. The hall would not have called it close. A glued raised panel in a chest, thinking like a box maker, split the stile. The field was pretty. The pretty is in a drawer I do not show. The panel still floats. One pin at the top center if I want the field to stay centered as it shrinks.
-
-Painted raises: even bevel or the paint shows a wobble as a shadow. Poplar or MDF without apology. Oak under a thin enamel is a map of pores.
+The catalog angle was not the house angle. I took a section, I had a knife ground. The hall would not have called it close. A glued raised panel in a chest, thinking like a box maker, split the stile. The field was pretty. The pretty is in a drawer I do not show.
 
 ## The thumb test
 
 Field, shoulder, bevel, sticking, after assembly. No step that catches. No daylight at the cope. A little winter talk in the groove. If the thumb is happy and the rattle is honest, the raise did its job. The light will do the rest, late in the day, when the bevel goes gold and the field stays quiet. That is the hour these doors were for. I try to be in the shop at that hour when I can. The fluorescent does not know what a raise is for.
 
-A paper-thin edge in a groove will crumble and rattle in a new way — the way of a broken panel. I leave meat. A hand-raised panel for one door that must match a nineteenth-century section is a day I will spend. A kitchen of twenty is a head I will keep sharp. The treaty is still the groove. The field is just the part the light likes.
+A hand-raised panel for one door that must match a nineteenth-century section is a day I will spend. A kitchen of twenty is a head I will keep sharp. I finish the panel before it goes in, especially the edges. A raw winter stripe is a blond I caused. A finished stripe is quieter. Space in the groove is still the treaty from the frame essay. This essay is only the field, the bevel, and the thumb that finds the ridge two passes did not meet.
 
-I finish the panel before it goes in, especially the edges. A raw winter stripe is a blond I caused. A finished stripe is quieter. Space in the groove is still the treaty from the frame essay. This essay is only the field, the bevel, and the thumb that finds the ridge the two passes did not meet.
+Painted raises need an even bevel or the paint shows a wobble as a shadow. Poplar or MDF without apology. Oak under a thin enamel is a map of pores. A bit that dwells burns the shoulder. I feed. I do not dwell.
 
-A bit that dwells burns the shoulder. I feed. I do not dwell. A small raise for a kitchen, a deeper raise for a period room: the section decides, not the catalog. The light on the bevel sold a hundred kitchens. The groove keeps the door a door.
+A paper-thin edge in a groove will crumble and rattle in a new way — the way of a broken panel. I leave meat at the edge. One pin at the top center if I want the field to stay centered as it shrinks. I still do it.
+
+The light on the bevel sold a hundred kitchen catalogs. The groove keeps the door a door. A small raise for a kitchen, a deeper raise for a period room: the section on the house drawing decides, not the catalog angle on the box. I do not sand the bevel with a flat pad. I have flattened a raise into a cone.

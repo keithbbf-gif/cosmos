@@ -2,8 +2,8 @@
 title: "The Elevation on the Shop Door"
 slug: the-elevation-on-the-shop-door
 status: draft
-voice_check: human
-word_count: 1235
+voice_check: edited
+word_count: 1221
 dek: "A commission starts as a pencil on a door or a sheet that has been taped and smudged. The drawing is the first joint. The room is the inspector."
 series: furniture-craft
 topic: shop
@@ -72,13 +72,9 @@ Named series — a Saline Creek something, a Lumberjack something — can be a s
 
 ## The stair that was also correct
 
-The bookcase matched the drawing and would not turn the landing. The drawing was right. The stair was right. They had not met. I measure the path now, not just the room. A table can travel in pieces. A built-in that cannot turn is a built-in I recut in the hall, once, and will not again.
+The bookcase matched the drawing and would not turn the landing. The drawing was right. The stair was right. They had not met. I measure the path now, not just the room. A built-in I recut in the hall, once, taught me that lesson.
 
-A CAD rail thinned to a candy bar: I thicken it on the door sheet and I send that. The pretty picture is not the load path. The shop drawing and the sales drawing must agree on the outside dimensions. An assembler used the pretty one. The pretty one was short.
-
-## Changes after parts
-
-A drawer they added after they were done adding: I date it, I initial, the money moves. A change in my head is a change I lose. CNC files are drawings. Almost the last revision is a part that is almost the job.
+A drawer added after they were done adding goes on the sheet with a date and initials. The money moves. A change kept in my head is a change I lose. CNC files are drawings too: almost the last revision is a part that is almost the job.
 
 I ask before I photograph a house. A commission is not content. The finish sample sits in their light overnight. The species sample is from this lot, not a phone photo of a prettier lift.
 
@@ -90,4 +86,6 @@ I have stood in a dining room with a top and a base and a client and a drawing, 
 
 The elevation comes off the door when the job ships. I fold it into the folder with the offcuts of veneer and the finish formula and the meter numbers. The next time they want a companion piece, the door will get a new sheet, but the old one will still be allowed to argue. The old one knows the stair.
 
-I draw the tenon on my sheet even if the client never sees it. If the series starting point — a known apron, a known joint — grows a drawer, I keep the joint and I change the box. I do not keep the name and thin the rail into a dowel. Delivery notes go on the same door, small hand: how it comes apart, whether the top is separate, whether the finish needs a week before a cloth. The small hand is how corners survive a landing.
+I draw the tenon on my shop sheet even if the client never sees it. If a known series grows a drawer, I keep the joint and I change the box. I do not keep the name and thin the rail into a dowel because the CAD pretty-picture got thin. Delivery notes go on the same door, small hand: how it comes apart, whether the top is separate, whether the finish needs a week before a cloth.
+
+A CAD rail thinned to a candy bar is a load path I thicken on the door before anyone machines it. The shop drawing and the sales drawing must agree on the outside dimensions. I have had them disagree. The assembler used the pretty one. The pretty one was short.

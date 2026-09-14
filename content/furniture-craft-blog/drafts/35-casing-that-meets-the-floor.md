@@ -2,8 +2,8 @@
 title: "Casing That Meets the Floor"
 slug: casing-that-meets-the-floor
 status: draft
-voice_check: human
-word_count: 1243
+voice_check: edited
+word_count: 1207
 dek: "A door opening is a set of reveals. The casing is how the wall admits a rectangle. The floor is never as level as the drawing."
 series: furniture-craft
 topic: millwork
@@ -25,6 +25,8 @@ verify:
 I set the head casing first so the two long legs have something to be about, and I mark the reveal on the jamb with a little gauge — a block, a story, not a wandering pencil. The reveal is a shadow line. If it grows and shrinks around the door, the door looks drunk. If it is even, the wall looks like a person meant it, even when the wall is not.
 
 Then the legs down. The floor is high on the left. Of course it is. I scribe the left leg or I sneak a plinth that can take a scribe, or I live with a sliver of shadow that the painter will want to caulk. Paint-grade can take a little caulk. Stain-grade wants wood.
+
+Door to stop, stop to jamb, jamb to casing: three lines people only notice when one is drunk. I mark the reveal with a block, not a wandering pencil. I shim a jamb plumb for the swing. I do not twist it to chase a twisted wall and then wonder why August binds the door.
 
 ## The door is a system
 
@@ -64,15 +66,7 @@ Nail holes: fill with a filler that takes stain, or with a wax, or with patience
 
 ## The left floor was high
 
-Of course it was. I scribed the left leg. A factory 90 at the bottom of the casing is for a factory floor. Paint-grade can take a little caulk at that meet. Stain-grade wants wood. I cut a return on the base so the end grain does not stare. Ten minutes. The room looks like a person was there.
-
-A plinth takes the vacuum hit and lets the casing die into something thicker than a miter that expires in a thick profile. I like plinths in houses that already understand them. I do not add rosettes to a quiet modern opening to “add craft.” The reveal is the craft.
-
-## Three lines
-
-Door to stop, stop to jamb, jamb to casing. People notice when one is drunk. I mark the reveal with a block, not a wandering pencil. I shim a jamb plumb for the swing; I do not twist it to chase a twisted wall and then wonder why August binds the door.
-
-A furniture door in a house opening is not a jewelry-box lid. I leave a stick and a note for the carpenter if we also built the cabinet. I have seen a walnut case with a builder colonial wrap because no one left a profile.
+Of course it was. I scribed the left leg and cut a return on the base so the end grain does not stare. Ten minutes. The room looks like a person was there.
 
 ## Why this belongs in a furniture pack
 
@@ -82,4 +76,8 @@ I run my hand down the casing as I leave the job. If a fingernail catches a prou
 
 Stain-grade nail holes are not gray dots. I fill with something that takes color, or I use a wax, or I take the time. I have left gray dots. They photograph. Putty and caulk will save a Friday paint-grade opening. They will not save a stain-grade one. I cut the wood as if the sun will find the splice, because it will, at the hour the hall light comes on.
 
-A backband builds a second shadow on a thin casing. I use it when the house already has the weight, or when a plain stick looks thin next to a heavy base. I do not use it as a dust shelf on a quiet modern door. The customer who buys a table will ask who can do the room. Leave the carpenter a profile and a reveal. The casing is furniture that agreed to be a line.
+The customer who buys a table will ask who can do the room. If the answer is “we can talk to the carpenter,” leave the carpenter a profile and a reveal. The casing is furniture that agreed to be a line.
+
+A backband builds a second shadow when a plain stick looks thin next to a heavy base. I use it when the house already has the weight, not as a dust shelf on a quiet modern door. A plinth takes the vacuum hit and lets the casing die into something thicker than a miter that expires in a thick profile.
+
+I do not add rosettes to a quiet modern opening to “add craft.” The reveal is the craft. A furniture door in a house opening is not a jewelry-box lid. The gap at the strike is an allowance for a house that will move. I cut returns on the base so end grain does not stare at the floor. Ten minutes. The room looks like a person was there.

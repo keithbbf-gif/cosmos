@@ -2,8 +2,8 @@
 title: "Before the Blade Turns"
 slug: before-the-blade-turns
 status: draft
-voice_check: human
-word_count: 1242
+voice_check: edited
+word_count: 1217
 dek: "Shop safety is not a poster. It is the pause, the push stick, the rag in water, and the culture that lets a person say stop without a speech."
 series: furniture-craft
 topic: shop
@@ -89,11 +89,7 @@ A clear path to the exit and to the extinguisher. A stack that will not fall on 
 
 I sweep because I am about to walk there, not because Friday exists.
 
-## A stick twenty feet away
-
-A push stick on a hook across the shop is a hand that will get invited. I keep two at the saw, made from scrap, not precious. When one gets cut, I make another. A riving knife that is off is a saw that does not start. Miter gauge and fence together is a kickback I do not run.
-
-Oil rags in a wad on the bench overnight: I do not. Metal can, water, or flat outside until they are dead. I have been the tired person who was told to stop. The feeling is ugly and then it is gratitude. A new person can say the fence looks wrong. No joke that makes them smaller.
+Oil rags in a wad on the bench overnight: I do not. Metal can, water, or flat outside until they are dead. I have been the tired person who was told to stop. The feeling is ugly and then it is gratitude, if you let it be.
 
 ## This county’s shops
 
@@ -102,3 +98,5 @@ Mill towns have scars. They also have men and women who went home every night be
 Before the blade turns, I look at the floor, the stick, the knife, the person at the outfeed if there is one, my own head. If any of those is a no, the switch stays down. The board can wait. The board is not a reason.
 
 This pack will not keep anyone safe. A habit might. The habit is the pause, the stick, the can, and the permission to stop. I can write those four. The rest is the manual, the law, and the person you work next to, who should be allowed to be right about a fence.
+
+A push stick on a hook twenty feet away is a hand that will get invited. I keep two at the saw, made from scrap, not precious. When one gets cut, I make another. A stick you are afraid to cut is a hand you will use instead.

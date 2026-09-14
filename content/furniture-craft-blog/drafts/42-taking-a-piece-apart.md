@@ -2,8 +2,8 @@
 title: "Taking a Piece Apart"
 slug: taking-a-piece-apart
 status: draft
-voice_check: human
-word_count: 1241
+voice_check: edited
+word_count: 1210
 dek: "Repair begins with a diagnosis, not a bottle of glue in a loose joint. The kindest shops build so the next person can get in."
 series: furniture-craft
 topic: repair
@@ -72,15 +72,7 @@ When the finish is a mystery coating I cannot reverse and the owner wants “ori
 
 When the sentiment is real and the structure is gone: I can make a new piece that quotes the old one, and I can keep a rail as a memory. I will not make a dangerous chair for a grandchild because the grandfather sat in it.
 
-## Glue in the kitchen drawer
-
-I do not add a third glue to a dirty joint. A clamp across old PVA and new yellow is how chairs become puzzles with no picture. Heat and hide if I can. Recut a rail if I must. Epoxy when the wood is punk and the chair will not be asked to come apart again — and I write that in the notes.
-
-A bound breadboard that split a top: I free the pins, I slot what was not slotted, I glue the split if it closes without a wave. I do not glue the split and bind the breadboard again. That is the same injury.
-
-## When I will not
-
-A cam-lock particleboard tomb, stripped for the third time: I can sleeve, and I can also say this was not a forever object. “Original” plus “like new” on a mystery coating: pick one. A dangerous chair for a grandchild because a grandfather sat in it: I can quote the chair in a new one and keep a rail as a memory. I will not send a racked chair back into a child’s room.
+“Original” plus “like new” on a mystery coating: pick one. I will sleeve a stripped cam hole once. I will also say when the box was never built to be opened twice.
 
 ## Arkansas pieces coming home
 
@@ -89,3 +81,7 @@ A lot of furniture in this state has been through heat and damp and a truck. The
 I send the chair back with a sentence about not standing on it, and a sentence about humidity if the house is a desert in winter, and no speech about heritage. The chair is the speech. If it does not rack, we did the job. If it racks, I did not take it far enough apart.
 
 The tape labels come off after the glue has sat through the quiet. I keep one photo of the bones, in the folder, in case they send the mate. The mate always comes later. The numbers on the tape are how I will remember which rail was the short one, the one that started the whole conversation.
+
+I do not add a third glue to a dirty joint. A clamp across old PVA and fresh yellow closes filth for a season. Heat and hide if I can. Recut a rail if I must. Epoxy when the wood is punk and the chair will not be asked to come apart again — and I write that in the notes for the next person.
+
+A bound breadboard that split a top: I free the pins, I slot what was not slotted, I glue the split if it closes without a wave. I do not glue the split and bind the breadboard again. That is the same injury wearing a new bandage. The chair is the speech. If it does not rack, we did the job.
