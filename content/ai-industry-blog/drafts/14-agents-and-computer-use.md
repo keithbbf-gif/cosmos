@@ -12,7 +12,6 @@ status: draft
 voice_check: human
 figures:
   - swimlane-agent-orchestration
-  - architecture-agent-tool-loop
   - flowchart-prompt-injection-defenses
 ---
 
@@ -27,13 +26,8 @@ That is the shift. For three years we made tools fit the model — JSON schemas,
 </figure>
 
 <figure class="blog-figure">
-  <img src="../assets/architecture-agent-tool-loop/diagram.svg" alt="Conceptual agent plan-act-observe loop with tools" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 2.</strong> Agents plan, call tools, observe results, and iterate until a final answer.</figcaption>
-</figure>
-
-<figure class="blog-figure">
   <img src="../assets/flowchart-prompt-injection-defenses/fig-02-prompt-injection.svg" alt="Layered prompt injection defenses from sanitization to human gates" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 3.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
+  <figcaption><strong>Figure 2.</strong> Untrusted text in context requires isolation, tool limits, policy, and human gates — not one filter.</figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

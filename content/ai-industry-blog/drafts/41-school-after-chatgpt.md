@@ -11,7 +11,6 @@ citations:
 status: draft
 voice_check: human
 figures:
-  - comparison-era-capability-2020-2023-2026
   - industry-milestones-2020-2026
 ---
 
@@ -21,13 +20,8 @@ Detectors arrived: GPTZero, Turnitin's AI score, OpenAI's own classifier (launch
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">
-  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 1.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
-</figure>
-
-<figure class="blog-figure">
   <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 2.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
+  <figcaption><strong>Figure 1.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

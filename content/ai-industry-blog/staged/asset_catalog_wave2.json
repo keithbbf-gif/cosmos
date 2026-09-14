@@ -1,8 +1,8 @@
 {
   "infographic-context-window-literacy": {
     "file": "infographic-context-window.svg",
-    "alt": "Schematic breakdown of context window budget: system, user, retrieval, and output",
-    "caption": "Advertised context is a budget across roles — not a single block of usable reasoning space."
+    "alt": "Illustrative horizontal bar showing how context window tokens split across system, user, retrieval, output, and unused headroom",
+    "caption": "One advertised limit is shared across system, user, retrieval, and output — headroom is not free quality. <em>Proportions illustrative.</em>"
   },
   "infographic-training-inference-cost": {
     "file": "infographic-training-inference.svg",

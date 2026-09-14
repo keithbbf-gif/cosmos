@@ -11,14 +11,8 @@
     "swimlane-agent-orchestration",
     "architecture-agent-tool-loop"
   ],
-  "04-diffusion-and-the-image-models.md": [
-    "diagram-multimodal-pipeline",
-    "comparison-era-capability-2020-2023-2026"
-  ],
-  "05-the-chatgpt-moment.md": [
-    "industry-milestones-2020-2026",
-    "comparison-era-capability-2020-2023-2026"
-  ],
+  "04-diffusion-and-the-image-models.md": ["diagram-multimodal-pipeline"],
+  "05-the-chatgpt-moment.md": ["industry-milestones-2020-2026"],
   "06-multimodal-models-arrive.md": [
     "diagram-multimodal-pipeline",
     "architecture-inference-stack"
@@ -29,8 +23,7 @@
   ],
   "08-rag-tools-and-early-agents.md": [
     "architecture-rag-pipeline",
-    "diagram-rag-vs-long-context",
-    "architecture-agent-tool-loop"
+    "diagram-rag-vs-long-context"
   ],
   "09-the-evaluation-crisis.md": [
     "eval-harness-pipeline",
@@ -43,34 +36,23 @@
   ],
   "11-regulation-eu-ai-act-us-nist.md": [
     "decision-tree-ai-compliance",
-    "regulation-eu-ai-act",
-    "regulation-us-federal-2023-2026"
+    "regulation-eu-ai-act"
   ],
-  "12-small-models-on-device.md": [
-    "topology-open-vs-closed-deployment",
-    "infographic-moe-routing"
-  ],
+  "12-small-models-on-device.md": ["topology-open-vs-closed-deployment"],
   "13-voice-and-realtime-multimodal.md": [
     "diagram-multimodal-pipeline",
     "architecture-inference-stack"
   ],
   "14-agents-and-computer-use.md": [
     "swimlane-agent-orchestration",
-    "architecture-agent-tool-loop",
     "flowchart-prompt-injection-defenses"
   ],
-  "15-synthetic-data-and-copyright.md": [
-    "infographic-data-flywheel",
-    "infographic-training-inference-cost"
-  ],
+  "15-synthetic-data-and-copyright.md": ["infographic-data-flywheel"],
   "16-enterprise-adoption-and-roi.md": [
-    "callout-inference-cost-drivers",
+    "infographic-training-inference-cost",
     "topology-open-vs-closed-deployment"
   ],
-  "17-deepfakes-and-media-authenticity.md": [
-    "diagram-multimodal-pipeline",
-    "flowchart-prompt-injection-defenses"
-  ],
+  "17-deepfakes-and-media-authenticity.md": ["diagram-multimodal-pipeline"],
   "18-good-ai-product-design-2026.md": [
     "comparison-era-capability-2020-2023-2026",
     "diagram-rag-vs-long-context"
@@ -79,10 +61,7 @@
     "comparison-era-capability-2020-2023-2026",
     "industry-milestones-2020-2026"
   ],
-  "20-instructgpt-the-assistant-gets-a-job.md": [
-    "architecture-fine-tuning-stages",
-    "infographic-data-flywheel"
-  ],
+  "20-instructgpt-the-assistant-gets-a-job.md": ["architecture-fine-tuning-stages"],
   "21-nvidia-and-the-gpu-year.md": [
     "compute-and-scaling-2020-2026",
     "infographic-training-inference-cost"
@@ -103,10 +82,7 @@
     "topology-open-vs-closed-deployment",
     "open-weights-epochs-2020-2026"
   ],
-  "26-the-openai-board-week.md": [
-    "industry-milestones-2020-2026",
-    "comparison-era-capability-2020-2023-2026"
-  ],
+  "26-the-openai-board-week.md": ["industry-milestones-2020-2026"],
   "27-anthropic-the-other-lab.md": [
     "topology-open-vs-closed-deployment",
     "flowchart-safety-evals-release"
@@ -125,29 +101,19 @@
   ],
   "31-token-prices-and-inference-economics.md": [
     "callout-inference-cost-drivers",
-    "infographic-training-inference-cost",
-    "architecture-inference-stack"
+    "infographic-training-inference-cost"
   ],
   "32-video-after-sora.md": [
     "diagram-multimodal-pipeline",
     "industry-milestones-2020-2026"
   ],
-  "33-alphafold-and-scientific-ai.md": [
-    "infographic-data-flywheel",
-    "comparison-era-capability-2020-2023-2026"
-  ],
+  "33-alphafold-and-scientific-ai.md": ["infographic-data-flywheel"],
   "34-the-open-tooling-stack.md": [
     "topology-open-vs-closed-deployment",
     "open-weights-epochs-2020-2026"
   ],
-  "35-lora-and-the-adapter-economy.md": [
-    "architecture-fine-tuning-stages",
-    "infographic-moe-routing"
-  ],
-  "36-labor-after-the-strikes.md": [
-    "comparison-era-capability-2020-2023-2026",
-    "infographic-data-flywheel"
-  ],
+  "35-lora-and-the-adapter-economy.md": ["architecture-fine-tuning-stages"],
+  "36-labor-after-the-strikes.md": ["industry-milestones-2020-2026"],
   "37-data-centers-power-and-water.md": [
     "infographic-training-inference-cost",
     "compute-and-scaling-2020-2026"
@@ -160,14 +126,8 @@
     "topology-open-vs-closed-deployment",
     "diagram-multimodal-pipeline"
   ],
-  "40-memory-and-the-privacy-hangover.md": [
-    "decision-tree-ai-compliance",
-    "flowchart-prompt-injection-defenses"
-  ],
-  "41-school-after-chatgpt.md": [
-    "comparison-era-capability-2020-2023-2026",
-    "industry-milestones-2020-2026"
-  ],
+  "40-memory-and-the-privacy-hangover.md": ["decision-tree-ai-compliance"],
+  "41-school-after-chatgpt.md": ["industry-milestones-2020-2026"],
   "42-agi-talk-and-product-roadmaps.md": [
     "comparison-era-capability-2020-2023-2026",
     "eval-benchmark-families"

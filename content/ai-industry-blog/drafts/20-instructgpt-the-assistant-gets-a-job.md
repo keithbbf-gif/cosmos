@@ -12,7 +12,6 @@ status: draft
 voice_check: human
 figures:
   - architecture-fine-tuning-stages
-  - infographic-data-flywheel
 ---
 
 On 4 March 2022, Ouyang et al. posted *Training language models to follow instructions with human feedback*. The result that should have been on every 2022 slide: labelers preferred a 1.3-billion-parameter InstructGPT model to 175-billion-parameter raw GPT-3 on the prompt distribution that actually arrived at the API. A hundred times fewer weights. Better manners. Slightly fewer toxic riffs, on their measurements. Still capable of "simple mistakes," which is the authors' phrase and still the right one.
@@ -23,11 +22,6 @@ OpenAI's companion blog said these models were now the default on the API. That 
 <figure class="blog-figure">
   <img src="../assets/architecture-fine-tuning-stages/diagram.svg" alt="Generic fine-tuning stages from base model to deployment" width="1200" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> Common post-training path: supervised fine-tuning, preferences, and adapters before release.</figcaption>
-</figure>
-
-<figure class="blog-figure">
-  <img src="../assets/infographic-data-flywheel/infographic-data-flywheel.svg" alt="Generic product data flywheel from deployment to next training mix" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 2.</strong> Usage can feed future models when consent, retention, and law allow — not automatically.</figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

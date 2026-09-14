@@ -107,6 +107,6 @@ Optional front-matter tags for discoverability:
 | `infographic-moe-routing` | `assets/.../infographic-moe.svg` | MoE router schematic |
 | `flowchart-prompt-injection-defenses` | `assets/.../fig-02-prompt-injection.svg` | Layered injection defenses |
 
-**Draft embeds:** all `drafts/01–42` include wave-1 + wave-2 figures via `scripts/embed_wave2_figures.py` (see `staged/wave2_draft_figure_plan.json`).
+**Draft embeds:** all `drafts/01–42` include wave-1 + wave-2 figures via `scripts/embed_wave2_figures.py` (see `staged/wave2_draft_figure_plan.json`). Assignments are **curated** (≤2 figures by default; era comparison used sparingly).
 
-**Style reference:** [`GRAPHICS_STYLE.md`](GRAPHICS_STYLE.md) · **Checklist:** [`staged/WAVE2_CHECKLIST.md`](staged/WAVE2_CHECKLIST.md)
+**Style reference:** [`GRAPHICS_STYLE.md`](GRAPHICS_STYLE.md) · **Checklist + quality bar:** [`staged/WAVE2_CHECKLIST.md`](staged/WAVE2_CHECKLIST.md)

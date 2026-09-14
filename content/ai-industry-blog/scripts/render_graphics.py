@@ -464,9 +464,21 @@ def three_column_comparison(
     columns: list[tuple[str, list[str]]],
     footnote: str,
     w: int = 1200,
-    h: int = 560,
+    h: int | None = None,
 ) -> str:
     """columns: (era label, bullet lines) — schematic capability framing, not benchmarks."""
+    col_w = (w - 56 * 2 - 48) // 3
+    wrap_w = int(col_w / 7)
+    max_by = 58
+    for _label, bullets in columns[:3]:
+        by = 58
+        for b in bullets[:5]:
+            lines = min(2, len(textwrap.wrap(b, width=wrap_w)))
+            by += 14 * lines + 8
+        max_by = max(max_by, by)
+    card_h = max_by + 16
+    if h is None:
+        h = 110 + card_h + 56
     parts = [svg_open(w, h, title)]
     parts.append(
         f'  <text x="56" y="40" class="t-title">{esc(title)}</text>\n'
@@ -479,17 +491,17 @@ def three_column_comparison(
         x = 56 + i * (col_w + 24)
         y = 110
         parts.append(
-            f'  <rect x="{x}" y="{y}" width="{col_w}" height="{h - 170}" rx="10" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
+            f'  <rect x="{x}" y="{y}" width="{col_w}" height="{card_h}" rx="10" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
             f'  <rect x="{x}" y="{y}" width="{col_w}" height="8" rx="10" fill="{tops[i % len(tops)]}"/>\n'
             f'  <text x="{x + col_w/2}" y="{y + 36}" text-anchor="middle" class="t-year">{esc(label)}</text>\n'
         )
         by = y + 58
-        for b in bullets[:6]:
-            for j, line in enumerate(textwrap.wrap(b, width=int(col_w / 7))[:2]):
+        for b in bullets[:5]:
+            for j, line in enumerate(textwrap.wrap(b, width=wrap_w)[:2]):
                 parts.append(
                     f'  <text x="{x + 20}" y="{by + j * 14}" class="t-body">• {esc(line)}</text>\n'
                 )
-            by += 28 if len(textwrap.wrap(b, width=int(col_w / 7))) > 1 else 22
+            by += 14 * min(2, len(textwrap.wrap(b, width=wrap_w))) + 8
     parts.append(f'  <text x="56" y="{h - 28}" class="t-small">{esc(footnote)}</text>\n')
     parts.append(svg_close())
     return "".join(parts)
@@ -553,15 +565,18 @@ def decision_tree_svg(
         f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
         f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
     )
+    edge_cmds: list[str] = []
     for i, j, lbl in edges:
         x1, y1 = nodes[i][2], nodes[i][3]
         x2, y2 = nodes[j][2], nodes[j][3]
-        parts.append(
-            f'  <line x1="{x1}" y1="{y1 + 20}" x2="{x2}" y2="{y2 - 20}" stroke="{ACCENT}" stroke-width="1.5" marker-end="url(#arrow)"/>\n'
+        edge_cmds.append(
+            f'  <line x1="{x1}" y1="{y1 + 22}" x2="{x2}" y2="{y2 - 22}" stroke="{ACCENT}" stroke-width="1.5" marker-end="url(#arrow)"/>\n'
         )
         if lbl:
             mx, my = (x1 + x2) / 2, (y1 + y2) / 2
-            parts.append(f'  <text x="{mx}" y="{my}" text-anchor="middle" class="t-small">{esc(lbl)}</text>\n')
+            edge_cmds.append(
+                f'  <text x="{mx}" y="{my}" text-anchor="middle" class="t-small">{esc(lbl)}</text>\n'
+            )
     for label, kind, x, y in nodes:
         if kind == "diamond":
             parts.append(
@@ -576,6 +591,7 @@ def decision_tree_svg(
                 f'  <rect x="{x - lw/2}" y="{y - 18}" width="{lw}" height="36" rx="6" fill="{CARD}" stroke="{LINE}" filter="url(#shadow)"/>\n'
                 f'  <text x="{x}" y="{y + 4}" text-anchor="middle" class="t-label">{esc(label)}</text>\n'
             )
+    parts.extend(edge_cmds)
     parts.append(f'  <text x="48" y="{h - 24}" class="t-small">{esc(footnote)}</text>\n')
     parts.append(svg_close())
     return "".join(parts)
@@ -608,32 +624,83 @@ def callout_plate(
     return "".join(parts)
 
 
+def context_window_budget_svg() -> str:
+    """Single horizontal bar: proportional token roles (schematic, not a real count)."""
+    w, h = 1000, 320
+    title = "Context window literacy"
+    subtitle = "One advertised limit, several competing uses"
+    segments = [
+        ("System + tools", 0.20, ACCENT),
+        ("User turn", 0.12, ACCENT_WARM),
+        ("Retrieved / upload", 0.30, ACCENT),
+        ("Model output", 0.18, ACCENT_WARM),
+        ("Unused headroom", 0.20, LINE),
+    ]
+    parts = [svg_open(w, h, title)]
+    parts.append(
+        f'  <text x="48" y="38" class="t-title">{esc(title)}</text>\n'
+        f'  <text x="48" y="62" class="t-sub">{esc(subtitle)}</text>\n'
+        f'  <line x1="48" y1="74" x2="{w - 48}" y2="74" stroke="{LINE}"/>\n'
+    )
+    bx, by, bw, bh = 48, 118, w - 96, 52
+    parts.append(
+        f'  <rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8" fill="{CARD}" stroke="{LINE}"/>\n'
+    )
+    x = bx
+    for label, frac, color in segments:
+        seg_w = bw * frac
+        parts.append(
+            f'  <rect x="{x:.1f}" y="{by}" width="{seg_w:.1f}" height="{bh}" fill="{color}" stroke="none"/>\n'
+        )
+        txt_fill = INK if color in (LINE, CARD, ACCENT_SOFT, "#EDE8E0") else "#FFFFFF"
+        parts.append(
+            f'  <text x="{x + seg_w/2:.1f}" y="{by + bh/2 + 4}" text-anchor="middle" font="600 11px system-ui,sans-serif" fill="{txt_fill}">{esc(label)}</text>\n'
+        )
+        x += seg_w
+    parts.append(
+        f'  <text x="48" y="210" class="t-body">Longer windows help only when you measure which slice the model actually uses (start, middle, end).</text>\n'
+        f'  <text x="48" y="228" class="t-body">Retrieval and caching often beat raw length for freshness and cost.</text>\n'
+        f'  <text x="48" y="{h - 24}" class="t-small">Proportions are illustrative — not a vendor spec or token count.</text>\n'
+    )
+    parts.append(svg_close())
+    return "".join(parts)
+
+
+def compliance_decision_tree_svg() -> str:
+    w, h = 960, 520
+    nodes = [
+        ("Plan AI feature", "box", 480, 108),
+        ("High-risk use case?", "diamond", 480, 198),
+        ("Sector-specific rules?", "diamond", 280, 298),
+        ("Standard documentation", "box", 680, 298),
+        ("Enhanced audit + testing", "box", 280, 398),
+        ("Ship with documented controls", "box", 480, 448),
+    ]
+    edges = [
+        (0, 1, ""),
+        (1, 2, "yes"),
+        (1, 3, "no"),
+        (2, 4, "yes"),
+        (2, 5, "no"),
+        (3, 5, ""),
+        (4, 5, ""),
+    ]
+    return decision_tree_svg(
+        "AI compliance decision tree (high level)",
+        "Illustrative gates — confirm with counsel and primary law",
+        nodes,
+        edges,
+        "Not legal advice; “high risk” definitions vary by jurisdiction.",
+        w=w,
+        h=h,
+    )
+
+
 def render_wave2() -> None:
     """Wave 2 infographics — new filenames; do not overwrite wave 1 assets."""
     write(
         ASSETS / "infographic-context-window-literacy" / "infographic-context-window.svg",
-        box_diagram(
-            "Context window literacy",
-            "What the advertised token budget actually buys in product design",
-            [
-                ("System + tools", "Policies, schemas, tool defs", 60, 130, 190, 72),
-                ("User message", "Latest turn", 290, 130, 170, 72),
-                ("Retrieved docs", "RAG chunks or uploads", 500, 110, 200, 90),
-                ("Model reasoning", "Hidden chain if enabled", 500, 240, 200, 72),
-                ("Output budget", "Answer + citations", 740, 130, 200, 72),
-                ("Remaining headroom", "Unused tokens ≠ free quality", 740, 260, 200, 72),
-            ],
-            [
-                (250, 166, 290, 166),
-                (460, 166, 500, 145),
-                (600, 200, 600, 240),
-                (700, 166, 740, 166),
-                (840, 202, 840, 260),
-            ],
-            "Schematic budget stack; real products interleave roles differently.",
-            w=1000,
-            h=420,
-        ),
+        context_window_budget_svg(),
     )
 
     write(
@@ -837,28 +904,7 @@ def render_wave2() -> None:
 
     write(
         ASSETS / "decision-tree-ai-compliance" / "decision-tree-compliance.svg",
-        decision_tree_svg(
-            "AI compliance decision tree (high level)",
-            "Illustrative gates — confirm with counsel and primary law",
-            [
-                ("New AI feature", "box", 500, 110),
-                ("High-risk use?", "diamond", 500, 200),
-                ("Sector rules?", "diamond", 320, 310),
-                ("Document + assess", "box", 680, 310),
-                ("Ship with controls", "box", 500, 430),
-                ("Enhanced audit trail", "box", 320, 430),
-            ],
-            [
-                (0, 1, ""),
-                (1, 2, "yes"),
-                (1, 3, "no"),
-                (2, 5, "yes"),
-                (2, 4, "no"),
-                (3, 4, ""),
-                (5, 4, ""),
-            ],
-            "Not legal advice; jurisdictions define “high risk” differently.",
-        ),
+        compliance_decision_tree_svg(),
     )
 
     write(

@@ -12,7 +12,6 @@ status: draft
 voice_check: human
 figures:
   - industry-milestones-2020-2026
-  - comparison-era-capability-2020-2023-2026
 ---
 
 On 30 November 2022, OpenAI published a blog post titled *Introducing ChatGPT* and a URL, chat.openai.com. The model was a sibling of InstructGPT, fine-tuned from a GPT-3.5-series checkpoint that had finished training earlier that year. The post said usage was free during a research preview. They wanted feedback.
@@ -25,11 +24,6 @@ The model was not a new species. The interface was the invention.
 <figure class="blog-figure">
   <img src="../assets/industry-milestones-2020-2026/timeline.svg" alt="Public AI industry milestones from 2020 to 2026" width="1200" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> Selected milestones in research, products, and policy. <em>Not exhaustive.</em></figcaption>
-</figure>
-
-<figure class="blog-figure">
-  <img src="../assets/comparison-era-capability-2020-2023-2026/fig-02-era-comparison.svg" alt="Side-by-side schematic of 2020, 2023, and 2026 capability framing" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 2.</strong> How buyers talked about “good enough” shifted by era — not interchangeable benchmark scores.</figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

@@ -29,6 +29,23 @@ def figure_html(slug: str, meta: dict, n: int) -> str:
 </figure>"""
 
 
+def validate_plan(plan: dict, catalog: dict) -> None:
+    era = "comparison-era-capability-2020-2023-2026"
+    era_count = sum(1 for slugs in plan.values() if era in slugs)
+    if era_count > 6:
+        raise SystemExit(f"Quality guard: {era} on {era_count} drafts (max 6)")
+    for draft, slugs in plan.items():
+        if len(slugs) > 3:
+            raise SystemExit(f"Quality guard: {draft} has {len(slugs)} figures (max 3)")
+        if len(slugs) > 2 and draft not in (
+            "09-the-evaluation-crisis.md",
+        ):
+            raise SystemExit(f"Quality guard: {draft} has {len(slugs)} figures (max 2 except eval deep dives)")
+        for s in slugs:
+            if s not in catalog:
+                raise SystemExit(f"Unknown slug {s} in {draft}")
+
+
 def embed_block(slugs: list[str], catalog: dict) -> str:
     parts = [BEGIN]
     for i, slug in enumerate(slugs, 1):
@@ -83,6 +100,7 @@ def process_draft(text: str, slugs: list[str], catalog: dict) -> str:
 def main() -> None:
     catalog = load_json(CATALOG)
     plan = load_json(PLAN)
+    validate_plan(plan, catalog)
     for draft_name, slugs in sorted(plan.items()):
         path = DRAFTS / draft_name
         if not path.exists():

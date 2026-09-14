@@ -13,7 +13,6 @@ status: draft
 voice_check: human
 figures:
   - topology-open-vs-closed-deployment
-  - infographic-moe-routing
 ---
 
 On 23 April 2024, Microsoft posted Phi-3. The 3.8B "mini" was the headline: enough quality, they said, to challenge models twice the size on a slice of academic and internal checks. The technical report (Abdin et al., 22 April 2024) is the part to read. The trick was not a new layer. It was data — heavily filtered, heavily synthesized, obsessively taught — plus the admission that a 3B model will never be a 70B model on the long tail.
@@ -26,11 +25,6 @@ Not because people stopped buying H100s. Because most tokens a human wants are c
 <figure class="blog-figure">
   <img src="../assets/topology-open-vs-closed-deployment/infographic-topology.svg" alt="Open-weight file deployment versus closed API topology" width="1200" loading="lazy" />
   <figcaption><strong>Figure 1.</strong> Open weights shift spend to your hardware; closed APIs shift it to vendor meters — controls can be shared.</figcaption>
-</figure>
-
-<figure class="blog-figure">
-  <img src="../assets/infographic-moe-routing/infographic-moe.svg" alt="Schematic mixture-of-experts router activating a subset of experts per token" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 2.</strong> MoE models activate a fraction of parameters per token; serving needs expert-aware infrastructure.</figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

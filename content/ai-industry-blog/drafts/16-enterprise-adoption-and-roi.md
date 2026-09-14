@@ -10,7 +10,7 @@ citations:
 status: draft
 voice_check: human
 figures:
-  - callout-inference-cost-drivers
+  - infographic-training-inference-cost
   - topology-open-vs-closed-deployment
 ---
 
@@ -22,8 +22,8 @@ A 2025 MIT-associated figure about most pilots showing no return made the trade-
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">
-  <img src="../assets/callout-inference-cost-drivers/callout-cost-drivers.svg" alt="Illustrative callout on inference cost drivers" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 1.</strong> Inference bills track tokens, width, utilization, and region more than parameter counts alone. <em>Illustrative.</em></figcaption>
+  <img src="../assets/infographic-training-inference-cost/infographic-training-inference.svg" alt="Schematic of training versus inference costs in a model lifecycle" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> Training capex and serving opex dominate different parts of the lifecycle. <em>Illustrative.</em></figcaption>
 </figure>
 
 <figure class="blog-figure">

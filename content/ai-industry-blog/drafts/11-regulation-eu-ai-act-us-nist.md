@@ -16,7 +16,6 @@ voice_check: human
 figures:
   - decision-tree-ai-compliance
   - regulation-eu-ai-act
-  - regulation-us-federal-2023-2026
 ---
 
 On 26 January 2023, NIST published the AI Risk Management Framework 1.0 (NIST AI 100-1). It is voluntary. It is also the closest thing the United States has had, through two administrations, to a shared vocabulary: map, measure, manage, govern. If your US "AI governance" deck does not mention it, the deck is cosplay.
@@ -32,11 +31,6 @@ On 1 August 2024, Regulation (EU) 2024/1689 — the AI Act — entered into forc
 <figure class="blog-figure">
   <img src="../assets/regulation-eu-ai-act/timeline.svg" alt="EU AI Act public implementation timeline" width="1200" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Staggered EU obligations as commonly summarized — verify against EUR-Lex.</figcaption>
-</figure>
-
-<figure class="blog-figure">
-  <img src="../assets/regulation-us-federal-2023-2026/timeline.svg" alt="Selected U.S. federal AI policy milestones" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 3.</strong> Selected federal milestones. <em>Not legal advice.</em></figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->

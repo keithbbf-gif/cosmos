@@ -23,8 +23,8 @@ The number got cheap to print. Using the middle of the window did not.
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">
-  <img src="../assets/infographic-context-window-literacy/infographic-context-window.svg" alt="Schematic breakdown of context window budget: system, user, retrieval, and output" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 1.</strong> Advertised context is a budget across roles — not a single block of usable reasoning space.</figcaption>
+  <img src="../assets/infographic-context-window-literacy/infographic-context-window.svg" alt="Illustrative horizontal bar showing how context window tokens split across system, user, retrieval, output, and unused headroom" width="1200" loading="lazy" />
+  <figcaption><strong>Figure 1.</strong> One advertised limit is shared across system, user, retrieval, and output — headroom is not free quality. <em>Proportions illustrative.</em></figcaption>
 </figure>
 
 <figure class="blog-figure">

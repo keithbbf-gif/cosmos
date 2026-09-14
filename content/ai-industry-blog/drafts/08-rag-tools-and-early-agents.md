@@ -13,7 +13,6 @@ voice_check: human
 figures:
   - architecture-rag-pipeline
   - diagram-rag-vs-long-context
-  - architecture-agent-tool-loop
 ---
 
 On 22 May 2020 — six days before the GPT-3 paper — Lewis, Perez, Piktus, and colleagues posted *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. The idea is older than the acronym: do not stuff the whole world into weights. At run time, fetch documents, then generate with those documents in view. Their RAG models combined a parametric seq2seq (BART) with a non-parametric Wikipedia index.
@@ -29,11 +28,6 @@ That paper is why your 2024 architecture slide still has a vector database on it
 <figure class="blog-figure">
   <img src="../assets/diagram-rag-vs-long-context/fig-02-rag-vs-context.svg" alt="When to use RAG versus long context versus hybrid designs" width="1200" loading="lazy" />
   <figcaption><strong>Figure 2.</strong> Long context and retrieval solve different freshness and citation problems — hybrids are common.</figcaption>
-</figure>
-
-<figure class="blog-figure">
-  <img src="../assets/architecture-agent-tool-loop/diagram.svg" alt="Conceptual agent plan-act-observe loop with tools" width="1200" loading="lazy" />
-  <figcaption><strong>Figure 3.</strong> Agents plan, call tools, observe results, and iterate until a final answer.</figcaption>
 </figure>
 
 <!-- ai-blog-figures:end -->
