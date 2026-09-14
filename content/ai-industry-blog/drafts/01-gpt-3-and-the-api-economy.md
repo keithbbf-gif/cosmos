@@ -9,7 +9,7 @@ citations:
   - "OAI_API2020 https://openai.com/index/openai-api/"
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 28 May 2020, Brown and thirty-plus co-authors put a 72-page paper on arXiv: *Language Models are Few-Shot Learners*. The headline number was 175 billion parameters. The useful claim sat one layer down. You could specify a task in English, optionally with a handful of examples, and get usable output without a fine-tune.

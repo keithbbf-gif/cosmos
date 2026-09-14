@@ -8,7 +8,7 @@ citations:
   - "GPT4O https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/"
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 13 May 2024, OpenAI's GPT-4o demo did a thing live video calls had not done: the model took interruption, changed tone, and talked about what the camera saw without a "please wait while I transcribe" beat you could drive a truck through. The blog post promised an advanced voice mode in alpha, Plus first. The internet promised that every app would feel like that by Christmas.

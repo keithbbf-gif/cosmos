@@ -10,7 +10,7 @@ citations:
   - "GEMMA https://blog.google/technology/developers/gemma-open-models/"
   - "LLAMA32 https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 23 April 2024, Microsoft posted Phi-3. The 3.8B "mini" was the headline: enough quality, they said, to challenge models twice the size on a slice of academic and internal checks. The technical report (Abdin et al., 22 April 2024) is the part to read. The trick was not a new layer. It was data — heavily filtered, heavily synthesized, obsessively taught — plus the admission that a 3B model will never be a 70B model on the long tail.

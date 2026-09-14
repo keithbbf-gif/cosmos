@@ -9,7 +9,7 @@ citations:
   - "QLORA https://arxiv.org/abs/2305.14314"
   - "TOUVRON2023B https://arxiv.org/abs/2307.09288"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 17 June 2021, Hu et al. posted *LoRA: Low-Rank Adaptation of Large Language Models*. Freeze the base. Train two small matrices whose product is a rank-r update to selected weights (usually attention projections). At serve time, merge them or keep them as a hot-swappable add-on. The paper's GPT-3 experiments were the point: you do not need to store a second 175B. You need a few megabytes and a recipe.

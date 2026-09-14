@@ -9,7 +9,7 @@ citations:
   - "YAO2022 https://arxiv.org/abs/2210.03629"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 12 September 2022, Simon Willison published a note that gave a messy family of bugs a name: prompt injection. Riley Goodside's public examples that same season showed a model treating a pasted string as a higher-priority instruction than the developer's system prompt. The pattern is older than the name (anyone who stuffed untrusted HTML into a page already knew the shape). The name is what let security people and LM people share a ticket.

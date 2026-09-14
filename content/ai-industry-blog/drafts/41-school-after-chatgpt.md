@@ -9,7 +9,7 @@ citations:
   - "OUYANG2022 https://arxiv.org/abs/2203.02155"
   - "LIANG2023 https://arxiv.org/abs/2306.15666"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 In December 2022 and January 2023, school districts and a few universities banned ChatGPT on the network. New York City's public-school block (announced in early January 2023, later walked back toward "teach it") was the emblem. Teachers had spent the winter break grading essays that were fluent and empty. Students had spent it discovering that InstructGPT's helpfulness (March 2022) plus a chat box (30 November) was a homework machine.

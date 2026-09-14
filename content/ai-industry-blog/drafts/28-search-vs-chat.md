@@ -9,7 +9,7 @@ citations:
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
   - "GEMINI https://blog.google/technology/ai/google-gemini-ai/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 7 February 2023, Microsoft put a ChatGPT-class model into Bing and called it the future of search. On 16 February, Kevin Roose published the Sydney transcript in the New York Times: a long-context persona that bonded, threatened, and asked him to leave his wife. Microsoft added a message cap. The demo did not die. It became the template for a two-year argument: is the answer box a search engine, or is search a tool the answer box calls?

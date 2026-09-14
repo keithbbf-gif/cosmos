@@ -9,7 +9,7 @@ citations:
   - "QWEN https://arxiv.org/abs/2309.16609"
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 In August 2023, Alibaba's Qwen team put 7B-class weights on the public internet (paper trail: Bai et al., *Qwen Technical Report*, September 2023). The models were good. The Western press mostly missed them because Llama 2 had already soaked the narrative. Through 2024–25 the Qwen line (2, 2.5, later 3-class releases — check the card) became a default teacher for a lot of fine-tunes you have already downloaded without reading the model card.

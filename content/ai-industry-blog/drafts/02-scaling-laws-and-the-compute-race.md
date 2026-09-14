@@ -9,7 +9,7 @@ citations:
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
   - "BROWN2020 https://arxiv.org/abs/2005.14165"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 23 January 2020, Kaplan, McCandlish, and eight colleagues posted a paper that reads like condensed-matter physics wearing an LM badge. Cross-entropy loss, they said, falls as a power law with model size, dataset size, and training compute. Some of the fits ran over seven orders of magnitude. Width and depth, inside a wide band, barely mattered.
@@ -38,7 +38,7 @@ Once a lab believes loss is a function of dollars, the scarce input is not an id
 
 Two side effects.
 
-Training runs became strategic secrets. Papers still listed parameter counts. They stopped listing the parts that would let you reproduce the loss: exact mix, exact decay, exact failure rate on the cluster. "We trained a model" turned into a press relation.
+Training runs became strategic secrets. Papers still listed parameter counts. They stopped listing the parts that would let you reproduce the loss: exact mix, exact decay, exact failure rate on the cluster. "We trained a model" turned into a press release.
 
 Second, the academic unit of progress — a new layer type — lost status. Mixture-of-experts, longer context, better data filters: those still moved the needle. A clever block that saved 5% FLOPs lost to a rival who had 3× the GPUs and a cleaner crawl. That is ugly. It is also what the 2020 fit predicted.
 

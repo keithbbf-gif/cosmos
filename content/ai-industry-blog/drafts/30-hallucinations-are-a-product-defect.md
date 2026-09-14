@@ -9,7 +9,7 @@ citations:
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
   - "LEWIS2020 https://arxiv.org/abs/2005.11401"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 The GPT-3 paper (28 May 2020) already said the model would invent plausible news. Human raters had trouble telling the samples from journalism in a controlled test. That was a research warning. On 30 November 2022 it became a homework-and-legal-brief warning. A New York lawyer filed ChatGPT-invented case citations in *Mata v. Avianca* (sanctions, June 2023). The model was not "lying." It was doing the only job it has: sampling a fluent continuation. The product had presented that continuation as a research assistant.
@@ -48,7 +48,7 @@ What has not worked: telling the model "be accurate" in the system prompt as you
 
 ## Calibration is the missing graph
 
-A model that is 70% accurate and *knows* when it is guessing is safer than a 85% model that is always sure. InstructGPT-class training often hurts calibration while it helps preference. Later work (the "verbalized confidence" papers, 2024–25) tried to get a number out of the model. The number is usually overconfident. If you show it to a user, you are showing theater unless you have a reliability diagram on *your* set.
+A model that is 70% accurate and *knows* when it is guessing is safer than an 85% model that is always sure. InstructGPT-class training often hurts calibration while it helps preference. Later work (the "verbalized confidence" papers, 2024–25) tried to get a number out of the model. The number is usually overconfident. If you show it to a user, you are showing theater unless you have a reliability diagram on *your* set.
 
 A better UX than a fake 0.92: "I found two passages; they disagree; here they are." That is RAG plus humility. It ships. It looks worse on Arena. Ship it anyway.
 

@@ -10,7 +10,7 @@ citations:
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 4 March 2022, Ouyang et al. posted the InstructGPT paper. The opening is the whole field in one line: making the model bigger does not make it follow a user's intent. A 1.3B model trained with human feedback beat 175B GPT-3 on labeler preference. Helpfulness went up. Toxicity, on their measurements, went down a bit. The model still made "simple mistakes."
@@ -37,7 +37,7 @@ Principles are not magic. They are a prompt with institutional backing. Who writ
 
 Before GPT-4's March 2023 launch, OpenAI ran an adversarial testing program and said so in the announcement: six months of iteration after ChatGPT. External red-teamers, domain experts, a list of harms (bio, cyber, scams, self-harm, election junk). The public write-ups are high-level, which is correct.
 
-A serious red team does not publish a cookbook. It publishes *categories* and *rates*: how often the model assists on a disallowed class, how often it refuses a allowed class, how the rate moves after a mitigation. NIST's AI RMF 1.0 (26 January 2023) is a voluntary language for that work — map, measure, manage, govern — not a test harness.
+A serious red team does not publish a cookbook. It publishes *categories* and *rates*: how often the model assists on a disallowed class, how often it refuses an allowed class, how the rate moves after a mitigation. NIST's AI RMF 1.0 (26 January 2023) is a voluntary language for that work — map, measure, manage, govern — not a test harness.
 
 Internal red teams get captured. They start to like the model. External programs (the UK AISI-style evals, US AISI while it existed in that form, academic centers, paid bug bounties) exist because capture is normal. After EO 14110 (30 October 2023) a lot of US "safety" process was tied to an order that EO 14179 (23 January 2025) revoked. The *practice* of pre-release testing did not vanish with the letterhead. The federal mandate did. See the regulation piece.
 

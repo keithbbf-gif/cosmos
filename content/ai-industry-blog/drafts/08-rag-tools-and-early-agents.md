@@ -9,7 +9,7 @@ citations:
   - "YAO2022 https://arxiv.org/abs/2210.03629"
   - "SCHICK2023 https://arxiv.org/abs/2302.04761"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 22 May 2020 — six days before the GPT-3 paper — Lewis, Perez, Piktus, and colleagues posted *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. The idea is older than the acronym: do not stuff the whole world into weights. At run time, fetch documents, then generate with those documents in view. Their RAG models combined a parametric seq2seq (BART) with a non-parametric Wikipedia index.

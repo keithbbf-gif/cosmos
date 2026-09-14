@@ -9,10 +9,10 @@ citations:
   - "AF3 https://www.nature.com/articles/s41586-024-07487-w"
   - "CASP14 https://www.predictioncenter.org/casp14/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
-On 30 November 2020, CASP14 announced that DeepMind's AlphaFold 2 had landed in a accuracy band structural biologists had treated as a decade away. The Nature paper (Jumper et al., 15 July 2021) and the subsequent dump of predicted structures (AlphaFold DB, with EMBL-EBI) are the artifacts. A protein's amino-acid sequence in, a 3D fold out, with a per-residue confidence (pLDDT) that honest users actually look at. This is the same 2020 as GPT-3. It is not the same industry, and pretending it is has wasted a lot of keynotes.
+On 30 November 2020, CASP14 announced that DeepMind's AlphaFold 2 had landed in an accuracy band structural biologists had treated as a decade away. The Nature paper (Jumper et al., 15 July 2021) and the subsequent dump of predicted structures (AlphaFold DB, with EMBL-EBI) are the artifacts. A protein's amino-acid sequence in, a 3D fold out, with a per-residue confidence (pLDDT) that honest users actually look at. This is the same 2020 as GPT-3. It is not the same industry, and pretending it is has wasted a lot of keynotes.
 
 AlphaFold 3 (Abramson et al., Nature, 8 May 2024) widened the object: complexes, nucleic acids, some ligands, a diffusion-ish module, a more political access model (a web server, not a full open dump of the new system on day one). Isomorphic Labs sat next to DeepMind as the drug-discovery corporate story. Chemists argued about pose quality. They were right to argue. A confident wrong dock is worse than no dock.
 

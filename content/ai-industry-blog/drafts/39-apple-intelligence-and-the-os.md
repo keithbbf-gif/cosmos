@@ -9,7 +9,7 @@ citations:
   - "PCC https://security.apple.com/blog/private-cloud-compute/"
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 10 June 2024, Apple's WWDC newsroom post introduced Apple Intelligence: writing tools, a notification summary, a more visual Siri, an image playground, and a split that mattered more than the demos. A small model on the device. A larger model in what they called Private Cloud Compute, on Apple silicon in a data center they claimed you could inspect more than a typical VM. Features shipped in slices through late 2024 and 2025. Some Siri promises slipped. The internet had a good time. The architecture still deserves a sober look.

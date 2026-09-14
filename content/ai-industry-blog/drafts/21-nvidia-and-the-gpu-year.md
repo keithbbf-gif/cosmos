@@ -9,7 +9,7 @@ citations:
   - "NVIDIA_H100 https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing"
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 22 March 2022, NVIDIA announced the Hopper architecture and the H100. Training-scale buyers did not get piles of them that spring. They got waitlists, and then, through 2023, a market where "we have H100 allocation" was a Series B slide. Kaplan's January 2020 power law had predicted that dollars of compute would keep buying loss. It had not predicted that one company's SKU would become the unit of strategy.

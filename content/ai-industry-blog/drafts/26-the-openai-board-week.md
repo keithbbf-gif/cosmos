@@ -9,7 +9,7 @@ citations:
   - "OAI_RETURN https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/"
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 17 November 2023, OpenAI's nonprofit board posted that Sam Altman would "depart as CEO" and leave the board. Mira Murati was interim CEO. The sentence that mattered: the board had concluded he was "not consistently candid," and it no longer had confidence in his leadership. Ilya Sutskever, Adam D'Angelo, Tasha McCauley, and Helen Toner were the directors named on that post. Greg Brockman was stripped of the chair and then, within hours, left too.

@@ -10,7 +10,7 @@ citations:
   - "LMSYS Arena blog https://www.lmsys.org/blog/2023-05-03-arena/"
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 3 May 2023, LMSYS posted *Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings*. The live experiment had started in the last week of April: two anonymous models, one prompt, a human vote, a chess-style rating. The first public table had Vicuna-13B at the top of a short list of open chat models. Closed giants were not yet the whole story. The method was.

@@ -10,7 +10,7 @@ citations:
   - "RAFFEL2020 https://arxiv.org/abs/1910.10683"
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 14 February 2019, OpenAI posted *Better Language Models and Their Implications* and held back the 1.5-billion-parameter GPT-2 checkpoint. They released a 124-million-parameter tease, then larger slices through the year, and the full model in November 2019. The stated reason was misuse: fluent propaganda, spam, impersonation. The stated method was "staged release." By 1 January 2020 that experiment was already a year old, and the field was already split about whether it had taught anyone anything.
@@ -27,7 +27,7 @@ Google, Facebook, and a long list of universities kept publishing checkpoints. H
 
 ## What staged release actually did
 
-It bought OpenAI a year of press and a reputation as the lab that thought about release. It did not stop the 1.5B file from existing elsewhere; similar models were trained. It did not produce a public, measured harm reduction. The 2019–20 debate ( Grover detectors, "AI-generated news" scare pieces, the first detection arms races) was mostly qualitative. That vacuum is why 2023–26 authenticity work (C2PA, SynthID) had to start from standards, not from the GPT-2 playbook.
+It bought OpenAI a year of press and a reputation as the lab that thought about release. It did not stop the 1.5B file from existing elsewhere; similar models were trained. It did not produce a public, measured harm reduction. The 2019–20 debate (Grover detectors, "AI-generated news" scare pieces, the first detection arms races) was mostly qualitative. That vacuum is why 2023–26 authenticity work (C2PA, SynthID) had to start from standards, not from the GPT-2 playbook.
 
 It also trained the press to treat a language-model release as a safety event. That habit helped later, when GPT-4's system card existed. It also licensed a style of announcement where "we didn't ship the file" stands in for "we measured the harm." Those are different sentences.
 

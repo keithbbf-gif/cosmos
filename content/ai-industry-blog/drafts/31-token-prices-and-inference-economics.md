@@ -9,7 +9,7 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 When GPT-4 launched on 14 March 2023, the 8K model was $0.03 per 1K input tokens and $0.06 per 1K output. That is $30 / $60 per million, in the units the industry later standardized on. GPT-3 davinci, in the 2020–21 era, had been sold per thousand in a way that made a chatty prompt a finance surprise. On 6 November 2023, DevDay, GPT-4 Turbo arrived cheaper and with 128K context. By 7 August 2025, OpenAI's GPT-5 developer post listed $1.25 / $10 per million for `gpt-5`, with mini and nano an order of magnitude down. The exact rows will move again. The direction did not.
@@ -22,7 +22,7 @@ This is not a price list. It is why 2024–26 applications exist that would have
 
 **Smaller models on the path.** Phi-3, Llama 3 8B, GPT-4o-mini, nano SKUs. Most tokens are cheap tokens. A router that sends "rewrite this sentence" to a frontier Opus-class model is a management failure.
 
-**Competition.** Gemini, Claude, Llama-on-Groq-or-Fireworks, DeepSeek's 2025 API prices. A monopoly meter does not fall this fast. A oligopoly meter does, especially after R1.
+**Competition.** Gemini, Claude, Llama-on-Groq-or-Fireworks, DeepSeek's 2025 API prices. A monopoly meter does not fall this fast. An oligopoly meter does, especially after R1.
 
 **Distillation.** Teacher logs become a student. The student is what you serve at $0.10/M. The legal and quality fights sit in the copyright and open-weights drafts.
 

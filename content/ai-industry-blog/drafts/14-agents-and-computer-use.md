@@ -9,7 +9,7 @@ citations:
   - "Anthropic research https://www.anthropic.com/research/developing-computer-use"
   - "OPERATOR https://openai.com/index/introducing-operator/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 22 October 2024, Anthropic announced that Claude 3.5 Sonnet could use a computer: look at a screenshot, move a cursor, click, type. The research note is plain. They trained on a small set of apps (a calculator, a text editor), kept the model off the open internet during that training for safety reasons, and watched it generalize to software it had not been taught as a tool API. The interface is the human interface.

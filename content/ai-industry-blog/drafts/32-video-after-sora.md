@@ -9,7 +9,7 @@ citations:
   - "ROMBACH2022 https://arxiv.org/abs/2112.10752"
   - "HO2020 https://arxiv.org/abs/2006.11239"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 15 February 2024, OpenAI posted *Video generation models as world simulators* and a reel. Sora, a diffusion transformer over spacetime patches, produced up to a minute of video from text. The Tokyo walk, the paper planes, the "it almost understands objects" claim. The research post is more honest than the reel: glass does not shatter right, food does not change state when eaten, objects appear because the sampler needed them. Red-teamers and a few artists got access first. A product you could type into came later, in stages, under safety and likeness rules that kept moving.

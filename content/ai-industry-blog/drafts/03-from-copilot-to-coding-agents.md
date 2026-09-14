@@ -9,7 +9,7 @@ citations:
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
   - "GPT5 https://openai.com/index/introducing-gpt-5-for-developers/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 29 June 2021, Nat Friedman wrote that GitHub was putting an "AI pair programmer" inside Visual Studio Code. The preview suggested whole lines and whole functions from the file you were already in. The model was OpenAI Codex. The product name, Copilot, stuck harder than the model name.

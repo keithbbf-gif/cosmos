@@ -10,7 +10,7 @@ citations:
   - "ROMBACH2022 https://arxiv.org/abs/2112.10752"
   - "DALLE2 https://openai.com/index/dall-e-2/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 5 January 2021, OpenAI showed DALL·E: a 12-billion-parameter transformer that turned a caption into a picture. The name was a bad pun. The demo was not. "An armchair in the shape of an avocado" stopped being a joke about dataset trivia and became a product category.

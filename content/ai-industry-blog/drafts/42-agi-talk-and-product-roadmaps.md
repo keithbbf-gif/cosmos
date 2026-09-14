@@ -9,7 +9,7 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
   - "O1 https://openai.com/index/introducing-openai-o1-preview/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 OpenAI's charter (the public one, updated over the years; the page still live) names "highly autonomous systems that outperform humans at most economically valuable work" as the AGI destination and says the company will stop competing on that object if a later-stage project needs to. That sentence is why a chat company has a nonprofit parent and why November 2023's board week (see that draft) sounded like theology. GPT-4's 14 March 2023 post was more careful in the body — "less capable than humans in many real-world scenarios" — and less careful in the culture it fed. Bar-exam clips do that.

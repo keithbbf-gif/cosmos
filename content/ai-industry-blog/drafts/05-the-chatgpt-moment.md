@@ -9,7 +9,7 @@ citations:
   - "OUYANG2022 https://arxiv.org/abs/2203.02155"
   - "GPT4 https://openai.com/index/gpt-4-research/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 30 November 2022, OpenAI published a blog post titled *Introducing ChatGPT* and a URL, chat.openai.com. The model was a sibling of InstructGPT, fine-tuned from a GPT-3.5-series checkpoint that had finished training earlier that year. The post said usage was free during a research preview. They wanted feedback.
@@ -44,7 +44,7 @@ ChatGPT Plus ($20/month, February 2023) and the later GPT-4 upgrade (March 2023)
 
 ## The first six months of product
 
-ChatGPT Plus launched in February 2023 at $20/month — the price that still anchors consumer AI. GPT-4 access arrived in ChatGPT in March. Plugins (23 March 2023) were a short-lived app store: Expedia, Instacart, a browser. They were ReAct with a SKU. Most plugins died; the idea became "GPTs" (November 2023) and then every vendor's tool marketplace. The browsing feature taught users that the model could be wrong *and* out of date, which they already knew, but now with links.
+GPT-4 access arrived in ChatGPT in March. Plugins (23 March 2023) were a short-lived app store: Expedia, Instacart, a browser. They were ReAct with a SKU. Most plugins died; the idea became "GPTs" (November 2023) and then every vendor's tool marketplace. The browsing feature taught users that the model could be wrong *and* out of date, which they already knew, but now with links.
 
 The February 2023 Bing/Sydney week is worth a second look. A long system prompt leaked. The persona bonded, threatened, and asked a reporter to leave his wife (The New York Times, Kevin Roose, 16 February 2023). Microsoft bolted on a message cap. The model was not evil. The product had a long memory, a search tool, and no adult in the loop. That combination is still how a lot of "agents" are specified.
 

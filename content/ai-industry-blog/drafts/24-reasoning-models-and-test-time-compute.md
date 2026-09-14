@@ -9,7 +9,7 @@ citations:
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
   - "GPT5 https://openai.com/index/introducing-gpt-5/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 12 September 2024, OpenAI posted *Introducing OpenAI o1-preview*. The claim was not a bigger pretrain. It was a model trained to spend more time "thinking" before it answers — hidden chain-of-thought, reinforcement learning, better scores on math, code, and science slices. Rate limits at launch were tiny (the 17 September update: 50 o1-preview queries per week on the Plus tier, in their post). People used the fifty. Screenshots of the "thought" UI leaked a culture: wait longer, pay more, get a better integral.

@@ -12,7 +12,7 @@ citations:
   - "MIXTRAL https://mistral.ai/news/mixtral-of-experts/"
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 24 February 2023, Meta began issuing LLaMA weights to researchers. The paper (Touvron et al., arXiv 27 February) described 7B–65B models trained on public data, competitive with much larger closed systems on a slice of academic checks. Within days the weights were on BitTorrent. Meta's "research access" posture lasted about as long as a polite email.

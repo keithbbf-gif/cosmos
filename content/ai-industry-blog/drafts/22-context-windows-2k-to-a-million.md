@@ -9,7 +9,7 @@ citations:
   - "GEMINI15 https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 GPT-3's context window was 2,048 tokens. That is a short story, not a repo. GPT-4 launched on 14 March 2023 at 8,192, with a 32,768-token sibling in limited access. Claude 2.1 advertised 200K in November 2023. GPT-4 Turbo (6 November 2023, DevDay) put 128K on a price list. Google's Gemini 1.5 Pro (15 February 2024) made a million tokens the demo: a 44-minute Apollo video, a 402-page transcript, a 100,000-line codebase, in the blog's telling.

@@ -8,7 +8,7 @@ citations:
   - "MS365COP https://www.microsoft.com/en-us/microsoft-365/blog/"
   - "MCK_AI https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 1 November 2023, Microsoft 365 Copilot went generally available. The list price that stuck in every CFO chat was $30 per user per month on top of the existing Office seat. Ten thousand seats, $3.6 million a year, before anyone measured a minute saved. Jared Spataro's product story was conservative in one respect: the model drafts, the employee keeps the send button. That is the right shape. It is also why "we bought Copilot" is not the same sentence as "we changed the work."
@@ -37,7 +37,7 @@ Those two paragraphs are the whole method. Everything else is a dashboard color.
 
 ## Why the math is hard
 
-If you cannot name the task, you cannot time it. "Productivity" is not a task. "Close this ticket type" is. The teams with numbers instrumented a before: median minutes, error rate, rework. Then they ran a after. Then they watched people spend the saved minutes on more tickets *or* on Slack. Both are outcomes. Only one shows up as headcount.
+If you cannot name the task, you cannot time it. "Productivity" is not a task. "Close this ticket type" is. The teams with numbers instrumented a before: median minutes, error rate, rework. Then they ran an after. Then they watched people spend the saved minutes on more tickets *or* on Slack. Both are outcomes. Only one shows up as headcount.
 
 The $30 seat is the wrong unit if one analyst's Copilot-assisted model saves a day a week and 9,000 other seats generate emails that need more email. Average ROI across a tenant is how you talk yourself into a cancellation *or* a renewal without learning.
 

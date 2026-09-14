@@ -10,7 +10,7 @@ citations:
   - "EO14179 https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 17 May 2024, Colorado's governor signed SB24-205, a consumer-protection-shaped law on "high-risk" AI systems: disclosures, reasonable care, a duty around algorithmic discrimination in covered decisions (employment, credit, housing, and neighbors). The effective date was written as 1 February 2026, with the usual amendment chatter after. Pull the current C.R.S. cite before you brief a customer. `[CITE NEEDED]` if the legislature moved the date again.

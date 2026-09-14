@@ -9,7 +9,7 @@ citations:
   - "SAG https://www.sagaftra.org/sag-aftra-strike-authorization"
   - "CHEN2021 https://arxiv.org/abs/2107.03374"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 2 May 2023, the Writers Guild of America went on strike. AI was not the only item (residuals, staffing, mini-rooms). It was the item this pack can name with a straight face: who gets credit when a model drafts a scene, and can a studio use a writer's work to train the thing that replaces the room. The strike ended 27 September 2023 with a contract that put fences around AI use — human credit, limits on treating model output as "literary material," notice. Read the current MBA, not a tweet, before you brief a room. `[CITE NEEDED]` if you quote a clause number; they get restated.

@@ -9,7 +9,7 @@ citations:
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 The International Energy Agency's *Energy and AI* work (2024–25 editions; the 2025 report is the one to pull when you publish) put data-center electricity on a curve that finance people could not shrug off. Exact TWh figures move between editions. **[CITE NEEDED]** the page number you intend to quote. The direction is not in dispute: training and especially *serving* large models is now a grid story, not a laptop story.

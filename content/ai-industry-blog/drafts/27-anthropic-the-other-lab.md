@@ -9,7 +9,7 @@ citations:
   - "CLAUDE3 https://www.anthropic.com/news/claude-3-family"
   - "COMPUSE https://www.anthropic.com/news/3-5-models-and-computer-use"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 14 March 2023 — the same week as GPT-4 — Anthropic put Claude in a waitlist chat. The company was the 2021 OpenAI diaspora (Amodei et al.) plus a research program that had already published *Constitutional AI* (Bai et al., 15 December 2022). Claude 2 arrived 11 July 2023 with a 100K context that was, for a few months, the thing you used when GPT-4's 8K felt like a closet. Claude 3 (4 March 2024) shipped Haiku, Sonnet, and Opus as a priced ladder. Sonnet 3.5 (June 2024, then October) became the default coding model for a lot of people who would not have said "I am an Anthropic customer" a year earlier.

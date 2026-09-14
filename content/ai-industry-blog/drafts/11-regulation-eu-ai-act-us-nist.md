@@ -12,7 +12,7 @@ citations:
   - "AIACT https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
   - "AIACT_TL https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 26 January 2023, NIST published the AI Risk Management Framework 1.0 (NIST AI 100-1). It is voluntary. It is also the closest thing the United States has had, through two administrations, to a shared vocabulary: map, measure, manage, govern. If your US "AI governance" deck does not mention it, the deck is cosplay.

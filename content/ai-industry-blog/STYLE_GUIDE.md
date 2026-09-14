@@ -41,7 +41,7 @@ If a Keith-cluster brand appears at all: waitlist-grade one-liner, or omit. Defa
 
 ## Front matter
 
-Every draft YAML includes `status: draft` and, after a human-style self-edit, `voice_check: human`.
+Every draft YAML includes `status: draft`. After the writer pass: `voice_check: human`. After the editor pass: `voice_check: edited`.
 
 ## Self-edit checklist (run on every file)
 
@@ -51,4 +51,4 @@ Every draft YAML includes `status: draft` and, after a human-style self-edit, `v
 - [ ] Uncertainty marked where the public record is thin
 - [ ] Closing is a judgment or next fact, not "In conclusion"
 - [ ] Word count roughly 1,000–1,600 after cuts (quality beats quota)
-- [ ] `voice_check: human` only after the pass above
+- [ ] `voice_check: human` after writer pass; `voice_check: edited` after editor pass

@@ -10,7 +10,7 @@ citations:
   - "SYNTHID https://deepmind.google/technologies/synthid/"
   - "OpenAI provenance help https://help.openai.com/en/articles/8912793-c2pa-in-images"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 In 2022 the Coalition for Content Provenance and Authenticity published a technical specification for what it now calls Content Credentials: a signed manifest that can travel with a file and say who captured it, what edited it, and whether a generator was in the path. Adobe, Microsoft, the BBC, later Google, and a list of newsrooms and camera makers sat on the coalition. This is not a startup pitch. It is a standards fight.

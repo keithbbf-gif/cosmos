@@ -9,7 +9,7 @@ citations:
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 2 August 2026, the European Commission's timeline says the majority of the AI Act's remaining rules apply — transparency among them. This pack is being written five weeks later. If your "AI product design" still means a chat pane and a sparkle icon, the calendar already disagrees with you.
@@ -56,7 +56,7 @@ A warm voice (GPT-4o, 13 May 2024) increases compliance. That is useful in a tut
 
 Sycophancy is a design bug. If the user says something false and the model agrees because RLHF liked agreement (InstructGPT-era taste), you amplified an error. Reward "I think that's wrong" in your private eval. Punish it on Arena if you must. Your users are not Arena.
 
-## Trust is a retention of doubt
+## Trust means keeping doubt on retainer
 
 Labels: generated, retrieved, human-signed. C2PA and SynthID when you emit media. No green "verified true" badge you cannot defend.
 

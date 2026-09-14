@@ -9,10 +9,10 @@ citations:
   - "TOUVRON2023B https://arxiv.org/abs/2307.09288"
   - "LORA https://arxiv.org/abs/2106.09685"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
-In March 2023, Georgi Gerganov released `llama.cpp`: a C/C++ port that ran Llama-class models on a Mac CPU, then on Apple silicon, then everywhere, with quantization that made a 7B fit in RAM that a PyTorch bf16 run would not. The same year, Kwon et al. posted vLLM (*Efficient Memory Management for Large Language Model Serving*, 12 September 2023; OSDi-era follow-through): paged attention, a KV-cache story that made GPU serving stop wasting half the card on fragmentation. Hugging Face's `transformers` (2018–) and `diffusers` plus the Hub were already the distribution layer. Together these objects are why "open weights" is a product sentence and not a torrent joke.
+In March 2023, Georgi Gerganov released `llama.cpp`: a C/C++ port that ran Llama-class models on a Mac CPU, then on Apple silicon, then everywhere, with quantization that made a 7B fit in RAM that a PyTorch bf16 run would not. The same year, Kwon et al. posted vLLM (*Efficient Memory Management for Large Language Model Serving*, 12 September 2023; OSDI-era follow-through): paged attention, a KV-cache story that made GPU serving stop wasting half the card on fragmentation. Hugging Face's `transformers` (2018–) and `diffusers` plus the Hub were already the distribution layer. Together these objects are why "open weights" is a product sentence and not a torrent joke.
 
 Llama 2 (18 July 2023) is the file. This draft is the wrench.
 

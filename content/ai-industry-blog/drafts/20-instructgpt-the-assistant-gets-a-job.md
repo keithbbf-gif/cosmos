@@ -9,7 +9,7 @@ citations:
   - "OAI_INSTRUCT https://openai.com/index/instruction-following/"
   - "STIENNON2020 https://arxiv.org/abs/2009.01325"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 4 March 2022, Ouyang et al. posted *Training language models to follow instructions with human feedback*. The result that should have been on every 2022 slide: labelers preferred a 1.3-billion-parameter InstructGPT model to 175-billion-parameter raw GPT-3 on the prompt distribution that actually arrived at the API. A hundred times fewer weights. Better manners. Slightly fewer toxic riffs, on their measurements. Still capable of "simple mistakes," which is the authors' phrase and still the right one.

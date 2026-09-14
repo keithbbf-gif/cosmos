@@ -9,7 +9,7 @@ citations:
   - "NYT_NEWS https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html"
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 27 December 2023, The New York Times Company filed a copyright complaint in the Southern District of New York against OpenAI and Microsoft. The public PDF is 30-plus megabytes of allegation: training copies, memorized output, Bing-adjacent display, a request for statutory damages and (in the ask that made engineers sit up) destruction of datasets. It is a complaint. It is not a verdict.

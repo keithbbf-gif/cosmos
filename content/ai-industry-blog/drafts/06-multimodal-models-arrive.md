@@ -10,7 +10,7 @@ citations:
   - "GEMINI https://blog.google/technology/ai/google-gemini-ai/"
   - "CLAUDE3 https://www.anthropic.com/news/claude-3-family"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 14 March 2023, OpenAI posted the GPT-4 research announcement. The first sentence called it a large multimodal model: image and text in, text out. The text-only endpoint opened first. Image inputs sat in a limited alpha. The bar-exam clip (GPT-4 around the top 10% on a simulated exam; GPT-3.5 around the bottom 10%) ate the press cycle. The multimodal clause was the longer-lived change.

@@ -9,7 +9,7 @@ citations:
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 13 February 2024, OpenAI posted *Memory and new controls for ChatGPT*. The model would remember facts you told it — a child's name, a preferred stack, a diet — and use them later, with a UI to see and delete. Users who had been pasting "remember that I like…" into every thread got a product. Privacy people got a retention graph. Both were correct.

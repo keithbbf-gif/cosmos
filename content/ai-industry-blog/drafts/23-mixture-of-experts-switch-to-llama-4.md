@@ -10,7 +10,7 @@ citations:
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 On 11 January 2021, Fedus, Zoph, and Shazeer posted *Switch Transformers*. The idea is older (Shazeer's 2017 mixture-of-experts work). The 2021 paper made it a trillion-parameter language-model story: replace a dense feed-forward with a set of experts, route each token to one, keep FLOPs per token closer to a smaller dense model. They reported a 1.6T-parameter Switch-C trained on a TPU pod. Most of the industry treated this as a Google curiosity. Dense GPT-3-class models were the SKU.
