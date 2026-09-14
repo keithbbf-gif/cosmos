@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: endurance athletes often need adequate daily protein for repair; per-session gel flavor is secondary to total intake and carbohydrate availab…"
+hero_figure: "figures/protein-for-endurance-ultra/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/protein-for-endurance-ultra/figure.svg"
+    alt="Weekly timeline with long sessions and elevated protein on hard days."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: endurance athletes often need adequate daily protein for repair; per-session gel flavor is secondary to total intake and carbohydrate availability.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/protein-for-endurance-ultra/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Endurance protein is a repair bill, not a gel flavor
 

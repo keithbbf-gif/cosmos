@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="figTitle figDesc">
+  <title id="figTitle">Target band (schematic)</title>
+  <desc id="figDesc">Illustrative g/kg range</desc>
+  <rect width="640" height="400" fill="#f7f5f0"/>
+  <rect x="0" y="0" width="640" height="56" fill="#2d4a3e"/>
+  <text x="20" y="34" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#f7f5f0" font-weight="600">Target band (schematic)</text>
+  <text x="20" y="78" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5c574f">Illustrative g/kg range</text>
+  <rect x="100" y="180" width="440" height="60" fill="#d6e8df" stroke="#3d6b5a" stroke-width="2"/>
+  <text x="320" y="215" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#2d4a3e">Illustrative adequate band</text>
+  <rect x="100" y="260" width="200" height="30" fill="#f0d4c4"/>
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Risk zone (low EA)</text>
+  <text x="20" y="384" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8a8278">Illustrative schematic — not primary data. CC0 1.0.</text>
+</svg>

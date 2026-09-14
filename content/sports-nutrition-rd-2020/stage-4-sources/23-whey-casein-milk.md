@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Photograph for context: milk, whey, and casein differ in digestion speed; dairy allergy and preference still dictate food choice."
+hero_figure: "figures/whey-casein-milk/figure.jpg"
+figure_status: cleared-pd
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--photo">
+  <img
+    src="../figures/whey-casein-milk/figure.jpg"
+    alt="Glass of milk on a white background."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Photograph.</strong> Photograph for context: milk, whey, and casein differ in digestion speed; dairy allergy and preference still dictate food choice.
+    <span class="figure-credit">See figure credit in RIGHTS.md. See figures/whey-casein-milk/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Dairy proteins are still the calibration curve
 

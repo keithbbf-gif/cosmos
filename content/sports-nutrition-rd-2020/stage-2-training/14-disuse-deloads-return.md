@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: during disuse, maintaining protein intake helps limit lean-mass loss in research settings; return-to-play still requires progressive loading."
+hero_figure: "figures/disuse-deloads-return/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/disuse-deloads-return/figure.svg"
+    alt="Curve showing higher protein need during immobilization and return phases."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: during disuse, maintaining protein intake helps limit lean-mass loss in research settings; return-to-play still requires progressive loading.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/disuse-deloads-return/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # When the work stops, the protein conversation changes
 

@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: pre-sleep protein studies used controlled doses (often casein-rich) in measured protocols; outcomes are not a promise of better sleep or inju…"
+hero_figure: "figures/presleep-protein/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/presleep-protein/figure.svg"
+    alt="Night timeline highlighting protein intake before sleep."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: pre-sleep protein studies used controlled doses (often casein-rich) in measured protocols; outcomes are not a promise of better sleep or injury treatment.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/presleep-protein/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # The overnight gap is the one most athletes still skip
 

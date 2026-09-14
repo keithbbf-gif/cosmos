@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative: concurrent training raises total protein needs versus either mode alone in many programs; timing protein around the harder session is practical…"
+hero_figure: "figures/concurrent-training/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/concurrent-training/figure.svg"
+    alt="Diagram showing strength and endurance sessions sharing recovery nutrition."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative: concurrent training raises total protein needs versus either mode alone in many programs; timing protein around the harder session is practical, not magical.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/concurrent-training/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Two sessions, one amino-acid pool
 

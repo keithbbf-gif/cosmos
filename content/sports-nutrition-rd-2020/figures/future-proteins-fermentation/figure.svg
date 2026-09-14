@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="figTitle figDesc">
+  <title id="figTitle">Process map (schematic)</title>
+  <desc id="figDesc">Ingredient route</desc>
+  <rect width="640" height="400" fill="#f7f5f0"/>
+  <rect x="0" y="0" width="640" height="56" fill="#2d4a3e"/>
+  <text x="20" y="34" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#f7f5f0" font-weight="600">Process map (schematic)</text>
+  <text x="20" y="78" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5c574f">Ingredient route</text>
+  <rect x="60" y="200" width="100" height="50" fill="#e8e2d6" stroke="#3d6b5a"/>
+  <text x="110" y="230" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Feedstock</text>
+  <path d="M 160 225 L 220 225" stroke="#3d6b5a" marker-end="url(#arrow)"/>
+  <rect x="220" y="200" width="100" height="50" fill="#d6e8df" stroke="#3d6b5a"/>
+  <text x="270" y="230" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Ferment</text>
+  <path d="M 320 225 L 380 225" stroke="#3d6b5a"/>
+  <rect x="380" y="200" width="120" height="50" fill="#8fb9a8" stroke="#3d6b5a"/>
+  <text x="440" y="230" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#2d4a3e">Protein ingredient</text>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3d6b5a"/></marker></defs>
+  <text x="20" y="384" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8a8278">Illustrative schematic — not primary data. CC0 1.0.</text>
+</svg>

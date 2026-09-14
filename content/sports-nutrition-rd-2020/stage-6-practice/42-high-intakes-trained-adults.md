@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative ceiling: intakes above roughly 2.2–3 g/kg/day show diminishing average benefit in many trained adults unless deficit or special context applies."
+hero_figure: "figures/high-intakes-trained-adults/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/high-intakes-trained-adults/figure.svg"
+    alt="Curve flattening at very high daily protein intakes."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative ceiling: intakes above roughly 2.2–3 g/kg/day show diminishing average benefit in many trained adults unless deficit or special context applies.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/high-intakes-trained-adults/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Very high protein in healthy lifters is a small literature. Treat it that way.
 

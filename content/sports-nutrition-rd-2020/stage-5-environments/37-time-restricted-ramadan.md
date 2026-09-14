@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: compressed windows require planning to hit protein totals; religious practice decisions stay with the athlete and their advisors."
+hero_figure: "figures/time-restricted-ramadan/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/time-restricted-ramadan/figure.svg"
+    alt="Timeline showing night eating window with protein at iftar and suhoor."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: compressed windows require planning to hit protein totals; religious practice decisions stay with the athlete and their advisors.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/time-restricted-ramadan/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # The eating window moved. The daily grams did not retire.
 

@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative: when dietary protein and leucine are sufficient, isolated BCAAs add little in most resistance-training contexts cited in ISSN 2023 and related …"
+hero_figure: "figures/bcaa-when-diet-is-high/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/bcaa-when-diet-is-high/figure.svg"
+    alt="Curve showing diminishing incremental benefit of branched-chain amino acids when daily protein is already high."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative: when dietary protein and leucine are sufficient, isolated BCAAs add little in most resistance-training contexts cited in ISSN 2023 and related work.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/bcaa-when-diet-is-high/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # BCAAs are a 20th-century answer to a 21st-century diet
 

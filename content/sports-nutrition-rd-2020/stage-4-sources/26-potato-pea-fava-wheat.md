@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: isolate leucine percentages do not describe whole potatoes or popcorn; match dose and total daily protein to the food actually eaten."
+hero_figure: "figures/potato-pea-fava-wheat/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/potato-pea-fava-wheat/figure.svg"
+    alt="Bar chart of illustrative leucine percentage for potato, pea, corn, and wheat protein isolates."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: isolate leucine percentages do not describe whole potatoes or popcorn; match dose and total daily protein to the food actually eaten.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/potato-pea-fava-wheat/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # The new isolates have names now: potato, pea, wheat, and the blend
 

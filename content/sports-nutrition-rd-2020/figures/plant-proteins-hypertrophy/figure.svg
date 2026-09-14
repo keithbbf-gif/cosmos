@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="figTitle figDesc">
+  <title id="figTitle">Quality ranks (schematic)</title>
+  <desc id="figDesc">Illustrative DIAAS-style</desc>
+  <rect width="640" height="400" fill="#f7f5f0"/>
+  <rect x="0" y="0" width="640" height="56" fill="#2d4a3e"/>
+  <text x="20" y="34" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#f7f5f0" font-weight="600">Quality ranks (schematic)</text>
+  <text x="20" y="78" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5c574f">Illustrative DIAAS-style</text>
+  <rect x="100" y="138" width="70" height="162" fill="#3d6b5a"/>
+  <text x="135" y="320" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Milk</text>
+  <rect x="220" y="142" width="70" height="158" fill="#3d6b5a"/>
+  <text x="255" y="320" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Egg</text>
+  <rect x="340" y="165" width="70" height="135" fill="#3d6b5a"/>
+  <text x="375" y="320" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Soy</text>
+  <rect x="460" y="219" width="70" height="81" fill="#3d6b5a"/>
+  <text x="495" y="320" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#4a4540">Wheat</text>
+  <text x="20" y="384" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8a8278">Illustrative schematic — not primary data. CC0 1.0.</text>
+</svg>

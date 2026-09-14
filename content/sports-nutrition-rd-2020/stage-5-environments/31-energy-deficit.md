@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: energy deficit increases risk of lean-mass loss; higher protein may help retention in trials when training continues — not a license for extr…"
+hero_figure: "figures/energy-deficit/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/energy-deficit/figure.svg"
+    alt="Diagram showing lower calories with higher protein fraction target."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: energy deficit increases risk of lean-mass loss; higher protein may help retention in trials when training continues — not a license for extreme cuts.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/energy-deficit/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # A cut changes the queue. Muscle is no longer first.
 

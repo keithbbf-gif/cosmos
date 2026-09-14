@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative: mycoprotein trials show bioavailable amino acids and insulin responses; long hypertrophy trials in trained athletes remain limited."
+hero_figure: "figures/mycoprotein/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/mycoprotein/figure.svg"
+    alt="Icon diagram of fungal biomass food piece beside amino acid uptake arrow."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative: mycoprotein trials show bioavailable amino acids and insulin responses; long hypertrophy trials in trained athletes remain limited.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/mycoprotein/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Mycoprotein is the fungal food that showed up with biopsies
 

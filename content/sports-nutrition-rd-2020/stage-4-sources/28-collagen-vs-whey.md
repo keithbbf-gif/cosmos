@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: collagen is low in leucine relative to whey; connective-tissue studies do not replace resistance training for hypertrophy outcomes."
+hero_figure: "figures/collagen-vs-whey/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/collagen-vs-whey/figure.svg"
+    alt="Diagram contrasting collagen peptide profile with whey essential amino acids."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: collagen is low in leucine relative to whey; connective-tissue studies do not replace resistance training for hypertrophy outcomes.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/collagen-vs-whey/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Collagen and whey are different jobs. Stop making them compete.
 

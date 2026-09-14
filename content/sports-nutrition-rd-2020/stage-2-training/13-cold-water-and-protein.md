@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative: cold-water immersion after resistance exercise can blunt acute use of ingested protein in some trials; this is recovery strategy trade space, n…"
+hero_figure: "figures/cold-water-and-protein/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/cold-water-and-protein/figure.svg"
+    alt="Diagram contrasting post-lift cold immersion with dietary amino acid use."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative: cold-water immersion after resistance exercise can blunt acute use of ingested protein in some trials; this is recovery strategy trade space, not medical advice.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/cold-water-and-protein/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # The ice bath can leave the shake on the table
 

@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic timeline only: position papers summarize evidence bands; they are not personal prescriptions."
+hero_figure: "figures/consensus-statements/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/consensus-statements/figure.svg"
+    alt="Timeline from 2017 ISSN through 2023 IOC REDs statement."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic timeline only: position papers summarize evidence bands; they are not personal prescriptions.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/consensus-statements/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # What the letterheads actually agreed on
 

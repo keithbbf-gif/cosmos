@@ -35,6 +35,18 @@ The 2017 ISSN protein stand and the 2018 Morton meta-regression are still the fl
 
 No disease claims. See `_editorial/CLAIMS_POLICY.md`.
 
+## Images and SEO (draft pass)
+
+Each of the 45 drafts now carries:
+
+- `meta_description`, `hero_figure`, and `figure_status` in YAML
+- One claims-safe `<figure>` with lazy-loaded hero image
+- A matching folder under `figures/<slug>/` with `RIGHTS.md` (`ai_generated | no`)
+
+Forty-two heroes are **original SVG schematics** (CC0). Three source pieces use **cleared CC BY-SA photographs** from Wikimedia Commons (milk, edamame, mealworms) — no athlete likenesses, no AI faces.
+
+Editorial rules: `_editorial/IMAGE_SEO.md`. QA: `python3 check_pack.py` from this directory.
+
 ## Status
 
 `draft` / Stage 1 copy. Human review required before any public use.

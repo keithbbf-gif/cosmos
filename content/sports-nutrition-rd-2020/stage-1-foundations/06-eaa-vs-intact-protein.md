@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: free-form EAAs can raise aminoacidemia quickly; whole-food protein still carries the matrix, micronutrients, and habits most teams want."
+hero_figure: "figures/eaa-vs-intact-protein/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/eaa-vs-intact-protein/figure.svg"
+    alt="Diagram comparing a plate of food to a measured essential amino acid blend."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: free-form EAAs can raise aminoacidemia quickly; whole-food protein still carries the matrix, micronutrients, and habits most teams want.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/eaa-vs-intact-protein/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Free-form EAAs are a tool. Dinner is still dinner.
 

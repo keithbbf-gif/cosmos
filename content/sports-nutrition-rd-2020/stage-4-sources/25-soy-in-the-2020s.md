@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Photograph for context: soy provides complete plant protein in many forms; athletic use is a food-choice question, not a hormone treatment claim."
+hero_figure: "figures/soy-in-the-2020s/figure.jpg"
+figure_status: cleared-pd
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--photo">
+  <img
+    src="../figures/soy-in-the-2020s/figure.jpg"
+    alt="Edamame soybeans in a bowl."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Photograph.</strong> Photograph for context: soy provides complete plant protein in many forms; athletic use is a food-choice question, not a hormone treatment claim.
+    <span class="figure-credit">See figure credit in RIGHTS.md. See figures/soy-in-the-2020s/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Soy survived the internet. The hormones talk did not.
 

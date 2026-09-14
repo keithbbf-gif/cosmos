@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative: sleep supports recovery processes; evening protein in studies targets amino acid availability, not treatment of sleep disorders."
+hero_figure: "figures/sleep-and-overnight-recovery/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/sleep-and-overnight-recovery/figure.svg"
+    alt="Night timeline with sleep duration and optional evening protein."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative: sleep supports recovery processes; evening protein in studies targets amino acid availability, not treatment of sleep disorders.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/sleep-and-overnight-recovery/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Sleep is the long recovery session. Protein is not a sleep drug.
 

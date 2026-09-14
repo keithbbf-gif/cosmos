@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative zones only: low energy availability harms performance and health; refer athletes with suspected REDs to qualified clinicians."
+hero_figure: "figures/energy-availability-reds/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/energy-availability-reds/figure.svg"
+    alt="Band chart of low, moderate, and adequate energy availability without human figures."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative zones only: low energy availability harms performance and health; refer athletes with suspected REDs to qualified clinicians.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/energy-availability-reds/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Energy availability is the diagnosis lane. Protein is a passenger.
 

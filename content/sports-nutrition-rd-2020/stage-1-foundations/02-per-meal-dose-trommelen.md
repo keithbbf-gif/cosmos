@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic only: a large single meal can sustain aminoacidemia and MPS longer than the old 3–4 h ceiling implied; this is not a hypertrophy outcome trial."
+hero_figure: "figures/per-meal-dose-trommelen/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/per-meal-dose-trommelen/figure.svg"
+    alt="Bar chart comparing longer muscle protein synthesis elevation after 100 grams versus 25 grams milk protein."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic only: a large single meal can sustain aminoacidemia and MPS longer than the old 3–4 h ceiling implied; this is not a hypertrophy outcome trial.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/per-meal-dose-trommelen/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # The 20-gram ceiling was a 4-hour story
 

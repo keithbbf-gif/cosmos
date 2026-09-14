@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic map only: lists active unknowns — ultra-processed matrices, female-specific dose trials, and long plant-only hypertrophy studies — not answered by …"
+hero_figure: "figures/open-questions-2026/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/open-questions-2026/figure.svg"
+    alt="Mind-map style diagram listing open protein research topics without human icons."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic map only: lists active unknowns — ultra-processed matrices, female-specific dose trials, and long plant-only hypertrophy studies — not answered by one figure.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/open-questions-2026/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # What the labs are still arguing about in 2026
 

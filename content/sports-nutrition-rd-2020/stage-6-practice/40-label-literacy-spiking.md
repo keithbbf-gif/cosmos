@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Illustrative label reading: verify protein source and grams per serving; proprietary blends are not evidence of efficacy."
+hero_figure: "figures/label-literacy-spiking/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/label-literacy-spiking/figure.svg"
+    alt="Label diagram highlighting protein source and amino acid listing."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Illustrative label reading: verify protein source and grams per serving; proprietary blends are not evidence of efficacy.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/label-literacy-spiking/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # If the label needs a decoder, the protein is the last thing you know
 

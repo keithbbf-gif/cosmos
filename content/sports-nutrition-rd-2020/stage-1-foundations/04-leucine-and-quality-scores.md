@@ -9,7 +9,27 @@ window: 2020-01 to 2026-09
 voice: human
 claims: no-disease
 last_reviewed: 2026-09-14
+meta_description: "Schematic ranking only: ileal digestibility and leucine content change how much food is needed to trigger synthesis; scores are not permission to ignore tota…"
+hero_figure: "figures/leucine-and-quality-scores/figure.svg"
+figure_status: original-svg
 ---
+
+This is draft sports-nutrition copy for coaches, athletes, and sports RDs. It is not medical advice, not a meal plan, and not cleared for public use.
+
+<figure class="sn-rd-figure sn-rd-figure--chart">
+  <img
+    src="../figures/leucine-and-quality-scores/figure.svg"
+    alt="Bar chart ranking milk, egg, soy, and wheat illustrative digestibility scores."
+    width="640"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Schematic only.</strong> Schematic ranking only: ileal digestibility and leucine content change how much food is needed to trigger synthesis; scores are not permission to ignore total daily protein.
+    <span class="figure-credit">Original schematic. CC0 1.0. See figures/leucine-and-quality-scores/RIGHTS.md.</span>
+  </figcaption>
+</figure>
+
 
 # Leucine is a trigger, not a religion
 
