@@ -51,7 +51,11 @@ Southeast Arkansas is a **small, slowly emptying, below-median-income** market. 
 | Arkansas | 3,114,791 | +3.4% | $60,773 | $34,225 | 15.5% |
 | United States | 341,784,857 | n/a here | $80,734 | n/a here | 10.6% |
 
-Sources: U.S. Census Bureau QuickFacts pages for each county and for Arkansas / United States (V2025 population; ACS 2020–2024 income). Monticello city figures: Census Reporter profile, ACS 2024 5-year.
+Sources: U.S. Census Bureau QuickFacts pages for each county and for Arkansas / United States (V2025 population estimates; ACS 2020–2024 income). Monticello city figures: Census Reporter profile, ACS 2024 5-year.
+
+**Poverty-rate source split (do not collapse).** QuickFacts “persons in poverty, percent” for Drew is **17.8%**. Census Reporter’s ACS 2024 5-year profile for the same county is **22.4% ±5.4%** (about 3,651 people). County QuickFacts poverty is typically SAIPE, not the ACS 5-year table; the two programs differ in vintage and method. This brief uses **17.8% in the comparison table** (QuickFacts, parallel to the other counties) and treats **low-20s ACS poverty** as the household-survey reading. Either way, poverty is well above the U.S. 10.6% QuickFacts figure.
+
+ACS vs PEP population: Census Reporter ACS 2024 5-year **17,046** vs QuickFacts PEP 1 Jul 2025 **17,054**. Housing units: ACS **8,289** vs QuickFacts 1 Jul 2025 **8,355**. Median household income **$42,824**, per capita **$28,973**, households **7,196**, and median owner value **$140,800** match across QuickFacts (ACS 2020–2024) and Census Reporter (ACS 2024 5-year).
 
 **Read this as a business constraint, not a slogan.** Drew County’s median household income is about **70% of the Arkansas median** and **53% of the U.S. median**. Monticello city’s ACS median ($27,238) is much lower than the county’s — consistent with a university town plus concentrated urban poverty. Ticket prices that work in Northwest Arkansas or a Sunbelt suburb will not clear here unless the **payer is an employer, an insurer, or a landowner**, not a typical household.
 
@@ -501,7 +505,7 @@ Accessed or retrieved 14 September 2026 unless the publisher date is listed.
 
 1. U.S. Census Bureau, QuickFacts: Drew County, Arkansas — [https://www.census.gov/quickfacts/fact/table/drewcountyarkansas/PST045225](https://www.census.gov/quickfacts/fact/table/drewcountyarkansas/PST045225) (V2025 population; ACS 2020–2024 income, housing, broadband, disability).
 2. U.S. Census Bureau, QuickFacts: Ashley; Bradley; Chicot; Desha; Lincoln; Cleveland; Jefferson Counties; Arkansas; United States — same QuickFacts application, V2025 / ACS 2020–2024.
-3. Census Reporter, “Monticello, AR” (ACS 2024 5-year) — [http://censusreporter.org/profiles/16000US0546580-monticello-ar/](http://censusreporter.org/profiles/16000US0546580-monticello-ar/).
+3. Census Reporter, “Monticello, AR” (ACS 2024 5-year) — [http://censusreporter.org/profiles/16000US0546580-monticello-ar/](http://censusreporter.org/profiles/16000US0546580-monticello-ar/); “Drew County, AR” — [https://censusreporter.org/profiles/05000US05043-drew-county-ar/](https://censusreporter.org/profiles/05000US05043-drew-county-ar/) (ACS 2024 5-year poverty 22.4% ±5.4%; income and household figures match QuickFacts ACS).
 4. USAFacts, Drew County population/age extract — [https://usafacts.org/answers/how-many-people-live-in-the-us/county/drew-county-ar/](https://usafacts.org/answers/how-many-people-live-in-the-us/county/drew-county-ar/) (~3,200 age 65+, 18.9% in 2024).
 5. Bureau of Labor Statistics, QCEW open data, 2024 annual, area 05043 — [https://data.bls.gov/cew/data/api/2024/a/area/05043.csv](https://data.bls.gov/cew/data/api/2024/a/area/05043.csv) (retrieved 14 Sep 2026). Method: [https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm](https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm).
 6. FRED, Unemployment Rate in Drew County, AR (LAUCN050430000000003A) — [https://fred.stlouisfed.org/series/LAUCN050430000000003A](https://fred.stlouisfed.org/series/LAUCN050430000000003A) (2024: 4.1%; 2025: 5.0%; updated 19 May 2026).
