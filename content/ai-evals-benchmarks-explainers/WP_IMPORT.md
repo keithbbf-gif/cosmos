@@ -21,6 +21,7 @@ Staged Markdown in this folder is the source. WordPress is a projection.
 | `kind` | Custom field `kind` (`essay` / `explainer`) |
 | `era` | Custom field `era` |
 | `voice_check` | Custom field; discard from rendered HTML |
+| `figures` | Media library paths after upload; preserve `<figure>` alt + figcaption |
 | `portrait` | unused in this pack (`null`) |
 
 Convert the Markdown body with a CommonMark parser.

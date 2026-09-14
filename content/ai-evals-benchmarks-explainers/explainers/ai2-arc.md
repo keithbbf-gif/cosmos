@@ -7,6 +7,9 @@ era: 2018
 tags: [ai2-arc, allenai, clark, science]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/ai2-arc/historical-timeline.svg
+  - ../assets/ai2-arc/instrument-chart.svg
 ---
 
 Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord published “Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge” in 2018 (arXiv:1803.05457). Allen Institute for AI. The questions are grade-school standardized science: multiple choice, the sort of item that asks why a shadow is longer at a certain hour, or what a plant gets from a dark closet.
@@ -15,15 +18,25 @@ The paper’s taunt is in the title. SQuAD-style pointing had started to look so
 
 ## Easy and Challenge
 
-The authors split the set. **ARC-Easy** is the door most retrieval-and-overlap systems could already open. **ARC-Challenge** is the door they could not: items that a simple information-retrieval baseline missed. The Challenge set is the one later harnesses mean when they say “ARC” in an open-LLM table — except when they do not, and mix Easy in, and look braver than they are.
+<!-- graphics-pack:v1 -->
 
-Say Challenge. Say Easy. Do not say ARC without a modifier if you can help it. And do not say ARC if you mean François Chollet’s Abstraction and Reasoning Corpus. That collision has its own explainer: [ARC-AGI](arc-agi.md).
+<figure class="eval-figure">
+<img src="../assets/ai2-arc/historical-timeline.svg" alt="Timeline of public milestones for AI2 ARC: grade-school science, two doors: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “reasoning” meant in 2018
 
-It meant: the answer is not a span in a provided paragraph. You may need a science fact, a little causal structure, and the elimination of distractors written to trap a child. It did not mean formal logic. It did not mean graduate chemistry (that is closer to GPQA). It did not mean abstract grid puzzles (that is Chollet).
+<!-- graphics-pack:v1 -->
 
-The 2018 systems needed retrieval over a science corpus the authors provided. The 2023 chatbots need a forward pass. Same file, different student. A high ARC-Challenge accuracy today is expected. A low one is a smell, or a broken harness.
+<figure class="eval-figure">
+<img src="../assets/ai2-arc/instrument-chart.svg" alt="Instrument chart for AI2 ARC: grade-school science, two doors: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

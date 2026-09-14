@@ -7,6 +7,9 @@ era: 2012
 tags: [winograd, levesque, commonsense]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/winograd-schema/historical-timeline.svg
+  - ../assets/winograd-schema/instrument-chart.svg
 ---
 
 Hector J. Levesque, Ernest Davis, and Leora Morgenstern published “The Winograd Schema Challenge” in 2012 (KR 2012; a widely cited technical report sits beside the proceedings version). The hardship is tiny and handmade. A pair of sentences. A pronoun. One word changed — “because he was so *strong*” versus “because he was so *weak*” — and the pronoun’s referent flips. A statistical system that has not met the world should not know why.
@@ -15,23 +18,25 @@ They offered it as an alternative to a loose reading of Turing’s imitation gam
 
 ## Why a schema
 
-A schema is a pair, not a single trick question. The flip is the control. If your system gets one sentence right and the flipped sentence wrong in the wrong way, you have seen the artifact. If it gets both right, it may have the commonsense, or it may have seen the pair in a paper. The original set is small enough that fame is a leak.
+<!-- graphics-pack:v1 -->
 
-The problems were written to be:
+<figure class="eval-figure">
+<img src="../assets/winograd-schema/historical-timeline.svg" alt="Timeline of public milestones for The Winograd Schema Challenge: two sentences, one word, a pronoun: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-- obvious to a person
-- not solvable by a cheap selectional-preference trick if the authors succeeded
-- Google-resistant in the 2012 sense (ordinary search should not print the answer)
 
-“Google-resistant” is always dated. See GPQA for a later use of the same hope.
 
 ## An item in the hand
 
-The trophy and the suitcase. The councilmen and the demonstrators, refusing a permit because they feared violence. The pair is the point: change one adjective, change the referent. A person does this without drawing a graph. A 2012 statistical MT system did not. A 2024 LLM often does, which is either commonsense or a thousand blog reprints of the same pair.
+<!-- graphics-pack:v1 -->
 
-Levesque asked for items that would not fall to a selectional-preference cheat (“the trophy is large” as a collocational twitch). Writers of later schemas sometimes failed that bar. When you reuse the original list, keep the pairs together. Scoring one sentence is not the Challenge.
+<figure class="eval-figure">
+<img src="../assets/winograd-schema/instrument-chart.svg" alt="Instrument chart for The Winograd Schema Challenge: two sentences, one word, a pronoun: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
 
-The 2012 “Google-resistant” hope assumed a search box that printed forums, not a model trained on the papers that discussed the schemas. Fame is leakage. Treat a perfect score on the original handful as a historical courtesy, not as news.
+
 
 ## What happened to the challenge
 

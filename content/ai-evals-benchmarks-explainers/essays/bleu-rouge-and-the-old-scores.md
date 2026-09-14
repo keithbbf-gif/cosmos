@@ -7,6 +7,9 @@ era: 2002–2020
 tags: [bleu, rouge, bertscore, metrics, nlg]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/bleu-rouge-and-the-old-scores/historical-timeline.svg
+  - ../assets/bleu-rouge-and-the-old-scores/instrument-chart.svg
 ---
 
 Before there were chat leaderboards, there was a workshop deadline and a shortage of bilinguals. Machine translation and summarization needed a number that could be computed at 2 a.m. without waking a human. The number they got — BLEU, then ROUGE — taught the next twenty years of evaluation how to feel finished.
@@ -15,17 +18,25 @@ This is not a history of all automatic metrics. It is a tour of the bargain: rep
 
 ## BLEU, 2002
 
-Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu published “BLEU: a Method for Automatic Evaluation of Machine Translation” at ACL 2002. The affiliation line is IBM. The idea is small enough to write on a whiteboard: count n-gram overlaps between a candidate translation and one or more references, precision-style, then penalize short outputs so a system cannot win by emitting a cautious noun.
+<!-- graphics-pack:v1 -->
 
-BLEU was a workshop tool. It correlated, on the sets they cared about, with averaged human judgments well enough to rank systems. That sentence has three hedges and they are all load-bearing. Correlate. On those sets. Well enough to rank. It was never a claim that a 2-point BLEU gap is a 2-point improvement in meaning.
+<figure class="eval-figure">
+<img src="../assets/bleu-rouge-and-the-old-scores/historical-timeline.svg" alt="Timeline of public milestones for BLEU, ROUGE, and the age of the cheap judge: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-The field treated it as a currency anyway. Shared tasks printed BLEU to two decimals. Papers claimed gains that were, on a good day, the width of a tokenizer change. Detokenization bugs became folklore. A system that produced a correct paraphrase and missed the reference’s n-grams looked worse than a system that parroted the training phrasing.
+
 
 ## ROUGE, 2004
 
-Chin-Yew Lin published “ROUGE: A Package for Automatic Evaluation of Summaries” in 2004 (ACL workshop on text summarization branches). Where BLEU is precision-leaning, the ROUGE family is recall-leaning: how much of the reference summary’s n-grams, or longest common subsequence, did you catch? Summarization had the same labor problem as translation. It adopted the same class of solution.
+<!-- graphics-pack:v1 -->
 
-ROUGE inherited BLEU’s virtues (cheap, repeatable, good enough to sort a mid-2000s leaderboard) and its vices (reference-bound, hostile to valid wording, easy to optimize without becoming a better writer). Later summarization work spent years showing that a lead-3 baseline — take the first three sentences — is embarrassingly strong under ROUGE on news. That result is a criticism of the metric-and-dataset pair, not a joke about journalists.
+<figure class="eval-figure">
+<img src="../assets/bleu-rouge-and-the-old-scores/instrument-chart.svg" alt="Instrument chart for BLEU, ROUGE, and the age of the cheap judge: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## The overlap era’s other furniture
 

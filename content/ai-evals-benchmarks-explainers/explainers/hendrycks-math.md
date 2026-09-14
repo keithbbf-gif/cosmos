@@ -7,6 +7,9 @@ era: 2021
 tags: [math, hendrycks, amc, aime]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/hendrycks-math/historical-timeline.svg
+  - ../assets/hendrycks-math/instrument-chart.svg
 ---
 
 Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt published “Measuring Mathematical Problem Solving with the MATH Dataset” at NeurIPS 2021. If GSM8K is a grade-school worksheet, MATH is a contest packet: problems in the spirit of AMC, AIME, and the harder end of high-school competition math, written so a model must do more than add the apples.
@@ -15,15 +18,25 @@ The name is greedy. It claimed the noun. Later papers have to say “Hendrycks M
 
 ## What an item wants
 
-A problem statement. A boxed answer, often a number or a short expression. Subjects the paper lists in the usual contest bins: algebra, counting and probability, geometry, intermediate algebra, number theory, precalculus, and so on. Difficulty ratings travel with the items. A model can be competent on the easy slice and lost on the “5”s.
+<!-- graphics-pack:v1 -->
 
-The original paper’s models were bad at it. That was the point. Competition math was a wall. Minerva (Lewkowycz et al., 2022) and the later instruction models moved the wall. By the mid-2020s the original MATH test split was no longer a place you sent a frontier model to suffer. You sent it to FrontierMath, or to a live contest, or to a holdout you had not published.
+<figure class="eval-figure">
+<img src="../assets/hendrycks-math/historical-timeline.svg" alt="Timeline of public milestones for MATH: competition problems, a harder integer: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Scoring a boxed expression
 
-The cheap judge is more fragile than GSM8K’s integer. Equivalent expressions look different. `\frac{1}{2}` and `0.5` and `1/2` may or may not match your normalizer. Geometry answers that are “3\sqrt{2}” will punish a model that said `4.242`. A harness is a theory of equivalence. Name it.
+<!-- graphics-pack:v1 -->
 
-Some later protocols allow tools: a calculator, a Python REPL, a formal system. That is a different instrument that happens to use the same problem statements. A MATH number with tools and a MATH number without tools should not share a cell.
+<figure class="eval-figure">
+<img src="../assets/hendrycks-math/instrument-chart.svg" alt="Instrument chart for MATH: competition problems, a harder integer: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

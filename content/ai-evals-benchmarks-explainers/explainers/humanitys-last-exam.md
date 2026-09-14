@@ -7,6 +7,9 @@ era: 2025–2026
 tags: [hle, hendrycks, scale, cais]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/humanitys-last-exam/historical-timeline.svg
+  - ../assets/humanitys-last-exam/instrument-chart.svg
 ---
 
 The public name is a dare. The archival name is quieter. Long Phan, Alice Gatti, Ziwen Han, Nathaniel Li, and a very large consortium — Center for AI Safety and Scale AI in the organizing seats, Dan Hendrycks, Summer Yue, and Alexandr Wang among the senior authors — released “Humanity’s Last Exam” as arXiv:2501.14249 in January 2025. *Nature* later published the work as “A benchmark of expert-level academic questions to assess AI capabilities” (2026, doi:10.1038/s41586-025-09962-4). Cite both if you are being careful. The acronym that escaped is HLE.
@@ -15,15 +18,25 @@ The dare is: stop writing easier sequels to MMLU when the models have eaten MMLU
 
 ## How the questions got there
 
-A solicitation. Subject-matter experts submitted items. Editorial review tried to keep questions that are hard, unambiguous enough to score, and not a web snippet in disguise. Authorship was offered widely enough that the author list is a crowd. That crowd is part of the public record. It is also a reminder that Scale AI’s name is in the byline, not in a rumor. Conflicts of interest, if you care about them, start from the printed affiliations.
+<!-- graphics-pack:v1 -->
 
-Many items stay harder to crawl than a fully public worksheet. Hidden or gated slices are a contamination strategy. They are also a reproducibility tax. A second lab cannot casually re-score what it cannot see. The papers should be read as making that trade on purpose.
+<figure class="eval-figure">
+<img src="../assets/humanitys-last-exam/historical-timeline.svg" alt="Timeline of public milestones for Humanity’s Last Exam: a name that tries to end the sequel problem: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What the hardship is
 
-Expert-level academic questions across a wide subject list — the site and the papers give the distribution. Some are multiple choice. Some are short answer. The “last exam” metaphor is marketing and a thesis: if a model can do these, the next academic multiple-choice sequel is not where the field should live.
+<!-- graphics-pack:v1 -->
 
-You can accept the questions and reject the metaphor. There will be another exam. There always is. FrontierMath is already a different sequel in a different field. The value of HLE is the editorial bar and the expert labor, not the prophecy.
+<figure class="eval-figure">
+<img src="../assets/humanitys-last-exam/instrument-chart.svg" alt="Instrument chart for Humanity’s Last Exam: a name that tries to end the sequel problem: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item you may not see
 

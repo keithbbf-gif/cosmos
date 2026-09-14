@@ -7,21 +7,34 @@ era: 2019–2025
 tags: [arc-agi, chollet, abstraction]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/arc-agi/historical-timeline.svg
+  - ../assets/arc-agi/instrument-chart.svg
 ---
 
 François Chollet published “On the Measure of Intelligence” in 2019 (arXiv:1911.01547). In that paper he introduced the Abstraction and Reasoning Corpus: small colored grids, a handful of input–output examples, a new input, and a demand that you paint the output grid. Later public materials, and a contest culture that grew around the file, call the instrument ARC-AGI. It is not the Allen Institute’s science quiz. If you only remember one collision in this series, remember this one. See [AI2 ARC](ai2-arc.md).
 
 ## What an item is
 
-A puzzle. Three, maybe four, pairs of grids that demonstrate a transformation: rotate, count, fill, group by color, obey a rule that is easy to see once you see it and expensive to guess from language priors. Then a test grid. The answer is a grid, not a letter. The cheap judge is exact match on cells.
+<!-- graphics-pack:v1 -->
 
-Humans who like puzzles often do well after a minute of staring. The 2019–2023 programs did not. That gap is Chollet’s exhibit. He wanted a test of skill-acquisition efficiency: how little prior knowledge, how little data, how quickly a system can lock onto a novel rule. The essay around the corpus is long and argumentative. The corpus is small and visual.
+<figure class="eval-figure">
+<img src="../assets/arc-agi/historical-timeline.svg" alt="Timeline of public milestones for ARC-AGI: grids, few shots, a different intelligence argument: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What it is not
 
-It is not a language exam. A chatbot can describe the rule in English and still paint the wrong pixels. It is not ImageNet. The grids are synthetic. It is not “AGI” as a product category, even though the later name invites that confusion. Chollet’s “AGI” here is a claim about measuring general skill acquisition, not a vendor milestone.
+<!-- graphics-pack:v1 -->
 
-It is also not a large statistical instrument. The public training set is modest. The hidden evaluation sets (the contest’s private tests) are the ones that matter for a prize, and they are hidden for the usual reason: if you publish the test grids, people will fit them.
+<figure class="eval-figure">
+<img src="../assets/arc-agi/instrument-chart.svg" alt="Instrument chart for ARC-AGI: grids, few shots, a different intelligence argument: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## A grid in the hand
 

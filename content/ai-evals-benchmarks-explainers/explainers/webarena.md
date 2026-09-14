@@ -7,6 +7,9 @@ era: 2023–2024
 tags: [webarena, agents, cmu, zhou]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/webarena/historical-timeline.svg
+  - ../assets/webarena/instrument-chart.svg
 ---
 
 Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig published “WebArena: A Realistic Web Environment for Building Autonomous Agents” (ICLR 2024; preprint arXiv:2307.13854). Carnegie Mellon and collaborators. The hardship is not a screenshot quiz. It is a self-hosted bundle of sites — shopping, a forum, a GitLab-like service, a map, a content-management stack — and a natural-language task that wants you to click, type, and finish.
@@ -15,15 +18,25 @@ The environment is the benchmark. If you run the same words against the live int
 
 ## Why a fake town
 
-The real web changes. It has CAPTCHAs, logins, and lawyers. A reproducible agent eval needs URLs that stay put and a state you can reset. WebArena ships that town. The sites are functional enough to support multi-step tasks: compare two products, post a comment, find a commit, update a page.
+<!-- graphics-pack:v1 -->
 
-Reproducibility is the virtue. The vice is that the town is not the web. Agents can overfit the furniture. A system that knows WebArena’s shopping site may still drown on a real checkout flow. VisualWebArena and later cousins add screenshots and different sites; name them if you used them.
+<figure class="eval-figure">
+<img src="../assets/webarena/historical-timeline.svg" alt="Timeline of public milestones for WebArena: a town of websites, a task, a success flag: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## How success is scored
 
-A task has a validator: did the cart contain the item, did the issue get the comment, does the page now show the string? The cheap judge is program state, not BLEU. That is the right cheap judge for this sport. It will still miss a task that was “completed” in a way a human would accept and the validator did not, and it will still reward a hack that trips the flag.
+<!-- graphics-pack:v1 -->
 
-The original paper’s model agents succeeded on a small slice of tasks. That low number is a snapshot. Later agents with better browsers and better planners moved it. Date the run. Name the action space (accessibility tree, screenshots, raw HTML).
+<figure class="eval-figure">
+<img src="../assets/webarena/instrument-chart.svg" alt="Instrument chart for WebArena: a town of websites, a task, a success flag: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## A task in the town
 

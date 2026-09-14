@@ -7,6 +7,9 @@ era: 2019
 tags: [superglue, glue, nlu]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/superglue/historical-timeline.svg
+  - ../assets/superglue/instrument-chart.svg
 ---
 
 Sequels in evaluation are usually a confession. SuperGLUE is a polite one. Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman published “SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems” at NeurIPS 2019. The title’s adjective is doing work. GLUE had become un-sticky. Models were climbing. The average was losing its ability to hurt.
@@ -15,24 +18,25 @@ The authors did not throw GLUE away. They built a smaller, meaner English suite 
 
 ## Fewer tasks, more stubborn ones
 
-SuperGLUE’s core tasks, as the paper specifies them, include:
+<!-- graphics-pack:v1 -->
 
-- **BoolQ** — Clark et al.’s yes/no questions, the kind a person actually types, paired with a Wikipedia passage.
-- **CB** — CommitmentBank, a small, nasty inference set about what a speaker has committed to.
-- **COPA** — Roemmele, Bejan, and Gordon’s Choice of Plausible Alternatives: a premise and two causal tails. Common sense as a fork in the road.
-- **MultiRC** — Khashabi et al.’s multi-sentence questions with multiple correct answers. F1 that cannot be faked by picking one span.
-- **ReCoRD** — Zhang et al.’s cloze over news, entities as the missing piece.
-- **RTE** — kept from GLUE, because entailment was still earning its keep.
-- **WiC** — Pilehvar and Camacho-Collados, word-in-context: is this word the same sense in two sentences?
-- **WSC** — a Winograd Schema format closer to Levesque’s original pronoun problem than GLUE’s WNLI recast.
+<figure class="eval-figure">
+<img src="../assets/superglue/historical-timeline.svg" alt="Timeline of public milestones for SuperGLUE: the sequel that admitted the first test got easy: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-The mix is still English, still mostly classification and span-ish work, still an average of unlike scores. It is “stickier” because the items were chosen to remain hard after BERT-style fine-tuning had embarrassed GLUE.
+
 
 ## What “stickier” meant in 2019
 
-It meant: human performance still sat above the machines by a gap you could discuss without squinting. It meant: you could not win by being merely good at MNLI-style entailment and sentiment. COPA and WSC punish a model that has no idea what “it” points at. MultiRC punishes a model that thinks a question has one highlightable phrase. BoolQ punishes a model that cannot say no.
+<!-- graphics-pack:v1 -->
 
-It also meant the suite was smaller. Small is sticky and small is brittle. CB and WSC do not give you the law of large numbers. A prompt quirk, a label error, or a leak can move the headline more than a genuine modeling idea. SuperGLUE inherited GLUE’s leaderboard culture and a more fragile denominator.
+<figure class="eval-figure">
+<img src="../assets/superglue/instrument-chart.svg" alt="Instrument chart for SuperGLUE: the sequel that admitted the first test got easy: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## The human ceiling as a character
 

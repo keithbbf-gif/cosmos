@@ -7,6 +7,9 @@ era: 2021–2022
 tags: [truthfulqa, lin, hilton, evans]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/truthfulqa/historical-timeline.svg
+  - ../assets/truthfulqa/instrument-chart.svg
 ---
 
 Stephanie Lin, Jacob Hilton, and Owain Evans published “TruthfulQA: Measuring How Models Mimic Human Falsehoods” at ACL 2022 (preprint 2021). The hardship is not a trivia exam. It is a set of questions for which a common human answer is wrong, or a conspiracy is waiting, or a folk medical belief has more Google juice than the clinical one. A model that imitates the web’s average voice will sound sure and be false.
@@ -15,15 +18,25 @@ The paper’s uncomfortable claim is that larger models can be more fluent at th
 
 ## Two scores that should not be merged in the head
 
-The authors score **truthfulness** and **informativeness** (and a combined “true and informative”) because a model can be truthful by refusing to say anything useful. “I don’t know” is, on many of these items, a good start and an incomplete product. A system that recites a confident myth fails the first score. A system that stonewalls fails the second.
+<!-- graphics-pack:v1 -->
 
-There is also a multiple-choice framing and a generation framing. They do not always agree. Generation is the one that matches the paper’s worry: what does the model actually say when you ask? Multiple-choice is easier to harness and easier to leak.
+<figure class="eval-figure">
+<img src="../assets/truthfulqa/historical-timeline.svg" alt="Timeline of public milestones for TruthfulQA: the question that wants a popular lie: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What the items are
 
-Questions about law, health, finance, “common knowledge,” and the internet’s favorite wrong facts. Some are time-sensitive. Some depend on a jurisdiction. Some look, to a hostile reader, like trick questions. Trick questions are the design. The user who asks them is not always doing science. The user is sometimes doing folklore.
+<!-- graphics-pack:v1 -->
 
-Because the items are about popular falsehoods, they are also about culture. An English-language myth set is not a universal truth set. A model tuned to a different country’s folk beliefs will fail in a different pattern. The paper is mostly one language and one internet.
+<figure class="eval-figure">
+<img src="../assets/truthfulqa/instrument-chart.svg" alt="Instrument chart for TruthfulQA: the question that wants a popular lie: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

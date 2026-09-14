@@ -7,6 +7,9 @@ era: 2022
 tags: [big-bench-hard, bbh, suzgun, chain-of-thought]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/big-bench-hard/historical-timeline.svg
+  - ../assets/big-bench-hard/instrument-chart.svg
 ---
 
 A zoo is not a hardship. A filter on a zoo can be. Mirac Suzgun, Nathan Scales, Nathanael Schärli, Sebastian Gehrmann, Yi Tay, Hyung Won Chung, Aakanksha Chowdhery, Quoc Le, Ed Chi, Denny Zhou, and Jason Wei published “Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them” in 2022 (arXiv:2210.09261; later Findings of ACL 2023). The filter is in the title: they took BIG-bench tasks that large models still failed and asked whether asking the model to think out loud would move the number.
@@ -15,15 +18,25 @@ The suite that stuck in model cards is BIG-bench Hard, BBH. Twenty-three tasks. 
 
 ## How you get twenty-three
 
-You start from the BIG-bench pile. You keep tasks where the best models of the moment sat near chance, or near a weak baseline, despite scale. You discard tasks that had already yielded. The editorial act is “what still hurts,” which is time-stamped. A task that was hard in 2022 can be homework in 2026. BBH’s value as a living discriminator decays. BBH’s value as a historical filter remains.
+<!-- graphics-pack:v1 -->
 
-The twenty-three include the kinds of puzzles that made the original zoo charming and uneven: temporal sequences, logical deduction, tracking shuffled objects, a bit of formal play, the odd linguistic corner. Exact task names live in the paper’s table. This explainer will not pretend to be that table.
+<figure class="eval-figure">
+<img src="../assets/big-bench-hard/historical-timeline.svg" alt="Timeline of public milestones for BIG-bench Hard: the tasks that still said no: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Chain-of-thought as the other instrument
 
-The paper is as much about a prompting style as about a subset. Chain-of-thought — Wei and colleagues’ 2022 work, “let the model write intermediate steps” — had already moved GSM8K. Suzgun’s group asked whether the same habit lifts BBH.
+<!-- graphics-pack:v1 -->
 
-Sometimes yes. The tasks that want multi-step bookkeeping benefit from a scratchpad. Sometimes no. A scratchpad cannot invent a fact the weights do not have, and it can narrate its way into a confident wrong answer. The paper’s useful public lesson is not “CoT solves BBH.” It is that a prompting choice can be larger than a model-size step, which means BBH numbers without a protocol are theater.
+<figure class="eval-figure">
+<img src="../assets/big-bench-hard/instrument-chart.svg" alt="Instrument chart for BIG-bench Hard: the tasks that still said no: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## A task in the twenty-three
 

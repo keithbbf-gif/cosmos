@@ -7,6 +7,9 @@ era: 2022–2023
 tags: [helm, stanford, crfm, liang]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/helm/historical-timeline.svg
+  - ../assets/helm/instrument-chart.svg
 ---
 
 Most evaluation projects add a hardship. HELM added a tax on the way the field talked. Percy Liang, Rishi Bommasani, Tony Lee, and a long Stanford CRFM list published “Holistic Evaluation of Language Models” as a 2022 preprint (arXiv:2211.09110) and in *Transactions on Machine Learning Research* in 2023. A shorter telling by Bommasani, Liang, and Lee also appeared in the *Annals of the New York Academy of Sciences* that year. The website and the toolkit are public: crfm.stanford.edu/helm, github.com/stanford-crfm/helm.
@@ -15,15 +18,25 @@ The word in the title is the argument. Holistic, here, means: many scenarios, se
 
 ## The diagnosis
 
-Before HELM, the authors said, prominent models were evaluated on overlapping scraps. Their figure of merit is memorable: on average, models had been run on a small fraction of the scenarios HELM treated as core — the paper’s abstract gives 17.9 percent — and some well-known systems shared no scenario at all. You cannot compare what you did not run.
+<!-- graphics-pack:v1 -->
 
-The other diagnosis is the single number. Accuracy on a favorite file had become a worldview. HELM’s core design measures multiple desiderata on the same scenarios: accuracy, calibration, robustness (their word, in the paper), fairness, bias, toxicity, efficiency — seven metrics, sixteen core scenarios, as far as the data allowed. The paper’s own accounting is that this multi-metric grid was filled most of the time, not perfectly. Missing cells are part of the honesty.
+<figure class="eval-figure">
+<img src="../assets/helm/historical-timeline.svg" alt="Timeline of public milestones for HELM: the refusal to print one number: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Scenarios, not a mascot task
 
-A HELM scenario is a use case with a dataset and a metric adaptation: question answering, summarization, sentiment, information retrieval, toxicity detection, and others that were not, in 2022, on every model card. Targeted evaluations sit beside the core: knowledge, reasoning, memorization and copyright, disinformation. The taxonomy is the point. If a capacity is not in the taxonomy, the paper is supposed to say so, rather than let a GLUE average impersonate it.
+<!-- graphics-pack:v1 -->
 
-This makes HELM a poor mascot. There is no one “HELM score” the press can tattoo on a model. That is a defect if you are writing a tweet. It is the design if you are writing a paper about transparency.
+<figure class="eval-figure">
+<img src="../assets/helm/instrument-chart.svg" alt="Instrument chart for HELM: the refusal to print one number: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## What they ran
 

@@ -7,6 +7,9 @@ era: 2019
 tags: [hellaswag, zellers, commonsense]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/hellaswag/historical-timeline.svg
+  - ../assets/hellaswag/instrument-chart.svg
 ---
 
 Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi published “HellaSwag: Can a Machine Really Finish Your Sentence?” at ACL 2019. The name is a joke on SWAG, their earlier adversarial dataset, and on the swagger of a model that thinks it knows what happens next. The task is simple to state. You get a context. You pick which of four endings is the natural continuation.
@@ -15,15 +18,25 @@ The contexts come from everyday video captions and how-to text — ActivityNet, 
 
 ## Adversarial filters, not random wrong answers
 
-If you sample random endings, a model that has learned a little about English can often reject the junk. HellaSwag’s wrong answers were filtered to fool then-current models while remaining obvious to people. The method sits in a line Choi’s group worked hard: build a dataset that is easy for humans and hard for the machines you have, then watch the next machines eat it.
+<!-- graphics-pack:v1 -->
 
-Adversarial filtering is a timestamp. The negatives were hard for BERT-era models. They are less hard for a 2024 chatbot. The items remain a test of whether a model prefers a physically and socially ordinary continuation over a fluent absurdity. When scores approach the human ceiling, the filter has done its historical job.
+<figure class="eval-figure">
+<img src="../assets/hellaswag/historical-timeline.svg" alt="Timeline of public milestones for HellaSwag: the ending that should be obvious: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “commonsense” means here
 
-It means: water is wet, a person who picks up a bag is probably leaving, a recipe’s next sentence is not a random clause about Jupiter. It does not mean moral common sense, or scientific common sense, or the common sense of a culture that is not in the captions. WikiHow has a voice. ActivityNet has a voice. Those voices are the world the endings come from.
+<!-- graphics-pack:v1 -->
 
-A four-choice continuation is also not the same as writing the next sentence. Generation can be worse than selection. HellaSwag will not catch a model that can pick (B) and cannot tell the story.
+<figure class="eval-figure">
+<img src="../assets/hellaswag/instrument-chart.svg" alt="Instrument chart for HellaSwag: the ending that should be obvious: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

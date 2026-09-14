@@ -7,6 +7,9 @@ era: 2023–2024
 tags: [alpacaeval, tatsu, preference]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/alpacaeval/historical-timeline.svg
+  - ../assets/alpacaeval/instrument-chart.svg
 ---
 
 Stanford’s Alpaca project (Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, Tatsunori Hashimoto, and collaborators) started as a recipe for instruction-following from a relatively small model. The evaluation habit that escaped the recipe is AlpacaEval: a set of instructions, a baseline model’s replies, a judge model that picks a winner, and a win rate that looks like a percentage of truth.
@@ -15,15 +18,25 @@ Yann Dubois and colleagues documented the evaluator in public technical reports 
 
 ## What it actually scores
 
-Not correctness. Not citation. Preference, as modeled by a judge, against a fixed baseline (the original public baseline was a strong closed chat model of that moment). A 50 percent win rate means “the judge does not prefer you to the baseline.” An 80 percent win rate means “the judge prefers you often.” It does not mean you are right on 80 percent of facts.
+<!-- graphics-pack:v1 -->
 
-The instruction set is a file. That is a virtue (reproducible) and a vice (gameable, leakable, not the live crowd). People optimized for AlpacaEval the way they optimized for BLEU. The metric became a culture.
+<figure class="eval-figure">
+<img src="../assets/alpacaeval/historical-timeline.svg" alt="Timeline of public milestones for AlpacaEval: a cheap preference, a loud number: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Length, the scandal that was a finding
 
-If a judge likes more words, a model that pads will rise. Dubois’s later write-ups treat this as a defect to correct, not as a moral failing of one lab. Length-controlled AlpacaEval is a different instrument from the uncontrolled one. A card that reports a high win rate without saying which version is choosing the softer weather.
+<!-- graphics-pack:v1 -->
 
-Style is the broader scandal. A judge with a favorite list format, a favorite hedging style, or a family resemblance to the candidate will vote its taste. This is the same weather as MT-Bench. It is cheaper than Arena and louder than it should be, because a percentage is easier to print than a Bradley-Terry coefficient with error bars.
+<figure class="eval-figure">
+<img src="../assets/alpacaeval/instrument-chart.svg" alt="Instrument chart for AlpacaEval: a cheap preference, a loud number: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

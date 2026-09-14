@@ -7,6 +7,9 @@ era: 2019
 tags: [natural-questions, google, kwiatkowski, qa]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/natural-questions/historical-timeline.svg
+  - ../assets/natural-questions/instrument-chart.svg
 ---
 
 Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, Kristina Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov published “Natural Questions: a Benchmark for Question Answering Research” in *Transactions of the ACL*, 2019. Google. The questions are real Google queries. The documents are Wikipedia pages. The annotators mark a long answer (a paragraph) and, when possible, a short answer (a span), or they mark that the page does not answer the query.
@@ -15,15 +18,25 @@ SQuAD’s workers read a paragraph and invented a question. NQ’s pipeline star
 
 ## Why “natural” is doing work
 
-A crowdworker staring at a paragraph asks questions the paragraph can answer. A user staring at a search box asks questions that are underspecified, wrongly spelled, temporally loaded, or simply not about the page you retrieved. NQ keeps the ones that were paired with a Wikipedia result and then asks: is the answer here, and where?
+<!-- graphics-pack:v1 -->
 
-The unanswerable slice is first-class. A system that always highlights will be punished. SQuAD 2.0 learned that lesson in a synthetic way. NQ brought it in from the query log.
+<figure class="eval-figure">
+<img src="../assets/natural-questions/historical-timeline.svg" alt="Timeline of public milestones for Natural Questions: the query came from a person: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Long and short
 
-The **long answer** task is closer to retrieval-inside-a-page: which passage, if any? The **short answer** task is closer to SQuAD, when a short span exists. Some queries want a yes/no. The paper’s metrics treat these as related but not identical sports. A card that reports “NQ” without long versus short is smearing them.
+<!-- graphics-pack:v1 -->
 
-Open-domain NQ — retrieve from all of Wikipedia, then read — is the setting that later retriever papers used. Closed-book NQ — no page, just the model — is a different exam that people sometimes run anyway. Name the setting.
+<figure class="eval-figure">
+<img src="../assets/natural-questions/instrument-chart.svg" alt="Instrument chart for Natural Questions: the query came from a person: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

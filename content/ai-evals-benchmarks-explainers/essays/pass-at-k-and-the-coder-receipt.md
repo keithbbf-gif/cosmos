@@ -7,6 +7,9 @@ era: 2021–2024
 tags: [pass-at-k, humaneval, mbpp, code]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/pass-at-k-and-the-coder-receipt/historical-timeline.svg
+  - ../assets/pass-at-k-and-the-coder-receipt/instrument-chart.svg
 ---
 
 Coding benchmarks did not have to invent a new metaphysics. They inherited unit tests. A function either satisfies the hidden tests or it does not. That is already cleaner than BLEU. The mess arrived when the models became samplers.
@@ -17,17 +20,25 @@ The metric is a receipt, not a personality. This essay is about what the receipt
 
 ## The estimator
 
-The naive version is easy to game in your head: generate k samples, if any one passes, count a win. If you report that number from a single lucky run of k, you have described a lottery ticket. The Codex paper, and the evaluation code that followed it, use an unbiased estimator from n ≥ k samples: draw n completions, count the number that pass, then estimate the probability that at least one of k random draws would have passed.
+<!-- graphics-pack:v1 -->
 
-People still say “pass@1” when they mean “greedy decode, one try, temperature 0,” and they say “pass@100” when they mean “we threw a compute bag at the problem.” Those are different instruments that share a prefix. A table that mixes them without naming n, k, and temperature is a table of rumors.
+<figure class="eval-figure">
+<img src="../assets/pass-at-k-and-the-coder-receipt/historical-timeline.svg" alt="Timeline of public milestones for pass@k, a receipt for a sample: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Why code got a cleaner cheap judge
 
-BLEU compares strings to a reference translation. `pass@k` compares behavior to tests. Two programs that look nothing alike can both pass. That is the whole point of a test suite, and it is why HumanEval and MBPP (Austin et al., 2021) could score programs the authors had never seen.
+<!-- graphics-pack:v1 -->
 
-The cleanliness is limited. Tests are not specifications. A HumanEval problem has a docstring, a signature, and a few hidden tests. A program can pass those tests and still be a menace: quadratic when it should be linear, wrong on an empty list the tests forgot, helpful in the way a stack-overflow snippet is helpful until production. MBPP’s “mostly basic” problems are mostly basic. They measure a real skill. They do not measure software engineering.
+<figure class="eval-figure">
+<img src="../assets/pass-at-k-and-the-coder-receipt/instrument-chart.svg" alt="Instrument chart for pass@k, a receipt for a sample: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
 
-SWE-bench (Jimenez, Yang, Wettig, Yao, Pei, Press, Narasimhan; ICLR 2024) changed the receipt. The unit is not a function. It is a repository and an issue. The scorer is fail-to-pass tests from a real pull request, plus a check that previously passing tests still pass. That is still `pass` in spirit — did the suite go green? — and it is a different hardship. One sample is an agent trajectory, not a 20-line completion. People still quote a percentage. They should quote the harness: which subset, which tools, how many attempts.
+
 
 ## The compute leftover
 

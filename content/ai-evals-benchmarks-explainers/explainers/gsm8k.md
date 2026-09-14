@@ -7,6 +7,9 @@ era: 2021
 tags: [gsm8k, openai, math, cobbe]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/gsm8k/historical-timeline.svg
+  - ../assets/gsm8k/instrument-chart.svg
 ---
 
 The name is a count. GSM8K is about eight thousand grade-school math word problems. Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman published “Training Verifiers to Solve Math Word Problems” in 2021 (arXiv:2110.14168). OpenAI. The paper is about verifiers. The dataset became the thing people meant when they said a model could “do math.”
@@ -15,15 +18,25 @@ That sentence was always too large. The items are the word problems a careful ch
 
 ## What an item looks like
 
-A short story. Numbers. A question. A worked solution in the training split, written so a verifier has something to read. A final answer that can be checked as an integer (or a simple number) after normalization. The scorer is closer to code’s cheap judge than to BLEU: you can be wordy, you can be messy, and if the last number is right you often get the point.
+<!-- graphics-pack:v1 -->
 
-That last clause is the leak in the metric. A model can babble and still land the integer. A model can reason cleanly and trip the parser. Harnesses that only regex the last number are measuring a mix of arithmetic and formatting compliance. Better harnesses are pickier. Name yours.
+<figure class="eval-figure">
+<img src="../assets/gsm8k/historical-timeline.svg" alt="Timeline of public milestones for GSM8K: grade-school arithmetic, written out: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Why verifiers were the paper’s idea
 
-Cobbe’s group did not only release a file. They trained models to solve and models to check solutions. The verifier story is an ancestor of later “let the model grade the model” and of process-versus-outcome reward talk. This explainer stays with the file because the file is what escaped.
+<!-- graphics-pack:v1 -->
 
-The file escaped because it was hard enough, in 2021, to make large models look uneven, and easy enough to understand that a journalist could reprint one problem. Multi-step word problems are a folk definition of reasoning. They are also a folk definition of what a textbook puts on page 47.
+<figure class="eval-figure">
+<img src="../assets/gsm8k/instrument-chart.svg" alt="Instrument chart for GSM8K: grade-school arithmetic, written out: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

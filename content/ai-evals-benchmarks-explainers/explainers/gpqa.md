@@ -7,6 +7,9 @@ era: 2023–2024
 tags: [gpqa, diamond, rein]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/gpqa/historical-timeline.svg
+  - ../assets/gpqa/instrument-chart.svg
 ---
 
 David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel R. Bowman published “GPQA: A Graduate-Level Google-Proof Q&A Benchmark” in 2023 (arXiv:2311.12022; later COLM 2024). The subtitle is the design. The questions are written by domain experts in biology, physics, and chemistry so that a non-expert with a search engine should still struggle, and an expert should be able to agree on the answer.
@@ -15,13 +18,25 @@ David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe P
 
 ## What an item is
 
-A multiple-choice question at a graduate level of detail. Not “what is a mitochondrion.” Closer to a qualifier-exam probe, with distractors that look right to a person who almost remembers. The authors report expert and non-expert accuracies to show the gap. That gap is the benchmark’s reason to exist. If non-experts with Google catch up, the “proof” has failed. If experts disagree, the item is a bad exam question.
+<!-- graphics-pack:v1 -->
 
-**GPQA Diamond** is the subset the authors (and later cards) treat as cleaner: higher expert agreement, fewer messy items. If a card says GPQA and means Diamond, it should say Diamond. The full set and the diamond set are different denominators.
+<figure class="eval-figure">
+<img src="../assets/gpqa/historical-timeline.svg" alt="Timeline of public milestones for GPQA: graduate questions, Google not invited: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Why Bowman is on this paper too
 
-Samuel Bowman is also a GLUE and SuperGLUE author. The through-line is not a coincidence. GPQA is what you build when four-choice undergraduate exams (MMLU) have become too kind, and when you still want a file rather than a room. The NYU-and-friends taste is back: hidden hardship, a published protocol, a suspicion of easy numbers.
+<!-- graphics-pack:v1 -->
+
+<figure class="eval-figure">
+<img src="../assets/gpqa/instrument-chart.svg" alt="Instrument chart for GPQA: graduate questions, Google not invited: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

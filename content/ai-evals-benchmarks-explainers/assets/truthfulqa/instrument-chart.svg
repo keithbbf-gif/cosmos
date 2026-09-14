@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">TruthfulQA: the question that wants a popular lie — instrument chart</title>
+  <desc id="desc">Scoring shape for the second section. Illustrative, not live data.</desc>
+  <rect width="100%" height="100%" fill="#f7f5f0"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1a2332">TruthfulQA: the question that wants a popular lie — instrument chart</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Scoring shape for the second section. Illustrative, not live data.</text>
+  <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2d5a8a"/></marker></defs>
+  <rect x="24" y="72" width="712" height="360" fill="#eceae4" stroke="#c8cdd4" rx="4"/>
+  <rect x="48" y="110" width="520" height="56" rx="6" fill="#f7f5f0" stroke="#c8cdd4"/>
+  <text x="308.0" y="143.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">stem + passage (if any)</text>
+  <rect x="48" y="190" width="110" height="40" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="103.0" y="215.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">A</text>
+  <rect x="178" y="190" width="110" height="40" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="233.0" y="215.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">B</text>
+  <rect x="308" y="190" width="110" height="40" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="363.0" y="215.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">C</text>
+  <rect x="438" y="190" width="110" height="40" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="493.0" y="215.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">D</text>
+  <rect x="48" y="270" width="200" height="48" rx="6" fill="#8b3a2b" stroke="#c8cdd4"/>
+  <text x="148.0" y="299.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">accuracy @ 1</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5c6570">Original explainer chart — not a leaderboard scrape. ai-evals-benchmarks-explainers, staged.</text>
+</svg>

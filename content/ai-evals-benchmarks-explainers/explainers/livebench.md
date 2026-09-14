@@ -7,6 +7,9 @@ era: 2024–2025
 tags: [livebench, contamination, white]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/livebench/historical-timeline.svg
+  - ../assets/livebench/instrument-chart.svg
 ---
 
 Colin White, Samuel Dooley, Manley Roberts, Arka Pal, and a list that includes Benjamin Feuer, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, and Micah Goldblum published “LiveBench: A Challenging, Contamination-Limited LLM Benchmark” as arXiv:2406.19314 (June 2024) and later as an ICLR 2025 paper. The title on arXiv is the honest one. An earlier draft said “contamination-free.” Free is a hope. Limited is a method.
@@ -15,15 +18,25 @@ The method is three refusals at once: refuse a stale file, refuse a chatty human
 
 ## Where the new items come from
 
-Recent math contests, arXiv papers, news, and datasets that did not exist when last month’s models were trained — plus harder recasts of older tasks (BBH-ish puzzles, IFEval-ish constraints, AMPS-ish math). The mix is the point. A bench that only refreshes trivia becomes a news quiz. A bench that only refreshes math becomes a contest dump. LiveBench wants several skills to move at once.
+<!-- graphics-pack:v1 -->
 
-Automatic scoring means the answers have to be checkable: a number, a structured object, a program, a constraint. You lose the soft preference that Arena captures. You gain the ability to grade at 2 a.m. without hiring a cousin of the candidate.
+<figure class="eval-figure">
+<img src="../assets/livebench/historical-timeline.svg" alt="Timeline of public milestones for LiveBench: a file that tries to keep moving: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “monthly” does to citation
 
-It makes “the LiveBench number” a time series. Version your citation. A June 2024 table and a 2025 table are not a disagreement; they are two instruments that share a constitution. Cards that print a live site’s headline without a version are printing weather.
+<!-- graphics-pack:v1 -->
 
-The authors reported that even top models sat well below a comfortable ceiling on the early releases (the abstract’s “below 70 percent” is a dated snapshot). Use it as a qualitative claim about difficulty at launch, not as a constant.
+<figure class="eval-figure">
+<img src="../assets/livebench/instrument-chart.svg" alt="Instrument chart for LiveBench: a file that tries to keep moving: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

@@ -7,6 +7,9 @@ era: 2024
 tags: [mmlu-pro, mmlu, tiger-lab]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/mmlu-pro/historical-timeline.svg
+  - ../assets/mmlu-pro/instrument-chart.svg
 ---
 
 When a four-choice exam stops hurting, you can add more wrong answers, throw out the noisy questions, and ask for work. Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, and colleagues — TIGER-Lab at Waterloo, with Toronto and Carnegie Mellon names on the line — published “MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark” at NeurIPS 2024 (Datasets and Benchmarks, Spotlight). The preprint is arXiv:2406.01574.
@@ -15,21 +18,25 @@ The title uses a word this series otherwise bans as house style. It is their tit
 
 ## What they changed
 
-Three mechanical changes do most of the work.
+<!-- graphics-pack:v1 -->
 
-**More options.** Four choices become ten. Random accuracy collapses. Elimination strategies get more expensive. A model that was coasting on “not C or D” has more alphabet to fear.
+<figure class="eval-figure">
+<img src="../assets/mmlu-pro/historical-timeline.svg" alt="Timeline of public milestones for MMLU-Pro: ten choices, fewer easy A’s: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-**Harder stems.** The paper describes a shift from knowledge-heavy items toward questions that want reasoning. Chain-of-thought, which was a mixed blessing on original MMLU, helps more here. That is a finding, not a slogan: if talking through the problem raises accuracy, the items were not only recall.
 
-**Cleaning.** Trivial and noisy MMLU questions get dropped. Anyone who has browsed the original file has met a stem that is ambiguous, dated, or just poorly written. Removing those is unglamorous and is the difference between a sequel and a remix.
-
-The public dataset card and the paper put the result in the twelve-thousand-question range across fourteen domains (biology, business, chemistry, computer science, economics, engineering, health, history, law, math, philosophy, physics, psychology, and an “other”). Use the paper’s counts when you need a number; do not invent a finer one.
 
 ## What they measured besides accuracy
 
-The authors ran many prompt styles and reported that scores moved less than on MMLU. Stability under prompting is a second-class metric that should be first-class. A benchmark that changes five points when you swap “Answer:” for “The answer is” is measuring your template library.
+<!-- graphics-pack:v1 -->
 
-They also reported a large accuracy drop relative to MMLU on the same models — the paper’s abstract gives a 16 to 33 percent band. That band is their measurement, dated to their runs. It is not a universal tax you can subtract from any later card.
+<figure class="eval-figure">
+<img src="../assets/mmlu-pro/instrument-chart.svg" alt="Instrument chart for MMLU-Pro: ten choices, fewer easy A’s: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## What it still is
 

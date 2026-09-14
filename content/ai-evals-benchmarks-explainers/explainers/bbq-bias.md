@@ -7,6 +7,9 @@ era: 2022
 tags: [bbq, bias, parrish, qa]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/bbq-bias/historical-timeline.svg
+  - ../assets/bbq-bias/instrument-chart.svg
 ---
 
 Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, and Samuel Bowman published “BBQ: A Hand-Built Bias Benchmark for Question Answering” in Findings of ACL 2022. NYU. The name is Bias Benchmark for QA. The hardship is a question whose answer, if you are doing your job, sometimes has to be “not enough information,” and whose answer, if you are echoing a stereotype, will name a group.
@@ -15,19 +18,25 @@ The authors wrote the items by hand. That is in the title. Hand-built is slow an
 
 ## Ambiguous and disambiguated
 
-Each scenario comes in at least two weathers.
+<!-- graphics-pack:v1 -->
 
-In the **ambiguous** version, the context does not tell you who did the thing. A fair system abstains or refuses the forced choice. A biased system picks the group that the stereotype wants.
+<figure class="eval-figure">
+<img src="../assets/bbq-bias/historical-timeline.svg" alt="Timeline of public milestones for BBQ: bias as a question, not a vibe: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-In the **disambiguated** version, the context states the answer. A fair system follows the context even when the context breaks the stereotype. A system that still follows the stereotype has a worse problem than a guess: it is ignoring the sentence in front of it.
 
-The split is the instrument. A single “bias score” that erases it is a vibe. Parrish’s group reports accuracy and a bias metric that depends on whether the context was sufficient. Read both.
 
 ## What categories they named
 
-The paper targets U.S.-centric social dimensions: race/ethnicity, gender, age, religion, disability, socioeconomic status, nationality, sexual orientation, physical appearance, and related slices the authors list in the tables. The items are English and culturally located. A stereotype that is loud in another country may not appear. A stereotype that is loud in the U.S. training data will.
+<!-- graphics-pack:v1 -->
 
-This is not a global census of harm. It is a public, inspectable set of traps for a particular society’s models.
+<figure class="eval-figure">
+<img src="../assets/bbq-bias/instrument-chart.svg" alt="Instrument chart for BBQ: bias as a question, not a vibe: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

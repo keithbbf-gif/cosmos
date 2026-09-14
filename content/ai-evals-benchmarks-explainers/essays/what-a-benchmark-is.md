@@ -7,6 +7,9 @@ era: 2002–2024
 tags: [overview, evaluation, methodology]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/what-a-benchmark-is/historical-timeline.svg
+  - ../assets/what-a-benchmark-is/instrument-chart.svg
 ---
 
 A benchmark, in the sense this series uses the word, is a public agreement to be compared on a shared hardship. Someone publishes items. Someone publishes a scoring rule. Other people run models and report a number. The hardship is the point. If the items are easy, the agreement dies of saturation. If the rule is vague, the agreement dies of argument. If the items never leave one lab, the agreement was never public.
@@ -15,21 +18,25 @@ That is already more than a dataset. A dataset can sit on a disk. A benchmark is
 
 ## The parts
 
-**Items.** Sentences, questions, images, GitHub issues, tool traces. They have to be fixed enough that two groups can claim to have run “the same test.” They have to be numerous enough that a lucky prompt does not look like a theory.
+<!-- graphics-pack:v1 -->
 
-**A split.** Training, development, test — or, in the 2020s, “the whole thing is test because nobody should fine-tune on it.” The split is where leakage is born. See [When the exam was in the library](contamination-and-leakage.md).
+<figure class="eval-figure">
+<img src="../assets/what-a-benchmark-is/historical-timeline.svg" alt="Timeline of public milestones for What a benchmark is, and what it pretends: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-**A scorer.** Exact match, F1, accuracy, BLEU, `pass@k`, a fail-to-pass test suite, a human vote, a model asked to play judge. The scorer is not a detail. Change the scorer and you have a different instrument that happens to share a folder name.
 
-**A prompt contract.** Older suites assumed fine-tuning. Newer suites assume a template: few-shot, chain-of-thought, system message, tool access. HELM’s authors spent pages on this because, before them, two “MMLU numbers” could be two different homework assignments.
-
-**A report.** A table, a site, a tweet-length claim. The report is where the instrument becomes a rumor.
 
 ## What it pretends
 
-The polite pretense is that the hardship stands for a capacity: “language understanding,” “reasoning,” “coding,” “alignment with human preference.” The papers are usually more careful than the slides. GLUE’s authors called their suite a benchmark for English NLU and then filled it with entailment, sentiment, and grammaticality — real tasks, and not the whole of understanding. MMLU’s authors called theirs massive multitask language understanding and then filled it with multiple-choice exams. Arena’s authors called theirs preference. Preference is the rare case where the pretense and the measurement match.
+<!-- graphics-pack:v1 -->
 
-The dangerous pretense is that a single average is a mind. Nine tasks averaged (GLUE). Fifty-seven subjects averaged (MMLU). A Bradley-Terry coefficient (Arena). A fail-to-pass rate on 2,294 GitHub issues (SWE-bench). Each of those numbers is a compression. Compression is useful. It is also how a specialist model that is merely good at multiple-choice exams becomes, in a keynote, “generally capable.”
+<figure class="eval-figure">
+<img src="../assets/what-a-benchmark-is/instrument-chart.svg" alt="Instrument chart for What a benchmark is, and what it pretends: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## Who gets to publish one
 

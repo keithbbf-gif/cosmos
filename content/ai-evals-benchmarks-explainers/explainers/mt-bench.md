@@ -7,6 +7,9 @@ era: 2023
 tags: [mt-bench, lmsys, llm-as-judge]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/mt-bench/historical-timeline.svg
+  - ../assets/mt-bench/instrument-chart.svg
 ---
 
 Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, Hao Zhang, Joseph Gonzalez, and Ion Stoica published “Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena” at NeurIPS 2023 (Datasets and Benchmarks). The same circle of people would write the Arena paper. MT-Bench is the file-shaped sibling: a set of multi-turn questions, a rubric, and another language model asked to assign a score.
@@ -15,15 +18,25 @@ The title is the warning. They did not only release a bench. They asked whether 
 
 ## What the file contains
 
-Eighty questions, in the original write-up’s common telling, across categories (writing, roleplay, reasoning, math, coding, STEM, humanities, extraction — the paper’s table is the authority). Each is designed for two turns: a prompt and a follow-up that checks whether the system stayed coherent, corrected itself, or obeyed a twist. The “MT” is multi-turn. A one-shot MMLU item is not this sport.
+<!-- graphics-pack:v1 -->
 
-The candidate model answers. A judge model — in the original experiments, often a strong closed model — rates the answer, sometimes pairwise against another candidate, sometimes on a numeric scale. Human agreement studies are the paper’s other half: where the judge matches people, and where it does not.
+<figure class="eval-figure">
+<img src="../assets/mt-bench/historical-timeline.svg" alt="Timeline of public milestones for MT-Bench: eight turns, a model for a judge: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Where a judge goes blind
 
-The paper and the follow-on literature are blunt about biases. Position bias: the reply that sits first (or second) wins too often. Verbosity bias: longer looks better. Self-enhancement: a family of models prefers its own cousins. A judge that cannot do the math problem cannot grade the math problem; it grades the vibe of the write-up.
+<!-- graphics-pack:v1 -->
 
-Zheng’s group measured some of this instead of denying it. That does not make MT-Bench a human preference study. It makes it a cheap approximation with published failure modes.
+<figure class="eval-figure">
+<img src="../assets/mt-bench/instrument-chart.svg" alt="Instrument chart for MT-Bench: eight turns, a model for a judge: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## A turn in the hand
 

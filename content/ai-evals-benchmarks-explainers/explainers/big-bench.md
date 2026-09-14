@@ -7,6 +7,9 @@ era: 2022–2023
 tags: [big-bench, google, beyond-the-imitation-game]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/big-bench/historical-timeline.svg
+  - ../assets/big-bench/instrument-chart.svg
 ---
 
 BIG-bench is what happens when a field tries to crowdsource its own exam. Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, and a very long author list published “Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models” — the paper is dated 2022 on arXiv (2206.04615) and later appeared in *Transactions on Machine Learning Research* (2023). Google organized. The community donated tasks. The acronym is a stretch that everyone immediately shortened.
@@ -15,15 +18,25 @@ The imitation game in the title is Turing’s. The “beyond” is a pile: hundr
 
 ## A benchmark as a conference
 
-Most suites are edited like a journal special issue: a small committee, a taste. BIG-bench is edited like a conference. Tasks have authors. Tasks have varying quality. Some are clever and tiny. Some are large and dull. Some measure a real capability. Some measure whether the model has seen a particular meme. The paper is explicit that this heterogeneity is the point. Diversity of hardship over purity of hardship.
+<!-- graphics-pack:v1 -->
 
-The original public release is in the hundreds of tasks (the paper’s abstract and later write-ups commonly say 204). Do not invent a more precise folklore number; cite the paper’s table if you need one. A JSON format, a GitHub repository, and a rule that you could add a task made the suite feel like infrastructure.
+<figure class="eval-figure">
+<img src="../assets/big-bench/historical-timeline.svg" alt="Timeline of public milestones for BIG-bench: a barn raising with two hundred tasks: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “beyond” included
 
-Things GLUE would not have hosted. Program-like reasoning. Translation between toy languages. Moral and social hypotheticals of uneven seriousness. Music and ASCII. Tasks that are easy to contaminate because they are fun to screenshot. Tasks that are hard to score because the authors wanted generation, not a letter.
+<!-- graphics-pack:v1 -->
 
-The scoring is therefore a federation. Some tasks are exact match. Some are multiple choice. Some need a human or a heuristic. The headline “BIG-bench score” you see on a card is usually a subset average, often the “lite” slice, not a sacred mean of all 200-plus. If the card does not name the slice, it is not a BIG-bench number. It is a mood.
+<figure class="eval-figure">
+<img src="../assets/big-bench/instrument-chart.svg" alt="Instrument chart for BIG-bench: a barn raising with two hundred tasks: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## Scale as a character
 

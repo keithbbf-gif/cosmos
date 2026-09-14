@@ -7,6 +7,9 @@ era: 2023
 tags: [gaia, assistants, meta, hugging-face]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/gaia/historical-timeline.svg
+  - ../assets/gaia/instrument-chart.svg
 ---
 
 Grégoire Mialon, Clémentine Fourrier, Craig Swift, Thomas Wolf, Yann LeCun, and Thomas Scialom published “GAIA: a benchmark for General AI Assistants” in 2023 (arXiv:2311.12983). Meta, Hugging Face, and collaborators. The pitch is a set of questions that are conceptually simple for a person with a browser and a bit of time, and still hard for a 2023 model: look something up, open a file, do a small calculation, combine the pieces, return a short answer.
@@ -15,15 +18,25 @@ The name wants to be large. The scorer wants to be small. A short, checkable str
 
 ## What “general assistant” means here
 
-It means tool use as a lifestyle, not as a demo. The public materials describe levels of difficulty and an expectation that a competent human, given the web and ordinary office tools, can do the item. The model is supposed to plan, browse, read attachments, and stop. The gold is not a 500-word essay. It is a date, a number, a name, a yes/no.
+<!-- graphics-pack:v1 -->
 
-That design resists a model judge’s taste and invites a different cheat: find the answer in a leaked write-up. The questions are charming. Charming questions get blogs. Treat late scores as possibly contaminated.
+<figure class="eval-figure">
+<img src="../assets/gaia/historical-timeline.svg" alt="Timeline of public milestones for GAIA: a general assistant, graded by a short answer: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Levels, not a single mood
 
-The paper bins items by how much composition they want. A level-1 item may be one lookup. A higher level wants a chain. Report the levels. An average that hides a collapse on level 3 is a costume.
+<!-- graphics-pack:v1 -->
 
-The official evaluation path uses a held-out set and a scoring convention the authors document. If you ran a public subset with a homemade judge, you did not run GAIA. You ran a cousin.
+<figure class="eval-figure">
+<img src="../assets/gaia/instrument-chart.svg" alt="Instrument chart for GAIA: a general assistant, graded by a short answer: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

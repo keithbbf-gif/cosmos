@@ -7,6 +7,9 @@ era: 2002–2026
 tags: [overview, evaluation, leaderboards]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/00-series-overview/historical-timeline.svg
+  - ../assets/00-series-overview/instrument-chart.svg
 ---
 
 A benchmark is a file, a rule, and a rumor that the file measures something larger than itself. The file is public. The rule is usually a paper. The rumor is hallway speech: this model “is a 90,” that one “wins Arena,” a third “cracked MATH.” The rumor is where the trouble starts.
@@ -15,15 +18,25 @@ This series is a set of explainers for the public instruments the field actually
 
 ## What belongs here
 
-The pieces stay with published tasks. Alex Wang and Samuel Bowman’s group at NYU put nine English understanding tasks under one average and called it GLUE (ICLR 2019; the preprint is 2018). Dan Hendrycks and colleagues put fifty-seven subject tests in one spreadsheet and called it MMLU (ICLR 2021). Percy Liang, Rishi Bommasani, Tony Lee, and a long Stanford list refused a single number and called the refusal HELM (TMLR 2023; preprint November 2022). Wei-Lin Chiang, Lianmin Zheng, and colleagues at Berkeley and LMSYS let strangers vote between two unnamed chatbots and called the vote Chatbot Arena (ICML 2024; the site opened in May 2023). Those are public acts. They can be named, dated, and disagreed with.
+<!-- graphics-pack:v1 -->
 
-What does not belong here is any private score, unpublished docket, or house formula. If a sentence would only make sense in a room that is not on the internet, it is out. See `NOVELTY_GUARDRAILS.md`.
+<figure class="eval-figure">
+<img src="../assets/00-series-overview/historical-timeline.svg" alt="Timeline of public milestones for A score is not a mind: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## How to read the pack
 
-The six essays are a spine. They argue, in order, that a benchmark is a social object; that contamination is a property of training, not a moral failing of a dataset; that a live arena and a frozen file answer different questions; that BLEU and ROUGE taught the field to love a number before the number was ready; and that coding evals have their own receipt (`pass@k`) which is not the same as “the model can program.”
+<!-- graphics-pack:v1 -->
 
-The forty explainers can be read in any order. Each stays with one instrument. Each should tell you what the task looks like, who published it, how a run is scored, and what the number quietly refuses to say. Cross-links are repo-relative. On a later site they become permalinks.
+<figure class="eval-figure">
+<img src="../assets/00-series-overview/instrument-chart.svg" alt="Instrument chart for A score is not a mind: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## A short history of wanting a number
 

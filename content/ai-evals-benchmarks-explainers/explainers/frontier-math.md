@@ -7,6 +7,9 @@ era: 2024
 tags: [frontiermath, epoch, math]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/frontier-math/historical-timeline.svg
+  - ../assets/frontier-math/instrument-chart.svg
 ---
 
 Elliot Glazer, Ege Erdil, Tamay Besiroglu, and a list of contributing mathematicians published “FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI” in 2024 (arXiv:2411.04872). Epoch AI organized. The hardship is original problems at a level the authors argue is far above Hendrycks MATH: research-adjacent, competition-beyond, the sort of item you would not assign as overnight homework to a strong undergraduate.
@@ -15,15 +18,25 @@ The paper includes interviews with Terence Tao, Timothy Gowers, and Richard Borc
 
 ## Why another math set
 
-MATH saturated for the systems that had learned to be contest students. GSM8K saturated earlier. If you want to know whether a 2025 model is doing new mathematics or doing a familiar contest dance, you need items that are not already in the Art of Problem Solving corpus. Epoch’s answer was to commission them and to keep a large slice unpublished so the crawl would not immediately eat the packet.
+<!-- graphics-pack:v1 -->
 
-Secrecy is the method. It is also the argument you will have with anyone who wants to reproduce the number from a zip file. The paper is public. Many problems are not. Access is a relationship. That is a real cost.
+<figure class="eval-figure">
+<img src="../assets/frontier-math/historical-timeline.svg" alt="Timeline of public milestones for FrontierMath: problems a field medalist would not call homework: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “advanced” means here
 
-It means: a working mathematician would need time, not a trick that is in a standard olympiad chapter. It does not mean “the model is a research collaborator” even if it lands a boxed object. The scorer, as in MATH, wants a checkable answer — often a number or a short mathematical object — not a journal paper.
+<!-- graphics-pack:v1 -->
 
-Tiers later appeared in Epoch’s public materials as a way to talk about difficulty bands. If you cite a tier, cite the dated page or paper version that defines it. Do not invent a folklore tier.
+<figure class="eval-figure">
+<img src="../assets/frontier-math/instrument-chart.svg" alt="Instrument chart for FrontierMath: problems a field medalist would not call homework: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item you will not see
 

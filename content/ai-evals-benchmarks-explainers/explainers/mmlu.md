@@ -7,6 +7,9 @@ era: 2020–2021
 tags: [mmlu, hendrycks, knowledge]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/mmlu/historical-timeline.svg
+  - ../assets/mmlu/instrument-chart.svg
 ---
 
 Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt published “Measuring Massive Multitask Language Understanding” at ICLR 2021. The preprint is from 2020. The name collapsed, immediately, into an acronym that now behaves like a brand: MMLU.
@@ -15,15 +18,25 @@ The hardship is an exam pile. The paper describes 57 tasks drawn from real acade
 
 ## Why it landed
 
-GLUE had measured fine-tuned English classifiers. By 2020 the objects of argument were large pretrained models that were supposed to know things without a task-specific head. An exam is a culturally legible way to ask “do you know things?” People have taken exams. People trust, or at least recognize, a percentage on anatomy or criminal law.
+<!-- graphics-pack:v1 -->
 
-The suite is also wide. A model that memorized Python trivia and failed jurisprudence shows up in the per-subject table. Hendrycks’s group insisted on that table. The world cited the macro average. The average is how MMLU became a personality: “it’s a 74.”
+<figure class="eval-figure">
+<img src="../assets/mmlu/historical-timeline.svg" alt="Timeline of public milestones for MMLU: fifty-seven subjects, four choices, a decade’s shorthand: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What a four-choice exam is
 
-It is a recognition test. The right answer is on the page. A model that cannot produce a legal opinion can still pick (B). A model that can write a careful legal opinion can still miss a poorly written stem. The format is a gift to calibration-by-elimination and a theft from any skill that is generative, tool-using, or interactive.
+<!-- graphics-pack:v1 -->
 
-It is also a gift to contamination. Exam questions are copied. They appear in quizlets, dumps, blogs, and papers. A crawl that has seen enough practice tests will flatter a model that has not “understood” medicine so much as seen the stem. Hendrycks has said, in later public writing, that evals get saturated and leaked; MMLU-Pro exists because the original file got too familiar. See [MMLU-Pro](mmlu-pro.md) and [When the exam was in the library](../essays/contamination-and-leakage.md).
+<figure class="eval-figure">
+<img src="../assets/mmlu/instrument-chart.svg" alt="Instrument chart for MMLU: fifty-seven subjects, four choices, a decade’s shorthand: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## The protocol is the instrument
 

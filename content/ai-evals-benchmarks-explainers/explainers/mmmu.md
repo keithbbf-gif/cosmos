@@ -7,6 +7,9 @@ era: 2024
 tags: [mmmu, multimodal, yue]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/mmmu/historical-timeline.svg
+  - ../assets/mmmu/instrument-chart.svg
 ---
 
 Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, and Wenhu Chen published “MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI” at CVPR 2024. The file is a college-level exam that refuses to drop the figures: charts, chemical structures, maps, scores, diagrams that a text-only model cannot honestly see.
@@ -15,15 +18,25 @@ The title’s “expert AGI” is a mouthful. The instrument is more modest and 
 
 ## What an item is
 
-A question from a college subject — the paper’s subject list is broad, from art history to clinical medicine to engineering — plus one or more images. Answers are multiple choice or a short expression, depending on the item. The scorer is closer to MMLU than to a captioning metric. The vision is not a decoration. If you cover the figure, the question should break.
+<!-- graphics-pack:v1 -->
 
-That last sentence is the quality bar the authors tried to enforce. Some items in any multimodal pile still leak into text. A good card reports a text-only ablation. If the score barely drops when the image is removed, you were not running MMMU. You were running a caption exam.
+<figure class="eval-figure">
+<img src="../assets/mmmu/historical-timeline.svg" alt="Timeline of public milestones for MMMU: a college exam with diagrams: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Why it is not VQAv2
 
-VQAv2 (Goyal et al., CVPR 2017) is everyday photographs and short answers, with a famous unanswerable/balanced design against language priors. ChartQA, DocVQA, TextVQA, MathVista — each later file took a slice (charts, documents, scene text, math figures). MMMU’s bet is breadth-plus-difficulty: many disciplines, college hardness, one noun.
+<!-- graphics-pack:v1 -->
 
-MathVista (Lu et al., ICLR 2024) is the closer cousin for figures-and-math. If your claim is mathematical visual reasoning, say MathVista. If your claim is multi-discipline college multimodal, say MMMU. If your claim is “the model can see,” you need more than one file.
+<figure class="eval-figure">
+<img src="../assets/mmmu/instrument-chart.svg" alt="Instrument chart for MMMU: a college exam with diagrams: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

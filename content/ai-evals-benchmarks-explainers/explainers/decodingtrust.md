@@ -7,6 +7,9 @@ era: 2023
 tags: [decodingtrust, trustworthiness, wang]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/decodingtrust/historical-timeline.svg
+  - ../assets/decodingtrust/instrument-chart.svg
 ---
 
 Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, Sang T. Truong, Simran Arora, Mantas Mazeika, Dan Hendrycks, Zinan Lin, Yu Cheng, Sanmi Koyejo, Dawn Song, and Bo Li published “DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models” at NeurIPS 2023 (Outstanding Paper). The object is a suite: toxicity, stereotype, adversarial robustness, privacy, machine ethics, fairness, and out-of-distribution slices, as the paper tables them, run against GPT-family models and then adopted more widely as a public harness.
@@ -15,15 +18,25 @@ The title says GPT. The method is broader. The warning is the word “comprehens
 
 ## Why a suite instead of a mascot
 
-A model can be polite in a toxicity file and leak a training-set email in a privacy probe. A single “safety score” would hide that. DecodingTrust’s useful public habit is the radar chart, or the table with many columns. If a descendant card compresses the suite into one integer, the citation has failed.
+<!-- graphics-pack:v1 -->
 
-HELM had already argued for multi-metric honesty on capability. DecodingTrust is the trustworthiness cousin: several harms, one protocol family, published prompts.
+<figure class="eval-figure">
+<img src="../assets/decodingtrust/historical-timeline.svg" alt="Timeline of public milestones for DecodingTrust: a suite, not a single safety number: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What this explainer will not do
 
-It will not reprint jailbreak strings. It will not give you a recipe for extracting training data. It will not walk through an attack. The paper exists. The tasks are public at the level of categories and published scripts. That is enough for a magazine piece. Dual-use detail stays in the paper, for readers who have a reason.
+<!-- graphics-pack:v1 -->
 
-If your question is “how do I break a model,” this series will not help you. If your question is “what public instrument were people citing in 2023–2024 when they said trustworthiness,” this is one of the names.
+<figure class="eval-figure">
+<img src="../assets/decodingtrust/instrument-chart.svg" alt="Instrument chart for DecodingTrust: a suite, not a single safety number: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## What a slice looks like
 

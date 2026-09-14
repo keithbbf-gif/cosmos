@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">BIG-bench Hard: the tasks that still said no — dated anchors</title>
+  <desc id="desc">Public milestones for this instrument. Scores move; dates are the spine.</desc>
+  <rect width="100%" height="100%" fill="#f7f5f0"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1a2332">BIG-bench Hard: the tasks that still said no — dated anchors</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Public milestones for this instrument. Scores move; dates are the spine.</text>
+  <rect x="24" y="80" width="96" height="28" rx="4" fill="#2d5a8a" stroke="#c8cdd4"/>
+  <text x="72" y="99" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#f7f5f0">2022</text>
+  <text x="136" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">BIG-bench Hard enters public record</text>
+  <text x="136" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Cross-check years in the essay and BIBLIOGRAPHY.md.</text>
+  <line x1="118" y1="108" x2="118" y2="166" stroke="#c8cdd4" stroke-width="2"/>
+  <rect x="24" y="158" width="96" height="28" rx="4" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="72" y="177" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a2332">2022</text>
+  <text x="136" y="172" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Citations and sequels accumulate</text>
+  <text x="136" y="190" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Cross-check years in the essay and BIBLIOGRAPHY.md.</text>
+  <line x1="118" y1="186" x2="118" y2="244" stroke="#c8cdd4" stroke-width="2"/>
+  <rect x="24" y="236" width="96" height="28" rx="4" fill="#2d5a8a" stroke="#c8cdd4"/>
+  <text x="72" y="255" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#f7f5f0">now</text>
+  <text x="136" y="250" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Read scoring rules, not a stale rank</text>
+  <text x="136" y="268" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Cross-check years in the essay and BIBLIOGRAPHY.md.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5c6570">Original explainer chart — not a leaderboard scrape. ai-evals-benchmarks-explainers, staged.</text>
+</svg>

@@ -7,6 +7,9 @@ era: 2016–2018
 tags: [squad, rajpurkar, stanford, qa]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/squad/historical-timeline.svg
+  - ../assets/squad/instrument-chart.svg
 ---
 
 Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang published “SQuAD: 100,000+ Questions for Machine Comprehension of Text” at EMNLP 2016. Stanford. Wikipedia paragraphs. Questions written by crowdworkers. Answers that are spans in the paragraph. Exact match and token F1 against a small set of gold spans.
@@ -15,17 +18,25 @@ For a few years this was the English question-answering yardstick the way ImageN
 
 ## What the 2016 contract was
 
-The answer is in the paragraph. You do not need the rest of the web. You do not need to refuse. You need to highlight. That contract made scoring cheap and made the task smaller than “answering questions.” It is reading as pointing.
+<!-- graphics-pack:v1 -->
 
-F1 forgives a missing article. Exact match does not. Both will punish a correct answer that is not in the gold span list. Both will reward a model that copies a plausible noun phrase and gets lucky. The site’s live leaderboard (the original SQuAD site) made those numbers a sport.
+<figure class="eval-figure">
+<img src="../assets/squad/historical-timeline.svg" alt="Timeline of public milestones for SQuAD: a span, an F1, a ceiling you could hear: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
 
-Human performance was estimated from overlapping annotations. When models passed that estimate, the sport needed a new rule.
+
 
 ## SQuAD 2.0, the unanswerable turn
 
-Rajpurkar, Robin Jia, and Liang published “Know What You Don’t Know: Unanswerable Questions for SQuAD” at ACL 2018. Same paragraphs, new questions that look well-formed and have no span. A system that always points will be wrong on a large slice. The new headline is a blend of span accuracy and abstention.
+<!-- graphics-pack:v1 -->
 
-2.0 is the more honest instrument if you care about a reader who sometimes should shut up. It is still a paragraph game. Natural Questions (Kwiatkowski et al., 2019) later asked questions that started from real users, not from a worker reading a paragraph. That is a different door into QA. See [Natural Questions](natural-questions.md).
+<figure class="eval-figure">
+<img src="../assets/squad/instrument-chart.svg" alt="Instrument chart for SQuAD: a span, an F1, a ceiling you could hear: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

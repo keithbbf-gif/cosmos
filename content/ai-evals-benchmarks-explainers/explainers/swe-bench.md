@@ -7,6 +7,9 @@ era: 2023–2024
 tags: [swe-bench, princeton, github, agents]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/swe-bench/historical-timeline.svg
+  - ../assets/swe-bench/instrument-chart.svg
 ---
 
 Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan published “SWE-bench: Can Language Models Resolve Real-world GitHub Issues?” as an ICLR 2024 oral (preprint arXiv:2310.06770). Princeton Language and Intelligence, with Chicago on the line. The hardship is not a docstring. It is a repository at a commit, an issue thread, and a demand for a patch that turns fail-to-pass tests green without breaking the tests that were already green.
@@ -15,15 +18,25 @@ The paper’s first public number was small on purpose. Claude 2, in their harne
 
 ## How an instance is built
 
-They crawled pull requests that were tied to issues and that touched tests. The environment is the repo *before* the PR. Some tests fail. After the gold PR, those tests pass. The fail-to-pass tests are the primary key. Pass-to-pass tests are the regression key. The model does not get the gold patch. It gets the issue text and the codebase.
+<!-- graphics-pack:v1 -->
 
-That construction is closer to a job than HumanEval is. It is still a construction. Issues that never had tests do not enter. Repositories that are not among the twelve do not enter. Python is the language of the original file. A model that is excellent at Rust or at an internal monorepo is not in this picture.
+<figure class="eval-figure">
+<img src="../assets/swe-bench/historical-timeline.svg" alt="Timeline of public milestones for SWE-bench: the issue is the exam: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What “resolved” means
 
-It means the harness applied the model’s edits and the designated tests went from red to green, and the previously green tests stayed green. It does not mean a maintainer would merge the patch. It does not mean the commit message is sane. It does not mean the model understood the project’s politics. It means a particular executable key accepted the diff.
+<!-- graphics-pack:v1 -->
 
-The original paper’s baseline agents were not the later SWE-agent, nor the industrial systems that quoted higher percentages on subsets. Those later percentages are other instruments if the harness, the subset, or the tools changed. SWE-bench Lite, SWE-bench Verified (a publicly discussed human-filtered subset associated with OpenAI’s 2024 write-up), and later multilingual or multimodal cousins should be named, not collapsed.
+<figure class="eval-figure">
+<img src="../assets/swe-bench/instrument-chart.svg" alt="Instrument chart for SWE-bench: the issue is the exam: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An instance in the hand
 

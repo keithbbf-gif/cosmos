@@ -7,6 +7,9 @@ era: 2023
 tags: [agieval, exams, zhong]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/agieval/historical-timeline.svg
+  - ../assets/agieval/instrument-chart.svg
 ---
 
 Wanjun Zhong, Ruixiang Cui, Yiduo Guo, Yaobo Liang, Shuai Lu, Yanlin Wang, Amin Saied, Weizhu Chen, and Nan Duan published “AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models” in 2023 (arXiv:2304.06364). Microsoft. The items come from human admissions and professional exams: the Gaokao, the SAT, LSAT, GRE, lawyer and CPA-style tests — the paper’s table is the authority for which forms and which years.
@@ -15,13 +18,25 @@ The name reaches for AGI. The file reaches for exams a person already sits. That
 
 ## Why borrow a human exam
 
-Because the items were written to discriminate humans, not to flatter a crawler — at least at birth. Because the public already believes those exams measure something. Because MMLU’s subject pile and these entrance packets overlap in spirit and differ in editorial origin. Zhong’s group wanted a “human-centric” set: tests that institutions already used on people.
+<!-- graphics-pack:v1 -->
 
-The vice is the same as MMLU’s vice, louder: these exams are everywhere. Prep books, dumps, forums. A model that has seen the SAT packet is not a student who “beat the SAT.” It is a student who may have seen the SAT. Date the form. Prefer official evaluation protocols that try to avoid the most famous reprints.
+<figure class="eval-figure">
+<img src="../assets/agieval/historical-timeline.svg" alt="Timeline of public milestones for AGIEval: human entrance exams, borrowed as a yardstick: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Languages and cultures
 
-Gaokao items are not SAT items. A bilingual suite can hide a collapse on one exam inside an average. Report the exam name. The human-centric claim is also culture-centric: these are particular countries’ gates. They encode those countries’ curricula and those professions’ ideas of readiness.
+<!-- graphics-pack:v1 -->
+
+<figure class="eval-figure">
+<img src="../assets/agieval/instrument-chart.svg" alt="Instrument chart for AGIEval: human entrance exams, borrowed as a yardstick: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

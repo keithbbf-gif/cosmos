@@ -7,21 +7,34 @@ era: 2023–2024
 tags: [lmsys, arena, lmarena, preference]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/lmsys-chatbot-arena/historical-timeline.svg
+  - ../assets/lmsys-chatbot-arena/instrument-chart.svg
 ---
 
 In May 2023 a site invited anyone with a browser to talk to two unnamed chatbots and pick a winner. The people who built it were around LMSYS and UC Berkeley Sky Lab. Wei-Lin Chiang, Lianmin Zheng, Ying Sheng, Anastasios Angelopoulos, Tianle Li, Dacheng Li, Banghua Zhu, Hao Zhang, Michael Jordan, Joseph Gonzalez, and Ion Stoica wrote the method up as “Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference” (ICML 2024; preprint arXiv:2403.04132). The paper’s URL is chat.lmsys.org. The later home is lmarena.ai. The scientific object is the pairwise vote.
 
 ## How a fight works
 
-You type a prompt. Two models, hidden behind aliases, answer. You vote for A, or B, or a tie, or you skip. The prompt is yours. It is not an item from a committee. That is the whole idea, and the whole sampling problem.
+<!-- graphics-pack:v1 -->
 
-The ranking is not a raw win rate. The paper describes a Bradley-Terry style model: a latent strength for each system, estimated from pairwise outcomes, with the usual statistical care about uncertainty. People still say “Elo” in the hallway. The hallway is close enough for gossip and not close enough for a methods section. The important sentence is: a coefficient is not a percentage of questions correct.
+<figure class="eval-figure">
+<img src="../assets/lmsys-chatbot-arena/historical-timeline.svg" alt="Timeline of public milestones for Chatbot Arena: two unnamed replies, one thumb: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What the 2024 paper claimed
 
-At writing, the authors reported more than 240,000 votes, enough prompt diversity to discriminate models, and meaningful agreement between crowd votes and expert raters. Those claims are dated. The vote count is a historical snapshot, not a live widget. Do not update it from memory in this draft.
+<!-- graphics-pack:v1 -->
 
-They also claimed the thing the industry wanted: an open preference leaderboard that was not a company’s private side-by-side. Labs began to quote it. Journalists treated a rank as a review. The site became, for a while, the closest thing the field had to a public weather service for chat.
+<figure class="eval-figure">
+<img src="../assets/lmsys-chatbot-arena/instrument-chart.svg" alt="Instrument chart for Chatbot Arena: two unnamed replies, one thumb: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## The rename, without mythology
 

@@ -7,6 +7,9 @@ era: 2023
 tags: [ifeval, instruction-following, zhou]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/ifeval/historical-timeline.svg
+  - ../assets/ifeval/instrument-chart.svg
 ---
 
 Jeffrey Zhou, Tianjian Lu, Swaroop Mishra, Siddhartha Brahma, Sujoy Basu, Yi Luan, Denny Zhou, and Le Hou published “Instruction-Following Evaluation for Large Language Models” in 2023 (arXiv:2311.07911). Google. The hardship is petty on purpose. Write exactly four bullet points. Mention a keyword. Do not mention another. End with a certain punctuation. Wrap the answer in JSON. The content can be dull. The constraint is the test.
@@ -15,15 +18,25 @@ Most preference evals will forgive a model that is helpful and slightly disobedi
 
 ## Why verifiable is the word
 
-If the instruction is “be nice,” you need a judge. If the instruction is “use exactly two questions marks,” you need a counter. Zhou’s group collected instructions that a script can check. That choice throws out a lot of real user intent and keeps the part that can be graded at 2 a.m. without a model judge.
+<!-- graphics-pack:v1 -->
 
-The benefit is honesty. The cost is a certain bureaucratic flavor. A system can ace IFEval and still be a bad colleague. A system can fail IFEval and still be a good explainer that ignored a silly constraint. The file measures compliance with checkable requests.
+<figure class="eval-figure">
+<img src="../assets/ifeval/historical-timeline.svg" alt="Timeline of public milestones for IFEval: follow the instructions, not the vibe: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What an item looks like
 
-A prompt that mixes a task (explain, list, rewrite) with one or more constraints (length, format, keywords, language, case). The paper groups them into types so you can see whether a model fails JSON more than it fails “start every sentence with a verb.” Category tables matter. A single average will hide a format specialist.
+<!-- graphics-pack:v1 -->
 
-LiveBench later included instruction-following slices in the same spirit, with a calendar. IFEval is the static, early, widely copied version.
+<figure class="eval-figure">
+<img src="../assets/ifeval/instrument-chart.svg" alt="Instrument chart for IFEval: follow the instructions, not the vibe: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

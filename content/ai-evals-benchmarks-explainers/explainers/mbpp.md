@@ -7,6 +7,9 @@ era: 2021
 tags: [mbpp, google, code, austin]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/mbpp/historical-timeline.svg
+  - ../assets/mbpp/instrument-chart.svg
 ---
 
 The title is a warning that the authors printed themselves. Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton published “Program Synthesis with Large Language Models” in 2021 (arXiv:2108.07732). The affiliation is Google. Buried in the work is a dataset they named Mostly Basic Programming Problems: MBPP.
@@ -15,15 +18,25 @@ Mostly basic is not an insult. It is the instrument. Short Python tasks, the sor
 
 ## Why it exists beside HumanEval
 
-HumanEval is 164 handwritten OpenAI problems with a docstring-first style. MBPP is a different editorial taste and a larger pile (the paper describes about a thousand problems, with a smaller sanitized subset that later cards prefer). If you only run HumanEval, you are sampling one lab’s interview voice. MBPP’s prompts are more often a sentence than a specification comment. That sounds like a small difference. It is the difference between “complete this stub” and “do what I said.”
+<!-- graphics-pack:v1 -->
 
-The Google paper is broader than the dataset. It studies synthesis with large models, few-shot prompting, and the usual sampling questions. The dataset outlived the rest of the paper in hallway speech because it was easy to run and easy to cite.
+<figure class="eval-figure">
+<img src="../assets/mbpp/historical-timeline.svg" alt="Timeline of public milestones for MBPP: mostly basic, still a test: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Sanitized, few-shot, and the subset games
 
-The version you should name is the subset. “Sanitized MBPP” drops items that were ugly or broken. Some harnesses use 500-ish test problems, a few-shot draw from a separate split, and a fixed prompt. Others zero-shot the whole thing. Those are not the same number.
+<!-- graphics-pack:v1 -->
 
-Because the problems are basic, the scores saturated earlier than anyone who wanted a frontier claim would like. That does not make MBPP useless. It makes it a regression test. If a new model falls over on “reverse a list” in plain English, you have learned something cheap and important.
+<figure class="eval-figure">
+<img src="../assets/mbpp/instrument-chart.svg" alt="Instrument chart for MBPP: mostly basic, still a test: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

@@ -7,21 +7,34 @@ era: 2019–2020
 tags: [winogrande, winograd, allenai]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/winogrande/historical-timeline.svg
+  - ../assets/winogrande/instrument-chart.svg
 ---
 
 Hector Levesque’s Winograd Schema Challenge (2012) was a small, carefully written set of pronoun problems: two sentences, one word flipped, “it” pointing at a different noun because the world works that way. The set was tiny. Tiny sets die of overfitting and of fame. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi published “WinoGrande: An Adversarial Winograd Schema Challenge at Scale” at AAAI 2020 (preprint 2019). Allen Institute for AI. They tried to keep the pronoun trick and lose the smallness.
 
 ## What an item is
 
-A sentence with a blank or a pronoun, two candidate referents, a bit of commonsense that makes one candidate right. The “grande” is the count: tens of thousands of problems collected with crowdsourcing, then filtered so that then-current models could not coast on artifacts.
+<!-- graphics-pack:v1 -->
 
-The filter matters. Crowdsourced pronoun problems come with statistical tells — gender stereotypes, word overlap, a favorite noun sitting closer to the pronoun. If you do not filter, you get a dataset that looks like WinoGrad and behaves like a bag-of-words test. Sakaguchi’s group used adversarial filtering, in the same family as HellaSwag, to knock out the easy tells.
+<figure class="eval-figure">
+<img src="../assets/winogrande/historical-timeline.svg" alt="Timeline of public milestones for WinoGrande: a crowd of pronouns, a smaller trick: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Scale versus craft
 
-Levesque’s original schemas were written like puzzles for philosophers. WinoGrande’s items are written like puzzles for crowdworkers. You gain N. You lose some of the gem-cutter quality. Both facts should appear in a citation. When a card says “Winograd” and means WinoGrande, the card has blurred a handmade exam with a factory.
+<!-- graphics-pack:v1 -->
 
-GLUE’s WNLI was another recast, even smaller and leakier. SuperGLUE’s WSC sat closer to the original. WinoGrande is the factory edition that the open-LLM tables adopted.
+<figure class="eval-figure">
+<img src="../assets/winogrande/instrument-chart.svg" alt="Instrument chart for WinoGrande: a crowd of pronouns, a smaller trick: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## What it measures
 

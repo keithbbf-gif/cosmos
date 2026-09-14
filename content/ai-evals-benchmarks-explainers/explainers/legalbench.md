@@ -7,6 +7,9 @@ era: 2023
 tags: [legalbench, law, guha]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/legalbench/historical-timeline.svg
+  - ../assets/legalbench/instrument-chart.svg
 ---
 
 Neel Guha, Julian Nyarko, Daniel Ho, Christopher Ré, and a long list of legal and computer-science collaborators published “LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models” (arXiv:2308.11462, 2023; later a NeurIPS datasets paper). Stanford. The hardship is not “take the bar.” It is dozens of small legal tasks that lawyers and legal scholars actually named: classification of a clause, spotting a kind of issue, applying a given rule to a short fact pattern, extraction from a passage.
@@ -15,15 +18,25 @@ The collaborative build is the method. Legal experts proposed tasks. The suite k
 
 ## Why not one exam
 
-A bar-style multiple-choice average will tell you something about exam technique and the crawl of prep books. It will not tell you whether a model can, given a statute excerpt, apply the rule and stop. LegalBench’s authors wanted the second, in pieces small enough to score and to disagree about.
+<!-- graphics-pack:v1 -->
 
-Some tasks are easy classification. Some want you to stay inside a provided rule (a “rule-application” mood that is closer to IRAC as a constrained game than to open-ended advice). The interesting scientific object is the spread. A model that is high on extraction and low on rule application is a highlighter, not a clerk.
+<figure class="eval-figure">
+<img src="../assets/legalbench/historical-timeline.svg" alt="Timeline of public milestones for LegalBench: tasks a lawyer would recognize, not a bar exam cosplay: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## What it will not do
 
-It will not certify a lawyer. It will not replace a professional responsibility course. It will not tell you the law of a jurisdiction the tasks do not cover. U.S. law is over-represented because that is who showed up to write tasks. A card that says “legal reasoning” on the basis of this suite should say “LegalBench’s tasks, mostly U.S.”
+<!-- graphics-pack:v1 -->
 
-It will not measure whether the model refuses to give reckless advice. Pair it with a safety or professional-norm eval if that is your claim.
+<figure class="eval-figure">
+<img src="../assets/legalbench/instrument-chart.svg" alt="Instrument chart for LegalBench: tasks a lawyer would recognize, not a bar exam cosplay: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## An item in the hand
 

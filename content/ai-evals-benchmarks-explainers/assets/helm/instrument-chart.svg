@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">HELM: the refusal to print one number — instrument chart</title>
+  <desc id="desc">Scoring shape for the second section. Illustrative, not live data.</desc>
+  <rect width="100%" height="100%" fill="#f7f5f0"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="20" font-weight="600" fill="#1a2332">HELM: the refusal to print one number — instrument chart</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">Scoring shape for the second section. Illustrative, not live data.</text>
+  <defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2d5a8a"/></marker></defs>
+  <rect x="24" y="72" width="712" height="360" fill="#eceae4" stroke="#c8cdd4" rx="4"/>
+  <rect x="48" y="100" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="148.0" y="129.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">accuracy</text>
+  <rect x="268" y="100" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="368.0" y="129.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">calibration</text>
+  <rect x="488" y="100" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="588.0" y="129.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">bias</text>
+  <rect x="48" y="170" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="148.0" y="199.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">toxicity</text>
+  <rect x="268" y="170" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="368.0" y="199.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">efficiency</text>
+  <rect x="488" y="170" width="200" height="48" rx="6" fill="#eceae4" stroke="#c8cdd4"/>
+  <text x="588.0" y="199.0" text-anchor="middle" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#1a2332">…</text>
+  <text x="36" y="400" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" fill="#5c6570">No single average is the point.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#5c6570">Original explainer chart — not a leaderboard scrape. ai-evals-benchmarks-explainers, staged.</text>
+</svg>

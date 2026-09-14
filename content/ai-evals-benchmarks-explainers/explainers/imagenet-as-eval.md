@@ -7,6 +7,9 @@ era: 2009–2017
 tags: [imagenet, ilsvrc, vision, fei-fei-li]
 portrait: null
 portrait_status: none
+figures:
+  - ../assets/imagenet-as-eval/historical-timeline.svg
+  - ../assets/imagenet-as-eval/instrument-chart.svg
 ---
 
 ImageNet entered the world as a dataset paper (Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei, CVPR 2009): WordNet as a hierarchy, millions of labeled images, a scale of crowdsourcing that earlier vision sets had not attempted. It entered evaluation culture as a contest. The ImageNet Large Scale Visual Recognition Challenge — ILSVRC — made a 1,000-class subset into a yearly error rate.
@@ -15,15 +18,25 @@ This explainer is about the second life. The photographs are the items. The cont
 
 ## What the contest asked
 
-Classify a photograph into one of a thousand categories, or later detect and localize. Top-1 error is harsh. Top-5 error is the number the 2012 story uses: is the right class anywhere in your first five guesses? That mercy is part of the instrument. A model can be usefully confused among collies and still be right in the top five.
+<!-- graphics-pack:v1 -->
 
-The categories are WordNet synsets, which means they are a particular lexical theory of the world. Some are fine-grained animals. Some are objects a household contains. Some are odd to a person who did not grow up with that taxonomy. A confusion matrix on ImageNet is a cultural document as well as a technical one.
+<figure class="eval-figure">
+<img src="../assets/imagenet-as-eval/historical-timeline.svg" alt="Timeline of public milestones for ImageNet as a yardstick, not only as a pile of photos: dated anchors from the published record, not a live leaderboard." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 1. Dated public anchors for this piece. Years follow the essay; verify against BIBLIOGRAPHY.md before print.</figcaption>
+</figure>
+
+
 
 ## Why vision needed it
 
-Caltech-101 and PASCAL-sized sets were too small to absorb a large model’s appetite and too narrow to support a yearly public race. Fei-Fei Li’s group’s bet — later discussed by her in talks as a bet that scale of supervision would move the field — was that a painful, public, large-label set would do for vision what a shared task had done for other corners of AI.
+<!-- graphics-pack:v1 -->
 
-ILSVRC’s calendar made the bet operational. You could not wave away a number as a private split. Other groups could enter. The 2012 convolutional net did not win because it had a better press team. It won because the error rate dropped by a margin that made other summer plans look dated.
+<figure class="eval-figure">
+<img src="../assets/imagenet-as-eval/instrument-chart.svg" alt="Instrument chart for ImageNet as a yardstick, not only as a pile of photos: how items flow to a published metric (illustrative scoring shape, not scraped scores)." width="760" height="460" loading="lazy" decoding="async" />
+<figcaption>Figure 2. Scoring shape for this instrument — protocol, not a weekly rank.</figcaption>
+</figure>
+
+
 
 ## What the yardstick could not hold
 
