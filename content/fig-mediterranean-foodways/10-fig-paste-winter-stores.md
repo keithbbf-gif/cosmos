@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-10
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-10.dried-figs-pile -->
+<figure>
+<img src="assets/images/drying/dried-figs-pile.jpg" alt="Pile of dried common figs for winter paste and stores">
+<figcaption>Figure 1. Fig paste and winter stores start from properly dried common figs with moisture walked down, not from wet stacks. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 A whole dried fig is a performance. It has a shape you can grade. It has a face for a box. A great many figs will never be that person.
 
 They split on the tray. They took a bruise from a fall. They were the small ones at the end of the count. They fermented a little at the eye. None of this is tragedy in a house that still cooks. It is the beginning of paste.

@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-42
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-42.fig-syconium-closeup -->
+<figure>
+<img src="assets/images/fresh/fig-syconium-closeup.jpg" alt="Whole fresh fig for Cypriot spoon sweet">
+<figcaption>Figure 1. Cypriot spoon sweet starts from whole syconia in syrup — fresh common fig, not candied wellness. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 The ritual is older than your visit: a small plate, a spoon, a glass of cold water. The guest takes one sweet. Not three. The lid goes back. This is *glyko tou koutaliou*, and it is a test of whether you were raised or whether you will be forgiven for having been raised elsewhere.
 
 Fig glyko is made with fruit that is still itself — often slightly underripe, so the shape holds and does not dissolve into a brown weather — simmered in a syrup that may carry lemon, a piece of vanilla, a leaf of rose geranium if the house is that house. The fig swells and shines. It looks preserved in the museum sense and tastes like a kitchen that has been hot since morning. A whole fig in syrup is a small animal. You meet its eye. You do not cut it on the hospitality plate; you manage it in two polite bites or you are a child.

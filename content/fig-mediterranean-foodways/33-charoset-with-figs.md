@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-33
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-33.dried-fig-cut-tiia-monto -->
+<figure>
+<img src="assets/images/drying/dried-fig-cut-tiia-monto.png" alt="Chopped dried fig for charoset texture">
+<figcaption>Figure 1. Charoset with figs needs chopped dried common fig — halved fruit shows texture, not a medical benefit. Credit: Tiia Monto. License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 *Charoset* is a paste that has a job: to look like mortar and taste like a reason to stay at the table.
 
 The famous versions lean on apple or date, wine, nut, spice. Fig versions exist wherever the cook’s memory is a hillside rather than a palm: chopped dried figs, wine, walnuts, a little something sharp — vinegar, lemon, a ginger that does not belong to the grocery jar. Italian Jewish kitchens, especially the ones that still talk about Rome and the south, have known a fig-heavy mix that reads as brown and serious. Some Sephardi tables fold fig in with date so the mortar has two browns and two chews. Some North African tables will not hear of it; the date is the mortar and the fig can stay on Tu Bishvat. Israeli grocery Seders will sell you a ready jar that may or may not have met a fig. The homemade ones have. You can tell by whether a seed stops a child’s spoon.

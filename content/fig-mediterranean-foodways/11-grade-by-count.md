@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-11
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-11.dried-figs-tray -->
+<figure>
+<img src="assets/images/drying/dried-figs-tray.jpg" alt="Sorted dried figs counted for export grade">
+<figcaption>Figure 1. Aydın export language counts pieces per kilo — sorted tray fruit is the grade argument made visible. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 The romantic sentence is that every fig is unique. The packing shed does not have time for that sentence.
 
 Aydın İnciri, in the language that protects it, is not allowed to wander past ninety fruits per kilogram if it wants to keep its face. The prettier lots live around forty-five to sixty-five. Those numbers are not nutrition. They are a handshake. A buyer who cannot see the orchard can still see a count. Too many pieces and the fruit is small, or dry to a husk, or a mix that was bulked. Too few and someone is selling you a different dream.

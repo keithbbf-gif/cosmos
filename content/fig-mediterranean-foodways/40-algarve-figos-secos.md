@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-40
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-40.dreid-figs-string -->
+<figure>
+<img src="assets/images/drying/dreid-figs-string.jpg" alt="Algarve figos secos drying on strings">
+<figcaption>Figure 1. Algarve figos secos finish on strings and rafters — Iberian string habit, Adriatic cousin photo. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Tourism painted the Algarve blue. The older palette had a brown bag in it.
 
 Figs and almonds are the inland marriage. You see it in the sweets that still show up at a *festa* when the town is celebrating itself and not a booking platform, in the trees behind a house that now rents by the week, in the phrase *figos secos* said like a furniture item — something you have, not something you plate. The fruit is dried in the same sun the brochures sell, on racks that do not appear in the brochures, then put away for the months when the beach towns go quiet and the people who live there get their kitchens back from the people who borrowed the view.

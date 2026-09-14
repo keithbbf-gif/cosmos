@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-27
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-27.dried-figs-tray -->
+<figure>
+<img src="assets/images/drying/dried-figs-tray.jpg" alt="Dried figs for maamoul and Eid teen fillings">
+<figcaption>Figure 1. Eid maamoul and teen-stuffed cookies need paste-grade dried fig — tray fruit is the filling before the mold. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 *Maamoul* is a cookie that remembers a mold.
 
 Wooden pliers, a carved cup, a pattern that says the filling without cutting: a dome for this nut, a ridge for that date, a geometry the family can read in the dark. Easter in some Christian houses, Eid in Muslim ones, sometimes both in the same building’s week if the street is mixed. The same dust of sugar. The same argument about semolina and butter and whether orange blossom is a necessity or a perfume that got into the flour. The famous fillings are date and walnut and pistachio. They deserve their fame. They also hog the paragraph, which is how a fourth filling disappears from the record.

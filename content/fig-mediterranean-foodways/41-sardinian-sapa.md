@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-41
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-41.bimbi-figs-1696 -->
+<figure>
+<img src="assets/images/historic/bimbi-figs-1696.jpg" alt="Italian fig cultivars still life for Sardinian sapa context">
+<figcaption>Figure 1. Sardinian sapa reduces grape must; figs share the autumn pantry — cultivar still life, not a vineyard photo. Credit: Bartolomeo Bimbi; Villa Medicea di Poggio a Caiano. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 *Sapa* — *saba* on the mainland — is what you get when you refuse to let grape juice become only wine. Cook it down in a pot that will be stained for a generation. The house fills with a smell that is jam and iron and a little like a forge if the reduction goes far. Into that dark you can put walnuts, or squash, or the dried figs that have been waiting for a liquid with authority.
 
 A fig in *sapa* is not a syrupy dessert from a hotel cart. It is a preserve that slices, a thing you put on a plate with pecorino that has not been polite in years — the kind of sheep cheese that makes a fig necessary. The grape and the fig already knew each other in the field; they shared a heat and a wind. The pot makes them finish the sentence. You taste must first, then fruit, then a bitterness that is not a fault.

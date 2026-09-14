@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-07
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-07.usda-pom-calimyrna-1912 -->
+<figure>
+<img src="assets/images/usda/usda-pom-calimyrna-1912.jpg" alt="USDA Calimyrna fig watercolor from Fresno 1912">
+<figcaption>Figure 1. Smyrna-class fruit traveled from İzmir to California as cuttings — this USDA Calimyrna plate names the West Coast drying economy. Credit: Elsie Lower Pomeroy; USDA NAL Pomological Watercolor Collection. License: Public domain (U.S. government work) — see RIGHTS.md.</figcaption>
+</figure>
+
 For a century of English-language grocers, the dried fig was Smyrna. The word meant a pale, seeded, honeyed disc that arrived in a wooden box with a paper doily and a lie of geography. Most of those figs had not seen Smyrna’s water. They had seen Aydın’s dust. İzmir was the mouth. The valley was the stomach.
 
 Smyrna the city is İzmir now, and the old label is a ghost that still sells. Walk a British shop in the 1970s in your head and the cellophane still says it. Walk an Aydın packing shed now and the workers will tell you, politely, that the fruit is Aydın İnciri, Sarılop, a protected name, a map, a count per kilo. The harbor does not get the credit. The harbor got the steamers.

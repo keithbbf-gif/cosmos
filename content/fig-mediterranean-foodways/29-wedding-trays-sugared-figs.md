@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-29
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-29.melendez-figs-bread-nga -->
+<figure>
+<img src="assets/images/historic/melendez-figs-bread-nga.jpg" alt="Meléndez still life with figs bread and table ware">
+<figcaption>Figure 1. Wedding trays of sugared figs share the still-life grammar of bread and fruit — Meléndez pantry painting, not a live ceremony. Credit: Luis Meléndez, c. 1770; National Gallery of Art 111627. License: CC0 (NGA Open Access, as tagged on Commons) — see RIGHTS.md.</figcaption>
+</figure>
+
 A wedding tray is a market stall that has been told to behave.
 
 Nuts in their shells or already broken so a dress will not suffer, baklava if the budget says so, lokum, dates, and the figs that will not embarrass anyone: intact, pale or dark on purpose, sometimes rolled in sugar until they look like a confectioner’s idea of a pebble. The sugar is a costume. Under it the fruit is the same winter citizen as always, the one that sat on a *kerevet* or a string and waited for a night with music.

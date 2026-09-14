@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-26
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-26.bimbi-figs-1696 -->
+<figure>
+<img src="assets/images/historic/bimbi-figs-1696.jpg" alt="Bimbi painting of fig cultivars for Calabrian Christmas sweets">
+<figcaption>Figure 1. Calabrian crocette at Christmas borrow dried-fig sweetness — historic cultivar still life, not a modern bakery ad. Credit: Bartolomeo Bimbi; Villa Medicea di Poggio a Caiano. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 Open a proper Cosenza tin at Christmas and you will not find a pile. You will find carpentry.
 
 *Crocette* — *crucetti* — are four opened figs arranged as a cross, a nut in the crossing, citrus peel if the house likes a bitter thread, then a bake that turns the edges gold. The shape is not a branding exercise. It is how you make a gift that looks like a gift without icing. *Jette* are plaits. *Corolle* are wreaths. There are knots, balls, a salami of figs and almonds that slices like a joke about butchers. The Dottato that dried on the *cannizza* is the lumber.

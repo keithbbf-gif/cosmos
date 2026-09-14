@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-04
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-04.dried-fig-cut-tiia-monto -->
+<figure>
+<img src="assets/images/drying/dried-fig-cut-tiia-monto.png" alt="Halved dried Kymi-style fig pair pressed face to face">
+<figcaption>Figure 1. Askades of Kymi pair two opened dried faces — a PDO habit this cut fig illustrates, not a generic salad garnish. Credit: Tiia Monto. License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Kymi sits on the back of Evia as if it were still waiting for a ship. The town has had wine money and lost it. Phylloxera took the rare black grape; the shipowners took themselves elsewhere. What remained, shining in a climate that will not let a fresh fig travel with dignity, was a drying trick so specific it became a protected name.
 
 They do not dry the fruit closed.

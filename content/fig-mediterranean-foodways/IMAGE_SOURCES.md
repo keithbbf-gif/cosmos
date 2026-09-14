@@ -1,6 +1,6 @@
 # IMAGE_SOURCES — Fig Mediterranean Foodways
 
-Art-desk notes for the staged series. **Do not download a file into the repo.** Log the candidate, the rights, and the caption problem. Prefer public-domain works and Wikimedia Commons files whose license is visible on the file page. Recheck every Commons license at the moment of use; people change deletions and credit lines.
+Art-desk notes for the staged series. **Cleared staging rasters** live in `assets/images/` with `RIGHTS.md` and `GRAPHICS_INDEX.md`; each draft embeds one `<figure>` (see `figures_registry.json`). Regenerate with `python3 tools/fig_med_foodways_graphics.py all`. User `D:\FIGS` notes were not available in the cloud agent — selections follow these notes plus USDA/Commons. Recheck every Commons license at import time.
 
 House rules:
 

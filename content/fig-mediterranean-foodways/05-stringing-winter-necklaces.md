@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-05
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-05.dried-figs-tray -->
+<figure>
+<img src="assets/images/drying/dried-figs-tray.jpg" alt="Tray of dried figs ready for winter storage">
+<figcaption>Figure 1. Winter necklaces of dried figs hang where rafters and terrace wires keep air moving through the fruit. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Before the plastic tray and the nitrogen flush, a household had a rafter.
 
 The figs that were not pretty enough for a buyer and not wet enough to throw away were split or pierced and run onto a string. Cotton, twine, a stripped rush. You see the same gesture with peppers in a Hungarian porch and with mushrooms in a Polish attic. In the fig latitudes the string is a winter necklace. Children pull one down as if it were jewelry and eat from the bottom, which is how you know a house is functioning.

@@ -1,0 +1,146 @@
+[
+  {
+    "path": "assets/images/fresh/incir-turkey.jpg",
+    "bytes": 960772,
+    "sha256": "446ef8a9936405828a9e8e251d21efc985de98eef79b39baebe047a075f8d2d5",
+    "commons": "Incir.jpg"
+  },
+  {
+    "path": "assets/images/drying/dried-figs-pile.jpg",
+    "bytes": 1433484,
+    "sha256": "dc9a5ea51e22ee16f2c498cd3a97055b4ccd031cdacbbef4e95b96b5fadd0060",
+    "commons": "Dried_figs.jpg"
+  },
+  {
+    "path": "assets/images/drying/dried-figs-tray.jpg",
+    "bytes": 987130,
+    "sha256": "d5a816e0570fa93c068d8d4c43c802446c12805990d7bd86dac59887657d080b",
+    "commons": "Dried_Figs_(1).jpg"
+  },
+  {
+    "path": "assets/images/drying/dried-fig-cut-tiia-monto.png",
+    "bytes": 4555107,
+    "sha256": "803bb05356ac401cd28dadaf7c69a22e5cec2a83f3d9a136ed1c749d8c775324",
+    "commons": "Dried_fig.png"
+  },
+  {
+    "path": "assets/images/drying/dried-figs-pd-still.jpg",
+    "bytes": 570949,
+    "sha256": "d8839917ce2249aa88a4f2711354102a28729deb04a2912928f54251f9ba0937",
+    "commons": "DriedFigs1.JPG"
+  },
+  {
+    "path": "assets/images/drying/dreid-figs-string.jpg",
+    "bytes": 698589,
+    "sha256": "7f4f03383c105e0f8b4990125d005ff08bcb1f06d5d0583fe4563fd6755a8847",
+    "commons": "Dreid_figs.jpg"
+  },
+  {
+    "path": "assets/images/fresh/figen-market-2014.jpg",
+    "bytes": 164917,
+    "sha256": "74632336cdbae743615fc4762b3a42eb72647058896d1dab4c1a1cb7711e65a4",
+    "commons": "2014-01-04-Figen_(11748534465).jpg"
+  },
+  {
+    "path": "assets/images/fresh/fig-syconium-closeup.jpg",
+    "bytes": 314985,
+    "sha256": "a47f9393443e6ee4f941aaa8cfaed693b2d0d8acfa7440294fa86c4c414b3d1a",
+    "commons": "A_closeup_of_fig_fruit.JPG"
+  },
+  {
+    "path": "assets/images/botanical/blastophaga-psenes.jpg",
+    "bytes": 8418,
+    "sha256": "468979305afb8093c70fb891aebf8ed0b4a30c2ef15abfe06dfefa95e114915a",
+    "commons": "Blastophaga_psenes.jpg"
+  },
+  {
+    "path": "assets/images/usda/usda-pom-calimyrna-1912.jpg",
+    "bytes": 1036707,
+    "sha256": "8ff6d2e49eb7618c991485383c1c260f9a0fb968c952ab6bce5fdab9eef57f99",
+    "commons": "Pomological_Watercolor_POM00007440.jpg"
+  },
+  {
+    "path": "assets/images/usda/usda-pom-calimyrna-ship.jpg",
+    "bytes": 1011433,
+    "sha256": "6dc75faa83faaa26016cc8f56e91b0bfa250d788f7dd9ecf2e6eee769591919d",
+    "commons": "Pomological_Watercolor_POM00007439.jpg"
+  },
+  {
+    "path": "assets/images/historic/herculaneum-bread-figs-man8625.jpg",
+    "bytes": 1661320,
+    "sha256": "94a59806b96d361d9ab43d3d8576ea5c281de4b511006bd1bdd82f77c5eec381",
+    "commons": "Wall_painting_-_still_life_with_bread_and_figs_-_Herculaneum_-_Napoli_MAN_8625.jpg"
+  },
+  {
+    "path": "assets/images/historic/bimbi-figs-1696.jpg",
+    "bytes": 113695,
+    "sha256": "de1159a716b0bab15f731c207c7296a7ab68388ab8f855ac93ea7712f367d11d",
+    "commons": "Bartolomeo_Bimbi_(figs).jpg"
+  },
+  {
+    "path": "assets/images/historic/melendez-figs-bread-nga.jpg",
+    "bytes": 1560146,
+    "sha256": "675b39842ee27fe3fb75ce4ca9a418c0884a6278ffef8f9b5c55120de711d830",
+    "commons": "Luis Mel\u00e9ndez, Still Life with Figs and Bread, c. 1770, NGA 111627.jpg"
+  },
+  {
+    "path": "assets/images/botanical/ehret-trew-1771.jpg",
+    "bytes": 113826,
+    "sha256": "2d76056f345974e0d66889aea481e33edaa617c0b453eb926293c1289fbbee5f",
+    "commons": "Ficus_carica_L,_1771.jpg"
+  },
+  {
+    "path": "assets/images/markets/spice-bazaar-istanbul.jpg",
+    "bytes": 1232266,
+    "sha256": "c31aed509394967a093cbafb57823d13a8f028bbfe5313a2f528fd43cf73e55a",
+    "commons": "Spice_Bazaar,_Istanbul.jpg"
+  },
+  {
+    "path": "assets/images/markets/la-boqueria-barcelona.jpg",
+    "bytes": 658438,
+    "sha256": "3e949347c0e429402726de9bb38ba1afd98845ab12b616cd35d83fc3c7761c12",
+    "commons": "Mercat_de_la_Boqueria_01.jpg"
+  },
+  {
+    "path": "assets/images/caution/opuntia-prickly-pear-fruit.jpg",
+    "bytes": 568769,
+    "sha256": "f45005756a3b70717df79596eb258e5639f40110113e9804f64f13b21534d4e0",
+    "commons": "Opuntia_ficus-indica_1.jpg"
+  },
+  {
+    "path": "assets/images/botanical/denoncin-figuier-plate.jpg",
+    "bytes": 1806422,
+    "sha256": "fc3fac386c32a787e7769c7b095aa83ed281d43bffe8a6e4972e2bed5e7f2e96",
+    "commons": "11-Figuier-Ficus_carica.jpg"
+  },
+  {
+    "path": "assets/images/botanical/kohler-type-med-plate.jpg",
+    "bytes": 940066,
+    "sha256": "7e6e5c1fb4dbba774329eb8731f679f3e30c79d70df36b36a596a6e6fbf1f6c8",
+    "commons": "Illustration_Ficus_carica0.jpg"
+  },
+  {
+    "path": "assets/images/markets/marseille-vieux-port-night.jpg",
+    "bytes": 243697,
+    "sha256": "e450eb71f45b0b7d2aadfc064451a622b365893abd2a0d6791844a0b51d8b921",
+    "commons": "Marseille_Vieux_Port_Night.jpg"
+  },
+  {
+    "path": "assets/images/markets/izmir-konak-waterfront.jpg",
+    "bytes": 1091473,
+    "sha256": "3ed93660dbe9cf8b1ef03685533866e5cb9547bfe1e43ee1068178cb8108eaaf",
+    "commons": "Izmir_03.jpg"
+  },
+  {
+    "path": "assets/images/markets/marseille-vieux-port-day.jpg",
+    "bytes": 558099,
+    "sha256": "632fd355b82c666a932d3b805f797416e5675a6b313070053c7cd999fceee109",
+    "commons": "The_old_Port_(Vieux_Port)_of_Marseille.jpg"
+  },
+  {
+    "path": "assets/images/historic/marseille-port-1907-torpedo-boats.jpg",
+    "bytes": 43569,
+    "sha256": "d2eff7fcce276b904cec344d8da40bfbfb9dbe5eee5824906424d88ac7bbd88d",
+    "commons": "13-Marseille-Torpilleurs_dans_le_Vieux-port-1907.JPG"
+  }
+]

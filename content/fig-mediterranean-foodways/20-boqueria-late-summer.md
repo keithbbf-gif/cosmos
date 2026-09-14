@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-20
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-20.la-boqueria-barcelona -->
+<figure>
+<img src="assets/images/markets/la-boqueria-barcelona.jpg" alt="Late-summer produce at La Boqueria market Barcelona">
+<figcaption>Figure 1. La Boqueria late-summer figs sit between stone fruit and tomatoes — a Catalan market lane, not a staged superfood bowl. Credit: See Commons file page. License: See Commons — see RIGHTS.md.</figcaption>
+</figure>
+
 La Boqueria is guilty of being photographed. It is not guilty of failing to sell figs.
 
 In the late weeks of summer the fruit stalls take on a purple that the juice bars cannot fake. Catalan gardens — Maresme, a backyard toward Collserola if you are lucky — and the wider Spanish crop, Extremadura and Alicante among them, show up in flats that look too delicate for the crowd. The crowd is the problem and the customer. A fig that can survive this aisle is a fig that was picked with a shorter hope, or a fig that has already begun to think about jam.

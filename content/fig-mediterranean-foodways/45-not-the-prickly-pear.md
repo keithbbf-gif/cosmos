@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-45
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-45.opuntia-prickly-pear-fruit -->
+<figure>
+<img src="assets/images/caution/opuntia-prickly-pear-fruit.jpg" alt="Opuntia ficus-indica prickly pear fruit not a true fig">
+<figcaption>Figure 1. Prickly pear is Opuntia ficus-indica — not Ficus carica. The market confusion this essay refuses. Credit: See Commons file page. License: See Commons — see RIGHTS.md.</figcaption>
+</figure>
+
 This piece exists to save an art desk from a lawsuit with botany.
 
 The common fig is *Ficus carica*, a tree fruit, a hollow flower pretending to be a fruit, the object of every other draft in this folder. The prickly pear is *Opuntia*, a New World cactus that the Mediterranean adopted with enthusiasm after the sixteenth century and then named, in several languages, as if it were a fig. *Fico d’India*. *Higo chumbo*. *Bajtra* in Malta. *Kermus* and other local words along the Maghreb. It has a season, a market cry, a way of staining a shirt a color that will not come out, a harvest that requires gloves and a fire or a scrape to get the glochids off so a child can eat. It is a real foodway — jam, a summer stall, a landscape of pads that holds a dry hill together. It is not this series.

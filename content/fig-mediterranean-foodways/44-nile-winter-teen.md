@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-44
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-44.fig-syconium-closeup -->
+<figure>
+<img src="assets/images/fresh/fig-syconium-closeup.jpg" alt="Winter fresh teen figs in Nile market context">
+<figcaption>Figure 1. Nile winter teen markets sell fresh common fig — syconium close-up as produce, not a medical claim. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Egypt is a fig country in the tables that count tons, and a fig country in a more complicated way than a PDO map.
 
 The common fig — *teen* — grows, sells fresh in its week along the coast and in gardens that still have room, dries, becomes a jam a grandmother will call by a name that is only a verb, becomes a winter bag in a Cairo shop that also sells dates because of course it does. Alexandria will give you a market morning that feels like the rest of the sea: crates, shouts, a fruit that will not last the tram if you are proud. The Delta gardens will give you a quieter tree and a child who eats standing up. None of this needs a pharaoh costume. The costume is how a food gets stolen from its shop.

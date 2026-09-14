@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-38
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-38.dried-fig-cut-tiia-monto -->
+<figure>
+<img src="assets/images/drying/dried-fig-cut-tiia-monto.png" alt="Dried fig for dibs teen molasses">
+<figcaption>Figure 1. Dibs teen concentrates fig sweetness — cut dried syconium, Levant pantry science as food history. Credit: Tiia Monto. License: CC BY-SA 4.0 — see RIGHTS.md.</figcaption>
+</figure>
+
 Not every fig will take the tray. Some are too far gone in sweetness, too soft, too many, the ones that would sour if you asked them to be a shape and a grade. Those go to the pot and become *dibs*. The word is the same family as other Levantine molasses: a reduction, a winter, a bottle that does not need a story on the glass.
 
 Fig molasses is a cousin of carob molasses and grape pekmez, the dark liquids that Levantine and Anatolian kitchens use when sugar was dear or when sugar was boring. You cook the overripe fruit with a little water, you strain the pulp if you want a pour and not a jam, you reduce until a spoon leaves a slow letter on a cold plate. The letter is for tahini, for a drizzle on a white cheese, for a stew that wants a brown note without a stock cube, for a drink cut with water if the house still does that in summer.

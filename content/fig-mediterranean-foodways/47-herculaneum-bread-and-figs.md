@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-47
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-47.herculaneum-bread-figs-man8625 -->
+<figure>
+<img src="assets/images/historic/herculaneum-bread-figs-man8625.jpg" alt="Roman still life fresco with bread and common figs Herculaneum">
+<figcaption>Figure 1. Herculaneum bread-and-fig fresco (MAN 8625) — Roman table figs before the modern market crate. Credit: Photo: ArchaiOptix (Commons). Fresco: MAN Naples inv. 8625. License: CC BY-SA 4.0 (photo); fresco PD — see RIGHTS.md.</figcaption>
+</figure>
+
 In the Archaeological Museum in Naples there is a small wall that understands lunch.
 
 Two figs, a loaf, a sill. Fourth Style, Herculaneum, inventory 8625 if you are the kind of person who likes numbers and a guard who has heard the number before. The fruit is not a cornucopia. It is a portion. The bread is the other half of a sentence Pliny and the poets already knew: this is food that does not need a sauce to be food. A later caption on a tourist photograph calls them “the most modest and frugal of foods.” The caption is doing a little too much work, but the frugality is visible. Two. Not a pile.

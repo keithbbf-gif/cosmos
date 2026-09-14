@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-06
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-06.blastophaga-psenes -->
+<figure>
+<img src="assets/images/botanical/blastophaga-psenes.jpg" alt="Blastophaga psenes fig wasp scientific illustration">
+<figcaption>Figure 1. Caprification depends on Blastophaga psenes visiting caprifig syconia — agriculture, not a horror macro. Credit: See Commons file page. License: See Commons (scientific illustration) — see RIGHTS.md.</figcaption>
+</figure>
+
 If you cut a proper drying fig from the Menderes, you meet seeds. Not the ghost seeds of a parthenocarpic table fig. Real ones, a little grit, the reason the flesh tastes finished.
 
 Those seeds are a wasp’s errand.

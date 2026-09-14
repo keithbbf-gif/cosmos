@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-08
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-08.dried-figs-pd-still -->
+<figure>
+<img src="assets/images/drying/dried-figs-pd-still.jpg" alt="Dried figs with slatted drying context">
+<figcaption>Figure 1. Dalmatian smokvenjak drying uses lijese slats and bay leaf — a generic dried-fig still stands in for hib terrace work. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 On Vis they will tell you the fig is not done when it is dry. It is done when it can sit.
 
 The first work is ordinary Mediterranean labor: fruit on *lijese*, slatted wooden frames, one layer, turned, taken under a roof when the night thinks about dew. Seven days, fifteen, depending on the wind off the water and whether August decided to be an adult. That part a grower from Aydın would understand without a translator.

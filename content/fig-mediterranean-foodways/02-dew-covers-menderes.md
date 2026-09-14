@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-02
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-02.dried-figs-pile -->
+<figure>
+<img src="assets/images/drying/dried-figs-pile.jpg" alt="Dried common figs piled for sorting after sun drying">
+<figcaption>Figure 1. Büyük Menderes yards cover trays at night so dew does not undo a day of drying — staged dried figs show the end state those covers protect. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Ask an old grower in Germencik what ruined a tray and you will not hear a speech about terroir. You will hear about a night.
 
 Dew is a small word for a large theft. A fig that spent the day tightening its skin will drink the evening if you let it. The sugar that was concentrating loosens. The surface goes dull. In the morning you have fruit that looks finished and behaves wet. Pack that and you pack an argument with a buyer in İzmir who has seen this movie.

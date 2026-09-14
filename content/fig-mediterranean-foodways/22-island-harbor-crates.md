@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-22
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-22.marseille-vieux-port-night -->
+<figure>
+<img src="assets/images/markets/marseille-vieux-port-night.jpg" alt="Marseille Vieux-Port at night with harbor lights">
+<figcaption>Figure 1. Island harbor crates moved through Marseille and similar ports — night waterfront light on the same Vieux-Port geometry. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 An island fig has a deadline with a horn.
 
 The boat — ferry, caique, the tired line that still calls twice a week — is the market. Miss it and you have fruit for the house, which is not a tragedy and is also not rent. Catch it and you have cash for the house, or at least a favor owed in Piraeus or Split. This makes island drying and island packing a little faster, a little more superstitious, than the same work on a valley road. A valley can wait for a truck. An island waits for a schedule written by weather and a company that does not love figs.

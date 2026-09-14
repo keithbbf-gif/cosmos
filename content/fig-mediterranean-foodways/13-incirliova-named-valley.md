@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-13
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-13.incir-turkey -->
+<figure>
+<img src="assets/images/fresh/incir-turkey.jpg" alt="Fresh figs from the İncirliova valley trade">
+<figcaption>Figure 1. İncirliova — the fig valley — ships Sarılop identity in fresh fruit before the yard counts begin. Credit: See Commons file page. License: See Commons (recheck before import) — see RIGHTS.md.</figcaption>
+</figure>
+
 Most towns are named for a spring, a saint, a forgotten landlord. İncirliova is named for a crop. Fig-valley. The older name, Karapınar, dark spring, was a water name, which is also honest: this part of the Büyük Menderes is a wet idea in a dry season. In the 1930s the water name lost. Atatürk, the story goes, looked at the trees and the paperwork changed.
 
 You can dislike foundation stories and still like this one, because the town then behaved as if the name were an assignment. A fig-growers’ union. A fruit market. A station on the İzmir–Aydın line, the British-built railway that had come for cotton during someone else’s civil war and stayed for everything the valley could crate. Electricity in 1930. A bank in 1927. The ordinary furniture of a place that intends to sell.

@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-01
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-01.incir-turkey -->
+<figure>
+<img src="assets/images/fresh/incir-turkey.jpg" alt="Fresh Sarılop-type figs from Türkiye on the branch">
+<figcaption>Figure 1. Kerevet drying yards in Aydın begin with Sarılop fruit that drops from the slope — a living common fig, not a studio prop. Credit: See Commons file page. License: See Commons (recheck before import) — see RIGHTS.md.</figcaption>
+</figure>
+
 By late August the valley smells like a bakery that forgot to close. Not bread. Something darker, almost tobacco at the edges, honey if you stand in the wind. The fig trees on the slopes above the Büyük Menderes have already done the impolite part of harvest: they drop the fruit. Nobody climbs for the drying crop the way you climb for a table fig. The good ones let go.
 
 What happens next looks, to a visitor, like laundry. Wooden or plastic frames — *kerevet* — sit in a yard that gets sun and a little air and as little dust as a farmyard can manage. The figs go down in a single layer. That rule is not folklore. Stack them and you make a bruise that later becomes a grade argument. Leave a wet pocket and you make a smell that later becomes a rejection.

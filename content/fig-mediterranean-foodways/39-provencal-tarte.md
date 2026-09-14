@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-39
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-39.melendez-figs-bread-nga -->
+<figure>
+<img src="assets/images/historic/melendez-figs-bread-nga.jpg" alt="Provencal tart cousin still life with figs and bread">
+<figcaption>Figure 1. Provençal fig tart sits in the same pantry world as bread and fruit — still-life evidence, not a recipe card. Credit: Luis Meléndez, c. 1770; National Gallery of Art 111627. License: CC0 (NGA Open Access, as tagged on Commons) — see RIGHTS.md.</figcaption>
+</figure>
+
 Recipes will give you pastry, almond cream, a spiral of halved figs, thyme, a glaze that shines like a brochure. The foodway is simpler: too many figs, a neighbor who said she might come, an oven that was already hot from a gratin or a loaf. You roll what you have. You cut the fruit that will not last the night. You do not wash the board as if a photographer were coming.
 
 The fresh fig does not want a long bake. It wants to collapse a little and stay itself. Overbake and you have jam in a crust, which is a different honesty and a fine breakfast. Underbake and you have a soup that insults the pastry. The good tarts look slightly ruined. The ruined look is juice finding a low place. If you have arranged a perfect spiral, congratulations; now let the oven disorder it.

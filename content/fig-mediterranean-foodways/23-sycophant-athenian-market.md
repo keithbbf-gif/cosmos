@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-23
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-23.ehret-trew-1771 -->
+<figure>
+<img src="assets/images/botanical/ehret-trew-1771.jpg" alt="Ehret 1771 botanical plate of Ficus carica">
+<figcaption>Figure 1. Athenian sycophant began with the syconium — a classical botanical plate, not a modern Agora photograph. Credit: G. D. Ehret; C. J. Trew, Plantae selectae (1771). License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 We are not supposed to be sure.
 
 *Sykophantēs* — fig-revealer, fig-shower — is a word that later came to mean a professional accuser, a person who made a living by pointing. One old explanation, repeated until it became a fact in after-dinner speeches, is that Athens forbade the export of figs and paid attention to people who reported the smugglers. Another is ruder, and about gestures in the street that had nothing to do with fruit. A third is that the word is a joke we have lost the punchline to. Philology does not owe us a tidy orchard. A magazine that prints the export-ban story as settled law is doing the after-dinner speech.

@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-14
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-14.izmir-konak-waterfront -->
+<figure>
+<img src="assets/images/markets/izmir-konak-waterfront.jpg" alt="İzmir Konak waterfront on the Aegean">
+<figcaption>Figure 1. Smyrna harbor steamers belong to the historic İzmir waterfront — this modern Konak view is geography, not a 1900 steamer photo. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 A fig does not swim. It takes a road, then a rail, then a gangplank.
 
 For the long nineteenth century and a good piece of the twentieth, that gangplank was Smyrna’s. The city faced the water and the valley faced the city. Figs came down the Aydın line with cotton, raisins, carpets, tobacco — the ordinary mixed freight of a port that had learned to speak several ledgers at once. Greek, Armenian, Levantine, Turkish, European houses had their own ways of counting the same sweetness. The fruit did not learn the languages. The boxes did.

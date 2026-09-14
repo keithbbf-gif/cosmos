@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-17
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-17.dreid-figs-string -->
+<figure>
+<img src="assets/images/drying/dreid-figs-string.jpg" alt="Dried figs from southern Italy drying tradition">
+<figcaption>Figure 1. Ballarò first figs arrive as crates and calls — southern Italian dried fig handling stands in until a Palermo stall photo is cleared. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 In Palermo you must ask which fig.
 
 *Fico* is the common fig, the one this series is about, green or purple, a bag that will stain. *Fico d’India* is the prickly pear, the immigrant that became a landscape, pads and thorns and a summer that belongs to a different essay. Sellers will shorten both. Tourists will photograph both. Your mouth will not confuse them if you are paying attention, and will if you are hungry and proud.

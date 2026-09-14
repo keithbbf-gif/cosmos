@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-25
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-25.dried-figs-pile -->
+<figure>
+<img src="assets/images/drying/dried-figs-pile.jpg" alt="Dried figs as stored wages and gifts in antiquity">
+<figcaption>Figure 1. Develah and dried-fig wages are measured fruit — a storage pile evokes weight and keeping, not a wellness caption. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 When Abigail goes to meet David in First Samuel, the list of what she takes includes *develah* — cakes of pressed figs — among the other portable arguments: bread, wine, sheep, grain. The text is not doing recipe writing. It is doing diplomacy with food that will last the ride.
 
 *Develah* means something like pressed-together. Chopped dried figs, mashed, shaped. You can hold it. You can send it. You can give it to a person who has been running and needs a sweetness that is not a metaphor. Other verses hand the same cakes to the exhausted and the celebrating. The object sits between gift and ration.

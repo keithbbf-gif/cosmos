@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-21
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-21.spice-bazaar-istanbul -->
+<figure>
+<img src="assets/images/markets/spice-bazaar-istanbul.jpg" alt="Dried fruit and spice stalls Mediterranean trade hub">
+<figcaption>Figure 1. Fez and western Maghreb figs often reached Europe through Levantine ports — Istanbul spice-hall furniture illustrates that trade rim. Credit: See Commons file page. License: See Commons — see RIGHTS.md.</figcaption>
+</figure>
+
 The Mediterranean has a southern shore that does not ask permission of the tourist map.
 
 Fez sells figs the way it sells everything that keeps: in a pile, in a cone of paper, in a quantity that assumes a household and not a hotel minibar. The fruit may be local, from the hills toward Meknès that still have old trees, or from a wetter pocket in the Rif, or from a crate that came farther than the seller will say. The eater is not doing terroir. The eater is doing February. A kilo is a serious sentence. A hundred grams is a tourist sentence.

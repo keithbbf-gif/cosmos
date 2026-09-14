@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-30
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-30.dried-figs-tray -->
+<figure>
+<img src="assets/images/drying/dried-figs-tray.jpg" alt="Orthodox dried fruit bowl with common figs">
+<figcaption>Figure 1. Orthodox dried-fruit bowls at fast-breaking want honest dried common fig — export-sorted tray as stand-in. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 There is a bowl that does not get a name in the cookbook because it is not a dish. It is a climate.
 
 Dried figs, dried apricots, walnuts still in their shells or already broken, maybe a date, maybe a spoon sweet on a saucer for the people who want syrup and a spoon that is not the serving spoon. The bowl goes out when the house starts receiving — the day before if the house is anxious, the morning of if the house is proud. It stays out while people come back from church with cold hands and while people who did not go pretend they did by talking about the traffic. Children hunt the figs first because they are the most obviously a candy. Old men hunt the walnuts because they like a tool and a delay.

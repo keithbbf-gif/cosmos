@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-12
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-12.fig-syconium-closeup -->
+<figure>
+<img src="assets/images/fresh/fig-syconium-closeup.jpg" alt="Fallen ripe common fig on the branch">
+<figcaption>Figure 1. The drying crop is the fig that falls — harvest for kerevet is drop picking, not ladder climbing. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Watch a Sarılop orchard in the real harvest and you will understand why the work looks lazy to a person who picks apples.
 
 The fruit is supposed to fall. Not rot-fall. A chosen drop: the neck has loosened, the moisture has already started its walk downward, the fig has become what the files call a sour fig because language is imperfect. Crews come through every day, or every other day, and take what the tree released. Leave it and the ground teaches a different lesson — dust, ants, a ferment that will not grade.

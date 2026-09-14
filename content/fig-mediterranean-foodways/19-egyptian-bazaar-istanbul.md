@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-19
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-19.spice-bazaar-istanbul -->
+<figure>
+<img src="assets/images/markets/spice-bazaar-istanbul.jpg" alt="Spice Bazaar stalls in Istanbul Turkey">
+<figcaption>Figure 1. The Egyptian Bazaar (Mısır Çarşısı) in Istanbul trades dried fruit beside spice — this spice-hall view is the right city, not a hotel plate. Credit: See Commons file page. License: See Commons — see RIGHTS.md.</figcaption>
+</figure>
+
 The Egyptian Bazaar is named for coffee and rice and a Nile that does not run through Eminönü. It behaves, on a weekday morning, like a pantry for a city that is too big to have a single harvest.
 
 Figs sit with apricots, mulberries, the pale raisins, the dark raisins, lokum in a box that is trying too hard. The fig stall that is not a trap has a scoop, a grade you can see, and a man who will be annoyed if you photograph before you buy. The fruit is often Aydın’s, sometimes mixed, sometimes a lesser lot wearing a better story. Your job is to taste. His job is to wait while you pretend you can tell.

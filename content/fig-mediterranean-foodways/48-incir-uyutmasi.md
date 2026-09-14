@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-48
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-48.incir-turkey -->
+<figure>
+<img src="assets/images/fresh/incir-turkey.jpg" alt="Fresh Turkish figs for incir uyutması milk pudding">
+<figcaption>Figure 1. İncir uyutması folds fresh common fig into milk pudding — regional dessert, not a sleep-aid claim. Credit: See Commons file page. License: See Commons (recheck before import) — see RIGHTS.md.</figcaption>
+</figure>
+
 *Uyutmak* is to put to sleep. *İncir uyutması* is what happens when dried figs and milk share a pot long enough to forget they were separate.
 
 The method is homely. Chop or slit the figs — the ones that were always going to be the house bag, not the gift box — and warm them with milk. Some kitchens add a spoon of rice flour or cornstarch if the house is impatient. Some trust only the fruit’s own body, which will thicken if you gave it time and a low heat and did not wander off to take a call. The mixture rests. It sets in the cool of a pantry or a fridge that has known worse leftovers. You eat it with a spoon. Walnuts if you have them. Cinnamon only if you cannot leave a brown surface alone.

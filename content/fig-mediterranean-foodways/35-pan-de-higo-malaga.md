@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-35
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-35.dried-figs-pd-still -->
+<figure>
+<img src="assets/images/drying/dried-figs-pd-still.jpg" alt="Dried figs for Andalusian pan de higo">
+<figcaption>Figure 1. Málaga pan de higo presses dried common fig into a loaf — storage-grade fruit before the mold. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 The name is a tease. *Pan de higo* is not bread. It is what happens when a surplus of dried figs meets a mortar and a weight, and a household decides that leftover fruit will not be allowed to become a smell.
 
 El Borge, in the Málaga hills, has the reputation the tourist office likes. Coín and a string of other Andalusian towns have the recipe and the argument that theirs is less sweet, or more anise, or more honest. Extremadura’s La Vera and pockets of Aragón and Catalonia have cousins that will not thank you for calling them Andalusian. The method is stable anyway: grind or pound the figs, add toasted almond — Marcona if you are showing off, ordinary if you are feeding a table — a weather of anise, cinnamon, clove, sometimes sesame, a splash of anisette. Press under a board and something heavy. Wait a day or two. The alcohol goes. The cake remains.

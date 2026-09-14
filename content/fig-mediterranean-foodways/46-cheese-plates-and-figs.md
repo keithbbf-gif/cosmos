@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-46
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-46.melendez-figs-bread-nga -->
+<figure>
+<img src="assets/images/historic/melendez-figs-bread-nga.jpg" alt="Cheese plate still life with figs and bread Mediterranean">
+<figcaption>Figure 1. Cheese plates and figs share a Meléndez pantry — bread, fig, and crockery, not a gym supplement. Credit: Luis Meléndez, c. 1770; National Gallery of Art 111627. License: CC0 (NGA Open Access, as tagged on Commons) — see RIGHTS.md.</figcaption>
+</figure>
+
 A hotel will put a dried fig next to any cheese and call it Mediterranean. Sometimes the hotel is accidentally correct. Usually the hotel is using a fruit from one sea and a cheese from a catalog.
 
 The pairing works when the animals and the trees ate the same weather. Sheep on a dry hill, a fig tree in the same fold, a cheese that is salty because the year was, a fruit that is sweet because the year was. Manchego and *pan de higo* are a conversation in Spanish that cheese shops already know how to have. Aged kaşar or a tulum with an Aydın fig is a conversation in Turkish that a tea table understands without a board. A Pag cheese — a Gligora if you are near that door — with a slice of *smokvenjak* is a conversation in a wind that makes both the sheep and the cake.

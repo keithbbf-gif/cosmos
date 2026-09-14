@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-34
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-34.dreid-figs-string -->
+<figure>
+<img src="assets/images/drying/dreid-figs-string.jpg" alt="String-dried figs Dalmatian smokvenjak style">
+<figcaption>Figure 1. Smokvenjak on hib terraces strings syconia beside bay — Adriatic string-dried habit, generic dried fig string. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 They call it a cake because English is lazy. It is a press.
 
 Dried figs go through a grind or a hard chop. Grape brandy — *lozovača* — or a herbal rakija goes in until the mass agrees to be a dough. Almonds on some islands, walnuts on others, fennel where the wind says so. On Vis the fennel is not a garnish; it is the accent that makes *hib* *hib*, a round, compact cake that people wait to “frost” with its own sugar, *zastrižio*, a crystallization the island treats as a verdict.

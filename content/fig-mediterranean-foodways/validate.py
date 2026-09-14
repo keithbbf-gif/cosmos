@@ -93,6 +93,10 @@ def main() -> int:
         slugs.add(slug)
         if ident and f"## {ident}" not in img:
             errors.append(f"{ident}: missing IMAGE_SOURCES block")
+        if "<figure>" not in text:
+            errors.append(f"{path.name}: missing <figure> block")
+        if "figcaption>" not in text:
+            errors.append(f"{path.name}: missing SEO figcaption")
         low = body.lower()
         for term in SLOP:
             if term in low:

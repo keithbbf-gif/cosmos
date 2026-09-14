@@ -15,6 +15,12 @@ hero: IMAGE_SOURCES.md#fig-med-03
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-03.dreid-figs-string -->
+<figure>
+<img src="assets/images/drying/dreid-figs-string.jpg" alt="Dried Calabrian-style figs on reed mats">
+<figcaption>Figure 1. Passuluni and cannizze drying on the Tyrrhenian hills — reed frames and single-layer fruit, not a chocolate-box product shot. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 In the Crati valley they wait for the stalk to bow.
 
 That is the signal, not a calendar. The Dottato fig — Ottato if your mouth is older — starts the season green-straw and a little smug, a table fruit if you are greedy. Left alone, the skin shifts toward beige, the neck softens, and the fruit begins to make its own raisin. Locals call that stage *passuluni*. It is not yet a dried fig. It is a fig that has started to think about winter.

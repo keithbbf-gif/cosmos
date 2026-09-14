@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-32
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-32.melendez-figs-bread-nga -->
+<figure>
+<img src="assets/images/historic/melendez-figs-bread-nga.jpg" alt="Still life with figs for Carnival and Lenten sweet tables">
+<figcaption>Figure 1. Carnival and Lenten sweets borrow dried-fig richness — still-life pantry painting, not a diet claim. Credit: Luis Meléndez, c. 1770; National Gallery of Art 111627. License: CC0 (NGA Open Access, as tagged on Commons) — see RIGHTS.md.</figcaption>
+</figure>
+
 Carnival is a fryer. Lent is a cupboard. Figs have papers for both rooms.
 
 In the loud weeks, a dried fig may be chopped into a filling, a bread, a cookie that can stand on a tray while people wear worse ideas. It is a sweet that does not need cream, which means it can travel to a piazza and still look like itself at midnight. Venetian hinterland bakers have put chopped figs into the kind of dough that can survive a pocket. Southern Italian houses have slipped them into a *chiacchiere* cousin or a baked thing that is less famous than the fried one and more honest the next morning. The fruit is there as chew and dark, a reminder that the riot has a pantry behind it.

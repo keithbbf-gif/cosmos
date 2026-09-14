@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-09
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-09.fig-syconium-closeup -->
+<figure>
+<img src="assets/images/fresh/fig-syconium-closeup.jpg" alt="Close-up of ripe Ficus carica syconium on the tree">
+<figcaption>Figure 1. When August humidity fails dryers, the fruit on the tree splits first — a close common fig syconium, not a wellness flat lay. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Every drying culture has a sentence it says when the sky misbehaves. In Kymi the product file allows a special oven before the fruit is opened and paired. In Cosenza the “protected” method is a greenhouse that must not exceed fifty degrees. In Aydın the plastic tunnels go up along the same roads that used to trust the open *kerevet*. In the Algarve a grandmother will finish a tray in the residual heat after bread, as if the fig were a second loaf.
 
 Purists hate this paragraph. Purists can eat a moldy tray.

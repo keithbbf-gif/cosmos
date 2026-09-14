@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-18
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-18.marseille-vieux-port-day -->
+<figure>
+<img src="assets/images/markets/marseille-vieux-port-day.jpg" alt="Vieux-Port of Marseille harbor and boats">
+<figcaption>Figure 1. Marseille’s Vieux-Port moved Maghreb and Provençal fig crates — a working harbor view, not a generic beach. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Marseille is a fig city that pretends it is a fish city.
 
 The Vieux-Port photographs are all boats. Two streets back, in Noailles and the ordinary shops that do not care about your camera, the dried fruit of the southern and eastern Mediterranean sits in bins: Tunisian, Algerian, Turkish lots, the pale ones and the black ones, the ones that were a kitchen in Oran before they were a price in Bouches-du-Rhône. A woman buys a kilo the way her mother bought a kilo. The bag is not a souvenir.

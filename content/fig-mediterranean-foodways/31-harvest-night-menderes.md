@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-31
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-31.incir-turkey -->
+<figure>
+<img src="assets/images/fresh/incir-turkey.jpg" alt="Night-harvest fresh figs in Aydın valley context">
+<figcaption>Figure 1. Harvest night on the Menderes is lit yards and falling fruit — fresh İncir-region syconia, not a dew-drop hero. Credit: See Commons file page. License: See Commons (recheck before import) — see RIGHTS.md.</figcaption>
+</figure>
+
 When the last good drop has been taken and the trays are either under cloth or already in the shed, a yard will sometimes become a table.
 
 This is not the Gold Fig stage. There is no mayor, no banner, no child in a costume that will itch. There is a pot — meat if the week paid, beans if it did not — bread that has seen better mornings, a salad that is mostly onion and a tomato that was not pretty enough for town. And the figs that were always going to be eaten here: the split ones, the ones with a little dust, the ones that would have lowered a count and started an argument with a man in a shed. Someone pours rakı or something softer. Someone’s child falls asleep in a chair that is too big. A dog who has spent the week policing the cover cloth finally lies down as if the season were a job that clocked out.

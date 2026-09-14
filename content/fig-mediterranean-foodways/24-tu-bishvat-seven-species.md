@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-24
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-24.dried-figs-pd-still -->
+<figure>
+<img src="assets/images/drying/dried-figs-pd-still.jpg" alt="Dried figs among Seven Species winter fruit">
+<figcaption>Figure 1. Tu Bishvat tables pair dried fig with other land-of-Israel species — honest dried common figs, not medical claims. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 The list is short and it does not care about your brunch.
 
 Wheat, barley, grape, fig, pomegranate, olive, date — *shivat haminim*, the seven species of Deuteronomy 8, the foods whose first fruits could go to the Temple when there was a Temple. Figs are in the middle of the sentence, between the vine and the pomegranate, as if the writer knew a hillside. Honey in that verse is date honey for many readers. The fig does not need to be the honey. The fig is already named.

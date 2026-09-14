@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-43
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-43.dried-figs-tray -->
+<figure>
+<img src="assets/images/drying/dried-figs-tray.jpg" alt="Dried figs paired with Maghreb couscous and lamb">
+<figcaption>Figure 1. Maghreb couscous with lamb often meets dried fig on the plate — sorted dried fruit, not the meat dish itself. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 A lamb shoulder, a cinnamon stick, a handful of the fruit that kept.
 
 This is not “fusion.” This is a pot that has always known that meat and dried fruit can share a lid. Prunes get the fame in some Moroccan dishes, the ones the cookbooks already photographed. Apricots in others. Figs take the job when the orchard says so, or when the cook likes a seeded chew against the grain and a sweetness that is not a prune’s. Tunisia will put the fruit in a couscous that is a Friday, a platter that is a table, not a side dish next to a grilled thing. Fassi houses will have their own spice and their own refusal to be called Tunisian. Algiers will have its own argument about cinnamon and who is allowed to add sugar at the end. I will not flatten them into one “North African tagine” with a stock tent.

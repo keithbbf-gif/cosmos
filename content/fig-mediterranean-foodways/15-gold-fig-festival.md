@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-15
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-15.bimbi-figs-1696 -->
+<figure>
+<img src="assets/images/historic/bimbi-figs-1696.jpg" alt="Bartolomeo Bimbi still life of named fig cultivars 1696">
+<figcaption>Figure 1. Gold Fig Festival tables celebrate Aydın harvest — Bimbi’s 1696 cultivar plate is a historical feast display, not a modern fair booth. Credit: Bartolomeo Bimbi; Villa Medicea di Poggio a Caiano. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 Do not go to a fig festival looking for silence. Go looking for the place where the fruit is still being sold while someone is making a speech.
 
 The Gold Fig events around Aydın and İncirliova have the usual kit: a stage, a queen if the year wants one, a panel, a plate of the best lot arranged as if figs were medals. Children get sugar. Officials get photographs. Growers get a day when the city has to say their crop’s name correctly.

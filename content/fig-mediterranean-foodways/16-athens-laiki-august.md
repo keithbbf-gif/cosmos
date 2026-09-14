@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-16
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-16.la-boqueria-barcelona -->
+<figure>
+<img src="assets/images/markets/la-boqueria-barcelona.jpg" alt="Covered market stalls at La Boqueria Barcelona">
+<figcaption>Figure 1. Athens laiki August tables want open-air crates of fresh figs — this Barcelona market aisle is illustrative Mediterranean market furniture, not Varvakios Agora. Credit: See Commons file page. License: See Commons — see RIGHTS.md.</figcaption>
+</figure>
+
 A dried fig is a document. A fresh fig on a Tuesday *laiki* is a rumor that happens to be true.
 
 Athens still runs the weekly street markets that make the city edible in a way supermarkets cannot fake. In August the fig woman — it is often a woman — has a corner that smells like a green wound. The fruit is stacked in shallow crates, leaves still attached if she likes you, a split one on top as a confession: this is what they look like inside, decide.

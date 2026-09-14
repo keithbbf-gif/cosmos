@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-36
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-36.incir-turkey -->
+<figure>
+<img src="assets/images/fresh/incir-turkey.jpg" alt="Fresh figs for Turkish incir dolması stuffing">
+<figcaption>Figure 1. İncir dolması stuffs fresh syconia with nuts — whole common fig, not prickly pear. Credit: See Commons file page. License: See Commons (recheck before import) — see RIGHTS.md.</figcaption>
+</figure>
+
 Turks already knew how to stuff a leaf, a pepper, a mussel, a squash that had no other plans. Stuffing a dried fig is the same idea in a sweeter key: a hollow, a tenant, a lid that is the fruit itself.
 
 You open the fruit at the eye or the neck — houses argue about which door is polite — you make a room with a finger, you put in walnut. Sometimes a crumb of hazelnut. Sometimes a scent of clove or mastic that you will only notice when you are tired of the walnut. You close the door. Some houses poach the figs first in a light syrup or in tea so the room is kind and the skin will not crack in front of a guest. Some serve them as they are, a chew and a crunch, the honest weeknight version. Some take the extra step of a grape pekmez glaze, which is the southeast talking, Gaziantep’s grammar leaking west.

@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-28
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-28.bimbi-figs-1696 -->
+<figure>
+<img src="assets/images/historic/bimbi-figs-1696.jpg" alt="Still life of Mediterranean fig cultivars for Ferragosto tables">
+<figcaption>Figure 1. Ferragosto first figs land on Catholic summer tables — painted cultivar fruit as historical feast evidence. Credit: Bartolomeo Bimbi; Villa Medicea di Poggio a Caiano. License: Public domain — see RIGHTS.md.</figcaption>
+</figure>
+
 The fifteenth of August is a religious date and a horticultural one, and the two have been shaking hands for a long time.
 
 Ferragosto empties cities and fills tables. Rome leaves itself. Calabria receives cousins. A coastal apartment that was a closet in March becomes a republic of mattresses. In fig country the table wants the first real crop, not the early teasers that tasted like a rumor in July. The *breba* — the first fig, the one on last year’s wood — has its fans, the people who like a slightly grassy sweetness and a story about waiting. The feast wants the *forniti*, the main crop, the ones that taste like the tree meant it and will stain a napkin in a way that cannot be negotiated.

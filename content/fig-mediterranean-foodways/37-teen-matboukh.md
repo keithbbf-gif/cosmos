@@ -14,6 +14,12 @@ hero: IMAGE_SOURCES.md#fig-med-37
 claims_policy: no-medical
 ---
 
+<!-- figure-id: fig-med-37.dried-figs-pile -->
+<figure>
+<img src="assets/images/drying/dried-figs-pile.jpg" alt="Dried figs for Lebanese teen matboukh preserves">
+<figcaption>Figure 1. Teen matboukh slow-cooks dried fig to jam — pile fruit is the starting brix, not a supplement ad. Credit: See RIGHTS.md. License: See RIGHTS.md — see RIGHTS.md.</figcaption>
+</figure>
+
 Someone’s father had a spoon like a flat oar.
 
 That is how *teen matboukh* enters a family: not as a recipe card, as a tool. Dried figs cut into chunks that look too rough for a magazine, water, sugar, anise, mastic pounded with a little more sugar so it does not stick to the pestle and disappear into a complaint. A long, low cook until the pieces surrender and the pot starts to pull a skin that you will scrape and put back in, because that skin is the jam becoming itself. Sesame toasted in a dry pan and thrown on the surface so the jar looks like a field after harvest. Walnut on the plate, later, if the house is in a good mood and someone remembered to buy them.
