@@ -19,6 +19,7 @@ from __future__ import annotations
 import contextlib
 import io
 import json
+import os
 import sys
 import tempfile
 import threading
@@ -288,38 +289,72 @@ def t_timeline_measured_empty_is_zero():
     root = _root("empty")
     p = tl.feed_path(root)
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text("", encoding="utf-8")
+    p.write_text("# ROLLED\n\n(no milestones yet)\n", encoding="utf-8")
     rec = tl.project(root)
-    return rec["kind"] == "EMPTY" and rec["n"] == 0 and rec["available"] is True
+    return (rec["kind"] == "EMPTY" and rec["n"] == 0 and rec["available"] is True
+            and "no milestone" in (rec.get("detail") or ""))
 
 
-def t_timeline_projects_newest_first():
+def t_timeline_parses_rolled_md_line():
+    root = _root("parse")
+    p = tl.feed_path(root)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(
+        "- 2026-09-14T13:00-05 | WOMBAT | milestone | ratified arch | "
+        "ref=docs/arch/SESSIONS_APP_ARCH.md\n",
+        encoding="utf-8",
+    )
+    rec = tl.project(root)
+    row = rec["rows"][0]
+    return (rec["kind"] == "OK" and rec["n"] == 1
+            and row["seat"] == "WOMBAT" and row["kind"] == "milestone"
+            and row["title"] == "ratified arch"
+            and row["ref"] == "docs/arch/SESSIONS_APP_ARCH.md"
+            and row["t"] is not None)
+
+
+def t_timeline_orders_by_t_then_seq():
     root = _root("ok")
     p = tl.feed_path(root)
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text("\n".join(json.dumps(r) for r in (
-        {"schema": "rolled-event/1", "t": 100.0, "seat": "CCr", "kind": "ROLLED",
-         "title": "session-tools slice 2", "ref": "PR#148"},
-        {"schema": "rolled-event/1", "t": 300.0, "seat": "ORC", "kind": "ROLLED",
-         "title": "sessions app skeleton", "ref": "docs/arch/SESSIONS_APP_ARCH.md"},
-        {"schema": "rolled-event/1", "seat": "CCr", "kind": "ROLLED",
-         "title": "no measured t", "ref": None},
-    )) + "\n", encoding="utf-8")
+    arch = "docs/arch/SESSIONS_APP_ARCH.md"
+    p.write_text("\n".join([
+        "- 1970-01-01T00:05:00+00:00 | ORC | ROLLED | sessions app skeleton | ref=" + arch,
+        "- 1970-01-01T00:01:40+00:00 | CCr | ROLLED | session-tools slice 2 | ref=PR#148",
+        "- 1970-01-01T00:01:40+00:00 | CCr | ROLLED | same t later seq | ref=PR#149",
+        "- UNMEASURED | CCr | ROLLED | no measured t",
+    ]) + "\n", encoding="utf-8")
     rec = tl.project(root)
     rows = rec["rows"]
-    return (rec["kind"] == "OK" and rec["n"] == 3
-            and [r["t"] for r in rows] == [300.0, 100.0, None]
-            and list(rows[0]) == ["t", "seat", "kind", "title", "ref"]
-            and rows[0]["ref"] == "docs/arch/SESSIONS_APP_ARCH.md")
+    return (rec["kind"] == "OK" and rec["n"] == 4
+            and [r["t"] for r in rows] == [100.0, 100.0, 300.0, None]
+            and rows[1]["title"] == "same t later seq"
+            and rows[2]["ref"] == arch
+            and rows[0]["ref"] == "UNRESOLVED")
+
+
+def t_timeline_unresolved_ref_never_invented():
+    root = _root("unref")
+    p = tl.feed_path(root)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(
+        "- 1970-01-01T00:00:00+00:00 | CCr | note | missing artifact | "
+        "ref=docs/arch/NO_SUCH_FILE.md\n",
+        encoding="utf-8",
+    )
+    ref = tl.project(root)["rows"][0]["ref"]
+    return ref == "UNRESOLVED"
 
 
 def t_timeline_bad_line_refuses_naming_it():
     root = _root("bad")
     p = tl.feed_path(root)
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps({"schema": "rolled-event/1", "t": 1, "seat": "CCr",
-                             "kind": "ROLLED", "title": "ok", "ref": None})
-                 + "\n{not json\n", encoding="utf-8")
+    p.write_text(
+        "- 1970-01-01T00:00:00+00:00 | CCr | ROLLED | ok | ref=x\n"
+        "- only | two | parts\n",
+        encoding="utf-8",
+    )
     try:
         tl.project(root)
     except SessionsAppRefusal as e:
@@ -327,13 +362,24 @@ def t_timeline_bad_line_refuses_naming_it():
     return False
 
 
-def t_timeline_wrong_schema_refuses():
-    root = _root("wrong")
-    p = tl.feed_path(root)
-    p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(json.dumps({"schema": "cdeck-feed/1", "t": 1}) + "\n",
-                 encoding="utf-8")
-    return refuses("UNPARSEABLE", lambda: tl.project(root))
+def t_timeline_env_feed_overrides_default():
+    root = _root("env")
+    td = Path(tempfile.mkdtemp(prefix="sa_rolled_env_"))
+    feed = td / "extra.ROLLED.md"
+    feed.write_text(
+        "- 1970-01-01T00:00:01+00:00 | ORC | env | from env | ref=\n",
+        encoding="utf-8",
+    )
+    old = os.environ.get("COSMOS_ROLLED_FEED")
+    os.environ["COSMOS_ROLLED_FEED"] = str(feed)
+    try:
+        rec = tl.project(root)
+    finally:
+        if old is None:
+            os.environ.pop("COSMOS_ROLLED_FEED", None)
+        else:
+            os.environ["COSMOS_ROLLED_FEED"] = old
+    return rec["kind"] == "OK" and rec["rows"][0]["seat"] == "ORC"
 
 
 # ------------------------------------------------------------------- shell
@@ -480,9 +526,11 @@ CHECKS = (
     ("app does not shadow session-tools", t_app_does_not_shadow_the_suite),
     ("timeline NO_SOURCE is n null", t_timeline_no_source_is_null_not_zero),
     ("timeline measured empty is n 0", t_timeline_measured_empty_is_zero),
-    ("timeline newest-first, 5 fields", t_timeline_projects_newest_first),
+    ("timeline parses ROLLED.md milestone line", t_timeline_parses_rolled_md_line),
+    ("timeline orders by (t, seq)", t_timeline_orders_by_t_then_seq),
+    ("timeline unresolved ref never invented", t_timeline_unresolved_ref_never_invented),
     ("timeline bad line refuses naming it", t_timeline_bad_line_refuses_naming_it),
-    ("timeline wrong schema refuses", t_timeline_wrong_schema_refuses),
+    ("timeline COSMOS_ROLLED_FEED override", t_timeline_env_feed_overrides_default),
     ("shell + all four APIs end-to-end", t_shell_and_api_end_to_end),
     ("Core down through the shell is 503 null", t_core_down_through_the_shell_is_503_null),
     ("no --store / no --root are typed", t_no_store_no_root_are_typed_not_faked),
