@@ -36,14 +36,14 @@ Counted: 42 drafts.
 | 18 | `wardrobes-and-the-closet-rule` | Wardrobes and the closet rule | 1088 | `drafts/wardrobes-and-the-closet-rule.md` |
 | 19 | `resident-chairs-and-sit-to-stand` | Resident chairs and sit-to-stand | 983 | `drafts/resident-chairs-and-sit-to-stand.md` |
 | 20 | `geri-chairs-and-the-recliner` | Geri chairs and the recliner | 874 | `drafts/geri-chairs-and-the-recliner.md` |
-| 21 | `dining-in-the-snf` | Dining in the SNF | 932 | `drafts/dining-in-the-snf.md` |
-| 22 | `activity-and-day-room` | Activity and day room | 767 | `drafts/activity-and-day-room.md` |
-| 23 | `nurses-station-millwork` | Nurses’ station millwork | 755 | `drafts/nurses-station-millwork.md` |
-| 24 | `bariatric-furniture` | Bariatric furniture | 721 | `drafts/bariatric-furniture.md` |
-| 25 | `infection-control-surfaces` | Infection control surfaces | 790 | `drafts/infection-control-surfaces.md` |
-| 26 | `bleach-and-arkansas-hardwood` | Bleach and Arkansas hardwood | 808 | `drafts/bleach-and-arkansas-hardwood.md` |
-| 27 | `cal-tb-117-and-nfpa-101` | CAL TB 117 and NFPA 101 | 811 | `drafts/cal-tb-117-and-nfpa-101.md` |
-| 28 | `bifma-is-not-a-healthcare-stamp` | BIFMA is not a healthcare stamp | 638 | `drafts/bifma-is-not-a-healthcare-stamp.md` |
+| 21 | `dining-in-the-snf` | Dining in the SNF | 2095 | `drafts/dining-in-the-snf.md` |
+| 22 | `activity-and-day-room` | Activity and day room | 1873 | `drafts/activity-and-day-room.md` |
+| 23 | `nurses-station-millwork` | Nurses’ station millwork | 1972 | `drafts/nurses-station-millwork.md` |
+| 24 | `bariatric-furniture` | Bariatric furniture | 1720 | `drafts/bariatric-furniture.md` |
+| 25 | `infection-control-surfaces` | Infection control surfaces | 1749 | `drafts/infection-control-surfaces.md` |
+| 26 | `bleach-and-arkansas-hardwood` | Bleach and Arkansas hardwood | 1859 | `drafts/bleach-and-arkansas-hardwood.md` |
+| 27 | `cal-tb-117-and-nfpa-101` | CAL TB 117 and NFPA 101 | 1647 | `drafts/cal-tb-117-and-nfpa-101.md` |
+| 28 | `bifma-is-not-a-healthcare-stamp` | BIFMA is not a healthcare stamp | 1642 | `drafts/bifma-is-not-a-healthcare-stamp.md` |
 | 29 | `privacy-curtains-and-cubicle-track` | Privacy curtains and cubicle track | 670 | `drafts/privacy-curtains-and-cubicle-track.md` |
 | 30 | `ada-in-the-resident-room` | ADA in the resident room | 723 | `drafts/ada-in-the-resident-room.md` |
 | 31 | `memory-care-furniture` | Memory care furniture | 786 | `drafts/memory-care-furniture.md` |
