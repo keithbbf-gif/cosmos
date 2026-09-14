@@ -8,7 +8,7 @@ mix: D
 region: Tunisia / Morocco / Maghreb
 era: 2012–2015 legal; older orchards
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

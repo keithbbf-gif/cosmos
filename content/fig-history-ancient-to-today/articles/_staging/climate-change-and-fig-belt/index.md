@@ -8,7 +8,7 @@ mix: D
 region: Mediterranean and analogous climates
 era: 21st century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -60,18 +60,15 @@ Breeding and collection (Condit extra) are one answer: later ripening, drought t
 
 <!-- orchard_slot: ORCH-01 winter trunk -->
 
-
 ## Edges, accounts, bricks
 
 Rainfed slopes lose if winter fails. Irrigated flats lose if the water board says so. Northern walls may gain weeks. The schematic map is not a GCM. Recolor it and you have left the pack’s honesty rule.
-
 
 ## Water boards as climate
 
 San Joaquin figs already live inside a water account that almonds and cities also claim. Chile’s small hectare counts already live inside a megadrought the cadastre years record as retreat in some regions. Aydın still has a dry month; it also has a tourism future. Rainfed Estahban is a winter bet. Northern wall figs may gain ripening weeks and lose their rarity.
 
 This pack’s belt drawing is schematic. Recoloring it as 2050 is a lie. A model needs a paper. Breeding for drought and nematodes (Storey and later) is one answer. Planting the stick where winter still comes is the older answer. Print both. Print no apocalypse sentence and no savior sentence.
-
 
 ## A crop that already lives on someone else’s water
 
@@ -84,36 +81,6 @@ Northern wall culture — Lambeth, English brick, Jefferson’s Virginia hope �
 Breeding desks (Storey and later California and Mediterranean programs) chase nematode resistance, persistence, a Calimyrna that needs less faith. Those are real papers when they are papers. This article will not name a “climate-ready” cultivar that lives only in a press release. The older answer remains the stick: plant where the winter still comes, dry where the summer still takes water, and do not recolor a schematic and call it 2050.
 
 What we will not print: figs will vanish by a round year; figs will save the desert; a pack map with new fill colors and no citation. Edges move. Accounts close. Bricks warm. The proverb about sitting under the tree assumes the tree still has a well.
-
-
-## Three edges, no recolored map
-
-Rainfed slopes lose if winter fails twice. Estahban’s GIAHS language will
-not wet the roots. Aydın’s southwest faces still have the dry month that
-made Sarılop legal; they also have wells, tourism, and children who may not
-want the tray. Irrigated flats lose if a water board says so. California’s
-San Joaquin figs entered that queue when the valley decided Smyrna crates
-were worth a ditch. Almonds and cities now stand in the same line. Chile’s
-cadastre years already record retreat in some central regions while a few
-exporters still fly fruit north.
-
-Northern walls — Lambeth, English brick, Jefferson’s Virginia hope — may
-gain ripening weeks. That is not a gift without a loss. The romance of the
-rare fig in a cold city dies when the fruit is ordinary. Ordinary is what
-this series has argued the tree always wanted to be.
-
-Breeding desks (Storey and later California and Mediterranean programs)
-chase nematode resistance, persistence, a Calimyrna that needs less faith.
-Those are real papers when they are papers. This article will not name a
-“climate-ready” cultivar that lives only in a press release. The older
-answer remains the stick: plant where the winter still comes, dry where the
-summer still takes water, and do not recolor a schematic and call it 2050.
-
-What we will not print: figs will vanish by a round year; figs will save the
-desert; a pack map with new fill colors and no citation. Edges move.
-Accounts close. Bricks warm. The proverb about sitting under the tree
-assumes the tree still has a well.
-
 
 ## Competitors in the same ditch
 

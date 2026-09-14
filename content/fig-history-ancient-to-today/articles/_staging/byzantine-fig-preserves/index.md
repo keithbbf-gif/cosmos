@@ -9,7 +9,7 @@ mix_secondary: C
 region: Eastern Mediterranean
 era: Late antique / Byzantine
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,16 +61,13 @@ Do not invent a “Byzantine fig industry” with a tonnage. Constantinople ate 
 
 Wine, vinegar, and fig-must sit in a later article. This one stays with the keepable sweet: the fruit that lets a monastery, a ship, and a palace pantry tell the same lie — that summer can be opened in February.
 
-
 ## A capital that eats other people’s August
 
 Constantinople’s dried figs are a supply problem. Aegean islands, western Mediterranean *sporte*, the occasional Ligurian basket in a Black Sea warehouse — Jacoby’s food-trade work is the map. The *Geoponica* is the house book that pretends the estate can do it all. Both are true in part. A palace pantry is a port. A monastic pantry is a drying house and a purchase.
 
-
 ## Relay kitchen
 
 The *Geoponica* survives because someone still needed the advice: plant, dry, keep. Its sentences may be Hellenistic, Roman, or a tenth-century editor’s idea of an estate. The Filāḥa Texts Project’s count — a third of Ibn al-ʿAwwām sitting in this Greek-Byzantine pool — is the relay made visible. Constantinople’s mouth, in Jacoby’s food-trade work, also eats western *sporte* and Aegean trays. A palace pantry is a port. A monastic pantry is a drying house plus a purchase. Fig-must and vinegar sit in the jar article. This one stays with the keepable sweet that lets February pretend it is still August.
-
 
 ## The Geoponika as a library, not a farm diary
 
@@ -129,7 +126,6 @@ with the density of Condit 1947. We have a compiled library and a scatter of
 estate nouns. That is enough to keep the fig on the medieval eastern
 Mediterranean farm. It is not enough to name the clone on a specific Athos
 terrace without a living tree and a document that match.
-
 
 ## A capital that eats other people’s August
 

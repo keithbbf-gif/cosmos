@@ -8,7 +8,7 @@ mix: D
 region: California / world collections
 era: 1947–1955; later databases
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

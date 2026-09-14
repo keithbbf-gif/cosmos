@@ -9,7 +9,7 @@ mix_secondary: B
 region: Levant
 era: Iron Age library
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -69,18 +69,15 @@ The New Testament parables sit next door. This article’s job is the older libr
 
 *Figure 4. James Tissot, *Nathaniel Under the Fig Tree*. Brooklyn Museum. Public domain. Nineteenth-century reception, not a first-century photograph.*
 
-
 ## A library, not a cultivar key
 
 The seven species are a land list, not a market order. Eshcol is a wadi report. Micah’s shade is a political weather. Genesis is a covering. Amos is another species. A commentary tradition that turns all of them into one “symbol of Israel” is doing theology. This series can note the theology and still keep the horticulture split.
 
 Tissot’s Brooklyn Nathanael is reception history hung in a museum. Useful as a later seeing. Useless as Iron Age leaf shape.
 
-
 ## Ordinary trees, one other species
 
 Deut 8:8 seven species; Num 13:23 Eshcol; 1 Kgs 4:25 / Mic 4:4 shade as peace; Gen 3:7 leaves; 2 Kgs 20:7 cake; Amos 7:14 *sycomorus*. A library repeats useful objects. Theology may unify them. Horticulture will not. Tissot’s Nathanael (Brooklyn, PD) is nineteenth-century shade, not Iron Age proof. No lost Song of the Fig. No Davidic Hebron clone.
-
 
 ## A library repeats useful objects
 
@@ -113,7 +110,6 @@ Do not medicalize the poultice beyond the verse: a cake of figs was applied.
 Later physicians will have opinions. The verse has a cake. Zohary, Hopf, and
 Weiss remain the crop desk for the land under the library.
 
-
 ## Eshcol is a scout’s sentence
 
 Numbers 13:23 wants to be believed: grapes, pomegranates, figs from a
@@ -131,7 +127,6 @@ Zohary, Hopf, and Weiss remain the crop desk under the library. The NT
 essay holds the first-century uses. This one holds the older household
 archive and the one verse that is another species.
 
-
 ## Honey in the land list is not a fig
 
 Deuteronomy’s seventh species is honey — date syrup in many readings,
@@ -141,14 +136,12 @@ Tissot is Brooklyn. Zohary is the crop desk. No Davidic Hebron tag. No
 medicalized poultice beyond a cake applied. Libraries repeat useful
 objects. They do not issue cultivar keys.
 
-
 ## Micah is weather, not a royal orchard
 
 Shade as the opposite of a raid is a political sentence about ordinary
 trees. Turn it into Solomon’s cultivar list and you have left the
 Hebrew. Eshcol remains a scout. Amos remains a dresser of sycomores.
 Tissot remains Brooklyn. The cake remains a cake.
-
 
 ## The spies wanted to be believed
 

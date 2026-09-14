@@ -9,7 +9,7 @@ mix_secondary: B
 region: Levant
 era: Pre-Pottery Neolithic A
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -66,7 +66,6 @@ So the honest sentence is not “figs were domesticated at Gilgal in 9400 BCE.�
 
 *Figure 2. Core rain-fed and irrigated districts around the Mediterranean. Schematic map — not to scale.*
 
-
 ## Genetics will not crown a village
 
 Later nuclear and chloroplast work — Khadari’s circle, Aradhya’s *Genetica* paper, the 2025 “diffuse domestication” argument — does not point at one Jordan Valley hamlet. It points at structured pools: a Moroccan–Algerian group, a northern Mediterranean group, a Levantine group, with *F. carica* in the strict sense sitting apart from *rupestris* and *F. colchica*. That is what you would expect if people kept planting wood in more than one valley for a very long time. It is death to a single-origin press release. It is life to the stick.
@@ -91,11 +90,9 @@ Bar-Yosef, in the 2006 coverage, described a mixed life: wild cereals and acorns
 
 The nine figs are still the right place to start a history, because they force the reader to hold two ideas at once: the tree is old in human hands, and the first handhold is slippery. Everything that follows — Pliny’s list, a Senate trick, a wasp in a Fresno orchard — is what people did after they learned the stick would grow.
 
-
 ## Diffuse, not crowned
 
 Khadari’s pools and Aradhya’s structure sit beside Kislev’s house. A single-village domestication press release dies on that evidence. The stick remains the technology. Gilgal remains an argument. The series starts there because the handhold is slippery, not because the crown is heavy.
-
 
 ## Diffuse, and still a stick
 

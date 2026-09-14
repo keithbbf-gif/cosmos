@@ -9,7 +9,7 @@ mix_secondary: B
 region: Greece
 era: Archaic to Classical
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -65,23 +65,19 @@ Dried figs moved. They moved inside the Aegean long before they moved as a named
 
 *Figure 3. Qualitative index of representative cultivar roles — not production tonnage.*
 
-
 ## Leave the altar alone
 
 There are fig trees in sanctuaries because there are fig trees in Greece. A sacred grove that includes a fig is not a fig cult. Priapus is a Roman garden statue with a fig in the joke more than once; he is not a Greek dinner guest you need on this page. If a vase shows fruit, say which vase and what the catalogue calls the fruit. This pack does not embed an uncleared kylix. The pending raster `greek-vases.fig-banquet` stays pending until a rights check lands.
 
 The Greek contribution to the long arc is looking (Theophrastus) and eating (everyone). Rome will name varieties as if they were conquests. The Aegean will keep drying. The table is the hinge.
 
-
 ## Plate before altar
 
 Dried winter sweet, fresh short season, comic fruit, disputed sycophant pun. Athenaeus is a quotation machine — use as talk, not as a 420 BCE menu. A cleared kylix can enter when rights land. Until then the table is literary and the looking is Theophrastus.
 
-
 ## Short fresh, long dry, thin altar
 
 Aegean dining trains a taste the later crate will sell. Athenaeus is talk, not a 420 BCE menu. Theophrastus is the looking. Plutarch’s pun is disputed. Chios in Pliny is a type as well as a freight. Pending kylix raster stays pending. Priapus is Roman garden joke, not a Greek dinner guest required here. Plate before altar. Looking before liturgy.
-
 
 ## Plate before altar
 
@@ -113,25 +109,6 @@ not a July berry. Fresh figs are a short brag. Both can be true in the same
 house in different months. Homeric similes that later readers hang on the
 fruit should be checked against the Greek; this pack will not back-write a
 Homeric cultivar.
-
-
-## Athenaeus is not a menu
-
-Athenaeus is a quotation machine. Use him as talk, not as a 420 BCE
-shopping list. A symposium that “always served figs” is a sentence this
-pack will not print without a fragment. What can be held: comedy knows the
-fruit; moralists use it as modest food; physicians already have it as a
-simple; winter dried figs are the shareable sweet; fresh figs are a short
-brag. The altar, when it appears, is usually first fruits or a general
-*aparche*, not a named fig cult this bibliography can cite.
-
-Theophrastus remains the looking. A banquet article that only quotes jokes
-has left the tree. A banquet article that invents a sacred fig of Dionysus
-without a cult title has left the folklore fence. A cleared Attic kylix
-can enter when rights land (`greek-vases.fig-banquet` waits). Until then
-the table is literary. Do not steal a Pompeian Priapus to decorate a Greek
-dinner. Do not back-write a Homeric cultivar. The Attica essay holds the
-pun. This one holds the plate.
 
 ## Sources for this piece
 

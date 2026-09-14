@@ -8,7 +8,7 @@ mix: A
 region: South Asia
 era: Medieval notices to modern markets
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

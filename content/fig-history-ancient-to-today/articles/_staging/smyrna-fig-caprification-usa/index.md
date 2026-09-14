@@ -9,7 +9,7 @@ mix_secondary: C
 region: California / Algeria
 era: 1881–1901
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -63,16 +63,13 @@ The name is California + Smyrna. The clone is Sarılop. The insect is Algerian b
 
 Gasparrini’s denial is the villain only if you need a villain. The deeper fact is horticultural type. A Common fig does not teach you a Smyrna fig. A professor who studied the wrong type can be sincere and costly.
 
-
 ## Sixty-two acres of being right
 
 Roeding’s acreage is the number that makes the wait expensive. Schwarz’s 1900 season is the number that ends the rumor of sterile Turkish wood. Howard and Swingle’s Algerian insects are the missing tool. Calimyrna is the advertisement written after the tool worked.
 
-
 ## Blowpipe, then insect
 
 1881–82 cuttings. 1890 hand pollen. 1899 Howard and Swingle, Algeria, *Blastophaga*. 1900 Schwarz on Roeding’s ~62 acres: first large seeded Smyrna crop in America. 1901 Eisen bulletin. Prefer 1899 over “1890” slips for establishment. Calimyrna is the stitch; Sarılop is the wood; the wasp is Mediterranean by nature and Algerian by last address. Gasparrini’s denial was sincere and costly because he studied the wrong horticultural bill.
-
 
 ## The decade the valley bought the wrong theory
 

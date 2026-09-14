@@ -9,7 +9,7 @@ mix_secondary: B
 region: Egypt
 era: Old Kingdom to New Kingdom
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -50,7 +50,6 @@ Archaeobotany is less chatty than paint. Fourth-millennium finds in the Nile Del
 
 *Figure 1. Long arc of fig culture with Egyptian bronze-age orchard phase marked. Schematic timeline.*
 
-
 ## Sycomore: the tree that is also a goddess
 
 *F. sycomorus* is the tree Egyptian religion could not leave alone. Azzazy and Ezzat, working texts, images, and palynology from Tell el-Dabʿa, put it at pools and offering tables, as a form of Nut, Isis, Hathor — a nourisher of the dead. Wood went into coffins. Fruit went into tombs and survived the dry air so well that modern botanists can still see the work done on them.
@@ -63,7 +62,6 @@ Amos, dressing sycomore-figs in the Hebrew Bible (Amos 7:14), is in this world, 
 ![Mediterranean map with Egypt and Levant emphasized.](../../../assets/shared/svg/map-mediterranean-fig-belt.svg)
 
 *Figure 2. Egypt within the wider Mediterranean fig belt. Schematic — not to scale.*
-
 
 ## Gardens, not still lifes
 

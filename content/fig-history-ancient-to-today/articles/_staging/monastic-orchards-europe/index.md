@@ -9,7 +9,7 @@ mix_secondary: B
 region: Carolingian Europe
 era: 8th–9th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -62,7 +62,6 @@ Southern houses — Monte Cassino’s wider world, Iberian monasteries, Provenç
 
 Do not write “every medieval monastery had a fig.” Do not date a surviving Reichenau tree to Walahfrid. Do not collapse royal estate and cloister. The capitulary is a king’s pantry. The plan is a monk’s map of holiness. The fig sits on both pages because a Mediterranean tree had already become a Christian ordinary — in ink, if not always in fruit.
 
-
 ## North of ripening, south of the list
 
 A Reichenau or St. Gall fig, if it lived, was a sheltered bet. A Monte Cassino or Catalan house could treat the tree as ordinary. The capitulary does not admit the difference. That is how imperial lists work. They flatten climate into obedience.
@@ -70,7 +69,6 @@ A Reichenau or St. Gall fig, if it lived, was a sheltered bet. A Monte Cassino o
 Later Cistercian and Benedictine customaries talk gardens more than they talk named fruit clones. Do not harvest a “monastic Dottato” from that silence. Southern houses dried. Northern houses made medicinal use of whatever ripened. The Plan’s drying house is the honest middle: someone expected stored fruit, not a miracle August.
 
 English wall figs (Lambeth extra) are the long echo of the same wish: keep the Mediterranean on a brick.
-
 
 ## Two lists, one climate problem
 
@@ -107,7 +105,6 @@ royal estate and cloister and you have left the Latin. The fig sits on both
 pages because a Mediterranean tree had already become a Christian ordinary —
 in ink, if not always in fruit.
 
-
 ## A sermon in thirteen trees
 
 The Plan of St. Gall’s orchard-cemetery is a cross surrounded by named
@@ -126,7 +123,6 @@ dates, is the English brick echo. “Every monastery had a fig” is the lie
 the list tempts. Collapse fisc and cloister and you have left the Latin.
 The tree had already become a Christian ordinary in ink. Fruit was a
 climate problem the ink refused to admit.
-
 
 ## Boseva’s trio, and the climate the ink denied
 

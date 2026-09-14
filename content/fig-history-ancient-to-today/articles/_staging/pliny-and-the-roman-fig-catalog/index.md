@@ -9,7 +9,7 @@ mix_secondary: B
 region: Italy / Roman Mediterranean
 era: 1st century CE
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -49,7 +49,6 @@ He knows winter figs in some provinces — Moesia — “a product of art and no
 
 *Figure 1. 79 CE is both Pliny’s death and the ash that kept the next article’s paintings. Schematic.*
 
-
 ## Names that will not map
 
 Livian and Pompeian are lost as sure matches. Condit would spend a career on that grief. Chalcis and Chios tell us the Aegean was already an exporter of *types*, not only of dried freight. Lydian purple tells us Anatolia was in the Italian mind as color. African tells us the name of a fruit and the name of a province can lie to each other — a lesson for Calimyrna, which is a California word for a Turkish clone.
@@ -70,7 +69,6 @@ Pliny’s Hyrcania, via Onesicritus, is the same Caspian-facing country Strabo w
 
 Chapter 20, next door in the same book, puts a fig in the Senate. The catalog and the weapon are one author’s afternoon. We split them because they do different work. Bimbi’s 1696 Medici canvas — a later raster in the art article — is Pliny’s impulse in oil: name them all.
 
-
 ## How to read a list that will not map
 
 Condit’s grief is the right method: take each Pliny name as a historical appetite, not as a barcode. Livian may remember Livia’s household. Pompeian may remember a town that sold a drying type. Tarentum’s *ona* is a local boast Pliny is willing to repeat. Hyrcania is a traveler’s number. Mount Ida’s “Alexandrian” may be a different plant.
@@ -79,11 +77,9 @@ The winter-fig of Moesia is the most modern sentence in the chapter. Art, not na
 
 Chapter 15.20’s Senate fig is the same author’s next hour. The catalog is appetite. The Senate fruit is fear. Empire speaks both.
 
-
 ## Appetite as a weather report
 
 Twenty-nine names; Cato quoted; life-has-changed moral; Moesian winter figs by art; Hyrcanian 270 *modii* as topos; African name that may lie; Tarentine *ona* as local boast; Livian and Pompeian unmapped. Condit’s grief is the method. Bimbi will oil-paint the same vice. Chapter 20’s Senate fig is the same afternoon’s other tool. Empire multiplies desire. It does not invent the tree.
-
 
 ## How to read a list that will not map
 
@@ -112,7 +108,6 @@ Do not print a reconstruction table that maps all twenty-nine onto Condit’s
 717. Print a handful as appetites and leave the rest as a warning. The
 Pompeii article’s painted pair — two figs and a loaf — is the lunch that
 the catalog cannot taste. Both desks shared a week in 79.
-
 
 ## Twenty-nine appetites and a winter trick
 

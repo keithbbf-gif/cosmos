@@ -8,7 +8,7 @@ mix: A
 region: China
 era: Tang notice to modern orchards
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

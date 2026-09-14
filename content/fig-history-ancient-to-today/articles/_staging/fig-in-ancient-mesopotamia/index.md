@@ -9,7 +9,7 @@ mix_secondary: C
 region: Mesopotamia
 era: Bronze Age
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -65,23 +65,19 @@ Figs as offerings and as medical simples show up later in the cuneiform medical 
 
 *Figure 3. Selected milestones from early domestication through modern export hubs. Schematic timeline; dates approximate.*
 
-
 ## What we will not do
 
 We will not invent a Sumerian fig goddess. We will not turn Inanna’s garden imagery into a cultivar list. We will not quote a “translation” that cannot be walked back to Postgate, Powell, or a standard edition. We will not say Mesopotamia domesticated the fig. The Jordan argument is older as archaeology; the Mesopotamian argument is older as writing. Those are different kinds of first.
 
 The tablet’s gift to this series is tone. A fig that has a word is a fig someone expected to meet again — in a garden, in a ration, in a line a student had to copy. That is already culture. It is not yet Pliny’s twenty-nine names. It does not need to be.
 
-
 ## Lexical orchard
 
 Uruk tree-lists and *tittu* rations are a school and a storehouse seeing a tree they expected to meet again. Date remains the alluvial monarch. Fig remains the courtyard second. No goddess. No yield report dressed as a hymn. Postgate is the door; stay near it.
 
-
 ## Wedges on a useful tree
 
 Postgate 1987; Powell’s tree-list (date, vine, fig, apple); Akkadian *tittu*. School texts and rations, not yield hymns. Date is the alluvial monarch; fig is the courtyard second. Keep *sycomorus* out unless a wood ID puts it in. Laufer’s word-pegs are not a Babylonian export of every later *anjīr*. No invented goddess. Writing is a different first than Gilgal’s house.
-
 
 ## A lexical orchard is still an orchard
 
@@ -113,7 +109,6 @@ on a sycomore timber scene is a species error. Stay near Postgate. If a
 later editor wants a specific tablet number, they can add it from a published
 hand copy. Until then, the class of text is enough: school, storehouse,
 courtyard tree, not a hymn about yield.
-
 
 ## Date is the monarch; fig is the courtyard
 

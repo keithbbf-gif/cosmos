@@ -8,7 +8,7 @@ mix: B
 region: Timeless
 era: Timeless
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -43,7 +43,6 @@ Theophrastus, who did not have the word *syconium* in our sense, still knew he w
 
 *Figure 1. Whole syconium and longitudinal section with numbered callouts. Pack ink schematic.*
 
-
 ## Long styles and short
 
 *Ficus carica* is functionally split. The edible fig — the one markets call female — has long-styled flowers. The caprifig has short-styled flowers that can house the wasp *Blastophaga psenes*, and, in the right crop, a ring of male flowers near the ostiole. Galil and Ne’eman, writing in *New Phytologist* in 1977 and 1978, mapped pollen transfer and seed set without romance. The wasp is not a metaphor. She is a small hymenopteran with a job and a grave. She enters, she lays or she fails to lay, she often dies in the room. If she carried pollen, some long-styled flowers set seed. The syconium answers with hormones and swell. If she did not, some clones swell anyway. Those are the parthenocarpic types — Common figs in the California horticultural slang — and they are why a mission garden can have fruit without an insectary.
@@ -54,7 +53,6 @@ San Pedro types do a split: the breba crop (the early fruit on old wood) can per
 ![Schematic of caprifig, wasp, and pollinated common fig.](../../../assets/shared/svg/caprification-wasp-cycle.svg)
 
 *Figure 2. Caprification cycle linking caprifig, *Blastophaga psenes*, and pollinated common fig. Schematic.*
-
 
 ## What the leaf is doing
 
@@ -70,7 +68,6 @@ The leaf is the other public face of the tree, and it is a liar if you ask it fo
 ![Duplicate morphology reference for cross-pack reuse.](../../../assets/shared/svg/botanical-syconium-morphology-plate.svg)
 
 *Figure 4. Reference plate (same asset as Figure 1) for readers jumping from other articles.*
-
 
 ## Why the room matters to history
 
@@ -90,11 +87,9 @@ A history that only photographs split fruit on linen has already left the struct
 
 *Figure 6. *Encyclopaedia Britannica* 1911 floral diagram. Public domain. A late, stiff, honest inversion.*
 
-
 ## Kitchen fruit, lab room
 
 Ostiole, long style, short style, four horticultural boxes, a leaf that lies. Ehret and the 1911 diagram are late seeings of the inversion. History that only photographs split pulp has left the structure that makes Gilgal, Theophrastus, and Roeding one story.
-
 
 ## Kitchen fruit, lab room
 
@@ -116,7 +111,6 @@ lobing trains an eye and then the eye is wrong.
 Do not caption Ehret as a photograph of an eighteenth-century orchard. Do
 not caption the 1911 diagram as Condit’s last word. Use both as inversions
 you can hang on a wall when a camera will only give you dessert.
-
 
 ## What a cook’s knife hides
 

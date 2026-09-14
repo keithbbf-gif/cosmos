@@ -8,7 +8,7 @@ mix: B
 region: Mediterranean
 era: Timeless
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -41,7 +41,6 @@ The year of the insect, as Italian and California growers still name it, runs in
 
 *Figure 1. Caprification cycle linking caprifig, *Blastophaga psenes*, and pollinated common fig. Schematic.*
 
-
 ## What pollination buys
 
 Seed. Crunch. A flavor people in the Aegean and in California packing houses learned to call “the real fig.” Hormonal swell that holds the syconium on the tree. A crate that can stand next to an imported Smyrna box. Common-type figs — Mission, many “Adriatic” names, the backyard tree — do not pay this tax. They persist. They can be excellent. They are a different machine. Condit’s navel-and-Valencia analogy still earns its keep: Mission and Adriatic were navels. Smyrna was a Valencia.
@@ -52,7 +51,6 @@ San Pedro types split the bill: brebas without the wasp, main crop often with. I
 ![Line plate of whole and sectioned fig syconium with callouts.](../../../assets/shared/svg/botanical-syconium-morphology-plate.svg)
 
 *Figure 2. Syconium external form and longitudinal section (generalized). Original pack line plate.*
-
 
 ## What folklore adds
 
@@ -68,7 +66,6 @@ There are other fig wasps on other *Ficus* species. *Ceratosolen arabicus* on *F
 
 <!-- orchard_slot: ORCH-04 caprifig cut open -->
 
-
 ## Other wasps, other rooms
 
 *Ceratosolen arabicus* is the sycomore’s partner, and Egypt’s gashing habit exists because that partner left. African and Asian *Ficus* species have their own pairs; Berg and Wiebes mapped a continent of them. A magazine that calls every fig wasp *Blastophaga* has already failed biology class.
@@ -77,28 +74,9 @@ Pollen on the female’s body, not a “sting that ripens,” is the transfer. G
 
 California’s insectaries, when they existed as a commercial habit, were caprifig orchards timed to the *profichi*. They were not temples. They were calendars with wings.
 
-
 ## Calendar with wings
 
 *Mamme, profichi, mammoni* are labor words. She enters, often dies, sometimes leaves pollen. Galil and Ne’eman 1977–78 are the skeptic’s papers. *Ceratosolen* is the other Egyptian story. A backyard Common type in a cold state is not a broken law. Folklore that says “sting to ripen” has imported a sycomore knife into the wrong room. Insectaries were timed caprifig orchards, not temples.
-
-
-## Other wasps, other rooms
-
-*Blastophaga psenes* is the common fig’s partner in the Mediterranean. It is
-not the only fig wasp. *Ceratosolen arabicus* is the sycomore’s partner, and
-Egypt’s gashing habit exists because that partner left the northern range.
-African and Asian *Ficus* species have their own pairs; Berg and Wiebes
-mapped a continent of them. A magazine that calls every fig wasp
-*Blastophaga* has already failed biology class.
-
-Pollen on the female’s body, not a “sting that ripens,” is the transfer.
-Galil and Ne’eman’s 1977 *New Phytologist* paper is the English place to
-send a skeptic. Seed set in the “male” syconia (1978) is the other half: the
-caprifig is not sterile decoration. It is a nursery that also sheds pollen.
-The ostiole is a door with a dress code. Long-styled female flowers in the
-edible fig are a room the wasp can pollinate and often cannot oviposit in
-comfortably. Short-styled flowers in the caprifig are the nursery.
 
 ## A year with three names
 
@@ -114,7 +92,6 @@ a photograph of a wasp entering an ostiole. ORCH-04 can hold that
 photograph later if a researcher licenses it. Until then, write the
 transfer, name the other wasps, and refuse the sting folklore. The history
 essay next door is the human argument. This one is the insect’s year.
-
 
 ## A foundress and a wingless brother
 
@@ -133,7 +110,6 @@ Howard and Swingle’s 1899 Algerian insects were one year’s guests that
 became infrastructure. The pack’s cycle plate is a teaching drawing, not a
 photograph of entry. ORCH-04 can hold a cut caprifig later. Until then,
 write the transfer and refuse the sting.
-
 
 ## The room that is also a grave
 

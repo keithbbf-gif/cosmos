@@ -9,7 +9,7 @@ mix_secondary: C
 region: Türkiye / Aydın–İzmir
 era: Legal name 2005–2016; older clone
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -60,18 +60,15 @@ The specification’s bow to the botanical name — Caria, the ancient country o
 
 İncirliova means fig-plain. A town that calls itself that is not waiting for a Brussels stamp to know its job. The PDO fixes the lie of the port — or tries to. The fruit may still leave through İzmir. The name on a protected pack is the valley.
 
-
 ## Ninety to the kilo
 
 A count is a law. Pale, thin-shelled, seeded — those are legal adjectives. Caria as etymology is a bow. Caria as unbroken orchard is a tone. FAOSTAT’s Turkish first-place is a year. Print the year.
-
 
 ## Legal adjectives
 
 Dried Sarılop, whitish-yellow, thin-shelled, seeded, not more than ninety to the kilo, southwest faces, 0–900 m, named towns, EU 17 February 2016, Turkish GI earlier, UK scheme 31 December 2020. Condit: Calimyrna is this wood. Without the wasp the crop drops at about an inch. Caria as etymology is fair. Caria as a pollen core is not.
 
 İncirliova — fig-plain — does not wait for Brussels. FAOSTAT’s Turkish first-place is a year (2022: 350 kt class; 2023: 356 kt class). Print the year. The port name was Smyrna. The legal name is the valley. Substitution is why the fence exists.
-
 
 ## A clone with a lawyer and a wasp
 

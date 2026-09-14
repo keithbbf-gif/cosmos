@@ -8,7 +8,7 @@ mix: B
 region: Mediterranean / Levant
 era: Timeless kitchen; Iron Age text
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

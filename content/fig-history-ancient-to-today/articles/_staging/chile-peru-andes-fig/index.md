@@ -9,7 +9,7 @@ mix_secondary: A
 region: Peru / Chile
 era: 16th century to present
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -60,18 +60,15 @@ Chilean commercial fig is a niche inside a fruit-export state. ODEPA–CIREN’s
 
 Mexico’s Mission-based northwest is a different extra sentence (Franciscan sixteenth century in the syntheses). This article stays with the south: a Spanish tree in desert valleys, a liquor, a small Chilean hectare count, no invented Inca fig.
 
-
 ## Huerta in a desert valley
 
 Coastal Peru’s post-1532 gardens mix Andean and Iberian plants because people were hungry and the irrigation was already there. A Siguas trunk is a colonial landscape feature. A Chilean cadastre hectare is an export-state niche. Neither is an Inca *carica*. Say the introduction date range and stop.
-
 
 ## Introduction, not a contest
 
 Zimmerer et al. (2024) put figs on the post-1532 coastal Peru list with garbanzo, citrus, date — Andalusian and Canary food plants, Cieza de León among the witnesses. Siguas *higueras* are a colonial landscape in an archaeological valley; local writing says *albacor* and talks in centuries. Uchumayo’s “Negro” and *chimbango* are living names. Age-of-trunk pride is not a Gilgal contest.
 
 Chile’s ODEPA–CIREN cadastre is the hectare desk; exporter blogs that cite ~104–192 ha across the 2010s–2020s should be checked against the year you print. Fresh US access from 2014 is airfreight, not a *sporta*. Company tonnages around 100–120 t are company scale. No Inca *carica*. Mexico’s Mission northwest is a different sentence.
-
 
 ## A Spanish tree in someone else’s irrigation
 
@@ -81,49 +78,6 @@ Siguas, Arequipa, keeps monumental colonial *higueras* among pre-Hispanic remain
 
 Chile’s commercial fig is a niche inside a fruit-export state. ODEPA–CIREN’s *Catastro Frutícola* is the hectare desk. Exporter blogs that cite ~104 ha in the early 2010s and higher later numbers should be checked against the cadastre year you print. Fresh export to the United States from 2014 is airfreight, not a medieval *sporta*. Company stories on the order of 100–120 tonnes are company scale. No Inca *carica*. Mexico’s Mission-based northwest is a different extra sentence. This article stays with the south: a guest tree, a liquor, a small Chilean count.
 
-
-## A Spanish tree in someone else’s canal
-
-Figs sit on Zimmerer and colleagues’ 2024 table of food plants that move to
-coastal Peru after 1532 — garbanzo, citrus, eggplant, date, fig —
-Andalusian and Canary biota, Cieza de León among the early witnesses. That
-is an introduction story, not an Andean domestication. The tree arrives
-with the huerta habit: dooryard, a canal that was already there, a sweet
-that dries in a desert valley.
-
-Siguas, Arequipa, keeps monumental colonial *higueras* among pre-Hispanic
-remains. Local writing says *albacor* and talks in centuries. Uchumayo’s
-“Negro” fig and *chimbango* are living names. Use them as living-orchard
-reportage. Do not run a world’s-oldest-productive-figs contest against
-Estahban or Gilgal. Age of a trunk is pride. It is not an excavation.
-
-Chile’s commercial fig is a niche inside a fruit-export state. ODEPA–CIREN’s
-*Catastro Frutícola* is the hectare desk. Exporter blogs that cite ~104 ha
-in the early 2010s and higher later numbers should be checked against the
-cadastre year you print. Fresh export to the United States from 2014 is
-airfreight, not a medieval *sporta*. Company stories on the order of
-100–120 tonnes are company scale. No Inca *carica*. Mexico’s Mission-based
-northwest is a different extra sentence. This article stays with the south:
-a guest tree, a liquor, a small Chilean count.
-
-
-## Cieza’s table, a canal that was already there
-
-Zimmerer and colleagues (2024) put fig on the list of Andalusian and Canary
-food plants that move to coastal Peru after 1532, Cieza de León among the
-witnesses, next to garbanzo, citrus, eggplant, date. The irrigation was
-Andean. The tree was a guest. Dooryard, desert valley, a sweet that dries
-— huerta habit in someone else’s canal. No Inca *carica*.
-
-Siguas *higueras* among pre-Hispanic remains, *albacor* in local writing,
-Uchumayo’s “Negro” and *chimbango*: living-orchard reportage, not a
-world’s-oldest contest against Estahban. Chile’s ODEPA–CIREN cadastre is
-the hectare desk for a niche inside an export state. Check the year before
-you print 104 hectares or a later jump. US fresh from 2014 is airfreight.
-Company 100–120 tonne stories are company scale. Mexico’s Mission northwest
-is another sentence. Stay south.
-
-
 ## *Chimbango* is a living noun
 
 Use Uchumayo’s names as reportage. Use Zimmerer’s 1532 table as the
@@ -131,7 +85,6 @@ introduction. Use ODEPA–CIREN as hectares. Use 2014 as airfreight to
 the United States. Do not use a trunk’s girth as an excavation. Do not
 run Siguas against Gilgal. The canal was Andean. The tree was a guest.
 Mexico’s Mission northwest can wait for another sentence.
-
 
 ## Airfreight is not a *sporta*
 

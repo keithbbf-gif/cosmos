@@ -8,7 +8,7 @@ mix: C
 region: Aegean / Anatolia
 era: Timeless practice; modern districts
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -59,20 +59,17 @@ Harvest. Sort. Lay. Turn. Stack. Box. The pack diagram numbers them because writ
 
 Labor is mostly seasonal and often women’s. A history that photographs only fruit has already fired them. This pack leaves orchard-slot ORCH-05 for trays and hands if consent exists. Until then the diagram is the honest picture.
 
-
 ## Weather as a co-author
 
 A yard that cannot see a dew coming is a yard that will sell mold. Reed and plastic, old cloth, a pull-under roof — the tools change, the fear does not. Eisen’s sweating step is chemistry and time: fruit in a box evening out so a grade can be honest. Skip it and the top layer lies.
 
 Women’s seasonal labor is the unprinted majority in every drying district this pack names. A photograph without consent does not fix that. A sentence that says “the packer” as if it were a machine does not either. The diagram’s human gate is the minimum.
 
-
 ## A climate machine with hands
 
 Menderes summers and Euboea faces take water out of a fruit without coal. That is why Sarılop and Traganikó became legal names and why a wetter coast becomes jam country. Harvest, sort, lay, turn, stack, box: the diagram numbers them because writers skip them. Sulfur is a later branch. Askada doubling is a Kymi signature. Lerida’s pull is a western cousin. One recipe card for the whole sea is a lie.
 
 Dew is the nightly enemy. Theft is the human one. Eisen’s sweat is the evening-out that makes a grade possible. ORCH-05 waits for consented hands on trays. Until then the schematic is more honest than a stock photo of three figs on linen.
-
 
 ## What the sun actually does to a fig
 
@@ -124,7 +121,6 @@ Kymi’s *askada* pairing is handwriting on the same physics: doubled fruit
 that sells as a unit. Spanish *pan de higo* is a press. Some hill towns
 string. Universalizing the string is laziness. Weather remains a co-author.
 A yard that cannot see a dew coming is a yard that will sell mold.
-
 
 ## Dew is a co-author
 

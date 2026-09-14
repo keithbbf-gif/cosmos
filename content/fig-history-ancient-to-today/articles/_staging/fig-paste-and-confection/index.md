@@ -9,7 +9,7 @@ mix_secondary: D
 region: Mediterranean / United States
 era: Early modern kitchens to industrial candy
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -60,18 +60,15 @@ Fig in baklava fillings, in Sicilian and Calabrian Christmas pastes, in Spanish 
 
 Wine and vinegar take the juice and the spoilage. Paste takes the dry meat. They are cousin technologies of not wasting a glut.
 
-
 ## Hiding a grade, honoring a glut
 
 Paste is honest about ugliness. Whole-fruit grades are vain. A factory Newton is one industrial outcome. *Pan de higo* is another. A baklava shop using Aegean paste is a third. Do not give Massachusetts the origin. Do give it a lunchbox.
-
 
 ## Filling as a technology of ugliness
 
 Grind a dried fig and a grade the eye would refuse becomes a bite. Levantine, Aegean, Maghrebi, Italian convent, Sephardi, and Spanish *pan de higo* kitchens knew paste or press before any Massachusetts trademark. The factory Newton is a late industrial child and a lunchbox. This pack will not print a first-baker romance without a sourced corporate history.
 
 Paste is also how a good fig becomes portable without looking like a fig. Wine and vinegar take juice and spoilage. Paste takes dry meat. Cousin technologies of glut. A baklava shop using Aegean paste is not stealing a Boston idea. It is using a tray.
-
 
 ## Filling as a technology of the ugly fruit
 
@@ -80,44 +77,6 @@ Grind a dried fig and a grade the eye would refuse becomes a bite that can trave
 Paste hides ugliness and, sometimes, a lesser grade. That is a quality fact, not only a sneer. It is also how a good fig becomes a mouthful that does not look like a fig. Wine and vinegar take juice and spoilage. Paste takes dry meat. Cousin technologies of glut. A baklava shop using Aegean paste is not stealing a Boston idea. It is using a tray.
 
 Eisen and Condit discuss manufacturing grades because packing houses needed a use for fruit that would not layer. A history that only photographs whole Calimyrnas has fired that use. The drying diagram grows a branch toward the grind. That is enough picture until a consented factory-floor slot exists — and even then the caption should say filling, not heritage.
-
-
-## Filling as a technology of the ugly fruit
-
-Grind a dried fig and a grade the eye would refuse becomes a bite that can
-travel farther than a tray of whole fruit. Levantine and Aegean kitchens
-knew that before any Massachusetts bakery. So did Maghrebi houses, Italian
-convent sweets, Sephardi trays, Spanish *pan de higo* — a pressed cake more
-than a pastry. The factory Newton is a late industrial child and a
-lunchbox. It is not the origin of fig paste. This pack will not print a
-first-baker romance without a sourced corporate history.
-
-Paste hides ugliness and, sometimes, a lesser grade. That is a quality
-fact, not only a sneer. It is also how a good fig becomes a mouthful that
-does not look like a fig. Wine and vinegar take juice and spoilage. Paste
-takes dry meat. Cousin technologies of glut. A baklava shop using Aegean
-paste is not stealing a Boston idea. It is using a tray. Eisen and Condit
-discuss manufacturing grades because packing houses needed a use for fruit
-that would not layer. A history that only photographs whole Calimyrnas has
-fired that use.
-
-
-## Massachusetts is a lunchbox, not a cradle
-
-Levantine and Aegean kitchens ground ugly dried fruit before any Newton
-factory. Maghrebi houses, Italian convent sweets, Sephardi trays, Spanish
-*pan de higo* as a press more than a pastry — those are the older
-technologies of the grade the eye refused. The factory Newton is a late
-child and a lunchbox. Without a sourced corporate history this pack will
-not print a first-baker romance.
-
-Paste hides a lesser grade and, sometimes, a good fig that no longer looks
-like a fig. Wine and vinegar take juice. Paste takes dry meat. A baklava
-shop using Aegean paste is using a tray, not stealing Boston. Eisen and
-Condit discuss manufacturing grades because floors needed a use for fruit
-that would not layer. Photograph only whole Calimyrnas and you have fired
-that use. The drying diagram grows a branch toward the grind.
-
 
 ## Layer fruit and grind fruit are one harvest
 
@@ -128,14 +87,12 @@ lunchbox. Cousin to wine and vinegar: glut technologies. No first-baker
 romance without a corporate history. The diagram’s grind branch is the
 picture until a consented floor exists.
 
-
 ## Ugly fruit is a technology
 
 The eye’s refuse becomes a bite that travels. That is paste’s honesty.
 Whole-fruit grades are vain. Factory Newton is late. *Pan de higo* is
 a press. Aegean baklava paste is a tray. No Massachusetts cradle. Eisen
 and Condit already knew the manufacturing grade.
-
 
 ## Filling is how a glut hides
 

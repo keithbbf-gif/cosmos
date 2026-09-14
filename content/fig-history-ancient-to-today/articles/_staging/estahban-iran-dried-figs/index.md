@@ -9,7 +9,7 @@ mix_secondary: C
 region: Fars / Estahban
 era: Medieval notices to present
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -60,18 +60,15 @@ Rainfed fig country is a bet on winter water and a summer that will dry a tray w
 
 Strabo’s Hyrcanian wonders stay in the topos bin. Rashīd al-Dīn’s Tabrīz fig, and the report of grafting on mulberry, stay reported, not certified. The living tree in Fars does not need the wonder. It needs a winter.
 
-
 ## Rainfed as a bet, not a brand
 
 A rainfed fig is a winter that showed up and a summer that stayed dry. GIAHS can honor that bet. It cannot turn it into an origin myth. Iranica’s geographers give reputation. FAOSTAT gives a recent tonne seat. Farshī 1960 gives a modern Persian desk. Three desks, one slope.
-
 
 ## Three desks on one slope
 
 Iranica (Alam) holds the words: *anjīr*, Bundahišn 16.26, geographers on Fārs, Tabrīz, Heravī’s colors. GIAHS holds the living rainfed system and overreaches on origins — use the agronomy. FAOSTAT holds a recent tonne seat in the world’s first half-dozen (re-check the year). Farshī 1960 is a modern Persian desk via Iranica.
 
 Strabo’s Hyrcanian wonders stay in the topos bin. Rashīd al-Dīn’s mulberry-graft report stays reported, not certified. Rainfed is a winter that arrived. A brand that sells “oldest orchards on earth” is doing Gilgal’s press release in Farsi. This pack will not.
-
 
 ## What a rainfed slope is allowed to claim
 
@@ -82,32 +79,6 @@ Houshang Alam’s *Encyclopaedia Iranica* article remains the English spine for 
 FAOSTAT still seats Iran in the world’s first half-dozen in recent years. Re-check the year before you print the chair. Dried export is the historical voice; fresh is a later city habit. Farshī’s 1960 “Anjīr-e Īrān,” via Alam, is a modern Persian desk, not a Bronze Age core.
 
 A brand that sells “the world’s oldest productive figs” is doing a press release in another landscape. Siguas, in Peru, runs a similar contest and loses the same way. Living monumental trunks are landscape. They are not Kislev’s house. Print the slope, the winter, the tray, the geographers. Stop before the crown.
-
-
-## Winter, tray, geographers — then stop
-
-Fars does not need to win Gilgal. It needs winter. Estahban’s rainfed fig
-country is a bet that cold-season water will sit in the ground long enough
-for a summer that dries a tray without a tunnel. The FAO GIAHS dossier is
-useful when it describes that bet — spacing on slopes, a dried-fig job that
-is still local work. It is weak when it talks like an origin myth. This pack
-uses the agronomy and leaves the Jordan argument in the Jordan.
-
-Houshang Alam’s *Encyclopaedia Iranica* article remains the English spine:
-Middle Persian *anjīr*, Bundahišn 16.26 (a fruit edible outside and inside),
-geographers on Fārs and the Jibāl, later Tabrīz, Heravī’s color classes.
-Al-Muqaddasī and Ibn Ḥawqal notice fig country the way they notice other
-taxes. Strabo’s Hyrcanian wonders stay in the topos bin. Rashīd al-Dīn’s
-grafting fig on mulberry stays reported, not certified.
-
-FAOSTAT still seats Iran in the world’s first half-dozen in recent years.
-Re-check the year before you print the chair. Dried export is the historical
-voice; fresh is a later city habit. Farshī’s 1960 “Anjīr-e Īrān,” via Alam,
-is a modern Persian desk, not a Bronze Age core. A brand that sells “the
-world’s oldest productive figs” is doing a press release. Siguas, in Peru,
-runs a similar contest and loses the same way. Living monumental trunks are
-landscape. They are not Kislev’s house.
-
 
 ## Bundahišn, then a slope, then a tonne chair
 
@@ -125,7 +96,6 @@ Dried export is the historical voice. A “world’s oldest productive figs”
 brand is a press release. Siguas runs the same contest and loses the same
 way. Trunk age is pride. It is not Kislev’s house. Leave the Jordan
 argument in the Jordan.
-
 
 ## Reputation is not a yield table
 

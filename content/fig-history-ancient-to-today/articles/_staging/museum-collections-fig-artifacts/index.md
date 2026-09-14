@@ -8,7 +8,7 @@ mix: B
 region: Museums
 era: Timeless (objects)
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -73,11 +73,9 @@ Do not treat a still life as a cultivar ID. Do not treat Tissot as archaeology. 
 
 Met Open Access still lifes and Ottoman fruit pages are reserved (MET-001) until a specific OA record is logged with an accession number. The same rule as Nebamun: no postcard theft.
 
-
 ## Numbers or nothing
 
 Accession first. Licence second. Caption third. Nebamun stays reserved because NC is not PD-Art. Met OA stays reserved until a record number sits in `IMAGE_SOURCES.md`. Tissot is reception. Bimbi is naming. 8625 is lunch.
-
 
 ## A visitor’s discipline
 
@@ -86,7 +84,6 @@ Start with the number. MAN Naples 8625 is two figs and a loaf, Fourth Style, Her
 Nebamun’s garden (BM EA37983) stays off this pack’s raster folder until the British Museum’s licence is obeyed — often NC. Met Open Access fruit pages stay reserved until an accession number and a CC0 tag sit in `IMAGE_SOURCES.md`. Those reservations are the opposite of a failure. They are how a history series does not become a postcard thief.
 
 Caption rule, again: a plate is not a photograph of a tree. A watercolour of Nathanael is not a photograph of a disciple. A still life is not a cultivar ID. Inventory numbers are the romance.
-
 
 ## A walk with numbers
 
@@ -97,31 +94,6 @@ Then a court. Bimbi, 1696, Poggio a Caiano: named figs, Pliny’s vice in oil. E
 Brooklyn: Tissot’s *Nathaniel Under the Fig Tree* and *The Vine Dresser and the Fig Tree* — reception, not archaeology. British Museum EA37983, Nebamun’s garden: reserved as BM-001; often NC; use the Museum’s service; credit the Trustees. Met Open Access fruit pages: reserved as MET-001 until an accession and a CC0 tag sit in the ledger.
 
 Caption rule, again: a plate is not a photograph of a tree. A watercolour of Nathanael is not a disciple. A still life is not a cultivar ID. Inventory numbers are the only romance this series fully trusts. Postcard theft is how a history pack becomes a costume shop.
-
-
-## A walk with numbers
-
-Start at Naples. MAN inv. 8625: Fourth-Style still life, bread and two
-figs, Herculaneum. The photograph we hold is ArchaiOptix, 2018, CC BY-SA
-4.0; the wall is two millennia older; commercial reuse asks the museum.
-Casa del Frutteto I.9.5: a palmate tree and a serpent, Third Style, PD-Art
-repro in this pack. Casa dei Cervi: cupboard vignettes, dried fruit among
-peaches and dates.
-
-Then a court. Bimbi, 1696, Poggio a Caiano: named figs, Pliny’s vice in
-oil. Ehret in Trew, 1771: a prince’s flora. Holtzbecher’s Gottorfer *Ficus
-carica*: northern wish. Le Moyne: Atlantic colonial watercolour, not a
-California mission. Köhler-type medicinal plate: pharmacy. Wellcome
-V0044761: stem and halved fruit, CC BY 4.0.
-
-Brooklyn: Tissot’s *Nathaniel Under the Fig Tree* and *The Vine Dresser and
-the Fig Tree* — reception, not archaeology. British Museum EA37983,
-Nebamun’s garden: reserved as BM-001; often NC; use the Museum’s service;
-credit the Trustees. Met Open Access fruit pages: reserved as MET-001 until
-an accession and a CC0 tag sit in the ledger. Inventory numbers are the
-only romance this series fully trusts. A plate is not a photograph of a
-tree. A still life is not a cultivar ID.
-
 
 ## Reserved numbers are also a walk
 
@@ -138,7 +110,6 @@ await a cleared file if an editor wants them on disk. A plate is not a
 tree photograph. Tissot is not a disciple. Bimbi’s names are a court’s
 nouns. Inventory numbers are the romance this series trusts.
 
-
 ## Postcard theft is a costume shop
 
 Hotlinking a reserved BM garden or a Met page without a CC0 accession
@@ -148,14 +119,12 @@ scrape. Casa dei Cervi can join the disk when a file is cleared. Until
 then the cupboard lives in a sentence. Numbers first. Licence second.
 Caption third.
 
-
 ## Commercial reuse is a second licence
 
 ArchaiOptix’s CC BY-SA 4.0 is the photograph. Naples may still want a
 conversation about the object. File notes say so. PD-Art fresco repros
 are paintings of paintings. Tissot is reception. Reserved BM and Met
 rows stay reserved. The walk is numbers, then permission, then caption.
-
 
 ## Casa dei Cervi still waits on disk
 

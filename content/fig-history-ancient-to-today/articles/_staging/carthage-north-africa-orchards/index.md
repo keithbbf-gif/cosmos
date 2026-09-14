@@ -9,7 +9,7 @@ mix_secondary: C
 region: North Africa
 era: Punic / Roman / later Maghreb
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,18 +61,15 @@ This piece’s job is to keep Cato’s fig from eating the continent. A Senate f
 
 Pliny’s African-named variety in 15.19 — a fig “preferred by many” that may have been a recent immigrant to Africa — is the other half of the joke. Names lie. Provinces lie. The tree keeps fruiting.
 
-
 ## Littoral after the gesture
 
 Punic agriculture is Levantine habit on African soil: vine, olive, fig, irrigated gardens the Latin sources later call African plenty. After 146 BCE the city is a lesson and the trees are still trees. Roman Africa’s fig is a villa and a coastal garden fact, quieter than grain in the tax mind.
 
 When French colonial and then independent ministries start naming districts, they are not completing Cato. They are doing modern agronomy on old slopes. Djebba and Taounate (extra article) are the legal end of that. Cato’s fruit remains a prop.
 
-
 ## Prop, then littoral
 
 Pliny 15.20: Cato’s ripe fig as a three-day map. Treat as Pliny’s Cato, not a Senate minute. Punic planting is Levantine habit westward. Roman Africa keeps the tree quieter than grain in the tax mind. Pliny 15.19’s African-named variety may be an immigrant wearing a province. Later Maghreb GIs and FAOSTAT tonnes are other desks. The Senate fruit is a day. The coastal orchard is a millennium.
-
 
 ## The Senate fig is a joke with a tree attached
 
@@ -89,22 +86,6 @@ fig in the Senate is a different Cato using a different genre. A writer who
 collapses “Cato liked figs” into one anecdote loses both the farm manual and
 the propaganda.
 
-## What “African fig” meant
-
-Rome knew more than one African fruit. The Maghreb — the landscape this
-pack’s Djebba and Taounate essays treat as living GIs — was already a fig
-landscape in antiquity. Punic agriculture is Levantine habit on African soil:
-vine, olive, fig, irrigated gardens the Latin sources later call African
-plenty. After 146 BCE the city is a lesson and the trees are still trees.
-Roman Africa’s fig is a villa and a coastal garden fact, quieter than grain
-in the tax mind.
-
-The honest limit: we do not have a Punic variety list that maps onto Nabout
-or Bouhouli. The GI names are medieval-to-modern inheritance, not Cato’s
-nouns. When French colonial and then independent ministries start naming
-districts, they are not completing Cato. They are doing modern agronomy on
-old slopes.
-
 ## Why the joke still earns a page
 
 Because it is one of the few times a Latin author makes *distance* visible
@@ -117,7 +98,6 @@ Pliny’s smirk in 15.19 — that an “African” fig may be a recent immigrant
 Africa wearing Africa’s name — is the other half of the joke. Empire names
 fruit the way it names provinces: by appetite, then by insult. The Maghreb
 articles exist so the prop does not eat the continent.
-
 
 ## Freshness as a weapon
 
@@ -136,7 +116,6 @@ slopes are not completing Cato. Pliny’s smirk that an “African” fig may be
 an immigrant wearing the name is the other half of the joke. Empire names
 fruit the way it names provinces. The Maghreb essays exist so the prop
 does not eat the continent.
-
 
 ## Grain owned the tax mind
 

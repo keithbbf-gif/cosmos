@@ -9,7 +9,7 @@ mix_secondary: C
 region: Attica
 era: Archaic to Classical
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -58,13 +58,11 @@ Sycophancy as a political problem is real in fourth-century oratory. The word is
 
 *Figure 3. Selected milestones from early domestication through modern export hubs. Schematic timeline; dates approximate.*
 
-
 ## What Attica does not become
 
 Attica does not become Aydın. It does not become a PDO. It does not become the source of Pliny’s twenty-nine names, though some of those names are Aegean. The later drying islands — Kymi on Euboea, the askada trays — are a different chapter. Classical Athens eats figs and argues. That is enough.
 
 Do not invent a Solonian fig board. Do not print a reconstruction of a lost inscription. Do not use “sycophant” in the modern English sense (flatterer) as if it were the Greek joke. The Greek joke, if it is a joke about figs, is about showing the fruit — pointing, accusing — not about praise.
-
 
 ## Grain, oil, and the sweet at the edge
 
@@ -74,11 +72,9 @@ Fourth-century oratory uses *sykophantēs* as a social pest — the man who live
 
 The later Euboea PDO is not Attica’s revenge. It is another district, another clone, another lawyer. Classical Athens remains a city that ate figs and argued about everything else.
 
-
 ## Oil is the surplus; the pun is a hedge
 
 Plutarch *Solon* 24.1: oil export allowed; fig-informer story reported with caution. OED: sycophant etymology unsubstantiated. Attica’s dry hills grow oil and household figs and still import grain. Fourth-century *sykophantēs* is a real pest of speech. Kymi’s later PDO is another district. No Solonian fig board. No reconstructed inscription. No modern English “flatterer” as if it were the Greek joke.
-
 
 ## What a dry hill is allowed to export
 
@@ -109,7 +105,6 @@ weather, not a census. A philosopher under a fig is a later cliché that
 this series will not hang on Plato without a passage. A farmer drying a
 tray is the older, duller fact, and dullness is how you know it is not a
 romance.
-
 
 ## Three desks, no board
 

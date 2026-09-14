@@ -8,7 +8,7 @@ mix: D
 region: United States
 era: 20th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,18 +61,15 @@ Kadota’s canning life is a factory life: firm enough, pale enough, a peach-cup
 
 Collectors in the late twentieth century (the extra Condit/collector article) exploded the list again. Grocery shelves did not. The market is conservative. The tree is not.
 
-
 ## Five names against seven hundred
 
 Grocery culture is conservative because skin and shipping are conservative. Condit wrote the rest so collectors could argue. Brown Turkey remains a pile until a number or a genotype says otherwise. Kadota’s canning life is a factory preference. Mission’s dried life is a dark paste and a story about friars.
-
 
 ## How a continent learned to buy
 
 American nurseries taught Mission (black, common, a friar story), Kadota (pale, canning), and Brown Turkey (a pile). Mid-century California circulars clustered commercial life around Mission, Kadota, Calimyrna, Adriatic, and a Turkey that already needed adjectives. Fresh retail later wrote Black Mission as a spelling. Collectors exploded the list. Shelves did not.
 
 Calimyrna remains a wasp bill. Adriatic remains a name-pile that disappointed next to Sarılop. A 2024 paper’s 717 Condit attributes is the printed rest. The market used five. Improvement-not-bloat for a grocery is fewer names that ship. Improvement for a collector is the opposite. This series has to live in both rooms without lying about which room it is in.
-
 
 ## Five names against a monograph
 

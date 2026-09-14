@@ -9,7 +9,7 @@ mix_secondary: B
 region: Bay of Naples
 era: 1st century CE
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -76,13 +76,11 @@ The still life’s gift is modest. Two figs. A loaf. A city that ate both and di
 
 *Figure 5. Pompeii, Casa del Frutteto I.9.5. PD-Art reproduction. Credit as on the Commons file page.*
 
-
 ## Pits, pollen, and a modest pair
 
 Garden archaeology in the Bay of Naples has recovered planting pits and carbonized woody bits; figs appear among peristyle and *hortus* plants without needing to be a monoculture. A painted tree still had a hole. A still life still had a kitchen.
 
 Two figs and a loaf is a moral the Fourth Style could afford. It is also breakfast. The explosion of named varieties in Pliny and the poverty of the painted pair can live in the same week. Empire’s catalogue and empire’s lunch are not the same desk.
-
 
 ## A painted tree still needed a hole
 
@@ -113,7 +111,6 @@ sealed the still life — is why tourists remember the fruit. It is not why
 the fruit was painted. Someone chose a loaf and two figs because the room
 wanted that quiet. A history series can use the quiet without using the
 volcano as a punchline every time.
-
 
 ## A cupboard, not a cultivar key
 

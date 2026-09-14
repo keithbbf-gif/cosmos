@@ -9,7 +9,7 @@ mix_secondary: C
 region: Italy / Roman Mediterranean
 era: 2nd century BCE to 1st century CE
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -53,7 +53,6 @@ Columella’s *De Re Rustica* is the later Roman working book: how to place the 
 
 *Figure 2. Western and central Mediterranean orchard zones. Schematic map.*
 
-
 ## What the sea is for
 
 Dried figs move with oil, wine, and grain in the ordinary coastal trade of the Roman Mediterranean. This pack’s maritime schematic is not a bill of lading. It is a reminder that a villa surplus has a quay. Ostia, Puteoli, the North African ports, the Aegean islands — the arrows are teaching arrows. A real *navis* did not sail a diagram.
@@ -71,7 +70,6 @@ Dried figs move with oil, wine, and grain in the ordinary coastal trade of the R
 
 
 The next two articles split Pliny’s afternoon: the catalog (*NH* 15.19) and the Senate fig (*NH* 15.20). Pompeii and Herculaneum keep the pictures. This piece’s job is the farm. Cato’s soils are still the right opening, because they refuse the cliché. Rome did not invent the fig. Rome organized it — by ground, by name, by the habit of making a fruit last until the next argument in the city.
-
 
 ## Saguntum, Africa, and a staff
 

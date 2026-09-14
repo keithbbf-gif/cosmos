@@ -8,7 +8,7 @@ mix: B
 region: Italy / northern Europe
 era: 1st century; 16th–18th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -81,7 +81,6 @@ Tissot’s Brooklyn watercolours are biblical reception, not still life; they li
 ![Anonymous still life with figs, Nationalmuseum Stockholm.](../../../assets/images/renaissance-still-life-figs/nationalmuseum-still-life-with-figs.jpg)
 
 *Figure 7. *Still Life with Figs*, unknown artist. Nationalmuseum, Stockholm, inv. 17171. Public domain. Northern table fruit, not a harvest date.*
-
 
 ## How to use these pictures without lying
 

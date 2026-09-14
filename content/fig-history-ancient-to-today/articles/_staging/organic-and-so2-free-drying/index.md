@@ -8,7 +8,7 @@ mix: D
 region: California / EU / Türkiye
 era: Late 20th–21st century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -58,11 +58,9 @@ It cannot make a Common-type dried fig taste like a seeded Sarılop. It cannot m
 
 Do not print a health claim about sulfur. Do not print a purity sermon. Print the industrial history: color was taught, then untaught, for a price.
 
-
 ## Two papers, one tray
 
 Organic is an input log. SO2-free is a process choice. Sun is weather. A label can stack them. A history should unstack them. Pale was taught. Dark can be sold again if the price holds.
-
 
 ## What paleness cost
 
@@ -71,7 +69,6 @@ Eisen and Condit’s sulfur chapters assume a buyer who learned “Smyrna” as 
 Organic certification arrives as a paper trail: what went on the tree, what went in the house, who inspected. SO2-free branding arrives as a process claim: we did not use that cylinder. A packer can be one and not the other. A supermarket can print both on a bag that still came through a tunnel. Unstack the words.
 
 Sun-only drying is weather-honest and labor-heavy. It is not Eden. Women still sorted. Dew still ruined a night. The label’s gift is a log. The label’s lie, when it happens, is “traditional” as if tradition had no grades and no theft. Sell the log. Do not sell Eden.
-
 
 ## The exam that taught paleness
 
@@ -82,30 +79,6 @@ Organic certification is a paper trail: inputs, inspections, a log a buyer can a
 Sun-only drying is weather-honest. It is also dew, theft, and a night that ruins a tray. Women still sorted when the process was “traditional.” A brand that sells Eden is selling a lie about labor. What the label can honestly sell is a log and, sometimes, a darker or more variable skin that a mid-century buyer would have refused.
 
 Mission dark-dry never needed sulfur to be itself. Sarılop paleness is a market education. The organic revolt untaught that education for a price. It did not abolish the tray or the grade. It changed who keeps the notebook. Print the notebook. Do not print a purity sermon or a health claim about sulfur this pack has not sourced as a medical paper.
-
-
-## Unstack the label
-
-Eisen’s 1901 bulletin and Condit’s 1947 book treat sulfur as furniture. A
-closed room, burning sulfur, a skin that comes out even and pale: that is
-how a valley that is not Aydın sat for an exam the eastern grocery had
-already graded. Mold and insects were the other exam. Chemistry was a tool.
-Sin arrived later, when a label needed a villain.
-
-Organic certification is a paper trail: inputs, inspections, a log a buyer
-can ask for. SO2-free is a process claim: we did not use that cylinder. A
-packer can be one and not the other. A bag can print both and still have
-gone through a tunnel. Unstack the words or you are writing an
-advertisement.
-
-Sun-only drying is weather-honest. It is also dew, theft, and a night that
-ruins a tray. Women still sorted when the process was “traditional.” A brand
-that sells Eden is selling a lie about labor. Mission dark-dry never needed
-sulfur to be itself. Sarılop paleness is a market education. The organic
-revolt untaught that education for a price. It did not abolish the tray or
-the grade. It changed who keeps the notebook. Do not print a health claim
-about sulfur this pack has not sourced as a medical paper.
-
 
 ## Paleness was taught
 
@@ -122,7 +95,6 @@ exam for a price. It did not abolish grades or hands. Do not print a
 medical claim about sulfur this pack has not sourced as a paper. Print the
 notebook.
 
-
 ## A cylinder is not a sin until a label says so
 
 Eisen’s sulfur room was a tool. Organic paper is a log. SO2-free is a
@@ -131,14 +103,12 @@ you have a history. Dew still ruins trays. Hands still sort. Mission
 stayed dark without the exam. Sarılop still sits it. No unsourced
 health claim. Print who keeps the notebook.
 
-
 ## Dark can be sold again
 
 If the price holds, a mid-century refusal becomes a twenty-first-century
 premium. That is the organic revolt’s market sentence, not a purity
 sermon. Unstack organic, SO2-free, and sun. Mission never sat the pale
 exam. Sarılop still does. Hands still sort.
-
 
 ## Tradition was never Eden
 

@@ -9,7 +9,7 @@ mix_secondary: A
 region: California / Alta California
 era: 1769–1889
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -72,16 +72,13 @@ The next article is the missing insect. This one stops at the wish, because the 
 
 *Figure 4. Jacques Le Moyne de Morgues, *Ficus carica*. Public domain. Atlantic colonial botanical — not a photograph of a California mission garden.*
 
-
 ## Corridor, then valley
 
 The mission chain is a garden logistics: a cutting that has to fruit for a kitchen that cannot wait on a wasp. The San Joaquin is a rail logistics: a crate that has to face an imported taste. 1769 and 1885 are not one story. They share a state and fight over a type.
 
-
 ## 1769 is a kitchen; 1885 is a crate
 
 UC ANR: San Diego 1769, Mission as black common type, commercial culture 1885, Adriatic east 1889, Smyrna wood 1881–82 without fruit. Mid-sixteenth-century New Spain introductions sit in syntheses; Florida 1575 is a stack date. The corridor walks north as garden logistics. The San Joaquin wants Aydın as rail logistics. Condit’s navel/Valencia analogy still holds. Le Moyne’s plate is Atlantic botanical, not a mission photograph. ORCH-06/07 wait for living Mission labels and valley shots.
-
 
 ## 1769 is a date, not a variety trial
 
@@ -126,7 +123,6 @@ had a picture of. It is not evidence of 1769. PHOTO_NOTES says so; the
 caption should too. A watercolour of an Atlantic colonial plant is how
 Europe already saw the species before Serra walked north.
 
-
 ## A corridor that could not wait
 
 San Diego 1769, then the chain north: a kitchen that needed fruit before
@@ -144,7 +140,6 @@ someone else’s pale taste. Condit’s later circulars still treat Mission as
 the reliable dark drier — the tree the valley already had. Le Moyne’s
 plate is Atlantic colonial seeing, not a photograph of Serra’s garden.
 PHOTO_NOTES says so. The caption should too.
-
 
 ## Tenure changed; the stick did not
 

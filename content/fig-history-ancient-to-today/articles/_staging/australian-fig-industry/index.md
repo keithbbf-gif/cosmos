@@ -8,7 +8,7 @@ mix: D
 region: Australia
 era: 19th century to present
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,18 +61,15 @@ Native *Ficus* — Moreton Bay, Port Jackson — are not edible crops in the DPI
 
 Helgi’s FAOSTAT compilation put Australia at 72.3 tonnes in 2022 — a rounding error next to Türkiye. That is the scale. Local orchards near Orange or in Victoria still pick for shops and jam. They are not a missing chapter of world production. They are a chapter of colonial wanting.
 
-
 ## What a nursery catalogue is worth
 
 Cole’s 1873 list and Goodman’s thinning catalogues are not production statistics. They are hope for sale. Burnley’s trial garden was a membership perk and a distribution point. Neilson’s three reports are the dated core. The later compiled inventory (figs4fun / PDF) is a secondary gathering of those names and of later losses. Treat it as compiled nursery history.
 
 Black Genoa’s fresh-market win in NSW is a climate-and-skin win: it travels better than some brown types, says the DPI note. Preston Prolific as a Victorian seedling is the rare Australian-origin name that is not just an import alias. Smyrna drying’s death in the 1950s is a tariff-and-freight death. The trees could still fruit. The box could not compete.
 
-
 ## Hope for sale, then a fresh remainder
 
 Cole 1873: 26 proven plus 9 unproven. Goodman lists thinning toward five names by 1934. Burnley / Neilson 1873–75: the dated import core; ~75 Society figs in later compiled inventories. MIA/Sunraysia Smyrna drying in the 1920s; 1950s import shock (NSW DPI). Black Genoa leading fresh; Preston Prolific a Victorian seedling. Native Moreton Bay / Port Jackson are not this crop. 2022 FAOSTAT-class 72 t is scale. A colony trying on clothes, keeping a few.
-
 
 ## A library of wood, a decade of trays
 
@@ -105,7 +102,6 @@ article with a banyan. The wasp lesson California learned in 1899 is why
 MIA Smyrna drying needed more than cuttings. The DPI note’s later rarity of
 those types is the lesson’s Australian echo.
 
-
 ## Seventy-two tonnes is a sentence
 
 Helgi’s 2022 FAOSTAT-class 72.3 tonnes is the scale check. Türkiye’s
@@ -124,7 +120,6 @@ later rarity of those types is the lesson’s echo. Local jam and shop fruit
 near Orange or in Victoria are colonial wanting kept. They are not a
 missing world chapter.
 
-
 ## Soft fruit lost the argument
 
 After the First World War, fruit that would not ship to Britain lost
@@ -133,7 +128,6 @@ thinned to a handful of names. MIA drying was a decade. 1950s imports
 won the box. Black Genoa kept a fresh job because skin travels. 72
 tonnes is the present scale. Native *Ficus* remain a warning in the
 DPI’s first paragraph. Do not use a Moreton Bay as a hero.
-
 
 ## Orange and jam are the remainder
 

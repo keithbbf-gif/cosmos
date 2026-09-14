@@ -8,7 +8,7 @@ mix: C
 region: Levant / Italy
 era: 12th–13th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,16 +61,13 @@ Negroponte, in later thirteenth–fifteenth-century regional syntheses, re-expor
 
 Pegolotti’s *Pratica della mercatura* (c. 1340) is the next generation’s clerk. Majorca and Catalonia appear in the western dried-fig notes that later Constantinopolitan studies cite. The Frankish states are mostly gone by then. The fruit is not.
 
-
 ## Clerks, not relics
 
 Acre’s Venetian quarter is a legal and commercial fact. Jacoby’s unpublished-then-published charter trawl is how you add knowledge: one more document, one more duty. The *Racione* counts ports, not miracles. A crusader who planted a stick planted a stick. Call it exchange if you must. Call it a relic and you have left the manuals.
 
-
 ## Tax, eat, let the Italians count
 
 Crusader states sat on a drying coast. Jacoby’s Acre — charters, quarters, manuals — is the ground. The *Racione* (Marciana It. XI.87) counts ports and duties. An Acre manual c. 1270 notes Alexandrian dates into Romania. Figs ride the same cargo class. Cuttings move with people in every war. No Templar cultivar. No Richard I clone. Pegolotti is the next clerk after the Frankish flags fade.
-
 
 ## No Templar fig
 
@@ -118,7 +115,6 @@ Egyptian ports. Regional syntheses of thirteenth-to-fifteenth-century Aegean
 trade put Chian dried figs through Negroponte toward Thessaly. The flags
 changed. The sweet line-item did not die.
 
-
 ## After Acre, the line-item lived
 
 1291 ended a Latin city, not a sweet. Communes re-routed to Crete,
@@ -136,7 +132,6 @@ as the same words into the Ottoman custom-house. Walk a reader from a
 Books moved too: *filāḥa* and the *Geoponika* copied while armies were in
 Syria. Ships and manuscripts. No treaty.
 
-
 ## Flags changed; the sweet did not need a relic
 
 Acre trained a habit. Crete and Negroponte inherited it. Smyrna and
@@ -145,7 +140,6 @@ Pegolotti’s *fichi* are the documents. A stick planted by a crusader
 is a stick. Arabic and Greek farm books copied in the same centuries
 are the other movement. No Templar variety. No treaty. Walk the reader
 to İzmir without claiming the box.
-
 
 ## Cyprus sat on someone else’s trees
 

@@ -8,7 +8,7 @@ mix: D
 region: California / Türkiye / packing generally
 era: Late 19th–20th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -58,18 +58,15 @@ Labor timing. Rain risk. Throughput. Flavor, if you ask a person who grew up on 
 
 SO2-free and organic drying are a revolt inside this history, not a return to Eden. The tray was never innocent of labor. It was innocent of a cylinder of gas.
 
-
 ## Color as an education
 
 Buyers learned paleness from a Smyrna box. Sulfur and tunnels were how other valleys sat for that exam. The tray still exists. The cylinder is the argument. Organic labels later untaught the exam for a price. None of this is a first-patent story without a patent number.
-
 
 ## Hot air as a calendar
 
 A tunnel dryer buys a packing house a schedule: the glut will not wait for a cloudless week. It also buys an argument about taste that growers have every year and historians should not pretend is new. Sulfur houses buy color the eastern grocery learned from an imported Smyrna skin. Condit and Eisen describe both as trade facts. They do not give this pack a first Fresno brick-shed patent. Without a number, there is no “first.”
 
 SO2-free and organic lines later untaught paleness for a price. They did not abolish labor. They changed the log. A schematic that shows a sulfur box as a later branch on an older sun flow is the honest picture. A hero shot of a stainless tunnel as “progress” is an advertisement.
-
 
 ## When August stopped being the only clock
 
@@ -78,28 +75,6 @@ Sun is slow and weather-honest. A tunnel is a calendar. Twentieth-century packin
 What the tunnel changes is rain risk, throughput, and the argument about taste. A grower who grew up on a reed tray will tell you the fruit finished before it was a fruit. A packer will tell you the glut would have rotted. Both can be right in the same week. Historians should not pretend the argument waited for a stainless-steel brochure.
 
 SO2-free and organic lines later opened a branch on the same flow: keep the heat or the sun, drop the cylinder, accept a darker skin, charge for the log. Mission dark-dry never sat that paleness exam. Sarılop still does, legally, as a look. The schematic in this pack shows sulfur and tunnel as later boxes. That is the honest picture. A hero shot of a tunnel as Progress is an advertisement. Labor timing changed. Hands did not disappear. Someone still grades the ostiole.
-
-
-## August stopped being the only clock
-
-Sun is slow and weather-honest. A tunnel is a calendar. Twentieth-century
-packing in California and, later, in industrial Aegean houses added hot air
-and sulfur rooms to a crop that had always been a tray. Condit and Eisen
-describe the sulfur house as how a pale skin meets a buyer who learned
-paleness from an imported Smyrna box. They do not give this pack a
-first-patent number. Without a number there is no “first Fresno brick shed”
-sentence.
-
-What the tunnel changes is rain risk, throughput, and the argument about
-taste. A grower who grew up on a reed tray will tell you the fruit finished
-before it was a fruit. A packer will tell you the glut would have rotted.
-Both can be right in the same week. SO2-free and organic lines later opened
-a branch on the same flow: keep the heat or the sun, drop the cylinder,
-accept a darker skin, charge for the log. Mission dark-dry never sat that
-paleness exam. Sarılop still does, legally, as a look. Labor timing changed.
-Hands did not disappear. Someone still grades the ostiole. A hero shot of a
-tunnel as Progress is an advertisement.
-
 
 ## No first brick without a number
 
@@ -116,7 +91,6 @@ still does. Hands still grade ostioles. A stainless hero shot is an
 advertisement. The schematic’s later boxes are the honest picture. Labor
 timing moved. Labor did not vanish.
 
-
 ## Throughput is a glut argument
 
 A tunnel is how a packing house refuses to lose a week of rain. A tray
@@ -126,20 +100,12 @@ lines later borrowed the heat and dropped the cylinder. Someone still
 grades the ostiole. Progress photographs are ads. The schematic’s later
 boxes are enough.
 
-
 ## Rain is the argument a tray cannot win
 
 A week of weather ends a sundrying grade. A tunnel refuses that week.
 Taste people will still argue. Historians should not pretend the
 argument waited for stainless steel. No first-patent sentence without a
 number. Hands still meet the ostiole.
-
-
-## Color was an education
-
-Buyers learned paleness from a Smyrna box. Tunnels and sulfur were how
-other valleys sat the exam. Organic untaught it for a price. No first
-brick without a patent number. Hands remain.
 
 ## Sources for this piece
 

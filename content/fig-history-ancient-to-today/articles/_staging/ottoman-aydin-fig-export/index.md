@@ -9,7 +9,7 @@ mix_secondary: D
 region: Ottoman Aegean / Aydın
 era: Early modern to 19th century
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -63,16 +63,13 @@ Nineteenth-century travelers and consular notes treat the Smyrna fig as a known 
 
 The next article walks the packing house. The Sarılop grades article walks the specification. This one walks the lie of the port: useful for trade, fatal for terroir.
 
-
 ## Reputation as a transferable asset
 
 A stencil can travel farther than a slope. That is the substitution problem the PDO exists to fight. Nineteenth-century European groceries that said “Smyrna” were buying a reputation. Sometimes they were buying the valley. Eisen had to teach Americans that the reputation included a wasp. The quay had skipped that paragraph.
 
-
 ## Quay language, valley wood
 
 Smyrna is a stencil. Sarılop is a slope. Condit’s identity with Calimyrna is the English hinge. GI 2005-class national / EU 2016 legal fence; towns the spec names as a freight book. “Thousands of years” in a GI is tone. İncirliova is not. Nineteenth-century consular Smyrna-fig fame sits beside raisins; this pack will not invent a 1620 invoice. The next articles split packing house and legal adjectives. This one splits port from tree.
-
 
 ## Smyrna was a port name before it was a fruit name
 
@@ -123,7 +120,6 @@ read the Sarılop essay in this pack. Readers who want the port should stay
 here. İncirliova — fig-plain — is not a marketing invention. It is a place
 name that already told the truth the stencil sometimes lied about.
 
-
 ## Networks the Republic had to rebuild
 
 Smyrna was a spelling the west could say. The orchards were inland —
@@ -141,7 +137,6 @@ teach Americans that the reputation included a wasp. The quay had skipped
 that paragraph. Readers who want the clone should leave for the Sarılop
 essay. Readers who want the port should stay. Calimyrna is a stitch. The
 wood is Turkish.
-
 
 ## İncirliova already said it
 

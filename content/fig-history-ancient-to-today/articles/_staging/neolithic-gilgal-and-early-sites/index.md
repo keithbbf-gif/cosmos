@@ -9,7 +9,7 @@ mix_secondary: B
 region: Levant
 era: Pre-Pottery Neolithic
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -61,7 +61,6 @@ Postgate’s 1987 notes on fruit in cuneiform, and the older Uruk “tree list�
 
 *Figure 2. Selected milestones from early domestication through modern export hubs. Schematic timeline; dates approximate.*
 
-
 ## What an orchard is not
 
 This pack’s irrigation schematic is a teaching drawing of a later terrace: channels, a caprifig marker, a slope. It is not a reconstruction of Gilgal. Putting it in this article is a warning. The first fig management, if it existed, was not a Roman villa and not an Estahban rainfed grid. It was a stick in wet ground and a person who came back.
@@ -75,12 +74,6 @@ This pack’s irrigation schematic is a teaching drawing of a later terrace: cha
 Do not stack Jericho’s tower into a fig myth. Do not give Gilgal a king. Do not write “the first farmers planted figs and then invented bread.” The valley’s people ate mixed wild and managed plants. The fig, if planted, was one more way to stay.
 
 The gathering objection still stands. It should. A series that needs Gilgal to be a farm has already decided the ending. This article’s job is to keep the cluster visible: three sites, one valley, a sterile fruit, a later world that will write the tree down, and a gap of millennia in which people could have done either thing, or both.
-
-
-## Cluster, not capital
-
-Jericho’s fame is not Gilgal’s argument. Netiv Hagdud’s drupelets are an echo, not a vote. Fourth-millennium finds outside the wild zone are the later, cleaner signal of moved wood. The irrigation schematic in this article is a warning about distance, not a reconstruction.
-
 
 ## Jericho’s fame is not Gilgal’s argument
 
@@ -101,7 +94,7 @@ crown Gilgal. They make Gilgal’s biology look less lonely.
 
 ## What a Pre-Pottery house is allowed to prove
 
-Nine carbonized fruits and 313 drupelets is a store. A store is not a
+Nine carbonized fruits and 313 drupelets are a store. A store is not a
 planting calendar. Kislev’s group read parthenocarpy and chose the stick.
 Lev-Yadun’s group read parthenocarpy and chose the gathering bag. Both
 readings use the same biology this pack’s type essay walks: a sterile soft

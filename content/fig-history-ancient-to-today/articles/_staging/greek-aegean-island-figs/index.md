@@ -9,7 +9,7 @@ mix_secondary: C
 region: Euboea / Aegean
 era: Modern legal name; older practice
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -59,18 +59,15 @@ A doubled fig is a labor signature. Anyone can sun-dry. Not every specification 
 
 Do not back-date the PDO to Hesiod. Do not call every Greek dried fig a Kymi fig. Do not invent a classical *askada*. The word as a GI fact is modern documentation of a local habit.
 
-
 ## Small law, old sea
 
 Kymi’s stamp is a small district competing on method. Chios’s medieval re-export is a clerk’s memory of the same sea. Pliny’s Chian type is a Roman appetite. Three timescales. One island chain. Do not flatten them into “Greek figs since Homer.”
-
 
 ## Method as a small district’s weapon
 
 Xera Syka Kymis (ministerial 313420, 1994; later EU) fences Traganikó, sun, and *askada* pairing. Volume will not beat Aydın. Handwriting might. Pliny’s Chian type is a Roman appetite for an Aegean name. Medieval Negroponte re-exporting Chian dried figs is a clerk’s echo. Three timescales, one sea. “Greek figs since Homer” is the sentence this article exists to refuse.
 
 Other islands dried for themselves and for the next port without ever getting a stamp. The PDO is not the crop. It is the crop that got a lawyer.
-
 
 ## An island that chose handwriting
 
@@ -81,31 +78,6 @@ The longer Aegean story is a clerk’s sea. Pliny already knew a Chian type — 
 What the askada is not: a classical word this pack can hang on a vase. The GI documents a local habit. It does not excavate a Bronze Age pairing ritual. What the PDO is not: the crop. It is the crop that got a stamp. Walk the rest of Euboea and you will find trays that will never wear the name. That is how legal fruit works everywhere from Cilento to Taounate.
 
 The pack’s drying diagram puts doubling in a handling step. It is a teaching drawing, not a photograph of a Kymi yard. ORCH-05 can hold consented hands later. Until then, the honest picture is method plus a map that keeps Kymi off Aydın’s inland valleys. Port and island are different machines. The Aegean has always known that. Grocery language forgets it.
-
-
-## Three timescales, one chain
-
-Pliny already knew a Chian type — an island name worn as an Italian
-appetite. Later medieval syntheses put dried figs from Chios moving through
-Negroponte toward Thessaly. That is re-export, not a shrine. Kymi on Euboea
-did not invent the dried fig. It documented a way of making a small district
-visible: Traganikó, sun, the *askada* pairing, Greek decision 313420 (1994)
-and later an EU PDO. A doubled fruit is labor you can see in a box. Aydın
-competes on volume and a clone the world already named Smyrna. Kymi competes
-on a look. That is a specification, not folklore.
-
-What the *askada* is not: a classical word this pack can hang on a vase.
-The GI documents a local habit. It does not excavate a Bronze Age pairing
-ritual. What the PDO is not: the crop. It is the crop that got a stamp.
-Walk the rest of Euboea and you will find trays that will never wear the
-name. Other islands dried for the house and for the next caique without
-ever getting a lawyer.
-
-The pack’s drying diagram puts doubling in a handling step. It is a teaching
-drawing, not a photograph of a Kymi yard. Port and island are different
-machines. The Aegean has always known that. Grocery language forgets it. Do
-not flatten Homer, Pliny, and a 1994 stamp into “Greek figs since antiquity.”
-
 
 ## A stamp is not the sea
 
@@ -122,7 +94,6 @@ a local habit the GI wrote down. Aydın competes on volume and a clone the
 west already called Smyrna. Kymi competes on a look. Port and island are
 different machines. The drying diagram’s doubling step is a teaching
 drawing, not a yard photograph. Homer does not get a PDO ancestor clause.
-
 
 ## Caiques without lawyers
 

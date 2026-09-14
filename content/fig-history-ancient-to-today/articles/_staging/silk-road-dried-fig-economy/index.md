@@ -8,7 +8,7 @@ mix: C
 region: West and Central Asia
 era: Medieval
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -68,16 +68,13 @@ China’s *wúhuāguǒ* is a guest (extra article). Laufer’s *Sino-Iranica* ha
 
 Do not invent a Tang imperial orchard you can walk. Do not print a caravan invoice that is not in a manual. Do not treat every dried fruit on a Chinese table as *F. carica*. The corridor’s honest sentence: dryness made a Mediterranean and Iranian tree portable, and portability made it a trade good wherever a clerk already had a word for it.
 
-
 ## Dryness as the only accurate romance
 
 A saddlebag will forgive a date before it forgives a fresh fig. That is why the overland story is a dried-fruit story or it is nothing. Fārs and the Jibāl have reputations in the geographers. Estahban has slopes. Chang’an has a name-history. Do not draw a solid arrow through all three and call it a shipment.
 
-
 ## Portable because dry
 
 Fresh figs ruin a saddlebag. Dates and nuts are the older long-road sweets. Figs travel when a slope has a dry month. Iranica’s Fārs and Jibāl notices are reputation. Estahban GIAHS is living slope. Laufer is philology. China is a guest with a seam of dates. No Tang orchard ticket. No forged Samarkand invoice. The corridor’s honest sentence is dryness, not silk.
-
 
 ## A fig on a caravan is a dried fig
 
@@ -121,7 +118,6 @@ for the medical fig that traveled as text, *Flora of China* for the garden
 seam, Morton for the 1550 date that is actually a date. The map is a table of
 contents. It is not a primary source. Dryness is the only accurate romance.
 
-
 ## Word-history is not a camel
 
 Laufer’s sounds — *tittu*, *anjīr*, *a-ži* — travel farther on a page than
@@ -138,7 +134,6 @@ schematic’s arrows fade for a reason. Do not draw a solid line through Fārs,
 Kashgar, and Chang’an and call it an invoice. Use the map as a table of
 contents: Iranica, Ibn Sīnā as text, the East Asia essay as the garden
 seam. Dryness is the only accurate romance.
-
 
 ## A cutting is the harder proof
 

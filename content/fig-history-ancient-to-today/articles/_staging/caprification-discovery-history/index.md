@@ -9,7 +9,7 @@ mix_secondary: C
 region: Aegean / Italy / California
 era: 4th century BCE to 1901
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -66,23 +66,19 @@ Prefer 1899 for the successful establishment. Older summaries sometimes print 18
 
 *Figure 3. Selected milestones from early domestication through modern export hubs. Schematic timeline; dates approximate.*
 
-
 ## Discovery is the wrong word
 
 Nobody discovered caprification in 1899. Aegean women on drying yards already knew which trees needed the hanging. Theophrastus already wrote the swell. What 1899 discovered, for an American industry, was that a professor can be wrong and a practice can be right. The word *caprification* itself is a learned Latinizing of a folk act. Use it. Just do not pretend the act waited for the word.
 
 This article is the history of a recognition. The next one, on *Blastophaga psenes*, is the biology of the guest. Keep them apart. One is a human argument. The other is an insect’s year.
 
-
 ## Recognition, not invention
 
 Theophrastus wrote the swell. Villa books kept the hanging. Gasparrini denied the bill. 1899 imported the insect to a valley that had the wrong theory. The word *caprification* is late Latinizing. The act is older than the word and older than USDA.
 
-
 ## A practice that outlasted a professor
 
 Theophrastus: insects from wild figs make cultivated fruit swell and hold. Villa books keep the hanging. Gasparrini denies; California plants Smyrna wood and watches it drop. 1899 imports the insect; 1900 proves the rumor of sterile Turkish wood false. Discovery is the wrong word. Recognition is the right one. The next article is the insect’s year. This one is the human argument.
-
 
 ## A professor, a valley, and a practice that did not need either
 
@@ -113,7 +109,6 @@ The next article is the insect’s year — pollen on a body, other wasps, other
 rooms. This one is the human argument: a Greek sentence, a Roman habit, an
 Italian denial, a Californian invoice. Keep them apart. Discovery is how a
 bulletin likes to talk. Recognition is how a history series should.
-
 
 ## A calendar with Italian names
 

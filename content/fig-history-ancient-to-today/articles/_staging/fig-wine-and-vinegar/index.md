@@ -9,7 +9,7 @@ mix_secondary: C
 region: Mediterranean
 era: Classical to modern kitchen
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post

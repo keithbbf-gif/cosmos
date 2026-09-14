@@ -8,7 +8,7 @@ mix: B
 region: Timeless
 era: Timeless (named in modern pomology)
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -67,11 +67,9 @@ James Marion Shull’s 1910 “Fig X1,” painted at Wadesboro, North Carolina, 
 
 *Figure 4. James Marion Shull, “Fig X1,” Wadesboro, North Carolina, 1910. USDA NAL POM00007442. Public domain. A room cut open; not a type name.*
 
-
 ## Gilgal’s biology is the nursery’s biology
 
 A sterile soft fruit is what Kislev saw and what a Common-type grocer sells. A seeded drying fig is what Aydın sells and what Fresno could not sell until 1900. San Pedro is the compromise calendar. Caprifig is the invoice the other three sometimes owe.
-
 
 ## A bill you can taste
 

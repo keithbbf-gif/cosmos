@@ -8,7 +8,7 @@ mix: C
 region: Mediterranean
 era: Early modern to present
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
@@ -58,18 +58,15 @@ Kymi’s doubled figs are a storage look as well as a drying look: paired fruits
 
 Industrial tunnels will steal some of this architecture. They will not steal the winter. Someone still has to keep the box.
 
-
 ## Architecture of February
 
 A rack is a building decision. So is a sweat room. So is a monastery drying house on a parchment plan. Winter is the test that makes an orchard political. A fruit that dies in November is a garnish. A fruit that opens in February is a store.
-
 
 ## Pulling the rack before dew
 
 Eisen’s sweating step — boxing so moisture evens — is the packing-house version of a rack pulled under a roof. Do it late and the top layer lies. Do it in a dead room and mold writes the grade. Kymi’s *askada* is a stacking handwriting as well as a drying handwriting: paired fruits that sell as a unit. Spanish *pan de higo* is a press, not a pair. Some hill towns string fruit. Aydın’s layer pack is another architecture. Universalizing the string is a magazine laziness.
 
 The Plan of St. Gall’s drying house is a northern desire for stored fruit, not an Aegean yard. It belongs in this article as proof that winter is the point of planting. A monastery that only ate August would be a bad house of God and a worse house of accounts.
-
 
 ## February is the reason anyone planted
 
@@ -78,27 +75,6 @@ A rack is architecture. So is a sweat room. So is the drying house the Plan of S
 Kymi’s *askada* is stacking handwriting as well as drying handwriting: paired fruits that sell as a unit. Spanish *pan de higo* is a press. Some hill towns string fruit. Aydın’s layer pack is another building decision. Universalizing the string is laziness. The Aegean sundrying article is the climate machine. This one is the building that lets the machine survive until Lent.
 
 Northern houses use walls and hope. Southern yards use sun and a pull-under. Between them sit reed, wood, wire, a room that must breathe. Industrial tunnels steal some of this architecture. They do not steal winter. Someone still keeps the box. A fruit that dies in November is a garnish. A fruit that opens in February is a store — monastery, ship, or city pantry telling the same useful lie.
-
-
-## February is the reason anyone planted
-
-A rack is architecture. So is a sweat room. So is the drying house the Plan
-of St. Gall bothers to draw next to an orchard-cemetery, because a house of
-God that only eats August is a bad account. Eisen’s sweating — boxing fruit
-so moisture evens — is the packing-house version of a rack pulled under a
-roof when dew threatens. Do it late and the top layer lies. Do it in a dead
-room and mold writes the grade.
-
-Kymi’s *askada* is stacking handwriting as well as drying handwriting.
-Spanish *pan de higo* is a press. Some hill towns string fruit. Aydın’s
-layer pack is another building decision. Universalizing the string is
-laziness. Northern houses use walls and hope. Southern yards use sun and a
-pull-under. Between them sit reed, wood, wire, a room that must breathe.
-Industrial tunnels steal some of this architecture. They do not steal
-winter. A fruit that dies in November is a garnish. A fruit that opens in
-February is a store — monastery, ship, or city pantry telling the same
-useful lie.
-
 
 ## Lent is a building code
 
@@ -115,7 +91,6 @@ steal February. Someone still keeps the box. Garnish dies in November. A
 store opens after Christmas — ship, cloister, or city pantry telling the
 same useful lie about August.
 
-
 ## A sweat is a honesty machine
 
 Moisture evens or the top layer lies. Eisen boxed fruit for that
@@ -124,7 +99,6 @@ draws a drying house for February. Choose string, pair, press, or
 layer — do not universalize. Tunnels steal rain risk. They do not
 steal Lent. Garnish dies in November. A store is a political fruit.
 
-
 ## String is a local handwriting
 
 Universalizing it is how a magazine gets lazy. Pair, press, layer,
@@ -132,13 +106,11 @@ sweat, pull-under — choose the building. St. Gall drew one. Eisen boxed
 one. Kymi stacked one. February is the test that makes an orchard
 political. Garnish is what dies in November.
 
-
 ## February makes an orchard political
 
 A fruit that opens after Christmas is a store a city or a cloister can
 tax, ship, or fast on. A fruit that dies in November is a garnish.
 Architecture — rack, sweat, house — is how August becomes February.
-
 
 ## A bin is a building too
 

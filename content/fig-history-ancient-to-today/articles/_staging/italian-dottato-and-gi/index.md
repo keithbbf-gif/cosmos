@@ -8,7 +8,7 @@ mix: D
 region: Campania / Calabria
 era: 2006–2011 legal; older clone
 status: staging
-voice_check: human
+voice_check: edited
 author: FigRoots Editorial
 canonical_site: figroots.com
 wp_type: post
