@@ -50,6 +50,7 @@ FAKES = {
                             "Playwright/1.63.0-alpha-2026-08-05"),
     "github-forge": _fake("github-forge", "rest_limit=5000 remaining=4999"),
     "gitlab-forge": _fake("gitlab-forge", "user_id=42 username=probe-user"),
+    "gitlab-duo-com": _fake("gitlab-duo-com", "trigger_id=7 description=cosmos-gate"),
 }
 WIRED_IDS = [s["link_id"] for s in WIRED_NODES]
 
@@ -108,6 +109,8 @@ def main() -> int:
               == "rest_limit=5000 remaining=4999"
               and by_id["gitlab-forge"]["model"]
               == "user_id=42 username=probe-user"
+              and by_id["gitlab-duo-com"]["model"]
+              == "trigger_id=7 description=cosmos-gate"
               and all(row["rc"] == 0 and row["body_bytes"] > 0
                       for row in disk["matrix"]))
 
@@ -127,6 +130,7 @@ def main() -> int:
                                     body=""),
             "github-forge": _fake("github-forge", "", ok=False, rc=2, body=""),
             "gitlab-forge": _fake("gitlab-forge", "", ok=False, rc=2, body=""),
+            "gitlab-duo-com": _fake("gitlab-duo-com", "", ok=False, rc=2, body=""),
         }
         root2 = install(td / "live2", tree_id="rails-prober-2")
         r2 = poll_once(str(root2), live=True, live_calls=mixed)
@@ -144,7 +148,7 @@ def main() -> int:
               == ["sgh-api", "gem-api", "gw-api", "oa-api", "claude-cli",
                   "codex-cli",
                   "cursor-api", "firecrawl-web", "groq-api", "playwright-dom",
-                  "github-forge", "gitlab-forge"])
+                  "github-forge", "gitlab-forge", "gitlab-duo-com"])
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"
                / "cosmos_rails_prober.py").read_text(encoding="utf-8")

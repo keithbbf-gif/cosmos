@@ -135,6 +135,11 @@ def wiring(td: Path) -> None:
           lambda: (by_id["gitlab-forge"]["src"], by_id["gitlab-forge"]["dst"],
                    by_id["gitlab-forge"]["rail_type"])
           == ("core", "forge", "CLI"))
+    check("gitlab-duo-com is wired CLI core->com",
+          lambda: (by_id["gitlab-duo-com"]["src"], by_id["gitlab-duo-com"]["dst"],
+                   by_id["gitlab-duo-com"]["rail_type"],
+                   by_id["gitlab-duo-com"].get("satellite"))
+          == ("core", "com", "CLI", "gitlab-duo-com"))
     check("gw-api is wired as an incumbent module rail (NodeRail), not a satellite",
           lambda: by_id["gw-api"]["module"] == "bts_gw"
           and not by_id["gw-api"].get("satellite"))
@@ -164,6 +169,7 @@ def wiring(td: Path) -> None:
            "playwright-dom": "cosmos_playwright_rail",
            "github-forge": "cosmos_forge_rail",
            "gitlab-forge": "cosmos_forge_rail",
+           "gitlab-duo-com": "cosmos_gitlab_duo_rail",
            "codex-cli": "cosmos_codex_rail"}
     mods = {lid: _call_prober("probe_module_for", by_id[lid]) for lid in by_id}
     check("each satellite is probed with ITS OWN rail module, never the "
@@ -351,7 +357,8 @@ def prove_then_stale(td: Path) -> None:
               "groq-api": "openai/gpt-oss-20b",
               "playwright-dom": "Playwright/1.63.0-alpha-2026-08-05",
               "github-forge": "rest_limit=5000 remaining=4999",
-              "gitlab-forge": "user_id=42 username=probe-user"}
+              "gitlab-forge": "user_id=42 username=probe-user",
+              "gitlab-duo-com": "trigger_id=7 description=cosmos-gate"}
     ran = {"n": 0}
 
     def _counted(model):
