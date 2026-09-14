@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 07-critiques-tools
 order: 45
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "content/wowtherapies-therapy-history/"
   - "content/act-mindfulness-therapy-history/"
@@ -18,9 +18,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: map-to-sister-packs.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for Map to the sister packs — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Map to the sister packs</strong> — Where to send a reader who wanted Freud, Rogers, Van Riper, or ACT — not a playroom history.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 If you read forty-four drafts and still wanted a different history, the failure may be the folder, not you. This page is a map. It is not a merger.
 

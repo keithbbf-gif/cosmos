@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 01-how-to-read
 order: 2
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "Bratton, Sue C., Dee Ray, Tammy Rhine, and Leslie Jones. Professional Psychology: Research and Practice 36, no. 4 (2005): 376–390."
   - "Guerney, Bernard, Jr. Journal of Consulting Psychology 28 (1964): 304–310."
@@ -18,9 +18,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: how-to-read-a-play-therapy-claim.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for How to read a play-therapy history claim — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>How to read a play-therapy history claim</strong> — A trial is an event. A credential is an association object. Neither is a homework assignment. How to read claims in this series.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 A sentence that begins "research shows play therapy works" is doing three jobs at once, and only one of them is history. The other two are marketing and homework. This page is a set of reading habits for the rest of the folder. It will not teach you to run a session. It will teach you to notice when a date has been asked to do a salesman's work.
 

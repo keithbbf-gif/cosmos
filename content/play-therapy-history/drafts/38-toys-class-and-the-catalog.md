@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 07-critiques-tools
 order: 38
-portrait: none
+portrait: null
 citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
   - "Axline, Virginia M. Play Therapy. 1947."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/toys-class-and-the-catalog/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: toys-class-and-the-catalog.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/toys-class-and-the-catalog/lead-timeline.svg"
+    alt="Editorial timeline for Toys, class, catalog."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Toys, class, catalog</strong> — How catalogs and price tags quietly shaped what counted as a playroom.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A recommended shelf is a theory that learned to shop. Mid-century playrooms already had objects. Late-century textbooks named categories and implied a completeness: family, aggressive, nurturing, expressive. Completeness has a receipt. This essay is about the receipt. It will not reprint the shelf. Reprinting would be a shopping list. A shopping list is a protocol.
 

@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 03-rooms-objects
 order: 16
-portrait: none
+portrait: null
 citations:
   - "Plank, Emma N. Working with Children in Hospitals. 1962."
   - "Association for the Care of Children's Health / child-life histories as dated society pages."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/hospital-play-emma-plank/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: hospital-play-emma-plank.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/hospital-play-emma-plank/lead-timeline.svg"
+    alt="Editorial timeline for Hospital play."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Hospital play</strong> — Emma Plank named play as hospital work before outpatient play therapy owned the word.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A child in a hospital is not a child in a weekly playroom. The lights stay on. The body is the reason for the stay. The adult who brings a toy may be a nurse, a teacher, a volunteer, or, later, a person whose job title is the toy. This essay is about that job becoming visible. It is not about teaching you to prepare a child for a dressing change.
 

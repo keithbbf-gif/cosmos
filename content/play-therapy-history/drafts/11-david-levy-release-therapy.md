@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 11
-portrait: none
+portrait: "plates/david-levy-release-therapy/plate.svg"
 citations:
   - "Levy, David M. Release Therapy. American Journal of Orthopsychiatry 8 (1938): 627–636."
   - "Levy, David M. Studies in Sibling Rivalry. 1936–37 research line."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1893–1977"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: david-levy-release-therapy.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/david-levy-release-therapy/plate.svg"
+    alt="Typographic history plate for David M. Levy (1893–1977) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>David M. Levy</strong> (1893–1977) — psychiatrist who named release therapy in a 1938 paper on play and discharge.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/david-levy-release-therapy/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 David M. Levy (1892–1977) was an American child psychiatrist and psychoanalyst who liked a short name for a short job. In 1938 the *American Journal of Orthopsychiatry* printed "Release Therapy." The claim was not that all play is analysis. The claim was that a child who had been through a specific event — a surgery, a sibling's arrival, a shock the household could name — might use play to discharge that event if the adult structured the materials toward it.
 

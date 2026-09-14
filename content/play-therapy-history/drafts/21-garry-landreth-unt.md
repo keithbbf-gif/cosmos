@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 04-nondirective
 order: 21
-portrait: none
+portrait: "plates/garry-landreth-unt/plate.svg"
 citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. Accelerated Development, 1991."
   - "Center for Play Therapy, University of North Texas. Our Story."
@@ -18,9 +18,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1937–2026"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: garry-landreth-unt.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/garry-landreth-unt/plate.svg"
+    alt="Typographic history plate for Garry L. Landreth (1937–2026) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Garry L. Landreth</strong> (1937–2026) — UNT professor who built a child-centered play-therapy training center in Denton.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/garry-landreth-unt/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Garry Lee Landreth joined the North Texas education faculty in 1966, sat on the first Association for Play Therapy board after 1982, opened the Center for Play Therapy at the University of North Texas in 1988, directed it until 2003, published *Play Therapy: The Art of the Relationship* in 1991, and died on 11 June 2026. The death is a University of North Texas public notice. This page will not embroider it. It will not scrape a funeral photograph. It will stay with the public objects: a center, a book, a board.
 

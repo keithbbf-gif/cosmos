@@ -37,6 +37,7 @@ Human essay voice. `status: draft` on every file. The series is **staged** (seve
 ## Tools
 
 ```text
+python3 content/play-therapy-history/graphics_pass.py
 python3 content/play-therapy-history/check_pack.py
 ```
 
@@ -53,6 +54,11 @@ The checker counts drafts (≥40), required YAML, the educational note, a claims
 | `BIBLIOGRAPHY.md` | Working bibliography |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; never fake a face |
+| `RIGHTS.md` | Pack rights manifest (PD/CC rasters + CC0 SVG) |
+| `GRAPHICS_INDEX.md` | Era timelines and figure plates |
 | `WP_IMPORT.md` | Staging WordPress only |
 | `drafts/` | The essays |
+| `assets/era/` | Lead SVG timelines (era essays) |
+| `plates/` | Typographic figure plates + per-plate `RIGHTS.md` |
+| `graphics_pass.py` | Regenerate plates, timelines, and `<figure>` embeds |
 | `check_pack.py` | Structural QA |

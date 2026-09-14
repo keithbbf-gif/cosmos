@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 8
-portrait: none
+portrait: "plates/melanie-klein-play-technique/plate.svg"
 citations:
   - "Klein, Melanie. The Psycho-Analysis of Children. Hogarth, 1932."
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. Routledge, 1991."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1882–1960"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: melanie-klein-play-technique.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/melanie-klein-play-technique/plate.svg"
+    alt="Typographic history plate for Melanie Klein (1882–1960) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Melanie Klein</strong> (1882–1960) — analyst whose 1932 book treated play as the child's free association.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/melanie-klein-play-technique/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Melanie Klein (1882–1960) already has a life essay in the sister pack. This page will not retell Budapest, Berlin, the move to London, or the whole object-relations inheritance. It stays with the claim that made later play therapists nervous even when they had never read her: the child's play can be treated as the equivalent of free association.
 

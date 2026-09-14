@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 04-nondirective
 order: 18
-portrait: none
+portrait: "plates/virginia-axline-1947/plate.svg"
 citations:
   - "Axline, Virginia M. Play Therapy: The Inner Dynamics of Childhood. Houghton Mifflin, 1947."
   - "Rogers, Carl R. Journal of Consulting Psychology 21 (1957): 95–103."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1911–1988"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: virginia-axline-1947.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/virginia-axline-1947/plate.svg"
+    alt="Typographic history plate for Virginia M. Axline (1911–1988) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Virginia M. Axline</strong> (1911–1988) — counselor who published Play Therapy in 1947 with Rogers's non-directive manners.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/virginia-axline-1947/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Virginia Mae Axline was born 31 March 1911 in Fort Wayne, Indiana, taught elementary school, studied at Ohio State while Carl Rogers was still making non-directive therapy a public argument, took an Ed.D. at Teachers College in 1950, and died 21 March 1988. In 1947 Houghton Mifflin published *Play Therapy: The Inner Dynamics of Childhood*. American counseling still treats that year as a birth date. It is a publication date.
 

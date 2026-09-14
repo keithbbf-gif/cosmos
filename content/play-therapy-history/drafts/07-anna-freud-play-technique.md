@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 7
-portrait: none
+portrait: "plates/anna-freud-play-technique/plate.svg"
 citations:
   - "Freud, Anna. Einführung in die Technik der Kinderanalyse. 1927."
   - "Freud, Anna. The Ego and the Mechanisms of Defence. Hogarth, 1936."
@@ -18,9 +18,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1895–1982"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: anna-freud-play-technique.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/anna-freud-play-technique/plate.svg"
+    alt="Typographic history plate for Anna Freud (1895–1982) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Anna Freud</strong> (1895–1982) — child analyst who treated play as useful and insufficient in her 1927 technique book.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/anna-freud-play-technique/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Anna Freud (1895–1982) already has a life essay in `content/wowtherapies-therapy-history/`. This page will not retell Vienna, the exile, or the Hampstead War Nurseries as a biography. It stays with one claim she put into a 1927 book: play is part of child analysis, and play is not enough.
 

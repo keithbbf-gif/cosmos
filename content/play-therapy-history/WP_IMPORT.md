@@ -8,7 +8,7 @@ This is **not** an invitation to edit the production site. Staging, a local Dock
 
 Markdown essays with YAML front matter under `drafts/`. Forty-five posts. Ops files are **not** posts:
 
-`INDEX.md`, `MANIFEST.md`, `STYLE_GUIDE.md`, `CLAIMS_GUARDRAILS.md`, `BIBLIOGRAPHY.md`, `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`, `WP_IMPORT.md`.
+`INDEX.md`, `MANIFEST.md`, `STYLE_GUIDE.md`, `CLAIMS_GUARDRAILS.md`, `BIBLIOGRAPHY.md`, `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`, `RIGHTS.md`, `GRAPHICS_INDEX.md`, `WP_IMPORT.md`, `graphics_pass.py`, `assets/`, `plates/`, `embeds/`.
 
 Import in waves (`INDEX.md`). Do not dump forty-five URLs onto a live sitemap in a week.
 
@@ -23,7 +23,10 @@ Import in waves (`INDEX.md`). Do not dump forty-five URLs onto a live sitemap in
 | `type` | custom field `series_type` = `era`, `figure`, or `reader` |
 | `stage` | custom field `series_stage` |
 | `order` | custom field `series_order` (integer) |
-| `portrait` | custom field; values `pd`, `cc`, `confirm`, `none` |
+| `portrait` | custom field; path to plate SVG, `null` for era, or series template for reader |
+| `lead_asset` | era only — path to `assets/era/.../lead-timeline.svg` |
+| `figure_dates` | figure only — life dates for SEO / schema |
+| `portrait_status` | `essay-only` \| `typographic` \| `cleared` \| `series-template` |
 | `citations` | custom field (one URL or ISBN per line). Also a visible "Sources" block. |
 | `status: draft` | Map to **Draft** or **Pending review** on staging. Never map straight to `publish` on production. |
 | `voice_check: human` | custom field. Internal QA flag, not a byline. |
@@ -46,7 +49,7 @@ Suggested reusable text (must match the articles):
 1. Copy this folder onto a machine that can reach **staging** WP. Do not paste essays into the live editor over email.
 2. Convert MD → Gutenberg with a tool that preserves headings. Test `drafts/01-what-this-folder-refuses.md` first.
 3. Set author to a holding user (`editorial-history`), not a fabricated RPT-S.
-4. Featured image: `PHOTO_NOTES.md` + `PORTRAIT_SOURCES.md`. Series template when `portrait: none`.
+4. Featured image: upload the lead `<figure>` asset from the draft (`assets/era/...` or `plates/.../plate.svg` or reader series plate). Caption must match the draft figcaption. See `RIGHTS.md` and per-plate `plates/*/RIGHTS.md`. Never substitute AI faces or stock children.
 5. `noindex, nofollow` on staging. Confirm robots and site visibility.
 6. Disable "related services" / booking widgets on these posts until claims review.
 

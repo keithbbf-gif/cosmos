@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 03-rooms-objects
 order: 17
-portrait: none
+portrait: null
 citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
   - "Axline, Virginia M. Play Therapy. 1947."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/the-playroom-as-architecture/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: the-playroom-as-architecture.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/the-playroom-as-architecture/lead-timeline.svg"
+    alt="Editorial timeline for The playroom as architecture."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The playroom as architecture</strong> — One-way glass, a sink, and a door that closes — rooms built as instruments.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A playroom is a room. It has a lease, a lock, a fire code, and a neighbor who can hear. Clinical literature treats it as a method. Architects treat it as square footage. This essay stays with the second view long enough to keep the first from becoming a catalog.
 

@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 06-profession
 order: 31
-portrait: none
+portrait: null
 citations:
   - "International Journal of Play Therapy. Association for Play Therapy. First volume 1992."
   - "Bratton, Ray, Rhine, and Jones. Professional Psychology 36 (2005)."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/international-journal-1992/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: international-journal-1992.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/international-journal-1992/lead-timeline.svg"
+    alt="Editorial timeline for International Journal, 1992."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>International Journal, 1992</strong> — APT's journal as a bound object that made play therapy look like a literature.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1992 the Association for Play Therapy began publishing the *International Journal of Play Therapy*. Later Association lore names Kevin O'Connor's executive-director years and Cynthia K. Bromberg's guest-editor labor on the first issue; confirm those names on the masthead you can hold. The journal started semiannual and later became quarterly. APA eventually archived issues. Those are library facts.
 

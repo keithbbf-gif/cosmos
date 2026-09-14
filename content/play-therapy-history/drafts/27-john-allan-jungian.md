@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 27
-portrait: none
+portrait: "plates/john-allan-jungian/plate.svg"
 citations:
   - "Allan, John. Inscapes of the Child's World: Jungian Counseling in Schools and Clinics. Spring, 1988."
   - "Jung, C. G. as sister-pack weather, not as a play therapist."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1935–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: john-allan-jungian.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/john-allan-jungian/plate.svg"
+    alt="Typographic history plate for John A. B. Allan (1935–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>John A. B. Allan</strong> (1935–) — Jungian counselor whose 1988 Inscapes put archetypal play on the training shelf.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/john-allan-jungian/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 In 1988 Spring Publications issued John Allan's *Inscapes of the Child's World: Jungian Counseling in Schools and Clinics*. The subtitle is the historical claim. Jungian work with children did not have to wait for a private institute in Zürich. It could be written as a school-and-clinic book for English-speaking counselors.
 

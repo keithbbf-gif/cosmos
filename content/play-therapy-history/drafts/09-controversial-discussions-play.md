@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 02-child-analysis
 order: 9
-portrait: none
+portrait: null
 citations:
   - "King, Pearl, and Riccardo Steiner, eds. The Freud–Klein Controversies 1941–45. Routledge, 1991."
   - "Klein, Melanie. The Psycho-Analysis of Children. Hogarth, 1932."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/controversial-discussions-play/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: controversial-discussions-play.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/controversial-discussions-play/lead-timeline.svg"
+    alt="Editorial timeline for Controversial Discussions."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Controversial Discussions</strong> — British Psychoanalytical Society fights about transference in the child's play.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Between 1941 and 1945 the British Psychoanalytical Society held a series of scientific meetings that later editors named the Controversial Discussions. Pearl King and Riccardo Steiner published the documents in 1991. The fight was about training standards, about who could claim Freud after Vienna fell, and about Melanie Klein's picture of the infant. It was also, in a way American counseling textbooks still underplay, a fight about play.
 

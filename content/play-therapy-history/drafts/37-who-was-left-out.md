@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 07-critiques-tools
 order: 37
-portrait: none
+portrait: null
 citations:
   - "Guthrie, Robert V. Even the Rat Was White. 2nd ed. 1998 (sister-pack weather for psychology's census)."
   - "Association for Play Therapy. Membership and conference programs as dated objects."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/who-was-left-out/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: who-was-left-out.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/who-was-left-out/lead-timeline.svg"
+    alt="Editorial timeline for Who was left out."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Who was left out</strong> — A play-therapy history that only names Vienna, London, and Denton has a hole.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A timeline that runs Hug-Hellmuth–Klein–Axline–Landreth–APT is already a census. It is a true census of the books American counseling programs kept. It is a false census of childhood. This essay is about the false part. It will not repair the falsehood with a closing paragraph titled "diversity." It will not add one non-European name as garnish. It will say who the room was built for, and who paid for standing outside it.
 

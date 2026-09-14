@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 10
-portrait: none
+portrait: "plates/winnicott-playing-and-reality/plate.svg"
 citations:
   - "Winnicott, D. W. Playing and Reality. Tavistock, 1971."
   - "Winnicott, D. W. Transitional Objects and Transitional Phenomena. 1953."
@@ -18,9 +18,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1896–1971"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: winnicott-playing-and-reality.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/winnicott-playing-and-reality/plate.svg"
+    alt="Typographic history plate for D. W. Winnicott (1896–1971) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>D. W. Winnicott</strong> (1896–1971) — pediatrician-analyst whose 1971 Playing and Reality made play a theory of culture.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/winnicott-playing-and-reality/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Donald Woods Winnicott (1896–1971) already has a life essay next door. This page will not retell Plymouth, Paddington Green, the good-enough sentence, or Clare Britton's wartime caseload except as they touch play. It stays with two public objects: the 1953 paper on transitional objects and the 1971 book *Playing and Reality*.
 

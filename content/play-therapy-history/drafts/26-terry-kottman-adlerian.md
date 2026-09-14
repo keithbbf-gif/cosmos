@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 26
-portrait: none
+portrait: "plates/terry-kottman-adlerian/plate.svg"
 citations:
   - "Kottman, Terry. Partners in Play: An Adlerian Approach to Play Therapy. ACA, 1995."
   - "Adler, Alfred. Understanding Human Nature. 1927 (sister-pack weather)."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1941–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: terry-kottman-adlerian.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/terry-kottman-adlerian/plate.svg"
+    alt="Typographic history plate for Terry Kottman (1941–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Terry Kottman</strong> (1941–) — counselor educator who named Adlerian play therapy in Partners in Play (1995).
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/terry-kottman-adlerian/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Terry Kottman is a living American counselor-educator. In 1995 the American Counseling Association published *Partners in Play: An Adlerian Approach to Play Therapy*. The book is the public object this page is allowed. No workshop gossip, no health speculation, no scraped headshot, no teaching of her four-phase language as a script.
 

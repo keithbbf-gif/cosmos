@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 03-rooms-objects
 order: 13
-portrait: none
+portrait: "plates/margaret-lowenfeld/plate.svg"
 citations:
   - "Lowenfeld, Margaret. Play in Childhood. Gollancz, 1935."
   - "Institute of Child Psychology, London, 1928."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1890–1973"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: margaret-lowenfeld.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/margaret-lowenfeld/plate.svg"
+    alt="Typographic history plate for Margaret Lowenfeld (1890–1973) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Margaret Lowenfeld</strong> (1890–1973) — founder of the World Technique and the Institute of Child Psychology in London.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/margaret-lowenfeld/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Margaret Lowenfeld (1890–1973) was a British physician who treated play as a way a child could think without first borrowing an adult's words. In 1928 she founded the Institute of Child Psychology in London. In 1935 Gollancz published *Play in Childhood*. The World Technique — sand, water, miniatures, a tray that could hold a "world" — is the object later sandplay trainings either honor or quietly rename.
 

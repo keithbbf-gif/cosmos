@@ -114,6 +114,8 @@ Hold any piece that still carries `[CITE NEEDED]` or `[VERIFY]` on a date you wo
 - `BIBLIOGRAPHY.md` — consolidated citations
 - `PORTRAIT_SOURCES.md` — PD/CC files, or an honest "no portrait"
 - `PHOTO_NOTES.md` — how to attach images; never fake a face or a child
+- `RIGHTS.md` — pack rights manifest for every shipped graphic
+- `GRAPHICS_INDEX.md` — era timelines and figure plates register
 - `WP_IMPORT.md` — staging/import only
 
 ## Review seats

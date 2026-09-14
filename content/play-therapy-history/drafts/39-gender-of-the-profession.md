@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 07-critiques-tools
 order: 39
-portrait: none
+portrait: null
 citations:
   - "Association for Play Therapy. Membership notices and conference programs as dated objects."
   - "Schaefer obituaries using 'father of play therapy' as a myth to quote."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/gender-of-the-profession/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: gender-of-the-profession.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/gender-of-the-profession/lead-timeline.svg"
+    alt="Editorial timeline for Gender of the profession."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Gender of the profession</strong> — A majority-women field with a mixed-gender origin story and credential politics.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Walk an APT conference hallway in the 1990s or 2010s and you will see a workforce that looks like American school counseling and social work: mostly women, a smaller number of men at the microphone. Then read the origin slides: Schaefer, O'Connor, Landreth, Guerney — and, if the slide is careful, Axline, Jernberg, Louise Guerney. The hallway and the slide are both true. The tension is the history.
 

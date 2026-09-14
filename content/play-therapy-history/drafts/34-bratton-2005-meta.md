@@ -9,16 +9,34 @@ tags:
 type: era
 stage: 06-profession
 order: 34
-portrait: none
+portrait: null
 citations:
   - "Bratton, Sue C., Dee Ray, Tammy Rhine, and Leslie Jones. Professional Psychology: Research and Practice 36, no. 4 (2005): 376–390."
 status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/bratton-2005-meta/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: bratton-2005-meta.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/bratton-2005-meta/lead-timeline.svg"
+    alt="Editorial timeline for Bratton et al., 2005."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Bratton et al., 2005</strong> — A 2005 meta-analysis that gave the field a graph and not a resting place.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2005 *Professional Psychology: Research and Practice* printed Sue C. Bratton, Dee Ray, Tammy Rhine, and Leslie Jones, "The Efficacy of Play Therapy with Children: A Meta-Analytic Review of Treatment Outcomes." The placement mattered. This was not only *IJPT* talking to *IJPT*. This was a general professional-psychology journal, volume 36, number 4, pages 376–390.
 

@@ -9,16 +9,33 @@ tags:
 type: reader
 stage: 07-critiques-tools
 order: 43
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "BIBLIOGRAPHY.md in this folder."
 status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: what-we-opened.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for What we opened — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>What we opened</strong> — The bibliography as an honesty list: which objects this pack actually named, and which trails stay marked VERIFY.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 A pack of forty-five drafts can sound like a library. It is not a library. It is a set of title pages a writer was willing to stand next to, plus a set of trails marked `[VERIFY]`. This essay is the honesty list, in prose, so a later editor does not have to infer what we did not open.
 

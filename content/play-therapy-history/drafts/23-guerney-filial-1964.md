@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 23
-portrait: none
+portrait: "plates/guerney-filial-1964/plate.svg"
 citations:
   - "Guerney, Bernard, Jr. Filial Therapy: Description and Rationale. Journal of Consulting Psychology 28 (1964): 304–310."
   - "Guerney, Bernard, Louise Guerney, and Michael Andronico. Yale Scientific Magazine 40 (1966)."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1923–2019"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: guerney-filial-1964.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/guerney-filial-1964/plate.svg"
+    alt="Typographic history plate for Bernard & Louise Guerney (1923–2019) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Bernard & Louise Guerney</strong> (1923–2019) — filial-therapy authors whose 1964 paper named parents as therapeutic agents.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/guerney-filial-1964/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 In 1964 the *Journal of Consulting Psychology* printed Bernard Guerney Jr.'s "Filial Therapy: Description and Rationale." The claim was institutional before it was sentimental. If play could be a method, then a parent — trained, supervised, not abandoned with a blog — might be the person in the room. Louise Guerney's name sits on the later public objects and on APT's first-board list. Michael Andronico appears on the 1966 *Yale Scientific Magazine* piece that took the idea to a wider literate audience.
 

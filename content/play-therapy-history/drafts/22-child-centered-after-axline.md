@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 04-nondirective
 order: 22
-portrait: none
+portrait: null
 citations:
   - "Axline, Virginia M. Play Therapy. 1947."
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/child-centered-after-axline/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: child-centered-after-axline.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/child-centered-after-axline/lead-timeline.svg"
+    alt="Editorial timeline for Child-centered after Axline."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Child-centered after Axline</strong> — How child-centered play therapy became a school name, film library, and credential path.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 "Child-centered play therapy" is a later name for a stance Axline wrote in 1947 without that exact brand. The initials CCPT belong to textbooks, dissertations, and grant applications. They do not belong to Houghton Mifflin. This essay is about the name becoming a school: films, manuals, outcome studies, and a habit of talking as if one hour were the whole of play therapy.
 

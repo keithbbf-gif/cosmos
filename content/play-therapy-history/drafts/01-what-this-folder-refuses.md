@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 01-how-to-read
 order: 1
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "Axline, Virginia M. Play Therapy. Houghton Mifflin, 1947."
   - "Association for Play Therapy. Society established 1982."
@@ -18,9 +18,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: what-this-folder-refuses.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for What this folder refuses to say — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>What this folder refuses to say</strong> — The fence for a WOW Therapies play-therapy history series: no protocols, no toy lists, no home sessions, no invented children.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 I am going to waste the first page on what we will not do. If that sounds like a lawyer got to the manuscript first, good. The words *play therapy* have spent a generation sliding off training institutes and onto parenting blogs, and the slide is almost always greased with a child's symptom name and a photograph of a dollhouse.
 

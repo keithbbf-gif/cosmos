@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 03-rooms-objects
 order: 14
-portrait: none
+portrait: "plates/dora-kalff-sandplay/plate.svg"
 citations:
   - "Kalff, Dora M. Sandplay: A Psychotherapeutic Approach to the Psyche. Sigo, 1980."
   - "Lowenfeld, Margaret. Play in Childhood. 1935."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1904–1990"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: dora-kalff-sandplay.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/dora-kalff-sandplay/plate.svg"
+    alt="Typographic history plate for Dora M. Kalff (1904–1990) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Dora M. Kalff</strong> (1904–1990) — Jungian analyst who named sandplay and trained a tray-based school.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/dora-kalff-sandplay/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Dora Martin Kalff (1904–1990) was a Swiss Jungian analyst who watched Margaret Lowenfeld's World Technique and then built a practice and a word of her own: sandplay. The English book most American clinicians actually hold is *Sandplay: A Psychotherapeutic Approach to the Psyche* (Sigo, 1980). There is an earlier German life to the work. When you cite, name the language.
 

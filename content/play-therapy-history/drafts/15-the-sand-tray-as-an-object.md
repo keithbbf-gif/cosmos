@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 03-rooms-objects
 order: 15
-portrait: none
+portrait: null
 citations:
   - "Lowenfeld, Margaret. Play in Childhood. 1935."
   - "Kalff, Dora M. Sandplay. 1980."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/the-sand-tray-as-an-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: the-sand-tray-as-an-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/the-sand-tray-as-an-object/lead-timeline.svg"
+    alt="Editorial timeline for The sand tray as object."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The sand tray as object</strong> — Wood, sand, and miniatures as a profession's furniture — not a toy list.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A tray of sand is a piece of furniture. It has a carpenter, a supplier of silica or play sand, a shelf of miniatures, and a price. It also has a literature that treats the furniture as a mind. This essay is about the furniture. The mind can wait for a clinician the reader actually has.
 

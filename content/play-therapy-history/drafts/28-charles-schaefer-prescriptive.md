@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 28
-portrait: none
+portrait: "plates/charles-schaefer-prescriptive/plate.svg"
 citations:
   - "Schaefer, Charles E., and Kevin J. O'Connor, eds. Handbook of Play Therapy. Wiley, 1983."
   - "Dignity Memorial. Charles Schaefer obituary. Died 19 September 2020."
@@ -18,9 +18,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1933–2020"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: charles-schaefer-prescriptive.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/charles-schaefer-prescriptive/plate.svg"
+    alt="Typographic history plate for Charles E. Schaefer (1933–2020) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Charles E. Schaefer</strong> (1933–2020) — APT co-founder who edited prescriptive play-therapy handbooks for decades.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/charles-schaefer-prescriptive/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Charles E. Schaefer was born 15 November 1933, taught at Fairleigh Dickinson University in Teaneck, edited *The Therapeutic Use of Child's Play* (Jason Aronson, late 1970s), co-founded the Association for Play Therapy with Kevin O'Connor in 1982, co-edited the 1983 *Handbook of Play Therapy*, and died of a stroke on 19 September 2020 in the public Dignity Memorial notice. Obituaries and some encyclopedias called him the "father of play therapy." This series will quote the phrase as a myth. It will not crown him.
 

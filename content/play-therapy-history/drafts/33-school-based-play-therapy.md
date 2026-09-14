@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 06-profession
 order: 33
-portrait: none
+portrait: null
 citations:
   - "Landreth, Garry L. Play Therapy: The Art of the Relationship. 1991."
   - "Ray, Dee C. School-based CCPT outcome papers (2000s); cite the article you open."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/school-based-play-therapy/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: school-based-play-therapy.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/school-based-play-therapy/lead-timeline.svg"
+    alt="Editorial timeline for Play therapy in schools."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Play therapy in schools</strong> — From counselor-education syllabi to district contracts — play crosses the school door.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 American school counselors in the 1960s already wanted a method that did not look like a lecture. Articles associated with names like Alexander (1964), Muro (1968), Myrick and Holdin (1971), Nelson (1966), and Waterland (1970) — a cluster later surveys list — treated play as an educational and preventive tool inside the school. Open the paper you cite. This page will not pretend to have sat in each archive.
 

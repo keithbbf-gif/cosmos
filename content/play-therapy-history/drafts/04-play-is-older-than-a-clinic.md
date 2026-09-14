@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 02-child-analysis
 order: 4
-portrait: none
+portrait: null
 citations:
   - "Lowenfeld, Margaret. Play in Childhood. Gollancz, 1935."
   - "Piaget, Jean. Play, Dreams and Imitation in Childhood. Norton, 1951."
@@ -18,9 +18,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/play-is-older-than-a-clinic/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: play-is-older-than-a-clinic.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/play-is-older-than-a-clinic/lead-timeline.svg"
+    alt="Editorial timeline for Play is older than a clinic."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Play is older than a clinic</strong> — Children played before Vienna hired an hour; clinics arrived late to the nursery.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 A clay horse in a grave, a knucklebone on a street, a doll with a cracked face in a museum drawer: children played before anyone billed an hour for watching them. That sentence is true and almost useless. The useful sentence is slower. Play is older than a clinic. The clinic is what happened when a profession decided that play could be a method, a record, and later a credential.
 

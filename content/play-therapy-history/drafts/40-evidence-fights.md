@@ -9,7 +9,7 @@ tags:
 type: era
 stage: 07-critiques-tools
 order: 40
-portrait: none
+portrait: null
 citations:
   - "Bratton, Sue C., Dee Ray, Tammy Rhine, and Leslie Jones. Professional Psychology 36 (2005): 376–390."
   - "Chambless, Dianne L., and colleagues. EST lists as professional-history objects (sister pack)."
@@ -17,9 +17,27 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/evidence-fights/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: evidence-fights.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/evidence-fights/lead-timeline.svg"
+    alt="Editorial timeline for Evidence fights."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Evidence fights</strong> — After 2005 the field carried a graph and still wanted a handout.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Play therapy spent the second half of the twentieth century collecting stories (*Dibs*, 1964) and the first years of the twenty-first collecting graphs (Bratton, Ray, Rhine, and Jones, 2005). Both collections are historical. The fight is about which collection gets to speak in a room that pays. This essay is about the fight, and about the moment the fight turns into a worksheet.
 

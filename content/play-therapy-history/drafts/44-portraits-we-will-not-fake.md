@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 07-critiques-tools
 order: 44
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "PORTRAIT_SOURCES.md in this folder."
   - "PHOTO_NOTES.md in this folder."
@@ -17,9 +17,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: portraits-we-will-not-fake.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for Portraits we will not fake — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Portraits we will not fake</strong> — No AI faces, no AI children, no scraped workshop photos. Type, title pages, and an honest blank.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 Almost every figure in this pack is `portrait: none`. That is not a failure of research. It is the legal and ethical fact of twentieth-century photographs. Anna Freud died in 1982. Axline died in 1988. Landreth died in 2026. Living authors are living. University headshots are not free. Workshop selfies are not free. A generated "historical" face is a lie.
 

@@ -9,16 +9,34 @@ tags:
 type: era
 stage: 06-profession
 order: 35
-portrait: none
+portrait: null
 citations:
   - "Association for Play Therapy. RPT / RPT-S credential manuals as dated association objects."
 status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+lead_asset: "assets/era/rpt-credential-as-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: rpt-credential-as-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/rpt-credential-as-object/lead-timeline.svg"
+    alt="Editorial timeline for The RPT credential."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The RPT credential</strong> — Registered Play Therapist as an association object with paperwork, not magic.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 The Association for Play Therapy sells, and periodically rewrites, a credential: Registered Play Therapist, and a supervisor version, RPT-S. The manuals change. Hours change. Eligible degrees change. That changeability is the historical fact. A letterhead that says RPT in 1996 and a letterhead that says RPT in 2026 are not automatically the same object.
 

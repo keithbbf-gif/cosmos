@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 6
-portrait: none
+portrait: "plates/hermine-hug-hellmuth/plate.svg"
 citations:
   - "Hug-Hellmuth, Hermine. On the Technique of Child-Analysis. International Journal of Psycho-Analysis 2 (1921): 287–305."
   - "MacLean, George, and Ulrich Rappen. Hermine Hug-Hellmuth: Her Life and Work. Routledge, 1991."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1871–1924"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: hermine-hug-hellmuth.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/hermine-hug-hellmuth/plate.svg"
+    alt="Typographic history plate for Hermine Hug-Hellmuth (1871–1924) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Hermine Hug-Hellmuth</strong> (1871–1924) — Vienna analyst whose 1921 IJP paper named child-analysis technique before Klein or Axline.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/hermine-hug-hellmuth/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Hermine Hug-Hellmuth was born Hermine Hug von Hugenstein in 1871, took a doctorate, entered the Vienna Psychoanalytic Society, and in 1921 published "On the Technique of Child-Analysis" in the *International Journal of Psycho-Analysis*. She was murdered in 1924 by her nephew, Rolf, in a crime the newspapers understood and the profession half-wished to forget. Later play-therapy origin stories often start with Klein, or Anna Freud, or Axline. The 1921 paper is already on the shelf.
 

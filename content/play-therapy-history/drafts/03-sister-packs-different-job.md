@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 01-how-to-read
 order: 3
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "content/wowtherapies-therapy-history/ (sister pack)."
   - "Winnicott, D. W. Playing and Reality. Tavistock, 1971."
@@ -18,9 +18,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: sister-packs-different-job.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for Sister packs, different job — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Sister packs, different job</strong> — This play-therapy folder deepens one room. It does not replace the counseling-heritage calendar or the SLPWOW speech lane.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 Three folders now sit in the same house, and they will steal from each other if nobody names the job. This page is a map of the theft we are refusing.
 

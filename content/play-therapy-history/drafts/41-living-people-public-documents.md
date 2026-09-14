@@ -9,7 +9,7 @@ tags:
 type: reader
 stage: 07-critiques-tools
 order: 41
-portrait: none
+portrait: "assets/_shared/reader-series-plate.svg"
 citations:
   - "CLAIMS_GUARDRAILS.md in this folder."
   - "University of North Texas. Garry Landreth death notice, 11 June 2026."
@@ -17,9 +17,26 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+portrait_status: series-template
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: living-people-public-documents.reader-series -->
+<figure class="wow-figure wow-figure--reader">
+  <img
+    src="../assets/_shared/reader-series-plate.svg"
+    alt="Series template for Living people, public documents — no photograph."
+    width="900"
+    height="280"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Living people, public documents</strong> — How this pack treats living authors: title pages, journals, society pages. No gossip, no scraped faces, no health.
+    <span class="figure-credit">Original series template (CC0). No AI-generated faces or children.</span>
+  </figcaption>
+</figure>
+
 
 A history of a living field will name living people. The naming is the risk. This page is the rule the other drafts already tried to keep, written once so a later editor can fail a sentence by quoting it.
 

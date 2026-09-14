@@ -9,16 +9,35 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 24
-portrait: none
+portrait: "plates/violet-oaklander/plate.svg"
 citations:
   - "Oaklander, Violet. Windows to Our Children. Real People Press, 1978."
 status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1927–2021"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: violet-oaklander.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/violet-oaklander/plate.svg"
+    alt="Typographic history plate for Violet Oaklander (1927–2021) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Violet Oaklander</strong> (1927–2021) — Gestalt child therapist whose 1978 Windows to Our Children named a school.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/violet-oaklander/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Violet Oaklander (1927–2021) published *Windows to Our Children: A Gestalt Therapy Approach to Children and Adolescents* with Real People Press in 1978. The press is part of the history. This is not Houghton Mifflin and not Hogarth. It is a humanistic, West-Coast, workshop-adjacent publisher that could get a Gestalt book into the same bookstores that sold Perls and other encounter-culture objects.
 

@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 06-profession
 order: 36
-portrait: none
+portrait: "plates/eliana-gil-trauma-lane/plate.svg"
 citations:
   - "Gil, Eliana. The Healing Power of Play: Working with Abused Children. Guilford, 1991."
   - "Gil, Eliana. Play in Family Therapy. Guilford, 1994."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1948–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: eliana-gil-trauma-lane.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/eliana-gil-trauma-lane/plate.svg"
+    alt="Typographic history plate for Eliana Gil (1948–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Eliana Gil</strong> (1948–) — trauma clinician whose 1991 Healing Power of Play named a family-therapy lane.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/eliana-gil-trauma-lane/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Eliana Gil is a living clinician and writer. In 1991 Guilford published *The Healing Power of Play: Working with Abused Children*. In 1994 Guilford published *Play in Family Therapy*. Those two title pages are the public objects this page is allowed. No workshop stories, no health speculation, no scraped photographs, no teaching of a trauma hour.
 

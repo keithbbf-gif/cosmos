@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 25
-portrait: none
+portrait: "plates/ann-jernberg-theraplay/plate.svg"
 citations:
   - "Jernberg, Ann M. Theraplay. Jossey-Bass, 1979."
   - "Association for Play Therapy. First-board lists (Jernberg)."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1927–1993"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: ann-jernberg-theraplay.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/ann-jernberg-theraplay/plate.svg"
+    alt="Typographic history plate for Ann M. Jernberg (1927–1993) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ann M. Jernberg</strong> (1927–1993) — clinical social worker who published Theraplay in 1979 as structured attachment play.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/ann-jernberg-theraplay/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Ann M. Jernberg published *Theraplay: A New Treatment Using Structured Play for Problem Children and Their Families* with Jossey-Bass in 1979. The subtitle is a period object. "Problem children" is 1979 clinic English. The book named a method in which the adult is active, structured, and physically in the play — a different posture from Axline's 1947 refusal to steer.
 

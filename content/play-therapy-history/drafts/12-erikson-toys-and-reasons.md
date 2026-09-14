@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 02-child-analysis
 order: 12
-portrait: none
+portrait: "plates/erikson-toys-and-reasons/plate.svg"
 citations:
   - "Erikson, Erik H. Childhood and Society. Norton, 1950."
   - "Erikson, Erik H. Toys and Reasons. Norton, 1977."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1902–1994"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: erikson-toys-and-reasons.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/erikson-toys-and-reasons/plate.svg"
+    alt="Typographic history plate for Erik H. Erikson (1902–1994) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Erik H. Erikson</strong> (1902–1994) — psychoanalyst who read toys and play configurations as developmental evidence.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/erikson-toys-and-reasons/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Erik Homburger Erikson (1902–1994) trained as an analyst, taught Americans to say "identity," and used children's play constructions as a way to think on paper. He is not a founder of the Association for Play Therapy. He is a reason later school counselors thought toys could be *about* something without being Kleinian speech.
 

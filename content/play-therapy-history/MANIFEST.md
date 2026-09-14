@@ -15,7 +15,14 @@ Do not write to live wowtherapies.com from this folder.
 | `BIBLIOGRAPHY.md` | Consolidated citations |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces or children |
+| `RIGHTS.md` | Pack rights manifest |
+| `GRAPHICS_INDEX.md` | Era + figure graphics register |
+| `graphics_pass.py` | Regenerate SVG plates and embeds |
 | `WP_IMPORT.md` | Staging import only |
+| `assets/era/` | Era lead timelines (SVG, CC0) |
+| `assets/_shared/` | Reader series template plate |
+| `plates/` | Figure typographic plates + `RIGHTS.md` |
+| `embeds/` | HTML figure block templates |
 
 ## Required YAML on each draft
 

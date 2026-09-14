@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 05-other-schools
 order: 29
-portrait: none
+portrait: "plates/kevin-oconnor-ecosystemic/plate.svg"
 citations:
   - "Association for Play Therapy. Co-founder and Director Emeritus notices."
   - "O'Connor, Kevin J. The Play Therapy Primer. Wiley, 1991 (and later editions)."
@@ -18,9 +18,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1952–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: kevin-oconnor-ecosystemic.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/kevin-oconnor-ecosystemic/plate.svg"
+    alt="Typographic history plate for Kevin J. O'Connor (1952–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Kevin J. O'Connor</strong> (1952–) — APT co-founder who later named ecosystemic play therapy.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/kevin-oconnor-ecosystemic/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Kevin J. O'Connor is a living psychologist. In 1982 Charles Schaefer enlisted him as co-founder of the Association for Play Therapy. He built the Association's early newsletter, later served a long board stretch (APT's own emeritus page lists 1982–2003, emeritus 2004), and worked from the California School of Professional Psychology in Fresno when the Association's offices moved there. Those are membership and address facts from public society pages.
 

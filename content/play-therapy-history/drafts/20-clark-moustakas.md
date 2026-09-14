@@ -9,7 +9,7 @@ tags:
 type: figure
 stage: 04-nondirective
 order: 20
-portrait: none
+portrait: "plates/clark-moustakas/plate.svg"
 citations:
   - "Moustakas, Clark E. Children in Play Therapy. McGraw-Hill, 1953."
   - "Moustakas, Clark E. Psychotherapy with Children: The Living Relationship. Harper, 1959."
@@ -17,9 +17,28 @@ status: draft
 voice_check: human
 claims_posture: educational-therapy-history
 last_verified: 2026-09-14
+figure_dates: "1923–2012"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: clark-moustakas.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/clark-moustakas/plate.svg"
+    alt="Typographic history plate for Clark Moustakas (1923–2012) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Clark Moustakas</strong> (1923–2012) — psychologist who wrote early play-therapy texts and later humanistic theory.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/clark-moustakas/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Clark E. Moustakas (1923–2012) spent a long American career at the Merrill-Palmer Institute and later at the Center for Humanistic Studies in Detroit. In 1953 McGraw-Hill published *Children in Play Therapy*. In 1959 Harper published *Psychotherapy with Children: The Living Relationship*. Play-therapy syllabi that want a name between Axline (1947) and Landreth (1991) often put him in the gap.
 
