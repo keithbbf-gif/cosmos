@@ -16,7 +16,7 @@
   </defs>
   <rect class="bg" width="700" height="340"/>
   <text x="32" y="34" class="title">Gestures count as language (schematic)</text>
-  <text x="32" y="54" class="label">CDC and ASHA checklists include pointing, showing, and waving  not only spoken words.</text>
+  <text x="32" y="54" class="label">CDC and ASHA checklists include pointing, showing, and waving - not only spoken words.</text>
   <rect class="col-g" x="32" y="76" width="200" height="200" rx="6"/>
   <text x="48" y="100" class="h">Gestures</text>
   <circle class="icon" cx="80" cy="140" r="14"/><text x="100" y="144" class="label">Point</text>

@@ -16,10 +16,10 @@
   </defs>
   <rect class="bg" width="960" height="300"/>
   <text x="40" y="36" class="title">Checklist ages birth through five (schematic)</text>
-  <text x="40" y="56" class="label">CDC Learn the Signs. Act Early. pages align to well-child visits  not every birthday.</text>
+  <text x="40" y="56" class="label">CDC Learn the Signs. Act Early. pages align to well-child visits - not every birthday.</text>
   <rect class="band" x="40" y="72" width="880" height="148" rx="4"/>
   <line class="spine" x1="60" y1="200" x2="900" y2="200"/>
-  <text x="60" y="92" class="label" style="font-weight:600;fill:#0F766E">Surveillance tool  not a diagnosis</text>
+  <text x="60" y="92" class="label" style="font-weight:600;fill:#0F766E">Surveillance tool - not a diagnosis</text>
   <!-- ages -->
   <circle class="dot" cx="80" cy="200" r="5"/><text x="68" y="224" class="age">2 mo</text>
   <circle class="dot" cx="140" cy="200" r="5"/><text x="128" y="224" class="age">4 mo</text>
@@ -33,6 +33,6 @@
   <circle class="dot" cx="670" cy="200" r="5"/><text x="658" y="224" class="age">3 yr</text>
   <circle class="dot" cx="740" cy="200" r="5"/><text x="728" y="224" class="age">4 yr</text>
   <circle class="dot" cx="810" cy="200" r="5"/><text x="798" y="224" class="age">5 yr</text>
-  <text x="40" y="268" class="note">Items on each page reflect skills many children show by that age (CDC uses a 75% rule on revised lists). Missed items are a reason to talk with the doctor  not a label.</text>
-  <text x="40" y="284" class="note">SLPWOW pediatric milestones  original editorial graphic. Verify against current CDC PDF before print.</text>
+  <text x="40" y="268" class="note">Items on each page reflect skills many children show by that age (CDC uses a 75% rule on revised lists). Missed items are a reason to talk with the doctor - not a label.</text>
+  <text x="40" y="284" class="note">SLPWOW pediatric milestones - original editorial graphic. Verify against current CDC PDF before print.</text>
 </svg>

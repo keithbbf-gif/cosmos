@@ -34,7 +34,7 @@
   <text x="280" y="116" class="h">Screening</text>
   <text x="280" y="138" class="p">Standardized tool at set</text>
   <text x="280" y="154" class="p">ages (e.g. 9, 18, 30 mo</text>
-  <text x="280" y="170" class="p">per AAP guidance)  not</text>
+  <text x="280" y="170" class="p">per AAP guidance) - not</text>
   <text x="280" y="186" class="p">this blog post.</text>
 
   <path class="arrow" d="M464 158 H492"/>
@@ -42,12 +42,12 @@
   <text x="508" y="116" class="h">Evaluation</text>
   <text x="508" y="138" class="p">Licensed clinician or team</text>
   <text x="508" y="154" class="p">when someone needs a</text>
-  <text x="508" y="170" class="p">closer look  may include</text>
+  <text x="508" y="170" class="p">closer look - may include</text>
   <text x="508" y="186" class="p">SLP, audiologist, EI.</text>
 
   <rect class="box" x="36" y="260" width="656" height="120" rx="6"/>
   <text x="52" y="288" class="h">What this figure does not do</text>
   <text x="52" y="310" class="p">It does not diagnose your child, decide eligibility for services, or replace a hearing test.</text>
-  <text x="52" y="328" class="p">If a skill was present and is gone, CDC materials say to call now  that is about timing, not naming a condition here.</text>
+  <text x="52" y="328" class="p">If a skill was present and is gone, CDC materials say to call now - that is about timing, not naming a condition here.</text>
   <text x="52" y="356" class="p">Sources: CDC Act Early materials; AAP screening policy (see article citations).</text>
 </svg>
