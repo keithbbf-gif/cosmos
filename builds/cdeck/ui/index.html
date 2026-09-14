@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="cdeck-base" content="http://127.0.0.1:8770" />
+  <title>COSMOS cDeck</title>
+  <link rel="manifest" href="cdeck.webmanifest" />
+  <link rel="stylesheet" href="app.css" />
+  <script src="header.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div id="cdeck-root">
+  <header id="cdeck-header">
+    <span id="cdeck-title">COSMOS cDeck</span>
+    <span id="status-label" class="status-label">…</span>
+  </header>
+  <nav id="cdeck-nav">
+    <button class="cdeck-nav-item active" data-pane="recents-pane">Recents</button>
+    <button class="cdeck-nav-item" data-pane="fleet-pane">Fleet</button>
+    <button class="cdeck-nav-item" data-pane="forge-pane">Forge</button>
+    <button class="cdeck-nav-item" data-pane="gitur-pane">Gitur</button>
+    <button class="cdeck-nav-item" data-pane="studio-pane">Studio</button>
+    <button class="cdeck-nav-item" data-pane="runs-pane">Runs</button>
+  </nav>
+  <main id="cdeck-main">
+    <div id="recents-pane"  class="cdeck-pane">Loading…</div>
+    <div id="fleet-pane"   class="cdeck-pane" style="display:none">Fleet</div>
+    <div id="forge-pane"   class="cdeck-pane" style="display:none">Forge</div>
+    <div id="gitur-pane"   class="cdeck-pane" style="display:none">Gitur</div>
+    <div id="studio-pane"  class="cdeck-pane" style="display:none">Studio</div>
+    <div id="runs-pane"    class="cdeck-pane" style="display:none">Runs</div>
+  </main>
+  <!-- JACK'S MESH placeholder — do not remove -->
+  <div id="jacks-mesh" aria-hidden="true"></div>
+</div>
+<script src="deck_tabs.js" defer></script>
+</body>
+</html>

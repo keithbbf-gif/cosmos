@@ -1,0 +1,10 @@
+{
+  "name": "COSMOS cDeck",
+  "short_name": "cDeck",
+  "start_url": "/cdeck/",
+  "display": "standalone",
+  "background_color": "#0e0e12",
+  "theme_color": "#16161d",
+  "description": "COSMOS desktop dashboard",
+  "icons": []
+}
