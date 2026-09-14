@@ -44,6 +44,13 @@ if [ -f pyproject.toml ]; then
     || echo "[cosmos-install] editable install skipped (no installable package yet)"
 fi
 
+if [ -f .gitmodules ] && git rev-parse --git-dir >/dev/null 2>&1; then
+  echo "[cosmos-install] initializing builds/cdeck submodule (required for cDeck UI/tests)"
+  git submodule sync --recursive 2>/dev/null || true
+  git submodule update --init --depth 1 builds/cdeck 2>/dev/null \
+    || echo "[cosmos-install] builds/cdeck submodule not available (grant github.com/keithbbf-gif/cdeck on the environment token)"
+fi
+
 echo "[cosmos-install] tool versions:"
 echo "  ruff:   $(ruff --version)"
 echo "  pytest: $(pytest --version)"

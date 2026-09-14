@@ -153,15 +153,17 @@ def _blockers(kernel) -> dict:
                 if not isinstance(j, dict):
                     continue
                 st = str(j.get("st") or "").upper()
-                if st in ("FINDINGS", "BROKE") or j.get("stale_flag"):
+                # Review waiting list = FINDINGS + stale RUNNING only (not BROKE).
+                if st == "FINDINGS" or j.get("stale_flag"):
                     rows.append({
                         "kind": "job",
                         "id": j.get("job_id"),
                         "state": st,
                         "command": str(j.get("command") or "")[:160],
-                        "why": ("FINDINGS — awaiting CCr" if st == "FINDINGS"
-                                else ("STALE RUNNING" if j.get("stale_flag")
-                                      else st)),
+                        "why": ("FINDINGS — awaiting CCr; resume: work_orders/drop/ "
+                                "or CCr --accept (not a re-run)"
+                                if st == "FINDINGS"
+                                else "STALE RUNNING — flagged; not auto-resumed"),
                     })
     except Exception as e:  # noqa: BLE001
         rows.append({"kind": "BROKE", "detail": f"jukebox {type(e).__name__}: {e}"[:160]})
@@ -204,7 +206,11 @@ def _blockers(kernel) -> dict:
     return {
         "kind": "OK",
         "rows": rows[:24],
-        "note": "Decisions that block a process: FINDINGS, HITL, stale RUNNING, work-order piles.",
+        "note": (
+            "Review waiting list (cDeck Review tab): jukebox FINDINGS + stale RUNNING. "
+            "FINDINGS awaits CCr (drop/--accept), not approve/reject in the UI. "
+            "Also studio HITL and work-order piles when present."
+        ),
     }
 
 
