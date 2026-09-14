@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" role="img" aria-labelledby="title desc">
+  <title id="title">Mayo 1969 dysarthria cluster names as a teaching schematic</title>
+  <desc id="desc">Labeled boxes for the perceptual groups named in Darley, Aronson, and Brown 1969: flaccid, spastic, ataxic, hypokinetic, hyperkinetic, and mixed. Editorial teaching aid only. Not a diagnostic instrument and not patient audio or data.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .sub { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .box { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+      .headbox { fill: #0F766E; }
+      .ink { font-family: system-ui, sans-serif; font-size: 13px; fill: #1E293B; }
+      .label { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+      .wh { font-family: system-ui, sans-serif; font-size: 12px; fill: #FFFFFF; }
+      .name { font-family: Georgia, serif; font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="400"/>
+  <text x="36" y="34" class="title">1969 Mayo names (schematic  -  not a test)</text>
+  <text x="36" y="52" class="sub">Darley, Aronson, Brown: seven neurologic groups, 38 dimensions, three judges. The ear as a localizing claim.</text>
+
+  <rect class="headbox" x="36" y="68" width="848" height="36" rx="4"/>
+  <text x="52" y="91" class="wh">JSHR 1969: 'Differential Diagnostic Patterns' + 'Clusters of Deviant Speech Dimensions'  -  book 1975</text>
+
+  <rect class="box" x="36" y="120" width="270" height="88" rx="4"/>
+  <text x="52" y="148" class="name">Flaccid</text>
+  <text x="52" y="170" class="label">Lower-motor / bulbar picture</text>
+  <text x="52" y="188" class="label">One 1969 grouping, not a recipe</text>
+
+  <rect class="box" x="322" y="120" width="270" height="88" rx="4"/>
+  <text x="338" y="148" class="name">Spastic</text>
+  <text x="338" y="170" class="label">Upper-motor picture</text>
+  <text x="338" y="188" class="label">Paired with flaccid in ALS mix</text>
+
+  <rect class="box" x="608" y="120" width="276" height="88" rx="4"/>
+  <text x="624" y="148" class="name">Ataxic</text>
+  <text x="624" y="170" class="label">Cerebellar picture</text>
+  <text x="624" y="188" class="label">Timing and coordination cluster</text>
+
+  <rect class="box" x="36" y="224" width="270" height="88" rx="4"/>
+  <text x="52" y="252" class="name">Hypokinetic</text>
+  <text x="52" y="274" class="label">Parkinsonian picture</text>
+  <text x="52" y="292" class="label">Reduced range / loudness cluster</text>
+
+  <rect class="box" x="322" y="224" width="270" height="88" rx="4"/>
+  <text x="338" y="252" class="name">Hyperkinetic</text>
+  <text x="338" y="274" class="label">Involuntary-movement pictures</text>
+  <text x="338" y="292" class="label">1969 bin; later writers split it</text>
+
+  <rect class="box" x="608" y="224" width="276" height="88" rx="4"/>
+  <text x="624" y="252" class="name">Mixed</text>
+  <text x="624" y="274" class="label">1969 example: ALS</text>
+  <text x="624" y="292" class="label">flaccid-spastic together</text>
+
+  <text x="36" y="344" class="sub">Figure: SLPWOW History series   -   labels from the 1969 papers. Not for diagnosing anyone. No audio. No patient scores.</text>
+  <text x="36" y="362" class="sub">Apraxia of speech (Johns &amp; Darley 1970; Yoss &amp; Darley 1974) is a separate argument  -  see the essay.</text>
+  <text x="36" y="380" class="sub">Later instrumentation and Duffy's textbook qualify where the list holds.</text>
+</svg>

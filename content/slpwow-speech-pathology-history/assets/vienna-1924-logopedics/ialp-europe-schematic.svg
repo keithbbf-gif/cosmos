@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" role="img" aria-labelledby="title desc">
+  <title id="title">Vienna 1924 and New York 1925 as two founding rooms</title>
+  <desc id="desc">Editorial schematic placing IALP (Vienna, 1924) beside the American Academy of Speech Correction (New York, 1925), with Berlin phoniatrics and British speech therapy as neighboring traditions. Not a claim that one meeting copied the other.</desc>
+  <defs>
+    <style>
+      .bg { fill: #FAF9F7; }
+      .title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+      .sub { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .card-a { fill: #FEF3C7; }
+      .card-b { fill: #CCFBF1; }
+      .card-c { fill: #E0E7FF; }
+      .card-d { fill: #F1F5F9; }
+      .ink { font-family: system-ui, sans-serif; font-size: 13px; fill: #1E293B; }
+      .label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+      .head { font-family: Georgia, serif; font-size: 14px; font-weight: 600; fill: #1E293B; }
+      .rule { stroke: #CBD5E1; stroke-width: 1; fill: none; }
+      .arrow { stroke: #94A3B8; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="400"/>
+  <text x="36" y="34" class="title">Two rooms, one year (schematic)</text>
+  <text x="36" y="52" class="sub">IALP (Vienna, 1924) and the American academy (New York, 1925) almost touch on a calendar. They do not share a culture.</text>
+
+  <rect class="card-a" x="36" y="72" width="400" height="200" rx="4"/>
+  <text x="52" y="98" class="head">Vienna, 1924</text>
+  <text x="52" y="122" class="ink">International Association of</text>
+  <text x="52" y="140" class="ink">Logopedics and Phoniatrics</text>
+  <text x="52" y="166" class="label">Chair: Emil Fr-schels (to 1953)</text>
+  <text x="52" y="186" class="label">Word on the door: Logop-die</text>
+  <text x="52" y="206" class="label">Flavor: medical + pedagogical</text>
+  <text x="52" y="226" class="label">Neighbor: Berlin phoniatrics (Gutzmann line)</text>
+  <text x="52" y="250" class="label">First congress city, not a U.S. campus</text>
+
+  <rect class="card-b" x="484" y="72" width="400" height="200" rx="4"/>
+  <text x="500" y="98" class="head">New York, 1925</text>
+  <text x="500" y="122" class="ink">American Academy of</text>
+  <text x="500" y="140" class="ink">Speech Correction</text>
+  <text x="500" y="166" class="label">Hotel McAlpin, 29 December</text>
+  <text x="500" y="186" class="label">Word on the door: speech correction</text>
+  <text x="500" y="206" class="label">Flavor: teachers wanting a science</text>
+  <text x="500" y="226" class="label">Neighbor: Iowa and Wisconsin clinics</text>
+  <text x="500" y="250" class="label">English-speaking, small, campus-grown</text>
+
+  <rect class="card-d" x="36" y="288" width="250" height="68" rx="4"/>
+  <text x="50" y="314" class="ink">Berlin  -  Phoniatrie</text>
+  <text x="50" y="334" class="label">Medical chair; therapist is not the title</text>
+
+  <rect class="card-c" x="302" y="288" width="292" height="68" rx="4"/>
+  <text x="316" y="314" class="ink">London  -  speech therapy</text>
+  <text x="316" y="334" class="label">Central School; later NHS / college</text>
+
+  <rect class="card-d" x="610" y="288" width="274" height="68" rx="4"/>
+  <text x="624" y="314" class="ink">Later letters: CPLOL, UEP</text>
+  <text x="624" y="334" class="label">More rooms, still not one passport</text>
+
+  <text x="36" y="382" class="sub">Figure: SLPWOW History series   -   editorial schematic. Not a claim of descent or copying.</text>
+</svg>

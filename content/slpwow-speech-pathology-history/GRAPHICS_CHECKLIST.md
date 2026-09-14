@@ -24,15 +24,15 @@ Cleared photographic portraits (see `PORTRAIT_SOURCES.md`) are embedded in the B
 - [x] Hunt profiles keep pending plates or the labeled placeholder block
 - [x] No synthetic faces
 
-## Planned slugs (graphics not started)
+## Second-wave slugs (figures shipped 14 September 2026)
 
-| Slug (proposed) | Likely graphic | Notes |
-|-----------------|----------------|-------|
-| `vienna-1924-logopedics` | IALP / Europe schematic | Pair with essay 05 |
-| `wwii-rehab-wards` | Ward-flow diagram | Pair with essay 09 |
-| `boston-va` | Team diagram (Goodglass–Kaplan–Geschwind) | Pair with essay 13 |
-| `mayo-motor-speech` | Dysarthria cluster schematic | Pair with essay 14; no patient audio |
-| `global-profession` | Non-U.S. name map | Pair with essay 16 |
+| Slug | Figure(s) | Embed | Used in article | Portrait | Status |
+|------|-----------|-------|-----------------|----------|--------|
+| `vienna-1924-logopedics` | IALP / two-rooms schematic | `embeds/vienna-1924-logopedics.md` | `articles/05-vienna-1924-logopedics.md` | — | **Ready** |
+| `wwii-rehab-wards` | War-room to shelf-object flow | `embeds/wwii-rehab-wards.md` | `articles/09-wwii-rehab-wards.md` | — | **Ready** |
+| `boston-va` | Jamaica Plain hallway | `embeds/boston-va.md` | `articles/13-boston-va.md` | — | **Ready** |
+| `mayo-motor-speech` | 1969 cluster names | `embeds/mayo-motor-speech.md` | `articles/14-mayo-motor-speech.md` | — | **Ready** (not a diagnostic tool; no audio) |
+| `global-profession` | Door-sign name sketch | `embeds/global-profession.md` | `articles/16-global-profession.md` | — | **Ready** |
 
 ## Portrait research queue
 
@@ -40,7 +40,11 @@ Open hunts remain in `PORTRAIT_SOURCES.md`. Highest-value next letters: ASHA (St
 
 ## Graphics agent acceptance (per new slug)
 
-- [ ] SVG in `assets/<slug>/` with `<title>` + `<desc>`
-- [ ] `embeds/<slug>.md` with alt text + caption
-- [ ] `python scripts/regenerate_graphics_index.py`
-- [ ] Row updated in this checklist
+Second-wave slugs (Vienna, war wards, Boston VA, Mayo, global names):
+
+- [x] SVG in `assets/<slug>/` with `<title>` + `<desc>`
+- [x] `embeds/<slug>.md` with alt text + caption
+- [x] `python scripts/regenerate_graphics_index.py`
+- [x] Row updated in this checklist
+
+Future slugs still use the same list.
