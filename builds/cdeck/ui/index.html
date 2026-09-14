@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cDeck — COSMOS</title>
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="deck_more.css">
+</head>
+<body>
+
+<div class="deck-header"></div>
+
+<!-- cockpit: two-column grid — tab shell left, MESH right -->
+<div id="cdeck-cockpit">
+
+  <!-- extra-pane shell: one cockpit grid column -->
+  <div id="cdeck-more">
+    <nav class="tab-rail"></nav>
+    <div id="cdeck-pane-host">
+      <div class="pf-tab-page" id="pfPage-forge" data-profile="forge" hidden></div>
+      <div class="pf-tab-page" id="pfPage-crucible" data-profile="crucible" hidden></div>
+      <div class="pf-tab-page" id="pfPage-diligence" data-profile="diligence" hidden></div>
+      <div class="pf-tab-page" id="pfPage-docket" data-profile="docket" hidden></div>
+      <div class="pf-tab-page" id="pfPage-ups" data-profile="ups" hidden></div>
+      <div class="pf-tab-page" id="pfPage-differentiator" data-profile="differentiator" hidden></div>
+      <div class="pf-tab-page" id="pfPage-website" data-profile="website" hidden></div>
+      <div class="pf-profiles-hub" id="pfProfilesHub" hidden>
+        <p class="dim tiny">Profiles hub — child tabs paint per-profile pages from Core.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JACK'S MESH COMMAND — main scrollport -->
+  <main class="deck-stage" id="deck-stage"></main>
+
+</div>
+
+<script src="header.js"></script>
+<script src="app.js"></script>
+<script src="deck_profiles.js"></script>
+<script src="deck_tabs.js"></script>
+<script src="kdash_native.js"></script>
+</body>
+</html>

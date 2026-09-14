@@ -1,0 +1,91 @@
+/* deck_more.css — extra-pane + Profiles (pf-*) */
+.extra-pane-shell {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.deck-tabs-rail {
+  flex: 0 0 auto;
+  max-width: 220px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+}
+
+.deck-tab-shell {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.deck-pane-host {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  padding: 8px 12px;
+}
+
+.pf-tab-page[hidden],
+.pf-profiles-hub[hidden] {
+  display: none !important;
+}
+
+.pf-motif-top .pf-pipe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 8px 0;
+}
+
+.pf-node {
+  border: 1px solid #2a3542;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.pf-arrow {
+  color: #7a8694;
+  font-size: 11px;
+}
+
+.profile-skin-graphic {
+  height: 48px;
+  margin-top: 6px;
+  border-radius: 4px;
+  background: #12161c center/cover no-repeat;
+  border: 1px solid #2a3542;
+}
+
+.profile-skin-graphic[data-skin="forge"] {
+  background-image: url("skins/forge-engineroom.jpg");
+}
+
+.profile-skin-graphic[data-skin="crucible"] {
+  background-image: url("skins/crucible-chamber.jpg");
+}
+
+.profile-skin-graphic[data-skin="diligence"] {
+  background-image: url("skins/diligence-dealroom.jpg");
+}
+
+.profile-skin-graphic[data-skin="docket"] {
+  background-image: url("skins/docket-archive.jpg");
+}
+
+.profile-skin-graphic[data-skin="ups"] {
+  background-image: url("skins/ups-lab.jpg");
+}
+
+.profile-skin-graphic[data-skin="differentiator"] {
+  background-image: url("skins/differentiator-clinic.jpg");
+}
+
+.profile-skin-graphic[data-skin="website"] {
+  background-image: url("skins/website-studio.jpg");
+}
