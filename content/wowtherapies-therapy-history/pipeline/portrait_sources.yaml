@@ -1,0 +1,27 @@
+# Rights-hunt update 2026-09-14. status: pending | cleared | caution | placeholder
+figures:
+  fig-03-portrait-plate-freud:
+    subject: "Sigmund Freud (1856–1939)"
+    status: cleared
+    file: assets/portraits/sigmund-freud.jpg
+    commons: "File:Sigmund Freud, by Max Halberstadt (cropped).jpg"
+    license: "Public domain"
+    author: "Max Halberstadt"
+    credit: "Studio portrait, c. 1921"
+  fig-04-portrait-plate-rogers:
+    subject: "Carl Rogers (1902–1987)"
+    status: placeholder
+    file: assets/portraits/carl-rogers.placeholder.svg
+    license_note: "Commons sketch (2006) and 2018 own-work upload both rejected. No cleared photograph."
+  fig-05-portrait-plate-beck:
+    subject: "Aaron T. Beck (1921–2021)"
+    status: caution
+    file: assets/portraits/aaron-beck-1942.jpg
+    commons: "File:Liber Brunensis 1942, Aaron T. Beck.jpg"
+    license: "Public domain (U.S. no-notice 1942)"
+    credit: "Brown undergraduate yearbook — not a CBT-era portrait"
+  fig-06-portrait-plate-ellis:
+    subject: "Albert Ellis (1913–2007)"
+    status: placeholder
+    file: assets/portraits/albert-ellis.placeholder.svg
+    license_note: "No Commons photograph with a clear photographer license. Dust-jacket PD claim refused."
