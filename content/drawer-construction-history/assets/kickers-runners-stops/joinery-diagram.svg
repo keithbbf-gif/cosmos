@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Runner, kicker, and stop</title>
+  <desc id="desc">Runner under the side, kicker above, stop registering flush</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Runner, kicker, and stop</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="220" y="240" width="40" height="60" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <line x1="200" y1="310" x2="420" y2="310" stroke="#6B4423" stroke-width="3"/>
+  <line x1="200" y1="230" x2="420" y2="230" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="400" y="305" width="20" height="10" fill="#8B4513"/>
+  <text x="240" y="225" fill="#4A4A4A" font-family="sans-serif" font-size="10">kicker</text>
+</svg>

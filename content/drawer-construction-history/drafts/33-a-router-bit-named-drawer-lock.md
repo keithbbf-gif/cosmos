@@ -7,6 +7,12 @@ word_count: 1492
 dek: "A drawer-lock bit cuts a locking rabbet: production joinery with a name on the shank. It is a 20th-century kitchen joint. It is strong enough for pots. It is not 1780, and staining it will not make it so."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/a-router-bit-named-drawer-lock/joinery-diagram.svg
+    alt: "Locking rabbet cut by a named router bit — kitchen production joint"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer-lock router bit and a test corner in poplar or Baltic birch (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The bit sang once in the router table — a short, ugly note, carbide on poplar — and two scraps locked like a handshake. I pulled them along the joint and they refused. I pulled them apart the other way and they came, because I had not glued them yet. On the shank, in small letters, a trade name and the words drawer lock. Not dovetail. Not 1780. A hook cut by a spinning profile, the same cutter for both parts if you flip the board. I set the corner on the glass wall’s sill and let the daylight show the step. It looked like what it is: a factory handshake with extra shoulder.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer-lock router bit and a test corner in poplar or Baltic birch (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-router-bit-named-drawer-lock/joinery-diagram.svg" alt="Locking rabbet cut by a named router bit — kitchen production joint" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Drawer-lock rabbet profile. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The shank has a name. The corner is a hook, not a tail." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The shank has a name. The corner is a hook, not a tail. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer-lock router bit and a test corner in poplar or Baltic birch (filename pending shop pull)</figcaption>
+</figure>
+
 
 The catalogs and the shop magazines treat this as ordinary production now. Popular Woodworking has run the lock rabbet as a kitchen-and-jewelry-box joint more than once. Woodcraft’s own joinery note calls the drawer-lock bit a modern joint, unsuited to reproductions, useful for production and kitchens. I will stand on that published honesty. I will not invent a first Tuesday the bit was sold, or a patent number to hang on a tag. [VERIFY] any commercial birthday before anyone prints one. What I know from the bench is enough: this is 20th-century speed, cousin to a table-saw locking rabbet, grandchild of the nailed rebate, not a secret the London price book forgot to list.
 
@@ -48,7 +63,11 @@ Do not confuse this cutter with a lock-miter bit. A lock miter is a different re
 
 I have put pots in these boxes. I have put silverware, junk, and a cast-iron skillet that should have lived on a shelf. The joint holds if the glue holds and the stock is flat. Baltic birch at half an inch is the magazine’s favorite, and for once the magazine and the kitchen agree: many plies, few voids, a sandwich that takes a cutter without crumbling if you back up the exit. Solid poplar takes it too. Solid oak will tear if you starve the fence and rush. Plywood blowout at the corner is the usual scar. A zero-clearance insert and a patient feed fix more of that than a lecture.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — kitchen drawer box, locking-rabbet corners, plywood bottom captured (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The joint is allowed to look like a factory. The pots do not care." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The joint is allowed to look like a factory. The pots do not care. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kitchen drawer box, locking-rabbet corners, plywood bottom captured (filename pending shop pull)</figcaption>
+</figure>
+
 
 The pull lives on the front. The lock has to resist that pull. A drawer-lock bit, set so the hook has meat, resists in the same direction a tail does — front to back — and is polite about side-to-side racking if the box is square. It is not polite if the front is a slab of 5/8 plywood bowed from a wet garage and you force the hook. Flat stock. Same thickness. That is the law the bit actually enforces.
 

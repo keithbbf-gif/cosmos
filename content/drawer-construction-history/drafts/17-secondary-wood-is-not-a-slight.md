@@ -7,6 +7,12 @@ word_count: 1524
 dek: "The room sees mahogany, walnut, cherry, pecan. The linings are poplar, pine, oak, chestnut — English deal when the trade said deal. Secondary wood is a job, not a apology. The show is allowed to be a different species than the box."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/secondary-wood-is-not-a-slight/joinery-diagram.svg
+    alt: "Walnut or mahogany front on poplar or pine box sides"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer box with a show-wood front and poplar or pine sides (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 Poplar dust is a pale green you can taste. I was shooting a lining and the pile on the bench was already that color — not walnut, not the face the room would see. The front leaned against the wall, a pecan board with a knot I had decided to keep. The sides were tulip poplar from a stack that lives under the long glass in this shop. Two species, one box. Nobody in Bradley County needed a lecture about honesty. The lining was doing lining work.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer box with a show-wood front and poplar or pine sides (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/secondary-wood-is-not-a-slight/joinery-diagram.svg" alt="Walnut or mahogany front on poplar or pine box sides" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Show front on secondary sides. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The front is the picture. The linings are the box. Two species is ordinary, not a shortcut." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The front is the picture. The linings are the box. Two species is ordinary, not a shortcut. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer box with a show-wood front and poplar or pine sides (filename pending shop pull)</figcaption>
+</figure>
+
 
 Primary wood is the show. Fronts, sometimes the case, sometimes a cockbead, a pair of columns, a top you set a candlestick on. Secondary wood is the rest of the drawer: sides, back, bottom, the bits a hand finds only when the box is open. English shops said *lining* for that job. They said *deal* for a pine or fir board that was not trying to be wainscot oak. Hayward uses the word as a trade word, not as an insult. I will not flatten deal into a modern grade stamp. [VERIFY] any yard name before it goes on a tag.
 
@@ -48,7 +63,11 @@ Veneer is the one place I will nod at a scar this pack already told. Oak is a ru
 
 ## What each lining is for
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — oak or chestnut lining next to a pine or deal bottom, or poplar dust on a bench (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Oak wears. Pine is quiet. Poplar works. Chestnut is a regional lining with a short temper at a knot." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Oak wears. Pine is quiet. Poplar works. Chestnut is a regional lining with a short temper at a knot. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — oak or chestnut lining next to a pine or deal bottom, or poplar dust on a bench (filename pending shop pull)</figcaption>
+</figure>
+
 
 Oak sides in English work take a groove or a rebate and they last. They also add weight, and they can stain a little dark against a pale shirt. I like oak when the runner is oak and I want the wear pair to be even. I do not like oak when the drawer is a small jewelry box and the customer will feel the mass every time.
 

@@ -7,6 +7,12 @@ word_count: 1630
 dek: "Cockbeading is 18th-century edge armor that throws a shadow. It sits in a rebate at the sides and bottom, later a full-width bead at the top. It is not a kitchen overlay lip."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/a-bead-around-the-front/joinery-diagram.svg
+    alt: "Mitered bead standing proud of the front with a rebate at the side"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — cockbeaded drawer front, mitered bead, rebate at the side (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The bead caught my thumbnail and would not let it slide off the front. A small half-round, mitered at the corner, proud of the walnut by a thought, and the light from the long wall laid a dark thread under it. I was holding a drawer the way you hold a plate — fingers under the bottom, thumb on the face — and the edge was dressed. Not a lip that hid a gap. A bead. The old word is cockbead. The job is armor and a shadow.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — cockbeaded drawer front, mitered bead, rebate at the side (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-bead-around-the-front/joinery-diagram.svg" alt="Mitered bead standing proud of the front with a rebate at the side" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Cockbeaded drawer front. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The bead is a wire of light. The rebate is why it does not wander off the corner." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The bead is a wire of light. The rebate is why it does not wander off the corner. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — cockbeaded drawer front, mitered bead, rebate at the side (filename pending shop pull)</figcaption>
+</figure>
+
 
 Eighteenth-century case work, especially the finer English and the American Federal that learned from it, likes this thread around the drawer front. Mahogany and walnut show wood. Thin linings. A front that is a picture. The picture has edges, and edges get hit. A bead is a sacrificial wire. It takes the ding so the field stays clean. It also throws a line the room can read: here is a drawer, here is a rail, here is a little night under the round.
 
@@ -58,7 +73,11 @@ The bead is usually a separate stick. Sometimes it is stuck on the solid front w
 
 ## It is not a kitchen overlay lip
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — kitchen overlay lip beside a true cockbead, edge comparison (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A lip that covers the rail is a door. A cockbead that rides the front is a shadow line." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A lip that covers the rail is a door. A cockbead that rides the front is a shadow line. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kitchen overlay lip beside a true cockbead, edge comparison (filename pending shop pull)</figcaption>
+</figure>
+
 
 A kitchen overlay lip is a different contract. The front is larger than the hole. The lip covers the rail. The gap disappears behind wood. That is a door logic applied to a drawer. It is useful. It hides a sloppy opening. It is also how a lot of 20th-century American case work dresses a cheap box. Do not call that lip a cockbead because it is rounded.
 

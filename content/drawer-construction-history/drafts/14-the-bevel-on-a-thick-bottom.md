@@ -7,6 +7,12 @@ word_count: 1548
 dek: "A solid drawer bottom can be thick in the field and skinny at the rim. The bevel is a ticket into a groove, not a door panel with a different job. Eighteenth-century boxes used the trick because a thin board throughout is a floor that drums."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/the-bevel-on-a-thick-bottom/joinery-diagram.svg
+    alt: "Thick field with a beveled rim entering side grooves"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — solid drawer bottom, thick field, beveled rim entering a side groove (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 I turned the drawer over and the bottom was two thicknesses at once. The field was fat as a breadboard, pine, a little cupped toward the socks. The rim was a knife. It still carried a polish where it had lived in the groove — a bevel, dry, a line of old hide glue like a brown thread. I ran a thumbnail up that slope. The groove in the side was skinny. The floor was not.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — solid drawer bottom, thick field, beveled rim entering a side groove (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-bevel-on-a-thick-bottom/joinery-diagram.svg" alt="Thick field with a beveled rim entering side grooves" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Beveled solid drawer bottom. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The field is the floor. The bevel is the ticket. The groove stays skinny on purpose." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The field is the floor. The bevel is the ticket. The groove stays skinny on purpose. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — solid drawer bottom, thick field, beveled rim entering a side groove (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is the 18th-century habit once the bottom stops being a nailed board under the box and starts being a panel that enters the sides. Hayward, looking at late-18th work, puts the bottom in a groove with the grain running side to side. This essay is not that grain sermon. This essay is the thickness trick the groove forces: the plough wants a thin ticket, the shirts want a thick floor, and the bevel is how one board does both jobs.
 
@@ -62,7 +77,11 @@ Leave the back free. A nail in a slot, a screw in a slot, or nothing but the gro
 
 A bevel that feathers to nothing will crumble in the groove. Dirt is a grinding compound. The skinny edge becomes a ragged edge, then a missing edge, and the field starts to drop. I leave a blunt ticket — a little shoulder of thickness at the rim, not a knife you could shave with. The old ones I have turned over in Warren still have that bluntness where the polish is. The ones that failed go sharp and then go away.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — underside of a drawer, bevel polished where it lived in the groove (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Wear shines the bevel, not the field. If the shine reaches the field, the groove has already lost." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Wear shines the bevel, not the field. If the shine reaches the field, the groove has already lost. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — underside of a drawer, bevel polished where it lived in the groove (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Thick is a stiffness, not a virtue
 

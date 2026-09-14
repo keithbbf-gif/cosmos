@@ -7,6 +7,12 @@ word_count: 1443
 dek: "Greene puts ordinary American 18th-century drawer sides at 3/8 to 1/2 inch. English sides often ran thinner because a slip carried the groove. Modern hobby boxes at 1/2 to 5/8 are frequently overbuilt. Thin is not weak if the corners are tails."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/how-thin-the-old-sides-were/joinery-diagram.svg
+    alt: "3/8 to 1/2 lining thickness with tails at the end"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — thin period or shop drawer side, 3/8 to 1/2, tails at the end (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The side was 3/8 and it did not apologize. I pinched it between thumb and finger the way you check a ruler, and it still had tails at both ends and a groove that had never split. Pine lining, a walnut front, a drawer that had been pulling shirts since before anyone in this shop was born. I set a combination square on it because I did not trust my pinch. Three-eighths. A little under, if I am honest, in from the wear. The box was not fragile. The box was a box.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — thin period or shop drawer side, 3/8 to 1/2, tails at the end (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/how-thin-the-old-sides-were/joinery-diagram.svg" alt="3/8 to 1/2 lining thickness with tails at the end" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Thin drawer side section. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A 3/8 side still has room for a tail and a groove. The meat is the joint, not the caliper." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> A 3/8 side still has room for a tail and a groove. The meat is the joint, not the caliper. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — thin period or shop drawer side, 3/8 to 1/2, tails at the end (filename pending shop pull)</figcaption>
+</figure>
+
 
 Jeffrey P. Greene, in *American Furniture of the 18th Century*, puts ordinary American sides and backs in that 3/8-to-1/2-inch neighborhood. I treat the range as a published witness, not as a law I stamp on a traveler. [VERIFY] any house minimum before it becomes a spec. What the range does is kill a superstition I meet every year: that a drawer side wants to be as thick as a case side, or as thick as a 5/8 hobby board, or as thick as Baltic ply “so it will last.”
 
@@ -48,7 +63,11 @@ Greene’s American groove-in-side wants enough board above and below the slot. 
 
 ## What the hobby overbuilds
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — modern thick hobby side beside a thinner lining, same drawer height (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Extra thickness eats the interior and does not automatically buy strength. It buys weight." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Extra thickness eats the interior and does not automatically buy strength. It buys weight. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — modern thick hobby side beside a thinner lining, same drawer height (filename pending shop pull)</figcaption>
+</figure>
+
 
 A lot of modern amateur boxes land at 1/2 to 5/8, sometimes more, in a species that did not need it. I have done it. The planer is set. The stack is already 5/8. The undermount spec sheet likes a certain wall. Kitchen slides are a later contract and they do ask for thickness; that is another Saturday. A wood-on-wood sitting-room drawer does not need to obey a slide sheet.
 

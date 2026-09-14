@@ -7,6 +7,12 @@ word_count: 1605
 dek: "An English slip is architecture: extra wood where the drawer meets the runner, a groove that does not cut the side in half. Hayward and the price-book witnesses are related, not identical. Hedge the century."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/a-slip-that-widens-the-wear/joinery-diagram.svg
+    alt: "Slip glued to a thin lining carrying the groove and the polish"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering from the back (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 Hide glue on a slip is tacky on the thumb and smells like a kettle that has seen a horse. I press the stick to a thin oak side, rub it once to grab, and the lining is suddenly thicker where it needs to be thicker — at the bottom, where the drawer will ride and where a groove has to live. The side above the stick stays skinny. The inside of the box gains a little architecture, a step, sometimes a bead I scratch because I am in the mood. That strip is the slip. It is not a romance. It is extra wood on the wear.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering from the back (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-slip-that-widens-the-wear/joinery-diagram.svg" alt="Slip glued to a thin lining carrying the groove and the polish" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Slip as wear bearing. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The strip is the road. The side stays a wall. The bottom has a groove that is not a wound in the lining." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The strip is the road. The side stays a wall. The bottom has a groove that is not a wound in the lining. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering from the back (filename pending shop pull)</figcaption>
+</figure>
+
 
 English work likes this strip. Thin linings, a solid bottom, a runner under the box. If you plough the groove in the side itself, you spend meat you do not have. A 1/4-inch lining with a groove is a ribbon with a hope. The slip is how you keep the ribbon and still have a road. American shops, more often, just used a thicker side and ploughed it. That fork is the next essay. This one stays with the stick.
 
@@ -65,7 +80,11 @@ The slip is long-grain to long-grain on the inside face of the side. That joint 
 
 Front slip or no front slip: some boxes get a strip across the inside of the front so the bottom has a groove there too. I do that when the bottom is solid and I want four walls of tunnel and a free back. I do not glue the bottom to the front strip. Movement toward the back is the floor’s right. The later grain essay can have that sermon. Here I only refuse to lock the floor.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — worn slip bearing, polished underside, thin oak lining above (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Wear lives on the slip. When the road is gone you plane a new stick. You do not throw the side away." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Wear lives on the slip. When the road is gone you plane a new stick. You do not throw the side away. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — worn slip bearing, polished underside, thin oak lining above (filename pending shop pull)</figcaption>
+</figure>
+
 
 Wear shows as a polish, then a hollow, then a drawer that drops and racks. Repair is a new stick. I have steamed off slips that were hide-glued and kept the linings. I have also met PVA slips that took the side’s face off with them. Hide is how you make the architecture reversible. I will not invent a pot temperature. [VERIFY] any number someone wants as shop law.
 

@@ -7,6 +7,12 @@ word_count: 1512
 dek: "A marking gauge set to the thickness of the mate is the whole religion. The line you chop to is that thickness, not a number you liked on Tuesday. Pins stand proud of the line so you can plane them. Miss the line and you have missed the box."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/the-baseline-is-the-joint/joinery-diagram.svg
+    alt: "Gauge line scribed as the shoulder the pins and tails must meet"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — marking gauge scribing a baseline on a drawer side or pin board (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The gauge clicked when the pin hit the thickness of the front. That click is the whole religion. I had the drawer front in one hand and the gauge in the other, fence against the inside face, cutter finding the far cheek. No ruler. No “about 3/8.” The mate is the dimension. The line the cutter leaves on the side is the joint I am about to cut. If I ignore that line, I can still make a pretty tail. I cannot make a box that closes on the thickness it was given.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — marking gauge scribing a baseline on a drawer side or pin board (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-baseline-is-the-joint/joinery-diagram.svg" alt="Gauge line scribed as the shoulder the pins and tails must meet" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Baseline at the joint. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The gauge takes the mate’s thickness. The line is the joint. A ruler is a rumor until the wood says so." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The gauge takes the mate’s thickness. The line is the joint. A ruler is a rumor until the wood says so. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — marking gauge scribing a baseline on a drawer side or pin board (filename pending shop pull)</figcaption>
+</figure>
+
 
 Every dovetail starts as a pair of thicknesses. The side is a thickness. The front is a thickness. The back is a thickness, often shy of the side, and it gets its own setting. The marking gauge is how those thicknesses become lines around the ends. You saw to the line or you chop to the line. You do not chop past it and hope the plane will invent a shoulder. The shoulder *is* the line. Hayward’s shop voice, and every decent bench after him, treats that scored line as the work. I will not invent a quotation. I will say what the wood does: a clean gauge line is a stop the chisel can hear.
 
@@ -54,7 +69,11 @@ A line you can still see after the sockets are clean is a line you respected. A 
 
 Saws are the same religion. The kerf wants to live on the waste side of the line. A kerf that eats the line eats the thickness of the mate. Your pins will sit low. Low pins are not charming. They are a drawer corner that will never quite flush without a shim.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — proud pins before the plane, or sockets chopped to a clean gauge line (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Proud is a witness and a clamp. The plane finds the line after the glue, not before." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Proud is a witness and a clamp. The plane finds the line after the glue, not before. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — proud pins before the plane, or sockets chopped to a clean gauge line (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Proud pins you plane
 

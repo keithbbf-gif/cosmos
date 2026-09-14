@@ -7,6 +7,12 @@ word_count: 1611
 dek: "Build the box fat. Shoot the sides and the top to the hole that exists. A tape measure is a rumor. Period drawers were made to openings, and each opening is its own."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/plane-to-the-opening/joinery-diagram.svg
+    alt: "Side shaved on a shooting board until the opening accepts the box"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — fat drawer at an opening, shaving coming off a side on a shooting board (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The plane sang on the top edge of a drawer that was still too fat for its hole, and the shaving came off long enough to hang on the vise. I could hear the pitch change when the iron found the high corner — a little cry, then a hush, then the even whisper that means the edge is one thing again. I did not look at the tape. I looked at the opening. The opening had been the truth since the case came out of clamps. The tape had been a story I told myself on Monday so I could cut the sides on Tuesday.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — fat drawer at an opening, shaving coming off a side on a shooting board (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/plane-to-the-opening/joinery-diagram.svg" alt="Side shaved on a shooting board until the opening accepts the box" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Plane drawer to the opening. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The hole is the gauge. The plane is the conversation. The tape can wait in the pouch." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The hole is the gauge. The plane is the conversation. The tape can wait in the pouch. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — fat drawer at an opening, shaving coming off a side on a shooting board (filename pending shop pull)</figcaption>
+</figure>
+
 
 Build the box fat. That is the whole method, and shops keep trying to replace it with a spreadsheet. Measure the hole, subtract a clearance, cut the sides to the subtraction, dovetail a perfect rectangle, and then act surprised when the hole is not the rectangle. Cases are not rectangles. They are wood. Rails sneak. Ends bow. A clamp that was a little greedy on Thursday is a tight corner on Friday. The old trade made the drawer to the opening because the opening was already there. The box is the guest. The guest dresses for the room.
 
@@ -50,7 +65,11 @@ South Arkansas humidity adds a second rumor. A hole you measured in the morning 
 
 ## Each opening is its own
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — two openings in one case, story stick or drawer numbered to its hole (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Number the box to the hole. The openings are siblings, not twins." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Number the box to the hole. The openings are siblings, not twins. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — two openings in one case, story stick or drawer numbered to its hole (filename pending shop pull)</figcaption>
+</figure>
+
 
 I number drawers. Chalk on the bottom, inside the back, a number that matches a number on the web. 1 is not 4. They look like twins from the sofa. They are not twins at the plane. Period cases that still have their original boxes often have this handwriting — a chisel nick, a pencil  III , a world that did not assume interchangeability. I have seen the nicks. I will not invent a named chest as a witness. [VERIFY] a specific piece before anyone uses it in a caption.
 

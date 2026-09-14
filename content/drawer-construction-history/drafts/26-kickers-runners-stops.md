@@ -7,6 +7,12 @@ word_count: 1659
 dek: "Three woods keep a drawer honest: a runner under the side, a kicker above so the box does not dive, and stops so flush is flush and the back does not blow out. Side-hung already has its own essay — a nod, not a retelling."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/kickers-runners-stops/joinery-diagram.svg
+    alt: "Runner under the side, kicker above, stop registering flush"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — runner under a drawer side, kicker above, same register (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 Three pieces of maple came off the cutoff saw in a rhythm I could hear from the glass wall — runner, kicker, stop — each too short to be a board and too important to be scrap. I stacked them on the bench the way a cook stacks what the pot will need. The drawer was still a box in clamps. The case already had holes. These three sticks were going to teach the box how to live in a hole without diving, without hanging, without punching the back out of the carcase.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — runner under a drawer side, kicker above, same register (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/kickers-runners-stops/joinery-diagram.svg" alt="Runner under the side, kicker above, stop registering flush" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Runner, kicker, and stop. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One stick is a road. The other is a ceiling. The drawer travels between them." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> One stick is a road. The other is a ceiling. The drawer travels between them. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — runner under a drawer side, kicker above, same register (filename pending shop pull)</figcaption>
+</figure>
+
 
 Side-hung drawers — a groove in the side, a runner on the case — already had their century and their essay. I will not retell the hang. This is the later, ordinary stack: the drawer sits on something, is kept from tipping by something, and is told to stop by something. Three woods. Leave one out and the other two start doing jobs they were not hired for.
 
@@ -60,7 +75,11 @@ Do not confuse a kicker with a guide. A guide keeps the drawer from wandering le
 
 ## The stop is the last argument
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — drawer stop on a rail or let into a runner, front sitting flush (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The stop is the last argument. Without it, the back of the case becomes the argument." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The stop is the last argument. Without it, the back of the case becomes the argument. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer stop on a rail or let into a runner, front sitting flush (filename pending shop pull)</figcaption>
+</figure>
+
 
 Flush is a decision. Inset fronts want to land in the same plane as the rails. Overlay fronts want a reveal you can repeat. Lip fronts want the lip to kiss without slamming. None of those landings happen by hoping the drawer back will meet the case back at the right moment. The case back is often thin. It is often a panel. It is often pine. A drawer full of tools, shut with a hip, will punch a thin back into a belly. I have patched that belly. The patch is always uglier than a stop.
 

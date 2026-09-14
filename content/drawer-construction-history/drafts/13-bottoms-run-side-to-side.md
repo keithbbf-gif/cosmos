@@ -7,6 +7,12 @@ word_count: 1651
 dek: "Early drawer bottoms often ran back to front and split on the short span. Late-18th-century habit turns the grain side to side, grooved in the sides, free at the back. Hayward names the change. Hoadley explains the move."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/bottoms-run-side-to-side/joinery-diagram.svg
+    alt: "Solid floor sliding in grooves with grain running across the width"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer bottom slid out the back, grain running left to right (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The bottom board popped — a dry tick — when I slid it out of the back. Pine, a little dirty, grain running left to right like a floor in a hallway, the bevelled edges dusty from a groove that had held them without glue. I had the drawer on its face on the bench, back toward me, and the floor came out as a tray. That is the late habit I trust. The grain points at the sides. The growth points at the back. The back is a door you are allowed to open.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer bottom slid out the back, grain running left to right (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/bottoms-run-side-to-side/joinery-diagram.svg" alt="Solid floor sliding in grooves with grain running across the width" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Drawer bottom grain side to side. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The floor leaves by the back. The grain is a set of arrows pointing at the sides." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The floor leaves by the back. The grain is a set of arrows pointing at the sides. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer bottom slid out the back, grain running left to right (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hayward, in the *Woodworker* years, names the change. Early bottoms are often boards running back to front, nailed or housed, a short span across a wide drawer that still splits because the board is wide the wrong way. Late 18th century: groove the sides, turn the grain side to side, leave the floor free at the back so the board can move. I will not give you a first August. [VERIFY] any year someone wants as a birthday. I will stand on Hayward’s naming and on the boxes I have taken apart.
 
@@ -45,7 +60,11 @@ A board running back to front spans the shorter distance on a typical drawer. Th
 
 The split still comes. The short plank is often *wide*. Width is the moving dimension. The board tries to get wider, left to right, and the sides or the nails refuse. A crack opens down the middle, or a nail tears, or the runner gets scored by a proud head. I have picked those heads out of oak rails with a knife. The floor was doing what a floor does when you fasten both banks of a river.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — split bottom, old grain running front to back, nails or a trapped edge (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A short span still splits when the board is asked to grow and the nails refuse." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A short span still splits when the board is asked to grow and the nails refuse. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — split bottom, old grain running front to back, nails or a trapped edge (filename pending shop pull)</figcaption>
+</figure>
+
 
 I have built the old way on purpose for a demonstration box. Rebate, nails, grain front to back. It slides. It also teaches. The first dry season wrote a hairline I did not have to fake. I keep that box. I do not sell it as an antique. I sell the lesson: short span is not the same as small movement.
 

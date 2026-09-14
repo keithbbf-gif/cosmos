@@ -7,6 +7,12 @@ word_count: 1616
 dek: "A drawer side’s height is the cross-grain. Quartersawn oak or walnut moves less in that width. It is not magic. It costs more, and the ray fleck is a show when the drawer is open."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/quartersawn-sides-stay-calmer/joinery-diagram.svg
+    alt: "Ray fleck on a side chosen to move less across humidity"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — quartersawn oak drawer side, ray fleck, drawer open on the bench (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The oak side showed ray fleck the length of a hand, hard and glassy under the thumb. I had the drawer open on the bench, sunlight from the long wall, and the height of that side was the only dimension I was actually worried about. The rays are where the tree stored a year and then another year. The grain ran front to back, as it must. The height was the width of the board. That width is the movement. Quartersawn keeps that width calmer. It does not abolish July.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — quartersawn oak drawer side, ray fleck, drawer open on the bench (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/quartersawn-sides-stay-calmer/joinery-diagram.svg" alt="Ray fleck on a side chosen to move less across humidity" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Quartersawn drawer side. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The fleck is the growth ring standing up. The height of this board is the dimension that will try to change." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The fleck is the growth ring standing up. The height of this board is the dimension that will try to change. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — quartersawn oak drawer side, ray fleck, drawer open on the bench (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hoadley is the published witness I will stand on: a drawer side’s *height* is the cross-grain. Bottoms that run side-to-side expand the other way, front to back. Shops mash those two sentences. I did, early. I quartersawed a bottom and left the sides flatsawn and then wondered why the reveal at the top of the drawer changed with the weather. The reveal is the side’s height. The side is the patient.
 
@@ -60,7 +75,11 @@ Pecan in this geography is a show wood I like on a front. As a side, pecan flats
 
 ## Not magic
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — flatsawn side beside a quartersawn side, same species, end grain readable (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Rings on the end tell the story. One board will move more in height. Neither is a charm." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Rings on the end tell the story. One board will move more in height. Neither is a charm. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — flatsawn side beside a quartersawn side, same species, end grain readable (filename pending shop pull)</figcaption>
+</figure>
+
 
 A quartersawn side will still cup if you finish one face and starve the other. It will still split if you pin the height with a glued-in bottom that runs the wrong way, or with a runner screwed through the side as if the side were plywood. It will still bind if you shot it to a piston in January. QS is a smaller motion, not an exemption from physics.
 

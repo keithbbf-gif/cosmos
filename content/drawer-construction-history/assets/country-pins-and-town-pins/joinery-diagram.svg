@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Fine and coarse half-blind pins</title>
+  <desc id="desc">Pin spacing and meat on a thin show front versus a country pine box</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Fine and coarse half-blind pins</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="240" y="220" width="50" height="80" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <rect x="320" y="230" width="40" height="25" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <rect x="380" y="240" width="40" height="35" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <text x="300" y="210" fill="#4A4A4A" font-family="sans-serif" font-size="11">town vs country pins</text>
+</svg>

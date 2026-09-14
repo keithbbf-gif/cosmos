@@ -7,6 +7,12 @@ word_count: 1642
 dek: "A drawer front meets the rail three ways: flush in the hole, a rabbeted lip that covers the gap, or a front that sits on the frame. Period work, American country, and the 20th-century kitchen each picked a meeting. Dating follows the meeting. So does the shop."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/lipped-overlay-inset/joinery-diagram.svg
+    alt: "Front lip overlapping the case face versus flush inset opening"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — lipped drawer front, rabbet on ends and top, thumbnail or quarter-round, meeting a rail (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The lip was a quarter-inch of cherry standing proud of the rail, thumbnail-round, and the drawer stopped on wood I could feel with a fingernail. Not flush. Not a kitchen lid sitting on the frame. A rabbet on the ends and the top, the middle of the front still living in the opening like a flush drawer, the edges wearing a little roof over the gap. I ran the nail along that roof. Someone had chosen a meeting. The meeting is how I start dating the box, and how I decide what to cut next time.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — lipped drawer front, rabbet on ends and top, thumbnail or quarter-round, meeting a rail (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/lipped-overlay-inset/joinery-diagram.svg" alt="Front lip overlapping the case face versus flush inset opening" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Lipped overlay and inset. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The lip is a little roof over the gap. The rabbet is the part that still lives in the hole." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The lip is a little roof over the gap. The rabbet is the part that still lives in the hole. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — lipped drawer front, rabbet on ends and top, thumbnail or quarter-round, meeting a rail (filename pending shop pull)</figcaption>
+</figure>
+
 
 Three meetings. Inset — flush — the front in the hole, the face of the front even with the face of the rail, a shadow line that is only the clearance you left. Lipped — a rabbeted overlay, the front bigger than the hole by the width of the lip, the lip covering the seasonal crack and the sloppy opening. Overlay — the 20th-century kitchen habit, a false front or a thick front that lives entirely on the frame and never enters the hole. They are not styles. They are geometries. A Chippendale chest can be inset. A pine blanket chest from this county can be lipped. A 1970s oak kitchen can be overlay and proud of it. Do not preach. Measure the meeting.
 
@@ -55,7 +70,11 @@ The rabbeted part of a lipped front still has to fit the hole, the way a flush f
 
 Do not confuse a lip with a kitchen overlay. A lipped front is still a box front. The sides join it. The lip is the same board, rabbeted. A kitchen overlay is often a second board — a false front — screwed to a box that never entered the face frame. Different meat. Different dating. A lipped antique that has been given a later false front is a mash you can feel with a screwdriver.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — inset flush drawer beside a kitchen overlay false front on the same bench (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Flush is a fit. Overlay is a lid. Do not date one with the other’s clock." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Flush is a fit. Overlay is a lid. Do not date one with the other’s clock. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — inset flush drawer beside a kitchen overlay false front on the same bench (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Overlay is a lid
 

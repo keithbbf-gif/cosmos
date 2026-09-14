@@ -7,6 +7,12 @@ word_count: 1584
 dek: "A concealed slide puts the steel under the box so the customer sees wood. The box still owes squareness, a spec thickness, and locking devices. Soft-close is a damper. What the runner hides is itself. What it reveals is a crooked case."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/undermount-hides-the-runner/joinery-diagram.svg
+    alt: "Runner hidden under the box with a clip rail on the case"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer inverted, undermount rails, locking devices at the front underside (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 I turned the drawer over on the bench and the hardware was all on the underside — two steel rails, a pair of locking clips at the front, hooks at the back, and a damper that clicked when I pushed the carriage home with a thumb. The sides were maple, clean, no screw line, no roller. From the room this box would look like a wooden drawer. From the bench it was a wooden drawer wearing a chassis. I have learned to like that honesty more than the sales word *invisible*. The runner is not invisible. It is underneath. Those are different sentences.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer inverted, undermount rails, locking devices at the front underside (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/undermount-hides-the-runner/joinery-diagram.svg" alt="Runner hidden under the box with a clip rail on the case" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Undermount slide geometry. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The hardware lives on the belly. The side stays a side. The customer is not invited here." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The hardware lives on the belly. The side stays a side. The customer is not invited here. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer inverted, undermount rails, locking devices at the front underside (filename pending shop pull)</figcaption>
+</figure>
+
 
 A side-mount slide is a confession on the lining. You see zinc or black or white every time the drawer comes out. An undermount is a decision to sell the lining. The customer paid for wood. The plant paid for a rail that would get out of the photograph. I build both. I do not tell the customer they have no hardware. I tell them the hardware is on the belly, and that the belly still has a job.
 
@@ -53,7 +68,11 @@ BLUMOTION and its cousins are dampers. They take the last inch of travel and spe
 
 A damper can hide a slam. It cannot hide a gap. The gap is the case talking. Inset work is the loudest talker. Overlay fronts forgive a little because the front is a lid on the hole. Inset fronts sit in the hole. An undermount under an inset front is a tight religion: runner setback, depth-adjustable clips, a case that was square when the clips were bored. I have chased an inset reveal with the little screws on a locking device until I admitted the cabinet was in wind. The screws have a small life. The case has the rest of it.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — open kitchen drawer, wood side visible, reveal at the case, no slide in the sightline (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The room sees lining and a front. The gaps tell on the cabinet the slide cannot correct." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The room sees lining and a front. The gaps tell on the cabinet the slide cannot correct. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — open kitchen drawer, wood side visible, reveal at the case, no slide in the sightline (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## What they hide, what they reveal
 

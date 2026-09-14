@@ -7,6 +7,12 @@ word_count: 1448
 dek: "Aromatic red cedar smells like a moth story. It is still a board. Glue it all around and it splits. The smell fades. A lining is not a spell."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/cedar-in-the-bottom/joinery-diagram.svg
+    alt: "Aromatic red cedar bottom or lining in a clothes drawer"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — aromatic red cedar drawer bottom or lining, knots and red heart showing (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The smell arrived before the drawer cleared the rails. Pencil shavings and a closed closet. Aromatic red cedar — *Juniperus virginiana*, a juniper that learned to sell itself as cedar — in a bottom someone had trusted to keep moths honest. I pulled the box the rest of the way and the smell filled the aisle between the benches. The floor was a red-and-cream board, knots like eyes, a faint cup. I turned it over. The cup had already started a split at the back where someone had glued the ticket all around. The moth story was intact. The board was not.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — aromatic red cedar drawer bottom or lining, knots and red heart showing (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/cedar-in-the-bottom/joinery-diagram.svg" alt="Aromatic red cedar bottom or lining in a clothes drawer" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Cedar drawer lining. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The color is the advertisement. The board is still weather." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The color is the advertisement. The board is still weather. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — aromatic red cedar drawer bottom or lining, knots and red heart showing (filename pending shop pull)</figcaption>
+</figure>
+
 
 Eastern red cedar grows in this part of the South without anyone importing a romance. Fence posts, closet lining, a chest an aunt kept wool in. Bradley County knows the tree as a volunteer in old fields. I will not turn that into a brand story. I will say I have ripped the boards in Wilmar and they still smell when the saw hits heartwood. The smell is the product. The product is not a spell.
 
@@ -48,7 +63,11 @@ Clothes moths eat wool that is dirty. They like sweat and food spots. A cedar dr
 
 Cedar moves. The heartwood is pretty and the grain is often knotty and the board will cup if you finish one face and starve the other. Tangential movement on a juniper is not a parlor trick. I will not invent a percent. Hoadley’s kind of table is where those numbers live; [VERIFY] before anyone prints a house shrinkage. What I will say from the bench: a wide cedar floor glued on four edges splits like pine glued on four edges, and sometimes faster, because the board was never as calm as the smell suggested.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — split cedar floor still smelling, or faded lining beside a fresh offcut (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The crack does not wait for the scent to die. The scent dies anyway." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The crack does not wait for the scent to die. The scent dies anyway. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — split cedar floor still smelling, or faded lining beside a fresh offcut (filename pending shop pull)</figcaption>
+</figure>
+
 
 The bevel-and-groove religion still applies. Grain side to side. Ticket in a skinny groove. Back free. Do not glue the field to the sides as if the moth story had cancelled weather. I have watched a customer smell a split and decide the wood was “too dry,” as if a humidifier would close a glued-in rib. The rib was a locked panel. The smell had nothing to say.
 

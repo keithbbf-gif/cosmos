@@ -6,7 +6,7 @@
 
 Folder: `content/drawer-construction-history/`. This pack sits **beside** `content/furniture-craft-blog/` and `content/furniture-advanced-joinery/`. Do not retell `the-drawer-that-does-not-bind` or `a-drawer-that-bows`. Soft brand home is the same: a 65×15 shop in rural South Arkansas — Warren, Wilmar, Bradley County — usable later by Bradley Brand Furniture / Saline River Workshop. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 
-Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each draft, `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md` → `D:\BBF`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`.
+Read `STYLE_GUIDE.md` before editing. **Photos (staged):** `figures` in each draft, `PHOTO_CAPTIONS.md`, `PHOTO_MANIFEST.md` → `D:\BBF`. **Schematics (IMAGE + SEO):** `GRAPHICS_INDEX.md`, `SEO_MAP.md`, `RIGHTS.md`. WordPress: `WP_IMPORT.md` (draft-only). Slug list + counts: `MANIFEST.md`.
 
 ## Dating and trade
 

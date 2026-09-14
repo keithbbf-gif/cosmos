@@ -7,6 +7,12 @@ word_count: 1547
 dek: "John and Thomas Seymour’s Boston drawers, in Mussey’s account, put bottoms in grooves and then added kerfed glue blocks underneath, planed flush as wear pads. The block is a slip’s cousin. It can also lock the floor and split it."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/glue-blocks-under-boston/joinery-diagram.svg
+    alt: "Kerfed blocks planed flush as wear pads under a solid floor"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — kerfed glue blocks under a drawer bottom, planed flush as wear pads (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 Four little pads came off the bench with the drawer. Not slips. Not runners. Glue blocks — short, kerfed, still wearing a shine on the face that had kissed the case rail. They had been planed flush with the underside of a pine bottom after the glue had set, so the drawer ran on wood that was extra, not on the floor itself. I rolled one in my fingers. The kerfs were saw cuts that stopped before they became two blocks. The hide glue had stained the end grain brown.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — kerfed glue blocks under a drawer bottom, planed flush as wear pads (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/glue-blocks-under-boston/joinery-diagram.svg" alt="Kerfed blocks planed flush as wear pads under a solid floor" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Glue blocks under a drawer bottom. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The blocks are pads, not slips. They live under the floor and take the shine of the rail." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The blocks are pads, not slips. They live under the floor and take the shine of the rail. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kerfed glue blocks under a drawer bottom, planed flush as wear pads (filename pending shop pull)</figcaption>
+</figure>
+
 
 Robert D. Mussey, Jr., writing the Seymour furniture of Boston, puts this habit in the years the shop is famous for — roughly 1785 to 1815. John and Thomas Seymour. Bottoms in grooves, which is the American language. Then kerfed glue blocks under those bottoms, planed flush, doing the job of a wear pad. I am not going to invent a commission or a street. I am going to stand on the published description and on what a block does when you can still hold it.
 
@@ -52,7 +67,11 @@ The danger is the same sentence that makes the pad useful. If you glue the block
 
 Mussey’s account is why I care about the pad: the block is a slip’s cousin, and a movement risk if the bottom is locked. I will not embroider a quotation. The split I have seen is not a Boston museum object. It is a pine floor in a later chest, blocks under both sides, PVA from a repair, a crack that started over the front block and ran back like a road. The blocks were still perfect. The floor had done the moving alone.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — split drawer bottom above glue blocks, or a block still stuck after the floor failed (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If the block glues the bottom to the side and does not let go, the floor has nowhere to move." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> If the block glues the bottom to the side and does not let go, the floor has nowhere to move. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — split drawer bottom above glue blocks, or a block still stuck after the floor failed (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hide glue is more forgiving here than a yellow bottle. You can steam a hide-glued pad and decide again. PVA under a loaded bottom is a different essay, and I will not steal it. What belongs here: if you copy a Seymour pad, copy the *release*. Glue the block to the side if you want a shoe that stays with the box. Let the bottom rest on it, or glue a short spot, or use a hide that will let go before the pine rips. Do not run a modern glue the full length of both faces and call it Boston.
 

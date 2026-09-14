@@ -7,6 +7,12 @@ word_count: 1652
 dek: "Hand work usually cuts tails first and transfers. Some traditions and most jigs cut pins first. A jig is a church. Sequence is not a moral score."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/pins-first-is-a-religion/joinery-diagram.svg
+    alt: "Tail board against a pin board with layout on end grain"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — tail board against a pin board, pencil transfer on end grain (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The pencil whispered on the end grain of the cherry front — four tails already sawn, already pared, already the only truth those pins were going to get. I held the side like a stamp. The front stood in the vise, inside face out, and the graphite made a little weather map of each tail. That is tails-first. It is how I was taught, how I still teach when a person is holding a saw and not a comb, and it is not a commandment I am prepared to die for.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — tail board against a pin board, pencil transfer on end grain (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/pins-first-is-a-religion/joinery-diagram.svg" alt="Tail board against a pin board with layout on end grain" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Pins marked before tails. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The tails already exist. The pins are a copy. That is one church. It is not the only one." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The tails already exist. The pins are a copy. That is one church. It is not the only one. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tail board against a pin board, pencil transfer on end grain (filename pending shop pull)</figcaption>
+</figure>
+
 
 A visitor once watched the transfer and asked why I did not cut the pins first, the way his people did it in a shop that was not this shop. I did not ask for a country. I did not write his uncle into a caption. I told him the honest thing: sequence is a church. You belong to the one that taught you to see. The joint does not care which door you used if the walls meet.
 
@@ -58,7 +73,11 @@ I have cut pins-first on a through-tail sample because I wanted to feel the othe
 
 ## A jig is a church
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — router jig or comb on a drawer side, pins and tails in the same setup (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A jig does not argue. It assigns a sequence and calls the assignment accuracy." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A jig does not argue. It assigns a sequence and calls the assignment accuracy. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — router jig or comb on a drawer side, pins and tails in the same setup (filename pending shop pull)</figcaption>
+</figure>
+
 
 A router jig does not care about your feelings. It has a comb, a stop, a left and a right, a sequence printed on a card that will outlive the student who ignores it. Some jigs cut both sides of the joint in one family of setups. Some want the pins on the first pass and the tails on the second. Some want half-blinds on a separate tower. I have a Leigh in the shop that I use when a kitchen wants twenty identical boxes and the customer is paying for identical, not for my handwriting. The jig assigns the order. I follow the assignment. That is not a conversion. That is a tool.
 

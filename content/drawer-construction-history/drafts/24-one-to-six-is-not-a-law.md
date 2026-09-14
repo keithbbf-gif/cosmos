@@ -7,6 +7,12 @@ word_count: 1639
 dek: "1:6 in softwood and 1:8 in hardwood is 20th-century shop-class. Eighteenth-century slopes vary, often steeper, often just visual. The angle is a choice with a failure mode."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/one-to-six-is-not-a-law/joinery-diagram.svg
+    alt: "Shallow and steep tail angles on the same baseline"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — sliding bevel locked on a tail, or a shop-class 1:6 mark on a beam (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The sliding bevel sat at a number I had not set. Someone before me had locked it at 1:6 and written SOFTWOOD on the beam in pencil that had gone grey. I picked it up to mark a set of poplar tails and felt the little click of received wisdom — the kind of click that gets a student through a test and a drawer through a century of magazine reprints. I laid it down. I marked the tails by eye, the way the old fronts I keep on the wall were marked, and the bevel went back to the rack with its religion intact.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — sliding bevel locked on a tail, or a shop-class 1:6 mark on a beam (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/one-to-six-is-not-a-law/joinery-diagram.svg" alt="Shallow and steep tail angles on the same baseline" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tail slope not fixed at 1:6. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A bevel can hold a ratio. A drawer from 1780 did not have to." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> A bevel can hold a ratio. A drawer from 1780 did not have to. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — sliding bevel locked on a tail, or a shop-class 1:6 mark on a beam (filename pending shop pull)</figcaption>
+</figure>
+
 
 One-in-six for softwood. One-in-eight for hardwood. You can hear the shop-class cadence from here. Rise over run. Softwood needs more slope because it is weaker; hardwood can stand a shallower pin. It is neat. It fits a chalkboard. It is also a 20th-century convenience, or at least that is how it reads when you stop using it as a law and start using it as a rumor. [VERIFY] the first American manual that prints the pair as a rule before anyone hangs the rule on a named teacher.
 
@@ -56,7 +71,11 @@ American 18th-century work, in the Greene and Kugelman neighborhoods of the shel
 
 ## How I mark now
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — shallow tails beside steep tails on sample sides, same baseline (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Too shallow and you have a box joint with extra sawing. Too steep and the pin is a wedge that wants to walk." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Too shallow and you have a box joint with extra sawing. Too steep and the pin is a wedge that wants to walk. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — shallow tails beside steep tails on sample sides, same baseline (filename pending shop pull)</figcaption>
+</figure>
+
 
 On a drawer that will be seen when it opens — oak linings, a walnut front, a customer who likes the joint — I mark the baseline, I divide the width by eye, and I tip the pencil until the tail looks like a tail and not like a finger. I do not set the bevel unless I am matching an existing piece or cutting a run of kitchen boxes that have to look like they came from one jig. Matching is a ratio job. Inventing is a seeing job.
 

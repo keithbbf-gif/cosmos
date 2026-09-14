@@ -7,6 +7,12 @@ word_count: 1647
 dek: "Pin size is time and money. Fine London pins and chunky country pins are two payrolls, not two virtues. Spacing is shop practice, not a moral."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/country-pins-and-town-pins/joinery-diagram.svg
+    alt: "Pin spacing and meat on a thin show front versus a country pine box"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — fine half-blind pins on a thin mahogany front beside chunky pine pins (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 I held two drawer sides in one hand and the pins were not the same language. One row was a set of pale slivers, half-blinds in a mahogany front, the kind of pins you count rather than see. The other was three fat triangles in pine, proud, friendly, a country corner that had been cut with a saw that did not mind being a saw. Same shop light. Same joint name. Two different bills.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — fine half-blind pins on a thin mahogany front beside chunky pine pins (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/country-pins-and-town-pins/joinery-diagram.svg" alt="Pin spacing and meat on a thin show front versus a country pine box" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Fine and coarse half-blind pins. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The same joint, two clocks. One row cost an afternoon. The other cost an hour." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The same joint, two clocks. One row cost an afternoon. The other cost an hour. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — fine half-blind pins on a thin mahogany front beside chunky pine pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 Pin size is time. Time is money. I will not invent a 1788 journeyman’s rate or a Wilmar hourly to prove it. The geometry is enough. A skinny pin is more sawing, more chopping, more fitting, more chances to blow a corner. A fat pin is fewer operations and a joint that still locks. London piecework could afford the skinny row when the case was sold as town furniture. A country shop with a pine blanket chest to finish before weather changed could not. Neither shop was making a virtue. Both were making a drawer.
 
@@ -58,7 +73,11 @@ Bradley County work I see — not as a corporate succession story, just as furni
 
 ## Spacing as shop practice
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — drawer side, half-pins at the ends, spacing marked in pencil (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Half-pins at the ends keep the corner from being a tail that wants to break out." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Half-pins at the ends keep the corner from being a tail that wants to break out. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer side, half-pins at the ends, spacing marked in pencil (filename pending shop pull)</figcaption>
+</figure>
+
 
 I mark half-pins first. The ends of the board want a pin, not a tail hanging on the corner grain. A tail at the very end is a short-grain accident waiting for a clamp. Half-pins do not have to be twins, but they have to be there. That is practice, not morality.
 

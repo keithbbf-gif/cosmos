@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Campaign drawer corner</title>
+  <desc id="desc">Brass cap and knockdown corner on a traveling chest</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Campaign drawer corner</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="260" y="200" width="120" height="120" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <path d="M 260 200 L 320 160 L 380 200" fill="none" stroke="#C9A227" stroke-width="4"/>
+  <path d="M 260 320 L 320 360 L 380 320" fill="none" stroke="#C9A227" stroke-width="4"/>
+</svg>

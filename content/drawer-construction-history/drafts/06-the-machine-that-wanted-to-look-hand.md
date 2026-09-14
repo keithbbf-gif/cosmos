@@ -7,6 +7,12 @@ word_count: 1636
 dek: "Machine-cut dovetails around 1895 and after are a dating clock because they are even. Symmetry is a year-class, not a virtue. A hand tail can still be cut on a Tuesday."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/the-machine-that-wanted-to-look-hand/joinery-diagram.svg
+    alt: "Even pins and tails without hand overcuts"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — machine dovetail drawer corner, even pins and tails, no overcuts (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The pins made a sound like a comb when I ran a fingernail across them. Even, bright, the same pitch all the way down the corner. No overcut clicking in a different key. No fat pin next to a skinny one. I had the drawer on its back under the long glass wall, late oak, a factory smell still in the secondary pine, and the joint was a dovetail that had never met a marking gauge a man walked around. It wanted to look hand. It had looked hand long enough to fool a porch sale. It did not fool a fingernail.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — machine dovetail drawer corner, even pins and tails, no overcuts (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-machine-that-wanted-to-look-hand/joinery-diagram.svg" alt="Even pins and tails without hand overcuts" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Machine-cut dovetail row. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The row is a ruler. Pins and tails of a size, no chisel scar past the baseline." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The row is a ruler. Pins and tails of a size, no chisel scar past the baseline. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — machine dovetail drawer corner, even pins and tails, no overcuts (filename pending shop pull)</figcaption>
+</figure>
+
 
 Popular Woodworking’s dating essay treats machine-cut dovetails as a terminus post quem around 1895. [VERIFY] that fence against the piece you are holding before you print it as law. The Knapp scallop is the louder factory clock; this one is quieter because it borrowed the old shape. Once a line could cut pins and tails that sat in a row like type, the catalog could say *dovetailed* and mean it. The customer saw a tail. The shop saw a fixture.
 
@@ -64,7 +79,11 @@ I cut both. I cut half-blinds by hand when the front is show wood and the job is
 
 What I will not do is sand a machine row until it looks “softer,” or add fake overcuts with a chisel to age a factory drawer. That is the same class of lie as filling a Knapp cove. The next person deserves the clock.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — hand-cut half-blind beside a machine row, overcuts and irregular pins (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Hand work wanders. That wander is not a century. It is a saw in a person’s hand." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Hand work wanders. That wander is not a century. It is a saw in a person’s hand. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — hand-cut half-blind beside a machine row, overcuts and irregular pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 There is a cousin problem in this shop: the dovetail jig. A jig row can be as even as 1900. It can also leave a rounded socket floor or a bit of tear-out that a 19th-century line did not leave. I do not treat a jig drawer I made last winter as a dating example. I treat it as a warning. If you use evenness as a clock, you have to know what year the evenness came from. 1895 is one machine. A plastic template is another.
 

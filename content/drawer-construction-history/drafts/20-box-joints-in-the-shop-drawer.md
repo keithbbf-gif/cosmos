@@ -7,6 +7,12 @@ word_count: 1505
 dek: "Finger joints show up on shop drawers, tool chests, some campaign cousins, and the machine era that could cut them even. They are strong and they are visible. They are not period parlor jewelry, and they should not be asked to impersonate an 18th-century half-blind."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/box-joints-in-the-shop-drawer/joinery-diagram.svg
+    alt: "Finger joints flashing at a tool-chest corner"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — box-jointed shop or tool-chest drawer, fingers flashing at the corner (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The fingers were even as a comb. I pulled a shop drawer of bits and the ends flashed maple and walnut in a rhythm no 18th-century parlor ever paid for — rectangle, rectangle, rectangle, glue in every cheek, a corner that looked like a machine had been honest. I ran a thumbnail over a proud finger someone had forgotten to plane. It caught. The drawer had never stuck. The drawer had never been furniture. It had been a box for tools, which is a higher calling in this building and a lower one in a dining room.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — box-jointed shop or tool-chest drawer, fingers flashing at the corner (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/box-joints-in-the-shop-drawer/joinery-diagram.svg" alt="Finger joints flashing at a tool-chest corner" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Box-jointed shop drawer. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The fingers are a comb. The glue surface is the strength. The corner does not pretend to be a pin." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The fingers are a comb. The glue surface is the strength. The corner does not pretend to be a pin. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — box-jointed shop or tool-chest drawer, fingers flashing at the corner (filename pending shop pull)</figcaption>
+</figure>
+
 
 A box joint is a finger joint. Interlocking rectangular pins, no slope, no half-blind hide, a lot of long-grain glue surface if you cut it so the cheeks kiss. It is strong in the way a lot of glue is strong. It is visible in the way a comb is visible. You can cut it by hand with a saw and a chisel. You can cut it on a table saw with a jig. You can cut it on a machine that exists because factories wanted drawers faster than a man with a dovetail saw. I will not invent the first year of that machine. [VERIFY] any patent before it becomes a clock. The evenness is the clock I will stand on: a parlor in 1780 did not owe you that comb.
 
@@ -44,7 +59,11 @@ Some campaign furniture wears a related honesty — travel chests, military cous
 
 The machine era loved the joint because a machine loves a rectangle. Once you can index a row of fingers, you can make a kitchen’s worth of drawers with a sameness that reads as quality to a person who has never held a half-blind pin. Sameness is a dating tell and a shop convenience. I use it for shop interiors. I do not use it under a Federal cockbead unless I am making a joke I will have to explain.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — machine-even fingers on a shop drawer, or a campaign-style box with a visible finger corner (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Even as a ruler is a machine clock. Hand-cut fingers wander. Parlor work hid a different joint." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Even as a ruler is a machine clock. Hand-cut fingers wander. Parlor work hid a different joint. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — machine-even fingers on a shop drawer, or a campaign-style box with a visible finger corner (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Strong is not jewelry
 

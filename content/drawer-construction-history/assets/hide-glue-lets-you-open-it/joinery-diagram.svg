@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Hide glue on a serviceable joint</title>
+  <desc id="desc">Brown glue film on a joint meant to steam apart</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Hide glue on a serviceable joint</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="260" y="240" width="40" height="70" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <rect x="300" y="250" width="40" height="60" fill="none" stroke="#6B4423" stroke-width="2"/>
+  <line x1="300" y1="250" x2="300" y2="310" stroke="#5C4033" stroke-width="4"/>
+  <text x="350" y="270" fill="#4A4A4A" font-family="sans-serif" font-size="11">hide glue line</text>
+</svg>

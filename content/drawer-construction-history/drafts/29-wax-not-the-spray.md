@@ -7,6 +7,12 @@ word_count: 1525
 dek: "Paraffin, beeswax, a candle heel — those are the old lubricants. Silicone spray gums. Some oils oxidize into a future bind. Graphite has a place and it is dirty. This is the lubricant essay, not the clearance essay."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/wax-not-the-spray/joinery-diagram.svg
+    alt: "Paraffin or beeswax on a runner — not spray film on the sides"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — heel of paraffin or beeswax on an oak runner, drawer inverted (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The paraffin smelled like a pantry. I was rubbing a heel of it on an oak runner that had gone dry and noisy, and the drawer stopped complaining before I finished the second side. No drip. No shine you would call wet. Just a dull feed in the grain, the kind of polish a stair tread gets where a hand always lands. I put the heel back in the tin. The tin lives in the bench, not in the finishing room. It is a tool.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — heel of paraffin or beeswax on an oak runner, drawer inverted (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/wax-not-the-spray/joinery-diagram.svg" alt="Paraffin or beeswax on a runner — not spray film on the sides" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Wax on an oak runner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The runner should look fed, not wet. A dry polish is the goal." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The runner should look fed, not wet. A dry polish is the goal. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — heel of paraffin or beeswax on an oak runner, drawer inverted (filename pending shop pull)</figcaption>
+</figure>
+
 
 This is the lubricant Saturday. It is not the clearance Saturday. I will not tell you how to draw a June gap or how to sneak a stick through a bind. A drawer that is too fat will not be saved by wax. Wax will make a correct fit kind. Spray, and certain oils, will make a correct fit into a future problem that looks like weather.
 
@@ -52,7 +67,11 @@ Graphite — the locksmith’s powder, the pencil rubbed to a stain — has a pl
 
 ## The spray that gums
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — gummy runner or a spray can beside a sticky side, as a warning (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Spray leaves a film that collects grit. Grit is a grinding compound you paid for." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Spray leaves a film that collects grit. Grit is a grinding compound you paid for. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — gummy runner or a spray can beside a sticky side, as a warning (filename pending shop pull)</figcaption>
+</figure>
+
 
 Silicone spray is a house call I can often diagnose from the driveway. The drawer runs like glass the afternoon it is sprayed. A year later it runs like tape. Dust sticks to silicone as if it were paid to. The film is hard to wash. It is hard to finish over if you ever need to refinish a front that got overspray. I have had a stain crawl on a rail that someone oiled with a can while the drawer was out. I will not invent a journal article. I will say the rail is still a little blotchy and I know which Saturday did it.
 

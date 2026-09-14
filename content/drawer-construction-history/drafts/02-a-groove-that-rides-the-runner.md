@@ -7,6 +7,12 @@ word_count: 1353
 dek: "Early drawers often hung from their sides. A groove in the side boarded a runner fixed to the carcase. It looks backwards until you open a 17th-century case and feel the hang."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/a-groove-that-rides-the-runner/joinery-diagram.svg
+    alt: "Long groove ploughed in a drawer side riding a fixed runner on the case"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer side with a long groove, matching runner on a case side (filename pending shop pull)"
@@ -31,7 +37,16 @@ verify:
 
 The drawer did not sit on anything. It hung. I had the case on its back in the shop — a dark oak thing someone had called Jacobean because the carving was busy — and the drawers came out with a groove in each side, long as the side, packed with a century of wax and grit. The runners were still on the case: two hardwood strips, nailed and maybe once glued, polished on the top edge where the groove had ridden. I ran a thumb along that edge. It was a rail. The drawer was a car.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer side with a long groove, matching runner on a case side (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-groove-that-rides-the-runner/joinery-diagram.svg" alt="Long groove ploughed in a drawer side riding a fixed runner on the case" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Side-hung groove on a runner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The groove is the wheel. The runner is the rail. The bottom is not asked to be a shoe." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The groove is the wheel. The runner is the rail. The bottom is not asked to be a shoe. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer side with a long groove, matching runner on a case side (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hayward, in the *Woodworker* years Lost Art Press later gathered, draws this as the ordinary mid-17th-century hang. He admits it looks like more bother than putting a runner *between* drawers. He is right. It also weakens the side — a groove is a missing strip of meat in a board that already has nails or a coarse tail at the front. They used thicker sides then. They had to.
 
@@ -49,7 +64,11 @@ Side-hung drawers in later country work — a pine blanket chest, a shop cabinet
 
 A groove collects dirt. Dirt is a grinding compound. The runner, if it is oak or maple and the side is pine, will win. The pine groove goes oval. The drawer develops slop in the hang — up and down, then rack. A side-hung drawer that racks is a miserable thing. There is no bottom edge to slap back onto a pair of runners. The whole box is a trolley with loose wheels.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — worn groove, crescent in the side, runner polished (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Wear collects in the groove. When the hang loosens, the drawer racks before it binds." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Wear collects in the groove. When the hang loosens, the drawer racks before it binds. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — worn groove, crescent in the side, runner polished (filename pending shop pull)</figcaption>
+</figure>
+
 
 Repair is honest. You can glue a slip into the worn groove and re-plough. You can replace the runner with a slightly fatter strip. You can do both and still have a drawer that looks like itself. What you cannot do is pour epoxy into a groove and call it a restoration. Epoxy in a hang is a bearing you cannot plane.
 

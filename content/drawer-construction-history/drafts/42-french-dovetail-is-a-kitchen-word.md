@@ -7,6 +7,12 @@ word_count: 1523
 dek: "In the American kitchen trade, a French dovetail is a sliding dovetail: the side runs into a long socket in the front. It is a machine joint with a catalog name. It is not French cabinetmaking, and it is not a secret miter."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/french-dovetail-is-a-kitchen-word/joinery-diagram.svg
+    alt: "Sliding dovetail on the side meeting a rabbeted front — kitchen box habit"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer side sliding into a long dovetail socket in the front, machine-cut (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The side slid into the front with a sound like a sash in a dry window. One long tail on the end of a 1/2-inch maple side, one long socket ploughed up the inside of a 3/4 cherry face, a little paraffin on the bevel, and then the click when the tail bottomed. No pins. No half-blind sockets. The kitchen catalog on the bench already had a name for it. French dovetail. I had not been to France. The bit had been to a factory in North Carolina and a hundred other factories that needed a drawer front to grab a side in one pass.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer side sliding into a long dovetail socket in the front, machine-cut (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/french-dovetail-is-a-kitchen-word/joinery-diagram.svg" alt="Sliding dovetail on the side meeting a rabbeted front — kitchen box habit" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> French dovetail on a box side. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One tail. One groove. The side goes in from above or from the back like a sash." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> One tail. One groove. The side goes in from above or from the back like a sash. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer side sliding into a long dovetail socket in the front, machine-cut (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not going to pretend the sliding dovetail was invented by a kitchen wholesaler. Cabinetmakers have been sliding a flared tail into a flared groove for a long time — shelves into sides, partitions into a case, a breadboard that wants to move and still stay on the table. The *word*, in the American kitchen trade, is narrower. French dovetail means the drawer side runs into a dovetail-shaped groove in the drawer front. Machine. Often a stopped groove so the show face stays a skin. The back of the same box may be a dado, a staple, a rabbet, even a row of through tails if someone in the plant still had a Saturday. The name does not describe the whole box. It describes the front meeting.
 
@@ -54,7 +69,11 @@ It is not “the French way to hide a dovetail.” Half-blind is how a European 
 
 European production kitchens are another pile. Frameless boxes, 32-millimeter holes, metal sides, dowels, cams, a Blum or Hettich runner that never asked for a tail of any nation. A sliding dovetail on a wood kitchen box is a mid-grade wood answer, common in American plants and in some imported wood drawers. Do not flatten “European kitchen” into “French dovetail.” A METABOX does not have a French dovetail. It has a steel side and a catalog. Different Saturday.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — kitchen drawer box, sliding dovetail at the front, dado or staple at the back, plywood floor (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The catalog word lives on a production box. The joint is real. The nationality is a sales tag." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The catalog word lives on a production box. The joint is real. The nationality is a sales tag. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kitchen drawer box, sliding dovetail at the front, dado or staple at the back, plywood floor (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## What I write on the traveler
 

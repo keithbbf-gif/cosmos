@@ -7,6 +7,12 @@ word_count: 1551
 dek: "A drawer a little narrower at the back starts easier. The same taper can hide a twisted case. One of those is craft. The other is a lie the next shop will have to unwind."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/the-taper-is-a-crutch/joinery-diagram.svg
+    alt: "Sides narrower at the back to hide a twisted case"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer sides narrower at the back, light at the rear of the opening (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The drawer whispered in and then tightened — a handshake that becomes a hold. I ran a thumb down the side and felt the long shy wedge, narrower toward the back, daylight at the rear of the opening and none at the front. Someone had planed that courtesy who knew how to make a crooked room feel welcoming. The case was in winding. The runners were a propeller. The taper was a crutch that had learned to dance.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer sides narrower at the back, light at the rear of the opening (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-taper-is-a-crutch/joinery-diagram.svg" alt="Sides narrower at the back to hide a twisted case" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tapered drawer sides. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Daylight at the back is a taper you can see. The question is whether the case earned it." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> Daylight at the back is a taper you can see. The question is whether the case earned it. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer sides narrower at the back, light at the rear of the opening (filename pending shop pull)</figcaption>
+</figure>
+
 
 A slight taper is also craft. I use one. English benches have used one for a long time: the drawer a hair easier at the rear so the box will start, so a swollen front will not lock the whole travel, so the hand is not asked to thread a piston from the first inch. Hayward wants more clearance at the back than at the front if you are going to err. He will even taper a *guide* wider at the rear so the drawer does not pinch as it goes home. That is hospitality. Hospitality is not the same as hiding a twist.
 
@@ -54,7 +69,11 @@ South Arkansas will change the courtesy through the year. A taper that feels gen
 
 ## When the taper is a lie
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — winding sticks on runners, or a drawer that rocks in a twisted pair (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If the roads are a propeller, a tapered box is makeup. Makeup wears off." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> If the roads are a propeller, a tapered box is makeup. Makeup wears off. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — winding sticks on runners, or a drawer that rocks in a twisted pair (filename pending shop pull)</figcaption>
+</figure>
+
 
 A case in winding will take a rectangular drawer and make it a rocker. The honest fix is the runners and the webs. Sight them. Plane them. Slot-screw what must move. Do not plane a diagonal off the drawer sides until the box “works.” It will work the way a limp works. You can walk. You have not set the bone.
 

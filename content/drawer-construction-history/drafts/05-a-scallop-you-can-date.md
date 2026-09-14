@@ -7,6 +7,12 @@ word_count: 1699
 dek: "A Knapp pin-and-cove is a North American factory clock you can feel with a thumbnail. Presence is a terminus post quem in the early 1870s. Absence proves nothing."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/a-scallop-you-can-date/joinery-diagram.svg
+    alt: "Round pins in cove sockets — a factory joint you can feel with a thumbnail"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — Knapp pin-and-scallop drawer corner, cove sockets and round pins (filename pending shop pull)"
@@ -34,7 +40,16 @@ verify:
 
 The thumbnail found the scallop before the eye did. A little cove, round as a pea, cut into the end of a pine drawer side, and a matching pin standing in it like a dowel that had learned a trick. I was standing in the 65-foot shop with a late-century case on the bench — oak veneer, cheap locks, the kind of thing that comes through Warren from an aunt’s hallway — and the joint was not a dovetail. It was a machine’s idea of a joint. Once you have felt one, you stop calling every factory drawer a “box joint” and start calling it by a name.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — Knapp pin-and-scallop drawer corner, cove sockets and round pins (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-scallop-you-can-date/joinery-diagram.svg" alt="Round pins in cove sockets — a factory joint you can feel with a thumbnail" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Knapp pin-and-scallop joint. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The scallop is a machine’s signature. A thumbnail finds it before the catalog does." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The scallop is a machine’s signature. A thumbnail finds it before the catalog does. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — Knapp pin-and-scallop drawer corner, cove sockets and round pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 The names wander. Pin-and-scallop. Cove-and-pin. Knapp joint, after the man who patented the boring machine that made it ordinary. Later patents tried to improve the idea; I will not recite those numbers as if I had the certificates on the wall. The one that matters for a dating clock is Charles B. Knapp’s U.S. Patent 63,532, dated 2 April 1867. [VERIFY] the sheet before anyone stamps the number on a sales tag.
 
@@ -62,7 +77,11 @@ For a couple of decades the Knapp was a selling point. A machine joint meant the
 
 Once a customer could have a tail that looked handmade, the scallop started to look like what it was: a factory shortcut you could see from the hallway. Fashion is cruel to honest machines. By about 1900 the joint is commonly described as out of fashion. [VERIFY] any last-year claim. I have seen scallops on cheaper work that may run later; I have seen 1880s cases with later replacement drawers cut with a jig. Presence of a Knapp is a clock. A late scallop on a cheap box is a rumor until you have more than the joint.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — factory drawer side, Knapp joint beside a later machine dovetail (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Once a machine could cut a tail that looked handmade, the scallop started to look like a factory." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Once a machine could cut a tail that looked handmade, the scallop started to look like a factory. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — factory drawer side, Knapp joint beside a later machine dovetail (filename pending shop pull)</figcaption>
+</figure>
+
 
 The next essay is the machine that wanted to look hand. This one is the machine that did not bother. That is why it dates.
 

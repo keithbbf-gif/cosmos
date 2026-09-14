@@ -7,6 +7,12 @@ word_count: 1403
 dek: "A drawer starts as a till inside a chest. The lid stays on the language long after the case has filled with sliding boxes. Mid-17th-century English work is when the pretense finally drops."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/the-lid-that-would-not-leave/joinery-diagram.svg
+    alt: "Side-hung drawer at the base of a chest that still carries a lifting lid"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — mule chest or till inside a lidded case, drawer at the base (filename pending shop pull)"
@@ -31,7 +37,16 @@ verify:
 
 The first drawer I ever repaired that still thought it was a chest had a lid. Not a dust lid. A real hinged top, oak, with the ghost of a till on the right-hand end — a little box inside the box, the kind you keep a key in so you do not have to dump the blankets. Below that, two drawers that had been nailed together like packing crates and hung on runners so worn the sides had a crescent. The owner called it a chest of drawers. The object called it a chest that had grown a habit.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — mule chest or till inside a lidded case, drawer at the base (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-lid-that-would-not-leave/joinery-diagram.svg" alt="Side-hung drawer at the base of a chest that still carries a lifting lid" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Till inside a lidded chest. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The lid is still the door. The drawer is a convenience at the bottom, not yet the whole idea." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The lid is still the door. The drawer is a convenience at the bottom, not yet the whole idea. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — mule chest or till inside a lidded case, drawer at the base (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not going to give you a century as if I had a dendro lab in the back room. The published shop history is consistent enough to stand on: for a long time Europeans stored what mattered in a coffer. You lifted a lid. You piled. You creased. When people had few shirts, that was a system. When they had more shirts, the pile became a search.
 
@@ -63,7 +78,11 @@ South Arkansas humidity is not 17th-century London, but wood is wood. A nailed b
 
 English still says *chest of drawers*. The chest won the noun. The drawers won the job. French *commode* is a different cousin — a low case on legs, doors or drawers, an 18th-century Continental fashion that American auction catalogs still use when they want to sound expensive. Chippendale’s “commode tables” and Hepplewhite’s “commodes” are not mule chests. Do not mash the words because they all hold stockings.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — chest of drawers with no lid, bun or bracket foot, oak or walnut (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="When the top is a board you set a candlestick on, the chest has admitted it is a stack of drawers." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> When the top is a board you set a candlestick on, the chest has admitted it is a stack of drawers. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — chest of drawers with no lid, bun or bracket foot, oak or walnut (filename pending shop pull)</figcaption>
+</figure>
+
 
 In this shop I still build lidded chests. People want a blanket box that is also a seat. If they also want a drawer, I treat the drawer as a guest in a chest, not as a stack pretending to be a coffer. The runner gets a kicker. The bottom gets a groove or a slip, not a handful of nails asked to be a floor. The lid gets a till if they ask for one, and I tell them the till is the oldest idea in the piece.
 

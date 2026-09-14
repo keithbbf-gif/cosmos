@@ -7,6 +7,12 @@ word_count: 1515
 dek: "A bail, a drop, a wood knob, a cup, a flush campaign pull: each one is a handle bolted to a front that is already a pin wall. The front is an abutment. Screws have a length. Pulls fail as load paths, not as jewelry."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/pulls-are-load-paths/joinery-diagram.svg
+    alt: "Hardware load entering the drawer front away from weak grain"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — bail and rosettes on a drawer front, or the same front from inside showing screw tips in the pin wall (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The bail came off in my hand with both rosettes still on it, screws and all — the front had given up a little crater of cherry around each hole, bright wood in a dark face, as if the posts had been trees and someone had pulled them up. The drawer stayed in the case. The handle did not. I set the bail on the bench and looked at the holes. One of them had found the void of a half-blind socket. The screw had been biting air and a skin of pin. That is not jewelry failing. That is a load path that ended in a cavity.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — bail and rosettes on a drawer front, or the same front from inside showing screw tips in the pin wall (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/pulls-are-load-paths/joinery-diagram.svg" alt="Hardware load entering the drawer front away from weak grain" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Pull screws in the front. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two posts, a swinging bail, a front asked to be a beam. The screws stop in wood or they stop in a socket." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> Two posts, a swinging bail, a front asked to be a beam. The screws stop in wood or they stop in a socket. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — bail and rosettes on a drawer front, or the same front from inside showing screw tips in the pin wall (filename pending shop pull)</figcaption>
+</figure>
+
 
 A pull is how a person gets a box to leave a case. The force goes hand, pull, screws or tenon, front, joint, side, runner. If any of those sentences is weak, the weak one announces itself. I have seen beautiful brass on a front that was already a crack. I have seen a pine knob on a box that will outlive the house. The metal is not the grade. The path is the grade.
 
@@ -57,7 +72,11 @@ Cup. The Arts & Crafts bin pull, a trough you hook. The load is a lift as much a
 
 Flush, the campaign cousin. A pull in a recess so a traveling chest can be stacked without a bail catching the next case. I am not writing that traveling box here. I am writing the load. The recess thins the front. A deep dish in a 3/4 board is a 3/8 wall at the worst moment. I leave meat. I do not cut a campaign dish into a lipped front that has already given up a rabbet.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — wood knob, cup pull, and flush pull on the bench or on neighboring fronts (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Different hands, same job: get the box to leave the case without tearing the front off the sides." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Different hands, same job: get the box to leave the case without tearing the front off the sides. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — wood knob, cup pull, and flush pull on the bench or on neighboring fronts (filename pending shop pull)</figcaption>
+</figure>
+
 
 A pull fails when the path ends. Wood around a hole crushes. A socket is a void. A lock body is a void with iron in it. A plywood front delaminates in a circle. More often the brass is fine and the cherry is a crater. I have replaced more wood than metal. Oil in a screw hole and the screw never bites; I leave the hole dry now. South Arkansas hands are not gentle. I open a finished drawer with the heel of my hand the way a tired person does. If the front flexes, the pull is in the wrong place or the joint is shy. If the bail hits the rail on the way in, the meeting is wrong — overlay, lip, inset — and the pull was designed for a different hole.
 

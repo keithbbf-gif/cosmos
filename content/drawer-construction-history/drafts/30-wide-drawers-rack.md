@@ -7,6 +7,12 @@ word_count: 1569
 dek: "A wide box is a parallelogram waiting for a one-handed pull. People call the corner hit humidity. It is geometry. Center guides and center runners are the old answer. File drawers make the argument loud."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/wide-drawers-rack/joinery-diagram.svg
+    alt: "Center runner or guide keeping a wide box from racking"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — wide drawer pulled from one end, corner kissing a rail (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 I heard the corner hit the rail before I saw it — a wide file drawer taking the short way out of a square hole. The pull is a single cup in the middle of that front, and the hand that used it had not been in the middle. The box went diamond. Maple side kissed oak rail. A little white wound in the finish, the kind people point at and say the wood moved. The wood had moved about an eighth of a second. The rest was geometry.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — wide drawer pulled from one end, corner kissing a rail (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/wide-drawers-rack/joinery-diagram.svg" alt="Center runner or guide keeping a wide box from racking" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Wide drawer on multiple rails. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One hand, one corner. The box is trying to become a diamond. The rail is the first witness." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> One hand, one corner. The box is trying to become a diamond. The rail is the first witness. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — wide drawer pulled from one end, corner kissing a rail (filename pending shop pull)</figcaption>
+</figure>
+
 
 A narrow drawer is a cart with a short axle. You can pull it off-center and it still tracks. A wide drawer is a cart with a long axle and no differential. One side starts. The other lags. The front turns in plan. The rear goes the other way. That is rack. Humidity can make the fit tighter, so the rack happens earlier and leaves a brighter scar. Humidity is not the mechanism. The mechanism is a rectangle that is free to become a parallelogram because nothing in the middle told it not to.
 
@@ -58,7 +73,11 @@ Steel file slides have a width and a load rating. I will not reprint a catalog n
 
 ## People call it humidity
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — center runner and guide between a pair of drawers, or a file drawer with a center track (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The third road keeps the parallelogram from starting. Humidity did not invent the third road." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The third road keeps the parallelogram from starting. Humidity did not invent the third road. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — center runner and guide between a pair of drawers, or a file drawer with a center track (filename pending shop pull)</figcaption>
+</figure>
+
 
 July in Bradley County will swell a drawer side in height and a front in width. A tighter fit racks sooner. That is true. It is also true in January if the center guide is missing and a child pulls the left cup. I have seen winter rack. The house was dry. The corner still hit. We stood there and looked at the missing muntin. The owner had been planning to run a dehumidifier. The dehumidifier would not have grown a muntin.
 

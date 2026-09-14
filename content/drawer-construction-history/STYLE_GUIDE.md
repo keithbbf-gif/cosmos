@@ -110,9 +110,11 @@ verify: list of claims still open
 
 ## Figures
 
-This pack is **photo-slot first**. Shop photographs from `D:\BBF` are the figures. A period photograph may be slotted only with a real URL and a license. Diagrams may be added later; do not paste stock art.
+This pack is **photo-slot first**. Shop photographs from `D:\BBF` are the primary figures (`figures[]`, `status: needed`). Pack-authored **joinery schematics** (`graphics[]`, CC0 SVG under `assets/<slug>/`) supply Figure 1 for SEO and staging; they do not replace BBF photos. A period photograph may be slotted only with a real URL and a license. Do not paste stock art.
 
-A `<!-- PHOTO: ... -->` HTML comment may sit in the body where the frame should land, matching the front-matter `id`. That is a pull instruction, not a published image.
+See `GRAPHICS_INDEX.md`, `SEO_MAP.md`, `RIGHTS.md`, and `STAGING_README.md` for the IMAGE + SEO pass (PR #527).
+
+A `<!-- PHOTO: ... -->` HTML comment may sit in the body where the frame should land, matching the front-matter `id`. After the inject pass, each tag becomes a schematic plus pending shop `<figure>` blocks; `figures[]` stays `needed` until `D:\BBF` files land.
 
 ## WordPress
 

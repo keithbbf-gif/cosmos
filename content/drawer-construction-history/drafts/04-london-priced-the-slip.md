@@ -7,6 +7,12 @@ word_count: 1378
 dek: "A slip is a billed operation before it is a romance. The 1788 London Book of Prices has a line for slipping drawers. Piecework is how a city trade remembers what the bench already knew."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/london-priced-the-slip/joinery-diagram.svg
+    alt: "Glued slip widening the side with a groove for the bottom"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The extra was on the traveler in pencil. Not a London traveler — mine, yellow pad, a kitchen job in Warren — but the same idea: *slip sides, plough bottoms*. I had written it because the sides were going to be 3/8 maple and the tray was going to live in a house that swings from wet to furnace-dry. A groove in a 3/8 side is a dare. A slip is a billed strip. I wanted the strip on the paper before it disappeared into “drawer boxes” as if boxes were one price.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/london-priced-the-slip/joinery-diagram.svg" alt="Glued slip widening the side with a groove for the bottom" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Drawer slip on a thin lining. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The slip is extra wood where the wear is. The side stays thin. The bottom has a road." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The slip is extra wood where the wear is. The side stays thin. The bottom has a road. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer slip glued to a thin side, groove in the slip, bottom entering (filename pending shop pull)</figcaption>
+</figure>
+
 
 The London trade already knew that. The *Cabinet-Makers’ London Book of Prices* — 1788, then 1793, then 1803 — has a line the craft magazines keep pointing at: slipping drawers. Later editions talk about slipping sides and plowing in bottoms. I am not going to pretend I have the 1788 sheet on a stand in Wilmar. I am going to treat the published citations as a clock, not as a poem I memorized. [VERIFY] any phrase I am tempted to set in quotes before it goes on a public page.
 
@@ -52,7 +67,11 @@ The book also reminds you that a drawer was not always made by the man who made 
 
 ## What I write on the traveler
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — shop copy of a price-book page or a penciled extra on a traveler (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A price book is not a poem. It is a list of operations someone got paid for." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A price book is not a poem. It is a list of operations someone got paid for. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — shop copy of a price-book page or a penciled extra on a traveler (filename pending shop pull)</figcaption>
+</figure>
+
 
 If the sides are thin and the drawer is a sitting-room drawer, I write the slip. If the sides are 1/2 poplar and the drawer is a kitchen box on undermounts, I do not. The slip is not a virtue. It is an operation. London knew that. A modern shop that “always slips” is performing. A modern shop that never slips is leaving money and wear on the table when the side is skinny.
 
