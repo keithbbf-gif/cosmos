@@ -3,7 +3,7 @@ title: "From Factory to Showroom"
 slug: from-factory-to-showroom
 status: draft
 voice_check: human
-word_count: 1482
+word_count: 1299
 dek: "Riverside still says 1946. The work is now design, sourcing, and a High Point showroom. Fort Smith kept the name and a distribution door."
 series: arkansas-furniture-factories-history
 topic: riverside
@@ -34,7 +34,11 @@ The stencil still says Fort Smith, 1946. The selling floor that matters is High 
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — empty former factory floor or a warehouse rack of boxed goods (filename pending shop pull) -->
 
-This is not a scandal unique to Arkansas. American case-goods companies spent the 1990s and 2000s learning to be brand offices. High Point is where that learning is a civic industry. Fort Smith is where that learning looks like a quieting of a riverfront. Both sentences can sit in one essay if neither is asked to be a sermon.
+This is not a scandal unique to Arkansas. American case-goods companies spent the 1990s and 2000s learning to be brand offices. High Point is where that learning is a civic industry. Fort Smith is where that learning looks like a quieting of a riverfront. Both sentences can sit in one paragraph if neither is asked to be a sermon.
+
+Higgins had already named the fade once. Furniture, he told the *Times Record*, crested in the late 1950s and early 1960s and then largely faded; by then Dixie Cup and Whirlpool were in town or coming. Girard added the 1996 clause: the tornado hit the Riverfront Drive row and opened a door for cheaper Chinese furniture. Riverside’s own later life is a third clause. The company that rebuilt an 80,000-square-foot upholstery plant after that storm — the St. Louis Fed’s 2001 sentence — did not thereby lock Fort Smith into a finish-room future. A campus can rebuild and still, a few years before 2019, stop being the place the object is made.
+
+Jebaraj’s later metro count is the mixed weather around that conversion. Fort Smith-area manufacturing peaked at 31,000 jobs in 1999, then lost 6,500 by 2007 and another 7,500 after 2008. Those are not Riverside numbers. They are the city the showroom conversion happened inside: still a manufacturing metro by Arkansas standards, thinner than it had been, and no longer a furniture-row metro in Girard’s sense.
 
 ## What “distribution” actually is
 
@@ -50,11 +54,17 @@ Current public pages talk about thousands of retail doors and a trade-only showr
 
 Fort Smith’s first selling geography was the Territory and Texas, then a national dealer base that still thought of the town as a source. High Point is a source of *attention*. You go there to be seen by the same buyers who stopped needing your freight car. A Fort Smith company that opens a High Point showroom is not betraying the river. It is admitting where the river now ends.
 
-The risk is the civic one. Children in Ballman Elementary do not tour a High Point market. They can tour a museum that says there used to be a row. The conversion, if no one writes it down, becomes a shrug: we used to make furniture, the way every American city used to make something. This pack is the refusal of the shrug.
+The Encyclopedia’s 1922 automobile bridge at the west end of Garrison was one rewrite of that river: rubber into Oklahoma. ABF’s later LTL fame was another. High Point is a third, and it does not need the Arkansas. Buyers come to a market city the way dealers once waited on a siding. The object may still say Fort Smith on a carton. The decision to order it is made in a building Fort Smith does not own.
+
+The risk is the civic one. Children at Ballman Elementary do not tour a High Point market. They can tour a museum that says there used to be a row. Chuck Girard, speaking as that museum’s director, still had the riverfront names in his mouth in 2019: Ayers, Garrison, DeSoto, Ward, Covey, Fort Smith Chair. The conversion, if no one writes it down, becomes a shrug: we used to make furniture, the way every American city used to make something. Write the conversion. Leave the shrug.
+
+1400 South 6th Street is the directory address later listings still repeat. I will not swear it is the 1946 door, and I will not swear it is still a kiln. I will say a mappable Fort Smith presence is not the same job as a finish room. Current public pages talk about thousands of retail doors. Those numbers move. Do not freeze a 3,000 in a caption as if it were a 1912 board-foot table.
 
 ## Ownership, again
 
-I have not walked the full chain from Arkansas Best’s 1966 purchase to the present privately held company. There were almost certainly sales, management buyouts, foreign sourcing agreements. Until the chain is in `verify` as filings, do not write a morality about who “took the jobs.” Write the visible conversion: less manufacturing in Fort Smith, more showroom somewhere else, the founding year kept because founding years are cheap and kilns are not.
+I have not walked the full chain from Arkansas Best’s 1966 purchase to the present privately held company. There were almost certainly sales, management buyouts, foreign sourcing agreements. Until the chain is in `verify` as filings, do not write a morality about who took the jobs. Write the visible conversion: less manufacturing in Fort Smith, more showroom somewhere else, the founding year kept because founding years are cheap and kilns are not.
+
+The Encyclopedia’s later industrial list — Baldor, Hiram Walker, hospitals, a university, trucking, food processing — is what a city says when furniture is no longer the sentence. The *Times Record* in 2019 added the afterlives: FFO Home making mattresses in part of the old Whirlpool building, Silgan Plastics, Glatfelter in a former Mitsubishi plant at Chaffee Crossing. McCourt’s folding chairs and tables are a later Fort Smith wood trade, not Fort Smith Chair and not Riverside. The showroom conversion is one large, nameable piece of a mixed set. It is not the whole set.
 
 ## What a small shop is not
 

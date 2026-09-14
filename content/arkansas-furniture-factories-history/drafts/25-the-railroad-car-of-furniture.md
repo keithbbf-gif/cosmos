@@ -3,7 +3,7 @@ title: "The Railroad Car of Furniture"
 slug: the-railroad-car-of-furniture
 status: draft
 voice_check: human
-word_count: 1478
+word_count: 1284
 dek: "Rails reached Fort Smith in the 1870s. After that, a furniture factory was a cube problem: mixed cars, ICC rules, a dealer’s siding two states away."
 series: arkansas-furniture-factories-history
 topic: wood-and-rail
@@ -34,7 +34,9 @@ The *Encyclopedia of Arkansas* is almost casual about it: railroad transportatio
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — crate, corner protectors, or a dock plate (filename pending shop pull) -->
 
-I will not name the first road until I have the first road. Frisco, Iron Mountain, the later junctions — the forest chapters of Bulletin 106 already scatter those names across the western counties. For this essay the name matters less than the cube.
+I will not name the first road into Fort Smith until I have the first road. Confirm that name before a caption that paints it on a building. Frisco, Iron Mountain, the later junctions — the forest chapters of Bulletin 106 already scatter those names across the western counties. Five railroads, they wrote, were within reach of the Ozark National Forest: the White River branch of the St. Louis, Iron Mountain & Southern on the east; the Missouri & North Arkansas through the center; the St. Louis, Iron Mountain & Southern on the south, running between Fort Smith and Little Rock; the Frisco on the extreme west; and the St. Paul branch of the Frisco. A line then projected from St. Louis to Fort Smith, they said, would make the rest of the timber accessible. For this essay the name of the first Fort Smith road matters less than the cube.
+
+Higgins told the *Times Record* that Fort Smith drew industry because it grew around the time railroad transportation became popular, and because coal and hardwood sat nearby. Ballman came from Indianapolis into that pairing. The 1880s boom — population nearly tripling, Garrison as the wholesale center — sits on those rails. Ten thousand wagons a year before the Civil War, in Higgins’s count, was a factory town that moved itself. A carload of cabinets is a factory town that has learned to pay a tariff.
 
 ## The object is not finished in the stain room
 
@@ -50,17 +52,23 @@ A dealer in a small Oklahoma town does not want fifty identical washstands. He w
 
 In 1967 the problem moved onto trailers. John Ayers told the Arkansas Supreme Court that ICC rules would not let two corporations’ furniture share a trailer unless a partnership owned the goods. That is truck-era law, not 1878 rail law. I put it here because the want is the same: one vehicle, two plants, one dealer. The row was always a loading problem.
 
-Bulletin 106 noted that furniture squares and wagon stock paid about thirty-four percent more freight than boards from a central Ozark point. Dimension is expensive to move. Finished furniture is more expensive still, and more fragile. The factory exists to turn cheap local logs into expensive distant objects. The railroad exists to collect a tax on that transformation. A hub is a place where the tax is still worth paying.
+Bulletin 106 noted that furniture squares and wagon stock paid about thirty-four percent more freight than boards from Leslie, a central shipping point for the Ozark Forest. The rates per hundredweight on lumber from that point climb with distance: a few cents under twenty-five miles, more at fifty, more again at a hundred. Dimension is expensive to move. Finished furniture is more expensive still, and more fragile. The factory exists to turn cheap local logs into expensive distant objects. The railroad exists to collect a tax on that transformation. A hub is a place where the tax is still worth paying.
+
+Eighty-five percent of the furniture wood in Table 8 was grown in Arkansas. A factory that sits in the hinterland of its own forest pays less of the inbound tax and still owes the outbound one. Schaburg, Higgins’s ghost hardwood town in Crawford County, lives inside that inbound number. Dallas and the Territory live inside the outbound one.
 
 ## River, then rail, then rubber
 
 The Arkansas did the first work. Rails did the second. Trucks did the third, and they are why a 65-foot shop in Warren can still ship an island without a siding. Each vehicle rewrites which towns can be factories. Fort Smith won the rail rewrite. It did not automatically win the container rewrite.
 
-ABF’s later fame is the rubber version of the same civic muscle. Arkansas Best buying Riverside is the muscle buying the object. A history that treats freight as background is a history that thinks dressers walk.
+The Encyclopedia dates a concrete rewrite to May 11, 1922: a bridge for automobile traffic at the west end of Garrison, connecting downtown Fort Smith to Oklahoma. That is rubber as a civic fact, not yet LTL as a corporation. ABF’s later fame is the later rubber version of the same civic muscle. The *Times Record* in 2019 still had trade, transportation, and utilities as the metro’s largest employment sector, about twenty-three percent, with manufacturing second. Arkansas Best buying Riverside in 1966, if the compiled sketch holds, is the muscle buying the object. A history that treats freight as background is a history that thinks dressers walk.
+
+The NWS assessment of April 21, 1996, recorded railroad cars overturned on tracks that served the industrial area, and warehouses damaged along the same path that took downtown and then the north side. Freight infrastructure is also weather infrastructure. A hub that lives by cars can lose them in a minute.
+
+Pratt’s 1973 recitation of the ICC trailer rule is the late, rubber version of the mixed car. Two plants, one vehicle, one dealer. The row was always a loading problem. Arkansas Best buying Riverside, if the 1966 compiled sketch holds, is the loading problem buying the plant.
 
 ## Packing as design
 
-Breadboard ends, corner blocks, a finish that can take a scuff, knock-down beds — some “design” is packing. Folding furniture is packing. Campaign hardware is packing. A suite that cannot nest is a suite that pays for air. Fort Smith’s folding-bed house in 1902 is this essay in an earlier costume.
+Breadboard ends, corner blocks, a finish that can take a scuff, knock-down beds — some “design” is packing. Folding furniture is packing. Campaign hardware is packing. A suite that cannot nest is a suite that pays for air. Fort Smith’s folding-bed house in 1902 is this argument in an earlier costume. McCourt’s later folding chairs and tables, a 1983 public-listing trade on North 3rd, are a different house in a later vehicle. Do not write them as one line.
 
 A present-tense shop that argues LTL versus parcel is in the same church. Bradley Brand’s old partner-care spreadsheets — weights, dims, “will it ship small parcel?” — are freight theology. They do not belong in this body as a product shot. They belong as a reminder that the theology did not start in 2008.
 

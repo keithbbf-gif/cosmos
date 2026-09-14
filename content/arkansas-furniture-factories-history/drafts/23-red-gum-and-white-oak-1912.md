@@ -3,7 +3,7 @@ title: "Red Gum and White Oak, 1912"
 slug: red-gum-and-white-oak-1912
 status: draft
 voice_check: human
-word_count: 1586
+word_count: 1389
 dek: "Harris and Maxwell counted 15,373,000 board feet of furniture wood in Arkansas in 1912. Red gum and white oak were ninety-five percent of it. The rest is folklore."
 series: arkansas-furniture-factories-history
 topic: wood-and-rail
@@ -30,11 +30,15 @@ verify:
   - "Woods-pack essays already own species working properties. Do not retell tyloses and movement here except one sentence if a factory finish needs it."
 ---
 
-The cleanest sentence in Arkansas furniture history is a table. In 1912, J. T. Harris and Hu Maxwell published *Wood-using industries and national forests of Arkansas* as Forest Service Bulletin 106. Table 8 is annual consumption of wood for furniture. Total: 15,373,000 board feet. Red gum: 9,061,000 feet, 58.94 percent, $20.29 a thousand at the factory. White oak: 5,586,000 feet, 36.34 percent, $32.45 a thousand. Together, they wrote, about ninety-five percent of the furniture wood in the state. Eighty-five percent of all of it grown in Arkansas.
+The cleanest sentence in Arkansas furniture history is a table. In 1912, J. T. Harris and Hu Maxwell published *Wood-using industries and national forests of Arkansas* as Forest Service Bulletin 106. Table 8 is annual consumption of wood for furniture. Total: 15,373,000 board feet. Red gum: 9,061,000 feet, 58.94 percent, $20.29 a thousand at the factory. White oak: 5,586,000 feet, 36.34 percent, $32.45 a thousand. Together, they wrote, about ninety-five percent of the furniture wood in the state. Eighty-five percent of all of it grown in Arkansas — 85.44 percent, if you want the bulletin’s extra digits.
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — sweetgum and white oak boards labeled on a rack (filename pending shop pull) -->
 
 I like this table the way I like a stencil. It does not care about kings. It cares about what the factories actually ate.
+
+The method is part of the honesty. Part I of the bulletin, they wrote, was collected first-hand from manufacturers throughout the state. They were not guessing from a port ledger. They were asking factories what they bought. More than ninety-one percent of the wood manufactured into finished commodities in Arkansas, they said, was grown in the state. That is a statewide figure across industries, not the furniture row alone. Table 8’s 85.44 percent is the furniture-specific cousin. Both numbers argue against a mahogany romance.
+
+They also warned, in a note that still reads like a factory argument, that it is nearly impossible to list the grades and dimensions every furniture house wants. One plant might buy logs and saw them. Another might want only thin stock or veneer. Material one manufacturer would take, another could not use. The table is a diet, not a cutting bill for a single dresser.
 
 ## What the prices say
 
@@ -44,13 +48,19 @@ Red oak is a distant third, 346,000 feet, 2.25 percent. Cottonwood, elm, ash, an
 
 <!-- PHOTO: fig-02 D:\BBF\BBF Photos — printed table or a shop tally sheet, not a fake 1912 prop (filename pending shop pull) -->
 
-Shortleaf pine’s “small showing” in furniture, they wrote, was remarkable given how much other Arkansas industry demanded it. Three-quarters of manufacturing wood in the state could be pine and the furniture rooms would still want hardwood. That sentence is the whole pine-belt essay in miniature. Warren’s mills could drown the country in yellow pine and still ship furniture *stock* rather than furniture. The Fort Smith finish rooms wanted gum and oak.
+Shortleaf pine’s “small showing” in furniture, they wrote, was remarkable given how much other Arkansas industry demanded it. Nearly three-fourths of all the wood employed for manufacturing purposes in Arkansas, Table 1’s weather, was shortleaf pine. The furniture rooms still wanted hardwood. That sentence is the pine-belt problem in miniature. The *Encyclopedia of Arkansas* dates Warren’s three large mills — Southern, Bradley, and Arkansas Lumber — to a 1907 scale of 100,000 to 150,000 board feet a day. Those were pine and hardwood lumber operations. ARGenWeb’s Bradley Lumber postcard text lists furniture stock, hardwood flooring, and pine millwork. Stock, not a finished-furniture house. The Fort Smith finish rooms wanted gum and oak.
+
+White oak in the bulletin is already a group, not a single tree. Harris and Maxwell listed true white oak, post oak, bur oak, overcup, swamp white oak, and cow or basket oak as woods the yards simply called white oak. Red oak is another group: the true red oak scarce in Arkansas, Texan or spotted oak common, plus willow, black, water, and Spanish oaks sold under one tally. Furniture and interior finish, they said, cared about figure and grain. Vehicle and machinery shops cared about strength. Quarter-sawing, which exposes the medullary rays, is how the furniture shop got the flake the catalog wanted.
 
 ## Grown here
 
 85.44 percent grown in Arkansas. 14.56 percent not. The white oak was 92 percent home-grown. The gum 82 percent. Even the face wood was a local ridge and a local bottom, not a Great Lakes leftover. A hub, if Fort Smith was one, was a hub because the forest was a hinterland, not because a port brought in mahogany.
 
-Schaburg, the ghost name, lives inside that 85 percent without being named. So do a hundred unnamed landings. The table is statewide. Fort Smith is the city we attach it to because that is where the furniture factories clustered in the telling. Chair stock had its own table. Do not dump Table 10 into Table 8. Harris and Maxwell already knew the split.
+Schaburg, the ghost name Higgins gave the *Times Record* — a Crawford County hardwood source north of Mountainburg, now gone — lives inside that 85 percent without being named in Table 8. So do a hundred unnamed landings. The table is statewide. Fort Smith is the city we attach it to because that is where the furniture factories clustered in the telling. Higgins said the town was once one of three U.S. furniture hubs. The bulletin does not say that. The bulletin says what the factories ate.
+
+Chair stock had its own table. Chairs and furniture, they wrote, belong to the same general class and are frequently made in separate factories. Many small mills cut chair stock exclusively and sold it to houses that made nothing else. Do not dump Table 10 into Table 8. Harris and Maxwell already knew the split. Fort Smith Chair Company is that split with a city name on it; the Pratt opinions would later treat the chair house as the plant that still knew how to manufacture after Ballman-Cummings had become paper.
+
+The freight chapter of the same bulletin is the other number hiding under the diet. From Leslie, a central Ozark shipping point for the Ozark National Forest, furniture squares and wagon stock paid about thirty-four percent more freight than boards. Dimension is expensive to move. A factory that sits near the trees pays less of that tax. A hub is a place where the tax is still worth paying.
 
 ## More kinds, still two kinds
 

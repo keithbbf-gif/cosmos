@@ -3,7 +3,7 @@ title: "Herman Udouj and Riverside, 1946"
 slug: herman-udouj-and-riverside-1946
 status: draft
 voice_check: human
-word_count: 1528
+word_count: 1284
 dek: "Herman Udouj came home from the war and put a furniture corporation on the river’s name. Riverside is the mid-century Fort Smith house civilians still recognize."
 series: arkansas-furniture-factories-history
 topic: riverside
@@ -34,13 +34,17 @@ verify:
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — 1940s-style case piece or postwar oak/gum suite analog (filename pending shop pull) -->
 
-The public sketch of Herman’s youth is almost too neat, which is why it needs a second source before anyone carves it on a wall. He is supposed to have gone to work in 1932, as a stenographer, for Mitchell Manufacturing Company, and to have started a furniture business with Rudolph in 1936 that closed when both enlisted. I have that from a compiled genealogy that cites the Fort Smith journal’s Ballman issue among other pages. Treat 1932 and 1936 as leads. Treat 1946 as the year the corporation becomes the name later dealers will know.
+The public sketch of Herman’s youth is almost too neat, which is why it needs a second source before anyone carves it on a wall. A compiled genealogy — WikiTree, useful as a pointer, not as authority — places his birth in 1917 at Altus, Franklin County, and his death on May 27, 1998. He is supposed to have gone to work in 1932, as a stenographer, for Mitchell Manufacturing Company, and to have started a furniture business with Rudolph in 1936 that closed when both enlisted. Treat 1932 and 1936 as leads. Confirm Mitchell as a Fort Smith house before anyone names a street. Treat 1946 as the year the corporation becomes the name later dealers will know.
+
+The *Encyclopedia of Arkansas* dates the other Fort Smith weather of that decade: Camp Chaffee, later Fort Chaffee, activated as an army post on March 27, 1942, trained armored divisions, and held German prisoners of war on about fifty-three acres of compounds. After the war the post was deactivated and activated again. In the 1950s and 1960s the city, the entry says, struggled and succeeded in making itself less reliant on Chaffee. Furniture was already one of the older answers. Riverside is a new letterhead inside that older answer, not a city inventing factories from nothing.
 
 ## After the older names
 
-Ballman-Cummings was still a going idea in 1946. Fort Smith Chair was still a going idea. The row Girard remembered still had decades in it. Riverside did not replace them on the first Monday. It joined a town that already knew how to hire a finisher and spot a car. That is the opposite of Ott in 1878. Ott imported a factory. Udouj opened one in a city that had been a furniture hub long enough to have a reputation Higgins would later call national.
+Ballman-Cummings was still a going idea in 1946. Fort Smith Chair was still a going idea. The row Girard later remembered — about two dozen names along what became Riverfront Drive — still had decades in it. Riverside did not replace them on the first Monday. It joined a town that already knew how to hire a finisher and spot a car. That is the opposite of Ott in 1878. Ott imported a factory. Udouj opened one in a city that had been a furniture hub long enough for the Fort Smith Historical Society *Journal* to call furniture the largest industry of the late nineteenth and early twentieth centuries, and for Higgins to tell the *Times Record* the town was once one of three furniture hubs in the country.
 
-Postwar demand is the other half. Households that had been deferred, a GI Bill of houses, a western and southern market that still thought of Fort Smith as a place you ordered wood from. I will not invent Riverside’s first suite. I will say the timing is the product: case goods for rooms that were being built faster than the old hyphenated houses could own the whole trade.
+The census table in the Encyclopedia is the other half of the timing. Fort Smith had 36,584 people in 1940, 47,942 in 1950, 52,991 in 1960. That is a city adding households faster than a wartime deferred catalog could fill. I will not invent Riverside’s first suite. I will say the timing is the product: case goods for rooms that were being built faster than the old hyphenated houses could own the whole trade. A GI Bill of houses, a western and southern market that still thought of Fort Smith as a place you ordered wood from, and a river name on the crate.
+
+Higgins put the furniture crest in the late 1950s and early 1960s. Riverside’s founding sits twelve to fifteen years before that ridge. The house that civilians later remember as the last Fort Smith furniture name is, in that telling, a late arrival that rode the last good decades rather than the house that invented the town.
 
 <!-- PHOTO: fig-02 D:\BBF\BBF Photos — river named on a crate or a south-facing mill wall (filename pending shop pull) -->
 
@@ -52,15 +56,19 @@ Do not make that a morality. Makers like a founder who smells like shavings. Buy
 
 ## Twin Rivers, later
 
-A few years after 1946 — the compiled sketch says — they opened Twin Rivers Furniture Corporation. The name is the confluence again: Arkansas and Poteau, two waters, two letterheads. The next essay takes the merge and the 1966 sale. This one stays with the first stencil. Riverside, not Twin Rivers, is the word that survived into High Point showrooms and a 6th Street address.
+A few years after 1946 — the compiled sketch says — they opened Twin Rivers Furniture Corporation. The name is the confluence again. The Encyclopedia’s early geography already knew the pairing: Belle Point on the Arkansas just north of the Poteau, a defensible bluff and a place name older than any factory. Two waters, two letterheads. The next essay takes the merge and the 1966 sale. This one stays with the first stencil. Riverside, not Twin Rivers, is the word that survived into High Point showrooms and a 6th Street address.
 
-1400 South 6th Street is the directory address later listings still repeat. I will not swear it is the 1946 door. I will say the company, unlike Ballman-Cummings, kept a mappable Fort Smith presence into the twenty-first century even after manufacturing thinned.
+1400 South 6th Street is the directory address later listings still repeat. I will not swear it is the 1946 door. I will say the company, unlike Ballman-Cummings, kept a mappable Fort Smith presence into the twenty-first century even after manufacturing thinned. The *Times Record* in 2019 still had a sentence for it: Riverside had manufactured in Fort Smith until a few years earlier and was then a distribution point. That is a late chapter. 1946 is the first stencil.
+
+The compiled sketch’s revenue claim — a tripling between 1949 and 1968 to about thirteen million dollars — crosses the merge and the Arkansas Best purchase, so the “they” is already a moving target. Mark it as a lead. If a 1960s business page holds it, it is a mid-century furniture number that explains why a trucking corporation would want the plants. If it does not hold, 1946 still happened.
 
 ## What civilians remember
 
-Riverside is the name a Fort Smith civilian can still say without a journal. That is a market fact and a memory fact. It is also a distortion. It makes 1946 look like the beginning of Fort Smith furniture. This pack exists to stop that. 1946 is a second founding, maybe a third. The wagons, Ott, Ballman, the row — those are the first founding. Riverside is the name that rode the last good decades and the tornado and the long conversion into design and distribution.
+Riverside is the name a Fort Smith civilian can still say without a journal. That is a market fact and a memory fact. It is also a distortion. It makes 1946 look like the beginning of Fort Smith furniture. 1946 is a second founding, maybe a third. The wagons, Ott, Ballman, the row — those are the first founding. Riverside is the name that rode the last good decades and the April 1996 tornado and the long conversion into design and distribution.
 
-Herman died in 1998. The obituaries load him with civic boards, a country club, a farm, horses. Those belong in the civic essay if they survive a newspaper check. They do not belong here as proof that the furniture was good. The furniture was good or it was not according to dealers and a payroll, not according to a thoroughbred prize.
+Herman died in 1998, the same decade the St. Louis Fed would write the tornado rebuild and the same year a trade paper called a rebound. The compiled obituary loads him with civic boards: Chamber, Boys Club, St. Edward, Westark, University of the Ozarks, a country club, a farm, horses. Those belong in the civic essay if they survive a newspaper check. They do not belong here as proof that the furniture was good. The furniture was good or it was not according to dealers and a payroll, not according to a thoroughbred prize.
+
+Norge opened on February 1, 1962, inside Higgins’s peak window. Whirlpool bought that plant in 1968. Riverside’s mid-century growth and the appliance arrival overlap. A returning-soldier furniture house and a refrigerator line are both answers to the same civic problem the Encyclopedia names: how to be a factory town that is not only a post.
 
 ## A present-tense refusal
 
