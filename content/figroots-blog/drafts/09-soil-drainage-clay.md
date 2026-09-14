@@ -10,15 +10,18 @@ tags:
   - raised-beds
   - arkansas
 images:
-  - path: "D:\\FIGS\\soil\\standing-water-after-storm"
-    caption: "The hole still holding water the next morning. This is not a fig hole."
+  - path: "D:\\FIGS\\Figs"
+    caption: "In-ground or bed after rain. If the hole still holds water the next morning, it is not a fig hole."
     source: ours
-  - path: "D:\\FIGS\\soil\\raised-bed-cuttings"
-    caption: "Raised bed we have actually stuck cuttings in — dirt from the yard, not a science fair."
+    folder_pick: "Figs"
+  - path: "D:\\FIGS\\Greenhouse photos"
+    caption: "Pot mix and drainage — water standing on top means the pot is lying."
     source: ours
-  - path: "D:\\FIGS\\soil\\mulch-ring-not-against-trunk"
-    caption: "Mulch over shallow roots, pulled back from the trunk."
+    folder_pick: "Greenhouse photos"
+  - path: "D:\\FIGS\\Bulk Cuttings"
+    caption: "Raised-bed / outdoor stick rows. Same physics as planting high on clay."
     source: ours
+    folder_pick: "Bulk Cuttings"
 status: draft
 voice_check: human
 pillar: culture

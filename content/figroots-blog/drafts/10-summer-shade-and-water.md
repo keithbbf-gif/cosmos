@@ -10,15 +10,18 @@ tags:
   - pots
   - southeast
 images:
-  - path: "D:\\FIGS\\trees\\wilted-pot-on-gravel-july"
-    caption: "Black pot on gravel at 2 p.m. The wilt is heat, not a variety defect."
+  - path: "D:\\FIGS\\Figs-summer-23"
+    caption: "July wilt, afternoon sun, summer water. Heat is not a variety defect."
     source: ours
-  - path: "D:\\FIGS\\trees\\afternoon-shade-east-morning-sun"
-    caption: "Morning sun, afternoon shade. This is the South-facing we actually want."
+    folder_pick: "Figs-summer-23"
+  - path: "D:\\FIGS\\Greenhouse photos"
+    caption: "Pots under cover or shade cloth. Black plastic on gravel at 2 p.m. is a different climate."
     source: ours
-  - path: "D:\\FIGS\\culture\\sprinkler-fertigation-pots"
-    caption: "Sprinklers on a pot block the day it did not rain. Hand-watering this many cups is a fantasy."
+    folder_pick: "Greenhouse photos"
+  - path: "D:\\FIGS\\Figs"
+    caption: "East-wall or yard shade if 2023 is all full-sun hero shots."
     source: ours
+    folder_pick: "Figs"
 status: draft
 voice_check: human
 pillar: climate

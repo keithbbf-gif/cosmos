@@ -10,15 +10,18 @@ tags:
   - honey
   - tasting
 images:
-  - path: "D:\\FIGS\\fruit\\split-plate-berry-red-pulp"
+  - path: "D:\\FIGS\\Fig Fruit"
     caption: "Cut fruit on a plate. Red pulp and a berry nose — this is the argument, not the label."
     source: ours
-  - path: "D:\\FIGS\\fruit\\honey-amber-pulp"
-    caption: "Amber pulp, honey-sweet. Same species. Different supper."
+    folder_pick: "Fig Fruit"
+  - path: "D:\\FIGS\\More Fig Pictures"
+    caption: "Amber / honey pulp if Fig Fruit is one color family."
     source: ours
-  - path: "D:\\FIGS\\fruit\\same-name-two-trees"
-    caption: "Two trees sold under one name. Taste both before you plant a row."
+    folder_pick: "More Fig Pictures"
+  - path: "D:\\FIGS\\El Dorado Fig"
+    caption: "Named fruit we have eaten, captioned as that tree — not a catalog clone."
     source: ours
+    folder_pick: "El Dorado Fig"
 status: draft
 voice_check: human
 pillar: fruit

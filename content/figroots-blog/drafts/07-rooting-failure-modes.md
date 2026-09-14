@@ -10,15 +10,18 @@ tags:
   - coco-coir
   - failure
 images:
-  - path: "D:\\FIGS\\rooting\\rotted-base-black-mush"
-    caption: "Base turned dark and soft. This one drowned. Do not sniff it and put it back."
+  - path: "D:\\FIGS\\DE vs CC"
+    caption: "Rot, callus-only, or a dry cup from the A/B set. Do not sniff mush and put it back."
     source: ours
-  - path: "D:\\FIGS\\rooting\\callus-no-roots"
-    caption: "White callus, no roots, weeks later. The stick is alive. It is not a tree yet."
+    folder_pick: "DE vs CC"
+  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
+    caption: "Same 2023 coir vs DE stills. Link the live post. Do not restage the counts."
     source: ours
-  - path: "D:\\FIGS\\rooting\\shriveled-top-nodes"
-    caption: "Top nodes wrinkled like a raisin. Humidity was a story. The wood dried."
+    folder_pick: "DE vs Coco Coir Photos"
+  - path: "D:\\FIGS\\Damaged Cuttings"
+    caption: "If the DE folders are only success cups, use a failed stick from here."
     source: ours
+    folder_pick: "Damaged Cuttings"
 status: draft
 voice_check: human
 pillar: propagation

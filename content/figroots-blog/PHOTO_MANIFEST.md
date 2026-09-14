@@ -1,135 +1,172 @@
-# Photo manifest — ours first, then PD fills
+# Photo manifest — KC-PC `D:\FIGS` first
 
-Rule: **Keith’s library before the internet.** Public-domain fills are last-resort anatomy or habit shots. Never scrape a nursery catalog. Never caption a Commons fig as a named FigRoots variety.
+Stills from Keith’s Website Builder library on **KC-PC** (`D:\FIGS`). Prefer these folders over any public-domain fill. Do not scrape nursery catalogs. Do not caption a Commons fig as a named FigRoots variety.
 
-Folder names under `D:\FIGS` below are the **intended sort**. [VERIFY] against the live drive (Windows). If the real tree is flatter or uses different spellings, fix this file — do not invent a second photo dump.
+WordPress stays **Draft**. See `WP_IMPORT.md`. This file does not publish anything.
 
-FigRoots media already on the site (Fig Pops, Outdoor, cuttings posts) can be reused where the caption still tells the truth.
+## Library (confirmed names)
 
-## Preferred local roots
+Use these folder names as written. [VERIFY] spelling on the live drive if a picker fails.
 
-| Root | What belongs there | Status |
+**Fruit / trees (strong for article images)**
+
+| Folder | Use for |
+|---|---|
+| `D:\FIGS\Fig Fruit` | Ripe cuts, ostioles, split/sour, green vs dark, flavor plates |
+| `D:\FIGS\More Fig Pictures` | Extra fruit and tree stills when Fig Fruit is thin |
+| `D:\FIGS\Figs` | General trees, in-ground habit, yard context |
+| `D:\FIGS\Figs 2020` | Older season stills (habit, late fruit) |
+| `D:\FIGS\Figs-summer-23` | July–August heat, canopy, summer crop |
+| `D:\FIGS\Malta_Black_Fig` | Named dark fruit (eye, bird contrast). Caption the clone we actually have. |
+| `D:\FIGS\El Dorado Fig` | Named fruit / tree. Same caption rule. |
+
+**Propagation / identity**
+
+| Folder | Use for |
+|---|---|
+| `D:\FIGS\Breba 2025` | Breba on last year’s wood |
+| `D:\FIGS\Bulk Cuttings` | Lignified bundles, outdoor/bulk sticks, winter wood |
+| `D:\FIGS\Damaged Cuttings` | Mold, crush, dehydrate, mailbox damage — teaching discard |
+| `D:\FIGS\DE vs CC` | Rooting cups, media, failure close-ups |
+| `D:\FIGS\DE vs Coco Coir Photos` | Same A/B set; ties to the live coir vs DE post |
+| `D:\FIGS\Fig Labels` | Tags vs fruit, true-to-type |
+| `D:\FIGS\Fig Jam Article` | On-record Chambers shots (pots, collection) |
+| `D:\FIGS\Greenhouse photos` | Pots, hoop/shop, shade cloth, winter shuffle |
+| `D:\FIGS\Grafting` | Only if a draft needs wood/scion context (true-to-type, prune) |
+| `D:\FIGS\FigRoots` | Site assets already used on figroots.com |
+
+**Do not publish from**
+
+- `D:\FIGS\.dtrash` (or any trash / recycler folder)
+- Video roots as the hero: `Fig & Garden Videos`, `2025 Fig Videos` — stills only for these posts. A frame grab is a last resort and must be labeled as a still from our video, not a stock clip.
+
+## Per-draft picks (1–3 folders)
+
+Hunt inside the listed folders. Suggested shot is what to grab, not a filename we invented.
+
+### 01 — GDD — `drafts/01-fig-growing-degree-days.md`
+
+1. `D:\FIGS\Fig Fruit` — hard-green fruit that never softened
+2. `D:\FIGS\Figs-summer-23` — July canopy / heat (heat ≠ finished)
+3. `D:\FIGS\Figs 2020` — late-season tree if 2023 has no stubborn green fruit
+
+PD fill: none. A botanical plate does not show a missed ripening window.
+
+### 02 — Tight-eye — `drafts/02-tight-eye-vs-open-eye.md`
+
+1. `D:\FIGS\Fig Fruit` — tight ostiole close-up; split/sour after rain
+2. `D:\FIGS\More Fig Pictures` — open eye if Fig Fruit is all pretty ripe shots
+3. `D:\FIGS\Malta_Black_Fig` — dark fruit eye (do not invent “tight” in the caption unless the photo shows it)
+
+PD fill **only** if no ostiole close-up exists: [Feige-Schnitt.png](https://commons.wikimedia.org/wiki/File:Feige-Schnitt.png) (PD). Caption: Commons anatomy, not a cultivar.
+
+### 03 — Breba vs main — `drafts/03-breba-vs-main-crop.md`
+
+1. `D:\FIGS\Breba 2025` — swell on last year’s wood
+2. `D:\FIGS\Figs-summer-23` — main crop in this year’s axils
+3. `D:\FIGS\Figs` — prune / wood contrast if Breba 2025 is fruit-only
+
+PD fill: none.
+
+### 04 — Pot vs in-ground — `drafts/04-pot-vs-in-ground-south.md`
+
+1. `D:\FIGS\Greenhouse photos` — #3 / #5 pots, labels, mix
+2. `D:\FIGS\Fig Jam Article` — collection-in-pots stills already used in public notes
+3. `D:\FIGS\Figs` — in-ground South Arkansas tree
+
+PD fill: none.
+
+### 05 — Flavor families — `drafts/05-fig-flavor-families.md`
+
+1. `D:\FIGS\Fig Fruit` — plate cuts (red/berry pulp vs amber/honey)
+2. `D:\FIGS\More Fig Pictures` — second family if Fig Fruit is one color
+3. `D:\FIGS\El Dorado Fig` or `D:\FIGS\Malta_Black_Fig` — one named fruit we have eaten, captioned as that tree
+
+PD fill: none. Do not use Commons ‘Panache’ as a flavor example.
+
+### 06 — Fridge storage — `drafts/06-storing-dormant-cuttings.md`
+
+1. `D:\FIGS\Bulk Cuttings` — lignified dormant bundle
+2. `D:\FIGS\Damaged Cuttings` — mold / wet-bag discard
+3. `D:\FIGS\FigRoots` — any existing cuttings-standard still from the site
+
+PD fill: none. Fridge + thermometer is a phone shot if the folders lack it.
+
+### 07 — Rooting failures — `drafts/07-rooting-failure-modes.md`
+
+1. `D:\FIGS\DE vs CC` — cups: rot, callus-only, dry
+2. `D:\FIGS\DE vs Coco Coir Photos` — same 2023 A/B set (link the live post, do not restage numbers)
+3. `D:\FIGS\Damaged Cuttings` — if the DE folders are only “success” cups
+
+PD fill: none.
+
+### 08 — Birds / pests — `drafts/08-birds-pests-green-vs-dark.md`
+
+1. `D:\FIGS\Fig Fruit` — pecked fruit or a ripe dark fig birds would hit
+2. `D:\FIGS\More Fig Pictures` — ripe green-skinned fruit on the tree
+3. `D:\FIGS\Malta_Black_Fig` — dark ripe contrast
+
+PD fill: none. Netting is a new still if we never shot it.
+
+### 09 — Clay / drainage — `drafts/09-soil-drainage-clay.md`
+
+1. `D:\FIGS\Figs` — in-ground / bed after rain
+2. `D:\FIGS\Greenhouse photos` — pot mix, drainage, standing water in a tray
+3. `D:\FIGS\Bulk Cuttings` — raised-bed / outdoor stick rows (same physics as a high planting)
+
+PD fill: none. A puddle in a new hole is a five-minute phone shot if missing.
+
+### 10 — Shade + water — `drafts/10-summer-shade-and-water.md`
+
+1. `D:\FIGS\Figs-summer-23` — July wilt, afternoon sun, summer irrigation
+2. `D:\FIGS\Greenhouse photos` — pots under cover / shade
+3. `D:\FIGS\Figs` — east-wall or yard shade if 2023 is all full-sun heroes
+
+PD fill: none.
+
+### 11 — True-to-type — `drafts/11-verifying-variety-true-to-type.md`
+
+1. `D:\FIGS\Fig Labels` — tag vs fruit
+2. `D:\FIGS\Fig Jam Article` — collection labels / known wood
+3. `D:\FIGS\El Dorado Fig` — one named tree we can stand behind (or `Malta_Black_Fig`)
+
+PD fill: none.
+
+### 12 — Cuttings calendar — `drafts/12-seasonal-cuttings-calendar.md`
+
+1. `D:\FIGS\Bulk Cuttings` — winter / dormant wood
+2. `D:\FIGS\Damaged Cuttings` — cooked or crushed ship-ins
+3. `D:\FIGS\Figs-summer-23` — green summer wood (do-not-fridge)
+
+PD fill: none.
+
+## PD / CC0 (only after a miss)
+
+Recheck the Commons file page the day you download. Full notes in `SOURCES.md`.
+
+| Need | Fill | License |
 |---|---|---|
-| `D:\FIGS\` | Master stills | [VERIFY] top-level names |
-| `D:\FIGS\cuttings\` | Lignified vs green, nodes, wash, parafilm, bags, damaged wood | Prefer |
-| `D:\FIGS\rooting\` | Fig pops, coir squeeze, DE cups, rot / callus / dry failures | Prefer |
-| `D:\FIGS\fruit\` | Ostiole tight/open, split/sour, flavor cuts, green vs dark ripe | Prefer |
-| `D:\FIGS\trees\` | #3/#5 pots, in-ground 8a, wilt, afternoon shade, breba wood vs new wood | Prefer |
-| `D:\FIGS\soil\` | Standing water, raised beds, mulch rings, pot mix | Prefer |
-| `D:\FIGS\pests\` | Pecked fruit, netting, beetles on open eyes | Prefer |
-| `D:\FIGS\identity\` | Label vs plate, notebooks, trusted bundles | Prefer |
-| FigRoots WP media / fruitaholics stills | Already-published how-to shots | Reuse if caption-true |
-| `D:\FIGS` sister folders if they exist (`fruit`, `varieties`, dated shoots) | [VERIFY] | Prefer over Commons |
+| Ostiole anatomy if Fig Fruit has no close-up | https://commons.wikimedia.org/wiki/File:Feige-Schnitt.png | PD (author release) |
+| Decorative habit, not a name we sell | https://commons.wikimedia.org/wiki/File:Chorwacja,_figi_na_wyspie_Ciovo.JPG | PD (author release) |
+| Government still | USDA ARS Image Gallery *Ficus* search | US gov PD unless marked |
 
-Google Drive had scripts named `figs2.py` … `figs9.py` and a `gilley_4figs` folder. That is not a photo library. Do not treat Drive code as FigRoots media.
-
-## Per-article checklist
-
-For each draft: shoot or pull **ours**, then only if a teaching hole remains, consider a PD fill from `SOURCES.md`.
-
-### 01 — GDD (`01-fig-growing-degree-days.md`)
-
-- [ ] `D:\FIGS\fruit\` — hard-green fruit on the tree in late September
-- [ ] `D:\FIGS\trees\` — July canopy in 8a (heat is not the same as “finished”)
-- [ ] Skip Commons here. A botanical plate does not show a missed ripening window.
-
-### 02 — Tight-eye (`02-tight-eye-vs-open-eye.md`)
-
-- [ ] `D:\FIGS\fruit\` — tight ostiole close-up (small ripe fig)
-- [ ] `D:\FIGS\fruit\` — open eye after rain
-- [ ] `D:\FIGS\fruit\` — split / sour discard the same morning
-- [ ] PD fill only for ostiole anatomy: Feige-Schnitt.png (PD). Caption: Commons, not a cultivar name.
-
-### 03 — Breba vs main (`03-breba-vs-main-crop.md`)
-
-- [ ] `D:\FIGS\trees\` — swell on last year’s wood
-- [ ] `D:\FIGS\trees\` — figs in axils of this year’s shoot
-- [ ] `D:\FIGS\trees\` — a hard late-winter prune (what you are deleting)
-
-### 04 — Pot vs ground (`04-pot-vs-in-ground-south.md`)
-
-- [ ] `D:\FIGS\trees\` — #3 and #5 block, paint-pen labels
-- [ ] `D:\FIGS\trees\` — in-ground after winter (live wood visible)
-- [ ] `D:\FIGS\soil\` or mix pile — open potting mix (perlite visible)
-
-### 05 — Flavor families (`05-fig-flavor-families.md`)
-
-- [ ] `D:\FIGS\fruit\` — berry / red pulp on a plate
-- [ ] `D:\FIGS\fruit\` — honey / amber pulp
-- [ ] `D:\FIGS\fruit\` — two trees, one sold name (if we have that scar)
-- [ ] Do **not** use Commons ‘Panache’ as a flavor example.
-
-### 06 — Fridge storage (`06-storing-dormant-cuttings.md`)
-
-- [ ] `D:\FIGS\cuttings\` — dormant lignified bundle
-- [ ] `D:\FIGS\cuttings\` — parafilm + two bags + crisper (thermometer in frame if possible)
-- [ ] `D:\FIGS\cuttings\` — moldy bag (teaching discard)
-
-### 07 — Rooting failures (`07-rooting-failure-modes.md`)
-
-- [ ] `D:\FIGS\rooting\` — black mush base
-- [ ] `D:\FIGS\rooting\` — callus, no roots
-- [ ] `D:\FIGS\rooting\` — raisin-dry top nodes
-- [ ] Reuse Fig Pop moisture photos if they already show the squeeze test
-
-### 08 — Birds / pests (`08-birds-pests-green-vs-dark.md`)
-
-- [ ] `D:\FIGS\pests\` — pecked dark fig
-- [ ] `D:\FIGS\fruit\` — ripe green-skinned fig on the tree
-- [ ] `D:\FIGS\pests\` — netting we actually used
-
-### 09 — Clay / drainage (`09-soil-drainage-clay.md`)
-
-- [ ] `D:\FIGS\soil\` — hole still holding water
-- [ ] `D:\FIGS\soil\` — raised bed (cuttings or trees)
-- [ ] `D:\FIGS\soil\` — mulch pulled back from the trunk
-
-### 10 — Shade + water (`10-summer-shade-and-water.md`)
-
-- [ ] `D:\FIGS\trees\` — wilted pot on gravel / black plastic
-- [ ] `D:\FIGS\trees\` — morning sun, afternoon shade
-- [ ] `D:\FIGS\trees\` — sprinklers on the pot block
-
-### 11 — True-to-type (`11-verifying-variety-true-to-type.md`)
-
-- [ ] `D:\FIGS\identity\` — tag vs first fruit
-- [ ] `D:\FIGS\cuttings\` — wood from a known tree
-- [ ] `D:\FIGS\identity\` — notebook (date, eye, three words)
-
-### 12 — Cuttings calendar (`12-seasonal-cuttings-calendar.md`)
-
-- [ ] `D:\FIGS\cuttings\` — winter prune wood
-- [ ] `D:\FIGS\cuttings\` — green summer wood
-- [ ] `D:\FIGS\cuttings\` — a cooked mailbox package (if we have one; do not stage fake damage)
-
-## PD / CC0 fill board (only after a miss)
-
-Copy from `SOURCES.md`. Recheck the Commons file page the day you download. Licenses get edited.
-
-| Need | Allowed fill | License |
-|---|---|---|
-| Cross-section / eye teaching | https://commons.wikimedia.org/wiki/File:Feige-Schnitt.png | PD (author release) |
-| Tree habit (not AR, not a name we sell) | https://commons.wikimedia.org/wiki/File:Chorwacja,_figi_na_wyspie_Ciovo.JPG | PD (author release) |
-| Decorative tree + fruit (must say Commons) | https://commons.wikimedia.org/wiki/File:Ficus_carica_%27Panache%27.jpg | CC0 1.0 |
-| Historical plate | https://commons.wikimedia.org/wiki/File:Ficus_carica_L,_1771.jpg | [VERIFY] US PD tag |
-| Government still | USDA ARS Image Gallery fig / *Ficus* search | US gov PD unless marked |
-
-Skip CC BY-SA “pretty fig” photos for this project.
+Skip CC BY-SA “pretty fig” photos. Skip Commons ‘Panache’ as if it were ours.
 
 ## Caption rules
 
-- Ours: what it is, when (season), where if it matters (pot vs ground, rain week). No fake variety if we are unsure — say “unnamed” or the pot tag plus “unverified.”
+- Ours: what it is, season, pot vs ground if it matters. If the clone is unsure, say the pot tag plus “unverified.”
+- Named folders (`Malta_Black_Fig`, `El Dorado Fig`) are still not automatic proof of type — same patience as the true-to-type draft.
 - PD: file name, URL, license, “not our tree.”
-- No success-rate watermarks. No “92% rooted” banners on a cup photo.
+- No success-rate watermarks. No “92% rooted” banners.
 
-## Shoot list if the drive is thin
+## If a folder is thin
 
-Highest-value new stills (one evening with a phone):
+Shoot stills (phone is fine). Do not reach into `.dtrash`. Do not grab a video frame unless the still folders and a new photo both fail.
 
-1. Tight eye vs open eye vs sour split (same table)
-2. Callus-only vs rot vs dry stick (three cups)
-3. Cisper bag + thermometer
-4. #3 pots vs one in-ground trunk
-5. Hard-green late fruit
+Highest-value new stills:
 
-Those five cover more of this calendar than a pretty whole-tree hero shot.
+1. Tight eye vs open eye vs sour split (`Fig Fruit`)
+2. Callus-only vs rot vs dry stick (`DE vs CC`)
+3. Crisper bag + thermometer (`Bulk Cuttings`)
+4. #3 pots vs one in-ground trunk (`Greenhouse photos` + `Figs`)
+5. Hard-green late fruit (`Fig Fruit`)

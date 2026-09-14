@@ -10,15 +10,18 @@ tags:
   - arkansas
   - winter
 images:
-  - path: "D:\\FIGS\\trees\\old-wood-breba-swell"
+  - path: "D:\\FIGS\\Breba 2025"
     caption: "Swelling on last year’s wood — a breba attempt. Photograph it before a late freeze writes the ending."
     source: ours
-  - path: "D:\\FIGS\\trees\\current-season-main-crop"
+    folder_pick: "Breba 2025"
+  - path: "D:\\FIGS\\Figs-summer-23"
     caption: "Figs in the leaf axils of this year’s shoot. This is the crop we actually eat in 8a."
     source: ours
-  - path: "D:\\FIGS\\trees\\hard-pruned-celeste"
-    caption: "A late-winter hat-rack prune. On some varieties this deletes the year’s fruit."
+    folder_pick: "Figs-summer-23"
+  - path: "D:\\FIGS\\Figs"
+    caption: "Wood / prune contrast if Breba 2025 is fruit-only."
     source: ours
+    folder_pick: "Figs"
 status: draft
 voice_check: human
 pillar: culture

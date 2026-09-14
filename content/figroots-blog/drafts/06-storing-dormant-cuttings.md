@@ -10,15 +10,18 @@ tags:
   - parafilm
   - propagation
 images:
-  - path: "D:\\FIGS\\cuttings\\lignified-dormant-bundle"
-    caption: "Brown / gray wood, no sap on a fresh cut. This is what you may store."
+  - path: "D:\\FIGS\\Bulk Cuttings"
+    caption: "Brown / gray lignified bundle, no sap on a fresh cut. This is what you may store."
     source: ours
-  - path: "D:\\FIGS\\cuttings\\parafilm-double-bag-crisper"
-    caption: "Parafilm on the wood, then two bags, then the crisper — not the freezer wall."
+    folder_pick: "Bulk Cuttings"
+  - path: "D:\\FIGS\\Damaged Cuttings"
+    caption: "Fuzzy or crushed wood. Pull it. Do not ‘wait and see’ on mold."
     source: ours
-  - path: "D:\\FIGS\\cuttings\\fridge-mold-discard"
-    caption: "Fuzzy bag. Pull the bad sticks. Do not ‘wait and see’ on mold."
+    folder_pick: "Damaged Cuttings"
+  - path: "D:\\FIGS\\FigRoots"
+    caption: "Existing cuttings-standard still from site assets, if the bulk folders lack a clean dormant shot."
     source: ours
+    folder_pick: "FigRoots"
 status: draft
 voice_check: human
 pillar: propagation

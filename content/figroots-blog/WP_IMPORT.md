@@ -21,7 +21,7 @@ WordPress will eat a raw `.md` file badly if you drop the YAML on the canvas.
 7. **Status: Draft.** Save. Do not Publish.
 8. Body: copy from the first markdown heading (or the first paragraph after the `---`) to the end of the file. Paste into a custom-html block as markdown only if your builder supports it; otherwise paste into the block editor and restore H2s (`##` → Heading 2).
 9. Strip leftover markdown artifacts (`**bold**` → native bold). Keep links to existing FigRoots posts. Keep `[VERIFY]` visible in draft so a human can resolve it before any future publish.
-10. Featured image: one `D:\FIGS` shot from that post’s `images:` list. Do not use a Commons fruit photo as the featured image for a named variety.
+10. Featured image: one still from that post’s `folder_pick` on KC-PC (`D:\FIGS\Fig Fruit`, `Breba 2025`, `Bulk Cuttings`, `DE vs CC`, …). Do not pull from `.dtrash`. Do not use a video frame if a still exists. Do not use a Commons fruit photo as the featured image for a named variety. Leave the post **Draft**.
 
 ## What not to paste onto the live page
 

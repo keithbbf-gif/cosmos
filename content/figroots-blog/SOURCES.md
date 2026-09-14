@@ -61,7 +61,7 @@ No medical or “sterilizes all pathogens” claims. Bleach / H2O2 stay at FigRo
 
 ## Public-domain / CC0 image candidates (fills only)
 
-**Ours first.** See `PHOTO_MANIFEST.md` and `D:\FIGS`. Do not publish a PD fruit photo as if it were a named FigRoots variety.
+**Ours first.** KC-PC library: `D:\FIGS\Fig Fruit`, `More Fig Pictures`, `Figs`, `Figs 2020`, `Figs-summer-23`, `Malta_Black_Fig`, `El Dorado Fig`, `Breba 2025`, `Bulk Cuttings`, `Damaged Cuttings`, `DE vs CC`, `DE vs Coco Coir Photos`, `Fig Jam Article`, `Fig Labels`, `Greenhouse photos`, `Grafting`, `FigRoots`. Skip `.dtrash`. Stills over `Fig & Garden Videos` / `2025 Fig Videos`. See `PHOTO_MANIFEST.md`. Do not publish a PD fruit photo as if it were a named FigRoots variety.
 
 | File | License | URL | Possible use |
 |---|---|---|---|

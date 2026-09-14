@@ -10,15 +10,18 @@ tags:
   - dried-fruit-beetle
   - harvest
 images:
-  - path: "D:\\FIGS\\pests\\pecked-dark-fig"
-    caption: "One peck in a dark fig the morning it softened. The bird was earlier than we were."
+  - path: "D:\\FIGS\\Fig Fruit"
+    caption: "Pecked fruit, or a ripe dark fig birds would hit from the fence line."
     source: ours
-  - path: "D:\\FIGS\\fruit\\ripe-green-skinned-on-tree"
-    caption: "Ripe green-skinned fig. Easy to miss if you only hunt purple."
+    folder_pick: "Fig Fruit"
+  - path: "D:\\FIGS\\More Fig Pictures"
+    caption: "Ripe green-skinned fig on the tree. Easy to miss if you only hunt purple."
     source: ours
-  - path: "D:\\FIGS\\pests\\netting-on-in-ground"
-    caption: "Net on a tree we actually wanted to eat from. Ugly. Effective."
+    folder_pick: "More Fig Pictures"
+  - path: "D:\\FIGS\\Malta_Black_Fig"
+    caption: "Dark ripe contrast on a named tree we have. Netting is a new still if we never shot it."
     source: ours
+    folder_pick: "Malta_Black_Fig"
 status: draft
 voice_check: human
 pillar: fruit

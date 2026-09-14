@@ -10,12 +10,18 @@ tags:
   - variety-selection
   - climate
 images:
-  - path: "D:\\FIGS\\fruit\\unripe-on-tree-late-season"
-    caption: "Late September fruit that never softened — heat ran out before the variety did."
+  - path: "D:\\FIGS\\Fig Fruit"
+    caption: "Hard-green fruit that never softened — heat ran out before the variety did."
     source: ours
-  - path: "D:\\FIGS\\trees\\zone-8a-canopy-july"
+    folder_pick: "Fig Fruit"
+  - path: "D:\\FIGS\\Figs-summer-23"
     caption: "South Arkansas July canopy. Plenty of heat. Still not a license for every late fig."
     source: ours
+    folder_pick: "Figs-summer-23"
+  - path: "D:\\FIGS\\Figs 2020"
+    caption: "Older late-season tree still if 2023 has no stubborn green fruit."
+    source: ours
+    folder_pick: "Figs 2020"
 status: draft
 voice_check: human
 pillar: climate

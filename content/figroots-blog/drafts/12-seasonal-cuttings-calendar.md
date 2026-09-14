@@ -10,15 +10,18 @@ tags:
   - regions
   - shipping
 images:
-  - path: "D:\\FIGS\\cuttings\\winter-prune-lignified"
+  - path: "D:\\FIGS\\Bulk Cuttings"
     caption: "Dormant prune wood. This is the cutting season that stores."
     source: ours
-  - path: "D:\\FIGS\\cuttings\\summer-green-do-not-fridge"
+    folder_pick: "Bulk Cuttings"
+  - path: "D:\\FIGS\\Damaged Cuttings"
+    caption: "A package that sat in a hot box, or crushed wood. Open it in the shade and decide fast."
+    source: ours
+    folder_pick: "Damaged Cuttings"
+  - path: "D:\\FIGS\\Figs-summer-23"
     caption: "Green summer wood. Root it. Do not file it in the crisper."
     source: ours
-  - path: "D:\\FIGS\\cuttings\\mailbox-hot-package"
-    caption: "A package that sat in a hot box. Open it in the shade and decide fast."
-    source: ours
+    folder_pick: "Figs-summer-23"
 status: draft
 voice_check: human
 pillar: propagation

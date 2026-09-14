@@ -11,15 +11,18 @@ tags:
   - arkansas
   - southeast
 images:
-  - path: "D:\\FIGS\\fruit\\ostiole-tight-closeup"
-    caption: "Closed ostiole on a small ripe fig. This is the hole you are betting the season on."
+  - path: "D:\\FIGS\\Fig Fruit"
+    caption: "Tight ostiole close-up, or split/sour after rain. This is the hole you are betting the season on."
     source: ours
-  - path: "D:\\FIGS\\fruit\\ostiole-open-after-rain"
-    caption: "Open eye after a storm — beetles and souring have a door."
+    folder_pick: "Fig Fruit"
+  - path: "D:\\FIGS\\More Fig Pictures"
+    caption: "Open eye after a storm if Fig Fruit is all pretty ripe shots."
     source: ours
-  - path: "D:\\FIGS\\fruit\\split-sour-discard"
-    caption: "Split and sour fruit pulled the same morning. Do not leave it for the wasps."
+    folder_pick: "More Fig Pictures"
+  - path: "D:\\FIGS\\Malta_Black_Fig"
+    caption: "Dark fruit eye on a named tree we actually have. Do not call it tight unless the photo shows it."
     source: ours
+    folder_pick: "Malta_Black_Fig"
 status: draft
 voice_check: human
 pillar: fruit

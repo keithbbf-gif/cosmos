@@ -57,7 +57,7 @@ Kill the draft if any of these show up:
 4. Mix short sentences with longer ones. Do not march in identical paragraph lengths.
 5. Earn the opinion. “I would root it now.” “I would not buy that off a marketplace.” “We still have Celeste in the ground because we give a variety a long trial.” If you have not done it, do not pretend.
 6. Cite a source or mark **`[VERIFY]`**. No fake A/B tests. No fake “92% of our customers.” No invented fridge-month guarantees. The coir/DE percentages already published on FigRoots may be cited as *that* test, not as a universal law.
-7. Prefer photos from **`D:\FIGS`** (and FigRoots media). Public-domain fills only from USDA or Wikimedia Commons **PD / CC0**, with URL + license in `SOURCES.md`. No nursery-catalog scrapes.
+7. Prefer photos from **`D:\FIGS`** on KC-PC. Use the real folder names in `PHOTO_MANIFEST.md` (Fig Fruit, Breba 2025, Bulk Cuttings, DE vs CC, Fig Labels, Greenhouse photos, FigRoots, …). Skip `.dtrash`. Stills over video. Public-domain fills only from USDA or Wikimedia Commons **PD / CC0**, with URL + license in `SOURCES.md`. No nursery-catalog scrapes.
 
 ## Sentence test
 
@@ -76,9 +76,10 @@ meta_description: ...   # one or two sentences, no hype verbs from the ban list
 author: Jack Chambers | PapaFig
 tags: []
 images:
-  - path: "D:\\FIGS\\..."   # ours first
+  - path: "D:\\FIGS\\Fig Fruit"   # real KC-PC folder; see PHOTO_MANIFEST.md
     caption: "..."
     source: ours            # ours | pd
+    folder_pick: "Fig Fruit"
     license: ""             # required if source: pd
 status: draft
 voice_check: human

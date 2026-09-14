@@ -10,15 +10,18 @@ tags:
   - nematodes
   - potting-mix
 images:
-  - path: "D:\\FIGS\\trees\\nursery-pots-3-and-5-gallon"
-    caption: "Black #3 and #5 pots, paint-pen labels. This is most of the collection on a given July day."
+  - path: "D:\\FIGS\\Greenhouse photos"
+    caption: "Black #3 and #5 pots, labels, mix. This is most of the collection on a given July day."
     source: ours
-  - path: "D:\\FIGS\\trees\\in-ground-south-arkansas"
+    folder_pick: "Greenhouse photos"
+  - path: "D:\\FIGS\\Fig Jam Article"
+    caption: "Collection-in-pots stills already used in public notes."
+    source: ours
+    folder_pick: "Fig Jam Article"
+  - path: "D:\\FIGS\\Figs"
     caption: "In-ground fig after a South Arkansas winter. Count the live wood before you brag on the variety."
     source: ours
-  - path: "D:\\FIGS\\soil\\pot-mix-perlite-castings"
-    caption: "Open, fast mix. If water stands on top, the pot is lying to you."
-    source: ours
+    folder_pick: "Figs"
 status: draft
 voice_check: human
 pillar: culture

@@ -10,15 +10,18 @@ tags:
   - cuttings
   - collecting
 images:
-  - path: "D:\\FIGS\\identity\\label-vs-first-fruit"
+  - path: "D:\\FIGS\\Fig Labels"
     caption: "The tag says one name. The first plate says another. Keep both photos."
     source: ours
-  - path: "D:\\FIGS\\identity\\trusted-wood-bundle"
-    caption: "Cuttings from a person who has eaten the fruit on their own tree."
+    folder_pick: "Fig Labels"
+  - path: "D:\\FIGS\\Fig Jam Article"
+    caption: "Collection labels / known wood from a tree we have eaten."
     source: ours
-  - path: "D:\\FIGS\\identity\\notebook-taste-date-eye"
-    caption: "Date, eye, size, three flavor words. This is how a name becomes real."
+    folder_pick: "Fig Jam Article"
+  - path: "D:\\FIGS\\El Dorado Fig"
+    caption: "One named tree we can stand behind. A folder name is not automatic proof of type."
     source: ours
+    folder_pick: "El Dorado Fig"
 status: draft
 voice_check: human
 pillar: identity
