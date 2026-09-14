@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # The 3D card that taught a generation, then vanished
@@ -26,7 +27,7 @@ If you write GPU history as a straight line from GeForce 256 to H100, you skip t
 
 3dfx’s disappearance is sometimes told as if NVIDIA erased a competitor out of spite. The public record is duller and sadder: missed ramps, a failed transition to a single-board future, cash going the wrong way, an asset sale. Spite is optional. Timing is not. The company that owned Christmas 1997 did not own Christmas 2000.
 
-A standalone magazine piece should resist the eulogy that makes 3dfx the “true” GPU company. They built a beloved 3D accelerator and a beloved API, then lost both. The later compute story does not need them as saints. It needs them as proof that a graphics culture can be real, popular, and still not be the platform that survives. Glide is a ghost because ghosts are APIs nobody new is writing to.
+Resist the eulogy that makes 3dfx the “true” GPU company. They built a beloved 3D accelerator and a beloved API, then lost both. The later compute story does not need them as saints. It needs them as proof that a graphics culture can be real, popular, and still not be the platform that survives. Glide is a ghost because ghosts are APIs nobody new is writing to.
 
 If you want a physical object, find a Voodoo2 with the pass-through VGA cables still in the bag. The cables are the thesis. For a few years, 3D was something you inserted between the computer and the screen. Then the computer swallowed it, named it GPU, and eventually asked it to do linear algebra for a living.
 

@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Tesla: compute without a monitor
@@ -20,7 +21,7 @@ Why strip the display? Partly because a compute job should not fight a desktop c
 
 The name Tesla — this is the GPU brand, years before a car company made the word louder — was also a way to keep GeForce from being the only story. If CUDA only ran on toys, scientific users would treat it as a toy. If CUDA ran on a server you could rack, the conversation changed. The hardware was still close to GeForce. The warranty, the firmware, the missing outputs, the datasheet language: those were the product.
 
-Later Tesla boards kept the idea and changed the silicon. The C2050 and C2070, Fermi-class, added ECC and a cache hierarchy and talked about double precision like a supercomputer vendor. The K20, the M40, the P100, the V100 — the badges moved, the brand held, until NVIDIA folded the name into “data center GPU” and let Tesla the car own the everyday noun. A magazine piece in 2026 has to say the word carefully. In 2007 it meant a board.
+Later Tesla boards kept the idea and changed the silicon. The C2050 and C2070, Fermi-class, added ECC and a cache hierarchy and talked about double precision like a supercomputer vendor. The K20, the M40, the P100, the V100 — the badges moved, the brand held, until NVIDIA folded the name into “data center GPU” and let Tesla the car own the everyday noun. In 2026 you have to say the word carefully. In 2007 it meant a board.
 
 There is a culture inside this SKU. Tesla buyers expected error stories, not frame times. They expected a driver that would not reset because a Windows desktop timed out. They expected Fortran. NVIDIA’s early compute marketing leaned on that culture even when the silicon was a cousin of a gaming part. Some of the later trust that made AlexNet’s GTX 580s feel respectable in a paper — consumer cards, but CUDA cards — sits on the Tesla launch having already told science that NVIDIA was serious.
 

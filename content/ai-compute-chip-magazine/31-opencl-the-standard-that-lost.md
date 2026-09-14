@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # OpenCL: the standard that arrived on time and still lost
@@ -24,7 +25,7 @@ I am not writing an obituary. OpenCL still exists. It still makes sense in some 
 
 If you want a physical object, the Khronos OpenCL 1.0 specification PDF is enough. Print the participant list on page whatever and read it as a picture of an industry that thought it could standardize its way out of a platform war. The war continued. The specification is still there, public, royalty-free, and not what your PyTorch install talks to by default.
 
-A standalone article should not turn this into a morality play about open versus closed. OpenCL was open and late in the only way that mattered: late to the wetland. CUDA was closed and early to the wetland. The wetland won. That sentence is enough.
+Do not turn this into a morality play about open versus closed. OpenCL was open and late in the only way that mattered: late to the wetland. CUDA was closed and early to the wetland. The wetland won. That sentence is enough.
 
 ## Sources
 

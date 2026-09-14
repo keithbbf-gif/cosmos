@@ -8,19 +8,18 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Hopper: the transformer as a product requirement
 
 By the time NVIDIA announced Hopper and the H100 in 2022, the transformer was no longer a paper from 2017. It was the training workload that ate clusters. NVIDIA’s public Hopper materials talk about a Transformer Engine: hardware and software that mix precisions, including FP8, along a transformer-shaped path. That is a different sentence from “we made Tensor Cores faster.” It is a sentence that names the model family on the tin.
 
-FP8 is the headline format. Smaller numbers, more of them per second, more of them per byte of HBM. The bargain is familiar: if the training recipe can stand the rounding, the chip will look twice as clever in a slide. Hopper’s software story — cuDNN, Transformer Engine libraries, later FlashAttention-class kernels that may or may not sit in NVIDIA’s tree — is about making that bargain default for the models people were actually running. GPT-class training is matrix math plus a memory-system problem. Hopper is aimed at both.
+FP8 is the headline format. Smaller numbers, more of them per second, more of them per byte of HBM. The bargain is familiar: if the training recipe can stand the rounding, the chip will look twice as clever in a slide. Hopper’s software story — cuDNN, Transformer Engine libraries, later FlashAttention-class kernels that may or may not sit in NVIDIA’s tree — is about making that bargain default for the models people were actually running. Some of those kernels came from NVIDIA. Some came from papers and university groups that NVIDIA then had to keep up with. The factory is not only a die. It is a race between a vendor library and a GitHub repo that implemented memory-efficient attention before the vendor slide caught up. GPT-class training is matrix math plus a memory-system problem. Hopper is aimed at both.
 
 NVLink 4 and the NVSwitch generation that accompanies Hopper are how eight or sixteen H100s become a node, and how nodes become a rack. The chip is not only an SM design. It is a claim about a scale-up domain. People started quoting H100-count the way they had quoted A100-count, then discovered that the count without the switch topology is a lie. Hopper is where that lie got expensive enough to notice.
 
-A second public fact: H100 shipped into a shortage. Cloud prices, secondary-market listings, and company filings through 2023–2024 made the board a character in business journalism. This article will not recite stock prices. It will say that a GPU generation’s meaning is partly its scarcity. When a chip is scarce, software people write to the chip they can get, and researchers time papers to cluster grants. Hopper’s cultural footprint is that scarcity as much as FP8.
-
-The software that made Hopper look like a transformer factory is also public: Transformer Engine libraries, cuDNN paths, later fused attention kernels in the frameworks. Some of those kernels came from NVIDIA. Some came from papers and university groups that NVIDIA then had to keep up with. The factory is not only a die. It is a race between a vendor library and a GitHub repo that implemented the memory-efficient attention before the vendor slide caught up. That race is the 2022–2024 plot under the product name.
+H100 also shipped into a shortage. Cloud prices, secondary-market listings, and company filings through 2023–2024 made the board a character in business journalism. A GPU generation’s meaning is partly its scarcity. When a chip is scarce, software people write to the chip they can get, and researchers time papers to cluster grants. Hopper’s cultural footprint is that scarcity as much as FP8.
 
 HPC is still on the slide. H100 has an FP64 story. Some sites bought it for simulation. The gravity is elsewhere. You can feel it in the keynote demos, in the partner announcements, in the way “for LLMs” became a default clause. Volta had to convince the world that deep learning was a GPU job. Hopper assumes the argument is over and optimizes the winner.
 

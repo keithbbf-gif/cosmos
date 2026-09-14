@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # AMD's long compute detour
@@ -24,7 +25,7 @@ GCN, then CDNA versus RDNA, is AMD splitting the product the way NVIDIA split Te
 
 If you want a physical object, an Instinct MI250X or MI300 board is the late-period object; a FireStream card is the early one. Hold the two in your head even if you cannot hold them in your hands. The distance between them is the detour: twenty years of trying to get the software to forgive the hardware.
 
-This article is not a prediction about who wins 2027. It is a record of a company that never left the aisle, never owned the default language, and still put accelerators into the fastest public supercomputers on earth. That combination is allowed. History is not a single-elimination bracket.
+This is not a prediction about who wins 2027. It is a record of a company that never left the aisle, never owned the default language, and still put accelerators into the fastest public supercomputers on earth. That combination is allowed. History is not a single-elimination bracket.
 
 ## Sources
 

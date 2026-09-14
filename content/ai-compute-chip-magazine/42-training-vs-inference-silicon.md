@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Training silicon and inference silicon are different animals
@@ -18,7 +19,7 @@ The differences are public and mechanical. Training wants high-bandwidth links b
 
 NVIDIA’s product line grew names that try to admit this: training-oriented SXM parts, inference-oriented T4 then L4 then various “edge” and “NVIDIA L-series” stories, Triton Inference Server as a software admission that serving is a job. Google grew v5e versus v5p style splits in the cloud catalog: efficiency versus peak. Amazon’s Inferentia and Trainium, as publicly described, are the split as two product nouns. The nouns are the tell. When a vendor uses two nouns, believe them.
 
-The confusion is profitable. A slide that says “AI performance” can pick the benchmark that fits the animal. TOP500-ish dense math, MLPerf Training, MLPerf Inference — pick one and you get a different winner. A magazine draft should refuse the combined slide. Ask: is this a week of training or a millisecond of serving? If the speaker cannot say, the speaker is selling.
+The confusion is profitable. A slide that says “AI performance” can pick the benchmark that fits the animal. TOP500-ish dense math, MLPerf Training, MLPerf Inference — pick one and you get a different winner. Refuse the combined slide. Ask: is this a week of training or a millisecond of serving? If the speaker cannot say, the speaker is selling.
 
 Edge inference is a third animal people keep stuffing into the same sentence. A phone NPU, a camera DSP, an automotive part — those care about idle watts and a thermal envelope you can hold. They are not a V100 and they are not a TPU pod. They belong in a different issue. Mentioning them here is only to stop the zoo sign from growing a third silent lie.
 
@@ -26,7 +27,7 @@ I have run both jobs on the same GPU because a GPU is a general-enough animal. T
 
 If you want a physical object, put a T4 next to a V100. Same era, same vendor, different animals. The T4 is a small inference/video part. The V100 is a training brick. People used each for the wrong job, because people are people. The hardware still knew.
 
-This article does not pick a winner in the inference-ASIC gold rush. It says the gold rush exists because the animals diverged in public, and because the combined slide became embarrassing. After 2017 you can still say “GPU.” You should not say “AI chip” without a clause.
+The inference-ASIC gold rush needs no winner named here. The gold rush exists because the animals diverged in public, and because the combined slide became embarrassing. After 2017 you can still say “GPU.” You should not say “AI chip” without a clause.
 
 ## Sources
 

@@ -8,13 +8,14 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Turing: real-time rays and the consumer tensor
 
 Turing, 2018, is a consumer architecture with two new nouns on the box: RT Cores and Tensor Cores. The first noun is for games that want hardware help tracing rays. The second is the Volta idea, trimmed and shipped in a GeForce. DLSS, NVIDIA’s deep-learning upscaler, is the public reason a gamer would care about a tensor unit. The quieter reason is that NVIDIA no longer wanted the specialized multiply hardware to live only in Tesla SKUs.
 
-This article is not a game review. It is about a boundary moving. For ten years the compute features that made a lab happy — ECC, big memory, lately Tensor Cores — were sold upstairs. GeForce got the shader count and the RGB. Turing put a datacenter idea into a card you could buy next to a case and a PSU, then wrapped it in a game feature so the card still had a Saturday-night job.
+This is not a game review. It is about a boundary moving. For ten years the compute features that made a lab happy — ECC, big memory, lately Tensor Cores — were sold upstairs. GeForce got the shader count and the RGB. Turing put a datacenter idea into a card you could buy next to a case and a PSU, then wrapped it in a game feature so the card still had a Saturday-night job.
 
 RT Cores are a different specialized unit: bounding-volume traversal and triangle intersection, the boring inner loop of a ray tracer, done in hardware so a game can afford a few extra rays. The public demos were reflections on a car hood. The architectural claim is older than the demos. Real-time rays had been a slide for twenty years. Turing is the generation NVIDIA decided to spend die area on it in volume chips.
 

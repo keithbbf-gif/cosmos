@@ -12,7 +12,7 @@ This is an issue of separate pieces, not one essay cut into files. You can read 
 ## How to use this folder
 
 - One article per file. One hook per article.
-- Front matter on each file marks `status: staged` and `kind: standalone-article`.
+- Front matter on each file marks `status: staged`, `kind: standalone-article`, and `voice_check: edited` after the editor pass (see `EDITOR_REPORT.md`).
 - Sources sit at the bottom of each piece. Prefer the original paper or the original press release over a later retelling.
 - Dates are calendar facts, not mythology. When a company later rewrote its own origin story, the article says so.
 
@@ -121,4 +121,4 @@ This is an issue of separate pieces, not one essay cut into files. You can read 
 
 ---
 
-*Masthead date: 2026-09-14. Staged for review.*
+*Masthead date: 2026-09-14. Staged for review. Editor pass logged in `EDITOR_REPORT.md`.*

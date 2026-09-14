@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # CUDA Graphs and the tax of launching a kernel
@@ -20,7 +21,7 @@ Capture is the uncanny part. You run the work once in capture mode, the runtime 
 
 I have watched people treat graphs as magic and then trip over a memcpy they did not mean to capture. I have also watched an inference server drop its CPU usage because the launch loop moved. Both are the feature. Graphs do not make math faster. They make telling the GPU to do the math less embarrassing.
 
-There is a longer arc here that includes CUDA streams, events, and the entire “keep the GPU busy from a single CPU thread” genre. Graphs are a late chapter of that genre, not a new Bible. Streams said: overlap. Events said: depend. Graphs said: stop re-explaining the dependence every millisecond. The three ideas stack. A history that starts at graphs will confuse a reader who has never met a stream. This article assumes you have met a stream, or can survive without a tutorial.
+There is a longer arc here that includes CUDA streams, events, and the entire “keep the GPU busy from a single CPU thread” genre. Graphs are a late chapter of that genre, not a new Bible. Streams said: overlap. Events said: depend. Graphs said: stop re-explaining the dependence every millisecond. The three ideas stack. A history that starts at graphs will confuse a reader who has never met a stream. If you already know streams, graphs are the late chapter; if not, they still make sense as a launch-tax story.
 
 If you want a physical object, you want a profiler timeline from 2017 with a sawtooth of tiny kernels and a lot of white space, then a timeline from 2020 with a fatter, calmer block. The white space was the tax. The calmer block is the receipt.
 

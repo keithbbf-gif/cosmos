@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Occupancy is not performance
@@ -28,7 +29,7 @@ There is a sibling myth about shared memory: more is better. Sometimes more shar
 
 If you want a physical object, the old CUDA Occupancy Calculator spreadsheet is a museum piece. It still teaches the constraints: registers per thread, shared memory per block, warps per SM. Use it as a fence, not as a score. A second object is an Nsight Compute report with the “speed of light” section: a set of bars that try to name the boss. When those bars disagree with the occupancy percentage, believe the bars.
 
-This article exists because magazine history is not only chips. It is the ideas that clustered around chips and became folklore. Occupancy folklore is one of CUDA’s longest-lived pieces of folklore. The hardware changed. The misunderstanding shipped forward, version after version, on slides with the same bar chart.
+Chip history is not only silicon. It is also the ideas that clustered around chips and became folklore. Occupancy folklore is one of CUDA’s longest-lived pieces of folklore. The hardware changed. The misunderstanding shipped forward, version after version, on slides with the same bar chart.
 
 ## Sources
 

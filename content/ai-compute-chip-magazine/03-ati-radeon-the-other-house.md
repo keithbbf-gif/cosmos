@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # The other house on the board: ATI, then AMD
@@ -26,7 +27,7 @@ A fair article also admits the driver jokes. ATI’s Catalyst suite, then AMD’
 
 The other house is easy to flatten into “the OpenCL company” or “the console company.” Both slogans are lazy. ATI/AMD spent a quarter century shipping rasterizers, then GCN compute units, then RDNA gaming architectures, then CDNA compute architectures — names AMD put on slides for a reason. Gaming and compute were split because the customers split. That split is public product strategy, not a secret.
 
-If you want a physical object, find a Radeon 9700 Pro with the copper-colored cooler. Hold it next to a GeForce 4 Ti 4600. Those two cards are the argument this article is about. Neither is a TPU. Neither speaks CUDA. Both are why “GPU” became a category people could shop, return, and review — a two-vendor aisle, not a single inventor’s monument.
+If you want a physical object, find a Radeon 9700 Pro with the copper-colored cooler. Hold it next to a GeForce 4 Ti 4600. Those two cards are the argument in a nutshell. Neither is a TPU. Neither speaks CUDA. Both are why “GPU” became a category people could shop, return, and review — a two-vendor aisle, not a single inventor’s monument.
 
 ## Sources
 

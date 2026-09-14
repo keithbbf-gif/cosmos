@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # TPU pods: when the network is the machine
@@ -20,7 +21,7 @@ Cloud TPUs, announced around the 2017 I/O season and then sold as a product, are
 
 v4, v5e, v5p, and later public names (Trillium, Ironwood — treat marketing names as marketing names) keep the pod idea and change the memory, the chip, the optics. A staged draft should not pretend to be a 2026 product matrix. It should say the idea stabilized: Google sells and uses rooms of systolic-array chips with a first-class interconnect, and the software assumes the room.
 
-Why a standalone article from the v1 piece? Because a sled that serves search ads and a pod that trains a model are different historical objects. One is specialization for latency. The other is specialization for throughput at scale. They share a brand and an MXU ancestry. They do not share a job.
+A sled that serves search ads and a pod that trains a model are different historical objects. One is specialization for latency. The other is specialization for throughput at scale. They share a brand and an MXU ancestry. They do not share a job.
 
 If you want a physical object, you probably want a photograph of a TPU pod aisle from a Google I/O or Next keynote: cabinets, pipes, a human for scale. The human is important. These machines are buildings. The disk-slot board was a guest in a building. The pod is the building’s point.
 

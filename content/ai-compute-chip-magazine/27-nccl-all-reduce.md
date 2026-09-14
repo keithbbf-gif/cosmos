@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # NCCL: all-reduce as industrial plumbing
@@ -18,7 +19,7 @@ NCCL’s public documentation is a catalog of collectives: all-reduce, all-gathe
 
 The library’s public life starts in the mid-2010s, when multi-GPU training stopped being a research demo and became a default. Horovod, open-sourced by Uber in 2017, made a thin MPI-ish wrapper over NCCL famous in the TensorFlow world. PyTorch Distributed later made `backend="nccl"` the path people copied out of the tutorial. Those front ends matter because they hid the collective. The hiding is why a lot of competent engineers can train on eight GPUs and still not be able to draw a ring. NCCL did the drawing.
 
-Why a standalone article? Because after a certain date, “multi-GPU training” is not a CUDA kernel story. It is an NCCL story with kernels on either side. Horovod, PyTorch Distributed, TensorFlow’s various strategies — the front ends changed, the collective library often did not. NCCL is infrastructure in the same sense as cuDNN. You do not demo it. You wait on it.
+After a certain date, “multi-GPU training” is not a CUDA kernel story. It is an NCCL story with kernels on either side. Horovod, PyTorch Distributed, TensorFlow’s various strategies — the front ends changed, the collective library often did not. NCCL is infrastructure in the same sense as cuDNN. You do not demo it. You wait on it.
 
 The failure modes are public and social. A hanging all-reduce is how a lot of people first learn they have a bad cable, a bad NIC, a rank that died, or a mismatch in the process group. The hang is not NCCL being mysterious. It is a collective being a collective: nobody goes home until everybody arrives. In a bedroom with two GTX 580s you could see both cards. In a 256-GPU job you see a timeout.
 
@@ -26,9 +27,9 @@ There is a politics of collectives that this piece will only point at. Other sta
 
 If you want a physical object, a printout of a ring all-reduce diagram from an NCCL talk is enough: GPUs in a loop, chunks chasing each other, bandwidth math in the corner. That diagram is how the 2016–2024 training boom actually moved bytes. The models got the magazine covers. The ring got the bytes.
 
-A second object is a stack of Ethernet or InfiniBand cables behind a GPU node. NCCL is not only an NVLink library. It is also the thing that has to stay fast when the job leaves the node. The later work on GPU-direct, NIC offload, and in-network reductions is public vendor material because the ring outgrew the midplane. When the collective leaves the box, the chip story becomes a network story. That is still this article. The heartbeat did not stay home.
+A second object is a stack of Ethernet or InfiniBand cables behind a GPU node. NCCL is not only an NVLink library. It is also the thing that has to stay fast when the job leaves the node. The later work on GPU-direct, NIC offload, and in-network reductions is public vendor material because the ring outgrew the midplane. When the collective leaves the box, the chip story becomes a network story. The heartbeat did not stay home.
 
-NCCL will keep growing new protocols for new NVLink generations and new NIC offloads. This article does not freeze a version. It freezes the role. Once gradient averaging became the heartbeat of the industry, the library that implements the heartbeat became part of the chip story — even though it is software — because the chip’s wires only matter if something knows how to use them.
+NCCL will keep growing new protocols for new NVLink generations and new NIC offloads. The library does not freeze a version. It freezes a role. Once gradient averaging became the heartbeat of the industry, the library that implements the heartbeat became part of the chip story — even though it is software — because the chip’s wires only matter if something knows how to use them.
 
 ## Sources
 

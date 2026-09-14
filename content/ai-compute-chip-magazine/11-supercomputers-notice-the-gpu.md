@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Supercomputers notice the graphics card
@@ -28,7 +29,7 @@ A note on dating: AlexNet’s ILSVRC 2012 win and Titan’s November 2012 TOP500
 
 If you want a physical object, you probably cannot have Titan’s cabinets. You can have the Tesla K20X board that made the node: a Kepler compute GPU, no monitor, a heatsink meant for a blower. That board is what “supercomputers noticed” looks like when you take the building away.
 
-The lesson for later AI clusters is not mystical. It is that the GPU entered the datacenter as an HPC guest and stayed as a landlord. The guest years are this article. The landlord years are every article after 2016.
+The lesson for later AI clusters is not mystical. It is that the GPU entered the datacenter as an HPC guest and stayed as a landlord. The guest years are the subject here. The landlord years came after 2016.
 
 ## Sources
 

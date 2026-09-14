@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # HBM: stacking DRAM until the package screamed
@@ -26,7 +27,7 @@ Capacity and bandwidth are different sales. Early HBM stacks were sometimes smal
 
 If you want a physical object, a delidded P100 or MI-series package in a lab photo is the one — or, more legally, a vendor cross-section slide. Look at how little of the expensive rectangle is “the GPU” in the old sense. The package is the product.
 
-This article is not a JEDEC spec recitation. It is the reason Pascal looked different, the reason A100 80 GB meant something, the reason a TPU pod’s per-chip memory is a sentence in a cloud doc. Stacked DRAM is how the decade answered the decade’s boss. The scream in the title is thermal and economic. Both were audible.
+Skip the JEDEC recitation. The reason Pascal looked different, the reason A100 80 GB meant something, the reason a TPU pod’s per-chip memory is a sentence in a cloud doc. Stacked DRAM is how the decade answered the decade’s boss. The scream in the title is thermal and economic. Both were audible.
 
 ## Sources
 

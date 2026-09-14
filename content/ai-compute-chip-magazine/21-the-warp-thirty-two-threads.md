@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # The warp: thirty-two threads that live or die together
@@ -16,7 +17,7 @@ CUDA’s public hierarchy is grids, blocks, and threads. The hardware’s favori
 
 SIMT is the name NVIDIA put on this: single instruction, multiple threads. It is SIMD with a friendlier story and a per-thread register file. The friendliness is real. You write scalar code. The unfriendliness is also real. Thirty-two is not a metaphor. A block of thirty-three threads wastes a slot. A warp that splits on `if (threadIdx.x > 16)` pays for both sides. A warp that gathers from random addresses turns a beautiful memory pipe into a drizzle.
 
-Why thirty-two? Architecture papers and talks give engineering reasons: register file design, instruction issue, the shape of a memory transaction. A magazine article should not pretend to have the die photo. It should say the number became culture. People pad arrays to multiples of thirty-two. People write “warp-synchronous” comments. People learned, then unlearned, then relearned what the compiler and the hardware guarantee about warp-level primitives. `__shfl` and later `cooperative_groups` are public APIs that exist because thirty-two is a social unit as well as a hardware unit.
+Why thirty-two? Architecture papers and talks give engineering reasons: register file design, instruction issue, the shape of a memory transaction. No die photo is required here. The number became culture. People pad arrays to multiples of thirty-two. People write “warp-synchronous” comments. People learned, then unlearned, then relearned what the compiler and the hardware guarantee about warp-level primitives. `__shfl` and later `cooperative_groups` are public APIs that exist because thirty-two is a social unit as well as a hardware unit.
 
 Other widths exist in the world. AMD’s wavefront was sixty-four on GCN for years, then could be thirty-two on later RDNA parts. That mismatch is why “just port the kernel” is a punchline. The warp is not a law of physics. It is NVIDIA’s law, and they kept it long enough that software crystallized around it.
 
@@ -24,7 +25,7 @@ Divergence is the drama. Neural-net kernels, luckily, are often uniform: every t
 
 If you want a physical object, you will not find a warp in a box. You will find it in an Nsight screenshot with 32-wide execution masks, or in a blog post from 2011 that is still correct about the number and wrong about a later primitive. The durability of the number is the story. Chips changed. Thirty-two stayed in the muscle memory.
 
-This piece is not a how-to on avoiding divergence. The public guides already do that. It is a history of a constant. Few constants in computing last twenty years in volume hardware. This one did. Respect it, then ask, when a new vendor arrives, what their constant is — and whether your software can forgive a different one.
+The public guides already cover divergence. This is a history of a constant. Few constants in computing last twenty years in volume hardware. This one did. Respect it, then ask, when a new vendor arrives, what their constant is — and whether your software can forgive a different one.
 
 ## Sources
 

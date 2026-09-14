@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Grids, blocks, threads: CUDA's street map
@@ -26,7 +27,7 @@ I still think the cartoon was the right lie. The alternative, in 2007, was to te
 
 If you want a physical object, there isn’t one. The object is a slide with three nested rectangles that has been copied so many times the arrows are different colors in every workshop. That slide is industrial heritage. Treat it that way. Cite the programming guide, not a rumor.
 
-This article is not a tutorial. It will not give you a kernel. It will say that NVIDIA’s longest-lived compute invention might not be a chip. It might be a picture of a chip that survived twenty years of chips.
+This is not a tutorial and it will not give you a kernel. NVIDIA’s longest-lived compute invention might not be a chip. It might be a picture of a chip that survived twenty years of chips.
 
 ## Sources
 

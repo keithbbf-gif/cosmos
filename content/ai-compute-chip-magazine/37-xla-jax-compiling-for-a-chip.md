@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # XLA and JAX: compiling for a chip you cannot buy
@@ -24,7 +25,7 @@ Why “a chip you cannot buy”? Because the TPU, for most of its life, has not 
 
 If you want a physical object, a printout of an HLO dump next to a JAX function of ten lines is the right joke. The ten lines are what the human wrote. The dump is the program. TPU history without that joke is just a list of MXU sizes.
 
-This article will not teach `jax.jit`. It will say that Google’s accelerator story is incomplete if you only describe the array. The array is hungry. XLA is the kitchen. JAX is the restaurant that made the kitchen fashionable. The fashionable restaurant also serves GPUs. That is how compiler cultures spread: they stop being about one chip and start being about a way to talk to chips.
+Google’s accelerator story is incomplete if you only describe the array. The array is hungry. XLA is the kitchen. JAX is the restaurant that made the kitchen fashionable. The fashionable restaurant also serves GPUs. That is how compiler cultures spread: they stop being about one chip and start being about a way to talk to chips.
 
 ## Sources
 

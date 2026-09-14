@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # The SKU wall: GeForce, Quadro, Tesla, then Data Center
@@ -26,7 +27,7 @@ Cloud terms of service are a later brick. A provider that forbids consumer GeFor
 
 If you want a physical object, a GeForce and a Tesla of the same generation side by side are the exhibit. Look at the bracket. Look at the power connectors. Look at whether anyone printed ECC on the box. That is the wall you can photograph. The rest of the wall is in a PDF you clicked through.
 
-This article is not a buyer’s guide. It is a reminder that “the GPU” is a marketing umbrella over a permission structure. CUDA made the umbrella feel like one machine. The SKUs made sure it was several businesses. Both facts are the history. People who only quote the architecture name are leaving out the cash register.
+This is not a buyer’s guide. It is a reminder that “the GPU” is a marketing umbrella over a permission structure. CUDA made the umbrella feel like one machine. The SKUs made sure it was several businesses. Both facts are the history. People who only quote the architecture name are leaving out the cash register.
 
 ## Sources
 

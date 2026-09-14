@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # NVLink and NVSwitch: the midplane
@@ -24,7 +25,7 @@ For software people, NVLink shows up as a number in `nvidia-smi topo` and as a h
 
 I have heard NVLink described as “the thing that makes eight GPUs feel like one.” That is a half-truth. Eight GPUs never feel like one. They feel like eight GPUs with a better bus. The better bus is a lot. It is not fusion. People who write “the GPU” when they mean “the node” are doing NVLink’s marketing for free.
 
-If you want a physical object, an HGX baseboard with NVSwitch chips and empty SXM sockets is the honest one. It looks like a motherboard that ate a supercomputer. That is the midplane. Pascal invented the highway. The switch invented the interchange. Blackwell-class racks extend the interchange until the rack is the chip. This article stops at the interchange, because that is a complete story: the driveway was not enough, and NVIDIA built something you could only buy from NVIDIA.
+If you want a physical object, an HGX baseboard with NVSwitch chips and empty SXM sockets is the honest one. It looks like a motherboard that ate a supercomputer. That is the midplane. Pascal invented the highway. The switch invented the interchange. Blackwell-class racks extend the interchange until the rack is the chip. The interchange is a complete story on its own: the driveway was not enough, and NVIDIA built something you could only buy from NVIDIA.
 
 PCIe did not die. Host traffic, NICs, and a million ordinary servers still live there. NVLink is for the family inside the node. Keeping those two buses in your head is the difference between a cluster diagram and a wish.
 

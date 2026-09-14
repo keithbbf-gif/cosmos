@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Memory bandwidth ate the decade
@@ -28,7 +29,7 @@ If you want a physical object, an HBM stack next to a GDDR chip is the pair. The
 
 A practical test for any new accelerator announcement: hide the FLOPS line with your thumb. What is left — bytes per second, bytes on package, bytes between chips — is the announcement. If nothing is left, the announcement is a costume.
 
-This article is standalone on purpose. You do not need a later-architecture piece to understand a roofline. You need a peak operation number, a peak bandwidth number, and an honest arithmetic intensity. The rest of the decade was commentary.
+You need a peak operation number, a peak bandwidth number, and an honest arithmetic intensity. The rest of the decade was commentary.
 
 ## Sources
 

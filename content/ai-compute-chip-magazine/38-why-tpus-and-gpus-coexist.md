@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Why TPUs and GPUs kept not replacing each other
@@ -26,7 +27,7 @@ I do not want a kumbaya ending. The machines compete. They take jobs from each o
 
 If you want a physical object, put a TPU board photo next to an H100 SXM photo. Same era of problem, different religions of programmability. The industry kept both religions because both have believers who ship.
 
-A standalone article should not pick a winner for 2030. It should scold the obituaries. The GPU did not die in 2016 when Jouppi went on stage. The TPU did not die in 2023 when every startup deck said “NVIDIA.” What died, over and over, was the fantasy that one architecture gets to be the last architecture.
+Do not pick a winner for 2030. Scold the obituaries instead. The GPU did not die in 2016 when Jouppi went on stage. The TPU did not die in 2023 when every startup deck said “NVIDIA.” What died, over and over, was the fantasy that one architecture gets to be the last architecture.
 
 ## Sources
 

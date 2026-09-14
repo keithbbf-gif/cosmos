@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Ian Buck walks into Santa Clara
@@ -26,7 +27,7 @@ There is a second choice in the talks that is easy to miss: heterogeneous comput
 
 If you want drama, the walk into Santa Clara is enough. A student who had compiled streams onto other people’s drivers takes a job at the company that makes the most interesting driver. The company is about to ship a unified-shader architecture. The student wants C. The architecture wants work that is not only pixels. Those two needs met. The press release in November 2006 is the public stamp.
 
-What this article is not: a biography, a personality study, or a claim that CUDA “is” Brook. Brook is a published language. CUDA is a product stack. The walk between them is a hire. Hires are how ideas change address without changing the fact that they were already public.
+Brook is a published language. CUDA is a product stack. The walk between them is a hire, not a biography and not a claim that CUDA “is” Brook. Hires are how ideas change address without changing the fact that they were already public.
 
 ## Sources
 

@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Doing algebra in a pixel pipe
@@ -28,7 +29,7 @@ There is a temptation to treat the shader trick as cute prehistory. Resist that.
 
 If you want to feel the era without romanticizing it, read a GPGPU paper’s limitations section. They are all the same: precision, branching, memory model, the graphics API in the way. Then look at the speedup graph anyway. People tolerated the costume because the number at the end was real.
 
-A standalone article should not turn this into a moral about software layers. The moral, if there is one, is smaller. When a machine is fast at the wrong language, the users will lie to it. They will call a matrix a texture. They will call a kernel a shader. They will call a scientific application a game so the driver keeps the clocks up. That is not cleverness for its own sake. That is what a platform looks like the year before it admits it is a platform.
+When a machine is fast at the wrong language, the users will lie to it. They will call a matrix a texture. They will call a kernel a shader. They will call a scientific application a game so the driver keeps the clocks up. That is not cleverness for its own sake. That is what a platform looks like the year before it admits it is a platform.
 
 ## Sources
 

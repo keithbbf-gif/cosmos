@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # What a FLOP stopped meaning
@@ -24,9 +25,9 @@ The breaking is the history. Somewhere between Pascal’s FP16 marketing and Amp
 
 If you want a physical object, take a keynote slide with a single huge number and write the format in the margin until the number looks smaller. That annotated slide is the artifact of this decade.
 
-A closing that is not a sermon: the flop did not become meaningless because we got sloppy. It became meaningless because the machines got specialized, and specialization makes units multiply. We should have retired the bare word. We did not. We added superscripts and hope. This magazine can at least refuse to print a bare FLOP as if it were 1999. The Cray comparison was already a stretch then. It is a costume now.
+A closing that is not a sermon: the flop did not become meaningless because we got sloppy. It became meaningless because the machines got specialized, and specialization makes units multiply. We should have retired the bare word. We did not. We added superscripts and hope. An honest account can at least refuse to print a bare FLOP as if it were 1999. The Cray comparison was already a stretch then. It is a costume now.
 
-Read the rest of the issue if you want the machines. This piece is only about the yardstick. The yardstick bent. We kept using it because the alternative was to say, every time, what we actually measured. We should say what we actually measured.
+The yardstick bent. We kept using it because the alternative was to say, every time, what we actually measured. We should say what we actually measured.
 
 ## Sources
 

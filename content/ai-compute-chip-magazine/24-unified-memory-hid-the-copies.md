@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Unified memory: the API that hid the copies
@@ -20,13 +21,13 @@ Hiding copies does not abolish them. It relocates them into a page-fault path yo
 
 I am not against unified memory. I am against treating it as a moral improvement rather than a tool. For some codes, especially irregular codes and bringing-up codes, it is the difference between a port existing and a port never starting. For a training step you will run a million times, an explicit copy or an already-resident tensor is still the grown-up move. The frameworks mostly live in the grown-up world. The students live in the managed world. Both are CUDA.
 
-Pascal’s hardware support is the hinge. Before that, unified memory was a driver performance. After that, it could be a page-migration story with real hardware events. Later systems with NVLink and, in Grace-Hopper class machines, a closer CPU-GPU address story, keep pushing the same idea toward “maybe it is just memory.” The public NVIDIA materials for Grace-Hopper are explicit about a coherent-ish world. This article stays with the older promise, because the older promise is what most people actually typed: `cudaMallocManaged`.
+Pascal’s hardware support is the hinge. Before that, unified memory was a driver performance. After that, it could be a page-migration story with real hardware events. Later systems with NVLink and, in Grace-Hopper class machines, a closer CPU-GPU address story, keep pushing the same idea toward “maybe it is just memory.” The public NVIDIA materials for Grace-Hopper are explicit about a coherent-ish world. The story here stays with the older promise, because the older promise is what most people actually typed: `cudaMallocManaged`.
 
 The hint APIs are the adult version of the same feature. `cudaMemAdvise` lets you say “the GPU will mostly read this” or “this is mostly the CPU’s.” Prefetch lets you move the surprise to a place you chose. People who treat unified memory as automatic and then refuse the hints are doing the 2014 tutorial forever. People who treat the hints as mandatory and then wonder why they bothered with managed allocations are doing explicit copies with extra steps. The useful middle is: managed for bring-up and irregular codes, hints when the profiler shows a migration storm, explicit residency when the step is the product.
 
 If you want a physical object, there isn’t one. The object is a trace with a giant yellow stall labeled page migrate. Show that trace to someone who thinks unified memory is free. Then show them a student program that works because of it. Hold both pictures. That is the feature.
 
-A magazine history of CUDA that only celebrates explicit copies is macho and incomplete. A history that only celebrates unified memory is a tutorial from 2014 that never met a profiler. The copies were always there. For a while NVIDIA let you stop looking at them. Looking remains optional. Paying for them does not.
+A CUDA history that only celebrates explicit copies is macho and incomplete. A history that only celebrates unified memory is a tutorial from 2014 that never met a profiler. The copies were always there. For a while NVIDIA let you stop looking at them. Looking remains optional. Paying for them does not.
 
 ## Sources
 

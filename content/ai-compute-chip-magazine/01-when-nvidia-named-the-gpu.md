@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # When a graphics chip got a new job title
@@ -26,7 +27,7 @@ Jen-Hsun Huang — he still used the hyphen then — said the GPU would “funda
 
 That escape took years. Between 1999 and 2006 the chips got programmable shaders, then more of them, then a compiler that treated those shaders as a place to put ordinary C. People who write the CUDA origin story sometimes start in 2006 and treat the GeForce 256 as folklore. The folklore matters. Before you can ask a graphics chip to be a computer, someone has to insist it is already a processor. NVIDIA did that in public, on a Tuesday, with a definition written to win a category.
 
-A careful reader should keep two facts in the same hand. First: 3D hardware existed before NV10. 3dfx, ATI, S3, and NVIDIA’s own RIVA line had already taught a generation of kids what a 3D card was. Second: “GPU” as an industrial noun is a 1999 branding event that stuck. History is allowed to be both. The magazine mistake is to treat the press release as a scientific first, or to treat the branding as a lie. It was a claim about integration, timed to Direct3D 7, aimed at a CPU that was running out of time to do geometry.
+A careful reader should keep two facts in the same hand. First: 3D hardware existed before NV10. 3dfx, ATI, S3, and NVIDIA’s own RIVA line had already taught a generation of kids what a 3D card was. Second: “GPU” as an industrial noun is a 1999 branding event that stuck. History is allowed to be both. The easy mistake is to treat the press release as a scientific first, or to treat the branding as a lie. It was a claim about integration, timed to Direct3D 7, aimed at a CPU that was running out of time to do geometry.
 
 If you want a physical object, find a GeForce 256 SDR card with the big heatsink and the AGP tab. It will not run a modern driver. It will not speak CUDA. It will sit there looking like a graphics card, which is what it was. The job title is the part that survived.
 

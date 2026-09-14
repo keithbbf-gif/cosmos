@@ -8,15 +8,16 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # November 8, 2006: CUDA gets a name
 
 Santa Clara, November 8, 2006. NVIDIA put two stories on the same calendar day. One was a graphics story: GeForce 8800, DirectX 10, Crysis in the demo room, nForce 680i for Intel’s new quad-cores, a San Jose unveiling aimed at people who still bought PCs to play games. The other was a computing story: CUDA, “a fundamentally new architecture for computing” on NVIDIA GPUs, and “the industry’s first C-compiler development environment for the GPU.”
 
-The computing press release is the one this article is about. It says CUDA was available that day on the new GeForce 8800 and would come to Quadro. It says the new architecture let GPU cores communicate, synchronize, and share data, which — NVIDIA claimed — earlier stream computing on GPUs could not do. InfoWorld’s write-up the same day translated the pitch for people who did not live in SIGGRAPH: you could do numerical work on a graphics chip instead of relying on a standard processor.
+The computing press release is the hinge. It says CUDA was available that day on the new GeForce 8800 and would come to Quadro. It says the new architecture let GPU cores communicate, synchronize, and share data, which — NVIDIA claimed — earlier stream computing on GPUs could not do. InfoWorld’s write-up the same day translated the pitch for people who did not live in SIGGRAPH: you could do numerical work on a graphics chip instead of relying on a standard processor.
 
-Two calendar facts need to stay un-merged. November 8, 2006 is the public naming of CUDA and the G80 hardware launch. The public CUDA SDK and the 1.0 documentation trail into 2007. Buck has said CUDA 1.0 shipped with the 8800; NVIDIA’s own later timelines and the surviving documentation dates are fussier. A magazine draft should not pretend the press release was a download link. It was a flag. The flag mattered. After that day you could say “CUDA” in a meeting and not be talking about a research compiler with a campus URL.
+Two calendar facts need to stay un-merged. November 8, 2006 is the public naming of CUDA and the G80 hardware launch. The public CUDA SDK and the 1.0 documentation trail into 2007. Buck has said CUDA 1.0 shipped with the 8800; NVIDIA’s own later timelines and the surviving documentation dates are fussier. Do not pretend the press release was a download link. It was a flag. The flag mattered. After that day you could say “CUDA” in a meeting and not be talking about a research compiler with a campus URL.
 
 The name itself is Compute Unified Device Architecture. It is a mouthful that earned its first word. Unified is the hardware claim: the same cores that shade pixels can run the C you compiled. Device is the software claim: this is still a coprocessor with a memory space, not a CPU. Architecture is the sales claim: you are not buying a trick, you are buying a platform. Whether you like the acronym is irrelevant. It stuck.
 

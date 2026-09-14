@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Fermi: caches, error correction, and a grown-up GPU
@@ -22,7 +23,7 @@ Double precision is the other lab demand. Tesla marketing for the 20-series talk
 
 C++ support, listed next to ECC on the same slides, is easy to sneer at. Language support is never only a compiler flag. It is a signal to the people who write the codes that they will not have to rewrite their types into C89 to use the card. Fermi’s C++ was not modern C++. It was a door.
 
-GF100 as a gaming part had a messy launch: delayed, hot, a GeForce GTX 480 that became a joke about space heaters. That consumer story is real and well documented. It is not this article’s center. The compute story is that the same generation produced boards a procurement office could defend. C2050, C2070, then the C2075 with 6 GB and a slightly calmer power story. Those boards are why “CUDA in the cluster” stopped sounding like a graduate student with a GeForce under a desk.
+GF100 as a gaming part had a messy launch: delayed, hot, a GeForce GTX 480 that became a joke about space heaters. That consumer story is real and well documented. It is not the center of the Fermi compute story. The compute story is that the same generation produced boards a procurement office could defend. C2050, C2070, then the C2075 with 6 GB and a slightly calmer power story. Those boards are why “CUDA in the cluster” stopped sounding like a graduate student with a GeForce under a desk.
 
 Fermi also changed how people wrote kernels. Caches forgive some alignment sins. They also hide some of them, which made performance work harder in a new way. Occupancy lore, already a cottage industry, met a memory hierarchy that looked more like a CPU and still was not one. The programming guides from that era are full of people rediscovering that a GPU cache is small and shared by an army.
 

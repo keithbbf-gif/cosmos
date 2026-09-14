@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Volta's Tensor Core: a multiply unit becomes a product
@@ -24,7 +25,7 @@ A skeptical paragraph is required. Specialized units punish the codes that are n
 
 If you want a physical object, an SXM2 V100 is the totem of 2018–2019 AI labs: a rectangle with a serial number, a lot of HBM, and a firmware personality. People named servers after how many they had. “A box of eight” became a unit of scientific productivity. That social fact is as much Volta as the WMMA API.
 
-This article stops before Ampere’s MIG and Hopper’s Transformer Engine. Those are descendants. Volta is the ancestor you can date. 2017: the multiply unit gets a name, the libraries grow a path, and mixed precision leaves the paper and enters the default training script.
+Ampere’s MIG and Hopper’s Transformer Engine are descendants. Volta is the ancestor you can date. 2017: the multiply unit gets a name, the libraries grow a path, and mixed precision leaves the paper and enters the default training script.
 
 ## Sources
 

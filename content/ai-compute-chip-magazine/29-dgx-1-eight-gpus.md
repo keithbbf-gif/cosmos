@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # DGX-1: eight GPUs and a category
@@ -26,7 +27,7 @@ The software image is the less photographed invention. NVIDIA shipped a stack of
 
 If you want a physical object, a DGX-1 bezel — the face with the name that became a brand — is enough. Later DGX boxes got denser and louder in the marketing sense. The first one is the category. Eight GPUs, one SKU, a photo, a price, a software image. That combination is a product-management event as much as a silicon event.
 
-This article does not follow the DGX line through A100 and H100. Those are sequels. 2016 is the year NVIDIA decided the node was something they would brand. Everything in the rack-scale story after that is a louder version of the same decision.
+The DGX line after A100 and H100 is a different story. 2016 is the year NVIDIA decided the node was something they would brand. Everything in the rack-scale story after that is a louder version of the same decision.
 
 ## Sources
 

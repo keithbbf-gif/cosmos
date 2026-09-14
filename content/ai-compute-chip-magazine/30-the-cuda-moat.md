@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # The CUDA moat: lock-in, libraries, and habit
@@ -26,7 +27,7 @@ Containers made the water deeper. NVIDIA’s NGC images, the cloud “CUDA 12.x 
 
 If you want a physical object, a shelf of CUDA programming guides from 2.0 to 12.x is a nice one: same cartoon of grids and blocks, thicker library chapters every year. The thickness is the moat. The early slim book is a language. The late fat book is an economy.
 
-This article names no unfiled inventions and no private stacks. It names a public business fact: NVIDIA’s compute advantage, as of the mid-2020s, is still easier to describe as software gravity than as a single transistor trick. The transistors matter. The gravity is why a faster transistor from someone else does not immediately get a training job.
+NVIDIA’s compute advantage, as of the mid-2020s, is still easier to describe as software gravity than as a single transistor trick. The transistors matter. The gravity is why a faster transistor from someone else does not immediately get a training job.
 
 ## Sources
 

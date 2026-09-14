@@ -8,6 +8,7 @@ kind: standalone-article
 scope: public-history
 novelty: public-record-only
 exclusions: [no-cosmos, no-patents, no-unpublished-claims]
+voice_check: edited
 ---
 
 # Two GTX 580s in a bedroom
@@ -22,13 +23,13 @@ Why two cards? Because one 3 GB GTX 580 could not hold the thing they wanted to 
 
 CUDA is present the way electricity is present. The paper does not pause to thank a platform. It assumes a highly optimized GPU implementation is a thing a graduate student can write. That assumption is the 2006–2012 story landing. A student could buy two gaming cards, speak CUDA, and outrun institutional vision systems that had spent a decade on hand-built features. The unfairness is the point. Platforms are unfair on purpose.
 
-There is a tidy myth that says “AlexNet invented deep learning.” The paper does not say that. Neural nets were old. Convnets were old. ImageNet was new enough and large enough. GPUs were newly programmable enough. The combination is the event. CHM’s commentary is right to say each needed the other. A magazine piece should keep the combination, not pick a favorite parent.
+There is a tidy myth that says “AlexNet invented deep learning.” The paper does not say that. Neural nets were old. Convnets were old. ImageNet was new enough and large enough. GPUs were newly programmable enough. The combination is the event. CHM’s commentary is right to say each needed the other. Keep the combination, not a favorite parent.
 
 Another myth: it had to be NVIDIA. In 2012, if you wanted a documented path from C to a fast conv on a card you could buy at a shop, CUDA was the path a Toronto student actually used. That is a historical fact, not a law of nature. The law-of-nature version is later marketing.
 
 If you want a physical object, a GTX 580 with the 3 GB tag on the box is enough. Two of them in a desktop that still has a dusty 600-watt power supply is better. The bedroom is not a gimmick. It is a reminder that the most important training run of the decade did not require a national lab. It required a platform that had already leaked into consumer SKUs, and a person willing to keep the machine on for six days.
 
-The afterlife of the paper is an industry. This article stops at the week of training and the contest number. Those are the facts that do not need a sequel to be complete.
+The afterlife of the paper is an industry. The week of training and the contest number are enough for the historical record.
 
 ## Sources
 
