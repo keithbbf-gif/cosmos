@@ -428,6 +428,7 @@ Accessed **2026-09-14** unless the item has its own date.
 - Wix, “How much is a Wix website?” — https://www.wix.com/blog/how-much-is-a-wix-website  
 - Wix Q2 2025 results — https://www.sec.gov/Archives/edgar/data/1576789/000162828025038117/secondquarter2025.htm  
 - Wix Q2 2026 results (2026-08-04) — https://www.sec.gov/Archives/edgar/data/1576789/000162828026052108/secondquarter2026results.htm  
+  - Note: `sec.gov` returned HTTP 403 to an automated URL check on 2026-09-14. The same exhibits were retrieved earlier in this research pass; public mirrors are the Motley Fool transcripts listed below.  
 - Squarespace, Blueprint AI — https://www.squarespace.com/websites/ai-website-builder  
 - Framer pricing — https://www.framer.com/pricing  
 - Framer AI — https://www.framer.com/ai/  
