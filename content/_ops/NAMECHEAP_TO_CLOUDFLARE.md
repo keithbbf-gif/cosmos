@@ -109,7 +109,10 @@ the dashboard + the cited page win; amend this file.
 - TLD support is the live list at [cloudflare.com/tld-policies](https://www.cloudflare.com/tld-policies/)
   and [Supported TLDs](https://developers.cloudflare.com/registrar/top-level-domains/).
   If the TLD is missing, **stop**. Do not invent a workaround.
-- `.uk` / `.co.uk` / `.org.uk` use an **IPS tag**, not an EPP code.
+- `.uk` / `.co.uk` / `.org.uk` / `.me.uk` use an **IPS tag**, not an EPP code.
+  Tag value is `CLOUDFLARE`. Checkout on Cloudflare **first**; setting the tag
+  beforehand auto-rejects the transfer.
+  Source: [`.UK` domains](https://developers.cloudflare.com/registrar/top-level-domains/uk-domains/).
 - After a successful transfer, ICANN may require registrant-email verification.
   Ignore it for 15 days and Cloudflare/the registry can **replace nameservers
   with parking NS**. That takes sites and mail down. Treat the verification
@@ -417,10 +420,22 @@ Unlock is the last thing you do on a name, not the first.
 - WHOIS privacy: leave on. If Cloudflare or Namecheap refuses a specific name
   and the refusal text names privacy, disable privacy **for that name only**,
   retry, then re-enable after the gaining registrar has the name.
-- `.uk` family: no EPP. Ask Namecheap to set the IPS tag to Cloudflare’s tag
-  (Cloudflare’s transfer UI / support page states the tag). If the field is
-  missing, that is expected — see Cloudflare troubleshooting “`.uk` transfer
-  uses an IPS tag.”
+- `.uk` / `.co.uk` / `.org.uk` / `.me.uk`: no EPP. Sequence is inverted from
+  a normal transfer and is easy to get wrong:
+  1. Zone already `Active` on Cloudflare (same DNS gate as every other TLD).
+  2. Cloudflare **Transfer domains** → select the name → **checkout** (no fee,
+     no extra year).
+  3. **Only then** set the IPS tag at Namecheap:
+     Domain List → **Manage** → **Sharing & Transfer** → Transfer Out →
+     **Unlock** → **Change** → tag `CLOUDFLARE` → Save.
+     ([Namecheap IPS tag KB](https://www.namecheap.com/support/knowledgebase/article.aspx/260/8/what-is-an-ips-tag-transfer-of-uk-couk-orguk-meuk-domains/),
+     updated 2023-06-28). Allow up to 24 hours.
+  4. If Namecheap sets the tag *before* checkout, Cloudflare **auto-rejects**.
+  5. If it has not completed in 24 hours, ask Namecheap to set the tag again.
+     Cloudflare cancels an unfinished `.uk` transfer after 30 days.
+  Source: [`.UK` domains](https://developers.cloudflare.com/registrar/top-level-domains/uk-domains/)
+  (updated 2026-04-24). The missing auth-code field is expected
+  ([troubleshooting](https://developers.cloudflare.com/registrar/troubleshooting/)).
 
 ### After Cloudflare has the code
 
@@ -539,7 +554,8 @@ onto BasicDNS,” not a toggle. This is why the snapshot exists.
 - [ ] Name appears (Active). If missing: zone is Pending, TLD unsupported, or
       60-day lock — stop and read
       [troubleshooting](https://developers.cloudflare.com/registrar/troubleshooting/).
-- [ ] Namecheap unlock + fresh EPP (or IPS tag for `.uk`).
+- [ ] gTLD: Namecheap unlock + fresh EPP. `.uk` family: Cloudflare checkout
+      **first**, then Namecheap IPS tag `CLOUDFLARE` (never the reverse).
 - [ ] Paste code. Confirm contact. Confirm payment (Keith).
 - [ ] Approve Namecheap / FOA email.
 - [ ] Status leaves `Pending approval`.
@@ -672,7 +688,7 @@ first. Short map:
 | Payment failed after code | Card declined | Update billing; check for a half-started transfer |
 | Stuck >5 business days | Losing registrar holding | Approve in Namecheap; then Namecheap support |
 | Parking NS after transfer | Registrant email not verified (15 days) | Verify immediately |
-| `.uk` no auth field | IPS tag flow | Ask Namecheap to set Cloudflare’s IPS tag |
+| `.uk` no auth field | IPS tag flow | Cloudflare checkout first, then Namecheap IPS tag `CLOUDFLARE` |
 
 Restart (not `.uk`): Cloudflare Manage Domain → **Cancel Transfer and Retry** →
 new code + WHOIS confirm.
@@ -736,10 +752,12 @@ file was written (2026-09-14).
 - Cloudflare — [Proxy status](https://developers.cloudflare.com/dns/proxy-status/) (2026-04-21)
 - Cloudflare — [Enable DNSSEC](https://developers.cloudflare.com/registrar/get-started/enable-dnssec/) (2026-04-24)
 - Cloudflare — [Supported TLDs](https://developers.cloudflare.com/registrar/top-level-domains/) (2026-05-15)
+- Cloudflare — [`.UK` domains / IPS tag `CLOUDFLARE`](https://developers.cloudflare.com/registrar/top-level-domains/uk-domains/) (2026-04-24)
 - Cloudflare — [TLD policies](https://www.cloudflare.com/tld-policies/)
 - Cloudflare — [Registrar FAQ](https://developers.cloudflare.com/registrar/faq/)
 - Namecheap — [Domain List](https://ap.www.namecheap.com/domains/domainlist)
 - Namecheap — [Transfer out](https://www.namecheap.com/support/knowledgebase/article.aspx/258/84/what-should-i-do-to-transfer-a-domain-from-namecheap/) (2023-08-15)
+- Namecheap — [`.uk` IPS tag](https://www.namecheap.com/support/knowledgebase/article.aspx/260/8/what-is-an-ips-tag-transfer-of-uk-couk-orguk-meuk-domains/) (2023-06-28)
 - Namecheap — [Registrar lock](https://www.namecheap.com/support/knowledgebase/article.aspx/380/46/how-do-i-setrelease-registrar-lock-for-a-domain/)
 - Namecheap — [Change nameservers](https://www.namecheap.com/support/knowledgebase/article.aspx/767/10/how-can-i-change-the-nameservers-for-my-domain/) (2025-04-03)
 - Namecheap — [Mail settings / MX](https://www.namecheap.com/support/knowledgebase/article.aspx/322/2237/required-spf-and-dkim-settings-for-private-email/) (2025-01-20)
