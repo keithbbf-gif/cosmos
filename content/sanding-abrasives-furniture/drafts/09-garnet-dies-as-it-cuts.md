@@ -62,6 +62,16 @@ unknown and do a test board. Unknown mineral is how you mix a
 dying cut with a ceramic leftover and then wonder why half the
 top is a different scratch.
 
+## The red dust
+
+Garnet sheds a brick-colored dust that looks like stain
+contamination on a pale maple. Vacuum. Do not wipe it into
+the pores and then oil. The oil will hold a pink ghost
+that is not cherry.
+
+On walnut you will not see the red. On maple you will
+swear you bled on the board. You did not. You sanded.
+
 ## Shop consequence
 
 If your last oil pass looks too scratchy, try garnet at the same

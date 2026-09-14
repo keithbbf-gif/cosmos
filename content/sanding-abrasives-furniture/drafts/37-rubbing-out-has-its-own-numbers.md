@@ -67,7 +67,16 @@ lungs.
 
 Oil as a lubricant on some traditional rubs — know the
 film. Water on some. The wrong liquid blushes or lifts.
-Test.
+Test. If the compound haze will not clear, you skipped
+a step in the film, or the film is not ready, or you
+cut through and you are polishing wood.
+
+## A dull field next to a glossy repair
+
+If you rub only the spot you repaired, you will have a
+shiny island. Rub the neighborhood, or rub the whole
+field, or leave the sheen in the can. Spot-rubbing is
+how a water ring repair becomes a moon.
 
 ## Shop consequence
 

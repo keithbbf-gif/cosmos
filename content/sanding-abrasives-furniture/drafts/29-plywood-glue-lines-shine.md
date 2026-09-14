@@ -64,6 +64,17 @@ is a burnisher that then sheds a clump and gouges. Draft
 07 and 42. Here the mineral is often not the problem. The
 binder in the board is the problem.
 
+## Baltic and the pretty void
+
+A void under a thin face will telegraph as a soft spot
+and then as a hole. Do not chase the soft spot with 80.
+You will open it. Fill if the job is paint-grade and the
+fill is allowed. On a stained show face, a void is a
+conversation or a replacement panel.
+
+I tap plywood faces. A dead knock is a warning. Sanding
+is not how you find out you were right.
+
 ## Shop consequence
 
 If the piece is plywood, ask where the face stops. If the

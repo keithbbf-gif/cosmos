@@ -17,9 +17,9 @@ meta_description: "In a hollow, a flat pad flats the high and leaves the low fuz
 
 The hollows were still fuzzy and the ridges were shiny. I had
 used a pad that understood flats. In a carving, a flat pad
-flats the high and leaves the low. The knife cut a landscape
-of small decisions. Sanding is not a second carver unless you
-mean to be one.
+flats the high and leaves the low. The knife left hollows
+and ridges on purpose. Sanding is not a second carver unless
+you mean to be one.
 
 Your job is fuzz, tool marks you chose to take, and a tooth
 the finish can live on. Not a new model of the carving.
@@ -65,6 +65,18 @@ map can be pretty. It can also look dirty. Even tooth, even
 pressure, even last grit. Then accept that geometry still
 changes color. If the client wanted a carving to stain like
 a flat, the client wanted a flat.
+
+## Dust in the holes
+
+Pierced work and deep relief hold grit like pockets. The
+next coat turns that grit into a toothy film you cannot
+level without flattening a ridge. A vacuum brush, then
+a look with a light down the hole. If you see shine that
+is mineral, not wood, you are not done cleaning.
+
+I have finished a carved apron that felt like 220 and
+sounded like 80 when a hand ran it, because the hollows
+were still holding the coarse pass.
 
 ## Shop consequence
 

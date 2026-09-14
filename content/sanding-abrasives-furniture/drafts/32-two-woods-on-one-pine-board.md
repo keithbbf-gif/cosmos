@@ -62,6 +62,21 @@ problem, sometimes worse. Cedar is its own oil. This draft
 is pine because that is the furniture softwood people
 sand like oak and then blame.
 
+## Knots and the pitch pocket
+
+A knot is a third wood. It is harder, oilier, and it will
+skate the paper and then tear if you lean. Sand the field;
+treat the knot as a local, with a block, and stop before
+you dish a moat around it. A moat around a knot is a
+finish pond.
+
+Pitch pockets load a disc in one swipe. Change the paper.
+Do not "work it out." You will smear pitch into a comma
+that resists every can you own. Scrape the pocket, then
+sand. Mineral spirits on pitch is a finishing-chemistry
+question; this pack will only say: do not grind pitch
+into the earlywood with 80 grit and hope.
+
 ## Shop consequence
 
 If you want a quiet pine surface, you are fighting the
@@ -70,4 +85,6 @@ a harder species may be the real grit. If you want the
 tiger, do not dish it into a cartoon with a soft pad.
 
 Inspect in raking light before color. The valleys are
-already there. Stain only turns up the volume.
+already there. Stain only turns up the volume. I walk
+pine slower than oak. Oak forgives a soft pad for a
+minute. Pine writes the minute into the board.

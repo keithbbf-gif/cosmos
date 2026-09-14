@@ -63,6 +63,20 @@ on varnish like the corner was theoretical.
 Worn pads glaze. A glazed pad is a burnisher. Throw it away. The
 pad is cheaper than a cloudy table.
 
+## On a turner's work
+
+A bowl or a turning is a curve that wants conformity. A
+pad can be right there after the tool, to knock fuzz
+without flattening a bead of a cove. A sheet on a block
+will make flats on a turning faster than you can say
+"just blend." The pad still needs a named job: fuzz, not
+shape.
+
+Do not use a kitchen pad on a salad bowl and then argue
+food-safe. That is a finishing-chemistry fence. This pack
+will only say: the pad sheds, and what it sheds is in the
+wood.
+
 ## Shop consequence
 
 Use nonwoven when you want conformity and a dulling cut on a

@@ -64,6 +64,24 @@ heats and then you have a bubble or a sand-through. If
 the face gets hot, stop. Heat plus a thin face is how
 you meet the core and a glue line in the same afternoon.
 
+## The phone pause
+
+I have held a running ROS on a top while I read a
+message. The pad was still. The orbit was not. That
+circle is a heat dish. Lift first (draft 17). Heat is
+why that dish stains differently even after you think
+you flattened it. You cooked the fiber.
+
+A "quick" 220 to even a repair is how cherry gets a
+toasted patch the color of tea. If the repair is local,
+keep the machine moving off the patch as much as on it,
+and let it cool. Touch the wood. If it is hot, you are
+not sanding. You are ironing.
+
+A belt that stops in the field is the same story with
+a deeper brand. If you have to answer the door, the
+machine is off the wood. Not idling. Off.
+
 ## Shop consequence
 
 Smooth-and-hot is a stop, not a pass. If the disc is

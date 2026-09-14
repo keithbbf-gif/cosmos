@@ -62,6 +62,17 @@ that is 80 under a 220 field will take stain like a marker. The
 block can hang off an edge and round it too. Keep the block's
 face on the field; use a folded piece on the arris.
 
+## Felt and the last oil pass
+
+A felt-faced block under garnet (draft 09) is how I want
+a last oil pass on a quiet walnut field: flat enough to
+erase, kind enough not to dig. Felt loads. Brush it. A
+loaded felt is a grease pencil.
+
+I do not use felt on the first grit. Felt plus 80 is a
+soft 80 that dishes. Cork or something harder until the
+field is fair.
+
 ## Shop consequence
 
 Keep a cork block, a softer block, and the honesty to pick one.

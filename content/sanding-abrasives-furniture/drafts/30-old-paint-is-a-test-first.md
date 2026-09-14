@@ -52,13 +52,6 @@ you to grind the film into air. Paint-over has its own
 adhesion rules. It is still not this draft's how-to for
 lead.
 
-If you may sand — tested, allowed, ordinary modern film —
-treat it as a finish film. Open coat, extraction, respirator,
-and a grit that cuts film (often SiC or a stripping-adjacent
-paper), then a sequence on the wood once you are on wood.
-Do not stay on 80 after you are on wood because 80 was
-"working on the paint."
-
 ## Heat guns, strippers, the other doors
 
 They exist. They have their own harms. Methylene chloride
@@ -67,6 +60,16 @@ Slower strippers and heat are doors. They are not sanding.
 If you choose them, choose them as those products' labels
 and as the finishing-chemistry fence, not as a paragraph I
 hide inside a grit essay.
+
+## Modern paint you may sand
+
+If the test and the story agree it is ordinary modern
+film, treat it as a finish film. Open coat, extraction,
+respirator, a grit that cuts coating (often SiC or a
+stripping-adjacent paper), then a wood sequence once you
+are on wood. Do not stay on 80 after you are on wood
+because 80 was "working on the paint." You will dish a
+carcass that only needed the film gone.
 
 ## Shop consequence
 

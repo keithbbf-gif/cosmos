@@ -67,6 +67,18 @@ Clean benches make cleaner films. That is true. It is not
 why this draft exists. This draft exists because a clean
 film on a sick lung is a stupid trade.
 
+## Sanding next to the finish table
+
+Dust that does not go in your lung still goes in the
+next coat. A shop that sands and finishes in the same
+hour owns nibs. Sequence the day: cut, clean, wait,
+coat. I am not going to pretend I have two rooms. I
+will say the broom and the hour matter.
+
+Oak dust on a wet oil cloth is a mud that stains a
+fingerprint into the top. I blow down, I tack, I wash
+my hands. The fingerprint is always mine.
+
 ## Shop consequence
 
 If the shop cannot extract, change the tool or the schedule

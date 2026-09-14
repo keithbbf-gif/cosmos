@@ -66,6 +66,17 @@ The white dust on the board after a stearated pass is not "just
 wood." Treat it as something you have to remove before the can
 opens.
 
+## "No-load" as a brand sentence
+
+No-load usually means stearate. Sometimes it means a
+coat pattern. Read both. I have bought no-load paper
+that was closed coat plus powder and still caked on
+pine because pine does not care about the aisle name.
+
+If the white face turns gray in a stripe, you are
+loading anyway. Change it. The powder delayed the
+stripe. It did not repeal pine.
+
 ## Shop consequence
 
 Read the sleeve for "stearated" or "no-load" or a white face.

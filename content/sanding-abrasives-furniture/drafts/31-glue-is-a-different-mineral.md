@@ -66,6 +66,19 @@ base, stain a scrap joint first.
 Pencil scribble can skip a slick smear. Light is better.
 So is suspicion along every joint you clamped.
 
+## Squeeze under a veneer or a laminate
+
+Glue that squeezed under a face and dried is not a
+surface smear. Sanding will thin the face before it
+frees the glue. Stop. A thin knife, heat if the glue
+system allows it as ordinary shop practice, or live
+with a hard line. Do not ROS a bubble hoping it is
+proud wood.
+
+On a solid joint, a hairline of glue in a pore line
+of oak is enough to print. The scraper gets into the
+pore better than 180 does.
+
 ## Shop consequence
 
 If the color map follows the clamps, it is glue until

@@ -60,6 +60,19 @@ If it is paint-grade, you can be a little kinder to yourself
 and a little meaner to the arris. If it is show hardwood, keep
 the knife's drawing.
 
+## Machine marks versus fuzz
+
+A dirty knife leaves ridges you can see. Those want a grit
+that cuts, then the sequence. Fuzz is raised fiber. Fuzz
+wants a light last grit and maybe a pop. If you treat knife
+ridges as fuzz, you polish the ridges and keep the valleys.
+The finish will stripe along the profile like a barber pole.
+
+Abrasive-planed moldings from a mill can arrive already
+burnished. Cut enough to take the mill shine, not enough
+to redraw the section. That is a short, honest 150, then
+on, not an afternoon of 80.
+
 ## Shop consequence
 
 Before you sand a profile, look at the knife's section. After

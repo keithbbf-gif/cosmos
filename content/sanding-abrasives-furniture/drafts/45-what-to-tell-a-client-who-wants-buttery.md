@@ -74,6 +74,15 @@ please hand the edges, please do not skip. That is this
 whole pack. I say yes. I do not say yes to 400 on bare
 oak because the word sounded expensive.
 
+## Kids and mustard
+
+A family table that will see homework and mustard wants
+a film that can take a rub later, not a 400 bare maple
+under oil that feels buttery on delivery day and stained
+on Sunday. Say that. The sample they fall in love with
+in the shop is a handshake in a clean room. The room at
+home is the critic.
+
 ## Shop consequence
 
 If you cannot translate buttery into a grit and a binder,

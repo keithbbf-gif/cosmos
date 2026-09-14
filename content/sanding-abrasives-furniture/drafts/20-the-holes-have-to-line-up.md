@@ -62,6 +62,19 @@ toward the motor, is a fence issue (draft 08). Empty the thing.
 If the machine is blowing more than it sucks, stop and fix the
 path before you "just finish this grit."
 
+## The ring of death
+
+A mismatch often loads in a ring: a doughnut of waste
+where air never moved. That ring is a finer grit and a
+heater. It burnishes a circle you will see in oil. If
+your swirl is a perfect hoop, look at the holes before
+you blame the orbit.
+
+Adapters and "universal" 5-to-6 hole stories belong in
+the same bucket as mixed P and CAMI (draft 02). Test
+flow. If you cannot feel air through the face, you
+bought a lid.
+
 ## Shop consequence
 
 Treat hole alignment as part of choosing a disc, not as

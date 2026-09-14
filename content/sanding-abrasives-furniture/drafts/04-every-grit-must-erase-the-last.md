@@ -66,6 +66,18 @@ I do not pretend a last orbital pass at 220 is invisible. I pretend
 it is invisible when I am tired. The dining room does not get tired
 in the same way.
 
+## Half steps that are not steps
+
+80 to 100 is a step. 80 to 120 can be a step if the 80 is
+already almost gone and you inspect. 100 to 180 is a skip
+on a show top. 150 to 220 is often honest. Learn your
+sleeves on an offcut of the species, not from a poster
+in an aisle.
+
+A "half skip" is still a skip if the current mineral
+cannot reach the bottom of the last groove. The pencil
+does not negotiate.
+
 ## Production pressure
 
 A line that has to ship on Friday will skip. The return is more

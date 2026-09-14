@@ -67,6 +67,19 @@ I write this like I always change paper. I do not. I
 change paper after I remember the last comet. That is
 why the draft is here, not because I am a model.
 
+## Between-coat crumbs
+
+A loaded finish paper sheds a ball of film. That ball is
+harder than the coat you are knocking. It cuts a comet in
+the film that you will see as a valley in the next sheen.
+Change paper the moment it crayons. Do not fold the crayon
+over and keep going. You just made a lump with a grit
+number.
+
+On bare wood the comet is a trench. On a film the comet
+is a recut of a coat you already waited for. Both are
+more expensive than a fresh sleeve.
+
 ## Shop consequence
 
 If the surface suddenly got a deep scratch in a pass that

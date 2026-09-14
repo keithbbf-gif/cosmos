@@ -83,6 +83,15 @@ If Friday cannot hold Stage 4's inspection, Friday
 cannot hold a show top. Paint the base. Tell the
 truth about the top.
 
+## Underside
+
+The underside of a dining top is not a show face and
+it is not a dump. Last-sand it well enough that a hand
+sliding a chair does not find 80. I often stop one
+grit coarser than the show face and I still inspect
+the edges where the underside becomes the arris. People
+feel that corner every time they sit.
+
 ## The door
 
 I write the sequence on the inside of a shop door, or

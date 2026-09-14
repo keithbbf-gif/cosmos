@@ -66,6 +66,17 @@ binder can live with. The fence was not hopped.
 
 Done is not "I am tired." Tired is a pause (draft 06).
 
+## Write what you actually did
+
+Last grit, mineral, whether you popped, whether the
+ends went finer, whether a comet got a local recut.
+The finish person — even if it is you tomorrow — cannot
+see a skip that you already buried under a slick 220.
+The note on the door is part of the last pass.
+
+If you cannot write the sequence, you probably skipped
+and do not want to see it.
+
 ## After this pack
 
 An Images pass still owes photographs. A human still

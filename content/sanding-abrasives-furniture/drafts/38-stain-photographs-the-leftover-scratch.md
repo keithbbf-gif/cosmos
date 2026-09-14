@@ -64,6 +64,22 @@ surface and look like paint in one place and wood in
 another. Forgiving is a marketing word. Even tooth still
 wins.
 
+## Swirl versus figure
+
+People will call a leftover ROS comma "figure" if the
+species is oak. Figure follows the tree. A comma follows
+the pad. In raking light, figure does not spin. A swirl
+does. If you are arguing with a client about whether the
+stripe is ray fleck or 80 grit, get the light low. Ray
+fleck does not come in 5-inch orbits.
+
+End grain will photograph deeper (draft 26). A breadboard
+that went dark is not always a skip; it is often just
+end grain being end grain. A breadboard with *arcs* in
+the dark is a skip plus end grain. Distinguish before
+you recut a joint you only needed to treat as a second
+sequence.
+
 ## Shop consequence
 
 If the job is stained, the last raking pass is not

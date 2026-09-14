@@ -61,6 +61,19 @@ End grain shines. Raking light can hide a deep scratch in
 glare. Use the pencil. Use more than one angle. Look when it
 is dry. Wet end grain always looks refined.
 
+## Legs, feet, the hand-height ends
+
+Table legs are mostly long grain until the foot, where
+someone put a taper or a pad and you suddenly have a lot
+of end. People sand a leg like a stick and then the foot
+goes dark. Last-sand the foot as end grain. The client
+will look at the foot when they sit down. They will not
+look at your fluorescent.
+
+A through-tenon that shows is end grain in a face. Treat
+the tenon end as its own postage stamp: finer tooth, maybe
+a washcoat, no ROS that also hits the rail.
+
 ## Shop consequence
 
 If the sample was face grain, the sample was a liar about the

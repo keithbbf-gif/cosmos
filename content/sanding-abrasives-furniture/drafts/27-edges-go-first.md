@@ -58,6 +58,19 @@ that thins the wood at the edge makes the film problem
 worse. Do not "blend the edge into the field" with a fine
 disc until the field is thin too.
 
+## Chamfers and breaks
+
+A drawn chamfer is an edge you meant. Sand it as a face
+with a width, not as an arris you are "easing." A block
+that fits the chamfer keeps the two arrises of the chamfer
+alive. A ROS that kisses a chamfer turns it into a round
+and then you have a different drawing.
+
+A "break the edge so it doesn't cut" is two or three
+strokes of the last grit, by hand, all around, the same
+count. Count. If you freehand until it feels safe, one
+side of the table will be safer than the other.
+
 ## Shop consequence
 
 Inspect edges as their own surface. Raking light along the

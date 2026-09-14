@@ -60,6 +60,20 @@ The hooks still clog (draft 21). Mesh dumps more dust toward the
 pad. If you never clean the hooks, you will invent a new problem
 called "the disc won't sit."
 
+## Grit numbers on net
+
+Mesh makers publish P-grades. Believe them the way you
+believe any sleeve: until the board disagrees. Some nets
+cut a little meaner than the same number in paper because
+the tooth sits on a thread and the dust is gone. A "P180
+net" can leave a scratch a tired paper 180 would have
+already burnished into politeness. Inspect. Do not assume
+the plumbing made it finer.
+
+When the net loads on pine, it loads in the threads. It
+looks cleaner than paper and still sheds a comet. Knock
+it. When the threads shine, it is a burnisher with holes.
+
 ## Shop consequence
 
 I like mesh for ROS work on show faces when the vacuum is real.

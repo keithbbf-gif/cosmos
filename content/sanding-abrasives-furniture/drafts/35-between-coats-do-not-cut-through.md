@@ -75,6 +75,20 @@ owns nibs. I am not going to pretend I have a hospital.
 I am going to say the last hour before a final coat is
 not the hour you scrape a lot of oak.
 
+## Recoat window
+
+Some films want sanding inside a window; some want you
+to wait for a full cure and then scuff. Read the can.
+Sanding a half-cured oil-modified poly makes worms. Waiting
+forever on a film that wanted a chemical recoat, then
+cutting hard, is how you get a pale edge and a bad bond.
+
+This pack will not become a recoat chart. It will say:
+the nib pass assumes the film is ready for a mechanical
+tooth. If it balls, you are early. If it powders white
+and you are through in ten strokes, you were late or
+the film was thin.
+
 ## Shop consequence
 
 If you need to flatten, do it on the board that is still

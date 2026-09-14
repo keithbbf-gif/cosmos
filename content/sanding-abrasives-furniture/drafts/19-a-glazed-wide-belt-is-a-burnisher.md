@@ -62,6 +62,21 @@ cuts, then on.
 Do not assume mill-sanded means "ready for finish." It means
 ready for the next person to inspect.
 
+## The lunchbox cousin
+
+A benchtop drum or a "thickness sander" in a small shop
+glazes the same way. People run the same belt for a
+season because it still "takes a little." A little is
+burnish. If the board comes out hotter than it went in
+and shinier than 180 should be, change the belt. If
+every board has the same ghost stripe, look at the drum
+wrap.
+
+I have stained a purchased panel that was mill-pretty
+and blotchy as a pony. My first honest 150, cutting,
+fixed more than a conditioner did. Conditioner on a
+burnish is a lotion on a closed door.
+
 ## Shop consequence
 
 If you run belts, schedule them by cut, not by calendar. If you

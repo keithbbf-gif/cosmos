@@ -65,6 +65,18 @@ respirator. The fence (draft 08) was not theoretical. A belt
 sander in a living room is a relationship problem and a lung
 problem.
 
+## Cross-belt on a top
+
+Running a portable belt across the grain to "flatten
+faster" writes a set of trenches the ROS will spend an
+hour pretending to erase. With the grain, moving, or
+not at all. Cross-belt is a floor-sander habit. This
+pack is furniture.
+
+If the top is already at finished thickness, the belt
+is usually the wrong first tool. A plane, a scraper, or
+a local block spends less of the budget.
+
 ## Shop consequence
 
 If the defect is thickness, ask whether a cutting tool should

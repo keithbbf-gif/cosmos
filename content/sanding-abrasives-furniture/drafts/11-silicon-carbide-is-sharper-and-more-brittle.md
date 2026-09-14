@@ -59,6 +59,18 @@ not "use up" a triangle that has a hard point.
 Black paper is often SiC and sometimes just black. Read the
 mineral. Wet-dry packaging is a hint, not a lab result.
 
+## Wet-dry on a dry film
+
+You can use SiC wet-dry *dry* for nibs. It loads faster
+than a stearated finish paper. That is fine for a short
+pass. It is not fine for a whole tabletop dry if you
+wanted the stearate's release. Pick the helper (draft
+13) and the mineral separately.
+
+A torn wet-dry corner under a block is a gouge with a
+black edge. Tear a clean rectangle. Throw the triangles
+away. I have kept a triangle and paid.
+
 ## Shop consequence
 
 Keep SiC for: between-coat nibs, rubbing sequences that call for

@@ -58,6 +58,18 @@ a file, a burnisher used as the tool it is — ordinary shop
 practice. If you do not know the hook, learn it on scrap, not
 on a table.
 
+## The hook you cannot see
+
+A scraper that "isn't cutting" is often a hook that
+rolled over or never got turned. Pressing harder heats
+and burnishes. Stop. Turn the hook on scrap, then come
+back. This pack will not become a metallurgy class. It
+will say: if you are leaning, the tool already quit.
+
+A too-aggressive hook tears. Tear-out from a scraper is
+still tear-out. Lighter hook, lighter hands, or a
+different direction.
+
 ## Shop consequence
 
 If paper is making a defect prettier and not smaller, stop

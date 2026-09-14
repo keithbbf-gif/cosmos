@@ -66,6 +66,18 @@ Wet paper slips off edges. Edges cut through. Wet
 floors are a shop-safety ordinary: you fall, the piece
 falls. This is not heroic. It is a puddle.
 
+## Water near hide glue and veneer
+
+A wet rub on a film over hide glue, or over a veneer
+that already wanted to lift, is how you teach a panel
+to bubble. If the piece is old and the glue is a
+rumor, stay dry. A dry micron film on a cured finish
+is slower and safer.
+
+If water gets in a crack, it will swell the crack and
+then you are sanding a proud lip tomorrow. Tape cracks.
+Work small.
+
 ## Shop consequence
 
 If you want a leveled film, wet-sand a film that is

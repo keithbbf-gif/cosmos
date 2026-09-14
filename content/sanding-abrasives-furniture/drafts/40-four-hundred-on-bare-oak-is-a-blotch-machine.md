@@ -70,6 +70,18 @@ so the last named grit is an actual cut. If you want
 closed, say closed and test the can. If you want even
 color, stop sooner.
 
+## Filled finishes are a different last grit
+
+If you are going to fill oak pores and build a film, a
+higher last grit on the *fiber* can make sense so the
+fill is not sitting in a 120 photograph. That is still
+not 400 as a personality. It is a fill schedule. Do
+the fill as the fill product says. Do not 400 the bare
+board and then skip the fill and wonder why the pores
+are pits.
+
+A filled look without filler is just burnish plus hope.
+
 ## Shop consequence
 
 If blotch appeared after a "better" sanding, ask whether

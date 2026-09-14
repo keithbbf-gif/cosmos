@@ -68,6 +68,18 @@ If a sleeve says ceramic-coated AO or some hybrid sentence, treat
 it as a belt mineral until a test board says otherwise. Hybrids
 are fine. Unnamed hybrids are a drawer problem.
 
+## "Premium" AO on a cheap pad
+
+A good AO disc on a dead hook-and-loop pad (draft 21) is
+still a mattress. Buy the pad. The mineral cannot fix the
+platen. I have blamed AO for swirl that was a bald pad
+and a tipped edge.
+
+AO also comes in better sorts — tighter grit, better
+bond. That matters on a show face at 180. It matters
+less at 80 on a repair. Spend the money where the
+photograph will live.
+
 ## Shop consequence
 
 Stock AO for the field. Inspect for the burnish. Throw dull discs

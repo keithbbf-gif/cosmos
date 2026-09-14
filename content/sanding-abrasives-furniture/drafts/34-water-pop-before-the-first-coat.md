@@ -68,6 +68,14 @@ is fussy about contaminants, tack as that can wants.
 Stearate leftovers (draft 13) plus a pop is a chemistry
 you should test.
 
+## Dye first or pop first
+
+Some dye schedules want the pop before the dye so the
+dye does not raise a second beard. Some want dye, dry,
+then a knock. Do the test board. Do not run two theories
+on one dining top. The second beard is how you sand
+through a dye line on an edge.
+
 ## Shop consequence
 
 If the first coat raises a beard, you owe yourself a pop

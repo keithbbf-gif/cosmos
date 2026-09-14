@@ -63,6 +63,18 @@ belt that smells like a toasted finish. If you need that much
 heat to keep cutting, you are removing too much in one stay, or
 the belt is loaded and you are polishing waste.
 
+## Portable belts and "just this glue ridge"
+
+A ceramic belt on a portable sander will take a glue
+ridge and the field next to it in one stay. Then you
+have a valley you will try to hide with a ROS. Local
+removal wants a short belt, a light grit, and a stop
+the moment the ridge is gone. If you cannot see the
+ridge in raking light, you are already into the field.
+
+I mark the ridge with pencil. When the pencil is gone,
+the belt is gone from that neighborhood.
+
 ## Shop consequence
 
 Buy ceramic or zirconia when the job is removal and the tool is

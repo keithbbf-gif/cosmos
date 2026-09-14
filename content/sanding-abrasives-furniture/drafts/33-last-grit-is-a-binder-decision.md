@@ -63,6 +63,19 @@ A blotchy maple after 400 is draft 40. A stripy oak after
 a skip is draft 38. If color is coming, the last grit is
 a color decision wearing a number.
 
+## Worktops versus show tops
+
+A butcher-adjacent worktop that will be oiled and cut on
+can want a slightly coarser last grit so the oil has
+somewhere to sit and the scratches look like use instead
+of a skip. A dining show top under a thin oil cannot hide
+that coarseness. Same species, two last numbers, two
+speeches to the client (draft 45).
+
+I do not last-sand a cutting surface to 400 and then
+complain it is slippery when wet. Closed is a choice
+with a job attached.
+
 ## Shop consequence
 
 Write the finish on the door next to the grit sequence.

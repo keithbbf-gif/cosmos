@@ -63,6 +63,18 @@ finishing-oil habits. Hang it or wet it in the same spirit as
 rags (see finishing-chemistry). Do not leave a nest of oily
 wool in a can of scraps.
 
+## 0000 is still iron
+
+People treat 0000 like a cloth. It is a fine iron tooth.
+It still sheds. "I only used it to rub wax" still leaves
+fibers in pores if you were on oak. Wax on iron on oak
+in a humid kitchen is a rust experiment.
+
+If a wax recipe wants 0000, a gray synthetic pad plus
+the wax is the substitution I will actually run. The
+sheen may be a little different. Different is better
+than orange.
+
 ## Shop consequence
 
 If the next finish is water-anything, skip steel wool. If you

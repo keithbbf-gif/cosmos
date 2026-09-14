@@ -73,6 +73,17 @@ dust cakes and local heat. This draft assumes a living pad. Most
 swirl complaints I have believed were a dead pad I did not want
 to spend money on.
 
+## Brakes and "the pad stopped"
+
+Some machines brake the pad when you lift. Some spin down
+on the wood if you lift slow. Lift like you mean it. A
+spin-down comma at the end of a pass is a swirl with a
+signature. I have a top with a family of those commas
+along the far edge, where I always finish a stroke.
+
+Start and stop off the work when you can. On a large top
+you cannot always. Then lift clean.
+
 ## Shop consequence
 
 Use the ROS for the field. Hand the edges. Grain-pass the show

@@ -65,6 +65,19 @@ change, or I switch to the raking light and the pencil and I let
 those tools overrule me. If I cannot see, I stop. A top can sit
 overnight. A shipped swirl cannot.
 
+## Other liars
+
+A glove after you have been on a belt. The glove is
+smoother than skin and it averages more. Take it off for
+the last feel, then still look.
+
+A board you just blew off with air. The remaining dust
+fills scratches. Vacuum, then look, then feel if you
+must.
+
+A finish sample you already love. You will feel what you
+want. Look at the job, not the memory of the sample.
+
 ## The rule I write on the door
 
 Do not pass a show surface by thumb alone. Feel the ridge. See

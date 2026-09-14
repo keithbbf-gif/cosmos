@@ -61,6 +61,20 @@ scratch. Once you have seen one, you will see them for a
 year on other people's tables. That is useful and slightly
 ruining.
 
+## Frames, panels, the floating field
+
+A frame-and-panel door is a nest of joints. If you sand
+the panel after it is in the frame, you will cross the
+rails. Sand the panel as a panel, then the frame as a
+frame, then a light hand at the reveal if the proud
+needs it. A floating panel that you sand in place is
+how you write cross-grain on a field that will move
+anyway and show the stripe twice — winter and summer.
+
+Apron-to-leg is the same law in a smaller room. The
+apron grain runs one way, the leg another. A ROS that
+"blends the corner" blends nothing. It writes a fan.
+
 ## Shop consequence
 
 If the piece has a breadboard, the sequence includes a

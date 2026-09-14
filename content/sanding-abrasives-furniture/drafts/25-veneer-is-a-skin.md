@@ -72,6 +72,17 @@ whether you should be sanding at all. You may be thinning
 the face on the high side and opening the low side. Moisture
 and clamps are sometimes the real grit.
 
+## Paper-backed and phenolic
+
+Some modern faces are paper-thin over a phenolic or a
+composite. They sand like a lie: they feel like wood for
+thirty seconds and then you are on glue. If a "hardwood
+plywood" face powders gray early, stop and look at the
+edge. You may already be through.
+
+Repair of a sand-through on phenolic is a color-and-fill
+job, not more paper. More paper is a bigger hole.
+
 ## Shop consequence
 
 Start finer than your pride. Stop sooner than your anxiety.

@@ -9,9 +9,10 @@
 A staged draft is a shop essay. It opens on a surface, a light, a pad,
 or a leftover scratch. It earns one judgment. It is publishable alone.
 
-Target length is **650–1,000 words** of body copy. Shorter than a
-magazine feature, longer than a grit chart. If you need a chart, make
-the board. Do not pad to a word count with a third restatement.
+Target length is **500–850 words** of body copy. Shorter than the
+craft-blog magazine pieces, longer than a grit chart. If you need
+a chart, make the board. Do not pad to a word count with a third
+restatement.
 
 ## Openings
 

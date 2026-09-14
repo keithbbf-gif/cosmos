@@ -57,6 +57,20 @@ A pad with lazy hooks will never hold a mesh disc that cost
 real money. Pay for the pad. The discs can be ordinary AO if
 the pad is alive. The reverse is a waste of good mineral.
 
+## How the mattress builds
+
+Mesh dumps more dust toward the pad than paper does (draft
+14). A five-inch ROS on oak for an hour will felt the hooks
+even if the hose is honest. I used to clean when the disc
+flew. That is late. I clean when I change from 80 to 120,
+because that is when I am already in the drawer.
+
+A pad-cleaning stick is a stick of crepe, not a magic. It
+pulls the cake. If you gouge the foam to "get under" the
+dust, you have a bald crater that will never hold a disc
+again. Brush first. Stick second. Replace when the hooks
+look like shaved velvet.
+
 ## Shop consequence
 
 Once a week, or whenever a disc crawls, look at the hooks.
