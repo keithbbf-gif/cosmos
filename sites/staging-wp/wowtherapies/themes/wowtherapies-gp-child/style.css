@@ -1,0 +1,122 @@
+/*
+Theme Name: WOW Therapies (GeneratePress Child)
+Theme URI: https://wowtherapies.com
+Description: Calm, accessible GeneratePress child theme for WOW Therapies — Southeast Arkansas speech-language pathology practice.
+Author: WOW Therapies
+Template: generatepress
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.6
+License: GNU General Public License v2 or later
+Text Domain: wowtherapies-gp-child
+*/
+
+:root {
+	--wt-brand: #2f5d62;
+	--wt-brand-dark: #234649;
+	--wt-accent: #6b9b9e;
+	--wt-surface: #f7f9f8;
+	--wt-text: #1f2933;
+	--wt-muted: #52606d;
+	--wt-focus: #0b6e99;
+	--wt-radius: 6px;
+	--wt-max-read: 70ch;
+}
+
+body {
+	color: var(--wt-text);
+}
+
+.site-header {
+	border-bottom: 1px solid rgba(47, 93, 98, 0.12);
+}
+
+.main-navigation a {
+	font-weight: 500;
+}
+
+.wt-hero {
+	background: linear-gradient(165deg, var(--wt-surface) 0%, #ffffff 55%);
+	padding: 2.5rem 0 2rem;
+}
+
+.wt-hero h1 {
+	color: var(--wt-brand-dark);
+	font-size: clamp(1.75rem, 4vw, 2.35rem);
+	line-height: 1.2;
+	max-width: var(--wt-max-read);
+}
+
+.wt-lead {
+	font-size: 1.125rem;
+	color: var(--wt-muted);
+	max-width: var(--wt-max-read);
+}
+
+.wt-card-grid {
+	display: grid;
+	gap: 1.25rem;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	margin: 2rem 0;
+}
+
+.wt-card {
+	background: #fff;
+	border: 1px solid rgba(47, 93, 98, 0.15);
+	border-radius: var(--wt-radius);
+	padding: 1.25rem 1.35rem;
+}
+
+.wt-card h2,
+.wt-card h3 {
+	color: var(--wt-brand);
+	font-size: 1.15rem;
+	margin-top: 0;
+}
+
+.wt-cta {
+	margin: 2rem 0;
+}
+
+.wt-button,
+a.wt-button {
+	background: var(--wt-brand);
+	border-radius: var(--wt-radius);
+	color: #fff !important;
+	display: inline-block;
+	font-weight: 600;
+	padding: 0.65rem 1.25rem;
+	text-decoration: none;
+}
+
+.wt-button:hover,
+a.wt-button:hover {
+	background: var(--wt-brand-dark);
+	color: #fff !important;
+}
+
+.wt-disclaimer {
+	background: var(--wt-surface);
+	border-top: 1px solid rgba(47, 93, 98, 0.12);
+	color: var(--wt-muted);
+	font-size: 0.875rem;
+	line-height: 1.5;
+	margin-top: 2rem;
+	padding: 1rem 0;
+}
+
+.wt-disclaimer strong {
+	color: var(--wt-text);
+}
+
+:focus-visible {
+	outline: 3px solid var(--wt-focus);
+	outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}

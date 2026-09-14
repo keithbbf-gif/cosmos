@@ -1,0 +1,101 @@
+/*
+Theme Name: SLP WOW (GeneratePress Child)
+Theme URI: https://slpwow.com
+Description: Lightweight professional community theme for SLP WOW — news, resources, and word lists.
+Author: SLP WOW
+Template: generatepress
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.6
+License: GNU General Public License v2 or later
+Text Domain: slpwow-gp-child
+*/
+
+:root {
+	--sw-brand: #3d4f7c;
+	--sw-brand-dark: #2c3a5e;
+	--sw-highlight: #e8b86d;
+	--sw-surface: #f4f6fb;
+	--sw-text: #1a1f2e;
+	--sw-muted: #5c6578;
+	--sw-radius: 8px;
+}
+
+body {
+	color: var(--sw-text);
+}
+
+.sw-hero {
+	background: var(--sw-surface);
+	border-bottom: 1px solid rgba(61, 79, 124, 0.12);
+	padding: 2.25rem 0 1.75rem;
+}
+
+.sw-hero h1 {
+	color: var(--sw-brand-dark);
+	font-size: clamp(1.85rem, 4vw, 2.5rem);
+}
+
+.sw-badge {
+	background: var(--sw-highlight);
+	border-radius: 999px;
+	color: var(--sw-brand-dark);
+	display: inline-block;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	padding: 0.25rem 0.65rem;
+	text-transform: uppercase;
+}
+
+.sw-card-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	margin: 1.75rem 0;
+}
+
+.sw-card {
+	background: #fff;
+	border: 1px solid rgba(61, 79, 124, 0.14);
+	border-radius: var(--sw-radius);
+	padding: 1.15rem 1.25rem;
+}
+
+.sw-card h3 {
+	color: var(--sw-brand);
+	font-size: 1.05rem;
+	margin-top: 0;
+}
+
+.sw-pro-note {
+	background: #fff8e6;
+	border-left: 4px solid var(--sw-highlight);
+	font-size: 0.9rem;
+	margin: 1.5rem 0;
+	padding: 0.85rem 1rem;
+}
+
+.sw-footer-note {
+	color: var(--sw-muted);
+	font-size: 0.85rem;
+	margin-top: 1.5rem;
+}
+
+a.sw-button {
+	background: var(--sw-brand);
+	border-radius: var(--sw-radius);
+	color: #fff !important;
+	font-weight: 600;
+	padding: 0.55rem 1.1rem;
+	text-decoration: none;
+}
+
+a.sw-button:hover {
+	background: var(--sw-brand-dark);
+}
+
+:focus-visible {
+	outline: 3px solid #2563eb;
+	outline-offset: 2px;
+}
