@@ -67,6 +67,8 @@ def main() -> int:
             errors.append(f"{p.name}: missing keys {sorted(miss)}")
         if meta.get("status") != "draft" or meta.get("stage") != "draft":
             errors.append(f"{p.name}: status/stage must be draft")
+        if meta.get("voice_check") not in ("human", "edited"):
+            errors.append(f"{p.name}: voice_check must be human or edited")
         if meta.get("series") != "slpwow-slp-news-practice":
             errors.append(f"{p.name}: bad series")
         if meta.get("type") not in ALLOWED_TYPES:

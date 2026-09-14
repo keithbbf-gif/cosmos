@@ -2,6 +2,8 @@
 
 Forty-six clinician-facing drafts. Status: `draft` / `stage: draft`. Nothing here is cleared for the live slpwow.com sitemap.
 
+**Editor pass (2026-09-14):** all articles carry `voice_check: edited`. Details: `EDITOR_REPORT.md`. Writer pack: PR #467 / branch `cursor/slpwow-slp-news-practice-d70b`.
+
 How SLPs read new research; reimbursement changes in plain language; school vs medical news; dysphagia / voice / fluency / pediatric *headlines*. News, not protocols.
 
 All files live under `content/slpwow-slp-news-practice/`. Inventory: `MANIFEST.md`. Guardrails: `CLAIMS_GUARDRAILS.md`.

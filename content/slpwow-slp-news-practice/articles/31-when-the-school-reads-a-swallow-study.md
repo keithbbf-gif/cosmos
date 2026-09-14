@@ -17,7 +17,8 @@ citations:
   - "https://sites.ed.gov/idea/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.

@@ -10,7 +10,8 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 | --- | --- |
 | `INDEX.md` | Calendar, cadence, waves |
 | `MANIFEST.md` | This inventory |
-| `STYLE_GUIDE.md` | Voice bans + `voice_check: human` |
+| `STYLE_GUIDE.md` | Voice bans + `voice_check` lifecycle |
+| `EDITOR_REPORT.md` | Editor pass record (2026-09-14) |
 | `CLAIMS_GUARDRAILS.md` | Never-say list (no protocols, no billing scripts) |
 | `BIBLIOGRAPHY.md` | Citations used across the pack |
 | `WP_IMPORT.md` | Staging import only |
@@ -19,7 +20,7 @@ Editor agent: QA against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md` after this 
 
 ## Article drafts (46)
 
-Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `citations`, `status: draft`, `stage: draft`, `voice_check: human`.
+Required YAML on each: `title`, `slug`, `meta_description`, `series`, `type`, `audience`, `brand`, `tags`, `citations`, `status: draft`, `stage: draft`, `voice_check: edited`, `voice_check_date` (after editor pass).
 
 Required body: educational disclaimer (not billing advice; not a protocol; not medical advice).
 
@@ -82,7 +83,7 @@ Required body: educational disclaimer (not billing advice; not a protocol; not m
 ## Check script (editor)
 
 1. `articles/*.md` count ≥ 40.
-2. Each file has `status: draft`, `stage: draft`, and `voice_check: human` (or `edited` after editor).
+2. Each file has `status: draft`, `stage: draft`, and `voice_check: edited` with `voice_check_date`.
 3. Disclaimer present.
 4. Grep fail on: `bill 92507`, `always append KX`, `gold standard treatment`, `try this protocol`, `home program`.
 5. No `[CITE NEEDED]` on a printed dollar figure.

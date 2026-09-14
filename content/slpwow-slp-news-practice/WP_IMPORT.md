@@ -18,7 +18,7 @@ Markdown drafts with YAML front matter under `articles/`. Forty-six posts plus t
 | `type` | custom field (`research-literacy` / `reimbursement` / `school-medical` / `practice-headline`) |
 | `citations` | custom field (JSON or one URL per line). Also a visible Sources block when cleared. |
 | `status: draft` / `stage: draft` | **Draft.** Never map to `publish` or `future`. |
-| `voice_check` | strip on import (internal QA). |
+| `voice_check` / `voice_check_date` | strip on import (internal QA). |
 | `audience` / `brand` | strip or store as custom fields; do not print. |
 
 Suggested post type: `post`. Category: `SLP News` or `Practice news` (create once). Do not file under `Shop` or a city landing page. Do not merge with the pediatric-milestones or history calendars.

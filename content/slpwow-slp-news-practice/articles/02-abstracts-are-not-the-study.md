@@ -16,7 +16,8 @@ citations:
   - "https://academy.pubs.asha.org/2022/02/increasing-research-transparency-at-the-asha-journals/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -65,7 +66,7 @@ Do not send the abstract to a family as homework. Families deserve public pages 
 
 Do not let a vendor’s email quote the abstract at you as if the vendor had read the limitations. They are not required to. You are, if you are going to change a habit.
 
-## A small ritual that takes four minutes
+## A four-minute reading habit (not a clinical protocol)
 
 1. Highlight every causal verb in the abstract.
 2. Open Methods. Write one sentence: who, what, how long.

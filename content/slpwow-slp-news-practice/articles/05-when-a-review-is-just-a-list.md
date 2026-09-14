@@ -16,7 +16,8 @@ citations:
   - "https://academy.pubs.asha.org/2022/02/increasing-research-transparency-at-the-asha-journals/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational news briefing for SLPWOW. Not billing advice, not legal advice, not a treatment protocol, and not medical advice. Rules change by contractor, state, and calendar year. Verify the current CMS, MAC, state, or ASHA page before you act. This series does not evaluate patients and does not publish worksheets.
@@ -55,7 +56,7 @@ ASHA journals, like everyone else, publish all of these types. Their transparenc
 
 ## How this shows up in a staff meeting
 
-Someone prints a review, highlights the abstract, and says we should change the diet order set. You can ask four questions without being the villain:
+Someone prints a review, highlights the abstract, and says we should change the diet order set. You can ask four questions without being the villain — a reading discipline, not a house protocol:
 
 1. Can I see the search.
 2. How many studies, and in whom.
