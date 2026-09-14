@@ -8,4 +8,4 @@ Editorial drafts and shared assets for a long-form AI industry publication (targ
 - **Embed drafts:** `python3 content/ai-industry-blog/scripts/embed_wave2_figures.py`
 - **Wave 2 checklist:** [`staged/WAVE2_CHECKLIST.md`](staged/WAVE2_CHECKLIST.md)
 
-Draft markdown is expected under `drafts/` as the writing stream lands copy; this PR seeds the graphics layer only.
+Drafts live in `drafts/` (42 pieces, 2020–2026). Figure HTML is already embedded via the wave-2 script; re-run that script after changing `staged/wave2_draft_figure_plan.json`. This folder is draft-only — no WordPress deploy.

@@ -17,7 +17,7 @@ figures:
 
 On 15 February 2024, OpenAI posted *Video generation models as world simulators* and a reel. Sora, a diffusion transformer over spacetime patches, produced up to a minute of video from text. The Tokyo walk, the paper planes, the "it almost understands objects" claim. The research post is more honest than the reel: glass does not shatter right, food does not change state when eaten, objects appear because the sampler needed them. Red-teamers and a few artists got access first. A product you could type into came later, in stages, under safety and likeness rules that kept moving.
 
-Runway (Gen-2, then Gen-3), Pika, Luma, Kling, and a 2024–25 pile of open and semi-open video models made the category a market before Sora was a SKU. The image-diffusion drop of 22 August 2022 had already taught the industry that a closed reel does not stay closed if the paper is close. Video is heavier — data, compute, legal — so the open file lagged. It did not fail to arrive.
+Runway (Gen-2, then Gen-3 Alpha on 17 June 2024), Pika, Luma, Kling, and a 2024–25 pile of open and semi-open video models made the category a market before Sora was a SKU. OpenAI opened a ChatGPT-side Sora product in December 2024 (Plus/Pro, US first, with watermarking and likeness rules that kept moving). The image-diffusion drop of 22 August 2022 had already taught the industry that a closed reel does not stay closed if the paper is close. Video is heavier — data, compute, legal — so the open file lagged. It did not fail to arrive.
 
 <!-- ai-blog-figures:begin -->
 <figure class="blog-figure">
@@ -40,7 +40,7 @@ Conditioning got better: image-to-video, video-to-video, camera-path controls, "
 
 ## Open video, slower than images
 
-Stable Video Diffusion (Stability, November 2023) and the later CogVideo / Hunyuan / Wan-class weights (names move; check the card) are the 2024–25 "file exists" story. They are not August 2022. VRAM, data, and temporal collapse keep the hobbyist ceiling lower. That is why Hollywood's panic in February 2024 was about a *reel*, not about a torrent. The torrent came, thinner.
+Stable Video Diffusion (Stability, 21 November 2023) and the later CogVideo / Hunyuan Video / Wan-class weights (names move; check the card) are the 2024–25 "file exists" story. They are not August 2022. VRAM, data, and temporal collapse keep the hobbyist ceiling lower. That is why Hollywood's panic in February 2024 was about a *reel*, not about a torrent. The torrent came, thinner.
 
 Runway's business was already a subscription for editors before Sora's post. That is the existence proof that a video company can be a workflow company. A research reel is not a competitor until it has a timeline, a mask, and an export that a colorist will touch.
 

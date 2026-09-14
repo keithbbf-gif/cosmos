@@ -15,7 +15,7 @@ figures:
   - industry-milestones-2020-2026
 ---
 
-In December 2022 and January 2023, school districts and a few universities banned ChatGPT on the network. New York City's public-school block (announced in early January 2023, later walked back toward "teach it") was the emblem. Teachers had spent the winter break grading essays that were fluent and empty. Students had spent it discovering that InstructGPT's helpfulness (March 2022) plus a chat box (30 November) was a homework machine.
+In December 2022 and January 2023, school districts and a few universities banned ChatGPT on the network. New York City's Department of Education blocked it on school networks and devices on 5 January 2023 (Chancellor David Banks's office); by May the city was already talking about teaching the tool instead of pretending the phones did not exist. Teachers had spent the winter break grading essays that were fluent and empty. Students had spent it discovering that InstructGPT's helpfulness (March 2022) plus a chat box (30 November) was a homework machine.
 
 Detectors arrived: GPTZero, Turnitin's AI score, OpenAI's own classifier (launched 31 January 2023, shut down 20 July 2023 as unreliable). Liang et al. (2023) and a pile of follow-ups documented the failure mode everyone felt: non-native English writers got flagged more; a student who edited a draft could dodge; a teacher who trusted a percentage was doing numerology. OpenAI's shutdown post is the rare vendor sentence worth framing. They could not defend the tool.
 

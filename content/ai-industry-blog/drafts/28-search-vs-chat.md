@@ -42,7 +42,7 @@ Bing's 2023 mistake was giving the second object a long memory and a persona and
 
 ## Citations as the only adult feature
 
-Perplexity's bet was: every sentence should be able to point at a URL. That does not make the sentence true (the URL can be junk). It makes the sentence *inspectable*. Google's AI Overviews (rolled out 2024, then fought in public over bad health and onion-glue answers) learned the inspectability lesson in the tabloids. `[CITE NEEDED]` for a specific Overview incident you want to name; the genre is stable even when the example rotates.
+Perplexity's bet was: every sentence should be able to point at a URL. That does not make the sentence true (the URL can be junk). It makes the sentence *inspectable*. Google's AI Overviews began a US rollout in May 2024 and spent that summer in the tabloids for confident nonsense (glue-on-pizza and "eat rocks" were the named ones). The genre is stable even when the example rotates. If you brief a specific incident, pull the contemporaneous Google post or the newspaper URL; do not rely on a meme.
 
 A citation that the model did not actually use is a new lie. If your UI paints a footnote on a sentence that came from weights, you have made search worse. The honest pattern: retrieve, generate only from those passages, show the passages, fail closed when retrieval is empty.
 

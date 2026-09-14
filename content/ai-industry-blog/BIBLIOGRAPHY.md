@@ -131,7 +131,18 @@ A 2025 MIT-associated "95% of pilots fail" figure circulated in trade press. **[
 | QWEN | Bai et al., Qwen Technical Report | Sep 2023 | https://arxiv.org/abs/2309.16609 |
 | SB1047 | California SB 1047 (vetoed 29 Sep 2024) | 2024 | https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047 |
 | CO_AI | Colorado SB24-205 | signed 17 May 2024 | https://leg.colorado.gov/bills/sb24-205 |
-| IEA2025 | IEA, Energy and AI | 2024–25 | https://www.iea.org/reports/energy-and-ai |
+| IEA2025 | IEA, Energy and AI | 10 Apr 2025 | https://www.iea.org/reports/energy-and-ai · exec. summary https://www.iea.org/reports/energy-and-ai/executive-summary |
+| CEG_TMI | Constellation, Crane Clean Energy Center / Microsoft 20-year PPA | 20 Sep 2024 | https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs |
+| GPAI_COP | Commission, GPAI Code of Practice | 10 Jul 2025 (adequacy 1 Aug 2025) | https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai |
+| EO14365 | Exec. Order 14365, *Ensuring a National Policy Framework for Artificial Intelligence* | 11 Dec 2025 (FR 16 Dec 2025) | https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence |
+| CO_25B | Colorado SB25B-004 (effective-date delay) | effective 25 Nov 2025 | https://www.leg.colorado.gov/bills/sb25b-004 |
+| CO_189 | Colorado SB26-189 (ADMT / consequential decisions) | signed 14 May 2026 | https://www.leg.colorado.gov/bills/sb26-189 |
+| OAI_PBC | OpenAI, *Built to benefit everyone* (recapitalization) | 28 Oct 2025 | https://openai.com/index/built-to-benefit-everyone/ · https://openai.com/our-structure/ |
+| MOFFATT2024 | *Moffatt v. Air Canada*, 2024 BCCRT 149 | 14 Feb 2024 | https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html |
+| OWASP_LLM | OWASP Top 10 for LLM Applications / GenAI LLM Top 10 2026 | 2023–4 Aug 2026 | https://owasp.org/www-project-top-10-for-large-language-model-applications/ · https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/ |
+| SNELL2024 | Snell et al., Scaling LLM Test-Time Compute Optimally… | 6 Aug 2024 | https://arxiv.org/abs/2408.03314 |
+| AI_181 | Apple, Apple Intelligence available on iPhone, iPad, Mac | 28 Oct 2024 | https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/ |
+| MARINER_IO | Google I/O 2025 keynote (Mariner / Agent Mode) | 20 May 2025 | https://blog.google/innovation-and-ai/technology/ai/io-2025-keynote/ |
 | NVIDIA_H100 | NVIDIA Hopper / H100 announcement | 22 Mar 2022 | https://nvidianews.nvidia.com/news/nvidia-announces-hopper-architecture-the-next-generation-of-accelerated-computing |
 | OAI_CHARTER | OpenAI Charter | living page | https://openai.com/charter/ |
 | LIANG2023 | Liang et al., AI detectors / non-native writers | 2023 | https://arxiv.org/abs/2306.15666 |

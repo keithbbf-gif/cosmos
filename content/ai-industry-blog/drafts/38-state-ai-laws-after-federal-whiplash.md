@@ -1,7 +1,7 @@
 ---
 title: "State AI laws after federal whiplash"
 slug: state-ai-laws-after-federal-whiplash
-meta_description: "Colorado 2024, California SB 1047 vetoed 29 Sept 2024, EO 14110 revoked Jan 2025: the US map is states plus sectoral law."
+meta_description: "Colorado SB24-205, the 2026 ADMT rewrite, SB 1047 vetoed 29 Sept 2024, EO 14110 revoked: US AI law is states plus sectoral statutes."
 tags: [colorado, sb1047, regulation, states, 2024]
 era_start: 2024-05
 citations:
@@ -9,6 +9,9 @@ citations:
   - "SB1047 https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047"
   - "EO14179 https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
+  - "CO_25B https://www.leg.colorado.gov/bills/sb25b-004"
+  - "CO_189 https://www.leg.colorado.gov/bills/sb26-189"
+  - "EO14365 https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence"
 status: draft
 voice_check: edited
 figures:
@@ -16,7 +19,9 @@ figures:
   - regulation-global-snapshot-2026
 ---
 
-On 17 May 2024, Colorado's governor signed SB24-205, a consumer-protection-shaped law on "high-risk" AI systems: disclosures, reasonable care, a duty around algorithmic discrimination in covered decisions (employment, credit, housing, and neighbors). The effective date was written as 1 February 2026, with the usual amendment chatter after. Pull the current C.R.S. cite before you brief a customer. `[CITE NEEDED]` if the legislature moved the date again.
+On 17 May 2024, Colorado's governor signed SB24-205, a consumer-protection-shaped law on "high-risk" AI systems: disclosures, reasonable care, a duty around algorithmic discrimination in covered decisions (employment, credit, housing, and neighbors). The original effective date was 1 February 2026. That date did not survive.
+
+SB25B-004, signed out of the 2025 extraordinary session and effective 25 November 2025, moved the SB24-205 duties to 30 June 2026 (C.R.S. 6-1-1702 and neighbors, as amended). Then, on 14 May 2026, Governor Polis signed SB26-189. The official summary: the act repeals and reenacts the 2024 provisions with new rules on *automated decision-making technology* used in *consequential decisions* (education, employment, housing, lending, insurance, health care, essential government services). General effective date 1 January 2027, applying to consequential decisions on or after that day. Pull the enrolled bill, not a 2024 explainer, before you brief a customer.
 
 On 29 September 2024, California Governor Gavin Newsom vetoed SB 1047 (Wiener), the frontier-model bill that would have tied duties to training-compute thresholds and a "covered model" definition the labs hated. The veto message is public: he wanted a risk-and-deployment approach, not a size-only approach, and said California would keep going by other means. Later 2025 California bills (transparency, training-data, companion laws — the numbers rotate) should be taken from LegInfo the week you publish. This draft treats the veto as the load-bearing 2024 fact.
 
@@ -41,9 +46,9 @@ On 23 January 2025, EO 14179 revoked EO 14110. The federal "one checklist" story
 
 **Voluntary federal.** NIST AI RMF 1.0 (26 January 2023) and the 2024 generative profile. Still the shared vocabulary after the order vanished.
 
-**State statutes.** Colorado's high-risk duty. California's privacy+AI stack (CPPA, existing CCPA/CPRA, the vetoed 1047, whatever replaced the mood). New York City's Local Law 144 (automated employment decision tools, 2023 enforcement) as an earlier municipal cousin. Texas, Utah, and others with disclosure-and-chatbot-label bills. Illinois biometric law as the old scary one. **[CITE NEEDED]** before you list a 2026 state as "done" — sessions keep moving.
+**State statutes.** Colorado's 2024 high-risk experiment, then the 2026 ADMT rewrite. California's privacy+AI stack (CPPA, existing CCPA/CPRA, the vetoed 1047). New York City's Local Law 144 (automated employment decision tools, 2023 enforcement) as an earlier municipal cousin. Utah's 2024 disclosure-and-chatbot-label statute. Illinois biometric law as the old scary one. Texas and others kept moving in 2025 sessions. Do not list a 2026 state as "done" unless you opened that state's chapter this week.
 
-Preemption talk (secondary summaries of late-2025 federal orders) is a live political fight. Do not tell a customer the states have been federalized unless you have the *current* Federal Register and a lawyer.
+Preemption talk now has a Federal Register cite: EO 14365 (11 December 2025). It directs litigation and a legislative recommendation. It does not, by itself, zero the states. Do not tell a customer the map has been federalized unless you have the current order *and* a lawyer.
 
 ## NYC Local Law 144, the municipal cousin
 
@@ -55,7 +60,7 @@ If you sell hiring support, you already needed this paragraph. The model did not
 
 Compute thresholds are easy to write and easy to route around (distill, mixture-of-experts active-params, train abroad). Deployment-risk thresholds are hard to write and closer to how harm happens (a 3B in a hiring loop vs a 400B that writes poems). Newsom's veto picked the second criticism. Labs that celebrated should notice he did not say "do nothing." He said "not this bill."
 
-Colorado picked the deployment door: high-risk *uses*, not FLOPs. That is closer to the EU Annex III instinct. It is also closer to something a product lawyer can map onto a feature list.
+Colorado's 2024 text picked the deployment door: high-risk *uses*, not FLOPs. That was closer to the EU Annex III instinct, and closer to something a product lawyer can map onto a feature list. The 2026 rewrite narrowed the object to ADMT that materially influences a consequential decision and swapped some of the EU-shaped duties for transparency and consumer-rights language. Same instinct — regulate the decision, not the FLOP count — in a thinner statute. Read 189, not a 2024 conference slide.
 
 ## What a product team does on Monday
 
@@ -69,6 +74,6 @@ Do not stamp "EO 14110 compliant" on a 2026 SOC2 appendix.
 
 ## Opinion
 
-US AI law in 2026 is a patchwork because the federal spine was an order and the order died. The serious duties are old (discrimination, fraud, biometrics) plus a few new state experiments. Colorado is the one to read if you sell a decision. California is the one to watch if you train a frontier model. NIST is the one to speak if you need a shared language.
+US AI law in 2026 is a patchwork because the federal spine was an order and the order died. The serious duties are old (discrimination, fraud, biometrics) plus a few new state experiments that already rewrote themselves once. Colorado is still the one to read if you sell a *decision* — just read the 2026 chapter. California is the one to watch if you train a frontier model. NIST is the one to speak if you need a shared language.
 
 A single federal fairy tale is not available. Write the matrix.

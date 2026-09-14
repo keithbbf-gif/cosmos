@@ -1,66 +1,67 @@
 # Editor report — pack 42 (`content/ai-industry-blog/`)
 
-**Editor pass:** 2026-09-14  
+**Quality pass:** 2026-09-14 (after editor voice pass + graphics merge)  
 **Branch:** `cursor/ai-industry-blog-pack-019f`  
 **Drafts:** 42  
-**Front matter:** `voice_check: edited` on every file (was `human` after writer pass).
+**Front matter:** `voice_check: edited` on every file; `figures:` on every file.
 
 ## Summary
 
-- **Banned-list scan:** No hits for delve, landscape, leverage, robust, seamless, tapestry, Moreover/Furthermore, “In today’s…”, empty Whether-you’re, or corporate cheer across the pack.
-- **Novelty guardrails:** No COSMOS, KMesh, ModelRater, internal paths, or patent-style dumps.
-- **Figure embeds:** None in this pack; nothing removed.
-- **Body edits:** Ten targeted fixes (grammar, typo, one duplicate sentence, one heading clarity). No new citations invented; `[CITE NEEDED]` markers left intact.
+- **Count:** 42 first-class public-industry drafts (Jan 2020 → 14 Sep 2026). Body words **37,938** (YAML and figure HTML stripped); range **732–1,162**; mean **903**. Depth over padding — remaining thin files are tight, not empty.
+- **Graphics:** Wave-1 + wave-2 SVG library (28 files) checked out from the graphics branches. `embed_wave2_figures.py` applied to current editor-pass prose (not the older wave-2 draft bodies). All 42 have `<!-- ai-blog-figures -->` blocks.
+- **Banned-list scan:** No hits in `drafts/` for delve, landscape, leverage, robust, unlock, cutting-edge, game-changer, Moreover/Furthermore, “In this article”, or “In conclusion”.
+- **Novelty guardrails:** No COSMOS, KMesh, ModelRater, DailyScar, LMNator, BrokenTokn, MOTIF, or KDash in drafts.
+- **`[CITE NEEDED]`:** **13** remaining (was 29). Survivors are moving numbers, PACER PDFs, unpublished memos, clause numbers, and vendor benches — left marked on purpose.
 
-## Body edits by draft
+## Accuracy fills this pass (primary sources)
 
-| # | File | Change |
-| ---: | --- | --- |
-| 02 | `02-scaling-laws-and-the-compute-race.md` | “press relation” → “press release” |
-| 05 | `05-the-chatgpt-moment.md` | Cut duplicate ChatGPT Plus / $20 line (already in prior section) |
-| 10 | `10-safety-alignment-red-teaming.md` | “refuses a allowed” → “refuses an allowed” |
-| 16 | `16-enterprise-adoption-and-roi.md` | “ran a after” → “ran an after” (parallel to “instrumented a before”) |
-| 18 | `18-good-ai-product-design-2026.md` | Heading: “Trust is a retention of doubt” → “Trust means keeping doubt on retainer” |
-| 19 | `19-the-2020-hangover-from-gpt-2.md` | Stray space after “(” before Grover |
-| 30 | `30-hallucinations-are-a-product-defect.md` | “a 85%” → “an 85%” |
-| 31 | `31-token-prices-and-inference-economics.md` | “A oligopoly” → “An oligopoly” |
-| 33 | `33-alphafold-and-scientific-ai.md` | “in a accuracy” → “in an accuracy” |
-| 34 | `34-the-open-tooling-stack.md` | “OSDi” → “OSDI” (conference acronym) |
+| # | Change |
+| ---: | --- |
+| 11 | GPAI Code 10 Jul 2025 / adequacy 1 Aug 2025; EO 14365 (11 Dec 2025, 90 FR 58499) — process order, not preemption |
+| 14 | Mariner: Dec 2024 prototype, I/O 20 May 2025, shut down 4 May 2026 |
+| 18 | Lede dated 14 Sep 2026 (six weeks after 2 Aug majority date) |
+| 21 | Blackwell GTC 18 Mar 2024; dropped unsourced FLOPs/watt compare |
+| 24 | Snell et al. arXiv 2408.03314 named; no invented exponent |
+| 26 | Sutskever 20 Nov 2023 X post quoted; OpenAI Foundation / Group PBC (28 Oct 2025) |
+| 28 | AI Overviews May 2024 US rollout; glue/rocks as named genre |
+| 29 | OWASP LLM Top 10 dated (2023 / Nov 2024 / 4 Aug 2026) |
+| 30 | *Moffatt v. Air Canada*, 2024 BCCRT 149 (14 Feb 2024) |
+| 32 | SVD 21 Nov 2023; Sora ChatGPT product Dec 2024; Gen-3 Alpha 17 Jun 2024 |
+| 33 | AF3 access politics without a fake current license |
+| 37 | IEA *Energy and AI* 10 Apr 2025 (415 TWh / 1.5% / ~945 TWh); Constellation–Microsoft 20 Sep 2024 PPA |
+| 38 | SB25B-004 delay to 30 Jun 2026; SB26-189 signed 14 May 2026, generally 1 Jan 2027 |
+| 39 | Apple Intelligence first ship 28 Oct 2024 (iOS 18.1) |
+| 41 | NYC DOE block 5 Jan 2023 |
+| 42 | Calendar wording aligned to 14 Sep 2026 |
 
-All other drafts: voice and structure held; no prose surgery required.
+## Remaining `[CITE NEEDED]` (do not invent)
 
-## Date pass — flag at publish (writer note)
+| Draft | Why it stays |
+| ---: | --- |
+| 05 | Internal Google “Code Red” memo |
+| 07 | Llama 4 Behemoth public file |
+| 12 | A dated 2026 LMSYS Elo |
+| 13 | Siri feature × OS version by market |
+| 14 | Later OSWorld / WebVoyager vendor percentages |
+| 15 | PACER opinion PDF if quoting holdings |
+| 16 | A 2025 McKinsey percentage from the PDF |
+| 22 | Independent needle tests at Llama 4 Scout 10M |
+| 25 | A specific distillation-from-API charge |
+| 27 | A specific 2025–26 OSWorld slide |
+| 32 | A studio rider clause number |
+| 36 | A WGA MBA clause number |
+| 39 | A named independent PCC audit |
 
-Re-verify ship dates and “as of” copy against primary posts the week you publish. Editor did not change factual dates; these pieces carry the most calendar-sensitive language:
+## Date pass — still refresh at publish
 
 | # | Slug | Why |
 | ---: | --- | --- |
-| **14** | `agents-and-computer-use` | Operator (23 Jan 2025), GPT-5 (7 Aug 2025), Project Mariner availability, OSWorld / WebVoyager **2025–26 bench figures** (`[CITE NEEDED]` in body). |
-| **18** | `good-ai-product-design-2026` | Opens on **2 Aug 2026** AI Act timeline; lede says “five weeks later” — refresh relative wording from publish date. |
-| **26** | `the-openai-board-week` | Nov 2023 primary URLs are solid; **2024–25 cap-table / Delaware** sequel needs current filing (`[CITE NEEDED]`). |
-| **42** | `agi-talk-and-product-roadmaps` | **“2026, five weeks after the Act’s majority date”** — tie to Commission timeline at publish; GPT-5 / o1 dates if roadmap section grows. |
-
-## Thin citation spots (do not invent — fill from primary at publish)
-
-**29** `[CITE NEEDED]` markers across the pack (unchanged). Heaviest concentration:
-
-| Draft | `cite_needed` (YAML body markers) | Notes |
-| ---: | ---: | --- |
-| 11 | 3 | EO 14179 follow-ons, GPAI Code of Practice, EO 14365 / preemption |
-| 14 | 2 | Mariner GA, OSWorld % from vendor posts |
-| 26 | 2 | Sutskever quotes, Delaware / for-profit reshuffle |
-| 37 | 2 | IEA page numbers, named nuclear PPA |
-| 38 | 2 | Colorado effective date, 2026 state statute list |
-| 05, 07, 12–13, 15–16, 21–22, 24–25, 27–30, 32–33, 36, 39 | 1 each | See grep on `[CITE NEEDED]` in `drafts/` |
-
-Pieces with **zero** in-body markers still rely on YAML `citations` URLs — spot-check links before WP import.
-
-## MANIFEST
-
-Word counts recomputed from body text (YAML stripped): **37,074** words total; range **709–1,114**; mean **882**. `[CITE NEEDED]` count **29** (unchanged).
+| **14** | `agents-and-computer-use` | Confirm which Gemini SKU inherited Mariner; OSWorld figures |
+| **38** | `state-ai-laws-after-federal-whiplash` | Colorado 189 is new; xAI litigation / later amendments can move |
+| **07 / 12 / 27** | open weights / small models / Anthropic | Catalog names move |
 
 ## Out of scope (confirmed)
 
 - No other content packs touched.
 - No WordPress / live publish.
-- No new bibliography entries fabricated.
+- Builds/probe JSON dirt left unstaged.

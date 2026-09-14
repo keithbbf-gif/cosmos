@@ -8,6 +8,8 @@ citations:
   - "IEA2025 https://www.iea.org/reports/energy-and-ai"
   - "KAPLAN2020 https://arxiv.org/abs/2001.08361"
   - "HOFFMANN2022 https://arxiv.org/abs/2203.15556"
+  - "IEA2025_ES https://www.iea.org/reports/energy-and-ai/executive-summary"
+  - "CEG_TMI https://investors.constellationenergy.com/news-releases/news-release-details/constellation-launch-crane-clean-energy-center-restoring-jobs"
 status: draft
 voice_check: edited
 figures:
@@ -15,7 +17,7 @@ figures:
   - compute-and-scaling-2020-2026
 ---
 
-The International Energy Agency's *Energy and AI* work (2024–25 editions; the 2025 report is the one to pull when you publish) put data-center electricity on a curve that finance people could not shrug off. Exact TWh figures move between editions. **[CITE NEEDED]** the page number you intend to quote. The direction is not in dispute: training and especially *serving* large models is now a grid story, not a laptop story.
+On 10 April 2025 the International Energy Agency published *Energy and AI*. The executive summary's load-bearing integers: data centres used about 415 TWh in 2024, roughly 1.5% of world electricity; the Base Case more than doubles that to about 945 TWh by 2030 (a bit more than Japan's electricity use today, in their comparison). The US was 45% of the 2024 data-centre load, China 25%, Europe 15%. A later IEA follow-up (*Key Questions on Energy and AI*) restated the 2030 neighborhood around 950 TWh and put 2025 closer to 485 TWh. Quote the edition you hold. Do not mix the two tables in one slide. The direction is not in dispute: training and especially *serving* large models is now a grid story, not a laptop story.
 
 Kaplan (23 January 2020) treated compute as a scalar. A scalar that has to live in a county with a substation, a water permit, and a neighbor who can see the steam. 2023–26 is when that scalar grew a ZIP code.
 
@@ -38,7 +40,7 @@ A frontier pretrain is a spike: tens of thousands of GPUs, weeks to months, a po
 
 Inference is the bill. ChatGPT-class traffic, Copilot-in-every-IDE, image gen, now video and voice. Always-on. The IEA-class analyses that break out AI inside data-center load are the ones to prefer over a tweet that says "one prompt equals N bottles of water." Water numbers in particular are site-specific (evaporative cooling vs air, reuse, climate). A single viral integer is usually a press error. The *local* water fight in a dry county is still real.
 
-Google, Microsoft, Amazon, and Meta all published sustainability pages that tried to square net-zero pledges with a new AI capex. Some added nuclear PPAs and small-modular-reactor talk in 2024–26. `[CITE NEEDED]` a specific PPA if you name it. The engineering fact: a 24/7 training cluster wants 24/7 firm power. Intermittent renewables plus no storage is a press release, not a cluster.
+Google, Microsoft, Amazon, and Meta all published sustainability pages that tried to square net-zero pledges with a new AI capex. One named deal: on 20 September 2024, Constellation announced a 20-year power-purchase agreement with Microsoft to restart Three Mile Island Unit 1 as the Crane Clean Energy Center (~835 MW, targeted 2028, NRC and other permits still required). SEC 8-K that same day. That is a PPA you can name. It is not a running reactor yet. The engineering fact: a 24/7 training cluster wants 24/7 firm power. Intermittent renewables plus no storage is a press release, not a cluster.
 
 ## Training-time vs the IEA curve
 

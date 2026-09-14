@@ -22,7 +22,13 @@ No fake screenshots. No mockups of unreleased products. No "our dashboard" art. 
 - Training-data collage that includes identifiable copyrighted stills
 - Deepfake examples that depict real private people. If an article needs a deepfake example, use a public official's *already published* news photo **or** skip the image.
 
-## Suggested figure list (one per piece, optional)
+## Now in this tree (wave-1 + wave-2)
+
+Publishable **SVG** schematics live under `assets/<slug>/` (28 files). Every draft already has `figures:` YAML and an `<!-- ai-blog-figures -->` HTML block after the lede. Catalog: `GRAPHICS_INDEX.md`. Palette and don'ts: `GRAPHICS_STYLE.md`. Re-embed without touching prose: `python3 content/ai-industry-blog/scripts/embed_wave2_figures.py`.
+
+These are original line drawings of public concepts — not vendor chrome, not COSMOS internals, not fake product UIs. Captions already say when a plate is illustrative.
+
+## Suggested figure list (historical; superseded by the asset catalog)
 
 | Slug | Figure | Source rule |
 | --- | --- | --- |

@@ -8,6 +8,7 @@ citations:
   - "COMPUSE https://www.anthropic.com/news/3-5-models-and-computer-use"
   - "Anthropic research https://www.anthropic.com/research/developing-computer-use"
   - "OPERATOR https://openai.com/index/introducing-operator/"
+  - "MARINER_IO https://blog.google/innovation-and-ai/technology/ai/io-2025-keynote/"
 status: draft
 voice_check: edited
 figures:
@@ -44,7 +45,7 @@ Anthropic shipped a **developer primitive**. You bring a machine (they published
 
 OpenAI shipped **Operator** on 23 January 2025 as a ChatGPT-side, hosted-browser agent: a Computer-Using Agent (CUA) that clicks through the live web for a user, first to Pro subscribers. The action space is a remote browser OpenAI runs. The user can take over. There is less "bring your own VM," more "watch our VM shop for you."
 
-Google's Project Mariner (December 2024 Gemini wrap-up) sat in the same browser-agent bucket. `[CITE NEEDED]` for the exact public availability date in your market.
+Google's Project Mariner sat in the same browser-agent bucket. DeepMind showed the research prototype in the December 2024 Gemini wrap-up. At I/O on 20 May 2025, Pichai said Ultra subscribers could use it, that computer-use would come to the Gemini API, and that broader availability was "this summer." The standalone Mariner page later said the experiment shut down on 4 May 2026 and that the technology moved into other Google products (Gemini Agent, AI Mode — Google's wording). A research name that dies and a capability that gets absorbed is the normal Google pattern. Do not brief Mariner as a 2026 SKU. Brief the product that inherited the clicks, on the week you publish.
 
 Same science-fiction screenshot. Different buyers. If you need to operate an internal thick client, you want the primitive and a VM you own. If you need to book a dentist, you want the hosted browser and a takeover button.
 

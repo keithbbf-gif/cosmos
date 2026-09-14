@@ -15,7 +15,7 @@ figures:
   - diagram-rag-vs-long-context
 ---
 
-On 2 August 2026, the European Commission's timeline says the majority of the AI Act's remaining rules apply — transparency among them. This pack is being written five weeks later. If your "AI product design" still means a chat pane and a sparkle icon, the calendar already disagrees with you.
+On 2 August 2026, the European Commission's timeline says the majority of the AI Act's remaining rules apply — transparency among them. This pack is being written 14 September 2026, six weeks later. If your "AI product design" still means a chat pane and a sparkle icon, the calendar already disagrees with you.
 
 Good design in 2026 is not a look. It is a set of decisions about uncertainty. The model will be wrong. The user will believe it anyway. Your job is to make the wrongness expensive to miss and cheap to fix.
 

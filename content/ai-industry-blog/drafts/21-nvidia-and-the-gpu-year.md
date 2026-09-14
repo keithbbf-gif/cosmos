@@ -36,7 +36,9 @@ This is not a stock tip. It is a systems story. The models in this pack — GPT-
 
 Hopper's useful features for this industry were not the keynote adjectives. They were transformer-engine paths (FP8), NVLink / NVSwitch topologies that made 256-GPU islands less stupid, and a software stack (CUDA, NCCL, later Megatron-LM and DeepSpeed recipes) that the staff already knew. Switching a lab to something else is not a purchase order. It is a two-year compiler and collective-comms project.
 
-Google's TPU v4/v5 story is the existence proof that you can train frontier models off NVIDIA if you already have the compiler people. Amazon's Trainium, Microsoft's Maia, Groq's LPU, Cerebras, the 2024–26 custom-silicon announcements — most of these are inference bets or captive-cloud bets. `[CITE NEEDED]` on any specific 2026 FLOPs/watt comparison; vendor slides are not a bake-off.
+Google's TPU v4/v5 story is the existence proof that you can train frontier models off NVIDIA if you already have the compiler people. Amazon's Trainium, Microsoft's Maia, Groq's LPU, Cerebras, the 2024–26 custom-silicon announcements — most of these are inference bets or captive-cloud bets. Do not print a 2026 FLOPs/watt bake-off from a keynote slide.
+
+On 18 March 2024, at GTC, NVIDIA announced Blackwell. The next allocation fight had a new name before most labs had finished digesting Hopper. That is the cadence: a paper in January 2020, a SKU in March 2022, a waitlist through 2023, a successor brand in 2024, and a power contract that still was not signed. Architecture names move faster than substations.
 
 Export controls (US rules tightening around advanced accelerators to China, 2022–23 onward) made a second SKU, the "not quite H100," a geopolitical object. DeepSeek's later efficiency claims (V3/R1, 2024–25) were read, fairly or not, as a response to that constraint. The public papers do not give you a full cluster bill of materials. Treat "they did it with fewer H100s" as a reported claim, not an audit.
 

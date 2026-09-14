@@ -11,6 +11,8 @@ citations:
   - "EO14179 https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence"
   - "AIACT https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
   - "AIACT_TL https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+  - "GPAI_COP https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
+  - "EO14365 https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence"
 status: draft
 voice_check: edited
 figures:
@@ -51,7 +53,9 @@ Because it is voluntary, NIST survives electoral whiplash better than an executi
 
 Executive Order 14110 (30 October 2023) directed federal agencies on "safe, secure, and trustworthy" AI: reporting for large training runs, agency use, equity language, a pile of deliverables. It was the Biden-era spine of US federal AI policy.
 
-Executive Order 14179 (23 January 2025), *Removing Barriers to American Leadership in Artificial Intelligence*, revoked 14110. The Federal Register text (31 January 2025) tells agencies to review actions taken under 14110 and suspend, revise, or rescind those that conflict with the new policy. Later 2025 instruments — OMB memos, an AI Action Plan in July, further orders about federal use and state-law fights — kept moving. `[CITE NEEDED]` on each later order's current status before you put it in a customer memo; this draft treats 14179's revocation of 14110 as the load-bearing public fact.
+Executive Order 14179 (23 January 2025), *Removing Barriers to American Leadership in Artificial Intelligence*, revoked 14110. The Federal Register text (31 January 2025) tells agencies to review actions taken under 14110 and suspend, revise, or rescind those that conflict with the new policy.
+
+Executive Order 14365 (11 December 2025; Federal Register 16 December 2025, 90 FR 58499), *Ensuring a National Policy Framework for Artificial Intelligence*, is the later instrument people mean when they say "Washington wants to federalize AI." Read the text. It stands up a DOJ litigation task force, tells Commerce to inventory "onerous" state laws, points the FCC and FTC at disclosure and deception proceedings, and asks for a *legislative* recommendation that would preempt conflicting state AI statutes. It does not itself repeal Colorado or California. An order is not a statute. Treat 14179's revocation of 14110 as the 2025 load-bearing fact, and 14365 as a process order — not as a preemption fairy tale.
 
 Read that sequence as institutional instability, not as "the US has no AI rules." The FTC, EEOC, FDA, sectoral statutes, state laws (Colorado, California, and others), and procurement language still apply. What you no longer have is a single 2023-style White House checklist that everyone pretended was a statute.
 
@@ -76,7 +80,7 @@ Prohibitions (social scoring of the banned kind, certain real-time remote biomet
 
 ## GPAI, in one paragraph
 
-The Act's general-purpose AI chapter is why frontier labs opened Brussels offices. If you put a model on the Union market that can be adapted to many tasks, you pick up documentation, transparency, and (for models that meet the systemic-risk threshold) extra duties. The Commission's GPAI Code of Practice is the soft-law companion. `[CITE NEEDED]` — pull the current Code PDF before you tell a customer you "signed it." Signing a code is not a substitute for reading Article 53 and neighbors.
+The Act's general-purpose AI chapter is why frontier labs opened Brussels offices. If you put a model on the Union market that can be adapted to many tasks, you pick up documentation, transparency, and (for models that meet the systemic-risk threshold) extra duties. The Commission's GPAI Code of Practice — final text received 10 July 2025; Commission and AI Board adequacy opinion 1 August 2025 — is the voluntary companion (Transparency, Copyright, and a Safety and Security chapter for systemic-risk models). Signing it is a demonstration path, not a substitute for Article 53 and neighbors. Pull the current chapter PDFs from the Commission's Code page before you tell a customer you "signed it." The signatory list moves.
 
 High-risk (Annex III) is a different door: employment, education, credit, biometric categorization of the regulated kind, essential services. Most chat toys are not high-risk. A resume screener is. If your startup is "GPT plus hiring," you are not a chatbot company for the purposes of this statute.
 
@@ -88,7 +92,7 @@ If you are US-only, NIST plus sectoral law plus whatever your state did this yea
 
 If you sell to both, stop maintaining two stories. Maintain two *control lists* and one set of evals that can feed both.
 
-State law in the US is the sleeper. Colorado's 2024 AI Act, California's transparency and training-data bills, and the 2025–26 federal talk of preemption (EO 14365 is in secondary summaries; `[CITE NEEDED]` the Federal Register text before you brief it) mean a single "we follow NIST" slide will not satisfy a state AG. Track the state you actually have customers in.
+State law in the US is the sleeper. Colorado's 2024 statute and its 2026 rewrite (see the states draft), California's transparency and training-data bills, and EO 14365's *talk* of preemption mean a single "we follow NIST" slide will not satisfy a state AG. Track the state you actually have customers in. The Federal Register page for 14365 is the citation; the order still does not finish the job.
 
 ## Opinion
 

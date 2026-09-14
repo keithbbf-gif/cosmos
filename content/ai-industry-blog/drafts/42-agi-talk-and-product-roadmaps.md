@@ -67,9 +67,9 @@ If a vendor answers with a destination, they have not answered.
 
 Scientific AI (AlphaFold) did not need the word. It needed CASP. Chat AI borrowed the word and skipped the CASP.
 
-## 2026, five weeks after the Act's majority date
+## 2026, six weeks after the Act's majority date
 
-The EU calendar (2 August 2026) does not mention AGI. It mentions systems, risks, GPAI, transparency. US state law mentions decisions and disclosures. NIST mentions functions. The destination word is almost absent from the documents that can fine you. That is information.
+The EU calendar (2 August 2026; this pack dated 14 September) does not mention AGI. It mentions systems, risks, GPAI, transparency. US state law mentions decisions and disclosures. NIST mentions functions. OpenAI's 28 October 2025 recapitalization post still talks mission and "before AGI arrives." The destination word lives on the charter page. It is almost absent from the documents that can fine you. That is information.
 
 We watch this space as people who have to live with the systems, not the destination. The systems are impressive. They are also unfinished in the ways this pack has been listing since the 2020 API.
 

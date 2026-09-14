@@ -52,7 +52,7 @@ Therapeutics is slower than a Nature cover. A fold is not a drug. A dock is not 
 
 ## Access politics
 
-AF2's parameters and the database were unusually open for a lab that also sells. AF3's initial server-only posture (May 2024) produced a community revolt and a later, partial easing. `[CITE NEEDED]` the current license if you depend on it. Scientific AI has a publication-vs-product tension that chat APIs solved by never publishing. Biology noticed, because the field's norm is "I can run it on my cluster."
+AF2's parameters and the database were unusually open for a lab that also sells. AF3's initial server-only posture (May 2024) produced a community revolt. DeepMind later posted inference code and weights under terms that are not "do what you want on your cluster." If you depend on a local AF3, read the current GitHub license and the Nature paper's availability statement the week you depend on it — those pages move. Scientific AI has a publication-vs-product tension that chat APIs solved by never publishing. Biology noticed, because the field's norm is "I can run it on my cluster."
 
 ## Clinic LLMs, a boundary
 

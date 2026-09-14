@@ -8,6 +8,8 @@ citations:
   - "WILLISON2022 https://simonwillison.net/2022/Sep/12/prompt-injection/"
   - "YAO2022 https://arxiv.org/abs/2210.03629"
   - "NIST_RMF https://doi.org/10.6028/NIST.AI.100-1"
+  - "OWASP_LLM https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  - "OWASP_2026 https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/"
 status: draft
 voice_check: edited
 figures:
@@ -72,7 +74,7 @@ A tabletop you can run without a payload: "a vendor PDF in our RAG tells the ass
 
 Do not publish the working strings. Do not run a "red team workshop" that is a jailbreak social. Do not tell a customer you are "injection-proof." Tell them what the model is not allowed to do when the document is hostile.
 
-OWASP's LLM Top 10 and the various vendor hardening guides are the 2023–25 reading list. `[CITE NEEDED]` the current OWASP URL if you link it; the numbering moves.
+OWASP's LLM Top 10 is the reading list with a moving number. Version 1.0 landed 1 August 2023; the 2025 edition 18 November 2024; the current GenAI LLM Top 10 2026 published 4 August 2026 (https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/). The project page at owasp.org still redirects into genai.owasp.org. Prompt injection stays near the top of every edition. The numbering still moves. Link the dated PDF, not a memory of "LLM01."
 
 ## Opinion
 

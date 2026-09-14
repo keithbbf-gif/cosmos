@@ -8,6 +8,7 @@ citations:
   - "BROWN2020 https://arxiv.org/abs/2005.14165"
   - "CHATGPT2022 https://openai.com/index/chatgpt/"
   - "LEWIS2020 https://arxiv.org/abs/2005.11401"
+  - "MOFFATT2024 https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
 status: draft
 voice_check: edited
 figures:
@@ -44,7 +45,7 @@ Multimodal makes it nastier. A number "read" from a photo that is actually a gue
 
 *Mata v. Avianca* (SDNY, 2023): invented case law in a filing. The defect was the UI plus the professional's skip.
 
-Air Canada’s chatbot (tribunal, 2024): a policy the bot invented, the company tried to disown, the tribunal did not let them. `[CITE NEEDED]` the decision citation if you brief counsel — the lesson is stable: if it speaks on your domain, it is your agent.
+*Moffatt v. Air Canada*, 2024 BCCRT 149 (Civil Resolution Tribunal, 14 February 2024): a website chatbot told Jake Moffatt that bereavement fares could be claimed retroactively. They could not. Air Canada argued, in effect, that the chatbot was a separate agent. The tribunal treated it as part of the airline's website and found negligent misrepresentation. CanLII has the decision. The lesson is stable: if it speaks on your domain, it is your agent.
 
 Student essays and "AI detectors" (see the school draft): a different defect, false accusation, same root (fluency mistaken for a human).
 

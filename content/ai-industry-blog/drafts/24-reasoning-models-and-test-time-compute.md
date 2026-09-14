@@ -8,6 +8,7 @@ citations:
   - "O1 https://openai.com/index/introducing-openai-o1-preview/"
   - "DEEPSEEK2025 https://arxiv.org/abs/2501.12948"
   - "GPT5 https://openai.com/index/introducing-gpt-5/"
+  - "SNELL2024 https://arxiv.org/abs/2408.03314"
 status: draft
 voice_check: edited
 figures:
@@ -56,7 +57,7 @@ Also bad: unverifiable tasks. If you cannot check the answer, RL on "looks smart
 
 ## Test-time compute as a scaling axis
 
-Kaplan's 2020 laws were about train FLOPs. 2024–26 added a second axis: FLOPs at the request. Search (sample many, pick a winner), longer traces, tool-in-the-loop, majority vote. Snell et al. and the "inference scaling" notes (2024) are the academic cousins. `[CITE NEEDED]` if you quote a specific exponent; the popular graphs are lab-specific.
+Kaplan's 2020 laws were about train FLOPs. 2024–26 added a second axis: FLOPs at the request. Search (sample many, pick a winner), longer traces, tool-in-the-loop, majority vote. Snell, Lee, Xu, and Kumar, *Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters* (arXiv 2408.03314, 6 August 2024), is the academic cousin people actually mean. They argue that *how* you spend the extra decode — a learned or search policy, not a blind longer trace — is the allocation problem. Do not lift a slope off a lab tweet and call it a law. The graphs are setup-specific.
 
 This axis has a human cost. Latency. A 40-second think is fine for a theorem and fatal for a voice barge-in (see the voice draft). Product design is a router: cheap model first, reasoner on hard, cache the proof.
 

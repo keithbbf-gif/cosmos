@@ -20,7 +20,8 @@ No DNS, no WP install, no plugin work in this PR.
 | `tags` | WP tags; also map `era_start` to a custom field `era_start` |
 | `citations` | Footer "Sources" block, or a custom field JSON |
 | `status: draft` | WP status **draft**. Never auto-publish. |
-| `voice_check: human` | Internal editorial flag; do not show on the public post |
+| `voice_check: edited` | Internal editorial flag; do not show on the public post |
+| `figures` | Media library attachments; HTML `<figure class="blog-figure">` blocks are already in the Markdown. Rewrite `../assets/` to the WP uploads path on import. |
 
 Keep YAML in the Markdown for git. Strip it on import or use a front-matter plugin. Do not leave `voice_check` in the rendered HTML.
 
@@ -47,4 +48,4 @@ Do not write a COSMOS job, a ledger event, or a fenced worker to publish these.
 
 ## Suggested first ship (if anyone actually publishes)
 
-01, 05, 09, 11 — API, ChatGPT, evals, law. Those four earn trust. Hold 14, 18, 26, and 42 until computer-use, 2026-design, the board week, and AGI-talk pieces get a second date pass. Do not import all 42 in one week.
+01, 05, 09, 11 — API, ChatGPT, evals, law. Those four earn trust. Re-check 14 (Mariner died 4 May 2026; confirm the inheriting Gemini SKU), 38 (Colorado SB26-189), and any OSWorld percentage before a customer-facing post. Do not import all 42 in one week.

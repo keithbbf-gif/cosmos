@@ -8,6 +8,8 @@ citations:
   - "OAI_BOARD https://openai.com/index/openai-announces-leadership-transition/"
   - "OAI_RETURN https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/"
   - "GPT4 https://openai.com/index/gpt-4-research/"
+  - "OAI_PBC https://openai.com/index/built-to-benefit-everyone/"
+  - "OAI_STRUCT https://openai.com/our-structure/"
 status: draft
 voice_check: edited
 figures:
@@ -38,7 +40,7 @@ OpenAI, Inc., a 501(c)(3), controlled the capped-profit below it. The board's jo
 
 The board had the legal right to fire the CEO. It did not have the staff, the investors, or the customers. A weekend of letters (the "we quit if he doesn't return" staff note, widely reported) made the power map obvious. Mission control without operational control is a blog post.
 
-Sutskever's role — chief scientist, director, then a public apology for the board action — is documented in reporting more than in a primary paper. `[CITE NEEDED]` if you quote him. This draft will not invent dialogue.
+Sutskever's role — chief scientist, director, then a public walk-back — is on his own X account. On 20 November 2023 he posted: "I deeply regret my participation in the board's actions. I never intended to harm OpenAI. I love everything we've built together and I will do everything I can to reunite the company." (https://twitter.com/ilyasut/status/1726590052392956028). That is the quote. This draft will not invent a hallway conversation around it.
 
 ## Why builders should care
 
@@ -46,7 +48,7 @@ Your vendor is a governance object. If a board can zero the CEO on a Friday, you
 
 The "safety vs shipping" morality play that ate Twitter that week is a bad map. The board's stated reason was candor, not a specific model launch. Outsiders filled in Q* rumors and doomer scripts. We do not have the board minutes. Do not write as if we do. The *structural* fact is enough: a nonprofit board, a for-profit race, a cloud landlord, and a consumer product with a hundred million users cannot share a brain forever.
 
-Later 2024–25 corporate reshuffles (more for-profit, more equity, secondary sales) are the sequel. `[CITE NEEDED]` the current Delaware filing before you print a capitalization table. The direction of travel is not in dispute: the 2019 structure is not the 2026 structure.
+The sequel is dated. On 28 October 2025, board chair Bret Taylor's post *Built to benefit everyone* said the recapitalization had closed after talks with the California and Delaware attorneys general. The living structure page names two objects: the OpenAI Foundation (nonprofit, still in control) and OpenAI Group PBC (the operating company, now a public benefit corporation). That is enough for a blog. It is not a capitalization table. Do not reprint secondary $130-billion equity headlines as if they were a 10-K. The direction of travel is not in dispute: the 2019 capped-profit stack is not the 2026 stack.
 
 ## The week, as a timeline you can defend
 

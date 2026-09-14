@@ -8,6 +8,7 @@ citations:
   - "WWDC2024 https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-the-iphone-ipad-and-mac/"
   - "PCC https://security.apple.com/blog/private-cloud-compute/"
   - "ABDIN2024 https://arxiv.org/abs/2404.14219"
+  - "AI_181 https://www.apple.com/newsroom/2024/10/apple-intelligence-is-available-today-on-iphone-ipad-and-mac/"
 status: draft
 voice_check: edited
 figures:
@@ -15,7 +16,7 @@ figures:
   - diagram-multimodal-pipeline
 ---
 
-On 10 June 2024, Apple's WWDC newsroom post introduced Apple Intelligence: writing tools, a notification summary, a more visual Siri, an image playground, and a split that mattered more than the demos. A small model on the device. A larger model in what they called Private Cloud Compute, on Apple silicon in a data center they claimed you could inspect more than a typical VM. Features shipped in slices through late 2024 and 2025. Some Siri promises slipped. The internet had a good time. The architecture still deserves a sober look.
+On 10 June 2024, Apple's WWDC newsroom post introduced Apple Intelligence: writing tools, a notification summary, a more visual Siri, an image playground, and a split that mattered more than the demos. A small model on the device. A larger model in what they called Private Cloud Compute, on Apple silicon in a data center they claimed you could inspect more than a typical VM. The first consumer slice landed 28 October 2024 with iOS 18.1 / iPadOS 18.1 / macOS Sequoia 15.1 (US English, device cuts attached). Later languages and the deeper Siri work slipped into 2025. The internet had a good time. The architecture still deserves a sober look.
 
 This is the consumer-OS version of the small-models draft. Phi-3 (April 2024) and Llama 3.2 1B/3B (25 September 2024) are the open cousins. Apple's difference is distribution: a billion devices and a review process that will kill a feature rather than ship a public hallucination into Messages.
 

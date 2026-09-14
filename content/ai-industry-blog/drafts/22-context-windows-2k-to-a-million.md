@@ -8,6 +8,7 @@ citations:
   - "GPT4 https://openai.com/index/gpt-4-research/"
   - "GEMINI15 https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
   - "LLAMA4 https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  - "LIU2023 https://arxiv.org/abs/2307.03172"
 status: draft
 voice_check: edited
 figures:
