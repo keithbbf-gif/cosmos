@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">United States Pharmacopeia editions in context — edition timeline</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">United States Pharmacopeia editions in context — edition timeline</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Dated milestones — illustrative where marked; not a forecast</text>
+  <line x1="120" y1="80" x2="120" y2="152" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="92" width="88" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">1820–2024</text>
+  <text x="136" y="108" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Corpus named</text>
+  <text x="136" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Opening anchor for “United States Pharmacopeia editions in</text>
+  <text x="136" y="144" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">context” — verify exact dating in draft.</text>
+  <line x1="120" y1="152" x2="120" y2="224" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="164" width="88" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="184" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2b6cb0">…</text>
+  <text x="136" y="180" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Commentary layer</text>
+  <text x="136" y="200" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Medieval or early modern copyists often reorder entries; note</text>
+  <text x="136" y="216" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">recension.</text>
+  <line x1="120" y1="224" x2="120" y2="296" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="236" width="88" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="256" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">1800s</text>
+  <text x="136" y="252" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Print pharmacopeia</text>
+  <text x="136" y="272" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">National compilations begin citing the same Latin binomials.</text>
+  <line x1="120" y1="296" x2="120" y2="368" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="308" width="88" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="328" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2b6cb0">1900s</text>
+  <text x="136" y="324" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Alkaloid / marker era</text>
+  <text x="136" y="344" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Isolation chemistry renames many entries; cross-check old</text>
+  <text x="136" y="360" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">synonyms.</text>
+  <text x="24" y="446" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">USP/BP/Ph. Eur. dates must be confirmed in draft.</text>
+</svg>

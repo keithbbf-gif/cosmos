@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="316" viewBox="0 0 760 316" role="img" aria-labelledby="title desc">
+  <title id="title">DSHEA and the US dietary-supplement category — regulation timeline</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">DSHEA and the US dietary-supplement category — regulation timeline</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Dated milestones — illustrative where marked; not a forecast</text>
+  <line x1="120" y1="80" x2="120" y2="152" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="92" width="88" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">1994</text>
+  <text x="136" y="108" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">DSHEA enacted</text>
+  <text x="136" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Pub. L. 103-417 — dietary supplement category.</text>
+  <line x1="120" y1="152" x2="120" y2="224" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="164" width="88" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="184" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#2b6cb0">2006</text>
+  <text x="136" y="180" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Adverse event reporting</text>
+  <text x="136" y="200" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">AER rule for supplements — verify date in draft.</text>
+  <text x="24" y="302" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Counsel verifies current law; this figure is educational.</text>
+</svg>

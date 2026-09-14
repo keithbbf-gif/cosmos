@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Materia medica plate (line)</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Materia medica plate (line)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Line plate for comparison — not herbarium photography or identification keys</text>
+  <rect x="60" y="100" width="150" height="120" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <line x1="135" y1="195" x2="135" y2="135" stroke="#2f855a" stroke-width="2"/>
+  <ellipse cx="115" cy="150" rx="22" ry="10" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <ellipse cx="155" cy="158" rx="20" ry="9" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <text x="68" y="208" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a2332">Atropa belladonna</text>
+  <text x="68" y="222" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">Leaf and root in</text>
+  <text x="68" y="234" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">19th-c. plates</text>
+  <rect x="220" y="100" width="150" height="120" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <line x1="295" y1="195" x2="295" y2="135" stroke="#2f855a" stroke-width="2"/>
+  <ellipse cx="275" cy="150" rx="22" ry="10" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <ellipse cx="315" cy="158" rx="20" ry="9" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <text x="228" y="208" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a2332">Digitalis purpurea</text>
+  <text x="228" y="222" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">Foxglove leaf —</text>
+  <text x="228" y="234" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">digitalis glycosides</text>
+  <rect x="380" y="100" width="150" height="120" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <line x1="455" y1="195" x2="455" y2="135" stroke="#2f855a" stroke-width="2"/>
+  <ellipse cx="435" cy="150" rx="22" ry="10" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <ellipse cx="475" cy="158" rx="20" ry="9" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <text x="388" y="208" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a2332">Cinchona spp.</text>
+  <text x="388" y="222" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">Bark — quinine</text>
+  <text x="388" y="234" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">alkaloids</text>
+  <rect x="540" y="100" width="150" height="120" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <line x1="615" y1="195" x2="615" y2="135" stroke="#2f855a" stroke-width="2"/>
+  <ellipse cx="595" cy="150" rx="22" ry="10" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <ellipse cx="635" cy="158" rx="20" ry="9" fill="none" stroke="#2f855a" stroke-width="1.5"/>
+  <text x="548" y="208" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a2332">Papaver somniferum</text>
+  <text x="548" y="222" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">Opium — morphine</text>
+  <text x="548" y="234" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="9" font-weight="400" fill="#4a5568">family</text>
+  <text x="24" y="426" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Speculative pairing for layout; writer aligns taxa to text.</text>
+</svg>
