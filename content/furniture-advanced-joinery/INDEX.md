@@ -2,7 +2,7 @@
 
 **Status:** staged writing. Every essay is `status: draft`. Photo slots stay `needed` until a real file is pulled from `D:\BBF`.
 
-**Count:** 44 case studies. Body words: 65,934 (range 1342–1753). Editor pass: `EDITOR_REPORT.md`; `voice_check: edited`.
+**Count:** 44 case studies. Body words: 65,913 (range 1342–1753). Editor pass: `EDITOR_REPORT.md`; `voice_check: edited`.
 
 Folder: `content/furniture-advanced-joinery/`. This pack sits **beyond** `content/furniture-craft-blog/` — no retelling of square mortise-and-tenon, basic pins, hide-glue intro, or breadboard slots. Soft brand home is the same: a 65×15 shop in rural South Arkansas — Warren, Wilmar, Bradley County — usable later by Bradley Brand Furniture / Saline River Workshop. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 

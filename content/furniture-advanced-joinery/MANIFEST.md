@@ -14,7 +14,7 @@ Body-copy word counts (front matter excluded). Recounted after editor pass (2026
 | 8 | `the-socket-that-climbs` | `08-the-socket-that-climbs.md` | compound-dovetails | 1718 |
 | 9 | `show-miter-hide-pins` | `09-show-miter-hide-pins.md` | compound-dovetails | 1713 |
 | 10 | `half-blind-on-a-slope` | `10-half-blind-on-a-slope.md` | compound-dovetails | 1598 |
-| 11 | `bricks-on-a-corner` | `11-bricks-on-a-corner.md` | hybrid | 1628 |
+| 11 | `bricks-on-a-corner` | `11-bricks-on-a-corner.md` | hybrid | 1619 |
 | 12 | `the-chest-that-takes-a-hit` | `12-the-chest-that-takes-a-hit.md` | compound-dovetails | 1589 |
 | 13 | `staves-that-make-a-door` | `13-staves-that-make-a-door.md` | curved-work | 1746 |
 | 14 | `steam-still-in-the-rail` | `14-steam-still-in-the-rail.md` | curved-work | 1699 |
@@ -27,7 +27,7 @@ Body-copy word counts (front matter excluded). Recounted after editor pass (2026
 | 21 | `the-knuckle-under-the-leaf` | `21-the-knuckle-under-the-leaf.md` | curved-work | 1504 |
 | 22 | `a-column-from-staves` | `22-a-column-from-staves.md` | curved-work | 1469 |
 | 23 | `a-socket-in-green-wood` | `23-a-socket-in-green-wood.md` | curved-work | 1524 |
-| 24 | `a-tail-that-follows-the-bow` | `24-a-tail-that-follows-the-bow.md` | curved-work | 1479 |
+| 24 | `a-tail-that-follows-the-bow` | `24-a-tail-that-follows-the-bow.md` | curved-work | 1476 |
 | 25 | `a-saddle-from-a-stack` | `25-a-saddle-from-a-stack.md` | curved-work | 1508 |
 | 26 | `kerfs-that-must-stop` | `26-kerfs-that-must-stop.md` | curved-work | 1544 |
 | 27 | `a-tusk-you-can-pull` | `27-a-tusk-you-can-pull.md` | knockdown | 1514 |
@@ -46,10 +46,10 @@ Body-copy word counts (front matter excluded). Recounted after editor pass (2026
 | 40 | `iron-under-a-slab` | `40-iron-under-a-slab.md` | knockdown | 1424 |
 | 41 | `a-confirmat-in-ply` | `41-a-confirmat-in-ply.md` | knockdown | 1420 |
 | 42 | `a-scarf-that-carries-a-rail` | `42-a-scarf-that-carries-a-rail.md` | knockdown | 1377 |
-| 43 | `a-wedge-you-cannot-see` | `43-a-wedge-you-cannot-see.md` | hybrid | 1400 |
+| 43 | `a-wedge-you-cannot-see` | `43-a-wedge-you-cannot-see.md` | hybrid | 1393 |
 | 44 | `a-bridle-on-a-compound-miter` | `44-a-bridle-on-a-compound-miter.md` | hybrid | 1374 |
 
-**Total:** 44 drafts, 65,934 words.
+**Total:** 44 drafts, 65,913 words.
 
 ## Pack files
 
