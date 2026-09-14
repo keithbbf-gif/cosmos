@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # Summer camp and the cultural bunk

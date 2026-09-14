@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # Pullman, berths, and the traveling stack

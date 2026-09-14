@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # What this series is not
@@ -46,7 +47,7 @@ This folder is educational content in a tree that is mostly an operating system.
 
 ## Not finished
 
-Standards move. F1821 already showed me a 2026 update in public trackers while I was writing. A honest series **dates itself** (2026-09-14) and invites correction. If you patch a number, patch `SOURCES.md` in the same commit. A claim without an artifact is the failure class.
+Standards move. F1821 already showed me a 2026 update in public trackers while I was writing. An honest series **dates itself** (2026-09-14) and invites correction. If you patch a number, patch `SOURCES.md` in the same commit. A claim without an artifact is the failure class.
 
 ## What it is, one last time
 

@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # Mattress thickness is a safety dimension

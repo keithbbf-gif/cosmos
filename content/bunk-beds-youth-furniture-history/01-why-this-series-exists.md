@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # Why this series exists
@@ -24,7 +25,7 @@ I am writing it educationally. That word is doing work. Educational means: I wil
 
 From January 1990 through August 9, 1999, CPSC's files held **91** reports of bunk-bed deaths of children under fifteen. Fifty-seven were entrapment. Twenty-five were hangings from belts, ropes, clothing, bedding. Nine were falls. The Commission said, in the same table, that this was not a complete count. Capture-recapture math put bunk-bed **entrapment** deaths at about **ten a year** through that decade.
 
-Over 96 percent of the entrapment dead were age three or younger. All but one were younger than five.
+Over 96 percent of children who died from entrapment were age three or younger. All but one were younger than five.
 
 That is not a mood. That is section B of a final rule published December 22, 1999.
 

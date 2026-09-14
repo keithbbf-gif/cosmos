@@ -6,6 +6,7 @@ voice: BBF
 status: draft
 audience: educational
 not: legal-advice
+voice_check: edited
 ---
 
 # Manifest — staged draft set
@@ -18,6 +19,7 @@ Educational series. Human voice (Keith BBF). Not legal advice.
 | `00-how-to-read-this-series.md` | 0-frame | Method |
 | `SOURCES.md` | 0-frame | Primary citations |
 | `MANIFEST.md` | 0-frame | This table |
+| `EDITOR_REPORT.md` | 0-frame | Editor pass sign-off (2026-09-14) |
 | `01-why-this-series-exists.md` | 1-history | Why this series exists |
 | `02-what-a-bunk-bed-actually-is.md` | 1-history | What a bunk bed actually is |
 | `03-the-word-bunk-and-the-ship.md` | 1-history | The word "bunk" and the ship |
