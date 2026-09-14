@@ -8,7 +8,7 @@ voice_check: human
 period: 16th–17th century
 regions: Southern Netherlands, Holy Roman Empire, Spain
 word_target: 1800-2800
-figures: 5
+figures: 7
 ---
 
 # Antwerp Cabinets
