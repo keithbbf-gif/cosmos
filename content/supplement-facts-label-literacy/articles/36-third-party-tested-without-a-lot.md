@@ -21,6 +21,8 @@ citations:
   - "companion pack: content/supplement-coa-manufacturing-literacy/"
 status: draft
 voice_check: human
+figure_alt: "Two-column schematic comparing vague third-party tested banner versus lot method and lab fields"
+og_image: assets/svg/third-party-tested-columns.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -28,6 +30,11 @@ voice_check: human
 "Third-party tested" is a caption. A lot number is a fact. The caption can sit on a carton, an Amazon A+ module, or a storefront tile without naming the lot, the method, the laboratory, or the rows that were actually run. When those four fields are missing, the badge is doing the same work as "pharmaceutical grade" (piece 35): it is a quality costume.
 
 This pack stays on the label. The companion folder `content/supplement-coa-manufacturing-literacy/` is where you learn to read a certificate of analysis and a plant. Do not clone that curriculum here. You still have to know enough not to print a sentence the COA cannot support.
+
+<figure class="blog-figure">
+  <img src="../assets/svg/third-party-tested-columns.svg" alt="Two-column schematic comparing vague third-party tested banner versus lot method and lab fields" width="900" height="400" loading="lazy" />
+  <figcaption><strong>Figure.</strong> A banner without lot, method, lab, or program enrollment is not the same as a verifiable COA row. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 ## The four fields
 

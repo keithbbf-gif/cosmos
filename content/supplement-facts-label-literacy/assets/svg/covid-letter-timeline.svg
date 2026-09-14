@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" aria-labelledby="t d">
+  <title id="t">Timeline of FDA FTC COVID dietary supplement letters</title>
+  <desc id="d">Date-only schematic; not evidence any product was cleared.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">ENFORCEMENT DATES — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">COVID-era immune-claim letter timeline (dates, not outcomes)</text>
+
+  <line x1="80" y1="200" x2="820" y2="200" stroke="#1c1c1c" stroke-width="2"/>
+  <circle cx="160" cy="200" r="6" fill="#1c1c1c"/>
+  <text x="160" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1c1c1c">Mar 2020</text>
+  <text x="160" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">FDA / FTC</text>
+  <text x="160" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">joint letters</text>
+  <circle cx="420" cy="200" r="6" fill="#1c1c1c"/>
+  <text x="420" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1c1c1c">2020–2021</text>
+  <text x="420" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">Warning letters</text>
+  <text x="420" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">quote PDP copy</text>
+  <circle cx="680" cy="200" r="6" fill="#8b4513"/>
+  <text x="680" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1c1c1c">Ongoing</text>
+  <text x="680" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">Immune language</text>
+  <text x="680" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">still scrutinized</text>
+  <text x="450" y="290" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Dates only — not a product timeline · verify letter URLs before citing</text>
+
+  <text x="36" y="316" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

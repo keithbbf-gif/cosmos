@@ -18,6 +18,8 @@ citations:
   - "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-converting-units-measure-folate-niacin-and-vitamins-d-and-e-nutrition-and"
 status: draft
 voice_check: human
+figure_alt: "Table schematic of post-2016 Supplement Facts unit changes for vitamins D, folate, A, and E"
+og_image: assets/svg/unit-change-2016-table.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -27,6 +29,12 @@ A customer who bought "125" thinking IU received 5,000 IU if the panel was mcg. 
 FDA later staggered compliance into 2020 and 2021. The 2005 Dietary Supplement Labeling Guide is still the Q&A the agency hosts for how the box is assembled. It is not the printer file for units. Piece 01 already said that. This piece is the unit change. Pieces 10–12 (and 13, next) are the three vitamins that still generate the most spreadsheet errors.
 
 ## What the 2016 rule moved
+
+<figure class="blog-figure">
+  <img src="../assets/svg/unit-change-2016-table.svg" alt="Table schematic of post-2016 Supplement Facts unit changes for vitamins D, folate, A, and E" width="900" height="380" loading="lazy" />
+  <figcaption><strong>Figure.</strong> 81 FR 33742 moved panel units; confirm live 101.9 before print lock. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
+
 
 81 FR 33742 (27 May 2016), "Food Labeling: Revision of the Nutrition and Supplement Facts Labels," amended 21 CFR 101.9 and 101.36. The units of measure for the RDI, and therefore for the quantitative amount on both Nutrition Facts and Supplement Facts, changed for vitamin A, vitamin D, vitamin E, folate, and — in the table — niacin as mg NE (the panel still prints "mg"). FDA's August 2019 conversion guidance (docket FDA-2016-D-4484) puts the old and new adult RDIs in one table:
 

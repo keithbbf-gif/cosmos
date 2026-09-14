@@ -16,11 +16,19 @@ citations:
   - "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"
 status: draft
 voice_check: human
+figure_alt: "Fictional Supplement Facts panel annotated with title, serving, (b)(2), hairline, (b)(3), and other ingredients"
+og_image: assets/svg/panel-walk-anatomy.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
 
 21 CFR 101.36(e) requires the nutrition information for a dietary supplement in a box. The title **Supplement Facts** must be larger than all other print in that panel. Chapter IV of FDA's Dietary Supplement Labeling Guide (April 2005), question 4-35, repeats both points and adds the one people still skip: the title and the headings are bold. If a contractor sends you a panel that looks like a Nutrition Facts box with "Supplement" swapped in 8-point type, they did not read (e). They copied a yogurt cup and hoped.
+
+
+<figure class="blog-figure">
+  <img src="../assets/svg/panel-walk-anatomy.svg" alt="Fictional Supplement Facts panel annotated with title, serving, (b)(2), hairline, (b)(3), and other ingredients" width="900" height="480" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Walk order from 21 CFR 101.36(b) and 101.36(e); the heavy bar separates (b)(2) from (b)(3). <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 Piece 01 is the category split. This piece is the walk. Title, serving, (b)(2) ingredients that have Daily Values, a heavy bar, (b)(3) other dietary ingredients, then the other-ingredient statement *under* the box. The rule wrote that order so a buyer, an auditor, and an investigator find the same facts in the same places.
 

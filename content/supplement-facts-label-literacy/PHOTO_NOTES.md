@@ -2,7 +2,7 @@
 
 No fake lab. No white-coat stock presented as our facility. No unredacted label with a real lot number from a supplier you do not have the right to show.
 
-These drafts are text-first. Images, if any, are diagrams or clearly labeled stock.
+These drafts ship **original SVG panel diagrams** under `assets/svg/` (see `GRAPHICS_INDEX.md`, `RIGHTS.md`). No raster photos of real bottles in this pass.
 
 ## Allowed
 

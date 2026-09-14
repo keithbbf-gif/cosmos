@@ -20,6 +20,8 @@ citations:
   - "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"
 status: draft
 voice_check: human
+figure_alt: "Fictional gummy bottle arithmetic for servings per container when serving size is two gummies"
+og_image: assets/svg/gummy-serving-melatonin-math.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -27,6 +29,11 @@ voice_check: human
 Cohen PA, Avula B, Wang YH, Katragunta K, and Khan I published "Quantity of Melatonin and CBD in Melatonin Gummies Sold in the US" in *JAMA* on 25 April 2023 (JAMA. 2023;329(16):1401-1402; doi:10.1001/jama.2023.2296). The paper is a label-versus-assay scar. It is not a bedtime protocol, not a children's dosing chart, and not permission to photograph a child with a handful of gummies. This piece will not reprint their milligram table. The scar is enough: what the labels declared and what the assays found were not the same thing.
 
 Piece 04 is the container math — a 60-count bottle with serving size 2 is 30 servings. This piece is the kids' column, the candy cue, and the paper that made the gummy aisle a records problem.
+
+<figure class="blog-figure">
+  <img src="../assets/svg/gummy-serving-melatonin-math.svg" alt="Fictional gummy bottle arithmetic for servings per container when serving size is two gummies" width="900" height="340" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Container math under 101.36(b); assay literature is separate from this serving line. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 ## What Cohen published
 

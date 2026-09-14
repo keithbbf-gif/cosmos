@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-labelledby="t d">
+  <title id="t">Table of post-2016 Supplement Facts unit changes</title>
+  <desc id="d">Summary table; confirm against current eCFR before printing.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">2016 UNIT CHANGE — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">Panel units that moved after the 2016 final rule</text>
+
+  <rect x="36" y="95" width="828" height="240" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="52" y="125" font-family="monospace" font-size="11" fill="#1c1c1c">Nutrient · Old panel habit · Current unit (post-81 FR 33742)</text>
+  <line x1="52" y1="132" x2="848" y2="132" stroke="#8a8680" stroke-width="1"/>
+  <text x="52" y="158" font-family="monospace" font-size="10" fill="#5c5c5c">Vitamin D · IU only · mcg (IU optional in parentheses)</text>
+  <text x="52" y="182" font-family="monospace" font-size="10" fill="#5c5c5c">Folate · mcg folic acid · mcg DFE</text>
+  <text x="52" y="206" font-family="monospace" font-size="10" fill="#5c5c5c">Vitamin A · IU · mcg RAE</text>
+  <text x="52" y="230" font-family="monospace" font-size="10" fill="#5c5c5c">Vitamin E · IU · mg α-tocopherol</text>
+  <text x="52" y="270" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#8b4513">[VERIFY] live 101.9 tables before print lock</text>
+
+  <text x="36" y="356" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

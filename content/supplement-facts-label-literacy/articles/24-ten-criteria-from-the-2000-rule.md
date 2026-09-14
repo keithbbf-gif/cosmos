@@ -17,6 +17,8 @@ citations:
   - "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-F/section-101.93"
 status: draft
 voice_check: human
+figure_alt: "Checklist schematic of FDA structure function claim criteria under the 2000 rule"
+og_image: assets/svg/ten-criteria-checklist.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -24,6 +26,11 @@ voice_check: human
 The new-claim clock started on 7 February 2000. 65 FR 1000 (6 January 2000) added 21 CFR 101.93(f) and (g). New products, and new statements on existing products after 6 January 2000, took the ten disease-claim criteria that Monday. Large firms had until 7 January 2001 to burn older label stock; small firms until 7 July 2001. After that, leftover inventory was a reprint.
 
 The 9 January 2002 Small Entity Compliance Guide (SECG) is the plain-language map. Every quoted sentence below is a **forbidden-claim example** unless the SECG marks it as a structure/function shape. None of them is product copy. None is a reason to take a supplement for a disease.
+
+<figure class="blog-figure">
+  <img src="../assets/svg/ten-criteria-checklist.svg" alt="Checklist schematic of FDA structure function claim criteria under the 2000 rule" width="900" height="420" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Operator checklist summarizing 101.93 criteria — not a permission slip for any SKU. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 ## Disease defined (g)(1)
 

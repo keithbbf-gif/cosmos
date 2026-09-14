@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="t d">
+  <title id="t">Comparison of Nutrition Facts and Supplement Facts panel titles</title>
+  <desc id="d">Side-by-side fictional panels; not copies of retail labels.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">TWO BOX TITLES — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">Nutrition Facts and Supplement Facts are different panels</text>
+  <rect x="36" y="95" width="400" height="280" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="48" y="117" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1c1c1c">Nutrition Facts</text>
+  <text x="48" y="139" font-family="monospace" font-size="10" fill="#1c1c1c">Serving Size 1 cup (240 mL)</text>
+  <text x="48" y="159" font-family="monospace" font-size="10" fill="#1c1c1c">Calories 110</text>
+  <text x="48" y="179" font-family="monospace" font-size="10" fill="#1c1c1c">Total Fat 0 g</text>
+  <text x="48" y="199" font-family="monospace" font-size="10" fill="#1c1c1c">Total Carbohydrate 26 g</text>
+  <text x="48" y="219" font-family="monospace" font-size="10" fill="#1c1c1c">Protein 0 g</text>
+  <text x="48" y="239" font-family="monospace" font-size="10" fill="#1c1c1c">Vitamin C 0 mg 0%</text>
+  <text x="48" y="259" font-family="monospace" font-size="10" fill="#1c1c1c">(no botanical rows)</text>
+  <rect x="464" y="95" width="400" height="280" fill="#fff" stroke="#8b4513" stroke-width="1"/>
+  <text x="476" y="117" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1c1c1c">Supplement Facts</text>
+  <text x="476" y="139" font-family="monospace" font-size="10" fill="#1c1c1c">Serving Size 2 capsules</text>
+  <text x="476" y="159" font-family="monospace" font-size="10" fill="#1c1c1c">Vitamin C 90 mg 100%</text>
+  <text x="476" y="179" font-family="monospace" font-size="10" fill="#1c1c1c">──────── heavy bar ────────</text>
+  <text x="476" y="199" font-family="monospace" font-size="10" fill="#1c1c1c">Ashwagandha (root) 300 mg †</text>
+  <text x="476" y="219" font-family="monospace" font-size="10" fill="#1c1c1c">† Daily Value not established</text>
+  <text x="476" y="239" font-family="monospace" font-size="10" fill="#1c1c1c">Other ingredients: cellulose…</text>
+  <text x="450" y="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c">21 CFR 101.9 (food) vs 101.36 (dietary supplement) — fictional examples</text>
+
+  <text x="36" y="416" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

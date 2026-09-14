@@ -15,6 +15,8 @@ citations:
   - "https://www.law.cornell.edu/cfr/text/21/101.93"
 status: draft
 voice_check: human
+figure_alt: "Fictional boxed 101.93(c) disclaimer with bold type at least one sixteenth inch"
+og_image: assets/svg/disclaimer-box-format.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -24,6 +26,12 @@ One-sixteenth of an inch is a specification, not a vibe. 21 CFR 101.93(e) says t
 If the letters are 1/16 inch on the dieline and shrink on press, you do not have 101.93(e). Measure the printed bottle.
 
 ## The two official sentences
+
+<figure class="blog-figure">
+  <img src="../assets/svg/disclaimer-box-format.svg" alt="Fictional boxed 101.93(c) disclaimer with bold type at least one sixteenth inch" width="900" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Official 101.93(c) sentences, bold and ≥1/16 inch; placement rules in 101.93(d)–(e). <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
+
 
 101.93(c)(1), one statement:
 

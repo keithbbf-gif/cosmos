@@ -18,6 +18,8 @@ Markdown drafts with YAML front matter under `articles/`. Forty-four posts plus 
 | `citations` | custom field `citations` (JSON or one URL per line). Also paste into a closed HTML comment or footnote block. |
 | `status: draft` | **Draft.** Never map to `publish` or `future`. |
 | `voice_check: human` | custom field. Internal QA flag, not a displayed byline. |
+| `figure_alt` | featured image / social alt. Must match in-body `<img alt>` when present. See `FIGURE_SEO.md`. |
+| `og_image` | pack-relative SVG path for featured media. Do not substitute stock. |
 
 Suggested post type: `post`. Category: `Label literacy` (create once). Do not file under `Shop` or `Science-backed products`.
 
@@ -32,9 +34,10 @@ If a plugin strips blockquotes on import, put the disclaimer in a Custom HTML bl
 1. Copy the repo folder onto a machine that can reach staging WP. Do not paste drafts into a live editor over email.
 2. Convert MD → Gutenberg with a tool that preserves headings and tables. Test one post (`01`) first.
 3. Set author to a holding user (`editorial-drafts`), not a made-up PhD.
-4. Featured image: follow `PHOTO_NOTES.md`. No stock "scientist holding pipette" as if it were our lab.
-5. Disable "related products" / WooCommerce upsells on these posts until claims review.
-6. `noindex, nofollow` on staging. Confirm robots and site visibility.
+4. Featured image: use `og_image` from front matter when set; alt from `figure_alt`. Follow `PHOTO_NOTES.md` and `RIGHTS.md`. No stock "scientist holding pipette" as if it were our lab.
+5. Preserve `<figure class="blog-figure">` blocks from Markdown import; do not strip `figcaption`.
+6. Disable "related products" / WooCommerce upsells on these posts until claims review.
+7. `noindex, nofollow` on staging. Confirm robots and site visibility.
 
 ## Things that must not auto-run
 

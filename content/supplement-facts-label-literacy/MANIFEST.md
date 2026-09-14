@@ -17,6 +17,12 @@ Internal lane: ElitElixirs. Zero hits expected in `articles/`.
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
 | `PHOTO_NOTES.md` | Figure rules |
+| `FIGURE_SEO.md` | `<figure>` alt, figcaption, YAML → WP |
+| `GRAPHICS_INDEX.md` | Article ↔ SVG inventory |
+| `RIGHTS.md` | Licenses — original SVG only |
+| `assets/svg/` | Original fictional panel diagrams |
+| `tools/generate_label_svgs.py` | Regenerate SVGs |
+| `tools/verify_graphics.py` | Resolve embedded figure paths |
 | `check_pack.py` | Count ≥40, DSHEA, style bans, brand grep |
 | `_editorial/ARTICLE_SPECS.md` | Writer/editor briefs (not a post) |
 

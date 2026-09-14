@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="t d">
+  <title id="t">Structure function disclaimer box format schematic</title>
+  <desc id="d">Format diagram only; not labeling approval.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">DISCLAIMER — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">101.93(c) disclaimer placement and type size</text>
+
+  <rect x="120" y="110" width="660" height="120" fill="#fff" stroke="#1c1c1c" stroke-width="2"/>
+  <text x="450" y="145" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1c1c1c">This statement has not been evaluated by the Food and Drug Administration.</text>
+  <text x="450" y="170" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1c1c1c">This product is not intended to diagnose, treat, cure, or prevent any disease.</text>
+  <text x="450" y="210" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">21 CFR 101.93(c) official text · bold · ≥ 1/16 inch · adjacent or asterisk-linked · box if not adjacent</text>
+  <text x="450" y="260" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#8b4513">Box does not convert a disease claim into a structure/function statement</text>
+
+  <text x="36" y="296" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

@@ -17,6 +17,8 @@ citations:
   - "81 FR 33742 (27 May 2016)"
 status: draft
 voice_check: human
+figure_alt: "Schematic formula: percent Daily Value equals unrounded amount divided by Daily Value times 100"
+og_image: assets/svg/percent-dv-formula.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -26,6 +28,12 @@ voice_check: human
 %DV is a ratio. It is not a grade, not a clinical result, and not a permission to call a botanical an "excellent source." 20% is a nutrient-content threshold on foods that have Daily Values (21 CFR 101.54). It is not a halo you may slide onto ashwagandha.
 
 ## The division
+
+<figure class="blog-figure">
+  <img src="../assets/svg/percent-dv-formula.svg" alt="Schematic formula: percent Daily Value equals unrounded amount divided by Daily Value times 100" width="900" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> 101.36(b)(2)(iii) arithmetic; 20% on foods is a 101.54 nutrient-content threshold, not a botanical grade. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
+
 
 Chapter IV, 4-22: the %DV is the percent of the Daily Value — RDI or DRV — of a dietary ingredient that is in a serving of the product. 4-23: you must declare it for dietary ingredients that have Daily Values, with listed exceptions. Protein may omit the percent. On products for infants, children less than 4 years, or pregnant or lactating women, you must not list percents for a specified set of nutrients (total fat, saturated fat, cholesterol, total carbohydrate, dietary fiber, vitamin K, selenium, manganese, chromium, molybdenum, chloride, sodium, potassium). Piece 08 and piece 40 pick up those columns.
 

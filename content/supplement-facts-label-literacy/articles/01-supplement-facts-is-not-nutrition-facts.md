@@ -18,11 +18,19 @@ citations:
   - "81 FR 33742 (27 May 2016)"
 status: draft
 voice_check: human
+figure_alt: "Side-by-side fictional panels: Nutrition Facts food box versus Supplement Facts dietary supplement box"
+og_image: assets/svg/nutrition-vs-supplement-facts.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
 
 The title of the box is not a font choice. 21 CFR 101.36(b)(1)(i) calls the nutrition label for a dietary supplement a **Supplement Facts** panel. 21 CFR 101.9 calls the food box **Nutrition Facts**. FDA's Dietary Supplement Labeling Guide, Chapter IV (April 2005, still the Q&A the agency hosts) opens on that split. If a powder drink uses the wrong title, you are not looking at a style error. You are looking at a category error.
+
+
+<figure class="blog-figure">
+  <img src="../assets/svg/nutrition-vs-supplement-facts.svg" alt="Side-by-side fictional panels: Nutrition Facts food box versus Supplement Facts dietary supplement box" width="900" height="440" loading="lazy" />
+  <figcaption><strong>Figure.</strong> 21 CFR 101.9 (food) and 101.36 (dietary supplement) use different panel titles and row rules. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 A lot of catalogs treat the two boxes as cousins. They are not. One is built for a serving of food that is mostly water, starch, and fat. The other is built for a serving that may be two capsules of a botanical with no Daily Value.
 

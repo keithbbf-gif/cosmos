@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="t d">
+  <title id="t">Percent Daily Value formula for Supplement Facts</title>
+  <desc id="d">Arithmetic schematic; not a health or efficacy rating.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">PERCENT DV — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">What the percent Daily Value calculation is</text>
+
+  <rect x="36" y="100" width="828" height="160" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="450" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#1c1c1c">%DV = (unrounded amount ÷ Daily Value) × 100</text>
+  <text x="450" y="185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5c5c">Round to nearest whole percent · use &lt;1% when it would round to 0</text>
+  <text x="450" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#8b4513">20% on foods (101.54) is a nutrient-content threshold — not a botanical grade</text>
+
+  <text x="36" y="296" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

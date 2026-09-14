@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="t d">
+  <title id="t">Flowchart of catalog audit steps before printing labels</title>
+  <desc id="d">Operator flow schematic; not a launch checklist approval.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">CATALOG AUDIT — FICTIONAL</text>
+  <text x="36" y="64" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">Audit gates before print or marketplace upload</text>
+
+  <rect x="80" y="100" width="180" height="60" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="170" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1c1c1c">Panel 101.36</text>
+  <rect x="360" y="100" width="180" height="60" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="450" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1c1c1c">Claims 101.93</text>
+  <rect x="640" y="100" width="180" height="60" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="730" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1c1c1c">Four corners</text>
+  <path d="M260 130 L360 130" stroke="#1c1c1c" stroke-width="1.5"/>
+  <path d="M540 130 L640 130" stroke="#1c1c1c" stroke-width="1.5"/>
+  <rect x="220" y="220" width="460" height="60" fill="#fff" stroke="#8b4513" stroke-width="1.5"/>
+  <text x="450" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1c1c1c">Allergens · Prop 65 · origin · empty seats</text>
+  <path d="M170 160 L170 220 L450 220" stroke="#1c1c1c" stroke-width="1" fill="none"/>
+  <path d="M450 160 L450 220" stroke="#1c1c1c" stroke-width="1" fill="none"/>
+  <path d="M730 160 L730 220 L450 220" stroke="#1c1c1c" stroke-width="1" fill="none"/>
+  <text x="450" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Print-lock gate · fictional flow · piece 44</text>
+
+  <text x="36" y="336" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Original typeset diagram · educational only · not a photograph of a real SKU label</text>
+</svg>

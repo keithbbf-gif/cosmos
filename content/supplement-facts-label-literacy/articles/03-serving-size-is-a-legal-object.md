@@ -16,6 +16,8 @@ citations:
   - "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-iv-nutrition-labeling"
 status: draft
 voice_check: human
+figure_alt: "Fictional label directions showing maximum per eating occasion as the Serving Size line"
+og_image: assets/svg/serving-size-max-occasion.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -25,6 +27,12 @@ If the directions say take 1–3 tablets with breakfast, the serving size is 3 t
 A lot of catalogs treat serving size as a design choice. Put "1 capsule" on the panel because the milligram looks larger that way, then print "take 1–3 as needed" on the back. That is not a layout decision. That is two documents disagreeing about the legal object the amounts attach to. Piece 42 is the three-document fight. This piece is the object.
 
 ## The maximum per eating occasion
+
+<figure class="blog-figure">
+  <img src="../assets/svg/serving-size-max-occasion.svg" alt="Fictional label directions showing maximum per eating occasion as the Serving Size line" width="900" height="360" loading="lazy" />
+  <figcaption><strong>Figure.</strong> When directions say 1–3 tablets, Serving Size is 3 (21 CFR 101.12(b) Table 2). <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
+
 
 101.12(b) Table 2 is the food serving-size table. Dietary supplements sit in the miscellaneous category with a special rule, not with yogurt and not with candy. The reference amount is not a gram weight pulled from a consumption survey. It is whatever the *label* tells a person to take at one sitting, at the high end of that instruction.
 

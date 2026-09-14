@@ -19,6 +19,8 @@ citations:
   - "FTC Health Products Compliance Guidance (December 2022)"
 status: draft
 voice_check: human
+figure_alt: "Flowchart schematic of catalog audit gates for panel claims four corners and print lock"
+og_image: assets/svg/catalog-audit-flow.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -28,6 +30,12 @@ Print is the expensive moment. The PDF is cheap. A catalog that is about to beco
 No hero shot. No launch-day copy. If a claim cannot survive the walk, it does not go to the printer.
 
 ## Panel checklist
+
+<figure class="blog-figure">
+  <img src="../assets/svg/catalog-audit-flow.svg" alt="Flowchart schematic of catalog audit gates for panel claims four corners and print lock" width="900" height="360" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Pre-print walk across 101.36, 101.93, and surfaces in pieces 01–43. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
+
 
 Open the die line, not the mood board. Walk the box in the order 101.36 wrote it (piece 02).
 

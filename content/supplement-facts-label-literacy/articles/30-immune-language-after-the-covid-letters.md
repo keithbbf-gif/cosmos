@@ -19,6 +19,8 @@ citations:
   - "FDA fraudulent COVID-19 products page"
 status: draft
 voice_check: human
+figure_alt: "Timeline schematic of FDA and FTC COVID-era dietary supplement letter dates only"
+og_image: assets/svg/covid-letter-timeline.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -26,6 +28,11 @@ voice_check: human
 Ninety-eight letters, March–July 2020. Bautista, Quock, Lima, and Melucci counted them in *Therapeutic Innovation & Regulatory Science* (PMC7528445): of 3,139 FDA warning letters in that window, 98 (3.14 percent) focused on COVID-19-related drugs, devices, biologics, and dietary supplements. The paper is a count of letters, not a protocol. It is not a reason to take vitamin C, vitamin D, zinc, elderberry, or silver for COVID-19. Those ingredients appearing in letters is not a recommendation. It is a record of how intended use was assembled.
 
 The immune split was already in the 2000 rule. The letters are how that split was enforced when a pandemic made "immune" a disease word on every cart page.
+
+<figure class="blog-figure">
+  <img src="../assets/svg/covid-letter-timeline.svg" alt="Timeline schematic of FDA and FTC COVID-era dietary supplement letter dates only" width="900" height="340" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Enforcement dates for context; verify letter URLs before citing in a memo. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 ## The SECG immune split
 

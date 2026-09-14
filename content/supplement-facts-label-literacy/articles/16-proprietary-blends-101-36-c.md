@@ -16,6 +16,8 @@ citations:
   - "https://www.law.cornell.edu/cfr/text/21/101.36"
 status: draft
 voice_check: human
+figure_alt: "Fictional Supplement Facts excerpt showing proprietary blend total weight and indented ingredient names"
+og_image: assets/svg/proprietary-blend-anatomy.svg
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not a labeling opinion for a specific SKU.
@@ -25,6 +27,11 @@ The number to the right of the blend name is the blend, not each herb. 21 CFR 10
 The 2005 Dietary Supplement Labeling Guide, Chapter IV, question 4-34, is the short version of the same rule. Name the blend. Give the total. Indent the other dietary ingredients in descending order of predominance by weight. Pull anything with a Daily Value out of the cloak and declare it on its own line.
 
 ## What the rule actually requires
+
+<figure class="blog-figure">
+  <img src="../assets/svg/proprietary-blend-anatomy.svg" alt="Fictional Supplement Facts excerpt showing proprietary blend total weight and indented ingredient names" width="900" height="400" loading="lazy" />
+  <figcaption><strong>Figure.</strong> 21 CFR 101.36(c): total weight, indented names in descending order; RDI nutrients stay above the hairline. <em>Original typeset diagram; fictional panel — not a real product label.</em></figcaption>
+</figure>
 
 101.36(c) opens by placing a proprietary blend in the (b)(3) list — the other-dietary-ingredient block under the heavy bar. You identify it by the words "Proprietary Blend" or by another appropriately descriptive term or fanciful name. You may bold that name. You do not get to skip the rest of 101.36 because the name is fanciful.
 
