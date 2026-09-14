@@ -63,3 +63,9 @@
 ## Handoff
 
 Merge editor branch **`cursor/american-dining-room-editor-8415`** onto writer branch **#324** after review. Import per staging README when Keith approves. **Do not merge to main without review.**
+
+## Catch-up — `cursor/american-dining-room-editor-ba88` (2026-09-14)
+
+- **`INDEX.md` stamp:** frontmatter `voice_check: human` → `edited` so pack meta matches the body line and the other series files.
+- **Word band:** re-checked against `MANIFEST.md` — all 44 drafts remain inside 1,400–2,200 body words; no new sell copy or pillar process lines added.
+- **Draft PR:** targets `main` as a staged editor catch-up; review alongside desk pack PR **#346** and editor PR **#363**.
