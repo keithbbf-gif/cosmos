@@ -10,6 +10,17 @@ topic: [linseed, oil, cure]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Water dries. Alcohol dries. Linseed oil does something ruder. It **takes oxygen from the room and turns into a different substance.** The liquid you…"
+graphics:
+  - asset_slug: linseed-oil-polymerizes
+    path: assets/linseed-oil-polymerizes/shop-diagram.svg
+    alt: "Diagram: linoleic acid crosslinks with atmospheric oxygen into a solid network"
+    caption: "Raw linseed polymerizes slowly; heat-bodied and alkyd systems trade open time for hardness."
+figures:
+  - id: photo-1
+    path: photos/linseed-oil-bottle.jpg
+    alt: "Linseed oil in a glass bottle"
+    caption: "Raw linseed oil polymerizes in thin films — the bottle is not the cure schedule. Photo: Wikimedia Commons, CC BY-SA 3.0."
 ---
 
 # Linseed oil polymerizes. It does not "dry."
@@ -20,6 +31,17 @@ The liquid you wiped on is a mix of triglycerides — fats from flax
 seed — with enough unsaturated joints that oxygen can start a
 chain. Peroxides form. The chains link. What was a wet rag-smell
 becomes a thin, amber, not-quite-plastic solid in the fibers.
+
+<figure class="ffc-figure">
+  <img src="assets/linseed-oil-polymerizes/shop-diagram.svg" alt="Diagram: linoleic acid crosslinks with atmospheric oxygen into a solid network" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Raw linseed polymerizes slowly; heat-bodied and alkyd systems trade open time for hardness.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/linseed-oil-bottle.jpg" alt="Linseed oil in a glass bottle" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Raw linseed oil polymerizes in thin films — the bottle is not the cure schedule. Photo: Wikimedia Commons, CC BY-SA 3.0.</figcaption>
+</figure>
+
 
 If you wait for it to "dry" the way a floor dries after a mop, you
 will wait in a way that teaches you nothing. The clock is oxygen,

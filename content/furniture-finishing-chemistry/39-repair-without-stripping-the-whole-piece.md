@@ -10,6 +10,17 @@ topic: [repair]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Strip is a tool, not a personality. Most furniture wants a local honesty: clean, identify, scuff, match the family, blend, stop."
+graphics:
+  - asset_slug: repair-without-stripping-the-whole-piece
+    path: assets/repair-without-stripping-the-whole-piece/shop-diagram.svg
+    alt: "Diagram: feather sand local zone blend into cured film"
+    caption: "Local repair needs the same binder and feathered edge — strip a zone when chemistry does not redissolve."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Repair without stripping the whole piece
@@ -18,6 +29,17 @@ Strip is a tool, not a personality. Most
 furniture wants a local honesty: clean,
 identify, scuff, match the family, blend,
 stop.
+
+<figure class="ffc-figure">
+  <img src="assets/repair-without-stripping-the-whole-piece/shop-diagram.svg" alt="Diagram: feather sand local zone blend into cured film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Local repair needs the same binder and feathered edge — strip a zone when chemistry does not redissolve.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Identify before you "just oil it"
 

@@ -10,6 +10,17 @@ topic: [waterborne, application, foam]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Waterborne shows how you applied it. Oil varnish will often flow out and forgive a sinner. Waterborne will embalm the sin and call it orange peel, lap,…"
+graphics:
+  - asset_slug: foam-leveling-and-the-cheap-applicator
+    path: assets/foam-leveling-and-the-cheap-applicator/shop-diagram.svg
+    alt: "Diagram: foam leaving bubbles versus bristle laying a level wet film"
+    caption: "Foam puts air in the film; cheap foam puts more — a level brush or pad beats a heroic single flood."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Foam, leveling, and the cheap applicator
@@ -18,6 +29,17 @@ Waterborne shows how you applied it. Oil
 varnish will often flow out and forgive a
 sinner. Waterborne will embalm the sin and
 call it orange peel, lap, or bubble.
+
+<figure class="ffc-figure">
+  <img src="assets/foam-leveling-and-the-cheap-applicator/shop-diagram.svg" alt="Diagram: foam leaving bubbles versus bristle laying a level wet film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Foam puts air in the film; cheap foam puts more — a level brush or pad beats a heroic single flood.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Foam
 

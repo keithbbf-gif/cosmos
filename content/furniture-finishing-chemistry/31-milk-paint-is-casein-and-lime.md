@@ -10,6 +10,17 @@ topic: [milk-paint, casein]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Real milk paint is a **protein binder**. Casein — the same family of milk protein that makes cheese possible — plus **hydrated lime** (calcium…"
+graphics:
+  - asset_slug: milk-paint-is-casein-and-lime
+    path: assets/milk-paint-is-casein-and-lime/shop-diagram.svg
+    alt: "Diagram: casein protein and lime forming insoluble calcium caseinate film"
+    caption: "Real milk paint sets by protein chemistry — chalky matte unless the can quietly became acrylic latex."
+figures:
+  - id: photo-1
+    path: photos/milk-paint-brush.jpg
+    alt: "Matte pigmented coating on a wood panel"
+    caption: "Matte coat on wood — read the hand before you promise chalk. Photo: Wikimedia Commons, CC BY-SA 4.0 (encaustic panel, illustrative)."
 ---
 
 # Milk paint is casein and lime, not nostalgia
@@ -24,6 +35,17 @@ the paint dries and the lime takes carbon
 dioxide from the air, the protein film becomes
 much less interested in redissolving in the
 first splash.
+
+<figure class="ffc-figure">
+  <img src="assets/milk-paint-is-casein-and-lime/shop-diagram.svg" alt="Diagram: casein protein and lime forming insoluble calcium caseinate film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Real milk paint sets by protein chemistry — chalky matte unless the can quietly became acrylic latex.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/milk-paint-brush.jpg" alt="Matte pigmented coating on a wood panel" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Matte coat on wood — read the hand before you promise chalk. Photo: Wikimedia Commons, CC BY-SA 4.0 (encaustic panel, illustrative).</figcaption>
+</figure>
+
 
 That is chemistry, not a farmhouse brand
 story. The farmhouse look is a side effect of

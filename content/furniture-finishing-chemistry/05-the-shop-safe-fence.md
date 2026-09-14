@@ -10,6 +10,17 @@ topic: [safety, shop-safe, fence]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Finishing is already a hazardous hobby when you do it the ordinary way. You do not need to make it a second hobby called 'amateur chemical…"
+graphics:
+  - asset_slug: the-shop-safe-fence
+    path: assets/the-shop-safe-fence/shop-diagram.svg
+    alt: "Flowchart: allowed commercial finishing practice versus out-of-scope formulation"
+    caption: "This series explains labeled products and ventilation — not distillation, synthesis, or hazmat evasion."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # The shop-safe fence
@@ -17,6 +28,17 @@ voice: human
 Finishing is already a hazardous hobby when you do it the ordinary
 way. You do not need to make it a second hobby called "amateur
 chemical engineering."
+
+<figure class="ffc-figure">
+  <img src="assets/the-shop-safe-fence/shop-diagram.svg" alt="Flowchart: allowed commercial finishing practice versus out-of-scope formulation" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> This series explains labeled products and ventilation — not distillation, synthesis, or hazmat evasion.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 This draft is the fence for the whole series. Later pieces will
 point back here instead of repeating a sermon.

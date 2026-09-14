@@ -10,6 +10,17 @@ topic: [compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Charts lie by being square. Finishes are not square. Here is the same information as sentences you can take to a bench."
+graphics:
+  - asset_slug: compatibility-in-prose
+    path: assets/compatibility-in-prose/shop-diagram.svg
+    alt: "Table: oil, shellac, varnish, waterborne, milk paint stacking rules"
+    caption: "When in doubt, isolate with dewaxed shellac or strip to a known layer — prose beats a universal chart, but tests beat prose."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Compatibility in prose, not a poster
@@ -17,6 +28,17 @@ voice: human
 Charts lie by being square. Finishes are
 not square. Here is the same information
 as sentences you can take to a bench.
+
+<figure class="ffc-figure">
+  <img src="assets/compatibility-in-prose/shop-diagram.svg" alt="Table: oil, shellac, varnish, waterborne, milk paint stacking rules" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> When in doubt, isolate with dewaxed shellac or strip to a known layer — prose beats a universal chart, but tests beat prose.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Oil, then oil
 

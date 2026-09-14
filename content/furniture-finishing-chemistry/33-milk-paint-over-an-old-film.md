@@ -10,6 +10,17 @@ topic: [milk-paint, recoating]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "The usual job is not a raw pine chest. It is a brown dresser from a relative, already finished, already waxed once in 1998, already cleaned with…"
+graphics:
+  - asset_slug: milk-paint-over-an-old-film
+    path: assets/milk-paint-over-an-old-film/shop-diagram.svg
+    alt: "Cross-section: chalky paint on sanded or bonded old varnish"
+    caption: "Milk paint is a film on a film — prep and bond coat decide whether it chips in a week or reads as history."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Milk paint over an old film
@@ -18,6 +29,17 @@ The usual job is not a raw pine chest. It
 is a brown dresser from a relative, already
 finished, already waxed once in 1998, already
 cleaned with something that said lemon.
+
+<figure class="ffc-figure">
+  <img src="assets/milk-paint-over-an-old-film/shop-diagram.svg" alt="Cross-section: chalky paint on sanded or bonded old varnish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Milk paint is a film on a film — prep and bond coat decide whether it chips in a week or reads as history.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Milk paint on that, without a conversation,
 is how chip becomes a surprise.

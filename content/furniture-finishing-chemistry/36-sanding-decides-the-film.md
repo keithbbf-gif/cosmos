@@ -10,6 +10,17 @@ topic: [sanding, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A finish cannot un-scratch. It can hide a scratch under build, and then the scratch is a valley that collects stain and oil and looks like a stripe in…"
+graphics:
+  - asset_slug: sanding-decides-the-film
+    path: assets/sanding-decides-the-film/shop-diagram.svg
+    alt: "Process: progressive grits ending before first sealer coat"
+    caption: "The finish only hides sanding you already chose to keep — skip grits and the film telegraphs them."
+figures:
+  - id: photo-1
+    path: photos/orbital-sander-wood.jpg
+    alt: "Random-orbit sander on a wood panel"
+    caption: "The sander decides what the finish is allowed to hide. Photo: Wikimedia Commons, CC BY 2.0."
 ---
 
 # Sanding decides the film before the can opens
@@ -20,6 +31,17 @@ is a valley that collects stain and oil
 and looks like a stripe in low sun. Or
 it can magnify a scratch because you
 chose a thin oil and a raking light.
+
+<figure class="ffc-figure">
+  <img src="assets/sanding-decides-the-film/shop-diagram.svg" alt="Process: progressive grits ending before first sealer coat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> The finish only hides sanding you already chose to keep — skip grits and the film telegraphs them.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/orbital-sander-wood.jpg" alt="Random-orbit sander on a wood panel" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> The sander decides what the finish is allowed to hide. Photo: Wikimedia Commons, CC BY 2.0.</figcaption>
+</figure>
+
 
 Sanding is not "prep" in the sense of a
 chore before the art. Sanding is the

@@ -10,6 +10,17 @@ topic: [waterborne, acrylic, polyurethane]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Both arrive as particles in water. Both have to knit. The binder inside the particle is the fork."
+graphics:
+  - asset_slug: acrylic-versus-waterborne-polyurethane
+    path: assets/acrylic-versus-waterborne-polyurethane/shop-diagram.svg
+    alt: "Comparison table: clarity, hardness, and repair of acrylic vs PUD"
+    caption: "Acrylic stays clearer on pale woods; waterborne PU trades a little cast for toughness — read the binder on the label."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Acrylic waterborne vs waterborne polyurethane
@@ -17,6 +28,17 @@ voice: human
 Both arrive as particles in water. Both have to
 knit. The binder inside the particle is the
 fork.
+
+<figure class="ffc-figure">
+  <img src="assets/acrylic-versus-waterborne-polyurethane/shop-diagram.svg" alt="Comparison table: clarity, hardness, and repair of acrylic vs PUD" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Acrylic stays clearer on pale woods; waterborne PU trades a little cast for toughness — read the binder on the label.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Acrylic
 

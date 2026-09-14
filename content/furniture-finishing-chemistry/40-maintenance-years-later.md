@@ -10,6 +10,17 @@ topic: [maintenance]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "The finish you sold includes the year you are not in the room. If that year has no instructions, you sold a photograph."
+graphics:
+  - asset_slug: maintenance-years-later
+    path: assets/maintenance-years-later/shop-diagram.svg
+    alt: "Timeline: oil feed, wax buff, varnish recoat, waterborne scuff-recoat"
+    caption: "Every finish family has a maintenance sentence — say it at sale or the client will invent a wrong one."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Maintenance years later: oil vs film
@@ -18,6 +29,17 @@ The finish you sold includes the year
 you are not in the room. If that year
 has no instructions, you sold a
 photograph.
+
+<figure class="ffc-figure">
+  <img src="assets/maintenance-years-later/shop-diagram.svg" alt="Timeline: oil feed, wax buff, varnish recoat, waterborne scuff-recoat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Every finish family has a maintenance sentence — say it at sale or the client will invent a wrong one.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Oil and hardwax
 

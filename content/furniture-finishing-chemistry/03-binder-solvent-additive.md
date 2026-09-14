@@ -10,12 +10,34 @@ topic: [can, binder, solvent]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A finish can is a sentence. Most people read the adjective. The sentence has three nouns."
+graphics:
+  - asset_slug: binder-solvent-additive
+    path: assets/binder-solvent-additive/shop-diagram.svg
+    alt: "Labeled diagram: binder, carrier solvent, and additives in a commercial finish"
+    caption: "The label sells feeling; the SDS lists nouns — the shop must know which noun does the work on this board."
+figures:
+  - id: photo-1
+    path: photos/paint-brushes-studio.jpg
+    alt: "Clean paint brushes representing finish application tools"
+    caption: "Brushes and pads move binder and carrier onto wood — tool cleanliness is part of chemistry. Photo: Wikimedia Commons, CC0."
 ---
 
 # Binder, solvent, additive
 
 A finish can is a sentence. Most people read the adjective. The
 sentence has three nouns.
+
+<figure class="ffc-figure">
+  <img src="assets/binder-solvent-additive/shop-diagram.svg" alt="Labeled diagram: binder, carrier solvent, and additives in a commercial finish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> The label sells feeling; the SDS lists nouns — the shop must know which noun does the work on this board.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/paint-brushes-studio.jpg" alt="Clean paint brushes representing finish application tools" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Brushes and pads move binder and carrier onto wood — tool cleanliness is part of chemistry. Photo: Wikimedia Commons, CC0.</figcaption>
+</figure>
+
 
 ## Binder
 

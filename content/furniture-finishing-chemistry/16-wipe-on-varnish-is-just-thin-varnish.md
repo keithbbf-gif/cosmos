@@ -10,6 +10,17 @@ topic: [wipe-on, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "There is no separate molecule called wipe-on. There is varnish (alkyd, PU, a blend) and there is more carrier, so a rag can spread a coat that would…"
+graphics:
+  - asset_slug: wipe-on-varnish-is-just-thin-varnish
+    path: assets/wipe-on-varnish-is-just-thin-varnish/shop-diagram.svg
+    alt: "Diagram: many thin wiped coats building mils slowly"
+    caption: "Wipe-on is the same binder thinned — patience builds mils without runs; impatience builds dust nibs anyway."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Wipe-on varnish is just thin varnish
@@ -18,6 +29,17 @@ There is no separate molecule called wipe-on. There is
 varnish (alkyd, PU, a blend) and there is more carrier, so
 a rag can spread a coat that would sag on a vertical if
 you brushed it full strength.
+
+<figure class="ffc-figure">
+  <img src="assets/wipe-on-varnish-is-just-thin-varnish/shop-diagram.svg" alt="Diagram: many thin wiped coats building mils slowly" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Wipe-on is the same binder thinned — patience builds mils without runs; impatience builds dust nibs anyway.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 You can buy it in a can that says wipe-on. You can make
 it by thinning the varnish you already have **with the

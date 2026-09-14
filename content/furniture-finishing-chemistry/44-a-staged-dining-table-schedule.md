@@ -10,6 +10,17 @@ topic: [schedule, practice, table]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A table is where every family in this series gets asked to be something it is not. Here are three schedules I will actually run, staged so you can see…"
+graphics:
+  - asset_slug: a-staged-dining-table-schedule
+    path: assets/a-staged-dining-table-schedule/shop-diagram.svg
+    alt: "Gantt-style shop schedule: sand, seal, color, build coats, cure before delivery"
+    caption: "A table schedule names dry times and use limits — delivery before cure is a refund waiting to happen."
+figures:
+  - id: photo-1
+    path: photos/dining-table-wood.jpg
+    alt: "Wooden table furniture study (museum object photograph)"
+    caption: "A table finish schedule is measured in cure days, not showroom sheen. Photo: Wikimedia Commons, CC0 (NGA Open Access)."
 ---
 
 # A staged dining-table schedule
@@ -21,6 +32,17 @@ will actually run, staged so you can
 see the clocks. Not because they are
 the only tables, because they are
 the common arguments.
+
+<figure class="ffc-figure">
+  <img src="assets/a-staged-dining-table-schedule/shop-diagram.svg" alt="Gantt-style shop schedule: sand, seal, color, build coats, cure before delivery" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> A table schedule names dry times and use limits — delivery before cure is a refund waiting to happen.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/dining-table-wood.jpg" alt="Wooden table furniture study (museum object photograph)" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> A table finish schedule is measured in cure days, not showroom sheen. Photo: Wikimedia Commons, CC0 (NGA Open Access).</figcaption>
+</figure>
+
 
 ## A. The wood-feeling table (hardwax
 or honest wiping oil)

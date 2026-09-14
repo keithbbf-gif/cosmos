@@ -10,6 +10,17 @@ topic: [shellac, sealer, compatibility]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A lot of finishing problems are two countries that will not share a border. Shellac, dewaxed and thin, is the embassy."
+graphics:
+  - asset_slug: shellac-as-the-diplomat
+    path: assets/shellac-as-the-diplomat/shop-diagram.svg
+    alt: "Stack diagram: shellac sealer between stain and waterborne or wax and varnish"
+    caption: "Shellac isolates incompatible layers when dewaxed and cured — it is a diplomat, not a universal miracle."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Shellac as the diplomat
@@ -17,6 +28,17 @@ voice: human
 A lot of finishing problems are two countries that
 will not share a border. Shellac, dewaxed and thin,
 is the embassy.
+
+<figure class="ffc-figure">
+  <img src="assets/shellac-as-the-diplomat/shop-diagram.svg" alt="Stack diagram: shellac sealer between stain and waterborne or wax and varnish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Shellac isolates incompatible layers when dewaxed and cured — it is a diplomat, not a universal miracle.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## What it will talk to
 

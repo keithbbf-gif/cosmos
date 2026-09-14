@@ -10,6 +10,17 @@ topic: [waterborne, grain-raise]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Water hits compressed fibers and they stand up like they remembered they were straw. That is grain raise. It is not the sandpaper being immoral. It is…"
+graphics:
+  - asset_slug: grain-raise-is-swelling
+    path: assets/grain-raise-is-swelling/shop-diagram.svg
+    alt: "Diagram: fibers swell then sand back before topcoats"
+    caption: "Water swells cellulose — first coat raises grain; cutting back once beats fighting raised fibers under clear."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Grain raise is swelling. Sanding is the apology.
@@ -19,6 +30,17 @@ like they remembered they were straw. That is
 grain raise. It is not the sandpaper being
 immoral. It is cellulose doing work in the
 presence of the carrier you chose.
+
+<figure class="ffc-figure">
+  <img src="assets/grain-raise-is-swelling/shop-diagram.svg" alt="Diagram: fibers swell then sand back before topcoats" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Water swells cellulose — first coat raises grain; cutting back once beats fighting raised fibers under clear.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Oil finishes raise grain less because they are
 not a water event. Waterborne, water dyes, and

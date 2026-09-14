@@ -10,6 +10,17 @@ topic: [waterborne, oil, stacking]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "People want oil's color and waterborne's armor. The stack is possible. The stack is also how a lot of tabletops let go in a sheet the size of a placemat."
+graphics:
+  - asset_slug: waterborne-over-oil-the-honest-sequence
+    path: assets/waterborne-over-oil-the-honest-sequence/shop-diagram.svg
+    alt: "Layer diagram: fully cured thin oil then dewaxed shellac or approved sealer then waterborne"
+    caption: "Waterborne over sticky oil is adhesion fiction — cure the oil, isolate if needed, test the stack on a board."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Waterborne over oil — the honest sequence
@@ -18,6 +29,17 @@ People want oil's color and waterborne's
 armor. The stack is possible. The stack is
 also how a lot of tabletops let go in a
 sheet the size of a placemat.
+
+<figure class="ffc-figure">
+  <img src="assets/waterborne-over-oil-the-honest-sequence/shop-diagram.svg" alt="Layer diagram: fully cured thin oil then dewaxed shellac or approved sealer then waterborne" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Waterborne over sticky oil is adhesion fiction — cure the oil, isolate if needed, test the stack on a board.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## The only sequence I will run
 

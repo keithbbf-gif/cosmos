@@ -10,6 +10,17 @@ topic: [milk-paint, bonding]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Casein milk paint wants something to hold. Raw wood, a scuffed porous paint, a mineral surface — it can bite. A factory lacquer, a poly table, a…"
+graphics:
+  - asset_slug: bonding-coats-and-the-myth-of-universal-stick
+    path: assets/bonding-coats-and-the-myth-of-universal-stick/shop-diagram.svg
+    alt: "Diagram: bonding primer between old finish and milk paint"
+    caption: "Universal stick is marketing — slick or glossy needs a bonding coat matched to the topcoat system."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Bonding coats and the myth of universal stick
@@ -20,6 +31,17 @@ surface — it can bite. A factory lacquer, a
 poly table, a laminate, a slick oil — it
 can sit like pastry flour on glass and then
 leave with a fingernail.
+
+<figure class="ffc-figure">
+  <img src="assets/bonding-coats-and-the-myth-of-universal-stick/shop-diagram.svg" alt="Diagram: bonding primer between old finish and milk paint" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Universal stick is marketing — slick or glossy needs a bonding coat matched to the topcoat system.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 The industry invented **bonding additives**
 and bonding primers so the old paint could

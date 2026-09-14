@@ -10,12 +10,34 @@ topic: [dye, stain, color]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Color is not a finish. Color is a layer the finish has to tolerate."
+graphics:
+  - asset_slug: dye-stain-and-the-finish-on-top
+    path: assets/dye-stain-and-the-finish-on-top/shop-diagram.svg
+    alt: "Layer diagram: dye in fiber, gel stain in pore, clear coats on top"
+    caption: "Dye moves in fiber; pigment sits in pore — the finish on top locks whichever story you told."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Dye, stain, and the finish that has to live on top
 
 Color is not a finish. Color is a layer
 the finish has to tolerate.
+
+<figure class="ffc-figure">
+  <img src="assets/dye-stain-and-the-finish-on-top/shop-diagram.svg" alt="Layer diagram: dye in fiber, gel stain in pore, clear coats on top" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Dye moves in fiber; pigment sits in pore — the finish on top locks whichever story you told.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Dye
 

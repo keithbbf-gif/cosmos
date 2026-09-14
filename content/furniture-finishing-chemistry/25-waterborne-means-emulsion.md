@@ -10,6 +10,17 @@ topic: [waterborne, emulsion]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A waterborne finish is not varnish with the mineral spirits swapped for tap water. It is a crowd of **polymer particles** — acrylic, polyurethane, or a…"
+graphics:
+  - asset_slug: waterborne-means-emulsion
+    path: assets/waterborne-means-emulsion/shop-diagram.svg
+    alt: "Diagram: acrylic or PU particles in water coalescing after evaporation"
+    caption: "Water leaves first; particles must coalesce — touch-dry is not hard, and cold shops fail the knit silently."
+figures:
+  - id: photo-1
+    path: photos/waterborne-latex-paint.jpg
+    alt: "Craftsman applying varnish to bare wood with a brush"
+    caption: "Thin wet coats level like waterborne builds — the film is made by repeated passes, not one flood. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Waterborne means emulsion, not "water paint"
@@ -23,6 +34,17 @@ the water leaves, the particles must **knit**. The
 knit is the film. If they do not knit, you have a
 powder that looks like a coating until a fingernail
 proves otherwise.
+
+<figure class="ffc-figure">
+  <img src="assets/waterborne-means-emulsion/shop-diagram.svg" alt="Diagram: acrylic or PU particles in water coalescing after evaporation" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Water leaves first; particles must coalesce — touch-dry is not hard, and cold shops fail the knit silently.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/waterborne-latex-paint.jpg" alt="Craftsman applying varnish to bare wood with a brush" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Thin wet coats level like waterborne builds — the film is made by repeated passes, not one flood. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 That is why a waterborne can feel dry to the touch
 in twenty minutes and still be a liar about being

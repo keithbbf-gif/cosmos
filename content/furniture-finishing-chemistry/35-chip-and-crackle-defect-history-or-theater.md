@@ -10,6 +10,17 @@ topic: [milk-paint, chip, crackle]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A milk-paint chip is a mechanical failure of a brittle film. History made that failure slowly: chairs hit doorframes, seasons moved the wood, a hundred…"
+graphics:
+  - asset_slug: chip-and-crackle-defect-history-or-theater
+    path: assets/chip-and-crackle-defect-history-or-theater/shop-diagram.svg
+    alt: "Diagram: controlled crackle medium versus edge chip from poor bond"
+    caption: "Crackle can be a product layer; chip at an edge is usually prep — know which you are selling."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Chip and crackle: defect, history, or theater
@@ -20,6 +31,17 @@ failure slowly: chairs hit doorframes,
 seasons moved the wood, a hundred washings
 cut the arris. Theater makes it in an
 afternoon with sandpaper and a story.
+
+<figure class="ffc-figure">
+  <img src="assets/chip-and-crackle-defect-history-or-theater/shop-diagram.svg" alt="Diagram: controlled crackle medium versus edge chip from poor bond" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Crackle can be a product layer; chip at an edge is usually prep — know which you are selling.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Both are valid if you name them. The
 damage is when theater is sold as history,

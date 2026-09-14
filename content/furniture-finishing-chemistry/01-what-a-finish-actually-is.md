@@ -10,12 +10,34 @@ topic: [film, binder, shop]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A finish is not a shine. Shine is what light does after the finish has already succeeded or failed. A finish is a thin argument between wood and the…"
+graphics:
+  - asset_slug: what-a-finish-actually-is
+    path: assets/what-a-finish-actually-is/shop-diagram.svg
+    alt: "Diagram: evaporation, binder solidification, and adhesion on sanded wood"
+    caption: "Evaporation is fast; crosslinking or coalescence builds the film; adhesion decides whether the board keeps it."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # What a finish actually is
 
 A finish is not a shine. Shine is what light does after the finish has already
 succeeded or failed.
+
+<figure class="ffc-figure">
+  <img src="assets/what-a-finish-actually-is/shop-diagram.svg" alt="Diagram: evaporation, binder solidification, and adhesion on sanded wood" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Evaporation is fast; crosslinking or coalescence builds the film; adhesion decides whether the board keeps it.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 A finish is a thin argument between wood and the room. It has to slow water,
 slow dirt, slow the hand that will set a wet glass down without asking, and

@@ -10,6 +10,17 @@ topic: [appearance, varnish, sheen]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "People do not return a table because the iodine value was wrong. They return it because it looks like a gym floor, or like a smoker lived in the grain,…"
+graphics:
+  - asset_slug: amber-plastic-and-the-look-people-return
+    path: assets/amber-plastic-and-the-look-people-return/shop-diagram.svg
+    alt: "Side-by-side appearance: warm amber varnish versus clear waterborne on maple"
+    caption: "Amber is oxidizing alkyd honesty; water-white is acrylic on pale woods — neither is virtue, both are choices."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Amber, plastic, and the look people return
@@ -18,6 +29,17 @@ People do not return a table because the iodine value was
 wrong. They return it because it looks like a gym floor,
 or like a smoker lived in the grain, or like nobody
 touched it with a hand after the last coat.
+
+<figure class="ffc-figure">
+  <img src="assets/amber-plastic-and-the-look-people-return/shop-diagram.svg" alt="Side-by-side appearance: warm amber varnish versus clear waterborne on maple" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Amber is oxidizing alkyd honesty; water-white is acrylic on pale woods — neither is virtue, both are choices.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Those are appearance complaints with chemistry underneath.
 

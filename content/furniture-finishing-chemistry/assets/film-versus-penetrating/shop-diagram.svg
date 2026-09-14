@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Film versus penetrating (section)</title>
+  <desc id="desc">Cross-section: oil in pores versus varnish skin on wood surface</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Film versus penetrating (section)</text>
+  <text x="48" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Family</text>
+  <text x="220" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Where protection lives</text>
+  <text x="400" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Repair tell</text>
+  <line x1="40" y1="108" x2="600" y2="108" stroke="#D4C9B0" stroke-width="1"/>
+  <text x="48" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Penetrating oil</text>
+  <text x="220" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">In surface pores, little crust</text>
+  <text x="400" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Scuff-in refresh hides wear</text>
+  <line x1="40" y1="148" x2="600" y2="148" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Thin film</text>
+  <text x="220" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">On top, mils not hope</text>
+  <text x="400" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Scratch is a line in a skin</text>
+  <line x1="40" y1="200" x2="600" y2="200" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Mutt (wipe-on varnish)</text>
+  <text x="220" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Film applied like oil</text>
+  <text x="400" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Same binder, different schedule</text>
+  <line x1="40" y1="252" x2="600" y2="252" stroke="#D4C9B0" stroke-width="0.8"/>
+</svg>

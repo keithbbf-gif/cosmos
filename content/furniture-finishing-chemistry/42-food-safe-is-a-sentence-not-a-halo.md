@@ -10,6 +10,17 @@ topic: [food-contact, safety]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Those two words sell salad bowls and children's tables. They do not mean what a parent hears."
+graphics:
+  - asset_slug: food-safe-is-a-sentence-not-a-halo
+    path: assets/food-safe-is-a-sentence-not-a-halo/shop-diagram.svg
+    alt: "Diagram: fully cured film versus uncured surface on cutting board (conceptual)"
+    caption: "Food-safe is a regulatory sentence about cured film — not a license for uncured polyurethane on a cutting board."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # "Food safe" is a sentence, not a halo
@@ -17,6 +28,17 @@ voice: human
 Those two words sell salad bowls and
 children's tables. They do not mean
 what a parent hears.
+
+<figure class="ffc-figure">
+  <img src="assets/food-safe-is-a-sentence-not-a-halo/shop-diagram.svg" alt="Diagram: fully cured film versus uncured surface on cutting board (conceptual)" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Food-safe is a regulatory sentence about cured film — not a license for uncured polyurethane on a cutting board.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## What a serious sentence sounds like
 

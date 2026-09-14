@@ -10,6 +10,17 @@ topic: [shellac, resin]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Shellac is the secretion of *Kerria lacca*, harvested from trees, refined into flakes or buttons, dissolved in alcohol. It is not sap. It is not a…"
+graphics:
+  - asset_slug: shellac-is-a-bug-resin
+    path: assets/shellac-is-a-bug-resin/shop-diagram.svg
+    alt: "Diagram: lac flakes in denatured alcohol forming shellac solution"
+    caption: "Shellac is a natural resin in alcohol — fast dry, reversible repair, honest limits on water and heat."
+figures:
+  - id: photo-1
+    path: photos/shellac-flakes.jpg
+    alt: "Amber shellac flakes before dissolving in alcohol"
+    caption: "Shellac flake dissolves in alcohol — pound cut decides how much resin lands on the wood. Photo: Wikimedia Commons, CC BY-SA 2.0."
 ---
 
 # Shellac is a bug resin. That is the whole romance.
@@ -20,6 +31,17 @@ It is not sap. It is not a plant varnish. It is not "all
 natural" in the way a marketing sentence wants — the bug
 did industrial chemistry first, and then a factory washed
 and bleached and dewaxed.
+
+<figure class="ffc-figure">
+  <img src="assets/shellac-is-a-bug-resin/shop-diagram.svg" alt="Diagram: lac flakes in denatured alcohol forming shellac solution" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Shellac is a natural resin in alcohol — fast dry, reversible repair, honest limits on water and heat.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/shellac-flakes.jpg" alt="Amber shellac flakes before dissolving in alcohol" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Shellac flake dissolves in alcohol — pound cut decides how much resin lands on the wood. Photo: Wikimedia Commons, CC BY-SA 2.0.</figcaption>
+</figure>
+
 
 What you brush is a solution, not an emulsion and not a
 drying oil. The alcohol leaves. The resin touches itself

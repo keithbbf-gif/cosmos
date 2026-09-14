@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Sanding before film</title>
+  <desc id="desc">Process: progressive grits ending before first sealer coat</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Sanding before film</text>
+  <text x="48" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Grit</text>
+  <text x="220" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Removes</text>
+  <text x="400" y="100" fill="#1A1A1A" font-family="sans-serif" font-size="14" font-weight="600">Stop before</text>
+  <line x1="40" y1="108" x2="600" y2="108" stroke="#D4C9B0" stroke-width="1"/>
+  <text x="48" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">80–120</text>
+  <text x="220" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Mill marks</text>
+  <text x="400" y="136" fill="#4A4A4A" font-family="sans-serif" font-size="13">Leaving deep tracks</text>
+  <line x1="40" y1="148" x2="600" y2="148" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">150–180</text>
+  <text x="220" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">Previous scratch</text>
+  <text x="400" y="188" fill="#4A4A4A" font-family="sans-serif" font-size="13">First sealer on raw</text>
+  <line x1="40" y1="200" x2="600" y2="200" stroke="#D4C9B0" stroke-width="0.8"/>
+  <text x="48" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">220+</text>
+  <text x="220" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Intercoat only</text>
+  <text x="400" y="240" fill="#4A4A4A" font-family="sans-serif" font-size="13">Polishing closed pore too soon</text>
+  <line x1="40" y1="252" x2="600" y2="252" stroke="#D4C9B0" stroke-width="0.8"/>
+</svg>

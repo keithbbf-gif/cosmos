@@ -10,6 +10,17 @@ topic: [client, oil, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "They do not want linseed. They want a feeling: wood under the hand, no gym-floor flash, no plastic, maybe their grandfather, maybe a photograph of a…"
+graphics:
+  - asset_slug: what-to-tell-a-client-who-wants-just-oil
+    path: assets/what-to-tell-a-client-who-wants-just-oil/shop-diagram.svg
+    alt: "Flow: client wants oil → use questions → maintenance plan or film compromise"
+    caption: "Give them the honest fork: oil look with maintenance, or film with a different repair story — write the plan before the deposit."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # What to tell a client who wants "just oil"
@@ -20,6 +31,17 @@ gym-floor flash, no plastic, maybe
 their grandfather, maybe a
 photograph of a slab with a window
 behind it.
+
+<figure class="ffc-figure">
+  <img src="assets/what-to-tell-a-client-who-wants-just-oil/shop-diagram.svg" alt="Flow: client wants oil → use questions → maintenance plan or film compromise" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Give them the honest fork: oil look with maintenance, or film with a different repair story — write the plan before the deposit.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Your job is to translate the feeling
 into a binder and a maintenance

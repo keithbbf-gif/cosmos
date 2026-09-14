@@ -10,6 +10,17 @@ topic: [recoat, adhesion, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A finish does not fail all at once as often as it fails **between coats**. The top looks fine. A fingernail at a ding lifts a skin. Under the skin,…"
+graphics:
+  - asset_slug: recoat-windows-and-intercoat-adhesion
+    path: assets/recoat-windows-and-intercoat-adhesion/shop-diagram.svg
+    alt: "Timeline: sand lightly after cure versus strip when amorphous"
+    caption: "Inside the window, chemical bite; outside it, mechanical tooth — miss both and the coat floats."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Recoat windows, sanding dust, and intercoat adhesion
@@ -18,6 +29,17 @@ A finish does not fail all at once as often as it fails
 **between coats**. The top looks fine. A fingernail at a
 ding lifts a skin. Under the skin, last month's coat is
 still there, uninvited to the wedding.
+
+<figure class="ffc-figure">
+  <img src="assets/recoat-windows-and-intercoat-adhesion/shop-diagram.svg" alt="Timeline: sand lightly after cure versus strip when amorphous" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Inside the window, chemical bite; outside it, mechanical tooth — miss both and the coat floats.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 That is intercoat adhesion. It is chemistry plus grit
 plus a calendar.

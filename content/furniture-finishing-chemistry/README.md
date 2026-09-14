@@ -93,3 +93,15 @@ A claim without a shop consequence is cut.
 See [`MANIFEST.md`](MANIFEST.md) for slugs, stages, and topics.
 
 Drafts are numbered so the folder *is* the syllabus.
+
+## Figures, photos, rights
+
+Each draft (01–45) embeds a **shop diagram** (SVG) and a **PD/CC photograph** with SEO `alt` text and `<figure>` captions. House rules: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Photo list: [`PHOTO_CAPTIONS.md`](PHOTO_CAPTIONS.md). **Licenses and attribution:** [`RIGHTS.md`](RIGHTS.md). Diagram index: [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md) (generated).
+
+Regenerate pipeline:
+
+```bash
+python3 tools/generate_furniture_finishing_chemistry_graphics.py
+python3 tools/fetch_furniture_finishing_chemistry_photos.py
+python3 tools/embed_furniture_finishing_chemistry_figures.py
+```

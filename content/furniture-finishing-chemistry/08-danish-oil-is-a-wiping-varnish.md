@@ -10,6 +10,17 @@ topic: [danish-oil, wiping-varnish, oil]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Danish oil is a marketing truce. The typical hardware can is **linseed or another drying oil, a varnish resin, and mineral spirits** in a ratio that…"
+graphics:
+  - asset_slug: danish-oil-is-a-wiping-varnish
+    path: assets/danish-oil-is-a-wiping-varnish/shop-diagram.svg
+    alt: "Diagram: thin alkyd or urethane in mineral spirits wiped like oil"
+    caption: "Danish oil is usually a film binder in a wiping carrier — the rag is the same; the chemistry is not linseed alone."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Danish oil is a wiping varnish with a nickname
@@ -19,6 +30,17 @@ Danish oil is a marketing truce. The typical hardware can is
 spirits** in a ratio that wipes like oil and builds like a shy
 film. Some brands lean oil. Some lean varnish. The word Danish
 does not commit.
+
+<figure class="ffc-figure">
+  <img src="assets/danish-oil-is-a-wiping-varnish/shop-diagram.svg" alt="Diagram: thin alkyd or urethane in mineral spirits wiped like oil" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Danish oil is usually a film binder in a wiping carrier — the rag is the same; the chemistry is not linseed alone.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 That is not an insult. A good wiping varnish is one of the
 most useful things a small shop can own. The insult is

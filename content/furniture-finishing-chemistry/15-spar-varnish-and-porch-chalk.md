@@ -10,6 +10,17 @@ topic: [spar, varnish, UV]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Spar varnish is a long-oil varnish with **UV absorbers** and a flexibility brief. It was named for spars — masts, booms — wood that bends and lives in…"
+graphics:
+  - asset_slug: spar-varnish-and-porch-chalk
+    path: assets/spar-varnish-and-porch-chalk/shop-diagram.svg
+    alt: "Diagram: UV absorbers and longer oil in spar versus interior alkyd"
+    caption: "Spar trades indoor hardness for UV help and movement — on a dining table it often chalks instead of protecting."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Spar varnish and why porch chairs go chalky
@@ -19,6 +30,17 @@ and a flexibility brief. It was named for spars — masts,
 booms — wood that bends and lives in weather. A porch
 chair is not a mast. It is still closer to a mast than a
 jewelry box is.
+
+<figure class="ffc-figure">
+  <img src="assets/spar-varnish-and-porch-chalk/shop-diagram.svg" alt="Diagram: UV absorbers and longer oil in spar versus interior alkyd" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Spar trades indoor hardness for UV help and movement — on a dining table it often chalks instead of protecting.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 People put interior PU on a porch because it is what they
 own. The film is hard. The wood moves. The sun eats the

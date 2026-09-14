@@ -10,6 +10,17 @@ topic: [hardwax, oil, wax]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Hardwax oil is the finish people buy when they want a European floor look on an American dining table and they do not want to say polyurethane out…"
+graphics:
+  - asset_slug: hardwax-oil-the-wax-is-the-last-coat
+    path: assets/hardwax-oil-the-wax-is-the-last-coat/shop-diagram.svg
+    alt: "Diagram: oil penetration with wax occupying surface pores"
+    caption: "Oil wets fiber; wax occupies the last microns — pile it on and you get a soft cloudy film."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Hardwax oil — the wax is the last coat, not the magic
@@ -22,6 +33,17 @@ or a blend — in a solvent or a low-solvent paste. The oil
 occupies fiber. The wax occupies the very top and the mouths of
 pores. The hand feels wood. Water beads for a while. Scratches
 look like wood scratches, not white film scratches.
+
+<figure class="ffc-figure">
+  <img src="assets/hardwax-oil-the-wax-is-the-last-coat/shop-diagram.svg" alt="Diagram: oil penetration with wax occupying surface pores" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil wets fiber; wax occupies the last microns — pile it on and you get a soft cloudy film.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 The dishonest ones are thin polyurethane with a wax story.
 

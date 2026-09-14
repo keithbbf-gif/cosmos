@@ -10,6 +10,17 @@ topic: [oil, cure, schedule]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Oil schedules fail in one of two ways. They are too proud ('seven coats in seven days') or too mystical ('it will tell you when it's ready'). Oxygen is…"
+graphics:
+  - asset_slug: a-curing-schedule-that-respects-oxygen
+    path: assets/a-curing-schedule-that-respects-oxygen/shop-diagram.svg
+    alt: "Timeline: wipe coats with air gaps versus stacked wet coats"
+    caption: "Oxygen reaches only the exposed surface — schedule thin coats and dry rags, not heroic puddles."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # A curing schedule that respects oxygen
@@ -18,6 +29,17 @@ Oil schedules fail in one of two ways. They are too proud
 ("seven coats in seven days") or too mystical ("it will tell
 you when it's ready"). Oxygen is not proud and not mystical.
 It is a rate.
+
+<figure class="ffc-figure">
+  <img src="assets/a-curing-schedule-that-respects-oxygen/shop-diagram.svg" alt="Timeline: wipe coats with air gaps versus stacked wet coats" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oxygen reaches only the exposed surface — schedule thin coats and dry rags, not heroic puddles.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## The clocks you actually have
 

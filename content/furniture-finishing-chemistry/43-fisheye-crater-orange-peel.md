@@ -10,6 +10,17 @@ topic: [defects]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "The film writes what happened. Learning to read it is cheaper than buying a fourth can."
+graphics:
+  - asset_slug: fisheye-crater-orange-peel
+    path: assets/fisheye-crater-orange-peel/shop-diagram.svg
+    alt: "Diagram: silicone contamination fisheye versus thick spray orange peel"
+    caption: "Fisheye is contamination; orange peel is flow — different sins, different fixes, same ruined first impression."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Fish-eye, crater, orange peel — reading the film
@@ -17,6 +28,17 @@ voice: human
 The film writes what happened. Learning
 to read it is cheaper than buying a
 fourth can.
+
+<figure class="ffc-figure">
+  <img src="assets/fisheye-crater-orange-peel/shop-diagram.svg" alt="Diagram: silicone contamination fisheye versus thick spray orange peel" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Fisheye is contamination; orange peel is flow — different sins, different fixes, same ruined first impression.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Fish-eye
 

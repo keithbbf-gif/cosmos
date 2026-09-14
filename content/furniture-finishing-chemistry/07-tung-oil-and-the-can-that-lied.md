@@ -10,6 +10,17 @@ topic: [tung, oil, labeling]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Real tung oil is a drying oil from the nut of *Vernicia fordii* (and a couple of relatives). It is thicker than linseed in the hand. It polymerizes…"
+graphics:
+  - asset_slug: tung-oil-and-the-can-that-lied
+    path: assets/tung-oil-and-the-can-that-lied/shop-diagram.svg
+    alt: "Comparison: true tung polymerization versus wiping varnish labeled tung oil"
+    caption: "A can that says tung may be varnish thinned for wiping — read the binder, not the front panel romance."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Tung oil, and the can that lied
@@ -21,6 +32,17 @@ does not match, because the fatty acids are more conjugated —
 they are already set up to link. The film, when you actually
 make a thin one and let it, is a little harder, a little less
 yellow, a little more "I can take a damp cloth."
+
+<figure class="ffc-figure">
+  <img src="assets/tung-oil-and-the-can-that-lied/shop-diagram.svg" alt="Comparison: true tung polymerization versus wiping varnish labeled tung oil" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> A can that says tung may be varnish thinned for wiping — read the binder, not the front panel romance.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 That paragraph describes **100% tung**, or a tung that has only
 been thinned with a named solvent so you can wipe it. It does

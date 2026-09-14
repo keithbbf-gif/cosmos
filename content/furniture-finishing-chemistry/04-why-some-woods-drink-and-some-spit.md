@@ -10,6 +10,17 @@ topic: [wood, extractives, oily-woods]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Finish chemistry is half the can. The other half is the corpse you are coating. Wood is not an inert beige. It is a stack of dead plumbing with…"
+graphics:
+  - asset_slug: why-some-woods-drink-and-some-spit
+    path: assets/why-some-woods-drink-and-some-spit/shop-diagram.svg
+    alt: "Diagram: open pores versus oily extractives blocking finish penetration"
+    caption: "Ring-porous woods drink; oily exotics spit — extractives are a sealer you did not apply."
+figures:
+  - id: photo-1
+    path: photos/teak-wood-texture.jpg
+    alt: "Teak wood surface with natural oily appearance"
+    caption: "Teak carries its own extractives — the finish must deal with an oily substrate. Photo: Wikimedia Commons, CC BY 2.0."
 ---
 
 # Why some woods drink and some spit
@@ -17,6 +28,17 @@ voice: human
 Finish chemistry is half the can. The other half is the corpse you
 are coating. Wood is not an inert beige. It is a stack of dead
 plumbing with leftover food in the pipes.
+
+<figure class="ffc-figure">
+  <img src="assets/why-some-woods-drink-and-some-spit/shop-diagram.svg" alt="Diagram: open pores versus oily extractives blocking finish penetration" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Ring-porous woods drink; oily exotics spit — extractives are a sealer you did not apply.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/teak-wood-texture.jpg" alt="Teak wood surface with natural oily appearance" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Teak carries its own extractives — the finish must deal with an oily substrate. Photo: Wikimedia Commons, CC BY 2.0.</figcaption>
+</figure>
+
 
 ## Pore and plane
 

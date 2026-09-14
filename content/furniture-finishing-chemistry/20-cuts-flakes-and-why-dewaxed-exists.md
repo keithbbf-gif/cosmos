@@ -10,6 +10,17 @@ topic: [shellac, cut, dewaxed]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A **cut** is an old shop number: pounds of shellac resin per gallon of alcohol. A one-pound cut is thin, a sealer, a wash. A two-pound cut is a working…"
+graphics:
+  - asset_slug: cuts-flakes-and-why-dewaxed-exists
+    path: assets/cuts-flakes-and-why-dewaxed-exists/shop-diagram.svg
+    alt: "Table: one-pound through four-pound cut uses and dewaxed stacking"
+    caption: "Pound cut is pounds per gallon — sealer low, French polish high; dewaxed for anything stacked over shellac."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Cuts, flakes, and why dewaxed exists
@@ -21,6 +32,17 @@ lot of hand work. A three-pound cut is thick, easy to
 ridge, easy to trap alcohol, easy to look like you
 know what you are doing until the panel flashes dull
 in islands.
+
+<figure class="ffc-figure">
+  <img src="assets/cuts-flakes-and-why-dewaxed-exists/shop-diagram.svg" alt="Table: one-pound through four-pound cut uses and dewaxed stacking" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Pound cut is pounds per gallon — sealer low, French polish high; dewaxed for anything stacked over shellac.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 You do not need to invent a laboratory. Commercial
 canned shellac is already a cut. The lid often lies

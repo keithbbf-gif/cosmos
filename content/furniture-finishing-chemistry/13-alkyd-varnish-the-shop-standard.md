@@ -10,6 +10,17 @@ topic: [alkyd, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Before every can learned to say polyurethane, the shop standard was varnish, and a lot of that varnish was **alkyd**: a polyester resin modified with…"
+graphics:
+  - asset_slug: alkyd-varnish-the-shop-standard
+    path: assets/alkyd-varnish-the-shop-standard/shop-diagram.svg
+    alt: "Diagram: short oil alkyd versus long oil flexibility"
+    caption: "Oil length trades hardness for flexibility — table tops and chairs want different alkyd conversations."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Alkyd varnish — the shop standard that still works
@@ -19,6 +30,17 @@ was varnish, and a lot of that varnish was **alkyd**: a polyester
 resin modified with drying oil, thinned with mineral spirits,
 sometimes cooked with older resins in the factory so it brushes
 like the twentieth century.
+
+<figure class="ffc-figure">
+  <img src="assets/alkyd-varnish-the-shop-standard/shop-diagram.svg" alt="Diagram: short oil alkyd versus long oil flexibility" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil length trades hardness for flexibility — table tops and chairs want different alkyd conversations.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 It amber. It smells like a shop. It levels better than a lot of
 waterborne. It sands like a gentleman if you wait. It is not

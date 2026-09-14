@@ -10,6 +10,17 @@ topic: [oily-woods, teak, rosewood, oil]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Some woods arrive with their own finish already moving. Teak is the famous one. Rosewood, cocobolo, ebony in some lots, teak's cousins, a few exotic…"
+graphics:
+  - asset_slug: oil-on-teak-rosewood-and-other-greasy-citizens
+    path: assets/oil-on-teak-rosewood-and-other-greasy-citizens/shop-diagram.svg
+    alt: "Diagram: surface extractives repelling film finish"
+    caption: "Natural oils in teak and rosewood fight adhesion — degrease, seal, test, never assume the first coat stuck."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Oil on teak, rosewood, and other greasy citizens
@@ -21,6 +32,17 @@ get sold to furniture people: they sweat. You sand, the
 surface is pale and open, and twenty minutes later it is
 lunch meat again — a thin film of the tree's own oil and
 wax.
+
+<figure class="ffc-figure">
+  <img src="assets/oil-on-teak-rosewood-and-other-greasy-citizens/shop-diagram.svg" alt="Diagram: surface extractives repelling film finish" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Natural oils in teak and rosewood fight adhesion — degrease, seal, test, never assume the first coat stuck.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Your drying oil is then trying to polymerize in a crowd.
 Your varnish is trying to stick to a greased plate. Your

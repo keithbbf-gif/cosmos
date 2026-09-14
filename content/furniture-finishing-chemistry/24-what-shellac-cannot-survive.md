@@ -10,12 +10,34 @@ topic: [shellac, limits]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "A finish is also a list of enemies. Shellac's list is short and non-negotiable."
+graphics:
+  - asset_slug: what-shellac-cannot-survive
+    path: assets/what-shellac-cannot-survive/shop-diagram.svg
+    alt: "Table of shellac failure modes on tabletops and rings"
+    caption: "Shellac is repairable because it redissolves — that same trait loses to hot mugs and wet glasses."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # What shellac cannot survive
 
 A finish is also a list of enemies. Shellac's list
 is short and non-negotiable.
+
+<figure class="ffc-figure">
+  <img src="assets/what-shellac-cannot-survive/shop-diagram.svg" alt="Table of shellac failure modes on tabletops and rings" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Shellac is repairable because it redissolves — that same trait loses to hot mugs and wet glasses.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## Alcohol
 

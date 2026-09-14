@@ -10,6 +10,17 @@ topic: [french-polish, shellac]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "French polish is not a product. It is a way of putting shellac on wood with a pad, alcohol, and a little oil as a lubricant so the pad does not grab,…"
+graphics:
+  - asset_slug: french-polish-without-the-monastery
+    path: assets/french-polish-without-the-monastery/shop-diagram.svg
+    alt: "Diagram: shellac and oil in a pad building thin shellac film"
+    caption: "French polish is many thin shellac passes with a lubricated pad — a film so thin people argue if it is a film."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # French polish without the monastery
@@ -19,6 +30,17 @@ shellac on wood with a pad, alcohol, and a little oil
 as a lubricant so the pad does not grab, until the
 surface is a thin, deep, rubbed film that looks like
 the wood is wet from the inside.
+
+<figure class="ffc-figure">
+  <img src="assets/french-polish-without-the-monastery/shop-diagram.svg" alt="Diagram: shellac and oil in a pad building thin shellac film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> French polish is many thin shellac passes with a lubricated pad — a film so thin people argue if it is a film.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 It is also a way to spend a weekend learning humility.
 

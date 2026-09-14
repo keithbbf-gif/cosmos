@@ -10,12 +10,34 @@ topic: [shellac, blush, humidity]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Shellac blush is milk in the film. It looks like the finish caught a cold. The cold is water. Alcohol is hygroscopic. It picks up water from wet air.…"
+graphics:
+  - asset_slug: blush-alcohol-and-a-humid-tuesday
+    path: assets/blush-alcohol-and-a-humid-tuesday/shop-diagram.svg
+    alt: "Diagram: moisture trapped in drying shellac forming white haze"
+    caption: "Blush is water in a drying alcohol film — move air, reduce humidity, or add retarder; do not keep padding blindly."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Blush, alcohol, and a humid Tuesday
 
 Shellac blush is milk in the film. It looks like the
 finish caught a cold. The cold is water.
+
+<figure class="ffc-figure">
+  <img src="assets/blush-alcohol-and-a-humid-tuesday/shop-diagram.svg" alt="Diagram: moisture trapped in drying shellac forming white haze" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Blush is water in a drying alcohol film — move air, reduce humidity, or add retarder; do not keep padding blindly.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Alcohol is hygroscopic. It picks up water from wet
 air. As the alcohol leaves a fast film, the surface

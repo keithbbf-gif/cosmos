@@ -10,6 +10,17 @@ topic: [waterborne, MFFT, coalescent]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Every waterborne can has a temperature below which the particles will not deform into a film. The lab name is MFFT. The shop name is 'it felt dry and…"
+graphics:
+  - asset_slug: coalescent-cold-shops-and-the-film-that-never-knits
+    path: assets/coalescent-cold-shops-and-the-film-that-never-knits/shop-diagram.svg
+    alt: "Diagram: film formation temperature versus cold garage finish powdering"
+    caption: "Below minimum film formation temperature, particles never knit — the dust you can scrape off was never a finish."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Coalescent, cold shops, and the film that never knits
@@ -18,6 +29,17 @@ Every waterborne can has a temperature below
 which the particles will not deform into a
 film. The lab name is MFFT. The shop name is
 "it felt dry and then it powdered."
+
+<figure class="ffc-figure">
+  <img src="assets/coalescent-cold-shops-and-the-film-that-never-knits/shop-diagram.svg" alt="Diagram: film formation temperature versus cold garage finish powdering" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Below minimum film formation temperature, particles never knit — the dust you can scrape off was never a finish.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 Coalescents are the quiet solvents in the
 formula that lower that temperature and help

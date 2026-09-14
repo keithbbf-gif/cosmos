@@ -10,6 +10,17 @@ topic: [oil, film, practice]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Most finish fights are costume fights. Oil versus poly. Water versus 'real' varnish. Milk paint versus 'a proper enamel.' Underneath them is one fork:…"
+graphics:
+  - asset_slug: film-versus-penetrating
+    path: assets/film-versus-penetrating/shop-diagram.svg
+    alt: "Cross-section: oil in pores versus varnish skin on wood surface"
+    caption: "Penetrating systems wet fibers; film systems form a measurable skin — most cans do both and hide the ratio."
+figures:
+  - id: photo-1
+    path: photos/walnut-pore-close.jpg
+    alt: "End-grain wood surface with open pores"
+    caption: "Open end grain drinks finish unevenly if you pretend the surface is closed. Photo: Wikimedia Commons, CC BY-SA 2.0."
 ---
 
 # Film versus penetrating
@@ -17,6 +28,17 @@ voice: human
 Most finish fights are costume fights. Oil versus poly. Water versus
 "real" varnish. Milk paint versus "a proper enamel." Underneath them is
 one fork: **does the protection mostly live in the wood, or on it?**
+
+<figure class="ffc-figure">
+  <img src="assets/film-versus-penetrating/shop-diagram.svg" alt="Cross-section: oil in pores versus varnish skin on wood surface" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Penetrating systems wet fibers; film systems form a measurable skin — most cans do both and hide the ratio.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/walnut-pore-close.jpg" alt="End-grain wood surface with open pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Open end grain drinks finish unevenly if you pretend the surface is closed. Photo: Wikimedia Commons, CC BY-SA 2.0.</figcaption>
+</figure>
+
 
 Call the first family **penetrating**. Call the second **film**. Then
 admit that almost every product you can buy is a mutt.

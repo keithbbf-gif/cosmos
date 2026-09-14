@@ -10,6 +10,17 @@ topic: [milk-paint, topcoat]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Casein dries to a chalk that is the reason people bought it. A clear coat is how the chalk survives fingers, and also how the chalk dies into a satin…"
+graphics:
+  - asset_slug: topcoating-milk-paint-without-killing-the-chalk
+    path: assets/topcoating-milk-paint-without-killing-the-chalk/shop-diagram.svg
+    alt: "Diagram: wax or thin waterborne over chalky milk paint sheen change"
+    caption: "Any clear wets pigment and changes hand — wax keeps more chalk than thick poly, which flattens to plastic."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Topcoating milk paint without killing the chalk
@@ -19,6 +30,17 @@ people bought it. A clear coat is how the
 chalk survives fingers, and also how the
 chalk dies into a satin plastic if you
 pick the wrong clear or too much of it.
+
+<figure class="ffc-figure">
+  <img src="assets/topcoating-milk-paint-without-killing-the-chalk/shop-diagram.svg" alt="Diagram: wax or thin waterborne over chalky milk paint sheen change" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Any clear wets pigment and changes hand — wax keeps more chalk than thick poly, which flattens to plastic.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 ## What the paint needs
 

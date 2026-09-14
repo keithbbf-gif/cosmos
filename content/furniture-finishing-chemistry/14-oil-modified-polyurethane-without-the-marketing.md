@@ -10,6 +10,17 @@ topic: [polyurethane, varnish]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "Polyurethane, in the can most people buy for a table, is usually **oil-modified PU**: an alkyd-like resin with urethane linkages, drying oils in the…"
+graphics:
+  - asset_slug: oil-modified-polyurethane-without-the-marketing
+    path: assets/oil-modified-polyurethane-without-the-marketing/shop-diagram.svg
+    alt: "Diagram: urethane links with oil-modified segments in one film"
+    caption: "Oil-mod poly is still a thermoset film — the oil softens marketing, not the scratch test."
+figures:
+  - id: photo-1
+    path: photos/oak-end-grain-quartersawn.jpg
+    alt: "End-grain cutting board showing ray flecks and pores"
+    caption: "End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0."
 ---
 
 # Oil-modified polyurethane without the marketing
@@ -19,6 +30,17 @@ usually **oil-modified PU**: an alkyd-like resin with
 urethane linkages, drying oils in the mix, mineral spirits
 as the carrier. It is varnish with a tougher name and,
 often, a tougher film.
+
+<figure class="ffc-figure">
+  <img src="assets/oil-modified-polyurethane-without-the-marketing/shop-diagram.svg" alt="Diagram: urethane links with oil-modified segments in one film" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Oil-mod poly is still a thermoset film — the oil softens marketing, not the scratch test.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/oak-end-grain-quartersawn.jpg" alt="End-grain cutting board showing ray flecks and pores" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> End grain shows rays and pores — the finish lands on this anatomy. Photo: Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+
 
 It is not a truck bed. It is not the moisture-cure or
 two-component systems factories spray. Those exist. They

@@ -10,6 +10,17 @@ topic: [safety, rags, ventilation]
 audience: shop
 safety: shop-safe
 voice: human
+meta_description: "The most dangerous chemistry in a finishing shop is not a secret formula. It is the reaction you wanted in the film, happening in a wad."
+graphics:
+  - asset_slug: rags-air-and-the-fire-you-do-not-see-coming
+    path: assets/rags-air-and-the-fire-you-do-not-see-coming/shop-diagram.svg
+    alt: "Triangle diagram: oily rag, oxygen, insulated pile heat"
+    caption: "Linseed and alkyd rags oxidize exothermically — flat dry or submerged, never a warm crumpled pile in the trash."
+figures:
+  - id: photo-1
+    path: photos/linseed-oil-bottle.jpg
+    alt: "Linseed oil container — oxidizing oils heat in piled rags"
+    caption: "Oxidizing oils in a crumpled pile can self-heat — lay rags flat or soak them. Photo: Wikimedia Commons, CC BY-SA 3.0."
 ---
 
 # Rags, air, and the fire you do not see coming
@@ -18,6 +29,17 @@ The most dangerous chemistry in a
 finishing shop is not a secret formula.
 It is the reaction you wanted in the
 film, happening in a wad.
+
+<figure class="ffc-figure">
+  <img src="assets/rags-air-and-the-fire-you-do-not-see-coming/shop-diagram.svg" alt="Triangle diagram: oily rag, oxygen, insulated pile heat" width="640" height="420" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 1.</strong> Linseed and alkyd rags oxidize exothermically — flat dry or submerged, never a warm crumpled pile in the trash.</figcaption>
+</figure>
+
+<figure class="ffc-figure ffc-photo">
+  <img src="photos/linseed-oil-bottle.jpg" alt="Linseed oil container — oxidizing oils heat in piled rags" width="640" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure 2.</strong> Oxidizing oils in a crumpled pile can self-heat — lay rags flat or soak them. Photo: Wikimedia Commons, CC BY-SA 3.0.</figcaption>
+</figure>
+
 
 ## Why oil rags heat
 
