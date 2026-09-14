@@ -17,7 +17,7 @@ citations:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC7528445/"
   - "FDA Epidiolex approval (2018)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice, not an instruction to sell or buy CBD, and not a discussion of medical cannabis.
@@ -65,7 +65,6 @@ Bautista et al. counted CBD in 13 of the March–July 2020 COVID letters. "Hemp 
 No CBD SKU is implied here. No cannabis parent company, no "we are waiting for Congress" teaser on a vitamin site. Women's-health and sleep SKUs in this pack stay on nutrients and botanicals that are actually in the supplement definition, with their own problems (piece 07, piece 15).
 
 If Congress later writes a hemp-food pathway, that will be a dated event and a new counsel memo. Until then, treat "just add 25 mg CBD to the nighttime formula" as a way to lose the nighttime formula.
-
 
 ## Delta-8, child packaging, and the warehouse stain
 

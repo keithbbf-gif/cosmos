@@ -16,7 +16,7 @@ citations:
   - "Gaziano JM et al. JAMA. 2012. PMID 23162860 (PHS II MVM)"
   - "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). The COcoa Supplement and Multivitamin Outcomes Study is a nutrition RCT. It is not this software repository. Small shifts on cognitive composites are not a dementia treatment.
@@ -76,4 +76,4 @@ If you cite COSMOS at all, name the product class (a standard MVM, Centrum Silve
 
 ## What changed since 2020 (box)
 
-The trial's intervention phase ended December 2020; the MVM cancer/CVD paper landed 2022; Mind landed 2022; Web landed 2023; Clinic + meta landed 2024. Brands that had been waiting for "the big multi study" got a null on the endpoints that sell. The cognitive papers are the ones that will be abused. Keep PMID 35294969 in the same slide as 36102337, 37244291, and 38244989.
+The trial's intervention phase ended in December 2020; the MVM cancer/CVD paper landed in 2022; Mind in 2022; Web in 2023; Clinic plus meta in 2024. Brands that had been waiting for "the big multi study" got a null on the endpoints that sell. The cognitive papers are the ones that will be abused. Keep PMID 35294969 in the same slide as 36102337, 37244291, and 38244989.

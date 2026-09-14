@@ -15,7 +15,7 @@ citations:
   - "https://www.fda.gov/medical-devices/in-vitro-diagnostics"
   - "21 CFR 101.93"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). At-home tests are not a substitute for a clinician. This is not an instruction to diagnose deficiency or disease from a kit.
@@ -77,23 +77,6 @@ If you sell a kit, sell a kit. If you sell a strain with a trial, sell the strai
 ![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
 
 *Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
-
-![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
-
-*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
-
-![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
-
-*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
-
-![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
-
-*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
-
-![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
-
-*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
-
 
 A quiz that outputs "you have inflammation / pre-diabetes / estrogen dominance, buy this" is an ad claim. 2022 guidance: net impression, human evidence, testimonials. The algorithm is not a clinician and not a defense.
 

@@ -14,7 +14,7 @@ citations:
   - "https://ods.od.nih.gov/factsheets/Melatonin-HealthProfessional/"
   - "https://www.usp.org/verification-services/dietary-supplements-verification-program"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a pediatric dosing guide and not advice to give melatonin to children.
@@ -43,7 +43,7 @@ That is not a "some lots vary" story. That is a category failing the only promis
 
 Cohen's letter is small — 25 SKUs, one purchase window. It is still the cleanest public assay of the aisle that exploded during the pandemic. A brand that answers "our gummies are different" without lot data is asking a buyer to take a vibe over HPLC.
 
-Gummy matrices are hostile. Heat during cook, acid for pectin or gelatin set, moisture in the jar, a flavor system that wants a low pH. Melatonin is not vitamin C. If your CMO skip-lots melatonin because "we always hit it," Cohen is why you stop skipping.
+Gummy matrices are hostile: heat during the cook, acid for pectin or gelatin set, moisture in the jar, and a flavor system that wants a low pH. Melatonin is not vitamin C. If your CMO skip-lots melatonin because "we always hit it," Cohen is why you stop skipping.
 
 ## Kids were already in the poison-center graph
 

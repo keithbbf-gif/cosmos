@@ -17,7 +17,7 @@ citations:
   - "https://isappscience.org/"
   - "Salminen S et al. ISAPP consensus on postbiotics. Nat Rev Gastroenterol Hepatol. 2021. PMID 33948025"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not a guide to treating *C. difficile*, IBD, or NEC.
@@ -41,7 +41,7 @@ The public-facing AGA page (published 9 June 2020) is the version a clinician wi
 - **Preterm, low-birth-weight infants / NEC prevention:** combinations the guideline names. That is a hospital neonatology question, not a DTC gummy.
 - **Crohn's, ulcerative colitis, IBS, treatment of *C. difficile*, acute infectious gastroenteritis in the US context:** probiotics only in a clinical trial, or not recommended — read the exact row before you paraphrase. AGA was not kind to the IBS wall of SKUs.
 
-ISAPP's contemporaneous note is worth keeping next to the guideline. They agreed strain-specificity is the science, then pointed out that several AGA-recommended options were written at species level, which "will likely lead to confusion for implementation." That is a fair complaint. A guideline that says strains differ, then lists "*L. acidophilus*" without a deposit number, hands marketing a loophole.
+ISAPP's contemporaneous note is worth keeping next to the guideline. They agreed strain specificity is the science, then pointed out that several AGA-recommended options were written at species level, which "will likely lead to confusion for implementation." That is a fair complaint. A guideline that says strains differ, then lists "*L. acidophilus*" without a deposit number, hands marketing a loophole.
 
 For a brand, the operational reading is stricter than AGA's weakest row: **if you cannot print genus, species, strain designation, and CFU through end of shelf, you are not selling the evidence.**
 

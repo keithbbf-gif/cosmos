@@ -21,7 +21,7 @@ citations:
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC7528445/"
   - "Martineau et al. BMJ 2017;356:i6583 (pre-2020 ARI meta-analysis)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This piece is about evidence quality and labeling, not about treating infection.
@@ -77,23 +77,6 @@ VITAL's vitamin D arm (see piece 04) was not a COVID trial. Do not recruit it as
 ![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
 
 *Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
-
-![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
-
-*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
-
-![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
-
-*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
-
-![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
-
-*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
-
-![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
-
-*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
-
 
 Held, in the boring sense:
 

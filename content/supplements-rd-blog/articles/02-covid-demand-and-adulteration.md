@@ -17,7 +17,7 @@ citations:
   - "https://www.kuer.org/health-science-environment/2022-04-22/the-pandemic-gave-nevadas-vitamin-and-supplement-companies-a-shot-in-the-arm"
   - "https://www.herbalgram.org (ABC Botanical Adulterants Prevention Program)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
@@ -49,7 +49,7 @@ The consumer page — *Fraudulent Coronavirus Disease 2019 (COVID-19) Products* 
 
 Bautista et al., writing in late 2020 (PMC7528445), coded 98 COVID-focused letters from March–July. Most of those letters called the products drugs. Ingredients that recurred: vitamin C (14 letters), CBD (13), vitamin D/D3 (12), silver (11), elderberry (6), zinc (6). Four letters in that set mentioned adulteration; three of those involved dietary supplements. So the 2020 public record is *mostly misbranding and unapproved-drug theory*, not a pile of seized lead-tainted lots.
 
-That split matters. A founder who only watches warning letters will over-learn claims and under-learn incoming inspection of botanicals. Both failure modes were live. Only one was loud.
+That split matters. A founder who only watches warning letters will overweight claims risk and underweight incoming botanical inspection. Both failure modes were live. Only one was loud.
 
 ## Adulteration: the memo that was not a surprise
 

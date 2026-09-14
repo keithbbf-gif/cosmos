@@ -17,7 +17,7 @@ citations:
   - "Vaidya VG et al. J Ayurveda Integr Med. 2024;15:100859. PMID 38154316"
   - "https://www.herbalgram.org (ABC BAPP)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not advice to start or stop ashwagandha, and it is not a treatment guide for anxiety, insomnia, or liver disease.
@@ -63,23 +63,6 @@ Withanone DNA-adduct work (2021, PMC8320610) is mechanistic, in vitro / chemical
 ![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
 
 *Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
-
-![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
-
-*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
-
-![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
-
-*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
-
-![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
-
-*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
-
-![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
-
-*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
-
 
 - **Leaf vs root.** Leaf is cheaper and can be high in withaferin A. If the trial was root, and the drum is leaf, you have a different product and a different tox guess.
 - **Withanolide assay theater.** A single HPLC number without a chromatogram or a method ID is how you buy spiked marker.

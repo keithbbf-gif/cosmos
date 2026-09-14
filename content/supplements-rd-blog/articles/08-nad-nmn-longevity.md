@@ -18,7 +18,7 @@ citations:
   - "https://www.fda.gov/food/hfp-constituent-updates/fda-releases-final-guidance-enforcement-discretion-certain-nac-products"
   - "21 U.S.C. § 321(ff)(3)(B)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). NMN is not an approved longevity medicine.
@@ -34,7 +34,7 @@ The NAD shelf sold a feeling: a battery icon, a mouse paper, a founder in a blac
 *Figure 1. Biochemistry schematic for literacy (Yoshino, Baur, Imai 2018 review). Raising NAD+ is not the same as reversing aging.*
 
 
-NAD+ is a cofactor. Levels tend to decline with age in some tissues in some models. Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) are intermediates that can raise NAD+ in humans at sufficient doses. Yoshino, Baur, and Imai's *Cell Metabolism* 2018 review is the map most people steal their figures from. Raising a cofactor is not the same as reversing aging. A lot of copy treats those as synonyms.
+NAD+ is a cofactor. Levels tend to decline with age in some tissues in some models. Nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) are intermediates that can raise NAD+ in humans at sufficient doses. Yoshino, Baur, and Imai's *Cell Metabolism* 2018 review is the map most people steal their figures from. Raising a cofactor is not the same as reversing aging. Plenty of PDP copy treats those as synonyms.
 
 ## The human evidence, without the keynote
 
