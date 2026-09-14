@@ -32,6 +32,13 @@ fig_type: common
 
 Champagne is a word that makes a catalog sound expensive. The plant is a Gulf yellow fig that LSU tested as **Golden Celeste** and released in the 2007 group with [Tiger](lsu-tiger) and [O’Rourke](lsu-orourke). Medium fruit. Yellow. Good cold tolerance in their notes. Performs where Celeste thrives. Stagg’s 2025 caption: moderate-sized yellow fruit on upright trees.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Generic Ficus carica plate — Champagne/Golden Celeste fruit must come from D:\FIGS">
+<figcaption>Figure 1. Generic Ficus carica plate — Champagne/Golden Celeste fruit must come from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 It is not [LSU Gold](lsu-gold). Gold is the large one, average cold, later clock. Champagne is the Celeste-shaped idea in a yellow skin. If you merge them because both are yellow, you will prune wrong, pick wrong, and blame Louisiana.
 
 ## Golden Celeste was a test name

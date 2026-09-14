@@ -30,6 +30,13 @@ fig_type: common
 
 Ira Condit released Flanders in **1975** with a handful of other hybrids. Alabama: greenish yellow, medium, violet stripes, amber pulp, pyriform with a long slender neck, fine flavor, vigorous, not particularly hardy, good on the West Coast. Synonym: Verdone Hybrid.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Striped green-yellow USDA reference — Flanders violet stripes from D:\FIGS">
+<figcaption>Figure 1. Striped green-yellow USDA reference — Flanders violet stripes from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Common type. No wasp. A pretty fig. Pretty is a reason to trial one pot. It is not a reason to skip Celeste-class wood in the ground.
 
 Jack’s [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/) primer: common figs persist without pollen. Flanders is in that bucket. You do not need a wasp. You do not need a caprifig. You still need a winter that does not eat a plant Alabama already called not particularly hardy, and a summer with enough growing degree days to finish a medium fig that was written for the West Coast.

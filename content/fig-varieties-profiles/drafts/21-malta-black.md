@@ -31,6 +31,13 @@ fig_type: common
 
 We have a folder on the KC-PC called `Malta_Black_Fig`. That is a stills folder of a tree we grew. It is not a certificate from Condit.
 
+
+<!-- orchard_slot: D:\FIGS\Malta_Black_Fig — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark fig USDA plate — Malta Black hero must be D:\FIGS\Malta_Black_Fig only">
+<figcaption>Figure 1. Dark fig USDA plate — Malta Black hero must be D:\FIGS\Malta_Black_Fig only. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Condit wanted **Malta** as the proper name for Celeste. Celeste is a small brown sugar fig. Malta Black, in collector talk, is a dark fig. Those two sentences do not merge because the word Malta is in both. The island named a lot of fruit. So did tired nurseries.
 
 This draft is an identity page as much as a cultivar page. I would rather be small and true than big and wrong.

@@ -31,6 +31,13 @@ fig_type: common
 
 I named Black Madeira on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) in the favorite pile with NSDC and Negra and Adriatic JH. I also named it in the looking-forward sentence for a good Colonel Littman’s, which is a different dark fig people confuse with this one. The name is a magnet. The magnet attracts the wrong wood.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark late berry USDA plate — never a marketplace hero; D:\FIGS fruit only">
+<figcaption>Figure 1. Dark late berry USDA plate — never a marketplace hero; D:\FIGS fruit only. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). Late. Dark. Intense berry when it is true and finished. A fig that made a thousand marketplace listings and a thousand mislabels.
 
 I am not a fan of Brown Turkey or Celeste so far. Madeira is one of the reasons. Once you have this plate in a year that finishes, the tool figs taste like tools. I will still keep a tool fig for the years Madeira is a bead.

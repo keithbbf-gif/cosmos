@@ -31,6 +31,13 @@ fig_type: common
 
 The FigRoots [winter protection](https://figroots.com/winter-protection/) page names Smith next to Chicago Hardy as a variety that can take more cold than the tender celebrities. That is a climate tool sentence. This page is the fruit.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/fig-x1-cross-section-usda-pom-07442-pd.jpg" alt="USDA fig cross-section watercolor — Smith strawberry-type from D:\FIGS">
+<figcaption>Figure 1. USDA fig cross-section watercolor — Smith strawberry-type from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Grower and extension-adjacent talk out of North Carolina: large, productive, strawberry pulp, a fig that made it around the Piedmont because it fed people. I did not plate Smith on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). I will not invent a berry score next to Negra. I will say it is a Southern name worth one hole if you want large fruit that is not an LSU sticker.
 
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). If a plant labeled Smith drops at marble size every year, look at water and type before you write a curse. We do not keep a wasp in Bradley County.

@@ -32,6 +32,13 @@ fig_type: common
 
 LSU Purple is the one you have already seen. Glossy. Dark. Oblong. The 2025 history says it is probably the most recognizable of the LSU-bred varieties. It was the early release — **1991** on the older AgCenter clips — and it did the thing breeders want a new fig to do in public: it fruited on a young plant.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Ficus carica botanical reference — swap for D:\FIGS\Fig Fruit when LSU Purple is plated">
+<figcaption>Figure 1. Ficus carica botanical reference — swap for D:\FIGS\Fig Fruit when LSU Purple is plated. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Most figs want three or four juvenile years. Purple will throw a small crop in one or two. That sentence has sold more sticks than flavor ever did. I do not blame the plant. I blame the person who reviewed a cup and called the cultivar finished.
 
 ## Official six, not the whole internet

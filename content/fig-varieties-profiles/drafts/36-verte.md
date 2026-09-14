@@ -31,6 +31,13 @@ fig_type: common
 
 On [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) I said I am not a fan of Brown Turkey or Celeste so far, and that some (Verte) have had a problem with splitting, but we have not cut any because we like a long trial and will probably go in-ground before we decide. In those cases we graft. The tree lives as rootstock.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Grass-green fig USDA type — Verte split fruit from D:\FIGS">
+<figcaption>Figure 1. Grass-green fig USDA type — Verte split fruit from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That is the profile. I can decorate it with Condit and Alabama. I will not walk it back.
 
 ## What the sheets say

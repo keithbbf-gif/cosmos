@@ -30,6 +30,13 @@ fig_type: common
 
 Caromb is a town. Noire is dark. The fig is a productive dark common fig people grow when they want a Bordeaux-class bowl without Madeira’s drama. Consensus: berry, productive, not the latest of the late, not the tightest of the tight. [VERIFY] every word on our tree.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark productive fig USDA type — Noire de Caromb eye-after-rain from D:\FIGS">
+<figcaption>Figure 1. Dark productive fig USDA type — Noire de Caromb eye-after-rain from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I did not name it on The Fig Jam. Jack’s productive dark is Red Sicilian. If Caromb is in that job class, it has to prove it next to that card, not on a forum average. One season is a rumor. Two seasons is a note.
 
 Common type. No wasp.

@@ -32,6 +32,13 @@ fig_type: common
 
 I have said on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) that I am not a fan of Brown Turkey for eating, so far. We still have the trees. That sentence is the whole profile if you came here for a score. If you came here because a neighbor, a box store, or a county agent handed you a “Turkey,” keep reading. The name is doing more work than the fruit.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/nameless-usda-pom-01044-pd.jpg" alt="USDA pomological watercolor of a brown common fig type — reference plate, not PapaFig's tagged tree">
+<figcaption>Figure 1. USDA pomological watercolor of a brown common fig type — reference plate, not PapaFig's tagged tree. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Ira Condit counted **at least fourteen synonyms** on Brown Turkey in 1955 and then warned that Brunswick had another dozen. Starnes and Monroe said in 1907 that no fruit was so badly mixed. They were not being poetic. They were tired. The mix did not get better because the internet learned to print tags.
 
 ## The pile

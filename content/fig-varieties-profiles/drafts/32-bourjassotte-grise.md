@@ -30,6 +30,13 @@ fig_type: common
 
 Grise means gray. The fruit wears bloom — that dusty violet that looks like you should not touch it and then you do. Collectors talk about Bourjassotte Grise the way they talk about a good Madeira year: rich, honey and berry in the same bite, a fig that makes a grocery clamshell feel like a prank.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Gray-violet dark fig USDA reference — Bourjassotte Grise bloom from D:\FIGS">
+<figcaption>Figure 1. Gray-violet dark fig USDA reference — Bourjassotte Grise bloom from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Consensus. I did not name it on The Fig Jam. I will not stamp a homestead score. I will tell you it is worth one honest pot.
 
 Common type in the accounts I use. No wasp. If your Grise drops a main crop like a Smyrna, [VERIFY] type.

@@ -31,6 +31,13 @@ fig_type: common
 
 E. W. Hunt of Eatonton, Georgia, bred this in the 1920s. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/): small brown, amber pulp tinged strawberry, pyriform with a short distinct neck, **long slender stems to 3/4 inch** that help it shed rain and prevent souring, superb flavor, sweet and rich, not a heavy bearer, well adapted in the rainier South. No synonyms.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg" alt="Long peduncle story needs D:\FIGS — USDA twig plate for winter context only">
+<figcaption>Figure 1. Long peduncle story needs D:\FIGS — USDA twig plate for winter context only. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 A fig with no synonyms is a small miracle. Do not give it one.
 
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). LSU’s program used Hunt. You can taste that intention in O’Rourke’s long peduncle note. Different plants. Same idea: hang the fruit off a stalk and let water miss the eye.

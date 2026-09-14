@@ -31,6 +31,13 @@ fig_type: common
 
 Panache is the fig you plant because you want to show someone a fig. Green skin with yellow stripes. Strawberry pulp. A neck. The leaf is not variegated. People who only saw the fruit expect a carnival tree and then look confused at a normal hand of five lobes.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/holtzbecher-ficus-carica-pd.jpg" alt="Historic Ficus carica painting — Panache stripes must be our immature fruit, not this plate">
+<figcaption>Figure 1. Historic Ficus carica painting — Panache stripes must be our immature fruit, not this plate. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 It is a chimera — two tissues living in one skin. That is why the stripes exist and why a poorly taken cutting can revert to a plain green fig. Take wood that striped. If a shoot goes plain, do not mail that shoot as Panache.
 
 Common type. No wasp.

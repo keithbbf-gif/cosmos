@@ -31,6 +31,13 @@ fig_type: common
 
 Jack’s number one: very productive, sweet, nice berry, medium size.
 
+
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/toulousienne-usda-pom-01168-pd.jpg" alt="USDA Toulousienne plate — Bordeaux-family reference for Red Sicilian">
+<figcaption>Figure 1. USDA Toulousienne plate — Bordeaux-family reference for Red Sicilian. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The FigRoots card: Bordeaux family, berry type, oblate spheroid, October 1, 2024 on that card, flavor 5, sweetness 4, meat 4.5. I named Red Sicilian in my own pile on the same interview. This is not a rumor from a marketplace.
 
 A kid who ranks figs will rank the one that shows up. That is not a lesser reason. A rare fig you eat twice is a story. A medium fig you eat for three weeks is a crop.

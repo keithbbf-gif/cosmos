@@ -32,6 +32,13 @@ fig_type: smyrna
 
 People buy Calimyrna the way they buy a memory. The grocery dried fig. Nutty. Seedy. The one that made “fig” mean something in an American pantry. Then they plant a stick in 8a and wait for that pantry to grow on a branch.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/calimyrna-usda-pom-07440-pd.jpg" alt="USDA Calimyrna watercolor, Fresno 1912 — Smyrna-type reference plate">
+<figcaption>Figure 1. USDA Calimyrna watercolor, Fresno 1912 — Smyrna-type reference plate. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Jack already wrote the type primer. **Smyrna** figs need pollen to ripen fruit — breba or main. No wasp, no crop. You can brush ostioles by hand if you have caprifig pollen and a lot of patience. That is a hobby. It is not a yard tree for a kid who asked for figs.
 
 Calimyrna is the California name for **Sari Lop** — Turkish *sarı lop*, yellow and delicious — also Lob Injir, Erbeyli, Aidin. George Roeding paid **$25** for the word Calimyrna so a Turkish fig could wear California. The first commercial planting at Fresno in 1886 did not crop until 1900, after the blastophaga was actually working. That is the origin story. It is also the warning label.

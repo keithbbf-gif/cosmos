@@ -32,6 +32,13 @@ fig_type: common
 
 Ed O’Rourke bred figs in the 1950s so the Gulf could have something better than a grandpa Celeste that sulked. The program slept. Charlie Johnson’s orchard woke the elite sticks up. One of the six they named is **O’Rourke**. Also known, in LSU’s own 2025 sentence, as improved Celeste.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/celeste-usda-pom-07441-pd.jpg" alt="Celeste-type USDA plate — O'Rourke hangs like Improved Celeste; plate our fruit from D:\FIGS">
+<figcaption>Figure 1. Celeste-type USDA plate — O'Rourke hangs like Improved Celeste; plate our fruit from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That lowercase “improved” is a description. The trade turned it into a cultivar. Then the trade split. Official release: O’Rourke. Unofficial creature walking around as Improved Celeste, often called **ICON** — Improved Celeste O’Rourke Not. FigPotter and a dozen threads will tell you the Improved Celeste most people have is ICON, 30 percent larger and a couple of weeks earlier than Celeste. That is grower talk. It is not a release document.
 
 I will not pretend I can see a DNA test from the porch. I will tell you what LSU wrote about the plant they named, and I will tell you to wait for fruit before you mail the name.

@@ -32,6 +32,13 @@ fig_type: common
 
 Jack spelled it Lilly on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). The site review spells it Lily. The plant does not care. I will use both so a search finds the tree.
 
+
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Botanical fig reference — Jack Lily tight-eye fruit from D:\FIGS\FigRoots or Fig Fruit">
+<figcaption>Figure 1. Botanical fig reference — Jack Lily tight-eye fruit from D:\FIGS\FigRoots or Fig Fruit. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 He ranked it fourth on his plate list: sweet, moderate berry, very nice balance, very tight eye, small fig. The FigRoots review files it in the Adriatic family, berry type, prolate spheroid, flavor 4.5, sweetness 4, meat 4.5 — October 1, 2024 on that card. One season. One plate. That is more than most leak figs get in public.
 
 It is not an official LSU release. Lazy Dog filed it with the unofficial greens. Same rule as [Hollier](lsu-hollier): say unofficial when you share wood.

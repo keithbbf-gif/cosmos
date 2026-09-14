@@ -31,6 +31,13 @@ fig_type: common
 
 Jack’s third: very productive, extremely tight eye, strong berry, moderately sweet, small fig.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Small dark tight-eye USDA reference — Syrian Dark from D:\FIGS">
+<figcaption>Figure 1. Small dark tight-eye USDA reference — Syrian Dark from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That is a better cultivar description than most official releases get. I did not need to add a French village.
 
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). A numbered dark fig from a Syrian group that collectors split because the first one and the second one were not the same plate. The **#2** is the inventory. Do not drop it to sound elegant.

@@ -32,6 +32,13 @@ fig_type: common
 
 LSU Gold is the fig people point at when they want to prove Louisiana bred something that looks like a prize. Jason Stagg’s photo caption in the 2025 *Louisiana Agriculture* piece is blunt: Gold is the largest fruit of the LSU fig varieties. The tree is vigorous and upright. The skin goes yellow to gold. The release notes say average cold resistance, moderate rust resistance, recommended for the Gulf Coast.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Ehret botanical plate of Ficus carica — LSU Gold needs a D:\FIGS still; not a Commons stand-in">
+<figcaption>Figure 1. Ehret botanical plate of Ficus carica — LSU Gold needs a D:\FIGS still; not a Commons stand-in. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That last clause is doing work. Gulf Coast is not a short Ozark autumn. We are 8a. We can ripen Gold. We can also watch a large yellow fig sit hard while the nights drop. GDD is a count, not a vibe. I will not invent a Saline County finish date. [VERIFY] your first soften and write it on the tag.
 
 ## Official, not a rumor

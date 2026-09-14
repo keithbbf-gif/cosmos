@@ -31,6 +31,13 @@ fig_type: common
 
 I named Nuestra Señora del Carmen first in my pile. Jack put it fifth: very sweet, nice berry, large eye, splits if there is much rain, large fig.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Large green USDA fig type — NSDC split-after-rain from D:\FIGS">
+<figcaption>Figure 1. Large green USDA fig type — NSDC split-after-rain from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That is a complete cultivar profile. The rest is how to live with it in 8a.
 
 Common type. No wasp. A Spanish name that collectors shorten to NSDC because life is short and the fruit is not.

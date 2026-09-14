@@ -31,6 +31,13 @@ fig_type: common
 
 Blanc is not a sweeter Noire. It is the other skin. Green, neck, late, collector. People who got burned by birds on dark figs buy green figs and then get burned by the calendar instead.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Green fig USDA plate — Col de Dame Blanc honey cut from D:\FIGS">
+<figcaption>Figure 1. Green fig USDA plate — Col de Dame Blanc honey cut from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Common type. No wasp. Same GDD lecture as Noire. I will not write it twice at full length. Read that page. Then come back.
 
 Jack’s [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/) primer still applies on this pot. Common figs persist without pollen. Blanc is in that bucket in the accounts I use. You do not need a wasp. You do not need a caprifig. San Pedro is Desert King — breba without pollen, main crop often with. Smyrna is Calimyrna — nothing without pollen. If your Blanc drops every main-crop fig at marble size, look at water and age, then type. [VERIFY]. Late and green is usually a finish problem, not a wasp problem.

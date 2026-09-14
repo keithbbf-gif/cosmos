@@ -32,6 +32,13 @@ fig_type: san-pedro
 
 Jack’s type page: San Pedro figs need pollen to ripen the main crop but not the breba. Desert King is the San Pedro Americans actually plant. Alabama filed it under King — medium greenish yellow, strawberry pulp, pyriform to oblique, a large breba from late June to August, sometimes sets main-crop figs without pollination, sweet and rich, well adapted in the Northwest and cooler South.
 
+
+<!-- orchard_slot: D:\FIGS\Breba 2025 — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg" alt="Fig cutting on old wood — Desert King breba context; shoot D:\FIGS\Breba 2025">
+<figcaption>Figure 1. Fig cutting on old wood — Desert King breba context; shoot D:\FIGS\Breba 2025. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Sometimes. That word is doing more work than the word King.
 
 ## Two crops, two machines

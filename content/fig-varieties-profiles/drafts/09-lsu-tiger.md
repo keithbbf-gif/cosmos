@@ -31,6 +31,13 @@ fig_type: common
 
 Two tigers walk into a fig collection. One is a Louisiana release with a stripe on the *unripe* fruit and a tree that sprawls while it is young. The other is a French chimera with green-and-yellow stripes on the ripe skin and a leaf that stays ordinary. People call both Tiger. Only one is LSU Tiger.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Botanical Ficus carica reference — Tiger stripe belongs on immature fruit from D:\FIGS">
+<figcaption>Figure 1. Botanical Ficus carica reference — Tiger stripe belongs on immature fruit from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 If you came here for the candy-stripe fig, read the [Panache](panache) draft. This page is the Gulf animal.
 
 ## What LSU released

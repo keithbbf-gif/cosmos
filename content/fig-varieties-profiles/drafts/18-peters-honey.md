@@ -32,6 +32,13 @@ fig_type: common
 
 The Northwest grows a yellow-green fig they call Lattarula and swears it is the honey fig. Nurseries sell Peter’s Honey. People say Italian Honey. Condit did not treat Lattarula as its own variety and pointed at **Blanche**. Alabama reserved judgment. White Marseilles / Lemon / Mayes Yellow sit in the same yellow pile on the other page.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Green-yellow USDA fig type — honey figs need D:\FIGS Lattarula / Italian Honey tags">
+<figcaption>Figure 1. Green-yellow USDA fig type — honey figs need D:\FIGS Lattarula / Italian Honey tags. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 I will not solve 1955 in a blog draft. I will tell you how to live with the tree.
 
 ## The name pile

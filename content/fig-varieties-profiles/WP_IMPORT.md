@@ -20,6 +20,7 @@ These files are for Keith / Jack to paste into the FigRoots WordPress (Website B
 8. Body: copy from the first paragraph after the closing `---` to the end. Restore H2s.
 9. Keep `[VERIFY]` visible in draft so a human can resolve it before any future publish.
 10. Featured image: one still from that post’s `folder_pick` on KC-PC. Do not pull from `.dtrash`. Do not use a Commons fruit photo as the featured image for a named variety we grow. Leave the post **Draft**.
+11. In-body images: paste each draft’s `<figure>` block. Upload `assets/images/...` to the media library or replace with a `D:\FIGS` still. Keep `alt` and `<figcaption>` honest per `RIGHTS.md`.
 
 ## What not to paste onto the live page
 

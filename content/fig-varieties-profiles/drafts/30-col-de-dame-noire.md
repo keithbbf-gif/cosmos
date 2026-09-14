@@ -31,6 +31,13 @@ fig_type: common
 
 Col de Dame means the lady’s neck. Noire is the dark one. Blanc is the green one. Mutante is the sport Keith said he was looking forward to tasting — which means as of July 2025 I had **not** plated Mutante. This page is Noire.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark late fig USDA reference — Col de Dame Noire from D:\FIGS">
+<figcaption>Figure 1. Dark late fig USDA reference — Col de Dame Noire from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Collector consensus: dark, neck, berry, late, wants heat, a fig people compare to the serious French plates. Eye not Celeste-tight. I did not put CDDN on the Fig Jam favorite list. I put Black Madeira and Negra. Same craving, different clocks.
 
 Common type. No wasp. The type is not the problem. The calendar is.

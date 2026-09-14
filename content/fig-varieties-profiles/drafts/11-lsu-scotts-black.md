@@ -32,6 +32,13 @@ fig_type: common
 
 Scott’s Black is the LSU dark fig people mention when they have already planted [Purple](lsu-purple) and want a larger, later, red-pulp plate. The 2025 history: large, round, plump, dark skin, red pulp, intensely delicious, disease-resistant, productive, a top choice for humid, mild-winter areas. Complements the other releases by adding a fruit type.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="USDA Royal Black watercolor — dark LSU-type reference, not Scott's Black in Keith's yard">
+<figcaption>Figure 1. USDA Royal Black watercolor — dark LSU-type reference, not Scott's Black in Keith's yard. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Mild winter. Humid. That is south Louisiana talk. We can grow it in 8a. We cannot bully a short autumn into a Gulf October.
 
 FigPotter said Scott’s Black is too late for Michigan without a head start. We are not Michigan. We are also not Port Sulphur. Head starts in the hoop help. A pot you can move helps. An in-ground tree in a year that turns cool in September will hold hard fruit while you stare at it.

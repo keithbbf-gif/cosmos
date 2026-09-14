@@ -30,6 +30,13 @@ fig_type: common
 
 Deux saisons means two seasons. The French named the fig for breba plus main. Collectors buy the name. Then they prune in January, take a late freeze in March, and write a review that Madeleine “doesn’t do two crops here.”
 
+
+<!-- orchard_slot: D:\FIGS\Breba 2025 — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg" alt="Fig wood watercolor — Madeleine two-season claim needs D:\FIGS breba proof">
+<figcaption>Figure 1. Fig wood watercolor — Madeleine two-season claim needs D:\FIGS breba proof. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 UAEX already told you breba rarely overwinters in Arkansas. Madeleine did not repeal the county.
 
 Common type in the accounts I trust. No wasp. That is better than a San Pedro. The breba is still last year’s wood.

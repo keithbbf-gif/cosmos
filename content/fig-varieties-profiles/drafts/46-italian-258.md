@@ -31,6 +31,13 @@ fig_type: common
 
 I listed I-258 among the figs I had not tried yet. Same interview, same sentence as Yellow Long Neck, White Madeira #1, Castel Trosino, Rossellino. A number in a list is not a review.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="I-258 tag from D:\FIGS\Fig Labels — Ehret plate until honey cut is plated">
+<figcaption>Figure 1. I-258 tag from D:\FIGS\Fig Labels — Ehret plate until honey cut is plated. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Collectors call I-258 a honey fig, Italian, often in the same breath as Lattarula / Peter’s Honey. That breath is how name piles start. This page will not finish the pile for them.
 
 Common type in the listings I trust. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). If a numbered Italian drops like a Smyrna, [VERIFY]. We do not start a wasp project in Bradley County because a number sounded Mediterranean.

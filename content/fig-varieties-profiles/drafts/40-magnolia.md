@@ -32,6 +32,13 @@ fig_type: common
 
 Texas grew Magnolia for the kettle. Large-enough bronze to yellow fig, open eye, a fig that makes jam and does not pretend to be Negra. Condit folded Brunswick into a twelve-name pile. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/) listed **Brunswick** as medium to large, bronzy yellow, rich flavor, oblique-turbinate, well adapted in the Southwest and drier areas of the South, fruit ruined by excessive rain since it has open eyes, fairly hardy — synonyms Dalmatian, Madonna, Magnolia.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/magnolia-usda-pom-01043-pd.jpg" alt="USDA Magnolia fig watercolor, Arlington Farm 1913 — preserve type reference plate">
+<figcaption>Figure 1. USDA Magnolia fig watercolor, Arlington Farm 1913 — preserve type reference plate. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Dalmatian here is not Dalmatie the large green collector fig. Madonna is not a prayer. Magnolia is the Texas sales name. If your grandpa in East Texas has a preserve tree, this is often it.
 
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). TAMU [disease handbook](https://plantdiseasehandbook.tamu.edu/food-crops/fruit-crops/fig/): Magnolia and Kadota take more open-eye trouble. Celeste, Texas Everbearing, Alma sit on the closed side. Their souring table is blunt. Magnolia: susceptible. Kadota — they spelled it Kodata: susceptible. Celeste, Texas Everbearing, Alma: resistant. The prose says figs with open eyes should not be planted if you wanted a fresh fig that survives a wet week.

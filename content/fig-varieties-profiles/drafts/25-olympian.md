@@ -31,6 +31,13 @@ fig_type: common
 
 Olympian is a chance seedling story out of the Pacific Northwest — large, purple, strawberry pulp, a breba people talk about, wood that takes more cold than a California Mission. Grower consensus. I did not plate it on The Fig Jam. I will not write a signed flavor paragraph I would not sign.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/mission-type-usda-pom-07410-pd.jpg" alt="Mission-type USDA watercolor — Olympian large purple from D:\FIGS\Breba 2025 if present">
+<figcaption>Figure 1. Mission-type USDA watercolor — Olympian large purple from D:\FIGS\Breba 2025 if present. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Common type. No wasp. That already makes it more honest in 8a than Desert King.
 
 Jack’s [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/) page is the one-minute primer: common figs persist without pollen; San Pedro figs need pollen for the main crop but not the breba; Smyrna figs need pollen for both. Olympian sits in the first bucket. You do not buy a wasp. You do not brush an ostiole. You still have to keep last year’s wood if you wanted the second-crop story the listing sold you.

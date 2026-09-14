@@ -31,6 +31,13 @@ fig_type: common
 
 Jefferson grew a Marseilles fig and America never let the name rest. Alabama bolded **Blanche** and then listed Bianci, Lemon, Marseilles, Mayes Yellow, White Marseilles, White Russian. Medium to large greenish yellow, white pulp, many seeds, turbinate without a neck, sweet and delicate, nutty from soft seeds. Some eyes open, some relatively closed. Well adapted in the South. Fairly hardy.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Blanche / Marseilles green-yellow USDA type — tag pile from D:\FIGS\Fig Labels">
+<figcaption>Figure 1. Blanche / Marseilles green-yellow USDA type — tag pile from D:\FIGS\Fig Labels. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Lemon is what a lot of Southern yards say. If your grandpa’s yellow fig is this shape, you may already have the profile.
 
 Common type. No wasp.

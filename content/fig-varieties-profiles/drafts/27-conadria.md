@@ -31,6 +31,13 @@ fig_type: common
 
 Condit wanted a fig that could work in more than one climate. Conadria — Adriatic hybrid, released **1956** or **1957** depending on the sheet — is medium to large, yellow-green, light strawberry pulp, rich flavor, pyriform. Alabama: well adapted in California and the Southeast, hardy with good rebound from freezes.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Green pyriform USDA fig — Conadria freeze-resprout from D:\FIGS">
+<figcaption>Figure 1. Green pyriform USDA fig — Conadria freeze-resprout from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 That rebound sentence is why this page exists next to the pretty Condit figs that do not have it.
 
 Common type. No wasp. Not a Smyrna. People see yellow-green and think Calimyrna. Different machine. This one stays on the tree without a wasp.

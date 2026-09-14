@@ -31,6 +31,13 @@ fig_type: common
 
 Condit put Adriatic in the California commercial five. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/): medium, green to greenish yellow, light strawberry pulp, good flavor, turbinate, small neck or none, very subject to mosaic, well adapted in the Northwest, disappointing in the South, fairly hardy, good for drying. Synonyms: Chico, Grosse Verte, Nebian, Strawberry, Verdone.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/fig-x1-cross-section-usda-pom-07442-pd.jpg" alt="Green fig cross-section USDA watercolor — Adriatic strawberry pulp from D:\FIGS">
+<figcaption>Figure 1. Green fig cross-section USDA watercolor — Adriatic strawberry pulp from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Disappointing in the South is a climate sentence. I still named **Adriatic JH** on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) in the favorite pile with NSDC, Negra, Maryland Berry, and Black Madeira. JH is a collector suffix — a particular cut of the Adriatic idea that we liked enough to say out loud. It is not a license to call every green strawberry fig Adriatic.
 
 Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). Green strawberry is not a Smyrna. Calimyrna is the wasp fig. This one stays on the tree without a pollen brush.

@@ -30,6 +30,13 @@ fig_type: common
 
 On 25 July 2025 I told [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) I was looking forward to varieties we had not tried yet. Yellow Long Neck was the first name in that sentence.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Labels — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Long-neck types need D:\FIGS\Fig Labels — USDA green fig reference only">
+<figcaption>Figure 1. Long-neck types need D:\FIGS\Fig Labels — USDA green fig reference only. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 This page exists so a future editor does not write a tasting note I did not earn. If we have plated it since, [VERIFY] the date and replace the middle of this draft. Until then, the honest magazine piece is a holding profile.
 
 I am not a fan of Brown Turkey or Celeste so far. That sentence is plated. This one is not. I will not borrow a mouth from a forum average to fill the hole.

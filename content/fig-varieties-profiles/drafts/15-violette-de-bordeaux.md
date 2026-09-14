@@ -31,6 +31,13 @@ fig_type: common
 
 A small black fig with pulp the color of a wine reduction is why people tolerate the name pile. Alabama’s sheet bolded **Bordeaux** and then listed Beer’s Black, Negronne, Violette de Bordeaux as if that were settled. Condit and a century of French yards treat Negronne / Violette de Bordeaux as the same small fig. Beer’s Black is the Mission-adjacent argument I will not flatten to tidy a paragraph.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark fig USDA reference plate — Violette de Bordeaux needs D:\FIGS fruit for the hero">
+<figcaption>Figure 1. Dark fig USDA reference plate — Violette de Bordeaux needs D:\FIGS fruit for the hero. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 If your plant is large, Mission-shaped, and pale inside, you do not have VdB. If it is small, almost black, deep red, a little acid in the berry, you might.
 
 ## The name pile

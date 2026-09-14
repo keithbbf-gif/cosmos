@@ -31,6 +31,13 @@ fig_type: common
 
 Alma does not have a fan club. That is a compliment.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/celeste-usda-pom-07441-pd.jpg" alt="Closed-eye Celeste-type USDA plate — Alma tight eye after rain from D:\FIGS">
+<figcaption>Figure 1. Closed-eye Celeste-type USDA plate — Alma tight eye after rain from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Texas A&M released it in **1975**. Alabama: small-to-medium golden brown, pyriform, amber pulp, sweet and delicate, well adapted in the Southeast, highly resistant to fruit rots, wood very hardy. TAMU’s disease handbook puts it with Celeste and Texas Everbearing in the closed-eye set. Magnolia and Kadota sit on the other side of that sentence.
 
 Common type. No wasp. A tool fig. I am not a fan of Celeste so far. Alma is in that usefulness class with a different skin.

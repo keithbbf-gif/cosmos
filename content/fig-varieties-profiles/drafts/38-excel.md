@@ -31,6 +31,13 @@ fig_type: common
 
 Condit released Excel in **1975**. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/): medium yellow, amber pulp, oblate to spherical, well adapted in California, early Southeast trials very promising, seems very hardy, superb flavor. Synonym: Kadota Hybrid.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Yellow Kadota-hybrid USDA reference — Excel early trial from D:\FIGS">
+<figcaption>Figure 1. Yellow Kadota-hybrid USDA reference — Excel early trial from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Superb is their word. Kadota hybrid is the warning. Kadota’s job in our climate is an open-enough eye and a wet week. Excel exists because someone wanted Kadota’s honey on a plant that might live wider. Whether the eye came along is a plate-and-rain question. [VERIFY].
 
 Common type. Persistent. No wasp. Jack already drew that line on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). Yellow is not a Smyrna. Calimyrna is the wasp fig. This one stays on the tree without a pollen brush. Do not buy a wasp for it.

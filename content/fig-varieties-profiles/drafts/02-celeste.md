@@ -32,6 +32,13 @@ fig_type: common
 
 I am not a fan of Celeste for eating, so far. I said that on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) and I will say it until the fruit changes my mind. We still have the trees. We give a long trial. LSU still talks Celeste as the Louisiana yard standard. UAEX still puts it first for Arkansas. None of those institutions asked my mouth.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/celeste-usda-pom-07441-pd.jpg" alt="USDA Celeste fig watercolor from Cape Charles, Virginia, 1911 — reference cultivar plate">
+<figcaption>Figure 1. USDA Celeste fig watercolor from Cape Charles, Virginia, 1911 — reference cultivar plate. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 If your grandpa has one fig, this is often it. Small. Brown to violet. Pink-strawberry pulp. Tight eye. Early. The sugar fig. People who grew up on it will fight you if you call it boring. People who grew up on berry figs will call it a date that forgot to happen. Both can be telling the truth about *their* tree.
 
 ## Malta, Celestial, Sugar Fig — and the tree in the yard

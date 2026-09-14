@@ -32,6 +32,13 @@ fig_type: common
 
 Our winter page already names Chicago Hardy and Smith as the colder-tolerant ones people ask about. That is the job. Not a dessert contest. Not a zone fairy tale.
 
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg" alt="USDA fig cutting / winter twig watercolor — resprout story for Chicago Hardy">
+<figcaption>Figure 1. USDA fig cutting / winter twig watercolor — resprout story for Chicago Hardy. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Alabama: small-to-medium, light brown to violet skin, strawberry-pink pulp, small eye, pyriform with a long slender neck, excellent flavor, very hardy. Resembles Brown Turkey. Hardiness group with Celeste, English Brown Turkey, Alma.
 
 Resembles Brown Turkey is doing a lot of work. A lot of “Hardy Chicago” in the North is a dark Mt. Etna / Sicilian-type that dies to the ground and fruits on new wood. A lot of Southern “Chicago” is a Turkey-shaped plant with a city on the tag. Wait for fruit. The city is not a pedigree.

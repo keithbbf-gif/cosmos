@@ -32,6 +32,13 @@ fig_type: common
 
 If you grew up on canned figs in heavy syrup, you grew up on **Kadota**, or on something close enough that the industry did not care. Condit called Dottato probably the most important single fig variety in the world. Italy had been eating it and drying it for centuries under a pile of names — Ottato, Uttato, Gentile, Binello — before California printed **Kadota** on a crate.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="USDA pomological plate of a green Kadota-type fig — reference only">
+<figcaption>Figure 1. USDA pomological plate of a green Kadota-type fig — reference only. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 It is a **common** fig. Persistent. No wasp. That is the good news. The rest is climate.
 
 ## What the plant is

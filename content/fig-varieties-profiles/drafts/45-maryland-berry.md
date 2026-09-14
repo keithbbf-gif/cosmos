@@ -31,6 +31,13 @@ fig_type: common
 
 I named Maryland Berry on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) in the same breath as Navid’s Unk, BGM Unk, Labrijta, Melanzana Merdoscola. Some of those names are places. Some are Unk. The point of the list was not a pedigree. It was a plate.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/fig-x1-cross-section-usda-pom-07442-pd.jpg" alt="Berry-type cross-section USDA plate — Maryland Berry must be Keith's plated fruit">
+<figcaption>Figure 1. Berry-type cross-section USDA plate — Maryland Berry must be Keith's plated fruit. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Maryland Berry is a berry fig we liked enough to say into a microphone. That is the official note. The rest is how not to ruin it with a story.
 
 Common type unless the tree teaches us otherwise. I expect common. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). If a plant labeled Maryland Berry drops at marble size every year, look at water and type before you write a curse. We do not keep a wasp in Bradley County.

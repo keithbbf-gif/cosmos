@@ -32,6 +32,13 @@ fig_type: common
 
 The grocery Mission is why a lot of people think they do not like figs. It rode a truck. It was picked for skin, not for a plate. Then a catalog sold you the romance: Franciscan missions, black fruit, two crops, the fig that built California.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/mission-type-usda-pom-07410-pd.jpg" alt="USDA Mission-type fig watercolor — historic reference, not a grocery Mission photo">
+<figcaption>Figure 1. USDA Mission-type fig watercolor — historic reference, not a grocery Mission photo. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Condit put Mission among the five commercial names California actually agreed on — Mission, Kadota, Adriatic, Calimyrna, and their Brown Turkey. He wanted the botanical name **Franciscana**. The yard says Black Mission. The plant is a **common** fig. Persistent. No wasp. That part is easy. The climate part is not.
 
 ## What it is when it is true

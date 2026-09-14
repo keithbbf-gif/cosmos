@@ -6,6 +6,14 @@ User photos on **KC-PC** live under `D:\FIGS`. Those folders are the first pick 
 
 A Commons fruit photo is not a named FigRoots variety.
 
+## Graphics lane (PR #319)
+
+Staged plates live in `assets/images/` with credits in **`RIGHTS.md`**. Each draft carries a `<figure>` with SEO `alt` + `<figcaption>` and:
+
+`<!-- orchard_slot: D:\FIGS\<folder_pick> — hero still before publish -->`
+
+Swap USDA plates for Keith fruit **before** setting a featured image. Ehret/Holtzbecher plates are never cultivar proof.
+
 ## Rules that do not bend
 
 1. **Ours first.** Hunt the folders below before Commons or USDA.

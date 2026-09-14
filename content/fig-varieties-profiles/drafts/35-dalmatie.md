@@ -31,6 +31,13 @@ fig_type: common
 
 Dalmatie — Dalmatian in some listings, not the Brunswick synonym Alabama hung on Magnolia — is a large green fig with a strawberry cut in the stories. Collectors like the size. Size is a late tax.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg" alt="Large green USDA fig — Dalmatie late strawberry cut from D:\FIGS">
+<figcaption>Figure 1. Large green USDA fig — Dalmatie late strawberry cut from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Common type. No wasp. Green ripe fruit. Birds miss a few. You will miss a few if you wait for it to look “ripe-colored.” Feel.
 
 I did not plate Dalmatie on The Fig Jam. Consensus flavor: rich strawberry, a fig people compare to a good Adriatic on a bigger body. [VERIFY].

@@ -31,6 +31,13 @@ fig_type: common
 
 Jack put Negra d’Agde sixth on his list and then said the thing I care about: not very sweet, but more berry flavor than any other fig on the list. Tight eye. Moderate size. Very productive.
 
+
+<!-- orchard_slot: D:\FIGS\FigRoots — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Dark berry-type USDA reference — Negra d'Agde fruit from D:\FIGS or FigRoots reviews">
+<figcaption>Figure 1. Dark berry-type USDA reference — Negra d'Agde fruit from D:\FIGS or FigRoots reviews. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 The FigRoots card: Dark Berry family, berry type, oblate ovoid, August 15, 2024 on that card, flavor 5, sweetness 3.5, meat 4.5. The sweetness number is the point. People who only chase brix will walk past this tree. People who want a fig that tastes like a berry will stop.
 
 I named it too, on the same interview, in the pile with NSDC and Black Madeira and Red Sicilian. This is not a leak we are guessing at. This is a plate we already put on the internet.

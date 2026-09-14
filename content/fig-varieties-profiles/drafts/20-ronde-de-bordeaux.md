@@ -31,6 +31,13 @@ fig_type: common
 
 Ronde means round. Bordeaux is a family word that also sits on Violette and on Jack’s Red Sicilian card. Do not merge them. Ronde de Bordeaux is the small, early, dark fig people plant when their season is short or their patience is.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg" alt="Small dark fig USDA reference — Ronde de Bordeaux bowl shots from D:\FIGS">
+<figcaption>Figure 1. Small dark fig USDA reference — Ronde de Bordeaux bowl shots from D:\FIGS. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Grower consensus — and I will mark it as consensus, not as our signed plate — is berry, productive, tight eye, early. I did not name RdB on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). Jack’s small darks were Syrian Dark #2 and the Unk Greek. Same job class. Different names.
 
 Common type. No wasp.

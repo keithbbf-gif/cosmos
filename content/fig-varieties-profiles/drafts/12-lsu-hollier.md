@@ -31,6 +31,13 @@ fig_type: common
 
 LSU named six figs. The internet named twenty. Hollier is one of the ones that walked off the research ground in a cutting bundle and grew a life of its own.
 
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg" alt="Ficus carica botanical plate — Hollier yellow fruit must be photographed on site">
+<figcaption>Figure 1. Ficus carica botanical plate — Hollier yellow fruit must be photographed on site. PD/CC fill for staging. Replace with a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Full credits: RIGHTS.md.</figcaption>
+</figure>
+
 Stagg said it in the older news clip: besides the six, unnamed figs from the program have been grown and distributed by enthusiasts. The 2025 history says the same thing a second time, and adds that many varieties circulate as LSU releases with no connection to the breeding. Both sentences can be true about different sticks.
 
 Hollier, by grower consensus, is a yellow-skinned fig with pink to red pulp and a plate people call complex. Lazy Dog planted it in 2023 and put it among the most complex they had tasted — their plate, their year. I did not name Hollier on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). I will not steal their adjective and tattoo it on our tree.

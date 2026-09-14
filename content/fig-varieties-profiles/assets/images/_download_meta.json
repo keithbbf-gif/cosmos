@@ -1,0 +1,74 @@
+[
+  {
+    "commons": "Ficus_carica_L,_1771.jpg",
+    "bytes": 113826,
+    "sha256": "2d76056f345974e0d66889aea481e33edaa617c0b453eb926293c1289fbbee5f",
+    "path": "assets/images/shared/reference/ehret-ficus-carica-1771-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007441.jpg",
+    "bytes": 1312615,
+    "sha256": "869835e7bbd5177e0e52fac9a5ec709909eda66b83bd115ad645f3f3e1191a22",
+    "path": "assets/images/cultivars/celeste-usda-pom-07441-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007440.jpg",
+    "bytes": 1036707,
+    "sha256": "8ff6d2e49eb7618c991485383c1c260f9a0fb968c952ab6bce5fdab9eef57f99",
+    "path": "assets/images/cultivars/calimyrna-usda-pom-07440-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001043.jpg",
+    "bytes": 1041155,
+    "sha256": "d1e6746461c51bea16c254d6d21c18c9edc2a2e9464d279cc846c7c4a4a01f44",
+    "path": "assets/images/cultivars/magnolia-usda-pom-01043-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001045.jpg",
+    "bytes": 1066970,
+    "sha256": "f74e667e539c4ec55e26dc242b581c8fa229e3450e42d170661b2d74ac321658",
+    "path": "assets/images/cultivars/royal-black-usda-pom-01045-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007443.jpg",
+    "bytes": 1123653,
+    "sha256": "393ece3cd4ee62e71d3b5edba0ef137ca52284dd4f847eea4c9b6a66782b71fe",
+    "path": "assets/images/cultivars/kadota-type-usda-pom-07443-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007410.jpg",
+    "bytes": 1135877,
+    "sha256": "e241f92817a3569eb78a71fa15e1744f09f63dfb4abb90c72dd9703ad92ee319",
+    "path": "assets/images/cultivars/mission-type-usda-pom-07410-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00007442.jpg",
+    "bytes": 875873,
+    "sha256": "057625f9b3c0480c973f26fca2040673e14e4db425ab0fc0a33d8d5ec4492298",
+    "path": "assets/images/cultivars/fig-x1-cross-section-usda-pom-07442-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001044.jpg",
+    "bytes": 1104273,
+    "sha256": "8cff7f0a1c7cb8fb781bb793790cb2b3d167a94307d379f1e12c47c5b0133768",
+    "path": "assets/images/cultivars/nameless-usda-pom-01044-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001168.jpg",
+    "bytes": 1134940,
+    "sha256": "e6df2f4ef81473ccda71fef433d92b38f8a14280f2797784a656f01c6ca32928",
+    "path": "assets/images/cultivars/toulousienne-usda-pom-01168-pd.jpg"
+  },
+  {
+    "commons": "Pomological Watercolor POM00001042.jpg",
+    "bytes": 1104754,
+    "sha256": "884c4786a4e4a2df6e61c8ff14035d0093f6272cb33be01671a474203e742e80",
+    "path": "assets/images/cultivars/cutting-winter-twig-usda-pom-01042-pd.jpg"
+  },
+  {
+    "commons": "Johannes_Simon_Holtzbecher_-_Ficus_carica_-_Google_Art_Project.jpg",
+    "bytes": 844010,
+    "sha256": "a574f835b25e1442448391182aab4bee4cc49bf1ddcda3c5a2d646f836bf996a",
+    "path": "assets/images/shared/reference/holtzbecher-ficus-carica-pd.jpg"
+  }
+]
