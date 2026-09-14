@@ -15,7 +15,7 @@ citations:
   - "American Psychiatric Association. DSM-III. 1980."
   - "Figley, Charles R., ed. Trauma and Its Wake. 1985."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -49,16 +49,6 @@ This page will not walk you through intrusion and denial as a homework chart. If
 
 No portrait in this wave. Living person: license and reason required later.
 
-## UCSF, phases, and furniture a new society could put on a syllabus
-
-Horowitz is living as of last verification. *Stress Response Syndromes* (1976) described intrusion and denial after serious life events in a vocabulary the academy could cite without a uniform. Four years later DSM-III printed PTSD. The manual did not photocopy the book. The book is one reason a committee had a civilian-academic language when a veterans’ movement demanded a name.
-
-He wanted both psychotherapy observation and something that looked like a model. Bereavement next to disaster. That mix is why later CBT-adjacent shops could claim a cousin without claiming a trench. Foa and Resick are later, different objects. He is a 1976 monograph.
-
-Phases leak. “Denial” became a kitchen insult. The insult is not in the book. Kardiner 1941 had a VA physioneurosis. Horowitz had a broader event class. Young would call both assembled. Both are still worth reading as dated objects. Figley’s 1985 volumes needed academic furniture. Horowitz was furniture of the better kind.
-
-WOW Therapies will not advertise “stress-response therapy.” A recently bereaved adult whose voice has gone is speech and manners, not a phase chart. Living person: no portrait in this wave.
-
 ## Grief arguments did not retire 1976
 
 Horowitz’s later work on grief and relational configurations expanded the 1976 book without retiring it. Grief research in the 1990s and 2000s argued about whether “complicated grief” was a disorder or a severe normal. Horowitz had already given the field a way to talk about oscillation without waiting for that argument to end. The argument still has not ended. The oscillation description still works in a progress note that never uses the word grief.
@@ -67,11 +57,13 @@ UCSF as an institution matters. West-coast academic psychiatry in the 1970s was 
 
 A 2026 student should read one chapter of *Stress Response Syndromes* before reading a tweet about triggers. The chapter is slower. It is also the reason the tweet has a vocabulary.
 
-## States of mind are a 1970s tool, not a tweet
+Horowitz’s person-schemas language was never meant to be a self-help grid. It was meant to give clinicians a way to write oscillation without pretending every terrible event shares one plot. That modesty is what later “trauma-informed” slides often remove when they need a single bullet for a grant. The 1976 book is still the antidote to the slide, if you read it as history rather than as a manual.
 
-Horowitz’s states-of-mind and person-schemas language gave clinicians a way to write oscillation — intrusion and denial, approach and avoidance — without waiting for a later grief-disorder vote. *Stress Response Syndromes* (1976) is the book that traveled into community clinics because it was readable. UCSF is the West- coast academic weather: less institute, more paperback.
+Horowitz’s states-of-mind language gave clinicians a way to write intrusion and denial, approach and avoidance, without waiting for a later grief-disorder vote. Complicated-grief arguments in the 1990s and 2000s did not retire the 1976 oscillation description. A progress note can still use the description without the word grief. Living author: public book only.
 
-Complicated-grief arguments in the 1990s and 2000s did not retire the 1976 oscillation description. A progress note can still use the description without the word grief. A 2026 student should read one chapter before reading a post about triggers. The chapter is why the post has a vocabulary. Living author: public book only.
+ISTSS later filled its journals with trials Horowitz did not run. That is ordinary field manners: a language book and a trial literature are related, not identical. Read the 1976 monograph when you want the language; read the trials when you want the methods fight — and remember this pack refuses to teach the methods here.
+
+The era essay on Vietnam and DSM-III already placed Horowitz as civilian-academic furniture. This figure essay does not repeat that committee story beat for beat. It keeps the book on the desk: phases as a 1970s tool, not a tweet-length trigger lecture. If you need one checkable sentence for a syllabus footnote, use the title and year — *Stress Response Syndromes*, 1976 — and leave the phase names in the library copy.
 
 ## Sources
 

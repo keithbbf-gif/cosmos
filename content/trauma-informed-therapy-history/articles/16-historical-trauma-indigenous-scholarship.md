@@ -16,7 +16,7 @@ citations:
   - "Brave Heart, Maria Yellow Horse, and Lemyra M. DeBruyn. The American Indian Holocaust. 1998."
   - "SAMHSA. SMA 14-4884. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

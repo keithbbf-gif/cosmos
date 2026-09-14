@@ -1,13 +1,13 @@
 # Manifest — trauma-informed care history pack
 
-Staged wave, 2026-09-14. Writer pass. `voice_check: human`. `status: staging`.
+Staged wave, 2026-09-14. Writer pass `voice_check: human`; editor pass 2026-09-14 `voice_check: edited` on all 45 articles. `status: staging`.
 
 | Kind | Count |
 | --- | --- |
 | Era / institution essays | 24 |
 | Figure essays | 21 |
 | **Articles** | **45** |
-| Ops files | 10 (`README`, `INDEX`, `MANIFEST`, `STYLE_GUIDE`, `CLAIMS_GUARDRAILS`, `BIBLIOGRAPHY`, `PORTRAIT_SOURCES`, `PHOTO_NOTES`, `WP_IMPORT`, `check_pack.py`) |
+| Ops files | 11 (`README`, `INDEX`, `MANIFEST`, `STYLE_GUIDE`, `CLAIMS_GUARDRAILS`, `BIBLIOGRAPHY`, `PORTRAIT_SOURCES`, `PHOTO_NOTES`, `WP_IMPORT`, `EDITOR_REPORT`, `check_pack.py`) |
 
 ## Complementary (do not duplicate)
 
@@ -20,6 +20,6 @@ This pack owns: railway spine; Ferenczi’s 1932 lecture as a trauma document; H
 
 ## QA
 
-Run `python3 content/trauma-informed-therapy-history/check_pack.py` from the repo root or from this folder. Exit 0 required before a human editor marks `voice_check: edited`.
+Run `python3 content/trauma-informed-therapy-history/check_pack.py` from the repo root or from this folder. Exit 0 required before staging import.
 
-Writer QA 2026-09-14: 45 articles, 0 errors, `PASS`. Floors: era/institution ≥1,200 words; figure ≥1,000. Status remains `staging` (WordPress Draft only — see `WP_IMPORT.md`). `[VERIFY]` markers stay until a human editor checks the flagged dates and paginations.
+Writer QA 2026-09-14: 45 articles, 0 errors, `PASS`. Editor QA 2026-09-14: 45 articles, `voice_check: edited`, `PASS`. Floors: era/institution ≥1,200 words; figure ≥1,000. Status remains `staging` (WordPress Draft only — see `WP_IMPORT.md`). `[VERIFY]` markers stay until Keith or a production editor checks the flagged dates and paginations.

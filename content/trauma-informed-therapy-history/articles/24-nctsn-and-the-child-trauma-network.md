@@ -16,7 +16,7 @@ citations:
   - "SAMHSA. SMA 14-4884. 2014."
   - "Felitti, Vincent J., Robert F. Anda, et al. ACE Study. 1998."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

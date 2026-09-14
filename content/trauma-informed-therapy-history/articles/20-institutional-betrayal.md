@@ -16,7 +16,7 @@ citations:
   - "Freyd, Jennifer J. Betrayal Trauma. 1996."
   - "SAMHSA. SMA 14-4884. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -32,7 +32,7 @@ Betrayal, in this literature, requires a relationship that mattered. A stranger�
 
 SAMHSA’s *resist re-traumatization* is a cousin verb. Institutional betrayal is more specific. It names the dependence and the expectation. A pamphlet can ask a staff to be kind. Freyd and Smith ask whether the institution’s *incentives* punish the reporter. Kindness trainings that leave the incentives untouched are how a campus becomes a case study.
 
-Shay’s moral injury, especially the leadership-betrayal half, rhymes from the war side. Do not merge the constructs. A platoon is not a residence hall. The rhyme is useful for a systems pack: both literatures refuse to leave the injury inside one skull.
+Shay’s moral injury, especially the leadership-betrayal half, rhymes from the war side. Harris and Fallot’s warning about programs that recreate injury is a cousin from community mental health. Do not merge the constructs. A platoon is not a residence hall. The rhyme is useful for a systems pack: both literatures refuse to leave the injury inside one skull.
 
 ## What the 2013 paper is not
 
@@ -56,16 +56,6 @@ This page will not investigate your campus. It will not help you file a Title IX
 
 Freyd is living as of last verification (2026-09-14). Public papers only. No family gossip. The figure essay repeats that rule.
 
-## Dependence, advertising, and incentives
-
-Betrayal, in this literature, requires a relationship that mattered. A stranger’s cruelty is cruelty. A university that sells safety and then buries a report is a different object. Title IX offices, campus clergy, military commands, and hospital patient-relations desks are the usual American examples. The 2013 title’s “safe haven” is ironic on purpose.
-
-SAMHSA’s *resist re-traumatization* is a cousin verb. Shay’s leadership betrayal is a cousin from war. Harris and Fallot’s warning about programs that recreate injury is a cousin from community mental health. Do not merge the constructs. Do not pretend a laminated card invented the building problem.
-
-The 2013 paper is a framework and a set of associations, not a verdict on every delayed report or every institution. The memory wars taught this field, or should have, that frameworks get looted by people who already know the ending. Later “institutional courage” branding is an afterlife. A building that prints courage and keeps the same counsel script has learned a noun.
-
-WOW Therapies will not borrow the noun to win an IEP meeting on a history URL. School fights have special-education law. They are not automatically 2013 JTS. `[VERIFY]` pagination before a print footnote. If you need to report, use the actual office or the police — and, if you can, an advocate who does not work for the building you are reporting.
-
 ## JTS 2013 is a society journal, not a campus verdict
 
 Smith and Freyd placed “Dangerous Safe Havens” in the *Journal of Traumatic Stress* — the ISTSS journal, a shop that already knew PTSD criteria. Putting institutional betrayal there asked a trauma society to look at buildings, not only at events. `[VERIFY]` pagination before a print footnote. A framework and a set of associations is not a verdict on every delayed report and not a Title IX kit.
@@ -85,6 +75,10 @@ that sells safety and then manages the reporter as the risk is the structure
 in ordinary English. This URL still will not file your complaint. It will
 not score your health from a betrayal item. It will keep 2013 dated so
 “resist re-traumatization” cannot stay a bullet without a building.
+
+Smith and Freyd’s later work on institutional courage is not a license for a poster campaign. Courage, in their public writing, is tied to changing reporting incentives — who pays the lawyer, who moves the reporter, who keeps the transcript — not to a new office name. A history URL can date that afterlife without offering a campus playbook.
+
+Title IX is one statute among many; a hospital’s patient-relations desk and a diocesan review board share dependence and advertising without sharing a form. The 2013 paper gives language for that family resemblance. It does not replace a lawyer who does not work for the building you are reporting. `[VERIFY]` pagination on the 2013 JTS article before a print footnote.
 
 ## Sources
 

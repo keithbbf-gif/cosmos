@@ -16,7 +16,7 @@ citations:
   - "Loftus, Elizabeth, and Katherine Ketcham. The Myth of Repressed Memory. 1994."
   - "McNally, Richard J. Remembering Trauma. 2003."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

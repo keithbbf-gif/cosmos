@@ -14,7 +14,7 @@ citations:
   - "Resick, Patricia A., and Monica K. Schnicke. Cognitive Processing Therapy for Rape Victims. 1993."
   - "Foa, Edna B., et al. JCCP, 1991. Neighbor trial."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

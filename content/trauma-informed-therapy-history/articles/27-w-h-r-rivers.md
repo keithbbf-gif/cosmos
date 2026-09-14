@@ -15,7 +15,7 @@ citations:
   - "Myers, Charles S. A Contribution to the Study of Shell Shock. 1915."
   - "Shephard, Ben. A War of Nerves. 2001."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

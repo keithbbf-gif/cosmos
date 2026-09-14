@@ -16,7 +16,7 @@ citations:
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "American Psychiatric Association. DSM-5-TR. 2022."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

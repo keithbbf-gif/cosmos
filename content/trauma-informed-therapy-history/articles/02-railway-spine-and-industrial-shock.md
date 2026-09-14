@@ -16,7 +16,7 @@ citations:
   - "Page, Herbert W. Injuries of the Spine and Spinal Cord without Apparent Mechanical Lesion, and Nervous Shock. 1883."
   - "Young, Allan. The Harmony of Illusions. 1995."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -14,7 +14,7 @@ citations:
   - "Summerfield, Derek. The Invention of Post-Traumatic Stress Disorder and the Social Usefulness of a Psychiatric Category. BMJ, 2001."
   - "Young, Allan. The Harmony of Illusions. 1995."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

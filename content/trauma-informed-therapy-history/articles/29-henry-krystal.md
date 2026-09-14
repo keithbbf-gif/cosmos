@@ -15,7 +15,7 @@ citations:
   - "Niederland, William G. papers on survivor syndrome — see Krystal volume context."
   - "Danieli, Yael, ed. International Handbook of Multigenerational Legacies of Trauma. 1998."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -43,16 +43,6 @@ WOW Therapies has no standing to specialize in this literature. A speech-languag
 
 No portrait in this wave. Log any later license-clear photograph. Do not generate a face. Do not use camp imagery as decoration.
 
-## Survivor clinics before the 1980 acronym
-
-Krystal’s public obituaries state the facts this pack will use: born 1925, survived the Holocaust, trained as a psychiatrist in the United States, died 2015, edited *Massive Psychic Trauma* in 1968. This essay will not reconstruct camps. It will not embroider a childhood. The 1968 volume is the checkable artifact. Niederland’s survivor-syndrome work belongs in the same mid-century room.
-
-1968 is late enough that American psychiatry had psychoanalysis and early drugs, and early enough that it did not have PTSD. Survivor clinics had to invent language the manual would not give them for another dozen years. Official names lag. “Trauma” was never only a soldier’s word, even when the soldier’s word won the 1980 chart.
-
-Alexithymia, in his later writing, became a looted slogan. This page will not teach you to spot it. A psychiatrist who had reasons to know about unspeakability tried to make unspeakability a clinical object without romance. Danieli 1998 is a later comparative door. Brave Heart 1998 is a different people and a different theory. Three rooms. Do not blob them.
-
-WOW Therapies has no standing to specialize here. An older adult whose language is changing for neurological reasons is a speech question. No camp imagery as decoration. No generated face.
-
 ## Alexithymia, Detroit, and a contents page
 
 Krystal’s later essays on affect and alexithymia (a word he helped put into psychiatric English) matter for speech-language readers more than the camp monograph alone. If a person cannot find words for feeling, the SLP room is already in the story — not as trauma treatment, but as the place where words are the job. That is a boundary, not a marketing bridge. Naming the boundary keeps WOW from claiming Krystal as a speech ancestor.
@@ -66,6 +56,10 @@ Detroit after 1968 is not a footnote. Industrial injury, racialized policing, an
 *Integration and Self-Healing* (1988) is Krystal thinking about affect, alexithymia, and what a person can feel in words after massive injury. It is not a reprint of the 1968 edited volume *Massive Psychic Trauma*. Two objects. Speech-language readers will hear the later book more sharply because words are the job. That is a boundary: WOW is not a Krystal clinic. Naming the boundary keeps the 1968 authors — physicians who were also survivors — from becoming a marketing bridge.
 
 Detroit after 1968 mixed industrial injury, racialized policing, and migration with Holocaust follow-up. He refused to keep those rooms in separate buildings. Later community psychiatrists could read him without first becoming camp historians. Keep both facts. Do not invent a session.
+
+The 1988 book *Integration and Self-Healing* is a later object, not a second 1968 volume. Speech-language readers may hear the later book because words are the job; that is a boundary, not a claim that WOW practices Krystal’s methods. Prefer the 1968 table of contents when you want the survivor-clinic moment on the calendar.
+
+Multigenerational legacies, in Danieli’s later handbook, are a different question from a single survivor’s chart. Krystal’s 1968 volume sits earlier: clinicians naming what the camps had done before PTSD existed as a code. Keep the dates in order when you cross-link the Indigenous historical-trauma essay — another people, another theory, sometimes a rhyme, never a synonym.
 
 ## Sources
 

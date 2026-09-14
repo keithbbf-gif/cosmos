@@ -15,7 +15,7 @@ citations:
   - "Shay, Jonathan. Odysseus in America. 2002."
   - "Litz, Brett T., et al. Moral Injury and Moral Repair. 2009."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

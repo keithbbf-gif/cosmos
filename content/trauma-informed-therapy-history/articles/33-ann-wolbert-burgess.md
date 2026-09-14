@@ -14,7 +14,7 @@ citations:
   - "Burgess, Ann Wolbert, and Lynda Lytle Holmstrom. Rape Trauma Syndrome. American Journal of Psychiatry, 1974."
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

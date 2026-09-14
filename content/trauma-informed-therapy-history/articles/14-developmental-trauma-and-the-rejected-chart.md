@@ -16,7 +16,7 @@ citations:
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "American Psychiatric Association. DSM-5. 2013."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -54,21 +54,17 @@ WOW Therapies evaluates speech and language. A child who cannot attend in the ch
 
 `[VERIFY]` before print: the specific 2005 *Psychiatric Annals* van der Kolk piece often cited as the proposal’s public face — title and pages — if an editor wants a footnote tighter than “mid-2000s proposal literature.”
 
-## Why a child-welfare hallway wanted a code
-
-Adult PTSD criteria, built around a soldier’s chart, do not always catch a child whose injury happened while attention, attachment, and language were still being built. The picture may look like ADHD, oppositional behavior, mood lability, or “personality” long before it looks like a flashback. NCTSN’s caseload already knew the picture. DTD was one attempt to give the caseload a name insurers and researchers could share.
-
-DSM-5’s refusal had more than one fear: overlap with other child diagnoses; a research base critics called unfinished; the sticky door of the 1990s memory wars. This draft will not invent a smoking-gun memo. The refusal is a fact. Consequences are facts. Clinics kept writing ADHD and “other specified” while talking, in the hallway, about developmental trauma. Hallway diagnoses are how fields live when the box is too small. They are also how workshops sell past the file.
-
-ICD-11’s adult complex PTSD is a cousin victory, not DTD. A seventeen-year-old in foster care is not automatically 6B41. Terr’s Type I / Type II outline (1991) is an earlier child-psychiatry attempt to split a single blow from a long horror. Do not make Terr a footnote to van der Kolk. Do not make the 2014 trade book a field trial.
-
-WOW Therapies evaluates speech and language. A child who cannot attend in the chair may have a dozen explanations. An SLP who borrows DTD language on a website is making a claims mistake. Keep the hallway in the hallway until a licensed mental-health clinician is in the room. `[VERIFY]` the specific mid-2000s *Psychiatric Annals* piece if an editor wants a tighter footnote than “proposal literature.”
+Terr’s Type I / Type II outline (1991) is an earlier child-psychiatry attempt to split a single blow from a long horror. Do not make Terr a footnote to van der Kolk. Do not make the 2014 trade book a field trial.
 
 ## Work-group paper is not a hallway veto
 
 DSM-5’s process produced work-group proposals that did not become codes. Developmental Trauma Disorder is one of those rejected charts. A hallway that keeps saying “developmental trauma” after 2013 is not proof the manual was wrong. It is proof the caseload did not shrink to fit the box. ICD-11’s later complex-PTSD code is a different cartographer’s answer, not a posthumous DSM-5 vote.
 
 This page will not give a clinician a workaround diagnosis to write in place of the rejected name. It will not tell a parent their child “has DTD.” Child-welfare language and speech-language goals remain different instruments. If a report arrives with the unofficial phrase, quote the report and write the communication goals the license allows.
+
+A speech evaluation can document attention, fluency, and pragmatic breakdown without borrowing a rejected chart. The IEP team may still argue about causation in a conference room the SLP does not control. The history point is smaller: when the manual refused DTD, the argument moved into paperwork, workshops, and parent forums — not into a single clean code an insurer would recognize overnight.
+
+Workshops that promised “developmental trauma” certification in a weekend were one afterlife of the refusal. They are not evidence that the proposal was wrong. They are evidence that a caseload without a code will pay for a name anyway. This series names that market fact and stops. It does not rank the workshops. `[VERIFY]` the mid-2000s *Psychiatric Annals* piece when a print footnote needs tighter pagination than “proposal literature.”
 
 ## Sources
 

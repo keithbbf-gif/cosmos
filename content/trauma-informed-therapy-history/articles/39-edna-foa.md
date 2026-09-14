@@ -14,7 +14,7 @@ citations:
   - "Foa, Edna B., et al. Treatment of Posttraumatic Stress Disorder in Rape Victims. JCCP, 1991."
   - "Foa, Edna B., and Barbara Olasov Rothbaum. Treating the Trauma of Rape. 1998."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

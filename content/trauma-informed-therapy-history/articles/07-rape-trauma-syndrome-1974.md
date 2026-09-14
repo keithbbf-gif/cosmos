@@ -16,7 +16,7 @@ citations:
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "Courtois, Christine A. Healing the Incest Wound. 1988."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

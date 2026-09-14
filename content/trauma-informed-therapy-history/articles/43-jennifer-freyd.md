@@ -15,7 +15,7 @@ citations:
   - "Freyd, Jennifer J. Betrayal Trauma: Traumatic Amnesia as an Adaptive Response. Ethics & Behavior, 1994."
   - "Smith, Carly Parnitzke, and Jennifer J. Freyd. Dangerous Safe Havens. 2013."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

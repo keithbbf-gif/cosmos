@@ -15,7 +15,7 @@ citations:
   - "Terr, Lenore. Too Scared to Cry. 1990."
   - "Terr, Lenore. Childhood Traumas: An Outline and Overview. American Journal of Psychiatry, 1991."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -14,7 +14,7 @@ citations:
   - "Shapiro, Francine. Eye Movement Desensitization. Journal of Behavior Therapy and Experimental Psychiatry, 1989."
   - "Shapiro, Francine. Efficacy of the Eye Movement Desensitization Procedure. Journal of Traumatic Stress, 1989."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "SAMHSA. TIP 57. 2014."
   - "Harris, Maxine, and Roger D. Fallot, eds. Using Trauma Theory to Design Service Systems. 2001."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

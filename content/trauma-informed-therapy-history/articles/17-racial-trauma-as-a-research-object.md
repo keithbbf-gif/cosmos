@@ -15,7 +15,7 @@ citations:
   - "Fanon, Frantz. The Wretched of the Earth. 1961. Historical frame only."
   - "SAMHSA. SMA 14-4884. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

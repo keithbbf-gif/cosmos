@@ -16,7 +16,7 @@ citations:
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
   - "Masson, Jeffrey Moussaieff. The Assault on Truth. 1984. Use with caution — see text."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

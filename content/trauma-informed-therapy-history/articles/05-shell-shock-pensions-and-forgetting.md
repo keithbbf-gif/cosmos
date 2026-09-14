@@ -16,7 +16,7 @@ citations:
   - "Rivers, W. H. R. The Repression of War Experience. 1918."
   - "Shephard, Ben. A War of Nerves. 2001."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "Janet, Pierre. The Mental State of Hystericals. 1901 English."
   - "Ellenberger, Henri F. The Discovery of the Unconscious. 1970."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

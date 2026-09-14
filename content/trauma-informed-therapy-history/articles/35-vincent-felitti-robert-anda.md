@@ -14,7 +14,7 @@ citations:
   - "Felitti, Vincent J., Robert F. Anda, et al. The ACE Study. American Journal of Preventive Medicine, 1998."
   - "SAMHSA. SMA 14-4884. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

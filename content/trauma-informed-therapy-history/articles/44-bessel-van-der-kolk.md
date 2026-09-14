@@ -15,7 +15,7 @@ citations:
   - "van der Kolk, Bessel A., Alexander C. McFarlane, and Lars Weisaeth, eds. Traumatic Stress. 1996."
   - "van der Kolk, Bessel A. The Body Keeps the Score. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

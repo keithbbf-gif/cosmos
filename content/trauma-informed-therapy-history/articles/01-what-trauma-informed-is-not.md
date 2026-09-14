@@ -16,7 +16,7 @@ citations:
   - "SAMHSA. Concept of Trauma and Guidance for a Trauma-Informed Approach. SMA 14-4884. 2014."
   - "SAMHSA. TIP 57. Trauma-Informed Care in Behavioral Health Services. 2014."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

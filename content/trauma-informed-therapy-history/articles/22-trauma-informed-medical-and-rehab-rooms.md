@@ -16,7 +16,7 @@ citations:
   - "Burgess, Ann Wolbert, and Lynda Lytle Holmstrom. Rape Trauma Syndrome. 1974."
   - "Harris, Maxine, and Roger D. Fallot, eds. Using Trauma Theory to Design Service Systems. 2001."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

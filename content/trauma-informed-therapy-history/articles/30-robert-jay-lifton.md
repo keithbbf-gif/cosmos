@@ -15,7 +15,7 @@ citations:
   - "Lifton, Robert Jay. Home from the War. 1973."
   - "American Psychiatric Association. DSM-III. 1980."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

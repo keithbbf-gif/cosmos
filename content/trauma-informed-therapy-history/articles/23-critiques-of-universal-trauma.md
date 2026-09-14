@@ -16,7 +16,7 @@ citations:
   - "Summerfield, Derek. The Invention of Post-Traumatic Stress Disorder. BMJ, 2001."
   - "Shephard, Ben. A War of Nerves. 2001."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -14,7 +14,7 @@ citations:
   - "Erichsen, John Eric. On Railway and Other Injuries of the Nervous System. 1866."
   - "Page, Herbert W. Injuries of the Spine and Spinal Cord. 1883."
 status: staging
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
