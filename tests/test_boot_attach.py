@@ -51,6 +51,7 @@ FAKES = {
     "firecrawl-web": _fake("firecrawl-web", "firecrawl/v2-research-papers"),
     "playwright-dom": _fake("playwright-dom",
                             "Playwright/1.63.0-alpha-2026-08-05"),
+    "groq-api": _fake("groq-api", "openai/gpt-oss-20b"),
     "github-forge": _fake("github-forge", "rest_limit=5000 remaining=4999"),
     "gitlab-forge": _fake("gitlab-forge", "user_id=42 username=probe-user"),
 }
@@ -118,6 +119,9 @@ def main() -> int:
         check("boot with injected live_calls is READY",
               lambda: k.ready is True)
         check("Dispatcher composed", lambda: k.dispatcher is not None)
+        check("cursor-api composed at boot (adapter row; probe is separate)",
+              lambda: "cursor-api" in k.adapters
+              and "cursor-api" in (rec.get("composed") or []))
         check("projection schema is the registry authority (not a dump)",
               lambda: d.get("schema") == "cosmos-registry/1"
               and rails == d
@@ -137,6 +141,7 @@ def main() -> int:
               and by_id["firecrawl-web"]["model"] == "firecrawl/v2-research-papers"
               and by_id["playwright-dom"]["model"]
               == "Playwright/1.63.0-alpha-2026-08-05"
+              and by_id["groq-api"]["model"] == "openai/gpt-oss-20b"
               and by_id["github-forge"]["model"]
               == "rest_limit=5000 remaining=4999"
               and by_id["gitlab-forge"]["model"]
@@ -165,6 +170,7 @@ def main() -> int:
                                    body=""),
             "playwright-dom": _fake("playwright-dom", "", ok=False, rc=2,
                                     body=""),
+            "groq-api": _fake("groq-api", "", ok=False, rc=2, body=""),
             "github-forge": _fake("github-forge", "", ok=False, rc=2, body=""),
             "gitlab-forge": _fake("gitlab-forge", "", ok=False, rc=2, body=""),
         }

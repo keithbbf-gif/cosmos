@@ -65,7 +65,7 @@ SOURCES = (
      "file": "groq_api_key.txt", "env": "GROQ_API_KEY",
      "link_id": "groq-api", "docs": "https://console.groq.com/keys"},
     {"id": "cursor", "label": "Cursor", "kind": "API",
-     "file": "cursor_api_key.txt", "env": "CURSOR_API_KEY",
+     "file": "cursor_cosmos_key.txt", "env": "CURSOR_API_KEY",
      "link_id": "cursor-api",
      "docs": "https://cursor.com/help/models-and-usage/api-keys",
      "cookbook": CURSOR_COOKBOOK},

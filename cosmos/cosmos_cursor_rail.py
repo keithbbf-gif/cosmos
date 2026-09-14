@@ -11,12 +11,12 @@ NOT a BTS wrap. Keith 2026-08-25: COSMOS uses its own clocks/keys; it does not
 wrap the legacy Cursor module. Key path is the runtime-root role
 `config/cursor_cosmos_key.txt` (never the git tree, never hard-coded, never printed in full).
 
-Does NOT modify COSMOS core (kernel/ledger/sched/service). Kernel.__init__
-still does not call register_node_rails (BACKLOG). attach_to_kernel() refuses
-to append LINK_REGISTERED to the authority ledger until Kernel boot reattaches
-probes every boot (H4). The coding route is core->code, never a model peer
-(H3). --gate PASS binds apiKeyName=="Cursor COSMOS 2" (H1). --launch is a
-separate verb from --gate (H2).
+Does NOT modify COSMOS sched/service. Kernel.compose_rails() attaches this
+rail at boot (compose row only; no vendor call until prove/dispatch). Standalone
+attach_to_kernel() refuses authority LINK_REGISTERED unless boot_compose=True
+(H4). The coding route is core->code, never a model peer (H3). --gate PASS
+binds apiKeyName=="Cursor COSMOS 2" (H1). --launch is a separate verb from
+--gate (H2); spawner is POST /v1/agents (+ poll), not GET /v1/me.
 
     from cosmos_cursor_rail import CursorRail, register_cursor_rail
     register_cursor_rail(registry, adapters, spend_gate, paths=kernel.paths)
