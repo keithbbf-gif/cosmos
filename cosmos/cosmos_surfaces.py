@@ -27,12 +27,19 @@ SCARS THIS CLOSES:
 """
 from __future__ import annotations
 
+import json
 import shutil
 import time
 from pathlib import Path
 from typing import Callable, Optional
 
 from cosmos_ledger import Ledger
+
+# Five canon storage names on GET /api/v1/surfaces (cDeck Surfaces pane).
+CANON_STORAGE_IDS = ("ROLD", "ITC", "GDX", "ODX", "TB1")
+STORAGE_SURFACES_CONFIG = "storage_surfaces.json"
+BACKUP_TARGETS_CONFIG = "backup_targets.json"
+TB1_NOMINAL_BYTES = 30_000_000_000  # TeraBox 30GB plan — capacity claim, not a live probe
 
 # A surface's PHYSICAL/reach class - where the bytes actually live and whether reaching
 # them leaves this machine. LOCAL never leaves; LAN/CLOUD do; PUBLISH is a read mirror.
@@ -248,12 +255,180 @@ def local_disk_probe(path: str) -> Probe:
     return _probe
 
 
+def _read_json_object(path: Path) -> dict | None:
+    if not path.is_file():
+        return None
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError, json.JSONDecodeError):
+        return None
+    return doc if isinstance(doc, dict) else None
+
+
+def _backup_target_dest(root: Path, kind: str) -> str | None:
+    """GDX/ODX dest from backup_targets.json when the operator named one."""
+    doc = _read_json_object(root / "config" / BACKUP_TARGETS_CONFIG)
+    if not doc:
+        return None
+    targets = doc.get("targets")
+    if not isinstance(targets, dict):
+        return None
+    row = targets.get(kind.lower())
+    if not isinstance(row, dict):
+        return None
+    dest = str(row.get("dest") or "").strip()
+    return dest or None
+
+
+def publish_url_probe(url: str) -> Probe:
+    """HEAD/GET reachability for a PUBLISH mirror — no invented success on DNS alone."""
+
+    def _probe():
+        import urllib.error
+        import urllib.request
+
+        u = str(url or "").strip()
+        if not u:
+            return False, None, "empty publish URL"
+        req = urllib.request.Request(u, method="HEAD")
+        try:
+            with urllib.request.urlopen(req, timeout=12) as resp:  # noqa: S310
+                ok = 200 <= int(resp.status) < 400
+                return ok, None, f"HEAD {resp.status} {u}"
+        except urllib.error.HTTPError as e:
+            if e.code in (405, 501):
+                try:
+                    with urllib.request.urlopen(u, timeout=12) as resp:  # noqa: S310
+                        ok = 200 <= int(resp.status) < 400
+                        return ok, None, f"GET {resp.status} {u}"
+                except Exception as e2:  # noqa: BLE001
+                    return False, None, f"GET failed {u}: {type(e2).__name__}"
+            return False, None, f"HEAD {e.code} {u}"
+        except Exception as e:  # noqa: BLE001
+            return False, None, f"unreachable {u}: {type(e).__name__}"
+
+    return _probe
+
+
+def tb1_terabox_probe(root: Path, evidence_rel: str,
+                      read_evidence_rel: str | None = None) -> Probe:
+    """TeraBox 30GB (TB1). CoW write evidence may exist; READ stays unproven until filed.
+
+    Does not call vendor DOM/API routes — only reads operator-supplied evidence under
+    the runtime root. reachable=False with an explicit detail when write is proven
+    but read is not; reachable=None only when measure() has not run.
+    """
+
+    def _probe():
+        ev = (root / evidence_rel).resolve()
+        try:
+            ev.relative_to(root.resolve())
+        except ValueError:
+            return False, None, "TB1 evidence path escapes runtime root"
+        if not ev.is_file():
+            return False, None, "TB1: CoW write not proven on this host"
+        free_bytes: int | None = TB1_NOMINAL_BYTES
+        detail_extra = ""
+        try:
+            doc = json.loads(ev.read_text(encoding="utf-8"))
+            if isinstance(doc, dict):
+                if doc.get("free_bytes") is not None:
+                    free_bytes = int(doc["free_bytes"])
+                elif doc.get("free_gb") is not None:
+                    free_bytes = int(float(doc["free_gb"]) * 1e9)
+                detail_extra = str(doc.get("detail") or "").strip()
+        except (OSError, ValueError, TypeError):
+            pass
+        read_path = None
+        if read_evidence_rel:
+            read_path = (root / read_evidence_rel).resolve()
+            try:
+                read_path.relative_to(root.resolve())
+            except ValueError:
+                read_path = None
+        if read_path and read_path.is_file():
+            try:
+                rd = json.loads(read_path.read_text(encoding="utf-8"))
+                if isinstance(rd, dict) and rd.get("read_proven") is True:
+                    fb = free_bytes
+                    if rd.get("free_bytes") is not None:
+                        fb = int(rd["free_bytes"])
+                    return True, fb, (
+                        detail_extra or "TB1 — TeraBox 30GB; CoW write and READ proven"
+                    )[:300]
+            except (OSError, ValueError, TypeError):
+                pass
+        msg = "TB1 — TeraBox 30GB; CoW write proven, READ unproven"
+        if detail_extra:
+            msg = f"{msg} ({detail_extra})"[:300]
+        return False, free_bytes, msg
+
+    return _probe
+
+
+def _probe_for_spec(root: Path, sid: str, spec: dict) -> Probe | None:
+    probe_kind = str(spec.get("probe") or "").strip().lower()
+    path_or_url = str(spec.get("path_or_url") or "").strip()
+    if probe_kind in ("", "local", "local_disk"):
+        if not path_or_url:
+            path_or_url = _backup_target_dest(root, sid) or ""
+        if not path_or_url:
+            return None
+        return local_disk_probe(path_or_url)
+    if probe_kind == "publish":
+        if not path_or_url:
+            return None
+        return publish_url_probe(path_or_url)
+    if probe_kind == "tb1":
+        ev = str(spec.get("cow_write_evidence") or "state/tb1_cow_write.json").strip()
+        rev = spec.get("read_evidence")
+        read_rel = str(rev).strip() if rev else "state/tb1_read_proven.json"
+        return tb1_terabox_probe(root, ev, read_evidence_rel=read_rel)
+    return None
+
+
+def seed_canon_storage_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
+    """Register five canon rows from config/storage_surfaces.json when the operator filed it.
+
+    Absent config → no canon rows (hermetic tests stay cosmos-live only). Never invents
+    V:\\ / X:\\ paths. TB1 uses evidence files, not invented TeraBox reachability.
+    """
+    root_p = Path(root)
+    cfg = _read_json_object(root_p / "config" / STORAGE_SURFACES_CONFIG)
+    if not cfg:
+        return []
+    surfaces = cfg.get("surfaces")
+    if not isinstance(surfaces, dict):
+        return []
+    seeded: list[str] = []
+    for sid in CANON_STORAGE_IDS:
+        spec = surfaces.get(sid)
+        if not isinstance(spec, dict):
+            continue
+        kind = str(spec.get("kind") or "").strip().upper()
+        role = str(spec.get("role") or "").strip().upper()
+        path_or_url = str(spec.get("path_or_url") or "").strip()
+        if not path_or_url and sid in ("GDX", "ODX"):
+            path_or_url = _backup_target_dest(root_p, sid) or ""
+        if not kind or not role:
+            continue
+        if sid not in sf.state():
+            sf.register(sid, kind, path_or_url or f"config:{sid}", role)
+        probe = _probe_for_spec(root_p, sid, spec)
+        if probe is not None:
+            sf.attach_probe(sid, probe)
+            if sf.state().get(sid, {}).get("measurement") is None:
+                sf.measure(sid)
+        seeded.append(sid)
+    return seeded
+
+
 def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
     """Idempotent: register + probe + measure the COSMOS runtime root.
 
     One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
-    catalog on a writing boot. Extra volumes are claims the operator
-    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+    catalog on a writing boot. Canon storage (ROLD/ITC/GDX/ODX/TB1) loads
+    only from config/storage_surfaces.json — never invented in tests.
     """
     sid = "cosmos-live"
     root_s = str(Path(root))
@@ -262,4 +437,6 @@ def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
     sf.attach_probe(sid, local_disk_probe(root_s))
     if sf.state().get(sid, {}).get("measurement") is None:
         sf.measure(sid)
-    return [sid]
+    out = [sid]
+    out.extend(seed_canon_storage_surfaces(sf, root))
+    return out

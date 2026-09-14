@@ -164,6 +164,61 @@ def main() -> int:
     check("GET /surfaces on an uncomposed kernel -> 503 (not an empty catalog)",
           lambda: code == 503 and body.get("error") == "SURFACES_NOT_COMPOSED")
 
+    # ---- TB1 canon row (config-file gated; CoW write proven, READ unproven) ----
+    tb_root = install(td / "tb1-live", tree_id="surf-tb1")
+    cfg_dir = tb_root / "config"
+    cfg_dir.mkdir(parents=True, exist_ok=True)
+    st_dir = tb_root / "state"
+    st_dir.mkdir(parents=True, exist_ok=True)
+    (st_dir / "tb1_cow_write.json").write_text(
+        json.dumps({"free_gb": 30, "detail": "CoW fence write receipt"}),
+        encoding="utf-8",
+    )
+    (cfg_dir / "storage_surfaces.json").write_text(
+        json.dumps({
+            "schema": "cosmos-storage-surfaces/1",
+            "surfaces": {
+                "TB1": {
+                    "kind": "CLOUD",
+                    "role": "BACKUP",
+                    "path_or_url": "terabox://30gb",
+                    "probe": "tb1",
+                    "cow_write_evidence": "state/tb1_cow_write.json",
+                },
+            },
+        }),
+        encoding="utf-8",
+    )
+    k_tb = Kernel(tb_root, worker="core")
+    tb_rep = {r["id"]: r for r in k_tb.surfaces.report()}
+    check("TB1 seeds from storage_surfaces.json with id TB1",
+          lambda: "TB1" in tb_rep)
+    check("TB1 reachable is measured False when READ unproven (not invented True)",
+          lambda: tb_rep["TB1"]["reachable"] is False)
+    check("TB1 detail states CoW write proven, READ unproven",
+          lambda: "CoW write proven" in (tb_rep["TB1"].get("detail") or "")
+          and "READ unproven" in (tb_rep["TB1"].get("detail") or ""))
+    check("TB1 free_gb is not 0 when capacity is known (UNMEASURED never 0)",
+          lambda: tb_rep["TB1"]["free_gb"] not in (0, 0.0))
+    svc_tb = Service(k_tb, host="127.0.0.1", port=0)
+    svc_tb.serve_background()
+    base_tb = f"http://127.0.0.1:{svc_tb.port}"
+
+    def get_tb(path, tok=None):
+        req = urllib.request.Request(base_tb + path)
+        if tok:
+            req.add_header("Authorization", "Bearer " + tok)
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                return resp.status, json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            return e.code, json.loads(e.read().decode("utf-8"))
+
+    code_tb, body_tb = get_tb("/api/v1/surfaces")
+    by_tb = {s["id"]: s for s in body_tb.get("surfaces") or []}
+    check("GET /surfaces exposes TB1 row for cDeck canon map",
+          lambda: code_tb == 200 and by_tb.get("TB1", {}).get("reachable") is False)
+
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
         print("  %s  %s%s" % ("OK  " if ok else "FAIL", label, ("  [" + err + "]") if err else ""))

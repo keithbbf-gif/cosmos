@@ -1,0 +1,49 @@
+/* cDeck viewport split — header.css
+   .deck-stage is the TAB scrollport (overflow-y:scroll, 14px gutter).
+   #cdeck-cockpit is a two-column grid: tab shell left, MESH right.
+   height:100vh on both the cockpit and the extra-pane shell clips each
+   column to the viewport so MESH and extra panes do NOT share one
+   unbounded scroll area. */
+
+/* ---- cockpit: two-column viewport grid --------------------------------- */
+#cdeck-cockpit {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ---- extra-pane shell (#cdeck-more) — left column --------------------- */
+/* height:100vh is the vh floor that clips the tab rail so the lowest tab
+   stays reachable via scroll, not by expanding past the viewport. */
+#cdeck-more {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  border-right: 1px solid #2a3542;
+}
+
+/* ---- left tab rail — scrolls independently inside the shell ----------- */
+.tab-rail {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* ---- main canvas — MESH scrollport ------------------------------------ */
+.deck-stage {
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 0 14px;
+}
+
+/* ---- compact header --------------------------------------------------- */
+.deck-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-bottom: 1px solid #2a3542;
+  flex-shrink: 0;
+}

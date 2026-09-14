@@ -23,6 +23,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SCHEMA = "cosmos-surfaces-kit/1"
 CHANNEL_TYPES = ("API", "CLI", "DOM", "MCP", "CHAT")
+
+
+class SurfacesKitError(RuntimeError):
+    """kind in {SURFACES_NOT_COMPOSED, UNKNOWN_SURFACE, BAD_REQUEST}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        super().__init__(f"[{kind}] {detail}")
 ROLD_ROOT = Path(r"V:\Ai\ROLD")
 ROLD_FILES = ("GLOSSARY.md", "RULES.md", "SCARS.md")
 SCARS_FILE = ROLD_ROOT / "SCARS.md"
@@ -230,6 +238,30 @@ def _contracts(kernel) -> dict:
         return {"kind": "OK", "rows": rows if isinstance(rows, list) else []}
     except Exception as e:  # noqa: BLE001
         return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200], "rows": []}
+
+
+def save_surface(paths, body: dict, kernel=None) -> dict:
+    """POST /api/v1/surfaces — re-run probe(s). Does not invent reachability."""
+    if kernel is None or getattr(kernel, "surfaces", None) is None:
+        raise SurfacesKitError(
+            "SURFACES_NOT_COMPOSED",
+            "kernel has no surfaces map — composition fault, not an empty catalog",
+        )
+    sf = kernel.surfaces
+    if not isinstance(body, dict):
+        raise SurfacesKitError("BAD_REQUEST", "body must be a JSON object")
+    sid = body.get("surface_id") or body.get("id")
+    measured = []
+    if sid:
+        sid_u = str(sid).strip().upper()
+        if sid_u not in sf.state():
+            raise SurfacesKitError("UNKNOWN_SURFACE", sid_u)
+        measured.append(sf.measure(sid_u))
+    else:
+        for row_id in sorted(sf.state()):
+            if row_id in sf._probes:  # noqa: SLF001 — POST remeasure is operator-triggered
+                measured.append(sf.measure(row_id))
+    return {"measured": measured, "surfaces": sf.report()}
 
 
 def snapshot(kernel) -> dict:

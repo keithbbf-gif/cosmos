@@ -1,0 +1,48 @@
+{
+  "_readme": [
+    "TEMPLATE for <runtime root>/config/storage_surfaces.json",
+    "Cosmos Core reads this on writing boot to register the five canon storage",
+    "surfaces (ROLD ITC GDX ODX TB1). Copy to the config role and fill paths",
+    "Keith chooses. Absent file → only cosmos-live is seeded (tests stay hermetic).",
+    "",
+    "TB1 — TeraBox 30GB: file state/tb1_cow_write.json proves CoW write; READ stays",
+    "unproven until state/tb1_read_proven.json carries read_proven:true.",
+    "Core does not invent terabox.com routes or DOM probes here."
+  ],
+  "schema": "cosmos-storage-surfaces/1",
+  "surfaces": {
+    "ROLD": {
+      "kind": "LOCAL",
+      "role": "ARCHIVE",
+      "path_or_url": "",
+      "probe": "local"
+    },
+    "ITC": {
+      "kind": "PUBLISH",
+      "role": "PUBLISH",
+      "path_or_url": "https://ai.dchambers.com",
+      "probe": "publish"
+    },
+    "GDX": {
+      "kind": "CLOUD",
+      "role": "BACKUP",
+      "path_or_url": "",
+      "probe": "local",
+      "_note": "empty path_or_url falls back to backup_targets.json targets.gdx.dest"
+    },
+    "ODX": {
+      "kind": "CLOUD",
+      "role": "BACKUP",
+      "path_or_url": "",
+      "probe": "local"
+    },
+    "TB1": {
+      "kind": "CLOUD",
+      "role": "BACKUP",
+      "path_or_url": "terabox://30gb",
+      "probe": "tb1",
+      "cow_write_evidence": "state/tb1_cow_write.json",
+      "read_evidence": "state/tb1_read_proven.json"
+    }
+  }
+}
