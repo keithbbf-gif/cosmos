@@ -1,42 +1,67 @@
 ---
 title: "Age of Exploration and botanical transfer"
 slug: age-of-exploration-botany
-meta_description: "Historical essay shell: Age of Exploration and botanical transfer. Educational only."
+meta_description: "Iberian and later Dutch and English ships moved plants as cargo and as intelligence. Gardens in Lisbon, Leiden, and London were warehouses with paths."
 tags:
   - exploration
   - botany
+  - empire
 era_focus: 16th c.
 figures:
   - ../assets/age-of-exploration-botany/milestones-timeline.svg
   - ../assets/age-of-exploration-botany/trade-route-schematic.svg
-citations: []
+citations:
+  - "Garcia de Orta, Colóquios (1563); Nicolás Monardes, Historia medicinal (Seville, 1565–74)."
+  - "Londa Schiebinger, Plants and Empire (Harvard, 2004)."
+  - "Richard Drayton, Nature's Government (Yale, 2000)."
 status: draft
-voice_check: pending-grok
+voice_check: human
 graphics_agent: v1
 ---
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-Editorial shell **#17** in the herbal-medicine history pack. Grok writer replaces stub paragraphs with sourced prose.
+"Age of Exploration" is a European filing for a century when Iberian ships made other people's gardens into European problems. The plants were already known to the people who grew them. What changed in the 1500s was who could move a living specimen, who printed the name, and who taxed the dried bark.
+
+Orta in Goa (1563) and Monardes in Seville (1565–74) are the two printed mouths of that change: one arguing from an Indian bazaar, one advertising New World goods to a Spanish public. Clusius rearranged both for a northern Latin public. Rearrangement is a kind of shipping.
 
 ## Routes and ports in the record
 
 <!-- graphics-pack:v1 -->
 
-![Illustrative schematic of ports and overland legs for Age of Exploration and botanical transfer.](../assets/age-of-exploration-botany/trade-route-schematic.svg)
+![Illustrative trade schematic for Age of Exploration and botanical transfer.](../assets/age-of-exploration-botany/trade-route-schematic.svg)
 
 *Figure 1. Illustrative trade schematic for “Age of Exploration and botanical transfer” — simplified geography, not navigation or modern routing.*
 
+Lisbon, Seville, Antwerp, Amsterdam, London: the European nodes. Goa, Melaka, Manila, Veracruz, Cartagena: the other nodes. Figure 1 will look like a triumph. Caption it as a set of armed routes. Schiebinger's *Plants and Empire* keeps asking who taught the plant and which knowledge (the abortifacient peacock flower is her famous case) did not transfer because the empire did not want it to. Non-transfer is part of extraction.
 
-Draft shell for the Grok writer pass. Replace this paragraph with sourced narrative, primary citations, and `[VERIFY]` tags where print-ready dates are required.
+The peacock flower is *Caesalpinia pulcherrima*. Name it. Enslaved and Indigenous women held the abortifacient use; European printed herbals often declined to carry it. That refusal is a historical event sitting inside the same ports the schematic treats as arrows.
+
+Padua's 1545 *orto*, Leiden's garden, the later Chelsea Physic Garden (1673) and Kew: living catalogs for students and for states. A labeled bed is a check on a merchant's sack. It is also a trophy case.
 
 ## What changed when the cargo landed
 
 <!-- graphics-pack:v1 -->
 
-![Timeline of selected milestones for Age of Exploration and botanical transfer.](../assets/age-of-exploration-botany/milestones-timeline.svg)
+![Milestones timeline for Age of Exploration and botanical transfer.](../assets/age-of-exploration-botany/milestones-timeline.svg)
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
+A New World plant in a Seville shop gained a Galenic temperament it had never needed in Nahuatl. An Asian plant in a Lisbon shop gained a Latin synonym war. The cargo did not change. The sentence did. That is the whole event.
 
-Draft shell for the Grok writer pass. Replace this paragraph with sourced narrative, primary citations, and `[VERIFY]` tags where print-ready dates are required.
+Figure 2: 1492 as a political date (not a botanical one), 1563 Orta, 1570s Hernández in Mexico, Dutch VOC gardens, the first printed New World herbals. `[VERIFY]` Hernández expedition years. Do not add an efficacy column. The historical remainder is a ledger: who collected, who printed, who was paid, who was not named. Vinca and cinchona later in this pack are the same remainder with different centuries.
+
+## After the Wardian case
+
+The glazed case that later made seedlings survivable on a wet deck is a nineteenth-century machine sitting just outside this 16th-century file. Mention it as a sequel, not as a 1500s fact. Sixteenth-century transfer was seed, slip, and dried sack, plus a lot of death in the hold.
+
+Monardes sold the New World to a Spanish reader who wanted a course for the pox. Orta sold an Indian bazaar to a Portuguese reader who still believed Pliny. Both sales were books. Both books moved because ships moved. Schiebinger's non-transfer — the knowledge that stayed in the colony — is the caption Figure 1 cannot draw. Draw it in prose. A garden with paths is still a warehouse.
+
+<!-- prose-expand:v1 17-age-of-exploration-botany.md -->
+## Recchi's abridgment and a flower that stayed
+
+Philip II sent Francisco Hernández to New Spain in 1570. He returned in 1577 with a mountain of notes and paintings. Nardo Antonio Recchi abridged them; the Accademia dei Lincei finally printed a mutilated *Rerum medicarum Novae Hispaniae thesaurus* in Rome in 1651. Seventy-four years from expedition to a Latin book that still was not Hernández entire. Indigenous painters and informants sit in that delay as labor the title page does not pay.
+
+Londa Schiebinger's peacock flower (*Caesalpinia pulcherrima*) is the named non-transfer: abortifacient knowledge that enslaved and Indigenous women held and that European printed herbals often declined to carry. Draw that in prose. Figure 1 cannot. Garcia de Orta died in Goa in 1568; in 1580 the Inquisition burned his bones. Clusius's Latin *Aromatum* kept the book alive in the north. John Tradescant the Elder hauled living curiosities toward London for Buckingham and then for Charles. A labeled bed is a check on a sack. It is also a trophy.
+
+Cornut's *Canadensium plantarum* (1635) is an early Paris attempt to file northeastern American plants. It is not a Huron herbal. Caption it as a European book. Vinca and cinchona later in this pack inherit the same remainder: who collected, who printed, who was paid, who was not named.

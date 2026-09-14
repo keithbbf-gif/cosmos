@@ -1,42 +1,64 @@
 ---
 title: "British and European pharmacopoeia lineages"
 slug: british-european-pharmacopoeias
-meta_description: "Historical essay shell: British and European pharmacopoeia lineages. Educational only."
+meta_description: "London 1618, the British Pharmacopoeia of 1864, and the European Pharmacopoeia are three scales of the same habit: make a name behave across a territory."
 tags:
   - bp
   - ph-eur
+  - london
 era_focus: 1864–2024
 figures:
   - ../assets/british-european-pharmacopoeias/edition-timeline.svg
   - ../assets/british-european-pharmacopoeias/comparative-plate.svg
-citations: []
+citations:
+  - "London Pharmacopoeia (1618 first); Edinburgh Pharmacopoeia (1699); British Pharmacopoeia (1864 first national)."
+  - "Medical Act 1858 (GMC); Medicines Act 1968; Convention on the Elaboration of a European Pharmacopoeia (22 July 1964); EDQM as publisher."
 status: draft
-voice_check: pending-grok
+voice_check: human
 graphics_agent: v1
 ---
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-Editorial shell **#31** in the herbal-medicine history pack. Grok writer replaces stub paragraphs with sourced prose.
+The 1618 *London Pharmacopoeia* was a College of Physicians' attempt to discipline apothecaries in one city. The 1864 *British Pharmacopoeia* was a kingdom's attempt to stop England, Scotland, and Ireland from meaning three things by the same tincture. The *European Pharmacopoeia*, a Council of Europe project with EDQM as publisher, is a later attempt to make a name behave across member states. Three scales. One habit.
+
+The file starts at 1864 because that is when Britain got a national book. The habit is older. Valerius Cordus's Nuremberg *Dispensatorium* (1546, posthumous) and the *Ricettario Fiorentino* (1498) are the continental ancestors.
 
 ## How the monograph is organized
 
 <!-- graphics-pack:v1 -->
 
-![Line plate comparing four pharmacopeia entries as stylized botanical diagrams.](../assets/british-european-pharmacopoeias/comparative-plate.svg)
+![Comparative plate for reading monographs.](../assets/british-european-pharmacopoeias/comparative-plate.svg)
 
 *Figure 1. Comparative plate for reading monographs — line art only, not herbarium IDs.*
 
+A BP herbal monograph and a Ph. Eur. herbal monograph are cousins: definition, identification, tests, sometimes a chromatographic fingerprint that later centuries would have called a smell. Figure 1 is line art for reading, not for picking a hedge. The British book long carried imperial crude drugs — cinchona, nux vomica, senna — because the empire's ships did. That is a political fact inside a technical page.
 
-Draft shell for the Grok writer pass. Replace this paragraph with sourced narrative, primary citations, and `[VERIFY]` tags where print-ready dates are required.
+A living herbal-drug monograph will ask for macroscopic look, microscopic cells, and a chromatographic fingerprint that would have been a smell in 1864. Those nouns are quality nouns. They are not a traditional-use dossier and not a WHO review. If a caption says "how to identify in the field," rewrite it. Identification without a voucher is how this pack's soft plant-IDs got soft.
 
 ## Edition-to-edition shifts worth tracking
 
 <!-- graphics-pack:v1 -->
 
-![Timeline of pharmacopeia edition milestones for British and European pharmacopoeia lineages.](../assets/british-european-pharmacopoeias/edition-timeline.svg)
+![Edition and harmonization beats for British and European pharmacopoeia lineages.](../assets/british-european-pharmacopoeias/edition-timeline.svg)
 
 *Figure 2. Edition and harmonization beats — verify against official publishers.*
 
+1864 BP; later editions dropping and adding botanicals; 1964 Ph. Eur. first edition neighborhood — `[VERIFY]` the first volume year against EDQM; harmonization with USP and JP as a late-century project. Figure 2's 2024 is a living end. Official publishers, not a blog, are the check.
 
-Draft shell for the Grok writer pass. Replace this paragraph with sourced narrative, primary citations, and `[VERIFY]` tags where print-ready dates are required.
+The EU's Traditional Herbal Medicinal Products Directive (2004/24/EC, later essay) is a different box: a medicine registration path that uses traditional use as a door. A Ph. Eur. monograph can sit under that door without being a WHO endorsement or a DSHEA label. Three boxes, one plant, three burdens. This series exists to keep the burdens from stealing each other's verbs.
+
+## After Westminster and Strasbourg
+
+The 1618 London book was a city fight between physicians and apothecaries. The 1864 BP was a kingdom tired of three dialects. Ph. Eur. is a continent tired of border names. Each scale leaves someone out: a folk name, a colonial synonym, a plant the ships no longer bring.
+
+Harmonization with USP and JP is a late bureaucratic peace. It does not make a herbal a supplement or a traditional-use medicine. Those are other doors (DSHEA; 2004/24/EC). Figure 1 is for reading a page, not a hedge. If a caption says "how to identify," rewrite it to "how a monograph is arranged." Identification without a voucher is how this pack's soft plant-IDs got soft. Stay arranged. Stay official. Stay dull enough to be true.
+
+<!-- prose-expand:v1 31-british-european-pharmacopoeias.md -->
+## Charters, commissions, and a convention
+
+The Society of Apothecaries took its London charter in 1617. The *Pharmacopoeia Londinensis* of 1618 is the next year's stick: a College book aimed at a new company. Edinburgh issued its own pharmacopoeia in 1699; Dublin's official book is a nineteenth-century object (1807 is the usual first — `[VERIFY]` against a library catalog before a caption). Three cities, three fluids, one Latin name. That is why 1864 exists.
+
+The Medical Act 1858 created the General Medical Council. The first *British Pharmacopoeia* (1864) is the Council's language. Later editions — 1867, 1885, 1898, 1914, 1932 are the ones historians keep listing — dropped and added crude drugs as the empire's ships and then the synthetic bench changed what a shop needed. `[VERIFY]` any single edition's botanical list against the BP Commission's own history. The Medicines Act 1968 later made the BP a statutory yardstick for official UK medicines.
+
+The Convention on the Elaboration of a European Pharmacopoeia opened on 22 July 1964. Volume-one print years wander in secondary lists; EDQM is the check, not a blog. After Brexit the United Kingdom remained a Ph. Eur. party and the BP still carries European texts plus national remainders. A 2020s London herbal-drug page can therefore be a Strasbourg sentence in a British binding. That is implementation, not romance.
