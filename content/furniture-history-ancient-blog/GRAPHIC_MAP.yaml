@@ -1,0 +1,36 @@
+# Prose essay stem (NN-slug without .md) → graphics asset slug(s) from PR #236.
+# One slug = four schematic figures (timeline, map, typology, plate). Second slug only when the essay explicitly spans two graphics topics.
+
+03-hetepheres-old-kingdom:
+  - egyptian-bed-frames
+04-hatnefer-new-kingdom:
+  - egyptian-folding-stool
+05-mesopotamia-ivory-houses:
+  - levantine-ivory-inlays
+06-nimrud-sw7-ivories:
+  - assyrian-relief-seating
+07-achaemenid-thrones:
+  - achaemenid-furniture-trade
+08-greek-klismos:
+  - greek-chair-types
+09-etruscan-couches:
+  - etruscan-funeral-couches
+10-herculaneum-wood:
+  - herculaneum-carbonized-wood
+11-roman-provinces:
+  - roman-triclinium-dining
+12-late-antique-byzantine:
+  - byzantine-throne-symbolism
+17-islamic-courts-east:
+  - islamic-early-seating
+18-china-before-ming:
+  - han-dynasty-low-platforms
+20-japan-tatami-tansu:
+  - japanese-floor-sitting
+21-joseon-korea:
+  - korean-on-demand-platforms
+22-south-asia-seats:
+  - vedic-india-low-seating
+41-joinery-timber-trade:
+  - joinery-before-nails
+  - woodworking-tools-ancient
