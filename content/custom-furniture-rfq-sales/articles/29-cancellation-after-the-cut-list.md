@@ -25,6 +25,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-change-order-clock.svg" alt="Timeline showing revision cutoff before the cut list" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Cancellation after the cut list hits material already owned — the clock diagram marks where remake cost begins. Original schematic (CC0).</figcaption>
+</figure>
+
 The cut list was on the door, yellowed by glue-pot heat, her name in the corner. She called to cancel. The boards were already her length. That is not a restocking fee on a boxed chair. That is a pile of oak that wants a dining room that no longer wants it.
 
 Cancellation is timed. Before a substantial beginning, a shop can often unwind: return a deposit minus a quoted design fee, or return all of it if the ack says so. After a substantial beginning — manufacture or procurement commitments, before notice of repudiation — UCC § 2-201(3)(a) is the neighborhood people mean when they say "custom is different." The goods may not be suitable for sale to others in the ordinary course. The shop may have a price action in ugly cases (UCC § 2-709). This page will not decide your case. It will say: do not cancel like you canceled a SKU.

@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-out-of-square-room.svg" alt="Room plan polygon with unequal corners labeled as not square" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Rooms that are not square need corners on the drawing, not a perfect CAD rectangle. Original schematic (CC0).</figcaption>
+</figure>
+
 The 3-4-5 triangle on the floor showed it before the case did: 3 feet, 4 feet, and the hypotenuse that was not 5. The corner was 91 and change. A sideboard built as a rectangle would have left a wedge of shadow along the wall that every guest would call a gap.
 
 Old rooms are not square. New rooms are not as square as the drywaller promised. Custom that dies into a wall has to admit this on the RFQ, or the shop will build a perfect object for a room that does not exist.

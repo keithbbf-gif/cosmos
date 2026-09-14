@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-dining-clearances.svg" alt="Top-down dining table with 36-inch chair zones and 42-inch pass aisle example" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Table, chair, and pass aisles are numbers you quote against — example clearances shown; verify NKBA edition for your job. Original schematic (CC0).</figcaption>
+</figure>
+
 They wanted eight. The room wanted six and a winter leaf. The catalog wanted 96 inches because 96 looks like a sentence. The tape wanted 84 and a little air to the hutch.
 
 "A table for eight" is a social wish. A quote needs a length, a width, a height, a leaf story, and a pass behind the chairs. If you skip the pass, you will own a table that turns the dining room into a crawl.

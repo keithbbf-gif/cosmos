@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-three-prices.svg" alt="Diagram contrasting ballpark, list price, and allowance with a written quote" width="1200" loading="lazy" decoding="async" />
+  <figcaption>The cheap quote is usually a different piece — thinner top, different finish system, no path measure. Original schematic (CC0).</figcaption>
+</figure>
+
 The integer was pretty. The scope had holes you could carry a leaf through — because the leaf was gone. So was the site measure. So was the crate. The household thought they had shopped (piece 40). They had collected costumes.
 
 Cheap is not a sin. A shop with oak in the rack (piece 20) and a known object (piece 04) should be cheaper than a hunt. A shop that wins by deleting the job is not cheaper. It is otherwise employed.

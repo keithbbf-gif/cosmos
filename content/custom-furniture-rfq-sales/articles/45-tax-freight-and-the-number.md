@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock. This page is not tax advice.
 
+<figure>
+  <img src="../assets/schematic-freight-tiers.svg" alt="Diagram labeling threshold, room-of-choice, and white-glove delivery tiers" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Tax, freight, and the number on the quote — tiers and jurisdiction stay separate lines on the ack. Original schematic (CC0).</figcaption>
+</figure>
+
 The hallway said eighty-four hundred (piece 03). The quote said seventy-two for the object, eleven for white glove, and tax the household had not put in the marriage budget. Nobody lied with energy. They collapsed three lines into one mouth.
 
 A quote that is one integer is a hallway. A quote that splits object, freight, and tax is a document you can fund. This pack will not tell you your rate. Rates live in a jurisdiction and a fact pattern. It will tell you to stop hiding the truck in the oak.

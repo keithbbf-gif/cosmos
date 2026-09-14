@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-phone-vs-room-light.svg" alt="Diagram contrasting saturated phone display colors with a finish board viewed in room light" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Phone screens lie about stain color — room light and finish system beat the pocket display. Photo: Wikimedia Commons (CC BY 2.0). Original schematic for this pack (CC0 1.0).</figcaption>
+</figure>
+
 August in this county will add a little across a top. January heat will take it back. A breadboard that was proud in the shop will look shy in a week and honest in a year. None of that is a cracked joint. A cracked joint is a cracked joint. This piece is how you tell a living board from a bad job before anyone says warranty (piece 38).
 
 ## Movement is the material

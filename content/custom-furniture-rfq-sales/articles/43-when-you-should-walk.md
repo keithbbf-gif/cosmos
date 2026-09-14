@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-43-walking-away-door.jpg" alt="Open door leading out of a retail interior to daylight" width="1200" loading="lazy" decoding="async" />
+  <figcaption>When you should walk — if the ack will not name inches, path, or date, the door is cheaper than the remake. Photo: Wikimedia Commons (CC BY-SA 3.0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Open_door_01.jpg">CC BY-SA 3.0</a>.</figcaption>
+</figure>
+
 The website had a Buy button on a "custom" table and a clock that said two weeks. The stair had not been measured. The deposit was a card form with no drawing. That is not a shop having a bad week. That is a walk.
 
 Piece 42 is the shop's no. This is yours. Dealers and households use the same eyes. The tickets differ (piece 33). The flags do not.

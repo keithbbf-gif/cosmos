@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-35-shipping-crates-warehouse.jpg" alt="Wooden shipping crates and boxed furniture in a warehouse aisle" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Crating adds girth the stair must swallow — warehouse crates, not a white-glove stock smile. Photo: Wikimedia Commons (public domain). Photo: U.S. government record scan / public domain (<a href="https://commons.wikimedia.org/wiki/File:EFTA00002265_-_Cluttered_warehouse_with_stacked_boxes_a_fan_and_shelves_filled_with_supplies_under_industrial_lighting.jpg">source</a>).</figcaption>
+</figure>
+
 The top was 42 inches. The crate was 46 and a little more, plywood and a cleat, a corner that would not clear the rail. The path measure had been of the furniture (piece 14). The landing vetoed the box. The box was the job.
 
 Crating is not overhead you hide. It is girth, weight, class, and a chance to arrive as one piece. Blanket-wrap is lighter and smaller and a different gamble. Write which. Measure the one you will actually ship.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Kitchen island aisle widths</title>
+  <desc id="desc">Rectangular island with labeled walk and work aisles.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+
+  <rect x="40" y="40" width="640" height="340" fill="#e8e4dc" stroke="#8a8278" stroke-width="2"/>
+  <rect x="220" y="120" width="280" height="180" fill="#c9bfb0" stroke="#3d3832" stroke-width="2"/>
+  <text x="360" y="215" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13">Island</text>
+  <text x="360" y="82" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2f6f4e">42 in walk aisle (example)</text>
+  <text x="175" y="215" text-anchor="end" font-family="system-ui,sans-serif" font-size="11" fill="#1d5a8a">48 in work aisle (example)</text>
+
+</svg>

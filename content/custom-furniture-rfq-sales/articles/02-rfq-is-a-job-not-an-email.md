@@ -25,6 +25,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/process-measure-quote-ack.svg" alt="Flow diagram: measure, then quote, then signed acknowledgment for a custom furniture order" width="1200" loading="lazy" decoding="async" />
+  <figcaption>An RFQ is a job packet: measure the room, price the build, then put the date on the acknowledgment — not the subject line alone. Original schematic (CC0).</figcaption>
+</figure>
+
 The inbox said "table??" and a photo of someone else's Pinterest. No inches. No doorway. No stain direction. No ship-to. That is not a request for quote. That is a wish that wants a price so it can feel like a plan.
 
 An RFQ is a job packet. The shop can price what it can build. It cannot price a mood. Dealers who send one-pagers already know this. Homeowners who have only ever bought SKUs have to learn it once, in writing, before anyone cuts a cut list.

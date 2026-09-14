@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-39-customer-supplied-lumber.jpg" alt="Boards marked with chalk labels in a small lumber stack" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Customer-supplied material shifts risk — label what you bring versus what the shop warrants. Photo: Wikimedia Commons (CC BY-SA 4.0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Hardwood_lumber_stacked_for_drying.jpg">CC BY-SA 4.0</a>.</figcaption>
+</figure>
+
 The can said "oak" in a handwriting that was not the shop's. It had sat in a garage through two summers. They wanted it on a new top so it would "match." It would not match. It might not even film. That can is a customer-supplied material. It is a gift that can stall a queue (piece 22) and a finish (piece 21).
 
 COM, COL, customer stone, customer glass, a can, a slab they found at a yard — all of these can be good jobs. They are never casual jobs. Write who buys, who inspects, who owns a flaw, and when the object has to arrive.

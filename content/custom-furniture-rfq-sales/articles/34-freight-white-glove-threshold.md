@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-freight-tiers.svg" alt="Diagram labeling threshold, room-of-choice, and white-glove delivery tiers" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Freight tiers change who carries, who unwraps, and who owns the stair — define them on the ack. Original schematic (CC0).</figcaption>
+</figure>
+
 The quote said "delivered." The driver said "end of driveway." Both thought they were honest. The table sat on gravel in the rain for twenty minutes while someone found a dolly that did not exist.
 
 Freight is a menu. Write the item. A custom piece with a vague "delivered" is how you fund a curb argument after you already fought the deposit (piece 27). The path still has veto (piece 14). The service name does not override the landing.

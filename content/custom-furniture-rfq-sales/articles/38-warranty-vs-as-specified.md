@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-ack-form.svg" alt="Blank acknowledgment form with promised week, deposit, and drawing revision lines" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Warranty versus as-specified lives on the ack and the drawing — educational blank, not a live policy. Original schematic (CC0).</figcaption>
+</figure>
+
 The card said "lifetime" in a font that liked itself. The drawing said 84 inches, oil, no leaf. The household wanted a different life than the drawing. Those are three documents. Only one of them was the job.
 
 Custom work is as-specified work. The spec is the approved drawing and the ack (piece 08). A warranty that ignores the spec is poetry. A spec that pretends nothing can fail is a shrug. Hold both.

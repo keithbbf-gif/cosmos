@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-deposit-split.svg" alt="Bar diagram separating deposit slot from balance due at completion" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Deposit is not the whole price — progress draws and balance lines belong on the ack in writing. Original schematic (CC0).</figcaption>
+</figure>
+
 The driver had the table. The customer had the deposit receipt and a theory that the rest was "on account." The curb is a bad classroom. The ack should have been the teacher.
 
 Custom jobs often move money in two or three steps. Deposit to start (piece 26). Sometimes a progress payment when mill is done or finish starts. Balance before the piece leaves the shop or before it comes off the truck. `[VERIFY]` the house steps. This essay will not invent them. It will say why mixing them makes a scene.

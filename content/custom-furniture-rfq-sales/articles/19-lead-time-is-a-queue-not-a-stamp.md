@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-lead-time-stack.svg" alt="Stacked bar diagram of queue, lumber, mill, finish, buyouts, and freight stages" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Lead time is a stack — queue, lumber, mill, finish, buyouts, freight — not a stamp the salesperson picks. Original schematic (CC0).</figcaption>
+</figure>
+
 The whiteboard in the office has job names and a column of weeks that keep getting erased. Someone wants a stamp: 12 weeks, as if the stamp were a kiln. The stamp is a guess about a stack. The stack is the truth.
 
 Custom lead time is not a personality. It is six waits that sometimes run in parallel and often do not. If you only remember one sentence from this pack's calendar pieces, remember this: ask for the stack, not the stamp.

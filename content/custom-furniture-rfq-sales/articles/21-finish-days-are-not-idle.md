@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-21-woodworking-shop-interior.jpg" alt="Traditional woodworking shop interior with bench and hand tools" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Finish days are not idle — coats, cure, and sand between passes. Documentary shop interior (public domain HABS-style record). Photo: Library of Congress HABS / public domain (<a href="https://commons.wikimedia.org/wiki/File:Wharton_Esherick_Studio_%26_Workshop,_1520_Horseshoe_Trail,_Malvern_(Chester_County,_Pennsylvania).jpg">source</a>).</figcaption>
+</figure>
+
 The top looked done on Thursday. A sock printed in it on Friday. The film was still a clock. The customer saw a quiet spray room and called it slack. The room was waiting on a recoat window that does not care about anyone's dinner.
 
 Finish is labor you can see and time you cannot rush without lying. An RFQ that picks a color from a phone (piece 31) is also picking a calendar (piece 19). Oil, conversion varnish, lacquer, paint — different clocks. This pack will not name a house system. It will say: ask for the days, and do not crate a green piece.

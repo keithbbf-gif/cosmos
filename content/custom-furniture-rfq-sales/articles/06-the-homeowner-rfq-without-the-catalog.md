@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-rfq-checklist.svg" alt="Checkbox checklist for object, inches, path, finish, and requested date on an RFQ" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Homeowners without a catalog still owe the packet: object, inches, path, finish, freight. Original checklist schematic (CC0).</figcaption>
+</figure>
+
 The email had seven photos of seven tables and the sentence "we want something unique." Unique is not a dimension. Unique is how you get a quote that is really a guess, then a table that is really an argument.
 
 You do not need a dealer account to write an RFQ. You need the same job packet with fewer part numbers (piece 02). The shop will translate. It will not mind-read.

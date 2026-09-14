@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-out-of-square-room.svg" alt="Room plan polygon with unequal corners labeled as not square" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Allowances for radiators, returns, and outlets belong on the quote, not in the surprise column. Original schematic (CC0).</figcaption>
+</figure>
+
 The return-air was behind the sideboard. In July the room went stale and the homeowner pulled the piece off the wall and scratched the floor. The quote had been perfect. The room had been live. Nobody wrote the grate.
 
 Empty-room measures lie (piece 09). The live room has air, power, heat, and doors. Those objects steal inches and they steal goodwill. Put them on the RFQ or meet them on the punch list (piece 37).

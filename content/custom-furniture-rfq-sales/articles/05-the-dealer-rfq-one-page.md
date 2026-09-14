@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-rfq-packet.svg" alt="Labeled one-page RFQ form blocks for object, measure, path, finish, and freight" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Dealer one-pagers work because every field has a name: object, inches, path, finish, freight, date. Original schematic (CC0).</figcaption>
+</figure>
+
 The PO said "same as last time" and the last time was a different stain, a different leaf, and a different store manager. The shop priced the memory. The dealer invoiced the customer on a different memory. Two invoices, one table, no friends.
 
 A dealer RFQ can be one page. It should be. The shop is not your warehouse system. It is a floor with a queue. Give it the fields that price, in an order a human can read without opening six apps.

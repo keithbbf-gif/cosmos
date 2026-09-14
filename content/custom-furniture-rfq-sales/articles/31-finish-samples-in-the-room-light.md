@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-31-wood-finish-samples.jpg" alt="Wood finish sample boards showing stain color variation on oak" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Finish samples in room light beat phone photos — boards show grain, sheen, and neighbor colors. Photo: Wikimedia Commons (CC BY-SA 3.0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Wood_samples.jpg">CC BY-SA 3.0</a>.</figcaption>
+</figure>
+
 The board sat on the table overnight, north window in the morning, cheap overhead at dinner. In the morning it was brown. At dinner it was orange. Both were true. The phone photo of the same board was a third color that does not exist.
 
 Finish approval is a light problem before it is a taste problem. An RFQ that says "like the photo" (piece 07) is asking the shop to match a lamp and a filter. The shop can match a board. Put the board in the room.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" role="img" aria-labelledby="title desc">
+  <title id="title">RFQ one-page anatomy</title>
+  <desc id="desc">Labeled blocks for object, measure, path, finish, and freight fields.</desc>
+  <rect width="720" height="390" fill="#f8f7f4"/>
+
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#3d3832">RFQ packet (one page anatomy)</text>
+  <rect x="60" y="50" width="600" height="320" fill="#fff" stroke="#3d3832" stroke-width="2"/>
+  <line x1="60" y1="90" x2="660" y2="90" stroke="#8a8278"/>
+  <text x="80" y="78" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Object · Inches · Path · Finish · Freight · Requested date</text>
+  <rect x="80" y="110" width="260" height="50" fill="#e8e4dc" stroke="#8a8278"/>
+  <text x="210" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">What we are building</text>
+  <rect x="360" y="110" width="280" height="50" fill="#e8e4dc" stroke="#8a8278"/>
+  <text x="500" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Who measured / when</text>
+  <rect x="80" y="180" width="560" height="60" fill="#e8e4dc" stroke="#8a8278"/>
+  <text x="360" y="215" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Delivery path: door, stair, landing, soffit</text>
+  <rect x="80" y="260" width="270" height="50" fill="#c9bfb0" stroke="#8a8278"/>
+  <text x="215" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Finish direction + samples</text>
+  <rect x="370" y="260" width="270" height="50" fill="#c9bfb0" stroke="#8a8278"/>
+  <text x="505" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Ship-to + install tier</text>
+
+</svg>

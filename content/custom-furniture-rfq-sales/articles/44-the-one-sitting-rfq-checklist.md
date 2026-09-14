@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-rfq-checklist.svg" alt="Checkbox checklist for object, inches, path, finish, and requested date on an RFQ" width="1200" loading="lazy" decoding="async" />
+  <figcaption>One-sitting RFQ checklist — object, inches, path, finish, freight, date — before anyone cuts. Original schematic (CC0).</figcaption>
+</figure>
+
 This is the one-sitting pass. It does not replace the rest of the pack. It is what you run before you hit send or before you take a card. If a box fails, you are not RFQing yet (piece 02). You are wishing.
 
 Print it. Write the job name at the top. Sign it.

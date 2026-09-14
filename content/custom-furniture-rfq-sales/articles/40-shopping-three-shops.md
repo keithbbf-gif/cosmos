@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-three-prices.svg" alt="Diagram contrasting ballpark, list price, and allowance with a written quote" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Shopping three shops means three packets — compare object, inches, and ack language, not just the bottom line. Original schematic (CC0).</figcaption>
+</figure>
+
 Three PDFs, three integers, one room. The lowest had no leaf, no white glove, and a customer measure the household had not taken (piece 17). The highest had a site visit, a crate, and a finish sample in the room (piece 31). The middle had a date it could not defend (piece 25). Shopping is allowed. Comparing integers without scopes is how you buy a fight.
 
 This is not a script for getting a shop to "beat" a number. It is how to run a fair RFQ so the number means something (piece 02, piece 41).

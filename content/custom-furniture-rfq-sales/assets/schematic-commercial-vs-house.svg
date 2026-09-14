@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial RFQ versus house RFQ</title>
+  <desc id="desc">Spec section contrast for millwork-grade jobs.</desc>
+  <rect width="720" height="330" fill="#f8f7f4"/>
+
+  <text x="360" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#3d3832">Commercial RFQ versus house RFQ</text>
+  <rect x="100" y="100" width="520" height="200" rx="8" fill="#e8e4dc" stroke="#8a8278" stroke-width="2"/>
+  <text x="360" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#3d3832">AWI spec block · House packet</text>
+
+</svg>

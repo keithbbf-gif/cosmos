@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Furniture delivery path</title>
+  <desc id="desc">Path from truck through door, hall, stair, and into the room.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+
+  <polyline points="80,300 180,300 180,220 320,220 320,140 480,140 480,80 620,80" fill="none" stroke="#2f6f4e" stroke-width="4"/>
+  <circle cx="80" cy="300" r="8" fill="#3d3832"/>
+  <text x="80" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">Truck</text>
+  <text x="180" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">Door</text>
+  <text x="320" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">Hall</text>
+  <text x="480" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">Stair / landing</text>
+  <text x="620" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10">Room</text>
+  <text x="360" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#3d3832">Delivery path (plan + section sketch)</text>
+
+</svg>

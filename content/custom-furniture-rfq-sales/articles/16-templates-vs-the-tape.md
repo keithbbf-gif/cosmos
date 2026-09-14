@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-rfq-packet.svg" alt="Labeled one-page RFQ form blocks for object, measure, path, finish, and freight" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Catalog templates sell SKUs; the tape sells the inch in your room. Same packet fields, different source. Original schematic (CC0).</figcaption>
+</figure>
+
 The wall was a gentle belly, plaster proud in the middle, shy at the studs. The notebook had a single width. The case, built to the notebook, rocked like a chair. The second trip was cardboard. The third trip was a scribe. The first trip should have been the cardboard.
 
 Tape is a straight-line tool. Rooms are not always straight-line problems (piece 10). When the job is a curve, a jog, a stone sink, a hearth, or a bay, make a template or admit you are guessing.

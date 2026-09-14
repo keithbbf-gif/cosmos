@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-24-calendar-planning.jpg" alt="Wall calendar with marked dates used for production planning" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Showroom seasons and holidays move the queue — mark the calendar you quote, not the hallway maybe. Photo: Wikimedia Commons (CC0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Calendar_2016_(PSF).png">CC0 1.0</a>.</figcaption>
+</figure>
+
 In June the whiteboard already had Thanksgiving written in a corner, half joke, half grave. By September the joke was gone. Every RFQ wanted the same Thursday. The oak did not care. The queue did.
 
 Holidays are not surprises. They are a pile-up you can see from the solstice. Showroom seasons and market weeks are the dealer version of the same pile-up. Write them as calendar facts, not as a way to squeeze a date.

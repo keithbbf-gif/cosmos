@@ -24,6 +24,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-deposit-split.svg" alt="Bar diagram separating deposit slot from balance due at completion" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Deposits buy queue position and material commitment — not the whole price in one check. Original schematic (CC0).</figcaption>
+</figure>
+
 The check sat in the office drawer under a magnet from a hardware house. Not framed. Not blessed. It was oak money and a name on the whiteboard. That is a deposit. It is not a club membership. It is not a "hold my vibe."
 
 Shops take deposits because custom work spends money before a truck rolls. Lumber is identified to a job (UCC § 2-501). A slot is denied to someone else (piece 19). Hardware is ordered (piece 22). If you walk after that, the shop is holding an object that may not be suitable for sale to others — the specially manufactured goods neighborhood (UCC § 2-201(3)(a), piece 29). A deposit is how both sides admit that neighborhood exists before anyone is angry.

@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-33-furniture-showroom-interior.jpg" alt="Historic American furniture showroom interior with displayed casegoods" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Dealer price and the floor — documentary showroom photo, not an implied current line card. Photo: Library of Congress (public domain). Photo: Carol M. Highsmith | Library of Congress / public domain (<a href="https://commons.wikimedia.org/wiki/File:Furniture_store_interior_LCCN2011634378.tif">source</a>).</figcaption>
+</figure>
+
 The PO said "house" and the email said "sold." The mill built a floor-beater edge on a customer's dining table. Nobody was trying to cheat. Two tickets wore one SKU.
 
 Dealers and mills stay friends when the ticket kind is written on page one (piece 05). This piece is the rest of that honesty: price, floor, MAP, and what the mill does not need to know.

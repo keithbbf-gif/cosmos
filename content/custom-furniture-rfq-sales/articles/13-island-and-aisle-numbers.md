@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-island-aisles.svg" alt="Kitchen island plan with labeled walk aisle and work aisle widths" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Island quotes need aisle numbers, not a catalog hero — example 42-inch walk and 48-inch work aisles. Original schematic (CC0).</figcaption>
+</figure>
+
 The dishwasher door and the island seating were trying to occupy the same air. Both were right. The drawing was wrong. Someone had priced a 42-inch-deep island from a photo and forgotten that a dishwasher door is a plane that moves.
 
 This folder is not a kitchen-design series. It is how you measure an island so a wood shop can quote it. The pretty part — stone, seating, the pendant — still has to leave room for a human and a hinge.

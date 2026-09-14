@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-delivery-path.svg" alt="Path diagram from delivery truck through door, hall, stair, landing, into room" width="1200" loading="lazy" decoding="async" />
+  <figcaption>If the piece cannot walk this path, the RFQ is fiction — map door, hall, stair, landing, soffit before you price. Original schematic (CC0).</figcaption>
+</figure>
+
 The crate stood on the landing and would not turn. Not almost. Would not. The rail was oak and original and nobody was cutting it on a Thursday. The top was beautiful and downstairs. The room was upstairs. That is a path failure, and it was written on no one's RFQ.
 
 A quote that does not include the path is a quote for a different building. White glove is a service: pads, assembly, a careful crew. It is not a wider stair. Threshold is a service: across the sill, not up the turn. Dock is a service: the truck, not the house. Name the service (piece 34). Measure the path.

@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-lead-time-stack.svg" alt="Stacked bar diagram of queue, lumber, mill, finish, buyouts, and freight stages" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Hardware and stone buyouts gate the wood — the stack waits on pulls and slabs, not wishful overlap. Original schematic (CC0).</figcaption>
+</figure>
+
 The table was finished. The hinges were on a boat. The shop sat on a perfect top and an open mortise. The customer saw a photo of a done table and asked why it was not in the truck. The photo was the wood. The job was the hinge.
 
 Buyouts are other people's queues. They belong on the RFQ next to the oak (piece 02, piece 19). UCC § 2-201(3)(a) even cares about procurement commitments — the shop that has already bought *your* stone is in a different legal neighborhood than the shop that has only talked. This pack will not litigate that. It will say: name the buyout before anyone stamps a week.

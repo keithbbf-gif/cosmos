@@ -2,7 +2,9 @@
 
 No fake showroom. No stock couple on a white sofa presented as our floor. No unredacted customer drawing with a real address and a deposit amount.
 
-These drafts are text-first. Images, if any, come from Keith's library (`D:\BBF\BBF Photos`) or are clearly labeled diagrams. Caption every figure in the draft *and* here before a public import. Photographer unnamed until file metadata is pulled. Never invent a credit.
+Each draft now carries one **`<figure>`** hero after the disclaimer: original **SVG** schematics (including the **measure → quote → ack** flow on piece 02) plus **PD/CC documentary** rasters where a photo helps. Credits live in `RIGHTS.md` and `IMAGE_SOURCES.md`. Run `validate_images.py` before import.
+
+These drafts are text-first with one figure each. Images come from Keith's library (`D:\BBF\BBF Photos`) when swapped in, or from labeled Commons / CC0 diagrams until then. Caption every figure in the draft *and* in `IMAGE_SOURCES.md` before a public import. Photographer unnamed until file metadata is pulled. Never invent a credit.
 
 ## Allowed
 

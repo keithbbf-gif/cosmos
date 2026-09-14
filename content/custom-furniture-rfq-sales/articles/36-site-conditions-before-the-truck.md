@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-delivery-path.svg" alt="Path diagram from delivery truck through door, hall, stair, landing, into room" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Site conditions before the truck: path, floor protection, and access — same map as the RFQ path field. Original schematic (CC0).</figcaption>
+</figure>
+
 The house was new and proud and still drying. The table had lived in a shop that had been running HVAC for years. In two weeks the top had a belly. Someone said the shop rushed the kiln (piece 20). Someone else said the house was a swamp. Both could be true. Only one of them was on the RFQ.
 
 Site conditions are a spec. AWI installation language has said for a long time that woodwork expects a building that is closed-in and conditioned. A furniture shop that skips that sentence on a new build is optimistic. A household that wants the table the week the drywall is taped is optimistic. Write the climate.

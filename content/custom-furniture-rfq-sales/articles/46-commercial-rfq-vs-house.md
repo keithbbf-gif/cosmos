@@ -25,6 +25,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-commercial-vs-house.svg" alt="Side-by-side labels for commercial AWI spec block versus house RFQ packet" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Commercial RFQ carries spec sections; house jobs carry tape and path — same shop, different packet weight. Original schematic (CC0).</figcaption>
+</figure>
+
 The typical said 42-inch tables, laminate, a metal finish from last year's standard. The room was a day room with an out-of-square column and a nurse path that was not in the typical. Someone sent a household-style email: "something warm, unique." The facility needed a packet. The packet is this piece.
 
 A shop that also builds household tables can still quote a clinic or a café. It should not quote them with a Pinterest letter (piece 06). Commercial RFQs are typicals plus field, plus a dock, plus a date that is an opening (piece 24). Heritage-page jobs in this lane are history until someone `[VERIFY]`s a live contract. Do not name them here as if the truck is still there.

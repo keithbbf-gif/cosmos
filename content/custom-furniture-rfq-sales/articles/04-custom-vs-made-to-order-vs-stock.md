@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-custom-vs-stock.svg" alt="Diagram labeling custom build, made-to-order, and stock SKU channels" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Custom, made-to-order, and stock are different doors; the RFQ packet tells the shop which one you are asking to open. Original schematic (CC0).</figcaption>
+</figure>
+
 The dealer wrote "custom" on a PO for an 84-inch table the shop has built forty times. The homeowner wrote "in stock" on an email for a sideboard that exists as a drawing. Both used a word that felt true. Both were wrong. The floor will build what the drawing says. The calendar and the deposit will follow the *kind* of work, not the adjective.
 
 Three products share a catalog page and they should not. Stock. Made-to-order. Custom. If you mix them, you will fight about weeks, about cancellation, and about why the shop will not "just swap the stain" after the top is sealed.

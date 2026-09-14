@@ -14,6 +14,11 @@ Internal lane: BBF / Bradley Brand Furniture. Zero hits expected for that name i
 | `BIBLIOGRAPHY.md` | Citations |
 | `WP_IMPORT.md` | Staging import only |
 | `PHOTO_NOTES.md` | Figure rules |
+| `RIGHTS.md` | Image credit ledger |
+| `IMAGE_SOURCES.md` | Commons provenance table |
+| `GRAPHICS_INDEX.md` | Measure → quote → ack SVG map |
+| `image_assets.json` | Per-draft hero manifest |
+| `validate_images.py` | `<figure>` + file gates |
 | `check_pack.py` | Count ≥40, disclaimer, style bans, brand grep |
 
 ## Article drafts (46)

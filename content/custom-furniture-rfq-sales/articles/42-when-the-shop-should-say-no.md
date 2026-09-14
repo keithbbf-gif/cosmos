@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-42-empty-showroom-chair.jpg" alt="Empty chair in a quiet furniture showroom aisle" width="1200" loading="lazy" decoding="async" />
+  <figcaption>When the shop should say no — the honest answer is an empty slot in the queue, not a yes that fails on the truck. Photo: Wikimedia Commons (public domain). Photo: National Library of Australia / public domain (<a href="https://commons.wikimedia.org/wiki/File:De_Groot_showroom,_Rushcutters_Bay.jpg">source</a>).</figcaption>
+</figure>
+
 The stair had vetoed the crate (piece 14). The holiday had vetoed the stack (piece 24). The household wanted both vetoes ignored and a rush fee (piece 23). The honest product was no. No is how the shop still has a reputation in this county when the dinner happens on the old table.
 
 Refusing work is not a failed close. This pack does not close. It tells when a yes would be a lie.

@@ -25,6 +25,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-approval-drawing.svg" alt="Shop drawing sheet with elevation panel and revision block for initials and date" width="1200" loading="lazy" decoding="async" />
+  <figcaption>The approval drawing with a revision block is the order the shop builds — not the Pinterest board. Original schematic (CC0).</figcaption>
+</figure>
+
 The elevation was taped to the shop door at eye height, pencil grease on the revision block, a coffee ring on the title. Someone had written REV C and a date. That sheet is the table. The email that said "looks great!!" is a feeling. Feelings do not go through the table saw.
 
 Custom work needs a drawing the floor can build. Made-to-order work needs at least a marked-up catalog page with inches. Stock needs a SKU. If you skip the drawing on custom, you are buying a story. Stories remake badly.

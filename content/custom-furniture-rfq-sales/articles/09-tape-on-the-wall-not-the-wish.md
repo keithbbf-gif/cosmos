@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-09-tape-measure-wall.jpg" alt="Yellow tape measure extended along a wall during room layout" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Tape on the wall beats a wish in an email: hook it on the baseboard and read the wall you have, not the catalog length. Photo: Wikimedia Commons (CC BY 2.0). Photo: Photograph taken by Wikimedia user / <a href="https://commons.wikimedia.org/wiki/File:Measuring_tape_(PSF).jpg">CC BY-SA 3.0</a>.</figcaption>
+</figure>
+
 The tape hung on the baseboard hook, yellow blade across a floor that sloped toward the porch. The listing said twelve feet. The blade said eleven-seven. The listing is not coming to dinner.
 
 Measuring for a quote is not interior design. It is a record of a room on a day, with a tool, by a person who will still answer the phone when the piece does not fit. If that sentence feels heavy, you have measured with hope before.

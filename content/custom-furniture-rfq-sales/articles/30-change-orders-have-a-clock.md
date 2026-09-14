@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-change-order-clock.svg" alt="Timeline showing revision cutoff before the cut list" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Change orders have a clock — revisions close before mill once the cut list is live. Original schematic (CC0).</figcaption>
+</figure>
+
 She wanted the overhang a little longer. The tenons were already home. A little longer was a new rail, a new cut list, a new week. The email said "quick tweak." The door said REV D or a remake.
 
 Spec freeze is the day the drawing stops being a conversation (piece 08). After that, a change is a change order: money, calendar, sometimes a piece that is already the wrong piece. UCC § 2-209 is the modification neighborhood. This pack will not litigate consideration. It will say: write the change like the first quote, or do not pretend the old date still holds (piece 25).

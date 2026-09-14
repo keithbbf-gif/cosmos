@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-15-ceiling-fixture-clearance.jpg" alt="Ceiling pendant light fixture hanging above a dining table" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Pendants and fans eat vertical clearance — photograph the fixture height you are quoting around. Photo: Wikimedia Commons (CC BY 2.0). Photo: Wikimedia contributor / <a href="https://commons.wikimedia.org/wiki/File:Pendant_lamp_and_table.jpg">CC BY 2.0</a>.</figcaption>
+</figure>
+
 The fan blade ticked the dried flowers on the second dinner. Not a ghost story. A thick top, a vase someone loved, and a fan that had been there since the kitchen remodel. Nobody put the blade in the RFQ. The shop built the table it was asked to build.
 
 Horizontal inches get all the poetry. Vertical inches cancel jobs. Fans, pendants, soffits, crown, low beams in a farmhouse — write the air.

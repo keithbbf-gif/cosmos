@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-deposit-split.svg" alt="Bar diagram separating deposit slot from balance due at completion" width="1200" loading="lazy" decoding="async" />
+  <figcaption>What the deposit buys: slot, lumber pull, drawing lock — educational split, not a published percent. Original schematic (CC0).</figcaption>
+</figure>
+
 People send a deposit and then shop for a different table in their head. The oak does not shop. The oak is already becoming a cut list. This piece is the short list of what the money bought, so the next argument is smaller.
 
 ## It buys

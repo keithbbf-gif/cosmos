@@ -25,6 +25,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-ack-form.svg" alt="Blank acknowledgment form with promised week, deposit, and drawing revision lines" width="1200" loading="lazy" decoding="async" />
+  <figcaption>The date on the ack starts the clock — promised week, deposit, drawing revision — not the conversation in the hall. Original schematic (CC0).</figcaption>
+</figure>
+
 The ack said the week of the 14th. The hallway had said "before the holiday" (piece 24). The customer remembered the hallway. The floor remembered the ack. Only one of those documents was going to the truck.
 
 A date is a representation. Put it on the acknowledgment, start it from a defined event, and say what slips it. If you sell by mail, internet, or telephone, 16 CFR Part 435 has already written part of this for you. If you sell in a showroom with a signed ack, you still owe honesty. You may not owe that Rule. Do not guess which channel you are in — write it.

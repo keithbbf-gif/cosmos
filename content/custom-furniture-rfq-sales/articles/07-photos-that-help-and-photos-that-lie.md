@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-07-kitchen-measure-prep.jpg" alt="Person measuring a kitchen counter with a tape measure during layout prep" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Photos that help show scale and obstacles; photos that lie hide the soffit and the out-of-square corner. Documentary measure prep (not a staged quote). Photo: JShook | Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Kitchen_tape_measure_prep.jpg">CC BY 2.0</a>.</figcaption>
+</figure>
+
 The photo was beautiful. Warm lamp, wide lens, a table that looked ten feet long in a room that was nine. The shop priced ten. The room was nine. The fight was about a lens.
 
 Pictures are part of an RFQ (piece 02). They are also how people launder a wish into a spec. The shop needs pictures that measure. It does not need pictures that sell the job back to you.

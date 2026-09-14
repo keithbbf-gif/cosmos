@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 370" role="img" aria-labelledby="title desc">
+  <title id="title">Shop approval drawing layout</title>
+  <desc id="desc">Drawing sheet with revision block.</desc>
+  <rect width="720" height="370" fill="#f8f7f4"/>
+
+  <rect x="80" y="50" width="560" height="300" fill="#fff" stroke="#3d3832" stroke-width="2"/>
+  <rect x="100" y="70" width="360" height="220" fill="#e8e4dc" stroke="#8a8278"/>
+  <text x="280" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12">Elevation / plan</text>
+  <rect x="480" y="70" width="140" height="220" fill="#c9bfb0" stroke="#8a8278"/>
+  <text x="550" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Rev</text>
+  <text x="550" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Date</text>
+  <text x="550" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11">Initial</text>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">Approval drawing is the order</text>
+
+</svg>

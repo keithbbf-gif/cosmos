@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Out-of-square room sketch</title>
+  <desc id="desc">Four-sided room polygon with unequal angles.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+
+  <polygon points="120,280 520,260 500,80 100,100" fill="#e8e4dc" stroke="#3d3832" stroke-width="2"/>
+  <text x="310" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13">Room plan (not square)</text>
+  <text x="310" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#3d3832">Measure the real corners</text>
+  <text x="520" y="270" font-family="system-ui,sans-serif" font-size="11" fill="#1d5a8a">91° example</text>
+
+</svg>

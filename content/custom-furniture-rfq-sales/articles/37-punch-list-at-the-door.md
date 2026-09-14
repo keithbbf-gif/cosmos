@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-rfq-checklist.svg" alt="Clipboard with paper checklist on a construction site" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Punch list at the door — written checks beat memory when the truck is idling. Photo: Wikimedia Commons (CC BY 2.0). Original schematic for this pack (CC0 1.0).</figcaption>
+</figure>
+
 The crew was tired. The household wanted them gone. Someone signed a clean ticket. Two days later the raking light showed a dent the crate had advertised at the curb. The BOL said nothing. The claim got harder.
 
 A punch list at the door is not hostility. It is how you still like each other in week two. UCC § 2-606 is the acceptance neighborhood — receiving can become acceptance if you act like an owner and wait too long. This pack is not your clock. It is a habit: look now, write now.

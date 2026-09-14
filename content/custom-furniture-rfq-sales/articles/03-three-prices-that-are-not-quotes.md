@@ -24,6 +24,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-three-prices.svg" alt="Diagram contrasting ballpark, list price, and allowance with a written quote" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Three numbers customers meet before a quote: ballpark, catalog list, allowance — only the ack-bound quote counts. Original schematic (CC0).</figcaption>
+</figure>
+
 He said "probably around six" in the driveway, meaning thousands, meaning a table he had not measured, meaning oak he had not seen. She told her husband six. The shop later wrote eighty-four hundred on the quote because the top was two-inch and the stair needed a split base. Nobody was trying to cheat. Three different numbers had been allowed to wear the same name.
 
 Call the first a ballpark. Call the second a verbal. Call the third a quote — and only when it is written, scoped, and dated. The ack is a fourth object (piece 08, piece 25). People who collapse all four into "the price" will spend the job unhappy.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Measure quote acknowledgment process</title>
+  <desc id="desc">Three-step diagram: site measure, written quote, signed acknowledgment for custom furniture orders.</desc>
+  <rect width="720" height="400" fill="#f8f7f4"/>
+
+  <text x="360" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#3d3832">Custom order: measure → quote → acknowledgment</text>
+  <rect x="40" y="70" width="180" height="100" rx="8" fill="#e8e4dc" stroke="#8a8278" stroke-width="2"/>
+  <text x="130" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">1. Measure</text>
+  <text x="130" y="132" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8a8278">tape, path, room</text>
+  <path d="M220 120 H260" stroke="#2f6f4e" stroke-width="3" marker-end="url(#arr)"/>
+  <rect x="270" y="70" width="180" height="100" rx="8" fill="#e8e4dc" stroke="#8a8278" stroke-width="2"/>
+  <text x="360" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">2. Quote</text>
+  <text x="360" y="132" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8a8278">object, inches, finish</text>
+  <path d="M450 120 H490" stroke="#2f6f4e" stroke-width="3" marker-end="url(#arr)"/>
+  <rect x="500" y="70" width="180" height="100" rx="8" fill="#c9bfb0" stroke="#3d3832" stroke-width="2"/>
+  <text x="590" y="110" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">3. Ack</text>
+  <text x="590" y="132" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8a8278">date, deposit, spec</text>
+  <text x="360" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1d5a8a">Educational flow — not your signed contract</text>
+  <rect x="80" y="260" width="560" height="120" rx="6" fill="#fff" stroke="#8a8278" stroke-width="1"/>
+  <text x="100" y="288" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Measure owns the inch · Quote names the build · Ack starts the queue clock</text>
+  <text x="100" y="312" font-family="system-ui,sans-serif" font-size="11" fill="#8a8278">Skip a step and the number on paper stops matching the room.</text>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2f6f4e"/></marker></defs>
+
+</svg>

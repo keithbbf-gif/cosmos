@@ -26,6 +26,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-01-vintage-furniture-price-list.jpg" alt="Vintage printed furniture price list page with typed columns and handwritten pencil marks" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Last season's list price is a memory, not a quote for this room's tape. Historical price sheet for education only. Photo: Internet Archive Book Images / public domain (<a href="https://commons.wikimedia.org/wiki/File:Price_list_and_barbers%27_purchasing_guide_of_barbers%27_chairs%2C_furniture%2C_and_barbers%27_supplies_%281884%29_%2814597488498%29.jpg">source</a>).</figcaption>
+</figure>
+
 The price list on the corkboard is last season's oak, last season's pull, last season's freight. Someone circled a number in pencil and wrote "maybe." That sheet is why this shop does not put a Buy button on a dining table.
 
 A quote-only floor is easy to insult. The dealer wants a line for the PO. The homeowner wants the honesty of a tag. Both have been trained by sites that will sell a sofa at 2 a.m. with a credit card and a 30-day clock. Custom work is a different object. The wood is not on a shelf with a barcode. The room is not a stock photo. The number you need is the number that can sit on an acknowledgment without the shop lying or the customer feeling jumped.

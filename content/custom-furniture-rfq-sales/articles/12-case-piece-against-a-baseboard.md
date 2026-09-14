@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-12-baseboard-case-piece.jpg" alt="Built-in wooden cabinet installed flush against a wall and baseboard" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Case pieces die on baseboard, crown, and outlet returns — the photo shows real wall contact, not a floating catalog render. Photo: Wikimedia Commons (CC BY-SA 3.0). Photo: Oxfordian Kissuth | Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Built-in_cupboard,_England.jpg">CC BY-SA 3.0</a>.</figcaption>
+</figure>
+
 The sideboard kissed the outlet. Not a metaphor. The plug for the lamp had nowhere to go, and the only other outlet was behind the door swing. The piece was the right length for the wall in the photo. The wall in the photo had hidden the receptacle with a plant.
 
 Case pieces look simple: a box against a wall. The box is easy. The wall is a pile of trim, power, and doors. The RFQ that prices only the box will deliver a fight.

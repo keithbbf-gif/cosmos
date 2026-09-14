@@ -21,6 +21,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-20-hardwood-lumber-yard.jpg" alt="Stacks of hardwood lumber at a mill yard with stickers between boards" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Lumber is already a calendar: drying, grade, and length drive the queue before your table hits the bench. Photo: Wikimedia Commons (CC BY-SA 4.0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Hardwood_lumber_stacked_for_drying.jpg">CC BY-SA 4.0</a>.</figcaption>
+</figure>
+
 The rack was empty of 8/4 white oak in the grade the drawing wanted. The yard said two weeks, then the kiln, then a rest in the shop. The salesperson had already said "we're good on wood." They were good on a different thickness.
 
 Lumber is a calendar before it is a romance. Species, grade, thickness, width, and whether the shop will glue up a panel or buy a slab — those choices are weeks. An RFQ that treats "oak" as a checkbox will get a date that belongs to a different board.

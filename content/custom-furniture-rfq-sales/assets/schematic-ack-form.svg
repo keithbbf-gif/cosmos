@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Acknowledgment date fields</title>
+  <desc id="desc">Blank acknowledgment with date, deposit, and drawing revision lines.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+
+  <rect x="100" y="60" width="520" height="300" fill="#fff" stroke="#3d3832" stroke-width="2"/>
+  <text x="360" y="95" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600">Acknowledgment (educational blank)</text>
+  <line x1="130" y1="130" x2="590" y2="130" stroke="#8a8278"/>
+  <text x="140" y="155" font-family="system-ui,sans-serif" font-size="12">Promised week of: ___________</text>
+  <text x="140" y="185" font-family="system-ui,sans-serif" font-size="12">Deposit received: ___________</text>
+  <text x="140" y="215" font-family="system-ui,sans-serif" font-size="12">Drawing revision: ___________</text>
+  <text x="140" y="260" font-family="system-ui,sans-serif" font-size="11" fill="#1d5a8a">The date on the ack — not the hallway maybe</text>
+
+</svg>

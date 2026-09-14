@@ -23,6 +23,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/cf-rfq-17-two-tapes-measure.jpg" alt="Close view of a metal tape measure blade showing inch markings" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Two tapes, two numbers — the ack should say who owns the inch. Documentary measure tool photo (CC BY-SA 3.0). Photo: Wikimedia Commons / <a href="https://commons.wikimedia.org/wiki/File:Measuring_tape_(PSF).jpg">CC BY-SA 3.0</a>.</figcaption>
+</figure>
+
 Two tapes, two numbers, one wall. The nephew had 96. The shop, a week later, had 94½ and a baseboard the nephew had treated as air. The table was already 96 in the rack. That is not a mystery. That is ownership.
 
 Someone has to own the inch. The RFQ and the ack should say who. "We are not responsible for customer measurements" is a sentence shops love. It is incomplete if the shop also refused to visit, did not explain the risk, and then built the wrong object with a smile.

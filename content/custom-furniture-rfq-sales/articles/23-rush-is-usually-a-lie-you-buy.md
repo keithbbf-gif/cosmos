@@ -22,6 +22,11 @@ verify:
 
 **Disclaimer.** Educational shop talk. Not a quote, not a contract, and not legal advice. Deposit terms, lead times, and cancellation rules live on the acknowledgment you actually sign. A shop in another state may run a different clock.
 
+<figure>
+  <img src="../assets/schematic-change-order-clock.svg" alt="Timeline showing revision cutoff before the cut list" width="1200" loading="lazy" decoding="async" />
+  <figcaption>Rush fees buy calendar compression — the diagram shows where the stack breaks when you pay to skip a stage. Original schematic (CC0).</figcaption>
+</figure>
+
 They offered a rush fee like it was a key. The oak was still at the yard. The hinge was still a SKU. The finish still had a window (piece 21). The fee would have bought a tired Saturday and a top that cupped in October. The shop said no (piece 42). That no was the honest product.
 
 Rush is not a moral failing. Weddings, moves, a facility opening (piece 46) — dates are real. Money can buy some hours. It cannot buy physics. If you do not say which hours, the fee is a souvenir.
