@@ -1,0 +1,296 @@
+# Staged draft manifest — fig greenhouse, hoophouse, tunnel culture
+# status is editorial. stage is the house-and-year sequence.
+
+set = "fig-greenhouse-tunnel-culture"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 48
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-a-tunnel-is-not-california.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-three-houses-three-jobs.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-what-the-plastic-buys.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-zone-7-builds-zone-9-cooks.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-8a-is-the-in-between-house.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-the-fig-shuffle-is-not-a-tunnel.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-heated-glass-is-a-different-crop.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-what-the-papers-already-said.md"
+stage = "name"
+cluster = "house"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-which-way-the-house-faces.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-gothic-vs-quonset-when-ice.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-four-year-plastic-is-not-a-miracle.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-roll-up-sides-are-the-crop.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-end-walls-and-still-air.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-snow-load-and-the-cheap-kit.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-water-barrels-are-not-a-furnace.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-a-house-on-wet-clay-is-a-bathtub.md"
+stage = "raise"
+cluster = "siting"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-names-that-finish-under-plastic.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-brown-turkey-is-still-a-crowd.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-eight-to-ten-feet-is-not-crowding.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-in-ground-in-the-house-vs-pots.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-the-first-year-is-wood.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-two-or-three-branches.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-cordon-and-the-stepover.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-fan-against-the-wall.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-height-is-a-pruning-problem.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-do-not-plant-mission-for-october.md"
+stage = "set"
+cluster = "plant"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-the-house-wakes-the-fig-too-early.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-late-frost-after-a-warm-week.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-the-row-cover-dance.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-summer-cook-is-not-a-flex.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-shade-cloth-is-a-july-tool.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-humidity-rust-and-still-air.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-water-in-a-house-is-not-rain.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-split-and-sour-under-a-dry-roof.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-whitewash-and-the-august-glare.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-vents-before-fertilizer.md"
+stage = "run"
+cluster = "climate"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-dormancy-still-has-to-happen.md"
+stage = "keep"
+cluster = "winter"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-woodchips-and-the-buried-cordon.md"
+stage = "keep"
+cluster = "winter"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-a-hoop-inside-the-hoop.md"
+stage = "keep"
+cluster = "winter"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-pick-before-the-first-hard-night.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-birds-and-beetles-still-find-a-door.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-weeds-sweet-potatoes-and-the-floor.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-market-figs-and-the-kentucky-number.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-when-not-to-build-a-house.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-a-calendar-from-leaf-drop-to-ripe.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-what-i-would-put-in-one-fourteen-by-thirty-two.md"
+stage = "keep"
+cluster = "crop"
+
+[[draft]]
+id = "d47"
+file = "drafts/d47-pots-in-a-cold-house-for-the-collection.md"
+stage = "keep"
+cluster = "winter"
+
+[[draft]]
+id = "d48"
+file = "drafts/d48-the-house-does-not-replace-the-variety.md"
+stage = "keep"
+cluster = "crop"
