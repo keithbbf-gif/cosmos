@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 631
+word_count: 673
 dek: "The rings want to straighten. On a flatsawn board that wish has a direction. Learn it before you pick a show face."
 meta_description: "As a flatsawn board loses moisture, the growth rings flatten and the pith side goes convex. Cup is not a mystery. It is ring geometry plus a moisture gradient."
 figures:
@@ -119,3 +119,13 @@ blame a season, look at the rings and the finish
 history. Cup is not a character trait. It is
 tangential shrinkage wearing a curve. The end
 grain told you which curve you bought.
+
+If you cannot see the
+rings, you cannot name
+the cup. Cut a witness
+or look at the end you
+already have. A cup
+without readable rings
+is still a cup. It is
+just a cup you have not
+bought honestly yet.

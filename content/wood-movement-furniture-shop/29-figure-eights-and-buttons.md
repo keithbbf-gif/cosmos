@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 535
+word_count: 691
 dek: "Pick a traveler on purpose. Mixing locks and sliders on the same top is how one corner does all the moving."
 meta_description: "Figure-8s, Z-clips, wooden buttons, and slotted screws are different hardware for the same job: let a top change width. Choose one system and place the tight points at the center."
 figures:
@@ -123,3 +123,52 @@ choice on the ticket so a service
 call does not add pocket screws
 "to tighten the top." Tight is how
 we got the last photograph.
+
+## One system on a top
+
+I have opened an
+underside with Z-clips
+on the longs, figure-8s
+on the shorts, and two
+pocket screws "for the
+truck" still in the
+ends. The clips were
+doing nothing. We
+pulled the pockets,
+kept one system, and
+the next winter was
+quieter. Mixing is how
+the stiffest fastener
+becomes the only
+fastener.
+
+## Buttons you make
+
+Offcut oak, a slot you
+sized to the product,
+a groove in the apron.
+They look like you
+meant the year. They
+also glue themselves
+if finish floods the
+groove. Dry, finish,
+then fasten. A glued
+button is a wooden
+lock with a
+traditional name.
+
+## How tight is snug
+
+The top should not
+drum on the apron.
+It should not need a
+driver to prove you
+were here. Snug the
+screw until the clip
+or button seats, then
+stop. Buried heads
+are friction clamps.
+Write "snug, not
+buried" on the
+apprentice's first
+underside.

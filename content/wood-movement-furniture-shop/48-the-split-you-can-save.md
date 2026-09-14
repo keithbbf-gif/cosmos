@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 479
+word_count: 654
 dek: "Some splits close in June and want travel, not filler. Some splits are a joint that must be remade. The first look is whether the year still owns the gap."
 meta_description: "A seasonal split that opens and closes wants fasteners freed and gaps restored. A split with torn geometry or a glued field wants disassembly. Filler is a last, honest cosmetic."
 figures:
@@ -152,3 +152,49 @@ is how a split becomes
 a piece again instead
 of a filled photograph
 that fails twice.
+
+## A split that closed in June
+
+A dining field, red oak,
+hairline along a glue
+line in January, gone
+enough in June that a
+thumbnail barely caught
+it. The underside was a
+row of tight screws at
+the ends. We slotted the
+ends, left the line, and
+did not fill. Next
+January the line was a
+shadow, not a mouth.
+The save was the
+screwdriver. Color would
+have been a wedge.
+
+## A split that needed a bench
+
+A breadboard tenon
+blown along its length,
+outer third glued, pins
+round and tight. No
+amount of climate talk
+closes a tenon that is
+two pieces. We remade
+the cap, glued the
+center, slotted the
+ends, finished the
+field ends. The client
+saw a new breadboard.
+They also saw why the
+old one failed. That
+is a save. A syringe
+in the split would have
+been a delay with
+their name on it.
+
+If you cannot flip the
+piece, you cannot sort
+the split. The back is
+the diagnosis. Color
+is the last courtesy,
+not the first tool.

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 505
+word_count: 650
 dek: "A solid case side is a wide board standing up. A plywood box is a climate shrug with a veneer story. Pick one and stop mixing their rules."
 meta_description: "Solid case sides change width from front to back or top to bottom depending on grain. Plywood boxes stay nearer to their delivery size. Fasteners and backs have to match the choice."
 figures:
@@ -141,6 +141,43 @@ meet them in a split
 along a dado that was
 cut as if both sentences
 were true.
+
+## A dado that split a side
+
+Solid oak sides, grain
+up, depth 16 inches.
+Plywood web frames glued
+into dados the full
+depth. January pulled
+the sides in. The dados
+held. The side split
+along a web. That is
+not mysterious oak. That
+is a box fastener in a
+solid machine. The redo
+used slots in the webs
+and a floated back. Same
+sides. Same year. The
+machine matched.
+
+## Selling the word solid
+
+If the client wants to
+see a tree on the side
+and wants drawers that
+never change, you can
+do a solid show and a
+box interior — or you
+can do solid throughout
+and size the openings
+for travel. What you
+cannot do is take the
+price of solid and the
+habits of a box. Write
+the machine on the
+quote so the word solid
+does not have to do two
+jobs.
 
 Pick a machine. Build it.
 The year only inspects

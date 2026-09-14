@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 596
+word_count: 727
 dek: "A winter rattle in a door panel is a passing grade. A panel glued in the groove is a stile waiting to split."
 meta_description: "Frame-and-panel is a treaty: the frame is the rectangle, the panel is the live width, the groove is the gap sized from the scrap-paper formula."
 figures:
@@ -141,3 +141,40 @@ Look at the back. Size the dark
 line. Leave it. The rattle in
 January is the treaty you can
 still hear.
+
+## Space balls are not glue
+
+A rubber bump in the
+groove keeps a winter
+panel from sounding
+cheap in a truck. If
+the bump is so fat that
+the panel cannot grow,
+you have invented a
+lock with a friendlier
+name. Size the bump
+after the product, not
+instead of it. Silicone
+that smears into a
+bead around the field
+is glue in costume.
+Wipe it. The treaty is
+space, not a gasket.
+
+## Painted kitchens
+
+A sheet panel in a
+solid frame is how
+most kitchens sleep.
+Leave a little room
+anyway — paint build,
+a core that is not
+dead, a day the
+dishwasher runs. Do
+not sell that door as
+quartered oak. Sell
+it as a treaty with
+a stable field. The
+back still tells the
+truth if someone
+looks.

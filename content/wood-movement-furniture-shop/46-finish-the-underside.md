@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 420
+word_count: 740
 dek: "The show face is not the only face the air can find. A naked back is how a pretty top learns to cup."
 meta_description: "Moisture exchange on one face only bends a board. Seal the underside and the ends, even with a simpler schedule, so both faces travel at something like the same speed."
 figures:
@@ -137,6 +137,100 @@ log. Do not belt the
 show face into a
 thinner lens and leave
 the back in charge.
+
+## What "simpler coat" means
+
+On a dining top I will
+run the show schedule
+on the face and a
+thinner, faster cousin
+on the back — same
+family if I can, so I
+am not stacking
+incompatible films. Oil
+face and oil back is
+honest. Varnish face
+and raw back is a cup.
+Varnish face and a
+single varnish back is
+usually enough delay
+to keep the lens out
+of the photograph. A
+waterborne face and a
+naked back is a fast
+cup in a wet week
+because the back
+drinks.
+
+Do not put a plastic
+film on the face and
+a wiping oil on the
+back and call them
+even. They are two
+speeds. Even is the
+point.
+
+## Leaves and the closet
+
+Leaves stored in a
+closet, stacked face
+to face with raw
+backs, pick up the
+closet and then meet
+a finished table that
+lived in the hall.
+The leaf cups. People
+say the table
+"rejected" the leaf.
+The leaf lived in a
+different EMC with
+one face sealed.
+Finish the leaf
+backs. Store them on
+sticks or at least
+on edge, not in a
+hug on a carpet.
+
+## Inside a chest
+
+The underside of a
+lid is also an
+interior. So is the
+back of a door. A
+raw interior in a
+house that runs wet
+in August will swell
+the piece from the
+inside while the
+exterior film tries
+to hold a winter
+shape. You do not
+need gloss in a
+chest. You need a
+seal that matches
+the speed of the
+outside well enough
+that the box does
+not become a
+bellows.
+
+## The five-minute flip
+
+Before the truck:
+flip every solid
+top, every lid,
+every wide door.
+If you see raw
+wood where air can
+live, you are not
+done. If you see
+travelers and a
+coat, you can
+leave. That flip
+is cheaper than a
+January lens and
+a theory about
+oak being moody.
 
 The underside is not
 humble. It is half the

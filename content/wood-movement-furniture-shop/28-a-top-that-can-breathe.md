@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 548
+word_count: 736
 dek: "The apron is quiet length. The top is live width. If you screw them together at both ends like a machine lid, the top will pick a line and open it."
 meta_description: "Tabletops need a sliding connection to the base. Slotted screws, clips, or buttons let the width change. Tight screws at the ends store a season as a crack."
 figures:
@@ -129,3 +129,60 @@ real one. Build the underside so the
 width can slide. The finish can be
 as quiet as you like. The fasteners
 should not be.
+
+## Count the travelers
+
+A 36-inch oak top on
+a four-rail apron: I
+want travelers every
+six to eight inches
+along the long rails,
+tighter toward the
+center, freest at the
+ends. The short rails
+are closer to quiet
+length meeting quiet
+length if the top
+grain runs the long
+way — still do not
+pin the corners like
+a crate. Corners are
+where shops add
+"just one more screw"
+for the truck.
+
+## Pedestal plates
+
+A small steel plate
+with four holes is a
+clamp the size of a
+hand. Slot the plate
+or use a larger one
+with travel at the
+corners and a tight
+middle. I have seen
+a pedestal split a
+glue line that a
+four-rail apron would
+have survived,
+because the plate
+was proud of its
+job.
+
+## Leaves in the year
+
+Alignment pins fitted
+in April will miss in
+January if the leaves
+lost width. A little
+cone forgiveness is
+not sloppy. A leaf
+that cannot come home
+gets stored in a
+closet and then
+someone says the
+table shrank in
+length. Tape the
+aprons. The length is
+still there. The
+width left.

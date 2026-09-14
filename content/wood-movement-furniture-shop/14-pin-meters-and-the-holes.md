@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 619
+word_count: 655
 dek: "Two holes in a waste edge are cheaper than a confident lie on a show face. A pin meter earns those holes when you need depth."
 meta_description: "A pin meter reads electrical resistance between two needles. Species, temperature, and where you poke all matter. The holes are the fee for a deeper guess."
 figures:
@@ -113,3 +113,12 @@ a poke.
 The holes are ugly on a photograph and honest on a
 ticket. I will take honest. The cathedral can stay
 pretty. The waste can tell the truth.
+
+A pin through a glue
+line is a glue reading.
+A pin in a knot is a
+knot reading. Move the
+needles. The holes are
+still cheaper than a
+door you glued on a
+skin number.

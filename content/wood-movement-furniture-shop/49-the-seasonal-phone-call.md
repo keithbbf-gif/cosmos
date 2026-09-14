@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 475
+word_count: 657
 dek: "The call is a costume: drawer, door, crack. Your job is a second picture, a month, and one next step — not a lecture from the Handbook."
 meta_description: "A service call about humidity starts with the piece and the underside, not the word humidity. Ask for raking light and the back. Then own the joint or name the house."
 figures:
@@ -152,3 +152,54 @@ You can be kind
 without being fog.
 Kind is the driver.
 Fog is the lecture.
+
+## A call that was a hinge
+
+They said February
+humidity had twisted the
+door. The second picture
+showed a hinge mortise
+cut after finish, raw,
+screws in a proud lip.
+The house RH was
+ordinary. We sealed the
+mortise, longer screws
+into long grain, and
+the latch came home.
+If I had started with
+EMC I would have
+missed the mortise and
+sent a pamphlet. The
+sort is why the second
+picture exists.
+
+## A call that was the hall
+
+Same month, different
+house. Breadboard proud,
+field free, underside
+travelers in place,
+logger in the hall at
+22 percent for a week.
+We left a hygrometer,
+named the proud on the
+card again, and did
+not sand the step. They
+were angry until July
+when the step went shy
+and they sent a kinder
+picture. The book had
+both pictures. That is
+how a call becomes a
+year instead of a
+verdict.
+
+Ask for the second
+picture before you
+offer a date. The
+first picture is the
+feeling. The second
+is the fasteners.
+You need both. You
+do not argue with a
+feeling.

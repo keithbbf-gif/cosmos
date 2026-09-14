@@ -6,9 +6,13 @@
 
 ## What a piece is
 
-A draft is a finished shop essay of about **1,000–1,600 words**. It
+A draft is a finished shop essay of about **650–1,100 words**. It
 opens on a thing you can hold or hear. It earns one judgment. It
-does not try to be a textbook chapter with a lede glued on.
+does not try to be a textbook chapter with a lede glued on. Length
+here is the finishing-chemistry shop essay, not a 2,000-word
+magazine feature. If a piece can lose a paragraph without losing
+the judgment, cut. If it cannot name a width, a month, or a
+fastener, add.
 
 Each piece must stand alone. A reader who never sees the other
 forty-nine should still get a complete argument and a picture they

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 514
+word_count: 687
 dek: "Some drawings are a winter crack with dimensions. The kind shop is the one that says no before the deposit clears."
 meta_description: "Refuse a design that pins live width, glues a field, or promises flush breadboards in every month. Offer a treaty or a different material. Do not take the job as drawn."
 figures:
@@ -142,6 +142,52 @@ the deposit. Courage is a
 red X on a pretty sheet
 and a second sheet that
 can survive August.
+
+## Three drawings I will not cut
+
+A 16-inch flatsawn oak
+slab door, no frame, piano
+hinge, "tight to the
+strike." A harvest table
+with breadboards glued
+full width and a note
+"flush always." A solid
+chest with the back
+nailed like a crate and
+web frames glued into
+dados the depth of the
+side. I can draw the
+treaty version of each
+in an hour. I cannot
+draw the year out of
+them.
+
+If the client wants those
+three as drawn, they can
+find a shop that likes
+January photographs. I
+would rather send them
+down the road than spend
+a season explaining a
+crack I agreed to.
+
+## How refusal looks on a quote
+
+Not a sermon. A line:
+`Construction change:
+frame-and-panel, field
+floated, see sketch B.`
+Or: `Cannot warranty
+pinned solid top as
+drawn.` The deposit
+follows the sketch they
+initial. If they initial
+the clamp after you
+wrote the risk, you
+still live in the same
+town. I initial the
+treaty or I do not take
+the money.
 
 The drawing is a wish.
 The wood is a climate.

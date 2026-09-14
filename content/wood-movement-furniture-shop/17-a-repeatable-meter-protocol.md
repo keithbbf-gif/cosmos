@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 544
+word_count: 659
 dek: "One meter, one ritual, a line in a book. A pile of one-off pokes is how every board becomes 'about eight.'"
 meta_description: "A shop moisture protocol is the same meter, the same places, the same words on the ticket. Without it, readings cannot be compared across a week."
 figures:
@@ -122,3 +122,34 @@ will remember eight. Everyone remembers
 eight. Eight is the folklore MC of American
 furniture. Some of those eights were eleven.
 The protocol is how you find out which.
+
+## A book that saved a kitchen
+
+Six drawer boxes, solid
+sides, fitted in a dry
+week. The book said shop
+38 percent RH, sides 7.1
+to 7.4 pinless, maple
+setting. August locked
+two of them. We knew we
+had fitted thin. We
+planed runners and wrote
+the month. Without the
+book we would have
+argued about "the wood."
+With the book we owned
+the fit and the client
+stayed a client.
+
+## What not to put in the book
+
+Feelings first. A sketch
+of a cathedral. A brand
+loyalty paragraph. Put
+those after the numbers
+if you need them. The
+protocol is boring on
+purpose. Boring is
+comparable. Comparable
+is how two Tuesdays
+talk.

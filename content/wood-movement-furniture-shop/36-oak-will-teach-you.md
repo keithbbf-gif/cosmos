@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 521
+word_count: 654
 dek: "Red oak and white oak are the loud coefficients most shops already own. If your gaps work in oak, they will probably work in walnut. The reverse is a trap."
 meta_description: "Oak's tangential coefficients sit near 0.0037. A 12-inch flatsawn field through four moisture points is about 3/16 inch. Design oak first and the quieter species get mercy."
 figures:
@@ -145,3 +145,42 @@ woods stop tricking you
 into locks. Oak is not
 mean. Oak is audible.
 Listen before you pin it.
+
+## Tannin is not movement
+
+A black ring around a
+cheap steel clip on
+oak in a wet week is
+iron and tannin. People
+file it under humidity
+because both involve
+water. Clean it as a
+metal problem. Use a
+clip that can live
+there, or a wood
+button. Do not add
+gap to a door because
+a clip stained. The
+gap is a different
+sentence.
+
+## A 12-inch field until it is boring
+
+Write `12 × 0.00369 × 4
+≈ 0.177` on a scrap
+until you can see
+three-sixteenths
+without the pencil.
+Then a 24-inch field
+is obviously a
+three-eighths
+conversation. Then a
+walnut 12-inch is
+obviously smaller.
+Oak as a teacher is
+that scrap, not a
+speech about
+character. Character
+is what people say
+after they skipped
+the scrap.

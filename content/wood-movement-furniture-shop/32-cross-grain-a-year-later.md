@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 488
+word_count: 827
 dek: "Two grain arrows that disagree, glued along their full meeting, will open on a calendar. The clamp does not get a vote in February."
 meta_description: "Cross-grain glue-ups store seasonal width change as stress. A year later the joint opens, a panel splits, or a breadboard blows. Leave slide or stop gluing the disagreement."
 figures:
@@ -125,6 +125,103 @@ Change the glue note or
 change a material. Do it in
 pencil. The photograph will
 not accept a footnote.
+
+## A chest lid I would not glue again
+
+A solid cherry lid, 18
+inches front to back,
+grain running the long
+way of the chest. Two
+oak cleats glued and
+screwed across the
+back "to keep it flat."
+In the clamp it was a
+board. In February the
+ends of the lid rose
+and the middle stayed
+with the cleats. The
+client called it
+warping. It was a
+cross-grain glue-up
+doing exactly what
+the arrows said. The
+save was to free the
+screws into slots,
+lose the glue, and
+accept a shallow
+memory of the cup.
+The save would have
+been cheaper on the
+drawing.
+
+## Small parts still count
+
+A breadboard is the
+famous case. A pencil
+molding on a lid is
+the quiet one. A
+hinge block glued to
+a solid door stile
+across the grain is
+the one that opens a
+finish line at the
+block. A tabletop
+button glued as well
+as screwed is a
+button that cannot
+travel. Scale does
+not forgive direction.
+If the meeting is
+longer than a couple
+of inches and the
+arrows disagree, you
+are in this draft.
+
+## Glue that creeps is not a plan
+
+PVA will sometimes
+slide a little under
+months of stress and
+the hairline looks
+softer. Shops then
+decide creep is a
+design method. Creep
+is a mess that
+photographs as a
+ridge of film. Hide
+glue may let go in
+a steamy kitchen and
+look like a repair
+opportunity. Epoxy
+will not let go; it
+will take fiber with
+it. None of those
+moods is a slot.
+If you need travel,
+cut travel.
+
+## Drawing habit
+
+Red pencil on every
+full-length glue note
+that crosses an
+arrow fight. The red
+is not drama. It is
+how a year-later
+joint gets caught
+while it is still
+eraser. If the
+client wants the
+look, offer a
+floating meeting or
+a sheet good. If
+they want the lock,
+refuse it in this
+series' other draft.
+The calendar is a
+poor designer. It is
+an excellent
+inspector.
 
 A year later is still your
 joint. The calendar is just

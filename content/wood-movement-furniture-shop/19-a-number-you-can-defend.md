@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 625
+word_count: 750
 dek: "Pick a shop range that a house can also live in. Then spend the year keeping the wood near that range. Comfort is not a target."
 meta_description: "A furniture shop that holds about 40–50 percent RH is aiming at roughly 8–9 percent EMC. The number is a defense of the joints, not a vibe."
 figures:
@@ -123,3 +123,37 @@ place (the rack), an instrument that can
 be wrong, and a year of boring work. Boring
 is what joints like. Comfort they will
 survive if the boring held.
+
+## When 40–50 is the wrong band
+
+A shop that only delivers
+to Gulf porches and wet
+additions may honestly
+sit wetter and design
+the travel up. A shop
+that only delivers into
+mountain winters may sit
+drier. The sin is
+claiming 45 while the
+logger writes 62, or
+claiming 45 as a
+promise on a care card
+without a temperature.
+Print the band as a
+shop target. Print the
+house as a maybe. The
+product uses the
+difference.
+
+## Write it on the door
+
+`Rack 40–50% RH. Glue
+near 8–9% MC unless the
+ticket says the house
+is different.` When the
+clamps are free and a
+12 percent panel is
+tempting, the door is
+the grown-up. Comfort
+can wait. The joint
+cannot.

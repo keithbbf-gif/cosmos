@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 506
+word_count: 715
 dek: "A film is a delay, not a dam. The board still has a destination. You bought time, not a repeal of January."
 meta_description: "Finishes slow moisture exchange. They do not stop it. Uneven films — a sealed face and a naked back — turn the delay into a cup."
 figures:
@@ -145,6 +145,60 @@ enough. If you promise
 "sealed," January will
 use that word against
 the hairline.
+
+## A weekend in a van
+
+A finished table in a
+closed van in July will
+still move, just slower
+than a raw one. The film
+buys you the drive. It
+does not buy you a week
+in the sun at a show.
+Crack the van. Blanket,
+do not plastic for days.
+A raw top in that van
+will cup before you
+unload. That is the
+delay earning its keep.
+It is also why a shop
+that delivers raw "for
+the client to oil" is
+delivering a traveler
+with no delay at all.
+
+## Cuts through the film
+
+A worn dining edge is a
+vent. So is a scratch
+to bare wood on a cup
+that then gets worse
+because one face is
+now faster. Repair is
+closing the vent as
+much as matching color.
+A table that is "just
+oiled" when people
+wanted a film will
+need oil on a schedule
+or the delay disappears
+and the year speeds up.
+
+## Thick and brittle
+
+A heavy conversion film
+— or a consumer poly
+piled until it looks
+like glass — can check
+when the field moves
+under it. The check
+looks like a finish
+failure. The field
+moved. Thin even coats
+follow a live width
+better than a helmet.
+Helmets belong on
+plywood.
 
 Slows is a shop word.
 Stops is a catalog word.

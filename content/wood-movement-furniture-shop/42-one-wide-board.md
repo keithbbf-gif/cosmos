@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 478
+word_count: 679
 dek: "A single 16-inch flatsawn board is one cup and one coefficient. A glue-up of three is a committee. Pick the committee on purpose."
 meta_description: "Wide single boards cup and travel as one piece. Glued panels can fight cups and still add widths. Decide which honesty you are selling before you mill."
 figures:
@@ -137,6 +137,59 @@ glue lines does not
 cancel the product. It
 only changes the cup
 politics.
+
+## When the romance is worth it
+
+A 9-inch quartersawn
+walnut hall top from one
+board is a quiet width
+and a face that reads as
+a tree. The product is
+small. The cup habit is
+mild. I will take that
+romance. A 18-inch
+flatsawn red oak from
+one board with pith
+near the edge is a
+split wearing a price
+tag. I will not take
+that romance without a
+refuse or a frame.
+
+## Glue lines as honesty
+
+Clients sometimes ask
+for no glue lines as if
+lines were a defect.
+A good line in raking
+light is two boards
+that agreed. A winter
+hairline in a glue line
+is often a lock, not a
+committee failure. Show
+them a sample of a
+clean glue-up and a
+cupped single board.
+Let the hand choose.
+Hands are less romantic
+than photographs.
+
+## Flattening a trophy
+
+One wide 8/4, cathedral
+you could sell as a
+poster: flatten, sticker
+overnight, flatten
+again, then decide if
+it is still a top. If
+the second flat spends
+too much thickness, it
+is shorter parts. The
+trophy does not get to
+override the caliper.
+A thin trophy cups
+easier and photographs
+the same until January.
 
 One wide board is a
 choice. Buy it like a

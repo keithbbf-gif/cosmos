@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 474
+word_count: 729
 dek: "An applied molding that is quiet length on a live lid will open at the ends every dry season. That line is not a finish failure. It is an arrow you glued."
 meta_description: "Winter hairlines at moldings, breadboard steps, and rail-to-side meetings are seasonal width change showing at a glued or finished edge. Design the meeting or accept the line."
 figures:
@@ -121,6 +121,68 @@ stays open in summer." You
 have named the hairline
 before it photographs as a
 betrayal.
+
+## A lid molding that taught the rule
+
+A painted pine chest, lid
+grain running long, a
+quiet maple molding glued
+full-length around the
+perimeter for a
+"furniture" edge. August
+was tight miters. January
+opened the two ends of
+the front molding by a
+line you could catch a
+nail in. The paint
+bridged, then cracked, so
+the photograph looked
+like a finish failure.
+The finish was a witness.
+The save was to cut the
+end glue free, pin the
+middle, and leave the
+miters as a shadow. The
+client wanted caulk. Caulk
+on a lid is a kitchen
+habit. We did not caulk.
+
+## When a hairline is a crack
+
+If the line goes to the
+core, if it runs with a
+glue line that has glossy
+cheeks, if it stays open
+in June — you are not in
+this draft's seasonal
+stripe. You are in the
+split draft. Do not use
+the care-card sentence
+as a cloak. A crack that
+takes a playing card is
+not a hairline. A
+hairline that takes a
+thumbnail in January and
+nothing in July is.
+
+## Light and the tan
+
+Raking light sells the
+line. Overhead light
+hides it. Clients send
+the raking shot. That is
+fair. Your job is to
+know whether the raking
+shot is a treaty working
+or a lock failing. The
+back of the piece,
+again, is how you know.
+A hairline over a row of
+tight screws is a lock.
+A hairline at a floated
+panel edge is a stripe
+you should have
+finished.
 
 The winter hairline is
 honest. It is also optional

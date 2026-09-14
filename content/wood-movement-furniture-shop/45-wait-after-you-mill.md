@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 438
+word_count: 724
 dek: "A planer opens a new face. The core starts talking. If you glue the first flat, you glue a traveler."
 meta_description: "Milling exposes a moisture gradient. Flatten, sticker, wait, flatten again. The second flat is the one the joint deserves."
 figures:
@@ -134,6 +134,80 @@ gets you a field that
 is one climate, not a
 field that is exempt
 from the house.
+
+## What a morning look actually is
+
+I have flattened a 5/4
+oak field at 4 p.m.,
+left it on sticks, and
+found a whisper of cup
+at 7 a.m. that was not
+in the rings the day
+before. The whisper was
+the new face talking.
+One more jointing pass
+took it. The glue-up
+that afternoon held
+through a winter. The
+glue-up I did once, the
+same week, on a hurry
+job, sent a photograph
+in February. Same
+species. Same shop.
+The clock was the
+difference.
+
+## How long is not a poster
+
+4/4 that has lived in
+your air for a week and
+reads the same on face
+and end can often go
+from mill to glue the
+next morning. 8/4 that
+arrived Tuesday from a
+wet shed cannot. A
+rule of "overnight"
+without a witness
+reading is a poster.
+The witness is a cutoff
+you meter on the fresh
+face, or a deep pin in
+waste. If that number
+moved overnight, the
+board is not late. You
+are early.
+
+Steam in a finishing
+room will fool you the
+other way: a skin that
+reads dry while the
+core is still the shed.
+Milling then feels like
+progress. It is a new
+gradient. Pull the
+stock back to the
+assembly aisle and let
+both faces see the same
+air before the second
+flat.
+
+## The apprentice test
+
+If they cannot tell you
+the mill date and the
+glue date as two
+dates, they skipped
+the wait. If those
+dates are the same on
+a slab, stop the
+clamps. If they say
+the board "looked
+dry," hand them the
+meter and the
+protocol draft. Look
+is how first flats
+become winter cups.
 
 The planer makes
 furniture possible. It

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 544
+word_count: 683
 dek: "Solid sides grow across their height. The opening does not. An August hip-check is a clearance you fitted in a dry week."
 meta_description: "Drawer sides are live width standing on edge. Fit them with the wet month in mind, or use a construction that does not ask solid wood to pass a fixed opening."
 figures:
@@ -139,3 +139,43 @@ report. August reads it out
 loud. Write August into the
 gap while the shop is still
 quiet.
+
+## Height is the live number
+
+A 5.5-inch maple side,
+4 points, T 0.00353:
+about 0.08 inch. That
+will eat a proud fit.
+A 3-inch side is
+kinder. A 7-inch oak
+side is a louder
+report. Write the
+height on the cut list
+as the live width. I
+have watched people
+size drawer *length*
+for movement because
+they heard "wood
+moves." Length is
+quiet. Height is the
+job.
+
+## Plywood box, solid front
+
+The front can be a
+tree. The box can
+shrug. Mechanical
+slides like that
+peace. A solid box
+on slides will take
+the argument to the
+screw holes. If you
+sell solid sides,
+run wood on wood or
+understand which
+member is allowed to
+change. Do not mix
+the peace and the
+tree in the same
+opening and hope
+August is polite.

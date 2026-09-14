@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 501
+word_count: 655
 dek: "Four names. Four geometries. If you use warp for all of them, you will apply the wrong fix and call it humidity."
 meta_description: "Cup is width across the face. Bow is length along the face. Twist is a propeller. Crook is an edge that left the line. Only some of these are seasonal moisture in the way shops mean."
 figures:
@@ -154,6 +154,47 @@ warp first. Then decide
 if you are in a climate
 draft or a milling
 draft.
+
+## A service call with the wrong name
+
+They said the leaf
+warped. The leaf was
+twisted — winding sticks
+clicked at opposite
+corners — and it had
+been stored on a damp
+garage floor on two
+uneven 2xs. Humidity
+was in the story. Twist
+was in the board before
+the floor finished it.
+We could not logger it
+flat. We could make a
+new leaf from stock
+that had lived in the
+house air, or we could
+joint it thinner if
+thickness allowed. We
+did not wet-clamp it
+overnight and call that
+a climate fix.
+
+## Quick sort at the bench
+
+Cup: straightedge across.
+Bow: straightedge along.
+Twist: winding sticks.
+Crook: edge to a known
+straight. Write the name
+on the ticket before you
+write humidity. If three
+of the four are present,
+you may have a board
+that should have been
+shorter parts, not a
+season. Seasons usually
+pick one noun and lean
+on it.
 
 Four names. Use them.
 Warp can stay in the

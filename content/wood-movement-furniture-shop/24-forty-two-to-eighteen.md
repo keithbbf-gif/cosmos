@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 536
+word_count: 719
 dek: "A shop at 42 percent RH and a sealed condo at 18 is not a delivery. It is a moisture change you already know the width of."
 meta_description: "Delivery from a mid-range shop into a very dry house is a designed ΔMC. Fasteners, gaps, and the care card have to survive that drop."
 figures:
@@ -123,3 +123,46 @@ formula does not care which one
 you liked. The width will follow
 the house. Let the hardware
 follow the width.
+
+## Math you can say in the kitchen
+
+Shop air at 42 percent RH,
+about 70°F, is near 8
+percent EMC. A hall at 18
+percent RH is a much drier
+destination — low sixes if
+the Handbook row holds.
+`[VERIFY]` with their
+logger before you print a
+client's number. Call it 3
+to 4 points if you are
+being kind, more if the
+house is a desert. On a
+36-inch flatsawn oak top
+that is the better part of
+half an inch. If the
+underside cannot travel
+half an inch, do not
+deliver into that hall
+without a conversation
+and a screwdriver.
+
+## Gifts and second houses
+
+A piece that will live
+half the year in a lake
+house and half in a
+sealed condo has two
+destinations. Design for
+the drier one and tell
+them the wetter one may
+show a shy breadboard
+or a snug drawer. A gift
+shipped across a climate
+line is the same pair of
+numbers with a truck in
+the middle. Blankets.
+No week of plastic. A
+care card that names
+both rooms if you know
+them.

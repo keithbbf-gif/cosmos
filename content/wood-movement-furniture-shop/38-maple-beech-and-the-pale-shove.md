@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 417
+word_count: 774
 dek: "Hard maple moves like a serious hardwood. Beech and hickory move like they want the groove to yourself. Pale is not calm."
 meta_description: "Sugar maple's tangential coefficient is about 0.00353. Beech and hickory sit higher. Size gaps up, not down, when the ticket goes pale and dense."
 figures:
@@ -134,6 +134,93 @@ cannot find a Handbook
 line I trust, I treat it
 as louder than oak until
 a page says otherwise.
+
+## A maple door that looked calm
+
+A 12.5-inch flatsawn hard
+maple panel, 4 points of
+MC: `12.5 × 0.00353 × 4 ≈
+0.176`. That is oak's
+neighborhood. If you left
+an oak-sized groove you
+are fine. If you left a
+walnut-sized groove because
+the face looked even, you
+are a sixteenth short. The
+stile will tell you in a
+dry house. Maple also
+shows every scratch you
+make chasing grain raise,
+so shops sand it like
+glass and then act
+surprised when a tight
+groove prints a ridge.
+The ridge is width. The
+glass was vanity.
+
+## Beech as a worktop
+
+People like beech for
+butcher blocks and bench
+slabs because it wears.
+Wear is not EMC. A 24-inch
+flatsawn beech field, 4
+points: `24 × 0.00431 × 4
+≈ 0.41`. Almost half an
+inch. A breadboard glued
+in the outer third on that
+field is a splitter you
+can schedule. If the
+client wants a beech slab
+that looks like a
+restaurant block, I want
+battens in slots, both
+faces finished, and a
+care card that mentions
+the sink and the stove.
+I do not want four corner
+screws into a quiet apron.
+
+## Hickory in a mixed room
+
+Hickory floors next to
+hickory furniture is two
+loud coefficients sharing
+a house. The floor is
+nailed or floated to a
+system. The furniture is
+your treaty. Do not size
+a hickory door panel
+like the cherry nightstand
+beside it. The nightstand
+will look well-behaved.
+The door will not. Write
+both coefficients on the
+same ticket so the
+apprentice does not
+average them into "pale
+hardwood."
+
+## When pale is the right buy
+
+A maple box with a
+walnut face is how you
+get a calm opening and
+a brown show. A beech
+chair seat on a maple
+frame can work if the
+seat is allowed to move
+in its own way — not
+glued as a panel into
+a groove that was sized
+for oak and then
+"tightened." Pale as a
+structure, brown as a
+skin, is often the
+honest kitchen. Pale as
+a 16-inch slab with oak
+habits is a shove you
+invited.
 
 Pale is a color. Shove is
 a number. The groove

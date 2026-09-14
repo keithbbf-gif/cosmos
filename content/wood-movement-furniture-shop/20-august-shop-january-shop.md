@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 551
+word_count: 701
 dek: "Same walls. Two climates. If your fitting habits ignore the month, the month will write them for you."
 meta_description: "A South Arkansas shop in August and the same shop in January are different rooms. Fit drawers, doors, and glue-ups as if the other month were invited."
 figures:
@@ -117,3 +117,44 @@ only the syllabus page.
 Same walls. Two climates. A third if you
 deliver. Build as if all three will meet
 the piece. They will.
+
+## A kitchen fitted in one month
+
+I have seen a run of
+drawers all fitted in
+the first cold week of
+January, all proud, all
+praised. June closed
+half of them. The shop
+was the same shop. The
+month was not on the
+ticket. Now the ticket
+gets a letter: J or A
+or the date. An
+apprentice who only
+knows J will fill a
+house with hip-checks.
+An apprentice who only
+knows A will fill a
+house with rattles.
+Both need the other
+letter in the gap.
+
+## Glue-up weather
+
+Hide glue in August
+open-time is a
+different pot than
+January. PVA skins
+over faster in dry
+heat. That is bottle
+weather, covered in
+the glue draft. Here
+the point is: do not
+treat a January
+panel gap like an
+August one without
+looking at the wall.
+The product uses ΔMC.
+ΔMC has a month in
+it.

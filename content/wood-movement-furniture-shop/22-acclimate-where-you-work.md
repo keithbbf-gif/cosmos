@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 568
+word_count: 703
 dek: "A week in a room you do not assemble in is a week in the wrong weather. The board should learn the air the joint will meet."
 meta_description: "Acclimation means the stock reaches the EMC of the room where you mill and glue. A dry finishing room or a wet shed does not count."
 figures:
@@ -124,3 +124,41 @@ You unpacked. Unpacking is honest.
 Call it that. Then wait where you
 work, not where the trailer sits in
 the sun.
+
+## The finishing-room trap
+
+A booth held dry for
+film is a gift to
+varnish and a lie to a
+panel you will glue
+tomorrow in a wetter
+aisle. I have watched
+a board go flat in the
+booth and cup on the
+assembly bench by
+lunch. The board was
+not vicious. It changed
+air. Acclimate in the
+aisle you will mill.
+Move to the booth for
+film after the joints
+exist.
+
+## Site work
+
+A built-in milled in
+the shop and installed
+in an addition that is
+still drying is a
+built-in that will
+show the addition's
+EMC. Leave parts on
+sticks in that room
+if the schedule
+allows. If it does
+not, design more
+travel and say so.
+Site week is not a
+substitute for shop
+week. It is a last
+correction.

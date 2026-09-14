@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 562
+word_count: 728
 dek: "Sticks are how air gets a vote. A pile without them is a single fat board that dries at the edges and stays wet in the middle."
 meta_description: "Even stickers, aligned over bolsters, keep a furniture rack flat and let faces reach shop EMC. Random scrap and a hug of straps make cup and stain."
 figures:
@@ -128,3 +128,52 @@ the scale of a stick. Do it like
 you mean the EMC you wrote on the
 wall. The wall cannot reach the
 middle board without you.
+
+## Sticks that stained a field
+
+Wet pine sticks on
+white oak in still
+August air left shadows
+we sanded for a day
+and still saw in
+raking light. Dry
+sticks, a little aisle
+air, and oak that will
+be a clear dining
+field do not get
+mystery scrap from the
+floor. If the field is
+painted, stain is a
+lesser sin. If the
+field is a tree, the
+sticks are part of
+the finish.
+
+## Bolsters
+
+An eight-foot pile on
+two 2xs that sag is a
+bow machine. Three or
+four bolsters, in
+line with the stick
+columns, and the pile
+is a pile. I have
+jointed bow out of
+boards that only ever
+lived in a soft
+middle. That was not
+oak. That was the
+floor.
+
+## Finished doors
+
+A stack of finished
+doors kissing is how
+you print weather
+into a film and trap
+moisture on a face
+you already sealed.
+Sticks between doors.
+The film slowed the
+trip. It did not
+cancel the aisle.

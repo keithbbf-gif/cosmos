@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 441
+word_count: 658
 dek: "If the list cannot say cut, width, coefficient, ΔMC, gap, and how the top is fastened, the list is a wish. Wishes split."
 meta_description: "A furniture cut list is a humidity document: species, cut, live width, product, shop RH, house target, fasteners. One page before the saw."
 figures:
@@ -159,6 +159,68 @@ the quiet one. Hope
 does not get a blank.
 Hope gets the product
 or it gets a red X.
+
+## A page that failed and why
+
+I have seen a clipboard
+with species and width
+and nothing else. The
+door was 11.25 oak. The
+groove was whatever the
+cutter left. August
+split a bottom rail.
+The redo had the
+product on it: T
+0.00369, ΔMC 4, travel
+0.17, mercy a thirty-
+second, no glue on the
+field. Same oak. Same
+shop. The page was the
+difference. The year
+does not grade
+intentions.
+
+## What you can leave off
+
+Brand of glue, if the
+ticket already names
+the joint. The client's
+favorite football team.
+A paragraph about
+craft. What you cannot
+leave off is the live
+dimension and where
+the travel lives. A
+beautiful cut list
+that forgets fasteners
+is a beautiful way to
+pin a top.
+
+## Five-minute version
+
+If the job is a small
+box with no solid
+field, you still write
+species and that the
+openings are a sheet.
+If the job has one
+wide field, you write
+the long line even if
+you skip the rest. The
+long line is the
+series in one
+sentence. Skip that
+sentence and you have
+skipped the syllabus.
+
+If the clipboard is
+full of widths and
+empty of travel, the
+saw is cutting a
+wish. Fill the
+travel blank. Then
+the year has less
+to inspect.
 
 The series ends here
 because the shop does

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 550
+word_count: 732
 dek: "Glue the middle. Slot the ends. Finish the field's end grain. Anything else is a splitter with a traditional name."
 meta_description: "A working breadboard is a long-grain cap on a live-width field. Center glue and elongated pins let the field shrink without splitting the tenon."
 figures:
@@ -132,3 +132,56 @@ is the joint. The pretty end grain
 on the cap is decoration. Decoration
 is allowed. It does not get to
 override the slots.
+
+## A tenon that split on a pretty table
+
+42-inch red oak field,
+breadboard glued in the
+outer third because
+someone wanted flush in
+every photo. February
+opened the tenon like a
+book. The redo glued
+eight inches in the
+center, slotted the
+outer pins for the
+half-inch product, and
+finished the field
+ends. The cap stands
+proud in January. The
+tenon is one piece.
+Flush was the wish.
+The slots were the
+job.
+
+## Drawbore without a lock
+
+A drawbore that pulls
+the shoulder tight is
+lovely in the middle.
+On the outer pins it
+is a lock if the hole
+is round. Elongate
+first, then offset, or
+do not drawbore the
+outers. I have seen a
+beautiful peg line
+split a tenon because
+the offset was a
+clamp. Pretty pegs
+are not a treaty.
+
+## Small tables
+
+A 14-inch cherry hall
+top can take more
+center glue than a
+harvest field. The
+product is smaller.
+You still slot
+something. "Small" is
+not "skip." Write the
+product. If it is a
+sixteenth, the outer
+pins still get a
+sixteenth of walk.

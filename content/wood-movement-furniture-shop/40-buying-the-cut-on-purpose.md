@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 519
+word_count: 674
 dek: "The yard sells faces. You are buying coefficients. Read the ends or you purchased a cathedral and a cup."
 meta_description: "Flatsawn, rift, and quartersawn are movement purchases. Check end grain, not the sticker. Pay for quarter when the width is live and you cannot frame it."
 figures:
@@ -145,3 +145,50 @@ has voted. Before that,
 pretty is how shops go
 home with the wrong
 column.
+
+## A sticker that lied
+
+A bundle marked QSWO
+had three true quarter
+faces and five smiles.
+The smiles would have
+become a "quartered"
+panel with a flat
+coefficient. We pulled
+the three, paid for
+what they were, and
+sent the smiles to a
+painted frame pile.
+The sticker stayed on
+the wrap. The ends
+went on the PO as
+what we actually
+rolled out.
+
+## Chair stock
+
+Legs and stretchers
+want rift or quarter
+so the face is
+straight and the
+width is calmer. A
+flat cathedral on a
+front leg photographs
+busy and moves more
+across a mortise
+cheek than you want.
+Pay for the cut on
+chair bills even when
+you buy flat for
+tops. Two POs. Two
+columns. One shop.
+
+If the yard will not
+let you see ends, you
+are buying faces.
+Faces are a look.
+Ends are the
+coefficient. Walk
+away or pay as if
+every board were
+flat and loud.

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 473
+word_count: 705
 dek: "Glue holds fiber. It does not hold a coefficient to zero. Pick a glue for the joint you cut, not as a substitute for a slot."
 meta_description: "Hide, PVA, polyurethane, and epoxy fail differently, but none of them cancel seasonal width change. A cross-grain glue line is still a year-later joint."
 figures:
@@ -137,6 +137,74 @@ If the ticket says
 `glue well` you have
 written a shrug. Well
 is not a direction.
+
+## Hide pot, PVA bottle, epoxy syringe
+
+I like hide on chairs
+and on work I may take
+apart. I like PVA on
+panels that are a
+field, not a fight. I
+like epoxy when I am
+filling a void I have
+already named as a
+void, not when I am
+trying to freeze a
+width. Polyurethane
+that foams into a
+gap I should have
+cut again is how
+shops hide a bad
+shoulder and then
+blame January. The
+season did not foam.
+
+If two bottles are
+on the bench, the
+ticket says which
+one met which joint.
+"Glue" is not a
+species.
+
+## Clamp time is not a climate
+
+Overnight in the
+clamps does not
+equalize a wet core.
+It equalizes pressure
+on a film. People
+leave panels in
+clamps for days
+"to be sure" and
+then unclamp into a
+different RH than
+the glue-up morning.
+The film is fine.
+The width is already
+traveling. Unclamp
+into the same aisle
+you glued in, on
+sticks, not into a
+finishing booth that
+is ten points drier.
+
+## The bottle on the service call
+
+If you open a joint
+and see torn fiber,
+say the glue held.
+Then free the
+travel. If you see
+gloss, say the glue
+never bit. Then
+remake the joint
+*and* check the
+drawing for a
+cross-grain span.
+Two findings can
+live in one piece.
+The call should
+name both.
 
 The season always
 shows up. Let it meet

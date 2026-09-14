@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 638
+word_count: 675
 dek: "A pinless meter is fast and polite. It is also a species setting with a pad. Leave the setting on the last job and you have invented a new oak."
 meta_description: "Pinless meters read a dielectric field in the first fraction of an inch. The species or specific-gravity setting is not optional. Depth is limited on purpose."
 figures:
@@ -121,3 +121,13 @@ The pad is a good shop citizen. The species
 button is the citizen's spine. Leave it set
 wrong and you have a fast machine for
 publishing fiction.
+
+If you change species
+at lunch, change the
+setting at lunch. Say
+it out loud. Write it.
+The pad is fast. The
+button is the spine.
+A tenth of a percent
+on the wrong density
+is jewelry.

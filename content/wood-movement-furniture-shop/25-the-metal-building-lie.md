@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 517
+word_count: 668
 dek: "A steel box is cheap, bright, and honest about weather in the worst way. It will not hold an EMC because you hung a disc by the door."
 meta_description: "Metal shops swing hard — radiant heat, cold walls, bay doors, wet slabs. Treat the building as a climate machine you have to fight, not as a neutral room."
 figures:
@@ -124,3 +124,47 @@ rack.` That line explains a cup
 better than "oak is moody." Oak is
 not moody. Steel is hot. The pile
 was too close to the wall.
+
+## Night sweat
+
+A July day that cooks
+the roof and a night
+that drops wet air on
+cold steel will put
+water on the walls and
+sometimes on a pile
+you left too close.
+Morning disc can read
+pretty after you open
+the man-door and stir
+the aisle. The boards
+against the eave did
+not get the stirring
+first. Walk the ends
+before you trust the
+disc. Wipe the rust
+off the tables later.
+The EMC work is the
+ends.
+
+## What insulation buys
+
+Not comfort only. It
+buys a smaller swing
+so the dehumidifier
+is not emptying the
+Gulf every hour and
+the heater is not
+toasting one aisle.
+If you cannot
+insulate this year,
+you can still move
+the rack to the
+core, shade a west
+wall, and stop
+gluing the hour the
+bay door was a
+rectangle of weather.
+Those three are free
+compared to a dining
+field.

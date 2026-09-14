@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 480
+word_count: 713
 dek: "The Handbook coefficient for eastern white pine is kinder than oak. The sponge is not. Softwoods take and leave moisture faster, and they cup like they mean it."
 meta_description: "Eastern white pine's tangential coefficient is about 0.00212. That quieter number does not make pine furniture still. Speed of moisture change and earlywood/latewood do the teaching."
 figures:
@@ -125,6 +125,66 @@ pine and furniture pine on
 the same ticket without
 writing which animal I
 meant.
+
+## A painted pine door in August
+
+A slab pine door, 14
+inches, flatsawn, fitted
+proud in a dry January
+shop, painted one face
+because the back "doesn't
+show" in a pantry. August
+swelled the back faster
+than the paint would
+allow. The door cupped
+into the latch. People
+said pine is cheap. The
+pine was fast, the film
+was one-sided, and the
+fit had no summer in it.
+A frame-and-panel with a
+sheet field would have
+been the pantry. The slab
+was a look. Looks need
+travelers and both faces
+even when the coefficient
+is kind.
+
+## Yellow pine is not white pine
+
+Southern yellow pine in
+this region is denser,
+harder on tools, and a
+different row in the
+table. `[VERIFY]` the
+species on the ticket
+before you borrow white
+pine's 0.00212. A
+construction 2x ripped
+into a "rustic" top is
+not furniture KD. Meter
+it. Expect pitch, knots
+that move, and a cup
+if you finish one face.
+Call it what it is on
+the care card.
+
+## Speed on the rack
+
+Pine will pick up a
+weekend of open bay
+door faster than oak.
+That is useful: you
+will see the shop's
+week on the pine
+before you see it on
+the walnut. Keep a
+pine witness board on
+sticks in the aisle.
+When it cups, look at
+the logger. The witness
+is cheaper than a
+finished lid.
 
 Pine is a different sponge
 with a kinder coefficient.

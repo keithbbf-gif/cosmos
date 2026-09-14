@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 646
+word_count: 689
 dek: "The board has a moisture content. The room has a relative humidity. If you use one word for both, the ticket will lie."
 meta_description: "Moisture content is water in the wood as a percent of oven-dry weight. Relative humidity is water in the air. They meet at EMC; they are not the same reading."
 figures:
@@ -113,3 +113,12 @@ which instrument spoke.
 Use the long words until the short ones behave. Then you
 can say "the rack is at eight" and everyone in the shop
 will hear MC. Until then, say the noun.
+
+A wall at 45 percent RH is
+not a board at 45 percent
+MC. The meeting of those
+two is EMC, and EMC is a
+third noun. Three nouns
+on a ticket will outlive
+any shop slang you invent
+on a busy Tuesday.

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 593
+word_count: 752
 dek: "The machine is not a personality. It is how you buy a drier EMC in a wet month. Size it for the building, drain it like you mean it, and do not aim it at one pile."
 meta_description: "Dehumidifiers and humidifiers hold a shop band if they are sized, drained, and placed for the rack — not for the coffee pot. The power bill is cheaper than a split top."
 figures:
@@ -125,3 +125,43 @@ Pay the visible one so the quiet one
 stays in the band. That is the whole
 argument for the machine. Personality
 does not enter it.
+
+## A bucket that taught the aisle
+
+We ran a household unit
+on a pallet for a month
+and emptied a bucket
+when we remembered.
+The logger showed nights
+at 60 percent after we
+forgot. The oak on the
+front of the rack
+climbed. The oak in the
+core lagged. A hose to
+a drain and a unit that
+could keep up ended the
+personality phase. The
+bill went up. The
+August glue-ups stopped
+looking like April
+glue-ups that had lied.
+
+## Winter without a second machine
+
+If heat already holds
+you in the band, do not
+add a humidifier out of
+symmetry. If heat pulls
+you to 25 percent at
+the rack, you are
+building dry and
+delivering into houses
+that may be dry too —
+or you are building
+dry and delivering into
+a wet hall in May.
+Write which. A
+humidifier is for the
+gap you can measure,
+not for a feeling that
+the air is "crisp."

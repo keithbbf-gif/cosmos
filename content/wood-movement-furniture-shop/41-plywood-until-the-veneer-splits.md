@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 514
+word_count: 723
 dek: "Sheet goods shrug at the Handbook coefficient. The face veneer does not shrug at a wet back and a dry front. Stable is not sealed."
 meta_description: "Plywood and MDF stay nearer to size than solid boards. They still cup if faces take moisture unequally, and veneers still split when the core and the room disagree."
 figures:
@@ -156,3 +156,60 @@ hairline in a winter
 face. The core kept its
 promise. The face needed
 one too.
+
+## A van and a fancy face
+
+A walnut-veneer table,
+balanced, left in a
+closed van over a July
+weekend for a show.
+The face checked in
+fine lines along the
+grain. The core had
+shrugged. The face had
+been asked to follow a
+climate the film could
+not delay enough. We
+now crack the van and
+we do not treat veneer
+as plywood's magic.
+The ticket says
+veneer. The care card
+says no week in a
+hot box.
+
+## Cheap core, proud edge
+
+A store sheet with a
+thick face and a
+hungry edge will swell
+at a cut if you leave
+it raw in a wet
+kitchen. Band it. Seal
+it. Do not use that
+core as a painted
+door field next to a
+dishwasher without
+the band. The shrug
+stops at the first
+open ply.
+
+## When I will not use a sheet
+
+A dining field someone
+will read as a tree
+and pay tree money
+for. A repair culture
+that wants to remake
+a rail in twenty
+years. A client who
+said solid and meant
+solid. I will use a
+sheet for the box
+under that field. I
+will not hide the
+sheet in the field
+and call the year
+the liar when a
+veneer hairline
+shows.

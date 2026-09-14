@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 585
+word_count: 713
 dek: "A ten-dollar disc that always reads 45 is not a climate. It is a comfort. The rack will not share the comfort."
 meta_description: "Shop hygrometers drift, hang in the wrong air, and learn to please. Salt-check or pair them. Place them where the wood lives, not where you stand."
 figures:
@@ -116,3 +116,34 @@ The rack does not feel. It swells. Give it
 an instrument that can be wrong in both
 directions, and check it as if it might
 like you too much. It might.
+
+## Two discs, one aisle
+
+Hang a cheap analog where
+you can see it from the
+saw. Sit a logger at the
+rack for a month. If they
+disagree, believe the one
+that changes when the bay
+door opens. I have had a
+disc that never left 45
+while the logger wrote 38
+to 62. We kept the disc
+for morale and the logger
+for glue-ups. Morale does
+not size a groove.
+
+## Salt if you trust your hands
+
+A closed jar, saturated
+salt, room temperature,
+a reading near 75 percent
+if the test is honest.
+`[VERIFY]` by doing it,
+not by a phone video.
+If you will not run the
+test, pair two loggers.
+Disagreement is the
+check. Agreement on a
+number you love is how
+flattery survives.

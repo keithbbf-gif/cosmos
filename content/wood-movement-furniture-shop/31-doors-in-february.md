@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 571
+word_count: 712
 dek: "A slab door takes the hinge line with it when it loses width. A frame-and-panel door should keep the rectangle and let the field shiver."
 meta_description: "February binding is often a slab that shrank or a hinge that was set in a wet week. Frame-and-panel keeps the latch rectangle; the panel is allowed to change."
 figures:
@@ -142,3 +142,43 @@ latch to comment. Build so
 the comment is a sliver of
 light, not a hip against the
 handle.
+
+## Pair doors and a bead
+
+Two slabs that met in
+April and show a wedge
+of light in February
+are two widths on a
+case that may also
+have moved. A meeting
+bead hides a little
+seasonal light. It
+does not hide a
+quarter inch you
+should have built as
+frame-and-panel. If
+the pair is framed,
+and the light
+appeared, look at the
+case before you plane
+a stile. A solid case
+side is a width. The
+doors may be innocent.
+
+## Raw hinge mortises
+
+A mortise cut after
+finish, left raw, will
+take water and swell
+around the metal, or
+loosen in a dry week.
+Seal it. Longer screws
+into long grain, not
+into a proud short-
+grain lip. I have
+chased "February
+humidity" into a
+mortise that was
+never finished. The
+house was ordinary.
+The chisel was late.

@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 560
+word_count: 730
 dek: "The face can read furniture-dry at lunch and the middle can still be last month. If you glue the lunch number, the afternoon will move."
 meta_description: "Moisture gradients — dry shell, wet core — fool face meters and then show up in a rip, a cup, or a joint that walks after milling."
 figures:
@@ -107,6 +107,48 @@ witness. Witness can be a deep pin in
 waste, a cutoff, or a rip you were going
 to make anyway. If they disagree, the
 board is not late. You are early.
+
+## A slab that flattered the pad
+
+An 8/4 walnut from a yard
+that stores under roof,
+pinless on the face at
+7.8, species set right.
+We ripped a 3-inch
+witness for a rail. The
+new face read 10.1 after
+an hour. The pad had
+been honest about the
+shell. The shell had
+been to a kiln. The
+core had not finished
+the trip, or it had
+climbed in the shed.
+We stickered the halves
+for a week. They moved.
+Then they stopped. Then
+we jointed. The lunch
+number would have been
+a dining rail that
+walked after the
+mortiser.
+
+## Heaters make gradients
+
+A torpedo heater aimed
+at a pile dries skins
+and leaves cores. So
+does a sunny west wall
+on a metal building.
+The face will flatter
+you at 3 p.m. The rip
+at 7 a.m. will not.
+If you must heat, heat
+the room, not the pile.
+If you cannot, treat
+every afternoon reading
+as a skin until a
+witness says otherwise.
 
 The lunch number is a skin. The joint
 lives with the whole thickness. Wait until

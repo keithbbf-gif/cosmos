@@ -11,7 +11,7 @@ audience: shop
 safety: shop-safe
 voice: human
 voice_check: human
-word_count: 468
+word_count: 683
 dek: "Quieter coefficients are not a holiday. A 36-inch walnut top still wants travelers. Cherry will blush in the sun and still shrink in January."
 meta_description: "Black walnut (~0.00274 T) and black cherry (~0.00248 T) move less than oak. They still change width. Fasten them like furniture, not like a picture."
 figures:
@@ -140,7 +140,69 @@ so you do not size an oak
 gap and get a rattle you
 did not need. Then put
 travelers under the top
-anyway. Quiet is not
+anyway.
+
+## Worked widths
+
+12-inch flatsawn walnut,
+4 points: `12 × 0.00274
+× 4 ≈ 0.13`. 12-inch
+cherry: `12 × 0.00248 ×
+4 ≈ 0.12`. 42-inch
+walnut dining field:
+`42 × 0.00274 × 4 ≈
+0.46`. Half an inch is
+still hardware. I have
+watched a shop size
+walnut grooves like
+oak "to be safe" and
+then chase a rattle
+with glue. Glue in the
+groove is how a quiet
+species becomes a loud
+failure. Size the
+product. Add a little
+mercy. Do not add a
+second species' fear.
+
+## Cherry in this light
+
+South windows will
+redden a cherry field
+unevenly if a runner
+or a vase parks in one
+place. Clients mix that
+blush with movement.
+A winter proud
+breadboard on cherry
+can show a pale stripe
+that is unfinished end
+grain *and* a sun line
+where the cap shaded
+the field. Finish the
+ends. Move the vase.
+Do not sand the proud
+to chase the blush.
+
+## Walnut that arrived wet
+
+A dark, pretty slab
+from a yard that
+stores under a roof
+with no walls can read
+10 or 11 while the
+shop sits at 8. Walnut
+does not get a shorter
+acclimation because it
+is expensive. Sticker
+it. If it smiles when
+ripped, it has a
+history the stamp
+omitted. Quiet
+coefficient, same
+sticks.
+
+Quiet is not
 still. Still is plywood,
 and even plywood has a
 veneer story.
