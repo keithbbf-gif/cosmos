@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 I like *Rhodiola rosea* L. more as a problem than as a mascot.
 
 The plant is real: a circumpolar and mountain Crassulaceae, yellow flowers, a rose-ish smell in the rhizome if you are lucky, a Scandinavian and Russian folk-and-pharmacy presence, a Linnaean name, a later celebrity that made "golden root" a brand. The trails that connect those facts are thinner than the internet needs them to be.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a study in **how little a popular history can stand to be thin**.
+
+<figure class="blog-figure">
+  <img src="../assets/images/rhodiolas-thin-trails/rhodiola-rosea-kz02.jpg" alt="Photograph of Rhodiola rosea succulent rosettes in alpine habitat" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Rhodiola’s thin trails in print start with a plant in habitat — not a clinical outcome. Photo: Kor!An, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+</figure>
 
 Linnaeus is a solid peg. The genus sits in a Swedish taxonomic world. Scandinavian folk use as a foodish and tonic-ish plant is often asserted; the assertions deserve local-language work I am not going to fake. Russian and Soviet pharmacy put *R. rosea* on the shortlist next to eleuthero and schisandra. That peg is solid as a school's choice. Mongolian and other Inner Asian rhodiola species (*R. crenulata* and others) are a different peg, and labels that say "rhodiola" without a species are doing the blur from draft 28 in alpine dress.
 

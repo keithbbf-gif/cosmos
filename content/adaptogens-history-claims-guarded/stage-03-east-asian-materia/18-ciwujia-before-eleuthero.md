@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 Before Vladivostok made a shrub famous in English, the shrub already had a Chinese name.
 
 *Ciwujia* (刺五加) — "spiny five-add," if you want the characters to do a little work — points at *Eleutherococcus senticosus* and at a cluster of related talk in Chinese materia. I am not going to pretend I have a first-print date for every appearance. I am going to insist on a simpler historical order: **the Chinese name is not a translation of *adaptogen*. The Soviet noun is the later arrival.**
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a priority dispute.
+
+<figure class="blog-figure">
+  <img src="../assets/images/eleuthero-as-type-specimen/doronenko-eleuthero-2006.jpg" alt="Photograph of Eleutherococcus senticosus foliage and stems" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> <em>Ciwujia</em> names the shrub before Vladivostok redescribed it — botanical photograph for context only. Photo: Stanislav Doronenko, Wikimedia Commons (CC BY 2.5).</figcaption>
+</figure>
 
 Chinese medical language for this plant, in the accounts I will trust at a distance, sits with wind-dampness talk, with *wei* and sinew talk, with a northern, somewhat rustic reputation compared to *Panax*'s court glamour. Those are system-internal sentences. If I render them as "for arthritis" or "for fatigue" I have changed the system. I will not render them that way. I will say: the plant had jobs in a language that already had jobs.
 

@@ -9,10 +9,14 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 "Wild" on a ginseng label is doing the same job "ancient" does on an adaptogen label. It is selling you a scarcity story and hoping you will hear a potency story.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a sketch of a political economy in which a root became too valuable to remain common.
+
+<figure class="blog-figure">
+  <img src="../assets/images/panax-in-the-bencao/psm-ginseng-1891.jpg" alt="Late nineteenth-century engraving of ginseng root and leaves" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Wild ginseng scarcity is older than the adaptogen aisle — a popular-science engraving when the root was already a trade object. <em>Popular Science Monthly</em> (1891), public domain, via Wikimedia Commons.</figcaption>
+</figure>
 
 Wild *Panax ginseng* in the Chinese and Korean mountain imagination is not a lifestyle product. It is a hunted object: slow, picky about shade, morphologically suggestive, historically tangled up with tribute and with bans. I am speaking at the level of a general historical picture, not as a field botanist who can take you to a slope. The picture is consistent enough across secondary accounts to say this: **rarity was noticed, priced, and policed.**
 

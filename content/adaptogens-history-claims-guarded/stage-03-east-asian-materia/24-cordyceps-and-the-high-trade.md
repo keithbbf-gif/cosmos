@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 A fungus that eats a moth larva on a high pasture is already a story. The story did not need a Soviet noun. It needed a landscape, a season, a pair of hands, and later a price that could wreck a hillside.
 
 *Ophiocordyceps sinensis* (Berk.) G.H. Sung et al. — older labels still say *Cordyceps sinensis* — sits in Tibetan and Chinese material life as *yartsa gunbu*, *dongchong xiacao*: summer grass, winter worm. The name is a life cycle in four characters. I will stay with the life cycle and the trade, because those are things a history can hold without becoming a locker-room rumor.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a high-altitude commodity with a late celebrity.
+
+<figure class="blog-figure">
+  <img src="../assets/images/cordyceps-and-the-high-trade/berkeley-cordyceps-1859.jpg" alt="Nineteenth-century scientific illustration of Cordyceps sinensis on a caterpillar" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Cordyceps entered European print as a curiosity long before the export boom — historical plate, not a product photo. Miles Joseph Berkeley (1859), public domain, via Wikimedia Commons.</figcaption>
+</figure>
 
 The older use-talk, in the sources I will not pretend to have recension-checked line by line, sits with tonic and restoration language in Chinese and with local Tibetan economies that are not my mine to romanticize. Restoration language is a traditional register. I will not translate it into a modern endocrine panel. I will say: people collected a strange, expensive object and filed it with other strange, expensive objects.
 

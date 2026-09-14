@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 If you want a plant that actually did travel through many systems without needing a 1960s passport, look at licorice.
 
 *Glycyrrhiza glabra* L., *G. uralensis* Fisch., and their cousins — *gancao* (甘草) in Chinese, *yashtimadhu* in Sanskrit talk, a Greek and Mediterranean sweet-root with a long ordinary-pharmacy life — show up as a diplomat: they enter other formulas, they sweeten, they "harmonize" in some Chinese formula talk, they sit in European cough-shop memory, they sit in an Ayurvedic file. I am listing **presences**, not jobs I want you to copy.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a widely shared root with a long-known caution, which is exactly why it belongs in a folder about a class that wanted to be "almost non-toxic."
+
+<figure class="blog-figure">
+  <img src="../assets/images/licorice-the-diplomat-herb/kohler-glycyrrhiza-1887.jpg" alt="Nineteenth-century botanical plate of Glycyrrhiza glabra from Köhler's Medizinal-Pflanzen" width="700" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Licorice as a European pharmacopeia plate — diplomacy in trade, not a dosing chart. Franz Eugen Köhler, <em>Medizinal-Pflanzen</em> (1887), public domain, via Wikimedia Commons.</figcaption>
+</figure>
 
 The caution is the point, so I will put it in historical language. Ordinary pharmacology has discussed glycyrrhizin's mineralocorticoid-like effects for decades: a sweet root that can, in enough of the wrong preparation for the wrong person, sit next to stories about blood pressure and potassium. I am not going to specify a dose, a product, or a person. I am going to say that **clause 1 of the adaptogen definition ("almost non-toxic") meets, in licorice, a plant that already had a publicly discussed almost**. Almost is doing work. The work is not "ban this root." The work is "a class founded on innocence will be tempted to forget the plants that taught humility."
 

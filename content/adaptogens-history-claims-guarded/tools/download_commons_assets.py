@@ -39,6 +39,26 @@ DOWNLOADS: dict[str, tuple[str, str, str]] = {
         "CC BY-SA 3.0",
         "Ercé / Muséum de Toulouse, via Wikimedia Commons (CC BY-SA 3.0)",
     ),
+    "Glycyrrhiza glabra - Köhler–s Medizinal-Pflanzen-207.jpg": (
+        "licorice-the-diplomat-herb/kohler-glycyrrhiza-1887.jpg",
+        "Public domain",
+        "Franz Eugen Köhler, Medizinal-Pflanzen (1887), via Wikimedia Commons",
+    ),
+    "Astragalus membranaceus.jpg": (
+        "astragalus-huangqi/astragalus-membranaceus.jpg",
+        "CC BY-SA 3.0",
+        "Kor!An (Андрей Корзун), via Wikimedia Commons (CC BY-SA 3.0)",
+    ),
+    "Rhodiola rosea kz02.jpg": (
+        "rhodiolas-thin-trails/rhodiola-rosea-kz02.jpg",
+        "CC BY-SA 3.0",
+        "Kor!An (Андрей Корзун), via Wikimedia Commons (CC BY-SA 3.0)",
+    ),
+    "Spaeria sinensis (original illustration by Berkeley) 2.jpg": (
+        "cordyceps-and-the-high-trade/berkeley-cordyceps-1859.jpg",
+        "Public domain",
+        "Miles Joseph Berkeley (1859), via Wikimedia Commons",
+    ),
 }
 
 

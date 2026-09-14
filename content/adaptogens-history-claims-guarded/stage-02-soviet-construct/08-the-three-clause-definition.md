@@ -9,7 +9,6 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 Definitions look like fences. Some of them are sales floors.
 
 The adaptogen definition that English-language writers keep photocopying comes, with small wording drift, from Brekhman and Dardymov at the end of the 1960s, as later quoted by the EMA herbal committee and by almost every review that wants a paragraph before the plant table. I will give you the committee's four-line version, because it is public and because the fourth line is the one popular pages drop:
@@ -22,6 +21,11 @@ The adaptogen definition that English-language writers keep photocopying comes, 
 Three clauses if you stop where the aisle stops. Four if you keep the document honest.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a reading of a definition as a historical object — a wish-list that later writers treated as a membership test.
+
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/soviet-adaptogen-timeline.svg" alt="Schematic timeline of adaptogen word anchors from 1947 dispute through 2008 EMA reflection" width="960" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> The three-clause definition landed in a dated Soviet research culture — anchor years are cited in secondary literature, not a complete chronology. <em>Schematic timeline; not to scale.</em></figcaption>
+</figure>
 
 **Clause 1, "almost non-toxic."** This is doing ethical work and marketing work at once. Against stimulants and against frank poisons, the school wanted a substance you could imagine using repeatedly. "Almost" is doing a lot. Licorice, which sometimes gets dragged into tonic talk, has a long-known mineralocorticoid-like story around glycyrrhizin. Many plants are "almost" until the dose, the part, the adulterant, or the person changes. A membership test that begins with innocence will be tempted to forget the almost. This series will not.
 

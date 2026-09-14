@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 1947 and 1969 are not the years that built the American shelf. 1994 is.
 
 The Dietary Supplement Health and Education Act of 1994 is the statute-shaped weather under most U.S. bottles that want to talk about a body without becoming a drug. I am not your lawyer. I am not going to walk every subsection. I am going to say, as history: **after DSHEA, a plant powder could live in a grocery as a "dietary supplement" with a structure/function style of speech and a disclaimer style of speech, rather than having to live as a food only or as a drug.** That change is bigger, for the word *adaptogen*, than any *bencao*.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a statute as a historical climate.
+
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/soviet-adaptogen-timeline.svg" alt="Schematic timeline from Soviet adaptogen research through U.S. dietary supplement law context" width="960" height="320" loading="lazy" />
+  <figcaption><strong>Figure.</strong> DSHEA shaped the U.S. aisle after the Soviet word had already traveled — schematic dates for orientation, not legal advice. <em>Schematic timeline; not to scale.</em></figcaption>
+</figure>
 
 Before the climate, herbs in the U.S. had a messier retail life: foods, folk products, a post-1990s industry that wanted a lane. After the climate, the lane had a name. Names attract nouns. *Adaptogen* arrived as a useful noun because it sounded functional (structure/function loves a function) and because it did not, on its face, name a disease. "Supports the body's response to stress" is a cousin of the Soviet sentence, rewritten for a disclaimer.
 

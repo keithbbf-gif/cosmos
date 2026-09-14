@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 This is the draft the rest of the South Asian file depends on. If you let it fail, ashwagandha, tulsi, and shilajit will all fall into the same drawer by dinner.
 
 *Rasayana* is a Sanskrit term of art inside Ayurvedic literature: a shelf, a set of procedures, a vocabulary about *rasa* and rejuvenation language that has its own arguments, its own contraindications in that system, its own relationship to *dinacharya* and to physicians who trained in a lineage. *Adaptogen* is a mid-century Soviet functional wager that later went shopping. They are not a translation pair. Treating them as one is the most common **category crime** in English-language herb writing.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a refusal to let a glossary do violence.
+
+<figure class="blog-figure">
+  <img src="../assets/images/ashwagandha-smell-of-a-horse/mhnt-withania-2012.jpg" alt="Herbarium specimen photograph of Withania somnifera" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Rasayana literature and modern ashwagandha marketing are different filing systems — herbarium specimen for botanical context only. Ercé / Muséum de Toulouse, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+</figure>
 
 Why do people pair them? Because both sound like "long-game nourishment rather than a single-symptom attack." That resemblance is real as a *mood*. Moods are not equivalences. A mood can pair *rasayana* with Chinese *shang pin* superior herbs, too, and with a grandmother's tonic wine. If we merged every mood-neighbor, we would have one word for half of human material culture.
 

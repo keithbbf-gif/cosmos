@@ -9,12 +9,16 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 *Huangqi* (黄芪) — *Astragalus membranaceus* (Fisch.) Bunge and its close naming tangle, now often *A. mongholicus* in the botanical arguments — is a root that American wellness turned into a celebrity without asking the Soviet school for permission first.
 
 That is useful. It shows that the adaptogen aisle is not only an export of Vladivostok. It is also a **vacuum**: any prestigious tonic can be sucked into the noun once the noun means "general good idea."
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a root with a Chinese job that does not equal the Russian job.
+
+<figure class="blog-figure">
+  <img src="../assets/images/astragalus-huangqi/astragalus-membranaceus.jpg" alt="Photograph of Astragalus membranaceus plant habit" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> <em>Huangqi</em> as a living legume — illustrates taxonomic context, not identification for harvest or dosing. Photo: Kor!An, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+</figure>
 
 In Chinese medical language, *huangqi* is a workhorse of *bu qi* — tonifying qi — with a particular reputation around surface, sinking, and a yellow, slightly sweet root that formulas lean on. I am staying at that altitude on purpose. If I descend into "immune," I have entered the worst American translation of this plant, a translation that wants a disease-prevention shadow. *Wei qi* is not a CD4 count. A formula that includes *huangqi* is not a vaccine, and this page will not wink as if it were.
 

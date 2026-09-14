@@ -9,10 +9,14 @@ claims_posture: educational-ethnobotany
 audience: curious-reader
 status: draft
 ---
-
 If Lazarev is the name people hang a year on, Israel I. Brekhman is the name people hang a map on. The map is the Soviet Far East: ginseng country in the Chinese and Korean sense, eleuthero country in the later English sense, a coastline that looks at Japan and a hinterland that looks at taiga. Vladivostok is not a branding exercise. It is a city where a pharmacologist could take the resistance idea and walk it toward plants that already had Chinese and local names.
 
 This draft does not treat, cure, or prevent any disease. It is not medical advice. It is a sketch of a person-as-program, drawn from the English-language crossing and from later reviews, not from a biography I am qualified to swear to.
+
+<figure class="blog-figure">
+  <img src="../assets/images/eleuthero-as-type-specimen/doronenko-eleuthero-2006.jpg" alt="Photograph of Eleutherococcus senticosus foliage and stems" width="800" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Far-East pharmacology needed kilograms of shrub, not ceremony — eleuthero as program plant, not a portrait of Brekhman. Photo: Stanislav Doronenko, Wikimedia Commons (CC BY 2.5).</figcaption>
+</figure>
 
 Brekhman (1921–1994, in the usual reference works) shows up in those reviews as the figure who pushed the adaptogen criteria toward **safety plus normalization**, and as the figure who made *Eleutherococcus senticosus* the plant the rest of the world would meet first when it met the word. He wrote in Russian; the piece most outsiders can actually pull is the late-1960s *Annual Review* article with I.V. Dardymov. He is also attached, in later tellings, to an Institute of Biologically Active Substances and to a pile of workplace and expeditionary studies that this folder will not pretend to have re-read in the original.
 

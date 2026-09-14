@@ -38,5 +38,37 @@
     "commons": "Withania somnifera MHNT.BOT.2012.10.13.jpg",
     "license": "CC BY-SA 3.0",
     "credit": "Erc\u00e9 / Mus\u00e9um de Toulouse, via Wikimedia Commons (CC BY-SA 3.0)"
+  },
+  {
+    "path": "licorice-the-diplomat-herb/kohler-glycyrrhiza-1887.jpg",
+    "bytes": 184295,
+    "sha256": "31185eb7e25a4de44fa74f110c0a9614d4754657ef2565c48966c4cfe126e64f",
+    "commons": "Glycyrrhiza glabra - K\u00f6hler\u2013s Medizinal-Pflanzen-207.jpg",
+    "license": "Public domain",
+    "credit": "Franz Eugen K\u00f6hler, Medizinal-Pflanzen (1887), via Wikimedia Commons"
+  },
+  {
+    "path": "astragalus-huangqi/astragalus-membranaceus.jpg",
+    "bytes": 77549,
+    "sha256": "70f2f7ab7752a4c2ce27c346c8be5a545d4f14279e90092575d43431dd74c1c3",
+    "commons": "Astragalus membranaceus.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Kor!An, via Wikimedia Commons (CC BY-SA 3.0)"
+  },
+  {
+    "path": "rhodiolas-thin-trails/rhodiola-rosea-kz02.jpg",
+    "bytes": 3795868,
+    "sha256": "9669942fdd88c09c5391e2fe75da8aa5f183c549cf769ccbe8106100f1d86cc9",
+    "commons": "Rhodiola rosea kz02.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Kor!An, via Wikimedia Commons (CC BY-SA 3.0)"
+  },
+  {
+    "path": "cordyceps-and-the-high-trade/berkeley-cordyceps-1859.jpg",
+    "bytes": 674102,
+    "sha256": "9ea965e52c8b0503d00091ba4799afad00a51c77dd3c9a381dfb8922fd93f0d0",
+    "commons": "Spaeria sinensis (original illustration by Berkeley) 2.jpg",
+    "license": "Public domain",
+    "credit": "Miles Joseph Berkeley (1859), via Wikimedia Commons"
   }
 ]

@@ -19,6 +19,10 @@ Every raster file is listed in `assets/images/_download_meta.json` with SHA-256,
 | `schisandra-and-five-tastes/flore-des-serres-schisandra-1850s.jpg` | Flore des serres v15 173a.jpg | Public domain | Louis van Houtte, *Flore des serres* |
 | `eleuthero-as-type-specimen/doronenko-eleuthero-2006.jpg` | Eleutherococcus senticosus.jpg | CC BY 2.5 | Stanislav Doronenko |
 | `ashwagandha-smell-of-a-horse/mhnt-withania-2012.jpg` | Withania somnifera MHNT.BOT.2012.10.13.jpg | CC BY-SA 3.0 | Ercé / Muséum de Toulouse |
+| `licorice-the-diplomat-herb/kohler-glycyrrhiza-1887.jpg` | Glycyrrhiza glabra - Köhler–s Medizinal-Pflanzen-207.jpg | Public domain | Franz Eugen Köhler (1887) |
+| `astragalus-huangqi/astragalus-membranaceus.jpg` | Astragalus membranaceus.jpg | CC BY-SA 3.0 | Kor!An |
+| `rhodiolas-thin-trails/rhodiola-rosea-kz02.jpg` | Rhodiola rosea kz02.jpg | CC BY-SA 3.0 | Kor!An |
+| `cordyceps-and-the-high-trade/berkeley-cordyceps-1859.jpg` | Spaeria sinensis (original illustration by Berkeley) 2.jpg | Public domain | Miles Joseph Berkeley (1859) |
 
 Caption every raster with **credit + license** in the `<figcaption>` (see `staged/FIGURE_EMBEDS.md`). Botanical plates illustrate historical naming and trade; they are **not** botanical identification for foraging or dosing.
 

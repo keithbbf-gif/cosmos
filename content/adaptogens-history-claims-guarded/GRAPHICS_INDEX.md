@@ -19,4 +19,6 @@ Matches `GUARDRAILS.md`, `PHOTO_NOTES.md`, and `RIGHTS.md`. No efficacy charts, 
 | 27 | `stage-04-south-asian-and-other/27-ashwagandha-smell-of-a-horse.md` | MHNT withania specimen |
 | 34 | `stage-05-law-aisle-language/34-the-2008-ema-reflection.md` | timeline (EMA anchor) |
 
-**Totals:** 7 drafts illustrated · 5 rasters · 3 shared SVGs · extend with `staged/FIGURE_EMBEDS.md` for additional stages.
+**Round 2 (2026-09-14):** +10 drafts with PD/CC plates or timeline SVGs — drafts 07, 08, 16, 18, 21, 24, 26, 31, 33, 35. Regenerate rasters: `python3 content/adaptogens-history-claims-guarded/tools/download_commons_assets.py`.
+
+**Totals:** 17 drafts illustrated · 9 rasters · 3 shared SVGs · see `RIGHTS.md` and `assets/images/_download_meta.json`.
