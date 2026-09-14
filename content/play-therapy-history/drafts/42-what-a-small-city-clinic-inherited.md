@@ -1,0 +1,54 @@
+---
+title: "What a small-city clinic inherited"
+slug: what-a-small-city-clinic-inherited
+meta_description: "Southeast Arkansas did not invent play therapy and does not, by hosting this history, become a play-therapy department."
+tags:
+  - play therapy history
+  - WOW Therapies
+  - Arkansas
+type: reader
+stage: 07-critiques-tools
+order: 42
+portrait: none
+citations:
+  - "WOWTherapies.com homepage as last fetched: OT, PT, speech in Southeast Arkansas."
+  - "Association for Play Therapy. 1982."
+status: draft
+voice_check: human
+claims_posture: educational-therapy-history
+last_verified: 2026-09-14
+---
+
+**Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+WOW Therapies is a Southeast Arkansas practice brand. The homepage, as last fetched for the sister packs, presents occupational, physical, and speech services. That sentence is the floor. This folder sits on the floor as heritage education. It does not pour a fourth department in the night.
+
+A small-city clinic inherits vocabulary whether it wants the vocabulary or not. Parents arrive saying "play therapy" the way they arrive saying "sensory" or "trauma" or "speech." The words traveled farther than the trainings. This page is about the inheritance, not about a menu.
+
+## What arrived without a center
+
+No one had to open a Denton-sized institute for the words to show up in a Delta county. Amazon sold *Dibs*. Google sold APT. A school counselor sold a closet hour. A hospital in a larger city sold child life. The small-city clinic inherits the mix and is asked to be all of it.
+
+It cannot be all of it. Licensure is a state object. Play therapy as psychotherapy needs a mental-health license the OT/PT/SLP walls may not be. Play as a *developmental strategy* inside OT or speech is a different job, and SLPWOW already owns the speech-heritage lane. Merging the jobs to keep a customer is how a brand gets ahead of a board.
+
+## What a history page can honestly give a county
+
+Dates. Names of books. A refusal to teach the hour. A map to sister slugs if the reader actually wanted Freud or Van Riper. A warning that "RPT" is not a license. A warning that a tray is not one school.
+
+It cannot give a child. It cannot give a slot on Tuesday. If the practice later builds a named mental-health service, that service will need a person, a license, a supervisor, and a page that is not this one.
+
+## Distance, and who drives
+
+The more common Arkansas fact is the drive: to Little Rock, to a university clinic, to a private therapist two counties over. School-based work, if it exists, is the form that does not require the drive. The school essay already said the closet. This paragraph says the gasoline. Heritage education that forgets the gasoline has described a syllabus again.
+
+## Claims box
+
+This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, occupational play-based treatment, or any named play protocol as a service.
+
+If you are in danger, call local emergency services.
+
+## Sources
+
+WOWTherapies.com as a site-architecture fact; APT 1982; school-based and hospital essays in this pack.
+
+*WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is play-therapy history only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*
