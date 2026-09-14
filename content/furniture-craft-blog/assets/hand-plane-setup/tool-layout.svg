@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Bench plane iron assembly</title>
+  <desc id="desc">Cap iron ~0.5–1 mm behind cutting edge for general work.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Bench plane iron assembly</text>
+  <rect x="56" y="100" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="136" y="141" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">frog seat</text>
+  <rect x="240" y="100" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="320" y="141" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">mouth</text>
+  <rect x="424" y="100" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="504" y="141" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">cap iron</text>
+  <rect x="56" y="196" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="136" y="237" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">chip breaker</text>
+  <rect x="240" y="196" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="320" y="237" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">cutting iron</text>
+  <rect x="424" y="196" width="160" height="72" rx="4" fill="#FFFDF8" stroke="#1A1A1A" stroke-width="1.8"/>
+  <text x="504" y="237" text-anchor="middle" fill="#1A1A1A" font-family="Helvetica, Arial, sans-serif" font-size="13">lever cap</text>
+</svg>

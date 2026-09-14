@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Sliding dovetail shelf</title>
+  <desc id="desc">Tail narrower at front; slide from back rail.</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Sliding dovetail shelf</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+  <rect x="140" y="200" width="360" height="24" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <polygon points="160,224 200,280 240,224" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <text x="280" y="300" fill="#4A4A4A" font-size="12" font-family="sans-serif">slide from back</text>
+</svg>
