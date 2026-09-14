@@ -10,12 +10,31 @@ audience: general-education
 era: asilomar
 sequence: "01"
 created: 2026-09-14
+description: "Two different public meetings share the Asilomar name — 1975 recombinant DNA guidelines as citation versus 2017 Beneficial AI principles."
+image: assets/svg/dual-asilomar-1975-2017.svg
+image_alt: "Comparison chart of the 1975 DNA Asilomar conference and the 2017 Beneficial AI principles meeting at the same grounds."
 sources:
   - "https://futureoflife.org/open-letter/ai-principles/"
   - "https://futureoflife.org/principles/principled-ai-discussion-asilomar/"
 ---
 
 # Two Asilomars, one beach name
+
+<figure id="fig-dual-asilomar" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/dual-asilomar-1975-2017.svg"
+       alt="Side-by-side comparison of the 1975 recombinant-DNA Asilomar conference outputs versus the 2017 Beneficial AI twenty-three principles."
+       width="960" height="400" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> Same conference grounds; different objects and different kinds of aftermath.</figcaption>
+</figure>
+
+<figure id="fig-asilomar-grounds" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/photos/asilomar-grounds-entrance.jpg"
+       alt="Entrance to the Asilomar Conference Grounds from the beach side, Pacific Grove, California — venue for both cited meetings."
+       width="1280" height="718" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 2.</strong> Asilomar Conference Grounds entrance (venue, not a document). Photo: <a href="https://commons.wikimedia.org/wiki/File:Entrance_to_the_Asilomar_Conference_Grounds.jpg">Ed Bierman</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</figcaption>
+</figure>
 
 People who write about AI safety like the word **Asilomar**. It sounds like a place where serious people went, once, and came back with rules. The trouble is that the name now points at two different public meetings, forty-two years apart, with two different objects and two different kinds of aftermath.
 

@@ -10,9 +10,20 @@ audience: general-education
 era: method
 sequence: "51"
 created: 2026-09-14
+description: "Common media frames — prophet, race, hypocrisy, Brussels, ethics vs safety — that shaped public plots about AI safety from 2014 to 2024."
+image: assets/svg/spine-asilomar-to-eu-ai-act.svg
+image_alt: "Spine timeline of public AI safety milestones used as a counterweight to single-frame news stories."
 ---
 
 # A few media frames that taught the public a plot
+
+<figure id="fig-spine-vs-frames" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/spine-asilomar-to-eu-ai-act.svg"
+       alt="Timeline of selected public AI safety milestones from 1975 through 2024 — multiple clocks, not one media frame."
+       width="1200" height="520" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> Frames compress; the public record does not. Use the spine to name which document a headline is skipping.</figcaption>
+</figure>
 
 Primary pages are this set's heroes. Media frames still taught more people. Naming the common frames keeps you from mistaking them for the documents.
 

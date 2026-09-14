@@ -10,11 +10,22 @@ audience: general-education
 era: eu-ai-act
 sequence: "31"
 created: 2026-09-14
+description: "April 2019 EU High-Level Expert Group ethics guidelines for trustworthy AI — vocabulary that predates but does not replace the AI Act."
+image: assets/svg/eu-legislative-rail-2019-2024.svg
+image_alt: "Schematic of EU AI Act public steps from 2019 HLEG guidelines through 2024 Official Journal publication."
 sources:
   - "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
 ---
 
 # 8 April 2019: Trustworthy AI, in Brussels English
+
+<figure id="fig-eu-rail" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/eu-legislative-rail-2019-2024.svg"
+       alt="Legislative rail diagram from April 2019 HLEG trustworthy AI guidelines through the 2024 EU AI Act Official Journal and entry into force, with Article 113 phasing noted separately."
+       width="1000" height="360" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> The EU file is a sequence of public steps — this diagram starts at HLEG 2019; see drafts 32–38 for each beat.</figcaption>
+</figure>
 
 On 8 April 2019, the High-Level Expert Group on Artificial Intelligence, set up by the European Commission, presented *Ethics Guidelines for Trustworthy AI*. A draft had gone out in December 2018; the Group said more than five hundred comments came back. The final public document is the start of the Act's *vocabulary*, even though it is not the Act.
 

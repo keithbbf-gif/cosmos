@@ -10,11 +10,22 @@ audience: general-education
 era: neighboring
 sequence: "43"
 created: 2026-09-14
+description: "The November 2023 UK AI Safety Summit and Bletchley Declaration as a public stage — political speech, not EU law."
+image: assets/photos/bletchley-park-mansion.jpg
+image_alt: "Bletchley Park mansion, Grade II listed building used as the symbolic venue for the 2023 AI Safety Summit."
 sources:
   - "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023"
 ---
 
 # 1–2 November 2023: Bletchley as a public stage
+
+<figure id="fig-bletchley-mansion" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/photos/bletchley-park-mansion.jpg"
+       alt="Bletchley Park mansion in England — historic codebreaking headquarters and symbolic venue for the 2023 AI Safety Summit."
+       width="1280" height="754" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> The summit borrowed a place already loaded with public memory (building only — not a summit group portrait). Photo: <a href="https://commons.wikimedia.org/wiki/File:Bletchley_Park_Mansion.jpg">DeFacto</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</figcaption>
+</figure>
 
 The UK government hosted an AI Safety Summit at Bletchley Park on 1–2 November 2023. On the first day it published the **Bletchley Declaration**, agreed by 28 countries and the European Union (New Zealand later joined the commitment, in 2024, on the government's updated page). The site was not a coincidence. Bletchley is where a mass audience already keeps its World War II codebreaking story. The government borrowed a national myth to frame a new technology file.
 

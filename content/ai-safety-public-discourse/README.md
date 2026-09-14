@@ -8,9 +8,20 @@ voice: human
 novelty: public-record-only
 audience: general-education
 created: 2026-09-14
+description: "Staged educational drafts on public AI safety discourse — from Asilomar citations and principles through the EU AI Act timeline, with original figures and rights-cleared venue photos."
+image: assets/svg/spine-asilomar-to-eu-ai-act.svg
+image_alt: "Timeline schematic of public AI safety milestones from 1975 Asilomar through the EU AI Act entering into force in August 2024."
 ---
 
 # Public AI safety discourse — staged draft set
+
+<figure id="fig-spine-timeline" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/spine-asilomar-to-eu-ai-act.svg"
+       alt="Timeline schematic from the 1975 recombinant-DNA Asilomar conference through Regulation (EU) 2024/1689 entering into force on 1 August 2024, with labeled eras for principles, FHI, charter posts, and EU legislative steps."
+       width="1200" height="520" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> Selected public milestones across the four spines in this set (original schematic). Dates are pointers — verify against <code>SOURCES.md</code> and primary pages before quoting.</figcaption>
+</figure>
 
 This folder is a **staged educational draft set**. It is not a book, not a policy brief, and not a claim of original research.
 
@@ -49,7 +60,7 @@ It is not a history of any private software project. It is not a vendor brief. I
 
 ## How to read
 
-Start with `00-how-to-read-this-set.md`, then follow the numbered files, or jump by era using `INDEX.md`. Public URLs live in `SOURCES.md`. The file list and word counts are in `MANIFEST.md`.
+Start with `00-how-to-read-this-set.md`, then follow the numbered files, or jump by era using `INDEX.md`. Public URLs live in `SOURCES.md`. The file list and word counts are in `MANIFEST.md`. Image rights and the no–AI-art policy are in `RIGHTS.md`.
 
 ## File map
 

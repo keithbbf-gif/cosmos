@@ -21,6 +21,7 @@ All files are **staged drafts**. Read `00-how-to-read-this-set.md` first.
 | `README.md` | Public AI safety discourse — staged draft set |
 | `00-how-to-read-this-set.md` | How to read this set without making a myth |
 | `SOURCES.md` | Public URLs used as pointers |
+| `RIGHTS.md` | Image rights, credits, and figure policy |
 | `MANIFEST.md` | File list and counts |
 
 ## Asilomar lineage (`01`–`10`)

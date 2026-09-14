@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="euTitle euDesc">
+  <title id="euTitle">EU AI Act public legislative rail</title>
+  <desc id="euDesc">Staged steps from the April 2019 ethics guidelines through the 2024 Official Journal publication and entry into force, with Article 113 phasing noted as a separate clock.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 700; fill: #1e3a8a; }
+      .d { font-family: system-ui, sans-serif; font-size: 11px; fill: #1e293b; }
+      .s { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+    <marker id="euArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="360" fill="#f8fafc"/>
+  <text x="500" y="34" text-anchor="middle" class="t" font-size="15">EU file: public steps (not one date)</text>
+
+  <line x1="80" y1="180" x2="920" y2="180" stroke="#2563eb" stroke-width="3" marker-end="url(#euArrow)"/>
+
+  <g transform="translate(80,180)">
+    <circle r="8" fill="#3b82f6" stroke="#fff" stroke-width="2"/>
+    <text y="-28" text-anchor="middle" class="t">Apr 2019</text>
+    <text y="-12" text-anchor="middle" class="d">HLEG guidelines</text>
+  </g>
+  <g transform="translate(220,180)">
+    <circle r="7" fill="#3b82f6" stroke="#fff" stroke-width="2"/>
+    <text y="-28" text-anchor="middle" class="t">Feb 2020</text>
+    <text y="-12" text-anchor="middle" class="d">White Paper</text>
+  </g>
+  <g transform="translate(380,180)">
+    <circle r="8" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+    <text y="-28" text-anchor="middle" class="t">Apr 2021</text>
+    <text y="-12" text-anchor="middle" class="d">COM(2021) 206</text>
+  </g>
+  <g transform="translate(540,180)">
+    <circle r="7" fill="#3b82f6" stroke="#fff" stroke-width="2"/>
+    <text y="36" text-anchor="middle" class="t">Dec 2023</text>
+    <text y="52" text-anchor="middle" class="d">Political agreement</text>
+    <text y="66" text-anchor="middle" class="s">not yet OJ</text>
+  </g>
+  <g transform="translate(700,180)">
+    <circle r="8" fill="#1d4ed8" stroke="#fff" stroke-width="2"/>
+    <text y="-28" text-anchor="middle" class="t">Jun 2024</text>
+    <text y="-12" text-anchor="middle" class="d">Signed regulation</text>
+  </g>
+  <g transform="translate(860,180)">
+    <circle r="10" fill="#1e40af" stroke="#fff" stroke-width="2"/>
+    <text y="36" text-anchor="middle" class="t">Jul-Aug 2024</text>
+    <text y="52" text-anchor="middle" class="d">OJ plus EIF</text>
+    <text y="66" text-anchor="middle" class="s">Art. 113 calendar starts</text>
+  </g>
+
+  <rect x="120" y="250" width="760" height="72" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="500" y="274" text-anchor="middle" class="d" font-weight="600">Separate question: when do duties apply?</text>
+  <text x="500" y="294" text-anchor="middle" class="s">Article 113 phases (e.g. general application 2 Aug 2026) - see draft 38</text>
+
+  <text x="500" y="340" text-anchor="middle" class="s">Original schematic - cite EUR-Lex for binding text</text>
+</svg>

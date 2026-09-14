@@ -10,12 +10,31 @@ audience: general-education
 era: eu-ai-act
 sequence: "37"
 created: 2026-09-14
+description: "When Regulation (EU) 2024/1689 was published in the Official Journal and entered into force — and why that is a different question from Article 113 application dates."
+image: assets/photos/eu-parliament-hemicycle-strasbourg-2023.jpg
+image_alt: "Empty hemicycle of the European Parliament in Strasbourg — institutional chamber, not a portrait."
 sources:
   - "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689"
   - "https://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_en"
 ---
 
 # 12 July and 1 August 2024: the Act becomes a clock
+
+<figure id="fig-eu-hemicycle" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/photos/eu-parliament-hemicycle-strasbourg-2023.jpg"
+       alt="European Parliament hemicycle in Strasbourg with empty seats — symbol of the institutional chamber that adopted the AI Act, without depicting individual legislators."
+       width="1280" height="960" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> The EU AI Act is a legislative instrument; the hemicycle is where ordinary procedure happens. Photo: <a href="https://commons.wikimedia.org/wiki/File:Hemicycle_of_the_European_Parliament,_Strasbourg_2023_001.jpg">Sebastian Wallroth</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, via Wikimedia Commons.</figcaption>
+</figure>
+
+<figure id="fig-eu-rail-eif" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/eu-legislative-rail-2019-2024.svg"
+       alt="EU AI Act legislative rail ending at July–August 2024 Official Journal publication and entry into force."
+       width="1000" height="360" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 2.</strong> Publication and entry into force are late steps on the rail — not the December 2023 political agreement alone.</figcaption>
+</figure>
 
 Regulation (EU) 2024/1689 was published in the Official Journal on **12 July 2024** (OJ L, 2024/1689). Article 113 says the regulation enters into force on the twentieth day after publication. The Commission marked **1 August 2024** as the day the AI Act entered into force.
 

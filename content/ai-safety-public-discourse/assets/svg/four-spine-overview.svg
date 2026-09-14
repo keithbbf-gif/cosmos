@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="fourTitle fourDesc">
+  <title id="fourTitle">Four public objects in this draft set</title>
+  <desc id="fourDesc">Overview of the four educational spines: Asilomar lineage, FHI institute era, OpenAI charter documents, and the EU AI Act legislative file.</desc>
+  <defs>
+    <style>
+      .card-title { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 700; }
+      .card-body { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .head { font-family: system-ui, sans-serif; font-size: 15px; font-weight: 700; fill: #0f172a; }
+    </style>
+  </defs>
+  <rect width="880" height="320" fill="#f8fafc"/>
+  <text x="440" y="36" text-anchor="middle" class="head">Four objects, four jobs (do not merge)</text>
+
+  <g transform="translate(24,64)">
+    <rect width="196" height="200" rx="8" fill="#ccfbf1" stroke="#14b8a6"/>
+    <text x="98" y="32" text-anchor="middle" class="card-title" fill="#0f766e">Asilomar</text>
+    <text x="16" y="58" class="card-body">1975 citation plus</text>
+    <text x="16" y="74" class="card-body">2017 principles</text>
+    <text x="16" y="110" class="card-body">Drafts 01-10</text>
+  </g>
+  <g transform="translate(236,64)">
+    <rect width="196" height="200" rx="8" fill="#e0e7ff" stroke="#6366f1"/>
+    <text x="98" y="32" text-anchor="middle" class="card-title" fill="#4338ca">FHI</text>
+    <text x="16" y="58" class="card-body">Institute 2005-2024</text>
+    <text x="16" y="74" class="card-body">book 2014</text>
+    <text x="16" y="110" class="card-body">Drafts 11-20</text>
+  </g>
+  <g transform="translate(448,64)">
+    <rect width="196" height="200" rx="8" fill="#fef3c7" stroke="#d97706"/>
+    <text x="98" y="32" text-anchor="middle" class="card-title" fill="#b45309">Charter era</text>
+    <text x="16" y="58" class="card-body">2015-2019 public</text>
+    <text x="16" y="74" class="card-body">sentences on the blog</text>
+    <text x="16" y="110" class="card-body">Drafts 21-30</text>
+  </g>
+  <g transform="translate(660,64)">
+    <rect width="196" height="200" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="98" y="32" text-anchor="middle" class="card-title" fill="#1d4ed8">EU AI Act</text>
+    <text x="16" y="58" class="card-body">COM to OJ to EIF</text>
+    <text x="16" y="74" class="card-body">Article 113 clock</text>
+    <text x="16" y="110" class="card-body">Drafts 31-40</text>
+  </g>
+
+  <text x="440" y="296" text-anchor="middle" class="card-body" font-size="10" fill="#64748b">Original schematic - read 00-how-to-read-this-set.md first</text>
+</svg>

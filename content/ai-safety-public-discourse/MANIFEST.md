@@ -23,11 +23,15 @@ This file is the staged inventory. Recount with a directory listing if you are r
 | Numbered drafts | `01`–`52` | Fifty-two essays |
 | Index | `INDEX.md` | Jump table |
 | Sources | `SOURCES.md` | Public pointers |
+| Rights | `RIGHTS.md` | Image licenses and no–AI-art policy |
 | This file | `MANIFEST.md` | Counts |
+| Original SVG | `assets/svg/*.svg` | Four schematics (spine, dual Asilomar, EU rail, four-spine overview) |
+| CC photos | `assets/photos/*.jpg` | Three venue images (see `RIGHTS.md`) |
 
 **Numbered essays:** 52 (`01`–`52`).  
 **Plus** `00`, `README.md`, `INDEX.md`, `SOURCES.md`, `MANIFEST.md`.  
-**Total markdown files in folder (intended):** 57.  
+**Total markdown files in folder (intended):** 58 (includes `RIGHTS.md`).  
+**Raster + vector assets (intended):** 7 (4 SVG + 3 JPEG).  
 **Assignment floor:** 40 drafts.  
 **Stage on every file:** `draft`.  
 **Status on every file:** `staged`.  
@@ -51,6 +55,8 @@ This file is the staged inventory. Recount with a directory listing if you are r
 3. Host-repository or house-project names do not appear in the folder.
 4. Each numbered draft has `stage: draft` and a novelty footer.
 5. Dates that claim official force cite a public instrument (see `SOURCES.md`).
+6. Every raster asset is listed in `RIGHTS.md` with license and attribution.
+7. Key entry drafts embed `<figure>` blocks with `alt` text and `figcaption` (see `README.md`, `00`, `01`, `31`, `37`, `43`, `51`).
 
 ## Word counts
 

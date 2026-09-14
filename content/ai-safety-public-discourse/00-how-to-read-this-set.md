@@ -10,9 +10,20 @@ audience: general-education
 era: method
 sequence: "00"
 created: 2026-09-14
+description: "Reading rules for the public AI safety discourse draft set — four spines, force levels, and how not to merge Asilomar, FHI, the Charter, and the EU file into one plot."
+image: assets/svg/four-spine-overview.svg
+image_alt: "Diagram of four educational spines — Asilomar, FHI, OpenAI charter era, and EU AI Act — with draft number ranges."
 ---
 
 # How to read this set without making a myth
+
+<figure id="fig-four-spines" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="assets/svg/four-spine-overview.svg"
+       alt="Four labeled cards for the Asilomar lineage, FHI institute era, OpenAI charter documents, and EU AI Act legislative file, each with draft number ranges."
+       width="880" height="320" loading="lazy" decoding="async"
+       itemprop="contentUrl" />
+  <figcaption itemprop="caption"><strong>Figure 1.</strong> Four public objects with different jobs — keep them on separate index cards while you read.</figcaption>
+</figure>
 
 Public talk about AI safety is easy to flatten. A reader meets a beach town, an Oxford institute, a lab charter, and a Brussels regulation, and the mind wants a single plot: *the scientists warned, the labs promised, the law arrived.* That plot is a cartoon. The public record is lumpier than that, and the lumps are the education.
 
