@@ -189,3 +189,182 @@ Catalog of staged schematic figures for the ancient furniture history blog. Visu
 | `reconstruction-methods-museums` | 2 | `assets/reconstruction-methods-museums/fig-02-map.svg` | Regional schematic map |
 | `reconstruction-methods-museums` | 3 | `assets/reconstruction-methods-museums/fig-03-typology.svg` | Typology morphotypes |
 | `reconstruction-methods-museums` | 4 | `assets/reconstruction-methods-museums/fig-04-plate.svg` | Comparative plate |
+
+## Magazine chapter figures (wave 2)
+
+One schematic set per magazine chapter (`assets/<chapter-stem>/`). Regenerate with `scripts/build_chapter_graphics_wave2.py`.
+
+| Chapter slug | Fig | File | Description |
+|---|---:|---|---|
+| `01-house-one-skara-brae` | 1 | `assets/01-house-one-skara-brae/fig-01-timeline.svg` | Chronological anchors |
+| `01-house-one-skara-brae` | 2 | `assets/01-house-one-skara-brae/fig-02-map.svg` | Regional schematic map |
+| `01-house-one-skara-brae` | 3 | `assets/01-house-one-skara-brae/fig-03-typology.svg` | Typology morphotypes |
+| `01-house-one-skara-brae` | 4 | `assets/01-house-one-skara-brae/fig-04-plate.svg` | Comparative plate |
+| `02-platforms-catalhoyuk` | 1 | `assets/02-platforms-catalhoyuk/fig-01-timeline.svg` | Chronological anchors |
+| `02-platforms-catalhoyuk` | 2 | `assets/02-platforms-catalhoyuk/fig-02-map.svg` | Regional schematic map |
+| `02-platforms-catalhoyuk` | 3 | `assets/02-platforms-catalhoyuk/fig-03-typology.svg` | Typology morphotypes |
+| `02-platforms-catalhoyuk` | 4 | `assets/02-platforms-catalhoyuk/fig-04-plate.svg` | Comparative plate |
+| `03-hetepheres-old-kingdom` | 1 | `assets/03-hetepheres-old-kingdom/fig-01-timeline.svg` | Chronological anchors |
+| `03-hetepheres-old-kingdom` | 2 | `assets/03-hetepheres-old-kingdom/fig-02-map.svg` | Regional schematic map |
+| `03-hetepheres-old-kingdom` | 3 | `assets/03-hetepheres-old-kingdom/fig-03-typology.svg` | Typology morphotypes |
+| `03-hetepheres-old-kingdom` | 4 | `assets/03-hetepheres-old-kingdom/fig-04-plate.svg` | Comparative plate |
+| `04-hatnefer-new-kingdom` | 1 | `assets/04-hatnefer-new-kingdom/fig-01-timeline.svg` | Chronological anchors |
+| `04-hatnefer-new-kingdom` | 2 | `assets/04-hatnefer-new-kingdom/fig-02-map.svg` | Regional schematic map |
+| `04-hatnefer-new-kingdom` | 3 | `assets/04-hatnefer-new-kingdom/fig-03-typology.svg` | Typology morphotypes |
+| `04-hatnefer-new-kingdom` | 4 | `assets/04-hatnefer-new-kingdom/fig-04-plate.svg` | Comparative plate |
+| `05-mesopotamia-ivory-houses` | 1 | `assets/05-mesopotamia-ivory-houses/fig-01-timeline.svg` | Chronological anchors |
+| `05-mesopotamia-ivory-houses` | 2 | `assets/05-mesopotamia-ivory-houses/fig-02-map.svg` | Regional schematic map |
+| `05-mesopotamia-ivory-houses` | 3 | `assets/05-mesopotamia-ivory-houses/fig-03-typology.svg` | Typology morphotypes |
+| `05-mesopotamia-ivory-houses` | 4 | `assets/05-mesopotamia-ivory-houses/fig-04-plate.svg` | Comparative plate |
+| `06-nimrud-sw7-ivories` | 1 | `assets/06-nimrud-sw7-ivories/fig-01-timeline.svg` | Chronological anchors |
+| `06-nimrud-sw7-ivories` | 2 | `assets/06-nimrud-sw7-ivories/fig-02-map.svg` | Regional schematic map |
+| `06-nimrud-sw7-ivories` | 3 | `assets/06-nimrud-sw7-ivories/fig-03-typology.svg` | Typology morphotypes |
+| `06-nimrud-sw7-ivories` | 4 | `assets/06-nimrud-sw7-ivories/fig-04-plate.svg` | Comparative plate |
+| `07-achaemenid-thrones` | 1 | `assets/07-achaemenid-thrones/fig-01-timeline.svg` | Chronological anchors |
+| `07-achaemenid-thrones` | 2 | `assets/07-achaemenid-thrones/fig-02-map.svg` | Regional schematic map |
+| `07-achaemenid-thrones` | 3 | `assets/07-achaemenid-thrones/fig-03-typology.svg` | Typology morphotypes |
+| `07-achaemenid-thrones` | 4 | `assets/07-achaemenid-thrones/fig-04-plate.svg` | Comparative plate |
+| `08-greek-klismos` | 1 | `assets/08-greek-klismos/fig-01-timeline.svg` | Chronological anchors |
+| `08-greek-klismos` | 2 | `assets/08-greek-klismos/fig-02-map.svg` | Regional schematic map |
+| `08-greek-klismos` | 3 | `assets/08-greek-klismos/fig-03-typology.svg` | Typology morphotypes |
+| `08-greek-klismos` | 4 | `assets/08-greek-klismos/fig-04-plate.svg` | Comparative plate |
+| `09-etruscan-couches` | 1 | `assets/09-etruscan-couches/fig-01-timeline.svg` | Chronological anchors |
+| `09-etruscan-couches` | 2 | `assets/09-etruscan-couches/fig-02-map.svg` | Regional schematic map |
+| `09-etruscan-couches` | 3 | `assets/09-etruscan-couches/fig-03-typology.svg` | Typology morphotypes |
+| `09-etruscan-couches` | 4 | `assets/09-etruscan-couches/fig-04-plate.svg` | Comparative plate |
+| `10-herculaneum-wood` | 1 | `assets/10-herculaneum-wood/fig-01-timeline.svg` | Chronological anchors |
+| `10-herculaneum-wood` | 2 | `assets/10-herculaneum-wood/fig-02-map.svg` | Regional schematic map |
+| `10-herculaneum-wood` | 3 | `assets/10-herculaneum-wood/fig-03-typology.svg` | Typology morphotypes |
+| `10-herculaneum-wood` | 4 | `assets/10-herculaneum-wood/fig-04-plate.svg` | Comparative plate |
+| `11-roman-provinces` | 1 | `assets/11-roman-provinces/fig-01-timeline.svg` | Chronological anchors |
+| `11-roman-provinces` | 2 | `assets/11-roman-provinces/fig-02-map.svg` | Regional schematic map |
+| `11-roman-provinces` | 3 | `assets/11-roman-provinces/fig-03-typology.svg` | Typology morphotypes |
+| `11-roman-provinces` | 4 | `assets/11-roman-provinces/fig-04-plate.svg` | Comparative plate |
+| `12-late-antique-byzantine` | 1 | `assets/12-late-antique-byzantine/fig-01-timeline.svg` | Chronological anchors |
+| `12-late-antique-byzantine` | 2 | `assets/12-late-antique-byzantine/fig-02-map.svg` | Regional schematic map |
+| `12-late-antique-byzantine` | 3 | `assets/12-late-antique-byzantine/fig-03-typology.svg` | Typology morphotypes |
+| `12-late-antique-byzantine` | 4 | `assets/12-late-antique-byzantine/fig-04-plate.svg` | Comparative plate |
+| `13-medieval-chests-halls` | 1 | `assets/13-medieval-chests-halls/fig-01-timeline.svg` | Chronological anchors |
+| `13-medieval-chests-halls` | 2 | `assets/13-medieval-chests-halls/fig-02-map.svg` | Regional schematic map |
+| `13-medieval-chests-halls` | 3 | `assets/13-medieval-chests-halls/fig-03-typology.svg` | Typology morphotypes |
+| `13-medieval-chests-halls` | 4 | `assets/13-medieval-chests-halls/fig-04-plate.svg` | Comparative plate |
+| `14-oseberg-viking-wood` | 1 | `assets/14-oseberg-viking-wood/fig-01-timeline.svg` | Chronological anchors |
+| `14-oseberg-viking-wood` | 2 | `assets/14-oseberg-viking-wood/fig-02-map.svg` | Regional schematic map |
+| `14-oseberg-viking-wood` | 3 | `assets/14-oseberg-viking-wood/fig-03-typology.svg` | Typology morphotypes |
+| `14-oseberg-viking-wood` | 4 | `assets/14-oseberg-viking-wood/fig-04-plate.svg` | Comparative plate |
+| `15-gothic-choir-stalls` | 1 | `assets/15-gothic-choir-stalls/fig-01-timeline.svg` | Chronological anchors |
+| `15-gothic-choir-stalls` | 2 | `assets/15-gothic-choir-stalls/fig-02-map.svg` | Regional schematic map |
+| `15-gothic-choir-stalls` | 3 | `assets/15-gothic-choir-stalls/fig-03-typology.svg` | Typology morphotypes |
+| `15-gothic-choir-stalls` | 4 | `assets/15-gothic-choir-stalls/fig-04-plate.svg` | Comparative plate |
+| `16-kutubiyya-minbar` | 1 | `assets/16-kutubiyya-minbar/fig-01-timeline.svg` | Chronological anchors |
+| `16-kutubiyya-minbar` | 2 | `assets/16-kutubiyya-minbar/fig-02-map.svg` | Regional schematic map |
+| `16-kutubiyya-minbar` | 3 | `assets/16-kutubiyya-minbar/fig-03-typology.svg` | Typology morphotypes |
+| `16-kutubiyya-minbar` | 4 | `assets/16-kutubiyya-minbar/fig-04-plate.svg` | Comparative plate |
+| `17-islamic-courts-east` | 1 | `assets/17-islamic-courts-east/fig-01-timeline.svg` | Chronological anchors |
+| `17-islamic-courts-east` | 2 | `assets/17-islamic-courts-east/fig-02-map.svg` | Regional schematic map |
+| `17-islamic-courts-east` | 3 | `assets/17-islamic-courts-east/fig-03-typology.svg` | Typology morphotypes |
+| `17-islamic-courts-east` | 4 | `assets/17-islamic-courts-east/fig-04-plate.svg` | Comparative plate |
+| `18-china-before-ming` | 1 | `assets/18-china-before-ming/fig-01-timeline.svg` | Chronological anchors |
+| `18-china-before-ming` | 2 | `assets/18-china-before-ming/fig-02-map.svg` | Regional schematic map |
+| `18-china-before-ming` | 3 | `assets/18-china-before-ming/fig-03-typology.svg` | Typology morphotypes |
+| `18-china-before-ming` | 4 | `assets/18-china-before-ming/fig-04-plate.svg` | Comparative plate |
+| `19-ming-huanghuali` | 1 | `assets/19-ming-huanghuali/fig-01-timeline.svg` | Chronological anchors |
+| `19-ming-huanghuali` | 2 | `assets/19-ming-huanghuali/fig-02-map.svg` | Regional schematic map |
+| `19-ming-huanghuali` | 3 | `assets/19-ming-huanghuali/fig-03-typology.svg` | Typology morphotypes |
+| `19-ming-huanghuali` | 4 | `assets/19-ming-huanghuali/fig-04-plate.svg` | Comparative plate |
+| `20-japan-tatami-tansu` | 1 | `assets/20-japan-tatami-tansu/fig-01-timeline.svg` | Chronological anchors |
+| `20-japan-tatami-tansu` | 2 | `assets/20-japan-tatami-tansu/fig-02-map.svg` | Regional schematic map |
+| `20-japan-tatami-tansu` | 3 | `assets/20-japan-tatami-tansu/fig-03-typology.svg` | Typology morphotypes |
+| `20-japan-tatami-tansu` | 4 | `assets/20-japan-tatami-tansu/fig-04-plate.svg` | Comparative plate |
+| `21-joseon-korea` | 1 | `assets/21-joseon-korea/fig-01-timeline.svg` | Chronological anchors |
+| `21-joseon-korea` | 2 | `assets/21-joseon-korea/fig-02-map.svg` | Regional schematic map |
+| `21-joseon-korea` | 3 | `assets/21-joseon-korea/fig-03-typology.svg` | Typology morphotypes |
+| `21-joseon-korea` | 4 | `assets/21-joseon-korea/fig-04-plate.svg` | Comparative plate |
+| `22-south-asia-seats` | 1 | `assets/22-south-asia-seats/fig-01-timeline.svg` | Chronological anchors |
+| `22-south-asia-seats` | 2 | `assets/22-south-asia-seats/fig-02-map.svg` | Regional schematic map |
+| `22-south-asia-seats` | 3 | `assets/22-south-asia-seats/fig-03-typology.svg` | Typology morphotypes |
+| `22-south-asia-seats` | 4 | `assets/22-south-asia-seats/fig-04-plate.svg` | Comparative plate |
+| `23-southeast-asia-wood` | 1 | `assets/23-southeast-asia-wood/fig-01-timeline.svg` | Chronological anchors |
+| `23-southeast-asia-wood` | 2 | `assets/23-southeast-asia-wood/fig-02-map.svg` | Regional schematic map |
+| `23-southeast-asia-wood` | 3 | `assets/23-southeast-asia-wood/fig-03-typology.svg` | Typology morphotypes |
+| `23-southeast-asia-wood` | 4 | `assets/23-southeast-asia-wood/fig-04-plate.svg` | Comparative plate |
+| `24-asante-stools` | 1 | `assets/24-asante-stools/fig-01-timeline.svg` | Chronological anchors |
+| `24-asante-stools` | 2 | `assets/24-asante-stools/fig-02-map.svg` | Regional schematic map |
+| `24-asante-stools` | 3 | `assets/24-asante-stools/fig-03-typology.svg` | Typology morphotypes |
+| `24-asante-stools` | 4 | `assets/24-asante-stools/fig-04-plate.svg` | Comparative plate |
+| `25-americas-before-1492` | 1 | `assets/25-americas-before-1492/fig-01-timeline.svg` | Chronological anchors |
+| `25-americas-before-1492` | 2 | `assets/25-americas-before-1492/fig-02-map.svg` | Regional schematic map |
+| `25-americas-before-1492` | 3 | `assets/25-americas-before-1492/fig-03-typology.svg` | Typology morphotypes |
+| `25-americas-before-1492` | 4 | `assets/25-americas-before-1492/fig-04-plate.svg` | Comparative plate |
+| `26-renaissance-italy` | 1 | `assets/26-renaissance-italy/fig-01-timeline.svg` | Chronological anchors |
+| `26-renaissance-italy` | 2 | `assets/26-renaissance-italy/fig-02-map.svg` | Regional schematic map |
+| `26-renaissance-italy` | 3 | `assets/26-renaissance-italy/fig-03-typology.svg` | Typology morphotypes |
+| `26-renaissance-italy` | 4 | `assets/26-renaissance-italy/fig-04-plate.svg` | Comparative plate |
+| `27-antwerp-cabinets` | 1 | `assets/27-antwerp-cabinets/fig-01-timeline.svg` | Chronological anchors |
+| `27-antwerp-cabinets` | 2 | `assets/27-antwerp-cabinets/fig-02-map.svg` | Regional schematic map |
+| `27-antwerp-cabinets` | 3 | `assets/27-antwerp-cabinets/fig-03-typology.svg` | Typology morphotypes |
+| `27-antwerp-cabinets` | 4 | `assets/27-antwerp-cabinets/fig-04-plate.svg` | Comparative plate |
+| `28-boulle-baroque` | 1 | `assets/28-boulle-baroque/fig-01-timeline.svg` | Chronological anchors |
+| `28-boulle-baroque` | 2 | `assets/28-boulle-baroque/fig-02-map.svg` | Regional schematic map |
+| `28-boulle-baroque` | 3 | `assets/28-boulle-baroque/fig-03-typology.svg` | Typology morphotypes |
+| `28-boulle-baroque` | 4 | `assets/28-boulle-baroque/fig-04-plate.svg` | Comparative plate |
+| `29-rococo-paris` | 1 | `assets/29-rococo-paris/fig-01-timeline.svg` | Chronological anchors |
+| `29-rococo-paris` | 2 | `assets/29-rococo-paris/fig-02-map.svg` | Regional schematic map |
+| `29-rococo-paris` | 3 | `assets/29-rococo-paris/fig-03-typology.svg` | Typology morphotypes |
+| `29-rococo-paris` | 4 | `assets/29-rococo-paris/fig-04-plate.svg` | Comparative plate |
+| `30-neoclassical-hamilton` | 1 | `assets/30-neoclassical-hamilton/fig-01-timeline.svg` | Chronological anchors |
+| `30-neoclassical-hamilton` | 2 | `assets/30-neoclassical-hamilton/fig-02-map.svg` | Regional schematic map |
+| `30-neoclassical-hamilton` | 3 | `assets/30-neoclassical-hamilton/fig-03-typology.svg` | Typology morphotypes |
+| `30-neoclassical-hamilton` | 4 | `assets/30-neoclassical-hamilton/fig-04-plate.svg` | Comparative plate |
+| `31-chippendale-director` | 1 | `assets/31-chippendale-director/fig-01-timeline.svg` | Chronological anchors |
+| `31-chippendale-director` | 2 | `assets/31-chippendale-director/fig-02-map.svg` | Regional schematic map |
+| `31-chippendale-director` | 3 | `assets/31-chippendale-director/fig-03-typology.svg` | Typology morphotypes |
+| `31-chippendale-director` | 4 | `assets/31-chippendale-director/fig-04-plate.svg` | Comparative plate |
+| `32-phyfe-federal-america` | 1 | `assets/32-phyfe-federal-america/fig-01-timeline.svg` | Chronological anchors |
+| `32-phyfe-federal-america` | 2 | `assets/32-phyfe-federal-america/fig-02-map.svg` | Regional schematic map |
+| `32-phyfe-federal-america` | 3 | `assets/32-phyfe-federal-america/fig-03-typology.svg` | Typology morphotypes |
+| `32-phyfe-federal-america` | 4 | `assets/32-phyfe-federal-america/fig-04-plate.svg` | Comparative plate |
+| `33-thonet-no-14` | 1 | `assets/33-thonet-no-14/fig-01-timeline.svg` | Chronological anchors |
+| `33-thonet-no-14` | 2 | `assets/33-thonet-no-14/fig-02-map.svg` | Regional schematic map |
+| `33-thonet-no-14` | 3 | `assets/33-thonet-no-14/fig-03-typology.svg` | Typology morphotypes |
+| `33-thonet-no-14` | 4 | `assets/33-thonet-no-14/fig-04-plate.svg` | Comparative plate |
+| `34-victorian-rooms` | 1 | `assets/34-victorian-rooms/fig-01-timeline.svg` | Chronological anchors |
+| `34-victorian-rooms` | 2 | `assets/34-victorian-rooms/fig-02-map.svg` | Regional schematic map |
+| `34-victorian-rooms` | 3 | `assets/34-victorian-rooms/fig-03-typology.svg` | Typology morphotypes |
+| `34-victorian-rooms` | 4 | `assets/34-victorian-rooms/fig-04-plate.svg` | Comparative plate |
+| `35-arts-and-crafts` | 1 | `assets/35-arts-and-crafts/fig-01-timeline.svg` | Chronological anchors |
+| `35-arts-and-crafts` | 2 | `assets/35-arts-and-crafts/fig-02-map.svg` | Regional schematic map |
+| `35-arts-and-crafts` | 3 | `assets/35-arts-and-crafts/fig-03-typology.svg` | Typology morphotypes |
+| `35-arts-and-crafts` | 4 | `assets/35-arts-and-crafts/fig-04-plate.svg` | Comparative plate |
+| `36-art-nouveau-secession` | 1 | `assets/36-art-nouveau-secession/fig-01-timeline.svg` | Chronological anchors |
+| `36-art-nouveau-secession` | 2 | `assets/36-art-nouveau-secession/fig-02-map.svg` | Regional schematic map |
+| `36-art-nouveau-secession` | 3 | `assets/36-art-nouveau-secession/fig-03-typology.svg` | Typology morphotypes |
+| `36-art-nouveau-secession` | 4 | `assets/36-art-nouveau-secession/fig-04-plate.svg` | Comparative plate |
+| `37-bauhaus-modernism` | 1 | `assets/37-bauhaus-modernism/fig-01-timeline.svg` | Chronological anchors |
+| `37-bauhaus-modernism` | 2 | `assets/37-bauhaus-modernism/fig-02-map.svg` | Regional schematic map |
+| `37-bauhaus-modernism` | 3 | `assets/37-bauhaus-modernism/fig-03-typology.svg` | Typology morphotypes |
+| `37-bauhaus-modernism` | 4 | `assets/37-bauhaus-modernism/fig-04-plate.svg` | Comparative plate |
+| `38-postwar-plywood` | 1 | `assets/38-postwar-plywood/fig-01-timeline.svg` | Chronological anchors |
+| `38-postwar-plywood` | 2 | `assets/38-postwar-plywood/fig-02-map.svg` | Regional schematic map |
+| `38-postwar-plywood` | 3 | `assets/38-postwar-plywood/fig-03-typology.svg` | Typology morphotypes |
+| `38-postwar-plywood` | 4 | `assets/38-postwar-plywood/fig-04-plate.svg` | Comparative plate |
+| `39-memphis-ikea-late-century` | 1 | `assets/39-memphis-ikea-late-century/fig-01-timeline.svg` | Chronological anchors |
+| `39-memphis-ikea-late-century` | 2 | `assets/39-memphis-ikea-late-century/fig-02-map.svg` | Regional schematic map |
+| `39-memphis-ikea-late-century` | 3 | `assets/39-memphis-ikea-late-century/fig-03-typology.svg` | Typology morphotypes |
+| `39-memphis-ikea-late-century` | 4 | `assets/39-memphis-ikea-late-century/fig-04-plate.svg` | Comparative plate |
+| `40-twenty-first-century` | 1 | `assets/40-twenty-first-century/fig-01-timeline.svg` | Chronological anchors |
+| `40-twenty-first-century` | 2 | `assets/40-twenty-first-century/fig-02-map.svg` | Regional schematic map |
+| `40-twenty-first-century` | 3 | `assets/40-twenty-first-century/fig-03-typology.svg` | Typology morphotypes |
+| `40-twenty-first-century` | 4 | `assets/40-twenty-first-century/fig-04-plate.svg` | Comparative plate |
+| `41-joinery-timber-trade` | 1 | `assets/41-joinery-timber-trade/fig-01-timeline.svg` | Chronological anchors |
+| `41-joinery-timber-trade` | 2 | `assets/41-joinery-timber-trade/fig-02-map.svg` | Regional schematic map |
+| `41-joinery-timber-trade` | 3 | `assets/41-joinery-timber-trade/fig-03-typology.svg` | Typology morphotypes |
+| `41-joinery-timber-trade` | 4 | `assets/41-joinery-timber-trade/fig-04-plate.svg` | Comparative plate |
+| `42-who-sits-labor` | 1 | `assets/42-who-sits-labor/fig-01-timeline.svg` | Chronological anchors |
+| `42-who-sits-labor` | 2 | `assets/42-who-sits-labor/fig-02-map.svg` | Regional schematic map |
+| `42-who-sits-labor` | 3 | `assets/42-who-sits-labor/fig-03-typology.svg` | Typology morphotypes |
+| `42-who-sits-labor` | 4 | `assets/42-who-sits-labor/fig-04-plate.svg` | Comparative plate |
+| `43-american-mill-towns-arkansas` | 1 | `assets/43-american-mill-towns-arkansas/fig-01-timeline.svg` | Chronological anchors |
+| `43-american-mill-towns-arkansas` | 2 | `assets/43-american-mill-towns-arkansas/fig-02-map.svg` | Regional schematic map |
+| `43-american-mill-towns-arkansas` | 3 | `assets/43-american-mill-towns-arkansas/fig-03-typology.svg` | Typology morphotypes |
+| `43-american-mill-towns-arkansas` | 4 | `assets/43-american-mill-towns-arkansas/fig-04-plate.svg` | Comparative plate |

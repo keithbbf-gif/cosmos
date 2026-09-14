@@ -92,21 +92,21 @@ Meiji imports and department-store catalogs then add Western chairs at speed. Th
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/japanese-floor-sitting/fig-01-timeline.svg)
+![Chronological anchors for The Floor as Furniture (Heian–Edo).](assets/20-japan-tatami-tansu/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The Floor as Furniture** (Heian–Edo). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/japanese-floor-sitting/fig-02-map.svg)
+![Regional focus (schematic): Japan.](assets/20-japan-tatami-tansu/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Japan. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/japanese-floor-sitting/fig-03-typology.svg)
+![Morphological typology for floor sitting (idealized morphotypes).](assets/20-japan-tatami-tansu/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for floor sitting (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/japanese-floor-sitting/fig-04-plate.svg)
+![Comparative elevation and plan plate for floor sitting.](assets/20-japan-tatami-tansu/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for floor sitting. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

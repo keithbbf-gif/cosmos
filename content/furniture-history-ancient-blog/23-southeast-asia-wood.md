@@ -88,21 +88,21 @@ Ethnographic stools accessioned in 1912 are 1912 documents of living shops, not 
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/vedic-india-low-seating/fig-01-timeline.svg)
+![Chronological anchors for Teak, Rattan, and the Island Workshop (to the 19th century).](assets/23-southeast-asia-wood/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Teak, Rattan, and the Island Workshop** (to the 19th century). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/vedic-india-low-seating/fig-02-map.svg)
+![Regional focus (schematic): Mainland and island Southeast Asia.](assets/23-southeast-asia-wood/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Mainland and island Southeast Asia. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/vedic-india-low-seating/fig-03-typology.svg)
+![Morphological typology for tropical hardwood (idealized morphotypes).](assets/23-southeast-asia-wood/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for tropical hardwood (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/vedic-india-low-seating/fig-04-plate.svg)
+![Comparative elevation and plan plate for tropical hardwood.](assets/23-southeast-asia-wood/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for tropical hardwood. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

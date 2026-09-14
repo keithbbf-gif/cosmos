@@ -85,21 +85,21 @@ European travelers wrote that “Moors sit on the floor” and stopped. The sent
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/islamic-early-seating/fig-01-timeline.svg)
+![Chronological anchors for Rahle, Kursi, and the Ottoman Seat (13th–17th century).](assets/17-islamic-courts-east/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Rahle, Kursi, and the Ottoman Seat** (13th–17th century). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/islamic-early-seating/fig-02-map.svg)
+![Regional focus (schematic): Egypt, Iran, Ottoman lands.](assets/17-islamic-courts-east/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Egypt, Iran, Ottoman lands. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/islamic-early-seating/fig-03-typology.svg)
+![Morphological typology for court seating (idealized morphotypes).](assets/17-islamic-courts-east/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for court seating (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/islamic-early-seating/fig-04-plate.svg)
+![Comparative elevation and plan plate for court seating.](assets/17-islamic-courts-east/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for court seating. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -103,21 +103,21 @@ Cedar boasts in royal inscriptions are not metaphors. Logs floated. A temple bea
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/levantine-ivory-inlays/fig-01-timeline.svg)
+![Chronological anchors for Ivory Houses of the Tigris (3rd–2nd millennium BCE).](assets/05-mesopotamia-ivory-houses/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Ivory Houses of the Tigris** (3rd–2nd millennium BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/levantine-ivory-inlays/fig-02-map.svg)
+![Regional focus (schematic): Mesopotamia, Levant.](assets/05-mesopotamia-ivory-houses/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Mesopotamia, Levant. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/levantine-ivory-inlays/fig-03-typology.svg)
+![Morphological typology for ivory-inlaid furniture (idealized morphotypes).](assets/05-mesopotamia-ivory-houses/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for ivory-inlaid furniture (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/levantine-ivory-inlays/fig-04-plate.svg)
+![Comparative elevation and plan plate for ivory-inlaid furniture.](assets/05-mesopotamia-ivory-houses/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for ivory-inlaid furniture. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

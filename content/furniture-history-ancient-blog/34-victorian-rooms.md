@@ -100,21 +100,21 @@ Pugin’s *True Principles* (1841) and the Houses of Parliament furniture attack
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/upholstery-bolsters-ancient/fig-01-timeline.svg)
+![Chronological anchors for Horsehair and Cast Iron (1837–1901).](assets/34-victorian-rooms/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Horsehair and Cast Iron** (1837–1901). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/upholstery-bolsters-ancient/fig-02-map.svg)
+![Regional focus (schematic): Britain, Europe, Atlantic world.](assets/34-victorian-rooms/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Britain, Europe, Atlantic world. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/upholstery-bolsters-ancient/fig-03-typology.svg)
+![Morphological typology for parlor suite (idealized morphotypes).](assets/34-victorian-rooms/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for parlor suite (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/upholstery-bolsters-ancient/fig-04-plate.svg)
+![Comparative elevation and plan plate for parlor suite.](assets/34-victorian-rooms/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for parlor suite. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -86,21 +86,21 @@ What the town refuses is the old handbook sentence that Roman houses were sparse
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/herculaneum-carbonized-wood/fig-01-timeline.svg)
+![Chronological anchors for The House of the Wooden Furniture (79 CE).](assets/10-herculaneum-wood/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The House of the Wooden Furniture** (79 CE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/herculaneum-carbonized-wood/fig-02-map.svg)
+![Regional focus (schematic): Herculaneum, Campania, Rome.](assets/10-herculaneum-wood/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Herculaneum, Campania, Rome. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/herculaneum-carbonized-wood/fig-03-typology.svg)
+![Morphological typology for carbonized wood (idealized morphotypes).](assets/10-herculaneum-wood/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for carbonized wood (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/herculaneum-carbonized-wood/fig-04-plate.svg)
+![Comparative elevation and plan plate for carbonized wood.](assets/10-herculaneum-wood/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for carbonized wood. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

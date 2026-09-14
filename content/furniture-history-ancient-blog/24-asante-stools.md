@@ -81,21 +81,21 @@ A tourist stool can carry Cole and Ross’s crocodile and still not be a stool w
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/upholstery-bolsters-ancient/fig-01-timeline.svg)
+![Chronological anchors for The Stool That Must Not Be Sat Upon (18th–20th century (with older stool traditions)).](assets/24-asante-stools/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The Stool That Must Not Be Sat Upon** (18th–20th century (with older stool traditions)). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/upholstery-bolsters-ancient/fig-02-map.svg)
+![Regional focus (schematic): West Africa, Asante, Akan.](assets/24-asante-stools/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): West Africa, Asante, Akan. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/upholstery-bolsters-ancient/fig-03-typology.svg)
+![Morphological typology for stool and authority (idealized morphotypes).](assets/24-asante-stools/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for stool and authority (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/upholstery-bolsters-ancient/fig-04-plate.svg)
+![Comparative elevation and plan plate for stool and authority.](assets/24-asante-stools/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for stool and authority. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

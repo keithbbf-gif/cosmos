@@ -103,21 +103,21 @@ Silverman’s book remains the political frame for the French material: nature, 
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/pigment-and-gilding-furniture/fig-01-timeline.svg)
+![Chronological anchors for Vienna, Glasgow, and the New Art (1890–1914).](assets/36-art-nouveau-secession/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Vienna, Glasgow, and the New Art** (1890–1914). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/pigment-and-gilding-furniture/fig-02-map.svg)
+![Regional focus (schematic): Brussels, Paris, Glasgow, Vienna, Barcelona.](assets/36-art-nouveau-secession/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Brussels, Paris, Glasgow, Vienna, Barcelona. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/pigment-and-gilding-furniture/fig-03-typology.svg)
+![Morphological typology for curvilinear line (idealized morphotypes).](assets/36-art-nouveau-secession/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for curvilinear line (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/pigment-and-gilding-furniture/fig-04-plate.svg)
+![Comparative elevation and plan plate for curvilinear line.](assets/36-art-nouveau-secession/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for curvilinear line. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

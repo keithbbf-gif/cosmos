@@ -31,9 +31,22 @@
 | Item | Count |
 | --- | ---: |
 | Magazine essays | 43 |
-| SVG files under `assets/` | 176 (44 slugs × 4) |
-| Chapters with embedded Figs. 1–4 | 43 |
-| Scripts | `scripts/merge_unified_figures.py`, `scripts/build_graphics_pack.py`, … |
+| SVG files under `assets/` | 348 (44 topic slugs × 4 + 43 chapter slugs × 4) |
+| Chapters with embedded Figs. 1–4 | 43 (chapter-specific paths, wave 2) |
+| Scripts | `scripts/merge_unified_figures.py`, `scripts/build_graphics_pack.py`, `scripts/build_chapter_graphics_wave2.py`, `scripts/refresh_chapter_figure_embeds.py`, … |
+
+## Wave 2 — chapter-specific schematics (2026-09-14)
+
+**Problem:** After the unified merge, twenty-four magazine chapters still borrowed cross-cutting ancient topic slugs (`pigment-and-gilding-furniture`, `joinery-before-nails`, etc.). Timelines read “2000 BCE–500 CE” on Renaissance and modern chapters.
+
+**Fix:** One schematic set per chapter stem under `assets/<chapter-stem>/`, with metadata in `chapter_graphics_meta.json` (period, region, typology labels). `CHAPTER_GRAPHICS_MAP.json` is now 1:1 (chapter → same stem). The original forty-four ancient topic packs under `assets/<topics.json slug>/` remain for the editorial deep-dive lineage.
+
+**Regenerate chapter figures:**
+
+```bash
+python3 content/furniture-history-ancient-blog/scripts/build_chapter_graphics_wave2.py
+python3 content/furniture-history-ancient-blog/scripts/refresh_chapter_figure_embeds.py
+```
 
 ## Regeneration
 

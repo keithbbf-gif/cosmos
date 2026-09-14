@@ -91,21 +91,21 @@ The 1762 edition thickened the Gothic and Chinese plates without measuring a sta
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/roman-furniture-prices-didactic/fig-01-timeline.svg)
+![Chronological anchors for St. Martin’s Lane (1754–1779).](assets/31-chippendale-director/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **St. Martin’s Lane** (1754–1779). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/roman-furniture-prices-didactic/fig-02-map.svg)
+![Regional focus (schematic): London, Britain, Atlantic world.](assets/31-chippendale-director/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): London, Britain, Atlantic world. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/roman-furniture-prices-didactic/fig-03-typology.svg)
+![Morphological typology for pattern-book chair (idealized morphotypes).](assets/31-chippendale-director/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for pattern-book chair (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/roman-furniture-prices-didactic/fig-04-plate.svg)
+![Comparative elevation and plan plate for pattern-book chair.](assets/31-chippendale-director/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for pattern-book chair. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

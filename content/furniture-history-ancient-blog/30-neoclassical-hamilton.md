@@ -97,21 +97,21 @@ The Fitzwilliam’s Hope armchair (M.4-1992) remains the heavy end a visitor can
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/greek-vocabulary-furniture/fig-01-timeline.svg)
+![Chronological anchors for Hamilton’s Vases and the Neoclassical Chair (1760–1820).](assets/30-neoclassical-hamilton/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Hamilton’s Vases and the Neoclassical Chair** (1760–1820). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/greek-vocabulary-furniture/fig-02-map.svg)
+![Regional focus (schematic): Britain, France, Italy, United States.](assets/30-neoclassical-hamilton/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Britain, France, Italy, United States. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/greek-vocabulary-furniture/fig-03-typology.svg)
+![Morphological typology for neoclassical chair (idealized morphotypes).](assets/30-neoclassical-hamilton/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for neoclassical chair (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/greek-vocabulary-furniture/fig-04-plate.svg)
+![Comparative elevation and plan plate for neoclassical chair.](assets/30-neoclassical-hamilton/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for neoclassical chair. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -89,21 +89,21 @@ Hodder’s final project volumes (*Çatalhöyük Research Project* series, Briti
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/indus-valley-household-forms/fig-01-timeline.svg)
+![Chronological anchors for Platforms Under the Dead (c. 7100–6000 BCE).](assets/02-platforms-catalhoyuk/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Platforms Under the Dead** (c. 7100–6000 BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/indus-valley-household-forms/fig-02-map.svg)
+![Regional focus (schematic): Central Anatolia.](assets/02-platforms-catalhoyuk/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Central Anatolia. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/indus-valley-household-forms/fig-03-typology.svg)
+![Morphological typology for platforms and plaster floors (idealized morphotypes).](assets/02-platforms-catalhoyuk/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for platforms and plaster floors (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/indus-valley-household-forms/fig-04-plate.svg)
+![Comparative elevation and plan plate for platforms and plaster floors.](assets/02-platforms-catalhoyuk/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for platforms and plaster floors. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

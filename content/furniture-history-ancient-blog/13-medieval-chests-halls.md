@@ -88,21 +88,21 @@ Eames’s sentences from wills — a “great chest,” a board and a pair of tr
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/oak-and-cedar-supply-chains/fig-01-timeline.svg)
+![Chronological anchors for The Oak Chest and the Timber Hall (500–1300).](assets/13-medieval-chests-halls/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The Oak Chest and the Timber Hall** (500–1300). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/oak-and-cedar-supply-chains/fig-02-map.svg)
+![Regional focus (schematic): Western Europe.](assets/13-medieval-chests-halls/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Western Europe. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/oak-and-cedar-supply-chains/fig-03-typology.svg)
+![Morphological typology for clamped chest (idealized morphotypes).](assets/13-medieval-chests-halls/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for clamped chest (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/oak-and-cedar-supply-chains/fig-04-plate.svg)
+![Comparative elevation and plan plate for clamped chest.](assets/13-medieval-chests-halls/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for clamped chest. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

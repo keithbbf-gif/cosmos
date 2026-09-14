@@ -88,21 +88,21 @@ The Peacock Throne remains a lost object with a loud afterlife. Use a painted th
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/mauryan-palace-furniture/fig-01-timeline.svg)
+![Chronological anchors for Charpoy, Howdah, and the Mughal Seat (ancient to Mughal).](assets/22-south-asia-seats/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Charpoy, Howdah, and the Mughal Seat** (ancient to Mughal). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/mauryan-palace-furniture/fig-02-map.svg)
+![Regional focus (schematic): South Asia.](assets/22-south-asia-seats/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): South Asia. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/mauryan-palace-furniture/fig-03-typology.svg)
+![Morphological typology for throne and stool (idealized morphotypes).](assets/22-south-asia-seats/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for throne and stool (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/mauryan-palace-furniture/fig-04-plate.svg)
+![Comparative elevation and plan plate for throne and stool.](assets/22-south-asia-seats/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for throne and stool. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

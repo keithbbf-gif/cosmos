@@ -78,21 +78,21 @@ Other Maghribi pulpits (the Andalusian Mosque in Fez, later copies, fragments) f
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/islamic-early-seating/fig-01-timeline.svg)
+![Chronological anchors for A Pulpit from Córdoba (1137–twelfth century and after).](assets/16-kutubiyya-minbar/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **A Pulpit from Córdoba** (1137–twelfth century and after). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/islamic-early-seating/fig-02-map.svg)
+![Regional focus (schematic): al-Andalus, Maghrib.](assets/16-kutubiyya-minbar/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): al-Andalus, Maghrib. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/islamic-early-seating/fig-03-typology.svg)
+![Morphological typology for minbar pulpit (idealized morphotypes).](assets/16-kutubiyya-minbar/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for minbar pulpit (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/islamic-early-seating/fig-04-plate.svg)
+![Comparative elevation and plan plate for minbar pulpit.](assets/16-kutubiyya-minbar/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for minbar pulpit. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

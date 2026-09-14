@@ -1,0 +1,261 @@
+{
+  "comment": "Per-chapter schematic metadata for wave-2 magazine figures (slug = chapter file stem).",
+  "01-house-one-skara-brae": {
+    "focus": "Neolithic stone fittings",
+    "typology_a": "Dresser / wall fitting",
+    "typology_b": "Box-bed recess",
+    "typology_c": "Seat of honor slab"
+  },
+  "02-platforms-catalhoyuk": {
+    "focus": "platforms and plaster floors",
+    "typology_a": "Raised platform",
+    "typology_b": "Bench / kerb",
+    "typology_c": "Storage niche"
+  },
+  "03-hetepheres-old-kingdom": {
+    "focus": "Old Kingdom bed and chair",
+    "typology_a": "Bed with lion legs",
+    "typology_b": "Portable chair",
+    "typology_c": "Headrest / chest"
+  },
+  "04-hatnefer-new-kingdom": {
+    "focus": "folding stool and chair",
+    "typology_a": "Folding stool",
+    "typology_b": "Armchair",
+    "typology_c": "Table / stand"
+  },
+  "05-mesopotamia-ivory-houses": {
+    "focus": "ivory-inlaid furniture",
+    "typology_a": "Inlaid throne",
+    "typology_b": "Banquet couch",
+    "typology_c": "Table / stand"
+  },
+  "06-nimrud-sw7-ivories": {
+    "focus": "SW7 ivory furniture",
+    "typology_a": "Ivory chair",
+    "typology_b": "Plaque panel",
+    "typology_c": "Table / stand"
+  },
+  "07-achaemenid-thrones": {
+    "focus": "audience throne",
+    "typology_a": "Enthroned king",
+    "typology_b": "Footstool",
+    "typology_c": "Incense stand"
+  },
+  "08-greek-klismos": {
+    "focus": "klismos chair",
+    "typology_a": "Klismos",
+    "typology_b": "Thronos",
+    "typology_c": "Diphros stool"
+  },
+  "09-etruscan-couches": {
+    "focus": "funerary couch",
+    "typology_a": "Banqueting couch",
+    "typology_b": "Bronze fitting",
+    "typology_c": "Terracotta model"
+  },
+  "10-herculaneum-wood": {
+    "focus": "carbonized wood",
+    "typology_a": "Couch / bed",
+    "typology_b": "Table",
+    "typology_c": "Stool / cabinet"
+  },
+  "11-roman-provinces": {
+    "focus": "provincial cubiculum",
+    "typology_a": "Bed / couch",
+    "typology_b": "Chest / armarium",
+    "typology_c": "Chair / stool"
+  },
+  "12-late-antique-byzantine": {
+    "focus": "catacomb and throne",
+    "typology_a": "Loculus / arcosolium",
+    "typology_b": "Ivory throne",
+    "typology_c": "Footstool"
+  },
+  "13-medieval-chests-halls": {
+    "focus": "clamped chest",
+    "typology_a": "Clamped chest",
+    "typology_b": "Arcaded front",
+    "typology_c": "Hall bench"
+  },
+  "14-oseberg-viking-wood": {
+    "focus": "ship burial wood",
+    "typology_a": "Bed",
+    "typology_b": "Wagon",
+    "typology_c": "Chest / stool"
+  },
+  "15-gothic-choir-stalls": {
+    "focus": "choir stall",
+    "typology_a": "Misericord stall",
+    "typology_b": "Canopy standard",
+    "typology_c": "Desk / lectern"
+  },
+  "16-kutubiyya-minbar": {
+    "focus": "minbar pulpit",
+    "typology_a": "Minbar stair",
+    "typology_b": "Inlaid riser",
+    "typology_c": "Dome / canopy"
+  },
+  "17-islamic-courts-east": {
+    "focus": "court seating",
+    "typology_a": "Divan platform",
+    "typology_b": "Portable throne",
+    "typology_c": "Low table"
+  },
+  "18-china-before-ming": {
+    "focus": "kang and platform",
+    "typology_a": "Kang platform",
+    "typology_b": "Low table",
+    "typology_c": "Stool / chair"
+  },
+  "19-ming-huanghuali": {
+    "focus": "huanghuali hardwood",
+    "typology_a": "Yoke-back chair",
+    "typology_b": "Table",
+    "typology_c": "Cabinet"
+  },
+  "20-japan-tatami-tansu": {
+    "focus": "floor sitting",
+    "typology_a": "Zabuton / floor",
+    "typology_b": "Tansu chest",
+    "typology_c": "Low table"
+  },
+  "21-joseon-korea": {
+    "focus": "ondol and floor",
+    "typology_a": "Heated floor",
+    "typology_b": "Low table",
+    "typology_c": "Chest / wardrobe"
+  },
+  "22-south-asia-seats": {
+    "focus": "throne and stool",
+    "typology_a": "Palace throne",
+    "typology_b": "Low stool",
+    "typology_c": "Platform bed"
+  },
+  "23-southeast-asia-wood": {
+    "focus": "tropical hardwood",
+    "typology_a": "Gilt throne",
+    "typology_b": "Bamboo stool",
+    "typology_c": "Lacquer cabinet"
+  },
+  "24-asante-stools": {
+    "focus": "stool and authority",
+    "typology_a": "Ceremonial stool",
+    "typology_b": "Household stool",
+    "typology_c": "Palanquin seat"
+  },
+  "25-americas-before-1492": {
+    "focus": "Americas seating",
+    "typology_a": "Bench / throne",
+    "typology_b": "Tripod stool",
+    "typology_c": "Storage chest"
+  },
+  "26-renaissance-italy": {
+    "focus": "cassone and studiolo",
+    "typology_a": "Cassone",
+    "typology_b": "Sgabello",
+    "typology_c": "Studiolo lining"
+  },
+  "27-antwerp-cabinets": {
+    "focus": "cabinet on stand",
+    "typology_a": "Kunstkammer cabinet",
+    "typology_b": "Ebony veneer",
+    "typology_c": "Credenza"
+  },
+  "28-boulle-baroque": {
+    "focus": "Boulle marquetry",
+    "typology_a": "Bureau plat",
+    "typology_b": "Commode",
+    "typology_c": "Armchair"
+  },
+  "29-rococo-paris": {
+    "focus": "upholstered salon",
+    "typology_a": "Bergère",
+    "typology_b": "Canapé",
+    "typology_c": "Console table"
+  },
+  "30-neoclassical-hamilton": {
+    "focus": "neoclassical chair",
+    "typology_a": "Klismos revival",
+    "typology_b": "Sabre leg",
+    "typology_c": "Tripod table"
+  },
+  "31-chippendale-director": {
+    "focus": "pattern-book chair",
+    "typology_a": "Ribbon-back",
+    "typology_b": "Chinese fret",
+    "typology_c": "Library table"
+  },
+  "32-phyfe-federal-america": {
+    "focus": "Federal sideboard",
+    "typology_a": "Klismos chair",
+    "typology_b": "Pier table",
+    "typology_c": "Sideboard"
+  },
+  "33-thonet-no-14": {
+    "focus": "bentwood chair",
+    "typology_a": "No. 14 chair",
+    "typology_b": "Café bentwood",
+    "typology_c": "Rocking chair"
+  },
+  "34-victorian-rooms": {
+    "focus": "parlor suite",
+    "typology_a": "Parlor chair",
+    "typology_b": "Whatnot",
+    "typology_c": "Center table"
+  },
+  "35-arts-and-crafts": {
+    "focus": "honest joinery",
+    "typology_a": "Morris chair",
+    "typology_b": "Stickley settle",
+    "typology_c": "Work table"
+  },
+  "36-art-nouveau-secession": {
+    "focus": "curvilinear line",
+    "typology_a": "Secession chair",
+    "typology_b": "Inlaid cabinet",
+    "typology_c": "Plant stand"
+  },
+  "37-bauhaus-modernism": {
+    "focus": "tubular steel",
+    "typology_a": "Wassily chair",
+    "typology_b": "Cantilever",
+    "typology_c": "Nesting table"
+  },
+  "38-postwar-plywood": {
+    "focus": "molded plywood",
+    "typology_a": "Eames shell",
+    "typology_b": "Plywood lounge",
+    "typology_c": "Stacking chair"
+  },
+  "39-memphis-ikea-late-century": {
+    "focus": "flat-pack system",
+    "typology_a": "Laminate shelf",
+    "typology_b": "Memphis totem",
+    "typology_c": "Modular sofa"
+  },
+  "40-twenty-first-century": {
+    "focus": "digital craft",
+    "typology_a": "CNC chair",
+    "typology_b": "3D-print seat",
+    "typology_c": "Repairable frame"
+  },
+  "41-joinery-timber-trade": {
+    "focus": "timber supply",
+    "typology_a": "Mortise joint",
+    "typology_b": "Dovetail chest",
+    "typology_c": "Veneer press"
+  },
+  "42-who-sits-labor": {
+    "focus": "labor and seating",
+    "typology_a": "Carrier / palanquin",
+    "typology_b": "Shop stool",
+    "typology_c": "Office chair"
+  },
+  "43-american-mill-towns-arkansas": {
+    "focus": "mill-town furniture",
+    "typology_a": "Factory chair",
+    "typology_b": "Porch rocker",
+    "typology_c": "Kitchen table"
+  }
+}

@@ -83,21 +83,21 @@ It refuses upholstery. It refuses the carved skirt of a Qing court piece that wa
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/han-dynasty-low-platforms/fig-01-timeline.svg)
+![Chronological anchors for The Official’s Hat Chair (Ming–early Qing).](assets/19-ming-huanghuali/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The Official’s Hat Chair** (Ming–early Qing). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/han-dynasty-low-platforms/fig-02-map.svg)
+![Regional focus (schematic): China.](assets/19-ming-huanghuali/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): China. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/han-dynasty-low-platforms/fig-03-typology.svg)
+![Morphological typology for huanghuali hardwood (idealized morphotypes).](assets/19-ming-huanghuali/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for huanghuali hardwood (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/han-dynasty-low-platforms/fig-04-plate.svg)
+![Comparative elevation and plan plate for huanghuali hardwood.](assets/19-ming-huanghuali/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for huanghuali hardwood. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

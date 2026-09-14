@@ -104,21 +104,21 @@ Literary woods (Theophrastus) are richer than finds. Maple, oak, box, olive, imp
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/greek-chair-types/fig-01-timeline.svg)
+![Chronological anchors for The Klismos and the Greek Room (6th–4th century BCE).](assets/08-greek-klismos/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **The Klismos and the Greek Room** (6th–4th century BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/greek-chair-types/fig-02-map.svg)
+![Regional focus (schematic): Greece, Athens, colonies.](assets/08-greek-klismos/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Greece, Athens, colonies. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/greek-chair-types/fig-03-typology.svg)
+![Morphological typology for klismos chair (idealized morphotypes).](assets/08-greek-klismos/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for klismos chair (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/greek-chair-types/fig-04-plate.svg)
+![Comparative elevation and plan plate for klismos chair.](assets/08-greek-klismos/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for klismos chair. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -88,21 +88,21 @@ Hitchcock fancy chairs, slightly later, took Grecian stenciling onto a factory s
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/roman-furniture-prices-didactic/fig-01-timeline.svg)
+![Chronological anchors for Phyfe’s Shop on Fulton Street (1790–1840).](assets/32-phyfe-federal-america/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Phyfe’s Shop on Fulton Street** (1790–1840). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/roman-furniture-prices-didactic/fig-02-map.svg)
+![Regional focus (schematic): United States, New York.](assets/32-phyfe-federal-america/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): United States, New York. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/roman-furniture-prices-didactic/fig-03-typology.svg)
+![Morphological typology for Federal sideboard (idealized morphotypes).](assets/32-phyfe-federal-america/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for Federal sideboard (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/roman-furniture-prices-didactic/fig-04-plate.svg)
+![Comparative elevation and plan plate for Federal sideboard.](assets/32-phyfe-federal-america/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for Federal sideboard. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

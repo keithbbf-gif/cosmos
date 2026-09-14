@@ -99,21 +99,21 @@ Mies said the Barcelona chair had to receive a king. Rietveld said the Red Blue 
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/reconstruction-methods-museums/fig-01-timeline.svg)
+![Chronological anchors for A Chair in Primary Colors (1918–1939).](assets/37-bauhaus-modernism/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **A Chair in Primary Colors** (1918–1939). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/reconstruction-methods-museums/fig-02-map.svg)
+![Regional focus (schematic): Netherlands, Germany, France, international.](assets/37-bauhaus-modernism/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Netherlands, Germany, France, international. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/reconstruction-methods-museums/fig-03-typology.svg)
+![Morphological typology for tubular steel (idealized morphotypes).](assets/37-bauhaus-modernism/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for tubular steel (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/reconstruction-methods-museums/fig-04-plate.svg)
+![Comparative elevation and plan plate for tubular steel.](assets/37-bauhaus-modernism/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for tubular steel. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

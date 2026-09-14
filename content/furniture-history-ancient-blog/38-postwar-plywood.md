@@ -101,21 +101,21 @@ Panton’s S-chair and Kartell’s wipe-clean plastics close the thirty years wi
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/joinery-before-nails/fig-01-timeline.svg)
+![Chronological anchors for Splints, Plywood, and the Postwar House (1940–1970).](assets/38-postwar-plywood/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Splints, Plywood, and the Postwar House** (1940–1970). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/joinery-before-nails/fig-02-map.svg)
+![Regional focus (schematic): United States, Scandinavia, Italy, international.](assets/38-postwar-plywood/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): United States, Scandinavia, Italy, international. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/joinery-before-nails/fig-03-typology.svg)
+![Morphological typology for molded plywood (idealized morphotypes).](assets/38-postwar-plywood/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for molded plywood (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/joinery-before-nails/fig-04-plate.svg)
+![Comparative elevation and plan plate for molded plywood.](assets/38-postwar-plywood/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for molded plywood. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

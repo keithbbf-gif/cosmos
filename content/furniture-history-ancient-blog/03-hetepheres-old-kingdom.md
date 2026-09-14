@@ -100,21 +100,21 @@ The chapters immediately after this one stay in Egypt because the New Kingdom wi
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/egyptian-bed-frames/fig-01-timeline.svg)
+![Chronological anchors for A Queen’s Bed at Giza (Dynasty 4, c. 2600–2500 BCE).](assets/03-hetepheres-old-kingdom/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **A Queen’s Bed at Giza** (Dynasty 4, c. 2600–2500 BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/egyptian-bed-frames/fig-02-map.svg)
+![Regional focus (schematic): Egypt, Giza.](assets/03-hetepheres-old-kingdom/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Egypt, Giza. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/egyptian-bed-frames/fig-03-typology.svg)
+![Morphological typology for Old Kingdom bed and chair (idealized morphotypes).](assets/03-hetepheres-old-kingdom/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for Old Kingdom bed and chair (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/egyptian-bed-frames/fig-04-plate.svg)
+![Comparative elevation and plan plate for Old Kingdom bed and chair.](assets/03-hetepheres-old-kingdom/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for Old Kingdom bed and chair. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -87,21 +87,21 @@ Open a *bandaji* flap and the inner face may be unfinished. That is a budget, no
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/korean-on-demand-platforms/fig-01-timeline.svg)
+![Chronological anchors for Bandaji and Soban (Joseon dynasty).](assets/21-joseon-korea/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Bandaji and Soban** (Joseon dynasty). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/korean-on-demand-platforms/fig-02-map.svg)
+![Regional focus (schematic): Korea.](assets/21-joseon-korea/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Korea. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/korean-on-demand-platforms/fig-03-typology.svg)
+![Morphological typology for ondol and floor (idealized morphotypes).](assets/21-joseon-korea/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for ondol and floor (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/korean-on-demand-platforms/fig-04-plate.svg)
+![Comparative elevation and plan plate for ondol and floor.](assets/21-joseon-korea/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for ondol and floor. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

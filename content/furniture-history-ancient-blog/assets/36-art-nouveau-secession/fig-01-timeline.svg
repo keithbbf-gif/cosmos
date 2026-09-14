@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="figtitle figdesc">
+  <title id="figtitle">Timeline: Vienna, Glasgow, and the New Art</title>
+  <desc id="figdesc">Schematic line diagram for educational use; redrawn, not a photograph of an artifact.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="36" y="32" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">FIGURE PLATE — SCHEMATIC</text>
+
+  <line x1="80" y1="200" x2="640" y2="200" stroke="#1c1c1c" stroke-width="2"/>
+  <polygon points="640,200 628,194 628,206" fill="#1c1c1c"/>
+
+  <line x1="120" y1="190" x2="120" y2="210" stroke="#8a8680" stroke-width="1.5"/>
+  <circle cx="120" cy="200" r="5" fill="#003057"/>
+  <text x="120" y="236" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1c1c1c">1890</text>
+  <text x="120" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Primary horizon</text>
+
+  <line x1="360" y1="190" x2="360" y2="210" stroke="#8a8680" stroke-width="1.5"/>
+  <circle cx="360" cy="200" r="5" fill="#003057"/>
+  <text x="360" y="236" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1c1c1c">1890 → 1914</text>
+  <text x="360" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Brussels, Paris, Glasgow, Vienna, Barcelona</text>
+
+  <line x1="600" y1="190" x2="600" y2="210" stroke="#8a8680" stroke-width="1.5"/>
+  <circle cx="600" cy="200" r="5" fill="#003057"/>
+  <text x="600" y="236" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1c1c1c">1914</text>
+  <text x="600" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Terminus (schematic)</text>
+
+  <text x="36" y="72" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1c1c1c">Chronological anchors</text>
+  <text x="36" y="96" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5c5c">Vienna, Glasgow, and the New Art · Brussels, Paris, Glasgow, Vienna, Barcelona</text>
+  <rect x="36" y="118" width="648" height="52" fill="none" stroke="#c8c4bc" stroke-width="1"/>
+  <text x="48" y="140" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1c1c1c">Use this timeline to situate textual, pictorial, and excavation evidence.</text>
+  <text x="48" y="158" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c">Intervals are approximate; see essay notes for primary dating debates.</text>
+
+  <text x="36" y="456" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#5c5c5c">Redrawn line diagram · staged editorial asset · not a museum photograph</text>
+</svg>

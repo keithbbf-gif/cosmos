@@ -84,21 +84,21 @@ The joiner’s name is missing. The shop is not. Turned profiles, bronze sockets
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/etruscan-funeral-couches/fig-01-timeline.svg)
+![Chronological anchors for Banquet Couches of Etruria (7th–3rd century BCE).](assets/09-etruscan-couches/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Banquet Couches of Etruria** (7th–3rd century BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/etruscan-funeral-couches/fig-02-map.svg)
+![Regional focus (schematic): Etruria, central Italy.](assets/09-etruscan-couches/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Etruria, central Italy. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/etruscan-funeral-couches/fig-03-typology.svg)
+![Morphological typology for funerary couch (idealized morphotypes).](assets/09-etruscan-couches/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for funerary couch (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/etruscan-funeral-couches/fig-04-plate.svg)
+![Comparative elevation and plan plate for funerary couch.](assets/09-etruscan-couches/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for funerary couch. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -95,21 +95,21 @@ No catalog number of a living maker belongs here. The series ends on a dated wor
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/oak-and-cedar-supply-chains/fig-01-timeline.svg)
+![Chronological anchors for Hardwood Towns (1870–).](assets/43-american-mill-towns-arkansas/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Hardwood Towns** (1870–). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/oak-and-cedar-supply-chains/fig-02-map.svg)
+![Regional focus (schematic): United States, Arkansas, the hardwood belt.](assets/43-american-mill-towns-arkansas/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): United States, Arkansas, the hardwood belt. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/oak-and-cedar-supply-chains/fig-03-typology.svg)
+![Morphological typology for mill-town furniture (idealized morphotypes).](assets/43-american-mill-towns-arkansas/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for mill-town furniture (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/oak-and-cedar-supply-chains/fig-04-plate.svg)
+![Comparative elevation and plan plate for mill-town furniture.](assets/43-american-mill-towns-arkansas/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for mill-town furniture. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

@@ -91,21 +91,21 @@ Childe wanted a domestic picture he recognized. Towrie and Richards want a ritua
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/woodworking-tools-ancient/fig-01-timeline.svg)
+![Chronological anchors for House One at Skara Brae (c. 3100–2500 BCE).](assets/01-house-one-skara-brae/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **House One at Skara Brae** (c. 3100–2500 BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/woodworking-tools-ancient/fig-02-map.svg)
+![Regional focus (schematic): Orkney, Atlantic Neolithic.](assets/01-house-one-skara-brae/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Orkney, Atlantic Neolithic. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/woodworking-tools-ancient/fig-03-typology.svg)
+![Morphological typology for Neolithic stone fittings (idealized morphotypes).](assets/01-house-one-skara-brae/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for Neolithic stone fittings (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/woodworking-tools-ancient/fig-04-plate.svg)
+![Comparative elevation and plan plate for Neolithic stone fittings.](assets/01-house-one-skara-brae/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for Neolithic stone fittings. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 

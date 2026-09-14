@@ -105,21 +105,21 @@ Killen’s stool atlas is the ordinary end of the same century: lattice, folding
 
 ## Figure plan
 
-![Chronological anchors for the evidence discussed below.](assets/egyptian-folding-stool/fig-01-timeline.svg)
+![Chronological anchors for Hatnefer’s Chair (Dynasty 18, c. 1550–1295 BCE).](assets/04-hatnefer-new-kingdom/fig-01-timeline.svg)
 
-*Fig. 1.* Chronological anchors for the evidence discussed below. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 1.* Chronological anchors for **Hatnefer’s Chair** (Dynasty 18, c. 1550–1295 BCE). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Regional focus for circulation and local workshop traditions.](assets/egyptian-folding-stool/fig-02-map.svg)
+![Regional focus (schematic): Egypt, Thebes.](assets/04-hatnefer-new-kingdom/fig-02-map.svg)
 
-*Fig. 2.* Regional focus for circulation and local workshop traditions. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 2.* Regional focus (schematic): Egypt, Thebes. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Morphological typology (idealized morphotypes).](assets/egyptian-folding-stool/fig-03-typology.svg)
+![Morphological typology for folding stool and chair (idealized morphotypes).](assets/04-hatnefer-new-kingdom/fig-03-typology.svg)
 
-*Fig. 3.* Morphological typology for archaeology (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 3.* Morphological typology for folding stool and chair (idealized morphotypes). Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
-![Comparative elevation and plan plate.](assets/egyptian-folding-stool/fig-04-plate.svg)
+![Comparative elevation and plan plate for folding stool and chair.](assets/04-hatnefer-new-kingdom/fig-04-plate.svg)
 
-*Fig. 4.* Comparative elevation and plan plate for archaeology. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
+*Fig. 4.* Comparative elevation and plan plate for folding stool and chair. Schematic redrawn line diagram; staged editorial asset (2026). Not a photograph of a museum object.
 
 ### Supplemental photographs and redraws
 
