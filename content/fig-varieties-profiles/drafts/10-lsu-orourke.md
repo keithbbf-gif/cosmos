@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Figs
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 10
 cultivar: LSU O’Rourke

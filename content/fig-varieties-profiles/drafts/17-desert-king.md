@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 17
 cultivar: Desert King (King)
@@ -95,9 +95,5 @@ Rain: pick what is giving before the storm. A day-early breba in the fridge at a
 If you want breba and you can protect last year’s wood — pot, shuffle, hoop, east wall, no January hat-rack — trial one. Common sense, not a wasp yard. If the breba eats, keep it as a breba tree. Do not wait three years for a main crop that the type did not promise you.
 
 If you cannot protect old wood, do not plant King as a beginner fig. Plant a common fig that fruits on this year’s wood. Turkey type, Purple, Celeste-class, Jack Lily. Ronde de Bordeaux if you wanted an early dark bowl. Alma if you wanted a closed-eye brown tool. Peter’s Honey if you wanted a yellow honey fig that does not ask for a wasp.
-
-Wood: **6–8 inches**, three nodes, off a tree that actually breba’d. Pot up before June.
-
-If the main crop sets and ripens without pollen, [VERIFY] type. You may have a common yellow with a famous name. Eat it. Relabel.
 
 Write Desert King / King on the pot when the breba is the show and the main crop behaves like a San Pedro. Write San Pedro on the same tag so future-you does not prune it like a Turkey.

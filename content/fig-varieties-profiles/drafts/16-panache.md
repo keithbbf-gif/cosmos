@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 16
 cultivar: Panache (Panachée)
@@ -85,7 +85,7 @@ Nematodes: dirty ground stays in a pot. Panache is not a nematode solution.
 
 ## How I would run it
 
-One plant, in a pot, if you want the photo. Wood from a striped fruiting tree. **6–8 inches**, three nodes, off striped wood only. Pot up before June.
+One plant, in a pot, if you want the photo. Wood from a striped fruiting tree only. Pot up before June.
 
 Do not plant a row. Do not tell a beginner this is the fig that will make them love figs. Tell them it is a chimera that looks like a story. The eating figs are Negra, Jack Lily, a tool Celeste, an LSU that finishes. Peter’s Honey is the yellow honey argument. Desert King is a San Pedro with a brochure. None of those are this plant.
 

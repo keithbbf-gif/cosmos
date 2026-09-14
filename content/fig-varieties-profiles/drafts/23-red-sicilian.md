@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 23
 cultivar: Red Sicilian
@@ -93,4 +93,4 @@ If you do not have it, this is a better first “berry fig” purchase than Blac
 
 Pair it with Negra if you wanted the berry-first lesson. Pair it with an early dark if October 1 was the 2024 clock and you did not want to wait. Pair it with Jack Lily if you wanted a tight-eye small green in the same late window. Do not make NSDC the only large berry in a rain year.
 
-Write Red Sicilian on the pot that matches the card. If the fruit is berry-first and not sweet, you may have drifted toward Negra. If it is sweet and brown and small, you may have drifted toward a Turkey. The card is the map.
+Write Red Sicilian on the pot that matches the card.

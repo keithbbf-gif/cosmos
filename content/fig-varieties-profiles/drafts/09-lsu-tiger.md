@@ -14,7 +14,7 @@ images:
   source: ours
   folder_pick: Fig Fruit
 - path: D:\FIGS\More Fig Pictures
-  caption: Stagg: a distinctive dark stripe before ripening. Shoot the green one.
+  caption: "Stagg: a distinctive dark stripe before ripening. Shoot the green one."
   source: ours
   folder_pick: More Fig Pictures
 - path: D:\FIGS\Fig Labels
@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 9
 cultivar: LSU Tiger

@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 24
 cultivar: Nuestra Señora del Carmen
@@ -94,7 +94,5 @@ Nematodes: dirty ground stays in a pot. A Fig Jam favorite is not a nematode sol
 We already run it. Keep it. Wood off the tree we like, **6–8 inches**, three nodes.
 
 Plant one. Pick like it is a job. Keep a tight-eye fig for the weeks this one fails. If you wanted only tight eyes, plant Negra and Jack Lily and leave the lady in somebody else’s yard. If you wanted the dry-week plate I named first, plant her and watch the sky.
-
-If a plant labeled NSDC is small-eyed and small-fruited, [VERIFY]. You may have a better rainy-week fig with a stolen name. Eat it. Relabel.
 
 Write Nuestra Señora del Carmen on the pot that splits in rain and sings in a dry week. If it never splits and never gets large, it is a different lady. Let her have her own name.

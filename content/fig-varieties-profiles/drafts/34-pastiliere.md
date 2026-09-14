@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 34
 cultivar: Pastilière
@@ -91,6 +91,4 @@ A morning walk is the cultivar. Bowl in one hand. Soft figs off the skirt. Hard 
 
 If you pot it, set the **#3** where you can see the rim from the kitchen door. A dropper in the back row is a squirrel buffet. In-ground, keep the skirt clear so you can see what hit. Mulch, not tall grass.
 
-Do not mail cuttings as Pastilière until an early dark fig repeats and the drop, if it happens, is in the notes. Behavior without a pedigree is still useful. A pedigree without behavior is a sticker.
-
-Write Pastilière on the pot when an early dark fig repeats and the drop, if it happens, is part of the notes. Write unknown-early-dark-drop if you are describing behavior without a pedigree. Behavior is useful. Pedigree is optional.
+Write Pastilière on the pot when an early dark fig repeats and the drop, if it happens, is part of the notes. Write unknown-early-dark-drop if you are describing behavior without a pedigree. Do not mail cuttings until the plate repeats. Behavior without a pedigree is still useful. A pedigree without behavior is a sticker.

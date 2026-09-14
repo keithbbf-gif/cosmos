@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 31
 cultivar: Col de Dame Blanc
@@ -65,7 +65,7 @@ Nematodes: pots. Mosaic mottles a lot of green-fig leaves. Mottled is not a disc
 
 ## How I would run it
 
-One pot if you already understand late figs. Do not plant Blanc and Noire and Madeira and Scott’s Black as your first four. That is a museum of unfinished fruit.
+One pot if you already understand late figs. Do not plant Blanc and Noire and Madeira and Scott’s Black as your first four. That is four clocks arguing in October.
 
 Wood off a fruiting green-neck tree. **6–8 inches**, three nodes. Hoop. East wall. Even water. Pot up before June. Fertigate once it is a plant.
 
@@ -79,6 +79,6 @@ Rust will still yellow a late canopy in a wet September. ANR-1145 already said h
 
 A green neck is also a pick cue. When the neck wilts and the body gives, you are late enough. When the neck is still stiff and the body is a marble, you are early. When the neck is a leather strap and the body is split, you waited for a color that was never coming.
 
-Do not mail cuttings as Col de Dame Blanc until the plate repeats a green necked late fig that actually softened. The introduction page already said trusted sellers and a 1–3 year wait. CDDB money attracts the wrong wood the same way Madeira money does.
+Do not mail cuttings as Col de Dame Blanc until the plate repeats a green-necked late fig that actually softened. The introduction page already said trusted sellers and a 1–3 year wait. CDDB money attracts the wrong wood the same way Madeira money does.
 
-Write Col de Dame Blanc on the pot that matches a green necked late fig that actually softened. Write unknown-late-green-neck if you are still counting seeds in a hard syconium in October. The count is data. It is not a recipe.
+Write Col de Dame Blanc on the pot that matches a green-necked late fig that actually softened. Write unknown-late-green-neck if you are still counting seeds in a hard syconium in October. The count is data. It is not a recipe.

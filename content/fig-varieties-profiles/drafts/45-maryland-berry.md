@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 45
 cultivar: Maryland Berry
@@ -99,7 +99,7 @@ Sun: **6–8 hours**. Alabama wants a full eight so fruit dries after rain. We g
 
 In-ground when it earns it. East wall if you have one, clay that drains, mulch over shallow roots. Do not plant it in last year’s tomato hole. Do not fertilize late. Succulent September wood is how a favorite writes a tender will.
 
-Same water and shade rules as every berry fig we actually like. Pick in the morning. Photograph the cut once a year so the memory does not drift. Write the first soften on the tag. [VERIFY]. I will not invent a Saline County date.
+Same water and shade rules as every berry fig we actually like. Pick in the morning. Write the first soften on the tag. [VERIFY]. I will not invent a Saline County date.
 
 Our [winter protection](https://figroots.com/winter-protection/) page named Smith and Chicago Hardy, not Maryland Berry. Treat a pot as a pot you shuffle. Barely moist in the shop. Not a heated den. Alabama’s 15–20°F talk is for dormant wood they named. This name is not on that list. If it dies to the crown, five or six trunks at two feet, TAMU’s chapter, and keep the hole. We graft. We do not perform funerals for live roots.
 

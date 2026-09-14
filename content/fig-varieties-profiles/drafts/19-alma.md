@@ -1,7 +1,7 @@
 ---
 title: Alma is a Texas rot-resistant fig. It will not make you famous.
 slug: alma
-meta_description: Alma (Texas A&M, 1975) is a small-to-medium golden-brown common fig with a closed eye and a Southern job: sour less, live through winter, feed somebody.
+meta_description: "Alma (Texas A&M, 1975) is a small-to-medium golden-brown common fig with a closed eye and a Southern job: sour less, live through winter, feed somebody."
 author: PapaFig
 tags:
 - alma
@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 19
 cultivar: Alma

@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Greenhouse photos
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 14
 cultivar: Chicago Hardy (Hardy Chicago)

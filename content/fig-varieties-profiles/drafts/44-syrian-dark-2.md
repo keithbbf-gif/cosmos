@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 44
 cultivar: Syrian Dark #2
@@ -95,4 +95,4 @@ In-ground when it earns it. East wall if you have one, clay that drains, mulch o
 
 If a second “Syrian Dark #2” arrives and the eye is loose, it is not a debate. It is two plants. Unknown-syrian-dark-B until it repeats. If you drop the #2, you are starting a new pile. I have enough piles.
 
-Write Syrian Dark #2 on the pot that matches an extremely tight, small, productive berry fig. If you drop the #2, you are starting a new pile. I have enough piles.
+Write Syrian Dark #2 on the pot that matches an extremely tight, small, productive berry fig.

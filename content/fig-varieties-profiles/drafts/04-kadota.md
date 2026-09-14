@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 4
 cultivar: Kadota (Dottato)

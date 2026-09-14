@@ -86,7 +86,7 @@ images:
     folder_pick: "Fig Fruit"
     license: ""             # required if source: pd
 status: draft
-voice_check: human
+voice_check: human | edited
 pillar: identity
 priority: 1-46
 cultivar: ...
@@ -94,7 +94,7 @@ fig_type: common | smyrna | san-pedro | caprifig | disputed
 ---
 ```
 
-`voice_check: human` is a claim. If the prose is generic, change the prose.
+`voice_check: human` is a claim from the author pass. After a human editor, set `voice_check: edited`. If the prose is generic, change the prose — do not flip the flag alone.
 
 ## Length
 
