@@ -5,10 +5,27 @@ title: The block was a tool
 stage: 2-history
 status: staged
 topics: [history, butcher-block]
+meta_description: "The block was a tool — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/historical-butcher-block/ochs-reading-terminal-market-1910s.jpg
+figures:
+  - ../assets/historical-butcher-block/ochs-reading-terminal-market-1910s.jpg
 ---
-
 The first butcher block was not laminated. It was a slice of a
 tree, fibers standing up, three legs under it if you were lucky.
+
+<figure class="bradley-figure bradley-figure--photo">
+  <img
+    src="../assets/historical-butcher-block/ochs-reading-terminal-market-1910s.jpg"
+    alt="Historic black-and-white photograph of a butcher shop with large maple blocks at Reading Terminal Market, Philadelphia."
+    width="880"
+    height="587"
+    loading="lazy"
+  />
+  <figcaption>
+    Before the kitchen borrowed the name, the block was a shop tool — scraped, salted, and turned down when the face went hollow.
+    <span class="figure-credit">Carol M. Highsmith, Library of Congress. Harry G. Ochs butcher shop, Reading Terminal Market. Public domain via Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 That is the object the word belonged to. A cookie of trunk,
 end grain to the cleaver, heavy enough that it did not walk

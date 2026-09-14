@@ -5,8 +5,9 @@ title: The island top is not a counter run
 stage: 5-island-tops
 status: staged
 topics: [island-tops, butcher-block, bradley]
+meta_description: "The island top is not a counter run — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 An island top is a lid on a piece of furniture. A counter
 run is a field glued to a wall.
 

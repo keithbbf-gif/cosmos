@@ -5,8 +5,9 @@ title: Warren shop notes
 stage: 6-bradley
 status: staged
 topics: [bradley, history, butcher-block]
+meta_description: "Warren shop notes — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 I have stood in the Warren shop and watched a top get
 scraped that a catalog would have called rustic and
 thrown away.

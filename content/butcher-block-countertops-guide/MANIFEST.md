@@ -64,3 +64,5 @@ Required brief topics and where they live:
 | 48 | aftercare-card | 7-living | Tape the care card in the trash pull | 342 |
 
 Last `tools/check_butcher_block_drafts.py` pass: **48 drafts**, **18,032 words**, min **341**, max **432**, unique openings **48/48**, status `OK`.
+
+IMAGE+SEO pass: **12** illustrated drafts (see `GRAPHICS_INDEX.md`), **48/48** with `meta_description` + `featured_image`, **1** PD Commons photo, **11** original care/spec SVG diagrams.

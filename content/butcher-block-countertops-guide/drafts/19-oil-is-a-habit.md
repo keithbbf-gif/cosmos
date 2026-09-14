@@ -5,10 +5,27 @@ title: Oil is a habit
 stage: 4-care
 status: staged
 topics: [care, butcher-block, oil]
+meta_description: "Oil is a habit — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/oil-schedule/oil-maintenance-schedule.svg
+figures:
+  - ../assets/oil-schedule/oil-maintenance-schedule.svg
 ---
-
 Oil is not a finish you apply once. It is a habit you keep
 or you don’t.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/oil-schedule/oil-maintenance-schedule.svg"
+    alt="Timeline for mineral oil maintenance on butcher-block counters: saturate week one, month one, then quarterly and winter touch-ups."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Oil is a habit — heavy early, then wipe when the maple goes pale, especially under forced-air winter heat.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 Food-grade mineral oil — the USP kind, not the salad
 dressing, not the can of “lemon oil” that is mostly solvent

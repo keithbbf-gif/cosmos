@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+  <title>What not to do on an oiled butcher-block countertop</title>
+  <desc>Three prohibited habits: standing water, dishwasher cycle, and soaking overnight  with wipe-dry alternative.</desc>
+  <rect width="880" height="360" fill="#f8fafb"/>
+  <g transform="translate(100,70)">
+    <rect x="0" y="0" width="200" height="120" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="100" y="50" text-anchor="middle" font-size="28" fill="#b91c1c"></text>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#1f2933">Standing water</text>
+  </g>
+  <g transform="translate(340,70)">
+    <rect x="0" y="0" width="200" height="120" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="100" y="50" text-anchor="middle" font-size="28" fill="#b91c1c"></text>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#1f2933">Dishwasher</text>
+  </g>
+  <g transform="translate(580,70)">
+    <rect x="0" y="0" width="200" height="120" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="100" y="50" text-anchor="middle" font-size="28" fill="#b91c1c"></text>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#1f2933">Soak overnight</text>
+  </g>
+  <rect x="240" y="220" width="400" height="60" fill="#d4e4d9" stroke="#1f2933"/>
+  <text x="440" y="255" text-anchor="middle" font-size="12" fill="#1f2933">Wipe spills; dry the rim; oil when pale</text>
+</svg>

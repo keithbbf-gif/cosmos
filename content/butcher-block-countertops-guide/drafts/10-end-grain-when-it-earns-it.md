@@ -5,8 +5,9 @@ title: End grain, when it earns it
 stage: 3-construction
 status: staged
 topics: [butcher-block, grain, care]
+meta_description: "End grain, when it earns it — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 I will sell end grain to a person who already owns a steel,
 a boning knife, and a calendar that includes oil.
 

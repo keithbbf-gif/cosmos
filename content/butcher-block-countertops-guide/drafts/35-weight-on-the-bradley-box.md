@@ -5,8 +5,9 @@ title: Weight on the Bradley box
 stage: 5-island-tops
 status: staged
 topics: [bradley, island-tops, butcher-block]
+meta_description: "Weight on the Bradley box — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 A Bradley box will carry a wood top without drama if we
 treat the rails like furniture, not like an afterthought.
 

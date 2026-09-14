@@ -5,8 +5,9 @@ title: What food-safe actually means
 stage: 4-care
 status: staged
 topics: [care, butcher-block, history]
+meta_description: "What food-safe actually means — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Food-safe is a sentence about the finish you actually
 maintain, not a halo printed on a label.
 

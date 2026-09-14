@@ -5,8 +5,9 @@ title: Portable versus stationary
 stage: 5-island-tops
 status: staged
 topics: [island-tops, bradley, butcher-block]
+meta_description: "Portable versus stationary — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Casters turn an island into a cart. That is a feature until
 someone parks it in the aisle and calls it a kitchen.
 

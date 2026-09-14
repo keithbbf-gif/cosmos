@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+  <title>Sequence from job order to care card for wood island tops</title>
+  <desc>Flow: measure room, pick grain and species, write spec, build and oil, deliver with care card in trash pull.</desc>
+  <rect width="880" height="360" fill="#f8fafb"/>
+  <rect x="60" y="140" width="120" height="50" fill="#e8eef2" stroke="#1f2933"/>
+  <text x="120" y="170" text-anchor="middle" font-size="10" fill="#1f2933">Measure</text>
+  <text x="220" y="170" font-size="16" fill="#52606d">’</text>
+  <rect x="240" y="140" width="120" height="50" fill="#e8eef2" stroke="#1f2933"/>
+  <text x="300" y="170" text-anchor="middle" font-size="10" fill="#1f2933">Grain + species</text>
+  <text x="400" y="170" font-size="16" fill="#52606d">’</text>
+  <rect x="420" y="140" width="120" height="50" fill="#d4e4d9" stroke="#1f2933"/>
+  <text x="480" y="170" text-anchor="middle" font-size="10" fill="#1f2933">Spec sheet</text>
+  <text x="580" y="170" font-size="16" fill="#52606d">’</text>
+  <rect x="600" y="140" width="120" height="50" fill="#d4a574" stroke="#8b4513"/>
+  <text x="660" y="170" text-anchor="middle" font-size="10" fill="#1f2933">Build + oil</text>
+  <text x="760" y="170" font-size="16" fill="#52606d">’</text>
+  <rect x="780" y="140" width="80" height="50" fill="#f5e6d3" stroke="#1f2933"/>
+  <text x="820" y="165" text-anchor="middle" font-size="9" fill="#1f2933">Care</text>
+  <text x="820" y="178" text-anchor="middle" font-size="9" fill="#1f2933">card</text>
+</svg>

@@ -5,8 +5,9 @@ title: Glue-up, and the joint that fails
 stage: 3-construction
 status: staged
 topics: [butcher-block, care, construction]
+meta_description: "Glue-up, and the joint that fails — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Glue failure on a laminated top is not a mystery. It is a
 shop that rushed the clamp, or a house that flooded the rim.
 

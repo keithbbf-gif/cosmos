@@ -5,8 +5,9 @@ title: The first year of oil
 stage: 7-living
 status: staged
 topics: [care, oil, butcher-block]
+meta_description: "The first year of oil — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Year one drinks oil. Year three sips. If you skip year
 one, year three looks like a neglected porch.
 

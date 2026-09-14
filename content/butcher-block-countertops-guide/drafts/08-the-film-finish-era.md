@@ -5,8 +5,9 @@ title: The film-finish era
 stage: 2-history
 status: staged
 topics: [history, care, butcher-block]
+meta_description: "The film-finish era — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 The 1980s gave America miles of oak “butcher block” sealed in
 amber plastic, and then wondered why nobody cut on it.
 

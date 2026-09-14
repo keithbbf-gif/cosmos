@@ -5,8 +5,9 @@ title: Two-tone walnut and ash
 stage: 6-bradley
 status: staged
 topics: [bradley, species, island-tops]
+meta_description: "Two-tone walnut and ash — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Walnut next to ash is the two-tone the old catalogs meant
 when they said the top had a conversation.
 

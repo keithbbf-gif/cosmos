@@ -5,8 +5,9 @@ title: Sycamore, gum, and Arkansas mahogany
 stage: 3-construction
 status: staged
 topics: [species, bradley, history]
+meta_description: "Sycamore, gum, and Arkansas mahogany — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 The southern board — sycamore, gum, the shop’s “Arkansas
 mahogany” — is how Warren talked when northern maple was a
 freight charge.

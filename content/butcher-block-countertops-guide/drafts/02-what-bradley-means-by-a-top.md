@@ -5,8 +5,9 @@ title: What Bradley means by a top
 stage: 1-brief
 status: staged
 topics: [bradley, island-tops, butcher-block, voice]
+meta_description: "What Bradley means by a top — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 At Bradley we have sold wood tops that were blocks, and wood tops
 that were furniture, and we have watched catalogs call both of
 them butcher block.

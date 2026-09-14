@@ -5,10 +5,27 @@ title: Overhang on wood
 stage: 5-island-tops
 status: staged
 topics: [island-tops, overhang, butcher-block]
+meta_description: "Overhang on wood — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/overhang-wood/wood-overhang-support.svg
+figures:
+  - ../assets/overhang-wood/wood-overhang-support.svg
 ---
-
 Wood will fly farther than stone before it needs steel,
 and people use that fact to get greedy.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/overhang-wood/wood-overhang-support.svg"
+    alt="Section drawing of wood countertop seating overhang with corbel bracket and typical twelve-inch fly dimension."
+    width="880"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    A modest fly on edge grain can live with brackets; pride is not a substitute for steel under a long breakfast side.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 A stone slab is heavy and brittle. Shops put steel in a
 long fly because the stone will snap and because the

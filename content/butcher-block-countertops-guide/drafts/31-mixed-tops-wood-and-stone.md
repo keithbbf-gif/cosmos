@@ -5,8 +5,9 @@ title: Mixed tops, wood and stone
 stage: 5-island-tops
 status: staged
 topics: [island-tops, butcher-block, care]
+meta_description: "Mixed tops, wood and stone — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 The honest hybrid is wood where you cut and stone where
 you wet. The dishonest hybrid is a wood sink rim and a
 speech.

@@ -5,10 +5,27 @@ title: How the top gets fastened
 stage: 3-construction
 status: staged
 topics: [island-tops, butcher-block, bradley]
+meta_description: "How the top gets fastened — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/top-fasteners/top-fasteners.svg
+figures:
+  - ../assets/top-fasteners/top-fasteners.svg
 ---
-
 Screw a wood top down like a slab of stone and you will
 teach it to split.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/top-fasteners/top-fasteners.svg"
+    alt="Underside diagram of Z-clips, figure-eight washers, and slotted wood buttons fastening a wood island top to rails."
+    width="880"
+    height="420"
+    loading="lazy"
+  />
+  <figcaption>
+    Hold the lid on the box; let the field breathe. A grid of screws through the rails is the usual mistake.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 Stone wants to sit. Wood wants to walk a little, every
 season, for the life of the house. The fastener’s job is

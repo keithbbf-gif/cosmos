@@ -5,8 +5,9 @@ title: Moisture, and the season in Warren
 stage: 3-construction
 status: staged
 topics: [care, butcher-block, bradley]
+meta_description: "Moisture, and the season in Warren — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Wood in Warren in August is not the same wood you ship to
 Denver in January.
 

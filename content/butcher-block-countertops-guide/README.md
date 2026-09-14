@@ -65,6 +65,22 @@ it is wrong.
 See `MANIFEST.md` for the roster and the required-topic map.
 See `STYLE_GUIDE.md` for the voice fence.
 
+## Images and SEO (staged)
+
+Twelve drafts carry PD/CC or original SVG plates with `<figure>` markup,
+`meta_description`, and `featured_image` on every essay. Operator files:
+
+- `RIGHTS.md` — license register (Commons photo + pack-owned SVG).
+- `GRAPHICS_INDEX.md` — draft-to-asset map and `embeds/` paths.
+- `AGENTS_GRAPHICS.md` — rules for the graphics pass.
+
+QA:
+
+```bash
+python3 tools/check_butcher_block_drafts.py
+python3 tools/check_butcher_block_graphics.py
+```
+
 ## Provenance
 
 Researched against:

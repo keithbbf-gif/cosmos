@@ -5,10 +5,27 @@ title: Why this guide exists
 stage: 1-brief
 status: staged
 topics: [intro, bradley, butcher-block, voice]
+meta_description: "Why this guide exists — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/workflow/island-wood-top-schematic.svg
+figures:
+  - ../assets/workflow/island-wood-top-schematic.svg
 ---
-
 A countertop that can take a knife is a different object from a
 countertop that can take a photograph.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/workflow/island-wood-top-schematic.svg"
+    alt="Top-down schematic of a kitchen island with an edge-grain wood countertop labeled separately from the Bradley cabinet box."
+    width="880"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    A wood island top is a second contract: the box is furniture; the lid is species, grain, finish, and fasteners.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 That sentence is why this folder exists. We have sold wood tops that
 were tools, and wood tops that were furniture, and we have watched

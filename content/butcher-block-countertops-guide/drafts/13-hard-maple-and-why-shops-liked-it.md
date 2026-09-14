@@ -5,8 +5,9 @@ title: Hard maple, and why shops liked it
 stage: 3-construction
 status: staged
 topics: [species, butcher-block, history]
+meta_description: "Hard maple, and why shops liked it — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Hard maple became the shop wood because it glued, it cut
 clean, and it did not argue with food.
 

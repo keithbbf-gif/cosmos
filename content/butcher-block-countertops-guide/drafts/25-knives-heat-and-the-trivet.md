@@ -5,10 +5,27 @@ title: Knives, heat, and the trivet
 stage: 4-care
 status: staged
 topics: [care, butcher-block, island-tops]
+meta_description: "Knives, heat, and the trivet — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/care-habits/heat-knife-trivet.svg
+figures:
+  - ../assets/care-habits/heat-knife-trivet.svg
 ---
-
 Knives belong on oiled wood. Hot pans belong on a trivet.
 Those two sentences prevent half the phone calls.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/care-habits/heat-knife-trivet.svg"
+    alt="Wood island top section showing trivet for hot pans, cutting board for knives, and scorch risk on bare wood."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Heat and knives are habits. The top is wood, not stone — trivet, board, and a client who will wipe.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 A knife on oiled maple or oak is the job the material
 wanted. The edge lasts longer than it does on stone or

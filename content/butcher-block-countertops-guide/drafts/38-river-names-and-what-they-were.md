@@ -5,8 +5,9 @@ title: River names, and what they were
 stage: 6-bradley
 status: staged
 topics: [bradley, history, island-tops]
+meta_description: "River names, and what they were — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Moro, Caney, Cossatot, Saline, Little Red — those were
 river names on boxes, not a scent collection.
 

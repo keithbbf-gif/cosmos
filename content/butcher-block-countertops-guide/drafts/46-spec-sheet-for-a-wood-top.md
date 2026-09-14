@@ -5,10 +5,27 @@ title: A spec sheet for a wood top
 stage: 7-living
 status: staged
 topics: [bradley, island-tops, butcher-block]
+meta_description: "A spec sheet for a wood top — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/spec-sheet/six-line-spec-sheet.svg
+figures:
+  - ../assets/spec-sheet/six-line-spec-sheet.svg
 ---
-
 A spec sheet for a wood island top is six lines if you
 are honest and two pages if you are scared.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/spec-sheet/six-line-spec-sheet.svg"
+    alt="Six-line specification checklist for wood island tops: species, grain, thickness, finish, fasteners, and wet-work policy."
+    width="880"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    Six honest lines — species through wet work — plus date, mill, dealer, and cut allowed yes or no.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 I use six, plus the extras when they are real.
 

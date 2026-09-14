@@ -5,8 +5,9 @@ title: Seams, and the long top
 stage: 5-island-tops
 status: staged
 topics: [island-tops, butcher-block]
+meta_description: "Seams, and the long top — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Long tops want seams or they want a shop that can handle
 an eight-foot glue-up without a banana.
 

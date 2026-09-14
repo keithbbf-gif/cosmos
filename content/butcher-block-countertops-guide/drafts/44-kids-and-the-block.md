@@ -5,8 +5,9 @@ title: Kids and the block
 stage: 7-living
 status: staged
 topics: [care, island-tops, butcher-block]
+meta_description: "Kids and the block — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Kids will treat an oiled top like a desk, a studio, and
 a drum. Plan for that or film it.
 

@@ -5,10 +5,27 @@ title: Edge grain is the residential default
 stage: 3-construction
 status: staged
 topics: [butcher-block, grain, island-tops]
+meta_description: "Edge grain is the residential default — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/grain-orientations/edge-end-face-grain.svg
+figures:
+  - ../assets/grain-orientations/edge-end-face-grain.svg
 ---
-
 If you want a working wood top in a house, you almost always
 want edge grain.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/grain-orientations/edge-end-face-grain.svg"
+    alt="Cross-section illustrations labeling edge grain, end grain, and face grain orientations for butcher-block island countertops."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Edge grain is the residential default; end grain earns its keep as a tool; face grain is a plank top with different care.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 Boards stand on edge. The long lines run the length of the
 island. You see a field of stripes, not cathedrals, not a

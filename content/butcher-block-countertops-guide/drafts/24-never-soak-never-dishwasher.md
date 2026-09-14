@@ -5,10 +5,27 @@ title: Never soak, never dishwasher
 stage: 4-care
 status: staged
 topics: [care, butcher-block]
+meta_description: "Never soak, never dishwasher — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/care-habits/care-never-soak.svg
+figures:
+  - ../assets/care-habits/care-never-soak.svg
 ---
-
 A dishwasher is a steam cabinet. A soak is a warp machine.
 Wood wants neither.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/care-habits/care-never-soak.svg"
+    alt="Care diagram prohibiting standing water, dishwasher cleaning, and overnight soaking on oiled wood countertops."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Standing water and a dishwasher are how a pretty top becomes a cupped lid — wipe spills and dry the rim.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 This is the shortest argument in the series and the one
 that still gets a top killed. A household puts a small

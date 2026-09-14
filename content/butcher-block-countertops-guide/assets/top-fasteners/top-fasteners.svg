@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img">
+  <title>Z-clips, figure-eights, and slotted buttons for wood island tops</title>
+  <desc>Underside section showing perimeter Z-clips, figure-eight washers, and slotted wood buttons allowing seasonal wood movement.</desc>
+  <rect width="880" height="420" fill="#f8fafb"/>
+  <rect x="120" y="60" width="640" height="50" fill="#d4a574" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="440" y="50" text-anchor="middle" font-size="12" fill="#1f2933">WOOD TOP (underside)</text>
+  <rect x="140" y="130" width="600" height="80" fill="#f5e6d3" stroke="#1f2933"/>
+  <text x="440" y="175" text-anchor="middle" font-size="12" fill="#1f2933">ISLAND RAIL</text>
+  <path d="M200,110 L200,130 L220,130" fill="none" stroke="#1f2933" stroke-width="2"/>
+  <text x="200" y="220" text-anchor="middle" font-size="10" fill="#52606d">Z-clip</text>
+  <ellipse cx="440" cy="118" rx="18" ry="10" fill="none" stroke="#1f2933" stroke-width="2"/>
+  <text x="440" y="220" text-anchor="middle" font-size="10" fill="#52606d">figure-eight</text>
+  <rect x="600" y="108" width="40" height="8" fill="#deb887" stroke="#1f2933"/>
+  <rect x="615" y="130" width="10" height="30" fill="none" stroke="#1f2933" stroke-dasharray="3 2"/>
+  <text x="620" y="220" text-anchor="middle" font-size="10" fill="#52606d">slotted button</text>
+  <text x="440" y="320" text-anchor="middle" font-size="11" fill="#52606d">Hold the lid on the box; let the field breathe across seasons</text>
+</svg>

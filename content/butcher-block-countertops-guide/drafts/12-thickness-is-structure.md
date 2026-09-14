@@ -5,9 +5,26 @@ title: Thickness is structure
 stage: 3-construction
 status: staged
 topics: [butcher-block, island-tops, overhang]
+meta_description: "Thickness is structure — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/thickness-profile/thickness-profile.svg
+figures:
+  - ../assets/thickness-profile/thickness-profile.svg
 ---
-
 A thin top is a picture frame. A thick top is a beam.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/thickness-profile/thickness-profile.svg"
+    alt="Side elevations comparing 1.25, 1.5, and 2.5 inch butcher-block top thickness with built-up edge callout."
+    width="880"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    Thickness is structure — not a mood-board slider. Fly, grain, and species pick the number.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 I say that before I say a number, because people shop
 thickness as a look. The eased edge casts a shadow. The

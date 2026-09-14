@@ -5,8 +5,9 @@ title: Drop leaf, and the hinge line
 stage: 5-island-tops
 status: staged
 topics: [island-tops, bradley, overhang]
+meta_description: "Drop leaf, and the hinge line — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 A drop leaf is a hinge line, a support story, and a place
 people will sit even when you told them not to.
 

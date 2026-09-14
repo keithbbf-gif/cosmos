@@ -5,8 +5,9 @@ title: Commercial habits at home
 stage: 7-living
 status: staged
 topics: [care, history, butcher-block]
+meta_description: "Commercial habits at home — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Commercial habits — scrape, salt, oil, don’t soak — still
 work in a house that wants a tool.
 

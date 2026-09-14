@@ -5,8 +5,9 @@ title: The night you leave a lemon
 stage: 4-care
 status: staged
 topics: [care, butcher-block, species]
+meta_description: "The night you leave a lemon — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 The night you leave a lemon cut-side down is the night the
 maple learns a new color.
 

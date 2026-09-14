@@ -5,8 +5,9 @@ title: Seating versus cutting, same surface
 stage: 5-island-tops
 status: staged
 topics: [island-tops, care, butcher-block]
+meta_description: "Seating versus cutting, same surface — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 You can eat at a cutting surface. You can cut on a dining
 surface. Doing both on the same rectangle is a choice,
 not a default.

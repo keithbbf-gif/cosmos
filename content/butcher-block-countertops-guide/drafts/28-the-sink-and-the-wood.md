@@ -5,8 +5,9 @@ title: The sink and the wood
 stage: 4-care
 status: staged
 topics: [care, island-tops, butcher-block]
+meta_description: "The sink and the wood — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 A sink in a wood top is a detailing problem, not a species
 problem.
 

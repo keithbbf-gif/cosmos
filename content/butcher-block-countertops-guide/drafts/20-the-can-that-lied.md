@@ -5,8 +5,9 @@ title: The can that lied
 stage: 4-care
 status: staged
 topics: [care, oil, butcher-block]
+meta_description: "The can that lied — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 The can that says tung, or Danish, or “food safe once
 cured,” is often a wiping varnish wearing work clothes.
 

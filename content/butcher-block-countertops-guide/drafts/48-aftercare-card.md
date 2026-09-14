@@ -5,10 +5,27 @@ title: Tape the care card in the trash pull
 stage: 7-living
 status: staged
 topics: [care, bradley, butcher-block]
+meta_description: "Tape the care card in the trash pull — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/aftercare-card/aftercare-card-layout.svg
+figures:
+  - ../assets/aftercare-card/aftercare-card-layout.svg
 ---
-
 Tape the care card inside the trash pull. Future you,
 and the next owner, will thank the person who did.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/aftercare-card/aftercare-card-layout.svg"
+    alt="Mock aftercare card for oiled butcher-block island tops with oil schedule and never-soak reminders."
+    width="880"
+    height="420"
+    loading="lazy"
+  />
+  <figcaption>
+    Tape the care card in the trash pull. Houses change hands; the next owner should not guess whether they may cut.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 The card is one page. It is not this series. It is the
 residue of the series that can survive a move.

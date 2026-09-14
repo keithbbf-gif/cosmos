@@ -5,8 +5,9 @@ title: Face grain is a plank top
 stage: 3-construction
 status: staged
 topics: [butcher-block, grain, island-tops]
+meta_description: "Face grain is a plank top — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Face grain is a table pretending it got a job in the kitchen.
 
 You see the wide face of the board, the cathedrals, the

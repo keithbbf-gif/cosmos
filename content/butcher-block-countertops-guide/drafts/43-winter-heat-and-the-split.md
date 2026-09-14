@@ -5,8 +5,9 @@ title: Winter heat, and the split
 stage: 7-living
 status: staged
 topics: [care, butcher-block, bradley]
+meta_description: "Winter heat, and the split — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Winter heat in a tight house will pull a wood top faster
 than a teenager with a wet glass.
 

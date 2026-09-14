@@ -5,8 +5,9 @@ title: What to tell a dealer
 stage: 6-bradley
 status: staged
 topics: [bradley, island-tops, butcher-block]
+meta_description: "What to tell a dealer — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Hand a dealer a top spec that a mill can build, not a
 mood.
 

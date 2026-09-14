@@ -5,8 +5,9 @@ title: When the kitchen stole the name
 stage: 2-history
 status: staged
 topics: [history, butcher-block, island-tops]
+meta_description: "When the kitchen stole the name — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Sometime after the war, the kitchen stole a shop word and put
 it on a breakfast bar.
 

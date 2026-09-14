@@ -5,8 +5,9 @@ title: Arkansas hardwood and the island
 stage: 2-history
 status: staged
 topics: [history, bradley, species, island-tops]
+meta_description: "Arkansas hardwood and the island — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Warren sits in Bradley County because the timber was here, not
 because a marketing meeting liked the sound.
 

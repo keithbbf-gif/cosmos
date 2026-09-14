@@ -5,8 +5,9 @@ title: End-grain mythology
 stage: 2-history
 status: staged
 topics: [history, butcher-block, grain]
+meta_description: "End-grain mythology — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 End grain has a reputation it only half earned.
 
 The true shop block stood the fibers up so a knife slipped

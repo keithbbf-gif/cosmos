@@ -5,8 +5,9 @@ title: Maple and the Midwest shop
 stage: 2-history
 status: staged
 topics: [history, butcher-block, species]
+meta_description: "Maple and the Midwest shop — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Effingham, Illinois, 1887: a blacksmith’s sycamore cookie
 becomes a meat-market tool, and a family name gets welded to
 maple.

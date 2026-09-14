@@ -5,10 +5,27 @@ title: "Sequence: job, grain, species, finish, fasteners, card"
 stage: 7-living
 status: staged
 topics: [bradley, island-tops, care, butcher-block]
+meta_description: "Sequence: job, grain, species, finish, fasteners, card — butcher-block island countertop guide for Bradley wood tops: species, oil, fasteners, and shop habits. Staged draft."
+featured_image: ../assets/workflow/job-to-care-sequence.svg
+figures:
+  - ../assets/workflow/job-to-care-sequence.svg
 ---
-
 Choose the job, then the grain, then the species, then
 the finish, then the fasteners, then the care card.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/workflow/job-to-care-sequence.svg"
+    alt="Flow from room measure to grain and species choice, spec sheet, build and oil, and care card delivery."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Short path: measure, spec the lid, build and oil, tape the care card where the next owner will find it.
+    <span class="figure-credit">Bradley butcher-block countertops guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 That is the whole method. People start with a photograph
 of walnut stripes and then try to invent a life that

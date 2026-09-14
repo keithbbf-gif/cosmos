@@ -5,8 +5,9 @@ title: Walnut, cherry, oak, ash
 stage: 3-construction
 status: staged
 topics: [species, bradley, island-tops]
+meta_description: "Walnut, cherry, oak, ash — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Walnut, cherry, oak, and ash will all sit on a Bradley
 island. They will not all live the same life.
 

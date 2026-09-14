@@ -5,8 +5,9 @@ title: What to tell a homeowner on delivery
 stage: 6-bradley
 status: staged
 topics: [bradley, care, island-tops]
+meta_description: "What to tell a homeowner on delivery — wood island tops and butcher-block care from a Warren shop voice. History, construction, and living with oiled maple. Staged draft."
+featured_image: ../assets/_shared/series-featured.svg
 ---
-
 Delivery day is when you teach the household the contract,
 or they invent one.
 
