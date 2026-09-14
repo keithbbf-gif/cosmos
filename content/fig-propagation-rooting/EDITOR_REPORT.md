@@ -37,7 +37,7 @@
 | `drafts/d24-hormone-is-optional.md` | Replaced awkward `[VERIFY]ing the label` with plain “reading the label again.” |
 | `drafts/d46-what-established-means-in-8a.md` | Tightened closing notebook paragraph; dropped repeated pot-up / August / yard-count lines already stated above. |
 
-**No body edits** on the other 42 drafts: grammar clean, voices on-spec, word counts **666–900** (34967 total body words).
+**No body edits** on the other 42 drafts: grammar clean, voices on-spec, word counts **666–900** (34,897 total body words per `validate.py`).
 
 ## Front matter
 
