@@ -501,20 +501,24 @@ def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     out["registry"] = meta
     topo = out.get("topology") if isinstance(out.get("topology"), dict) else {}
     nodes = list(topo.get("nodes") or [])
-    have = {n.get("id") for n in nodes if isinstance(n, dict)}
+    by = {n.get("id"): n for n in nodes if isinstance(n, dict) and n.get("id")}
     for r in mx + stale:
         lid = r.get("link_id") or r.get("id")
-        if not lid or lid in have:
+        if not lid:
             continue
-        nodes.append({
+        patch = {
             "id": lid,
-            "label": r.get("node") or lid,
-            "type": "rail",
+            "label": r.get("node") or (by.get(lid) or {}).get("label") or lid,
+            "type": (by.get(lid) or {}).get("type") or "rail",
             "proof_state": r.get("proof_state"),
             "model": r.get("model"),
             "independence_note": r.get("independence_note"),
-        })
-        have.add(lid)
+        }
+        if lid in by:
+            by[lid].update({k: v for k, v in patch.items() if v not in (None, "")})
+        else:
+            nodes.append(patch)
+            by[lid] = patch
     out["topology"] = {**topo, "nodes": nodes, "edges": topo.get("edges") or []}
     return out
 
