@@ -9,7 +9,7 @@ tags:
   - trauma
 type: figure
 order: 41
-portrait: none
+portrait: "plates/edna-b-foa/plate.svg"
 citations:
   - "Foa, Edna B., and Michael J. Kozak. Psychological Bulletin, 1986."
   - "Foa, Edna B., B. O. Rothbaum, D. S. Riggs, and C. B. Murdock. Journal of Consulting and Clinical Psychology, 1991."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1937–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: edna-b-foa.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/edna-b-foa/plate.svg"
+    alt="Typographic history plate for Edna B. Foa (1937–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Edna B. Foa</strong> (1937–) — anxiety researcher who developed prolonged exposure protocols for PTSD.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/edna-b-foa/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Edna B. Foa is living (verified 2026). Public papers and the fact of later manuals only. No health speculation. No Penn scrape. This page will not teach prolonged exposure, a hierarchy, or a trauma how-to. It will not use combat or assault photographs as décor.
 

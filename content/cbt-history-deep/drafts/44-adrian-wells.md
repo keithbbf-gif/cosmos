@@ -9,7 +9,7 @@ tags:
   - 2009
 type: figure
 order: 44
-portrait: none
+portrait: "plates/adrian-wells/plate.svg"
 citations:
   - "Wells, Adrian, and Gerald Matthews. Attention and Emotion. 1994."
   - "Wells, Adrian. Metacognitive Therapy for Anxiety and Depression. 2009."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1956–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: adrian-wells.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/adrian-wells/plate.svg"
+    alt="Typographic history plate for Adrian Wells (1956–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Adrian Wells</strong> (1956–) — British psychologist associated with metacognitive therapy for worry and rumination.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/adrian-wells/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Adrian Wells is living (verified 2026). Public book and the fact of earlier 1990s papers only. No health speculation. No Manchester scrape. This page will not teach a metacognitive experiment or an attention-training task.
 

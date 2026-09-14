@@ -9,7 +9,7 @@ tags:
   - 1979
 type: figure
 order: 34
-portrait: none
+portrait: "plates/jon-kabat-zinn/plate.svg"
 citations:
   - "Kabat-Zinn, Jon. General Hospital Psychiatry, 1982."
   - "Kabat-Zinn, Jon. Full Catastrophe Living. 1990."
@@ -17,9 +17,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1944–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jon-kabat-zinn.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jon-kabat-zinn/plate.svg"
+    alt="Typographic history plate for Jon Kabat-Zinn (1944–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jon Kabat-Zinn</strong> (1944–) — molecular biologist who brought mindfulness into hospital stress-reduction clinics.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jon-kabat-zinn/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Jon Kabat-Zinn is living (verified 2026). Public book and dated clinic history only. No health speculation. No UMass scrape. This page will not teach a body scan.
 

@@ -10,7 +10,7 @@ tags:
   - behavior therapy
 type: era
 order: 4
-portrait: none
+portrait: null
 citations:
   - "Eysenck, H. J. Journal of Consulting Psychology, 1952."
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/eysenck-1952-gauntlet/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: eysenck-1952-gauntlet.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/eysenck-1952-gauntlet/lead-timeline.svg"
+    alt="Editorial timeline for Eysenck's 1952 gauntlet."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Eysenck's 1952 gauntlet</strong> — Hans Eysenck's challenge that pushed behavior therapists to measure outcomes.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1952 the *Journal of Consulting Psychology* printed H. J. Eysenck's "The Effects of Psychotherapy: An Evaluation." The paper compared published outcomes with estimates of spontaneous remission and concluded that the evidence then available did not show that psychotherapy worked. Clinicians hated it. Behavior therapists later loved to quote it. Historians now treat it as a gauntlet: a thrown glove, not a final score.
 

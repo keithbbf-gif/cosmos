@@ -17,8 +17,13 @@ Start here:
 | `BIBLIOGRAPHY.md` | Sources |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank — **no fake faces** |
 | `PHOTO_NOTES.md` | Image rules |
+| `RIGHTS.md` | Pack rights manifest (PD/CC rasters + CC0 SVG) |
+| `GRAPHICS_INDEX.md` | Era timelines and figure plates |
 | `WP_IMPORT.md` | Staging WordPress only |
 | `drafts/` | The essays |
+| `assets/era/` | Lead SVG timelines (era essays) |
+| `plates/` | Typographic figure plates + per-plate `RIGHTS.md` |
+| `graphics_pass.py` | Regenerate plates, timelines, and `<figure>` embeds |
 | `check_pack.py` | Structural QA |
 
 Educational only. Not medical advice. No DIY treatment protocols. No patient PHI.

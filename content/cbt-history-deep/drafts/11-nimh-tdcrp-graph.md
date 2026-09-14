@@ -10,7 +10,7 @@ tags:
   - IPT
 type: era
 order: 11
-portrait: none
+portrait: null
 citations:
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1986 and 1989."
   - "Klerman, Gerald L., and Myrna M. Weissman. Interpersonal psychotherapy of depression (historical school on the graph)."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/nimh-tdcrp-graph/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: nimh-tdcrp-graph.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/nimh-tdcrp-graph/lead-timeline.svg"
+    alt="Editorial timeline for Three schools on one NIMH graph."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Three schools on one NIMH graph</strong> — NIMH depression trials that plotted cognitive, behavioral, and pharmacologic arms together.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Irene Elkin and colleagues, writing in the *Archives of General Psychiatry* at the end of the 1980s, reported the National Institute of Mental Health Treatment of Depression Collaborative Research Program. Cognitive behavior therapy, interpersonal psychotherapy (the Klerman–Weissman school), imipramine plus clinical management, and a placebo-plus-management condition had been run across sites. The papers (design 1986; general effectiveness 1989) are the historical object. This page will not re-litigate every secondary analysis. It will say what it meant that a federal graph had three psychosocial and pharmacological cousins on it.
 

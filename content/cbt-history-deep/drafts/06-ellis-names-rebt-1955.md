@@ -9,7 +9,7 @@ tags:
   - 1955
 type: era
 order: 6
-portrait: none
+portrait: null
 citations:
   - "Ellis, Albert. Journal of Individual Psychology, 1957."
   - "Ellis, Albert, and Robert A. Harper. A Guide to Rational Living. 1961."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/ellis-names-rebt-1955/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: ellis-names-rebt-1955.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/ellis-names-rebt-1955/lead-timeline.svg"
+    alt="Editorial timeline for Ellis names a therapy, 1955."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ellis names a therapy, 1955</strong> — Albert Ellis's 1955 naming as a New York public argument, not a Stoic class.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 1955 is a naming year, not a thunderclap. Albert Ellis, already a psychologist who had written about sex in a decade that punished that writing, began to practice a therapy he would call Rational Psychotherapy, then Rational-Emotive, then Rational Emotive Behavior Therapy. The 1957 paper in the *Journal of Individual Psychology* is the early public object. *A Guide to Rational Living* (with Robert A. Harper, 1961) is the public book. *Reason and Emotion in Psychotherapy* (1962) is the professional book. The later institute on East 65th Street is a New York address with a myth attached.
 

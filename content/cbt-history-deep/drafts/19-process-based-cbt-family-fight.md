@@ -9,7 +9,7 @@ tags:
   - Hofmann
 type: era
 order: 19
-portrait: none
+portrait: null
 citations:
   - "Hayes, Steven C., and Stefan G. Hofmann, eds. Process-Based CBT. 2018."
   - "Hofmann, Stefan G., and Gordon J. G. Asmundson. Clinical Psychology Review, 2008."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/process-based-cbt-family-fight/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: process-based-cbt-family-fight.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/process-based-cbt-family-fight/lead-timeline.svg"
+    alt="Editorial timeline for Process-based CBT family fight."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Process-based CBT family fight</strong> — Whether CBT should be packaged as protocols or processes.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2018 Context Press / New Harbinger issued *Process-Based CBT*, edited by Steven C. Hayes and Stefan G. Hofmann. The two men had already been on opposite sides of a wave argument — Hayes's 2004 geology, Hofmann and Asmundson's 2008 "old hat." The later book is a kind of peace treaty, or a new quarrel in a shared vocabulary: stop selling packages as if they were natural kinds; name the processes a clinician is trying to change.
 

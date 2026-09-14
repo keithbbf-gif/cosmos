@@ -9,7 +9,7 @@ tags:
   - manuals
 type: era
 order: 13
-portrait: none
+portrait: null
 citations:
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/managed-care-six-sessions/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: managed-care-six-sessions.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/managed-care-six-sessions/lead-timeline.svg"
+    alt="Editorial timeline for Managed care and six sessions."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Managed care and six sessions</strong> — Insurance shape as a cousin of the worksheet — not a clinical theory.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 American managed care in the late 1980s and 1990s did not invent cognitive therapy. It recognized a cousin it could authorize. A therapy that had a manual, a score, and a story about time-limited work looked, to a utilization reviewer, like something you could price. Six sessions, eight, twelve — the numbers moved. The shape stayed. This page is about the shape. It is not a guide to billing, and it is not a claim that a short hour is a fake hour.
 

@@ -9,7 +9,7 @@ tags:
   - 1980
 type: figure
 order: 38
-portrait: none
+portrait: "plates/david-d-burns-feeling-good/plate.svg"
 citations:
   - "Burns, David D. Feeling Good: The New Mood Therapy. 1980."
   - "Burns, David D. The Feeling Good Handbook. 1989."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1942–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: david-d-burns-feeling-good.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/david-d-burns-feeling-good/plate.svg"
+    alt="Typographic history plate for David D. Burns (1942–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>David D. Burns</strong> (1942–) — psychiatrist whose 1980 *Feeling Good* brought Beck's ideas to bookstore readers.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/david-d-burns-feeling-good/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 David D. Burns is living (verified 2026). Public book only. No health speculation. No scraped jacket as if it were free. This page will not assign exercises from *Feeling Good*.
 

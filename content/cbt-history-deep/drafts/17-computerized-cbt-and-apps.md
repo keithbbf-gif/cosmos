@@ -9,7 +9,7 @@ tags:
   - IAPT
 type: era
 order: 17
-portrait: none
+portrait: null
 citations:
   - "Proudfoot, Judy, et al. computerized CBT papers, late 1990s–2000s (Beating the Blues as a historical product name)."
   - "Clark, David M. Annual Review of Clinical Psychology, 2018."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/computerized-cbt-and-apps/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: computerized-cbt-and-apps.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/computerized-cbt-and-apps/lead-timeline.svg"
+    alt="Editorial timeline for Computerized CBT and apps."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Computerized CBT and apps</strong> — Digital delivery without screenshots you do not own.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 By the late 1990s a British product with a cheerful name — *Beating the Blues* — was already trying to put a grandchild of the Penn manuals on a computer. Judy Proudfoot and colleagues published trials. Other packages followed. IAPT, after 2008, had a place in its stepped furniture for computerized work. By the 2010s the computer had become a phone, the package had become an app, and "mindfulness" had become a word on yogurt.
 

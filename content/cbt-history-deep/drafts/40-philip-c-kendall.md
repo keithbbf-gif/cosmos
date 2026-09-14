@@ -9,7 +9,7 @@ tags:
   - Coping Cat
 type: figure
 order: 40
-portrait: none
+portrait: "plates/philip-c-kendall/plate.svg"
 citations:
   - "Kendall, Philip C. Journal of Consulting and Clinical Psychology, 1994."
   - "Kendall, Philip C. Coping Cat / child anxiety manuals, 1990s."
@@ -17,9 +17,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1950–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: philip-c-kendall.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/philip-c-kendall/plate.svg"
+    alt="Typographic history plate for Philip C. Kendall (1950–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Philip C. Kendall</strong> (1950–) — child CBT researcher known for Coping Cat and youth anxiety trials.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/philip-c-kendall/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Philip C. Kendall is living (verified 2026). Public professional objects only. No health speculation. No Temple scrape. This page will not reprint Coping Cat steps or a child's worksheet. It will not diagnose a child.
 

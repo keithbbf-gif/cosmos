@@ -10,7 +10,7 @@ tags:
   - precursors
 type: era
 order: 1
-portrait: none
+portrait: null
 citations:
   - "Epictetus. Enchiridion (Oldfather trans., Loeb, 1928)."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/stoic-sentences-before-the-clinic/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: stoic-sentences-before-the-clinic.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/stoic-sentences-before-the-clinic/lead-timeline.svg"
+    alt="Editorial timeline for Stoic sentences before the clinic."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Stoic sentences before the clinic</strong> — How a first-century handbook sentence traveled into mid-century American therapy without becoming a worksheet.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Albert Ellis liked to tell Friday-night audiences that a slave-teacher in Nicopolis had already said the useful thing. Men are disturbed not by things, but by the views they take of them. The sentence is from the *Enchiridion* of Epictetus, or from a long English habit of rendering it. Ellis put it in *Reason and Emotion in Psychotherapy* (1962) the way a carpenter puts a reused beam in a new house: visible, load-bearing, not his timber.
 

@@ -10,7 +10,7 @@ tags:
   - NHS
 type: era
 order: 16
-portrait: none
+portrait: null
 citations:
   - "LSE Centre for Economic Performance, Mental Health Policy Group. The Depression Report. June 2006."
   - "Clark, David M., Richard Layard, and Rachel Smithies. CEP Discussion Paper 897, 2008."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/iapt-political-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: iapt-political-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/iapt-political-object/lead-timeline.svg"
+    alt="Editorial timeline for IAPT as a political object."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>IAPT as a political object</strong> — England's Improving Access to Psychological Therapies as policy, not a room photograph.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 On 18 June 2006 a British Sunday paper, the *Observer*, carried *The Depression Report: A New Deal for Depression and Anxiety Disorders*. The London School of Economics Centre for Economic Performance's Mental Health Policy Group had written it. Lord Richard Layard chaired. David M. Clark sat among the authors. The pamphlet argued that untreated depression and anxiety were an economic and moral failure the NHS could meet with NICE-recommended psychological therapies, especially cognitive-behavioral ones.
 

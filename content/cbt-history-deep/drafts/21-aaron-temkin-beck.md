@@ -9,7 +9,7 @@ tags:
   - Penn
 type: figure
 order: 21
-portrait: none
+portrait: "plates/aaron-temkin-beck/plate.svg"
 citations:
   - "Beck, A. T., et al. Archives of General Psychiatry, 1961."
   - "Beck, Aaron T. Depression. 1967."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1921–2021"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: aaron-temkin-beck.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/aaron-temkin-beck/plate.svg"
+    alt="Typographic history plate for Aaron T. Beck (1921–2021) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Aaron T. Beck</strong> (1921–2021) — psychiatrist whose 1961 inventory and 1979 manual turned cognitive therapy into a workforce technology.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/aaron-temkin-beck/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Aaron Temkin Beck was born on 18 July 1921 in Providence and died on 1 November 2021. The survey pack already has a figure essay that walks the life. This page is a deepen: three objects he left that a workforce still lives inside — an inventory (1961), a book (1967), an institute (1994) — and the tape that made students fail in public.
 

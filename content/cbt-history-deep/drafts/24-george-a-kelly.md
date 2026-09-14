@@ -8,7 +8,7 @@ tags:
   - personal construct psychology
 type: figure
 order: 24
-portrait: none
+portrait: "plates/george-a-kelly/plate.svg"
 citations:
   - "Kelly, George A. The Psychology of Personal Constructs. 1955."
   - "Bannister, Don. Acta Psychologica, 1962 (British experimental neighbor; [VERIFY] volume/pages before print)."
@@ -16,9 +16,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1905–1967"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: george-a-kelly.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/george-a-kelly/plate.svg"
+    alt="Typographic history plate for George A. Kelly (1905–1967) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>George A. Kelly</strong> (1905–1967) — psychologist whose 1955 personal construct theory treated people as hypothesis testers.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/george-a-kelly/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 George Alexander Kelly was born in 1905 and died in 1967, the year Beck's *Depression* appeared. He taught at Ohio State. In 1955 W. W. Norton issued *The Psychology of Personal Constructs* in two volumes. Ellis, that same year, began naming REBT. Beck was still an analyst. Three cognitive doors, one year. American textbooks later kept two.
 

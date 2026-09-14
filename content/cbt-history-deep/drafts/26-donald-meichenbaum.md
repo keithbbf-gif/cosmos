@@ -8,7 +8,7 @@ tags:
   - cognitive-behavior modification
 type: figure
 order: 26
-portrait: none
+portrait: "plates/donald-meichenbaum/plate.svg"
 citations:
   - "Meichenbaum, Donald. Cognitive-Behavior Modification. 1977."
   - "Meichenbaum, Donald. Stress Inoculation Training. 1985."
@@ -16,9 +16,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1940–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: donald-meichenbaum.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/donald-meichenbaum/plate.svg"
+    alt="Typographic history plate for Donald Meichenbaum (1940–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Donald Meichenbaum</strong> (1940–) — cognitive-behavioral therapist known for stress inoculation and self-instructional training.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/donald-meichenbaum/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Donald Meichenbaum is living (verified 2026). Public books and dated professional objects only. No health speculation. No campus scrape.
 

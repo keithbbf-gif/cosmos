@@ -10,7 +10,7 @@ tags:
   - diagnosis
 type: era
 order: 10
-portrait: none
+portrait: null
 citations:
   - "American Psychiatric Association. DSM-III. 1980."
   - "Decker, Hannah S. The Making of DSM-III. 2013."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/dsm-iii-countable-object/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: dsm-iii-countable-object.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/dsm-iii-countable-object/lead-timeline.svg"
+    alt="Editorial timeline for DSM-III and the countable object."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>DSM-III and the countable object</strong> — Diagnostic manuals as billing and research objects — not cover art for blogs.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1980 the American Psychiatric Association issued the third edition of the *Diagnostic and Statistical Manual of Mental Disorders*. Robert Spitzer ran the revision. Narrative, theory-soaked diagnoses gave way to symptom checklists. Hannah Decker's *The Making of DSM-III* (2013) is the book to read. This page is not a history of diagnosis. It is a history of why cognitive therapy's next decade needed a countable object.
 

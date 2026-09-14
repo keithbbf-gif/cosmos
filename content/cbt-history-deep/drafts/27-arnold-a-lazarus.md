@@ -9,7 +9,7 @@ tags:
   - behavior therapy
 type: figure
 order: 27
-portrait: none
+portrait: "plates/arnold-a-lazarus/plate.svg"
 citations:
   - "Lazarus, Arnold A. Behavior Therapy and Beyond. 1971."
   - "Lazarus, Arnold A. Multimodal Behavior Therapy. 1976."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1932–2013"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: arnold-a-lazarus.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/arnold-a-lazarus/plate.svg"
+    alt="Typographic history plate for Arnold A. Lazarus (1932–2013) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Arnold A. Lazarus</strong> (1932–2013) — multimodal behavior therapist who argued techniques must match the person, not a single school badge.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/arnold-a-lazarus/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Arnold Allan Lazarus was born in 1932 in South Africa and died in 2013. He was younger than Wolpe, trained in the same behavioral weather, and less willing to let a physiology be the whole clinic. *Behavior Therapy and Beyond* (McGraw-Hill, 1971) is the title that already admits the argument. *The Practice of Multimodal Therapy* (1981) is the later inventory of a life — BASIC ID, in the jargon students remember and this page will not teach.
 

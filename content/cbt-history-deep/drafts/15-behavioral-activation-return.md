@@ -9,7 +9,7 @@ tags:
   - Dimidjian
 type: era
 order: 15
-portrait: none
+portrait: null
 citations:
   - "Jacobson, Neil S., et al. Journal of Consulting and Clinical Psychology, 1996."
   - "Dimidjian, Sona, et al. Journal of Consulting and Clinical Psychology, 2006."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/behavioral-activation-return/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: behavioral-activation-return.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/behavioral-activation-return/lead-timeline.svg"
+    alt="Editorial timeline for Behavioral activation returns."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Behavioral activation returns</strong> — Behavioral activation's return as a challenge to what counted as the active ingredient.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1996 the *Journal of Consulting and Clinical Psychology* printed a component analysis by Neil S. Jacobson and colleagues. Cognitive-behavioral treatment for depression had been taken apart. A behavioral-activation piece was compared with a fuller cognitive package. The paper asked an impolite question: how much of the furniture does the room need?
 

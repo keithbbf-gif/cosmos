@@ -9,7 +9,7 @@ tags:
   - 1991
 type: figure
 order: 31
-portrait: none
+portrait: "plates/marsha-linehan-cbt-dialectic/plate.svg"
 citations:
   - "Linehan, Marsha M., et al. Archives of General Psychiatry, 1991."
   - "Linehan, Marsha M. Cognitive-Behavioral Treatment of Borderline Personality Disorder. 1993."
@@ -19,9 +19,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1943–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: marsha-linehan-cbt-dialectic.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/marsha-linehan-cbt-dialectic/plate.svg"
+    alt="Typographic history plate for Marsha M. Linehan (1943–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Marsha M. Linehan</strong> (1943–) — psychologist who published dialectical behavior therapy as a cognitive-behavioral answer to chronic suicidality.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/marsha-linehan-cbt-dialectic/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Marsha M. Linehan was born in 1943 and is living (verified 2026). Public books, the 1991 paper, and the 23 June 2011 *New York Times* interview she chose. No health speculation beyond what she put on that record. No UW scrape. No skills list.
 

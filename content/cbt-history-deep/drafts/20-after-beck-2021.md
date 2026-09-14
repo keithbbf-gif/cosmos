@@ -10,7 +10,7 @@ tags:
   - CT-R
 type: era
 order: 20
-portrait: none
+portrait: null
 citations:
   - "Beck, Aaron T. Depression. 1967."
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/after-beck-2021/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: after-beck-2021.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/after-beck-2021/lead-timeline.svg"
+    alt="Editorial timeline for After Beck, 2021."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>After Beck, 2021</strong> — What survived the founder after November 2021 — institutes, scales, arguments.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Aaron Temkin Beck died on 1 November 2021, aged one hundred. Obituaries reached for kinship titles this style guide usually bans. The nickname at least named a lineage that now includes people who have never read the 1967 depression book. Reading it is still the better honor.
 

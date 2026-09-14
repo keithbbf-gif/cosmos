@@ -9,7 +9,7 @@ tags:
   - 1995
 type: figure
 order: 37
-portrait: none
+portrait: "plates/christine-a-padesky/plate.svg"
 citations:
   - "Padesky, Christine A. Socratic questioning address, European Congress of Behavioural and Cognitive Therapies, London, 1993 (unpublished talk; cite as a dated teaching object)."
   - "Greenberger, Dennis, and Christine A. Padesky. Mind Over Mood. 1995."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1950–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: christine-a-padesky.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/christine-a-padesky/plate.svg"
+    alt="Typographic history plate for Christine A. Padesky (1950–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Christine A. Padesky</strong> (1950–) — cognitive therapist and trainer known for collaborative case conceptualization workshops.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/christine-a-padesky/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Christine A. Padesky is living (verified 2026). Public books only. No health speculation. No Center for Cognitive Therapy scrape. This page will not walk a thought record.
 

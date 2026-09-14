@@ -9,7 +9,7 @@ tags:
   - process-based CBT
 type: figure
 order: 43
-portrait: none
+portrait: "plates/stefan-g-hofmann/plate.svg"
 citations:
   - "Hofmann, Stefan G., and Gordon J. G. Asmundson. Clinical Psychology Review, 2008."
   - "Hofmann, Stefan G., A. Asnaani, I. J. J. Vonk, A. T. Sawyer, and A. Fang. Cognitive Therapy and Research, 2012."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1957–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: stefan-g-hofmann.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/stefan-g-hofmann/plate.svg"
+    alt="Typographic history plate for Stefan G. Hofmann (1957–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Stefan G. Hofmann</strong> (1957–) — Boston psychologist who synthesized process-based and third-wave cognitive therapy research.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/stefan-g-hofmann/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Stefan G. Hofmann is living (verified 2026). Public papers and the 2018 volume only. No health speculation. No campus scrape. This page will not teach a process list.
 

@@ -9,7 +9,7 @@ tags:
   - New York
 type: figure
 order: 22
-portrait: none
+portrait: "plates/albert-ellis-east-65th/plate.svg"
 citations:
   - "Ellis, Albert. Journal of Individual Psychology, 1957."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1913–2007"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: albert-ellis-east-65th.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/albert-ellis-east-65th/plate.svg"
+    alt="Typographic history plate for Albert Ellis (1913–2007) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Albert Ellis</strong> (1913–2007) — founder who named rational emotive behavior therapy in 1955 and taught from a house on East 65th Street.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/albert-ellis-east-65th/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Albert Ellis was born on 27 September 1913 in Pittsburgh, grew up in New York, and died on 24 July 2007. The survey pack already walks the life. This deepen stays with the address: a Beaux-Arts house on East 65th Street, Friday-night demonstrations, a 2005 board removal, a 2006 court file that put him back on the board without making the house kind again.
 

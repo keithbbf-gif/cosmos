@@ -9,7 +9,7 @@ tags:
   - IAPT
 type: figure
 order: 29
-portrait: none
+portrait: "plates/david-m-clark/plate.svg"
 citations:
   - "Clark, David M. Behaviour Research and Therapy, 1986."
   - "Clark, David M., et al. British Journal of Psychiatry, 1994."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1952–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: david-m-clark.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/david-m-clark/plate.svg"
+    alt="Typographic history plate for David M. Clark (1952–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>David M. Clark</strong> (1952–) — Oxford psychologist behind IAPT-era protocols for anxiety and depression.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/david-m-clark/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 David M. Clark is living (verified 2026). Public papers and policy documents only. No health speculation. No Oxford or King's scrape. This page will not teach a panic model.
 

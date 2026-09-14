@@ -9,16 +9,35 @@ tags:
   - 1998
 type: figure
 order: 39
-portrait: none
+portrait: "plates/dianne-l-chambless/plate.svg"
 citations:
   - "Chambless, Dianne L., et al. The Clinical Psychologist, 1995 and 1996 (task-force reports)."
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1948–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: dianne-l-chambless.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/dianne-l-chambless/plate.svg"
+    alt="Typographic history plate for Dianne L. Chambless (1948–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Dianne L. Chambless</strong> (1948–) — clinical psychologist who helped define empirically supported therapy lists in the 1990s.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/dianne-l-chambless/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Dianne L. Chambless is living (verified 2026). Public papers only. No health speculation. No Penn scrape. This page will not paste a list as a menu.
 

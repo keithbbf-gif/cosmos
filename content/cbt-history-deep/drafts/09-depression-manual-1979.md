@@ -10,7 +10,7 @@ tags:
   - manuals
 type: era
 order: 9
-portrait: none
+portrait: null
 citations:
   - "Beck, Aaron T., A. John Rush, Brian F. Shaw, and Gary Emery. Cognitive Therapy of Depression. 1979."
   - "Beck, Aaron T. Cognitive Therapy and the Emotional Disorders. 1976."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/depression-manual-1979/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: depression-manual-1979.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/depression-manual-1979/lead-timeline.svg"
+    alt="Editorial timeline for The 1979 depression manual."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The 1979 depression manual</strong> — How a depression sequence became trainable workforce technology.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Guilford published *Cognitive Therapy of Depression* in 1979. The authors were Aaron T. Beck, A. John Rush, Brian F. Shaw, and Gary Emery. The book is the object a later profession means when it says "the manual." It can be taught, supervised, and compared. That is a political fact as well as a clinical one. A therapy that can be written as a manual can be granted. A therapy that cannot is, in a managed system, a hobby.
 

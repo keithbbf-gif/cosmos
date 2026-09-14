@@ -9,7 +9,7 @@ tags:
   - depression
 type: era
 order: 8
-portrait: none
+portrait: null
 citations:
   - "Beck, Aaron T. Depression: Clinical, Experimental, and Theoretical Aspects. 1967."
   - "Beck, Aaron T. Archives of General Psychiatry, 1963."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/depression-book-1967/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: depression-book-1967.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/depression-book-1967/lead-timeline.svg"
+    alt="Editorial timeline for The 1967 depression book."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The 1967 depression book</strong> — Beck's 1967 colleague volume before the Guilford manual era.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Hoeber issued Aaron T. Beck's *Depression: Clinical, Experimental, and Theoretical Aspects* in 1967. Later printings and the retitled *Depression: Causes and Treatment* are a publishing history. The 1967 object is the one this page keeps on the table: a thick, sometimes dry book that treated a depressed person's sentences as findings rather than as foam on a drive.
 

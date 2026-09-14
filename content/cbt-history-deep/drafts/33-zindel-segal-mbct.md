@@ -9,7 +9,7 @@ tags:
   - 2002
 type: figure
 order: 33
-portrait: none
+portrait: "plates/zindel-segal-mbct/plate.svg"
 citations:
   - "Teasdale, J. D., Z. V. Segal, J. M. G. Williams, et al. Journal of Consulting and Clinical Psychology, 2000."
   - "Segal, Zindel V., J. Mark G. Williams, and John D. Teasdale. Mindfulness-Based Cognitive Therapy for Depression. 2002."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1951–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: zindel-segal-mbct.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/zindel-segal-mbct/plate.svg"
+    alt="Typographic history plate for Zindel V. Segal (1951–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Zindel V. Segal</strong> (1951–) — clinical psychologist who co-developed mindfulness-based cognitive therapy for depression relapse.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/zindel-segal-mbct/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Zindel V. Segal is living (verified 2026), as are, at last check, his 2002 co-authors J. Mark G. Williams and John D. Teasdale. Public book only. No health speculation. No campus scrape. This page will not teach a sitting practice or a relapse handout.
 

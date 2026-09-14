@@ -9,7 +9,7 @@ tags:
   - CTS
 type: figure
 order: 35
-portrait: none
+portrait: "plates/jeffrey-e-young/plate.svg"
 citations:
   - "Young, Jeffrey, and Aaron T. Beck. Cognitive Therapy Scale. 1980."
   - "Young, Jeffrey E. Cognitive Therapy for Personality Disorders: A Schema-Focused Approach. 1990 (rev. 1994)."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1950–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jeffrey-e-young.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/jeffrey-e-young/plate.svg"
+    alt="Typographic history plate for Jeffrey E. Young (1950–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jeffrey E. Young</strong> (1950–) — psychologist who formulated schema therapy as an extension of Beck's cognitive model.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/jeffrey-e-young/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Jeffrey E. Young is living (verified 2026). Public manuals and the 2003 book only. No health speculation. No institute scrape. This page will not teach a schema list or an imagery exercise.
 

@@ -9,7 +9,7 @@ tags:
   - 1996
 type: figure
 order: 36
-portrait: none
+portrait: "plates/neil-s-jacobson/plate.svg"
 citations:
   - "Jacobson, Neil S., and Gayla Margolin. Marital Therapy. 1979."
   - "Jacobson, Neil S., et al. Journal of Consulting and Clinical Psychology, 1996."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1949–2003"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: neil-s-jacobson.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/neil-s-jacobson/plate.svg"
+    alt="Typographic history plate for Neil S. Jacobson (1949–2003) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Neil S. Jacobson</strong> (1949–2003) — researcher whose component studies and behavioral activation trials challenged how CBT was packaged.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/neil-s-jacobson/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Neil S. Jacobson was born in 1949 and died in 2003. Public papers only. No embroidery of the death. No campus scrape. This page will not assign an activity schedule.
 

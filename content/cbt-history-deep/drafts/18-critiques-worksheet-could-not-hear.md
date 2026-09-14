@@ -10,7 +10,7 @@ tags:
   - class
 type: era
 order: 18
-portrait: none
+portrait: null
 citations:
   - "Cushman, Philip. Constructing the Self, Constructing America. 1995."
   - "Beck, Aaron T. Depression. 1967."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/critiques-worksheet-could-not-hear/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: critiques-worksheet-could-not-hear.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/critiques-worksheet-could-not-hear/lead-timeline.svg"
+    alt="Editorial timeline for Critiques the worksheet could not hear."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Critiques the worksheet could not hear</strong> — Social and political arguments that cognitive manuals struggled to absorb.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Cognitive therapy asked a person to treat a belief as a hypothesis. The invitation helped a great many people whose Tuesdays were being eaten by a sentence that could, in fact, be tested. It also arrived, in some rooms, as an instruction to reframe a life that was already a correct reading of a neighborhood, a marriage, a wage, a color line.
 

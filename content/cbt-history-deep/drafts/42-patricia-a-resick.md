@@ -9,7 +9,7 @@ tags:
   - trauma
 type: figure
 order: 42
-portrait: none
+portrait: "plates/patricia-a-resick/plate.svg"
 citations:
   - "Resick, Patricia A., and Monica K. Schnicke. Journal of Consulting and Clinical Psychology, 1992."
   - "Foa, Edna B., and Michael J. Kozak. Psychological Bulletin, 1986."
@@ -17,9 +17,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1949–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: patricia-a-resick.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/patricia-a-resick/plate.svg"
+    alt="Typographic history plate for Patricia A. Resick (1949–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Patricia A. Resick</strong> (1949–) — trauma psychologist who built cognitive processing therapy for survivors.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/patricia-a-resick/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Patricia A. Resick is living (verified 2026). Public papers and the fact of later Guilford manuals only. No health speculation. No VA or university scrape. This page will not teach CPT, a stuck-point list, or a trauma how-to. It will not invent a survivor vignette.
 

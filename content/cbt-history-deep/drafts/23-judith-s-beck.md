@@ -9,7 +9,7 @@ tags:
   - training
 type: figure
 order: 23
-portrait: none
+portrait: "plates/judith-s-beck/plate.svg"
 citations:
   - "Beck, Judith S. Cognitive Therapy: Basics and Beyond. 1995."
   - "Beck Institute for Cognitive Behavior Therapy. Founded 1994."
@@ -17,9 +17,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1950–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: judith-s-beck.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/judith-s-beck/plate.svg"
+    alt="Typographic history plate for Judith S. Beck (1950–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Judith S. Beck</strong> (1950–) — clinical psychologist who built the Beck Institute training shop after the 1994 founding.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/judith-s-beck/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Judith S. Beck is living (verified 2026). This page uses public books and the Institute's own dated institutional history. No health speculation. No scraped portraits. No invented credentials.
 

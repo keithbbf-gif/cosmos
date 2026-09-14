@@ -9,7 +9,7 @@ tags:
   - 1958
 type: figure
 order: 25
-portrait: none
+portrait: "plates/joseph-wolpe/plate.svg"
 citations:
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
   - "Jones, Mary Cover. Pedagogical Seminary, 1924."
@@ -17,9 +17,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1915–1997"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: joseph-wolpe.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/joseph-wolpe/plate.svg"
+    alt="Typographic history plate for Joseph Wolpe (1915–1997) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Joseph Wolpe</strong> (1915–1997) — South African–American psychiatrist who brought systematic desensitization into the behavior clinic.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/joseph-wolpe/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Joseph Wolpe was born in 1915 in South Africa and died in 1997. *Psychotherapy by Reciprocal Inhibition* (Stanford University Press, 1958) is the clinic in a hardback. A psychiatrist who had lost patience with the corridor Freudianism of his training wrote down a way of treating fear by pairing it with a response that, in his physiology, could not sit beside it.
 

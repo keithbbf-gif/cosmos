@@ -12,7 +12,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ART = ROOT / "drafts"
+PLATES = ROOT / "plates"
+ERA_ASSETS = ROOT / "assets" / "era"
 INDEX = ROOT / "INDEX.md"
+FIGURE_RE = re.compile(r'<figure class="wow-figure', re.I)
+AI_FACE = re.compile(
+    r"(ai[- ]generated|synthetic (?:face|likeness|portrait)|midjourney|stable diffusion)",
+    re.I,
+)
+ALLOW_AI_MENTION = re.compile(
+    r"(no ai[- ]generated|ai toga is a lie|never generate|do not.*face|banned.*face|not a face)",
+    re.I,
+)
 
 REQUIRED_YAML = [
     "title",
@@ -118,6 +129,25 @@ def main() -> int:
             errors.append(f"{path.name}: bad status {fm.get('status')!r}")
         if DISCLAIMER_NEEDLE not in text.lower():
             errors.append(f"{path.name}: missing educational note")
+        if AI_FACE.search(text) and not ALLOW_AI_MENTION.search(text):
+            errors.append(f"{path.name}: possible AI-face language")
+        if not FIGURE_RE.search(text):
+            errors.append(f"{path.name}: missing <figure> lead block")
+        if fm.get("type") == "era":
+            if fm.get("portrait_status") != "essay-only":
+                errors.append(f"{path.name}: era portrait_status must be essay-only")
+            lead = fm.get("lead_asset", "")
+            if not lead.startswith("assets/era/"):
+                errors.append(f"{path.name}: era missing lead_asset under assets/era/")
+        if fm.get("type") == "figure":
+            if "figure_dates" not in fm:
+                errors.append(f"{path.name}: figure missing figure_dates")
+            ps = fm.get("portrait_status")
+            if ps not in {"typographic", "cleared", "placeholder"}:
+                errors.append(f"{path.name}: figure portrait_status must be typographic|cleared|placeholder")
+            port = fm.get("portrait", "")
+            if not str(port).startswith("plates/"):
+                errors.append(f"{path.name}: figure portrait must point at plates/…")
         n = body_words(text)
         floor = (
             MIN_WORDS_ERA
@@ -146,6 +176,33 @@ def main() -> int:
         if slug not in idx:
             errors.append(f"INDEX.md missing slug {slug}")
 
+    if not PLATES.is_dir():
+        errors.append("missing plates/ directory")
+    else:
+        for plate_dir in sorted(p for p in PLATES.iterdir() if p.is_dir()):
+            rights = plate_dir / "RIGHTS.md"
+            if not rights.is_file():
+                errors.append(f"missing {rights.relative_to(ROOT)}")
+            elif "ai_generated | no" not in rights.read_text(encoding="utf-8"):
+                errors.append(f"{rights.relative_to(ROOT)} must declare ai_generated | no")
+            plate_files = list(plate_dir.glob("plate.*"))
+            if len(plate_files) != 1:
+                errors.append(f"{plate_dir.name}: expected exactly one plate.* file, got {len(plate_files)}")
+        for img in ROOT.rglob("*"):
+            if img.suffix.lower() not in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
+                continue
+            rel = img.relative_to(ROOT)
+            if rel.parts[0] != "plates":
+                errors.append(f"raster outside plates/: {rel}")
+
+    if not ERA_ASSETS.is_dir():
+        errors.append("missing assets/era/ directory")
+    else:
+        for slug_dir in sorted(p for p in ERA_ASSETS.iterdir() if p.is_dir()):
+            lead = slug_dir / "lead-timeline.svg"
+            if not lead.is_file():
+                errors.append(f"missing {lead.relative_to(ROOT)}")
+
     ops = [
         "INDEX.md",
         "MANIFEST.md",
@@ -156,6 +213,8 @@ def main() -> int:
         "PHOTO_NOTES.md",
         "WP_IMPORT.md",
         "README.md",
+        "RIGHTS.md",
+        "GRAPHICS_INDEX.md",
     ]
     for name in ops:
         if not (ROOT / name).is_file():

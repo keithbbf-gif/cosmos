@@ -10,7 +10,7 @@ tags:
   - ACT
 type: era
 order: 14
-portrait: none
+portrait: null
 citations:
   - "Hayes, Steven C. Behavior Therapy, 2004."
   - "Hayes, Steven C., Victoria M. Follette, and Marsha M. Linehan, eds. Mindfulness and Acceptance. 2004."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/third-wave-nickname-2004/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: third-wave-nickname-2004.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/third-wave-nickname-2004/lead-timeline.svg"
+    alt="Editorial timeline for The third-wave nickname, 2004."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>The third-wave nickname, 2004</strong> — Why acceptance-based therapies got a wave nickname in *Behavior Therapy*.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 2004 *Behavior Therapy* printed Steven C. Hayes's paper "Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies." The same year, Guilford issued *Mindfulness and Acceptance: Expanding the Cognitive-Behavioral Tradition*, edited by Hayes, Victoria Follette, and Marsha Linehan. A nickname and an anthology arrived together. People had already been doing DBT, ACT, and MBCT. Now they had a geology.
 

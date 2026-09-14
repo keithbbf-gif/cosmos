@@ -17,6 +17,9 @@ Deepens `content/wowtherapies-therapy-history/` (cognitive turn, third wave, Bec
 | `BIBLIOGRAPHY.md` | Consolidated citations |
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
+| `RIGHTS.md` | Rights manifest for rasters and CC0 editorial SVG |
+| `GRAPHICS_INDEX.md` | Lead graphics register |
+| `embeds/` | HTML `<figure>` templates for SEO |
 | `WP_IMPORT.md` | Staging import only |
 
 ## Required YAML on each draft

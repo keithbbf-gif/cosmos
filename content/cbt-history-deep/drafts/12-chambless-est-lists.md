@@ -9,7 +9,7 @@ tags:
   - empirically supported treatments
 type: era
 order: 12
-portrait: none
+portrait: null
 citations:
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
   - "Chambless, Dianne L., et al. Society of Clinical Psychology (APA Division 12) Task Force reports, 1990s."
@@ -17,9 +17,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/chambless-est-lists/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: chambless-est-lists.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/chambless-est-lists/lead-timeline.svg"
+    alt="Editorial timeline for Empirically supported treatment lists."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Empirically supported treatment lists</strong> — How lists of supported therapies reshaped training and managed care arguments.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In the 1990s the Society of Clinical Psychology (APA Division 12) published lists of treatments that met a rule for empirical support. Dianne L. Chambless chaired and wrote; Steven Hollon co-authored the 1998 *Journal of Consulting and Clinical Psychology* paper that many later syllabi treat as the definition: "Defining Empirically Supported Therapies." The lists were a reform against unfalsifiable guild talk. They were also a new guild. A therapy that had not yet run the right trial in the right journal looked, on a slide, like a superstition.
 

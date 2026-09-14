@@ -9,7 +9,7 @@ tags:
   - STAR*D
 type: figure
 order: 28
-portrait: none
+portrait: "plates/a-john-rush/plate.svg"
 citations:
   - "Rush, A. T. Beck, M. Kovacs, and S. Hollon. Cognitive Therapy and Research, 1977."
   - "Beck, Aaron T., A. John Rush, Brian F. Shaw, and Gary Emery. Cognitive Therapy of Depression. 1979."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1943–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: a-john-rush.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/a-john-rush/plate.svg"
+    alt="Typographic history plate for A. John Rush (1943–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>A. John Rush</strong> (1943–) — psychiatrist and co-author of the 1979 cognitive therapy of depression manual.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/a-john-rush/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 A. John Rush is living (verified 2026). Public papers and books only. No health speculation. No campus scrape. No dosing advice.
 

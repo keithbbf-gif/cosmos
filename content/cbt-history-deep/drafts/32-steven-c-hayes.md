@@ -9,7 +9,7 @@ tags:
   - 2004
 type: figure
 order: 32
-portrait: none
+portrait: "plates/steven-c-hayes/plate.svg"
 citations:
   - "Hayes, Steven C., Kirk D. Strosahl, and Kelly G. Wilson. Acceptance and Commitment Therapy. 1999."
   - "Hayes, Steven C. Behavior Therapy, 2004."
@@ -18,9 +18,28 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+figure_dates: "1948–"
+portrait_status: typographic
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: steven-c-hayes.lead-plate -->
+<figure class="wow-figure wow-figure--portrait wow-figure--portrait-typographic">
+  <img
+    src="../plates/steven-c-hayes/plate.svg"
+    alt="Typographic history plate for Steven C. Hayes (1948–) — no photograph."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Steven C. Hayes</strong> (1948–) — psychologist who named acceptance and commitment therapy and the 2004 third-wave address.
+    <em>Typographic plate — no likeness embedded.</em>
+    <span class="figure-credit">Original editorial plate (CC0). See <code>plates/steven-c-hayes/RIGHTS.md</code>.</span>
+  </figcaption>
+</figure>
+
 
 Steven C. Hayes is living (verified 2026). Public books and papers only. No health speculation. No University of Nevada scrape. This page will not teach defusion, a values card, or RFT.
 

@@ -9,7 +9,7 @@ tags:
   - University of Pennsylvania
 type: era
 order: 7
-portrait: none
+portrait: null
 citations:
   - "Beck, A. T., et al. Archives of General Psychiatry, 1961."
   - "Beck, Aaron T. Archives of General Psychiatry, 1963."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/beck-leaves-the-couch/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: beck-leaves-the-couch.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/beck-leaves-the-couch/lead-timeline.svg"
+    alt="Editorial timeline for Beck leaves the couch."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Beck leaves the couch</strong> — Aaron Beck's Philadelphia pivot from analytic hypotheses to testable sentences.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Aaron Temkin Beck expected, as an analyst, to find hostility under depression. He listened, at the University of Pennsylvania and in the Philadelphia institutes that had trained him, and heard something else: a running evaluation. I am a failure. Nothing will work. The world is thin. He began to write the sentences down.
 

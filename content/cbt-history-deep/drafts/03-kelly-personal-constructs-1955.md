@@ -10,7 +10,7 @@ tags:
   - precursors
 type: era
 order: 3
-portrait: none
+portrait: null
 citations:
   - "Kelly, George A. The Psychology of Personal Constructs. 1955."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
@@ -18,9 +18,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/kelly-personal-constructs-1955/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: kelly-personal-constructs-1955.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/kelly-personal-constructs-1955/lead-timeline.svg"
+    alt="Editorial timeline for Personal constructs, 1955."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Personal constructs, 1955</strong> — George Kelly's 1955 two-volume theory beside Ellis's naming year.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 In 1955 W. W. Norton issued George A. Kelly's *The Psychology of Personal Constructs* in two volumes. The same year, in New York, Albert Ellis began practicing the therapy he would name Rational Emotive. Aaron Beck was still an analyst in Philadelphia. Three cognitive doors opened, or almost opened, within months of each other. American textbooks later kept two and wallpapered over the third.
 

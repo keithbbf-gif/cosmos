@@ -10,7 +10,7 @@ tags:
   - Jones
 type: era
 order: 5
-portrait: none
+portrait: null
 citations:
   - "Jones, Mary Cover. Pedagogical Seminary, 1924."
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
@@ -19,9 +19,27 @@ citations:
 status: publishable
 voice_check: human
 last_verified: 2026-09-14
+lead_asset: "assets/era/first-wave-behavior-clinic/lead-timeline.svg"
+portrait_status: essay-only
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: first-wave-behavior-clinic.lead-timeline -->
+<figure class="wow-figure wow-figure--era">
+  <img
+    src="../assets/era/first-wave-behavior-clinic/lead-timeline.svg"
+    alt="Editorial timeline for First-wave behavior clinic."
+    width="900"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>First-wave behavior clinic</strong> — Behavior therapy enters the hospital without retelling forbidden child experiments.
+    <span class="figure-credit">Original editorial timeline (CC0). No AI-generated faces.</span>
+  </figcaption>
+</figure>
+
 
 Joseph Wolpe's *Psychotherapy by Reciprocal Inhibition* (Stanford, 1958) is a clinic in a hardback. A South African psychiatrist, trained in a medical world that still spoke Freudian in the corridors, wrote down a way of treating fear by pairing it with a response that could not, in his physiology, sit beside it. Progressive relaxation. A graded imagination of the feared scene. A theory of inhibition borrowed from the lab.
 
