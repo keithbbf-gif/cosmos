@@ -13,7 +13,7 @@ portrait: none
 stage: "01-how-to-read"
 stage_name: "How to read"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -36,7 +36,7 @@ The distinction sounds obvious until a headline erases it. "Psychologist violate
 
 **The licensing board** owns a state permission. An LPC in Arkansas is not an LPC in the same sense as an LPC in Virginia; the letters look alike and the statutes do not. Some boards adopt an association code by reference. Some write their own. Some cite "generally accepted professional standards" and leave the fight for the hearing. A board action can end a livelihood. An association letter, by itself, cannot.
 
-**The court** owns a docket. Malpractice, duty to protect, privilege, custody evaluations, billing fraud: these are legal objects. A lawyer may wave a code in a deposition. A judge may or may not care. *Jaffee v. Redmond* (1996) is a Supreme Court opinion about psychotherapist-patient privilege in federal courts. It is not an ACA standard. *Tarasoff* (1976) is California. It is not a national ethics clause. Draft 36 will keep those cases in their courthouses.
+**The court** owns a docket. Malpractice, duty to protect, privilege, custody evaluations, billing fraud: these are legal objects. A lawyer may cite a code in a deposition. A judge may or may not care. *Jaffee v. Redmond* (1996) is a Supreme Court opinion about psychotherapist-patient privilege in federal courts. It is not an ACA standard. *Tarasoff* (1976) is California. It is not a national ethics clause. Draft 36 will keep those cases in their courthouses.
 
 ## Why associations publish the book anyway
 

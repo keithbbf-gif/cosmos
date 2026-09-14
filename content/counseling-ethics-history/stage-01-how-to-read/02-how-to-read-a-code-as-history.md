@@ -13,7 +13,7 @@ portrait: none
 stage: "01-how-to-read"
 stage_name: "How to read"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

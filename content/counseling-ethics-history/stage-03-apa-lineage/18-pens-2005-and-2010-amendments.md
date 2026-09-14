@@ -14,7 +14,7 @@ portrait: none
 stage: "03-apa-lineage"
 stage_name: "APA lineage"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -41,7 +41,7 @@ This folder will not retry the interrogations. It will not teach a "should a psy
 
 The 2002 standards on conflicts with law (1.02) and conflicts with organizational demands (1.03) were workaday sentences about subpoenas and employers. In the mid-2000s they were reread as sentences about orders. Critics called the "follow the law if you cannot resolve the conflict" clause a Nuremberg defense. The nickname is harsh. The nickname is also, by then, part of the public record.
 
-APA's Council, in the years after PENS, directed a change meant to block that reading. The 2010 amendments — printed in *American Psychologist* 65:493, effective 1 June 2010 — altered the Introduction and Standards 1.02 and 1.03. In the versions I have seen described, the amendment removed the leftover permission to follow law once a conflict was called unresolvable, and added language that those standards may not be used to justify violating human rights.
+APA's Council, in the years after PENS, directed a change meant to block that reading. The 2010 amendments — printed in *American Psychologist* 65:493, effective 1 June 2010 — altered the Introduction and Standards 1.02 and 1.03. In the versions I have seen described, the amendment removed the leftover permission to follow the law once a conflict was called unresolvable, and added language that those standards may not be used to justify violating human rights.
 
 I am paraphrasing. I am not pasting the 2010 text. The association's own pages and the 2010 *American Psychologist* note are the checkable objects.
 

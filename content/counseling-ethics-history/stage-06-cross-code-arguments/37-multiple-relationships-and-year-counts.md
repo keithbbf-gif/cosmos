@@ -14,7 +14,7 @@ portrait: none
 stage: "06-cross-code-arguments"
 stage_name: "Cross-code arguments"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -29,7 +29,7 @@ citations:
 
 Public comparison charts used in counselor-education classrooms say the APA ethics text forbids a sexual relationship with a former client for at least two years after termination, and the ACA 2014 text uses five. I have not, for this draft, laid the two living PDFs side by side. `[VERIFY]` before a live caption. The circulating contrast is stable enough to treat as a teaching object, and unstable enough to forbid a tone of certainty.
 
-Year-counts are a crude instrument. They are also one of the few places a general reader can *see* two guilds writing different numbers about the same temptation.
+Guilds sometimes encode temptation as a number. APA and ACA did not pick the same post-termination floor; that contrast is crude, but it is visible on a comparison chart.
 
 ## Why a number at all
 
@@ -43,7 +43,7 @@ ACA's 2005 interview series spent a part on romantic and sexual relationships an
 
 Southeast Arkansas is a small-town ethics problem whether a code says so or not. A clinician and a client will meet in the only pharmacy. A school counselor is already in a multiple relationship by job description: the child, the parent, the principal, the IEP team. NASW's 1993 additions, in the association's notes, included dual relationships because agency life had already arrived.
 
-This site will not draw the line for a grocery-store wave. It will say the line has been a national argument since at least the 1990s sutures.
+This site will not draw the line for a grocery-aisle encounter. It will say the line has been a national argument since at least the 1990s sutures.
 
 ## What the year-count does not cover
 

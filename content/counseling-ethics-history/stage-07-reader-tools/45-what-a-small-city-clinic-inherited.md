@@ -13,7 +13,7 @@ portrait: none
 stage: "07-reader-tools"
 stage_name: "Reader tools"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -53,7 +53,7 @@ A great many people in Southeast Arkansas first met a counselor as a person with
 
 ## What this lane can honestly give a local reader
 
-Literacy. "The ethics code" is not one object. Confidentiality is not privilege. A 2021 NASW suture is not a new book. A speech clinic is not a counseling shop because it hosted a history. A grocery-store wave is a 2005 ACA conversation and a 1993 NASW conversation and a human fact.
+Literacy. "The ethics code" is not one object. Confidentiality is not privilege. A 2021 NASW suture is not a new book. A speech clinic is not a counseling shop because it hosted a history. A grocery-aisle encounter is a 2005 ACA conversation and a 1993 NASW conversation and a human fact.
 
 What this lane cannot give: a decision about your clinician, a filing, a form, a diagnosis, a booking widget dressed as heritage.
 

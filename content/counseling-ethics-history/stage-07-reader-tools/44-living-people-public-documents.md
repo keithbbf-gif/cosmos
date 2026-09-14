@@ -13,7 +13,7 @@ portrait: none
 stage: "07-reader-tools"
 stage_name: "Reader tools"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -58,7 +58,7 @@ Tolman died in 1959. Hobbs died in 1981. Charles Levy is a public historical nam
 
 ## For WOW Therapies
 
-The live site should not invent a clinical director or hang a stock "ethicist" over these essays. Author field: a holding editorial user. Byline is not `voice_check: human`. That field is a QA flag.
+The live site should not invent a clinical director or hang a stock "ethicist" over these essays. Author field: a holding editorial user. Byline is not `voice_check: human` or `voice_check: edited`. That field is a QA flag.
 
 If a living person asks to be removed from a sentence that only names a public role, the editor should look at the sentence. Public roles are how institutions are checkable. Vanity removal of a chair's name is how origin stories go anonymous and then get invented.
 

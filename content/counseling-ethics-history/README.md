@@ -30,7 +30,7 @@ The live wowtherapies.com homepage, as last fetched, presents occupational, phys
 
 Human essay voice. `status: draft` on every file. The series is **staged** (seven argument stages) and **git-staged** as a proposal, not published as canon and not wired into COSMOS Core.
 
-`voice: essay` and `voice_check: human` in YAML are the writer pass. Neither value is a byline.
+`voice: essay` in YAML is the writer draft. `voice_check: human` is the writer pass; `voice_check: edited` is the read-aloud editor pass (see `EDITOR_REPORT.md`). Neither value is a byline.
 
 ## Stage 1 — How to read
 
@@ -137,3 +137,4 @@ The linter checks count (≥40), frontmatter, word floor (800), uniqueness of op
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `WP_IMPORT.md` | Staging WordPress only |
 | `MANIFEST.toml` | Machine inventory (generated) |
+| `EDITOR_REPORT.md` | Editor read-aloud pass log (staged packs) |

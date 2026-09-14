@@ -13,7 +13,7 @@ portrait: none
 stage: "01-how-to-read"
 stage_name: "How to read"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -46,7 +46,7 @@ I will keep **the three rooms that punish** separate. An association can expel a
 
 I will keep **copyright** visible. The living codes are public *to read* on the associations' sites. They are not public *to reprint*. This folder summarizes arguments and names sections. It does not host a PDF that would save you a click and steal a publisher's page.
 
-I will keep **uncertainty** visible. Secondary literature does not agree on how many APA revisions to count, or whether the 2018 Ethics Code Task Force has finished a replacement. As of 14 September 2026 I have not seen a adopted successor to the 2002 code as amended in 2010 and 2016. ACA announced a Fall 2026 final text while a draft sat in committee. If I flatten that into "the new code says," I am already doing a webinar's job.
+I will keep **uncertainty** visible. Secondary literature does not agree on how many APA revisions to count, or whether the 2018 Ethics Code Task Force has finished a replacement. As of 14 September 2026 I have not seen an adopted successor to the 2002 code as amended in 2010 and 2016. ACA announced a Fall 2026 final text while a draft sat in committee. If I flatten that into "the new code says," I am already doing a webinar's job.
 
 I will not invent a notebook I have not held. I have not sat in Hobbs's committee reading the thousand-odd critical incidents. I have not graded the Hoffman binders. When I mention a town hall or a Delegate Assembly, I am describing a public process as the associations and the newspapers told it.
 
@@ -56,7 +56,7 @@ I will not do the "balanced" trick where the last paragraph says "see a professi
 
 Why bother, then?
 
-Because the documents are real, the votes are real, and the borrowed word *ethics* is real, and they are not the same object. A person who wants to understand why a speech clinic in Southeast Arkansas and a psychology department in Washington now share a vocabulary of confidentiality and competence is entitled to a history that does not recruit their chart. A person who loves association history is entitled to hear a 1953 book as a 1953 book, not as a hack. A person who is tired of both wellness copy and sneering debunking is entitled to a third tone: specific, a little dry, unwilling to convert a committee report into a press release.
+Because the documents are real, the votes are real, and the borrowed word *ethics* is real; they are not the same object. A person who wants to understand why a speech clinic in Southeast Arkansas and a psychology department in Washington now share a vocabulary of confidentiality and competence is entitled to a history that does not recruit their chart. A person who loves association history is entitled to hear a 1953 book as a 1953 book, not as a hack. A person who is tired of both wellness copy and sneering debunking is entitled to a third tone: specific, a little dry, unwilling to convert a committee report into a press release.
 
 There is a fourth reader I am writing against: the one who thinks a claims fence is cowardice. I do not think it is cowardice to refuse a sentence that would be reckless on a service page and still tempting in an essay. Essays have more room than service pages. That is exactly why they leak.
 

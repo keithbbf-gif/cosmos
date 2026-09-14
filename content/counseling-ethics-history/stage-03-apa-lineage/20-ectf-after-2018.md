@@ -14,7 +14,7 @@ portrait: none
 stage: "03-apa-lineage"
 stage_name: "APA lineage"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

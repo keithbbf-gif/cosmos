@@ -15,7 +15,7 @@ portrait: none
 stage: "01-how-to-read"
 stage_name: "How to read"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -60,7 +60,7 @@ ASHA's code is a neighbor. It is not this pack. The sister SLPWOW lane owns that
 
 ## What a historian does with the blur
 
-Keeps the letterheads. Dates the mergers. Refuses the sentence that begins "all helping professionals believe." They do not. They wrote different pages, under different lawsuits, for different employers.
+A historian keeps the letterheads, dates the mergers, and refuses the sentence that begins "all helping professionals believe." They do not. They wrote different pages, under different lawsuits, for different employers.
 
 A comparative essay later in this pack will talk about confidentiality, multiple relationships, competence, consent, screens, and conversion practices as **arguments that crossed the letterheads**. That is allowed. Annexing the three codes into one "counseling ethics" brand is not.
 

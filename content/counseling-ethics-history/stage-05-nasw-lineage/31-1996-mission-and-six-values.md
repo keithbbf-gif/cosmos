@@ -14,7 +14,7 @@ portrait: none
 stage: "05-nasw-lineage"
 stage_name: "NASW lineage"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

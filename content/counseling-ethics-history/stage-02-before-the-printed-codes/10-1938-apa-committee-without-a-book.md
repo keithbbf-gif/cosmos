@@ -14,7 +14,7 @@ portrait: none
 stage: "02-before-the-printed-codes"
 stage_name: "Before the printed codes"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

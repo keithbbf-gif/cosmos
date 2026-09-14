@@ -13,7 +13,7 @@ portrait: none
 stage: "06-cross-code-arguments"
 stage_name: "Cross-code arguments"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

@@ -129,8 +129,8 @@ def lint_one(path: Path) -> list[str]:
         errs.append(f"{path.name}: status must be draft")
     if meta.get("voice") != "essay":
         errs.append(f"{path.name}: voice must be essay")
-    if meta.get("voice_check") != "human":
-        errs.append(f"{path.name}: voice_check must be human")
+    if meta.get("voice_check") not in ("human", "edited"):
+        errs.append(f"{path.name}: voice_check must be human or edited")
     if meta.get("audience") != "curious-reader":
         errs.append(f"{path.name}: audience must be curious-reader")
     if meta.get("last_verified") != "2026-09-14":

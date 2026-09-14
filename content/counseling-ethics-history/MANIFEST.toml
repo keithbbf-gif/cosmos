@@ -14,7 +14,7 @@ slug = "what-this-folder-refuses"
 title = "What This Folder Refuses to Say"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/01-what-this-folder-refuses.md"
-words = "1268"
+words = "1267"
 
 [[draft]]
 id = "02"
@@ -30,7 +30,7 @@ slug = "three-professions-three-codes"
 title = "Three Professions, Three Codes, One Waiting Room"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/03-three-professions-three-codes.md"
-words = "1168"
+words = "1171"
 
 [[draft]]
 id = "04"
@@ -54,7 +54,7 @@ slug = "oaths-older-than-associations"
 title = "Oaths Older Than Associations"
 stage = "02-before-the-printed-codes"
 path = "stage-02-before-the-printed-codes/06-oaths-older-than-associations.md"
-words = "1141"
+words = "1152"
 
 [[draft]]
 id = "07"
@@ -142,7 +142,7 @@ slug = "2002-fisher-june-2003"
 title = "2002: Fisher's Task Force, Effective June 2003"
 stage = "03-apa-lineage"
 path = "stage-03-apa-lineage/17-2002-fisher-june-2003.md"
-words = "858"
+words = "859"
 
 [[draft]]
 id = "18"
@@ -150,7 +150,7 @@ slug = "pens-2005-and-2010-amendments"
 title = "PENS 2005 and the 2010 Amendments"
 stage = "03-apa-lineage"
 path = "stage-03-apa-lineage/18-pens-2005-and-2010-amendments.md"
-words = "909"
+words = "910"
 
 [[draft]]
 id = "19"
@@ -302,7 +302,7 @@ slug = "multiple-relationships-and-year-counts"
 title = "Multiple Relationships and the Year-Counts"
 stage = "06-cross-code-arguments"
 path = "stage-06-cross-code-arguments/37-multiple-relationships-and-year-counts.md"
-words = "879"
+words = "881"
 
 [[draft]]
 id = "38"
@@ -358,7 +358,7 @@ slug = "living-people-public-documents"
 title = "Living People, Public Documents"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/44-living-people-public-documents.md"
-words = "814"
+words = "818"
 
 [[draft]]
 id = "45"

@@ -13,7 +13,7 @@ portrait: none
 stage: "07-reader-tools"
 stage_name: "Reader tools"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft

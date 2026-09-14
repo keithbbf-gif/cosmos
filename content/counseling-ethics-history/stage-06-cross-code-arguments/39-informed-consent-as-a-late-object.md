@@ -13,7 +13,7 @@ portrait: none
 stage: "06-cross-code-arguments"
 stage_name: "Cross-code arguments"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -34,7 +34,7 @@ A form is a descendant. A descendant is allowed to be thinner than a trial. A hi
 
 Money: what the hour costs, who pays, what happens when the insurer says no. Records: who may read them, when the client may read them. Fisher's 2002 process notes name a cultural shift toward patient access. Recordings: the tape, then the digital file, then the cloud. Techniques: a name (EMDR, a third-wave brand) that the client has not asked for. Distance: who is in the room when the room is a screen (ACA 2014, NASW 2017).
 
-Those are 1980s–2010s objects. A 1961 guidance pamphlet could talk about welfare without talking about a superbills. Consent thickened when billing thickened.
+Those are 1980s–2010s objects. A 1961 guidance pamphlet could talk about welfare without talking about a superbill. Consent thickened when billing thickened.
 
 ## Court-ordered work as the hard case
 

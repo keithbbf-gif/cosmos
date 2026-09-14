@@ -13,7 +13,7 @@ portrait: none
 stage: "02-before-the-printed-codes"
 stage_name: "Before the printed codes"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -41,7 +41,7 @@ Two themes in the Hippocratic reception matter for later counseling rules: a pro
 
 Later medical ethics would spend the nineteenth and twentieth centuries turning those themes into hospital bylaws, then into research codes, then into licensing statutes. Counseling and psychology borrowed the *shape* — a public sentence about harm, a public sentence about silence — while working in rooms the Hippocratic writers had not imagined: a fifty-minute hour, a test file, a school counseling office, a charity caseload.
 
-The household is the third theme. Ancient and medieval care happened among kin, priests, and local specialists. A modern code's anxiety about "multiple relationships" is, in one sense, an anxiety about the household leaking back into the hour. Rural Arkansas still lives that leak. A clinician and a client may share a grocery store. The 2014 ACA text and the NASW standards on dual relationships are late attempts to write a rule for a small town. They are not translations of Cos.
+The household is the third theme. Ancient and medieval care happened among kin, priests, and local specialists. A modern code's anxiety about "multiple relationships" is, in one sense, an anxiety about the household leaking back into the hour. Rural Arkansas still lives that leak. A clinician and a client may share a grocery store. The 2014 ACA text and the NASW standards on dual relationships are late attempts to write a rule for a small town. They are not translations of the Hippocratic oath as if it were a clinic handbook from Kos.
 
 ## Clerical seals and the later lease
 

@@ -13,7 +13,7 @@ portrait: none
 stage: "06-cross-code-arguments"
 stage_name: "Cross-code arguments"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -48,7 +48,7 @@ The Counseling Compact and speech compact legislation of the 2020s are attempts 
 
 ## The court room
 
-Malpractice, duty to protect, privilege, fraud, custody. *Tarasoff* and *Jaffee* already had their essay. A lawyer may wave a code. A judge may shrug. APA's prefatory "not a basis for civil liability" sentence is a wish the waving still happens.
+Malpractice, duty to protect, privilege, fraud, custody. *Tarasoff* and *Jaffee* already had their essay. A lawyer may cite a code. A judge may shrug. APA's prefatory "not a basis for civil liability" sentence is a wish the citing still happens.
 
 This site is not your lawyer.
 

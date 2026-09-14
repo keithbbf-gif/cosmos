@@ -15,7 +15,7 @@ portrait: none
 stage: "04-aca-lineage"
 stage_name: "ACA lineage"
 voice: essay
-voice_check: human
+voice_check: edited
 claims_posture: educational-ethics-history
 audience: curious-reader
 status: draft
@@ -50,7 +50,7 @@ NASW would spend 2017 on a cousin technology revision. APA's 2002 book had alrea
 
 Public comparison charts say ACA's 2014 text asks counselors to wait five years after termination before a sexual or romantic involvement with a former client, and that APA's text uses two. I am reporting the circulating comparison, which is consistent across teaching slides I have seen. `[VERIFY]` the current living texts before a live caption, because amendments happen.
 
-Year-counts are a crude instrument. They are also one of the few places a general reader can *see* that two professions wrote different rules about the same temptation. Draft 37 will come back to the crudeness. Here the count is a 2014 fact.
+Post-termination year-counts are blunt, but they are one of the few places a general reader can *see* that two professions wrote different rules about the same temptation. Draft 37 will come back to the crudeness. Here the count is a 2014 fact.
 
 ## Glossary, length, the 7–10-year story
 
