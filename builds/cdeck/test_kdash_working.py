@@ -82,12 +82,42 @@ def main() -> int:
     )
 
     check(
+        "SESSIONS: paintCoworkRecents OPENED title + transcript head + dismiss",
+        "paintCoworkRecents" in appjs
+        and "recents-opened-title" in appjs
+        and "recents-opened-head" in appjs
+        and "clearOpenResult" in appjs
+        and "OPENED_HEAD_CHARS" in appjs
+        and "lastOpenResult" in appjs,
+        "opened card from #188",
+    )
+
+    check(
         "SESSIONS: ROLLED timeline when Core serves /api/v1/rolled",
         'apiGet("/api/v1/rolled")' in skit
         and "rolled-event/1" in skit
         and "ROLLED.md not present" in skit
         and "paintRolledTimeline" in skit,
         "rolled timeline",
+    )
+
+    css = _read("app.css")
+    check(
+        "SESSIONS: timeline CSS + OPENED card styles in one pane",
+        ".tl-row" in css
+        and ".tl-kind.ok" in css
+        and ".recents-opened-card" in css
+        and ".chip" in css
+        and "panel-rolled-timeline" in css,
+        "coherent sessions styles",
+    )
+
+    check(
+        "SESSIONS: deck_tabs injects deck_more hosts for recents",
+        "deck_more.html" in tabs
+        and "ensureSessionsHosts" in tabs
+        and 'recents: "recents"' in tabs,
+        "pane host inject",
     )
 
     failed = [r for r in RESULTS if not r[1]]

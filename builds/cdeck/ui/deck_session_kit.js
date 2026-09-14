@@ -172,10 +172,14 @@
     var suiteHost = $("panel-open-sessions-suite") || $("panel-recents-sessions");
     var rolledHost = $("panel-rolled-timeline");
     var say = $("panel-session-say");
+    if (!kitHost && !suiteHost && !rolledHost) return false;
     paintKit(kitHost);
     paintSuite(suiteHost, say);
     paintRolledTimeline(rolledHost);
+    return true;
   }
+
+  window.__cdeck_bootSessionKit = boot;
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", boot);

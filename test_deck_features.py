@@ -38,7 +38,9 @@ def main() -> int:
         "RECENTS: OPENED card paints kind OPENED transcript",
         "recents-opened-card" in app
         and 'rec.kind !== "OPENED"' in app
-        and "open=1" in app,
+        and "open=1" in app
+        and "paintCoworkRecents" in app
+        and "recents-opened-head" in app,
     )
     check(
         "RECENTS: empty list is explicit (not silent blank)",
