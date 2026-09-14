@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="title desc">
+  <title id="title">Drew County between Bayou Bartholomew and the Saline River</title>
+  <desc id="desc">Schematic, not a survey. Monticello on the ridge, Wilmar west toward Warren and the Saline.</desc>
+  <rect width="800" height="480" fill="#f4efe6"/>
+  <text x="400" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="18">Drew County — schematic (not a survey)</text>
+  <path d="M720,80 C700,160 710,260 690,400" fill="none" stroke="#3d5a80" stroke-width="8"/>
+  <text x="730" y="240" font-family="Georgia, serif" font-size="12" transform="rotate(90 730,240)">Bayou Bartholomew</text>
+  <path d="M80,60 C120,140 90,240 140,420" fill="none" stroke="#1d3557" stroke-width="8"/>
+  <text x="40" y="250" font-family="Georgia, serif" font-size="12" transform="rotate(-90 40,250)">Saline River</text>
+  <rect x="280" y="70" width="280" height="340" fill="#e9d8a6" stroke="#9b8b5c"/>
+  <text x="420" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="14">Monticello Ridge</text>
+  <circle cx="420" cy="200" r="8" fill="#6d2e46"/>
+  <text x="435" y="205" font-family="Georgia, serif" font-size="13">Monticello</text>
+  <circle cx="300" cy="210" r="8" fill="#6d2e46"/>
+  <text x="200" y="205" font-family="Georgia, serif" font-size="13">Wilmar</text>
+  <circle cx="160" cy="230" r="6" fill="#6d2e46"/>
+  <text x="175" y="250" font-family="Georgia, serif" font-size="12">Warren</text>
+  <text x="400" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="11">Pack graphic AS-MAP-01 · Wilmar and the Saline River</text>
+</svg>

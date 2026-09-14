@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Four forks of the Saline River to the Ouachita</title>
+  <desc id="desc">Schematic of North, Middle, Alum, and South forks meeting near Riverside, then the Saline to Felsenthal.</desc>
+  <rect width="800" height="520" fill="#f4efe6"/>
+  <text x="400" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="18">Saline River — four forks (schematic)</text>
+  <path d="M120,80 L260,180" stroke="#1d3557" stroke-width="3" fill="none"/>
+  <path d="M200,60 L260,180" stroke="#1d3557" stroke-width="3" fill="none"/>
+  <path d="M80,140 L260,180" stroke="#1d3557" stroke-width="4" fill="none"/>
+  <path d="M140,200 L260,180" stroke="#1d3557" stroke-width="3" fill="none"/>
+  <text x="70" y="75" font-family="Georgia, serif" font-size="12">North Fork</text>
+  <text x="190" y="52" font-family="Georgia, serif" font-size="12">Middle Fork</text>
+  <text x="20" y="155" font-family="Georgia, serif" font-size="12">Alum Fork</text>
+  <text x="90" y="220" font-family="Georgia, serif" font-size="12">South Fork</text>
+  <circle cx="260" cy="180" r="6" fill="#6d2e46"/>
+  <text x="275" y="175" font-family="Georgia, serif" font-size="12">Riverside</text>
+  <path d="M260,180 C320,220 300,280 360,320 C420,360 400,400 480,430 C560,460 620,470 720,490" stroke="#1d3557" stroke-width="6" fill="none"/>
+  <text x="500" y="400" font-family="Georgia, serif" font-size="12">Warren</text>
+  <text x="560" y="455" font-family="Georgia, serif" font-size="12">Longview</text>
+  <text x="680" y="510" font-family="Georgia, serif" font-size="12">Ouachita / Felsenthal</text>
+  <text x="400" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="11">Pack graphic AS-MAP-02 · not a survey</text>
+</svg>
