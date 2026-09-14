@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "Cradles, trundles, youth beds: inventories priced them, and CPSC later treated the crib as the most regulated bed in the house."
 figures: 7
+
+figure_id: plates.met-cradle-197317
+diagram_id: diagrams.44-childrens-beds-and-cradles.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Cradles, trundles, youth beds: inventories priced them, and CPSC later treated the crib as the most regulated bed in the house."
 ---
 
 # Children's Beds and Cradles
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Cradle_MET_197317.jpg" alt="American wooden cradle in the Met collection" width="1200" height="1035" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Children's sleep starts in a cradle — scaled furniture before the twin bed. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Cradle_MET_197317.jpg">source</a>. American cradle; children's beds chapter.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/44-childrens-beds-and-cradles/lead-timeline.svg" alt="Original timeline diagram for chapter 44 (1650–2011) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Inventories name cradles the way they name feather beds: as value, not as sentiment. A cradle is a box that rocks, a body that cannot leave it unassisted, a textile lining, sometimes a hood. When the child can climb, the object is a different problem — a trundle in the parents’ chamber, then a small bedstead, then, much later, a crib whose slats the state will measure. The cute photograph is the enemy of honest inventory. The objects are furniture. Some of them kill.
 

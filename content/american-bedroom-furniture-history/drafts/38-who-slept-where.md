@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "The photographed bedroom is a class fact. Servants, children, enslaved quarters, hospitals, and barracks slept on other furniture, when they had furniture."
 figures: 7
+
+figure_id: plates.met-shaker-bedstead-dp263973
+diagram_id: diagrams.38-who-slept-where.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The photographed bedroom is a class fact. Servants, children, enslaved quarters, hospitals, and barracks slept on other furniture, when they had furniture."
 ---
 
 # Who Slept Where
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Bedstead_MET_DP263973.jpg" alt="Shaker bedstead with plain rails in the Met collection" width="1200" height="836" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Who slept where is readable on the bedstead — posts, rails, and width tell the household story. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_DP263973.jpg">source</a>. Shaker bedstead; Met American Wing.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/38-who-slept-where/lead-timeline.svg" alt="Original timeline diagram for chapter 38 (1650–1950) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A 1653 Essex County inventory that names a feather bed before the frame (chapter 1) is already choosing whose sleep counts. The best tick in the best chamber is a line in a probate that a court could understand as wealth. A servant’s straw, a child’s trundle, a pallet in a kitchen loft, a bunk in a barracks, a hospital iron cot — these enter the furniture record late, cheap, or not at all. Privacy, in the American house, is not a human constant. It is a room count, a labor system, and a lock.
 

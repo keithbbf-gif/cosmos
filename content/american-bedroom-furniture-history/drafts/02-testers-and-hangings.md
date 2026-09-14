@@ -10,9 +10,27 @@ regions: United States, Atlantic world
 word_target: 1800-2800
 dek: "A four-poster is a textile machine. Take the cloth away and you have been looking at the wrong half of the object."
 figures: 8
+
+figure_id: plates.met-bedstead-ada214
+diagram_id: diagrams.02-testers-and-hangings.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A four-poster is a textile machine. Take the cloth away and you have been looking at the wrong half of the object."
 ---
 
 # Testers and Hangings
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Bedstead_MET_ADA214.jpg" alt="American bedstead with tall posts for tester hangings, Met American Wing" width="1200" height="1786" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Posts are the rack; the cornices and cloth were the expensive half of bed furniture. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_ADA214.jpg">source</a>. American bedstead with posts for hangings; Met American Wing.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/02-testers-and-hangings/lead-timeline.svg" alt="Original timeline diagram for chapter 02 (1700–1820) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 49.91a–e stands ninety-six and a half inches in the American Wing: birch and white pine, fifty-six and a quarter by seventy-seven and a quarter inches in plan, 1760–1800, a New England bedstead with a Wethersfield history. Purchase, Joseph Pulitzer Bequest, 1949. The foot-posts are diminutive versions of work Eliphalet Chapin was making in East Windsor. That is not why the object is the one to stand in front of. The cornices are.
 

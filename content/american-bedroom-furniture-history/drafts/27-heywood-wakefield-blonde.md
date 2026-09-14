@@ -10,9 +10,27 @@ regions: Gardner, Massachusetts; Chicago; United States
 word_target: 1800-2800
 dek: "Wheat-finish birch from Gardner is middle-class modern with a radius. It is a suite again, and it is not teak."
 figures: 6
+
+figure_id: plates.heywood-wakefield-complex
+diagram_id: diagrams.27-heywood-wakefield-blonde.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Wheat-finish birch from Gardner is middle-class modern with a radius. It is a suite again, and it is not teak."
 ---
 
 # Heywood-Wakefield Blonde
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Heywood-Wakefield_Company_Complex_-_Gardner%2C_MA_-_DSC00884.JPG" alt="Historic Heywood-Wakefield factory buildings in Gardner, Massachusetts" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Blonde maple bedroom suites came out of New England factory towns like this one. <em>Rights:</em> CC0 1.0; Wikimedia Commons (National Register photograph); <a href="https://commons.wikimedia.org/wiki/File:Heywood-Wakefield_Company_Complex_-_Gardner,_MA_-_DSC00884.JPG">source</a>. Heywood-Wakefield factory complex, Gardner, Massachusetts.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/27-heywood-wakefield-blonde/lead-timeline.svg" alt="Original timeline diagram for chapter 27 (1935–1966) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Heywood-Wakefield’s Streamline Modern bedroom — solid birch, a wheat or champagne finish, a dresser whose corners never learned a sharp corner — sat in American houses that could not afford Herman Miller and did not want another waterfall. The look launched in the mid-1930s, while the Depression suite was still on the floor, and it lasted, with styling changes, into the 1960s. Collectors now say “Heywood” and mean this blond. The company was older than the blond. Gardner, Massachusetts, had been a chair town since the Heywood brothers began in a barn in 1826. Wakefield Rattan was the other name. The 1897 merger, and the later Heywood-Wakefield Company (the 1921 form of the name is the one the labels use), made wicker, rattan, school desks, railway seating, and, when the century turned, the kind of furniture a mill town makes when it already knows steam and a finishing room.
 

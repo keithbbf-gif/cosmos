@@ -10,9 +10,27 @@ regions: Charleston, Lowcountry, Chesapeake
 word_target: 1800-2800
 dek: "Tall posts in Charleston and the Chesapeake are climate and mosquitoes first, display second. Enslaved shops made much of the wood. Call a post ‘rice’ only when the carving is rice."
 figures: 6
+
+figure_id: plates.met-bedstead-doggett-139067
+diagram_id: diagrams.11-southern-testers.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Tall posts in Charleston and the Chesapeake are climate and mosquitoes first, display second. Enslaved shops made much of the wood. Call a post ‘rice’ only when the carving is rice."
 ---
 
 # Southern Testers
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Bedstead_MET_139067.jpg" alt="American tall-post bedstead suitable for tester hangings, Met 139067" width="1200" height="1477" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Four tall posts and a frame for cloth — the tester is textile engineering on a documented American bedstead. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_139067.jpg">source</a>. American bedstead with tall posts; Met 139067.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/11-southern-testers/lead-timeline.svg" alt="Original timeline diagram for chapter 11 (1750–1850) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A Charleston tall-post bed of about 1800, mahogany, the footposts turned, reeded, and carved with a swelling that collectors will call rice whether the carver intended grain or not, is the object this chapter has to slow down. Middleton Place still shows one of the type: square, relatively plain headposts, show carving on the footposts, no full tester rail required in summer if netting can drape from a lighter frame or from the posts themselves. E. Milby Burton, in *Charleston Furniture, 1700–1825*, noted that so much mahogany arrived from the Caribbean and South America in bed-post sizes that cabinetmakers used “bed post” as a timber measure. The expensive wood came in as posts. The climate asked for height. The mosquitoes asked for netting. The nickname asked for a sheaf of rice.
 

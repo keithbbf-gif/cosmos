@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "A twenty-first-century hardwood bed is still a set of shoulders. Live edge is a caution. CNC does not excuse a gap you can feel with a fingernail."
 figures: 6
+
+figure_id: plates.met-high-chest-18-110-6
+diagram_id: diagrams.35-solid-wood-revival-now.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A twenty-first-century hardwood bed is still a set of shoulders. Live edge is a caution. CNC does not excuse a gap you can feel with a fingernail."
 ---
 
 # Solid Wood Revival Now
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/High_chest_of_drawers_MET_ADA3121.jpg" alt="Philadelphia high chest of drawers in mahogany, Met 18.110.6 line" width="1200" height="1787" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Solid-wood revival shops still measure themselves against Philadelphia high chests. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_ADA3121.jpg">source</a>. Philadelphia high chest of drawers; Met 18.110.6 line.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/35-solid-wood-revival-now/lead-timeline.svg" alt="Original timeline diagram for chapter 35 (1990–2026) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A white oak bed in a small American shop in this century looks, if the shop is paying attention, like a problem of rails and posts. Through-tenons or hooked iron, a headboard that is a panel or a set of slats, a footboard that will take a knee when someone sits to put on socks. The species is often *Quercus alba* or a related commercial white oak, sometimes walnut, sometimes cherry. The mattress is probably foam on slats. The joinery is the part the foam does not buy.
 

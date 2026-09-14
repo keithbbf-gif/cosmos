@@ -10,9 +10,27 @@ regions: England (text); United States (factories)
 word_target: 1800-2800
 dek: "Charles Eastlake told readers to stop collecting dust on shaped chests and sham carving. American factories sold them ‘Eastlake’ suites with incised lines, ebonizing, and brass — and he refused the credit."
 figures: 6
+
+figure_id: plates.met-gothic-bed-drawing-dp104159
+diagram_id: diagrams.14-eastlake-reform-bedroom.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Charles Eastlake told readers to stop collecting dust on shaped chests and sham carving. American factories sold them ‘Eastlake’ suites with incised lines, ebonizing, and brass — and he refused the credit."
 ---
 
 # The Eastlake Reform Bedroom
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Gothick_-Gothic-_Bed%2C_in_Chippendale_Drawings%2C_Vol._I_MET_DP104159.jpg" alt="Gothick bed design from Chippendale Drawings in the Met collection" width="1200" height="897" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Reform bedrooms read Gothic in the plate book before Eastlake publishes the spindle. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Gothick_-Gothic-_Bed,_in_Chippendale_Drawings,_Vol._I_MET_DP104159.jpg">source</a>. Gothick bed design after Chippendale; reform-bedroom plate.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/14-eastlake-reform-bedroom/lead-timeline.svg" alt="Original timeline diagram for chapter 14 (1868–1890) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Charles Locke Eastlake’s *Hints on Household Taste in Furniture, Upholstery, and Other Details* appeared in London in 1868. American editions followed from 1872 and went through six printings in eleven years. Eastlake was an architect and a taste writer, not a cabinetmaker. He did not have a factory in Grand Rapids. He had opinions about bedrooms, dust, honest construction, and the fashionable upholsterer’s habit of rounding every corner that construction wanted square.
 

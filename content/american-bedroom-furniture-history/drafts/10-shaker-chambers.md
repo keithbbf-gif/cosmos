@@ -10,9 +10,27 @@ regions: Hancock, Massachusetts; Mount Lebanon (New Lebanon), New York
 word_target: 1800-2800
 dek: "A Shaker retiring room is beds on wheels, peg rails, and built-ins. It is not a Colonial Revival stage set called Shaker style."
 figures: 6
+
+figure_id: plates.met-shaker-bedstead-dp263973
+diagram_id: diagrams.10-shaker-chambers.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A Shaker retiring room is beds on wheels, peg rails, and built-ins. It is not a Colonial Revival stage set called Shaker style."
 ---
 
 # Shaker Chambers
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Bedstead_MET_DP263973.jpg" alt="Shaker bedstead with plain turned posts and rail, Met American Wing" width="1200" height="836" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Shaker sleep furniture — a bedstead built for a chamber without ornament. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_DP263973.jpg">source</a>. Shaker bedstead; Met American Wing.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/10-shaker-chambers/lead-timeline.svg" alt="Original timeline diagram for chapter 10 (1820–1870) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 1981.226 is a bedstead from New Lebanon, New York, 1830–60, maple and pine, seventy-one by thirty by thirty-one inches. Purchase, anonymous gift, 1981. Wooden wheels that do not pivot. You pull the bed straight out from the wall to change the tick and sweep. The 1845 Millennial Laws said bedsteads should be painted green. This one still has enough early paint that the Met’s retiring-room text treats the survival as the point. Toward the twentieth century, old Shaker finishes were often stripped and varnished. A green bed that is still green is evidence, not a decorator’s choice.
 

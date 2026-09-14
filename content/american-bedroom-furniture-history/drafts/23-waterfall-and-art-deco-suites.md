@@ -10,9 +10,27 @@ regions: Grand Rapids, Midwest factories, United States
 word_target: 1800-2800
 dek: "A waterfall suite is plywood bent to a curve and sold as a complete bedroom. It is not Ruhlmann, and it did not need to be."
 figures: 7
+
+figure_id: plates.met-empire-bed-alcove-dp830909
+diagram_id: diagrams.23-waterfall-and-art-deco-suites.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A waterfall suite is plywood bent to a curve and sold as a complete bedroom. It is not Ruhlmann, and it did not need to be."
 ---
 
 # Waterfall and Art Deco Suites
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Design_for_a_Bed_Alcove_in_Empire_Style_MET_DP830909.jpg" alt="Empire-style bed alcove design from the Met Drawings and Prints collection" width="1200" height="944" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Waterfall veneers and stepped profiles sell suites — the plate book draws the alcove before the factory names it Art Deco. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Design_for_a_Bed_Alcove_in_Empire_Style_MET_DP830909.jpg">source</a>. Empire-style bed alcove design; Met Drawings and Prints.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/23-waterfall-and-art-deco-suites/lead-timeline.svg" alt="Original timeline diagram for chapter 23 (1930–1945) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A Sears, Roebuck bedroom “outfit” of the 1930s is a photograph of a bed, a vanity with a stool, a dresser, a chest, sometimes a nightstand, all with the same rounded front. The top of the dresser does not end in a sharp arris. It pours. Veneer — walnut, a figured stripe, a blond — runs over the curve so the grain looks like water going over a lip. Buyers called it waterfall. The factories called it modern. It was the American bedroom’s Art Deco: not the 1925 Paris of Jacques-Émile Ruhlmann’s macassar and ivory, not Süe et Mare, not an ébéniste’s file. It was lumber-core plywood, a mold, a glue pot, and a price that a newlywed could carry on time.
 

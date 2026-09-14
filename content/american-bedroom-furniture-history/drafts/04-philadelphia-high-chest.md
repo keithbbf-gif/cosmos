@@ -10,9 +10,27 @@ regions: Philadelphia
 word_target: 1800-2800
 dek: "Met 18.110.4 is ninety-one inches of mahogany and a London pattern book read in a Quaker city that did not stay plain."
 figures: 8
+
+figure_id: plates.met-high-chest-dt261065
+diagram_id: diagrams.04-philadelphia-high-chest.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Met 18.110.4 is ninety-one inches of mahogany and a London pattern book read in a Quaker city that did not stay plain."
 ---
 
 # The Philadelphia High Chest
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/High_chest_of_drawers_MET_DT261065.jpg" alt="Philadelphia rococo high chest of drawers with cabriole legs, Met 18.110.4 line" width="1200" height="1808" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Philadelphia spends its carving budget on the legged high chest — the chamber’s vertical monument. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DT261065.jpg">source</a>. Philadelphia rococo high chest; Met 18.110.4 line.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/04-philadelphia-high-chest/lead-timeline.svg" alt="Original timeline diagram for chapter 04 (1755–1790) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 18.110.4 stands ninety-one and three-quarter inches in Gallery 752: mahogany and mahogany veneer over yellow pine, tulip poplar, and northern white cedar, brass, forty-four and five-eighths by twenty-four and five-eighths inches in plan, Philadelphia, 1762–65. John Stewart Kennedy Fund, 1918. The scrolled pediment carries a figural finial that the American Wing ties to plates in Chippendale’s *Director*. The serpent-and-swan carving on the bottom drawer goes to Thomas Johnson’s *A New Book of Ornaments* (1762). The current label does not give the case to a named shop. That refusal is the first honest sentence.
 

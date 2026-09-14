@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "Screens, a mattress, maybe one good case piece. The chamber is back, accidentally. A hardwood shop is a practice, not a picture."
 figures: 6
+
+figure_id: plates.met-high-chest-18-110-6
+diagram_id: diagrams.42-what-a-bedroom-is-now.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Screens, a mattress, maybe one good case piece. The chamber is back, accidentally. A hardwood shop is a practice, not a picture."
 ---
 
 # What a Bedroom Is Now
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/High_chest_of_drawers_MET_ADA3121.jpg" alt="Eighteenth-century American high chest in mahogany veneer" width="1200" height="1787" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The chamber still holds case goods — what changed is the closet, not the need for a tall chest. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_ADA3121.jpg">source</a>. Philadelphia high chest of drawers; Met 18.110.6 line.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/42-what-a-bedroom-is-now/lead-timeline.svg" alt="Original timeline diagram for chapter 42 (2000–2026) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A rented room in 2026: a foam mattress that came in a carton, a metal or particleboard platform, a headboard that is a panel or a pile of pillows, a phone charging on the floor because the nightstand is a crate, a laptop on the bed, a MALM or a closet for clothes. The high chest, if the family still owns one, is in a parent’s hall. This is not a decline from a golden suite. It is the colonial chamber’s logic without the hangings: a place to sleep, store, and work, the expensive object a cushion, the wood optional.
 

@@ -10,9 +10,27 @@ regions: Boston, Salem, New England
 word_target: 1800-2800
 dek: "The American highboy starts as a Boston case: drawers stacked until the chamber has a vertical address."
 figures: 8
+
+figure_id: plates.met-high-chest-dp105069
+diagram_id: diagrams.03-boston-and-the-early-high-chest.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The American highboy starts as a Boston case: drawers stacked until the chamber has a vertical address."
 ---
 
 # Boston and the Early High Chest
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/High_chest_of_drawers_MET_DP105069.jpg" alt="Boston japanned high chest of drawers on turned legs, Met collection" width="1200" height="1679" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Boston stacks drawers on turned legs and stretchers — the facade before Philadelphia carving. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP105069.jpg">source</a>. Boston japanned high chest; Met 40.37.3 orbit.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/03-boston-and-the-early-high-chest/lead-timeline.svg" alt="Original timeline diagram for chapter 03 (1700–1750) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 40.37.3 stands sixty-two and a half inches in Gallery 713: japanned soft maple, poplar, and white pine, thirty-nine and a half by twenty-one and a quarter inches in plan, Boston, 1710–30. Purchase, Joseph Pulitzer Bequest, 1940. It descended in the Pickman family of Boston and Salem. The ground is a solid black. Raised, gilded figures — people, animals, oversize flowers, tiny pavilions — sit on it in a relaxed undulating pattern that never left a New England shop. The legs are turned. Stretchers keep the stance from racking. Collectors say *highboy*. The shop said high chest of drawers, or billed the case and let the japanner finish the sentence.
 

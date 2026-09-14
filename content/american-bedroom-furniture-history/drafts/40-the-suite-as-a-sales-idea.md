@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "A highboy pair is not a suite. MALM is a suite. The Craftsman Farms daughters’ room was a suite without a catalog number. Matching finish is merchandising."
 figures: 6
+
+figure_id: plates.met-chest-on-chest-64-249-3
+diagram_id: diagrams.40-the-suite-as-a-sales-idea.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A highboy pair is not a suite. MALM is a suite. The Craftsman Farms daughters’ room was a suite without a catalog number. Matching finish is merchandising."
 ---
 
 # The Suite as a Sales Idea
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Chest-on-chest_MET_ADA6376.jpg" alt="Two-case chest-on-chest for stacked bedroom storage, Met 64.249.3" width="1200" height="1862" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Before the five-piece suite, stacked cases sold the wall — the catalog later names the set. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chest-on-chest_MET_ADA6376.jpg">source</a>. New York chest-on-chest; Met 64.249.3 Van Rensselaer provenance.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/40-the-suite-as-a-sales-idea/lead-timeline.svg" alt="Original timeline diagram for chapter 40 (1750–2002) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Berkey & Gay’s chamber suites for the 1876 Centennial, and the Grand Rapids plates that followed, are a sales idea with carved posts. A numbered set, a finish, a photograph of a room that does not yet exist in the customer’s house. The word *suite* in American furniture English does not mean “things that ended up in the same chamber.” It means a manufacturer has decided these SKUs belong together and has printed them on one page. That is the argument. The rest of this series has been walking toward it.
 

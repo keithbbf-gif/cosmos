@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "Keep the finish you can prove. Later paint, replaced brasses, and reproduction hangings are arguments. Winterthur and the Met taught a quieter ethic than a stripping wheel."
 figures: 7
+
+figure_id: plates.met-high-chest-18-110-4
+diagram_id: diagrams.41-restoration-antique-bedroom.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Keep the finish you can prove. Later paint, replaced brasses, and reproduction hangings are arguments. Winterthur and the Met taught a quieter ethic than a stripping wheel."
 ---
 
 # Restoration and the Antique Bedroom
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/High_chest_of_drawers_MET_h1_18.110.4_av3.jpg" alt="Philadelphia rococo high chest with replaced brass shadow possible, Met 18.110.4" width="1200" height="1831" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Restoration reads waist moldings and brass shadows — the high chest is the classroom. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_h1_18.110.4_av3.jpg">source</a>. Philadelphia high chest of drawers; Met 18.110.4.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/41-restoration-antique-bedroom/lead-timeline.svg" alt="Original timeline diagram for chapter 41 (1760–present) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A Philadelphia high chest with a row of Chippendale plates that do not quite sit in the old scars is already a restored room, even if the bed is original and the hangings are new. The brass is the first lie most owners buy, because hardware catalogs still sell the pattern and because a shiny plate photographs as care. Conservators at Winterthur and the Met taught a different care: keep the surface that is evidence, add as little as will make the object stable and readable, say what you did. The antique bedroom, as a project, is where those ethics collide with a household that wants to sleep.
 

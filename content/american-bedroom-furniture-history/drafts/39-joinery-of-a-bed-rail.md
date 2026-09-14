@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "Hooks, bolts, through-tenons, iron angles: the bed comes apart because the stair does not. A joint that only works once is not a bed joint."
 figures: 6
+
+figure_id: plates.nga-townsend-high-chest
+diagram_id: diagrams.39-joinery-of-a-bed-rail.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Hooks, bolts, through-tenons, iron angles: the bed comes apart because the stair does not. A joint that only works once is not a bed joint."
 ---
 
 # Joinery of a Bed Rail
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/High_Chest%2C_attributed_to_John_Townsend%2C_Newport%2C_1765-1770%2C_mahogany%2C_brass_-_National_Gallery_of_Art%2C_Washington_-_DSC08769.JPG" alt="Newport high chest attributed to John Townsend with precise dovetail case work" width="1200" height="1880" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Bed rails and case sides share the same joiner’s habits — Townsend shop precision on a high chest. <em>Rights:</em> CC0 1.0; National Gallery of Art, Washington; <a href="https://commons.wikimedia.org/wiki/File:High_Chest,_attributed_to_John_Townsend,_Newport,_1765-1770,_mahogany,_brass_-_National_Gallery_of_Art,_Washington_-_DSC08769.JPG">source</a>. High chest attributed to John Townsend, Newport, 1765–70.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/39-joinery-of-a-bed-rail/lead-timeline.svg" alt="Original timeline diagram for chapter 39 (1700–present) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 The rail is the member people forget until it rattles. Posts get photographed. Headboards get fabric. The rail carries the slats or the hooks for the rope, keeps the posts from walking, takes a hip when someone sits to tie a shoe, and has to come apart because the house has a turn in the stairs. I have fitted a hook plate on a white oak post and felt the plate sit proud of the mortise, a line of light that would become a click at 2 a.m. Chalk, a paring cut, dry-fit again. That is not a diary. It is the joint.
 

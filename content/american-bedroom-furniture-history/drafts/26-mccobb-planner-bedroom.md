@@ -10,9 +10,27 @@ regions: Winchendon, Massachusetts; New York; United States
 word_target: 1800-2800
 dek: "Planner Group beds are maple, a simple headboard, and a ring pull. Winchendon cut them. Mesberg sold them. They were not a Danish import and not a factory waterfall suite."
 figures: 7
+
+figure_id: plates.met-blanket-chest-shaker-190605
+diagram_id: diagrams.26-mccobb-planner-bedroom.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Planner Group beds are maple, a simple headboard, and a ring pull. Winchendon cut them. Mesberg sold them. They were not a Danish import and not a factory waterfall suite."
 ---
 
 # McCobb Planner Bedroom
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanket_Chest_MET_190605.jpg" alt="Shaker blanket chest for chamber storage, Met 190605" width="1200" height="972" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Planner Group sold cases and beds — plain stacked storage is the honest chamber fill until a labeled Planner plate clears. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Blanket_Chest_MET_190605.jpg">source</a>. Shaker blanket chest; chamber storage in a plain room.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/26-mccobb-planner-bedroom/lead-timeline.svg" alt="Original timeline diagram for chapter 26 (1949–1964) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Winchendon Furniture Company, Winchendon, Massachusetts, had been making colonial-style maple since the 1920s when Paul McCobb and B. G. Mesberg redesigned the line for a market they thought was coming. Planner Group went to retailers in 1949 and to consumers in 1950. It ran to about 1964. Solid selected maple, the catalogs say, with birch in the same New England habit; finishes named natural, tobacco, walnut, and black; colored door panels; hardware that includes the aluminum ring pull you can find in the dark. Beds are the quiet pieces: a headboard, a footboard or none, tapered wood legs or iron, a mattress on rails that knock down. Open stock. Any room. The chest that sat in a bedroom on Monday could be a sideboard on Tuesday in the copy. That is the design. It is also the sales method.
 

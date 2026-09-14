@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "Collectors chase a chamber form that now lives in halls. Auction English does the rest: attributed, descended, the finest of the type."
 figures: 7
+
+figure_id: plates.met-high-chest-dp360492
+diagram_id: diagrams.37-highboy-afterlives.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Collectors chase a chamber form that now lives in halls. Auction English does the rest: attributed, descended, the finest of the type."
 ---
 
 # Highboy Afterlives
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/High_chest_of_drawers_MET_DP360492.jpg" alt="Tall high chest of drawers with pediment, Met photograph" width="1200" height="1599" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The highboy as antique trophy — the legged case after shops stopped ordering it. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:High_chest_of_drawers_MET_DP360492.jpg">source</a>. High chest of drawers; Met collection photograph.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/37-highboy-afterlives/lead-timeline.svg" alt="Original timeline diagram for chapter 37 (1870–present) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 18.110.4 stands in the American Wing as a Philadelphia high chest of drawers: mahogany, the secondary woods the museum names, a carved pediment, the type Morrison Heckscher’s catalogs taught a generation to see. Exact measurements belong on the label; the fact that matters here is the room it no longer occupies. The object was built as chamber storage, a vertical address for linen, a facade facing a hung bed. It now stands in a gallery or, in houses that still own its cousins, in a front hall beside a looking glass that never saw a basin. The highboy’s afterlife is to be ancestor furniture. The clothes went to closets and to MALM.
 

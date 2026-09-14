@@ -10,9 +10,27 @@ regions: Vermont, New York, suburban United States
 word_target: 1800-2800
 dek: "Baumritter’s 1939 Colonial line taught a suburb what ‘traditional’ looked like: maple, a matched chamber, and a name borrowed from Vermont’s militia."
 figures: 7
+
+figure_id: plates.commons-ethan-allen-plant
+diagram_id: diagrams.31-ethan-allen-catalog-suite.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Baumritter’s 1939 Colonial line taught a suburb what ‘traditional’ looked like: maple, a matched chamber, and a name borrowed from Vermont’s militia."
 ---
 
 # The Ethan Allen Catalog Suite
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Ethan_Allen_furniture_plant_and_lumber_processing_manufacturing_facility_in_Old_Fort%2C_North_Carolina_07.jpg" alt="Ethan Allen furniture manufacturing and lumber processing plant in North Carolina" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Catalog suites at factory scale — Ethan Allen's plants fed the matched-bedroom page. <em>Rights:</em> CC BY 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Ethan_Allen_furniture_plant_and_lumber_processing_manufacturing_facility_in_Old_Fort,_North_Carolina_07.jpg">source</a>. Ethan Allen manufacturing plant; catalog-suite industrial scale.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/31-ethan-allen-catalog-suite/lead-timeline.svg" alt="Original timeline diagram for chapter 31 (1932–2000) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 In 1939, at the Chicago Housewares Show, two New York jobbers who had bought a bankrupt Vermont plant showed a twenty-eight-piece group of Early American furniture and called it Ethan Allen. The name belonged to the leader of the Green Mountain Boys. The furniture belonged to a sales idea: correlated pieces in maple, meant to be displayed together, added to over years, and recognized from a catalog page the way Grand Rapids had taught America to recognize a chamber suite. Selected buyers only, and only if they would put the group on the floor as a room. That franchise condition is the chapter’s object as much as any bedstead. The suite was not complete until a store agreed to photograph it with its own lighting.
 

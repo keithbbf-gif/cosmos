@@ -7,7 +7,9 @@ series: american-bedroom-furniture-history
 
 # Index
 
-Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14: full pack **01–45** (`voice_check: edited`). Stack: PR #516 fill on PR #450.
+Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14: full pack **01–45** (`voice_check: edited`). Stack: PR #516 fill on PR #450. Image + SEO pass: museum-open lead plates + original SVG timelines (`GRAPHICS_INDEX.md`).
+
+![Series overview timeline](assets/diagrams/series-overview.svg)
 
 ## Drafts
 

@@ -10,9 +10,27 @@ regions: Newport, Rhode Island
 word_target: 1800-2800
 dek: "John Townsend signed a high chest in 1759. The shells are not Philadelphia’s rococo. They are a Newport geometry you can feel with a thumb."
 figures: 8
+
+figure_id: plates.nga-townsend-high-chest
+diagram_id: diagrams.05-newport-block-and-shell.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "John Townsend signed a high chest in 1759. The shells are not Philadelphia’s rococo. They are a Newport geometry you can feel with a thumb."
 ---
 
 # Newport Block and Shell
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/High_Chest%2C_attributed_to_John_Townsend%2C_Newport%2C_1765-1770%2C_mahogany%2C_brass_-_National_Gallery_of_Art%2C_Washington_-_DSC08769.JPG" alt="Newport high chest attributed to John Townsend with block-and-shell carving" width="1200" height="1880" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Block-and-shell at case height — Newport’s answer to Philadelphia rococo. <em>Rights:</em> CC0 1.0; National Gallery of Art, Washington; <a href="https://commons.wikimedia.org/wiki/File:High_Chest,_attributed_to_John_Townsend,_Newport,_1765-1770,_mahogany,_brass_-_National_Gallery_of_Art,_Washington_-_DSC08769.JPG">source</a>. High chest attributed to John Townsend, Newport, 1765–70.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/05-newport-block-and-shell/lead-timeline.svg" alt="Original timeline diagram for chapter 05 (1745–1785) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Yale 1984.32.26 stands eighty-eight and three-quarter inches in the Furniture Study: mahogany, with chestnut, eastern white pine, and cottonwood in the hidden members, thirty-nine and three-eighths by twenty-two and an eighth inches in plan. Bequest of Doris M. Brixey, 1984. The top drawer carries graphite in an eighteenth-century hand: *Made by John Townsend / Newport / 1759*. The case left the 1929 Girl Scouts loan exhibition, sat in Richard de Wolfe Brixey’s house and then his daughter’s, and came to New Haven the year Michael Moses’s *Master Craftsmen of Newport* was nearly on press. Moses came to look. The drawer backs were labeled A to E. Under the shelf paper on the last drawer, the searchers read the signature.
 

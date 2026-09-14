@@ -10,9 +10,27 @@ regions: New York, New England, Mid-Atlantic, Midwest shops
 word_target: 1800-2800
 dek: "After 1815 the American chamber learns the French bedstead: equal head and foot, mahogany veneer, a scroll like a runner. Phyfe’s later Grecian is one shop’s version. Pillar-and-scroll is the cheaper one."
 figures: 7
+
+figure_id: plates.met-bedstead-doggett-41840
+diagram_id: diagrams.09-empire-sleigh-beds.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "After 1815 the American chamber learns the French bedstead: equal head and foot, mahogany veneer, a scroll like a runner. Phyfe’s later Grecian is one shop’s version. Pillar-and-scroll is the cheaper one."
 ---
 
 # Empire Sleigh Beds
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Bedstead_MET_41840.jpg" alt="American four-poster bedstead with tall posts, Met collection" width="1200" height="1452" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Empire-era American bedstead with posts ready for hangings — the sleigh scroll lives in the shop drawing, not always in the survivor. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_41840.jpg">source</a>. American four-poster bedstead; John Doggett & Co. orbit; Met 41840.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/09-empire-sleigh-beds/lead-timeline.svg" alt="Original timeline diagram for chapter 09 (1815–1845) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 The Codman House sleigh bed in Lincoln, Massachusetts — Historic New England 1969.3260, bequest of Dorothy S. F. M. Codman — is a French bedstead that has lost its French name. Mahogany and mahogany veneer. French brass or ormolu mounts. Original maple casters. Cherry supports screwed to the side rails to hold the sleeping frame. Rectangular headboard and footboard flanked by half-columns with gilded capitals. One long side concave, one straight. Turned feet. About 1820–35. Forty-one inches high, sixty-nine wide. It was meant to sit against a wall. The concave long side is the show face. The straight side went to the plaster.
 

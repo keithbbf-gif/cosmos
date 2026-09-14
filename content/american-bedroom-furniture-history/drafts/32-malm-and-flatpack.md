@@ -10,9 +10,27 @@ regions: Sweden, Poland, Germany, United States
 word_target: 1800-2800
 dek: "A 2002 napkin sketch, a Polish prototype, a wooden knob Kamprad liked, and a chest that had to be recalled because it would not stay up. The late suite is particleboard."
 figures: 7
+
+figure_id: plates.met-blanket-chest-shaker-190605
+diagram_id: diagrams.32-malm-and-flatpack.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A 2002 napkin sketch, a Polish prototype, a wooden knob Kamprad liked, and a chest that had to be recalled because it would not stay up. The late suite is particleboard."
 ---
 
 # MALM and the Flat Pack
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanket_Chest_MET_190605.jpg" alt="Shaker blanket chest for chamber storage, Met 190605" width="1200" height="972" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Flat-pack sells a box — chamber case goods still answer to a lid and a lock. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Blanket_Chest_MET_190605.jpg">source</a>. Shaker blanket chest; chamber storage in a plain room.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/32-malm-and-flatpack/lead-timeline.svg" alt="Original timeline diagram for chapter 32 (1999–2018) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 The IKEA Museum in Älmhult files the MALM chest of drawers as a 2002 object: function, chest of drawers; design, IKEA of Sweden; price, EUR 75. The series, the museum says, is a modern bedroom classic — beds, wardrobes, chests in three, four, five, or six drawers, beech, birch, oak. Tomas Lundin, a former product developer for bedroom storage, remembered the chest this way: the team developed it with a furniture factory in Poland. The idea was sketched on a napkin. An engineer made a simple drawing. The factory built a prototype. The team went to Poland to finish it on site. “It was a quick and efficient process.”
 

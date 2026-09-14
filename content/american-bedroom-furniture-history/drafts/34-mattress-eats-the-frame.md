@@ -10,9 +10,27 @@ regions: United States, Sweden
 word_target: 1800-2800
 dek: "Memory foam and a box on the porch turned the bed into a cushion. The headboard is a separate SKU. Joinery waits in the other room."
 figures: 6
+
+figure_id: plates.met-dressing-stand-194006
+diagram_id: diagrams.34-mattress-eats-the-frame.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Memory foam and a box on the porch turned the bed into a cushion. The headboard is a separate SKU. Joinery waits in the other room."
 ---
 
 # The Mattress Eats the Frame
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Dressing_Stand_MET_194006.jpg" alt="Dressing stand with mirror and small drawers, Met 194006" width="1200" height="1584" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> When the mattress is the product, the frame thins — the nightstand shrinks to a stand’s footprint. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dressing_Stand_MET_194006.jpg">source</a>. Dressing stand with mirror; vanity and night-table kin.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/34-mattress-eats-the-frame/lead-timeline.svg" alt="Original timeline diagram for chapter 34 (1966–2020) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 In 1991, Fagerdala World Foams in Sweden sold a viscoelastic mattress under the name TEMPUR. In 1992, Bob Trussell, a Kentucky horseman who had met a Fagerdala executive, brought the product into the United States as Tempur-Pedic. NASA had already, in the late 1960s, paid for the foam’s ancestor. Charles Yost, working under contract on energy-absorbing seating, made an open-cell polyurethane with slow spring-back — “temper foam” — for crash and vibration work. NASA later let the formula into wider commercial use. Swedish labs spent the 1980s making a version that could be slept on. Hospitals tried it. Then the American bedroom did.
 

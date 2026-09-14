@@ -10,9 +10,27 @@ regions: United States, Atlantic shipping, northern Europe
 word_target: 1800-2800
 dek: "Drawers under the mattress do the high chest’s job in the only footprint a small room has left: the sleeper’s rectangle."
 figures: 6
+
+figure_id: plates.met-wardrobe-dp240601
+diagram_id: diagrams.33-the-storage-bed.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Drawers under the mattress do the high chest’s job in the only footprint a small room has left: the sleeper’s rectangle."
 ---
 
 # The Storage Bed
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Wardrobe_MET_DP240601.jpg" alt="American wardrobe with doors for hanging clothes, Met American Wing" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Storage beds hide drawers under the platform — wardrobes hid cloth before closets. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Wardrobe_MET_DP240601.jpg">source</a>. American wardrobe; standing bedroom storage before the closet.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/33-the-storage-bed/lead-timeline.svg" alt="Original timeline diagram for chapter 33 (1800–2020) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 A captain’s bed, in the language of American furniture ads, is a platform with drawers in the box the mattress sits on. Sometimes a bookcase headboard. Sometimes a cubby at the foot. The name wants a ship: a cabin so tight that the only place for shirts is under the berth, the captain’s privilege a few extra drawers. Maritime museums hold shipboard furniture — folding desks, berths built into bulkheads, chests lashed to the deck — but the retail “captain’s bed” of a 1970s apartment is not a documented descendant of a named naval type the way a Boston high chest is a Boston high chest. It is a nickname that stuck because it sounds like thrift and authority at once. `[CITE NEEDED: a dated ship-chandler or naval-furniture catalog that uses “captain’s bed” for a drawer-berth, if one exists; until then treat the nautical origin as folklore with a plausible cabin logic.]`
 

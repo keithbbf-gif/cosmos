@@ -10,9 +10,27 @@ regions: Boston, Newport, Philadelphia
 word_target: 1800-2800
 dek: "A dressing table is not a cut-down highboy. It is the other half of a chamber conversation that still is not a suite."
 figures: 8
+
+figure_id: plates.met-dressing-table-ada3133
+diagram_id: diagrams.06-the-lowboy-partner.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A dressing table is not a cut-down highboy. It is the other half of a chamber conversation that still is not a suite."
 ---
 
 # The Lowboy Partner
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Dressing_Table_MET_ADA3133.jpg" alt="Philadelphia dressing table en suite with a high chest, Met American Wing" width="1200" height="956" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The dressing table is the high chest’s shorter voice — basin height, not suite height. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dressing_Table_MET_ADA3133.jpg">source</a>. Philadelphia dressing table en suite with high chest; Met 32.93 orbit.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/06-the-lowboy-partner/lead-timeline.svg" alt="Original timeline diagram for chapter 06 (1730–1790) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 32.93 stands thirty-one and a quarter inches in the American Wing: mahogany and mahogany veneer over tulip poplar, yellow pine, and white cedar, thirty-five and seven-eighths by twenty-one and three-eighths inches in plan, Philadelphia, 1762–90. Morris K. Jesup Fund, 1932. The object page is willing to say it was made en suite with high chest 18.110.4, and then the useful caution: same shop, different carving hands. The table’s cut is deeper and livelier than the chest’s. Collectors say *lowboy* the way they say *highboy*: a nickname that got into the house and stayed. The shops said dressing table, low chest, or billed the piece by the job.
 

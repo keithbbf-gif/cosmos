@@ -10,9 +10,27 @@ regions: New England, Mid-Atlantic, Chesapeake
 word_target: 1800-2800
 dek: "Before anyone sold a matching set, the American chamber was a bed, a chest, and a textile bill that often outran the wood."
 figures: 8
+
+figure_id: plates.met-chest-10-125-700
+diagram_id: diagrams.01-the-chamber-before-the-suite.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Before anyone sold a matching set, the American chamber was a bed, a chest, and a textile bill that often outran the wood."
 ---
 
 # The Chamber Before the Suite
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Chest_MET_10658.jpg" alt="Joined oak and pine chest from the Connecticut River Valley, Met 10.125.700" width="1200" height="931" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A lid you lift — chamber storage before the drawer stack and the catalog suite. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chest_MET_10658.jpg">source</a>. Joined chest, Connecticut River Valley, 1675–1700; Met 10.125.700.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/01-the-chamber-before-the-suite/lead-timeline.svg" alt="Original timeline diagram for chapter 01 (1650–1750) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Met 10.125.700 sits twenty-six and a half inches high in the American Wing: oak, pine, and maple, forty-eight and a half by twenty and three-quarter inches in plan, Connecticut River Valley, 1675–1700. Gift of Mrs. Russell Sage, 1909. A joined chest with a lid, not a wall of drawers. No cabriole undercroft. No matching bed in the same wood. The front is the public face of a household that stored linen, clothing, and whatever a lock was worth. Collectors will later call chests like this Hadley when the carving runs to tulips and trailing vine. The shop that made this one billed a chest. The room it stood in was a chamber.
 

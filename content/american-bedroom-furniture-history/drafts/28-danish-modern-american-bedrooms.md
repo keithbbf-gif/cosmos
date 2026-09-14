@@ -10,9 +10,27 @@ regions: United States; Denmark as source
 word_target: 1800-2800
 dek: "Teak arrived in American sleeping rooms as an import, a department-store name, and a copy. Wegner sat in the living room. The bed was often something else."
 figures: 6
+
+figure_id: plates.wegner-wishbone-chair
+diagram_id: diagrams.28-danish-modern-american-bedrooms.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "Teak arrived in American sleeping rooms as an import, a department-store name, and a copy. Wegner sat in the living room. The bed was often something else."
 ---
 
 # Danish Modern in American Bedrooms
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Hans_Wegner_Wishbone_Chair.jpg" alt="Hans Wegner Wishbone chair in oak" width="800" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Danish modern in the American bedroom — light chairs beside low beds. <em>Rights:</em> CC BY-SA 2.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg">source</a>. Hans Wegner Wishbone chair — Danish modern in American bedrooms.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/28-danish-modern-american-bedrooms/lead-timeline.svg" alt="Original timeline diagram for chapter 28 (1949–1970) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 Hans Wegner’s Round Chair — “The Chair” — landed on the cover of *House Beautiful* in November 1954. Marion Gough’s line about it being stolen-from is the later reputation; the 1954 fact is a Danish dining chair on an American shelter magazine, not a bed. That is where this chapter has to stay honest. What stood in United States bedrooms under the word Danish was often a teak or walnut-finish headboard from a department store, a pair of nightstands with turned, tapered legs, and a mattress on a Hollywood frame. The Wegner stayed in the dining room if it came at all. Finn Juhl’s collaboration with Baker Furniture in Grand Rapids put a Danish name on American production for a short, famous moment. The Chieftain did not become a headboard. The bedroom took the idea of teak, oil, and a sculpted foot, and ran it through mills that already knew how to make a suite.
 

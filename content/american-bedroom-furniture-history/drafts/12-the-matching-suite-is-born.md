@@ -10,9 +10,27 @@ regions: United States, Grand Rapids, New York
 word_target: 1800-2800
 dek: "A Victorian chamber set is a sales idea: bed, dresser, washstand, same wood, same carving, a photograph the drummer can carry. It is not a colonial high chest and dressing table."
 figures: 6
+
+figure_id: plates.met-chest-on-chest-64-249-3
+diagram_id: diagrams.12-the-matching-suite-is-born.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "A Victorian chamber set is a sales idea: bed, dresser, washstand, same wood, same carving, a photograph the drummer can carry. It is not a colonial high chest and dressing table."
 ---
 
 # The Matching Suite Is Born
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Chest-on-chest_MET_ADA6376.jpg" alt="New York chest-on-chest with canted corners and cornice, Met 64.249.3" width="1200" height="1862" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stacked case storage before the five-piece catalog suite — a chest-on-chest on the bedroom wall. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chest-on-chest_MET_ADA6376.jpg">source</a>. New York chest-on-chest; Met 64.249.3 Van Rensselaer provenance.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/12-the-matching-suite-is-born/lead-timeline.svg" alt="Original timeline diagram for chapter 12 (1840–1900) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 James Bayne had been a portrait photographer in Grand Rapids when he noticed that furniture salesmen had two bad options. They could ship sample pieces by freight to the cities on their routes, slow and costly. Or they could talk. Many buyers could not see a walnut dresser in a spoken sentence. Bayne photographed the furniture instead, sold the manufacturers on sets of prints for the road, and built a business that was still printing on Front Avenue in the 1950s. He was not the first in town to point a camera at a dresser — Elias Matter of Nelson, Matter had a skylight studio on the factory’s top floor; Phoenix had Lon M. Neely on the 1878 catalog; Berkey & Gay had photographs in theirs the same year — but Bayne made furniture photography a trade. The Grand Rapids History Center’s James Bayne Company negatives are what remain: glass plates of sofas, desks, dressers, sideboards. A salesman could open a case of pictures and sell a room.
 

@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "The posts go. The bed becomes a mattress on a low box, advertised with Japan in the copy and made in American factories that were not Danish."
 figures: 6
+
+figure_id: plates.met-shaker-bedstead-dp263973
+diagram_id: diagrams.25-midcentury-platform-low-bed.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The posts go. The bed becomes a mattress on a low box, advertised with Japan in the copy and made in American factories that were not Danish."
 ---
 
 # The Midcentury Platform and the Low Bed
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Bedstead_MET_DP263973.jpg" alt="Shaker bedstead with low rails and plain posts, Met American Wing" width="1200" height="836" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Platform logic starts with a low rail and a thin mattress — Shaker plainness before Eames marketing. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Bedstead_MET_DP263973.jpg">source</a>. Shaker bedstead; Met American Wing.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/25-midcentury-platform-low-bed/lead-timeline.svg" alt="Original timeline diagram for chapter 25 (1945–1965) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 George Nelson and Henry Wright’s *Tomorrow’s House* (1945) asks the reader to look at the bedroom as a place where more than sleep happens, not as a room that exists to hold a standard suite. Nelson, from 1946 design director at Herman Miller, had the factory to try the thought. The Thin Edge bed of 1954 is a low platform with a slim headboard, a horizontal line, no posts, no footboard theater. It sits close to the floor by the standard of a 1938 waterfall. It is an American industrial object, designed in Michigan’s orbit, not a futon and not a Copenhagen export. If you want the postwar American bedroom’s argument in one piece, start here rather than with a teak headboard that arrived in a department-store container.
 

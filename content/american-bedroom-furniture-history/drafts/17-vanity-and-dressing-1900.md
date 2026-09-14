@@ -10,9 +10,27 @@ regions: United States
 word_target: 1800-2800
 dek: "The dressing table picks up a bolted mirror and becomes a vanity. Advertisers sell a woman’s chamber. Hollywood later sells the same table as a face."
 figures: 6
+
+figure_id: plates.met-dressing-stand-194006
+diagram_id: diagrams.17-vanity-and-dressing-1900.lead-timeline
+image_rights: documented
+image_pass: 2026-09-14
+meta_description: "The dressing table picks up a bolted mirror and becomes a vanity. Advertisers sell a woman’s chamber. Hollywood later sells the same table as a face."
 ---
 
 # Vanity and Dressing, 1900
+
+<!-- abfh-figure:v1 -->
+<figure class="abfh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Dressing_Stand_MET_194006.jpg" alt="American dressing stand with mirror for the chamber, Met 194006" width="1200" height="1584" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Dressing at a stand — vanity furniture before the matched suite vanity. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dressing_Stand_MET_194006.jpg">source</a>. Dressing stand with mirror; vanity and night-table kin.</figcaption>
+</figure>
+<!-- abfh-diagram:v1 -->
+<figure class="abfh-diagram">
+  <img src="../assets/diagrams/17-vanity-and-dressing-1900/lead-timeline.svg" alt="Original timeline diagram for chapter 17 (1890–1940) on the American bedroom furniture series axis; furniture silhouettes only." width="960" height="220" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 2.</strong> Chapter placement on the series timeline — original SVG diagram (not a museum photograph).</figcaption>
+</figure>
+
 
 An American dressing table of 1760 is a low chest with cabriole legs, a companion to the high chest, no glass attached. You set a looking glass on it or hung a glass on the wall. An American dresser of 1880 is a tall chest with a mirror bolted to a splash, marble on top, part of a chamber suite. Between them, and then beside them, a third object takes a new word: vanity. A table, often with drawers in the apron, a kneehole or an open knee space, and a mirror that is the point — one glass or three, the triptych that lets a woman see the back of her head. Mail-order catalogs and furniture ads around 1900–1920 sell it as the woman’s piece in the bedroom. Hollywood, a decade and more later, will photograph it as a horseshoe of light.
 
