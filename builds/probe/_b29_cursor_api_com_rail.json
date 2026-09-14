@@ -1,0 +1,84 @@
+{
+  "schema": "cosmos-b29-cursor-api-com-rail/1",
+  "measured_at": "2026-09-14T19:56:00Z",
+  "link_id": "cursor-api",
+  "family": "cursor-cloud-agents",
+  "route": "core->code",
+  "vendor": "Cursor Cloud Agents API v1 (GET /v1/me probe; POST /v1/agents spawner)",
+  "check": {
+    "wired_nodes": {
+      "present": true,
+      "row": {
+        "link_id": "cursor-api",
+        "rail_type": "API",
+        "src": "core",
+        "dst": "code",
+        "satellite": "cursor",
+        "family": "cursor-cloud-agents"
+      },
+      "live_call": "_cursor_live_call -> GET /v1/me; model=apiKeyName; model_source=apiKeyName (GET /v1/me)",
+      "probe_module": "cosmos_cursor_rail via probe_module_for / SATELLITES"
+    },
+    "registry_prove": {
+      "path": "Registry.prove -> PROBE_RESULT on authority ledger (model, rc, body_bytes)",
+      "proof_ok": "vendor-emitted apiKeyName required; empty model fails closed"
+    },
+    "kernel_compose": {
+      "row": ["cursor-api", "cosmos_cursor_rail", "attach_to_kernel", true],
+      "boot_invoke": "compose adapter only; map_wired_nodes proves when live_calls or configured hands + --live"
+    }
+  },
+  "wire": {
+    "kernel_registry": "PRESENT — Kernel.compose_rails attach_to_kernel(boot_compose=True)",
+    "dispatcher_adapter": "cursor-api in adapters after boot",
+    "status": "WIRED"
+  },
+  "map": {
+    "system_rails_pane": {
+      "client": "KDash panel-rails / cDeck System tab equivalent",
+      "api": "GET /api/v1/rails -> registry.matrix() (cursor-api row when proven)",
+      "nodemap": "GET /api/v1/nodemap overlays proven registry nodes",
+      "tools_kit": "GET /api/v1/tools_kit other.rails includes link_id rows"
+    },
+    "model_rater_via": {
+      "via_option": "cursor-api (API · Cursor)",
+      "farm_seats": [
+        {"profile": "motif", "seat": "lane_b", "label": "MOTIF BUILD — Adversarial coder 2", "via": "cursor-api", "model": "grok-4.6"},
+        "Model Rater seat assign uses via id matching Kernel link_id"
+      ]
+    },
+    "gitur_triad": {
+      "leg": "cursor-api / Cursor / Lane B BUILD; probe GET /v1/me only",
+      "api": "GET /api/v1/gitur panes.cursor.id=cursor-api"
+    },
+    "spawner_seat": {
+      "module": "cosmos_cursor_rail.launch_run / dispatch POST /v1/agents",
+      "note": "Gitur BUILD + Cloud Agent farm; not used for identity probe"
+    }
+  },
+  "confirm": {
+    "live_core_8770": "UNMEASURED — no listener on 127.0.0.1:8770 in this environment",
+    "live_cursor_key": "UNMEASURED — no live/config/cursor_cosmos_key.txt on verified runtime root",
+    "live_probe": "UNMEASURED — honest; not reported as GREEN",
+    "isolated_gate": "not run against vendor (would spend / need key)"
+  },
+  "tests": {
+    "command": "PYTHONPATH=workspace:workspace/cosmos python3 tests/*.py selftests",
+    "test_rails_prober": "10/10 PASS",
+    "test_boot_attach": "22/22 PASS",
+    "test_cursor_rail": "44/44 PASS",
+    "cosmos_test_rails_wired": "53/53 PASS",
+    "test_gitur": "6/7 PASS (1 pre-existing fold failure unrelated to cursor-api wire)"
+  },
+  "findings_ranked": [
+    {"rank": 1, "severity": "fixed", "item": "test_boot_attach FAKES omitted groq-api after WIRED_NODES grew; broke cursor-api boot projection checks"},
+    {"rank": 2, "severity": "fixed", "item": "cred_kit cursor file name drifted (cursor_api_key.txt vs rail cursor_cosmos_key.txt)"},
+    {"rank": 3, "severity": "info", "item": "Module docstring claimed Kernel did not attach cursor-api; compose row has been present in cosmos_kernel.py"},
+    {"rank": 4, "severity": "not_verified", "item": "Live PROBE_RESULT on Keith tree authority ledger (requires Core :8770 + key + --live prober)"}
+  ],
+  "not_verified": [
+    "Runtime GET /v1/me against api.cursor.com from this VM",
+    "Hash-chained PROBE_RESULT seq on live authority.jsonl",
+    "cDeck native UI paint (cdeck product repo not in this workspace)"
+  ]
+}
