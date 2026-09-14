@@ -92,6 +92,34 @@ check(
     lambda: "surfaces-check-btn" in _surfaces_js()
     and "surfaces-check" in _surfaces_js(),
 )
+check(
+    "SURFACES ITC binds payload reachable/free_gb/age_s/qualified",
+    lambda: "row.reachable" in _surfaces_js()
+    and "row.free_gb" in _surfaces_js()
+    and "row.age_s" in _surfaces_js()
+    and "row.qualified" in _surfaces_js()
+    and "cellQual" in _surfaces_js(),
+)
+check(
+    "SURFACES unmeasured is UNMEASURED never 0",
+    lambda: "reachable === null" in _surfaces_js()
+    and "qualified === null" in _surfaces_js()
+    and "UNMEASURED" in _surfaces_js()
+    and "return 0" not in _surfaces_js(),
+)
+check(
+    "SURFACES esc() on all data text",
+    lambda: "function esc" in _surfaces_js()
+    and "&quot;" in _surfaces_js()
+    and "esc(cellReach" in _surfaces_js()
+    and "esc(cellNum" in _surfaces_js()
+    and "esc(cellQual" in _surfaces_js(),
+)
+check(
+    "SURFACES check is GET-only (no invented measure POST)",
+    lambda: 'apiGet("/api/v1/surfaces")' in _surfaces_js()
+    and "apiPost" not in _surfaces_js().split("function refreshSurfaces")[1],
+)
 
 
 def main() -> int:

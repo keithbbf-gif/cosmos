@@ -23,3 +23,29 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
+
+.surfaces-pane { padding: 10px 12px; color: var(--ink); }
+.surfaces-toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+.surfaces-check {
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--panel-edge);
+  padding: 4px 10px;
+  cursor: pointer;
+  font: inherit;
+}
+.surfaces-err { color: var(--red); }
+.surfaces-canon, .surfaces-off-canon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 14px;
+}
+.surfaces-canon th, .surfaces-canon td,
+.surfaces-off-canon-table th, .surfaces-off-canon-table td {
+  border-bottom: 1px solid var(--panel-edge);
+  text-align: left;
+  padding: 4px 8px;
+}
+.surfaces-canon th, .surfaces-off-canon-table th { color: var(--ink-dim); }
+.surfaces-off-canon h3 { color: var(--ink-dim); font-size: 12px; margin: 8px 0; }
+.surfaces-off-canon-empty { color: var(--ink-dim); }

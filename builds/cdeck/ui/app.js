@@ -64,7 +64,9 @@
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
   }
 
   function canonId(row) {
@@ -94,6 +96,13 @@
     return String(v);
   }
 
+  function cellQual(row) {
+    if (!row || row.qualified === null || row.qualified === undefined) {
+      return "UNMEASURED";
+    }
+    return row.qualified ? "yes" : "no";
+  }
+
   /**
    * Paint canon rows (never omitted) and off-canon payload rows in a separate block.
    * @param {HTMLElement} host
@@ -116,7 +125,7 @@
     html += "</div>";
 
     html += '<table class="surfaces-canon" aria-label="Canon surfaces">';
-    html += "<thead><tr><th>surface</th><th>reachable</th><th>free_gb</th><th>age_s</th></tr></thead><tbody>";
+    html += "<thead><tr><th>surface</th><th>reachable</th><th>free_gb</th><th>age_s</th><th>qualified</th></tr></thead><tbody>";
     CANON_SURFACES.forEach(function (name) {
       var row = byId[name] || null;
       html += "<tr data-canon-surface=\"" + esc(name) + "\">";
@@ -124,6 +133,7 @@
       html += "<td>" + esc(cellReach(row)) + "</td>";
       html += "<td>" + esc(cellNum(row && row.free_gb)) + "</td>";
       html += "<td>" + esc(cellNum(row && row.age_s)) + "</td>";
+      html += "<td>" + esc(cellQual(row)) + "</td>";
       html += "</tr>";
     });
     html += "</tbody></table>";
@@ -134,7 +144,7 @@
       html += '<p class="surfaces-off-canon-empty">none</p>';
     } else {
       html += '<table class="surfaces-off-canon-table"><thead><tr>';
-      html += "<th>id</th><th>kind</th><th>reachable</th><th>free_gb</th><th>age_s</th>";
+      html += "<th>id</th><th>kind</th><th>reachable</th><th>free_gb</th><th>age_s</th><th>qualified</th>";
       html += "</tr></thead><tbody>";
       offCanon.forEach(function (r) {
         html += "<tr>";
@@ -143,6 +153,7 @@
         html += "<td>" + esc(cellReach(r)) + "</td>";
         html += "<td>" + esc(cellNum(r.free_gb)) + "</td>";
         html += "<td>" + esc(cellNum(r.age_s)) + "</td>";
+        html += "<td>" + esc(cellQual(r)) + "</td>";
         html += "</tr>";
       });
       html += "</tbody></table>";
