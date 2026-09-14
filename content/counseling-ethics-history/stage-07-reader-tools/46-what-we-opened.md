@@ -54,12 +54,12 @@ I did not use Wikipedia as a source. I may have used it, in the research pass, a
 
 ## What a later editor should reopen first
 
-1. APA living URL: is the 2002/2010/2017 text still the house?
-2. ACA living URL: did Fall 2026 print, and what are the adoption and effective dates?
+1. APA living URL: is the 2002/2010/2017 text still the house, or did Council adopt a successor after the March 2025 comment docket?
+2. ACA living URL / Nexus: did Fall 2026 print, and what are the adoption and effective dates? (September 2026 circulated in secondary blogs; Nexus said Fall.)
 3. Arkansas board citations: which code, if any, is adopted by reference?
 4. 1953 page count, 1961 page count, 1996 standard count, 1979 principle count — numbers I treated as circulating.
 5. Year-counts (two / five) against the living APA and ACA texts.
-6. The 24 April 2026 comment-window date, if anyone wants it in a caption.
+6. ECTF comment-count particulars (2,650+ / 66 groups, 5 August 2025 note) if a caption wants the numbers.
 
 `last_verified` on every draft is 2026-09-14. That stamp is a promise to reopen, not a halo.
 

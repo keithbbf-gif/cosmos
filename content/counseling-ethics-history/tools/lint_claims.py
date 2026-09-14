@@ -93,8 +93,15 @@ def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
         if line.startswith(" ") or line.startswith("-"):
             continue
         key, val = line.split(":", 1)
-        meta[key.strip()] = val.strip().strip('"').strip("'")
+        meta[key.strip()] = _unquote_yaml_scalar(val.strip())
     return meta, m.group(2)
+
+
+def _unquote_yaml_scalar(val: str) -> str:
+    """Strip one matching quote pair. Do not eat apostrophes inside the title."""
+    if len(val) >= 2 and val[0] == val[-1] and val[0] in {'"', "'"}:
+        return val[1:-1]
+    return val
 
 
 def words(body: str) -> int:
@@ -166,8 +173,18 @@ def first_sentence(body: str) -> str:
     parts = body.split("\n\n", 1)
     rest = parts[1] if len(parts) > 1 else body
     rest = re.sub(r"^#+\s+.*\n", "", rest).strip()
-    m = re.search(r"([^.?!]+[.?!])", rest)
-    return (m.group(1) if m else rest[:120]).strip()
+    # Keep initials (Edward C.) and hostnames (apa.org) from looking like a stop.
+    dot = "\x00"
+    protected = re.sub(r"\b([A-Za-z])\.", lambda m: m.group(1) + dot, rest)
+    protected = re.sub(
+        r"\.(org|com|edu|gov|net|io)\b",
+        lambda m: dot + m.group(1),
+        protected,
+        flags=re.I,
+    )
+    m = re.search(r"(.+?[.?!])", protected)
+    raw = m.group(1) if m else protected[:160]
+    return raw.replace(dot, ".").strip()
 
 
 def write_manifest(rows: list[dict[str, str]]) -> None:

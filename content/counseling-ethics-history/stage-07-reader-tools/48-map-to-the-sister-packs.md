@@ -34,7 +34,7 @@ This is the map.
 
 `content/wowtherapies-therapy-history/` — eras and figures. Temples, asylums, the talking cure, behaviorism, humanistic rooms, families, the cognitive turn, attachment, trauma, feminist and liberation work, the third wave as a calendar item, counseling as a profession. Pinel through Insoo Kim Berg. That pack's profession essay is the building. This pack is the posted rules.
 
-Cross-link allowed: "see counseling-as-a-profession for Parsons and licensure." Cross-print forbidden.
+Cross-link allowed: "see counseling-as-a-profession for Parsons and licensure." Cross-print forbidden. Rogers, if he appears here at all, appears as a documentary weather on a later code — not as a biography that the heritage pack already wrote.
 
 ## ACT and mindfulness
 

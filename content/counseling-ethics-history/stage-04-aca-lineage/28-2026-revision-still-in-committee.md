@@ -20,8 +20,10 @@ audience: curious-reader
 status: draft
 last_verified: 2026-09-14
 citations:
-  - "ACA Counseling Nexus note on the Code of Ethics revision (Fall 2026 announcement)."
-  - "Public commentary on a 2026 draft and comment window (treat as process, not as text)."
+  - "ACA Counseling Nexus note on the Code of Ethics revision (Fall 2026 announcement; draft unavailable during review)."
+  - "Pennsylvania Counseling Association public invite: comments on the draft 2026 code due 24 April 2026."
+  - "ACA LinkedIn invitation to the same 24 April 2026 comment window."
+  - "Circulating secondary notes (Northwestern, July 2026; CE vendors) naming September 2026 as a hoped-for adoption month. Treat as rumor until Nexus or ACA posts an adoption date."
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
@@ -40,13 +42,13 @@ Until then, the 2014 text is the house. The task force is the weather.
 
 ## Comment windows as historical objects
 
-ACA's 2011–2014 process used town halls and member letters. The 2026 process used a comment period that later notes placed in the first half of the year. `[VERIFY]` the exact close date (a circulating date of 24 April 2026 has appeared in secondary mentions) before a live caption. Comment windows are how a membership body claims Hobbs's inheritance: we asked.
+ACA's 2011–2014 process used town halls and member letters. The 2026 process used a public comment window that the Pennsylvania Counseling Association and ACA's own LinkedIn invitation both closed on 24 April 2026. That date is now a chapter-and-association object, not a rumor. Comment windows are how a membership body claims Hobbs's inheritance: we asked.
 
 They are also how a membership body limits the ask. A window closes. A draft disappears. The final may or may not resemble the blog arguments that surrounded the draft. Historians of 2014 already know this. Historians of 2026 will learn it when the book appears — or when it slips.
 
 ## Neighbors in the same season
 
-APA's ECTF, seated in 2018, had not, as of this writing, replaced the 2002 house. NASW's last substantive printed amendments were 2021. ACA, if it hits Fall 2026, would be the first of the three spines in this pack to complete a 2020s full revision. "First" would be a calendar fact, not a virtue.
+APA's ECTF, seated in 2018, had not, as of this writing, replaced the 2002 house. NASW's last substantive printed amendments were 2021. ACA, if it hits Fall 2026, would be the first of the three spines in this pack to complete a 2020s full revision. "First" would be a calendar fact, not a virtue. Secondary blogs in July 2026 already wrote "September 2026" as if a month were a vote. Nexus, at last check, still said Fall. `[VERIFY]` the adoption and effective dates against Nexus or counseling.org the day a later editor imports — not against a CE vendor's hopeful calendar.
 
 CAMFT, AAMFT, and others spent the mid-2020s writing AI sentences. They are neighbors. This pack will not annex them. It will say: the weather in 2026 was machines, distance, and the old fights about values and harm, now with new furniture.
 
@@ -70,6 +72,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-ACA Counseling Nexus revision note (Fall 2026; draft unavailable during review); 2014 as living text at 2026-09-14 verification; APA ECTF and NASW 2021 as tempo neighbors.
+ACA Counseling Nexus revision note (Fall 2026; draft unavailable during review); PACA and ACA LinkedIn on the 24 April 2026 window; 2014 as living text at 2026-09-14 verification; APA ECTF and NASW 2021 as tempo neighbors.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is the public history of counseling and clinical ethics codes (APA / ACA / NASW) only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

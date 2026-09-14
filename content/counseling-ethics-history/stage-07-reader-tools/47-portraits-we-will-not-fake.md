@@ -62,6 +62,8 @@ If a designer says the series looks "text-heavy," that is a compliment. Ethics-c
 
 The last essay is the map: where to send a reader who wanted Freud, Van Riper, or a breathing count.
 
+Do not "age" a stock photo into 1953 with a filter and call it Hobbs's committee. That is a generated face with a vintage LUT. The refuse list does not have a loophole for tasteful fakes.
+
 A Commons file that was "no known restrictions" in 2018 can be contested in 2026. Re-open the file page on the day you upload. `confirm` in `PORTRAIT_SOURCES.md` means hold. Hold is not a failure. Hold is how a history site stays a history site and not a costume department. Type can wait.
 
 ## Claims box

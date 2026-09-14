@@ -41,9 +41,9 @@ APA's 1992 ethics book and ACA's 1992 rename share a calendar and not a committe
 
 ## How names confuse clients
 
-A client in Southeast Arkansas may see "ACA" on a wall and hear "the other ACA" — the insurance marketplace, or the American Crystallographic Association, or, if they are older, the American Counseling Association's cousin the American College of something. Acronym collision is not a joke in a small waiting room. It is a literacy problem. This pack will write the full name on first use in each essay. We have not always succeeded. Editors: fix the misses.
+A client in Southeast Arkansas may see "ACA" on a wall and hear the Affordable Care Act — the insurance marketplace that stole the acronym in ordinary American speech after 2010. A rarer collision is the American Crystallographic Association. Acronym collision is not a joke in a small waiting room. It is a literacy problem. This pack will write the full name on first use in each essay. We have not always succeeded. Editors: fix the misses.
 
-APA's collision with the American Psychiatric Association is worse. Draft 03 already called it a student's rite. Counseling's 1992 name at least does not share three letters with a medical specialty. It shares them with a health-insurance brand. History does not have to be convenient.
+APA's collision with the American Psychiatric Association is worse. Draft 03 already called it a student's rite. Counseling's 1992 name at least does not share three letters with a medical specialty. It shares them with a health-insurance statute. History does not have to be convenient.
 
 ## What the rename did not do
 

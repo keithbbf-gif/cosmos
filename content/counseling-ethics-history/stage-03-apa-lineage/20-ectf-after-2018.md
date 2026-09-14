@@ -21,6 +21,8 @@ status: draft
 last_verified: 2026-09-14
 citations:
   - "Iowa Psychological Association public summary of the APA Ethics Code Task Force charge (2018–)."
+  - "APA Division 16 notice of the December 2024 draft Ethics Code comment window (deadline 19 March 2025)."
+  - "Society of Addiction Psychology note, 5 August 2025: ECTF reviewing 2,650+ comments from 66 groups."
   - "APA public code page, last checked in secondary sources 2026-09-14."
 ---
 
@@ -34,7 +36,7 @@ That negative fact is the essay. Anniversary blogs that write as if a 2025 APA c
 
 The 2002 spine was sixteen years old. The 2010 and 2016 sutures had been written under interrogation weather, not under a full redesign. Telepsychology had moved from a novelty to a pandemic infrastructure. Diversity, equity, and human-rights language had become, inside APA politics, a demand that principles name systems and environments more plainly. Students who had only ever known the five principles wanted a book that sounded like their coursework.
 
-Public summaries of ECTF drafts — I am using a state-association overview as a lead, not as a primary minute — talked about criteria for principles (prescriptivity, universalizability, overridingness, publicity, practicability) and about naming supervision, expanding assessment language, and specifying informed consent more tightly. `[VERIFY]` any of those particulars against an APA primary page before a live import. Draft language is not adopted language. This site will not treat a circulating outline as the code.
+Early public summaries of ECTF work — state-association overviews, not primary minutes — talked about criteria for principles and about naming supervision, assessment, and consent more tightly. Those outlines were weather. A later public trail is easier to date. APA's commenting portal and Division notices opened a draft Ethics Code for a ninety-day comment window that closed 19 March 2025. The Society of Addiction Psychology posted, on 5 August 2025, an ECTF thank-you that counted more than 2,650 comments from psychologists, students, organizations, and the public, including sixty-six group responses, and said the review was expected to finish in late 2025 or early 2026, with another draft anticipated after that. APA's 2026 convention program still listed an Ethics Committee session on the current draft and the March 2025 comment weather. `[VERIFY]` those session particulars against the live convention page before a caption. Draft language is not adopted language. This site will not treat a circulating outline, or a comment docket, as the code.
 
 ## How to read a task force without writing the ending
 
@@ -66,6 +68,6 @@ If you are in danger, call local emergency services.
 
 ## Sources
 
-Iowa Psychological Association public ECTF summary; APA public code page as living text at last verification (2026-09-14); Fisher's five-year process as a tempo comparison; ACA 2026 revision note as a neighboring tempo.
+Iowa Psychological Association public ECTF summary; Division 16 / APA commenting-portal December 2024–March 2025 window; Society of Addiction Psychology 5 August 2025 comment-count note; APA public code page as living text at last verification (2026-09-14); Fisher's five-year process as a tempo comparison; ACA 2026 revision note as a neighboring tempo.
 
 *WOW Therapies educational series. Complementary to `content/wowtherapies-therapy-history/` and to the SLPWOW speech-pathology history pack. This lane is the public history of counseling and clinical ethics codes (APA / ACA / NASW) only. Staged: do not write these files onto the live wowtherapies.com sitemap from this folder.*

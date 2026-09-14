@@ -37,7 +37,10 @@ copyrighted code into this folder.
 - American Psychological Association. Presidential Task Force on Psychological Ethics and National Security (PENS). Report, 26 June 2005; adopted as Board policy shortly after.
 - Hoffman, David H., et al. *Report to the Special Committee of the Board of Directors of the American Psychological Association.* Sidley Austin LLP, 2 July 2015; revised version with errata, 4 September 2015.
 - APA Council of Representatives. Vote of 7 August 2015 prohibiting psychologist participation in national security interrogations (157–1 as publicly reported).
-- Iowa Psychological Association. "The American Psychological Association Ethics Code Task Force: A Revision of our Ethics Code." Public summary of the 2018– ECTF charge. A full new code had **not** replaced the 2002/2010/2017 text as of this pack's last verification (2026-09-14). `[VERIFY]` on any later adoption date before a live import.
+- Iowa Psychological Association. "The American Psychological Association Ethics Code Task Force: A Revision of our Ethics Code." Public summary of the 2018– ECTF charge.
+- APA Division 16 / APA commenting portal. Public draft Ethics Code comment window announced December 2024; deadline 19 March 2025, 11:59 p.m. ET, as the Division notice stated it.
+- Society of Addiction Psychology. "Progress on the revised draft…," 5 August 2025: ECTF reported more than 2,650 comments, including 66 group responses, and expected the review to finish in late 2025 or early 2026 with another draft after that.
+- A full new code had **not** replaced the 2002/2010/2017 text as of this pack's last verification (2026-09-14). `[VERIFY]` on any later adoption date before a live import.
 
 ## ACA / APGA — codes and process
 
@@ -48,6 +51,7 @@ copyrighted code into this folder.
 - Linde, Lynn. Circulating remark that ACA tends to revise every 7–10 years. Treat as secondary, not as a bylaw.
 - American Counseling Association. 2005 "Ethics Update" interview series (ten parts), including "the end of 'clear and imminent danger.'"
 - American Counseling Association. Current public code page / Counseling Nexus note (2026): the Revision Task Force is reviewing comments; a final revised code was announced for Fall 2026. The 2014 text remained the living public code at last verification. Do not treat a withdrawn draft as adopted.
+- Pennsylvania Counseling Association public invite and ACA LinkedIn invitation: comments on the draft 2026 ACA Code of Ethics due 24 April 2026. Secondary blogs in July 2026 named September 2026 as a hoped-for adoption month; treat the month as rumor until Nexus or counseling.org posts adoption and effective dates.
 
 ## ACA — institutional names
 
