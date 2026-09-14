@@ -1,19 +1,19 @@
-# Portrait Sources — Notes Only (No Files)
+# Portrait Sources — hunt log + cleared files
 
-Pack date: 14 September 2026. This ledger records **candidates**. No likeness is downloaded into this folder. Never generate a historical face.
+Pack date: 14 September 2026. **Cleared** likenesses live in `assets/portraits/` and are listed in `RIGHTS.md`. This table still records hunt status for every figure. Never generate a historical face.
 
 Filename convention for a later graphics pass: `assets/portraits/<portrait_id>.<ext>`.
 
 | portrait_id | figure | candidate | license / terms | source URL | credit line | cleared to download later |
 |-------------|--------|-----------|-----------------|------------|-------------|---------------------------|
-| demosthenes | Demosthenes | Vatican / Naples marble copies of a Hellenistic portrait type | Public domain (ancient sculpture; museum photo terms vary) | Search Commons “Demosthenes Vatican” / “Demosthenes Naples” | Ancient marble copy after a Hellenistic original. Museum + photographer on file page. Sculpture PD; check photo license. | caution — sculpture PD, photo may be own-work CC or museum-restricted |
-| jean-marc-gaspard-itard | Jean-Marc Gaspard Itard | 19th-c. lithograph / BIU Santé plates | Often PD or Licence Ouverte | Search Commons and BIU Santé “Itard” | Credit lithographer on file page | verify file page |
-| johann-friedrich-dieffenbach | Johann Friedrich Dieffenbach | Mid-19th-c. lithograph (several Commons files) | Public domain | https://commons.wikimedia.org/wiki/File:Johann_Friedrich_Dieffenbach.jpg (verify) | Lithograph; artist on file page | verify file page |
+| demosthenes | Demosthenes | MET marble head (Commons) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Marble_head_of_Demosthenes_MET_DP326692.jpg | Metropolitan Museum of Art, CC0 (Open Access). | **yes** — `assets/portraits/demosthenes.jpg` |
+| jean-marc-gaspard-itard | Jean-Marc Gaspard Itard | Commons lithograph plate | Public domain | https://commons.wikimedia.org/wiki/File:Jean_Itard_(1774-1838).jpg | Artist unknown on file page. | **yes** — `assets/portraits/jean-marc-gaspard-itard.jpg` |
+| johann-friedrich-dieffenbach | Johann Friedrich Dieffenbach | Kriehuber lithograph | Public domain | https://commons.wikimedia.org/wiki/File:Johann_Friedrich_Dieffenbach.jpg | Josef Kriehuber lithograph. | **yes** — `assets/portraits/johann-friedrich-dieffenbach.jpg` |
 | marc-colombat-de-lisere | Marc Colombat de l’Isère | Frontispiece lithograph in 1830s books | Public domain (author d. 1851) | Hunt Wellcome / Gallica / BIU | Credit lithographer | verify file page |
 | james-hunt | James Hunt | 1860s wood-engraved portrait in anthropological journals | Public domain (d. 1869) | Hunt Internet Archive / Commons “James Hunt anthropologist” | Do not caption him only as a speech teacher | verify file page |
-| hermann-gutzmann | Hermann Gutzmann Sr. | Lehmann / NLM plate used in the sibling profession pack | Public domain (d. 1922) | Commons “Hermann Gutzmann” | Photographer unknown; published plate. NLM / Commons. | yes if same file page as sibling pack |
+| hermann-gutzmann | Hermann Gutzmann Sr. | Published plate (Commons) | Public domain (d. 1922) | https://commons.wikimedia.org/wiki/File:Hermann_Gutzmann_sen._(1865-1922).JPG | Photographer unknown; Adolf Eckstein publisher. | **yes** — `assets/portraits/hermann-gutzmann.jpg` |
 | emil-froeschels | Emil Fröschels | Mid-century U.S. faculty photos after exile | Likely copyrighted (d. 1972) | ASHA / IALP archives | **Portrait placeholder.** | no |
-| edward-wheeler-scripture | Edward Wheeler Scripture | Early studio plate already noted in sibling pack | Public domain (d. 1945; early plates) | Commons “Edward Wheeler Scripture” | Credit photographer on file page | yes if sibling file page still PD |
+| edward-wheeler-scripture | Edward Wheeler Scripture | BIU Santé studio plate | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Scripture,_Edward_Wheeler_CIPA0438.jpg | BIU Santé via Wikimedia France. | **yes** — `assets/portraits/edward-wheeler-scripture.jpg` |
 | samuel-t-orton | Samuel T. Orton | 1930s–40s faculty photos | Copyright likely (d. 1948; photos often still closed) | Columbia / Iowa archives | **Portrait placeholder.** | no |
 | lee-edward-travis | Lee Edward Travis | Iowa / USC photos | Copyright likely (d. 1987) | Sibling pack already pending | **Portrait placeholder.** | no |
 | bryng-bryngelson | Bryng Bryngelson | Minnesota faculty photos | Copyright likely (d. 1979) | University of Minnesota Archives | **Portrait placeholder.** | no |
@@ -36,6 +36,6 @@ Filename convention for a later graphics pass: `assets/portraits/<portrait_id>.<
 | ronald-l-webster | Ronald L. Webster | Living | Not PD | — | **Portrait placeholder.** | no |
 | gavin-andrews | Gavin Andrews | Living | Not PD | — | **Portrait placeholder.** | no |
 
-Until a later pass downloads a **cleared** file, articles print a credit line or the placeholder. A gray name-and-dates frame is allowed in WordPress. A generated “young Johnson” is not.
+Profiles with a **cleared** row ship a lead `<figure>` (see `PHOTO_NOTES.md`) and set `portrait_status: cleared`. All others keep the placeholder block. A gray name-and-dates frame is allowed in WordPress. A generated “young Johnson” is not.
 
 Recheck Commons file pages before any download. A sibling-pack file is not automatically cleared for this tree; copy the credit line, then look at the live file page again.

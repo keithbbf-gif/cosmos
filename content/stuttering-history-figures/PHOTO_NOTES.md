@@ -1,6 +1,6 @@
 # Photo Notes — Art Direction (Stuttering & Fluency Series)
 
-Staged guidance for a later SLPWOW.com editor. No live CMS writes. **This pack ships notes, not files.**
+Staged guidance for a later SLPWOW.com editor. No live CMS writes. **Cleared portraits ship as files** in `assets/portraits/`; everything else stays notes-only until `RIGHTS.md` gains a row.
 
 ## What we are making
 
@@ -14,10 +14,23 @@ A magazine series, not a textbook plate section. Each profile should have **one*
 - Do not colorize historical photographs for the first run.
 - Do not illustrate the orphanage study with children’s faces, even if a later archive offers them.
 
+## Lead figure (HTML in Markdown)
+
+Cleared profiles place this block immediately after the educational note:
+
+```html
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/<portrait_id>.jpg" alt="[name], [role], [medium or date hint]" width="…" height="…" loading="lazy" decoding="async" />
+<figcaption>[Full name] ([life dates]). Credit: [collection], [license]. See RIGHTS.md.</figcaption>
+</figure>
+```
+
+WordPress import may promote the image to featured media; keep the `figcaption` text for SEO and accessibility.
+
 ## Caption formula
 
 ```
-[Full name], [year of photograph if known].
+[Full name], [life dates].
 Credit: [photographer or “photographer unknown”], [collection], [license].
 ```
 

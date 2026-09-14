@@ -10,8 +10,8 @@ tags:
   - gutzmann
   - phoniatrics
 meta_description: "Hermann Gutzmann Sr. (1865–1922): Berlin phoniatrics, a medical trade for stuttering, and a chart that is not a drawing-room."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/hermann-gutzmann.jpg
+portrait_status: cleared
 figure_dates: "1865–1922"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,11 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/hermann-gutzmann.jpg" alt="Hermann Gutzmann Sr., German phoniatrician, early twentieth-century published portrait" width="897" height="1338" loading="lazy" decoding="async" />
+<figcaption>Hermann Gutzmann Sr. (1865–1922). Credit: published plate; photographer unknown; Adolf Eckstein publisher. Wikimedia Commons, public domain. See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 Berlin taught speech as if it were an organ system. Hermann Gutzmann Sr. (1865–1922) is the name later phoniatricians still salute. His father, Albert, had already treated voice and speech. The son made an academic living of it: lectures, a clinic, students, a literature in German that American speech correction would later plunder without always citing.
 
@@ -43,8 +48,4 @@ The sibling pack has a Gutzmann profile for the profession’s ancestry. This on
 
 ## Portrait
 
-Candidate: the Lehmann / NLM plate already logged in the profession pack (Commons “Hermann Gutzmann”). Author died 1922; published plates are typically public domain in the U.S. Recheck the live file page before any later download into a different tree.
-
-Credit line (draft): Hermann Gutzmann Sr. Photographer unknown; published plate. NLM / Wikimedia Commons. Public domain.
-
-If the file page has changed, use the house placeholder rather than a guessed likeness.
+Shipped file: `assets/portraits/hermann-gutzmann.jpg` (Commons file page logged in `RIGHTS.md`). If the file page changes, remove the image rather than substitute a guess.

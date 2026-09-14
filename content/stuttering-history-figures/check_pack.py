@@ -111,10 +111,20 @@ def main() -> int:
             errors.append(f"{path.name}: bad series {fm.get('series')!r}")
         if fm.get("audience") != "slpwow":
             errors.append(f"{path.name}: audience must be slpwow")
-        if fm.get("portrait") not in {"null", ""}:
-            errors.append(f"{path.name}: this pack is notes-only; portrait must be null")
-        if fm.get("type") == "profile" and fm.get("portrait_status") not in {"note"}:
-            errors.append(f"{path.name}: profile portrait_status must be note")
+        pstatus = fm.get("portrait_status", "")
+        portrait = fm.get("portrait", "")
+        if fm.get("type") == "profile" and pstatus not in {"note", "cleared"}:
+            errors.append(f"{path.name}: profile portrait_status must be note or cleared")
+        if pstatus == "cleared":
+            if not portrait or not portrait.startswith("assets/portraits/"):
+                errors.append(f"{path.name}: cleared profile needs portrait: assets/portraits/…")
+            elif not (ROOT / portrait).is_file():
+                errors.append(f"{path.name}: missing portrait file {portrait}")
+            if "<figure" not in text or "<figcaption" not in text:
+                errors.append(f"{path.name}: cleared profile needs <figure> and <figcaption>")
+        elif pstatus == "note":
+            if portrait not in {"null", ""}:
+                errors.append(f"{path.name}: note profile portrait must be null")
         if fm.get("type") == "era" and fm.get("portrait_status") not in {"essay-only"}:
             errors.append(f"{path.name}: era portrait_status must be essay-only")
         if fm.get("type") == "profile" and "figure_dates" not in fm:
@@ -147,9 +157,28 @@ def main() -> int:
     if len(orders) != len(set(orders)):
         errors.append("duplicate order fields")
 
+    portraits_dir = ROOT / "assets" / "portraits"
+    allowed_images: list[Path] = []
+    if portraits_dir.is_dir():
+        for img in portraits_dir.iterdir():
+            if img.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
+                allowed_images.append(img)
     for img in ROOT.rglob("*"):
-        if img.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
-            errors.append(f"image file not allowed in this notes-only pack: {img.relative_to(ROOT)}")
+        if img.suffix.lower() not in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
+            continue
+        if portraits_dir in img.parents or img.parent == portraits_dir:
+            continue
+        errors.append(f"image only allowed under assets/portraits/: {img.relative_to(ROOT)}")
+
+    rights = ROOT / "RIGHTS.md"
+    if rights.is_file():
+        rights_text = rights.read_text(encoding="utf-8")
+        for img in allowed_images:
+            rel = f"assets/portraits/{img.name}"
+            if rel not in rights_text:
+                errors.append(f"RIGHTS.md missing entry for {rel}")
+    else:
+        errors.append("missing ops file RIGHTS.md")
 
     ops = [
         "INDEX.md",
@@ -159,6 +188,7 @@ def main() -> int:
         "BIBLIOGRAPHY.md",
         "PORTRAIT_SOURCES.md",
         "PHOTO_NOTES.md",
+        "RIGHTS.md",
         "WP_IMPORT.md",
         "README.md",
     ]

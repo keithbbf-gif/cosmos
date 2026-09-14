@@ -10,8 +10,8 @@ tags:
   - dieffenbach
   - surgery
 meta_description: "Johann Friedrich Dieffenbach (1792–1847): reconstructive surgeon, 1841 pamphlet on healing stuttering by a new operation, and a fashion that collapsed."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/johann-friedrich-dieffenbach.jpg
+portrait_status: cleared
 figure_dates: "1792–1847"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,11 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/johann-friedrich-dieffenbach.jpg" alt="Johann Friedrich Dieffenbach, German surgeon, nineteenth-century lithograph portrait" width="589" height="841" loading="lazy" decoding="async" />
+<figcaption>Johann Friedrich Dieffenbach (1792–1847). Credit: lithograph by Josef Kriehuber; Wikimedia Commons, public domain. See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 The face in the lithographs is a surgeon’s face: dark coat, the composure of a man who rebuilt noses for a living. Johann Friedrich Dieffenbach was born 1 February 1792 in Königsberg and died 11 November 1847 in Berlin. Plastic surgery histories claim him with reason. Fluency histories claim him with embarrassment. Both claims are about the same hands.
 
@@ -41,8 +46,4 @@ Berlin in the 1840s was a city that believed a famous professor could end an old
 
 ## Portrait
 
-Candidate: mid-nineteenth-century lithographs on Wikimedia Commons (search “Johann Friedrich Dieffenbach”). Author died 1847; plates are ordinarily public domain. Confirm artist and file page before a later download.
-
-Credit line (draft): Johann Friedrich Dieffenbach. Nineteenth-century lithograph; artist on file page. Public domain.
-
-Do not illustrate the operation. A title-page photograph is enough for essay 03.
+Shipped file: `assets/portraits/johann-friedrich-dieffenbach.jpg` (Kriehuber lithograph, public domain). Do not illustrate the operation. A title-page photograph is enough for essay 03.

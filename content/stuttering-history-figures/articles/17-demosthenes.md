@@ -8,9 +8,9 @@ tags:
   - stuttering-history
   - figures
   - demosthenes
-meta_description: "Demosthenes of Athens (c. 384–322 BCE): the public stammerer of the Western schoolroom, and why Plutarch’s pebbles are not a case file."
-portrait: null
-portrait_status: note
+meta_description: "Demosthenes of Athens (c. 384–322 BCE): marble portrait, Plutarch’s pebbles, and why the schoolroom mascot is not a case file."
+portrait: assets/portraits/demosthenes.jpg
+portrait_status: cleared
 figure_dates: "c. 384–322 BCE"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,11 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/demosthenes.jpg" alt="Marble portrait head of Demosthenes, ancient Athenian orator linked to stammering tradition" width="2911" height="3880" loading="lazy" decoding="async" />
+<figcaption>Demosthenes of Athens (c. 384–322 BCE), marble head after a Hellenistic portrait type. Credit: Metropolitan Museum of Art, CC0 1.0 (Open Access). See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 The marble heads in Rome and Naples are copies of copies. A thin, tight face, the hair a Hellenistic fashion, the man who made Philip of Macedon listen. Museums label them Demosthenes. Speech-language pathology labels him a mascot. He was neither a clinician nor a willing patient. He was an Athenian politician whose later biographers needed a difficult mouth to make the oratory look earned.
 
@@ -40,6 +45,4 @@ This pack’s era essay on old names (01) keeps the beach. This profile keeps th
 
 ## Portrait
 
-Candidate: ancient marble portrait types (Vatican, Naples) after a Hellenistic original. The sculpture is thousands of years past copyright. A museum photograph may be public domain, CC, or restricted depending on the file page. Recheck Commons before a later download. Do not generate a “reconstructed young Demosthenes.” Do not put pebbles in a stock child’s mouth to illustrate him.
-
-> **Portrait placeholder** until a specific file page is chosen. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+Shipped file: `assets/portraits/demosthenes.jpg` (Metropolitan Museum of Art, CC0). Recheck the Commons file page before any CMS re-import. Do not generate a “reconstructed young Demosthenes.” Do not put pebbles in a stock child’s mouth to illustrate him.

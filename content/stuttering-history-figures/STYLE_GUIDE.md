@@ -50,7 +50,7 @@ tags:
   - stuttering-history
 meta_description: One or two sentences for a later WP excerpt. No hype.
 portrait: null
-portrait_status: note | essay-only
+portrait_status: note | cleared | essay-only
 figure_dates: "1905–1994"   # profiles only
 voice_check: human
 audience: slpwow
@@ -61,7 +61,7 @@ last_verified: 2026-09-14
 
 `voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
-`portrait: null` is mandatory in this pack. Portrait **notes** live in `PORTRAIT_SOURCES.md` and in a short “Portrait” section at the end of each profile.
+`portrait: null` unless `portrait_status: cleared` and a row exists in `RIGHTS.md`. Cleared profiles ship a lead `<figure>` (see `PHOTO_NOTES.md`). Portrait **notes** for uncleared figures live in `PORTRAIT_SOURCES.md` and in the “Portrait” section at the end of each profile.
 
 ## Educational note (required, near the top)
 
@@ -94,14 +94,14 @@ Use the name the person published under, then the modern field name once.
 - Do not call 1841 or 1925 clinicians “SLPs.” They did not use that credential.
 - Person-first and identity-first both appear in the modern literature. Historical essays may say “stutterer” when the source did. Living-figure profiles follow the person’s published preference when known; otherwise “people who stutter.”
 
-## Portraits — notes only
+## Portraits — cleared files only
 
-This pack does **not** ship image files and does **not** generate faces.
+This pack does **not** generate faces.
 
-1. Public domain, CC, museum open access, or Wikimedia Commons with a readable license.
-2. Record the candidate file, URL, license, author, and credit line in `PORTRAIT_SOURCES.md`.
-3. Do not download into this folder in this pass.
-4. If rights are unclear: labeled placeholder. **Never** generate a likeness and pass it off as a historical photograph.
+1. Public domain, CC, museum open access, Licence Ouverte, or Wikimedia Commons with a readable license on the live file page.
+2. Log every shipped binary in `RIGHTS.md` and update `PORTRAIT_SOURCES.md`.
+3. Cleared profiles: `portrait_status: cleared`, pack-relative `portrait:` path, lead `<figure>` with `figcaption`.
+4. If rights are unclear: `portrait_status: note` and the placeholder below. **Never** generate a likeness and pass it off as a historical photograph.
 
 Placeholder copy (use verbatim when needed):
 

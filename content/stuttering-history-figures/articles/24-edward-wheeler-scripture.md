@@ -9,8 +9,8 @@ tags:
   - figures
   - scripture
 meta_description: "Edward Wheeler Scripture (1864–1945): Yale laboratory speech, later a London stuttering clinic, and the fight to drag elocution into measurement."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/edward-wheeler-scripture.jpg
+portrait_status: cleared
 figure_dates: "1864–1945"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,11 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/edward-wheeler-scripture.jpg" alt="Edward Wheeler Scripture, speech scientist and psychologist, early studio portrait" width="853" height="1129" loading="lazy" decoding="async" />
+<figcaption>Edward Wheeler Scripture (1864–1945). Credit: Bibliothèque interuniversitaire de santé (BIU Santé), via Wikimedia Commons. Licence Ouverte. See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 Edward Wheeler Scripture wanted a number where a master had wanted a gentleman. Yale’s psychological laboratory, in the 1890s and after, was one of the rooms where American experimental psychology learned to time and record. Scripture put speech into that room. Stuttering was one of the speech problems that could be made to leave a trace on smoked paper and, later, on film.
 
@@ -42,6 +47,4 @@ The sibling pack has a Scripture profile for the profession. This one is the flu
 
 ## Portrait
 
-Candidate: early studio plates already noted as public domain in the sibling pack (Commons “Edward Wheeler Scripture”). Recheck the file page. Author died 1945; early photographs may be PD, later ones may not.
-
-> If the live file page is unclear, use the house placeholder. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+Shipped file: `assets/portraits/edward-wheeler-scripture.jpg` (BIU Santé, Licence Ouverte). Recheck the Commons file page before CMS re-import.

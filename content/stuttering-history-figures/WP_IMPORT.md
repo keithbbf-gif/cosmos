@@ -29,7 +29,8 @@ Do not hang these under `/services/` or `/school-age/stuttering-homework/`.
 | `type: era` | Category: History — Ages of Fluency |
 | `type: profile` | Category: History — People |
 | `tags` | Post tags |
-| `portrait` | Always null in this pack — no featured image until a later rights-cleared file exists |
+| `portrait` | Pack-relative path under `assets/portraits/` when `portrait_status: cleared`; otherwise null |
+| `portrait_status: cleared` | Import lead `<figure>` as featured image candidate; keep `figcaption` in body or map to WP caption |
 | `portrait_status: note` | Keep the Portrait section / placeholder in the body |
 | `figure_dates` | Custom field `figure_dates` |
 | `voice_check` | Custom field; hide from public |
@@ -44,6 +45,7 @@ Strip the YAML before the post body. Do not print `voice_check: human` on the si
 
 - ATX `##` / `###` → heading blocks.
 - Educational note → a muted intro paragraph or a “Note” block, not a popup.
+- Lead `<figure class="slpwow-lead-portrait">` → image block + caption; `loading="lazy"` may be stripped or kept per theme.
 - Portrait placeholder → a captioned empty frame, not an AI fill.
 
 ## Cross-links

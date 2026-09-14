@@ -9,8 +9,8 @@ tags:
   - figures
   - itard
 meta_description: "Jean-Marc Gaspard Itard (1774–1838): the physician of Victor of Aveyron, an Académie name on Colombat’s stammering book, and a slice of fluency in a larger medical vita."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/jean-marc-gaspard-itard.jpg
+portrait_status: cleared
 figure_dates: "1774–1838"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,11 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-lead-portrait">
+<img src="../assets/portraits/jean-marc-gaspard-itard.jpg" alt="Jean-Marc Gaspard Itard, French physician, nineteenth-century portrait" width="1032" height="1260" loading="lazy" decoding="async" />
+<figcaption>Jean-Marc Gaspard Itard (1774–1838). Credit: nineteenth-century portrait lithograph; artist unknown on file page. Wikimedia Commons, public domain. See <code>RIGHTS.md</code>.</figcaption>
+</figure>
 
 He is in every disability history for a boy found in the Aveyron woods. He is in this pack for a thinner reason: Paris asked a serious physician to look at *bégaiement*, and Itard’s name later sat on the 1831 Académie de médecine report printed with Colombat’s second edition. That is not a founding. It is a permission. Stammering could be a medical object without first being a joke.
 
@@ -38,6 +43,4 @@ He is not an SLP. The credential does not exist. He is a physician who wrote. Th
 
 ## Portrait
 
-Candidate: nineteenth-century lithographs and BIU Santé plates of Itard. Many are public domain or Licence Ouverte; confirm the file page. The sibling profession pack already notes an Itard portrait among early medical faces. Recheck before reuse. Do not generate a face.
-
-> If a cleared file is not chosen, use the house placeholder. See `PORTRAIT_SOURCES.md`. Do not invent or generate a substitute likeness.
+Shipped file: `assets/portraits/jean-marc-gaspard-itard.jpg` (public domain on Commons). Do not generate a face.
