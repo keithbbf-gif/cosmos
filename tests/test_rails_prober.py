@@ -46,6 +46,7 @@ FAKES = {
     "cursor-api": _fake("cursor-api", "Cursor COSMOS 2"),
     "firecrawl-web": _fake("firecrawl-web", "firecrawl/v2-research-papers"),
     "groq-api": _fake("groq-api", "openai/gpt-oss-20b"),
+    "openrouter-api": _fake("openrouter-api", "google/gemma-4-26b-a4b-it:free"),
     "playwright-dom": _fake("playwright-dom",
                             "Playwright/1.63.0-alpha-2026-08-05"),
     "github-forge": _fake("github-forge", "rest_limit=5000 remaining=4999"),
@@ -102,6 +103,8 @@ def main() -> int:
               and by_id["cursor-api"]["model"] == "Cursor COSMOS 2"
               and by_id["firecrawl-web"]["model"] == "firecrawl/v2-research-papers"
               and by_id["groq-api"]["model"] == "openai/gpt-oss-20b"
+              and by_id["openrouter-api"]["model"]
+              == "google/gemma-4-26b-a4b-it:free"
               and by_id["playwright-dom"]["model"]
               == "Playwright/1.63.0-alpha-2026-08-05"
               and by_id["github-forge"]["model"]
@@ -123,6 +126,8 @@ def main() -> int:
             "firecrawl-web": _fake("firecrawl-web", "", ok=False, rc=2,
                                    body=""),
             "groq-api": _fake("groq-api", "", ok=False, rc=2, body=""),
+            "openrouter-api": _fake("openrouter-api", "", ok=False, rc=2,
+                                    body=""),
             "playwright-dom": _fake("playwright-dom", "", ok=False, rc=2,
                                     body=""),
             "github-forge": _fake("github-forge", "", ok=False, rc=2, body=""),
@@ -143,7 +148,8 @@ def main() -> int:
               lambda: [s["link_id"] for s in WIRED_NODES]
               == ["sgh-api", "gem-api", "gw-api", "oa-api", "claude-cli",
                   "codex-cli",
-                  "cursor-api", "firecrawl-web", "groq-api", "playwright-dom",
+                  "cursor-api", "firecrawl-web", "groq-api", "openrouter-api",
+                  "playwright-dom",
                   "github-forge", "gitlab-forge"])
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"

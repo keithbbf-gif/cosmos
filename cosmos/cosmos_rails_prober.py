@@ -108,6 +108,9 @@ WIRED_NODES = (
     {"link_id": "groq-api", "rail_type": "API", "src": "core",
      "dst": "models", "family": "groqcloud", "module": None,
      "satellite": "groq"},
+    {"link_id": "openrouter-api", "rail_type": "API", "src": "core",
+     "dst": "models", "family": "openrouter", "module": None,
+     "satellite": "openrouter"},
     {"link_id": "playwright-dom", "rail_type": "DOM", "src": "core",
      "dst": "interact", "family": "playwright-mcp", "module": None,
      "satellite": "playwright"},
@@ -433,6 +436,32 @@ def _groq_live_call(paths: CosmosPaths) -> dict:
             "detail": str(detail)[:300]}
 
 
+def _openrouter_live_call(paths: CosmosPaths) -> dict:
+    """GET /models; bind google/gemma-4-26b-a4b-it:free in the vendor id list.
+
+    Same prove shape as groq-api: the catalog names what answered. Chat
+    dispatch (ling/ds/glm/qwen farm seats) is request+permission, not this
+    clock. A missing key is the rail's typed NO_KEY — never a green stand-in.
+    """
+    from cosmos_openrouter_rail import (
+        DEFAULT_MODEL, OpenRouterRail, key_path_for, load_spec, spec_path_for,
+    )
+    sp = spec_path_for(paths)
+    spec = load_spec(sp if sp.exists() else None)
+    rail = OpenRouterRail(key_path_for(paths, spec), spec)
+    ok, detail = rail.probe()
+    ident = rail.last_identity() or {}
+    has = bool(ident.get("has_gemma4_26b"))
+    live = bool(ok and has)
+    n = int(ident.get("n_models") or 0)
+    body = (f"openrouter-api GET /models n={n} has {DEFAULT_MODEL}") if live else ""
+    return {"ok": live, "rc": 0 if live else 2, "body": body,
+            "body_bytes": len(body.encode("utf-8")),
+            "model": DEFAULT_MODEL if live else "",
+            "model_source": "GET /models id list",
+            "detail": str(detail)[:300]}
+
+
 def _github_forge_live_call(paths: CosmosPaths) -> dict:
     return _forge_live_call(paths, "github-forge")
 
@@ -448,6 +477,7 @@ SATELLITES = {
     "cursor": ("cosmos_cursor_rail", _cursor_live_call),
     "firecrawl": ("cosmos_firecrawl_rail", _firecrawl_live_call),
     "groq": ("cosmos_groq_rail", _groq_live_call),
+    "openrouter": ("cosmos_openrouter_rail", _openrouter_live_call),
     "playwright": ("cosmos_playwright_rail", _playwright_live_call),
     "github-forge": ("cosmos_forge_rail", _github_forge_live_call),
     "gitlab-forge": ("cosmos_forge_rail", _gitlab_forge_live_call),
@@ -529,6 +559,12 @@ def _hands_configured(paths: CosmosPaths, spec: dict) -> bool:
         return paths.config(SPEC_NAME).exists()
     if sat == "groq":
         from cosmos_groq_rail import KEY_NAME
+        return paths.config(KEY_NAME).exists()
+    if sat == "openrouter":
+        # Existence only — never a read. Env OPENROUTER_API_KEY is a
+        # fallback the rail itself may use at dispatch; the prober does
+        # not look at env. A bare install stays offline.
+        from cosmos_openrouter_rail import KEY_NAME
         return paths.config(KEY_NAME).exists()
     if sat == "playwright":
         from cosmos_playwright_rail import SPEC_NAME, find_pinned_cli

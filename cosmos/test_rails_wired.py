@@ -138,6 +138,13 @@ def wiring(td: Path) -> None:
     check("gw-api is wired as an incumbent module rail (NodeRail), not a satellite",
           lambda: by_id["gw-api"]["module"] == "bts_gw"
           and not by_id["gw-api"].get("satellite"))
+    check("openrouter-api is wired API core->models, satellite=openrouter",
+          lambda: (by_id["openrouter-api"]["rail_type"],
+                   by_id["openrouter-api"]["src"],
+                   by_id["openrouter-api"]["dst"],
+                   by_id["openrouter-api"].get("module"),
+                   by_id["openrouter-api"].get("satellite"))
+          == ("API", "core", "models", None, "openrouter"))
 
     root = install(td / "wire", tree_id="rails-wired")
     paths = CosmosPaths(root)
@@ -161,6 +168,7 @@ def wiring(td: Path) -> None:
     own = {"cursor-api": "cosmos_cursor_rail",
            "firecrawl-web": "cosmos_firecrawl_rail",
            "groq-api": "cosmos_groq_rail",
+           "openrouter-api": "cosmos_openrouter_rail",
            "playwright-dom": "cosmos_playwright_rail",
            "github-forge": "cosmos_forge_rail",
            "gitlab-forge": "cosmos_forge_rail",
@@ -349,6 +357,7 @@ def prove_then_stale(td: Path) -> None:
               "cursor-api": "Cursor COSMOS 2",
               "firecrawl-web": getattr(P, "FIRECRAWL_RESPONDER", "firecrawl"),
               "groq-api": "openai/gpt-oss-20b",
+              "openrouter-api": "google/gemma-4-26b-a4b-it:free",
               "playwright-dom": "Playwright/1.63.0-alpha-2026-08-05",
               "github-forge": "rest_limit=5000 remaining=4999",
               "gitlab-forge": "user_id=42 username=probe-user"}

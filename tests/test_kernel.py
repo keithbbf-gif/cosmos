@@ -91,6 +91,11 @@ def main() -> int:
           lambda: all(getattr(k.adapters[lid], "spec", {}).get("dst") == "forge"
                       for lid in ("github-forge", "gitlab-forge")
                       if lid in k.adapters))
+    check("openrouter-api compose row landed on writing boot",
+          lambda: "openrouter-api" in composed)
+    check("openrouter-api adapter attached (not proven at boot)",
+          lambda: "openrouter-api" in k.adapters
+          and "openrouter-api" not in k.registry.live_nodes())
 
     # ---- audit answers with measured state ----
     a = k.audit()

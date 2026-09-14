@@ -204,6 +204,9 @@ class Kernel:
             # Cheap reasoning (Keith 2026-09-04). GroqCloud not Grok.
             # Satellite GATE PASS; compose at boot like firecrawl/cursor.
             ("groq-api", "cosmos_groq_rail", "attach_to_kernel", True),
+            # Named OpenRouter pin (Keith 2026-09-07). ling/ds/glm/qwen
+            # farm seats ride this rail. Compose only — never invoke.
+            ("openrouter-api", "cosmos_openrouter_rail", "attach_to_kernel", True),
             # Joanna Vertex Express. Same link_id as bts_gem (gem-api).
             # Adapter only — does not re-register, does not generateContent.
             ("gem-api", "cosmos_vertex_rail", "attach_to_kernel", True),
