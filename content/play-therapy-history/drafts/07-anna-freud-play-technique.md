@@ -56,6 +56,14 @@ A contemporary child-centered training that never assigns Anna Freud is still a 
 
 If you want the life — the ego book, the nurseries, the long American visits — go to the sister slug. If you want the play quarrel, stay here and then read Klein.
 
+## Hampstead as a workplace, not a brand
+
+The Hampstead Child-Therapy Course and Clinic, in its postwar form, trained people in a method that included play and did not treat play as the whole of the job. Students learned to write observations. They learned a theory of defense. They learned that parents would be in the building. American counselors who later wanted only the playroom skipped the course and kept the word *play*. Skipping is a historical event. It is how 1927 became a footnote on an APT slide.
+
+She wrote in German and in English, and she wrote as a teacher. The 1927 book is short by later textbook standards. Shortness is why it can be misread as a preface. It is a full argument: the child is not a small adult; the alliance may have to be built; play is material; interpretation has a timing. Timing is the fight with Klein. This pack's Controversial Discussions essay keeps the minutes. This page keeps the 1927 timing claim.
+
+American visitors in the later decades — including people who would never become analysts — toured Hampstead the way they later toured Denton. Pilgrimage is a profession's habit. A pilgrimage is not a protocol, and a 1927 book is not a 1991 course.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, child analysis, or any named play protocol as a service.

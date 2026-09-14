@@ -51,6 +51,22 @@ A clinician who hears a parent say "he just needs to get it out" is hearing Levy
 
 The next essay takes another American who used toys as a thinking tool: Erik Erikson, who wanted reasons, not only release.
 
+## Sibling-rivalry dolls, and an ethics that arrived later
+
+Levy's mid-1930s sibling-rivalry work used dolls and setups that later readers, correctly, want an ethics board to see. A child psychiatrist in that decade could be an experimenter and a therapist in one afternoon. The 1938 "release" paper sits on that afternoon. It assumes the adult may arrange the materials toward a known event.
+
+American orthopsychiatry — the journal, the association, the word — was a meeting ground for people who did not all want to be analysts. Levy could speak there without waiting for London's vote. That is why he appears on American timelines between the Europeans and Axline. He is the short, named, aimed version of play as treatment.
+
+Later "medical play" in child-life programs sometimes cites a cousin logic: rehearse the dressing change so the fear has somewhere to go. Cousin is the honest word. Identity is not. Child-life has infection control and a surgical team. Levy had a psychiatrist's office. A parent with a doll and a syringe has neither. This series will not close the distance with a smile.
+
+The 1938 pagination in circulating citations is 627–636. If a later pass opens the issue and finds a different run, mark the file. The year and the journal are the load-bearing facts.
+
+## Orthopsychiatry as a room that was not Vienna
+
+The American Orthopsychiatric Association let psychiatrists, social workers, and psychologists talk in one journal. Levy's 1938 paper is an orthopsychiatry object. That is why it can sit on an American timeline without a British Society membership. It is also why "release" traveled into later structured-play talk that never read Klein.
+
+This pack will keep the journal name visible. Dropping it makes 1938 look like a timeless parenting metaphor. It was a paper with pages.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, a medical-play rehearsal, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

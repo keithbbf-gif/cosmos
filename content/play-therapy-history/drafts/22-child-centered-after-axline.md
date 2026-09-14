@@ -52,6 +52,32 @@ It spread because it is teachable, because it fits a fifty-minute university cli
 
 It did not spread because 1947 ended the argument about interpretation. The argument moved. Some trauma trainings returned to more structured play. Some analytic institutes never left interpretation. CCPT became the American counseling default, not the human default.
 
+## Initials, films, and a study that can be coded
+
+CCPT is a late name for a 1947 stance. Initials let a meta-analysis pile papers and let a weekend sell a complete training. The pile is a research decision. The weekend is a market decision. This pack will not confuse them.
+
+Films from UNT and other centers made the hour rewindable. A method that can be filmed can be coded. A method that can be coded can be put in a journal. A method that can be put in a journal can be put on a flyer that skips the sample. Unfilmed private-practice hours still happen. They are harder to count. The evidence-fights essay returns to that.
+
+Dee Ray and colleagues published school-based CCPT outcome papers in the 2000s. Cite the article you open. Do not invent a count. Those papers are why a 2005 review could include school samples. They are also why a district can now ask for an effect size the way it asks for a reading score.
+
+CCPT is not Klein, not sandplay, not Theraplay, not filial (though filial trains parents in a child-centered special hour — Guerney 1964). A parent who hears "play therapy" and a student who hears "CCPT" did not hear the same sentence.
+
+## Default, not destiny
+
+CCPT became the American counseling default because it is teachable, filmable, and free of a British Society vote. It did not become the human default. Analytic institutes kept interpreting. Trauma trainings returned to structure. Sandplay kept a tray. The label spread because Axline was already in the library and Landreth told a program how to look like a program. A default is a sociology. It is not a child's need.
+
+## Weekends, piles, and the difference this pack will not blur
+
+A meta-analysis pile and a weekend complete-training are both uses of the initials CCPT. Only one is a research decision. This pack will keep saying which. Films made coding possible. Coding made journals possible. Journals made flyers possible. Flyers skip samples. Unfilmed hours still happen. They are the more common hour. A history that only counts what was filmed has described a lab, not a county.
+
+Ray's school papers and Landreth's course-shaped book made CCPT countable and teachable. Countable is not destiny. Teachable is not a child's need. A parent who hears play therapy and a student who hears CCPT still did not hear the same sentence. Keep the initials late. Keep 1947 as a stance without the brand.
+
+The initials are late. The stance is 1947. The course is 1991. The school studies are 2000s. The pile is 2005. Keep the years on separate shelves. A default American counseling hour is a sociology. It is not a destiny and not a protocol this page will teach.
+
+If a later writer wants a count of school-based CCPT trials, they must open the trials. This draft will not invent a number. Invented numbers are the other way a stance becomes a slogan. Keep 1947, 1991, 2000s, and 2005 on four shelves. The weekend is a fifth object and a market.
+
+Four shelves and a market: 1947 stance, 1991 course, 2000s school papers, 2005 pile, weekend sold as complete. This pack will not blur them. The next essays leave the initials for other schools that never agreed to be CCPT.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a CCPT session or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer CCPT or any named play protocol as a service.

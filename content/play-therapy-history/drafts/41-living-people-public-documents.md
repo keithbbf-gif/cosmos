@@ -47,6 +47,26 @@ It is not a ban on critique. A 2005 paper can be argued with. A 1982 society can
 
 It is not a ban on women, or on men, or on anyone the field has under-cited. The exclusion essay is a census complaint. This essay is a privacy rule. They can both be true.
 
+## A list, so a later editor can fail a sentence
+
+Public: a book with a publisher and a year; a journal with a volume; a society's officer page; a university death notice; a plenary the person chose to give.
+
+Not public: a trainee's story, a Facebook comment, a scraped headshot, a health rumor, a divorce, a workshop aside you think you remember.
+
+Gil, Bratton, Ray, O'Connor, VanFleet, Kottman — alive on 14 September 2026 — are not public property because they wrote useful books. The books are public. The body is not.
+
+Landreth died 11 June 2026 (UNT). Schaefer died 19 September 2020 (Dignity Memorial). The rule does not loosen. An obituary is not a private-life license. If this pack is edited after another death, file the notice in `BIBLIOGRAPHY.md` and do not embroider.
+
+If you lack a death notice (Louise Guerney, others), write as if the person can read the page. Critique the object — a 2005 paper, a 1982 toll, a 1991 catalog — and do not diagnose the author. The exclusion essay is a census complaint. This essay is a privacy rule. Both can be true.
+
+## Critique without diagnosis
+
+You may argue with a 2005 inclusion rule. You may call 1982 a toll. You may call 1991 a catalog. You may not diagnose a founder. You may not invent a workshop quotation. You may not scrape a face because the featured-image plugin is hungry. `CLAIMS_GUARDRAILS.md` is the refuse list. This page is the living-person subset, written once so an editor can point at it.
+
+## After the next death notice
+
+File it in `BIBLIOGRAPHY.md`. Do not embroider. Do not scrape the funeral photograph. Do not turn a June 2026-style notice into a booking season. The list of living names on 14 September 2026 will go stale. The rule will not: book, journal, society page, university notice, chosen plenary. Not a trainee story. Not a face the plugin wants.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

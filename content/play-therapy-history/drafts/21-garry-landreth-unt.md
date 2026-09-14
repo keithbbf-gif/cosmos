@@ -56,6 +56,20 @@ Do use the 1988 and 1991 dates when you need the American institutional turn: a 
 
 The next essay is CCPT as a school after Axline — the name, the films, the studies — without making Denton the only city.
 
+## 1973, 1987, 1988: a campus decides to be a capital
+
+UNT's "Our Story" page is the timeline to argue with. A first international play-therapy conference on that campus in 1973. A 1987 departmental vote, asked for by a vice president who wanted national goals. A 1988 center under Landreth with a doctoral assistant. He directed it until 2003. Those are budget sentences.
+
+*Play Therapy: The Art of the Relationship* (1991; later 2002, 2012) behaved like a course. Counseling programs assigned it because it is organized, filmed, and American. CCPT as a late-century school name runs through this object more than through 1947.
+
+He sat on APT's first board and is Director Emeritus on the Association's page. Summer institutes made Denton a pilgrimage. The book traveled farther than the campus. A county clinician who has only the book is the more common case.
+
+Died 11 June 2026, UNT public notice. No scraped funeral photograph. No eulogy-as-protocol. Monica Landreth appears in the notice as a spouse of sixty-four years and a scholarship name. That is enough. Birth year 1937 is the conventional public figure; `[VERIFY]` against the notice if you print it.
+
+## Filial descendants, and a book that outran a campus
+
+Landreth's later filial writing is a Denton descendant of Guerney 1964. Do not collapse them. The 1991 textbook is the object American programs actually assigned. Summer institutes made a pilgrimage. Most clinicians never took it. The 11 June 2026 UNT notice closes a living-person outline; it does not open a protocol. Type only.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a room list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer CCPT or any named play protocol as a service.

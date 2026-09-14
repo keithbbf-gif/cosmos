@@ -51,6 +51,24 @@ Humanistic psychology and play therapy shared people, campuses, and a suspicion 
 
 The next essay is Garry Landreth, who took the American non-directive hour into a university center, a textbook, and a profession that wanted hours to count.
 
+## Merrill-Palmer, Detroit, and a second fame
+
+Moustakas worked at the Merrill-Palmer Institute and later at the Center for Humanistic Studies in Detroit. *Children in Play Therapy* (McGraw-Hill, 1953) and *Psychotherapy with Children: The Living Relationship* (Harper, 1959) are the play objects. He later became, in some psychology departments, a phenomenological-methods name. That second fame is why some qualitative researchers have never heard Axline and some play-therapy students have never heard him. The split is departmental.
+
+"Living relationship" is a 1959 title. It is not a 2026 hashtag. Later writers who say the relationship is the therapy are often closer to this shelf than to Klein or to a 2005 abstract. Closer is a historical rhyme. It is not a session.
+
+He did not co-found APT. He did not build a Denton center. He wrote books a library could buy in the Eisenhower and Kennedy years. That is enough to keep him from being a ghost between 1947 and 1991. Humanistic psychology and play therapy shared campuses and a suspicion of interpretation-as-power. The 1953 book is a document of that share.
+
+## 1953, 1959, and a city that was not Denton
+
+Detroit's Merrill-Palmer weather is a different capital. McGraw-Hill and Harper put relationship language on a mid-century American shelf before APT existed. This pack keeps those imprints visible so 1991 cannot look like the first course-shaped book by erasure. He wrote. He did not found the Association. Both sentences are enough.
+
+## Humanistic campuses, and a suspicion of interpretation-as-power
+
+Merrill-Palmer and the Detroit humanistic center shared people with a wider third-force weather. Play therapy borrowed that suspicion: do not turn the doll into a telegram the adult already wrote. Moustakas 1953/1959 are documents of the share. They do not pretend to be 2005 numbers. Asking a 1953 book to be a 2005 review is a category error this series exists to refuse. Type: "Clark E. Moustakas, 1923–2012."
+
+He is the name between Axline and Landreth on syllabi that want a gap filled. Filling a gap is not a life. The 1953 and 1959 imprints are enough. Detroit is enough. Phenomenological-methods fame is a second departmental accident, not a reason to skip the play books.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

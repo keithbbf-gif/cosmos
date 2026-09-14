@@ -49,6 +49,24 @@ Do not skip her because the American exam prefers 1947 and 1982. A tray in a Lon
 
 The next essay is Kalff. The essay after that is the tray itself, as an object that outlived both women.
 
+## A physician in a city of institutes
+
+London in the late 1920s already had analytic societies and the beginnings of a Tavistock weather. Lowenfeld opened a different door: a physician's institute that treated play as a way a child could think. The Institute of Child Psychology (1928) is the institutional date. *Play in Childhood* (1935) is the book date. The World Technique is the method name later sandplay trainings either honor or quietly replace.
+
+She used sand, water, and miniatures. The instruction, in the historical record, is to make a world. The adult attends. Meaning is not a dictionary applied in the first minute. That refusal is why Kalff's later Jungian vocabulary has to be a *translation*, not a discovery of the tray.
+
+British play-therapy organizations in the 1990s sometimes reached back to her as an ancestor. Ancestor is a political word in a registration fight. The 1928 date is quieter. It is also why this pack will not let APT 1982 look like year zero for a tray.
+
+Photographs of worlds, if they exist in archives, are not clip art. This pack's photo rules already said so. Type: "Margaret Lowenfeld, 1890–1973."
+
+## Water, sand, and a method that looked like a game from the corridor
+
+A visitor to the Institute could see a tray and think: play. Lowenfeld's writing treated the making as thought. The corridor mistake is the same mistake later sandplay workshops invite when they put a pretty world on a slide. This pack keeps the 1928 institute and the 1935 book so the corridor cannot rename the method as "just sand." Britain did not wait for 1982 to have a play clinic. That is the load-bearing sentence.
+
+## Why a 1935 Gollancz book still gets mis-shelved
+
+Libraries sometimes file *Play in Childhood* next to developmental surveys. The filing is half right. The other half is a clinic's self-description. This pack keeps both jobs on the table so a reader does not take a 1935 title as a 2026 setup guide. The Institute had staff and a London referral world this page will not reconstruct as a franchise. Staff and referral are the difference between a book and a method.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a world-building exercise, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, the World Technique, sandplay, or any named play protocol as a service.

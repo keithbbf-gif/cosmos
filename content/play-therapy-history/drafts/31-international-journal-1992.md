@@ -47,6 +47,36 @@ Continuing-education flyers quote journals. Students quote journals. A parent ne
 
 The next essay leaves the American binding machine for Britain, where 1992 meant a different association and, later, a different argument about who may use the name.
 
+## Semiannual, quarterly, then an archive a tenure committee could love
+
+*IJPT* began in 1992, semiannual, later quarterly. Later lore names O'Connor's executive-director years and Cynthia K. Bromberg on the first issue; confirm on a masthead. APA archiving made the issues searchable. A field with volume numbers can write dissertations. A field with only newsletters looks, to a provost, like a club.
+
+A society journal prints outcome studies, case essays, theory, and conference leftovers. It makes CCPT, filial, and sandplay look like neighbors because they share a cover. It cannot make a case into a trial. "International" in the title was aspiration; the address was American.
+
+Bratton, Ray, Rhine, and Jones (2005) published in *Professional Psychology*, not in *IJPT*. A specialty journal talks to the specialty. A general journal talks to boards. The 2005 paper wanted the second room. Frequency is a budget. Pressure to fill is how a journal becomes both a science and a newsletter. Watch the article type before you say "research shows."
+
+## Article type as a reading habit
+
+An *IJPT* outcome study is not an *IJPT* case essay. Both can be useful. Only one belongs near a "research shows" sentence, and even then only with a sample. 1992 is the binding year. Semiannual then quarterly is a budget. APA archives are a later convenience. Confirm first-issue names on a masthead. Prestige is why "play therapist" became a job a provost could hear. Prestige is not a protocol.
+
+## Why a binding machine changed a career noun
+
+Before 1992, a student cited books and newsletters. After 1992, a student could cite a volume. Tenure committees understand volumes. That is why 1992 matters more than a first-issue anecdote. Confirm editor names on a masthead. Watch article type. *IJPT* talking to *IJPT* is not *Professional Psychology* talking to boards. 2005 wanted the second room. This essay wanted the bindable first room. Prestige bought a job a provost could explain. It did not buy a protocol.
+
+## Special issues as a society's self-portrait
+
+A special issue tells you what a society wants to look like that year: trauma, schools, filial, sand. The cover is a census. This pack will not treat a cover as a finding. It will treat 1992 as the year the census became bindable. Semiannual then quarterly is how many pages a budget could stand. APA archives are a later convenience for people who were not at the conference.
+
+Watch the article type. A case is a case. A trial is a trial. A historical essay in *IJPT* is a cousin of this folder, not a graph. 2005 left the specialty cover on purpose. This essay stayed with the specialty cover on purpose.
+
+Binding year 1992. Frequency as budget. Article type as a reading habit. Special issues as a self-portrait, not a finding. 2005 left this cover on purpose. This essay stayed on purpose. Confirm masthead names. Prestige is not a protocol.
+
+A student after 1992 could write a dissertation with volume numbers. That sentence is why this era exists. Clubs become fields in libraries before they become fields in statutes. The statute remained the state license. The library gained a binding. Watch what kind of article you cite when you say the journal showed something.
+
+The next essay leaves the American binding machine for Britain, where 1992 meant a different association and a different argument about who may use the name. Binding is not registration. A volume number is not a statute. Keep the objects apart.
+
+Six more words would be padding. A masthead year is not. 1992 remains the bindable date a provost could hear.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

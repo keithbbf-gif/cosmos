@@ -53,6 +53,26 @@ A parent in Southeast Arkansas who hears "we use sand" may be hearing child-cent
 
 The next essay is the tray as an object: wood, sand, catalog, copyright, and the temptation to read it like a tarot.
 
+## Zürich, a word, and societies that kept the word
+
+Kalff's English 1980 book made *sandplay* a catalog word. The German-language life of the work is earlier; name the language when you cite. She had seen Lowenfeld's method and then spoke Jungian: the self, a free and protected space as a slogan later workshops wore thin, a process that is not Axline's reflection and not Klein's association.
+
+Sandplay societies formed with their own hours and their own idea of who may teach. They are not APT. A person can hold both. A website that uses the words as synonyms has already started the brochure.
+
+Patient worlds photograph well and must not be used as decoration. An empty tray with rights is the only object this pack will allow a graphics agent to shoot. A "typical" world on a slide is a reading. We will not read.
+
+Living sandplay teachers are living people. Public books only. The 1980 title page is enough for this essay. Later society websites are organizational dates, not session notes.
+
+## A slogan that workshops wore thin
+
+"Free and protected space" became a phrase later flyers could print without a 1980 book. Slogans travel. Vocabularies do not. This pack will keep Kalff's English title page as the object and Lowenfeld's tray as the older furniture. If a later society page dates a founding year, add it to `BIBLIOGRAPHY.md`. Do not add a reading of a buried figure.
+
+## Jung as weather, not as the carpenter of the box
+
+The sister pack has Jung as a life. This pack has a tray that went to Zürich and came back with different nouns. Jung did not invent the box of sand. Lowenfeld's furniture was already built. Kalff's 1980 English book is the translation that American catalogs could order. Translation is the honest word. Discovery is the brochure word. We will keep translation.
+
+A later editor who dates a sandplay society founding should file the year in `BIBLIOGRAPHY.md` and leave the reading of scenes out. Societies are organizational dates. Scenes are clinical objects this website will not interpret.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a sand-tray reading, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer sandplay, the World Technique, or any named play protocol as a service.

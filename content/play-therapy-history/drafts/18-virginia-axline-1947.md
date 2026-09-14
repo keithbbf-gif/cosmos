@@ -57,6 +57,18 @@ A small-city clinician who tries to stay out of the child's way is standing in h
 
 The next essay is the 1964 book that made a single child famous, and made later writers argue about what a famous child is for.
 
+## Teachers College, 1950, and a career that was not only one book
+
+Axline completed an Ed.D. at Teachers College in 1950. She taught at Chicago, Columbia, NYU, and again in Ohio, and kept a practice. The public objects remain 1947 and 1964. The career matters because later slides treat her as a single title. She was a working counselor-educator in the Rogers weather, then in her own.
+
+The eight principles later trainings numbered are in the 1947 book. This pack will not number them. Numbering is how a stance becomes a laminate. A laminate is a protocol. We will say the book offered principles. We will not offer them.
+
+She was born 31 March 1911 and died 21 March 1988 — the year the UNT Center opened, six years after APT. The calendar is tight. "Axlinean" and "Landrethian" are later nicknames. The documents have dates. Houghton Mifflin 1947 is not Routledge 2012.
+
+## Ohio, then the coasts, then Ohio again
+
+Standard biographical notices put her in Columbus, Chicago, New York, and back. The migrations matter because later slides freeze her in 1947. She kept working. *Dibs* is 1964. The death year is 1988. Houghton Mifflin is the 1947 publisher; later paperbacks are later objects. This pack will not laminate the principles. It will keep the 1947 title page as the American non-directive date that is not year zero.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, Axline's principles as a checklist, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, CCPT, or any named play protocol as a service.

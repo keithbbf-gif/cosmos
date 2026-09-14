@@ -57,6 +57,28 @@ Play as a clinical object: 1921 technique paper to 1982 society to 2005 graph, w
 
 If that is not the sentence you wanted, walk. We will not duct-tape the walk into one post.
 
+## Walk, do not merge
+
+Counseling house: `content/wowtherapies-therapy-history/` — Pinel to Berg. This pack pointed at `anna-freud`, `melanie-klein`, `donald-winnicott`, `carl-rogers`, `carl-jung`, `alfred-adler`, `judith-herman`, `mamie-phipps-clark` and refused to paste the lives.
+
+ACT/mindfulness: `content/act-mindfulness-therapy-history/` — a cushion is not a tray. Linehan lives there. Not here.
+
+CBT deepen: `content/cbt-history-deep/` — Beck, Ellis, EST lists. Child CBT that uses play as a delivery device is their later problem.
+
+SLPWOW: Van Riper, fluency, school SLP, dysphagia, AAC. A child may be in both hallways. The professions do not merge. Do not import speech graphics or this pack onto a speech URL.
+
+This folder, in one sentence: play as a clinical object from a 1921 technique paper to a 1982 society to a 2005 graph, with rooms, trays, and refusals. If that is not the sentence you wanted, the other folders exist. A hub page may list both calendars. A single URL should not pretend to be both.
+
+## A hub may list; a post may not impersonate
+
+A series hub can list the counseling calendar, the ACT stages, the CBT deepen, the SLPWOW lane, and this play calendar. A single post that pretends to be all five has failed the sister-pack test. If you can delete the word *play* and the essay still works as general therapy history, it belongs next door. If you can delete the claims box and nothing feels missing, the box was never working. Walk.
+
+## Delete-a-word tests
+
+If you can delete *play* and the essay still works as general therapy history, it belongs next door. If you can delete *child* and the essay becomes sand-tray mysticism, it failed the fence. If you can delete the claims box and nothing feels missing, the box was decoration. Decoration fails this pack. A hub may list five calendars. A post may not impersonate them.
+
+This folder's one-sentence job remains: play as a clinical object from a 1921 technique paper to a 1982 society to a 2005 graph, with rooms, trays, and refusals. If you wanted Freud's life, Rogers's life, Van Riper, Hayes, or Beck's manuals, the other folders exist. Walk. Do not ask this URL to impersonate them.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

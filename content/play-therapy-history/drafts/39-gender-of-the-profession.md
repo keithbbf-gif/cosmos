@@ -53,6 +53,32 @@ The person who answers the phone, the person who sits on the floor, and the pers
 
 The next essay is the evidence fight: what happens when a majority-women, floor-sitting workforce is asked for a graph by a profession that still likes a white coat.
 
+## The hallway and the slide
+
+APT hallways in the 1990s and 2010s looked like school counseling and social work: mostly women, fewer men at the microphone. Origin slides named Schaefer, O'Connor, Landreth, Guerney — and, if careful, Axline, Jernberg, Louise Guerney. Both hallway and slide are true.
+
+"Father of play therapy" is a gift the field keeps giving organizing men. The method papers are not a men's club. A "mother of" sentence is not the repair. This series banned both crowns unless quoting a myth.
+
+RPT hours assume extra time after a caseload. Extra time is gendered in an already underpaid workforce. Filial work puts a household's gendered labor on the table; American clinics often heard "mother" whether the 1964 paper said it or not.
+
+A man in the playroom meets other stereotypes. Children's hours meet gendered toys. A truck is not a destiny. Neither stereotype is a finding. The person who answers the phone, the person on the floor, and the person on the handbook are not always the same person. The microphone did not invent the field.
+
+## Vocation as a word that underpays
+
+Play therapy's public story treats the floor as vocation and the handbook as science. Vocation is a word that has been used to underpay. This pack will not compliment women for sitting on the floor. Sitting on the floor is work. Membership numbers and pay gaps need a year you can `[VERIFY]`. Until then, the hallway-versus-slide tension is the load-bearing fact. Do not write a recruitment ad.
+
+## Microphones, floors, and three jobs that are not one person
+
+The person who answers the phone, the person who sits on the floor, and the person whose name is on the handbook are not always the same person. Origin slides hide that split. Hallways show it. "Father" sentences hide it again. This pack banned the crown unless quoting a myth. Hours as a quality signal hide the unpaid extra time. Filial work hid "mother" in the hearing even when the 1964 paper said parent. Name the hearing.
+
+## Unpaid extra time as a hidden hour requirement
+
+RPT-style hours assume a person can stay after a caseload. Staying after is unpaid more often than handbooks admit. A majority-women workforce already leaning underpaid will feel that hidden hour as a gate, not as a quality bar. This pack will not abolish hours. It will not treat hours as pure signal. Verify membership percents before you print them. Until then, hallway versus slide is the fact.
+
+Hallway versus slide. Floor versus microphone. Vocation as a word that underpays. Hidden extra hours as a gate. Filial hearings that said mother. No recruitment ad. No father-crown except as quoted myth. Verify percents before you print them.
+
+A later print pass that wants a percentage should open an APT membership report with a year. Until then, do not invent a majority number even if the hallway makes it obvious. Obvious is not a citation. The slide versus the hallway remains the citable tension from programs you can still look at.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

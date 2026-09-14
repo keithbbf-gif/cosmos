@@ -51,6 +51,32 @@ Southeast Arkansas has different stores than a coastal training city. A history 
 
 The next essay is the gender of the people who stocked the shelf and sat on the floor — a workforce fact, not a compliment.
 
+## Completeness as a purchase order
+
+Late-century textbooks implied a complete shelf: family, aggressive, nurturing, expressive. Completeness has a receipt. A university clinic could look complete because a department paid. A county office bought a tub from a discount store. Both have been called play therapy. The child who has never seen a two-story dollhouse is not failing the method. The method assumed a catalog.
+
+Aggressive-toy debates are American culture wars in miniature, dated to the year of the textbook or the school ban. Flea-market miniatures, praised as democratic, are a time tax: Saturdays are class. Hospital rooms buy washable objects because infection control is a patron. School closets buy what a PTA can stand.
+
+Using a child's home toys can be humble and can be surveillance of a household's catalog. A clinician who reads cheap plastic as impoverished play has already written a class note. Axline 1947 assumed materials. Completeness is later professionalization. Professionalization is how a field starts to look expensive. A Delta county has different stores than a coastal training city.
+
+## Licensed plastic, and the tray that accidentally became a copyright problem
+
+Disney figures on a tray are a legal problem as well as a class problem. A late-century shelf often included licensed plastic because the catalog sold it. This pack can say that. It cannot say what the plastic means. Do not publish an Amazon list. Do not rate brands. Do not photograph a child's toy as evidence. Prices are historical. A method that forgets the price will mistake a budget for a psyche.
+
+## PTA budgets and washable objects as theories
+
+A PTA budget writes a theory on a school shelf. Infection control writes a theory on a hospital shelf. A department budget writes a theory on a university shelf. None of them call it a theory. This pack will. Completeness is a purchase order. Axline assumed materials, not a 1991 completeness. A Delta county store is not a coastal training catalog. Do not publish a shopping list. Do not rate brands.
+
+## Discount-store dollhouses and the completeness myth
+
+A two-story dollhouse from a coastal catalog and a one-room plastic house from a county discount store are both houses. A method that treats only the first as real play has written a class note. This pack will not teach a better note. It will say completeness is a 1991-shaped myth. Axline assumed materials. Materials are not a franchise shelf. Do not publish Amazon. Do not photograph a child's toy.
+
+Receipts write theories. PTA, infection control, department budgets, discount stores, coastal catalogs. Completeness is a purchase order. Licensed plastic is a copyright problem. Do not Amazon. Do not photograph a child's toy. A Delta county is not a coastal shelf.
+
+A later graphics pass will want a pretty shelf. A pretty shelf is a catalog photograph. Catalog photographs flatten class. This pack's photo rules already banned the smiling child. They should also ban the aspirational shelf used as if it were everyone's room. Type is enough: toys have prices.
+
+The next essay is the gender of the people who stocked the shelf and sat on the floor — a workforce fact, not a compliment. Prices and percents are different receipts. This page held the price. The next page holds the hallway. Neither is a shopping list.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session or a shopping list. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

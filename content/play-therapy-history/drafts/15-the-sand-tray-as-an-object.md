@@ -58,6 +58,26 @@ This series will not sneer at the classroom. It will not bless it. It will say t
 
 If you came here to learn how to stock a shelf, stop. If you came here to understand why three trainings share a rectangle, the rectangle is the history.
 
+## Dimensions, lids, and the carpentry of a method
+
+Trays have insides. Later manuals specified dimensions and the usefulness of a lid. This series will not reprint the numbers. Numbers become a build list. A build list is a protocol. The historical fact is that a method that needs a rectangle will eventually publish the rectangle's size. Publishing a size is how a field starts to look like furniture design.
+
+Blue sand, dry sand, wet sand: later trainings argued as if the moisture were a theory. Moisture is a theory if you are Kalffian. Moisture is a cleanup problem if you are a school counselor with ten minutes and a carpet. Both sentences are true in their buildings.
+
+Miniatures have copyrights. Disney figures on a tray are a legal problem as well as a symbolic one. A history page can say that a late-century tray often included licensed plastic. It cannot tell you what the plastic "means."
+
+The catalog flattened three names — World Technique, sandplay, sandtray — into one shopping category. Flattening is the market's job. Unflattening is this pack's job. If a parent in Arkansas hears "we use sand," the honest follow-up is "which training," not "what did the buried horse mean."
+
+## Three names at one cash register
+
+World Technique, sandplay, sandtray: the warehouse does not care. A rural clinic that orders "a sand tray kit" has bought the flattening. Unflattening is a training problem, not a caption problem. This essay's only remaining job is to keep the cash register in the story so a psyche cannot pretend it shopped itself.
+
+Homeyer and Sweeney's later manuals are counseling-school objects. Cite the edition you hold. They are not Lowenfeld 1935 and not Kalff 1980. The rectangle is what they share. The rectangle is not a school.
+
+## Cleanup, carpets, and the school hour that borrowed the furniture
+
+A 2020s classroom that uses five minutes of sand as a calm-down tool is not a 1935 London world and not a 1980 Jungian process. It is a thinner object that borrowed the furniture. This series will not sneer at the classroom and will not bless it. Borrowing is why a claims fence has to mention trays by name. Moisture is a theory in one building and a cleanup problem in another. Both buildings exist.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a tray reading, a shopping list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer sandplay, sandtray therapy, the World Technique, or any named play protocol as a service.

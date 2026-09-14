@@ -52,6 +52,34 @@ Grant applications learned to say "meta-analysis." Parents learned to say "resea
 
 The next essay is the credential that tried to turn weather into hours: the RPT as an association object.
 
+## Volume 36, number 4, and a split slides later turned into a championship
+
+*Professional Psychology: Research and Practice* 36(4), 376–390, 2005. Bratton, Ray, Rhine, and Jones treated play therapy as a countable family and reported an overall effect. They also split humanistic-leaning from nonhumanistic-leaning approaches. Slides flattened the split into a trophy. Both bars are objects inside one article. They are not a reason to pick a weekend.
+
+A meta-analysis inherits the pile's weaknesses: small samples, wait-list controls, mixed methods under one umbrella. Argue with inclusion rules. Do not argue with a slogan. Filial studies sat in the pile in ways later marketers liked. Cite the paper, not the marketer.
+
+Bratton and Ray are living. Public paper only. Later reviews exist. 2005 did not end the debate. Do not put an effect size next to a booking button. Do not write gold-standard. A county clinic that never opened pages 376–390 still lives in their weather. Weather is why this pack gave the paper its own essay.
+
+## Placement as an argument
+
+Publishing in *Professional Psychology* was a decision to talk to boards, not only to *IJPT*. Volume, issue, and pages are the object. Living authors: the paper only. Later reviews: name them if you open them. A grant application that says "meta-analysis" without opening 376–390 is using weather. This pack named the weather's address so a slogan cannot steal it.
+
+## Inclusion rules are the honest argument
+
+If you want to fight 2005, fight what was in and what was out. Do not fight a conference slogan. Humanistic versus not is a split inside the article; slides made it a championship. Filial marketers liked their share of the pile. Cite 376–390. Living authors: the paper. A county that never opened the pages still inherited "research-based" as weather. This pack named the address of the weather so a booking button cannot steal a number.
+
+## What a graph cannot do in a waiting room
+
+A graph cannot consent. A graph cannot sit with a child. A graph cannot tell you whether the comparison was a wait-list or another skilled adult. This pack named volume, issue, and pages so a flyer cannot steal a number without an address. Living authors: the paper only. Later reviews: name them if you open them. 2005 did not end the debate. It made a weather system. The county still lives in it.
+
+36(4): 376–390. Fight inclusion rules, not slogans. Living authors, paper only. A graph cannot consent. A wait-list is not another skilled adult. Weather, not a booking number. Later reviews if you open them.
+
+A later print pass that opens a successor review should add it beside 2005, not instead of 2005. Successor reviews do not erase a weather system. They change it. This pack named the first widely carried graph so a flyer would have to carry an address too: 36(4), 376–390.
+
+The next essay is the credential that tried to turn weather into hours: the RPT as an association object. A graph is not a credential. A credential is not a license. Three objects. Three verbs. Do not let a flyer merge them.
+
+Pages 376 to 390 are the object. The slogan is the theft. This pack kept the pages so the theft has an address to fail against. Weather stays weather.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. It does not promise an outcome. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

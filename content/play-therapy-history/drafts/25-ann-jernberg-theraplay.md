@@ -47,6 +47,28 @@ A conference that wants more than one verb — reflect, interpret, structure, sa
 
 If you want the adult who sits still, read Axline. If you want the adult who moves, read the 1979 title page and then stop before the first game.
 
+## Chicago, Head Start weather, and a 1979 name
+
+Jernberg's public origin stories, in later Institute tellings, include work with children who needed an adult more active than a 1947 stance. This draft will not reconstruct a Head Start hour she did not film for us. It will keep Jossey-Bass 1979 as the book date and APT's first board as the membership date.
+
+Theraplay's public face is stealable: motion, structure, a vocabulary that sounds like parenting advice. Blogs steal it. This series will not help. Attachment popularization later wrapped some marketing. Bowlby and Ainsworth belong next door. A 1979 book can be *read* through later attachment talk. It cannot become a Strange Situation on this website.
+
+Physical play in a clinic has a risk history: bodies can harm. A method that uses bodies has to answer that in a training, not in a heritage essay. We will name the risk and refuse the game list.
+
+Death dates in circulating notices cluster around 1993 `[VERIFY]`. Until the bibliography line is clean, do not print a confident year. Type: "Ann M. Jernberg" and the 1979 title.
+
+## First-board structured play, and a name that still startles
+
+People who think play therapy means sitting still meet 1979 as a shock. That shock is historical. Jernberg gave APT a structured-play founder on the original letterhead. The later Institute is a training economy. This pack will not teach dimensions. It will keep Jossey-Bass 1979 and the first-board fact. Verify the death year before you print it. Physical play has a risk history; the answer belongs in a training.
+
+## Why structured play had to be on the 1982 letterhead
+
+An umbrella that only hosted sitting-still hours would have left a 1979 book outside the society. Jernberg on the first board is how the umbrella stayed wide. Wide is Schaefer's later prescriptive habit in social form. This pack will not teach a game. It will keep the shock: play therapy, in one 1979 title, meant an adult who moves. Attachment wrap is later marketing weather. Bowlby stays next door.
+
+Jossey-Bass 1979 used the period phrase problem children. The phrase is 1979 clinic English. Do not sanitize it into wellness copy and do not reuse it as a diagnosis. The book named a structured adult. The later Institute named a training path. This website names the year and refuses the path.
+
+Verify the death year before a print pass. Until then, omit it. Keep 1979, Jossey-Bass, first board, and the shock that an adult might move. Keep the risk sentence about bodies. Leave the games in the training. Leave Bowlby next door.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach Theraplay dimensions, games, or a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer Theraplay or any named play protocol as a service.

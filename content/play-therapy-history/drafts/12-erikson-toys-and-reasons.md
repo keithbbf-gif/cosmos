@@ -51,6 +51,20 @@ Do use the citation, if you are writing history, when you need an American mid-c
 
 The next stage of this series leaves the analytic and developmental books and enters rooms built around a tray of sand and a world of miniatures: Lowenfeld first.
 
+## Configurations in a mid-century American office
+
+Erikson watched children arrange blocks and figures and then wrote as if the arrangement had a grammar. A wall, a tower, an open space, a wrecking: he treated these as sentences about a life stage and a culture. School psychologists later built coding sheets. Coding sheets are not 1950. They are what a profession does when it wants a configuration to sit still long enough to score.
+
+*Childhood and Society* escaped because it offered a life-cycle chart a guidance counselor could draw. *Toys and Reasons* (1977) is the book that actually puts toys in the title. Assigning the 1950 chart as a play manual is a category error. Assigning the 1977 book as a session is another. This pack names both errors.
+
+His cultural chapters — Sioux, Yurok — were later criticized as mid-century anthropology with a psychoanalytic passport. The critique is fair and belongs to historians of that anthropology. A play-therapy syllabus that reprints those chapters as "how other cultures play" without the critique is doing 1950 again.
+
+He is not an APT founder. He is the American name for the idea that a child's arrangement can be thought about without becoming Kleinian speech and without becoming only a reflection. Thought is allowed. A score is a later, thinner object.
+
+## Identity's chalkboard, and the five-year-old who was not in a career crisis
+
+Guidance counselors drew the eight ages because the chart was teachable. Teachability is how a 1950 book became a play rumor. A playroom hour is not a life cycle. This pack will keep saying so. *Toys and Reasons* (1977) is the later, more honest title for readers who actually want toys in the sentence. Assign it as a 1977 object. Do not assign it as a session.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a configuration reading, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

@@ -56,6 +56,22 @@ If you want the full British Society, read King and Steiner. If you want the liv
 
 The next essay leaves the committee and sits with Winnicott's claim that playing is the thing — not the interpretation of the thing, and not the refusal to know anything.
 
+## Minutes, not mythology
+
+King and Steiner's 1991 volume is thick because the Society was thick. People spoke at length. They quoted Freud. They accused each other of not quoting Freud. A later American reader who wants a two-sentence summary will be tempted to say "Klein won play" or "Anna Freud won caution." The minutes do not sell either trophy. They sell a training compromise and a paper trail.
+
+Susan Isaacs's contributions, in those meetings, treated children's play and phantasy as evidence that could be argued in a scientific society, not only in a nursery. Paula Heimann's later work on countertransference belongs to a different essay and a different decade. This page only needs the 1941–45 fact: play was admissible as *scientific* material in a vote about the Society's future.
+
+Wartime London also meant evacuated children, night meetings, and deaths. The weather of the minutes is a city under bombs. That weather does not make the theory true. It makes the sharpness of the fight less mysterious. People were training the next generation while the current one was being killed. A technique quarrel in that weather is not a luxury. It is a claim about what must be handed on.
+
+The Middle group — later Independents — is where Winnicott's play theory could sit without joining a camp. The next essay takes his 1971 book. The Discussions are why that book had a third place to sit.
+
+## A training vote that outlived the bombs
+
+After the meetings, the Society still had to qualify people. The A / B / Middle arrangement is the social form of an unsolved play quarrel. Students learned whose seminar they were in. Patients did not get a brochure explaining the vote. American play therapy later hosted the descendants without the vote. That is why a 1982 conference grid can look peaceful. The peace is an American convenience, not a 1944 conclusion.
+
+If a later editor wants a single page number from King and Steiner, they should open the volume and put it in `BIBLIOGRAPHY.md`. This draft used the book as a dated archive, not as a quote farm.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, child analysis, or any named play protocol as a service.

@@ -62,6 +62,18 @@ If you came here to learn how to open a playroom, this page will not help you. I
 
 The next essay names the first analyst who tried, in a journal, to say how a child analysis might be done — and whose death made later writers nervous about citing her.
 
+## The child-guidance team as a three-headed animal
+
+American clinics in the Commonwealth Fund years liked a triad: psychiatrist, psychologist, social worker. The child sat in the middle and was talked *about*. Play, if it happened, happened while the triad wrote. Later play therapists inherited the triad's file even when they sat on the floor. The floor changed the posture. It did not abolish the file.
+
+Healy's 1909 Chicago institute next to a juvenile court is the American date this pack will keep printing. It is not a play-therapy date. It is the date a city agreed that a child's trouble could be a medical-psychological object instead of only a legal one. Without that agreement, Axline's 1947 book has no waiting room.
+
+British child guidance after 1918 had the Child Guidance Council and a different argument with psychoanalysis. The names differ. The invention is cousin: a referral, a team, a mother in the hallway. Horn and Jones are American books. A later pass that wants the London Council minutes should open them and mark the year.
+
+## What a file made possible, and what it forbade
+
+A file made it possible to say "this child was seen on Tuesday." It forbade the older village habit of treating the trouble as a family's private weather. Privacy became a professional promise instead of a neighbor's discretion. Play therapy later wrote that promise onto a door with a lock. The lock is younger than the file.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

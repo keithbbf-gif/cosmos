@@ -41,6 +41,20 @@ It cannot give a child. It cannot give a slot on Tuesday. If the practice later 
 
 The more common Arkansas fact is the drive: to Little Rock, to a university clinic, to a private therapist two counties over. School-based work, if it exists, is the form that does not require the drive. The school essay already said the closet. This paragraph says the gasoline. Heritage education that forgets the gasoline has described a syllabus again.
 
+## Three services on the homepage, and a fourth word in the waiting room
+
+WOW Therapies, as last fetched, presents occupational, physical, and speech services. Parents still arrive saying "play therapy" the way they say "sensory" or "trauma." The words traveled farther than the trainings. Amazon sold *Dibs*. Google sold APT. A school sold a closet. A city hospital sold child life.
+
+The clinic cannot be all of it. Psychotherapy-shaped play needs a mental-health license the OT/PT/SLP walls may not be. Play as a developmental strategy inside OT or speech is a different job. SLPWOW owns the speech-heritage lane. Merging jobs to keep a customer is how a brand gets ahead of a board.
+
+What this folder can give a county: dates, book names, a refusal to teach the hour, a map to Freud or Van Riper if that was the actual want, a warning that RPT is not a license and a tray is not one school. It cannot give a Tuesday slot. If the practice later builds a named mental-health service, that service needs a person, a license, a supervisor, and a page that is not this one.
+
+The more common Arkansas fact is the drive — to Little Rock, to a university clinic, to a therapist two counties over. School-based work, if it exists, is the form that does not require gasoline. Heritage that forgets gasoline has described a syllabus again.
+
+## A history URL is not a department
+
+Hosting forty-five drafts does not add a play-therapy department to an OT/PT/speech homepage. If a later service page photographs a room, that photograph needs consent and a different review. This folder's graphics are type and period objects. The inheritance is vocabulary. The refusal is the menu. Gasoline, closets, and a license wall remain the county facts.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, occupational play-based treatment, or any named play protocol as a service.

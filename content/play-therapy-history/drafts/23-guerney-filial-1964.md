@@ -49,6 +49,26 @@ A practice that only sees children in a back room is making an economic and theo
 
 If you came here to start filial work this week, this series will not help you. If you came here to understand why a 1982 board already included a Guerney, the 1964 rationale is why.
 
+## Penn State weather, and a wife on the first board
+
+Bernard Guerney Jr.'s 1964 *Journal of Consulting Psychology* paper is the rationale. Louise Guerney's later teaching made a workforce. APT's original directors included her. A history that says "Guerney 1964" and means only Bernard is doing the ordinary theft. The 1966 *Yale Scientific Magazine* piece with Andronico took the idea to a literate public that did not read psychology journals.
+
+Later manuals added structure and session counts, including Denton descendants. Those manuals are later objects. Rise VanFleet's filial books are a 1990s-and-after public line. She is living. Name a title if you open it. Do not teach a format.
+
+Bernard's death year in circulating notices is 2019 `[VERIFY]`. Louise, at last verification for this draft, is treated as living until a public notice is filed. Living-person rules apply.
+
+Filial is not CCPT with the child only, not "go play with your kid," not Theraplay, not a token economy. The 1964 rationale sits closer to the child-centered hour than to a chart. Closer is not identical. Managed care later liked anything that looked transferable. That liking is a later political fact, not the 1964 paper's homework assignment.
+
+## A rationale paper, then a workforce, then a market
+
+1964 is a journal. 1966 is a magazine. The 1982 board is a membership. Later session-count models are a market. This pack will keep those layers. Parents as agents was a clinic claim with supervision, not a blog. If a later editor confirms Bernard's 2019 notice and Louise's status, file both in `BIBLIOGRAPHY.md`. Until then, write as if a Guerney can read the page.
+
+## Supervision is the word blogs drop
+
+The 1964 rationale assumes a clinic that trains and watches. Blogs keep "parent" and drop "supervised." This pack will keep supervised. Louise Guerney on the first APT board is the membership fact that stops a husband-only citation. VanFleet is a later living line: public titles only. Denton filial formats are descendants. 1964 is the parent paper, not the market.
+
+Andronico on the 1966 magazine piece is a third name this pack will not drop. A rationale that traveled into *Yale Scientific* was already trying to leave the journal. Leaving the journal is how a clinic idea becomes a public rumor. The rumor dropped supervision. We will not.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach filial sessions or a home program. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer filial therapy or any named play protocol as a service.

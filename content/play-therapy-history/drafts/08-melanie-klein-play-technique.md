@@ -55,6 +55,16 @@ Some institutes still assign Klein because they are analytic. Some counseling pr
 
 The sister slug has the rest of the life. The next essay has the society that had to live with both Anna Freud and Klein in the same building.
 
+## Berlin first, then a London technique
+
+Klein's play technique was not born in the Controversial Discussions. She had already been seeing children in Berlin, already presenting, already writing toward the 1932 book. London made the technique a pole. Berlin made it a practice. Histories that start in 1941 skip the work.
+
+Small toys, a stable setting, interpretations that named attack and reparation early: later American students heard this as cruelty or as magic. It was neither in her terms. It was a claim about time. The infant's world was already organized. Waiting for speech was, on that view, a way to stay polite and miss the hour.
+
+Object-relations descendants — not all of them Kleinian in the strict training sense — carried pieces of that claim into rooms that also had sand and dollhouses. A 1990s American "object-relations play therapy" weekend is not 1932. It is a marketplace object that rented the nouns. This series will not teach the weekend. It will say the rental happened.
+
+The 1932 book remains the object to hold. If you cannot hold it, do not paraphrase a blog's "Klein thought play was the unconscious." She thought play could be treated as association. That is a narrower, stranger, more technical sentence. Keep the narrower sentence.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy, Kleinian analysis, or any named play protocol as a service.

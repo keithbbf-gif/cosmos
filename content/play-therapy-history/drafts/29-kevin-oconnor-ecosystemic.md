@@ -50,6 +50,28 @@ Type only.
 
 Origin stories like a single father. APT's own pages refuse that convenience: two co-founders, a first board that was already a coalition. O'Connor is the name that keeps 1982 from becoming a Schaefer biography. The next essay is the Association as an institution — dues, conferences, and the word *national*.
 
+## Fresno as a mailing address, and a hallway that counts
+
+APT histories put the Association's offices at CSPP Fresno when O'Connor was on faculty. A national society that lives at a professional school will sound like that school. He built the early newsletter. The emeritus page lists board service 1982–2003, emeritus 2004. *The Play Therapy Primer* (Wiley, 1991) is a public book. Later work named ecosystemic play therapy: the child in family, school, and culture, not only in a fifty-minute bubble.
+
+Family therapists had already made the hallway count (sister pack: Satir, Minuchin). O'Connor's public books tried to make the refusal play-shaped for people who would sit APT hours anyway. Refusal is a scope sentence, not a protocol.
+
+He is living. Public books, the 1983/1994 handbooks, and APT's own pages only. No scraped CSPP photograph. The second founder keeps 1982 from becoming a Schaefer biography. Origin stories like a single father. APT's own pages refuse that convenience.
+
+## Newsletter labor, and a 1991 primer
+
+Societies become file cabinets because someone writes the first newsletter. APT histories give him that labor. The *Primer* (1991) is a Wiley object. Ecosystemic is a later name for a hallway that family therapy already knew. Living author: public books and APT pages only. The second founder is why 1982 is a co-founding, not a coronation.
+
+## Scope as a historical sentence
+
+"The hallway counts" is not a technique. It is a scope sentence against a playroom fetish. Family therapy said it in another vocabulary. O'Connor's public books said it play-shaped for APT hours. Living author. 1991 *Primer*. 1983/1994 handbooks. Emeritus dates from APT's page. Fresno as address. Newsletter labor. The second founder is the sentence that stops a single-father origin story.
+
+Cite the *Primer* edition you hold if a later subtitle changes. Ecosystemic remains a name for a refusal of the bubble hour. Family, school, culture: the hallway. Living author. APT emeritus text. 1983 handbook as co-editor. The second founder is the anti-coronation sentence. No CSPP scrape.
+
+Living. Newsletter labor. Fresno address. 1982–2003 board, 2004 emeritus, on APT's page. 1991 Primer. Ecosystemic as a hallway name. Second founder. No headshot. Cite the edition you hold if the subtitle moved.
+
+A play-therapy history that skipped the second founder would crown the first. APT's own pages refuse the crown. This pack follows the pages: two names, a newsletter, a Fresno address, a 1991 primer, a hallway noun. Living. Public only.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach ecosystemic play therapy or a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

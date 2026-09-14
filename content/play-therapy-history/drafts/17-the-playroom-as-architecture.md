@@ -54,6 +54,26 @@ WOW Therapies does not, by hosting this history, claim a playroom. If a later se
 
 The next stage leaves architecture for a 1947 book that made the American non-directive room famous without drawing the plumbing.
 
+## Sinks, toilets, and the room that can survive paint
+
+A sink in a playroom is a theory of mess. Landreth's 1991 course-shaped book wanted one if you could get one. A school closet rarely has one. A church basement may have one down the hall. Architecture decides what "expressive" play is allowed to cost in cleanup.
+
+One-way glass, in university clinics, made a pedagogy: many students, one hour, a booth. Consent and recording law changed around the glass. The glass stayed because it is efficient. Private offices in county seats usually have no glass. Supervision happens later, on a tape or a story. APT hours assume supervision. They do not assume a booth. Brochures that show a glassed Denton room as "the" playroom are selling a campus.
+
+Fire codes, square footage, and a neighbor who can hear: these are why a playroom is a lease problem and not only a method problem. This pack will not draw a floor plan. A floor plan is a build list. Type is enough: "a room with a door that closes."
+
+## Church basements, grant closets, and the word that fits on a form
+
+A grant application can call a storage room a playroom because the word releases money. Architecture knows the difference. So does a child who has to walk past a copier to get to the tub of animals. This pack will not moralize the closet. It will not bless the glassed university room as the real one. It will say both exist, and that Landreth 1991 described a course-shaped room many leases cannot hold.
+
+## Consent on the glass, and the office over a pharmacy
+
+One-way glass is efficient pedagogy and a consent problem. Recording laws changed. The booth stayed in a lot of university clinics. A rented office over a pharmacy usually has no booth. APT hours assume a supervisor, not a booth. Brochures that show only Denton glass are selling a campus. This pack will not draw plumbing. A sink is a theory of mess. A closet is a theory of budget. Both are architecture.
+
+A lease, a lock, a fire code, and a neighbor who can hear remain the four facts a method paper likes to skip. This pack will keep all four. Square footage is not a soul. It is why a grant closet and a glassed clinic cannot share a floor plan without lying.
+
+The next stage of this series leaves architecture for a 1947 book that made the American non-directive room famous without drawing the plumbing. Plumbing remains a lease problem. A method paper that skips the lease has already started a catalog.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a room build, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

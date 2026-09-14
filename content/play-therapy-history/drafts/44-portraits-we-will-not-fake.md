@@ -55,6 +55,24 @@ WOW Therapies does not need a fake Vienna to look serious. It needs a sentence t
 
 The last essay is the map: where to send a reader who came to the wrong folder.
 
+## A credit block, or nothing
+
+Allowed: type (name, dates, epithet); a title-page scan if every credit bracket fills and the *page* is PD/CC (jackets are often still ©); a PD toy-catalog page captioned as a catalog; a series template; an empty tray the practice owns, with rights, no scene.
+
+Banned: AI faces; AI children; "what Dibs looked like"; colorized guesses; cropped documentary stills; Freud 1909 as if he ran a playroom; stock therapist-and-child; patient sand worlds; hospital beds; doll-study stills; atrocity.
+
+A child's face is a special ban. This is not only copyright. Decoration that uses children as proof has already started a clinical job it does not have consent to do. *Dibs* is a book. The boy is not clip art.
+
+Almost every figure in this pack is `portrait: none` because twentieth-century photographs are not free and living authors are living. Type is checkable. A generated Hug-Hellmuth is not. If you cannot fill the credit block in `PORTRAIT_SOURCES.md`, do not upload.
+
+## The import plugin is the enemy
+
+Auto-featured-image tools pull stock children. SEO tools want a face. This pack's instruction is a series template: wordmark plus title. Build one. Reuse it. On upload day, re-open any Commons URL; licenses get edited. The license table wins over a beautiful unlicensed face. A beautiful unlicensed child does not ship either.
+
+## Empty tray, owned, no scene
+
+If a graphics agent wants an object, an empty tray with rights is the ceiling. A world in the sand is a patient's or a child's arrangement. Not clip art. Title pages only if the *page* is clean. Jackets are often still ©. Type is enough for a small-city site that does not need a fake Vienna. Re-open Commons on upload day.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

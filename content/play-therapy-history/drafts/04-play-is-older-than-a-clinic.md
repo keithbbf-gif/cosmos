@@ -70,6 +70,18 @@ The useful inheritance from this long preface is modest. Play has always been so
 
 The next essay leaves the street and enters the moment when a child became a *patient* — a different kind of watching, with a file.
 
+## A printed childhood, and the toys that survived a fire
+
+When a house burned in an early modern town, inventories sometimes listed a doll or a hobby-horse next to the beds. The listing is not tenderness. It is property. Play objects entered the legal record as things that could be owned, inherited, or mourned as loss. That is a different door into the same fact the museum drawer already showed: adults noticed play when it became an object.
+
+Nineteenth-century lithographs of "children's games" — the kind later reprinted on tea towels — sanded the street. They left out the apprentice who was not allowed to play, the girl whose doll was a sewing lesson, the boy whose hoop was a way to stay out of a kitchen. A history of play therapy that starts with those lithographs will inherit the sanding.
+
+Piaget filmed and observed in a Geneva that was already a laboratory culture. Vygotsky's lecture circulated, in English, through translators who had their own fights. Erikson's 1950 chapters on Sioux and Yurok play were later argued with as anthropology. Those arguments belong to the developmental neighbors, not to APT. They belong here only as a second warning: a famous book about play is not already a clinic.
+
+## The kindergarten gift as a false ancestor
+
+Fröbel's gifts — balls, blocks, slats — look, in a catalog photograph, like a 1991 playroom shelf. They are not. They were a curriculum for becoming a certain kind of German, then American, child. Play therapists later borrowed the blocks and left the hymn. Borrowing is allowed as history. Ancestor inflation is not. A gift box in 1850 is a school. A tub of blocks in 1991 is a method's furniture. The wood can be similar. The note is not.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session, a toy list, or a skill. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.

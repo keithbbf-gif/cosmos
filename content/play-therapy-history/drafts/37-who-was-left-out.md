@@ -51,6 +51,24 @@ Do not add a stock photograph of "diverse children playing." Do not write a comp
 
 Arkansas is not Vienna. It is not Denton. A child in a Delta county meets a different toy store, a different school closet, and a different history of who was a case. If this series only names European and Texas objects, it has described the books on a syllabus, not the waiting room. The next essay takes the toys themselves as class objects. This one only opens the door and refuses to close it with a slogan.
 
+## Intake as a census, and dolls that were not Landreth's
+
+Child-guidance intake was never a random sample. Commonwealth Fund boards saw the children a court and a philanthropy delivered. Black children under Jim Crow, Indigenous children in boarding schools, immigrant children in language programs often met the police, the church, or the asylum first. Play therapy's American story inherits that intake.
+
+Mamie Phipps Clark's doll studies (sister pack) are psychology's public race document. They are not a play-therapy origin and not free decoration. They are a reminder that a doll can be an instrument in a fight about schools.
+
+APT conference photographs in the early decades have a documented paleness. That is a fact about who could afford hours, dues, and Denton flights. A credential with a toll reproduces a class. Non-U.S. societies are other file cabinets, not color for an American journal. This pack named Britain because Lowenfeld required it. A Japanese or Mexican society history deserves its own essay, not a garnish sentence.
+
+Axline's hour assumes a shared language or toys the adult can narrate. A bilingual district knows that is a fantasy. Indigenous play and land are not a preface to Freud. If they appear in a clinic, they appear because a community built a program this website does not have consent to flavor.
+
+## A Delta county is already a census
+
+Arkansas is not Vienna and not Denton. A child in a Delta county meets a different store, closet, and history of who was a case. If this series only names European and Texas objects, it has described a syllabus. The toys essay takes the receipt. This essay only refuses to close with a slogan or a stock photograph of "diverse children playing." No CE checklist. No implication that publishing a complaint solved a census.
+
+## Language is not a neutral reflection
+
+A play therapist who "just reflects" still reflects in a language. The reflection is not neutral. SLPWOW owns language as a profession. This pack owns the quieter theft. A tray stocked from a U.S. hobby shop is a shop, not a world. Colonial psychiatry belongs next door as politics; here it is a warning against universal symbols. No garnish name at the end. No stock diversity photograph.
+
 ## Claims box
 
 This essay is educational history for a general reader. It is not medical advice, not a diagnosis, and not a treatment plan. It does not teach a session or a competence protocol. Reading it is not therapy and is not a substitute for care with a licensed clinician. WOW Therapies does not claim, by publishing this history, to offer play therapy or any named play protocol as a service.
