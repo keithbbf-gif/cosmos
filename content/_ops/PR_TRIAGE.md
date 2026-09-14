@@ -1,8 +1,8 @@
 # PR triage — Website Builder content & staging packs
 
-**Inventory as of:** 2026-09-14 (UTC), refreshed via `gh` against `keithbbf-gif/cosmos` (and `keithbbf-gif/cdm` where visible).
+**Inventory as of:** 2026-09-14 ~19:40 UTC, refreshed via GitHub REST API against `keithbbf-gif/cosmos` (and `keithbbf-gif/cdm` where visible).
 
-**Prior baseline:** [PR #261](https://github.com/keithbbf-gif/cosmos/pull/261) (first `_ops` triage). **This revision** accounts for **~30 new open pack PRs (#262–#292)** and **lane promotions** (many writer/graphics PRs are now **ready, non-draft** while still open).
+**Prior baseline:** [PR #261](https://github.com/keithbbf-gif/cosmos/pull/261) (first `_ops` triage) → [PR #296](https://github.com/keithbbf-gif/cosmos/pull/296) (refresh #262–#292). **This revision** adds the **supplements integration stack** (`cursor/supplements-rd-integration-85a9`, **#295**), **WXR** follow-up **#293**, and **SEO** cross-link layer **#294**.
 
 **Scope:** Open pull requests for `content/*` editorial packs (writer → graphics → editor craft lanes), `content/_ops` / `_seo` tooling, and `sites/*` staging / marketing packages. Portfolio Studio (**PS-01…PS-06**), Sessions/cDeck B26 trains, and tensor/health jukebox fixes are **out of scope** unless they touch `content/` or `sites/`.
 
@@ -32,16 +32,15 @@ No open pack PRs could be listed for **cdm** with the credentials available in t
 
 ---
 
-## Since PR #261 (delta summary)
+## Since PR #296 (delta summary)
 
 | Change | Detail |
 |--------|--------|
-| **New unify / craft PRs** | Furniture-craft **#279**; ancient furniture **#282** (prefer over **#290**); supplements **#230** promoted to **ready** on `main`; fig-history editor **#292**; multiple **editor** passes (#264, #265, #267, #270–#273, #276–#278). |
-| **New writer / fill PRs** | FFFB **#252** ready with filled prose; **#262**, **#269** (stub fill variants); fig-history prose **#271**; herbal prose-on-shells **#274** ready. |
-| **Rights & publish infra** | **#275** (rights hunt), **#281** (cherry-pick overlay into history packs); **#280** (WXR generators); **#266** + **#283** (SEO pillar maps + INDEX wiring). |
-| **Still blocked** | Supplements editor **#245** remains **DIRTY** on stale base `cursor/supplements-rd-blog-ee57` — treat as **do not merge** until rebased or closed in favor of **#230**. |
-| **Duplicate ancient-history stack** | **#290** is **DIRTY** on the same prose branch as **#282** — **prefer #282** for merge history and close or retarget **#290**. |
-| **Ready (non-draft) open PRs** | Pack lanes now include ready PRs on `main` (#224, #227, #230, #236, #243, #249, #250, #252, #254, #257, #260, #268, #274) — merge review can proceed without waiting on draft promotion. |
+| **Supplements craft stack** | Integration branch **`cursor/supplements-rd-integration-85a9`** (writer **#230** lineage + **#240** SVG embeds, no open PR). Remediation editor **#295** stacks on integration — **close #245 without merge** (dirty / figure-stripping risk). |
+| **WXR lane** | **#293** stacks on **#280** — real pack paths + sample WXR smoke exports (`content/_ops/`). |
+| **SEO lane** | **#294** stacks on **#283** — cross-link menus from publish queues (`content/_seo/` + pack `INDEX.md`). |
+| **Unchanged blockers** | **#245** (supplements, **DIRTY**); **#290** (ancient furniture, **DIRTY** duplicate of **#282**). |
+| **Ready (non-draft) open PRs** | Unchanged set on `main`: #224, #227, #230, #236, #243, #249, #250, #252, #254, #257, #260, #268, #274 — merge review can proceed without draft promotion. |
 
 ---
 
@@ -53,6 +52,8 @@ No open pack PRs could be listed for **cdm** with the credentials available in t
 | **Graphics** | “graphics pipeline”, SVG embeds, `figures/` | Editor pass (unless editor is docs-only HOLD) |
 | **Editor** | “editor pass”, voice/stub de-clone, `EDITOR_REPORT.md` | Publish / WP deploy (out of scope here) |
 | **Unify / craft** | “unify”, “merge prose with SVG”, stacked on merge branches | Single merge to `main` per pack |
+| **WXR** | `wxr`, `WXR`, `draft-import`, `content/_ops/*wxr*` | After pack trees + SEO INDEX wiring are stable |
+| **SEO** | `pillar`, `publish queue`, `cross-link`, `content/_seo/` | Before WXR export if menus/INDEX must appear in exports |
 | **Site pack** | `sites/<name>/`, Eleventy / static / WP staging bundles | Independent per site tree (watch cross-site copy only) |
 
 **Stacked PRs** (base branch ≠ `main`) must merge **in stack order** (bottom → top), then the stack tip to `main`.
@@ -69,10 +70,14 @@ No open pack PRs could be listed for **cdm** with the credentials available in t
 | [#281](https://github.com/keithbbf-gif/cosmos/pull/281) | rights | Cherry-pick rights overlay from PR #275 into history packs | `main` | Draft, UNSTABLE | **Merge after** pack prose+graphics stable; large footprint (~436 files) |
 | [#266](https://github.com/keithbbf-gif/cosmos/pull/266) | SEO | Staged SEO pillar maps for Keith brand lanes | `main` | Draft, CLEAN | `content/_seo/` |
 | [#283](https://github.com/keithbbf-gif/cosmos/pull/283) | SEO | Wire SEO publish queues into pack INDEX files | `cursor/seo-brand-pillar-maps-6cc5` | Draft, UNSTABLE | Stacks on **#266** |
-| [#280](https://github.com/keithbbf-gif/cosmos/pull/280) | ops | WXR draft-import generators for COSMOS content packs | `main` | Draft, UNSTABLE | `content/_ops/` — after pack trees settle |
+| [#294](https://github.com/keithbbf-gif/cosmos/pull/294) | SEO | Staged cross-link menus from SEO publish queues | `cursor/seo-wire-publish-queue-65eb` | Draft, UNSTABLE | Stacks on **#283**; touches many pack `INDEX.md` |
+| [#280](https://github.com/keithbbf-gif/cosmos/pull/280) | WXR | WXR draft-import generators for COSMOS content packs | `main` | Draft, UNSTABLE | `content/_ops/` generators |
+| [#293](https://github.com/keithbbf-gif/cosmos/pull/293) | WXR | Real content pack paths and sample WXR smoke exports | `cursor/wxr-draft-import-ad28` | Draft, UNSTABLE | Stacks on **#280** |
 | [#286](https://github.com/keithbbf-gif/cosmos/pull/286) | research | Website Builder competitor UX teardown pack | `main` | Draft, UNSTABLE | `content/_research/` — no merge dependency on packs |
 
-**Suggested order:** per-pack merges → **#281** (rights) → **#266** → **#283** → **#280** (WXR). **#286** anytime.
+**Suggested order:** per-pack merges → **#281** (rights) → **#266** → **#283** → **#294** (SEO) → **#280** → **#293** (WXR). **#286** anytime.
+
+**Conflict risk (infra):** **#283** / **#294** fan out across pack `INDEX.md` files — high chance of textual conflicts with in-flight editor PRs; land or rebase pack craft PRs first. **#281** is a wide cherry-pick (~436 files) — expect conflicts if merged before pack unification.
 
 ---
 
@@ -95,15 +100,21 @@ No open pack PRs could be listed for **cdm** with the credentials available in t
 
 ### `content/supplements-rd-blog`
 
-| PR | Title | Status | Lane | Base | Merge state |
-|----|-------|--------|------|------|-------------|
-| [#230](https://github.com/keithbbf-gif/cosmos/pull/230) | Supplements R&D blog: editor pass (40 drafts, voice_check edited) | **Ready**, OPEN | editor (on `main`) | `main` | CLEAN |
+| PR / branch | Title | Status | Lane | Base | Merge state |
+|-------------|-------|--------|------|------|-------------|
+| [#230](https://github.com/keithbbf-gif/cosmos/pull/230) | Supplements R&D blog: editor pass (40 drafts, voice_check edited) | **Ready**, OPEN | writer/editor prose | `main` | CLEAN |
 | [#240](https://github.com/keithbbf-gif/cosmos/pull/240) | feat(content): supplements R&D blog editorial SVG graphics pack | Draft, OPEN | graphics | `main` | UNSTABLE |
-| [#245](https://github.com/keithbbf-gif/cosmos/pull/245) | Editor pass: supplements R&D blog (40 drafts) | Draft, OPEN | editor | `cursor/supplements-rd-blog-ee57` | **DIRTY** |
+| *(branch)* | **`cursor/supplements-rd-integration-85a9`** — writer + **#240** embeds (`embed_graphics.py`) | **No open PR** | **craft / integration** | *(ahead of `main`)* | — |
+| [#295](https://github.com/keithbbf-gif/cosmos/pull/295) | Clean editor pass — supplements R&D blog (figures preserved) | Draft, OPEN | editor (remediation) | `cursor/supplements-rd-integration-85a9` | UNSTABLE |
+| [#245](https://github.com/keithbbf-gif/cosmos/pull/245) | Editor pass: supplements R&D blog (40 drafts) | Draft, OPEN | editor (**stale**) | `cursor/supplements-rd-blog-ee57` | **DIRTY** |
 
-**Suggested merge order:** Prefer **`#230`** as the editor lane on `main` → `#240` (graphics). **Do not merge `#245`** until rebased onto current `main` or **close** as superseded by `#230`.
+**Suggested merge order:**
 
-**Conflict risk:** **#245 DIRTY** — stale writer base; parallel editor work risks duplicate voice_check churn.
+1. **`#230` → `#240`** to `main`, **or** one merge PR from **`cursor/supplements-rd-integration-85a9` → `main`** (preferred craft artifact — already contains embedded figures).
+2. **`#295` → `main`** after integration is on `main` (or squash-merge integration + **#295** as a single stack).
+3. **Close `#245` without merge** — superseded by **#295**; see `content/_ops/REMEDIATION_REPORT.md` / `DIRTY_PR_NOTES.md` on the **#295** branch.
+
+**Conflict risk:** **High** — three editor-shaped PRs (**#230**, **#245**, **#295**) plus parallel graphics **#240**. **#245** is **DIRTY** and must not merge. Rebasing **#295** without landing integration first will duplicate figure embed work.
 
 ---
 
@@ -291,19 +302,20 @@ Independent trees; merge order mostly **per site**, except WOW / SLP WOW cross-l
 | Portfolio Studio | **#220–#223**, **#225–#226**, **#228–#229**, **#231–#233**, **#239** | API / profiles / jukebox — not Website Builder packs |
 | Sessions / cDeck B26 | **#284–#285**, **#288–#291**, **#287**, **#289** | Separate merge train from `content/*` |
 | cDeck arch doc | **#217** | Useful reference, not a content pack |
-| This triage PR | **#261** | Superseded by the branch that updates this file |
+| Prior triage PRs | **#261**, **#296** | Superseded by the branch that updates this file |
 
 ---
 
 ## Global merge-order summary
 
 1. **Per pack:** writer (or prose-complete **ready** writer) → graphics → editor / unify craft PR.
-2. **Explicit craft targets:** furniture-craft **`#279`**; ancient furniture **`#282`** (not **#290**); fig-history **`#250` → `#292`** with **`#271`**; rights **`#281`** after packs.
-3. **Respect stacked bases:** ai-industry **#244** on **#234**; figroots **#258** on **#237**; editor stacks on writer branches (see per-pack tables).
+2. **Explicit craft targets:** supplements **`cursor/supplements-rd-integration-85a9` + `#295`** (not **`#245`**); furniture-craft **`#279`**; ancient furniture **`#282`** (not **#290**); fig-history **`#250` → `#292`** with **`#271`**; rights **`#281`** after packs.
+3. **Respect stacked bases:** ai-industry **#244** on **#234**; figroots **#258** on **#237**; SEO **#283** on **#266**, **#294** on **#283**; WXR **#293** on **#280**; supplements **#295** on integration branch (see per-pack tables).
 4. **Rebase or merge `main` into UNSTABLE** branches before review — many drafts remain UNSTABLE even when **ready**.
 5. **Do not merge DIRTY:** supplements **`#245`**; duplicate ancient stack **`#290`**.
 6. **Site packs:** ModelRater pair first; defer dual WOW/SLP WOW merges until canonical staging path is chosen.
-7. **cdm:** unknown until repo is visible to `gh`.
+7. **Infra last:** SEO stack **#266 → #283 → #294**, then WXR **#280 → #293**, after pack craft merges to reduce `INDEX.md` churn conflicts.
+8. **cdm:** unknown until repo is visible to `gh`.
 
 ---
 
@@ -314,7 +326,9 @@ Independent trees; merge order mostly **per site**, except WOW / SLP WOW cross-l
 | `content/ai-industry-blog` | writer **#227** + 2× graphics + editor | Stacked + parallel on `main` |
 | `content/furniture-craft-blog` | writer + graphics + merge **#263** + **#279** | **#279** is craft target; **#241** legacy |
 | `content/furniture-fashion-fads-blog` | **#252** + **#262** / **#269** + graphics + editors | Pick one writer source |
-| `content/supplements-rd-blog` | **#230** + graphics **#240** + **#245 DIRTY** | Close/rebase **#245** |
+| `content/supplements-rd-blog` | **#230** + **#240** + integration branch + **#295** + **#245 DIRTY** | Land integration before **#295**; close **#245** |
+| `content/_seo` + pack INDEX | **#266** → **#283** → **#294** | Cross-pack INDEX edits vs editor PRs |
+| `content/_ops` WXR | **#280** → **#293** | After packs + SEO wiring |
 | `content/furniture-history-ancient-blog` | **#282** vs **#290 DIRTY** | **Prefer #282** |
 | `content/fig-history-ancient-to-today` | **#250** + **#271** + **#292** | Not `figroots-blog` |
 | `content/herbal-medicine-history-blog` | **#274** vs **#255** | Two writer lanes |
