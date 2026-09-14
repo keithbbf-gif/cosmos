@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.hibiscus-atlantic-belt-map
+image_rights: documented
+meta_description: "Caribbean Christmas sorrel and the Atlantic hibiscus belt: holiday red drink foodways beyond hibiscus tea labels."
+image_pass: 2026-09-14
+hero_figure: svg.hibiscus-atlantic-belt-map
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/hibiscus-atlantic-belt-map.svg" alt="Schematic map of West African and Caribbean roselle drink regions" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Christmas sorrel and Dakar street red share a plant — the map is names and hours, not a single origin myth. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 December stains a Caribbean saucepan before anyone writes a menu. The calyces go in early because the spices need time, and the holiday will not wait for a botanist.
 
 English-Caribbean *sorrel*, in this sense, is not the green leaf salad Europeans mean by the same word. It is a drink from the calyces of roselle — again *Hibiscus sabdariffa* — boiled or steeped with sugar and a spice list that usually includes ginger and cloves, often cinnamon, and, in islands that grow it and say *pimento*, allspice. Rum goes in some pots and not others. The liquid is left to sit. Families argue about how long. The color is deep red. The hour is Christmas, or the stretch of December that behaves like Christmas whether or not a church calendar is in the room.

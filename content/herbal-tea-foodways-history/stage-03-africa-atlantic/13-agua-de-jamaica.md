@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.dried_hibiscus_calyces
+image_rights: documented
+meta_description: "Agua de jamaica as Mexican agua fresca foodways distinct from diaspora Christmas sorrel alone."
+image_pass: 2026-09-14
+hero_figure: plates.dried_hibiscus_calyces
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/dried-hibiscus-calyces.jpg" alt="Dried red hibiscus calyces for brewing agua fresca" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Agua de jamaica is the same calyx as a cooler drink — Mexico's glass, not Christmas-only packaging. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Dried_hibiscus_flowers.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A comida-corrida plate arrives with a sweating jug, not a ceremony. The red liquid is a cooler among other coolers — horchata, tamarindo, the day's cheaper thirst.
 
 In Mexico and much of Central America that cooler is *agua de jamaica*, made from *flor de jamaica*: again the dried calyces of *Hibiscus sabdariffa*, boiled, strained, sweetened, and served cold. The plant is the same species as Senegalese *bissap* and Jamaican Christmas sorrel. The meal structure is not. This is not a December pot that sits for days with rum and pimento. It is an *agua fresca*: a fruit-or-flower water in a glass or a plastic bag, sold in mercados, at street stalls, and as the house pitcher beside a set lunch. You can drink it on a Tuesday in May because the plate is salty and the afternoon is hot. No holiday needs to authorize the jug.

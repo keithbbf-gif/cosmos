@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.boricha_barley_tea
+image_rights: documented
+meta_description: "Korean boricha barley tea and omija seasonal drinks as restaurant table foodways."
+image_pass: 2026-09-14
+hero_figure: plates.boricha_barley_tea
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/boricha-barley-tea.jpg" alt="Korean boricha barley tea in a glass" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Boricha and omija at the table — restaurant default liquid and tart seasonal glass, not tonic copy. <em>Rights:</em> CC BY-SA 2.0 kr; see <a href="https://commons.wikimedia.org/wiki/File:Boricha_%28barley_tea%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 In a lot of Korean restaurants, the first liquid on the table is not water as a European diner means water. It is roasted barley, pale brown, free, refilled without a performance. *Boricha* is so ordinary that writing an essay about it feels like writing an essay about the napkin. That is why it belongs here. Foodways is often the napkin.
 
 I will keep *mugicha* in the other room. The drinks are cousins, not twins. Korean barley tea lives as a default meal-liquid: next to banchan, next to a metal pot of rice, next to a grilled something that wants a sip between bites. It is not a ceremony and it is not a sachet hour. If you ask for "tea" after the meal you may get something else. The barley was already there, doing the job of making the table wet in the right way.

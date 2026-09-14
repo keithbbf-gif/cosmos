@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.mint_spearmint_kohler
+image_rights: documented
+meta_description: "Moroccan atay mint tea pairing as Maghrebi hospitality foodways and trade sugar history."
+image_pass: 2026-09-14
+hero_figure: plates.mint_spearmint_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/mint-spearmint-kohler.jpg" alt="Spearmint botanical plate for Maghrebi atay context" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Atay is a nineteenth-century pairing of gunpowder tea and sugar — mint taught the leaf how to sit. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Mentha_viridis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-096.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Gunpowder green tea did not arrive in Morocco as a ceremony. It arrived as a crate, and the crate needed sugar.
 
 Graham Cornwell's 2018 dissertation, *Sweetening the Pot*, is the named public object I am leaning on. I have not sat in his archives. I have sat with the argument as it circulates: between about 1850 and 1960, Chinese green tea and loaf or cone sugar became, together, a Moroccan daily fact. The drink that resulted — *atay* — is now so thoroughly "traditional" in travel writing that the nineteenth century has to be restated on purpose. Traditions have birthdays. This one is later than the brochures.

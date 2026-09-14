@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Grocery herbal tea label timeline</title>
+  <desc>Timeline from loose herb jars through tea-bag form to modern HERBAL TEA tins and journalist flattening.</desc>
+  <rect width="880" height="520" fill="#e8eef2"/>
+  <text x="440" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#1f2933">How the aisle learned to say HERBAL TEA</text>
+  <line x1="80" y1="250" x2="800" y2="250" stroke="#1f2933" stroke-width="2"/>
+  <circle cx="140" cy="250" r="7" fill="#d4e4d9" stroke="#1f2933"/>
+  <text x="140" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">stillroom jar</text>
+  <circle cx="300" cy="250" r="7" fill="#f5e6d3" stroke="#1f2933"/>
+  <text x="300" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">temperance cup</text>
+  <circle cx="480" cy="250" r="7" fill="#c4a574" stroke="#1f2933"/>
+  <text x="480" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">tea-bag form</text>
+  <circle cx="660" cy="250" r="7" fill="#9cb4a0" stroke="#1f2933"/>
+  <text x="660" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#1f2933">HERBAL TEA tin</text>
+  <rect x="520" y="300" width="300" height="90" rx="6" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+  <text x="670" y="335" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Label reads one plant;</text>
+  <text x="670" y="355" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">headline reads fifty  reader tools start here.</text>
+  <text x="440" y="490" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Editorial timeline  herbal-tea-foodways-history</text>
+</svg>

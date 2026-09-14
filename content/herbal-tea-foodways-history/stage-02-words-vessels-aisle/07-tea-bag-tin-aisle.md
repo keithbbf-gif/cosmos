@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.tea_bags_envelope
+image_rights: documented
+meta_description: "Tea bags, tins, and the grocery aisle: how packaging taught herbal infusions to look like Camellia tea."
+image_pass: 2026-09-14
+hero_figure: plates.tea_bags_envelope
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/aisle/tea-bags-envelope.jpg" alt="Assorted tea bags in paper envelopes on a neutral surface" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The tea bag taught other leaves to ride in the same envelope — hardware before botanical honesty. <em>Rights:</em> CC BY-SA 2.5; see <a href="https://commons.wikimedia.org/wiki/File:Tea_bags.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Before there was a "herbal tea" aisle, there was a problem of portion.
 
 Loose leaf — Camellia or otherwise — wants a caddy, a spoon, a strainer, and a person who has done this before. A household that already drank tea had those tools. A household that wanted a single cup of mint at a desk did not. The tea bag, patented and fought over in the early twentieth century and industrialized after, solved a Camellia problem: how to sell a measured, tidy, fast infusion to people who were not going to own a pot. Once that solution existed, every other dried plant in the cupboard could climb into the same envelope.

@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.chamomile_field
+image_rights: documented
+meta_description: "Shaker and Moravian communal herb gardens and drying lofts as American foodways production."
+image_pass: 2026-09-14
+hero_figure: plates.chamomile_field
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/garden/chamomile-field.jpg" alt="Chamomile growing at the edge of a grain field" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Shaker and Moravian herb gardens dried for trade reputation — communal lofts, not secret cures. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Camomille_sauvage_%28Matricaria_chamomilla%29%2C_coquelicots_%28Papaver_rhoeas%29_au_bord_d%27un_champ_d%27orge_%28Hordeum_vulgare%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The loft comes before the label.
 
 Someone has to cut, haul, spread, and wait for water to leave a leaf. American communal-religious households — Shakers in their villages from New Lebanon to Sabbathday Lake, Moravians in Bethlehem and the Wachovia towns — organized that waiting. They dried plants in quantity, sold them to neighbors, and earned a reputation for a clean count. A later antique market likes to call the Shakers proto-pharmacists. This folder will not. A communal garden that put sage in a canister is a foodways factory. The stillroom mix is real. The climax here is labor and packaging.

@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.barley_grains
+image_rights: documented
+meta_description: "Wartime and blockade herbal tea substitutes: grain cups and cupboard stand-ins as foodways history."
+image_pass: 2026-09-14
+hero_figure: plates.barley_grains
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/barley-grains.jpg" alt="Barley grains for roasting or brewing grain tea" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Wartime cupboards learned to call roasted grain tea — stand-ins when the Camellia crate was dear. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Barley.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 When the leaf that needs a ship becomes dear, the cupboard starts answering. Roasted grain, a jar of dried apple peel, a paper of linden, a hip from the hedge — these are not discoveries. They are stand-ins. Pride and shame share the same kettle.
 
 I am writing about Camellia and coffee as unmarked defaults under pressure, not about a secret European pharmacy that war "revealed." Napoleon's Continental System, the British blockade of Germany in 1914–18, and the later rationing states of 1939–45 are different politics. They rhyme as foodways. A taxed or blockaded import leaves a hole in the morning. The hole gets filled with whatever brown or floral thing the household can roast, dry, or collect.

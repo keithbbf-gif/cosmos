@@ -1,0 +1,236 @@
+{
+  "files": {
+    "food/hibiscus-sabdariffa-calyces.jpg": {
+      "commons_title": "Hibiscus sabdariffa fruits.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_fruits.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Vijayanrajapuram",
+      "sha256": "56e8bab85788224de0c04f5996280f672468a05a2eaedbcf6d8c413e2740c885",
+      "bytes": 3378032
+    },
+    "food/dried-hibiscus-calyces.jpg": {
+      "commons_title": "Dried hibiscus flowers.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Dried_hibiscus_flowers.jpg",
+      "license": "CC0",
+      "credit": "Jugemu",
+      "sha256": "e1d45cb9e8eb6fe8ec136b1b1efcd3da98041306d8ecea2c403308d7a606da89",
+      "bytes": 409270
+    },
+    "botanical/rooibos-plant.jpg": {
+      "commons_title": "Rooibos (Aspalathus linearis).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Rooibos_%28Aspalathus_linearis%29.jpg",
+      "license": "CC BY-SA 2.5",
+      "credit": "Winfried Bruenken (Amrum)",
+      "sha256": "c3b3c71a797c815d9391914eb805a659aa139f803ba9f10d35fcaaf2710bec7c",
+      "bytes": 4499454
+    },
+    "botanical/camellia-sinensis-kohler.jpg": {
+      "commons_title": "Camellia sinensis - K\u00f6hler\u2013s Medizinal-Pflanzen-025.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg",
+      "license": "Public domain",
+      "credit": "Franz Eugen K\u00f6hler, K\u00f6hler's Medizinal-Pflanzen",
+      "sha256": "d362b3fce12a8fcea9623b9f5b5b56f0cd24dcde0381655a6367219a7f97cf7f",
+      "bytes": 548845
+    },
+    "botanical/chamomile-flowers.jpg": {
+      "commons_title": "Chamomile@original size.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Chamomile%40original_size.jpg",
+      "license": "GFDL 1.2",
+      "credit": "Fir0002 20D",
+      "sha256": "1fb236d973ece623a4464cd4086f2ec508614b1e2ce0dedd237ba55dfbba7695",
+      "bytes": 295754
+    },
+    "botanical/tulsi-ocimum.jpg": {
+      "commons_title": "Ocimum tenuiflorum 2.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_2.jpg",
+      "license": "CC0",
+      "credit": "Azlin Bloor",
+      "sha256": "8e55ff5dcbba06659723aaba139594871ef6bf9ce8986aa7bdc6879362f338b5",
+      "bytes": 2131926
+    },
+    "botanical/sassafras-leaves.jpg": {
+      "commons_title": "Sassafras Leaf.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Sassafras_Leaf.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "John Stockla",
+      "sha256": "8cd95d752502d3b259a5887522c52cbb88322e8ff0be2db69bf997a6ff856043",
+      "bytes": 1656730
+    },
+    "botanical/yerba-mate-kohler.jpg": {
+      "commons_title": "Ilex paraguariensis - K\u00f6hler\u2013s Medizinal-Pflanzen-074.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg",
+      "license": "Public domain",
+      "credit": "Franz Eugen K\u00f6hler, K\u00f6hler's Medizinal-Pflanzen",
+      "sha256": "0bb7993bf2f254a4f2e358b4bcbaddc4971e3e90bf0dba8c643cd31ae15ff014",
+      "bytes": 174586
+    },
+    "botanical/elderflower-sambucus.jpg": {
+      "commons_title": "Sambucus nigra0.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Sambucus_nigra0.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Kurt St\u00fcber [1]",
+      "sha256": "46b5da1c3e5a68b5e37cfe76d3af10a68de3e580473e65d8fdf2d3c9b1a1524e",
+      "bytes": 30235
+    },
+    "botanical/linden-tilia-inflorescence.jpg": {
+      "commons_title": "Tilia cordata (New Belgrade, Serbia) 01.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Tilia_cordata_%28New_Belgrade%2C_Serbia%29_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Lessormore",
+      "sha256": "ce60cc17d4e2f1847f0c8252c63cce6d7909dc76fac666ef80810312c78ffa1a",
+      "bytes": 4548928
+    },
+    "aisle/tea-bags-envelope.jpg": {
+      "commons_title": "Tea bags.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Tea_bags.jpg",
+      "license": "CC BY-SA 2.5",
+      "credit": "Andr\u00e9 Karwath aka Aka",
+      "sha256": "0a0cb296f98a0e50a3643d3b4512528ed522292ecafdd0622efc664fc349c471",
+      "bytes": 224009
+    },
+    "food/dried-barley-tea.jpg": {
+      "commons_title": "Dried barley tea (1).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Dried_barley_tea_%281%29.jpg",
+      "license": "CC0",
+      "credit": "Fumikas Sagisavas",
+      "sha256": "610a1e04ccae57d6a885f6945762da8d827672ba956ed843b502cd7d64885ba9",
+      "bytes": 3231925
+    },
+    "botanical/fireweed-herbarium.jpg": {
+      "commons_title": "2020 year. Herbarium. Chamerion angustifolium. img-006.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Chamerion_angustifolium._img-006.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Dmitry Makeev",
+      "sha256": "964d26de8bbb2139f59371bf90eb1dfffcd7e07e2af316b4f6d1d5063b22b442",
+      "bytes": 6203467
+    },
+    "botanical/greek-mountain-tea-sideritis.jpg": {
+      "commons_title": "Sideritis scardica - Botanischer Garten M\u00fcnchen-Nymphenburg - DSC07698.JPG",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG",
+      "license": "Public domain",
+      "credit": "Daderot",
+      "sha256": "c68ac1844e11deb48800699f0af6e79a5db379ef42228b39f708538be15facdd",
+      "bytes": 4996894
+    },
+    "botanical/honeybush-cyclopia-plate.png": {
+      "commons_title": "Cyclopia genistoides Taub104c.png",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Cyclopia_genistoides_Taub104c.png",
+      "license": "Public domain",
+      "credit": "Paul Taubert",
+      "sha256": "cede05f4df3a5dc9462b6ee294e0219c38cf4c3eec3ce473ee6b0041ac60c1dd",
+      "bytes": 281737
+    },
+    "botanical/labrador-tea-rhododendron.jpg": {
+      "commons_title": "Rhododendron groenlandicum.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Rhododendron_groenlandicum.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "See Commons file page",
+      "sha256": "bb893c8e6abc9c4549d0426b11bf033bfb537e3807fa7f5d71c7d18cc3397ea0",
+      "bytes": 382355
+    },
+    "botanical/guayusa-leaves.jpg": {
+      "commons_title": "Hojas de Guayusa (Ilex guayusa).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Hojas_de_Guayusa_%28Ilex_guayusa%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Pisofrix",
+      "sha256": "7bc0dcdcb95984cd46523801cbc2597aecb126a9218e858de7c469b9090ce1fe",
+      "bytes": 668671
+    },
+    "food/boricha-barley-tea.jpg": {
+      "commons_title": "Boricha (barley tea).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Boricha_%28barley_tea%29.jpg",
+      "license": "CC BY-SA 2.0 kr",
+      "credit": "\uad6d\ub9bd\uad6d\uc5b4\uc6d0",
+      "sha256": "64229941721e2a8d04c17763c51b7dbcc0aa5c79e9d3e975595619ef260e5945",
+      "bytes": 1765376
+    },
+    "vessels/mate-gourd-bombilla.jpg": {
+      "commons_title": "Mate gourd (calabash) and bombilla held against a European Holly (Ilex aquifolium) bush.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Mate_gourd_%28calabash%29_and_bombilla_held_against_a_European_Holly_%28Ilex_aquifolium%29_bush.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Siarhei Besarab",
+      "sha256": "dbcb6ef5e89d7c8c6a55c4fd0cc2a40f44588e9a87fd9500f628fcdd93c74989",
+      "bytes": 5659288
+    },
+    "food/barley-grains.jpg": {
+      "commons_title": "Barley.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Barley.jpg",
+      "license": "Public domain",
+      "credit": "See Commons file page",
+      "sha256": "3e5fefc869180169f376eff3f8f851eaadb64b1f9a226f826890d1fd3885a68a",
+      "bytes": 306084
+    },
+    "food/chrysanthemum-tea-glass.jpg": {
+      "commons_title": "Chrysanthemum tea (20240131).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_tea_%2820240131%29.jpg",
+      "license": "CC0",
+      "credit": "Fumikas Sagisavas",
+      "sha256": "9a0a7ae95e57fc81daac87c4cd5eb105809996d90897670900c6b246eb7368a0",
+      "bytes": 3573079
+    },
+    "botanical/mint-spearmint-kohler.jpg": {
+      "commons_title": "Mentha viridis - K\u00f6hler\u2013s Medizinal-Pflanzen-096.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Mentha_viridis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-096.jpg",
+      "license": "Public domain",
+      "credit": "Franz Eugen K\u00f6hler, K\u00f6hler's Medizinal-Pflanzen",
+      "sha256": "db00136ec7936f892b5e79ab3351c7083917b9c04f28dc9c5bcfe35f32881886",
+      "bytes": 137969
+    },
+    "botanical/butterfly-pea-flower.jpg": {
+      "commons_title": "Clitoria ternatea.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg",
+      "license": "CC0",
+      "credit": "Wilfredor",
+      "sha256": "be5276a59369b6b85bdc4a5b2a23056368e3ca4412375372dd39a2c66c82d683",
+      "bytes": 3299567
+    },
+    "botanical/oswego-bee-balm-monarda.jpg": {
+      "commons_title": "Monarda didyma flower.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Monarda_didyma_flower.jpg",
+      "license": "CC BY-SA 2.0",
+      "credit": "Susanne Nilsson",
+      "sha256": "8b5ffbd54fc9c7dd7fc8461a75ea598e8b4bd8f7d7429d7388db4c2f74f3d718",
+      "bytes": 1700096
+    },
+    "historic/liotard-tea-set-still-life.jpg": {
+      "commons_title": "Liotard, Jean-\u00c9tienne - Still Life- Tea Set - Google Art Project.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Liotard%2C_Jean-%C3%89tienne_-_Still_Life-_Tea_Set_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "credit": "Jean-\u00c9tienne Liotard",
+      "sha256": "6b134acab9d6cfd5718350036645c5b43fdc2979446b897d2843b0d2c9b7d2ac",
+      "bytes": 4101468
+    },
+    "garden/chamomile-field.jpg": {
+      "commons_title": "Camomille sauvage (Matricaria chamomilla), coquelicots (Papaver rhoeas) au bord d'un champ d'orge (Hordeum vulgare).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Camomille_sauvage_%28Matricaria_chamomilla%29%2C_coquelicots_%28Papaver_rhoeas%29_au_bord_d%27un_champ_d%27orge_%28Hordeum_vulgare%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "JackyM59",
+      "sha256": "4c27ff33a8434b8f5a1903e6dc75c109e1e03dac1a7eae2b8c9443ad53a538c5",
+      "bytes": 18628277
+    },
+    "historic/household-tea-still-life-roestraten.jpg": {
+      "commons_title": "Pieter Gerritsz. van Roestraten (1629-1630-1700) - Still Life with Tea Cups - VIS.305 - Sheffield Galleries and Museums Trust.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Pieter_Gerritsz._van_Roestraten_%281629-1630-1700%29_-_Still_Life_with_Tea_Cups_-_VIS.305_-_Sheffield_Galleries_and_Museums_Trust.jpg",
+      "license": "Public domain",
+      "credit": "Pieter Gerritsz van Roestraten",
+      "sha256": "b35133680a23c7eeac0c303b0dfc1a58b929b55dd3e9b3ca58442a9d73309eb9",
+      "bytes": 92791
+    },
+    "aisle/herbal-tea-retail-pack.jpg": {
+      "commons_title": "A Large Pack of Chrysanthemum tea (MY and SG).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:A_Large_Pack_of_Chrysanthemum_tea_%28MY_and_SG%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "credit": "Ranking Update",
+      "sha256": "781299adbf820275dc2d2d6eca8bca89d337a35e9c384b6cab59eeaf704d1551",
+      "bytes": 1103436
+    },
+    "botanical/yaupon-holly-walcott.jpg": {
+      "commons_title": "Ilex vomitoria, by Mary Vaux Walcott.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Ilex_vomitoria%2C_by_Mary_Vaux_Walcott.jpg",
+      "license": "Public domain",
+      "credit": "Mary Vaux Walcott",
+      "sha256": "e4c7aed36ec5dcd7f43834e731777ebde2a4df2b3968ef9b2a753b79565105f0",
+      "bytes": 74117
+    }
+  }
+}

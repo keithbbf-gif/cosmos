@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.guayusa_leaves
+image_rights: documented
+meta_description: "Guayusa morning circle drinks in Amazonian foodways versus modern energy drink marketing."
+image_pass: 2026-09-14
+hero_figure: plates.guayusa_leaves
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/guayusa-leaves.jpg" alt="Dried Ilex guayusa leaves for morning brewing" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Guayusa mornings are a circle in the kitchen — not an energy bottle caption. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Hojas_de_Guayusa_%28Ilex_guayusa%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Three in the morning is a social hour if the pot is already on.
 
 *Ilex guayusa* is a caffeine holly of the western Amazon — eastern Ecuador first in the stories that reach English, with reports into Peru and Colombia along the Andean piedmont. It is kin to mate and yaupon, sweeter in the travel-writing cliché, still a holly, still not *Camellia*. I will not invent a village. I will not walk you into a house I have not entered. What I can say is that travel accounts and ethnography widely report a dawn gathering around a pot: Kichwa *wayusa upina* (the spellings wander), a fire, talk, the day's work named out loud, dreams told to people who already know the teller. That is a reported social form. It varies. It is not a franchise.

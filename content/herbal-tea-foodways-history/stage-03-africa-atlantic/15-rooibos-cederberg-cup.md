@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.rooibos_plant
+image_rights: documented
+meta_description: "Rooibos and the Cederberg cup: Aspalathus linearis trade history without invented origin dates."
+image_pass: 2026-09-14
+hero_figure: plates.rooibos_plant
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/rooibos-plant.jpg" alt="Rooibos Aspalathus linearis plant in South African landscape" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Rooibos carries a Cederberg cup and a thin early paper trail — 1904 is a market story, not an invention day. <em>Rights:</em> CC BY-SA 2.5; see <a href="https://commons.wikimedia.org/wiki/File:Rooibos_%28Aspalathus_linearis%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Paper arrived late to the Cederberg shrub. The mountain did not file a birth certificate, and the first confident year on an export sleeve is still a fight between brochure and quieter notes.
 
 The plant in the modern cup is *Aspalathus linearis*, a Cape fynbos species tied, in the commercial story, to the Cederberg and to Clanwilliam. People drink a reddish infusion of the fermented, cut, dried stems and leaves — "red bush" in older English — and a greener, less oxidized version when the factory wants that color. I am interested in the drink as a regional foodway that later learned to travel. I am not interested in the sleeve's health paragraph. This draft does not treat, cure, or prevent. It is not medical advice.

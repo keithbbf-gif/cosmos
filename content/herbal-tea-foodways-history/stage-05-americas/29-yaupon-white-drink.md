@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.americas-cup-geography
+image_rights: documented
+meta_description: "Yaupon holly white and black drink foodways in southeastern North America and council cups."
+image_pass: 2026-09-14
+hero_figure: svg.americas-cup-geography
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/americas-cup-geography.svg" alt="Schematic Americas map of yaupon mate guayusa and Andean hierbas drinks" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Yaupon, white drink, black drink — a southeastern holly cup with council form, not an energy bottle. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 The Latin name is already an argument, and a bad one.
 
 *Ilex vomitoria* is a coastal holly: small serrated leaves, red winter berries, thickets from Virginia around the Gulf. It is, as Florida's Division of Historical Resources says in a public foodways note, the only plant native to the southeastern United States that carries caffeine. That is geography plus botany. It is not a dare, not a grocery warning label, and not a finding about a body I have not met. The plant is a holly. The drink is a social object. The epithet is a colonial scar.

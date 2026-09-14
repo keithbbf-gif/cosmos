@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.fireweed_herbarium
+image_rights: documented
+meta_description: "Ivan-chai fireweed and Koporye trade: Russian substitute drinks and later fermented fashion as foodways."
+image_pass: 2026-09-14
+hero_figure: plates.fireweed_herbarium
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/fireweed-herbarium.jpg" alt="Fireweed Chamerion angustifolium herbarium specimen sheet" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ivan-chai and Koporye carry a substitute story and a later fashion — fireweed on paper, not one ancestral gesture. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:2020_year._Herbarium._Chamerion_angustifolium._img-006.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Fireweed colonizes a burn and a railway cutting with the same indifference. The drink made from its leaves has spent two centuries trying on costumes: cheap stand-in, fraud, peasant pot, then — quite recently, for a lot of drinkers — a fashionable fermented "ancestral" cup. The plant is *Epilobium angustifolium*, also *Chamaenerion angustifolium*, rosebay willowherb, *kiprei*, *Ivan-chai*. The costumes are not the same garment.
 
 Koporye sits west of St. Petersburg, a fortress-village whose name attached itself to a processed leaf. *Koporskii chai*, Koporye tea, is the trade nickname that tea-history retellings keep handing around: fireweed darkened and dried so that it could sit beside Chinese black tea, or sit *in* it, or sit in the place of it when the imported leaf was dear. I have not stood in a Koporye shed and I will not invent a court record. What I can say is the shape of the story as it circulates. Eighteenth- and nineteenth-century Russia had a Camellia habit that outran a Camellia budget for many tables. A local leaf that could be bruised, oxidized, and dried brown was a substitution technology. Substitution becomes fraud at the moment the seller lets the buyer think the crate is Fujian.

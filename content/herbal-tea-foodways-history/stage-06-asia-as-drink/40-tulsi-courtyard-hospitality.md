@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.tulsi_ocimum
+image_rights: documented
+meta_description: "Tulsi holy basil courtyard hospitality water as South Asian foodways, not supplement marketing."
+image_pass: 2026-09-14
+hero_figure: plates.tulsi_ocimum
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/tulsi-ocimum.jpg" alt="Holy basil tulsi Ocimum tenuiflorum plant" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tulsi in the courtyard is a watered pot — hospitality, not a kraft tin virtue list. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_2.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The plant I want is the one by the door.
 
 In a great many Indian households — not all, not as a law, not as a brand — *tulsi* (*Ocimum tenuiflorum* and related basils) stands in a pot or a small masonry shrine in the courtyard or on a balcony. People water it. People walk around it. A leaf may go into water or into a tea-glass or into a prayer. The English aisle later sold "holy basil tea" in a sachet that has never seen a courtyard. Those are not the same foodway. This draft is about the courtyard plant as a household object, and about the drink only as something that plant sometimes becomes. It is not a *rasayana* lecture. It is not the mid-century laboratory-word folder. If you want those arguments, they already have a fence elsewhere.

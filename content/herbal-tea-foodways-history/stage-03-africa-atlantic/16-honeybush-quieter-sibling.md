@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.honeybush_cyclopia_plate
+image_rights: documented
+meta_description: "Honeybush Cyclopia foodways beside rooibos: Cape infusions and export asymmetry."
+image_pass: 2026-09-14
+hero_figure: plates.honeybush_cyclopia_plate
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/honeybush-cyclopia-plate.png" alt="Historical botanical plate of Cyclopia honeybush" width="800" height="1000" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Honeybush is the quieter Cape sibling — Cyclopia without rooibos's export megaphone. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Cyclopia_genistoides_Taub104c.png">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Fynbos does not owe the world a second export celebrity. Honeybush grew in the same Cape scrub as the louder cup and then watched the louder cup take the microphone.
 
 The plants are *Cyclopia* species — several of them, not a single shrub with one farm face. Van Wyk and Gorelik's survey of Cape herbal teas treats honeybush as part of that regional drink list: local infusions from fynbos, with names that English later flattened into one sweet-sounding commodity word. *Heuningbos* in Afrikaans is already a landscape name. English *honeybush* followed the scent and the marketing. I will not pretend I have a complete map of every local name for every *Cyclopia* used in a pot. The paper trail is patchier than rooibos, and the industry is smaller. That patchiness is the story, not a problem to be patched with a founder myth.

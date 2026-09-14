@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.liotard_tea_set_still_life
+image_rights: documented
+meta_description: "Infusion, decoction, and sun tea as kitchen methods and social choices in herbal drink foodways."
+image_pass: 2026-09-14
+hero_figure: plates.liotard_tea_set_still_life
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/historic/liotard-tea-set-still-life.jpg" alt="Still life of porcelain tea cups and service on a table" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Infusion, decoction, and sun tea are labor in a kitchen — method as history, not a virtue chart. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Liotard%2C_Jean-%C3%89tienne_-_Still_Life-_Tea_Set_-_Google_Art_Project.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Method is not a personality. It is a decision about heat, time, and the part of the plant you bothered to keep.
 
 An **infusion**, in kitchen English, is what you do with something that will give itself up to hot water without a long boil: petals, many leaves, a bag. You pour, you wait, you strain or you don't. A **decoction** is what you do when the thing is tougher — a root, a seed, a grain, a calyx you want to bully — and you keep it on the fire. The two words come from cookery and from pharmacy cabinets; I am using them as cookery. They describe labor, not virtue.

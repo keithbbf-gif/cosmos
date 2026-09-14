@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.labrador_tea_rhododendron
+image_rights: documented
+meta_description: "Labrador tea Rhododendron groenlandicum as northern trapline camp drink in ethnographic notebooks."
+image_pass: 2026-09-14
+hero_figure: plates.labrador_tea_rhododendron
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/labrador-tea-rhododendron.jpg" alt="Labrador tea Rhododendron groenlandicum plant" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Labrador tea on the trapline appears in other people's notebooks — northern camp drink, thin English retail. <em>Rights:</em> CC BY-SA 3.0; see <a href="https://commons.wikimedia.org/wiki/File:Rhododendron_groenlandicum.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The paper trail for a northern kettle is often a man who did not grow up with the shrub.
 
 Trader journals, Hudson's Bay factor notes, missionary letters — those are the pages English readers still meet first when they want "Labrador tea on the trapline." The drink is older than those pages. The pages are not a village census. I will say so every time the temptation is to treat a Company pot as an origin story. A factor who learned to like a bog leaf has given us a sentence. He has not given us the names the leaf already had.

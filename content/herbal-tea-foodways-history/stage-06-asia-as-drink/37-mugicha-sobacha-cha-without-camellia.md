@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.asia-cha-without-camellia
+image_rights: documented
+meta_description: "Mugicha sobacha and Japanese cha without Camellia: barley teas as foodways drinks, not pharmacopeia."
+image_pass: 2026-09-14
+hero_figure: svg.asia-cha-without-camellia
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/asia-cha-without-camellia.svg" alt="Diagram of East Asian barley and flower teas without Camellia" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Mugicha, sobacha, and cha without Camellia — refrigerator jugs and hospitality syllables. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 The first time I understood *cha* as a hospitality syllable rather than a plant, it was from a refrigerator, not a tea caddy.
 
 Japanese *mugicha* is roasted barley poured over ice, or kept in a fat plastic pitcher that lives on the bottom shelf all summer. School jugs, vending-machine bottles, a household pot that makes the kitchen smell like toast — those are the objects. *Sobacha* is the buckwheat cousin, nuttier, often a winter or gift-tin drink, still not Camellia. English calls both "tea" because English is lazy in a way this series has already complained about. Japanese keeps the *cha* and does not thereby claim a Yunnan bush. The syllable traveled with the pause: a cup, a table, a break in heat or work.

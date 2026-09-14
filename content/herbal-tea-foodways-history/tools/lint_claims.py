@@ -217,6 +217,7 @@ def main(argv: list[str] | None = None) -> int:
             errors.append(f"duplicate title {title!r}: {path.name} vs {titles[title]}")
         titles[title] = path.name
         prose = re.sub(r"^#+\s+.*$", "", body, flags=re.M)
+        prose = re.sub(r"<!-- htf-figure:v1 -->.*?</figure>", " ", prose, flags=re.S)
         prose = re.sub(r"\s+", " ", prose).strip()
         key = prose[:100].lower()
         if key in openings:

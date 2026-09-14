@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.herbal_tea_retail_pack
+image_rights: documented
+meta_description: "Grocery herbal tea label literacy: species, part, cut, and trade story questions for historical readers."
+image_pass: 2026-09-14
+hero_figure: plates.herbal_tea_retail_pack
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/aisle/herbal-tea-retail-pack.jpg" alt="Grocery pack of herbal tea showing species and brand labeling" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Label literacy starts with species, part, cut, and story — questions for the tin, not the pancreas. <em>Rights:</em> CC BY-SA 3.0; see <a href="https://commons.wikimedia.org/wiki/File:A_Large_Pack_of_Chrysanthemum_tea_%28MY_and_SG%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Turn the box around. The front is a story. The back is a shorter story with a legal department.
 
 I am not going to tell you what to buy. I am going to give you questions that a foodways reader can ask a tin without turning the kitchen into a clinic. This draft does not treat, cure, or prevent. It is not medical advice. If the box is doing a job a drug label would not be allowed to do, notice the job. Do not finish it for them.

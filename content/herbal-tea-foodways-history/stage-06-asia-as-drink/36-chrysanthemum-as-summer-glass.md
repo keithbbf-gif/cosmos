@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.chrysanthemum_tea_glass
+image_rights: documented
+meta_description: "Chrysanthemum tea as Chinese summer glass foodways and culinary cooling language, not medical cooling claims."
+image_pass: 2026-09-14
+hero_figure: plates.chrysanthemum_tea_glass
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/chrysanthemum-tea-glass.jpg" alt="Glass of chrysanthemum tea with dried flowers" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Chrysanthemum as a summer glass beside sweets — cooling as culinary weather-talk, not a body chart. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Chrysanthemum_tea_%2820240131%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A pale gold glass in August is not a chapter of the *bencao*. It is a drink that learned to sit next to sweet bean and a slow fan.
 
 I am starting there on purpose. Chinese chrysanthemum infusions — *juhua cha* and its cousins in Taiwanese shops and overseas Chinatown fridges — get recruited, in English, into a pharmacopeia voice the minute someone sees the word *cha*. This folder will not do that work. The plant is a florist's and a farmer's object as much as a scholar's. The glass is a summer object. The classification system that calls some foods "cooling" is a culinary theory with a long paper trail. Culinary theory is not a lab report. I will treat it as a way households talk about weather and meals, not as a license to park a modern complaint next to a flower.

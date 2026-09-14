@@ -106,9 +106,15 @@ COSMOS Core.
 ## Tools
 
 ```text
+python3 content/herbal-tea-foodways-history/tools/download_commons.py
+python3 content/herbal-tea-foodways-history/tools/embed_figures.py
+python3 content/herbal-tea-foodways-history/tools/write_media_docs.py
+python3 content/herbal-tea-foodways-history/tools/check_figures.py
 python3 content/herbal-tea-foodways-history/tools/lint_claims.py
 python3 content/herbal-tea-foodways-history/tools/lint_claims.py --write-manifest
 ```
+
+Graphics policy: [`AGENTS_GRAPHICS.md`](AGENTS_GRAPHICS.md), [`RIGHTS.md`](RIGHTS.md), [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md).
 
 The linter checks count (≥40), frontmatter, word floor, uniqueness, the
 Claims box, a refuse-to-cure sentence, and a denylist of disease-payoff

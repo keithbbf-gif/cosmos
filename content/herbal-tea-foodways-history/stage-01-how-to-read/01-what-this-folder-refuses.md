@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.foodways-scope-fence
+image_rights: documented
+meta_description: "What the herbal tea foodways history folder refuses: educational cups and trade names, not medical advice or cure graphics."
+image_pass: 2026-09-14
+hero_figure: svg.foodways-scope-fence
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/foodways-scope-fence.svg" alt="Schematic of allowed foodways topics versus blocked medical-claim graphics" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The series fence is drawn before the first plant — kitchen, market, and garden rooms only, not disease-payoff art. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 I am going to spend the first page on what we will not do. If that sounds like a lawyer got to the kettle first, good. The English phrase *herbal tea* has spent a century sliding off a kitchen table and onto a claim. The slide is almost always greased with a condition name.
 
 This folder is a stack of foodways essays. It does not treat, cure, or prevent any disease. It is not medical advice. It is not a shopping list dressed up as folklore. It is not the herbal-medicine pack that already lives in this repo, and it is not the mid-century laboratory-word pack either. Those folders have their own fences. This one stays at the table.

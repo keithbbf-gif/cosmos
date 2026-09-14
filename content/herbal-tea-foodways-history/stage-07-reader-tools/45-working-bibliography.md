@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.hibiscus-atlantic-belt-map
+image_rights: documented
+meta_description: "Working bibliography for herbal tea foodways history: sources opened, gaps, and uncertain dates."
+image_pass: 2026-09-14
+hero_figure: svg.hibiscus-atlantic-belt-map
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/hibiscus-atlantic-belt-map.svg" alt="Schematic map of roselle drink geographies for bibliography context" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The working bibliography lists what we opened — and the belts we still cannot close with one confident date. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 A bibliography in this folder is not a flex. It is a list of what I opened, what I only saw the face of, and what I refused to treat as a pot I had stood beside.
 
 I will write it as an essay because a bullet list would pretend completeness. Completeness is a marketing tone. This draft does not treat, cure, or prevent. It is not medical advice. It is a map of paper.

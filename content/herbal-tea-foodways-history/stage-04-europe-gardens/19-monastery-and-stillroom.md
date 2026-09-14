@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.chamomile_field
+image_rights: documented
+meta_description: "Monastery garden and stillroom herb production as European foodways, not miracle cure folklore."
+image_pass: 2026-09-14
+hero_figure: plates.chamomile_field
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/garden/chamomile-field.jpg" alt="Wild chamomile and poppies at the edge of a barley field" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Monastery gardens and stillrooms are production rooms — plants in rows, not a medical myth panel. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Camomille_sauvage_%28Matricaria_chamomilla%29%2C_coquelicots_%28Papaver_rhoeas%29_au_bord_d%27un_champ_d%27orge_%28Hordeum_vulgare%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The walled bed is a factory with better manners. A monastery garden, when it is doing its ordinary work, is a production site: labeled plots, a drying rack in a draft, a store of last summer's blossom that will go into a winter pot. The popular caption prefers a different picture — a monk as proto-clinician, the cloister as the origin story of every later sachet. That caption is a medical monastic myth. I am not writing it.
 
 What I can say from public objects is smaller and more useful. The Plan of Saint Gall, drawn on five sewn parchments in the early ninth century, is an idealized Benedictine compound, not a photograph of a built house. Garden historians still use it because it bothers to separate work. There is a *hortus* for kitchen plants, a *pomarius* for orchard, and a *herbularius* of rectangular beds with a plant name written in each. The infirmary and the physician's house sit in the same neighborhood on the parchment. That adjacency is architecture. It is not a license to convert every later lime-blossom cup into a cloister sermon.

@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.herbal_tea_retail_pack
+image_rights: documented
+meta_description: "Lotus seed and artichoke cafe drink tins as scented grocery commerce without cleanse claims."
+image_pass: 2026-09-14
+hero_figure: plates.herbal_tea_retail_pack
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/aisle/herbal-tea-retail-pack.jpg" alt="Retail pack of chrysanthemum herbal tea bags" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Lotus and artichoke cafe tins sell scent and story — read the label as commerce, not a cleanse. <em>Rights:</em> CC BY-SA 3.0; see <a href="https://commons.wikimedia.org/wiki/File:A_Large_Pack_of_Chrysanthemum_tea_%28MY_and_SG%29.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Dalat has a souvenir problem, and the souvenir is a drink.
 
 Vietnamese *trà atisô* — artichoke as a sweet, brown, sometimes canned infusion associated with the highlands around Đà Lạt — is a regional cafe and gift-tin object. I have not stood in the market counting cans. I have seen the cans in the way anyone who has walked a Vietnamese grocery has seen them: artichoke on the label, a landscape behind it, sweetness you do not expect if your only artichoke is a Mediterranean vegetable on a plate. The plant is *Cynara*, grown as a crop in a highland that French colonial agriculture helped remake. That last clause is the kind of sentence that wants a monograph. I will leave it as a hedge: highland vegetable economies have colonial plots, and this drink sits in one of them. I will not invent a founder or a first factory year I have not checked.

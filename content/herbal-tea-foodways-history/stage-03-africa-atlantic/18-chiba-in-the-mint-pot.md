@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.mint_spearmint_kohler
+image_rights: documented
+meta_description: "Maghrebi mint pot foodways: local herbs and imported tea leaves as paired hospitality."
+image_pass: 2026-09-14
+hero_figure: plates.mint_spearmint_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/mint-spearmint-kohler.jpg" alt="Spearmint Mentha botanical plate from Köhler's Medizinal-Pflanzen" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Chiba in the mint pot is local herbs teaching imported leaf how to sit — a Maghrebi foodway, not a single species. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Mentha_viridis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-096.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Height is part of the recipe in a Maghrebi mint pot. The host lifts the teapot so the stream cools, foams, and announces that the glasses are for company.
 
 The drink English speakers flatten into "Moroccan mint tea" is, in Graham Cornwell's account, *atay*: Chinese green tea — often gunpowder — boiled or repeatedly poured with a great deal of sugar and a handful of fresh herbs. Mint is the herb the postcard knows. It is not the only leaf that goes in. Cornwell's 2018 Georgetown dissertation, *Sweetening the Pot: A History of Tea and Sugar in Morocco, 1850–1960*, is the document this folder actually leans on here. I have not reconstructed his archives. I am using his argument as a public object: the nineteenth-century boom in imported tea and sugar sat down next to an older pot of herbs, and the herbs did not politely leave.

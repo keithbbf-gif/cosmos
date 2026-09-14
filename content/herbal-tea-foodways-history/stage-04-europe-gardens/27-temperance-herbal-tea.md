@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.tea_bags_envelope
+image_rights: documented
+meta_description: "Temperance movement herbal tea cups as meeting-house foodways versus alcohol trade, not health claims."
+image_pass: 2026-09-14
+hero_figure: plates.tea_bags_envelope
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/aisle/tea-bags-envelope.jpg" alt="Herbal and tea bags in paper envelopes" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Temperance meetings weaponized the herbal cup against the dram shop — a social hour, not a liver chart. <em>Rights:</em> CC BY-SA 2.5; see <a href="https://commons.wikimedia.org/wiki/File:Tea_bags.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The dram shop had a counter and a smell. Reformers answered with a table and a pledge, then had to invent something hot to put on the table, because a movement cannot live on cold water and sermons. The nineteenth-century "herbal tea" in this story is a social weapon. It is not a health-claim essay wearing a bonnet.
 
 Teetotalism needed rooms. Inns had been the default meeting hall; if you would not meet in a room whose business was gin and beer, you had to build another room. Preston's early temperance hotel in the 1830s, the hundreds of halls counted by mid-century, the British Workman in Leeds in 1867 — a pub bought and reopened "without the beer" — and the coffee-tavern boom of the 1870s are architecture. Joseph Livesey's circle and the word *teetotal* are the English origin story the plaques like. I have not sat with their minute books. I am using the public building history: coffee palaces, cocoa rooms, temperance hotels, billiard halls that sold a cup instead of a dram.

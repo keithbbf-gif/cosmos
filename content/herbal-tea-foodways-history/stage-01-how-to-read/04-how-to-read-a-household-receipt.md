@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.household_tea_still_life_roestraten
+image_rights: documented
+meta_description: "How to read a household receipt for herbal drinks: kitchen instructions and social context, not disease claims."
+image_pass: 2026-09-14
+hero_figure: plates.household_tea_still_life_roestraten
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/historic/household-tea-still-life-roestraten.jpg" alt="Dutch still life with porcelain tea cups and table objects" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A household receipt belongs to the same room as this table — instructions for a kitchen, not proof of a modern finding. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Pieter_Gerritsz._van_Roestraten_%281629-1630-1700%29_-_Still_Life_with_Tea_Cups_-_VIS.305_-_Sheffield_Galleries_and_Museums_Trust.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A receipt, in the older English sense, is a recipe. The word sat in cookery books and in household books that did not bother to keep cookery and physic in separate bindings. That mixed binding is the trap. A modern reader opens a stillroom manuscript, sees "for the cough" in the margin, and decides the whole history of herbal infusions is a history of treatment. A different modern reader, frightened of that margin, pretends the household never wrote it down. Both readers are doing marketing: one for the wellness aisle, one for a purity that never existed.
 
 I want a third way to read the page.

@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.camellia-vs-herbal-bins
+image_rights: documented
+meta_description: "Why tisane is not tea: Camellia sinensis versus the English herbal tea grocery category, explained as foodways history."
+image_pass: 2026-09-14
+hero_figure: svg.camellia-vs-herbal-bins
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/camellia-vs-herbal-bins.svg" alt="Diagram of Camellia sinensis bin separate from herbal tisane bin in a grocery aisle" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tisane is not tea in the botanical sense — the aisle sorts Camellia from everything else the tin calls herbal. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 The grocery aisle is a poor linguist. It prints TEA on a box of chamomile, a box of roasted barley, a box of hibiscus calyces, and a box of actual *Camellia sinensis*, then lets the shelf do the rest of the thinking. English has been doing this for a long time. It is convenient. It is also a category error with a string tag.
 
 Tea, if we are going to be dull and accurate for one paragraph, is an infusion of the tea plant. The plant has a Linnaean name and a trade history that already fills libraries. Almost everything else that Americans call "herbal tea" is a drink made by pouring hot water over some other plant part: leaf, flower, fruit, seed, roasted grain, bark, calyx. The European trade association that now sits in Hamburg — Tea & Herbal Infusions Europe, stitched together in 2015 from an older tea committee and an older herbal-infusions association — bothers to keep the bins separate. That is not pedantry for its own sake. It is how a food category stays describable when the marketing department would rather it not be.

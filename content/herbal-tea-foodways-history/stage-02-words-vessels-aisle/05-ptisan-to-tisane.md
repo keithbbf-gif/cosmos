@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.ptisan-tisane-timeline
+image_rights: documented
+meta_description: "From ptisan to tisane: barley sickroom register, French widening, and the grocery herbal tea aisle as word history."
+image_pass: 2026-09-14
+hero_figure: svg.ptisan-tisane-timeline
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/ptisan-tisane-timeline.svg" alt="Timeline from barley ptisan through French tisane to English herbal tea category" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Ptisan begins as barley water; tisane widens in French dictionaries long before the English tin says HERBAL TEA. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 If you want a history of "herbal tea" that does not start in a wellness warehouse, start with porridge that learned to be a drink.
 
 Greek *ptisanē* is peeled or crushed barley. The verb behind it is a kitchen verb: to pound, to winnow, to take the husk off. Latin borrowed the noun as *ptisana* or *tisana*. Anglo-Norman scribes wrote *tysanne*. Medieval French kept *ptisane* and *tisane* for a decoction of hulled barley, sometimes used as the liquid in which other plants were cooked. The *Dictionnaire du Moyen Français* is blunt about the older sense: barley decoction, plants optional. The barley is the headword. The herbs are guests.

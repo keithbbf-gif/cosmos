@@ -13,7 +13,7 @@ slug = "what-this-folder-refuses"
 title = "What This Folder Refuses to Say"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/01-what-this-folder-refuses.md"
-words = "1051"
+words = "1121"
 
 [[draft]]
 id = "02"
@@ -21,7 +21,7 @@ slug = "tisane-is-not-tea"
 title = "Tisane Is Not Tea"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/02-tisane-is-not-tea.md"
-words = "1042"
+words = "1117"
 
 [[draft]]
 id = "03"
@@ -29,7 +29,7 @@ slug = "foodways-not-materia-medica"
 title = "Foodways, Not Materia Medica"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/03-foodways-not-materia-medica.md"
-words = "983"
+words = "1081"
 
 [[draft]]
 id = "04"
@@ -37,7 +37,7 @@ slug = "how-to-read-a-household-receipt"
 title = "How to Read a Household Receipt"
 stage = "01-how-to-read"
 path = "stage-01-how-to-read/04-how-to-read-a-household-receipt.md"
-words = "966"
+words = "1071"
 
 [[draft]]
 id = "05"
@@ -45,7 +45,7 @@ slug = "ptisan-to-tisane"
 title = "From Ptisan to Tisane"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/05-ptisan-to-tisane.md"
-words = "778"
+words = "849"
 
 [[draft]]
 id = "06"
@@ -53,7 +53,7 @@ slug = "thie-and-the-two-bins"
 title = "THIE and the Two Bins"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/06-thie-and-the-two-bins.md"
-words = "767"
+words = "858"
 
 [[draft]]
 id = "07"
@@ -61,7 +61,7 @@ slug = "tea-bag-tin-aisle"
 title = "Bag, Tin, and the Grocery Aisle"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/07-tea-bag-tin-aisle.md"
-words = "786"
+words = "869"
 
 [[draft]]
 id = "08"
@@ -69,7 +69,7 @@ slug = "camellia-as-unmarked-default"
 title = "Camellia as the Unmarked Default"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/08-camellia-as-unmarked-default.md"
-words = "760"
+words = "847"
 
 [[draft]]
 id = "09"
@@ -77,7 +77,7 @@ slug = "infusion-decoction-sun"
 title = "Infusion, Decoction, Sun Tea"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/09-infusion-decoction-sun.md"
-words = "797"
+words = "891"
 
 [[draft]]
 id = "10"
@@ -85,7 +85,7 @@ slug = "cup-pot-strainer"
 title = "The Cup, the Pot, the Strainer"
 stage = "02-words-vessels-aisle"
 path = "stage-02-words-vessels-aisle/10-cup-pot-strainer.md"
-words = "736"
+words = "830"
 
 [[draft]]
 id = "11"
@@ -93,7 +93,7 @@ slug = "bissap-zobo-sobolo"
 title = "Bissap, Zobo, Sobolo"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/11-bissap-zobo-sobolo.md"
-words = "1035"
+words = "1116"
 
 [[draft]]
 id = "12"
@@ -101,7 +101,7 @@ slug = "caribbean-christmas-sorrel"
 title = "Caribbean Christmas Sorrel"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/12-caribbean-christmas-sorrel.md"
-words = "982"
+words = "1054"
 
 [[draft]]
 id = "13"
@@ -109,7 +109,7 @@ slug = "agua-de-jamaica"
 title = "Agua de Jamaica"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/13-agua-de-jamaica.md"
-words = "975"
+words = "1054"
 
 [[draft]]
 id = "14"
@@ -117,7 +117,7 @@ slug = "karkadeh-cafe"
 title = "Karkadeh in the Cafe"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/14-karkadeh-cafe.md"
-words = "913"
+words = "994"
 
 [[draft]]
 id = "15"
@@ -125,7 +125,7 @@ slug = "rooibos-cederberg-cup"
 title = "Rooibos, a Cederberg Cup"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/15-rooibos-cederberg-cup.md"
-words = "934"
+words = "1020"
 
 [[draft]]
 id = "16"
@@ -133,7 +133,7 @@ slug = "honeybush-quieter-sibling"
 title = "Honeybush, the Quieter Sibling"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/16-honeybush-quieter-sibling.md"
-words = "925"
+words = "997"
 
 [[draft]]
 id = "17"
@@ -141,7 +141,7 @@ slug = "kinkeliba-sahel-hospitality"
 title = "Kinkeliba as Sahelian Hospitality"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/17-kinkeliba-sahel-hospitality.md"
-words = "922"
+words = "998"
 
 [[draft]]
 id = "18"
@@ -149,7 +149,7 @@ slug = "chiba-in-the-mint-pot"
 title = "Chiba in the Mint Pot"
 stage = "03-africa-atlantic"
 path = "stage-03-africa-atlantic/18-chiba-in-the-mint-pot.md"
-words = "991"
+words = "1084"
 
 [[draft]]
 id = "19"
@@ -157,7 +157,7 @@ slug = "monastery-and-stillroom"
 title = "Monastery Garden and Stillroom"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/19-monastery-and-stillroom.md"
-words = "1012"
+words = "1112"
 
 [[draft]]
 id = "20"
@@ -165,7 +165,7 @@ slug = "tilleul-french-hour"
 title = "Tilleul, a French Domestic Hour"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/20-tilleul-french-hour.md"
-words = "821"
+words = "905"
 
 [[draft]]
 id = "21"
@@ -173,7 +173,7 @@ slug = "chamomile-cottage-and-cafe"
 title = "Chamomile as Cottage and Cafe"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/21-chamomile-cottage-and-cafe.md"
-words = "855"
+words = "933"
 
 [[draft]]
 id = "22"
@@ -181,7 +181,7 @@ slug = "elderflower-as-season"
 title = "Elderflower as Season"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/22-elderflower-as-season.md"
-words = "788"
+words = "865"
 
 [[draft]]
 id = "23"
@@ -189,7 +189,7 @@ slug = "tsai-tou-vounou"
 title = "Tsai tou Vounou"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/23-greek-mountain-tea.md"
-words = "804"
+words = "892"
 
 [[draft]]
 id = "24"
@@ -197,7 +197,7 @@ slug = "ivan-chai-koporye"
 title = "Ivan-Chai and Koporye"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/24-ivan-chai-koporye.md"
-words = "797"
+words = "883"
 
 [[draft]]
 id = "25"
@@ -205,7 +205,7 @@ slug = "alpine-kraeuter"
 title = "Alpine Kräuter as Landscape Branding"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/25-alpine-kraeuter.md"
-words = "777"
+words = "844"
 
 [[draft]]
 id = "26"
@@ -213,7 +213,7 @@ slug = "wartime-substitutes"
 title = "Wartime and Blockade Substitutes"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/26-wartime-substitutes.md"
-words = "816"
+words = "892"
 
 [[draft]]
 id = "27"
@@ -221,7 +221,7 @@ slug = "temperance-herbal-tea"
 title = "Temperance and the Herbal \\"Tea\"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/27-temperance-herbal-tea.md"
-words = "804"
+words = "885"
 
 [[draft]]
 id = "28"
@@ -229,7 +229,7 @@ slug = "oswego-and-the-refusal"
 title = "Oswego Tea and the Refusal Story"
 stage = "04-europe-gardens"
 path = "stage-04-europe-gardens/28-oswego-and-the-refusal.md"
-words = "841"
+words = "928"
 
 [[draft]]
 id = "29"
@@ -237,7 +237,7 @@ slug = "yaupon-white-drink"
 title = "Yaupon, White Drink, Black Drink"
 stage = "05-americas"
 path = "stage-05-americas/29-yaupon-white-drink.md"
-words = "957"
+words = "1025"
 
 [[draft]]
 id = "30"
@@ -245,7 +245,7 @@ slug = "labrador-tea-trapline"
 title = "Labrador Tea on the Trapline"
 stage = "05-americas"
 path = "stage-05-americas/30-labrador-tea-trapline.md"
-words = "1008"
+words = "1086"
 
 [[draft]]
 id = "31"
@@ -253,7 +253,7 @@ slug = "sassafras-as-flavor-history"
 title = "Sassafras as a Historical Flavor"
 stage = "05-americas"
 path = "stage-05-americas/31-sassafras-as-flavor-history.md"
-words = "913"
+words = "992"
 
 [[draft]]
 id = "32"
@@ -261,7 +261,7 @@ slug = "yerba-mate-as-form"
 title = "Yerba Mate as a Social Form"
 stage = "05-americas"
 path = "stage-05-americas/32-yerba-mate-as-form.md"
-words = "891"
+words = "974"
 
 [[draft]]
 id = "33"
@@ -269,7 +269,7 @@ slug = "guayusa-morning"
 title = "Guayusa Mornings"
 stage = "05-americas"
 path = "stage-05-americas/33-guayusa-morning.md"
-words = "912"
+words = "992"
 
 [[draft]]
 id = "34"
@@ -277,7 +277,7 @@ slug = "andean-hierbas-in-the-kettle"
 title = "Andean Hierbas in the Kettle"
 stage = "05-americas"
 path = "stage-05-americas/34-andean-hierbas-in-the-kettle.md"
-words = "876"
+words = "962"
 
 [[draft]]
 id = "35"
@@ -285,7 +285,7 @@ slug = "shaker-moravian-herb-gardens"
 title = "Shaker and Moravian Herb Gardens"
 stage = "05-americas"
 path = "stage-05-americas/35-shaker-moravian-herb-gardens.md"
-words = "948"
+words = "1045"
 
 [[draft]]
 id = "36"
@@ -293,7 +293,7 @@ slug = "chrysanthemum-as-summer-glass"
 title = "Chrysanthemum as a Summer Glass"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/36-chrysanthemum-as-summer-glass.md"
-words = "750"
+words = "828"
 
 [[draft]]
 id = "37"
@@ -301,7 +301,7 @@ slug = "mugicha-sobacha-cha-without-camellia"
 title = "Mugicha, Sobacha, Cha Without Camellia"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/37-mugicha-sobacha-cha-without-camellia.md"
-words = "787"
+words = "850"
 
 [[draft]]
 id = "38"
@@ -309,7 +309,7 @@ slug = "boricha-omija-table"
 title = "Boricha and Omija at the Table"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/38-boricha-omija-table.md"
-words = "754"
+words = "837"
 
 [[draft]]
 id = "39"
@@ -317,7 +317,7 @@ slug = "butterfly-pea-and-pandan"
 title = "Butterfly Pea and Pandan in the Glass"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/39-butterfly-pea-and-pandan.md"
-words = "728"
+words = "804"
 
 [[draft]]
 id = "40"
@@ -325,7 +325,7 @@ slug = "tulsi-courtyard-hospitality"
 title = "Tulsi in the Courtyard, as a Household Plant"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/40-tulsi-courtyard-hospitality.md"
-words = "711"
+words = "785"
 
 [[draft]]
 id = "41"
@@ -333,7 +333,7 @@ slug = "atay-mint-taught-the-leaf"
 title = "Atay: When Mint Taught the Leaf to Sit"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/41-atay-mint-taught-the-leaf.md"
-words = "720"
+words = "808"
 
 [[draft]]
 id = "42"
@@ -341,7 +341,7 @@ slug = "lotus-and-artichoke-cafe"
 title = "Lotus and Artichoke as Cafe Drinks"
 stage = "06-asia-as-drink"
 path = "stage-06-asia-as-drink/42-lotus-and-artichoke-cafe.md"
-words = "730"
+words = "820"
 
 [[draft]]
 id = "43"
@@ -349,7 +349,7 @@ slug = "how-journalists-flatten"
 title = "How Journalists Flatten \\"Herbal Tea\"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/43-how-journalists-flatten.md"
-words = "726"
+words = "794"
 
 [[draft]]
 id = "44"
@@ -357,7 +357,7 @@ slug = "label-literacy-grocery-tin"
 title = "Label Literacy for a Grocery Tin"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/44-label-literacy-grocery-tin.md"
-words = "707"
+words = "799"
 
 [[draft]]
 id = "45"
@@ -365,4 +365,4 @@ slug = "working-bibliography"
 title = "Working Bibliography"
 stage = "07-reader-tools"
 path = "stage-07-reader-tools/45-working-bibliography.md"
-words = "775"
+words = "844"

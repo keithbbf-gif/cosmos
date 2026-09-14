@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.mint_spearmint_kohler
+image_rights: documented
+meta_description: "Andean hierbas kettle bundles as highland market drink foodways without detox marketing."
+image_pass: 2026-09-14
+hero_figure: plates.mint_spearmint_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/mint-spearmint-kohler.jpg" alt="Mint botanical plate for Andean hierbas context" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Andean hierbas in the kettle are market bundles and contested leaves — table drinks, not cleanse copy. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Mentha_viridis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-096.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Ask for *mate* in a Cusco kitchen and you have not yet named a plant.
 
 You have named a kettle habit. Andean Spanish uses *mate* for an infusion in a cup long before a tourist learns that the word is also a Paraguayan holly and a gourd. *Mate de coca* is one drink. *Mate de hierbas* is another — a string-tied bundle from the market, or a pinch of *muña*, or *manzanilla*, or a mix the seller swore was for after the meal. The grammar is household. The plants are not interchangeable. Collapsing them into "herbal tea at altitude" is how the aisle does the Andes with a suitcase.

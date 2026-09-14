@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.dried_hibiscus_calyces
+image_rights: documented
+meta_description: "Kinkeliba as Sahelian hospitality drink with a thin colonial paper trail kept at the guest pot."
+image_pass: 2026-09-14
+hero_figure: plates.dried_hibiscus_calyces
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/dried-hibiscus-calyces.jpg" alt="Dried calyces for Sahelian hospitality drinks" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Kinkeliba's English trail is thinner — the guest pot still matters even when the archive is quiet. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Dried_hibiscus_flowers.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A guest in the western Sahel is often poured for before anyone asks what the leaf is called in a language that prints well. The pot is already on, and the house already knows the bush.
 
 The plant English-language labels sometimes bother to Latinize is *Combretum micranthum*. In much of Francophone West Africa the drink-name you will hear is *kinkeliba* — spellings wander, as drink-names do when they move between Wolof, Manding, French, and the aisle. I am staying with the pot and the guest. I am not turning the leaf into a specialty of a body part. English-language sources on this as a *foodway* are thinner than the sources on mint in Morocco or hibiscus in Dakar. I will say that in public. Thinness is not a license to invent a colonial officer's notebook, a neat first date, or a quotation I have not got.

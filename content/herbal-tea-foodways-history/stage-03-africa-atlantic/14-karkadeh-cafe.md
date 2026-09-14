@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.dried_hibiscus_calyces
+image_rights: documented
+meta_description: "Karkadeh cafe culture in Cairo and Sudanese street glasses: roselle hospitality without wellness copy."
+image_pass: 2026-09-14
+hero_figure: plates.dried_hibiscus_calyces
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/dried-hibiscus-calyces.jpg" alt="Dried hibiscus calyces ready to brew a tart red drink" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Karkadeh in the cafe is a street glass and a sugar argument — tourist nicknames flagged, plant unchanged. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Dried_hibiscus_flowers.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Cairo's open-air tables have room for a red glass that is neither coffee nor Camellia. Vendors and cafes sell it as a drink people already know how to order.
 
 The Arabic name you will meet most often in English is *karkadeh* or *karkade* — spellings wander — for an infusion or decoction of roselle calyces in Egypt and Sudan. Hot in weather that wants heat. Iced when the city is doing what cities do in summer. Street sellers pour it. Open-air cafes in Cairo are widely reported as places you can sit with it beside tea and coffee, without anyone treating the order as a novelty. I will not invent a particular cafe, a particular waiter, or a particular corner in Zamalek or downtown. The type is attested in travel writing, food writing, and ordinary talk. The type is enough: a public cup, a color, a price, a pause.

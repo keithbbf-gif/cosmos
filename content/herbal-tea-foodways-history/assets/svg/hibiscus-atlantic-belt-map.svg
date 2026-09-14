@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520" role="img">
+  <title>Atlantic hibiscus belt map</title>
+  <desc>Simplified map highlighting West Africa, Sahel edge, and Caribbean connections for roselle drink foodways.</desc>
+  <rect width="880" height="520" fill="#e8eef2"/>
+  <text x="440" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#1f2933">Roselle drink names (schematic belt)</text>
+  <path d="M180 120 L720 120 L760 380 L140 400 Z" fill="#d4e4d9" stroke="#1f2933" stroke-width="1.5"/>
+  <path d="M220 180 L420 160 L520 240 L380 320 L240 300 Z" fill="#f5e6d3" stroke="#8b4513" stroke-width="1.5"/>
+  <text x="360" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">West Africa</text>
+  <text x="360" y="262" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">bissap · zobo · sobolo</text>
+  <ellipse cx="620" cy="300" rx="70" ry="45" fill="#f5e6d3" stroke="#8b4513" stroke-width="1.5"/>
+  <text x="620" y="295" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1f2933">Caribbean</text>
+  <text x="620" y="315" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#52606d">sorrel · Christmas hour</text>
+  <ellipse cx="200" cy="340" rx="55" ry="35" fill="#ffffff" stroke="#1f2933" stroke-width="1"/>
+  <text x="200" y="345" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Sahel edge</text>
+  <path d="M480 200 Q560 260 620 280" fill="none" stroke="#8b4513" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="540" y="210" font-family="system-ui,sans-serif" font-size="10" fill="#8b4513">Atlantic crossings (many routes)</text>
+  <text x="440" y="460" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Not a phylogeny map  a drink-name geography for foodways essays.</text>
+  <text x="440" y="490" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Editorial map  herbal-tea-foodways-history</text>
+</svg>

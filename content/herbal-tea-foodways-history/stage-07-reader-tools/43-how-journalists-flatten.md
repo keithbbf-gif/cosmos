@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.grocery-herbal-label-timeline
+image_rights: documented
+meta_description: "How journalists flatten herbal tea into one word: foodways critique of missing verbs and plant diversity."
+image_pass: 2026-09-14
+hero_figure: svg.grocery-herbal-label-timeline
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/grocery-herbal-label-timeline.svg" alt="Timeline from stillroom jars to modern HERBAL TEA grocery tins" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Journalists flatten fifty plants into one word — the missing verb is usually pour, serve, or sell. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 The flatten has a shape. Once you see it, you cannot unsee it, which is annoying in a supermarket and useful in a chair.
 
 Paragraph one: a kettle, a grandmother, a word like *ancient* or *soothing*. Paragraph two: a plant Latin that may or may not match the bag. Paragraph three: a body complaint, or a wink that does the work of a complaint without a verb the lawyer would circle. Paragraph four: a shop. Paragraph five, if the piece is "responsible": "more research is needed," which is how a flatten pretends it was a review article.

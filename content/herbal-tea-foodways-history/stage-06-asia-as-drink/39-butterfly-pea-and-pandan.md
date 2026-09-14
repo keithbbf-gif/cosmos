@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.butterfly_pea_flower
+image_rights: documented
+meta_description: "Butterfly pea and pandan color drinks as Southeast Asian hospitality foodways without detox marketing."
+image_pass: 2026-09-14
+hero_figure: plates.butterfly_pea_flower
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/butterfly-pea-flower.jpg" alt="Blue Clitoria ternatea butterfly pea flowers" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Butterfly pea and pandan trade on color and aroma — hospitality tricks in the glass, not cleanse branding. <em>Rights:</em> CC0; see <a href="https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Blue that turns purple when you squeeze a lime is a hospitality trick before it is a botanist's anecdote.
 
 Thai *nam anchan* — butterfly pea, *Clitoria ternatea* — has lived in Southeast Asian kitchens as a color as much as a taste. The taste is mild, a little earthy, easy to lose under sugar and lime. The color is not mild. It photographs. That is why the last fifteen years of English-language food media cannot leave it alone. A claims-guarded foodways series has to separate the household dye-drink from the cocktail-menu celebrity without sneering at either. People are allowed to like a trick. The trick is not a nutrient panel.

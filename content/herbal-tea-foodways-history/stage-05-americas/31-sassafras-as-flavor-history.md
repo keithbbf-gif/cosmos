@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.sassafras_leaves
+image_rights: documented
+meta_description: "Sassafras root beer flavor history and FDA safrole food rules as American foodways, not herbal treatment."
+image_pass: 2026-09-14
+hero_figure: plates.sassafras_leaves
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/sassafras-leaves.jpg" alt="Sassafras albidum leaves botanical photograph" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Sassafras as flavor history is a commodity taste — later a food-rule object, not a folk cure poster. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Sassafras_Leaf.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Smell the root first, then argue about the century.
 
 *Sassafras albidum* announces itself: mitten leaves, a citrus-spice bark, a tree of eastern woodlots that children can name before they can spell it. The foodways object is not "a tea" in the *Camellia* sense. It is a flavor that kept changing jobs — pot herb, export crate, soda-fountain ghost, a powder stirred into a stew at the end so it does not go stringy. If I let the word *tea* run the essay, I will miss the kitchen.

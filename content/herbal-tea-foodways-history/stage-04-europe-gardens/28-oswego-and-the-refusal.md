@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.oswego_bee_balm_monarda
+image_rights: documented
+meta_description: "Oswego tea Monarda and Boston Tea Party folklore: real plant, contested patriotic captions."
+image_pass: 2026-09-14
+hero_figure: plates.oswego_bee_balm_monarda
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/oswego-bee-balm-monarda.jpg" alt="Red Monarda didyma Oswego tea flower" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Oswego tea is a real plant with a patriotic caption that needs a hedge — Monarda on the table, myth on the margin. <em>Rights:</em> CC BY-SA 2.0; see <a href="https://commons.wikimedia.org/wiki/File:Monarda_didyma_flower.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The red flower is not in dispute. *Monarda didyma* grows, smells of citrus-mint, and takes a kettle. The flag people plant on it is another matter. Popular history likes to say that after Boston Harbor took the Camellia in 1773, colonists poured bee balm and called the refusal liberty. Sometimes someone did pour bee balm. The story, as a flag, is partly patriotic work. I will mark it as such and not polish it.
 
 Oswego is a place-name before it is a brand. The river mouth on Lake Ontario — the "pouring-out place" in the Iroquoian geography that English spelled *Oswego* — sat in a Haudenosaunee world and then under a British fort and then under an American town. Garden writers later attached *Monarda* to that name: Oswego tea. Popular pages then invent a tidy nation called "the Oswego tribe" who "taught the settlers." I will not invent an Indigenous quotation to make that tidiness feel kind. Peoples of the Great Lakes and the Northeast used *Monarda* species in their own kitchens and their own registers; the paper trail in English is colonial, thin, and fond of speaking for other people. Absence of a quoted sentence is not absence of a drink. It is a reason to keep my mouth smaller.

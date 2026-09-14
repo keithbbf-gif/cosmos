@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: svg.europe-herbal-cup-map
+image_rights: documented
+meta_description: "Alpine Kräuter herbal tea tins as landscape branding and European grocery storytelling."
+image_pass: 2026-09-14
+hero_figure: svg.europe-herbal-cup-map
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/svg/europe-herbal-cup-map.svg" alt="Schematic map of European domestic herbal cup traditions" width="880" height="520" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Alpine Kräuter on the tin is landscape branding — the meadow printed larger than any one farm. <em>Rights:</em> Editorial schematic; pack-owned — see RIGHTS.md.</figcaption>
+</figure>
 The word *Alpenkräuter* on a box is doing landscape work before it does kitchen work. It wants you to smell hay and see a peak that has never had a road. Then it wants you to buy a blend. I do not mind the purchase. I mind the compression that turns pasture labor into a postcard and a postcard into a cure-all.
 
 Alpine herbs exist. Meadows exist. People cut them. The brand is the extra noun. Swiss, Austrian, Bavarian, South Tyrolean, and Engadine shops have spent a century learning that a gentian or a lady's-mantle or a handful of mint looks more expensive if the Alps are standing behind it. Tourist railways, hotel balconies, and later ski weeks taught a public to want a portable meadow. The portable meadow arrived as a tin, a drop, a syrup, a bath salt, and a tea bag. Ricola's herbal-drop Alps are not this essay's cup, but they are cousins in the same advertising weather: edelweiss as a logo, a choir of peaks, a promise that altitude is an ingredient.

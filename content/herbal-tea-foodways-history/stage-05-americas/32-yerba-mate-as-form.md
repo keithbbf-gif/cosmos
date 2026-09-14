@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.yerba_mate_kohler
+image_rights: documented
+meta_description: "Yerba mate gourd and bombilla as social form foodways in the Americas, not stimulant marketing."
+image_pass: 2026-09-14
+hero_figure: plates.yerba_mate_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/yerba-mate-kohler.jpg" alt="Ilex paraguariensis yerba mate botanical plate" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Yerba mate as form means gourd and bombilla — the social hardware is the drink. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Ilex_paraguariensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-074.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A gourd coming toward you is not a serving. It is a turn.
 
 *Ilex paraguariensis* is a caffeine holly, kin to yaupon and guayusa, native to the upper Río de la Plata forests. The grocery aisle that later learned to say "herbal tea" sometimes files the dried leaf next to chamomile, as if a Southern Cone hourly drink were a caffeine-free cousin that forgot to be pale. It is not. Mate is a social form with hardware: a gourd (or a later industrial stand-in), a filtered straw, the *bombilla*, and a person, the *cebador*, who keeps the water coming and decides whose mouth is next. You do not order a cup. You enter a rotation.

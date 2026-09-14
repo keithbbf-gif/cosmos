@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.camellia_sinensis_kohler
+image_rights: documented
+meta_description: "Camellia sinensis as the unmarked tea default and herbal as the marked grocery adjective beside it."
+image_pass: 2026-09-14
+hero_figure: plates.camellia_sinensis_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/camellia-sinensis-kohler.jpg" alt="Camellia sinensis botanical illustration from Köhler's Medizinal-Pflanzen" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Camellia stays the unmarked default; herbal is the adjective that knows it stands beside something. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Every category has an unmarked term. In English hot drinks, the unmarked term is tea, and the tea that does not need an adjective is *Camellia sinensis*. Black, green, oolong — those are process words inside the default. "Herbal" is the adjective that means *not that*. The default is doing more work than it admits.
 
 This is not a complaint about botany. The tea plant earned its libraries: Chinese and then global cultivation, the Canton and later clipper trades, British and Dutch companies, Indian and Ceylonese plantations, Russian caravan routes, Moroccan gunpowder tea, Japanese steaming, the whole violent and ordinary machinery of a stimulant staple. A foodways series about the other cups has to keep that machinery in view, because so many of the other cups exist *as answers to it*.

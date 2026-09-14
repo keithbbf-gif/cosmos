@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.hibiscus_sabdariffa_calyces
+image_rights: documented
+meta_description: "Bissap, zobo, and sobolo: West African roselle drinks as street and table foodways, not one brand name."
+image_pass: 2026-09-14
+hero_figure: plates.hibiscus_sabdariffa_calyces
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/food/hibiscus-sabdariffa-calyces.jpg" alt="Fresh Hibiscus sabdariffa calyces on the plant" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Bissap, zobo, and sobolo share a calyx — street names before the English aisle says hibiscus tea. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_fruits.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Street ice in Dakar does not wait for a Latin binomial. The cooler is already bleeding color into meltwater while the seller negotiates sugar.
 
 That is the drink I want in this draft: a West African table and street object made from the fleshy calyces of *Hibiscus sabdariffa*, the plant English often calls roselle. The same calyx travels under other names. In Senegal and much of Francophone West Africa the common drink-name is *bissap*, widely given as a Wolof word that then sat comfortably in French. In Nigeria the boiled, spiced, sweetened version is *zobo*. In Ghana it is often *sobolo*. I am not doing a census of every market name from Bamako to Cotonou. I am saying the English aisle word "hibiscus tea" is a late compression of several kitchens that already had their own nouns.

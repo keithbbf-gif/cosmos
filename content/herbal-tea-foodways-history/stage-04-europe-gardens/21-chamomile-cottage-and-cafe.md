@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.chamomile_flowers
+image_rights: documented
+meta_description: "Chamomile as European cottage and cafe drink category without wellness bedtime claims."
+image_pass: 2026-09-14
+hero_figure: plates.chamomile_flowers
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/chamomile-flowers.jpg" alt="Chamomile Matricaria flower heads close view" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Chamomile sits in cottage and cafe as a grocery category — a cup, not a bedtime indication chart. <em>Rights:</em> GFDL 1.2; see <a href="https://commons.wikimedia.org/wiki/File:Chamomile%40original_size.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 What the tin draws is a daisy with a yellow button. What the tin contains is a category. Grocery chamomile is not a single passport. It is a pile of small white heads that commerce has agreed to call one thing.
 
 The naming mess is old and not cute. German chamomile — the upright annual that carries most of the world's tea-bag weight — is *Matricaria chamomilla*, also written *Matricaria recutita* and *Chamomilla recutita*, depending on which botanist won last decade. Roman or English chamomile — the low perennial that people plant between pavers and sometimes mow — is *Chamaemelum nobile*, formerly *Anthemis nobilis*. The Greek behind the English word is *chamaimēlon*, ground-apple, a smell note, not a brand. Field chamomiles and stinking chamomiles sit in neighboring genera and will ruin a pot if you are romantic about "wild." If a label prints no Latin at all, that silence is information. You are buying the category.

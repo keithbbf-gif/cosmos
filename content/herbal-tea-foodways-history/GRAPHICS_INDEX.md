@@ -1,0 +1,41 @@
+# GRAPHICS_INDEX — herbal-tea-foodways-history
+
+| Figure key | Asset | Kind | Status |
+| --- | --- | --- | --- |
+| `svg.americas-cup-geography` | `assets/svg/americas-cup-geography.svg` | svg | staged |
+| `svg.asia-cha-without-camellia` | `assets/svg/asia-cha-without-camellia.svg` | svg | staged |
+| `svg.camellia-vs-herbal-bins` | `assets/svg/camellia-vs-herbal-bins.svg` | svg | staged |
+| `svg.europe-herbal-cup-map` | `assets/svg/europe-herbal-cup-map.svg` | svg | staged |
+| `svg.foodways-scope-fence` | `assets/svg/foodways-scope-fence.svg` | svg | staged |
+| `svg.grocery-herbal-label-timeline` | `assets/svg/grocery-herbal-label-timeline.svg` | svg | staged |
+| `svg.hibiscus-atlantic-belt-map` | `assets/svg/hibiscus-atlantic-belt-map.svg` | svg | staged |
+| `svg.ptisan-tisane-timeline` | `assets/svg/ptisan-tisane-timeline.svg` | svg | staged |
+| `plates.herbal_tea_retail_pack` | `assets/images/aisle/herbal-tea-retail-pack.jpg` | raster | staged |
+| `plates.tea_bags_envelope` | `assets/images/aisle/tea-bags-envelope.jpg` | raster | staged |
+| `plates.butterfly_pea_flower` | `assets/images/botanical/butterfly-pea-flower.jpg` | raster | staged |
+| `plates.camellia_sinensis_kohler` | `assets/images/botanical/camellia-sinensis-kohler.jpg` | raster | staged |
+| `plates.chamomile_flowers` | `assets/images/botanical/chamomile-flowers.jpg` | raster | staged |
+| `plates.elderflower_sambucus` | `assets/images/botanical/elderflower-sambucus.jpg` | raster | staged |
+| `plates.fireweed_herbarium` | `assets/images/botanical/fireweed-herbarium.jpg` | raster | staged |
+| `plates.greek_mountain_tea_sideritis` | `assets/images/botanical/greek-mountain-tea-sideritis.jpg` | raster | staged |
+| `plates.guayusa_leaves` | `assets/images/botanical/guayusa-leaves.jpg` | raster | staged |
+| `plates.honeybush_cyclopia_plate` | `assets/images/botanical/honeybush-cyclopia-plate.png` | raster | staged |
+| `plates.labrador_tea_rhododendron` | `assets/images/botanical/labrador-tea-rhododendron.jpg` | raster | staged |
+| `plates.linden_tilia_inflorescence` | `assets/images/botanical/linden-tilia-inflorescence.jpg` | raster | staged |
+| `plates.mint_spearmint_kohler` | `assets/images/botanical/mint-spearmint-kohler.jpg` | raster | staged |
+| `plates.oswego_bee_balm_monarda` | `assets/images/botanical/oswego-bee-balm-monarda.jpg` | raster | staged |
+| `plates.rooibos_plant` | `assets/images/botanical/rooibos-plant.jpg` | raster | staged |
+| `plates.sassafras_leaves` | `assets/images/botanical/sassafras-leaves.jpg` | raster | staged |
+| `plates.tulsi_ocimum` | `assets/images/botanical/tulsi-ocimum.jpg` | raster | staged |
+| `plates.yaupon_holly_walcott` | `assets/images/botanical/yaupon-holly-walcott.jpg` | raster | staged |
+| `plates.yerba_mate_kohler` | `assets/images/botanical/yerba-mate-kohler.jpg` | raster | staged |
+| `plates.barley_grains` | `assets/images/food/barley-grains.jpg` | raster | staged |
+| `plates.boricha_barley_tea` | `assets/images/food/boricha-barley-tea.jpg` | raster | staged |
+| `plates.chrysanthemum_tea_glass` | `assets/images/food/chrysanthemum-tea-glass.jpg` | raster | staged |
+| `plates.dried_barley_tea` | `assets/images/food/dried-barley-tea.jpg` | raster | staged |
+| `plates.dried_hibiscus_calyces` | `assets/images/food/dried-hibiscus-calyces.jpg` | raster | staged |
+| `plates.hibiscus_sabdariffa_calyces` | `assets/images/food/hibiscus-sabdariffa-calyces.jpg` | raster | staged |
+| `plates.chamomile_field` | `assets/images/garden/chamomile-field.jpg` | raster | staged |
+| `plates.household_tea_still_life_roestraten` | `assets/images/historic/household-tea-still-life-roestraten.jpg` | raster | staged |
+| `plates.liotard_tea_set_still_life` | `assets/images/historic/liotard-tea-set-still-life.jpg` | raster | staged |
+| `plates.mate_gourd_bombilla` | `assets/images/vessels/mate-gourd-bombilla.jpg` | raster | staged |

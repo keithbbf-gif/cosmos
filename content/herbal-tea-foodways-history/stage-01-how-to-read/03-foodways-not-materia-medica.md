@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.liotard_tea_set_still_life
+image_rights: documented
+meta_description: "Foodways not materia medica: household cups and hospitality hours versus clinical herb marketing."
+image_pass: 2026-09-14
+hero_figure: plates.liotard_tea_set_still_life
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/historic/liotard-tea-set-still-life.jpg" alt="Eighteenth-century still life painting of a porcelain tea set on a table" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Foodways live at the table — a domestic tea set still life, not a materia medica plate hunting an indication. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Liotard%2C_Jean-%C3%89tienne_-_Still_Life-_Tea_Set_-_Google_Art_Project.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 There is already a way to write about plants in water, and it has a Latin name that sounds like a library. Materia medica catalogs what a tradition said a plant was *for*. Pharmacopeias, herbals, bencao, nighantu — those are real genres. They have their own historians. This repo even has folders that sit nearer that literature, with their own fences. This folder is not trying to win that argument by arriving late and speaking softly.
 
 Foodways is a different plot.

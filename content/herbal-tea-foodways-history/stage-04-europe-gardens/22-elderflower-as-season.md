@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.elderflower_sambucus
+image_rights: documented
+meta_description: "Elderflower seasonality in European foraging and kitchen calendars as foodways history."
+image_pass: 2026-09-14
+hero_figure: plates.elderflower_sambucus
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/elderflower-sambucus.jpg" alt="Elderflower Sambucus nigra botanical illustration" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Elderflower is a season on a calendar — short foraging weeks, not a year-round sachet virtue. <em>Rights:</em> CC BY-SA 3.0; see <a href="https://commons.wikimedia.org/wiki/File:Sambucus_nigra0.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The elder does not give you a month. It gives you a fortnight if the weather holds, three weeks if you live far enough north and the heads open late. *Sambucus nigra* — the European elder of hedges, railway cuttings, and the damp corner of a churchyard — is a foraging calendar before it is a flavor. Miss the cream plates and you are waiting a year, or you are buying a bottle that remembers June for you.
 
 Flower and berry are different kitchen objects. I want that sentence nailed to the cupboard door, because the grocery aisle and a certain kind of winter story like to mash them. The flowers arrive in late spring to early summer: flat cymes, pollen that dusts your cuffs, a smell that is honey and cat and citrus if you are generous. They want to be used quickly. Cordial, a sparkling "champagne" that is really a wild ferment if you let it, fritters (*beignets de fleurs de sureau*, elderflower fritters in an English pudding basin), a pale infusion if you only have a kettle. The berries arrive later, dark, and they are a preserve problem: jam, wine, a cooked syrup. Cooks who work with European elder treat the ripe fruit as something you heat. I am stating a kitchen caution, not a clinic. Leaves, bark, and green berries are not this essay's pantry.

@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.mate_gourd_bombilla
+image_rights: documented
+meta_description: "Tea cups, pots, and strainers as foodways hardware that assign hour, status, and hospitality."
+image_pass: 2026-09-14
+hero_figure: plates.mate_gourd_bombilla
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/vessels/mate-gourd-bombilla.jpg" alt="Calabash mate gourd with metal bombilla straw" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Cup, pot, and strainer assign status — a gourd and bombilla are the social hardware of a drink. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Mate_gourd_%28calabash%29_and_bombilla_held_against_a_European_Holly_%28Ilex_aquifolium%29_bush.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 A drink is an object before it is a plant.
 
 I can say that without becoming a museum catalog. The object is usually cheap: a glass, a tin pot, a cracked cup, a gourd, a thermos, a strainer that used to be a fork. Foodways that only describe the leaf will miss why two households with the same mint do not make the same hour.

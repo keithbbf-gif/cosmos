@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.linden_tilia_inflorescence
+image_rights: documented
+meta_description: "Tilleul linden flower cup as French domestic hour and foodways, not bedtime medical marketing."
+image_pass: 2026-09-14
+hero_figure: plates.linden_tilia_inflorescence
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/linden-tilia-inflorescence.jpg" alt="Linden Tilia cordata flowers on a branch" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tilleul marks a French domestic hour — linden as kitchen time, not a sleep protocol. <em>Rights:</em> CC BY-SA 4.0; see <a href="https://commons.wikimedia.org/wiki/File:Tilia_cordata_%28New_Belgrade%2C_Serbia%29_01.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 The paper cone from the pharmacie still rustles like a small animal. Inside: pale bracts, a few twigs you are meant to pick out, a smell that is honey and old wardrobe and the tree that shaded the square. French households have a word that does not need a Latin sermon. They say *tilleul*. They mean a kitchen hour.
 
 *Tilia* is the genus. Small-leaved lime, large-leaved lime, the common hybrid that lines a boulevard — *Tilia cordata*, *Tilia platyphyllos*, *Tilia × europaea* — are the trees English also calls linden. The drink is not the timber and not the honey, though both sit in the same summer. The drink is the dried inflorescence: flower, pale wing-like bract, a bit of stalk. Grocery and pharmacy tins in France have sold that cut as an ordinary *tisane* for a long time. I have not inventoried every provincial grocer. I have stood in kitchens where the jar was as unsurprising as sugar.

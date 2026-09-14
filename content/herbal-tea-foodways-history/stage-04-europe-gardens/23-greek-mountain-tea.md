@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.greek_mountain_tea_sideritis
+image_rights: documented
+meta_description: "Greek mountain tea Sideritis as breakfast table foodways and mountain naming, not export wellness branding."
+image_pass: 2026-09-14
+hero_figure: plates.greek_mountain_tea_sideritis
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/greek-mountain-tea-sideritis.jpg" alt="Sideritis scardica Greek mountain tea plant in botanic garden" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Tsai tou vounou names a mountain breakfast table — harvest pressure and local nouns, not an export slogan. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 On a limestone slope the plant looks like a pale candle that forgot to be a shrub. Greeks have a household name for the drink that does not need an export office: *tsai tou vounou*, tea of the mountain. The Latin is a pile of species. *Sideritis raeseri*, *Sideritis scardica*, *Sideritis syriaca*, *Sideritis clandestina*, and their cousins grow on rocky ground with thin soil, often above the orchards, often where a goat has an opinion. The grocery phrase "Greek mountain tea" is a crate name. The mountain names are older.
 
 Olympus, Parnassos, Taygetos, Athos, the White Mountains of Crete — these are not flavor notes. They are harvest geographies. *S. scardica* is the plant tourist copy likes to hang on Olympus and the northern ranges; *S. clandestina* is the one Peloponnesian talk ties to Taygetos; *S. syriaca*, in Crete, is *malotira*. *S. raeseri* is, in recent agricultural writing, the species most often planted when someone tries to take the plant off the cliff and into a field. I have not walked each massif with a vasculum. I am repeating the local map as it circulates in botanical and food-geography notes, and I am willing to be corrected on a ridge.

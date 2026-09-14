@@ -9,8 +9,18 @@ claims_posture: educational-foodways
 audience: curious-reader
 status: draft
 voice_check: writer-pass
+figure_id: plates.camellia_sinensis_kohler
+image_rights: documented
+meta_description: "THIE trade categories and the two bins: Camellia sinensis separated from other infusions in commerce and language."
+image_pass: 2026-09-14
+hero_figure: plates.camellia_sinensis_kohler
 ---
 
+<!-- htf-figure:v1 -->
+<figure class="htf-figure">
+  <img src="../assets/images/botanical/camellia-sinensis-kohler.jpg" alt="Historical botanical plate of Camellia sinensis tea plant" width="900" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A Hamburg letterhead that still splits THIE from other infusions is arguing with this leaf — Camellia as the marked default. <em>Rights:</em> Public domain; see <a href="https://commons.wikimedia.org/wiki/File:Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg">Commons</a> and RIGHTS.md.</figcaption>
+</figure>
 Industry prose is rarely lovely. It is sometimes more honest than a lifestyle caption.
 
 Tea & Herbal Infusions Europe — THIE — sits in Hamburg and says, in the flat voice of a trade association, that tea comes from *Camellia sinensis* L. Kuntze, and that herbal and fruit infusions are something else: popular, various, convenient, and not the same plant. The association in its present name dates to 22 January 2015. It is the successor of the European Tea Committee and the European Herbal Infusions Association, which had been around, as the current site puts it, for more than sixty years under older letterheads. I am repeating their self-description, not awarding them a monopoly on truth. I am interested in the fact that European trade bothered to keep two bins.
