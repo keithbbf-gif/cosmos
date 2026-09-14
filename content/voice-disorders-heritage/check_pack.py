@@ -116,6 +116,14 @@ def main() -> int:
         if typ == "profile" and fm.get("portrait_status") == "placeholder":
             if PLACEHOLDER_NEEDLE not in text:
                 errors.append(f"{path.name}: placeholder status without placeholder block")
+        if typ == "profile" and fm.get("portrait_status") == "downloaded":
+            if "<figure" not in text:
+                errors.append(f"{path.name}: downloaded profile missing <figure> block")
+            portrait = fm.get("portrait", "")
+            if portrait:
+                rights = ROOT / Path(portrait).with_suffix(".RIGHTS.md")
+                if not rights.is_file():
+                    errors.append(f"{path.name}: missing {rights.relative_to(ROOT)}")
         n = body_words(text)
         floor = MIN_WORDS_ERA if typ == "era" else MIN_WORDS_PROFILE
         if n < floor:

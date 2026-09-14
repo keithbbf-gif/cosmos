@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Johann Nepomuk Czermak](../assets/portraits/johann-nepomuk-czermak.jpg)
-
-*Johann Nepomuk Czermak (1828–1873). Lithograph after Josef Kriehuber. Wikimedia Commons. Public domain.*
+<!-- figure-id: johann-nepomuk-czermak.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/johann-nepomuk-czermak.jpg"
+    alt="Portrait lithograph of Johann Nepomuk Czermak, nineteenth-century physiologist."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Johann Nepomuk Czermak</strong> (1828–1873), Prague physiologist who popularized laryngeal mirror exams across Central Europe.
+    <span class="figure-credit">Lithograph after Josef Kriehuber. Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 Johann Nepomuk Czermak made the mirror a weekday instrument.
 

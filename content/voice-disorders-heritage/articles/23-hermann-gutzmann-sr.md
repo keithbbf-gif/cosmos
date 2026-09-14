@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Hermann Gutzmann Sr.](../assets/portraits/hermann-gutzmann-sr.jpg)
-
-*Hermann Gutzmann Sr. (1865–1922). Published by Adolf Eckstein. Wikimedia Commons. Public domain.*
+<!-- figure-id: hermann-gutzmann-sr.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/hermann-gutzmann-sr.jpg"
+    alt="Portrait photograph of Hermann Gutzmann Sr., early twentieth-century phoniatrist."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Hermann Gutzmann Sr.</strong> (1865–1922), Berlin phoniatrist whose breathing and articulation drills shaped German voice therapy.
+    <span class="figure-credit">Published by Adolf Eckstein. Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 The Eckstein portrait shows a Wilhelmine physician: beard, stiff collar, the look of a man who has just come from a lecture. Hermann Carl Albert Gutzmann (29 January 1865 – 4 November 1922) is the person European phoniatricians mean when they say the specialty has a father. This pack needs him for the voice book and the Charité hallway, not as a second copy of the stuttering dissertation.
 

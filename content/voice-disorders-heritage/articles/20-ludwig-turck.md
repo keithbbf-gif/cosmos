@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Ludwig Türck](../assets/portraits/ludwig-turck.jpg)
-
-*Ludwig Türck (1810–1868). Photogravure. Wellcome Collection (V0027275) / Wikimedia Commons. CC BY 4.0.*
+<!-- figure-id: ludwig-turck.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/ludwig-turck.jpg"
+    alt="Portrait photogravure of Ludwig Türck, nineteenth-century laryngologist."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ludwig Türck</strong> (1810–1868), Viennese laryngologist who made mirror laryngoscopy a routine medical exam.
+    <span class="figure-credit">Photogravure. Wellcome Collection V0027275 / Wikimedia Commons. CC BY 4.0.</span>
+  </figcaption>
+</figure>
 
 Ludwig Türck waited for the sun.
 

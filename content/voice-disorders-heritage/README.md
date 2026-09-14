@@ -13,7 +13,9 @@ This series is the **voice-disorders** lane of SLPWOW heritage copy: laryngoscop
 | Path | Purpose |
 |------|---------|
 | `articles/` | 44 era essays and profiles |
-| `assets/portraits/` | Licensed portrait files only |
+| `assets/portraits/` | Licensed portrait files + `*.RIGHTS.md` per plate |
+| `embeds/portrait-figure-block.md` | HTML `<figure>` template for SEO captions |
+| `verify_portraits.py` | RIGHTS + ledger QA |
 | `INDEX.md` | Calendar, roster, publish waves |
 | `STYLE_GUIDE.md` | Human voice, bans, structure |
 | `CLAIMS_GUARDRAILS.md` | Educational, not a protocol |
@@ -25,7 +27,7 @@ This series is the **voice-disorders** lane of SLPWOW heritage copy: laryngoscop
 
 ## Portrait policy
 
-Never generate or embed synthetic historical faces. Use files in `assets/portraits/` only when listed as cleared in `PORTRAIT_SOURCES.md`. Until then, use the labeled placeholder block in the article.
+Never generate or embed synthetic historical faces. Use files in `assets/portraits/` only when listed as cleared in `PORTRAIT_SOURCES.md`. Each raster carries a sibling `*.RIGHTS.md`. Until cleared, use the labeled placeholder block in the article.
 
 ## What this pack will not do
 

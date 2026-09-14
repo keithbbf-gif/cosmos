@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Manuel García Jr.](../assets/portraits/manuel-garcia-jr.jpg)
-
-*Manuel García Jr. (1805–1906). Wellcome Collection (M0010222) / Wikimedia Commons. CC BY 4.0.*
+<!-- figure-id: manuel-garcia-jr.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/manuel-garcia-jr.jpg"
+    alt="Portrait photograph of Manuel García Jr., nineteenth-century voice pedagogue."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Manuel García Jr.</strong> (1805–1906), singing teacher who reported autolaryngoscopy to the Royal Society in 1855.
+    <span class="figure-credit">Wellcome Collection (M0010222) / Wikimedia Commons. CC BY 4.0.</span>
+  </figcaption>
+</figure>
 
 He taught people to sing for a living and, one afternoon, used a dentist’s mirror to watch himself do it. Manuel Patricio Rodríguez García — Manuel García Jr. in every later clinic sentence — was born in Madrid on 17 March 1805 and died in London on 1 July 1906. One hundred and one years. The last of them were ceremonial.
 

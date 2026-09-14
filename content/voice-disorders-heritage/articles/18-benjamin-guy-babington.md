@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Benjamin Guy Babington](../assets/portraits/benjamin-guy-babington.jpg)
-
-*Benjamin Guy Babington (1794–1866). Wellcome Collection / Wikimedia Commons. CC BY 4.0.*
+<!-- figure-id: benjamin-guy-babington.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/benjamin-guy-babington.jpg"
+    alt="Portrait photograph of Benjamin Guy Babington, nineteenth-century laryngoscopy pioneer."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Benjamin Guy Babington</strong> (1794–1866), London physician who demonstrated a glottiscope to the Hunterian Society in 1829.
+    <span class="figure-credit">Photographer unknown. Wellcome Collection / Wikimedia Commons. CC BY 4.0.</span>
+  </figcaption>
+</figure>
 
 On 18 March 1829 the Hunterian Society in London watched a physician hold up a small mirror-and-shank device and call it a glottiscope. Benjamin Guy Babington was not presenting a new hospital. He was presenting a thought: the glottis might be looked at in a living person if you could get a reflecting surface past the tongue and some light to follow it.
 

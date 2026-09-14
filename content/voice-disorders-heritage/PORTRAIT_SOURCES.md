@@ -2,6 +2,8 @@
 
 Pack date: 14 September 2026. Only files listed as **cleared** may be used as lead portraits. Never generate a historical face.
 
+Per-plate rights detail: `assets/portraits/<portrait_id>.RIGHTS.md`.
+
 Filename convention: `assets/portraits/<portrait_id>.<ext>`.
 
 | portrait_id | figure | file | license / terms | source URL | credit line | cleared |

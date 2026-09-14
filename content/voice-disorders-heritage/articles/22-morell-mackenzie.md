@@ -16,9 +16,20 @@ stage: draft
 
 *Educational history for SLPWOW. Not a treatment plan and not a substitute for evaluation by a licensed clinician.*
 
-![Morell Mackenzie](../assets/portraits/morell-mackenzie.jpg)
-
-*Morell Mackenzie (1837–1892). Wood engraving after C. Kolb, 1888. Wikimedia Commons. Public domain.*
+<!-- figure-id: morell-mackenzie.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/morell-mackenzie.jpg"
+    alt="Portrait engraving of Morell Mackenzie, 1888."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Morell Mackenzie</strong> (1837–1892), London laryngologist who built Golden Square into a voice-disorders hospital.
+    <span class="figure-credit">Wood engraving after C. Kolb, 1888. Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 Morell Mackenzie built a hospital for a region of the body and then became, against his will, a character in a German tragedy.
 
