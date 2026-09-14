@@ -13,7 +13,7 @@ the frontmatter, and they are not meant to.
 | --- | --- |
 | `stage` | `draft` |
 | `status` | `staged` |
-| Voice | Human. Shop and place, not catalog SEO. |
+| Voice | Shop and place, not catalog SEO. `voice_check: edited` on all numbered drafts. |
 | Gate | A number or a place only the real wood / real town can support. |
 
 Do not flatten these into one “species guide.” The point of forty-plus pieces is
