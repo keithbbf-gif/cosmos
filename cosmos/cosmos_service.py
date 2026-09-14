@@ -67,6 +67,9 @@ that omits what it serves is an undocumented surface, not a short one):
                            fetches. Core does not call Perplexity API.
     GET /api/v1/orc        - ORC BootUP inspect (SEED vs running pointer).
                            GET never mkdir. Does not spawn OpenWork.
+    GET /api/v1/openwork   - OpenWork.exe + openwork-server-state.json ports;
+                           loopback /health on measured ports only. Never
+                           /tui/open-sessions. GET never mkdir.
     GET /api/v1/runs_ops   - Runs ops fold: watchdog, clocks, work orders,
                            streams, gitur, spend. GET never mutates.
     GET /api/v1/review     - HITL: spend approvals, blockers, required logins,
@@ -125,6 +128,7 @@ that omits what it serves is an undocumented surface, not a short one):
                            GET never runs a backup.
     POST /api/v1/orc       - {stream} TidyUP/TU2 recovery if partial, then
                            session start. Temp/Recovery closes. Does not spawn OpenWork.exe.
+    POST /api/v1/openwork  - action=focus only. Focus live OpenWork.exe; never spawn.
     POST /api/v1/makers  - add a maker entry (unknown kind REFUSES)
     POST /api/v1/command - the voice/frontend seam: text in, kernel action out
     POST /api/v1/voice   - the spoken turn (hardened + spend-gated; see below)
@@ -373,6 +377,7 @@ _CDECK_UI_FILES = (
     ("deck_settings.js", _CT_JS),
     ("deck_studio.js", _CT_JS),
     ("deck_forge.js", _CT_JS),
+    ("deck_open.js", _CT_JS),
     ("deck_gitur.js", _CT_JS),
     ("deck_backup.js", _CT_JS),
     ("deck_session_kit.js", _CT_JS),
@@ -1018,6 +1023,19 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if parsed.path == "/api/v1/openwork":
+                try:
+                    hg = _cdeck_panel_get("cosmos_openwork_panel")
+                    code, rec = hg(
+                        kernel.paths.root,
+                        expected_tree_id=kernel.paths.sentinel.tree_id,
+                    )
+                except Exception as e:  # noqa: BLE001
+                    return self._send(503, {
+                        "error": "OPENWORK_NOT_COMPOSED",
+                        "detail": "%s: %s" % (type(e).__name__, e),
+                    })
+                return self._send(code, rec)
             if parsed.path == "/api/v1/runs_ops":
                 from cosmos_runs_ops import snapshot as runs_ops_snapshot
                 rec = runs_ops_snapshot(kernel)
@@ -1884,6 +1902,26 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                     return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 return self._send(200, rec)
+            if _wo_urlparse(self.path).path == "/api/v1/openwork":
+                _cdeck_panel_get("cosmos_openwork_panel")
+                from cosmos_openwork_panel import handle_post as openwork_post
+                body = self._read_body()
+                if body is None:
+                    return
+                try:
+                    d = json.loads(body.decode("utf-8")) if body.strip() else {}
+                except Exception as e:  # noqa: BLE001
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": str(e)[:200]})
+                if not isinstance(d, dict):
+                    return self._send(400, {"error": "BAD_REQUEST",
+                                            "detail": "body must be a JSON object"})
+                code, rec = openwork_post(
+                    kernel.paths.root, d,
+                    expected_tree_id=kernel.paths.sentinel.tree_id,
+                )
+                rec["tree_id"] = kernel.paths.sentinel.tree_id
+                return self._send(code, rec)
             if _wo_urlparse(self.path).path == "/api/v1/surfaces":
                 from cosmos_surfaces_kit import SurfacesKitError, save_surface
                 body = self._read_body()
