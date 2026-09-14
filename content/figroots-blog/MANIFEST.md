@@ -47,8 +47,13 @@ Scope: `content/figroots-blog/` only.
 | 38 | `unknown-figs-honest-names` | 1397 | PapaFig | identity | [`drafts/38-unknown-figs-honest-names.md`](drafts/38-unknown-figs-honest-names.md) |
 | 39 | `late-freeze-after-fig-budbreak` | 1533 | PapaFig | climate | [`drafts/39-late-freeze-after-budbreak.md`](drafts/39-late-freeze-after-budbreak.md) |
 | 40 | `first-two-summers-in-ground-fig` | 1401 | PapaFig | culture | [`drafts/40-first-two-summers-in-ground.md`](drafts/40-first-two-summers-in-ground.md) |
+| 41 | `marketplace-fig-cutting-red-flags` | 1420 | Jack Chambers | propagation | [`drafts/41-marketplace-cutting-red-flags.md`](drafts/41-marketplace-cutting-red-flags.md) |
+| 42 | `fig-fall-harden-off-arkansas` | 1319 | PapaFig | climate | [`drafts/42-fig-fall-harden-off.md`](drafts/42-fig-fall-harden-off.md) |
+| 43 | `outdoor-bulk-fig-starts` | 1368 | Jack Chambers | propagation | [`drafts/43-outdoor-bulk-fig-starts.md`](drafts/43-outdoor-bulk-fig-starts.md) |
+| 44 | `winter-shop-scale-figs` | 1382 | PapaFig | culture | [`drafts/44-winter-shop-scale-figs.md`](drafts/44-winter-shop-scale-figs.md) |
+| 45 | `variety-trial-row-figs` | 1315 | PapaFig | identity | [`drafts/45-variety-trial-row-figs.md`](drafts/45-variety-trial-row-figs.md) |
 
-**Count:** 40 drafts. **Word range:** 1264–1595.
+**Count:** 45 drafts. **Word range:** 1264–1595.
 
 Titles
 
@@ -92,3 +97,8 @@ Titles
 - 38. Call it unknown until the plate says otherwise — `unknown-figs-honest-names` (1397 words)
 - 39. The cruel freeze is the one after the buds move — `late-freeze-after-fig-budbreak` (1533 words)
 - 40. The first two summers in the ground are still a pot, only you cannot lift them — `first-two-summers-in-ground-fig` (1401 words)
+- 41. I would not buy that cutting. Here is why. — `marketplace-fig-cutting-red-flags` (1420 words)
+- 42. Stop pushing the fig in September if you still want the wood in March — `fig-fall-harden-off-arkansas` (1319 words)
+- 43. Outdoor dirt is for wood you can replace. A mailbox name is not. — `outdoor-bulk-fig-starts` (1368 words)
+- 44. A 70-degree shop grows scale. It does not grow winter. — `winter-shop-scale-figs` (1382 words)
+- 45. A trial row is five trees you will actually pick. It is not a parking lot of names. — `variety-trial-row-figs` (1315 words)

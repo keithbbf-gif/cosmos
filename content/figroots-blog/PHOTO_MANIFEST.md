@@ -364,6 +364,46 @@ PD fill: none.
 
 PD fill: none.
 
+### 41 — Marketplace red flags — `drafts/41-marketplace-cutting-red-flags.md`
+
+1. `D:\FIGS\Damaged Cuttings` — what a bad listing becomes
+2. `D:\FIGS\Bulk Cuttings` — 6–8" / 3-node lignified wood
+3. `D:\FIGS\Fig Labels` — a name that is still a claim
+
+PD fill: none.
+
+### 42 — Fall harden-off — `drafts/42-fig-fall-harden-off.md`
+
+1. `D:\FIGS\Figs-summer-23` — July push you should not copy in October
+2. `D:\FIGS\Greenhouse photos` — pots that stay too wet / too warm
+3. `D:\FIGS\Figs` — wood you still want in March
+
+PD fill: none.
+
+### 43 — Outdoor bulk starts — `drafts/43-outdoor-bulk-fig-starts.md`
+
+1. `D:\FIGS\Bulk Cuttings` — replaceable sticks
+2. `D:\FIGS\Figs-summer-23` — shade on a bed
+3. `D:\FIGS\Greenhouse photos` — cups for names
+
+PD fill: none.
+
+### 44 — Winter shop scale — `drafts/44-winter-shop-scale-figs.md`
+
+1. `D:\FIGS\Greenhouse photos` — pots under cover; look at stems
+2. `D:\FIGS\Fig Jam Article` — the collection in cans
+3. `D:\FIGS\FigRoots` — winter-protection stills
+
+PD fill: none.
+
+### 45 — Trial row — `drafts/45-variety-trial-row-figs.md`
+
+1. `D:\FIGS\Fig Jam Article` — pot library vs a row you pick
+2. `D:\FIGS\Fig Labels` — source, year, unverified
+3. `D:\FIGS\Fig Fruit` — the plate as the scorecard
+
+PD fill: none.
+
 ## PD / CC0 (only after a miss)
 
 Recheck the Commons file page the day you download. Full notes in `SOURCES.md`.

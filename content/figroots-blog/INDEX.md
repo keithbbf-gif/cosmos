@@ -1,4 +1,4 @@
-# FigRoots editorial calendar — 40 evergreen drafts
+# FigRoots editorial calendar — 45 evergreen drafts
 
 Unpacks [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) and the holes around cuttings, climate, and identity. Existing FigRoots how-tos (Fig Pops, coir vs DE, Outdoor, winter, air layers) stay linked, not rewritten.
 
@@ -46,6 +46,11 @@ Scope: `content/figroots-blog/` only. Every article: **draft**. Do not publish l
 | 38 | Call it unknown until the plate says otherwise | unknown-figs-honest-names | identity | PapaFig | [drafts/38-unknown-figs-honest-names.md](drafts/38-unknown-figs-honest-names.md) |
 | 39 | The cruel freeze is the one after the buds move | late-freeze-after-fig-budbreak | climate | PapaFig | [drafts/39-late-freeze-after-budbreak.md](drafts/39-late-freeze-after-budbreak.md) |
 | 40 | The first two summers in the ground are still a pot, only you cannot lift them | first-two-summers-in-ground-fig | culture | PapaFig | [drafts/40-first-two-summers-in-ground.md](drafts/40-first-two-summers-in-ground.md) |
+| 41 | I would not buy that cutting. Here is why. | marketplace-fig-cutting-red-flags | propagation | Jack Chambers | [drafts/41-marketplace-cutting-red-flags.md](drafts/41-marketplace-cutting-red-flags.md) |
+| 42 | Stop pushing the fig in September if you still want the wood in March | fig-fall-harden-off-arkansas | climate | PapaFig | [drafts/42-fig-fall-harden-off.md](drafts/42-fig-fall-harden-off.md) |
+| 43 | Outdoor dirt is for wood you can replace. A mailbox name is not. | outdoor-bulk-fig-starts | propagation | Jack Chambers | [drafts/43-outdoor-bulk-fig-starts.md](drafts/43-outdoor-bulk-fig-starts.md) |
+| 44 | A 70-degree shop grows scale. It does not grow winter. | winter-shop-scale-figs | culture | PapaFig | [drafts/44-winter-shop-scale-figs.md](drafts/44-winter-shop-scale-figs.md) |
+| 45 | A trial row is five trees you will actually pick. It is not a parking lot of names. | variety-trial-row-figs | identity | PapaFig | [drafts/45-variety-trial-row-figs.md](drafts/45-variety-trial-row-figs.md) |
 
 
 ## House files

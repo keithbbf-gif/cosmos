@@ -66,6 +66,11 @@ If a picker fails, [VERIFY] the spelling on the live drive. Skip trash and recyc
 | 38 | `unknown-figs-honest-names` | `Fig Labels` | `Fig Fruit` | `Fig Jam Article` | “Unknown” on the pot; plate as the name; Unk names we have eaten | none |
 | 39 | `late-freeze-after-fig-budbreak` | `Figs` | `Breba 2025` | `Greenhouse photos` | Burned tips; nubs after a late night; pots you can roll in | none |
 | 40 | `first-two-summers-in-ground-fig` | `Figs` | `Figs-summer-23` | `Greenhouse photos` | A first-year hole; July in a new hole; the #3 it came out of | none |
+| 41 | `marketplace-fig-cutting-red-flags` | `Damaged Cuttings` | `Bulk Cuttings` | `Fig Labels` | What a bad listing becomes; lignified 6–8" wood; a name that is only a claim | none |
+| 42 | `fig-fall-harden-off-arkansas` | `Figs-summer-23` | `Greenhouse photos` | `Figs` | July push you should not copy in October; pots that stay too wet; wood you still want in March | none |
+| 43 | `outdoor-bulk-fig-starts` | `Bulk Cuttings` | `Figs-summer-23` | `Greenhouse photos` | Replaceable sticks; shade on a bed; cups are for names | none |
+| 44 | `winter-shop-scale-figs` | `Greenhouse photos` | `Fig Jam Article` | `FigRoots` | Pots under cover; look at stems. Do not invent a cotton close-up — shoot one if we have it | none |
+| 45 | `variety-trial-row-figs` | `Fig Jam Article` | `Fig Labels` | `Fig Fruit` | Pot library vs a row you pick; source on the tag; the plate as the scorecard | none |
 
 ## Highest-value new stills (phone is fine)
 
@@ -78,6 +83,7 @@ Shoot these if the folders are thin. Do not reach into trash. Do not grab a vide
 5. Hard-green late fruit (`Fig Fruit`)
 6. Paint pen on two sides of a black pot (`Fig Labels`)
 7. Leaf rust, underside blisters (`Figs` / `Figs-summer-23`)
+8. Cottony stem / pot rim in the winter shop (`Greenhouse photos`) — only if we have it; do not scrape the web
 
 ## Caption voice
 
