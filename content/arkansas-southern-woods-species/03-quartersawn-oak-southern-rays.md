@@ -8,7 +8,24 @@ region: Southern mills and shops
 focus: properties
 stage: draft
 status: staged
+meta_description: "Quartersawn white oak in the South — medullary rays, waste, and Arts and Crafts figure on Arkansas boards."
+lead_figure: diagram
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--diagram">
+  <img
+    src="assets/diagrams/sawn-orientation.svg"
+    alt="Log cross-section showing flatsawn, quartersawn, and rift cuts and the face-grain they produce."
+    width="900"
+    height="488"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>How a log is sawn</strong> — flatsawn cathedral grain versus quartersawn ray flecks on white oak.
+    <span class="figure-credit">Diagram adapted from the furniture-woods-500y staged pack (same repository).</span>
+  </figcaption>
+</figure>
 
 Quartersawing is a way of wasting a log on purpose.
 

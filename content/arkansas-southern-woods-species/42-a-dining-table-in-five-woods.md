@@ -8,7 +8,24 @@ region: Arkansas
 focus: properties
 stage: draft
 status: staged
+meta_description: "Choosing oak, pine, cypress, walnut, and cherry for one Arkansas dining table — Janka, movement, and face selection."
+lead_figure: diagram
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--diagram">
+  <img
+    src="assets/diagrams/arkansas-five-woods-janka.svg"
+    alt="Bar chart of approximate Janka hardness for white oak, SYP, cypress, walnut, and cherry."
+    width="900"
+    height="420"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Janka hardness — five woods in this series</strong> — handbook means for comparing legs, tops, and apron stock on one table.
+    <span class="figure-credit">Original diagram; USDA FPL species summaries.</span>
+  </figcaption>
+</figure>
 
 If I had to make one dining
 table for an Arkansas house

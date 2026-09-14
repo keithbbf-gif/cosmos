@@ -8,7 +8,24 @@ region: Arkansas / Southern cooperage and furniture
 focus: properties
 stage: draft
 status: staged
+meta_description: "Tyloses in white oak explain the same wood in bourbon barrels and dining tables — ring-porous anatomy for Arkansas furniture."
+lead_figure: diagram
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--diagram">
+  <img
+    src="assets/diagrams/white-oak-tyloses.svg"
+    alt="Schematic comparing open red-oak pores with tyloses plugging white-oak vessels."
+    width="900"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ring-porous vessels and tyloses</strong> — why white oak resists soaking compared with most red oaks.
+    <span class="figure-credit">Original schematic diagram for this series.</span>
+  </figcaption>
+</figure>
 
 A red oak board will take a drop of water and pull it down like a straw. A
 white oak board will hold the same drop on the surface long enough for you to

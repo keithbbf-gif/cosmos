@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-labelledby="title desc">
+  <title id="title">Radial versus tangential shrink in oak</title>
+  <desc id="desc">Diagram of a board cross section showing radial and tangential shrink directions with approximate percentages for white oak.</desc>
+  <rect width="100%" height="100%" fill="#faf9f6"/>
+  <text x="48" y="36" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0.12em" fill="#78716c">FIGURE C</text>
+  <text x="48" y="62" font-family="Georgia, serif" font-size="22" fill="#1c1917">Radial vs tangential shrink (white oak, green ’ oven-dry)</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#e7e5e4" stroke-width="1"/>
+  <rect x="120" y="120" width="280" height="160" fill="#e7e5e4" stroke="#1c1917" stroke-width="1"/>
+  <circle cx="260" cy="200" r="6" fill="#1c1917"/>
+  <line x1="260" y1="120" x2="260" y2="280" stroke="#2563eb" stroke-width="2"/>
+  <polygon points="260,120 252,132 268,132" fill="#2563eb"/>
+  <polygon points="260,280 252,268 268,268" fill="#2563eb"/>
+  <text x="280" y="205" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563eb">Radial ~5.6%</text>
+  <line x1="120" y1="200" x2="400" y2="200" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="400,200 388,192 388,208" fill="#dc2626"/>
+  <text x="120" y="190" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#dc2626">Tangential ~10.5%</text>
+  <text x="520" y="150" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">In a humid Arkansas summer, wide flatsawn</text>
+  <text x="520" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">faces move more across the grain than</text>
+  <text x="520" y="194" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">through it  why quartersawn aprons survive.</text>
+  <text x="520" y="230" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#78716c">T/R ratio H 1.9 for *Quercus alba* (FPL-GTR-190).</text>
+  <text x="48" y="360" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Original diagram. Handbook percentages; not a guarantee for one board.</text>
+</svg>

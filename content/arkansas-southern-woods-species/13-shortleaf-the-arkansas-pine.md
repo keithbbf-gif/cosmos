@@ -8,7 +8,24 @@ region: Arkansas pine belt, Ouachitas, Ozark pine-hardwood
 focus: properties
 stage: draft
 status: staged
+meta_description: "Shortleaf pine (Pinus echinata) — Arkansas state furniture pine, Ozark stands, and Southern yellow pine on the bench."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/shortleaf-pine/plate.jpg"
+    alt="Shortleaf pine (Pinus echinata) in the Ozarks — Arkansas furniture pine."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Shortleaf pine</strong> (<em>Pinus echinata</em>) — the pine Arkansas shops mean when they say yellow pine for casework and tables.
+    <span class="figure-credit">Paul A. Mistretta, USDA Forest Service. CC BY 3.0 US. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 In 1912, nearly three-quarters of all the wood used for
 manufacturing in Arkansas was shortleaf pine. The men who

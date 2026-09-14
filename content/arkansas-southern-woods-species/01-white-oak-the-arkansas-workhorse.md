@@ -8,7 +8,24 @@ region: Ozark and Ouachita uplands; mixed pine-hardwood on the Coastal Plain
 focus: properties
 stage: draft
 status: staged
+meta_description: "White oak (Quercus alba) on Ozark and Ouachita uplands — hardness, tyloses, and why Arkansas shops treat it as the workhorse oak."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/white-oak/plate.jpg"
+    alt="White oak (Quercus alba) — bark and canopy, upland hardwood."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>White oak</strong> (<em>Quercus alba</em>) — upland Arkansas hardwood with closed pores and cooperage-grade tyloses.
+    <span class="figure-credit">Photo by David J. Stang. CC BY-SA 4.0. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 You can walk an Ozark ridge in January and still pick the white oaks without
 looking up. The bark is pale and blocky. The leaves that hung on through

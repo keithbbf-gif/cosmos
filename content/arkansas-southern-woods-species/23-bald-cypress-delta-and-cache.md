@@ -8,7 +8,24 @@ region: Arkansas Delta, Cache River, White River bottoms
 focus: history
 stage: draft
 status: staged
+meta_description: "Baldcypress (Taxodium distichum) in Arkansas Delta and Cache River bottoms — furniture substitute and swamp timber."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/bald-cypress/plate.png"
+    alt="Baldcypress (Taxodium distichum) — botanical illustration of foliage and form."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Baldcypress</strong> (<em>Taxodium distichum</em>) — bottomland timber from the Delta and eastern Arkansas swamps.
+    <span class="figure-credit">Botanical illustration. Public domain. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 If you have paddled the Cache in winter you have
 already met the furniture wood.

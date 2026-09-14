@@ -8,7 +8,24 @@ region: Arkansas mills
 focus: history
 stage: draft
 status: staged
+meta_description: "Southern red oak (Quercus falcata) — what Arkansas mills meant by red oak versus Northern catalog oak."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/southern-red-oak/plate.jpg"
+    alt="Southern red oak (Quercus falcata) — leaf and bark."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Southern red oak</strong> (<em>Quercus falcata</em>) — the red oak group most common on Arkansas mill tallies, not always the Northern catalog name.
+    <span class="figure-credit">Public domain. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 Northern red oak — *Quercus rubra* — is the red oak in the textbooks and
 the Janka charts. About 1,290 pounds. Specific gravity around 0.63. Nice

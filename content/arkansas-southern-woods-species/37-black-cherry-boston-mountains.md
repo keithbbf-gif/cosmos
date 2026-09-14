@@ -8,7 +8,24 @@ region: Ozarks / Boston Mountains; scattered statewide
 focus: properties
 stage: draft
 status: staged
+meta_description: "Black cherry (Prunus serotina) in the Boston Mountains — Ozark cherry scarce on the bench, not Pennsylvania catalog cherry."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/black-cherry/plate.jpg"
+    alt="Black cherry (Prunus serotina) — USDA 1938 distribution map plate."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Black cherry</strong> (<em>Prunus serotina</em>) — range and forest importance; Ozark cherry runs smaller than Eastern catalog stock.
+    <span class="figure-credit">USDA Forest Service, 1938. Public domain. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 Cherry in Arkansas is a mountain
 tree that also shows up wherever

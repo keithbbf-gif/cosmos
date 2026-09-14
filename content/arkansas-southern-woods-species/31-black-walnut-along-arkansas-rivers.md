@@ -8,7 +8,24 @@ region: Arkansas river benches, creek bottoms, farm edges
 focus: properties
 stage: draft
 status: staged
+meta_description: "Black walnut (Juglans nigra) along Arkansas river benches — bottomland logs, purple cast, and parlor furniture stock."
+lead_figure: species
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--species">
+  <img
+    src="plates/black-walnut/plate.png"
+    alt="Black walnut (Juglans nigra) — botanical illustration of leaf and fruit."
+    width="720"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Black walnut</strong> (<em>Juglans nigra</em>) — creek-bench and river-bottom walnut that supplied Arkansas parlor casework.
+    <span class="figure-credit">Botanical illustration. Public domain. Wikimedia Commons.</span>
+  </figcaption>
+</figure>
 
 Walnut in Arkansas is a river tree
 that also learned the farm.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Janka hardness  five Arkansas furniture woods</title>
+  <desc id="desc">Horizontal bar chart of approximate Janka hardness in lbf for white oak, southern yellow pine, baldcypress, black walnut, and black cherry.</desc>
+  <rect width="100%" height="100%" fill="#faf9f6"/>
+  <text x="48" y="36" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0.12em" fill="#78716c">FIGURE A</text>
+  <text x="48" y="62" font-family="Georgia, serif" font-size="22" fill="#1c1917">Janka hardness (approx.)  five woods in this series</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="48" y="108" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#78716c">USDA FPL Wood Handbook means; single boards vary.</text>
+  <!-- scale 0-1400 -->
+  <line x1="220" y1="130" x2="820" y2="130" stroke="#d6d3d1" stroke-width="1"/>
+  <text x="220" y="122" font-size="9" fill="#78716c">0</text>
+  <text x="520" y="122" text-anchor="middle" font-size="9" fill="#78716c">700</text>
+  <text x="820" y="122" text-anchor="end" font-size="9" fill="#78716c">1400 lbf</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">
+    <text x="48" y="168">White oak</text>
+    <rect x="220" y="152" width="544" height="22" fill="#a8a29e"/>
+    <text x="772" y="168" font-size="11">1360</text>
+    <text x="48" y="208">Southern yellow pine (shortleaf)</text>
+    <rect x="220" y="192" width="276" height="22" fill="#d6d3d1"/>
+    <text x="504" y="208" font-size="11">690</text>
+    <text x="48" y="248">Baldcypress</text>
+    <rect x="220" y="232" width="216" height="22" fill="#bef264" opacity="0.35"/>
+    <rect x="220" y="232" width="216" height="22" fill="none" stroke="#65a30d" stroke-width="0.75"/>
+    <text x="444" y="248" font-size="11">510570</text>
+    <text x="48" y="288">Black walnut</text>
+    <rect x="220" y="272" width="404" height="22" fill="#78716c"/>
+    <text x="632" y="288" font-size="11">1010</text>
+    <text x="48" y="328">Black cherry</text>
+    <rect x="220" y="312" width="380" height="22" fill="#d97706" opacity="0.55"/>
+    <text x="608" y="328" font-size="11">950</text>
+  </g>
+  <text x="48" y="390" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Original diagram for arkansas-southern-woods-species pack. Data: FPL-GTR-190 species summaries.</text>
+</svg>

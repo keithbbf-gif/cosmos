@@ -8,7 +8,24 @@ region: Arkansas houses
 focus: properties
 stage: draft
 status: staged
+meta_description: "Equilibrium moisture content and tangential shrink — why Southern furniture joints fail when species romance ignores EMC."
+lead_figure: diagram
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--diagram">
+  <img
+    src="assets/diagrams/shrink-radial-tangential.svg"
+    alt="Radial versus tangential wood shrink diagram for white oak."
+    width="900"
+    height="380"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Shrink direction matters more than species bragging</strong> — tangential movement in a humid Arkansas house.
+    <span class="figure-credit">Original diagram; FPL-GTR-190 white oak means.</span>
+  </figcaption>
+</figure>
 
 Species is a conversation.
 Moisture is the argument

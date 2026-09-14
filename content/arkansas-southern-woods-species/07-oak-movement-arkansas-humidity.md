@@ -8,7 +8,24 @@ region: Arkansas interiors
 focus: properties
 stage: draft
 status: staged
+meta_description: "White oak radial and tangential shrink in humid Arkansas houses — why wide flatsawn tops cup and quartersawn aprons survive."
+lead_figure: diagram
+photo_status: cleared
 ---
+
+<figure class="asw-figure asw-figure--diagram">
+  <img
+    src="assets/diagrams/shrink-radial-tangential.svg"
+    alt="Board diagram with radial and tangential shrink arrows for white oak."
+    width="900"
+    height="380"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Radial vs tangential shrink</strong> — handbook percentages for white oak in a Southern humidity swing.
+    <span class="figure-credit">Original diagram; data from FPL-GTR-190.</span>
+  </figcaption>
+</figure>
 
 People blame the wood when a drawer sticks in August. The wood is only
 doing arithmetic.

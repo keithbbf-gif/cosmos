@@ -7,6 +7,22 @@ These are **drafts**. They are staged for review, not published copy. Each file
 stands alone. Read one, or read the lot. They do not share a template beyond
 the frontmatter, and they are not meant to.
 
+## Images + figure SEO
+
+Lead **`<figure>`** blocks (species plates + SVG diagrams), `meta_description` on
+figure-bearing drafts, and per-file **`RIGHTS.md`** under `plates/<id>/`.
+
+| Doc | Purpose |
+| --- | --- |
+| [`IMAGE_SEO.md`](IMAGE_SEO.md) | Alt text, figcaption, frontmatter rules |
+| [`PHOTO_SOURCES.md`](PHOTO_SOURCES.md) | Commons / USDA hunt log |
+| [`GRAPHICS_INDEX.md`](GRAPHICS_INDEX.md) | Which draft embeds which plate |
+| [`embeds/species-figure-block.md`](embeds/species-figure-block.md) | HTML template |
+| `check_pack.py` | Image + figure structural QA |
+
+**Policy:** real PD / CC / USDA botanical photographs and hand-authored SVG
+schematics only — no AI-generated wood or tree imagery.
+
 ## What “staged” means here
 
 | Field | Value |
