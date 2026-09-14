@@ -5,7 +5,7 @@ BY KIND; the three qualification questions each proven to fail on their own axis
 measurement disqualified by advancing an injected clock past the window; "publishing is not
 backup" and "off-machine or it does not count" made structural rather than remembered."""
 from __future__ import annotations
-import json, sys, tempfile, urllib.error, urllib.request
+import json, sys, tempfile, unittest, urllib.error, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -224,6 +224,13 @@ def main() -> int:
 
 def test_surfaces():
     assert main() == 0
+
+
+class SurfacesTests(unittest.TestCase):
+    """So `python -m unittest tests.test_surfaces` actually collects."""
+
+    def test_surfaces(self):
+        test_surfaces()
 
 
 if __name__ == "__main__":

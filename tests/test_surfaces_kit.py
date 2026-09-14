@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import sys
+import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +42,19 @@ def test_kit_storage_names_itc_unmeasured():
     assert itc["qualified"] is None
     assert itc["kind"] == "PUBLISH"
     assert itc["role"] == "PUBLISH"
+
+
+class SurfacesKitTests(unittest.TestCase):
+    """So `python -m unittest tests.test_surfaces_kit` actually collects."""
+
+    def test_surfaces_kit_fold(self):
+        test_surfaces_kit_fold()
+
+    def test_service_names_surfaces_kit(self):
+        test_service_names_surfaces_kit()
+
+    def test_kit_storage_names_itc_unmeasured(self):
+        test_kit_storage_names_itc_unmeasured()
 
 
 if __name__ == "__main__":
