@@ -1,7 +1,21 @@
 # Photo captions — gluing & clamping furniture
 
-All frames: `D:\BBF` first. Status `needed` until a real file is pulled.
-Do not invent a filename. Do not substitute stock.
+Shop photographs: `D:\BBF` first. Status `needed` until a real file is
+pulled. Do not invent a filename. Do not substitute stock.
+
+## Original SVG diagrams (in repo)
+
+| File | Drafts | SEO id |
+| --- | --- | --- |
+| `images/svg/four-glue-clocks-timeline.svg` | d10 | `diagram-four-glue-clocks` |
+| `images/svg/glue-film-starved-drowned-witness.svg` | d23 (also d24) | `diagram-glue-film-witness` |
+| `images/svg/breadboard-center-glue-slots.svg` | d21 | `diagram-breadboard-glue-center` |
+| `images/svg/banana-panel-alternate-bars.svg` | d36, d14 | `diagram-banana-panel-bars` |
+
+Register alt text and WordPress filenames in `FIGURE_SEO.md`. Rights in
+`RIGHTS.md`.
+
+## BBF photograph slots
 
 | id | draft | preferred | caption | status |
 |---|---|---|---|---|

@@ -8,9 +8,17 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A breadboard is a tongue that must slide. Glue the center. Pin the wings in slots. A fully glued breadboard is a split you named a finish detail.
-word_count: 1011
+word_count: 1055
 topics: [breadboard, movement, pins]
 figures:
+  - id: fig-diagram-breadboard-glue
+    file: images/svg/breadboard-center-glue-slots.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-breadboard-glue-center)"
+    caption: "The middle may stick. The wings must walk. Glue the center; slot the pins."
+    alt: "Plan view of table breadboard tongue with glue only at center mortise and elongated pin slots at wings while field width may change"
+    credit: "Original diagram — gluing-clamping-furniture pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — breadboard tongue, center glue, elongated pin holes (filename pending shop pull)"
     caption: "The middle may stick. The wings must walk."
@@ -26,6 +34,9 @@ The pin at the end of the breadboard had a little oval of daylight. I had cut th
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — breadboard tongue, center glue, elongated pin holes (filename pending shop pull) -->
 
 People glue a breadboard like a cap. All along the tongue, proud of the squeeze. Then the top wants to change width and the cap says no. The no is a split in the field or a bow in the breadboard or both. I have seen a cherry top open like a book at the end of a glued-on lip. The lip was still pretty.
+
+![Plan view of table breadboard tongue with glue only at center mortise and elongated pin slots at wings while field width may change](images/svg/breadboard-center-glue-slots.svg)
+*The middle may stick. The wings must walk. Glue the center; slot the pins.*
 
 ## What gets glue
 

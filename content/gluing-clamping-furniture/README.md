@@ -72,5 +72,8 @@ Field practice still outruns paper. The drafts say so.
 - `_manifest.toml` — id, file, stage, cluster
 - `INDEX.md` — reading order with deks
 - `BIBLIOGRAPHY.md` — sources, not a paste
-- `PHOTO_CAPTIONS.md` — D:\BBF slots
+- `PHOTO_CAPTIONS.md` — D:\BBF slots (photographs stay `needed`)
+- `FIGURE_SEO.md` — alt text, WP filenames, diagram registry
+- `RIGHTS.md` — SVG copyright and BBF photo clearance
+- `images/svg/` — original process diagrams (in-repo)
 - `drafts/d01`–`drafts/d48`

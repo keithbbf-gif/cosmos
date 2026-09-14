@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Four glue clocks on one furniture glue-up</title>
+  <desc id="desc">Horizontal timeline separating open time for assembly, closed time before pressure, clamp time under iron, and full cure before machining or load.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3eb"/>
+      <stop offset="100%" stop-color="#ebe4d6"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3d3429"/>
+    </marker>
+  </defs>
+  <rect width="720" height="400" fill="url(#bg)"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#2c2416">Four clocks - one bottle, four different hours</text>
+  <text x="360" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#5c5346">Read the sheet that morning. Write pull time and machine time on the same scrap of tape.</text>
+  <line x1="48" y1="200" x2="672" y2="200" stroke="#3d3429" stroke-width="3" marker-end="url(#arrow)"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="52" y="108" width="140" height="72" fill="#e8f4ec" stroke="#1a5f4a" stroke-width="1.5" rx="6"/>
+    <text x="122" y="132" text-anchor="middle" font-size="13" font-weight="700" fill="#1a5f4a">Open time</text>
+    <text x="122" y="152" text-anchor="middle" font-size="11" fill="#2c2416">Spread. Assemble.</text>
+    <text x="122" y="168" text-anchor="middle" font-size="10" fill="#5c5346">Heat and dry wood shorten it.</text>
+    <line x1="122" y1="180" x2="122" y2="200" stroke="#1a5f4a" stroke-width="2"/>
+
+    <rect x="198" y="108" width="140" height="72" fill="#fff8e6" stroke="#b8860b" stroke-width="1.5" rx="6"/>
+    <text x="268" y="132" text-anchor="middle" font-size="13" font-weight="700" fill="#8b6914">Closed time</text>
+    <text x="268" y="152" text-anchor="middle" font-size="11" fill="#2c2416">Faces met. Walk to iron.</text>
+    <text x="268" y="168" text-anchor="middle" font-size="10" fill="#5c5346">Not a coffee run.</text>
+    <line x1="268" y1="180" x2="268" y2="200" stroke="#b8860b" stroke-width="2"/>
+
+    <rect x="344" y="108" width="140" height="72" fill="#e8eef8" stroke="#2a4a7a" stroke-width="1.5" rx="6"/>
+    <text x="414" y="132" text-anchor="middle" font-size="13" font-weight="700" fill="#2a4a7a">Clamp time</text>
+    <text x="414" y="152" text-anchor="middle" font-size="11" fill="#2c2416">Under pressure.</text>
+    <text x="414" y="168" text-anchor="middle" font-size="10" fill="#5c5346">Iron may come off - not full strength.</text>
+    <line x1="414" y1="180" x2="414" y2="200" stroke="#2a4a7a" stroke-width="2"/>
+
+    <rect x="490" y="108" width="172" height="72" fill="#f3e8e8" stroke="#8b3a2a" stroke-width="1.5" rx="6"/>
+    <text x="576" y="132" text-anchor="middle" font-size="13" font-weight="700" fill="#8b3a2a">Cure</text>
+    <text x="576" y="152" text-anchor="middle" font-size="11" fill="#2c2416">Full strength.</text>
+    <text x="576" y="168" text-anchor="middle" font-size="10" fill="#5c5346">Machine and load wait here.</text>
+    <line x1="576" y1="180" x2="576" y2="200" stroke="#8b3a2a" stroke-width="2"/>
+  </g>
+  <g transform="translate(48, 228)">
+    <rect x="0" y="0" width="624" height="120" fill="#fff" stroke="#3d3429" stroke-width="1" rx="6"/>
+    <text x="20" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Common mix-up</text>
+    <text x="20" y="50" font-family="system-ui, sans-serif" font-size="11" fill="#8b3a2a">Pull at clamp hour - plane a gel - shiny seam under raking light</text>
+    <text x="20" y="72" font-family="system-ui, sans-serif" font-size="11" fill="#2c2416">Fix: one bottle per joint religion - one timer per religion - tape on the bar</text>
+    <text x="20" y="94" font-family="system-ui, sans-serif" font-size="11" fill="#5c5346">August shrinks open/closed - January stretches clamp/cure - names stay, minutes move</text>
+    <text x="312" y="108" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#7a6f5f">Original diagram - gluing-clamping-furniture pack</text>
+  </g>
+</svg>

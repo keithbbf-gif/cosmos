@@ -152,10 +152,17 @@ editor pass. Do not mark a piece `published` here.
 
 ## Figures
 
-This pack is **photo-slot first**. Shop photographs from `D:\BBF` are the
-figures. A `<!-- PHOTO: ... -->` comment may sit in the body where the frame
-should land, matching the front-matter `id`. That is a pull instruction, not
-a published image.
+Prefer Keith's library: `D:\BBF\BBF Photos`. Caption every figure in the
+draft front matter **and** in `PHOTO_CAPTIONS.md`.
+
+- Credit only what is known. Never invent a credit or filename.
+- BBF photograph slots stay `status: needed` until clearance — do not
+  substitute stock.
+- Original teaching diagrams live in `images/svg/` with `status: ready`.
+  Register SEO in `FIGURE_SEO.md` and rights in `RIGHTS.md` before any
+  public publish.
+- A `<!-- PHOTO: ... -->` comment may sit in the body where a BBF frame
+  should land. That is a pull instruction, not a published image.
 
 ## Self-edit before `voice: human`
 

@@ -8,9 +8,17 @@ voice: human
 cluster: rehearsal
 series: gluing-clamping-furniture
 dek: A crowned caul puts pressure where a bar cannot reach. A flat caul on a hollow glue-up presses the ends and starves the middle.
-word_count: 1057
+word_count: 1112
 topics: [cauls, panels, pressure]
 figures:
+  - id: fig-diagram-banana-panel
+    file: images/svg/banana-panel-alternate-bars.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-banana-panel-bars)"
+    caption: "The smile in the caul is the pressure in the middle — alternate bars so the field is not a banana."
+    alt: "Side view comparing wrong panel glue-up with all clamp bars on one face causing a banana bow versus correct alternating bars above and below with crowned cauls"
+    credit: "Original diagram — gluing-clamping-furniture pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — crowned wooden caul on a panel glue-up (filename pending shop pull)"
     caption: "The smile in the caul is the pressure in the middle."
@@ -26,6 +34,9 @@ The panel was flat at the ends and hungry in the middle. I had plenty of bars. I
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — crowned wooden caul on a panel glue-up (filename pending shop pull) -->
 
 A caul is a stick you trust more than a jaw. You put it across the work, sometimes with a little crown — a smile toward the panel — so that when the clamps bite the ends of the caul, the middle comes down first. A flat caul on a slightly hollow stack presses the ends and leaves the middle a rumor. I have both mistakes in my past. I keep a pair of cauls that I have already jointed and crowned. I do not invent them during open time.
+
+![Side view comparing wrong panel glue-up with all clamp bars on one face causing a banana bow versus correct alternating bars above and below with crowned cauls](images/svg/banana-panel-alternate-bars.svg)
+*The smile in the caul is the pressure in the middle — alternate bars so the field is not a banana.*
 
 I invented one during open time. A 2x from the rack, a saw cut, a hope. The 2x had a cup of its own and a sticker stain. I closed the panel on that cup. The next morning the field had taken the 2x’s weather. I jointed the panel true and I jointed a pair of cauls that same week. They live on the wall now, waxed, labeled, too ugly to steal for a cleat. Open time is not a mill.
 

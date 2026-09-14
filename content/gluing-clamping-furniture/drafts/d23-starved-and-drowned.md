@@ -8,9 +8,17 @@ voice: human
 cluster: application
 series: gluing-clamping-furniture
 dek: Too little glue is a dry cheek. Too much is a hydraulic tenon and a smear you will sand for a week. The witness is an even bead, not a flood.
-word_count: 818
+word_count: 863
 topics: [spread, squeeze-out, starved-joint]
 figures:
+  - id: fig-diagram-glue-film
+    file: images/svg/glue-film-starved-drowned-witness.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-glue-film-witness)"
+    caption: "A thin even bead is the witness. Dry counties starve. A river drowns and stains."
+    alt: "Three panel edge joints showing starved dry glue line, correct thin film with even squeeze-out bead, and drowned flooded glue smear"
+    credit: "Original diagram — gluing-clamping-furniture pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — even squeeze bead on a closed panel seam (filename pending shop pull)"
     caption: "A thin even bead. Not a dry line. Not a river."
@@ -26,6 +34,9 @@ The seam came out of clamps looking clean. Too clean. No bead, no witness, a mat
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — even squeeze bead on a closed panel seam (filename pending shop pull) -->
 
 The other sin is the flood. Glue everywhere, a tenon that pumps back out of the mortise, a drawer interior that becomes a skating rink. Flood is not insurance. Flood is hydraulics and stain.
+
+![Three panel edge joints showing starved dry glue line, correct thin film with even squeeze-out bead, and drowned flooded glue smear](images/svg/glue-film-starved-drowned-witness.svg)
+*A thin even bead is the witness. Dry counties starve. A river drowns and stains.*
 
 ## What I want to see
 

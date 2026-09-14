@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc">
+  <title id="title">Breadboard center glue and slotted pins on the tongue</title>
+  <desc id="desc">Plan view of table field and breadboard cap with adhesive only at center tongue and elongated pin slots at outer wings.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3eb"/>
+      <stop offset="100%" stop-color="#ebe4d6"/>
+    </linearGradient>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="8" y2="0" stroke="#c9b896" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1a5f4a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="500" fill="url(#bg)"/>
+  <text x="360" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#2c2416">Glue the middle. Slot the wings.</text>
+  <text x="360" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#5c5346">A fully glued breadboard is a split you named a finish detail.</text>
+  <g transform="translate(48, 88)">
+    <rect x="0" y="60" width="400" height="110" fill="#d4c4a8" stroke="#3d3429" stroke-width="1.5" rx="3"/>
+    <rect x="0" y="60" width="400" height="110" fill="url(#grain)" opacity="0.45"/>
+    <rect x="400" y="60" width="56" height="110" fill="#a08050" stroke="#3d3429" stroke-width="1.5"/>
+    <text x="200" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2c2416">field - width may change</text>
+    <text x="428" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#fff">breadboard cap</text>
+    <rect x="168" y="170" width="64" height="14" fill="#3d3429" opacity="0.9" rx="2"/>
+    <text x="200" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#1a5f4a" font-weight="600">glue zone (center only)</text>
+    <rect x="32" y="78" width="48" height="74" fill="none" stroke="#8b3a2a" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <rect x="320" y="78" width="48" height="74" fill="none" stroke="#8b3a2a" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="56" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#8b3a2a">no glue</text>
+    <text x="344" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#8b3a2a">no glue</text>
+    <ellipse cx="56" cy="115" rx="20" ry="8" fill="none" stroke="#2a4a7a" stroke-width="2"/>
+    <ellipse cx="344" cy="115" rx="20" ry="8" fill="none" stroke="#2a4a7a" stroke-width="2"/>
+    <circle cx="48" cy="115" r="4" fill="#3d3429"/>
+    <circle cx="352" cy="115" r="4" fill="#3d3429"/>
+    <text x="56" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#2a4a7a">elongated pin slot</text>
+    <text x="344" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#2a4a7a">elongated pin slot</text>
+    <path d="M 120,115 L 80,115" stroke="#1a5f4a" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 280,115 L 320,115" stroke="#1a5f4a" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="200" y="252" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#5c5346">Size slot travel from Delta MC on the scrap - wood-movement pack</text>
+  </g>
+  <g transform="translate(480, 88)">
+    <rect x="0" y="0" width="192" height="280" fill="#fff" stroke="#3d3429" rx="6"/>
+    <text x="96" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Failure (glue religion)</text>
+    <rect x="16" y="48" width="160" height="36" fill="#d4c4a8" stroke="#3d3429"/>
+    <rect x="176" y="44" width="16" height="44" fill="#a08050" stroke="#3d3429"/>
+    <rect x="16" y="48" width="160" height="36" fill="#d4a84a" opacity="0.45"/>
+    <text x="96" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#8b3a2a">glue along full tongue</text>
+    <text x="16" y="108" font-family="system-ui, sans-serif" font-size="10" fill="#2c2416">- field splits or cap bows</text>
+    <text x="16" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1a5f4a">Dry-fit marks</text>
+    <text x="16" y="162" font-family="system-ui, sans-serif" font-size="10" fill="#2c2416">Center tick on tongue</text>
+    <text x="16" y="180" font-family="system-ui, sans-serif" font-size="10" fill="#2c2416">Pin centers before bottle opens</text>
+    <text x="96" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#7a6f5f">Original diagram - gluing-clamping-furniture pack</text>
+  </g>
+  <text x="360" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#5c5346">Pins slide in August and February - the cap stays a straight lip</text>
+</svg>

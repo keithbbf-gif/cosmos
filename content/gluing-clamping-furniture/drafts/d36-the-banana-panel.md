@@ -8,9 +8,17 @@ voice: human
 cluster: clamps
 series: gluing-clamping-furniture
 dek: Alternate the bars. Crown the cauls. Do not glue a six-board argument and ask a breadboard to bless it. A banana is a clamp pattern you can name.
-word_count: 1037
+word_count: 1092
 topics: [panels, cauls, clamp-pattern]
 figures:
+  - id: fig-diagram-banana-panel
+    file: images/svg/banana-panel-alternate-bars.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-banana-panel-bars)"
+    caption: "Bars on one face smile the panel. Above, below, cauls in the field — or saw the seams and try again."
+    alt: "Side view comparing wrong panel glue-up with all clamp bars on one face causing a banana bow versus correct alternating bars above and below with crowned cauls"
+    credit: "Original diagram — gluing-clamping-furniture pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — panel in clamps, bars alternating above and below, cauls on the field (filename pending shop pull)"
     caption: "Above, below, cauls in the field. The banana is the pattern you skipped."
@@ -26,6 +34,9 @@ All the bars were on top. The panel rose in the middle like a bread. I had even 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — panel in clamps, bars alternating above and below, cauls on the field (filename pending shop pull) -->
 
 A banana is not mystery cup. Mystery cup is moisture and stickers. A banana is a clamp smile: edges down, field up, or the reverse. You can name the pattern that made it.
+
+![Side view comparing wrong panel glue-up with all clamp bars on one face causing a banana bow versus correct alternating bars above and below with crowned cauls](images/svg/banana-panel-alternate-bars.svg)
+*Bars on one face smile the panel. Above, below, cauls in the field — or saw the seams and try again.*
 
 ## Alternate
 

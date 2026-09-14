@@ -8,9 +8,17 @@ voice: human
 cluster: glue
 series: gluing-clamping-furniture
 dek: Open, closed, clamp, and cure are not the same hour. Mixing them is how you machine a joint that is still a gel.
-word_count: 1046
+word_count: 1097
 topics: [open-time, clamp-time, cure]
 figures:
+  - id: fig-diagram-four-clocks
+    file: images/svg/four-glue-clocks-timeline.svg
+    preferred: "In-repo diagram (FIGURE_SEO.md § diagram-four-glue-clocks)"
+    caption: "Open is assembly. Closed is the walk to the iron. Clamp is permission to remove iron. Cure is when the machine may touch the seam."
+    alt: "Timeline of four glue clocks — open time, closed time, clamp time, and full cure — on one furniture glue-up"
+    credit: "Original diagram — gluing-clamping-furniture pack (2026-09-14)"
+    license: "See RIGHTS.md § Original diagrams"
+    status: ready
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — shop clock or phone timer on the bench next to a glue-up (filename pending shop pull)"
     caption: "The timer is for the glue, not for the conversation."
@@ -26,6 +34,9 @@ I pulled clamps at the hour because the bottle said I could. I jointed the panel
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — shop clock or phone timer on the bench next to a glue-up (filename pending shop pull) -->
 
 Sheets hide four clocks in two sentences. I name them out loud so I do not mix them.
+
+![Timeline of four glue clocks — open time, closed time, clamp time, and full cure — on one furniture glue-up](images/svg/four-glue-clocks-timeline.svg)
+*Open is assembly. Closed is the walk to the iron. Clamp is permission to remove iron. Cure is when the machine may touch the seam.*
 
 The shiny streak is still in that panel. I did not recut the whole top. I lived with a seam that looks closed in flat light and writes itself in raking light off the long glass. I tell the story when I want to wait.
 
