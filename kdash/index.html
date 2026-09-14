@@ -233,6 +233,25 @@
   .hidden{display:none}
   #feedJump{border-color:var(--amber);color:var(--amber)}
 
+  /* sessions / rolled timeline */
+  .tl-empty{color:var(--ink-faint);font-style:italic;padding:4px 0}
+  .tl-row{display:grid;grid-template-columns:9em 7em 8em 1fr auto;gap:0 8px;
+          padding:4px 0;border-bottom:1px solid #171d25;font-size:12px;align-items:baseline;
+          word-break:break-all}
+  .tl-row:last-child{border-bottom:none}
+  .tl-t{color:var(--ink-dim);font-size:11px;white-space:nowrap}
+  .tl-seat{color:var(--cyan);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tl-kind{font-size:10px;letter-spacing:1px;font-weight:700}
+  .tl-kind.ok{color:var(--green)}
+  .tl-kind.err{color:var(--red)}
+  .tl-kind.warn{color:var(--amber)}
+  .tl-kind.dim{color:var(--ink-dim)}
+  .tl-title{color:var(--ink)}
+  .tl-ref{color:var(--ink-faint);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:12em}
+  .tl-hdr{display:grid;grid-template-columns:9em 7em 8em 1fr auto;gap:0 8px;
+          padding:2px 0 4px;border-bottom:1px solid var(--panel-edge);
+          font-size:11px;color:var(--ink-dim);letter-spacing:1px}
+
   /* tables */
   .twrap{overflow-x:auto}
   table{border-collapse:collapse;width:100%;font-size:12px}
@@ -343,6 +362,11 @@
     </div>
   </section>
 
+  <section class="panel" id="panel-sessions">
+    <div class="panel-hd"><h2>SESSIONS</h2><span class="age never" id="age-sessions">no data</span></div>
+    <div class="panel-bd" id="bd-sessions"><div class="empty">not connected</div></div>
+  </section>
+
 </div>
 
 <footer>
@@ -367,7 +391,7 @@
   var PANEL_TIER = {
     health: "fast", spend: "fast", status: "fast", jobs: "fast",
     rails: "slow", audit: "slow", tools: "slow",
-    events: "fast", create: "fast"
+    events: "fast", create: "fast", sessions: "slow"
   };
   var dueAt = {};
   function panelTier(name){ return PANEL_TIER[name] || "fast"; }
@@ -406,7 +430,8 @@
     audit: {measuredAtMs:null,error:null,errorStatus:null},
     tools: {measuredAtMs:null,error:null,errorStatus:null},
     create:{measuredAtMs:null,error:null,errorStatus:null},
-    events:{measuredAtMs:null,error:null,errorStatus:null}
+    events:{measuredAtMs:null,error:null,errorStatus:null},
+    sessions:{measuredAtMs:null,error:null,errorStatus:null}
   };
 
   // live feed cursor: highest seq ever rendered. Never re-request below it.
@@ -1003,6 +1028,48 @@
       '</details>';
   }
 
+  // ---------- SESSIONS panel: ROLLED.md milestone feed timeline ----------
+  // Schema: rolled-event/1  t | seat | kind | title | ref
+  // Explicit empty state when Core has no ROLLED.md (available=false / n=0).
+  function _tlKindCls(kind){
+    var k = String(kind||"").toUpperCase();
+    if(/APPLIED|VERIFIED|OK|PASS|DONE/.test(k)) return "ok";
+    if(/FAIL|ROLL|ERROR|BAD/.test(k))           return "err";
+    if(/WARN|WATCH|HOLD|BLOCK/.test(k))          return "warn";
+    return "dim";
+  }
+  function renderSessions(d){
+    var events = Array.isArray(d.events) ? d.events : [];
+    var available = !!d.available;
+    var kind = String(d.kind || "");
+    if(!available || events.length === 0){
+      var why = !available
+        ? (kind === "NO_SOURCE"
+            ? "ROLLED.md not present — no milestones recorded yet"
+            : "ROLLED.md unavailable (" + esc(kind) + ")")
+        : "ROLLED.md present but contains no rolled-event/1 lines";
+      $("bd-sessions").innerHTML = '<div class="tl-empty">'+why+'</div>';
+      return;
+    }
+    var hdr = '<div class="tl-hdr">'+
+      '<span>TIME</span><span>SEAT</span><span>KIND</span><span>TITLE</span><span>REF</span>'+
+      '</div>';
+    var rows = events.map(function(ev){
+      var kCls = _tlKindCls(ev.kind);
+      return '<div class="tl-row">'+
+        '<span class="tl-t">'+esc(ev.t||"—")+'</span>'+
+        '<span class="tl-seat" title="'+esc(ev.seat||"")+'">'+esc(ev.seat||"—")+'</span>'+
+        '<span class="tl-kind '+kCls+'">'+esc(ev.kind||"—")+'</span>'+
+        '<span class="tl-title">'+esc(ev.title||"—")+'</span>'+
+        '<span class="tl-ref" title="'+esc(ev.ref||"")+'">'+esc(ev.ref||"")+'</span>'+
+        '</div>';
+    }).join("");
+    $("bd-sessions").innerHTML =
+      hdr+
+      '<div class="twrap" style="max-height:340px;overflow-y:auto">'+rows+'</div>'+
+      '<div class="dim" style="font-size:11px;margin-top:6px">'+events.length+' event'+(events.length!==1?"s":"")+'</div>';
+  }
+
   // ---------- CREATE panel: pure client of GET /api/v1/makers?kind=... ----------
   // A maker is a PLACE something can be made, not a capability claim. The kind
   // set is closed; a typo refuses locally and never leaves the client as an
@@ -1345,6 +1412,8 @@
       function(d){ var m=toMs(d.measured_at_epoch); return m!==null?m:toMs(d.served_at); }, renderAudit);
     maybe("tools","/api/v1/tools",
       function(d){ var m=toMs(d.measured_at); return m!==null?m:toMs(d.served_at); }, renderTools);
+    maybe("sessions","/api/v1/rolled",
+      function(d){ return toMs(d.measured_at); }, renderSessions);
     Promise.all(ops).then(function(){
       inflight = false;
       var anyOk = Object.keys(panels).some(function(k){ return panels[k].error===null && panels[k].measuredAtMs!==null; });
