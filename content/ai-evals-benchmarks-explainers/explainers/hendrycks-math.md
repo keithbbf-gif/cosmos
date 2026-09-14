@@ -26,6 +26,9 @@ The name is greedy. It claimed the noun. Later papers have to say “Hendrycks M
 </figure>
 
 
+A problem statement. A boxed answer, often a number or a short expression. Subjects the paper lists in the usual contest bins: algebra, counting and probability, geometry, intermediate algebra, number theory, precalculus, and so on. Difficulty ratings travel with the items. A model can be competent on the easy slice and lost on the “5”s.
+
+The original paper’s models were bad at it. That was the point. Competition math was a wall. Minerva (Lewkowycz et al., 2022) and the later instruction models moved the wall. By the mid-2020s the original MATH test split was no longer a place you sent a frontier model to suffer. You sent it to FrontierMath, or to a live contest, or to a holdout you had not published.
 
 ## Scoring a boxed expression
 
@@ -37,6 +40,9 @@ The name is greedy. It claimed the noun. Later papers have to say “Hendrycks M
 </figure>
 
 
+The cheap judge is more fragile than GSM8K’s integer. Equivalent expressions look different. `\frac{1}{2}` and `0.5` and `1/2` may or may not match your normalizer. Geometry answers that are “3\sqrt{2}” will punish a model that said `4.242`. A harness is a theory of equivalence. Name it.
+
+Some later protocols allow tools: a calculator, a Python REPL, a formal system. That is a different instrument that happens to use the same problem statements. A MATH number with tools and a MATH number without tools should not share a cell.
 
 ## An item in the hand
 

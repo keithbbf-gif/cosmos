@@ -26,6 +26,9 @@ The title’s “expert AGI” is a mouthful. The instrument is more modest and 
 </figure>
 
 
+A question from a college subject — the paper’s subject list is broad, from art history to clinical medicine to engineering — plus one or more images. Answers are multiple choice or a short expression, depending on the item. The scorer is closer to MMLU than to a captioning metric. The vision is not a decoration. If you cover the figure, the question should break.
+
+That last sentence is the quality bar the authors tried to enforce. Some items in any multimodal pile still leak into text. A good card reports a text-only ablation. If the score barely drops when the image is removed, you were not running MMMU. You were running a caption exam.
 
 ## Why it is not VQAv2
 
@@ -37,6 +40,9 @@ The title’s “expert AGI” is a mouthful. The instrument is more modest and 
 </figure>
 
 
+VQAv2 (Goyal et al., CVPR 2017) is everyday photographs and short answers, with a famous unanswerable/balanced design against language priors. ChartQA, DocVQA, TextVQA, MathVista — each later file took a slice (charts, documents, scene text, math figures). MMMU’s bet is breadth-plus-difficulty: many disciplines, college hardness, one noun.
+
+MathVista (Lu et al., ICLR 2024) is the closer cousin for figures-and-math. If your claim is mathematical visual reasoning, say MathVista. If your claim is multi-discipline college multimodal, say MMMU. If your claim is “the model can see,” you need more than one file.
 
 ## An item in the hand
 

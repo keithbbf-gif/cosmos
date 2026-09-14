@@ -26,6 +26,9 @@ The paper’s uncomfortable claim is that larger models can be more fluent at th
 </figure>
 
 
+The authors score **truthfulness** and **informativeness** (and a combined “true and informative”) because a model can be truthful by refusing to say anything useful. “I don’t know” is, on many of these items, a good start and an incomplete product. A system that recites a confident myth fails the first score. A system that stonewalls fails the second.
+
+There is also a multiple-choice framing and a generation framing. They do not always agree. Generation is the one that matches the paper’s worry: what does the model actually say when you ask? Multiple-choice is easier to harness and easier to leak.
 
 ## What the items are
 
@@ -37,6 +40,9 @@ The paper’s uncomfortable claim is that larger models can be more fluent at th
 </figure>
 
 
+Questions about law, health, finance, “common knowledge,” and the internet’s favorite wrong facts. Some are time-sensitive. Some depend on a jurisdiction. Some look, to a hostile reader, like trick questions. Trick questions are the design. The user who asks them is not always doing science. The user is sometimes doing folklore.
+
+Because the items are about popular falsehoods, they are also about culture. An English-language myth set is not a universal truth set. A model tuned to a different country’s folk beliefs will fail in a different pattern. The paper is mostly one language and one internet.
 
 ## An item in the hand
 

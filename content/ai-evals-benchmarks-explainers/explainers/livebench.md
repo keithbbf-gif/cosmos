@@ -26,6 +26,9 @@ The method is three refusals at once: refuse a stale file, refuse a chatty human
 </figure>
 
 
+Recent math contests, arXiv papers, news, and datasets that did not exist when last month’s models were trained — plus harder recasts of older tasks (BBH-ish puzzles, IFEval-ish constraints, AMPS-ish math). The mix is the point. A bench that only refreshes trivia becomes a news quiz. A bench that only refreshes math becomes a contest dump. LiveBench wants several skills to move at once.
+
+Automatic scoring means the answers have to be checkable: a number, a structured object, a program, a constraint. You lose the soft preference that Arena captures. You gain the ability to grade at 2 a.m. without hiring a cousin of the candidate.
 
 ## What “monthly” does to citation
 
@@ -37,6 +40,9 @@ The method is three refusals at once: refuse a stale file, refuse a chatty human
 </figure>
 
 
+It makes “the LiveBench number” a time series. Version your citation. A June 2024 table and a 2025 table are not a disagreement; they are two instruments that share a constitution. Cards that print a live site’s headline without a version are printing weather.
+
+The authors reported that even top models sat well below a comfortable ceiling on the early releases (the abstract’s “below 70 percent” is a dated snapshot). Use it as a qualitative claim about difficulty at launch, not as a constant.
 
 ## An item in the hand
 

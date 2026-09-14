@@ -26,6 +26,9 @@ The contexts come from everyday video captions and how-to text — ActivityNet, 
 </figure>
 
 
+If you sample random endings, a model that has learned a little about English can often reject the junk. HellaSwag’s wrong answers were filtered to fool then-current models while remaining obvious to people. The method sits in a line Choi’s group worked hard: build a dataset that is easy for humans and hard for the machines you have, then watch the next machines eat it.
+
+Adversarial filtering is a timestamp. The negatives were hard for BERT-era models. They are less hard for a 2024 chatbot. The items remain a test of whether a model prefers a physically and socially ordinary continuation over a fluent absurdity. When scores approach the human ceiling, the filter has done its historical job.
 
 ## What “commonsense” means here
 
@@ -37,6 +40,9 @@ The contexts come from everyday video captions and how-to text — ActivityNet, 
 </figure>
 
 
+It means: water is wet, a person who picks up a bag is probably leaving, a recipe’s next sentence is not a random clause about Jupiter. It does not mean moral common sense, or scientific common sense, or the common sense of a culture that is not in the captions. WikiHow has a voice. ActivityNet has a voice. Those voices are the world the endings come from.
+
+A four-choice continuation is also not the same as writing the next sentence. Generation can be worse than selection. HellaSwag will not catch a model that can pick (B) and cannot tell the story.
 
 ## An item in the hand
 

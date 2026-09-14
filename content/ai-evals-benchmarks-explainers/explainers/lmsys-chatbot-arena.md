@@ -24,6 +24,9 @@ In May 2023 a site invited anyone with a browser to talk to two unnamed chatbots
 </figure>
 
 
+You type a prompt. Two models, hidden behind aliases, answer. You vote for A, or B, or a tie, or you skip. The prompt is yours. It is not an item from a committee. That is the whole idea, and the whole sampling problem.
+
+The ranking is not a raw win rate. The paper describes a Bradley-Terry style model: a latent strength for each system, estimated from pairwise outcomes, with the usual statistical care about uncertainty. People still say “Elo” in the hallway. The hallway is close enough for gossip and not close enough for a methods section. The important sentence is: a coefficient is not a percentage of questions correct.
 
 ## What the 2024 paper claimed
 
@@ -35,6 +38,9 @@ In May 2023 a site invited anyone with a browser to talk to two unnamed chatbots
 </figure>
 
 
+At writing, the authors reported more than 240,000 votes, enough prompt diversity to discriminate models, and meaningful agreement between crowd votes and expert raters. Those claims are dated. The vote count is a historical snapshot, not a live widget. Do not update it from memory in this draft.
+
+They also claimed the thing the industry wanted: an open preference leaderboard that was not a company’s private side-by-side. Labs began to quote it. Journalists treated a rank as a review. The site became, for a while, the closest thing the field had to a public weather service for chat.
 
 ## The rename, without mythology
 

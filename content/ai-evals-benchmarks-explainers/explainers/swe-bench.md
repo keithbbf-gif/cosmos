@@ -26,6 +26,9 @@ The paper’s first public number was small on purpose. Claude 2, in their harne
 </figure>
 
 
+They crawled pull requests that were tied to issues and that touched tests. The environment is the repo *before* the PR. Some tests fail. After the gold PR, those tests pass. The fail-to-pass tests are the primary key. Pass-to-pass tests are the regression key. The model does not get the gold patch. It gets the issue text and the codebase.
+
+That construction is closer to a job than HumanEval is. It is still a construction. Issues that never had tests do not enter. Repositories that are not among the twelve do not enter. Python is the language of the original file. A model that is excellent at Rust or at an internal monorepo is not in this picture.
 
 ## What “resolved” means
 
@@ -37,6 +40,9 @@ The paper’s first public number was small on purpose. Claude 2, in their harne
 </figure>
 
 
+It means the harness applied the model’s edits and the designated tests went from red to green, and the previously green tests stayed green. It does not mean a maintainer would merge the patch. It does not mean the commit message is sane. It does not mean the model understood the project’s politics. It means a particular executable key accepted the diff.
+
+The original paper’s baseline agents were not the later SWE-agent, nor the industrial systems that quoted higher percentages on subsets. Those later percentages are other instruments if the harness, the subset, or the tools changed. SWE-bench Lite, SWE-bench Verified (a publicly discussed human-filtered subset associated with OpenAI’s 2024 write-up), and later multilingual or multimodal cousins should be named, not collapsed.
 
 ## An instance in the hand
 

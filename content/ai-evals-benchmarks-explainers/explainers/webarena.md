@@ -26,6 +26,9 @@ The environment is the benchmark. If you run the same words against the live int
 </figure>
 
 
+The real web changes. It has CAPTCHAs, logins, and lawyers. A reproducible agent eval needs URLs that stay put and a state you can reset. WebArena ships that town. The sites are functional enough to support multi-step tasks: compare two products, post a comment, find a commit, update a page.
+
+Reproducibility is the virtue. The vice is that the town is not the web. Agents can overfit the furniture. A system that knows WebArena’s shopping site may still drown on a real checkout flow. VisualWebArena and later cousins add screenshots and different sites; name them if you used them.
 
 ## How success is scored
 
@@ -37,6 +40,9 @@ The environment is the benchmark. If you run the same words against the live int
 </figure>
 
 
+A task has a validator: did the cart contain the item, did the issue get the comment, does the page now show the string? The cheap judge is program state, not BLEU. That is the right cheap judge for this sport. It will still miss a task that was “completed” in a way a human would accept and the validator did not, and it will still reward a hack that trips the flag.
+
+The original paper’s model agents succeeded on a small slice of tasks. That low number is a snapshot. Later agents with better browsers and better planners moved it. Date the run. Name the action space (accessibility tree, screenshots, raw HTML).
 
 ## A task in the town
 

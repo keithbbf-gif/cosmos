@@ -26,6 +26,15 @@ They offered it as an alternative to a loose reading of Turing’s imitation gam
 </figure>
 
 
+A schema is a pair, not a single trick question. The flip is the control. If your system gets one sentence right and the flipped sentence wrong in the wrong way, you have seen the artifact. If it gets both right, it may have the commonsense, or it may have seen the pair in a paper. The original set is small enough that fame is a leak.
+
+The problems were written to be:
+
+- obvious to a person
+- not solvable by a cheap selectional-preference trick if the authors succeeded
+- Google-resistant in the 2012 sense (ordinary search should not print the answer)
+
+“Google-resistant” is always dated. See GPQA for a later use of the same hope.
 
 ## An item in the hand
 
@@ -37,6 +46,11 @@ They offered it as an alternative to a loose reading of Turing’s imitation gam
 </figure>
 
 
+The trophy and the suitcase. The councilmen and the demonstrators, refusing a permit because they feared violence. The pair is the point: change one adjective, change the referent. A person does this without drawing a graph. A 2012 statistical MT system did not. A 2024 LLM often does, which is either commonsense or a thousand blog reprints of the same pair.
+
+Levesque asked for items that would not fall to a selectional-preference cheat (“the trophy is large” as a collocational twitch). Writers of later schemas sometimes failed that bar. When you reuse the original list, keep the pairs together. Scoring one sentence is not the Challenge.
+
+The 2012 “Google-resistant” hope assumed a search box that printed forums, not a model trained on the papers that discussed the schemas. Fame is leakage. Treat a perfect score on the original handful as a historical courtesy, not as news.
 
 ## What happened to the challenge
 

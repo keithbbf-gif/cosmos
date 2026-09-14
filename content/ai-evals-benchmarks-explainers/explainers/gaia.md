@@ -26,6 +26,9 @@ The name wants to be large. The scorer wants to be small. A short, checkable str
 </figure>
 
 
+It means tool use as a lifestyle, not as a demo. The public materials describe levels of difficulty and an expectation that a competent human, given the web and ordinary office tools, can do the item. The model is supposed to plan, browse, read attachments, and stop. The gold is not a 500-word essay. It is a date, a number, a name, a yes/no.
+
+That design resists a model judge’s taste and invites a different cheat: find the answer in a leaked write-up. The questions are charming. Charming questions get blogs. Treat late scores as possibly contaminated.
 
 ## Levels, not a single mood
 
@@ -37,6 +40,9 @@ The name wants to be large. The scorer wants to be small. A short, checkable str
 </figure>
 
 
+The paper bins items by how much composition they want. A level-1 item may be one lookup. A higher level wants a chain. Report the levels. An average that hides a collapse on level 3 is a costume.
+
+The official evaluation path uses a held-out set and a scoring convention the authors document. If you ran a public subset with a homemade judge, you did not run GAIA. You ran a cousin.
 
 ## An item in the hand
 

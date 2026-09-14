@@ -26,6 +26,9 @@ SQuAD’s workers read a paragraph and invented a question. NQ’s pipeline star
 </figure>
 
 
+A crowdworker staring at a paragraph asks questions the paragraph can answer. A user staring at a search box asks questions that are underspecified, wrongly spelled, temporally loaded, or simply not about the page you retrieved. NQ keeps the ones that were paired with a Wikipedia result and then asks: is the answer here, and where?
+
+The unanswerable slice is first-class. A system that always highlights will be punished. SQuAD 2.0 learned that lesson in a synthetic way. NQ brought it in from the query log.
 
 ## Long and short
 
@@ -37,6 +40,9 @@ SQuAD’s workers read a paragraph and invented a question. NQ’s pipeline star
 </figure>
 
 
+The **long answer** task is closer to retrieval-inside-a-page: which passage, if any? The **short answer** task is closer to SQuAD, when a short span exists. Some queries want a yes/no. The paper’s metrics treat these as related but not identical sports. A card that reports “NQ” without long versus short is smearing them.
+
+Open-domain NQ — retrieve from all of Wikipedia, then read — is the setting that later retriever papers used. Closed-book NQ — no page, just the model — is a different exam that people sometimes run anyway. Name the setting.
 
 ## An item in the hand
 

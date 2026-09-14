@@ -26,6 +26,9 @@ The English-only habit of GLUE had become, by 2020, an embarrassment that still 
 </figure>
 
 
+Cross-lingual versions of familiar sports: XNLI (Conneau et al.) for inference, named-entity recognition in several languages, POS tagging, a QA set (including TyDi QA’s neighborhood and XQuAD), and retrieval. The languages in the original suite number forty in the paper’s accounting, chosen to span families and resource levels — not equally, because the world of annotated data is not equal.
+
+The scientific question is transfer. Train on English, test on Swahili. Train on many, test on one you held out. A number that is only English has no place to hide.
 
 ## What “massively multilingual” cannot hide
 
@@ -37,6 +40,9 @@ The English-only habit of GLUE had become, by 2020, an embarrassment that still 
 </figure>
 
 
+Forty is not seven thousand. The suite is still a convenience sample of languages with enough existing annotation to support a task. Low-resource does not mean “the languages Google has not productized.” It means “the languages in this table with less data.” A model that looks even across XTREME can still be useless in a language that never had a NER file.
+
+Scripts, morphology, and code-switching will punish a tokenizer that was built for English spaces. Those failures are data. They should appear in the per-language table, not in an average that lets German rescue a collapse elsewhere.
 
 ## An item in the hand
 

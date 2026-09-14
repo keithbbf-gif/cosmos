@@ -24,6 +24,9 @@ François Chollet published “On the Measure of Intelligence” in 2019 (arXiv:
 </figure>
 
 
+A puzzle. Three, maybe four, pairs of grids that demonstrate a transformation: rotate, count, fill, group by color, obey a rule that is easy to see once you see it and expensive to guess from language priors. Then a test grid. The answer is a grid, not a letter. The cheap judge is exact match on cells.
+
+Humans who like puzzles often do well after a minute of staring. The 2019–2023 programs did not. That gap is Chollet’s exhibit. He wanted a test of skill-acquisition efficiency: how little prior knowledge, how little data, how quickly a system can lock onto a novel rule. The essay around the corpus is long and argumentative. The corpus is small and visual.
 
 ## What it is not
 
@@ -35,6 +38,9 @@ François Chollet published “On the Measure of Intelligence” in 2019 (arXiv:
 </figure>
 
 
+It is not a language exam. A chatbot can describe the rule in English and still paint the wrong pixels. It is not ImageNet. The grids are synthetic. It is not “AGI” as a product category, even though the later name invites that confusion. Chollet’s “AGI” here is a claim about measuring general skill acquisition, not a vendor milestone.
+
+It is also not a large statistical instrument. The public training set is modest. The hidden evaluation sets (the contest’s private tests) are the ones that matter for a prize, and they are hidden for the usual reason: if you publish the test grids, people will fit them.
 
 ## A grid in the hand
 

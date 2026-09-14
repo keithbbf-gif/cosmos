@@ -26,6 +26,9 @@ Most preference evals will forgive a model that is helpful and slightly disobedi
 </figure>
 
 
+If the instruction is “be nice,” you need a judge. If the instruction is “use exactly two questions marks,” you need a counter. Zhou’s group collected instructions that a script can check. That choice throws out a lot of real user intent and keeps the part that can be graded at 2 a.m. without a model judge.
+
+The benefit is honesty. The cost is a certain bureaucratic flavor. A system can ace IFEval and still be a bad colleague. A system can fail IFEval and still be a good explainer that ignored a silly constraint. The file measures compliance with checkable requests.
 
 ## What an item looks like
 
@@ -37,6 +40,9 @@ Most preference evals will forgive a model that is helpful and slightly disobedi
 </figure>
 
 
+A prompt that mixes a task (explain, list, rewrite) with one or more constraints (length, format, keywords, language, case). The paper groups them into types so you can see whether a model fails JSON more than it fails “start every sentence with a verb.” Category tables matter. A single average will hide a format specialist.
+
+LiveBench later included instruction-following slices in the same spirit, with a calendar. IFEval is the static, early, widely copied version.
 
 ## An item in the hand
 

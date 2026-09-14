@@ -26,6 +26,9 @@ The scientific object is not “can the model program.” It is: given this docs
 </figure>
 
 
+Existing code corpora were training data. Existing programming contests were often in the crawl. The authors wanted problems that were, as far as they could manage, not copied from the web — handwritten, original, in the style of a simple interview or a textbook exercise. 164 is a modest N. Modest is a feature when you are claiming originality. Modest is a bug when you want statistical calm.
+
+Each item is short. The room is a single function. No repository, no issue tracker, no API design, no tests authored by the model. If you can pass HumanEval and cannot open a pull request, you have not found a contradiction. You have found the edge of the instrument.
 
 ## How a run works
 
@@ -37,6 +40,9 @@ The scientific object is not “can the model program.” It is: given this docs
 </figure>
 
 
+The model sees the prompt (signature + docstring + examples). It emits completions. Each completion is executed against hidden tests. Pass or fail is binary per problem. `pass@k` estimates how often at least one of k samples would have passed. Temperature 0.8 and k = 100 in the original tables is a different sport from greedy `pass@1`. Cards that omit k are omitting the sport.
+
+Later variants add more tests (HumanEval+ from EvalPlus, Liu et al., 2023) because the original hidden tests were thin. A thin test suite is a generous teacher. A function can be wrong in ways the authors did not probe. Plus-style expansions are a criticism of the key, not a new problem set.
 
 ## An item in the hand
 

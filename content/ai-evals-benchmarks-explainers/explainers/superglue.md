@@ -26,6 +26,18 @@ The authors did not throw GLUE away. They built a smaller, meaner English suite 
 </figure>
 
 
+SuperGLUE’s core tasks, as the paper specifies them, include:
+
+- **BoolQ** — Clark et al.’s yes/no questions, the kind a person actually types, paired with a Wikipedia passage.
+- **CB** — CommitmentBank, a small, nasty inference set about what a speaker has committed to.
+- **COPA** — Roemmele, Bejan, and Gordon’s Choice of Plausible Alternatives: a premise and two causal tails. Common sense as a fork in the road.
+- **MultiRC** — Khashabi et al.’s multi-sentence questions with multiple correct answers. F1 that cannot be faked by picking one span.
+- **ReCoRD** — Zhang et al.’s cloze over news, entities as the missing piece.
+- **RTE** — kept from GLUE, because entailment was still earning its keep.
+- **WiC** — Pilehvar and Camacho-Collados, word-in-context: is this word the same sense in two sentences?
+- **WSC** — a Winograd Schema format closer to Levesque’s original pronoun problem than GLUE’s WNLI recast.
+
+The mix is still English, still mostly classification and span-ish work, still an average of unlike scores. It is “stickier” because the items were chosen to remain hard after BERT-style fine-tuning had embarrassed GLUE.
 
 ## What “stickier” meant in 2019
 
@@ -37,6 +49,9 @@ The authors did not throw GLUE away. They built a smaller, meaner English suite 
 </figure>
 
 
+It meant: human performance still sat above the machines by a gap you could discuss without squinting. It meant: you could not win by being merely good at MNLI-style entailment and sentiment. COPA and WSC punish a model that has no idea what “it” points at. MultiRC punishes a model that thinks a question has one highlightable phrase. BoolQ punishes a model that cannot say no.
+
+It also meant the suite was smaller. Small is sticky and small is brittle. CB and WSC do not give you the law of large numbers. A prompt quirk, a label error, or a leak can move the headline more than a genuine modeling idea. SuperGLUE inherited GLUE’s leaderboard culture and a more fragile denominator.
 
 ## The human ceiling as a character
 

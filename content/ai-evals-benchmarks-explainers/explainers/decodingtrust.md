@@ -26,6 +26,9 @@ The title says GPT. The method is broader. The warning is the word “comprehens
 </figure>
 
 
+A model can be polite in a toxicity file and leak a training-set email in a privacy probe. A single “safety score” would hide that. DecodingTrust’s useful public habit is the radar chart, or the table with many columns. If a descendant card compresses the suite into one integer, the citation has failed.
+
+HELM had already argued for multi-metric honesty on capability. DecodingTrust is the trustworthiness cousin: several harms, one protocol family, published prompts.
 
 ## What this explainer will not do
 
@@ -37,6 +40,9 @@ The title says GPT. The method is broader. The warning is the word “comprehens
 </figure>
 
 
+It will not reprint jailbreak strings. It will not give you a recipe for extracting training data. It will not walk through an attack. The paper exists. The tasks are public at the level of categories and published scripts. That is enough for a magazine piece. Dual-use detail stays in the paper, for readers who have a reason.
+
+If your question is “how do I break a model,” this series will not help you. If your question is “what public instrument were people citing in 2023–2024 when they said trustworthiness,” this is one of the names.
 
 ## What a slice looks like
 

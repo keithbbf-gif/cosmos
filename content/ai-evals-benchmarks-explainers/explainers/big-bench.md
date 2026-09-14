@@ -26,6 +26,9 @@ The imitation game in the title is Turing’s. The “beyond” is a pile: hundr
 </figure>
 
 
+Most suites are edited like a journal special issue: a small committee, a taste. BIG-bench is edited like a conference. Tasks have authors. Tasks have varying quality. Some are clever and tiny. Some are large and dull. Some measure a real capability. Some measure whether the model has seen a particular meme. The paper is explicit that this heterogeneity is the point. Diversity of hardship over purity of hardship.
+
+The original public release is in the hundreds of tasks (the paper’s abstract and later write-ups commonly say 204). Do not invent a more precise folklore number; cite the paper’s table if you need one. A JSON format, a GitHub repository, and a rule that you could add a task made the suite feel like infrastructure.
 
 ## What “beyond” included
 
@@ -37,6 +40,9 @@ The imitation game in the title is Turing’s. The “beyond” is a pile: hundr
 </figure>
 
 
+Things GLUE would not have hosted. Program-like reasoning. Translation between toy languages. Moral and social hypotheticals of uneven seriousness. Music and ASCII. Tasks that are easy to contaminate because they are fun to screenshot. Tasks that are hard to score because the authors wanted generation, not a letter.
+
+The scoring is therefore a federation. Some tasks are exact match. Some are multiple choice. Some need a human or a heuristic. The headline “BIG-bench score” you see on a card is usually a subset average, often the “lite” slice, not a sacred mean of all 200-plus. If the card does not name the slice, it is not a BIG-bench number. It is a mood.
 
 ## Scale as a character
 

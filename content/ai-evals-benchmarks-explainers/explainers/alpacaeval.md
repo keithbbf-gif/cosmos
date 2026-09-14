@@ -26,6 +26,9 @@ Yann Dubois and colleagues documented the evaluator in public technical reports 
 </figure>
 
 
+Not correctness. Not citation. Preference, as modeled by a judge, against a fixed baseline (the original public baseline was a strong closed chat model of that moment). A 50 percent win rate means “the judge does not prefer you to the baseline.” An 80 percent win rate means “the judge prefers you often.” It does not mean you are right on 80 percent of facts.
+
+The instruction set is a file. That is a virtue (reproducible) and a vice (gameable, leakable, not the live crowd). People optimized for AlpacaEval the way they optimized for BLEU. The metric became a culture.
 
 ## Length, the scandal that was a finding
 
@@ -37,6 +40,9 @@ Yann Dubois and colleagues documented the evaluator in public technical reports 
 </figure>
 
 
+If a judge likes more words, a model that pads will rise. Dubois’s later write-ups treat this as a defect to correct, not as a moral failing of one lab. Length-controlled AlpacaEval is a different instrument from the uncontrolled one. A card that reports a high win rate without saying which version is choosing the softer weather.
+
+Style is the broader scandal. A judge with a favorite list format, a favorite hedging style, or a family resemblance to the candidate will vote its taste. This is the same weather as MT-Bench. It is cheaper than Arena and louder than it should be, because a percentage is easier to print than a Bradley-Terry coefficient with error bars.
 
 ## An item in the hand
 

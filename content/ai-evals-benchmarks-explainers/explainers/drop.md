@@ -26,6 +26,9 @@ The name is Discrete Reasoning Over Paragraphs. The hardship is a football drive
 </figure>
 
 
+If the paragraph says the team scored 3, then 7, then 10, and the question asks for the total, the gold span may not exist. You have to add. If the question asks who arrived first, you have to compare dates. Extractive F1 will either fail or reward a lucky nearby numeral. DROP’s evaluation still uses numbers and F1-like matching, but the *task* is not “find the span.” It is “operate.”
+
+That operation is still small. It is not a spreadsheet model. It is not a proof. It is discrete reasoning at the scale of a paragraph, which was enough, in 2019, to drop the scores of systems that had just climbed SQuAD.
 
 ## What the items feel like
 
@@ -37,6 +40,9 @@ The name is Discrete Reasoning Over Paragraphs. The hardship is a football drive
 </figure>
 
 
+Many are sports narratives and Wikipedia-style event write-ups, because those contain comparable numbers and entities. The distribution is a scope. A model that can total a football drive may still fail a legal hypothetical. The authors did not claim otherwise.
+
+Annotation is hard. Discrete answers have to be consistent. Later work found noise, as later work always does. If you use DROP as a 2026 frontier claim, you are late. If you use it as a diagnostic for “does my reader actually add,” you are on time.
 
 ## An item in the hand
 

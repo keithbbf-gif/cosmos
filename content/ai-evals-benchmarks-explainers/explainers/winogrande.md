@@ -24,6 +24,9 @@ Hector Levesque’s Winograd Schema Challenge (2012) was a small, carefully writ
 </figure>
 
 
+A sentence with a blank or a pronoun, two candidate referents, a bit of commonsense that makes one candidate right. The “grande” is the count: tens of thousands of problems collected with crowdsourcing, then filtered so that then-current models could not coast on artifacts.
+
+The filter matters. Crowdsourced pronoun problems come with statistical tells — gender stereotypes, word overlap, a favorite noun sitting closer to the pronoun. If you do not filter, you get a dataset that looks like WinoGrad and behaves like a bag-of-words test. Sakaguchi’s group used adversarial filtering, in the same family as HellaSwag, to knock out the easy tells.
 
 ## Scale versus craft
 
@@ -35,6 +38,9 @@ Hector Levesque’s Winograd Schema Challenge (2012) was a small, carefully writ
 </figure>
 
 
+Levesque’s original schemas were written like puzzles for philosophers. WinoGrande’s items are written like puzzles for crowdworkers. You gain N. You lose some of the gem-cutter quality. Both facts should appear in a citation. When a card says “Winograd” and means WinoGrande, the card has blurred a handmade exam with a factory.
+
+GLUE’s WNLI was another recast, even smaller and leakier. SuperGLUE’s WSC sat closer to the original. WinoGrande is the factory edition that the open-LLM tables adopted.
 
 ## What it measures
 

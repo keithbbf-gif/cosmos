@@ -26,6 +26,9 @@ The third grade is the instrument. A model that guesses when it should shut up i
 </figure>
 
 
+Long answers contain many claims. Grading them is a research program (see Wei’s other 2024 line of work on long-form factuality). Short answers let you build a key. The paper is explicit about the bargain. If your product is a briefing, SimpleQA is a floor, not a certificate.
+
+The questions were collected to be hard for a then-current GPT-4: adversarially gathered, not trivia leftovers. That is a timestamp. A later model may find them easier because it is better, or because the file leaked, or both.
 
 ## How it differs from older QA
 
@@ -37,6 +40,9 @@ The third grade is the instrument. A model that guesses when it should shut up i
 </figure>
 
 
+TriviaQA and Natural Questions became easy for large models as memory tests. TruthfulQA tempts you toward a popular lie. SimpleQA asks for a small fact that is true and checkable, and then asks whether you will attempt it. The three-way grade is closer to an honest student than a four-choice exam is.
+
+The scorer in practice may be a model judge comparing a free string to a target. That judge is a cheap stand-in. The paper and OpenAI’s simple-evals repository document the intended path. If you swapped in a different judge, say so.
 
 ## An item in the hand
 

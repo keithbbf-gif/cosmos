@@ -26,6 +26,9 @@ The paper includes interviews with Terence Tao, Timothy Gowers, and Richard Borc
 </figure>
 
 
+MATH saturated for the systems that had learned to be contest students. GSM8K saturated earlier. If you want to know whether a 2025 model is doing new mathematics or doing a familiar contest dance, you need items that are not already in the Art of Problem Solving corpus. Epoch’s answer was to commission them and to keep a large slice unpublished so the crawl would not immediately eat the packet.
+
+Secrecy is the method. It is also the argument you will have with anyone who wants to reproduce the number from a zip file. The paper is public. Many problems are not. Access is a relationship. That is a real cost.
 
 ## What “advanced” means here
 
@@ -37,6 +40,9 @@ The paper includes interviews with Terence Tao, Timothy Gowers, and Richard Borc
 </figure>
 
 
+It means: a working mathematician would need time, not a trick that is in a standard olympiad chapter. It does not mean “the model is a research collaborator” even if it lands a boxed object. The scorer, as in MATH, wants a checkable answer — often a number or a short mathematical object — not a journal paper.
+
+Tiers later appeared in Epoch’s public materials as a way to talk about difficulty bands. If you cite a tier, cite the dated page or paper version that defines it. Do not invent a folklore tier.
 
 ## An item you will not see
 

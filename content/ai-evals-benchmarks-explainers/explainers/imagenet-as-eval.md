@@ -26,6 +26,9 @@ This explainer is about the second life. The photographs are the items. The cont
 </figure>
 
 
+Classify a photograph into one of a thousand categories, or later detect and localize. Top-1 error is harsh. Top-5 error is the number the 2012 story uses: is the right class anywhere in your first five guesses? That mercy is part of the instrument. A model can be usefully confused among collies and still be right in the top five.
+
+The categories are WordNet synsets, which means they are a particular lexical theory of the world. Some are fine-grained animals. Some are objects a household contains. Some are odd to a person who did not grow up with that taxonomy. A confusion matrix on ImageNet is a cultural document as well as a technical one.
 
 ## Why vision needed it
 
@@ -37,6 +40,9 @@ This explainer is about the second life. The photographs are the items. The cont
 </figure>
 
 
+Caltech-101 and PASCAL-sized sets were too small to absorb a large model’s appetite and too narrow to support a yearly public race. Fei-Fei Li’s group’s bet — later discussed by her in talks as a bet that scale of supervision would move the field — was that a painful, public, large-label set would do for vision what a shared task had done for other corners of AI.
+
+ILSVRC’s calendar made the bet operational. You could not wave away a number as a private split. Other groups could enter. The 2012 convolutional net did not win because it had a better press team. It won because the error rate dropped by a margin that made other summer plans look dated.
 
 ## What the yardstick could not hold
 

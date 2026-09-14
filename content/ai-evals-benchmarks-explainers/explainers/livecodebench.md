@@ -26,6 +26,9 @@ HumanEval’s 164 docstrings could not stay young. Naman Jain, King Han, Alex Gu
 </figure>
 
 
+If a problem appeared on Codeforces, LeetCode, or AtCoder after your declared cutoff, a model that was trained before that date should not have seen the official statement. That sentence depends on honest cutoffs and on the problem not having been a remix of an older one. Contest culture remixes. The calendar still reduces the most embarrassing form of leakage: the exact HumanEval docstring in the crawl.
+
+LiveCodeBench therefore reports numbers that are *as of a problem window*. A card that says “LiveCodeBench” without a version or a date range is omitting the method.
 
 ## What an item is
 
@@ -37,6 +40,9 @@ HumanEval’s 164 docstrings could not stay young. Naman Jain, King Han, Alex Gu
 </figure>
 
 
+A contest-style programming problem: statement, constraints, sample I/O, hidden tests. The model writes a solution. The judge runs it. This is closer to a programming competition than to SWE-bench’s issue tracker and closer to HumanEval than to a multi-file refactor — but the problems can be algorithmically meaner than “mostly basic.”
+
+The extra tasks (repair a failing program, predict output, write tests) are the paper trying not to let one generation score impersonate “coding.” They are easy to drop on a card. If they were dropped, say so.
 
 ## An item in the hand
 

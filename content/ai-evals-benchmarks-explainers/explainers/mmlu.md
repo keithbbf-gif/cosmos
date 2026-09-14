@@ -26,6 +26,9 @@ The hardship is an exam pile. The paper describes 57 tasks drawn from real acade
 </figure>
 
 
+GLUE had measured fine-tuned English classifiers. By 2020 the objects of argument were large pretrained models that were supposed to know things without a task-specific head. An exam is a culturally legible way to ask “do you know things?” People have taken exams. People trust, or at least recognize, a percentage on anatomy or criminal law.
+
+The suite is also wide. A model that memorized Python trivia and failed jurisprudence shows up in the per-subject table. Hendrycks’s group insisted on that table. The world cited the macro average. The average is how MMLU became a personality: “it’s a 74.”
 
 ## What a four-choice exam is
 
@@ -37,6 +40,9 @@ The hardship is an exam pile. The paper describes 57 tasks drawn from real acade
 </figure>
 
 
+It is a recognition test. The right answer is on the page. A model that cannot produce a legal opinion can still pick (B). A model that can write a careful legal opinion can still miss a poorly written stem. The format is a gift to calibration-by-elimination and a theft from any skill that is generative, tool-using, or interactive.
+
+It is also a gift to contamination. Exam questions are copied. They appear in quizlets, dumps, blogs, and papers. A crawl that has seen enough practice tests will flatter a model that has not “understood” medicine so much as seen the stem. Hendrycks has said, in later public writing, that evals get saturated and leaked; MMLU-Pro exists because the original file got too familiar. See [MMLU-Pro](mmlu-pro.md) and [When the exam was in the library](../essays/contamination-and-leakage.md).
 
 ## The protocol is the instrument
 

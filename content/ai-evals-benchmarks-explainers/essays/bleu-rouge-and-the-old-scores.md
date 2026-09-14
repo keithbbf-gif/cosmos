@@ -26,6 +26,11 @@ This is not a history of all automatic metrics. It is a tour of the bargain: rep
 </figure>
 
 
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu published “BLEU: a Method for Automatic Evaluation of Machine Translation” at ACL 2002. The affiliation line is IBM. The idea is small enough to write on a whiteboard: count n-gram overlaps between a candidate translation and one or more references, precision-style, then penalize short outputs so a system cannot win by emitting a cautious noun.
+
+BLEU was a workshop tool. It correlated, on the sets they cared about, with averaged human judgments well enough to rank systems. That sentence has three hedges and they are all load-bearing. Correlate. On those sets. Well enough to rank. It was never a claim that a 2-point BLEU gap is a 2-point improvement in meaning.
+
+The field treated it as a currency anyway. Shared tasks printed BLEU to two decimals. Papers claimed gains that were, on a good day, the width of a tokenizer change. Detokenization bugs became folklore. A system that produced a correct paraphrase and missed the reference’s n-grams looked worse than a system that parroted the training phrasing.
 
 ## ROUGE, 2004
 
@@ -37,6 +42,9 @@ This is not a history of all automatic metrics. It is a tour of the bargain: rep
 </figure>
 
 
+Chin-Yew Lin published “ROUGE: A Package for Automatic Evaluation of Summaries” in 2004 (ACL workshop on text summarization branches). Where BLEU is precision-leaning, the ROUGE family is recall-leaning: how much of the reference summary’s n-grams, or longest common subsequence, did you catch? Summarization had the same labor problem as translation. It adopted the same class of solution.
+
+ROUGE inherited BLEU’s virtues (cheap, repeatable, good enough to sort a mid-2000s leaderboard) and its vices (reference-bound, hostile to valid wording, easy to optimize without becoming a better writer). Later summarization work spent years showing that a lead-3 baseline — take the first three sentences — is embarrassingly strong under ROUGE on news. That result is a criticism of the metric-and-dataset pair, not a joke about journalists.
 
 ## The overlap era’s other furniture
 

@@ -26,6 +26,9 @@ The suite that stuck in model cards is BIG-bench Hard, BBH. Twenty-three tasks. 
 </figure>
 
 
+You start from the BIG-bench pile. You keep tasks where the best models of the moment sat near chance, or near a weak baseline, despite scale. You discard tasks that had already yielded. The editorial act is “what still hurts,” which is time-stamped. A task that was hard in 2022 can be homework in 2026. BBH’s value as a living discriminator decays. BBH’s value as a historical filter remains.
+
+The twenty-three include the kinds of puzzles that made the original zoo charming and uneven: temporal sequences, logical deduction, tracking shuffled objects, a bit of formal play, the odd linguistic corner. Exact task names live in the paper’s table. This explainer will not pretend to be that table.
 
 ## Chain-of-thought as the other instrument
 
@@ -37,6 +40,9 @@ The suite that stuck in model cards is BIG-bench Hard, BBH. Twenty-three tasks. 
 </figure>
 
 
+The paper is as much about a prompting style as about a subset. Chain-of-thought — Wei and colleagues’ 2022 work, “let the model write intermediate steps” — had already moved GSM8K. Suzgun’s group asked whether the same habit lifts BBH.
+
+Sometimes yes. The tasks that want multi-step bookkeeping benefit from a scratchpad. Sometimes no. A scratchpad cannot invent a fact the weights do not have, and it can narrate its way into a confident wrong answer. The paper’s useful public lesson is not “CoT solves BBH.” It is that a prompting choice can be larger than a model-size step, which means BBH numbers without a protocol are theater.
 
 ## A task in the twenty-three
 

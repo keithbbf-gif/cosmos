@@ -26,6 +26,9 @@ Contamination is the name the 2020s settled on. Leakage is the older word from m
 </figure>
 
 
+A dataset ships on GitHub or Hugging Face. A paper quotes items. A blog copies the quotes. A student posts a homework write-up. A model card reports a score, and a journalist reprints three examples. Years later a crawler takes the lot. None of those steps is theft in the movie sense. Each is ordinary science communication. Together they can turn a held-out split into a memorization exam.
+
+There is a second path that is not a crawl. Fine-tuning and “eval-aware” training. A group wants a number on MMLU or GSM8K. They train on lookalike items, or on the development set, or on a reconstruction of the test set from public copies. The paper may or may not say so. The number still prints.
 
 ## What the papers actually did
 
@@ -37,6 +40,15 @@ Contamination is the name the 2020s settled on. Leakage is the older word from m
 </figure>
 
 
+The careful public work is about detection and about moving targets, not about a courtroom.
+
+Researchers have published n-gram overlap checks, membership-inference style probes, and “can the model reproduce the item verbatim” tests. Those methods disagree. A model can have seen an item and still fail it. A model can miss every n-gram and still have seen a paraphrase. The honest report is a range and a method, not a purity badge.
+
+LiveBench (White, Dooley, Roberts, Pal, and colleagues; arXiv June 2024, ICLR 2025) tried to change the pamphlet. New items drawn from recent contests, papers, and news; automatic scoring against a key; a monthly refresh. The title on arXiv is the tell: “Contamination-Limited,” not “Contamination-Impossible.” The later ICLR PDF keeps that honesty.
+
+Humanity’s Last Exam and FrontierMath keep many items off the public web on purpose. That is a contamination strategy. It is also a reproducibility tax. A second lab cannot casually re-score a hidden set without a relationship. The papers should be read as making that trade in the open.
+
+SWE-bench has a different leak surface. The issues came from public GitHub. A model trained on a 2024 code crawl may have seen the pull request that is supposed to be the answer. Later variants (including the publicly discussed SWE-bench Verified subset) are attempts to make the hardship cleaner, not proof that the original file was dishonest.
 
 ## Saturation is the other death
 

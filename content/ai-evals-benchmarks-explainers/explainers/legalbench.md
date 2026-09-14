@@ -26,6 +26,9 @@ The collaborative build is the method. Legal experts proposed tasks. The suite k
 </figure>
 
 
+A bar-style multiple-choice average will tell you something about exam technique and the crawl of prep books. It will not tell you whether a model can, given a statute excerpt, apply the rule and stop. LegalBench’s authors wanted the second, in pieces small enough to score and to disagree about.
+
+Some tasks are easy classification. Some want you to stay inside a provided rule (a “rule-application” mood that is closer to IRAC as a constrained game than to open-ended advice). The interesting scientific object is the spread. A model that is high on extraction and low on rule application is a highlighter, not a clerk.
 
 ## What it will not do
 
@@ -37,6 +40,9 @@ The collaborative build is the method. Legal experts proposed tasks. The suite k
 </figure>
 
 
+It will not certify a lawyer. It will not replace a professional responsibility course. It will not tell you the law of a jurisdiction the tasks do not cover. U.S. law is over-represented because that is who showed up to write tasks. A card that says “legal reasoning” on the basis of this suite should say “LegalBench’s tasks, mostly U.S.”
+
+It will not measure whether the model refuses to give reckless advice. Pair it with a safety or professional-norm eval if that is your claim.
 
 ## An item in the hand
 

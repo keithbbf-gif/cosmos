@@ -26,6 +26,15 @@ That is already more than a dataset. A dataset can sit on a disk. A benchmark is
 </figure>
 
 
+**Items.** Sentences, questions, images, GitHub issues, tool traces. They have to be fixed enough that two groups can claim to have run “the same test.” They have to be numerous enough that a lucky prompt does not look like a theory.
+
+**A split.** Training, development, test — or, in the 2020s, “the whole thing is test because nobody should fine-tune on it.” The split is where leakage is born. See [When the exam was in the library](contamination-and-leakage.md).
+
+**A scorer.** Exact match, F1, accuracy, BLEU, `pass@k`, a fail-to-pass test suite, a human vote, a model asked to play judge. The scorer is not a detail. Change the scorer and you have a different instrument that happens to share a folder name.
+
+**A prompt contract.** Older suites assumed fine-tuning. Newer suites assume a template: few-shot, chain-of-thought, system message, tool access. HELM’s authors spent pages on this because, before them, two “MMLU numbers” could be two different homework assignments.
+
+**A report.** A table, a site, a tweet-length claim. The report is where the instrument becomes a rumor.
 
 ## What it pretends
 
@@ -37,6 +46,9 @@ That is already more than a dataset. A dataset can sit on a disk. A benchmark is
 </figure>
 
 
+The polite pretense is that the hardship stands for a capacity: “language understanding,” “reasoning,” “coding,” “alignment with human preference.” The papers are usually more careful than the slides. GLUE’s authors called their suite a benchmark for English NLU and then filled it with entailment, sentiment, and grammaticality — real tasks, and not the whole of understanding. MMLU’s authors called theirs massive multitask language understanding and then filled it with multiple-choice exams. Arena’s authors called theirs preference. Preference is the rare case where the pretense and the measurement match.
+
+The dangerous pretense is that a single average is a mind. Nine tasks averaged (GLUE). Fifty-seven subjects averaged (MMLU). A Bradley-Terry coefficient (Arena). A fail-to-pass rate on 2,294 GitHub issues (SWE-bench). Each of those numbers is a compression. Compression is useful. It is also how a specialist model that is merely good at multiple-choice exams becomes, in a keynote, “generally capable.”
 
 ## Who gets to publish one
 

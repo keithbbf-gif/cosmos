@@ -48,8 +48,17 @@ def fig_block(art: dict, which: str, n: int) -> str:
 
 
 def strip_old_graphics(body: str) -> str:
-    body = re.sub(r"<!-- graphics-pack:v1 -->[\s\S]*?(?=\n## |\Z)", "", body)
-    body = re.sub(r"!\[[^\]]*\]\(\.\./assets/[^)]+\)\s*\n\*Figure \d+[^*]*\*\s*\n", "", body)
+    body = re.sub(r"<!-- graphics-pack:v1 -->\s*\n", "", body)
+    body = re.sub(
+        r'<figure class="eval-figure">[\s\S]*?</figure>\s*\n',
+        "",
+        body,
+    )
+    body = re.sub(
+        r"!\[[^\]]*\]\(\.\./assets/[^)]+\)\s*\n\*Figure \d+[^*]*\*\s*\n",
+        "",
+        body,
+    )
     return body
 
 

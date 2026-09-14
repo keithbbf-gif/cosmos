@@ -26,6 +26,9 @@ The name reaches for AGI. The file reaches for exams a person already sits. That
 </figure>
 
 
+Because the items were written to discriminate humans, not to flatter a crawler — at least at birth. Because the public already believes those exams measure something. Because MMLU’s subject pile and these entrance packets overlap in spirit and differ in editorial origin. Zhong’s group wanted a “human-centric” set: tests that institutions already used on people.
+
+The vice is the same as MMLU’s vice, louder: these exams are everywhere. Prep books, dumps, forums. A model that has seen the SAT packet is not a student who “beat the SAT.” It is a student who may have seen the SAT. Date the form. Prefer official evaluation protocols that try to avoid the most famous reprints.
 
 ## Languages and cultures
 
@@ -37,6 +40,7 @@ The name reaches for AGI. The file reaches for exams a person already sits. That
 </figure>
 
 
+Gaokao items are not SAT items. A bilingual suite can hide a collapse on one exam inside an average. Report the exam name. The human-centric claim is also culture-centric: these are particular countries’ gates. They encode those countries’ curricula and those professions’ ideas of readiness.
 
 ## An item in the hand
 

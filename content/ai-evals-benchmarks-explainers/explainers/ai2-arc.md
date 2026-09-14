@@ -26,6 +26,9 @@ The paper’s taunt is in the title. SQuAD-style pointing had started to look so
 </figure>
 
 
+The authors split the set. **ARC-Easy** is the door most retrieval-and-overlap systems could already open. **ARC-Challenge** is the door they could not: items that a simple information-retrieval baseline missed. The Challenge set is the one later harnesses mean when they say “ARC” in an open-LLM table — except when they do not, and mix Easy in, and look braver than they are.
+
+Say Challenge. Say Easy. Do not say ARC without a modifier if you can help it. And do not say ARC if you mean François Chollet’s Abstraction and Reasoning Corpus. That collision has its own explainer: [ARC-AGI](arc-agi.md).
 
 ## What “reasoning” meant in 2018
 
@@ -37,6 +40,9 @@ The paper’s taunt is in the title. SQuAD-style pointing had started to look so
 </figure>
 
 
+It meant: the answer is not a span in a provided paragraph. You may need a science fact, a little causal structure, and the elimination of distractors written to trap a child. It did not mean formal logic. It did not mean graduate chemistry (that is closer to GPQA). It did not mean abstract grid puzzles (that is Chollet).
+
+The 2018 systems needed retrieval over a science corpus the authors provided. The 2023 chatbots need a forward pass. Same file, different student. A high ARC-Challenge accuracy today is expected. A low one is a smell, or a broken harness.
 
 ## An item in the hand
 

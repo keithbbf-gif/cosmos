@@ -26,6 +26,9 @@ The title is the warning. They did not only release a bench. They asked whether 
 </figure>
 
 
+Eighty questions, in the original write-up’s common telling, across categories (writing, roleplay, reasoning, math, coding, STEM, humanities, extraction — the paper’s table is the authority). Each is designed for two turns: a prompt and a follow-up that checks whether the system stayed coherent, corrected itself, or obeyed a twist. The “MT” is multi-turn. A one-shot MMLU item is not this sport.
+
+The candidate model answers. A judge model — in the original experiments, often a strong closed model — rates the answer, sometimes pairwise against another candidate, sometimes on a numeric scale. Human agreement studies are the paper’s other half: where the judge matches people, and where it does not.
 
 ## Where a judge goes blind
 
@@ -37,6 +40,9 @@ The title is the warning. They did not only release a bench. They asked whether 
 </figure>
 
 
+The paper and the follow-on literature are blunt about biases. Position bias: the reply that sits first (or second) wins too often. Verbosity bias: longer looks better. Self-enhancement: a family of models prefers its own cousins. A judge that cannot do the math problem cannot grade the math problem; it grades the vibe of the write-up.
+
+Zheng’s group measured some of this instead of denying it. That does not make MT-Bench a human preference study. It makes it a cheap approximation with published failure modes.
 
 ## A turn in the hand
 

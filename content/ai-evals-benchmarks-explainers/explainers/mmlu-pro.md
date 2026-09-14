@@ -26,6 +26,15 @@ The title uses a word this series otherwise bans as house style. It is their tit
 </figure>
 
 
+Three mechanical changes do most of the work.
+
+**More options.** Four choices become ten. Random accuracy collapses. Elimination strategies get more expensive. A model that was coasting on “not C or D” has more alphabet to fear.
+
+**Harder stems.** The paper describes a shift from knowledge-heavy items toward questions that want reasoning. Chain-of-thought, which was a mixed blessing on original MMLU, helps more here. That is a finding, not a slogan: if talking through the problem raises accuracy, the items were not only recall.
+
+**Cleaning.** Trivial and noisy MMLU questions get dropped. Anyone who has browsed the original file has met a stem that is ambiguous, dated, or just poorly written. Removing those is unglamorous and is the difference between a sequel and a remix.
+
+The public dataset card and the paper put the result in the twelve-thousand-question range across fourteen domains (biology, business, chemistry, computer science, economics, engineering, health, history, law, math, philosophy, physics, psychology, and an “other”). Use the paper’s counts when you need a number; do not invent a finer one.
 
 ## What they measured besides accuracy
 
@@ -37,6 +46,9 @@ The title uses a word this series otherwise bans as house style. It is their tit
 </figure>
 
 
+The authors ran many prompt styles and reported that scores moved less than on MMLU. Stability under prompting is a second-class metric that should be first-class. A benchmark that changes five points when you swap “Answer:” for “The answer is” is measuring your template library.
+
+They also reported a large accuracy drop relative to MMLU on the same models — the paper’s abstract gives a 16 to 33 percent band. That band is their measurement, dated to their runs. It is not a universal tax you can subtract from any later card.
 
 ## What it still is
 

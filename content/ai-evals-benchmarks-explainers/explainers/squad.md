@@ -26,6 +26,11 @@ For a few years this was the English question-answering yardstick the way ImageN
 </figure>
 
 
+The answer is in the paragraph. You do not need the rest of the web. You do not need to refuse. You need to highlight. That contract made scoring cheap and made the task smaller than “answering questions.” It is reading as pointing.
+
+F1 forgives a missing article. Exact match does not. Both will punish a correct answer that is not in the gold span list. Both will reward a model that copies a plausible noun phrase and gets lucky. The site’s live leaderboard (the original SQuAD site) made those numbers a sport.
+
+Human performance was estimated from overlapping annotations. When models passed that estimate, the sport needed a new rule.
 
 ## SQuAD 2.0, the unanswerable turn
 
@@ -37,6 +42,9 @@ For a few years this was the English question-answering yardstick the way ImageN
 </figure>
 
 
+Rajpurkar, Robin Jia, and Liang published “Know What You Don’t Know: Unanswerable Questions for SQuAD” at ACL 2018. Same paragraphs, new questions that look well-formed and have no span. A system that always points will be wrong on a large slice. The new headline is a blend of span accuracy and abstention.
+
+2.0 is the more honest instrument if you care about a reader who sometimes should shut up. It is still a paragraph game. Natural Questions (Kwiatkowski et al., 2019) later asked questions that started from real users, not from a worker reading a paragraph. That is a different door into QA. See [Natural Questions](natural-questions.md).
 
 ## An item in the hand
 

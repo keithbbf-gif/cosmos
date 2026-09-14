@@ -26,6 +26,19 @@ The paper did not claim to have measured intelligence. It claimed to have bundle
 </figure>
 
 
+The suite, as the paper presents it, is a mix of formats that were already respectable:
+
+- **CoLA** — acceptability judgments from Warstadt, Singh, and Bowman’s linguistic acceptability corpus. A sentence is grammatical enough, or it is not. Matthews correlation, because the classes are uneven.
+- **SST-2** — binary sentiment from Socher’s Stanford Sentiment Treebank, the movie-review sentences everyone had already used.
+- **MRPC** — paraphrase detection from Microsoft Research, Dolan and Brockett’s pairs.
+- **STS-B** — semantic textual similarity, a graded score, Pearson/Spearman instead of accuracy.
+- **QQP** — Quora question pairs: are these two questions the same ask?
+- **MNLI** — Williams, Nangia, and Bowman’s Multi-Genre Natural Language Inference. Entailment, contradiction, neutral; matched and mismatched genres. The heavy task.
+- **QNLI** — a question-answering inference recasting from SQuAD.
+- **RTE** — the old Recognizing Textual Entailment sets, smaller and meaner than MNLI.
+- **WNLI** — a Winograd-style recasting that became notorious for being small, leaky, and easy to overfit.
+
+The average of those scores is “the GLUE score.” The average is a political object. STS-B is a correlation. CoLA is a correlation. MNLI is accuracy. Adding them is a convenience. It worked because everyone agreed to be inconvenienced the same way.
 
 ## What the platform added
 
@@ -37,6 +50,9 @@ The paper did not claim to have measured intelligence. It claimed to have bundle
 </figure>
 
 
+GLUE was not only a zip file. It was a site, a diagnostic set, and a rule that the test labels stayed hidden. You submitted predictions. The server scored you. That pattern — hide the test, publish the average — is how you keep a little honesty when the training data is public. It is also how you create a priesthood of the submission script.
+
+The diagnostics (linguistic phenomena tagged on MNLI-style examples) were the authors trying to keep the suite from becoming a single number with no autopsy. People cited the number anyway.
 
 ## What it felt like to climb
 

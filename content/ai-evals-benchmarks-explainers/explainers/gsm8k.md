@@ -26,6 +26,9 @@ That sentence was always too large. The items are the word problems a careful ch
 </figure>
 
 
+A short story. Numbers. A question. A worked solution in the training split, written so a verifier has something to read. A final answer that can be checked as an integer (or a simple number) after normalization. The scorer is closer to code’s cheap judge than to BLEU: you can be wordy, you can be messy, and if the last number is right you often get the point.
+
+That last clause is the leak in the metric. A model can babble and still land the integer. A model can reason cleanly and trip the parser. Harnesses that only regex the last number are measuring a mix of arithmetic and formatting compliance. Better harnesses are pickier. Name yours.
 
 ## Why verifiers were the paper’s idea
 
@@ -37,6 +40,9 @@ That sentence was always too large. The items are the word problems a careful ch
 </figure>
 
 
+Cobbe’s group did not only release a file. They trained models to solve and models to check solutions. The verifier story is an ancestor of later “let the model grade the model” and of process-versus-outcome reward talk. This explainer stays with the file because the file is what escaped.
+
+The file escaped because it was hard enough, in 2021, to make large models look uneven, and easy enough to understand that a journalist could reprint one problem. Multi-step word problems are a folk definition of reasoning. They are also a folk definition of what a textbook puts on page 47.
 
 ## An item in the hand
 

@@ -30,6 +30,11 @@ Calling one of these “real evaluation” and the other “fake” is a categor
 </figure>
 
 
+A file is good for localization. If two labs disagree about a HumanEval number, they can compare completions on problem 47. If MMLU’s anatomy subset moves and the law subset does not, that is a clue. HELM’s authors pushed this further: same scenarios, several metrics, raw completions released, so a third party can re-score.
+
+A file is also good for history. You can say, without theater, that SuperGLUE was published at NeurIPS 2019 because GLUE’s average had been climbed. You can say HumanEval appeared in the 2021 Codex paper as 164 handwritten Python problems. Those sentences stay true when the leaderboard of the week does not.
+
+The file’s vice is death by popularity. See [When the exam was in the library](contamination-and-leakage.md). Its other vice is the key. Exact match cannot see a correct proof written in a different algebra. BLEU cannot see a good translation that chose other words. A multiple-choice key cannot see that all four options are a little wrong.
 
 ## What a room is good for
 
@@ -41,6 +46,13 @@ Calling one of these “real evaluation” and the other “fake” is a categor
 </figure>
 
 
+A room is good for the thing a key cannot see: whether a person, today, likes the reply. That is not a small thing. Instruction-following, tone, refusal style, and the ability to stay useful across a messy prompt are poorly captured by MNLI. Zheng, Chiang, and colleagues had already published MT-Bench and an “LLM-as-a-judge” study (NeurIPS 2023). Arena is the human-vote sibling: no rubric except the user’s thumb.
+
+The ICML paper reported, at the time of writing, more than 240,000 votes, a claim that crowdsourced votes agreed reasonably with expert raters, and a statistical apparatus (Bradley-Terry style ranking, not a raw win rate). Those are public methodological claims. They are not a promise that the crowd is a philosopher.
+
+The room’s vice is the crowd. The people who show up to vote are not a census. They bring jailbreaks, homework, erotica, code, and jokes in proportions that no standards body chose. A model that is pleasant in that mixture can look “better” than a model that is more careful, or more boring, or better at a job the voters did not ask. Style wins votes. So does sycophancy. So does answering when a refusal was due.
+
+The room’s other vice is identity. LMSYS incubated the site. In September 2024 the collective announced a dedicated home at lmarena.ai. Later public materials say LMArena. The ICML paper still says Chatbot Arena and chat.lmsys.org. An explainer that pretends there was only one noun is doing marketing. An explainer that treats the rename as a different scientific object is doing confusion. It is the same social instrument growing a new URL.
 
 ## Judges that are not people
 

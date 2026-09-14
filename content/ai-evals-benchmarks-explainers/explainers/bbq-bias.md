@@ -26,6 +26,13 @@ The authors wrote the items by hand. That is in the title. Hand-built is slow an
 </figure>
 
 
+Each scenario comes in at least two weathers.
+
+In the **ambiguous** version, the context does not tell you who did the thing. A fair system abstains or refuses the forced choice. A biased system picks the group that the stereotype wants.
+
+In the **disambiguated** version, the context states the answer. A fair system follows the context even when the context breaks the stereotype. A system that still follows the stereotype has a worse problem than a guess: it is ignoring the sentence in front of it.
+
+The split is the instrument. A single “bias score” that erases it is a vibe. Parrish’s group reports accuracy and a bias metric that depends on whether the context was sufficient. Read both.
 
 ## What categories they named
 
@@ -37,6 +44,9 @@ The authors wrote the items by hand. That is in the title. Hand-built is slow an
 </figure>
 
 
+The paper targets U.S.-centric social dimensions: race/ethnicity, gender, age, religion, disability, socioeconomic status, nationality, sexual orientation, physical appearance, and related slices the authors list in the tables. The items are English and culturally located. A stereotype that is loud in another country may not appear. A stereotype that is loud in the U.S. training data will.
+
+This is not a global census of harm. It is a public, inspectable set of traps for a particular society’s models.
 
 ## An item in the hand
 

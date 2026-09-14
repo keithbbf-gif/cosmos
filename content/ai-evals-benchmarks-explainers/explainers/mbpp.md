@@ -26,6 +26,9 @@ Mostly basic is not an insult. It is the instrument. Short Python tasks, the sor
 </figure>
 
 
+HumanEval is 164 handwritten OpenAI problems with a docstring-first style. MBPP is a different editorial taste and a larger pile (the paper describes about a thousand problems, with a smaller sanitized subset that later cards prefer). If you only run HumanEval, you are sampling one lab’s interview voice. MBPP’s prompts are more often a sentence than a specification comment. That sounds like a small difference. It is the difference between “complete this stub” and “do what I said.”
+
+The Google paper is broader than the dataset. It studies synthesis with large models, few-shot prompting, and the usual sampling questions. The dataset outlived the rest of the paper in hallway speech because it was easy to run and easy to cite.
 
 ## Sanitized, few-shot, and the subset games
 
@@ -37,6 +40,9 @@ Mostly basic is not an insult. It is the instrument. Short Python tasks, the sor
 </figure>
 
 
+The version you should name is the subset. “Sanitized MBPP” drops items that were ugly or broken. Some harnesses use 500-ish test problems, a few-shot draw from a separate split, and a fixed prompt. Others zero-shot the whole thing. Those are not the same number.
+
+Because the problems are basic, the scores saturated earlier than anyone who wanted a frontier claim would like. That does not make MBPP useless. It makes it a regression test. If a new model falls over on “reverse a list” in plain English, you have learned something cheap and important.
 
 ## An item in the hand
 

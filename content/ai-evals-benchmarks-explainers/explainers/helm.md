@@ -26,6 +26,9 @@ The word in the title is the argument. Holistic, here, means: many scenarios, se
 </figure>
 
 
+Before HELM, the authors said, prominent models were evaluated on overlapping scraps. Their figure of merit is memorable: on average, models had been run on a small fraction of the scenarios HELM treated as core — the paper’s abstract gives 17.9 percent — and some well-known systems shared no scenario at all. You cannot compare what you did not run.
+
+The other diagnosis is the single number. Accuracy on a favorite file had become a worldview. HELM’s core design measures multiple desiderata on the same scenarios: accuracy, calibration, robustness (their word, in the paper), fairness, bias, toxicity, efficiency — seven metrics, sixteen core scenarios, as far as the data allowed. The paper’s own accounting is that this multi-metric grid was filled most of the time, not perfectly. Missing cells are part of the honesty.
 
 ## Scenarios, not a mascot task
 
@@ -37,6 +40,9 @@ The word in the title is the argument. Holistic, here, means: many scenarios, se
 </figure>
 
 
+A HELM scenario is a use case with a dataset and a metric adaptation: question answering, summarization, sentiment, information retrieval, toxicity detection, and others that were not, in 2022, on every model card. Targeted evaluations sit beside the core: knowledge, reasoning, memorization and copyright, disinformation. The taxonomy is the point. If a capacity is not in the taxonomy, the paper is supposed to say so, rather than let a GLUE average impersonate it.
+
+This makes HELM a poor mascot. There is no one “HELM score” the press can tattoo on a model. That is a defect if you are writing a tweet. It is the design if you are writing a paper about transparency.
 
 ## What they ran
 

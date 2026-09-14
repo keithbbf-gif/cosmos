@@ -26,6 +26,9 @@ David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe P
 </figure>
 
 
+A multiple-choice question at a graduate level of detail. Not “what is a mitochondrion.” Closer to a qualifier-exam probe, with distractors that look right to a person who almost remembers. The authors report expert and non-expert accuracies to show the gap. That gap is the benchmark’s reason to exist. If non-experts with Google catch up, the “proof” has failed. If experts disagree, the item is a bad exam question.
+
+**GPQA Diamond** is the subset the authors (and later cards) treat as cleaner: higher expert agreement, fewer messy items. If a card says GPQA and means Diamond, it should say Diamond. The full set and the diamond set are different denominators.
 
 ## Why Bowman is on this paper too
 
@@ -37,6 +40,7 @@ David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe P
 </figure>
 
 
+Samuel Bowman is also a GLUE and SuperGLUE author. The through-line is not a coincidence. GPQA is what you build when four-choice undergraduate exams (MMLU) have become too kind, and when you still want a file rather than a room. The NYU-and-friends taste is back: hidden hardship, a published protocol, a suspicion of easy numbers.
 
 ## An item in the hand
 

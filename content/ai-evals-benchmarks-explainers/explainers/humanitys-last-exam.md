@@ -26,6 +26,9 @@ The dare is: stop writing easier sequels to MMLU when the models have eaten MMLU
 </figure>
 
 
+A solicitation. Subject-matter experts submitted items. Editorial review tried to keep questions that are hard, unambiguous enough to score, and not a web snippet in disguise. Authorship was offered widely enough that the author list is a crowd. That crowd is part of the public record. It is also a reminder that Scale AI’s name is in the byline, not in a rumor. Conflicts of interest, if you care about them, start from the printed affiliations.
+
+Many items stay harder to crawl than a fully public worksheet. Hidden or gated slices are a contamination strategy. They are also a reproducibility tax. A second lab cannot casually re-score what it cannot see. The papers should be read as making that trade on purpose.
 
 ## What the hardship is
 
@@ -37,6 +40,9 @@ The dare is: stop writing easier sequels to MMLU when the models have eaten MMLU
 </figure>
 
 
+Expert-level academic questions across a wide subject list — the site and the papers give the distribution. Some are multiple choice. Some are short answer. The “last exam” metaphor is marketing and a thesis: if a model can do these, the next academic multiple-choice sequel is not where the field should live.
+
+You can accept the questions and reject the metaphor. There will be another exam. There always is. FrontierMath is already a different sequel in a different field. The value of HLE is the editorial bar and the expert labor, not the prophecy.
 
 ## An item you may not see
 
