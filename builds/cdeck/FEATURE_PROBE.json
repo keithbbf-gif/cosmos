@@ -2,13 +2,21 @@
  "label": "FEATURE_PROBE-ui-refresh-2026-09-14T12:27:28Z",
  "schema": "cosmos-cdeck-feature-probe/1",
  "ui_files": {
+  "app.css": {
+   "bytes": 1841,
+   "sha256": "f69e639ffe6467b8986300c25ba9b2fdff044c38342585374e07b28faad60075"
+  },
   "app.js": {
-   "bytes": 806,
-   "sha256": "36343c8d72a8846ca8d0be7d2d3cf937b0aec9260e1b046023ba4b1d3317fa5c"
+   "bytes": 10460,
+   "sha256": "64ff91d171be466de8c39ba58f343b8d4bb7523f8cffcadd94caa8c69c671ca3"
+  },
+  "cdeck.webmanifest": {
+   "bytes": 161,
+   "sha256": "d051eff9f1379b13c4d0b905366bd101b01d904bd696c818dbe67eda97707416"
   },
   "deck_forge.js": {
-   "bytes": 1772,
-   "sha256": "30a31c5399286f27442b3a790f9a9621ced7352c3d55ccdb4fb69fe224650dfa"
+   "bytes": 13360,
+   "sha256": "17bc57e2624bcfaf64b1a1151a4a4ed714185e3cf481b7f008edf79d125e4022"
   },
   "deck_more.css": {
    "bytes": 429,
@@ -22,10 +30,34 @@
    "bytes": 15707,
    "sha256": "02c2c94b293462ab05789988d134171be4cd868c15441b55765ccbd92a430ee1"
   },
+  "deck_tabs.js": {
+   "bytes": 3696,
+   "sha256": "a611a99fa9909724dab63d96df62203562f061dd13f9514100087a2a881e2de8"
+  },
   "header.css": {
-   "bytes": 688,
-   "sha256": "d5856f02849fc3f320f4196dd67f66f5893132463247af01ab83d3ffee63fad8"
+   "bytes": 1349,
+   "sha256": "7bb9ba7793232aa30b7ee5e0457e1dafb10f810da7a9a852d214b9e834ea27c9"
+  },
+  "header.js": {
+   "bytes": 10629,
+   "sha256": "855f6ad4434de1e94d2b0821cb680ffe2d231cbee2cbdb19f90fa7c1c101088a"
+  },
+  "index.html": {
+   "bytes": 4087,
+   "sha256": "8c49bbeef74e4aa0be3eedcde1a5194500dd4b0f361acea3700ce05e690ed6fc"
+  },
+  "kdash_native.js": {
+   "bytes": 182,
+   "sha256": "61e2b95c3718d141d4ead2687e366601bef27e5e9dfd8ec1290f969e6719025e"
+  },
+  "model_rater.js": {
+   "bytes": 1120,
+   "sha256": "d174630eafd55781dffaca5098920961309e6ed7d67825396008a341ae6e1061"
+  },
+  "sw.js": {
+   "bytes": 110,
+   "sha256": "c757468ce5f3ee6291f365997bda294121da86ec849386f92755ca00f45a7431"
   }
  },
- "ui_fingerprint_at": "2026-09-14T12:28:17Z"
+ "ui_fingerprint_at": "2026-09-14T19:59:16Z"
 }

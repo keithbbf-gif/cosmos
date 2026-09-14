@@ -136,11 +136,29 @@
       "<ul class=\"sys-list\">" + parts + "</ul>";
   }
 
+  function proofCell(r, ttl) {
+    var ps = r.proof_state != null ? String(r.proof_state) : "";
+    if (ps === "STALE") {
+      return '<span class="bad red">STALE</span>';
+    }
+    if (ps === "FRESH" || r.verified === true) {
+      return '<span class="ok">FRESH</span>';
+    }
+    if (ps === "FAILED" || r.verified === false) {
+      return '<span class="bad">FAIL</span>';
+    }
+    if (r.age_s != null && ttl != null && r.verified !== true && r.age_s > ttl) {
+      return '<span class="bad red">STALE</span>';
+    }
+    return '<span class="warn">UNMEASURED</span>';
+  }
+
   function renderRails(d) {
     var el = $("sys-rails");
     if (!el) return;
     d = d || {};
     var m = d.matrix || [];
+    var ttl = d.proof_ttl_s;
     if (m.length === 0) {
       el.innerHTML =
         '<h3 class="sys-hd">Rails</h3>' +
@@ -149,16 +167,18 @@
       return;
     }
     var rows = m.map(function (r) {
-      var v = r.verified;
-      var vCell = v === true ? '<span class="ok">✓</span>'
-        : v === false ? '<span class="bad">✗</span>'
-          : '<span class="warn">?</span>';
-      return "<tr><td>" + esc(r.link_id || r.rail || "?") + "</td><td>" + vCell + "</td></tr>";
+      var lid = r.link_id || r.rail || "?";
+      var model = r.model != null && String(r.model).trim() !== ""
+        ? esc(String(r.model))
+        : '<span class="dim">—</span>';
+      var rowCls = r.proof_state === "STALE" ? ' class="ncrow"' : "";
+      return "<tr" + rowCls + "><td>" + esc(lid) + "</td><td>" + model +
+        "</td><td>" + proofCell(r, ttl) + "</td></tr>";
     }).join("");
     el.innerHTML =
       '<h3 class="sys-hd">Rails</h3>' +
-      '<p class="dim tiny">GET /api/v1/rails</p>' +
-      '<div class="twrap"><table><thead><tr><th>link</th><th>verified</th></tr></thead><tbody>' +
+      '<p class="dim tiny">GET /api/v1/rails — model is vendor-emitted on live_call only</p>' +
+      '<div class="twrap"><table><thead><tr><th>link</th><th>model</th><th>proof</th></tr></thead><tbody>' +
       rows + "</tbody></table></div>";
   }
 
@@ -199,16 +219,35 @@
     var topo = d.topology || {};
     var nodes = topo.nodes || [];
     var reg = d.registry || {};
-    var mx = reg.matrix || [];
-    var nodeLines = nodes.slice(0, 16).map(function (n) {
-      return "<li>" + esc(n.id || n.name || "?") + "</li>";
+    var ttl = reg.proof_ttl_s;
+    var notes = d.independence_notes || [];
+    var noteHtml = notes.map(function (n) {
+      return '<p class="tiny dim">' + esc(n.note != null ? n.note : "") + "</p>";
+    }).join("");
+    if (nodes.length === 0) {
+      el.innerHTML =
+        '<h3 class="sys-hd">Nodemap</h3>' +
+        '<p class="dim tiny">GET /api/v1/nodemap</p>' +
+        '<div class="empty">no routing nodes reported</div>' +
+        noteHtml;
+      return;
+    }
+    var body = nodes.map(function (n) {
+      var id = n.id || n.name || "?";
+      var model = n.model != null && String(n.model).trim() !== ""
+        ? esc(String(n.model))
+        : '<span class="dim">—</span>';
+      var link = n.link_id != null ? esc(String(n.link_id)) : "—";
+      var rowCls = n.proof_state === "STALE" ? ' class="ncrow"' : "";
+      return "<tr" + rowCls + "><td>" + esc(id) + "</td><td>" + link +
+        "</td><td>" + model + "</td><td>" + proofCell(n, ttl) + "</td></tr>";
     }).join("");
     el.innerHTML =
       '<h3 class="sys-hd">Nodemap</h3>' +
       '<p class="dim tiny">GET /api/v1/nodemap</p>' +
-      '<p class="tiny">nodes ' + esc(String(nodes.length)) +
-      " · matrix " + esc(String(mx.length)) + "</p>" +
-      "<ul class=\"sys-list\">" + (nodeLines || "<li class=\"dim\">none</li>") + "</ul>";
+      noteHtml +
+      '<div class="twrap"><table><thead><tr><th>node</th><th>link</th><th>model</th><th>proof</th></tr></thead><tbody>' +
+      body + "</tbody></table></div>";
   }
 
   function paintSystemTab() {

@@ -35,6 +35,8 @@ def main() -> int:
     blob = css + "\n" + html + "\n" + js
     appjs = _read("app.js")
     tabsjs = _read("deck_tabs.js")
+    forgejs = _read("deck_forge.js")
+    nmp = (REPO / "cosmos_nodemap_panel.py").read_text(encoding="utf-8")
 
     check(
         "WINDOW: MESH and extra panes share the viewport; no vh floor clips the tab rail",
@@ -217,6 +219,48 @@ def main() -> int:
         "SYSTEM: 503 surfaces CDECK_PANEL_NOT_COMPOSED verbatim",
         "CDECK_PANEL_NOT_COMPOSED" in appjs,
         "503 string",
+    )
+
+    check(
+        "SYSTEM: rails table paints vendor model + STALE renders red (sgh-api row)",
+        "function proofCell" in appjs
+        and "vendor-emitted on live_call only" in appjs
+        and 'proof_state === "STALE"' in appjs
+        and "ncrow" in appjs,
+        "rails proof",
+    )
+    check(
+        "SYSTEM: nodemap paints SGH routing row from GET /api/v1/nodemap payload",
+        "independence_notes" in appjs
+        and "not independent" not in appjs
+        and "proofCell(n, ttl)" in appjs
+        and '<th>node</th><th>link</th><th>model</th>' in appjs,
+        "nodemap table",
+    )
+    check(
+        "FORGE: SGH node panel wired to GET /api/v1/nodemap (model + proof, not COMPETENCY.toml)",
+        "panel-forge-sgh" in forgejs
+        and 'apiGet("/api/v1/nodemap")' in forgejs
+        and "paintSghNode" in forgejs
+        and 'nodes[i].id === "SGH"' in forgejs
+        and "live_call only" in forgejs,
+        "forge sgh",
+    )
+    check(
+        "FORGE: independence note kept (SGH + GBW not independent checks)",
+        "independence_notes" in forgejs
+        and "notes[0].note" in forgejs
+        and "SGH (sgh-api) and GBW (gw-api)" in nmp,
+        "independence",
+    )
+
+    check(
+        "NODEMAP: registry entry maps SGH -> sgh-api with paid-rail note",
+        '"id": "SGH"' in nmp
+        and '"link_id": "sgh-api"' in nmp
+        and "spend_ok" in nmp
+        and "ROUTING_NODES" in nmp,
+        "nodemap panel",
     )
 
     failed = [r for r in RESULTS if not r[1]]

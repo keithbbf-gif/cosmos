@@ -28,6 +28,8 @@ body[data-orch-mode="home"] #orch-home { display: block; }
 .dot.g { color: #080; }
 .dot.r { color: #a00; }
 .ncrow .dot.r { color: #a00; }
+.bad.red, span.red { color: #a00; font-weight: 700; }
+.ncrow td { background: #fff5f5; }
 .nclabel { font-size: 10px; color: #a00; font-weight: 700; }
 .empty { color: #666; font-style: italic; }
 .kv { margin: 4px 0; }

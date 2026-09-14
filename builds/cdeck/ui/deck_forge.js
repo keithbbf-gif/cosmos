@@ -320,12 +320,76 @@
     });
   }
 
+  function _proofLabel(n, ttl) {
+    var ps = n.proof_state != null ? String(n.proof_state) : "";
+    if (ps === "STALE") return "STALE";
+    if (ps === "FRESH" || n.verified === true) return "FRESH";
+    if (n.age_s != null && ttl != null && n.verified !== true && n.age_s > ttl) {
+      return "STALE";
+    }
+    return ps || "UNMEASURED";
+  }
+
+  function paintSghNode(rec) {
+    var host = $("panel-forge");
+    if (!host) return;
+    var el = $("panel-forge-sgh");
+    if (!el) {
+      el = global.document.createElement("section");
+      el.id = "panel-forge-sgh";
+      el.className = "forge-block";
+      host.appendChild(el);
+    }
+    rec = rec || {};
+    var nodes = ((rec.topology || {}).nodes) || [];
+    var sgh = null;
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i] && nodes[i].id === "SGH") {
+        sgh = nodes[i];
+        break;
+      }
+    }
+    var ttl = (rec.registry || {}).proof_ttl_s;
+    var notes = rec.independence_notes || [];
+    var note = notes.length ? esc(String(notes[0].note || "")) : "";
+    if (!sgh) {
+      el.innerHTML =
+        '<h3 class="forge-hd">SGH node</h3>' +
+        '<p class="dim tiny">GET /api/v1/nodemap</p>' +
+        '<div class="empty">SGH routing row absent from Core nodemap</div>';
+      return;
+    }
+    var model = sgh.model != null && String(sgh.model).trim() !== ""
+      ? esc(String(sgh.model))
+      : '<span class="dim">—</span>';
+    var proof = _proofLabel(sgh, ttl);
+    var proofCls = proof === "STALE" || proof === "FAIL" ? "bad red" : proof === "FRESH" ? "ok" : "warn";
+    el.innerHTML =
+      '<h3 class="forge-hd">SGH node</h3>' +
+      '<p class="dim tiny">GET /api/v1/nodemap · link ' + esc(String(sgh.link_id || "sgh-api")) + "</p>" +
+      (note ? '<p class="tiny dim">' + note + "</p>" : "") +
+      '<dl class="kv">' +
+      "<dt>model</dt><dd>" + model + " <span class=\"dim\">(live_call only)</span></dd>" +
+      "<dt>proof</dt><dd class=\"" + proofCls + "\">" + esc(proof) + "</dd>" +
+      "<dt>role</dt><dd>" + esc(sgh.role != null ? sgh.role : "web-research") + "</dd>" +
+      "</dl>";
+  }
+
+  function refreshSghNode() {
+    return apiGet("/api/v1/nodemap").then(function (rec) {
+      paintSghNode(rec);
+      return rec;
+    });
+  }
+
   function refresh() {
     return apiGet("/api/v1/model_rater")
       .then(function (snap) {
         paintFromSnapshot(snap);
         return refreshPorosity().then(function (por) {
-          return { snapshot: snap, porosity: por };
+          return refreshSghNode().then(function (nm) {
+            return { snapshot: snap, porosity: por, nodemap: nm };
+          });
         });
       })
       .catch(function (e) {
@@ -342,6 +406,7 @@
   var DeckForge = {
     refresh: refresh,
     refreshPorosity: refreshPorosity,
+    refreshSghNode: refreshSghNode,
     assign: assign,
     addAdversary: addAdversary,
     removeAdversary: removeAdversary,
@@ -350,6 +415,7 @@
     paintAdv: paintAdv,
     paintJob: paintJob,
     paintPorosity: paintPorosity,
+    paintSghNode: paintSghNode,
   };
 
   global.DeckForge = DeckForge;
