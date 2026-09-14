@@ -162,6 +162,10 @@ async function main(): Promise<number> {
     });
     await check("session.read refuses a legal transcript", async () =>
       (await run("session.read", { id: "cow-leg1" }, fileEnv)).kind === "LEGAL_OMITTED");
+    await check("session.read treats truthy legal=1 as LEGAL_OMITTED", async () =>
+      (await run("session.read", { id: "cow-leg-n1" }, fileEnv)).kind === "LEGAL_OMITTED");
+    await check("session.read treats truthy legal string as LEGAL_OMITTED", async () =>
+      (await run("session.read", { id: "cow-leg-str" }, fileEnv)).kind === "LEGAL_OMITTED");
     await check("session.read of an unknown id is NOT_FOUND", async () =>
       (await run("session.read", { id: "cow-nope" }, fileEnv)).kind === "NOT_FOUND");
     await check("mutated bytes under a good sidecar refuse HASH_MISMATCH", async () =>
@@ -180,8 +184,8 @@ async function main(): Promise<number> {
       (hit.gate.hits as Array<{ id: string; excerpt: string }>)[0].id === "cow-abc" &&
       (hit.gate.hits as Array<{ excerpt: string }>)[0].excerpt.includes("hello from plumbing"));
     await check("session.search skips legal and reports the omitted count", () =>
-      hit.gate.legal_omitted === 1 && hit.gate.n_scanned === 2 &&
-      !JSON.stringify(hit.gate.hits).includes("cow-leg1"));
+      hit.gate.legal_omitted === 3 && hit.gate.n_scanned === 2 &&
+      !JSON.stringify(hit.gate.hits).match(/cow-leg/));
     await check("session.search misses cleanly (zero hits is not an error)", async () => {
       const miss = await run("session.search", { query: "zzz-no-such-token" }, fileEnv);
       return miss.ok && miss.gate.n_hits === 0;

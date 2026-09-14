@@ -72,6 +72,13 @@ def main() -> int:
         + lines[1:])
     _write(TRANSCRIPTS / "cow-leg1.ctr.jsonl", legal)
 
+    for leg_id, legal_val in (("cow-leg-n1", 1), ("cow-leg-str", "marked")):
+        head_truthy = dict(head, id=leg_id, legal=legal_val, title="parked", stream="legal")
+        payload = b"\n".join(
+            [json.dumps(head_truthy, separators=(",", ":"), ensure_ascii=False).encode("utf-8")]
+            + lines[1:])
+        _write(TRANSCRIPTS / f"{leg_id}.ctr.jsonl", payload)
+
     # Tampered: a valid sidecar beside mutated bytes of the SAME length, so only
     # the sha catches it. Must refuse HASH_MISMATCH.
     _write(TAMPERED / "cow-tamper.ctr.jsonl", base.replace(b"cow-abc", b"cow-tamper"))
