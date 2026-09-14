@@ -33,12 +33,51 @@ BANNED_HEADING = re.compile(
 
 FOOTER_NEEDLE = "These materials do not diagnose, screen, or determine eligibility."
 
+PACK = "slpwow-free-resources-curriculum"
+
+REQUIRED_FRONT = {
+    "pack": PACK,
+    "status": "curriculum-briefs-wave-1",
+    "voice": "human",
+    "voice_check": "edited",
+    "lint": "check-curriculum",
+}
+
+BROCHURE = (
+    r"\bdelve\b",
+    r"\btapestry\b",
+    r"\bunlock(?:s|ing)?\b",
+    r"\bempower(?:s|ing)?\b",
+    r"\bin this article\b",
+    r"\blet's explore\b",
+    r"\bwellness journey\b",
+    r"\bmultifaceted\b",
+    r"\ba testament to\b",
+    r"\bplays a crucial role\b",
+    r"\bevidence-based magic\b",
+)
+
+FRONT_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.S)
+KEY_RE = re.compile(r"^([a-z_]+):\s*(.*)$")
+
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
 def fail(msg: str) -> None:
     print(f"FAIL  {msg}")
     raise SystemExit(1)
+
+
+def split_front(text: str) -> tuple[dict[str, str], str]:
+    m = FRONT_RE.match(text)
+    if not m:
+        fail("markdown missing YAML frontmatter (need voice_check: edited)")
+    data: dict[str, str] = {}
+    for line in m.group(1).splitlines():
+        km = KEY_RE.match(line)
+        if km:
+            data[km.group(1)] = km.group(2).strip().strip('"')
+    return data, m.group(2)
 
 
 def load_string_list(text: str, key: str) -> list[str]:
@@ -59,11 +98,33 @@ def check_files(required: list[str]) -> None:
     print(f"OK    required files ({len(required)})")
 
 
+def check_voice_frontmatter() -> None:
+    hits: list[str] = []
+    for path in sorted(ROOT.rglob("*.md")):
+        front, body = split_front(path.read_text(encoding="utf-8"))
+        for k, v in REQUIRED_FRONT.items():
+            if front.get(k) != v:
+                hits.append(
+                    f"{path.relative_to(ROOT)}: frontmatter {k}={front.get(k)!r} want {v!r}"
+                )
+        if not front.get("doc"):
+            hits.append(f"{path.relative_to(ROOT)}: missing doc key")
+        scan = body
+        scan = re.sub(r"“[^”]*”", " ", scan)
+        scan = re.sub(r'"[^"]*"', " ", scan)
+        for pat in BROCHURE:
+            if re.search(pat, scan, re.I):
+                hits.append(f"{path.relative_to(ROOT)}: brochure voice / {pat}")
+    if hits:
+        fail("voice / frontmatter:\n  " + "\n  ".join(hits))
+    print(f"OK    voice_check edited on all markdown ({len(list(ROOT.rglob('*.md')))})")
+
+
 def check_links() -> int:
     broken = []
     n = 0
     for path in sorted(ROOT.rglob("*.md")):
-        text = path.read_text(encoding="utf-8")
+        _front, text = split_front(path.read_text(encoding="utf-8"))
         for _label, href in LINK_RE.findall(text):
             if href.startswith(("http://", "https://", "mailto:")):
                 continue
@@ -124,7 +185,8 @@ def check_claims_canon(guardrails: str) -> None:
 def check_heading_voice() -> None:
     hits = []
     for path in sorted(ROOT.rglob("*.md")):
-        for i, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        _front, body = split_front(path.read_text(encoding="utf-8"))
+        for i, line in enumerate(body.splitlines(), 1):
             if line.startswith("#") and BANNED_HEADING.search(line):
                 # Fence titles may name the forbidden act ("no diagnosis",
                 # "refuse a diagnosing report"). Product titles may not.
@@ -170,13 +232,20 @@ def main() -> None:
     required = load_string_list(manifest_text, "required_files")
     skus = load_string_list(manifest_text, "skus")
     check_files(required)
+    check_voice_frontmatter()
     check_links()
-    index_text = (ROOT / "INDEX.md").read_text(encoding="utf-8")
+    _idx_front, index_text = split_front((ROOT / "INDEX.md").read_text(encoding="utf-8"))
     check_index_points_at_law(index_text)
     check_skus(skus, index_text)
-    check_claims_canon((ROOT / "CLAIMS_GUARDRAILS.md").read_text(encoding="utf-8"))
+    _gr_front, guardrails = split_front(
+        (ROOT / "CLAIMS_GUARDRAILS.md").read_text(encoding="utf-8")
+    )
+    check_claims_canon(guardrails)
     check_heading_voice()
-    check_wordlist_seeds((ROOT / "briefs/word-lists.md").read_text(encoding="utf-8"))
+    _wl_front, wl_body = split_front(
+        (ROOT / "briefs/word-lists.md").read_text(encoding="utf-8")
+    )
+    check_wordlist_seeds(wl_body)
     print(
         f"PASS  slpwow-free-resources-curriculum  files={len(required)}  "
         f"skus={len(skus)}"

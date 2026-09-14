@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: briefs-word-lists
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Curriculum brief — Word lists (`WL`)
 
 **Format code:** `WL`

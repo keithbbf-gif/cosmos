@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: domains-language
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Domain brief — Language practice (`VOC`, `SYN`, `NAR`)
 
 **Domains:** `VOC` (words) · `SYN` (sentences / morphology practice) · `NAR` (telling)

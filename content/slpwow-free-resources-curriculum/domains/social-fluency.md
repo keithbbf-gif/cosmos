@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: domains-social-fluency
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Domain brief — Social communication and fluency-friendly pages (`SOC`, `FLU`, `AAC`)
 
 **Domains:** `SOC` · `FLU` · `AAC` (partner support lives here when it is not a speech-sound board)

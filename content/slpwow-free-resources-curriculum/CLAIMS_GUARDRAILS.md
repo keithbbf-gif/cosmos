@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: CLAIMS_GUARDRAILS
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # SLPWOW Claims Guardrails
 
 **Status:** canon for every free resource in this pack.
@@ -5,6 +14,8 @@
 **Binding rule:** if a sentence would not survive this file, it does not ship. Rewrite the sentence. Do not add a footnote to paper over it.
 
 This file is the claims authority for `content/slpwow-free-resources-curriculum/`. Age bands, format briefs, domain briefs, and the clinician PDF style guide all defer here. A pretty layout does not override a forbidden claim.
+
+Every markdown file in this pack carries YAML frontmatter with `voice: human` and `voice_check: edited` after an editor pass. `check_curriculum.py` enforces both.
 
 ## 1. What these materials are
 

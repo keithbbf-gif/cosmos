@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: PREPUBLISH
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # SLPWOW Free PDF — Prepublish checklist
 
 **Status:** gate. A page does not ship until every box is honest.

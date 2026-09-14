@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: FORMAT_SCOPE
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # SLPWOW Format Scope — Free Line
 
 **Status:** what we will and will not make in the first free wave.

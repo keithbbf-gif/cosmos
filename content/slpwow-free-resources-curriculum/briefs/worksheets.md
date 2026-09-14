@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: briefs-worksheets
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Curriculum brief — Worksheets (`WS`)
 
 **Format code:** `WS`

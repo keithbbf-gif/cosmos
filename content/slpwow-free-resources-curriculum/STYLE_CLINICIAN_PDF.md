@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: STYLE_CLINICIAN_PDF
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # SLPWOW Style — Clinician-Facing Free PDFs
 
 **Status:** visual and verbal style for every free PDF.

@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: briefs-printouts
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Curriculum brief — Printouts (`PO`)
 
 **Format code:** `PO`
@@ -6,7 +15,7 @@
 
 A printout is a **reference or setup page**. It hangs, sits on the table, or goes home as an idea sheet. The user is not “completing a test form.”
 
-If you added a 20-box grid the student must finish, you wrote a worksheet. Recode to `WS` or cut the grid.
+If a brief adds a 20-box grid the student must finish, you wrote a worksheet. Recode to `WS` or cut the grid.
 
 ## 1. Job, in one sentence
 

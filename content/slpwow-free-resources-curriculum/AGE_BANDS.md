@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: AGE_BANDS
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # SLPWOW Age Bands
 
 **Status:** design targets for the free curriculum.

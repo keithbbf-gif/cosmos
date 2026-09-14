@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: domains-phonological-awareness
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Domain brief — Phonological awareness and early print (`PA`)
 
 **Domain:** `PA`

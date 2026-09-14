@@ -1,3 +1,12 @@
+---
+pack: slpwow-free-resources-curriculum
+doc: domains-speech-sound
+status: curriculum-briefs-wave-1
+voice: human
+voice_check: edited
+lint: check-curriculum
+---
+
 # Domain brief — Speech-sound and pattern practice (`ART`, `PHN`)
 
 **Domains:** `ART` (clinician-named sound) · `PHN` (clinician-named pattern)
