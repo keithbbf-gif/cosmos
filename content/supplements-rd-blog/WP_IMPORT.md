@@ -4,7 +4,7 @@ Do not publish these posts live. Staging or a local import is the ceiling until 
 
 ## What you are importing
 
-Markdown drafts with YAML front matter under `articles/`. Sixteen posts plus this folder's index files. `INDEX.md`, `STYLE_GUIDE.md`, `CLAIMS_GUARDRAILS.md`, `BIBLIOGRAPHY.md`, and `PHOTO_NOTES.md` are editorial ops, not posts.
+Markdown drafts with YAML front matter under `articles/`. Forty posts plus this folder's ops files. `INDEX.md`, `MANIFEST.md`, `STYLE_GUIDE.md`, `CLAIMS_GUARDRAILS.md`, `BIBLIOGRAPHY.md`, and `PHOTO_NOTES.md` are editorial ops, not posts. Import in waves (see `INDEX.md`); do not dump forty drafts onto a live sitemap.
 
 ## Front matter → WP fields
 

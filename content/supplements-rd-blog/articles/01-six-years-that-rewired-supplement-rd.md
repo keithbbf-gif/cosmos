@@ -25,7 +25,7 @@ voice_check: human
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93).
 
-The last quiet month for this category was January 2020. Then demand, inspections, claims, and a few ingredients that sit halfway between food and drug all moved at once. This piece is the map. The other fifteen drafts in this pack stay on one seam each.
+The last quiet month for this category was January 2020. Then demand, inspections, claims, and a few ingredients that sit halfway between food and drug all moved at once. This piece is the map. The other drafts in this pack stay on one seam each. See `INDEX.md` / `MANIFEST.md`.
 
 ## What did not change
 
