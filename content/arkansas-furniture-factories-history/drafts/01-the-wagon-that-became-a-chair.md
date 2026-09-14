@@ -3,7 +3,7 @@ title: "The Wagon That Became a Chair"
 slug: the-wagon-that-became-a-chair
 status: draft
 voice_check: human
-word_count: 1486
+word_count: 1323
 dek: "Fort Smith learned furniture the hard way: when the trail west thinned, the same shops that had been building wagons turned their hardwood toward rooms."
 series: arkansas-furniture-factories-history
 topic: origins
