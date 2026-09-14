@@ -7,7 +7,8 @@ Gates this suite holds, each earned from a named failure class:
   * UNMEASURED is null, never 0 (Core down, no feed, a count Core did not send).
   * Legal is COUNTED, not opened - omission.opened is 0 by construction.
   * No fake ids - a blank/duplicate/mismatched row id is ID_UNSTABLE.
-  * One BOUND verb reports a real gate; the other seven refuse VERB_NOT_BOUND.
+  * Seven BOUND verbs report real gates; strip refuses VERB_NOT_BOUND; missing
+    path args refuse BAD_INPUT.
   * The shell is an exact-match allowlist - unknown and traversal are 404.
   * ADDITIVE: cDeck's Sessions route and UI allowlist are still intact, and
     nothing in cosmos/ or builds/session-tools/ depends on this app.
@@ -241,14 +242,18 @@ def t_registry_names_the_whole_set():
     names = [v["verb"] for v in reg["verbs"]]
     return (names == ["scan", "load", "convert", "migrate", "diff", "check",
                       "anonymize", "strip"]
-            and reg["n_verbs"] == 8 and reg["n_bound"] == 1)
+            and reg["n_verbs"] == 8 and reg["n_bound"] == 7)
 
 
-def t_declared_verbs_refuse():
-    return (refuses("VERB_NOT_BOUND", lambda: sverbs.run("load", store=FIX))
-            and refuses("VERB_NOT_BOUND", lambda: sverbs.run("strip", store=FIX))
-            and refuses("UNKNOWN_VERB", lambda: sverbs.run("nope", store=FIX))
-            and refuses("NO_STORE", lambda: sverbs.run("scan")))
+def t_unknown_verb_refuses():
+    return refuses("UNKNOWN_VERB", lambda: sverbs.run("nope", store=FIX))
+
+
+def t_missing_path_args_are_bad_input():
+    return (refuses("BAD_INPUT", lambda: sverbs.run("load", store=FIX))
+            and refuses("BAD_INPUT", lambda: sverbs.run("scan"))
+            and refuses("BAD_INPUT", lambda: sverbs.run("diff"))
+            and refuses("BAD_INPUT", lambda: sverbs.run("check", check_what="catalog")))
 
 
 def t_scan_is_bound_end_to_end():
@@ -261,6 +266,56 @@ def t_scan_is_bound_end_to_end():
             and fam["family"] == "cowork" and fam["n"] == 2
             and fam["n_legal"] == 1 and rec["legal_omitted"] == 1
             and fam["sample_ids"][0] == "cow-abc")
+
+
+def t_load_is_bound_on_fixture():
+    rec = sverbs.run("load", store=FIX, rec_id="cow-abc")
+    gate = rec["gate"]
+    return (rec["status"] == "BOUND" and rec["kind"] == "OK"
+            and gate["id"] == "cow-abc" and gate["n_turns"] >= 1
+            and gate["schema"] == "cosmos-transcript/1")
+
+
+def t_convert_is_bound_on_fixture():
+    td = Path(tempfile.mkdtemp(prefix="sa_cv_"))
+    rec = sverbs.run("convert", store=FIX, rec_id="cow-abc", out_dir=td)
+    return rec["status"] == "BOUND" and rec["gate"]["spans_ok"] is True
+
+
+def t_diff_is_bound_on_fixture():
+    td = Path(tempfile.mkdtemp(prefix="sa_df_"))
+    sverbs.run("convert", store=FIX, rec_id="cow-abc", out_dir=td)
+    p = td / "cow-abc.ctr.jsonl"
+    rec = sverbs.run("diff", left=p, right=p)
+    return (rec["status"] == "BOUND" and rec["gate"]["n_turns_delta"] == 0
+            and rec["gate"]["left_sha"] == rec["gate"]["right_sha"])
+
+
+def t_check_catalog_is_bound():
+    rec = sverbs.run("check", check_what="catalog", check_path=FIX)
+    return rec["status"] == "BOUND" and rec["kind"] == "VERIFIED" and rec["gate"]["n"] == 2
+
+
+def t_anonymize_is_bound_on_grok_fixture():
+    td = Path(tempfile.mkdtemp(prefix="sa_an_"))
+    gid = "grok-aaaa1111-bbbb-cccc-dddd-eeeeeeeeeeee"
+    rec = sverbs.run("anonymize", store=FIX / "grok", rec_id=gid, out_dir=td)
+    return rec["status"] == "BOUND" and rec["gate"]["n_redactions"] >= 1
+
+
+def t_migrate_dry_run_is_bound():
+    td = Path(tempfile.mkdtemp(prefix="sa_mg_"))
+    td.mkdir(parents=True, exist_ok=True)
+    gid = "grok-aaaa1111-bbbb-cccc-dddd-eeeeeeeeeeee"
+    rec = sverbs.run(
+        "migrate", store=FIX / "grok", rec_id=gid,
+        workspace_id="ws-test", directory=td, dry_run=True)
+    return (rec["status"] == "BOUND" and rec["kind"] == "DRY_RUN"
+            and rec["gate"]["n_turns"] >= 1)
+
+
+def t_strip_pin_refuses():
+    return refuses("VERB_NOT_BOUND", lambda: sverbs.run("strip", store=FIX))
 
 
 def t_app_does_not_shadow_the_suite():
@@ -371,7 +426,7 @@ def t_shell_and_api_end_to_end():
 
         code, _h, raw = _get(a.port, "/api/verbs")
         vrec = json.loads(raw)
-        verbs_ok = code == 200 and vrec["n_bound"] == 1 and vrec["store_declared"]
+        verbs_ok = code == 200 and vrec["n_bound"] == 7 and vrec["store_declared"]
 
         code, _h, raw = _get(a.port, "/api/verbs/scan")
         srec = json.loads(raw)
@@ -474,9 +529,17 @@ CHECKS = (
     ("Core down is CORE_UNREACHABLE", t_core_down_is_unreachable_not_empty),
     ("Core 401 is CORE_REFUSED", t_core_401_is_refused),
     ("absent token is None", t_token_absent_is_none_not_a_crash),
-    ("registry names all 8 verbs, 1 bound", t_registry_names_the_whole_set),
-    ("DECLARED verbs refuse", t_declared_verbs_refuse),
+    ("registry names all 8 verbs, 7 bound", t_registry_names_the_whole_set),
+    ("unknown verb refuses", t_unknown_verb_refuses),
+    ("missing path args are BAD_INPUT", t_missing_path_args_are_bad_input),
     ("scan BOUND end-to-end on the fixture", t_scan_is_bound_end_to_end),
+    ("load BOUND on the fixture", t_load_is_bound_on_fixture),
+    ("convert BOUND on the fixture", t_convert_is_bound_on_fixture),
+    ("diff BOUND on the fixture", t_diff_is_bound_on_fixture),
+    ("check catalog BOUND", t_check_catalog_is_bound),
+    ("anonymize BOUND on grok fixture", t_anonymize_is_bound_on_grok_fixture),
+    ("migrate dry_run BOUND", t_migrate_dry_run_is_bound),
+    ("strip VERB_NOT_BOUND pin", t_strip_pin_refuses),
     ("app does not shadow session-tools", t_app_does_not_shadow_the_suite),
     ("timeline NO_SOURCE is n null", t_timeline_no_source_is_null_not_zero),
     ("timeline measured empty is n 0", t_timeline_measured_empty_is_zero),

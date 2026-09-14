@@ -128,16 +128,61 @@ class App:
         rec["store_declared"] = self.store is not None
         return 200, rec
 
+    def _verb_refusal_code(self, kind: str) -> int:
+        return 400 if kind == "BAD_INPUT" else 409
+
+    def _query_one(self, q: dict, key: str) -> str | None:
+        vals = q.get(key)
+        if not vals:
+            return None
+        return vals[0]
+
+    def _query_bool(self, q: dict, key: str) -> bool:
+        v = self._query_one(q, key)
+        if v is None:
+            return False
+        return str(v).lower() in ("1", "true", "yes", "on")
+
+    def api_verb(self, name: str, q: dict | None = None) -> tuple[int, dict]:
+        """Run one BOUND verb. Path args come from query + serve-time defaults."""
+        q = q or {}
+        store_raw = self._query_one(q, "store") or self.store
+        store = Path(store_raw) if store_raw else None
+        fams = q.get("family") or q.get("families")
+        try:
+            rec = verbs.run(
+                name,
+                store=store,
+                root=self._query_one(q, "root") or self.root,
+                families=fams,
+                rec_id=self._query_one(q, "id"),
+                out_dir=Path(v) if (v := self._query_one(q, "out_dir")) else None,
+                force=self._query_bool(q, "force"),
+                left=Path(v) if (v := self._query_one(q, "left")) else None,
+                right=Path(v) if (v := self._query_one(q, "right")) else None,
+                check_what=self._query_one(q, "what"),
+                check_path=Path(v) if (v := self._query_one(q, "path")) else None,
+                chair=self._query_one(q, "chair"),
+                workspace_id=self._query_one(q, "workspace_id"),
+                directory=Path(v) if (v := self._query_one(q, "directory")) else None,
+                migrate_out=Path(v) if (v := self._query_one(q, "out")) else None,
+                dry_run=self._query_bool(q, "dry_run"),
+            )
+            return 200, rec
+        except SessionsAppRefusal as e:
+            code = self._verb_refusal_code(e.kind)
+            extra = {"verb": name}
+            if store_raw:
+                extra["store"] = store_raw
+            return code, _refusal(e.kind, e, **extra)
+
     def api_verb_scan(self) -> tuple[int, dict]:
         if self.store is None:
             return 409, _refusal(
                 "NO_STORE",
                 "serve was started without --store; a browser does not supply a "
                 "filesystem path", verb="scan")
-        try:
-            return 200, verbs.run("scan", store=Path(self.store), root=self.root)
-        except SessionsAppRefusal as e:
-            return 409, _refusal(e.kind, e, verb="scan", store=self.store)
+        return self.api_verb("scan")
 
     def api_timeline(self) -> tuple[int, dict]:
         if self.root is None:
@@ -195,6 +240,11 @@ class App:
                     return self._send(*app_self.api_verbs())
                 if path == "/api/verbs/scan":
                     return self._send(*app_self.api_verb_scan())
+                if path.startswith("/api/verbs/"):
+                    verb_name = path[len("/api/verbs/"):].strip("/")
+                    if verb_name and "/" not in verb_name:
+                        q = parse_qs(parsed.query)
+                        return self._send(*app_self.api_verb(verb_name, q))
                 if path == "/api/timeline":
                     return self._send(*app_self.api_timeline())
                 return self._send(404, _refusal("NOT_FOUND", path))
@@ -281,6 +331,18 @@ def main(argv: list[str] | None = None) -> int:
             sp.add_argument("name")
             sp.add_argument("--store", default=None)
             sp.add_argument("--family", action="append", dest="families")
+            sp.add_argument("--id", dest="rec_id", default=None)
+            sp.add_argument("--out-dir", default=None)
+            sp.add_argument("--force", action="store_true")
+            sp.add_argument("--left", default=None)
+            sp.add_argument("--right", default=None)
+            sp.add_argument("--what", default=None, dest="check_what")
+            sp.add_argument("--path", default=None, dest="check_path")
+            sp.add_argument("--chair", default=None)
+            sp.add_argument("--workspace-id", default=None)
+            sp.add_argument("--directory", default=None)
+            sp.add_argument("--out", dest="migrate_out", default=None)
+            sp.add_argument("--dry-run", action="store_true")
         elif name == "serve":
             sp.add_argument("--host", default="127.0.0.1")
             sp.add_argument("--port", type=int, default=DEFAULT_PORT)
@@ -319,8 +381,24 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"  {v['status']:9s} {v['verb']:10s} {v['does']}")
             return 0
         if a.cmd == "verb":
-            rec = verbs.run(a.name, store=Path(a.store) if a.store else None,
-                            families=a.families, root=a.root)
+            rec = verbs.run(
+                a.name,
+                store=Path(a.store) if a.store else None,
+                families=a.families,
+                root=a.root,
+                rec_id=getattr(a, "rec_id", None),
+                out_dir=Path(a.out_dir) if getattr(a, "out_dir", None) else None,
+                force=getattr(a, "force", False),
+                left=Path(a.left) if getattr(a, "left", None) else None,
+                right=Path(a.right) if getattr(a, "right", None) else None,
+                check_what=getattr(a, "check_what", None),
+                check_path=Path(a.check_path) if getattr(a, "check_path", None) else None,
+                chair=getattr(a, "chair", None),
+                workspace_id=getattr(a, "workspace_id", None),
+                directory=Path(a.directory) if getattr(a, "directory", None) else None,
+                migrate_out=Path(a.migrate_out) if getattr(a, "migrate_out", None) else None,
+                dry_run=getattr(a, "dry_run", False),
+            )
             print(json.dumps(rec, indent=2))
             return 0
         if a.cmd == "timeline":
