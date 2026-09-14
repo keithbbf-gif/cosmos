@@ -42,7 +42,7 @@ Dust is dark and it gets into every pore of a maple door across the shop. I sequ
 
 ## Slabs
 
-A walnut slab is a religion. I like a slab that is dried, flattened, and has a breadboard or a battens plan if it needs one. I do not like a slab that is a live-edge shrine with the pith in the middle and a river of epoxy because the check would not stop. Epoxy rivers are a product. They can be handsome. They are not “more honest.” They are a different honesty: we kept the crack and we filled it with a plastic.
+A walnut slab is a religion. I like a slab that is dried, flattened, and has a breadboard or a batten plan if it needs one. I do not like a slab that is a live-edge shrine with the pith in the middle and a river of epoxy because the check would not stop. Epoxy rivers are a product. They can be handsome. They are not “more honest.” They are a different honesty: we kept the crack and we filled it with a plastic.
 
 Nakashima’s eye is cited too often by people who did not take his care with the board. The care is the selection and the support, not the leftover bark. Bark is a pest hotel and a finish problem. I remove most of it. I leave a live edge when the edge is a good line. I do not leave rot.
 

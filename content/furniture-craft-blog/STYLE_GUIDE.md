@@ -1,7 +1,7 @@
 # Style Guide — Furniture Craft Blog Pack
 
 **Status:** working house rules for this folder only.  
-**Voice check:** every draft ships `voice_check: human` only after a pass that kills the banned list.
+**Voice check:** drafters set `voice_check: human` after self-edit (banned list). Editor agent sets `voice_check: edited` after grammar QA; see `EDITOR_REPORT.md`.
 
 This pack is magazine writing for people who already take furniture seriously, and for readers who want to. It is not a DIY funnel, not a product grid, and not a keyword farm. Soft brand home is Arkansas hardwood country — Warren and Wilmar, Bradley County — usable later by Bradley Brand Furniture, Saline River Workshop, or the mill-heritage story. The writing stands without the brand. The brand, if it appears, is a place and a shop, not a slogan.
 
@@ -91,7 +91,7 @@ optional_links: footnote-only, or omit
 verify: list of claims still open
 ```
 
-`status` stays `draft` in this pack. An editor agent will QA grammar and style after drafting. Do not mark a piece `ready` here.
+`status` stays `draft` in this pack. After editor QA, `voice_check: edited` — still not `ready` until shop verify and graphics merge. Do not mark a piece `ready` here.
 
 ## WordPress
 

@@ -64,7 +64,7 @@ Fasteners: you still slot the breadboard. Quartered is not “no movement.” It
 
 ## Arkansas oak, without a brochure
 
-This county grew and cut oak. The Saline bottoms and the upland stands are not one oak. The furniture stock that left Warren in the mill century included hardwoods that other towns wanted for floors and chairs and millwork. [VERIFY] product lists against Bradham and the Encyclopedia; the brand heritage page already walks carefully.
+This county grew and cut oak. The Saline bottoms and the upland stands are not one oak. The furniture stock that left Warren in the century of mill work included hardwoods that other towns wanted for floors and chairs and millwork. [VERIFY] product lists against Bradham and the Encyclopedia; the brand heritage page already walks carefully.
 
 What I can say from the bench: the oak that arrives here now is a mix of regional and not, kiln-dried to a number I still meter. A romantic “local quartered” board that is still wet is a worse board than an honest flatsawn board at 7 percent. [VERIFY] the number against the meter and the house target. Moisture beats a sawing story.
 
