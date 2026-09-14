@@ -4,7 +4,7 @@ slug: american-morris-chair
 chapter: 36
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1866–1912
 regions: London, Sussex, Eastwood, American trade
@@ -42,7 +42,7 @@ It was not a through-tenon sermon. It was a comfortable chair the firm could sel
 
 Stickley’s 1898 English trip (chapter 9) is often told as a pilgrimage. It was also a shopping trip. He saw shops that had already priced a moral. The Morris adjustable chair was one of the types an American factory could translate into quartersawn white oak without importing bobbin turning or Utrecht velvet. The translation is heavier. The arms become flat boards of radial oak (chapter 33). The posts take through-tenons (chapter 34). The back slats become five horizontals, or, in later spindle versions, a cage. The cushion becomes leather or canvas over rope or springs.
 
-Shop 2342 is the early thick one. Dalton’s and other documented examples give the arm at about 36 inches, shorter than the later 332’s 38. The tenons stand proud. The seat is a rope grid. The red box decal with *Als ik kan* sits under the left arm. Christie’s has catalogued a 2342 at 38 inches high, 31 wide, 36 deep. Those inches are a sitting machine, not a dining wall (chapter 31).
+Shop 2342 is the early thick one. Dalton’s and other documented examples give the arm at about 36 inches, shorter than the later 332’s 38. The tenons stand proud. The seat is a rope grid. The red box decal with *Als ik kan* sits under the left arm. Christie’s has cataloged a 2342 at 38 inches high, 31 wide, 36 deep. Those inches are a sitting machine, not a dining wall (chapter 31).
 
 Shop 332 is the later flat-arm slat Morris, about 1904 onward, still Eastwood, still adjustable, a little longer in the arm, a little more catalog-regular. Shop 369, about 1905–12, is the drop-arm spindle Morris: sides of spindles instead of slats, arms that slant, a back that still reclines. Shop 367 is a related spindle Morris. Shop 346 appears in later lists. The numbers matter because they are how Eastwood thought. Morris & Co. thought in a firm style and a fabric name. Stickley thought in a shop number you could telegraph.
 

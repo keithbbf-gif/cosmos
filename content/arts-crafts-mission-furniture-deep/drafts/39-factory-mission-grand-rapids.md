@@ -4,7 +4,7 @@ slug: factory-mission-grand-rapids
 chapter: 39
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1900–1916
 regions: Grand Rapids, Hastings, Holland
@@ -42,7 +42,7 @@ A November 1906 clipping still circulating in the Grand Rapids Public Library’
 
 Knockoff speed is the Grand Rapids skill this chapter has to name. A New York decorator’s Mission chair (chapter 6), an Eastwood shop number (chapter 11), a Limbert cutout from Holland (chapter 23) — any of them could be seen at a market, sketched, and translated into a suite a midwestern retailer could advertise by fall. The translation was not always theft of a shop mark. It was often theft of a silhouette: slat back, square post, leather seat, a stain that read fumed even when the ammonia never touched the board (chapter 35). Glue and dowel could imitate a through-tenon that never came through (chapter 34). A factory that already cut Eastlake incising in the 1870s (chapter 3) did not need a Ruskin seminar to cut a flat stretcher.
 
-Albert Stickley’s Stickley Brothers plant is the Grand Rapids case that still confuses collectors. Chapter 17 walks that factory. Here it is only a fact of the system: the 1908 *Quaint Furniture* catalogue, No. 30, offered to furnish a hall, a den, a dining room, a bedroom, a club, and a tap room in “this justly popular school of design.” That sentence is Grand Rapids talking. The school is popular. The assortment is complete. The plant is prepared. Quaint was Albert’s word. Mission was the word the *Record* used when it wanted a buyer to recognize the look without learning a brother’s trademark.
+Albert Stickley’s Stickley Brothers plant is the Grand Rapids case that still confuses collectors. Chapter 17 walks that factory. Here it is only a fact of the system: the 1908 *Quaint Furniture* catalog, No. 30, offered to furnish a hall, a den, a dining room, a bedroom, a club, and a taproom in “this justly popular school of design.” That sentence is Grand Rapids talking. The school is popular. The assortment is complete. The plant is prepared. Quaint was Albert’s word. Mission was the word the *Record* used when it wanted a buyer to recognize the look without learning a brother’s trademark.
 
 Charles P. Limbert’s Grand Rapids years, before the Holland plant took the cutout tables, belong to the same market calendar (chapter 23). So does the middle-market oak that Grand Rapids Bookcase and Chair, over in Hastings, sold as Lifetime — Cloister Styles in a catalog of about 1910–11 (chapter 24). Hastings is not Grand Rapids. It sold into the Grand Rapids system: buyers, finish names, a matching suite, a paper label. Michigan Chair Company, Grand Rapids Chair Company, Phoenix, and a dozen lesser marks added pages. The point is not a census. The point is that “factory Mission” is a trade category, not a single guilty plant.
 

@@ -4,7 +4,7 @@ slug: eighteen-ninety-eight-crossing
 chapter: 09
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1898–1900
 regions: England, Eastwood, Grand Rapids, Chicago

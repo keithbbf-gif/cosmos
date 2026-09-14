@@ -4,7 +4,7 @@ slug: what-america-did-with-ruskin
 chapter: 02
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1850s–1910
 regions: Boston, New York, Syracuse

@@ -4,7 +4,7 @@ slug: wilde-on-the-platform
 chapter: 05
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1882
 regions: New York, the lecture circuit, Leadville

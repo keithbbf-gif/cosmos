@@ -4,7 +4,7 @@ slug: byrdcliffe-benches
 chapter: 26
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1902–1905
 regions: Woodstock, New York

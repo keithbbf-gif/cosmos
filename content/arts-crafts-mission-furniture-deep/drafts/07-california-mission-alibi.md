@@ -4,7 +4,7 @@ slug: california-mission-alibi
 chapter: 07
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1894–1910
 regions: San Francisco, California, New York

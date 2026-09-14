@@ -4,7 +4,7 @@ slug: rose-valley-gothic-oak
 chapter: 27
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–1906
 regions: Rose Valley, Pennsylvania; Philadelphia

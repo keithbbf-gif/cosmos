@@ -4,7 +4,7 @@ slug: hardwood-towns-still-speak
 chapter: 44
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–present
 regions: Warren, southern hardwood towns, the shops that still cut oak

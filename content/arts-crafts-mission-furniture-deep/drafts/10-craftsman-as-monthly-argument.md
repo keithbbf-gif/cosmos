@@ -4,7 +4,7 @@ slug: craftsman-as-monthly-argument
 chapter: 10
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1901–1916
 regions: Eastwood, Syracuse, New York City

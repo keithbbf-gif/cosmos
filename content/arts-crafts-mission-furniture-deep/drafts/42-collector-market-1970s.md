@@ -4,7 +4,7 @@ slug: collector-market-1970s
 chapter: 42
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1972–1989
 regions: Princeton, New York, national auction rooms

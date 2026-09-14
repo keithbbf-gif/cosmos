@@ -4,7 +4,7 @@ slug: dard-hunter-year
 chapter: 21
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1904–1910
 regions: East Aurora, New York; Vienna

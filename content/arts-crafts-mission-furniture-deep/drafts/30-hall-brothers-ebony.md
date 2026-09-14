@@ -4,7 +4,7 @@ slug: hall-brothers-ebony
 chapter: 30
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1905–1913
 regions: Pasadena

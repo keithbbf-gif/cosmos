@@ -4,7 +4,7 @@ slug: stickley-before-the-magazine
 chapter: 08
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1858–1898
 regions: Osceola Wisconsin, Brandt Pennsylvania, Binghamton, Auburn, Eastwood Syracuse

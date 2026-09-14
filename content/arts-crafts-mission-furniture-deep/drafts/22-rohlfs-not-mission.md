@@ -4,7 +4,7 @@ slug: rohlfs-not-mission
 chapter: 22
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1887–1907
 regions: Buffalo, New York

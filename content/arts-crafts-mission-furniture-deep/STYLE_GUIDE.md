@@ -2,7 +2,7 @@
 title: Style Guide
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 ---
 
@@ -96,7 +96,7 @@ This is **Website-GC staged copy** for the BBF furniture lane. SEO lives in the 
 
 SEO does **not** live in a first paragraph that names every keyword. Do not write “Looking for authentic Mission furniture?” Do not append shop links. Bradley Brand Furniture, Arkansas hardwood, and any living manufacturer appear only in chapter 44, and then as **history of shops that still speak this language**, not as a catalog. Chapters 1–43 do not mention a living maker.
 
-`status` remains `staged` until Keith clears publish. `voice_check: human` on every file. `lane: bbf-furniture`.
+`status` remains `staged` until Keith clears publish. After the editor pass, `voice_check: edited` on every file (writer drafts used `human`). `lane: bbf-furniture`.
 
 ## Front matter
 
@@ -109,7 +109,7 @@ slug: ...
 chapter: 01
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: ...
 regions: ...

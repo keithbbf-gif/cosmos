@@ -4,7 +4,7 @@ slug: spindles-against-slats
 chapter: 38
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1900–1914
 regions: Oak Park, Eastwood, Grand Rapids

@@ -4,7 +4,7 @@ slug: mail-order-mission
 chapter: 40
 series: American Arts and Crafts / Mission Furniture
 status: staged
-voice_check: human
+voice_check: edited
 lane: bbf-furniture
 period: 1906–1918
 regions: Chicago, Buffalo, Ann Arbor, Jamestown

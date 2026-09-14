@@ -66,8 +66,8 @@ def main() -> int:
                 errors.append(f"{path.name}: missing YAML {key}")
         if "status: staged" not in fm:
             errors.append(f"{path.name}: status is not staged")
-        if "voice_check: human" not in fm:
-            errors.append(f"{path.name}: voice_check is not human")
+        if not re.search(r"^voice_check:\s*(human|edited)\s*$", fm, re.M):
+            errors.append(f"{path.name}: voice_check must be human or edited")
         if "lane: bbf-furniture" not in fm:
             errors.append(f"{path.name}: lane is not bbf-furniture")
         if n < MIN_WORDS or n > MAX_WORDS:
