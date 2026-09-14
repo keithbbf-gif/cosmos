@@ -5,6 +5,7 @@ title: What this collection cannot do
 stage: 5
 stage_name: comparative
 status: draft
+voice_check: edited
 sequence: 44
 jurisdictions: [east-asia]
 period: method
@@ -18,7 +19,7 @@ I have written forty-five drafts and I have not held most of the books. That is 
 
 **I cannot replace the books.** If you need the *Gangmu*, read a good edition with Unschuld’s dictionaries nearby. If you need *Donguibogam*, use a diplomatic print and a modern annotated translation, not my five-part summary. If you need JP 1, use the 1886 gazette extra. These files are a way to walk toward those objects without being lied to by plaques.
 
-**I cannot settle the dates that specialists still fight.** Li’s birth year. The 1596 habit. *Honzō wamyō*’s 918. The Goryeo emergency book’s 1236/1245. Kampo’s official return year. I left the fights on the page. A later editor who “cleans” them will have made the pile less true.
+**I cannot settle the dates that specialists still fight.** Li’s birth year. The 1596 habit. *Honzō wamyō*’s 918. The Goryeo emergency book’s 1236/1245 (see draft 32). Kampo’s official return year. I left the fights on the page. A later editor who “cleans” them will have made the pile less true.
 
 **I cannot do the languages at full strength.** I read the scholarship I could reach in English, and some in modern Chinese, Japanese, and Korean through encyclopedia and handbook entries. I did not sit for a month in the *sillok*, the *Tang huiyao*, or the Nakarai *kana*. A second pass that does not add that sitting is only another pass like this one.
 
@@ -30,23 +31,9 @@ I have written forty-five drafts and I have not held most of the books. That is 
 
 **I cannot finish.** Staging means `status: draft` stays until a human with the book in the room changes it. Promotion is not a software action. If this folder is merged into a tree and someone calls it done, they have misread the README.
 
-What I hope the pile *can* do is smaller.
-
-It can make a reader slower around the word *first*.
-
-It can make “pharmacopeia” a question instead of a filing stamp.
-
-It can keep Shennong off the byline, Li off the statue-only diet, Heo Jun off the UNESCO trumpet long enough to see a workshop, a reprint, a dock.
-
-It can keep Japan from being a fridge and Korea from being a derivative.
-
-It can leave medieval Japanese *honzō* and Goryeo ghost-titles thin, so the thinness is visible.
-
-It can refuse a dose.
-
 If you improve a file, improve it by going to the witness — the fragment, the colophon, the *sillok* line, the 1417 copy, the Jinling page — and by writing what you saw. Do not improve it by adding confidence. Confidence is the cheap reagent in this field. We already have too much of it.
 
-The last sentence is for the person who asked for quality over speed, a scholarly voice, a claims guard, and a staged pile of at least forty drafts. This is that pile. It is not a book. It is ready to be argued with.
+This pile is forty-five staged drafts, not a book. The fights over dates, custody, and genre are still on the page on purpose. A reader who needs closure should close the folder.
 
 ## Open questions
 

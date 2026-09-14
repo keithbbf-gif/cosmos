@@ -5,6 +5,7 @@ title: "Uibang yuchwi: the giant that waited"
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 35
 jurisdictions: [korea]
 period: joseon
@@ -24,9 +25,9 @@ The wait means the book’s public life is Seongjong’s, not only Sejong’s. P
 
 I will not claim, as some sentences do, that *Uibang yuchwi* is “the greatest quantity of East Asian medical information in a Korean work” as if I had weighed the information. It is very large. *Donguibogam* is smaller and later and more famous. Fame and size are different machines.
 
-For Japan, this title is not, in what I have read, a central Edo object. For China, it is sometimes a witness to Chinese texts in early recensions — the same fridge-logic as *Ishinpō*, at a different scale. I have not seen a Mayanagi-level study I can lean on. A second pass should ask Chinese editors whether they actually use the 1477 book that way.
+For Japan, this title is not, in what I have read, a central Edo object. For China, it is sometimes a witness to Chinese texts in early recensions — the same fridge-logic as *Ishinpō*, at a different scale. I have not seen a collation study of the 1477 print against Chinese witnesses that I can lean on. A second pass should ask Chinese editors whether they actually use the 1477 book that way.
 
-Why the file is short: I have not lived in the 266 *juan*. A honest staged draft can say the giant’s name, the dates of finish and print, the pairing with *hyangyak*, and the wait. It cannot give you a tour. Tours without residence are how giants become adjectives.
+Why the file is short: I have not lived in the 266 *juan*. An honest staged draft can say the giant’s name, the dates of finish and print, the pairing with *hyangyak*, and the wait. It cannot give you a tour. Tours without residence are how giants become adjectives.
 
 ## Open questions
 

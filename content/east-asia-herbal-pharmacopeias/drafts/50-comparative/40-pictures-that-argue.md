@@ -5,6 +5,7 @@ title: Pictures that argue
 stage: 5
 stage_name: comparative
 status: draft
+voice_check: edited
 sequence: 40
 jurisdictions: [east-asia]
 period: comparative

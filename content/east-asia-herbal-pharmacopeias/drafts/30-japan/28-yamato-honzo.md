@@ -5,6 +5,7 @@ title: Kaibara Ekiken's Yamato honzō
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 28
 jurisdictions: [japan]
 period: edo
@@ -14,7 +15,7 @@ voice: essay
 
 # Kaibara Ekiken's Yamato honzō
 
-Kaibara Ekiken 貝原益軒 (1630–1714), Fukuoka domain, Zhu Xi Confucian, writer of too many books, is the name on *Yamato honzō* 大和本草. The text is finished, in the usual account, in Hōei 5 (1708) and printed in 1709; the picture *juan* wait until 1715. Kyoto University’s copy notes those years on the prefaces and on the plates. I will use **1709/1715** as the public life of the book.
+Kaibara Ekiken 貝原益軒 (1630–1714), Fukuoka domain, Zhu Xi Confucian, writer of too many books, is the name on *Yamato honzō* 大和本草. The text is finished, in the usual account, in Hōei 5 (1708) and printed in 1709; the picture *juan* waits until 1715. Kyoto University’s copy notes those years on the prefaces and on the plates. I will use **1709/1715** as the public life of the book.
 
 What the book is: a Japanese-language encyclopedia of stuff, sixteen volumes plus appendices and pictures in the descriptions I have, that walks beside the *Gangmu* and also beside other Chinese *bencao*, and then puts in things Kaibara thinks are Japanese or otherwise unaccounted for. A *Dictionnaire historique du Japon* entry gives a breakdown — 772 from the *Gangmu*, 203 from other Chinese books, 358 “proper to Japan,” 29 from neither China nor Japan, total 1,362. Other summaries say 1,366. I will not pick a digit. The gesture is the fact: **a count that admits the Chinese rooms and then adds rooms with Japanese names.**
 

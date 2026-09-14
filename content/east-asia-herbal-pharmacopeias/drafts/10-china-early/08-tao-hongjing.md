@@ -5,6 +5,7 @@ title: Tao Hongjing and the collected commentaries
 stage: 1
 stage_name: china-early
 status: draft
+voice_check: edited
 sequence: 8
 jurisdictions: [china]
 period: six-dynasties

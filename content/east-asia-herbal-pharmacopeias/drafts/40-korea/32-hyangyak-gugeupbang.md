@@ -5,6 +5,7 @@ title: Hyangyak gugeupbang
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 32
 jurisdictions: [korea]
 period: goryeo
@@ -20,9 +21,9 @@ That custody sentence should stay loud. **The oldest Korean medical book survive
 
 What the book is, as described:
 
-Three *gwon* in one volume, movable type in the 1417 story. Emergency prescriptions arranged by problem, including women’s and children’s sections, swellings, wind, madness, fevers, headache, and then — this is why it is in a pharmacopeia folder — notes on how to take drugs, on incompatibilities, and an appended list of the local botanicals used in the formulas, with vernacular names. The *hyangmyeong* are written in the *idu* / loan-graph practices of the time, which makes the book a language witness as well as a medical one. Linguists have been here. I will not pretend to be one. I will say: **the vernacular name is doing the same work Fukane’s *wamyō* did, in a poorer, more urgent genre.** Not a court dictionary. A book for when you cannot get the Chinese article and someone is already sick.
+Three *gwon* in one volume, movable type in the 1417 story. Emergency prescriptions arranged by problem, including women’s and children’s sections, swellings, wind, madness, fevers, headache, and then — this is why it is in a pharmacopeia folder — notes on administration and incompatibilities (not reproduced here), and an appended list of the local botanicals used in the formulas, with vernacular names. The *hyangmyeong* are written in the *idu* / loan-graph practices of the time, which makes the book a language witness as well as a medical one. Linguists have been here. I will not pretend to be one. I will say: **the vernacular name is doing the same work Fukane’s *wamyō* did, in a poorer, more urgent genre.** Not a court dictionary. A book for when you cannot get the Chinese article and someone is already sick.
 
-1236 is a “around” date. You will also see 1245 in some English pages. I will stay with the Korean encyclopedia’s *circa* 1236 (Gojong 23) and mark the other year as a reminder that Goryeo dating in secondary English is sloppy.
+1236 is an approximate date. You will also see 1245 on some English pages. I will stay with the Korean encyclopedia’s *circa* 1236 (Gojong 23) and mark the other year as a reminder that Goryeo dating in secondary English is sloppy.
 
 The Tripitaka office as publisher is a fact I like and do not want to over-read. A state that is carving a Buddhist canon can also carve or set an emergency herbal. That does not make the herbal Buddhist. It makes the office a place that can print.
 

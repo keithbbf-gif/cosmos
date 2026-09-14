@@ -5,6 +5,7 @@ title: "Donguibogam: encyclopedia, not just a drug list"
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 36
 jurisdictions: [korea]
 period: joseon

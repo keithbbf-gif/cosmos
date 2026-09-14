@@ -5,6 +5,7 @@ title: Chen Cangqi's supplements
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 14
 jurisdictions: [china]
 period: tang
@@ -22,7 +23,7 @@ Why it matters anyway:
 
 **It names growth as a method.** *Shiyi* is not “a new system.” It is an admission that the state list is incomplete. After Chen, incompleteness is a genre. Zhao Xuemin will still be writing *shiyi* a thousand years later (draft 22), and he will mean it.
 
-**It is a quotation mine.** *Ishinpō*, the *Zhenglei* books, the *Gangmu* — they keep Chen’s sentences when they cannot keep Chen’s volume. Shang Zhijun’s modern collation (the 1983 Wannan mimeograph that later reprints depend on) is the working text I see cited. I have not checked Shang against the tanks item by item. A draft that says “Chen lists 692 drugs” is repeating a reconstruction’s count. Treat it that way.
+**It is a quotation mine.** *Ishinpō*, the *Zhenglei* books, the *Gangmu* — they keep Chen’s sentences when they cannot keep Chen’s volume. Shang Zhijun’s modern collation (the 1983 Wannan mimeograph that later reprints depend on) is the working text I see cited. I have not checked Shang against the quotation tanks, item by item. A draft that says “Chen lists 692 drugs” is repeating a reconstruction’s count. Treat it that way.
 
 **It experiments with function.** Handbook accounts say Chen grouped substances by what they were *for* — dispersing, attacking warmth, and so on — in a way later writers treat as an ancestor of functional classification. That is a big genealogical claim. I will say only: later people *used* him that way. Whether he “founded” a classification I leave open.
 

@@ -6,8 +6,10 @@ collection = "east-asia-herbal-pharmacopeias"
 status = "draft"
 essay_count_target = 40
 voice = "human-essay"
+voice_check = "edited"
 claims_guard = "strict"
 updated = "2026-09-14"
+editor_pass = "2026-09-14"
 
 [[essay]]
 id = "eahp-00"

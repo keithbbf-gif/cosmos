@@ -5,6 +5,7 @@ title: Mingyi bielu and the extra drugs
 stage: 1
 stage_name: china-early
 status: draft
+voice_check: edited
 sequence: 9
 jurisdictions: [china]
 period: six-dynasties

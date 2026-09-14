@@ -5,6 +5,7 @@ title: Tradition is not a pipeline
 stage: 0
 stage_name: frame
 status: draft
+voice_check: edited
 sequence: 4
 jurisdictions: [east-asia]
 period: method

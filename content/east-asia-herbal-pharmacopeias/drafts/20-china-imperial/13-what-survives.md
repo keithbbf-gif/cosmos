@@ -5,6 +5,7 @@ title: "What survives: Dunhuang, Japan, reconstruction"
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 13
 jurisdictions: [china, japan]
 period: tang-to-modern

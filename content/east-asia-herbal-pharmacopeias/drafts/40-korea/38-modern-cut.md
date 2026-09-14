@@ -5,6 +5,7 @@ title: Modern Korean pharmacopeias and the colonial cut
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 38
 jurisdictions: [korea]
 period: 20c
@@ -16,7 +17,7 @@ voice: essay
 
 The first *Korean Pharmacopoeia* (KP; then 대한약전, later 대한민국약전) is a 1958 book. That date sits in MFDS-facing literature and in comparative chapters on modern East Asian codes. It is five years after the PRC’s 1953 pharmacopeia and a long generation after Japan’s 1886 one. I will not turn the sequence into a race. I will turn it into a political fact: **Korea’s first modern national drug code is written after a colonial period in which “the official” had been Japanese.**
 
-The colonial cut, as medical historians of Korea have described it (I am leaning on *Korean Journal of Medical History* work on the 1930s–40s): the Government-General privileged Western-style medicine in the same spirit that Meiji Japan had privileged it at home. Traditional practitioners were pushed out of the official center. Textbooks and papers learned not to speak *hanui* as the future. Then the wars of the 1930s and early 1940s produced a shortage of drugs and of people. The same colonial state began to want Korean herbs, built herbal research capacity at Keijō Imperial University (1938 is the date I have seen for a large institute), and, between 1937 and 1942, compiled pharmacopeia-like standards for local plant and animal drugs *independently of the metropolitan JP* — that is the claim in the article I read. Newspapers rediscovered traditional medicine. A practitioner was appointed to a public hospital in 1934. Training slots opened. This is not a revival in the moral sense. It is **an instrumental rehabilitation under shortage**. I will not dress it as the empire’s apology.
+The colonial cut, as medical historians of Korea have described it (I am leaning on *Korean Journal of Medical History* work on the 1930s–40s): the Government-General privileged Western-style medicine in the same spirit that Meiji Japan had privileged it at home. Traditional practitioners were pushed out of the official center. Textbooks and papers learned not to speak *haneui* (韓醫) as the future. Then the wars of the 1930s and early 1940s produced a shortage of drugs and of people. The same colonial state began to want Korean herbs, built herbal research capacity at Keijō Imperial University (1938 is the date I have seen for a large institute), and, between 1937 and 1942, compiled pharmacopeia-like standards for local plant and animal drugs *independently of the metropolitan JP* — that is the claim in the article I read. Newspapers rediscovered traditional medicine. A practitioner was appointed to a public hospital in 1934. Training slots opened. This is not a revival in the moral sense. It is **an instrumental rehabilitation under shortage**. I will not dress it as the empire’s apology.
 
 After 1945 and the war that follows, the Republic of Korea writes KP 1 in 1958. Later revisions number up through KP 10 (2012) and KP 11 (2014) in the paper I used; those numbers will keep moving after this draft is stale. Beside KP sits the *Korean Herbal Pharmacopoeia* (KHP; 대한민국약전외한약(생약)규격집), a specification book for herbal articles not in the main code. That two-book structure is a claims-guard of its own: **the legal pharmacopeia and the herbal leftover list are allowed to be different objects.** Zhao Xuemin would recognize the gesture. The ministry would not thank me.
 
@@ -24,7 +25,7 @@ North Korea’s codes and the DPRK’s official herbal policy are a neighboring 
 
 Taiwan and Hong Kong, which keep their own modern pharmaceutical standards and their own Chinese-medicine regulatory worlds, appear in draft 43 as a reminder that “Chinese” modern codes are already plural. They are not Korean. They are part of the same twentieth-century decision: a nation-state wants a book a customs house can use.
 
-What the 1958 book is not: a hangul *Donguibogam*. It is a modern pharmacopeia in the Japanese-European-American genre, written in a country that also still trains *hanui* doctors. The coexistence is the Korean modern fact. I will not resolve it into “science versus tradition.” I will say the KP and the KHP are how a state now *points* at identity, and that *hyangyak*’s old problem — local, import, substitute, name — is still the problem inside the monographs.
+What the 1958 book is not: a hangul *Donguibogam*. It is a modern pharmacopeia in the Japanese-European-American genre, written in a country that also still trains *haneui* doctors. The coexistence is the Korean modern fact. I will not resolve it into “science versus tradition.” I will say the KP and the KHP are how a state now *points* at identity, and that *hyangyak*’s old problem — local, import, substitute, name — is still the problem inside the monographs.
 
 A second pass should open KP 1’s table of contents and count herbal articles against JP and ChP of the same decade. Until that table exists, “Korea modernized its herbs” is a slogan.
 

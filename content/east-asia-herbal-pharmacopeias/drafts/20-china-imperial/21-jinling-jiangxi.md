@@ -5,6 +5,7 @@ title: Jinling, Jiangxi, and the 1596 story
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 21
 jurisdictions: [china]
 period: ming
@@ -20,7 +21,7 @@ I was not at either press. What I trust enough to use:
 
 - Li dies in 1593 in the biographical tradition. The first print is tangled with that year. Unschuld’s project language sometimes says “first published in 1593.” UNESCO’s nomination treats the Jinling Wanli 21 book as the ancestor of later prints.
 - The Jinling book is described, in Chinese bibliographic essays, as a family-supervised cut that looks poor and travels badly. Sons’ names sit on the picture *juan*. Wang Shizhen’s preface is there. “Ancestor and scarce” is the tone.
-- The Jiangxi book is described as a six-month official project in 1603, prettier, and already introducing errors — a famous example being a slip that moves a phrase from one skin condition into another, so the indications change by typesetting. I have not seen the pages side by side. I have seen the example repeated by people who have. I treat it as a warning about recuts, not as a fact I personally collated.
+- The Jiangxi book is described as a six-month official project in 1603, prettier, and already introducing errors — a famous example being a slip that moves a phrase from one skin condition into another, so the monograph’s attributed uses change in the printed text by typesetting. I have not seen the pages side by side. I have seen the example repeated by people who have. I treat it as a warning about recuts, not as a fact I personally collated.
 - After Jiangxi, the “one ancestor, three lineages” talk begins: later Ming and Qing shops copy the official-looking book, not the ugly first one. Japanese Kan’ei-era prints sit in that later world.
 
 So where did 1596 come from? I do not have a single smoking colophon. It may be a conversion fudge, a catalog habit, a confusion with a later issue, or a round number that English writers liked. Until a second pass pins it, **do not use 1596 without a note**. If you need one year for a timeline, 1593 (Jinling) and 1603 (Jiangxi) do more honest work.

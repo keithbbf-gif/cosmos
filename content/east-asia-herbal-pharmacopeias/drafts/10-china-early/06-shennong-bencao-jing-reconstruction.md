@@ -5,6 +5,7 @@ title: The Shennong bencao jing reconstruction problem
 stage: 1
 stage_name: china-early
 status: draft
+voice_check: edited
 sequence: 6
 jurisdictions: [china]
 period: han-to-reconstruction

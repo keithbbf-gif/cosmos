@@ -5,6 +5,7 @@ title: "Zhenglei bencao: a private encyclopedia the state later ate"
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 17
 jurisdictions: [china]
 period: song

@@ -5,6 +5,7 @@ title: "After Heo Jun: vernacular, war, reprint"
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 37
 jurisdictions: [korea]
 period: late-joseon

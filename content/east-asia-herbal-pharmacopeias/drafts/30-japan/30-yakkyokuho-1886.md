@@ -5,6 +5,7 @@ title: The Japanese Pharmacopoeia of 1886 and the long exile of Kampo
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 30
 jurisdictions: [japan]
 period: meiji-to-20c
@@ -28,7 +29,7 @@ Exile is a relation. Kampo does not vanish in 1886. It loses the ministry’s vo
 
 Colonial aftershocks belong in draft 38. The JP and Japanese drug law become, in Korea under rule, the official. That is not this file’s story to finish. It is this file’s warning: **an 1886 book written to join a European club becomes, a generation later, someone else’s imposed standard.**
 
-I have not compared JP 1’s 468 titles to a Kampo prescription list. A useful second-pass table would do exactly that, and would also count how many of the 468 are plant drugs with Edo *honzō* names. Seventy-seven “European herbs” appears in one paper; I want a better count before I repeat it as fact.
+I have not compared JP 1’s 468 titles to a Kampo prescription list. A useful second-pass table would do exactly that, and would also count how many of the 468 are plant drugs with Edo *honzō* names. A count of seventy-seven “European herbs” appears in one paper; I want a better tally before I repeat it as fact.
 
 This is the end of the Japan stage’s arc: from a Tang textbook problem to a legal book that, for a while, does not want the textbook. The plants did not leave. The official genre did.
 

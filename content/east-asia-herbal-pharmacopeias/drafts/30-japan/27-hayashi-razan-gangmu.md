@@ -5,6 +5,7 @@ title: Hayashi Razan and the arrival of the Gangmu
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 27
 jurisdictions: [japan]
 period: edo

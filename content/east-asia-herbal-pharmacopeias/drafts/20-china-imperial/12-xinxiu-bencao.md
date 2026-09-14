@@ -5,6 +5,7 @@ title: "Xinxiu bencao: the Tang state's book"
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 12
 jurisdictions: [china]
 period: tang

@@ -5,6 +5,7 @@ title: Poison, dose, and the upper-drug problem
 stage: 5
 stage_name: comparative
 status: draft
+voice_check: edited
 sequence: 41
 jurisdictions: [east-asia]
 period: comparative
@@ -14,7 +15,7 @@ voice: essay
 
 # Poison, dose, and the upper-drug problem
 
-The three-grade machine (draft 07) wants a world in which the highest things are almost food and the lowest things are almost weapons. Clinics, if the later literature is any guide, do not live in that world. They live in a world where a “low” drug is the one you need and a “high” drug can still ruin a body. I am not going to prove that with case records. I am going to say that **the books know about danger and they do not always put danger where the moral scale puts it**.
+The three-grade machine (draft 07) wants a world in which the highest things are almost food and the lowest things are almost weapons. Clinics, if the later literature is any guide, do not live in that world. They live in a world where a “low” drug is the one you need and a “high” drug still carries no safety warranty in the grade system. I am not going to prove that with case records. I am going to say that **the books know about danger and they do not always put danger where the moral scale puts it**.
 
 Aconite (*fuzi* and its kin) is the example everyone uses, so I will use it and then get off it. Official and unofficial *bencao* keep it. They talk about processing. They talk about contraindication. They talk, sometimes, about deaths. They do not, in any sentence I will write, give you a method. Processing traditions exist because the raw object is dangerous. That sentence is allowed. A protocol is not.
 
@@ -42,7 +43,7 @@ If you came to this collection to learn how to use a dangerous plant, you have m
 
 ## Open questions
 
-- When do official Chinese *bencao* first give systematic incompatibility tables (*shibachi* / *shijiu* and the later *paozhi* warnings) as a closed list, and how do Korean and Japanese books carry those tables?
+- When do official Chinese *bencao* first give systematic incompatibility tables (*shibafan* 十八反 / *shijiuwei* 十九畏 and the later *paozhi* warnings) as a closed list, and how do Korean and Japanese books carry those tables?
 - How should a second pass talk about historical poisoning cases without turning them into folklore?
 
 ## Sources used

@@ -5,6 +5,7 @@ title: What a pharmacopeia is, and is not, in East Asia
 stage: 0
 stage_name: frame
 status: draft
+voice_check: edited
 sequence: 1
 jurisdictions: [east-asia]
 period: method
@@ -33,7 +34,7 @@ I will keep using “pharmacopeia” in titles when the draft is about official 
 
 There is a fifth object, and it causes trouble: **the reconstructed classic**. The *Shennong bencao jing* as we meet it is a later reconstruction from quotations, layered through Tao Hongjing and then through Song print. To call that reconstruction “the oldest Chinese pharmacopeia” is a sentence with three soft spots (oldest, Chinese, pharmacopeia). Drafts 05–07 live in those soft spots.
 
-Official versus unofficial is another trap. The Tang *Xinxiu bencao* was commissioned, staffed, and — in the usual account — promulgated as a standard for drug use. How far that standard reached, in a manuscript empire without print, is a separate question, and I do not have a census of provincial copies that would let me answer it. The Song *Kaibao* book is official *and* printed. Tang Shenwei’s *Zhenglei* is a private compilation that later official and commercial editions ran on. Li Shizhen’s *Gangmu* is a family-and-workshop encyclopedia that became, after print, more official than some official books. Liu Wentai’s 1505 color herbal *was* official and then was not printed, which is a useful reminder that “imperial” and “public” are not synonyms.
+Official versus unofficial is another trap. The Tang *Xinxiu bencao* was commissioned, staffed, and — in the usual account — promulgated, in the usual court account, as a palace standard for drug identity. How far that standard reached, in a manuscript empire without print, is a separate question, and I do not have a census of provincial copies that would let me answer it. The Song *Kaibao* book is official *and* printed. Tang Shenwei’s *Zhenglei* is a private compilation that later official and commercial editions ran on. Li Shizhen’s *Gangmu* is a family-and-workshop encyclopedia that became, after print, more official than some official books. Liu Wentai’s 1505 color herbal *was* official and then was not printed, which is a useful reminder that “imperial” and “public” are not synonyms.
 
 Japan and Korea add their own officialities. A Heian name-book compiled under an Engi-era order is official in one sense. A Joseon publication from the Jiphyeonjeon / royal medical office is official in another. A colonial-era standard written in a Japanese university laboratory in Keijō is official in a third, and it is not a Korean national pharmacopeia. Draft 38 will not let those collapse.
 

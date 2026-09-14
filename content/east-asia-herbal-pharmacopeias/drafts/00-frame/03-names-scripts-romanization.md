@@ -5,6 +5,7 @@ title: Names, scripts, romanization
 stage: 0
 stage_name: frame
 status: draft
+voice_check: edited
 sequence: 3
 jurisdictions: [east-asia]
 period: method

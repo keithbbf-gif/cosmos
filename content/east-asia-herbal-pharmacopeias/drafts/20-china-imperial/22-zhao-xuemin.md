@@ -5,6 +5,7 @@ title: Zhao Xuemin and the leftover drugs
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 22
 jurisdictions: [china]
 period: qing

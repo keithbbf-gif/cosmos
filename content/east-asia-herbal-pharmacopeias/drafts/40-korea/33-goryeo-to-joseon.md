@@ -5,6 +5,7 @@ title: From Goryeo lists to early Joseon compilations
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 33
 jurisdictions: [korea]
 period: late-goryeo-early-joseon

@@ -5,6 +5,7 @@ title: Shennong is a figure, not a byline
 stage: 1
 stage_name: china-early
 status: draft
+voice_check: edited
 sequence: 5
 jurisdictions: [china]
 period: legendary-to-han

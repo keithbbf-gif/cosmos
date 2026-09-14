@@ -5,6 +5,7 @@ title: How a Tang book became a Japanese problem
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 23
 jurisdictions: [japan]
 period: asuka-heian

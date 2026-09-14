@@ -5,6 +5,7 @@ title: Su Song and the illustrated classic
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 16
 jurisdictions: [china]
 period: northern-song

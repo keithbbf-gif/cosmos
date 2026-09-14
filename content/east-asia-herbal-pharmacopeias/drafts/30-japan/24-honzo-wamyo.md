@@ -5,6 +5,7 @@ title: "Honzō wamyō: naming as local knowledge"
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 24
 jurisdictions: [japan]
 period: heian

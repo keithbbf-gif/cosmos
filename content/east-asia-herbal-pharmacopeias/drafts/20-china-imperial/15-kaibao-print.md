@@ -5,6 +5,7 @@ title: "Kaibao: print arrives"
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 15
 jurisdictions: [china]
 period: northern-song

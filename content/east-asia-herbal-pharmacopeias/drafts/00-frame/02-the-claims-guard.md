@@ -5,6 +5,7 @@ title: The claims guard
 stage: 0
 stage_name: frame
 status: draft
+voice_check: edited
 sequence: 2
 jurisdictions: [east-asia]
 period: method
@@ -34,7 +35,7 @@ This collection will fail in a familiar way if it is not watched: a cautious par
 
 **Translation is a claim.** “Tonify,” “energy,” “preventive medicine,” “public health,” “natural history,” “science” — each of these English words smuggles a later system. I use them when a source already does, and I try to show the seam. *Qi* I leave as *qi* after the first gloss. “Eastern medicine” I treat as Heo Jun’s title strategy, not as a natural region.
 
-**I do not have the rooms.** I have not stood in the Imperial Household archives over the 1417 Korean reprint. I have not turned the Jinling *Gangmu*. I have not sat with the Nakarai *Ishinpō* beyond museum description. A cloud agent with a good library still has a body in one place. The guard includes that sentence, once, so I do not have to perform omniscience in every file.
+**I do not have the rooms.** I have not stood in the Imperial Household archives over the 1417 Korean reprint. I have not turned the Jinling *Gangmu*. I have not sat with the Nakarai *Ishinpō* beyond museum description. A writer working from library access alone still has a body in one place. The guard includes that sentence, once, so I do not have to perform omniscience in every file.
 
 When two specialists disagree — Li Shizhen’s birth year 1508 versus 1518; *Gangmu* print 1593 versus the popular 1596; *Honzō wamyō* “918” versus “Engi-era” — the disagreement stays in the draft. Resolving it with a coin toss would be faster. It would also be a lie about the state of the field.
 

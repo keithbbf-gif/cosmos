@@ -5,6 +5,7 @@ title: Li Shizhen without the statue
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 19
 jurisdictions: [china]
 period: ming

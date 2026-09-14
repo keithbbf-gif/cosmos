@@ -5,6 +5,7 @@ title: "Hyangyak: the local as a political category"
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 31
 jurisdictions: [korea]
 period: goryeo-joseon
@@ -20,7 +21,7 @@ Why a polity needs the word:
 
 Imported Chinese materia medica are expensive. They move through tribute, trade, and war. They are also, in the literate medical imagination, often the *right* thing — the monograph was written about a Sichuan or Jiangnan article, not about the plant on a Korean hillside. A kingdom that cannot always buy the right thing has three choices: do without, pretend the local is the same, or build a literature that says the local is good *as local*. Goryeo and early Joseon spend a remarkable amount of official paper on the third.
 
-That is not a folk revival. The books I will walk through — *Hyangyak gugeupbang*, the 1399 *jesaeng* compilation, the 1433 *jipseongbang* — are office products. They have editors with posts. They have print. They have, in the fifteenth century, a companion *monthly ordinance* for gathering. They sit next to the *Sejong silok* geography project. Suh’s “layers of the local” is the right suspicion: some “local” items are Chinese drugs that happen to be grown or substituted in Korea; some are Korean things given Chinese graphs; some are names that hide a chain of look-alikes.
+That is not a folk revival. The books I will walk through — *Hyangyak gugeupbang*, the 1399 *jesaeng* compilation, the 1433 *jipseongbang* — are office products. They have editors with posts. They have print. They have, in the fifteenth century, a companion *monthly ordinance* for gathering. They sit next to the *Sejong sillok* geography project. Suh’s “layers of the local” is the right suspicion: some “local” items are Chinese drugs that happen to be grown or substituted in Korea; some are Korean things given Chinese graphs; some are names that hide a chain of look-alikes.
 
 Two refusals.
 

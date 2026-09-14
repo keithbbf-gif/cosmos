@@ -5,6 +5,7 @@ title: Tribute, trade, and the drug as object
 stage: 5
 stage_name: comparative
 status: draft
+voice_check: edited
 sequence: 39
 jurisdictions: [east-asia]
 period: comparative

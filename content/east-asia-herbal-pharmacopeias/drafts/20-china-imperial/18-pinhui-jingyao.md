@@ -5,6 +5,7 @@ title: The Ming album that stayed in the palace
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 18
 jurisdictions: [china]
 period: ming

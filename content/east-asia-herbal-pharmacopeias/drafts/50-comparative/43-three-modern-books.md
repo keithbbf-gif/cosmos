@@ -5,6 +5,7 @@ title: Three modern books and a shared ancestor they do not admit the same way
 stage: 5
 stage_name: comparative
 status: draft
+voice_check: edited
 sequence: 43
 jurisdictions: [east-asia]
 period: 19c-20c
@@ -18,7 +19,7 @@ By the late twentieth century a customs officer in Kobe, a tester in Shanghai, a
 
 **Japan, 1886/1887.** The first mover in the modern legal sense. Drafted with European teachers, aimed at a club of national codes, leaving Kampo outside the law for a long time (draft 30). Later editions grow crude-drug and Kampo-extract articles. The ancestor *honzō* is admitted as *material*, when it is admitted, not as the book’s form.
 
-**China, 1930 and 1953.** The Republican *Zhonghua yaodian* (printed 1930, promulgated 1931 in the account I used) drops the word *bencao* on purpose. Unschuld reads it as a conversion to a Western therapeutic-and-standard world. Bernard Read is already explaining “the Chinese Pharmacopoeia” to a Canadian journal in 1930. Reprints get called “editions” in a way that later bibliographers find sloppy. The PRC’s 1953 book is a new commission (Li Dequan as chair in the official history; 531 monographs; 1957 addendum). The 1963 book is the one herbalists point to for *paozhi*. Later ChP volumes split traditional and chemical worlds into different tomes. The ancestor *bencao* is admitted as a *national heritage and a still-living industry*, in a legal dialect that is not Li’s machine. The 1953 preface, I am told, distances itself from the Republican effort. I have not sat with that preface. The distancing is plausible. New states like a new year-one.
+**China, 1930 and 1953.** The Republican *Zhonghua yaodian* (printed 1930, promulgated 1931 in the account I used) drops the word *bencao* on purpose. Unschuld reads it as a conversion to a Western therapeutic-and-standard world. Bernard Read is already explaining “the Chinese Pharmacopoeia” to a Canadian journal in 1930. Reprints get called “editions” in a way that later bibliographers find sloppy. The PRC’s 1953 book is a new commission (Li Dequan as chair in the official history; 531 monographs; 1957 addendum). The 1963 book is the one herbalists point to for *paozhi* as a legal-code chapter — not usable instructions here. Later ChP volumes split traditional and chemical worlds into different tomes. The ancestor *bencao* is admitted as a *national heritage and a still-living industry*, in a legal dialect that is not Li’s machine. The 1953 preface, I am told, distances itself from the Republican effort. I have not sat with that preface. The distancing is plausible. New states like a new year-one.
 
 **Korea, 1958.** After the colonial JP-world and the wartime herbal interlude (draft 38). KP plus, later, a separate herbal specification book. The ancestor *hyangyak* / *Donguibogam* is a cultural object the state can celebrate (UNESCO 2009) while the legal identity of a root sits in a different genre. That split is not hypocrisy. It is two jobs.
 

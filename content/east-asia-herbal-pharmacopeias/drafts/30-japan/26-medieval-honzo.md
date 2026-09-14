@@ -5,6 +5,7 @@ title: Medieval honzō, temples, and the court
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 26
 jurisdictions: [japan]
 period: kamakura-muromachi

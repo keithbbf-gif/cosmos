@@ -5,6 +5,7 @@ title: Hyangyak jipseongbang, 1433
 stage: 4
 stage_name: korea
 status: draft
+voice_check: edited
 sequence: 34
 jurisdictions: [korea]
 period: joseon
@@ -20,7 +21,7 @@ The book is described as an expansion of the 1399 *jesaeng* compilation: old sym
 
 Two sibling projects sit next to it and tell you what kind of object this is.
 
-**A gathering calendar.** *Hyangyak chaechwi wollyeong*, ordered of the same men around 1428, is a monthly ordinance: when to take the local thing, under what vernacular name, how the taste and the drying go. That is procurement language. It belongs with Tang tribute geography and with Su Song’s prefectural pictures. A court that writes a calendar for gathering has decided that identity is seasonal labor, not only a graph.
+**A gathering calendar.** *Hyangyak chaechwi wollyeong*, ordered of the same men around 1428, is a monthly ordinance: when the text says to gather each local article, under what vernacular name, how the taste and the drying go. That is procurement language. It belongs with Tang tribute geography and with Su Song’s prefectural pictures. A court that writes a calendar for gathering has decided that identity is seasonal labor, not only a graph.
 
 **A geography.** The *Sejong sillok* geographic treatises are being finished in the same years. Local products, including drugs, become part of knowing the provinces. The herbal and the map are roommates.
 

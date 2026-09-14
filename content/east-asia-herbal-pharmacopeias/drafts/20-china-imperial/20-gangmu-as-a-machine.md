@@ -5,6 +5,7 @@ title: Bencao gangmu as a machine for reading
 stage: 2
 stage_name: china-imperial
 status: draft
+voice_check: edited
 sequence: 20
 jurisdictions: [china]
 period: ming

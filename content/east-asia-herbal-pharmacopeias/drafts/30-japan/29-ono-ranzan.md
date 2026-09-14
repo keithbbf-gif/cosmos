@@ -5,6 +5,7 @@ title: Ono Ranzan and the field as commentary
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 29
 jurisdictions: [japan]
 period: edo
@@ -14,7 +15,7 @@ voice: essay
 
 # Ono Ranzan and the field as commentary
 
-Ono Ranzan 小野蘭山 (1729–1810), born Ono Motohiro, art-name Ranzan, is the Edo naturalist later people called “the Japanese Linnaeus.” I will use the comparison once, to retire it. Linnaeus is a Swedish professor with a naming system that wants to travel without a Chinese encyclopedia. Ranzan is a Kyoto-trained *honzō* man who ends up at the shogunate’s medical school in Edo and titles his life’s book *Honzō kōmoku keimō* 本草綱目啓蒙 — a clarification, dictated, of the *Gangmu*. The field, in his practice, is a way of commenting on a book. That is stranger and more interesting than a nickname.
+Ono Ranzan 小野蘭山 (1729–1810), born Ono Motohiro, art-name Ranzan, is the Edo naturalist later people called “the Japanese Linnaeus.” I will use the comparison once, to retire it. Linnaeus is a Swedish professor with a naming system that wants to travel without a Chinese encyclopedia. Ranzan is a Kyoto-trained *honzō* man who ends up at the shogunate’s medical school in Edo and titles his life’s book *Honzō kōmoku keimō* 本草綱目啓蒙 — a dictated clarification of the *Gangmu*. The field, in his practice, is a way of commenting on a book. That is stranger and more interesting than a nickname.
 
 The book appears in 1803–1806, edited with his botanist grandson Mototaka, and later expands (a *jūshū*, a re-compilation, in the mid-nineteenth century). I have not sat with a first printing. The title is already the thesis.
 

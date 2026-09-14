@@ -5,6 +5,7 @@ title: "Ishinpō: an archive that looks like a medical book"
 stage: 3
 stage_name: japan
 status: draft
+voice_check: edited
 sequence: 25
 jurisdictions: [japan]
 period: heian
@@ -14,7 +15,7 @@ voice: essay
 
 # Ishinpō: an archive that looks like a medical book
 
-In 984 Tanba Yasuyori 丹波康頼 (you will also see Tamba) presented a thirty-*kan* medical encyclopedia. The title is *Ishinpō* 醫心方 — prescriptions from the heart of medicine, in the museum English. It is the oldest surviving Japanese medical book in the usual account. A Heian-period copy associated with the Nakarai (Nakarai/Nasei) family sits in the Tokyo National Museum and is a National Treasure. I have seen the museum description. I have not turned the scrolls.
+In 984 Tanba Yasuyori 丹波康頼 (you will also see Tamba) presented a thirty-*kan* medical encyclopedia. The title is *Ishinpō* 醫心方 — prescriptions from the heart of medicine, in the museum English. It is the oldest surviving Japanese medical book in the usual account. A Heian-period copy associated with the Nishi family (museum catalog: Nakarai) sits in the Tokyo National Museum and is a National Treasure. I have seen the museum description. I have not turned the scrolls.
 
 If this were a history of Japanese medicine, the file would be about etiology, acupuncture, the sexual *juan* that English Wikipedia likes to visit, the Buddhist pregnancy sutra, the dependence on Chao Yuanfang’s *Zhubing yuanhou lun*. This is a pharmacopeia collection, so I am here for a narrower reason: **Ishinpō is one of the best fridges of lost Chinese drug writing, and it is a Japanese editorial act, not a fridge with legs.**
 
