@@ -5,6 +5,7 @@ slug: when-a-fig-is-established-8a
 status: staged
 stage: move
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: PapaFig
@@ -39,6 +40,6 @@ Summer one on the twenty-five to thirty: I water like a #3 I cannot pick up. Mix
 
 Summer two I look for new canes from below and a plant that does not wilt on a normal dry week the way a pot does. Roots have left the old pot shape — I know because a dry week does not cook it in a day. Then I can start to say the word, after the winter in between. Two summers in the hole. A plate in year one is a bonus, not a diploma. Long trials. I have dropped names after year three when the fruit was not worth the row. I do not quote an established percent. The ones that lived are a count. The ones that did not are a count. Both stay in the notebook.
 
-The notebook line I want is ugly and specific: name, common fig, pot-up date, in-ground month, first summer, first winter, second summer. If a cell is blank I do not write established. Pot-up before June so the cup becomes a #3 that can face the skillet. August is hold for new holes. A pot on concrete can fruit and still die in one freeze — that passport is not this one. The yard stays a trial of twenty-five to thirty. Common figs. Dates or it is not established.
+The notebook line I want is ugly and specific: name, common fig, pot-up date, in-ground month, first summer, first winter, second summer. If a cell is blank I do not write established. A pot on concrete can fruit and still die in one freeze — that passport is not this one. Dates or it is not established.
 
 The collection will keep growing. The word should not. Spend it late. The fig has time. 8a is the in-between. The plant that stays is the one you did not rush.

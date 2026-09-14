@@ -36,7 +36,7 @@ bland narrator.
 
 ## What “staged” means
 
-The copy has had a voice pass. It is waiting on a human. It is not `published`.
+The copy has had a voice pass and a human editor pass (`voice_check: edited` on each draft). It is waiting on Keith for publish. It is not `published`.
 It is not `scratch`. WordPress stays Draft if anyone pastes it.
 
 ## Do not treat this as

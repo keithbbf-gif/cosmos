@@ -5,6 +5,7 @@ slug: fig-rooting-hormone-optional
 status: staged
 stage: root
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: Jack Chambers
@@ -23,7 +24,7 @@ The Pop page says you could dip. The A/B used Dip’n Grow at the **softwood (we
 
 I have watched people drown a whip in gel and then blame the brand. The whip was the problem. Gel on a soda straw is jewelry on a corpse.
 
-If I hormone, I do it on stick day, on a fresh cut, on wood that already deserved a cup. I do not redip at week four as a rescue. I do not mix three brands. I do not use a leftover soup of unknown strength from last year without [VERIFY]ing the label.
+If I hormone, I do it on stick day, on a fresh cut, on wood that already deserved a cup. I do not redip at week four as a rescue. I do not mix three brands. I do not use a leftover soup of unknown strength from last year without reading the label again.
 
 Figs root without help more often than the catalog wants you to think. The industry exists to sell bottles. We still keep a bottle because we also keep names we do not want to lose, and a controlled dip is cheap insurance on good wood. Insurance is not a substitute for the squeeze test.
 

@@ -5,6 +5,7 @@ slug: when-to-cut-a-fig-air-layer
 status: staged
 stage: layer
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: Jack Chambers
@@ -29,7 +30,7 @@ How I look: clear plastic, or one careful opening at the date I wrote. I do not 
 
 When I cut: below the roots, a clean pruner, in the morning. Straight to a pot that is already filled with damp mix — not a dry bucket you will “water later.” The layer has never had to drink on its own. Today it does.
 
-The cut is a morning job. Mix already damp in the pot. Pruners wiped. I cut below the wad, I do not shave the beard to make it pretty, and I set the whole fist of moss into the hole I already made. I water until the pot is honest, then I set it in shade for a week. I do not stand it on black plastic in a 98°F afternoon to “catch up.” The layer has never had to close its own stomata against a skillet. Give it a dull week. The fruit I took off in June is not coming back. The plant can.
+Pruners wiped. I cut below the wad, I do not shave the beard to make it pretty, and I set the whole fist of moss into the hole I already made. I water until the pot is honest, then I set it in shade for a week. I do not stand it on black plastic in a 98°F afternoon to “catch up.” The layer has never had to close its own stomata against a skillet. Give it a dull week. The fruit I took off in June is not coming back. The plant can.
 
 Leave the moss. Do not wash the beard to take a photo. Tease only if the wad will not fit the pot. The Pop warning about fragile roots applies here too.
 

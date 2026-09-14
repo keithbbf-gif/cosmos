@@ -5,6 +5,7 @@ slug: citing-the-2023-coir-de-test
 status: staged
 stage: root
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: Jack Chambers

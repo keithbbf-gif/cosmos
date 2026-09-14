@@ -5,6 +5,7 @@ slug: fig-rooting-mix-squeeze-test
 status: staged
 stage: root
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: Jack Chambers

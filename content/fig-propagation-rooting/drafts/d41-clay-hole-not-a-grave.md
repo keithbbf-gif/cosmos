@@ -5,6 +5,7 @@ slug: planting-figs-in-clay-8a
 status: staged
 stage: move
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: PapaFig
@@ -25,7 +26,7 @@ I plant on a **broad mound** if the spot perches. Same depth as the pot, maybe a
 
 The native dirt gets broken, not replaced. A little of our mix to ease the transition, not a bathtub of it. The roots have to leave the party and enter the county. If you give them a party they never leave, they circle, and the first dry week they behave like a pot you cannot pick up.
 
-UAEX has been saying the obvious for years: drain, sun, 6–8 hours, east wall if you can steal one. I plant late winter through spring when I can water for two weeks without a trip. I do not hero-plant in August and leave.
+UAEX has been saying the obvious for years: drain, sun, 6–8 hours, east wall if you can steal one.
 
 We have tens in the ground, not the whole collection. That is on purpose. A hole is a ten-year decision. A #3 is a two-year argument. I will not put a name I have not eaten into a hole I will regret. I will put a name I know, or a rootstock I might graft, or a trial I am willing to mow around.
 

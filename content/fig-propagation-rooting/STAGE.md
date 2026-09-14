@@ -10,10 +10,11 @@ zones: [7, 8a, 8b, 9]
 author: Jack Chambers | PapaFig
 cluster: cutting | rooting | air-layer | transplant
 voice: human
+voice_check: edited   # set by human editor after voice pass
 ```
 
-`status: staged` means the piece has had a voice pass and is waiting on a human.
-It is not `published`. It is not `scratch`.
+`status: staged` means the piece has had a voice pass and a human editor pass
+(`voice_check: edited`). It is not `published`. It is not `scratch`.
 
 ## Read order (if you want a plant, not a pile)
 

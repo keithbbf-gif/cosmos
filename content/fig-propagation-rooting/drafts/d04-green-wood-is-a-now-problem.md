@@ -5,6 +5,7 @@ slug: green-fig-cuttings-root-now
 status: staged
 stage: take
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 author: Jack Chambers
