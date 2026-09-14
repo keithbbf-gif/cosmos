@@ -28,7 +28,7 @@ pillar: biosecurity
 priority: 41
 zone: 8a
 ---
-Our own SEO pillar list asked for this page: black fig fly, what it is, what we do from Arkansas. Not a Facebook rumor. Not a claim that it is in the county.
+This page is for the search that wants a backyard war. Black fig fly: what it is, what we do from Arkansas. Not a Facebook rumor. Not a claim that it is in the county.
 
 I will say the hard sentence first, because search traffic likes a scare and I will not feed it.
 
