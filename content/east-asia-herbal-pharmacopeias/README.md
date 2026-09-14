@@ -24,7 +24,7 @@ The drafts treat that refusal as the subject.
 | 4 | `drafts/40-korea/` | Local herbs as policy, Joseon encyclopedias, the colonial cut |
 | 5 | `drafts/50-comparative/` | Trade, pictures, poison, omissions, modern codes |
 
-The machine-readable index is `MANIFEST.toml`. Shared bibliography is `SOURCES.md`. House rules live in `_editorial/`.
+The machine-readable index is `MANIFEST.toml`. Shared bibliography is `SOURCES.md`. House rules live in `_editorial/`. Lead historical plates (museum/library hot links, documented rights, SEO `<figure>` captions) are indexed in `GRAPHICS_INDEX.md`.
 
 ## Claims guard, short form
 
@@ -48,3 +48,5 @@ No recipes meant for use. No “top ten herbs.” No clinical advice. No attempt
 ## Provenance of this pass
 
 Written as staged drafts in the COSMOS tree, September 2026. Not peer-reviewed. Not runtime-bound to any live pharmacopeia. A later pass should send each file against the books it cites, in the languages they were written in, before anyone calls this a history.
+
+**Image pass (2026-09-14):** one PD/CC/open-access lead plate per draft from Wellcome Collection, Wikimedia Commons, and Library of Congress WDL uploads — no AI faces, no efficacy language in captions. See `assets/figures/REGISTRY.toml` and `_editorial/PHOTO_NOTES.md`.
