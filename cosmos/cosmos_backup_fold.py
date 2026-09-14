@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cosmos_backup_fold — GET-only backup clock fold for cDeck.
+"""cosmos_backup_fold — backup clock fold for cDeck.
 
-Never runs a backup. Never mkdir. Heartbeat + verified dir if they exist.
+GET never runs a backup. Never mkdir. Heartbeat + verified dir if they exist.
+POST suite verbs refuse a silent full-tree backup: no sources is BACKUP_REFUSED.
 
     py -3.14 cosmos\\\\cosmos_backup_fold.py --selftest
 """
@@ -15,6 +16,60 @@ from pathlib import Path
 
 HOURS = (7, 11, 19, 23)
 HB_NAME = "backup_clock_heartbeat.json"
+
+
+class BackupFoldError(RuntimeError):
+    """kind in {BACKUP_REFUSED}."""
+
+    def __init__(self, kind: str, detail: str):
+        self.kind = kind
+        self.detail = detail
+        super().__init__(f"[{kind}] {detail}")
+
+
+def _source_list(body: dict) -> list:
+    raw = body.get("sources")
+    if raw is None:
+        return []
+    if isinstance(raw, str):
+        return [raw] if raw.strip() else []
+    if isinstance(raw, (list, tuple)):
+        out = []
+        for item in raw:
+            if item is None:
+                continue
+            s = str(item).strip()
+            if s:
+                out.append(s)
+        return out
+    return []
+
+
+def run_action(paths, body, kernel=None) -> dict:
+    """POST suite. Never a silent full-tree backup. HTTP never copies files."""
+    if not isinstance(body, dict):
+        raise BackupFoldError("BACKUP_REFUSED", "body must be a JSON object")
+    action = str(body.get("action") or "").strip().lower()
+    if action in ("restore", "generate"):
+        bak = body.get("bak") or body.get("backup")
+        dest = body.get("dest") or body.get("target")
+        if not bak or not dest:
+            raise BackupFoldError(
+                "BACKUP_REFUSED",
+                "restore/generate refuse without bak/dest",
+            )
+    sources = _source_list(body)
+    if not sources:
+        raise BackupFoldError(
+            "BACKUP_REFUSED",
+            "no sources - never a silent full-tree backup",
+        )
+    # A 200 that copied nothing (or everything) on the HTTP thread is the
+    # green-log class this fold exists to stop. Clock + scheduled job run.
+    raise BackupFoldError(
+        "BACKUP_REFUSED",
+        "POST /backup does not run a backup on the HTTP thread",
+    )
 
 
 def snapshot(paths) -> dict:
@@ -91,6 +146,24 @@ def _selftest() -> int:
           and not paths.logs(HB_NAME).exists())
     check("GET does not claim a backup ran",
           lambda: "never runs a backup" in (rec.get("note") or ""))
+
+    no_src = None
+    try:
+        run_action(paths, {})
+    except BackupFoldError as e:
+        no_src = e
+    check("POST no sources is BACKUP_REFUSED (not an exception escape)",
+          lambda: no_src is not None
+          and no_src.kind == "BACKUP_REFUSED"
+          and "no sources" in (no_src.detail or ""))
+    empty_list = None
+    try:
+        run_action(paths, {"sources": []})
+    except BackupFoldError as e:
+        empty_list = e
+    check("POST empty sources list is BACKUP_REFUSED",
+          lambda: empty_list is not None
+          and empty_list.kind == "BACKUP_REFUSED")
 
     bad = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

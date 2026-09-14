@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Selftest: rest-surface backlog. Three seams, each with a positive path AND a
+"""Selftest: rest-surface backlog. Seams, each with a positive path AND a
 typed refusal: (1) POST /api/v1/crucible submits a scheduled job and does
 not claim or run the round on the HTTP thread - or 501 when it cannot;
 GET /crucible and GET /forge stay 404 (no invented GET);
 (2) api_token.txt
 empty/whitespace is BLANK_TOKEN, a missing file on a remote bind is
 TOKEN_MISSING (never invented); (3) submit parse keeps priority words that
-belong to the command inside the command."""
+belong to the command inside the command; (4) POST /api/v1/backup with no
+sources is BACKUP_REFUSED + reason (socket lives; never a transport error)."""
 from __future__ import annotations
 import json, sys, tempfile, urllib.error, urllib.request
 from pathlib import Path
@@ -313,6 +314,24 @@ def main() -> int:
     check("path traversal ( /kdash_sw.js/../cosmos_service.py ) is refused, "
           "source never served",
           lambda: tr_status in (401, 404) and b"_load_api_token" not in tr_body)
+
+    # ================= BACKUP (no sources = typed refusal, socket lives) ======
+    # Scar: ImportError/raise inside POST /backup killed the handler socket;
+    # the operator saw a transport error instead of the fail-closed refusal.
+    bak_transport = None
+    try:
+        bak_code, bak_body = _http(svc, "POST", "/api/v1/backup", {})
+    except Exception as e:                                            # noqa: BLE001
+        bak_transport = f"{type(e).__name__}: {e}"
+        bak_code, bak_body = None, {}
+    check("POST /backup with no sources -> typed BACKUP_REFUSED (not a transport error)",
+          lambda: bak_transport is None
+          and bak_code == 400
+          and bak_body.get("error") == "BACKUP_REFUSED"
+          and bool(bak_body.get("reason")))
+    alive_code, alive_body = _http(svc, "GET", "/api/v1/status")
+    check("...the socket survives: GET /status still answers 200",
+          lambda: alive_code == 200 and alive_body.get("ready") is True)
     svc.shutdown()
 
     # ================= COMMAND SUBMIT PARSE =================

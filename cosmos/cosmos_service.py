@@ -1902,7 +1902,9 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 rec["measured_at"] = time.time()
                 return self._send(200, rec)
             if _wo_urlparse(self.path).path == "/api/v1/backup":
-                from cosmos_backup_fold import BackupFoldError, run_action as backup_run
+                # Fail-closed condition, fail-closed presentation: an exception
+                # here used to kill the socket (operator saw a transport error).
+                # Every outcome is typed JSON. BACKUP_REFUSED + reason. Socket lives.
                 body = self._read_body()
                 if body is None:
                     return
@@ -1914,10 +1916,32 @@ def make_handler(kernel: Kernel, token: str, open_access: bool = False):
                 if not isinstance(d, dict):
                     return self._send(400, {"error": "BAD_REQUEST",
                                             "detail": "body must be a JSON object"})
+
+                def _backup_refused(kind, reason):
+                    why = (reason or "unspecified")[:300]
+                    try:
+                        kernel.ledger.append("BACKUP_REFUSED", {
+                            "kind": kind or "BACKUP_REFUSED",
+                            "reason": why,
+                            "sources": d.get("sources"),
+                        })
+                    except Exception:  # noqa: BLE001
+                        pass
+                    return self._send(400, {"error": "BACKUP_REFUSED",
+                                            "reason": why})
+
                 try:
+                    from cosmos_backup_fold import (
+                        BackupFoldError, run_action as backup_run,
+                    )
                     rec = backup_run(kernel.paths, d, kernel=kernel)
                 except BackupFoldError as e:
-                    return self._send(400, {"error": e.kind, "detail": str(e)[:300]})
+                    return _backup_refused(
+                        e.kind, getattr(e, "detail", None) or str(e))
+                except Exception as e:  # noqa: BLE001
+                    return _backup_refused(
+                        "BACKUP_REFUSED",
+                        f"{type(e).__name__}: {e}")
                 rec["tree_id"] = kernel.paths.sentinel.tree_id
                 rec["measured_at"] = time.time()
                 return self._send(200, rec)
