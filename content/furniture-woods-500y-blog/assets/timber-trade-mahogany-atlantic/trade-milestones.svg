@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 292" width="640" height="292" role="img" aria-labelledby="title desc">
+  <title id="title">Caribbean mahogany to London &amp; Boston</title>
+  <desc id="desc">Regional trade timeline for timber-trade-mahogany-atlantic.</desc>
+  <rect width="100%" height="220" fill="#faf8f5"/>
+  <line x1="50" y1="100" x2="590" y2="100" stroke="#5a5045" stroke-width="2"/>
+  <text x="24" y="32" font-size="14" font-weight="600" fill="#2c2416">Caribbean mahogany to London &amp; Boston</text>
+  <circle cx="50.0" cy="100" r="4" fill="#8B4513"/>
+  <text x="50.0" y="88" text-anchor="middle" font-size="9" fill="#333">Jamaica exports</text>
+  <text x="50.0" y="120" text-anchor="middle" font-size="9" fill="#777">1725</text>
+  <circle cx="120.78651685393258" cy="100" r="4" fill="#8B4513"/>
+  <text x="120.78651685393258" y="88" text-anchor="middle" font-size="9" fill="#333">Chippendale peak</text>
+  <text x="120.78651685393258" y="120" text-anchor="middle" font-size="9" fill="#777">1760</text>
+  <circle cx="242.13483146067415" cy="100" r="4" fill="#8B4513"/>
+  <text x="242.13483146067415" y="88" text-anchor="middle" font-size="9" fill="#333">Cuba trade</text>
+  <text x="242.13483146067415" y="120" text-anchor="middle" font-size="9" fill="#777">1820</text>
+  <circle cx="590.0" cy="100" r="4" fill="#8B4513"/>
+  <text x="590.0" y="88" text-anchor="middle" font-size="9" fill="#333">CITES Swietenia</text>
+  <text x="590.0" y="120" text-anchor="middle" font-size="9" fill="#777">1992</text>
+  <rect y="220" width="100%" height="72" fill="#f0ebe3"/>
+  <text x="16" y="242" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="600" fill="#2c2416">Caribbean mahogany to London &amp; Boston</text>
+  <text x="16" y="262" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5a5045">Dates are order-of-magnitude trade milestones; see draft bibliography for primary sources.</text>
+</svg>

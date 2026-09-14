@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 352" width="800" height="352" role="img" aria-labelledby="title desc">
+  <title id="title">500-year furniture timber trade — selected milestones</title>
+  <desc id="desc">Timeline from early modern Baltic oak exports to CITES-listed tropical trade.</desc>
+  <rect width="100%" height="280" fill="#faf8f5"/>
+  <line x1="60" y1="120" x2="740" y2="120" stroke="#5a5045" stroke-width="3"/>
+  <text x="60" y="148" font-size="11" fill="#555">1520</text>
+  <text x="740" y="148" text-anchor="end" font-size="11" fill="#555">2030</text>
+  <line x1="68.0" y1="112" x2="68.0" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="68.0" cy="120" r="5" fill="#8B4513"/>
+  <text x="68.0" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Baltic oak</text>
+  <text x="68.0" y="109" text-anchor="middle" font-size="10" fill="#2c2416">export hubs</text>
+  <text x="68.0" y="82" text-anchor="middle" font-size="9" fill="#777">1526</text>
+  <line x1="176.0" y1="112" x2="176.0" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="176.0" cy="120" r="5" fill="#8B4513"/>
+  <text x="176.0" y="156" text-anchor="middle" font-size="10" fill="#2c2416">Jamestown:</text>
+  <text x="176.0" y="169" text-anchor="middle" font-size="10" fill="#2c2416">colonial timber</text>
+  <text x="176.0" y="178" text-anchor="middle" font-size="9" fill="#777">1607</text>
+  <line x1="326.6666666666667" y1="112" x2="326.6666666666667" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="326.6666666666667" cy="120" r="5" fill="#8B4513"/>
+  <text x="326.6666666666667" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Caribbean</text>
+  <text x="326.6666666666667" y="109" text-anchor="middle" font-size="10" fill="#2c2416">mahogany trade</text>
+  <text x="326.6666666666667" y="82" text-anchor="middle" font-size="9" fill="#777">1720</text>
+  <line x1="473.3333333333333" y1="112" x2="473.3333333333333" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="473.3333333333333" cy="120" r="5" fill="#8B4513"/>
+  <text x="473.3333333333333" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Victorian</text>
+  <text x="473.3333333333333" y="109" text-anchor="middle" font-size="10" fill="#2c2416">rosewood boom</text>
+  <text x="473.3333333333333" y="82" text-anchor="middle" font-size="9" fill="#777">1830</text>
+  <line x1="508.0" y1="112" x2="508.0" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="508.0" cy="120" r="5" fill="#8B4513"/>
+  <text x="508.0" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Burma teak</text>
+  <text x="508.0" y="109" text-anchor="middle" font-size="10" fill="#2c2416">rail &amp; ships</text>
+  <text x="508.0" y="82" text-anchor="middle" font-size="9" fill="#777">1856</text>
+  <line x1="566.6666666666667" y1="112" x2="566.6666666666667" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="566.6666666666667" cy="120" r="5" fill="#8B4513"/>
+  <text x="566.6666666666667" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Tropical</text>
+  <text x="566.6666666666667" y="109" text-anchor="middle" font-size="10" fill="#2c2416">hardwood peak</text>
+  <text x="566.6666666666667" y="82" text-anchor="middle" font-size="9" fill="#777">1900</text>
+  <line x1="664.0" y1="112" x2="664.0" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="664.0" cy="120" r="5" fill="#8B4513"/>
+  <text x="664.0" y="156" text-anchor="middle" font-size="10" fill="#2c2416">CITES</text>
+  <text x="664.0" y="169" text-anchor="middle" font-size="10" fill="#2c2416">Convention</text>
+  <text x="664.0" y="178" text-anchor="middle" font-size="9" fill="#777">1973</text>
+  <line x1="689.3333333333334" y1="112" x2="689.3333333333334" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="689.3333333333334" cy="120" r="5" fill="#8B4513"/>
+  <text x="689.3333333333334" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Swietenia spp.</text>
+  <text x="689.3333333333334" y="109" text-anchor="middle" font-size="10" fill="#2c2416">Appendix II</text>
+  <text x="689.3333333333334" y="82" text-anchor="middle" font-size="9" fill="#777">1992</text>
+  <line x1="722.6666666666666" y1="112" x2="722.6666666666666" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="722.6666666666666" cy="120" r="5" fill="#8B4513"/>
+  <text x="722.6666666666666" y="156" text-anchor="middle" font-size="10" fill="#2c2416">Dalbergia spp.</text>
+  <text x="722.6666666666666" y="169" text-anchor="middle" font-size="10" fill="#2c2416">Appendix II</text>
+  <text x="722.6666666666666" y="178" text-anchor="middle" font-size="9" fill="#777">2017</text>
+  <line x1="734.6666666666667" y1="112" x2="734.6666666666667" y2="128" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="734.6666666666667" cy="120" r="5" fill="#8B4513"/>
+  <text x="734.6666666666667" y="96" text-anchor="middle" font-size="10" fill="#2c2416">Trade under</text>
+  <text x="734.6666666666667" y="109" text-anchor="middle" font-size="10" fill="#2c2416">permits &amp; COC</text>
+  <text x="734.6666666666667" y="82" text-anchor="middle" font-size="9" fill="#777">2026</text>
+  <rect y="280" width="100%" height="72" fill="#f0ebe3"/>
+  <text x="16" y="302" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="600" fill="#2c2416">500-year furniture timber trade — selected milestones</text>
+  <text x="16" y="322" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5a5045">Milestone years are illustrative trade/policy markers; CITES: cites.org (Conv. 1973, appendix listings as noted).</text>
+</svg>

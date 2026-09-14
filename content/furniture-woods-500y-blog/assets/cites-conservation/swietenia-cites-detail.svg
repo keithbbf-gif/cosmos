@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 392" width="700" height="392" role="img" aria-labelledby="title desc">
+  <title id="title">Honduran &amp; related mahoganies — CITES schematic</title>
+  <desc id="desc">Trade control overview.</desc>
+  <rect width="100%" height="320" fill="#faf8f5"/>
+  
+  <text x="24" y="36" font-size="14" font-weight="600" fill="#2c2416">Swietenia spp. — CITES listing snapshot</text>
+  <rect x="24" y="56" width="652" height="56" fill="#f5e8d0" stroke="#8B4513" rx="4"/>
+  <text x="36" y="78" font-size="11" fill="#333">Appendix II (1992): S. macrophylla — international commercial trade requires permits.</text>
+  <text x="36" y="96" font-size="11" fill="#333">Appendix I: S. mahagoni, S. humilis — stricter controls (range-limited native populations).</text>
+  <rect x="24" y="130" width="300" height="120" fill="#6B8E23" opacity="0.5" rx="4"/>
+  <text x="174" y="195" text-anchor="middle" font-size="12" fill="#1a1a1a">Neotropics (native range)</text>
+  <rect x="360" y="130" width="316" height="56" fill="#4682B4" opacity="0.4" rx="4"/>
+  <text x="518" y="162" text-anchor="middle" font-size="11" fill="#333">Historic import markets: UK, US, EU workshops</text>
+  <text x="24" y="270" font-size="11" fill="#555">Use plantation-grown or documented pre-Convention stock where legally available.</text>
+
+  <rect y="320" width="100%" height="72" fill="#f0ebe3"/>
+  <text x="16" y="342" font-family="system-ui,Segoe UI,sans-serif" font-size="13" font-weight="600" fill="#2c2416">Honduran &amp; related mahoganies — CITES schematic</text>
+  <text x="16" y="362" font-family="system-ui,Segoe UI,sans-serif" font-size="11" fill="#5a5045">Listing summary: cites.org species database (Swietenia); effective dates per COP decisions.</text>
+</svg>
