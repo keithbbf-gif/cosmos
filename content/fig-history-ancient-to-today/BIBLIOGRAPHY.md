@@ -124,6 +124,12 @@ If a claim in an article cannot be walked back to a line here, cut the claim.
 - Köhler, *Medizinal-Pflanzen* — *Ficus carica* plate (standard Commons scan).
 - Gottorfer Codex / Holtzbecher *Ficus carica*.
 - James Tissot, *Nathaniel Under the Fig Tree*; *The Vine Dresser and the Fig Tree* (Brooklyn Museum; PD).
+- Tomb of Djari harvest facsimile — Met INST.1979.2.5 / Commons (CC0). **Sycamore-fig**, not *carica*.
+- Norman de Garis Davies, Tomb of Nakht agricultural scenes and east-wall offering chapel (Met Graphic Expedition; object 548438 CC0). Estate context, not a fig-picking close-up.
+- Sex. Pompeius Fostlus, AR denarius, 137 BCE (RRC 235/1c) — Ficus Ruminalis with Faustulus, she-wolf, twins. Photo: CNG, CC BY-SA 2.5.
+- Luis Meléndez, *Still Life with Figs and Bread*, c. 1770 (NGA 111627, CC0).
+- *Still Life with Figs*, unknown artist, Nationalmuseum Stockholm inv. 17171 (PD).
+- USDA NAL pomological watercolors: Pomeroy Calimyrna 1912 (POM00007440, POM00007439 refrigerated shipment); Arnold Celeste 1911 (POM00007441); Heiges Endgere / Roeding 1899 (POM00001071); Shull Fig X1 1910 (POM00007442); Pomeroy Royal Black 1910 (POM00001045). U.S. government work, PD.
 
 File-level licenses live in `IMAGE_SOURCES.md`.
 

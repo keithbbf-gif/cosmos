@@ -8,7 +8,7 @@ The series is **not** a fruit-catalog shoot. A reader should leave remembering a
 
 Museum open-access files and Wikimedia PD / CC reproductions of tomb and villa painting, botanical plates, historic maps and port views, later documentary photographs that are PD or CC.
 
-Every raster under `assets/images/<slug>/` is logged in `IMAGE_SOURCES.md`. If the license is not on the log, the image does not ship. This wave adds Casa dei Cervi fruit vignettes (`pompeii.cervi`, PD-Art strip) and the Plan of St. Gall recto (`monastic.st-gall-plan`, PD; pack-resized). Still reserved: Nebamun EA37983, Met OA until accession+CC0.
+Every raster under `assets/images/<slug>/` is logged in `IMAGE_SOURCES.md`. If the license is not on the log, the image does not ship. This wave adds twelve unique rasters from rights PR #275 (Djari sycomore harvest CC0; two Nakht Met facsimiles CC0; Ficus Ruminalis denarius CC BY-SA 2.5; Meléndez NGA CC0; Nationalmuseum still life PD; six USDA pomological watercolors PD) to the earlier thirteen (Casa dei Cervi, Plan of St. Gall, Ehret, EB1911, MAN 8625, Frutteto, Bimbi, Holtzbecher, Le Moyne, two Tissots, Wellcome, Köhler). Nebamun EA37983 stays reserved. Met 548438 is now in-pack (CC0). Caption Djari as *F. sycomorus*. Caption Nakht as estate context, not fig-picking.
 
 ### 2. Original pack graphics (`assets/shared/svg/`)
 

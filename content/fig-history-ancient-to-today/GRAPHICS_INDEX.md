@@ -44,13 +44,24 @@ Register every publishable figure here **before** embedding in articles. Columns
 | `islamic-medicine.kohler` | `assets/images/islamic-medical-traditions-fig/kohler-ficus-carica.jpg` | historical plate | slug: `islamic-medical-traditions-fig` | ready |
 | `pompeii.cervi` | `assets/images/pompeii-gardens-fig-trees/casa-dei-cervi-fruit-vignettes.jpg` | fresco repro | slug: `pompeii-gardens-fig-trees` | ready |
 | `monastic.st-gall-plan` | `assets/images/monastic-orchards-europe/codex-sangallensis-1092-recto.jpg` | manuscript plan | slug: `monastic-orchards-europe` | ready |
+| `ancient-egypt.tomb-harvest` | `assets/images/ancient-egypt-fig-culture/djari-sycamore-fig-harvest.jpg` | Met facsimile | slug: `ancient-egypt-fig-culture` | ready |
+| `ancient-egypt.nakht-ag` | `assets/images/ancient-egypt-fig-culture/nakht-agricultural-scenes.jpg` | Met Graphic Expedition | slug: `ancient-egypt-fig-culture` | ready |
+| `ancient-egypt.nakht-east-wall` | `assets/images/ancient-egypt-fig-culture/met-nakht-east-wall.jpg` | Met OA facsimile | slug: `ancient-egypt-fig-culture` | ready |
+| `roman-orchards.ficus-ruminalis` | `assets/images/roman-fig-orchards-and-trade/ficus-ruminalis-denarius-cng.jpg` | coin photo | slug: `roman-fig-orchards-and-trade` | ready |
+| `renaissance.melendez` | `assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg` | painting | slug: `renaissance-still-life-figs` | ready |
+| `renaissance.nationalmuseum` | `assets/images/renaissance-still-life-figs/nationalmuseum-still-life-with-figs.jpg` | painting | slug: `renaissance-still-life-figs` | ready |
+| `mission-kadota.calimyrna-1912` | `assets/images/mission-kadota-brown-turkey/usda-pom-07440-calimyrna-1912.jpg` | USDA watercolor | slug: `mission-kadota-brown-turkey` | ready |
+| `mission-kadota.celeste` | `assets/images/mission-kadota-brown-turkey/usda-pom-07441-celeste.jpg` | USDA watercolor | slug: `mission-kadota-brown-turkey` | ready |
+| `sarilop.calimyrna-ship-1912` | `assets/images/sarilop-and-turkish-export-grades/usda-pom-07439-calimyrna-ship.jpg` | USDA watercolor | slug: `sarilop-and-turkish-export-grades` | ready |
+| `smyrna.usda-endgere` | `assets/images/smyrna-fig-caprification-usa/usda-pom-01071-endgere.jpg` | USDA watercolor | slug: `smyrna-fig-caprification-usa` | ready |
+| `parthenocarpic.usda-fig-x1` | `assets/images/parthenocarpic-vs-pollinated-types/usda-pom-07442-fig-x1.jpg` | USDA watercolor | slug: `parthenocarpic-vs-pollinated-types` | ready |
+| `condit.usda-royal-black` | `assets/images/condit-and-modern-pomology/usda-pom-01045-royal-black.jpg` | USDA watercolor | slug: `condit-and-modern-pomology` | ready |
 
 ## Pending (writer / rights lane)
 
 | Figure ID | Planned path | Notes |
 |-----------|--------------|-------|
-| `ancient-egypt.tomb-harvest` | `assets/images/ancient-egypt-fig-culture/tomb-harvest-detail.png` | Await cleared Wikimedia/museum scan |
-| `greek-vases.fig-banquet` | `assets/images/greek-fig-banquet-and-symposium/attic-kylix-detail.png` | Rights check |
+| `greek-vases.fig-banquet` | `assets/images/greek-fig-banquet-and-symposium/attic-kylix-detail.png` | Rights check. PR #275 found no OA kylix with a documented fig-banquet subject; do not substitute a wine-service cup. |
 
 ## ID rules
 
