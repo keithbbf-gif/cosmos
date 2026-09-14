@@ -17,7 +17,7 @@ Markdown drafts with YAML front matter under `articles/`. Forty-four posts plus 
 | `era_focus` | custom field `era_focus` (string year) |
 | `citations` | custom field `citations` (JSON or one URL per line). Also paste into a closed HTML comment or footnote block. |
 | `status: draft` | **Draft.** Never map to `publish` or `future`. |
-| `voice_check: human` | custom field. Internal QA flag, not a displayed byline. |
+| `voice_check: edited` | custom field. Internal QA flag (editor pass complete), not a displayed byline. |
 
 Suggested post type: `post`. Category: `Manufacturing literacy` (create once). Do not file under `Shop` or `Science-backed products`.
 

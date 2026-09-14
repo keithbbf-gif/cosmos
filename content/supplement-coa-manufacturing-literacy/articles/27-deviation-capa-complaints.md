@@ -16,7 +16,7 @@ citations:
   - "21 CFR 111.570"
   - "FDA recall guidance (dietary supplements / food)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -64,10 +64,6 @@ Lot traceability is the physical twin. If you cannot say which lots went to whic
 
 If they refuse all four, you have your walk-away paragraph (piece 41).
 
-## What this is not
-
-A complaint file is not an admission that the product failed to treat a disease. It is a quality record. Do not put "no complaints means it works" on a cart page.
-
 ## A recall tabletop that fits in an hour
 
 Pick a fictional OOS: D3 at 60% of claim, 800 cases at the 3PL, 200 already picked. Walk the room through: hold email, lot list, customer sentence (no disease language), who calls FDA if you are in that conversation, who writes the web banner. Time the lot list. If it takes more than 20 minutes, the ship records are the CAPA.
@@ -83,3 +79,7 @@ Rule: marketplace text that names a defect or a lot number is intake within a wo
 If you do not control the marketplace account, write who pulls the text, and how often.
 
 Write the problem. Then change the thing that caused it. Then keep the paper.
+
+## What this is not
+
+A complaint file is not an admission that the product failed to treat a disease. It is a quality record. Do not put "no complaints means it works" on a cart page.

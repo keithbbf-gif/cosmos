@@ -14,7 +14,7 @@ citations:
   - "21 CFR 111.80(b)"
   - "21 CFR 111.210"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -62,10 +62,6 @@ A single-ingredient ascorbic acid capsule is simpler than a twelve-herb night bl
 
 Liquids have tank weights, pH, and a hold-time. Gummies have cook temperature and water activity. Softgels have seam and leak checks. Write the ones you have. Walk the ones they claim.
 
-## What this is not
-
-In-process control is not "small-batch artisanal energy." It is a named step with a number.
-
 ## Printers are an in-process point
 
 Lot codes and dates printed on the bottle are specifications for the packaged product (111.70(g), 111.80(e)). A printer that smears or that still holds yesterday's lot is a line-clearance failure. Check first bottle, a middle bottle, last bottle. Keep the examples with the BPR.
@@ -81,3 +77,7 @@ A marker check on three locations in the blender — or a finished-product assay
 If the CMO says "we have never had a problem," ask for the last uniformity or start-middle-end data on a low-dose SKU. If those data do not exist, the first time you see a problem will be a customer who opened a light bottle.
 
 If the step is necessary, name it in the MMR. Sample it. Write the result on the BPR. Then take the Friday photograph. Not instead of it.
+
+## What this is not
+
+In-process control is not "small-batch artisanal energy." It is a named step with a number. In-process sheets are not finished-product release (piece 02).

@@ -15,7 +15,7 @@ citations:
   - "FSMA Preventive Controls for Human Food"
   - "21 U.S.C. § 342"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -44,7 +44,7 @@ If those systems are real, both books get easier. If they are lobby posters, bot
 
 **111's identity test of each dietary ingredient.** 117 will not run your HPTLC for you.
 
-**111.70 product specifications for strength and composition of a supplement.** A HACCP-style hazard analysis may not even list "D3 assay" as a hazard. It is still a 111 specification.
+**111.70 product specifications for strength and composition of a supplement.** An HACCP-style hazard analysis may not even list "D3 assay" as a hazard. It is still a 111 specification.
 
 **Structure/function and 101.36.** Food-safety plans do not write your panel.
 
@@ -89,4 +89,4 @@ If the CMO only keeps the 117 binder because "it's all food," your supplement SK
 
 Ask which SKUs are which, and which book is the release book for *your* carton. Then look at last lot's file and see which book actually got a signature.
 
-Two books. One floor. Read both. Then ask for the record that belongs to the question you were asked.
+Two books. One floor. Read both.

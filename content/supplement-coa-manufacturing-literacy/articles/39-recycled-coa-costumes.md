@@ -13,7 +13,7 @@ citations:
   - "21 CFR 111.260"
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lxr-biotech-llc-714568-12232025"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -82,6 +82,4 @@ A PDF titled `ASHWAGANDHA_TYPICAL_COA.pdf` with no lot, or a lot from 2022, used
 
 Ask for the COA that shares a lot number with the drum or bottle you will receive. File typical in a "sales" folder if you must. Never in the lot folder. Never in a retailer portal.
 
-If typical is all they have on Friday, you do not have Friday.
-
-A COA is a signed statement about a lot. If the statement is about some other lot, it is a costume. Send it back. Then decide whether you still have a manufacturer.
+If typical is all they have on Friday, you do not have Friday. Send the PDF back. Then decide whether you still have a manufacturer.

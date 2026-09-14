@@ -15,7 +15,7 @@ citations:
   - "21 CFR 111.260"
   - "21 CFR 101.36"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -116,4 +116,4 @@ Do not run the checklist from a phone in the car after you already uploaded the 
 
 If you skip a box because "it's a simple vitamin," write the skip as a signed 111.75(d) or skip-lot exception. An unsigned skip is a fail.
 
-Quality is a lot number you can defend. This page is how you remember to look.
+A signed checklist in the lot folder beats a CMO stamp alone.

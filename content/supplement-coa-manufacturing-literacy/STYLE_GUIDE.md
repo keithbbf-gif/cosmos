@@ -2,7 +2,7 @@
 
 Voice is the product. A white-label founder or a plant QA lead should finish a piece and trust the sourcing. If it sounds like a wellness SEO mill, it fails even when the citations are real.
 
-`voice_check: human` in front matter means the draft was written against this file, not that a model is claiming to be a person.
+`voice_check: edited` in front matter means an editor pass against this file is complete. Earlier drafts used `voice_check: human` before the editor agent.
 
 ## Who is speaking
 
@@ -55,6 +55,6 @@ Also drop the cousins: "navigate," "tapestry," "plethora," "utilize," "harness,"
 
 H2s should be specific ("111.75(a) will not accept a COA as identity") not thematic ("The quality conversation").
 
-## Voice check before `voice_check: human`
+## Voice check before `voice_check: edited`
 
 Read the draft out loud. If a sentence could sit under any other supplement brand without changing a noun, rewrite it. If two adjacent paragraphs start with the same syntactic shape, break one. If you cannot point to a source for a number, flag it or delete it.

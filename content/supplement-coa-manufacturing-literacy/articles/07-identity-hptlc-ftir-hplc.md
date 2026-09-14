@@ -15,7 +15,7 @@ citations:
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lxr-biotech-llc-714568-12232025"
   - "USP botanical identification chapters / HPTLC practice (see USP-NF)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -84,4 +84,4 @@ For the finished product: the identity tests you can actually run, and the 111.7
 
 If the plate does not match, you have a supplier problem and a label problem. You do not have a marketing problem. Do not "explain" a failed identity into a passing one.
 
-Identity is the first job. Do it first.
+Pull the incoming identity row before you read assay.

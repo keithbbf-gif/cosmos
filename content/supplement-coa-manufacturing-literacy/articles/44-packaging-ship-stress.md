@@ -16,7 +16,7 @@ citations:
   - "21 CFR 111.465"
   - "21 CFR 111.83"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -61,12 +61,6 @@ Not allowed: "farm to door tested" when the only test was Thursday at the plant.
 
 Not allowed: a disease claim because the seal was pretty.
 
-## The last sentence of the pack
-
-A COA is a signed statement about a lot at a time and a place. Distribution is another time and place. Write both. Test the first. Specify the second. Keep a retain that still looks like the first.
-
-Then you can answer a stranger on the internet in month eleven without guessing.
-
 ## Desiccant as a silent formula change
 
 The first-article had a desiccant. Production forgot it for 3,000 bottles. The COA was pulled from bottles that still had one, or from bulk before pack. Moisture and micro and a gummy's water activity will not care about your excuse.
@@ -81,4 +75,10 @@ You do not need a logger on every pallet forever. You need one on the hostile la
 
 If the logger is ugly and the retain is fine, you have a distribution story. If both are ugly, you have a plant-plus-truck story. Do not guess which.
 
-Quality is not a vibe and it is not a stock photo. It is a lot number you can defend after the truck.
+## Plant release versus distribution
+
+A COA is a signed statement about a lot at a time and a place. Distribution is another time and place. Write both. Test the first. Specify the second. Keep a retain that still looks like the first.
+
+Then you can answer a stranger on the internet in month eleven without guessing.
+
+The lot folder should hold the ship spec, the logger readout from the first hostile lane, and the retain photo — not only the Thursday COA.

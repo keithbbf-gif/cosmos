@@ -15,7 +15,7 @@ citations:
   - "21 CFR 111.370"
   - "21 CFR 111.83"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -69,10 +69,6 @@ You will be asked to pay for a remake. That is cheaper than shipping the fail. I
 
 Do not let a remake ship under the old lot number. The old lot had a story. The new lot gets a new number and a new file.
 
-## What this is not
-
-Destruction is not a confession of disease. It is a disposition. Do not put "we destroy anything that isn't perfect" on a cart page as a wellness slogan. Show the SOP to a buyer who asks. Keep the adjective off the PDP.
-
 ## Destroy means destroy
 
 A "destroyed" lot that later appears on a secondary marketplace under your brand is not destroyed. Witness, scrap ticket, or a renderer receipt. If the CMO "donates to employees," you now have an informal distribution of a rejected lot. Stop that in the agreement.
@@ -88,3 +84,7 @@ That dump is unofficial reprocessing, a lot-integrity failure, and a retain lie.
 Rule: any unlabeled finished product is a hold. It gets a ticket or it gets destroyed. Helpers do not perform dispositions. If you need the count, QC opens a file, not a tub.
 
 Hold it. Decide. Then move it to a place that matches the decision. Not to Friday's blender.
+
+## What this is not
+
+Destruction is not a confession of disease. It is a disposition. Do not put "we destroy anything that isn't perfect" on a cart page as a wellness slogan. Show the SOP to a buyer who asks. Keep the adjective off the PDP.

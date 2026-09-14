@@ -17,7 +17,7 @@ citations:
   - "21 CFR 111.160"
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/innomark-inc-657518-09012023"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -64,11 +64,7 @@ A visual "it looks like ashwagandha" can be part of an examination. It is not HP
 
 If they have never rejected a drum, they are lucky or they are not looking. Either way, write it down.
 
-## What this is not
-
-Quarantine is not a consumer claim. Do not advertise "quarantine tested" as if it were a disease shield.
-
-It is a status. Status has to be physical. ## Damaged bags are a receiving event
+## Damaged bags are a receiving event
 
 A torn 25 kg bag of botanical, tape over the tear, "it's fine." That bag is not representative of the lot in the way you hoped, and it is a contamination path. Photograph, quarantine separately, decide. Do not issue the torn bag into a vegan SKU and the intact bags into something else without a record.
 
@@ -81,5 +77,11 @@ The cage can look perfect at 10 a.m. on a tour. The test is 7 p.m., when a blend
 Ask to see the last override. If there has never been one in a plant that runs two shifts, they are lucky or the override is verbal. Verbal is how a quarantined botanical with a pending HPTLC becomes tonight's blend.
 
 Write the rule: no issue from quarantine, no verbal override, every override is a deviation (piece 27). Then watch one evening if you can. The evening is the SOP.
+
+## What this is not
+
+Quarantine is not a consumer claim. Do not advertise "quarantine tested" as if it were a disease shield.
+
+It is a status. Status has to be physical.
 
 A polite sign on an open pallet is interior decorating.

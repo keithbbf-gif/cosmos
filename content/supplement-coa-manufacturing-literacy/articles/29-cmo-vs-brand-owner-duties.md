@@ -16,14 +16,14 @@ citations:
   - "21 CFR 111.123"
   - "21 CFR 111.553"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit or a contract form.
 
 Piece 05 said the brand still owns the labeled bottle. This piece splits the *work*. The Act does not vanish because you split it. The quality agreement is how you avoid two people each thinking the other ran identity.
 
-111.12 is personnel: people must be qualified for their jobs. That includes the brand person who approves labels and the CMO person who releases blends. An unqualified founder clicking "approve artwork" is a personnel problem.
+111.12 is the personnel rule: people must be qualified for their jobs. That includes the brand person who approves labels and the CMO person who releases blends. An unqualified founder clicking "approve artwork" is a personnel problem.
 
 ## A split that usually works
 

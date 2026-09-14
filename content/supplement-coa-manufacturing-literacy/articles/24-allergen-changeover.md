@@ -15,7 +15,7 @@ citations:
   - "21 CFR 111.155"
   - "21 CFR Part 117 (allergen preventive controls, when applicable)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit. Allergen labeling is a food-labeling duty, not a treatment claim.
@@ -63,10 +63,6 @@ A finished-product ELISA for a specific allergen is a tool, not a personality. U
 
 If the tour guide does not know which allergens enter the building, the quality unit is a lobby wall.
 
-## What this is not
-
-An allergen program is not a medical-advice program. It is how you keep the panel honest and the gasket empty.
-
 ## Shared scoops
 
 A stainless scoop on a string is communal property and an allergen vector. Label scoops by allergen family, or use dedicated scoops, or use single-use. A wash at the end of the day does not help the vegan blend you ran at 10 a.m. after whey at 8.
@@ -80,3 +76,7 @@ The flavor house allergen statement in the file says "does not contain milk." Th
 Incoming is where this dies or lives (piece 20). Put an expiry on allergen statements — 12 months, or on any plant change — and refuse issue without a current one for high-risk flavors. Then decide whether lots already shipped need a complaint-file note and a retailer notice. That decision is counsel plus quality, not a PDP rewrite alone.
 
 Clean the line. Then print "vegan." Not the other way around.
+
+## What this is not
+
+An allergen program is not a medical-advice program. It is how you keep the panel honest and the gasket empty.

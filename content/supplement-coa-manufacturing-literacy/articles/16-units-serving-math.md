@@ -14,7 +14,7 @@ citations:
   - "https://oehha.ca.gov/proposition-65/chemicals/lead"
   - "21 CFR 111.70"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -96,9 +96,7 @@ The panel also sold the second scoop. 0.48 × 2 = 0.96 mcg/day if a customer fol
 
 Write the rule: convert at **maximum labeled daily use**, not at the serving you wish customers would pick. If that number is ugly, change the suggested use, change the formula, or take the warning conversation to counsel. Do not hide the second scoop in a footnote.
 
-## Keep the worksheet in the lot folder
-
-A one-page sheet: result, unit, grams per serving, max servings/day, per-day number, spec, pass/fail, initials. When the 3PL asks in November, you attach that page. You do not rebuild from a phone photo of a COA.
+Keep the worksheet in the lot folder (steps 1–8 above). When the 3PL asks in November, attach that page. You do not rebuild from a phone photo of a COA.
 
 If two people cannot get the same per-day number from the same COA, the unit story is not done.
 
@@ -107,5 +105,3 @@ If two people cannot get the same per-day number from the same COA, the unit sto
 Correct arithmetic is not an efficacy claim. 129.6 mcg D3 is a number. It does not treat anything.
 
 It is also not legal advice about warnings. It is the number you hand to the person whose job is the warning.
-
-ppm is not mcg/day. Multiply. Then ship. Not the other way around.

@@ -13,7 +13,7 @@ citations:
   - "21 CFR 111.75(h)"
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/lxr-biotech-llc-714568-12232025"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -78,7 +78,7 @@ Not allowed: a 17025 logo on a page about a lot the scoped lab never saw.
 
 ## Proficiency testing is the quiet page
 
-A 17025 lab should have proficiency-test results for scoped methods. You do not need to audit PT every month. You can ask, once, whether they participate for ICP-MS metals in a food/supplement matrix. A blank stare is information. A certificate and a recent PT summary is the adult answer.
+A 17025 lab should have proficiency-test results for scoped methods. You do not need to audit PT every month. You can ask, once, whether they participate for ICP-MS metals in a food/supplement matrix. A blank stare is information. A certificate and a recent PT summary are the adult answer.
 
 In-house labs can enroll in PT too. If they never have, the Friday conflict has less outside gravity (piece 38).
 

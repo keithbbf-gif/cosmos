@@ -15,7 +15,7 @@ citations:
   - "21 CFR 111.410"
   - "21 CFR 111.415"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -85,4 +85,4 @@ If the panel says "hypromellose capsule" and the plant ran gelatin because the v
 
 Read other ingredients out loud. It feels petty. It is how you avoid a vegetarian claim on a gelatin lot.
 
-If one document disagrees, stop. Do not fix it in marketing copy. Fix the document that is wrong, then reprint, then test. Then ship.
+Fix the document that is wrong, then reprint, then test. Then ship.

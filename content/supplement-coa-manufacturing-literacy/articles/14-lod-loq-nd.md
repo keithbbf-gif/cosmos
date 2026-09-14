@@ -14,7 +14,7 @@ citations:
   - "ISO/IEC 17025"
   - "USP general chapters on validation of compendial procedures (as adopted)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -85,7 +85,7 @@ Lab LOQ: 0.10 ppm. Result: ND. Stamp: PASS.
 
 The method cannot see your spec. An ND here means "below 0.10 ppm," which at 12 g is "below 1.2 mcg/serving." That number sits above the 0.5 mcg/serving spec and above the OEHHA lead MADL (piece 09). The PASS is a category error.
 
-Fix: a method with LOQ ≤ spec, or a spec the method can see — and then a honest conversation about whether that spec is one you want to sell. Do not keep the tight spec and the blind method on the same page.
+Fix: a method with LOQ ≤ spec, or a spec the method can see — and then an honest conversation about whether that spec is one you want to sell. Do not keep the tight spec and the blind method on the same page.
 
 ## How to ask a lab without sounding theatrical
 

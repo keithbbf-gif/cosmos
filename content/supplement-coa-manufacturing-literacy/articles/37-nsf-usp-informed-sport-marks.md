@@ -15,7 +15,7 @@ citations:
   - "https://sport.wetestyoutrust.com/"
   - "21 CFR 111"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit. A program mark is not an efficacy claim.
@@ -44,7 +44,7 @@ Batch testing against a banned-substance screen, plus manufacturing quality comp
 
 - The ingredient treats a disease.
 - FDA approved the SKU.
-- Every bottle was tested if the program is lot-based, say "lot-tested" and keep the lot in the program.
+- Programs are lot-based, not bottle-based. Say "lot-tested" and name the lot in the program.
 - Last year's listing covers this year's formula revision. A label change can be a new SKU to the program.
 
 If you drop out of the program, remove the artwork. A leftover logo is a claim.

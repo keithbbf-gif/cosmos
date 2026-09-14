@@ -15,7 +15,7 @@ citations:
   - "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111"
   - "ISO/IEC 17025"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -84,7 +84,5 @@ File the PDF with the batch record, the approved spec, the label PDF, and the pu
 ## What this pack is for
 
 The next forty-three pieces teach the rows, the plant, and the contract. This piece is only the object.
-
-A COA is a signed statement about a lot. Treat it like a bank statement. Match the account. Match the date. Match the amount. If you would not accept a statement that said "conforms" with no figure, do not accept that sentence on a potency row.
 
 Quality is not a vibe and it is not a stock photo (see `PHOTO_NOTES.md`). It is a lot number you can defend.

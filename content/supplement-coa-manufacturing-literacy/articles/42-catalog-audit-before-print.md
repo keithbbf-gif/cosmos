@@ -16,7 +16,7 @@ citations:
   - "21 U.S.C. § 350b"
   - "FTC Health Products Compliance Guidance (December 2022)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -82,10 +82,4 @@ SKU D: a sport powder with an NSF logo in the first design file. Directory searc
 
 That is one hour. It saves four print POs and one marketplace removal. Do it before photography.
 
-## Four SKUs is enough to fail
-
-You do not need forty rows to make a mess. Four catalog SKUs with two disease adjectives, one hemp gummy, and a "USP" logo that is not in the directory will do it. Audit those four before you hire a photographer.
-
 If a SKU cannot survive the ten lines, it does not get a mood board. It gets a kill.
-
-A catalog is a menu. A label is a representation. Audit the menu. Then print the representation. Not the other way around.

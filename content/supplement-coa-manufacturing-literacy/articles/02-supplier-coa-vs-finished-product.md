@@ -17,7 +17,7 @@ citations:
   - "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/western-innovations-inc-679737-11132024"
   - "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -77,7 +77,7 @@ Write that split into the quality agreement before the first purchase order. A h
 
 ## The serving-day trap
 
-An incoming COA reports lead as 0.4 ppm in the extract. That looks small. Your serving uses 600 mg of that extract. 0.4 mg/kg × 0.6 g = 0.24 mcg from that ingredient alone, before the rest of the formula, before California math (piece 09, piece 16). The incoming row was not wrong. The founder who pasted "0.4 ppm" onto a product page as if it were the daily exposure was wrong.
+An incoming COA reports lead as 0.4 ppm in the extract. That looks small. Your serving uses 600 mg of that extract. 0.4 mcg/g (0.4 ppm) × 0.6 g = 0.24 mcg from that ingredient alone, before the rest of the formula, before California math (piece 09, piece 16). The incoming row was not wrong. The founder who pasted "0.4 ppm" onto a product page as if it were the daily exposure was wrong.
 
 Finished-product metals belong on a finished-product COA, in units that match the spec, converted to mcg per serving and mcg per day when a warning statute or a retailer desk asks for that number.
 

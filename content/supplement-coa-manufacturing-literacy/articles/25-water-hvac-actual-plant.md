@@ -15,7 +15,7 @@ citations:
   - "21 CFR 111.20"
   - "USP water monographs (as adopted for the process)"
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 **Disclaimer.** Educational only. Not medical advice. Dietary supplements are not intended to diagnose, treat, cure, or prevent any disease (DSHEA; 21 U.S.C. § 321(ff); 21 CFR 101.93). This is not legal advice and not an audit.
@@ -64,10 +64,6 @@ Not allowed: a stock photo of a sterile suite you do not lease (`PHOTO_NOTES.md`
 
 A powder-only room can be simple and still be in control. A liquid, a gummy, or an emulsion wants hygienic design: weld quality, dead legs, a CIP story or a take-apart story, and a hold-time. If your CMO is a powder plant that "also does shots," walk the tank twice.
 
-## What this is not
-
-A tidy plant is not an efficacy claim. It is a condition of manufacture.
-
 ## Pest maps that ended
 
 Ask for the current pest-control map and the last service ticket. A binder from a prior tenant is a costume. Look at the dry-botanical corner and the dock. If you see evidence and they say "we don't have a problem," you have a sanitation sentence for the quality agreement: current map, tickets on request, notice of activity in rooms that hold your lots.
@@ -78,8 +74,12 @@ You do not need to become a pest expert. You need a map that is this year's.
 
 A powder blender is "dry cleaned" most days and wet-cleaned on Fridays. The Friday hose lives in a coil on the floor, nozzle in a puddle, because the hook broke in March. That hose is the water system. It is also the micro system (piece 10).
 
-Fix: hook, off the floor, a flush before use, a written Friday clean that includes the hose. Cheap. The ISO-7 sentence on the website is expensive and false. Do the hook first. Then decide whether you still want the adjective.
+Fix: hook, off the floor, a flush before use, a written Friday clean that includes the hose. Cheap. The ISO 7 sentence on the website is expensive and false. Do the hook first. Then decide whether you still want the adjective.
 
 If you walk one thing besides quarantine, walk the hose.
 
 Do not sell the lobby. Walk the drain. Then write the sentence you can defend.
+
+## What this is not
+
+A tidy plant is not an efficacy claim. It is a condition of manufacture.
