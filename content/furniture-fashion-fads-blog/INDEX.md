@@ -7,7 +7,7 @@ Editorial blog drafts with embedded schematic graphics (timelines, style cycles,
 | [GRAPHICS_INDEX.md](GRAPHICS_INDEX.md) | Master list of slugs, SVG paths, captions |
 | [GRAPHICS_STYLE.md](GRAPHICS_STYLE.md) | Design tokens and figure types |
 | `graphics-manifest.json` | Machine-readable catalog |
-| `articles/` | Draft stubs with embedded `<figure>` blocks |
+| `articles/` | 44 magazine drafts with embedded `<figure>` blocks (`voice_check: human`) |
 | `embeds/` | Copy-ready figure HTML per slug |
 | `assets/<slug>/` | SVG figures |
 
