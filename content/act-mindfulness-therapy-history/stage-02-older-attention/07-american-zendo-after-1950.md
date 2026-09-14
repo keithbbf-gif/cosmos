@@ -12,8 +12,8 @@ status: draft
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
 <figure class="blog-figure">
-  <img src="../assets/images/ryoanji-zen-garden.jpg" alt="Ryoan-ji rock garden in Kyoto, Japan" width="720" loading="lazy" decoding="async" />
-  <figcaption><strong>Figure.</strong> Zendo culture traveled as practice and building — garden as period atmosphere, not your clinic. Photo: 663highland, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+  <img src="../assets/shared/svg/act-societies-map.svg" alt="Schematic map of western zendo and retreat program cities" width="720" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Post-1950 zendos are places and lineages — map, not a stock cushion. <em>Schematic map (CC0).</em></figcaption>
 </figure>
 
 In 1962, Shunryu Suzuki and students established the San Francisco Zen Center. In 1970, Weatherhill published *Zen Mind, Beginner's Mind*, talks compiled with the help of Trudy Dixon and others. Those two dates are enough to locate a room that later clinicians walked through, sat in, or read on a couch and then cited as if a paperback were a transmission.

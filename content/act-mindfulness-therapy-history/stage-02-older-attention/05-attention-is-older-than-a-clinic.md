@@ -12,8 +12,8 @@ status: draft
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
 <figure class="blog-figure">
-  <img src="../assets/images/ryoanji-zen-garden.jpg" alt="Zen rock garden as attention practice setting" width="720" loading="lazy" decoding="async" />
-  <figcaption><strong>Figure.</strong> Attention predates billing codes — garden as licensed atmosphere only. Photo: 663highland, Wikimedia Commons (CC BY-SA 3.0).</figcaption>
+  <img src="../assets/shared/svg/mindfulness-west-document-timeline.svg" alt="Document timeline placing attention practices before clinic billing" width="720" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Attention is older than CPT codes — dates on documents, not outcome claims. <em>Schematic timeline.</em></figcaption>
 </figure>
 
 In September 1979, a molecular biologist turned hospital teacher opened an outpatient program in Worcester, Massachusetts, and eventually taught the English-speaking medical world to say *mindfulness* as if the word had been waiting in the corridor. The program was new. The sitting was not.
