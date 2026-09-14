@@ -2,7 +2,7 @@
 title: "Country Pins and Town Pins"
 slug: country-pins-and-town-pins
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1647
 dek: "Pin size is time and money. Fine London pins and chunky country pins are two payrolls, not two virtues. Spacing is shop practice, not a moral."
 series: drawer-construction-history

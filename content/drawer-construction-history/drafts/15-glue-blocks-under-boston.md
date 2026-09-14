@@ -2,7 +2,7 @@
 title: "Glue Blocks Under Boston"
 slug: glue-blocks-under-boston
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1547
 dek: "John and Thomas Seymour’s Boston drawers, in Mussey’s account, put bottoms in grooves and then added kerfed glue blocks underneath, planed flush as wear pads. The block is a slip’s cousin. It can also lock the floor and split it."
 series: drawer-construction-history

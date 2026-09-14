@@ -2,7 +2,7 @@
 title: "A Slip That Widens the Wear"
 slug: a-slip-that-widens-the-wear
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1605
 dek: "An English slip is architecture: extra wood where the drawer meets the runner, a groove that does not cut the side in half. Hayward and the price-book witnesses are related, not identical. Hedge the century."
 series: drawer-construction-history

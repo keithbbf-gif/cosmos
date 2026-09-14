@@ -2,7 +2,7 @@
 title: "Tansu Pegs, Not Tails"
 slug: tansu-pegs-not-tails
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1643
 dek: "A tansu drawer is often a pegged rebate at the front, a pegged finger at the back, and a bottom glued and pinned to the box. Kiri linings, bamboo or wood pegs, splits in the floor. It is not a failed European dovetail."
 series: drawer-construction-history

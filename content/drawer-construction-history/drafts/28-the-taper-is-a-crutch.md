@@ -2,7 +2,7 @@
 title: "The Taper Is a Crutch"
 slug: the-taper-is-a-crutch
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1551
 dek: "A drawer a little narrower at the back starts easier. The same taper can hide a twisted case. One of those is craft. The other is a lie the next shop will have to unwind."
 series: drawer-construction-history

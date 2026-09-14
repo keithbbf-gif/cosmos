@@ -2,7 +2,7 @@
 title: "A Nailed Rabbet Is a Clock"
 slug: a-nailed-rabbet-is-a-clock
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1490
 dek: "Nailed rabbets turn up in early crude boxes, later country work, and later cheap factory drawers. The joint is not automatically bad. It is a clock that never fully stopped, so you read it with other hands — nail type, species, the rest of the case."
 series: drawer-construction-history

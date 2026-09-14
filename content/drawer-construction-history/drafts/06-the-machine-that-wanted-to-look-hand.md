@@ -2,7 +2,7 @@
 title: "The Machine That Wanted to Look Hand"
 slug: the-machine-that-wanted-to-look-hand
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1636
 dek: "Machine-cut dovetails around 1895 and after are a dating clock because they are even. Symmetry is a year-class, not a virtue. A hand tail can still be cut on a Tuesday."
 series: drawer-construction-history

@@ -2,7 +2,7 @@
 title: "Through Tails Under the Veneer"
 slug: through-tails-under-the-veneer
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1361
 dek: "Second-half 17th-century walnut often meant a deal front, a coarse through dovetail, and veneer asked to hide the end grain. The joint comes back as a telegraph. Hayward already drew the scar."
 series: drawer-construction-history

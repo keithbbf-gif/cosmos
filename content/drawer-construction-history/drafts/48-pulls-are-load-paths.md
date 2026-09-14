@@ -2,7 +2,7 @@
 title: "Pulls Are Load Paths"
 slug: pulls-are-load-paths
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1515
 dek: "A bail, a drop, a wood knob, a cup, a flush campaign pull: each one is a handle bolted to a front that is already a pin wall. The front is an abutment. Screws have a length. Pulls fail as load paths, not as jewelry."
 series: drawer-construction-history

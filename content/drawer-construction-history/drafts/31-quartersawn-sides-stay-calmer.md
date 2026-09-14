@@ -2,7 +2,7 @@
 title: "Quartersawn Sides Stay Calmer"
 slug: quartersawn-sides-stay-calmer
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1616
 dek: "A drawer side’s height is the cross-grain. Quartersawn oak or walnut moves less in that width. It is not magic. It costs more, and the ray fleck is a show when the drawer is open."
 series: drawer-construction-history

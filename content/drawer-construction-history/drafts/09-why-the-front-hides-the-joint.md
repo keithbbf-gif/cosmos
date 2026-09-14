@@ -2,7 +2,7 @@
 title: "Why the Front Hides the Joint"
 slug: why-the-front-hides-the-joint
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1576
 dek: "Half-blind dovetails are the drawer-front religion: the show face stays a skin. Through tails belong at the back. The joint is allowed to be loud where no one sits."
 series: drawer-construction-history

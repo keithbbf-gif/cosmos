@@ -2,7 +2,7 @@
 title: "Kickers, Runners, Stops"
 slug: kickers-runners-stops
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1659
 dek: "Three woods keep a drawer honest: a runner under the side, a kicker above so the box does not dive, and stops so flush is flush and the back does not blow out. Side-hung already has its own essay — a nod, not a retelling."
 series: drawer-construction-history

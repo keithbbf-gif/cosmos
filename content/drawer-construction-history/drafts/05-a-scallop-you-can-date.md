@@ -2,7 +2,7 @@
 title: "A Scallop You Can Date"
 slug: a-scallop-you-can-date
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1699
 dek: "A Knapp pin-and-cove is a North American factory clock you can feel with a thumbnail. Presence is a terminus post quem in the early 1870s. Absence proves nothing."
 series: drawer-construction-history

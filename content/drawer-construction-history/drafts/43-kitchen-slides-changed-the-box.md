@@ -2,7 +2,7 @@
 title: "Kitchen Slides Changed the Box"
 slug: kitchen-slides-changed-the-box
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1474
 dek: "A catalog slide writes the box: width, side thickness, notch, hook. Blum starts as horseshoe studs in 1952; roller runners and TANDEM come later on Blum’s own timeline. Accuride comes out of industrial slides. Wood runners are not obsolete. They are a different product."
 series: drawer-construction-history

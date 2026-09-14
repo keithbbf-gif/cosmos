@@ -2,7 +2,7 @@
 title: "Bottoms Run Side to Side"
 slug: bottoms-run-side-to-side
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1651
 dek: "Early drawer bottoms often ran back to front and split on the short span. Late-18th-century habit turns the grain side to side, grooved in the sides, free at the back. Hayward names the change. Hoadley explains the move."
 series: drawer-construction-history

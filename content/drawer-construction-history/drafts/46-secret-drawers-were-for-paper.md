@@ -2,7 +2,7 @@
 title: "Secret Drawers Were for Paper"
 slug: secret-drawers-were-for-paper
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1605
 dek: "An 18th-century writing desk hid paper before it hid a party trick. Wells, false backs, springs, and tills are cousins: a box that does not announce itself. Do not invent a famous desk. Do not sell a gimmick as the first purpose."
 series: drawer-construction-history

@@ -2,7 +2,7 @@
 title: "French Dovetail Is a Kitchen Word"
 slug: french-dovetail-is-a-kitchen-word
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1523
 dek: "In the American kitchen trade, a French dovetail is a sliding dovetail: the side runs into a long socket in the front. It is a machine joint with a catalog name. It is not French cabinetmaking, and it is not a secret miter."
 series: drawer-construction-history

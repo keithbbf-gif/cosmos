@@ -2,7 +2,7 @@
 title: "When a Dado Is Enough"
 slug: when-a-dado-is-enough
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1631
 dek: "A drawer back may live in a housing. The joint is allowed to be quiet. Through tails are not mandatory at the rear. The dado fails when the bottom is asked to be the only lock, or when the slot is a rumor."
 series: drawer-construction-history

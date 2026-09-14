@@ -2,7 +2,7 @@
 title: "Plywood Bottoms Are a Contract"
 slug: plywood-bottoms-are-a-contract
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1619
 dek: "A plywood floor moves like a panel, not like a board. You may glue it. You must say so. A solid bottom is not morally better. Kitchens and sitting rooms sign different weather."
 series: drawer-construction-history

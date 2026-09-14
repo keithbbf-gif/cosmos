@@ -1,6 +1,6 @@
 # Manifest — Drawer construction history
 
-Body-copy word counts (front matter excluded; `<!-- PHOTO -->` comments stripped). Recounted after thicken/QA (2026-09-14). All essays `status: draft`, `voice_check: human`.
+Body-copy word counts (front matter excluded; `<!-- PHOTO -->` comments stripped). Recounted after thicken/QA (2026-09-14). Editor pass (2026-09-14): all essays `status: draft`, `voice_check: edited`.
 
 | # | slug | file | topic | words |
 |---|---|---|---|---|

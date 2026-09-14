@@ -2,7 +2,7 @@
 title: "A Router Bit Named Drawer Lock"
 slug: a-router-bit-named-drawer-lock
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1492
 dek: "A drawer-lock bit cuts a locking rabbet: production joinery with a name on the shank. It is a 20th-century kitchen joint. It is strong enough for pots. It is not 1780, and staining it will not make it so."
 series: drawer-construction-history

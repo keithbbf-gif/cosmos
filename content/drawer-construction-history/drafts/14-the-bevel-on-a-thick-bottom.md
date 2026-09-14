@@ -2,7 +2,7 @@
 title: "The Bevel on a Thick Bottom"
 slug: the-bevel-on-a-thick-bottom
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1548
 dek: "A solid drawer bottom can be thick in the field and skinny at the rim. The bevel is a ticket into a groove, not a door panel with a different job. Eighteenth-century boxes used the trick because a thin board throughout is a floor that drums."
 series: drawer-construction-history

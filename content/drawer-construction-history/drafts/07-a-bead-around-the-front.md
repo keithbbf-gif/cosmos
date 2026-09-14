@@ -2,7 +2,7 @@
 title: "A Bead Around the Front"
 slug: a-bead-around-the-front
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1630
 dek: "Cockbeading is 18th-century edge armor that throws a shadow. It sits in a rebate at the sides and bottom, later a full-width bead at the top. It is not a kitchen overlay lip."
 series: drawer-construction-history

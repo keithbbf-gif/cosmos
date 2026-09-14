@@ -1,6 +1,6 @@
 # Drawer Construction History — Index
 
-**Status:** staged writing. Every essay is `status: draft`. Photo slots stay `needed` until a real file is pulled from `D:\BBF`.
+**Status:** staged writing. Every essay is `status: draft`, `voice_check: edited` (editor pass 2026-09-14). Photo slots stay `needed` until a real file is pulled from `D:\BBF`.
 
 **Count:** 48 essays. Body words: 74,265 (range 1353–1699).
 

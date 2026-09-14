@@ -2,7 +2,7 @@
 title: "A Groove That Rides the Runner"
 slug: a-groove-that-rides-the-runner
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1353
 dek: "Early drawers often hung from their sides. A groove in the side boarded a runner fixed to the carcase. It looks backwards until you open a 17th-century case and feel the hang."
 series: drawer-construction-history

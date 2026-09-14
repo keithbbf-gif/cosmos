@@ -2,7 +2,7 @@
 title: "The Baseline Is the Joint"
 slug: the-baseline-is-the-joint
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1512
 dek: "A marking gauge set to the thickness of the mate is the whole religion. The line you chop to is that thickness, not a number you liked on Tuesday. Pins stand proud of the line so you can plane them. Miss the line and you have missed the box."
 series: drawer-construction-history

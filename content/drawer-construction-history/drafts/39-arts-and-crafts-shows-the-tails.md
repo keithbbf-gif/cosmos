@@ -2,7 +2,7 @@
 title: "Arts and Crafts Shows the Tails"
 slug: arts-and-crafts-shows-the-tails
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1505
 dek: "Stickley-era through tails on a drawer side are honesty theater and a real joint. Quartersawn white oak is the other picture. Do not sneer at the theater. Do not worship the pin."
 series: drawer-construction-history

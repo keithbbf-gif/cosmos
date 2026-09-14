@@ -2,7 +2,7 @@
 title: "One Key and the Wardrobe Bolt"
 slug: one-key-and-the-wardrobe-bolt
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1517
 dek: "A half-mortise lock lives in the front the way a pin wall does: you cut a home for it. Escutcheons keep the keyhole from becoming a wound. One lock can shoot bolts into other drawers or a door. The lock is joinery’s neighbor."
 series: drawer-construction-history

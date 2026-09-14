@@ -2,7 +2,7 @@
 title: "Wax, Not the Spray"
 slug: wax-not-the-spray
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1525
 dek: "Paraffin, beeswax, a candle heel — those are the old lubricants. Silicone spray gums. Some oils oxidize into a future bind. Graphite has a place and it is dirty. This is the lubricant essay, not the clearance essay."
 series: drawer-construction-history

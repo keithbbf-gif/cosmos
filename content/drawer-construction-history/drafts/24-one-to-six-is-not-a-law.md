@@ -2,7 +2,7 @@
 title: "One-to-Six Is Not a Law"
 slug: one-to-six-is-not-a-law
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1639
 dek: "1:6 in softwood and 1:8 in hardwood is 20th-century shop-class. Eighteenth-century slopes vary, often steeper, often just visual. The angle is a choice with a failure mode."
 series: drawer-construction-history

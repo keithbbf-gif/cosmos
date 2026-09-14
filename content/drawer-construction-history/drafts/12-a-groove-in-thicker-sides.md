@@ -2,7 +2,7 @@
 title: "A Groove in Thicker Sides"
 slug: a-groove-in-thicker-sides
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1552
 dek: "American drawers more often plough the bottom groove in a thicker side. Greene’s 3/8 to 1/2 inch is the published meat. The slip stayed English because the lining stayed thin."
 series: drawer-construction-history

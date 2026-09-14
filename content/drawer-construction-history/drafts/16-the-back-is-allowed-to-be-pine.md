@@ -2,7 +2,7 @@
 title: "The Back Is Allowed to Be Pine"
 slug: the-back-is-allowed-to-be-pine
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1515
 dek: "Drawer backs run thinner than fronts, take through dovetails or a dado, and are often pine or poplar on purpose. The bottom passes under them or in a groove. Movement lives at the back. Humble is the job."
 series: drawer-construction-history

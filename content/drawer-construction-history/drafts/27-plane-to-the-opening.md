@@ -2,7 +2,7 @@
 title: "Plane to the Opening"
 slug: plane-to-the-opening
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1611
 dek: "Build the box fat. Shoot the sides and the top to the hole that exists. A tape measure is a rumor. Period drawers were made to openings, and each opening is its own."
 series: drawer-construction-history

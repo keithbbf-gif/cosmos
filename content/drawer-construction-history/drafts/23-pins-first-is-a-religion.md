@@ -2,7 +2,7 @@
 title: "Pins First Is a Religion"
 slug: pins-first-is-a-religion
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1652
 dek: "Hand work usually cuts tails first and transfers. Some traditions and most jigs cut pins first. A jig is a church. Sequence is not a moral score."
 series: drawer-construction-history

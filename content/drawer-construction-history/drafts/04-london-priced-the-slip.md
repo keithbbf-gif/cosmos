@@ -2,7 +2,7 @@
 title: "London Priced the Slip"
 slug: london-priced-the-slip
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1378
 dek: "A slip is a billed operation before it is a romance. The 1788 London Book of Prices has a line for slipping drawers. Piecework is how a city trade remembers what the bench already knew."
 series: drawer-construction-history

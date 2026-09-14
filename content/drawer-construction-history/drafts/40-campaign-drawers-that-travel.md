@@ -2,7 +2,7 @@
 title: "Campaign Drawers That Travel"
 slug: campaign-drawers-that-travel
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1550
 dek: "A campaign drawer is a box that has to survive a ship: flush pulls, brass corners and straps, locks, teak or mahogany, a case that comes apart. The hardware is luggage. The lining still has to be a lining."
 series: drawer-construction-history

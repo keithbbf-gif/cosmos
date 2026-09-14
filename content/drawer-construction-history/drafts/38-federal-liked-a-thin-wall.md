@@ -2,7 +2,7 @@
 title: "Federal Liked a Thin Wall"
 slug: federal-liked-a-thin-wall
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1452
 dek: "Hepplewhite and Sheraton, and the American Federal shops that read them, built drawers as trays: mahogany show, thin linings, a cockbead, inlays on a light case. Thin is the style. It is also the engineering."
 series: drawer-construction-history

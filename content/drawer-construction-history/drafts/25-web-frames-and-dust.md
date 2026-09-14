@@ -2,7 +2,7 @@
 title: "Web Frames and Dust"
 slug: web-frames-and-dust
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1653
 dek: "Dustboards and web frames do two jobs: they keep the lower drawer from wearing the upper drawer’s grit, and they keep the case from becoming a racking box. English high style often used full panels. Hayward’s runners are stub-tenoned and slot-screwed so a solid end can still move."
 series: drawer-construction-history

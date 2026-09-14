@@ -2,7 +2,7 @@
 title: "Secondary Wood Is Not a Slight"
 slug: secondary-wood-is-not-a-slight
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1524
 dek: "The room sees mahogany, walnut, cherry, pecan. The linings are poplar, pine, oak, chestnut — English deal when the trade said deal. Secondary wood is a job, not a apology. The show is allowed to be a different species than the box."
 series: drawer-construction-history

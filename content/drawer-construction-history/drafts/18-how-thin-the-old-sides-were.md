@@ -2,7 +2,7 @@
 title: "How Thin the Old Sides Were"
 slug: how-thin-the-old-sides-were
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1443
 dek: "Greene puts ordinary American 18th-century drawer sides at 3/8 to 1/2 inch. English sides often ran thinner because a slip carried the groove. Modern hobby boxes at 1/2 to 5/8 are frequently overbuilt. Thin is not weak if the corners are tails."
 series: drawer-construction-history

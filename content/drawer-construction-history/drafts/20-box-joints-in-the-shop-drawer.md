@@ -2,7 +2,7 @@
 title: "Box Joints in the Shop Drawer"
 slug: box-joints-in-the-shop-drawer
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1505
 dek: "Finger joints show up on shop drawers, tool chests, some campaign cousins, and the machine era that could cut them even. They are strong and they are visible. They are not period parlor jewelry, and they should not be asked to impersonate an 18th-century half-blind."
 series: drawer-construction-history

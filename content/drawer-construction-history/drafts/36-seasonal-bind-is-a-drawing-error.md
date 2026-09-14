@@ -2,7 +2,7 @@
 title: "Seasonal Bind Is a Drawing Error"
 slug: seasonal-bind-is-a-drawing-error
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1590
 dek: "A drawer that swells into its hole was specified that way. Clearance, grain, and a glued floor are drawing decisions. Weather is the auditor. It is not the author."
 series: drawer-construction-history

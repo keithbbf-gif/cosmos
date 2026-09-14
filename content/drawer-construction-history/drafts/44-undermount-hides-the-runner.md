@@ -2,7 +2,7 @@
 title: "Undermount Hides the Runner"
 slug: undermount-hides-the-runner
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1584
 dek: "A concealed slide puts the steel under the box so the customer sees wood. The box still owes squareness, a spec thickness, and locking devices. Soft-close is a damper. What the runner hides is itself. What it reveals is a crooked case."
 series: drawer-construction-history

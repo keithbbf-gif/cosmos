@@ -2,7 +2,7 @@
 title: "Cedar in the Bottom"
 slug: cedar-in-the-bottom
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1448
 dek: "Aromatic red cedar smells like a moth story. It is still a board. Glue it all around and it splits. The smell fades. A lining is not a spell."
 series: drawer-construction-history

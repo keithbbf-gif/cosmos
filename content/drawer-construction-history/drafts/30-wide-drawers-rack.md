@@ -2,7 +2,7 @@
 title: "Wide Drawers Rack"
 slug: wide-drawers-rack
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1569
 dek: "A wide box is a parallelogram waiting for a one-handed pull. People call the corner hit humidity. It is geometry. Center guides and center runners are the old answer. File drawers make the argument loud."
 series: drawer-construction-history

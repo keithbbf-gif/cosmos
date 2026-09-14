@@ -2,7 +2,7 @@
 title: "The Lid That Would Not Leave"
 slug: the-lid-that-would-not-leave
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1403
 dek: "A drawer starts as a till inside a chest. The lid stays on the language long after the case has filled with sliding boxes. Mid-17th-century English work is when the pretense finally drops."
 series: drawer-construction-history
@@ -47,7 +47,7 @@ Do not date a piece by the word. Date it by whether the lid is still load-bearin
 
 ## Drawers behind doors
 
-Another early habit, easy to miss if you only look at later mahogany stacks: the drawers lived *behind doors*. The case still wanted to be a cupboard. The sliding boxes were an interior convenience, not the face the room saw. FWW notes that even after chests filled entirely with drawers, many kept a lid on top. The chest was a stubborn idea. It had been the furniture of record for a long time. You do not drop a lid because a joiner in London had a better Saturday.
+Another early habit, easy to miss if you only look at later mahogany stacks: the drawers lived *behind doors*. The case still wanted to be a cupboard. The sliding boxes were an interior convenience, not the face the room saw. Fine Woodworking notes that even after chests filled entirely with drawers, many kept a lid on top. The chest was a stubborn idea. It had been the furniture of record for a long time. You do not drop a lid because a joiner in London had a better Saturday.
 
 When I see doors over drawers on a later piece, I do not automatically call it “early.” People still build bar cabinets that way. The early tell is the *combination*: thick joined oak, crude hang, a lid or a pair of doors that is doing the old job, and drawers that look like they were invented last winter. Hayward, writing for *The Woodworker*, puts the surprise where it belongs: it is astonishing, once you notice it, how late the sliding box becomes ordinary. He will not give you a fake year. Neither will I. Mid-17th-century England is the period the published record keeps pointing at for a case that has abandoned the chest pretense. [VERIFY] any tighter year before you print it on a tag.
 

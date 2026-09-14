@@ -2,7 +2,7 @@
 title: "Tails Live on the Sides"
 slug: tails-live-on-the-sides
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1487
 dek: "Tails belong on the drawer sides and pins on the front so a pull cannot strip the face off the box. Orientation is the joint. Reverse it and the handle writes a failure."
 series: drawer-construction-history

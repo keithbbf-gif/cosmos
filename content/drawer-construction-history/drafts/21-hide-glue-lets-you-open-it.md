@@ -2,7 +2,7 @@
 title: "Hide Glue Lets You Open It"
 slug: hide-glue-lets-you-open-it
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1448
 dek: "Hide glue is the drawer shop’s reversible contract. Heat and moisture will open a slip, a block, a starved tail. PVA under a loaded bottom can creep. Do not turn a pot into a number. The religion is whether you can get back in."
 series: drawer-construction-history

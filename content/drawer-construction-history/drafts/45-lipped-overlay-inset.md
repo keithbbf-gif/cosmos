@@ -2,7 +2,7 @@
 title: "Lipped, Overlay, Inset"
 slug: lipped-overlay-inset
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1642
 dek: "A drawer front meets the rail three ways: flush in the hole, a rabbeted lip that covers the gap, or a front that sits on the frame. Period work, American country, and the 20th-century kitchen each picked a meeting. Dating follows the meeting. So does the shop."
 series: drawer-construction-history

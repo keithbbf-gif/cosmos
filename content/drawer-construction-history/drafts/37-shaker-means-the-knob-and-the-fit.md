@@ -2,7 +2,7 @@
 title: "Shaker Means the Knob and the Fit"
 slug: shaker-means-the-knob-and-the-fit
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1490
 dek: "Shaker drawers are a habit: half-blind boxes, a wooden knob, usually no cockbead, pine or cherry or maple, and a fit you can live with every day. Museum catalogs are the witness. A font is not."
 series: drawer-construction-history
