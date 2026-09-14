@@ -48,6 +48,26 @@ MOTIF_STAGES = (
 )
 STAGE_IDS = frozenset(s["id"] for s in MOTIF_STAGES)
 
+PORTFOLIO_STUDIO_SCHEMA = "cosmos-portfolio-studio/1"
+STAGE_PROJECTION_SCHEMA = "cosmos-profiles-stage-projection/1"
+TYPED_STATE_SCHEMA = "cosmos-profiles-typed-state/1"
+TRANSITION_SCHEMA = "cosmos-profiles-transition/1"
+
+# Jukebox queue words Studio heat may paint when live binding exists.
+JUKEBOX_QUEUE_WORDS = frozenset({"QUEUED", "RUNNING", "BROKE", "CLEAN", "FINDINGS"})
+STAGE_PROJECTION_LIVE_FIELDS = ("queue_word", "job_id", "heat_class")
+
+# Live typed-state vocabulary (engine notes are separate under engine.stages).
+TYPED_STATE_LIVE_VALUES = frozenset({
+    "UNMEASURED",
+    "QUEUED",
+    "RUNNING",
+    "STALE_RUNNING",
+    "CLEAN",
+    "BROKE",
+    "FINDINGS",
+})
+
 FORGE_DEST = (
     ("local", "Local file"),
     ("github", "GitHub — Gitur before the live tree"),
@@ -363,6 +383,120 @@ def save_engine(paths, body: dict) -> dict:
     return snapshot(paths, profile=row["id"], rec=out)
 
 
+def _unmeasured_live_slot(field: str) -> dict:
+    """Explicit empty live slot — never 0, never inferred."""
+    return {"field": field, "kind": "UNMEASURED", "value": None}
+
+
+def motif_transition_edges() -> list[dict]:
+    """Frozen MOTIF advance edges (SAVE does not walk these)."""
+    order = [s["id"] for s in MOTIF_STAGES]
+    edges: list[dict] = []
+    for i, fr in enumerate(order):
+        to = order[(i + 1) % len(order)]
+        edges.append({"id": "%s_to_%s" % (fr, to), "from_stage": fr, "to_stage": to})
+    edges[-1]["note"] = "ITERATE returns to PROBLEM STATEMENT / STATED GOAL"
+    return edges
+
+
+def portfolio_studio_contract() -> dict:
+    """Frozen Portfolio Studio schemas (contract only, not live Core)."""
+    return {
+        "stage_projection": {
+            "schema": STAGE_PROJECTION_SCHEMA,
+            "live_fields": list(STAGE_PROJECTION_LIVE_FIELDS),
+            "queue_words": sorted(JUKEBOX_QUEUE_WORDS),
+            "stage_ids": [s["id"] for s in MOTIF_STAGES],
+        },
+        "typed_state": {
+            "schema": TYPED_STATE_SCHEMA,
+            "live_values": sorted(TYPED_STATE_LIVE_VALUES),
+            "note": "Live jukebox/MOTIF fold only. Persisted notes live in engine.stages.",
+        },
+        "transition": {
+            "schema": TRANSITION_SCHEMA,
+            "allowed_edges": motif_transition_edges(),
+            "note": "WD2/driver when bound. GET /api/v1/profiles SAVE does not advance.",
+        },
+    }
+
+
+def _portfolio_stage_projection_live() -> list[dict]:
+    rows = []
+    for s in MOTIF_STAGES:
+        row = {"stage_id": s["id"], "n": s["n"]}
+        for field in STAGE_PROJECTION_LIVE_FIELDS:
+            row[field] = _unmeasured_live_slot(field)
+        rows.append(row)
+    return rows
+
+
+def _portfolio_typed_state_live() -> list[dict]:
+    return [
+        {"stage_id": s["id"], "n": s["n"], "state": "UNMEASURED", "since": None}
+        for s in MOTIF_STAGES
+    ]
+
+
+def portfolio_studio_fold(profile_id: str) -> dict:
+    """Portfolio Studio live fold for GET /api/v1/profiles (additive)."""
+    return {
+        "schema": PORTFOLIO_STUDIO_SCHEMA,
+        "profile": profile_id,
+        "contract": portfolio_studio_contract(),
+        "live": {
+            "kind": "UNMEASURED",
+            "source": "UNMEASURED",
+            "stage_projection": _portfolio_stage_projection_live(),
+            "typed_state": _portfolio_typed_state_live(),
+            "transition": {
+                "current": {
+                    "kind": "UNMEASURED",
+                    "edge_id": None,
+                    "from_stage": None,
+                    "to_stage": None,
+                    "at": None,
+                },
+            },
+        },
+        "note": (
+            "Live Core jukebox heat and MOTIF driver are not bound on this route "
+            "yet. Every live slot stays UNMEASURED — never inferred."
+        ),
+    }
+
+
+def portfolio_studio_live_is_honest(live: dict) -> bool:
+    """True when every unbound live field is explicitly UNMEASURED (not 0)."""
+    if not isinstance(live, dict):
+        return False
+    if live.get("kind") != "UNMEASURED" or live.get("source") != "UNMEASURED":
+        return False
+    cur = (live.get("transition") or {}).get("current") or {}
+    if cur.get("kind") != "UNMEASURED":
+        return False
+    for n in (cur.get("edge_id"), cur.get("from_stage"), cur.get("to_stage"), cur.get("at")):
+        if n == 0:
+            return False
+    for row in live.get("stage_projection") or []:
+        if not isinstance(row, dict):
+            return False
+        for field in STAGE_PROJECTION_LIVE_FIELDS:
+            slot = row.get(field) or {}
+            if slot.get("kind") != "UNMEASURED" or slot.get("value") is not None:
+                return False
+            if slot.get("value") == 0:
+                return False
+    for row in live.get("typed_state") or []:
+        if not isinstance(row, dict):
+            return False
+        if row.get("state") != "UNMEASURED" or row.get("since") is not None:
+            return False
+        if row.get("since") == 0:
+            return False
+    return True
+
+
 def _bg_fold(paths, profile_id: str) -> dict:
     if profile_id != "forge":
         return {"kind": "SKIP"}
@@ -399,6 +533,7 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "implement_was": "IMPROVE",
         "does_not_start_motif": True,
         "does_not_publish": True,
+        "portfolio_studio": portfolio_studio_fold(row["id"]),
         "note": (
             "Per-profile MOTIF skins. Website GC IMPLEMENT dest is staged / "
             "sandbox / publish / Gitur. SAVE does not start MOTIF and does "
@@ -520,6 +655,21 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+    ps = snap.get("portfolio_studio") or {}
+    check("Portfolio Studio contract frozen on GET /api/v1/profiles",
+          lambda: ps.get("schema") == PORTFOLIO_STUDIO_SCHEMA
+          and ps.get("profile") == "website"
+          and len((ps.get("contract") or {}).get("transition", {}).get("allowed_edges") or []) == 9
+          and len((ps.get("contract") or {}).get("stage_projection", {}).get("stage_ids") or []) == 9)
+    check("Portfolio Studio live fold is UNMEASURED (never inferred, never 0)",
+          lambda: portfolio_studio_live_is_honest(ps.get("live") or {}))
+    check("legacy profiles[] + engine + does_not_* unchanged with portfolio_studio",
+          lambda: isinstance(snap.get("profiles"), list)
+          and len(snap.get("profiles") or []) >= 7
+          and isinstance(snap.get("engine"), dict)
+          and snap.get("does_not_start_motif") is True
+          and snap.get("does_not_publish") is True
+          and len(snap.get("stages") or []) == 9)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
