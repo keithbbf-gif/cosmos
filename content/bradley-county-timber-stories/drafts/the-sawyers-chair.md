@@ -1,0 +1,46 @@
+---
+title: "The sawyer's chair"
+slug: the-sawyers-chair
+series: bradley-county-timber-stories
+status: staged
+voice_check: human
+reading_order: 17
+word_target: 1400-2200
+lane: bradleylumbercompany.com
+commerce: false
+tone: ken-burns
+era: "1900–1949"
+place: "Warren, Bradley County, Arkansas"
+---
+
+# The sawyer's chair
+
+The chair is not a throne. It is a station. No published payroll in this county names the man who sat in it. City directories by occupation, 1900–1940, remain a thin file. `[CITE NEEDED: a Warren city directory or mill time-clock card that lists sawyer as a job title with a name.]` The essay will not invent one. What it can do is sit where Balogh sat in 1900, in the description he later gave the state’s timber trade, and watch a log become a board without pretending we know who pulled the lever on a given Tuesday in Warren.
+
+In 1900, he wrote, timber processing was fairly straightforward. Contractors or company employees extended a logging railroad into the woods as needed, selected a tree, trimmed its branches, cut it down, rough-sawed it into manageable log sections, and skidded the sections to the railhead with mule teams. The sections rode company cars. At the mill they were sorted by size, cut into boards, planed, dried, and seasoned before they left by rail. The sentence is a process, not a portrait. The sawyer lives in one clause: *cut into boards*. Everything before that clause is woods work. Everything after is the planer, the kiln, the filer, the shipping clerk. The chair is the hinge.
+
+A large southern mill of that hour — Bradley at 100,000 board feet a day by 1907, Southern the same, Arkansas Lumber at 150,000 — did not cut with a homestead circular and a prayer. It cut with a carriage and a saw, circular first in the small plants, band saws in the plants that meant to stay. The type, paid only after Warren’s numbers, is consistent enough to speak without a novel. A log is rolled onto a carriage. Headblocks, uprights, take the face. Dogs — sharp metal — bite. A setworks, rack and pinion in the older rooms, moves the log the thickness of the next cut. The sawyer’s hand is on a lever that sends the carriage toward the blade. The first pass is often a slab, bark and waste. The carriage returns. The log is turned. The dogs bite again. Four faces make a cant. Then the boards come, and an off-bearer takes what the saw has made. Slabs and sawdust go to the burner or back to the boiler that is already heating the room. Balogh’s 1900 list does not linger on the chair. The chair is implied by the verb *cut*. A mill that posts 100,000 feet a day is a mill that cannot afford a romantic in that seat. It needs a man who can see grade in a log before the first dog bites.
+
+Thomas A. Carpenter’s 1891 mill was the first large one in Warren. The 1880s names — Shirey & Butler, Crandall & Leavitt, Edmondson, Glasgow & Temple, Lanark, Whittington, Parker & Kinard, Lowry & Taylor, J. E. Walker — were the circular-saw generation, local markets, no mixed-car letterhead. W. H. Wheeler started the plant Fullerton bought. The Fullerton sons came south to operate. Southern, 1902, from Lindsay & Ainsworth 1882, Weyerhaeuser and Denkman on the paper. Arkansas Lumber, 1901, Rittenhouse and Embree, Mansfield to establish. Three chairs, at least, by 1907, and under each chair a crew: setter, dogger, off-bearer, the men the photograph at the mill gate will not label. The 1930s group portrait of Bradley employees that ARGenWeb keeps — a wide photograph, possibly a WPA-era print, the seller on eBay unsure — is faces without jobs. A sawyer in that grid looks like every other man in a hat. That is the point of the chair. The skill is not a costume.
+
+Hardwood and pine do not sit the same in the dogs. Bradley advertised itself as a world’s large hardwood dealer and as a sawyer of Arkansas soft pine. A shortleaf log from the sandy hills is a different problem from a bottomland oak. Pine wants speed and a clean kerf. Oak wants a sawyer who will not waste a face that furniture stock can use. The peninsula between the Saline and the Ouachita grew both. Balogh’s state map has four rooms: Delta hardwood, Ozark mix, Ouachita pine-and-hardwood, southern yellow-pine hills. Bradley County is the southern room with a hardwood hallway along the water. The man in the chair, whoever he was on a given shift, had to know which room the log had come from. Joe Reaves, Sr., had already decided which ridge to buy. The sawyer decided which board the ridge would become.
+
+The filer, in the next essay, keeps the blade honest. The sawyer keeps the log honest. Between them they decide how much of a tree becomes lumber and how much becomes smoke. Recovery is the quiet word for that decision. A mill that must ship mixed cars — pine millwork, oak flooring stock, gum, hickory — cannot let a tired hand turn a furniture log into slabs. The chair is therefore a spend gate. The company did not call it that. The ledger did.
+
+War changed who might stand near the chair. When registration for the First World War began, the mills hired women. The dress rule was simple: dress to work, slacks on the floor, dress home. The encyclopedia does not say a woman sat the sawyer’s seat. `[CITE NEEDED: occupational breakdown of women hired at Bradley, Southern, or Arkansas Lumber, 1917–1919.]` The floor had many stations. The chair was one. Dignity here is not a claim the paper will not carry. It is the admission that the paper is thin and that the skill did not vanish when the draft took men.
+
+By the 1936 centennial sentence Bradley averaged more than a thousand employees. Rand Wood’s later-owner history gives about 1,100 in 1941; the figure is treated here as a later narrative, not as a 1901 proof. A thousand men and women are a town. A handful of them, at any hour, sat in chairs that could ruin a day’s cut in one bad set. The labor turnover, the company said, was at the minimum. Sawyers, if the boast is even partly true, stayed. Skill stays where the rent is half and the alternative is a farm that no longer pays.
+
+Monday, 3 January 1949, threw steel through the room the chair had occupied. Photographs in the ARGenWeb tornado set show wrecked blowpipes, a fallen stack, the power plant, the mill from Prospect Road. Purkins called the scene around the powerhouse vermicular. The stack had supplied power for more than a thousand workmen. Without power the carriage does not run. The chair is a piece of furniture. A sawyer without steam is a man in the rain. One thousand employees displaced. The encyclopedia’s Warren entry puts the funerals in church aisles, choirs in rotation. Some of those coffins held men who had known the lever. The paper does not say which. The refusal to invent a name is the same ethic after the storm as before it.
+
+Southern’s 1939 fire had already taught the town that a mill can be remade. Warner, sent from Cloquet to close Southern, kept it for second growth. Process orientation, Balogh’s later theme — less waste, smaller trees, more products — would ask the chair to cut differently. A virgin shortleaf three feet through is a nineteenth-century problem. A second-growth log is a twentieth-century one. The setter’s numbers change. The dogs bite a smaller face. The off-bearer takes a narrower board. The man in the chair, if he lived through both forests, had to learn a new grade without a new title.
+
+Potlatch bought the remaining plants in the 1950s. The chair became a station in a larger letterhead. After 2002, after 2008, after the credit suit that closed the Chambers mill, the station is an absence. What remains is the type, which may now be said because the particular has been paid: in mill-town America the sawyer is the skilled hour the photograph cannot caption. He is not the owner. He is not the filer. He is not the man who bought the timber. He is the decision that a log is this many boards and no more. Warren’s three mills employed, in 1907, a thousand and fifty men on the daily counts. The chairs were few. The boards were many.
+
+A later shop in this county that still works oak and pine — Bradley Brand Furniture among the afterlives, dating a hardwood practice from the mill’s first years — inherits the chair only as a ghost of judgment. A bench does not need a lever. It needs the memory that someone once sat still while a log moved, and that the stillness was the skill. The remaining object is not a named chair in a museum. It is the verb Balogh stacked with the others: cut. Sorted, cut, planed, dried, seasoned, shipped. Five verbs after the woods. One of them required a seat.
+
+## Sources
+
+Balogh, encyclopedia “Timber Industry” (2143), 1900 process paragraph; *Entrepreneurs in the Lumber Industry*. *Encyclopedia of Arkansas*, “Bradley County” (750); “Warren (Bradley County)” (840). Bradham 1951. Silva 2012. *Bradley County Centennial Magazine* (1936) as quoted in the 2016 commercial-district nomination. Purkins, *Eagle Democrat*, 10 January 1949; ARGenWeb tornado photograph captions. Rand Wood Products history page (later-owner 1941 figure). USDA Forest Products Laboratory, *Wood Handbook*, FPL-GTR-190 (species behavior only, as background to pine versus oak in the cut).
+
+See: `the-filer`, `dry-kilns-and-the-smell`, `hardwood-and-pine`, `the-mill-whistle`, `three-mills-one-town`.

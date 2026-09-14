@@ -1,0 +1,48 @@
+---
+title: "Three mills, one town"
+slug: three-mills-one-town
+series: bradley-county-timber-stories
+status: staged
+voice_check: human
+reading_order: 9
+word_target: 1400-2200
+lane: bradleylumbercompany.com
+commerce: false
+tone: ken-burns
+era: "1901–1910"
+place: "Warren, Bradley County, Arkansas"
+---
+
+# Three mills, one town
+
+Three numbers, one year. Southern Lumber Company: 100,000 board feet a day, 300 men. Bradley Lumber Company: 100,000 a day, 350 men. Arkansas Lumber Company: 150,000 a day, 400 men. 1907. The *Encyclopedia of Arkansas* sets those figures in the county entry as if they were civic weather, and they were. A town that had counted 954 souls in 1900 counted 2,057 in 1910. Doubled. The county, in the same decade, went from 9,651 to 14,518. One courthouse. Three stacks. The still is not a single mill gate. It is the knowledge, in a farm seat, that the whistle now came from more than one direction.
+
+The order of arrival is a short play. March 1901, if you follow the later Nelson summary of the same sources: Arkansas Lumber incorporated by Moses Rittenhouse and John Embree of Chicago, Mansfield of St. Louis to build it. September 1901: Bradley Lumber incorporated by Samuel Fullerton of St. Louis, the Wheeler mill underneath, Joe Reaves out buying timber. 1902: Southern Lumber, Weyerhaeuser and Denkman, grown from Lindsay and Ainsworth’s 1882 operation. By 1907 the three were not prospects. They were the town’s employment. Add the head-counts and you are near 1,050 men before you count the logging camps, the short-line crews, the independent teamsters, the women who are not in the 1907 sentence. A courthouse town of two thousand cannot absorb a thousand mill jobs without becoming a mill town. It did not stop being a courthouse town. That is the whole essay.
+
+Frank W. Gibb’s 1903 courthouse is the civic twin of those first mill years. Rusticated brick, towers of unequal height, a cupola, yellow and light brown. The clerk’s office of 1890 had already been the annex to the 1861 building and, on the 1907 Sanborn, the post office. Silva’s tour uses the 1907 map the way a novelist uses a clock. Warehouses north of the square. A skating rink that will become a YMCA corner. Grocery and furniture storage between First Street and the tracks. Frame businesses on East Elm that will become Catfish Row. The Sanborn does not draw the three mills as personalities. It draws a town that has outgrown Cabeens because three payrolls have arrived at once.
+
+Southern was the pine-belt Weyerhaeuser exception, a Lakes fortune in south Arkansas. Bradley was the hardwood boast, Fullerton’s plant the encyclopedia calls one of the world’s large dealers in that trade. Arkansas Lumber was the largest cut and the shortest life: 85,000 acres, gone by 1928. Three business models, one square. A worker could, in theory, hear three whistles and still buy groceries at McCann’s, which delivered, or at the commissary, which took scrip. The leaky fence is Warren’s type. Crossett’s fence was tighter. Do not go there. Stay on Main, which the 1931 Sanborn still remembers as Vine in parentheses.
+
+Population doubled is a phrase that can become a mood. Keep the ink. 1880: 301. 1890: 492. 1900: 954. 1910: 2,057. 1920: 2,145. The rail decade lifted the town off the farm-hamlet floor. The mill decade lifted it into a small city of the pine belt. After 1910 the growth slowed, then crawled — 2,523 in 1930, 2,516 in 1940 — while the county itself peaked at 18,097 in 1940 and then thinned as the plants modernized. The doubling is therefore a specific ten years, not a destiny. 1900 to 1910 is the hour three companies hired more men than the town had possessed as residents a generation earlier. Some of those men boarded. Some brought families. Some were Black workers the 1912 Sanborn would label, without courtesy, a “Negro Settlement” of twelve frame dwellings at Walnut and Ash. The census did not double only on the white side of Elm.
+
+The town that the mills paid for is the town Silva can still walk. Hurley Hardware, implements in the metal sheds behind. Gannaway Drug. The Sutherland Hotel, about 1910, later the Southern, seventy-five rooms and the only commercial elevator. Brick streets about 1927. The Bradley Store at 215 South Main, 1920, scrip, weekly settle. A commissary and warehouse on the post-office corner from at least 1910 into the mid-1920s, then a park and a miniature golf course, then Louis A. Simon’s Colonial Revival post office. The Pastime Theater, about 1925, Mission parapet, segregated balcony. The YMCA charter 1920, a Council of 22 in 1918, a building that would burn in 1944. None of these are 1907 objects. All of them are 1907 consequences. Three mills make a weekly wage that can support a balcony and a scrip cage and a hotel elevator. One mill might have made a camp. Three mills made a street.
+
+Arkansas Lumber’s offices on Sturgis Street, Nelson notes, left a surname that stayed loud in south Arkansas. Southern and Bradley left stacks and, later, Potlatch. The joint short line of 1899 — Arkansas Lumber and Southern, Warren to Banks, the Rock Island at the far end — is the steel proof that two of the three needed each other to reach a second main line. Bradley built its own logging road toward Hermitage and the Saline woods. Three mills, not one railroad. The Iron Mountain already sat at Chestnut and Elm. The town became a place where cars were classified by company as well as by species.
+
+Labor, in the published 1907 sentences, is a head-count. Three hundred. Three hundred fifty. Four hundred. No union hall the record can name in that decade. `[CITE NEEDED: early mill labor organization in Warren before the 1940s letters.]` The First World War would put women on the floor under a dress-and-slacks rule. The 1940s would put Robert W. Fullerton on letterhead arguing with the CIO. 1907 is earlier and quieter in the paper, which does not mean it was quiet on the floor. A thousand men in a town of two thousand is a politics whether or not anyone kept minutes. The square’s cupola looked down on that politics and did not, in the surviving minutes, take a side.
+
+Jim Crow is not a later stain on a clean mill decade. It is the decade’s architecture. The Missouri Pacific passenger depot, after 1917, had white and colored waiting rooms. The Pastime had a separate entrance and a balcony. Catfish Row, by 1920, held a bottling works, a confectionery, a pool hall, dry cleaners, a cobbler, a barber, a grocery; by 1931, brick, two Dr. Pepper plants, a lodge, a theater. George W. Hammons’s initials are still on a storefront. Three mills paid Black wages and then required those wages to be spent in a different block. A series that treats 1907 as civic weather has to treat Elm Street as part of the forecast.
+
+The banks are the other civic weather. Merchants and Planters in the 1890s. Warren Bank in 1901, the same year two of the three mills were incorporated. Neither failed in the 1930s, the encyclopedia is proud to say, and the pride is allowed because the paper is specific. Mill payrolls and tomato receipts and independent grocery tickets went into the same vaults. Three companies did not found a company bank that ate the town. They used the town’s banks. That is the leaky fence in ledger form.
+
+What 1907 could not see is the different deaths. Arkansas Lumber would cut itself out in twenty-one years. Southern would burn in 1939 and be talked into living. Bradley would become a hardwood name and then a Potlatch name and then, after 2002, a Chambers name, and then, in 2008, a closure in a credit suit. The 1907 town could only see three smokes. It built as if they were permanent. Gibb’s courthouse, the hotel elevator, the later brick streets: those are bets on permanence. Some of the bets held. The population figures after 1910 are the bets that did not. A doubled town is not a forever town. It is a town that had a decade.
+
+Mill-town America repeats the three-stack skyline in other counties. The particular here is the older civic layer under the stacks. Court had met in a captain’s house in 1841. The settlement had been Pennington, Cabeens, Saline. The railroad had arrived in 1880. Carpenter had built large in 1891. Then, in six years, three northern companies installed the employment that doubled the census. The mills did not found the square. They filled the streets around it until the streets had to be brick. A later hardwood shop in this county may date itself from 1903, which is honest as a mill date. 1903 is also Gibb’s date. Stone and steel, the same decade. One town.
+
+Leave the still on the 1907 numbers as they sit in the county encyclopedia — not as a brag, as a fact a farm seat learned to say. One hundred thousand. One hundred thousand. One hundred fifty thousand. Three hundred men. Three hundred fifty. Four hundred. Doubled. The cupola was new. The stacks were new. The river was not. A person who knows only the postcard mills will think Warren was invented in that decade. A person who walks the square knows better. Three mills, one town. The town was older. For ten years it consented to be remade, and the census wrote the consent down.
+
+## Sources
+
+*Encyclopedia of Arkansas*, “Bradley County” (750); “Warren (Bradley County)” (840); “Timber Industry” (2143). Bradham 1951. Silva 2012 (1907 Sanborn; civic buildings; Catfish Row; depots). Rex Nelson, *Arkansas Democrat-Gazette*, 2 August 2026 (incorporation months; Sturgis Street). Census figures as tabulated in the Warren and Bradley County encyclopedia entries.
+
+See: `northern-money-southern-trees`, `one-hundred-thousand-board-feet`, `the-fullerton-sons`.
