@@ -1,0 +1,38 @@
+[
+  {
+    "path": "mill-era-reference/kinsey-sawmill-north-bend-1920.jpg",
+    "bytes": 52021,
+    "sha256": "a001aa73a5119c50d877db90b4997902c05c5f4aedcfca0432e3e9cf4e60f66b",
+    "commons": "Saw mill, North Bend Mill & Lumber Company, North Bend, ca 1920 (KINSEY 2449).jpeg",
+    "license": "Public domain",
+    "credit": "Darius Kinsey / University of Washington Libraries, via Wikimedia Commons",
+    "caption_note": "Sawmill interior, North Bend, Washington, ca. 1920 \u2014 era comparison, not Warren, Arkansas."
+  },
+  {
+    "path": "mill-era-reference/kinsey-mill-crew-north-bend-1920.jpg",
+    "bytes": 70576,
+    "sha256": "73bec11eb66725b2ff4c8946cf56bc8e186702a96167632045b41149908726c5",
+    "commons": "Mill crew, North Bend Mill & Lumber Company, North Bend, ca 1920 (KINSEY 2447).jpeg",
+    "license": "Public domain",
+    "credit": "Darius Kinsey / University of Washington Libraries, via Wikimedia Commons",
+    "caption_note": "Mill crew portrait, North Bend, Washington, ca. 1920 \u2014 illustrative of mill-town labor, not a named Warren mill."
+  },
+  {
+    "path": "warren-place/bradley-county-courthouse-warren.jpg",
+    "bytes": 109328,
+    "sha256": "bad32ee3927bfecb28fdcd53e9e9393727d25404a65261cb7c0ab8aade670227",
+    "commons": "Bradco courthouse3.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Photo: Bradco, via Wikimedia Commons (CC BY-SA 3.0)",
+    "caption_note": "Bradley County Courthouse, Warren, Arkansas."
+  },
+  {
+    "path": "warren-place/bradley-county-map.svg",
+    "bytes": 40117,
+    "sha256": "5cf5513eb74fae5eb35a079a0ac14a3348c5f974092bb56b34682238f6600659",
+    "commons": "Map of Arkansas highlighting Bradley County.svg",
+    "license": "Public domain",
+    "credit": "Wikimedia Commons contributors",
+    "caption_note": "Bradley County location within Arkansas \u2014 schematic map."
+  }
+]

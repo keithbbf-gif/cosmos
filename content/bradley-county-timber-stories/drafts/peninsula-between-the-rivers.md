@@ -17,6 +17,16 @@ place: "Bradley County, Arkansas"
 
 Stand on a low rise south of Warren in late summer and the county does not announce itself as a mill town. It announces itself as water. East, the Saline slides toward the Ouachita under a lid of hardwood. Southwest, the Ouachita itself takes the long bend that will become, farther down, the green-tree reservoir at Felsenthal. The *Encyclopedia of Arkansas* still uses the old surveyor's word: Bradley County sits at the lower end of the peninsula formed by the union of those two rivers. A peninsula is a boast made by silt. It is also a trap. Before a railroad, timber that could not float was almost not timber.
 
+<figure class="blog-figure">
+  <img src="../assets/shared/svg/peninsula-rivers-schematic.svg" alt="Schematic map of Bradley County peninsula between Saline and Ouachita rivers" width="720" height="480" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Bradley County between the Saline and Ouachita — orientation schematic only. <em>Not a surveyed plat.</em></figcaption>
+</figure>
+
+<figure class="blog-figure">
+  <img src="../assets/images/warren-place/bradley-county-map.svg" alt="Map of Arkansas highlighting Bradley County" width="640" loading="lazy" />
+  <figcaption><strong>Figure.</strong> Bradley County within Arkansas. Wikimedia Commons contributors, public domain.</figcaption>
+</figure>
+
 The West Gulf Coastal Plain does not dramatize itself. Sandy hills. Shortleaf pine on the warmer slopes. Bottomland hardwood in the wet. About 140 archaeological sites are listed for the county — camps, mounds, cemeteries — and the record runs past ten thousand years. After about A.D. 1000 people here raised domesticated crops. The descendants most often named are the Tunica and, possibly, the Quapaw. The 1818 Quapaw reservation, a million acres on paper, already described a people who were no longer living in this particular bend; they ceded the land in 1824. The rivers kept the older memory. French colonial hunters left camps that the documents barely catch. In 1804 the Dunbar and Hunter expedition passed up and down the Ouachita, writing the kind of careful water that later mill owners would treat as a shipping lane and then, when the rails came, as scenery.
 
 A mill town is a late invention on a long peninsula. The first European-American fields that the 1826–1830 land plats bother to name belong to men who thought of trees as the thing you removed to grow corn. Captain Hugh Bradley, Isaac Pennington, Aaron Johnson, Charles Seay, Alex Beard, Peter Moseley, Dr. John T. Cabeen — the 1951 sketch Judge David Bradham left in the county's family book still reads like a roll of neighbors who could hear one another across a clearing. James Waters is listed as the first school teacher. The forest was the wall and the larder. Nobody yet spoke of board feet.

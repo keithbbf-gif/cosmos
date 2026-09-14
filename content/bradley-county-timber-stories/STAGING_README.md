@@ -26,7 +26,7 @@ This pack is historical copy for the bradleylumbercompany.com lane. Posts stay `
 
 - Product copy, price lists, RFQs
 - A second mill-town pack for Wilmar / Saline River local history (sister lane; do not merge)
-- Graphics. A later pass may add depot and mill SVGs under `assets/`. Do not invent photographs.
+- Graphics live under `assets/` with `RIGHTS.md` and `GRAPHICS_INDEX.md`. Do not invent photographs; caption era-comparison plates honestly.
 
 ## House brand
 
