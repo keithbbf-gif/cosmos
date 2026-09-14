@@ -37,11 +37,41 @@ The grave is a woman’s grave, twice. That fact has been used to write too much
 
 Who made the objects is unnamed. A royal workshop is a guess that the quality will bear and the archive will not prove. Local Vestfold work plus imported buckets is the cautious sentence.
 
+## A packed house for two women
+
+The 1904 excavation lifted wet oak from blue clay. About ninety percent of the ship’s wood is original; the furniture — beds that pack, chests, a ceremonial wagon, sledges, animal-head posts — is the largest coherent early medieval wooden household in the north. It is one grave, one year (834), two unnamed women. Grave robbers took jewelry and left wood.
+
+Traveling elite needed a house that packed. Tents in the grave make the same point. Insular yew buckets with gilded bronze are the museum’s cautious imports. The so-called Oseberg chair is a reconstruction; treat it as one. Animal-head posts are ritual or processional, not chairs, and still the workshop’s other register. Oak, pine, yew: house and ship share a carving language.
+
+The richest wooden household we have from the ninth-century North was assembled for women. That has been used to write too much (a whole “female Viking interior”) and too little (a refusal to see the deposit as the main fact). Who made the objects is unnamed. Conservation (early alum, later regrets, the move to the new Museum of the Viking Age) is the modern biography. Oseberg pairs with Herculaneum: wood kept by accident, a household stopped, a museum deciding how much to reconstruct.
+
 ## After clay
 
 The furniture’s modern life is conservation science: alum treatment in the early twentieth century, later regrets, the move from the old Viking Ship Museum to the new Museum of the Viking Age. The objects are famous and fragile. Photographs in the old museum (the ship under a twenty-year roof, the wagon in a case) are already historical. This chapter should be updated when the new displays publish their catalog numbers in a stable form.
 
 For the series, Oseberg is the northern pair to Herculaneum: wood kept by accident (clay, turf; ash, surge), a household stopped, a museum that has to decide how much to reconstruct. The women in the bed did not mean to found a chapter. The clay meant it for them.
+
+## Gokstad’s beds and the North Sea pair
+
+Oseberg is not the only wet ship grave in Vestfold. Gokstad, excavated in 1880, held a chieftain’s burial of about 900. The ship is oak; the grave goods are poorer in carving than Oseberg’s and richer in the ordinary. A. W. Brøgger and Haakon Shetelig recorded parts of a large decorated bed with animal-head posts, a loose carved head in the clay that matched, and about six simpler beds, some fragmentary. One of the plainer beds, in the old measurements, had posts about 70 cm high, ends 1.09 m, sides 2.27 m; another was shorter, about 1.43 m on the sides. The decorated Gokstad bed-posts end in fierce horse heads. Reconstructors have been mixing Oseberg frames with Gokstad heads ever since, which is honest only if the caption says so. Tune, the third of the great Vestfold ship graves, kept far less furniture. The museum’s own texts now group Oseberg, Gokstad, and Tune as the three mounds whose clay and turf sealed wood. There is no fourth of that quality.
+
+The Oseberg beds themselves are frames that knock down. Angled headposts on the finer beds have been read as a way to tuck the bed nearer a gunwale or a tent wall. The simpler beds lack the angle. No Viking-age bed from a house, as opposed to a ship grave, has been published. Later medieval wall-beds in Norway are a different type. The grave, again, is not a catalog of the farm. It is the farm’s portable prestige, selected.
+
+The Insular buckets — yew staves, gilded bronze, one of them the so-called Buddha bucket with enameled figures — are still labeled England or Ireland. Do not invent a monastery. The oarsmen-on-chests story is a later naval habit read back onto a slender hull. The type of the sea-chest is real in later sources. Oseberg’s own chests are the hall’s boxes in a wetter key.
+
+Jan Bill and the museum’s dendrochronology keep the dates tight: ship built about 820 in western Norway, burial in 834. The oak of the hull and the oak of the wagon are not the same sentence as the beech of the chair; a shop, or shops, chose species by job. Sofie Krafft’s early watercolours of the textiles, and later textile studies, are the reminder that the beds were dressed. Down quilts, tapestries, the pile that makes a frame a bed: the wood is the part that could take alum.
+
+The mound was about forty-four metres across and may once have stood nearly six metres high. Turf made an airtight seal; the ship was pressed down into blue clay. That is why ninety percent of the hull is original and why a thief who wanted gold left the wagon. Fifteen horses, six dogs, and two cows went into the ground with the beds. Kitchen gear and farm tools went too. The grave is a farm packed for death, not a throne room. Marianne Vedeler’s textile studies, and the earlier watercolours, keep returning to the same unglamorous fact: the richest objects in the chamber, by hours of labor, may have been the cloth. The carvings photograph better.
+
+## The beech chair, the posts, and the alum problem
+
+The Oseberg chair is beech. Traces of painted interlace survived on the fragments. The reconstruction that every textbook reprints is a reconstruction; the old guess that it was a child’s chair came from the height. Later makers have noticed that the height suits a tablet-weaving loom found in the same grave. That is a plausible use, not a proof. A backed wooden seat of the early ninth century in the north is rare enough that the object would matter if it were only a stool with ambitions. Treat the drawings in *Osebergfundet* as the primary publication and the museum reconstruction as a hypothesis with glue.
+
+The five animal-head posts are oak, gripping beasts, processional or ritual, not furniture in the sitting sense. One serpent head has been shown in the Historical Museum’s *Miðgarðr* exhibition; the others stay with the ship collection. They belong in this chapter because they show the workshop at full pitch, the same hands or the same school that could carve a wagon into a story and a sledge into another. Three sledges are ornate; one is a work sledge. The grave distinguishes display from use. The wagon is four-wheeled, carved, ceremonial rather than rutted. Comparisons with later medieval ceremonial wagons are tempting and thin. 834 is before stave churches.
+
+Alum treatment, poured into wet oak in the early twentieth century, kept the objects standing and left them acidic. The Saving Oseberg project at the University of Oslo has spent the last years describing the chemistry: alum in the cells, later resin coats, wood that can powder from the inside. Some pieces will not survive a bath. The move from the old Viking Ship Museum on Bygdøy to the new Museum of the Viking Age is a conservation event as much as an architectural one. Photographs of the ship under the old roof are already historical. Catalog numbers will change; this chapter should be revised when the new displays publish a stable list.
+
+Who the two women were is still not a name. The old identification with Queen Åsa, mother of Halfdan the Black in the sagas, is a hope Snorri cannot prove. Osteology has given ages and a hint of kinship; it has not given a title. Unn Pedersen’s work on the metal fittings is a shop study: punches, models, a vocabulary shared with other Vestfold graves. The richest wooden household of the ninth-century North was assembled for them. A royal workshop is a guess the quality will bear and the archive will not prove. Local Vestfold carving plus imported buckets is the sentence that survives. The women in the bed did not mean to found a chapter. The clay, and then the alum, and then the regrets about the alum, meant it for them.
 
 ## Notes
 
@@ -49,6 +79,9 @@ For the series, Oseberg is the northern pair to Herculaneum: wood kept by accide
 - A. W. Brøgger, Hjalmar Falk, and Haakon Shetelig, eds., *Osebergfundet*, 4 vols. (Kristiania/Oslo, 1917–28) — the primary publication.
 - Thorleif Sjøvold, *The Oseberg Find* (Oslo: Universitetets Oldsaksamling, later eds.).
 - On the Insular buckets: museum labels and the 1917–28 volumes; do not invent a monastery of origin.
+- A. W. Brøgger and Haakon Shetelig on the Gokstad beds, in *The Viking Ships* and the 1882 Gokstad publication.
+- University of Oslo, Saving Oseberg project papers, on alum deterioration.
+- Marianne Vedeler, publications on the Oseberg textiles (Museum of Cultural History / University of Oslo).
 
 ## Figure plan
 
