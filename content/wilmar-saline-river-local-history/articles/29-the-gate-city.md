@@ -3,7 +3,7 @@ title: "The Gate City Goes Down"
 slug: the-gate-city
 series: Wilmar and the Saline River
 series_no: 29
-dek: "October 14, 1913, near Warren. The Gate City was one of the last steamboats up the Saline. Woodard gives the date. The river kept the hull."
+dek: "Woodard prints October 14, 1913, near Warren. A steamboat file prints June 15. The Gate City was one of the last boats up the Saline. The river kept the hull."
 mix: B
 mix_secondary: C
 region: Saline River near Warren
@@ -24,11 +24,14 @@ featured_image: ../assets/maps/saline-four-forks.svg
 sources_key:
   - Woodard Saline EOA
   - Teske Wilmar EOA
+  - Murphy Library Gate City Ways 2208
 ---
 
 # The Gate City Goes Down
 
-October 14, 1913. Near Warren. The *Gate City*, one of the last steamboats up the Saline, sank. Jann Woodard’s sentence is the entire official film. This essay will not invent a passenger list, a cargo manifest, or a hero in the water. It will hold the date next to Wilmar’s 1910 census (929) and the 1915 baseball season, so a reader understands the wreck is not prehistoric. People who would sit at Hudspeth Park two years later were alive when the boat went down.
+October 14, 1913. Near Warren. The *Gate City*, one of the last steamboats up the Saline, sank. Jann Woodard’s sentence is the entire official film in the Encyclopedia of Arkansas. This essay will not invent a passenger list, a cargo manifest, or a hero in the water. It will hold Woodard’s date next to Wilmar’s 1910 census (929) and the 1915 baseball season, so a reader understands the wreck is not prehistoric. People who would sit at Hudspeth Park two years later were alive when the boat went down.
+
+A second card disagrees on the day. The University of Wisconsin–La Crosse Murphy Library steamboat file (Ways 2208) calls the *Gate City* a sternwheel packet built at Winona, Minnesota, in 1900, sold to Captain John A. Armstrong in 1906, and sunk in the Saline on June 15, 1913. Woodard prints October 14. This pack will not pick a winner from a desk that has neither a wreck report nor a contemporary newspaper. It will print both dates and keep Woodard as the encyclopedia still. June and October are different rises. A later pass that finds the *Advance*, a Warren paper, or an inspection file should retire one of the cards. Until then the seam is the honest caption.
 
 Warren is Bradley County, the Saline’s mill neighbor, the town of the other logging railroad. The wreck is Warren’s to claim as a site and this pack’s to claim as a date in the river’s last commercial decade. Wilmar’s Wilmar and Saline Valley Railroad was already nine years old. The Iron Mountain had been taking the argument since 1880. A steamboat still coming up in 1913 is stubbornness, a contract, or a rise too good to waste.
 
@@ -73,4 +76,4 @@ Commerce on the river, Woodard says, diminished by the 1930s. Fishing and recrea
 
 ## Sources for this piece
 
-Woodard, “Saline River.” Teske, “Wilmar (Drew County),” 1910 census and 1915 baseball paragraph for contemporaneity. Heady, “Drew County,” for the 1889/1890 mill-date seam only. Moseley (2015) and Dunnahoo (1993) flagged as unread on this wreck. No enrollment, manifest, or passenger list was found in the sources used here; none is supplied.
+Woodard, “Saline River” (October 14, 1913, near Warren; one of the last boats up the Saline). Murphy Library, University of Wisconsin–La Crosse, Historic Steamboat Photographs, *Gate City* (Packet, 1900–1913), Ways 2208 (June 15, 1913; Winona build; Armstrong 1906). Teske, “Wilmar (Drew County),” 1910 census and 1915 baseball paragraph for contemporaneity. Heady, “Drew County,” for the 1889/1890 mill-date seam only. Moseley (2015) and Dunnahoo (1993) flagged as unread on this wreck. No enrollment, manifest, or passenger list was found in the sources used here; none is supplied. The two wreck dates are left standing on purpose.

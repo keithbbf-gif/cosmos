@@ -26,6 +26,7 @@ sources_key:
   - Teske Wilmar EOA
   - Arkansas PBS June Dinner
   - Parade History 2006
+  - Riggin 2006 Pine Bluff Commercial
 ---
 
 # June Dinner
@@ -35,6 +36,8 @@ Steven Teske calls Wilmar’s June Dinner one of the oldest Juneteenth celebrati
 This essay will not launder oral history into a footnote that looks like a deed. Mayor Perry’s account, as PBS reports it from 2023 interviews, is the account. A man from this country was held in Galveston. He came back. He brought the Texas emancipation holiday — June 19, 1865, the news arriving late, the table that followed — and his family kept it. The celebration has been held, the mayor said, at the same spot: the Wilmar Colored School. “We can’t move it from there because it’s too close to everyone’s heart.”
 
 If the camera had a still for the beginning of the dinner, it would not be a printed charter. No nineteenth-century written constitution for the meal was located for this draft. The still would be a name said on a porch, then another name, then the schoolyard. Teske’s “nineteenth century” and PBS’s “late 1800s” are the same weather in two registers. Parade History, writing from a 2006 visit, said the town had kept the dinner more than a hundred years and that the start was thought to be a man who had lived in Wilmar, been taken to Texas, and come home with Galveston’s June. Thought to be. Oral. The pack will keep the hedge.
+
+A second 2006 still is more specific and still oral. Tiff Graham, quoting interviews Toni Perry made with Aaron Crowder’s grandfather (born 1889) and with Alex Wood (born 1902), and quoting Amy Riggin in the *Pine Bluff Commercial* of June 16, 2006, printed a name the PBS short does not: John Ragland. In that telling a white man named Ragland came from New Orleans to the Wilmar country near Ozment Bluff; one of the people he held, later called John Ragland, was sold into Texas, freed in 1865, and took two or three years to walk home, arriving 1867 or 1868 with Galveston’s June already in his calendar. Perry’s 2023 kinship formula — a grandfather’s grandfather, four years in Galveston — and Riggin’s 2006 John Ragland are the same weather. They are not, on this desk, the same proven man. Do not merge them to make a founder. Do not drop either still. The dinner is older than the argument about which porch said which name.
 
 ## What Juneteenth is doing in Drew County
 
@@ -83,4 +86,4 @@ The next essay stays on that ground. Essay 40 stays with the food. This one is t
 
 ## Sources for this piece
 
-Teske, “Wilmar (Drew County),” Encyclopedia of Arkansas (June Dinner in the opening paragraph; nineteenth-century start; thousands of attendees; 2010 race line; 2020 population). Arkansas PBS, “Wilmar June Dinner: A Juneteenth Celebration,” *Celebrating Arkansas*, including Mayor Toni Perry’s oral account as reported from 2023 interviews and 2024 screenings at Mosaic Templars Cultural Center, CALS branches, and the Wilmar dinner; Beverly Railey as quoted on the PBS/Arkansas TV write-up. Parade History, “Juneteenth Celebration In Wilmar Arkansas: BBQ, Hot Tamales, And Pound Cake,” 2006 food-and-vendor record and Joyce Steen interview. No nineteenth-century written charter for the dinner was located for this draft; its nineteenth-century start is Teske plus oral tradition.
+Teske, “Wilmar (Drew County),” Encyclopedia of Arkansas (June Dinner in the opening paragraph; nineteenth-century start; thousands of attendees; 2010 race line; 2020 population). Arkansas PBS, “Wilmar June Dinner: A Juneteenth Celebration,” *Celebrating Arkansas*, including Mayor Toni Perry’s oral account as reported from 2023 interviews and 2024 screenings at Mosaic Templars Cultural Center, CALS branches, and the Wilmar dinner; Beverly Railey as quoted on the PBS/Arkansas TV write-up. Parade History, “Juneteenth and June Dinner Parades,” for Perry’s 2006 interviews with Aaron Crowder’s grandfather and Alex Wood, and for Amy Riggin, “Wilmar to celebrate Juneteenth,” *Pine Bluff Commercial*, June 16, 2006, p. 3A (John Ragland / Ozment Bluff telling). Parade History, “Juneteenth Celebration In Wilmar Arkansas: BBQ, Hot Tamales, And Pound Cake,” 2006 food-and-vendor record and Joyce Steen interview. No nineteenth-century written charter for the dinner was located for this draft; its nineteenth-century start is Teske plus oral tradition. The Perry kinship formula and the Riggin John Ragland telling are left as two oral stills.
