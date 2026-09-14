@@ -84,3 +84,17 @@ search, update. If your modern
 system cannot state those three,
 it is not more advanced. It is
 less housebroken.
+
+MIRA and other large-margin
+online updates sat in the same
+hallway, especially in MT
+tuning after Och. I will not
+turn this draft into a catalog
+of names. The family is: score
+a structure, compare it to the
+gold, move the weights so the
+gold looks better next time.
+Once you see the family, half
+of the 2000s ACL anthology
+stops looking like separate
+religions.

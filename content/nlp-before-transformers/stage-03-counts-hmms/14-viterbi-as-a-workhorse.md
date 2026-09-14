@@ -65,3 +65,13 @@ Best path. Additive costs. A trellis. When a 1990s
 tagger was fast enough to run on a newswire dump
 overnight, that was Viterbi plus log-add plus a
 machine that did not swap itself to death.
+
+One more operational scar: people confuse "best path"
+with "only path." The trellis holds more. Posterior
+decoding, n-best lists, confusion networks in speech
+— those are ways of not throwing the trellis away
+after the pointer walk. If your system only ever
+emits one tag sequence and never looks at the
+second-best, you are using half the workhorse. The
+other half is how you admit uncertainty without
+writing a poem about it.

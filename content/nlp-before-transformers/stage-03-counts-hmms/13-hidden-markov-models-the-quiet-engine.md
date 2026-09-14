@@ -66,3 +66,21 @@ If you only remember one operational fact: training
 is counting, with a soft assignment when the states
 are not labeled. Decoding is dynamic programming.
 Everything else is a refinement or a protest.
+
+I will name the implementations people actually
+ran. TnT. HunPos. The HMM mode inside various
+NLTK tutorials. Speech toolkits that treated
+words as just another emission. None of these
+were "the paper." They were the reason a
+journalist could get a tagged newswire dump
+before lunch. A method that does not leave a
+binary is a rumor. HMMs left binaries.
+
+The protest that followed — maxent, MEMM, CRF —
+did not say "hidden states were a mistake." It
+said "we want the observations to talk louder,
+and we want overlapping features." That is a
+grown argument with the quiet engine, not a
+cancellation of it. If you skip HMMs, the CRF
+paper is a rabbit out of a hat. It is not. It
+is a next sentence.

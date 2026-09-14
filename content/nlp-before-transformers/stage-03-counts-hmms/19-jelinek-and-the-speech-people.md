@@ -68,3 +68,16 @@ It is an argument about loss functions. Speech
 gave NLP a loss function that a sponsor could
 understand. The rest of the field borrowed it,
 sometimes too eagerly, sometimes just in time.
+
+Jelinek's later textbook, *Statistical Methods
+for Speech Recognition* (1997), is the
+document I would put in a care package next
+to Manning and Schütze. It is not gentle. It
+is clear about channel models, about
+perplexity, about the fact that a language
+model is a component with an interface. NLP
+students who only read ACL can miss that
+interface. Speech students who only read
+WER can miss that language is more than a
+prior. The 1970s lab sat in the middle on
+purpose.

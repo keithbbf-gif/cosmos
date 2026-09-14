@@ -83,3 +83,17 @@ of five. Those details move
 neighbors more than the brand
 name does. The fork is
 practical. Keep it that way.
+
+I will add one measurement
+habit. Do not decide the fork
+on the analogy table alone.
+Look at a downstream tagger
+or a rare-word neighbor list
+in the domain you actually
+have. CBOW can win on a
+frequent-word classification
+task and lose on a medical
+or legal vocabulary I will
+not specify here. The papers
+already said this, quietly.
+The brand name shouted louder.

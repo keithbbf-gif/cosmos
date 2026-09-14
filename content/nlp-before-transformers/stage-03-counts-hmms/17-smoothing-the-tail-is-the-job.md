@@ -73,3 +73,15 @@ When someone says a language model
 new thing came from. Good–Turing had an
 answer. It was not romantic. It was a
 reallocation.
+
+I will be concrete. You have a trigram
+that never saw "of the fjord." A bad
+smoother gives it nothing, or gives it
+the same dust it gives "of the
+asdfgh." A grown smoother backs off to
+"the fjord" or to a continuation
+distribution that knows "fjord" is the
+kind of word that follows "the" after
+geographical talk. The difference is
+not a metaphor. It is a held-out
+perplexity you can print. Print it.

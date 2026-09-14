@@ -61,3 +61,13 @@ got a lot of mileage out of shrinking the world until
 the metrics meant something. SHRDLU did it with blocks.
 ATIS did it with airports. The airport version paid
 for more graduate students.
+
+I will add the unglamorous sibling: confirmation
+prompts. "I think you said the fourteenth, is that
+right?" is not a personality. It is a response to
+an acoustic model that is allowed to be wrong. When
+later chat systems dropped confirmation because it
+felt unlike a friend, they also dropped the only
+cheap way a machine has to stay honest on a booking.
+The 1990s phone tree knew that. We should not have
+needed to relearn it.

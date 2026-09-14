@@ -78,3 +78,15 @@ character. Syntax versus topic
 is not a neural discovery. It is
 a window size, already visible
 in the company the word keeps.
+
+Harris is the harder grandfather
+to romanticize, which is why I
+keep him. Procedures, not mottoes.
+If your distributional method
+cannot be stated as a procedure
+— count these environments,
+compare these items — it is not
+in his line even if you put his
+name on slide two. Firth gave
+the sentence everyone quotes.
+Harris gave the stubbornness.

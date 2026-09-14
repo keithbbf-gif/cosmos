@@ -69,3 +69,14 @@ If you teach tagging, run an HMM and a
 Brill list on the same messy text and read
 the disagreements aloud. The disagreements
 are the syllabus.
+
+One more reason it belongs in this series:
+it is a public example of a learner whose
+hypothesis class a non-programmer can
+read. That is rare after 2001. CRFs can
+be inspected if you sort the weights.
+Neural nets can be probed if you enjoy
+probes. A Brill list you can tape to the
+wall. I have taped one to a wall. The
+third rule was stupid and we deleted it.
+Deletion is a kind of science.

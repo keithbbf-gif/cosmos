@@ -61,3 +61,12 @@ add PP-attachment. The extra rule is small. The forest
 is not. That ratio — small grammar, huge ambiguity — is
 the original parsing problem. Neural parsers later hid
 it. They did not repeal it.
+
+A last public inheritance: the chart is how you explain
+dynamic programming to a linguist. Spans. Combinations.
+No re-derivation. Speech people had trellises. Parsing
+people had charts. Same family, different drawing. When
+a 1990s student finally understood why parsing was cubic
+in the naive case, they understood something about
+language that a leaderboard number does not say. Length
+is not a vibe. It is a bill.

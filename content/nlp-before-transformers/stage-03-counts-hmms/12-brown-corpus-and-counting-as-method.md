@@ -64,3 +64,12 @@ It will still teach a person what a balanced sample
 costs. Someone chose those 1961 pages. Every later
 "web crawl" hides a similar choice under a more
 casual name.
+
+The tagged version also taught disagreement. Annotators
+do not always match. A tagset is a treaty. Later Penn
+tags are a different treaty with a family resemblance.
+If you flatten every tagged corpus into "POS data,"
+you lose the treaty. I would rather a student spend
+an hour on the Brown manual than an hour on a
+leaderboard screenshot. The manual is where the
+method lives.

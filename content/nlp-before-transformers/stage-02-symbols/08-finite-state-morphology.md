@@ -60,3 +60,13 @@ citation heat as Word2Vec. Their machines still sit under
 spellcheck, tokenization edge cases, and every serious
 morphological analyzer that did not start from scratch in
 2015.
+
+I will name the practical test. Take a language with
+productive case and a corpus that would fit on a USB
+stick from 2008. Train a word-level tagger and watch the
+unknown-word rate. Then put a transducer in front and
+watch the rate fall. That drop is why this draft exists.
+Neural models later learned some of the same regularities
+from more data. They did not make the algebra false on
+Tuesday afternoon when the data is small and the
+language is not English.

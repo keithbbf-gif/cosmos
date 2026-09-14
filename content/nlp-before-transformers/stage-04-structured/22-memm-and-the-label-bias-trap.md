@@ -75,3 +75,14 @@ wrong first tag and then coast. Coasting
 is the trap. CRFs do not make you
 immune. They make the coasting more
 expensive.
+
+I keep MEMMs in the series so the CRF
+paper does not look like it arrived
+from a cloud. It arrived from a
+specific failure of a specific hybrid
+that reasonable people had just
+shipped. That is how a field is
+supposed to move. Name the failure.
+Change the normalization. Do not
+pretend the previous tool was a
+cartoon.

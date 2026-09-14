@@ -61,3 +61,12 @@ restaurant could be generalized by writing more
 restaurants. The useful remainder is smaller and still
 true: people speak as if the listener has a form to
 fill. Sometimes the form is worth building by hand.
+
+FrameNet, which Fillmore's later Berkeley project made
+public, is the linguistic continuation. A frame has
+roles. A sentence evokes a frame. Annotation is slow
+and argumentative. That slowness is information. If
+you cannot agree on whether a sentence evokes
+Commerce_buy, you have learned something about
+"meaning" that a cosine will happily paper over. I
+would rather have the argument than the paper.

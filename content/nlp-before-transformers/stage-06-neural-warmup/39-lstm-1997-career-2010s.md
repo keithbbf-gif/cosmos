@@ -13,93 +13,56 @@ topics: [LSTM, Hochreiter, Schmidhuber, vanishing-gradient]
 
 # LSTM: a 1997 paper that got its career in the 2010s
 
-Sepp Hochreiter and Jürgen
-Schmidhuber published "Long
-Short-Term Memory" in 1997
-in *Neural Computation*.
-The problem they named was
-already known: vanishing
-(and exploding) gradients
-in recurrent nets. The
-fix was a memory cell with
-gates, so a signal could
-pass through time without
-being crushed at every
-step.
+Sepp Hochreiter and Jürgen Schmidhuber published "Long
+Short-Term Memory" in 1997 in *Neural Computation*. The
+problem they named was already known: vanishing and
+exploding gradients in recurrent nets. The fix was a
+memory cell with gates, so a signal could pass through
+time without being crushed at every step. Forget, input,
+output — the later standard trio — is a family, not a
+single diagram. The 1997 object already had the idea
+that a path through time should be allowed to stay open.
 
-For years this was a
-specialist's object.
-Speech and handwriting
-groups (Alex Graves's
-line of work is the one
-I would point a reader
-at) kept the flame.
-Then, in the early 2010s,
-LSTMs became the default
-recurrent unit for
-language. Neural machine
-translation, language
-modeling, sequential
-tagging — if it was
-recurrent and ambitious,
-it was probably an LSTM,
-later a GRU (Cho and
-colleagues, 2014) if you
-wanted fewer gates.
+For years this was a specialist's tool. Speech and
+handwriting groups (Alex Graves's line of work is the
+one I would point a reader at) kept the flame. Then, in
+the early 2010s, LSTMs became the default recurrent unit
+for language. Neural machine translation, language
+modeling, sequential tagging — if it was recurrent and
+ambitious, it was probably an LSTM, later a GRU (Cho
+and colleagues, 2014) if you wanted fewer gates and a
+slightly lighter story.
 
-I do not want a gates
-tutorial here. Those
-exist. I want the
-historical kink. The
-algorithm was old. The
-career was new. CUDA,
-datasets, and a community
-shift did more than a
-sudden insight in 2014.
-When a method sits in
-the literature for
-fifteen years and then
-takes over, look at the
-computers.
+I do not want a gates tutorial here. Those exist. I want
+the historical kink. The algorithm was old. The career
+was new. CUDA, datasets, and a community shift did more
+than a sudden insight in 2014. When a method sits in the
+literature for fifteen years and then takes over, look
+at the computers. Look at the software that made the
+gradient automatic. Look at the shared tasks that
+suddenly had enough labeled sequence data to feed a
+hungry net.
 
-NLP's use of LSTMs had a
-particular smell.
-Bidirectional LSTMs for
-tagging (the past and
-the future both get a
-say). Encoder LSTMs for
-a sentence, decoder
-LSTMs for a translation.
-Dropout recipes that
-people treated as folklore.
-Gradient clipping.
-The craft was real and
-fiddly. Anyone who says
-the pre-transformer
-neural years were clean
-is lying or was not
-training them.
+NLP's use of LSTMs had a particular smell. Bidirectional
+LSTMs for tagging — the past and the future both get a
+say, which is legal when the whole sentence is already
+on disk. Encoder LSTMs for a sentence, decoder LSTMs for
+a translation. Dropout recipes that people treated as
+folklore. Gradient clipping. The craft was real and
+fiddly. Anyone who says the pre-transformer neural years
+were clean is lying or was not training them.
 
-The limitation that
-matters for the next
-stage is not romance
-about long memory. It is
-the fact that a chain is
-still a chain. A
-hundred-token sentence
-is a long path for a
-gradient and a long path
-for a hidden state that
-has to remember the
-subject until the verb
-in German. Attention
-will be sold as a patch
-for that path. The patch
-will eat the host.
+The limitation that matters for the next stage is not
+romance about long memory. It is the fact that a chain
+is still a chain. A hundred-token sentence is a long
+path for a gradient and a long path for a hidden state
+that has to remember the subject until the verb in
+German. Attention will be sold as a patch for that path.
+The patch will eat the host. That eating is the 2017
+plot. This draft is the host while it was still the
+host.
 
-1997 remains the date.
-2014 is when most NLP
-people I knew started
-typing `LSTM` without
-looking up the
-abbreviation.
+1997 remains the date. 2014 is when most NLP people I
+knew started typing `LSTM` without looking up the
+abbreviation. Those two dates together are the lesson.
+A paper can be right and still wait for a machine.

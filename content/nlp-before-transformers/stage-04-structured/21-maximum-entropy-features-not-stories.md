@@ -74,3 +74,15 @@ normalization. Remember the culture. The
 representation learning." They were
 representation by hand, at industrial
 scale, with a regularizer.
+
+A concrete leftover: the feature cutoff.
+Throw away anything that fired fewer
+than *n* times. That is smoothing with a
+human face. It is also how you keep a
+model from worshipping a single
+misspelling in the training set. Neural
+nets do a version of this with
+subwords and dropout. The 1996 paper
+does it with a threshold and a
+straight face. I prefer the straight
+face.

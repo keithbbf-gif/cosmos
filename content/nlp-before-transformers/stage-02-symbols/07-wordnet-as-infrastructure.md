@@ -53,9 +53,21 @@ fitting WordNet is not the same as learning language. It
 is fitting a particular Princeton-shaped picture of English
 nouns, built by people, with budget and taste.
 
+The other public fact is multilingual gravity. Once English
+WordNet existed, people wanted one for their language.
+EuroWordNet and later Open Multilingual WordNet are not
+side projects. They are the admission that a graph of
+synsets is a kind of infrastructure you can translate,
+badly, and still use. Alignment across WordNets is its
+own research sport, with the usual politics of whose
+concept is the hub.
+
 The pre-transformer lesson is about resources that outlive
 theories. WordNet survived the statistical turn because it
 was a file you could open. It survived the early neural
 turn because it was still a file you could open. When a
 field has a shared, slightly wrong graph of words, the
-graph becomes part of the language the field speaks.
+graph becomes part of the language the field speaks. You
+can replace the graph with a vector space. You will still
+evaluate the space against the graph, which is how the
+dead keep the living honest.

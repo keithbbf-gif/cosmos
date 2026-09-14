@@ -87,3 +87,18 @@ because it refused to be a
 full language model at every
 step. The refusal was the
 invention users actually felt.
+
+Hierarchical softmax is the
+sibling I do not want forgotten.
+A Huffman tree over the
+vocabulary, a path of binary
+decisions, no noise samples.
+It is more of a real language
+model than negative sampling
+is. It was also fussier to
+implement and, on many public
+comparisons of that year,
+slightly worse for the vectors
+people wanted. The field chose
+the ruder dodge. That choice
+is the 2013 personality.
