@@ -5,6 +5,7 @@ stage: 6
 title: "What healthy-volunteer safety papers actually measured"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

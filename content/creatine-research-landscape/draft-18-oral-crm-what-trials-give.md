@@ -5,6 +5,7 @@ stage: 3
 title: "What human trials actually put in the bottle"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

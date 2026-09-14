@@ -21,6 +21,7 @@ REQUIRED_HEADINGS = (
 )
 DISCLAIMER_NEEDLE = "Educational landscape only."
 CLAIMS_NEEDLE = "claims: none"
+VOICE_CHECK_NEEDLE = "voice_check: edited"
 
 # Positive disease-claim / prescription shapes. Educational mentions of
 # the *ban* still have to avoid these exact forms.
@@ -67,6 +68,8 @@ def check_file(path: Path) -> list[str]:
         errors.append(f"{name}: missing YAML front matter")
     if CLAIMS_NEEDLE not in text[:800]:
         errors.append(f"{name}: front matter must include '{CLAIMS_NEEDLE}'")
+    if VOICE_CHECK_NEEDLE not in text[:800]:
+        errors.append(f"{name}: front matter must include '{VOICE_CHECK_NEEDLE}'")
     if DISCLAIMER_NEEDLE not in text:
         errors.append(f"{name}: missing disclaimer '{DISCLAIMER_NEEDLE}'")
     for heading in REQUIRED_HEADINGS:

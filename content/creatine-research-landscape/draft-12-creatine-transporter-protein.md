@@ -5,6 +5,7 @@ stage: 2
 title: "SLC6A8 as a membrane protein, not a story about conditions"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

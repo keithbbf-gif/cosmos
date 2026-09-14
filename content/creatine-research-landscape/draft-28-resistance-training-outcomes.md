@@ -5,6 +5,7 @@ stage: 4
 title: "Resistance-training studies: strength and mass as outcomes"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

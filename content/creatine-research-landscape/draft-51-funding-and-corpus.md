@@ -5,6 +5,7 @@ stage: 8
 title: "Funding, affiliation, and how the corpus gets its shape"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

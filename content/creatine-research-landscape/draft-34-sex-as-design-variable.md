@@ -5,6 +5,7 @@ stage: 5
 title: "Sex as a design variable and the evidence gap"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

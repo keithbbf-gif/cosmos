@@ -5,6 +5,7 @@ stage: 8
 title: "A staged reading path for a newcomer"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

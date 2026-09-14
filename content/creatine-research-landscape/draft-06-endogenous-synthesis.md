@@ -5,6 +5,7 @@ stage: 1
 title: "Endogenous synthesis: AGAT, GAMT, and a methyl group"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

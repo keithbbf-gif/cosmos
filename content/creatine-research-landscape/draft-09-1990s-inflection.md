@@ -5,6 +5,7 @@ stage: 1
 title: "The 1990s inflection: Harris, Greenhaff, Hultman, Green"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

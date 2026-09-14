@@ -5,6 +5,7 @@ stage: 0
 title: "How to read a creatine paper"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

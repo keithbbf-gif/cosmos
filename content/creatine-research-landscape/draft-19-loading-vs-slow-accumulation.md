@@ -5,6 +5,7 @@ stage: 3
 title: "Two schedules, one pool: Hultman 1996 as methods history"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

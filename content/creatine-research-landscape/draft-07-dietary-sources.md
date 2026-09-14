@@ -5,6 +5,7 @@ stage: 1
 title: "Dietary creatine: flesh, not plants"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

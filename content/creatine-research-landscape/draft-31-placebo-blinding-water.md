@@ -5,6 +5,7 @@ stage: 4
 title: "Placebo, blinding, and the water-weight tell"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

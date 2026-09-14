@@ -5,6 +5,7 @@ stage: 3
 title: "Timing relative to training: what designs can isolate"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

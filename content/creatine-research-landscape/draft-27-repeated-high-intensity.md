@@ -5,6 +5,7 @@ stage: 4
 title: "Repeated high-intensity tasks: the phosphagen-shaped file"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

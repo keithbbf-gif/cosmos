@@ -5,6 +5,7 @@ stage: 2
 title: "Plasma creatine, urine creatine, and creatinine as research signals"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

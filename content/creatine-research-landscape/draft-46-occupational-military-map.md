@@ -5,6 +5,7 @@ stage: 7
 title: "Occupational and military performance papers as a map"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

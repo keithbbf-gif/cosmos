@@ -5,6 +5,7 @@ stage: 5
 title: "Caffeine in the same week: Vandenberghe and the mixed follow-ups"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 
@@ -33,8 +34,8 @@ muscle PCr still rose. That is a sharp, annoying result: Layer A
 moved and Layer B did not in the way the creatine-only arm did.
 
 If you cite "caffeine cancels creatine," you are citing this
-neighborhood. You should also cite the protocol (doses, timing,
-task), because later papers did not all copy it.
+neighborhood. A careful citation also names the protocol (doses,
+timing, task), because later papers did not all copy it.
 
 ## Why follow-ups mixed
 

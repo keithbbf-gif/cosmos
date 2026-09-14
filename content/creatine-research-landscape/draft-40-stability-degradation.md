@@ -5,6 +5,7 @@ stage: 6
 title: "Stability: creatine in a bottle becomes creatinine in a glass"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

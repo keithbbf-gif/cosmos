@@ -5,6 +5,7 @@ stage: 8
 title: "Misconceptions that are research-methods errors"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

@@ -5,6 +5,7 @@ stage: 7
 title: "Brain creatine as a measured pool, not a treatment chapter"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

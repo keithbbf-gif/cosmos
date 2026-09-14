@@ -5,6 +5,7 @@ stage: 6
 title: "Statute category: supplement speech is not drug speech"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

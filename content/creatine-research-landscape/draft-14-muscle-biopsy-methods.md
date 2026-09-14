@@ -5,6 +5,7 @@ stage: 2
 title: "How researchers measure muscle creatine: the needle biopsy"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

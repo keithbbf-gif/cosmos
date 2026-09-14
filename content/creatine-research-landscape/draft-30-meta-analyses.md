@@ -5,6 +5,7 @@ stage: 4
 title: "Meta-analyses: what pooling hides and what it shows"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

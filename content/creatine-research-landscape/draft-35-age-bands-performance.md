@@ -5,6 +5,7 @@ stage: 5
 title: "Age bands in performance research"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

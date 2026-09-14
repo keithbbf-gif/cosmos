@@ -5,6 +5,7 @@ stage: 2
 title: "The creatine kinase shuttle as a working hypothesis"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

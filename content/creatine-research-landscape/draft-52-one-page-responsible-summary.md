@@ -5,6 +5,7 @@ stage: 8
 title: "What a responsible educational summary can say in one page"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

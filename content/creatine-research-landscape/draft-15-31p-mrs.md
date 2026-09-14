@@ -5,6 +5,7 @@ stage: 2
 title: "31P-MRS: watching phosphocreatine without a needle"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 

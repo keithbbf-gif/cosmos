@@ -5,6 +5,7 @@ stage: 1
 title: "From meat crystal to muscle metabolite: a short history"
 kind: educational-landscape
 claims: none
+voice_check: edited
 audience: adult learners of exercise physiology and research methods
 ---
 
