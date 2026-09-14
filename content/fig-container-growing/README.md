@@ -4,6 +4,10 @@ Pot-culture notes for common fig (*Ficus carica*) kept in containers in USDA
 Zones 7, 8, and 9. These are **staged drafts**, not published pages. Voice is
 a working gardener, not a catalog.
 
+Quality gate: `STYLE_GUIDE.md`, editor sign-off in `EDITOR_REPORT.md`, and
+`python3 content/fig-container-growing/validate.py` (requires `voice_check:
+edited` on every numbered draft).
+
 Each file stands alone. Read them in number order if you want the argument
 to build; skip around if you already know why the pot exists.
 
@@ -58,3 +62,4 @@ to build; skip around if you already know why the pot exists.
 | 47 | `47-a-small-collection.md` | More than one pot without a jungle |
 
 `status: staged` in the front matter means ready for a human pass, not live.
+After the editor pass, drafts carry `voice_check: edited` and `last_edited`.

@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [8]
 culture: pot
 topic: calendar
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Zone 8 month by month

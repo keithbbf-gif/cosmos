@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: rationale
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Why a pot beats the ground in Zone 7–9

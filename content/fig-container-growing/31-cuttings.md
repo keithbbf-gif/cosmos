@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: propagation
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Cuttings that actually take

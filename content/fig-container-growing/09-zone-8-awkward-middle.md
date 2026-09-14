@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [8]
 culture: pot
 topic: winter
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Zone 8, the awkward middle
@@ -19,8 +21,8 @@ that belongs to Zone 6 for four nights, and the pots —
 not the in-ground trees down the street — are the ones
 that die.
 
-The roots are the weak part. In the ground, even a
-ugly clay bed holds heat and buffers the swing. In a
+The roots are the weak part. In the ground, even an ugly
+clay bed holds heat and buffers the swing. In a
 15-gallon can, the whole root ball can go below 20°F
 while the air is 18°F. Bark on the top may still be
 green. You find out in April.

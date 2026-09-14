@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: establishment
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Year one without the grocery-store fantasy

@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [9]
 culture: pot
 topic: heat
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Zone 9 heat, cooked roots, stalled fruit

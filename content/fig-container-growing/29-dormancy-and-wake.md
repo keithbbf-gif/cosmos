@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: dormancy
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Leaf drop, sleep, and wake

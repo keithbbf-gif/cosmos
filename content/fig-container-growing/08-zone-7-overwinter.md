@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7]
 culture: pot
 topic: winter
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Keep the wood through a Zone 7 winter

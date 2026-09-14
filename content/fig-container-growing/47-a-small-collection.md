@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: collection
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # More than one pot without a jungle

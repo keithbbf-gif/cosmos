@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [7, 8, 9]
 culture: pot
 topic: pruning
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Pruning a pot fig as a bush

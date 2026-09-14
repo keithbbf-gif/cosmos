@@ -7,6 +7,8 @@ series: fig-container-growing
 zones: [8, 9]
 culture: pot
 topic: soil
+voice_check: edited
+last_edited: 2026-09-14
 ---
 
 # Nematodes and why pots win down South
