@@ -101,7 +101,7 @@ def default_spec() -> dict:
             "rate UNMEASURED, not $0. Probe is GET /agents/tasks only; "
             "POST /agents/repos/{o}/{r}/tasks and `gh agent-task create` "
             "are opt-in dispatch, never boot. User-to-server token only; "
-            "ghs_ installation tokens REFUSED. dst=code, never forge."
+            "App installation tokens REFUSED. dst=code, never forge."
         ),
     }
 
@@ -698,7 +698,11 @@ def _selftest() -> int:
     write_spec(td / SPEC_NAME)
     on_disk = (td / SPEC_NAME).read_text(encoding="utf-8")
     check("write_spec never stores a token field",
-          lambda: "ghs_" not in on_disk and "token" not in json.loads(on_disk))
+          lambda: "ghs_" not in on_disk
+          and not any(k in json.loads(on_disk) for k in
+                      ("api_key", "key", "token", "GITHUB_TOKEN",
+                       "GH_TOKEN", "COPILOT_GITHUB_TOKEN",
+                       "github_agent_token")))
 
     bad = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
