@@ -248,13 +248,59 @@ def local_disk_probe(path: str) -> Probe:
     return _probe
 
 
-def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
-    """Idempotent: register + probe + measure the COSMOS runtime root.
+# ITC — Cloudflare R2 public mirror. CoW writes the bucket; Core and
+# every other reader only GET. The claim URL is the public host; the
+# probe fetches the documented index (GrokDex.csv). Capacity of a
+# publish mirror is unknown — never 0.
+ITC_SURFACE_ID = "itc"
+ITC_PUBLIC_URL = "https://ai.dchambers.com"
+ITC_INDEX_URL = "https://ai.dchambers.com/GrokDex.csv"
 
-    One LOCAL SCRATCH surface so GET /api/v1/surfaces is never an empty
-    catalog on a writing boot. Extra volumes are claims the operator
-    registers; this seed does not invent V:\\ / P:\\ rows in tests.
+
+def https_publish_probe(url: str, fetcher: Optional[Callable[[str], str]] = None) -> Probe:
+    """Reachability of a public HTTPS publish mirror.
+
+    Returns (reachable, None, detail). free_bytes is always None — a
+    public mirror does not report capacity, and unknown is not zero.
+    A raising or empty fetch is UNREACHABLE, never invented True.
     """
+
+    def _default(u: str) -> str:
+        import urllib.request
+        req = urllib.request.Request(u, method="GET")
+        with urllib.request.urlopen(req, timeout=8) as r:  # noqa: S310
+            status = int(getattr(r, "status", 200) or 200)
+            body = r.read(512)
+            if status >= 400:
+                raise OSError(f"http {status}")
+            return body.decode("utf-8", "replace")
+
+    fn = fetcher if fetcher is not None else _default
+
+    def _probe():
+        try:
+            text = fn(url)
+        except Exception as e:  # noqa: BLE001
+            return False, None, f"unreachable {url}: {type(e).__name__}: {e}"[:300]
+        if not isinstance(text, str) or not text:
+            return False, None, f"unreachable {url}: empty body"
+        return True, None, f"{url} bytes={len(text.encode('utf-8'))} (capacity unknown)"
+
+    return _probe
+
+
+def seed_host_surfaces(sf: "Surfaces", root: Path | str, *,
+                       itc_fetcher: Optional[Callable[[str], str]] = None) -> list[str]:
+    """Idempotent: register the runtime root and the ITC claim.
+
+    cosmos-live is LOCAL SCRATCH and is measured on first boot (the
+    directory exists). ITC is the Cloudflare R2 public mirror
+    (ai.dchambers.com): CoW writes, others read. Registration is not
+    reachability — the probe is attached and reachable stays None
+    until measure() runs a real fetch. Extra volumes stay operator
+    claims; this seed does not invent V:\\ / P:\\ rows in tests.
+    """
+    seeded: list[str] = []
     sid = "cosmos-live"
     root_s = str(Path(root))
     if sid not in sf.state():
@@ -262,4 +308,11 @@ def seed_host_surfaces(sf: "Surfaces", root: Path | str) -> list[str]:
     sf.attach_probe(sid, local_disk_probe(root_s))
     if sf.state().get(sid, {}).get("measurement") is None:
         sf.measure(sid)
-    return [sid]
+    seeded.append(sid)
+
+    if ITC_SURFACE_ID not in sf.state():
+        sf.register(ITC_SURFACE_ID, "PUBLISH", ITC_PUBLIC_URL, "PUBLISH")
+    sf.attach_probe(ITC_SURFACE_ID, https_publish_probe(ITC_INDEX_URL, fetcher=itc_fetcher))
+    # do not measure — reachable:null stays UNMEASURED until a real probe runs
+    seeded.append(ITC_SURFACE_ID)
+    return seeded

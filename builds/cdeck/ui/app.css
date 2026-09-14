@@ -1,0 +1,25 @@
+/* app.css — MESH widget styles */
+:root {
+  --bg: #0b0e12;
+  --panel: #12161c;
+  --panel-edge: #1f2630;
+  --ink: #c8d2dc;
+  --ink-dim: #7a8694;
+  --green: #3fd68f;
+  --amber: #e6b450;
+  --red: #e5534b;
+  --cyan: #56b6c2;
+  --mono: "Consolas", "Cascadia Mono", "Courier New", monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.45;
+  height: 100%;
+  overflow: hidden;
+}

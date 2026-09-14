@@ -11,7 +11,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "cosmos"))
 from cosmos_ledger import Ledger
-from cosmos_surfaces import Surfaces, SurfaceError
+from cosmos_surfaces import (  # noqa: E402
+    Surfaces, SurfaceError, seed_host_surfaces, https_publish_probe,
+    ITC_SURFACE_ID, ITC_PUBLIC_URL,
+)
 from cosmos_kernel import Kernel, install
 from cosmos_service import Service
 
@@ -126,6 +129,15 @@ def main() -> int:
     check("writing kernel seeds cosmos-live surface",
           lambda: "cosmos-live" in k.surfaces.state()
           and k.surfaces.report()[0]["reachable"] is True)
+    itc_seed = {r["id"]: r for r in k.surfaces.report()}.get("itc")
+    check("writing kernel seeds itc claim UNMEASURED (reachable None, not 0)",
+          lambda: itc_seed is not None
+          and itc_seed["reachable"] is None
+          and itc_seed["free_gb"] is None
+          and itc_seed["age_s"] is None
+          and itc_seed["qualified"] is None
+          and itc_seed["kind"] == "PUBLISH"
+          and itc_seed["path_or_url"] == "https://ai.dchambers.com")
     head_before = k.ledger.head_seq()
     kr = Kernel(root, worker="reader", read_only=True)
     check("read-only kernel COMPOSES surfaces and does not reseed",
@@ -147,12 +159,21 @@ def main() -> int:
 
     code, body = get("/api/v1/surfaces")
     check("GET /surfaces without a token -> 200 on loopback",
-          lambda: code == 200 and {s["id"] for s in body["surfaces"]} == {"cosmos-live"})
+          lambda: code == 200
+          and {s["id"] for s in body["surfaces"]} == {"cosmos-live", "itc"})
     code, body = get("/api/v1/surfaces", svc.token)
+    by_wire = {s["id"]: s for s in body["surfaces"]}
     check("GET /surfaces serves measured cosmos-live over the wire",
           lambda: code == 200 and body["surfaces"][0]["id"] == "cosmos-live"
           and body["surfaces"][0]["reachable"] is True
           and body["surfaces"][0]["free_gb"] is not None)
+    check("GET /surfaces serves itc with reachable null (UNMEASURED, never 0)",
+          lambda: by_wire["itc"]["reachable"] is None
+          and by_wire["itc"]["free_gb"] is None
+          and by_wire["itc"]["age_s"] is None
+          and by_wire["itc"]["qualified"] is None
+          and by_wire["itc"]["kind"] == "PUBLISH"
+          and by_wire["itc"]["role"] == "PUBLISH")
     check("GET /surfaces carries served_at + measured_at",
           lambda: body.get("served_at") and body.get("measured_at"))
     check("GET /surfaces is a read - ledger head did not move",
@@ -163,6 +184,35 @@ def main() -> int:
     k.surfaces = held
     check("GET /surfaces on an uncomposed kernel -> 503 (not an empty catalog)",
           lambda: code == 503 and body.get("error") == "SURFACES_NOT_COMPOSED")
+
+    # ---- ITC probe: real fetch records reachability; capacity stays None ----
+    td_itc = Path(tempfile.mkdtemp(prefix="cosmos_itc_surf_"))
+    led_itc = Ledger(td_itc / "s.jsonl", KEY, "F5", clock=lambda: fake[0])
+    sf_itc = Surfaces(led_itc, clock=lambda: fake[0])
+    seed_host_surfaces(sf_itc, td_itc, itc_fetcher=lambda u: "object_key,url\n")
+    itc_unmeas = {r["id"]: r for r in sf_itc.report()}[ITC_SURFACE_ID]
+    check("seed_host_surfaces does not auto-measure itc",
+          lambda: itc_unmeas["reachable"] is None and itc_unmeas["free_gb"] is None)
+    m_itc = sf_itc.measure(ITC_SURFACE_ID)
+    check("itc probe reachable True and free_bytes None (capacity unknown, not 0)",
+          lambda: m_itc["reachable"] is True and m_itc["free_bytes"] is None)
+    q_pub = sf_itc.qualify_backup_target(ITC_SURFACE_ID, min_free_bytes=1)
+    check("itc PUBLISH does not qualify as backup (publishing is not backup)",
+          lambda: q_pub["qualified"] is False
+          and any("mesh-addressability" in r or "capacity" in r
+                  for r in q_pub["reasons"]))
+    led_dead = Ledger(td_itc / "dead.jsonl", KEY, "F5", clock=lambda: fake[0])
+    sf_dead = Surfaces(led_dead, clock=lambda: fake[0])
+    seed_host_surfaces(
+        sf_dead, td_itc,
+        itc_fetcher=lambda u: (_ for _ in ()).throw(OSError("down")))
+    m_dead = sf_dead.measure(ITC_SURFACE_ID)
+    check("itc probe down records UNREACHABLE, does not invent True",
+          lambda: m_dead["reachable"] is False and m_dead["free_bytes"] is None)
+    p_empty = https_publish_probe(ITC_PUBLIC_URL, fetcher=lambda u: "")
+    empty_reach, empty_free, _ = p_empty()
+    check("itc empty fetch is UNREACHABLE with capacity None",
+          lambda: empty_reach is False and empty_free is None)
 
     bad = [(l, e) for l, ok, e in RESULTS if not ok]
     for label, ok, err in RESULTS:
