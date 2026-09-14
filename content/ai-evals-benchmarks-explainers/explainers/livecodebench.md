@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "LiveCodeBench: problems with a date stamp"
 slug: livecodebench
 kind: explainer

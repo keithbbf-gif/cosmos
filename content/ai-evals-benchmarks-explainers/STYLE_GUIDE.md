@@ -12,7 +12,7 @@ Write as a careful magazine writer who has read the papers and sat with a leader
 - Allow a dry joke if it is true. Do not manufacture charm.
 - Address a curious adult reader. Do not coach, sell, or congratulate them.
 
-The front-matter field `voice_check: human` is a production flag, not a personality. Copy that still sounds like a briefing deck fails the flag.
+The front-matter field `voice_check` is a production flag, not a personality. Staged drafts use `human`; after an editor pass, set `edited`. Copy that still sounds like a briefing deck fails either flag.
 
 ## Banned habits
 

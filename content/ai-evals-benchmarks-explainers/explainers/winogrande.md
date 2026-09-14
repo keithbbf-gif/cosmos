@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "WinoGrande: a crowd of pronouns, a smaller trick"
 slug: winogrande
 kind: explainer
@@ -11,11 +11,11 @@ portrait_status: none
 
 Hector Levesque’s Winograd Schema Challenge (2012) was a small, carefully written set of pronoun problems: two sentences, one word flipped, “it” pointing at a different noun because the world works that way. The set was tiny. Tiny sets die of overfitting and of fame. Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi published “WinoGrande: An Adversarial Winograd Schema Challenge at Scale” at AAAI 2020 (preprint 2019). Allen Institute for AI. They tried to keep the pronoun trick and lose the smallness.
 
-## What an item is
+## Pronoun, two candidates, commonsense pick
 
 A sentence with a blank or a pronoun, two candidate referents, a bit of commonsense that makes one candidate right. The “grande” is the count: tens of thousands of problems collected with crowdsourcing, then filtered so that then-current models could not coast on artifacts.
 
-The filter matters. Crowdsourced pronoun problems come with statistical tells — gender stereotypes, word overlap, a favorite noun sitting closer to the pronoun. If you do not filter, you get a dataset that looks like WinoGrad and behaves like a bag-of-words test. Sakaguchi’s group used adversarial filtering, in the same family as HellaSwag, to knock out the easy tells.
+The filter matters. Crowdsourced pronoun problems come with statistical tells — gender stereotypes, word overlap, a favorite noun sitting closer to the pronoun. If you do not filter, you get a dataset that looks like Winograd and behaves like a bag-of-words test. Sakaguchi’s group used adversarial filtering, in the same family as HellaSwag, to knock out the easy tells.
 
 ## Scale versus craft
 
@@ -41,7 +41,7 @@ Gender and occupation still sneak in as “commonsense.” If your product claim
 
 Like HellaSwag, it became a harness default and then a climbed wall. A high WinoGrande accuracy in 2025 is expected of a general model. A low one is a smell. The interesting use is diagnostic: which items still fail, and do they fail because the commonsense is rare or because the item is badly written?
 
-## How to read it
+## How to read a WinoGrande line
 
 Name the split (the paper’s various training sizes were part of the original study; evaluation cards should use the published test). Do not confuse it with Levesque 2012. Do not call it “reasoning” without the pronoun noun. It is a large, filtered, binary coreference-with-commonsense test. The grande is the point. The Wino- is the inheritance. Keep both halves of the name.
 

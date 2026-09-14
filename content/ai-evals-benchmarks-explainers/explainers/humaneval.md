@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "HumanEval: 164 docstrings and a hidden test"
 slug: humaneval
 kind: explainer
@@ -9,7 +9,7 @@ portrait: null
 portrait_status: none
 ---
 
-HumanEval is small enough to memorize as a folklore number: 164. Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, and a long OpenAI list published “Evaluating Large Language Models Trained on Code” in 2021 (arXiv:2107.03374). The paper is the Codex paper. The eval is a set of handwritten Python problems: a function signature, a docstring, a few visible examples, and hidden unit tests you do not get to see until you submit a body.
+HumanEval is small enough to memorize as a folklore number: 164. Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, and a long OpenAI list published “Evaluating Large Language Models Trained on Code” in 2021 (arXiv:2107.03374). The paper is the Codex paper. The eval is a set of handwritten Python problems: a function signature, a docstring, a few visible examples, and hidden unit tests you do not get to see until the harness runs your function body.
 
 The scientific object is not “can the model program.” It is: given this docstring, can it write a function that satisfies these tests, under this sampling budget? See [pass@k](../essays/pass-at-k-and-the-coder-receipt.md).
 
@@ -43,7 +43,7 @@ LiveCodeBench, contest clones, and SWE-bench exist because this file stopped bei
 
 **MBPP** (Austin et al., 2021) is larger, a bit more pedestrian, still function-level Python. See [MBPP](mbpp.md).
 
-**DS-1000** (Lai et al., ICML 2023) asks for data-science snippets against real stack-overflow-shaped problems.
+**DS-1000** (Lai et al., ICML 2023) asks for data-science snippets against real Stack Overflow-shaped problems.
 
 **SWE-bench** asks for a patch in a repo. Different animal.
 

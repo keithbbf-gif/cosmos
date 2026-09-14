@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "GAIA: a general assistant, graded by a short answer"
 slug: gaia
 kind: explainer

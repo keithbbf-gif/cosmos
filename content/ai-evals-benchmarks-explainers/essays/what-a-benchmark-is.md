@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "What a benchmark is, and what it pretends"
 slug: what-a-benchmark-is
 kind: essay

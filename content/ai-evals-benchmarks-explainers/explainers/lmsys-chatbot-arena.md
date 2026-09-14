@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Chatbot Arena: two unnamed replies, one thumb"
 slug: lmsys-chatbot-arena
 kind: explainer
@@ -19,7 +19,7 @@ The ranking is not a raw win rate. The paper describes a Bradley-Terry style mod
 
 ## What the 2024 paper claimed
 
-At writing, the authors reported more than 240,000 votes, enough prompt diversity to discriminate models, and meaningful agreement between crowd votes and expert raters. Those claims are dated. The vote count is a historical snapshot, not a live widget. Do not update it from memory in this draft.
+At writing, the authors reported more than 240,000 votes, enough prompt diversity to discriminate models, and meaningful agreement between crowd votes and expert raters. Those claims are dated. The vote count is a historical snapshot, not a live widget. Treat it as a dated snapshot from the paper; do not update it from memory.
 
 They also claimed the thing the industry wanted: an open preference leaderboard that was not a company’s private side-by-side. Labs began to quote it. Journalists treated a rank as a review. The site became, for a while, the closest thing the field had to a public weather service for chat.
 

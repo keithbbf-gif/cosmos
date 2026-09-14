@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MMMU: a college exam with diagrams"
 slug: mmmu
 kind: explainer

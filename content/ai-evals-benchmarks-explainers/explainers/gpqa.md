@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "GPQA: graduate questions, Google not invited"
 slug: gpqa
 kind: explainer
@@ -27,9 +27,7 @@ Samuel Bowman is also a GLUE and SuperGLUE author. The through-line is not a coi
 
 A diamond item in chemistry or physics asks for a distinction that a first-year survey course does not make. The distractors are the mistakes a confident almost-expert makes. A non-expert with a browser finds a related page and still cannot tell which letter is right. That gap — expert high, non-expert-with-Google low — is the authors’ acceptance test for an item.
 
-If later agents close the non-expert gap by reading papers instead of snippets, the “Google-proof” adjective should be retired for those students. The file can remain. The adjective is a 2023 weather report.
-
-Julian Michael and Samuel Bowman on the author list are a link back to GLUE’s editorial culture: hidden hardship, suspicion of easy numbers, a preference for a file you can argue about item by item.
+If later agents close the non-expert gap by reading papers instead of snippets, the “Google-proof” adjective should be retired for those students. The file can remain. The adjective is a 2023 weather report. Julian Michael on the author list shares the same measurement instinct: a public file, a narrow claim, no mascot average.
 
 ## Tools change the instrument
 
@@ -45,4 +43,4 @@ There is also expertise theater: a question can be hard because it is obscure, o
 
 Name full versus Diamond, with or without tools, multiple-choice versus a generative recast, and the date. Compare to MMLU-Pro if you want broader undergraduate-plus hardship, and to Humanity’s Last Exam if you want a later, wider expert solicitation. Do not compare to GSM8K and call the axis “reasoning.” GPQA is graduate science recognition, Google-resistant at birth. That is already a long, specific claim. It does not need a larger noun.
 
-A common mis-citation is to say “GPQA” and mean Diamond, or the reverse, without a word. The denominators differ. The word is cheap. Spend it.
+A common mis-citation is to say “GPQA” and mean Diamond, or the reverse, without a word. The denominators differ. The word is cheap. Spend it on the subset you actually ran, not the acronym alone.

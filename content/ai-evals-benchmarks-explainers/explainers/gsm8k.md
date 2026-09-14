@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "GSM8K: grade-school arithmetic, written out"
 slug: gsm8k
 kind: explainer

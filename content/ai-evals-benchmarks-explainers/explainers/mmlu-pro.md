@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MMLU-Pro: ten choices, fewer easy A’s"
 slug: mmlu-pro
 kind: explainer

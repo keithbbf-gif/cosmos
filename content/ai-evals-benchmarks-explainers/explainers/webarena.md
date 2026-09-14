@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "WebArena: a town of websites, a task, a success flag"
 slug: webarena
 kind: explainer

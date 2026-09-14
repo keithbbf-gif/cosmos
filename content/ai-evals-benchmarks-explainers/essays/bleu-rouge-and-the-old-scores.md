@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "BLEU, ROUGE, and the age of the cheap judge"
 slug: bleu-rouge-and-the-old-scores
 kind: essay

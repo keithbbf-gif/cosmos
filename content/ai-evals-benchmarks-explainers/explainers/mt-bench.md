@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MT-Bench: eight turns, a model for a judge"
 slug: mt-bench
 kind: explainer

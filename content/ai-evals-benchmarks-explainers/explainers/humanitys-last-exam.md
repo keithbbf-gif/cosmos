@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Humanity’s Last Exam: a name that tries to end the sequel problem"
 slug: humanitys-last-exam
 kind: explainer

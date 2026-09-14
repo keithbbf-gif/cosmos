@@ -65,8 +65,9 @@ def main() -> int:
         for key in REQUIRED:
             if key not in fm:
                 errors.append(f"{path.name}: missing {key}")
-        if fm.get("voice_check") != "human":
-            errors.append(f"{path.name}: voice_check is not human")
+        vc = fm.get("voice_check")
+        if vc not in ("human", "edited"):
+            errors.append(f"{path.name}: voice_check must be human or edited, got {vc!r}")
         slug = fm.get("slug", "")
         if slug in slugs:
             errors.append(f"duplicate slug {slug}: {slugs[slug].name} / {path.name}")

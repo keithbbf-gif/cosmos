@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "BIG-bench Hard: the tasks that still said no"
 slug: big-bench-hard
 kind: explainer

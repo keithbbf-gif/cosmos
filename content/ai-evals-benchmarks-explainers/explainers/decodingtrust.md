@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "DecodingTrust: a suite, not a single safety number"
 slug: decodingtrust
 kind: explainer
@@ -41,8 +41,8 @@ Classifiers as judges (Perspective-style toxicity scores) have their own weather
 
 ## How to read a DecodingTrust line
 
-Which perspectives (the paper’s term for slices), which model generations, whether you used the authors’ scripts, and the per-slice table. A vendor sentence that says “we evaluated DecodingTrust” without columns is a costume.
+Which trustworthiness slices, which model generations, whether you used the authors’ scripts, and the per-slice table. A vendor sentence that says “we evaluated DecodingTrust” without columns is a costume.
 
 Wang and Li’s group, with a long interdisciplinary list, tried to make trustworthiness look like a grid instead of a slogan. Keep the grid. Drop the slogan.
 
-A common mis-citation is to treat the 2023 GPT-focused tables as a 2026 certificate for a different family. Re-run the scripts or admit you are quoting history. The suite is a method. The cells are weather. A missing slice is a missing claim, not a rounded average you get to keep on a slide.
+A common mis-citation is to treat the 2023 GPT-focused tables as a 2026 certificate for a different family. Re-run the scripts on that model or admit you are quoting history. The suite is a method. The cells are weather on that model. A missing slice is a missing claim, not a rounded average you get to keep on a slide.

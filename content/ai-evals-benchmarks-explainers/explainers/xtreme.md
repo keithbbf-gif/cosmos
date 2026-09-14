@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "XTREME: forty languages, a reminder that English is a dialect"
 slug: xtreme
 kind: explainer

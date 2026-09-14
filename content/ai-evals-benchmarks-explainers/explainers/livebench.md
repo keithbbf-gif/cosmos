@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "LiveBench: a file that tries to keep moving"
 slug: livebench
 kind: explainer

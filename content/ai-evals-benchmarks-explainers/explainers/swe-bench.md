@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "SWE-bench: the issue is the exam"
 slug: swe-bench
 kind: explainer

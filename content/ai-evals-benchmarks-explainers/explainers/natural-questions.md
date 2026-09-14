@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "Natural Questions: the query came from a person"
 slug: natural-questions
 kind: explainer

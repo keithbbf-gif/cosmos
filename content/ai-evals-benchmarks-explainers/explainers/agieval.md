@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "AGIEval: human entrance exams, borrowed as a yardstick"
 slug: agieval
 kind: explainer

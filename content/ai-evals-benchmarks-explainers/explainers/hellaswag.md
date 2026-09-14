@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "HellaSwag: the ending that should be obvious"
 slug: hellaswag
 kind: explainer
@@ -15,7 +15,7 @@ The contexts come from everyday video captions and how-to text — ActivityNet, 
 
 ## Adversarial filters, not random wrong answers
 
-If you sample random endings, a model that has learned a little about English can often reject the junk. HellaSwag’s wrong answers were filtered to fool then-current models while remaining obvious to people. The method sits in a line Choi’s group worked hard: build a dataset that is easy for humans and hard for the machines you have, then watch the next machines eat it.
+If you sample random endings, a model that has learned a little about English can often reject the junk. HellaSwag’s wrong answers were filtered to fool then-current models while remaining obvious to people. The method sits in a line Choi’s group worked hard on: build a dataset that is easy for humans and hard for the machines you have, then watch the next machines eat it.
 
 Adversarial filtering is a timestamp. The negatives were hard for BERT-era models. They are less hard for a 2024 chatbot. The items remain a test of whether a model prefers a physically and socially ordinary continuation over a fluent absurdity. When scores approach the human ceiling, the filter has done its historical job.
 
@@ -27,19 +27,17 @@ A four-choice continuation is also not the same as writing the next sentence. Ge
 
 ## An item in the hand
 
-A WikiHow-ish context: a person is changing a tire, the lug nuts are off, the spare is in hand. Four endings: one is the next ordinary beat; three are fluent nonsense that a 2019 model liked anyway — a random kitchen, a jump cut to a ceremony, a physically impossible twist. A person points at the ordinary beat without a meeting. That gap was the paper.
-
-Adversarial filtering means the nonsense was not random. It was the nonsense that fooled the machines of that year. When later machines stop being fooled, you have not necessarily installed commonsense. You have aged the filter. Choi’s group knew that; the method is designed to be re-run. Most cards never re-ran it. They kept the 2019 negatives and called the climb progress, which it partly is.
+A WikiHow-ish context: a person is changing a tire, the lug nuts are off, the spare is in hand. Four endings: one is the next ordinary beat; three are fluent nonsense that a 2019 model liked anyway — a random kitchen, a jump cut to a ceremony, a physically impossible twist. A person points at the ordinary beat in one glance. That gap was the paper. The wrong endings were not random noise; they were the endings that fooled the models of that year, which is why the suite ages even when the captions still sound ordinary.
 
 ActivityNet captions bring a video-world prior: bodies, rooms, sports. WikiHow brings a how-to prior. Neither is a theory of the everyday. Both are better than a logic puzzle pretending to be the everyday.
 
 ## Why it stayed on the cards
 
-Because it is easy to run, because EleutherAI’s harness and HELM both treated it as a standard scenario, and because it became part of the “open LLM table” alongside ARC, MMLU, and WinoGrande. That table is a cultural object. It is not a natural kind. HellaSwag is on it because 2019’s commonsense gap was famous and the file was public.
+Because it is easy to run, because EleutherAI’s harness and HELM both treated it as a standard scenario, and because it became part of the “open LLM table” alongside AI2 ARC-Challenge, MMLU, and WinoGrande. That table is a cultural object. It is not a natural kind. HellaSwag is on it because 2019’s commonsense gap was famous and the file was public.
 
 By the time base models score in the high 80s or 90s, the card is mostly saying: we ran the harness. That is still worth doing as a regression. It is not worth doing as a personality.
 
-## How to read it
+## How to read a HellaSwag line
 
 Prefer the paper’s original setup (ending selection, the published splits) over a chatbot paraphrase of the context. If you prompt it as an open conversation, you have built a cousin. Report accuracy, not a vibe. If you need commonsense that still hurts, look at the later social and physical suites, or at PIQA and the remaining hard slices of BIG-bench — and then check whether those, too, have been climbed.
 

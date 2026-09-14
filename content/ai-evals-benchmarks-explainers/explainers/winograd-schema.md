@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "The Winograd Schema Challenge: two sentences, one word, a pronoun"
 slug: winograd-schema
 kind: explainer
@@ -49,6 +49,6 @@ Both instincts can be right. A handmade pair can still embarrass a system that t
 
 If the N is tens of thousands, it is WinoGrande. If the N is tiny and the citation is 2012, it is the Challenge. If the split is WNLI, it is GLUE’s scar. Say which. The pronoun is the same. The instrument is not.
 
-A common mis-citation is to treat a modern LLM’s perfect score on the original handful as news about commonsense. It may be news about the internet’s memory of a famous exam. If you want N and a filter, go to WinoGrande. If you want the 2012 argument, keep the argument small.
+A common mis-citation is to treat a modern LLM’s perfect score on the original handful as news about commonsense. It may be news about the internet’s memory of a famous exam.
 
 Two sentences. One word. A referent that flips because the world does. Levesque, Davis, and Morgenstern wrote a small exam and asked the field not to confuse talk with sense. The field still confuses them. The schemas are still there, waiting for a careful citation.

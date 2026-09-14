@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "ARC-AGI: grids, few shots, a different intelligence argument"
 slug: arc-agi
 kind: explainer
@@ -33,7 +33,7 @@ The public training grids are for practice. The hidden eval grids are for claims
 
 ## Contests and the 2024–2025 weather
 
-Kaggle hosted an ARC challenge. Later, Chollet and collaborators ran further public contests as models got better at tool use and at program synthesis. Scores moved. The movement is real and time-stamped. This draft will not print a live percentage. A system that writes Python to transform grids is a different student from a 2019 handmade baseline. Name the year and the allowed tools.
+Kaggle hosted an ARC challenge. Later, Chollet and collaborators ran further public contests as models got better at tool use and at program synthesis. Scores moved. The movement is real and time-stamped. This explainer will not print a live percentage. A system that writes Python to transform grids is a different student from a 2019 handmade baseline. Name the year and the allowed tools.
 
 When a lab says it “solved ARC,” ask: which split, which time limit, how many submissions per task, was a program synthesizer in the loop, and do they mean AI2’s science set by accident?
 

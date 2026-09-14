@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "HELM: the refusal to print one number"
 slug: helm
 kind: explainer
@@ -39,7 +39,7 @@ Later HELM work expands into multimodal and into safety-flavored slices. Those a
 
 ## What HELM will not do for you
 
-It will not tell you which model to buy. It will not replace a preference room. It will not save you from contamination on the underlying datasets — HELM composes existing files; it does not magically un-leak them. It will not run your private workload.
+It will not tell you which model to buy. It will not replace a preference room. It will not save you from contamination on the underlying datasets — HELM composes existing files; it does not undo leakage in those files by composition alone. It will not run your private workload.
 
 It will give you a vocabulary for saying: this system is accurate here, poorly calibrated there, expensive in between, and we can show you the completions. That sentence is longer than “89 on MMLU.” It is also harder to lie with.
 

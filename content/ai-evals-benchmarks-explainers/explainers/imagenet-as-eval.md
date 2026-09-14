@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "ImageNet as a yardstick, not only as a pile of photos"
 slug: imagenet-as-eval
 kind: explainer
@@ -21,7 +21,7 @@ The categories are WordNet synsets, which means they are a particular lexical th
 
 ## Why vision needed it
 
-Caltech-101 and PASCAL-sized sets were too small to absorb a large model’s appetite and too narrow to support a yearly public race. Fei-Fei Li’s group’s bet — later discussed by her in talks as a bet that scale of supervision would move the field — was that a painful, public, large-label set would do for vision what a shared task had done for other corners of AI.
+Caltech-101 and PASCAL-sized sets were too small to absorb a large model’s appetite and too narrow to support a yearly public race. Fei-Fei Li’s bet — later discussed by her in talks as a bet that scale of supervision would move the field — was that a painful, public, large-label set would do for vision what a shared task had done for other corners of AI.
 
 ILSVRC’s calendar made the bet operational. You could not wave away a number as a private split. Other groups could enter. The 2012 convolutional net did not win because it had a better press team. It won because the error rate dropped by a margin that made other summer plans look dated.
 

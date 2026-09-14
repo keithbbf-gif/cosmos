@@ -56,6 +56,6 @@ This series does not include methods for weapons, pathogens, or offensive cyber 
 
 1. Search the folder for the out-of-scope names above. Any hit is a fail.
 2. Search for banned style words in `STYLE_GUIDE.md`.
-3. Confirm every article has `voice_check: human` and a stable `slug`.
+3. Confirm every article has `voice_check: edited` (or `human` if not yet edited) and a stable `slug`.
 4. Confirm no article claims a paper, prize, score, or quotation that is not in `BIBLIOGRAPHY.md` or a standard public catalog.
 5. Confirm no article teaches a private scoring method or leaks an unpublished docket.

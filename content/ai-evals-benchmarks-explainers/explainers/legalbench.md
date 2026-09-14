@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "LegalBench: tasks a lawyer would recognize, not a bar exam cosplay"
 slug: legalbench
 kind: explainer
@@ -17,7 +17,7 @@ The collaborative build is the method. Legal experts proposed tasks. The suite k
 
 A bar-style multiple-choice average will tell you something about exam technique and the crawl of prep books. It will not tell you whether a model can, given a statute excerpt, apply the rule and stop. LegalBench’s authors wanted the second, in pieces small enough to score and to disagree about.
 
-Some tasks are easy classification. Some want you to stay inside a provided rule (a “rule-application” mood that is closer to IRAC as a constrained game than to open-ended advice). The interesting scientific object is the spread. A model that is high on extraction and low on rule application is a highlighter, not a clerk.
+Some tasks are easy classification. Some want you to stay inside a provided rule (a “rule-application” mood that is closer to Issue–Rule–Application–Conclusion (IRAC) as a constrained game than to open-ended advice). The interesting scientific object is the spread. A model that is high on extraction and low on rule application is a highlighter, not a clerk.
 
 ## What it will not do
 

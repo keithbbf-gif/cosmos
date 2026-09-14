@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MMLU: fifty-seven subjects, four choices, a decade’s shorthand"
 slug: mmlu
 kind: explainer
@@ -11,7 +11,7 @@ portrait_status: none
 
 Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt published “Measuring Massive Multitask Language Understanding” at ICLR 2021. The preprint is from 2020. The name collapsed, immediately, into an acronym that now behaves like a brand: MMLU.
 
-The hardship is an exam pile. The paper describes 57 tasks drawn from real academic and professional tests — humanities, social sciences, STEM, and “other” — with four-choice questions. The original evaluation protocol that made the number famous is few-shot: show the model a handful of answered questions from the same subject, then ask a new one. Accuracy, averaged, is the headline.
+The hardship is an exam pile. The paper describes fifty-seven tasks drawn from real academic and professional tests — humanities, social sciences, STEM, and “other” — with four-choice questions. The original evaluation protocol that made the number famous is few-shot: show the model a handful of answered questions from the same subject, then ask a new one. Accuracy, averaged, is the headline.
 
 ## Why it landed
 

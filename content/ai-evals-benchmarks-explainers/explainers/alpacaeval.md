@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "AlpacaEval: a cheap preference, a loud number"
 slug: alpacaeval
 kind: explainer

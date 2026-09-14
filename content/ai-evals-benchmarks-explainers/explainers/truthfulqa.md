@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "TruthfulQA: the question that wants a popular lie"
 slug: truthfulqa
 kind: explainer

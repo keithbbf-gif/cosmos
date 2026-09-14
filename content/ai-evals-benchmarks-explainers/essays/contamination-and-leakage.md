@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "When the exam was in the library"
 slug: contamination-and-leakage
 kind: essay
@@ -48,7 +48,7 @@ When a model card says “87 on MMLU,” ask:
 
 When a company says “we didn’t train on the test set,” ask what that sentence can possibly mean if the test set has been quoted in a hundred papers. Sometimes it means they ran an overlap filter. Sometimes it means they believe their crawl dates. Sometimes it means they would prefer the question to end.
 
-## The ethical leftover
+## Leakage without a villain
 
 It is easy to sound prosecutorial. Most leakage is not a heist. It is the cost of doing evaluation in public, which is the only evaluation this series is willing to discuss. The fix is not to hide science. The fix is to treat a static popular file as a historical instrument, to refresh or hide items when the scientific claim requires it, and to stop using a saturated number as a personality.
 

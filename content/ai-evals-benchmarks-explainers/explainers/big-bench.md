@@ -1,6 +1,6 @@
 ---
-voice_check: human
-title: "BIG-bench: a barn raising with two hundred tasks"
+voice_check: edited
+title: "BIG-bench: a barn raising with two hundred-plus tasks"
 slug: big-bench
 kind: explainer
 era: 2022–2023

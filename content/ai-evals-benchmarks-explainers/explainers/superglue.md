@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "SuperGLUE: the sequel that admitted the first test got easy"
 slug: superglue
 kind: explainer

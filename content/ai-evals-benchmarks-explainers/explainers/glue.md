@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "GLUE: nine tasks, one average, a habit"
 slug: glue
 kind: explainer
@@ -37,7 +37,7 @@ The diagnostics (linguistic phenomena tagged on MNLI-style examples) were the au
 
 ## What it felt like to climb
 
-In 2018, a reasonably tuned BiLSTM was a respectable baseline and BERT was a shock. By 2019, fine-tuned transformers had walked up the average far enough that the interesting question was no longer “can we beat the baselines?” It was “is this still a hardship?” SuperGLUE exists because the answer was becoming no. See [SuperGLUE](superglue.md).
+In 2018, a reasonably tuned BiLSTM was a respectable baseline and BERT was a shock. By 2019, fine-tuned transformers had walked up the average far enough that the interesting question was no longer “can we beat the baselines?” It became whether the suite was still a hardship. SuperGLUE exists because the answer was becoming no. See [SuperGLUE](superglue.md).
 
 WNLI is the scar people remember. A tiny Winograd recast with a leak that made clever preprocessing look like genius. Later write-ups treat it as a caution about small sets and about recasting a hard pronoun problem into a format that can be hacked. The Winograd Schema Challenge itself is a different, older instrument ([Levesque’s schemas](winograd-schema.md)).
 

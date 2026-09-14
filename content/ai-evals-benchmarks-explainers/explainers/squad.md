@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "SQuAD: a span, an F1, a ceiling you could hear"
 slug: squad
 kind: explainer

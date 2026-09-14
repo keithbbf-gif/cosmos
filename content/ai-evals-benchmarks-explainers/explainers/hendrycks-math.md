@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MATH: competition problems, a harder integer"
 slug: hendrycks-math
 kind: explainer

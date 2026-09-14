@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "DROP: the paragraph that wants you to count"
 slug: drop
 kind: explainer

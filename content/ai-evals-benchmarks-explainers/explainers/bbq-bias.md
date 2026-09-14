@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "BBQ: bias as a question, not a vibe"
 slug: bbq-bias
 kind: explainer

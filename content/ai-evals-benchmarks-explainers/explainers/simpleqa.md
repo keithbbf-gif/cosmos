@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "SimpleQA: a short fact, three grades"
 slug: simpleqa
 kind: explainer

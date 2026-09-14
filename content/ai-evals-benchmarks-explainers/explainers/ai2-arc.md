@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "AI2 ARC: grade-school science, two doors"
 slug: ai2-arc
 kind: explainer

@@ -1,6 +1,6 @@
 ---
-voice_check: human
-title: "FrontierMath: problems a field medalist would not call homework"
+voice_check: edited
+title: "FrontierMath: problems a Fields Medalist would not call homework"
 slug: frontier-math
 kind: explainer
 era: 2024

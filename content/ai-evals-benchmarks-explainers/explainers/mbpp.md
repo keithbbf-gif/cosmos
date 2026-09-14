@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "MBPP: mostly basic, still a test"
 slug: mbpp
 kind: explainer

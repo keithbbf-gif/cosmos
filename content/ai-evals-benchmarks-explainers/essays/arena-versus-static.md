@@ -1,5 +1,5 @@
 ---
-voice_check: human
+voice_check: edited
 title: "A file on disk, a vote in public"
 slug: arena-versus-static
 kind: essay
