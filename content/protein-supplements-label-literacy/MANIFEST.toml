@@ -1,0 +1,63 @@
+# Machine-readable map for content/protein-supplements-label-literacy/
+# Lessons are the PSL-*.md files. Canon files are not lessons.
+
+pack = "protein-supplements-label-literacy"
+status = "draft-staged"
+jurisdiction = "US-FDA-DSHEA"
+disease_claims = "forbidden"
+medical_advice = "none"
+min_lessons = 40
+lesson_count = 48
+id_prefix = "PSL-"
+
+[lock]
+sentence_product = "This draft does not claim that any protein powder diagnoses, treats, cures, or prevents any disease."
+sentence_label = "Under DSHEA, a dietary supplement label may not claim to diagnose, treat, cure, or prevent any disease."
+
+[[stages]]
+n = 1
+slug = "orientation"
+dir = "stage-01-orientation"
+lessons = ["PSL-01", "PSL-02", "PSL-03", "PSL-04", "PSL-05"]
+
+[[stages]]
+n = 2
+slug = "dshea-frame"
+dir = "stage-02-dshea-frame"
+lessons = ["PSL-06", "PSL-07", "PSL-08", "PSL-09", "PSL-10"]
+
+[[stages]]
+n = 3
+slug = "facts-panel"
+dir = "stage-03-facts-panel"
+lessons = ["PSL-11", "PSL-12", "PSL-13", "PSL-14", "PSL-15", "PSL-16"]
+
+[[stages]]
+n = 4
+slug = "protein-identity"
+dir = "stage-04-protein-identity"
+lessons = ["PSL-17", "PSL-18", "PSL-19", "PSL-20", "PSL-21", "PSL-22", "PSL-23", "PSL-24", "PSL-25"]
+
+[[stages]]
+n = 5
+slug = "other-ingredients"
+dir = "stage-05-other-ingredients"
+lessons = ["PSL-26", "PSL-27", "PSL-28", "PSL-29", "PSL-30"]
+
+[[stages]]
+n = 6
+slug = "claims"
+dir = "stage-06-claims"
+lessons = ["PSL-31", "PSL-32", "PSL-33", "PSL-34", "PSL-35"]
+
+[[stages]]
+n = 7
+slug = "quality-signals"
+dir = "stage-07-quality-signals"
+lessons = ["PSL-36", "PSL-37", "PSL-38", "PSL-39", "PSL-40"]
+
+[[stages]]
+n = 8
+slug = "practice"
+dir = "stage-08-practice"
+lessons = ["PSL-41", "PSL-42", "PSL-43", "PSL-44", "PSL-45", "PSL-46", "PSL-47", "PSL-48"]
