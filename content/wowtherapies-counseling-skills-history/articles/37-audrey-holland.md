@@ -25,7 +25,7 @@ last_verified: 2026-09-14
 
 Audrey L. Holland is easy to lose in a card catalog. John L. Holland wrote *Making Vocational Choices* (first edition 1973) and the RIASEC codes that still haunt career corners. Audrey L. Holland wrote tests and books for people living with aphasia. They do not share a life, a campus, or a counseling claim. This series will not mix them again.
 
-She died in Tucson, Arizona, in August 2023. The University of Arizona's Department of Speech, Language, and Hearing Sciences published a memorial. A public memorial listing gives 4 August 2023 and a birth date of 21 May 1933. The series index still carries 1927–2023. Treat 1933 as the working public date and mark the conflict [VERIFY] on upload week. Write her in the past tense. Do not scrape a university headshot for a featured image; there is no clean Commons portrait in this pack.
+She died in Tucson, Arizona, in August 2023. The University of Arizona's Department of Speech, Language, and Hearing Sciences published a memorial. A public memorial listing gives 4 August 2023 and a birth date of 21 May 1933. The series index now follows the public memorial (21 May 1933–4 August 2023). Re-open that date on upload week. Write her in the past tense. Do not scrape a university headshot for a featured image; there is no clean Commons portrait in this pack.
 
 ## Pittsburgh, Emerson, Arizona
 
@@ -63,6 +63,6 @@ She died in 2023. The books remain dated objects. This pack will not use a gener
 
 ## Sources
 
-Arizona SLHS memorial (August 2023, Tucson); public memorial dates 21 May 1933–4 August 2023 vs. series index 1927 [VERIFY]; Pittsburgh degrees; Emerson; Pittsburgh faculty; Arizona 1991 onward, Regents' Professor; CADL 1980; Holland and Nelson 2007/2014/2018 [VERIFY 3rd]; Holland 2007 *Topics in Language Disorders*; ASHA Honors 1990; do not confuse with John L. Holland 1973.
+Arizona SLHS memorial (August 2023, Tucson); public memorial dates 21 May 1933–4 August 2023; Pittsburgh degrees; Emerson; Pittsburgh faculty; Arizona 1991 onward, Regents' Professor; CADL 1980; Holland and Nelson 2007/2014/2018 [VERIFY 3rd]; Holland 2007 *Topics in Language Disorders*; ASHA Honors 1990; do not confuse with John L. Holland 1973.
 
 *WOW Therapies educational series. Complementary to the therapy-history pack (schools and founders) and the SLPWOW speech-pathology history pack; this lane is counseling skills and modalities only. Staged draft — not for the live site.*
