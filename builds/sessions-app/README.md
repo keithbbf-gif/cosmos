@@ -65,6 +65,11 @@ npm install
 npm run tauri:build
 ```
 
+Linux deps (Debian/Ubuntu): `libwebkit2gtk-4.1-dev`, `libgtk-3-dev`,
+`libayatana-appindicator3-dev`, `librsvg2-dev`, `patchelf`. Rust **≥ 1.98**
+(`src-tauri/rust-toolchain.toml` pins stable) — older toolchains fail on
+transitive `edition2024` crates.
+
 Release binary: `src-tauri/target/release/sessions-app.exe` (Windows) or
 `sessions-app` (Linux). Equivalent: `cargo tauri build` from `src-tauri/` after
 `npm run prepare:dist`.

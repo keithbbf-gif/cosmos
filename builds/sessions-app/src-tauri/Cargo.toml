@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "COSMOS Sessions — native shell over the sessions-app Python backend"
 authors = ["COSMOS"]
 edition = "2021"
-rust-version = "1.77.2"
+rust-version = "1.98.0"
 
 [lib]
 name = "sessions_app_lib"
