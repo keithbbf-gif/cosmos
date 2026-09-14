@@ -28,62 +28,76 @@ pillar: fruit
 priority: 8
 ---
 
-Jack will tell you his least favorite part of fig season after a dead tree: birds hitting fruit that is almost ripe. I have stood under a tree at dusk and counted pecks I did not hear happen.
+Jack will tell you his least favorite part of fig season after a dead tree: birds hitting fruit that is almost ripe. That is on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith), not a story I made up for this page. I have stood under a tree at dusk and counted pecks I did not hear happen.
 
 [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) put it in one line. If you have a lot of birds, a **green fig might get eaten less than a dark one**. That is not folklore we invented. It is how contrast works on a tree. A purple-black fig on green leaves is a billboard. A ripe green fig looks like a leaf that got thick.
 
-It is not invisibility. It is a head start.
+It is not invisibility. It is a head start. Birds still cost the most fruit.
 
 ## Birds first, because they cost the most fruit
 
 Figs have to ripen on the tree. You cannot pick them hard and finish them on the counter like a peach you almost got right. Soft means now. Morning is when I want to be out there. A lot of the damage is breakfast.
 
-Netting works. It is ugly. It catches mowers and your own head. I still would rather look at netting than at a row of hollow skins. UAEX says the same crowd we have: birds, squirrels, raccoons. Net what you can reach. Accept losses on the tree you cannot bag.
+University of Arkansas Extension names the crowd we have: **birds, squirrels, and raccoons**. They like figs just as much as people do. Bird netting can help. Keep the fruit picked so split and decayed fruit does not turn the tree into a wasp kitchen. I am not writing a spray schedule. UAEX already said figs normally do not need one.
 
-CDs, owls, foil tape — people swear by all of it. I will not print a scare-device winner I have not counted. [VERIFY] on your birds. They get brave.
-
-Green-skinned ripe fruit needs a different eye. You pick by **feel**, not by color. Neck soft. Fruit hangs heavy. A dark fig you can grade from the porch. A green one you have to touch. That is the trade: fewer bird hits, more walking.
-
-If you only planted dark dessert figs because that is what photographs well, you built a bird feeder with extra steps.
+A dark dessert fig photographs well. It also reads from the fence line. If you only planted dark names because that is what looks like a fig in a catalog, you built a bird feeder with extra steps. I still grow dark fruit I like. I net the trees we actually eat, or I pick them like a job. The library can take a tax. The pantry cannot.
 
 Wasps will find a ripe dark fig as fast as a bird will. I do not spray them. I pick the fruit and I pull the trash. A tree you only visit on Saturday is a public kitchen.
 
-## Beetles and the vinegar problem
+A peck is a split you did not make. It sours by afternoon. The split-versus-sour draft is the bucket. This page is why the necklace started. Do not blame only the eye when a mockingbird started it.
 
-Dried-fruit beetles do not care about your photo. They care about a hole.
+## Green ripe lasts longer on the eye
 
-Open-eye figs in a humid year are beetle doors. Texas A&M says the beetles carry the souring crew inside. Closed-eye lists (Celeste, Texas Everbearing, Alma) are there for this reason. I already spent a whole draft on the ostiole. Here I will only say: a tight-eye green fig is doing two jobs at once.
+Green-skinned ripe fruit needs a different eye. You pick by **feel**, not by color. Neck soft. Fruit hangs heavy. A dark fig you can grade from the porch. A green one you have to walk and touch. That is the trade: fewer bird hits, more walking.
 
-Split fruit is worse than ripe fruit. Pull it. A splitter left on the branch is a bar for wasps, ants, and flies, and UAEX is right that it makes the next day’s picking a fight. I have walked away from a tree with a stung wrist because I wanted one more fig that was already trash.
+LSU AgCenter’s 2015 fig note on **Champagne** is the other color lesson. Champagne is yellow. Charlie Johnson said birds seem to see the yellow figs better, so they are more of a problem. Green-hiding is not the same as yellow-ripe. A yellow fig on green leaves is a lamp. Do not plant a row of yellow names as your “stealth” crop and then write me a sad letter.
 
-Do not build a compost pile of rotten figs under the canopy and then wonder where the beetles live.
+I will not invent a tasting score for Champagne. That is LSU’s fruit note, not our plate. Jack’s ranked fruit from the interview — **Red Sicilian**, **Syrian Dark #2**, **Jack Lilly**, **NSDC**, **Negra d’Agde** — is fruit we ate. Some of those are dark. We still grow them. Color is a tactic, not a flavor law. If you want a darker fig because that is the flavor you love, grow it. Just know you will share it unless you cover it.
 
-## The four-leggers
+The green ones are for the mornings you slept in. They are not a force field. A hungry flock will learn a green tree. I have watched it. The head start is still worth planting if birds are the tax you actually pay.
 
-Squirrels take bites and drop the rest. Raccoons clean a bush at night like they paid rent. Dogs will eat figs. Chickens will if they can reach.
+## Net the pantry trees
 
-A pot you can roll into a hoop house the week a variety ripens is a pest tool, not just a winter tool. An in-ground tree is a community resource. Plan the week’s harvest, not a weekend visit.
+Net what you can reach. Accept losses on the tree you cannot bag.
+
+I would rather look at netting than at a row of hollow skins. It is ugly. It catches mowers and your own head. It still works. UAEX named it. I will not rank brands. **[VERIFY]** the mesh against the birds you have. A hole a cardinal can walk through is decoration.
+
+I net the two trees we actually put in jars. That is the pantry. The celebrity in a **#3** at the back of the block can take a peck if I am late. The collecting-versus-eating draft is that order. This page is the beak.
+
+A pot you can roll under a hoop the week a variety ripens is a pest tool, not just a winter tool. An in-ground tree is a community resource. Plan the week’s harvest, not a weekend visit. The daily-picking draft is the ripe window. This page is why you do not skip Monday.
+
+Pull the windfalls. A splitter left on the branch is a bar. UAEX is right that split or decayed fruit attracts wasps, bees, ants, and flies, and then picking becomes a fight. I have walked away from a tree with a stung wrist because I wanted one more fig that was already trash.
+
+Do not build a compost pile of rotten figs under the canopy and then wonder where the trouble lives.
+
+## Scare devices I will not rank
+
+CDs, owls, foil tape, a radio, a fake snake — people swear by all of it. I will not print a scare-device winner I have not counted. Bibliography already refused that ranking. **[VERIFY]** on your birds. They get brave.
+
+A device that worked in May is a perch in July. Move it if you use it. I would not skip netting the pantry because a pinwheel looked busy.
 
 I will not recommend poisons. I will not give you a raccoon-trapping manual. Fence, net, pick, move the pot.
 
-## Other trouble that gets blamed on “pests”
+Dogs will eat figs. Chickens will if they can reach. Jack has the chickens. The fig is not a chicken feed program unless you left it on the ground.
 
-**Root-knot nematodes** make a tree look infested by nothing you can spray. Galls on the roots. Stunted top. If you are in sand (Florida talk shows up on our Intro page for a reason), do not root in mystery yard soil and do not plant a rare name in that hole. Pots.
+## Beetles belong with the sour draft
 
-**Fig rust** yellows and drops leaves in Gulf humidity. Texas notes it often shows as fruit hits maturity. Sanitation and timing matter; they also say do not coat fruit with spray residue when it is small. I am not writing a spray schedule I do not run as a program. [VERIFY] with your county agent if rust is eating your trees.
+Dried-fruit beetles do not care about your photo. They care about a hole.
 
-**Mosaic** rides cuttings and mites. Buy clean wood. A mottled leaf is not always mosaic, and I will not diagnose your photo from here.
+Texas A&M’s plant disease handbook: souring plus the dried-fruit beetle. Plant closed eyes if you can — they name Celeste, Texas Everbearing, Alma. Magnolia and Kadota take more open-eye trouble. UAEX: water in the eye plus heat after rain. That whole argument lives in the split-versus-sour draft. I will not restage two buckets here.
 
-**Cold dieback** is not a pest. Dead twigs are where other fungi sit down. Cut the dead.
+A tight-eye green fig is doing two jobs at once: harder for a bird to clock from the fence, a better door against a beetle taxi. Tight is not a vault. Physics can still split a balloon. I am still not a fan of Celeste and Brown Turkey as dessert, so far. I still understand why the county agent keeps saying their names.
 
-Figs still have fewer spray chores than peaches. That is true. “No pests” is not true the week the fruit is good.
+Pull the splitters. The beetle chapter is the eye and the trash. This chapter is the beak.
 
-## How I would plant against animals and beetles
+## Four-leggers, and a Saturday I would actually run
 
-I would put at least some green-ripe varieties in the mix if birds are heavy. I would put tight eyes in the mix if August is wet. I would not plant my only tree of a dark, open-eye, late fig by the birdbath and then write a sad post.
+Squirrels take bites and drop the rest. Raccoons clean a bush at night like they paid rent. An in-ground tool tree by the woods is a night kitchen. I would not plant my only tree of a dark, open-eye, late fig by the birdbath and then write a sad post.
 
-I would pick daily once a tree starts. I would harvest the windfalls so the ground is not a buffet. I would net the two trees we actually put in jars.
+This is the Saturday I would run if the pantry tree is coloring and the birds have found it.
+
+I walk at first light, not at 11. I pick by feel on the green-ripe names and by eye on the dark ones. Soft fruit in the bowl. Splitters and pecks in the other. I do not leave a necklace. If the flush is on, the net goes up that morning, not “this weekend.” The pot of a name I will not share gets rolled closer to the house. The in-ground tree I cannot roll gets the net or it gets the tax.
 
 Color is a tactic. Clean picking is a tactic. Variety is a tactic. None of them replace being outside when the fruit is soft.
 
-If you want a darker fig because that is the flavor you love, grow it. Just know you will share it unless you cover it. The green ones are for the mornings you slept in.
+Figs still have fewer spray chores than peaches. That is true. “No pests” is not true the week the fruit is good. Birds cost the most fruit. Net the pantry. Pick the rest. Leave the scare-device championship in someone else’s video.
