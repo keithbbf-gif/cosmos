@@ -1,0 +1,287 @@
+# Staged inventory — sports-nutrition-rd-2020
+# status: draft for every piece. Human review before any public use.
+
+series = "sports-nutrition-rd-2020"
+window = "2020-01 to 2026-09"
+draft_count = 45
+claims = "no-disease"
+voice = "human"
+last_reviewed = "2026-09-14"
+
+[stages]
+1 = { folder = "stage-1-foundations", job = "daily dose, meal dose, distribution, timing, quality" }
+2 = { folder = "stage-2-training", job = "strength, endurance, concurrent, overnight, cold, disuse, sleep" }
+3 = { folder = "stage-3-populations", job = "female, cycle, masters, youth, weight-class, team, aesthetic" }
+4 = { folder = "stage-4-sources", job = "dairy, plants, soy, isolates, mycoprotein, collagen, insect, future" }
+5 = { folder = "stage-5-environments", job = "deficit, REDs/EA, travel, heat, altitude, tactical, fasting windows" }
+6 = { folder = "stage-6-practice", job = "food-first, labels, contamination, carbs+protein, high intakes, consensus, open questions" }
+
+[[drafts]]
+id = 1
+path = "stage-1-foundations/01-daily-protein-targets.md"
+stage = 1
+slug = "daily-protein-targets"
+
+[[drafts]]
+id = 2
+path = "stage-1-foundations/02-per-meal-dose-trommelen.md"
+stage = 1
+slug = "per-meal-dose-trommelen"
+
+[[drafts]]
+id = 3
+path = "stage-1-foundations/03-protein-distribution.md"
+stage = 1
+slug = "protein-distribution"
+
+[[drafts]]
+id = 4
+path = "stage-1-foundations/04-leucine-and-quality-scores.md"
+stage = 1
+slug = "leucine-and-quality-scores"
+
+[[drafts]]
+id = 5
+path = "stage-1-foundations/05-timing-around-training.md"
+stage = 1
+slug = "timing-around-training"
+
+[[drafts]]
+id = 6
+path = "stage-1-foundations/06-eaa-vs-intact-protein.md"
+stage = 1
+slug = "eaa-vs-intact-protein"
+
+[[drafts]]
+id = 7
+path = "stage-1-foundations/07-bcaa-when-diet-is-high.md"
+stage = 1
+slug = "bcaa-when-diet-is-high"
+
+[[drafts]]
+id = 8
+path = "stage-1-foundations/08-food-matrix-and-real-meals.md"
+stage = 1
+slug = "food-matrix-and-real-meals"
+
+[[drafts]]
+id = 9
+path = "stage-2-training/09-protein-for-strength-hypertrophy.md"
+stage = 2
+slug = "protein-for-strength-hypertrophy"
+
+[[drafts]]
+id = 10
+path = "stage-2-training/10-protein-for-endurance-ultra.md"
+stage = 2
+slug = "protein-for-endurance-ultra"
+
+[[drafts]]
+id = 11
+path = "stage-2-training/11-concurrent-training.md"
+stage = 2
+slug = "concurrent-training"
+
+[[drafts]]
+id = 12
+path = "stage-2-training/12-presleep-protein.md"
+stage = 2
+slug = "presleep-protein"
+
+[[drafts]]
+id = 13
+path = "stage-2-training/13-cold-water-and-protein.md"
+stage = 2
+slug = "cold-water-and-protein"
+
+[[drafts]]
+id = 14
+path = "stage-2-training/14-disuse-deloads-return.md"
+stage = 2
+slug = "disuse-deloads-return"
+
+[[drafts]]
+id = 15
+path = "stage-2-training/15-sleep-and-overnight-recovery.md"
+stage = 2
+slug = "sleep-and-overnight-recovery"
+
+[[drafts]]
+id = 16
+path = "stage-3-populations/16-female-athletes.md"
+stage = 3
+slug = "female-athletes"
+
+[[drafts]]
+id = 17
+path = "stage-3-populations/17-menstrual-cycle-protein.md"
+stage = 3
+slug = "menstrual-cycle-protein"
+
+[[drafts]]
+id = 18
+path = "stage-3-populations/18-masters-athletes.md"
+stage = 3
+slug = "masters-athletes"
+
+[[drafts]]
+id = 19
+path = "stage-3-populations/19-youth-adolescent-athletes.md"
+stage = 3
+slug = "youth-adolescent-athletes"
+
+[[drafts]]
+id = 20
+path = "stage-3-populations/20-weight-class-sports.md"
+stage = 3
+slug = "weight-class-sports"
+
+[[drafts]]
+id = 21
+path = "stage-3-populations/21-team-sport-match-week.md"
+stage = 3
+slug = "team-sport-match-week"
+
+[[drafts]]
+id = 22
+path = "stage-3-populations/22-aesthetic-power-to-weight.md"
+stage = 3
+slug = "aesthetic-power-to-weight"
+
+[[drafts]]
+id = 23
+path = "stage-4-sources/23-whey-casein-milk.md"
+stage = 4
+slug = "whey-casein-milk"
+
+[[drafts]]
+id = 24
+path = "stage-4-sources/24-plant-proteins-hypertrophy.md"
+stage = 4
+slug = "plant-proteins-hypertrophy"
+
+[[drafts]]
+id = 25
+path = "stage-4-sources/25-soy-in-the-2020s.md"
+stage = 4
+slug = "soy-in-the-2020s"
+
+[[drafts]]
+id = 26
+path = "stage-4-sources/26-potato-pea-fava-wheat.md"
+stage = 4
+slug = "potato-pea-fava-wheat"
+
+[[drafts]]
+id = 27
+path = "stage-4-sources/27-mycoprotein.md"
+stage = 4
+slug = "mycoprotein"
+
+[[drafts]]
+id = 28
+path = "stage-4-sources/28-collagen-vs-whey.md"
+stage = 4
+slug = "collagen-vs-whey"
+
+[[drafts]]
+id = 29
+path = "stage-4-sources/29-insect-protein.md"
+stage = 4
+slug = "insect-protein"
+
+[[drafts]]
+id = 30
+path = "stage-4-sources/30-future-proteins-fermentation.md"
+stage = 4
+slug = "future-proteins-fermentation"
+
+[[drafts]]
+id = 31
+path = "stage-5-environments/31-energy-deficit.md"
+stage = 5
+slug = "energy-deficit"
+
+[[drafts]]
+id = 32
+path = "stage-5-environments/32-energy-availability-reds.md"
+stage = 5
+slug = "energy-availability-reds"
+
+[[drafts]]
+id = 33
+path = "stage-5-environments/33-travel-camps-hotels.md"
+stage = 5
+slug = "travel-camps-hotels"
+
+[[drafts]]
+id = 34
+path = "stage-5-environments/34-heat-humidity.md"
+stage = 5
+slug = "heat-humidity"
+
+[[drafts]]
+id = 35
+path = "stage-5-environments/35-altitude-hypoxia.md"
+stage = 5
+slug = "altitude-hypoxia"
+
+[[drafts]]
+id = 36
+path = "stage-5-environments/36-tactical-occupational.md"
+stage = 5
+slug = "tactical-occupational"
+
+[[drafts]]
+id = 37
+path = "stage-5-environments/37-time-restricted-ramadan.md"
+stage = 5
+slug = "time-restricted-ramadan"
+
+[[drafts]]
+id = 38
+path = "stage-6-practice/38-food-first-vs-supplements.md"
+stage = 6
+slug = "food-first-vs-supplements"
+
+[[drafts]]
+id = 39
+path = "stage-6-practice/39-contamination-batch-testing.md"
+stage = 6
+slug = "contamination-batch-testing"
+
+[[drafts]]
+id = 40
+path = "stage-6-practice/40-label-literacy-spiking.md"
+stage = 6
+slug = "label-literacy-spiking"
+
+[[drafts]]
+id = 41
+path = "stage-6-practice/41-protein-plus-carbohydrate.md"
+stage = 6
+slug = "protein-plus-carbohydrate"
+
+[[drafts]]
+id = 42
+path = "stage-6-practice/42-high-intakes-trained-adults.md"
+stage = 6
+slug = "high-intakes-trained-adults"
+
+[[drafts]]
+id = 43
+path = "stage-6-practice/43-consensus-statements.md"
+stage = 6
+slug = "consensus-statements"
+
+[[drafts]]
+id = 44
+path = "stage-6-practice/44-omega-3-and-protein.md"
+stage = 6
+slug = "omega-3-and-protein"
+
+[[drafts]]
+id = 45
+path = "stage-6-practice/45-open-questions-2026.md"
+stage = 6
+slug = "open-questions-2026"
