@@ -13,10 +13,15 @@ one shared reason reports DIAGNOSIS: SHARED-CAUSE instead of eleven findings.
 """
 from __future__ import annotations
 
+import threading
 import time
 from typing import Callable
 
 from cosmos_kernel import Kernel
+
+_SNAP_LOCK = threading.Lock()
+_SNAP_CACHE = {"key": None, "at": 0.0, "payload": None}
+_SNAP_CACHE_S = 10.0
 
 
 class HealthBoard:
@@ -73,7 +78,8 @@ class HealthBoard:
             "negative control (must be RED)": planted_failure,
         })
 
-    def run(self) -> dict:
+    def _fold(self) -> dict:
+        """Measure every row. Does not ledger — GET /health uses this path."""
         t0 = self._clock()
         results = {}
         for name, fn in self._rows.items():
@@ -98,14 +104,18 @@ class HealthBoard:
                              f"({heads.pop()}) - check the checker's environment "
                              "before believing the board")
 
-        board = {"measured_at_epoch": t0, "elapsed_s": self._clock() - t0,
-                 "rows": results, "reds": len(reds),
-                 "negative_control_red": control_ok,
-                 "diagnosis": diagnosis,
-                 "verdict": ("BOARD-BROKEN: the planted failure showed GREEN"
-                             if not control_ok else
-                             "GREEN" if not reds else
-                             f"RED x{len(reds)}")}
+        return {"measured_at_epoch": t0, "elapsed_s": self._clock() - t0,
+                "rows": results, "reds": len(reds),
+                "negative_control_red": control_ok,
+                "diagnosis": diagnosis,
+                "verdict": ("BOARD-BROKEN: the planted failure showed GREEN"
+                            if not control_ok else
+                            "GREEN" if not reds else
+                            f"RED x{len(reds)}")}
+
+    def run(self) -> dict:
+        board = self._fold()
+        control_ok = board["negative_control_red"]
         # node=system is the FOLLOW_KEYS identity. sentinel.system is always
         # "COSMOS" (resolver identity, never invented). The live tail is ~90%
         # HEALTH_BOARD with no followable id; this is the value the deck's
@@ -115,3 +125,21 @@ class HealthBoard:
                                               "control_red": control_ok,
                                               "node": self.k.paths.sentinel.system})
         return board
+
+
+def snapshot(kernel) -> dict:
+    """GET /api/v1/health fold. 10s cache. Never appends HEALTH_BOARD."""
+    key = str(getattr(getattr(kernel, "paths", None), "root", ""))
+    wall = time.time()
+    with _SNAP_LOCK:
+        hit = _SNAP_CACHE
+        if (hit["key"] == key and hit["payload"] is not None
+                and (wall - hit["at"]) < _SNAP_CACHE_S):
+            return hit["payload"]
+    clock = getattr(kernel, "_clock", time.time)
+    board = HealthBoard(kernel, clock=clock)._fold()
+    with _SNAP_LOCK:
+        _SNAP_CACHE["key"] = key
+        _SNAP_CACHE["at"] = time.time()
+        _SNAP_CACHE["payload"] = board
+    return board
