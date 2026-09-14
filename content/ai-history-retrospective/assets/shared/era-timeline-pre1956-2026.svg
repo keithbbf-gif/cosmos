@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" role="img" aria-labelledby="t d">
+ <title id="t">AI history era timeline, pre-1956 through 2026</title>
+ <desc id="d">Horizontal era map for the Long Term History of AI retrospective series.</desc>
+ <defs>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" result="n"/>
+ <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.92 0 0 0 0 0.89 0 0 0 0 0.84 0 0 0 0.06 0"/>
+ <feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
+ </defs>
+ <rect width="920" height="220" fill="#f4f0e8" filter="url(#grain)"/>
+ <text x="460" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#2a241c">Eras of artificial intelligence &#183; pre-1956 &#146; 2026</text>
+ <line x1="48" y1="100" x2="872" y2="100" stroke="#2a241c" stroke-width="2"/>
+ <!-- ticks -->
+ <g font-family="Georgia, serif" font-size="10" fill="#4a3728">
+ <line x1="80" y1="92" x2="80" y2="108" stroke="#6b6358"/><text x="80" y="125" text-anchor="middle">1943</text>
+ <line x1="160" y1="92" x2="160" y2="108" stroke="#6b6358"/><text x="160" y="125" text-anchor="middle">1956</text>
+ <line x1="280" y1="92" x2="280" y2="108" stroke="#6b6358"/><text x="280" y="125" text-anchor="middle">1970s</text>
+ <line x1="400" y1="92" x2="400" y2="108" stroke="#6b6358"/><text x="400" y="125" text-anchor="middle">1987</text>
+ <line x1="520" y1="92" x2="520" y2="108" stroke="#6b6358"/><text x="520" y="125" text-anchor="middle">1997</text>
+ <line x1="640" y1="92" x2="640" y2="108" stroke="#6b6358"/><text x="640" y="125" text-anchor="middle">2012</text>
+ <line x1="760" y1="92" x2="760" y2="108" stroke="#6b6358"/><text x="760" y="125" text-anchor="middle">2017</text>
+ <line x1="860" y1="92" x2="860" y2="108" stroke="#6b6358"/><text x="860" y="125" text-anchor="middle">2026</text>
+ </g>
+ <!-- era bands -->
+ <g font-family="Georgia, serif" font-size="11" fill="#2a241c">
+ <rect x="52" y="52" width="100" height="22" fill="#e8dfd0" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="102" y="67" text-anchor="middle">Cybernetics</text>
+ <rect x="130" y="52" width="130" height="22" fill="#ddd4c4" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="195" y="67" text-anchor="middle">Symbolic AI</text>
+ <rect x="250" y="52" width="110" height="22" fill="#d0c8b8" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="305" y="67" text-anchor="middle">Expert systems</text>
+ <rect x="355" y="52" width="90" height="22" fill="#c9bfb0" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="400" y="67" text-anchor="middle">Winter I</text>
+ <rect x="440" y="52" width="120" height="22" fill="#ddd4c4" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="500" y="67" text-anchor="middle">Statistical ML</text>
+ <rect x="555" y="52" width="130" height="22" fill="#d8cfc0" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="620" y="67" text-anchor="middle">Deep learning</text>
+ <rect x="680" y="52" width="200" height="22" fill="#e0d6c8" stroke="#6b6358" stroke-width="0.8"/>
+ <text x="780" y="67" text-anchor="middle">Transformers &amp; foundation models</text>
+ </g>
+ <text x="460" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#6b6358">Anchors: McCulloch-Pitts &#183; Dartmouth &#183; MYCIN &#183; Lighthill &#183; ImageNet &#183; Transformer paper</text>
+ <text x="460" y="186" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#8a8074">Long Term History of AI (Retrospective) &#183; archival figure</text>
+</svg>

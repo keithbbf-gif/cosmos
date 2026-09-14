@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" role="img" aria-labelledby="t">
+ <title id="t">Dartmouth 1956 summer workshop timeline</title>
+ <rect width="560" height="180" fill="#f4f0e8"/>
+ <text x="280" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#2a241c">Dartmouth summer research project &#183; 1956</text>
+ <rect x="80" y="60" width="400" height="36" fill="#e8dfd0" stroke="#6b6358"/>
+ <text x="280" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#2a241c">Eight weeks &#183; coined -artificial intelligence-</text>
+ <text x="280" y="130" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">McCarthy &#183; Minsky &#183; Rochester &#183; Shannon (proposal)</text>
+ <text x="280" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Newell &#183; Simon &#183; others (attendance varies by week)</text>
+</svg>

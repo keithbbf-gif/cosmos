@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 440" role="img" aria-labelledby="title desc">
+ <title id="title">Marvin Minsky - portrait plate</title>
+ <desc id="desc">Placeholder plate; no raster portrait until licensed file is registered.</desc>
+ <rect width="360" height="440" fill="#f4f0e8"/>
+ <rect x="24" y="24" width="312" height="392" fill="none" stroke="#6b6358" stroke-width="1.2"/>
+ <rect x="32" y="32" width="296" height="296" fill="#ebe4d6" stroke="#2a241c" stroke-width="1.5"/>
+ <text x="180" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5c5248">Portrait:</text>
+ <text x="180" y="198" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#6b3a3a">rights not cleared</text>
+ <text x="180" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#2a241c">Marvin Minsky</text>
+ <text x="180" y="382" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#4a3728">1927 - 2016</text>
+ <text x="180" y="404" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#6b6358">Credit: pending</text>
+</svg>
