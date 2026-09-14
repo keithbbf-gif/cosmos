@@ -23,6 +23,7 @@ REQUIRED_FRONT = (
     "stage",
     "stage_slug",
     "status",
+    "voice_check",
     "jurisdiction",
     "disease_claims",
     "medical_advice",
@@ -179,6 +180,9 @@ def main() -> int:
         if meta.get("medical_advice") != "none":
             front_fail += 1
             check(f"medical_advice {path.name}", False, meta.get("medical_advice", ""))
+        if meta.get("voice_check") != "edited":
+            front_fail += 1
+            check(f"voice_check edited {path.name}", False, meta.get("voice_check", ""))
         ids.append(meta["id"])
         slugs.append(meta["slug"])
         titles.append(meta["title"])

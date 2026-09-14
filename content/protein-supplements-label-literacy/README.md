@@ -48,12 +48,18 @@ Canon files in `_canon/` are **not** lessons. They are the lock, the source list
 Every `PSL-*.md` lesson carries YAML with at least:
 
 - `id`, `slug`, `title`, `pack`, `stage`, `stage_slug`, `status: draft`
+- `voice_check: edited` (after editor pass; writer drafts use `human`)
 - `jurisdiction: US-FDA-DSHEA`
 - `disease_claims: forbidden`
 - `medical_advice: none`
 - `prerequisites`, `next`
 
-A machine gate lives at `tests/test_protein_label_literacy_pack.py`. It counts lessons, requires the lock sentences, and refuses promotional disease-claim phrasing.
+Machine gates:
+
+- `tests/test_protein_label_literacy_pack.py` — lesson count, lock sentences, promotional disease-claim refusal.
+- `content/protein-supplements-label-literacy/check_pack.py` — `voice_check: edited`, style bans, word floor.
+
+Style: `STYLE_GUIDE.md`. Editor sign-off: `EDITOR_REPORT.md`.
 
 ## Voice
 

@@ -6,6 +6,7 @@ pack: protein-supplements-label-literacy
 stage: 2
 stage_slug: dshea-frame
 status: draft
+voice_check: edited
 audience: adult-consumer
 jurisdiction: US-FDA-DSHEA
 claim_class: none
@@ -58,7 +59,7 @@ Literacy move: **read the whole Supplement Facts and the whole ingredient list**
 
 ## What you will not see on the tub
 
-You will almost never see “NDI notification number” printed in the same type as the flavor name. Absence of that phrase is not proof the firm filed. Presence of a marketing line like “cutting-edge peptide technology” is not proof they filed either. NDI status is a **file question**, not a front-panel question.
+You will almost never see “NDI notification number” printed in the same type as the flavor name. Absence of that phrase is not proof the firm filed. Presence of a marketing line like “novel peptide technology” is not proof they filed either. NDI status is a **file question**, not a front-panel question.
 
 So why teach it? Because shoppers use “new” as a compliment. In DSHEA, **new** is a regulatory burden. A brand that boasts about novelty on a supplement is boasting about the door they are supposed to have walked through.
 

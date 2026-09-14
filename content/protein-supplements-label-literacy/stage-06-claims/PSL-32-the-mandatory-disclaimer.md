@@ -6,6 +6,7 @@ pack: protein-supplements-label-literacy
 stage: 6
 stage_slug: claims
 status: draft
+voice_check: edited
 audience: adult-consumer
 jurisdiction: US-FDA-DSHEA
 claim_class: teaching-disclaimer
@@ -80,7 +81,7 @@ On one supplement protein:
 4. Note whether a **symbol** on the front points to the back.  
 5. Check the **website** for additional sentences that never appear on the tub.
 
-If (1) is full and (2) is none, you have a pair failure. If (5) is where the interesting sentences live, you have an **ad** (FTC chair) that the canister was too careful to hold.
+If (1) is full and (2) is none, you have a pair failure. If (5) is where the interesting sentences live, you have an **ad** at FTC’s table that the canister was too careful to hold.
 
 ## What this draft will not say
 

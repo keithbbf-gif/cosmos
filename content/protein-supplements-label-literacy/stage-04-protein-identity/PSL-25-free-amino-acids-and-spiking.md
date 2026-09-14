@@ -6,6 +6,7 @@ pack: protein-supplements-label-literacy
 stage: 4
 stage_slug: protein-identity
 status: draft
+voice_check: edited
 audience: adult-consumer
 jurisdiction: US-FDA-DSHEA
 claim_class: none
@@ -45,7 +46,7 @@ You will not prove a spike at home. You can find **tension**:
 5. Named free amino acids and “amino matrix” grams (if given): _____ g  
 6. Flavors, gums, sweeteners, lecithin, moisture: they need **some** of that room.
 
-If the amino matrix is listed as 5 g and the room left is 3 g, the protein line and the blend cannot both be ordinary. If the amino acids are only names with no amounts, inside a **proprietary blend**, you have a **opacity** problem (stage 5 will meet blends again) even if the math could still be innocent.
+If the amino matrix is listed as 5 g and the room left is 3 g, the protein line and the blend cannot both be ordinary. If the amino acids are only names with no amounts, inside a **proprietary blend**, you have an **opacity** problem (stage 5 will meet blends again) even if the math could still be innocent.
 
 If room left is 8 g on a 32 g / 24 g concentrate, there is room for lactose, fat, flavor, *and* a small amino addition. Tension is weaker. Do not invent a scandal from leftover room.
 

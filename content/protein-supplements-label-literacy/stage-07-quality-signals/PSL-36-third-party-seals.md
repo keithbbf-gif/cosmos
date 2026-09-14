@@ -6,6 +6,7 @@ pack: protein-supplements-label-literacy
 stage: 7
 stage_slug: quality-signals
 status: draft
+voice_check: edited
 audience: adult-consumer
 jurisdiction: US-FDA-DSHEA
 claim_class: none

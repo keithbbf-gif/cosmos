@@ -6,6 +6,7 @@ pack: protein-supplements-label-literacy
 stage: 8
 stage_slug: practice
 status: draft
+voice_check: edited
 audience: adult-consumer
 jurisdiction: US-FDA-DSHEA
 claim_class: none
@@ -42,7 +43,7 @@ Compare computed to declared. Example:
 - Declared “about 30” → ordinary.  
 - Declared 38 → the story broke; you are either looking at a different serving than the panel, or a marketing servings number from an old formula, or a net-contents problem.
 
-Do the same after you **weigh a level scoop** (PSL-12). If your scoop is 36 g and the panel said 30 g, your **true** servings from a 907 g bag is about 25, not 30. Your cost math in PSL-42 must use the serving **you actually use**, and you should still know the **legal** serving.
+Do the same after you **weigh a level scoop** (PSL-12). If your scoop is 36 g and the panel said 30 g, your **true** servings from a 907 g bag are about 25, not 30. Your cost math in PSL-42 must use the serving **you actually use**, and you should still know the **legal** serving.
 
 ## “About” is a word
 
