@@ -1,0 +1,579 @@
+# Inventory for content/transformers-public-history
+# Generated from draft frontmatter. Status is staged-draft throughout.
+
+series = "transformers-public-history"
+status = "staged"
+novelty_lane = "public-prior-art-only"
+private_systems = "excluded"
+draft_count = 56
+
+[[draft]]
+id = "tph-00"
+file = "00-reading-rules.md"
+title = "Reading rules: first public appearance, not lore"
+era = "method"
+first_public = "2017-06-12"
+date_kind = "series-start"
+arxiv = ""
+words = 804
+
+[[draft]]
+id = "tph-01"
+file = "01-attention-is-all-you-need-2017.md"
+title = "Attention Is All You Need (12 June 2017)"
+era = "2017-break"
+first_public = "2017-06-12"
+date_kind = "arxiv-v1"
+arxiv = "1706.03762"
+words = 868
+
+[[draft]]
+id = "tph-02"
+file = "02-scaled-dot-product-attention.md"
+title = "Scaled dot-product attention (the 2017 primitive)"
+era = "2017-break"
+first_public = "2017-06-12"
+date_kind = "arxiv-v1"
+arxiv = "1706.03762"
+words = 775
+
+[[draft]]
+id = "tph-03"
+file = "03-multi-head-attention.md"
+title = "Multi-head attention (the 2017 split)"
+era = "2017-break"
+first_public = "2017-06-12"
+date_kind = "arxiv-v1"
+arxiv = "1706.03762"
+words = 667
+
+[[draft]]
+id = "tph-04"
+file = "04-original-positional-encodings.md"
+title = "Sinusoidal and learned absolute positions (2017)"
+era = "2017-break"
+first_public = "2017-06-12"
+date_kind = "arxiv-v1"
+arxiv = "1706.03762"
+words = 702
+
+[[draft]]
+id = "tph-05"
+file = "05-encoder-decoder-residuals-layernorm.md"
+title = "Encoder–decoder stack, residuals, and post-LN (2017)"
+era = "2017-break"
+first_public = "2017-06-12"
+date_kind = "arxiv-v1"
+arxiv = "1706.03762"
+words = 694
+
+[[draft]]
+id = "tph-06"
+file = "06-shaw-relative-position-2018.md"
+title = "Relative position representations (6 March 2018)"
+era = "2018-fork"
+first_public = "2018-03-06"
+date_kind = "arxiv-v1"
+arxiv = "1803.02155"
+words = 597
+
+[[draft]]
+id = "tph-07"
+file = "07-gpt1-decoder-only-2018.md"
+title = "GPT-1: decoder-only generative pre-training (11 June 2018)"
+era = "2018-fork"
+first_public = "2018-06-11"
+date_kind = "official-pdf"
+arxiv = ""
+words = 631
+
+[[draft]]
+id = "tph-08"
+file = "08-bert-encoder-only-2018.md"
+title = "BERT: bidirectional encoder pre-training (11 October 2018)"
+era = "2018-fork"
+first_public = "2018-10-11"
+date_kind = "arxiv-v1"
+arxiv = "1810.04805"
+words = 563
+
+[[draft]]
+id = "tph-09"
+file = "09-three-topologies.md"
+title = "Three topologies: encoder-only, decoder-only, encoder–decoder"
+era = "2018-fork"
+first_public = "2018-10-11"
+date_kind = "taxonomy-after-bert"
+arxiv = ""
+words = 582
+
+[[draft]]
+id = "tph-10"
+file = "10-gpt2-2019.md"
+title = "GPT-2: unsupervised multitask in a decoder (14 February 2019)"
+era = "2019-refine"
+first_public = "2019-02-14"
+date_kind = "official-blog-and-report"
+arxiv = ""
+words = 545
+
+[[draft]]
+id = "tph-11"
+file = "11-transformer-xl-2019.md"
+title = "Transformer-XL: segment recurrence beyond a fixed window (9 January 2019)"
+era = "2019-refine"
+first_public = "2019-01-09"
+date_kind = "arxiv-v1"
+arxiv = "1901.02860"
+words = 531
+
+[[draft]]
+id = "tph-12"
+file = "12-sparse-transformer-2019.md"
+title = "Sparse Transformer: fixed sparse patterns (23 April 2019)"
+era = "2019-refine"
+first_public = "2019-04-23"
+date_kind = "arxiv-v1"
+arxiv = "1904.10509"
+words = 514
+
+[[draft]]
+id = "tph-13"
+file = "13-xlnet-2019.md"
+title = "XLNet: permutation language modeling on a Transformer-XL (19 June 2019)"
+era = "2019-refine"
+first_public = "2019-06-19"
+date_kind = "arxiv-v1"
+arxiv = "1906.08237"
+words = 415
+
+[[draft]]
+id = "tph-14"
+file = "14-roberta-2019.md"
+title = "RoBERTa: the BERT recipe was the architecture (26 July 2019)"
+era = "2019-refine"
+first_public = "2019-07-26"
+date_kind = "arxiv-v1"
+arxiv = "1907.11692"
+words = 387
+
+[[draft]]
+id = "tph-15"
+file = "15-albert-2019.md"
+title = "ALBERT: factorized embeddings and cross-layer sharing (26 September 2019)"
+era = "2019-refine"
+first_public = "2019-09-26"
+date_kind = "arxiv-v1"
+arxiv = "1909.11942"
+words = 409
+
+[[draft]]
+id = "tph-16"
+file = "16-t5-2019.md"
+title = "T5: text-to-text encoder–decoder and relative bias (23 October 2019)"
+era = "2019-refine"
+first_public = "2019-10-23"
+date_kind = "arxiv-v1"
+arxiv = "1910.10683"
+words = 513
+
+[[draft]]
+id = "tph-17"
+file = "17-bart-2019.md"
+title = "BART: denoising seq2seq pre-training (29 October 2019)"
+era = "2019-refine"
+first_public = "2019-10-29"
+date_kind = "arxiv-v1"
+arxiv = "1910.13461"
+words = 365
+
+[[draft]]
+id = "tph-18"
+file = "18-multi-query-attention-2019.md"
+title = "Multi-query attention (6 November 2019)"
+era = "2019-refine"
+first_public = "2019-11-06"
+date_kind = "arxiv-v1"
+arxiv = "1911.02150"
+words = 437
+
+[[draft]]
+id = "tph-19"
+file = "19-reformer-2020.md"
+title = "Reformer: LSH attention and reversible stacks (13 January 2020)"
+era = "2020-long-scale"
+first_public = "2020-01-13"
+date_kind = "arxiv-v1"
+arxiv = "2001.04451"
+words = 408
+
+[[draft]]
+id = "tph-20"
+file = "20-longformer-2020.md"
+title = "Longformer: sliding window plus global tokens (10 April 2020)"
+era = "2020-long-scale"
+first_public = "2020-04-10"
+date_kind = "arxiv-v1"
+arxiv = "2004.05150"
+words = 428
+
+[[draft]]
+id = "tph-21"
+file = "21-linear-lowrank-attention-2020.md"
+title = "Linear and low-rank attention (June 2020)"
+era = "2020-long-scale"
+first_public = "2020-06-08"
+date_kind = "arxiv-v1-family"
+arxiv = "2006.04768"
+words = 545
+
+[[draft]]
+id = "tph-22"
+file = "22-bigbird-performer-2020.md"
+title = "BigBird and Performer: random sparsity and FAVOR+ (July–September 2020)"
+era = "2020-long-scale"
+first_public = "2020-07-28"
+date_kind = "arxiv-v1-family"
+arxiv = "2007.14062"
+words = 437
+
+[[draft]]
+id = "tph-23"
+file = "23-gpt3-2020.md"
+title = "GPT-3: few-shot in-context learning at 175B (28 May 2020)"
+era = "2020-long-scale"
+first_public = "2020-05-28"
+date_kind = "arxiv-v1"
+arxiv = "2005.14165"
+words = 465
+
+[[draft]]
+id = "tph-24"
+file = "24-kaplan-scaling-laws-2020.md"
+title = "Kaplan scaling laws (23 January 2020)"
+era = "2020-long-scale"
+first_public = "2020-01-23"
+date_kind = "arxiv-v1"
+arxiv = "2001.08361"
+words = 417
+
+[[draft]]
+id = "tph-25"
+file = "25-vision-transformer-2020.md"
+title = "Vision Transformer: 16×16 patches as tokens (22 October 2020)"
+era = "2020-long-scale"
+first_public = "2020-10-22"
+date_kind = "arxiv-v1"
+arxiv = "2010.11929"
+words = 432
+
+[[draft]]
+id = "tph-26"
+file = "26-detr-2020.md"
+title = "DETR: set prediction with encoder–decoder attention (26 May 2020)"
+era = "2020-long-scale"
+first_public = "2020-05-26"
+date_kind = "arxiv-v1"
+arxiv = "2005.12872"
+words = 371
+
+[[draft]]
+id = "tph-27"
+file = "27-gshard-switch-moe.md"
+title = "GShard and Switch: mixture-of-experts on the FFN (2020–2021)"
+era = "2020-long-scale"
+first_public = "2020-06-30"
+date_kind = "arxiv-v1-family"
+arxiv = "2006.16668"
+words = 409
+
+[[draft]]
+id = "tph-28"
+file = "28-megatron-zero-systems.md"
+title = "Megatron and ZeRO: the training-system stack (2019–2020)"
+era = "2020-long-scale"
+first_public = "2019-09-17"
+date_kind = "arxiv-v1-family"
+arxiv = "1909.08053"
+words = 406
+
+[[draft]]
+id = "tph-29"
+file = "29-clip-2021.md"
+title = "CLIP: contrastive language–image transformers (26 February 2021)"
+era = "2021-position-adapt"
+first_public = "2021-02-26"
+date_kind = "arxiv-v1"
+arxiv = "2103.00020"
+words = 384
+
+[[draft]]
+id = "tph-30"
+file = "30-rope-2021.md"
+title = "RoPE: rotary position embeddings (20 April 2021)"
+era = "2021-position-adapt"
+first_public = "2021-04-20"
+date_kind = "arxiv-v1"
+arxiv = "2104.09864"
+words = 454
+
+[[draft]]
+id = "tph-31"
+file = "31-alibi-2021.md"
+title = "ALiBi: linear biases instead of position embeddings (27 August 2021)"
+era = "2021-position-adapt"
+first_public = "2021-08-27"
+date_kind = "arxiv-v1"
+arxiv = "2108.12409"
+words = 381
+
+[[draft]]
+id = "tph-32"
+file = "32-preln-rmsnorm-swiglu.md"
+title = "Pre-LN, RMSNorm, and SwiGLU: the quiet modern stack (2019–2020)"
+era = "2021-position-adapt"
+first_public = "2019-10-16"
+date_kind = "arxiv-v1-family"
+arxiv = "1910.07467"
+words = 387
+
+[[draft]]
+id = "tph-33"
+file = "33-lora-2021.md"
+title = "LoRA: low-rank adapters as a frozen-backbone architecture (17 June 2021)"
+era = "2021-position-adapt"
+first_public = "2021-06-17"
+date_kind = "arxiv-v1"
+arxiv = "2106.09685"
+words = 460
+
+[[draft]]
+id = "tph-34"
+file = "34-instructgpt-rlhf-2022.md"
+title = "InstructGPT and RLHF: aligning the decoder (January–March 2022)"
+era = "2022-align-kernel"
+first_public = "2022-01-27"
+date_kind = "official-blog-then-arxiv"
+arxiv = "2203.02155"
+words = 448
+
+[[draft]]
+id = "tph-35"
+file = "35-chinchilla-2022.md"
+title = "Chinchilla: compute-optimal tokens vs parameters (29 March 2022)"
+era = "2022-align-kernel"
+first_public = "2022-03-29"
+date_kind = "arxiv-v1"
+arxiv = "2203.15556"
+words = 392
+
+[[draft]]
+id = "tph-36"
+file = "36-palm-2022.md"
+title = "PaLM: 540B dense decoder with MQA (4–5 April 2022)"
+era = "2022-align-kernel"
+first_public = "2022-04-04"
+date_kind = "official-blog-then-arxiv"
+arxiv = "2204.02311"
+words = 482
+
+[[draft]]
+id = "tph-37"
+file = "37-flashattention-2022.md"
+title = "FlashAttention: exact attention, IO-aware (27 May 2022)"
+era = "2022-align-kernel"
+first_public = "2022-05-27"
+date_kind = "arxiv-v1"
+arxiv = "2205.14135"
+words = 374
+
+[[draft]]
+id = "tph-38"
+file = "38-flamingo-whisper-2022.md"
+title = "Flamingo and Whisper: cross-attention and sequence beyond text (2022)"
+era = "2022-align-kernel"
+first_public = "2022-04-29"
+date_kind = "arxiv-v1-family"
+arxiv = "2204.14198"
+words = 398
+
+[[draft]]
+id = "tph-39"
+file = "39-dit-2022.md"
+title = "Diffusion Transformer (19 December 2022)"
+era = "2022-align-kernel"
+first_public = "2022-12-19"
+date_kind = "arxiv-v1"
+arxiv = "2212.09748"
+words = 402
+
+[[draft]]
+id = "tph-40"
+file = "40-speculative-decoding-2022.md"
+title = "Speculative decoding (30 November 2022)"
+era = "2022-align-kernel"
+first_public = "2022-11-30"
+date_kind = "arxiv-v1"
+arxiv = "2211.17192"
+words = 452
+
+[[draft]]
+id = "tph-41"
+file = "41-llama-open-weight-2023.md"
+title = "LLaMA: the open-weight decoder assembly (27 February 2023)"
+era = "2023-open-serve"
+first_public = "2023-02-27"
+date_kind = "arxiv-v1"
+arxiv = "2302.13971"
+words = 392
+
+[[draft]]
+id = "tph-42"
+file = "42-grouped-query-attention-2023.md"
+title = "Grouped-query attention (22 May 2023)"
+era = "2023-open-serve"
+first_public = "2023-05-22"
+date_kind = "arxiv-v1"
+arxiv = "2305.13245"
+words = 451
+
+[[draft]]
+id = "tph-43"
+file = "43-mistral-sliding-window-2023.md"
+title = "Mistral 7B: sliding window ships in a causal LM (27 September 2023)"
+era = "2023-open-serve"
+first_public = "2023-09-27"
+date_kind = "official-blog-then-arxiv"
+arxiv = "2310.06825"
+words = 395
+
+[[draft]]
+id = "tph-44"
+file = "44-mixtral-dpo-2023.md"
+title = "Mixtral and DPO: sparse experts and RL-free preference (2023–2024)"
+era = "2023-open-serve"
+first_public = "2023-05-29"
+date_kind = "arxiv-v1-family"
+arxiv = "2305.18290"
+words = 369
+
+[[draft]]
+id = "tph-45"
+file = "45-yarn-pagedattention-sinks-2023.md"
+title = "2023 retrofits: interpolation, PagedAttention, sinks (June–October)"
+era = "2023-open-serve"
+first_public = "2023-06-27"
+date_kind = "arxiv-v1-family"
+arxiv = "2306.15595"
+words = 602
+
+[[draft]]
+id = "tph-46"
+file = "46-mamba-ssm-2023.md"
+title = "Mamba: selective state spaces as a public alternative (1 December 2023)"
+era = "2023-open-serve"
+first_public = "2023-12-01"
+date_kind = "arxiv-v1"
+arxiv = "2312.00752"
+words = 376
+
+[[draft]]
+id = "tph-47"
+file = "47-deepseek-mla-2024.md"
+title = "DeepSeek-V2 MLA: low-rank latent KV (7 May 2024)"
+era = "2024-2026-select"
+first_public = "2024-05-07"
+date_kind = "arxiv-v1"
+arxiv = "2405.04434"
+words = 373
+
+[[draft]]
+id = "tph-48"
+file = "48-hybrid-sparse-2024-2026.md"
+title = "Interleaved, sparse, and hybrid stacks (2024–2026 public fight)"
+era = "2024-2026-select"
+first_public = "2024-07-31"
+date_kind = "arxiv-v1-family"
+arxiv = "2408.00118"
+words = 619
+
+[[draft]]
+id = "tph-49"
+file = "49-public-versus-closed-fog.md"
+title = "The architecture fog: what closed reports withhold (2023–2026)"
+era = "2024-2026-select"
+first_public = "2023-03-15"
+date_kind = "arxiv-v1-typecase"
+arxiv = "2303.08774"
+words = 481
+
+[[draft]]
+id = "tph-50"
+file = "50-electra-2020.md"
+title = "ELECTRA: replaced-token detection (23 March 2020)"
+era = "2020-long-scale"
+first_public = "2020-03-23"
+date_kind = "arxiv-v1"
+arxiv = "2003.10555"
+words = 382
+
+[[draft]]
+id = "tph-51"
+file = "51-rag-2020.md"
+title = "RAG: retrieval as a first-class Transformer path (22 May 2020)"
+era = "2020-long-scale"
+first_public = "2020-05-22"
+date_kind = "arxiv-v1"
+arxiv = "2005.11401"
+words = 430
+
+[[draft]]
+id = "tph-52"
+file = "52-perceiver-2021.md"
+title = "Perceiver: cross-attend into a latent bottleneck (4 March 2021)"
+era = "2021-position-adapt"
+first_public = "2021-03-04"
+date_kind = "arxiv-v1"
+arxiv = "2103.03206"
+words = 401
+
+[[draft]]
+id = "tph-53"
+file = "53-alphafold2-evoformer-2021.md"
+title = "AlphaFold 2 Evoformer: attention off the language axis (15 July 2021)"
+era = "2021-position-adapt"
+first_public = "2021-07-15"
+date_kind = "official-journal"
+arxiv = ""
+words = 460
+
+[[draft]]
+id = "tph-54"
+file = "54-constitutional-ai-2022.md"
+title = "Constitutional AI: preference without a human on every pair (15 December 2022)"
+era = "2022-align-kernel"
+first_public = "2022-12-15"
+date_kind = "arxiv-v1"
+arxiv = "2212.08073"
+words = 472
+
+[[draft]]
+id = "tph-55"
+file = "55-opt-bloom-2022.md"
+title = "OPT and BLOOM: open dense decoders before LLaMA (2022)"
+era = "2022-align-kernel"
+first_public = "2022-05-02"
+date_kind = "arxiv-v1-family"
+arxiv = "2205.01068"
+words = 438
+
+[eras]
+method = 1
+2017_break = 5
+2018_fork = 4
+2019_refine = 9
+2020_long_scale = 12
+2021_position_adapt = 7
+2022_align_kernel = 9
+2023_open_serve = 6
+2024_2026_select = 3
