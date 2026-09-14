@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="t d">
+  <title id="t">Schematic timeline: adaptogen as a Soviet-era laboratory word</title>
+  <desc id="d">Educational timeline; dates are anchors cited in secondary literature, not a complete chronology.</desc>
+  <rect width="100%" height="100%" fill="#f7f6f3"/>
+  <text x="40" y="36" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5c5c" letter-spacing="0.08em">SCHEMATIC TIMELINE  NOT TO SCALE</text>
+  <text x="40" y="68" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1c1c1c">When the word *adaptogen* enters the record</text>
+  <line x1="80" y1="200" x2="880" y2="200" stroke="#1c1c1c" stroke-width="2"/>
+  <circle cx="200" cy="200" r="7" fill="#1c1c1c"/>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c1c1c">1947 (disputed)</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Lazarev lecture</text>
+  <text x="200" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">line in secondary lit.</text>
+  <circle cx="420" cy="200" r="7" fill="#1c1c1c"/>
+  <text x="420" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c1c1c">1958</text>
+  <text x="420" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Brekhman &amp; Dardymov</text>
+  <text x="420" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">printed definition</text>
+  <circle cx="640" cy="200" r="7" fill="#1c1c1c"/>
+  <text x="640" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c1c1c">1960s80s</text>
+  <text x="640" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Vladivostok program</text>
+  <text x="640" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">eleuthero as export example</text>
+  <circle cx="820" cy="200" r="7" fill="#8b4513"/>
+  <text x="820" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c1c1c">2008</text>
+  <text x="820" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">EMA HMPC reflection</text>
+  <text x="820" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">term not for MA wording</text>
+  <text x="40" y="300" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#5c5c5c">Redrawn editorial diagram · educational history only · not a clinical timeline</text>
+</svg>

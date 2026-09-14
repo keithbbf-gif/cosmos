@@ -1,0 +1,191 @@
+# Canonical figure rights for east-asia-herbal-pharmacopeias.
+# src URLs are stable Commons/Wikimedia upload links (no utm params in embeds).
+
+[plates.gangmu-1603-spread-1]
+src = "https://upload.wikimedia.org/wikipedia/commons/6/65/Compendium_of_Materia_Medica_%281603%29_1.jpg"
+width = 1200
+height = 900
+license = "Public domain (PD-old; Ming woodblock)"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_1.jpg"
+credit = "1603 Jiangxi-line recut of Li Shizhen’s Bencao gangmu; digitized on Wikimedia Commons."
+
+[plates.gangmu-1603-spread-2]
+src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/Compendium_of_Materia_Medica_%281603%29_2.jpg"
+width = 1200
+height = 900
+license = "Public domain (PD-old)"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Compendium_of_Materia_Medica_(1603)_2.jpg"
+credit = "1603 Compendium of Materia Medica woodblock pages."
+
+[plates.gangmu-plate-insects]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/31/Bencao_Gangmu_33-36.jpg"
+width = 1200
+height = 1600
+license = "Public domain (PD-old)"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_33-36.jpg"
+credit = "Circa 1800 copy after Li Shizhen’s Bencao gangmu; insect and plant plate spread."
+
+[plates.gangmu-mineral-panel]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/73/Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png"
+width = 722
+height = 899
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Mineral-drugs-from-Li-Shizhen-Bencao-Gangmu.png"
+credit = "Mineral-drug illustrations from Bencao gangmu tradition."
+
+[plates.ming-contents-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/9/96/Chinese_materia_medica_%28Ming%29%2C_.Contents_page_Wellcome_L0039454.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_materia_medica_(Ming),_.Contents_page_Wellcome_L0039454.jpg"
+credit = "Ming materia medica contents page; Wellcome Collection L0039454."
+
+[plates.ming-honey-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Chinese_Materia_Medica_illustration%2C_Ming%3B_Sichuan_honey_Wellcome_L0039305.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Sichuan_honey_Wellcome_L0039305.jpg"
+credit = "Ming materia medica illustration, Sichuan honey; Wellcome L0039305."
+
+[plates.ming-huangqin-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chinese_Materia_Medica_illustration%2C_Ming%3B_Huangqin_Wellcome_L0039301.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Huangqin_Wellcome_L0039301.jpg"
+credit = "Ming illustration for huangqin (Scutellaria); Wellcome L0039301."
+
+[plates.ming-cinnabar-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/14/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cinnabar_Wellcome_L0039300.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cinnabar_Wellcome_L0039300.jpg"
+credit = "Ming illustration for cinnabar; Wellcome L0039300."
+
+[plates.ming-mallow-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/0/0f/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cluster_mallow_Wellcome_L0039309.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cluster_mallow_Wellcome_L0039309.jpg"
+credit = "Ming cluster mallow plate; Wellcome L0039309."
+
+[plates.ming-cardamom-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/1/18/Chinese_Materia_Medica_illustration%2C_Ming%3B_Cardamom_of_Yizhou_Wellcome_L0039306.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_Medica_illustration,_Ming;_Cardamom_of_Yizhou_Wellcome_L0039306.jpg"
+credit = "Ming cardamom plate; Wellcome L0039306."
+
+[plates.ming-trifoliate-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bencao_Gangmu_--_Ming_materia_medica%2C_Trifoliate_orange%2C_etc._Wellcome_L0039330.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_--_Ming_materia_medica,_Trifoliate_orange,_etc._Wellcome_L0039330.jpg"
+credit = "Ming Bencao gangmu–line plate (trifoliate orange and related); Wellcome L0039330."
+
+[plates.ming-plant-drugs-c17-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/2/21/Chinese_Materia_medica%2C_C17%3B_Plant_drugs%2C_Wellcome_L0039345.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_Materia_medica,_C17;_Plant_drugs,_Wellcome_L0039345.jpg"
+credit = "17th-century Chinese plant-drug sheet; Wellcome L0039345."
+
+[plates.shennong-woodcut-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/4f/Chinese_woodcut%2C_Famous_medical_figures%3B_Shen_Nong_Wellcome_L0039313.jpg"
+width = 1200
+height = 1600
+license = "Public domain mark (Wellcome)"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Chinese_woodcut,_Famous_medical_figures;_Shen_Nong_Wellcome_L0039313.jpg"
+credit = "Ming-period woodcut of the culture hero Shen Nong from Bencao mengquan series; legendary attribution, not a portrait photograph."
+
+[plates.acupuncture-prohibitions-wellcome]
+src = "https://upload.wikimedia.org/wikipedia/commons/9/95/Acupuncture_prohibitions%2C_Chinese_woodcut%2C_Ming_period_Wellcome_L0034738.jpg"
+width = 1200
+height = 1600
+license = "CC BY 4.0"
+institution = "Wellcome Collection"
+source_page = "https://commons.wikimedia.org/wiki/File:Acupuncture_prohibitions,_Chinese_woodcut,_Ming_period_Wellcome_L0034738.jpg"
+credit = "Ming woodcut on acupuncture prohibitions; Wellcome L0034738."
+
+[plates.wen-shu-copy-plate]
+src = "https://upload.wikimedia.org/wikipedia/commons/3/32/Depictions_of_Metals%2C_Minerals%2C_Insects_and_Plants_WDL7117.jpg"
+width = 1200
+height = 900
+license = "Public domain"
+institution = "Library of Congress (WDL) via Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Depictions_of_Metals,_Minerals,_Insects_and_Plants_WDL7117.jpg"
+credit = "Wen Shu, Jin shi kun chong cao mu zhuang (depictions after materia medica models); WDL."
+
+[plates.ishinpo-title]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/4d/Isinnhou.jpg"
+width = 1200
+height = 900
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Isinnhou.jpg"
+credit = "Ishinpō (Heart of Medicine) title page, 984 compilation tradition."
+
+[plates.ishinpo-ninnaji]
+src = "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ishinpo_Ninnaji.jpg"
+width = 1200
+height = 900
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Ishinpo_Ninnaji.jpg"
+credit = "Ishinpō manuscript page, Ninna-ji line."
+
+[plates.yamato-honzo-page]
+src = "https://upload.wikimedia.org/wikipedia/commons/4/4c/Yamato_Honzo.jpg"
+width = 1200
+height = 900
+license = "Public domain"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Yamato_Honzo.jpg"
+credit = "Page from Kaibara Ekiken’s Yamato honzō tradition."
+
+[plates.donguibogam-page-en]
+src = "https://upload.wikimedia.org/wikipedia/commons/f/f4/Donguibogam_%28one_page_of_one_book%29.jpg"
+width = 1200
+height = 1600
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons (contributor scan)"
+source_page = "https://commons.wikimedia.org/wiki/File:Donguibogam_(one_page_of_one_book).jpg"
+credit = "Donguibogam printed page scan."
+
+[plates.donguibogam-cover]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/77/Dongibogam.jpg"
+width = 1200
+height = 900
+license = "CC BY-SA 3.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:Dongibogam.jpg"
+credit = "Donguibogam (Tongui bogam) cover or opening."
+
+[plates.donguibogam-ko-page]
+src = "https://upload.wikimedia.org/wikipedia/commons/7/7d/%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90%28319-2%29.jpg"
+width = 1200
+height = 1600
+license = "CC BY-SA 4.0"
+institution = "Wikimedia Commons"
+source_page = "https://commons.wikimedia.org/wiki/File:%EB%8F%99%EC%9D%98%EB%B3%B4%EA%B0%90(319-2).jpg"
+credit = "Donguibogam woodblock page (Korean scan)."

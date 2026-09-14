@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Kitchen island aisle clearance diagram</title>
+  <desc id="desc">Top-down schematic of a rectangular island with 42-inch walking aisles on three sides and a 48-inch work aisle on the fourth.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+  <rect x="40" y="40" width="640" height="340" fill="#e8e4dc" stroke="#8a8278" stroke-width="2"/>
+  <rect x="220" y="120" width="280" height="180" fill="#c9bfb0" stroke="#5c5348" stroke-width="2"/>
+  <text x="360" y="215" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">Island (example 32×52)</text>
+  <line x1="220" y1="95" x2="500" y2="95" stroke="#2f6f4e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="82" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#2f6f4e">423 min aisle (walk)</text>
+  <line x1="195" y1="120" x2="195" y2="300" stroke="#1d5a8a" stroke-width="2"/>
+  <text x="175" y="215" text-anchor="end" font-family="system-ui,sans-serif" font-size="12" fill="#1d5a8a" transform="rotate(-90 175 215)">483 cook aisle</text>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#2f6f4e"/>
+    </marker>
+  </defs>
+</svg>
