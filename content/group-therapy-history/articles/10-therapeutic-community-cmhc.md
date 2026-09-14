@@ -15,7 +15,7 @@ citations:
   - "Main, T. F. The Ailment. British Journal of Medical Psychology, 1957."
   - "United States. Public Law 88-164, Mental Retardation Facilities and Community Mental Health Centers Construction Act, Oct. 31, 1963."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 On October 31, 1963, in the Cabinet Room of the White House, President John F. Kennedy signed Public Law 88-164, the Mental Retardation Facilities and Community Mental Health Centers Construction Act. Title II is the piece group historians still nickname the CMHC Act. Kennedy said custodial mental institutions would be replaced by therapeutic centers, and that the census of the big hospitals might fall by half in a decade or two. Three weeks later he was dead. The statute remained. So did the temptation it tried to kill: the warehouse.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It describes hospitals and laws. It is not a ward protocol, not a staffing recipe, and not a claim that a county clinic in Southeast Arkansas is a therapeutic community. The individual psychotherapy-history pack keeps the consulting room. This pack keeps the institution that tried to become a group.
+This essay is part of a WOW Therapies series on the history of group therapy. It describes hospitals and laws. It is not a ward protocol, not a staffing recipe, and not a claim that a county clinic in Southeast Arkansas is a therapeutic community. The individual psychotherapy-history pack keeps the consulting room. This essay keeps the institution that tried to become a group.
 
 ## Main coins a phrase; Jones writes a book
 

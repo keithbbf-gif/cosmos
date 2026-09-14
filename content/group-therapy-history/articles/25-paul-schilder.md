@@ -15,7 +15,7 @@ citations:
   - "Schilder, Paul. The Image and Appearance of the Human Body. 1935."
   - "Scheidlinger, Saul. Historical reviews of early hospital group methods."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -25,7 +25,7 @@ In 1938 W. W. Norton published Paul Schilder's *Psychotherapy*. It is not a grou
 
 He had two years left. In December 1940, in New York, he was killed after being struck by a car. He was fifty-four. The American association that would later elect medical grandfathers was still a rumor. Schilder would be filed, when he was filed, among the interwar hospital names: Wender, Marsh, a Viennese at Bellevue.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a life. The interwar hospital essay in this pack is the wider ward. Schilder is the neurologist-analyst who did not live to see AGPA, Yalom, or the argument about therapeutic factors.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a life. The interwar hospital essay in this series is the wider ward. Schilder is the neurologist-analyst who did not live to see AGPA, Yalom, or the argument about therapeutic factors.
 
 ## Vienna: neurology, philosophy, a society
 
@@ -37,7 +37,7 @@ In 1928 and 1930 he taught as a visitor at Johns Hopkins, in Adolf Meyer's world
 
 ## Bellevue, a book, a ward
 
-Bellevue in the 1930s was census and attendants. Wender, elsewhere in New York, wrote about groups for patients who would not or could not use an hour. Marsh, in 1931, wanted the heat of a revival. Schilder's accent was the seminar: a neurologist-analyst putting a topic on the table and letting the ward argue. The interwar hospital essay in this pack holds the three accents together. This life holds the Viennese who sounded like a lecture that could still be answered.
+Bellevue in the 1930s was census and attendants. Wender, elsewhere in New York, wrote about groups for patients who would not or could not use an hour. Marsh, in 1931, wanted the heat of a revival. Schilder's accent was the seminar: a neurologist-analyst putting a topic on the table and letting the ward argue. The interwar hospital essay in this series holds the three accents together. This life holds the Viennese who sounded like a lecture that could still be answered.
 
 *Psychotherapy* (1938) is the book to put on the table. It gathers a clinician's method at the end of a Viennese career and the beginning of an American one. Group work sits inside it, not on the cover. That placement is honest. He was not building a guild. He was treating a hospital.
 

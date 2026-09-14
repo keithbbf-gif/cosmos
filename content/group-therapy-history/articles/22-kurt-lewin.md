@@ -15,7 +15,7 @@ citations:
   - "Bradford, Leland P., Jack R. Gibb, and Kenneth D. Benne, eds. T-Group Theory and Laboratory Method. New York: Wiley, 1964."
   - "NTL Institute. Institutional history of the 1946 New Britain workshop and 1947 Bethel laboratory."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -15,7 +15,7 @@ citations:
   - "Scheidlinger, Saul. Historical reviews in the International Journal of Group Psychotherapy."
   - "Ellenberger, Henri F. The Discovery of the Unconscious. Basic Books, 1970."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -45,7 +45,7 @@ Jane Addams's Hull-House, opened in 1889 on South Halsted Street in Chicago, is 
 
 Mutual-aid societies — burial clubs, immigrant lodges, temperance meetings, the later Alcoholics Anonymous (1935) — organized help without a license. They had rules. They had stories. They often had a chairperson who was not a doctor. The clinic would spend the rest of the century deciding whether those rooms were "really" therapy. The rooms, in many cases, declined the compliment.
 
-Indigenous talking circles, palavers, and council forms are likewise not a preface to a billing code. They are their own histories: land, kinship, specialists whose authority did not come from a university in Boston or Vienna. A heritage series that steals a ceremony as an "origin of group therapy" is doing colonial work with a smile. This pack names the theft as a temptation and leaves the ceremonies to the people who hold them.
+Indigenous talking circles, palavers, and council forms are likewise not a preface to a billing code. They are their own histories: land, kinship, specialists whose authority did not come from a university in Boston or Vienna. A heritage series that steals a ceremony as an "origin of group therapy" is doing colonial work with a smile. This essay names the theft as a temptation and leaves the ceremonies to the people who hold them.
 
 ## What is missing: the hour, the chart, the factor
 

@@ -15,13 +15,13 @@ citations:
   - "Schwartz, William, and Serapio Zalba, eds. The Practice of Group Work. Columbia University Press, 1971."
   - "University of Minnesota Social Welfare History Archives. William Schwartz papers (institutional chronology)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
 **Educational note.** This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-In 1961 the National Association of Social Workers issued a volume, *New Perspectives on Services to Groups*, that included William Schwartz's essay "The Social Worker in the Group." He was forty-five. He would die in 1982. The essay is short, cited past all proportion to its length, and easy to steal. Later textbooks boiled it into a slogan: the group as an enterprise in mutual aid. This pack keeps the phrase inside social-work theory, where he put it. It is not Alcoholics Anonymous. The fellowship of 1935 refused the name therapy and wrote a different literature. Historians may compare forms. The brand must not collapse them. Schwartz's mutual aid is also not a session protocol. No "all in the same boat" worksheet lives here.
+In 1961 the National Association of Social Workers issued a volume, *New Perspectives on Services to Groups*, that included William Schwartz's essay "The Social Worker in the Group." He was forty-five. He would die in 1982. The essay is short, cited past all proportion to its length, and easy to steal. Later textbooks boiled it into a slogan: the group as an enterprise in mutual aid. This essay keeps the phrase inside social-work theory, where he put it. It is not Alcoholics Anonymous. The fellowship of 1935 refused the name therapy and wrote a different literature. Historians may compare forms. The brand must not collapse them. Schwartz's mutual aid is also not a session protocol. No "all in the same boat" worksheet lives here.
 
 This essay is part of a WOW Therapies series on the history of group therapy. It describes a profession arguing with itself. It does not tell a reader to join, leave, or start a group.
 
@@ -37,7 +37,7 @@ Schwartz's 1961 vision, as later social-work historians quote it, pictured the g
 
 What he was pushing against is as important as what he named. Mid-century group work had a "remedial" temptation: the worker as the person who treats, the group as a handy setting, outcome as a change in the identified client. It also had a "social goals" temptation: the group as a little democracy whose purpose was citizenship. Schwartz's 1961 paper tried to locate the worker in the relationship between person and system — a third position that later became, in Shulman and Alex Gitterman's hands, a long American textbook tradition of its own. Those later textbooks are not this page. They are the afterlife.
 
-Mutual aid in Kropotkin, in immigrant lodges, and in AA is a different library. Schwartz knew he was borrowing a political and cooperative word into a licensed profession. The 1961 essay is that borrowing, dated. A clinic website that used it to imply that WOW Therapies runs Schwartz groups, or that reading this paragraph is help, would be doing the collapse this pack exists to prevent.
+Mutual aid in Kropotkin, in immigrant lodges, and in AA is a different library. Schwartz knew he was borrowing a political and cooperative word into a licensed profession. The 1961 essay is that borrowing, dated. A clinic website that used it to imply that WOW Therapies runs Schwartz groups, or that reading this paragraph is help, would be doing the collapse this series exists to prevent.
 
 ## Columbia, NASW, and the books around the essay
 
@@ -55,6 +55,6 @@ Because a community mental-health group, a psychoeducation hour, and a social-wo
 
 ## Sources
 
-Schwartz 1961 in NASW, *New Perspectives on Services to Groups*. Schwartz and Zalba 1971. Minnesota Social Welfare History Archives finding aid for teaching posts. Papell and Rothman 1966 as later classroom map, not as Schwartz's own title. AA comparison: see this pack's fellowship essay and Kurtz 1979; do not reprint Steps. Portrait: none. Type only.
+Schwartz 1961 in NASW, *New Perspectives on Services to Groups*. Schwartz and Zalba 1971. Minnesota Social Welfare History Archives finding aid for teaching posts. Papell and Rothman 1966 as later classroom map, not as Schwartz's own title. AA comparison: see the fellowship essay in this series and Kurtz 1979; do not reprint Steps. Portrait: none. Type only.
 
 *WOW Therapies educational series. Group-therapy heritage only. Complementary to the individual psychotherapy history pack and to SLPWOW speech-pathology history.*

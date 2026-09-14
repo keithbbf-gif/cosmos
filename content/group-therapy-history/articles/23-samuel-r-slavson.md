@@ -15,7 +15,7 @@ citations:
   - "Scheidlinger, Saul, and Gerald Schamess. Fifty Years of AGPA 1942–1992. International Journal of Group Psychotherapy 42 (1992): 1–22."
   - "AGPA. AGPA History. Institutional narrative."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -25,7 +25,7 @@ In 1903 Samuel Richard Slavson, born in 1890 in Poltava, then in the Russian Emp
 
 He wanted psychoanalytic respectability for a circle. He treated J. L. Moreno as a threat to that respectability. Both facts outlived him.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a life. Children's activity groups and AGPA as a guild have their own essays in this pack. Do not read this page as a playroom manual.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a life. Children's activity groups and AGPA as a guild have their own essays in this series. Do not read this page as a playroom manual.
 
 ## Educator, not internist
 
@@ -37,7 +37,7 @@ He wrote more than twenty books. The 1943 volume is the one a historian can assi
 
 ## A profession, and a quarrel
 
-The logo with 1942 notwithstanding, the meetings that founded what became AGPA sit in 1943, around the Orthopsychiatric sessions and a Hotel New Yorker luncheon. The guild essay in this pack follows that lunch. What belongs here is the temperament Slavson brought to it: he wanted the association recognizable to psychiatrists. He wanted it classically Freudian. Neo-Freudians, existentialists, transactional analysts, and, above all, Moreno's psychodrama, were to be kept outside the fence or at least off the letterhead. He served as first president, then as the man who would not leave: administrative committees, a bulletin, and, after the *International Journal of Group Psychotherapy* began in 1951, a de facto editor into the early 1960s. The first dozen successors to the non-medical Slavson were psychiatrists. That is an institutional joke that is also a policy.
+The logo with 1942 notwithstanding, the meetings that founded what became AGPA sit in 1943, around the Orthopsychiatric sessions and a Hotel New Yorker luncheon. The guild essay in this series follows that lunch. What belongs here is the temperament Slavson brought to it: he wanted the association recognizable to psychiatrists. He wanted it classically Freudian. Neo-Freudians, existentialists, transactional analysts, and, above all, Moreno's psychodrama, were to be kept outside the fence or at least off the letterhead. He served as first president, then as the man who would not leave: administrative committees, a bulletin, and, after the *International Journal of Group Psychotherapy* began in 1951, a de facto editor into the early 1960s. The first dozen successors to the non-medical Slavson were psychiatrists. That is an institutional joke that is also a policy.
 
 The quarrel with Moreno was decades long. Moreno had founded the American Society of Group Psychotherapy and Psychodrama in 1942 and wanted the word *group psychotherapy* as if it were a personal patent. Slavson wanted a guild that hospitals would trust. Two journals, two memberships, two origin stories. Scheidlinger and Schamess, in the 1992 AGPA anniversary paper, are a better source for the association's memory than either man's polemic. Picking a champion is fandom. Children's rooms and a stage both mattered. Their bibliographies still barely overlap.
 

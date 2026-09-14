@@ -15,7 +15,7 @@ citations:
   - "Yalom, Irvin D. Inpatient Group Psychotherapy. Basic Books, 1983."
   - "Lieberman, Morton A., Irvin D. Yalom, and Matthew B. Miles. Encounter Groups: First Facts. 1973."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 *No licensed still. Type only: Irvin D. Yalom, b. 1931. Living as of 2026-09-14.*
 
-In 1970, Basic Books published Irvin D. Yalom's *The Theory and Practice of Group Psychotherapy*. Residents who had been handed a process group and a shrug now had a textbook with chapters, a research habit, and a list of "therapeutic factors." The book did not invent the American outpatient group. It organized the craft so a profession could teach it without only imitating a charismatic supervisor. Later editions grew thicker. The first edition is the historical object this pack cares about.
+In 1970, Basic Books published Irvin D. Yalom's *The Theory and Practice of Group Psychotherapy*. Residents who had been handed a process group and a shrug now had a textbook with chapters, a research habit, and a list of "therapeutic factors." The book did not invent the American outpatient group. It organized the craft so a profession could teach it without only imitating a charismatic supervisor. Later editions grew thicker. The first edition is the historical object this series cares about.
 
 This essay is part of a WOW Therapies series on the history of group therapy. It treats Yalom as the author of the group book. It does not reprint his cases. It does not teach a here-and-now technique. The individual-hour pack may keep the novelist and the existential clinician. This page will give *Existential Psychotherapy* (1980) one short paragraph and then return to the circle.
 
@@ -47,7 +47,7 @@ He also wrote, in public interviews and prefaces, about interpersonal learning a
 
 ## One paragraph for the other book
 
-*Existential Psychotherapy* (1980) is a large textbook on death, freedom, isolation, and meaning, written for a course that, Yalom later said, did not yet exist. It shaped his novels and the popular essays that made him a public writer. Those books are not this pack's subject. A group essay mentions the 1980 volume only to keep the lanes honest: the man who listed therapeutic factors also wrote a philosophy of the individual hour. Do not copy that hour into this URL. Do not mine *Love's Executioner* or the fiction for case color. Public books may be named. Their patients are not ours to retell.
+*Existential Psychotherapy* (1980) is a large textbook on death, freedom, isolation, and meaning, written for a course that, Yalom later said, did not yet exist. It shaped his novels and the popular essays that made him a public writer. Those books are not this series' subject. A group essay mentions the 1980 volume only to keep the lanes honest: the man who listed therapeutic factors also wrote a philosophy of the individual hour. Do not copy that hour into this URL. Do not mine *Love's Executioner* or the fiction for case color. Public books may be named. Their patients are not ours to retell.
 
 ## Why a clinic still reads this
 

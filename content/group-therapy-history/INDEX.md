@@ -89,6 +89,10 @@ Hold any piece that still carries `[CITE NEEDED]` or `[VERIFY]` on a date you wo
 - `PHOTO_NOTES.md` — how to attach images; never fake a face
 - `WP_IMPORT.md` — staging/import only
 
+## Voice check
+
+Writer drafts carry `voice_check: human` until a human editor reads each piece aloud against `STYLE_GUIDE.md` and `CLAIMS_GUARDRAILS.md`. After the editor pass, YAML must read `voice_check: edited`. Pack QA (`check_pack.py`) enforces `edited` and requires `EDITOR_REPORT.md`.
+
 ## Review seats
 
 A later editor pass may mark `status: draft` on any piece that fails the style or claims files. Graphics for this series are a separate agent; they must read `PORTRAIT_SOURCES.md` before drawing anyone.

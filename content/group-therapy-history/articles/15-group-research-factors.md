@@ -16,7 +16,7 @@ citations:
   - "Burlingame, Gary M., Addie Fuhriman, and Jennifer E. Johnson. Cohesion in Group Psychotherapy. Psychotherapy 38 (2001): 373–379."
   - "Frank, Jerome D. Persuasion and Healing. Johns Hopkins Press, 1961."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

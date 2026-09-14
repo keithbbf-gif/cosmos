@@ -15,7 +15,7 @@ citations:
   - "Firestone, Shulamith, and Anne Koedt, eds. Notes from the Second Year: Women's Liberation. 1970."
   - "Chesler, Phyllis. Women and Madness. 1972."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -53,7 +53,7 @@ Mainstream group psychotherapy noticed, slowly. AGPA grew a women's task force i
 
 It will not reconstruct a CR agenda or a list of questions for a living room. It will not tell a reader that her unhappiness is "really" political or "really" clinical. Those verdicts are how both a movement and a profession capture a life. A small-city clinic that treats women in groups is not running New York Radical Women. Saying so is a historical distinction. It is not a loyalty test.
 
-The consulting-room pack in this brand's other series will keep the long fight over women and psychoanalysis, over Freud's cases, over later feminist clinicians. This pack keeps the circle that said the living room was a political cell. Complementary, not merged.
+The consulting-room pack in this brand's other series will keep the long fight over women and psychoanalysis, over Freud's cases, over later feminist clinicians. This essay keeps the circle that said the living room was a political cell. Complementary, not merged.
 
 ## Why a clinic still reads this
 

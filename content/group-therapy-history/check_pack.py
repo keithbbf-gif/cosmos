@@ -93,8 +93,10 @@ def main() -> int:
             if key not in fm:
                 errors.append(f"{path.name}: missing YAML {key}")
         vc = fm.get("voice_check")
-        if vc not in {"human", "edited"}:
-            errors.append(f"{path.name}: voice_check must be human or edited (got {vc!r})")
+        if vc != "edited":
+            errors.append(
+                f"{path.name}: voice_check must be edited after editor pass (got {vc!r})"
+            )
         if fm.get("status") not in {"publishable", "draft"}:
             errors.append(f"{path.name}: bad status {fm.get('status')!r}")
         if DISCLAIMER_NEEDLE not in text.lower():
@@ -135,6 +137,7 @@ def main() -> int:
         "PHOTO_NOTES.md",
         "WP_IMPORT.md",
         "README.md",
+        "EDITOR_REPORT.md",
     ]
     for name in ops:
         if not (ROOT / name).is_file():

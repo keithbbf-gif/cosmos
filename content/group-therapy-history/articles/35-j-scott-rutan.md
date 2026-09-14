@@ -15,7 +15,7 @@ citations:
   - "Rutan, J. Scott, and Walter N. Stone. Psychodynamic Group Psychotherapy. 1984 (first edition)."
   - "Guilford Press author page for J. Scott Rutan (public textbook biography)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -31,13 +31,13 @@ The American group story that textbooks like to tell still begins, too often, in
 
 The Massachusetts General address matters because it is a hospital, not a growth center. Residents who rotate through a general hospital inherit groups the way they inherit call: as work that will happen whether they have a theory or not. Rutan's public career, as the textbook and the AGPA record describe it, was to give that work a psychodynamic vocabulary that could survive an American clinic — insurance, mixed professions, a weekly hour — without pretending the room was either a British group-analytic seminar or an encounter weekend.
 
-Anne Alonso, whose own essay belongs later in this calendar's Boston cluster, appears in the AGPA journal record as a collaborator in that same city. Bibliography for this pack points to Alonso and Rutan papers on the Boston tradition in the *International Journal of Group Psychotherapy*. The tradition is a teaching culture: observation, long supervision, a preference for talking about what the group does to the therapist as well as to the patient. That is history of a school. It is not a screening checklist.
+Anne Alonso, whose own essay belongs later in this calendar's Boston cluster, appears in the AGPA journal record as a collaborator in that same city. Bibliography for this series points to Alonso and Rutan papers on the Boston tradition in the *International Journal of Group Psychotherapy*. The tradition is a teaching culture: observation, long supervision, a preference for talking about what the group does to the therapist as well as to the patient. That is history of a school. It is not a screening checklist.
 
 ## The book that kept being rewritten
 
 First editions are thin for a reason. The 1984 *Psychodynamic Group Psychotherapy* — catalogued from Collamore / related 1980s imprints; later the Guilford sequence — was already arguing that a therapy group is not a cheaper individual hour with extra chairs. Later editions added what American training programs asked for: more on time-limited groups, more on combined treatments, more on the fights that actually show up in a clinic (the member who never comes, the member who comes for everyone else). Shay's name on the later title pages is not a courtesy. It marks a Boston generation that inherited Rutan and Stone and had to teach in a managed-care decade.
 
-A heritage series that treated the book as a current protocol would be doing the one thing this pack refuses. The chapters on selection, composition, and leadership are craft for licensed readers in a classroom. They are dated. They argue. They do not become, on wowtherapies.com, a recipe for starting a process group. The historical fact is simpler: for several decades, if an American trainee wanted a psychodynamic group text that was not Yalom and not Foulkes, this was often the spine on the syllabus.
+A heritage series that treated the book as a current protocol would be doing the one thing this series refuses. The chapters on selection, composition, and leadership are craft for licensed readers in a classroom. They are dated. They argue. They do not become, on wowtherapies.com, a recipe for starting a process group. The historical fact is simpler: for several decades, if an American trainee wanted a psychodynamic group text that was not Yalom and not Foulkes, this was often the spine on the syllabus.
 
 Stone's Cincinnati psychiatry and Rutan's Boston psychology are a useful pair on a title page. American group psychotherapy has always been a mixed shop — physicians, psychologists, social workers, later counselors — and AGPA's long argument was how to keep them in one association without dissolving the work into encounter. A past presidency of AGPA is, in that light, a political fact as much as an honor. Scheidlinger's association histories belong in the profession essay. Rutan's name belongs there as a late-century officer who also wrote the book residents actually carried.
 

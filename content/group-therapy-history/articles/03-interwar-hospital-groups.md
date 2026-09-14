@@ -15,7 +15,7 @@ citations:
   - "Marsh, L. Cody. Mental Hygiene, 1931."
   - "Scheidlinger, Saul. Historical reviews of early hospital group methods."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -15,7 +15,7 @@ citations:
   - "Pratt, Joseph H. Boston Medical and Surgical Journal / NEJM, 1926."
   - "Emmanuel Church, Boston. Histories of the tuberculosis class and the Emmanuel Movement."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -63,13 +63,13 @@ A reader who only meets Pratt in a textbook first paragraph should read the *JAM
 
 He is also writing about money without euphemism. Tents, blankets, a roof that will hold a frame, a wage that disappears when a breadwinner lies down — these are the materials. Later group theory likes to lift "mutual encouragement" out of that file and leave the tents. The lift is how an origin becomes a logo. The tents are how a poor city actually fought a bacterium before streptomycin.
 
-Church histories that mention a recovered family on a rooftop in 1907 are period publicity. They may be true and still not be a license to reprint faces. This pack's photo rules are blunt: no unlicensed family photographs, no AI tents. Type and a citation are enough.
+Church histories that mention a recovered family on a rooftop in 1907 are period publicity. They may be true and still not be a license to reprint faces. This series's photo rules are blunt: no unlicensed family photographs, no AI tents. Type and a citation are enough.
 
 ## After tuberculosis
 
 Pratt did not freeze in 1907. He later applied class methods to other chronic complaints, and other clinics copied the form for diseases that were not tuberculosis. The copy is a second history: shared medical appointments, diabetes classes, cardiac groups that a health system can schedule. Those rooms are cousins of Pratt and only distant cousins of a psychodynamic process group. A brand that collapses them into one "group therapy" slide is doing marketing.
 
-The Emmanuel Movement, which shared a building and a decade, went the other direction: talk, prayer, nervous illness, a crowd. Worcester and the neurologists who would work with him belong as much to pastoral counseling's memory as to this pack. The shared address is the historical fact. The shared theory is a wish.
+The Emmanuel Movement, which shared a building and a decade, went the other direction: talk, prayer, nervous illness, a crowd. Worcester and the neurologists who would work with him belong as much to pastoral counseling's memory as to this series. The shared address is the historical fact. The shared theory is a wish.
 
 When American group psychotherapy needed a medical grandfather in the 1940s, Pratt was available, published, and safely dead enough to quote. He had not asked to be a grandfather of process. He had asked poor consumptives to sleep in the air and to come back next week. The profession's gratitude is real. So is the profession's projection.
 

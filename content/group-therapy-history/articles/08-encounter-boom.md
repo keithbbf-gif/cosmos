@@ -15,7 +15,7 @@ citations:
   - "Rogers, Carl R. On Encounter Groups. 1970."
   - "Yalom, Irvin D. The Theory and Practice of Group Psychotherapy. 1970."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -63,7 +63,7 @@ Lieberman, Yalom, and Miles did not write from Big Sur. They wrote from a resear
 
 Their "casualty" was not a person who had a hard Tuesday. It was a person who was, by the study's measures and clinical follow-up, harmed in a lasting way. Leaders who pushed hard, who attacked, who confused heat with work, showed up more often in those files. The finding is ugly because the brochures had been pretty. A heritage series that skips it is doing the brochure's job.
 
-Rogers's 1970 book is more hopeful. He had already been filming and facilitating large groups, including political encounters that later viewers still argue about. The individual-history pack can keep the 1957 conditions and the Gloria film. This pack keeps the fact that a founder of the individual hour also blessed a public circle whose rules were thinner than a clinic's. Blessing is not the same as a protocol. This page will not reconstruct his groups.
+Rogers's 1970 book is more hopeful. He had already been filming and facilitating large groups, including political encounters that later viewers still argue about. The individual-history pack can keep the 1957 conditions and the Gloria film. This essay keeps the fact that a founder of the individual hour also blessed a public circle whose rules were thinner than a clinic's. Blessing is not the same as a protocol. This page will not reconstruct his groups.
 
 Esalen remained a place people went. The cameras moved on. Clinics kept offering weekly groups with doors that locked from the inside in the ordinary way: a start time, a stop time, a chart. The boom's gift to those clinics, if a disaster can be a gift, was a vocabulary for harm. Scapegoat. Leader intoxication. The member who is opened and then abandoned in a parking lot. Those are historical objects. They are also why a small-city practice that never ran a marathon still writes a consent form.
 

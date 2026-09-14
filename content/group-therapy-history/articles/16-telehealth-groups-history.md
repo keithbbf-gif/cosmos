@@ -15,7 +15,7 @@ citations:
   - "Huang, Daniel Q. Cyber Solace: Historicizing an Online Forum for Patients with Depression, 1990–1999. Journal of the History of Medicine and Allied Sciences, 2022."
   - "U.S. Department of Health and Human Services. HIPAA (1996) and 2020 telehealth enforcement-discretion notices as statute and administrative history."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 In 1993 *Social Work with Groups* published a paper by Lori S. Wiener, E. D. Spencer, R. Davidson, and C. Fair on national telephone support groups for HIV-infected children and their families. The groups had no waiting room and no parking lot. They had a conference line, a scheduled hour, and the particular American geography of an epidemic that had already taught clinics to think about distance, stigma, and who could not walk into a building. The paper is a dated object. It is not a script for a call.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a short history of groups on a wire: telephone in the 1990s, forums in the 2000s, a pandemic shift in 2020 that turned a niche into a default. It will not teach anyone how to run an online group. It will not praise a brand of software. The individual psychotherapy-history pack may keep the tele-hour between two people. This pack keeps the circle when the circle is a roster of phone numbers.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a short history of groups on a wire: telephone in the 1990s, forums in the 2000s, a pandemic shift in 2020 that turned a niche into a default. It will not teach anyone how to run an online group. It will not praise a brand of software. The individual psychotherapy-history pack may keep the tele-hour between two people. This essay keeps the circle when the circle is a roster of phone numbers.
 
 ## Before video, a line
 

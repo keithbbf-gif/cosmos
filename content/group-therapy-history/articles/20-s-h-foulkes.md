@@ -15,7 +15,7 @@ citations:
   - "Foulkes, S. H. Introduction to Group-Analytic Psychotherapy. London: Heinemann, 1948."
   - "Harrison, Tom. Bion, Rickman, Foulkes and the Northfield Experiments. London: Jessica Kingsley, 2000."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -53,7 +53,7 @@ He died on 8 July 1976 in London, during a seminar he was leading for senior col
 
 ## What this life is not
 
-It is not a manual for sitting in the conductor's chair. History may describe that he preferred conductor to leader. History may not teach a reader to conduct. The claims file of this pack forbids the lesson.
+It is not a manual for sitting in the conductor's chair. History may describe that he preferred conductor to leader. History may not teach a reader to conduct. The claims guardrails for this series forbids the lesson.
 
 It is also not a merger with Tavistock group relations. Bion, A. K. Rice, and the later Leicester conferences are a neighboring British industry. They share a war and a city. They do not share a clinic. Collapsing them into "Northfield" is how textbooks save a slide and lose a quarrel.
 

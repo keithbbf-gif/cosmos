@@ -15,7 +15,7 @@ citations:
   - "Moreno, J. L. Who Shall Survive? 1934."
   - "Marineau, René F. Jacob Levy Moreno, 1889–1974. 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -49,7 +49,7 @@ She also had to live inside a sentence the Beacon world sometimes used: that he 
 
 It is not a second J. L. Moreno biography with a different first name. She did not need to be him. The stage, the sociogram, and the fight with Slavson were already his public wars. Her public war was continuity: institutes, a journal, a traveling pedagogy, a refusal to let the method become only a dead man's trademark.
 
-It is not permission to reconstruct doubling, role reversal, or an empty chair from a paragraph. History may say those tools were named and used. History may not teach them. The claims file of this pack is strict on that point because the harm is not theoretical. Encounter-group research in 1973 counted casualties in a cousin tradition. Psychodrama's own ethical literature, written later, is still arguing about consent on a stage. That argument belongs to trainers and licensing boards, not to a heritage page.
+It is not permission to reconstruct doubling, role reversal, or an empty chair from a paragraph. History may say those tools were named and used. History may not teach them. The claims guardrails for this series is strict on that point because the harm is not theoretical. Encounter-group research in 1973 counted casualties in a cousin tradition. Psychodrama's own ethical literature, written later, is still arguing about consent on a stage. That argument belongs to trainers and licensing boards, not to a heritage page.
 
 ## Portrait
 
@@ -67,6 +67,6 @@ The next essay leaves Beacon for a Frankfurt analyst who changed his name in Eng
 
 ## Sources
 
-Zerka T. Moreno, *To Dream Again* (2012), as memoir. J. L. Moreno 1934 and the Beacon House volumes for the world she entered. Marineau 1989 for the partner's life. Public obituaries and the ASGPP in-memoriam note for dates of birth, marriage, and death. *The Quintessential Zerka* as a collection of her public papers. Do not use workshop photographs; the portrait row in this pack is type only.
+Zerka T. Moreno, *To Dream Again* (2012), as memoir. J. L. Moreno 1934 and the Beacon House volumes for the world she entered. Marineau 1989 for the partner's life. Public obituaries and the ASGPP in-memoriam note for dates of birth, marriage, and death. *The Quintessential Zerka* as a collection of her public papers. Do not use workshop photographs; the portrait row in this series is type only.
 
 *WOW Therapies educational series. Group-therapy heritage only. Complementary to the individual psychotherapy history pack and to SLPWOW speech-pathology history.*

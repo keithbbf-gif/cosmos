@@ -15,7 +15,7 @@ citations:
   - "Durkin, Helen E. General Systems Theory and Group Therapy: An Introduction. International Journal of Group Psychotherapy, 1972."
   - "AGPA. Institutional history of the Standards and Training Committee."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -35,7 +35,7 @@ AGPA's later institutional history places Durkin and Henriette F. Glatzer at the
 
 Durkin spoke on play therapy and on children's misbehavior to parent audiences in Westchester — the 1948 notice lists Larchmont and Crestwood PTA talks. Those talks are period pieces. They are also a reminder that group work with children and parents was a public-facing craft, not only a closed analytic circle. The child-activity essay in this series holds Slavson. Durkin is the other New York psychologist in the early association, writing and chairing while the men argued about Moreno.
 
-The death year 1991 is the date this pack's calendar uses. A newspaper obituary has not been attached to this file `[VERIFY]`. Hold the date as the index holds it, and do not invent a funeral.
+The death year 1991 is the date INDEX.md uses. A newspaper obituary has not been attached to this file `[VERIFY]`. Hold the date as the index holds it, and do not invent a funeral.
 
 ## Standards, 1952–53, and a book that compared schools
 
@@ -47,7 +47,7 @@ By 1972 she was publishing "General Systems Theory and Group Therapy: An Introdu
 
 ## Why a clinic still reads this
 
-Because the American Group Psychotherapy Association did not professionalize itself only through Slavson's children's rooms and Wolf's alternate sessions. A psychologist who had been a vice-president in 1948 and a standards chair in 1952 wrote the 1964 book that still sits in bibliographies when someone needs a pre-Yalom American theory text. Women's work in this pack is not a closing section. Durkin is the essay.
+Because the American Group Psychotherapy Association did not professionalize itself only through Slavson's children's rooms and Wolf's alternate sessions. A psychologist who had been a vice-president in 1948 and a standards chair in 1952 wrote the 1964 book that still sits in bibliographies when someone needs a pre-Yalom American theory text. Women's work in this series is not a closing section. Durkin is the essay.
 
 Because *The Group in Depth* is a comparative habit. Yalom's 1970 textbook would soon occupy the American syllabus with a more interpersonal, research-friendly voice. Durkin's book is what a psychoanalytic group psychologist wrote when the field was still a quarrel of schools. Reading her is a way not to let 1970 erase 1964.
 

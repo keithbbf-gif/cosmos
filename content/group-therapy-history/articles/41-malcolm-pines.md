@@ -15,7 +15,7 @@ citations:
   - "Royal College of Physicians. Biographical memoir of Malcolm Irvin Manoah Pines."
   - "Pines, Malcolm. Circular Reflections. Jessica Kingsley, 1998."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

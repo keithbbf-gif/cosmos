@@ -15,7 +15,7 @@ citations:
   - "Wolf, Alexander, and Emanuel K. Schwartz. Papers on the alternate meeting, including the 1958 congress text."
   - "Wolf, Alexander. Beyond the Couch. Science House, 1970."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -33,7 +33,7 @@ AGPA's institutional history records that in 1938 Wolf started a group of ten of
 
 He taught at the Postgraduate Center for Mental Health in New York, was associated with a Workshop for Group Psychoanalysis, and later with the Contemporary Center for Advanced Psychiatric Analytic Studies. Colleagues remembered him as a founding presence in a group department. Those affiliations are public. This page will not reconstruct his consulting room.
 
-A paid death notice in the *New York Times*, 27 September 1997, says Alexander Wolf, M.D., died on 25 September 1997. This pack's calendar prints 1907–1994 `[VERIFY]`. Copy editors should reopen the year before a plaque is ordered. The birth year 1907 is the date the catalogues use. The notice's claim that he "originated" psychiatric analysis in groups is the usual obituary inflation. Pratt, Moreno, Schilder, Wender, and Burrow were already in the file. Wolf originated a New York analytic style and a fight about meetings without the analyst.
+A paid death notice in the *New York Times*, 27 September 1997, says Alexander Wolf, M.D., died on 25 September 1997. This series's calendar prints 1907–1994 `[VERIFY]`. Copy editors should reopen the year before a plaque is ordered. The birth year 1907 is the date the catalogues use. The notice's claim that he "originated" psychiatric analysis in groups is the usual obituary inflation. Pratt, Moreno, Schilder, Wender, and Burrow were already in the file. Wolf originated a New York analytic style and a fight about meetings without the analyst.
 
 ## The 1962 book, and what reviewers heard
 
@@ -57,7 +57,7 @@ Because every therapy group still has a shadow meeting — the parking lot, the 
 
 Because American psychoanalytic group therapy is not only Yalom's interpersonal factors and not only Slavson's children. Wolf is the New York analyst who insisted the individual remained the unit of treatment even when the furniture was a circle. Durkin surveyed him. Yalom would later occupy the syllabus. Wolf's book is what the 1962 quarrel looked like in hard covers.
 
-Because controversy is easier to copy than to understand. This pack will not offer alternate sessions as a vintage technique. It will say they happened, that Schwartz coauthored the canonical statement, and that the later profession spent decades arguing about the hole in the week.
+Because controversy is easier to copy than to understand. This series will not offer alternate sessions as a vintage technique. It will say they happened, that Schwartz coauthored the canonical statement, and that the later profession spent decades arguing about the hole in the week.
 
 ## Sources
 

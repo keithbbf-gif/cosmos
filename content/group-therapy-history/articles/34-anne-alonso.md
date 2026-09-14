@@ -15,7 +15,7 @@ citations:
   - "Alonso, Anne. AGPA and the Village Well. International Journal of Group Psychotherapy, 1993 (1992 presidential address)."
   - "Alonso, Anne. The Quiet Profession: Supervisors of Psychotherapy. 1985."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -37,7 +37,7 @@ The Boston group-therapy tradition that trainees still nickname "Rutan and Alons
 
 ## Public papers, not case reprints
 
-The papers to name, as objects, include Rutan and Alonso, "Some guidelines for group therapists" (*Group*, 1978) — a title this site will not unpack into a list; Alonso and Rutan, "Object relations theory and its impact on psychodynamic group therapy" (*American Journal of Psychiatry*, 1984); "The Experience of Shame and the Restoration of Self-respect in Group Therapy" (*IJGP*, 1988); "Shame in Supervision" (1988/89); and "Separation and individuation in the group leader" (*IJGP*, 1996). Rice, Alonso, and Rutan wrote on training-center grief and fights ("The Fights of Spring," 1985). The 1996 *Group* paper on activity and nonactivity in the leader has a title that looks like advice. It is a journal article with a date. This pack will not translate it into "sit there" as counsel.
+The papers to name, as objects, include Rutan and Alonso, "Some guidelines for group therapists" (*Group*, 1978) — a title this site will not unpack into a list; Alonso and Rutan, "Object relations theory and its impact on psychodynamic group therapy" (*American Journal of Psychiatry*, 1984); "The Experience of Shame and the Restoration of Self-respect in Group Therapy" (*IJGP*, 1988); "Shame in Supervision" (1988/89); and "Separation and individuation in the group leader" (*IJGP*, 1996). Rice, Alonso, and Rutan wrote on training-center grief and fights ("The Fights of Spring," 1985). The 1996 *Group* paper on activity and nonactivity in the leader has a title that looks like advice. It is a journal article with a date. This series will not translate it into "sit there" as counsel.
 
 *The Quiet Profession: Supervisors of Psychotherapy* (1985) is her book. It is mostly about the individual supervisory pair, a "quiet" craft she thought the academy undervalued. It belongs in this group essay only as a public object from the same teacher who also wrote about shame in group supervision. Do not treat the book as a group manual. Do not reprint its vignettes.
 

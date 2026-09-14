@@ -15,7 +15,7 @@ citations:
   - "Tubert-Oklander, Juan, and Reyna Hernández de Tubert. English-language introductions to the Argentine school (name the book if quoted)."
   - "Experiencia Rosario, 1958, as later described in the Argentine group-work literature."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

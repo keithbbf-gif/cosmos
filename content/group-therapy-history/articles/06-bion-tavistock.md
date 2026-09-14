@@ -15,7 +15,7 @@ citations:
   - "Bion, W. R., and John Rickman. The Lancet, 1943."
   - "Pines, Malcolm. Essays on Bion and group analysis."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -65,7 +65,7 @@ A. K. Rice and the later Leicester conferences (from 1957) took "group relations
 
 Melanie Klein's name belongs in a life of Bion more than in a group-history paragraph, except for this: his group prose is soaked in a theory of primitive anxiety that Klein's clinic had already made thinkable. Foulkes came from a different analytic weather. The two weathers still do not mix well in one supervision. A training program that assigns both books in one week without saying so is doing collage.
 
-He left London for Los Angeles in the later 1960s and died in 1979. The California years belong more to the individual psychoanalytic file than to this pack. What remains for group history is the 1943 paper, the 1948–1961 essays, and a set of names that escaped their rooms. Dependency, fight-flight, pairing: keep them as dated theory. Do not keep them as a sticker you put on a neighbor.
+He left London for Los Angeles in the later 1960s and died in 1979. The California years belong more to the individual psychoanalytic file than to this series. What remains for group history is the 1943 paper, the 1948–1961 essays, and a set of names that escaped their rooms. Dependency, fight-flight, pairing: keep them as dated theory. Do not keep them as a sticker you put on a neighbor.
 
 ## Sources
 

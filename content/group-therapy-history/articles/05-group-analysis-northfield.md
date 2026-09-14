@@ -15,7 +15,7 @@ citations:
   - "Foulkes, S. H. Introduction to Group-Analytic Psychotherapy. 1948."
   - "Harrison, Tom. Bion, Rickman, Foulkes and the Northfield Experiments. 2000."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

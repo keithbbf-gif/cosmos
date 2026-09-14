@@ -15,7 +15,7 @@ citations:
   - "Bion, W. R. Experiences in Groups and Other Papers. London: Tavistock, 1961."
   - "Harrison, Tom. Bion, Rickman, Foulkes and the Northfield Experiments. 2000."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

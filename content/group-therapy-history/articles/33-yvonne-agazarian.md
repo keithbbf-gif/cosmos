@@ -15,7 +15,7 @@ citations:
   - "Agazarian, Yvonne, and Richard Peters. The Visible and Invisible Group. 1981."
   - "Gantt, Susan P. Obituary: Yvonne M. Agazarian (1929–2017). American Psychologist, 2019."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -53,7 +53,7 @@ Living-system talk escaped, as Bion's talk escaped, into organizational consulti
 
 Because late-century American group therapy did not only become CBT manuals and Yalom reprints. It also grew a systems school with its own institute, fellows, and a 1997 book that still appears on specialist lists. A small-city practice that will never send anyone to SCT training can still use the historical warning: a group is not only a collection of autobiographies. Roles recur. Differences get exiled. Durkin, Agazarian, and the older Lewin line all said some version of that. They said it in different decades with different machinery.
 
-Because women theorists in this pack are not an appendix. Agazarian's APA award in 1997 is a dated public honor. The theory is the work. The honor is a profession noticing, late, a psychologist who had been building in Philadelphia while New York and Boston argued other canons.
+Because women theorists in this series are not an appendix. Agazarian's APA award in 1997 is a dated public honor. The theory is the work. The honor is a profession noticing, late, a psychologist who had been building in Philadelphia while New York and Boston argued other canons.
 
 Because a website about groups is tempted to offer "systems thinking" as a modern upgrade. SCT is not a free upgrade. It is a school with trainers who take money and time. This series will not impersonate them.
 

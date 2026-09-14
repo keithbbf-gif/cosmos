@@ -15,7 +15,7 @@ citations:
   - "Jones, Maxwell. Beyond the Therapeutic Community. Yale University Press, 1968."
   - "Millard, David. Essays on Jones and the therapeutic community, including the 1996 text later reprinted as Classic Text No. 133."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

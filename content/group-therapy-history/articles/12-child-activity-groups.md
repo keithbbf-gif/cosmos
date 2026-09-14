@@ -15,7 +15,7 @@ citations:
   - "Scheidlinger, Saul, and Gerald Schamess. Fifty Years of AGPA 1942–1992. International Journal of Group Psychotherapy, 1992."
   - "Lowrey, Lawson G. Introduction to the AOA special section on group therapy. American Journal of Orthopsychiatry, 1943."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 In 1943 the Commonwealth Fund in New York published S. R. Slavson's *An Introduction to Group Therapy*, a 352-page book about a method the Jewish Board of Guardians had been using with children since 1934. The volume is about rooms with materials in them: wood, paint, tools, a chance to make something or wreck something without a lesson plan. It is not a book of children's inner monologues. Later American group psychotherapy would talk as if the circle had always been a conversation among adults. Slavson's first public monument was a children's shop.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is history, not a playroom manual. It will not offer child vignettes, composite patients, or a list of activities to try. The individual psychotherapy-history pack keeps the consulting-room lives of founders. This pack keeps the children's group as a profession's opening act — and as a reminder that talk is not the only old method.
+This essay is part of a WOW Therapies series on the history of group therapy. It is history, not a playroom manual. It will not offer child vignettes, composite patients, or a list of activities to try. The individual psychotherapy-history pack keeps the consulting-room lives of founders. This essay keeps the children's group as a profession's opening act — and as a reminder that talk is not the only old method.
 
 ## 1934, a child-guidance clinic, a recreational program
 

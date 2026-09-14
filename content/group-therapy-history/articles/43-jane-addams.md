@@ -15,7 +15,7 @@ citations:
   - "Nobel Prize biographical note, Jane Addams, Peace Prize 1931."
   - "PORTRAIT_SOURCES.md — Commons File:Jane Addams profile.jpg and related LOC/NPG files; reopen the file page on upload day."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 On 18 September 1889 Jane Addams and Ellen Gates Starr moved into the old Charles Hull mansion at Halsted and Polk Streets, in a crowded immigrant ward of Chicago. They had seen Toynbee Hall in London's East End. They wanted an American settlement: educated residents living among neighbors, running clubs, classes, a kindergarten, later a labor museum, a playground, a gymnasium, baths, a coffeehouse, investigations of factory and ward politics. Macmillan published Addams's *Twenty Years at Hull-House* in 1910. In 1931 she received the Nobel Peace Prize, sharing the award with Nicholas Murray Butler — the first American woman so named. She died in Chicago on 21 May 1935.
 
-She did not invent group therapy. A heritage series that promoted her as a secret Pratt or a prairie Foulkes would be doing the theft this pack was written to stop. Settlement clubs are an ancestor of *social group work*. They are neighbors, citizens, workers, children, and women in public. They are not a CPT hour.
+She did not invent group therapy. A heritage series that promoted her as a secret Pratt or a prairie Foulkes would be doing the theft this series was written to stop. Settlement clubs are an ancestor of *social group work*. They are neighbors, citizens, workers, children, and women in public. They are not a CPT hour.
 
 This essay is part of a WOW Therapies series on the history of group therapy. It is not a tour of Hull-House as a clinic. It does not offer a club curriculum.
 
@@ -37,11 +37,11 @@ Settlement historians reading her papers have stressed that she often cared more
 
 ## Ancestor, not origin
 
-American social group work in the twentieth century — Konopka, Schwartz, the settlements that outlived their founders — can name Hull-House without embarrassment. The National Federation of Settlements, the playground movement, the professionalization of recreation and club work, all pass through this address or addresses like it (Henry Street in New York, and others). Pratt's 1907 tuberculosis class is another Boston medical story. Slavson's activity groups for children are a Jewish Board of Guardians story from the 1930s. Addams is earlier than both and belongs to a different guild. The first essay in this pack already said so: the settlement is not a preface to AGPA.
+American social group work in the twentieth century — Konopka, Schwartz, the settlements that outlived their founders — can name Hull-House without embarrassment. The National Federation of Settlements, the playground movement, the professionalization of recreation and club work, all pass through this address or addresses like it (Henry Street in New York, and others). Pratt's 1907 tuberculosis class is another Boston medical story. Slavson's activity groups for children are a Jewish Board of Guardians story from the 1930s. Addams is earlier than both and belongs to a different guild. The first essay in this series already said so: the settlement is not a preface to AGPA.
 
 What she shares with later therapy groups is only the stubborn fact that people change, for better and worse, in the presence of others. What she does not share is the hour as commodity, the chart, the factor. *Twenty Years at Hull-House* has gossip, snobbery, tenderness, and the limits of a Progressive reformer who still had to learn her neighbors. Immigrant neighbors were not patients. Treating them as pre-patients in a history of psychotherapy is colonial manners in a kind voice.
 
-Her pacifism during and after the First World War made her, for a time, an ungrateful public figure. The 1931 Nobel is a late reversal, awarded while she was too ill to travel to Oslo. Peace work, suffrage, the ACLU (she was among the 1920 founders), and Hull-House are one life. This pack takes only the club and the house, and only as group heritage.
+Her pacifism during and after the First World War made her, for a time, an ungrateful public figure. The 1931 Nobel is a late reversal, awarded while she was too ill to travel to Oslo. Peace work, suffrage, the ACLU (she was among the 1920 founders), and Hull-House are one life. This essay takes only the club and the house, and only as group heritage.
 
 ## Portrait
 
@@ -53,7 +53,7 @@ If the file page on upload day is muddy, fall back to type: "Jane Addams, 1860�
 
 Because a group in a small-city clinic still sits downstream of clubs, churches, and houses that were never licensed as therapy. Addams is the American reminder that the circle was civic before it was clinical. The useful inheritance is a boundary. When a history page says "we have always known groups heal," ask who was in the house, who paid, and whether anyone had the right to leave. Hull-House was a neighborly power. It was also a Progressive project with class written into the floor plan.
 
-Because social work's claim on the group is not a late diversity chapter. It is 1889, 1910, 1961, 1963 — Addams, then Schwartz, then Konopka, in the order of the houses, not of this calendar. A psychotherapy pack that cannot say "she did not invent group therapy" has failed its own Pratt warning. The last figure in this pack, Dorothy Stock Whitaker, takes the group back into a 1964 research-and-practice book written with Morton Lieberman, on the therapy side of the hallway Addams never entered.
+Because social work's claim on the group is not a late diversity chapter. It is 1889, 1910, 1961, 1963 — Addams, then Schwartz, then Konopka, in the order of the houses, not of this calendar. A psychotherapy pack that cannot say "she did not invent group therapy" has failed its own Pratt warning. The last figure in this series, Dorothy Stock Whitaker, takes the group back into a 1964 research-and-practice book written with Morton Lieberman, on the therapy side of the hallway Addams never entered.
 
 ## Sources
 

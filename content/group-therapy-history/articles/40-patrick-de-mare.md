@@ -15,7 +15,7 @@ citations:
   - "de Maré, P. B. Perspectives in Group Psychotherapy. London: Allen & Unwin, 1972."
   - "Harrison, Tom. Bion, Rickman, Foulkes and the Northfield Experiments. 2000."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -53,6 +53,6 @@ Because hate in a crowd is not a metaphor. The 1991 sequence — hate, dialogue,
 
 ## Sources
 
-de Maré, Piper, and Thompson 1991 (Karnac), title as in this pack's bibliography. de Maré 1972; de Maré and Kreeger 1974. Harrison 2000 for Northfield. Group Analytic Practice founding year `[VERIFY]` (1960 vs 1964 in obituaries and memoirs). Portrait: none. Type only. Do not use military-hospital casualty photographs as a headshot.
+de Maré, Piper, and Thompson 1991 (Karnac), title as in BIBLIOGRAPHY.md. de Maré 1972; de Maré and Kreeger 1974. Harrison 2000 for Northfield. Group Analytic Practice founding year `[VERIFY]` (1960 vs 1964 in obituaries and memoirs). Portrait: none. Type only. Do not use military-hospital casualty photographs as a headshot.
 
 *WOW Therapies educational series. Group-therapy heritage only. Complementary to the individual psychotherapy history pack and to SLPWOW speech-pathology history.*

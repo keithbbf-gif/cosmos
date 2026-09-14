@@ -15,7 +15,7 @@ citations:
   - "Kurtz, Ernest. Not-God: A History of Alcoholics Anonymous. Hazelden, 1979."
   - "White, William L. Dated recovery-history essays on mutual aid (not a protocol)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -63,7 +63,7 @@ They also were not harmless. Any room that lives on story can punish a story tha
 
 ## Why a clinic still reads this
 
-Because patients still arrive having been saved by a fellowship, harmed by one, or confused about whether the group on Thursday night is "the same as AA." A small-city practice that answers its own phone has to know the difference without sneering at either room. The consulting-hour pack in this brand's other series will keep Freud, Rogers, and Beck where they belong. This pack keeps the circle. AA is the American circle that most loudly said: we are not you.
+Because patients still arrive having been saved by a fellowship, harmed by one, or confused about whether the group on Thursday night is "the same as AA." A small-city practice that answers its own phone has to know the difference without sneering at either room. The consulting-hour pack in this brand's other series will keep Freud, Rogers, and Beck where they belong. This essay keeps the circle. AA is the American circle that most loudly said: we are not you.
 
 Because mutual aid is a technology of the unlicensed. Burial clubs, immigrant lodges, and temperance meetings sat in this family before 1935. The clinic did not invent sitting with others. It professionalized a subset of the sitting and then spent a century arguing with the subset that refused the diploma.
 

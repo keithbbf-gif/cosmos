@@ -15,7 +15,7 @@ citations:
   - "Ormont, Louis R. The Technique of Group Treatment. Psychosocial Press, 2001 (collected papers)."
   - "Center for Group Studies, New York. Institutional history of Ormont's training lineage (public page; not a license for photographs)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -37,7 +37,7 @@ New York already had Alexander Wolf's psychoanalysis-in-groups, Eastern Group Ps
 
 Chapter titles in *The Group Therapy Experience* include the phrase. Ormont defined bridging, in that book, as a way of evoking talk between members so the group would function as a working unit rather than a row of witnesses. Later journal articles carried the same word into the 1990s. Students still repeat it as if it were a trademarked tool. The historical fact is narrower: a New York clinician named a family of leader moves and wrote them down for other clinicians.
 
-This pack's claims file is strict here. History may describe that a school used a named intervention. History may not teach a reader to do it. No sample questions. No "if the silent member…" drills. No contract language copied as homework. The 1992 book remains a professional object. So do the papers in *International Journal of Group Psychotherapy*, *Group*, and *Modern Psychoanalysis*. They belong on a syllabus with a live supervisor, not on a clinic blog as a kit.
+This series's claims file is strict here. History may describe that a school used a named intervention. History may not teach a reader to do it. No sample questions. No "if the silent member…" drills. No contract language copied as homework. The 1992 book remains a professional object. So do the papers in *International Journal of Group Psychotherapy*, *Group*, and *Modern Psychoanalysis*. They belong on a syllabus with a live supervisor, not on a clinic blog as a kit.
 
 What a general reader can honestly take is the quarrel inside the word. American groups in the decades after the war kept sliding toward the leader: the wise doctor, the charismatic encounterist, the intern who interviews eight people in a circle because that is what individual training taught. Ormont's published campaign was against that slide. He was not the only campaigner. He was one of the loudest in a particular New York accent.
 

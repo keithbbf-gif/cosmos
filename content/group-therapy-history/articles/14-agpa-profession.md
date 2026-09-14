@@ -15,7 +15,7 @@ citations:
   - "Slavson, S. R. An Introduction to Group Therapy. Commonwealth Fund, 1943."
   - "AGPA. Institutional history of the 1943 meetings and the 1952 name change."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 In February 1943, at the American Orthopsychiatric Association's annual meeting in New York, two sessions were given to group therapy. Lawson G. Lowrey chaired. S. R. Slavson, Nathan W. Ackerman, Harris B. Peck, and two clinical social workers, Helen Glauber and Dorothy Spiker, spoke. With Lowrey's approval, Slavson chalked a note on the registration-desk blackboard inviting anyone specifically interested in group therapy to a luncheon at the Hotel New Yorker, where the conference was being held. About fifty people came. It was decided, there, to create an organization. The logo later emblazoned 1942. The meetings the association's own historians can document were 1943.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a history of a guild. It is not a membership pitch, not a training advertisement, and not a claim that a small-city clinic must belong to anyone. The individual psychotherapy-history pack keeps other guilds (APA, analytic institutes). This pack keeps the one that tried to make the circle a profession.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a history of a guild. It is not a membership pitch, not a training advertisement, and not a claim that a small-city clinic must belong to anyone. The individual psychotherapy-history pack keeps other guilds (APA, analytic institutes). This essay keeps the one that tried to make the circle a profession.
 
 ## June 16, 1943, and a steering committee
 

@@ -15,7 +15,7 @@ citations:
   - "Pratt, Joseph H. A Year with Osler, 1896–1897. Baltimore: Johns Hopkins Press, 1949."
   - "Pratt, Joseph H. The Class Method in the Home Treatment of Pulmonary Tuberculosis. Boston Medical and Surgical Journal / NEJM, 1926."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -25,7 +25,7 @@ The 31 August 1907 issue of *JAMA* carried a paper by Joseph Hersey Pratt whose 
 
 He was thirty-four. He was not inventing a process group. He was trying to keep people on a regimen copied from expensive air.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a life of a Boston physician. The tuberculosis class as an origin story has its own essay in this pack. The two should not be collapsed. Pratt did not walk into a void in 1905 and found a profession. Mutual aid, church meetings, and hospital wards already knew how to sit people together. What he put in print was a physician's class.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a life of a Boston physician. The tuberculosis class as an origin story has its own essay in this series. The two should not be collapsed. Pratt did not walk into a void in 1905 and found a profession. Mutual aid, church meetings, and hospital wards already knew how to sit people together. What he put in print was a physician's class.
 
 ## Hopkins, Osler, and a Boston internist
 

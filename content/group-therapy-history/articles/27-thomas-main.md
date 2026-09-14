@@ -15,7 +15,7 @@ citations:
   - "Main, T. F. The Ailment. British Journal of Medical Psychology, 1957."
   - "Main, T. F. The Ailment and Other Psycho-Analytical Essays. 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

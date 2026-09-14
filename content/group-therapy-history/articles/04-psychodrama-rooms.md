@@ -15,7 +15,7 @@ citations:
   - "Moreno, J. L. Psychodrama. Beacon House, from 1946."
   - "Marineau, René F. Jacob Levy Moreno, 1889–1974. 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

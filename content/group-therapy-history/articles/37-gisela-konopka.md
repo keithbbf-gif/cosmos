@@ -15,7 +15,7 @@ citations:
   - "University of Minnesota Archives. Gisela Konopka papers (institutional chronology)."
   - "Jewish Women's Archive / social-welfare biographies of Konopka. Verify letters before quoting."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -29,7 +29,7 @@ This essay is part of a WOW Therapies series on the history of group therapy. It
 
 Gisela Peiper was born in Berlin on 11 February 1910 to a Jewish family that had left Polish lands under pogrom pressure and kept a small shop. University of Minnesota archival finding aids are the clean public chronology: Staatsexamen at the University of Hamburg in 1933 in education, history, philosophy, and psychology — the year the Nazis took the state. As a Jew she was barred from the professional life the degree had promised. She joined underground resistance work. In 1936 she was arrested and held in Hamburg. After an unexpected release she fled: Czechoslovakia, Vienna in 1937 (nursery and kindergarten work), France after the Anschluss, then the United States in 1941.
 
-The refugee file is not a sentimental preface. It is the reason a later Minnesota professor kept talking about justice, about institutions that punish children, and about groups that can humiliate as easily as they can hold. Her autobiography *Courage and Love* exists. This page will not mine it for color. Andrews's biographical work and the Minnesota papers are the place for letters; the pack bibliography already marks `[VERIFY]` before quoting them.
+The refugee file is not a sentimental preface. It is the reason a later Minnesota professor kept talking about justice, about institutions that punish children, and about groups that can humiliate as easily as they can hold. Her autobiography *Courage and Love* exists. This page will not mine it for color. Andrews's biographical work and the Minnesota papers are the place for letters; BIBLIOGRAPHY.md already marks `[VERIFY]` before quoting them.
 
 She earned a Master in Social Service Administration at the University of Pittsburgh in 1943, with a concentration in social group work, and worked as a psychiatric group worker at the Pittsburgh Child Guidance Clinic. "Psychiatric" here is a clinic adjective, not a conversion into psychiatry. She was a social worker in a child-guidance building. She lectured at Carnegie Institute of Technology's school of social work. In 1947 Minnesota appointed her assistant professor. Full professor followed in 1956. The Doctor of Social Welfare from Columbia came in 1957, a mid-career doctorate on top of a teaching life already in motion.
 
@@ -51,7 +51,7 @@ What she would not have recognized as her work is a billing code for "group psyc
 
 Because a county program that runs a skills group for teenagers is standing in a hallway Konopka already occupied, even if the binder on the table now says CBT. The honest inheritance is not her exercises. It is the reminder that youth groups have always been moral and political: who is called delinquent, who is called a client, who is paid to sit in the room, and whether the group exists to adjust the young person to an institution or to help the young person survive it.
 
-Because social work is not a footnote to Freud. This pack's era essay on children's activity groups and the figure essay on Slavson tell the psychotherapy side of children's circles. Konopka is the other door. A reader in Southeast Arkansas who has met a school social worker, a girls' group in a church basement, or a juvenile program has already met her problem. The next essay stays in social work and names William Schwartz, who in 1961 called the group an enterprise in mutual aid — a theory of the profession, not a fellowship slogan and not a treatment protocol.
+Because social work is not a footnote to Freud. This series's era essay on children's activity groups and the figure essay on Slavson tell the psychotherapy side of children's circles. Konopka is the other door. A reader in Southeast Arkansas who has met a school social worker, a girls' group in a church basement, or a juvenile program has already met her problem. The next essay stays in social work and names William Schwartz, who in 1961 called the group an enterprise in mutual aid — a theory of the profession, not a fellowship slogan and not a treatment protocol.
 
 ## Sources
 

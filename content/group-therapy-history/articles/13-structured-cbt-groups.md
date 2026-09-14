@@ -15,7 +15,7 @@ citations:
   - "Yost, Elizabeth B., Larry E. Beutler, M. Anne Corbishley, and James R. Allender. Group Cognitive Therapy. Pergamon, 1987."
   - "Yalom, Irvin D. The Theory and Practice of Group Psychotherapy. Basic Books, 1970."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -41,15 +41,15 @@ Peter Lewinsohn and colleagues' *Coping with Depression* course, developed in th
 
 Elizabeth B. Yost, Larry E. Beutler, M. Anne Corbishley, and James R. Allender published *Group Cognitive Therapy: A Treatment Approach for Depressed Older Adults* (Pergamon, 1987). The title is a period piece: a population, a diagnosis, a method, a group. Michael L. Free's *Cognitive Therapy in Groups: Guidelines and Resources for Practice* (Wiley, 1999) sits at the far edge of the century and shows what the 1990s wanted — a twelve-week course, handouts, a complete kit for a busy service. White and Freeman's *Cognitive-Behavioral Group Therapy for Specific Problems and Populations* (APA, 2000) is a year late for a strict 1970s–90s frame and useful as a hinge: by then the manual had become a genre, with chapters for this problem and that population.
 
-Beck himself remained, in the public mind, an individual therapist. Group CBT was a derivative literature: adaptations, protocols, dissertations. Naming that derivative status is not an insult. It is a map. The individual-hour pack can keep Beck's life. This pack keeps the moment the circle was asked to behave like a workbook.
+Beck himself remained, in the public mind, an individual therapist. Group CBT was a derivative literature: adaptations, protocols, dissertations. Naming that derivative status is not an insult. It is a map. The individual-hour pack can keep Beck's life. This essay keeps the moment the circle was asked to behave like a workbook.
 
 ## What structured groups were not
 
 They were not, automatically, anti-group. A good manual still had to survive silence, latecomers, the member who lectures, the member who never speaks. Cohesion, the research essay's problem, did not disappear because session three had an agenda. Some CBT group leaders were sophisticated about process and said so. Some were not, and treated deviation from the photocopied plan as sabotage.
 
-They were not the end of ideology. Guardrails for this series say it plainly: DSM-era manuals changed billing language. They did not end argument. Psychoanalytic group therapists heard the manuals as an attack on depth. Manual leaders heard process groups as an expensive fog. Both could be right about a particular room. Neither "won" the profession. AGPA's later decades, as Scheidlinger and Schamess described them, opened the door to plural models after an earlier psychoanalytic exclusivity. Structured groups walked in with the insurers.
+They were not the end of ideology. The claims guardrails say it plainly: DSM-era manuals changed billing language. They did not end argument. Psychoanalytic group therapists heard the manuals as an attack on depth. Manual leaders heard process groups as an expensive fog. Both could be right about a particular room. Neither "won" the profession. AGPA's later decades, as Scheidlinger and Schamess described them, opened the door to plural models after an earlier psychoanalytic exclusivity. Structured groups walked in with the insurers.
 
-They were not a proof that "group works better than individual," a sentence this pack will not print without a named trial and a list of limits. They were a proof that group could be *specified* — written down, randomized, compared. Specification is a research virtue. It is also how a method becomes a product.
+They were not a proof that "group works better than individual," a sentence this series will not print without a named trial and a list of limits. They were a proof that group could be *specified* — written down, randomized, compared. Specification is a research virtue. It is also how a method becomes a product.
 
 Psychoeducation, as a word, hid a class difference. A bipolar-education group on a mood-disorder unit, a family night on a substance-use ward, a six-week anxiety class at a CMHC, and a process group that happened to begin with a ten-minute talk were all "psychoeducation" in somebody's annual report. The word is an umbrella, not a school. Under it sit Pratt's class, Marsh's revival-lecture, and a 1990s CBT protocol that asks members to fill in boxes. This essay will not fill in the boxes.
 
@@ -59,7 +59,7 @@ By the 1990s a typical American outpatient department might offer both: a long-t
 
 Encounter culture had already taught, the hard way, that heat is not a dose (Lieberman, Yalom, and Miles, 1973). Structured groups taught a complementary lesson: cool is not automatically safe. A class can shame a person who cannot read the handout. A homework chart can become a public grade. A diagnosis in the group's title can follow a member into the parking lot. The manual did not abolish humiliation. It changed the stationery.
 
-Internationally the same decades saw other structured circles that this pack will not collapse into Beck: skills-based descendants of dialectical behavior therapy in the 1990s (Linehan's individual story belongs to the other pack; group skills as a historical format belong here only as a dated appearance), psychoeducational family groups in schizophrenia services, and relapse-prevention groups in addiction programs that mixed CBT language with twelve-step furniture. Each is a file. None is a worksheet on wowtherapies.com.
+Internationally the same decades saw other structured circles that this series will not collapse into Beck: skills-based descendants of dialectical behavior therapy in the 1990s (Linehan's individual story belongs to the other pack; group skills as a historical format belong here only as a dated appearance), psychoeducational family groups in schizophrenia services, and relapse-prevention groups in addiction programs that mixed CBT language with twelve-step furniture. Each is a file. None is a worksheet on wowtherapies.com.
 
 ## Why a clinic still reads this
 

@@ -15,7 +15,7 @@ citations:
   - "Burrow, Trigant. The Group Method of Analysis. Psychoanalytic Review 14 (1927): 268–280."
   - "A Search for Man's Sanity: The Selected Letters of Trigant Burrow. New York: Oxford University Press, 1958."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

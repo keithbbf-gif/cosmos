@@ -15,7 +15,7 @@ citations:
   - "Stock, Dorothy, and Herbert A. Thelen. Emotional Dynamics and Group Culture. 1958."
   - "Whitaker, Dorothy Stock. Using Groups to Help People. 1985 (later eds.). Institutional posts: [VERIFY]."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -31,7 +31,7 @@ Before the married name, Dorothy Stock published with Herbert A. Thelen *Emotion
 
 Papers with Lieberman and others in the *International Journal of Group Psychotherapy* at the turn of the 1960s show the workshop: early sessions, deviation from group standards, the difference between what patients and therapists think happened. *Psychotherapy through the Group Process* (1964) is the book that gathers the wager. The authors say they want a view of groups that can stand the diversity and fluidity of actual rooms. They studied a relatively small number of groups intensively rather than running a large experiment. Clinical examples in the book include adolescent and adult groups. This essay will not retell those examples. Composite patients are forbidden here even when the original book had permission in its own decade.
 
-Lieberman's later fame in this pack is *Encounter Groups: First Facts* (1973), with Yalom and Miles. Whitaker's 1964 collaboration is earlier and cooler: therapy groups, not marathons. Do not collapse the two books. Do not promote 1964 as a friendlier First Facts. Different question, different heat.
+Lieberman's later fame in this series is *Encounter Groups: First Facts* (1973), with Yalom and Miles. Whitaker's 1964 collaboration is earlier and cooler: therapy groups, not marathons. Do not collapse the two books. Do not promote 1964 as a friendlier First Facts. Different question, different heat.
 
 ## A UK/US career with honest gaps
 
@@ -39,9 +39,9 @@ Affiliation lines on papers move. A 1975 paper in the *British Journal of Social
 
 Wellcome holds a thin file of correspondence with S. H. Foulkes, 1963–1967. The existence of the file is a fact. The letters are not quoted here. They suggest that a Chicago-trained group researcher was already in conversation with British group analysis before the York byline. The conversation is not a merger. Her 1987 paper is explicit about connections and limits between a group-analytic picture and a focal-conflict picture. Readers who want a single transatlantic theory will have to do without.
 
-*Using Groups to Help People* appeared in 1985, with a later second edition around the turn of the century (Routledge). It is the book training courses still put on lists when they want a planning-and-thinking text rather than a school manifesto. Because it is practical, it is the book this educational series must handle with a closed hand. History may say the chapters cover purposes, planning, beginnings, errors, and the therapist in the group. History may not reprint the planning questions as a worksheet. The 1964 Atherton book is already closer to this pack's job: a dated theory of process.
+*Using Groups to Help People* appeared in 1985, with a later second edition around the turn of the century (Routledge). It is the book training courses still put on lists when they want a planning-and-thinking text rather than a school manifesto. Because it is practical, it is the book this educational series must handle with a closed hand. History may say the chapters cover purposes, planning, beginnings, errors, and the therapist in the group. History may not reprint the planning questions as a worksheet. The 1964 Atherton book is already closer to this essay's job: a dated theory of process.
 
-Death in 2019 is the date this calendar uses. Open obituaries on the web are noisy with other Dorothy Whitakers. Until a colleague's notice is in the bibliography with a publisher, treat the 2019 year as the pack's working date and do not invent a city. Library authority records that print "1925–" without a death year are not a contradiction; they are incomplete.
+Death in 2019 is the date this calendar uses. Open obituaries on the web are noisy with other Dorothy Whitakers. Until a colleague's notice is in the bibliography with a publisher, treat the 2019 year as the index's working date and do not invent a city. Library authority records that print "1925–" without a death year are not a contradiction; they are incomplete.
 
 ## What she refused to separate
 
@@ -53,10 +53,10 @@ No licensed portrait. Died 2019. University photographs remain copyright. Type o
 
 Because every therapy group still produces events that no one person owns. Whitaker and Lieberman, in 1964, tried to write that fact without drowning the patient in "the group" and without pretending the leader's theory was the only process in the room. A contemporary clinician can take the humility and leave the diagrams on the page where they belong.
 
-Because the American research line and the British group-analytic line did meet in actual careers, not only in textbooks. Whitaker's affiliations are a map of that meeting, even where the dates still want a librarian. This pack's last figure is not a closer. The route does not empty. The sixteen era essays and the other twenty-seven figures remain the rest of the house: Pratt's class, Northfield, Bethel, the fellowship that refused to be therapy, Yalom-as-group, Konopka's youth work, Pichon-Rivière's Spanish titles. Whitaker is one more door into the same argument — what, exactly, is the group doing when we say it is doing the work?
+Because the American research line and the British group-analytic line did meet in actual careers, not only in textbooks. Whitaker's affiliations are a map of that meeting, even where the dates still want a librarian. This series' last figure is not a closer. The route does not empty. The sixteen era essays and the other twenty-seven figures remain the rest of the house: Pratt's class, Northfield, Bethel, the fellowship that refused to be therapy, Yalom-as-group, Konopka's youth work, Pichon-Rivière's Spanish titles. Whitaker is one more door into the same argument — what, exactly, is the group doing when we say it is doing the work?
 
 ## Sources
 
-Whitaker and Lieberman 1964 (Atherton). Stock and Thelen 1958. Whitman and Stock 1958 on focal conflict. *Using Groups to Help People* 1985 and later eds. — named, not excerpted as a plan. University of Chicago (1975 byline) and University of York (1987 byline) as printed affiliations; other institutional dates `[VERIFY]`. Wellcome PP/SHF correspondence file: existence only. Death year 2019 as this pack's working date pending a colleague obituary in the bibliography. Portrait: none. Type only.
+Whitaker and Lieberman 1964 (Atherton). Stock and Thelen 1958. Whitman and Stock 1958 on focal conflict. *Using Groups to Help People* 1985 and later eds. — named, not excerpted as a plan. University of Chicago (1975 byline) and University of York (1987 byline) as printed affiliations; other institutional dates `[VERIFY]`. Wellcome PP/SHF correspondence file: existence only. Death year 2019 as the index's working date pending a colleague obituary in the bibliography. Portrait: none. Type only.
 
 *WOW Therapies educational series. Group-therapy heritage only. Complementary to the individual psychotherapy history pack and to SLPWOW speech-pathology history.*

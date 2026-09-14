@@ -15,7 +15,7 @@ citations:
   - "Balint, Enid, and Michael Balint. Later Tavistock papers; Six Minutes for the Patient, 1973 (Enid and colleagues after his death)."
   - "International Balint Federation. Institutional histories of the seminars."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -31,7 +31,7 @@ This essay is part of a WOW Therapies series on the history of group therapy. Ba
 
 He was born in Budapest in 1896, the son of a general practitioner, and trained in medicine while the First World War interrupted the calendar. He encountered psychoanalysis in the city of Sándor Ferenczi, whose influence he never dropped. He worked in Berlin and returned to Budapest. With his first wife, Alice Balint, herself an analyst, he moved in the Hungarian psychoanalytic world of the 1920s and 1930s. Later writers say he already tried teaching groups of physicians there. The first-group date is the kind of origin the profession likes and the archive muddies `[VERIFY]` before printing a Budapest year as if it were a plaque.
 
-The family left Hungary in 1939. Alice died soon after the arrival in Britain. Balint worked in Manchester as a psychiatrist, then moved to London in 1945, took citizenship, and in 1948 joined the Tavistock Clinic. He stayed on staff until a 1961 retirement that did not end the work. He served the British Psychoanalytical Society as scientific secretary in the early 1950s and as president at the end of his life, 1968 until his death in 1970. The psychoanalytic Balint — *The Basic Fault*, regression, the pair — is another shelf. This essay leaves most of that shelf closed. The group-therapy pack is not a second Freud biography with a Hungarian accent.
+The family left Hungary in 1939. Alice died soon after the arrival in Britain. Balint worked in Manchester as a psychiatrist, then moved to London in 1945, took citizenship, and in 1948 joined the Tavistock Clinic. He stayed on staff until a 1961 retirement that did not end the work. He served the British Psychoanalytical Society as scientific secretary in the early 1950s and as president at the end of his life, 1968 until his death in 1970. The psychoanalytic Balint — *The Basic Fault*, regression, the pair — is another shelf. This essay leaves most of that shelf closed. This series is not a second Freud biography with a Hungarian accent.
 
 Enid Flora Eichholz, a social worker and marital researcher at the Tavistock, became his collaborator and, in 1958, his wife. Institutional histories that print only "Balint groups" as a man's invention are doing the usual theft. Enid Balint co-led, wrote, and after 1970 continued the GP research. *Six Minutes for the Patient* (1973) is the later report of a 1966–1971 seminar; Michael had died before it appeared. A heritage series that treats her as a helpmeet with a filing cabinet is repeating a 1950s staffing chart.
 
@@ -43,7 +43,7 @@ What happened, historically, is that a general practitioner presented a patient 
 
 The form mattered to group history because it was a peer group with a task. Members were not patients. They were workers studying their work. T-groups at Bethel, a few years earlier, had another version of that sentence. Encounter weekends would later sell a hotter version. Balint's room stayed close to medicine: cases, surgeries, the National Health Service's clock. Thomas Main, who had been in analysis with him, took a related curiosity about staff back to the Cassel. The Ailment (1957) and *The Doctor, His Patient and the Illness* (1957) are the same year's two British warnings that helpers are not a sterile instrument. They are not the same paper.
 
-Balint groups spread through family-medicine training in Europe, North America, and elsewhere. Societies formed. The International Balint Federation still exists as an institutional descendant. None of that is a license for a website to publish a leader's manual for those seminars. Other organizations train leaders. This pack will not.
+Balint groups spread through family-medicine training in Europe, North America, and elsewhere. Societies formed. The International Balint Federation still exists as an institutional descendant. None of that is a license for a website to publish a leader's manual for those seminars. Other organizations train leaders. This series will not.
 
 ## What to keep, and what not to steal
 

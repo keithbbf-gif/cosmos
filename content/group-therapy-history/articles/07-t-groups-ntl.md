@@ -15,7 +15,7 @@ citations:
   - "Bradford, Leland P., Jack R. Gibb, and Kenneth D. Benne, eds. T-Group Theory and Laboratory Method. 1964."
   - "NTL Institute. Institutional history of the 1946 New Britain workshop and 1947 Bethel laboratory."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -63,7 +63,7 @@ That is a research ethic as much as a training trick. It says the subjects of a 
 
 Bethel's first summers, after Lewin's death, mixed the Office of Naval Research's interest in groups with the NEA's interest in adult education. The mix produced a laboratory that felt like a campus and billed like a seminar. Bradford, Benne, and Lippitt's 1964 collection is the mid-century theory book: laboratory method, change-agent language, a faith that a cultural island can teach what the office cannot. The faith is dated. The date is useful. Every later "offsite" that promises honesty in a hotel ballroom is in this family, usually without the research staff.
 
-Kurt Back, Morton Deutsch, and other social psychologists passed through the early years. Their later careers went toward experiments that did not look like T-groups. The split between laboratory social psychology and laboratory training is part of why a psychology department and an HR department can use the word *group* and not mean the same object. This pack keeps the training object. The experimental object has its own histories.
+Kurt Back, Morton Deutsch, and other social psychologists passed through the early years. Their later careers went toward experiments that did not look like T-groups. The split between laboratory social psychology and laboratory training is part of why a psychology department and an HR department can use the word *group* and not mean the same object. This essay keeps the training object. The experimental object has its own histories.
 
 A clinic in Arkansas does not need Bethel. It needs to know that "here-and-now" has a 1946 address, a race-relations budget, and a 1973 book that counted what happened when the address became a fashion.
 

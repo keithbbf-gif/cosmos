@@ -15,7 +15,7 @@ citations:
   - "Moreno, J. L. Psychodrama. Beacon, NY: Beacon House, from 1946."
   - "Marineau, René F. Jacob Levy Moreno, 1889–1974. London: Routledge, 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -23,7 +23,7 @@ last_verified: 2026-09-14
 
 In 1934 the Nervous and Mental Disease Publishing Company in Washington issued a book with a question for a title and a diagram for an argument: J. L. Moreno's *Who Shall Survive?* It offered sociometry — a way of mapping who chooses whom — as if attraction and rejection could be drawn and then acted. The book is grandiose. It is also the object a historian can put on the table when the later legend starts talking about a man who invented the group. He did not invent the group. He named psychodrama and sociometry, built a small publishing empire at Beacon, New York, and spent decades insisting that S. R. Slavson's professional circle had stolen a word and missed a revolution.
 
-This essay is part of a WOW Therapies series on the history of group therapy. It is a life. The psychodrama rooms have their own essay in this pack. Neither piece is a lesson in role reversal, doubling, or the empty chair. Those techniques have teachers. This site is not one of them.
+This essay is part of a WOW Therapies series on the history of group therapy. It is a life. The psychodrama rooms have their own essay in this series. Neither piece is a lesson in role reversal, doubling, or the empty chair. Those techniques have teachers. This site is not one of them.
 
 ## Vienna, a stage, and a claim
 
@@ -57,7 +57,7 @@ He died at Beacon in 1974. The house style of psychodrama did not die with him. 
 
 ## What this life is not
 
-It is not a license to run a scene. History may record that Moreno used a stage and asked people to reverse roles. History may not hand the reader a script. The distinction is the claims file of this pack, not a mood.
+It is not a license to run a scene. History may record that Moreno used a stage and asked people to reverse roles. History may not hand the reader a script. The distinction is the claims file of this series, not a mood.
 
 It is also not a story in which one man owns the circle. Pratt's class, Burrow's social theory, Schilder's hospital seminar, Foulkes's matrix, Slavson's children's rooms, Lewin's T-group — they do not vanish because Beacon printed a letterhead. Moreno's usefulness is the opposite of monopoly. He named the theater that other traditions pretend is only conversation.
 

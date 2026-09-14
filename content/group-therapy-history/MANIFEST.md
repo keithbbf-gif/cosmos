@@ -17,6 +17,7 @@ Do not write to live wowtherapies.com from this folder.
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
 | `WP_IMPORT.md` | Staging import only |
 | `README.md` | Door |
+| `EDITOR_REPORT.md` | Editor pass sign-off (after `voice_check: edited`) |
 
 ## Required YAML on each article
 

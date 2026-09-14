@@ -15,7 +15,7 @@ citations:
   - "Frank, Jerome D. Papers on cohesiveness and outpatient group psychotherapy, International Journal of Group Psychotherapy, 1950s."
   - "Johns Hopkins Chesney Archives. Jerome Frank Collection (institutional biography)."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -35,11 +35,11 @@ The clinic population in those papers is not a private-practice seminar. Frank's
 
 ## Demoralization, not a slogan
 
-Frank's later short form, including "Psychotherapy: The Restoration of Morale" in the *American Journal of Psychiatry* (1974), named *demoralization* as the common distress that many therapies actually address: a loss of mastery, a sense that the future is closed. The 1961 book had already compared professional psychotherapy with other healing forms without sneering them off the table. Later editions, including work continued with his daughter Julia B. Frank, kept revising the argument. This pack cites the 1961 Johns Hopkins Press book as the dated event. Later editions are later events.
+Frank's later short form, including "Psychotherapy: The Restoration of Morale" in the *American Journal of Psychiatry* (1974), named *demoralization* as the common distress that many therapies actually address: a loss of mastery, a sense that the future is closed. The 1961 book had already compared professional psychotherapy with other healing forms without sneering them off the table. Later editions, including work continued with his daughter Julia B. Frank, kept revising the argument. This series cites the 1961 Johns Hopkins Press book as the dated event. Later editions are later events.
 
 What this means for group history is easy to overstate. Frank did not "prove group works." He treated the group as a social situation in which belonging, example, emotion, and the chance to practice a new stance in front of others might combat isolation — and in which dropout was a first fact, not an embarrassment to hide. Cohesion, in his 1957 paper, is already a research object. Later reviews (Burlingame and colleagues, Yalom's factor lists, Lieberman–Yalom–Miles 1973 on encounter casualties) are other dated objects. They do not form a single ladder with Frank as the bottom rung.
 
-He also wrote about nuclear weapons, race in Baltimore, and leadership. Those campaigns belong in a full life. This pack is the group-heritage lane. The consulting-room pack may keep other pieces of twentieth-century psychotherapy. Do not copy paragraphs across packs. The group claim here is specific: a Hopkins psychiatrist put outpatient groups into a research program and then wrote a book that made "common factors" thinkable for people who would never run a group.
+He also wrote about nuclear weapons, race in Baltimore, and leadership. Those campaigns belong in a full life. This series is the group-heritage lane. The consulting-room pack may keep other pieces of twentieth-century psychotherapy. Do not copy paragraphs across packs. The group claim here is specific: a Hopkins psychiatrist put outpatient groups into a research program and then wrote a book that made "common factors" thinkable for people who would never run a group.
 
 ## What 1961 does not license
 
