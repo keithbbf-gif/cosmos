@@ -41,3 +41,5 @@ It does not file USPTO. It does not tell you to buy a table.
 
 Forty-eight drafts, all `status: draft`. Staged for review. Not published.
 Grounding notes: `SOURCES.md`.
+
+Quality gate: `python3 content/table-extension-mechanisms/tools/check_drafts.py`
