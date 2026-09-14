@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cDeck</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="deck_more.css">
+  <style>
+    .cdeck-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-bottom: 1px solid #c8bfb0;
+      background: #f3ece2;
+      font: 13px/1.3 system-ui, sans-serif;
+    }
+    .cdeck-header h1 { margin: 0; font-size: 15px; font-weight: 700; }
+    .connbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+    .connbar label { font-size: 11px; color: #5a534a; }
+    .connbar input { font: 12px monospace; padding: 3px 6px; min-width: 140px; }
+    #connState {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      border: 1px solid #c8bfb0;
+      color: #5a534a;
+      white-space: nowrap;
+    }
+    #connState.ok { color: #1a7f37; border-color: #1a7f37; }
+    #connState.bad { color: #c41e3a; border-color: #c41e3a; }
+    .refreshbar { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+    #countdown { font-size: 11px; color: #5a534a; }
+    #countdown.paused { color: #a67c00; }
+    .cdeck-header button {
+      font: 12px system-ui, sans-serif;
+      padding: 4px 10px;
+      cursor: pointer;
+    }
+    .cdeck-header button:disabled { opacity: 0.45; cursor: not-allowed; }
+    #cdeck-mesh-fold { padding: 8px 10px; }
+  </style>
+</head>
+<body>
+<div id="cdeck-shell">
+  <header id="cdeck-header" class="cdeck-header">
+    <h1>cDeck</h1>
+    <div class="connbar">
+      <label for="apiBase">api</label>
+      <input id="apiBase" type="text" value="" spellcheck="false" autocomplete="off">
+      <label for="token">bearer</label>
+      <input id="token" type="password" value="" spellcheck="false" autocomplete="off">
+      <button type="button" id="btnConnect">CONNECT</button>
+      <span id="connState">not connected</span>
+    </div>
+    <div class="refreshbar">
+      <span id="countdown">refresh idle</span>
+      <button type="button" id="btnPause" disabled>PAUSE</button>
+      <button type="button" id="btnReload" disabled>RELOAD</button>
+    </div>
+  </header>
+  <div id="cdeck-viewport">
+    <div id="cdeck-mesh-fold">
+      <p class="mesh-hint">JACK&rsquo;S MESH COMMAND loads here.</p>
+    </div>
+    <!-- extra-pane markup (also served standalone as deck_more.html) -->
+    <div id="cdeck-more" class="deck-more-fold">
+      <div class="extra-pane-shell">
+        <nav class="deck-tabs-rail" id="deck-tab-rail" aria-label="Extra panes"></nav>
+        <div class="deck-tab-shell">
+          <div class="deck-stage" id="deck-stage"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="header.js"></script>
+<script src="app.js"></script>
+<script src="deck_tabs.js"></script>
+<script src="deck_session_kit.js"></script>
+<script src="deck_profiles.js"></script>
+<script src="deck_forge.js"></script>
+<script src="deck_backup.js"></script>
+</body>
+</html>
