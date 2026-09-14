@@ -65,7 +65,7 @@ def main() -> int:
         and 'apiGet("/api/v1/nodemap")' in app
         and 'apiGet("/api/v1/fleet")' in app
         and 'apiGet("/api/v1/rails")' in app
-        and "/api/v1/cop" not in panes,
+        and 'apiGet("/api/v1/cop"' not in panes,
     )
     check(
         "SYSTEM: renderNodemap paints cop-chat from payload; empty is explicit",

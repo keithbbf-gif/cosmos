@@ -13,6 +13,7 @@ import json
 import os
 import sys
 import tempfile
+import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -224,8 +225,9 @@ def main() -> int:
     return 0 if not bad else 1
 
 
-def test_boot_attach():
-    assert main() == 0
+class TestBootAttach(unittest.TestCase):
+    def test_boot_attach(self):
+        self.assertEqual(main(), 0)
 
 
 if __name__ == "__main__":
