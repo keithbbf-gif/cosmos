@@ -47,6 +47,38 @@ MOTIF_STAGES = (
      "hint": "Return to PROBLEM STATEMENT / STATED GOAL. Runtime-binding, not a green log."},
 )
 STAGE_IDS = frozenset(s["id"] for s in MOTIF_STAGES)
+STAGE_BY_ID = {s["id"]: s for s in MOTIF_STAGES}
+STAGE_BY_N = {s["n"]: s for s in MOTIF_STAGES}
+
+# Portfolio Studio — frozen contract (PS-01) + seven-product live fold (PS-04).
+PORTFOLIO_STUDIO_SCHEMA = "cosmos-portfolio-studio/1"
+STAGE_PROJECTION_SCHEMA = "cosmos-profiles-stage-projection/1"
+TYPED_STATE_SCHEMA = "cosmos-profiles-typed-state/1"
+TRANSITION_SCHEMA = "cosmos-profiles-transition/1"
+PORTFOLIO_PRODUCTS_SCHEMA = "cosmos-portfolio-products/1"
+
+JUKEBOX_QUEUE_WORDS = frozenset({"QUEUED", "RUNNING", "BROKE", "CLEAN", "FINDINGS"})
+STAGE_PROJECTION_LIVE_FIELDS = ("queue_word", "job_id", "heat_class")
+TYPED_STATE_LIVE_VALUES = frozenset({
+    "UNMEASURED",
+    "QUEUED",
+    "RUNNING",
+    "STALE_RUNNING",
+    "CLEAN",
+    "BROKE",
+    "FINDINGS",
+})
+
+# docs/PROFILES.md numbered order — seven canonical occupancy products.
+PORTFOLIO_PRODUCT_IDS = (
+    "ups",
+    "forge",
+    "crucible",
+    "differentiator",
+    "diligence",
+    "docket",
+    "website",
+)
 
 FORGE_DEST = (
     ("local", "Local file"),
@@ -363,6 +395,615 @@ def save_engine(paths, body: dict) -> dict:
     return snapshot(paths, profile=row["id"], rec=out)
 
 
+def _unmeasured_live_slot(field: str) -> dict:
+    """Explicit empty live slot — never 0, never inferred."""
+    return {"field": field, "kind": "UNMEASURED", "value": None}
+
+
+def motif_transition_edges() -> list[dict]:
+    """Frozen MOTIF advance edges (SAVE does not walk these)."""
+    order = [s["id"] for s in MOTIF_STAGES]
+    edges: list[dict] = []
+    for i, fr in enumerate(order):
+        to = order[(i + 1) % len(order)]
+        edges.append({"id": "%s_to_%s" % (fr, to), "from_stage": fr, "to_stage": to})
+    edges[-1]["note"] = "ITERATE returns to PROBLEM STATEMENT / STATED GOAL"
+    return edges
+
+
+def portfolio_studio_contract() -> dict:
+    """Frozen Portfolio Studio schemas (contract only until live-bound)."""
+    return {
+        "stage_projection": {
+            "schema": STAGE_PROJECTION_SCHEMA,
+            "live_fields": list(STAGE_PROJECTION_LIVE_FIELDS),
+            "queue_words": sorted(JUKEBOX_QUEUE_WORDS),
+            "stage_ids": [s["id"] for s in MOTIF_STAGES],
+        },
+        "typed_state": {
+            "schema": TYPED_STATE_SCHEMA,
+            "live_values": sorted(TYPED_STATE_LIVE_VALUES),
+            "note": "Live jukebox/MOTIF fold only. Persisted notes live in engine.stages.",
+        },
+        "transition": {
+            "schema": TRANSITION_SCHEMA,
+            "allowed_edges": motif_transition_edges(),
+            "note": "WD2/driver when bound. GET /api/v1/profiles SAVE does not advance.",
+        },
+    }
+
+
+def _portfolio_stage_projection_live() -> list[dict]:
+    rows = []
+    for s in MOTIF_STAGES:
+        row = {"stage_id": s["id"], "n": s["n"]}
+        for field in STAGE_PROJECTION_LIVE_FIELDS:
+            row[field] = _unmeasured_live_slot(field)
+        rows.append(row)
+    return rows
+
+
+def _portfolio_typed_state_live() -> list[dict]:
+    return [
+        {"stage_id": s["id"], "n": s["n"], "state": "UNMEASURED", "since": None}
+        for s in MOTIF_STAGES
+    ]
+
+
+def portfolio_studio_fold(profile_id: str) -> dict:
+    """Per-occupant Portfolio Studio contract + unbound live slots (PS-01)."""
+    return {
+        "schema": PORTFOLIO_STUDIO_SCHEMA,
+        "profile": profile_id,
+        "contract": portfolio_studio_contract(),
+        "live": {
+            "kind": "UNMEASURED",
+            "source": "UNMEASURED",
+            "stage_projection": _portfolio_stage_projection_live(),
+            "typed_state": _portfolio_typed_state_live(),
+            "transition": {
+                "current": {
+                    "kind": "UNMEASURED",
+                    "edge_id": None,
+                    "from_stage": None,
+                    "to_stage": None,
+                    "at": None,
+                },
+            },
+        },
+        "note": (
+            "Live Core jukebox heat and MOTIF driver are not bound on this route "
+            "yet. Every live slot stays UNMEASURED — never inferred."
+        ),
+    }
+
+
+def portfolio_studio_live_is_honest(live: dict) -> bool:
+    """True when every unbound live field is explicitly UNMEASURED (not 0)."""
+    if not isinstance(live, dict):
+        return False
+    if live.get("kind") != "UNMEASURED" or live.get("source") != "UNMEASURED":
+        return False
+    cur = (live.get("transition") or {}).get("current") or {}
+    if cur.get("kind") != "UNMEASURED":
+        return False
+    for n in (cur.get("edge_id"), cur.get("from_stage"), cur.get("to_stage"), cur.get("at")):
+        if n == 0:
+            return False
+    for row in live.get("stage_projection") or []:
+        if not isinstance(row, dict):
+            return False
+        for field in STAGE_PROJECTION_LIVE_FIELDS:
+            slot = row.get(field) or {}
+            if slot.get("kind") != "UNMEASURED" or slot.get("value") is not None:
+                return False
+            if slot.get("value") == 0:
+                return False
+    for row in live.get("typed_state") or []:
+        if not isinstance(row, dict):
+            return False
+        if row.get("state") != "UNMEASURED" or row.get("since") is not None:
+            return False
+        if row.get("since") == 0:
+            return False
+    return True
+
+
+def _stage_meta(n: int | None) -> dict:
+    if n is None or n not in STAGE_BY_N:
+        return {"n": None, "id": None, "name": None}
+    row = STAGE_BY_N[n]
+    return {"n": row["n"], "id": row["id"], "name": row["name"]}
+
+
+def _parse_stage_n(raw) -> int | None:
+    """Integer stage 1..9, or stage id → n. Never invents 0."""
+    if raw is None or raw == "":
+        return None
+    if isinstance(raw, bool):
+        return None
+    if isinstance(raw, (int, float)):
+        n = int(raw)
+        return n if 1 <= n <= 9 else None
+    text = str(raw).strip().lower()
+    if text in STAGE_BY_ID:
+        return STAGE_BY_ID[text]["n"]
+    try:
+        n = int(text)
+    except (TypeError, ValueError):
+        return None
+    return n if 1 <= n <= 9 else None
+
+
+def _explicit_product_tag(obj) -> str | None:
+    """Return a canonical product id only when a field explicitly names it."""
+    if not isinstance(obj, dict):
+        return None
+    for key in ("profile", "product_id", "occupancy", "Portfolio", "portfolio"):
+        v = str(obj.get(key) or "").strip().lower()
+        if v in PROFILE_IDS:
+            return v
+    # `product` on work-order public rows is an output filename — only trust
+    # it when the value itself is a canonical occupancy id.
+    prod = str(obj.get("product") or "").strip().lower()
+    if prod in PROFILE_IDS:
+        return prod
+    return None
+
+
+def _evidence(source: str, *, kind: str, seq=None, t=None,
+              stage_n: int | None = None, detail: str | None = None) -> dict:
+    meta = _stage_meta(stage_n) if kind in ("MEASURED", "BOUND") else _stage_meta(None)
+    return {
+        "source": source,
+        "kind": kind,
+        "seq": None if seq is None else int(seq),
+        "t": None if t is None else float(t),
+        "stage_n": meta["n"],
+        "stage_id": meta["id"],
+        "detail": None if not detail else str(detail)[:240],
+    }
+
+
+def _tracker_evidence(paths, product_id: str) -> dict:
+    dest = paths.state("motif_tracker.json")
+    if not dest.is_file():
+        return _evidence("tracker", kind="NO_SOURCE",
+                         detail="motif_tracker.json absent")
+    try:
+        body = json.loads(dest.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        return _evidence("tracker", kind="BROKE", detail=str(e)[:160])
+    rows = body.get("rows") if isinstance(body, dict) else None
+    if not isinstance(rows, list):
+        return _evidence("tracker", kind="BROKE", detail="rows missing")
+    gen = body.get("generated_epoch")
+    t = float(gen) if isinstance(gen, (int, float)) else None
+    tagged = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        tag = _explicit_product_tag(row)
+        if tag is None and str(row.get("slug") or "").strip().lower() == product_id:
+            tag = product_id
+        if tag == product_id:
+            tagged.append(row)
+    if not tagged:
+        if rows:
+            return _evidence(
+                "tracker", kind="UNATTRIBUTED", t=t,
+                detail="tracker present; no row tags this product",
+            )
+        return _evidence("tracker", kind="NO_SOURCE", detail="tracker empty")
+    row = tagged[-1]
+    n = _parse_stage_n(row.get("current_stage"))
+    if n is None:
+        return _evidence(
+            "tracker", kind="UNMEASURED", t=t,
+            detail="tagged row has no motif-9 current_stage",
+        )
+    meta = _stage_meta(n)
+    return _evidence(
+        "tracker", kind="MEASURED", t=t, stage_n=meta["n"],
+        detail="slug=%s current_stage=%s id=%s" % (
+            row.get("slug"), meta["n"], meta["id"]),
+    )
+
+
+def _ledger_evidence(ledger, product_id: str) -> dict:
+    if ledger is None:
+        return _evidence("ledger", kind="NO_SOURCE", detail="ledger not composed")
+    try:
+        recs = list(ledger.verify())
+    except Exception as e:  # noqa: BLE001
+        return _evidence("ledger", kind="BROKE", detail=str(e)[:160])
+    if not recs:
+        return _evidence("ledger", kind="NO_SOURCE", detail="ledger empty")
+    best = None
+    saw_any = False
+    for rec in recs:
+        if not isinstance(rec, dict):
+            continue
+        payload = rec.get("payload") if isinstance(rec.get("payload"), dict) else {}
+        tag = _explicit_product_tag(payload)
+        if tag != product_id:
+            continue
+        saw_any = True
+        n = _parse_stage_n(
+            payload.get("stage_n")
+            if payload.get("stage_n") is not None
+            else payload.get("motif_stage")
+            if payload.get("motif_stage") is not None
+            else payload.get("stage")
+            if payload.get("stage") is not None
+            else payload.get("stage_id")
+        )
+        cand = {
+            "kind": "MEASURED" if n is not None else "UNMEASURED",
+            "seq": rec.get("seq"),
+            "t": rec.get("t"),
+            "stage_n": n,
+            "event": rec.get("event"),
+        }
+        if best is None or int(cand.get("seq") or 0) >= int(best.get("seq") or 0):
+            best = cand
+    if not best:
+        return _evidence(
+            "ledger", kind="UNATTRIBUTED" if saw_any or recs else "NO_SOURCE",
+            detail=("ledger present; no payload tags this product"
+                    if recs else "ledger empty"),
+        )
+    if best["kind"] != "MEASURED":
+        return _evidence(
+            "ledger", kind="UNMEASURED",
+            seq=best.get("seq"), t=best.get("t"),
+            detail="tagged payload without motif-9 stage",
+        )
+    meta = _stage_meta(best["stage_n"])
+    return _evidence(
+        "ledger", kind="MEASURED",
+        seq=best.get("seq"), t=best.get("t"), stage_n=meta["n"],
+        detail="event=%s stage n=%s id=%s" % (
+            best.get("event"), meta["n"], meta["id"]),
+    )
+
+
+def _work_order_evidence(paths, product_id: str) -> dict:
+    try:
+        from cosmos_work_order import fold_work_orders, work_order_dirs_ro
+    except Exception as e:  # noqa: BLE001
+        return _evidence("work_order", kind="BROKE", detail=str(e)[:160])
+    try:
+        fold = fold_work_orders(paths, limit=64)
+    except Exception as e:  # noqa: BLE001
+        return _evidence("work_order", kind="BROKE", detail=str(e)[:160])
+    n_total = int(fold.get("n_total") or 0)
+    # Prefer explicit profile tags on the live folder JSON (six-field SOP has
+    # no profile; additive profile/product_id is the only honest tag).
+    tagged = []
+    try:
+        dirs = work_order_dirs_ro(paths)
+    except Exception:  # noqa: BLE001
+        dirs = {}
+    for folder, d in (dirs.items() if isinstance(dirs, dict) else []):
+        if not hasattr(d, "is_dir") or not d.is_dir():
+            continue
+        try:
+            names = list(d.iterdir())
+        except OSError:
+            continue
+        for p in names:
+            if not p.is_file() or p.suffix.lower() != ".json":
+                continue
+            if p.name.startswith("_") or p.name.endswith(".tmp"):
+                continue
+            try:
+                raw = json.loads(p.read_text(encoding="utf-8"))
+            except (OSError, ValueError, UnicodeDecodeError):
+                continue
+            if not isinstance(raw, dict):
+                continue
+            if _explicit_product_tag(raw) != product_id:
+                continue
+            tagged.append(raw)
+    if not tagged:
+        if n_total > 0:
+            return _evidence(
+                "work_order", kind="UNATTRIBUTED",
+                detail="work orders present; none tag this product",
+            )
+        return _evidence("work_order", kind="NO_SOURCE",
+                         detail="no work orders")
+    last = sorted(
+        tagged,
+        key=lambda r: str(
+            r.get("picked_at") or r.get("filed_at")
+            or r.get("dropped_at") or r.get("Timestamp") or ""
+        ),
+    )[-1]
+    n = _parse_stage_n(
+        last.get("stage_n")
+        if last.get("stage_n") is not None
+        else last.get("stage")
+        if last.get("stage") is not None
+        else last.get("stage_id")
+    )
+    ts = last.get("picked_at") or last.get("filed_at") or last.get("Timestamp")
+    t = None
+    if isinstance(ts, (int, float)):
+        t = float(ts)
+    if n is None:
+        return _evidence(
+            "work_order", kind="UNMEASURED", t=t,
+            detail="order %s tags product but not motif-9 stage"
+            % (last.get("order_id") or last.get("id")),
+        )
+    meta = _stage_meta(n)
+    return _evidence(
+        "work_order", kind="MEASURED", t=t, stage_n=meta["n"],
+        detail="order=%s stage n=%s id=%s" % (
+            last.get("order_id"), meta["n"], meta["id"]),
+    )
+
+
+def _lease_evidence(paths, product_id: str) -> dict:
+    try:
+        from cosmos_ccr import read_lease
+        lease = read_lease(paths)
+    except Exception as e:  # noqa: BLE001
+        return _evidence("lease", kind="BROKE", detail=str(e)[:160])
+    if not lease:
+        return _evidence("lease", kind="NO_SOURCE", detail="CCR.lease absent")
+    t = float(lease.get("taken_at") or 0) or None
+    # One occupant / one CCr pen: lease names the coding (forge) writer only.
+    tag = _explicit_product_tag(lease)
+    if tag is None and product_id == "forge":
+        tag = "forge"
+    if tag != product_id:
+        return _evidence(
+            "lease", kind="UNATTRIBUTED", t=t,
+            detail="lease does not tag product %s" % product_id,
+        )
+    n = _parse_stage_n(
+        lease.get("stage_n")
+        if lease.get("stage_n") is not None
+        else lease.get("stage")
+    )
+    if n is None:
+        return _evidence(
+            "lease", kind="UNMEASURED", t=t,
+            detail="CCR held sid=%s stream=%s; no motif-9 stage"
+            % (lease.get("sid"), lease.get("stream")),
+        )
+    meta = _stage_meta(n)
+    return _evidence(
+        "lease", kind="MEASURED", t=t, stage_n=meta["n"],
+        detail="CCR held stage n=%s id=%s" % (meta["n"], meta["id"]),
+    )
+
+
+def _scheduler_evidence(paths, product_id: str) -> dict:
+    assigned_p = paths.state("watchdog2", "assigned.json")
+    inflight_p = paths.state("inflight.jsonl")
+    detail_parts = []
+    stage_n = None
+    source_t = None
+    tagged = False
+    if assigned_p.is_file():
+        try:
+            assigned = json.loads(assigned_p.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            assigned = None
+        if isinstance(assigned, dict):
+            source_t = float(
+                assigned.get("updated_at") or assigned.get("t") or 0
+            ) or source_t
+            if _explicit_product_tag(assigned) == product_id:
+                tagged = True
+                detail_parts.append("assigned.json tags product")
+                stage_n = _parse_stage_n(
+                    assigned.get("stage_n")
+                    if assigned.get("stage_n") is not None
+                    else assigned.get("stage")
+                    if assigned.get("stage") is not None
+                    else assigned.get("current_stage")
+                )
+            jobs = assigned.get("jobs") if isinstance(assigned.get("jobs"), list) else []
+            for job in jobs:
+                if not isinstance(job, dict):
+                    continue
+                if _explicit_product_tag(job) != product_id:
+                    continue
+                tagged = True
+                detail_parts.append("assigned job tags product")
+                stage_n = _parse_stage_n(
+                    job.get("stage_n")
+                    if job.get("stage_n") is not None
+                    else job.get("stage")
+                ) or stage_n
+    if inflight_p.is_file():
+        try:
+            from cosmos_inflight import Inflight
+            active = Inflight(inflight_p).active()
+        except Exception:  # noqa: BLE001
+            active = {}
+        for token, rec in (active.items() if isinstance(active, dict) else []):
+            if not isinstance(rec, dict):
+                continue
+            tag = _explicit_product_tag(rec)
+            slug = str(rec.get("slug") or "").strip().lower()
+            if tag is None and slug == product_id:
+                tag = product_id
+            if tag != product_id:
+                continue
+            tagged = True
+            detail_parts.append("inflight %s" % token)
+            source_t = float(rec.get("at") or 0) or source_t
+            stage_n = _parse_stage_n(
+                rec.get("stage") if rec.get("stage") is not None else rec.get("stage_n")
+            ) or stage_n
+    if not tagged:
+        present = assigned_p.is_file() or inflight_p.is_file()
+        return _evidence(
+            "scheduler",
+            kind="UNATTRIBUTED" if present else "NO_SOURCE",
+            detail=("scheduler present; no row tags this product"
+                    if present else "assigned/inflight absent"),
+        )
+    if stage_n is None:
+        return _evidence(
+            "scheduler", kind="UNMEASURED", t=source_t,
+            detail="; ".join(detail_parts) or "tagged without stage",
+        )
+    meta = _stage_meta(stage_n)
+    return _evidence(
+        "scheduler", kind="MEASURED", t=source_t, stage_n=meta["n"],
+        detail="; ".join(detail_parts) + " stage n=%s id=%s" % (meta["n"], meta["id"]),
+    )
+
+
+def _pick_stage_fold(evidence: list[dict]) -> dict:
+    """Measured/bound motif-9 fold, or typed non-measurement. Never n=0."""
+    measured = [
+        e for e in evidence
+        if e.get("kind") == "MEASURED" and e.get("stage_n") in STAGE_BY_N
+    ]
+    if measured:
+        # Prefer ledger > work_order > scheduler > tracker > lease.
+        rank = {"ledger": 0, "work_order": 1, "scheduler": 2, "tracker": 3, "lease": 4}
+        measured.sort(key=lambda e: (
+            rank.get(e.get("source"), 99),
+            -(e.get("seq") or -1),
+            -(e.get("t") or -1.0),
+        ))
+        primary = measured[0]
+        agree = [e for e in measured if e.get("stage_n") == primary.get("stage_n")]
+        kind = "BOUND" if len({e.get("source") for e in agree}) >= 2 else "MEASURED"
+        meta = _stage_meta(primary.get("stage_n"))
+        # Prefer ledger seq/t for refuse watermark when present among agreers.
+        watermark = primary
+        for e in agree:
+            if e.get("source") == "ledger" and e.get("seq") is not None:
+                watermark = e
+                break
+        return {
+            "kind": kind,
+            "contract": "motif-9",
+            "n": meta["n"],
+            "id": meta["id"],
+            "name": meta["name"],
+            "source": primary.get("source"),
+            "sources": sorted({e.get("source") for e in agree}),
+            "seq": watermark.get("seq"),
+            "t": watermark.get("t"),
+        }
+    order = ("ledger", "work_order", "scheduler", "tracker", "lease")
+    for src in order:
+        ev = next((e for e in evidence if e.get("source") == src), None)
+        if ev and ev.get("kind") in ("UNATTRIBUTED", "UNMEASURED", "BROKE"):
+            return {
+                "kind": ev["kind"],
+                "contract": "motif-9",
+                "n": None,
+                "id": None,
+                "name": None,
+                "source": src,
+                "sources": [src],
+                "seq": ev.get("seq"),
+                "t": ev.get("t"),
+            }
+    return {
+        "kind": "UNMEASURED",
+        "contract": "motif-9",
+        "n": None,
+        "id": None,
+        "name": None,
+        "source": None,
+        "sources": [],
+        "seq": None,
+        "t": None,
+    }
+
+
+def _occupant_fold(product_id: str, lease_ev: dict) -> dict:
+    """One occupant per profile. Lease only binds forge unless tagged."""
+    if (lease_ev.get("kind") in ("MEASURED", "UNMEASURED")
+            and lease_ev.get("source") == "lease"):
+        # Tagged/held lease for this product — occupancy measured; stage may not be.
+        return {
+            "kind": "MEASURED",
+            "profile": product_id,
+            "source": "lease",
+            "seq": lease_ev.get("seq"),
+            "t": lease_ev.get("t"),
+            "detail": lease_ev.get("detail"),
+        }
+    if lease_ev.get("kind") == "UNATTRIBUTED":
+        return {
+            "kind": "UNATTRIBUTED",
+            "profile": product_id,
+            "source": "lease",
+            "seq": lease_ev.get("seq"),
+            "t": lease_ev.get("t"),
+            "detail": lease_ev.get("detail"),
+        }
+    return {
+        "kind": "UNMEASURED",
+        "profile": product_id,
+        "source": None,
+        "seq": None,
+        "t": None,
+        "detail": "one occupant per profile; no lease tags this product",
+    }
+
+
+def portfolio_projection(paths, *, ledger=None) -> dict:
+    """Seven-product live fold from tracker/ledger/scheduler/lease/WO only.
+
+    GET never mkdir. No second store. Untagged → UNATTRIBUTED. Absent →
+    UNMEASURED (never 0). refuse_inference_after carries source seq/time.
+    """
+    products = []
+    for pid in PORTFOLIO_PRODUCT_IDS:
+        row = next(p for p in PROFILES if p["id"] == pid)
+        tracker_ev = _tracker_evidence(paths, pid)
+        ledger_ev = _ledger_evidence(ledger, pid)
+        wo_ev = _work_order_evidence(paths, pid)
+        lease_ev = _lease_evidence(paths, pid)
+        sched_ev = _scheduler_evidence(paths, pid)
+        evidence = [tracker_ev, ledger_ev, sched_ev, lease_ev, wo_ev]
+        stage = _pick_stage_fold(evidence)
+        occupant = _occupant_fold(pid, lease_ev)
+        refuse = {
+            "seq": stage.get("seq"),
+            "t": stage.get("t"),
+            "source": stage.get("source"),
+            "stage_kind": stage.get("kind"),
+        }
+        products.append({
+            "id": pid,
+            "label": row["label"],
+            "profile": pid,
+            "stage": stage,
+            "occupant": occupant,
+            "evidence": evidence,
+            "refuse_inference_after": refuse,
+        })
+    return {
+        "schema": PORTFOLIO_PRODUCTS_SCHEMA,
+        "stage_contract": "motif-9",
+        "n_products": len(products),
+        "product_ids": list(PORTFOLIO_PRODUCT_IDS),
+        "products": products,
+        "note": (
+            "Portfolio Studio seven-product live projection. Joins tracker, "
+            "ledger, scheduler, lease, and work-order evidence only. Untagged "
+            "is UNATTRIBUTED. Absent is UNMEASURED — never 0. Client must "
+            "refuse inference past refuse_inference_after seq/time."
+        ),
+    }
+
+
 def _bg_fold(paths, profile_id: str) -> dict:
     if profile_id != "forge":
         return {"kind": "SKIP"}
@@ -373,10 +1014,12 @@ def _bg_fold(paths, profile_id: str) -> dict:
         return {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
 
 
-def snapshot(paths, *, profile: str = "", rec=None) -> dict:
+def snapshot(paths, *, profile: str = "", rec=None, ledger=None) -> dict:
     pid = str(profile or "").strip().lower() or DEFAULT_PROFILE
     row = _profile(pid)
     engine = rec if rec is not None else load_engine(paths, row["id"])
+    portfolio = portfolio_projection(paths, ledger=ledger)
+    active = next((p for p in portfolio["products"] if p["id"] == row["id"]), None)
     return {
         "schema": SCHEMA,
         "ok": True,
@@ -399,10 +1042,13 @@ def snapshot(paths, *, profile: str = "", rec=None) -> dict:
         "implement_was": "IMPROVE",
         "does_not_start_motif": True,
         "does_not_publish": True,
+        "portfolio_studio": portfolio_studio_fold(row["id"]),
+        "portfolio": portfolio,
+        "portfolio_product": active,
         "note": (
             "Per-profile MOTIF skins. Website GC IMPLEMENT dest is staged / "
             "sandbox / publish / Gitur. SAVE does not start MOTIF and does "
-            "not publish."
+            "not publish. portfolio is the seven-product live projection."
         ),
     }
 
@@ -520,6 +1166,61 @@ def _selftest() -> int:
     check("Website GC skin left tabs are the 9 MOTIF stages",
           lambda: web_tabs[0] == "define" and web_tabs[-1] == "iterate"
           and len(web_tabs) == 9)
+    ps = snap.get("portfolio_studio") or {}
+    check("Portfolio Studio contract frozen on profiles GET",
+          lambda: ps.get("schema") == PORTFOLIO_STUDIO_SCHEMA
+          and len((ps.get("contract") or {}).get("transition", {}).get("allowed_edges") or []) == 9
+          and (ps.get("contract") or {}).get("stage_projection", {}).get("stage_ids")
+          == [s["id"] for s in MOTIF_STAGES])
+    check("Portfolio Studio live fold is UNMEASURED (never inferred, never 0)",
+          lambda: portfolio_studio_live_is_honest(ps.get("live") or {}))
+    pf = snap.get("portfolio") or {}
+    check("portfolio projection lists seven canonical products UNMEASURED",
+          lambda: pf.get("n_products") == 7
+          and pf.get("stage_contract") == "motif-9"
+          and pf.get("schema") == PORTFOLIO_PRODUCTS_SCHEMA
+          and list(pf.get("product_ids") or []) == list(PORTFOLIO_PRODUCT_IDS)
+          and {p["id"] for p in (pf.get("products") or [])} == set(PORTFOLIO_PRODUCT_IDS)
+          and all(p["stage"]["kind"] == "UNMEASURED" and p["stage"]["n"] is None
+                  for p in (pf.get("products") or []))
+          and all(p["refuse_inference_after"]["stage_kind"] == "UNMEASURED"
+                  for p in (pf.get("products") or [])))
+    check("legacy profiles[] + engine + does_not_* unchanged with portfolio",
+          lambda: isinstance(snap.get("profiles"), list)
+          and isinstance(snap.get("engine"), dict)
+          and snap.get("does_not_start_motif") is True
+          and snap.get("does_not_publish") is True
+          and snap.get("portfolio_product", {}).get("id") == "website")
+    from cosmos_kernel import Kernel
+    k = Kernel(root, worker="profiles-selftest")
+    k.ledger.append("MOTIF_STAGE", {
+        "profile": "forge", "stage": "research", "stage_n": 2,
+    })
+    pf2 = portfolio_projection(paths, ledger=k.ledger)
+    forge_row = next(p for p in pf2["products"] if p["id"] == "forge")
+    check("ledger-bound stage fold is measured with seq/time for client refuse",
+          lambda: forge_row["stage"]["kind"] == "MEASURED"
+          and forge_row["stage"]["n"] == 2
+          and forge_row["stage"]["id"] == "research"
+          and forge_row["refuse_inference_after"]["seq"] is not None
+          and forge_row["refuse_inference_after"]["t"] is not None
+          and forge_row["refuse_inference_after"]["seq"] != 0)
+    # Tracker slug==product id is explicit identity; inventing website→cdeck is not.
+    paths.state("motif_tracker.json").write_text(json.dumps({
+        "schema": "cosmos-motif-tracker/1",
+        "generated_epoch": 1_700_000_000,
+        "rows": [
+            {"slug": "website", "current_stage": 3, "profile": "website"},
+            {"slug": "cdeck", "current_stage": 5},
+        ],
+    }), encoding="utf-8")
+    pf3 = portfolio_projection(paths, ledger=None)
+    web_row = next(p for p in pf3["products"] if p["id"] == "website")
+    check("tracker binds only when slug/profile tags the product (no invented map)",
+          lambda: web_row["stage"]["kind"] == "MEASURED"
+          and web_row["stage"]["n"] == 3
+          and web_row["stage"]["id"] == "arch"
+          and web_row["refuse_inference_after"]["t"] == 1_700_000_000.0)
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:

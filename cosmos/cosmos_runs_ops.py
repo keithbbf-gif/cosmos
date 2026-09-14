@@ -214,6 +214,12 @@ def snapshot(kernel) -> dict:
         gitur_pub = {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
     recents = _recents(paths)
     orders = _work_orders(paths)
+    try:
+        from cosmos_profiles import portfolio_projection
+        portfolio = portfolio_projection(
+            paths, ledger=getattr(kernel, "ledger", None))
+    except Exception as e:  # noqa: BLE001
+        portfolio = {"kind": "BROKE", "detail": f"{type(e).__name__}: {e}"[:200]}
     streams = []
     ccr = gitur_pub.get("ccr") if isinstance(gitur_pub, dict) else None
     if isinstance(ccr, dict) and ccr.get("held"):
@@ -248,14 +254,16 @@ def snapshot(kernel) -> dict:
         "voice": _voice(kernel),
         "gitur": gitur_pub,
         "products": (orders.get("recent") if isinstance(orders, dict) else []),
+        "portfolio": portfolio,
         "spend": _spend(kernel),
         "mesh": {
             "note": ("Activity feed is GET /events on the Runs EVENTS column — "
                      "the same ledger tail JACK'S MESH paints. Not a second feed."),
         },
         "note": (
-            "Fold of heartbeats, recents, work_orders, gitur, spend. "
-            "Does not poll vendors. Token counts stay UNMEASURED until a meter writes them."
+            "Fold of heartbeats, recents, work_orders, gitur, spend, portfolio. "
+            "Does not poll vendors. Token counts stay UNMEASURED until a meter writes them. "
+            "portfolio is the seven-product live projection (not work_orders.recent)."
         ),
     }
 
@@ -293,10 +301,19 @@ def _selftest() -> int:
     check("fold names watchdog clocks streams voice gitur spend products mesh",
           lambda: all(k in rec for k in (
               "watchdog", "clocks", "work_orders", "streams",
-              "voice", "gitur", "products", "spend", "mesh"))
+              "voice", "gitur", "products", "portfolio", "spend", "mesh"))
           and rec["voice"].get("sgh_voice_loop") is False
           and rec["spend"]["meters"] == []
           and rec["spend"]["kind"] == "NO_SOURCE")
+    pf = rec.get("portfolio") or {}
+    check("portfolio names seven products; stages UNMEASURED not 0",
+          lambda: pf.get("n_products") == 7
+          and len(pf.get("products") or []) == 7
+          and pf.get("stage_contract") == "motif-9"
+          and all(p.get("stage", {}).get("n") is None
+                  and p.get("stage", {}).get("kind") == "UNMEASURED"
+                  and "refuse_inference_after" in p
+                  for p in (pf.get("products") or [])))
 
     failed = [(l, e) for l, ok, e in results if not ok]
     for label, ok, err in results:
