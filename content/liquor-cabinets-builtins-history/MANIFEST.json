@@ -1,0 +1,447 @@
+{
+  "drafts": [
+    {
+      "file": "00-01-furniture-problem.md",
+      "id": "lcbh-00-01",
+      "title": "The liquor cabinet is a furniture problem",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 730,
+      "educational_claim": "A liquor cabinet is not a lifestyle accessory. It is a case that has to hold bottles, glass, and a person's habits without lying about water, weight, or light."
+    },
+    {
+      "file": "00-02-three-objects.md",
+      "id": "lcbh-00-02",
+      "title": "Three objects that keep getting one name",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 824,
+      "educational_claim": "Cellarette, liquor cabinet, and built-in bar are three different assignments of movement, water, and the building. Using one word for all three is how rooms get the wrong object."
+    },
+    {
+      "file": "00-03-who-is-talking.md",
+      "id": "lcbh-00-03",
+      "title": "Who is talking, and what this shop will not invent",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 756,
+      "educational_claim": "A custom furniture shop can teach bars as casework. It cannot narrate a plumbing license it does not hold or a celebrity cabinet that is not on the public record."
+    },
+    {
+      "file": "00-04-stolen-words.md",
+      "id": "lcbh-00-04",
+      "title": "Wet, dry, cocktail, pantry \u2014 words that got stolen",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 826,
+      "educational_claim": "Wet bar, dry bar, cocktail cabinet, and butler's pantry used to describe water, work, and a room. After lifestyle copy, they often describe a feeling."
+    },
+    {
+      "file": "01-05-little-cellars.md",
+      "id": "lcbh-01-05",
+      "title": "Little cellars \u2014 the cellarette as a dining-room machine",
+      "stage": "01-georgian",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 784,
+      "educational_claim": "A cellarette is a little cellar brought upstairs so bottles could live in the dining room, move to the table, and keep the evening from sending someone down the stairs."
+    },
+    {
+      "file": "01-06-cisterns-liners.md",
+      "id": "lcbh-01-06",
+      "title": "Cisterns, coolers, and the metal that held the ice",
+      "stage": "01-georgian",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 863,
+      "educational_claim": "Historic wine furniture is a wood case around a wet liner. The liner \u2014 lead, zinc, copper, sometimes marble \u2014 is the real climate. Lead is a museum fact, not a specification."
+    },
+    {
+      "file": "01-07-adam-pedestals.md",
+      "id": "lcbh-01-07",
+      "title": "Adam's pedestals and the urn that was a bottle store",
+      "stage": "01-georgian",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 776,
+      "educational_claim": "The 1760s dining-room set \u2014 side-table, pedestals, urns \u2014 hid bottle storage and plate-warming in architecture. The fitted sideboard was the smaller room's answer to that set."
+    },
+    {
+      "file": "01-08-hepplewhite-sheraton.md",
+      "id": "lcbh-01-08",
+      "title": "Hepplewhite, Sheraton, and the cellaret sideboard",
+      "stage": "01-georgian",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 790,
+      "educational_claim": "The 1788 Guide and Sheraton's Drawing-Book turned bottle storage into a drawn, repeatable sideboard interior \u2014 partitions, wells, plugs \u2014 that shops could build without inventing the form each time."
+    },
+    {
+      "file": "01-09-sarcophagus.md",
+      "id": "lcbh-01-09",
+      "title": "Why a wine box wanted to look like a tomb",
+      "stage": "01-georgian",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 787,
+      "educational_claim": "Regency cellarettes often took the sarcophagus \u2014 a stone-coffin silhouette \u2014 because neoclassical taste dressed utility as antiquity. The grave look is style, not a secret meaning, and it still fights a dining-room chair."
+    },
+    {
+      "file": "01-10-locks-keys.md",
+      "id": "lcbh-01-10",
+      "title": "Locks, decanters, and who kept the key",
+      "stage": "01-georgian",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 822,
+      "educational_claim": "Historic drink furniture locked because wine was money and staffed houses leaked. A lock on a new cabinet is a household decision, not a speakeasy costume."
+    },
+    {
+      "file": "02-11-american-performance.md",
+      "id": "lcbh-02-11",
+      "title": "When the American dining room became a performance",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 759,
+      "educational_claim": "Early-nineteenth-century American dining rooms grew as display rooms. The cellarette and sideboard are props in that performance, not extras."
+    },
+    {
+      "file": "02-12-sargent-dinner-party.md",
+      "id": "lcbh-02-12",
+      "title": "Henry Sargent's Dinner Party \u2014 the cellarette in the picture",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 713,
+      "educational_claim": "Sargent's 1821 Dinner Party at the MFA is primary evidence: a Boston dining room with the wine furniture at the table, working, not decorating."
+    },
+    {
+      "file": "02-13-regional-cellarettes.md",
+      "id": "lcbh-02-13",
+      "title": "New York, Boston, Charleston \u2014 regional cellarettes",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 707,
+      "educational_claim": "American cellarettes shared a job and picked up regional shops, woods, and climates. A city name is not a personality. It is a workshop and a weather."
+    },
+    {
+      "file": "02-14-sideboard-stage.md",
+      "id": "lcbh-02-14",
+      "title": "The sideboard as an American stage",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 716,
+      "educational_claim": "The sideboard is the dining room's stage wall. In Federal and Empire America it held plate, linen, and a dock for the cellarette. A liquor cabinet that ignores the sideboard is ignoring the room's original bar."
+    },
+    {
+      "file": "02-15-victorian-mass.md",
+      "id": "lcbh-02-15",
+      "title": "Victorian carving and the bottle that hid underneath",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 724,
+      "educational_claim": "Victorian sideboards kept the cellarette job and buried it under carving, plate, and mass. The bottles did not leave. They went downstairs in the piece."
+    },
+    {
+      "file": "02-16-butlers-pantry.md",
+      "id": "lcbh-02-16",
+      "title": "The butler's pantry is a wet room, not a lifestyle",
+      "stage": "02-american-dining",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 717,
+      "educational_claim": "A historic butler's pantry is a service room between kitchen and dining \u2014 sink, china, glass, silver. The modern revival is often display. Keep the jobs from swapping clothes."
+    },
+    {
+      "file": "03-17-lockable-before.md",
+      "id": "lcbh-03-17",
+      "title": "A lockable cabinet before anyone called it rebellious",
+      "stage": "03-concealment",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 795,
+      "educational_claim": "Lockable drink furniture existed for a century as ordinary inventory control. Prohibition did not invent the lock. It changed what the lock was lying about."
+    },
+    {
+      "file": "03-18-prohibition-brief.md",
+      "id": "lcbh-03-18",
+      "title": "Prohibition as a design brief",
+      "stage": "03-concealment",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 722,
+      "educational_claim": "From January 17, 1920, to December 5, 1933, some households asked furniture to look ordinary. That is a brief. It is not a license to invent a nation of trick bookcases."
+    },
+    {
+      "file": "03-19-innocent-furniture.md",
+      "id": "lcbh-03-19",
+      "title": "Bookcases, radios, and furniture that practiced looking innocent",
+      "stage": "03-concealment",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 728,
+      "educational_claim": "Concealment furniture borrowed the silhouettes already in the parlor \u2014 bookcase, radio, sideboard \u2014 because innocence is a shape people already trusted."
+    },
+    {
+      "file": "03-20-art-deco-cabinet.md",
+      "id": "lcbh-03-20",
+      "title": "The Art Deco cocktail cabinet",
+      "stage": "03-concealment",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 769,
+      "educational_claim": "The 1920s\u201330s cocktail cabinet is a fitted machine for mixing at home \u2014 veneer, lacquer, chrome, glass, a drop or a slide \u2014 and it is a form, not a brand."
+    },
+    {
+      "file": "03-21-repeal-homework.md",
+      "id": "lcbh-03-21",
+      "title": "Repeal night and the new homework of mixing",
+      "stage": "03-concealment",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 680,
+      "educational_claim": "Repeal on December 5, 1933, did not invent the home cocktail. It made the homework public, and furniture was allowed to be a mixing station instead of a hide."
+    },
+    {
+      "file": "04-22-fitted-machine.md",
+      "id": "lcbh-04-22",
+      "title": "The fitted cocktail machine of the 1930s",
+      "stage": "04-home-bar",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 637,
+      "educational_claim": "1930s bar furniture is an interior architecture of small parts \u2014 racks, wells, leaves, lights \u2014 closer to a fitted kitchen than to a chest of drawers."
+    },
+    {
+      "file": "04-23-bar-cart.md",
+      "id": "lcbh-04-23",
+      "title": "Wheels \u2014 the bar cart as hospitality",
+      "stage": "04-home-bar",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 659,
+      "educational_claim": "A bar cart is a cellarette that got taller and thinner. Mobility is the job. If it cannot roll and stop, it is a shelf with wheels for a photograph."
+    },
+    {
+      "file": "04-24-credenza-bars.md",
+      "id": "lcbh-04-24",
+      "title": "Credenzas that opened into a party",
+      "stage": "04-home-bar",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 658,
+      "educational_claim": "A mid-century credenza bar is a dry cabinet that kept parlor manners on the outside and a cocktail interior on the inside. The surprise is a door, not a trick latch."
+    },
+    {
+      "file": "04-25-rec-room-wet-bar.md",
+      "id": "lcbh-04-25",
+      "title": "The suburban wet bar and the rec room",
+      "stage": "04-home-bar",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 648,
+      "educational_claim": "The postwar rec-room wet bar is plumbing plus a counter in a room invented for informal company. It is a built-in habit, not a piece of parlor furniture."
+    },
+    {
+      "file": "04-26-paneled-dens.md",
+      "id": "lcbh-04-26",
+      "title": "Paneled dens, sunken floors, and the 1970s bar",
+      "stage": "04-home-bar",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 660,
+      "educational_claim": "1970s den bars doubled down on room-as-tavern: dark paneling, mirrors, sunken floors. The furniture became interior architecture, and the architecture has a step you can miss in the dark."
+    },
+    {
+      "file": "04-27-hotel-brass.md",
+      "id": "lcbh-04-27",
+      "title": "Hotel brass leaking into the house",
+      "stage": "04-home-bar",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 653,
+      "educational_claim": "Brass footrails, speed rails, and back-bar mirrors are restaurant parts. A house can borrow them if it borrows the wipe-down. They are not required for a liquor cabinet."
+    },
+    {
+      "file": "05-28-furniture-vs-builtin.md",
+      "id": "lcbh-05-28",
+      "title": "Furniture against a built-in \u2014 the joint that decides",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 622,
+      "educational_claim": "A piece of furniture is finished as an object and can leave on a truck. A built-in is scribed to the building. The joint, the back, and the calendar decide which one you asked for."
+    },
+    {
+      "file": "05-29-wet-bar-plumbing.md",
+      "id": "lcbh-05-29",
+      "title": "A wet bar is plumbing that hired a cabinetmaker",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 602,
+      "educational_claim": "Wet means supply, waste, and a basin. The wood is a jacket around a licensed wet trade. Draw the drain before you draw the door."
+    },
+    {
+      "file": "05-30-honest-dry.md",
+      "id": "lcbh-05-30",
+      "title": "The honest dry cabinet",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 611,
+      "educational_claim": "A dry liquor cabinet is casegoods: no basin, no drain, a landing, a fitted interior. It is the object a furniture shop can put on a truck without hiring a plumber."
+    },
+    {
+      "file": "05-31-pantry-revival.md",
+      "id": "lcbh-05-31",
+      "title": "Butler's pantry revival versus the living-room bar",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 607,
+      "educational_claim": "A modern \"butler's pantry\" is often a second kitchen or a display corridor. A living-room bar is hospitality in the sitting room. Putting both words on one wall usually ruins both jobs."
+    },
+    {
+      "file": "05-32-kitchen-adjacent.md",
+      "id": "lcbh-05-32",
+      "title": "When the kitchen ate the dining room and kept the bottles",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 617,
+      "educational_claim": "Open kitchens absorbed the dining-room performance. Bottles landed on islands and in appliance garages. That is convenient and hostile to furniture, labels, and heat."
+    },
+    {
+      "file": "05-33-contemporary-millwork.md",
+      "id": "lcbh-05-33",
+      "title": "Glass, stone, LED \u2014 the contemporary millwork bar",
+      "stage": "05-builtin",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 670,
+      "educational_claim": "A contemporary millwork bar is a built-in of glass doors, stone, and light. The glow is easy. The heat, the reflections, and the stone edge are the job."
+    },
+    {
+      "file": "06-34-bottle-geometry.md",
+      "id": "lcbh-06-34",
+      "title": "Bottle geometry \u2014 measure the object, then draw the box",
+      "stage": "06-shop",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 640,
+      "educational_claim": "A 750 ml bottle is roughly a foot tall and three inches across, until it is not. Cabinets fail when they are drawn from a mood board instead of the client's bottles."
+    },
+    {
+      "file": "06-35-glassware-rattle.md",
+      "id": "lcbh-06-35",
+      "title": "Glassware, stems, and the rattle",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 611,
+      "educational_claim": "Stemware is taller than memory and louder than a drawing. Hanging racks steal height. Thin cases rattle. Design the glass as a second collection, not as a decoration."
+    },
+    {
+      "file": "06-36-light-without-cooking.md",
+      "id": "lcbh-06-36",
+      "title": "Seeing the bottles without cooking them",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 732,
+      "educational_claim": "Interior light is heat and spectrum. LED is the current low-heat habit. A cabinet is not a display case at a fair. If you can cook a label, you designed a lamp, not a bar."
+    },
+    {
+      "file": "06-37-hardware-ghost.md",
+      "id": "lcbh-06-37",
+      "title": "Hardware \u2014 locks, slides, and the ghost of 1925",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 708,
+      "educational_claim": "Bar hardware is load-bearing: leaves, slides, hinges, locks. A trick latch is a costume. A slide that holds a pour is a tool."
+    },
+    {
+      "file": "06-38-finish-climate.md",
+      "id": "lcbh-06-38",
+      "title": "Finish that has to live with alcohol and citrus",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 608,
+      "educational_claim": "Bar tops and interiors are a hostile climate: ethanol, citric acid, water, ice. A jewelry finish is the wrong cousin. The film is a system, not a color."
+    },
+    {
+      "file": "06-39-tops-wet-line.md",
+      "id": "lcbh-06-39",
+      "title": "Tops \u2014 wood, stone, and the wet line",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 654,
+      "educational_claim": "The top is a working climate. Wood can work if the film is honest. Stone works if the stone matches the household. The wet line \u2014 sink, splash, seam \u2014 is where tops fail."
+    },
+    {
+      "file": "06-40-cold-machine.md",
+      "id": "lcbh-06-40",
+      "title": "The cold machine you hide \u2014 and why it needs to breathe",
+      "stage": "06-shop",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 620,
+      "educational_claim": "Built-in refrigeration is usually front-venting and sized to a cutout on a sheet. Boxing a freestanding unit is how a cabinetmaker kills a compressor and then gets blamed."
+    },
+    {
+      "file": "06-41-closed-climate.md",
+      "id": "lcbh-06-41",
+      "title": "A closed cabinet is a climate",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 630,
+      "educational_claim": "A closed case has humidity, smell, heat, and mold opinions. Lids and doors are climate controls. A bar that cannot breathe or be wiped will become a cellar in the wrong sense."
+    },
+    {
+      "file": "06-42-trucks-vs-scribes.md",
+      "id": "lcbh-06-42",
+      "title": "Built-in versus a piece we can put on a truck",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 736,
+      "educational_claim": "Company trucks are a design constraint. Split tops, finished backs, and racking loads are furniture. Scribes, site joints, and unfinished backs are built-ins. Do not make one drawing do both."
+    },
+    {
+      "file": "06-43-codes-not-pretend.md",
+      "id": "lcbh-06-43",
+      "title": "Codes, GFCI, and what this shop will not pretend to be",
+      "stage": "06-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 636,
+      "educational_claim": "A furniture shop can wrap a wet bar. It cannot be the plumber, the electrician, or the code book. Local licenses beat a well-told cabinet story."
+    },
+    {
+      "file": "07-44-read-the-room.md",
+      "id": "lcbh-07-44",
+      "title": "How to read a room before anyone draws a bar",
+      "stage": "07-close",
+      "runtime_min": 9.0,
+      "standalone": "false",
+      "words": 679,
+      "educational_claim": "Before a drawing, walk the room with bottles, water, and a path in mind. The history was a map of objects. The shop is a map of duties. The room decides which object is honest."
+    }
+  ],
+  "count": 44,
+  "status": "staged",
+  "channel": "BBF"
+}
