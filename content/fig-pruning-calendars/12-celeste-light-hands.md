@@ -3,11 +3,23 @@ id: "12"
 title: "Celeste wants light hands and a closed eye, not a sculpture"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7b, 8a, 8b, 9a]
 topics: [varieties, mistakes]
+figures:
+  - id: prune.12.usda-pom-celeste-1911
+    file: assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Celeste fig USDA plate — closed-eye variety winter pruning reference (Celeste wants light hands and a closed eye, not a sculpture)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "Celeste light winter hands"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-celeste-1911.jpg" alt="Celeste fig USDA plate — closed-eye variety winter pruning reference (Celeste wants light hands and a closed eye, not a sculpture)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Celeste wants light hands and a closed eye, not a sculpture. Staged stand-in (prune.12.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Fruit — Celeste light winter hands. See RIGHTS.md.</figcaption>
+</figure>
 Celeste (Celestial, Blue Celeste, Little Brown Sugar — the small brown fig your aunt called “sugar fig”) is the second plant in the Southern yard after Brown Turkey, and it is the one people over-prune because the fruit is small and they think the bush should be small to match.
 
 The fruit is small because it is Celeste. The closed eye is why it does not sour in a June rain the way Magnolia does. The plant wants a moderate life: sun, not too much nitrogen, and a prune that does not turn it into a stump.

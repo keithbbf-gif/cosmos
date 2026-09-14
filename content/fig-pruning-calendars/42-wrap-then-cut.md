@@ -3,11 +3,23 @@ id: "42"
 title: "Wrap, then cut: the order people reverse"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [calendar, climate, mistakes]
+figures:
+  - id: prune.42.fig-winter-snow-hood
+    file: assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Wrap, then cut: the order people reverse)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "unwrap then prune order"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-winter-snow-hood.jpg" alt="Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Wrap, then cut: the order people reverse)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Wrap, then cut: the order people reverse. Staged stand-in (prune.42.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — unwrap then prune order. See RIGHTS.md.</figcaption>
+</figure>
 In 7 and in the honest 8a winters there are two jobs that look like they belong on the same Saturday: take the wrap off, and prune. They do not belong in the same hour, and they do not belong in the reverse order.
 
 ## Fall: do not prune so it will wrap easier

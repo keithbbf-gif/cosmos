@@ -3,11 +3,23 @@ id: "40"
 title: "Prune the yard, not 'the fig': mixed varieties on one Saturday"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [varieties, breba, main-crop]
+figures:
+  - id: prune.40.usda-pom-celeste-1911
+    file: assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Celeste fig USDA plate — closed-eye variety winter pruning reference (Prune the yard, not 'the fig': mixed varieties on one Saturday)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "mixed varieties different cuts same yard"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-celeste-1911.jpg" alt="Celeste fig USDA plate — closed-eye variety winter pruning reference (Prune the yard, not 'the fig': mixed varieties on one Saturday)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Prune the yard, not 'the fig': mixed varieties on one Saturday. Staged stand-in (prune.40.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Labels — mixed varieties different cuts same yard. See RIGHTS.md.</figcaption>
+</figure>
 A lot of bad cuts happen because the person has three figs and one motion. Celeste, Chicago Hardy, Olympian — same afternoon, same heading, same pile. They are not the same plant in the ways that matter.
 
 ## Walk them separately

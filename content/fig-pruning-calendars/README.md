@@ -82,4 +82,4 @@ Where those sources disagree — Florida late-summer prune vs Georgia late-winte
 
 ## Voice and staging
 
-Each file is a **draft**. Front matter marks `draft: true` and `status: staged`. Do not treat a confident sentence as a county recommendation. If a cut is irreversible, the draft should say that before it says how.
+Each file is a **draft**. Front matter marks `draft: true`, `status: staged`, and `voice_check: edited` after the editor pass. Staged PD/CC/USDA figures and rights live in `RIGHTS.md`; see `EDITOR_REPORT.md` for the 2026-09-14 editor + image SEO pass. Do not treat a confident sentence as a county recommendation. If a cut is irreversible, the draft should say that before it says how.

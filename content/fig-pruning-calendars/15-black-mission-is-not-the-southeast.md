@@ -3,11 +3,23 @@ id: "15"
 title: "Black Mission is not a Southeast prune, because it is not a Southeast plant"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [varieties, mistakes, climate]
+figures:
+  - id: prune.15.usda-pom-magnolia-1913
+    file: assets/images/shared/usda-pom-magnolia-1913.jpg
+    alt: "Magnolia fig USDA plate — Brown Turkey class pruning reference (Black Mission is not a Southeast prune, because it is not a Southeast plant)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "Mission look-alike not suited to Southeast"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-magnolia-1913.jpg" alt="Magnolia fig USDA plate — Brown Turkey class pruning reference (Black Mission is not a Southeast prune, because it is not a Southeast plant)" width="2625" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Black Mission is not a Southeast prune, because it is not a Southeast plant. Staged stand-in (prune.15.usda-pom-magnolia-1913); USDA NAL POM00001043 (Magnolia), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Labels — Mission look-alike not suited to Southeast. See RIGHTS.md.</figcaption>
+</figure>
 UF/IFAS says Mission is not sufficiently cold hardy for the southeastern United States. That sentence should have ended the Facebook thread. It did not.
 
 People plant Black Mission in 8a because the fruit in the picture is dark and the name sounds like a place they would like to be. Then they ask how to prune it. The honest first answer is: you prune a plant that is trying not to die.

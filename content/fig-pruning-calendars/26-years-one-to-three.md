@@ -3,11 +3,23 @@ id: "26"
 title: "Years one to three: train a bush, do not perform a harvest"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [calendar, young-tree]
+figures:
+  - id: prune.26.fig-potted-tree-la-figuera
+    file: assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted fig training cuts — container pruning zones 7–9 (Years one to three: train a bush, do not perform a harvest)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "years 1–3 training cuts"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted fig training cuts — container pruning zones 7–9 (Years one to three: train a bush, do not perform a harvest)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Years one to three: train a bush, do not perform a harvest. Staged stand-in (prune.26.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — years 1–3 training cuts. See RIGHTS.md.</figcaption>
+</figure>
 The first three years are not a fruit program with a prune attached. They are a prune program with some fruit if the plant is generous.
 
 ## Year one

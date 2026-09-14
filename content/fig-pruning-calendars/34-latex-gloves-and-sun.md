@@ -3,11 +3,23 @@ id: "34"
 title: "The white sap is the reason you wear sleeves in February"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [mistakes]
+figures:
+  - id: prune.34.ficus-carica-bark
+    file: assets/images/shared/ficus-carica-bark.jpg
+    alt: "Fig bark and latex — live-wood test before winter pruning (The white sap is the reason you wear sleeves in February)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "latex on gloves in sun"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-bark.jpg" alt="Fig bark and latex — live-wood test before winter pruning (The white sap is the reason you wear sleeves in February)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. The white sap is the reason you wear sleeves in February. Staged stand-in (prune.34.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\More Fig Pictures — latex on gloves in sun. See RIGHTS.md.</figcaption>
+</figure>
 Every fig draft pretends the only risk is a bad crop. The other risk is your skin.
 
 Fig latex carries ficin. It is a protein-dissolving enzyme. On skin, especially skin that then goes into sun, it can raise a burn that looks like you dragged a jellyfish up your forearm. UF mentions the irritant and the enzyme. Gardeners mention it after the fact, in July, with a photograph.

@@ -3,16 +3,30 @@ id: "32"
 title: "After ice: repair the splits, do not redesign the orchard"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a]
 topics: [mistakes, climate]
+figures:
+  - id: prune.32.fig-dormant-canopy-pajara-02
+    file: assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Leaf-off fig tree — ice damage and sucker management (After ice: repair the splits, do not redesign the orchard)"
+    figs_pick: "D:\FIGS\Damaged Cuttings"
+    figs_note: "ice-storm split leader repair"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Leaf-off fig tree — ice damage and sucker management (After ice: repair the splits, do not redesign the orchard)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. After ice: repair the splits, do not redesign the orchard. Staged stand-in (prune.32.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Damaged Cuttings — ice-storm split leader repair. See RIGHTS.md.</figcaption>
+</figure>
 Fig wood is weak. Ice is a weight the plant did not budget. You will have arches that do not come back, and you will have splits that will peel to the ground if you leave a hanging sail.
 
 ## The first hour after it is safe to stand outside
 
-Take the hangers. A cut beyond the split, back to a clean crotch or to the trunk, now. This is not a pruning philosophy. This is how you stop a bark peel.
+Take the hangers.
+
+A cut beyond the split, back to a clean crotch or to the trunk, now. This is not a pruning philosophy. This is how you stop a bark peel.
 
 Do not climb into an ice-loaded bush to save a breba wand. The breba wand is not worth a wrist.
 

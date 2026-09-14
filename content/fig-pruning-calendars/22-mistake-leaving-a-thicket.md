@@ -3,11 +3,23 @@ id: "22"
 title: "Mistake: the kind thicket"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [mistakes]
+figures:
+  - id: prune.22.fig-dormant-canopy-pajara-01
+    file: assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Dormant fig canopy — structural pruning and leader thinning (Mistake: the kind thicket)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "thicket of competing leaders thinned"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Dormant fig canopy — structural pruning and leader thinning (Mistake: the kind thicket)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: the kind thicket. Staged stand-in (prune.22.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — thicket of competing leaders thinned. See RIGHTS.md.</figcaption>
+</figure>
 The opposite of the single-trunk religion is the religion of never hurting a living stem. Five years later you have a fig thicket: twenty leaders, none of them three inches thick, fruit on the roof, rust in the middle, and a bird apartment.
 
 UGA says select three to eight vigorous, widely spaced shoots as leaders, far enough apart that they can become 3 to 4 inches thick without crowding. That number is not a vibe. If they stand too close they stay skinny, then they split in a July storm when the fruit is heavy.

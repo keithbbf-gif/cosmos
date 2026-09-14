@@ -3,11 +3,23 @@ id: "09"
 title: "Keep the breba or force the main crop — say it before you cut"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [breba, main-crop]
+figures:
+  - id: prune.09.usda-pom-celeste-1911
+    file: assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Celeste fig USDA plate — closed-eye variety winter pruning reference (Keep the breba or force the main crop — say it before you cut)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "breba vs main tradeoff on one tree"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-celeste-1911.jpg" alt="Celeste fig USDA plate — closed-eye variety winter pruning reference (Keep the breba or force the main crop — say it before you cut)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Keep the breba or force the main crop — say it before you cut. Staged stand-in (prune.09.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Labels — breba vs main tradeoff on one tree. See RIGHTS.md.</figcaption>
+</figure>
 Every fig prune in zones 7–9 is a vote. People pretend they are voting for “health” or “airflow.” Those are real. They are also how we avoid saying the blunt thing: **this cut either keeps last year’s tips or it spends them.**
 
 You can do both on one plant. You cannot do both on one wand.

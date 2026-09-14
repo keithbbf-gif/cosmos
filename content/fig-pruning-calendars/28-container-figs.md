@@ -3,11 +3,23 @@ id: "28"
 title: "Pots: the prune is half roots, and the calendar is the garage door"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b]
 topics: [calendar, climate]
+figures:
+  - id: prune.28.fig-potted-tree-la-figuera
+    file: assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted fig training cuts — container pruning zones 7–9 (Pots: the prune is half roots, and the calendar is the garage door)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "container root and top balance"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted fig training cuts — container pruning zones 7–9 (Pots: the prune is half roots, and the calendar is the garage door)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Pots: the prune is half roots, and the calendar is the garage door. Staged stand-in (prune.28.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — container root and top balance. See RIGHTS.md.</figcaption>
+</figure>
 A fig in a pot is not a smaller in-ground fig. The pot is a climate tool. You can pick the plant up and steal a zone. That changes the prune.
 
 ## Why pots exist in 7 and 8a

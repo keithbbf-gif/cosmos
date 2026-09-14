@@ -3,11 +3,23 @@ id: "31"
 title: "After a late April freeze: do not make a second winter with the shears"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b]
 topics: [mistakes, climate, breba]
+figures:
+  - id: prune.31.fig-dormant-canopy-pajara-03
+    file: assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig wood — wait-for-green pruning in Zone 7a–8a (After a late April freeze: do not make a second winter with the shears)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "April freeze burned breba wood"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig wood — wait-for-green pruning in Zone 7a–8a (After a late April freeze: do not make a second winter with the shears)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. After a late April freeze: do not make a second winter with the shears. Staged stand-in (prune.31.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — April freeze burned breba wood. See RIGHTS.md.</figcaption>
+</figure>
 The leaves were out. The breba was swelling. A 26 °F night arrived because 8a does that. In the morning the leaves look wet and dark, then they crisp. The little figs go soft.
 
 This is when people “clean it up.”

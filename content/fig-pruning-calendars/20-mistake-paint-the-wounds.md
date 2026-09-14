@@ -3,11 +3,23 @@ id: "20"
 title: "Mistake: painting fig cuts as if they were oak wounds"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [mistakes]
+figures:
+  - id: prune.20.ficus-carica-bark
+    file: assets/images/shared/ficus-carica-bark.jpg
+    alt: "Fig bark and latex — live-wood test before winter pruning (Mistake: painting fig cuts as if they were oak wounds)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "fresh cut latex — no wound paint"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-bark.jpg" alt="Fig bark and latex — live-wood test before winter pruning (Mistake: painting fig cuts as if they were oak wounds)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: painting fig cuts as if they were oak wounds. Staged stand-in (prune.20.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\More Fig Pictures — fresh cut latex — no wound paint. See RIGHTS.md.</figcaption>
+</figure>
 Fig latex comes out white and looks like an emergency. People reach for pruning sealer, latex house paint, wood glue, even aluminum foil. I have seen all of these.
 
 The plant was already sealing. That white is the plant. It is messy, it will stain your shirt, and it will irritate your skin. It is not a hole you are required to plug.

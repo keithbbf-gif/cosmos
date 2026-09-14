@@ -3,11 +3,23 @@ id: "23"
 title: "Mistake: heading in late summer when the fruit is still doing math"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a]
 topics: [mistakes, season, main-crop]
+figures:
+  - id: prune.23.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Mistake: heading in late summer when the fruit is still doing math)"
+    figs_pick: "D:\FIGS\Figs-summer-23"
+    figs_note: "August heading delaying ripeness"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Mistake: heading in late summer when the fruit is still doing math)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: heading in late summer when the fruit is still doing math. Staged stand-in (prune.23.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs-summer-23 — August heading delaying ripeness. See RIGHTS.md.</figcaption>
+</figure>
 June pinch: a thumbnail, a blind pole, a request for laterals. That is a conversation.
 
 Late July or August heading: a foot or two off a shoot that already has figs along it. That is a cancellation.

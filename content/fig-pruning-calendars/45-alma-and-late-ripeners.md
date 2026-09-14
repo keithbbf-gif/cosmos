@@ -3,11 +3,23 @@ id: "45"
 title: "Alma and the late figs: do not prune them like Celeste"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [varieties, main-crop, mistakes]
+figures:
+  - id: prune.45.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Alma and the late figs: do not prune them like Celeste)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "Alma late ripener light summer hands"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Alma and the late figs: do not prune them like Celeste)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Alma and the late figs: do not prune them like Celeste. Staged stand-in (prune.45.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — Alma late ripener light summer hands. See RIGHTS.md.</figcaption>
+</figure>
 UGA suggests Alma if you want to extend the season. UF describes a late-July-through-August fruit, moderately hardy, sweet, a medium-open eye. In a Gulf year that extension is a gift. In an 8a year with an October 10 frost, that extension is a dare.
 
 A dare you do not make worse with a hard February heading.

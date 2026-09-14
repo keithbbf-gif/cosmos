@@ -3,11 +3,23 @@ id: "36"
 title: "Inland 8a and coastal 8a are not the same winter"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b]
 topics: [climate, calendar]
+figures:
+  - id: prune.36.usda-phzm-southeast
+    file: assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Inland 8a and coastal 8a are not the same winter)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "inland 8a vs coastal 8a same zone number"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-phzm-southeast.jpg" alt="USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Inland 8a and coastal 8a are not the same winter)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. Inland 8a and coastal 8a are not the same winter. Staged stand-in (prune.36.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — inland 8a vs coastal 8a same zone number. See RIGHTS.md.</figcaption>
+</figure>
 Both cards say 8a. One yard is a Tidewater evening that forgets to freeze. The other is an Oklahoma or north-Georgia night with wind and a sky like a plate. The fig does not read the card. It reads the night.
 
 ## Inland

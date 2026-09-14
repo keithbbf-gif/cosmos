@@ -3,11 +3,23 @@ id: "10"
 title: "Desert King and the San Pedro problem: prune the breba and you prune the year"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [breba, mistakes, varieties]
+figures:
+  - id: prune.10.kohler-ficus-carica-plate
+    file: assets/images/shared/kohler-ficus-carica-plate.jpg
+    alt: "Ficus carica buds and fruit — breba wood ID for pruning (Desert King and the San Pedro problem: prune the breba and you prune the year)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "San Pedro breba-only habit"
+
 ---
 
+<figure>
+<img src="assets/images/shared/kohler-ficus-carica-plate.jpg" alt="Ficus carica buds and fruit — breba wood ID for pruning (Desert King and the San Pedro problem: prune the breba and you prune the year)" width="1469" height="2318" loading="lazy" decoding="async">
+<figcaption>Figure 1. Desert King and the San Pedro problem: prune the breba and you prune the year. Staged stand-in (prune.10.kohler-ficus-carica-plate); Köhler-type Ficus carica plate, Wikimedia Commons, PD. Prefer publish photo from D:\FIGS\Fig Fruit — San Pedro breba-only habit. See RIGHTS.md.</figcaption>
+</figure>
 Most figs in a Southern yard are common type. They set fruit without a wasp. You can argue about breba versus main and still eat something.
 
 San Pedro types are a different contract. The breba — on last year’s wood — sets without pollination. The main crop — on this year’s wood — wants caprification, which means a caprifig and *Blastophaga psenes*. That wasp is not part of ordinary life in Georgia, Alabama, Oklahoma, or the Carolinas. California has a fig industry. You have a county.

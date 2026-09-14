@@ -3,11 +3,23 @@ id: "05"
 title: "Zone 9a: the early figs are real, so the tips are not optional"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8b, 9a, 9b]
 topics: [calendar, climate, breba]
+figures:
+  - id: prune.05.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Zone 9a: the early figs are real, so the tips are not optional)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "9a tips left on for breba wood"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Zone 9a: the early figs are real, so the tips are not optional)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 9a: the early figs are real, so the tips are not optional. Staged stand-in (prune.05.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — 9a tips left on for breba wood. See RIGHTS.md.</figcaption>
+</figure>
 9a is where the breba stops being a story you tell after a mild winter and starts being a crop you can put on a plate in May or June. Twenty to twenty-five on the card. A dormant fig that hardened in the fall is not thinking about death. It is thinking about those pea-sized overwintering figs at the ends of last year’s wands.
 
 If you prune 9a like 7a, you will have a very polite bush and a late summer. If that is what you want, say it. Do not wander into January with a folding saw and then wonder where June went.

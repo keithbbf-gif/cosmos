@@ -3,11 +3,23 @@ id: "38"
 title: "Sometimes winter already pruned, and your only job is to catch up"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [dieback, calendar, mistakes]
+figures:
+  - id: prune.38.fig-dormant-canopy-pajara-03
+    file: assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig wood — wait-for-green pruning in Zone 7a–8a (Sometimes winter already pruned, and your only job is to catch up)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "dieback height already chosen by winter"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig wood — wait-for-green pruning in Zone 7a–8a (Sometimes winter already pruned, and your only job is to catch up)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Sometimes winter already pruned, and your only job is to catch up. Staged stand-in (prune.38.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — dieback height already chosen by winter. See RIGHTS.md.</figcaption>
+</figure>
 There is a kind of person who cannot stand to let a natural process be the last word. Winter kills three feet of every wand. They come out in March and they kill two more feet so it looks even.
 
 That is a second prune the plant did not need.

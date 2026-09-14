@@ -3,11 +3,23 @@ id: "06"
 title: "Zone 9b: you have time, which is not the same as permission to be stupid"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [9a, 9b]
 topics: [calendar, climate, main-crop]
+figures:
+  - id: prune.06.usda-pom-winter-cutting
+    file: assets/images/shared/usda-pom-winter-cutting.jpg
+    alt: "USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Zone 9b: you have time, which is not the same as permission to be stupid)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "9b hard heading with season left to regrow"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-winter-cutting.jpg" alt="USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Zone 9b: you have time, which is not the same as permission to be stupid)" width="2707" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 9b: you have time, which is not the same as permission to be stupid. Staged stand-in (prune.06.usda-pom-winter-cutting); USDA NAL Pomological Watercolor POM00001042, J. Marion Shull, PD. Prefer publish photo from D:\FIGS\Figs — 9b hard heading with season left to regrow. See RIGHTS.md.</figcaption>
+</figure>
 9b is the long room. Twenty-five to thirty. Figs do not die here unless you drown them, starve the roots in beach sand, or freeze them with a once-in-twenty-year night after a warm spell. You can cut hard in January and still pick a main crop that runs into October. That fact has created a style of pruning that looks like citrus: short, stout, and a little brutal.
 
 It works. It also throws away a crop you could have eaten in June, and it can push late varieties into a souring season if you live where August is a thunderstorm, not a drought.

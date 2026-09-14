@@ -3,11 +3,23 @@ id: "02"
 title: "Zone 7a: wait for green, then cut what winter already decided"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [calendar, climate, dieback]
+figures:
+  - id: prune.02.fig-dormant-canopy-pajara-03
+    file: assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig wood — wait-for-green pruning in Zone 7a–8a (Zone 7a: wait for green, then cut what winter already decided)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "March green-tip wait before cutting gray wood"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig wood — wait-for-green pruning in Zone 7a–8a (Zone 7a: wait for green, then cut what winter already decided)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 7a: wait for green, then cut what winter already decided. Staged stand-in (prune.02.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — March green-tip wait before cutting gray wood. See RIGHTS.md.</figcaption>
+</figure>
 Zone 7a is not a fig climate that failed. It is a fig climate that uses a different verb. You do not “preserve the framework.” You *see what lived*.
 
 The annual extreme sits around 0 to 5 °F. Fully dormant fig wood, on a good year with a good variety, can take the high teens. It does not reliably take a week of single digits, and it does not take a sudden drop when January thawed it first. So the January prune you copied from a zone 9 video is not early. It is fiction. You would be cutting a story.

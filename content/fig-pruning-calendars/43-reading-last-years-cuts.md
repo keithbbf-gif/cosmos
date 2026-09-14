@@ -3,11 +3,23 @@ id: "43"
 title: "Last year's cuts are the logbook. Read them before you write another."
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [calendar]
+figures:
+  - id: prune.43.usda-pom-winter-cutting
+    file: assets/images/shared/usda-pom-winter-cutting.jpg
+    alt: "USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Last year's cuts are the logbook. Read them before you write another.)"
+    figs_pick: "D:\FIGS\Damaged Cuttings"
+    figs_note: "reading last season's pruning scars"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-winter-cutting.jpg" alt="USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Last year's cuts are the logbook. Read them before you write another.)" width="2707" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Last year's cuts are the logbook. Read them before you write another.. Staged stand-in (prune.43.usda-pom-winter-cutting); USDA NAL Pomological Watercolor POM00001042, J. Marion Shull, PD. Prefer publish photo from D:\FIGS\Damaged Cuttings — reading last season's pruning scars. See RIGHTS.md.</figcaption>
+</figure>
 A fig will tell you what you did. You have to look at the knuckles.
 
 ## What a heading looks like a year later

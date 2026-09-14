@@ -3,11 +3,23 @@ id: "46"
 title: "Open eye, closed eye, and the canopy you owe the rain"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [climate, varieties]
+figures:
+  - id: prune.46.usda-pom-celeste-1911
+    file: assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Celeste fig USDA plate — closed-eye variety winter pruning reference (Open eye, closed eye, and the canopy you owe the rain)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "closed-eye vs open-eye canopy air"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-celeste-1911.jpg" alt="Celeste fig USDA plate — closed-eye variety winter pruning reference (Open eye, closed eye, and the canopy you owe the rain)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Open eye, closed eye, and the canopy you owe the rain. Staged stand-in (prune.46.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Fruit — closed-eye vs open-eye canopy air. See RIGHTS.md.</figcaption>
+</figure>
 Pruning will not redesign a fruit. Celeste’s closed ostiole is why it shrugs off a rain that sours a Magnolia. LSU Gold’s open eye is why UF says pick it as soon as it is ripe. Kadota has an open eye that a honey plug only partly forgives. You cannot cut a closed eye onto an open-eye fig.
 
 You can decide whether the fruit sits in a wet leafy bowl or in moving air.

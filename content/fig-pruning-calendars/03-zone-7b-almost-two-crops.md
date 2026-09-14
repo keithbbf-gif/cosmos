@@ -3,11 +3,23 @@ id: "03"
 title: "Zone 7b: the almost-two-crop belt"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [calendar, climate, breba, main-crop]
+figures:
+  - id: prune.03.fig-dormant-canopy-pajara-02
+    file: assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Leaf-off fig tree — ice damage and sucker management (Zone 7b: the almost-two-crop belt)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "7b yard with mixed live and dead tips"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Leaf-off fig tree — ice damage and sucker management (Zone 7b: the almost-two-crop belt)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 7b: the almost-two-crop belt. Staged stand-in (prune.03.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — 7b yard with mixed live and dead tips. See RIGHTS.md.</figcaption>
+</figure>
 7b is the zone that makes liars out of confident people. Five to ten degrees, on paper. In a protected city lot you will eat brebas in June and tell your brother in the next county that figs are easy. In an open pasture the same winter, the same Celeste is a stool of green shoots in May and a late bowl in September.
 
 The prune has to live with that, or you will have a ritual instead of a crop.

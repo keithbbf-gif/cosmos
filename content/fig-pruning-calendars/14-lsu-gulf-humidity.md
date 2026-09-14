@@ -3,11 +3,23 @@ id: "14"
 title: "LSU figs in Gulf weather: prune for air, not for a California silhouette"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [climate, varieties]
+figures:
+  - id: prune.14.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (LSU figs in Gulf weather: prune for air, not for a California silhouette)"
+    figs_pick: "D:\FIGS\Figs-summer-23"
+    figs_note: "LSU-type open canopy in humidity"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (LSU figs in Gulf weather: prune for air, not for a California silhouette)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. LSU figs in Gulf weather: prune for air, not for a California silhouette. Staged stand-in (prune.14.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs-summer-23 — LSU-type open canopy in humidity. See RIGHTS.md.</figcaption>
+</figure>
 LSU Purple, LSU Gold, Champagne, O’Rourke, Tiger — these are Louisiana answers to Louisiana problems: heat, rain, a need for a closed or partly closed eye, and a main crop that can stand the Gulf. They are not Mission. They do not want to be a twenty-foot standard with a painted trunk.
 
 If you prune them for a postcard, you will get rust, souring on the ones with a looser eye (Gold), and a late crop that sits in September rain.

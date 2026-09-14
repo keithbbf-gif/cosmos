@@ -3,11 +3,23 @@ id: "13"
 title: "Brown Turkey, Eastern type: both crops, if you can leave a little last year alone"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a]
 topics: [varieties, breba, main-crop]
+figures:
+  - id: prune.13.usda-pom-magnolia-1913
+    file: assets/images/shared/usda-pom-magnolia-1913.jpg
+    alt: "Magnolia fig USDA plate — Brown Turkey class pruning reference (Brown Turkey, Eastern type: both crops, if you can leave a little last year alone)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "Brown Turkey dual-crop wood"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-magnolia-1913.jpg" alt="Magnolia fig USDA plate — Brown Turkey class pruning reference (Brown Turkey, Eastern type: both crops, if you can leave a little last year alone)" width="2625" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Brown Turkey, Eastern type: both crops, if you can leave a little last year alone. Staged stand-in (prune.13.usda-pom-magnolia-1913); USDA NAL POM00001043 (Magnolia), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Figs — Brown Turkey dual-crop wood. See RIGHTS.md.</figcaption>
+</figure>
 The Brown Turkey in the Southeast is not the California Brown Turkey, and it is not one clone. Brunswick, Eastern Brown Turkey, Texas Everbearing, Harrison, Ramsey — the names are a junk drawer. What you probably have is a bronze fig, amber pulp, small-to-medium eye, a July breba if the wood lived, and a main crop that starts about a month later and keeps trying.
 
 UGA’s useful sentence: Brown Turkey will make figs on current growth after being killed to the ground. That is why it is in 7a. UF’s useful sentence: a small spring crop, then the main crop. That is why it is in 8a and 9a.

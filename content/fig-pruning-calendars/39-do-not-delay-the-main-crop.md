@@ -3,11 +3,23 @@ id: "39"
 title: "Do not spend weeks you do not have: hard headings and short seasons"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [main-crop, climate, mistakes]
+figures:
+  - id: prune.39.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Do not spend weeks you do not have: hard headings and short seasons)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "short-season main crop on new wood"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Do not spend weeks you do not have: hard headings and short seasons)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Do not spend weeks you do not have: hard headings and short seasons. Staged stand-in (prune.39.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — short-season main crop on new wood. See RIGHTS.md.</figcaption>
+</figure>
 A hard dormant heading makes vigorous new wood. Vigorous new wood fruits later. Later is a tax. In 9b the tax is cheap. In 8a it is sometimes the whole harvest. In 7a it is often the whole harvest.
 
 This is the mistake of people who read “figs fruit on new wood” and heard “so cut everything and get more new wood.” More is not sooner.

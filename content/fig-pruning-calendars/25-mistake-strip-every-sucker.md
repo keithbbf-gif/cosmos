@@ -3,11 +3,23 @@ id: "25"
 title: "Mistake: stripping every sucker as if the fig were a rose standard"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a]
 topics: [mistakes]
+figures:
+  - id: prune.25.fig-dormant-canopy-pajara-02
+    file: assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Leaf-off fig tree — ice damage and sucker management (Mistake: stripping every sucker as if the fig were a rose standard)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "suckers left as replacement canes"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Leaf-off fig tree — ice damage and sucker management (Mistake: stripping every sucker as if the fig were a rose standard)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: stripping every sucker as if the fig were a rose standard. Staged stand-in (prune.25.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — suckers left as replacement canes. See RIGHTS.md.</figcaption>
+</figure>
 Fig suckers are not a character flaw. They are how a plant that freezes back stays in the family.
 
 If you strip every one, you are choosing a form the climate may not countersign. You are also throwing away the replacement for the leader that will split in a July storm — and one of them will.

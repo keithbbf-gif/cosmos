@@ -3,11 +3,23 @@ id: "30"
 title: "Bush form is not rustic. It is how you wrap a fig in 8a."
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [climate, calendar]
+figures:
+  - id: prune.30.fig-winter-snow-hood
+    file: assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Bush form is not rustic. It is how you wrap a fig in 8a.)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "bush form sized for winter wrap"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-winter-snow-hood.jpg" alt="Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Bush form is not rustic. It is how you wrap a fig in 8a.)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Bush form is not rustic. It is how you wrap a fig in 8a.. Staged stand-in (prune.30.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — bush form sized for winter wrap. See RIGHTS.md.</figcaption>
+</figure>
 People apologize for a multi-stem fig. They say they never got around to making it a tree. In zones 7 and 8a the apology is backwards. A short, several-stem bush is the form you can put a blanket on.
 
 ## Why the blanket cares about the prune

@@ -3,11 +3,23 @@ id: "01"
 title: "Zone 8a, month by month, with the shears in the drawer most of the year"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [calendar, climate, season]
+figures:
+  - id: prune.01.usda-phzm-southeast
+    file: assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Zone 8a, month by month, with the shears in the drawer most of the year)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "month-by-month pruning calendar pinned near tools"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-phzm-southeast.jpg" alt="USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Zone 8a, month by month, with the shears in the drawer most of the year)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 8a, month by month, with the shears in the drawer most of the year. Staged stand-in (prune.01.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — month-by-month pruning calendar pinned near tools. See RIGHTS.md.</figcaption>
+</figure>
 Zone 8a is the dishonest middle. The card says the average annual extreme is 10 to 15 °F. That is cold enough to kill a fig that still has green in the tips, and it is cold enough to kill a fully brown bush if the cold sits two nights and the wind has a lane at the crown. It is also warm enough, most winters, that last year’s wood lives, and then people start talking about breba as if they lived in Pasadena.
 
 So this calendar is not a California calendar. It is not a “wait until May and cut the dead sticks” calendar either. It is a year you can actually walk.
@@ -40,7 +52,7 @@ Bud swell is the clock, not the calendar app. When the buds fatten and show gree
 
 Zone 8a last-frost dates wander. Some counties call it March 20. Some call it April 10. Your fig does not care what the county average is. It cares about the night that actually arrives.
 
-If you wrapped the bush, unwrap on a stretch of nights that stay above the mid-20s, then be ready to throw a blanket back on if a late shot of cold is coming. Do not unwrap and immediately heading-cut in the same afternoon. Let the wood speak for a week.
+If you wrapped the bush, unwrap on a stretch of nights that stay above the mid-20s, then be ready to throw a blanket back on if a late shot of cold is coming. Do not unwrap and immediately make a heading cut in the same afternoon. Let the wood speak for a week.
 
 ## April
 

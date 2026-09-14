@@ -3,16 +3,28 @@ id: "19"
 title: "Mistake: cutting before the wood admits it is alive"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b]
 topics: [mistakes, dieback]
+figures:
+  - id: prune.19.ficus-carica-bark
+    file: assets/images/shared/ficus-carica-bark.jpg
+    alt: "Fig bark and latex — live-wood test before winter pruning (Mistake: cutting before the wood admits it is alive)"
+    figs_pick: "D:\FIGS\Damaged Cuttings"
+    figs_note: "scratch test before trusting brown bark"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-bark.jpg" alt="Fig bark and latex — live-wood test before winter pruning (Mistake: cutting before the wood admits it is alive)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: cutting before the wood admits it is alive. Staged stand-in (prune.19.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Damaged Cuttings — scratch test before trusting brown bark. See RIGHTS.md.</figcaption>
+</figure>
 Fig bark does not color-code. Live and dead both look like last year’s weather. If you prune on color, you will take a live wand that was late to wake and you will leave a dead wand that still has a polite tan.
 
 ## The tests that work
 
-**Scratch.** A thumbnail or a knife, a small patch, not a ring. Green-white and damp under the outer bark is life. Brown and dry is not. If you ring the wand, you may kill what you were testing. One small window.
+**Scratch.** A thumbnail or a knife, a small patch through the bark to the cambium, not a ring. Green-white and damp at the cambium is life. Brown and dry is not. If you ring the wand, you may kill what you were testing. One small window.
 
 **Bud.** A bud that swells and shows green is a better test than a scratch. That is why 7a waits. In 8a after a mean winter, wait too.
 

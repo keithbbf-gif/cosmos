@@ -3,11 +3,23 @@ id: "27"
 title: "The neglected twenty-foot fig in a fifty-foot yard"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a, 9b]
 topics: [mistakes, calendar]
+figures:
+  - id: prune.27.fig-dormant-canopy-pajara-01
+    file: assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Dormant fig canopy — structural pruning and leader thinning (The neglected twenty-foot fig in a fifty-foot yard)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "neglected giant before renewal prune"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Dormant fig canopy — structural pruning and leader thinning (The neglected twenty-foot fig in a fifty-foot yard)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. The neglected twenty-foot fig in a fifty-foot yard. Staged stand-in (prune.27.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — neglected giant before renewal prune. See RIGHTS.md.</figcaption>
+</figure>
 Someone stopped pruning in 2019. The fig did not stop. It is now a room. The fruit is in the eaves. The interior is two dead arms and a graveyard of leaves. You have one Saturday and a cheap saw. This is how people make the renovation worse.
 
 ## Do not do the haircut

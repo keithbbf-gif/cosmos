@@ -3,11 +3,23 @@ id: "24"
 title: "Mistake: pruning a first-year fig with apple rules"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [mistakes, young-tree]
+figures:
+  - id: prune.24.kohler-ficus-carica-plate
+    file: assets/images/shared/kohler-ficus-carica-plate.jpg
+    alt: "Ficus carica buds and fruit — breba wood ID for pruning (Mistake: pruning a first-year fig with apple rules)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "fig training not apple central leader"
+
 ---
 
+<figure>
+<img src="assets/images/shared/kohler-ficus-carica-plate.jpg" alt="Ficus carica buds and fruit — breba wood ID for pruning (Mistake: pruning a first-year fig with apple rules)" width="1469" height="2318" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: pruning a first-year fig with apple rules. Staged stand-in (prune.24.kohler-ficus-carica-plate); Köhler-type Ficus carica plate, Wikimedia Commons, PD. Prefer publish photo from D:\FIGS\Fig Labels — fig training not apple central leader. See RIGHTS.md.</figcaption>
+</figure>
 Apple books are everywhere, and they are confident. Central leader, heading the whip, scaffold selection in year one, fruit on spurs you will meet later. You take that confidence to a fig whip from a nursery pot and you cut it like you are starting a dessert apple.
 
 Figs are not apples. They fruit on last year’s extensions and on this year’s shoots. They sucker from the crown. Their wood is weak. They do not need 800 chill hours. They do need a winter they can survive.

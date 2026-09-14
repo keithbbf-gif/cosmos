@@ -3,11 +3,23 @@ id: "11"
 title: "Chicago Hardy: when the fig is a cane fruit that happens to be a fig"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [varieties, dieback, main-crop]
+figures:
+  - id: prune.11.usda-pom-magnolia-1913
+    file: assets/images/shared/usda-pom-magnolia-1913.jpg
+    alt: "Magnolia fig USDA plate — Brown Turkey class pruning reference (Chicago Hardy: when the fig is a cane fruit that happens to be a fig)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "Chicago Hardy resprout after cane cut"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-magnolia-1913.jpg" alt="Magnolia fig USDA plate — Brown Turkey class pruning reference (Chicago Hardy: when the fig is a cane fruit that happens to be a fig)" width="2625" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Chicago Hardy: when the fig is a cane fruit that happens to be a fig. Staged stand-in (prune.11.usda-pom-magnolia-1913); USDA NAL POM00001043 (Magnolia), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Figs — Chicago Hardy resprout after cane cut. See RIGHTS.md.</figcaption>
+</figure>
 Chicago Hardy (Bensonhurst Purple, and a few other street names) is in zone 7 yards because it will come back from the crown and fruit on new wood. That is a raspberry sentence. Treat it like an apple and you will be sad in two directions: you will protect a trunk that winter is going to take, and you will refuse to thin the thicket that is the actual plant.
 
 ## In 7a and the mean 7b years

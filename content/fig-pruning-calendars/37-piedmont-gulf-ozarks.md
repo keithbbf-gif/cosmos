@@ -3,11 +3,23 @@ id: "37"
 title: "Three neighborhoods that all get called 8a: Piedmont, Gulf edge, Ozarks"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7b, 8a, 8b, 9a]
 topics: [climate, calendar]
+figures:
+  - id: prune.37.usda-phzm-southeast
+    file: assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Three neighborhoods that all get called 8a: Piedmont, Gulf edge, Ozarks)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "Piedmont vs Gulf vs Ozarks 8a"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-phzm-southeast.jpg" alt="USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (Three neighborhoods that all get called 8a: Piedmont, Gulf edge, Ozarks)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. Three neighborhoods that all get called 8a: Piedmont, Gulf edge, Ozarks. Staged stand-in (prune.37.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — Piedmont vs Gulf vs Ozarks 8a. See RIGHTS.md.</figcaption>
+</figure>
 The folder is centered on 8a because that is where the arguments meet. It is not one argument.
 
 ## Piedmont (a lot of Georgia, the Carolinas, Alabama upland)

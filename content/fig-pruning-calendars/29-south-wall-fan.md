@@ -3,11 +3,23 @@ id: "29"
 title: "Fan on a south wall: the prune is a tie as much as a cut"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b]
 topics: [calendar, climate, breba]
+figures:
+  - id: prune.29.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Fan on a south wall: the prune is a tie as much as a cut)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "south-wall fan or espalier"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Fan on a south wall: the prune is a tie as much as a cut)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Fan on a south wall: the prune is a tie as much as a cut. Staged stand-in (prune.29.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — south-wall fan or espalier. See RIGHTS.md.</figcaption>
+</figure>
 A south brick wall in 7b can behave like 8b. In 8a it can keep tips through a night that strips the same variety in the open yard. That is why people fan figs. The prune has to serve the wall, or you just have a thicket leaning on masonry.
 
 ## The shape

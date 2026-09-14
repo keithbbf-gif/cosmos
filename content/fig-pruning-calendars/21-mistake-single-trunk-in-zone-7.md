@@ -3,11 +3,23 @@ id: "21"
 title: "Mistake: insisting on a single trunk where winter takes trunks"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a]
 topics: [mistakes, climate]
+figures:
+  - id: prune.21.fig-winter-snow-hood
+    file: assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Mistake: insisting on a single trunk where winter takes trunks)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "multi-trunk stool after winter kill"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-winter-snow-hood.jpg" alt="Winter-wrapped Ficus carica — prune-after-wrap order for zones 7–8 (Mistake: insisting on a single trunk where winter takes trunks)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: insisting on a single trunk where winter takes trunks. Staged stand-in (prune.21.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — multi-trunk stool after winter kill. See RIGHTS.md.</figcaption>
+</figure>
 A fig can be a tree. In a climate that does not kill trunks, a short standard with three or four scaffolds is handsome and pickable. UGA’s pruning bulletin says the tree form is not practical in the Georgia Piedmont because plants freeze back to the ground. That is a Piedmont sentence that 7a and a lot of 7b should tattoo on a glove.
 
 ## Why people try anyway

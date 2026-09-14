@@ -3,11 +3,23 @@ id: "17"
 title: "Mistake: the tidy October fig"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a]
 topics: [mistakes, season]
+figures:
+  - id: prune.17.ficus-carica-bark
+    file: assets/images/shared/ficus-carica-bark.jpg
+    alt: "Fig bark and latex — live-wood test before winter pruning (Mistake: the tidy October fig)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "October cut pushing soft bark into frost"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-bark.jpg" alt="Fig bark and latex — live-wood test before winter pruning (Mistake: the tidy October fig)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mistake: the tidy October fig. Staged stand-in (prune.17.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — October cut pushing soft bark into frost. See RIGHTS.md.</figcaption>
+</figure>
 October is when the rest of the yard is being put away. The tomatoes come out. The perennials get cut. The fig is still holding a few leaves and a few late figs and it looks unfinished. So people finish it.
 
 That is the mistake.

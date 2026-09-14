@@ -3,11 +3,23 @@ id: "35"
 title: "The zone number is a rumor. Frost dates are the calendar."
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [climate, calendar]
+figures:
+  - id: prune.35.usda-phzm-southeast
+    file: assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (The zone number is a rumor. Frost dates are the calendar.)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "frost date note beside zone map"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-phzm-southeast.jpg" alt="USDA zones 7–9 fig pruning — Southeast hardiness map for frost-calendar planning (The zone number is a rumor. Frost dates are the calendar.)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. The zone number is a rumor. Frost dates are the calendar.. Staged stand-in (prune.35.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — frost date note beside zone map. See RIGHTS.md.</figcaption>
+</figure>
 USDA zones are a map of average annual extreme minimums. They are not a last-frost date, not a first-frost date, and not a count of nights below 20 °F. Two 8a towns can have a month of difference in when you may safely unwrap a fig, and a week of difference in when a main crop has to be finished.
 
 If you prune by zone alone, you will be early in the cold town and late in the warm one, and you will think the drafts contradicted themselves.

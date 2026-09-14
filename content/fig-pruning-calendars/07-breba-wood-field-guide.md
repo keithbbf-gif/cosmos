@@ -3,11 +3,23 @@ id: "07"
 title: "Breba wood: what you are actually looking at in February"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [breba, main-crop]
+figures:
+  - id: prune.07.kohler-ficus-carica-plate
+    file: assets/images/shared/kohler-ficus-carica-plate.jpg
+    alt: "Ficus carica buds and fruit — breba wood ID for pruning (Breba wood: what you are actually looking at in February)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "overwintering breba beads on last year's nodes"
+
 ---
 
+<figure>
+<img src="assets/images/shared/kohler-ficus-carica-plate.jpg" alt="Ficus carica buds and fruit — breba wood ID for pruning (Breba wood: what you are actually looking at in February)" width="1469" height="2318" loading="lazy" decoding="async">
+<figcaption>Figure 1. Breba wood: what you are actually looking at in February. Staged stand-in (prune.07.kohler-ficus-carica-plate); Köhler-type Ficus carica plate, Wikimedia Commons, PD. Prefer publish photo from D:\FIGS\More Fig Pictures — overwintering breba beads on last year's nodes. See RIGHTS.md.</figcaption>
+</figure>
 People say “last year’s wood” as if it were a stain color. It is a location.
 
 A breba fig is a fig that began as a tiny syconium on a shoot that grew last summer. It sat there through leaf drop. It spent the winter on a bare wand. In spring it swells with the first sap and tries to become breakfast in early summer. It does not grow from the brand-new green shoot you are watching in May. That new shoot is writing a different crop.

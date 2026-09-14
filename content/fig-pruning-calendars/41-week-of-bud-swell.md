@@ -3,11 +3,23 @@ id: "41"
 title: "The week of bud swell is the last legal week for structure"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7b, 8a, 8b, 9a]
 topics: [calendar, season]
+figures:
+  - id: prune.41.kohler-ficus-carica-plate
+    file: assets/images/shared/kohler-ficus-carica-plate.jpg
+    alt: "Ficus carica buds and fruit — breba wood ID for pruning (The week of bud swell is the last legal week for structure)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "bud swell week last structural cuts"
+
 ---
 
+<figure>
+<img src="assets/images/shared/kohler-ficus-carica-plate.jpg" alt="Ficus carica buds and fruit — breba wood ID for pruning (The week of bud swell is the last legal week for structure)" width="1469" height="2318" loading="lazy" decoding="async">
+<figcaption>Figure 1. The week of bud swell is the last legal week for structure. Staged stand-in (prune.41.kohler-ficus-carica-plate); Köhler-type Ficus carica plate, Wikimedia Commons, PD. Prefer publish photo from D:\FIGS\More Fig Pictures — bud swell week last structural cuts. See RIGHTS.md.</figcaption>
+</figure>
 There is a week when the buds are fat, the tips are showing a seam of green, and you can still see the whole skeleton. After that week, you are cutting leaves.
 
 In 8a that week is often the first or second week of March. In a warm 8b it is February. In a stubborn inland 8a it can be later. The week is a stage, not a date.

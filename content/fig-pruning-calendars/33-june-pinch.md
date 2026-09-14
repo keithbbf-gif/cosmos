@@ -3,11 +3,23 @@ id: "33"
 title: "The June pinch: ten minutes, not a haircut"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [season, main-crop]
+figures:
+  - id: prune.33.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (The June pinch: ten minutes, not a haircut)"
+    figs_pick: "D:\FIGS\Figs-summer-23"
+    figs_note: "June pinch on whippy shoots"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (The June pinch: ten minutes, not a haircut)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. The June pinch: ten minutes, not a haircut. Staged stand-in (prune.33.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs-summer-23 — June pinch on whippy shoots. See RIGHTS.md.</figcaption>
+</figure>
 Summer pruning on a fig, in this climate, should look like you forgot your shears and used your fingers.
 
 ## What you are pinching

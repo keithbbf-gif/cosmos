@@ -3,11 +3,23 @@ id: "16"
 title: "Olympian and the other breba specialists: prune like the early crop is the job"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7b, 8a, 8b, 9a]
 topics: [breba, varieties]
+figures:
+  - id: prune.16.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Olympian and the other breba specialists: prune like the early crop is the job)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "breba-heavy variety tips preserved"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (Olympian and the other breba specialists: prune like the early crop is the job)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Olympian and the other breba specialists: prune like the early crop is the job. Staged stand-in (prune.16.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — breba-heavy variety tips preserved. See RIGHTS.md.</figcaption>
+</figure>
 Some figs earn their keep in June. Olympian is the one that gets passed around as a cold-hardy breba plant — purple, early, worth wrapping for. There are others in the hobby lists (a good Violette de Bordeaux in a kind climate, some Mt. Etna types that hold tips). The names shift. The pruning rule does not: **if you bought it for the early fruit, last year’s extensions are the crop.**
 
 ## 8a, which is the honest home for this idea

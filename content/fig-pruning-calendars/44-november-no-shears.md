@@ -3,11 +3,23 @@ id: "44"
 title: "November: a checklist with no shears on it"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b]
 topics: [season, calendar]
+figures:
+  - id: prune.44.fig-dormant-canopy-pajara-01
+    file: assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Dormant fig canopy — structural pruning and leader thinning (November: a checklist with no shears on it)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "November shears in the drawer"
+
 ---
 
+<figure>
+<img src="assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Dormant fig canopy — structural pruning and leader thinning (November: a checklist with no shears on it)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. November: a checklist with no shears on it. Staged stand-in (prune.44.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — November shears in the drawer. See RIGHTS.md.</figcaption>
+</figure>
 November is when I want people in this climate to be busy around the fig and idle with the blade.
 
 ## Do

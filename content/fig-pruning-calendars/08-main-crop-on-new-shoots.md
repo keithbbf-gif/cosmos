@@ -3,11 +3,23 @@ id: "08"
 title: "The main crop lives on wood that does not exist yet"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [7a, 7b, 8a, 8b, 9a, 9b]
 topics: [main-crop, breba, calendar]
+figures:
+  - id: prune.08.ficus-carica-canopy
+    file: assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (The main crop lives on wood that does not exist yet)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "main crop on current-season shoots"
+
 ---
 
+<figure>
+<img src="assets/images/shared/ficus-carica-canopy.jpg" alt="Summer Ficus carica canopy — breba and main-crop pruning timing zones 8a–9b (The main crop lives on wood that does not exist yet)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. The main crop lives on wood that does not exist yet. Staged stand-in (prune.08.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — main crop on current-season shoots. See RIGHTS.md.</figcaption>
+</figure>
 The main crop is the fig most 7–9 yards actually eat. It starts after the leaves, on the current season’s shoots, in the leaf axils of wood that was not there in March. It ripens in the second half of summer, sometimes into fall. It is why a fig killed to the ground can still feed you in a long year.
 
 If you only remember one mechanical fact, remember this: **you cannot prune main-crop wood in February because it has not been grown.** You can only prune the *conditions* for it — how many shoots, how much sun, how late they are allowed to start.

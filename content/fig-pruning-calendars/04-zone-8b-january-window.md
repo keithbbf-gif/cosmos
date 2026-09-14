@@ -3,11 +3,23 @@ id: "04"
 title: "Zone 8b: January is legal, and that is how people get sloppy"
 draft: true
 status: staged
+voice_check: edited
 zone_center: 8a
 zones: [8a, 8b, 9a]
 topics: [calendar, climate]
+figures:
+  - id: prune.04.usda-pom-winter-cutting
+    file: assets/images/shared/usda-pom-winter-cutting.jpg
+    alt: "USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Zone 8b: January is legal, and that is how people get sloppy)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "late January dormant cut to a bud"
+
 ---
 
+<figure>
+<img src="assets/images/shared/usda-pom-winter-cutting.jpg" alt="USDA fig pruning watercolor — dormant cut to outward bud, zones 7–9 (Zone 8b: January is legal, and that is how people get sloppy)" width="2707" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 8b: January is legal, and that is how people get sloppy. Staged stand-in (prune.04.usda-pom-winter-cutting); USDA NAL Pomological Watercolor POM00001042, J. Marion Shull, PD. Prefer publish photo from D:\FIGS\Figs — late January dormant cut to a bud. See RIGHTS.md.</figcaption>
+</figure>
 8b’s card is 15 to 20 °F. A dormant fig that had a real autumn — no August fertilizer, no September flood of nitrogen, leaves down, wood brown — will usually take that. So the internet says prune in January. The internet is not wrong. It is incomplete.
 
 January is legal. It is not mandatory, and it is not a dare.
