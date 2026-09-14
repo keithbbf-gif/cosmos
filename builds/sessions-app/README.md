@@ -32,7 +32,7 @@ writes nothing under the runtime root and appends nothing to the ledger.
 | `/api/sessions` | `sessions-app-list/1` — id-stable rows, legal counted not opened |
 | `/api/sessions/open?id=` | `sessions-app-open/1` — one session, over Core |
 | `/api/verbs` | the verb set with per-verb bind status |
-| `/api/verbs/scan` | the one BOUND verb, against the store declared at `serve` |
+| `/api/verbs/<verb>` | run a BOUND verb (query supplies path args; scan uses `--store` at `serve`) |
 | `/api/timeline` | `sessions-app-timeline/1` over the `rolled-event/1` feed |
 
 ## Typed states
@@ -46,7 +46,8 @@ line refuses the whole timeline naming the line.
 Canonical transcript stays `{id}.ctr.jsonl` + `{id}.ctr.decl.json` (sha-only),
 owned by `builds/session-tools/`.
 
-Verb bind status this slice: **scan BOUND**, the other seven DECLARED
-(`VERB_NOT_BOUND`) — a route is not a proof.
+Verb bind status this slice: **seven BOUND** (scan load convert migrate diff check
+anonymize), **strip DECLARED** (`VERB_NOT_BOUND`) — a route is not a proof.
+Missing path args refuse **BAD_INPUT**.
 
 Tests: `tests/test_sessions_app.py`
