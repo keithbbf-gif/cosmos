@@ -79,17 +79,30 @@ SKIP_REQUIRES_LIVE = "requires-live"
 
 FIRECRAWL_RESPONDER = "firecrawl/v2-research-papers"
 
+# SGH (research) and GBW (Grok Build / gw-api) share one xAI engine.
+# They are two seats, not two independent checks of each other.
+SGH_GBW_NOTE = (
+    "SGH+GBW are not independent checks of each other "
+    "(same xAI/Grok engine)"
+)
+
 # Wired hands (not a static registry). Each row is probed live; fail-closed.
 # `module` -> an incumbent node client wrapped by NodeRail.
 # `satellite` -> a COSMOS-native rail module with its own probe().
 # neither    -> the Anthropic seat path.
 WIRED_NODES = (
     {"link_id": "sgh-api", "rail_type": "API", "src": "core", "dst": "models",
-     "family": "g46-grok", "module": "bts_sgh"},
+     "family": "g46-grok", "module": "bts_sgh",
+     "node": "SGH", "role": "research",
+     "independent_check": False, "same_engine_as": ["gw-api"],
+     "independence_note": SGH_GBW_NOTE},
     {"link_id": "gem-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "gem-vertex", "module": "bts_gem"},
     {"link_id": "gw-api", "rail_type": "API", "src": "core", "dst": "models",
-     "family": "gw-grok-build", "module": "bts_gw"},
+     "family": "gw-grok-build", "module": "bts_gw",
+     "node": "GBW", "role": "code/build/tooling",
+     "independent_check": False, "same_engine_as": ["sgh-api"],
+     "independence_note": SGH_GBW_NOTE},
     {"link_id": "oa-api", "rail_type": "API", "src": "core", "dst": "models",
      "family": "oa-openai", "module": "bts_oa_api"},
     {"link_id": "claude-cli", "rail_type": "CLI", "src": "core", "dst": "code",
@@ -181,6 +194,30 @@ def _cursor_probe(paths: CosmosPaths) -> dict:
                 "link_id": "cursor-api"}
 
 
+def identity_for(link_id: str) -> dict:
+    """Stable node identity for a wired row. Empty dict if the id is unknown."""
+    for spec in WIRED_NODES:
+        if spec.get("link_id") == link_id:
+            out = {}
+            for key in ("node", "role", "independence_note",
+                        "independent_check", "same_engine_as", "family"):
+                if key in spec:
+                    out[key] = spec[key]
+            return out
+    return {}
+
+
+def _attach_identity(rec: dict, spec: dict) -> dict:
+    """Copy identity/independence onto a prove record. Never invents a model."""
+    if not isinstance(rec, dict):
+        return rec
+    for key in ("node", "role", "independence_note",
+                "independent_check", "same_engine_as"):
+        if key in spec and rec.get(key) in (None, "", []):
+            rec[key] = spec[key]
+    return rec
+
+
 def _norm_proof(r: dict) -> dict:
     """Shape a rail result into the prove() contract. Never invents a model."""
     body = str(r.get("body") or r.get("text") or r.get("result") or "")
@@ -205,6 +242,27 @@ def _node_live_call(paths: CosmosPaths, module: str) -> dict:
     from cosmos_node_rails import NodeRail
     rail = NodeRail(module, paths=paths)
     return _norm_proof(rail.dispatch({"prompt": LIVE_PROMPT}))
+
+
+def _gw_live_call(paths: CosmosPaths) -> dict:
+    """GBW / gw-api: model is ONLY the name bts_gw.ask() emitted.
+
+    Same engine as sgh-api. A missing model is empty (proof fails), never
+    the module name. model_source names the vendor field.
+    """
+    rec = _node_live_call(paths, "bts_gw")
+    rec["model_source"] = "bts_gw.ask() response model"
+    rec["node"] = "GBW"
+    rec["role"] = "code/build/tooling"
+    rec["independent_check"] = False
+    rec["same_engine_as"] = ["sgh-api"]
+    rec["independence_note"] = SGH_GBW_NOTE
+    # Refuse a synthesized identity if a caller still stuffed the module
+    # name into model (pre-honesty NodeRail). That is not a vendor name.
+    if str(rec.get("model") or "").strip() in ("bts_gw", "gw-api", "GBW"):
+        rec["model"] = ""
+        rec["ok"] = False
+    return rec
 
 
 def _claude_live_call(paths: CosmosPaths) -> dict:
@@ -481,6 +539,8 @@ def probe_module_for(spec: dict) -> str:
 
 def default_live_call(paths: CosmosPaths, spec: dict):
     def _call():
+        if spec.get("link_id") == "gw-api":
+            return _gw_live_call(paths)
         if spec.get("module"):
             return _node_live_call(paths, spec["module"])
         sat = spec.get("satellite")
@@ -610,10 +670,21 @@ def map_wired_nodes(paths: CosmosPaths, registry, *, live: bool = False,
                        {"link_id": lid, "ok": False, "registered": False,
                         "skipped": skip})
             continue
+        live = call or default_live_call(paths, spec)
+
+        def _identified():
+            raw = live()
+            rec0 = dict(raw) if isinstance(raw, dict) else {
+                "ok": False, "rc": 2, "body": "", "model": "",
+                "detail": f"live_call returned {type(raw).__name__}",
+            }
+            return _attach_identity(rec0, spec)
+
         rec = registry.prove(
             lid, spec["rail_type"], spec["src"], spec["dst"],
-            call or default_live_call(paths, spec))
+            _identified)
         rec["family"] = spec["family"]
+        _attach_identity(rec, spec)
         out.append(rec)
     return out
 
@@ -674,6 +745,10 @@ def poll_once(root: str, *, live: bool = False, live_calls: dict | None = None,
             {"link_id": p.get("link_id"), "ok": p.get("ok"),
              "registered": p.get("registered"), "model": p.get("model"),
              "model_source": p.get("model_source"),
+             "node": p.get("node"), "role": p.get("role"),
+             "independence_note": p.get("independence_note"),
+             "independent_check": p.get("independent_check"),
+             "same_engine_as": p.get("same_engine_as"),
              "rc": p.get("rc"), "body_bytes": p.get("body_bytes"),
              "skipped": p.get("skipped"), "detail": p.get("detail")}
             for p in node_proofs

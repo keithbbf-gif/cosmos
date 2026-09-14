@@ -409,15 +409,21 @@ _CDECK_PANEL_MOD = {
 
 
 def _cdeck_panel_get(mod: str):
-    """Lazy-import a builds/cdeck handle_get. One dispatch line, no new
-    measurement — the binder already exists; this is the Core route."""
+    """Lazy-import a builds/cdeck handle_get. Prefer the binder in
+    builds/cdeck when present; fall back to cosmos/ so an uninitialized
+    gitlink does not 503 a live Core. No new measurement."""
     import importlib
     import sys
     from pathlib import Path as _P
     d = str((_P(__file__).resolve().parent.parent / "builds" / "cdeck").resolve())
     if d not in sys.path:
-        sys.path.append(d)
-    return getattr(importlib.import_module(mod), "handle_get")
+        sys.path.insert(0, d)
+    try:
+        return getattr(importlib.import_module(mod), "handle_get")
+    except ImportError:
+        if d in sys.path:
+            sys.path.remove(d)
+        return getattr(importlib.import_module(mod), "handle_get")
 
 
 def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
@@ -436,35 +442,80 @@ def _cdeck_panel_invoke(hg, root, *, expected_tree_id, query=None):
     return hg(root, **kw)
 
 
+def _annotate_nodemap_row(row: dict) -> dict:
+    """Attach GBW/SGH identity from the prober table. Never invents a model."""
+    if not isinstance(row, dict):
+        return row
+    out = dict(row)
+    lid = out.get("link_id") or out.get("id")
+    try:
+        from cosmos_rails_prober import identity_for
+        ident = identity_for(str(lid or ""))
+    except Exception:  # noqa: BLE001
+        ident = {}
+    for key, val in ident.items():
+        if out.get(key) in (None, "", []):
+            out[key] = val
+    return out
+
+
 def _nodemap_overlay_kernel(kernel, body: dict) -> dict:
     """Disk rails.json is proven-live only (often count 0). GET /nodemap is
     served while Kernel is up, so overlay registry.matrix() — the same rows
     GET /rails already returns — when the disk projection has no rows.
-    Does not rewrite the file; ledger stays authority."""
+    Always annotate identity + stale list so System/Forge can paint RED
+    and the SGH+GBW independence note. Does not rewrite the file."""
     if not isinstance(body, dict) or body.get("ok") is False:
         return body
     reg = body.get("registry") if isinstance(body.get("registry"), dict) else {}
     disk_mx = reg.get("matrix") if isinstance(reg.get("matrix"), list) else []
-    if disk_mx:
-        return body
     kr = getattr(kernel, "registry", None)
-    if kr is None:
+    source = reg.get("source") or "disk"
+    mx = list(disk_mx)
+    stale = list(reg.get("stale") or [])
+    if not mx and kr is not None:
+        try:
+            mx = list(kr.matrix() or [])
+            source = "kernel.matrix"
+        except Exception:  # noqa: BLE001
+            mx = []
+        if kr is not None:
+            try:
+                stale = list((kr.stale_nodes() or {}).values())
+            except Exception:  # noqa: BLE001
+                stale = stale
+    if not mx and not stale:
         return body
-    try:
-        mx = kr.matrix()
-    except Exception:  # noqa: BLE001
-        return body
-    if not mx:
-        return body
+    mx = [_annotate_nodemap_row(r) for r in mx]
+    stale = [_annotate_nodemap_row(r) for r in stale]
     meta = dict(reg)
     meta["available"] = True
-    meta["source"] = "kernel.matrix"
+    meta["source"] = source
     meta["schema"] = meta.get("schema") or "cosmos-registry/1"
     meta["matrix"] = mx
+    meta["stale"] = stale
     meta["composed"] = len(mx)
     meta["count"] = sum(1 for r in mx if r.get("verified") is True)
+    meta["stale_count"] = len(stale)
     out = dict(body)
     out["registry"] = meta
+    topo = out.get("topology") if isinstance(out.get("topology"), dict) else {}
+    nodes = list(topo.get("nodes") or [])
+    have = {n.get("id") for n in nodes if isinstance(n, dict)}
+    for r in mx + stale:
+        lid = r.get("link_id") or r.get("id")
+        if not lid or lid in have:
+            continue
+        nodes.append({
+            "id": lid,
+            "label": r.get("node") or lid,
+            "type": "rail",
+            "proof_state": r.get("proof_state"),
+            "model": r.get("model"),
+            "independence_note": r.get("independence_note"),
+        })
+        have.add(lid)
+    out["topology"] = {**topo, "nodes": nodes, "edges": topo.get("edges") or []}
     return out
 
 

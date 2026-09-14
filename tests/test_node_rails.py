@@ -135,6 +135,11 @@ def main() -> int:
     check("incumbent model/via preserved (not overwritten by module name)",
           lambda: nr2["ok"] and nr2["model"] == "gemini-2.5-flash"
           and nr2.get("via") == "vertex" and nr2["text"] == "hi")
+    _install_fake("fake_unnamed", lambda p, **k: {
+        "ok": True, "text": "PONG", "node": "bts_gw"})
+    unnamed = NodeRail("fake_unnamed").dispatch({"prompt": "x"})
+    check("missing vendor model stays empty (never synthesized from module)",
+          lambda: unnamed["text"] == "PONG" and unnamed["model"] == "")
 
     rails_src = (Path(__file__).resolve().parent.parent / "cosmos"
                  / "cosmos_node_rails.py").read_text(encoding="utf-8")

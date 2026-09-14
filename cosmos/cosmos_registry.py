@@ -147,14 +147,27 @@ class Registry:
         rec["link_id"] = link_id
         if proven and link_id not in self.state():
             self.register(link_id, rail_type, src, dst, policy_rank=policy_rank)
-        self.ledger.append("PROBE_RESULT", {
+        payload = {
             "link_id": link_id,
             "ok": bool(proven),
             "detail": str(rec.get("detail") or rec.get("kind") or "")[:300],
             "model": str(rec.get("model") or "")[:120],
             "rc": rec.get("rc"),
             "body_bytes": rec.get("body_bytes"),
-        })
+        }
+        # Identity / independence ride with the proof so the projection
+        # and cDeck panes can paint them. Never invented here.
+        for key, cap in (("model_source", 80), ("node", 32),
+                         ("independence_note", 200), ("role", 64)):
+            val = rec.get(key)
+            if val not in (None, ""):
+                payload[key] = str(val)[:cap]
+        if rec.get("independent_check") is not None:
+            payload["independent_check"] = bool(rec.get("independent_check"))
+        same = rec.get("same_engine_as")
+        if isinstance(same, (list, tuple)):
+            payload["same_engine_as"] = [str(x)[:32] for x in same][:8]
+        self.ledger.append("PROBE_RESULT", payload)
         rec["registered"] = bool(proven) and link_id in self.live_nodes()
         return rec
 
@@ -178,7 +191,7 @@ class Registry:
             if int(v.get("body_bytes") or 0) <= 0:
                 continue
             last = v.get("last_probe")
-            out[lid] = {
+            row = {
                 "link_id": lid,
                 "rail_type": v["claim"]["rail_type"],
                 "src": v["claim"]["src"],
@@ -191,6 +204,12 @@ class Registry:
                 "last_probe": last,
                 "age_s": (now - last) if last is not None else None,
             }
+            for key in ("model_source", "node", "role",
+                        "independence_note", "independent_check",
+                        "same_engine_as"):
+                if v.get(key) not in (None, "", []):
+                    row[key] = v.get(key)
+            out[lid] = row
         return out
 
     @staticmethod
@@ -290,6 +309,11 @@ class Registry:
                     s[p["link_id"]]["rc"] = p.get("rc")
                 if "body_bytes" in p:
                     s[p["link_id"]]["body_bytes"] = p.get("body_bytes")
+                for key in ("model_source", "node", "role",
+                            "independence_note", "independent_check",
+                            "same_engine_as"):
+                    if key in p:
+                        s[p["link_id"]][key] = p.get(key)
             return s
         return self.ledger.project(fold, {})
 
@@ -299,11 +323,31 @@ class Registry:
         now = self._clock()
         rows = []
         for lid, v in sorted(self.state().items()):
-            rows.append({"link_id": lid,
-                         "rail_type": v["claim"]["rail_type"],
-                         "route": f"{v['claim']['src']}->{v['claim']['dst']}",
-                         "verified": v["ok"],
-                         "age_s": (now - v["last_probe"]) if v["last_probe"] else None})
+            age = (now - v["last_probe"]) if v["last_probe"] else None
+            # verified stays the last measurement (None = never probed).
+            # proof_state is the pane paint: STALE is RED, never a silent green.
+            if v["ok"] is None or v["last_probe"] is None:
+                proof_state = "UNMEASURED"
+            elif v["ok"] and age is not None and age <= PROOF_TTL_S:
+                proof_state = "LIVE"
+            elif v["ok"]:
+                proof_state = "STALE"
+            else:
+                proof_state = "FAILED"
+            row = {"link_id": lid,
+                   "rail_type": v["claim"]["rail_type"],
+                   "route": f"{v['claim']['src']}->{v['claim']['dst']}",
+                   "verified": v["ok"],
+                   "age_s": age,
+                   "proof_state": proof_state}
+            if v.get("model") not in (None, ""):
+                row["model"] = v.get("model")
+            for key in ("model_source", "node", "role",
+                        "independence_note", "independent_check",
+                        "same_engine_as"):
+                if v.get(key) not in (None, "", []):
+                    row[key] = v.get(key)
+            rows.append(row)
         return rows
 
     def route(self, src: str, dst: str,

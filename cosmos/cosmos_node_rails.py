@@ -121,17 +121,21 @@ class NodeRail:
                     "node": self.module_name, "model": self.module_name}
         if isinstance(r, dict):
             text = r.get("text") or r.get("full_text") or ""
+            # model = vendor-emitted name only. node / module_name are not a
+            # model: synthesizing them made gw-api (GBW) look proven when
+            # bts_gw.ask() named nothing. proof_ok fails closed on empty.
+            model = str(r.get("model") or "").strip()
             out = {"ok": bool(r.get("ok", True)), "kind": r.get("kind") or "API",
                    "text": text, "usd": r.get("usd"),
                    "node": r.get("node") or self.module_name,
-                   "model": r.get("model") or r.get("node") or self.module_name,
+                   "model": model,
                    "detail": r.get("detail") or r.get("reason"),
                    "rc": r.get("rc"), "via": r.get("via"),
                    "stderr_tail": str(r.get("stderr_tail") or r.get("stderr") or ""),
                    "reason": r.get("reason")}
         else:
             out = {"ok": True, "kind": "API", "text": str(r),
-                   "node": self.module_name, "model": self.module_name}
+                   "node": self.module_name, "model": ""}
         return fail_closed_empty(out)
 
 

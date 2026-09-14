@@ -145,6 +145,19 @@ def main() -> int:
                   "codex-cli",
                   "cursor-api", "firecrawl-web", "groq-api", "playwright-dom",
                   "github-forge", "gitlab-forge"])
+        gw = by_id["gw-api"]
+        sgh = by_id["sgh-api"]
+        check("GBW registry row names vendor-emitted model only",
+              lambda: gw["model"] == "grok-build-0.1"
+              and gw.get("node") == "GBW"
+              and gw.get("role") == "code/build/tooling")
+        check("SGH+GBW independence notes are reciprocal, not two checks",
+              lambda: gw.get("independent_check") is False
+              and sgh.get("independent_check") is False
+              and "sgh-api" in (gw.get("same_engine_as") or [])
+              and "gw-api" in (sgh.get("same_engine_as") or [])
+              and "not independent" in str(gw.get("independence_note") or "").lower()
+              and gw.get("independence_note") == sgh.get("independence_note"))
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"
                / "cosmos_rails_prober.py").read_text(encoding="utf-8")
