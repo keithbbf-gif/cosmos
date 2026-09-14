@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 7
 cultivar: LSU Purple
@@ -44,7 +44,7 @@ It is not Scott’s Black. Scott’s Black is large, round, plump, red pulp, lat
 
 It is not [Black Mission](black-mission). Mission is Franciscana, a California commercial common fig, two-crop romance, disappointing-in-the-South hardiness on Alabama’s sheet. Purple is a Gulf release.
 
-It is not Violette de Bordeaux / Negronne. Different argument, different draft. It is not a Turkey type with a paint job. If your “Purple” is brown, early, and sugar, you may have the [Brown Turkey](brown-turkey) pile. If it is black and late and huge, you may have a wish. Year two.
+It is not Violette de Bordeaux / Negronne. Different argument, different profile. It is not a Turkey type with a paint job. If your “Purple” is brown, early, and sugar, you may have the [Brown Turkey](brown-turkey) pile. If it is black and late and huge, you may have a wish. Year two.
 
 Jack did not put LSU Purple on his short plate list. He put [Jack Lily](lsu-jack-lily), Red Sicilian, Negra d’Agde. Different jobs. Purple is the Gulf producer that gets you eating while the collection is still a parking lot of cups.
 

@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 25
 cultivar: Olympian
@@ -67,7 +67,7 @@ UAEX: souring when water enters the eye, worse after rain plus heat. Large fruit
 
 Pick in the morning. Neck wilt. Give. Soft. Do not wait for jet-black if the skin is already thin and the forecast is a storm. A day-early large fig in the fridge at about **40°F** is still a fig. A day-late large fig on the ground is a beetle farm.
 
-Even water. Drought then flood is how large figs split. The how-to pack already unpacked that. This page will not restage it. Afternoon cloth in July is South Arkansas, not a personality. **6–8 hours** of sun. A purple fig in deep shade is still shade.
+Even water. Drought then flood is how large figs split. FigRoots how-to posts already unpacked that. This page will not restage it. Afternoon cloth in July is South Arkansas, not a personality. **6–8 hours** of sun. A purple fig in deep shade is still shade.
 
 Nematodes: pots. Pick The Right Fig already said if you have nematodes you grow in pots. Olympian is not a nematode-resistant fairy tale. LSU Purple gets that rumor from release notes. Different plant.
 

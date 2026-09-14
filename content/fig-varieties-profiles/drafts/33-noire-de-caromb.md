@@ -21,7 +21,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 33
 cultivar: Noire de Caromb
@@ -52,7 +52,7 @@ Birds: dark, lots. Net. They will sample each one as if they were shopping. A gr
 
 Split: volume figs get left on the tree. Do not. Morning pick. Neck wilt. Give. Soft. A day-early dark fig in the fridge at about **40°F** is still a fig. A day-late dark fig on the ground is vinegar and wings.
 
-Even water. Drought then flood throws crop and unzips what stays. The how-to pack already unpacked drop and split. This page will not restage it.
+Even water. Drought then flood throws crop and unzips what stays. FigRoots how-to posts already unpacked drop and split. This page will not restage it.
 
 Season: not the latest of the late, in the talk. That still is not Ronde-de-Bordeaux-early. [VERIFY] dates. I will not invent a Saline County soften. Write the first ripe morning. Write the last hard one. GDD still matters. A “not the latest” French dark can still lose a cool September.
 
@@ -90,7 +90,7 @@ If the first year is sparse, wait. A young common fig will drop cups and lie. Th
 
 A productive dark also means a picking job. Mississippi State gave Southern Brown Turkey about a 60-day pick. That is a harvest job on a tool tree. If Caromb is the volume dark in the stories, you walk it the same way. If you will not walk the tree, you will wear it — sour, split, birds, and a forum post about “the year it all went at once.”
 
-Rust still yellows a loaded canopy. ANR-1145: heavy defoliation cuts fruit size and quality. Rake. Do not leave a souring pile under a productive tree. Dried-fruit beetles breed in that pile. The how-to pack already said sanitation. This page will not restage it.
+Rust still yellows a loaded canopy. ANR-1145: heavy defoliation cuts fruit size and quality. Rake. Do not leave a souring pile under a productive tree. Dried-fruit beetles breed in that pile. FigRoots how-to posts already said sanitation. This page will not restage it.
 
 Do not mail cuttings as Noire de Caromb until a productive dark berry fig repeats from a careful source. Town names sell. Fruit does not care about the town.
 

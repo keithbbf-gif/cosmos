@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 13
 cultivar: LSU Jack Lily (unofficial)
@@ -70,7 +70,7 @@ I will stand on his words. Sweet. Moderate berry. Very nice balance. Very tight 
 
 Pick: morning. Soft. Small figs hide. Walk the tree. Neck wilt. Give. October 1 on a 2024 card is late for a “small early fig” story. [VERIFY] against this year’s notes. A late small fig is still useful if it hangs through a storm. A late small fig that never softens is a cup of leaves. Write dates. I will not invent a Saline County number, and I will not promote 2024 into a county calendar.
 
-Rain: tight eye is why this plant belongs in 8a talk. Tight is a screen, not a vault. Souring is water in the eye plus heat. Split: small figs still split if you water like a hose after a drought. Even. Not heroic.
+Rain: the ostiole is why this plant belongs in 8a talk. Tight eye is a screen, not a vault. Souring is water in the ostiole plus heat. Split: small figs still split if you water like a hose after a drought. Even. Not heroic.
 
 Birds: green helps. Tight eye helps. Neither is a net. A ripe fig still smells like lunch.
 

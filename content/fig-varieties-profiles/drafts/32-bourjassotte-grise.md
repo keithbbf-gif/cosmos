@@ -21,7 +21,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 32
 cultivar: Bourjassotte Grise
@@ -78,7 +78,7 @@ If it finishes and the plate is rich, keep it and take wood. If it finishes and 
 
 Sister slugs keep walking in. LSU Purple is an official dark Gulf fig with purple stems. Scott’s Black is late and official. Neither wears this bloom. A dusty thumbprint on a gray-violet skin is the field mark. If your fruit is shiny black with no dust, you have a different dark. If your fruit is small, wine-red inside, and almost black, you may have VdB. Relabel.
 
-Rust and a late canopy still matter. A bloomed fig that loses its leaves in September will not finish the last hanging fruit. Rake. Even water. The how-to pack already unpacked rust.
+Rust and a late canopy still matter. A bloomed fig that loses its leaves in September will not finish the last hanging fruit. Rake. Even water. FigRoots how-to posts already unpacked rust.
 
 Do not mail cuttings as Bourjassotte Grise until the bloomed gray-violet fruit repeats and the cut is worth the name. Madeira money and Grise money attract the same wrong wood. Trusted sellers. 1–3 years. The introduction page already said it.
 

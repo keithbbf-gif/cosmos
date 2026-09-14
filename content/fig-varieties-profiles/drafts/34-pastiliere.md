@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 34
 cultivar: Pastilière
@@ -31,7 +31,7 @@ fig_type: common
 
 Pastilière — you will see it without the accent — is an early dark fig people either love for the calendar or curse for the mess. Grower talk: small-to-medium, dark, berry-leaning, early, a dropper. Figs swell, then a wind or a dry spell or a mood puts them on the ground.
 
-The how-to pack already said figs drop for reasons that are not a curse: water, heat, type, a Smyrna without pollen, a young plant. Pastilière has a reputation on top of those reasons. [VERIFY] on our tree before we call it a chronic dropper. I did not plate it on The Fig Jam.
+FigRoots how-to posts already said figs drop for reasons that are not a curse: water, heat, type, a Smyrna without pollen, a young plant. Pastilière has a reputation on top of those reasons. [VERIFY] on our tree before we call it a chronic dropper. I did not plate it on The Fig Jam.
 
 Common type. No wasp. If it drops at marble size every time, look at type and water first.
 

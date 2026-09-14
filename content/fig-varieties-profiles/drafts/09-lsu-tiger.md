@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 9
 cultivar: LSU Tiger
@@ -97,7 +97,7 @@ Jam: large fruit fills a kettle if you get a pile. A short year gives you a few 
 
 Kid bowl: a big fig a child can see. The green stripe is the show-and-tell. The ripe fig is the snack. Do not let them eat the striped hard ones. That is how “LSU is overrated” starts in a kitchen.
 
-If you wanted the conversation-piece stripes on the ripe skin, buy Panache and accept Alabama’s “mediocre in the South” warning. Different job. Different draft.
+If you wanted the conversation-piece stripes on the ripe skin, buy Panache and accept Alabama’s “mediocre in the South” warning. Different job. Different profile.
 
 ## How I would run it
 

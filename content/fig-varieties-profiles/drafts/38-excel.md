@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 38
 cultivar: Excel
@@ -45,7 +45,7 @@ Flavor: honey, amber, “superb” on a West Coast sheet and on Alabama’s tria
 
 Season: treat as earlier than Gold until dates say otherwise. Earlier yellow is useful. LSU Gold is the official large late yellow — average cold, moderate rust talk, Gulf Coast recommendation. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already said GDD is a count. A yellow fig that finishes while Gold is still hard is a clock tool. [VERIFY] the first soften and write it on the tag. I will not invent a Saline County date.
 
-Champagne is the other official LSU yellow people reach for when they want honey without Gold’s calendar. Different release. Different draft. Do not “upgrade” an Excel by calling it Champagne because both are yellow.
+Champagne is the other official LSU yellow people reach for when they want honey without Gold’s calendar. Different release. Different profile. Do not “upgrade” an Excel by calling it Champagne because both are yellow.
 
 ## The parent is allowed to win
 
@@ -69,7 +69,7 @@ Nematodes: pots if the ground is dirty. Excel is not the LSU Purple rumor and it
 
 **Kadota / Dottato** is the canned parent. Greenish white to lemon, open-enough eye, honey. Florida said quality declines in extremely wet weather. If your Excel is that plate, the hybrid did not arrive.
 
-**Peter’s Honey / Lattarula / Blanche** is the Northwest honey argument. Alabama reserved judgment on Lattarula. Different pile. Taste both. Do not merge them to tidy INDEX.
+**Peter’s Honey / Lattarula / Blanche** is the Northwest honey argument. Alabama reserved judgment on Lattarula. Different pile. Taste both. Do not merge them to tidy a tag list.
 
 **White Marseilles / Lemon** is the old Southern yellow yard fig. Some eyes open, some closed. Different history.
 

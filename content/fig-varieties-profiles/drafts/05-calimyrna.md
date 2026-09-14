@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: FigRoots
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 5
 cultivar: Calimyrna (Sari Lop)
@@ -52,7 +52,7 @@ The eye is large and open. Even in California that is a beetle door. In our Augu
 
 [LSU Gold](lsu-gold) is the official Gulf large yellow. [LSU Champagne](lsu-champagne) is the official medium yellow. [Peter’s Honey](peters-honey) / Lattarula is the Northwest honey argument. None of those need a wasp. [Desert King](desert-king) is the San Pedro people confuse with “two-crop magic” — breba without pollen, main crop often a different story. Calimyrna is not San Pedro. It is not common. It is caducous all the way down.
 
-Sierra and Sequoia are later UC common figs bred to *replace* some of the Smyrna headache for growers who still wanted a large yellow fig without a wasp. Different drafts if we write them. They are not Calimyrna. They are the industry admitting the wasp is a job.
+Sierra and Sequoia are later UC common figs bred to *replace* some of the Smyrna headache for growers who still wanted a large yellow fig without a wasp. Different profiles if we write them. They are not Calimyrna. They are the industry admitting the wasp is a job.
 
 A catalog “starter pack” with Calimyrna next to Celeste is selling names. The [introduction](https://figroots.com/an-introduction-to-figs/) already told you to buy from people who have fruit, and to wait 1–3 years to prove type. A Smyrna wastes those years as a leaf bush.
 

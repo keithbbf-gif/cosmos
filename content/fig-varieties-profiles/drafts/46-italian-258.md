@@ -1,7 +1,7 @@
 ---
 title: I-258 was a looking-forward name. The number is not a flavor.
 slug: italian-258
-meta_description: I-258 (Italian 258) is a numbered Italian fig Keith listed as untried in July 2025. Holding profile only — no invented honey notes, no Commons stand-in.
+meta_description: I-258 (Italian 258) is a numbered Italian fig Keith listed as untried in July 2025. Unplated — no invented honey notes, no Commons stand-in.
 author: PapaFig
 tags:
 - italian-258
@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 46
 cultivar: I-258 (Italian 258)
@@ -35,7 +35,7 @@ Collectors call I-258 a honey fig, Italian, often in the same breath as Lattarul
 
 Common type in the listings I trust. Persistent. No wasp. Jack already defined that on [Types of Figs](https://figroots.com/2025/08/17/types-of-figs/). If a numbered Italian drops like a Smyrna, [VERIFY]. We do not start a wasp project in Bradley County because a number sounded Mediterranean.
 
-This page exists so a future editor does not write a tasting note I did not earn. If we have plated it since 25 July 2025, [VERIFY] the date and replace the middle of this draft. Until then, the honest magazine piece is a holding profile.
+This page exists so a future editor does not write a tasting note I did not earn. If we have plated it since 25 July 2025, [VERIFY] the date and replace the middle of this profile. Until then, the honest magazine piece is a honest stub.
 
 I am not a fan of Brown Turkey or Celeste so far. That sentence is plated. This one is not. I will not borrow a mouth from a forum average to fill the hole.
 
@@ -49,7 +49,7 @@ Peter’s Honey, Blanche, Kadota, Champagne, and Excel are all yellow-honey conv
 
 Jack did not rank it. He ranked Jack Lily, which is a small green berry fig, not a honey number. [Fig Reviews](https://figroots.com/fig_reviews_archive/) already scored that plant. Do not move his ranking onto a number he did not name.
 
-I will not invent a ripening date for Saline County. I will not invent an ostiole grade. I will not invent a brix number. I will not write “rich honey with notes of…” in a caption. I will not caption a Commons yellow fig as 258. I will not merge it with Peter’s Honey to tidy INDEX.
+I will not invent a ripening date for Saline County. I will not invent an ostiole grade. I will not invent a brix number. I will not write “rich honey with notes of…” in a caption. I will not caption a Commons yellow fig as 258. I will not merge it with Peter’s Honey to tidy a tag list.
 
 ## Sister slugs — the yellow bench we will not collapse
 
@@ -61,7 +61,7 @@ I will not invent a ripening date for Saline County. I will not invent an ostiol
 
 **Excel** is Condit’s 1975 Kadota hybrid: medium yellow, amber pulp, oblate to spherical, early Southeast trials promising, seems very hardy. Synonym: Kadota Hybrid. Different paper. Different year.
 
-**LSU Champagne** and **LSU Gold** are official yellows. Gold is large and late. Champagne is the other Gulf honey people reach for. Different stickers. Different drafts.
+**LSU Champagne** and **LSU Gold** are official yellows. Gold is large and late. Champagne is the other Gulf honey people reach for. Different stickers. Different profiles.
 
 **Yellow Long Neck** was the first looking-forward name in the same sentence. Holding page. A neck is not a number. Do not merge them because both were wishes in July.
 

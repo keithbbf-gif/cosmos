@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 31
 cultivar: Col de Dame Blanc
@@ -75,7 +75,7 @@ Pair it with an early fig. Ronde, Pastilière, Jack Lily, a Celeste-class brown.
 
 If it finishes and you like honey-berry, keep it. If it finishes and you wanted Negra, you planted the wrong sister. If it does not finish, graft. Keep the hole. We like a long trial. We still do not owe a marketplace a third autumn of hard beads.
 
-Rust will still yellow a late canopy in a wet September. ANR-1145 already said heavy defoliation cuts fruit size and quality. Rake. Do not feed the fungus a pile of wet leaves under a fig you were hoping would finish. The how-to pack already unpacked rust. This page will not restage it.
+Rust will still yellow a late canopy in a wet September. ANR-1145 already said heavy defoliation cuts fruit size and quality. Rake. Do not feed the fungus a pile of wet leaves under a fig you were hoping would finish. FigRoots how-to posts already unpacked rust. This page will not restage it.
 
 A green neck is also a pick cue. When the neck wilts and the body gives, you are late enough. When the neck is still stiff and the body is a marble, you are early. When the neck is a leather strap and the body is split, you waited for a color that was never coming.
 

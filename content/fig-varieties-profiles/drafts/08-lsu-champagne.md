@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 8
 cultivar: LSU Champagne
@@ -86,7 +86,7 @@ Prune: people hat-rack it like a Turkey because “LSU figs are tough.” O’Ro
 
 Fresh: honey-leaning yellow, not berry. Lazy Dog had young trees and no plate yet in their writeup. I did not put Champagne on the Fig Jam list. I will eat a yellow fig in a dry week and tell you if it is a conversation when I have repeated fruit. Until then it is a Gulf tool with a party name.
 
-Jam: medium fruit, Celeste-class volume if the tree is happy. Pale jar. If you wanted a kettle of giant gold figs, you wanted Gold. Different draft. Different clock. If the cut is pink-red and the seller said Champagne, look at [Hollier](lsu-hollier) before you write a release name on a leak.
+Jam: medium fruit, Celeste-class volume if the tree is happy. Pale jar. If you wanted a kettle of giant gold figs, you wanted Gold. Different profile. Different clock. If the cut is pink-red and the seller said Champagne, look at [Hollier](lsu-hollier) before you write a release name on a leak.
 
 Kid bowl: a ripe yellow fig a child can see. Easier sell than a small brown Celeste if the kid judges with their eyes. Still not a soda. Still not Gold.
 

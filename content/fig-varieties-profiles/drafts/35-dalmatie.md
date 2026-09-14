@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 35
 cultivar: Dalmatie
@@ -43,7 +43,7 @@ Brunswick / Magnolia / Madonna / Dalmatian is a bronze-yellow open-eye preserve 
 
 If your “Dalmatie” is bronze and open and early-mid, you may have Magnolia. If it is grass-green and huge and late, you may have this. If a seller writes “Dalmatian Magnolia Dalmatie,” they are making a smoothie out of two continents.
 
-Verte is another green strawberry fig, smaller, and Keith already said Verte splits on us. Different draft. Alabama has two entries — Green Ischia and Verte — in one pile. Collectors argue. I will not settle it here. I will say: our Verte splits. Dalmatie is the large late green people want a bowl from. Do not merge them because both are green inside a strawberry cut.
+Verte is another green strawberry fig, smaller, and Keith already said Verte splits on us. Different profile. Alabama has two entries — Green Ischia and Verte — in one pile. Collectors argue. I will not settle it here. I will say: our Verte splits. Dalmatie is the large late green people want a bowl from. Do not merge them because both are green inside a strawberry cut.
 
 Adriatic / Verdone: California commercial green, light strawberry, disappointing in the South on Alabama’s sheet. I still named Adriatic JH on The Fig Jam. JH is a collector suffix. Dalmatie is not JH. Conadria is the Adriatic hybrid with rebound. Different plant. Col de Dame Blanc is a necked late green. Photograph the neck. Dalmatie is size. Blanc is the lady’s neck. Panache stripes. LSU Gold is yellow-blushed and late. None of those are Dalmatie because the photo was green.
 

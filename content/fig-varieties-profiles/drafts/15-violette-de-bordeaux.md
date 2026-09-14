@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 15
 cultivar: Violette de Bordeaux (Negronne)
@@ -41,7 +41,7 @@ Petite Negri is Mike McConkey’s 1980s introduction. Alabama thinks it is Borde
 
 We have Malta Black in its own folder on the drive. Caption *that* clone as that clone. Do not promote it to VdB because both are dark. Condit’s Malta is Celeste — a small brown sugar fig. Three uses of an island word. Three plants if the fruit says so.
 
-Ronde de Bordeaux shares the city and not the plant. Red Sicilian sits in the Bordeaux family on our [Fig Reviews](https://figroots.com/fig_reviews_archive/) card. Negra d’Agde is its own card. Do not pour them into VdB to tidy INDEX. The word Bordeaux is a family argument. It is not a cultivar.
+Ronde de Bordeaux shares the city and not the plant. Red Sicilian sits in the Bordeaux family on our [Fig Reviews](https://figroots.com/fig_reviews_archive/) card. Negra d’Agde is its own card. Do not pour them into VdB to tidy a tag list. The word Bordeaux is a family argument. It is not a cultivar.
 
 Write the name you can defend with a photo of a small black fig and a deep red cut. If you cannot, write unknown-small-black. The [introduction page](https://figroots.com/an-introduction-to-figs/) already gave you 1–3 years to prove type. Use them.
 

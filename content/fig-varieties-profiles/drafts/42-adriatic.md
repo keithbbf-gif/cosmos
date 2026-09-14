@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 42
 cultivar: Adriatic (Adriatic JH)
@@ -57,7 +57,7 @@ If your plant is a generic “White Adriatic” from a box store, believe Alabam
 
 [Fig Reviews](https://figroots.com/fig_reviews_archive/) already scored Jack Lily — Adriatic family on our card, small, tight, unofficial LSU. Different plant. Do not replace JH with Jack Lily because both say Adriatic in a notebook. Do not replace Jack Lily with a crate Adriatic because the word matched.
 
-Verte is a green strawberry splitter I already named on The Fig Jam. Different draft. Different honesty. If your Adriatic splits like our Verte, write the split. Do not merge the names to tidy a bench.
+Verte is a green strawberry splitter I already named on The Fig Jam. Different profile. Different honesty. If your Adriatic splits like our Verte, write the split. Do not merge the names to tidy a bench.
 
 Conadria is Condit’s Adriatic hybrid, **1957**, yellow-green, light strawberry, rebound from freezes. Different plant. Different winter sentence.
 

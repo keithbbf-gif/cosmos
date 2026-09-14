@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 36
 cultivar: Verte
@@ -75,7 +75,7 @@ Nematodes: pots if the ground is dirty. Verte is not Alma and it is not the LSU 
 
 ## Sister slugs
 
-**Dalmatie** is a large late green strawberry fig. Different draft. Different clock. If your “Verte” is baseball-sized and still hard in October, you may have the size tax without our split sentence.
+**Dalmatie** is a large late green strawberry fig. Different profile. Different clock. If your “Verte” is baseball-sized and still hard in October, you may have the size tax without our split sentence.
 
 **Adriatic / Verdone** is Condit’s commercial green. Alabama called it disappointing in the South. I still named **Adriatic JH** as a favorite. JH is a suffix, not a license to call every green strawberry fig Adriatic, and not a license to call ours Verte.
 

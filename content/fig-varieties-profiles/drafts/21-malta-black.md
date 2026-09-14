@@ -1,7 +1,7 @@
 ---
 title: Malta Black is the clone in the folder. The caption does not get a promotion.
 slug: malta-black
-meta_description: Malta Black is a named dark fig in our D:\FIGS library. Caption that tree. Condit’s Malta is Celeste. These are not automatically the same sentence.
+meta_description: Malta Black is our photographed dark clone — caption that tree. Condit’s Malta is Celeste. These are not automatically the same sentence.
 author: PapaFig
 tags:
 - malta-black
@@ -22,24 +22,24 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 21
 cultivar: Malta Black (our clone)
 fig_type: common
 ---
 
-We have a folder on the KC-PC called `Malta_Black_Fig`. That is a stills folder of a tree we grew. It is not a certificate from Condit.
+We photograph a tree we file as Malta Black. The stills are not a certificate from Condit.
 
 Condit wanted **Malta** as the proper name for Celeste. Celeste is a small brown sugar fig. Malta Black, in collector talk, is a dark fig. Those two sentences do not merge because the word Malta is in both. The island named a lot of fruit. So did tired nurseries.
 
-This draft is an identity page as much as a cultivar page. I would rather be small and true than big and wrong.
+This profile is an identity page as much as a cultivar page. I would rather be small and true than big and wrong.
 
 ## Caption the clone
 
 If we eat a dark fig off the tree we filed under Malta Black, we say: this is our Malta Black. We describe the eye, the size, the pulp, the week it softened. We do not say “a classic Maltese fig” as if that were a USDA grade. We do not say “this is Condit’s Malta.” We do not say “this is Violette de Bordeaux” because the photo is dark.
 
-Jack’s Malta-adjacent talk on the site is not this folder unless the review says so. Red Sicilian is Bordeaux family on the [Fig Reviews](https://figroots.com/fig_reviews_archive/) card. Negra d’Agde is its own card. VdB is the small black, deep-red fight. Ronde de Bordeaux is the early round dark. Do not pour them into Malta Black to tidy INDEX.
+Jack’s Malta-adjacent talk on the site is not this profile unless the review says so. Red Sicilian is Bordeaux family on the [Fig Reviews](https://figroots.com/fig_reviews_archive/) card. Negra d’Agde is its own card. VdB is the small black, deep-red fight. Ronde de Bordeaux is the early round dark. Do not pour them into Malta Black to tidy a tag list.
 
 Alabama [ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/) is blunt on Celeste: Condit writes that its proper name is Malta, but no one uses that name. Synonyms there: Celestial, Conant, Sugar Fig, Tennessee Mountain Fig. Light brown to violet. Strawberry pulp. Small closed eye that stays green until almost ripe. That is the grandpa sugar fig. I am not a fan of Celeste so far. I said that on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). I will not launder Celeste through a dark folder to make either name prettier.
 

@@ -1,7 +1,7 @@
 ---
 title: Yellow Long Neck was on the looking-forward list. That means I had not plated it.
 slug: yellow-long-neck
-meta_description: Yellow Long Neck is a collector fig Keith named as a fruit he wanted to taste in 2025. This draft is a holding page — habit, name pile, and a ban on fake tasting notes.
+meta_description: Yellow Long Neck is a collector fig Keith named as a fruit he wanted to taste in 2025. Unplated as of the interview — habit, name pile, and no fake tasting notes.
 author: PapaFig
 tags:
 - yellow-long-neck
@@ -21,7 +21,7 @@ images:
   source: ours
   folder_pick: Breba 2025
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 43
 cultivar: Yellow Long Neck
@@ -30,7 +30,7 @@ fig_type: common
 
 On 25 July 2025 I told [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) I was looking forward to varieties we had not tried yet. Yellow Long Neck was the first name in that sentence.
 
-This page exists so a future editor does not write a tasting note I did not earn. If we have plated it since, [VERIFY] the date and replace the middle of this draft. Until then, the honest magazine piece is a holding profile.
+This page exists so a future editor does not write a tasting note I did not earn. If we have plated it since, [VERIFY] the date and replace the middle of this profile. Until then, the honest magazine piece is a honest stub.
 
 I am not a fan of Brown Turkey or Celeste so far. That sentence is plated. This one is not. I will not borrow a mouth from a forum average to fill the hole.
 
@@ -46,13 +46,13 @@ If a marketplace photo is a yellow fig with a short fat neck, it is not this. If
 
 ## Sister slugs — four long things are not one cultivar
 
-**Flanders** is Condit’s 1975 Verdone hybrid: greenish yellow with violet stripes, amber pulp, pyriform with a long slender neck, fine flavor, vigorous, not particularly hardy, good on the West Coast. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/) already wrote that sentence. If your “Yellow Long Neck” is striped, you have Flanders or you have Panache. Panache is the chimera — green fruit with yellow stripes, mediocre in the South on Alabama’s sheet. Different draft.
+**Flanders** is Condit’s 1975 Verdone hybrid: greenish yellow with violet stripes, amber pulp, pyriform with a long slender neck, fine flavor, vigorous, not particularly hardy, good on the West Coast. [Alabama ANR-1145](https://www.aces.edu/blog/topics/crop-production/fig-production-guide/) already wrote that sentence. If your “Yellow Long Neck” is striped, you have Flanders or you have Panache. Panache is the chimera — green fruit with yellow stripes, mediocre in the South on Alabama’s sheet. Different profile.
 
 **Hunt** has a long *stem* — a peduncle to 3/4 inch — and a small brown body. Eatonton, 1920s. No synonyms. Do not merge a yellow neck and a brown stalk because both are long.
 
-**Col de Dame** — blanc or noire — has a neck and a late clock. Different color families. Different drafts. A neck is a family of shapes, not a cultivar.
+**Col de Dame** — blanc or noire — has a neck and a late clock. Different color families. Different profiles. A neck is a family of shapes, not a cultivar.
 
-**LSU Gold** is the official large yellow. Upright tree, late enough that 8a has to finish the year. Not a long-neck photograph. **Champagne** is the other official LSU yellow. **Excel** is Condit’s 1975 Kadota hybrid, oblate to spherical — Alabama’s shape words are the opposite of a dramatic neck. **Kadota** is the canned parent, pyriform, open-enough eye. **Peter’s Honey / Lattarula / Blanche** is the Northwest honey argument. I-258 is another looking-forward yellow I had not plated. Same interview. Different holding page.
+**LSU Gold** is the official large yellow. Upright tree, late enough that 8a has to finish the year. Not a long-neck photograph. **Champagne** is the other official LSU yellow. **Excel** is Condit’s 1975 Kadota hybrid, oblate to spherical — Alabama’s shape words are the opposite of a dramatic neck. **Kadota** is the canned parent, pyriform, open-enough eye. **Peter’s Honey / Lattarula / Blanche** is the Northwest honey argument. I-258 is another looking-forward yellow I had not plated. Same interview. Different unplated profile.
 
 Do not merge six yellow ideas because the cut looks amber. We have not earned a cut.
 
@@ -78,7 +78,7 @@ Nematodes: pots if the ground is dirty. A new yellow is not Alma.
 
 I will not invent a ripening date for Saline County. I will not invent an ostiole grade. I will not invent a brix number. I will not write a flavor wheel. I will not put Jack’s ranking on a fig he did not name. Jack’s list was Red Sicilian, Navid’s Unk Dark Greek, Syrian Dark #2, Jack Lilly, NSDC, Negra d’Agde. This name was in my looking-forward sentence, next to White Madeira #1, CLBC, Castel Trosino, I-258, and the rest. Looking forward is a kind of honesty. Pretending you already ate it is not.
 
-I will not use a Commons long-neck as our tree. I will not sell cuttings as Yellow Long Neck from a plant that has not fruited. I will not merge it with Flanders to tidy INDEX.
+I will not use a Commons long-neck as our tree. I will not sell cuttings as Yellow Long Neck from a plant that has not fruited. I will not merge it with Flanders to tidy a tag list.
 
 If we plate it, the next editor writes the cut, the eye, the date, and whether the neck was the photograph or the fruit. This holding paragraph comes out. Until then it stays.
 

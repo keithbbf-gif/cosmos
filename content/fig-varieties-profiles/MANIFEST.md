@@ -1,6 +1,6 @@
 # Fig variety profiles — MANIFEST
 
-Status: **draft** (do not publish live). Voice: `voice_check: human`. Photos: `PHOTO_NOTES.md` + `PHOTO_MANIFEST.md` (`D:\FIGS` first). Sources: `BIBLIOGRAPHY.md`.
+Status: **draft** (do not publish live). Voice: `voice_check: edited` (46 drafts; editor pass 2026-09-14). Photos: `PHOTO_NOTES.md` + `PHOTO_MANIFEST.md` (`D:\FIGS` first). Sources: `BIBLIOGRAPHY.md`.
 
 Scope: `content/fig-varieties-profiles/` only.
 

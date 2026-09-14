@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 2
 cultivar: Celeste
@@ -38,7 +38,7 @@ If your grandpa has one fig, this is often it. Small. Brown to violet. Pink-stra
 
 Condit wrote that the proper name is **Malta**. Almost nobody in a Southern yard says Malta. Alabama lists Celestial, Conant, Sugar Fig, Tennessee Mountain Fig. Florida adds Blue Celeste and Little Brown Sugar. The pattern matters more than the spelling: small, early, closed eye that stays green until the fig is almost ripe, wood that takes more cold than most common figs and less saw than a Turkey type.
 
-“Improved Celeste” is a different fight. The official LSU release is **O’Rourke**, tested as a Celeste improvement, tan-brown, long peduncle, hangs when ripe. A lot of “Improved Celeste” in the trade is ICON or a leak or a wish. Do not eat this page and that tag as one plant. O’Rourke has its own draft.
+“Improved Celeste” is a different fight. The official LSU release is **O’Rourke**, tested as a Celeste improvement, tan-brown, long peduncle, hangs when ripe. A lot of “Improved Celeste” in the trade is ICON or a leak or a wish. Do not eat this page and that tag as one plant. O’Rourke has its own profile.
 
 If a neighbor’s “Celeste” is large, late, and open-eyed, it is not Celeste. Write unknown. Wait for a second year. The introduction page already said it takes **1–3 years** to prove type. A first-year cup can lie.
 
@@ -66,7 +66,7 @@ Alabama’s trouble table is blunt: fruit turns tough and falls in hot, dry weat
 
 Birds will still find a brown fig. They find the dark ones faster. Net or pick.
 
-A late freeze after budbreak is cruel to any early fig. Celeste moves early because it is Celeste. Pots you can roll. In-ground you cover or you take the hit. The late-freeze draft in the how-to pack is that night.
+A late freeze after budbreak is cruel to any early fig. Celeste moves early because it is Celeste. Pots you can roll. In-ground you cover or you take the hit. The late-freeze how-to on FigRoots is that night.
 
 Mosaic mottles leaves on a lot of old yard figs. Condit and the Florida sheet mention it on Mission; Celeste gets it too. Mottled leaves are not a reason to discard a tree that fruits. Dwarfed fruit is a reason to take cuttings off a cleaner neighbor tree and start a new hole.
 
