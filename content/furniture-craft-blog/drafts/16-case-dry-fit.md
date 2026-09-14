@@ -15,16 +15,17 @@ graphic:
   primary: "assets/case-dry-fit/process-flow.svg"
   alt: "Dry-fit gate"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 16
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Case dry-fit checklist before glue — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A case glue-up is not the moment to discover the hinge bore hits a shelf pin or the back panel is 2 mm proud.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Stack the case dry with clamps snug, not crushing. Measure diagonals, flush tops and bottoms, and hang hardware templates. Fix interference now; pare tenons, shim dados, or reroute mortises while your hands are clean.
 
 <figure class="craft-figure">
   <img src="../assets/case-dry-fit/process-flow.svg" alt="Dry-fit gate" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Hardware bored or mortised on scrap offsets before the real sides.
+- Back panel fits in its groove without persuasion.
+- Two dry fits agree on square—if not, find the reluctant joint.

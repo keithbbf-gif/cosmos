@@ -15,16 +15,17 @@ graphic:
   primary: "assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg"
   alt: "Wedged through-tenon"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 40
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Repairing a loose chair with a wedged tenon — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Loose chair joints rattle long before they fall apart. Reglue while the mortise still has wall left; wedge only when the joint needs spread, not as a substitute for clean glue surfaces.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Disassemble, scrape old glue to bare wood, dry-fit. Glue and clamp; drive a wedge across the tenon grain if the mortise is slightly wallowed. Orient the wedge so spread is across grain, not splitting the tenon lengthwise.
 
 <figure class="craft-figure">
   <img src="../assets/repair-loose-chair-wedged-tenon/joinery-diagram.svg" alt="Wedged through-tenon" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Old glue removed to sound wood—shine is not bond.
+- Clamp pressure across the joint until cure, not just the wedge hit.
+- Level wedge proud after cure; do not trim while wet.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/carving-gouge-grind/tool-layout.svg"
   alt: "Gouge bevel profile"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 41
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Carving gouge grind and inside bevel — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Carving gouges need two bevels working together: outside for depth control, inside for reach in tight curves.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Grind the outside bevel to set how deep the tool dives; hone the inside bevel for clearance in concave work. Match the sweep to the curve you are cutting—a wrong sweep fights the grain.
 
 <figure class="craft-figure">
   <img src="../assets/carving-gouge-grind/tool-layout.svg" alt="Gouge bevel profile" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Outside bevel ground square to the centerline of the sweep.
+- Inside bevel polished where it rides the cut surface.
+- Test cut in the same species as the carving blank.

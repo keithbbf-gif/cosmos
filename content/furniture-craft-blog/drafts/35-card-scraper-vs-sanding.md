@@ -15,16 +15,17 @@ graphic:
   primary: "assets/card-scraper-vs-sanding/finish-comparison.svg"
   alt: "Scraper then sand"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 35
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Card scraper vs sanding before finish — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A sharp card scraper cuts torn grain where sandpaper only rounds it. Sanding still has a job—unifying scratch pattern before finish.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Burnish the scraper edge, hook a burr, and take light passes with both hands. Follow with 180–220 to blend the surface when the tear-out is gone. Do not sand first on wild grain—you will embed the tear-out.
 
 <figure class="craft-figure">
   <img src="../assets/card-scraper-vs-sanding/finish-comparison.svg" alt="Scraper then sand" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Scraper burr renewed when shavings turn to dust.
+- Sanding follows scraper, not the reverse, on figured boards.
+- Light raking light to catch remaining tracks before seal coat.

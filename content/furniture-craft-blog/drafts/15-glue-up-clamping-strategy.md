@@ -15,16 +15,17 @@ graphic:
   primary: "assets/glue-up-clamping-strategy/process-flow.svg"
   alt: "Clamp order flow"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 15
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Glue-up clamping: cauls, sequence, and open time — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Glue panic is what happens when you skipped the dry clamp rehearsal. Know the order, the longest open-time joint, and where the cauls go before the bottle opens.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Dry-fit with all clamps you will use. On glue day, spread on the biggest joint first, then sub-assemblies, then check square on the diagonals. Cauls spread pressure; wax paper keeps them from becoming permanent.
 
 <figure class="craft-figure">
   <img src="../assets/glue-up-clamping-strategy/process-flow.svg" alt="Clamp order flow" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Clamp map sketched: which clamp closes which joint first.
+- Squeeze-out wiped with a damp rag on the show faces only.
+- Square checked twice before the glue skins—adjustment time is short.

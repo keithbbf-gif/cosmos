@@ -15,16 +15,17 @@ graphic:
   primary: "assets/holdfast-workholding/tool-layout.svg"
   alt: "Holdfast shaft angle"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 34
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Holdfast workholding for case sides — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Holdfasts work by wedging the shaft in a through hole—bench thickness and hole angle matter more than the logo on the casting.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Strike the holdfast down until the pad clamps the work; lift the handle to release. Angle the hole slightly toward the work so the shaft cams. Thick tops grip better than thin bench lids on torsion boxes.
 
 <figure class="craft-figure">
   <img src="../assets/holdfast-workholding/tool-layout.svg" alt="Holdfast shaft angle" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Hole diameter matches shaft—too big and it spins, too small and it sticks.
+- Pad contacts work before the shaft bottoms in the hole.
+- Test on scrap the same thickness as your case side.

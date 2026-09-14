@@ -15,16 +15,17 @@ graphic:
   primary: "assets/pocket-hole-when-to-use/joinery-diagram.svg"
   alt: "Pocket hole use map"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 45
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-When pocket holes are the right joint — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Pocket screws are fast case joinery—not show joinery. They excel where the hole hides behind a face frame or inside a carcass.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Use them on face frames, cabinet backs, and places the screw angles into end grain on a rail. Skip them on visible tabletops and anywhere a plug would still read as a dot. Clamp during drive so parts do not creep.
 
 <figure class="craft-figure">
   <img src="../assets/pocket-hole-when-to-use/joinery-diagram.svg" alt="Pocket hole use map" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Holes on the hidden face only on delivery pieces.
+- Screw length reaches the far member without poking through.
+- Glue on the joint even with screws—screws are clamps, not the only bond.

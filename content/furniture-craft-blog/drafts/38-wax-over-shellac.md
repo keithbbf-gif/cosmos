@@ -15,16 +15,17 @@ graphic:
   primary: "assets/wax-over-shellac/finish-comparison.svg"
   alt: "Shellac then wax"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 38
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Wax over shellac for low-luster furniture — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Shellac seals; wax dresses the sheen. Together they give a low-luster furniture look you can repair without stripping the world.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Lay down 2–3 lb cut shellac until the grain is filled, then cure fully. Rub paste wax on, buff off when hazy. Spot repairs: alcohol on shellac, wax only where you buff.
 
 <figure class="craft-figure">
   <img src="../assets/wax-over-shellac/finish-comparison.svg" alt="Shellac then wax" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Shellac cured hard—no tack before wax.
+- Thin wax coats; buildup attracts dust and fingerprints.
+- Buff with a clean cloth, not a dirty shop rag.

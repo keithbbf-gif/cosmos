@@ -15,16 +15,17 @@ graphic:
   primary: "assets/sliding-dovetail-shelf/joinery-diagram.svg"
   alt: "Sliding dovetail shelf"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 44
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Sliding dovetail shelf support — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A sliding dovetail holds a shelf from below while letting you install from the back—if the tail tapers and the dado captures.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Cut the tail narrower at the front so it slides in from the back rail. Match the dado taper; too loose rattles, too tight wedges and splits the side. Test with a short offcut before the full shelf length.
 
 <figure class="craft-figure">
   <img src="../assets/sliding-dovetail-shelf/joinery-diagram.svg" alt="Sliding dovetail shelf" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Tail taper consistent along length—story stick for both sides.
+- Slide from back; front capture stops pull-out.
+- Dry slide with wax forbidden until fit is right—wax hides tight spots.

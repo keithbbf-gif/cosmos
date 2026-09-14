@@ -15,16 +15,17 @@ graphic:
   primary: "assets/router-table-setup/tool-layout.svg"
   alt: "Router table feed direction"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 20
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Router table: bit height and fence bearing — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Router tables turn a portable motor into a small shaper—feed direction and bearing contact matter more than bit brand.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Feed against bit rotation so the work pulls into the fence. Set height on scrap; micro-adjust for the full profile. Bearing-guided bits need constant contact—gaps burn or round over.
 
 <figure class="craft-figure">
   <img src="../assets/router-table-setup/tool-layout.svg" alt="Router table feed direction" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Push stick ready before power on—fingers never past the bit line.
+- Fence faces offset when the profile needs it; both faces touch the work.
+- Dust path clear; chips packed under the work lift it off the table.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/curved-apron-template/process-flow.svg"
   alt: "Template routing path"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 42
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Curved apron from a plywood template — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Curved aprons start fair on a plywood template before any hand fairing. The router follows the pattern; your eye follows the template's honesty.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Bandsaw outside the line, screw template to the work, rout with a pattern bit to the bearing. Climb cuts only where you can control exit tear-out. Spokeshave and sand to remove router marks—template gets you close, not done.
 
 <figure class="craft-figure">
   <img src="../assets/curved-apron-template/process-flow.svg" alt="Template routing path" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Template edge smooth—any bump becomes a permanent groove.
+- Pattern bit bearing rides the template, not the fuzz on it.
+- Grain direction noted where the bit exits the cut.

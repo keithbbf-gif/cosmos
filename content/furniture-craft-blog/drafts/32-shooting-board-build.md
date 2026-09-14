@@ -15,16 +15,17 @@ graphic:
   primary: "assets/shooting-board-build/tool-layout.svg"
   alt: "Shooting board section"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 32
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Shooting board for square end grain — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A shooting board turns a plane into a precision square for end grain—if the fence is true and the hook stops the work from shifting.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Build the fence 90° to the plane's path on the sole. The hook catches the workpiece end; plane along the fence with the plane on its side. Start with MDF and hardwood fence; upgrade when you know your favorite plane width.
 
 <figure class="craft-figure">
   <img src="../assets/shooting-board-build/tool-layout.svg" alt="Shooting board section" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Fence checked with a square larger than the board width.
+- Hook height matches typical stock thickness you shoot.
+- Plane sole waxed; end grain burns when the plane stalls.

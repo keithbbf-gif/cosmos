@@ -15,16 +15,17 @@ graphic:
   primary: "assets/steam-bending-form/process-flow.svg"
   alt: "Steam bend cooling"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 17
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Steam bending: form radius and springback — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Steam softens lignin long enough to bend; springback takes back some of the curve the moment you release unless the part cools under restraint.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Bend to slightly tighter radius than your finished arc. Strap the outside face to keep fibers from opening. Leave the piece on the form until it is cool to the touch—rushing guarantees a slow straightening over the next week.
 
 <figure class="craft-figure">
   <img src="../assets/steam-bending-form/process-flow.svg" alt="Steam bend cooling" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Steam time scales with thickness—thin strips need less, not zero.
+- Form radius marked from a story stick, not eyeballed.
+- End blocks stop blowout where the strap ends.

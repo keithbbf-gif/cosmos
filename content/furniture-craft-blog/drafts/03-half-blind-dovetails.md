@@ -15,16 +15,17 @@ graphic:
   primary: "assets/half-blind-dovetails/joinery-diagram.svg"
   alt: "Half-blind socket depth"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 3
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Half-blind dovetails for drawer fronts — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Drawer fronts want the joinery hidden. Half-blind dovetails put the tails on the side and the sockets in the front—depth and tail length have to agree or the front shows a gap.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Set socket depth to your bit or chisel reach, then lay tail length off that depth plus your reveal. Chop the socket from the inside face; keep the outer wall intact. Transfer tails from the socket board, not from memory.
 
 <figure class="craft-figure">
   <img src="../assets/half-blind-dovetails/joinery-diagram.svg" alt="Half-blind socket depth" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Socket depth marked on the inside face; outer show face stays clean.
+- Tail length matches socket depth with reveal allowance baked in.
+- Test from the show face: no shadow lines at the baseline.

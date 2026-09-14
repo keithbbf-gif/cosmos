@@ -15,16 +15,17 @@ graphic:
   primary: "assets/lumber-milling-order/process-flow.svg"
   alt: "Mill four-square sequence"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 26
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Milling lumber: face, edge, thickness — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Milling order is face, edge, thickness—skip a step and your parts come out rhomboids that look square until assembly.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Joint one face flat, joint one edge square to that face, rip width on the table saw, then thickness to final on the planer with the jointed face down. Flip only when both faces need parallel—not before.
 
 <figure class="craft-figure">
   <img src="../assets/lumber-milling-order/process-flow.svg" alt="Mill four-square sequence" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Reference face marked with a shop crayon until parts are cut.
+- Edge jointed before every rip if the board shifted in the stack.
+- Snipe allowance on the last thickness pass—leave extra length to trim.

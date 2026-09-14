@@ -16,16 +16,17 @@ graphic:
   primary: "assets/breadboard-ends/joinery-diagram.svg"
   alt: "Breadboard end movement"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 4
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Breadboard ends that still let the top move — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Breadboard ends tame cupping on wide tops, but they fight the top's width change unless you let the center hold and the ends breathe.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Glue only the center few inches of the tongue into the end cap. Drill the center pin tight; elongate outer pin holes toward the ends. Drawbore if you use pegs—slight offset pulls the shoulder tight without locking the whole width.
 
 <figure class="craft-figure">
   <img src="../assets/breadboard-ends/joinery-diagram.svg" alt="Breadboard end movement" width="640" height="420" loading="lazy" />
@@ -38,6 +39,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Center fixed; end pins in slots, not tight holes.
+- Glue line short at the middle—no squeeze-out bond across the full width.
+- Check end-cap shoulders for twist before pegging.

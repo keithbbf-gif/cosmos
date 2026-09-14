@@ -15,16 +15,17 @@ graphic:
   primary: "assets/chisel-sharpening-jig/tool-layout.svg"
   alt: "Honing guide setup"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 7
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Chisel sharpening on a honing guide — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A honing guide is not cheating—it keeps the primary bevel consistent so your micro-bevel actually does the cutting.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Flatten the back first on stones you trust. Grind the primary bevel once, then hone with the guide set to your angle. Lift the handle slightly for a micro-bevel; two or three strokes, then test on end grain pine.
 
 <figure class="craft-figure">
   <img src="../assets/chisel-sharpening-jig/tool-layout.svg" alt="Honing guide setup" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Back flat and polished for at least the first half inch.
+- Micro-bevel is a few degrees higher—do not grind away the registration face.
+- Strop or finest stone; wire edge comes off on the first cut if you forgot.

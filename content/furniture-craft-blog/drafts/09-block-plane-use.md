@@ -15,16 +15,17 @@ graphic:
   primary: "assets/block-plane-use/tool-layout.svg"
   alt: "Block plane cut direction"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 9
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Block plane: bevel-up shavings for end grain — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Block planes excel at end grain and quick chamfers because the low bed angle shears instead of wedging. They punish you on downhill face grain if you plane the wrong direction.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+On end grain, plane into the uphill fibers—often from the outside corners in. Skew the plane slightly to shorten the effective cutting edge. For face-grain cleanup, try a higher pitch plane if the block chatters.
 
 <figure class="craft-figure">
   <img src="../assets/block-plane-use/tool-layout.svg" alt="Block plane cut direction" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Light passes; thick shavings on end grain tear the far corner.
+- Knife a witness line so you know when the end is square.
+- Plane sole waxed or dry—sticky soles skip on hard species.

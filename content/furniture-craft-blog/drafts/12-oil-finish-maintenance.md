@@ -15,16 +15,17 @@ graphic:
   primary: "assets/oil-finish-maintenance/finish-comparison.svg"
   alt: "Oil finish refresh cycle"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 12
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Oil finish maintenance on hard-use tables — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Oil finishes look honest and feel good, but they are a maintenance relationship, not a one-and-done coat.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Refresh when water soaks in instead of beading. Wipe thin, wipe dry, and let cure days between floods. Stripping is for contamination or built-up gunk—not for every dull week.
 
 <figure class="craft-figure">
   <img src="../assets/oil-finish-maintenance/finish-comparison.svg" alt="Oil finish refresh cycle" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Beading test on an inconspicuous edge before the whole top.
+- No dishes in standing water—oil is not a seal against puddles.
+- Buff with a dry cloth after cure; tacky means it needed a thinner coat.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/wood-movement-across-grain/joinery-diagram.svg"
   alt: "Width change vs grain"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 27
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Wood movement across the grain — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Wood widens and narrows across the grain with humidity. Ignore that and your tabletop splits the breadboard or buckles the screws.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Anchor tabletops in the center along the width; let ends float. Read the diagram for radial vs tangential movement on your species—rule-of-thumb tangential is about double radial on many domestic hardwoods.
 
 <figure class="craft-figure">
   <img src="../assets/wood-movement-across-grain/joinery-diagram.svg" alt="Width change vs grain" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Fasteners elongated where the grain runs across the rail.
+- No rigid glue bond across full width on cross-grain joints.
+- Measure stock at shop RH, not the day the heat failed.

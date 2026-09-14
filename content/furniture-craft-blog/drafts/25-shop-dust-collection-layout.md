@@ -15,16 +15,17 @@ graphic:
   primary: "assets/shop-dust-collection-layout/tool-layout.svg"
   alt: "Dust trunk layout"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 25
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Shop dust collection: hose runs and blast gates — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Dust collection fails when every machine tees into a hose spaghetti with no gates—air follows the path of least resistance and your sander gets nothing.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Run a main trunk to the collector; branch short drops to each tool. Blast gates at each branch so only the active machine pulls. Keep flex hose short; long runs need larger duct, not longer skinny hose.
 
 <figure class="craft-figure">
   <img src="../assets/shop-dust-collection-layout/tool-layout.svg" alt="Dust trunk layout" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Gate closed on idle machines—open only what you are running.
+- Grounded wire in hose runs if static clings chips to walls.
+- Drop hood height set per tool manual, not guessed.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/choosing-hardwood-boards/process-flow.svg"
   alt: "Board defect map"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 29
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Choosing hardwood boards at the yard — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Yard stock is a defect map and a grain direction puzzle. Buy for the parts on your cut list, not for average board feet price alone.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Sketch parts on the board with chalk: knots where screws hide, straight grain on rails, cathedral where it shows. Check twist with winding sticks at the pile; a cheap board that cups wastes more than a straight one costs.
 
 <figure class="craft-figure">
   <img src="../assets/choosing-hardwood-boards/process-flow.svg" alt="Board defect map" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Defects circled before checkout—returns are rare.
+- Grain direction marked for each part while the board is whole.
+- Extra length for snipe and end checks at both ends.

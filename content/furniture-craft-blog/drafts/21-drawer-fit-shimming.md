@@ -15,16 +15,17 @@ graphic:
   primary: "assets/drawer-fit-shimming/joinery-diagram.svg"
   alt: "Drawer side clearance"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 21
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Drawer fit: shims and parallel runners — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A drawer should slide on runners with even reveals, not bind in August and rattle in February.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Build the box square, then fit the drawer to the opening. Shim runners for parallel sides; plan 1–2 mm total side play on solid wood. Adjust front reveal with plane shavings on the drawer front or the face frame, not both randomly.
 
 <figure class="craft-figure">
   <img src="../assets/drawer-fit-shimming/joinery-diagram.svg" alt="Drawer side clearance" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Runners parallel within a feeler gauge slip.
+- Front reveal matched left and right before hardware holes.
+- Slide test without pulls—if it binds, find the high corner.

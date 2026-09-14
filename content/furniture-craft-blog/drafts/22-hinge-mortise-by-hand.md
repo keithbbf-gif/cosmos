@@ -15,16 +15,17 @@ graphic:
   primary: "assets/hinge-mortise-by-hand/joinery-diagram.svg"
   alt: "Butt hinge mortise depth"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 22
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Hinge mortises by hand chisel — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Hinge mortises are depth-and-location work. The barrel should sit flush when the door closes, not proud enough to twist the screws.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Knife the perimeter, establish depth with a chisel bevel in the waste, pare to the line. Mortise depth equals leaf thickness; keep the barrel line consistent across stiles. Screw pilot holes after the hinge seats—moving screws later chews the hinge.
 
 <figure class="craft-figure">
   <img src="../assets/hinge-mortise-by-hand/joinery-diagram.svg" alt="Butt hinge mortise depth" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Depth stop on the chisel or a strip taped to the blade.
+- Barrel line continuous across top and bottom hinges.
+- Door held in place with shims while mortises are transferred.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/reading-grain-for-planing/process-flow.svg"
   alt: "Grain direction arrows"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 30
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Reading grain for tear-out-free planing — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Tear-out is the plane telling you the grain reversed. Read the surface before you commit to a direction.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Cathedral grain often planes uphill toward the center of the arc on face grain. Reverse on patches that chatters. Light passes beat a heavy pass that dives under reversed fibers.
 
 <figure class="craft-figure">
   <img src="../assets/reading-grain-for-planing/process-flow.svg" alt="Grain direction arrows" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Test shave on an offcut or the end grain before the show face.
+- When grain reverses mid-board, stop and turn direction—do not bully through.
+- Higher pitch or tighter cap iron for patches that refuse to behave.

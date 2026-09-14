@@ -15,16 +15,17 @@ graphic:
   primary: "assets/french-polish-overview/finish-comparison.svg"
   alt: "Rubber pad paths"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 36
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-French polish: shellac pad and oil slip — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+French polish is thin shellac moved with a pad, not a flood coat in one afternoon. Patience builds depth; hurry builds ridges.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Charge the pad lightly with thin shellac; a drop of oil on the pad slips it across the surface in figure-eights. Build many thin passes, resting between sessions. Rub out high spots when the film is even.
 
 <figure class="craft-figure">
   <img src="../assets/french-polish-overview/finish-comparison.svg" alt="Rubber pad paths" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Pad clot wrapped tight—no wrinkles that print lines.
+- Oil slip is a lubricant, not a finish layer; wipe back excess.
+- Humidity and temperature logged if the session runs long.

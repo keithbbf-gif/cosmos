@@ -15,16 +15,17 @@ graphic:
   primary: "assets/milk-paint-on-primer/finish-comparison.svg"
   alt: "Milk paint layers"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 37
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Milk paint over a sizing primer — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Milk paint on raw wood can look chalky and uneven without a sizing coat to lock the fibers.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Apply sizing or primer to the raw surface, sand smooth when dry. Two thin milk paint coats beat one heavy drip. Sand lightly between coats with fine paper—milk paint burns through quickly.
 
 <figure class="craft-figure">
   <img src="../assets/milk-paint-on-primer/finish-comparison.svg" alt="Milk paint layers" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Sizing dry and finger-smooth before color.
+- Stir milk paint every few minutes; solids settle fast.
+- Second coat after the first is uniformly matte, not patchy.

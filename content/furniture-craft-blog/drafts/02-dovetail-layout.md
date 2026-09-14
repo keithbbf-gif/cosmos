@@ -16,16 +16,17 @@ graphic:
   primary: "assets/dovetail-layout/joinery-diagram.svg"
   alt: "Half-blind dovetail layout"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 2
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Dovetail layout without guessing the angle — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Dovetails look mystical until you treat them as a baseline problem: half-pins at the ends, equal spacing in between, slope marked once and transferred.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Strike one baseline on the end grain and face. Lay out half-pins first so you do not trap a skinny pin at the corner. Saw on the waste side of the line; chop straight down at the baseline before paring the socket walls.
 
 <figure class="craft-figure">
   <img src="../assets/dovetail-layout/joinery-diagram.svg" alt="Half-blind dovetail layout" width="640" height="420" loading="lazy" />
@@ -38,6 +39,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Baseline is continuous around the corner—no step at the shoulder.
+- Tail thickness matches your chisel or your marked gauge width.
+- Dry-assemble and number corners; glue hides mistakes you could have fixed.

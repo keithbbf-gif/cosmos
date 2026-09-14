@@ -16,16 +16,17 @@ graphic:
   primary: "assets/shellac-vs-polyurethane/finish-comparison.svg"
   alt: "Finish property comparison"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 11
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Shellac vs polyurethane for tabletops — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Tabletops need a finish you can live with after the first coffee ring. Shellac repairs in minutes; polyurethane builds a harder film but fights spot fixes.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Shellac sticks to itself forever—alcohol rewets and blends. Poly wants mechanical prep between coats and does not melt into old film. Pick shellac when you touch up often; pick poly when abrasion matters more than repair speed.
 
 <figure class="craft-figure">
   <img src="../assets/shellac-vs-polyurethane/finish-comparison.svg" alt="Finish property comparison" width="640" height="420" loading="lazy" />
@@ -38,6 +39,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Sample boards: same species, same prep, same number of coats.
+- Heat resistance tested with a warm mug on scrap—not on the delivery piece.
+- Write the product and date under a leaf or on the back rail.

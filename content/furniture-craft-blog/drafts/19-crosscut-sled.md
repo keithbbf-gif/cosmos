@@ -15,16 +15,17 @@ graphic:
   primary: "assets/crosscut-sled/tool-layout.svg"
   alt: "Crosscut sled layout"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 19
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Crosscut sled: zero-clearance and stop block — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A sled gives you square crosscuts when the miter gauge never quite holds. Zero clearance around the blade reduces tear-out and tells you where the kerf lives.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Fit runners without slop. Square the fence to the blade with a five-cut test or a known square panel. Replace the insert when the kerf widens—splinters start when the support gap opens.
 
 <figure class="craft-figure">
   <img src="../assets/crosscut-sled/tool-layout.svg" alt="Crosscut sled layout" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Fence 90° to blade path verified on scrap, not assumed from one cut.
+- Stop block for repeat lengths—measure from the stop to the near blade face.
+- Runner wax or UHMW slips without side play.

@@ -15,16 +15,17 @@ graphic:
   primary: "assets/table-saw-fence-check/tool-layout.svg"
   alt: "Fence alignment check"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 8
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Table saw fence parallel to the blade — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A fence that toes in or out burns one side of the blade and widens every rip. Five minutes with a rule beats a stack of miscut parts.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Lock the fence and measure from a tooth at the front of the plate to the fence, then rotate that tooth to the rear and measure again. Adjust until both readings match. Re-check after you bump the fence—assume it moved until proven otherwise.
 
 <figure class="craft-figure">
   <img src="../assets/table-saw-fence-check/tool-layout.svg" alt="Fence alignment check" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Same tooth front and rear; do not measure to different blade points.
+- Blade parallel to miter slots checked on its own schedule.
+- Test cut in scrap: no burn on one face only.

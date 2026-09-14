@@ -15,16 +15,17 @@ graphic:
   primary: "assets/bandsaw-blade-tension/tool-layout.svg"
   alt: "Blade drift adjustment"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 31
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Bandsaw blade tension and drift — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Blade tension and drift set every bandsaw cut. Too loose wanders; too tight wastes blades. Drift is the blade's preferred path—your fence must follow it.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Tension until the manufacturer deflection spec reads right on your finger test. Make a freehand cut in thick scrap; mark the kerf line. Set the fence parallel to that drift, not square to the table miter slot by assumption.
 
 <figure class="craft-figure">
   <img src="../assets/bandsaw-blade-tension/tool-layout.svg" alt="Blade drift adjustment" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Drift line fresh after each blade change.
+- Fence locked only after drift test, not before.
+- Blade tracking centered on wheels before tensioning to final.

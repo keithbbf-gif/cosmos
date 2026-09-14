@@ -15,16 +15,17 @@ graphic:
   primary: "assets/marking-gauge-technique/tool-layout.svg"
   alt: "Knife wall at layout line"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 10
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Marking gauge lines that saws can follow — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+A gauge line is only useful if the saw or chisel can find it. Feather-light first pass, then deepen where the tool will register.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Ride the stock's true face with the fence. Score across grain with a knife gauge for crosscuts; pin gauges for long with-grain lines. Mark waste with a curl or X so panic does not send the saw on the keep side.
 
 <figure class="craft-figure">
   <img src="../assets/marking-gauge-technique/tool-layout.svg" alt="Knife wall at layout line" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Two-pass scoring: light trace, then firm wall for the saw kerf.
+- Fence bears on the same reference face the joint will use.
+- Knife wall on crosscuts; chisel bevel stays in the waste.

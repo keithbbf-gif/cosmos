@@ -16,16 +16,17 @@ graphic:
   primary: "assets/dowel-vs-biscuit/finish-comparison.svg"
   alt: "Alignment aid comparison"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 5
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Dowels vs biscuits for case glue-ups — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Dowels and biscuits both register faces in a glue-up, but they answer different panics: dowels resist shear and keep parts from creeping; biscuits mainly align surfaces.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+For a carcass back or web frame, dowels let you dry-fit with alignment pins then drive home on glue. Biscuits buy open time on wide panels but do not count on them for racking strength. Mark faces so you do not flip a part mid-glue.
 
 <figure class="craft-figure">
   <img src="../assets/dowel-vs-biscuit/finish-comparison.svg" alt="Alignment aid comparison" width="640" height="420" loading="lazy" />
@@ -38,6 +39,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Dowel centers punched from one story stick—no cumulative drift.
+- Biscuit slots on both faces before glue; clamp plan written down.
+- Dry clamp once with cauls that mimic final pressure.

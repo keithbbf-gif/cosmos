@@ -15,16 +15,17 @@ graphic:
   primary: "assets/torsion-box-shelf/joinery-diagram.svg"
   alt: "Torsion box section"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 43
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Torsion box shelf for long spans — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Long shelves sag; torsion boxes resist bend by putting thin skins in shear over a light grid.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Glue top and bottom skins to the grid all at once if you can clamp flat. Edges capture square—banding hides the lamination and stiffens the front. Keep the grid continuous; gaps are where the shelf folds.
 
 <figure class="craft-figure">
   <img src="../assets/torsion-box-shelf/joinery-diagram.svg" alt="Torsion box section" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Glue-up on a flat dead surface—twist here is permanent.
+- Grid joints glued; pins alone do not carry shear.
+- Skins oriented with grain running the long span.

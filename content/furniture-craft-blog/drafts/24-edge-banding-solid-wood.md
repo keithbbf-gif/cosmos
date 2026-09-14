@@ -15,16 +15,17 @@ graphic:
   primary: "assets/edge-banding-solid-wood/joinery-diagram.svg"
   alt: "Solid edge on ply"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 24
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Solid-wood edge banding on plywood — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Plywood edges look wrong without a solid strip—but the strip has to move with the panel or the glue line telegraphs.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Glue a slightly proud band with tape cauls or a veneer press. Let cure fully before flush-trimming with a router or plane. A shallow groove or tongue in the band helps alignment; do not rely on glue squeeze alone to hold thin edges square.
 
 <figure class="craft-figure">
   <img src="../assets/edge-banding-solid-wood/joinery-diagram.svg" alt="Solid edge on ply" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Band stands proud 0.2–0.5 mm for safe flush trim.
+- Glue only where grain runs with the panel width on wide tops.
+- Flush trim with the grain direction to avoid blowing out the band.

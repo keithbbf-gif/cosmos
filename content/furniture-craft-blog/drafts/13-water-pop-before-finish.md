@@ -15,16 +15,17 @@ graphic:
   primary: "assets/water-pop-before-finish/process-flow.svg"
   alt: "Water pop sequence"
 status: draft
-voice_check: human
 pillar: furniture-craft
 priority: 13
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
-Water pop before the first finish coat — working notes for the shop. Measure on your stock; humidity and species move the numbers.
+Raised grain after the first varnish coat is a finish flaw you can buy off the board with one controlled wetting cycle.
 
 ## At the bench
 
-Use the diagram as the layout reference. Mark waste sides before any saw cut. Dry-fit twice when shoulders must close at the same time.
+Wipe or spray distilled water, let the surface fuzz, dry fully, then sand with the last grit you used—usually 220. Seal only when the surface feels uniformly smooth to the hand, not just the eye.
 
 <figure class="craft-figure">
   <img src="../assets/water-pop-before-finish/process-flow.svg" alt="Water pop sequence" width="640" height="420" loading="lazy" />
@@ -37,6 +38,6 @@ Use the diagram as the layout reference. Mark waste sides before any saw cut. Dr
 
 ## Checklist
 
-- Layout lines are knife-deep where saws must register.
-- Test fit without glue; note where light shows through.
-- Finish samples on offcuts from the same milling session.
+- Whole surface wetted evenly—blotches mean uneven raise.
+- Dry overnight in shop RH before sanding back.
+- Seal within a day so shop dust does not re-raise grain unevenly.
