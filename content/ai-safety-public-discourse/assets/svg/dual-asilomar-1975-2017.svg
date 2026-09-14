@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="dualTitle dualDesc">
+  <title id="dualTitle">Two Asilomar meetings compared</title>
+  <desc id="dualDesc">Side-by-side comparison of the February 1975 recombinant-DNA conference and the January 2017 Beneficial AI conference at the same grounds, showing different outputs: containment guidelines versus twenty-three principles.</desc>
+  <defs>
+    <style>
+      .h { font-family: system-ui, sans-serif; font-size: 14px; font-weight: 700; fill: #0f172a; }
+      .b { font-family: system-ui, sans-serif; font-size: 12px; fill: #334155; }
+      .k { font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600; fill: #0f766e; }
+      .k2 { font-family: system-ui, sans-serif; font-size: 11px; font-weight: 600; fill: #0d9488; }
+    </style>
+  </defs>
+  <rect width="960" height="400" fill="#f8fafc"/>
+  <text x="480" y="32" text-anchor="middle" class="h">Same beach name, different paper</text>
+
+  <rect x="40" y="56" width="400" height="300" rx="8" fill="#fff" stroke="#99f6e4" stroke-width="2"/>
+  <text x="240" y="88" text-anchor="middle" class="h" fill="#0f766e">1975, recombinant DNA</text>
+  <text x="60" y="118" class="k">Output</text>
+  <text x="60" y="138" class="b">Containment levels, experiment review lists</text>
+  <text x="60" y="168" class="k">Aftermath (public telling)</text>
+  <text x="60" y="188" class="b">Guidelines feeding NIH-style oversight</text>
+  <text x="60" y="218" class="k">Role in later AI talk</text>
+  <text x="60" y="238" class="b">Citation: pause, beach, seriousness</text>
+  <text x="60" y="278" class="b" font-style="italic">Not a sequel to 2017</text>
+
+  <rect x="520" y="56" width="400" height="300" rx="8" fill="#fff" stroke="#5eead4" stroke-width="2"/>
+  <text x="720" y="88" text-anchor="middle" class="h" fill="#0d9488">2017, Beneficial AI</text>
+  <text x="540" y="118" class="k2">Output</text>
+  <text x="540" y="138" class="b">23 Asilomar AI Principles (open letter)</text>
+  <text x="540" y="168" class="k2">Process (FLI public note)</text>
+  <text x="540" y="188" class="b">Surveys; at least 90% attendee support per principle</text>
+  <text x="540" y="218" class="k2">Role in later EU talk</text>
+  <text x="540" y="238" class="b">Sometimes invoked; Act is a statute, not the list</text>
+  <text x="540" y="278" class="b" font-style="italic">Speech act, not Article 113</text>
+
+  <path d="M440 206 H520" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="480" y="200" text-anchor="middle" class="b" font-size="10" fill="#64748b">rhyme only</text>
+
+  <text x="480" y="378" text-anchor="middle" class="b" font-size="10" fill="#64748b">Original schematic, ai-safety-public-discourse</text>
+</svg>
