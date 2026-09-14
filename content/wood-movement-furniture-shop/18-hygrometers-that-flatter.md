@@ -10,8 +10,8 @@ topic: [hygrometer, RH, instruments]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 713
+voice_check: edited
+word_count: 716
 dek: "A ten-dollar disc that always reads 45 is not a climate. It is a comfort. The rack will not share the comfort."
 meta_description: "Shop hygrometers drift, hang in the wrong air, and learn to please. Salt-check or pair them. Place them where the wood lives, not where you stand."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Salt-test RH (~75% in a closed jar with saturated NaCl) — do the test, do not quote a phone video as gospel."
 ---
-
 # Hygrometers that flatter
 
 The disc by the door says 45 percent every day

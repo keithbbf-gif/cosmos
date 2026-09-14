@@ -10,8 +10,8 @@ topic: [seasons, habit]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 701
+voice_check: edited
+word_count: 674
 dek: "Same walls. Two climates. If your fitting habits ignore the month, the month will write them for you."
 meta_description: "A South Arkansas shop in August and the same shop in January are different rooms. Fit drawers, doors, and glue-ups as if the other month were invited."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # August shop, January shop
 
 You do not get a new building in June. You get
@@ -113,10 +112,6 @@ August and January before you let them
 fit a kitchen of drawers unsupervised.
 The year is the course. This draft is
 only the syllabus page.
-
-Same walls. Two climates. A third if you
-deliver. Build as if all three will meet
-the piece. They will.
 
 ## A kitchen fitted in one month
 

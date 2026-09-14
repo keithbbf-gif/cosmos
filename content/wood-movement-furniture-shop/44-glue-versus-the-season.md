@@ -10,8 +10,8 @@ topic: [glue, movement]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 705
+voice_check: edited
+word_count: 710
 dek: "Glue holds fiber. It does not hold a coefficient to zero. Pick a glue for the joint you cut, not as a substitute for a slot."
 meta_description: "Hide, PVA, polyurethane, and epoxy fail differently, but none of them cancel seasonal width change. A cross-grain glue line is still a year-later joint."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Glue versus the season
 
 A bottle on the bench will

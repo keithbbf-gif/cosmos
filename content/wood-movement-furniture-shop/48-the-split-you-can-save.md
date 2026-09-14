@@ -10,8 +10,8 @@ topic: [repair, split, panel]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 654
+voice_check: edited
+word_count: 665
 dek: "Some splits close in June and want travel, not filler. Some splits are a joint that must be remade. The first look is whether the year still owns the gap."
 meta_description: "A seasonal split that opens and closes wants fasteners freed and gaps restored. A split with torn geometry or a glued field wants disassembly. Filler is a last, honest cosmetic."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # The split you can save
 
 A crack is not one job.

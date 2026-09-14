@@ -10,8 +10,8 @@ topic: [milling, wait, core]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 724
+voice_check: edited
+word_count: 722
 dek: "A planer opens a new face. The core starts talking. If you glue the first flat, you glue a traveler."
 meta_description: "Milling exposes a moisture gradient. Flatten, sticker, wait, flatten again. The second flat is the one the joint deserves."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Wait after you mill
 
 The board came off the

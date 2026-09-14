@@ -10,8 +10,8 @@ topic: [tangential, radial, longitudinal]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 730
+voice_check: edited
+word_count: 744
 dek: "Tangential, radial, long-grain. If those three words are not on the cut list, the cut list is a wish."
 meta_description: "Flatsawn width is tangential. Quartersawn width is radial. Length is the quiet axis. Mix them on a cut list and the joint inherits the mix."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "White oak T 0.00365 / R 0.00183; red oak T 0.00369 / R 0.00158 — confirm edition."
 ---
-
 # Three directions, one cut list
 
 Look at the end of the board. The rings are either smiling
@@ -40,7 +39,8 @@ face runs. It is the larger coefficient for almost every
 species you will glue into furniture. White oak about
 0.00365. Red oak about 0.00369. Sugar maple about 0.00353.
 Beech and hickory worse. Walnut and cherry kinder, still
-not still.
+not still. `[VERIFY]` the table cells for the species on
+your bench against the Handbook edition you keep.
 
 When a draft in this series says "flatsawn width," it means
 this number. Cathedral grain on the face is the pretty

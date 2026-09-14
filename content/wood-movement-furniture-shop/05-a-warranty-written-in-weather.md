@@ -10,8 +10,8 @@ topic: [warranty, client, ticket]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 831
+voice_check: edited
+word_count: 839
 dek: "If the care card cannot say what a winter gap is, the warranty will be asked to say it in a worse sentence."
 meta_description: "A furniture warranty that never mentions moisture is a warranty the January crack will write for you. Put the climate on the ticket first."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Do not publish legal warranty language from this draft. Counsel and the shop own the card."
 ---
-
 # A warranty written in weather
 
 The card that goes in the drawer is usually a paragraph about

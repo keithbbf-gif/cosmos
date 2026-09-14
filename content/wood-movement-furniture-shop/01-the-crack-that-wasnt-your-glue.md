@@ -10,8 +10,8 @@ topic: [glue, winter, warranty]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 977
+voice_check: edited
+word_count: 990
 dek: "A hairline opens on a January morning and everyone looks at the bottle. The bottle is rarely the problem."
 meta_description: "A winter hairline at a glue line is usually wood leaving the moisture it held in August, not a glue that forgot how to stick."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Confirm 12 × 0.00369 × 4 ≈ 0.177 in against the Wood Handbook edition on the shelf."
 ---
-
 # The crack that wasn't your glue
 
 The hairline shows up on a January morning, pale as a new scratch,
@@ -62,7 +61,8 @@ looking at a bottle that forgot its job.
 
 Take a 12-inch flatsawn red oak width. Tangential coefficient
 from the Wood Handbook is about 0.00369 per inch of width per
-1 percent moisture. Four points of moisture — 11 down to 7, or
+1 percent moisture. `[VERIFY]` against the edition on the shelf.
+Four points of moisture — 11 down to 7, or
 8 up to 12 — is:
 
 `12 × 0.00369 × 4 ≈ 0.177 in`

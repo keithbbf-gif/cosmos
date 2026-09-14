@@ -10,8 +10,8 @@ topic: [acclimation, rack]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 703
+voice_check: edited
+word_count: 700
 dek: "A week in a room you do not assemble in is a week in the wrong weather. The board should learn the air the joint will meet."
 meta_description: "Acclimation means the stock reaches the EMC of the room where you mill and glue. A dry finishing room or a wet shed does not count."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Time rules of thumb vs thickness — mark as habit, not a code."
 ---
-
 # Acclimate where you work
 
 People "acclimate" lumber in a closed trailer

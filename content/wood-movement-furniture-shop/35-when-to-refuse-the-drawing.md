@@ -10,8 +10,8 @@ topic: [refusal, design, client]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 687
+voice_check: edited
+word_count: 690
 dek: "Some drawings are a winter crack with dimensions. The kind shop is the one that says no before the deposit clears."
 meta_description: "Refuse a design that pins live width, glues a field, or promises flush breadboards in every month. Offer a treaty or a different material. Do not take the job as drawn."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "No named client stories. Keep refusals generic."
 ---
-
 # When to refuse the drawing
 
 A drawing can be beautiful and

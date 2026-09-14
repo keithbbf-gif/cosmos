@@ -10,8 +10,8 @@ topic: [cup, rings, flatsawn]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 673
+voice_check: edited
+word_count: 650
 dek: "The rings want to straighten. On a flatsawn board that wish has a direction. Learn it before you pick a show face."
 meta_description: "As a flatsawn board loses moisture, the growth rings flatten and the pith side goes convex. Cup is not a mystery. It is ring geometry plus a moisture gradient."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Shop mnemonic heart-side / bark-side for tabletops varies by trade — do not freeze one as law."
 ---
-
 # Cups away from the pith
 
 Set a flatsawn offcut on the bench, end toward you. The
@@ -118,14 +117,6 @@ you choose a lid, look at the rings. Before you
 blame a season, look at the rings and the finish
 history. Cup is not a character trait. It is
 tangential shrinkage wearing a curve. The end
-grain told you which curve you bought.
-
-If you cannot see the
-rings, you cannot name
-the cup. Cut a witness
-or look at the end you
-already have. A cup
-without readable rings
-is still a cup. It is
-just a cup you have not
-bought honestly yet.
+grain told you which curve you bought. No rings
+on the end you have? Cut a witness before you
+joint the face.

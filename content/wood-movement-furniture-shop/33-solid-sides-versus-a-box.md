@@ -10,8 +10,8 @@ topic: [casework, plywood, solid]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 650
+voice_check: edited
+word_count: 661
 dek: "A solid case side is a wide board standing up. A plywood box is a climate shrug with a veneer story. Pick one and stop mixing their rules."
 meta_description: "Solid case sides change width from front to back or top to bottom depending on grain. Plywood boxes stay nearer to their delivery size. Fasteners and backs have to match the choice."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Solid sides versus a box
 
 A chest can be four solid boards

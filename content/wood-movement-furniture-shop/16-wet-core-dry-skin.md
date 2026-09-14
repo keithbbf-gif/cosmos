@@ -10,8 +10,8 @@ topic: [gradient, core, milling]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 730
+voice_check: edited
+word_count: 728
 dek: "The face can read furniture-dry at lunch and the middle can still be last month. If you glue the lunch number, the afternoon will move."
 meta_description: "Moisture gradients — dry shell, wet core — fool face meters and then show up in a rip, a cup, or a joint that walks after milling."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Wet core, dry skin
 
 You meter the face. Eight percent. You joint, you

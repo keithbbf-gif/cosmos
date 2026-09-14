@@ -10,8 +10,8 @@ topic: [wide-stock, glue-up, cup]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 679
+voice_check: edited
+word_count: 680
 dek: "A single 16-inch flatsawn board is one cup and one coefficient. A glue-up of three is a committee. Pick the committee on purpose."
 meta_description: "Wide single boards cup and travel as one piece. Glued panels can fight cups and still add widths. Decide which honesty you are selling before you mill."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # One wide board
 
 There is a romance to a top

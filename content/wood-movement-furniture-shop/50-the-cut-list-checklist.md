@@ -10,7 +10,7 @@ topic: [checklist, cut-list, habit]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
+voice_check: edited
 word_count: 658
 dek: "If the list cannot say cut, width, coefficient, ΔMC, gap, and how the top is fastened, the list is a wish. Wishes split."
 meta_description: "A furniture cut list is a humidity document: species, cut, live width, product, shop RH, house target, fasteners. One page before the saw."
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # The cut-list checklist
 
 This is the page I want on
@@ -221,13 +220,3 @@ wish. Fill the
 travel blank. Then
 the year has less
 to inspect.
-
-The series ends here
-because the shop does
-not end. The checklist
-is the syllabus folded
-into a job. Fill it.
-Then cut. The year
-will inspect the
-blanks you skipped.
-It always does.

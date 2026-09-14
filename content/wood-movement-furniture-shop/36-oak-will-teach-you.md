@@ -10,8 +10,8 @@ topic: [oak, species]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 654
+voice_check: edited
+word_count: 663
 dek: "Red oak and white oak are the loud coefficients most shops already own. If your gaps work in oak, they will probably work in walnut. The reverse is a trap."
 meta_description: "Oak's tangential coefficients sit near 0.0037. A 12-inch flatsawn field through four moisture points is about 3/16 inch. Design oak first and the quieter species get mercy."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "White oak T 0.00365, red oak T 0.00369 — Handbook edition on the shelf."
 ---
-
 # Oak will teach you
 
 This county grows oak and this
@@ -42,7 +41,8 @@ you pin it.
 
 Flatsawn white oak, tangential
 about 0.00365. Red oak about
-0.00369. A 12-inch width, 4
+0.00369. `[VERIFY]` against the
+Handbook on the shelf. A 12-inch width, 4
 points of MC: on the order of
 0.18 inch. Radial is roughly
 half. Quartersawn oak is how

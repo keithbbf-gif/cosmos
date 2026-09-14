@@ -10,8 +10,8 @@ topic: [target-RH, shop]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 750
+voice_check: edited
+word_count: 707
 dek: "Pick a shop range that a house can also live in. Then spend the year keeping the wood near that range. Comfort is not a target."
 meta_description: "A furniture shop that holds about 40–50 percent RH is aiming at roughly 8–9 percent EMC. The number is a defense of the joints, not a vibe."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Confirm 40–50% RH → ~8–9% EMC at 70°F against Handbook table before treating as a public promise."
 ---
-
 # A number you can defend
 
 Comfort is 68 degrees and whatever humidity the
@@ -144,16 +143,3 @@ shop target. Print the
 house as a maybe. The
 product uses the
 difference.
-
-## Write it on the door
-
-`Rack 40–50% RH. Glue
-near 8–9% MC unless the
-ticket says the house
-is different.` When the
-clamps are free and a
-12 percent panel is
-tempting, the door is
-the grown-up. Comfort
-can wait. The joint
-cannot.

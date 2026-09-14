@@ -10,8 +10,8 @@ topic: [frame-and-panel, groove]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 727
+voice_check: edited
+word_count: 732
 dek: "A winter rattle in a door panel is a passing grade. A panel glued in the groove is a stile waiting to split."
 meta_description: "Frame-and-panel is a treaty: the frame is the rectangle, the panel is the live width, the groove is the gap sized from the scrap-paper formula."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Groove depth shop habit (1/4 vs 3/8) — match the cutter on the bench, not a universal fraction."
 ---
-
 # The gap in the groove
 
 Turn the door over. If you can see a

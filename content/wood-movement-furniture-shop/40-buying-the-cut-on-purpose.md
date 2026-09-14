@@ -10,8 +10,8 @@ topic: [buying, flatsawn, quartersawn, rift]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 674
+voice_check: edited
+word_count: 675
 dek: "The yard sells faces. You are buying coefficients. Read the ends or you purchased a cathedral and a cup."
 meta_description: "Flatsawn, rift, and quartersawn are movement purchases. Check end grain, not the sticker. Pay for quarter when the width is live and you cannot frame it."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Buying the cut on purpose
 
 A sticker that says QSWO is a

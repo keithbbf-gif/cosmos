@@ -10,8 +10,8 @@ topic: [underside, both-faces, cup]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 740
+voice_check: edited
+word_count: 753
 dek: "The show face is not the only face the air can find. A naked back is how a pretty top learns to cup."
 meta_description: "Moisture exchange on one face only bends a board. Seal the underside and the ends, even with a simpler schedule, so both faces travel at something like the same speed."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Finish the underside
 
 You can tell who skipped

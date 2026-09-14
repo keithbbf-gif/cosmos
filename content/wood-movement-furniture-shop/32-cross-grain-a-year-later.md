@@ -10,8 +10,8 @@ topic: [cross-grain, glue, design]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 827
+voice_check: edited
+word_count: 818
 dek: "Two grain arrows that disagree, glued along their full meeting, will open on a calendar. The clamp does not get a vote in February."
 meta_description: "Cross-grain glue-ups store seasonal width change as stress. A year later the joint opens, a panel splits, or a breadboard blows. Leave slide or stop gluing the disagreement."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Cross-grain, a year later
 
 The joint looked like furniture in
@@ -216,14 +215,8 @@ look, offer a
 floating meeting or
 a sheet good. If
 they want the lock,
-refuse it in this
-series' other draft.
+refuse it in another draft in the pack.
 The calendar is a
 poor designer. It is
 an excellent
 inspector.
-
-A year later is still your
-joint. The calendar is just
-the inspector who works
-weekends.

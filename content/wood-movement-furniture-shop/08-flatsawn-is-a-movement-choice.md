@@ -10,8 +10,8 @@ topic: [flatsawn, quartersawn, buying]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 721
+voice_check: edited
+word_count: 717
 dek: "Cathedral grain is not a look you picked at the yard. It is the loud coefficient wearing a pattern."
 meta_description: "Flatsawn faces move more and cup more. Quartersawn faces cost more and stay calmer. Buying the pretty cathedral without a gap is a design error."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Yard grading language for rift/quarter in this region — do not invent a mill's stamps."
 ---
-
 # Flatsawn is a movement choice
 
 The yard pulls a board with a cathedral the size of a barn

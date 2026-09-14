@@ -10,8 +10,8 @@ topic: [pinless-meter, species]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 675
+voice_check: edited
+word_count: 663
 dek: "A pinless meter is fast and polite. It is also a species setting with a pad. Leave the setting on the last job and you have invented a new oak."
 meta_description: "Pinless meters read a dielectric field in the first fraction of an inch. The species or specific-gravity setting is not optional. Depth is limited on purpose."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Nominal scan depth of the shop's pinless model — use the manual."
 ---
-
 # Pinless and the species setting
 
 You set the pad on the face. You get a number. You do
@@ -105,7 +104,9 @@ is how a shop decides all the oak is "ready."
 Do not average a rack into one number for the
 job ticket. The wettest board in the glue-up is
 the board that will move after you think you are
-done.
+done. If you change species at lunch, change the
+setting at lunch and say it out loud so the next
+board is not read as fiction.
 
 ## Polite is not the same as true
 
@@ -121,13 +122,3 @@ The pad is a good shop citizen. The species
 button is the citizen's spine. Leave it set
 wrong and you have a fast machine for
 publishing fiction.
-
-If you change species
-at lunch, change the
-setting at lunch. Say
-it out loud. Write it.
-The pad is fast. The
-button is the spine.
-A tenth of a percent
-on the wrong density
-is jewelry.

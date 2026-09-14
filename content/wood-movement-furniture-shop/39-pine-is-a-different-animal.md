@@ -10,8 +10,8 @@ topic: [pine, softwood, species]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 713
+voice_check: edited
+word_count: 712
 dek: "The Handbook coefficient for eastern white pine is kinder than oak. The sponge is not. Softwoods take and leave moisture faster, and they cup like they mean it."
 meta_description: "Eastern white pine's tangential coefficient is about 0.00212. That quieter number does not make pine furniture still. Speed of moisture change and earlywood/latewood do the teaching."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Eastern white pine T 0.00212 — Handbook. Yellow pine and fir differ; do not mash them."
 ---
-
 # Pine is a different animal
 
 A shop that learned oak will look

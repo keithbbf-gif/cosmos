@@ -10,8 +10,8 @@ topic: [breadboard, table, season]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 877
+voice_check: edited
+word_count: 882
 dek: "A breadboard that stands proud in January and shy in July is doing the job. A breadboard that splits the tenon is not."
 meta_description: "Seasonal proud and shy breadboard ends are the table reporting moisture change. Glue in the last six inches is how the report becomes a split."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Typical glue-only-the-center length for a dining breadboard — shop habit vs published practice."
 ---
-
 # Winter proud, summer shy
 
 In January the breadboard stands a little proud of the field.

@@ -10,8 +10,8 @@ topic: [maple, beech, hickory]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 774
+voice_check: edited
+word_count: 781
 dek: "Hard maple moves like a serious hardwood. Beech and hickory move like they want the groove to yourself. Pale is not calm."
 meta_description: "Sugar maple's tangential coefficient is about 0.00353. Beech and hickory sit higher. Size gaps up, not down, when the ticket goes pale and dense."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Maple T 0.00353; beech T 0.00431; hickory T 0.00411 — Handbook edition."
 ---
-
 # Maple, beech, and the pale shove
 
 Pale wood photographs like
@@ -40,7 +39,8 @@ frame.
 
 Sugar maple tangential about
 0.00353 — in oak's
-neighborhood. A 12-inch
+neighborhood. `[VERIFY]` the
+Handbook cell. A 12-inch
 flatsawn maple field, 4
 points: about 0.17 inch.
 Treat it like oak in the
@@ -63,7 +63,8 @@ word maple on an invoice.
 
 Beech's tangential number
 in the usual reprints sits
-up around 0.00431. That is
+up around 0.00431. `[VERIFY]`
+That is
 a shove. European beech in
 a chair factory is a whole
 culture of drying and

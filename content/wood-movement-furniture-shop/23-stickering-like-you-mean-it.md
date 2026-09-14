@@ -10,8 +10,8 @@ topic: [stickering, storage]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 728
+voice_check: edited
+word_count: 692
 dek: "Sticks are how air gets a vote. A pile without them is a single fat board that dries at the edges and stays wet in the middle."
 meta_description: "Even stickers, aligned over bolsters, keep a furniture rack flat and let faces reach shop EMC. Random scrap and a hug of straps make cup and stain."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Stickering like you mean it
 
 A board left on a concrete floor takes the
@@ -164,16 +163,3 @@ lived in a soft
 middle. That was not
 oak. That was the
 floor.
-
-## Finished doors
-
-A stack of finished
-doors kissing is how
-you print weather
-into a film and trap
-moisture on a face
-you already sealed.
-Sticks between doors.
-The film slowed the
-trip. It did not
-cancel the aisle.

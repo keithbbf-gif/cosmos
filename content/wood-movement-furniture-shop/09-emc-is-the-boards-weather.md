@@ -10,7 +10,7 @@ topic: [EMC, RH, equilibrium]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
+voice_check: edited
 word_count: 677
 dek: "The board is not chasing yesterday's rain. It is settling toward a moisture content the air will allow. That number has a name."
 meta_description: "Equilibrium moisture content is the moisture the wood is headed for in a given relative humidity and temperature. The shop hygrometer is a forecast for the rack."
@@ -24,7 +24,6 @@ figures:
 verify:
   - "EMC cells at 70°F: 30% RH ~6.2%; 50% ~9.2%; 70% ~13.1% — confirm Handbook table."
 ---
-
 # EMC is the board's weather
 
 A board on sticks is not waiting for your schedule. It is

@@ -10,8 +10,8 @@ topic: [moldings, miters, finish-line]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 729
+voice_check: edited
+word_count: 738
 dek: "An applied molding that is quiet length on a live lid will open at the ends every dry season. That line is not a finish failure. It is an arrow you glued."
 meta_description: "Winter hairlines at moldings, breadboard steps, and rail-to-side meetings are seasonal width change showing at a glued or finished edge. Design the meeting or accept the line."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # The winter hairline
 
 Raking light on a chest lid in

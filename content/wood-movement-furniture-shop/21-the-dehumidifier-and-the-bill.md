@@ -10,8 +10,8 @@ topic: [dehumidifier, humidifier, cost]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 752
+voice_check: edited
+word_count: 760
 dek: "The machine is not a personality. It is how you buy a drier EMC in a wet month. Size it for the building, drain it like you mean it, and do not aim it at one pile."
 meta_description: "Dehumidifiers and humidifiers hold a shop band if they are sized, drained, and placed for the rack — not for the coffee pot. The power bill is cheaper than a split top."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Do not specify a brand or a pint rating as law. Size to the building and the wet-month load."
 ---
-
 # The dehumidifier and the bill
 
 In this county the wet months will fill a

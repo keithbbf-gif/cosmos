@@ -10,8 +10,8 @@ topic: [plywood, veneer, sheet]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 723
+voice_check: edited
+word_count: 683
 dek: "Sheet goods shrug at the Handbook coefficient. The face veneer does not shrug at a wet back and a dry front. Stable is not sealed."
 meta_description: "Plywood and MDF stay nearer to size than solid boards. They still cup if faces take moisture unequally, and veneers still split when the core and the room disagree."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Plywood until the veneer splits
 
 A shop tired of oak will swing
@@ -143,19 +142,6 @@ the sales word is "solid"
 and the construction is
 a sheet, the year is not
 the liar. You are.
-
-Plywood until the veneer
-splits is the real
-sentence. Use the shrug.
-Balance the faces. Seal
-the edges. Do not file
-sheet goods under
-"doesn't move" and then
-act betrayed by a
-hairline in a winter
-face. The core kept its
-promise. The face needed
-one too.
 
 ## A van and a fancy face
 

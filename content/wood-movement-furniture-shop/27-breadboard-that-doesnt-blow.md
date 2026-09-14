@@ -10,8 +10,8 @@ topic: [breadboard, tenon, slots]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 732
+voice_check: edited
+word_count: 739
 dek: "Glue the middle. Slot the ends. Finish the field's end grain. Anything else is a splitter with a traditional name."
 meta_description: "A working breadboard is a long-grain cap on a live-width field. Center glue and elongated pins let the field shrink without splitting the tenon."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Center-glue length vs table width — shop habit, not a single published fraction."
 ---
-
 # A breadboard that doesn't blow
 
 The tenon splits along the shoulder in

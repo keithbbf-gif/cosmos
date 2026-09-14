@@ -10,8 +10,8 @@ topic: [walnut, cherry, species]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 683
+voice_check: edited
+word_count: 679
 dek: "Quieter coefficients are not a holiday. A 36-inch walnut top still wants travelers. Cherry will blush in the sun and still shrink in January."
 meta_description: "Black walnut (~0.00274 T) and black cherry (~0.00248 T) move less than oak. They still change width. Fasten them like furniture, not like a picture."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Walnut T 0.00274, cherry T 0.00248 — Handbook edition."
 ---
-
 # Walnut and cherry still move
 
 A shop that has been humbled by
@@ -45,7 +44,8 @@ Expensive is not EMC.
 
 Black walnut tangential about
 0.00274. Black cherry about
-0.00248. Against red oak's
+0.00248. `[VERIFY]` against the
+Handbook on the shelf. Against red oak's
 0.00369, that is a real
 discount on travel. A 12-inch
 flatsawn walnut field, 4
@@ -201,8 +201,3 @@ history the stamp
 omitted. Quiet
 coefficient, same
 sticks.
-
-Quiet is not
-still. Still is plywood,
-and even plywood has a
-veneer story.

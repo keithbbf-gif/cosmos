@@ -10,8 +10,8 @@ topic: [fasteners, clips, buttons]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 691
+voice_check: edited
+word_count: 693
 dek: "Pick a traveler on purpose. Mixing locks and sliders on the same top is how one corner does all the moving."
 meta_description: "Figure-8s, Z-clips, wooden buttons, and slotted screws are different hardware for the same job: let a top change width. Choose one system and place the tight points at the center."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Figure-eights, Z-clips, buttons
 
 Hardware catalogs make this look like

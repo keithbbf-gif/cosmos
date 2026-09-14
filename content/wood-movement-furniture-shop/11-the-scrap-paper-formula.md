@@ -10,8 +10,8 @@ topic: [formula, coefficient, gap]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 760
+voice_check: edited
+word_count: 759
 dek: "Width times coefficient times the moisture change. That is the gap. Everything else is a proverb."
 meta_description: "Dimensional change ≈ width × handbook coefficient × ΔMC. Work it on a scrap before you size a groove, a slot, or a breadboard pin."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Coefficients apply in the 6–14% MC band and assume dimension near 10% MC — FPL-RP-711 caution."
 ---
-
 # The scrap-paper formula
 
 You can remember "an eighth an inch a foot" until a
@@ -62,7 +61,8 @@ split.
 ## Where the coefficient comes from
 
 The Handbook numbers are for the middle of furniture
-life, roughly 6 to 14 percent MC, and they are built
+life, roughly 6 to 14 percent MC `[VERIFY]` (FPL-RP-711
+caution on linearity), and they are built
 from green-to-ovendry shrinkage with an assumed fiber
 saturation. They are linear on purpose. Real boards are
 ruder. Still: this is the best scrap-paper physics the

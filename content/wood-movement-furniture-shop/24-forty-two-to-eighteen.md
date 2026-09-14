@@ -10,8 +10,8 @@ topic: [delivery, house, ΔMC]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 719
+voice_check: edited
+word_count: 722
 dek: "A shop at 42 percent RH and a sealed condo at 18 is not a delivery. It is a moisture change you already know the width of."
 meta_description: "Delivery from a mid-range shop into a very dry house is a designed ΔMC. Fasteners, gaps, and the care card have to survive that drop."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "18% RH indoor example is a hard winter / tight house — confirm with a logger before using as a client's number."
 ---
-
 # Forty-two to eighteen
 
 You held the shop. The logger sat in the

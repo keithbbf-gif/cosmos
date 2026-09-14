@@ -10,8 +10,8 @@ topic: [finish, moisture, film]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 715
+voice_check: edited
+word_count: 730
 dek: "A film is a delay, not a dam. The board still has a destination. You bought time, not a repeal of January."
 meta_description: "Finishes slow moisture exchange. They do not stop it. Uneven films — a sealed face and a naked back — turn the delay into a cup."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Finish slows it
 
 People want a can that "seals

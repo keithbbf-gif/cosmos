@@ -10,8 +10,8 @@ topic: [protocol, log, habit]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 659
+voice_check: edited
+word_count: 671
 dek: "One meter, one ritual, a line in a book. A pile of one-off pokes is how every board becomes 'about eight.'"
 meta_description: "A shop moisture protocol is the same meter, the same places, the same words on the ticket. Without it, readings cannot be compared across a week."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # A repeatable meter protocol
 
 A reading without a ritual is a mood. You cannot

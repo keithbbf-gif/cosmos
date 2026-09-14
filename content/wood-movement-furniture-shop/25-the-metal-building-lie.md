@@ -10,8 +10,8 @@ topic: [building, metal, climate]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 668
+voice_check: edited
+word_count: 672
 dek: "A steel box is cheap, bright, and honest about weather in the worst way. It will not hold an EMC because you hung a disc by the door."
 meta_description: "Metal shops swing hard — radiant heat, cold walls, bay doors, wet slabs. Treat the building as a climate machine you have to fight, not as a neutral room."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # The metal building lie
 
 A lot of furniture in this county is

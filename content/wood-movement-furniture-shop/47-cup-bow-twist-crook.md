@@ -10,8 +10,8 @@ topic: [warp, diagnosis]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 655
+voice_check: edited
+word_count: 667
 dek: "Four names. Four geometries. If you use warp for all of them, you will apply the wrong fix and call it humidity."
 meta_description: "Cup is width across the face. Bow is length along the face. Twist is a propeller. Crook is an edge that left the line. Only some of these are seasonal moisture in the way shops mean."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Cup, bow, twist, crook
 
 Someone says the top warped.

@@ -10,8 +10,8 @@ topic: [grain, length, width]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 805
+voice_check: edited
+word_count: 800
 dek: "A six-foot apron stays six feet. The twelve-inch top across it does not stay twelve. That is the whole trick, and shops still pin the ends."
 meta_description: "Along the grain, furniture-scale movement is a rounding error. Across the grain it is the job. Design as if only width were alive."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Longitudinal shrinkage green-to-ovendry typically under 0.2% — confirm Handbook table for the species on the bench."
 ---
-
 # Wood only moves sideways
 
 Chalk a line along a six-foot oak apron. Chalk a line across

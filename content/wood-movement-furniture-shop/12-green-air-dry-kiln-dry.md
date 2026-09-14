@@ -10,8 +10,8 @@ topic: [drying, KD, stock]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 680
+voice_check: edited
+word_count: 677
 dek: "The stamp on the board is a history, not a moisture content. KD means someone ran a schedule. It does not mean the board is done with your shop."
 meta_description: "Green, air-dried, and kiln-dried are stories about how water left. Furniture cares where the moisture is now, and whether the core agrees with the face."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Typical furniture KD target 6–8% inland, 8–10% humid coast — regional practice, mark before publishing as a promise."
 ---
-
 # Green, air-dry, kiln-dry
 
 The end of the board has a stamp, or a story from the

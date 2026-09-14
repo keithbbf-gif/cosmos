@@ -10,8 +10,8 @@ topic: [climate, shop, habit]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 777
+voice_check: edited
+word_count: 787
 dek: "A shop that only exists in April will build furniture that only exists in April."
 meta_description: "If the only week the shop, the lumber, and the house agree is a mild April, every other month is a complaint waiting for a name."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Local April RH typicals for Warren / Bradley County — logger, not memory."
 ---
-
 # The April shop
 
 There is a week, some years two, when the shop feels like a

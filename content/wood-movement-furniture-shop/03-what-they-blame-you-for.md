@@ -10,7 +10,7 @@ topic: [client, service, language]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
+voice_check: edited
 word_count: 836
 dek: "Clients name the symptom they can point at. Your job is to name the climate without sounding like you are ducking the joint."
 meta_description: "A stuck drawer, a proud breadboard, and a winter crack are the same weather in three costumes. The sentence you use decides whether you still have a client."
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Any quoted service script should stay generic — no named living client."
 ---
-
 # What they blame you for
 
 They do not call and say the equilibrium moisture content

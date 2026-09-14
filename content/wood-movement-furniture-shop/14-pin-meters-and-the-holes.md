@@ -10,8 +10,8 @@ topic: [pin-meter, MC]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 655
+voice_check: edited
+word_count: 671
 dek: "Two holes in a waste edge are cheaper than a confident lie on a show face. A pin meter earns those holes when you need depth."
 meta_description: "A pin meter reads electrical resistance between two needles. Species, temperature, and where you poke all matter. The holes are the fee for a deeper guess."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "Temperature correction practice for the meter on the bench — follow that manual, not this draft."
 ---
-
 # Pin meters and the holes
 
 The needles leave two dark points. On a show face those
@@ -99,8 +98,10 @@ legal number without a protocol you can repeat.
 
 If the two pins span a check, you are reading the
 check. If they span a glue line in a panel, you are
-reading glue. If you push until you feel the bench
-under a thin board, you are reading the bench.
+reading glue. If they span a knot, you are
+reading the knot. Move the needles to the waste.
+The holes are still cheaper than a door you
+glued on a skin number.
 
 ## Habit
 
@@ -112,13 +113,8 @@ a poke.
 
 The holes are ugly on a photograph and honest on a
 ticket. I will take honest. The cathedral can stay
-pretty. The waste can tell the truth.
-
-A pin through a glue
-line is a glue reading.
-A pin in a knot is a
-knot reading. Move the
-needles. The holes are
-still cheaper than a
-door you glued on a
-skin number.
+pretty. The waste can tell the truth. Photograph
+the show face for the client. Log the waste edge
+for the shop. If the waste and the show face disagree
+by more than a point, the board waits. The glue-up
+does not get to vote.

@@ -10,8 +10,8 @@ topic: [service, client, language]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 657
+voice_check: edited
+word_count: 666
 dek: "The call is a costume: drawer, door, crack. Your job is a second picture, a month, and one next step — not a lecture from the Handbook."
 meta_description: "A service call about humidity starts with the piece and the underside, not the word humidity. Ask for raking light and the back. Then own the joint or name the house."
 figures:
@@ -24,7 +24,6 @@ figures:
 verify:
   - "No named living clients. Keep the script generic."
 ---
-
 # The seasonal phone call
 
 It comes in January or it

@@ -10,8 +10,8 @@ topic: [drawers, summer, fit]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 683
+voice_check: edited
+word_count: 684
 dek: "Solid sides grow across their height. The opening does not. An August hip-check is a clearance you fitted in a dry week."
 meta_description: "Drawer sides are live width standing on edge. Fit them with the wet month in mind, or use a construction that does not ask solid wood to pass a fixed opening."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # Drawers in August
 
 The drawer that ran like glass on

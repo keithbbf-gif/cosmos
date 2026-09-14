@@ -10,8 +10,8 @@ topic: [tabletop, apron, fasteners]
 audience: shop
 safety: shop-safe
 voice: human
-voice_check: human
-word_count: 736
+voice_check: edited
+word_count: 739
 dek: "The apron is quiet length. The top is live width. If you screw them together at both ends like a machine lid, the top will pick a line and open it."
 meta_description: "Tabletops need a sliding connection to the base. Slotted screws, clips, or buttons let the width change. Tight screws at the ends store a season as a crack."
 figures:
@@ -23,7 +23,6 @@ figures:
     status: needed
 verify: []
 ---
-
 # A top that can breathe
 
 Turn the table over before you praise
