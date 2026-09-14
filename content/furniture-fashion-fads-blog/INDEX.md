@@ -6,6 +6,7 @@ Editorial blog drafts with embedded schematic graphics (timelines, style cycles,
 |-----|---------|
 | [GRAPHICS_INDEX.md](GRAPHICS_INDEX.md) | Master list of slugs, SVG paths, captions |
 | [GRAPHICS_STYLE.md](GRAPHICS_STYLE.md) | Design tokens and figure types |
+| [EDITOR_REPORT.md](EDITOR_REPORT.md) | Editor pass status and stub inventory |
 | `graphics-manifest.json` | Machine-readable catalog |
 | `articles/` | Draft stubs with embedded `<figure>` blocks |
 | `embeds/` | Copy-ready figure HTML per slug |
