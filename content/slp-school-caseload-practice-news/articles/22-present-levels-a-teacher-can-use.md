@@ -19,7 +19,8 @@ citations:
   - "https://www.asha.org/practice-portal/professional-issues/documentation-in-schools/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not legal, billing, union, or clinical advice. Not a diagnosis and not a treatment protocol. This series does not use student records or any protected health information (PHI). Local IDEA, FERPA, Medicaid, and district rules govern practice. Talk with your district, a licensed speech-language pathologist, or counsel before changing services.
@@ -54,9 +55,9 @@ A present level a teacher can use takes longer than a score dump. That time sits
 
 The 3:1 model (essay 26) is one way to put observation and teacher talk on the calendar so the paragraph has a source. Consultation at 2.5 mean hours a week is the national smear of that job. If your consultation hour is zero, your present levels will show it.
 
-## A test before you upload
+## A colleague check before you upload
 
-Hand the paragraph to a teacher in that grade — no extra explanation. Ask: “What would you do differently on Monday morning?” If the answer is “I have no idea,” rewrite. If the answer is a specific move, you have a present level.
+This is a drafting habit, not a standardized test or a treatment step. Hand the paragraph to a teacher in that grade — no extra explanation. Ask: “What would you do differently on Monday morning?” If the answer is “I have no idea,” rewrite. If the answer is a specific move, you have a present level.
 
 Do not put the teacher’s name in a public essay. Do not put the student’s.
 

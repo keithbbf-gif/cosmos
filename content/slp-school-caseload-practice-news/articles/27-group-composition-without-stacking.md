@@ -17,7 +17,8 @@ citations:
   - "https://sites.ed.gov/idea/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not legal, billing, union, or clinical advice. Not a diagnosis and not a treatment protocol. This series does not use student records or any protected health information (PHI). Local IDEA, FERPA, Medicaid, and district rules govern practice. Talk with your district, a licensed speech-language pathologist, or counsel before changing services.
@@ -34,7 +35,9 @@ Shared language of a classroom unit. Peer models who actually model. A social-co
 
 The 2024 intervention means hint at why stacking is tempting. Language (form/content) averaged 23 students among SLPs who serve it. Speech sounds averaged 20. Those piles want groups. Fluency averaged 2.6. Childhood apraxia of speech averaged 3.0. AAC averaged 7.2. If those last three are inside the first two’s Thursday slot, you do not have a group. You have a waiting room.
 
-## Five stacking tells
+## Five hallway tells (stacking, not a protocol)
+
+These are ways to spot a **pile** disguised as a group — reading discipline, not a group-therapy worksheet.
 
 **Goals that cannot be run in the same activity.** A device program, a new vowel, and a science-retell goal are three lessons.
 

@@ -19,7 +19,8 @@ citations:
   - "https://sites.ed.gov/idea/"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not legal, billing, union, or clinical advice. Not a diagnosis and not a treatment protocol. This series does not use student records or any protected health information (PHI). Local IDEA, FERPA, Medicaid, and district rules govern practice. Talk with your district, a licensed speech-language pathologist, or counsel before changing services.

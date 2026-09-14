@@ -20,7 +20,8 @@ citations:
   - "https://www.asha.org/siteassets/surveys/2024-schools-survey-slp-workforce.pdf"
 status: draft
 stage: draft
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 ---
 
 **Disclaimer.** Educational only. Not legal, billing, union, or clinical advice. Not a diagnosis and not a treatment protocol. This series does not use student records or any protected health information (PHI). Local IDEA, FERPA, Medicaid, and district rules govern practice. Talk with your district, a licensed speech-language pathologist, or counsel before changing services.
@@ -29,9 +30,9 @@ A principal can see a line at the speech-room door. A principal cannot see the I
 
 The brief is how you make the invisible week visible **without a student name**. ASHA’s four clusters are the outline. The 2024 survey is the national comparison, not the verdict. The IEP stack is the legal object. If you walk in with a mood, you will get a poster. If you walk in with a page, you may get an hour.
 
-This is not a script for a grievance. It is a magazine-section description of a packet.
+This is not a script for a grievance. It is a magazine-section description of a packet. The three pages below are an **outline** for a principal brief — not a worksheet to photocopy or a union demand.
 
-## Page one — the four clusters
+## Page one — the four clusters (outline)
 
 **Direct.** How many IEP / 504 / MTSS students you actually serve this month (three doors, essay 19). How many session blocks. The 2024 national mean was 22.6 hours of direct intervention. Your number goes next to it.
 
@@ -43,7 +44,7 @@ This is not a script for a grievance. It is a magazine-section description of a 
 
 Buildings per FTE. Open evaluations. SLPA hours and supervisor hours if any (essay 31). No roster.
 
-## Page two — the comparison, labeled
+## Page two — the comparison, labeled (outline)
 
 ASHA 2024 median actual **50**, manageable **40**, n in the sentence (essay 04). Your district’s headcount. ASHA does **not** set a cap — print that sentence from the portal so nobody “hears” 40 as a mandate.
 
@@ -51,7 +52,7 @@ Facility row if it helps: elementary 51, secondary 50, telepractice office 52, s
 
 Paperwork first in every facility type. Say it once.
 
-## Page three — the ask
+## Page three — the ask (outline)
 
 One ask. Not five. Examples of *asks*, not instructions: retire a double log; stop adding a building; calendar a 3:1 indirect week and write it on IEPs (essay 26); count 504 and MTSS; hire the vacancy instead of stacking compensatory hours on the remaining FTE (essay 41).
 

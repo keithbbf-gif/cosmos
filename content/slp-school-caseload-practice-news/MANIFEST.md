@@ -14,6 +14,7 @@ Draft-only school SLP practice / caseload / news pack. **44** articles. Staged. 
 | `BIBLIOGRAPHY.md` | Primary sources |
 | `WP_IMPORT.md` | Staging import only |
 | `check_pack.py` | Editor smoke check |
+| `EDITOR_REPORT.md` | Editor pass record |
 | `articles/*.md` | Drafts |
 
 ## Article inventory
@@ -76,7 +77,7 @@ Draft-only school SLP practice / caseload / news pack. **44** articles. Staged. 
 ## Check script (editor)
 
 1. `articles/*.md` count ≥ 40.
-2. Each file has `status: draft`, `stage: draft`, and `voice_check: human` (or `edited` after editor).
+2. Each file has `status: draft`, `stage: draft`, and `voice_check: edited` (editor pass 2026-09-14).
 3. Disclaimer present.
 4. Grep fail on PHI-shaped lines and diagnosis-shaped lines (see `check_pack.py`).
 5. No `[CITE NEEDED]` on a printed survey number.
