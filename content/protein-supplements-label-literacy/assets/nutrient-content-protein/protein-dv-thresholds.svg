@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+  <title id="t">Protein nutrient-content claim thresholds versus 50 gram daily value (schematic)</title>
+  <desc id="d">Horizontal bar showing 10 percent and 20 percent of the 50 gram protein daily value for good source and high protein nutrient-content claims under 21 CFR 101.54.</desc>
+  <rect width="720" height="300" fill="#f6f1e8"/>
+  <text x="24" y="34" font-family="Georgia, serif" font-size="17" fill="#2c2416">Protein %DV thresholds for nutrient-content claims</text>
+  <text x="24" y="56" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">Adult DV = 50 g protein - per RACC - schematic only</text>
+  <rect x="80" y="120" width="560" height="36" fill="#fff" stroke="#2c2416" stroke-width="1.5" rx="4"/>
+  <rect x="80" y="120" width="112" height="36" fill="#d5e0d6" stroke="none"/>
+  <rect x="192" y="120" width="112" height="36" fill="#a8c4ad" stroke="none"/>
+  <rect x="304" y="120" width="336" height="36" fill="#e8efe9" stroke="none"/>
+  <line x1="192" y1="110" x2="192" y2="170" stroke="#3a4a3c" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="304" y1="110" x2="304" y2="170" stroke="#3a4a3c" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="136" y="144" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">0-9% DV</text>
+  <text x="248" y="144" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">10-19%</text>
+  <text x="472" y="144" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">20% or more</text>
+  <text x="80" y="100" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">0 g</text>
+  <text x="192" y="100" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#3a4a3c">about 5 g</text>
+  <text x="304" y="100" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#3a4a3c">about 10 g</text>
+  <text x="640" y="100" text-anchor="end" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">50 g DV</text>
+  <text x="248" y="200" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#2c2416">Good source / contains (10-19% DV)</text>
+  <text x="472" y="200" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#2c2416">High / excellent source (20% DV or more)</text>
+  <text x="24" y="268" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">PDCAAS correction and RACC rules can change the math - see PSL-13 and PSL-34.</text>
+</svg>

@@ -14,6 +14,8 @@ medical_advice: none
 disclaimer: educational
 prerequisites: ["PSL-03", "PSL-06"]
 next: PSL-32
+featured_image: assets/claim-types/claim-types-map.svg
+figure_alt: "Schematic four-box map of nutrient-content, structure-function, authorized health claim, and prohibited disease speech on dietary supplement labels"
 ---
 
 # Structure/function claims vs disease claims
@@ -29,6 +31,15 @@ next: PSL-32
 Stage 6 is the speech stage. This file is the hinge. A dietary supplement may, if it follows the rest of the machine, describe a nutrient’s role in **normal structure or function**. It may not claim to **diagnose, treat, cure, or prevent disease**. FDA wrote the second sentence into criteria at 21 CFR 101.93(g) because people kept trying to do the second thing with the first thing’s adjectives. Your job as a reader is to sort sentences into piles. Your job is not to invent a clever third pile for a brand you like.
 
 ## What a structure/function statement is allowed to be
+
+> **Photo:** Four-box claim-class sorting map.  
+> **Caption:** Teaching piles for label speech — not paste-ready copy.  
+> **License note:** Original, `assets/claim-types/claim-types-map.svg`.
+
+<figure class="blog-figure">
+  <img src="../assets/claim-types/claim-types-map.svg" alt="Schematic four-box map of nutrient-content, structure-function, authorized health claim, and prohibited disease speech on dietary supplement labels" width="720" height="400" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Claim classes to sort before you trust front-of-tub copy (21 CFR 101.54, § 403(r)(6), 101.93). <em>Original schematic; not a product label, clinical data, or a product claim.</em></figcaption>
+</figure>
 
 FDA’s teaching examples are deliberately boring: “calcium builds strong bones,” “fiber maintains bowel regularity,” “antioxidants maintain cell integrity.” The pattern is:
 

@@ -14,6 +14,8 @@ medical_advice: none
 disclaimer: educational
 prerequisites: ["PSL-11"]
 next: PSL-13
+featured_image: assets/serving-size/serving-size-stack.svg
+figure_alt: "Schematic comparing Supplement Facts serving size in grams, a tub scoop, and an optional household cup measure for protein powder"
 ---
 
 # Serving size, scoops, and the household measure
@@ -29,6 +31,15 @@ next: PSL-13
 Every number on a facts panel is a number **per serving**. If you do not know what a serving is, you do not know the protein grams, the sugar grams, or the calorie count. Brands know this. Scoops are convenient. Scoops are also the easiest place to hide a comparison. Literacy treats **metric weight** as the adult unit and the scoop as a kitchen hint.
 
 ## The serving has two faces
+
+> **Photo:** Three-column stack — panel grams, scoop, household cup.  
+> **Caption:** Serving-size literacy schematic; not a brand photo.  
+> **License note:** Original, `assets/serving-size/serving-size-stack.svg`.
+
+<figure class="blog-figure">
+  <img src="../assets/serving-size/serving-size-stack.svg" alt="Schematic comparing Supplement Facts serving size in grams, a tub scoop, and an optional household cup measure for protein powder" width="720" height="320" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Panel serving size (grams) versus scoop and household parallel measures. <em>Original schematic; not a product label, clinical data, or a product claim.</em></figcaption>
+</figure>
 
 U.S. panels declare a serving in a **household measure** (1 scoop, 2 scoops, 1/4 cup) and in a **metric amount** (usually grams for a powder). The metric amount is the one you can check with a scale. The household measure is the one marketing will repeat (“one scoop”).
 

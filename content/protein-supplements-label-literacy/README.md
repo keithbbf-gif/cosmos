@@ -36,6 +36,19 @@ If a sentence here would be illegal or misleading **on a product**, it is writte
 
 Canon files in `_canon/` are **not** lessons. They are the lock, the source list, and the glossary the lessons point at.
 
+## Graphics and image SEO (wave 1)
+
+| File | Role |
+| --- | --- |
+| `GRAPHICS_INDEX.md` | Wired figure inventory |
+| `IMAGE_SEO.md` | `<figure>` / `alt` / OG contract |
+| `PHOTO_NOTES.md` | Allowed diagrams; no disease-implied photography |
+| `RIGHTS.md` | Original SVG rights |
+| `assets/` | Typeset schematics (no stock tubs, no disease-claim art) |
+| `qa/verify_graphics.py` | Path + SVG title + banned-pattern check |
+
+Four lessons embed figures (PSL-11, PSL-12, PSL-31, PSL-34). Run `python3 content/protein-supplements-label-literacy/qa/verify_graphics.py` before publish.
+
 ## How to read (one sitting)
 
 1. Read `_canon/CLAIMS_LOCK.md` once.

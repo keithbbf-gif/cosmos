@@ -14,6 +14,8 @@ medical_advice: none
 disclaimer: educational
 prerequisites: ["PSL-13"]
 next: PSL-35
+featured_image: assets/nutrient-content-protein/protein-dv-thresholds.svg
+figure_alt: "Schematic bar chart of 10 percent and 20 percent daily value protein thresholds for good source and high protein nutrient-content claims"
 ---
 
 # Nutrient-content claims — “high protein” and friends
@@ -29,6 +31,15 @@ next: PSL-35
 “High protein,” “excellent source of protein,” “rich in protein,” “good source of protein,” “contains protein” are **nutrient-content claims**. They talk about **how much** of a nutrient is there relative to Daily Value, not about treating a condition. 21 CFR 101.54 is the rule. They still have to be **true**. They still can **trigger** protein %DV on the panel (PSL-13). They are the rare claim class on a tub you can check with a pencil.
 
 ## The thresholds (ordinary foods and supplements, shopper-level)
+
+> **Photo:** %DV bar with 10% and 20% cut lines for protein.  
+> **Caption:** Nutrient-content thresholds schematic (50 g DV).  
+> **License note:** Original, `assets/nutrient-content-protein/protein-dv-thresholds.svg`.
+
+<figure class="blog-figure">
+  <img src="../assets/nutrient-content-protein/protein-dv-thresholds.svg" alt="Schematic bar chart of 10 percent and 20 percent daily value protein thresholds for good source and high protein nutrient-content claims" width="720" height="300" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Protein nutrient-content claim bands against the 50 g adult Daily Value (21 CFR 101.54). <em>Original schematic; not a product label, clinical data, or a product claim.</em></figcaption>
+</figure>
 
 Per **reference amount customarily consumed (RACC)**, not per whatever scoop looks good:
 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="t d">
+  <title id="t">Dietary supplement claim classes on protein tubs (schematic sorting map)</title>
+  <desc id="d">Four-box teaching map: nutrient-content claims, structure-function statements with disclaimer, rare authorized health-claim door, and prohibited disease speech. No product copy.</desc>
+  <rect width="720" height="400" fill="#f6f1e8"/>
+  <text x="24" y="34" font-family="Georgia, serif" font-size="17" fill="#2c2416">Claim classes - sort sentences before you buy (schematic)</text>
+  <text x="24" y="56" font-family="ui-sans-serif, sans-serif" font-size="12" fill="#6a5b45">21 CFR 101.54 - 403(r)(6) - 101.93 - teaching piles, not paste-ready label text</text>
+  <rect x="40" y="80" width="300" height="120" fill="#d5e0d6" stroke="#3a4a3c" stroke-width="1.5" rx="6"/>
+  <text x="56" y="108" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#2c2416">N - Nutrient-content</text>
+  <text x="56" y="132" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">High protein, good source</text>
+  <text x="56" y="150" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#3d3426">Quantity vs % Daily Value (101.54)</text>
+  <text x="56" y="178" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">Check with a pencil on the panel</text>
+  <rect x="380" y="80" width="300" height="120" fill="#e8d9c0" stroke="#5a4a32" stroke-width="1.5" rx="6"/>
+  <text x="396" y="108" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#2c2416">S - Structure / function</text>
+  <text x="396" y="132" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">Normal structure or function only</text>
+  <text x="396" y="150" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#3d3426">Needs bold FDA disclaimer nearby</text>
+  <text x="396" y="178" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">Not a disease outcome promise</text>
+  <rect x="40" y="220" width="300" height="100" fill="#e0e4ea" stroke="#3a5a7a" stroke-width="1.5" rx="6"/>
+  <text x="56" y="248" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#2c2416">H - Authorized health claim</text>
+  <text x="56" y="272" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#2c2416">Rare - regulation-specific wording</text>
+  <text x="56" y="298" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">Different door than structure/function</text>
+  <rect x="380" y="220" width="300" height="100" fill="#f0d8d8" stroke="#8a3a3a" stroke-width="2" rx="6"/>
+  <text x="396" y="248" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#5c2020">D - Disease speech</text>
+  <text x="396" y="272" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#5c2020">May not diagnose, treat, cure, or prevent</text>
+  <text x="396" y="298" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#6a5b45">Out pile - includes implied context (101.93(g))</text>
+  <text x="24" y="368" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#6a5b45">This map teaches recognition. It does not authorize any sentence for a real product label.</text>
+</svg>

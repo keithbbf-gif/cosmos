@@ -14,6 +14,8 @@ medical_advice: none
 disclaimer: educational
 prerequisites: ["PSL-05", "PSL-10"]
 next: PSL-12
+featured_image: assets/supplement-facts-anatomy/facts-panel-anatomy.svg
+figure_alt: "Schematic Supplement Facts panel for a generic protein powder with labeled regions for serving size, protein grams, percent daily value, and dietary ingredient lines"
 ---
 
 # Supplement Facts vs Nutrition Facts
@@ -41,6 +43,15 @@ Both will usually show:
 Both are **rounded**. A gram on a panel is a legal gram, not a laboratory printout to three decimals. Literacy respects rounding and still does the arithmetic in PSL-41.
 
 ## How Supplement Facts is a different grid
+
+> **Photo:** Generic Supplement Facts box with region callouts.  
+> **Caption:** Panel anatomy for a protein powder — schematic, not a real brand.  
+> **License note:** Original, `assets/supplement-facts-anatomy/facts-panel-anatomy.svg`.
+
+<figure class="blog-figure">
+  <img src="../assets/supplement-facts-anatomy/facts-panel-anatomy.svg" alt="Schematic Supplement Facts panel for a generic protein powder with labeled regions for serving size, protein grams, percent daily value, and dietary ingredient lines" width="720" height="480" loading="lazy" decoding="async" />
+  <figcaption><strong>Figure.</strong> Regions of a typical Supplement Facts panel for a protein powder (21 CFR 101.36). <em>Original schematic; not a product label, clinical data, or a product claim.</em></figcaption>
+</figure>
 
 **Dietary ingredients that are not in the Nutrition Facts core set can appear as their own lines.**  
 A supplement can list whey protein, a proprietary blend, and an enzyme mix as **dietary ingredients** with amounts, not only hide them in an ingredient list. A food’s Nutrition Facts will not give you a line that says “whey protein isolate 28 g” unless the brand is also making a voluntary statement elsewhere. On a supplement, that line *is* the statement.
