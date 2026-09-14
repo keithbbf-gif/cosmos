@@ -1,0 +1,21 @@
+@import url("../../shared/tokens.css");
+@import url("../../shared/base.css");
+
+:root {
+  --brand-primary: #5eead4;
+  --brand-primary-muted: #2dd4bf;
+  --brand-accent: #c4b5fd;
+  --brand-glow: rgba(94, 234, 212, 0.18);
+  --bg-deep: #06080f;
+  --bg-elevated: #0d111c;
+  --bg-card: #121829;
+}
+
+.hero-mark {
+  width: 3rem;
+  height: 3px;
+  background: linear-gradient(90deg, var(--brand-primary), var(--brand-accent));
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-5);
+  box-shadow: 0 0 24px var(--brand-glow);
+}
