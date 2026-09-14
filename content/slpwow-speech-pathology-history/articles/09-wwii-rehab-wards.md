@@ -46,7 +46,7 @@ Audiology split into its own profession in the same hospitals. Raymond Carhart�
 
 ## Not only America
 
-Luria’s *Traumatic Aphasia* (Moscow, 1947) was built on Soviet military cases: young men, focal wounds, follow-up from the field hospital to the institute. He had opened a neuropsychology laboratory at the Burdenko Institute in 1936; the German invasion in June 1941 turned the laboratory into a war service. English readers did not get the book until 1970. The method — find the broken component, teach through the intact ones — was already in Russian print while American VA clinicians were still writing local mimeographs.
+Luria’s *Traumatic Aphasia* (Moscow, 1947) was built on Soviet military cases: young men, focal wounds, follow-up from the field hospital to the institute. He had been seeing neurosurgical patients at the Burdenko Institute by the late 1930s; the German invasion in June 1941 turned that work into a war service. English readers did not get the book until 1970. The method — find the broken component, teach through the intact ones — was already in Russian print while American VA clinicians were still writing local mimeographs.
 
 In Newcastle, Muriel Morley spent the war years seeing aphasic ex-servicemen in hospital sessions as well as children with cleft palate. Britain’s College of Speech Therapists (1945) is a postwar professional fact: a civilian college born while the wards were still full.
 

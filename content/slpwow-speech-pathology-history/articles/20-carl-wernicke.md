@@ -30,7 +30,7 @@ Wernicke did not work from a single celebrity patient the way Broca’s “Tan�
 
 ## The rest of the career
 
-He held posts in Berlin and then a chair in psychiatry at Breslau (from 1885), later Halle (from 1904). He wrote a textbook of psychiatry, described other neurologic syndromes (the encephalopathy that still carries his name is a different, later story, tied to thiamine and to work with his student Karl Bonhoeffer), and trained a generation of German psychiatrists. He was not running a speech clinic. He was running a university service in which aphasia was one chapter.
+He held posts in Berlin and then a chair in psychiatry at Breslau (from 1885), later Halle (from April 1904). He wrote a textbook of psychiatry and trained a generation of German psychiatrists. The encephalopathy that still carries his name is a different chapter: he described “acute hemorrhagic polioencephalitis superior” in 1881; Karl Bonhoeffer, his Breslau assistant in the 1890s, later set that picture next to Korsakoff’s psychosis; the thiamine cause arrived decades after Wernicke was dead. Do not hang those three facts on one nail. He was not running a speech clinic. He was running a university service in which aphasia was one chapter.
 
 He died 15 June 1905 after an accident in the Thuringian Forest — a bicycle, in the usual telling. Gutzmann’s inaugural lecture on speech as a clinical subject was the same year, in another city, on another payroll.
 

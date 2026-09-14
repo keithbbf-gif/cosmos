@@ -31,7 +31,7 @@ This is not yet “speech-language pathology.” It is a physician’s specialty
 
 The German division of labor hardened as the century went on. **Phoniatrics** stayed a medical specialty: larynx, resonance, neurologic voice, the prescription, the endoscope. **Logopedics** (the word Fröschels would popularize from Vienna in 1924) became the therapy profession — the person who sat with the child. The two shared patients and fought over status. They still do, under different national laws.
 
-Gutzmann’s own writing does not respect the later fence. He measured breathing in stuttering for the habilitation. He wrote histories of speech therapeutics. He ran a school-facing journal. He wanted the university and the classroom in one sentence. American visitors who later called him a “speech doctor” were not wrong. They were translating a job that their own universities had assigned to psychologists and debate coaches instead.
+Gutzmann’s own writing does not respect the later fence. He measured respiratory movements in speech disorders for the 1904–05 thesis work. He wrote histories of speech therapeutics. He ran a school-facing journal. He wanted the university and the classroom in one sentence. American visitors who later called him a “speech doctor” were not wrong. They were translating a job that their own universities had assigned to psychologists and debate coaches instead.
 
 ## Berlin is not the only city
 

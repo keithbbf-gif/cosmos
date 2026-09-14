@@ -38,7 +38,7 @@ Articles cite contested facts in the text. This file holds the warrant.
 - Amman, Johann Conrad. *Surdus loquens.* 1692. English as *A Dissertation on Speech*, later reprints.
 - Bell, Alexander Melville. *Visible Speech: The Science of Universal Alphabetics.* London, 1867.
 - Bell, Alexander Melville. *Principles of Speech and Dictionary of Sounds.* Washington, D.C.: Volta Bureau, 1900.
-- Broca, Paul. “Remarques sur le siège de la faculté du langage articulé…” *Bulletin de la Société Anatomique*, 1861.
+- Broca, Paul. “Remarques sur le siège de la faculté du langage articulé…” *Bulletin de la Société Anatomique*, 1861. English: York University *Classics in the History of Psychology* (autopsy +24h; specimen shown to the Société d’Anthropologie).
 - Wernicke, Carl. *Der aphasische Symptomencomplex.* Breslau, 1874.
 - Gutzmann, Hermann. *Über das Stottern.* Berlin, 1887 (dissertation).
 - Gutzmann, Hermann. *Des Kindes Sprache und Sprachfehler.* 1894.
@@ -70,7 +70,7 @@ Articles cite contested facts in the text. This file holds the warrant.
 - Darley, Frederic L., Arnold E. Aronson, and Joe R. Brown. *Motor Speech Disorders.* Philadelphia: W. B. Saunders, 1975.
 - Goodglass, Harold, and Edith Kaplan. *The Assessment of Aphasia and Related Disorders* / Boston Diagnostic Aphasia Examination. Philadelphia: Lea & Febiger, 1972 (2nd ed. 1983; 3rd ed. with Barbara Barresi, 2001).
 - Luria, A. R. *Traumatic Aphasia.* Moscow: Academy of Medical Sciences, 1947. English trans. Douglas Bowden. The Hague: Mouton, 1970.
-- Luria, A. R. *Restoration of Function After Brain Injury.* Russian 1948; later English editions.
+- Luria, A. R. *Restoration of Function After Brain Injury.* Russian 1948; English, Pergamon, 1963 (title of the translation — do not invent a wartime English spine).
 - Brookshire, Robert H. *An Introduction to Aphasia.* 1973.
 - Brookshire, Robert H. *Introduction to Neurogenic Communication Disorders.* (Later textbook line; see article 40 for edition caution.)
 - Fairbanks, Grant. *Voice and Articulation Drillbook.* 1937; 2nd ed. Harper, 1960.
@@ -131,6 +131,11 @@ Licenses, URLs, and credit lines are **not** duplicated here. See `PORTRAIT_SOUR
 | Brookshire birth/death | — | — | Unknown; say so |
 | Fröschels M.D. | University of Vienna, 1907 (Wien Geschichte Wiki) | “Jena in Vienna” (a Duchan slip) | Vienna, 1907 |
 | Luria Commons photo | Marked public domain, unknown 1940s | Photographer copyright may still exist | Use with Commons credit + caution |
+| Luria medical diploma | 1936 (some English sketches) | 1937, First Moscow Medical Institute (MSU / standard vitae); Dr. Med. Sci. 1943 is later | 1937 diploma; flag 1936 |
+| Broca 1861 rooms | “Société Anatomique next day” (compressed retellings) | Autopsy +24h; brain shown to Société d’Anthropologie hours later; long paper in *Bull. Soc. Anat.* | Two rooms, Broca’s own account |
+| Melville Visible Speech demos | Generic “Edinburgh audience” | Glasgow Athenaeum public demo; Ellis sitting; sons as readers | Glasgow / Ellis, not an invented Edinburgh hall |
+| Melville at Queen’s | “late 1870s” (this pack’s first pass) | Lecturer in philology from 1870 (standard vitae) | From 1870 |
+| Wernicke encephalopathy | Thiamine + Bonhoeffer as one fact | 1881 description; Bonhoeffer later on Korsakoff link; thiamine decades later | Unbundle |
 
 ## Deliberately not used as biography
 

@@ -13,7 +13,7 @@ stage: draft
 
 # Medicine Finds the Lesion
 
-In April 1861, at the Bicêtre hospital outside Paris, a man who had been nearly speechless for years died. Pierre Paul Broca opened the brain and found a softened patch in the third frontal convolution of the left hemisphere. The patient had been known in the ward as “Tan,” for the one syllable he could still say. Broca reported the case to the Société Anatomique that year. He argued that articulated speech had a seat.
+In April 1861, at the Bicêtre hospital outside Paris, a man who had been nearly speechless for years died. Pierre Paul Broca opened the brain — twenty-four hours after death, by his own account — and found a softened patch in the third frontal convolution of the left hemisphere. The patient had been known in the ward as “Tan,” for the one syllable he could still say. Broca showed the specimen to the Société d’Anthropologie within hours of the autopsy; the long paper ran in the *Bulletin de la Société Anatomique* that year. He argued that articulated speech had a seat.
 
 The argument was not born in 1861. Franz Joseph Gall had already assigned “language” a bump on the skull. Jean-Baptiste Bouillaud had already bet that the frontal lobes mattered. Broca had a lesion he could point to in a wet room, and a patient whose life had been written down. That combination traveled.
 

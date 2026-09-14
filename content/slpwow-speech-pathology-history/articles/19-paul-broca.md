@@ -22,7 +22,7 @@ Pierre Petit photographed him in the studio style of the Second Empire: dark coa
 
 ## Sainte-Foy to Bicêtre
 
-He was born 28 June 1824 at Sainte-Foy-la-Grande. He trained in Paris, became a surgeon, a professor, a politician late. The scientific fame is localization of articulated speech to the third left frontal convolution, announced after the death of Louis Victor Leborgne. Leborgne died at Bicêtre on 17 April 1861; Broca examined the brain the next day and spoke to the Société Anatomique shortly after. The man had said “tan” for years. Broca’s remarks, and the cases that followed, made “aphemia” — his first word — into a public fact. The world later said *aphasia* and put his name on the nonfluent type.
+He was born 28 June 1824 at Sainte-Foy-la-Grande. He trained in Paris, became a surgeon, a professor, a politician late. The scientific fame is localization of articulated speech to the third left frontal convolution, announced after the death of Louis Victor Leborgne. Leborgne died at Bicêtre on 17 April 1861, at eleven in the morning. Broca did the autopsy twenty-four hours later and, a few hours after that, showed the brain to the Société d’Anthropologie. The long paper — “Remarques sur le siège de la faculté du langage articulé…” — ran in the *Bulletin de la Société Anatomique* that year. Two rooms, one specimen. Do not collapse them. The man had said “tan” for years. Broca’s remarks, and the cases that followed, made “aphemia” — his first word — into a public fact. The world later said *aphasia* and put his name on the nonfluent type.
 
 He had predecessors. Gall, Bouillaud, Auburtin. Broca had the specimen and the society. Medicine rewards the person who brings the brain to the meeting.
 

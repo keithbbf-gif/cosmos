@@ -24,11 +24,11 @@ Aleksandr Romanovich Luria was born in Kazan on 16 July 1902 and died in Moscow 
 
 ## Vygotsky’s junior, then a medical degree
 
-The 1920s Luria is a Moscow psychologist in Lev Vygotsky’s circle, writing a “real psychology” that would not be published as a book at the time. He understood, by the mid-1930s, that the brain questions required a physician’s training. M.D., 1936. The same year he opened a neuropsychology laboratory at the Burdenko Institute of Neurosurgery and began to see aphasic patients there.
+The 1920s Luria is a Moscow psychologist in Lev Vygotsky’s circle, writing a “real psychology” that would not be published as a book at the time. He understood, by the mid-1930s, that the brain questions required a physician’s training. He finished the medical diploma at the First Moscow Medical Institute in 1937 — not 1936, a year that still floats on some English pages. (The later Soviet *Doctor of Medical Sciences*, 1943, is a different degree.) By the late 1930s he was seeing aphasic patients at the Burdenko Institute of Neurosurgery. Do not print a 1936 laboratory founding as if it were a brass plate; the wartime service is the dated fact.
 
 ## 1941
 
-When Germany invaded the Soviet Union in June 1941, the laboratory became a war service. Luria wanted young men with focal penetrating wounds, not elderly stroke patients with three other diseases. Teams assessed in field hospitals and followed patients to institutes in the rear. *Traumatic Aphasia* appeared in Russian in 1947 (Academy of Medical Sciences press). *Restoration of Brain Functions After War Trauma* followed in 1948. A revised *Traumatic Aphasia* (1959) became, in Douglas Bowden’s English, the 1970 Mouton edition that Western aphasiologists finally held.
+When Germany invaded the Soviet Union in June 1941, the laboratory became a war service. Luria wanted young men with focal penetrating wounds, not elderly stroke patients with three other diseases. Teams assessed in field hospitals and followed patients to institutes in the rear. *Traumatic Aphasia* appeared in Russian in 1947 (Academy of Medical Sciences press). A 1948 Russian book on restoring function after wartime brain injury reached English later as *Restoration of Function After Brain Injury* — do not invent a back-translated wartime title and treat it as a spine. A revised *Traumatic Aphasia* (1959) became, in Douglas Bowden’s English, the 1970 Mouton edition that Western aphasiologists finally held.
 
 He wrote that recovery used the intact components — the patient’s strengths — to rebuild the work of the damaged ones. That sentence, stripped of Pavlovian dress, is now so common in rehab talk that people forget someone had to write it after a war.
 
