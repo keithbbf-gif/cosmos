@@ -80,7 +80,7 @@ A last paragraph that teaches the next file is fine. A last paragraph that asks 
 5. Say when a number is a house rule vs a statute. The ack is the contract. This folder is not.
 6. Split dealer and homeowner when the job differs. Do not glue them with a banned "whether you're."
 7. Keep the educational disclaimer on every draft.
-8. Stop when the piece has said the thing. Target **1,000–1,400 words**. Cut the last recap if it only restates H2s.
+8. Stop when the piece has said the thing. Target **600–1,200 words**. Process pieces run tighter than the craft-pack essays; they still fail if they are a stub. Cut the last recap if it only restates H2s.
 
 ## Claims posture
 

@@ -14,7 +14,7 @@ citations:
   - "Finish product SDS / recoat windows (named per job)"
 status: draft
 voice_check: human
-word_count: 1100
+word_count: 739
 verify:
   - "Do not invent a house finish system or VOC slogan [VERIFY]"
 ---
@@ -58,6 +58,16 @@ Do not promise "in the truck Friday" because the mill ended Wednesday. Ask the f
 ## Homeowners
 
 You can ask for a simpler finish to buy a week. You cannot ask for a piano film on Monday and a Tuesday pickup. If the dinner is fixed, the finish has to be a finish that can exist by then — or the dinner uses the old table (piece 24, piece 42).
+
+## What to ask the finish room, not the salesperson
+
+Recoat window for this system in this weather. Cure before crate. Whether a color change after coat one is a strip. Whether the sample board used the same grit and the same sealer as the job (piece 31).
+
+If the salesperson answers without walking to the finish room, you have a hallway date (piece 03). Walk. The room will smell like solvent and truth.
+
+## August in this county
+
+Humidity moves windows. A system that recoats next morning in March may need more hours in August. The finish room knows. The POS does not. If your date is a holiday in a wet month (piece 24), add a day before you sell the dinner. A sock print in a green film is not "custom character." It is a crate that left early.
 
 ## The RFQ lines
 

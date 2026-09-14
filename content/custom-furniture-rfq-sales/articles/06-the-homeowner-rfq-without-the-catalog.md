@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-201"
 status: draft
 voice_check: human
-word_count: 1190
+word_count: 940
 verify:
   - "House preference for homeowner intake form vs email [VERIFY]"
 ---

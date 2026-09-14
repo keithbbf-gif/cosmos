@@ -13,9 +13,8 @@ series: custom-furniture-rfq-sales
 citations:
   - "Architectural Graphic Standards"
 status: draft
-voice_count: 1088
 voice_check: human
-word_count: 1088
+word_count: 773
 verify:
   - "House note on pendant-to-table target if any [VERIFY]"
 ---
@@ -57,6 +56,18 @@ Islands have their own aisle math (piece 13) and their own pendants. A bar-heigh
 ## Dealers
 
 Showrooms have 12-foot ceilings and no fans. Customers have 7'10" and a Hunter. Do not sell a 40-inch-tall hutch from the showroom photo without a ceiling number. The RFQ is the ceiling number.
+
+## How to measure the air without a sermon
+
+Stand a tape from the floor to the lowest blade or to the bottom of the pendant. Write that number. Write table height from the same floor, same shoes. Subtract. Subtract the vase you actually use — measure the vase. If the remainder is under a hand-span, you are in tick territory or you need a shorter fixture, a thinner top, or no flowers.
+
+If the fixture is on a chain, measure it as it hangs today and as it would hang two links shorter. Electricians will shorten a stem more willingly before a dinner than after a table exists. Put "fixture to be shortened by others" on the RFQ if that is the plan. Do not assume the shop is the electrician.
+
+Beds with posts, breakfronts, and canopy thoughts get the same subtraction against the fan and the soffit. A post that clears the showroom will not clear a 7'10" farmhouse with a dropped beam. Write the beam.
+
+## Thick tops steal air on purpose
+
+People order 8/4 and 10/4 from photos and keep the fixture they have. Each extra quarter-inch of top is air you do not have. Write the thickness next to the floor-to-fixture number so the household can see the subtraction. If they still want the thick top, they are choosing a shorter stem or a shorter vase. Put the choice on the drawing. Do not discover it when the flowers tick.
 
 ## The RFQ lines
 

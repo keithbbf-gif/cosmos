@@ -15,7 +15,7 @@ citations:
   - "AWI Standards (tolerances)"
 status: draft
 voice_check: human
-word_count: 1135
+word_count: 959
 verify:
   - "House scribing / field-fit notes on built-ins [VERIFY]"
 ---
@@ -69,5 +69,17 @@ When the wall is a curve, a jog, or a fight you cannot describe in inches, templ
 ## The photo that proves it
 
 Shoot the tape on both diagonals. Shoot the 3-4-5. Put those photos in the RFQ (piece 07). A shop that ignores them is a shop that wants a fight. A customer who will not take them is a customer who wants a perfect rectangle in a 91-degree corner.
+
+## What the shop does with a 91-degree corner
+
+On a freestanding table, the shop mostly cares about the pass (piece 11). On a sideboard, they may hold the case off the wall with a thicker back rail and accept a shadow. On a built-in, they add stock to scribe, or they build a filler, or they tell you the piece should stop short of the drunk corner and look like a decision.
+
+Ask which, on the quote, as a line. "Scribe included" and "reveal ⅜, no scribe" are different dollars and different looks. A household that wanted the case "tight to the wall" and a shop that planned a reveal will both be right and both be unhappy.
+
+Do not caulk a wedge and call it furniture. Caulk is a painter. The next season will open it.
+
+## A dealer special that ignored the diagonal
+
+The store sold a 72-inch sideboard into an alcove the salesperson called "about six feet." The diagonals disagreed by four inches. The mill built a rectangle. The alcove showed a wedge the household photographed at dinner. The store paid a trip and a scribe they had not sold. The RFQ that would have saved them was two diagonal numbers and a photo of the 3-4-5 (piece 07). That is not extra work. That is the work.
 
 South Arkansas plaster will not become a cabinet shop because you asked nicely. The drawing can be square. The room is not. Write the room.

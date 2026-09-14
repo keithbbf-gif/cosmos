@@ -16,7 +16,7 @@ citations:
   - "NKBA Kitchen Planning Guidelines"
 status: draft
 voice_check: human
-word_count: 1220
+word_count: 962
 verify:
   - "Confirm Graphic Standards / Time-Saver edition on the shop shelf before treating seating widths as gospel [VERIFY]"
 ---
@@ -66,6 +66,16 @@ A table that fits the empty rectangle may still block the hutch drawer, the kitc
 ## Dealers
 
 Your catalog 96-inch is a hero for a showroom with a 16-foot wall. The customer's 11-foot room is a different SKU even if the joinery is the same (piece 04). Sell the length the pass allows. A smaller table that can be walked around is not a downgrade. It is a room that still works on a Tuesday.
+
+## A worked length
+
+Room 13'2" × 11'4". Hutch on the long wall, 18 inches deep. Kitchen swing on the short wall. Tape says 11'4" is the short way — that is your width budget. 42-inch top + 36-inch pass each side wants 9'6" plus the hutch if the hutch is on the long side. Do the arithmetic on the sketch. If the hutch eats the pass, the top goes to 36 or the chair count drops.
+
+Eight people at 24 inches is 192 inches of edge if you seat all around — that is a 96 × 48 class object, which this room will not hold with a pass. So you are not buying eight. You are buying six daily and a leaf if the holiday pass still exists (piece 24). Write that on the RFQ so the shop does not price a 96-inch hero you cannot walk around.
+
+## Chairs you already own are a spec
+
+Bring the chair to the tape. Seat height, arm height, width at the elbows. A table priced without those numbers is priced for a catalog chair. If the chairs are not bought, write "chairs TBD" and accept that apron and height may need a hold until they exist. A shop that guesses a 30-inch height into an armchair house will eat a remake or a household that never sits back.
 
 ## The RFQ lines that price
 

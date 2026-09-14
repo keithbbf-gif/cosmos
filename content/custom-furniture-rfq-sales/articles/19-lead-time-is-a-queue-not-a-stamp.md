@@ -15,7 +15,7 @@ citations:
   - "16 CFR Part 435"
 status: draft
 voice_check: human
-word_count: 1195
+word_count: 914
 verify:
   - "Do not publish a house week-count as policy [VERIFY]"
 ---
@@ -73,5 +73,11 @@ Put the stack in the special-order note, even if the customer only sees a week c
 ## Homeowners
 
 Ask: what is already in front of me? Is the oak here? What hardware is a buyout? When do you want my approval? What happens if I change the stain after freeze (piece 30)? Those questions are not rude. They are the job.
+
+## A stack written as a paragraph
+
+"Queue is three jobs, about three weeks. Oak 8/4 is on a truck, yard says ten days, then rest. Mill on a known apron is a week after lumber. Finish is five working days plus cure. Pulls are in the bin. White glove is booked the week after cure if you book it at deposit."
+
+That paragraph is a quote's calendar. "12 weeks" is a costume of that paragraph. If any clause is UNKNOWN, write UNKNOWN. A shop that will not write the paragraph will not call you when one clause slips (piece 25).
 
 The whiteboard will still get erased. The stack is still the thing. Quote the stack. Stamp nothing you cannot point to.

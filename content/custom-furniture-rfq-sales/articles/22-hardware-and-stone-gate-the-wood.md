@@ -14,7 +14,7 @@ citations:
   - "UCC § 2-201(3)(a) (procurement commitments)"
 status: draft
 voice_check: human
-word_count: 1135
+word_count: 768
 verify:
   - "House list of chronic buyout vendors [VERIFY]"
 ---
@@ -58,6 +58,16 @@ Your special is often a house wood and a specified pull from a brand the mill do
 ## Homeowners
 
 You can save a week by using the shop's bin. You can spend a month on a brass that photographs well. Both are fine if they are chosen. A surprise specified pull in a text after the doors are bored is a change order.
+
+## Parallel vs sequential, written
+
+Mill can run while hinges are on order — unless the hinge boring is the first machine pass. Stone cannot template until the base is real — unless you accept a wood hole that may be wrong. COM cannot sew until the roll is inspected.
+
+Draw two columns on the quote: PARALLEL and GATE. Put each buyout in a column. The date on the ack is the longer column plus the gates (piece 25). A shop that puts everything in PARALLEL is optimistic. A shop that puts everything in GATE is slow and sometimes right.
+
+## The photo of a done top is not a ship date
+
+Process photos of a finished table with an open mortise waiting on a hinge are how households think you are lying. Send the photo with a sentence: wood done, hinge PO #, ETA, date on ack still this / moved. Silence plus a pretty top is worse than a plain delay notice (piece 25).
 
 ## The RFQ lines
 

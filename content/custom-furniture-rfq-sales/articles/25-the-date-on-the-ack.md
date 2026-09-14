@@ -18,7 +18,7 @@ citations:
   - "UCC § 2-201"
 status: draft
 voice_check: human
-word_count: 1240
+word_count: 912
 verify:
   - "House delay-notice template and which channels are remote [VERIFY]"
 ---
@@ -70,5 +70,15 @@ If a delay notice arrives, read it. A cancel-and-refund option on a remote order
 ## The RFQ / ack lines
 
 Channel: showroom / dealer PO / internet / phone. Start event. Date kind: ship / dock / room. Date. Slip triggers. Who calls whom.
+
+## A delay call that is a document
+
+"Ack A-22 said room-of-choice week of the 14th. The hinge house slipped; we do not have a reasonable basis for the 14th. We can offer week of the 28th if the hinge lands Friday, or cancel per the ack. Please reply."
+
+That is a notice. "Running a little behind" is not. On a remote order, read Part 435 for the extra sentences you may owe. On a showroom order, still send the paragraph. Copy the dealer the same hour if a store sold the date (piece 33).
+
+## Ship vs room is two Fridays
+
+A shop that writes "the 14th" without ship / dock / room is writing a fight. Freight after the 14th is not the mill being late if the ack said ship. A household that heard room will not care about your vocabulary. Put the vocabulary on the paper they signed. Then the delay notice, if you need one, has a thing to delay.
 
 The hallway can stay friendly. The truck reads the ack. Put the week where the truck can see it.

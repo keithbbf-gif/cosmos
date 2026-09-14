@@ -14,7 +14,7 @@ citations:
   - "16 CFR Part 435"
 status: draft
 voice_check: human
-word_count: 1088
+word_count: 741
 verify:
   - "House cutoff dates if published [VERIFY]"
 ---
@@ -23,7 +23,7 @@ verify:
 
 In June the whiteboard already had Thanksgiving written in a corner, half joke, half grave. By September the joke was gone. Every RFQ wanted the same Thursday. The oak did not care. The queue did.
 
-Holidays are not surprises. They are a pile-up you can see from the solstice. Showroom seasons and market weeks are the dealer version of the same pile-up. Write them as calendar facts, not as emotional leverage.
+Holidays are not surprises. They are a pile-up you can see from the solstice. Showroom seasons and market weeks are the dealer version of the same pile-up. Write them as calendar facts, not as a way to squeeze a date.
 
 ## The household holidays
 
@@ -54,6 +54,16 @@ A website that says "guaranteed by Christmas" on a custom object is a 16 CFR Par
 Use the table you have, or buy stock (piece 04), or take a made-to-order in a shop stain. Commission the custom for January, when you can enjoy it. That sentence feels like a loss in September. It feels like wisdom in December.
 
 Shops can say this without being cruel. Customers can hear it without being sold. Dealers can write it on the ticket and still keep the relationship.
+
+## What to do in June
+
+If you know you want a table in November, RFQ in June. Approve in July. Deposit when the drawing is real. Book freight when the deposit clears. That sentence is boring and it works.
+
+If you are reading this in October, you are in stock, made-to-order-in-the-rack, or January (piece 04). A shop that tells you otherwise should show you the whiteboard and the oak. If they show you a brochure, walk (piece 43).
+
+## The old table is allowed
+
+Using the table you have for one more holiday is not a failure. It is how you get a January piece you like instead of a November lie. Shops can say this without being cruel. Dealers can write it on the ticket and still keep the job. Households can hear it without being closed. The turkey does not grade the furniture.
 
 ## The RFQ lines
 

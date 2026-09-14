@@ -15,7 +15,7 @@ citations:
   - "AWI Standards"
 status: draft
 voice_check: human
-word_count: 1175
+word_count: 947
 verify:
   - "NKBA edition in hand before printing aisle inches as NKBA's current figure [VERIFY]"
   - "Do not duplicate a kitchen-island design pack; this piece is measure-for-quote only"
@@ -68,6 +68,18 @@ The run the island parallels is not straight. Measure both ends of the aisle. If
 ## Dealers and designers
 
 Send the cabinet plan *and* the field aisle. Plans are optimistic. If your CAD shows 48 and the tape shows 43, the tape wins. Do not ask the wood shop to "hold the design intent." Hold the dishwasher door.
+
+## A Tuesday kitchen, not a photo kitchen
+
+Open the dishwasher. Stand in the remaining aisle with a gallon of milk. If you have to turn sideways, the island is too deep or the run is too close. That test is older than NKBA and faster than an argument.
+
+If two stools face the sink and the cook faces the range, you have a crossing. Write who yields. A furniture island that is really a table can be walked around; a cabinet island cannot. If you want walk-around, say furniture and accept fewer doors.
+
+Gas and downdraft spec sheets lie in the pretty drawing. The real blower housing is taller. Cut the sheet out and lay it on the plywood top in the shop before you finish the box. A microwave drawer that needs 24¾ will not live in a 24-inch hole you already stained.
+
+## Who owns the top, written twice
+
+Wood shop builds the base. Stone shop builds the top. If both think they own the overhang, you get two inches of fight and a steel support in the wrong knee. Put a single overhang number on both POs and on the RFQ. If the stone is customer-supplied (piece 39), the wood shop still needs that number before they place a corbel. A corbel in the dinner side is a change order that should have been a drawing (piece 30).
 
 ## The RFQ lines
 

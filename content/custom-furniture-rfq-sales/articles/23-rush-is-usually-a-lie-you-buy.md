@@ -15,7 +15,7 @@ citations:
   - "16 CFR Part 435"
 status: draft
 voice_check: human
-word_count: 1115
+word_count: 810
 verify:
   - "House rush policy if any — do not invent a percent [VERIFY]"
 ---
@@ -59,6 +59,16 @@ If the shop offers a smaller object that can exist by the date — a made-to-ord
 `[VERIFY]` any house rush percent before anyone prints one. If there is no policy, there is no percent. A one-off Saturday is a quoted labor line, not a vibe.
 
 Refunds on a failed rush should be in the ack: the fee comes back if the shop missed; the fee stays if the customer changed the drawing. Write it. Do not improvise at the wedding.
+
+## A rush that was real
+
+Lumber in the rack. Made-to-order apron. House pulls. Household dropped the leaf and accepted threshold instead of room. Shop ran a Saturday. Date held. The fee was a Saturday line, not a magic percent.
+
+A rush that was not: custom first-time built-in, stone not templated, Thanksgiving, customer still arguing stain. Fee offered. Shop took it. January delivery plus a strip. The fee did not come back because the ack was silent. Write the refund rule when you write the fee, or do not take the fee.
+
+## Dealers who rush every special train the mill to ignore them
+
+If every PO says RUSH, none do. Save the word for a wedding or an opening (piece 46) where you also dropped scope. A mill that has learned your store cries wolf will put your honest emergency in the same pile as your anniversary sale. Your household will still call you.
 
 ## The RFQ lines
 

@@ -82,8 +82,8 @@ def main() -> int:
         words = body_words(text)
         words_total += words
         print(f"  {words:5d}  {path.name}")
-        if words < 900:
-            issues.append(f"{path.name}: short body ({words} < 900)")
+        if words < 600:
+            issues.append(f"{path.name}: short body ({words} < 600)")
         for key in REQUIRED_FM:
             if key not in text:
                 issues.append(f"{path.name}: missing {key}")

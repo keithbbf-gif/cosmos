@@ -16,7 +16,7 @@ citations:
   - "UCC § 2-508"
 status: draft
 voice_check: human
-word_count: 1140
+word_count: 780
 verify:
   - "House site-measure fee and ack sentence [VERIFY]"
 ---
@@ -58,6 +58,18 @@ A footer that says the shop is never responsible for fit, even after a shop meas
 ## Cure, not pride
 
 If the inch was wrong and the piece is close, a shop may recut, scribe, or split a top (piece 14). That is cheaper than a lawyer and cheaper than a one-star story. Say in the ack whether field adjustment is included. Surprise labor on install day is how deposits get ugly (piece 26, piece 37).
+
+## What a site-measure visit should include
+
+The room, the path, the live plates, the heights, a photo of the tape on the long wall, and a sentence on out-of-square. If the visit was "we stopped by and looked," it was not a measure. Looking is a ballpark (piece 03).
+
+Fee or inclusion belongs on the quote. A shop that drives two hours and then eats the drive is a shop that will hurry the tape. Pay for the tape you want.
+
+If the household declines the visit to "save money," write declined. Then the inch is theirs when the landing vetoes. That sentence feels cold in the office. It feels fair on the porch.
+
+## Shared custody is nobody
+
+"We measured together" without a name on the drawing is how both sides point. Pick a name. If the shop's apprentice held the tape and the household called numbers, the shop still owned the method if they ran the visit. If the household's nephew held the tape and the salesperson watched, the household owned it. Write the name. Watching is not measuring.
 
 ## The RFQ lines
 

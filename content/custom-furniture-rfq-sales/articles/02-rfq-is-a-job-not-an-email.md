@@ -17,7 +17,7 @@ citations:
   - "AWI Standards (shop drawings)"
 status: draft
 voice_check: human
-word_count: 1210
+word_count: 977
 verify:
   - "House RFQ form revision and required fields [VERIFY]"
   - "Do not invent a minimum photo count as policy"

@@ -17,7 +17,7 @@ citations:
   - "16 CFR Part 435"
 status: draft
 voice_check: human
-word_count: 1140
+word_count: 990
 verify:
   - "House practice for labeling ballparks on email [VERIFY]"
 ---

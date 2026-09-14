@@ -18,7 +18,7 @@ citations:
   - "16 CFR Part 435"
 status: draft
 voice_check: human
-word_count: 1180
+word_count: 1157
 verify:
   - "Do not publish a house list price or cart SKU from this piece"
   - "Confirm whether the live site has any remaining catalog prices that would contradict quote-only copy [VERIFY]"

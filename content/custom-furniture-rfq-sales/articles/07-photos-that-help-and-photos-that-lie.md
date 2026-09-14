@@ -15,7 +15,7 @@ citations:
   - "FTC Made in USA (adjacent: photo claims)"
 status: draft
 voice_check: human
-word_count: 1110
+word_count: 915
 verify:
   - "Do not publish customer interiors without clearance"
 ---
@@ -61,6 +61,14 @@ A picture of a damaged piece you expect to be a warranty if you have not also wr
 When the shop sends process photos — slabs, dry-fit, finish sample — those are information, not Instagram. Ask for a tape in the frame if scale matters. Ask what light the finish board was under. Do not approve a top from a dusty iPhone in the spray room and then reject it in your north window. Approve in the *room* or approve a board that has sat in the room (piece 31).
 
 If the shop's photo claims "solid oak" and you can see plywood edge, ask. Photo claims are representations. FTC care about origin and composition lives next door to this. A pretty lie in a process shot is still a lie.
+
+## A dealer walkthrough that wasted a week
+
+The salesperson shot the catalog hero, the customer's smile, and a chandelier. The mill asked for the tight turn. Nobody had it. A week later the household sent a video of a landing that vetoed the crate (piece 14). The quote had to be redone with a split. The integer moved. The household thought the shop was baiting. The shop was missing a picture that should have been in the first packet.
+
+Take the ugly picture first. The hero can wait. If you only have time for three frames, make them: tape on the long wall, the soffit, the outlet you will cover. Beauty is a later email.
+
+If a designer sends renders, treat them as inspiration plus a warning: renders are square and empty. Photograph the real corner. Write "render is not field."
 
 ## A short shot list
 

@@ -16,7 +16,7 @@ citations:
   - "NKBA Kitchen Planning Guidelines"
 status: draft
 voice_check: human
-word_count: 1185
+word_count: 932
 verify:
   - "House site-measure form revision [VERIFY]"
 ---
@@ -70,5 +70,13 @@ If you lose the page and keep the memory, you do not have a measure. You have a 
 ## South rooms, old rooms
 
 Wilmar and Warren houses, and the farmhouses that sit on the same dirt, are not drywall boxes. Plaster waves. Floors drop a half inch to the hearth. A shop that works this county already expects that. A dealer sending a special into a 1920 bungalow should expect it too. The tape is how you stop expecting and start writing.
+
+## A measure you can hand to a stranger
+
+Sketch the room as a box. Write each wall on the line, feet and inches, twice if you are kind. Mark north. Mark the door swing with an arc. Mark the outlet as a circle and a height. Put the date and your name in the corner. Photograph the sketch on the floor next to the tape on the long wall.
+
+That packet survives a lost phone. A "notes" app with 11.7 and 11-8 in the same list does not.
+
+If you use a laser, still write one hooked-tape number per long wall. When the two disagree by more than a quarter inch, you have either a sloppy hook or a wall that is not a wall (piece 10). Do not average them in your head. Measure a third time.
 
 Piece 10 is the out-of-square room. Piece 11 is the table. This piece is only the habit: hook, write, date. The wish can come to dinner after the inch is on the page.

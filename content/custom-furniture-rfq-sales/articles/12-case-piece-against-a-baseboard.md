@@ -14,7 +14,7 @@ citations:
   - "Architectural Graphic Standards"
 status: draft
 voice_check: human
-word_count: 1095
+word_count: 881
 verify:
   - "House scribe-rail / plinth details [VERIFY]"
 ---
@@ -62,6 +62,18 @@ Carpet: the case will sink. Measure to the slab if you can, or admit the sink. A
 ## Dealers
 
 Bedroom suites are sold as widths that fit a plan view. The plan view did not include the baseboard or the outlet. Send a photo of the wall at outlet height. It is unglamorous. It prevents a truck roll.
+
+## Depth is where case pieces fail
+
+A catalog "18-inch" dresser is often 18 to the front of the drawer, not to the pulls, and not after a ¾-inch baseboard and a proud shoe. Add the pull. Add the base. Then see if the remaining aisle is a person (piece 13). Bedroom suites sold from a plan view die here: the plan used inside wall to inside wall and forgot trim.
+
+If the piece must sit in an alcove, measure the alcove at the front and at the back. Alcoves taper. A case built to the front number will jam. A case built to the back number will show a gap at the face. Pick the number you mean, or template (piece 16).
+
+File drawers and printer shelves have extra depth needs. Write the machine. A "desk" RFQ without the printer is how you fund a return.
+
+## Soft-close and the last inch
+
+Full-extension plus a 1¼-inch pull plus a baseboard is how a "fits" dresser fails the closet door. Draw the depth stack on the RFQ: box, face, pull, trim, remaining aisle. If the remaining aisle is a child, you are done. If it is a shoulder, you are not. Hardware lead time still applies (piece 22); do not add soft-close in week eight and discover the drawer now hits the door.
 
 ## The RFQ lines
 

@@ -14,7 +14,7 @@ citations:
   - "AWI Standards (field verification)"
 status: draft
 voice_check: human
-word_count: 1105
+word_count: 760
 verify:
   - "House template materials and storage [VERIFY]"
 ---
@@ -56,6 +56,18 @@ Stone templates often happen after cabinets are set. Wood shops that finish a to
 ## Dealers
 
 Do not send a napkin from the walkthrough as if it were a template. Do not promise "they'll figure it in the field" on a piece that will be finished before it sees the field. Field-fit and shop-finish are in tension. Finish after scribe, or scribe a raw edge. Pick one and price it.
+
+## How a bad template wastes a top
+
+A cardboard template taped with packaging tape will creep in a hot truck. A luan template left on damp concrete will banana. Date and photograph the template *on the wall* the day you make it, then again the day it arrives at the shop. If the two photos disagree, do not mill.
+
+Label the room side, the floor, and the up. Templates get flipped. A flipped hearth surround is a pretty scrap.
+
+If two trades template the same hole — wood and stone — pick a master. The master file or the master sheet wins. The other trade fits. Two masters are two holes.
+
+## When digital is honest
+
+A lidar scan the shop will mill from, signed, with two tape checks in the file, is a template. A pretty mesh nobody opened in the CAM is a brochure. Ask who will click "toolpath." If the answer is "the designer has a model," you still need a shop sign-off. Models are square. Rooms are not (piece 10).
 
 ## The RFQ lines
 

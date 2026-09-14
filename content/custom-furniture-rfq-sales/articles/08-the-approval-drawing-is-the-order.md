@@ -18,7 +18,7 @@ citations:
   - "UCC § 2-201(3)(a)"
 status: draft
 voice_check: human
-word_count: 1205
+word_count: 907
 verify:
   - "House revision-block fields and approval email language [VERIFY]"
 ---
@@ -68,5 +68,13 @@ Do not let a chain's typical override a field measure without initials. The typi
 ## What the saw reads
 
 The saw reads the sheet on the door. It does not read your thread with the salesperson. If the thread and the sheet disagree, the sheet should win, and the thread should be closed with a REV D. If the thread wins, you do not have a drawing system. You have a chat.
+
+## How a REV letter dies
+
+REV A was the sketch. REV B added the leaf. REV C killed the leaf and added the split. The household approved REV B in a text and REV C in a voicemail. The floor built B. The stair needed C. That is not a mill error. That is three documents and no single signature.
+
+Close the old REV when you issue a new one. Write SUPERSEDED on B. Keep B in the jacket so you can prove what died. If you shop three mills (piece 40), send the current REV only. A mill pricing B while you live on C is how you collect costumes (piece 41).
+
+Commercial typicals need the same hygiene: typical-2024-03 is not room 214 until someone initials the field exceptions (piece 46).
 
 Piece 30 is the change-order clock. Piece 25 is the date on the ack. This piece is only the object: the approved elevation is the order. Sign it like money, because it is.

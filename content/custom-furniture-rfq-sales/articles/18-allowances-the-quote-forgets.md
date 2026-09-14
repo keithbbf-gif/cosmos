@@ -14,7 +14,7 @@ citations:
   - "Architectural Graphic Standards"
 status: draft
 voice_check: human
-word_count: 1075
+word_count: 679
 verify:
   - "House cutout / grommet pricing [VERIFY]"
 ---
@@ -58,6 +58,16 @@ A dog bed that is not moving. A wheelchair pass. A kid's path to the back door. 
 ## Dealers
 
 Plan views omit plates. Send a wall photo at 18 inches and at 48 inches off the floor. Unpretty. Sufficient.
+
+## A live-room pass that takes ten minutes
+
+Walk the perimeter at 6 inches off the floor (shoe, vent, cable) and at 36 inches (switches, thermostat, window stool) and at 60 inches (sconces, art you will not move). Photograph each hit with a tape. Write KEEP CLEAR / NOTCH / RELOCATE BY OTHERS.
+
+Relocate-by-others needs a name and a week. An electrician who is "sometime before Thanksgiving" is a stack item (piece 19, piece 24). The wood shop cannot hold a finished case in the spray room forever because the thermostat did not move (piece 27).
+
+## Thermostats are not decoration
+
+Covering a thermostat is a service call and a comfort complaint that will be blamed on the case. Relocating it is an electrician and a week. Notching a case around it is ugly unless you designed the notch. Photograph it at 48 inches. Put RELOCATE BY OTHERS or KEEP CLEAR on the RFQ. "We'll see" is how July gets stale (the return-air story at the top of this piece, again, with a keypad).
 
 ## The RFQ lines
 

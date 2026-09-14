@@ -14,7 +14,7 @@ citations:
   - "EPA TSCA Title VI (composite cores)"
 status: draft
 voice_check: human
-word_count: 1125
+word_count: 839
 verify:
   - "House moisture targets and rack practice — do not invent meter readings [VERIFY]"
 ---
@@ -58,6 +58,16 @@ If you sell a species the shop does not keep — walnut in a shop that lives in 
 ## Homeowners
 
 If you want the cheaper week, ask what is in the rack. If you want a specific look, pay the hunt. Do not ask for both and then call the shop slow.
+
+## Questions that prevent a fake week
+
+Is the thickness in the building. Is the grade in the building. Is it stickered or still sweating from the truck. If it is a slab, is it in the county. If it is walnut in an oak shop, when did the last bundle arrive and what was the waste.
+
+A dealer who writes "oak" on twenty specials is writing twenty different calendars. 4/4 #1 common and 8/4 rift are not cousins in the rack. Split the lines (piece 05) so one late slab does not hold a bedroom suite that could have shipped.
+
+## Waste is calendar too
+
+Rift and quartered looks waste more than cathedral. A shop that quotes a clean-face 42-inch glue-up from a thin bundle will wait on a second truck. Ask about yield if the look is fussy. A household that wants "no knots, no color change, 8-inch riftsawn" has ordered a hunt even if they used the word oak. Hunts are not stamps (piece 19).
 
 ## The RFQ lines
 

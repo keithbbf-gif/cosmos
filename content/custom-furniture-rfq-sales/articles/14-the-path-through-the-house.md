@@ -15,7 +15,7 @@ citations:
   - "Architectural Graphic Standards"
 status: draft
 voice_check: human
-word_count: 1210
+word_count: 888
 verify:
   - "House delivery-path checklist revision [VERIFY]"
 ---
@@ -67,6 +67,18 @@ Dealers: your warehouse door is not the customer's stair. Do not write "easy in"
 ## Photos
 
 The tight turn, the soffit, the elevator plate, the rail (piece 07). A video walk-through is fine if someone also writes the two small numbers. Video without numbers is a tour.
+
+## A path card you can tape to the crate
+
+Curb → stoop (height) → first door (clear width) → hall (width) → stair (rail-to-rail, soffit) → landing rectangle → room door. One number per gate. The smallest two run the crate (piece 35).
+
+If a helper can hold a 42 × 96 cardboard blank through that path, you have a chance. If the blank dies, the table dies or the table splits. Do the blank before you approve REV C (piece 08). Cardboard is cheaper than a split you invent at the curb.
+
+Rural notes: low oak limbs, a cul-de-sac a trailer cannot back, a ditch. Write them. A smaller truck is a line on piece 45, not a surprise fee.
+
+## Condo hours are a freight line
+
+A building that allows moves 9–11 a.m. on Tuesdays is not "white glove sometime." It is a booked window, a COI, and a pad rule. Put it on the RFQ the same day you measure the car diagonal. Missing it is how a finished table sits in a truck for a redelivery fee (piece 45) while the household thinks the shop is late (piece 25).
 
 ## The RFQ lines
 

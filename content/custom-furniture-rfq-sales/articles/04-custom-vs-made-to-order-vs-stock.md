@@ -16,7 +16,7 @@ citations:
   - "UCC § 2-501"
 status: draft
 voice_check: human
-word_count: 1165
+word_count: 1031
 verify:
   - "House definitions on the ack if they exist [VERIFY]"
 ---

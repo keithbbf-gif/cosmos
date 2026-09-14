@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-201"
 status: draft
 voice_check: human
-word_count: 1125
+word_count: 939
 verify:
   - "Sample dealer form in the shop office [VERIFY]"
 ---
@@ -69,6 +69,20 @@ A deposit. You do not fund the RFQ. You fund the ack (piece 26). If your account
 Send the page. Wait for the quote. Ask questions on the quote, in writing. Accept. Get the ack. Then cut the customer ticket. Dealers who sell the table on Saturday and RFQ on Monday are selling a calendar they do not have.
 
 If you need a ballpark to hold a customer, label it (piece 03). Do not write the ballpark on the sales slip as if it were the ack.
+
+## A filled page, not a theory
+
+Store: [name]. Buyer: [name], cell that picks up after five. RFQ D-118. Date. Revision 0.
+
+Line 1: dining table, made-to-order, model Oak-Apron-4, 84 × 42 × 1¾, no leaf, oil house #4, qty 1, ticket SOLD. Ship-to: household address, room-of-choice, stairs turn, split base requested. REQUESTED week of 14th — not promised.
+
+Line 2: none.
+
+Attach: path photos, prior ack # if any, finish chip ID, routing guide if the chain has one.
+
+That page can be priced in a sitting. "Same as last time, you know the one" cannot. If your POS cannot print this, write it by hand and scan it. The millworker will forgive the handwriting. They will not forgive the voicemail.
+
+When the quote comes back, put your RFQ number on the customer ticket so the household and the mill share a name. Three names for one table is how the wrong stain ships.
 
 ## The one-page test, dealer edition
 
