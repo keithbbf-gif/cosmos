@@ -29,13 +29,13 @@ the old craft. The induction looked like the new one.
 I implemented a tiny Brill-style learner once for a class and then
 again, years later, because a client wanted to *see* the rules.
 Seeing is not a metric. It is a deployment constraint. A
-hospital-adjacent or legal- adjacent workflow — I will stay general
+hospital-adjacent or legal-adjacent workflow — I will stay general
 — sometimes needs a change you can explain without a matrix.
 Transformation lists explain.
 
 The algorithm is greedy and knows it. Each rule is the current best
 repair on the current tagging. Order matters. A later rule sees a
-different landscape. There is no global optimum hiding in the
+different tagging. There is no global optimum hiding in the
 drawer. There is a list that stops growing when the gains get
 small. That honesty is rare.
 

@@ -41,9 +41,16 @@
 - Dates and attributions were not re-litigated paper-by-paper; only the Shannon 1948/1951 split was corrected on high-confidence grounds.
 - These drafts are still **not** a novelty opinion or legal review — see `NOVELTY.md`.
 
-## Files touched
+## Catch-up pass (2026-09-14, editor lane)
 
-- All `stage-*/*.md` essays (51): `voice_check` + reflow where needed.
-- `01-shannon-1948-language-as-a-channel.md`, `28-lsa-when-svd-looked-like-meaning.md`, `44-from-moses-to-neural-mt.md`: substantive line edits above.
-- `README.md`: frontmatter docs for `voice_check`.
-- `EDITOR_REPORT.md`: this file.
+Independent re-read of all 51 essays after PR #337 merge queue review:
+
+1. **Slop / leakage scan** — Re-run on full tree; clean except essay **20** (*Brill*), where *landscape* was replaced with *tagging* to avoid metaphor drift toward banned “landscape” filler.
+2. **Typo** — Essay **20**: `legal- adjacent` → `legal-adjacent`.
+3. **Flags** — Confirmed `voice_check: edited` on all 51 essays; word band 404–605 unchanged.
+4. **No publish changes** — `publish: false` and `novelty: public-record` untouched.
+
+## Files touched (catch-up)
+
+- `stage-03-counts-hmms/20-brill-and-the-rules-that-learned.md`: line edits above.
+- `EDITOR_REPORT.md`: this section.
