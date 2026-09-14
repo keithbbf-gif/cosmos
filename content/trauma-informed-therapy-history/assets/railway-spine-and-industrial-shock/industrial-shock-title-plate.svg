@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
-  <title id="title">Typographic plate evoking Erichsen 1866 railway injury lectures  not a book scan</title>
+  <title id="title">Typographic plate evoking Erichsen 1866 railway injury lectures - not a book scan</title>
   <desc id="desc">Editorial title plate with period-style typography referencing On Railway and Other Injuries of the Nervous System. No photograph of patients or accidents.</desc>
   <defs>
     <style>
@@ -22,8 +22,8 @@
   <line class="rule" x1="120" y1="200" x2="600" y2="200"/>
   <text x="360" y="240" text-anchor="middle" class="title">On Railway and Other Injuries</text>
   <text x="360" y="268" text-anchor="middle" class="title">of the Nervous System</text>
-  <text x="360" y="304" text-anchor="middle" class="sub">John Eric Erichsen  surgeons name for invisible injury</text>
-  <text x="360" y="340" text-anchor="middle" class="note">Editorial typographic plate  not a reproduction of the 1866 title page</text>
+  <text x="360" y="304" text-anchor="middle" class="sub">John Eric Erichsen - surgeon-s name for invisible injury</text>
+  <text x="360" y="340" text-anchor="middle" class="note">Editorial typographic plate - not a reproduction of the 1866 title page</text>
   <text x="40" y="430" class="note">Use with essay on railway spine and industrial shock. No locomotive wreck photography; optional PD engravings require a row in RIGHTS.md before embed.</text>
   <text x="40" y="448" class="note">WOW Therapies trauma-informed care history series.</text>
 </svg>

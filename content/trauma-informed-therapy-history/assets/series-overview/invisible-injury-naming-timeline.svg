@@ -20,9 +20,9 @@
   </defs>
   <rect class="paper" width="1200" height="520"/>
   <rect x="0" y="0" width="1200" height="6" fill="#6B2D3E"/>
-  <text x="48" y="42" class="ink caps">Fig. 01  Schematic timeline</text>
+  <text x="48" y="42" class="ink caps">Fig. 01 - Schematic timeline</text>
   <text x="48" y="72" class="ink" font-size="24" font-weight="bold">Invisible injury, public names</text>
-  <text x="48" y="98" class="muted">Selected landmarks  not a complete history. Dates mark publications or policy objects cited in this pack.</text>
+  <text x="48" y="98" class="muted">Selected landmarks - not a complete history. Dates mark publications or policy objects cited in this pack.</text>
   <rect class="band-a" x="48" y="120" width="220" height="32" rx="2"/><text x="58" y="140" class="muted" style="font-weight:600">Industrial / courtroom</text>
   <rect class="band-b" x="268" y="120" width="280" height="32" rx="2"/><text x="278" y="140" class="muted" style="font-weight:600">War &amp; official diagnosis</text>
   <rect class="band-c" x="548" y="120" width="240" height="32" rx="2"/><text x="558" y="140" class="muted" style="font-weight:600">Civilian naming</text>
@@ -35,6 +35,6 @@
   <circle class="dot" cx="700" cy="280" r="6"/><text x="675" y="304" class="year">2001</text><text x="650" y="220" class="label">Harris &amp;</text><text x="650" y="236" class="muted">Fallot systems</text>
   <circle class="dot" cx="860" cy="280" r="6"/><text x="835" y="304" class="year">2014</text><text x="810" y="220" class="label">SAMHSA</text><text x="810" y="236" class="muted">SMA 14-4884</text>
   <circle class="dot" cx="1020" cy="280" r="6"/><text x="995" y="304" class="year">2018</text><text x="970" y="220" class="label">ICD-11</text><text x="970" y="236" class="muted">CPTSD</text>
-  <text x="48" y="360" class="muted">Trauma-specific treatments (PE, CPT, EMDR, etc.) are not plotted here  this line is naming and systems history.</text>
+  <text x="48" y="360" class="muted">Trauma-specific treatments (PE, CPT, EMDR, etc.) are not plotted here - this line is naming and systems history.</text>
   <text x="48" y="380" class="muted">Educational schematic for WOW Therapies heritage series. Not medical advice.</text>
 </svg>

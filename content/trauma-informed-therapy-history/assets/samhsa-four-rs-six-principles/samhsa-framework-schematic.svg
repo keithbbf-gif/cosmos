@@ -14,8 +14,8 @@
   </defs>
   <rect class="paper" width="900" height="500"/>
   <text x="36" y="34" class="title">SAMHSA framework (schematic paraphrase)</text>
-  <text x="36" y="54" class="p">HHS Publication SMA 14-4884 (2014)  organizational guidance, not a treatment manual.</text>
-  <text x="36" y="88" class="h">Four assumptions (the four Rs)</text>
+  <text x="36" y="54" class="p">HHS Publication SMA 14-4884 (2014) - organizational guidance, not a treatment manual.</text>
+  <text x="36" y="88" class="h">Four assumptions (the four R-s)</text>
   <rect class="r" x="36" y="100" width="200" height="72" rx="4"/><text x="48" y="122" class="p" style="font-weight:700">Realize</text><text x="48" y="138" class="p">widespread impact &amp; paths</text><text x="48" y="154" class="p">for recovery</text>
   <rect class="r" x="248" y="100" width="200" height="72" rx="4"/><text x="260" y="122" class="p" style="font-weight:700">Recognize</text><text x="260" y="138" class="p">signs in clients, families,</text><text x="260" y="154" class="p">staff, others</text>
   <rect class="r" x="460" y="100" width="200" height="72" rx="4"/><text x="472" y="122" class="p" style="font-weight:700">Respond</text><text x="472" y="138" class="p">integrate knowledge into</text><text x="472" y="154" class="p">policies &amp; practices</text>
@@ -28,6 +28,6 @@
   <text x="52" y="300" class="p">4. Collaboration and Mutuality</text>
   <text x="52" y="316" class="p">5. Empowerment, Voice and Choice (proper title)</text>
   <text x="52" y="332" class="p">6. Cultural, Historical, and Gender Issues</text>
-  <text x="52" y="360" class="p">Harris &amp; Fallot (2001) named five system values earlier; the pamphlet accumulates  it does not replace the book.</text>
-  <text x="36" y="472" class="p">Verify wording against the PDF before print. WOW Therapies  original layout; government text is cited in article prose.</text>
+  <text x="52" y="360" class="p">Harris &amp; Fallot (2001) named five system values earlier; the pamphlet accumulates - it does not replace the book.</text>
+  <text x="36" y="472" class="p">Verify wording against the PDF before print. WOW Therapies - original layout; government text is cited in article prose.</text>
 </svg>
