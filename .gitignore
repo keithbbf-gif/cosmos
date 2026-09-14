@@ -47,6 +47,9 @@ tmp/
 logs/
 *.log
 out/
+# Committed WXR smoke exports (live-pack runs still land here locally but stay ignored)
+!content/_ops/wxr/out/
+!content/_ops/wxr/out/*-draft.wxr.xml
 
 # Rebuildable collector projection (source files are truth; rewritten every ~30s)
 docs/COLLECTOR.md

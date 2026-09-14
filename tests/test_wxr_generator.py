@@ -35,7 +35,7 @@ def test_figure_paths_collected():
     exports = build_post_exports(manifest, pack, use_samples=True)
     assert len(exports) >= 1
     paths = exports[0].figure_paths
-    assert "content/packs/figroots-blog/media/cercospora-leaf.jpg" in paths
+    assert "content/figroots-blog/media/cercospora-leaf.jpg" in paths
 
 
 def test_wxr_is_draft_only():
@@ -55,6 +55,13 @@ def test_manifest_lists_ten_packs():
     ids = {p.id for p in manifest.packs}
     assert "ai-history-retrospective" in ids
     assert "figroots-blog" in ids
+
+
+def test_manifest_posts_glob_under_content_pack_root():
+    manifest = load_manifest(MANIFEST, ROOT)
+    for pack in manifest.packs:
+        assert "content/packs/" not in pack.posts_glob
+        assert pack.posts_glob == f"content/{pack.id}/posts/**/*.md"
 
 
 def test_cli_dry_run_json():

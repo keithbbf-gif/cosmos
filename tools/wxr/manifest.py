@@ -38,7 +38,7 @@ def _pack_from_row(row: dict[str, Any]) -> ManifestPack:
     return ManifestPack(
         id=pid,
         label=str(row.get("label", pid)),
-        posts_glob=str(row.get("posts_glob", f"content/packs/{pid}/posts/**/*.md")),
+        posts_glob=str(row.get("posts_glob", f"content/{pid}/posts/**/*.md")),
         site_url=str(row.get("site_url", "https://example.invalid")),
         site_title=str(row.get("site_title", pid)),
         site_description=str(row.get("site_description", "")),

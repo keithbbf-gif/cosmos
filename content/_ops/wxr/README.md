@@ -8,8 +8,9 @@ Generate **WordPress eXtended RSS (WXR) 1.2** files so Softaculous (or native WP
 |------|------|
 | `tools/wxr/` | Python library + CLI (`markdown` + frontmatter → WXR) |
 | `content/_ops/wxr/manifest.toml` | Configurable pack list (URLs, globs, authors) |
-| `content/_ops/wxr/samples/` | Small fixtures for dry-run without full pack trees |
-| `content/_ops/wxr/out/` | Default write target (gitignored via repo `out/`) |
+| `content/_ops/wxr/samples/` | Small fixtures for dry-run / CI without full pack trees |
+| `content/_ops/wxr/out/` | Default write target (`*-draft.wxr.xml`; sample exports may be committed) |
+| `content/<pack-id>/` | Live pack trees (e.g. `content/figroots-blog/posts/**/*.md`, `content/figroots-blog/media/`) |
 
 Supported pack ids (from manifest):
 
@@ -32,14 +33,22 @@ From the repository root:
 # List configured packs
 python3 -m tools.wxr list-packs
 
-# Dry-run (JSON summary, uses sample_posts_glob — no output file)
+# JSON dry-run (no file written; uses sample_posts_glob when set)
 python3 -m tools.wxr generate figroots-blog --dry-run
 
-# Write WXR from real pack tree when present
+# WXR from live pack tree when content/<pack-id>/posts/ exists
+python3 -m tools.wxr generate figroots-blog
+
+# Explicit output path (default: content/_ops/wxr/out/<pack>-draft.wxr.xml)
 python3 -m tools.wxr generate figroots-blog -o content/_ops/wxr/out/figroots-blog-draft.wxr.xml
 
-# Force sample fixtures for a written file (CI / smoke)
-python3 -m tools.wxr generate figroots-blog --samples -o /tmp/figroots-sample.wxr.xml
+# Sample fixtures only (smoke / CI / committed out/ artifacts)
+python3 -m tools.wxr generate figroots-blog --samples
+
+# Regenerate all committed sample WXR files under out/
+python3 -m tools.wxr list-packs | cut -f1 | while read -r pack; do
+  python3 -m tools.wxr generate "$pack" --samples
+done
 ```
 
 Requires **Python 3.11+** (stdlib `tomllib`) and **PyYAML** (already used elsewhere in COSMOS tooling).
@@ -54,8 +63,10 @@ Expected highlights in JSON:
 
 - `post_count` ≥ 1
 - `posts[].stripped_keys` contains `voice_check`
-- `posts[].figure_paths` lists pack-relative media paths
+- `posts[].figure_paths` lists pack-relative media paths under `content/<pack-id>/media/`
 - `dry_run`: true and no file under `content/_ops/wxr/out/` unless you omit `--dry-run`
+
+Committed smoke exports live in `content/_ops/wxr/out/*-draft.wxr.xml` (generated with `--samples`). Rebuild them with the `list-packs` loop above after changing samples or generator output.
 
 ## Import on WordPress (operator)
 

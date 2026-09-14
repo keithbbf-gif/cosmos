@@ -9,7 +9,7 @@ label = "Figroots horticultural blog"
 site_url = "https://figroots.com"
 site_title = "Figroots"
 site_description = "Edible figs and orchard notes"
-posts_glob = "content/packs/figroots-blog/posts/**/*.md"
+posts_glob = "content/figroots-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/figroots-blog/**/*.md"
 
 [[packs]]
@@ -17,7 +17,7 @@ id = "furniture-craft-blog"
 label = "Furniture craft blog"
 site_url = "https://example.invalid/furniture-craft"
 site_title = "Furniture Craft"
-posts_glob = "content/packs/furniture-craft-blog/posts/**/*.md"
+posts_glob = "content/furniture-craft-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/furniture-craft-blog/**/*.md"
 
 [[packs]]
@@ -25,7 +25,7 @@ id = "ai-industry-blog"
 label = "AI industry blog"
 site_url = "https://example.invalid/ai-industry"
 site_title = "AI Industry"
-posts_glob = "content/packs/ai-industry-blog/posts/**/*.md"
+posts_glob = "content/ai-industry-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/ai-industry-blog/**/*.md"
 
 [[packs]]
@@ -33,7 +33,7 @@ id = "supplements-rd-blog"
 label = "Supplements R&D blog"
 site_url = "https://example.invalid/supplements-rd"
 site_title = "Supplements R&D"
-posts_glob = "content/packs/supplements-rd-blog/posts/**/*.md"
+posts_glob = "content/supplements-rd-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/supplements-rd-blog/**/*.md"
 
 [[packs]]
@@ -41,7 +41,7 @@ id = "herbal-medicine-history-blog"
 label = "Herbal medicine history blog"
 site_url = "https://example.invalid/herbal-history"
 site_title = "Herbal Medicine History"
-posts_glob = "content/packs/herbal-medicine-history-blog/posts/**/*.md"
+posts_glob = "content/herbal-medicine-history-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/herbal-medicine-history-blog/**/*.md"
 
 [[packs]]
@@ -49,7 +49,7 @@ id = "slpwow-speech-pathology-history"
 label = "SLPWOW speech pathology history"
 site_url = "https://example.invalid/slpwow"
 site_title = "SLPWOW Speech Pathology History"
-posts_glob = "content/packs/slpwow-speech-pathology-history/posts/**/*.md"
+posts_glob = "content/slpwow-speech-pathology-history/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/slpwow-speech-pathology-history/**/*.md"
 
 [[packs]]
@@ -57,7 +57,7 @@ id = "wowtherapies-therapy-history"
 label = "WOW Therapies history"
 site_url = "https://example.invalid/wowtherapies"
 site_title = "WOW Therapies History"
-posts_glob = "content/packs/wowtherapies-therapy-history/posts/**/*.md"
+posts_glob = "content/wowtherapies-therapy-history/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/wowtherapies-therapy-history/**/*.md"
 
 [[packs]]
@@ -65,7 +65,7 @@ id = "furniture-woods-500y-blog"
 label = "Furniture woods (500 years) blog"
 site_url = "https://example.invalid/furniture-woods"
 site_title = "Furniture Woods 500Y"
-posts_glob = "content/packs/furniture-woods-500y-blog/posts/**/*.md"
+posts_glob = "content/furniture-woods-500y-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/furniture-woods-500y-blog/**/*.md"
 
 [[packs]]
@@ -73,7 +73,7 @@ id = "furniture-fashion-fads-blog"
 label = "Furniture fashion fads blog"
 site_url = "https://example.invalid/furniture-fashion"
 site_title = "Furniture Fashion Fads"
-posts_glob = "content/packs/furniture-fashion-fads-blog/posts/**/*.md"
+posts_glob = "content/furniture-fashion-fads-blog/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/furniture-fashion-fads-blog/**/*.md"
 
 [[packs]]
@@ -81,5 +81,5 @@ id = "ai-history-retrospective"
 label = "AI history retrospective"
 site_url = "https://example.invalid/ai-history"
 site_title = "AI History Retrospective"
-posts_glob = "content/packs/ai-history-retrospective/posts/**/*.md"
+posts_glob = "content/ai-history-retrospective/posts/**/*.md"
 sample_posts_glob = "content/_ops/wxr/samples/ai-history-retrospective/**/*.md"

@@ -1,0 +1,10 @@
+---
+title: Sample post for dry-run
+slug: sample-dry-run
+date: 2026-01-15
+voice_check: internal-qa-ok
+---
+
+# Sample
+
+Body for **furniture-fashion-fads-blog** WXR dry-run validation.

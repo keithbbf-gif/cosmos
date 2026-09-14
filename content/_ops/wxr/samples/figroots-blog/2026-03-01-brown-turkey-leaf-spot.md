@@ -6,7 +6,7 @@ author: figroots-editor
 excerpt: Field notes on cercospora-like spotting on Ficus carica in wet springs.
 voice_check: passed-internal-only
 figures:
-  - path: content/packs/figroots-blog/media/cercospora-leaf.jpg
+  - path: content/figroots-blog/media/cercospora-leaf.jpg
     alt: Leaf with angular brown lesions
 ---
 
@@ -14,7 +14,7 @@ figures:
 
 Wet springs on **Brown Turkey** often show angular lesions before fruit set.
 
-![Cercospora-like lesions](content/packs/figroots-blog/media/cercospora-leaf.jpg)
+![Cercospora-like lesions](content/figroots-blog/media/cercospora-leaf.jpg)
 
 ## What we watch
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/1.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>WOW Therapies History</title>
+  <link>https://example.invalid/wowtherapies</link>
+  <description></description>
+  <pubDate>Mon, 14 Sep 2026 19:35:13 GMT</pubDate>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://example.invalid/wowtherapies</wp:base_site_url>
+  <wp:base_blog_url>https://example.invalid/wowtherapies</wp:base_blog_url>
+  <generator>COSMOS WXR draft-import generator/1.0</generator>
+  <item>
+    <title>Sample post for dry-run</title>
+    <link>https://example.invalid/wowtherapies/?p=900001</link>
+    <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+    <dc:creator><![CDATA[cosmos-export]]></dc:creator>
+    <guid isPermaLink="false">https://example.invalid/wowtherapies/?p=900001</guid>
+    <description></description>
+    <content:encoded><![CDATA[<h1>Sample</h1>
+<p>Body for <strong>wowtherapies-therapy-history</strong> WXR dry-run validation.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>900001</wp:post_id>
+    <wp:post_date>2026-01-15 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2026-01-15 00:00:00</wp:post_date_gmt>
+    <wp:post_modified>2026-01-15 00:00:00</wp:post_modified>
+    <wp:post_modified_gmt>2026-01-15 00:00:00</wp:post_modified_gmt>
+    <wp:comment_status>closed</wp:comment_status>
+    <wp:ping_status>closed</wp:ping_status>
+    <wp:post_name>sample-dry-run</wp:post_name>
+    <wp:status>draft</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type>post</wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+  </item>
+</channel>
+</rss>
