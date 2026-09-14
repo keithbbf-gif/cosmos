@@ -3,7 +3,7 @@ title: Static graphs and the TensorFlow 1 shop
 slug: tensorflow-1-static-graphs
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_target: 600-1800
 era: "2016–2019"

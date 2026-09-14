@@ -3,7 +3,7 @@ title: DeepSeek-R1, 20 January 2025
 slug: deepseek-r1-january-2025
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_target: 600-1800
 era: "2023–2026"

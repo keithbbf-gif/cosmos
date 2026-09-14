@@ -3,7 +3,7 @@ title: torch.compile and the 2.0 line
 slug: pytorch-2-compile
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_target: 600-1800
 era: "2022–2024"

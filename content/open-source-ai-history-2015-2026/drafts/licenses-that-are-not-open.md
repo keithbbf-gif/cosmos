@@ -3,7 +3,7 @@ title: Licenses that are not open
 slug: licenses-that-are-not-open
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_target: 600-1800
 era: "2015–2026"

@@ -3,7 +3,7 @@ title: Keras and the high-level API
 slug: keras-and-the-high-level-api
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_target: 600-1800
 era: "2015–2024"

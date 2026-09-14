@@ -3,7 +3,7 @@ title: BLOOM and BigScience
 slug: bloom-and-bigscience
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_target: 600-1800
 era: "2021–2023"

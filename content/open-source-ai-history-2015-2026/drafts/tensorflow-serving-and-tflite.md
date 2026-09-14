@@ -3,7 +3,7 @@ title: Serving, Lite, and the phone
 slug: tensorflow-serving-and-tflite
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_target: 600-1800
 era: "2016–2022"

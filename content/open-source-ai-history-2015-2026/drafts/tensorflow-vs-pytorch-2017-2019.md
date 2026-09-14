@@ -3,7 +3,7 @@ title: The framework war that was not a war
 slug: tensorflow-vs-pytorch-2017-2019
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 600-1800
 era: "2017–2019"

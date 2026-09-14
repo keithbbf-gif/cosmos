@@ -3,7 +3,7 @@ title: BERT, GPT-2, and the card
 slug: bert-gpt2-model-cards
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_target: 600-1800
 era: "2018–2020"

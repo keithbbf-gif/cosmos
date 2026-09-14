@@ -3,7 +3,7 @@ title: Llama 2, 18 July 2023
 slug: llama-2-july-2023
 series: open-source-ai-history-2015-2026
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 26
 word_target: 600-1800
 era: "2023"
