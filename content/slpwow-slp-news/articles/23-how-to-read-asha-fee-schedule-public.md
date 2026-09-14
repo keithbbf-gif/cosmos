@@ -46,6 +46,22 @@ SLP WOW already walked through ASHA’s 2025 analysis in January 2025. This piec
 
 ## What the public packet actually is
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/how-to-read-asha-public-2026-slp-medicare-fee-schedule/asha-fee-schedule-anatomy.svg"
+    alt="Annotated schematic of ASHA public Medicare fee schedule PDF zones: illustrative rates, code list, and reminders that MAC letters govern billing"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> ASHA’s PDF is a reader’s guide, not a contractor determination letter.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Two public ASHA products landed in mid-November 2025. The news page, updated November 19, is the short version: two conversion factors, a 2.5 percent one-time congressional increase, a warning that SLP cuts could approach 4 percent without more legislation, PE rebalancing, an efficiency adjustment with 92507 and 92557 exempt, the $2,480 KX figure, MPPR and targeted review maintained, most SLPs outside mandatory MIPS, and a telehealth-authority date that was then January 30, 2026. The PDF is the long version of the same week, with national-rate tables this desk will not paste.
 
 Both are association analyses of CMS policy. They are not Change Request 14315. They are not the MPPR rate file updated February 24, 2026. They are not the Annual Therapy Update. They are not a MAC local coverage determination. ASHA says as much. Read them as a map of the final rule, then open the CMS page that implements the piece you care about.

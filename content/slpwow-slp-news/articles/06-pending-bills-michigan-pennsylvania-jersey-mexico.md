@@ -41,6 +41,22 @@ That is a dated roster, not a prediction. Susan Adams, the Commission’s legisl
 
 ## What the map showed later
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/pending-aslp-ic-bills-michigan-pennsylvania-new-jersey-new-mexico/pending-compact-bills-card.svg"
+    alt="News card listing Michigan, Pennsylvania, New Jersey, and New Mexico as jurisdictions with pending compact bills in a February 2026 newsletter"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Newsletter names are a snapshot; only enacted law and issuing status count for practice.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Fetched on 14 September 2026, the Compact Map reports four jurisdictions with active legislation and 14 with none. It does not print the bill numbers on the bucket labels. It does not promise that February’s four names are still September’s four names.
 
 Bills die in committee. Carryovers lapse. A reintroduction can stall. A state that sat in the “no active legislation” column in February can file in March. This desk is not treating the February letter as a live whip count and is not naming which of today’s four active files belong to which capitol.

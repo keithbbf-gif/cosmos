@@ -36,6 +36,22 @@ The two published factors are $33.57 for qualifying Advanced APM participants an
 
 ## What a conversion factor is, and what it is not
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/2026-medicare-conversion-factor-two-tracks-slps/conversion-factor-two-tracks.svg"
+    alt="Two-track schematic comparing Medicare 2026 conversion factor paths for MIPS participants versus clinicians exempt from mandatory MIPS"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Most SLPs are on the exempt track but still feel both numbers in policy fights.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A conversion factor is the last number in a public formula. Each CPT code carries relative value units for work, practice expense, and malpractice. Those RVUs are adjusted by geographic practice cost indices. The locality-adjusted total is multiplied by the conversion factor. Change the factor and every code on the schedule moves, even if the code’s own RVUs sit still.
 
 What the factor is not: a raise, a cut, or a promise that a given 92507 will pay last year’s amount plus 3 percent. ASHA’s public PDF is explicit that the two 2026 factors already include the statutory updates Congress wrote into the year — and that they do not include every reduction that then comes off the top. Locality still applies. The Medicare Administrative Contractor still adjudicates the claim. A national average in a trade PDF is a starting point, not a remittance.

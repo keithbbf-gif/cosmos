@@ -36,6 +36,22 @@ The patient remains responsible for any unmet Part B deductible and for coinsura
 
 ## A facility fee, not an SLP professional fee
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medicare-2026-originating-site-facility-fee-q3014/originating-site-fee-3185.svg"
+    alt="Fee line schematic for Medicare 2026 originating site facility fee thirty-one dollars eighty-five cents before coinsurance for code Q3014"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Facility fee is one line on the telehealth stack, not the therapy payment.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Q3014 is the originating site’s separately billable Part B facility fee — the site where the patient is located while a distant-site clinician furnishes a telehealth service. MLN901705 tells that site to bill the Medicare Administrative Contractor for Q3014. It is not 92507. It is not modifier 95. It is not the SLP’s conversion-factor payment.
 
 MLN901705 also states that Medicare pays for telehealth furnished to patients in their homes at the non-facility Physician Fee Schedule rate, and that hospital outpatient therapy telehealth billed by qualified therapists employed by hospitals uses modifier 95. Those are professional or institutional therapy instructions. They do not turn Q3014 into a speech-language pathology code.

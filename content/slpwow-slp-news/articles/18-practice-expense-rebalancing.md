@@ -36,6 +36,22 @@ BALTIMORE — Jan. 1, 2026 — The 2026 Medicare Physician Fee Schedule reweight
 
 ## What CMS is changing
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cms-2026-practice-expense-rebalancing-slps/practice-expense-rebalance.svg"
+    alt="Split bar schematic of CMS 2026 practice expense increases for non-facility settings and decreases for facility settings affecting therapy codes unevenly"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Rebalancing moves relative value; it is not an automatic raise for every SLP.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 For years the fee schedule has carried two PE values for many codes: a non-facility amount, meant to reflect the overhead of an office that pays its own rent and staff, and a facility amount, meant to reflect a setting where the hospital or skilled nursing facility already owns the overhead. Beginning with calendar year 2026, CMS is widening that gap — increasing non-facility PE and reducing facility PE across codes paid under the fee schedule.
 
 ASHA’s public PDF restates the agency’s rationale: the revised approach is meant to reflect higher costs in non-facility settings and the economies of scale in facilities. As part of the change, CMS is reducing the portion of facility PE RVUs allocated from work RVUs to half the amount applied to non-facility PE RVUs. Specialties that deliver most of their services in facility settings, ASHA writes, will see PE RVUs fall. Specialties that practice primarily in non-facility settings will see PE RVUs rise.

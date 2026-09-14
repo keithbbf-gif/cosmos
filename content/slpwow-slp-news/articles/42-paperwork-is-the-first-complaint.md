@@ -46,6 +46,22 @@ The overall share was 76.0 percent of clinical service providers (*n* at least 3
 
 ## Why the same complaint shows up in every building type
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/paperwork-is-the-first-complaint/paperwork-first-complaint.svg"
+    alt="Rank card schematic paperwork listed first complaint in every school facility type in ASHA schools survey"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Complaint rank is not a mandate; it is a staffing conversation starter.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Paperwork is the part of the job that does not shrink when the delivery model changes. A telepractice SLP still writes evaluation reports and session notes. A secondary SLP still prepares for a stack of IEP meetings. A preschool SLP still documents eligibility. ASHA’s table is useful because it undercuts the folk theory that paperwork is an elementary-school problem or a Medicaid-billing problem only. The instrument asked about a “large amount of paperwork,” not about a named form. Respondents could select every challenge that applied. Paperwork still led.
 
 The Baltimore County record, reported by WYPR in May 2025, is one district’s version of the same clock. Seanne Herbick described IEP meetings, lengthy assessment reports, and daily notes for 20 to 30 students, plus group-session planning, against one hour of planning and documentation time. That is a public meeting comment, not a time-and-motion study. It is enough to show why a “caseload of 70” and a “paperwork problem” are not two stories.

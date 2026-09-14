@@ -46,6 +46,22 @@ A benefit statement is not a privilege. A spouse who holds a qualifying home lic
 
 ## What the Commission has actually put in writing
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/military-spouse-portability-promise-aslp-ic/military-spouse-portability-card.svg"
+    alt="News card contrasting military spouse portability promise on Commission materials with only four states issuing privileges in September 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Portability is the design goal; issuance footprint is still narrow.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The home-page benefit line is the public promise this desk can cite. It does not describe orders, installations, or a federal reimbursement. This article will not invent Department of Defense spouse-licensure statutes, assignment incentives, or compact-fee waivers that do not appear in the Commission materials we fetched.
 
 The February 2026 newsletter recorded a more bureaucratic clue. Among the Rules Committee’s 2026 work items was a proposed policy on “military identification and submission verification/auditing process.” That is a proposed policy, listed with other unfinished 2026 business. It is not a published spouse handbook, and this desk is not guessing what documents that policy will ask for.

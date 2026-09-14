@@ -29,6 +29,22 @@ ROCKVILLE — Nov. 19, 2025 — The Quality Payment Program is easy to over-read
 
 ## Why most SLPs never trip the wire
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/most-slps-exempt-mips-2026-two-conversion-factors/mips-exempt-majority-card.svg"
+    alt="Schematic showing most speech-language pathologists exempt from mandatory MIPS in 2026 while affected by two Medicare conversion factors"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Exempt from MIPS is not exempt from Medicare fee-schedule fights.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s public 2026 SLP fee-schedule PDF, first edition November 13, 2025, states the reason in operational language. CMS has set exclusions and low-volume thresholds. A large majority of SLPs will be excluded from mandatory MIPS participation for 2026. MIPS applies to clinicians in outpatient non-facility settings. To be *required* to participate, a clinician must meet all three of the following, as ASHA lists them: $90,000 or more in allowed charges to Medicare for professional services; 200 or more distinct Medicare beneficiaries; and 200 or more distinct procedures.
 
 Miss one and mandatory reporting does not attach. Meet one or two, ASHA writes, and the clinician may opt in. Meet none and voluntary reporting is still open for experience. Required participants who report nothing are looking at the maximum payment reduction — ASHA cites 9 percent — applied to 2028 payments for 2026 performance. The performance threshold to avoid a penalty, ASHA says, remains 75 points.

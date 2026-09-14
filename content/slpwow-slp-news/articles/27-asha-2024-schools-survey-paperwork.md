@@ -26,6 +26,22 @@ ASHA fielded the instrument on Jan. 25, 2024, to a random, state-stratified samp
 
 ## Who answered, and how they were paid
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/asha-2024-schools-survey-paperwork-workforce/asha-schools-survey-paperwork-first.svg"
+    alt="Ranked bar schematic from ASHA 2024 schools survey showing paperwork as top complaint across school facility types"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Survey ranks complaints; it does not prescribe a caseload cap.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Of employed respondents, 87 percent worked full time and 13 percent part time. Facility type mattered. Administrative-office SLPs were the most likely to be full time (93 percent). Telepractice-office SLPs were the most likely to be part time (46 percent). Among those employed full or part time, 86 percent were salaried, 12 percent were contractors, and 1 percent were self-employed.
 
 Those shares describe the people who returned the survey. They do not describe a district’s payroll unless that district’s own HR file says so.

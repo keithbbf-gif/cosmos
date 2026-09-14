@@ -46,6 +46,22 @@ The survey is a spring 2024 sample of ASHA-certified school SLPs, 3,749 responde
 
 ## What a headcount hides
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/caseload-is-the-wrong-metric/caseload-vs-workload-split.svg"
+    alt="Split schematic contrasting countable school caseload numbers with documentation meetings and travel workload components"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Districts count heads; clinicians live the hours.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Caseload is the number of students with the SLP’s name on a service page. It is easy to put in a spreadsheet. It does not record whether those students are preschoolers who need adult facilitation, adolescents in three buildings, AAC users who need programming time, or children whose IEPs promise both direct minutes and classroom consultation. It does not record the IEP meetings, the evaluation reports, or the Medicaid notes. ASHA’s 2002 statement exists because districts that staff to a single number will always be able to say the number looks “average.”
 
 Baltimore County made the mismatch local and on the record. At a May 2025 board meeting, covered by WYPR, a union-aided survey found that more than 62 percent of the district’s SLPs had caseloads of 61 to 100 students. The story cited ASHA’s then-most-recent national average caseload as about 50. Gail Vanderbeek, splitting two elementary schools, said students were missing legally mandated therapy and consult. Seanne Herbick called the daily load “simply unsustainable” and described evenings and weekends spent on IEP meetings, assessment reports, and daily notes for 20 to 30 students, with one hour of planning and documentation time. Superintendent Myriam Rogers said there were no SLP budget cuts in the current year or planned for FY26, that she had not seen IEP disruptions from delayed speech services, and that about 40 of 200 SLPs had booked workload meetings. Those are the public figures. They are not a national rate, and they are not a formula.

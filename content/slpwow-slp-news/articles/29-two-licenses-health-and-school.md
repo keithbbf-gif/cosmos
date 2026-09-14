@@ -56,6 +56,22 @@ The Audiology and Speech-Language Pathology Interstate Compact Commission descri
 
 ## New York: title protection, with school-shaped holes
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/two-licenses-health-board-and-school-credential/health-board-school-cert-dual.svg"
+    alt="Dual credential schematic showing separate health board speech-language pathology license and school educator certificate requirements"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> States can require two parallel credentials for the same person.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 New York’s Office of the Professions is explicit about the title. Any use of “Speech-Language Pathologist” in the state requires licensure, except in certain exempt settings. The list on the license-requirements page includes federal, state, or local governments; public or nonpublic elementary or secondary schools; and colleges and universities.
 
 The same page then sends public-school speech work to a different building: teacher certification from the Office of Teaching Initiatives is the appropriate credential for providing speech services in a public school. The exemption is not a hall pass to hang out a private shingle as an unlicensed SLP. It is a recognition that some school practice sits outside the title lock — and that the education credential is the one the school side wants.

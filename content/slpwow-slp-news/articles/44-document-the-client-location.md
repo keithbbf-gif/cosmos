@@ -39,6 +39,22 @@ WASHINGTON — Sept. 14, 2026 — Two public rule sets now tell speech-language 
 
 ## Compact geography is a license fact
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/document-the-client-location/client-location-documentation.svg"
+    alt="Charting card schematic urging documented client location for ASLP-IC compact practice rules and Medicare telehealth"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> One documentation habit serves two unrelated regulatory masters.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The Commission’s public explainer is short. A compact privilege is equivalent to a license in a remote member state that is actually issuing. Practice occurs where the client is at the encounter. A clinician in an issuing home state who sees a child sitting in another issuing state needs the privilege (and whatever jurisprudence or fee that remote board still charges). A clinician who sees a child in a member state that has enacted the compact but has not onboarded CompactConnect does not get a privilege from the map’s color. As of the Commission’s home page fetched for this pack, four states were issuing: Louisiana, West Virginia, Ohio, and Tennessee. Enactment is 37 jurisdictions. Issuing is four.
 
 School credentials and district contracts sit on top of that. A privilege is not an educator certificate. This desk is not walking through a fictional student’s move. The operational point is documentary: the record should show the client’s location because that is the jurisdiction.

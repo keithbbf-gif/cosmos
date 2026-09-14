@@ -7,6 +7,11 @@ Staged originals for [SLP News](https://slpwow.com/blog/) on slpwow.com. **Draft
 - `BIBLIOGRAPHY.md` — all cited public sources
 - `WP_IMPORT.md` — WordPress **Draft** import only
 - `CLAIMS_GUARDRAILS.md` — no diagnosis, no PHI, no invented quotes
+- `assets/` / `embeds/` — original SVG news cards and timelines; schema.org `<figure>` snippets for WordPress
+- `RIGHTS.md` — per-asset credits; PD/CC raster rules (SVG-only in this wave)
+- `GRAPHICS_INDEX.md` / `GRAPHICS_CHECKLIST.md` — inventory; regenerate with `python scripts/regenerate_graphics_index.py`
+- `STYLE_GUIDE.md` / `PHOTO_NOTES.md` / `AGENTS_GRAPHICS.md` — figure SEO and no-AI-face rules
+- `check_pack.py` — verifies figures, SVG accessibility, and ops files
 - `_SOURCE_PACK.md` / `_TEMPLATE.md` — desk-internal; do not import as posts
 
 Existing live posts that this pack updates rather than clones:

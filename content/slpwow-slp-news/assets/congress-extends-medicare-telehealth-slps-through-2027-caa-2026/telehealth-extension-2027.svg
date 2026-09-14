@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">Congressional telehealth extension through 2027</title>
+  <desc id="desc">Legislative timeline card for Consolidated Appropriations Act 2026 SLP telehealth authority through 31 December 2027.</desc>
+  <defs><style>
+
+.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band { fill: #E0E7FF; }
+.accent { fill: #4338CA; }
+.bullet { font-family: system-ui, sans-serif; font-size: 11px; fill: #1E293B; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+.spine { stroke: #4338CA; stroke-width: 2; fill: none; }
+.node { fill: #4338CA; }
+
+  </style></defs>
+  <rect class="bg" width="880" height="420"/>
+  <text x="40" y="36" class="title">Congressional telehealth extension through 2027</text>
+  <text x="40" y="56" class="dek">Legislative timeline card for Consolidated Appropriations Act 2026 SLP telehealth authority through 31 December 2027.</text>
+  <rect class="card" x="40" y="76" width="800" height="300" rx="8"/>
+  <rect class="band" x="56" y="92" width="768" height="36" rx="4"/>
+  <rect class="accent" x="56" y="92" width="6" height="36" rx="2"/>
+  <text x="72" y="116" class="strong">Medicare / CMS / ASHA</text>
+  <line class="spine" x1="80" y1="200" x2="800" y2="200"/>
+  <circle class="node" cx="120" cy="200" r="7"/>
+  <text x="120" y="178" text-anchor="middle" class="strong">1</text>
+  <text x="120" y="228" text-anchor="middle" class="label">CAA 2026 language</text>
+  <circle class="node" cx="280" cy="200" r="7"/>
+  <text x="280" y="178" text-anchor="middle" class="strong">2</text>
+  <text x="280" y="228" text-anchor="middle" class="label">Ends 31 Dec 2027</text>
+  <circle class="node" cx="440" cy="200" r="7"/>
+  <text x="440" y="178" text-anchor="middle" class="strong">3</text>
+  <text x="440" y="228" text-anchor="middle" class="label">Pair with CMS FAQ</text>
+  <circle class="node" cx="600" cy="200" r="7"/>
+  <text x="600" y="178" text-anchor="middle" class="strong">4</text>
+  <text x="600" y="228" text-anchor="middle" class="label">State licensure still</text>
+  <text x="600" y="242" text-anchor="middle" class="label">applies</text>
+  <text x="40" y="396" class="note">SLPWOW SLP News — original editorial SVG. No photographs or AI faces.</text>
+</svg>

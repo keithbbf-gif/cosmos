@@ -36,6 +36,22 @@ Those figures are on the CMS Therapy Services page (updated against CR 14252) an
 
 ## What the number is
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medicare-2026-kx-threshold-pt-slp-2480/kx-threshold-2480-card.svg"
+    alt="News card schematic stating Medicare 2026 KX modifier threshold of 2480 dollars for combined physical therapy and speech therapy services"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The threshold is a documentation trigger, not a hard benefit stop.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The Bipartisan Budget Act of 2018 repealed the old therapy caps and kept the dollar amounts as thresholds. Above the KX line, the claim must carry the KX modifier as the supplier’s attestation that the services are medically necessary and that the record can show it. Claims over the threshold without KX are denied.
 
 PT and SLP still share one bucket. A busy orthopedic PT in the same episode can spend most of the $2,480 before the SLP bills a single 92507. OT has its own $2,480. The targeted review number — $3,000 for PT/SLP and $3,000 for OT — is not an automatic audit of every claim. CMS has said since MACRA that review is targeted. The $3,000 line is scheduled to hold through 2028, then index to the Medicare Economic Index.

@@ -31,6 +31,22 @@ People who still hold the therapist field may maintain and renew that credential
 
 ## How renewal works when SLP is the only field
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/south-carolina-slp-educator-certificate-renewal/sc-educator-cert-renewal.svg"
+    alt="Renewal schematic South Carolina speech-language pathology educator certificate requires current LLR license"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Renewal chains credentials; lapse in one can block the other.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 An individual whose educator certificate is only in the instructional-service field of speech-language pathologist renews by submitting a current copy of a valid LLR SLP license. SCDE says the SLP may request renewal after January 1 of the year the educator certificate expires. The LLR license submitted must be valid beyond June 30 of that expiry year. The department’s own example: if the educator certificate expires June 30, 2025, the LLR license must be valid beyond June 30, 2025.
 
 That is a date check, not a CE audit, for the single-field SLP certificate.

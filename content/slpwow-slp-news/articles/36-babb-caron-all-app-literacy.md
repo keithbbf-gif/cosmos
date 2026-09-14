@@ -31,6 +31,22 @@ The design is a multiple-baseline-across-participants single-case study. Four ch
 
 ## What moved, and what did not
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/babb-caron-all-app-literacy-ajslp/babb-caron-case-series-flow.svg"
+    alt="Case series flow schematic four children parent-delivered literacy app study with limits on generalization noted"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Small n studies illustrate mechanism; they do not set universal protocol.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 All four children improved on trained blending items, trained decoding items, and high-frequency words. Three of the four also improved on untrained blending and untrained decoding — the generalization the field usually wants and often does not get. All parents said the app was easy to use, appropriate for their child, and something they would keep using. The authors report that parents implemented the procedures with fidelity.
 
 That is the entire experimental claim. There is no fifth child, no classroom comparison, no two-year follow-up in the published abstract and supplemental description, and no head-to-head test against another literacy program. Supplemental materials include probe summaries, word lists, a social-validity questionnaire, and a parent fidelity checklist. Those files document the study. They do not enlarge the sample.

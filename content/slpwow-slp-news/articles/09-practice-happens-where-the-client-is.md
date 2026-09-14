@@ -46,6 +46,22 @@ That sentence is why a compact privilege is sold per remote state, not as a nati
 
 ## What the sentence does to telepractice
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/practice-happens-where-the-client-is/client-location-practice-pin.svg"
+    alt="Schematic map pin on client location with telepractice path showing practice jurisdiction follows patient site not clinician home"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The Commission’s geography sentence governs both in-person and tele encounters.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 If the client is in Baton Rouge and the SLP is in Wheeling, the encounter is Louisiana practice. If both boards are issuing and the clinician holds a qualifying home license plus a Louisiana privilege, CompactConnect is the mobility path. If the client is in a member that has enacted the compact but has not onboarded, the compact does not create a privilege for that hour. Ordinary licensure in the client’s state still applies.
 
 ASHA’s 28 October 2025 public note remains the registration gate: practitioners cannot register with CompactConnect until the home state onboards. Louisiana and West Virginia were the first issuing pair that day. Ohio began processing on 9 February 2026. Tennessee was posted on 28 May 2026. Four issuing states. Thirty-three enacted members still in the queue. Fourteen jurisdictions with no active legislation on the 14 September 2026 map. None of those counts relocates a child.

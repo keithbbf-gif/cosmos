@@ -36,6 +36,22 @@ This is a reading of a public CMS document and of ASHA’s public Medicare teleh
 
 ## Q1: the map comes back, with a behavioral-health hole
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cms-telehealth-faq-2028-slps-pts-ots-audiologists/cms-2028-telehealth-faq-bridge.svg"
+    alt="Bridge timeline from 2027 telehealth authority sunset to CMS 2028 telehealth FAQ guidance for speech pathology and related therapy"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> CMS has described a 2028 posture; Congress can move the authority date.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Question 1 asks whether Medicare beneficiaries need to be in a rural area and in a medical facility to receive Medicare telehealth services. CMS’s answer has a through-date and a start-date.
 
 Through December 31, 2027, beneficiaries can receive Medicare telehealth services anywhere in the United States and territories. Starting January 1, 2028, except for behavioral health services, beneficiaries will generally need to be in a medical facility and in a rural area.

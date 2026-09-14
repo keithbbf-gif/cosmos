@@ -41,6 +41,22 @@ That is the CMS inventory. It is not a fee table, and this desk will not invent 
 
 ## What ASHA’s public news says the expansion is for
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cms-2026-remote-therapeutic-monitoring-sometimes-therapy-codes/rtm-sometimes-therapy-codes.svg"
+    alt="Schematic listing three CMS 2026 remote therapeutic monitoring codes classified as sometimes therapy for billing policy"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> RTM is a monitoring lane; clinical judgment and MAC rules still govern.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s November 2025 public news item on the 2026 fee schedule, in its coding-updates section for SLPs, describes the policy in English rather than in CPT punctuation: expanded RTM codes allow for shorter monitoring periods of 2 to 15 days, and new treatment-management codes now cover 10 to 19 minutes of clinician interaction.
 
 The public 2026 SLP fee-schedule PDF, first edition November 13, 2025, is the longer version of the same story. Before 2026, ASHA writes, device-supply codes such as 98976 and 98977 could be billed only when a device transmitted therapeutic data for at least 16 days in a 30-day period, and treatment-management codes 98980 and 98981 required at least 20 minutes of interactive communication in a calendar month. Those thresholds, ASHA says, left little room for a two-week home-program check or a short post-adjustment follow-up.

@@ -41,6 +41,22 @@ That pairing matches the Commission’s first operational morning. ASHA’s publ
 
 ## What Ohio’s page said in early 2026
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/ohio-opens-aslp-ic-privileges-february-2026/ohio-shp-compact-start.svg"
+    alt="News card schematic: Ohio board begins processing ASLP-IC privilege applications 9 February 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Ohio’s board date is public; home-state rules still gate first-time FBI checks.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The board’s interstate-compact page counted 37 enacted jurisdictions as of January 2026, including one U.S. territory. It counted three states processing privilege applications as of February 2026: Ohio, West Virginia, and Louisiana. It pointed licensees to CompactConnect and to the Commission’s privilege-status updates for the current list of members actually open to Ohio licensees.
 
 The Commission’s apply URL is `https://app.compactconnect.org/Dashboard`. ASHA’s October 2025 public note still governs the login: practitioners cannot register until the home state onboards. Ohio’s February date was that onboarding, for Ohio, becoming a processing fact rather than a hearing-room promise.

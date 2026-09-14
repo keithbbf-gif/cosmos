@@ -33,6 +33,22 @@ BLS revises the Handbook. Readers should reload the OOH page for the table that 
 
 ## What the 15 percent is
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/bls-projects-15-percent-slp-job-growth/bls-growth-projection-card.svg"
+    alt="Projection card schematic BLS fifteen percent speech-language pathology job growth 2024 to 2034 as demand not funded FTE"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Growth projections describe labor market pressure, not a district budget line.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 It is a national occupational projection. BLS does not publish an interim year-by-year path between the base year and 2034. The 28,200 added jobs and the 13,300 annual openings are different ideas. Net growth is the change in employment. Openings include growth plus replacements. A profession can show strong annual openings while a particular district freezes a line.
 
 The Review’s occupational table ranked speech-language pathologists 27th of 832 occupations on percent change in that vintage, at 15.0 percent, with employment moving from 187.4 thousand to 215.5 thousand.

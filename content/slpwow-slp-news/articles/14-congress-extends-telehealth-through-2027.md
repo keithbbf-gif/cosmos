@@ -41,6 +41,22 @@ ASHA’s public Medicare telehealth page carries a February 3, 2026, update: the
 
 ## What section 6209 actually names
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/congress-extends-medicare-telehealth-slps-through-2027-caa-2026/telehealth-extension-2027.svg"
+    alt="Timeline schematic showing congressional extension of Medicare SLP telehealth authority through December 31 2027"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The extension is dated law, not a permanent telehealth mandate.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 CMS’s Therapy Services page is the agency paraphrase clinicians can cite without opening the Statutes at Large. The page says it is updating Disposition 10 to reflect section 6209 of the Consolidated Appropriations Act, 2026. That section, CMS writes, extended the ability of physical therapists, occupational therapists, and speech-language pathologists to furnish telehealth services, including the telephone assessment and management services billed with 98966, 98967, and 98968, through December 31, 2027.
 
 The inclusion of 98966–98968 matters because those codes are easy to lose in a 92507 conversation. CMS is telling contractors that the therapy-profession extension covers that telephone assessment-and-management family for the same window. It is not a new SLP treatment code. It is a statutory list CMS is implementing on the therapy page.

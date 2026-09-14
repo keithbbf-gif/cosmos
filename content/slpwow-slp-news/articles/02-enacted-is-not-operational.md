@@ -56,6 +56,22 @@ Enactment is how a state or territory joins the agreement. Issuance is what happ
 
 ## Four buckets, fetched the same day
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/enacted-is-not-operational-aslp-ic/enacted-vs-operational-buckets.svg"
+    alt="Four labeled buckets: enacted law, operational issuance, onboarding queue, and single-state license still required where compact is not issuing"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Enactment fills a map bucket; issuance needs onboarding and a live privilege.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The Compact Map, retrieved on 14 September 2026, reports four counts: 33 jurisdictions with legislation enacted but not yet issuing privileges; 4 issuing; 4 with active legislation; 14 with no active legislation. The home page, last given a dated operational banner on 28 May 2026, names the issuing four — Louisiana, West Virginia, Ohio, and Tennessee — and counts 37 members in all: 36 states and one territory.
 
 Registration, the Commission says, is open for licensed practitioners in those four states. Additional members “must onboard licensees to CompactConnect and meet the compact requirements” before they can issue. The home page tells clinicians to ask the home-state licensing board when their own state will start. It does not publish a ranked queue, and this desk will not invent one.

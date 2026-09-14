@@ -28,6 +28,22 @@ Both groups received 15 weekday sessions over three weeks. Active rTMS used 10 H
 
 ## What the contrast showed
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/fnirs-guided-rtms-naming-subacute-aphasia/fnirs-rtms-adjunct-trial.svg"
+    alt="Adjunct trial schematic fNIRS guided rTMS improved Chinese naming in subacute aphasia labeled not standard of care"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Adjunct neuromodulation trials stay outside routine practice until replicated.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Both groups improved over three weeks, which is what a subacute sample plus daily SLT should do. The Time × Group interactions favored active rTMS on the Chinese BNT (F = 16.04, p < 0.01), picture-naming accuracy (F = 20.10, p < 0.01), and the WAB-R naming subscore (F = 4.44, p < 0.05). Total aphasia quotient, spontaneous speech, comprehension, and repetition did not show a group-by-time advantage. Reaction time improved in both arms without a significant interaction. An ANCOVA that adjusted for baseline scores, baseline AQ, and education left the naming effects standing. Blinding checks did not differ from chance. The authors reported no serious adverse events and no dizziness, pain, or seizure symptoms in the trial window.
 
 Task fNIRS after active treatment showed more activation in left dorsolateral prefrontal cortex and left Broca’s area, and stronger resting connectivity between those regions. Connectivity change correlated with BNT improvement (r = 0.6405, p < 0.05). Those are mechanistic associates in the same small sample, not independent proof of cause.

@@ -61,6 +61,22 @@ The Commission’s geography sentence is the first gate. Practice occurs in the 
 
 ## Two professions, two stacks of paper
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/school-slps-and-compact-privileges/school-credential-dual-gate.svg"
+    alt="Two-column schematic comparing ASLP-IC compact privilege with school educator certificate and district hiring requirements"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A privilege to practice is not a teaching certificate or an IEP assignment.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Licensing boards regulate the practice of speech-language pathology. State education agencies and local districts regulate who may be employed, assigned, and evaluated as a school SLP. Those stacks overlap. They are not the same form.
 
 ASHA’s 28 October 2025 public note remains the compact login rule: practitioners cannot register with CompactConnect until the home state onboards. Thirty-three enacted members are still in that queue. A school contract that assumes “the compact covers us” in one of those 33 is assuming a portal that has not opened.

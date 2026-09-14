@@ -44,6 +44,22 @@ EASTPOINTE — Sept. 14, 2026 — A speech-language pathologist can be present o
 
 ## The vacancy is real. The access problem is older.
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/aac-access-when-the-slp-is-remote/remote-slp-aac-access-gap.svg"
+    alt="Gap schematic showing AAC device access and support does not automatically follow remote speech-language pathology services"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Telepractice opens the session; access still needs local logistics.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Bridge Michigan reported in February 2026 that Optimise listed 253 school SLP openings in the state. Eastpointe Community Schools was serving 149 students who needed speech services, 37 of them in preschool, with four virtual SLPs and two on-site. Superintendent Christina Gibson told the reporter, “This is not an ideal situation,” and “I think the best speech services are delivered face-to-face.” The Michigan Department of Education said it does not know how many special-education positions are filled by virtual contractors. Families, Bridge noted, are not always in a position to treat “someone on a screen plus a paraprofessional” as equivalent to an in-building clinician who can walk into a classroom.
 
 ASHA’s 2024 Schools Survey is the national backdrop, not a Michigan census: 79 percent of school SLPs said openings outnumbered seekers. Paperwork and workload still led the challenge list. Virtual coverage is one district response to that labor math. It is not proof that AAC implementation got easier.

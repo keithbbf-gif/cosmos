@@ -46,6 +46,22 @@ The 12 percent varied by setting: 4 percent among SLPs working in students’ ho
 
 ## What ASHA’s public scope actually says
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/slpa-supervision-in-a-shortage/slpa-supervision-twelve-percent.svg"
+    alt="Statistic card schematic twelve percent of school speech-language pathologists supervised a speech-language pathology assistant amid larger shortage"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Supervision rates describe capacity, not permission to skip rules.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s *Scope of Practice for the Speech-Language Pathology Assistant*, a public policy page, is a minimum-recommendation document. SLPAs work only as prescribed, directed, and supervised by an ASHA-certified and/or state-credentialed SLP. They supplement; they do not take their own caseload. The supervising SLP keeps legal and ethical responsibility. Before an SLPA provides support independently, the SLP must have first contact with each person on the caseload. Direct supervision of each student, patient, or client must be documented at least every 30 to 60 days, depending on visit frequency and setting — ASHA’s floor, not a state’s. Medically fragile individuals require 100 percent direct supervision; live telesupervision counts as direct; a recording reviewed later does not.
 
 On ratio, ASHA recommends that an SLP not supervise or be listed for more than three full-time-equivalent SLPAs, and that an SLPA not be supervised by more than three SLPs. It also says the appropriate number depends on caseload, experience, and setting, and that state requirements control. That recommendation is not a statute. Boards write the number that can get a clinician in trouble. Some states do not recognize SLPAs at all. Some use different titles. Readers who need a legal ratio should open the state practice act and the board’s current supervision rule, then the payer manual. ASHA’s page is the association’s public baseline.

@@ -31,6 +31,22 @@ The design is a 2023 systematic web search, reported against PRISMA 2020, across
 
 ## What the 131 items looked like
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/jmir-free-aac-elearning-inventory/aac-elearning-inventory-131.svg"
+    alt="Inventory card schematic listing one hundred thirty-one free AAC e-learning tools counted in JMIR inventory without quality ranking"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> An inventory counts tools; it does not certify them.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 They kept 131 tools after screening a limited slice of each query (the first 25 results for broad terms, the first 10 for specific ones, for 1,616 records). Fifty-seven were coded basic — general information for learners with no AAC background. Seventy-four were coded advanced — beyond general information, expecting prior AAC knowledge or clinical experience. Those labels are the authors’ binary, not a university transcript.
 
 Format was lopsided. One hundred five tools (80.2 percent) were websites. Twenty-one (16 percent) were online courses. Three were apps. Two were podcasts. Only two of the 21 courses were in German. Almost every AAC-related app they found was a talker or a sign-language trainer without an AAC definition, so it dropped out. That is a method choice, not a market census of clinical software.

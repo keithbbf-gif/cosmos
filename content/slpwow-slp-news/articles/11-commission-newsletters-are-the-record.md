@@ -41,6 +41,22 @@ As of a 14 September 2026 fetch, the Commission home page lists Volume 1 issues 
 
 ## What the letters we did open actually recorded
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/aslp-ic-commission-newsletters-are-the-record/commission-newsletter-record.svg"
+    alt="Schematic stack of dated ASLP-IC Commission PDF newsletters labeled as the public record for operational updates"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Open the PDFs; social posts are not the record.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The November 2025 letter (Volume 1, Edition 4, dated 4 November) put a legal timestamp on launch: Louisiana and West Virginia “operationalized” on 28 October 2025. The February 2026 letter recorded the $50 Commission administrative fee per privilege, a home-state FBI background-check rule amendment with revised timelines and “legal impossibility” exceptions, carryover bills in Michigan and Pennsylvania, and reintroductions in New Jersey and New Mexico. The August 2025 letter (Volume 1, Edition 3, dated 1 August) described the fee rule and the criminal-background-check amendment before CompactConnect went live.
 
 Those are Commission documents. They are not ASHA membership mail and they are not this desk’s reporting notes. When a later homepage banner — Tennessee issuing as of 28 May 2026 — updates an operational fact, the letter that predates it does not become false. It becomes older.

@@ -56,6 +56,22 @@ CompactConnect went live on 28 October 2025. ASHA’s public desk named Louisian
 
 ## What the $50 buys, and what it does not
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/compactconnect-fifty-dollar-commission-fee/compactconnect-fee-stack.svg"
+    alt="Stacked fee schematic: fifty dollar ASLP-IC Commission fee per privilege with additional state board fees listed separately"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The published $50 is a Commission line item, not the full cost of mobility.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The February 2026 letter — Volume 2, Issue 1, dated 4 February — said the Commission had adopted a $50.00 administrative fee per Privilege to Practice. Gregg Thornton’s Rules Committee note treated that figure as part of the operational framework, alongside a home-state FBI background-check amendment. ASHA’s public news page of 30 May 2025 had already told readers the Commission would charge $50 per compact privilege and that state fees may vary.
 
 The August 2025 newsletter described the fee rule in more mechanical language. The Commission administrative fee is paid by the licensee to the Commission for each state in which a privilege is requested. Each member state may also set a state fee under its own process. That state fee is paid to the Commission as well; the Commission remits 100 percent of the state fee to the member state. Jurisprudence requirements, the home page says, live on the Commission’s fee information — not in this article.

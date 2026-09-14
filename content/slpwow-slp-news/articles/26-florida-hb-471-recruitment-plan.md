@@ -31,6 +31,22 @@ That is the filed text on the Senate’s bill page. This pack does not establish
 
 ## What the filed draft would actually require
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/florida-hb-471-slp-recruitment-plan/florida-hb471-bill-track.svg"
+    alt="Bill track schematic for Florida HB 471 requiring Department of Education statewide speech-language pathology staffing plan still not enacted law"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Filed is not enrolled; check Florida legislature status before citing.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The plan’s first job is data. DOE would have to analyze staffing needs in districts and charter schools on an ongoing basis through the school year. The minimum list is specific: the total number of public schools, broken out by district and charter; the number of speech-language pathologists employed at each school and district, including contracted personnel; and, per district or charter, counts of doctoral-level SLPs, master’s-level SLPs, bachelor-level speech-language therapists, and speech-language pathology assistants.
 
 The same analysis would examine caseloads and compensation for those employees and contractors, and it would compare those caseloads and that pay across Florida districts and charters and against contiguous states. The department would also track year-to-year changes in those headcounts, including resignations and retirements.

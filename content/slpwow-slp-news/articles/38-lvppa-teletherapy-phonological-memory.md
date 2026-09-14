@@ -24,6 +24,22 @@ QUEBEC CITY — Dec. 19, 2025 — Most published speech-language work in primary
 
 ## Design and who sat in the sample
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/lvppa-teletherapy-phonological-memory/lvppa-teletherapy-transfer.svg"
+    alt="Outcomes schematic lvPPA teletherapy phonological training improved trained items with limited transfer to untrained tasks"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Item-specific gains are not automatic discourse recovery.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Five adults met Gorno-Tempini and colleagues’ (2011) lvPPA criteria. All had biomarker support (three CSF, two amyloid PET). Ages ranged from 54 to 68. Time since diagnosis at the first assessment was two to seven months. All used French as a long-term primary language, could read short sentences and words, and could immediately repeat at least two-syllable words. A comorbid addiction, another brain disease that would scramble the picture, or concurrent speech therapy aimed at short-term working memory kept people out.
 
 Baseline cognition was not uniform. Montreal Cognitive Assessment scores ran from 10 to 28. Picture-naming and communication-scale scores also spread. The authors treat that spread as clinically important, not as a nuisance. Ethics approval came from the CHU de Québec–Université Laval committee. Caregivers were present for consent.

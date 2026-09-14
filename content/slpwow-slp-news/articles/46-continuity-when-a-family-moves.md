@@ -51,6 +51,22 @@ This is an analysis of those public clocks. It is not a case study, and it does 
 
 ## What the compact can do, where it is live
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/continuity-when-a-family-moves/continuity-four-state-reality.svg"
+    alt="Bridge schematic compact continuity of care benefit juxtaposed with only four states issuing privileges September 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Continuity is a design promise; privileges still require issuance.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A home-state licensee in good standing may obtain a privilege that the Commission calls equivalent to a license in a remote member state that is issuing. Practice is where the client is. ASHA’s 28 October 2025 news item dated the first operational day to Louisiana and West Virginia. Ohio’s board told licensees it would process applications beginning 9 February 2026. The Commission posted Tennessee as issuing as of 28 May 2026. Registration is open for licensed practitioners in those four states. Practitioners cannot create a CompactConnect account until the home state has onboarded.
 
 The February 2026 newsletter recorded a $50 Commission administrative fee per privilege, plus remote-state fees and jurisprudence the Commission does not flatten into one chart. Continuity, in that architecture, means a clinician who already holds a qualifying home license could follow a client into another issuing state without a full second license — if both ends are live, if the fee and background-check rules are met, and if the employer accepts the privilege. Continuity does not mean the other 33 enacted members are issuing. It does not mean a school district must honor a privilege as an educator credential. It does not mean a Medicare contractor will re-enroll anyone faster.

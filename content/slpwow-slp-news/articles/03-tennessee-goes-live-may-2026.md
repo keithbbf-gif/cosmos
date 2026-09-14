@@ -46,6 +46,22 @@ That is a four-state issuing column. It is not a 37-jurisdiction mobility system
 
 ## What the May 28 line added
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/tennessee-goes-live-aslp-ic-may-2026/tennessee-go-live-timeline.svg"
+    alt="Timeline schematic from October 2025 Louisiana and West Virginia issuance through Ohio February 2026 and Tennessee May 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Tennessee joined the issuing column on the Commission’s 28 May 2026 notice.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Louisiana and West Virginia opened CompactConnect on 28 October 2025, the first operational day ASHA’s public desk recorded. Ohio’s Speech and Hearing Professionals Board said it would process applications beginning 9 February 2026. Tennessee is the fourth board the Commission has posted as issuing.
 
 The apply URL on the home page is `https://app.compactconnect.org/Dashboard`. Additional members, the Commission repeats, must onboard licensees to CompactConnect and meet compact requirements before they can issue. Practitioners cannot register until the home state onboards — ASHA’s October 2025 sentence, still standing in every later public notice this desk can cite.

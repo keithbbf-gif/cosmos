@@ -57,6 +57,22 @@ Continuing education sits on the same even-year calendar. R.I. Gen. Laws § 5-48
 
 ## The school assignment is a RIDE field
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/rhode-island-even-year-slp-license-renewal/ri-even-year-renewal.svg"
+    alt="Calendar schematic Rhode Island speech-language pathology licenses expiring July first in even years with separate school certificate"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Even-year rhythm is administrative, not clinical.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 A RIDOH license is not a public-school assignment. The Rhode Island Department of Education issues a support-professional certificate valid for assignment as a Speech and Language Pathologist in grades PK–12. RIDE’s required-tests list codes that area 13004. The content test on that list is Praxis 5331 with a passing score of 162.
 
 Hold both documents if the job is a Rhode Island public school. The even-year health renewal does not renew 13004, and 13004 does not keep the RIDOH license alive past July 1.

@@ -31,6 +31,22 @@ The design matters as much as the claim. Light, Susan K. Fager, Jessica Gormley,
 
 ## Six barriers, not one gadget problem
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/light-aac-societal-barriers-research-agenda/aac-societal-barriers-agenda.svg"
+    alt="Research flow schematic placing societal barriers before device features in AAC research agenda"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Access barriers sit outside the handset.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The authors start from an estimate they attribute to Beukelman and Light (2020): more than 97 million people worldwide cannot rely on speech alone to be heard. AAC can support education, work, health care, and community life, they write, but only if tools and opportunities actually reach people. Society and communication partners, they argue, hold most of that gate.
 
 They use the Beukelman and Light (2020) barrier types — policy, practice, attitude, knowledge, and skill — and add technology. Policy examples include disability-rights statutes that protect people generally but rarely name AAC, and the United Nations Convention on the Rights of Persons with Disabilities, ratified widely yet not directly enforceable through the U.N. system. Practice barriers are the everyday conventions that keep services from arriving. They cite Binger and colleagues (2021): in New Mexico, 78 percent of school-age children with highly unintelligible speech had not been seen by a professional with AAC expertise. They cite Lackey and colleagues (2024) on rural access in Canada, and a U.S. post hoc analysis (Pope et al., 2022) in which Black preschoolers were reported to receive less weekly AAC intervention than white peers. Those citations describe inequity in published data. They are not a national census.

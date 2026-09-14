@@ -41,6 +41,22 @@ ASHA’s public Medicare telehealth page, updated February 3, 2026, states the s
 
 ## Clock 1: the codes stay on the list
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/two-clocks-medicare-telehealth-codes-vs-slp-authority-2026/telehealth-two-clocks.svg"
+    alt="Parallel timeline schematic: Medicare telehealth billing codes versus congressional SLP telehealth authority clocks for 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A billable code does not extend statutory authority by itself.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Medicare’s telehealth services list is a catalog of CPT and HCPCS codes the agency has decided can substitute for an in-person visit when they are furnished as telehealth. CMS, not Congress, maintains that list. In the calendar-year 2026 Physician Fee Schedule final rule, the agency also dropped the old provisional-versus-permanent distinction. New additions are permanent additions.
 
 For speech-language pathology, the 2026 news is not that 92507 suddenly appeared. The news is that the SLP services that have sat on the list since the 2020–2021 pandemic expansions are no longer there on a temporary, year-by-year hook. ASHA’s November 2025 public news item called that an advocacy win: CMS finalized permanent inclusion of select audiology and speech-language pathology codes. ASHA’s February 2026 public page repeats it as operational fact: those services are permanently on the list as of January 1, 2026.

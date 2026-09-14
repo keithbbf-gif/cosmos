@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">Commission newsletter as dated public record</title>
+  <desc id="desc">Document stack schematic treating Commission PDF newsletters as primary dated artifacts for rule changes.</desc>
+  <defs><style>
+
+.bg { fill: #FAF9F7; }
+.title { font-family: Georgia, serif; font-size: 16px; font-weight: 600; fill: #1E293B; }
+.dek { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.label { font-family: system-ui, sans-serif; font-size: 11px; fill: #64748B; }
+.strong { font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; fill: #1E293B; }
+.card { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1; }
+.band { fill: #CCFBF1; }
+.accent { fill: #0F766E; }
+.bullet { font-family: system-ui, sans-serif; font-size: 11px; fill: #1E293B; }
+.note { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748B; }
+.spine { stroke: #0F766E; stroke-width: 2; fill: none; }
+.node { fill: #0F766E; }
+
+  </style></defs>
+  <rect class="bg" width="880" height="420"/>
+  <text x="40" y="36" class="title">Commission newsletter as dated public record</text>
+  <text x="40" y="56" class="dek">Document stack schematic treating Commission PDF newsletters as primary dated artifacts for rule changes.</text>
+  <rect class="card" x="40" y="76" width="800" height="300" rx="8"/>
+  <rect class="band" x="56" y="92" width="768" height="36" rx="4"/>
+  <rect class="accent" x="56" y="92" width="6" height="36" rx="2"/>
+  <text x="72" y="116" class="strong">ASLP-IC</text>
+  <circle cx="68" cy="144" r="3" class="accent"/>
+  <text x="82" y="148" class="bullet">PDF newsletters dated</text>
+  <circle cx="68" cy="172" r="3" class="accent"/>
+  <text x="82" y="176" class="bullet">Map lags newsletter</text>
+  <circle cx="68" cy="200" r="3" class="accent"/>
+  <text x="82" y="204" class="bullet">Save copies locally</text>
+  <circle cx="68" cy="228" r="3" class="accent"/>
+  <text x="82" y="232" class="bullet">Cross-check state boards</text>
+  <text x="40" y="396" class="note">SLPWOW SLP News — original editorial SVG. No photographs or AI faces.</text>
+</svg>

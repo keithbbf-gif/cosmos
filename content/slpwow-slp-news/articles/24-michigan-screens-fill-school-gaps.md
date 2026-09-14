@@ -35,6 +35,22 @@ Bridge also recorded Gibson describing a national market in which speech-languag
 
 ## What Eastpointe and the task force actually counted
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/michigan-screens-fill-school-speech-gaps/michigan-screen-hire-card.svg"
+    alt="Workforce schematic: Michigan school districts filling speech-language pathology vacancies using screen-based hires with uncertain state vacancy counts"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Local hiring stories can outrun published vacancy statistics.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Michigan News Source dated the Eastpointe numbers to late February 2026: 149 students receiving speech services, 37 of them preschoolers, four virtual providers, two on-site. Bridge Michigan, which interviewed Gibson first, published the same district figures a week earlier.
 
 The statewide vacancy count in Bridge’s reporting came from Optimise, a special-education talent task force. As of the Friday before Bridge’s Feb. 20 story, Optimise listed 253 speech-pathologist openings in Michigan public schools. Michigan News Source rounded the same problem to “more than 250.” This desk is using the Optimise figure Bridge attributed.

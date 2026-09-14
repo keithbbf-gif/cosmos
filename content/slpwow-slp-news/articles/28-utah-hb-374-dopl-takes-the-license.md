@@ -36,6 +36,22 @@ That is enrolled text, not a committee talking point. The official file is the e
 
 ## What the enrolled bill does to the school exemption
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/utah-hb-374-dopl-takes-the-slp-license/utah-dopl-transfer-timeline.svg"
+    alt="Timeline schematic Utah enrolled HB 374 moving school speech-language pathology license to DOPL effective May 6 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> A board move changes who answers renewal questions.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Section 58-41-305, as amended, still lists people who may practice without a DOPL license in narrow circumstances. One of those leftover lines is a person who holds a valid, current State Board of Education credential and performs SLP or audiology functions solely inside the school that employs them. The same section then adds the cutoff: the State Board of Education may not issue a credential to a person performing those functions on or after May 6, 2026.
 
 A later repeal-date clause schedules subsection 58-41-305(1)(d) — the old USBE-credential exemption — for repeal on July 1, 2031. The May 6 stop on new USBE credentials and the 2031 sunset on the leftover exemption are different clocks. Do not collapse them.

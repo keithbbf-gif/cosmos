@@ -28,6 +28,22 @@ An exemption from the title lock is not a private-practice license. It is not pe
 
 ## The license path when you do need the title
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/new-york-slp-title-protection-school-exemption/ny-title-protection-exemption.svg"
+    alt="Schematic of New York speech-language pathology title protection with noted exemptions for certain school settings"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Title law and school employment exemptions can coexist.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 For licensure as a speech-language pathologist, OP lists the usual gates: good moral character, age 21 or older, education, examination, and experience. The education standard is a graduate degree from a New York-registered licensure-qualifying program, an ASHA-accredited program, or the equivalent as the Department defines it, including a practicum. The examination OP names for speech-language pathology is the Praxis Series Specialty Area test, Praxis II examination 5331, with a minimum acceptable score of 162. Scores must come directly from ETS to agency code R7747. People already licensed in another U.S. jurisdiction or another country should read OP’s endorsement Path A and Path B on the same page rather than assume the 36-week clock is the only door.
 
 The experience requirement is the one that trips people who finished the degree but not the clock. You must complete a minimum of 36 weeks of supervised experience in speech-language pathology. The experience cannot begin until after all requirements for the graduate degree are satisfied, including any examinations or a thesis. OP notes that a break — maternity leave, or a school-year summer — should be made up in the ending date.

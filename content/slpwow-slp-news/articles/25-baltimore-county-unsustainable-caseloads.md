@@ -26,6 +26,22 @@ That survey, as WYPR described it, found that more than 62 percent of Baltimore 
 
 ## What the station said was on the table
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/baltimore-county-unsustainable-slp-caseloads/baltimore-caseload-signal.svg"
+    alt="Bar schematic of Baltimore County school speech-language pathologists reporting unsustainable caseloads in WYPR coverage May 2025"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Reporter testimony is a signal; official ratios may lag.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 WYPR’s Bri Hatch reported the board meeting on a Tuesday and a superintendent press conference the next day. Clinicians at the meeting, the story said, asked for caseload caps and more in-school planning time. The audience cheered those asks. The station framed the complaint against a nationwide shortage of school speech therapists, which, Hatch wrote, made recruiting and retaining those professionals more urgent. This desk is not reconstructing testimony the station did not attribute, and it is not inventing additional board-meeting lines.
 
 What WYPR did attribute, in paraphrase, is the shape of the job as the clinicians described it. Seanne Herbick, then in her first year as the SLP at Cockeysville Middle School after 32 years in the profession, told the station the year’s load was the hardest of her career and that evenings and weekends were going to IEP meetings, lengthy assessment reports, daily notes for 20 to 30 students, and session planning on one hour of planning and documentation time a day. Vanderbeek, who splits time between Gunpowder and Victory Villa elementary schools, told the station she was stretched across buildings with a higher caseload and that students were missing legally mandated therapy and consultative services. Superintendent Myriam Rogers, at the Wednesday briefing, said she had not seen cases in which delayed speech-language services had disrupted students’ IEPs.

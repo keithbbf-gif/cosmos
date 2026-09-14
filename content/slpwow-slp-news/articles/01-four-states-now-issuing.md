@@ -41,6 +41,22 @@ That gap is the news. SLP WOW’s January 2025 note on new enactments (Alaska, F
 
 ## What “issuing” means on 14 September 2026
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/four-states-now-issuing-aslp-ic-privileges/four-state-issuance-map.svg"
+    alt="Schematic compact map legend: four states issuing privileges, thirty-three enacted members still onboarding, four with active legislation, fourteen with none"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Four jurisdictions issue compact privileges; enactment alone does not equal issuance.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The Commission’s public count is 37 jurisdictions: 36 states and one territory. The interactive map, fetched the same day as this draft, splits them this way: four issuing, 33 enacted but not issuing, four with active legislation, 14 with none.
 
 ASHA’s public news desk recorded the first operational day as 28 October 2025, when Louisiana and West Virginia opened CompactConnect. Ohio’s Speech and Hearing Professionals Board told licensees it would process applications beginning 9 February 2026. The Commission posted a 28 May 2026 update that Tennessee was issuing.

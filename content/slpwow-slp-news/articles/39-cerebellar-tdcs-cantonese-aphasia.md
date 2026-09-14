@@ -28,6 +28,22 @@ That is a lot of observations from a very small human sample. The authors say so
 
 ## What the group analysis actually said
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/cerebellar-tdcs-cantonese-aphasia/tdcs-sham-naming-outcomes.svg"
+    alt="Trial schematic cerebellar tDCS did not outperform sham for Cantonese naming though computerized therapy improved verbs"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Null stimulation result still leaves therapy signal to interpret cautiously.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The hypothesis was that anodal cerebellar stimulation would lift accuracy and speed relative to sham. The group model did not support that. A three-way interaction of condition, grammatical class, and time showed a different pattern: verb naming improved under sham, and those verb gains were larger than under active anodal stimulation. Reaction times got faster after the behavioral program, especially for verbs, without a tDCS-condition effect. Trained versus untrained items did not separate. Order of sham-first versus active-first did not matter. Pain ratings did not differ enough to unblind the conditions.
 
 Single-case McNemar tests then pulled the average apart. One participant clearly gained under anodal stimulation, driven by nouns. Others gained only under sham, or in both conditions, or lost verbs under anodal current. The authors float polarity and homeostatic-learning hypotheses for verbs. They tested only anodal current, so they cannot settle polarity.

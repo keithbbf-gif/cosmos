@@ -33,6 +33,22 @@ The design, again, is not a trial. The authors call it a narrative that starts f
 
 ## Three external gates
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/light-aac-literacy-barriers-companion/aac-literacy-barriers-outside-learner.svg"
+    alt="Barrier wheel schematic placing AAC literacy obstacles in environment policy and instruction outside the learner"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Barrier location guides intervention design, not blame.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 First, exclusion. Some people who use AAC never receive literacy instruction, or they sit in lessons that only accept spoken answers. Low expectations do part of that work. The authors cite a 1993 parent-and-teacher survey in which 52 percent of parents and 36 percent of teachers did not expect functional literacy by age 25. They also cite more recent parent comments that treat speech as a prerequisite for reading. Curricula that require sounding out loud are, in this account, inaccessible unless someone redesigns the response.
 
 Second, the workforce. A U.S. survey of more than 400 SLPs (Yi and Erickson, 2024) found that only 8.5 percent felt their preservice programs had prepared them well to provide literacy instruction — and the authors add that even fewer were likely prepared to adapt it for AAC. Caron and colleagues (2018) found that 87 percent of service providers named lack of training as a major barrier to literacy instruction for people who need AAC. Paraprofessionals, they note, are often assigned the work with little demonstration or feedback (Eskin and Caron, 2017). Those are survey figures, not your building’s staffing chart.

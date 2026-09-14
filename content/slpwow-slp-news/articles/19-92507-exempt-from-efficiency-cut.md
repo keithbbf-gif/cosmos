@@ -36,6 +36,22 @@ CMS’s own summary, MM14315, says the agency finalized use of the Medicare Econ
 
 ## What ASHA says the cut is for — and what it is not
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/92507-exempt-cms-2026-efficiency-adjustment/cpt-92507-exempt-badge.svg"
+    alt="Code badge schematic showing CPT 92507 exempt from CMS 2026 efficiency adjustment with note that exemption is not a payment increase"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Exempt from the cut ≠ automatic upward revision.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 ASHA’s public 2026 SLP PDF describes the policy as a reduction to work RVUs and intra-service time for certain CPT codes. CMS’s stated theory, as ASHA reports it, is that efficiency gains over time are not fully captured in the valuation process. The 2.5 percent figure is built from productivity data for calendar years 2021 through 2025. ASHA writes that the same methodology may be reapplied every three years.
 
 The PDF says CMS is applying the adjustment primarily to non-time-based codes that describe procedures, radiologic services, and diagnostic tests. Services in which the clinician’s time is the primary resource, and services on the approved telehealth list, are not subject to it. 92507 — individual treatment of speech, language, voice, communication, and/or auditory processing disorder — is ASHA’s explicit SLP example of an exemption. New CPT codes introduced in a given year are excluded for that calendar year.

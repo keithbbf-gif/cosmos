@@ -36,6 +36,22 @@ CMS’s Therapy Services page is the primary citation. The service with the high
 
 ## Same day, all three therapy disciplines
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/medicare-mppr-therapy-50-percent-2026/mppr-50-percent-card.svg"
+    alt="Schematic card noting Medicare fifty percent multiple procedure payment reduction still applies to therapy services in 2026"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> MPPR is a payment mechanics issue, not a scope-of-practice change.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 The reduction is a per-day policy across physical therapy, occupational therapy, and speech-language pathology in the same facility. ASHA’s public 2026 SLP PDF says so, and says SLP codes are often less exposed than timed PT and OT codes because many SLP services are untimed and carry higher values. That is an association observation, not an exemption. If two always-therapy codes land on one day, the file and the PE ranks decide the math.
 
 ASHA’s November 2025 public news item listed MPPR among the policies CMS is maintaining in 2026, alongside targeted manual medical review. Maintenance is the news. There is no 2026 holiday from the 50 percent PE haircut.

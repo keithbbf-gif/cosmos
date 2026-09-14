@@ -41,6 +41,22 @@ This desk is not publishing a noncompliance list. The Commission has a Complianc
 
 ## What the February letter actually said
 
+<figure class="slpwow-figure slpwow-figure--infographic" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../assets/home-state-fbi-background-checks-aslp-ic/fbi-check-home-state-gate.svg"
+    alt="Flow schematic: first compact privilege FBI background check handled by home state board before CompactConnect completes privilege"
+    width="880"
+    height="420"
+    loading="lazy"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> The portal registers clinicians; home boards still own background-check policy.
+    <span class="figure-credit">SLPWOW SLP News — original editorial SVG. Not legal, billing, or clinical advice.</span>
+  </figcaption>
+</figure>
+
+
 Volume 2, Issue 1, dated 4 February 2026, put the background-check amendment in the Rules Committee’s year-in-review. The Commission, the letter said, strengthened its operational framework through several key rules, “beginning with the adoption of a $50.00 administrative fee per Privilege to Practice and an amendment on the requirement for Home States to conduct FBI criminal background checks for initial applicants.” Those updates “also included revised implementation timelines and ‘legal impossibility’ exceptions for background check compliance.”
 
 That is Commission rulemaking, not an ASHA membership perk and not a federal employment form. “Initial applicants” is the population the letter names. It does not, in that paragraph, rewrite every renewal, every subsequent privilege, or every remote-state jurisprudence packet.
