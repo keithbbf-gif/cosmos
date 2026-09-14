@@ -7,6 +7,12 @@ word_count: 1505
 dek: "Stickley-era through tails on a drawer side are honesty theater and a real joint. Quartersawn white oak is the other picture. Do not sneer at the theater. Do not worship the pin."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/arts-and-crafts-shows-the-tails/joinery-diagram.svg
+    alt: "Joint chosen to read as joinery in raking light"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — through dovetails on a quartersawn white oak drawer side, rays in the pins (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 Raking light on quartersawn white oak, and the tails were the picture. Through, proud enough to read from the aisle, pins flashing ray flake like a second inlay. I had the drawer halfway out of a later oak case — not a Stickley I can name, a cousin that had learned the gesture — and I ran a thumb over the pins. They were even. They were meant to be seen. The front was inset, a board, no bead. The joint was the jewelry. That was the point, and the point was a sermon and a lock at the same time.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — through dovetails on a quartersawn white oak drawer side, rays in the pins (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/arts-and-crafts-shows-the-tails/joinery-diagram.svg" alt="Joint chosen to read as joinery in raking light" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Through tails on the show face. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The tails are the picture. The flake is the other picture. Both were meant to be read from the room." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The tails are the picture. The flake is the other picture. Both were meant to be read from the room. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — through dovetails on a quartersawn white oak drawer side, rays in the pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 The 17th-century walnut-on-deal drawer hid through tails under a leaf and then watched them telegraph. This pack already felt that fever. Arts and Crafts turns the old scar into a virtue: show the joint. Ruskin and Morris had already made honesty a moral argument about work. Gustav Stickley’s Craftsman Workshops, Eastwood, New York, made it a factory product in quartersawn white oak, fumed or stained toward a brown that catalogs still love. I will not sneer at the sermon. People meant it. I will not worship the pin. A hidden half-blind can be as honest as a shown tail. Honesty is a practice, not a silhouette.
 
@@ -47,7 +62,11 @@ Machine or hand is a dating clock, not a halo. Craftsman Farms’ notes on a No.
 
 ## Oak that is a picture too
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — inset oak drawer, through tails at the front corner, center guide or worn underside (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A factory can show a joint and still be a factory. The hang is part of the honesty if you look underneath." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A factory can show a joint and still be a factory. The hang is part of the honesty if you look underneath. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — inset oak drawer, through tails at the front corner, center guide or worn underside (filename pending shop pull)</figcaption>
+</figure>
+
 
 Quartersawn white oak is the other half of the theater. Medullary rays, flake, a surface that reads as stone and wood at once. Gustav cared enough about flake, the company histories say, to veneer it onto posts where the saw would not give four pretty faces. Leopold’s later quadralinear post is a different efficiency. I will not make posts the essay. I will say the drawer side, when it is QS, is doing the same job as the tail: showing a truth about how the board was sawn. That is theater. It is also a calmer board across its width than a flatsawn sister. The quartersawn-sides essay in this pack can own the movement sermon. Here the flake is a style choice that happens to behave.
 

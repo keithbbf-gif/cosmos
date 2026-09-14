@@ -7,6 +7,12 @@ word_count: 1474
 dek: "A catalog slide writes the box: width, side thickness, notch, hook. Blum starts as horseshoe studs in 1952; roller runners and TANDEM come later on Blum’s own timeline. Accuride comes out of industrial slides. Wood runners are not obsolete. They are a different product."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/kitchen-slides-changed-the-box/joinery-diagram.svg
+    alt: "Metal slide screwed to the side changing minimum side thickness"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer box beside a slide spec sheet, side thickness and width marks on the wood (filename pending shop pull)"
@@ -36,7 +42,16 @@ verify:
 
 The slide would not go in. The box was honest poplar, square enough to live with, and a sixteenth too fat for the number on the Blum sheet. I had built it the way I build a sitting-room drawer — 3/4 sides, a little meat, a groove for a floor — and then asked an undermount rail to treat that meat as a specification. The rail declined. I stood there with a kitchen box that was a furniture box, and I could hear the difference. One of them is planed to an opening. The other is built to a catalog.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer box beside a slide spec sheet, side thickness and width marks on the wood (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/kitchen-slides-changed-the-box/joinery-diagram.svg" alt="Metal slide screwed to the side changing minimum side thickness" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Side-mount drawer slide. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The sheet is the contract. The box is a part that has to match a number." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The sheet is the contract. The box is a part that has to match a number. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer box beside a slide spec sheet, side thickness and width marks on the wood (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is the new contract. A wood runner will take a shaving. A metal slide wants a width, a side thickness, a notch at the back, a hole for a hook, a locking clip at a dimension someone in Vorarlberg or Santa Fe Springs already chose. You can fight the sheet. The sheet will win in June when the drawer drops or racks or refuses to latch. I fight the sheet only when I am building the other product.
 
@@ -58,7 +73,11 @@ What changed in the shop is the order of operations. I used to cut sides, cut ta
 
 A plywood floor is part of that contract more often than a solid one. The slide does not care. The slide cares that the bottom is out of its way, or that the underside is a landing for an undermount. I still run solid floors in sitting-room work. I do not owe a kitchen box a beveled oak panel because I like history.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — wood runner and kicker in a framed case beside a kitchen box on metal slides (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two products. One rides wood. One rides a rail that came in a box." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Two products. One rides wood. One rides a rail that came in a box. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — wood runner and kicker in a framed case beside a kitchen box on metal slides (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Wood runners are a product
 

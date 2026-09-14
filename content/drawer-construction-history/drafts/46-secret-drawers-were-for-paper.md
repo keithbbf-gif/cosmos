@@ -7,6 +7,12 @@ word_count: 1605
 dek: "An 18th-century writing desk hid paper before it hid a party trick. Wells, false backs, springs, and tills are cousins: a box that does not announce itself. Do not invent a famous desk. Do not sell a gimmick as the first purpose."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/secret-drawers-were-for-paper/joinery-diagram.svg
+    alt: "False bottom or double floor hiding a shallow paper till"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — writing slope open, well or sliding floor board, pigeonholes and small drawers (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The writing surface came down and the floor of the well slid back under my thumb with a dry scrape — a board pretending to be a bottom, a cavity pretending not to exist. No spring sang. No pigeonhole winked. Just a panel that was a little too short for the space it occupied, and a darkness the width of a folded letter. I did not smile as if I had found a toy. I thought about rent, a will, a note you do not leave in the obvious drawer. The box was for paper. The secrecy was a lock that did not need a keyhole.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — writing slope open, well or sliding floor board, pigeonholes and small drawers (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/secret-drawers-were-for-paper/joinery-diagram.svg" alt="False bottom or double floor hiding a shallow paper till" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Secret drawer compartment. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The writing board is a lid. The floor under it may be another lid." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The writing board is a lid. The floor under it may be another lid. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — writing slope open, well or sliding floor board, pigeonholes and small drawers (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not going to hang this on a famous desk. I have not got a named secretary on the stand, and I will not invent one. The type is ordinary enough in 18th-century writing furniture: bureaux, secretaries, writing tables, the fall-front that becomes a slope, the nest of small drawers and pigeonholes, the prospect in the middle that looks like a little door. Behind and under those obvious boxes the trade hid more boxes. A glossary of English furniture puts the habit where it belongs — before iron safes were common, people hid papers and small valuables in the furniture they already owned. [VERIFY] the safe-century as a hedge, not as a stamped year. Chests, cabinets, and writing desks of the 17th and 18th centuries keep turning up with cavities. The 19th century still builds them, then the safe and the bank take the serious paper, and the secret drawer starts its second life as a novelty. That second life is the one catalogs sell. I am interested in the first.
 
@@ -53,7 +68,11 @@ Sheraton, the published record says, was given to contriving secret drawers. I w
 
 A spring that sticks is a spring that tells. Hide glue and a wooden catch will swell in a wet month and refuse to let go, or they will shrink and refuse to catch. I treat a secret catch as hardware. I wax it. I leave it a little loose. I do not tune it like a pistol in January in Wilmar and call it done. The well panel wants a stop so it cannot be shoved into the case forever. The false back wants a finger hole or a pin you can reach without a story. If the owner needs a map, you have built a puzzle. Puzzles are a later market.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — false back or shallow inner drawer, spring catch or wooden slide, empty cavity for paper (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The cavity is a dimension the obvious drawers did not spend. Paper fits a skinny box." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The cavity is a dimension the obvious drawers did not spend. Paper fits a skinny box. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — false back or shallow inner drawer, spring catch or wooden slide, empty cavity for paper (filename pending shop pull)</figcaption>
+</figure>
+
 
 ## Not novelty first
 

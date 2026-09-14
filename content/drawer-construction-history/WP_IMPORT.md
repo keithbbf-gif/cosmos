@@ -16,7 +16,9 @@ Import every essay as a WordPress **draft**. Do not publish, schedule, or ping a
 | `status: draft` | `draft` — do not override |
 | `topic` | Category (`dating-trade`, `the-box`, `case-and-fit`, `tradition-hardware`) |
 | `series: drawer-construction-history` | Tag `drawer-construction-history` |
-| `figures` | **Shop photos** (`D:\BBF`) — media library items, attached after files exist |
+| `figures` | **Shop photos** (`D:\BBF`) — media library items, attached after files exist; stay `needed` until pull |
+| `graphics` | **Figure 1 schematics** — CC0 SVG in `assets/<slug>/`; see `RIGHTS.md` |
+| body `<figure class="dch-figure">` | Staged HTML for import — see `SEO_MAP.md` |
 | `optional_links` | Optional footnote block, not the first paragraph |
 | body after front matter | Post content (Markdown → block editor or a Markdown importer) |
 | `<!-- PHOTO: fig-0N … -->` | Pull instruction — replace with the media item once the file exists |

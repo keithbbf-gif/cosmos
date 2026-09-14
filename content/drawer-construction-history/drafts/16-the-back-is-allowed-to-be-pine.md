@@ -7,6 +7,12 @@ word_count: 1515
 dek: "Drawer backs run thinner than fronts, take through dovetails or a dado, and are often pine or poplar on purpose. The bottom passes under them or in a groove. Movement lives at the back. Humble is the job."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/the-back-is-allowed-to-be-pine/joinery-diagram.svg
+    alt: "Secondary back board thinner than the sides with through tails"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — pine or poplar drawer back, thinner than the sides, through dovetails (filename pending shop pull)"
@@ -31,7 +37,16 @@ verify:
 
 I heard the back before I saw it. A pine board, thinner than the sides, ticking against the case when I set the drawer down on the bench. Through tails, a little proud, never stained. No one had ever asked that rectangle to be mahogany. I put a palm on it. It was cool and a little fuzzy where a century of dust had made a felt. The front was a different species and a different religion. The back was allowed to be a wall.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — pine or poplar drawer back, thinner than the sides, through dovetails (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/the-back-is-allowed-to-be-pine/joinery-diagram.svg" alt="Secondary back board thinner than the sides with through tails" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Thin pine drawer back. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The back is a board you are allowed not to love. Through tails are honest here because nobody sits in the case." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The back is a board you are allowed not to love. Through tails are honest here because nobody sits in the case. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — pine or poplar drawer back, thinner than the sides, through dovetails (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is not a slight. It is a job description. The front takes a pull, a lock, raking light, a hand. The sides take the hang or the runner and the tails. The back closes the box, keeps shirts from falling into the dark, and gives the bottom a place to finish its travel. You can do that with pine. You can do it with poplar. English work often did it with oak when the linings were oak, or with deal when the trade had moved on. The species is local. The humility is structural.
 
@@ -49,7 +64,11 @@ I have made the back as thick as the front because a pile of 5/8 poplar was alre
 
 The bottom has to go somewhere when it grows. If the grain runs side to side, that somewhere is front to back. The front groove can hold a ticket. The back is where you let the board come and go. Two common finishes: the bottom slides *under* the back, and the back sits on it like a lintel; or the bottom enters a groove in the back, and the back is a fourth wall with a slot.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — drawer bottom passing under a thinner back, or entering a groove, gap at the rear (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The floor leaves at the back. The back is the wall that does not have to pretend it is a front." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The floor leaves at the back. The back is the wall that does not have to pretend it is a front. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer bottom passing under a thinner back, or entering a groove, gap at the rear (filename pending shop pull)</figcaption>
+</figure>
+
 
 Under is honest. You can see the floor’s extra at the rear. You can nail or screw in a slot so the board stays a floor and still moves. In a groove is tidier. It is also a place to trap the board if you glue the ticket. I have glued a bottom into a back groove because squeeze-out looked like a seal. The seal was a lock. The split started at the back and walked forward. Leave the back groove as a slipway, not a glue joint.
 

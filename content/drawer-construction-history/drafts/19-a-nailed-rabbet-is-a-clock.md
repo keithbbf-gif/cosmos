@@ -7,6 +7,12 @@ word_count: 1490
 dek: "Nailed rabbets turn up in early crude boxes, later country work, and later cheap factory drawers. The joint is not automatically bad. It is a clock that never fully stopped, so you read it with other hands — nail type, species, the rest of the case."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/a-nailed-rabbet-is-a-clock/joinery-diagram.svg
+    alt: "Rebate and nails without dovetails — a datable country joint"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer corner, rabbet and nails, no dovetail (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The nails were rose-headed and they had black rings. I ran a magnet along the rabbet and it clicked four times — front to side, no tail, no pin, a shelf of wood and a row of iron that had held shirts for a long time. The front was pine, painted, a country chest someone in Warren had called “old” as if old were a grade. I looked at the heads again. Handmade is a word people like. These heads were a clock. They were not a halo.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer corner, rabbet and nails, no dovetail (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-nailed-rabbet-is-a-clock/joinery-diagram.svg" alt="Rebate and nails without dovetails — a datable country joint" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Nailed rabbet drawer corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A shelf of wood and iron. The front hides it or it does not. Either way the nails are a hand you can still count." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> A shelf of wood and iron. The front hides it or it does not. Either way the nails are a hand you can still count. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer corner, rabbet and nails, no dovetail (filename pending shop pull)</figcaption>
+</figure>
+
 
 A nailed rabbet is a joint you can cut with a rebate plane and a hammer. You sink the side into a shelf in the front, or the front into the side, you glue if you have glue, you nail. Hayward’s early drawers in oak often live here: rebate, glue, nails, a groove if they hung the box, a nailed bottom if they did not. That is one end of the clock. The other end is a factory drawer from a century later with the same idea and a different nail. In between sits country work that never hired a dovetail and did not need to apologize to a bedchamber that wanted paint.
 
@@ -47,7 +62,11 @@ Later country is a different mood. The town shop may be cutting half-blinds on a
 
 Later cheap factory is the third hand on the clock. Once you can cut a rabbet with a machine and drive a wire nail with a gun, the joint becomes a cost. You will see it on painted pine, on kitchen boxes before plywood became a contract, on the backs of drawers that have pretty fronts. The method did not die when the dovetail arrived. The dovetail arrived and the rabbet kept a job.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — mixed nail types in a rabbet, or a country pine drawer beside a dovetailed neighbor (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Wrought, cut, and wire can sit in one family of joints. The joint did not die. The nail changed." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Wrought, cut, and wire can sit in one family of joints. The joint did not die. The nail changed. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — mixed nail types in a rabbet, or a country pine drawer beside a dovetailed neighbor (filename pending shop pull)</figcaption>
+</figure>
+
 
 If you date by the joint alone, you will call a 1908 factory chest a mule and you will call a 1760 country chest a fake because it has no tails. I have watched both mistakes. The clock is the *cluster*: nail type, species, paint history, how the bottom is held, whether the case is joined or nailed, whether the hang is a groove or a runner or a metal slide someone added in 1970. A nailed rabbet is one hand. It is not the watch.
 

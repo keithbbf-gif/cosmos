@@ -7,6 +7,12 @@ word_count: 1517
 dek: "A half-mortise lock lives in the front the way a pin wall does: you cut a home for it. Escutcheons keep the keyhole from becoming a wound. One lock can shoot bolts into other drawers or a door. The lock is joinery’s neighbor."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/one-key-and-the-wardrobe-bolt/joinery-diagram.svg
+    alt: "Lock pocket and bolt shooting into a rail or stacked drawer"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — half-mortise drawer lock, selvage flush at the top edge, bolt, inside of a drawer front (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The key turned a quarter and I heard the bolt hit the rail — a small iron sound, dry, the kind a half-mortise lock makes when the mortise is tight and the strike is just a notch in oak. No magnet. No plastic catch. A selvedge flush with the top edge of the drawer, a brass face on the inside, a bolt going up, and a hole in the rail that had been chopped to receive it the year the pins were chopped. I pulled the drawer a hair. It declined. The front was doing two jobs: it was a pin wall, and it was a lock wall.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — half-mortise drawer lock, selvage flush at the top edge, bolt, inside of a drawer front (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/one-key-and-the-wardrobe-bolt/joinery-diagram.svg" alt="Lock pocket and bolt shooting into a rail or stacked drawer" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Half-mortise lock in a front. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The lock is a shallow mortise and a bolt that wants a notch in the rail. The keyhole is the only show." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The lock is a shallow mortise and a bolt that wants a notch in the rail. The keyhole is the only show. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — half-mortise drawer lock, selvage flush at the top edge, bolt, inside of a drawer front (filename pending shop pull)</figcaption>
+</figure>
+
 
 I buy the lock before I saw the front. That is the whole essay if you want it short. The rest is why.
 
@@ -63,7 +78,11 @@ Shooting bolts: one lock throws rods or sliders that engage the other drawers, o
 
 Look at the iron before you write the sentence. If there are pockets in every front, you are in keyed-alike country, or in “every drawer had a lock” country. If there is one pocket and a rod in a groove down the case, you are in shooting-bolt country. If there is one pocket and nothing else, you are in “they locked the top drawer and hoped.” Hope is a period option.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — linen press or wardrobe, escutcheons on door and drawers, bolt or rod neighborhood (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One key can mean keyed alike. One lock can mean a rod. Those are different religions. Look at the iron." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> One key can mean keyed alike. One lock can mean a rod. Those are different religions. Look at the iron. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — linen press or wardrobe, escutcheons on door and drawers, bolt or rod neighborhood (filename pending shop pull)</figcaption>
+</figure>
+
 
 A wardrobe door lock is often handed. The bolt shoots left or right. The latch, if there is a latch, is a separate motion. Cupboard locks and drawer locks can share a body with two keyways so the same iron can sit horizontal or vertical. Read the body. Do not assume. I have mortised a right-hand lock into a left-hand door and then mortised a second pocket to hide the shame. Buy the lock. Hold it on the door. Turn the dummy key. Then chop.
 

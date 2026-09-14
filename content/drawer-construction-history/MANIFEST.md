@@ -62,6 +62,10 @@ Body-copy word counts (front matter excluded; `<!-- PHOTO -->` comments stripped
 - `BIBLIOGRAPHY.md`
 - `PHOTO_CAPTIONS.md`
 - `PHOTO_MANIFEST.md`
+- `GRAPHICS_INDEX.md`
+- `SEO_MAP.md`
+- `RIGHTS.md`
+- `STAGING_README.md`
 - `WP_IMPORT.md`
 - `MANIFEST.md`
 - `WRITER_ASSIGNMENTS.md` (internal thesis list — not an essay)

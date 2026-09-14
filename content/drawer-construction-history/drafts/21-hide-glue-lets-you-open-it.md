@@ -7,6 +7,12 @@ word_count: 1448
 dek: "Hide glue is the drawer shop’s reversible contract. Heat and moisture will open a slip, a block, a starved tail. PVA under a loaded bottom can creep. Do not turn a pot into a number. The religion is whether you can get back in."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/hide-glue-lets-you-open-it/joinery-diagram.svg
+    alt: "Brown glue film on a joint meant to steam apart"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — old hide glue on a drawer joint or slip, brown film, or a joint opening under a wet rag (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 Steam from a wet rag and the old hide glue let go with a smell like a hide. The slip came up. The bottom stayed a board. I had not boiled anything. I had not looked at a thermometer. I had asked a joint that was made to be asked, and it answered. The film on the side was brown, brittle at the edges, still a little tacky where the steam had reached. I could have put the slip back the same afternoon. That is the whole religion.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — old hide glue on a drawer joint or slip, brown film, or a joint opening under a wet rag (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/hide-glue-lets-you-open-it/joinery-diagram.svg" alt="Brown glue film on a joint meant to steam apart" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Hide glue on a serviceable joint. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The film is brown and it will let go when you ask. That is the repair." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The film is brown and it will let go when you ask. That is the repair. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — old hide glue on a drawer joint or slip, brown film, or a joint opening under a wet rag (filename pending shop pull)</figcaption>
+</figure>
+
 
 Drawer work is repair work waiting to happen. Bottoms split. Slips wear. Blocks knock off. A tail starves. The person who opens the box in twenty years may be me, or it may be someone in a different shop who does not owe my pride anything. Hide glue is the contract that says they can get in. Ordinary cabinet literature — Hayward, Krenov, the old pot notes — treats animal glue as the furniture film. I will not invent a house pot temperature. [VERIFY] any number I am tempted to treat as law: bloom, open time, a degree on a pot, a minute on a clock. The shop fact I will stand on is the one I can smell: the joint opened.
 
@@ -49,7 +64,11 @@ Liquid hide in a bottle is a cousin, not a twin. It is still more openable than 
 
 ## Creep is a loaded-bottom problem
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — sagged drawer bottom or a PVA bead that will not steam (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="A loaded floor on a glue that creeps becomes a shallow dish. The shirts find the dish before you do." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> A loaded floor on a glue that creeps becomes a shallow dish. The shirts find the dish before you do. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — sagged drawer bottom or a PVA bead that will not steam (filename pending shop pull)</figcaption>
+</figure>
+
 
 PVA can creep under a constant load. That sentence is ordinary in cabinet literature. I will not invent a sag in sixteenths or a month when my shop “proved” it. [VERIFY] any measurement before it becomes a caption. What I have seen: a solid bottom, or a plywood floor, sitting in a rebate on a bead of yellow glue, shirts in the drawer for a long time, the floor slowly becoming a shallow dish. The glue did not let go. The glue moved. The runner still kissed the side. The shirts found the dish.
 

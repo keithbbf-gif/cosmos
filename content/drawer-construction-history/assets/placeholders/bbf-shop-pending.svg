@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">Shop photograph pending</title>
+  <desc id="desc">Placeholder until a real frame is pulled from D:\BBF\BBF Photos</desc>
+  <rect width="100%" height="100%" fill="#E8E4DC"/>
+  <rect x="48" y="48" width="544" height="264" fill="#D8D2C8" stroke="#6B6560" stroke-width="2" stroke-dasharray="12 8"/>
+  <text x="320" y="168" text-anchor="middle" fill="#3A3530" font-family="Georgia, serif" font-size="22">Shop photo pending</text>
+  <text x="320" y="200" text-anchor="middle" fill="#5A554F" font-family="Helvetica, Arial, sans-serif" font-size="14">Pull from D:\BBF\BBF Photos  see PHOTO_MANIFEST.md</text>
+</svg>

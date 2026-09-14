@@ -7,6 +7,12 @@ word_count: 1643
 dek: "A tansu drawer is often a pegged rebate at the front, a pegged finger at the back, and a bottom glued and pinned to the box. Kiri linings, bamboo or wood pegs, splits in the floor. It is not a failed European dovetail."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/tansu-pegs-not-tails/joinery-diagram.svg
+    alt: "Wooden pegs and housings instead of dovetails at the corner"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — tansu drawer corner, pegged rebate or pegged finger, bamboo or wood pegs proud or planed (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The peg came out like a toothpick and I rolled it between my fingers. Bamboo, still round in the middle, mashed a little at the business end where someone had driven it through a rebate and let the glue take what it could. The drawer was light. The front was a pale board I took for kiri — paulownia — and the corner had no tail. A visitor in the shop had already called it a cheap joint. He was standing in the wrong church.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — tansu drawer corner, pegged rebate or pegged finger, bamboo or wood pegs proud or planed (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/tansu-pegs-not-tails/joinery-diagram.svg" alt="Wooden pegs and housings instead of dovetails at the corner" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tansu pegged drawer corner. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The peg is the fastener. The rebate is the seat. There is no tail to look for." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The peg is the fastener. The rebate is the seat. There is no tail to look for. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — tansu drawer corner, pegged rebate or pegged finger, bamboo or wood pegs proud or planed (filename pending shop pull)</figcaption>
+</figure>
+
 
 I am not going to pretend a ko-dansu lives on the Wilmar bench every week. I am going to pretend I have to *see* the box I am holding, because Fine Woodworking’s 2024 tansu drawer (Len Cullum, part 2, issue 309) is the published starting point for a shop that wants to stop translating every foreign corner into a dovetail it failed to cut. Cullum’s drawers are pinned at the corners. The bottom is pinned directly to the box, not slipped into a groove. In use the whole floor sits on a dust shelf. That last fact is the one Western benches keep missing. We hang a bottom from a plough and ask the groove to be a joist. A tansu often asks the case to be the joist and the pins to keep the floor from walking off.
 
@@ -53,7 +68,11 @@ Kiri — paulownia — is the pale, light wood the catalogs put on the tag. It d
 
 Bamboo pegs are not cute. They are a fastener that does not rust in the joint and can be cut from a culm or, in a hurry, from a skewer. Wood pegs do the same work. Cullum’s published shop pins are toothpick-small. A repair peg in an old drawer can be fatter. Do not date a chest by the diameter of a peg you have not measured against a documented shop. [VERIFY] any diameter you are tempted to treat as law.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — kiri or pale lining, drawer bottom pinned to the box, split or dust shelf under the floor (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The floor is fastened to the frame. The dust shelf takes the shirts. The split is the receipt." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The floor is fastened to the frame. The dust shelf takes the shirts. The split is the receipt. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — kiri or pale lining, drawer bottom pinned to the box, split or dust shelf under the floor (filename pending shop pull)</figcaption>
+</figure>
+
 
 South Arkansas humidity is not Kyoto and it is not the Pacific Northwest shop Cullum was writing from. Wood is still wood. A floor pinned across its grain will want to split when the year turns. If I build a tansu-language drawer for a house off the Saline, I say that out loud. I either break the floor into pieces that can move, or I groove it and admit I have left the religion, or I pin it and tell the owner the floor is a wearing part. What I do not do is cut half-blinds in the front and call the box corrected.
 

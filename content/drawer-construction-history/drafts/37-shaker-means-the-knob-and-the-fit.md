@@ -7,6 +7,12 @@ word_count: 1490
 dek: "Shaker drawers are a habit: half-blind boxes, a wooden knob, usually no cockbead, pine or cherry or maple, and a fit you can live with every day. Museum catalogs are the witness. A font is not."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/shaker-means-the-knob-and-the-fit/joinery-diagram.svg
+    alt: "Plain cherry or maple front with a turned wooden knob and tight fit"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — cherry or maple drawer front, turned wooden knob, square arris, no cockbead (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 The knob was cherry, worn oval on the crown where a thumb had lived, still tight on a tenon I could feel from inside the drawer. No brass. No cockbead. A square arris and a front that was one board. I drew the box out of a pine case I was repairing — not a museum object, a later copy that had at least learned the knob — and the half-blinds showed only when the side cleared the rail. The fit was the other hardware. No rattle. No yank. A wooden mushroom and a hole that had been taught.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — cherry or maple drawer front, turned wooden knob, square arris, no cockbead (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/shaker-means-the-knob-and-the-fit/joinery-diagram.svg" alt="Plain cherry or maple front with a turned wooden knob and tight fit" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Shaker drawer front and knob. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The knob is the hardware. The front is a board. The joint stays in the thickness." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The knob is the hardware. The front is a board. The joint stays in the thickness. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — cherry or maple drawer front, turned wooden knob, square arris, no cockbead (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is what I will buy when someone in Warren says *Shaker* and means a drawer. Not a font. Not a slogan about simplicity. The knob and the fit. The rest is community habit, and the habits were not identical from Hancock to Pleasant Hill to Sabbathday Lake. I will not invent an Elder’s sentence to glue them together. Museum catalogs are the witness I am allowed. They caption what a photograph shows. I will do the same.
 
@@ -51,7 +66,11 @@ Sabbathday Lake I will not fake a drawer from. It is a living community and a ca
 
 ## Half-blind, wood, no theater
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — half-blind pins on a Shaker-habit drawer, poplar or pine lining, worn fit (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The room sees a knob and a gap you could live with. The case sees tails that were never a slogan." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The room sees a knob and a gap you could live with. The case sees tails that were never a slogan. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — half-blind pins on a Shaker-habit drawer, poplar or pine lining, worn fit (filename pending shop pull)</figcaption>
+</figure>
+
 
 The front hides the joint. That religion is older than the United Society, and this pack already gave it a door. Shaker drawers use it because the front is a useful rectangle, not a place to display a tail. Through tails belong at the back, or a housing if the shop was in a hurry — I have not flattened that choice across villages, and I will not. What I cut when I am asked for the habit: half-blind at the front, through tails at the back, pine or poplar linings, a show wood that can be cherry, maple, or painted pine.
 

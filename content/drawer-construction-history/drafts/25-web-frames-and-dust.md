@@ -7,6 +7,12 @@ word_count: 1653
 dek: "Dustboards and web frames do two jobs: they keep the lower drawer from wearing the upper drawer’s grit, and they keep the case from becoming a racking box. English high style often used full panels. Hayward’s runners are stub-tenoned and slot-screwed so a solid end can still move."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/web-frames-and-dust/joinery-diagram.svg
+    alt: "Grooved rails carrying a dust panel between drawer tiers"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — chest interior, web frame with dust panel in grooves (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The dustboard was a pine panel the color of old paper. I had the chest on its back and a flashlight in the well, and when I tipped the upper drawer the grit that lived in its corners — wool, soot, a pin, a decade of Arkansas dust — stopped on that panel instead of raining onto the shirts. The panel had never been pretty. It had been a floor. It had also been a wall. The web around it was still square. The case had not become a parallelogram in a house that breathes.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — chest interior, web frame with dust panel in grooves (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/web-frames-and-dust/joinery-diagram.svg" alt="Grooved rails carrying a dust panel between drawer tiers" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Web frame and dust panel. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The panel is a floor for grit and a diaphragm for the case. Both jobs are real." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The panel is a floor for grit and a diaphragm for the case. Both jobs are real. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — chest interior, web frame with dust panel in grooves (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is the double job, and shops keep trying to make it one job so they can skip the other. Hygiene is the word people remember because they can see the grit. Structure is the word the case remembers when you rack it by opening a loaded drawer on one side. A web frame — rails front and back, runners as stiles, sometimes a center muntin — turns a stack of holes into a box that can take a shove. A dustboard in that frame is a panel in a door. Panels stiffen. They also catch what falls.
 
@@ -48,7 +63,11 @@ In this shop I panel a sitting-room stack. I do not always panel a shop cabinet 
 
 ## Stub-tenon, housing, slot-screw
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — runner stub-tenoned into a grooved rail, slot-screw at the back of a solid end (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Glue the tenon. House the runner. Slot the screw. The end is allowed to shrink." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Glue the tenon. House the runner. Slot the screw. The end is allowed to shrink. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — runner stub-tenoned into a grooved rail, slot-screw at the back of a solid end (filename pending shop pull)</figcaption>
+</figure>
+
 
 A runner in a solid-end carcase is cross-grain to the end. That is the whole problem. The end wants to grow and shrink in width — which is the depth of the case, front to back. The runner wants to stay a stick of a fixed length. If you glue the stick to the end, the end will split or the runner will bow. Hayward’s religion, the one Schwarz later put back on the bench from *The Woodworker*, is specific enough to use.
 

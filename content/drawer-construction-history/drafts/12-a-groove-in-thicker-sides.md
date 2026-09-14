@@ -7,6 +7,12 @@ word_count: 1552
 dek: "American drawers more often plough the bottom groove in a thicker side. Greene’s 3/8 to 1/2 inch is the published meat. The slip stayed English because the lining stayed thin."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/a-groove-in-thicker-sides/joinery-diagram.svg
+    alt: "Bottom groove ploughed in a 3/8 or 1/2 side without a slip"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — American drawer side, groove ploughed in the thickness, bottom entering (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The plough whispered in a half-inch poplar side and left a groove I could hide a pencil in. No stick glued on. No quadrant. Just a wall with a tunnel near the bottom edge, meat above and a little meat below, the kind of side I have stacked in this shop until the pile looked like a small town of pale boards. That is the American fork. The lining is thick enough to take the groove and still be a lining. The slip, which the last essay already spent, stays on the other ocean.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — American drawer side, groove ploughed in the thickness, bottom entering (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/a-groove-in-thicker-sides/joinery-diagram.svg" alt="Bottom groove ploughed in a 3/8 or 1/2 side without a slip" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Groove in American side thickness. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The groove lives in the side. No stick. The wall is thick enough to be a wall and a road." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The groove lives in the side. No stick. The wall is thick enough to be a wall and a road. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — American drawer side, groove ploughed in the thickness, bottom entering (filename pending shop pull)</figcaption>
+</figure>
+
 
 Jeffrey Greene, in *American Furniture of the 18th Century*, puts ordinary drawer sides and backs around 3/8 to 1/2 inch and illustrates the groove-in-side as the method. [VERIFY] the passage before anyone treats those fractions as a BBF spec. I use them as a window I can hold. A 3/8 side will take a modest groove if you leave a fillet under it. A 1/2 side is comfortable. Below 3/8 I start thinking like an Englishman, or I stop and admit I bought the wrong boards.
 
@@ -54,7 +69,11 @@ Depth is enough to hold the bottom without turning the side into two boards. A g
 
 Stopped or through: a through groove shows on the back end and sometimes on the front if you are careless. I often stop the groove behind the front and let the bottom into a shallow rebate or a short groove in the front’s thickness. The back I leave open so the floor can slide out. That is the late-18th floor habit arriving in an American wall. The next essay can have the grain. Here I only keep the tunnel from cutting the front’s face.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — 3/8 and 1/2 poplar sides on edge, groove test-cuts (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Greene’s window is a pair of thicknesses you can hold. Below it the plough becomes a dare." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Greene’s window is a pair of thicknesses you can hold. Below it the plough becomes a dare. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — 3/8 and 1/2 poplar sides on edge, groove test-cuts (filename pending shop pull)</figcaption>
+</figure>
+
 
 Width of groove matches the bottom’s thickness at the edge. Solid bottoms get a bevel or a rabbeted edge so a fat board can enter a skinny tunnel. Plywood bottoms — a later contract — can be a flat 1/4 in a 1/4 groove if you accept the different movement deal. I will not sell plywood as 18th-century American. I will plough for it in a kitchen.
 

@@ -7,6 +7,12 @@ word_count: 1361
 dek: "Second-half 17th-century walnut often meant a deal front, a coarse through dovetail, and veneer asked to hide the end grain. The joint comes back as a telegraph. Hayward already drew the scar."
 series: drawer-construction-history
 topic: dating-trade
+graphics:
+  - id: fig-sch-01
+    path: assets/through-tails-under-the-veneer/joinery-diagram.svg
+    alt: "Through dovetail end grain telegraphing through a thin show-wood leaf"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — veneered drawer front, through dovetail flashing at the end, or a repair with veneer lifted (filename pending shop pull)"
@@ -31,7 +37,16 @@ verify:
 
 The veneer had a fever. Not loose — not yet — but you could see the joint. Raking light on a walnut drawer front, and there they were: the ends of through dovetails, a little proud, a little pale, the ground moving and the leaf not moving with it. Someone had built a proper tail for a box and then asked a knife-thin skin to pretend the end grain was not there. The skin is loyal for a while. Then the front shrinks and the tails stand up like a lie you can feel with a fingernail.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — veneered drawer front, through dovetail flashing at the end, or a repair with veneer lifted (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/through-tails-under-the-veneer/joinery-diagram.svg" alt="Through dovetail end grain telegraphing through a thin show-wood leaf" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Through tails under veneer. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The veneer is a skin. The through tail is a bone. Bones show when the skin moves." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The veneer is a skin. The through tail is a bone. Bones show when the skin moves. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — veneered drawer front, through dovetail flashing at the end, or a repair with veneer lifted (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hayward’s second-half 17th-century drawer is the one I keep in my head. Walnut has started to replace oak as the show wood, mostly as veneer. The linings — sides, back, bottom — stay oak. The front’s ground is often *deal*, the English word for a pine or fir board, because oak is a rude ground. Medullary rays harder than the rest of the board, grain that telegraphs, shrinkage that is not polite. Deal is quieter. You can lay walnut on it and have a chance.
 
@@ -47,7 +62,11 @@ Secret-mitered dovetails are another religion. They hide everything and they cos
 
 ## Oak linings, deal ground
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — oak lining, deal or pine ground, walnut veneer on a drawer front (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Oak linings stay. The show wood becomes a leaf. The ground wants to be quieter than oak." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Oak linings stay. The show wood becomes a leaf. The ground wants to be quieter than oak. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — oak lining, deal or pine ground, walnut veneer on a drawer front (filename pending shop pull)</figcaption>
+</figure>
+
 
 Secondary wood is not a slight. It is a job. Oak sides in English work of that period are hard, they take a groove or a rebate, they wear. The front is allowed to be a different species because the front is a picture. When the picture is a leaf, the ground should be the species that lets the leaf stay a picture.
 

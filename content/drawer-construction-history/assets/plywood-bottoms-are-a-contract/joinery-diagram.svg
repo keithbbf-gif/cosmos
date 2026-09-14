@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-labelledby="title desc">
+  <title id="title">Plywood versus solid bottom</title>
+  <desc id="desc">Captured ply floor beside a split solid pine board of the same width</desc>
+  <rect width="100%" height="100%" fill="#F7F3E8"/>
+  <text x="32" y="44" fill="#1A1A1A" font-family="Georgia, serif" font-size="20" font-weight="600">Plywood versus solid bottom</text>
+  <rect x="24" y="64" width="592" height="332" fill="none" stroke="#D4C9B0" stroke-width="1"/>
+
+  <rect x="220" y="270" width="100" height="20" fill="none" stroke="#6B6560" stroke-width="2"/>
+  <line x1="230" y1="275" x2="310" y2="275" stroke="#6B6560" stroke-width="1"/>
+  <line x1="230" y1="285" x2="310" y2="285" stroke="#6B6560" stroke-width="1"/>
+  <path d="M 340 270 L 360 290 L 380 270 L 400 290" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <text x="220" y="260" fill="#4A4A4A" font-family="sans-serif" font-size="10">ply vs split solid</text>
+</svg>

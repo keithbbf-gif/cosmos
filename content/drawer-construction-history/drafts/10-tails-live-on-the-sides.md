@@ -7,6 +7,12 @@ word_count: 1487
 dek: "Tails belong on the drawer sides and pins on the front so a pull cannot strip the face off the box. Orientation is the joint. Reverse it and the handle writes a failure."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/tails-live-on-the-sides/joinery-diagram.svg
+    alt: "Drawer corner with tails cut in the side and pins in the front"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer corner from the side, tails in the side board, pins in the front (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The brass pull rang when I tugged it — a small bell of metal on a screw — and the front came with my hand a hair before the box did. Not off. A tick. Glue in a starved socket, a heavy drawer, a person who lifted with one finger through a bail. I set the drawer on the bench and looked at the corner. Tails on the sides. Pins on the front. The orientation was right. The glue was tired. If the orientation had been wrong, the front would have been in my hand and the box would have stayed in the case like a tray that had lost its lid.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer corner from the side, tails in the side board, pins in the front (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/tails-live-on-the-sides/joinery-diagram.svg" alt="Drawer corner with tails cut in the side and pins in the front" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Tails in the side board. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The side is a row of fans. The front is the sockets. The pull lives on the sockets’ board." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The side is a row of fans. The front is the sockets. The pull lives on the sockets’ board. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer corner from the side, tails in the side board, pins in the front (filename pending shop pull)</figcaption>
+</figure>
+
 
 That is the whole religion, and it is mechanical. A dovetail resists being pulled apart along the axis of the tail board. The tail is a wedge that cannot slide out of the pin board without breaking or shearing. Put the tails on the sides, and the side cannot be pulled off the front toward the room. The pull lives on the front. You pull the front. The front is the pin board. The pins are sockets in the thing you are pulling. The tails, locked in those sockets, bring the sides with you. The box follows the handle.
 
@@ -60,7 +75,11 @@ I do not print a pound-count for a bail. [VERIFY] any load number before it beco
 
 From the side, you should see fans. From the front — if it is through, which it should not be on a show face — you would see pins. From the inside corner you see the tail ends in the sockets. If you see fans on the front’s end grain, someone handed it backwards, or you are looking at a carcase joint that is a different sentence (tails on the case side, pins on the top, so the top cannot lift off). Carcases and drawers share the logic: the tail board is the one you do not want to slide out.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — a pulled-apart sample, reversed joint beside a correct one (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Reverse the orientation and the tail is a handle on the front. The front comes away as a lid." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Reverse the orientation and the tail is a handle on the front. The front comes away as a lid. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — a pulled-apart sample, reversed joint beside a correct one (filename pending shop pull)</figcaption>
+</figure>
+
 
 I keep a reversed sample on the wall. Pine, small, labeled in pencil, not a fake antique. Students pull both boxes by a screw-eye. The correct one complains at the glue. The reversed one opens at the front like a book. One demonstration saves a year of captions.
 

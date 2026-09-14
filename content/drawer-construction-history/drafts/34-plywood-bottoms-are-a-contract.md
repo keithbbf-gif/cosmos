@@ -7,6 +7,12 @@ word_count: 1619
 dek: "A plywood floor moves like a panel, not like a board. You may glue it. You must say so. A solid bottom is not morally better. Kitchens and sitting rooms sign different weather."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/plywood-bottoms-are-a-contract/joinery-diagram.svg
+    alt: "Captured ply floor beside a split solid pine board of the same width"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — Baltic birch drawer bottom beside a split solid pine floor of the same width (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The birch flexed and came back. A half-sheet of Baltic, five-point-something millimeters or a full half-inch — I will not invent the stamp on that pallet — and it did not creak the way a pine floor creaks when you bow it. I set it on the bench next to a split solid bottom I had pulled from a wide drawer the day before. Same span, more or less. The pine had opened along the grain like a decision. The birch sat there being a sheet. I tapped both. The pine drummed. The birch clicked. That is not a virtue contest. It is two contracts.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — Baltic birch drawer bottom beside a split solid pine floor of the same width (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/plywood-bottoms-are-a-contract/joinery-diagram.svg" alt="Captured ply floor beside a split solid pine board of the same width" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Plywood versus solid bottom. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="One floor split on a season. The other stayed a sheet. The contracts were not the same." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> One floor split on a season. The other stayed a sheet. The contracts were not the same. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — Baltic birch drawer bottom beside a split solid pine floor of the same width (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hoadley is the physics I will stand on without reprinting a table I did not copy this morning. A solid board moves across the grain. If you run that grain side to side — the late-18th settlement Hayward names, and a different essay — the growth lives front to back. The front groove can hold. The back must let go. Glue the board all around and you have bought the split. Plywood is crossbanded. The layers argue with each other. The argument is the stability. You may glue a ply floor on four edges and the season will not open a rib the way it opens pine. That is the contract. Say it. Do not pretend you have discovered a morally better wood. You have signed a different weather.
 
@@ -48,7 +63,11 @@ The underside is the other half of the contract. In a sitting room people pull a
 
 A kitchen drawer is a box that lives with steam, spills, and undermount hardware that wants a square, stable carcass. Ply sides and a ply floor, locking rabbets or dados, glue all around — that is a 20th-century language this pack will keep naming as production. It is honest in a kitchen. The pots do not read Hayward. The floor can be captured on four sides because the floor does not owe the season a walk.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — sitting-room drawer, solid bottom in a groove, free at the back; kitchen box with ply glued in (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The room is part of the contract. Undersides get seen in one house and ignored in the other." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The room is part of the contract. Undersides get seen in one house and ignored in the other. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — sitting-room drawer, solid bottom in a groove, free at the back; kitchen box with ply glued in (filename pending shop pull)</figcaption>
+</figure>
+
 
 A sitting-room drawer in a Warren parlor is a lining that lives with wool, paper, and raking light. The older contract still fits: solid floor, grain side to side, free at the back, sides that can be thin if you slip them or thick enough to take a groove. I build that when the piece is a piece. I do not build it because solid wood is cleaner for the soul. I have seen ugly solid floors and beautiful ply boxes. Morality is a poor thickness gauge.
 

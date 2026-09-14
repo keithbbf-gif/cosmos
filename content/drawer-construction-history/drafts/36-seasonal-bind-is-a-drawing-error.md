@@ -7,6 +7,12 @@ word_count: 1590
 dek: "A drawer that swells into its hole was specified that way. Clearance, grain, and a glued floor are drawing decisions. Weather is the auditor. It is not the author."
 series: drawer-construction-history
 topic: case-and-fit
+graphics:
+  - id: fig-sch-01
+    path: assets/seasonal-bind-is-a-drawing-error/joinery-diagram.svg
+    alt: "Gap left at the rails so the box can swell without binding"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — traveler or full-size rod with drawer height written equal to the opening (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 Two numbers on the traveler, same pencil, same height. Opening 5 1/4. Drawer 5 1/4. I had written them as if the box were steel and the hole were steel and the season were a rumor. The case was already glued. The drawer was still a stack of sides. I sat with the yellow pad in the 65-foot shop and heard, in my head, the sound that pair of numbers would make in a wet month: a wooden groan, then a stop, then a yank. The error was not waiting in the weather. It was already on the paper.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — traveler or full-size rod with drawer height written equal to the opening (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/seasonal-bind-is-a-drawing-error/joinery-diagram.svg" alt="Gap left at the rails so the box can swell without binding" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Drawer clearance at the opening. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The same number twice is the error. The season only reads it aloud." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The same number twice is the error. The season only reads it aloud. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — traveler or full-size rod with drawer height written equal to the opening (filename pending shop pull)</figcaption>
+</figure>
+
 
 The craft pack already spent a Saturday on how a shop feels a running fit. I will not retell that Saturday. This pack owns the history of the sliding box, and the history is blunt: bind is a design error. Clearance is a dimension. Grain is a dimension. A glued floor is a dimension you did not mean to add. If those things are not in the drawing, they are not in the box. A humid week in South Arkansas is an audit. Audits do not invent the books.
 
@@ -48,7 +63,11 @@ Width is the other line. A wide drawer whose bottom grain runs front to back gro
 
 ## A glued floor rewrites the width
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — wide drawer, solid bottom glued all around, sides shoved tight to the rails (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The floor became a panel. The panel wrote a new width on the case." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> The floor became a panel. The panel wrote a new width on the case. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — wide drawer, solid bottom glued all around, sides shoved tight to the rails (filename pending shop pull)</figcaption>
+</figure>
+
 
 Here is a scar that is not a fitting ritual. A solid bottom glued to all four walls becomes a panel. The panel’s width is now the box’s width, and the panel moves. The sides, which should have been two cheeks free to stay the width you shot, are taken along for the ride. They kiss the rails. They polish themselves into a bind. I have opened a walnut drawer that was a piston in a wet spell and found the squeeze-out still shiny in the grooves. The traveler had said *glue up*. The traveler had not said *where not to*. That is a drawing error with a brush.
 

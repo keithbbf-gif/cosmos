@@ -7,6 +7,12 @@ word_count: 1576
 dek: "Half-blind dovetails are the drawer-front religion: the show face stays a skin. Through tails belong at the back. The joint is allowed to be loud where no one sits."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/why-the-front-hides-the-joint/joinery-diagram.svg
+    alt: "Lapped sockets that do not break the show face of the front"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — half-blind sockets in a drawer front, chalk in the waste, show face clean (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 Chalk dust in a half-blind socket is a white comma you can smear with a thumb. I blow it off and the waste is still a little pale, the gauge line a hair I mean to leave, and the show face of the front is clean as a plate. No end grain. No tail. No story for raking light to read. That is the religion. The front is a skin. The joint lives in the thickness, like a pulse you do not owe the room.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — half-blind sockets in a drawer front, chalk in the waste, show face clean (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/why-the-front-hides-the-joint/joinery-diagram.svg" alt="Lapped sockets that do not break the show face of the front" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Half-blind drawer front. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Chalk in a socket is a white comma. The face of the front does not know it is there." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> Chalk in a socket is a white comma. The face of the front does not know it is there. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — half-blind sockets in a drawer front, chalk in the waste, show face clean (filename pending shop pull)</figcaption>
+</figure>
+
 
 Through tails at the back. Half-blind at the front. I have cut that pair so often I have to remember it is a settlement, not a law of physics. The 18th century is when the published shop history treats the lapped front as ordinary. Hayward’s earlier walnut-on-deal drawer — the telegraph you can feel through a leaf — is the parent that taught the lesson. One nod is enough. This essay is not that scar. This essay is the habit that replaced it: keep the face a face.
 
@@ -50,7 +65,11 @@ Locks want the same courtesy. A half-mortise lock in a front that is already a l
 
 ## Why the back is allowed to shout
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — drawer box, half-blind at the front, through tails at the back (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Two religions, one box. Hide where the room looks. Show where the case swallows the back." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Two religions, one box. Hide where the room looks. Show where the case swallows the back. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer box, half-blind at the front, through tails at the back (filename pending shop pull)</figcaption>
+</figure>
+
 
 The back of a drawer lives in a hole. You see it when you drop a sock. You do not sit across the room from it. Through tails there are faster to saw, easier to inspect, easy to plane flush. They are also strong in the right direction if you keep the tails on the sides — the next essay’s religion. I do not lap the back unless the back is a show panel, and a show-panel back is a rare vanity.
 

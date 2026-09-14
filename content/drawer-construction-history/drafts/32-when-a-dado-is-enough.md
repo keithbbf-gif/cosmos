@@ -7,6 +7,12 @@ word_count: 1631
 dek: "A drawer back may live in a housing. The joint is allowed to be quiet. Through tails are not mandatory at the rear. The dado fails when the bottom is asked to be the only lock, or when the slot is a rumor."
 series: drawer-construction-history
 topic: the-box
+graphics:
+  - id: fig-sch-01
+    path: assets/when-a-dado-is-enough/joinery-diagram.svg
+    alt: "Back seated in housings in the sides without tail joinery"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — drawer back seated in housings in the sides, no tails at the rear (filename pending shop pull)"
@@ -32,7 +38,16 @@ verify:
 
 The back went home with a dry click. Not a clamp-up. Not a mallet. A pine board, square, sliding into two housings I had ploughed in the sides, and then a thumb-push until the shoulders kissed. No tails. No pins standing in raking light. The box was already a box. I set it on the bench and the rear wall did not rattle. That is the sound I trust when a dado is enough.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — drawer back seated in housings in the sides, no tails at the rear (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/when-a-dado-is-enough/joinery-diagram.svg" alt="Back seated in housings in the sides without tail joinery" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Dadoed drawer back. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The back is a board in two slots. The joint does not have to announce itself." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The back is a board in two slots. The joint does not have to announce itself. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — drawer back seated in housings in the sides, no tails at the rear (filename pending shop pull)</figcaption>
+</figure>
+
 
 The earlier essay in this pack gave the back permission to be pine, and thinner, and the place the floor finishes its travel. I will not retell the humility. This Saturday is the joint that essay pointed at and then left alone: a housing. A dado. A slot in each side that receives the back the way a bookcase receives a shelf, except the shelf is a wall and the load is a yank.
 
@@ -52,7 +67,11 @@ Width matches the back. A sloppy housing rattles. A piston housing in January in
 
 Here is the failure class that makes people swear off dados. The back is housed. The bottom is a board nailed up under the sides and under the back, as if nails were a floor and a lock. Someone yanks a stuck drawer. The nails tear. The back slides out of the housings and comes away in the hand, still wearing a row of bent brads, while the sides and front stay in the case like a three-sided tray. I have held that orphaned wall. It is a quiet joint telling the truth: it was never asked to lock, only to sit.
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — back walked out of shallow dados, nails in a nailed-only bottom still hanging (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="If the floor is the only pin, a yank turns the housing into a slide." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> If the floor is the only pin, a yank turns the housing into a slide. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — back walked out of shallow dados, nails in a nailed-only bottom still hanging (filename pending shop pull)</figcaption>
+</figure>
+
 
 A bottom that enters a groove in the back is a better pin, if you do not glue the ticket and if the groove has depth. The floor cannot leave without taking the back, and the back cannot leave without taking the floor, and the sides hold the floor. That is a box. A screw or a nail in a slot through the back into the bottom is the old country version of the same idea: the fastener is allowed to let the floor move, and it still keeps the wall from walking off.
 

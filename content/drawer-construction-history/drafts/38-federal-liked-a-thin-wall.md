@@ -7,6 +7,12 @@ word_count: 1452
 dek: "Hepplewhite and Sheraton, and the American Federal shops that read them, built drawers as trays: mahogany show, thin linings, a cockbead, inlays on a light case. Thin is the style. It is also the engineering."
 series: drawer-construction-history
 topic: tradition-hardware
+graphics:
+  - id: fig-sch-01
+    path: assets/federal-liked-a-thin-wall/joinery-diagram.svg
+    alt: "Thin mahogany front with fine half-blind pins"
+    license: CC0-1.0
+    status: staged
 figures:
   - id: fig-01
     preferred: "D:\\BBF\\BBF Photos — mahogany drawer front, cockbead, thin pine or poplar lining seen from above (filename pending shop pull)"
@@ -33,7 +39,16 @@ verify:
 
 I could feel the lining through the front. Mahogany, a skin, and behind it sides so thin the drawer was a tray in my hands — light, a little flexible if I was rude, a cockbead catching my thumbnail the way the bead essay already taught. Stringing ran a pale line around the field and stopped at a wall that had no extra meat. I set the box on the bench and it made a smaller sound than a kitchen drawer. Not cheap. Light. The case that had held it was light too. That was the style. It was also the engineering.
 
-<!-- PHOTO: fig-01 D:\BBF\BBF Photos — mahogany drawer front, cockbead, thin pine or poplar lining seen from above (filename pending shop pull) -->
+<figure class="dch-figure">
+  <img src="../assets/federal-liked-a-thin-wall/joinery-diagram.svg" alt="Thin mahogany front with fine half-blind pins" width="640" height="420" loading="lazy" decoding="async"/>
+  <figcaption><strong>Figure 1.</strong> Federal thin drawer wall. Pack schematic (CC0).</figcaption>
+</figure>
+
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="The show is a leaf of mahogany. The wall is a lining. The bead is the frame." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 2 (pending).</strong> The show is a leaf of mahogany. The wall is a lining. The bead is the frame. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — mahogany drawer front, cockbead, thin pine or poplar lining seen from above (filename pending shop pull)</figcaption>
+</figure>
+
 
 Hepplewhite’s *Guide* (1788) and Sheraton’s *Drawing-Book*, then the *Cabinet Dictionary* (1803), are the English paper this American Federal habit read. I will not invent a plate or a sentence. [VERIFY] any passage before it is quoted. What the furniture shows, and what Greene shows when he draws American 18th-century boxes, is a lining in the 3/8-to-1/2-inch neighborhood, a show wood that is mahogany more often than not, a bead around an inset front, and a case that has given up being a chest. The sliding box is the furniture. The wall is allowed to be thin because the joint is no longer a nail in a plank and the floor is no longer a board asked to be a shoe.
 
@@ -49,7 +64,11 @@ English work can go thinner still when the slip carries the groove. This pack al
 
 ## Thin is a weather machine
 
-<!-- PHOTO: fig-02 D:\BBF\BBF Photos — stringing or light inlay stopping at a thin drawer side, half-blind pins (filename pending shop pull) -->
+<figure class="dch-figure dch-shop-pending">
+  <img src="../assets/placeholders/bbf-shop-pending.svg" alt="Inlay sits on meat that was never extra. Thin is what the picture can afford." width="640" height="360" loading="lazy" decoding="async"/>
+  <figcaption><strong>Photo 3 (pending).</strong> Inlay sits on meat that was never extra. Thin is what the picture can afford. Keith BBF shop library — unpublished; photographer unnamed until file metadata is pulled Slot: D:\BBF\BBF Photos — stringing or light inlay stopping at a thin drawer side, half-blind pins (filename pending shop pull)</figcaption>
+</figure>
+
 
 Less meat is less travel. A side’s height is cross-grain. A 3/8 lining that drinks a summer is a smaller problem than a 5/8 lining that drank the same summer in the same hole. The drawing-error essay already named the piston. Federal thinness is one historical refusal of that piston: keep the moving part small, keep the floor on a side-to-side grain, keep the back free. The style and the physics shook hands.
 
