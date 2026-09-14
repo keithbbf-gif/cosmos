@@ -99,6 +99,10 @@ Primary and secondary sources used across the series. Article notes point here b
 - Earley, Lawrence S. *Looking for Longleaf: The Fall and Rise of an American Forest.* Chapel Hill: University of North Carolina Press, 2004.
 - Sloane, Eric. *A Reverence for Wood.* New York: Funk & Wagnalls, 1965. Use as color, not as citation of record.
 
+## Series figures (SVG)
+
+Five editorial diagrams live in `assets/` and are mapped in `GRAPHICS_INDEX.md`. Numeric labels cite FPL / Wood Database means; CITES notes cite cites.org. Re-verify listings at publication.
+
 ## Botanical plates and object photography (rights)
 
 See `PHOTO_CAPTIONS.md`. Preferred public sources: Biodiversity Heritage Library; New York Public Library Digital Collections; Met Open Access; Rijksmuseum; V&A (check licence per object); Winterthur (rights vary); Library of Congress; USDA Pomological Watercolor Collection; *Sylva* plates.

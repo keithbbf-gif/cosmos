@@ -16,9 +16,6 @@ era: "1850–present"
 
 The V&A’s short history of plywood in ten-ish objects opens with a correction. It has always been assumed that the history of plywood was mainly that of the flat board. That is not the case. Between about 1850 and 1890 moulded plywood was the common innovative form, and furniture design drove it. John Henry Belter’s New York patent of 1858 moulded chair backs in batches of eight. Charles and Ray Eames’s 1942 US Navy leg splint taught compound curves that became the DCM. Alvar Aalto’s Paimio seat is a birch scroll between two frames. The face can be walnut, teak, rosewood, or birch. The core can be a tree the catalogue hoped you would not name. This draft is the sandwich: what the layers do that a solid board will not, and what they hide.
 
-<!-- staged embed for draft: plywood-and-core-stock -->
-<!-- paste into drafts/plywood-and-core-stock.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*
@@ -75,7 +72,7 @@ Lacey (2008 amendment) and APHIS Phase VII (1 December 2024) still want names. �
 
 An edge. A void. A printed grain that dies at a corner. A moulded seat whose underside shows layers. A Belter-type back that is several leaves. A Paimio scroll. A splint in a museum. A 1930s radio with a burl face and a cheap back. A 1950s dresser with rotary cathedrals on lauan. A poplar interior under an Empire flame — the ancestor, still at work.
 
-Arkansas yellow-poplar is still core stock. Bradley Brand’s solid hardwoods are a different contract. Both can be named without apology. The sin is the single word “walnut” on a door that is 0.6 mm of face and a tropical core. The 500-year series needs this chapter because more people own ply than own joined oak. The physics is old. The factory is new. The label is where the trouble lives.
+Arkansas yellow-poplar is still core stock. Solid oak, walnut, and cherry are a different contract. Both can be named without apology. The sin is the single word “walnut” on a door that is 0.6 mm of face and a tropical core. The 500-year series needs this chapter because more people own ply than own joined oak. The physics is old. The factory is new. The label is where the trouble lives.
 
 ## Sources
 

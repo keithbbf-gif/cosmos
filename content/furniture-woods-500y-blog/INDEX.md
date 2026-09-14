@@ -7,78 +7,88 @@ series: furniture-woods-500y
 
 # Woods in Furniture, 1500–Present
 
-A series for buyers, designers, and restorers. One species or a clear comparative frame per article. Mechanical numbers come from the USDA *Wood Handbook* unless a note says otherwise. History is footed to named work. Gaps are marked `[CITE NEEDED]`.
+A series for buyers, designers, and restorers. One species, trade hour, cut, or legal instrument per article. Mechanical numbers come from the USDA *Wood Handbook* unless a note says otherwise. History is footed to named work. Gaps are marked `[CITE NEEDED]`.
 
 Bradley Brand works Arkansas hardwoods. These drafts teach how woods behave. They do not sell chairs.
 
-All articles: `status: draft`, `voice_check: human`. Reading order below. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. WordPress: `WP_IMPORT.xml` (draft only).
+Canonical slugs: `writer-slugs.json` (46). Drafts live in `drafts/`. Figures: `GRAPHICS_INDEX.md` and `assets/`. All articles: `status: draft`, `voice_check: human`. Timeline: `SERIES_MAP.md`. Voice: `STYLE_GUIDE.md`. Sources: `BIBLIOGRAPHY.md`. Images: `PHOTO_CAPTIONS.md`. Counts: `MANIFEST.md`. WordPress: `WP_IMPORT.xml` (draft only).
 
 ## How to read the series
 
-Start with the three frames. Then take a species you already own, or walk Macquoid’s English ages (oak → walnut → mahogany → satinwood) and keep going into the woods he barely named. Style chapters at the end show how shops mixed species on purpose.
+Start with the two frames. Then take a wood you already own, or walk Macquoid’s English ages (oak → walnut → mahogany → satinwood) and keep going into the woods he barely named. Cut and science chapters sit after the species hours so the joints have a vocabulary. Conservation chapters close the book; they are not a permit.
 
 ## I. Frames
 
-1. [Five centuries of furniture wood](articles/01-five-centuries-of-furniture-wood.md) — `five-centuries-of-furniture-wood`
-2. [Quartersawn versus flatsawn](articles/02-quartersawn-versus-flatsawn.md) — `quartersawn-versus-flatsawn`
-3. [How to read a furniture wood](articles/03-reading-furniture-wood.md) — `reading-furniture-wood`
+1. [Five hundred years of furniture timber](drafts/intro-500-year-timber.md) — `intro-500-year-timber`
+2. [Grain, cut, and the words shops actually use](drafts/glossary-grain-and-cut.md) — `glossary-grain-and-cut`
 
-## II. Northern hardwoods
+## II. Oak, shipping, and reserved forests
 
-4. [Oak, European and American](articles/04-oak-european-and-american.md) — `oak-european-and-american`
-5. [Walnut](articles/05-walnut.md) — `walnut`
-6. [Cherry](articles/06-cherry.md) — `cherry`
-7. [Maple](articles/07-maple.md) — `maple`
-8. [Ash](articles/08-ash.md) — `ash`
-9. [Elm](articles/09-elm.md) — `elm`
-10. [Beech](articles/10-beech.md) — `beech`
-11. [Birch](articles/11-birch.md) — `birch`
-12. [Hickory and pecan](articles/12-hickory-and-pecan.md) — `hickory-and-pecan`
-13. [Chestnut and the blight](articles/13-chestnut-and-the-blight.md) — `chestnut-and-the-blight`
-14. [Yellow-poplar](articles/14-yellow-poplar.md) — `yellow-poplar`
-15. [Sycamore](articles/15-sycamore.md) — `sycamore`
-16. [Fruitwoods](articles/16-fruitwoods.md) — `fruitwoods`
-17. [Lime, basswood, and the carver](articles/17-lime-basswood-carvers.md) — `lime-basswood-carvers`
-18. [Alder](articles/18-alder.md) — `alder`
-19. [Yew](articles/19-yew.md) — `yew`
-20. [Boxwood](articles/20-boxwood.md) — `boxwood`
+3. [Baltic oak in the Renaissance shop](drafts/baltic-oak-renaissance.md) — `baltic-oak-renaissance`
+4. [English oak and the great furniture](drafts/english-oak-great-furniture.md) — `english-oak-great-furniture`
+5. [Dutch Golden Age shipping](drafts/dutch-golden-age-shipping.md) — `dutch-golden-age-shipping`
+6. [Navy oak and the reserved forest](drafts/navy-oak-reserves.md) — `navy-oak-reserves`
 
-## III. Softwoods that furnished rooms
+## III. American pines
 
-21. [Pine and country furniture](articles/21-pine-country-furniture.md) — `pine-country-furniture`
-22. [Heart pine and longleaf](articles/22-heart-pine-longleaf.md) — `heart-pine-longleaf`
-23. [Baltic deal and painted pine](articles/23-baltic-deal-painted-pine.md) — `baltic-deal-painted-pine`
-24. [Cedar](articles/24-cedar.md) — `cedar`
-25. [Cypress](articles/25-cypress.md) — `cypress`
+7. [American colonial pine](drafts/american-colonial-pine.md) — `american-colonial-pine`
+8. [White pine and the softwood economy](drafts/white-pine-softwood-economy.md) — `white-pine-softwood-economy`
 
-## IV. Tropical show woods and what replaced them
+## IV. Walnut hours
 
-26. [Mahogany and the substitutes](articles/26-mahogany-and-substitutes.md) — `mahogany-and-substitutes`
-27. [Teak](articles/27-teak.md) — `teak`
-28. [Rosewood, ebony, and CITES](articles/28-rosewood-ebony-cites.md) — `rosewood-ebony-cites`
-29. [Satinwood](articles/29-satinwood.md) — `satinwood`
-30. [Kingwood, tulipwood, and the ébéniste](articles/30-kingwood-tulipwood-ebeniste.md) — `kingwood-tulipwood-ebeniste`
-31. [Khaya, sapele, and African “mahogany”](articles/31-african-mahogany-sapele-khaya.md) — `african-mahogany-sapele-khaya`
-32. [Iroko and the teak lookalikes](articles/32-iroko-teak-lookalikes.md) — `iroko-teak-lookalikes`
-33. [Huanghuali and zitan](articles/33-huanghuali-zitan.md) — `huanghuali-zitan`
+9. [Walnut in the Baroque shop](drafts/walnut-baroque.md) — `walnut-baroque`
+10. [Walnut and Queen Anne](drafts/walnut-queen-anne.md) — `walnut-queen-anne`
 
-## V. Veneer, ply, and engineered stock
+## V. Mahogany hours
 
-34. [Twentieth-century plywoods and face veneers](articles/34-plywood-veneers-twentieth.md) — `plywood-veneers-twentieth`
-35. [Finnish birch and the laminated chair](articles/35-finnish-birch-aalto.md) — `finnish-birch-aalto`
-36. [Lauan, meranti, okoume](articles/36-lauan-meranti-okoume.md) — `lauan-meranti-okoume`
-37. [Engineered wood, told honestly](articles/37-engineered-wood-honest.md) — `engineered-wood-honest`
+11. [Mahogany and the Chippendale shop](drafts/mahogany-chippendale.md) — `mahogany-chippendale`
+12. [Mahogany in Federal America](drafts/mahogany-federal-america.md) — `mahogany-federal-america`
+13. [Mahogany, Regency, and Empire](drafts/mahogany-regency-empire.md) — `mahogany-regency-empire`
 
-## VI. Shops that mixed woods on purpose
+## VI. Rosewood, teak, ebony
 
-38. [Windsor chairs](articles/38-windsor-mixed-wood.md) — `windsor-mixed-wood`
-39. [Shaker woods](articles/39-shaker-woods.md) — `shaker-woods`
-40. [Arts and Crafts oak](articles/40-arts-and-crafts-oak.md) — `arts-and-crafts-oak`
-41. [Biedermeier pale woods](articles/41-biedermeier-pale-woods.md) — `biedermeier-pale-woods`
-42. [Danish modern woods](articles/42-danish-modern-woods.md) — `danish-modern-woods`
-43. [Marquetry](articles/43-marquetry-picture-of-trees.md) — `marquetry-picture-of-trees`
+14. [Victorian rosewood](drafts/rosewood-victorian.md) — `rosewood-victorian`
+15. [Rosewood and the Gothic Revival](drafts/rosewood-gothic-revival.md) — `rosewood-gothic-revival`
+16. [Teak in the colonial dockyards](drafts/teak-colonial-dockyards.md) — `teak-colonial-dockyards`
+17. [Teak on deck and in the garden](drafts/teak-deck-and-garden.md) — `teak-deck-and-garden`
+18. [Ebony, inlay, and keys](drafts/ebony-inlay-keys.md) — `ebony-inlay-keys`
 
-## VII. Buying now
+## VII. Pale, bent, and small woods
 
-44. [CITES, Lacey, and a clean buy](articles/44-cites-lacey-buying.md) — `cites-lacey-buying`
-45. [Arkansas hardwoods in a five-hundred-year frame](articles/45-arkansas-hardwoods-500y.md) — `arkansas-hardwoods-500y`
+19. [Birdseye maple and the factory](drafts/maple-birdseye-factory.md) — `maple-birdseye-factory`
+20. [Cherry and the Shaker shop](drafts/cherry-shaker.md) — `cherry-shaker`
+21. [Yew, turnery, and the country bow](drafts/yew-medieval-turnery.md) — `yew-medieval-turnery`
+22. [Satinwood and the Adam shop](drafts/satinwood-adam-style.md) — `satinwood-adam-style`
+23. [Beech and Thonet bentwood](drafts/beech-bentwood-thonet.md) — `beech-bentwood-thonet`
+24. [Ash and sporting chairs](drafts/ash-sporting-chairs.md) — `ash-sporting-chairs`
+25. [Cedar linings and chests](drafts/cedar-lining-chests.md) — `cedar-lining-chests`
+26. [Boxwood inlay](drafts/boxwood-inlay.md) — `boxwood-inlay`
+27. [Padauk as a modernist accent](drafts/padauk-modernist-accents.md) — `padauk-modernist-accents`
+
+## VIII. Paper: CITES and plantations
+
+28. [The 1973 Convention](drafts/cites-1973-convention.md) — `cites-1973-convention`
+29. [*Dalbergia*, 2017](drafts/cites-dalbergia-2017.md) — `cites-dalbergia-2017`
+30. [*Swietenia* permits](drafts/cites-swietenia-permits.md) — `cites-swietenia-permits`
+31. [African ebony listings](drafts/cites-ebony-africa.md) — `cites-ebony-africa`
+32. [Plantation teak and the papers](drafts/sustainable-teak-plantations.md) — `sustainable-teak-plantations`
+
+## IX. Cut, movement, and the shop numbers
+
+33. [Reclaimed oak beams](drafts/reclaimed-oak-beams.md) — `reclaimed-oak-beams`
+34. [Quartersawn oak and Arts and Crafts](drafts/quartersawn-arts-crafts.md) — `quartersawn-arts-crafts`
+35. [Flatsawn panels and cathedral figure](drafts/flatsawn-panel-figure.md) — `flatsawn-panel-figure`
+36. [Rift cut, chairs, and floors](drafts/rift-cut-flooring.md) — `rift-cut-flooring`
+37. [Moisture and wood movement](drafts/moisture-wood-movement.md) — `moisture-wood-movement`
+38. [Janka hardness, explained](drafts/janka-hardness-explained.md) — `janka-hardness-explained`
+39. [Density, freight, and the crate](drafts/density-weight-shipping.md) — `density-weight-shipping`
+40. [Workability and hand tools](drafts/workability-hand-tools.md) — `workability-hand-tools`
+41. [Veneer versus solid](drafts/veneer-versus-solid.md) — `veneer-versus-solid`
+
+## X. Twentieth-century faces and buying now
+
+42. [Brazilian rosewood at mid-century](drafts/brazilian-rosewood-midcentury.md) — `brazilian-rosewood-midcentury`
+43. [Indian rosewood exports](drafts/indian-rosewood-exports.md) — `indian-rosewood-exports`
+44. [Plywood and core stock](drafts/plywood-and-core-stock.md) — `plywood-and-core-stock`
+45. [Tropical hardwoods around 1900](drafts/tropical-hardwood-peak-1900.md) — `tropical-hardwood-peak-1900`
+46. [Conservation today](drafts/conservation-today.md) — `conservation-today`

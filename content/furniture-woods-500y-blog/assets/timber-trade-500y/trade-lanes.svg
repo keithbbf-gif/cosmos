@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 448" width="900" height="448" role="img" aria-labelledby="title desc">
+  <title id="title">Three trade lanes</title>
+  <desc id="desc">Regional furniture-timber trade milestones on parallel lanes.</desc>
+  <rect width="100%" height="100%" fill="#faf9f6"/>
+  
+  <text x="48" y="36" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0.12em" fill="#78716c">FIGURE 2</text>
+  <text x="48" y="62" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#1c1917">Three trade lanes</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#e7e5e4" stroke-width="1"/>
+
+  <g transform="translate(0, 0)">
+  <text x="48" y="134" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Baltic &amp; North Sea oak</text>
+    <line x1="220" y1="130" x2="860" y2="130" stroke="#e7e5e4" stroke-width="1"/>
+    <circle cx="234.22222222222223" cy="130" r="4" fill="#a8a29e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="234.22222222222223" y="118" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Riga &amp; Danzig markets</text>
+    <text x="234.22222222222223" y="148" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1580</text>
+    <circle cx="348.0" cy="130" r="4" fill="#a8a29e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="348.0" y="118" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Dutch &amp; English shipping</text>
+    <text x="348.0" y="148" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1660</text>
+    <circle cx="483.1111111111111" cy="130" r="4" fill="#a8a29e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="483.1111111111111" y="118" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Royal Navy contracts</text>
+    <text x="483.1111111111111" y="148" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1755</text>
+    <circle cx="668.0" cy="130" r="4" fill="#a8a29e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="668.0" y="118" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Local oak revival</text>
+    <text x="668.0" y="148" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1885</text>
+    <text x="48" y="214" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Atlantic mahogany</text>
+    <line x1="220" y1="210" x2="860" y2="210" stroke="#e7e5e4" stroke-width="1"/>
+    <circle cx="440.44444444444446" cy="210" r="4" fill="#78716c" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="440.44444444444446" y="198" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Jamaica exports</text>
+    <text x="440.44444444444446" y="228" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1725</text>
+    <circle cx="497.33333333333337" cy="210" r="4" fill="#78716c" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="497.33333333333337" y="198" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">London cabinet peak</text>
+    <text x="497.33333333333337" y="228" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1765</text>
+    <circle cx="575.5555555555555" cy="210" r="4" fill="#78716c" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="575.5555555555555" y="198" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Cuba &amp; Hispaniola</text>
+    <text x="575.5555555555555" y="228" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1820</text>
+    <circle cx="820.1777777777778" cy="210" r="4" fill="#78716c" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="820.1777777777778" y="198" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Swietenia App. II</text>
+    <text x="820.1777777777778" y="228" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1992</text>
+    <text x="48" y="294" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Indian Ocean teak</text>
+    <line x1="220" y1="290" x2="860" y2="290" stroke="#e7e5e4" stroke-width="1"/>
+    <circle cx="606.8444444444444" cy="290" r="4" fill="#57534e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="606.8444444444444" y="278" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Bombay dockyards</text>
+    <text x="606.8444444444444" y="308" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1842</text>
+    <circle cx="649.5111111111112" cy="290" r="4" fill="#57534e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="649.5111111111112" y="278" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Irrawaddy rafting</text>
+    <text x="649.5111111111112" y="308" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1872</text>
+    <circle cx="724.8888888888889" cy="290" r="4" fill="#57534e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="724.8888888888889" y="278" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Colonial reservations</text>
+    <text x="724.8888888888889" y="308" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1925</text>
+    <circle cx="851.4666666666667" cy="290" r="4" fill="#57534e" stroke="#1c1917" stroke-width="0.75"/>
+    <text x="851.4666666666667" y="278" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#1c1917">Myanmar log ban</text>
+    <text x="851.4666666666667" y="308" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">2014</text>
+    <text x="540.0" y="340" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Milestone years (not scaled for distance)</text>
+  </g>
+  <line x1="48" y1="360" x2="852" y2="360" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="48" y="384" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Baltic oak, Caribbean mahogany, and Indian Ocean teak followed distinct supply chains before twentieth-century conservation law.</text>
+  <text x="48" y="404" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Milestone years follow draft bibliographies; 1992 Swietenia listing per cites.org.</text>
+</svg>

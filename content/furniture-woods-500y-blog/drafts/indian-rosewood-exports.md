@@ -15,9 +15,6 @@ era: "1700–present"
 
 Kukachka’s FPL-125 entry on *Dalbergia latifolia* starts in the provinces. Native to most of India except the Northwest. Heartwood dark purplish-brown, denser blackish streaks terminating the growth zones, an attractive figure on flatsawn surfaces. Average weight about 53 pounds per cubic foot. Texture uniform and moderately coarse; grain narrowly interlocked, an inconspicuous stripe on the quarter, punched up by the dark zones. Similar in look to Brazilian and Honduras rosewood. That paragraph is a furniture specification written as a forest note. The export lane — Malabar, Bombay, later Java as sonokeling — made it a world wood. CITES made it a permit wood on 2 January 2017.
 
-<!-- staged embed for draft: indian-rosewood-exports -->
-<!-- paste into drafts/indian-rosewood-exports.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

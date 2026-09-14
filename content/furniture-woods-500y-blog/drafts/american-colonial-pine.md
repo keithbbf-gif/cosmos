@@ -17,10 +17,6 @@ era: "1630–1780"
 
 A six-board chest in eastern white pine, painted oxblood, sits against a New England wall. Two sides, a bottom, a lid, a front and a back — nailed or pegged, often a till, light enough for one person to drag. It is not a failed oak chest. It is a different idea of furniture: cheap enough to own, soft enough to dent, honest about paint. Benno Forman’s *American Seating Furniture, 1630–1730* is the seating half of the same wood culture. Hurst and Prown’s *Southern Furniture 1680–1830* is the reminder that a Charleston parlor might show walnut or mahogany while the passage and the kitchen stayed pine. The colonies furnished more rooms in pine than in any hardwood the London books named.
 
-<!-- from staged-embeds/american-colonial-pine.md -->
-<!-- staged embed for draft: american-colonial-pine -->
-<!-- paste into drafts/american-colonial-pine.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

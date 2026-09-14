@@ -17,10 +17,6 @@ era: "1800–present"
 
 A tithe-barn tie beam lands on a bandsaw. The first cut shows a square nail, then a black ring where the nail’s iron met tannin, then a mortise that once held a brace with a draw-bored pin. The mill is not making a beam. It is making a table top from a joint that already had a life. Reclaimed oak is a real furniture wood. It is also a salvage claim that can be a barn, a mill, a warehouse, or a container of mixed hardwood with a story stapled to it. Chinnery’s joined furniture and Albion’s naval oak are the earlier lives some of these balks actually had. Most barn beams in the American market are nineteenth-century house and farm carpentry: *Quercus alba* or a red-group cousin, pegged and notched, not a 1565 wainscot and not a man-of-war knee.
 
-<!-- from staged-embeds/reclaimed-oak-beams.md -->
-<!-- staged embed for draft: reclaimed-oak-beams -->
-<!-- paste into drafts/reclaimed-oak-beams.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*
@@ -57,7 +53,7 @@ The beam’s original joints are carpentry: mortise and tenon with a peg, someti
 
 New furniture joints in reclaimed oak are ordinary joints in a harder, often more brittle material. Old heart can snap where a new kiln-dried board would bend. Predrill for screws. Draw-bore a new mortise and tenon if you want the old manners; the fiber still crushes, but a dry, case-hardened surface can split if the offset is greedy.
 
-Frame-and-panel remains the polite way to use unstable flatsawn slices from a boxed heart. A slab table from a whole beam is a bet against Figure 3’s geometry: the boxed heart wants to check along the pith. Many “beam tables” keep the pith and then act surprised. Cut the heart out, or live with the check, or spline it and admit the spline.
+Frame-and-panel remains the polite way to use unstable flatsawn slices from a boxed heart. A slab table from a whole beam is a bet against the cut geometry in the glossary: the boxed heart wants to check along the pith. Many “beam tables” keep the pith and then act surprised. Cut the heart out, or live with the check, or spline it and admit the spline.
 
 Breadboard ends on a reclaimed leaf must slot. The beam may have a moisture gradient from a weathered face to a protected heart. Let the stock sit at the destination humidity. A barn in January and a kitchen in July are not the same kiln.
 

@@ -14,9 +14,6 @@ era: "1500–present"
 
 The plane chatters on interlocked sapele. That is a shop observation, not a metaphor. R. Bruce Hoadley’s *Understanding Wood* is the book that puts a reason under the chatter: grain direction reversing in successive bands, a cutting angle that lifts instead of severs, an edge that was sharp enough for mahogany and is not sharp enough now. Janka on Figure 4 will tell you sapele is harder than *Swietenia*. It will not tell you the scraper is the next tool. This draft is workability as the furniture shop knows it — edge, glue, and the joint that assumes the fiber — not as a catalogue adjective.
 
-<!-- staged embed for draft: workability-hand-tools -->
-<!-- paste into drafts/workability-hand-tools.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*
@@ -69,7 +66,7 @@ A wide-belt sander will flatten chatter and also flatten the conversation. You c
 
 CNC routers like MDF and even-textured hardwoods. They do not like silica, voids, or a knife that has already died on teak. Carbide helps. Dust collection is not optional on rosewood, on MDF, or on western redcedar. The machine does not repeal the material.
 
-Arkansas oak, walnut, cherry, maple, and pine cover a useful workability band. Bradley Brand’s shop planes those woods. Interlock is rare. Tannin in oak will still rust a plane. Cherry will still blotch if you skip a conditioner or a scraper. Domestic is not a synonym for easy. It is a synonym for a known iron.
+Arkansas oak, walnut, cherry, maple, and pine cover a useful workability band. Interlock is rare. Tannin in oak will still rust a plane. Cherry will still blotch if you skip a conditioner or a scraper. Domestic is not a synonym for easy. It is a synonym for a known iron.
 
 ## A gouge, a scraper, and a glued panel
 

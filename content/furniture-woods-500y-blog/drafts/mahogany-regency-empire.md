@@ -17,9 +17,6 @@ era: "1800–1840"
 
 A New York pier table of 1815 wears a crotch-mahogany face so loud the drawer front looks like a folded flame. Behind that leaf, if you chip a corner, the ground is yellow-poplar or pine. Charles-Honoré Lannuier brought Percier and Fontaine’s grammar across the Atlantic; Duncan Phyfe’s later shop learned the same heavier silhouette. English Regency and French Empire did not invent mahogany. They spent the figured log as a picture glued to a cheaper carcase. The Chippendale splat had been a tax story (Bowett’s 1721 Naval Stores Act, in force 1722). This hour is a veneer story.
 
-<!-- staged embed for draft: mahogany-regency-empire -->
-<!-- paste into drafts/mahogany-regency-empire.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*

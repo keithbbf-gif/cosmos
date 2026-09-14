@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 508" width="900" height="508" role="img" aria-labelledby="title desc">
+  <title id="title">Core furniture species — hardness and weight</title>
+  <desc id="desc">Scatter plot of Janka hardness versus oven-dry density for ten historical species.</desc>
+  <rect width="100%" height="100%" fill="#faf9f6"/>
+  
+  <text x="48" y="36" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0.12em" fill="#78716c">FIGURE 4</text>
+  <text x="48" y="62" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#1c1917">Core furniture species — hardness and weight</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#e7e5e4" stroke-width="1"/>
+
+  <g transform="translate(0, 0)">
+  <rect x="90" y="100" width="762" height="248" fill="#faf9f6" stroke="#e7e5e4" stroke-width="1"/>
+    <line x1="90.0" y1="100" x2="90.0" y2="348" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="90.0" y="366" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">0</text>
+    <line x1="280.5" y1="100" x2="280.5" y2="348" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="280.5" y="366" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">800</text>
+    <line x1="471.0" y1="100" x2="471.0" y2="348" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="471.0" y="366" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">1600</text>
+    <line x1="661.5" y1="100" x2="661.5" y2="348" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="661.5" y="366" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">2400</text>
+    <line x1="852.0" y1="100" x2="852.0" y2="348" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="852.0" y="366" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">3200</text>
+    <line x1="90" y1="269.0909090909091" x2="852" y2="269.0909090909091" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="80" y="272.0909090909091" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">350</text>
+    <line x1="90" y1="224.0" x2="852" y2="224.0" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="80" y="227.0" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">550</text>
+    <line x1="90" y1="178.90909090909093" x2="852" y2="178.90909090909093" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="80" y="181.90909090909093" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">750</text>
+    <line x1="90" y1="133.8181818181818" x2="852" y2="133.8181818181818" stroke="#e7e5e4" stroke-width="0.5"/>
+    <text x="80" y="136.8181818181818" text-anchor="end" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="9" fill="#78716c">950</text>
+    <text x="471.0" y="392" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#1c1917">Janka side hardness (lbf)</text>
+    <text x="28" y="224.0" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#1c1917" transform="rotate(-90 28 224.0)">Oven-dry density (kg/m³)</text>
+    <circle cx="356.7" cy="194.6909090909091" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="364.7" y="188.6909090909091" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">European oak</text>
+    <text x="364.7" y="202.6909090909091" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Quercus petraea / Q. robur</text>
+    <circle cx="413.84999999999997" cy="177.78181818181818" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="421.84999999999997" y="171.78181818181818" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">White oak</text>
+    <text x="421.84999999999997" y="185.78181818181818" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Quercus alba</text>
+    <circle cx="304.3125" cy="203.70909090909092" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="312.3125" y="197.70909090909092" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Honduran mahogany</text>
+    <text x="312.3125" y="211.70909090909092" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Swietenia macrophylla</text>
+    <circle cx="330.50625" cy="210.47272727272727" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="338.50625" y="204.47272727272727" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Black walnut</text>
+    <text x="338.50625" y="218.47272727272727" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Juglans nigra</text>
+    <circle cx="365.034375" cy="200.3272727272727" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="373.034375" y="194.3272727272727" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Teak</text>
+    <text x="373.034375" y="208.3272727272727" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Tectona grandis</text>
+    <circle cx="671.025" cy="156.36363636363637" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="679.025" y="150.36363636363637" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Indian rosewood</text>
+    <text x="679.025" y="164.36363636363637" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Dalbergia latifolia</text>
+    <circle cx="754.36875" cy="152.98181818181817" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="762.36875" y="146.98181818181817" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Brazilian rosewood</text>
+    <text x="762.36875" y="160.98181818181817" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Dalbergia nigra</text>
+    <circle cx="435.28125" cy="189.05454545454546" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="443.28125" y="183.05454545454546" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Hard maple</text>
+    <text x="443.28125" y="197.05454545454546" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Acer saccharum</text>
+    <circle cx="316.21875" cy="221.74545454545455" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="324.21875" y="215.74545454545455" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Black cherry</text>
+    <text x="324.21875" y="229.74545454545455" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Prunus serotina</text>
+    <circle cx="180.4875" cy="269.0909090909091" r="5" fill="#1c1917" opacity="0.9"/>
+    <text x="188.4875" y="263.0909090909091" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#1c1917">Eastern white pine</text>
+    <text x="188.4875" y="277.0909090909091" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="9" font-style="italic" fill="#78716c">Pinus strobus</text>
+  </g>
+  <line x1="48" y1="420" x2="852" y2="420" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="48" y="444" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Harder, denser species (upper right) demand sharper tooling; softwoods cluster lower left.</text>
+  <text x="48" y="464" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Janka &amp; density means: USDA FPL Wood Handbook; Wood Database cross-check.</text>
+</svg>

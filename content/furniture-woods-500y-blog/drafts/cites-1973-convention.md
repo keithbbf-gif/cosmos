@@ -14,9 +14,6 @@ era: "1973–present"
 
 On 3 March 1973, in Washington, eighty-odd delegations signed a trade convention that did not mention Chippendale, a dining leaf, or a piano case. The instrument is the Convention on International Trade in Endangered Species of Wild Fauna and Flora. Article XXII set entry into force at ninety days after the tenth ratification. That date is 1 July 1975. The United States had already ratified, on 14 January 1974; for the first ten Parties, including the U.S., the Convention bound them on the same July morning. A crate of sawn wood that cleared a dock in June 1975 and a crate of the same species that cleared in August 1975 are not the same legal object if the species had been placed on an appendix. This draft walks that paper. It is not a permit. It will not issue one. Species+ and the national Management Authority are the living pages.
 
-<!-- staged embed for draft: cites-1973-convention -->
-<!-- paste into drafts/cites-1973-convention.md when the draft is merged -->
-
 ![Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).](../assets/cites-conservation/furniture-timber-listings.svg)
 
 *Figure 5. Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).*
@@ -75,7 +72,7 @@ A 1760 Jamaica chair is older than the Convention by two centuries. It is usuall
 
 A new table claiming an old name is the opposite case. The invoice binomial is the first question. The harvest country is the second. The annotation is the third. Fashion without that file is how *Swietenia* and *Dalbergia* arrived at the appendices. The 1973 text did not cause the logging. It built a gate after the ships had already sailed for three hundred years.
 
-Bradley Brand’s Arkansas hardwoods are a specification a 1973 delegate would have understood without an appendix: *Quercus alba*, United States. The Convention was written for the other crate — the one whose name was a color and whose origin was a shrug.
+Arkansas white oak is a specification a 1973 delegate would have understood without an appendix: *Quercus alba*, United States. The Convention was written for the other crate — the one whose name was a color and whose origin was a shrug.
 
 Look at the dock date and the binomial. That is the Convention in a shop. The later drafts — `cites-swietenia-permits`, `cites-dalbergia-2017`, `cites-ebony-africa`, `conservation-today` — put particular trees through the same gate. This page is the gate.
 

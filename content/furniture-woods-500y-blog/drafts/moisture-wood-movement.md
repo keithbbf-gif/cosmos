@@ -14,9 +14,6 @@ era: "1500–present"
 
 A door that sticks in August and shows a line of raw wood in the groove in January is chapter 4 of the *Wood Handbook* hung on hinges. Wood is a sponge with a grain. Below the fiber saturation point — commonly near 30 percent moisture content — loss or gain of bound water changes the dimensions across the grain. Tangential change is the large number. Radial is smaller, often by a factor of 1.5 to 2. Longitudinal change is a rounding error, 0.1 to 0.2 percent (FPL-GTR-190, ch. 4). The door is flatsawn in the panel and closer to quartered in the stiles if the shop was paying attention. If the shop glued the panel in, the door is a split waiting for the heating season. This draft is the moisture math and the joinery that assumes it.
 
-<!-- staged embed for draft: moisture-wood-movement -->
-<!-- paste into drafts/moisture-wood-movement.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*
@@ -79,7 +76,7 @@ August: the flatsawn panel has swollen. The groove was not deep enough, or a bea
 
 Look at tabletops with breadboards. If the pins elongated into slots, someone understood tangential movement. If the breadboard split the top, someone did not. Look at a 2010 condominium dining table with pocket screws every four inches across a 42-inch flatsawn oak top. Look for the crack.
 
-Arkansas shops send furniture into houses with air conditioning. The destination EMC is the design number, not the mill’s 12 percent sticker. Bradley Brand’s oak and walnut still move. Domestic is not a repeal of chapter 4. Specify cut, specify acclimation, specify the joint that travels. The Convention of 1973 will not float your panel. Neither will a Janka number.
+Arkansas shops send furniture into houses with air conditioning. The destination EMC is the design number, not the mill’s 12 percent sticker. Oak and walnut still move. Domestic is not a repeal of chapter 4. Specify cut, specify acclimation, specify the joint that travels. The Convention of 1973 will not float your panel. Neither will a Janka number.
 
 ## Hide glue, UF, and a panel that should rattle
 

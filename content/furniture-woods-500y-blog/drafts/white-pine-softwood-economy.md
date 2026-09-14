@@ -15,10 +15,6 @@ era: "1691–1920"
 
 A mast pond at Portsmouth, New Hampshire, held *Pinus strobus* that the Crown had already claimed with a Broad Arrow blaze. The tree was a taper of clear wood tall enough to step a ship. Albion’s *Forests and Sea Power* is the English strategic reading of that mark; the Massachusetts charter tradition of 1691 is the colonial statute half `[CITE NEEDED for the exact 1691 wording]`. Furniture never ate those sticks first. It ate the boards that came after the mast trade, then the lake-state clears that built interiors from Boston to Chicago, then the knotty seconds that twentieth-century dens called rustic. White pine is a softwood economy that sometimes made a chest. The chest is not the point of the tree. It is the remainder that still furnishes rooms.
 
-<!-- from staged-embeds/white-pine-softwood-economy.md -->
-<!-- staged embed for draft: white-pine-softwood-economy -->
-<!-- paste into drafts/white-pine-softwood-economy.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

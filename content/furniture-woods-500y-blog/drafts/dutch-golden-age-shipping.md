@@ -17,10 +17,6 @@ era: "1580–1672"
 
 Stand on the Zaan in the seventeenth century and the air is sawdust and tar. Wind-powered mills convert Baltic balks into boards. Timber auctions move oak and deal that never grew in Holland’s wet fields. Amsterdam’s warehouses hold *wagenschot* for local joiners and for re-export west. The Republic’s furniture — the great *kast*, the linen press, the boarded chest that went to a farm in Friesland — sits on a shipping economy, not on a native oak forest of English size. The Golden Age is a taste in pictures. It is also a quay.
 
-<!-- from staged-embeds/dutch-golden-age-shipping.md -->
-<!-- staged embed for draft: dutch-golden-age-shipping -->
-<!-- paste into drafts/dutch-golden-age-shipping.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*
@@ -70,8 +66,6 @@ The Sound Toll made Denmark a clerk on every Baltic board. Wars in the eastern B
 Figure 1’s later milestones — mahogany after 1721, CITES in the twentieth century — are other clocks. The Golden Age clock is the Sound, the Zaan mill, and the *kast*. Tropical listings do not apply to *Quercus* or *Pinus sylvestris*. The conservation problem here is old-growth boreal and temperate oak, not an appendix number.
 
 When the Republic’s great shipping hour tightens after 1672, the furniture trade does not stop. It changes suppliers and tastes. Walnut and later mahogany enter the polite room. Oak stays in the *kast* that already stood in the house. That is the same two-room story Macquoid told for England, told from a quay instead of a country-house corridor.
-
-A clerk at Helsingør wrote a cargo as wainscots or deals and collected the Sound Toll. He did not write a furniture style. Downstream, a Zaan mill set the balk on a carriage and took boards that a joiner in the Kalverstraat would plane into a door stile. The *kast* that results can stand in a canal house with a still-life of lemons on the wall and a Turkish carpet on the table — the painted Golden Age — while its interior smells of deal and linen. Open the lower door. The shelf cleats are nailed. The backboards run horizontal, often unsmoothed. That is the shipping economy made domestic. A small ebony string on a later cabinet in the same room is a tropical accent on a Baltic body. Do not let the string rename the *kast*.
 
 ## Conservation
 

@@ -16,9 +16,6 @@ era: "1200–1900"
 
 A medieval turned cup in yew is a small orange object with a cream rim if the turner left the sap. The pole lathe — spring pole, cord, a hook tool — is how a lot of that small work was made: bowls, cups, treen, the occasional fine box, a knob that feels like stone. The English longbow is the famous yew object. The furniture objects are closer to the ground. *Taxus baccata* is a conifer that behaves like a hard, elastic hardwood. Tight rings. No vessels. A shop that only knows oak and elm will miss it.
 
-<!-- staged embed for draft: yew-medieval-turnery -->
-<!-- paste into drafts/yew-medieval-turnery.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

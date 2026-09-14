@@ -15,9 +15,6 @@ era: "1850–present"
 
 A teak weather deck is a joinery problem before it is a luxury. Planks are laid with a seam, oakum is driven into that seam with a caulking iron, and the seam is paid with pitch or a later marine compound. The heartwood’s oil and the silica that dulls a plane are the same facts that keep the seam from rotting out as fast as a softwood deck. Leave the same wood in a garden without a film and it goes silver. Oil is a look, not a duty. The grey bench in the rain is doing what the wood does.
 
-<!-- staged embed for draft: teak-deck-and-garden -->
-<!-- paste into drafts/teak-deck-and-garden.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

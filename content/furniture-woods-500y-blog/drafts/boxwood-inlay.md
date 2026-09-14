@@ -16,9 +16,6 @@ era: "1600–present"
 
 A boxwood rule does not wear out in a hurry. Folding rules from the nineteenth-century tool trades — boxwood with brass joints — outlived the men who carried them in an apron. Thomas Bewick made end-grain box the ordinary wood-engraving block; the press then made it industrial. Furniture uses *Buxus sempervirens* the way a jeweler uses gold: stringing, banding, knobs, chessmen, the pale line in a dark walnut veneer. Nobody makes a press cupboard of box. The tree does not make the board. The line is the job.
 
-<!-- staged embed for draft: boxwood-inlay -->
-<!-- paste into drafts/boxwood-inlay.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

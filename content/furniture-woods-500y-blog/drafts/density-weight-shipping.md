@@ -14,9 +14,6 @@ era: "1500–present"
 
 A cubic foot of eastern white pine at handbook specific gravity 0.35 weighs on the order of 22 pounds at 12 percent moisture. A cubic foot of white oak at SG 0.68 weighs on the order of 47. A cubic foot of Gabon ebony, specific gravity near or above 1.0 in the compilations, is a crate that argues with the longshoreman and with the scale. Freight has always been part of furniture fashion. Thomas Ripley told the Admiralty that mahogany would be cheaper than deal or wainscot if Navy ships brought it home (Bowett, *Georgian Group Journal*, 1997). The wood was light enough, once the duty was gone, to carve in the solid. This draft is density as a shop number and as a shipping number. Figure 4 is the scatter. Figure 1 is the long trade that paid for the weight.
 
-<!-- staged embed for draft: density-weight-shipping -->
-<!-- paste into drafts/density-weight-shipping.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*
@@ -59,21 +56,21 @@ Weigh a “rosewood” suite. If it is light, it is not *Dalbergia*. If it is he
 
 Shipping finished furniture inland: a solid-oak dining table, 1¼-inch top, 42 × 84, is on the order of a hundred pounds in the top alone before legs `[CITE NEEDED: show the arithmetic with your actual SG and thickness if you publish a single pound figure]`. A walnut table of the same size is less. A mahogany table less again. A veneered ply table is a different, often lighter object with a heavier carbon story in the glue. Specify the object, not the wood word.
 
-Arkansas oak, walnut, cherry, and pine cover a useful density band without an ocean. Bradley Brand’s crates are domestic freight. That is not a halo. It is a shorter haul and a binomial you can spell. Stolen walnut still has a density. Lacey 2008 §8204 still applies if the log crossed a line.
+Arkansas oak, walnut, cherry, and pine cover a useful density band without an ocean. That is a shorter haul and a binomial you can spell, not a halo. Stolen walnut still has a density. Lacey 2008 §8204 still applies if the log crossed a line.
 
 ## How to read a piece by lift
 
 A 1760 mahogany chair is lighter than its oak country cousin of the same size. That is the fiber and the section. A 1962 Danish rosewood credenza is heavier than a teak one of the same outline. That is *Dalbergia* versus *Tectona*. A 2012 foil-wrapped dresser is heavy in the particleboard way and light in the face-veneer way. Lift, then look at the edge.
 
-Figure 4 places the ten anchors. Figure 1 places the ships. Density is why pine painted furniture could be tall, why mahogany could be thin, why rosewood became a piano case and a permit, and why a crate of ebony is a scale event. ## Navy freight, a Sound toll, and a container limit
+Figure 4 places the ten anchors. Figure 1 places the ships. Density is why pine painted furniture could be tall, why mahogany could be thin, why rosewood became a piano case and a permit, and why a crate of ebony is a scale event.
+
+## Navy freight, a Sound toll, and a container limit
 
 Ripley’s mahogany was a freight argument before it was a style argument. Navy ships already crossed. The duty cut of 1721 made the cubic foot worth carving. Baltic wainscot had paid the Sound toll for two centuries on a different cubic foot: oak, radial, dry. Albion’s *Forests and Sea Power* is the navy-oak neighbor of that sentence — masts and hulls, not dining tables, but the same scale. A wood that is heavy and cheap stays home. A wood that is light and dutied stays home. A wood that is heavy and precious travels as veneer or as a small object.
 
 Modern containers have a payload limit. A factory that fills a box with solid white-oak casework hits the limit before it hits the volume. The same box filled with pine painted furniture hits the volume first. That arithmetic is why veneered MDF suites can be a wall of storage that still ships, and why a solid-oak library is a local mill’s job. Figure 1’s late years include the CITES cluster. Those years also include a freight market that made cheap tropical rotary faces cheaper than domestic solids for a generation. Density did not cause that. The price of a cubic foot on a ship did.
 
-A specifier who writes a solid rift-oak reception desk, 2-inch top, 16 feet long, has written a hoist as well as a cut. Ask the stair. Ask the elevator. Ask the joist. The Janka number will not lift the desk.
-
-Hide glue adds ounces. A UF particleboard core adds pounds. A solid oak library table, 1¼-inch top, 42 × 96, is a two-person lift before the base. The same outline in walnut is less; in mahogany less again; in veneered birch ply a different, often lighter object. Write the thickness and the species on the shipping ticket. “Wood table” is how a crate gets reweighed at the dock and refused. Phase VII wants a mass and a binomial anyway. The scale and the appendix arrived in the same decade for a reason. Weight was always money. After 1 December 2024 it is also a line on a declaration.
+A specifier who writes a solid rift-oak reception desk, 2-inch top, 16 feet long, has written a hoist as well as a cut. Ask the stair. Ask the elevator. Ask the joist. The Janka number will not lift the desk. Write the thickness and the species on the shipping ticket. “Wood table” is how a crate gets reweighed at the dock and refused. Phase VII wants a mass and a binomial anyway. The scale and the appendix arrived in the same decade for a reason. Weight was always money. After 1 December 2024 it is also a line on a declaration.
 
 Look at the bill of lading and the corner of the piece. If they disagree, believe the scale.
 

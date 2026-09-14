@@ -16,10 +16,6 @@ era: "1500–1660"
 
 A joined stool in a parish church still does the job it was made for. Four legs, four rails, a seat that may have been replaced, and at each corner a mortise and tenon pinned with a draw-bored oak peg. The peg has lozenged in the hole. The shoulder is still tight. Victor Chinnery walked that joint until it stopped being a mystery and became manners — court cupboard, press, tester bed, the great chest with a till. Macquoid, opening the *Age of Oak* in 1904, treated this furniture as the first of four English timber ages and closed the age at 1660, when walnut veneer took the polite room. The kitchen did not read him. The church did not. The farm press did not. What changed in 1660 was fashion in a few rooms, not the fiber that held the house together.
 
-<!-- from staged-embeds/english-oak-great-furniture.md -->
-<!-- staged embed for draft: english-oak-great-furniture -->
-<!-- paste into drafts/english-oak-great-furniture.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

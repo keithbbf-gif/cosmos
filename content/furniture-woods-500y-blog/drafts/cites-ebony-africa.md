@@ -16,9 +16,6 @@ era: "1500–present"
 
 A piano key that is truly Gabon ebony is a small, dense, jet object, and a crate of the same wood is a customs argument. True ebonies are *Diospyros*. The furniture black of 17th-century Antwerp cabinets, of Boulle’s counterpart to brass, of piano sharps when the sharps were wood, and of Art Deco accents is this genus — or it is a stain on pear. Madagascar’s populations of *Diospyros* went onto CITES Appendix II at CoP16 (Bangkok, 2013), in force 12 June 2013, Annotation #5: logs, sawn wood, and veneer sheets. Gabon ebony, *Diospyros crassiflora*, is a West and Central African tree, IUCN Endangered, and a different listing question. Check Species+ the morning you specify it. This draft is the African black in shops and the paper that sometimes follows it. It is not a permit.
 
-<!-- staged embed for draft: cites-ebony-africa -->
-<!-- paste into drafts/cites-ebony-africa.md when the draft is merged -->
-
 ![Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).](../assets/cites-conservation/furniture-timber-listings.svg)
 
 *Figure 5. Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).*
@@ -63,7 +60,7 @@ Binomial. Harvest country. Date you checked Species+. If the wood is Madagascar 
 
 Repair patches imported as sawn stock follow the annotation. A gram of inlay in a traveler’s pocket is not a dining table; it can still be a specimen if the listing covers that form. This draft will not draw that line for you. USFWS will.
 
-Arkansas does not grow *Diospyros* of the jet furniture kind. Persimmon (*D. virginiana*) is a pale, hard, domestic cousin used for golf-club heads and some textile shuttles, not for Boulle. It will not be Gabon. It does not need to be. Bradley Brand’s dark hardwoods are walnut. Name them.
+Arkansas does not grow *Diospyros* of the jet furniture kind. Persimmon (*D. virginiana*) is a pale, hard, domestic cousin used for golf-club heads and some textile shuttles, not for Boulle. It will not be Gabon. It does not need to be. A dark domestic hardwood in the same shop is walnut. Name it.
 
 ## Keys, stringing, and a Boulle pair
 

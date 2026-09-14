@@ -16,9 +16,6 @@ era: "1830–1900"
 
 A parlor piano from about 1880 with a Brazilian rosewood case is a legal object in a living room and a paperwork object if you ship it across a border. *Dalbergia nigra* — jacaranda da Bahia — is the dark, fragrant, violet-brown wood of that case, of rococo-revival parlor sets, and of a forest in the Brazilian Atlantic that Warren Dean wrote as a destruction story (*With Broadax and Firebrand*). B. F. Kukachka, writing for the Forest Products Laboratory in 1970 (FPL-125), said something a furniture writer should keep on the bench: amazingly, there are no technical data for this species. Its early acceptance by the makers of classic furniture “mitigated against the need for a thorough academic study.” The piano came first. The Janka number came later, from compilations, not from Kukachka’s table.
 
-<!-- staged embed for draft: rosewood-victorian -->
-<!-- paste into drafts/rosewood-victorian.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

@@ -14,9 +14,6 @@ era: "1975–present"
 
 A container lands at Savannah. The packing list says “wood furniture.” The HTS code is a furniture code. Until Phase VII, a lot of those codes did not require a Lacey declaration. On 1 December 2024 they did, unless the product is 100 percent composite or sits in a remaining exemption APHIS still lists. The Federal Register notice of 31 May 2024 is the dated instrument. USDA APHIS’s Lacey Act declaration pages are the living ones. Check the date. This chapter is the present tense of the timber appendices, the 2008 plant amendments, and a dining table on a drawing. It is not a permit.
 
-<!-- staged embed for draft: conservation-today -->
-<!-- paste into drafts/conservation-today.md when the draft is merged -->
-
 ![Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).](../assets/cites-conservation/furniture-timber-listings.svg)
 
 *Figure 5. Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).*
@@ -43,7 +40,7 @@ Stolen walnut trees exist. Domestic wood is not automatically innocent. A Boone 
 
 Write binomials. *Quercus alba*, United States. *Juglans nigra*, United States. *Prunus serotina*, United States. *Tectona grandis*, plantation, country, certificate number. *Swietenia macrophylla* only with the permit path in the file — neotropical sawn wood is Annotation #6 paper after 15 November 2003, or a pre-Convention story USFWS will accept. *Dalbergia latifolia* as a finished sideboard is not a 10 kg jewelry box. *Shorea* spp. as a core only if you know the harvest country and you are willing to defend due care.
 
-Prefer domestic hardwoods when the job allows: oak, walnut, cherry, maple, hickory, ash (while the dry stock lasts), pine. Bradley Brand works those woods. That is a specification, not a sermon.
+Prefer domestic hardwoods when the job allows: oak, walnut, cherry, maple, hickory, ash (while the dry stock lasts), pine. That is a specification, not a sermon.
 
 For tropicals: old furniture already in the country, or new wood with boring paperwork. If the price of a “solid rosewood suite” is funny, the wood is funny. If the hangtag says mahogany and the pore looks like *Shorea*, the lauan chapter already told you.
 

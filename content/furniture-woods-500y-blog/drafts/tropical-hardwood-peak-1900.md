@@ -18,9 +18,6 @@ era: "1880–1914"
 
 By 1900 a Chicago or London factory could put Cuban mahogany, Bahia rosewood, Burma teak, and a strip of African ebony on the same invoice, and the woods would still mean the trees. Twenty years later the word mahogany had begun to leak toward *Khaya*. Forty years later lauan cores wore walnut photographs. The years on either side of 1900 are the last hour when the fashionable tropical names and the fashionable tropical genera still mostly matched — and the hour when the match was already breaking. Cuban *Swietenia mahagoni* in commercial furniture sizes was already a memory. Honduran *S. macrophylla* held the name. Brazilian *Dalbergia nigra* still arrived, thinner in log and thicker in veneer. Figure 1 is that crest: after Baltic oak and Bowett’s 1722 mahogany duty cut, before the CITES years.
 
-<!-- staged embed for draft: tropical-hardwood-peak-1900 -->
-<!-- paste into drafts/tropical-hardwood-peak-1900.md when the draft is merged -->
-
 ![Milestone years in the long furniture-timber trade, from Baltic oak through tropical hardwoods to CITES enforcement.](../assets/timber-trade-500y/timeline.svg)
 
 *Figure 1. Milestone years in the long furniture-timber trade, from Baltic oak through tropical hardwoods to CITES enforcement.*
@@ -73,7 +70,7 @@ Railroad and steamship freight made the crest possible. A Bahia log and a Rangoo
 
 ## The later brake, already latent
 
-Figure 1’s right-hand marks are the papers the 1900 factory did not file. Neotropical *S. macrophylla* entered CITES Appendix II on 15 November 2003 (decision 2002; press release 11 November 2003), typically for logs, sawn wood, veneer, plywood. *D. nigra* went onto Appendix I. The rest of *Dalbergia* followed onto Appendix II on 2 January 2017, Annotation #15 as later revised for instruments and small finished goods. Madagascar ebonies took their own listings. The U.S. Lacey Act as amended in 2008, and APHIS Phase VII (1 December 2024), make a binomial part of the crate.
+Figure 1’s right-hand marks are the papers the 1900 factory did not file. Neotropical *S. macrophylla* entered CITES Appendix II on 15 November 2003 (decision 2002; press release 11 November 2003), typically for logs, sawn wood, veneer, plywood. *D. nigra* went onto Appendix I on 11 June 1992. The rest of *Dalbergia* followed onto Appendix II on 2 January 2017, Annotation #15 as later revised for instruments and small finished goods. Madagascar ebonies took their own listings. The U.S. Lacey Act as amended in 2008, and APHIS Phase VII (1 December 2024), make a binomial part of the crate.
 
 A 1900 suite already in the country is usually legal to own. A new suite that borrows its names is a labeling problem. The peak is why the appendices exist. The appendices are not why the peak ended. Exhaustion and substitution ended it. The law arrived after the vocabulary had already slipped.
 

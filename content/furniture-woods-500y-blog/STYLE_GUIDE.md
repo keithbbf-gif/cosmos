@@ -35,17 +35,28 @@ Conservation claims (CITES appendix, Lacey Act phase, IUCN status) need a dated 
 
 Do not invent a voyage, a price, or a royal commission. If a story is too good and the paper is thin, say so.
 
+## Files
+
+Canonical drafts live in `drafts/<slug>.md`. Slug list: `writer-slugs.json` (46). Do not add a second article tree. The retired `articles/` numbered set used different slugs and is gone.
+
+After the lede, paste the matching block from `staged-embeds/<slug>.md` (figure paths are relative to `drafts/`: `../assets/...`). Keep the figure caption. Do not leave production comments (`paste into drafts`, `staged embed for draft`) in the published body.
+
+CITES and Lacey chapters must say they are **not a permit**. Confirm Species+ and the national instrument before anyone ships.
+
 ## Structure of an article
 
 1. Open on an object, a port, a mill, or a failure — something a reader can see.
 2. Name the tree(s).
 3. Say how the wood behaves: density, grain, movement, tools, finish.
-4. Walk the furniture history, including colonial and imperial extraction where it is true.
-5. Say what is scarce, regulated, or substituted now.
-6. Leave the reader with one way to look at a piece in the room.
-7. End with sources and cross-links, not a sermon.
+4. Say what the fiber does to the **joint** — mortise, splat, breadboard, steam-bend, veneer ground, knockdown, inlay rebate. A species hour without joinery is unfinished.
+5. Walk the furniture history, including colonial and imperial extraction where it is true.
+6. Say what is scarce, regulated, or substituted now.
+7. Leave the reader with one way to look at a piece in the room.
+8. End with sources and cross-links, not a sermon.
 
-Target 1,400–2,200 words of body text. Frontmatter and source lists do not count toward the band.
+One unified essay. No “original” plus a repeating appendix. No recap that restates the lede.
+
+Target 1,400–2,200 words of body text. Frontmatter, figure captions, and source lists do not count toward the band.
 
 ## Frontmatter (every article)
 

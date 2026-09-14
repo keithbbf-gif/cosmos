@@ -16,9 +16,6 @@ era: "1992–present"
 
 A rosewood dining table is not a jewelry box. That sentence is the whole of Annotation #15, said as furniture. On 2 January 2017 the genus *Dalbergia* — every rosewood and palisander except the one already on Appendix I — entered CITES Appendix II. The decision was CoP17, Johannesburg, 2016. The annotation that came with it was #15. CoP18, Geneva, 2019, revised #15 so that finished musical instruments, finished instrument parts and accessories, and finished products up to 10 kg of wood of the listed species per shipment would not freeze concerts and small boxes. A sideboard that holds eighty kilograms of *D. latifolia* is not in that sentence. This draft is the genus listing and the annotation. It is not a permit.
 
-<!-- staged embed for draft: cites-dalbergia-2017 -->
-<!-- paste into drafts/cites-dalbergia-2017.md when the draft is merged -->
-
 ![Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).](../assets/cites-conservation/furniture-timber-listings.svg)
 
 *Figure 5. Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).*
@@ -79,9 +76,7 @@ Look at the weight and the invoice. If the crate is a table, do not quote the in
 
 The 2017 listing hit two trades that had shared a genus and not a paperwork culture. Guitar shops already knew *D. nigra* as Appendix I. They did not all know that *D. latifolia* fingerboards and *D. retusa* bridges would become Appendix II specimens on 2 January. The first year of #15 produced a pile of industry notes and a pile of seized or delayed shipments. CoP18’s instrument exemption was the political answer to that pile. Furniture factories had less of a lobby and less of an exemption. A sliced rosewood leaf for a High Point door run is still sawn wood or veneer in annotation English. It is not a Chapter 92 object. It is not 10 kg of listed wood in a finished box. It is why the genus was listed.
 
-Kingwood and tulipwood — *D. cearensis*, *D. decipula*, the ébéniste’s small woods — sit in the same genus and the same 2017 net. A banding line on a French commode already in a museum is not a new import. A new banding stock from an unnamed supplier is. The kingwood chapter in this series is the craft. This chapter is the date.
-
-Look at the weight and the invoice. If the crate is a table, do not quote the instrument exemption. If the crate is a guitar, read Taylor’s note and then read Species+. If the crate is an 1880 piano in *D. nigra*, you are on Appendix I and the living-room rule is not the airport rule.
+Kingwood and tulipwood — *D. cearensis*, *D. decipularis*, the ébéniste’s small woods — sit in the same genus and the same 2017 net. A banding line on a French commode already in a museum is not a new import. A new banding stock from an unnamed supplier is.
 
 The smell in a fresh kerf is a pleasure. The permit is the price of that pleasure crossing a border. This page does not sell either.
 

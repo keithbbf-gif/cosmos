@@ -15,9 +15,6 @@ era: "1800–present"
 
 A plantation board of *Tectona grandis* can be *Tectona* and still disappoint a buyer who paid for a Burma story. Wide rings, paler heart, less oil, a specific gravity that sits at the light end of the handbook range. The anatomy is the same ring-porous brown. The folklore grade — tight, dark, greasy — is a different growing year and a different forest politics. “Sustainable” on a hang-tag is not a binomial and not a permit. The papers are the piece.
 
-<!-- staged embed for draft: sustainable-teak-plantations -->
-<!-- paste into drafts/sustainable-teak-plantations.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*

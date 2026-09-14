@@ -16,9 +16,6 @@ era: "1700–present"
 
 A mill in the Great Lakes belt opens a sugar-maple log and finds a constellation. The leaves go to a veneer dryer, then to a factory that will glue them onto a cheaper ground for a Federal-revival card table, a radio cabinet, a 1940s bedroom suite whose catalogue says “maple” and means a color. The same genus turns a Windsor leg that takes a crisp bead, and it floors a bowling alley because the Janka number is 1,450 lbf and the fiber does not fuzz under feet. Figure is not a species. Factory pale is not a forest.
 
-<!-- staged embed for draft: maple-birdseye-factory -->
-<!-- paste into drafts/maple-birdseye-factory.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

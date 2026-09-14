@@ -16,9 +16,6 @@ era: "1770–1820"
 
 Macquoid’s fourth age, from about 1770, is named for a yellow wood that takes a polish like dry silk. A Hepplewhite or Sheraton card table — satinwood veneer, perhaps a harewood border, painted swags on a golden ground — is the object that taught English fashionable rooms to go pale after mahogany’s brown decades. Robert Adam’s interiors wanted classical light. Satinwood did what gilding did, with grain. Hepplewhite’s *Guide* (1788) and Sheraton’s *Drawing-Book* (1793) assume the color. Two trees, not one, carried the name.
 
-<!-- staged embed for draft: satinwood-adam-style -->
-<!-- paste into drafts/satinwood-adam-style.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

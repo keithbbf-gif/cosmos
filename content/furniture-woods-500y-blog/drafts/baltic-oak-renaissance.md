@@ -16,10 +16,6 @@ era: "1500–1660"
 
 A linenfold chest in a London hall can look as local as the parish. Lift a panel and send a slice of the end grain to a dendrochronologist and the rings often refuse England. They match the slow-grown oaks of the south-eastern Baltic — the hinterlands that fed Gdansk, then Königsberg and Courland — the boards the trade called wainscot and the Dutch called *wagenschot*. Haneca and colleagues, writing in the *Journal of Archaeological Science* in 2005, showed how art-historical oak can be provenanced by those ring patterns. In 1565, they note, 85 percent of the wainscots that passed the Danish Sound shipped from Gdansk. The carving may be English. The fiber is a North Sea cargo.
 
-<!-- from staged-embeds/baltic-oak-renaissance.md -->
-<!-- staged embed for draft: baltic-oak-renaissance -->
-<!-- paste into drafts/baltic-oak-renaissance.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*

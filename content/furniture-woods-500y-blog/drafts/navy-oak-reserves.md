@@ -18,10 +18,6 @@ era: "1652–1862"
 
 A grown crook lies in a dockyard slip at Deptford or Portsmouth: a knee, the angle between a branch and a trunk that a sawyer cannot invent. Surveyors of the Woods marked such trees in the Forest of Dean and the New Forest. Straight balks for planks might come from the same English stands, or from the Baltic, or later from North American white oak. Robert G. Albion’s *Forests and Sea Power: The Timber Problem of the Royal Navy, 1652–1862* (Harvard, 1926) is the book that treats those marks as strategy. Furniture shops lived on what the yards did not take. A joined press and a seventy-four’s frame are not the same object. They are often the same genus in a fight over the same bole.
 
-<!-- from staged-embeds/navy-oak-reserves.md -->
-<!-- staged embed for draft: navy-oak-reserves -->
-<!-- paste into drafts/navy-oak-reserves.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*
@@ -48,7 +44,7 @@ Home English oak built frames of ships and frames of presses. The conversion dif
 
 The Naval Stores Act of 1721 (in force 1722) is Bowett’s mahogany statute: duty off British West Indian timber. It belongs in the mahogany draft. It belongs here only as proof that the navy’s freight and the furniture trade shared ships and statutes. Ripley’s sentence — mahogany cheaper than deal or wainscot when carried freight-free — is an Admiralty accountant talking. Wainscot was still the comparison wood.
 
-Do not invent a price per load or a named convoy. Albion and the port books are the place to read those numbers when a library copy is open. This draft will not fake a ledger.
+Do not invent a price per load or a named convoy. Albion and the port books are the place to read those numbers when a library copy is open. An invented ledger is worse than a gap.
 
 ## Joinery
 

@@ -14,9 +14,6 @@ era: "1500–present"
 
 A dining-room door that split down a glued-up cathedral in January is a flatsawn lesson. The rings on the end grain run parallel to the face. The width of the door is mostly tangential grain. Tangential shrinkage is the large number in the *Wood Handbook* tables (FPL-GTR-190, ch. 4). The shop that glued the panel into a tight groove, or glued a breadboard across the whole end, asked the wood to be plywood. It is not. Frame-and-panel is not a style. It is manners for a wide board. This draft is the cathedral face: how you get it, what it does in a heated room, and why a panel that can shrink is the old answer.
 
-<!-- staged embed for draft: flatsawn-panel-figure -->
-<!-- paste into drafts/flatsawn-panel-figure.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*
@@ -63,7 +60,7 @@ Period: a 1600 joined chest with ray flake is doing a different job. A 1760 two-
 
 Cost: flatsawing wastes less of the log than quartering. That is why it won. A true quartersawn white-oak dining table still costs more per foot than a flatsawn one from the same kiln charge. Designers who want the arch should say flatsawn and then say how the width will move. Designers who write “solid oak” and get a cathedral they did not expect have not specified a cut.
 
-Arkansas white oak flatsaws into loud earlywood pores and a stain problem if you wanted quiet. It also flatsaws into a handsome kitchen table if the breadboard is slotted and the finish is honest. Bradley Brand’s hardwoods include that table. The cut is a choice. The split door is what happens when the choice is the face without the manners.
+Arkansas white oak flatsaws into loud earlywood pores and a stain problem if you wanted quiet. It also flatsaws into a handsome kitchen table if the breadboard is slotted and the finish is honest. The cut is a choice. The split door is what happens when the choice is the face without the manners.
 
 ## A glue line that was the middle of the tree
 

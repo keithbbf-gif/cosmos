@@ -16,9 +16,6 @@ era: "1700–present"
 
 A Windsor bow coming off a form is ash doing the work fashion used to ignore. The piece was in the steam box until the fibers would move. It was pulled around iron or timber, clamped, and left to set. The same long fiber made tennis frames, tool handles, wagon gear, and the white-ash baseball bat until maple and aluminum took shares. Furniture treated ash as a servant until Mission shops and later pale interiors noticed the open grain. Then a beetle from Asia arrived in Michigan in 2002 and the servant’s tree began to die in streets and woodlots across the eastern United States.
 
-<!-- staged embed for draft: ash-sporting-chairs -->
-<!-- paste into drafts/ash-sporting-chairs.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

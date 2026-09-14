@@ -17,9 +17,6 @@ era: "1975–present"
 
 A dining table in “genuine mahogany” and a bundle of sawn *Swietenia macrophylla* on a mill floor are not the same CITES object. Neotropical populations of big-leaf mahogany entered Appendix II at CoP12 (Santiago, 2002), in force 15 November 2003. The annotation is #6: logs, sawn wood, veneer sheets, and plywood. Finished furniture may sit outside that list. The mill that imported the boards does not. The CITES press release of 11 November 2003 is the dated public notice. This draft is the permit path for the genus the Chippendale shop already used. It is not a permit. It will not issue one.
 
-<!-- staged embed for draft: cites-swietenia-permits -->
-<!-- paste into drafts/cites-swietenia-permits.md when the draft is merged -->
-
 ![Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).](../assets/cites-conservation/furniture-timber-listings.svg)
 
 *Figure 5. Illustrative origin regions for CITES-listed furniture timbers; confirm appendix status at publication time (cites.org).*

@@ -16,10 +16,6 @@ era: "1702–1755"
 
 A cabriole leg ends in a pad foot. The knee may carry a shell. The splat is a solid vase, not yet the pierced lace of a *Director* plate. In London the show wood is still often *Juglans regia*, a veneer on oak or deal, or a solid leg joined to a veneered seat rail. In Philadelphia or the Virginia Piedmont the same silhouette can be *Juglans nigra* in the solid, sap streak and all. Queen Anne is an English reign (1702–1714) and an American style that runs later, into the 1750s. Bowett’s *English Furniture 1660–1714* and *Early Georgian Furniture 1715–1740* are the London books. Winterthur and Hurst and Prown are the American rooms. The chair is one fashion. The fiber is two continents.
 
-<!-- from staged-embeds/walnut-queen-anne.md -->
-<!-- staged embed for draft: walnut-queen-anne -->
-<!-- paste into drafts/walnut-queen-anne.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

@@ -14,9 +14,6 @@ era: "1660–present"
 
 A crotch-mahogany face on a yellow-poplar drawer front, American Empire, that has checked into a thousand hairlines is a veneer lesson. The leaf wanted to stay put. The ground moved across the grain. The hide glue went brittle. The picture of the tree opened. Solid wood would have moved as one piece — cupped, shrunk, maybe split along a glue line — but it would not have been a skin riding a different species. Veneer is not a sin. It is a contract: a thin face, a ground, an adhesive, and a weather. This draft is that contract, from oyster walnut to foil on particleboard.
 
-<!-- staged embed for draft: veneer-versus-solid -->
-<!-- paste into drafts/veneer-versus-solid.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*
@@ -63,7 +60,7 @@ Look at the failure. Checks in a crotch that follow no board joint: veneer on a 
 
 Specify: face species, cut of the face (crown, quarter, rift, rotary), thickness of the leaf, core species, glue, and whether the edges are solid. Or: solid *Quercus alba*, flatsawn, floating panels, slotted screws in the breadboard, hide glue if the piece should come apart in a hundred years. Those are different objects. “Walnut dining table” is not a specification.
 
-Arkansas shops meet veneer as imported faces on imported cores, and as domestic walnut and oak leaves on domestic ply or on yellow-poplar for paint-grade work. Bradley Brand’s hardwoods are the solid side of that rack. The useful sentence is the long one. The Eames DCM and a printed suburban suite share a century. They do not share a glue, a mould, or a noun.
+Arkansas shops meet veneer as imported faces on imported cores, and as domestic walnut and oak leaves on domestic ply or on yellow-poplar for paint-grade work. The solid side of that rack is the older contract. The useful sentence is the long one. The Eames DCM and a printed suburban suite share a century. They do not share a glue, a mould, or a noun.
 
 ## Oyster, crotch, and a foil that blistered
 

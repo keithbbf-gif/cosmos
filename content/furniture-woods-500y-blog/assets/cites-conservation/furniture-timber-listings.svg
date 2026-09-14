@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 488" width="900" height="488" role="img" aria-labelledby="title desc">
+  <title id="title">Where listing meets the trade</title>
+  <desc id="desc">Schematic map with CITES appendix notes for commonly traded furniture timbers.</desc>
+  <rect width="100%" height="100%" fill="#faf9f6"/>
+  
+  <text x="48" y="36" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0.12em" fill="#78716c">FIGURE 5</text>
+  <text x="48" y="62" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#1c1917">Where listing meets the trade</text>
+  <line x1="48" y1="74" x2="852" y2="74" stroke="#e7e5e4" stroke-width="1"/>
+
+  <g transform="translate(0, 0)">
+  
+    <path d="M120 140 L200 110 L240 150 L220 220 L150 240 L110 190 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    <path d="M170 250 L230 230 L260 300 L210 330 L150 310 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    <path d="M400 120 L470 110 L500 150 L480 200 L420 210 L390 160 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    <path d="M420 220 L520 210 L540 290 L460 310 L400 270 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    <path d="M560 130 L700 120 L740 200 L680 260 L580 240 L550 180 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    <path d="M620 280 L700 270 L720 320 L650 340 Z" fill="#e7e5e4" stroke="#1c1917" stroke-width="0.75"/>
+    
+    <path d="M170 250 L230 230 L260 300 L210 330 L150 310 Z" fill="#57534e" opacity="0.18"/>
+    <path d="M420 220 L520 210 L540 290 L460 310 L400 270 Z" fill="#57534e" opacity="0.22"/>
+    <path d="M560 130 L700 120 L740 200 L680 260 L580 240 L550 180 Z" fill="#57534e" opacity="0.2"/>
+    
+    <text x="48" y="120" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="14" fill="#1c1917">CITES touchpoints for traded furniture woods</text>
+    <text x="48" y="340" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#1c1917">• Americas — Swietenia macrophylla (App. II, 1992); Dalbergia nigra (App. I)</text>
+    <text x="48" y="358" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#1c1917">• Africa — Diospyros crassiflora (App. II); Khaya spp. (App. II)</text>
+    <text x="48" y="376" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#1c1917">• South &amp; SE Asia — Dalbergia latifolia (App. II); teak under national export controls</text>
+    
+  </g>
+  <line x1="48" y1="400" x2="852" y2="400" stroke="#e7e5e4" stroke-width="1"/>
+  <text x="48" y="424" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="13" fill="#1c1917">Shaded regions show where listed tropical furniture species originate; temperate oaks and pines are generally not CITES-listed.</text>
+  <text x="48" y="444" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" fill="#78716c">Appendix status: cites.org (verify before publication). Map is illustrative only.</text>
+</svg>

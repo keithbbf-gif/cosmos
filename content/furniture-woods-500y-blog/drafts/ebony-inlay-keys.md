@@ -17,9 +17,6 @@ era: "1600–present"
 
 André-Charles Boulle’s cabinets in the Wallace Collection are brass and turtle cut as one picture, the black ground a *Diospyros* that takes a polish like stone. The name *ébéniste* comes from this wood. Most of the job, by the time Riesener was shading a flower in kingwood, was a tropical palette that was not ebony. The black that people mean when they say the word is still a small, heavy, fine-textured heartwood used for lines, keys, and the counterpart to brass — not for dining tables. Kukachka (FPL-125) put African commercial ebony at about 63 pounds per cubic foot and Ceylon *D. ebenum* at about 73. A solid Gabon chest would be a monster of weight. A piano’s sharp keys, when they were wood, were this genus in strips.
 
-<!-- staged embed for draft: ebony-inlay-keys -->
-<!-- paste into drafts/ebony-inlay-keys.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

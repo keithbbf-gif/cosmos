@@ -17,9 +17,6 @@ era: "1785–1825"
 
 Duncan Phyfe’s New York shop, on the street that became Fulton, sold a shield-back chair whose splat is thinner than a Chippendale splat and quieter. The wood is still mahogany. The statute that made Jamaica logs cheap enough to carve in London — the Naval Stores Act of 1721, in force 1722 — is Adam Bowett’s English story (*The English Mahogany Trade 1700–1793*; *Georgian Group Journal*, 1997). Federal America inherited the fiber and the Atlantic lane, not the duty cut. After independence the same *Swietenia* came in under American customs, to shops that already knew yellow-poplar as a servant. The chair is a Hepplewhite plate in a New World carcase.
 
-<!-- staged embed for draft: mahogany-federal-america -->
-<!-- paste into drafts/mahogany-federal-america.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*

@@ -17,10 +17,6 @@ era: "1875–1916"
 
 Gustav Stickley’s Craftsman Workshops at Eastwood, on the edge of Syracuse, hung white oak in a tent with aqueous ammonia. The tree’s tannin went brown in the fiber, not only in the pore. Ray flake — the silver grain English joiners already knew from riven wainscot — went darker or lighter than the ground, depending on the board. *The Craftsman* (1901–1916) published the settle and the library table as if the reader already knew the tent. William Morris, in *Hopes and Fears for Art* (1882) and in the practice of Morris & Co., had already set oak and the visible joint against ebonized mahogany pretence. The fashion of 1900 is a sawing choice and a chemistry choice. Figure 3 is the sawing. The tent is the chemistry.
 
-<!-- from staged-embeds/quartersawn-arts-crafts.md -->
-<!-- staged embed for draft: quartersawn-arts-crafts -->
-<!-- paste into drafts/quartersawn-arts-crafts.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*

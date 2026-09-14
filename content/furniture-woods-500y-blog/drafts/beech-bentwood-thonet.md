@@ -16,9 +16,6 @@ era: "1850–1930"
 
 In 1859 the Gebrüder Thonet put a café chair on the market that was six pieces of steamed beech, ten screws, two nuts, and a cane seat. The V&A’s early example (W.31-2011) is thin and exact; later No. 14s grew thicker. Philadelphia Museum of Art notes the shipping arithmetic: thirty-six dismantled chairs to a crate. Some fifty million are said to have been made by 1930 (V&A texts). The chair is famous. The wood is why the chair exists. *Fagus sylvatica* in Moravian and Austrian forests bent in iron moulds after a steam bath, dried, and packed flat. Oak would not have done this at that price. Walnut would not have grown in those stands. Beech did.
 
-<!-- staged embed for draft: beech-bentwood-thonet -->
-<!-- paste into drafts/beech-bentwood-thonet.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

@@ -16,10 +16,6 @@ era: "1660–1700"
 
 When Charles II came back in 1660, a London chair changed color. Cane in the seat, scroll in the stretcher, and a thin skin of *Juglans regia* — grey-brown, streaked, sometimes an oyster of transverse slices — over a carcase of oak or deal. Macquoid later called the years to 1720 the Age of Walnut. French and Italian rooms had already been there. Dutch taste arrived with people and with prints. Adam Bowett’s *English Furniture 1660–1714: From Charles II to Queen Anne* is the construction-and-trade book that keeps the oysters attached to a shop, not to a mood. Open the drawer of a William-and-Mary card table. The sides are pale. The grain does not match the top. That is correct.
 
-<!-- from staged-embeds/walnut-baroque.md -->
-<!-- staged embed for draft: walnut-baroque -->
-<!-- paste into drafts/walnut-baroque.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

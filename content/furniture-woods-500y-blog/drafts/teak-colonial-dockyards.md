@@ -15,9 +15,6 @@ era: "1600–1900"
 
 HMS *Trincomalee* left the Bombay Dockyard in 1817 as a 46-gun frigate of Malabar teak. The Wadia yard had already sent *Salsette* (1807) and the seventy-four *Minden* (1810) into Admiralty service. Home oak was short; teak did not splinter like English oak under shot, and it did not eat iron the way oak tannin does (Albion, *Forests and Sea Power*; the Bombay experiment after 1802). The same heartwood that framed a hull lined a campaign chest: oily, siliceous, indifferent to a hold. Furniture inherited a dockyard wood. It did not invent one.
 
-<!-- staged embed for draft: teak-colonial-dockyards -->
-<!-- paste into drafts/teak-colonial-dockyards.md when the draft is merged -->
-
 ![Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.](../assets/timber-trade-500y/trade-lanes.svg)
 
 *Figure 2. Three parallel supply chains — Baltic oak, Atlantic mahogany, and Indian Ocean teak — with documentary milestone years.*
@@ -36,7 +33,7 @@ Indian shipwrights used Malabar and Canara teak long before the East India Compa
 
 ## Bombay, then Rangoon and Moulmein
 
-The Napoleonic emergency is the documentary hinge. Oak in the home yards was a known shortage (Albion). Officers had reported favorably on teak-built ships in action. A first teak-constructed ship sailed up the Thames in 1795; the Bombay Marine’s *Cornwallis* impressed the Admiralty enough that they bought her and then asked for a ship of the line and a frigate a year from Bombay. The stock of timber and plank at the Presidency, collected since the 1802 order to build men-of-war, was said to equal three years’ consumption, replenished from Canara and Malabar. Do not invent a price per load. The species, the yard, and the statute-and-contract paper are enough.
+The Napoleonic emergency is the documentary hinge. Oak in the home yards was a known shortage (Albion). Officers had reported favorably on teak-built ships in action. A first teak-constructed ship sailed up the Thames in 1795; the Bombay Marine’s *Cornwallis* impressed the Admiralty enough that they bought her and then asked for a ship of the line and a frigate a year from Bombay. The stock of timber and plank at the Presidency, collected since the 1802 order to build men-of-war, was said to equal three years’ consumption, replenished from Canara and Malabar `[CITE NEEDED: the Admiralty or Bombay yard minute that states the three-year figure]`. Do not invent a price per load. The species, the yard, and the statute-and-contract paper are enough.
 
 Parsi Wadia master builders — Lowjee the founder of the yard, later Jamsetjee Bomanjee and his line — built the Admiralty teak ships. *Trincomalee*’s keel went down in the upper old dock on 25 April 1816, after *Amphitrite* and the Company ship *Buckinghamshire* floated out. She is still afloat as a museum hull. That longevity is the furniture argument in naval clothes: heartwood that does not sulk in salt and weather.
 
@@ -50,7 +47,7 @@ Campaign furniture is a military-administrative style: brass corners, flush hand
 
 Nicholas Brawer’s survey of British campaign furniture is the modern catalogue habit `[CITE NEEDED: confirm edition and the teak-versus-mahogany split in the plates]`. Morgan & Sanders and later campaign shops sold the form to officers who were already living in a teak climate. Some chests are mahogany with teak slats; some are teak throughout; some are camphor or *Cedrela* cousins sold under a cedar word. A lens on an unseen rail ends the argument. The dockyard wood and the parlor wood share a binomial. They do not share a finish schedule.
 
-Deck work taught the same manners. Teak planks on a weather deck are caulked: oakum driven into the seam with a caulking iron, then paid with pitch or marine glue. The oil in the heartwood and the silica that dulls a plane are the same facts that keep a seam from rotting out as fast as a softwood deck. The furniture chapter that follows (`teak-deck-and-garden`) takes the grey bench and the patio. This draft stops at the yard and the chest that left it.
+Deck work taught the same manners. Teak planks on a weather deck are caulked: oakum driven into the seam with a caulking iron, then paid with pitch or marine glue. The oil in the heartwood and the silica that dulls a plane are the same facts that keep a seam from rotting out as fast as a softwood deck. The furniture chapter that follows (`teak-deck-and-garden`) takes the grey bench and the patio. The yard and the chest that left it are this hour’s objects.
 
 ## Java planted; China used; London barely named it
 

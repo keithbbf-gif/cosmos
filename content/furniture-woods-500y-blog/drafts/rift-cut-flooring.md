@@ -14,9 +14,6 @@ era: "1500–present"
 
 A run of dining-chair legs that do not match is usually a flatsawn run. Two faces show cathedrals. Two faces show something quieter. The set looks like leftovers. Rift cut — rings at about 30 to 60 degrees to the face — gives a straight stripe on all four sides, or close enough that a shop can sell twelve chairs. Yield is worse than slabbing the log. Complaints are fewer. Floors that want a quiet, linear oak without flake are the same cut in a longer piece. This draft is the compromise face: furniture first, then the floor that borrowed the name.
 
-<!-- staged embed for draft: rift-cut-flooring -->
-<!-- paste into drafts/rift-cut-flooring.md when the draft is merged -->
-
 ![Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.](../assets/grain-cuts/sawn-orientation.svg)
 
 *Figure 3. Tangential, radial, and rift cuts through a log and the face-grain patterns they produce in finished boards.*
@@ -61,7 +58,7 @@ Sapele and some *Swietenia* show ribbon when quartered — interlocked grain rev
 
 Walk a dining room. If the chair legs match on all four faces and the table top is a two-board cathedral, someone specified two cuts and paid for both. If the chair legs are a jumble of arches and stripes, someone bought “oak” and hoped. If the floor under them is a straight, quiet oak without flake, it is probably rift or a mixed Q&R that was sorted. If the floor is a cathedral every board, it is plainsawn and cheaper, and it will cup more in a dry season if the boards are wide.
 
-Arkansas white oak rifts well. The rays are there if you quarter; they stay shy if you rift. Bradley Brand’s shop can buy either from the same forests that filled American shops in 1800, second-growth rings and kiln schedules aside. Specify the face. Specify white if you want tannin and a quieter pore than red. The 1740 Danzig price Bowett recorded was a freight and dryness price as much as a cut price. The modern premium is the waste.
+Arkansas white oak rifts well. The rays are there if you quarter; they stay shy if you rift. The same forests that filled American shops in 1800 still yield both cuts, second-growth rings and kiln schedules aside. Specify the face. Specify white if you want tannin and a quieter pore than red. The 1740 Danzig price Bowett recorded was a freight and dryness price as much as a cut price. The modern premium is the waste.
 
 ## Nail, tongue, and a dry apartment
 

@@ -17,9 +17,6 @@ era: "1790–present"
 
 Leave a newly planed board of American black cherry in a sunny shop for a month, half of it under a scrap of plywood. Take the scrap off. The exposed wood has gone toward russet. The masked wood is still the color of a peeled stick. Clients call the dark “cherry.” They mean the sunburn. Shaker communities put that wood on the pieces that faced the room: stands, some case fronts, the meetinghouse color that maple would not become. John Kassay’s measured plates and Rieman and Burks’s catalogue are the furniture fact. The theology of simplicity has been written to death.
 
-<!-- staged embed for draft: cherry-shaker -->
-<!-- paste into drafts/cherry-shaker.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

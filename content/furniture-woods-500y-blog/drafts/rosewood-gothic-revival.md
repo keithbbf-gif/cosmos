@@ -16,9 +16,6 @@ era: "1835–1870"
 
 A. W. N. Pugin wanted oak. Church furniture, the Houses of Parliament fittings, the moral argument that a pointed arch should sit in a northern hardwood — that is the English Gothic Revival most people can name. Walk into an American parlor of 1848 and the pointed arch is often rosewood. J. and J. W. Meeks, Alexander Roux, a dozen New York and Philadelphia shops carved quatrefoils and clustered colonnettes in *Dalbergia* veneer on pine or yellow-poplar. The wood is the same Bahia or East Indian rosewood the rococo parlor used. The silhouette is a cathedral quoted in a dark, oily leaf. Oak stayed in the hall and the church. Rosewood took the front room.
 
-<!-- staged embed for draft: rosewood-gothic-revival -->
-<!-- paste into drafts/rosewood-gothic-revival.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

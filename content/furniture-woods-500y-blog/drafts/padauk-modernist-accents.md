@@ -16,9 +16,6 @@ era: "1900–present"
 
 African padauk arrives in the shop as an argument about color. Fresh heartwood of *Pterocarpus soyauxii* is a deep, almost unreasonable red. Kukachka (FPL-125) called it striking, the sapwood grayish-white and up to eight inches thick, sharply defined. Then light and time pull the red toward brown, the way cherry pulls toward a deeper red-brown, only louder. Modernists who used it as a stripe, a door, a pull, or a chair that was meant to be a flame were borrowing a dye-wood’s manners for furniture. The tree is not a mahogany and not a rosewood. The invoices that called it both were selling a hue.
 
-<!-- staged embed for draft: padauk-modernist-accents -->
-<!-- paste into drafts/padauk-modernist-accents.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

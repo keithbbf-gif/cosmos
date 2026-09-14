@@ -14,9 +14,6 @@ era: "1500–present"
 
 A pine tavern table dents under a buckle. A sugar-maple counter does not. The laboratory version of that observation is a steel ball, 0.444 inch in diameter, pressed into the side of a specimen to half its diameter. The load, in pounds-force, is the Janka side hardness. The USDA Forest Products Laboratory reports it at 12 percent moisture content (*Wood Handbook*, FPL-GTR-190, tables 5–3a and following; Green, Begel, and Nelson, FPL-RN-0303, on nonstandard specimens). The number is an average. Your board is a sample of one. This draft is what the ball measures, what it does not, and why a dining table and a floor cite the same test for different reasons.
 
-<!-- staged embed for draft: janka-hardness-explained -->
-<!-- paste into drafts/janka-hardness-explained.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*
@@ -74,7 +71,7 @@ CITES does not care about Janka. *Dalbergia* on Appendix II (2 January 2017, Ann
 
 Stand a pine tavern table next to a maple counter. Press a thumbnail into an unseen arris. That is the test without the machine. Then look at the job. A show top that must stay clean: maple, oak, hickory, or a finish you will renew. A carved splat: mahogany or walnut, and a section that forgives the gouge. A Windsor seat: elm, for split resistance you cannot read on Figure 4. A blanket chest: pine, and an honest expectation of dents.
 
-Arkansas white oak, maple, hickory, cherry, and walnut cover most of the table. Bradley Brand works those rows. The number on the wall is FPL’s, at 12 percent, side hardness. Your board will vary. Specify the species and the job. Do not specify “hardwood” and hope the ball is on your side.
+Arkansas white oak, maple, hickory, cherry, and walnut cover most of the table. The number on the wall is FPL’s, at 12 percent, side hardness. Your board will vary. Specify the species and the job. Do not specify “hardwood” and hope the ball is on your side.
 
 ## Floors, counters, and a number that got advertised
 

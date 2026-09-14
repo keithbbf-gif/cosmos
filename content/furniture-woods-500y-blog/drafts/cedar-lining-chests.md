@@ -17,9 +17,6 @@ era: "1700–present"
 
 Open a late-nineteenth-century Pennsylvania or Shenandoah Valley chest in January and the first fact is smell. Eastern redcedar heartwood carries a kitchen-spice note shops still sell as moth insurance. “Cedar” on a furniture label is a family reunion that invited strangers. The Pennsylvania moth chest is usually *Juniperus virginiana*, a juniper with purple heartwood. A Spanish colonial chest or a cigar-box lining may be *Cedrela odorata*, Spanish cedar, a Meliaceae cousin of mahogany. A Pacific blanket chest may be western redcedar, *Thuja plicata*, a true thuja, light, durable, not a parlor show wood. Three genera. One English word. Keep them in separate drawers.
 
-<!-- staged embed for draft: cedar-lining-chests -->
-<!-- paste into drafts/cedar-lining-chests.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*

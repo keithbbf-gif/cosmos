@@ -16,9 +16,6 @@ era: "1945–1975"
 
 A Copenhagen sideboard of 1962 with a rosewood face is a smaller, sharper luxury than the teak dining set in the same catalogue. The magazines flattened Danish modern to a honey brown. The shops did not. Oak, teak, walnut, and rosewood were four different prices of the same grammar: visible joinery, a thin oil or a thin film, a case that shows the leaf. *Dalbergia nigra* — jacaranda da Bahia, Appendix I — is the name Americans recite. Much of the rosewood that actually left Danish factories was East Indian *D. latifolia* and related stock. Still a listed genus. Still a forest with a colonial ledger. The binomial on a vintage piece is often a guess until someone looks.
 
-<!-- staged embed for draft: brazilian-rosewood-midcentury -->
-<!-- paste into drafts/brazilian-rosewood-midcentury.md when the draft is merged -->
-
 ![Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).](../assets/species-comparison/core-species-properties.svg)
 
 *Figure 4. Mean Janka hardness and oven-dry density for ten species that anchor this series (USDA FPL / Wood Database means).*
@@ -79,7 +76,7 @@ New work that wants this hour’s sharpness without the appendix: American black
 
 A dark, streaked face with an oily look; weight in a solid member; a veneer line on a case; an oil finish that has worn to pale at the pulls; a Copenhagen or provincial factory mark. Ask whether the wood is *D. nigra* or *D. latifolia* before you ship. On a print: no pore, no smell, a core that swells. On a new “Brazilian rosewood” suite: walk away.
 
-Arkansas does not grow *Dalbergia*. Bradley Brand’s hardwoods — oak, walnut, cherry — will do the mid-century grammar of visible joints and a thin finish without borrowing a Bahia name. The point of this hour is to say what the vintage piece is, and what a new commission cannot be.
+Arkansas does not grow *Dalbergia*. Oak, walnut, and cherry will do the mid-century grammar of visible joints and a thin finish without borrowing a Bahia name. The point of this hour is to say what the vintage piece is, and what a new commission cannot be.
 
 ## Sources
 
