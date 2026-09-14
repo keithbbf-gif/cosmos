@@ -12,7 +12,7 @@ tags:
 meta_description: "After 1914, Goldstein’s Frankfurt institute treated brain-injured soldiers as whole organisms. Holism was a clinic, a philosophy, and a flight from the Nazis."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

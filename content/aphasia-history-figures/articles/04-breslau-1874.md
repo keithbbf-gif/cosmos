@@ -11,7 +11,7 @@ tags:
 meta_description: "Carl Wernicke was twenty-six when Der aphasische Symptomencomplex described a fluent failure and a temporal seat — and drew a line that later clinics never stopped arguing with."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

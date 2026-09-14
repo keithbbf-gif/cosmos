@@ -12,7 +12,7 @@ meta_description: "Carl Wernicke (1848–1905) wrote Der aphasische Symptomencom
 portrait: null
 portrait_status: note
 figure_dates: "1848–1905"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

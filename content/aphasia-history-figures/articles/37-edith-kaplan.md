@@ -12,7 +12,7 @@ meta_description: "Edith Kaplan (1924–2009) co-wrote the BDAE and made the Bos
 portrait: null
 portrait_status: note
 figure_dates: "1924–2009"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

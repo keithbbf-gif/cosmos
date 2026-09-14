@@ -12,7 +12,7 @@ meta_description: "Jacques Lordat (1773–1870) survived an 1825 alalie and, in 
 portrait: null
 portrait_status: note
 figure_dates: "1773–1870"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -26,7 +26,7 @@ In 1825 Lordat lost his speech. He did not lose the wish to speak. He later used
 
 ## A physiology of the act
 
-Lordat broke speaking into steps a later cognitive psychologist would recognize without loving the metaphysics: the idea, the inner word, the spoken word, the failures that can sit between them. He described, from memory, a bilingual complication — language leaving unevenly — that later papers would treat as news. He wrote as a Montpellier vitalist, a heir of Barthez, not as a cortical localizer. The 1843 text is not a missing Broca. It is a different science: the act analyzed from the inside of a man who had been unable to perform it.
+Lordat broke speaking into steps a later cognitive psychologist would recognize without loving the metaphysics: the idea, the inner word, the spoken word, the failures that can sit between them. He described, from memory, a bilingual complication — language leaving unevenly — that later papers would treat as news. He wrote as a Montpellier vitalist, an heir of Barthez, not as a cortical localizer. The 1843 text is not a missing Broca. It is a different science: the act analyzed from the inside of a man who had been unable to perform it.
 
 There is a vanity risk in any self-report. There is also a kind of evidence no jar can give: what it is like when the inner word will not become the outer one, and the mind knows the miss. Later patients will try to write that and be called anecdotal. Lordat had a chair, so the anecdote became a lesson.
 

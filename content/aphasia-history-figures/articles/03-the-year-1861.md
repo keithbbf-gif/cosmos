@@ -12,7 +12,7 @@ tags:
 meta_description: "April 1861 at Bicêtre: Leborgne’s death, Broca’s autopsy, two societies, and the difference between a ward name and a scientific event."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

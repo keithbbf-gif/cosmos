@@ -12,7 +12,7 @@ meta_description: "Kurt Goldstein (1878–1965) ran a Frankfurt institute for br
 portrait: null
 portrait_status: note
 figure_dates: "1878–1965"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

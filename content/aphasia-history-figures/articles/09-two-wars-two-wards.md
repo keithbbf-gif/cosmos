@@ -12,7 +12,7 @@ tags:
 meta_description: "1914 and 1941 taught hospitals that aphasia was a young man’s future, not only an old man’s ending. Luria’s war, American VA wards, and the hour that became a job."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

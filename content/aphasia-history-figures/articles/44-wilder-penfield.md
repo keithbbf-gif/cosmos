@@ -12,7 +12,7 @@ meta_description: "Wilder Penfield (1891–1976) mapped speech on the living cor
 portrait: null
 portrait_status: note
 figure_dates: "1891–1976"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -37,11 +37,8 @@ Many 1950s McGill photographs remain in copyright. Hunt for an early plate befor
 
 ## A pencil on a waking brain
 
-The 1959 atlas is an intraoperative residue: speech arrest, anomia, a mark. It made language cortex a surgical fact. It also made students think the marks were the whole of language. The method required epilepsy, a willing patient, and a team. Later mapping moved the pencil.
+The 1959 book is still the English-language event that made intraoperative naming famous. Later fMRI and tractography moved the marks; they did not erase the hour in which a patient agreed to be mapped while awake.
 
-His larger fame — memory, interpretive cortex, mid-century spiritual curiosity — will not be annexed here. The aphasia inheritance is the interruptibility of speech in more than one place, and the humility that should have come with it. Do not grab a textbook homunculus and call it a portrait of the man.
-
-
-Spokane, Oxford weather, Montreal — the itinerary made a Canadian institute that the English-speaking world treated as an atlas. Waking naming under a pencil is a method with ethics attached: consent, epilepsy, a team. Later students who photocopy the homunculus without the ethics have stolen the souvenir and left the hour. This series wants the hour.
+Spokane, Oxford, Montreal — the itinerary made a Canadian institute that the English-speaking world treated as an atlas. Waking naming under a pencil is a method with ethics attached: consent, epilepsy, a team. Later students who photocopy the homunculus without the ethics have stolen the souvenir and left the hour. Penfield’s larger memory work sits beside this profile and will not be annexed here.
 
 **Further in this series.** The diagrams return (12). The year 1861, which had only the dead map (03).

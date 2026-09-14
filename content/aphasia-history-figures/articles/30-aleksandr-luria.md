@@ -12,7 +12,7 @@ meta_description: "Aleksandr Romanovich Luria (1902–1977) spent the Soviet war
 portrait: null
 portrait_status: note
 figure_dates: "1902–1977"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -20,7 +20,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Aleksandr Romanovich Luria was born in Kazan in 1902 and died in Moscow in 1977. English readers meet him as Alexander; this pack uses Aleksandr on first mention and Luria after. He came up through Soviet psychology — Vygotsky’s orbit, the long political weather — and spent the 1940s on men whose language had been torn by the war. *Traumatic Aphasia* appeared in Russian in 1947. The English translation waited until 1970 (Mouton), which means a generation of Western clinicians met the book as a retroactive classic.
+Aleksandr Romanovich Luria was born in Kazan in 1902 and died in Moscow in 1977. English readers meet him as Alexander; this article uses Aleksandr on first mention and Luria after. He came up through Soviet psychology — Vygotsky’s orbit, the long political weather — and spent the 1940s on men whose language had been torn by the war. *Traumatic Aphasia* appeared in Russian in 1947. The English translation waited until 1970 (Mouton), which means a generation of Western clinicians met the book as a retroactive classic.
 
 Functional systems: not a single center, not a mush. A function is a coalition of regions that can be rebuilt when one member fails. Recovery is reorganization, not a miracle in a gyrus. The idea traveled west as permission to take rehabilitation seriously as a science. The hospital that produced it was a Soviet machine that wanted soldiers returned to work. Both sentences belong in the vita.
 

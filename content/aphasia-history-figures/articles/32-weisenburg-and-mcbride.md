@@ -13,7 +13,7 @@ meta_description: "Weisenburg (1876–1934) and McBride (1904–1976) tested 234
 portrait: null
 portrait_status: note
 figure_dates: "1876–1934 / 1904–1976"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -47,6 +47,6 @@ Weisenburg’s death froze the battery. McBride’s presidency froze the psychol
 Print both names at the same size. That is a correction a magazine can actually make. The 85 controls are her fact as much as his grant. A later cabinet that filled with men’s acronyms while the woman who built the comparison group ran a campus is not a coincidence of talent. It is a coincidence of who was allowed to stay in the room with the stopwatch.
 
 
-Five years, a Commonwealth Fund grant, 234 patients, 85 controls, a death, a presidency — that is the plot. The plot’s moral is not “she should have stayed.” It is that the field let a book freeze and then filled the closet with men who cited it. Hold the 1935 volume if you can. Notice the two names. Notice the controls. That is the whole ethic later merchandise claimed to have invented.
+Five years, a Commonwealth Fund grant, 234 patients, 85 controls, a death, a presidency — that is the plot. The plot’s moral is not “she should have stayed.” It is that the field let a book freeze and then filled the closet with men who cited it. Hold the 1935 volume if you can. Notice the two names. Notice the controls. That ethic is what later merchandise claimed to invent.
 
 **Further in this series.** The test cabinet (11).

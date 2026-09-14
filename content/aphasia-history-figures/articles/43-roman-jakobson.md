@@ -13,7 +13,7 @@ meta_description: "Roman Jakobson (1896–1982) wrote Kindersprache, Aphasie und
 portrait: null
 portrait_status: note
 figure_dates: "1896–1982"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

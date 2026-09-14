@@ -12,7 +12,7 @@ tags:
 meta_description: "From Weisenburg and McBride’s 1935 battery to the WAB, the aphasia test became a way to talk to a chief — and a way to mistake a score for a person."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

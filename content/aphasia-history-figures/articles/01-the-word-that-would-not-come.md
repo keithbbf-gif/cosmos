@@ -11,7 +11,7 @@ tags:
 meta_description: "Before Broca’s autopsy, physicians already wrote down men who knew what they meant and could not say it. From Hippocratic notes to Gesner’s 1770 chapter on language amnesia."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -21,7 +21,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 The oldest Western medical notes do not say *aphasia*. They say a man was struck, or fevered, or “without speech,” and they move on to the pulse. Hippocratic writers already knew that a sudden loss of words could travel with a weak side of the body. They did not need a convolution to notice that. What they did not have was a habit of sitting with the failure long enough to ask whether the mind was gone or only the names.
 
-That question is the whole early history. For a long time the answer was mixed with theology, with the four humors, and with the idea that memory lived in a little room inside the head. A person who pointed at a cup and said the wrong word could be called forgetful, mad, or punished. The interesting writers are the ones who refused the easy insult.
+That question runs through the early history. For a long time the answer was mixed with theology, with the four humors, and with the idea that memory lived in a little room inside the head. A person who pointed at a cup and said the wrong word could be called forgetful, mad, or punished. The interesting writers are the ones who refused the easy insult.
 
 ## Three early modern beds
 

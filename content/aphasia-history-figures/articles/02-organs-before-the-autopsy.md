@@ -12,7 +12,7 @@ tags:
 meta_description: "Gall’s cortical organs, Bouillaud’s frontal claims, Auburtin’s wager, and the Dax papers: the map of speech was being drawn before Broca opened Leborgne."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

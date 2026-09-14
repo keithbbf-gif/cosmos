@@ -12,7 +12,7 @@ tags:
 meta_description: "Sarno’s functional communication, Holland’s everyday language, and the LPAA of the late 1990s turned the hallway into a clinical object."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -48,6 +48,6 @@ American reimbursement likes impairment scores. Participation is harder to code.
 Connect groups, stroke clubs, later online rooms — Britain, Australia, a dozen local circles — did the work without waiting for a 2000 position paper. An American series that starts the social turn in 2000 is starting at a statement, not at a kitchen table.
 
 
-Partner training is a historical turn, not a worksheet in this pack. The partner is part of the impairment’s world; ignoring the partner is a method, not a neutrality. People without a partner, and people whose “participation” the clinic imagined as a hobby, are the limit of the piety. Ask what happened on Tuesday. That question is older than 2000 and harder than a poster.
+Partner training is a historical turn, not a worksheet in this article. The partner is part of the impairment’s world; ignoring the partner is a method, not a neutrality. People without a partner, and people whose “participation” the clinic imagined as a hobby, are the limit of the piety. Ask what happened on Tuesday. That question is older than 2000 and harder than a poster.
 
 **Further in this series.** Sarno (40). Holland (41). The test cabinet (11).

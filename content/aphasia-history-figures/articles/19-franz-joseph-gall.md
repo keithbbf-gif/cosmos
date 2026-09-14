@@ -13,7 +13,7 @@ meta_description: "Franz Joseph Gall (1758–1828) put language among the cortic
 portrait: null
 portrait_status: note
 figure_dates: "1758–1828"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -41,7 +41,7 @@ Every time a student says “Broca’s area” as if a bump had learned to be ho
 
 ## Portrait
 
-Candidate (later download, not in this pack): Wikimedia Commons file *Franz Joseph Gall.jpg*, stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Public domain. Credit the engraving, not a colorized restyling. Do not invent or generate a substitute likeness.
+Candidate (later download, not in this article): Wikimedia Commons file *Franz Joseph Gall.jpg*, stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Public domain. Credit the engraving, not a colorized restyling. Do not invent or generate a substitute likeness.
 
 
 ## Collection and laugh

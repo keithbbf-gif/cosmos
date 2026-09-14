@@ -12,7 +12,7 @@ tags:
 meta_description: "Ludwig Lichtheim’s 1885 paper in Brain drew the house that classrooms still mean when they say Wernicke–Lichtheim — a teaching object, not a photograph of a brain."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -40,7 +40,7 @@ It is also thin on women as theorists. The 1885 paper is a man’s paper in a ma
 
 ## Residue
 
-Medical students still meet Broca, Wernicke, conduction, transcortical motor, transcortical sensory, in that order, as if the brain had sat still. Some of them will later learn dual-stream models, dual-route reading, and the habit of saying “ Broca’s” and then apologizing. The apology is earned. The 1885 paper remains the reason the apology is necessary: it made a generation believe that a line on a page could be a lesion in a life.
+Medical students still meet Broca, Wernicke, conduction, transcortical motor, transcortical sensory, in that order, as if the brain had sat still. Some of them will later learn dual-stream models, dual-route reading, and the habit of saying “Broca’s” and then apologizing. The apology is earned. The 1885 paper remains the reason the apology is necessary: it made a generation believe that a line on a page could be a lesion in a life.
 
 A later graphics pass may redraw the 1885 plate for the web. Credit Lichtheim and *Brain*. Do not animate it into a “brain tour.” Do not put a smiling stock patient in the doorway of the house.
 

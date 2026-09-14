@@ -12,7 +12,7 @@ tags:
 meta_description: "Two American schools sat with the same war’s aftermath and wrote different tests: Schuell’s Minnesota stimulation, Goodglass and Kaplan’s Boston syndromes."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

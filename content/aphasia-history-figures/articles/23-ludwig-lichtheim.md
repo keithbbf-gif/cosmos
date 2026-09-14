@@ -12,7 +12,7 @@ meta_description: "Ludwig Lichtheim (1845–1928) drew the 1885 house in Brain: 
 portrait: null
 portrait_status: note
 figure_dates: "1845–1928"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

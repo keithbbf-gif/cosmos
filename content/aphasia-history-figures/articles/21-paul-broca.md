@@ -12,7 +12,7 @@ meta_description: "Pierre Paul Broca (1824–1880): Leborgne’s autopsy, two so
 portrait: null
 portrait_status: note
 figure_dates: "1824–1880"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -46,7 +46,7 @@ A habit of the specimen: the brain in the jar, the photograph, the paper. Goodgl
 
 The line from Bicêtre to a modern therapy hour is real and thin. It runs through wars, VA wards, and a lot of people Broca would not have hired. Keep Leborgne’s name. Leave the racial anthropology in the same vita.
 
-This pack’s sibling series has a Broca profile for the profession’s ancestry. This one is the aphasia profile: the year, the word fight, the jars. The sentences are not copied. The man is the same.
+A sibling profession series has a Broca profile for the profession’s ancestry. This one is the aphasia profile: the year, the word fight, the jars. The sentences are not copied. The man is the same.
 
 ## Portrait
 

@@ -4,9 +4,9 @@ Staged series for **SLPWOW.com**. Pack path: `content/aphasia-history-figures/`.
 
 **Host note.** SLPWOW is Keith’s wife’s speech-language pathology brand (WOW Therapies household). These essays and profiles are magazine copy for a later WordPress import as **drafts**. See `WP_IMPORT.md`.
 
-**Voice check.** Every article carries `voice_check: human`. House rules: `STYLE_GUIDE.md`.
+**Voice check.** Every article carries `voice_check: edited` after the editor pass. Writer drafts used `human`. House rules: `STYLE_GUIDE.md`.
 
-**Count.** 44 articles — 16 era/overview essays, 28 major-figure profiles. Stretch roster; no padding biographies.
+**Count.** 45 articles — era/overview essays and major-figure profiles. Stretch roster; no padding biographies.
 
 **Portraits.** Notes only in this pass. Key:
 

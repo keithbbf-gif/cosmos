@@ -12,7 +12,7 @@ meta_description: "Martha Taylor Sarno (b. 1927) made functional communication a
 portrait: null
 portrait_status: note
 figure_dates: "b. 1927"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -20,7 +20,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Martha Lamarque was born in New York City on 25 November 1927. She studied at Michigan State with Lucia Morgan Neesom, came back to New York, and became, in the usual sentence, the first speech-language pathologist to work in a medical rehabilitation setting at scale — NYU’s Rusk Institute. She later married John Sarno, a physiatrist; they ran family groups at Rusk before family groups were a fashion. This pack uses the public scientific name Martha Taylor Sarno. It will not write a private household.
+Martha Lamarque was born in New York City on 25 November 1927. She studied at Michigan State with Lucia Morgan Neesom, came back to New York, and became, in the usual sentence, among the first speech-language pathologists to work in a medical rehabilitation setting at scale — NYU’s Rusk Institute. She later married John Sarno, a physiatrist; they ran family groups at Rusk before family groups were a fashion. This article uses the public scientific name Martha Taylor Sarno. It will not write a private household.
 
 The Functional Communication Profile asked what a person actually did with language in a life, not only what a picture card allowed. It is still a score. It is a score that remembers the hallway. Later instruments (ASHA FACS, CADL, participation measures) are cousins. The LPAA statement of 2000 is a later cousin with a politics. Sarno’s mid-century work is the ancestor that did not wait for a position paper.
 
@@ -28,7 +28,7 @@ The Functional Communication Profile asked what a person actually did with langu
 
 VA aphasia had been a veteran and a binder. Rusk’s caseload included people going home to a city kitchen. Sarno treated that fact as data. She wrote *Understanding Aphasia* for nurses as early as 1959 (as Martha L. Taylor), which tells you who she thought had to understand. A 2002 festschrift in the *Journal of Communication Disorders*, introduced by Audrey Holland, is the field’s thank-you note.
 
-She has written for more than sixty years. A 2026 profile of a living elder stays with the published objects: the FCP, the Rusk service, the selected readings she edited, the insistence that “functional” is not a soft word. Honorary doctorates exist; this pack will not confuse them with the earned clinical career.
+She has written for more than sixty years. A 2026 profile of a living elder stays with the published objects: the FCP, the Rusk service, the selected readings she edited, the insistence that “functional” is not a soft word. Honorary doctorates exist; this article will not confuse them with the earned clinical career.
 
 ## Portrait
 

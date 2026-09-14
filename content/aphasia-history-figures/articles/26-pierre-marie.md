@@ -12,7 +12,7 @@ meta_description: "Pierre Marie (1853–1940) published the 1906 revision that d
 portrait: null
 portrait_status: note
 figure_dates: "1853–1940"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

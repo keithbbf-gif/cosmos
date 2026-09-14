@@ -12,7 +12,7 @@ meta_description: "Jean-Baptiste Bouillaud (1796–1881) bet the frontal lobes f
 portrait: null
 portrait_status: note
 figure_dates: "1796–1881"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

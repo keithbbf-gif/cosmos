@@ -12,7 +12,7 @@ tags:
 meta_description: "Childhood aphasia, developmental language disorder, and Landau–Kleffner: a century of fighting over whether the adult word belongs on a child."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -47,11 +47,8 @@ ASHA and international consensus have moved toward *developmental language disor
 
 ## Bureaucracy is a theory
 
-A school that says “aphasia” to get a service, or refuses “aphasia” to avoid a stigma, is not doing linguistics. It is doing a budget. Eisenson used the adult word to force seriousness. Later consensus used *developmental language disorder* to stop a parent from hearing “stroke.” Both moves are historical. Neither is a protocol for a late talker.
+Eisenson used the adult word to force seriousness. Later consensus used *developmental language disorder* to stop a parent from hearing “stroke.” Both moves are historical. Neither is a protocol for a late talker.
 
-Landau–Kleffner is rare and has been used, badly, as a rumor diagnosis. This essay will not list signs. A child who loses language needs a physician. Deaf children’s oralist history is a different cruelty and a different literature; do not file it under this word to save a paragraph.
-
-
-Parents search the adult word because the adult word is the one the internet knows. A profession site can keep the words separate without scolding the search. Acquired loss in a child is rare and urgent. Developmental language that never arrived on a monolingual clock is common and often misread. Landau–Kleffner is not a template for late talking. Eisenson’s seriousness is not a license to dress a four-year-old in a veteran’s metaphor.
+Parents search the adult word because the adult word is the one the internet knows. A profession site can keep the words separate without scolding the search. Acquired loss in a child is rare and urgent. Developmental language that never arrived on a monolingual clock is common and often misread. Landau–Kleffner is not a template for late talking. Deaf children’s oralist history belongs in a different literature; do not file it under this word to save a paragraph.
 
 **Further in this series.** Eisenson (35). The adult map this word came from (03, 04).

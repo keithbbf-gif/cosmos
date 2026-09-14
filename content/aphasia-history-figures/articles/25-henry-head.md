@@ -12,7 +12,7 @@ meta_description: "Henry Head (1861–1940) sat with wounded men and wrote Aphas
 portrait: null
 portrait_status: note
 figure_dates: "1861–1940"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

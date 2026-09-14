@@ -12,7 +12,7 @@ tags:
 meta_description: "Mesulam’s 1982 paper named a slowly progressive aphasia without generalized dementia. The clinic had to learn a different clock."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

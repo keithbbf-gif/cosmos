@@ -12,7 +12,7 @@ meta_description: "Macdonald Critchley (1900–1997) of Queen Square wrote Aphas
 portrait: null
 portrait_status: note
 figure_dates: "1900–1997"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

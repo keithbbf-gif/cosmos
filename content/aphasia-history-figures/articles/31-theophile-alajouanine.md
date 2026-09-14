@@ -12,7 +12,7 @@ meta_description: "Théophile Alajouanine (1890–1980) and the 1939 phonetic di
 portrait: null
 portrait_status: note
 figure_dates: "1890–1980"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

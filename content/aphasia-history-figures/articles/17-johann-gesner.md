@@ -12,7 +12,7 @@ meta_description: "Johann August Philipp Gesner (1738–1801) and the 1770 chapt
 portrait: null
 portrait_status: note
 figure_dates: "1738–1801"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -22,7 +22,7 @@ This is history for a general reader. It is not a diagnosis, not a treatment pla
 
 The second volume of Gesner’s *Samlung von Beobachtungen aus der Arzneygelahrtheit und Naturkunde* (Nördlingen: Beck, 1770) does not look like a classic. It looks like a working physician’s miscellany. Inside it sits a chapter, “Die Sprachamnesie,” that Arthur Benton later called the first major essay devoted to aphasia. Benton was a careful man. He meant: here, at last, someone stayed with the problem long enough to argue about what kind of memory had failed.
 
-Johann August Philipp Gesner was born in 1738 and died in 1801. German biographical pages give the names Johann Augustin or Johann August Philipp; this pack uses the form on the 1770 title tradition and in Luzzatti’s 2002 review. He practiced and wrote in the world of small-city German medicine — Nördlingen appears on the imprint — not in a Paris society. The science is letters, not a jar.
+Johann August Philipp Gesner was born in 1738 and died in 1801. German biographical pages give the names Johann Augustin or Johann August Philipp; this article uses the form on the 1770 title tradition and in Luzzatti’s 2002 review. He practiced and wrote in the world of small-city German medicine — Nördlingen appears on the imprint — not in a Paris society. The science is letters, not a jar.
 
 ## K.D.
 

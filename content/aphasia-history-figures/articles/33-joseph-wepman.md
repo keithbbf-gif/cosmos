@@ -12,7 +12,7 @@ meta_description: "Joseph M. Wepman (1907–1982): Chicago, the Language Modalit
 portrait: null
 portrait_status: note
 figure_dates: "1907–1982"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -20,7 +20,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Joseph M. Wepman was born in Copemish, Michigan, on 24 December 1907 and died in Riverside, California, on 18 March 1982. Those dates come from later memorials, not from a newspaper this pack held in its hand; if a better obituary disagrees, the article should be corrected, not defended. He took a B.A. at Western Michigan in 1931, a Ph.M. at Wisconsin in 1934, and a Ph.D. at the University of Chicago in 1948 — a timeline that already says “war in the middle.”
+Joseph M. Wepman was born in Copemish, Michigan, on 24 December 1907 and died in Riverside, California, on 18 March 1982. Those dates come from later memorials, not from a newspaper this article held in its hand; if a better obituary disagrees, the article should be corrected, not defended. He took a B.A. at Western Michigan in 1931, a Ph.M. at Wisconsin in 1934, and a Ph.D. at the University of Chicago in 1948 — a timeline that already says “war in the middle.”
 
 With Ward Halstead he published the Halstead–Wepman Aphasia Screening Test in the *Journal of Speech and Hearing Disorders* in 1949. The Language Modalities Test for Aphasia came later and tried to ask, systematically, which door the language was still using: speaking, hearing, reading, writing. Modality is a 1950s word that later cognitive work would split into finer representations. In a Chicago clinic it was already a way to stop saying “he has aphasia” as if that were a single lock.
 

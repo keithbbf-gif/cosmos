@@ -12,7 +12,7 @@ meta_description: "Jules Déjerine (1849–1917) made localization finer — inc
 portrait: null
 portrait_status: note
 figure_dates: "1849–1917"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -41,11 +41,8 @@ Hunt Commons and BIU Santé for a file-page-cleared photograph or lithograph. Ma
 
 ## Print as a road
 
-Alexia with agraphia and alexia without agraphia forced the map to admit print as its own architecture. Geschwind’s 1965 splenium story is, in one mood, Déjerine updated for Boston. Cognitive neuropsychology renamed the roads. It would not have had them without this stubborn anatomy.
+The 1906–1908 exchange is what happens when someone says the fiber you trusted is a superstition. Déjerine heard a method dying. The method did not die. It got ruder and finer at once.
 
-He came up the hard way, a Geneva-born Protestant in a Catholic capital, and he heard Marie’s title as an insult to a method, not only to a gyrus. The plates he made with Augusta are household labor as well as a husband’s reputation. A “Déjerine” caption that means only the husband is a bad caption. The 1917 chair going to Marie is the institutional last word. It is not the scientific one.
-
-
-Fiber and cortex, drawn until they looked trustworthy — that is the plates’ achievement and their risk. Trustworthy drawings make students stop looking at the person. Déjerine wanted them to look at the person *and* the fiber. The 1906 fight is what happens when someone says the fiber you trusted is a superstition. He heard a method dying. The method did not die. It got ruder and finer at once.
+Fiber and cortex, drawn until they looked trustworthy — that is the plates’ achievement and their risk. Trustworthy drawings make students stop looking at the person. Déjerine wanted them to look at the person *and* the fiber.
 
 **Further in this series.** The 1906 revision (07). Augusta Déjerine-Klumpke (28).

@@ -12,7 +12,7 @@ meta_description: "Norman Geschwind (1926–1984) made disconnection fashionable
 portrait: null
 portrait_status: note
 figure_dates: "1926–1984"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

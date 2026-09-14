@@ -12,7 +12,7 @@ tags:
 meta_description: "Marshall, Newcombe, Coltheart, Caramazza, Warrington: the 1970s asked which representation failed, not which gyrus owned speech."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

@@ -59,7 +59,7 @@ last_verified: 2026-09-14
 ---
 ```
 
-`voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
+`voice_check: human` is the writer flag; after editor pass, set `voice_check: edited`. Neither is a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
 `portrait: null` is mandatory in this pack. Portrait **notes** live in `PORTRAIT_SOURCES.md` and in a short “Portrait” section at the end of each profile.
 

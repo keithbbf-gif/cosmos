@@ -12,7 +12,7 @@ tags:
 meta_description: "Hughlings Jackson refused the little man in the center. Henry Head sat with wounded men and wrote a two-volume refusal of the diagram-makers."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

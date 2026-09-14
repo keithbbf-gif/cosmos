@@ -12,7 +12,7 @@ tags:
 meta_description: "Norman Geschwind’s 1965 Brain papers made disconnection fashionable again. Boston’s neurology and Boston’s aphasia battery grew up in the same city."
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14

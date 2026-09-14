@@ -13,7 +13,7 @@ meta_description: "Andrew Kertesz (b. 1934, confirm) wrote the Western Aphasia B
 portrait: null
 portrait_status: note
 figure_dates: "b. 1934 (confirm)"
-voice_check: human
+voice_check: edited
 audience: slpwow
 stage: draft
 last_verified: 2026-09-14
@@ -21,7 +21,7 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Andrew Kertesz is a living neurologist whose public scientific object, for this series, is the Western Aphasia Battery (Grune & Stratton, 1982) and its later revision. Several curricula and CVs give a birth year of 1934; this pack treats that year as unconfirmed for a print caption. Do not invent a childhood. Do not write a private life.
+Andrew Kertesz is a living neurologist whose public scientific object, for this series, is the Western Aphasia Battery (Grune & Stratton, 1982) and its later revision. Several curricula and CVs give a birth year of 1934; this article treats that year as unconfirmed for a print caption. Do not invent a childhood. Do not write a private life.
 
 The WAB gave hospitals a quotient — the AQ — and a set of subtype names that administrators and students could share. It is a descendant of Weisenburg and McBride’s stopwatch, of the BDAE’s profiles, of the house’s types. It is also a new fact in the building: a number that can travel farther than a paragraph.
 
@@ -43,7 +43,7 @@ The AQ is a social object. It compares Tuesday to November. It lets a study look
 Birth year 1934 appears on several CVs and is not locked here for a print caption. Living subject: public scientific objects only. Do not scan the commercial form. Describe the idea. The WAB is a descendant of 1935 and 1972. It is also a new fact in the building — a quotient that can outrun a paragraph.
 
 
-A living neurologist gets a binder and a caution, not a biography. The WAB-R is a later commercial object; this pack will not pretend to have held every revision in its hand. The 1982 event is enough: a quotient entered the building and learned to travel. Degenerative language work later in the same career sits beside Mesulam’s clock. Do not collapse them. One is a number. One is a calendar. Both changed what a chief could be told.
+A living neurologist gets a binder and a caution, not a biography. The WAB-R is a later commercial object; this article will not pretend to have held every revision in its hand. The 1982 event is enough: a quotient entered the building and learned to travel. Degenerative language work later in the same career sits beside Mesulam’s clock. Do not collapse them. One is a number. One is a calendar. Both changed what a chief could be told.
 
 If a later editor confirms the 1934 birth year from a primary CV, lock it in the caption. Until then the figure-dates field stays cautious. The Western Aphasia Battery’s subtypes are the house’s types taught to a computer age: a number, a label, a printable profile. Research on recovery used that number. Families used it as a weather report. Both uses are historical. Neither is a life.
 
