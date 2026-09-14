@@ -38,6 +38,6 @@ WordPress will eat a raw `.md` file badly if you drop the YAML on the canvas.
 
 ## Batch order (if you only have one evening)
 
-Priority 1–4 first (GDD, tight-eye, breba, pots). Those are the questions Pick The Right Fig already asked and did not answer at length. Cuttings storage + failures next (Jack). Flavor, birds, soil, shade, true-to-type, calendar after.
+See `MANIFEST.md` for all 40 slugs. Start with priorities 1–4 (GDD, tight-eye, breba, pots), then Jack’s cuttings set, then the rest. Leave every paste **Draft**.
 
 No live publish from this folder.
