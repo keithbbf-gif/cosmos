@@ -12,6 +12,7 @@ figures:
   - ../assets/ayurveda-charaka-sushruta/historical-timeline.svg
 citations:
   - "Dominik Wujastyk, The Roots of Ayurveda (Penguin Classics)."
+  - "G. J. Meulenbeld, A History of Indian Medical Literature."
   - "Caraka Saṃhitā and Suśruta Saṃhitā, P.V. Sharma translations."
 status: draft
 voice_check: human
@@ -32,7 +33,7 @@ Popular histories compress this into "ancient Indians used turmeric." They did, 
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-"Charaka" is a redaction in the lineage of Ātreya; Agniveśa is the student-compiler in the frame; Dṛḍhabala of Kashmir is the named repairer of lost chapters. Dating the man is a sport. Dating the compilation to centuries around the beginning of the common era is soberer. The file's "tradition 1st c." is that neighborhood. `[VERIFY]` any timeline that prints a single year for either saṃhitā.
+"Charaka" is a redaction in the lineage of Ātreya; Agniveśa is the student-compiler in the frame; Dṛḍhabala of Kashmir is the named repairer of lost chapters. The *Suśruta* frame names Dhanvantari and a surgical school at Kashi. Dating either man is a sport. Dating the compilations to layered centuries around the beginning of the common era is soberer. G. J. Meulenbeld's *History of Indian Medical Literature* is the specialist pile. The file's "tradition 1st c." is a teaching lock, not a carbon date. `[VERIFY]` any timeline that prints a single year for either saṃhitā.
 
 Wujastyk's *Roots of Ayurveda* keeps the texts in the room and the airport manuals in the hall. A magazine that says "Ayurveda says" as if one mouth were speaking has already left the library. Metals and later rasashāstra workshops are a different, later file with a modern toxicology problem (lead and mercury in some market samples). This essay will not teach those preparations. It will say the workshop can poison when it is sloppy, and that fact is a laboratory fact, not a slur.
 

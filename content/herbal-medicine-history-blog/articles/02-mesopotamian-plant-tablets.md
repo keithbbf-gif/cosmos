@@ -33,7 +33,7 @@ We do not have the shops. We have the lists. Ashurbanipal's seventh-century coll
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-Figure 1's early date ("circa 2000 BCE") is a neighborhood for Old Babylonian medical writing, not the birthday of every tablet in the plate. Therapeutic recipes run from the second millennium into the first. The diagnostic series *Sakikkū* (SA.GIG), the therapeutic compilations modern editors have tried to reconstruct, and the *šammu šikinšu* plant-description texts are named scholarly objects. They are not a pile labeled "ancient wisdom."
+Figure 1's early date ("circa 2000 BCE") is a neighborhood for Old Babylonian medical writing, not the birthday of every tablet in the plate. Therapeutic recipes run from the second millennium into the first. The diagnostic series *Sakikkū* (SA.GIG), the therapeutic compilations modern editors have tried to reconstruct, the *šammu šikinšu* plant-description texts, and the lexical plant sections of URU.AN.NA / ḪAR-ra = ḫubullu are named scholarly objects. They are not a pile labeled "ancient wisdom."
 
 Sumerian logograms carried prestige and brevity; Akkadian spelled out how a thing was used. A "drug" here is a material with a direction: to bind, to fumigate, to plaster, to drink, to hang at the neck. The last of those bothers readers who want pharmacy and religion in separate drawers. The tablets do not keep those drawers.
 

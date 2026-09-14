@@ -12,7 +12,8 @@ figures:
   - ../assets/digitalis-cardiac-glycosides/plant-to-principle.svg
 citations:
   - "William Withering, An Account of the Foxglove (Birmingham, 1785)."
-  - "Later isolation of digitoxin/digoxin; 1957 in the file marks a mid-century official beat — verify before caption."
+  - "Nativelle on digitaline (late 1860s–1870s); Sydney Smith, digoxin from Digitalis lanata (1930, Wellcome)."
+  - "1957 in the file marks a mid-century official beat — verify USP/BP year before caption."
 status: draft
 voice_check: human
 graphics_agent: v1
@@ -33,7 +34,7 @@ The book is famous because it is careful. It is careful because the plant is not
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
 <!-- under-fig:v2 -->
-Withering practiced in Birmingham and hunted the leaf after a Shropshire family recipe for dropsy. He preferred leaf gathered and dried with care because he had seen what a sloppy sample did. “Dropsy” was swelling and breathlessness — later filed under heart failure and renal disease. In his hands the leaf seemed to move urine and ease some of the drowned. Taking a folk brew and subtracting nineteen herbs is a kind of theft and a kind of science. The unnamed woman had a working, dangerous combination. He had case notes and a printer. Both worries can sit in the same paragraph. *D. lanata* later became an industrial source. Digoxin became a prescription object with a narrow window. Figure 1 may run from leaf to glycoside. It is not a recipe.
+Withering practiced in Birmingham, sat in the Lunar Society with Watt and Boulton, and hunted the leaf after a Shropshire family recipe for dropsy. He preferred leaf gathered and dried with care because he had seen what a sloppy sample did. “Dropsy” was swelling and breathlessness — later filed under heart failure and renal disease. In his hands the leaf seemed to move urine and ease some of the drowned. The 1785 *Account* numbers cases — later readers count more than a hundred, including the dead; `[VERIFY]` 163 if a caption wants a single integer. Taking a folk brew and subtracting nineteen herbs is a kind of theft and a kind of science. The unnamed woman had a working, dangerous combination. He had case notes and a printer. Erasmus Darwin and others then argued about credit. Both worries can sit in the same paragraph. *D. lanata* later became an industrial source. Digoxin became a prescription object with a narrow window. Figure 1 may run from leaf to glycoside. It is not a recipe.
 
 ## Laboratory milestones readers should know
 

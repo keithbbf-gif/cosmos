@@ -33,7 +33,7 @@ The corpus is a library assembled around Cos and the wider fifth- and fourth-cen
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-Figure 1's "circa 400 BCE" is a centroid, not a birthday. The "Hippocratic" label is a later filing. Plato already knew a Hippocrates of Cos; the sixty-odd works in the medieval collections are not one man's week. Laurence Totelin's *Hippocratic Recipes* is the book that treats the prescriptions as texts with ingredients, measures, and a social world of root-cutters (*rhizotomoi*) and drug-sellers (*pharmakopōlai*). Those trades are older than the famous oath.
+Figure 1's "circa 400 BCE" is a centroid, not a birthday. The "Hippocratic" label is a later filing. Plato already knew a Hippocrates of Cos; the sixty-odd works in the medieval collections are not one man's week. *On Ancient Medicine* argues with theory. *Airs, Waters, Places* ties bodies to climate. *Affections*, *Regimen*, *Diseases of Women*, the epidemic books: different authors, different tempers. Laurence Totelin's *Hippocratic Recipes* is the book that treats the prescriptions as texts with ingredients, measures, and a social world of root-cutters (*rhizotomoi*) and drug-sellers (*pharmakopōlai*). *Pharmakon* in Greek is remedy and poison in one word. Those trades are older than the famous oath.
 
 The oath, by the way, is a poor herbal. It binds a student to a household. It does not inventory a garden. Readers who want plants should open the gynecological and regimen books, where pomegranate, squirting cucumber, silphium's expensive ghost, wine, honey, and a long argument about "hot" and "cold" foods do the daily work.
 

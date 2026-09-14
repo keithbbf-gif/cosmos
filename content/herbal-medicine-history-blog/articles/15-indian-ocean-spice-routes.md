@@ -21,7 +21,7 @@ graphics_agent: v1
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-The monsoon is a timetable. Arabic, Gujarati, Malay, Swahili, and later Portuguese captains knew which wind took you where and which month left you stranded. Pepper, cinnamon, cloves, nutmeg, camphor, incense, and opium cake moved on that timetable long before Vasco da Gama's 1498 landfall. Pharmacy in Cairo, Calicut, and Malacca was a dock conversation. The 8th–16th century window in the file is the Islamicate and then Iberian intensification, not the invention of the ocean.
+The monsoon is a timetable. Arabic, Gujarati, Malay, Swahili, and later Portuguese captains knew which wind took you where and which month left you stranded. The *Periplus of the Erythraean Sea* (first century CE, in the usual dating) already named an incense coast and Indian emporia. K. N. Chaudhuri later called those cities a chain of emporia, not a European invention. Pepper, cinnamon, cloves, nutmeg, camphor, incense, and opium cake moved on that timetable long before Vasco da Gama's 1498 landfall at Calicut, where the Zamorin's port had been selling to Red Sea and Gulf buyers for centuries. Kilwa, Aden, Hormuz, Calicut, Melaka: pharmacy was a dock conversation. The 8th–16th century window in the file is the Islamicate and then Iberian intensification, not the invention of the ocean.
 
 ## Routes and ports in the record
 

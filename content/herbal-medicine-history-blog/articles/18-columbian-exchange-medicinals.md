@@ -21,7 +21,7 @@ graphics_agent: v1
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-Alfred Crosby named the Columbian Exchange in 1972. The ships had been moving the cargo for four and a half centuries. Maize, potato, and tomato get the food chapters. This essay wants the shop: *Capsicum*, tobacco, guaiacum (the wood Europeans turned into a syphilis fashion), cinchona bark, coca leaf, ipecac. In the other direction: Old World weeds, sugar, and the disease load that emptied cities. A medicinal plant crossing an ocean does not cancel that emptiness.
+Alfred Crosby named the Columbian Exchange in 1972. The ships had been moving the cargo for four and a half centuries. Maize, potato, and tomato get the food chapters. This essay wants the shop: *Capsicum*, tobacco, guaiacum (the wood Europeans turned into a syphilis fashion), cinchona bark, coca leaf, ipecacuanha. In the other direction: Old World weeds, sugar, horses, and the disease load — smallpox first in the usual telling — that emptied cities. Hispaniola's Taíno world is the teaching emptiness. A medicinal plant crossing an ocean does not cancel it. Seville's *Casa de Contratación* tried to make the new jars an official Spanish product. The jars filled. The towns did not.
 
 ## Routes and ports in the record
 

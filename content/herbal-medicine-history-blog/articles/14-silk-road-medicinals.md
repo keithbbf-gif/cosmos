@@ -21,9 +21,9 @@ graphics_agent: v1
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-Ferdinand von Richthofen coined *Seidenstraße* in the nineteenth century. The caravans did not need the name. They needed water, protection, and a market for things that weighed little and sold high: silk, yes, and also musk, camphor, rhubarb, myrrh, incense woods, mineral blues. A physician in Chang'an or in Baghdad met those goods as drugs and as luxuries in the same hour. The oasis did not sort them into faculties.
+Ferdinand von Richthofen coined *Seidenstraße* in the nineteenth century. The caravans did not need the name. They needed water, protection, and a market for things that weighed little and sold high: silk, yes, and also musk, camphor, rhubarb, myrrh, incense woods, mineral blues. A physician in Chang'an or in Baghdad met those goods as drugs and as luxuries in the same hour. The oasis did not sort them into faculties. Valerie Hansen's hop-by-hop corrective — Turfan, Dunhuang, Khotan, Samarkand, not a highway stripe — is the map this pack will use. The Sogdian letters and the Astana graves are the archaeological tone: a sack, a name, a tax.
 
-This essay is not a map you could march with. Figure 1 is a schematic. Real routes braided, died, and reopened with dynasties and droughts.
+This essay is not a route you could march. Figure 1 is a schematic. Real routes braided, died, and reopened with dynasties and droughts. Edward Schafer's *Golden Peaches* keeps the Tang court's appetite in the file: beauty and scent as well as catharsis.
 
 ## Routes and ports in the record
 

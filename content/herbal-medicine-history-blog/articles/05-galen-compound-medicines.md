@@ -11,8 +11,9 @@ figures:
   - ../assets/galen-compound-medicines/materia-medica-plate.svg
   - ../assets/galen-compound-medicines/historical-timeline.svg
 citations:
-  - "Galen, De simplicium medicamentorum temperamentis; De antidotis."
+  - "Galen, De simplicium medicamentorum temperamentis ac facultatibus; De antidotis."
   - "Vivian Nutton, Ancient Medicine (2nd ed., 2013)."
+  - "Ḥunayn ibn Isḥāq translation tradition; later theriac ritual in Venice and Montpellier (public cooking as civic pharmacy)."
 status: draft
 voice_check: human
 graphics_agent: v1
@@ -46,9 +47,9 @@ He did not invent compounding. He professionalized a taste for it. Electuaries, 
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-The plate shows simples. The shop, after Galen, showed jars of compounds: theriac, hiera, the named electuaries that Italian albarelli still wear as labels. The plants inside those jars — balsams, opium, squill, cinnamon when the ship came in — are Dioscorides's goods running through Galen's machine. Figure 2 should not be read as Galen's garden. It is the Mediterranean shelf he assumed.
+The plate shows simples. The shop, after Galen, showed jars of compounds: theriac, hiera, the named electuaries that Italian albarelli still wear as labels. Andromachus the Elder, Nero's physician in the usual story, reworked Mithridates' poison-proofing paste into a theriac that later cities treated as a public ritual — Venice and Montpellier cooked it in the street. The plants inside those jars — balsams, opium, squill, cinnamon when the ship came in — are Dioscorides's goods running through Galen's machine. *De simplicium medicamentorum temperamentis ac facultatibus* is the degree book. *De antidotis* is the compound book. Figure 2 should not be read as Galen's garden. It is the Mediterranean shelf he assumed.
 
-Islamic physicians kept the machine and rebuilt the garden. Latin scholastics did the same. Vesalius wrecked Galenic anatomy in the sixteenth century. Galenic pharmacy took longer to fall, because a theory of qualities does not need a correct liver. It needs a classroom and a clientele that wants a reason.
+Ḥunayn ibn Isḥāq's ninth-century translations put that machine into Arabic; Latin Toledo and then Paris put it into the curriculum. Islamic physicians kept the arithmetic and rebuilt the garden. Vesalius wrecked Galenic anatomy in the sixteenth century. Galenic pharmacy took longer to fall, because a theory of qualities does not need a correct liver. It needs a classroom and a clientele that wants a reason.
 
 This series will not revive humoral prescribing. It will say that for a very long time the shop was a philosophical instrument. The plants were real. The arithmetic was a story about them. Stories that last a thousand years are not trivial. They are also not evidence in the sense a modern regulator means. Keep both facts in the same paragraph.
 

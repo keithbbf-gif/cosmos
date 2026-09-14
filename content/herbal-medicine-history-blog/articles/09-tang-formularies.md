@@ -33,7 +33,7 @@ A formulary is a different object from a *bencao*. The *bencao* ranks and descri
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-The Tang medical office is a bureaucracy: physicians, pharmacists, a curriculum, punishments for a wrong drug in a wrong rank of patient. Japanese envoys and monks carried books and formulas east; the *Ishinpō* (984) would later preserve Chinese passages lost on the mainland. That is why a Tang date belongs on a Japanese as well as a Chinese timeline.
+The Tang medical office (*taiyi shu* in the usual institutional name) is a bureaucracy: physicians, pharmacists, a curriculum, punishments for a wrong drug in a wrong rank of patient. Su Jing is among the named editors of the 659 revision. Japanese envoys and monks carried books and formulas east; Tanba Yasuyori’s *Ishinpō* (984) would later preserve Chinese passages lost on the mainland. That is why a Tang date belongs on a Japanese as well as a Chinese timeline.
 
 Sun Simiao (died 682) sits just off the 659 mark. His *Qianjin fang* (*Prescriptions Worth a Thousand Gold*) is a private encyclopedia with a public afterlife: ethics, formulas, a taste for the whole body. He is not the *Xinxiu* committee. He is the other Tang voice — the famous physician who still had to decide what the official list had missed.
 

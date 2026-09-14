@@ -20,9 +20,9 @@ graphics_agent: v1
 
 **Disclaimer.** Educational history only. Not medical advice. Past uses of plants do not prove safety or efficacy today. Do not use this series to self-treat or to market disease claims.
 
-On 30 June 1906 Theodore Roosevelt signed the Pure Food and Drug Act — the Wiley Act, in the habit of the Bureau of Chemistry. The statute did not say patent medicines were finished. It said that if you put a drug or a food into interstate commerce, the label could not be false or misleading on certain particulars, and that alcohol, morphine, opium, cocaine, heroin, chloroform, cannabis indica, chloral hydrate, and acetanilide had to be named.
+On 30 June 1906 Theodore Roosevelt signed the Pure Food and Drug Act — the Wiley Act, in the habit of the Bureau of Chemistry — and, the same day, a meat-inspection statute that *The Jungle* had made politically cheap. Harvey Washington Wiley had been chief chemist since 1883. Samuel Hopkins Adams's *Collier's* series had named the nostrum trade. The statute did not say patent medicines were finished. It said that if you put a drug or a food into interstate commerce, the label could not be false or misleading on certain particulars, and that alcohol, morphine, opium, cocaine, heroin, chloroform, cannabis indica, chloral hydrate, and acetanilide had to be named (the §8 list).
 
-The revolution was bibliographic. The bottle had to start telling a kind of truth.
+The revolution was bibliographic. The bottle had to start telling a kind of truth. Newspaper ads took longer. Efficacy as a federal requirement waited for 1962.
 
 ## Statute and agency context
 
