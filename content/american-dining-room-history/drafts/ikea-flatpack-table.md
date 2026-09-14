@@ -3,7 +3,7 @@ title: IKEA and the flat-pack table
 slug: ikea-flatpack-table
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 39
 word_target: 1400-2200
 era: "1985–now"
@@ -18,13 +18,13 @@ seo_intent: informational
 
 # IKEA and the flat-pack table
 
-IKEA opened in the United States in 1985 (Plymouth Meeting, Pennsylvania). The dining table that comes home in a box — particleboard or veneered composite, cam locks, a hex key, legs you screw on — is the Hitchcock chair of the late century: a volume product, a brand, a first table for people who will later buy wood or never will. The INGATORP, the BJURSTA, later the EKEDALEN — names change. The idea does not: a table that ships cheap because you are the factory’s last worker.
+The dining table that comes home in a flat box — particleboard or veneered composite, cam locks in the seat, a hex key in a bag, legs you screw on — is the Hitchcock chair of the late century: a volume product, a brand, a first table for people who will later buy wood or never will. The INGATORP, the BJURSTA, later the EKEDALEN — names change. The idea does not: a table that ships cheap because you are the factory’s last worker.
 
 This is not a sneer. Flat-pack is an engineering and a class fact. American dining-room history after 1985 that omits it is a collector history.
 
 ## Plymouth Meeting and the first American box
 
-The Plymouth Meeting store is the pin. Company histories and the American press treat 1985 as the U.S. opening; later stores follow the suburbs and the interstates. This page will not invent a first-week sales figure or a ribbon-cutting anecdote. The furniture fact is a warehouse that sold a dining table you put in a car, or in two cars, and finished at home.
+The Plymouth Meeting store is the pin — IKEA opened in the United States in 1985 (Plymouth Meeting, Pennsylvania). This page will not invent a first-week sales figure or a ribbon-cutting anecdote. The furniture fact is a warehouse that sold a dining table you put in a car, or in two cars, and finished at home.
 
 Ingvar Kamprad’s Swedish company is older than the American store (founded 1943 in the company’s own telling). The American dining room does not need the founder’s biography. It needs the catalog that taught a generation what a table cost and what it weighed. The catalog is a pattern book. The warehouse path — past the room sets, past the meatballs, to the self-serve racks — is a retail architecture. You pick a flat box the way a 1910 household picked a crate from a depot, except you are also the assembler.
 

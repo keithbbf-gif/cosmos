@@ -3,7 +3,7 @@ title: The dining room is invented
 slug: the-room-is-invented
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 1400-2200
 era: "1700–1855"

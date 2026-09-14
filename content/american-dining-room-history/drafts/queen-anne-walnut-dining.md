@@ -3,7 +3,7 @@ title: Queen Anne walnut
 slug: queen-anne-walnut-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 5
 word_target: 1400-2200
 era: "1725–1755"

@@ -1,7 +1,7 @@
 ---
 title: Style Guide — American Dining Room Furniture, 1700–Now
 status: draft
-voice_check: human
+voice_check: edited
 series: american-dining-room-history
 ---
 
@@ -57,7 +57,7 @@ title: "Plain title, no colon-stack if you can help it"
 slug: kebab-case
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 era: "1790–1820"

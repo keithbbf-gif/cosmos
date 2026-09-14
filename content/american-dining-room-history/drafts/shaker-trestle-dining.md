@@ -3,7 +3,7 @@ title: Shaker trestles
 slug: shaker-trestle-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 18
 word_target: 1400-2200
 era: "1800–1860"
@@ -70,7 +70,7 @@ Look at the underside for community marks, paint ghosts, and repairs in kind. Lo
 
 If you sit at one in a museum, notice the absence of an armchair at the end. That absence is the design. The American dining room spent a century putting the host at the head. The trestle spends the meal refusing a head. You can buy the look and miss the refusal. Many have.
 
-Bradley Brand’s square, honest tables can sit near this tradition without claiming Believers. Simple and square is a Southern shop habit as well as a Shaker one. Do not put a peg rail in the caption unless the room has pegs.
+Simple and square is a Southern shop habit as well as a Shaker one. Do not put a peg rail in the caption unless the room has pegs.
 
 ## Sources
 

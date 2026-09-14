@@ -3,7 +3,7 @@ title: How to read an American dining table
 slug: reading-a-table-now
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_target: 1400-2200
 era: "1700–now"

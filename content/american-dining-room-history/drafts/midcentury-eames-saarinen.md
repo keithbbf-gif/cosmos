@@ -3,7 +3,7 @@ title: Eames, Saarinen, Knoll
 slug: midcentury-eames-saarinen
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 34
 word_target: 1400-2200
 era: "1940–1970"

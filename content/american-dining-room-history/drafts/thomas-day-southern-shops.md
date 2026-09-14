@@ -3,7 +3,7 @@ title: Thomas Day in Milton
 slug: thomas-day-southern-shops
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 15
 word_target: 1400-2200
 era: "1823–1861"

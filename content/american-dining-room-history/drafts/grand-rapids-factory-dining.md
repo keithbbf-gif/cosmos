@@ -3,7 +3,7 @@ title: Grand Rapids factory dining
 slug: grand-rapids-factory-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_target: 1400-2200
 era: "1870–1930"
@@ -73,7 +73,7 @@ Some “Grand Rapids” stencils are on furniture made in Holland, Michigan, or 
 
 The Depression hurts. Dinette and chromium (next essays) take the small apartment. Southern and Carolina factories later take some of the volume. Grand Rapids remains a furniture word. The dining suit in an Iowa farmhouse is still there, golden oak, a little loose in the slides, a sideboard full of unused silver plate. That survival is the industry’s monument — not Herter’s, not Wright’s.
 
-The dinner it held was real. BBF’s one-off tables exist because this industry exists: a contrast, not a purity. The pillar map asked for factory versus one-off. This slug is the factory. The studio essay is the other pole. A town that only has one of those stories is lying.
+The dinner it held was real. The studio essay is the other pole — one-off slabs after the mills won. A town that only has one of those stories is lying.
 
 ## Sources
 

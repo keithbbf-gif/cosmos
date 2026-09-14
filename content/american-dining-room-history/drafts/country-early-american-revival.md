@@ -3,7 +3,7 @@ title: Country and Early American revival
 slug: country-early-american-revival
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 37
 word_target: 1400-2200
 era: "1965–1995"

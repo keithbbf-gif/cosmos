@@ -3,7 +3,7 @@ title: Hunt boards and Southern vernacular
 slug: hunt-board-southern-vernacular
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 19
 word_target: 1400-2200
 era: "1780–1840"
@@ -20,15 +20,15 @@ seo_intent: informational
 
 # Hunt boards and Southern vernacular
 
-The word is late. University of Delaware’s Material Matters essay (2017) puts “hunt board” in dealer and collector language from the 1920s on, not in colonial bills. Period names were server, sideboard table, slab table, sideboard. The tall, often six-legged walnut or cherry serving piece of the Southern Piedmont — bottle drawers at the ends, a shallow center, legs that go on a little too long — is real. The story that horsemen ate off it without dismounting is a 1932 *Magazine Antiques* romance, Mr. Thomas of Athens, Georgia, quoted by Mary Ralls Dockstader, and a collector’s need for moonlight.
+A signed Georgia bottle drawer reads “James Park / Green County / Georgia,” about 1795 — a rare name on a tall walnut server with deep wells at the ends and legs that go on a little too long. The Evans catalog compares the piece to MESDA S-6448. Park’s plantation wealth included enslaved people. The board is a status object in the backcountry, not a picnic table.
 
-This page keeps the furniture and drops the horse. BBF’s furniture-history pillar asked for Southern vernacular. This is that cluster: serving height, local hardwoods, yellow-pine secondaries, a dining culture that is not always a Charleston marble room.
+The word “hunt board” is late. University of Delaware’s Material Matters essay (2017) puts it in dealer and collector language from the 1920s on, not in colonial bills. Period names were server, sideboard table, slab table, sideboard. The story that horsemen ate off it without dismounting is a 1932 *Magazine Antiques* romance, Mr. Thomas of Athens, Georgia, quoted by Mary Ralls Dockstader, and a collector’s need for moonlight. This page keeps the furniture and drops the horse: serving height, local hardwoods, yellow-pine secondaries, a dining culture that is not always a Charleston marble room.
 
 ## What the object is
 
 Tall. Narrow. Four or six legs, square-tapered, sometimes with inlay or a spade foot. Drawers for bottles. A top you can wipe. Hepplewhite and Sheraton grammar spoken in walnut and cherry instead of mahogany, or in mahogany when the shop could get it. Paul Burroughs’s *Southern Antiques* (1931) already said they were taller than sideboards and used in halls for standing refreshment. His plates call the type “hunting board” a year before Dockstader’s fox-hunt paragraph: a South Carolina Sheraton example with a wine drawer, a North Carolina pine board, a Georgia mahogany with reeded legs, an Early Empire piece with large reeding. That standing use is plausible. The exclusive hunt use is not proven. The Delaware essay’s verdict is the one this series keeps: the gentlemanly hunt connection is tenuous at best.
 
-MESDA 3163, the Charleston marble slab of 1750–1765, is the elite coastal cousin: lower, marble, mahogany, enslaved service assumed. The Piedmont board is higher, wooden-topped, often plainer, made for houses that might not have a named dining room yet. A signed Georgia example — “James Park / Green County / Georgia” on a bottle drawer, circa 1795, compared by the catalog to MESDA S-6448 — shows how rare a name is. Park’s plantation wealth included enslaved people. The board is a status object in the backcountry, not a picnic table.
+MESDA 3163, the Charleston marble slab of 1750–1765, is the elite coastal cousin: lower, marble, mahogany, enslaved service assumed. The Piedmont board is higher, wooden-topped, often plainer, made for houses that might not have a named dining room yet. Park’s inscription is the rare signed sentence; most boards leave the maker anonymous.
 
 Kentucky cherry and limestone (MESDA’s loan comparison) pull the type west. Virginia and the Carolinas are the core. Do not put a hunt board in every state south of Mason-Dixon. Do not refuse one in Tennessee if the construction is right.
 
@@ -36,7 +36,7 @@ Kentucky cherry and limestone (MESDA’s loan comparison) pull the type west. Vi
 
 Wooden pins, not a hidden iron frame. Square-tapered legs that are the stiles of the case: the sides and back mortised into the legs, rails in front opening for drawers or doors. That is a table that grew a box, not a box that grew feet. Carlyle Lynch’s 1983 *Fine Woodworking* drawing, after a piece he measured in 1952 while it was on loan to the Museum of Fine Arts in Richmond, is the shop explanation most late-twentieth-century makers know: four legs instead of the six usual on sideboards, carcase of two solid sides and a back mortised into tapered legs, rails defining the openings. Lynch put doors on the end compartments instead of the original deep drawers. That substitution is a maker’s choice. The original deep drawer is a bottle well.
 
-Cock bead on drawer lips is period language — Chippendale through Sheraton — and a place later reproductions get sloppy. Inlay on a Georgia board can be as careful as Baltimore’s, just less talkative. Dovetails can be fine. The “vernacular” in the pillar map means furniture made for houses like the ones still standing in the Southern hardwood belt — not a slur, not a farm-primitive brand. A six-legged walnut server with bottle wells is a specialized form. Someone in that house dined with enough wine to need the wells.
+Cock bead on drawer lips is period language — Chippendale through Sheraton — and a place later reproductions get sloppy. Inlay on a Georgia board can be as careful as Baltimore’s, just less talkative. Dovetails can be fine. “Vernacular” here means furniture made for houses like the ones still standing in the Southern hardwood belt — not a slur, not a farm-primitive brand. A six-legged walnut server with bottle wells is a specialized form. Someone in that house dined with enough wine to need the wells.
 
 Secondary yellow pine is the passport. Poplar appears. Mahogany primary with pine secondary is coastal or ambitious. A board of all oak is later or elsewhere. The Delaware essay’s own object is pinned construction, a simply carved front skirt, a height that is the type’s tell, and a date that might be 1775–1800 or after 1800. Romance is easier than a decade.
 
@@ -56,7 +56,7 @@ Yellow pine on the underside is the Southern passport the Charleston essay alrea
 
 Once the name “hunt board” sticks, reproductions get taller, longer, and more “masculine.” Distressed stain appears. Horses enter the copy. The 2017 Delaware essay is the corrective. If a dealer’s tag leads with the fox hunt and not with woods and construction, you are buying a story. The furniture can still be old. The story is not.
 
-Burroughs, writing in 1931 for collectors, already wanted a Southern category distinct from Newport and Philadelphia. That appetite is understandable. It is also how a useful serving table acquired a moonlight caption. Lynch’s drawing is how the type entered the late-twentieth-century shop. Bradley Brand’s world knows this drawing whether or not anyone builds it. A contemporary Southern server can be honest without the hunt.
+Burroughs, writing in 1931 for collectors, already wanted a Southern category distinct from Newport and Philadelphia. That appetite is understandable. It is also how a useful serving table acquired a moonlight caption. Lynch’s drawing is how the type entered the late-twentieth-century shop. A contemporary Southern server can be honest without the hunt.
 
 Sugar chests, biscuit tables, and hunt boards get lumped in “Southern decorative arts” as if they were one meal. They are not. A sugar chest is storage for a commodity. A biscuit table is a contested small form. This slug owns the tall server. Keep the others in a clause.
 

@@ -3,7 +3,7 @@ title: Dining chairs, splat to ladder
 slug: dining-chairs-splat-to-ladder
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_target: 1400-2200
 era: "1700–1960"

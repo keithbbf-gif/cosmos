@@ -3,7 +3,7 @@ title: Gothic Revival dining
 slug: gothic-revival-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_target: 1400-2200
 era: "1835–1865"

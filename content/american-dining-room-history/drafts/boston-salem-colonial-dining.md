@@ -3,7 +3,7 @@ title: Boston and Salem
 slug: boston-salem-colonial-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 8
 word_target: 1400-2200
 era: "1700–1815"
@@ -19,7 +19,7 @@ seo_intent: informational
 
 # Boston and Salem
 
-Boston eats first and carves less. That is a slander with a lot of evidence. From the William and Mary hour through Chippendale and into Federal, Boston and then Salem shops supply New England tables that prefer a clean turning or a quiet cabriole to Philadelphia’s wet claw. The woods begin as maple and white pine and become mahogany when the ships allow. The dining is mercantile: a counting-house family, a minister on Sundays, a leaf that still folds in 1760 and a pedestal that will not in 1810.
+A Boston maple gateleg with the leaf up is the colonial dining table before the room has a name: four legs, a stretcher you can see, a top that will fold back to the wall when the cloth comes off. Boston eats first and carves less — a slander with a lot of evidence. From the William and Mary hour through Chippendale and into Federal, Boston and then Salem shops supply New England tables that prefer a clean turning or a quiet cabriole to Philadelphia’s wet claw. The woods begin as maple and white pine and become mahogany when the ships allow. The dining is mercantile: a counting-house family, a minister on Sundays, a leaf that still folds in 1760 and a pedestal that will not in 1810.
 
 Salem is the sharper late chapter. Samuel McIntire carves baskets of fruit for rooms and chairs. John and Thomas Seymour’s shop, Boston-based with Salem clients, puts Federal veneer and inlay on tables that already know Hepplewhite’s plates. The colonial dining table in these towns is the earlier object: maple gatelegs, walnut and mahogany drop-leaves, chairs with vase splats that never quite become a Philadelphia piercing.
 

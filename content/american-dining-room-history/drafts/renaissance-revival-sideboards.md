@@ -3,7 +3,7 @@ title: Renaissance Revival sideboards
 slug: renaissance-revival-sideboards
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 23
 word_target: 1400-2200
 era: "1860–1885"

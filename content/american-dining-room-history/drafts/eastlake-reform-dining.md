@@ -3,7 +3,7 @@ title: Eastlake and the reform dining room
 slug: eastlake-reform-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_target: 1400-2200
 era: "1870–1890"

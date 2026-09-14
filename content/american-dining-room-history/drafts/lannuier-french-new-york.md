@@ -3,7 +3,7 @@ title: Lannuier and the French table
 slug: lannuier-french-new-york
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 13
 word_target: 1400-2200
 era: "1803–1819"
