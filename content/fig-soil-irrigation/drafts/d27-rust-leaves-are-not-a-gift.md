@@ -4,6 +4,7 @@ title: Rust leaves are not a gift
 status: staged
 stage: cover
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: mulch
@@ -53,15 +54,12 @@ why we talk tight-eye fruit and morning sun. The ring is
 part of that talk. A dirty ring under a tight-eye fig is
 still a dirty ring.
 
-I have left a mess because July was loud. I have also
-picked a cleaner August because I raked in June. The
-leaves were not a gift. They were last year’s weather
-trying to stay.
-
-Morning sun on an east wall is sanitation you plant
-once. Raking is sanitation you do every wet year. I
-want both. A dirty ring under a tight-eye fig is still
-a dirty ring. I have left a mess because July was loud.
-I have also picked a cleaner August because I raked in
-June. The orange underside is not compost. It is last
-year trying to stay. Bag it.
+Morning sun on an east wall is sanitation you plant once.
+Raking is sanitation you do every wet year. I want both.
+The overhead-water draft is where I admit we still run
+sprinklers on the block. This draft is where I admit the
+ring still has to be clean even when the heads run. I
+have left a mess because July was loud. I have also picked
+a cleaner August because I raked in June. The orange
+underside is not compost. It is last year trying to stay.
+Bag it. Burn only if the county allows it.

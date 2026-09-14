@@ -4,6 +4,7 @@ title: Split after the drought, then the storm
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: irrigation
@@ -60,12 +61,10 @@ stopped trying to be the hero with a hose at 6 p.m.
 when the radar is already green. The radar is the
 irrigation system. Get out of its way.
 
-Pick what is ready before the front if you can walk the
-row. After the rain I do not “make up” a drink. The
-sky paid. Open-eye names I pick harder. Tight-eye names
-I still skip the sprinklers. Guilt is a binge. The
-55 percent paper can stay in California. Our swing is
-a pot on gravel and a thunderstorm. Even before the
-front, then skip. If you already binge-watered, pick
-what will crack and stop adding more story to the
-radar.
+Open-eye names I pick harder before the front. Tight-eye
+names I still skip the sprinklers. The 55 percent paper
+can stay in California. Our swing is a pot on gravel and
+a thunderstorm. Even moisture before the front is cheaper
+than hero water the night the radar turns green. If you
+already binge-watered, pick what will crack and stop
+adding more story to the radar.

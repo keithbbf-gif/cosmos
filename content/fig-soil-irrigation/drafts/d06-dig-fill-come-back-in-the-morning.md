@@ -4,6 +4,7 @@ title: Dig the hole. Fill it. Come back in the morning.
 status: staged
 stage: read
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: drainage

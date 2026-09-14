@@ -4,6 +4,7 @@ title: Deep and infrequent — after the tree has a county
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: irrigation

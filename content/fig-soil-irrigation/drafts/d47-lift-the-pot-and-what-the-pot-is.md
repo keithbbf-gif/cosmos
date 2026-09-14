@@ -4,6 +4,7 @@ title: Lift the pot — and mind what the pot is
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media

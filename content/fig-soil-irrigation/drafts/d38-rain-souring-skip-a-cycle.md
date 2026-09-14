@@ -4,6 +4,7 @@ title: Rain, souring, and when you skip a cycle
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: irrigation

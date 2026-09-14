@@ -4,6 +4,7 @@ title: Cut water to ripen — the California argument
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: irrigation
@@ -55,15 +56,13 @@ I would rather pick a ripe fig that is merely excellent
 than perform a deficit that makes a story. The story is
 cheap. The crop is not.
 
-I will ease an established berm in a dry September.
-I will not starve a #3 in July to chase brix. Fresh
-figs in a humid South are a pick-every-day job. Late
-nitrogen is leaves, not jam. If a forum swears
-deficit made candy, ask about the pot, the rain, and
-the figs they dropped. Candy on three and a dump of
-the rest is not a method I copy onto a library.
+An established berm in a dry September can ease when the
+county tank is already falling. A #3 on a porch cannot
+ease the same way. The pot is a fast tank. The county is
+a slow one. Treat them like different climates even when
+they share a zip code.
 
-Dried-fig weather is heat without a late storm. We do
-not have that lifestyle. We have radar. I pick. I do
-not perform a percent that was measured in an orchard
-I do not own.
+Dried-fig weather is heat without a late storm. We do not
+have that lifestyle. We have radar. I pick. I do not
+perform a percent that was measured in an orchard I do not
+own. The pick is the ripening move here. Even beats hero.

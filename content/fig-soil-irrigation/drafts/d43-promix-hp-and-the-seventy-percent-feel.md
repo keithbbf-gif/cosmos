@@ -4,6 +4,7 @@ title: Promix HP and the 70 percent feel
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media

@@ -6,12 +6,15 @@ Every file in `drafts/` carries YAML:
 status: staged
 stage: read | fix | cover | water | pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: soil | drainage | mulch | irrigation | media | trouble
 ```
 
-`status: staged` means the piece has had a voice pass and is waiting on a human.
+`status: staged` means the piece is not published. After an editor pass,
+`voice_check: edited` marks PapaFig copy as desk-reviewed (writer staging used
+`voice: human` only).
 It is not `published`. It is not `scratch`.
 
 ## Read order (if you want a root system, not a pile)

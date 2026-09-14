@@ -4,6 +4,7 @@ title: Perlite you can see, castings you can afford
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media
@@ -60,15 +61,13 @@ Copy the rocks. The castings were the part people
 remembered from the interview. The rocks were the
 part that kept the castings from becoming a pond.
 
-Wet dusty perlite before you mix if you like lungs.
-Pumice stays put. Hulls disappear. Bark rots —
-refresh when the can collapses. Vermiculite holds;
-I already have compost trying to hold. The argument
-I will not drop is visible air. Copy the rocks from
-the interview, not just the castings. The rocks kept
-the meal from becoming a pond.
+Wet dusty perlite before you mix if you like having
+lungs. Pumice stays put when you can get it. Rice hulls
+disappear in a season — fine for a year, not a religion.
+Bark fines rot; refresh when the can collapses. I use
+vermiculite sparingly because compost and castings already
+want to hold.
 
-I chased fancy recipes. The cans that lived were the
-ones I could pick up and read. Visible air, a meal I
-could afford, a lift I could feel. That is the whole
-cult I will join.
+Visible air, a meal I could afford, a lift I could feel.
+That is the whole cult I will join. The squeeze and the lift
+still beat a chart.

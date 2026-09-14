@@ -4,6 +4,7 @@ title: Moisture-control mix is a drowning kit
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media
@@ -53,17 +54,15 @@ fig is a small tree in a plastic can that must dry
 back. Steal their watering can if you want. Leave
 their bag on their porch.
 
-If the front of the bag brags about watering less, I
-walk past it. Gel erases the lift test. That is the
-feature and the bug. Cut a bag you already bought
-with perlite until a vegetable gardener argues, or
-give it to a petunia. A fig is a small tree in a can
-that must dry back. Easy was the marketing. The roots
-wanted air, and a two-day rhythm in June, not a
-two-week cake you could not read.
+If you already bought the bag, cut it hard with perlite
+until a vegetable gardener argues, or give it to the
+petunias. Do not “save money” by planting a keeper in
+gel because the label promised easy. Easy was the
+marketing. The fig wanted air and a two-day rhythm in
+June, not a two-week cake you could not read.
 
-Peat-heavy bags without gel can still drown if you
-treat them like HP. They collapse, then they shed,
-then they sour. Perlite you can see is the argument.
-Gel is a product I will not accept under a dessert
-name, even on sale.
+Gel is a product I will not accept under a dessert name,
+even on sale. When the yellow plant is sitting in a wet
+cake, the fix is not another sprinkle on Tuesday. Dump
+the sour, refresh the mix, and buy a bag that lets you
+lift. Promix HP is still the door named on the Intro page.

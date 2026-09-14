@@ -4,6 +4,7 @@ title: Yellow leaves — wet, dry, or occupied
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: trouble
@@ -42,32 +43,27 @@ in a week.
 
 Salt yellow: leaf-edge burn, white crust on the rim, a
 summer of tea in a #3. Clear water. Rest the mixer. Check
-the softener.
+the softener. Do not “push” with more feed until the rim
+tells a different story.
 
 Zone 7 yellow in May can be winter injury pretending to be
 hunger. Wait for the live wood before you feed. Zone 9
 yellow in August can be rust plus wet plus nematodes in
 the same sentence. 8a yellow after a thunderstorm is the
 bowl until proven otherwise. I have fertilized a corpse. I
-do not recommend it.
+do not recommend it. The weight and the smell would have
+told me no if I had listened before I opened the bag.
 
 The order I run: lift or poke, smell, look at the rim,
 then knock a *tool* plant if I need a picture of the
 roots. I do not knock a rare name in July to satisfy
 curiosity. Dormancy or a planned pot-up is when I look.
 Until then the weight and the smell do most of the work.
-Yellow is a question. Nitrogen is rarely the first
-answer.
-
-Order: lift or poke, smell, look at the rim, then
-knock a tool plant if I need roots. I do not knock a
-rare name in July for curiosity. Wet yellow does not
-get nitrogen. Occupied yellow does not get a third
-bag. Old interior leaves on a working tree can wait.
-A whole plant that went pale in a week cannot. Yellow
-is a question. Nitrogen is rarely first.
-
-Salt yellow has a white rim and a summer of tea. Clear
-water, rest the mixer, check the softener. Three
-yellows, three hoses. The forum still sells the same
-bag for all of them. I do not.
+Wet yellow does not get nitrogen. Occupied yellow does
+not get a third bag. Old interior leaves on a working
+tree can wait. A whole plant that went pale in a week
+cannot. Yellow is a question. Nitrogen is rarely the
+first answer. The forum still sells the same bag for
+every yellow. I do not. Dig before you shop. The knuckle
+is rude. Rude has saved me money. A chart is polite. I
+bury fewer plants with rude.

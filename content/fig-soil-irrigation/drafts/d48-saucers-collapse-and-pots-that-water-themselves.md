@@ -4,6 +4,7 @@ title: Saucers, collapsed mix, and pots that water themselves
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media
@@ -58,18 +59,12 @@ a can I skipped. The lift is cheaper.
 
 This is the last draft in the set on purpose. Soil,
 hole, blanket, hose, can. If you only keep three
-habits: plant high, mulch the mat, lift the pot. The
-rest of the pack is those three habits talking. The
-fig does not need a perfect recipe. It needs air,
-a drink that can leave, and a person who will look.
-Even is the word. Hero is the split. Height is the
-ticket. The can is honest if you pick it up.
-
-Empty the tray. A reservoir is a weekend, not a
-summer. When the mix collapses, throw out the sour
-cake. Wood travels. Galls stay in the trash. If you
-only keep three habits from this whole set: plant
-high, mulch the mat, lift the pot. The rest of these
-drafts are those three habits talking in different
-weather. A perfect recipe was never the point. A
-person who will look is.
+habits from this whole set: plant high, mulch the mat,
+lift the pot. The rest of these drafts are those three
+habits talking in different weather. Empty the tray. A
+reservoir is a weekend, not a summer. When the mix
+collapses, throw out the sour cake. Wood travels. Galls
+stay in the trash. Even is still the word for water.
+Hero is still the split. Height is still the ticket.
+A perfect recipe was never the point. A person who will
+look is.

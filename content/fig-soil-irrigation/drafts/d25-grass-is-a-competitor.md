@@ -4,6 +4,7 @@ title: Grass is a competitor, not a living mulch
 status: staged
 stage: cover
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: mulch

@@ -4,6 +4,7 @@ title: Overhead water, rust, and a collection
 status: staged
 stage: water
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: irrigation
@@ -57,15 +58,11 @@ and the compromise I will talk you out of if your
 count is ten. Be honest about the count. Do not copy
 our sprinklers onto a backyard of four names and call
 it how FigRoots does it. FigRoots does it because the
-library is a library.
-
-If your count is ten, do not copy our sprinklers and
-call it how FigRoots does it. FigRoots does it because
-the library is a library. Four names can have drip at
-the dripline and a morning hour. Dusk is a gift to a
-fungus even when I run heads on the block. Be honest
-about the count. Then pick the tool. Then rake the
-leaves the tool does not excuse.
+library is a library. Four names can have drip at the
+dripline and a morning hour. Dusk is a gift to a
+fungus even when I run heads on the block. Then pick
+the tool. Then rake the leaves the tool does not
+excuse.
 
 I still rake. Sprinklers do not buy a pass on dirty
 rings. Morning if I run heads. Skip when the fruit is

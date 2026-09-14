@@ -3,6 +3,7 @@
 
 set = "fig-soil-irrigation"
 status = "staged"
+voice_check = "edited"
 focus = "8a"
 zones = ["7", "8a", "8b", "9"]
 count = 48

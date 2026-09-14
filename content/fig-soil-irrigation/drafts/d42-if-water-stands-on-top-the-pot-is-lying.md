@@ -4,6 +4,7 @@ title: If water stands on top, the pot is lying
 status: staged
 stage: pot
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: media

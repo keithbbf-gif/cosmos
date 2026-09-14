@@ -4,6 +4,7 @@ title: The ribbon test and the jar
 status: staged
 stage: read
 voice: human
+voice_check: edited
 focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: soil
