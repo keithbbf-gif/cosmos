@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JACK'S MESH COMMAND — cDeck</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="deck_more.css">
+  <link rel="manifest" href="cdeck.webmanifest">
+</head>
+<body class="cdeck-type-m" data-orch-mode="home">
+<div id="cdeck-shell">
+  <header id="cdeck-header" class="deck-header" aria-label="cDeck header actions">
+    <h1 class="deck-title">JACK'S MESH COMMAND</h1>
+    <div class="deck-header-actions">
+      <button type="button" id="btnInstance" title="Open a second native profile window">INSTANCE</button>
+      <button type="button" id="btnHomeCode" data-orch-mode="home" aria-pressed="true">HOME</button>
+      <span class="type-size" aria-label="Type size">
+        <button type="button" id="btnTypeSizeS" data-type-size="s">S</button>
+        <button type="button" id="btnTypeSizeM" data-type-size="m" class="on">M</button>
+        <button type="button" id="btnTypeSizeL" data-type-size="l">L</button>
+      </span>
+      <button type="button" id="btnKill" class="danger">KILL</button>
+      <button type="button" id="btnControlResume">RESUME</button>
+      <button type="button" id="btnNewCoding">NEW coding</button>
+      <button type="button" id="btnGemSearch">GEM search</button>
+      <button type="button" id="btnModelRater">MODEL RATER</button>
+      <button type="button" id="btnOpenWorkSnap" title="Snap OpenWork to the right half">OpenWork snap-right</button>
+      <button type="button" id="btnGbwSnap" title="Snap GBW window">GBW snap</button>
+      <label class="orc-pick">ORC
+        <select id="selOrcStream" aria-label="ORC stream picker">
+          <option value="Cm">Cm</option>
+          <option value="legal">legal</option>
+          <option value="plumbing">plumbing</option>
+        </select>
+      </label>
+      <button type="button" id="btnOrcBoot">ORC Boot</button>
+      <button type="button" id="btnReload">RELOAD</button>
+    </div>
+    <div id="headerSay" class="header-say" role="status" aria-live="polite"></div>
+  </header>
+  <div id="cdeck-viewport">
+    <section id="cdeck-mesh-fold" class="mesh-fold" aria-label="MESH COMMAND">
+      <div id="orch-home" class="home-card panel">
+        <p class="dim tiny">Connect row · Core <code id="coreBaseLabel"></code></p>
+        <div id="meshStatus" class="tiny"></div>
+      </div>
+      <div id="cvm-launch-pad" class="launch-pad panel" data-launch="cvm">
+        <h2>CVM</h2>
+        <p class="launch-copy">Launch pad — desktop voice lives in <code>builds/cvm-dt/</code> (native clock + ear/mouth). cDeck does not spawn CVM from the browser; on DT use the registered schtasks or <code>py -3.14 builds/cvm-dt/cvm_dt_voice.py</code>. Phone half is UNMEASURED from this host.</p>
+      </div>
+      <div id="sgh-launch-pad" class="launch-pad panel" data-launch="sgh">
+        <h2>SGH Voice</h2>
+        <p class="launch-copy">Launch pad — SGH loop is GET/POST <code>/api/v1/voice_loop</code> on Core, not a silent icon. No iframe. If Core is down, this row says so — never a dead chip.</p>
+      </div>
+    </section>
+    <div id="cdeck-more" class="deck-more-fold">
+      <div class="extra-pane-shell">
+        <nav class="deck-tabs-rail" id="deck-tab-rail" aria-label="Extra panes"></nav>
+        <div class="deck-tab-shell">
+          <div class="deck-stage" id="deck-stage"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside id="model-rater-drawer" class="model-rater-drawer hidden" aria-label="Model rater">
+    <div class="panel-hd">
+      <h2>MODEL RATER</h2>
+      <button type="button" id="btnModelRaterRefresh" title="POST /api/v1/model_rater/refresh">REFRESH</button>
+      <button type="button" id="btnModelRaterClose">×</button>
+    </div>
+    <div id="modelRaterBody" class="model-rater-body tiny">
+      <p id="mr-status" class="dim">UNMEASURED until GET /api/v1/model_rater</p>
+      <section id="mr-blend" aria-label="Blend weights"></section>
+      <section id="mr-benches" aria-label="Benchmark definitions"></section>
+      <section id="mr-seats" aria-label="Seats"></section>
+      <section id="mr-catalog" aria-label="Catalog from Core"></section>
+      <section id="mr-estimate" aria-label="Job estimate"></section>
+    </div>
+  </aside>
+</div>
+<script src="header.js"></script>
+<script src="app.js"></script>
+<script src="kdash_native.js"></script>
+<script src="model_rater.js"></script>
+<script src="deck_tabs.js"></script>
+<script src="deck_studio.js"></script>
+<script src="deck_gitur.js"></script>
+<script src="deck_forge.js"></script>
+<script src="deck_profiles.js"></script>
+</body>
+</html>
