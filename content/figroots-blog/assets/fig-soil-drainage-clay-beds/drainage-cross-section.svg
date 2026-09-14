@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+<title id="title">Raised planting on clay — cross section</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Schematic bed profile — not a engineered spec.</tspan>
+</text>
+<rect x="80" y="180" width="560" height="100" fill="#8a7355"/>
+<text class="small" x="360" y="240" text-anchor="middle" fill="#ffffff">native clay</text>
+<rect x="200" y="120" width="320" height="60" fill="#e8dcc8" stroke="#8b5e34"/>
+<text class="small" x="360" y="155" text-anchor="middle">amended mound / berm</text>
+<rect x="280" y="80" width="80" height="40" fill="#2f5d4a" rx="4"/>
+<text fill="#ffffff" class="small" x="320" y="105" text-anchor="middle">trunk</text>
+<text class="label" x="200" y="110">mulch ring</text>
+</svg>

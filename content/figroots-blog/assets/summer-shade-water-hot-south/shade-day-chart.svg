@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+<title id="title">July day — sun vs afternoon shade</title>
+<rect width="100%" height="100%" fill="#f7f4ef"/>
+<style>text { font-family: system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1c2420; } .label { font-size: 13px; } .small { font-size: 11px; fill: #5c6b63; } .mono { font-family: ui-monospace, Consolas, monospace; font-size: 12px; }</style>
+<text class="small">
+<tspan x="24" dy="0">Schematic hours — tune to your row orientation.</tspan>
+</text>
+<rect x="60" y="120" width="40" height="80" rx="6" fill="#d4e4dc" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="small" x="80.0" y="215" text-anchor="middle">6a</text>
+<rect x="108" y="120" width="80" height="80" rx="6" fill="#2f5d4a" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="small" x="148.0" y="215" text-anchor="middle">10a</text>
+<rect x="196" y="120" width="100" height="80" rx="6" fill="#a0452a" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="small" x="246.0" y="215" text-anchor="middle">2p</text>
+<rect x="304" y="120" width="60" height="80" rx="6" fill="#d4e4dc" stroke="#9aa89f" stroke-width="1.5"/>
+<text class="small" x="334.0" y="215" text-anchor="middle">6p</text>
+<text class="label" x="60" y="100">Morning sun OK</text>
+<text class="label" x="280" y="100">Afternoon shade target</text>
+</svg>
