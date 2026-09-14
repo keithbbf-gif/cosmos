@@ -71,3 +71,11 @@ tell the truth about it. A table
 that only works in the climate
 it was born in is a prototype
 that escaped.
+
+Houses with tight winter heat are
+the hard case. A humid June shop
+and a 22-percent-RH dining room
+are not a disagreement. They are
+two countries. If you build as if
+they were one, the pins will
+tell on you in front of company.

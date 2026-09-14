@@ -76,3 +76,16 @@ different woods. I would rather
 oil a table I am willing to
 re-oil than pretend a catalyzed
 coat is a time machine.
+
+Cherry is the classroom. Leave a
+book on a new cherry top for a
+month and you have a pale
+rectangle that will outlive the
+excuse. A leaf is that book,
+except the book is the whole
+board and the month is five
+years. If you cannot stand a
+younger red, do not buy cherry
+and a closet. Buy a wood that
+whispers when it tans, or buy
+no leaves.

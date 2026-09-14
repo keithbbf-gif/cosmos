@@ -11,8 +11,8 @@ topics: [mechanism, radial, jupe]
 
 # Lotus tables after Jupe
 
-Call them lotus, radial, expanding round, Jupe-
-style. The motion is the same pie.
+Call them lotus, radial, expanding round, or
+Jupe-style. The motion is the same pie.
 
 Segments ride on slides that point at the
 center. A capstan, a cam, a set of arms, or
