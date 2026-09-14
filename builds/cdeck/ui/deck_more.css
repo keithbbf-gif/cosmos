@@ -1,0 +1,42 @@
+.extra-pane-shell {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.deck-tabs-rail {
+  overflow-y: auto;
+  min-height: 0;
+  flex: 0 0 auto;
+  max-height: 100%;
+}
+
+.deck-tab-shell {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.deck-stage {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex: 1;
+  min-height: 0;
+  padding-right: 14px;
+  box-sizing: border-box;
+}
+
+.deck-stage .deck-page-pan {
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.runs-pane,
+.runs-chip-row,
+.widget-scroll-x {
+  overflow-x: auto;
+}

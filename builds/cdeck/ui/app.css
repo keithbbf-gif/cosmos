@@ -1,0 +1,55 @@
+.mesh-fold {
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+/* Orch home wall — panels lock to grid areas; pan plane moves grid + cards together */
+.mesh-fold.deck-pan-host {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.deck-page-pan.deck-pan-surface {
+  position: relative;
+  min-width: min-content;
+  background-color: #f3efe6;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0;
+  cursor: grab;
+}
+
+.deck-pan-host.deck-pan-dragging .deck-page-pan.deck-pan-surface {
+  cursor: grabbing;
+}
+
+.mesh-fold .deck-page-pan[data-deck-page-id="home"] {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(280px, 1.2fr) minmax(240px, 1fr) minmax(240px, 1fr);
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "home nav east"
+    "home cvm sgh";
+}
+
+#orch-home { grid-area: home; }
+#home-nav { grid-area: nav; }
+#orch-east { grid-area: east; }
+#cvm-launch-pad { grid-area: cvm; }
+#sgh-launch-pad { grid-area: sgh; }
+
+.panel { border: 1px solid #ccc; border-radius: 6px; padding: 8px; background: #faf8f5; }
+.launch-pad h2 { margin: 0 0 6px; font-size: 13px; }
+.launch-copy { margin: 0; font-size: 12px; line-height: 1.35; color: #333; }
+.dim.tiny { font-size: 11px; color: #555; }
+body.cdeck-type-s { font-size: 12px; }
+body.cdeck-type-m { font-size: 14px; }
+body.cdeck-type-l { font-size: 16px; }
+body[data-orch-mode="code"] #orch-home { display: none; }
+body[data-orch-mode="home"] #orch-home { display: block; }
+.model-rater-drawer { position: fixed; right: 0; top: 48px; width: min(420px, 95vw); height: calc(100% - 48px); background: #fff; border-left: 1px solid #ccc; overflow: auto; z-index: 20; }
+.model-rater-drawer.hidden { display: none; }

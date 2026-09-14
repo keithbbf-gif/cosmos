@@ -1,0 +1,90 @@
+/* index.html: #cdeck-viewport wraps #cdeck-mesh-fold + #cdeck-more (shared viewport) */
+/* viewport: MESH COMMAND + extra panes share #cdeck-viewport (no vh floor on tab rail) */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#cdeck-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  max-height: 100dvh;
+}
+
+.deck-header {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #e8dcc8;
+  border-bottom: 1px solid #c4b59a;
+}
+
+.deck-title {
+  font-size: 13px;
+  margin: 0 8px 0 0;
+  letter-spacing: 1px;
+}
+
+.deck-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+
+.deck-header button,
+.deck-header select {
+  font-size: 11px;
+  padding: 3px 6px;
+}
+
+.deck-header button.danger {
+  color: #800;
+}
+
+.type-size button.on {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.header-say {
+  flex: 1 1 100%;
+  font-size: 11px;
+  min-height: 1.2em;
+  color: #222;
+}
+
+#cdeck-viewport {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+#cdeck-mesh-fold {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.deck-stage.deck-pan-host {
+  overflow-x: hidden;
+}
+
+#cdeck-more,
+#cdeck-more.deck-more-fold {
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+}
