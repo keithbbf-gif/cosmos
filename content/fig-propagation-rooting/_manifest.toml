@@ -1,0 +1,284 @@
+# Staged draft manifest — fig propagation & rooting, Zone 8a focus
+# status is editorial. stage is take | root | layer | move.
+
+set = "fig-propagation-rooting"
+status = "staged"
+focus = "8a"
+zones = ["7", "8a", "8b", "9"]
+count = 46
+
+[[draft]]
+id = "d01"
+file = "drafts/d01-industry-stick-six-eight-three.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d02"
+file = "drafts/d02-lignified-is-not-dormant.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d03"
+file = "drafts/d03-when-8a-wood-is-ready.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d04"
+file = "drafts/d04-green-wood-is-a-now-problem.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d05"
+file = "drafts/d05-which-cane-you-steal.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d06"
+file = "drafts/d06-pencil-thick-is-a-size.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d07"
+file = "drafts/d07-polarity-or-upside-down.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d08"
+file = "drafts/d08-the-prune-that-is-also-a-harvest.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d09"
+file = "drafts/d09-how-many-sticks-one-tree.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d10"
+file = "drafts/d10-wash-dry-then-stick.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d11"
+file = "drafts/d11-open-the-box-the-day.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d12"
+file = "drafts/d12-fridge-wood-and-8a-february.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d13"
+file = "drafts/d13-labels-leave-before-roots.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d14"
+file = "drafts/d14-variety-wood-is-not-equal.md"
+stage = "take"
+cluster = "cutting"
+
+[[draft]]
+id = "d15"
+file = "drafts/d15-damp-is-not-wet.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d16"
+file = "drafts/d16-heat-mat-without-a-thermostat.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d17"
+file = "drafts/d17-2023-coir-vs-de-as-a-lesson.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d18"
+file = "drafts/d18-the-cup-is-a-climate.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d19"
+file = "drafts/d19-callus-is-not-a-root.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d20"
+file = "drafts/d20-leaves-that-lie.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d21"
+file = "drafts/d21-water-jars-are-a-party-trick.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d22"
+file = "drafts/d22-outdoor-dirt-for-replaceable-wood.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d23"
+file = "drafts/d23-light-for-a-stick.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d24"
+file = "drafts/d24-hormone-is-optional.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d25"
+file = "drafts/d25-scoring-depth-and-the-puddle.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d26"
+file = "drafts/d26-covers-condensation-march-sun.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d27"
+file = "drafts/d27-gnats-algae-and-a-wet-cup.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d28"
+file = "drafts/d28-when-to-stop-peeking.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d29"
+file = "drafts/d29-slow-varieties-and-the-week-you-quit.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d30"
+file = "drafts/d30-rooting-in-a-shop-that-is-too-kind.md"
+stage = "root"
+cluster = "rooting"
+
+[[draft]]
+id = "d31"
+file = "drafts/d31-air-layer-when-you-want-a-plant.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d32"
+file = "drafts/d32-june-is-the-month.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d33"
+file = "drafts/d33-sphagnum-that-stays-damp.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d34"
+file = "drafts/d34-girdle-wound-or-sleeve.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d35"
+file = "drafts/d35-how-long-before-you-cut-it-free.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d36"
+file = "drafts/d36-the-layer-that-dried-in-the-wind.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d37"
+file = "drafts/d37-trunk-layers-and-the-8a-calendar.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d38"
+file = "drafts/d38-potting-the-layer-the-hour-you-cut.md"
+stage = "layer"
+cluster = "air-layer"
+
+[[draft]]
+id = "d39"
+file = "drafts/d39-pot-up-before-june.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d40"
+file = "drafts/d40-the-first-two-weeks-after-the-cup.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d41"
+file = "drafts/d41-clay-hole-not-a-grave.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d42"
+file = "drafts/d42-moving-a-fig-that-already-has-fruit.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d43"
+file = "drafts/d43-suckers-are-free-plants.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d44"
+file = "drafts/d44-three-to-five-is-a-jump.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d45"
+file = "drafts/d45-august-moves-cook-a-root-ball.md"
+stage = "move"
+cluster = "transplant"
+
+[[draft]]
+id = "d46"
+file = "drafts/d46-what-established-means-in-8a.md"
+stage = "move"
+cluster = "transplant"

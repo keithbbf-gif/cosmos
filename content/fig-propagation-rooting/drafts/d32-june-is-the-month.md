@@ -27,8 +27,6 @@ How I pick the cane in June: last year’s wood, already leafed, not a soft gree
 
 August start, October maybe-roots, then November. The mother is slowing. The sleeve dries one week and sours the next. The pot you cut into is a short-season plant. Some years it lives. I would not do it to a name we have one of.
 
-Spring — after the tree is actually moving, not after one warm Saturday — is legal. Late April and May work if last frost is behind you. [VERIFY] your county. Ours is usually early to mid-April. A sleeve on a tree that then gets a 28°F night is a waste of moss.
-
 I mark the calendar the day I wrap. I do not “check in a month” without a date. Eight weeks is a date.
 
 I write the wrap date and the earliest cut date on the tape — wrap plus six weeks, and a note that eight is allowed. LSU’s four to six weeks of warmth is real. Our 8a June is warm. I still want a mass of roots, not a scout at week four. Clear plastic lets me glance without a full unwrap. If I see a beard at five I can wait to six. If I see nothing at eight I open once. Callus and firm wood can have two more weeks if I started in June. If I started in August I do not have two more weeks that matter.
