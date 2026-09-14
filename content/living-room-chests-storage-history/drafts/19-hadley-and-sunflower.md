@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Hadley chests are a Connecticut River Valley type named by Henry Wood Erving after a chest he bought in Hadley in 1883, not a single-town product. Sunflower chests are a Wethersfield-area joined tradition associated with Peter Blin's shop but made by many hands.
 word_target: 1100-1700

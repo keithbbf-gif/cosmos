@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: In a living room, Stickley storage is a sideboard, a chest of drawers, or a settle with a lid — casework whose joints are meant to be read. Harvey Ellis’s inlay year is a brief fork, not the whole Arts and Crafts movement.
 word_target: 1100-1700

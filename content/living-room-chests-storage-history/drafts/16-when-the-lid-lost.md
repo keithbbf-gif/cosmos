@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Drawers take hold in seventeenth-century England. A lid is a volume you pile and sometimes sit on. A drawer is a sort you can open without unstacking the house. Convenience beat cubic feet, and the living-room chest has been arguing about it ever since.
 word_target: 1100-1700

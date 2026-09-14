@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A kas (Dutch kast) is a specific New York and New Jersey cupboard — cornice, paneled doors, textile storage in houses without closets — documented in Kenny, Safford, and Vincent's 1991 Met catalog. Not every tall cupboard is a kas.
 word_target: 1100-1700

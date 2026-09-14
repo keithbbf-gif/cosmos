@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: English commode names at least three machines — a 1680s headdress, a French drawer case, and a close-stool or pot — and the bathroom sense is why an American client flinches. Do not collapse Dyott 1802 with etymonline's 1851 first attestation.
 word_target: 1100-1700

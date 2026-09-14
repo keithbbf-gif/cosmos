@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A chest is defined by a lid, not by romance. Construction families — dug-out, six-board, clamped, paneled — are the argument; decoration is the clothes.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Norwegian rosemaled chests are regional painted furniture that sometimes crossed the Atlantic as immigrant trunks. Alpine cassapanche and Tyrolean painted boxes are a different carpentry. Tourist "Alpine" in an American living room is often a dealer climate, not a valley.
 word_target: 1100-1700
@@ -27,7 +27,7 @@ topics: [rosemaling, Norway, Vesterheim, immigrant, Alpine, cassapanca, Tyrol, c
 
 **Disclaimer.** Educational furniture history for the BBF channel. Staged draft. Not a valuation of a painted trunk and not a travel guide to Tyrol.
 
-Vesterheim’s Vest-Agder trunk 1973.008.062 is dated 1837. Place of origin: Ryggesaas, Flekkefjord. Made by Vorm Mjaavatn, who carved with a hunting knife. Painted by Ivar or Kjetil Urdal — the museum leaves the painter as a pair of famous names. Initials for Peder Tollisen Ryggsaas. Later initials added in 1881 by Lars Bertesen Roiseland. The trunk held money and medicine. When Pedersen emigrated in 1890 he brought it. Family history then puts it among Ozette people near Ozette Lake, Washington, about 1900, and finds it again thirteen years later in an abandoned fishing hut. Gift of Augsburg College. Wood and metal, 28 by 45½ by 22½ inches. That is a lot of story for one box. The part I trust on the museum page is the making, the date, the style name (Vest-Agder rosemaling), and the immigration. The Ozette chapter is family history on a label. I will not improve it.
+Vesterheim’s Vest-Agder trunk 1973.008.062 is dated 1837. Place of origin: Ryggesaas, Flekkefjord. Made by Vorm Mjaavatn, who carved with a hunting knife. Painted by Ivar or Kjetil Urdal — the museum leaves the painter as a pair of famous names. Initials for Peder Tollisen Ryggsaas. Later initials added in 1881 by Lars Bertesen Roiseland. The trunk held money and medicine. When he emigrated in 1890 he brought it. Family history then puts it among Ozette people near Ozette Lake, Washington, about 1900, and finds it again thirteen years later in an abandoned fishing hut. Gift of Augsburg College. Wood and metal, 28 by 45½ by 22½ inches. That is a lot of story for one box. The part I trust on the museum page is the making, the date, the style name (Vest-Agder rosemaling), and the immigration. The Ozette chapter is family history on a label. I will not improve it.
 
 This essay has one problem: painted chests from Norway and painted chests from the Alps get stacked in American living rooms as if “folk flowers” were a country. They are not. Rosemaling is a Norwegian decorative painting with regional hands — Vest-Agder, Os, Telemark, Hallingdal, others — on chests, trunks, cupboards, bowls. A *kiste* is a chest. An immigrant trunk is often that chest after a ship. An Alpine *cassapanca* is an Italian word for a chest-bench: *cassone* plus *panca*. Tyrol painted furniture in fir, casein, faux marble, a different joinery and a different sitting habit. A dealer tag that says “Alpine” on a bench in Indiana is often a climate, not a catalog.
 

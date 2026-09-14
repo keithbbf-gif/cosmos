@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A Paris commode from about 1700 is a low, wide, veneered drawer case, often marble-topped and ormolu-mounted, made by an ébéniste. English copied the type in Chippendale's 1754 Director as "French Commode Tables." The word's other English lives belong to the next essay.
 word_target: 1100-1700

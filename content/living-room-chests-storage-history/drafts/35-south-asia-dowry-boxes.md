@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: South Asian dowry chests and metal-clad trunks — patara, peti, and their cousins — are household boxes that often sat in the family sitting room. A charpoy is seating. Sandalwood and ivory caskets are not living-room chests. No invented temple stories.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A cellarette is a small liquor chest — often lidded, often on a stand, Federal American and Hepplewhite English — that sometimes sat in a living room as a drinks box. This essay is a light touch. Another writer owns liquor cabinets.
 word_target: 1100-1700

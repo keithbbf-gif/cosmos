@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Export camphor trunks, domestic camphor clothes chests, huanghuali and hongmu hardwood cabinets, and compound or medicine chests are different machines. The moth story is commercial. There is no single Chinese living-room chest.
 word_target: 1100-1700

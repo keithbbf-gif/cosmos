@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Flat televisions wrecked the deep cabinet. What remains is a lower media console, a soundbar problem, cables, and a standing argument — Larson’s among them — about boxing speakers. The living room still needs a place for the machine.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A British campaign chest is a knock-down chest of drawers with brass corners, flush handles, and removable feet, made for military and colonial travel. It is not a lidded chest. Officers' furniture became parlor furniture when the traveling stopped.
 word_target: 1100-1700

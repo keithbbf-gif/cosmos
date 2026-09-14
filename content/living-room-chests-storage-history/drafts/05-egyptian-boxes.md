@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: New Kingdom Egypt kept wood because the air was dry. The painted boxes did household and funerary work; the golden throne is a different machine. Do not confuse Carter numbers.
 word_target: 1100-1700

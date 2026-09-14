@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A Joseon bandaji is a front-drop textile chest defined by ironwork and a half-opening face, not a Japanese tansu. A jang is a stacked door cabinet. American living rooms inherit both as low storage after they leave the rooms they were built for.
 word_target: 1100-1700

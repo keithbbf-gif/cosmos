@@ -66,8 +66,8 @@ def main() -> int:
                 errors.append(f"{f.name}: missing {key}")
         if "status: staged" not in yaml:
             errors.append(f"{f.name}: status is not staged")
-        if "voice_check: human" not in yaml:
-            errors.append(f"{f.name}: voice_check is not human")
+        if "voice_check: edited" not in yaml:
+            errors.append(f"{f.name}: voice_check is not edited")
         if "channel: BBF" not in yaml:
             errors.append(f"{f.name}: channel is not BBF")
         if "## Figure plan" not in text:

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Italian credenza means trust — tasting for poison — and names a 1440s intarsia sideboard at The Cloisters (53.95) long before English borrows the word in 1883 and 1920s rooms use it for a long low cabinet. Do not hang Renaissance intarsia on Danish teak.
 word_target: 1100-1700

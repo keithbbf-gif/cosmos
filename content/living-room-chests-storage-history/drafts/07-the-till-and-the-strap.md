@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A till is the small box inside the chest for what you would miss first. Iron straps are clamps and locks before they are Gothic decoration.
 word_target: 1100-1700

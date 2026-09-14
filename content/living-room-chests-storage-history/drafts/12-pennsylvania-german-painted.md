@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Pennsylvania-German decorated chests are painted dower and coming-of-age furniture from southeastern Pennsylvania. Monroe Fabian's monograph is the book. Motifs have regional habits; a unicorn does not license a county you cannot document.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A mid-century living-room credenza is a long low storage box — Danish named pieces, Nelson’s CSS, the Eames ESU — not the Cloisters’ fifteenth-century credenza and not a synonym for sideboard.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A chest-on-chest is two stacked drawer cases. An American high chest is a drawer case on a stand with legs. Neither is a lid-chest, and English tallboy is not a synonym that erases the stand.
 word_target: 1100-1700

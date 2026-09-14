@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The American highboy is a later dealer word for a high chest of drawers. Goddard-Townsend Newport and Philadelphia Chippendale high chests are standing drawer cases with bonnet tops, cabriole legs, and no lid. They are not chests in the lidded sense this pack began with.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The storage ottoman and the steamer trunk used as a coffee table are chests that the living room is ashamed to name. A padded lid is a lid. A trunk in the middle of the room is still a box with a hinge.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A mule chest is a lidded chest with drawers in the base, an English seventeenth- and eighteenth-century hybrid with American cousins. The type is a compromise. The later name admits what the joinery already knew.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: An Italian cassone is a civic marriage chest that faced the street. It is not an American hope chest. Workshop panels by Apollonio di Giovanni and others were later stripped and hung as pictures; some wall panels (spalliere) were never chest fronts at all.
 word_target: 1100-1700

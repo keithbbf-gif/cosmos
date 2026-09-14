@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The Lane cedar chest is an industrial American hope chest — Altavista, 1912, a smell sold as a home — not medicine. A serial read backwards dates many chests. Lid hardware is a safety history, not a repair lesson.
 word_target: 1100-1700

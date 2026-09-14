@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Furniture histories that begin with the chair begin with rank. Most households began with a box. Storage is the first job; sitting is the marked exception.
 word_target: 1100-1700

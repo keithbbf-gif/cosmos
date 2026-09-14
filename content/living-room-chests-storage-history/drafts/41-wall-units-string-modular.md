@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Modular living-room storage — String in 1949, USM Haller in the 1960s, later IKEA systems — treats the wall as a kit. BESTÅ’s first year stays unverified here; BILLY and IVAR’s lineage are the dated IKEA facts.
 word_target: 1100-1700

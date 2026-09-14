@@ -94,7 +94,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: one sentence the piece must teach
 word_target: 1100-1700
@@ -112,7 +112,7 @@ topics: [chests, living-room, ...]
 
 Draft-only staging. See `WP_IMPORT.md`.
 
-## Self-edit before `voice_check: human`
+## Self-edit before `voice_check: edited`
 
 Read the piece aloud in the head. Kill:
 

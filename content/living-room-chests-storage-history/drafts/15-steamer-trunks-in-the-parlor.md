@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A steamer trunk is luggage sized for a steamship cabin, not a household chest. Louis Vuitton's flat-top slat trunk and cheaper canvas-and-slat cousins sometimes sat in parlors as proof of travel. The coffee-table afterlife is a later, lighter note.
 word_target: 1100-1700

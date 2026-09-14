@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: An American hope chest is a later romantic name for a box of textiles. European dower is a legal transfer. The chest that holds a trousseau is not always a marriage, and the factory cedar chapter is a later essay.
 word_target: 1100-1700

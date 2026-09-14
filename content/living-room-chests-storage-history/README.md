@@ -37,6 +37,8 @@ Play `drafts/` in filename order for the long narrative. Each file is `standalon
 python3 content/living-room-chests-storage-history/validate_staging.py
 ```
 
+After editor pass: `voice_check: edited` on drafts and apparatus YAML; see `EDITOR_REPORT.md` (writer PR **#485**; alternate **#496** noted for later reconcile).
+
 ## What this is not
 
 - Not a Keith Fritz Fine Furniture brand film.

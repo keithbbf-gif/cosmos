@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: English parish chests survive because a legal body cannot throw away the box that holds the deed. Dendrochronology dates workshops; romance dates "Norman" labels.
 word_target: 1100-1700

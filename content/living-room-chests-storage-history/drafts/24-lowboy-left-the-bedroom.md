@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A lowboy is a collectors' word for an eighteenth-century dressing table — a low chest of drawers on legs, often made to match a high chest. It left the bedroom for parlor and occasional use. It is not a coffee table.
 word_target: 1100-1700

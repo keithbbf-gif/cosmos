@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A linen press is two related machines — a screw that flattens cloth, and later a tall British or American cupboard with sliding trays for sheets. 1980s factories hollowed the silhouette for televisions; that afterlife is a touch only. Essay 40 owns entertainment centers.
 word_target: 1100-1700

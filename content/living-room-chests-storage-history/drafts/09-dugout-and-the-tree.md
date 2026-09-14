@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A dug-out chest is a hollowed log with a lid. Construction is not a date. Dendrochronology shows dug-outs were still being made beside boarded and clamped chests, some of them late and rural, not automatically "early."
 word_target: 1100-1700

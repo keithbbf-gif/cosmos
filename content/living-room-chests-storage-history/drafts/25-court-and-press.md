@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Cupboard began as a cup-board, a board for cups. Court meant short and low, an open display. Press, aumbry, and locker meant doors. By 1600 the word cupboard was moving toward a closed compartment, and American "court cupboard" often names a press.
 word_target: 1100-1700

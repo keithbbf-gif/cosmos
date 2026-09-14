@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Furniture words are rooms in costume. Chest, coffer, cassone, commode, bureau, credenza, kas, and press do not mean the same machine. Using one for another is how a sale hides a hinge.
 word_target: 1100-1700

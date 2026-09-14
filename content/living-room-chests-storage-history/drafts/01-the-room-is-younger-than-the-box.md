@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: "Living room" is a late American name for a sitting room. The chest that stores things in it is centuries older than the name, and older than the parlor the name replaced.
 word_target: 1100-1700

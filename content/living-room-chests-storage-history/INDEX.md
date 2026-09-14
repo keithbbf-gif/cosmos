@@ -1,7 +1,7 @@
 ---
 title: Index — Living-room chests and storage history
 status: staged
-voice_check: human
+voice_check: edited
 channel: BBF
 series: living-room-chests-storage-history
 ---

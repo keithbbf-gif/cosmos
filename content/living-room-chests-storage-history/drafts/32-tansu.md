@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Tansu are Japanese mobile cabinets. The word is recorded in the Genroku era (1688–1704); wheeled chests appear in Musashi Abumi (1661). Isho-dansu, kaidan-dansu, and kuruma-dansu are different machines. Legal bans after the 1657 Meireki fire and Kansei-era limits on merchant chests need Heineken (and dentsdelion) and a [VERIFY] on the statute. They are not furniture-as-architecture until later. Morse, 1886, still sees a tansu as a bureau inside a closet.
 word_target: 1100-1700

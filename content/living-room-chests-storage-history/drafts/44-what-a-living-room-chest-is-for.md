@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A living-room chest is still a place for Tuesday clutter. The useful choice is lid, drawer, door, or wall — four machines — not a catalog finish. The shop can stand in the room and talk about use without printing a price.
 word_target: 1100-1700

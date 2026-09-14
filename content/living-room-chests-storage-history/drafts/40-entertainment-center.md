@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The early-1980s entertainment center is case goods engineered around a CRT — depth for the yoke, doors to hide the set, a factory name for vertical storage — documented in trade reporting, not in a design-myth.
 word_target: 1100-1700

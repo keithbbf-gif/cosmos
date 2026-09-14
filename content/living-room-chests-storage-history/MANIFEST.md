@@ -2,7 +2,7 @@
 title: Manifest
 series: living-room-chests-storage-history
 status: staged
-voice_check: human
+voice_check: edited
 channel: BBF
 note: Body word counts are words after YAML and disclaimer, before ## Notes.
 ---

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Breakfronts and secretaries in this pack are living-room storage for books and paper — a projecting center, a fall-front that hides a writing plane — not a history of the desk. Another pack owns desks.
 word_target: 1100-1700

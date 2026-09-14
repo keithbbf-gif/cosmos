@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The six-board chest is the carpenter's chest: front, back, bottom, two ends, a lid. Iron and a lock keep it a box when the grain wants it to be firewood.
 word_target: 1100-1700

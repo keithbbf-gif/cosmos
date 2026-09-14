@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: A joined oak chest is a frame of stiles and rails with panels that can move, and usually a till. It is not a boarded six-plank box. Victor Chinnery's Oak Furniture is the book for the British tradition that taught the drawer how to live in a carcase.
 word_target: 1100-1700

@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: Shaker storage at Hancock and Pleasant Hill is often the wall itself — built-in cupboards and drawers — not a portable hope chest. The comparison to Japanese kaidan-dansu is a light parallel about dead space, not a sermon about simplicity.
 word_target: 1100-1700

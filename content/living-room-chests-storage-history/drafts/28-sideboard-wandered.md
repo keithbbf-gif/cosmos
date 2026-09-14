@@ -7,7 +7,7 @@ status: staged
 voice: shop-floor-first-person
 form: essay
 channel: BBF
-voice_check: human
+voice_check: edited
 standalone: true
 educational_claim: The sideboard is dining-room storage — Shearer, Hepplewhite, Sheraton — that later walked into living rooms and apartments under the names buffet and server. This pack follows that walk; it does not become a dining-table series.
 word_target: 1100-1700
