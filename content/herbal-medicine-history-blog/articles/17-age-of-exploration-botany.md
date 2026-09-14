@@ -15,7 +15,7 @@ citations:
   - "Londa Schiebinger, Plants and Empire (Harvard, 2004)."
   - "Richard Drayton, Nature's Government (Yale, 2000)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -47,7 +47,6 @@ Padua's 1545 *orto*, Leiden's garden, the later Chelsea Physic Garden (1673) and
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-<!-- under-fig:v2 -->
 Garcia de Orta’s *Colóquios* (Goa, 1563) argues plant by plant against Pliny from a garden and a bazaar: clove, cinnamon, tamarind, the betel quid, a pepper he could buy on the dock. Carolus Clusius’s *Aromatum et simplicium* (Antwerp, 1567) is that book in Latin dress for the north. Nicolás Monardes, in Seville, sold sassafras and tobacco as New World courses. José de Acosta’s *Historia natural y moral de las Indias* (1590) is a Jesuit attempt to file the same cargo as natural history. The cargo did not change. The sentence did: a Nahuatl plant gained a Galenic temperament; an Asian plant gained a Latin synonym war.
 
 Figure 2’s beats should stay documentary: 1492 as a political date (not a botanical one), 1563 Orta, 1570s Hernández in Mexico, Dutch VOC gardens. `[VERIFY]` Hernández expedition years. Do not add an efficacy column. The historical remainder is a ledger: who collected, who printed, who was paid, who was not named. Vinca and cinchona later in this pack are the same remainder with different centuries.
@@ -56,13 +55,5 @@ Figure 2’s beats should stay documentary: 1492 as a political date (not a bota
 
 The glazed case that later made seedlings survivable on a wet deck is a nineteenth-century machine sitting just outside this 16th-century file. Mention it as a sequel, not as a 1500s fact. Sixteenth-century transfer was seed, slip, and dried sack, plus a lot of death in the hold.
 
-Monardes sold the New World to a Spanish reader who wanted a course for the pox. Orta sold an Indian bazaar to a Portuguese reader who still believed Pliny. Both sales were books. Both books moved because ships moved. Schiebinger's non-transfer — the knowledge that stayed in the colony — is the caption Figure 1 cannot draw. Draw it in prose. A garden with paths is still a warehouse.
+Monardes sold the New World to a Spanish reader who wanted a course for the pox. Orta sold an Indian bazaar to a Portuguese reader who still believed Pliny. Both sales were books. Both books moved because ships moved. Schiebinger's non-transfer — the knowledge that stayed in the colony — is the caption Figure 1 cannot draw. Draw it in prose. A garden with paths is still a warehouse. `[VERIFY]` Hernández expedition years against a modern Hernández bibliography before Figure 2 prints a single 1570s box as gospel.
 
-<!-- prose-expand:v1 17-age-of-exploration-botany.md -->
-## Recchi's abridgment and a flower that stayed
-
-Philip II sent Francisco Hernández to New Spain in 1570. He returned in 1577 with a mountain of notes and paintings. Nardo Antonio Recchi abridged them; the Accademia dei Lincei finally printed a mutilated *Rerum medicarum Novae Hispaniae thesaurus* in Rome in 1651. Seventy-four years from expedition to a Latin book that still was not Hernández entire. Indigenous painters and informants sit in that delay as labor the title page does not pay.
-
-Londa Schiebinger's peacock flower (*Caesalpinia pulcherrima*) is the named non-transfer: abortifacient knowledge that enslaved and Indigenous women held and that European printed herbals often declined to carry. Draw that in prose. Figure 1 cannot. Garcia de Orta died in Goa in 1568; in 1580 the Inquisition burned his bones. Clusius's Latin *Aromatum* kept the book alive in the north. John Tradescant the Elder hauled living curiosities toward London for Buckingham and then for Charles. A labeled bed is a check on a sack. It is also a trophy.
-
-Cornut's *Canadensium plantarum* (1635) is an early Paris attempt to file northeastern American plants. It is not a Huron herbal. Caption it as a European book. Vinca and cinchona later in this pack inherit the same remainder: who collected, who printed, who was paid, who was not named.

@@ -14,7 +14,7 @@ citations:
   - "Mark Honigsbaum, The Fever Trail (2001); Haggis on the countess legend."
   - "Richard Drayton, Nature's Government (Kew)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ Pierre-Joseph Pelletier and Joseph Bienaimé Caventou isolated quinine in Paris 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-<!-- under-fig:v2 -->
 Cardinal Juan de Lugo and other Jesuits made “Jesuit’s bark” a Roman and then a European shop object in the 1630s and 1640s. Quechua *quina-quina* and the Andean *cascarilleros* who peeled it sit in a thinner European file — a silence that is itself a record. Londa Schiebinger has written about how expertise gets stripped when a remedy becomes a title. Later plantation language split trees into *Cinchona officinalis*, *C. calisaya*, *C. ledgeriana*. Hipólito Ruiz and José Pavón’s *Flora Peruviana et Chilensis* and Charles-Marie de La Condamine’s 1730s notes are how a French and Spanish public got drawings. The crystal in Figure 1 is a Paris object. The peelers are an Andean labor file the title page does not pay.
 
 Robert Talbor sold a secret English remedy that was, underneath the wine, bark. Thomas Sydenham argued about when to give it. Secrecy and bark went together because the bark was a business. Figure 1 is bark to crystal as a historical cartoon. No processing instructions.
@@ -45,20 +44,11 @@ Robert Talbor sold a secret English remedy that was, underneath the wine, bark. 
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
 Pelletier and Caventou’s 1820 announcement in the *Annales de chimie* made a crystal a Paris product. Pelletier’s later factory made it a commodity. Justus Hasskarl’s 1850s Dutch seed run, Clements Markham’s British attempt, and Charles Ledger’s *calisaya* seed — gathered with Manuel Incra Mamani in Bolivia — made Java the mountain that actually produced. Mamani did lethal hillside work; Ledger’s name stuck. Tell it that way or do not tell it. Japan’s 1942 occupation of the Indies is why wartime quinacrine (Atabrine) enters Figure 2’s 1940s end. Quinidine is the sister alkaloid in the same bark. Quinine was issued. It failed when the parasite or the logistics failed. It poisoned when the dose was clumsy. None of that is a home protocol. The countess, if she ever took the bark, is allowed to rest. The counting house is the truer monument.
 
 ## After Java
 
-Synthetic antimalarials and then artemisinin entered a market the bark had already made. Tu Youyou's story is a different plant and a different state. This essay stays with the Andean tree and the Paris crystal and the Dutch mountain of bark. Kew's conscience, such as it had, is in Drayton. The counting house is in Honigsbaum.
+Synthetic antimalarials and then artemisinin entered a market the bark had already made. Tu Youyou's story is a different plant and a different state. This essay stays with the Andean tree and the Paris crystal and the Dutch mountain of bark. Kew's conscience, such as it had, is in Drayton. Markham's memoir is the British planting story told by a participant who wanted credit. The counting house is in Honigsbaum.
 
-A traveler's "fever bark" souvenir is how the ledger stays open. Do not collect. The historical remainder is ounces, fevers, and ships — and a countess who probably never sat for the story Linnaeus misspelled. Figure 2 can carry 1820 without carrying a cure rate. Malaria's numbers belong to epidemiologists with denominators. This magazine has a tree and a statute of limitations on romance.
+A traveler's "fever bark" souvenir is how the ledger stays open. Do not collect. The historical remainder is ounces, fevers, and ships — and a countess who probably never sat for the story Linnaeus misspelled. Figure 2 can carry 1820 without carrying a cure rate. Malaria's numbers belong to epidemiologists with denominators. This magazine has a tree and a statute of limitations on romance. Mamani's hillside work and Ledger's seed deserve the same sentence in print; `[VERIFY]` spellings against Drayton and Honigsbaum before a caption picks a hero.
 
-<!-- prose-expand:v1 22-cinchona-quinine-isolation.md -->
-## Pelletier, Mamani, a Dutch mountain
-
-Pelletier and Caventou announced quinine in 1820 in Paris. The bark was already a Jesuit and then a shop object. A. W. Haggis (1941) took apart the Countess of Chinchón origin story; Honigsbaum's *Fever Trail* is the modern narrative to keep on the desk. `[VERIFY]` the 1630s Rome beat against that desk. Linnaeus's *Cinchona* misspells a doubtful noble name.
-
-Justus Hasskarl smuggled seed for the Dutch; Clements Markham tried for the British; Charles Ledger's seed, gathered with Manuel Incra Mamani in Bolivia, made Java's high-quinine plantations possible. Mamani went blind and died poor. Ledger's name stuck. Richard Drayton's *Nature's Government* is Kew's conscience file. Wartime Atabrine and later artemisinin are sequels. Tu Youyou is a different plant and a different state.
-
-Malaria was labor and logistics. Quinine was issued, failed, poisoned when clumsy. Figure 2 gets 1820 without a cure rate. Do not collect a "fever bark" souvenir. Epidemiology owns the denominators.

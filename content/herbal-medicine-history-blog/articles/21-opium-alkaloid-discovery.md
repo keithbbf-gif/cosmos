@@ -14,7 +14,7 @@ citations:
   - "Sertürner papers 1805–1817; R. J. Huxtable on dating."
   - "David F. Musto, The American Disease; Courtwright, Forces of Habit."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ He tried it on himself and on dogs. That sentence is not a dare. It is a record 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-<!-- under-fig:v2 -->
 Poppy juice was a known tool in Dioscorides, in Galenic shops, and in Islamicate hospitals long before a German pharmacist weighed a crystal. Paracelsus used a laudanum in a chemical rhetoric. Indian Ocean opium cake moved as medicine and as habit. Friedrich Sertürner worked in Paderborn and later Einbeck; his early-1800s papers did not travel. The 1817 *Annalen der Physik* piece, and Gay-Lussac’s attention, did. If a caption needs one year, 1817 is the year the news behaved like news. Figure 1 is latex to named base. It is not a method and not a cultivation note.
 
 Opium is a mixture. A tincture made in January is not a tincture made in July if the raw cake differs. A crystal with a name can be weighed. Weighing is the beginning of modern dose, of overdose as a number, of industrial production, of the later hypodermic century. Figure 1 is a historical cartoon of that change. It is not a process sheet.
@@ -49,10 +48,7 @@ Dioscorides already knew the poppy's juice as a sleep and a killer. Sydenham had
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
-Pierre-Jean Robiquet isolated codeine in 1832. C. R. A. Wright made diacetylmorphine in 1874; Bayer trademarked Heroin in 1898. Alexander Wood’s 1850s hypodermic work and the American Civil War taught a generation intramuscular mercy and a hook. The Harrison Narcotic Act (1914) and the 1961 Single Convention are administrative sequels. A hospice can still run short of oral morphine while a treaty system congratulates itself. Figure 2 gets no strength bar. Strength is why the lock was invented. No slang tutorial.
-
-For this pack: Sertürner isolated morphine in the first years of the nineteenth century and convinced the wider chemical world around 1817. If a caption needs one year, 1817 is the year the news behaved like news. C. R. A. Wright's 1874 diacetylmorphine, later Bayer's Heroin, is just outside the file window and belongs in the administrative sequel (Harrison 1914; Single Convention 1961). Figure 2 should not print a "strength" bar. Strength is why the lock was invented.
+Pierre-Jean Robiquet isolated codeine in 1832. C. R. A. Wright made diacetylmorphine in 1874; Bayer trademarked Heroin in 1898. Alexander Wood's 1850s hypodermic work and the American Civil War taught a generation intramuscular mercy and a hook. The Harrison Narcotic Act (1914) and the 1961 Single Convention are administrative sequels. A hospice can still run short of oral morphine while a treaty system congratulates itself. Figure 2 gets no strength bar. Strength is why the lock was invented.
 
 A hospice ward and a street market share a plant and do not share a world. History that pretends they do is propaganda. History that pretends they do not share a molecule is sentiment. No cultivation notes. No slang tutorial. The poppy's administrative life is forms. Forms are less pretty than petals. They are the truth of how a medicine becomes a controlled substance without the plant changing its mind.
 
@@ -62,11 +58,3 @@ The hypodermic mid-century and the American Civil War taught a generation the al
 
 Sertürner wanted a cleaner drug. He got one. Clean is not the same as kind in the long run. Once you believe the useful part of a plant is a molecule, the rest becomes "impurity" or, a century later, "entourage," depending on the marketing decade. Both words are arguments. Figure 1 is not allowed to become a methods poster. The 1817 paper and the poppy's older life are the file. The rest is police and hospital business, separately.
 
-<!-- prose-expand:v1 21-opium-alkaloid-discovery.md -->
-## 1817, a hypodermic, two statutes
-
-Sertürner's papers in 1805–1806 did not travel. The 1817 *Annalen der Physik* piece, and Gay-Lussac's attention, did. If a caption needs one year, use 1817. Robiquet isolated codeine in 1832. C. R. A. Wright made diacetylmorphine in 1874; Bayer trademarked Heroin in 1898. Alexander Wood's hypodermic work (1850s) and the American Civil War taught a generation intramuscular mercy and a hook.
-
-The Harrison Narcotic Act (1914) and the Single Convention on Narcotic Drugs (1961) are administrative sequels. A hospice can still run short of oral morphine while a treaty system congratulates itself. That is not a kitchen-garden argument. It is an administration side effect. "Impurity" and "entourage" are later marketing words for the same leftover plant. Both are arguments.
-
-Figure 1 is not a methods poster. Figure 2 gets no strength bar. Forms are the truth of how a medicine becomes a controlled substance without the poppy changing its mind. No slang tutorial. No cultivation.

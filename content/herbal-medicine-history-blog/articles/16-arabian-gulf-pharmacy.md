@@ -15,7 +15,7 @@ citations:
   - "David Whitehouse and later Siraf excavation literature."
   - "Pormann and Savage-Smith, Medieval Islamic Medicine."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -33,7 +33,6 @@ Hormuz later took more of the choke-point fame. The file's 9th–13th century wi
 
 *Figure 1. Illustrative trade schematic for “Persian Gulf ports and materia medica sorting” — simplified geography, not navigation or modern routing.*
 
-<!-- under-fig:v2 -->
 Kish (Qais) took Siraf’s traffic when the beach and the politics shifted; Hormuz is the later island funnel. Sohar, on the Omani shore, is the earlier Abbasid node in the same sea. Ibn Khurradādhbih’s ninth-century routes already treat the Gulf as a customs problem, not a romance. The *Periplus of the Erythraean Sea* had named an incense coast centuries before a *bīmāristān* locked a resin. Figure 1 is those funnels plus a Persian and Indian hinterland, not a pilot book.
 
 Siraf's excavations (Whitehouse and successors) are the archaeological check on the literary port: a city that lived by the sea and died by earthquake and shifting routes. Figure 1 is not a pilot book. It is a reminder that "Arabian pharmacy" in a caption is often a Gulf warehouse plus a Persian and Indian hinterland.
@@ -48,7 +47,6 @@ Ibn al-Bayṭār, walking in the thirteenth century from al-Andalus to the Levan
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-<!-- under-fig:v2 -->
 Frankincense (*Boswellia*) left Dhofar and the Ḥaḍramawt as a graded tear long before a *bencao* or a Latin herbal filed it. The *Periplus of the Erythraean Sea* already knew an incense coast. Myrrh (*Commiphora*) and camphor traveled the same clerks: camphor’s identity fight — Sumatran *Dryobalanops* versus East Asian *Cinnamomum camphora* — is a dock argument that later books inherited. “Indian” on a medieval Gulf list is a direction, not a Linnaean species. Ibn Baṭṭūṭa passed these ports as a traveler; Ibn al-Bayṭār passed their names as a compiler.
 
 Sorting means grade: which frankincense, which camphor, which "Indian" root is last year's cheat. Pharmacognosy is a dock skill before it is a university skill. When the same sack reached a Galenic shop in Cairo, it gained degrees. When it reached a hospital chest, it gained a lock.
@@ -63,11 +61,3 @@ Baghdad's books are why we remember the Gulf as a pharmacy. Siraf's stones are w
 
 Modern frankincense capsules are a different funnel: often DSHEA if they sit on a U.S. shelf, with a structure/function sentence that would have puzzled a *bīmāristān*. The tree is old. The sentence is new. Figure 2's beats should stay ports and dynasties. If a designer wants a "wellness" tint on the resin, kill the tint. Grade arguments are the history. Glow is the lie.
 
-<!-- prose-expand:v1 16-arabian-gulf-pharmacy.md -->
-## Siraf's Friday mosque, Hormuz, a grade
-
-David Whitehouse's excavations at Siraf (1960s–1970s) made a Gulf entrepôt archaeologically visible: a Friday mosque, merchants' houses, Chinese stoneware in the fill. Decline after tenth- and eleventh-century earthquakes and political shocks is an excavation argument — `[VERIFY]` the destruction sentence against the reports. Basra earlier and Hormuz later are the other funnels. The Red Sea (Aydhab, then Jedda) is the rival.
-
-Ibn al-Bayṭār (d. 1248) compiled simples by walking and by reading; his *Jāmiʿ* is dock work in a study. Sohar and later Hormuz customs houses sorted frankincense (*Boswellia*) by color and fracture the way a modern pharmacognosist sorts a voucher. "Indian" as a medieval grade is a direction, not a species. When the sack reached a Cairo shop it gained Galenic degrees. When it reached a *bīmāristān* it gained a lock.
-
-A U.S. frankincense capsule is usually a DSHEA sentence. A Fatimid customs clerk had no such sentence. They share a genus. Figure 2 stays ports and dynasties. Kill any wellness tint on the resin.

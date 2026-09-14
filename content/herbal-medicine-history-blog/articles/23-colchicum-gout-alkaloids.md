@@ -15,7 +15,7 @@ citations:
   - "Nutton and later on hermodactyl / colchicum identifications — often soft."
   - "Modern official colchicine is a prescription drug; this essay is history only."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -33,7 +33,6 @@ Pelletier and Caventou, already famous for quinine, described colchicine in the 
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-<!-- under-fig:v2 -->
 Dioscorides and later Arabic compilers list related bulbs among dangerous drugs. Greek *hermodactylus* is often a wish laid on Linnaean *Colchicum autumnale* — say so. Early modern European physicians used wine of colchicum with faith and funerals. Anton von Störck in 1760s Vienna published hospital trials in a toxicological style that also touched aconite. `[VERIFY]` Störck’s dates against a handbook before a caption makes him a discoverer. That style killed people. The later isolate’s point was a number instead of a country wine. Gout is a historical disease-word that later biochemistry sorted into urate. They did not have the crystal.
 
 Figure 1 may show a corm and a name. It is not a kitchen card. Dioscorides and the Arabic compilers list related bulbs among dangerous drugs. Early modern European physicians used wine of colchicum with the usual mixture of faith and funerals. Anton von Störck in eighteenth-century Vienna is one of the names later histories attach to a "revival." `[VERIFY]` Störck's dates against a medical-history handbook before a caption makes him a discoverer. He was working in a toxicological style that also touched aconite. That style killed people. That is the point of the later isolate: a number instead of a country wine.
@@ -48,7 +47,6 @@ Gout itself is a historical disease-word that later biochemistry sorted into ura
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
 French isolation work in the 1820s neighborhood (Pelletier and Caventou; later Geiger) attached a name, colchicine, to a corm physicians already feared. `[VERIFY]` the first clean naming paper against Sneader or a chemistry handbook before a caption treats a single year as sacred. Later crystals and pharmacopeia monographs on *Colchici cormus* and then the alkaloid are the official beats. In 2009 FDA’s Unapproved Drugs Initiative and URL Pharma’s Colcrys exclusivity made a very old alkaloid a pricing docket. If that sentence stays in a revision, it stays with a Federal Register cite. A garden autumn crocus and a hospital tablet still do not share a verb.
 
 1820s naming; later purification; pharmacopeia monographs; mid-twentieth-century hospital use as a defined drug. Figure 2 should carry those beats without a pain-score chart. Colchicine's modern U.S. life includes a branded-drug controversy (the 2009 Unapproved Drugs Initiative episode) that belongs in a regulation essay if you have the Federal Register in hand. `[soft: cite the FR if you lock that paragraph]`.
@@ -61,11 +59,3 @@ Gout memoirs are a literary genre. The plant is not. A garden autumn crocus is a
 
 If the 2009 U.S. branding fight enters a revision, it enters with a Federal Register cite or it stays out. Soft remains soft. Figure 1 must not look like a kitchen card. The hermodactyl identification fight can stay in a footnote the CMS might strip — so say in the body that Greek-to-Linnaeus is often a wish. Wishes do not get doses. They get `[VERIFY]` tags.
 
-<!-- prose-expand:v1 23-colchicum-gout-alkaloids.md -->
-## Störck, Pelletier, a 2009 docket
-
-Anton von Störck in 1760s Vienna published hospital trials of autumn crocus that later gout writers treated as a founding. **Soft** by modern lights: small series, eighteenth-century endpoints. Pelletier and Caventou's 1820s colchicine neighborhood, later crystallizations, pharmacopeia monographs: Figure 2's cleaner beats. Greek *hermodactylus* is often a wish laid on Linnaean *Colchicum*. Say so.
-
-In 2009 FDA's Unapproved Drugs Initiative and URL Pharma's Colcrys exclusivity made a very old alkaloid a very new pricing fight. If that paragraph stays, it stays with a Federal Register / docket cite. Soft remains soft. Gout memoirs (Sydenham; later literary gout) are a genre. The plant is not.
-
-Garden *Colchicum* kills. A hospital tablet is a defined drug. Folk colchicum wine is a third object, historically real and indefensible as advice. Figure 1 is not a kitchen card. No dose.

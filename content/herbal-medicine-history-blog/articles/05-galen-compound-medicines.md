@@ -15,7 +15,7 @@ citations:
   - "Vivian Nutton, Ancient Medicine (2nd ed., 2013)."
   - "Ḥunayn ibn Isḥāq translation tradition; later theriac ritual in Venice and Montpellier (public cooking as civic pharmacy)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

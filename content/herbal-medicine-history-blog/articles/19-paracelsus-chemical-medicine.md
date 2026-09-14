@@ -14,7 +14,7 @@ citations:
   - "Walter Pagel, Paracelsus (2nd ed.)."
   - "Charles Webster, Paracelsus: Medicine, Magic and Mission at the End of Time."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ Later toxicology printed him on posters: *Sola dosis facit venenum* — the dose
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-<!-- under-fig:v2 -->
 He lectured in Basel in 1527 in German, insulted the faculty, and did not last. The *Paragranum* and *Opus paramirum* are the theoretical files; the *Grosse Wundarznei* is the wound book. The dose-and-poison sentence later printers made portable (*sola dosis facit venenum*) is a tag, not a compliance program. Iatrochemistry’s academic heirs — van Helmont, Sylvius, the mineral section of the 1618 *London Pharmacopoeia* — are a committee digesting a fighter. He died in Salzburg in 1541. Later engravings guess at the face.
 
 He looked at theriac and saw a coward's pantry. Why seventy ingredients if one *arcanum* will do? The attack on Galenic compounding is the part that still feels modern. It is also unfair. A compound can be a delivery system. He preferred a philosophy in which a disease had a specific chemical enemy. Specificity would later feed the isolate era. He lived in a world of impure salts and grand claims.
@@ -59,11 +58,3 @@ He died in Salzburg in 1541. The face on later engravings is often a printer's g
 
 The isolate era later made his specificity look prophetic. Prophecy is cheap after the crystal exists. What he actually did was insult a gravy of names and put mercury in a rhetoric of reform. Patients paid. The shop changed, slowly. Withering and Sertürner measured. Measurement is the sequel that does not need his hood. If you illustrate this essay, use a title page, not an alchemist stock photo. The title page is how he fought. The hood is how we made him cute.
 
-<!-- prose-expand:v1 19-paracelsus-chemical-medicine.md -->
-## Basel 1527, a dose sentence, 1618 heirs
-
-He lectured in Basel in 1527 in German, insulted the faculty, and did not last. The *Paragranum* and *Opus paramirum* are the theoretical files; the *Grosse Wundarznei* is the wound book. The dose-and-poison sentence lives in later Latin tags (*sola dosis facit venenum*) that printers made portable. Patients still paid for mercurials. Iatrochemistry's later academic life (van Helmont; Sylvius; the 1618 *London Pharmacopoeia*'s mineral section) is a committee digesting a fighter.
-
-He used opium laudanum in a chemical rhetoric. So did night practice generally. The historical move is specificity: a single active against a Galenic paste of prestige names. That move looks prophetic after Sertürner's crystal. Prophecy is cheap after the crystal. He died in Salzburg in 1541. Later engravings guess at the face.
-
-A supplement line that quotes the dose sentence next to a leaf is borrowing a dead reformer to dodge whether the capsule does anything and whether it is a DSHEA object. He was not in the Senate. Use a title page if you illustrate. Not a cute hood.

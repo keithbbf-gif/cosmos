@@ -14,7 +14,7 @@ citations:
   - "Nineteenth-century isolation literature (Mein and others, 1830s) — confirm the 1833 file date against Sneader."
   - "Pharmacopeia monographs on belladonna leaf and atropine."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -44,7 +44,6 @@ Ophthalmology and anesthesia later used atropine as a tool among tools. Those ar
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
 The pharmacist Mein (1831) and Geiger and Hesse (around 1833) sit in the isolation file this pack locked. `[VERIFY]` the first clean atropine paper against Sneader. Later nineteenth-century chemistry (Ladenburg and others) argued tropane structure. Official books kept *Extractum Belladonnae* and *Tinctura Belladonnae* long after the base existed — a dirtier object beside a weighed crystal. Homatropine is a later synthetic cousin used in the eye. Early-twentieth-century “twilight sleep” (scopolamine with morphine in obstetrics) is a hospital fashion, not a folk validation and not a recipe. Crude leaf retreated from household cabinets after labeling laws made the poison visible.
 
 1830s isolation; later synthetic and semisynthetic cousins; official monographs into the twentieth century; the slow retreat of crude belladonna from household cabinets after labeling laws. Figure 2 should not print a "potency" comparison that a reader could use. The historical point is the same as morphine's: **a plant drug became a chemical individual**, and the law eventually treated the individual more seriously than the leaf.
@@ -57,11 +56,3 @@ Ophthalmology's atropine is a tool. Anesthesia's atropine is a tool. The berry i
 
 Neighbor plants — henbane, datura, mandrake — share tropane stories and do not share this essay's lock date. Keep them in the family sentence, not in a recipe. A U.S. "nightshade" supplement, if it appears, is a labeling and safety problem, not a Renaissance revival. Figure 2 should end in official monographs and the retreat from the household cabinet, not in a potency bar a reader could misuse.
 
-<!-- prose-expand:v1 24-belladonna-atropine.md -->
-## Mein, a Fate, a tincture
-
-Philipp Lorenz Geiger and Hesse, and the pharmacist Mein, sit in the 1831–1833 isolation file. `[VERIFY]` the first clean atropine paper against Sneader. The name *Atropa* is Linnaeus remembering Atropos, the Fate who cuts the thread. English *dwale* is an older warning. Hyoscyamine racemizes toward atropine in some preparations; scopolamine (hyoscine) is the neighbor from *Hyoscyamus* and *Datura*. Three tropanes, three plants, one family argument.
-
-Official books kept *Belladonnae folium* and the tincture long after the base existed. A leaf infusion and a weighed crystal are different objects. Nineteenth-century ophthalmology used atropine to dilate for the mirror; later anesthesia used it to dry secretions. Those are hospital tools. They do not validate a Renaissance cosmetic proverb and they do not instruct a folklore ointment.
-
-Crude leaf retreated from household cabinets after labeling laws made the poison visible. A U.S. nightshade capsule, if it appears, is a DSHEA or misbranding problem depending on the claim. Figure 2 should end in monographs and that retreat. No potency bar. No garden-tourism caption. The berry is enough skull.

@@ -15,7 +15,7 @@ citations:
   - "USP–NF as a licensed current book; historical title pages for images."
   - "Lee Anderson and Gregory Higby, The Spirit of Voluntarism (USP history)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -33,7 +33,6 @@ Later, the Food and Drug law would treat USP standards as a legal yardstick for 
 
 *Figure 1. Comparative plate for reading monographs — line art only, not herbarium IDs.*
 
-<!-- under-fig:v2 -->
 Lyman Spalding convened physicians in Washington in January 1820. Samuel Latham Mitchill and a short list of state delegates wanted a republic to speak one recipe language. The first *United States Pharmacopeia* printed that year is a thin official book: Latin drug names, English directions, a shop already full of botanicals. Revisions in 1830 (New York) and later decades stuffed the book with crude-drug monographs because the American shelf was a plant shelf. A classical monograph names the part, the look, the test, the preparation. Figure 1 is that reading order, not a backyard key. *Cannabis indica* entered in the 1850s and left in 1942 — political weather as much as a scientific one.
 
 A classical crude-drug monograph names the plant part, the look, the test, the preparation. Figure 1 is a schematic of that reading, not a field key. Do not identify a backyard leaf from it. The nineteenth-century USP was full of botanicals because the American shop was full of botanicals. The twentieth century emptied many of those monographs as tablets replaced tins.
@@ -48,7 +47,6 @@ A classical crude-drug monograph names the plant part, the look, the test, the p
 
 *Figure 2. Edition and harmonization beats — verify against official publishers.*
 
-<!-- under-fig:v2 -->
 The Convention that owns the book still meets. USP incorporated in 1900 as a nonprofit. The *National Formulary* began in 1888 under the American Pharmaceutical Association; USP acquired it in 1975, which is why the spine now says USP–NF. The 1906 Act and the 1938 Act pointed at official compendia as legal yardsticks for official drugs. Harmonization talks with Ph. Eur. and the Japanese Pharmacopoeia sit in the Pharmacopoeial Discussion Group. Figure 2’s 2024 end is a living date. `[VERIFY]` a revision number against USP’s own history pages. This magazine will not pirate a current assay table.
 
 1820 first; later revision cycle; 1906 and 1938 statutes pointing at official compendia; USP–NF merger; harmonization talks with the European and Japanese pharmacopoeias. Figure 2's "2024" is a living end-date, not a final edition. `[VERIFY]` any specific revision number against USP's own history pages before a caption.
@@ -61,11 +59,3 @@ The current USP–NF is a licensed book. This magazine will not pirate a monogra
 
 Cannabis's in-and-out is the teaching monograph. Digitalis is the teaching poison. Crude-drug jars in old colleges are the teaching absence: the habit of looking, stored in a basement. Figure 2's 2024 end is a reminder that a pharmacopeia is still being argued. Argue with the publisher's page, not with a blog's memory of a botanical. This magazine will not pirate a current monograph. It will keep saying that a name behaving is a social machine.
 
-<!-- prose-expand:v1 30-us-pharmacopeia-evolution.md -->
-## Spalding's convention, then a licensed book
-
-Lyman Spalding convened physicians in Washington in 1820 because a republic was speaking too many recipe dialects. The first *United States Pharmacopeia* is that meeting bound. Revision was originally decennial; the cycle later tightened. The 1906 Act and the 1938 Act pointed at official compendia. Pointing is why a USP monograph is a legal object for official drugs and not a blog post.
-
-The USP–NF combination (United States Pharmacopeia–National Formulary) is a later marriage: USP's drug standards and the older National Formulary of the American Pharmaceutical Association. Harmonization talks with Ph. Eur. and the Japanese Pharmacopoeia sit in the Pharmacopoeial Discussion Group. Cannabis monographs appearing, vanishing, and arguing are the teaching weather for category change. Digitalis is the teaching poison. Crude-drug cabinets in old colleges are the teaching absence.
-
-USP Verification for dietary supplements is a private seal a firm buys. It is not an NDA and not a drug monograph. This magazine will not scan a current assay table. Figure 2's 2024 end means another revision is already being argued. Argue with the publisher.

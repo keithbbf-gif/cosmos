@@ -15,7 +15,7 @@ citations:
   - "Peter E. Pormann and Emilie Savage-Smith, Medieval Islamic Medicine (Edinburgh, 2007)."
   - "Dimitri Gutas, Avicenna and the Aristotelian Tradition."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -59,4 +59,4 @@ Gentile da Foligno and Jacques Despars wrote the kind of commentary that makes a
 
 A postage-stamp Avicenna is a statue. The simples are a man trying to make names behave. When they would not, the margin fought. Those fights are why a later botanist can still get angry at a synonym. Anger at a synonym is a professional emotion. "Avicenna's secret" on a dropper is a different emotion, and a worse one. The *Canon* does not issue droppers. It issues an index. Use the index.
 
-Gerard of Cremona's twelfth-century Toledo circle is the usual Latin bridge; later printed *Canons* (Venice especially) are why a Paris student could be examined on Book 2. Andrea Alpago's sixteenth-century notes tried to repair Arabic names the first Latin had mashed. Pormann and Savage-Smith will keep a reader from calling the whole operation "the Islamic Golden Age" as if it were a brand. It was courts, hospitals, and a book that could be lectured. Unani lithographs and Iranian school editions are the rooms that never asked Venice. They are not a footnote. They are the *Canon* still at work without a dropper.
+Gerard of Cremona's twelfth-century Toledo circle is the usual Latin bridge; later printed *Canons* (Venice especially) are why a Paris student could be examined on Book 2. Andrea Alpago's sixteenth-century notes tried to repair Arabic names the first Latin had mashed. Pormann and Savage-Smith will keep a reader from calling the whole operation "the Islamic Golden Age" as if it were a brand. It was courts, hospitals, and a book that could be lectured.

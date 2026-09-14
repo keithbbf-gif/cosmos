@@ -14,7 +14,7 @@ citations:
   - "Paul U. Unschuld, Medicine in China: A History of Pharmaceutics (Berkeley, 1986)."
   - "Carla Nappi, The Monkey and the Inkpot (Harvard, 2009), on Li Shizhen."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -56,6 +56,4 @@ Do not put Shennong in a lab coat. The farmer who tasted poisons is a way a civi
 
 Li Shizhen's 1596 encyclopedia is the stubborn later book this hero-title needed. He traveled, wrote letters, and left room for wonders he had not seen. Nappi's *Monkey and the Inkpot* treats him as a writer. Treat him that way. The PRC's later "TCM" package is younger than Li by a wide margin and should not be back-dated onto Shennong.
 
-Ginseng, *má huáng*, *qīnghāo* will return in other mouths in this pack — export, ephedrine, Project 523. Each return is a category change. The *bencao* grade is not a DSHEA box. The Han culture hero is not a chromatogram. If an editor needs one sentence for a gallery wall: **the farmer on the title page is a story about cost; the ranked list is a literature; the capsule is a statute.** Do not let the gallery hang only the farmer.
-
-The *Xinxiu bencao* of 659 (next essay) is the first dated state enlargement this hero-title needed. The *Zhenglei bencao* and then Li Shizhen's *Bencao gangmu* (printed 1596) are the stubborn later shelves. Unschuld's *Medicine in China* and Nappi's *Monkey and the Inkpot* will keep a reader from dating Shennong as if he were a colleague with a grant. He is a culture hero. The ranked list is a literature that later ministries could nationalize. Nationalization is a twentieth-century event. Do not back-date it onto a Han title page.
+Ginseng, *má huáng*, *qīnghāo* will return in other mouths in this pack — export, ephedrine, Project 523. Each return is a category change. The *bencao* grade is not a DSHEA box. The Han culture hero is not a chromatogram. The *Xinxiu bencao* of 659 (next essay) is the first dated state enlargement this hero-title needed. The *Zhenglei bencao* and Li Shizhen's *Bencao gangmu* (printed 1596) are the stubborn later shelves. If an editor needs one sentence for a gallery wall: **the farmer on the title page is a story about cost; the ranked list is a literature; the capsule is a statute.** Do not let the gallery hang only the farmer. Nationalization is a twentieth-century event. Do not back-date it onto a Han title page.

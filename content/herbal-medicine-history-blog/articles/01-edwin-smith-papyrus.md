@@ -15,7 +15,7 @@ citations:
   - "Georg Ebers, Papyros Ebers (Leipzig, 1875), as the recipe contrast."
   - "John F. Nunn, Ancient Egyptian Medicine (Norman: University of Oklahoma Press, 1996)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 

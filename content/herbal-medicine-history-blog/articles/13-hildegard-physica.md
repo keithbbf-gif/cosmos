@@ -14,7 +14,7 @@ citations:
   - "Hildegard of Bingen, Physica; Causae et curae (critical editions over popular reconstructions)."
   - "On 'Hildegard-Medizin': flag Hertzka and later paperbacks as 20th-c. systems."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ She does not write like a 1980s naturopath. That voice was added later, mostly i
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-<!-- under-fig:v2 -->
 Hildegard was elected magistra at Disibodenberg and later founded Rupertsberg near Bingen; Eibingen is the later house. *Scivias* is the vision book. The music is a body of work that needs no herbal defense. *Physica* (*Liber simplicis medicinae*) is the plant, animal, and stone book. The 1158 flavor date in this pack is a teaching lock — `[VERIFY]` against Flanagan or Newman if a caption needs a composition year. She will sound, at moments, like the *Circa instans* because that was the international Latin style, not because she secretly attended Salerno.
 
 Disibodenberg, then Rupertsberg, then Eibingen: Rhine houses in a country already full of Roman leftovers and German names. *Physica* mixes Latin labels and local uses. The twelfth century was also Constantine the African and Salerno. Hildegard is not a Salernitan. She is a German abbess with a Latin toolkit and a garden. She will sound, at moments, like the *Circa instans* because that was the international style, not because she secretly attended a college in Italy.
@@ -47,7 +46,6 @@ Disibodenberg, then Rupertsberg, then Eibingen: Rhine houses in a country alread
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-<!-- under-fig:v2 -->
 *Physica*’s plant book runs a repeated grammar: a name, a temperament (hot, cold, dry, moist), a use, a vehicle — wine, honey, a poultice. Fennel, sage, and spelt sit in a Rhine kitchen that was already growing them. Galangal and pepper sit there as bought goods that had walked from other climates. *Causae et curae* is the companion medical file; specialists still argue how much of it is hers — `[VERIFY]` against a Hildegard handbook before a caption treats both titles as one autograph. Quote a paragraph in that grammar if you honor her. Do not turn “for the fever” into a license.
 
 Spelt (*Dinkel*) is in her dietetic world as a grain among grains. Sage, fennel, the Rhine weeds a house already grew: Figure 2 will look like the monastic plate because it is the same ecology. The difference is a named author with a political life. Quote a plant paragraph in full — heat, use, vehicle — then say, plainly, that a twelfth-century indication is a historical sentence, not a license to treat a disease.
@@ -60,11 +58,3 @@ German bookshops still sell "Hildegard-Medizin" as if the abbess had a clinic in
 
 Rupertsberg burned and was rebuilt in memory. The music is the part of her that needs no herbal defense. The plant paragraphs need the opposite of defense: a full quote, a humoral vocabulary, a refusal to treat a twelfth-century "for the fever" as a license. If this pack has a house style for saints, it is that. No golden hour. No wimple stock. A parsley bed and a page.
 
-<!-- prose-expand:v1 13-hildegard-physica.md -->
-## Rupertsberg, *viriditas*, Hertzka
-
-Hildegard was elected magistra at Disibodenberg and later founded Rupertsberg near Bingen. *Scivias* is the vision book. The music is a body of work that needs no herbal defense. *Physica* (the *Liber simplicis medicinae*) and the *Causae et curae* file are the medical Latin. The 1158 flavor date is a teaching lock — `[VERIFY]` against a standard chronology (Flanagan; Newman) if a caption needs a composition year.
-
-*Viriditas* is her theological green. It is not a product line. Plant paragraphs run heat, temperament, and a use in a humoral key. Quote one in full if you honor her. Heinrich Hertzka (Konstanz, late twentieth century) built "Hildegard-Medizin" as a clinic system and hung her name on bottles. German bookshops still sell it. She wrote a page. She did not write a barcode.
-
-Rupertsberg burned in 1632 in the Thirty Years' War and lives in reconstruction and memory. If a magazine wants a picture besides the two figures, use a manuscript leaf, not a wimple at golden hour. A parsley bed and a page. That is the house style.

@@ -14,7 +14,7 @@ citations:
   - "21 C.F.R. Part 111 (current good manufacturing practice for dietary supplements)."
   - "72 Fed. Reg. 34752 (June 25, 2007) final rule."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ This is not pre-market approval. It is a manufacturing ethic written as law. A p
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
-<!-- under-fig:v2 -->
 DSHEA (1994) authorized good manufacturing practice rules for supplements. FDA did not finish the book until 72 Fed. Reg. 34752 (25 June 2007). Large firms went first; medium and small firms followed on a one-, two-, and three-year phase-in by employee count. 21 C.F.R. 111.75 is the identity-testing neighborhood inspectors actually argue about. The 2004 ephedra adulteration rule (21 C.F.R. 119; 21 U.S.C. § 342(f)) is a different tool: a class of alkaloids, a safety-risk finding, not a factory-process book. Do not merge them in a caption. Thirteen years from authorization to final GMP is the historical pace. Process is slow. Aisle marketing is not.
 
 1994 DSHEA authorized GMPs for supplements. The 2007 final rule (72 Fed. Reg. 34752, 25 June 2007) is the book. Small firms got more time. Figure 1 should carry those dates plus the 2004 ephedra adulteration rule as a different, safety-risk tool (21 U.S.C. § 342(f)). cGMP is about process. The ephedra rule was about a class of alkaloids in a class of products. Do not merge them in a caption.
@@ -47,7 +46,6 @@ Adulteration and misbranding remain the hooks. A beautifully documented file can
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
-<!-- under-fig:v2 -->
 Part 111’s industrial nouns are master manufacturing records, batch records (see 111.260), a quality unit, laboratory operations, and hold-and-distribute decisions. Identity of a powdered leaf is pharmacognosy at factory scale: microscopy, HPTLC, a supplier-qualification file, sometimes a DNA-barcoding argument. Figure 2 is illustrative. It is not a consultant deck and not a way to “pass FDA.” Warning letters are a skewed sample — the messy firms, the failed identifications. Quiet competent plants do not trend. The botanical remainder is older than 2007: a name on a sack is not a species until someone checks.
 
 Who manufactures? What is the identity test for a powdered leaf? Where are the batch records? Figure 2 is illustrative. It is not a consultant's checklist and not a way to "pass FDA." This magazine will not help anyone design a 483 response.
@@ -60,11 +58,3 @@ The historical claim: **after 2007 the U.S. supplement aisle was told to look li
 
 Identity of a powdered leaf is pharmacognosy at industrial scale. Dioscorides snapping a resin is the ancestor joke. Figure 2 is not a consultant deck. If this magazine ever grows a "how to comply" sidebar, delete it. Compliance is a trade. History is a date: 25 June 2007, a Federal Register, a phase-in. The botanical remainder is the old one. A name on a sack is not a species until someone checks.
 
-<!-- prose-expand:v1 37-fda-dietary-supplement-cgmp.md -->
-## Federal Register, phase-in, identity
-
-The final rule is 72 Fed. Reg. 34752 (25 June 2007). Large firms went first; smaller firms later. 21 C.F.R. 111.75 is the identity-testing neighborhood inspectors actually argue about — `[VERIFY]` the current paragraph if a caption cites a number. Master manufacturing records, batch records, and a quality unit are the industrial nouns. They are not an NDA.
-
-21 U.S.C. 350b (new dietary ingredients) is the other drawer: ingredients without a 15 October 1994 marketing history need a notification FDA may object to. 21 C.F.R. 101.36 is Supplement Facts. 21 C.F.R. 119 is the 2004 ephedra adulteration rule. Warning letters about "identity of a powdered leaf" are how the public sees Part 111 bite. They are a skewed sample. Quiet competent plants do not trend.
-
-Pharmacognosy at this scale is microscopy, HPTLC, DNA barcoding arguments, and a supplier qualification file. Dioscorides snapping a resin is the ancestor joke. This magazine will not design a Form 483 response. History is the date and the phase-in. The botanical remainder is older than 2007: a name on a sack is not a species until someone checks.

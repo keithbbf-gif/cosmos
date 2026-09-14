@@ -15,7 +15,7 @@ citations:
   - "G. J. Meulenbeld, A History of Indian Medical Literature."
   - "Caraka Saṃhitā and Suśruta Saṃhitā, P.V. Sharma translations."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -55,13 +55,5 @@ Caraka's physician is trying to keep courtly and household medicine going, and h
 
 Triphala is a household word in a dozen cities. The saṃhitā is not a household word. The gap is the history. AYUSH as a ministry is a gazette fact. It is not a meta-analysis. Rasashāstra's mercury and lead problems are laboratory facts when assays find them. Hold the sophistication and the assay in one paragraph.
 
-Suśruta's knives and Caraka's debates are two professions that later patriotism tried to make one "Ayurveda." Let them stay two books. A capsule of turmeric with a Sanskrit word is a third book, usually written in a marketing department and filed, in the United States, under DSHEA. The *dravya* does not file itself. Editors should not pretend it does.
+Suśruta's knives and Caraka's debates are two professions that later patriotism tried to make one "Ayurveda." Let them stay two books. A capsule of turmeric with a Sanskrit word is a third book, usually written in a marketing department and filed, in the United States, under DSHEA. The *dravya* does not file itself. Editors should not pretend it does. Meulenbeld dates the layers; Wujastyk keeps the airport manual in the hall. `[VERIFY]` any single-year timeline before a caption treats either saṃhitā as a carbon-dated object.
 
-<!-- prose-expand:v1 10-ayurveda-charaka-sushruta.md -->
-## Two saṃhitās, a Gazette, an assay
-
-The *Caraka* and *Suśruta* saṃhitās are layered texts. A "1st century" era_focus is a teaching lock, not a carbon date. Meulenbeld's *History of Indian Medical Literature* is the specialist pile. Caraka's physician will refuse some diseases. Suśruta's surgeon is another profession. Later nationalism tiled them into one "Ayurveda." Let the books stay two.
-
-Triphala (harītakī, āmalakī, bibhītaka) is a later household word. *Detox* is not a Caraka word. Rasashāstra's mercury and lead are laboratory facts when assays find them — the 2004–2008 *JAMA* / Boston heavy-metal papers are the public scar. `[VERIFY]` a specific paper if you quote a number. AYUSH is a ministry (2003 department; 2014 cabinet). It is not a meta-analysis.
-
-Roxburgh and Wight painted colonial floras. The saṃhitā name is older than the plate. A turmeric capsule with a Sanskrit word is a marketing-department book, usually DSHEA in the United States. The *dravya* does not file itself.

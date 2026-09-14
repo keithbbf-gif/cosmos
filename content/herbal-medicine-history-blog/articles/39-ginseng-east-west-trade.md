@@ -14,7 +14,7 @@ citations:
   - "Unschuld on rénshēn in the bencao; Kristin Bayer and others on American ginseng export."
   - "CITES listing for American ginseng; DSHEA for U.S. capsules."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,10 +32,7 @@ graphics_agent: v1
 
 *Figure 1. Illustrative trade schematic for “Ginseng as an East–West trade case study” — simplified geography, not navigation or modern routing.*
 
-<!-- under-fig:v2 -->
-Father Pierre Jartoux’s 1711 letter from Beijing, printed in the *Lettres édifiantes et curieuses*, told Europeans a prestige Chinese root might have a Canadian cousin. Joseph-François Lafitau hunted *Panax quinquefolius* near Montreal in 1716. By the 1780s woods root was a Canton cargo through Philadelphia and other Atlantic ports; John Jacob Astor sits among later traders in the American telling. Korean *P. ginseng*, including steamed red ginseng, is a different grade fight inside a *bencao* sentence and a tribute economy. Wisconsin farm root is a twentieth-century agricultural object. Wild American root is a CITES Appendix II permit problem. Figure 1 is those nodes, not a buyer’s map. This essay will not help anyone dig.
-
-Korea, northeast China, and later Wisconsin farms; Montreal and Philadelphia as early American export nodes; Canton as the appetite. Figure 1 is a schematic, not a buyer's map. Wild American ginseng is a CITES-listed plant with state permits. This essay will not help anyone dig.
+Father Pierre Jartoux's 1711 letter from Beijing, printed in the *Lettres édifiantes et curieuses*, told Europeans a prestige Chinese root might have a Canadian cousin. Joseph-François Lafitau hunted *Panax quinquefolius* near Montreal in 1716. By the 1780s woods root was a Canton cargo through Philadelphia and other Atlantic ports; John Jacob Astor sits among later traders in the American telling. Korea, northeast China, and later Wisconsin farms; Montreal and Philadelphia as early American export nodes; Canton as the appetite. Korean *P. ginseng*, including steamed red ginseng, is a different grade fight inside a *bencao* sentence and a tribute economy. Wisconsin farm root is a twentieth-century agricultural object. Wild American ginseng is a CITES Appendix II plant with state permits. Figure 1 is those nodes, not a buyer's map. This essay will not help anyone dig.
 
 Tribute and gift economies in East Asia priced the root as prestige before they priced it as a capsule. A Ming or Qing grade is not a randomized trial. A Wisconsin field is not a wild hillside. Three objects, one word.
 
@@ -47,10 +44,7 @@ Tribute and gift economies in East Asia priced the root as prestige before they 
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-<!-- under-fig:v2 -->
-When Korean red ginseng landed in an early modern Chinese shop, it entered a *bencao* sentence and a grade. When American woods root landed in Canton, it entered a substitute fight: cheaper, different, sometimes passed as the prestige article. *Eleutherococcus senticosus* as “Siberian ginseng” is a Soviet-era naming raid that U.S. labeling later had to police. *Panax notoginseng* (sanqi) thickens the word again. A 1990s U.S. capsule is a DSHEA object: structure/function, disclaimer. Trials on *Panax* preparations exist and are mixed. Do not invent a meta-analysis. The word outran the genus.
-
-When Korean red ginseng landed in an early modern Chinese shop, it entered a *bencao* sentence. When American root landed in Canton, it entered a substitute-and-grade fight. When a U.S. capsule landed in a 1990s aisle, it entered DSHEA: structure/function, disclaimer, no disease claim if the lawyer is awake. Figure 2 should carry eighteenth-century export, later farm eras, CITES, 1994 — not an "energy" bar chart.
+When Korean red ginseng landed in an early modern Chinese shop, it entered a *bencao* sentence and a grade. When American woods root landed in Canton, it entered a substitute fight: cheaper, different, sometimes passed as the prestige article. When a U.S. capsule landed in a 1990s aisle, it entered DSHEA: structure/function, disclaimer, no disease claim if the lawyer is awake. *Eleutherococcus senticosus* as "Siberian ginseng" is a Soviet-era naming raid that U.S. labeling later had to police. *Panax notoginseng* (sanqi) thickens the word again. Figure 2 should carry eighteenth-century export, later farm eras, CITES, 1994 — not an "energy" bar chart.
 
 Clinical trials on *Panax* preparations exist and are mixed in quality and endpoint. Do not invent a meta-analysis here. Name a review if you lock one in revision. Until then, the historical claim is enough: **a prestige root became a global word, and the word now outruns the genus.**
 
@@ -60,13 +54,5 @@ No dosing. No "ancient secret." The secret, such as it was, was a hillside and a
 
 *Eleutherococcus* as "Siberian ginseng" is the Soviet sequel and a labeling fight. *Panax notoginseng* and other cousins thicken the word further. A shopper who thinks "ginseng" is one plant has already lost the *bencao* and the woods.
 
-Wild American root is a permit problem and a poaching problem. This essay will not map a county. Farm Wisconsin and farm Korea are honest agricultural objects. A DSHEA capsule is a legal object. A tribute root is a historical object. Figure 1's arrows should not look like a buying guide. Figure 2 should not grow an energy axis. The word outran the genus. That is enough plot.
+Wild American root is a permit problem and a poaching problem. This essay will not map a county. Farm Wisconsin and farm Korea are honest agricultural objects. A DSHEA capsule is a legal object. A tribute root is a historical object. Figure 1's arrows should not look like a buying guide. Figure 2 should not grow an energy axis. The word outran the genus. That is enough plot. Bayer and Kristin Bayer are different files; cite the trade historian, not the aspirin company, when you lock a footnote.
 
-<!-- prose-expand:v1 39-ginseng-east-west-trade.md -->
-## Jartoux, Canton, Wisconsin
-
-Pierre Jartoux's 1711 Jesuit letter from Beijing described a prestige root and wondered about a Canadian cousin. Joseph-François Lafitau then hunted *Panax quinquefolius* near Montreal. By the 1780s American woods root was a Canton cargo — grade, weight, and a hillside that could be emptied. "Sang" hunting in Appalachia is folklore sitting on that export. Korean *P. ginseng*, including steamed red ginseng, is a different grade fight inside a *bencao* sentence.
-
-CITES listed American ginseng on Appendix II. Wild and wild-simulated root still moves under permits; this essay will not map a county. Farm Wisconsin and farm Korea are agricultural objects with harvest calendars. *Eleutherococcus senticosus* as "Siberian ginseng" is a Soviet-era naming raid that U.S. labeling later had to police. *P. notoginseng* (sanqi) thickens the word again.
-
-Trials on *Panax* preparations exist and are mixed. Do not invent a meta-analysis. A 1990s U.S. capsule is a DSHEA object: structure/function, disclaimer. Figure 2 may carry 1711, Canton export, farm eras, CITES, 1994. It may not grow an "energy" axis. The word outran the genus.

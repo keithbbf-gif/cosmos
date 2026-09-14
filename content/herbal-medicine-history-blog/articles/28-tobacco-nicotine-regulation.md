@@ -14,7 +14,7 @@ citations:
   - "Monardes and later European medical tobacco; Courtwright, Forces of Habit."
   - "Family Smoking Prevention and Tobacco Control Act (2009); FDA tobacco authorities."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ Posselt and Reimann isolated nicotine in 1828. `[VERIFY]` the paper year before 
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
-<!-- under-fig:v2 -->
 Jean Nicot sent seed and a diplomatic name toward France in the 1560s. The plant was already an Indigenous American agricultural and ceremonial object; those nations’ files are not a brand prologue. Posselt and Reimann isolated nicotine in Heidelberg in 1828. Humoral “courses of smoke,” Virginia staple, James Bonsack’s 1880s cigarette machine, and the twentieth-century advertising state made a farm good into an industry. Tobacco sat outside the 1906 discloseable-drug list that caught opium and cannabis on the bottle. It was taxed instead.
 
 Tobacco sat outside the 1906 drug-label logic that caught opium and cannabis on the bottle. It was a farm good and a vice good. Advertising, agricultural supports, and later warning labels made a twentieth-century American career that health historians have written without needing this magazine to repeat the body-count posters.
@@ -47,7 +46,6 @@ The 2009 Family Smoking Prevention and Tobacco Control Act gave FDA a tobacco ce
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
-<!-- under-fig:v2 -->
 Luther Terry’s 1964 Surgeon General report, *Smoking and Health*, is the American public-health date that later warning labels stand on. The 1965 Federal Cigarette Labeling and Advertising Act put words on the pack. Broadcast advertising died in 1971. The 1998 Master Settlement Agreement is a state-litigation date. The 2009 Family Smoking Prevention and Tobacco Control Act created FDA’s Center for Tobacco Products — not a drug NDA, not DSHEA, a third box. Posselt and Reimann’s 1828 nicotine paper is the alkaloid constant under those statutes. Figure 2 is a map of rooms a leaf has occupied. It is not a launch canvas and not a cessation plan.
 
 Figure 2's "operator" questions — what is the product, who may sell it, what may the label say — are the same questions DSHEA asks of a capsule, asked here of a leaf that became an industry. Do not treat the figure as a how-to for bringing a nicotine product to market. Treat it as a map of why a plant can be medicine, food-adjacent, tax staple, and regulated tobacco in four different centuries.
@@ -60,11 +58,3 @@ Public-health campaigns earned their images. This magazine does not need to repr
 
 Indigenous cultivation and ceremony are not a brand origin story. They are other nations' files. Figure 2 is not a product-launch canvas. If a designer wants a "journey from leaf to pod," kill the journey word — it is on the ban list — and keep the statute names. The statute names are the prose.
 
-<!-- prose-expand:v1 28-tobacco-nicotine-regulation.md -->
-## Nicot, Posselt, 1964, 2009
-
-Jean Nicot sent seed and a diplomatic name toward France in the 1560s. Indigenous American cultivation and ceremony are older and are not a brand prologue. Posselt and Reimann isolated nicotine in Heidelberg in 1828. `[VERIFY]` the paper if a caption moves. Humoral "courses of smoke," Virginia staple, cigarette machine (Bonsack, 1880s), 1964 Surgeon General's report (*Smoking and Health*), 1998 Master Settlement Agreement, 2009 Family Smoking Prevention and Tobacco Control Act: the alkaloid did not change. The office did.
-
-FDA's Center for Tobacco Products is a 2009 creature. Warning labels and advertising bans have earlier dates in other countries (Britain's 1965 television ban is a teaching sibling). A nicotine pouch or an e-cigarette is a later object under later rules — including, in the U.S., a separate authorization grammar. Figure 2 is not a launch canvas.
-
-Public-health images earned their keep. This magazine does not need to reprint a blackened lung to line the dates up. It needs Nicot, 1828, 1964, 2009, and a refusal to turn the line into a cessation plan or an origin-story advertisement.

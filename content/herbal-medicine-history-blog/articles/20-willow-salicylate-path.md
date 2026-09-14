@@ -14,7 +14,7 @@ citations:
   - "Edward Stone, Philosophical Transactions 53 (1763)."
   - "Diarmuid Jeffreys, Aspirin (Bloomsbury, 2004); Hoffmann/Eichengrün credit is contested."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -46,7 +46,6 @@ Meadowsweet (*Filipendula ulmaria*, the older *Spiraea*) gave the *spir-* in the
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
 Edward Stone’s letter ran in the *Philosophical Transactions* for 1763. Henri Leroux isolated salicin from willow bark in 1828–1829. Raffaele Piria moved from salicin toward salicylic acid in the 1830s. Hermann Kolbe’s 1859–1860 industrial synthesis made the tree optional. Felix Hoffmann’s 10 August 1897 notebook acetylation is Bayer’s official romance; Arthur Eichengrün’s later claim that he directed the work remains contested because 1933 wrote a Jewish chemist out of a firm’s memory. Heinrich Dreser pushed the 1899 Aspirin tin. Figure 2 carries those dates, not a pain-score bar. A U.S. willow-bark capsule is a DSHEA powder. Acetylsalicylic acid is a drug. Keep the letter, the crystal, and the tin in separate rooms.
 
 1763 Stone; 1829 Leroux; Kolbe's synthesis years; 1897 acetylation; 1899 trademark; later generic life and cardiology debates that do not belong here as advice. Figure 2 should carry those dates, not a bar chart of pain scores. The Eichengrün claim (a Jewish chemist written out after 1933) is contested; say so rather than settling it in a caption.
@@ -59,9 +58,3 @@ Aspirin became generic, then a cardiology object, then an argument about prevent
 
 A U.S. willow-bark capsule is a DSHEA object with variable bark. Aspirin is a drug. Stone's letter is a country experiment. Three rooms. Figure 1 should never be read as a home process. If a designer adds a "try this at home" tint, kill the tint. The Royal Society was asked to look. Looking is the whole invitation. Swallowing is another essay, and not this magazine's job.
 
-<!-- prose-expand:v1 20-willow-salicylate-path.md -->
-## Stone, Leroux, Kolbe, a contested 1897
-
-Edward Stone, vicar of Chipping Norton, wrote the Royal Society in 1763 about willow bark and the doctrine of signatures he claimed he was not using — he was using it, a little, and also a country trial. Henri Leroux isolated salicin in 1828–1829. Raffaele Piria made salicylic acid from it. Hermann Kolbe's 1860 industrial synthesis made the tree optional. Felix Hoffmann's 10 August 1897 notebook acetylation is Bayer's official romance. Arthur Eichengrün later said the work was his direction; the file is contested because 1933 made a Jewish chemist disappear from a firm's memory. Say contested.
-
-Heinrich Dreser pushed the tin. Aspirin became a trademark (1899), then a generic word, then a cardiology object. None of that is advice. Jeffreys's *Aspirin* is usable if you watch the shine. A U.S. willow-bark capsule is a DSHEA powder. Acetylsalicylic acid is a drug. Three rooms: letter, crystal, tin. Figure 1 is not a home process.

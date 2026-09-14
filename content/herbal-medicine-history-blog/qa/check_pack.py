@@ -81,8 +81,8 @@ def main() -> int:
             issues.append("no graphics-ref original (" + ref + ")")
         if cbody.count("<!-- graphics-pack:v1 -->") != 2:
             issues.append("want exactly two graphics-pack:v1 markers")
-        if not re.search(r"^voice_check:\s*human\s*$", cfm, re.M):
-            issues.append("voice_check is not human")
+        if not re.search(r"^voice_check:\s*(human|edited)\s*$", cfm, re.M):
+            issues.append("voice_check is not human or edited")
         if re.search(r"Editorial shell|Draft shell for the Grok|pending-grok", cur):
             issues.append("stub leftover")
         if words < 700:

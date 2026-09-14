@@ -15,7 +15,7 @@ citations:
   - "Newman and Cragg reviews on natural-product drugs — cite year if you use a percentage."
   - "Wall and Wani; Tu Youyou; Noble/Beer vinca — as named lab stories."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -33,7 +33,6 @@ This essay will not glow. No cinematic wet lab. No percentage of "drugs from pla
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-<!-- under-fig:v2 -->
 Mikhail Tswett’s early-1900s chromatography sat on the shelf until mid-century paper, gas, and then HPLC made “a peak” an ordinary noun. Norman Farnsworth’s NAPRALERT at the University of Illinois Chicago tried to make the world’s plant-constituent papers searchable. Monroe Wall and Mansukh Wani’s 1971 paclitaxel paper (from *Taxus brevifolia* bark) and their camptothecin work (*Camptotheca acuminata*) are NCI-adjacent named hits. The Ontario–Lilly vinca story (Noble, Beer, Cutts; Gordon Svoboda at Lilly) and China’s Project 523 / *Artemisia annua* are the other celebrity screens. Most fractions did nothing in the assay. That boredom is the science. 1920–2000 in this file is the window from alkaloid textbooks to “natural product” as a grant category.
 
 1920–2000 in the file is a working window: from the late alkaloid-and-glycoside textbook to HPLC as ordinary and to the decade when "natural product" became a grant category. Farnsworth's NAPRALERT was a Chicago-area attempt to make the world's plant-use papers searchable. The existence of the database is the historical point. Scraping it into medical advice is not.
@@ -60,11 +59,3 @@ Newman and Cragg will give you a percentage if you give them a year and a rule f
 
 Pharmacy schools that boxed the crude-drug jars boxed the habit of looking. HPLC does not restore looking. It restores a peak. Both are tools. Neither is a glowing leaf in a model's hand. Figure 2's celebrity silhouettes are a risk: they make phytochemistry look like a greatest-hits album. The hits were fractions that did something in an assay. The album is mostly silence. Silence is the science. The temptation to lie about the peaks is the marketing. This pack ends on that split because the twentieth century did not close it. It gave us better instruments for the same old lie and the same old check: a date, a name, a file, or a `[VERIFY]`.
 
-<!-- prose-expand:v1 40-modern-phytochemistry-lab.md -->
-## NAPRALERT, NCI screens, three remainders
-
-Norman Farnsworth's NAPRALERT at the University of Illinois Chicago was a twentieth-century paper monument: who reported which constituent in which organ. The U.S. National Cancer Institute's plant-screening programs (1950s–1980s waves) were boredom plus the occasional hit. Newman and Cragg will give a percentage of drugs with natural-product ancestry if you give them a year and a rule. Without those, do not print a percentage.
-
-*Catharanthus roseus* (vinca) alkaloids: Malagasy plant, Western isolation, unpaid remainder. *Taxus brevifolia* and taxol: Pacific Northwest bark, Goodman and Walsh's file. Project 523 and *Artemisia annua*: a Chinese wartime antimalarial program, Tu Youyou's cold-soak reading of Ge Hong. Three celebrity silhouettes. The album is mostly silence.
-
-HPLC does not restore the crude-drug cabinet's habit of looking. It restores a peak. A "phytochemical" on a U.S. aisle is a DSHEA object unless it is a drug. Photograph a museum-numbered instrument. Not a glowing leaf.

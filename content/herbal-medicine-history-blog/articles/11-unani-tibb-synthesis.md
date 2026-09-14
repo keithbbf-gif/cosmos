@@ -14,7 +14,7 @@ citations:
   - "Guy Attewell, Refiguring Unani Tibb (Orient Longman, 2007)."
   - "Seema Alavi, Islam and Healing (Permanent Black / Palgrave)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -46,7 +46,6 @@ The Indian Medicine Central Council Act (1970) and the later AYUSH ministry lice
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-<!-- under-fig:v2 -->
 The working Unani object is often a *qarābādin* — a formulary — not a single leaf. Indo-Persian shops compounded *majūn*, *jawārish*, *khamīra*, and *sharba* from pepper, sandal, saffron, senna, and a long vernacular synonymy. Calcined-metal *kushta* lines sit in the same cabinets as plant electuaries; they are a historical category, not a method this magazine will teach. Hakim Ajmal Khan’s Hindustani Dawakhana in Delhi is a named early-twentieth-century factory-and-college object. India’s later *National Formulary of Unani Medicine* (first volume in the early 1980s — `[VERIFY]` the imprint year) is a ministry book. It does not issue a U.S. label.
 
 Classical Unani pharmacy loves the compound: *majun*, *khamira*, *sharbat*, *raughan*. Figure 2 shows simples because plates show simples. The historical object is often the electuary. Opium as a known tool, cannabis in some compounds, metals in some lines, a huge vernacular synonymy: the shelf is mixed on purpose.
@@ -59,11 +58,3 @@ A Bradford or Jackson Heights bottle that says Unani is often a DSHEA object if 
 
 Attewell and Alavi are the historians to keep on the desk so the courtyard myth stays off the page. A *majun* is a compound with a house reputation. Reputation is data of a kind. It is not a trial. This series will not collapse those sentences. It will also not print a hookah. The jar is enough.
 
-<!-- prose-expand:v1 11-unani-tibb-synthesis.md -->
-## Ajmal Khan, lithographs, two licenses
-
-Hakim Ajmal Khan (1868–1927) is the named institutional modernizer: Tibbia colleges, a politics that tried to keep Unani a public profession under late colonial and then nationalist weather. Guy Attewell's *Refiguring Unani Tibb* and Seema Alavi's work on Indo-Muslim medical families are the desk books. The courtyard myth does not survive them.
-
-A *majun* or *khamira* is a house compound with a reputation. Lithographed Urdu and Persian manuals in the nineteenth century made those reputations cheap to copy. Metals, opium, and cannabis appear in some lines. The shelf is mixed on purpose. AYUSH as a ministry is a Gazette of India fact. It is not a meta-analysis.
-
-A Jackson Heights bottle can be a DSHEA object. A Delhi bottle can be an AYUSH-licensed object. The *Canon* issues neither. Do not print a hookah. Do not print "ancient Unani" as if a monsoon were a trademark. The jar and the salary are the historical objects.

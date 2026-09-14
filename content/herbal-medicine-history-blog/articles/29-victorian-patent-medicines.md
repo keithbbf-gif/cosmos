@@ -14,7 +14,7 @@ citations:
   - "James Harvey Young, The Toadstool Millionaires (Princeton, 1961)."
   - "Samuel Hopkins Adams, The Great American Fraud (Collier's, 1905–06)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ The British file is parallel: Holloway's pills, Beecham's, the newspaper column 
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
-<!-- under-fig:v2 -->
 Lydia E. Pinkham began advertising her Vegetable Compound from Lynn, Massachusetts, in the 1870s. Hostetter’s Stomach Bitters carried a whiskey alibi and a stamp. Mrs. Winslow’s Soothing Syrup put opium or morphine in the nursery until analysis made the habit visible. Clark Stanley’s snake-oil liniment, tested after 1906, was mineral oil, turpentine, and theater. Britain’s Pharmacy Act 1868 and the medicine-stamp duty are a parallel file. James Harvey Young’s *Toadstool Millionaires* remains the historian to keep on the desk.
 
 Before 1906 a U.S. bottle could lie in a particular way: it could hide morphine, cannabis, cocaine, and alcohol behind a floral name. Adams's *Collier's* series named the math for a mass readership. The 1906 Pure Food and Drug Act (next essay) made certain lies and omissions federal matters. It did not require that a drug work. Efficacy as a legal demand arrives later.
@@ -47,7 +46,6 @@ Figure 1: mid-century cheap paper and rural ads; Pinkham's career (she died in 1
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
-<!-- under-fig:v2 -->
 Samuel Hopkins Adams’s *Collier’s* series named the shelf before Congress did. After Pinkham’s death the company kept answering letters in her voice — an archive of gynecological need and of a face that outlived a person. The Proprietary Association learned to live with a federal label. Hadacol, in Dudley LeBlanc’s postwar radio, proved the emotional box could survive a microphone. Figure 2 is the inspector’s mind: what is on the label, what crosses a state line, who printed the testimonial. 1906 changed the carton more than the newspaper.
 
 What is on the label? What crosses a state line? Who printed the testimonial? Figure 2 is the inspector's mind, not a startup canvas. Hostetter's bitters ran like a whiskey with a medical alibi. Mrs. Winslow's Soothing Syrup put opium in the nursery. Clark Stanley's snake oil, analyzed after the new law, was mineral oil and theater. The Chinese railroad workers' liniment that American English stole and ruined is a different object. Say so.
@@ -60,11 +58,3 @@ Young's second volume, *The Medical Messiahs*, follows the radio century. Hadaco
 
 Pinkham's face outlived Pinkham. That is the caption for any trade-card figure this pack might later add. Figure 1 and Figure 2 are already the inspector's mind. Keep them dull. Dull is how a statute looks. The almanac was colorful on purpose. Color was the product as much as the fluid. An editor who gets too funny on this material has started mocking the mailbox. Stop.
 
-<!-- prose-expand:v1 29-victorian-patent-medicines.md -->
-## Pinkham's mailbox, Adams's series
-
-Lydia E. Pinkham began advertising her Vegetable Compound from Lynn, Massachusetts, in the 1870s. After her death the company kept answering letters in her voice. Those letters are an archive of gynecological need and of a face that outlived a person. Hostetter's Bitters were a whiskey alibi with a stamp. Mrs. Winslow's Soothing Syrup put morphine or opium in the nursery until analysis and then law made the habit visible. Clark Stanley's snake-oil liniment, analyzed after 1906, was mineral oil, turpentine, and theater. The Chinese railroad workers' *sheyou* liniment that American English stole is a different object.
-
-Samuel Hopkins Adams named the shelf. James Harvey Young's *Toadstool Millionaires* (1961) and *Medical Messiahs* (1967) remain the historians. Britain's Pharmacy Act 1868 and the later British patent-medicine stamp are a parallel file. Hadacol, in Dudley LeBlanc's postwar radio, proved the emotional box could survive a microphone.
-
-1906 changed the carton more than the newspaper. DSHEA later rented a new utterance for a related feeling. Figure 1 and Figure 2 should stay dull: label, state line, testimonial. Color was the almanac's product. Do not mock the mailbox.

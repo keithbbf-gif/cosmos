@@ -14,7 +14,7 @@ citations:
   - "Adam Lonicer (1582 herbal mention of the midwife's spur) — confirm edition."
   - "Arthur Stoll, Sandoz ergotamine work (1920s); Hofmann memoir as memoir."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,10 +32,7 @@ Midwives also knew a different, smaller, terrible use: a bit of ergot to force a
 
 *Figure 1. Historical processing schematic — not synthesis instructions or dosing guidance.*
 
-<!-- under-fig:v2 -->
-Adam Lonicer’s 1582 *Kreuterbuch* printing is this pack’s lock for a midwife’s printed use of the spur. John Stearns’s 1808 letter in the *Medical Repository* told American physicians about *pulvis parturiens* — Withering’s foxglove story in a darker key: a country doctor admitting he took a midwife’s powder. Official medicine then adopted “ergot of rye” with the same narrow window. Charles Tanret crystallized ergotinine in the 1870s. Figure 1 is spur to named alkaloid. Not a method. Not agricultural advice. The file ends at 1938, Hofmann’s first quiet year, not the bicycle.
-
-John Stearns's 1808 American letter on *pulvis parturiens* is Withering's foxglove story in a darker key: a country doctor admitting he took a midwife's powder. Official medicine then adopted "ergot of rye" with the same narrow window. Figure 1 is spur to named alkaloid. Not a method. Not agricultural advice.
+Adam Lonicer's 1582 *Kreuterbuch* printing is this pack's lock for a midwife's printed use of the spur. John Stearns's 1808 letter in the *Medical Repository* told American physicians about *pulvis parturiens* — Withering's foxglove story in a darker key: a country doctor admitting he took a midwife's powder. Official medicine then adopted "ergot of rye" with the same narrow window. Figure 1 is spur to named alkaloid. Not a method. Not agricultural advice. The file ends at 1938, Hofmann's first quiet year, not the bicycle.
 
 Nineteenth-century chemists poked at the spur and got messes. Tanret crystallized ergotinine in the 1870s; Barger's circle began to sort bases. Arthur Stoll at Sandoz isolated ergotamine in the 1920s. Albert Hofmann, looking at lysergic acid derivatives in 1938 and again in 1943, found LSD-25 — a story he told in a memoir. The memoir is not a methods appendix. This essay will not supply one. The file ends at 1938, which is Hofmann's first, quiet year, not the bicycle ride. Keep it there if the graphic does.
 
@@ -47,10 +44,7 @@ Nineteenth-century chemists poked at the spur and got messes. Tanret crystallize
 
 *Figure 2. Laboratory and regulatory dates to cite — no fabricated effect sizes.*
 
-<!-- under-fig:v2 -->
-Medieval writers called the convulsive and gangrenous bread-sickness St. Anthony’s fire. The Order of St. Anthony built hospitals for it. An 857 Rhine outbreak and later French years sit in the chronicle file — `[VERIFY]` a death total before a caption prints one. Louis René Tulasne named *Claviceps purpurea* in 1853; the spur became a fungus with a binomial. Henry Dale and George Barger sorted ergot bases in the 1900s–1910s. Arthur Stoll isolated ergotamine at Sandoz in 1918–1921. Albert Hofmann’s 1938 lysergic-acid derivative is this pack’s stop. Witchcraft-and-ergot at Salem is **soft**. Ergotism is enough horror without conscripting every convulsion in the archive.
-
-Medieval Antonine hospitals; 1582 print; 1808 Stearns; 1920s ergotamine; 1938 a derivative on a notebook page. Figure 2 should not print outbreak death totals you cannot source. Witchcraft-and-ergot readings of Salem are **soft**. Ergotism is a sufficient horror without conscripting every convulsion in the archive.
+Medieval writers called the convulsive and gangrenous bread-sickness St. Anthony's fire. The Order of St. Anthony built hospitals for it. An 857 Rhine outbreak and later French years sit in the chronicle file — `[VERIFY]` a death total before a caption prints one. Louis René Tulasne named *Claviceps purpurea* in 1853; the spur became a fungus with a binomial. Henry Dale and George Barger sorted ergot bases in the 1900s–1910s. Arthur Stoll isolated ergotamine at Sandoz in 1918–1921. Albert Hofmann's 1938 lysergic-acid derivative is this pack's stop. Figure 2 should not print outbreak death totals you cannot source. Witchcraft-and-ergot readings of Salem are **soft**. Ergotism is a sufficient horror without conscripting every convulsion in the archive.
 
 A fungal contaminant of bread became a line of named compounds. Medicine kept some. Control statutes took others. The fungus remained a field problem for agronomists. Milligrams are progress. They are not innocence. No "how Hofmann did it." If the magazine needs a last line, use the Antonines: a religious order as a public-health response to a plant disease. The plant as a plague, not as a gift.
 
@@ -60,11 +54,3 @@ Hofmann's later fame ate Stoll's isolation paper in the popular mind. This pack'
 
 Pont-Saint-Esprit (1951) is outside the file and full of theories. Leave it unless you have a historian you trust. Witchcraft-and-ergot is soft. Figure 1 is not agricultural advice. The midwife's powder and the Basel milligram are the same plant pathology at two scales of paper. Paper is progress. It is not innocence. The saint's order remains the minor-key ending: a hospital named for a fire a fungus lit.
 
-<!-- prose-expand:v1 26-ergot-alkaloid-history.md -->
-## Lonicer, Stearns, Stoll, a 1938 notebook
-
-Adam Lonicer's *Kreuterbuch* (1582 printing is this pack's lock) describes a midwife's use of the spur. John Stearns's 1808 letter in the *Medical Repository* told American physicians about *pulvis parturiens*. Arthur Stoll isolated ergotamine at Sandoz in 1918–1921. Albert Hofmann's 1938 lysergic-acid derivative is this pack's stop date. Stop. No bicycle. No synthesis.
-
-The Order of St. Anthony collected ergotism cases when rye and a wet year met. Convulsive and gangrenous forms are the old clinical split. Witchcraft-and-ergot at Salem is **soft** (Caporael 1976 and the replies). Pont-Saint-Esprit 1951 is outside the file and theory-rich; leave it unless you lock a historian. Do not invent outbreak totals.
-
-Obstetrics kept ergometrine/ergonovine with a narrow window. Migraine kept ergotamine, then narrowed it. Agronomy kept a ppm. Control statutes took others. Four afterlives. One *Claviceps purpurea*. Figure 1 is not farm advice.

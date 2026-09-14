@@ -15,7 +15,7 @@ citations:
   - "Edward H. Schafer, The Golden Peaches of Samarkand (Berkeley, 1963)."
   - "Unschuld on foreign drugs in the bencao."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -59,11 +59,3 @@ A "Silk Road" tea in a mall is a twentieth-century flavor word. The oases moved 
 
 Hansen's hop-by-hop road is the corrective to the highway poster. Schafer's peaches are the corrective to a grim-only ledger: capitals wanted beauty and scent as well as catharsis. Wanting is not a trial. The leftover work for an editor is to keep Figure 1's arrows from looking like a tour. They are a tax problem and a synonym problem. Those are the two problems pharmacy inherited from trade.
 
-<!-- prose-expand:v1 14-silk-road-medicinals.md -->
-## Schafer's peaches, Hansen's hops, a rhubarb hill
-
-Edward H. Schafer's *Golden Peaches of Samarkand* (1963) is still the Tang exotic-goods book: aromatics, gems, and the court's appetite. Valerie Hansen's *Silk Road* (2012) insists on hop-by-hop oases instead of a highway poster. Camphor (*Cinnamomum camphora* and the Borneo *Dryobalanops* fight), storax, myrrh, and Chinese rhubarb (*Rheum*) are the teaching cargoes. Rhubarb's Greek and Arabic cathartic career and its Gansu/Qinghai hillside are related sentences about a plant that did not move.
-
-Han *fangwu* notes, Tang *bencao* enlargements, Mongol-period traffic, Ming interruptions: Figure 2's documentary beats. `[VERIFY]` round years. The Sogdian letters and the Astana graves are the archaeological tone: a sack, a name, a tax. Monasteries stored aromatics as liturgy and as medicine. Bandits took the same load.
-
-A mall "Silk Road" tea is a flavor word. Figure 1's arrows are a synonym problem and a customs problem. Pharmacy inherited both.

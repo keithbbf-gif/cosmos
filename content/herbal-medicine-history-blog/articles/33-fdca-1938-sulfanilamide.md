@@ -15,7 +15,7 @@ citations:
   - "FDA historical file on the Massengill elixir sulfanilamide disaster (usual count 107 deaths; Bristol, Tennessee)."
   - "Ruth deForest Lamb, American Chamber of Horrors (1936)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -45,7 +45,6 @@ Figure 1: 1906, 1937 elixir, 1938 Act, 1962 efficacy. No treatment recommendatio
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
-<!-- under-fig:v2 -->
 In October and November 1937, FDA inspectors chased remaining raspberry elixir across state lines. The legal hook under the 1906 Act was often misbranding: “elixir” implied alcohol the bottle did not contain. S.E. Massengill paid a fine on the order of $26,000 — `[VERIFY]` the exact judgment against the FDA history office — because that was the tooth the old statute had. Harold Watkins, the chemist who chose diethylene glycol, died by suicide. Walter G. Campbell used the bodies in testimony the way Wiley had used borax. Figure 2’s questions — new drug, solvent, hidden label — are 1938’s questions. They are not a current filing guide and not a parable about “untested herbs.” The dead were killed by a solvent around a useful sulfa.
 
 Is it a new drug? What is the solvent? What does the label hide? Figure 2 is the 1938 question set, not a current filing guide. Walter Campbell and the FDA of that year used the disaster in testimony the way Wiley had used borax. Agencies need bodies, unfortunately, to get statutes.
@@ -58,11 +57,3 @@ Kelsey and thalidomide are 1960s weather. Mention them as the efficacy shoe, not
 
 Herbal bottles lived in the house anyway. "Old drug" arguments kept lawyers employed. DSHEA later opened a side door for many botanicals. The side door does not un-kill 1937. It files a plant in a drawer with less paper. Figure 1 should show 1906–1937–1938–1962 without a skull-and-crossbones cartoon that turns a disaster into décor. The disaster is already enough. Names, a solvent, a statute. That is the prose.
 
-<!-- prose-expand:v1 33-fdca-1938-sulfanilamide.md -->
-## Bristol, a word crime, Copeland's bill
-
-S.E. Massengill mixed the elixir in Bristol, Tennessee. Harold Watkins, the chemist, picked diethylene glycol because it dissolved the sulfa and tasted sweet. The usual FDA history count is 107 dead, many of them children. When inspectors moved, the cleanest 1906 hook was often misbranding: "elixir" implied alcohol the bottle did not contain. Bodies had to borrow a word crime. The firm paid a small fine. Watkins died by suicide. Those are the scar's domestic facts.
-
-Senator Royal S. Copeland of New York — a physician-politician — shepherded the bill that became the Federal Food, Drug, and Cosmetic Act. The new-drug application is the machine 1938 added: a safety file before interstate marketing. Cosmetics came under the same roof. Devices too, in a first federal way. Ruth deForest Lamb's *American Chamber of Horrors* (1936) had already toured the public through the pre-1938 shelf. The elixir made the tour lethal.
-
-Do not turn this into a parable about "untested herbs." The 1937 dead were killed by a solvent around a useful sulfa. A botanical already in the shop became an "old drug" argument. That argument is legal history. It is not a reason to draw a skull on Figure 1. Names, a town, a borrowed word, a statute. Enough.

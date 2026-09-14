@@ -14,7 +14,7 @@ citations:
   - "Lily Y. Beck, trans., Pedanius Dioscorides of Anazarbus: De materia medica (Hildesheim: Olms-Weidmann)."
   - "John M. Riddle, Dioscorides on Pharmacy and Medicine (Austin: University of Texas Press, 1985)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -46,10 +46,7 @@ When later botanists sneered at "the ancients," they were often sneering at the 
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-<!-- under-fig:v2 -->
-Squill (*skilla*) is one of his named bulbs; later European dropsy files kept it until digitalis stole the bed. Birthwort (*aristolochia*) is a later cautionary — aristolochic-acid nephritis is a twentieth-century laboratory sentence laid on an old name, **soft** as a one-to-one identity. Myrrh he sorts by origin and fracture, a dock skill in Greek. Mandrake gets the museum poster because the root looks like a body; opium juice of *Papaver somniferum* is less theatrical on the painted leaf and more important in the working book: a known sleep and a known harm. The Vienna Dioscorides paintings are luxury. Cheap Arabic and Latin copies are how a Syrian or Italian doctor decided what to buy.
-
-Opium poppy, mandrake, squill, birthwort, myrrh, the many honeys. Figure 2 will tempt a designer to put the mandrake in the center because museums do. The working pages are how a Syrian or Italian doctor, a thousand years later, decided what to buy. Opium is less theatrical on the painted leaf and more important in the history: juice of *Papaver somniferum*, already a known sleep and a known danger. This essay will not describe harvest. Dioscorides records harm. That is the historical fact.
+Squill (*skilla*) is one of his named bulbs; later European dropsy files kept it until digitalis stole the bed. Birthwort (*aristolochia*) is a later cautionary — aristolochic-acid nephritis is a twentieth-century laboratory sentence laid on an old name, **soft** as a one-to-one identity. Myrrh he sorts by origin and fracture, a dock skill in Greek. Mandrake gets the museum poster because the root looks like a body; opium juice of *Papaver somniferum* is less theatrical on the painted leaf and more important in the working book: a known sleep and a known harm. Figure 2 will tempt a designer to center the mandrake because museums do. The Vienna Dioscorides paintings are luxury. Cheap Arabic and Latin copies are how a Syrian or Italian doctor, a thousand years later, decided what to buy. This essay will not describe harvest. Dioscorides records harm. That is the historical fact.
 
 He also records cheats. Pharmacognosy before the word is a man snapping a resin in a stall. Every subsequent "complete herbal" is, in some posture, answering him. Galen became the theory. Dioscorides remained the shelf. This pack follows the shelf.
 

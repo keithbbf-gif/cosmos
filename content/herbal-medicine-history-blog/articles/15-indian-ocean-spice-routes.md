@@ -15,7 +15,7 @@ citations:
   - "K. N. Chaudhuri, Trade and Civilisation in the Indian Ocean (Cambridge, 1985)."
   - "Harold J. Cook, Matters of Exchange (Yale, 2007), for the later Dutch edge."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -31,7 +31,6 @@ The monsoon is a timetable. Arabic, Gujarati, Malay, Swahili, and later Portugue
 
 *Figure 1. Illustrative trade schematic for “Indian Ocean spice routes and pharmacy” — simplified geography, not navigation or modern routing.*
 
-<!-- under-fig:v2 -->
 The monsoon is a calendar before it is a metaphor. Abbasid Gulf traffic, Chola and later Indian ocean policy, and Zheng He’s early-fifteenth-century fleets (1405–1433 in the usual chronicle — `[VERIFY]` a voyage year against Dreyer) are state pulses that carried and collected. Afonso de Albuquerque took Melaka in 1511. The Portuguese and then the Dutch tried to lock cloves and nutmeg at the source. Pepper is quieter and larger — Malabar, later Sumatra. Garcia de Orta argued from Goa’s dock in 1563. Figure 1 is those ports, not a spice wheel.
 
 Siraf, Aden, Hormuz, Cambay, Calicut, Melaka: the names shift with the century. Chaudhuri's ocean is a system of ports, not a European discovery narrative. Unani shops in the Deccan ate this traffic. So did Tang and Song "south seas" goods. Figure 1 will flatten the monsoon into arrows. The arrows are not a routing guide. They are a reminder that a simple in Ibn al-Bayṭār and a simple in a Kerala garden may be the same load at two ends of a season.
@@ -46,7 +45,6 @@ Garcia de Orta printed his *Colóquios* in Goa in 1563 and told Lisbon that Dios
 
 *Figure 2. Dated beats to verify in draft — not a clinical efficacy chart.*
 
-<!-- under-fig:v2 -->
 The 1621 Banda massacre is the VOC’s nutmeg chapter: monopoly and killing as a pairing. Cinnamon’s identity fight — Ceylon *Cinnamomum verum* versus cassia — is a pharmacognosy argument that outlived sails. Opium cake moved on the same monsoon as medicine and as habit. Clusius’s Latin Orta is how a Goa argument reached Leiden. The Goa Inquisition burned Orta’s remains in 1580. The book stayed. When these sacks landed in a European shop they became Galenic simples with degrees. When they landed in an Ayurvedic or Unani compound they entered another arithmetic. Same sack, different sentence.
 
 Pepper as diet and as medicine; cinnamon's identity fight (true *Cinnamomum* versus cassia); cloves and nutmeg as Moluccan monopolies the Portuguese and then the Dutch tried to lock. When these landed in a European shop they became Galenic simples with degrees. When they landed in an Ayurvedic or Unani compound they entered another arithmetic. Same sack, different sentence.
@@ -61,11 +59,3 @@ Clusius's Latin Orta is how a Goa argument reached Leiden. Something always thin
 
 Nutmeg's Banda chapter belongs with the colonial ledger essay in spirit even if this pack files it under monsoon. Monopoly and massacre are a pairing, not a metaphor. Pepper is quieter and larger. Opium cake is louder and later regulated. The ocean did not choose. The later statute did. Keep the monsoon as a calendar. Keep the statute in its own essay. Do not let a spice chart become an efficacy chart.
 
-<!-- prose-expand:v1 15-indian-ocean-spice-routes.md -->
-## Melaka, Banda, a burned bone
-
-Afonso de Albuquerque took Melaka in 1511. The Portuguese then the Dutch tried to lock cloves (*Syzygium aromaticum*) and nutmeg (*Myristica fragrans*) at the source. The 1621 Banda massacre is the VOC's nutmeg chapter: monopoly and killing as a pairing. Pepper (*Piper nigrum*) is quieter and larger — a Malabar and later Sumatra bulk good. Cinnamon's identity fight (Ceylon *Cinnamomum verum* versus cassia) is a pharmacognosy argument that outlived sails.
-
-Zheng He's fleets (1405–1433 in the usual chronicle) collected and displayed; they were not a materia medica seminar. `[VERIFY]` a voyage year against Dreyer or a standard Ming chronicle. Garcia de Orta (1563) argued from Goa's dock. The Goa Inquisition burned his bones in 1580. Clusius's Latin kept the argument. Opium cake moved on the same monsoon as medicine and as habit.
-
-Figure 2 may carry Abbasid Gulf traffic, Chola policy, Zheng He, 1498, 1511, 1563, 1621. It may not become a wellness spice wheel. The ocean did not moralize. Later statutes did, selectively.

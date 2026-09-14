@@ -15,7 +15,7 @@ citations:
   - "Pormann and Savage-Smith, Medieval Islamic Medicine (2007)."
   - "Lutz Richter-Bernburg, essays on al-Rāzī's clinical writing."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -47,12 +47,9 @@ Alchemy and philosophy sit in his other books. This essay stays in the pharmacy:
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-<!-- under-fig:v2 -->
-The shared Islamicate shelf in Figure 2 is senna and other cathartics, rose, camphor, opium as a known tool, Gulf and Red Sea gum-resins. Al-Rāzī’s contribution is often a hospital sentence about an old plant: this famous drug failed this patient tonight. The *Kitāb al-Ḥāwī* is a working pile — notes, quotations, disagreements — not a tonic. Ibn al-Nadīm’s *Fihrist* already treats him as a compiler who would not stop. The smallpox-and-measles treatise traveled in Latin as *De variolis et morbillis*. A supplement statue of “Rhazes” is a statue. Prefer the pile.
+Figure 2 is the shared Islamicate shelf: senna and other cathartics, rose, camphor, opium as a known tool, the gum-resins of the Gulf and the Red Sea. Al-Rāzī's contribution is rarely a new plant. It is a hospital sentence about an old one — this famous drug failed this patient tonight. That sentence later becomes, in other mouths, "the dose makes the poison." He did not need Paracelsus to notice a bad night. The *Kitāb al-Ḥāwī* is a working pile of notes, quotations, and disagreements, not a tonic. Ibn al-Nadīm's *Fihrist* already treats him as a compiler who would not stop. The smallpox-and-measles treatise traveled in Latin as *De variolis et morbillis*.
 
-The plate is the shared Islamicate shelf: senna and other cathartics, rose, camphor, opium as a known tool, the gum-resins of the Gulf and the Red Sea. Al-Rāzī's contribution is not a new plant so much as a hospital sentence about an old one. He will note that a drug that looks official can still be the wrong drug for this patient tonight. That sentence later becomes, in other mouths, "the dose makes the poison." He did not need Paracelsus to notice a bad night.
-
-Do not turn him into a proto-clinician who secretly ran RCTs. He ran a ward. He wrote down what he trusted and what he had only read. The distinction is already a method. A modern supplement label that borrows "Rhazes" is borrowing a statue. The *Ḥāwī* is a pile of notes. Prefer the pile.
+Do not turn him into a proto-clinician who secretly ran RCTs. He ran a ward. He wrote down what he trusted and what he had only read. The distinction is already a method. A modern supplement label that borrows "Rhazes" is borrowing a statue. Prefer the pile.
 
 ## After the ward
 
@@ -60,11 +57,3 @@ Latin printers kept the smallpox treatise because Europe wanted a name for a dis
 
 A hospital pharmacy in tenth-century Baghdad is not a Golden Age poster. It is a budget, a lock, a staff who can read, and a physician willing to say a famous drug failed this patient. That willingness is the method. Modern clinical medicine likes to claim it invented the willingness. It invented the IRB and the journal. The willingness is older. It does not license a "Rhazes tonic." The *Ḥāwī* is too long and too honest for a tonic.
 
-<!-- prose-expand:v1 07-rhazes-clinical-pharmacy.md -->
-## A ward book, a Latin smallpox, no tonic
-
-Al-Rāzī directed the hospital at Baghdad and wrote the *Kitāb al-Ḥāwī* as a working pile: notes on patients, quotations, disagreements. Ibn al-Nadīm's *Fihrist* already treats him as a polymath who would not stop compiling. The smallpox-and-measles treatise traveled in Latin as *De variolis et morbillis* and gave Europe a clinical distinction it wanted. Gerard of Cremona's circle and later printers are that transmission.
-
-He will record that a famous drug failed a named kind of patient tonight. That is a method. It is not a randomized trial and not a "Rhazes protocol." Senna, camphor, rose, opium as a tool, Gulf resins: the shared shelf. His contribution is often the hospital sentence, not a new plant. Paracelsus got the poster for dose-and-poison. Al-Rāzī had already had a bad night on a ward.
-
-A supplement statue of "Rhazes" is a statue. Prefer the pile. The *Ḥāwī* is too long and too hedged for a tonic label.

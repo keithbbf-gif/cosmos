@@ -15,7 +15,7 @@ citations:
   - "Circa instans and the Salernitan corpus; Faith Wallis, medieval medicine readers."
   - "The Plan of St. Gall (c. 820s)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -33,7 +33,6 @@ The file's "12th c." is the century when this habit meets a flood of translated 
 
 *Figure 1. Anchors for antiquity-to-modern framing — verify dates in draft.*
 
-<!-- under-fig:v2 -->
 The Plan of St. Gall (Codex Sangallensis 1092) draws an infirmary and labeled beds on an ideal ninth-century campus. It is a drawing, not a photograph of Swiss mud. Walahfrid Strabo’s *Hortulus*, written at Reichenau, is a poem that is also a planting list: sage, rue, fennel, melon. The *Capitulare de villis* tells a Carolingian estate what to grow, medicinals included. Those three documents are the early medieval file. Constantine the African and the Salerno translations changed the twelfth-century table. They did not invent mint.
 
 The *Circa instans*, a Salernitan simple-book of the twelfth century, is the international style: a plant, a quality, a use. Herbals copied in monasteries are not automatically "monastic medicine" in a mystical sense. They are how a house that already grew sage learned the new Latin names for it. Walahfrid’s melon is still the better image than a stock nun.
@@ -48,7 +47,6 @@ Physic gardens as university institutions come later (Padua 1545). The cloister 
 
 *Figure 2. Comparative materia medica plate — illustrative line art, not botanical ID.*
 
-<!-- under-fig:v2 -->
 A ninth-century Reichenau list and a sixteenth-century printed herbal do not share a species list. They share a job: grow the useful, copy the name, know the poisonous bed from the neighbor’s leaf — aconite, henbane, later foxglove in northern plots. Sage, rue, fennel, mint, rose, and lily are the ordinary useful bed. Padua’s 1545 *orto dei semplici*, the Society of Apothecaries’ Chelsea Physic Garden (1673), and Kew are later politics. Culpeper’s 1652 *English Physitian* is a London polemic against the College, not a monk. Hildegard’s *Physica* (next essay) is one German abbess inside this ecology, not the ecology. If a magazine photographs a woman in a wimple holding lavender at golden hour, it has left the plan of St. Gall and entered a brand. Use the plan. The beds are a filing system.
 
 ## After the plan
@@ -57,11 +55,3 @@ Padua's circle, Chelsea's guild plot, Kew's warehouse: later gardens with differ
 
 Salerno and Toledo changed the books on the infirmarian's table. They did not invent sage. The twelfth century is loud because translations are loud. The ninth century already knew how to replant. If you visit a reconstructed monastic garden, read the labels as arguments, not as prescriptions. Rue is a plant with a history of uses. It is not a protocol. The plan of St. Gall is an ideal. Real mud was the pharmacy.
 
-<!-- prose-expand:v1 12-monastic-herbaria.md -->
-## St. Gall, Walahfrid, a later physic garden
-
-The Plan of St. Gall (Codex Sangallensis 1092, early ninth century) draws an ideal Benedictine campus including an infirmary and labeled beds. It is not a photograph of a Swiss garden. Walahfrid Strabo's *Hortulus* from Reichenau is a poem that is also a planting list — sage, rue, fennel, melon. The *Capitulare de villis* tells a Carolingian estate what to grow, including medicinals. Those three documents are the ninth-century file.
-
-Constantine the African and the Salerno translations changed the twelfth-century table. They did not invent mint. Padua's 1545 *orto dei semplici*, Leiden, Chelsea Physic Garden (1673, Apothecaries), Kew: later politics. Culpeper (1652) is a London polemic against the College, not a monk. Hildegard is one named abbess inside this ecology, not the ecology.
-
-Reconstructed "monastic gardens" at tourist sites are arguments in plant labels. Read them that way. Rue has a history of uses. It is not a protocol. Mud was the pharmacy. A stock nun holding lavender is a brand.

@@ -14,7 +14,7 @@ citations:
   - "WHO, Monographs on selected medicinal plants (vols. from 1999)."
   - "Alma-Ata 1978; WHO Traditional Medicine Strategy (2002–2005; 2014–2023)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ They are **soft** as proof. They are useful as a map of what an international co
 
 *Figure 1. Comparative plate for reading monographs — line art only, not herbarium IDs.*
 
-<!-- under-fig:v2 -->
 A WHO plant monograph is an expert review: botanical identity, chemistry, major uses, a cautious clinical paragraph, a regulatory paragraph. Volume 1 (1999) set the headings later volumes copied. It is not a Ph. Eur. quality monograph, not a USP drug monograph, and not an EMA traditional-use registration. German Commission E assessments and EMA HMPC community monographs are sibling expert genres, not stamps. The clinical paragraph is often a thin file described as thin. Inflating it into a cure is theft. Deleting it to make a tradition look like a rumor is a different theft. Figure 1 will not identify a roadside weed.
 
 A WHO plant monograph is not a Ph. Eur. quality monograph and not a USP drug monograph. It is an expert review with a public-health accent. Figure 1 is a reading schematic. It will not identify a roadside weed. The clinical paragraph, when it exists, is often a thin file honestly described. Do not inflate it. Do not delete it to make a tradition look like a rumor.
@@ -49,7 +48,6 @@ The evidence fight inside WHO — RCTs as the only door versus "traditional use"
 
 *Figure 2. Edition and harmonization beats — verify against official publishers.*
 
-<!-- under-fig:v2 -->
 The Alma-Ata declaration (September 1978) made primary health care a planning problem that included what people already used. Halfdan Mahler was Director-General. The *Traditional Medicine Strategy* papers (2002–2005; 2014–2023) are the bureaucratic grandchildren. *WHO monographs on selected medicinal plants* began with volume 1 in 1999; later volumes followed (four is the usual completed set in secondary lists — `[VERIFY]` against WHO before a caption says “complete”). The 2019 *Global Report on Traditional and Complementary Medicine* is a survey flavor, not a stamp of efficacy. Integration programs standardize formulas and leave some old practitioners outside the fence. Name the fence. Do not pick a ministry’s side for a caption.
 
 1978 Alma-Ata; 1999 volume 1; later volumes; the 2002–2005 and 2014–2023 strategies; a 2019 global report flavor. Figure 2's 2024 is a living end. `[VERIFY]` volume counts against WHO's own list before a caption says "complete." Nothing here is complete. Integration, when a state attempts it, standardizes formulas and leaves some old practitioners outside the fence. WHO documents tend to sound like hugs. Historians should not.
@@ -62,11 +60,3 @@ Mahler's generation wanted systems that were not only cathedrals of specialty ca
 
 A monograph volume is not a hug and not a stamp. It is an expert genre with a cautious paragraph. Marketing that prints the WHO logo next to a cure claim is stealing. This pack will not help the theft. Figure 2's living end means another volume may appear. When it does, add a row. Do not add an efficacy axis. Policy has to live with a late truck of amoxicillin without lying about the root. Lying about the root is the one thing this series refuses to help with.
 
-<!-- prose-expand:v1 34-who-monographs-herbal.md -->
-## Alma-Ata, then a genre
-
-Halfdan Mahler was WHO Director-General when the 1978 Alma-Ata declaration made primary health care a planning problem that included what people already used. Critics in medical journals called it a lowering of standards. District nurses called it the market next door. Both can be true on one road. The *Traditional Medicine Strategy* papers (2002–2005; 2014–2023) are the grandchildren. ICD-11 later grew a traditional-medicine chapter as a **classification** tool — `[VERIFY]` scope against WHO. Classification is not a trial and not a logo for a bottle.
-
-Volume 1 of *WHO monographs on selected medicinal plants* (1999) set the genre: botanical identity, chemistry, major uses, a cautious clinical paragraph, a regulatory paragraph. Later volumes added plants. `[VERIFY]` a complete count on WHO's own list. The clinical paragraph is often a thin file described as thin. German Commission E, EMA HMPC community monographs, and these WHO reviews are three expert genres. They do not stack into a planetary stamp.
-
-Integration programs — China's later hospital TCM, India's AYUSH colleges, African ministry desks — standardize formulas and leave some old practitioners outside the fence. WHO documents tend to sound like hugs. A historian should type the fence. Marketing that prints the WHO emblem next to a cure claim is stealing a public letterhead. This pack will not help the theft.

@@ -14,7 +14,7 @@ citations:
   - "CITES, 3 March 1973; Nagoya Protocol on Access and Benefit-Sharing (2010)."
   - "Osseo-Asare, Bitter Roots; Goodman and Walsh, The Story of Taxol."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -32,7 +32,6 @@ This is not a hug. It is paperwork after a long shrug. Cinchona seed, vinca from
 
 *Figure 1. Statutory milestones — legal history, not treatment recommendations.*
 
-<!-- under-fig:v2 -->
 CITES was signed in Washington on 3 March 1973 and entered into force on 1 July 1975. Appendices I–III are ban, permit, and a party’s special list. Medicinal plants enter when trade can empty a hillside: American ginseng (*Panax quinquefolius*) from the first plant listings, *Prunus africana* (African cherry) in the 1990s Appendix II neighborhood — `[VERIFY]` the listing year against the CITES checklist — *Aquilaria* agarwood, some *Taxus*. The CBD opened at Rio in 1992. Nagoya was adopted on 29 October 2010 and entered into force on 12 October 2014. The United States is a CITES party; the Senate never consented to the CBD. Say so when Figure 1 looks planetary.
 
 1973 CITES; 1992 CBD (Rio); 2010 Nagoya; entry into force 2014 for Nagoya — `[VERIFY]` the in-force date against the CBD secretariat before a caption. The United States is a CITES party and not a CBD/Nagoya party in the usual way; say so if the figure looks global. Figure 1 is legal history. It is not a collecting permit.
@@ -47,7 +46,6 @@ Hoodia and the San–CSIR fight, Peyote's conservation-and-church file, American
 
 *Figure 2. Illustrative agency questions — not a filing checklist.*
 
-<!-- under-fig:v2 -->
 U.S. CITES paperwork splits across Fish and Wildlife and, at many plant ports, APHIS, under the Endangered Species Act and 50 C.F.R. part 23. The Lacey Act is an older domestic stick for illegally taken plants. The European Union’s ABS Regulation 511/2014 is how Nagoya looks at a Brussels desk. *Hoodia gordonii* and the San–CSIR contract, *Lophophora williamsii* as a conservation-and-church file, Pacific yew and taxol (Goodman and Walsh): named remainders. Figure 2 asks whether the species is listed, who holds the knowledge, what crosses a border. It is not a bioprospecting canvas. A powdered-root capsule can be a DSHEA label object and a permit object in one carton.
 
 Is the species listed? Who holds the traditional knowledge? What crosses a border? Figure 2 is a cartoon of those questions. It is not a how-to for bioprospecting. A U.S. dietary-supplement firm that buys a powdered root still sits under DSHEA for the label and under wildlife and customs law for the sack. Two offices. One plant.
@@ -60,11 +58,3 @@ CITES appendices and Nagoya contracts are incomplete answers to a complete histo
 
 Peyote's conservation-and-church file, American ginseng's permits, Hoodia's contract fight: name them or leave them. Do not make a collage "sacred plants of the world." Figure 2 is not a bioprospecting canvas. A methods section that still writes *obtained from…* and stops is the silence this essay exists to teach a reader to hear. Hear it. Do not fill it with a rainforest stock photo.
 
-<!-- prose-expand:v1 38-biodiversity-medicinal-plants.md -->
-## Appendices, a cherry, a cactus
-
-CITES entered into force on 1 July 1975. Appendix I is a commercial-trade ban for listed taxa; II is a permit; III is a party's special list. Medicinal plants show up when a hillside can be emptied: *Panax quinquefolius* (American ginseng), *Aquilaria* (agarwood), *Prunus africana* (African cherry / pygeum bark), some *Taxus*. In the United States, Fish and Wildlife and plant-health offices split the paperwork. The Lacey Act is an older domestic stick for illegally taken plants. None of that is a collecting map.
-
-*Hoodia gordonii* and the San–CSIR benefit-sharing fight is a named contract story. *Lophophora williamsii* (peyote) is a conservation file and a church file at once — do not collage it into "sacred plants of the world." Pacific yew bark and taxol (Goodman and Walsh) and Ghanaian *Cryptolepis* (Osseo-Asare, *Bitter Roots*) are remainder stories: a molecule, a cubic meter, and a methods section that used to stop at *obtained from…*.
-
-Nagoya (adopted 29 October 2010; in force 12 October 2014) tries to make the next methods section a contract. The U.S. Senate never consented to the CBD; say so when Figure 1 looks planetary. A powdered-root capsule can still be a DSHEA label object and a CITES-permit object in one carton. Invoice plus appendix, if any. No rainforest stock photo.

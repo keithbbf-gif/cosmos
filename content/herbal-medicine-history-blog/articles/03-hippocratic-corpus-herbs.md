@@ -15,7 +15,7 @@ citations:
   - "Laurence Totelin, Hippocratic Recipes (Leiden: Brill, 2009)."
   - "Vivian Nutton, Ancient Medicine (London: Routledge, 2nd ed. 2013)."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
@@ -23,7 +23,7 @@ graphics_agent: v1
 
 "Hippocrates said let food be thy medicine" is a modern sentence in a toga. The line does not sit, in that form, in the Greek texts that travel under his name. What the corpus does say, in several places and several voices, is that diet, season, and a short list of simples belong to the same craft as the knife and the prognosis. That is already enough work. It does not need a false quotation on a juice-bar tile.
 
-The corpus is a library assembled around Cos and the wider fifth- and fourth-century BCE Greek medical world, then copied until Alexandria and later Rome could not tell which book was whose. *Affections*, *Regimen*, *Diseases of Women*, the epidemic books: different authors, different tempers. Some like theory. Some like a list.
+The corpus is a library assembled around Cos and the wider fifth- and fourth-century BCE Greek medical world, then copied until Alexandria and later Rome could not tell which book was whose. Different authors, different tempers. Some like theory. Some like a list.
 
 ## Textual and archaeological context
 

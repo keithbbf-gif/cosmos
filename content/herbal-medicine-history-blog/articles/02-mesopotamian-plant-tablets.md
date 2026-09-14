@@ -15,7 +15,7 @@ citations:
   - "Markham J. Geller, Ancient Babylonian Medicine (Chichester: Wiley-Blackwell, 2010)."
   - "R. Campbell Thompson, The Assyrian Herbal (London, 1924) — dated identifications."
 status: draft
-voice_check: human
+voice_check: edited
 graphics_agent: v1
 ---
 
