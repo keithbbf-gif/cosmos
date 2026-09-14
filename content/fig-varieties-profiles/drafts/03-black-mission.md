@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 3
 cultivar: Black Mission (Franciscana)
@@ -62,7 +62,7 @@ Split happens. Side cracks and ostiole-end splits shorten life — Kong’s Cali
 
 Flavor when it is right: berry-leaning, jammy, the reason the name stayed famous. Flavor when it rode a truck: cardboard with a seed. Do not judge the cultivar by the clamshell. Do not judge an 8a tree by a Fresno orchard either.
 
-Keith’s favorite dark figs on the record are other names — Negra d’Agde, Black Madeira, Red Sicilian, NSDC. I did not put Mission on that list. That is not a vendetta. That is a plate and a climate.
+My favorite dark figs on the record are other names — Negra d’Agde, Black Madeira, Red Sicilian, NSDC. I did not put Mission on that list. That is not a vendetta. That is a plate and a climate.
 
 ## Mosaic, wood, and the hole
 

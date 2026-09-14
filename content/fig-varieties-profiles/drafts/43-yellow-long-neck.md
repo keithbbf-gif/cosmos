@@ -21,7 +21,7 @@ images:
   source: ours
   folder_pick: Breba 2025
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 43
 cultivar: Yellow Long Neck
@@ -96,4 +96,4 @@ If it never finishes, it joins the late-yellow museum and we graft a clock we al
 
 If it finishes, the next editor writes the cut.
 
-Write Yellow Long Neck on the pot that matches a fruiting long-neck yellow fig we have eaten. Until the plate exists, write the name in pencil and the interview date in the notes. Looking forward is a kind of honesty. Pretending you already ate it is not.
+Write Yellow Long Neck on the pot that matches a fruiting long-neck yellow fig we have eaten. Until the plate exists, write the name in pencil and the interview date in the notes.

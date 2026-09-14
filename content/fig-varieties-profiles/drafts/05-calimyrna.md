@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: FigRoots
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 5
 cultivar: Calimyrna (Sari Lop)

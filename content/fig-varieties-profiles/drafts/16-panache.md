@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 16
 cultivar: Panache (Panachée)
@@ -47,7 +47,7 @@ Variegato, Tiger, Panachée. Same chimera if the fruit is the candy cane. Differ
 
 Alabama: aficionados in California say it can produce excellent fresh fruit. In the South, flavor is mediocre. Mealy texture. That is a hard sentence and I will not sand it. Dry heat and a long hang make a different plate than our steam.
 
-I did not put Panache on the [Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) list. Keith’s looking-forward names were other late berries and long-necks. This is a conversation-piece fig. If it eats above mediocre for us, I will say so when the plate repeats. Until then I will treat Alabama as the Southern default and California as a different climate. No homestead score. No invented “better than Gold” sentence.
+I did not put Panache on the [Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith) list. My looking-forward names were other late berries and long-necks. This is a conversation-piece fig. If it eats above mediocre for us, I will say so when the plate repeats. Until then I will treat Alabama as the Southern default and California as a different climate. No homestead score. No invented “better than Gold” sentence.
 
 Eye: not the reason you plant it. Pick on the soft. Stripes fade and muddy when the fruit is truly ripe — another reason people pick it pretty and eat it early. Underripe Panache is why “mediocre” gets worse.
 

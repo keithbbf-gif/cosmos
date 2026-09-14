@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: More Fig Pictures
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 46
 cultivar: I-258 (Italian 258)

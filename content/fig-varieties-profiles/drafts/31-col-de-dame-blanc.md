@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 31
 cultivar: Col de Dame Blanc
@@ -41,7 +41,7 @@ Condit’s 1955 monograph will not print CDDB on your tag. Collector shorthand w
 
 Birds: green helps. Not a cloak. [Pick The Right Fig](https://figroots.com/2025/07/02/pick-the-right-fig-for-you/) already said if you have a lot of birds a green fig might get eaten less than a dark one. Might. A ripe green fig still smells like a ripe fig. Net the week it softens. They will find the only finished one.
 
-Flavor talk: honey-berry, a little less “jam dark,” more Adriatic-adjacent in the mouth of people who like both sisters. Consensus. I did not plate Blanc on The Fig Jam. [VERIFY]. Keith’s green talk on 25 July 2025 was Adriatic JH in the favorite pile, and Verte as a splitter we were still trialing. Blanc was not named. Mutante was looking-forward — untried. Do not write a homestead score onto a sister I have not cut.
+Flavor talk: honey-berry, a little less “jam dark,” more Adriatic-adjacent in the mouth of people who like both sisters. Consensus. I did not plate Blanc on The Fig Jam. [VERIFY]. My green talk on 25 July 2025 was Adriatic JH in the favorite pile, and Verte as a splitter we were still trialing. Blanc was not named. Mutante was looking-forward — untried. Do not write a homestead score onto a sister I have not cut.
 
 Eye: not a vault. Green ripe fruit is easy to pick late because it never looks “black enough.” Feel. Neck wilt. Soft. The [introduction](https://figroots.com/an-introduction-to-figs/) page already said most people have never had a good fig because they never had a ripe one. Blanc is the exhibit. Wait for gold and you will wait into a sour week or a hard frost.
 

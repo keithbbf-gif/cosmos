@@ -21,7 +21,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 29
 cultivar: Madeleine des Deux Saisons
@@ -44,7 +44,7 @@ Condit’s 1955 monograph is full of French names and two-crop talk. I will not 
 
 Early, productive, small-to-medium, a fig people in cooler Europe like because the first crop can beat a short summer. Flavor: mild berry-honey, not a Negra. I did not plate it on The Fig Jam. Consensus, not a signed score. [VERIFY] on our tree.
 
-Keith’s 25 July 2025 list was other fruit. Looking-forward names were Yellow Long Neck, White Madeira #1, CDD Mutante, I-258, and the rest of that sentence. Madeleine was not on it. Jack’s early darks were Syrian Dark #2 and the Unk Greek. Same job class as an early bowl. Different names.
+My 25 July 2025 list was other fruit. Looking-forward names were Yellow Long Neck, White Madeira #1, CDD Mutante, I-258, and the rest of that sentence. Madeleine was not on it. Jack’s early darks were Syrian Dark #2 and the Unk Greek. Same job class as an early bowl. Different names.
 
 If your Madeleine is huge and late, you have a different French name. Col de Dame is late and necked. Dalmatie is large and green and late. Gold is large and late. Madeleine’s reputation is the opposite direction: get in, get out, maybe twice. If it never brebas even on protected wood, you may have a mislabel or a year. Two years. The introduction page already said 1–3 years to prove type.
 

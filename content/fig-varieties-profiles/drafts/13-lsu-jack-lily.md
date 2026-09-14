@@ -23,7 +23,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 13
 cultivar: LSU Jack Lily (unofficial)
@@ -44,7 +44,7 @@ Common type. No wasp. Jack already wrote the type primer on [Types of Figs](http
 
 ## Do not confuse the small green pile
 
-[Celeste](celeste) is also small and tight. I am not a fan of Celeste so far. I said that on The Fig Jam. Jack Lily is the small fig Jack will actually talk about. That difference is the review. Celeste is brown-to-violet sugar. Jack Lily is green skin, berry-strawberry pulp, Adriatic family on the site card.
+[Celeste](celeste) is also small and tight. I am not a fan of Celeste so far. I said that on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). Jack Lily is the small fig Jack will actually talk about. That difference is the review. Celeste is brown-to-violet sugar. Jack Lily is green skin, berry-strawberry pulp, Adriatic family on the site card.
 
 [Adriatic](adriatic) the California commercial name is a different pile — Condit’s five, white/green, another climate. Adriatic *family* on a FigRoots card means flavor talk: green skin, berry-strawberry pulp, not a dark Bordeaux. Do not upgrade Jack Lily to a numbered Adriatic or to Champagne because someone said “Adriatic.” Families are flavor talk. Cultivars are plates that repeat.
 

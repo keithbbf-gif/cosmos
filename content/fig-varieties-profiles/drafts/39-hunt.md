@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 39
 cultivar: Hunt
@@ -39,7 +39,7 @@ Common type. Persistent. No wasp. Jack already defined that on [Types of Figs](h
 
 That sentence is why Hunt disappears from marketplace lists. People want Red Sicilian volume. Hunt wants a wet week and a good bite. I will plant a fig that is scarce and excellent before I plant a sixth Turkey.
 
-I did not name Hunt on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). Alabama’s “superb” is their word. A small rich brown fig with a stem like a wire is something I want on a bench next to Celeste. Celeste I am not a fan of so far. Hunt might be the brown fig that is a conversation. [VERIFY] when the plate repeats. I will not invent a berry score or a brix number I did not record.
+I did not name Hunt on [The Fig Jam](https://www.thefigjam.co/p/interview-with-a-fig-grower-keith). Alabama’s “superb” is their word. A small rich brown fig with a stem like a wire is something I want on a bench next to Celeste. I am not a fan of Celeste so far. Hunt might be the brown fig that is a conversation. [VERIFY] when the plate repeats. I will not invent a berry score or a brix number I did not record.
 
 The introduction page already said it takes **1–3 years** to prove type. A first-year pot can lie about volume. “Not a heavy bearer” is Alabama’s adult sentence. Do not call the tree shy in year one and throw it away. Do not call it shy in year three if you hat-racked it in January.
 

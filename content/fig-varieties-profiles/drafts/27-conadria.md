@@ -22,7 +22,7 @@ images:
   source: ours
   folder_pick: Fig Labels
 status: draft
-voice_check: human
+voice_check: edited
 pillar: identity
 priority: 27
 cultivar: Conadria
@@ -43,7 +43,7 @@ Condit’s 1955 monograph is the type-and-synonym book. Conadria is the year aft
 
 A yellow fig that can take a Southern winter better than Mission and better than Flanders. Fruit in the Adriatic / Verdone idea: green skin, strawberry pulp, rich if it finishes. A preserve fig and a fresh fig. Not Jack’s berry-first list.
 
-I did not plate Conadria on The Fig Jam. I will treat Alabama’s “rich” as their word and our plate as unwritten until it repeats. Keith’s yellow talk in that interview was other names, and even those looking-forward yellows — Yellow Long Neck, I-258 — were untried on 25 July 2025. Conadria was not on the favorite pile and it was not on the looking-forward list. Consensus among Southern sheets is the rebound plus a usable yellow-green plate. Consensus is not a homestead score. [VERIFY].
+I did not plate Conadria on The Fig Jam. I will treat Alabama’s “rich” as their word and our plate as unwritten until it repeats. My yellow talk in that interview was other names, and even those looking-forward yellows — Yellow Long Neck, I-258 — were untried on 25 July 2025. Conadria was not on the favorite pile and it was not on the looking-forward list. Consensus among Southern sheets is the rebound plus a usable yellow-green plate. Consensus is not a homestead score. [VERIFY].
 
 Eye: not the closed-eye famous. [VERIFY] after rain. Hybrid does not mean sealed. UAEX: souring when water enters the eye, worse after rain plus heat. Texas Plant Disease Handbook files Celeste, Texas Everbearing, and Alma on the closed side; Magnolia and Kadota take more open-eye trouble. Conadria did not get a closed-eye paragraph. Photograph the ostiole. The closed ones belong in 8a. The open ones belong in a dry week or a preserve pot.
 
