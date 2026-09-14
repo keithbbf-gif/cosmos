@@ -59,8 +59,13 @@ Criteria: **object-first** magazine voice (per `STYLE_GUIDE.md`), trim **pack-me
 - [x] `EDITOR_REPORT.md` + `STYLE_GUIDE.md` added
 - [x] Pack-meta / brief language removed from edited slugs
 
+## Writer fill (2026-09-14)
+
+Chapters **01–06** are now in the pack (`voice_check: human`), stacked on this editor branch. Object-first ledes lock Met / Yale accessions already in the public collection pages. Residual / Notes / Figure plan match 07–45. `[CITE NEEDED]` markers retained. See `WRITER_NOTE.md`.
+
 ## See also
 
 - `STYLE_GUIDE.md` — voice, BBF rule, front matter
 - `MANIFEST.md` — per-slug word counts
 - `INDEX.md` — draft list
+- `WRITER_NOTE.md` — fill 01–06, locked objects, QA

@@ -7,10 +7,16 @@ series: american-bedroom-furniture-history
 
 # Manifest
 
-Staged essays **07–45** (39 drafts). Chapters **01–06** not yet in repo. Assembled for editor pass from `cursor/abfh-essays-*` branches.
+Staged essays **01–45** (45 drafts). Chapters **01–06** writer-filled 2026-09-14 on editor pack 07–45 (`voice_check: human`). House style: object-first, Residual, Notes, Figure plan.
 
 | Slug | Ch. | Title | Words |
 |------|-----|-------|------:|
+| `01-the-chamber-before-the-suite` | 01 | The Chamber Before the Suite | 3,030 |
+| `02-testers-and-hangings` | 02 | Testers and Hangings | 2,994 |
+| `03-boston-and-the-early-high-chest` | 03 | Boston and the Early High Chest | 2,899 |
+| `04-philadelphia-high-chest` | 04 | The Philadelphia High Chest | 2,662 |
+| `05-newport-block-and-shell` | 05 | Newport Block and Shell | 2,892 |
+| `06-the-lowboy-partner` | 06 | The Lowboy Partner | 2,858 |
 | `07-chests-versus-high-chests` | 07 | Chests versus High Chests | 2,980 |
 | `08-federal-beds-and-lannuier` | 08 | Federal Beds and Lannuier | 2,798 |
 | `09-empire-sleigh-beds` | 09 | Empire Sleigh Beds | 2,490 |
@@ -51,4 +57,4 @@ Staged essays **07–45** (39 drafts). Chapters **01–06** not yet in repo. Ass
 | `44-childrens-beds-and-cradles` | 44 | Children's Beds and Cradles | 2,148 |
 | `45-the-nightstand-invention` | 45 | The Nightstand Invention | 2,142 |
 
-**Total body words:** 90,845
+**Total body words:** 108,180 (01–06: 17,335; 07–45: 90,845)

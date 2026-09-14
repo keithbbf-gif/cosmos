@@ -7,10 +7,16 @@ series: american-bedroom-furniture-history
 
 # Index
 
-Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14 on staged drafts 07–45.
+Magazine essays on American bedroom furniture, 1650–now. Editor pass 2026-09-14 on staged drafts 07–45. Writer fill 2026-09-14: chapters 01–06.
 
 ## Drafts
 
+- [The Chamber Before the Suite](drafts/01-the-chamber-before-the-suite.md) — ch. 01
+- [Testers and Hangings](drafts/02-testers-and-hangings.md) — ch. 02
+- [Boston and the Early High Chest](drafts/03-boston-and-the-early-high-chest.md) — ch. 03
+- [The Philadelphia High Chest](drafts/04-philadelphia-high-chest.md) — ch. 04
+- [Newport Block and Shell](drafts/05-newport-block-and-shell.md) — ch. 05
+- [The Lowboy Partner](drafts/06-the-lowboy-partner.md) — ch. 06
 - [Chests versus High Chests](drafts/07-chests-versus-high-chests.md) — ch. 07
 - [Federal Beds and Lannuier](drafts/08-federal-beds-and-lannuier.md) — ch. 08
 - [Empire Sleigh Beds](drafts/09-empire-sleigh-beds.md) — ch. 09
