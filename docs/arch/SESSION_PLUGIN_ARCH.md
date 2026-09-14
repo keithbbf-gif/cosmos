@@ -14,7 +14,7 @@ One host-agnostic tool table; two thin adapters over it.
 ```
 builds/session-plugin/src/tools.ts        SESSION_TOOLS[]  (name, description, JSON Schema, run)
   ├─ .opencode/plugins/cosmos_sessions.ts  OpenWork / opencode plugin entry
-  └─ src/tools.ts  mcpListTools/mcpCallTool  any MCP host (tools/list + tools/call)
+  └─ src/mcp.ts  mcpHandleRequest/mcpHandleLine  any MCP host (JSON-RPC tools/list + tools/call)
 ```
 
 The adapters carry no logic. A behaviour that lives in an adapter is a behaviour the other host

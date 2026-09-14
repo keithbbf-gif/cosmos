@@ -19,7 +19,10 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-SUITE = REPO / "builds" / "session-plugin" / "test" / "test_session_plugin.ts"
+SUITES = sorted(
+    (REPO / "builds" / "session-plugin" / "test").glob("test_*.ts"),
+    key=lambda p: p.name,
+)
 MIN_NODE = (22, 6)  # --experimental-strip-types landed in 22.6
 
 
@@ -36,8 +39,8 @@ def _node_version(exe: str) -> tuple[int, ...] | None:
 
 
 def main() -> int:
-    if not SUITE.is_file():
-        print("FAIL suite missing", SUITE)
+    if not SUITES:
+        print("FAIL no test_*.ts suites under builds/session-plugin/test")
         return 1
     exe = shutil.which("node")
     if exe is None:
@@ -47,13 +50,15 @@ def main() -> int:
     if ver is None or ver < MIN_NODE:
         print(f"UNMEASURED NODE_TOO_OLD {ver} < {MIN_NODE} - no --experimental-strip-types")
         return 2
-    proc = subprocess.run(
-        [exe, "--experimental-strip-types", str(SUITE)],
-        capture_output=True, text=True, cwd=str(REPO), timeout=300)
-    sys.stdout.write(proc.stdout)
-    if proc.returncode != 0:
-        sys.stderr.write(proc.stderr)
-    return proc.returncode
+    for suite in SUITES:
+        proc = subprocess.run(
+            [exe, "--experimental-strip-types", str(suite)],
+            capture_output=True, text=True, cwd=str(REPO), timeout=300)
+        sys.stdout.write(proc.stdout)
+        if proc.returncode != 0:
+            sys.stderr.write(proc.stderr)
+            return proc.returncode
+    return 0
 
 
 if __name__ == "__main__":

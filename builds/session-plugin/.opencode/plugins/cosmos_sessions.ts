@@ -22,22 +22,29 @@ type HostTool = {
 
 type PluginHooks = { tool: Record<string, HostTool> };
 
+function hostTool(def: (typeof SESSION_TOOLS)[number]): HostTool {
+  return {
+    description: def.description,
+    // Both spellings: opencode reads `args`, several forks read `parameters`.
+    args: def.inputSchema,
+    parameters: def.inputSchema,
+    execute: async (args: Record<string, unknown> = {}) => {
+      // Config is read from the host process environment at call time. The
+      // plugin holds no credential and caches none.
+      const ctx: ToolContext = { env: process.env };
+      return JSON.stringify(await runTool(def.name, args, ctx), null, 2);
+    },
+  };
+}
+
 export const CosmosSessionsPlugin = async (_input: PluginInput = {}): Promise<PluginHooks> => {
   const tool: Record<string, HostTool> = {};
   for (const def of SESSION_TOOLS) {
-    // Host-safe id is the key; hosts that allow "." can still call the dotted name.
-    tool[def.id] = {
-      description: def.description,
-      // Both spellings: opencode reads `args`, several forks read `parameters`.
-      args: def.inputSchema,
-      parameters: def.inputSchema,
-      execute: async (args: Record<string, unknown> = {}) => {
-        // Config is read from the host process environment at call time. The
-        // plugin holds no credential and caches none.
-        const ctx: ToolContext = { env: process.env };
-        return JSON.stringify(await runTool(def.name, args, ctx), null, 2);
-      },
-    };
+    const entry = hostTool(def);
+    tool[def.id] = entry;
+    if (def.name !== def.id) {
+      tool[def.name] = entry;
+    }
   }
   return { tool };
 };

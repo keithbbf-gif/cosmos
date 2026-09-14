@@ -15,7 +15,8 @@ import { dirname, join } from "node:path";
 import { loadConfig } from "../src/config.ts";
 import { RECENTS_SCHEMA } from "../src/core.ts";
 import { readVerified } from "../src/transcript.ts";
-import { mcpCallTool, mcpListTools, runTool, SESSION_TOOLS } from "../src/tools.ts";
+import { mcpCallTool, mcpHandleRequest } from "../src/mcp.ts";
+import { runTool, SESSION_TOOLS } from "../src/tools.ts";
 import type { ToolResult } from "../src/tools.ts";
 import { CosmosSessionsPlugin } from "../.opencode/plugins/cosmos_sessions.ts";
 
@@ -214,26 +215,40 @@ async function main(): Promise<number> {
     // --- host adapters ---
     await check("an unknown tool name is NOT_FOUND, not a throw", async () =>
       (await run("session.nope", {}, fileEnv)).kind === "NOT_FOUND");
-    await check("MCP tools/list advertises all five with JSON Schema", () => {
-      const listed = mcpListTools();
-      return listed.length === 5 && listed.every((t) => t.inputSchema.type === "object");
+    await check("MCP adapter: JSON-RPC tools/list advertises all five with JSON Schema", async () => {
+      const ctx = { env: fileEnv };
+      const resp = await mcpHandleRequest({ jsonrpc: "2.0", id: 1, method: "tools/list" }, ctx);
+      const tools = (resp?.result as { tools: unknown[] })?.tools;
+      return resp?.jsonrpc === "2.0" && resp?.id === 1 &&
+        tools?.length === 5 && tools.every((t) =>
+          (t as { inputSchema: { type: string } }).inputSchema.type === "object");
     });
-    await check("MCP tools/call wraps the envelope and flags isError on a refusal", async () => {
-      const ok = await mcpCallTool("session_read", { id: "cow-abc" }, { env: fileEnv });
-      const bad = await mcpCallTool("session_read", { id: "cow-leg1" }, { env: fileEnv });
+    await check("MCP adapter: JSON-RPC tools/call returns envelope + isError on refusal", async () => {
+      const ctx = { env: fileEnv };
+      const okResp = await mcpHandleRequest({
+        jsonrpc: "2.0", id: 2, method: "tools/call",
+        params: { name: "session_read", arguments: { id: "cow-abc" } },
+      }, ctx);
+      const badResp = await mcpHandleRequest({
+        jsonrpc: "2.0", id: 3, method: "tools/call",
+        params: { name: "session_read", arguments: { id: "cow-leg1" } },
+      }, ctx);
+      const ok = okResp?.result as Awaited<ReturnType<typeof mcpCallTool>>;
+      const bad = badResp?.result as Awaited<ReturnType<typeof mcpCallTool>>;
       const parsed = JSON.parse(ok.content[0].text) as ToolResult;
-      return ok.isError === false && bad.isError === true &&
+      return okResp?.jsonrpc === "2.0" && ok.isError === false && bad.isError === true &&
         parsed.schema === "cosmos-session-plugin-result/1";
     });
-    await check("OpenWork plugin entry exposes the same five, executing the same table", async () => {
+    await check("OpenWork adapter: plugin factory lists five tools and one call hits the table", async () => {
       const hooks = await CosmosSessionsPlugin({});
-      const names = Object.keys(hooks.tool).sort().join(",");
+      const ids = SESSION_TOOLS.map((t) => t.id).sort().join(",");
       const prev = process.env.COSMOS_TRANSCRIPT_DIR;
       process.env.COSMOS_TRANSCRIPT_DIR = TRANSCRIPTS;
       try {
         const out = JSON.parse(await hooks.tool.session_read.execute({ id: "cow-abc" })) as ToolResult;
-        return names ===
+        return ids ===
           "session_list,session_open,session_read,session_search,session_timeline" &&
+          hooks.tool["session.read"] !== undefined &&
           out.ok && out.tool === "session.read";
       } finally {
         if (prev === undefined) delete process.env.COSMOS_TRANSCRIPT_DIR;

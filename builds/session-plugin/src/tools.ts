@@ -1,6 +1,7 @@
 // The tool table. One definition per surface, host-agnostic on purpose: the
-// OpenWork plugin entry and the MCP adapter below are both pure re-shaping of
-// this array, so neither host gets behaviour the other one lacks.
+// OpenWork plugin entry (../.opencode/plugins/cosmos_sessions.ts) and the MCP
+// adapter (mcp.ts) are both pure re-shaping of this array, so neither host gets
+// behaviour the other one lacks.
 
 import { loadConfig, requireRolledFeed, requireTranscriptDir } from "./config.ts";
 import type { Env } from "./config.ts";
@@ -212,30 +213,4 @@ export async function runTool(
       legal_omitted: kind === "LEGAL_OMITTED" ? 1 : null,
     };
   }
-}
-
-// ---- MCP adapter: tools/list + tools/call, for any host that is not OpenWork ----
-
-export function mcpListTools(): Array<{
-  name: string;
-  description: string;
-  inputSchema: JsonSchema;
-}> {
-  return SESSION_TOOLS.map((t) => ({
-    name: t.id,
-    description: t.description,
-    inputSchema: t.inputSchema,
-  }));
-}
-
-export async function mcpCallTool(
-  name: string,
-  args: Record<string, unknown>,
-  ctx: ToolContext,
-): Promise<{ content: Array<{ type: "text"; text: string }>; isError: boolean }> {
-  const rec = await runTool(name, args, ctx);
-  return {
-    content: [{ type: "text", text: JSON.stringify(rec, null, 2) }],
-    isError: !rec.ok,
-  };
 }

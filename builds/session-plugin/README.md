@@ -52,13 +52,16 @@ loopback and reads the transcript store it is pointed at.
 
 ## Other MCP hosts
 
-`mcpListTools()` / `mcpCallTool()` in `src/tools.ts` are the `tools/list` + `tools/call` shapes.
+`src/mcp.ts` exposes JSON-RPC 2.0 `tools/list` + `tools/call` (`mcpHandleRequest` /
+`mcpHandleLine`); it reshapes the same table via `mcpListTools()` / `mcpCallTool()`.
 Host ids are underscored because some hosts reject `.` in a tool name; both spellings resolve.
 
 ## Tests
 
 ```
 node --experimental-strip-types builds/session-plugin/test/test_session_plugin.ts
+node --experimental-strip-types builds/session-plugin/test/test_mcp_adapter.ts
+node --experimental-strip-types builds/session-plugin/test/test_opencode_adapter.ts
 py -3.14 tests/test_session_plugin.py
 ```
 
