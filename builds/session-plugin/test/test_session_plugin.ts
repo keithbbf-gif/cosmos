@@ -13,6 +13,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 import { loadConfig } from "../src/config.ts";
+import { esc } from "../src/esc.ts";
 import { RECENTS_SCHEMA } from "../src/core.ts";
 import { readVerified } from "../src/transcript.ts";
 import { mcpCallTool, mcpHandleRequest } from "../src/mcp.ts";
@@ -149,6 +150,9 @@ async function main(): Promise<number> {
     await check("a dead Core is CORE_UNREACHABLE, not an empty list", async () =>
       (await run("session.list", {}, { COSMOS_CORE_URL: "http://127.0.0.1:1" })).kind ===
         "CORE_UNREACHABLE");
+
+    await check("esc() html-encodes data text before it leaves the envelope", () =>
+      esc('<x>&"\'') === "&lt;x&gt;&amp;&quot;&#39;");
 
     // --- session.read ---
     const read = await run("session.read", { id: "cow-abc" }, fileEnv);

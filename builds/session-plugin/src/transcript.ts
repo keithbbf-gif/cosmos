@@ -5,6 +5,7 @@
 import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { esc } from "./esc.ts";
 import { refuse } from "./refusals.ts";
 
 export const TRANSCRIPT_SCHEMA = "cosmos-transcript/1";
@@ -123,7 +124,10 @@ export function readSession(
     head: t.head,
     n_turns: t.turns.length,
     offset: from,
-    turns: t.turns.slice(from, from + Math.max(0, limit)),
+    turns: t.turns.slice(from, from + Math.max(0, limit)).map((turn) => ({
+      ...turn,
+      text: typeof turn.text === "string" ? esc(turn.text) : turn.text,
+    })),
   };
 }
 
@@ -182,7 +186,12 @@ export function searchSessions(
       const text = typeof turn.text === "string" ? turn.text : "";
       const at = text.toLowerCase().indexOf(needle);
       if (at < 0) continue;
-      hits.push({ id: t.id, seq: turn.seq, role: turn.role, excerpt: excerpt(text, at) });
+      hits.push({
+        id: t.id,
+        seq: turn.seq,
+        role: turn.role,
+        excerpt: esc(excerpt(text, at)),
+      });
     }
     if (hits.length >= limit) break;
   }

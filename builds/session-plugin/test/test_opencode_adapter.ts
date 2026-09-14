@@ -32,4 +32,5 @@ const ok =
   parsed.tool === "session.read";
 
 console.log(ok ? "PASS opencode adapter discovery + call" : "FAIL opencode adapter discovery + call");
+console.log(ok ? "1/1" : "0/1");
 process.exitCode = ok ? 0 : 1;

@@ -22,13 +22,28 @@ const call = await mcpHandleRequest({
 const body = (call?.result as { content: Array<{ text: string }>; isError: boolean }) ?? {};
 const parsed = JSON.parse(body.content?.[0]?.text ?? "{}") as ToolResult;
 
+const refuse = await mcpHandleRequest({
+  jsonrpc: "2.0",
+  id: 3,
+  method: "tools/call",
+  params: { name: "session_read", arguments: { id: "cow-leg1" } },
+}, ctx);
+const refuseBody =
+  (refuse?.result as { content: Array<{ text: string }>; isError: boolean }) ?? {};
+const refused = JSON.parse(refuseBody.content?.[0]?.text ?? "{}") as ToolResult;
+
 const ok =
   list?.jsonrpc === "2.0" &&
   tools.length === 5 &&
   call?.jsonrpc === "2.0" &&
   body.isError === false &&
   parsed.ok &&
-  parsed.tool === "session.read";
+  parsed.schema === "cosmos-session-plugin-result/1" &&
+  parsed.tool === "session.read" &&
+  refuse?.jsonrpc === "2.0" &&
+  refuseBody.isError === true &&
+  refused.kind === "LEGAL_OMITTED";
 
 console.log(ok ? "PASS mcp adapter discovery + call" : "FAIL mcp adapter discovery + call");
+console.log(ok ? "1/1" : "0/1");
 process.exitCode = ok ? 0 : 1;

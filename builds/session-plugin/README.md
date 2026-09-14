@@ -4,7 +4,7 @@ Open Sessions reached from **inside** OpenWork — and from any other MCP host. 
 not CORE. Same Core endpoints, same `cosmos-transcript/1` files, no second kernel and no second
 writer.
 
-**Stage: SKELETON.** ARCH: `docs/arch/SESSION_PLUGIN_ARCH.md`. Product: `builds/open_sessions/`.
+**Stage: FIXTURE-BOUND.** ARCH: `docs/arch/SESSION_PLUGIN_ARCH.md`. Product: `builds/open_sessions/`.
 Suite: `builds/session-tools/`.
 
 ## Tools
@@ -18,9 +18,26 @@ Suite: `builds/session-tools/`.
 | `session.timeline` | `session_timeline` | `rolled-event/1` projection (**feed not emitted yet**) |
 
 Every call returns one `cosmos-session-plugin-result/1` envelope — `{schema, tool, ok, kind, gate,
-legal_omitted}`. A refusal is a typed `kind`, not a thrown string: `NO_SOURCE`, `NOT_FOUND`,
-`LEGAL_OMITTED`, `LEN_MISMATCH`, `HASH_MISMATCH`, `SCHEMA_UNKNOWN`, `NO_TOKEN`,
-`CORE_UNREACHABLE`, `HTTP_<code>`, `BAD_ARGS`, `UNMEASURED`.
+legal_omitted}`. A refusal is a typed `kind`, not a thrown string. User-derived text in the
+envelope is passed through `esc()` (HTML-safe encoding, same contract as KDash) before it leaves
+the plugin.
+
+## Refusal kinds
+
+| Kind | When |
+|---|---|
+| `OK` | Tool completed; `gate` holds the payload |
+| `NO_SOURCE` | Required path unset or unreadable (`COSMOS_TRANSCRIPT_DIR`, `COSMOS_ROLLED_FEED`, missing sidecar) — never a guessed root |
+| `NOT_FOUND` | Named session, tool, or rolled events absent — not an empty success |
+| `LEGAL_OMITTED` | Legal transcript or Core row withheld; count surfaced, row never returned |
+| `LEN_MISMATCH` | Transcript bytes length disagrees with `.ctr.decl.json` before parse |
+| `HASH_MISMATCH` | Transcript sha disagrees with sidecar before parse |
+| `SCHEMA_UNKNOWN` | Unrecognised Core or transcript schema |
+| `NO_TOKEN` | Non-loopback `COSMOS_CORE_URL` with no bearer, or empty `COSMOS_API_TOKEN_FILE` |
+| `CORE_UNREACHABLE` | Core socket failed — not an empty list |
+| `HTTP_<code>` | Core returned non-200 |
+| `BAD_ARGS` | Required tool argument missing |
+| `UNMEASURED` | Unexpected failure class — never reported as `0` hits or a green suite tally |
 
 ## Configuration — host environment only
 
@@ -40,11 +57,40 @@ error string.
 
 ## Install into OpenWork
 
-Copy this directory into the grant (`V:\OPENWORK\COSMOS 2\`) so the relative layout survives, then
-point `opencode.json` at the entry — the bundled `opencode.json` is that registration:
+Copy this directory into the grant (for example `V:\OPENWORK\COSMOS 2\`) so the relative layout
+survives. Set the host environment variables above in the OpenWork process (or its service wrapper).
+
+**Registration — `opencode.json`** at the grant root (bundled copy ships beside this README):
 
 ```json
-{ "plugin": [".opencode/plugins/cosmos_sessions.ts"] }
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [".opencode/plugins/cosmos_sessions.ts"]
+}
+```
+
+**Wiring — `.opencode/plugins/cosmos_sessions.ts`** imports the host-agnostic tool table and
+registers one OpenWork tool per entry (canonical dotted name and host-safe `id` alias):
+
+```typescript
+import { runTool, SESSION_TOOLS } from "../../src/tools.ts";
+
+export const CosmosSessionsPlugin = async () => {
+  const tool = {};
+  for (const def of SESSION_TOOLS) {
+    const entry = {
+      description: def.description,
+      args: def.inputSchema,
+      parameters: def.inputSchema,
+      execute: async (args) =>
+        JSON.stringify(await runTool(def.name, args, { env: process.env }), null, 2),
+    };
+    tool[def.id] = entry;
+    if (def.name !== def.id) tool[def.name] = entry;
+  }
+  return { tool };
+};
+export default CosmosSessionsPlugin;
 ```
 
 Do **not** grant OpenWork the COSMOS tree to make this work. The plugin talks to Core over
@@ -60,6 +106,11 @@ Host ids are underscored because some hosts reject `.` in a tool name; both spel
 
 ```
 node --experimental-strip-types builds/session-plugin/test/test_session_plugin.ts
+node --experimental-strip-types builds/session-plugin/test/test_tool_session_list.ts
+node --experimental-strip-types builds/session-plugin/test/test_tool_session_open.ts
+node --experimental-strip-types builds/session-plugin/test/test_tool_session_read.ts
+node --experimental-strip-types builds/session-plugin/test/test_tool_session_search.ts
+node --experimental-strip-types builds/session-plugin/test/test_tool_session_timeline.ts
 node --experimental-strip-types builds/session-plugin/test/test_mcp_adapter.ts
 node --experimental-strip-types builds/session-plugin/test/test_opencode_adapter.ts
 py -3.14 tests/test_session_plugin.py

@@ -13,6 +13,7 @@ pass for a suite that did not run.
 """
 from __future__ import annotations
 
+import re
 import shutil
 import subprocess
 import sys
@@ -24,6 +25,7 @@ SUITES = sorted(
     key=lambda p: p.name,
 )
 MIN_NODE = (22, 6)  # --experimental-strip-types landed in 22.6
+TALLY = re.compile(r"^(\d+)/(\d+)\s*$")
 
 
 def _node_version(exe: str) -> tuple[int, ...] | None:
@@ -38,6 +40,14 @@ def _node_version(exe: str) -> tuple[int, ...] | None:
         return None
 
 
+def _suite_tally(stdout: str) -> tuple[int, int] | None:
+    for line in reversed(stdout.strip().splitlines()):
+        m = TALLY.match(line.strip())
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return None
+
+
 def main() -> int:
     if not SUITES:
         print("FAIL no test_*.ts suites under builds/session-plugin/test")
@@ -50,6 +60,8 @@ def main() -> int:
     if ver is None or ver < MIN_NODE:
         print(f"UNMEASURED NODE_TOO_OLD {ver} < {MIN_NODE} - no --experimental-strip-types")
         return 2
+    passed = 0
+    total = 0
     for suite in SUITES:
         proc = subprocess.run(
             [exe, "--experimental-strip-types", str(suite)],
@@ -58,6 +70,15 @@ def main() -> int:
         if proc.returncode != 0:
             sys.stderr.write(proc.stderr)
             return proc.returncode
+        tally = _suite_tally(proc.stdout)
+        if tally is None:
+            print(f'UNMEASURED no tally line in {suite.name}')
+            return 2
+        p, t = tally
+        passed += p
+        total += t
+        print(f'"{suite.name}": {p}/{t}')
+    print(f'"session-plugin suite total": {passed}/{total}')
     return 0
 
 

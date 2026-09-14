@@ -2,6 +2,7 @@
 // the single authority, not a second writer.
 
 import type { Config } from "./config.ts";
+import { esc } from "./esc.ts";
 import { refuse, scrub, SessionPluginRefusal } from "./refusals.ts";
 
 export const RECENTS_PATH = "/api/v1/recents";
@@ -129,7 +130,7 @@ export async function openSession(
     id: body.id ?? id,
     opencode_id: body.opencode_id ?? null,
     title: body.title ?? null,
-    text: String(body.text || ""),
+    text: esc(body.text || ""),
     openwork: body.openwork ?? null,
   };
 }
