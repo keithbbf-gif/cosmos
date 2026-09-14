@@ -9,8 +9,8 @@ tags:
   - figures
   - bouillaud
 meta_description: "Jean-Baptiste Bouillaud (1796–1881) bet the frontal lobes for speech decades before Leborgne died. The bet was too clean and still changed the room."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/jean-baptiste-bouillaud.jpg
+portrait_status: downloaded
 figure_dates: "1796–1881"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: jean-baptiste-bouillaud.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/jean-baptiste-bouillaud.jpg"
+    alt="Portrait photograph of Jean-Baptiste Bouillaud, nineteenth-century French physician."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jean-Baptiste Bouillaud</strong> (1796–1881), Paris clinician who argued for frontal speech centers before Broca’s 1861 case.
+    <span class="figure-credit">BIU Santé (CIPN21514) / Wikimedia Commons. Licence Ouverte 2.0.</span>
+  </figcaption>
+</figure>
 
 Jean-Baptiste Bouillaud was born in 1796 and died in 1881. He was a Paris physician of the generation that took Gall’s cortex seriously and wanted hospital proof. In the 1820s he argued that the frontal lobes were necessary for articulated speech. He collected cases of loss of speech with frontal disease and cases of frontal disease with loss of speech, which is not the same collection, though it is easy to print them as if they were.
 
@@ -38,7 +53,7 @@ He was not a therapist. He did not sit an hour with a naming card. He sat on com
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons / BIU Santé *Bouillaud, Jean-Baptiste (1796-1881) CIPN21514.jpg*. Licence Ouverte. Credit BIU Santé, Paris. Do not invent or generate a substitute likeness.
+Lead plate: `assets/portraits/jean-baptiste-bouillaud.jpg`. Rights: `assets/portraits/jean-baptiste-bouillaud.RIGHTS.md`.
 
 
 ## The consultant’s other organs

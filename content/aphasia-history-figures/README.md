@@ -2,18 +2,21 @@
 
 Magazine series for a later import to **SLPWOW.com**. This folder is the pack. It is not a live-site edit, not COSMOS core, and not a merge with the general speech-pathology history pack.
 
-**Start here:** [`INDEX.md`](INDEX.md) (calendar + roster). Voice: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Claims: [`CLAIMS_GUARDRAILS.md`](CLAIMS_GUARDRAILS.md). Portraits: [`PORTRAIT_SOURCES.md`](PORTRAIT_SOURCES.md) (notes only). WordPress: [`WP_IMPORT.md`](WP_IMPORT.md).
+**Start here:** [`INDEX.md`](INDEX.md) (calendar + roster). Voice: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Claims: [`CLAIMS_GUARDRAILS.md`](CLAIMS_GUARDRAILS.md). Portraits: [`PORTRAIT_SOURCES.md`](PORTRAIT_SOURCES.md). WordPress: [`WP_IMPORT.md`](WP_IMPORT.md).
 
-Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). No image files ship in this pack.
+Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). Cleared lead portraits live under `assets/portraits/` with a sibling `*.RIGHTS.md` per plate.
 
 ## Layout
 
 | Path | Purpose |
 |------|---------|
 | `articles/` | 16 era essays + 29 profiles |
+| `assets/portraits/` | Cleared portrait rasters + `*.RIGHTS.md` |
+| `embeds/portrait-figure-block.md` | HTML `<figure>` template for SEO captions |
 | `INDEX.md` | Editorial calendar and figure roster |
 | `STYLE_GUIDE.md` | Voice, length, front matter |
-| `PORTRAIT_SOURCES.md` | Public-domain hunt log — **notes only** |
+| `PORTRAIT_SOURCES.md` | Public-domain hunt log and clearance ledger |
+| `verify_portraits.py` | RIGHTS + ledger QA |
 | `PHOTO_NOTES.md` | Art direction for a later graphics pass |
 | `BIBLIOGRAPHY.md` | Sources used |
 | `WP_IMPORT.md` | Draft → WordPress map |
@@ -21,7 +24,7 @@ Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). No 
 
 ## Portrait policy
 
-Never generate or embed synthetic historical faces. This pack records **public-domain and open-license portrait notes** only. Do not download likenesses into this folder until a later rights-cleared graphics pass. Until then, profiles carry a caption-ready credit line and, when no PD file is known, the placeholder block in `STYLE_GUIDE.md`.
+Never generate or embed synthetic historical faces. Use files in `assets/portraits/` only when listed as cleared in `PORTRAIT_SOURCES.md`. Each raster carries `assets/portraits/<id>.RIGHTS.md`. Until cleared, profiles use the placeholder block in `STYLE_GUIDE.md`.
 
 ## Sibling pack
 

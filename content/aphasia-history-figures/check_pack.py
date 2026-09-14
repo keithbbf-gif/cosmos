@@ -109,10 +109,26 @@ def main() -> int:
             errors.append(f"{path.name}: bad series {fm.get('series')!r}")
         if fm.get("audience") != "slpwow":
             errors.append(f"{path.name}: audience must be slpwow")
-        if fm.get("portrait") not in {"null", ""}:
-            errors.append(f"{path.name}: this pack is notes-only; portrait must be null")
-        if fm.get("type") == "profile" and fm.get("portrait_status") not in {"note"}:
-            errors.append(f"{path.name}: profile portrait_status must be note")
+        pstatus = fm.get("portrait_status", "")
+        portrait = fm.get("portrait", "")
+        if fm.get("type") == "profile" and pstatus not in {
+            "note",
+            "downloaded",
+            "placeholder",
+        }:
+            errors.append(f"{path.name}: bad portrait_status {pstatus!r}")
+        if pstatus == "downloaded":
+            if not portrait or portrait in {"null", ""}:
+                errors.append(f"{path.name}: downloaded profile missing portrait path")
+            elif not portrait.startswith("assets/portraits/"):
+                errors.append(f"{path.name}: portrait path must be under assets/portraits/")
+            elif "<figure" not in text:
+                errors.append(f"{path.name}: downloaded profile missing <figure> block")
+            rights = ROOT / Path(portrait).with_suffix(".RIGHTS.md")
+            if not rights.is_file():
+                errors.append(f"{path.name}: missing {rights.relative_to(ROOT)}")
+        elif pstatus == "note" and portrait not in {"null", ""}:
+            errors.append(f"{path.name}: note profile must keep portrait: null")
         if fm.get("type") == "era" and fm.get("portrait_status") not in {"essay-only"}:
             errors.append(f"{path.name}: era portrait_status must be essay-only")
         if fm.get("type") == "profile" and "figure_dates" not in fm:
@@ -147,10 +163,11 @@ def main() -> int:
     if len(orders) != len(set(orders)):
         errors.append("duplicate order fields")
 
-    # no image binaries in pack
-    for img in ROOT.rglob("*"):
-        if img.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
-            errors.append(f"image file not allowed in this notes-only pack: {img.relative_to(ROOT)}")
+    for img in (ROOT / "assets" / "portraits").glob("*.jpg"):
+        rel = img.relative_to(ROOT).as_posix()
+        rights = img.with_suffix(".RIGHTS.md")
+        if not rights.is_file():
+            errors.append(f"missing RIGHTS.md for {rel}")
 
     ops = [
         "INDEX.md",

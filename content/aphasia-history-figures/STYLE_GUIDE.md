@@ -49,8 +49,8 @@ order: 1
 tags:
   - aphasia-history
 meta_description: One or two sentences for a later WP excerpt. No hype.
-portrait: null
-portrait_status: note | essay-only
+portrait: null | assets/portraits/<id>.jpg
+portrait_status: note | downloaded | placeholder
 figure_dates: "1824–1880"   # profiles only
 voice_check: human
 audience: slpwow
@@ -61,7 +61,7 @@ last_verified: 2026-09-14
 
 `voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
-`portrait: null` is mandatory in this pack. Portrait **notes** live in `PORTRAIT_SOURCES.md` and in a short “Portrait” section at the end of each profile.
+`portrait: null` with `portrait_status: note` until a file clears. Cleared profiles set `portrait_status: downloaded`, point `portrait` at the raster, embed the HTML `<figure>` block from `embeds/portrait-figure-block.md`, and log the plate in `PORTRAIT_SOURCES.md` + `*.RIGHTS.md`.
 
 ## Educational note (required, near the top)
 

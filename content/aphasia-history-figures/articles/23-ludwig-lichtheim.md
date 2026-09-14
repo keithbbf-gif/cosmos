@@ -9,8 +9,8 @@ tags:
   - figures
   - lichtheim
 meta_description: "Ludwig Lichtheim (1845–1928) drew the 1885 house in Brain: a teaching object that predicted types and invited forty years of refusal."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/ludwig-lichtheim.jpg
+portrait_status: downloaded
 figure_dates: "1845–1928"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: ludwig-lichtheim.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/ludwig-lichtheim.jpg"
+    alt="Portrait photograph of Ludwig Lichtheim, early twentieth century."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Ludwig Lichtheim</strong> (1845–1928), Breslau internist whose 1885 “house diagram” modeled aphasia connections still cited in neurology lectures.
+    <span class="figure-credit">Published J. F. Lehmann, Munich, 1925. NLM IHM / Wikimedia Commons. Public domain in the U.S.</span>
+  </figcaption>
+</figure>
 
 Ludwig Lichtheim was born in 1845 and died in 1928. He is the man whose name is glued to Wernicke’s with a hyphen on lecture slides, usually next to a stick-figure house. The English paper is “On Aphasia,” *Brain* 7 (1885): 433–484. The drawing is a set of centers and connections that should, if you believe in them, generate motor, sensory, conduction, and transcortical pictures when particular lines break.
 
@@ -38,7 +53,7 @@ A later graphics pass may redraw the 1885 plate. Credit *Brain*. Do not put a st
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons *Ludwig_Lichtheim.jpg*, published by J. F. Lehmann, Munich, 1925, NLM IHM. Public domain in the United States as a 1925 publication. Credit the 1925 plate. Do not invent or generate a substitute likeness.
+Lead plate: `assets/portraits/ludwig-lichtheim.jpg`. Rights: `assets/portraits/ludwig-lichtheim.RIGHTS.md`.
 
 
 ## Internist, not artist

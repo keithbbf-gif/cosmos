@@ -9,8 +9,8 @@ tags:
   - figures
   - wernicke
 meta_description: "Carl Wernicke (1848–1905) wrote Der aphasische Symptomencomplex at twenty-six, gave medicine a second failure, and died after a bicycle accident."
-portrait: null
-portrait_status: note
+portrait: assets/portraits/carl-wernicke.jpg
+portrait_status: downloaded
 figure_dates: "1848–1905"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<!-- figure-id: carl-wernicke.lead-portrait -->
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../assets/portraits/carl-wernicke.jpg"
+    alt="Portrait photograph of Carl Wernicke, late nineteenth century."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Carl Wernicke</strong> (1848–1905), Breslau neurologist who mapped receptive language loss to the left temporal region in 1874.
+    <span class="figure-credit">Published by J. F. Lehmann; NLM Images from the History of Medicine / Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
 
 Carl Wernicke was born in 1848 in Tarnowitz, in Upper Silesia, and died in 1905 in the Thuringian forest after a bicycle accident — a death so un-syndromic that students who only know the temporal lobe still blink. He was twenty-six when *Der aphasische Symptomencomplex: Eine psychologische Studie auf anatomischer Basis* appeared in Breslau (Cohn & Weigert, 1874). The pamphlet gave medicine a fluent failure, a superior temporal seat, and a connecting tract whose break would be called conduction aphasia.
 
@@ -38,7 +53,7 @@ Geschwind’s 1965 papers are, in one mood, a long American footnote to this pam
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons *C._Wernicke.jpg*, photographer unknown, published by J. F. Lehmann, NLM Images from the History of Medicine. Public domain. Credit the publisher plate. Do not invent or generate a substitute likeness.
+Lead plate: `assets/portraits/carl-wernicke.jpg`. Rights: `assets/portraits/carl-wernicke.RIGHTS.md`.
 
 
 ## Lawful fluency
