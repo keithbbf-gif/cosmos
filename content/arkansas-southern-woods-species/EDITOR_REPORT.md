@@ -2,7 +2,7 @@
 
 **Editor pass:** 2026-09-14  
 **Writer PR:** https://github.com/keithbbf-gif/cosmos/pull/364 (`cursor/arkansas-southern-woods-species-a01a`)  
-**Editor branch:** `cursor/arkansas-southern-woods-editor-5943` (stacked on writer branch)  
+**Editor branch:** `cursor/arkansas-southern-woods-editor-50c1` (stacked on writer PR #364)  
 **Scope:** `content/arkansas-southern-woods-species/[01-46]-*.md` (46 essays + `README.md` inventory)
 
 ## Summary
