@@ -3,7 +3,7 @@ title: Empire pillar and claw
 slug: empire-pillar-and-claw
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 16
 word_target: 1400-2200
 era: "1815–1845"

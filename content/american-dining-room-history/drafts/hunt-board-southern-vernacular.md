@@ -3,7 +3,7 @@ title: Hunt boards and Southern vernacular
 slug: hunt-board-southern-vernacular
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 19
 word_target: 1400-2200
 era: "1780–1840"
@@ -22,7 +22,7 @@ seo_intent: informational
 
 The word is late. University of Delaware’s Material Matters essay (2017) puts “hunt board” in dealer and collector language from the 1920s on, not in colonial bills. Period names were server, sideboard table, slab table, sideboard. The tall, often six-legged walnut or cherry serving piece of the Southern Piedmont — bottle drawers at the ends, a shallow center, legs that go on a little too long — is real. The story that horsemen ate off it without dismounting is a 1932 *Magazine Antiques* romance, Mr. Thomas of Athens, Georgia, quoted by Mary Ralls Dockstader, and a collector’s need for moonlight.
 
-This page keeps the furniture and drops the horse. BBF’s furniture-history pillar asked for Southern vernacular. This is that cluster: serving height, local hardwoods, yellow-pine secondaries, a dining culture that is not always a Charleston marble room.
+This page keeps the furniture and drops the horse. The cluster is serving height, local hardwoods, yellow-pine secondaries, a dining culture that is not always a Charleston marble room.
 
 ## What the object is
 
@@ -56,7 +56,7 @@ Yellow pine on the underside is the Southern passport the Charleston essay alrea
 
 Once the name “hunt board” sticks, reproductions get taller, longer, and more “masculine.” Distressed stain appears. Horses enter the copy. The 2017 Delaware essay is the corrective. If a dealer’s tag leads with the fox hunt and not with woods and construction, you are buying a story. The furniture can still be old. The story is not.
 
-Burroughs, writing in 1931 for collectors, already wanted a Southern category distinct from Newport and Philadelphia. That appetite is understandable. It is also how a useful serving table acquired a moonlight caption. Lynch’s drawing is how the type entered the late-twentieth-century shop. Bradley Brand’s world knows this drawing whether or not anyone builds it. A contemporary Southern server can be honest without the hunt.
+Burroughs, writing in 1931 for collectors, already wanted a Southern category distinct from Newport and Philadelphia. That appetite is understandable. It is also how a useful serving table acquired a moonlight caption. Lynch’s drawing is how the type entered the late-twentieth-century shop. A contemporary Southern server can be honest without the hunt.
 
 Sugar chests, biscuit tables, and hunt boards get lumped in “Southern decorative arts” as if they were one meal. They are not. A sugar chest is storage for a commodity. A biscuit table is a contested small form. This slug owns the tall server. Keep the others in a clause.
 

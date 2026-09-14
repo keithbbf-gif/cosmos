@@ -1,14 +1,14 @@
 ---
 title: Manifest — American Dining Room Furniture, 1700–Now
 status: draft
-voice_check: human
+voice_check: edited
 series: american-dining-room-history
 ---
 
 # Manifest
 
 Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, excluding the Sources section and See also.
-Band: 1,400–2,200. All items `status: draft`, `voice_check: human`.
+Band: 1,400–2,200. All items `status: draft`, `voice_check: edited`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
 Counted: 44 drafts. Total body words: 70,157.
@@ -69,6 +69,7 @@ Counted: 44 drafts. Total body words: 70,157.
 - `STAGING_README.md`
 - `writer-slugs.json` — 44 canonical slugs
 - `MANIFEST.md` — this file
+- `EDITOR_REPORT.md` — magazine editor pass (PR editor branch)
 
 ## QA notes
 

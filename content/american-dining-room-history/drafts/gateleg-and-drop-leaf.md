@@ -3,7 +3,7 @@ title: Gateleg and drop-leaf
 slug: gateleg-and-drop-leaf
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_target: 1400-2200
 era: "1680–1780"

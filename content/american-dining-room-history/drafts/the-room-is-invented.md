@@ -3,7 +3,7 @@ title: The dining room is invented
 slug: the-room-is-invented
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 1400-2200
 era: "1700–1855"
@@ -42,7 +42,7 @@ The Met’s own label on the Baltimore Room is careful about class. Beginning in
 
 ## The table that waits
 
-Once the room has a name, the table changes jobs. A hall gateleg is a transformer. A dining-room table is a resident. D-ends, pedestals, and later extension slides assume a floor that belongs to them. The sideboard assumes a wall. Chairs assume a count: six, eight, twelve — a suite, not a mixed pile from three rooms.
+Once the room has a name, the table changes jobs. A hall gateleg converts for dinner and folds away. A dining-room table is a resident. D-ends, pedestals, and later extension slides assume a floor that belongs to them. The sideboard assumes a wall. Chairs assume a count: six, eight, twelve — a suite, not a mixed pile from three rooms.
 
 That residency is also a labor claim. Someone polishes the sideboard when no guests are coming. Someone keeps the leaves in a closet or a pantry. Someone carries from the kitchen, which in a townhouse is often down a stair and through a passage that was never designed for a parade of hot plates. Enslaved workers in Southern and, until the 1820s, some Northern houses did that carrying. Free Black and white servants did it in others. The room’s specialization is their specialization. A history of the dining room that names Hepplewhite and not the person who set the cloth is half a room.
 

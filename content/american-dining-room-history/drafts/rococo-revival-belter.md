@@ -3,7 +3,7 @@ title: Rococo Revival, Belter, Meeks
 slug: rococo-revival-belter
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 22
 word_target: 1400-2200
 era: "1840–1865"

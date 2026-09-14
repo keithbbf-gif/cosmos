@@ -3,7 +3,7 @@ title: Country and Early American revival
 slug: country-early-american-revival
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 37
 word_target: 1400-2200
 era: "1965–1995"
@@ -17,7 +17,7 @@ seo_intent: informational
 
 # Country and Early American revival
 
-The 1970s dining room that was not Mediterranean pecan was often “Early American”: maple or pine, turned legs, a hutch with pewter-looking plates, Windsor or captain’s chairs, a dry-sink in the corner, a wagon-wheel or hurricane fixture. It is Colonial Revival after television. *The Waltons* and a hundred furniture ads taught a dining room that was neither 1720 nor Nutting’s sepia. It was honey maple, plasticized, and available on credit.
+A maple hutch with faux-pewter plate rails and a harvest-gold wall behind it is a 1974 dining room that was not Mediterranean pecan. Turned legs, captain’s chairs, a dry-sink in the corner, a wagon-wheel or hurricane fixture: Early American on credit, neither 1720 nor Nutting’s sepia. It is Colonial Revival after television. *The Waltons* and a hundred furniture ads taught a dining room that was honey maple, plasticized, and available on credit.
 
 This is a second Revival, not a continuation of 1925. The first Revival still knew antiques. The second Revival is a factory finish that does not want to be oiled. Ethan Allen is the name people remember. Other companies sold the same chair. The dry-sink was not a dining form in 1740. It became one on a 1974 showroom floor.
 

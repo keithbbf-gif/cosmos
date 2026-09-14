@@ -3,7 +3,7 @@ title: Open plan and the lost dining room
 slug: open-plan-lost-dining-room
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_target: 1400-2200
 era: "1990–now"

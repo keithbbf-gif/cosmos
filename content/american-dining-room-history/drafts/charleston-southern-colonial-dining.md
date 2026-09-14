@@ -3,7 +3,7 @@ title: Charleston and the Southern dining parlor
 slug: charleston-southern-colonial-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 9
 word_target: 1400-2200
 era: "1730–1790"
@@ -83,7 +83,7 @@ Federal Charleston will take the sideboard and the D-end with the rest of the co
 
 If you stand in front of 3163, do not only admire the marble. Look at the height. Imagine a person there who cannot sit. Then look at the dining table in the same room, if the museum has set one, and ask which object the guests thought was the furniture. Both were. Only one is usually photographed.
 
-Bradley Brand’s later Southern hardwood tables are a different shop and a free labor. The wood — oak, walnut, pecan — can still be a Southern sentence. The slab’s implication does not transfer. Do not borrow the marble’s glamour without the caption.
+A later Southern hardwood table in oak, walnut, or pecan is a different shop and a free labor. The wood can still be a Southern sentence. The slab’s implication does not transfer. Do not borrow the marble’s glamour without the caption.
 
 ## Sources
 

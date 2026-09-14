@@ -3,7 +3,7 @@ title: Baltimore painted dining
 slug: baltimore-painted-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 14
 word_target: 1400-2200
 era: "1790–1825"

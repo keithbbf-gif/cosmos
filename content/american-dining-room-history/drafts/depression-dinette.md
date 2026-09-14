@@ -3,7 +3,7 @@ title: Depression dinettes
 slug: depression-dinette
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 33
 word_target: 1400-2200
 era: "1925–1955"
@@ -18,7 +18,7 @@ seo_intent: informational
 
 # Depression dinettes
 
-The dinette is a dining room that has admitted it lost the room. A table for four, often with a porcelain-enamel or linoleum top, chromium or painted-wood legs, chairs with tubular frames or thin painted wood, sometimes a matching cabinet. It lives in an alcove, a kitchen, or the end of a living room. Catalogs of the 1930s and 1940s sell it without shame. The Grand Rapids oak suite is still in the farmhouse. The city apartment buys this.
+A porcelain-enamel top on a chromium-legged dinette — circle or rectangle, four tubular chairs, a leaf that hides under the slab — is a dining room that has admitted it lost the room. It lives in an alcove, a kitchen, or the end of a living room. Montgomery Ward and Sears catalogs of the 1930s and 1940s sold it without shame. The Grand Rapids oak suite is still in the farmhouse. The city apartment buys this.
 
 Chromium-plated steel — the “chrome dinette” of popular memory — is the loud type. Enameled steel tops wipe. The chairs stack or at least shove. Draw leaves hide under the top. This is Federal ingenuity without mahogany: the table still grows, but it grows from thirty-six inches to forty-eight, not from six to fourteen.
 

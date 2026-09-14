@@ -3,7 +3,7 @@ title: Newport, Goddard, Townsend
 slug: newport-goddard-townsend-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_target: 1400-2200
 era: "1740–1790"

@@ -3,7 +3,7 @@ title: Phyfe’s New York dining
 slug: phyfe-new-york-dining
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 era: "1795–1847"

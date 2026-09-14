@@ -3,7 +3,7 @@ title: Farmhouse and industrial tables
 slug: farmhouse-industrial-2010s
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 40
 word_target: 1400-2200
 era: "2005–2020"

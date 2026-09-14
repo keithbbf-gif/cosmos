@@ -1,7 +1,7 @@
 ---
 title: Style Guide — American Dining Room Furniture, 1700–Now
 status: draft
-voice_check: human
+voice_check: edited
 series: american-dining-room-history
 ---
 
@@ -20,6 +20,8 @@ First person is allowed when it is a shop or room observation. It is not a diary
 ## Banned phrasing
 
 Do not use: delve, landscape (metaphorical), robust, leverage, unlock, cutting-edge, game-changer, “In today’s,” “It’s important to note,” Moreover, “Whether you’re,” “In conclusion,” “At the end of the day,” “rich tapestry,” “journey,” “elevate,” “empower,” “seamless,” “holistic,” “unpack,” “nuanced” as filler.
+
+After an editor pass, set `voice_check: edited` in frontmatter (read-aloud, grammar, magazine voice; no sell copy).
 
 Do not open with a dictionary definition. Do not close with a recap list of “key takeaways.” If a list is a working table (dates, patents, museum objects), keep it. Decorative bullet stacks are out.
 
@@ -57,7 +59,7 @@ title: "Plain title, no colon-stack if you can help it"
 slug: kebab-case
 series: american-dining-room-history
 status: draft
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 era: "1790–1820"
