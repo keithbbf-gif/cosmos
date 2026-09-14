@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>cDeck</title>
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="deck_more.css" />
+  <link rel="manifest" href="cdeck.webmanifest" />
+</head>
+<body>
+  <div id="cdeck-shell">
+    <div id="cdeck-viewport">
+      <div id="cdeck-mesh-fold">MESH COMMAND</div>
+      <div id="cdeck-more" class="deck-more-fold">
+        <div class="extra-pane-shell">
+          <nav class="deck-tabs-rail" id="deck-tab-rail" aria-label="Extra panes"></nav>
+          <div class="deck-tab-shell">
+            <div class="deck-stage" id="deck-stage">
+              <div id="panel-gitur" data-tab="gitur"></div>
+              <div id="panel-forge" data-tab="forge"></div>
+              <div id="panel-studio" data-tab="studio"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="header.js"></script>
+  <script src="deck_gitur.js"></script>
+  <script src="deck_tabs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
