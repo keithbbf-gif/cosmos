@@ -21,6 +21,7 @@ Staged Markdown in this folder is the source. WordPress is a projection.
 | `kind` | Custom field `kind` (`essay` / `profile`) |
 | `era` | Custom field `era` |
 | `voice_check` | Custom field; discard from rendered HTML |
+| `graphics_slug` | Custom field; #247 / `GRAPHICS_INDEX.md` folder name when present |
 | `portrait` | Featured image attachment, path relative to this folder |
 | `portrait_status` | Custom field; if `placeholder`, do not set a “photograph” schema type |
 

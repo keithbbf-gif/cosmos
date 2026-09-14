@@ -50,6 +50,7 @@ Every article uses YAML:
 voice_check: human
 title: "Short magazine title"
 slug: kebab-case-id
+graphics_slug: kebab-case-id   # optional; #247 folder / embed-pack name when mapped
 kind: essay          # or profile
 era: 1956            # or a span, e.g. 1986–1995
 tags: [tag-one, tag-two]
@@ -58,7 +59,8 @@ portrait_status: sourced              # sourced | placeholder | none
 ---
 ```
 
-- `slug` is stable. Do not recycle slugs.
+- `slug` is stable. Do not recycle slugs. It is the COPY identifier.
+- `graphics_slug` is the companion graphics identifier from `GRAPHICS_INDEX.md` (PR #247 names). It may differ from `slug` (e.g. `the-symbolic-bet` → `symbolic-ai-era`). Omit it until a figure exists.
 - `portrait` is a repo-relative path from this folder, or `null`.
 - Profiles of documented pairs may list one shared image or two paths in the body.
 
@@ -73,6 +75,18 @@ Immediately after the lede (or after the first section break), embed:
 ```
 
 If rights are unclear, or if a file is a commemorative graphic rather than a period likeness, use the labeled SVG placeholder and the sentence: “No redistributable likeness is included; this panel is not a photograph.” Never generate a fake historical face. A companion graphics layout should reuse these paths, not invent new ones.
+
+## Schematics (graphics pack)
+
+Era maps, lab sketches, and winter/summer bands live under `assets/` and are indexed in `GRAPHICS_INDEX.md`. After a portrait credit (or after the lede if there is no portrait), embed:
+
+```markdown
+![Caption sentence ending with a period.](../assets/shared/era-timeline-pre1956-2026.svg)
+
+*Figure N. Caption — Long Term History of AI (Retrospective).*
+```
+
+Prefer a shared figure (G-ERA-001, G-WIN-001, G-PAR-001) over a new diagram. Do not paste the same era map into every later essay; the series overview already carries the trio. Portrait plates (`assets/figure-*/portrait-plate.svg`) frame a cleared raster from `PORTRAIT_SOURCES.md`. Until a plate is cleared it must say “rights not cleared” and must not embed a face.
 
 ## Length and shape
 

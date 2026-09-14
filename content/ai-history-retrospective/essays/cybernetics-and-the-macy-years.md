@@ -2,6 +2,7 @@
 voice_check: human
 title: "Feedback, purpose, and the Macy years"
 slug: cybernetics-and-the-macy-years
+graphics_slug: pre-1956-origins
 kind: essay
 era: 1943–1960
 tags: [cybernetics, wiener, macy, feedback, pitts]
@@ -14,6 +15,10 @@ In 1943, Arturo Rosenblueth, Norbert Wiener, and Julian Bigelow published “Beh
 ![Norbert Wiener, photograph from the Oberwolfach collection.](../assets/portraits/norbert-wiener.jpg)
 
 *Credit: Konrad Jacobs / Mathematisches Forschungsinstitut Oberwolfach. CC BY-SA 2.0 DE. File:Norbert wiener.jpg.*
+
+![Diagram of early cybernetics and computation meeting places and schools.](../assets/pre-1956-origins/labs-schools.svg)
+
+*Figure 1. Early schools and meeting places — the Macy years sit on this sketch — Long Term History of AI (Retrospective).*
 
 Wiener’s *Cybernetics* arrived in 1948 with a subtitle that still does the work: *Control and Communication in the Animal and the Machine*. The book mixed Fourier integrals, prosthetic limbs, and a warning that information systems would rearrange societies. It sold. It also irritated specialists who wanted their Fourier without the anthropology.
 

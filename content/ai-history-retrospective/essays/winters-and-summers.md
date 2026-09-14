@@ -2,6 +2,7 @@
 voice_check: human
 title: "Two kinds of weather: funding, fashion, and the word “winter”"
 slug: winters-and-summers
+graphics_slug: first-ai-winter
 kind: essay
 era: 1966–1993
 tags: [winter, alpac, lighthill, darpa, expert-systems]
@@ -10,6 +11,10 @@ portrait_status: none
 ---
 
 “AI winter” is not a meteorological observation. It is a phrase that laboratories and magazines used, after the fact, to name a cut in money and a collapse of a sales pitch. There were at least two such cuts in the English-speaking public record, and they were not the same storm.
+
+![Archival schematic of AI funding and attention with labeled winter valleys and recent summer.](../assets/shared/ai-winter-summer-schematic.svg)
+
+*Figure 1. AI winters and summers — qualitative schematic (G-WIN-001), not to scale — Long Term History of AI (Retrospective).*
 
 ## 1966–1974: translation, perceptrons, Lighthill
 

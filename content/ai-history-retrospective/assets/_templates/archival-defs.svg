@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reference only: copy <defs> into production SVGs. Not validated as a figure. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">
+  <defs>
+    <pattern id="arch-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#c9c0b2" stroke-width="0.75"/>
+    </pattern>
+    <filter id="arch-grain" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.93 0 0 0 0 0.9 0 0 0 0 0.85 0 0 0 0.05 0"/>
+      <feBlend in="SourceGraphic" in2="n" mode="multiply"/>
+    </filter>
+  </defs>
+</svg>

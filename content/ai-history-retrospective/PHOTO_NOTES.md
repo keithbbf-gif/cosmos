@@ -58,6 +58,10 @@ Body captions name the person, the occasion or year if known, and the license in
 *Credit: Eviatar Bach. CC BY-SA 3.0. Wikimedia Commons: File:Geoffrey Hinton at UBC.jpg.*
 ```
 
+## Magazine plates (graphics pack)
+
+`assets/figure-alan-turing/portrait-plate.svg`, `figure-john-mccarthy`, and `figure-marvin-minsky` frame the same rasters already in this folder. They are not a second likeness. Profiles keep the STYLE_GUIDE raster + credit line; the plate is the #247 frame of that file.
+
 ## Later replacements
 
 If a better PD or CC file appears (a documented McCulloch studio portrait; a Fukushima lecture still with a conference CC release), replace the placeholder, update `PORTRAIT_SOURCES.md`, and change `portrait_status` in the article front matter. Do not replace a licensed historical photograph with a generated image.

@@ -2,6 +2,7 @@
 voice_check: human
 title: "Hanover, 1956: a summer that named a bet"
 slug: dartmouth-1956
+graphics_slug: dartmouth-1956
 kind: essay
 era: 1955–1956
 tags: [dartmouth, mccarthy, minsky, shannon, rochester]
@@ -16,6 +17,10 @@ That sentence is the founding advertisement. It is also a research program that 
 ![John McCarthy at Stanford, 2006.](../assets/portraits/john-mccarthy.jpg)
 
 *Credit: Flickr user “null0.” CC BY-SA 2.0. File:John McCarthy Stanford.jpg.*
+
+![Timeline band for the 1956 Dartmouth summer research project.](../assets/dartmouth-1956/timeline.svg)
+
+*Figure 1. The Dartmouth summer project and the naming of artificial intelligence — Long Term History of AI (Retrospective).*
 
 ## Who came, and for how long
 

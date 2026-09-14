@@ -54,4 +54,4 @@ Public-record checks against the staged articles. This is an editor’s sheet, n
 
 ## Companion graphics
 
-If a visual series (layout, portraits, timelines) is edited in parallel, it should consume the same slugs, the same `portrait:` paths, and this log — not a second set of faces.
+PR #247 shipped SVG folders under different slugs than COPY. This tree now carries `graphics_slug` on the mapped articles (`GRAPHICS_INDEX.md`). Turing, McCarthy, and Minsky plates embed the rasters already listed in `PORTRAIT_SOURCES.md`. The AAAI 25th-anniversary “1958 chess” graphic stays retired. Do not invent a second set of faces.

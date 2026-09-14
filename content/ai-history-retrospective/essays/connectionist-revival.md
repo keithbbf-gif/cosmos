@@ -2,6 +2,7 @@
 voice_check: human
 title: "1986: errors go backward, and the PDP volumes land"
 slug: connectionist-revival
+graphics_slug: connectionist-revival
 kind: essay
 era: 1982–1995
 tags: [backprop, pdp, hopfield, rumelhart, hinton]
@@ -14,6 +15,10 @@ On 9 October 1986, *Nature* published a three-page letter: David Rumelhart, Geof
 ![David Rumelhart at IJCNN, Seattle, 8 July 1991.](../assets/portraits/david-rumelhart.jpg)
 
 *Credit: Rolf Kickuth. CC BY-SA 4.0. File:DavidRumelhart-IJCNNseattle1991-07-08.jpg.*
+
+![Four-column comparison of symbolic, connectionist, statistical, and foundation-model paradigms.](../assets/shared/paradigm-comparison.svg)
+
+*Figure 1. Dominant paradigms — the 1980s return is the connectionist column (G-PAR-001) — Long Term History of AI (Retrospective).*
 
 ## Hopfield’s 1982 paper
 

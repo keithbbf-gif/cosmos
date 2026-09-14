@@ -2,6 +2,7 @@
 voice_check: human
 title: "Alan Turing at the edge of the solvable"
 slug: alan-turing
+graphics_slug: figure-alan-turing
 kind: profile
 era: 1912–1954
 tags: [turing, computability, bletchley, manchester]

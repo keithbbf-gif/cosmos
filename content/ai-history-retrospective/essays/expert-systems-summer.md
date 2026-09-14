@@ -2,6 +2,7 @@
 voice_check: human
 title: "Interview the specialist: knowledge as a product"
 slug: expert-systems-summer
+graphics_slug: expert-systems-1980s
 kind: essay
 era: 1965–1987
 tags: [expert-systems, dendral, mycin, xcon, feigenbaum]
@@ -14,6 +15,10 @@ Edward Feigenbaum liked to say that the interesting power was in the knowledge, 
 ![Edward A. Feigenbaum as U.S. Air Force Chief Scientist, 1994.](../assets/portraits/edward-feigenbaum.jpg)
 
 *Credit: United States Air Force. Public domain. File:27. Dr. Edward A. Feigenbaum 1994-1997.jpg.*
+
+![Master era timeline from cybernetics through foundation models, pre-1956 to 2026.](../assets/shared/era-timeline-pre1956-2026.svg)
+
+*Figure 1. Eras of artificial intelligence — the expert-system summer sits on this band (G-ERA-001) — Long Term History of AI (Retrospective).*
 
 ## DENDRAL and MYCIN
 

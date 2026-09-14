@@ -2,6 +2,7 @@
 voice_check: human
 title: "A database, a contest, and a 2012 drop in the error rate"
 slug: imagenet-moment
+graphics_slug: deep-learning-renaissance
 kind: essay
 era: 2009–2015
 tags: [imagenet, alexnet, fei-fei-li, hinton, convnets]

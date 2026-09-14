@@ -2,6 +2,7 @@
 voice_check: human
 title: "Marvin Minsky, builder and brake"
 slug: marvin-minsky
+graphics_slug: figure-marvin-minsky
 kind: profile
 era: 1927–2016
 tags: [minsky, mit, perceptrons, society-of-mind]

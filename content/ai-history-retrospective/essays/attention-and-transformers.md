@@ -2,6 +2,7 @@
 voice_check: human
 title: "Ashish Vaswani’s group, 2017: attention without the recurrent spine"
 slug: attention-and-transformers
+graphics_slug: transformers-and-foundation-models
 kind: essay
 era: 2014–2018
 tags: [transformer, attention, vaswani, seq2seq, google]

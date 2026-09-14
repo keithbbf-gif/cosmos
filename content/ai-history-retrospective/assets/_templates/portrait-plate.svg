@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait plate template</title>
+  <desc id="desc">Archival plate with no likeness until a licensed raster is registered in PORTRAIT_SOURCES.md.</desc>
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#c9c0b2" stroke-width="0.75"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="480" fill="#f3efe6"/>
+  <rect x="28" y="28" width="344" height="424" fill="none" stroke="#6b6358" stroke-width="0.9"/>
+  <rect x="34" y="34" width="332" height="412" fill="none" stroke="#2a241c" stroke-width="0.5"/>
+  <text x="200" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="0.2em" fill="#6b6358">PORTRAIT PLATE</text>
+  <rect x="48" y="68" width="304" height="304" fill="url(#hatch)" stroke="#2a241c" stroke-width="1.25"/>
+  <text x="200" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#5c5248">No likeness reproduced</text>
+  <text x="200" y="228" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#6b3a3a">Portrait: rights not cleared</text>
+  <line x1="48" y1="388" x2="352" y2="388" stroke="#6b6358" stroke-width="0.5"/>
+  <text x="200" y="416" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#2a241c">FULL NAME</text>
+  <text x="200" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#4a3728">YYYY - YYYY</text>
+  <text x="200" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#6b6358">Credit: pending | PORTRAIT_SOURCES.md</text>
+</svg>

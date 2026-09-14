@@ -2,6 +2,7 @@
 voice_check: human
 title: "Physical symbols, list structures, and the first programs"
 slug: the-symbolic-bet
+graphics_slug: symbolic-ai-era
 kind: essay
 era: 1956–1970
 tags: [symbolic-ai, lisp, gps, sail, mit]
@@ -14,6 +15,10 @@ Allen Newell and Herbert Simon stated their wager in public, more than once. A p
 ![Herbert A. Simon, painted likeness by Richard Rappaport, 1986.](../assets/portraits/herbert-simon.jpg)
 
 *Credit: Richard Rappaport. CC BY 3.0. File:Herbert simon tan d.jpg. A painting, not a photograph.*
+
+![Institutional lineage of symbolic AI labs at MIT, Stanford, and CMU.](../assets/symbolic-ai-era/labs-schools.svg)
+
+*Figure 1. Symbolic AI institutional lineage (1960s–1970s) — Long Term History of AI (Retrospective).*
 
 ## Logic Theorist, GPS, and a printer that embarrassed Russell
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+  <title id="t">AI winter and summer schematic</title>
+  <desc id="d">Qualitative attention and funding curve with labeled winter valleys and recent summer. Not to scale.</desc>
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.93 0 0 0 0 0.9 0 0 0 0 0.85 0 0 0 0.05 0"/>
+      <feBlend in="SourceGraphic" in2="n" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="720" height="300" fill="#f3efe6" filter="url(#grain)"/>
+  <rect x="36" y="32" width="648" height="236" fill="none" stroke="#6b6358" stroke-width="0.75"/>
+  <text x="360" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="0.03em" fill="#2a241c">ATTENTION AND FUNDING</text>
+  <text x="360" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#5c5248">schematic only</text>
+  <line x1="56" y1="228" x2="664" y2="228" stroke="#6b6358" stroke-width="0.8"/>
+  <line x1="56" y1="100" x2="56" y2="228" stroke="#6b6358" stroke-width="0.5"/>
+  <path d="M 56 195 Q 140 175 200 150 T 320 175 T 420 130 T 520 155 T 664 105" fill="none" stroke="#2a241c" stroke-width="2" stroke-linecap="round"/>
+  <rect x="248" y="96" width="96" height="132" fill="#c5bcb0" opacity="0.35" stroke="none"/>
+  <text x="296" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Winter I</text>
+  <text x="296" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#6b6358">mid-1970s</text>
+  <rect x="368" y="96" width="72" height="132" fill="#c5bcb0" opacity="0.28"/>
+  <text x="404" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Winter II</text>
+  <text x="404" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#6b6358">late 1980s</text>
+  <rect x="520" y="96" width="120" height="132" fill="#e6ddd0" opacity="0.55"/>
+  <text x="580" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#4a3728">Summer</text>
+  <text x="580" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#6b6358">deep learning, LLMs</text>
+  <text x="72" y="246" font-family="Georgia, serif" font-size="9" fill="#6b6358">1960</text>
+  <text x="360" y="246" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#6b6358">1990</text>
+  <text x="652" y="246" text-anchor="end" font-family="Georgia, serif" font-size="9" fill="#6b6358">2026</text>
+  <text x="360" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#8a8074">Long Term History of AI (Retrospective) | G-WIN-001</text>
+</svg>

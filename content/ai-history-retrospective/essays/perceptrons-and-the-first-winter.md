@@ -2,6 +2,7 @@
 voice_check: human
 title: "A machine that learned, and a book that cooled the room"
 slug: perceptrons-and-the-first-winter
+graphics_slug: first-ai-winter
 kind: essay
 era: 1957–1974
 tags: [perceptron, rosenblatt, minsky, papert, winter]
@@ -14,6 +15,10 @@ On 8 July 1958 the *New York Times* told readers that the Navy had a device whic
 ![Frank Rosenblatt, scan released via the Heinz Nixdorf MuseumsForum.](../assets/portraits/frank-rosenblatt.jpg)
 
 *Credit: Anonymous photographer; HNF museum release. CC BY-SA 4.0. File:Frank Rosenblatt.jpg.*
+
+![Archival schematic of AI funding and attention with labeled winter valleys and recent summer.](../assets/shared/ai-winter-summer-schematic.svg)
+
+*Figure 1. AI winters and summers — qualitative schematic (G-WIN-001), not to scale — Long Term History of AI (Retrospective).*
 
 ## Mark I
 

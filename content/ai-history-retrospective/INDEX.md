@@ -1,10 +1,12 @@
 # History of AI — Retrospective
 
-Staged magazine series: era essays and major-figure profiles, public historical record only, through about 2026. Read `STYLE_GUIDE.md` and `NOVELTY_GUARDRAILS.md` before editing. Portraits and licenses: `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`. Sources: `BIBLIOGRAPHY.md`. Verification notes: `FACT_CHECK.md`. WordPress: `WP_IMPORT.md`.
+Staged magazine series: era essays and major-figure profiles, public historical record only, through about 2026. Read `STYLE_GUIDE.md` and `NOVELTY_GUARDRAILS.md` before editing. Portraits and licenses: `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`. Sources: `BIBLIOGRAPHY.md`. Verification notes: `FACT_CHECK.md`. WordPress: `WP_IMPORT.md`. Graphics (PR #247 slugs and SVGs): `GRAPHICS_INDEX.md`, `GRAPHICS_PIPELINE.md`, `GRAPHICS_CHECKLIST.md`.
 
 YAML front matter, credit lines, and “real likeness or labeled placeholder” are the contract for any companion visual/graphics series. Do not invent faces to fill a layout.
 
-**55 articles** (22 essays, 33 profiles). Draft. Not a production import.
+**56 articles** (23 essays, 33 profiles). Draft. Not a production import.
+
+Start with [A long arc, not a victory lap](essays/00-series-overview.md) (`00-series-overview`) — the series map and the three shared figures.
 
 ## How to read
 
@@ -18,6 +20,7 @@ Internal links are repo-relative from this folder.
 
 | # | Title | Slug | Era |
 | --- | --- | --- | --- |
+| 0 | [A long arc, not a victory lap](essays/00-series-overview.md) | `00-series-overview` | 1800–2026 |
 | 1 | [Before the machines thought](essays/before-the-machines-thought.md) | `before-the-machines-thought` | 1800–1945 |
 | 2 | [Feedback, purpose, and the Macy years](essays/cybernetics-and-the-macy-years.md) | `cybernetics-and-the-macy-years` | 1943–1960 |
 | 3 | [Hanover, 1956: a summer that named a bet](essays/dartmouth-1956.md) | `dartmouth-1956` | 1955–1956 |
@@ -88,3 +91,6 @@ Internal links are repo-relative from this folder.
 - `FACT_CHECK.md` — date/title corrections from the quality pass
 - `NOVELTY_GUARDRAILS.md` — IP and invention bans
 - `WP_IMPORT.md` — later projection, not a ship date
+- `GRAPHICS_INDEX.md` — COPY slug → #247 graphics slug, shared figure IDs
+- `GRAPHICS_PIPELINE.md` — archival rules, embed contract, portrait clearance
+- `GRAPHICS_CHECKLIST.md` — what is drawn, what is deferred

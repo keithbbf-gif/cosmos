@@ -2,6 +2,7 @@
 voice_check: human
 title: "John McCarthy, who needed a noun"
 slug: john-mccarthy
+graphics_slug: figure-john-mccarthy
 kind: profile
 era: 1927–2011
 tags: [mccarthy, lisp, sail, dartmouth]

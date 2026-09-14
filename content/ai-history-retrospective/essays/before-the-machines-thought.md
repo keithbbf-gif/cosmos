@@ -2,6 +2,7 @@
 voice_check: human
 title: "Before the machines thought"
 slug: before-the-machines-thought
+graphics_slug: pre-1956-origins
 kind: essay
 era: 1800–1945
 tags: [prehistory, babbage, lovelace, logic, calculating-engines]
@@ -12,6 +13,14 @@ portrait_status: none
 In 1843, in a set of notes attached to a translation, Ada Lovelace wrote out a method for the unbuilt Analytical Engine to compute Bernoulli numbers. The engine existed as drawings and as Babbage’s quarrel with the British government. The note existed as print. That gap — a program for a machine that had not yet been paid for — is the first useful fact in this history.
 
 This series does not begin at Dartmouth in 1956. The summer in Hanover named a field and wrote a funding dialect. It did not invent the wish that a mechanism might carry an argument.
+
+![Timeline of key pre-Dartmouth milestones from Turing 1936 through early neural hardware.](../assets/pre-1956-origins/timeline.svg)
+
+*Figure 1. Landmarks before the 1956 Dartmouth workshop — Long Term History of AI (Retrospective).*
+
+![Diagram of early cybernetics and computation meeting places and schools.](../assets/pre-1956-origins/labs-schools.svg)
+
+*Figure 2. Early schools and meeting places — influence sketch — Long Term History of AI (Retrospective).*
 
 ## Engines that already knew a pattern
 

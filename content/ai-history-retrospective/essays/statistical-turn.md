@@ -2,6 +2,7 @@
 voice_check: human
 title: "The 1990s: margins, corpora, and a quieter intelligence"
 slug: statistical-turn
+graphics_slug: statistical-ml-1990s
 kind: essay
 era: 1988–2006
 tags: [svm, pearl, nlp, speech, bayesian]
