@@ -7,11 +7,16 @@ Magazine-grade editorial pack on *Ficus carica* cultivation, trade, and culture 
 | Path | Role |
 |------|------|
 | `ARTICLE_INDEX.md` | Canon slug list (50+), era tags, per-article figure targets |
+| `INDEX.md` | Writer reading order, mix codes, first-wave notes |
 | `GRAPHICS_INDEX.md` | Master register of every figure ID, file path, reuse scope |
 | `IMAGE_SOURCES.md` | License and attribution ledger (required for all raster imports) |
 | `GRAPHICS_PIPELINE.md` | How writers, illustrators, and reviewers add figures |
 | `GRAPHICS_CHECKLIST.md` | Per-article QA before moving out of `_staging` |
 | `STYLE_GUIDE.md` | Visual system (palette, type, caption format) |
+| `WRITER_STYLE_GUIDE.md` | Prose voice, citation rules, mix codes |
+| `BIBLIOGRAPHY.md` | Sources actually used or checked |
+| `PHOTO_NOTES.md` | Image classes, orchard slots, balance test |
+| `WP_IMPORT.md` | Draft-only WordPress handoff |
 | `assets/shared/svg/` | Reusable diagrams (maps, timelines, plates) |
 | `assets/images/<slug>/` | Article-specific rasters (museum/Wikimedia, cleared) |
 | `articles/_staging/<slug>/` | Draft articles (not publish-ready until checklist passes) |

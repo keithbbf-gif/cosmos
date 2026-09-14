@@ -30,6 +30,19 @@ Register every publishable figure here **before** embedding in articles. Columns
 | `roman-orchards.orchard` | `assets/shared/svg/schematic-ancient-orchard-irrigation.svg` | orchard schematic | slug: `roman-fig-orchards-and-trade` | ready |
 | `roman-orchards.timeline` | `assets/shared/svg/timeline-fig-cultivation-master.svg` | timeline | slug: `roman-fig-orchards-and-trade` | ready |
 
+
+| `syconium-botany.ehret-1771` | `assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg` | historical plate | slug: `syconium-botany-and-morphology` | ready |
+| `syconium-botany.eb1911` | `assets/images/syconium-botany-and-morphology/eb1911-ficus-carica.jpg` | historical plate | slug: `syconium-botany-and-morphology` | ready |
+| `pompeii.man-8625` | `assets/images/pompeii-gardens-fig-trees/herculaneum-man-8625.jpg` | museum photo | slug: `pompeii-gardens-fig-trees` | ready |
+| `pompeii.frutteto` | `assets/images/pompeii-gardens-fig-trees/casa-del-frutteto-fig.jpg` | fresco repro | slug: `pompeii-gardens-fig-trees` | ready |
+| `renaissance.bimbi` | `assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg` | painting | slug: `renaissance-still-life-figs` | ready |
+| `renaissance.holtzbecher` | `assets/images/renaissance-still-life-figs/holtzbecher-ficus-carica.jpg` | historical plate | slug: `renaissance-still-life-figs` | ready |
+| `california-mission.le-moyne` | `assets/images/california-mission-fig-spread/le-moyne-ficus-carica.jpg` | historical plate | slug: `california-mission-fig-spread` | ready |
+| `hebrew-bible.tissot-nathaniel` | `assets/images/figs-in-hebrew-bible/tissot-nathaniel-under-fig.jpg` | painting | slug: `figs-in-hebrew-bible` | ready |
+| `nt-parables.tissot-vinedresser` | `assets/images/new-testament-fig-parables/tissot-vine-dresser-fig.jpg` | painting | slug: `new-testament-fig-parables` | ready |
+| `greek-roman-medicine.wellcome` | `assets/images/figs-in-greek-roman-medicine/wellcome-v0044761.jpg` | historical plate | slug: `figs-in-greek-roman-medicine` | ready |
+| `islamic-medicine.kohler` | `assets/images/islamic-medical-traditions-fig/kohler-ficus-carica.jpg` | historical plate | slug: `islamic-medical-traditions-fig` | ready |
+
 ## Pending (writer / rights lane)
 
 | Figure ID | Planned path | Notes |
