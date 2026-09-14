@@ -4,7 +4,7 @@ slug: 43-a-shop-looking-at-a-highboy
 chapter: 43
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1760–present
 regions: Philadelphia, Boston, Bradley County, Arkansas
 word_target: 1800-2800
@@ -40,7 +40,7 @@ Southern walnut high chests in MESDA’s files are closer cousins to an Arkansas
 
 Carving hours. Kindel’s Winterthur copy named about a hundred hours on the Philadelphia High Chest. That number is the point of the reproduction: you are buying labor as display. A bedroom chest does not need it. A hall trophy might. Chapter 40’s completeness rule will try to sell a matching carved bed. Decline. The bed’s job is rails (chapter 39). The chest’s job is boxes. If the same hand carves both, you have a suite in the Grand Rapids sense, even in oak. Matching is merchandising. It can be handsome. It is not a joint.
 
-Flame finials, a central cartouche, rosettes, a carved skirt with a shell: I can admire them on 18.110.4 without cutting them. The shop time in Bradley County is a rail, a post, a case. The forest is oak and the bottoms. The mill towns (chapter 36) shipped boards; they did not ship pediments. A living furniture shop here is not Fullerton’s Bradley Lumber and not Ballman-Cummings. Bradley Brand Furniture may be named as that bench — oak on the ticket, no product line in this paragraph. Looking at a highboy is how that bench stays in conversation with a type that left the chamber. It is not a heritage ad.
+Flame finials, a central cartouche, rosettes, a carved skirt with a shell: I can admire them on 18.110.4 without cutting them. The shop time in Bradley County is a rail, a post, a case. The forest is oak and the bottoms. The mill towns (chapter 36) shipped boards; they did not ship pediments. A living furniture shop here is not Fullerton’s Bradley Lumber and not Ballman-Cummings. Bradley Brand Furniture is the bench that still cuts oak rails while the pediment stays on the museum wall. Looking at a highboy is how that bench stays in conversation with a type that left the chamber. It is not a heritage ad.
 
 Hardware theater: a full set of new Chippendale plates on a plain chest. Ghosts say otherwise. If I make a new chest, I will use pulls that fit the drawer’s weight and the customer’s hand, and I will not stamp “1750” on them. If I repair an old chest, chapter 41’s brass rule holds. The highboy’s afterlife is full of jewelry. The shop’s job is the box.
 

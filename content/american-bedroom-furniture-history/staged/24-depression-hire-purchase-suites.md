@@ -4,7 +4,7 @@ slug: 24-depression-hire-purchase-suites
 chapter: 24
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1929–1941
 regions: United States
 word_target: 1800-2800

@@ -4,7 +4,7 @@ slug: 39-joinery-of-a-bed-rail
 chapter: 39
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1700–present
 regions: United States
 word_target: 1800-2800

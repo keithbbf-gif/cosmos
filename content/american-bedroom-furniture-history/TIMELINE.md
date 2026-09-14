@@ -2,7 +2,7 @@
 title: Timeline
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # Timeline

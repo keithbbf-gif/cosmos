@@ -2,7 +2,7 @@
 title: Photo captions and rights register
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # Photo captions

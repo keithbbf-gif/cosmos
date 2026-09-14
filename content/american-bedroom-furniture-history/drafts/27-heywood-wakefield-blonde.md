@@ -4,7 +4,7 @@ slug: 27-heywood-wakefield-blonde
 chapter: 27
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1935–1966
 regions: Gardner, Massachusetts; Chicago; United States
 word_target: 1800-2800

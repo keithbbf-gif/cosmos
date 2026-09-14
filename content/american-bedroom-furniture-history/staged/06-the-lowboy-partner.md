@@ -4,7 +4,7 @@ slug: 06-the-lowboy-partner
 chapter: 06
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1730–1790
 regions: Boston, Newport, Philadelphia
 word_target: 1800-2800

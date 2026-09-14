@@ -4,7 +4,7 @@ slug: 40-the-suite-as-a-sales-idea
 chapter: 40
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1750–2002
 regions: United States
 word_target: 1800-2800

@@ -4,7 +4,7 @@ slug: 25-midcentury-platform-low-bed
 chapter: 25
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1945–1965
 regions: United States
 word_target: 1800-2800

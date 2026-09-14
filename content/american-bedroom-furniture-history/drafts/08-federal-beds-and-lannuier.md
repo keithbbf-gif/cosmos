@@ -4,7 +4,7 @@ slug: 08-federal-beds-and-lannuier
 chapter: 08
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1803–1819
 regions: New York
 word_target: 1800-2800

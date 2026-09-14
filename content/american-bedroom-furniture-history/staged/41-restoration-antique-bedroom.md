@@ -4,7 +4,7 @@ slug: 41-restoration-antique-bedroom
 chapter: 41
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1760–present
 regions: United States
 word_target: 1800-2800

@@ -2,7 +2,7 @@
 title: Bibliography
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # Bibliography

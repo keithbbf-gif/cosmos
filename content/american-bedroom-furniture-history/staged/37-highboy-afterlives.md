@@ -4,7 +4,7 @@ slug: 37-highboy-afterlives
 chapter: 37
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1870–present
 regions: United States
 word_target: 1800-2800

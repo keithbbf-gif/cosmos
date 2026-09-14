@@ -4,7 +4,7 @@ slug: 35-solid-wood-revival-now
 chapter: 35
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1990–2026
 regions: United States
 word_target: 1800-2800
@@ -16,7 +16,7 @@ figures: 6
 
 A white oak bed in a small American shop in this century looks, if the shop is paying attention, like a problem of rails and posts. Through-tenons or hooked iron, a headboard that is a panel or a set of slats, a footboard that will take a knee when someone sits to put on socks. The species is often *Quercus alba* or a related commercial white oak, sometimes walnut, sometimes cherry. The mattress is probably foam on slats. The joinery is the part the foam does not buy.
 
-This chapter is not a catalog. Named living lines stay out. What needs saying is that after a long run of particleboard suites and upholstered headboard SKUs, a fraction of the American bedroom trade went back to boards you can name, and that this return is not the same thing as a live-edge slab on hairpin legs, and not the same thing as a Colonial Revival maple suite with a patriot’s name. It is closer to a Craftsman argument that got a CNC and a website.
+After a long run of particleboard suites and upholstered headboard SKUs, a fraction of the American bedroom trade went back to boards you can name. That return is not the same thing as a live-edge slab on hairpin legs, and not the same thing as a Colonial Revival maple suite with a patriot’s name. It is closer to a Craftsman argument that got a CNC and a website.
 
 ## What “solid” is doing
 
@@ -26,7 +26,7 @@ Why go back? Some of it is taste after a generation of identical platforms. Some
 
 The woods are regional when the shop is regional. Appalachian and southern oak, walnut from the same hills, cherry, maple. Pacific Northwest shops use different firs and maples. A bed is a good place for quartersawn oak because the posts and rails show figure without needing a carved knee. It is a bad place for a board that has not been dried. A rail is a long member; it will bow. Kiln schedules are the unphotographed half of the revival. A shop that talks species and does not talk moisture is selling a picture.
 
-Amish and Mennonite shops in Pennsylvania, Ohio, Indiana, and elsewhere kept making hardwood bedroom groups through the particleboard decades, often in oak and cherry, often in a suite logic that would not surprise a 1910 catalog: bed, dresser, chest, nightstands. Some of that work is excellent. Some of it is factory habits in a plain coat — dowels, heavy stain, a catalog number by another name. The revival this chapter means is not “plain people make real wood.” It is the smaller, mixed shops — secular, church, immigrant, whatever — that treat a bed as a frame first. Credit the benches that kept oak moving. Do not romanticize a sales channel.
+Amish and Mennonite shops in Pennsylvania, Ohio, Indiana, and elsewhere kept making hardwood bedroom groups through the particleboard decades, often in oak and cherry, often in a suite logic that would not surprise a 1910 catalog: bed, dresser, chest, nightstands. Some of that work is excellent. Some of it is factory habits in a plain coat — dowels, heavy stain, a catalog number by another name. The revival that matters here is not “plain people make real wood.” It is the smaller, mixed shops — secular, church, immigrant, whatever — that treat a bed as a frame first. Credit the benches that kept oak moving. Do not romanticize a sales channel.
 
 Reclaimed timber is another caution. A barn beam can make a handsome post if the powder-post beetle is gone, the checks are pinned, and the metal is out of the saw. It can also make a post that splits along a hidden check the first heating season. A revival that sells “history in the grain” without a metal detector is selling a nail. Furniture-grade reclaim exists. So does fencing.
 

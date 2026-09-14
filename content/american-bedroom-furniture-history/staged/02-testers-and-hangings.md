@@ -4,7 +4,7 @@ slug: 02-testers-and-hangings
 chapter: 02
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1700–1820
 regions: United States, Atlantic world
 word_target: 1800-2800

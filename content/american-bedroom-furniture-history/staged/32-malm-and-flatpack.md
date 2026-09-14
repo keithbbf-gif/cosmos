@@ -4,7 +4,7 @@ slug: 32-malm-and-flatpack
 chapter: 32
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1999–2018
 regions: Sweden, Poland, Germany, United States
 word_target: 1800-2800

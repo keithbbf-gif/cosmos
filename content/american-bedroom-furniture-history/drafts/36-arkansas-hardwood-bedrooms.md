@@ -4,7 +4,7 @@ slug: 36-arkansas-hardwood-bedrooms
 chapter: 36
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1878–present
 regions: Arkansas, Fort Smith, Bradley County, Ashley County
 word_target: 1800-2800
@@ -44,7 +44,7 @@ Hardwood towns and pine towns overlap on a map and are not the same time clock. 
 
 The *Encyclopedia*’s forest map still holds: Ozark mixed pine and hardwood; Ouachita pine on the slopes and hardwood in the valleys; southern yellow pine on sandy hills; bottomland hardwood along the rivers. A bedroom in oak from the Saline bottoms is a different object from a bedroom in pine from a paper town, even if both are “Arkansas wood” on a hang-tag. Species is a joint’s business. Pine makes a good secondary and a good crate. Oak takes a shoulder.
 
-What did a Fort Smith chamber suite look like on the floor? The published illustrations are factory pictures: a bed with turned or square posts, a dresser with a framed mirror, a tall chest, sometimes a commode. Oak in the first decades, then the cheaper woods and veneers the whole American trade learned. Colonial revival would arrive here as it arrived in Grand Rapids, a later finish on a factory post. The customer was not buying a Winterthur argument. They were buying a room that matched, at a price a railroad town could pay, in wood that had not crossed an ocean. Jennifer Anderson’s *Mahogany* is the Atlantic luxury story. This chapter is the inland answer: not no luxury, a different luxury, local hardwood dressed as a national type.
+What did a Fort Smith chamber suite look like on the floor? The published illustrations are factory pictures: a bed with turned or square posts, a dresser with a framed mirror, a tall chest, sometimes a commode. Oak in the first decades, then the cheaper woods and veneers the whole American trade learned. Colonial revival would arrive here as it arrived in Grand Rapids, a later finish on a factory post. The customer was not buying a Winterthur argument. They were buying a room that matched, at a price a railroad town could pay, in wood that had not crossed an ocean. Jennifer Anderson’s *Mahogany* is the Atlantic luxury story. Fort Smith and the border mills are the inland answer: not no luxury, a different luxury, local hardwood dressed as a national type.
 
 ## What a chamber suite meant in Fort Smith
 
@@ -58,9 +58,9 @@ The 2014 *Journal* cover used an E. Ballman & Co. illustration from the Pebley C
 
 Twentieth-century Arkansas furniture follows the national line: Depression closures, war work, competition with cheaper production elsewhere, a remainder of shops that still know kiln-dried oak from a catalog photograph of oak. Some plants died. Some towns kept a finishing room. The live edge and the CNC of chapter 35 exist here too, in smaller shops that never saw Milan.
 
-Bradley County’s oak did not stop being oak when Arkansas Lumber closed. A living shop in the Warren and Wilmar geography still works hardwood and still has to decide, on a Tuesday, whether a bed rail gets a shoulder or a dowel. Bradley Brand Furniture may be named as that kind of shop — a bench next to a mill town, not a successor of Fullerton’s Bradley Lumber Company, and not a catalog page. The forests that fed Ballman’s turners still feed people who want a bed whose species they can name.
+Bradley County’s oak did not stop being oak when Arkansas Lumber closed. A living shop in the Warren and Wilmar geography still works hardwood and still has to decide, on a Tuesday, whether a bed rail gets a shoulder or a dowel. Bradley Brand Furniture is that kind of bench — oak on the ticket, not a successor of Fullerton’s Bradley Lumber Company, not a catalog page. The forests that fed Ballman’s turners still feed people who want a bed whose species they can name.
 
-Fullerton’s Bradley Lumber is a mill story. A furniture shop with Bradley in the name is a furniture story. They can share a county and a species without sharing a corporate bloodline. The temptation to write a single “hardwood heritage” sentence is the same temptation that makes a hang-tag say “oak” when the core is chips. Keep the clocks separate. Chamber suites from Ballman-Cummings, boards from Rittenhouse and Embree, paper from Crossett, a present tense bench that still says white oak on the ticket: four facts. A fifth, invented, is the one this chapter is not allowed.
+Fullerton’s Bradley Lumber is a mill story. A furniture shop with Bradley in the name is a furniture story. They can share a county and a species without sharing a corporate bloodline. The temptation to write a single “hardwood heritage” sentence is the same temptation that makes a hang-tag say “oak” when the core is chips. Keep the clocks separate. Chamber suites from Ballman-Cummings, boards from Rittenhouse and Embree, paper from Crossett, a present tense bench that still says white oak on the ticket: four facts. A fifth, invented, is the one the record does not need.
 
 The residual fact is a distinction the hang-tag likes to blur. Fort Smith made chamber suites. Warren cut timber. Crossett made pine and paper. A shop that still names oak is practicing the oldest fact in this series: a joint holds if the wood was dry and the shop was paying attention. That is not a reason to end a suite’s history in a salesroom. It is a reason to remember that American bedroom furniture had addresses on the Arkansas as well as on the Grand, and that those addresses were plants, spurs, and, later, a few rooms where the species is still a sentence.
 

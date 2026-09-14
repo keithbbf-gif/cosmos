@@ -4,7 +4,7 @@ slug: 28-danish-modern-american-bedrooms
 chapter: 28
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1949–1970
 regions: United States; Denmark as source
 word_target: 1800-2800

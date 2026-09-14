@@ -4,7 +4,7 @@ slug: 10-shaker-chambers
 chapter: 10
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1820–1870
 regions: Hancock, Massachusetts; Mount Lebanon (New Lebanon), New York
 word_target: 1800-2800

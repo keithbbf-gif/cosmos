@@ -4,7 +4,7 @@ slug: 31-ethan-allen-catalog-suite
 chapter: 31
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1932–2000
 regions: Vermont, New York, suburban United States
 word_target: 1800-2800

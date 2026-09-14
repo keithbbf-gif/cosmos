@@ -4,7 +4,7 @@ slug: 05-newport-block-and-shell
 chapter: 05
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1745–1785
 regions: Newport, Rhode Island
 word_target: 1800-2800

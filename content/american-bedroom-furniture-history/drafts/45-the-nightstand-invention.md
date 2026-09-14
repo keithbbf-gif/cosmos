@@ -4,7 +4,7 @@ slug: 45-the-nightstand-invention
 chapter: 45
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1800–1960
 regions: United States
 word_target: 1800-2800

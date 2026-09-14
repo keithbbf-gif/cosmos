@@ -4,7 +4,7 @@ slug: 14-eastlake-reform-bedroom
 chapter: 14
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1868–1890
 regions: England (text); United States (factories)
 word_target: 1800-2800

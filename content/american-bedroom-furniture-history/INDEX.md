@@ -1,7 +1,7 @@
 ---
 title: Index — American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 series: American Bedroom Furniture
 ---
 
@@ -23,7 +23,7 @@ A chronological magazine series: forty-five essays on American chambers, high ch
 | 10 | Shaker Chambers | `10-shaker-chambers` | 1820–1870 | 1927 |
 | 11 | Southern Testers | `11-southern-testers` | 1750–1850 | 2047 |
 | 12 | The Matching Suite Is Born | `12-the-matching-suite-is-born` | 1840–1900 | 1933 |
-| 13 | The Grand Rapids Bedroom Factory | `13-grand-rapids-bedroom-factory` | 1859–1948 | 1898 |
+| 13 | The Grand Rapids Bedroom Factory | `13-grand-rapids-bedroom-factory` | 1859–1948 | 1876 |
 | 14 | The Eastlake Reform Bedroom | `14-eastlake-reform-bedroom` | 1868–1890 | 1959 |
 | 15 | Brass and Iron Beds | `15-brass-and-iron-beds` | 1837–1915 | 1831 |
 | 16 | Wardrobe, Chifforobe, Armoire | `16-wardrobe-chifforobe-armoire` | 1790–1940 | 1812 |
@@ -54,7 +54,7 @@ A chronological magazine series: forty-five essays on American chambers, high ch
 | 41 | Restoration and the Antique Bedroom | `41-restoration-antique-bedroom` | 1760– | 1808 |
 | 42 | What a Bedroom Is Now | `42-what-a-bedroom-is-now` | 2000–2026 | 1811 |
 | 43 | A Shop Looking at a Highboy | `43-a-shop-looking-at-a-highboy` | 1760– | 1820 |
-| 44 | Children's Beds and Cradles | `44-childrens-beds-and-cradles` | 1650–2011 | 1812 |
+| 44 | Children's Beds and Cradles | `44-childrens-beds-and-cradles` | 1650–2011 | 1810 |
 | 45 | The Nightstand Invention | `45-the-nightstand-invention` | 1800–1960 | 1815 |
 
 ## How to read
@@ -72,4 +72,5 @@ Bradley Brand Furniture and the Warren/Wilmar geography appear only in chapters 
 - `WP_IMPORT.md` — draft-only staging notes
 - `MANIFEST.md` — slugs and word counts
 - `staged/STAGING.md` — per-post checklist
+- `EDITOR_REPORT.md` — editor pass log
 - `tools/qa_drafts.py` — word band and banned-phrase check

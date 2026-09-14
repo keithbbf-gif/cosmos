@@ -4,7 +4,7 @@ slug: 22-hollywood-regency-bedrooms
 chapter: 22
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1925–1948
 regions: Los Angeles, New York, United States
 word_target: 1800-2800

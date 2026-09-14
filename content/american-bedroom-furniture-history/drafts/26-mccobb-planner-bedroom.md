@@ -4,7 +4,7 @@ slug: 26-mccobb-planner-bedroom
 chapter: 26
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1949–1964
 regions: Winchendon, Massachusetts; New York; United States
 word_target: 1800-2800

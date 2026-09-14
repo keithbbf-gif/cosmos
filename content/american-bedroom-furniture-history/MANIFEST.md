@@ -2,7 +2,7 @@
 title: Manifest
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 note: Body word counts are words after YAML and before ## Notes. Target 1800–2800.
 ---
 
@@ -26,7 +26,7 @@ Working copies: `drafts/`. Staged WordPress copies: `staged/` (same text; import
 | 10 | `10-shaker-chambers` | 1927 | met |
 | 11 | `11-southern-testers` | 2047 | met |
 | 12 | `12-the-matching-suite-is-born` | 1933 | met |
-| 13 | `13-grand-rapids-bedroom-factory` | 1898 | met |
+| 13 | `13-grand-rapids-bedroom-factory` | 1876 | met |
 | 14 | `14-eastlake-reform-bedroom` | 1959 | met |
 | 15 | `15-brass-and-iron-beds` | 1831 | met |
 | 16 | `16-wardrobe-chifforobe-armoire` | 1812 | met |
@@ -57,10 +57,10 @@ Working copies: `drafts/`. Staged WordPress copies: `staged/` (same text; import
 | 41 | `41-restoration-antique-bedroom` | 1808 | met |
 | 42 | `42-what-a-bedroom-is-now` | 1811 | met |
 | 43 | `43-a-shop-looking-at-a-highboy` | 1820 | met |
-| 44 | `44-childrens-beds-and-cradles` | 1812 | met |
+| 44 | `44-childrens-beds-and-cradles` | 1810 | met |
 | 45 | `45-the-nightstand-invention` | 1815 | met |
 
-**Total body words:** 89,230. All forty-five essays are in the 1,800–2,800 band.
+**Total body words:** 90,367. All forty-five essays are in the 1,800–2,800 band.
 
 ## Apparatus
 
@@ -74,7 +74,8 @@ Working copies: `drafts/`. Staged WordPress copies: `staged/` (same text; import
 | `WP_IMPORT.md` | Draft-only staging |
 | `MANIFEST.md` | This file |
 | `staged/STAGING.md` | Per-post WP checklist |
-| `tools/qa_drafts.py` | Word band, status, banned phrases, early-chapter brand leak |
+| `EDITOR_REPORT.md` | Editor pass log (stamps, substantive edits, QA) |
+| `tools/qa_drafts.py` | Word band, status, `voice_check` human or edited, banned phrases, brand leak |
 
 ## Count method
 

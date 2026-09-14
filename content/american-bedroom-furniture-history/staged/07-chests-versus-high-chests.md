@@ -4,7 +4,7 @@ slug: 07-chests-versus-high-chests
 chapter: 07
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1730–1820
 regions: Philadelphia, New York, New England, Newport
 word_target: 1800-2800

@@ -4,7 +4,7 @@ slug: 04-philadelphia-high-chest
 chapter: 04
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1755–1790
 regions: Philadelphia
 word_target: 1800-2800

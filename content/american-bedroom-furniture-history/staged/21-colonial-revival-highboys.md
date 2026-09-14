@@ -4,7 +4,7 @@ slug: 21-colonial-revival-highboys
 chapter: 21
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1900–1941
 regions: New England, New York, United States collecting
 word_target: 1800-2800

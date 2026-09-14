@@ -2,7 +2,7 @@
 title: Style Guide
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # Style Guide
@@ -100,7 +100,7 @@ slug: ...
 chapter: 01
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: ...
 regions: United States
 word_target: 1800-2800
@@ -118,3 +118,5 @@ Do not mark any essay `publish`. `status` stays `draft`.
 ## Editor pass
 
 A separate editor will QA grammar, spelling, and style after this draft set. Do not clean the voice into brochure English during that pass. Keep the grain of a human sentence.
+
+After a read-aloud editor pass, set `voice_check: edited` in front matter (series apparatus files may carry the same stamp). Pack QA accepts `human` or `edited`.

@@ -4,7 +4,7 @@ slug: 33-the-storage-bed
 chapter: 33
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1800–2020
 regions: United States, Atlantic shipping, northern Europe
 word_target: 1800-2800

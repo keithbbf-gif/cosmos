@@ -4,7 +4,7 @@ slug: 34-mattress-eats-the-frame
 chapter: 34
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1966–2020
 regions: United States, Sweden
 word_target: 1800-2800

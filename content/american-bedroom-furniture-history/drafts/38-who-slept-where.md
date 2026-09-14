@@ -4,7 +4,7 @@ slug: 38-who-slept-where
 chapter: 38
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1650–1950
 regions: United States
 word_target: 1800-2800
@@ -16,7 +16,7 @@ figures: 7
 
 A 1653 Essex County inventory that names a feather bed before the frame (chapter 1) is already choosing whose sleep counts. The best tick in the best chamber is a line in a probate that a court could understand as wealth. A servant’s straw, a child’s trundle, a pallet in a kitchen loft, a bunk in a barracks, a hospital iron cot — these enter the furniture record late, cheap, or not at all. Privacy, in the American house, is not a human constant. It is a room count, a labor system, and a lock.
 
-The “master bedroom” is a twentieth-century developer’s phrase laid on a colonial chamber that did not exist as a type. Parents, children, visitors, and hired or bound labor shared heat and square feet in ways later taste cannot describe without lying. This chapter is the corrective that chapter 1 promised: a history of bedroom furniture that begins only with mahogany high chests has already decided who counted as a sleeper.
+The “master bedroom” is a twentieth-century developer’s phrase laid on a colonial chamber that did not exist as a type. Parents, children, visitors, and hired or bound labor shared heat and square feet in ways later taste cannot describe without lying. A history of bedroom furniture that begins only with mahogany high chests has already decided who counted as a sleeper.
 
 ## The chamber and the other beds
 
@@ -30,7 +30,7 @@ Servants in the merchant house after 1850 might have a defined room — still of
 
 Enslaved people in the Chesapeake, the lowcountry, and northern port towns slept in lofts, kitchens, outbuildings, and, less often than white family myth prefers, in the same chamber as the people who claimed them. John Michael Vlach’s *Back of the Big House* and the archaeological work on quartering are the corrective. The furniture record is thin because the objects were cheaper, the inventories were written by the owners of the labor, and a pallet does not become an antique.
 
-When inventories do price enslaved people’s bedding separately, the lines are worth more than a dozen high chests to this chapter. `[CITE NEEDED: a specific Chesapeake or lowcountry inventory that prices bedding in quarters separately from the parlor chamber — carry forward from chapter 1.]` A rope bedstead of pine, a tick of husks, a blanket: these are bed furniture in the eighteenth-century sense, textiles and a frame, without the mahogany and without the name of a joiner. Archaeology finds postholes and hearth locations. It rarely finds a labeled chest.
+When inventories do price enslaved people’s bedding separately, the lines are worth more than a dozen high chests to the bedroom record. `[CITE NEEDED: a specific Chesapeake or lowcountry inventory that prices bedding in quarters separately from the parlor chamber — carry forward from chapter 1.]` A rope bedstead of pine, a tick of husks, a blanket: these are bed furniture in the eighteenth-century sense, textiles and a frame, without the mahogany and without the name of a joiner. Archaeology finds postholes and hearth locations. It rarely finds a labeled chest.
 
 Northern slavery and bound labor in port towns had chambers too: garrets, kitchens, the back of a shop. The gap in Boston cabinet-shop documentation for workmen of color (chapter 3) is not proof of absence. The sleep of those workmen is even less documented. A history that only follows labeled case pieces will never find it.
 

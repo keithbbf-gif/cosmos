@@ -4,7 +4,7 @@ slug: 29-nakashima-slab-headboard
 chapter: 29
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1943–1990
 regions: New Hope, Pennsylvania
 word_target: 1800-2800

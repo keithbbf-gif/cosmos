@@ -4,7 +4,7 @@ slug: 17-vanity-and-dressing-1900
 chapter: 17
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1890–1940
 regions: United States
 word_target: 1800-2800

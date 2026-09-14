@@ -4,7 +4,7 @@ slug: 01-the-chamber-before-the-suite
 chapter: 01
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1650–1750
 regions: New England, Mid-Atlantic, Chesapeake
 word_target: 1800-2800

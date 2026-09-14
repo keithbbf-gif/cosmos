@@ -4,7 +4,7 @@ slug: 13-grand-rapids-bedroom-factory
 chapter: 13
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1859–1948
 regions: Grand Rapids, Michigan
 word_target: 1800-2800
@@ -34,7 +34,7 @@ The main market was wholesale to retailers: whole suites of bedroom, dining, and
 
 Witherell’s book reproduces more than three hundred photographs from company catalogs. That is the visual archive for the chamber suites: walnut, mahogany, ash; beds with high headboards; dressers with marble and mirrors; washstands that match. Value ranges in a 1998 Schiffer book are dealer apparatus, not this magazine’s concern. The plates are.
 
-By 1885, company histories say, sales were over half a million dollars, worldwide. `[CITE NEEDED: 1885 sales figure against an annual report or a period newspaper; the $500,000 is widely repeated and may be rounding the incorporation capital together with sales lore.]` The 1885 number in the brief for this chapter is the one to keep if a primary appears; until then, treat “over a half million” as the standard secondary claim, marked.
+By 1885, company histories say, sales were over half a million dollars, worldwide. `[CITE NEEDED: 1885 sales figure against an annual report or a period newspaper; the $500,000 is widely repeated and may be rounding the incorporation capital together with sales lore.]` Until a primary appears, treat “over a half million” as the standard secondary claim, marked.
 
 Grand Rapids as a furniture city is not a Berkey monopoly. Phoenix, Nelson Matter, the Grand Rapids Chair Company (which by the late 1880s advertised medium-grade chamber suites in maple, birch, cherry, walnut, and ash), later dozens of plants. The 1876 Centennial and the semi-annual furniture markets made the town a destination for buyers. A retailer from the Plains could walk a showroom and order in lots. Berkey & Gay’s New York showroom (17 Elizabeth Street appears in later decorative-arts notes) was the Eastern counter. `[CITE NEEDED: confirm Elizabeth Street address and dates.]`
 
@@ -52,7 +52,7 @@ The factory is also a showroom. Wholesale and retail on site, 1874, means a buye
 
 In 1920, some corporate histories say, Berkey & Gay merged with Wallace Furniture and Grand Rapids Upholstery as Consolidated Furniture Companies, still using the Berkey & Gay trademark. `[CITE NEEDED: 1920 consolidation details.]` Sales in the 1920s were strong; the firm expanded. Period reproductions — “fine” historical styles — were a Grand Rapids specialty. Time in 1932 said Berkey & Gay was doing nearly $10 million a year when Simmons bought it, and making most of Grand Rapids’s share (33 percent) of fine period reproductions in the United States. Those Time figures are journalism in a Depression story, useful and not audited here. `[CITE NEEDED: 1929 sales; Time’s $10 million vs. other sketches that say $8 million and five plants totaling 1.5 million square feet.]` Secondary dealer histories give five plants, 1.5 million square feet, $8 million annual sales in 1929. Mark both.
 
-Simmons Company of Chicago bought Berkey & Gay in 1929. Bedman Simmons wanted to abolish exclusive dealerships, let the semi-annual shows lapse, and push Berkey & Gay through Simmons warehouses with national advertising — a furniture General Motors, Time sneered, aimed at $20 million a year. Simmons stock fell from $188 a share in September 1929 to $11 in 1930. The furniture industry’s insolvency list ballooned. Berkey & Gay closed plants in 1931, went into receivership in February 1932 (Time). Other sketches say bankruptcy in 1931. The brief for this chapter uses 1929 Simmons purchase, 1931 bankruptcy, 1935 reform, close 1948. Prefer: purchase 1929; shutdown/receivership 1931–32; local stockholders reopen 1935; World War II conversion; postwar attempt; bankruptcy and close 1948. The name later sold to Harvest Furniture of Louisville. `[CITE NEEDED: Harvest sale documents.]`
+Simmons Company of Chicago bought Berkey & Gay in 1929. Bedman Simmons wanted to abolish exclusive dealerships, let the semi-annual shows lapse, and push Berkey & Gay through Simmons warehouses with national advertising — a furniture General Motors, Time sneered, aimed at $20 million a year. Simmons stock fell from $188 a share in September 1929 to $11 in 1930. The furniture industry’s insolvency list ballooned. Berkey & Gay closed plants in 1931, went into receivership in February 1932 (Time). Other sketches say bankruptcy in 1931. The chronology that fits the surviving marks and local histories: purchase 1929; shutdown/receivership 1931–32; local stockholders reopen 1935; World War II conversion; postwar attempt; bankruptcy and close 1948. The name later sold to Harvest Furniture of Louisville. `[CITE NEEDED: Harvest sale documents.]`
 
 Marks after 1929 may read DIVISION OF SIMMONS CO. A 1 January 1930 price list, “Berkey & Gay Furniture Co., division of Simmons Co.,” dining room, bedroom, living room, 97 pages, sits in the Grand Rapids History Center. That pamphlet is the suite idea at the edge of the cliff: still listing bedrooms, already a division.
 

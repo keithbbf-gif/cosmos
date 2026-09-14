@@ -4,7 +4,7 @@ slug: 09-empire-sleigh-beds
 chapter: 09
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1815–1845
 regions: New York, New England, Mid-Atlantic, Midwest shops
 word_target: 1800-2800

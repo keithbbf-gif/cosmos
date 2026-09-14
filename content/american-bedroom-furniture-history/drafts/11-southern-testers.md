@@ -4,7 +4,7 @@ slug: 11-southern-testers
 chapter: 11
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1750–1850
 regions: Charleston, Lowcountry, Chesapeake
 word_target: 1800-2800

@@ -4,7 +4,7 @@ slug: 42-what-a-bedroom-is-now
 chapter: 42
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 2000–2026
 regions: United States
 word_target: 1800-2800
@@ -64,7 +64,7 @@ The residual fact is a floor. If the phone is on it, the nightstand has failed o
 
 The residual tension is the door. Closed, the room is the private class fact chapter 38 described. Open to a screen, it is a workplace. The furniture of 2026 has not decided which it is. A tester could close. A laptop cannot be hung with moreen. The one good case piece, if it is honest, does not care. It holds shirts either way.
 
-Secondhand is the quiet majority. Estate sales move Ethan Allen maple, waterfall walnut, a Fort Smith oak dresser, a MALM that should be anchored. The American bedroom now is often an accumulation of dead suites. That is closer to 1700 than the catalog wanted. The difference is the foam and the screen. A history that ends on a custom oak bed alone has skipped the room most people actually sleep in. This chapter’s job is the thin room. The shop’s job, if it has one here, is a single object that can live in that thinness without pretending to be a patriot or a napkin sketch.
+Secondhand is the quiet majority. Estate sales move Ethan Allen maple, waterfall walnut, a Fort Smith oak dresser, a MALM that should be anchored. The American bedroom now is often an accumulation of dead suites. That is closer to 1700 than the catalog wanted. The difference is the foam and the screen. A history that ends on a custom oak bed alone has skipped the room most people actually sleep in. The thin room is the honest subject. The shop’s job, if it has one here, is a single object that can live in that thinness without pretending to be a patriot or a napkin sketch.
 
 Guest rooms still perform the old suite when the rest of the house will not: a matching set from a big-box aisle, two nightstands, a picture over the bed. Hospitality is where the sales idea hides. The room you sleep in every night can be a carton. The room you show can still be a page. That split is chapter 37’s hall and chamber, reversed: the ancestor in public, the work in private, except now the “good” furniture is the guest room’s match and the everyday mattress is the honest one.
 

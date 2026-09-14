@@ -4,7 +4,7 @@ slug: 03-boston-and-the-early-high-chest
 chapter: 03
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1700–1750
 regions: Boston, Salem, New England
 word_target: 1800-2800

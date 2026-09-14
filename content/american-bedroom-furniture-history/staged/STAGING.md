@@ -2,7 +2,7 @@
 title: Staging checklist
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # Staging — WordPress draft import
@@ -15,7 +15,7 @@ Copy for each slug in `../INDEX.md`:
 
 - [ ] File present in `staged/` with the same filename as `drafts/`
 - [ ] YAML `status: draft` (do not change)
-- [ ] YAML `voice_check: human` stored as a custom field
+- [ ] YAML `voice_check: edited` stored as a custom field
 - [ ] Post status in WP is `draft`
 - [ ] Slug matches YAML `slug:`
 - [ ] Excerpt = YAML `dek`

@@ -4,7 +4,7 @@ slug: 23-waterfall-and-art-deco-suites
 chapter: 23
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1930–1945
 regions: Grand Rapids, Midwest factories, United States
 word_target: 1800-2800

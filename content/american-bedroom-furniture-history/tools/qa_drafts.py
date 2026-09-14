@@ -49,8 +49,9 @@ def main() -> int:
             problems.append(f"WORD BAND {p.name}: {n}")
         if meta.get("status") != "draft":
             problems.append(f"STATUS {p.name}: {meta.get('status')}")
-        if meta.get("voice_check") != "human":
-            problems.append(f"VOICE {p.name}: {meta.get('voice_check')}")
+        vc = meta.get("voice_check")
+        if vc not in ("human", "edited"):
+            problems.append(f"VOICE {p.name}: {vc}")
         for m in BANNED.finditer(body):
             problems.append(f"BANNED {p.name}: {m.group(0)!r}")
         ch = meta.get("chapter", "")

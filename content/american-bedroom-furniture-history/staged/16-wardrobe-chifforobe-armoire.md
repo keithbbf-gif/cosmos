@@ -4,7 +4,7 @@ slug: 16-wardrobe-chifforobe-armoire
 chapter: 16
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1790–1940
 regions: United States, especially the South
 word_target: 1800-2800

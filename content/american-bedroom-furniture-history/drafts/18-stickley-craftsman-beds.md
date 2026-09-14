@@ -4,7 +4,7 @@ slug: 18-stickley-craftsman-beds
 chapter: 18
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1901–1917
 regions: Eastwood, New York; Craftsman Farms, New Jersey
 word_target: 1800-2800

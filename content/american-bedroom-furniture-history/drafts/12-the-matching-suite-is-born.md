@@ -4,7 +4,7 @@ slug: 12-the-matching-suite-is-born
 chapter: 12
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1840–1900
 regions: United States, Grand Rapids, New York
 word_target: 1800-2800

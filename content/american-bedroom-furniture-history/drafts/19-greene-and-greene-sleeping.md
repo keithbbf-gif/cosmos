@@ -4,7 +4,7 @@ slug: 19-greene-and-greene-sleeping
 chapter: 19
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1907–1910
 regions: Pasadena, Southern California
 word_target: 1800-2800

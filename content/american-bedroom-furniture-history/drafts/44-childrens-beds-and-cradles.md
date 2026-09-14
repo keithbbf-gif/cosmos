@@ -4,17 +4,17 @@ slug: 44-childrens-beds-and-cradles
 chapter: 44
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1650–2011
 regions: United States
 word_target: 1800-2800
-dek: "Cradles, trundles, youth beds: inventories priced them, and CPSC later treated the crib as the most regulated bed in the house. Not a cute chapter."
+dek: "Cradles, trundles, youth beds: inventories priced them, and CPSC later treated the crib as the most regulated bed in the house."
 figures: 7
 ---
 
 # Children's Beds and Cradles
 
-Inventories name cradles the way they name feather beds: as value, not as sentiment. A cradle is a box that rocks, a body that cannot leave it unassisted, a textile lining, sometimes a hood. When the child can climb, the object is a different problem — a trundle in the parents’ chamber, then a small bedstead, then, much later, a crib whose slats the state will measure. The cute photograph is the enemy of this chapter. The objects are furniture. Some of them kill.
+Inventories name cradles the way they name feather beds: as value, not as sentiment. A cradle is a box that rocks, a body that cannot leave it unassisted, a textile lining, sometimes a hood. When the child can climb, the object is a different problem — a trundle in the parents’ chamber, then a small bedstead, then, much later, a crib whose slats the state will measure. The cute photograph is the enemy of honest inventory. The objects are furniture. Some of them kill.
 
 CPSC’s crib rule, effective 28 June 2011, banned the manufacture and sale (including resale) of traditional drop-side cribs and tightened slats, mattress supports, and hardware. Full-size cribs, 16 C.F.R. part 1219; non-full-size, part 1220. Child-care facilities had until December 2012 to comply. Cradles, as rocker or pendulum types, sit outside those crib definitions and under other infant-sleep rules. The federal sentence is long. The furniture fact is short: the infant bed became a regulated product because the household bed was injuring infants. That is not a design story first. It is a body count, then a standard.
 
@@ -26,7 +26,7 @@ Who made them? Joiners, turners, the same shops that made the adult bedstead, so
 
 Wicker and later millwork made cheaper cradles for a broader public. The object remained a box that moved. When it stopped moving, it was a bassinet on a stand, then a crib that did not rock because rocking became a medical argument. `[CITE NEEDED: dated pediatric advice against cradle rocking, if a caption needs a year.]` The furniture followed the advice as it followed sanitation.
 
-Shaker communities made cradles and small beds with the same wheeled, untheatrical intelligence as their adult frames. A Shaker cradle is not a folk toy. It is a box with rockers, a textile, a community’s child. Collectors have over-loved some of them. The ordinary painted pine cradle in a farm inventory is closer to most American infant sleep. Museums show the handsome hood. The chapter should remember the cheap box.
+Shaker communities made cradles and small beds with the same wheeled, untheatrical intelligence as their adult frames. A Shaker cradle is not a folk toy. It is a box with rockers, a textile, a community’s child. Collectors have over-loved some of them. The ordinary painted pine cradle in a farm inventory is closer to most American infant sleep. Museums show the handsome hood. Remember the cheap box.
 
 ## Trundles
 
@@ -58,7 +58,7 @@ The most regulated bed in the American house is the infant’s, not the tester a
 
 A last inventory habit: count the small bedsteads. If the house has one “best bed” and three cheap ones, you are looking at labor and children, not at a master suite. The 2011 crib is the state’s version of that count: we will specify the infant’s box because the household’s other beds were not built for a body that cannot roll over with intent. The high chest never had to pass ASTM. The infant bed did. That inequality of regulation is the chapter’s map of whose sleep the law can see.
 
-Mesh play yards, bassinets, and “nests” took market share from the wooden cradle because they fold and they advertise. They are furniture in the sense that they occupy the infant’s night. They are not joinery. A history of bedroom furniture that pretends the only infant bed is a hooded maple box has accepted a museum highlight as a census. The CPSC’s other parts — 1218 bassinets, the infant sleep product work — are the state’s attempt to catch the non-wood. Woodworkers do not own this chapter. Inventories and the federal register do.
+Mesh play yards, bassinets, and “nests” took market share from the wooden cradle because they fold and they advertise. They are furniture in the sense that they occupy the infant’s night. They are not joinery. A history of bedroom furniture that pretends the only infant bed is a hooded maple box has accepted a museum highlight as a census. The CPSC’s other parts — 1218 bassinets, the infant sleep product work — are the state’s attempt to catch the non-wood. Woodworkers do not own the infant-bed record. Inventories and the federal register do.
 
 A youth bed with a guardrail is a joint problem: the rail must take a climbing load. Cheap rails snap. That is not a metaphor. It is a fracture. The same shop eye that looks at a bed-rail hook (chapter 39) should look at a guardrail’s fasteners. Children’s furniture is not a lesser scale of adult furniture. It is adult furniture plus a body that will test every edge.
 

@@ -4,7 +4,7 @@ slug: 15-brass-and-iron-beds
 chapter: 15
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1837–1915
 regions: United States; Birmingham and West Bromwich, England
 word_target: 1800-2800

@@ -4,7 +4,7 @@ slug: 20-roycroft-and-mission-oak
 chapter: 20
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1895–1916
 regions: East Aurora, Eastwood, Grand Rapids, Holland, Michigan
 word_target: 1800-2800

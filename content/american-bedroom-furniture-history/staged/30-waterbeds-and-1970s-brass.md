@@ -4,7 +4,7 @@ slug: 30-waterbeds-and-1970s-brass
 chapter: 30
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 period: 1968–1985
 regions: San Francisco; United States
 word_target: 1800-2800

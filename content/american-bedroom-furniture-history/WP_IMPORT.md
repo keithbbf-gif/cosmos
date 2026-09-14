@@ -2,7 +2,7 @@
 title: WordPress import notes
 series: American Bedroom Furniture
 status: draft
-voice_check: human
+voice_check: edited
 ---
 
 # WordPress import — draft only
@@ -22,7 +22,7 @@ Import from `staged/`, not from `drafts/`. The two trees should match after the 
 | Author | to be assigned |
 | Featured image | none until a CC0 or licensed hero is chosen from `PHOTO_CAPTIONS.md` |
 | Excerpt | YAML `dek`, or first 40–50 words after the title |
-| Custom fields | `series=American Bedroom Furniture`, `chapter=NN`, `voice_check=human`, `status=draft` |
+| Custom fields | `series=American Bedroom Furniture`, `chapter=NN`, `voice_check=edited`, `status=draft` |
 
 ## Import order
 
