@@ -33,6 +33,7 @@ Writer drafts had **late-section summary blocks** that repeated earlier body cop
 | `29-henry-krystal` | Removed duplicated survivor-clinic summary; kept Detroit/contents-page and 1988 book boundary |
 | `31-mardi-horowitz` | Removed duplicated UCSF/phases closing; fixed “West-coast” typo; merged states-of-mind beat; repaired broken Sources section |
 | `32-charles-figley` | Removed duplicated 1985 breakfast summary; kept campus transmission belt; added Bloom/Figley distinction |
+| `44-bessel-van-der-kolk` | Merged duplicate stage/journal and training-economy blocks into one closing section |
 
 Other articles were read in full on the read-aloud pass; automated paragraph similarity **≥0.72** after edit: **none**.
 

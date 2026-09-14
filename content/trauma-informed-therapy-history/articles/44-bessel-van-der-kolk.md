@@ -53,15 +53,7 @@ No portrait in this wave. Living person: license and reason required later. Do n
 
 The Developmental Trauma Disorder proposal, not adopted by DSM-5, is a fourth object and belongs to the rejected-chart essay. This figure page will not retry the work group. It will say a hallway kept talking after 2013 without a box, and that talking is not the same as a code.
 
-Podcasts, large conferences, and a training economy around the Trauma Center are 2014-and-after conditions. Historians will have to separate the journal record from the stage. This page started that separation. Finishing it belongs to a biography, and biographies of living people should wait. WOW borrows the older body-watchful idea with a 1941 citation when possible and keeps 2014 in the category *popularization*. Popularization is how teachers find a vocabulary. It is not a care plan. No gossip about institutes.
-
-## Stage and journal are different decades
-
-van der Kolk’s later public life — podcasts, large conferences, a trade audience that dwarfs most psychiatric careers — is a 2014-and-after condition. Historians will have to separate the 1980s–1990s journal record from the 2010s stage. This page started that separation and will not finish it. Finishing it belongs to a biography, and biographies of living people should wait.
-
-The Trauma Center’s training economy (workshops, certificates, waiting lists) is part of how “the body keeps the score” became a phrase people say without reading Kardiner. Training economies are not sins. They are facts. A fact can be named without a sneer and without a sale.
-
-WOW’s rule stays the one already written: borrow the older body-watchful idea with a 1941 citation when possible, and keep the 2014 book in the category *popularization*. Popularization is how teachers find a vocabulary. It is not how a speech clinic writes a care plan.
+Podcasts, large conferences, and a training economy around the Trauma Center — workshops, certificates, waiting lists — are 2014-and-after conditions. Historians will have to separate the 1980s–1990s journal record from the 2010s stage. Training economies are not sins; they are facts. This page started that separation and will not finish it. Finishing it belongs to a biography, and biographies of living people should wait. WOW borrows the older body-watchful idea with a 1941 citation when possible and keeps 2014 in the category *popularization*. Popularization is how teachers find a vocabulary. It is not a care plan or a speech-clinic menu. No gossip about institutes.
 
 ## American Psychiatric Press is not Viking
 
@@ -74,8 +66,10 @@ and entered the waiting room.
 
 McFarlane and Weisaeth remain on the 1996 handbook line. A three-editor
 volume is how a field announced it had chapters. A refused child code is
-how a hallway learned it would keep talking without a box. Living author:
-public books. No institute gossip. No care plan from a title.
+how a hallway learned it would keep talking without a box. The 1987 imprint
+and the 2014 imprint should stay on separate shelves in a citation, not
+merged into one proverb that erases Kardiner. Living author: public books only.
+No institute gossip on these URLs. No care plan from a title alone.
 
 ## Sources
 
