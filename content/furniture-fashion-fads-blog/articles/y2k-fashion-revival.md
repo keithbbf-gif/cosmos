@@ -4,15 +4,15 @@ slug: y2k-fashion-revival
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 813
+voice_check: edited
+word_count: 877
 ---
 
 # Y2K Fashion Revival: Nostalgia at Double Speed
 
 Y2K, as a fashion caption, is a short window wearing a long name. Roughly 1999 to 2004: the years when a pop star's midriff, a rhinestone, and a pair of tinted tiny sunglasses could stand in for a whole culture. The original moment was not nostalgic. It was trying to look like the future — metallic, a little cheap, a little space-age — while still shopping at a mall.
 
-The tropes are a list people can recite. Low-rise denim. A baby tee. Butterfly clips in highlighted hair. A velour tracksuit from Juicy Couture. A Dior saddle bag or a bag that wanted to be one. Von Dutch. A frosted lip. Frosted tips, if you were a boy in a boy band. A heel with a clear strap. A hint of logo, a hint of logo's fake. Britney, Christina, Destiny's Child on a video set that looked like a spaceship designed by a department store. Paris Hilton treated the same clothes as a full-time job. The fabrics were stretch denim, velour, nylon, a lot of polyester satin, the occasional real silk charmeuse on a slip dress that had survived the 1990s.
+The tropes are a list people can recite. Low-rise denim. A baby tee. Butterfly clips in highlighted hair. A velour tracksuit from Juicy Couture. A Dior saddle bag or a bag that wanted to be one. Von Dutch. A frosted lip. Frosted tips, if you were a boy in a boy band. A heel with a clear strap. A hint of logo, a hint of counterfeit. Britney, Christina, Destiny's Child on a video set that looked like a spaceship designed by a department store. Paris Hilton treated the same clothes as a full-time job. The fabrics were stretch denim, velour, nylon, a lot of polyester satin, the occasional real silk charmeuse on a slip dress that had survived the 1990s.
 
 There was an overlap with the emo and scene years that followed: skinny denim, a studded belt, more black than pink. That overlap matters because the revival later mixed the two closets. A 2022 teenager could wear a butterfly and a skinny from Hot Topic's archive in the same week.
 

@@ -4,8 +4,8 @@ slug: mob-wife-aesthetic
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 882
+voice_check: edited
+word_count: 895
 ---
 
 # Mob Wife Aesthetic: TV Costume to TikTok Uniform

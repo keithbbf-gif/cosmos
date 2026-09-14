@@ -4,8 +4,8 @@ slug: tiktok-shelf-life
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 883
+voice_check: edited
+word_count: 907
 ---
 
 # TikTok Shelf Life: Furniture Caught Up to Fashion
@@ -31,6 +31,6 @@ Cloud dupes deserve a separate sentence because they reveal the class split. The
 
 Pre-TikTok furniture still went in and out of style. It did it through catalogs, Market weeks, and the slow shame of a neighbor's renovation. The figure's "Pre-TikTok" bar is not a golden age. It is a slower waste stream. 2020 and 2023 sit higher because the camera sat closer. 2025 sitting a little lower is not proof the fever broke. It is a schematic of fatigue, the same way farmhouse fatigue showed up before anyone stopped selling shiplap.
 
-A floor that still expects a sofa to outlast a sound — bbfur is built for that expectation — looks almost rude next to a storefront room. Rude is useful. Sit in the piece. Ask what it weighs. Ask whether a stranger would take it for free in five years. If the answer is no, you are buying a SKU, not a chair. Fashion already taught us what to do with dead SKUs. Furniture is only now admitting it learned the lesson.
+A floor that still expects a sofa to outlast a sound — bbfur is built for that expectation — looks rude next to a storefront room. Rude still helps. Sit in the piece. Ask what it weighs. Ask whether a stranger would take it for free in five years. If the answer is no, you are buying a SKU, not a chair. Fashion already taught us what to do with dead SKUs. Furniture is only now admitting it learned the lesson.
 
 The honest analog is not "furniture became fashion." Furniture became fashion's inventory problem without fashion's leftover channels. There is no Zara of sofas with a clean outlet math. There is Facebook Marketplace, a curb, and a landfill. TikTok shelf life is a cute phrase for that math. The shelf is your floor. The life is shorter than the payment plan. The rest is a video of someone opening a box, smiling, and not showing you the dumpster behind the building.

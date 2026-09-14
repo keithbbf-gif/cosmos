@@ -4,8 +4,8 @@ slug: open-shelving-kitchen
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 992
+voice_check: edited
+word_count: 1051
 ---
 
 # Open Shelving: Pinterest Pretty, Dusty Daily

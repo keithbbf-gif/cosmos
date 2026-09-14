@@ -4,15 +4,15 @@ slug: logomania-waves
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 781
+voice_check: edited
+word_count: 812
 ---
 
 # Logomania Waves and Quiet Backlashes
 
 A logo is a signature that escaped the lining. Some decades want that signature on the outside of the bag, the belt, the button. Other decades want it hidden, as if wealth were a private joke. The swing between those moods is older than Instagram and younger than heraldry. Fashion just happens to run it on a short loop.
 
-Damier checks, monogram flowers, a repeating GG: the print is the product and the receipt. Louis Vuitton's monogram canvas, drawn by Georges Vuitton in 1896, was already a brand before the word "logomania" existed. Gucci's GG, Chanel's interlocking Cs, Hermès's carriage — these marks sat on leather goods for most of the twentieth century as a kind of polite code. The 1980s and 1990s turned the code into a shout. A Speedy or a Keepall in monogram was not shy. A Gucci loafers pair with the Horsebit was a password. Chanel quilted bags with the CC clasp did the same work in a different accent. Status was something you could read from across a restaurant.
+Damier checks, monogram flowers, a repeating GG: the print is the product and the receipt. Louis Vuitton's monogram canvas, drawn by Georges Vuitton in 1896, was already a brand before the word "logomania" existed. Gucci's GG, Chanel's interlocking Cs, Hermès's carriage — these marks sat on leather goods for most of the twentieth century as a kind of polite code. The 1980s and 1990s turned the code into a shout. A Speedy or a Keepall in monogram was not shy. A pair of Gucci loafers with the Horsebit was a password. Chanel quilted bags with the CC clasp did the same work in a different accent. Status was something you could read from across a restaurant.
 
 The early 2000s made the shout louder and cheaper to copy. John Galliano's Dior saddle bag, often in logo jacquard, hung on hips in every magazine. Takashi Murakami's 2003 collaboration with Louis Vuitton — the monogram in multicolor on white, then the cherry print — turned a trunk-maker's mark into a cartoon. Von Dutch trucker hats, Ed Hardy rhinestone skulls, and Juicy Couture's "JUIC" velour spelled the wearer's taste in letters an inch high. Counterfeits followed the real bags down Canal Street and into office parks. The logo had become the product.
 

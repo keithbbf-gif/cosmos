@@ -4,13 +4,13 @@ slug: rattan-everywhere-phases
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1148
+voice_check: edited
+word_count: 1207
 ---
 
 # Rattan: Porch Material, Living Room Fad
 
-The seat is a grid of cane, seven-by-seven or thereabouts, the glossy outer skin of rattan pulled through holes in a hardwood rail. One strand has snapped. The break is clean. You can see the hollow where the cane left the hole. This is a chair that can be recaned. It is also, depending on the year you bought it, a Victorian porch leftover, a 1970s peacock throne, an 1980s sunroom leftover, or a 2021 Instagram bed frame with a cane headboard from West Elm. The material keeps returning. The quality does not.
+The seat is a grid of cane, seven-by-seven or thereabouts, the glossy outer skin of rattan pulled through holes in a hardwood rail. One strand has snapped. The break is clean. You can see the hollow where the cane left the hole. This is a chair that can be recaned. It is also, depending on the year you bought it, a Victorian porch leftover, a 1970s peacock throne, a 1980s sunroom leftover, or a 2021 Instagram bed frame with a cane headboard from West Elm. The material keeps returning. The quality does not.
 
 Cyrus Wakefield started with discarded rattan used as dunnage on clipper ships — the usual founding story, told in the American Heritage account of the wicker dressing stand (May/June 1993) and in the National Register write-up of the Wakefield Rattan Company. He was in South Reading, Massachusetts, by the mid-1850s; the town later took his name. Heywood Brothers competed hard. In 1897 the rivals merged as Heywood Brothers & Wakefield Company; the name shortened to Heywood-Wakefield in 1921. Victorian wicker from those shops is a specific object: steam-bent or hardwood frames, reed and cane in curlicues, sometimes a motif in the back. It was porch furniture and parlor furniture. It was not a print. If you find a Wakefield or Heywood label, keep it. The labels are how you date a piece through the name changes. The furniture itself, if the frame is sound, can be rewoven.
 

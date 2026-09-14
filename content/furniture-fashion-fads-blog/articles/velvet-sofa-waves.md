@@ -4,8 +4,8 @@ slug: velvet-sofa-waves
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1101
+voice_check: edited
+word_count: 1164
 ---
 
 # Velvet Sofas: Glam Returns on a Timer

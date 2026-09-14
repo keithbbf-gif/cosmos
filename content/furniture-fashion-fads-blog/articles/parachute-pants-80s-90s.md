@@ -4,8 +4,8 @@ slug: parachute-pants-80s-90s
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 873
+voice_check: edited
+word_count: 924
 ---
 
 # Parachute Pants: Functional to Punchline

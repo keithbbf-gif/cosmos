@@ -4,8 +4,8 @@ slug: shiplap-fatigue
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 916
+voice_check: edited
+word_count: 939
 ---
 
 # When Shiplap Became a Punchline

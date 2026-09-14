@@ -4,8 +4,8 @@ slug: pinterest-to-purchase-pipeline
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 946
+voice_check: edited
+word_count: 998
 ---
 
 # Pinterest to Purchase: Mood Board Economics

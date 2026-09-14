@@ -4,8 +4,8 @@ slug: trend-forecasting-industrial-complex
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 924
+voice_check: edited
+word_count: 979
 ---
 
 # Who Declares a Trend Dead?

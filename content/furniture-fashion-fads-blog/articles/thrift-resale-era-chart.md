@@ -4,8 +4,8 @@ slug: thrift-resale-era-chart
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 992
+voice_check: edited
+word_count: 1015
 ---
 
 # Thrift and Resale: The Anti-Fad Infrastructure

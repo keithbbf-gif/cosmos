@@ -4,8 +4,8 @@ slug: wicker-moment-2020s
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 995
+voice_check: edited
+word_count: 1015
 ---
 
 # Wicker's 2020s Instagram Renaissance

@@ -4,8 +4,8 @@ slug: mcm-orange-plastic-chairs
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 845
+voice_check: edited
+word_count: 880
 ---
 
 # Orange Plastic Chairs: Fun Until Move-Out Day

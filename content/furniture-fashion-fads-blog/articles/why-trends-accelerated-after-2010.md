@@ -4,8 +4,8 @@ slug: why-trends-accelerated-after-2010
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 906
+voice_check: edited
+word_count: 927
 ---
 
 # Why Trends Accelerated After 2010

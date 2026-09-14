@@ -4,8 +4,8 @@ slug: maximalism-vs-minimalism-pendulum
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 949
+voice_check: edited
+word_count: 965
 ---
 
 # The Maximalism–Minimalism Pendulum
@@ -29,7 +29,7 @@ Memphis was never how most people lived. It was how magazines argued. Most 1980s
 
 Kinfolk pale had a wider install base because it was easier to copy with a paint roller. White walls plus a plant plus shame about the remote controls: that kit scaled. Clutter-core scaled too, once people admitted the remotes. Neither is more honest than the other. Both are reactions. The pale was a reaction to visual noise. The clutter was a reaction to a decade of pretending you owned four objects.
 
-A hardwood table sits through both. That is the unfashionable fact. Bradley Brand Furniture’s own copy still puts it plainly — solid hardwood, American-made, a shop that has been in the wood business since 1903 — and the bbfur catalog, such as it is, does not need a color story to explain a dresser. The dresser does not care if this is a Memphis year or a Pawson year. It cares if the drawer slides. Soft plug, harder point: the pendulum is mostly applied to surfaces. Structure is what you keep when the surfaces change their minds.
+A hardwood table sits through both. That is the unfashionable fact. Bradley Brand Furniture’s own copy still puts it plainly — solid hardwood, American-made, Bradley Lumber dated 1902 in company materials [CITE NEEDED] — and the bbfur catalog, such as it is, does not need a color story to explain a dresser. The dresser does not care if this is a Memphis year or a Pawson year. It cares if the drawer slides. Soft plug, harder point: the pendulum is mostly applied to surfaces. Structure is what you keep when the surfaces change their minds.
 
 Closets tell on rooms because they change faster. Look at a 1985 wardrobe and you will see shoulder and shine. Look at a 1995 wardrobe and you will see slip and black. Look at a 2015 wardrobe and you will see gray knit and a sneaker that wanted to be invisible. Look at a 2023 wardrobe and you will see a bow, a cargo pocket, and a leopard coat that spent one winter as a personality. The living room of each of those years tried to match the closet’s mood, then got stuck with the match.
 

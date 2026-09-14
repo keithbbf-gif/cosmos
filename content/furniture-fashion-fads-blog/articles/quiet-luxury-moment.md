@@ -4,8 +4,8 @@ slug: quiet-luxury-moment
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 1103
+voice_check: edited
+word_count: 1162
 ---
 
 # Quiet Luxury and the Logo Hangover

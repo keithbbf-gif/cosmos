@@ -4,8 +4,8 @@ slug: waterbed-decade
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 1045
+voice_check: edited
+word_count: 1117
 ---
 
 # Waterbeds: The Ultimate Dateable Fad

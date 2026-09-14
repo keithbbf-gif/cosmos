@@ -4,8 +4,8 @@ slug: platform-shoes-height-wars
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 799
+voice_check: edited
+word_count: 825
 ---
 
 # Platform Shoes and Altitude Inflation

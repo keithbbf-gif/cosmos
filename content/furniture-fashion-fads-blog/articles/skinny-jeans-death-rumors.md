@@ -4,8 +4,8 @@ slug: skinny-jeans-death-rumors
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 825
+voice_check: edited
+word_count: 850
 ---
 
 # Skinny Jeans 'Death' and Denim Politics

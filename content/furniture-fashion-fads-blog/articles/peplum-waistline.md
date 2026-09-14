@@ -4,13 +4,13 @@ slug: peplum-waistline
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 869
+voice_check: edited
+word_count: 893
 ---
 
 # Peplum Waistlines: Short Runway, Long Tail on eBay
 
-For about three years — call it 2011 through 2013 if you lived near a mall — a flap of fabric at the waist was mandatory. The peplum arrived on work dresses, on knit tops, on jackets that had been ordinary until a designer added a little shelf above the hip. It flared. It hid. It photographed as a hourglass even when the body underneath had not signed up for one. Then, almost as a group, the racks moved on, and the leftover peplums went to the place leftover silhouettes go: eBay, a hall closet, a bridesmaid’s “I might wear this again.”
+For about three years — call it 2011 through 2013 if you lived near a mall — a flap of fabric at the waist was mandatory. The peplum arrived on work dresses, on knit tops, on jackets that had been ordinary until a designer added a little shelf above the hip. It flared. It hid. It photographed as an hourglass even when the body underneath had not signed up for one. Then, almost as a group, the racks moved on, and the leftover peplums went to the place leftover silhouettes go: eBay, a hall closet, a bridesmaid’s “I might wear this again.”
 
 The cut is older than the fad. Christian Dior’s New Look in 1947 built a peplum into the jacket as architecture. Cristóbal Balenciaga knew how to float cloth off a ribcage. Alexander McQueen and Givenchy sent peplums down runways in the 2000s without starting a civic event. What 2011 did was industrialize the flare. H&M, Zara, Ann Taylor, and Banana Republic all shipped the same idea at the same time: a band of extra fabric that said *waist* the way a belt does, except you could not take it off.
 

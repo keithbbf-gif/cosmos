@@ -4,8 +4,8 @@ slug: shoulder-pads-power-dressing
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 818
+voice_check: edited
+word_count: 872
 ---
 
 # Shoulder Pads and the Power Silhouette

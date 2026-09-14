@@ -4,8 +4,8 @@ slug: low-rise-jeans-cycle
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 778
+voice_check: edited
+word_count: 802
 ---
 
 # Low-Rise Jeans: The Cycle Everyone Debates

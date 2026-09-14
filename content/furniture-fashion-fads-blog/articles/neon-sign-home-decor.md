@@ -4,8 +4,8 @@ slug: neon-sign-home-decor
 category: furniture
 status: draft
 graphics: true
-voice_check: human
-word_count: 846
+voice_check: edited
+word_count: 866
 ---
 
 # Neon Signs in Bedrooms
@@ -14,7 +14,7 @@ The bedroom wanted a bar. That is the short history of the 2010s neon hang: a sc
 
 Real neon is glass, gas, a transformer, a trade. The beer-bar inherit is the honest ancestor: a Miller or a local lager, a clock, a humming tube behind a logo, the kind of object that arrived from a distributor and died when a letter burned out. Taverns and rec rooms had been hanging that light for decades. The 2010s bedroom took the glow and swapped the brand for a feeling. Feeling is a weaker product than beer. Beer at least names a company. “But first coffee,” in pink script, names a year.
 
-LED flex made the fad possible at apartment scale. No glass shop, no high voltage, a plug, an app if the listing was proud. The photograph could not always tell tube from tape. Your eye can, in person: neon has a even, slightly dangerous line; cheap LED has hot spots and a plastic channel. I will not invent a sales figure for Urban Outfitters or Etsy. The type is enough. You have seen the sign. It is still in a bedroom, or it is in a closet because the next partner did not want to sleep under a slogan.
+LED flex made the fad possible at apartment scale. No glass shop, no high voltage, a plug, an app if the listing was proud. The photograph could not always tell tube from tape. Your eye can, in person: neon has an even, slightly dangerous line; cheap LED has hot spots and a plastic channel. I will not invent a sales figure for Urban Outfitters or Etsy. The type is enough. You have seen the sign. It is still in a bedroom, or it is in a closet because the next partner did not want to sleep under a slogan.
 
 <figure class="fffb-figure">
   <img src="../assets/neon-sign-home-decor/decade-timeline.svg" alt="Decade timeline: Neon Signs in Bedrooms" width="720" loading="lazy" />

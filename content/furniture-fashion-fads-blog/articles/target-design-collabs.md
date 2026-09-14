@@ -4,8 +4,8 @@ slug: target-design-collabs
 category: cross
 status: draft
 graphics: true
-voice_check: human
-word_count: 1032
+voice_check: edited
+word_count: 1086
 ---
 
 # Target Design Collabs and the Drop Calendar

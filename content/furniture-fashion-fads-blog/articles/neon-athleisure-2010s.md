@@ -4,8 +4,8 @@ slug: neon-athleisure-2010s
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 855
+voice_check: edited
+word_count: 880
 ---
 
 # Neon Athleisure and the Gym Selfie Era

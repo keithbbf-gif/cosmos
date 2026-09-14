@@ -4,8 +4,8 @@ slug: normcore-ironically-timeless
 category: fashion
 status: draft
 graphics: true
-voice_check: human
-word_count: 920
+voice_check: edited
+word_count: 960
 ---
 
 # Normcore: Anti-Trend That Became a Trend
@@ -31,7 +31,7 @@ By 2016 the caption had a store. “Normcore” sat on hangtags next to “effor
 
 Greige had the same plot twist. A wall sold as “quiet” is quiet until every listing in the zip code uses the same swatch. Then the quiet is a chorus. House-flippers learned that a greige open-plan photographed well and offended no one, which is another way of saying it pleased the algorithm. The room that claimed it was not trying had tried very hard to be sellable. Normcore’s closet and the greige living room were both answers to a market that punished taste that could be named — until the answer itself got a name.
 
-What ages is the theory, not the tee shirt. A plain white sneaker from 1998 still looks like a sneaker. A 2014 blog post about the sneaker as philosophy looks like a time capsule. Same for the sofa. A linen slipcover in a color with no name can last twenty years if nobody photographs it with a manifesto. Photograph it as “the end of color” and you have dated the room to the year the manifesto trended.
+What ages is the theory, not the T-shirt. A plain white sneaker from 1998 still looks like a sneaker. A 2014 blog post about the sneaker as philosophy looks like a time capsule. Same for the sofa. A linen slipcover in a color with no name can last twenty years if nobody photographs it with a manifesto. Photograph it as “the end of color” and you have dated the room to the year the manifesto trended.
 
 The 2020s tried to bury normcore under “quiet luxury,” a cousin that kept the beige and added a price. Same refusal, better lighting. The fleece gave way to a cashmere crewneck that still pretended not to perform. Rooms followed: greige grew warmer, then got accused of being sad, then came back as “organic modern.” The sentence under the paint did not change. I am not trying. Please notice.
 
