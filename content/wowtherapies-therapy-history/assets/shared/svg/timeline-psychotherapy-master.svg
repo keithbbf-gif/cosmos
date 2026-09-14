@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="fig01-title fig01-desc">
+  <title id="fig01-title">Fig. 1 - Landmarks in psychotherapy and counseling (1850-present)</title>
+  <desc id="fig01-desc">Horizontal timeline from moral treatment and hypnotism through psychoanalysis, behavior and cognitive therapies, humanistic approaches, and integrative third-wave models.</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .label { font-size: 13px; font-weight: bold; }
+      .note { font-size: 11px; }
+      .year { font-size: 12px; font-weight: bold; fill: #6B2D3E; }
+      .band-psycho { fill: #E8DCC8; }
+      .band-behav { fill: #D4E3D0; }
+      .band-human { fill: #D8E0EB; }
+      .band-cog { fill: #E9D4DC; }
+      .band-wave { fill: #EDE6F2; }
+      .rule { stroke: #1C1A17; stroke-width: 1.2; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 1; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1C1A17"/>
+    </marker>
+  </defs>
+  <rect class="paper" width="1200" height="520"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#6B2D3E"/>
+  <text x="48" y="42" class="ink caps">Fig. 01</text>
+  <text x="48" y="72" class="ink" font-size="26" font-weight="bold">Psychotherapy on a timeline</text>
+  <text x="48" y="98" class="muted note">Selected landmarks - not exhaustive. Dates mark first influential publication or founding clinic where noted.</text>
+  <line x1="48" y1="118" x2="1152" y2="118" class="rule" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Era bands -->
+  <rect x="80" y="140" width="180" height="36" class="band-psycho" rx="2"/>
+  <text x="90" y="162" class="muted caps" font-size="10">Pre-psychodynamic</text>
+  <rect x="260" y="140" width="220" height="36" class="band-psycho" rx="2"/>
+  <text x="270" y="162" class="muted caps" font-size="10">Psychoanalytic &amp; analytic</text>
+  <rect x="480" y="140" width="200" height="36" class="band-behav" rx="2"/>
+  <text x="490" y="162" class="muted caps" font-size="10">Behavioral &amp; learning</text>
+  <rect x="680" y="140" width="180" height="36" class="band-human" rx="2"/>
+  <text x="690" y="162" class="muted caps" font-size="10">Humanistic</text>
+  <rect x="860" y="140" width="160" height="36" class="band-cog" rx="2"/>
+  <text x="870" y="162" class="muted caps" font-size="10">Cognitive</text>
+  <rect x="1020" y="140" width="120" height="36" class="band-wave" rx="2"/>
+  <text x="1030" y="162" class="muted caps" font-size="10">Third wave</text>
+
+  <!-- Main axis -->
+  <line x1="80" y1="280" x2="1120" y2="280" class="rule" marker-end="url(#arrow)"/>
+  <text x="80" y="268" class="muted caps">Time</text>
+
+  <!-- Year scale -->
+  <g class="tick">
+    <line x1="120" y1="272" x2="120" y2="288"/><text x="108" y="308" class="year">1850</text>
+    <line x1="240" y1="272" x2="240" y2="288"/><text x="228" y="308" class="year">1900</text>
+    <line x1="400" y1="272" x2="400" y2="288"/><text x="388" y="308" class="year">1920</text>
+    <line x1="520" y1="272" x2="520" y2="288"/><text x="508" y="308" class="year">1950</text>
+    <line x1="680" y1="272" x2="680" y2="288"/><text x="668" y="308" class="year">1960</text>
+    <line x1="820" y1="272" x2="820" y2="288"/><text x="808" y="308" class="year">1970</text>
+    <line x1="960" y1="272" x2="960" y2="288"/><text x="948" y="308" class="year">1990</text>
+    <line x1="1080" y1="272" x2="1080" y2="288"/><text x="1068" y="308" class="year">2010</text>
+  </g>
+
+  <!-- Milestones -->
+  <g>
+    <line x1="140" y1="280" x2="140" y2="220" class="tick"/>
+    <circle cx="140" cy="214" r="5" fill="#6B2D3E"/>
+    <text x="148" y="210" class="label ink">Moral treatment</text>
+    <text x="148" y="226" class="note muted">Pinel - Tuke - ~1790s-1850s</text>
+
+    <line x1="260" y1="280" x2="260" y2="330" class="tick"/>
+    <circle cx="260" cy="336" r="5" fill="#6B2D3E"/>
+    <text x="180" y="352" class="label ink">Freud: psychoanalysis</text>
+    <text x="180" y="368" class="note muted">Studies on Hysteria - 1895; clinic ~1900</text>
+
+    <line x1="400" y1="280" x2="400" y2="220" class="tick"/>
+    <circle cx="400" cy="214" r="5" fill="#6B2D3E"/>
+    <text x="320" y="200" class="label ink">Jung - Adler - Klein</text>
+    <text x="320" y="216" class="note muted">Analytic schools branch - 1910s-1930s</text>
+
+    <line x1="520" y1="280" x2="520" y2="330" class="tick"/>
+    <circle cx="520" cy="336" r="5" fill="#4A6741"/>
+    <text x="440" y="352" class="label ink">Wolpe - systematic desensitization</text>
+    <text x="440" y="368" class="note muted">Behavior therapy - ~1958</text>
+
+    <line x1="680" y1="280" x2="680" y2="220" class="tick"/>
+    <circle cx="680" cy="214" r="5" fill="#3D5A80"/>
+    <text x="600" y="200" class="label ink">Rogers - client-centered</text>
+    <text x="600" y="216" class="note muted">Counseling and Psychotherapy - 1942</text>
+
+    <line x1="820" y1="280" x2="820" y2="330" class="tick"/>
+    <circle cx="820" cy="336" r="5" fill="#6B2D3E"/>
+    <text x="740" y="352" class="label ink">Beck - cognitive therapy</text>
+    <text x="740" y="368" class="note muted">Depression manual - 1979</text>
+
+    <line x1="900" y1="280" x2="900" y2="220" class="tick"/>
+    <circle cx="900" cy="214" r="5" fill="#6B2D3E"/>
+    <text x="820" y="200" class="label ink">Ellis - REBT</text>
+    <text x="820" y="216" class="note muted">Reason and Emotion - 1962</text>
+
+    <line x1="1000" y1="280" x2="1000" y2="330" class="tick"/>
+    <circle cx="1000" cy="336" r="5" fill="#5C4D7A"/>
+    <text x="920" y="352" class="label ink">Linehan - DBT</text>
+    <text x="920" y="368" class="note muted">Borderline treatment - 1993</text>
+
+    <line x1="1080" y1="280" x2="1080" y2="220" class="tick"/>
+    <circle cx="1080" cy="214" r="5" fill="#5C4D7A"/>
+    <text x="990" y="200" class="label ink">Hayes - ACT</text>
+    <text x="990" y="216" class="note muted">Acceptance &amp; commitment - 1999</text>
+  </g>
+
+
+    <line x1="180" y1="280" x2="180" y2="330" class="tick"/>
+    <circle cx="180" cy="336" r="5" fill="#6B2D3E"/>
+    <text x="100" y="352" class="label ink">Dix — asylum inspection</text>
+    <text x="100" y="368" class="note muted">US memorials — 1840s</text>
+    <line x1="600" y1="280" x2="600" y2="330" class="tick"/>
+    <circle cx="600" cy="336" r="5" fill="#3D5A80"/>
+    <text x="520" y="352" class="label ink">Bowlby attachment theory</text>
+    <text x="520" y="368" class="note muted">1969–73 monographs</text>
+    <line x1="720" y1="280" x2="720" y2="220" class="tick"/>
+    <circle cx="720" cy="214" r="5" fill="#5C4D7A"/>
+    <text x="640" y="200" class="label ink">Herman — trauma recovery</text>
+    <text x="640" y="216" class="note muted">1992</text>
+
+  <rect x="48" y="430" width="1104" height="62" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.9"/>
+  <text x="60" y="452" class="muted caps">Caption</text>
+  <text x="60" y="474" class="note ink" font-size="12">Fig. 1. Parallel school bands (top) sit above a single chronological axis. Integrative and multicultural practice today draws across all bands; third-wave models often combine cognitive framing with mindfulness and values work.</text>
+</svg>

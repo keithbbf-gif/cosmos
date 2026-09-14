@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-labelledby="t d">
+  <title id="t">Liberation psychology map</title>
+  <desc id="d">Global south clinical critique schematic</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1000" height="440"/>
+  <rect x="0" y="0" width="1000" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 12</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Multicultural, liberation, and decolonial psychologies</text>
+  <rect x="80" y="140" width="260" height="100" fill="#EDE6F2" stroke="#1C1A17"/>
+  <text x="92" y="168" class="ink" font-weight="bold">Fanon — colonial wound</text>
+  <text x="92" y="190" class="muted" font-size="12">Algeria / Black Skin, White Masks</text>
+  <rect x="370" y="140" width="260" height="100" fill="#EDE6F2" stroke="#1C1A17"/>
+  <text x="382" y="168" class="ink" font-weight="bold">Martín-Baró — lib. psychology</text>
+  <text x="382" y="190" class="muted" font-size="12">UCA, El Salvador</text>
+  <rect x="660" y="140" width="260" height="100" fill="#EDE6F2" stroke="#1C1A17"/>
+  <text x="672" y="168" class="ink" font-weight="bold">Sue &amp; Sue — multicultural counseling</text>
+  <text x="672" y="190" class="muted" font-size="12">US training &amp; competence models</text>
+  <text x="80" y="280" class="ink" font-size="13">Morita therapy &amp; Bose (Calcutta) appear in figure essays — not reduced to a flag collage.</text>
+
+  <rect x="40" y="350" width="920" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="370" class="muted caps">Caption</text>
+  <text x="52" y="390" class="ink" font-size="12">Fig. 1. Three liberation/multicultural anchors (schematic). Original SVG (CC0); no AI faces or flag stock.</text>
+</svg>

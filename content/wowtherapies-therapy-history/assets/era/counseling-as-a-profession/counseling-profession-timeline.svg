@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 460" role="img" aria-labelledby="t d">
+  <title id="t">Counseling profession timeline</title>
+  <desc id="d">Credentialing and professional associations</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1100" height="460"/>
+  <rect x="0" y="0" width="1100" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 14</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Counseling as a profession</text>
+  <line x1="80" y1="210" x2="1020" y2="210" class="rule"/>
+
+  <line x1="120" y1="210" x2="120" y2="170" class="tick"/>
+  <text x="100" y="155" class="ink" font-weight="bold">1909</text>
+  <text x="70" y="240" class="ink" font-size="12" font-weight="bold">Parsons vocational guidance</text>
+  <text x="65" y="258" class="muted" font-size="11">Boston</text>
+
+  <line x1="300" y1="210" x2="300" y2="170" class="tick"/>
+  <text x="280" y="155" class="ink" font-weight="bold">1952</text>
+  <text x="250" y="240" class="ink" font-size="12" font-weight="bold">APGA founded</text>
+  <text x="245" y="258" class="muted" font-size="11">→ ACA lineage</text>
+
+  <line x1="480" y1="210" x2="480" y2="170" class="tick"/>
+  <text x="460" y="155" class="ink" font-weight="bold">1976</text>
+  <text x="430" y="240" class="ink" font-size="12" font-weight="bold">CACREP accreditation</text>
+  <text x="425" y="258" class="muted" font-size="11">Training standards</text>
+
+  <line x1="660" y1="210" x2="660" y2="170" class="tick"/>
+  <text x="640" y="155" class="ink" font-weight="bold">1980s</text>
+  <text x="610" y="240" class="ink" font-size="12" font-weight="bold">Licensure spread</text>
+  <text x="605" y="258" class="muted" font-size="11">State boards</text>
+
+  <line x1="840" y1="210" x2="840" y2="170" class="tick"/>
+  <text x="820" y="155" class="ink" font-weight="bold">2010s</text>
+  <text x="790" y="240" class="ink" font-size="12" font-weight="bold">Telemental health</text>
+  <text x="785" y="258" class="muted" font-size="11">Policy &amp; ethics codes</text>
+
+  <rect x="40" y="340" width="1020" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="360" class="muted caps">Caption</text>
+  <text x="52" y="380" class="ink" font-size="12">Fig. 1. Counseling profession milestones (selected). Original timeline SVG (CC0).</text>
+</svg>

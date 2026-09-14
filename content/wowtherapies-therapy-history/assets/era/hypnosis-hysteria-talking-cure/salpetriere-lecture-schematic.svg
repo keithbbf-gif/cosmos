@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-labelledby="t d">
+  <title id="t">Hypnosis and the talking cure schematic</title>
+  <desc id="d">Salpêtrière lecture hall as architectural schematic without portraits</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1000" height="440"/>
+  <rect x="0" y="0" width="1000" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 03</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Hypnosis, hysteria, and the birth of a talking method</text>
+  <rect x="80" y="130" width="840" height="180" fill="#EDE6F2" stroke="#1C1A17" stroke-width="0.8"/>
+  <text x="100" y="160" class="ink" font-weight="bold">Amphitheater lecture (schematic floor plan)</text>
+  <ellipse cx="500" cy="220" rx="120" ry="50" fill="#FFF" stroke="#1C1A17"/>
+  <text x="500" y="224" text-anchor="middle" class="muted" font-size="12">Demonstration bed</text>
+  <text x="120" y="250" class="muted" font-size="12">Tiered seating — physicians &amp; students observe symptoms</text>
+  <path d="M200,280 Q500,320 800,280" fill="none" stroke="#6B2D3E" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="100" y="340" class="ink" font-size="13">Charcot’s Tuesday lectures (Salpêtrière) → Janet’s dissociation → Freud &amp; Breuer, <tspan font-style="italic">Studies on Hysteria</tspan> (1895)</text>
+  <text x="100" y="364" class="muted" font-size="12">No patient likenesses in this plate — architecture and citation chain only.</text>
+
+  <rect x="40" y="370" width="920" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="390" class="muted caps">Caption</text>
+  <text x="52" y="410" class="ink" font-size="12">Fig. 1. Editorial schematic of lecture-demonstration settings. Brouillet’s 1887 painting may be cited separately under PD; this diagram is original (CC0).</text>
+</svg>

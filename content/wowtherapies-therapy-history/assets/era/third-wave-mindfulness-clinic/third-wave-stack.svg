@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="t d">
+  <title id="t">Third wave stack</title>
+  <desc id="d">DBT ACT mindfulness layering</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="900" height="420"/>
+  <rect x="0" y="0" width="900" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 13</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Third-wave therapies and mindfulness in the room</text>
+<rect x="200" y="130" width="500" height="48" fill="#EDE6F2" stroke="#1C1A17" stroke-width="0.8"/><text x="220" y="160" class="ink" font-size="13">Traditional CBT skills</text><rect x="200" y="186" width="500" height="48" fill="#EDE6F2" stroke="#1C1A17" stroke-width="0.8"/><text x="220" y="216" class="ink" font-size="13">Mindfulness / acceptance</text><rect x="200" y="242" width="500" height="48" fill="#EDE6F2" stroke="#1C1A17" stroke-width="0.8"/><text x="220" y="272" class="ink" font-size="13">Values &amp; dialectics</text><rect x="200" y="298" width="500" height="48" fill="#EDE6F2" stroke="#1C1A17" stroke-width="0.8"/><text x="220" y="328" class="ink" font-size="13">Community / skills group</text>
+  <rect x="40" y="360" width="820" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="380" class="muted caps">Caption</text>
+  <text x="52" y="400" class="ink" font-size="12">Fig. 1. Layered third-wave stack (DBT, ACT, mindfulness integrations). Original schematic (CC0).</text>
+</svg>

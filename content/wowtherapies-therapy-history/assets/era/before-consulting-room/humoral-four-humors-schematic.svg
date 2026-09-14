@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="t d">
+  <title id="t">Humoral temperament schematic</title>
+  <desc id="d">Four humors teaching chart, editorial schematic not a historical artifact</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1000" height="520"/>
+  <rect x="0" y="0" width="1000" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 01</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Before the clinic: humors as a shared language</text>
+  <text x="48" y="100" class="muted" font-size="12">Schematic — not to scale. Dates are approximate literary traditions, not laboratory facts.</text>
+  <g font-family="Georgia" font-size="13">
+    <rect x="60" y="140" width="200" height="90" fill="#D8E0EB" stroke="#1C1A17" stroke-width="0.8"/>
+    <text x="72" y="168" class="ink" font-weight="bold">Blood</text>
+    <text x="72" y="190" class="muted">Sanguine — warm, moist</text>
+    <text x="72" y="210" class="muted">Associated: spring, air</text>
+    <rect x="280" y="140" width="200" height="90" fill="#E8DCC8" stroke="#1C1A17" stroke-width="0.8"/>
+    <text x="292" y="168" class="ink" font-weight="bold">Yellow bile</text>
+    <text x="292" y="190" class="muted">Choleric — hot, dry</text>
+    <text x="292" y="210" class="muted">Associated: summer, fire</text>
+    <rect x="500" y="140" width="200" height="90" fill="#D4E3D0" stroke="#1C1A17" stroke-width="0.8"/>
+    <text x="512" y="168" class="ink" font-weight="bold">Phlegm</text>
+    <text x="512" y="190" class="muted">Phlegmatic — cold, moist</text>
+    <text x="512" y="210" class="muted">Associated: winter, water</text>
+    <rect x="720" y="140" width="200" height="90" fill="#E9D4DC" stroke="#1C1A17" stroke-width="0.8"/>
+    <text x="732" y="168" class="ink" font-weight="bold">Black bile</text>
+    <text x="732" y="190" class="muted">Melancholic — cold, dry</text>
+    <text x="732" y="210" class="muted">Melancholy as physiology</text>
+  </g>
+  <line x1="80" y1="280" x2="920" y2="280" class="rule"/>
+  <text x="80" y="268" class="muted caps">Parallel care settings (not psychotherapy)</text>
+  <text x="100" y="310" class="ink" font-size="13">• Asklepian incubation — dream interpretation at sanctuaries (c. 5th c. BCE–)</text>
+  <text x="100" y="334" class="ink" font-size="13">• Galenic medicine — temperament + regimen (2nd c. CE onward)</text>
+  <text x="100" y="358" class="ink" font-size="13">• Pastoral confession / spiritual direction — speech without a fee-for-service hour</text>
+  <text x="100" y="382" class="ink" font-size="13">• Islamic bimaristans — institutional wards, not consulting rooms</text>
+  <text x="100" y="406" class="ink" font-size="13">• Burton, <tspan font-style="italic">Anatomy of Melancholy</tspan> (1621) — literary melancholy as a door to rumination</text>
+
+  <rect x="40" y="430" width="920" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="450" class="muted caps">Caption</text>
+  <text x="52" y="470" class="ink" font-size="12">Fig. 1. Editorial humoral schematic summarizing how pre-modern clinicians named inner states. Original ink drawing (CC0). No patient likenesses.</text>
+</svg>

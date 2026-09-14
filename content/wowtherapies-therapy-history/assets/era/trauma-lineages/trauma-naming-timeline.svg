@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" role="img" aria-labelledby="t d">
+  <title id="t">Asylum reform timeline</title>
+  <desc id="d">Moral treatment and asylum reform milestones</desc>
+  <defs>
+    <style>
+      .paper { fill: #F7F2E8; }
+      .ink { fill: #1C1A17; font-family: Georgia, 'Palatino Linotype', serif; }
+      .muted { fill: #5C564C; font-family: Georgia, serif; }
+      .caps { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+      .rule { stroke: #1C1A17; stroke-width: 1; fill: none; }
+      .tick { stroke: #1C1A17; stroke-width: 0.8; }
+    </style>
+  </defs>
+  <rect class="paper" width="1100" height="480"/>
+  <rect x="0" y="0" width="1100" height="6" fill="#6B2D3E"/>
+
+  <text x="48" y="44" class="ink caps">Era 10</text>
+  <text x="48" y="74" class="ink" font-size="24" font-weight="bold">Trauma lineages: shell shock to complex PTSD</text>
+  <line x1="80" y1="200" x2="1020" y2="200" class="rule" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#1C1A17"/></marker></defs>
+
+  <line x1="120" y1="200" x2="120" y2="160" class="tick"/>
+  <circle cx="120" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="102" y="130" class="ink" font-size="12" font-weight="bold">1793</text>
+  <text x="80" y="230" class="ink" font-size="12" font-weight="bold">WWI shell shock clinics</text>
+  <text x="65" y="248" class="muted" font-size="11">Unchaining narrative — see Weiner on legend</text>
+
+  <line x1="280" y1="200" x2="280" y2="160" class="tick"/>
+  <circle cx="280" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="262" y="130" class="ink" font-size="12" font-weight="bold">1796</text>
+  <text x="240" y="230" class="ink" font-size="12" font-weight="bold">Combat stress units</text>
+  <text x="225" y="248" class="muted" font-size="11">Tuke family — moral management</text>
+
+  <line x1="420" y1="200" x2="420" y2="160" class="tick"/>
+  <circle cx="420" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="402" y="130" class="ink" font-size="12" font-weight="bold">1841</text>
+  <text x="380" y="230" class="ink" font-size="12" font-weight="bold">Vietnam PTSD recognition</text>
+  <text x="365" y="248" class="muted" font-size="11">US asylum inspection campaign</text>
+
+  <line x1="560" y1="200" x2="560" y2="160" class="tick"/>
+  <circle cx="560" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="542" y="130" class="ink" font-size="12" font-weight="bold">1908</text>
+  <text x="520" y="230" class="ink" font-size="12" font-weight="bold">Herman, Trauma and Recovery</text>
+  <text x="505" y="248" class="muted" font-size="11">A Mind That Found Itself</text>
+
+  <line x1="720" y1="200" x2="720" y2="160" class="tick"/>
+  <circle cx="720" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="702" y="130" class="ink" font-size="12" font-weight="bold">1909</text>
+  <text x="680" y="230" class="ink" font-size="12" font-weight="bold">DSM-III PTSD</text>
+  <text x="665" y="248" class="muted" font-size="11">Mental hygiene movement</text>
+
+  <line x1="880" y1="200" x2="880" y2="160" class="tick"/>
+  <circle cx="880" cy="154" r="5" fill="#6B2D3E"/>
+  <text x="862" y="130" class="ink" font-size="12" font-weight="bold">1950s</text>
+  <text x="840" y="230" class="ink" font-size="12" font-weight="bold">Complex PTSD debates</text>
+  <text x="825" y="248" class="muted" font-size="11">Community care debates</text>
+
+  <rect x="40" y="360" width="1020" height="56" fill="#FFF" stroke="#1C1A17" stroke-width="0.6" opacity="0.92"/>
+  <text x="52" y="380" class="muted caps">Caption</text>
+  <text x="52" y="400" class="ink" font-size="12">Fig. 1. Selected trauma-naming milestones (schematic). Do not treat Robert-Fleury’s 1876 canvas as documentary evidence. Original SVG (CC0).</text>
+</svg>
