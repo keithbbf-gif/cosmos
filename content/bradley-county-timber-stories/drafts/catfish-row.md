@@ -3,7 +3,7 @@ title: "Catfish Row"
 slug: catfish-row
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 25
 word_target: 1400-2200
 lane: bradleylumbercompany.com

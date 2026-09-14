@@ -3,7 +3,7 @@ title: "Photographs and letters"
 slug: photographs-and-letters
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 43
 word_target: 1400-2200
 lane: bradleylumbercompany.com

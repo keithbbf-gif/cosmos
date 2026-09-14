@@ -3,7 +3,7 @@ title: Hugh Bradley comes up the Red
 slug: hugh-bradley-comes-up-the-red
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 2
 word_target: 1400-2200
 lane: bradleylumbercompany.com

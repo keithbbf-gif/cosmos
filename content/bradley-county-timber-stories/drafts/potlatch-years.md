@@ -3,7 +3,7 @@ title: "The Potlatch years"
 slug: potlatch-years
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 33
 word_target: 1400-2200
 lane: bradleylumbercompany.com

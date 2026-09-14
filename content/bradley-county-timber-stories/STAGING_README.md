@@ -19,6 +19,8 @@ This pack is historical copy for the bradleylumbercompany.com lane. Posts stay `
 - `STYLE_GUIDE.md`
 - `BIBLIOGRAPHY.md`
 - `MANIFEST.md` — word counts
+- `EDITOR_REPORT.md` — magazine-floor editor pass (PR #318)
+- `check_pack.py` — structural QA (`python3 check_pack.py`)
 - `writer-slugs.json` — canonical slugs
 - this file
 

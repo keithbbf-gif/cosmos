@@ -3,7 +3,7 @@ title: "Shortleaf pine country"
 slug: shortleaf-pine-country
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 7
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -29,7 +29,7 @@ The small mills of the 1880s already knew the mix. A barn wants pine. A wagon be
 
 Summer is the other climate. Anyone who has walked a shortleaf stand in July knows the tick of cooling bark and the way the air holds dust. The encyclopedia will not give us a mill-floor thermometer. The Gene Davis comment on the Warren page — a later memory of a man named Moree wiping his brow and saying the obvious about the heat — is the kind of weather that gets into comments and not into tables. Treat it as memory. The heat is not in dispute. Kiln-dried pine in this county is a fight with August. Green oak in this county is a fight with the same month. The mixed car is a fight with both, plus a billing clerk.
 
-By 1907 the three large mills were posting numbers that treated the woods as a daily crop. Southern, the Weyerhaeuser-Denkman plant, 100,000 board feet and 300 men. Bradley, Fullerton’s, 100,000 and 350, and the boast of a world’s large hardwood dealer — which is the oak talking, not the pine. Arkansas Lumber, Rittenhouse and Embree, 150,000 and 400. Add them and the peninsula is asked for 350,000 feet a day. A shortleaf county can give that number for a while. It cannot give it forever. Arkansas Lumber clear-cut 85,000 acres and closed in 1928. That is the pine belt’s old math. Southern’s 1939 fire and Warner’s second-growth argument is the new math. Bradley’s hardwood identity is the hallway that never emptied as completely as the hills.
+By 1907 the three large mills were posting numbers that treated the woods as a daily crop. Southern, the Weyerhaeuser-Denkman plant, 100,000 board feet and 300 men. Bradley, Fullerton’s, 100,000 and 350, and the boast of one of the world’s largest hardwood dealers — which is the oak talking, not the pine. Arkansas Lumber, Rittenhouse and Embree, 150,000 and 400. Add them and the peninsula is asked for 350,000 feet a day. A shortleaf county can give that number for a while. It cannot give it forever. Arkansas Lumber clear-cut 85,000 acres and closed in 1928. That is the pine belt’s old math. Southern’s 1939 fire and Warner’s second-growth argument is the new math. Bradley’s hardwood identity is the hallway that never emptied as completely as the hills.
 
 The pink tomato, introduced by the 1920s, is the agricultural twin of that mixed woods. When cotton thinned as a small-farm living, the county grew a fruit that ships if you pick it just as the top turns pink. The legislature later called it a state fruit. The festival began in 1956, the same year Potlatch bought Southern. Dual identity is not a brochure line. It is what a sandy coastal-plain county does when it has both a long growing season and a forest: it sells a tree and a tomato from the same heat. The brick streets of about 1927 still carry painted tomatoes. The postcard still carries pine and oak. Both are true. Neither cancels the whistle.
 

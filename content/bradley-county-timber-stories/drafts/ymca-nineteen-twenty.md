@@ -3,7 +3,7 @@ title: "The YMCA, nineteen twenty"
 slug: ymca-nineteen-twenty
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 24
 word_target: 1400-2200
 lane: bradleylumbercompany.com

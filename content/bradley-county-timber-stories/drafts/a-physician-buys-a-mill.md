@@ -3,7 +3,7 @@ title: "A physician buys a mill"
 slug: a-physician-buys-a-mill
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 38
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -25,7 +25,7 @@ Potlatch’s 2002 Form 10-K put the hour in the dry language of a diversified ma
 
 Chambers was not the first doctor in Warren’s civic file. Dr. John Wilson Martin settled here by 1848. Dr. Cabeen was postmaster before the town had its later name. The Hunt Hospital sat on the second floor of a store. The 1975 tornado tore a cardiac wing. An emergency-room physician buying a hardwood mill in 2002 is a rhyme, not a dynasty. Medicine had been the county’s other skilled trade since the parlor-court years. Timber had been the wage. For six years the two trades met in one person who said he was spending a retirement on other people’s shifts.
 
-The mill he bought was the Bradley plant, the one the papers still dated to 1903 when they wrote the 2008 obituary of its second death. 1903 is also the year Frank W. Gibb’s courthouse rose on the square — rusticated brick, unequal towers, a cupola — while the large-mill decade was changing the town’s weight. Samuel Fullerton’s Bradley Lumber was finding its feet. William H. Wheeler had started the small mill; Fullerton of St. Louis had bought it; Joe L. Reaves, Sr., Hugh Bradley’s descendant, had walked the timber with a purchase book. By 1907 the plant posted 100,000 board feet a day and 350 men, a world’s large hardwood dealer. That is the inheritance. Not a logo. A count, a species list, a town that had doubled in a decade because oak and pine could leave on a rail.
+The mill he bought was the Bradley plant, the one the papers still dated to 1903 when they wrote the 2008 obituary of its second death. 1903 is also the year Frank W. Gibb’s courthouse rose on the square — rusticated brick, unequal towers, a cupola — while the large-mill decade was changing the town’s weight. Samuel Fullerton’s Bradley Lumber was finding its feet. William H. Wheeler had started the small mill; Fullerton of St. Louis had bought it; Joe L. Reaves, Sr., Hugh Bradley’s descendant, had walked the timber with a purchase book. By 1907 the plant posted 100,000 board feet a day and 350 men, one of the world’s largest hardwood dealers. That is the inheritance. Not a logo. A count, a species list, a town that had doubled in a decade because oak and pine could leave on a rail.
 
 What a physician can do with a mill is not what Fullerton could do with a mill. Fullerton had sons, Robert W. and S. Baker, Cornell and the floor. He had a commissary. He had scrip and a weekly settle at 215 South Main after 1920. He had a YMCA Council of 22 in 1918 and a building in 1920. Chambers had a credit line, state development loans, and a housing market that had not yet fallen through the floor his mill was trying to feed. The 2008 paper will have to carry the suit. This essay stops at the purchase and the motive, because the motive is the rare public sentence. A local doctor said he bought jobs. The record does not require us to decorate that. It requires us not to turn it into a brochure.
 

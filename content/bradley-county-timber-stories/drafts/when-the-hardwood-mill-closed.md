@@ -3,7 +3,7 @@ title: "When the hardwood mill closed"
 slug: when-the-hardwood-mill-closed
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 39
 word_target: 1400-2200
 lane: bradleylumbercompany.com

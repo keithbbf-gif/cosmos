@@ -10,6 +10,8 @@ lane: bradleylumbercompany.com
 
 This series is for [bradleylumbercompany.com](https://bradleylumbercompany.com): historical essays on Bradley County, Warren, Arkansas, and mill-town America. It is not a catalog. It does not sell lumber, furniture, or a tour.
 
+`voice_check: human` means the writer draft passed this file. `voice_check: edited` means a human editor read the piece aloud and tightened grammar, voice, and non-commerce guardrails. Neither value is a byline and must not appear on the public page.
+
 ## Voice
 
 Ken Burns tone: a still photograph held long enough to hear the mill. Prefer a clock, a name, a weather, a dated newspaper over a thesis sentence. Long sentences may carry a fact. Short sentences may stop the room.
@@ -70,7 +72,7 @@ title: "Plain title, no colon-stack if you can help it"
 slug: kebab-case
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 lane: bradleylumbercompany.com

@@ -3,7 +3,7 @@ title: "One hundred thousand board feet"
 slug: one-hundred-thousand-board-feet
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 12
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -19,7 +19,7 @@ A town that can say one hundred thousand board feet before supper has decided wh
 
 Board foot is a clerk’s unit: a foot long, a foot wide, an inch thick, or the cubic equivalent. One hundred thousand of them is a pile a child cannot imagine and a mill superintendent can. In 1900, Balogh says, the method was still straightforward. Extend the logging railroad. Select, trim, cut, rough-saw, skid with mules, load the company cars. At the mill, sort, saw, plane, dry, season, ship. By 1907 the straightforward method, multiplied by three plants, was a town’s identity. Warren did not need a slogan. It had a daily cut.
 
-The number is not a mood and must not be rounded into one. It is attached to a year and to named companies. Southern, the Weyerhaeuser-Denkman plant grown from Lindsay and Ainsworth’s 1882 operation, 100,000 and 300. Bradley, Fullerton’s, Wheeler’s old mill underneath, 100,000 and 350, and the encyclopedia’s additional claim: one of the world’s large hardwood dealers. The second claim is why Bradley’s 100,000 is not a copy of Southern’s. Southern’s hundred thousand is the shortleaf hill. Bradley’s is the hill plus the hallway — oak, gum, hickory — counted in the same unit because a clerk has only one unit. A hardwood dealer’s day and a pine mill’s day can look like the same digit and not be the same woods.
+The number is not a mood and must not be rounded into one. It is attached to a year and to named companies. Southern, the Weyerhaeuser-Denkman plant grown from Lindsay and Ainsworth’s 1882 operation, 100,000 and 300. Bradley, Fullerton’s, Wheeler’s old mill underneath, 100,000 and 350, and the encyclopedia’s additional claim: one of the world’s largest hardwood dealers. The second claim is why Bradley’s 100,000 is not a copy of Southern’s. Southern’s hundred thousand is the shortleaf hill. Bradley’s is the hill plus the hallway — oak, gum, hickory — counted in the same unit because a clerk has only one unit. A hardwood dealer’s day and a pine mill’s day can look like the same digit and not be the same woods.
 
 How long a day was, the published pack does not say. `[CITE NEEDED: shift length and actual operating days per year at the three Warren mills, 1907.]` We will not invent a whistle time. We can say that a daily capacity is an advertisement as well as a measurement. Mills posted what they could do when the logs came and the belts held. A wet month, a broken engine, a camp fever, and the civic number became a hope. The encyclopedia still treats 1907 as a year the hope and the fact were close enough to print. That is the civic use. The town said the number the way another town said the height of a courthouse.
 

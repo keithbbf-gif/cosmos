@@ -3,7 +3,7 @@ title: "Hardwood and pine"
 slug: hardwood-and-pine
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 20
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -19,7 +19,7 @@ The back of the postcard is the truer letterhead. ARGenWeb still keeps the verso
 
 The 1880s small mills — Shirey & Butler, Crandall & Leavitt, Edmondson, Glasgow & Temple, Lanark, Whittington, Parker & Kinard, Lowry & Taylor, J. E. Walker — cut whatever stood nearest the skid. They did not need a verso. Thomas A. Carpenter’s 1891 plant was the first large mill in Warren. W. H. Wheeler started the mill Fullerton bought. The mixed identity is a large-mill fact. A small mill sells a local order. A large mill sells a reputation to a buyer who will never see the Saline.
 
-The encyclopedia’s county entry makes the same argument in a different register. Bradley Lumber, founded by Samuel H. Fullerton, “became one of the world’s largest dealers in hardwood lumber.” By 1907 it also produced 100,000 board feet a day and employed 350. The *also* is the hinge. A world’s large hardwood dealer that is also a pine mill of Southern’s size is not a specialty shop. It is a peninsula translated into a catalog. Southern, 100,000 and 300 men, was the Weyerhaeuser-Denkman pine plant grown from Lindsay & Ainsworth 1882. Arkansas Lumber, 150,000 and 400, was Chicago capital on the largest daily count. Bradley sat between them with a reputation that looked north toward furniture cities and a production number that looked like yellow pine. The postcard is how the company said it when the camera was on the sheds.
+The encyclopedia’s county entry makes the same argument in a different register. Bradley Lumber, founded by Samuel H. Fullerton, “became one of the world’s largest dealers in hardwood lumber.” By 1907 it also produced 100,000 board feet a day and employed 350. The *also* is the hinge. A dealer the encyclopedia ranks among the world’s largest in hardwood lumber, and that is also a pine mill of Southern’s size, is not a specialty shop. It is a peninsula translated into a catalog. Southern, 100,000 and 300 men, was the Weyerhaeuser-Denkman pine plant grown from Lindsay & Ainsworth 1882. Arkansas Lumber, 150,000 and 400, was Chicago capital on the largest daily count. Bradley sat between them with a reputation that looked north toward furniture cities and a production number that looked like yellow pine. The postcard is how the company said it when the camera was on the sheds.
 
 Jay Gould’s Iron Mountain had already written Arkansas into a larger ledger. Bradley County’s service line, the Little Rock, Mississippi River and Texas, made Warren a western terminus on 5 August 1880 and linked the seat toward Dermott. Without that iron, a mixed car is a wagon fantasy. With it, oak from the bottoms and shortleaf from the hills can share a waybill. The Warren & Ouachita Valley after 1899 added Banks and the Rock Island. Passenger service to 1948 meant the same rails that hauled the mix also hauled the men who graded it. A depot with white and colored waiting rooms, Silva notes of the later MoPac pair, is the human version of a mixed shipment the company did not print: two woods, two doors.
 

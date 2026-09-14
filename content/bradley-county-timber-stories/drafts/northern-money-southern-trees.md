@@ -3,7 +3,7 @@ title: "Northern money, southern trees"
 slug: northern-money-southern-trees
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 8
 word_target: 1400-2200
 lane: bradleylumbercompany.com

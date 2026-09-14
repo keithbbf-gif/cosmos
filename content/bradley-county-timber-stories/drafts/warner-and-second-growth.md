@@ -3,7 +3,7 @@ title: "Warner and second growth"
 slug: warner-and-second-growth
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 29
 word_target: 1400-2200
 lane: bradleylumbercompany.com

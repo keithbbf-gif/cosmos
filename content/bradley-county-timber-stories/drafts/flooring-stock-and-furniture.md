@@ -3,7 +3,7 @@ title: "Flooring stock and furniture"
 slug: flooring-stock-and-furniture
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 21
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -17,7 +17,7 @@ place: "Warren, Bradley County, Arkansas"
 
 A floor is lumber that has agreed to be walked on for a generation. Furniture stock is lumber that has agreed to be sat in, leaned on, opened and closed. Millwork is the trim that makes a room admit it was built on purpose. Bradley Lumber Company of Arkansas put all three on the back of a postcard and called the combination a headquarters. The camera faced the sheds. The sentence faced a buyer who was not in Warren and who needed, not a tour, but a car of oak that would lie flat and a load of pine that would take paint.
 
-The encyclopedia’s pride in Bradley as a world’s large hardwood dealer is this afterlife in one clause. A dealer is not only a sawyer. A dealer is a plant that can grade, dry, and machine a species until it is no longer a log. By 1907 the daily count was 100,000 board feet and 350 employees, beside Southern’s pine mill and Arkansas Lumber’s larger cut. The Fullerton sons were already in town. The 1903 courthouse was up. Heritage dates later shops still use — 1901 for the incorporation, 1903 for the mill’s early hour — sit in that overlap of civic brick and kiln brick. The floor that would leave Warren in the 1940s was being imagined while Gibb’s cupola was new.
+The encyclopedia’s pride in Bradley as one of the world’s largest hardwood dealers is this afterlife in one clause. A dealer is not only a sawyer. A dealer is a plant that can grade, dry, and machine a species until it is no longer a log. By 1907 the daily count was 100,000 board feet and 350 employees, beside Southern’s pine mill and Arkansas Lumber’s larger cut. The Fullerton sons were already in town. The 1903 courthouse was up. Heritage dates later shops still use — 1901 for the incorporation, 1903 for the mill’s early hour — sit in that overlap of civic brick and kiln brick. The floor that would leave Warren in the 1940s was being imagined while Gibb’s cupola was new.
 
 August 1944, *American Builder*: a magazine page for pre-finished hardwood flooring from Bradley Lumber Company of Arkansas, Warren. War housing and a civilian trade that had not stopped wanting a finished floor. Pre-finished is a factory claim. It means the kiln, the sander, the sealer, and the grade stamp happened on the peninsula, not in a jobber’s shed in Illinois. ARGenWeb keeps the page next to the postcard. Together they are the plant talking to architects and builders, not to tourists. A 1954 circular, four loose pages later sold as a vintage brochure, specified oak in block, strip, and plank; pecan in some block lists; mastic and nail instructions; straight-line strip; random-width oak plank “in the colonial tradition”; and, on the pine side, stain-like interior trim, paneling, mouldings, grade-marking. This series will not become that circular. The circular is cited as proof that the mill’s products had names a specification writer could file. Strip, plank, block. Furniture stock. Pine millwork. Construction materials. The list is the afterlife of Joe Reaves’s purchase book.
 

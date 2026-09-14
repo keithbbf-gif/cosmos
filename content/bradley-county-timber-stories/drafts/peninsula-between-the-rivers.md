@@ -3,7 +3,7 @@ title: The peninsula between the rivers
 slug: peninsula-between-the-rivers
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 1
 word_target: 1400-2200
 lane: bradleylumbercompany.com

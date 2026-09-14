@@ -3,7 +3,7 @@ title: "August fifth, eighteen eighty"
 slug: august-fifth-eighteen-eighty
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 6
 word_target: 1400-2200
 lane: bradleylumbercompany.com

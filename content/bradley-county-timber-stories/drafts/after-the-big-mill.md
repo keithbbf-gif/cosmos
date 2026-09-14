@@ -3,7 +3,7 @@ title: "After the big mill"
 slug: after-the-big-mill
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 37
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -15,7 +15,7 @@ place: "Warren, Bradley County, Arkansas"
 
 # After the big mill
 
-The big mill, in this county, was never one stack. It was three letterheads that taught Warren to count in board feet. Southern Lumber Company, 100,000 a day, 300 men, by 1907. Bradley Lumber Company of Arkansas, 100,000, 350, already a world’s large hardwood dealer. Arkansas Lumber Company, 150,000, 400. Then Arkansas Lumber clear-cut 85,000 acres and closed in 1928. Southern burned in 1939; W. R. Warner of Cloquet, Minnesota, came south to shut it and talked the owners into second growth instead. Potlatch Forests, Inc., bought Southern in 1956 and Bradley in 1958. After that, “the mill” in ordinary speech meant Potlatch. After Potlatch’s hardwood hour ended, the sentence changed again. After the big mill, in this town, is not an empty lot. It is a sequence of smaller wages that had to learn to stand without a thousand-man whistle.
+The big mill, in this county, was never one stack. It was three letterheads that taught Warren to count in board feet. Southern Lumber Company, 100,000 a day, 300 men, by 1907. Bradley Lumber Company of Arkansas, 100,000, 350, already counted among the world’s largest hardwood dealers. Arkansas Lumber Company, 150,000, 400. Then Arkansas Lumber clear-cut 85,000 acres and closed in 1928. Southern burned in 1939; W. R. Warner of Cloquet, Minnesota, came south to shut it and talked the owners into second growth instead. Potlatch Forests, Inc., bought Southern in 1956 and Bradley in 1958. After that, “the mill” in ordinary speech meant Potlatch. After Potlatch’s hardwood hour ended, the sentence changed again. After the big mill, in this town, is not an empty lot. It is a sequence of smaller wages that had to learn to stand without a thousand-man whistle.
 
 Silva, walking downtown on 14 July 2012, gave the later still in four clauses. People had been switching from tomatoes to watermelons and bell peppers because they are easier to grow. Potlatch was still logging, not in great financial shape. Other lumber-related industries — Robbins Flooring, which manufactured Armstrong flooring, and chip mills — were still in operation. The Bradley County Medical Center was probably the largest employer in Warren. That is not a lament. It is a payroll map. The hospital took the number the mills used to take. The flooring plants took the species. The chip mills took what a saw no longer wanted. The fruit took the festival. None of them took the 1907 count.
 

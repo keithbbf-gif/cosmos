@@ -3,7 +3,7 @@ title: "The long afterlife"
 slug: the-long-afterlife
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 41
 word_target: 1400-2200
 lane: bradleylumbercompany.com

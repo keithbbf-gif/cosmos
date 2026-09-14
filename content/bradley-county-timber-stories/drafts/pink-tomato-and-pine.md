@@ -3,7 +3,7 @@ title: "Pink tomato and pine"
 slug: pink-tomato-and-pine
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 34
 word_target: 1400-2200
 lane: bradleylumbercompany.com

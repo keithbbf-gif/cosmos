@@ -3,7 +3,7 @@ title: "The clock at Wayne's"
 slug: the-clock-at-waynes
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 31
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -15,9 +15,9 @@ place: "Warren, Bradley County, Arkansas"
 
 # The clock at Wayne's
 
-On the courtsquare, at Wayne’s Confectionery, the electric clock stopped at 5:45 p.m. Monday, 3 January 1949. DuVal Purkins wrote that sentence for the *Eagle Democrat* while the mud was still wet, and there is no better first still. Life is close to death and death is close to life, he said, and then he refused to pretty the rest. About the time the clock stopped, Mrs. J. E. Stewart, wife of the manager of the Bradley Store, was driving from her home to pick up her husband at the end of the day’s work. Her automobile had reached the curb across from the Louis Ederington house, 326 South Main. A friend found her unconscious from the blow of a timber hurled from the air. About 1:00 a.m. on the 4th she died in a Monticello hospital.
+On the courthouse square, at Wayne’s Confectionery, the electric clock stopped at 5:45 p.m. Monday, 3 January 1949. DuVal Purkins wrote that sentence for the *Eagle Democrat* while the mud was still wet, and there is no better first still. Life is close to death and death is close to life, he said, and then he refused to pretty up the rest. About the time the clock stopped, Mrs. J. E. Stewart, wife of the manager of the Bradley Store, was driving from her home to pick up her husband at the end of the day’s work. Her automobile had reached the curb across from the Louis Ederington house, 326 South Main. A friend found her unconscious from the blow of a timber hurled from the air. About 1:00 a.m. on the 4th she died in a Monticello hospital.
 
-The storm was a late-afternoon tornado on a January day warm enough to be wrong. It came up from the Farmville Road beyond the W. C. Hargis place, ran north perhaps a mile, then turned northeasterly across the southeast mill section and out beyond the Louis Wilson Ederington home two miles east of town. At points, Purkins wrote, the path was three-quarters of a mile wide; at others, not over a quarter. It zigzagged. It toppled a tomb and a cedar on the Ederington lot near the center of Oakland Cemetery, well off the main wake. It destroyed homes and stores on South Main and skipped the C. K. Adams house, breaking one window. On all sides of that house, a piled mass. The National Weather Service later compilations call the Warren storm an F4 in the outbreak of 3 January 1949. The local paper, in the first week, was too busy counting to rate a scale.
+The storm was a late-afternoon tornado on a January day warm enough to be wrong. It came up from the Farmville Road beyond the W. C. Hargis place, ran north perhaps a mile, then turned northeasterly across the southeast mill section and out beyond the Louis Wilson Ederington home two miles east of town. At points, Purkins wrote, the path was three-quarters of a mile wide; at others, not over a quarter. It zigzagged. It toppled a tomb and a cedar on the Ederington lot near the center of Oakland Cemetery, well off the main wake. It destroyed homes and stores on South Main and skipped the C. K. Adams house, breaking one window. On all sides of that house, a piled mass. Later National Weather Service compilations call the Warren storm an F4 in the outbreak of 3 January 1949. The local paper, in the first week, was too busy counting to rate a scale.
 
 Wayne’s, on Silva’s later walking tour, is the Sandwich Shop building on the south side of the square: Bailey’s Drug first, Dr. Herring’s clinic upstairs, then Frank’s restaurant and pool hall, then Wayne’s restaurant and pool hall, Wayne’s Sporting Goods on the upper floor, cast-iron columns at the walk. Purkins’s word is confectionery. The clock is electric. When the mill’s powerhouse went down, the square’s current went with it. 5:45 is therefore not only a time of death. It is a time of a town’s electricity ending in a single gesture, the hands frozen the way a kiln is frozen when the steam stops.
 

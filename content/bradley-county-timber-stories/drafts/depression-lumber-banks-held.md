@@ -3,7 +3,7 @@ title: "Depression lumber, the banks held"
 slug: depression-lumber-banks-held
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 27
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -21,7 +21,7 @@ Need is not the same as boom. Arkansas Lumber Company had already clear-cut its 
 
 Judge Bradham, writing in 1951, remembered an explosive growth before the First World War and a steady one after. The census agrees in its blunt columns. County population: 15,970 in 1920; 17,494 in 1930; 18,097 in 1940 — the peak. Warren itself: 2,145; 2,523; 2,516. The town does not swell in the thirties. It holds. The county adds people while the nation sheds them from payrolls. Lumber is the encyclopedia’s explanation. Tomatoes are the quieter one. Bradley County farmers have been raising a pink shipping tomato since the 1920s. Cotton is still a cash crop and will be into the late 1940s. A mixed peninsula — shortleaf on the hills, hardwood on the bottoms, a fruit that will travel — does not starve in one key.
 
-The banks’ survival is not a parable about virtue. It is a fact about deposits that kept coming because the mills kept sawing. Samuel Fullerton’s Bradley Lumber, run on the ground by the sons Robert W., Cornell, and S. Baker, had been, by 1907, one of the world’s large hardwood dealers at 100,000 board feet and 350 men. Southern, Weyerhaeuser and Denkman, same board-foot figure, 300 men. Those 1907 numbers are not 1932 numbers. The published pack does not give the Depression-year daily cut. `[CITE NEEDED: Bradley and Southern production and employment, 1932–38.]` The encyclopedia will only say the citizens fared as well as most Arkansans, which is a careful phrase, and that lumber’s continual need was a factor. As well as most is not well. It is not collapse.
+The banks’ survival is not a parable about virtue. It is a fact about deposits that kept coming because the mills kept sawing. Samuel Fullerton’s Bradley Lumber, run on the ground by the sons Robert W., Cornell, and S. Baker, had been, by 1907, one of the world’s largest hardwood dealers at 100,000 board feet and 350 men. Southern, Weyerhaeuser and Denkman, same board-foot figure, 300 men. Those 1907 numbers are not 1932 numbers. The published pack does not give the Depression-year daily cut. `[CITE NEEDED: Bradley and Southern production and employment, 1932–38.]` The encyclopedia will only say the citizens fared as well as most Arkansans, which is a careful phrase, and that lumber’s continual need was a factor. As well as most is not well. It is not collapse.
 
 Carroll Charles Hollensworth of Warren spent nearly two decades in the Arkansas House beginning in 1930 and finished as floor leader after a turn as Speaker. William Shields Goodwin had already represented the Seventh District in Congress from 1911 to 1921. The county’s political class in the Depression is the class that could still afford a train to Little Rock. The mill class is the class that could still afford a Saturday on Main because a two-bank town had not frozen the Saturday. Scrip at the Bradley Store, 215 South Main, weekly settle, is a Depression instrument even when it predates the Depression. A company that pays in paper it will redeem at its own counter is a company that does not entirely trust the street, or does not wish the street to have the last word. In the thirties the street’s last word, in many American towns, was a chain on a bank door. Warren’s street did not get to say it.
 

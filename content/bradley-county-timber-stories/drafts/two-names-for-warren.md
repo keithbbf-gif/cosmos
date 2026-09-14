@@ -3,7 +3,7 @@ title: "Two names for Warren"
 slug: two-names-for-warren
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 4
 word_target: 1400-2200
 lane: bradleylumbercompany.com

@@ -3,7 +3,7 @@ title: "Good Friday, 1975"
 slug: good-friday-1975
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 36
 word_target: 1400-2200
 lane: bradleylumbercompany.com

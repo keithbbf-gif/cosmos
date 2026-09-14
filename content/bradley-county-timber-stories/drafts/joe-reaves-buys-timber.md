@@ -3,7 +3,7 @@ title: "Joe Reaves buys timber"
 slug: joe-reaves-buys-timber
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 10
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -35,7 +35,7 @@ Wheeler’s sale is the other silence. We do not have the deed in this pack. `[C
 
 A timber buyer in the cut-out years is a kind of historian. He has to know who entered the land, who mortgaged it, who died without a will, which forty was already promised to Arkansas Lumber or Southern. Three mills in one town meant three buyers in the same courthouse. Reaves’s advantage was not only blood. It was the probability that a Pennington Township grantor had heard the name before. Hugh Bradley’s descendant asking to buy the ridge is not the same visit as a Chicago agent asking. The price may have been the same. The porch conversation was not. We do not have the conversation. We have the later Land Record Book, which is the conversation’s residue.
 
-By 1907 the mill Reaves fed was posting 100,000 board feet a day and 350 men, and the encyclopedia was willing to call Bradley one of the world’s large hardwood dealers. The hardwood is the bottoms. The pine is the hills. Reaves had to buy both if the postcard’s mixed car was going to be more than a wish. Isolation was over; the Iron Mountain would take what he assembled. His limit was not a raft. His limit was the other companies’ cruisers and the number of families still willing to sell the shade.
+By 1907 the mill Reaves fed was posting 100,000 board feet a day and 350 men, and the encyclopedia was willing to call Bradley one of the world’s largest hardwood dealers. The hardwood is the bottoms. The pine is the hills. Reaves had to buy both if the postcard’s mixed car was going to be more than a wish. Isolation was over; the Iron Mountain would take what he assembled. His limit was not a raft. His limit was the other companies’ cruisers and the number of families still willing to sell the shade.
 
 Mill-town America has this figure in every county that lasted. The local buyer. The northern note. The woods that do not care who signs. The particular here is the founder’s blood on the buyer’s name. Other towns hired a good cruiser. Warren hired a grandson of the act of 1840, or near enough for Bradham to say “direct descendant” without a chart. `[CITE NEEDED: the genealogical steps from Captain Hugh Bradley to Joe L. Reaves, Sr.]` Until the chart is printed, the 1951 sentence stands as the county’s own claim. This series will not improve it with a guessed cousinage.
 

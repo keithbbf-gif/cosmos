@@ -3,7 +3,7 @@ title: "The sawyer's chair"
 slug: the-sawyers-chair
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 17
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -23,7 +23,7 @@ A large southern mill of that hour — Bradley at 100,000 board feet a day by 19
 
 Thomas A. Carpenter’s 1891 mill was the first large one in Warren. The 1880s names — Shirey & Butler, Crandall & Leavitt, Edmondson, Glasgow & Temple, Lanark, Whittington, Parker & Kinard, Lowry & Taylor, J. E. Walker — were the circular-saw generation, local markets, no mixed-car letterhead. W. H. Wheeler started the plant Fullerton bought. The Fullerton sons came south to operate. Southern, 1902, from Lindsay & Ainsworth 1882, Weyerhaeuser and Denkman on the paper. Arkansas Lumber, 1901, Rittenhouse and Embree, Mansfield to establish. Three chairs, at least, by 1907, and under each chair a crew: setter, dogger, off-bearer, the men the photograph at the mill gate will not label. The 1930s group portrait of Bradley employees that ARGenWeb keeps — a wide photograph, possibly a WPA-era print, the seller on eBay unsure — is faces without jobs. A sawyer in that grid looks like every other man in a hat. That is the point of the chair. The skill is not a costume.
 
-Hardwood and pine do not sit the same in the dogs. Bradley advertised itself as a world’s large hardwood dealer and as a sawyer of Arkansas soft pine. A shortleaf log from the sandy hills is a different problem from a bottomland oak. Pine wants speed and a clean kerf. Oak wants a sawyer who will not waste a face that furniture stock can use. The peninsula between the Saline and the Ouachita grew both. Balogh’s state map has four rooms: Delta hardwood, Ozark mix, Ouachita pine-and-hardwood, southern yellow-pine hills. Bradley County is the southern room with a hardwood hallway along the water. The man in the chair, whoever he was on a given shift, had to know which room the log had come from. Joe Reaves, Sr., had already decided which ridge to buy. The sawyer decided which board the ridge would become.
+Hardwood and pine do not sit the same in the dogs. Bradley advertised itself as one of the world’s largest hardwood dealers and as a sawyer of Arkansas soft pine. A shortleaf log from the sandy hills is a different problem from a bottomland oak. Pine wants speed and a clean kerf. Oak wants a sawyer who will not waste a face that furniture stock can use. The peninsula between the Saline and the Ouachita grew both. Balogh’s state map has four rooms: Delta hardwood, Ozark mix, Ouachita pine-and-hardwood, southern yellow-pine hills. Bradley County is the southern room with a hardwood hallway along the water. The man in the chair, whoever he was on a given shift, had to know which room the log had come from. Joe Reaves, Sr., had already decided which ridge to buy. The sawyer decided which board the ridge would become.
 
 The filer, in the next essay, keeps the blade honest. The sawyer keeps the log honest. Between them they decide how much of a tree becomes lumber and how much becomes smoke. Recovery is the quiet word for that decision. A mill that must ship mixed cars — pine millwork, oak flooring stock, gum, hickory — cannot let a tired hand turn a furniture log into slabs. The chair is therefore a spend gate. The company did not call it that. The ledger did.
 

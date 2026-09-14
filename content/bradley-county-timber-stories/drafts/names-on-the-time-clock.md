@@ -3,7 +3,7 @@ title: "Names on the time clock"
 slug: names-on-the-time-clock
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 42
 word_target: 1400-2200
 lane: bradleylumbercompany.com

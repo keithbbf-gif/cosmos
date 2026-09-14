@@ -3,7 +3,7 @@ title: Court at the captain's house
 slug: court-at-the-captains-house
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
 reading_order: 3
 word_target: 1400-2200
 lane: bradleylumbercompany.com
