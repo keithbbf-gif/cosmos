@@ -3,7 +3,7 @@ title: "Ray Fleck on the Face"
 slug: ray-fleck-on-the-face
 status: draft
 voice_check: edited
-word_count: 1178
+word_count: 1184
 dek: "Quartersawn oak is a sawing choice. The fleck is a ray, not a stain, and the board moves less across its width than the cathedral next to it in the pile."
 series: furniture-craft
 topic: materials

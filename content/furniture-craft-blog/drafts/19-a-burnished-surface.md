@@ -3,7 +3,7 @@ title: "A Burnished Surface"
 slug: a-burnished-surface
 status: draft
 voice_check: edited
-word_count: 1132
+word_count: 1139
 dek: "The cabinet scraper, the hook, and the patch of grain a sander would dish into a story you cannot un-sand."
 series: furniture-craft
 topic: tools

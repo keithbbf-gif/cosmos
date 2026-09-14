@@ -3,7 +3,7 @@ title: "Rubbing Out"
 slug: rubbing-out
 status: draft
 voice_check: edited
-word_count: 1000
+word_count: 1009
 dek: "A film finish off the gun is a field of orange peel and dust nibs. Rubbing out is how it becomes a surface you meant."
 series: furniture-craft
 topic: finish

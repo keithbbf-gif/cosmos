@@ -3,7 +3,7 @@ title: "Color Without a Lie"
 slug: color-without-a-lie
 status: draft
 voice_check: edited
-word_count: 1183
+word_count: 1192
 dek: "Stain is a tool. It is also how a good board becomes a brown photograph of a board. The sample in the customer’s light is the only honest argument."
 series: furniture-craft
 topic: finish

@@ -3,7 +3,7 @@ title: "From the Yard to the Room"
 slug: from-the-yard-to-the-room
 status: draft
 voice_check: edited
-word_count: 1207
+word_count: 1210
 dek: "Kiln sticks, a truck, a mill town that cut hardwood before it built dining tables: the continuum is place and practice, not a corporate bloodline."
 series: furniture-craft
 topic: materials

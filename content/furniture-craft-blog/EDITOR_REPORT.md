@@ -27,7 +27,7 @@ Post-pass grep on all drafts: **no hits** for delve, robust, leverage, unlock, M
 
 **Under 1,200 words (post-edit):** `24-rubbing-out` (1000), `25-old-paint-new-work` (1057), `30-cherry-changes-its-mind` (1072), `19-a-burnished-surface` (1132), `17-following-the-curve` (1162), `29-the-dark-board-in-the-stack` (1173), `26-ray-fleck-on-the-face` (1178), `23-color-without-a-lie` (1183), `06`/`09`/`13` (1182–1185).
 
-Pack total after edit: **53,982** body words (was 55,844 pre-dedupe per prior manifest).
+Pack total after edit: **54,122** body words (was 55,844 pre-dedupe per prior manifest; recount aligned front matter to body copy).
 
 ## Per-essay change log
 

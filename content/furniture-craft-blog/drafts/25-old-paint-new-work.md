@@ -3,7 +3,7 @@ title: "Old Paint, New Work"
 slug: old-paint-new-work
 status: draft
 voice_check: edited
-word_count: 1057
+word_count: 1067
 dek: "Milk paint, limey and flat, and the difference between a finish that wants to wear and a distressing kit that wants to look like it already did."
 series: furniture-craft
 topic: finish

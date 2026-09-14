@@ -3,7 +3,7 @@ title: "The Dark Board in the Stack"
 slug: the-dark-board-in-the-stack
 status: draft
 voice_check: edited
-word_count: 1173
+word_count: 1182
 dek: "Walnut is a color you find, a sapwood you decide about, and a board that will go quieter in the room if you let it."
 series: furniture-craft
 topic: materials

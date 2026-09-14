@@ -3,7 +3,7 @@ title: "The Slats Come Off Warm"
 slug: the-slats-come-off-warm
 status: draft
 voice_check: edited
-word_count: 1234
+word_count: 1244
 dek: "Steam, a strap, a form, and the springback you either designed for or you chase with a clamp that will not live in the house."
 series: furniture-craft
 topic: materials

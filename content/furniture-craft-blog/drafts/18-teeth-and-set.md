@@ -3,7 +3,7 @@ title: "Teeth and Set"
 slug: teeth-and-set
 status: draft
 voice_check: edited
-word_count: 1227
+word_count: 1237
 dek: "Rip, crosscut, dovetail: a saw is a row of chisels. The set is how they clear the kerf. The rest is whether you let the saw cut."
 series: furniture-craft
 topic: tools

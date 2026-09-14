@@ -3,7 +3,7 @@ title: "Following the Curve"
 slug: following-the-curve
 status: draft
 voice_check: edited
-word_count: 1162
+word_count: 1169
 dek: "A spokeshave on a chair leg is a conversation with grain that will not stay in a jointer’s world."
 series: furniture-craft
 topic: tools

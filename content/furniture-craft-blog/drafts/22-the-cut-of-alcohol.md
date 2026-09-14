@@ -3,7 +3,7 @@ title: "The Cut of Alcohol"
 slug: the-cut-of-alcohol
 status: draft
 voice_check: edited
-word_count: 1235
+word_count: 1245
 dek: "Shellac in a shop jar: a sealer, a finish, a repair ally, and a coat that still smells like a cabinet shop instead of a chemistry set."
 series: furniture-craft
 topic: finish

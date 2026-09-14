@@ -2,7 +2,7 @@
 
 **Status:** staged drafts. Editor pass complete (`voice_check: edited`, 2026-09-14). Graphics merge tracked in `GRAPHICS_MERGE_NOTE.md` (#235/#241).
 
-**Count:** 44 essays. Body words: 53,982 (range 1000–1481).
+**Count:** 44 essays. Body words: 54,122 (range 1009–1481).
 
 Folder: `content/furniture-craft-blog/`. Soft brand home is Warren & Wilmar, Bradley County, Arkansas — usable later by Bradley Brand Furniture / Saline River Workshop / the mill-heritage story. Optional footnotes only: [heritage](https://bradleybrandfurniture.com/heritage), [craft](https://bradleybrandfurniture.com/craft).
 

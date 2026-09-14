@@ -3,7 +3,7 @@ title: "What the Cloth Leaves Behind"
 slug: what-the-cloth-leaves-behind
 status: draft
 voice_check: edited
-word_count: 1319
+word_count: 1336
 dek: "Oil, varnish, the film that sits on top and the film that lives in the fibers: a finish is a use, a climate, and a repair plan, not a moral category."
 series: furniture-craft
 topic: finish

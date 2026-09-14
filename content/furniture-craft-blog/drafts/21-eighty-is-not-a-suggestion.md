@@ -3,7 +3,7 @@ title: "Eighty Is Not a Suggestion"
 slug: eighty-is-not-a-suggestion
 status: draft
 voice_check: edited
-word_count: 1233
+word_count: 1243
 dek: "Grit discipline: each paper erases the last scratch. Skipping is how a table looks finished until 4 p.m. light."
 series: furniture-craft
 topic: finish

@@ -3,7 +3,7 @@ title: "Cherry Changes Its Mind"
 slug: cherry-changes-its-mind
 status: draft
 voice_check: edited
-word_count: 1072
+word_count: 1083
 dek: "A cherry top is paler than the customer wanted on delivery day. Wait. The color is a process, not a can."
 series: furniture-craft
 topic: materials
