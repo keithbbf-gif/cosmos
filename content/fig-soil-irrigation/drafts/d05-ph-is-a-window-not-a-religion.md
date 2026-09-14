@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, ph]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: ph-is-a-window-not-a-religion
+meta_description: Soil pH for common figs: lime tolerance, boron and salt on the lab report, and why pH is not a cult in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/silt-loam-surface-cc.jpg" alt="Silt-loam surface texture — figs are lime-tolerant; pH is a window on salt and boron, not a cult">
+<figcaption>Figure 1. Silt-loam surface texture — figs are lime-tolerant; pH is a window on salt and boron, not a cult. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Somebody read that figs like 6.0 to 6.5 and now they are sulfur-bombing a
 limestone county. I have watched this. The meter said 7.4. The person looked

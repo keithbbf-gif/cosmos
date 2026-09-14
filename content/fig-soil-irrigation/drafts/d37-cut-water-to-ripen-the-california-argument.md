@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, fruit]
 author: PapaFig
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
+slug: cut-water-to-ripen-the-california-argument
+meta_description: Deficit irrigation for fig ripening — California logic vs Arkansas pots and humid 8a main crop.
 ---
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/drip-irrigation-cc.jpg" alt="Drip line in a garden — California deficit-irrigation logic does not map to an Arkansas #3 pot">
+<figcaption>Figure 1. Drip line in a garden — California deficit-irrigation logic does not map to an Arkansas #3 pot. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Commercial fig talk, especially dried-fig talk, will tell
 you to ease water as the crop finishes so sugar concentrates

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: afternoon-wilt-is-not-always-a-cry
+meta_description: Afternoon wilt on figs is not always thirst — heat, new wood, and wet feet in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/fig-tree-cc.jpg" alt="Fig tree canopy — afternoon wilt on hot days is not always a call for more water">
+<figcaption>Figure 1. Fig tree canopy — afternoon wilt on hot days is not always a call for more water. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A fig in South Arkansas sun at 2 p.m. will droop like
 it is dying. At dusk it will stand up and look at you

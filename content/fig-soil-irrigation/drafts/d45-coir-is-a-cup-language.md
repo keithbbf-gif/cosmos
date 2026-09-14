@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, coir]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: coir-is-a-cup-language
+meta_description: Coconut coir vs perlite in fig pots — water-holding language for zone 8a collectors.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/media/coir-fiber-cc-by-sa.jpg" alt="Coconut coir fiber — coir holds water like a cup; language matters when you compare to perlite">
+<figcaption>Figure 1. Coconut coir fiber — coir holds water like a cup; language matters when you compare to perlite. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Coir and DE are the rooting room more than the
 5-gallon language. The

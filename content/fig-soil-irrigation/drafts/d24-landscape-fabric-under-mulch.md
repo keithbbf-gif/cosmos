@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: landscape-fabric-under-mulch
+meta_description: Landscape fabric under mulch and figs — why the shallow root mat needs to breathe in humid 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/landscape-fabric-era-cc.jpg" alt="Historic garden illustration — landscape fabric under mulch blocks the shallow root mat figs need">
+<figcaption>Figure 1. Historic garden illustration — landscape fabric under mulch blocks the shallow root mat figs need. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The fabric is sold as a weed stop that still “lets the soil
 breathe.” Then you come back in three years and the chips have

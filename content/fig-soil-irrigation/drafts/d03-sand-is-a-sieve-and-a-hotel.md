@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, sand, nematodes]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: sand-is-a-sieve-and-a-hotel
+meta_description: Sandy soil and figs: fast drainage, nematode risk on sand, and why zone 8a growers should not envy beach dirt.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/sandy-soil-cc.jpg" alt="Sandy soil drains fast — a sieve for water and a hotel for root-knot nematodes in zone 8a">
+<figcaption>Figure 1. Sandy soil drains fast — a sieve for water and a hotel for root-knot nematodes in zone 8a. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Sand looks like the answer if you just came from a clay bathtub. Water
 leaves. The shovel is easy. The hole does not smell like a ditch in the

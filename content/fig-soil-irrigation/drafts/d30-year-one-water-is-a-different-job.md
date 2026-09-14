@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: year-one-water-is-a-different-job
+meta_description: Year-one fig watering in zone 8a — establishment schedule vs the July drought week on mature trees.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/watering-plants-cc.jpg" alt="Watering young plants — year-one fig water is establishment, not the July drought game">
+<figcaption>Figure 1. Watering young plants — year-one fig water is establishment, not the July drought game. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 I already said the first two summers are a hose job. This
 is the close-up. Year one is not “deep and infrequent.”

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: finger-not-tuesday
+meta_description: Water figs when the top two inches say so — finger test beats Tuesday on the calendar in 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/drip-irrigation-cc.jpg" alt="Drip emitter on irrigation tubing — check the top two inches with a finger, not the calendar">
+<figcaption>Figure 1. Drip emitter on irrigation tubing — check the top two inches with a finger, not the calendar. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 I do not trust a watering day. I trust a knuckle.
 

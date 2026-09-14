@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: if-water-stands-on-top-the-pot-is-lying
+meta_description: Water pooling on potting mix means the fig pot is lying — drainage, perlite, and lift test in 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Potted common fig — if water pools on the mix surface, drainage and media are lying to you">
+<figcaption>Figure 1. Potted common fig — if water pools on the mix surface, drainage and media are lying to you. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Jack has said the potted trees run a lot of worm castings
 and perlite. I have built mix from perlite we buy from an

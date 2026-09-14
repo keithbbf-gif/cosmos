@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: figs-want-air-not-rich-dirt
+meta_description: Figs want airflow in the root zone, not a truck of rich garden soil. Zone 8a clay, drainage, and what Mediterranean roots expect.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/fig-roots-cc-by-sa.jpg" alt="Shallow fig roots at the soil surface — common figs need air in the root zone, not a buried compost shaft">
+<figcaption>Figure 1. Shallow fig roots at the soil surface — common figs need air in the root zone, not a buried compost shaft. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 People show up with a truck of “garden soil” like they are doing the fig a
 favor. The bag says rich. The bag says moisture. The hole looks dark and

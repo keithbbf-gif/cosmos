@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [soil, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: gypsum-will-not-drain-a-puddle
+meta_description: Gypsum and fig drainage myths — chemistry on some sodic soils, not a fix for a bathtub planting hole.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/gypsum-load-cc-by.jpg" alt="Gypsum stockpile — gypsum adjusts chemistry on some sodic soils; it does not empty a bathtub hole">
+<figcaption>Figure 1. Gypsum stockpile — gypsum adjusts chemistry on some sodic soils; it does not empty a bathtub hole. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The bag is hopeful. Clay buster. Soil conditioner. A picture of
 a garden that drains. I have dumped gypsum on a puddle and

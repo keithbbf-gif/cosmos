@@ -1,0 +1,194 @@
+[
+  {
+    "commons": "Sandy_soil.jpg",
+    "bytes": 60835,
+    "sha256": "a549be756e2c7ab298ae20ee9d504ec6bc5a5df083c0b4d90151d356a40989fa",
+    "path": "assets/images/shared/soil/sandy-soil-cc.jpg"
+  },
+  {
+    "commons": "Compact soil.jpg",
+    "bytes": 12896,
+    "sha256": "f4fd2386821a1f22dad60f320941996a6b463826390ce6fd3b79abd241e09fe1",
+    "path": "assets/images/shared/soil/compacted-soil-cc.jpg"
+  },
+  {
+    "commons": "Silt loam surface soil texture, Pennsylvania LOC 92683615.jpg",
+    "bytes": 783222,
+    "sha256": "fd39183fa2a86333add96f5cfe5c62296597a57a0c3d68fb777d4364d5d38ad4",
+    "path": "assets/images/shared/soil/silt-loam-surface-cc.jpg"
+  },
+  {
+    "commons": "Soil Salinization Color.png",
+    "bytes": 513123,
+    "sha256": "af8d70eb0be6cca7465af6b9d6f4a20bbd5666ac3a1169c9a597cfce60b9ea93",
+    "path": "assets/images/shared/soil/salinity-diagram-cc.png"
+  },
+  {
+    "commons": "Compost.jpg",
+    "bytes": 316745,
+    "sha256": "aab5e1e1095b6cad93f73efeea0144432c2ff7d7474465647c4ee26301a2250a",
+    "path": "assets/images/shared/soil/compost-cc.jpg"
+  },
+  {
+    "commons": "Loading Gypsum (3611829965).jpg",
+    "bytes": 271551,
+    "sha256": "368cdb443667390ef54456db49207d85a82d0d93b9262955237973248008c2c8",
+    "path": "assets/images/shared/soil/gypsum-load-cc-by.jpg"
+  },
+  {
+    "commons": "French_drain.jpg",
+    "bytes": 37903,
+    "sha256": "7eede6dda44371f731114e998aa3b8008e7d51468271818c308abd76c53fa812",
+    "path": "assets/images/shared/drainage/french-drain-cc.jpg"
+  },
+  {
+    "commons": "Raised_bed.jpg",
+    "bytes": 1307442,
+    "sha256": "cde2ac9958421b691251fa95006c58e8f23a3a3aeefff2ca7d08d7dc8321f4db",
+    "path": "assets/images/shared/drainage/raised-bed-cc.jpg"
+  },
+  {
+    "commons": "Vegetated berm Gaillard Island (4929814490).jpg",
+    "bytes": 932472,
+    "sha256": "39d7856ad889df533e1d7ea09a68a5e1cc13a3e141f18122bf2ecdfec6081035",
+    "path": "assets/images/shared/drainage/vegetated-berm-cc-by.jpg"
+  },
+  {
+    "commons": "Wood Chip Mulch Texture DTXR-WD-CP-1.jpg",
+    "bytes": 1219346,
+    "sha256": "f55bcde941cfb99d040b54a89e79d91cdcd85f841b037e6a70f874c2dee14c31",
+    "path": "assets/images/shared/mulch/wood-chips-cc.jpg"
+  },
+  {
+    "commons": "Rodale Farm Garden Mulched with Straw.JPG",
+    "bytes": 752315,
+    "sha256": "088a828f9b874795f8176be80c41f18c3d5b9c9f99187303bc9d5bd1608180d5",
+    "path": "assets/images/shared/mulch/straw-mulch-cc.jpg"
+  },
+  {
+    "commons": "Soil improvement and protection - wood chip mulch at Wisley.JPG",
+    "bytes": 1163706,
+    "sha256": "0f3bd250d96d226e578313160a44d3dd15d88c3b1aac886c0a8c748c0122e678",
+    "path": "assets/images/shared/mulch/chips-on-bed-cc-by.jpg"
+  },
+  {
+    "commons": "Volcano mulching (19673884070).jpg",
+    "bytes": 541072,
+    "sha256": "c9bf36bde68ac80e2ecb8e1e42c97910c46829d4338fce49e637154cb34cf962",
+    "path": "assets/images/shared/mulch/volcano-mulching-cc-by.jpg"
+  },
+  {
+    "commons": "American homes and gardens (1909) (17968190298).jpg",
+    "bytes": 670020,
+    "sha256": "e64ae7d6c8e29ec90ea548c69d945859118a5f8033cb6c04a27dab9ddf39077c",
+    "path": "assets/images/shared/mulch/landscape-fabric-era-cc.jpg"
+  },
+  {
+    "commons": "Drip_irrigation.jpg",
+    "bytes": 127473,
+    "sha256": "d41924b5946669b83f532abe109a311bdefccbc254f0bd39d572d7baa733a77c",
+    "path": "assets/images/shared/irrigation/drip-irrigation-cc.jpg"
+  },
+  {
+    "commons": "Sprinkler Irrigation - Sprinkler head.JPG",
+    "bytes": 332462,
+    "sha256": "8d0d603390eb0a15c726115e7b365245e5a730639317897ec24aa4481a4b6d19",
+    "path": "assets/images/shared/irrigation/sprinkler-head-cc.jpg"
+  },
+  {
+    "commons": "Watering_plants.jpg",
+    "bytes": 1496120,
+    "sha256": "d288249992dfa57d2697444bfa147125c52a3b0a3fffabc33f0efddc058e27de",
+    "path": "assets/images/shared/irrigation/watering-plants-cc.jpg"
+  },
+  {
+    "commons": "2009-365-285 Garden Season Closes (4007099430).jpg",
+    "bytes": 966460,
+    "sha256": "c51702df999c220632ded20ca49e79392c96bb23a6f8fd5840ff3fb18b6f39d6",
+    "path": "assets/images/shared/irrigation/garden-hose-season-cc-by.jpg"
+  },
+  {
+    "commons": "Schultz Horticultural Perlite.jpg",
+    "bytes": 201720,
+    "sha256": "1b7032573e09ade7fd78344b6980ddc025c4cf2633e48599a723489b5c11ec4e",
+    "path": "assets/images/shared/media/perlite-cc.jpg"
+  },
+  {
+    "commons": "Tamilnadu coconut coir business culture.jpg",
+    "bytes": 1565439,
+    "sha256": "67db50305bf875e472a7fc63b8d9982a1e4cb95ce20a409d352a5024b574626a",
+    "path": "assets/images/shared/media/coir-fiber-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Ficus carica bonsai A D170130.jpg",
+    "bytes": 735253,
+    "sha256": "8032990aeda23a4900dc493dfb9ce26f850a4360be2705755fd5c42bcfe30114",
+    "path": "assets/images/shared/media/potted-fig-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Arrels de figuera al jard\u00ed bot\u00e0nic de Val\u00e8ncia.JPG",
+    "bytes": 1143357,
+    "sha256": "f194dc03767a3376bae2dac8ddc192bf1da4d8d7f8a36a60d7057ada5e5cd208",
+    "path": "assets/images/shared/reference/fig-roots-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Ficus_carica_tree.jpg",
+    "bytes": 1178978,
+    "sha256": "573060b6ba81a7911d2709fe5e1e065ec94a7bbd623c6b570561019d45580a19",
+    "path": "assets/images/shared/reference/ficus-carica-tree-cc.jpg"
+  },
+  {
+    "commons": "Fig (Ficus carica) leaves, Parque do Monteiro-Mor, Lisboa, Portugal julesvernex2.jpg",
+    "bytes": 331363,
+    "sha256": "111f3c8021907d7ab95a37c9b6da9b2ca443aa0b9ab73d22e677291ff6e6546b",
+    "path": "assets/images/shared/trouble/fig-leaves-yellow-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Fig rust caused by Cerotelium fici.jpg",
+    "bytes": 946063,
+    "sha256": "78c1026f5008bc1218b696ff747e1c783b67dc5bfb1d3473bf3b9c9bbf0b8f36",
+    "path": "assets/images/shared/trouble/fig-rust-leaf-cc0.jpg"
+  },
+  {
+    "commons": "Fig (Ficus carica) fruit halved.jpg",
+    "bytes": 695948,
+    "sha256": "223a7f25cac4540c9c1237c3bace4f00b68d0676a19ea6f87f2d28150f01bb2d",
+    "path": "assets/images/shared/reference/fig-fruit-halved-cc.jpg"
+  },
+  {
+    "commons": "Clay_soil.jpg",
+    "bytes": 142264,
+    "sha256": "c6d3db921dcbfbc6fd6fa36ff85beb7c2c879cd35ed3d41217c80cc6122240dc",
+    "path": "assets/images/shared/soil/clay-soil-cc.jpg"
+  },
+  {
+    "commons": "Durisol.JPG",
+    "bytes": 1413800,
+    "sha256": "d9aab7a5cd37617859c489ee5078478178f522fdbf2948ef7cc481698a3be556",
+    "path": "assets/images/shared/soil/hardpan-profile-cc-by-sa.jpg"
+  },
+  {
+    "commons": "Potting_soil.jpg",
+    "bytes": 393651,
+    "sha256": "156d24af637921e936cae5cbb2629610294bb5e92a1862ae57703ddbd6f0ec72",
+    "path": "assets/images/shared/drainage/potting-soil-cc.jpg"
+  },
+  {
+    "commons": "Mowed fresh green seamless healthy lawn grass turf texture.jpg",
+    "bytes": 1616901,
+    "sha256": "8f583d90b92e520aa523fed7ae0bef0d801b521d5ae7e02f1e44c20dc8d8b0c9",
+    "path": "assets/images/shared/mulch/lawn-turf-cc.jpg"
+  },
+  {
+    "commons": "Soil Texture Samples including loam, sand and clay.jpg",
+    "bytes": 26180,
+    "sha256": "fa923b458a0e63b759cca3439e1db1968832c6e07e6a4367e024633e98f0796a",
+    "path": "assets/images/shared/soil/texture-samples-cc.jpg"
+  },
+  {
+    "commons": "Fig_tree.jpg (alias copy of Ficus_carica_tree staging)",
+    "bytes": 1178978,
+    "sha256": "573060b6ba81a7911d2709fe5e1e065ec94a7bbd623c6b570561019d45580a19",
+    "path": "assets/images/shared/reference/fig-tree-cc.jpg"
+  }
+]

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, salt, irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: salt-boron-and-the-well
+meta_description: Well water, soil salt, and boron sensitivity for figs — what yellow leaves and edge burn mean in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/salinity-diagram-cc.png" alt="Soil salinization diagram — excess sodium and boron show up on leaves before the well feels salty">
+<figcaption>Figure 1. Soil salinization diagram — excess sodium and boron show up on leaves before the well feels salty. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 UC IPM will grow a fig on lime. They will not grow a fig on a sodium jag.
 Tipburn. Yield off. That sentence sits in a California page and still

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, grass]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: grass-is-a-competitor
+meta_description: Grass at the drip line competes with fig roots for water — lawn vs tree in zone 8a summers.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/lawn-turf-cc.jpg" alt="Mowed lawn turf — grass at the drip line competes for water with shallow fig roots">
+<figcaption>Figure 1. Mowed lawn turf — grass at the drip line competes for water with shallow fig roots. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A fig in a lawn is a fig in a fight. The grass wants the same
 top inches. The mower wants a clean pass. The weed-and-feed

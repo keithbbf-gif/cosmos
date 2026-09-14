@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, freeze]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: water-before-a-hard-freeze
+meta_description: Water figs before a hard freeze in zone 8a — moist soil, crown protection, and what extension guides say.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/watering-plants-cc.jpg" alt="Watering before cold — moist soil holds heat around roots better than dry dust before a hard freeze">
+<figcaption>Figure 1. Watering before cold — moist soil holds heat around roots better than dry dust before a hard freeze. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Texas A&M: to minimize freeze injury in a dry fall, water
 the figs a few days before a hard freeze. Wet soil holds

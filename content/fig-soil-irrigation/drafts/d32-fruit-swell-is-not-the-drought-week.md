@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, fruit]
 author: PapaFig
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
+slug: fruit-swell-is-not-the-drought-week
+meta_description: Fruit swell needs water on figs; the ripening drought week is a different hose decision in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/fig-fruit-halved-cc.jpg" alt="Halved common fig — fruit swell needs water; ripening week is a different hose decision">
+<figcaption>Figure 1. Halved common fig — fruit swell needs water; ripening week is a different hose decision. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A fig that is sizing wants even moisture. Texas A&M’s
 shallow, drought-sensitive mat is not a suggestion in

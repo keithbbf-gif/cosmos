@@ -60,6 +60,14 @@ def main() -> int:
             errors.append(f"{path.name}: missing focus: 8a")
         if "voice: human" not in text:
             errors.append(f"{path.name}: missing voice: human")
+        if "meta_description:" not in text:
+            errors.append(f"{path.name}: missing meta_description")
+        if "slug:" not in text:
+            errors.append(f"{path.name}: missing slug")
+        if "<figure>" not in text:
+            errors.append(f"{path.name}: missing <figure> SEO block")
+        if "images:" not in text:
+            errors.append(f"{path.name}: missing images: shot list")
         stage = None
         for line in text.splitlines():
             if line.startswith("stage:"):
@@ -90,6 +98,12 @@ def main() -> int:
     print(f"words_max={max(words_all) if words_all else 0}")
     print(f"words_total={sum(words_all)}")
     print(f"stages={dict(stages)}")
+    rights = HERE / "RIGHTS.md"
+    if not rights.is_file():
+        errors.append("missing RIGHTS.md")
+    meta = HERE / "assets" / "images" / "_download_meta.json"
+    if not meta.is_file():
+        errors.append("missing assets/images/_download_meta.json (run fig_pack_rasters.py soil)")
     if errors:
         print("FAIL")
         for e in errors:

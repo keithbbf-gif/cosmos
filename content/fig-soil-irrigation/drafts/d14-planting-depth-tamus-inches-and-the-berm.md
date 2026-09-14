@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [planting, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: planting-depth-tamus-inches-and-the-berm
+meta_description: Fig planting depth on a berm: Texas A&M inches, crown height, and why the pretty deep hole is wrong.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/ficus-carica-tree-cc.jpg" alt="Common fig tree in the landscape — planting depth and berm shape matter more than variety hype">
+<figcaption>Figure 1. Common fig tree in the landscape — planting depth and berm shape matter more than variety hype. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Texas A&M says plant a fig 2 to 3 inches deeper than it grew in the
 nursery. I say plant high so the crown is not in a lake. Those two

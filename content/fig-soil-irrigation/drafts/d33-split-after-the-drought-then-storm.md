@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, split]
 author: PapaFig
+images:
+- path: D:\FIGS\Fig Fruit
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Fig Fruit
+slug: split-after-the-drought-then-storm
+meta_description: Split figs after drought then rain — skip a cycle, storm soak, and zone 8a summer fruit quality.
 ---
+
+<!-- orchard_slot: D:\FIGS\Fig Fruit — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/garden-hose-season-cc-by.jpg" alt="Garden hose at season close — split fruit often follows drought then a thunderstorm soak">
+<figcaption>Figure 1. Garden hose at season close — split fruit often follows drought then a thunderstorm soak. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The split fig is a water story before it is a variety
 story. A dry week, a binge, a storm, a fruit that was

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [soil, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: do-not-add-sand-to-clay
+meta_description: Why you do not add sand to clay for fig planting — brick soil, not drainage, in humid zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/texture-samples-cc.jpg" alt="Sand, loam, and clay samples — mixing sand into sticky clay makes concrete, not drainage">
+<figcaption>Figure 1. Sand, loam, and clay samples — mixing sand into sticky clay makes concrete, not drainage. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 This is the Saturday I am trying to talk you out of. The clay is
 slick. The forum said sand. The trailer has a yard of it. By

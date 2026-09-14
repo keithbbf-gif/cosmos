@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, rust]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: rust-leaves-are-not-a-gift
+meta_description: Fig rust litter is not free mulch — rake infected leaves instead of recycling rust under zone 8a trees.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/trouble/fig-rust-leaf-cc0.jpg" alt="Fig rust on foliage — rust litter under the tree is not free mulch for next year">
+<figcaption>Figure 1. Fig rust on foliage — rust litter under the tree is not free mulch for next year. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Fig rust loves a rainy season. Texas A&M says so. Infected
 leaves go brown, orange on the underside, then they drop

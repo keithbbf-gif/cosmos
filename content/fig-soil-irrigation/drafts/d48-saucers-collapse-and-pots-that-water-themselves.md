@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, containers]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: saucers-collapse-and-pots-that-water-themselves
+meta_description: Saucers and self-watering pots for figs — wet feet, collapse, and summer rain in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Container fig — saucers and self-watering pots keep roots wet longer than summer rain in 8a">
+<figcaption>Figure 1. Container fig — saucers and self-watering pots keep roots wet longer than summer rain in 8a. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A saucer full of water is a pond you can see. Dump
 it. The fig does not want a basement. Mosquitoes do.

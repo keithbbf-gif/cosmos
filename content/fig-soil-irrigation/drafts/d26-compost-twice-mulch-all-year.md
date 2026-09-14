@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, compost]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: compost-twice-mulch-all-year
+meta_description: Compost twice, mulch all year for potted and in-ground figs in the humid South.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/chips-on-bed-cc-by.jpg" alt="Wood chips on a garden bed — compost twice, mulch all year in humid zone 8a">
+<figcaption>Figure 1. Wood chips on a garden bed — compost twice, mulch all year in humid zone 8a. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 People treat compost and mulch like one pile. Compost is a
 meal. Mulch is a climate. You can skip a meal. You cannot

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, containers]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: lift-the-pot-and-what-the-pot-is
+meta_description: Lift the fig pot to learn weight — #3 and #5 gallons as part of irrigation in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/media/potted-fig-cc-by-sa.jpg" alt="Potted fig on a bench — lift the #3 or #5 to learn weight; the pot is part of the irrigation plan">
+<figcaption>Figure 1. Potted fig on a bench — lift the #3 or #5 to learn weight; the pot is part of the irrigation plan. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A #3 on gravel in July will lie if you poke the top
 inch. Lift it. Light means water. Heavy means wait.

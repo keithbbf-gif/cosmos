@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, perlite]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: perlite-you-can-see
+meta_description: Perlite in fig potting mix — visible air space and drainage for 3–5 gallon pots in 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/media/perlite-cc.jpg" alt="Horticultural perlite — white particles you can see mean air space in a fig potting mix">
+<figcaption>Figure 1. Horticultural perlite — white particles you can see mean air space in a fig potting mix. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Jack’s high-casting mix works because of the perlite
 beside it. Castings feed. Castings also hold water.

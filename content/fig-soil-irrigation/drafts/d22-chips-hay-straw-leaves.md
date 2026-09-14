@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: chips-hay-straw-leaves
+meta_description: Mulch choices for figs: wood chips, hay, straw, and leaves — how each shifts drying in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/wood-chips-cc.jpg" alt="Wood chip mulch texture — chips, hay, and straw each change how fast the top two inches dry">
+<figcaption>Figure 1. Wood chip mulch texture — chips, hay, and straw each change how fast the top two inches dry. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 I do not care which church of mulch you attend. I care that
 August sun is not hitting bare clay that baked into pottery

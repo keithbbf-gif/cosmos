@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, compaction]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: compaction-is-a-soil-type-you-made
+meta_description: Soil compaction under figs: parking, foot traffic, and wet clay turned into a hardpan you made yourself.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/compacted-soil-cc.jpg" alt="Compacted soil surface — parking and foot traffic make a soil type harder than your native clay">
+<figcaption>Figure 1. Compacted soil surface — parking and foot traffic make a soil type harder than your native clay. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Some dirt was born heavy. Some dirt you stepped on until it was. I can
 tell the second kind because there is a path to the hose bib, a mower

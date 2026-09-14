@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, promix]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: promix-hp-and-the-seventy-percent-feel
+meta_description: Promix HP and ~70% field capacity for fig pots — FigRoots mix language without a new trial.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/potting-soil-cc.jpg" alt="Commercial potting mix — Promix HP and ~70% field capacity are a feel, not a religion">
+<figcaption>Figure 1. Commercial potting mix — Promix HP and ~70% field capacity are a feel, not a religion. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 [An Introduction to Figs](https://figroots.com/an-introduction-to-figs/)
 already told beginners to buy a known bag. Promix HP is

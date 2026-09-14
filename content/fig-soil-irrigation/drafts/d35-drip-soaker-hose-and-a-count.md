@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: drip-soaker-hose-and-a-count
+meta_description: Drip vs soaker hose for figs — count minutes or gallons instead of guessing in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/drip-irrigation-cc.jpg" alt="Drip irrigation — count gallons or minutes; soaker hose and emitters each wet a different footprint">
+<figcaption>Figure 1. Drip irrigation — count gallons or minutes; soaker hose and emitters each wet a different footprint. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The tool follows the count. One tree: a hose you set
 and forget until you are bored. Ten trees: a soaker

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, rust]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: overhead-water-and-rust
+meta_description: Overhead sprinklers, wet leaves, and fig rust in humid zone 8a — drip when you can.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/sprinkler-head-cc.jpg" alt="Sprinkler irrigation head — overhead water wets leaves and feeds rust in sticky zone 8a air">
+<figcaption>Figure 1. Sprinkler irrigation head — overhead water wets leaves and feeds rust in sticky zone 8a air. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 UC IPM says avoid overhead when you can. Morning sun
 dries leaves after a wet night. TAMU wants an east or

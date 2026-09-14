@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, clay, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: clay-is-a-pantry-until-it-is-a-bowl
+meta_description: Clay soil for figs in zone 8a: when heavy ground works, when a clay bowl drowns roots, and why rich is not the same as open.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/clay-soil-cc.jpg" alt="Heavy clay soil holds water — fine in a pantry layer, deadly in a sealed planting bowl">
+<figcaption>Figure 1. Heavy clay soil holds water — fine in a pantry layer, deadly in a sealed planting bowl. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 South Arkansas clay gets blamed for every yellow leaf in the county. Some of
 that blame is earned. A lot of it is lazy. Clay holds nutrients. Clay holds

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, soil]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: shallow-roots-a-blanket-they-can-breathe
+meta_description: Shallow fig roots and mulch — a breathable blanket on the mat, not a volcano on the trunk.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/reference/fig-roots-cc-by-sa.jpg" alt="Fig roots near the surface — mulch is a blanket on the mat, not a smother on the trunk">
+<figcaption>Figure 1. Fig roots near the surface — mulch is a blanket on the mat, not a smother on the trunk. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Fig roots are a mat, not a taproot drama. Texas A&M says mulch
 because of that. UAEX says the same. NC State says mulch

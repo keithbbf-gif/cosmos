@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, trouble]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: keep-mulch-off-the-trunk
+meta_description: Keep mulch off the fig trunk — volcano mulching, bark rot, and the air gap the crown needs.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/volcano-mulching-cc-by.jpg" alt="Volcano mulch piled on a tree trunk — the habit that cooks bark and invites rot on figs">
+<figcaption>Figure 1. Volcano mulch piled on a tree trunk — the habit that cooks bark and invites rot on figs. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Every year the chips creep in. Every year I rake them back. That
 is not fussiness. That is how you keep a crown from living in a

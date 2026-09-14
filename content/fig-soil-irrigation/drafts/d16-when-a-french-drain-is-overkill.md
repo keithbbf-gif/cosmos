@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: when-a-french-drain-is-overkill
+meta_description: French drains for figs: when a berm is enough, when you need tile, and when you are fixing the wrong yard.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/french-drain-cc.jpg" alt="French drain installation — sometimes a berm is enough; sometimes you need a real drain line">
+<figcaption>Figure 1. French drain installation — sometimes a berm is enough; sometimes you need a real drain line. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Once a person has watched a puddle sit until morning, the next video
 is a French drain. Trench, pipe, gravel, fabric, a weekend, a

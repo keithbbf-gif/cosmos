@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: deep-and-infrequent-once-it-has-a-county
+meta_description: Deep, infrequent irrigation for established figs — drip and soaker logic once roots own the county.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/drip-irrigation-cc.jpg" alt="Drip irrigation line — deep, infrequent water once roots own the county, not the pot">
+<figcaption>Figure 1. Drip irrigation line — deep, infrequent water once roots own the county, not the pot. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 UC IPM wants established fruit trees watered deeply and
 not often — hours, not minutes, to wet feet, every couple

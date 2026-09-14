@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media, nematodes]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: yard-dirt-in-a-can-is-a-brick
+meta_description: Do not fill fig pots with yard clay — container media that drains in zone 8a summers.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/potting-soil-cc.jpg" alt="Bagged potting soil — yard clay in a container turns into a brick, not a fig mix">
+<figcaption>Figure 1. Bagged potting soil — yard clay in a container turns into a brick, not a fig mix. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The [Outdoor](https://figroots.com/outdoor/) page uses yard
 dirt for bulk starts of wood we can replace. That is free

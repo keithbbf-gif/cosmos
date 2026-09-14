@@ -35,6 +35,13 @@ roots alive:
 
 A manifest lives in `_manifest.toml`. Drafts live in `drafts/`.
 
+## Images & SEO (staged)
+
+- `PHOTO_MANIFEST.md` / `PHOTO_NOTES.md` — **`D:\FIGS` on KC-PC first**, then Commons/USDA fills
+- `RIGHTS.md` — licence register for every raster under `assets/images/`
+- `GRAPHICS_CHECKLIST.md` — download + embed pipeline
+- Each draft: `slug`, `meta_description`, YAML `images:` shot list, and one `<figure>` block (PD staging until Keith stills land)
+
 ## Voice
 
 First person, a yard in 8a, neighbors in 7 and 9. PapaFig. Specific dirt and

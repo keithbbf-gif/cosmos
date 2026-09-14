@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, compost, mulch]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: compost-as-a-topping-not-a-burial
+meta_description: Compost on figs: thin topping for shallow roots, not a two-foot burial that holds water in clay.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/compost-cc.jpg" alt="Finished compost — a thin topping for shallow fig roots, not a two-foot burial in clay">
+<figcaption>Figure 1. Finished compost — a thin topping for shallow fig roots, not a two-foot burial in clay. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Figs prefer regular composting instead of a fertility circus. The
 Austin Master Gardeners said that in their fig handout for Central

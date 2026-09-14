@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, drainage]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: what-the-top-two-inches-already-say
+meta_description: Read the top two inches of soil before you water a fig — crust, color, and mulch tell you wet, dry, or sour.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/silt-loam-surface-cc.jpg" alt="Surface soil crust and texture — the top two inches tell you mulch and hose before the lab report">
+<figcaption>Figure 1. Surface soil crust and texture — the top two inches tell you mulch and hose before the lab report. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 I do not need a meter for the first conversation. I need the morning
 after a rain, a trowel, and a willingness to smell dirt.

@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage, soil]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: dig-fill-come-back-in-the-morning
+meta_description: The fig planting-hole drainage test: fill with water, come back in the morning. If it is still a puddle, fix the hole first.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/french-drain-cc.jpg" alt="French drain trench — if the planting hole is still a puddle tomorrow, fix drainage before the fig">
+<figcaption>Figure 1. French drain trench — if the planting hole is still a puddle tomorrow, fix drainage before the fig. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 This is the only soil test I will not let you skip. Dig the hole. Fill it
 with water. If it is still there hours later — if it is still a puddle the

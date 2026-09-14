@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage, raised-beds]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: a-berm-is-not-a-raised-bed
+meta_description: A planting berm is not a raised bed for figs — sides, drainage, and when each shape wins in the South.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/raised-bed-cc.jpg" alt="Raised bed with defined sides — not the same as a low berm on native grade in zone 8a">
+<figcaption>Figure 1. Raised bed with defined sides — not the same as a low berm on native grade in zone 8a. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 People use the words like they are the same pile. They are not. A berm
 is native dirt you shaped so the crown sits above the flood. A raised

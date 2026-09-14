@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, souring]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: rain-souring-skip-a-cycle
+meta_description: After heavy rain on potted figs, skip a watering cycle before sour roots in zone 8a humidity.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/garden-hose-season-cc-by.jpg" alt="Coiled garden hose — after a soaking rain, skip a cycle before sour roots in a heavy pot">
+<figcaption>Figure 1. Coiled garden hose — after a soaking rain, skip a cycle before sour roots in a heavy pot. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Open-eye figs take rain in the ostiole and then they take
 yeast and a dried-fruit beetle and then they take your

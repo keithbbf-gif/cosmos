@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: trouble
 topics: [irrigation, trouble]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs-summer-23
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs-summer-23
+slug: yellow-leaves-wet-dry-or-occupied
+meta_description: Yellow fig leaves: wet feet, drought stress, rust, or salt — tell them apart in zone 8a.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs-summer-23 — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/trouble/fig-leaves-yellow-cc-by-sa.jpg" alt="Yellowing fig leaves — wet feet, drought, and rust each paint a different yellow pattern">
+<figcaption>Figure 1. Yellowing fig leaves — wet feet, drought, and rust each paint a different yellow pattern. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Yellow is a crowd. Hungry, wet feet, drought, nematodes,
 old leaves in August, a pot that soured. The forum will

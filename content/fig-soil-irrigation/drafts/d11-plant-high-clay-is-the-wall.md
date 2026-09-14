@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage, planting]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: plant-high-clay-is-the-wall
+meta_description: Plant figs high on clay in zone 8a — berm and crown height keep the trunk out of the bowl that holds rain.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/vegetated-berm-cc-by.jpg" alt="Vegetated berm — planting high on clay is the wall that keeps the crown out of the bowl">
+<figcaption>Figure 1. Vegetated berm — planting high on clay is the wall that keeps the crown out of the bowl. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 Once the puddle test has voted no, people still want a trick that lets
 them plant in the same dish. The trick is height. Not a secret

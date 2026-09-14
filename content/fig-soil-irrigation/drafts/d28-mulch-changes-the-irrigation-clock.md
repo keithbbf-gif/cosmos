@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: mulch
 topics: [mulch, irrigation]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: mulch-changes-the-irrigation-clock
+meta_description: Mulch changes how often you water figs — evaporation, hose math, and zone 8a thunderstorm weeks.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/mulch/straw-mulch-cc.jpg" alt="Straw mulch on a garden row — thick mulch slows evaporation and shifts your hose schedule">
+<figcaption>Figure 1. Straw mulch on a garden row — thick mulch slows evaporation and shifts your hose schedule. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A bare clay ring and a chipped ring are not the same plant.
 The calendar you copied from a desert video was written on

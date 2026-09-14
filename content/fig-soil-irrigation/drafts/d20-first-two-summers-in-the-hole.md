@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: irrigation
 topics: [irrigation, planting]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: first-two-summers-in-the-hole
+meta_description: Watering a new in-ground fig: the first two summers in zone 8a are still establishment, not drought games.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/irrigation/watering-plants-cc.jpg" alt="Hand watering a garden plant — the first two in-ground summers are still pot logic with no handles">
+<figcaption>Figure 1. Hand watering a garden plant — the first two in-ground summers are still pot logic with no handles. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 An established fig in a hole that drains will outgrow your
 interest in watering. A first-year fig will not. The mat has not

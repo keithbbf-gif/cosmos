@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: soil
 topics: [soil, tests]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: what-a-soil-test-is-worth
+meta_description: What a county soil test is worth for fig growers: texture, salt, pH, and what it cannot buy you at the garden center.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/texture-samples-cc.jpg" alt="Soil texture comparison — a county soil test names salt, pH, and texture; it does not sell you mix">
+<figcaption>Figure 1. Soil texture comparison — a county soil test names salt, pH, and texture; it does not sell you mix. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 A county soil test will not tell you the hole holds a lake. I have watched
 people wait on a lab sheet while a thunderstorm wrote the only number that

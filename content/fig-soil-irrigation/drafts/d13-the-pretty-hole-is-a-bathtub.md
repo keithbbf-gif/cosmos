@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage, planting]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: the-pretty-hole-is-a-bathtub
+meta_description: Amended planting holes in clay are bathtubs — Promix in a pit without drainage drowns fig roots after the first big rain.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/potting-soil-cc.jpg" alt="Bagged potting mix — a pretty amended hole in clay is an underground pot with no drain holes">
+<figcaption>Figure 1. Bagged potting mix — a pretty amended hole in clay is an underground pot with no drain holes. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The pretty hole is the scar I want to spare you.
 

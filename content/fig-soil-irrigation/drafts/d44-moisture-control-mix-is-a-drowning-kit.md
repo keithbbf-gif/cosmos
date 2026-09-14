@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: media
 topics: [media]
 author: PapaFig
+images:
+- path: D:\FIGS\Greenhouse photos
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Greenhouse photos
+slug: moisture-control-mix-is-a-drowning-kit
+meta_description: Moisture-control potting mix drowns figs in humid zone 8a — why plain draining mix wins in #3 pots.
 ---
+
+<!-- orchard_slot: D:\FIGS\Greenhouse photos — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/drainage/potting-soil-cc.jpg" alt="Moisture-retaining potting mix — moisture-control bags are a drowning kit in humid summers">
+<figcaption>Figure 1. Moisture-retaining potting mix — moisture-control bags are a drowning kit in humid summers. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 The bag says you will water less. The gel and the fine
 peat say the fig will sit in a wet cake that never

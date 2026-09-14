@@ -9,7 +9,20 @@ zones: [7, 8a, 8b, 9]
 cluster: drainage
 topics: [drainage, hardpan]
 author: PapaFig
+images:
+- path: D:\FIGS\Figs
+  caption: Staged hero still — replace PD fill before publish.
+  source: ours
+  folder_pick: Figs
+slug: hardpan-and-the-first-two-feet
+meta_description: Hardpan and the first two feet under a fig — when water stops and roots hit a wall in zone 8a clay.
 ---
+
+<!-- orchard_slot: D:\FIGS\Figs — hero still before publish -->
+<figure>
+<img src="../assets/images/shared/soil/hardpan-profile-cc-by-sa.jpg" alt="Soil profile with dense layer — hardpan in the first two feet stops water and roots cold">
+<figcaption>Figure 1. Soil profile with dense layer — hardpan in the first two feet stops water and roots cold. PD/CC staging fill — swap for a Keith still from PHOTO_NOTES (`D:\FIGS` first) before publish. Credits: RIGHTS.md.</figcaption>
+</figure>
 
 UC IPM says figs grow best in four feet of soil and also survive in
 shallower dirt with hardpan or claypan. That sentence has comforted
