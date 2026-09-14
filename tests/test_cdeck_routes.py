@@ -99,6 +99,13 @@ def main() -> int:
               and body.get("registry", {}).get("available") is True
               and any(n.get("id") == "gem-api"
                       for n in (body.get("topology") or {}).get("nodes") or []))
+        check("GET /nodemap always names COW (UNMEASURED, age_s null never 0)",
+              lambda: (body.get("cow") or {}).get("id") == "cow"
+              and body["cow"].get("proof_state") == "UNMEASURED"
+              and body["cow"].get("age_s") is None
+              and body["cow"].get("verified") is None
+              and (body["cow"].get("independence") or {}).get("note")
+              == "SGH+GBW are not independent checks of each other")
         check("GET /nodemap registry carries matrix for the browser wrap",
               lambda: isinstance(body.get("registry", {}).get("matrix"), list)
               and len(body["registry"]["matrix"]) >= 1

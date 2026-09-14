@@ -162,6 +162,20 @@ def main() -> int:
         check("cow independence note is on the live_call contract",
               lambda: "SGH+GBW are not independent checks of each other"
               in src)
+        import cosmos_rails_prober as Pmod
+        _old_claude = Pmod._claude_live_call
+        Pmod._claude_live_call = lambda paths: {
+            "ok": True, "rc": 0, "body": "PONG", "model": "haiku",
+            "model_source": "requested",
+        }
+        try:
+            refused = Pmod._cow_live_call(None)
+        finally:
+            Pmod._claude_live_call = _old_claude
+        check("cow live_call refuses a requested-model fallback (not vendor-emitted)",
+              lambda: refused.get("ok") is False
+              and refused.get("model") == ""
+              and "vendor did not name" in (refused.get("detail") or ""))
 
         src = (Path(__file__).resolve().parent.parent / "cosmos"
                / "cosmos_rails_prober.py").read_text(encoding="utf-8")

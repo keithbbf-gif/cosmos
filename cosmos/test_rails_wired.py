@@ -345,7 +345,8 @@ def prove_then_stale(td: Path) -> None:
 
     models = {"sgh-api": "grok-4.6", "gem-api": "gemini-2.5-flash",
               "gw-api": "grok-build-0.1", "oa-api": "gpt-5.6-terra",
-              "claude-cli": "haiku", "codex-cli": "gpt-5.4-codex",
+              "claude-cli": "haiku", "cow": "claude-opus-4-5",
+              "codex-cli": "gpt-5.4-codex",
               "cursor-api": "Cursor COSMOS 2",
               "firecrawl-web": getattr(P, "FIRECRAWL_RESPONDER", "firecrawl"),
               "groq-api": "openai/gpt-oss-20b",
