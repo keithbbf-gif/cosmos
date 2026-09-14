@@ -3,7 +3,8 @@ title: "What remains"
 slug: what-remains
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 40
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -39,7 +40,7 @@ After the big mill, after the hardwood close, after two tornadoes, the remaining
 
 Mill-town America photographs a gate and a stack. Warren’s remaining photograph is a wooden depot, a cupola, a Greek Revival porch, a brick street with a painted tomato, and a Mission marquee that has outlived its projector. The type is the preserved downtown. The particular is the split-level wood and the two-colored courthouse and the doctor who could see his children’s roofs. Crossett’s remains are company-town remains. Warren’s are seat-of-government remains that the mills filled and did not found.
 
-The still, if this were a film, would begin on the depot step, hold long enough to hear no train, then tilt to the cupola, then cut to the Martin porch, then drop to the brick, then end on the Pastime’s unlit marquee. Five objects. One town. No sermon. The mills made the money that paved the brick and filled the balcony. The objects remain after the money changed clothes. A person can walk them in an hour. The hour is the history that did not burn.
+The still might begin on the depot step, hold long enough to hear no train, then tilt to the cupola, then cut to the Martin porch, then drop to the brick, then end on the Pastime’s unlit marquee. Five objects. One town. No sermon. The mills made the money that paved the brick and filled the balcony. The objects remain after the money changed clothes. A person can walk them in an hour. The hour is the history that did not burn.
 
 ## Sources
 

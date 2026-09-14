@@ -3,7 +3,8 @@ title: "The sawyer's chair"
 slug: the-sawyers-chair
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 17
 word_target: 1400-2200
 lane: bradleylumbercompany.com

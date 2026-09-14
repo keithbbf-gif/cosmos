@@ -3,7 +3,8 @@ title: "Before the rail, the small mills"
 slug: before-the-rail-the-small-mills
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 5
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -15,7 +16,7 @@ place: "Warren, Bradley County, Arkansas"
 
 # Before the rail, the small mills
 
-The county paper, when it bothered to list them, sounded like a dry-goods invoice. Shirey & Butler. Crandall & Leavitt. Edmondson. Glasgow & Temple. Lanark. Whittington. Parker & Kinard. Lowry & Taylor. J. E. Walker’s mill. The *Encyclopedia of Arkansas* still recites that roll under Warren, the way a clerk recites who is owed. No daily capacities. No head-counts. No surviving letterheads in the public pack. Only the fact that, long before three northern companies taught the town to speak in hundred-thousand-foot days, Bradley County already knew how to turn a tree into a board for a neighbor.
+The county paper, when it bothered to list them, sounded like a dry-goods invoice. Shirey & Butler. Crandall & Leavitt. Edmondson. Glasgow & Temple. Lanark. Whittington. Parker & Kinard. Lowry & Taylor. J. E. Walker’s mill. The *Encyclopedia of Arkansas* still recites that roll under Warren, the way a clerk recites who is owed. No daily capacities. No head-counts. No surviving letterheads in the surviving county record. Only the fact that, long before three northern companies taught the town to speak in hundred-thousand-foot days, Bradley County already knew how to turn a tree into a board for a neighbor.
 
 Isolation was the tax on every one of those names. Until a railroad made Warren a terminus, a log that could not reach a raft or a wagon road stayed a tree. The Saline would take what the Saline could float. The Ouachita, farther off, would take what a landing could hold. Everything else — the shortleaf on the sandy rises, the oak too far from a wet bank — was local lumber or it was scenery. George Balogh’s timber-industry entry puts the problem without romance. After the Civil War, powered machinery let a man set up a small sawmill. Those mills served only the communities that could walk or wagon to them. The means to reach the Northeast and the Midwest did not exist until railroad builders decided Arkansas was a ledger they wanted.
 
@@ -29,7 +30,7 @@ Shirey & Butler, Crandall & Leavitt, Glasgow & Temple, Parker & Kinard, Lowry & 
 
 Jay Gould’s Iron Mountain was already writing Arkansas into a larger book. Bradley County’s own service line, when it finally arrived, ran toward Dermott. The encyclopedia’s sentence after that arrival is the one the small mills could not write: the stage was set for the exploitation of the shortleaf yellow pine lands. Exploitation is the accurate verb. The small mills had been using the woods. They had not been emptying them for Chicago. A local saw is a neighbor. A mill that posts 100,000 board feet a day is a climate.
 
-Thomas A. Carpenter established the first large lumber mill in Warren in 1891. The encyclopedia gives him that sentence and almost nothing else. Eleven years after the railroad, someone finally built to the scale the rail could feed. Carpenter is the hinge between the invoice of partnerships and the letterheads that followed. He is not, in the published pack, a biography. `[CITE NEEDED: Carpenter mill location, daily cut, and disposition of the plant after 1891.]` What the date does is end an era without a funeral. The small names did not all vanish on a Monday. They were out-capitaled. A large mill buys stumpage in sections. A small mill buys a forty and hopes the boiler lasts.
+Thomas A. Carpenter established the first large lumber mill in Warren in 1891. The encyclopedia gives him that sentence and almost nothing else. Eleven years after the railroad, someone finally built to the scale the rail could feed. Carpenter is the hinge between the invoice of partnerships and the letterheads that followed. He is not, in the surviving county record, a biography. `[CITE NEEDED: Carpenter mill location, daily cut, and disposition of the plant after 1891.]` What the date does is end an era without a funeral. The small names did not all vanish on a Monday. They were out-capitaled. A large mill buys stumpage in sections. A small mill buys a forty and hopes the boiler lasts.
 
 William H. Wheeler is the next local name the papers keep. The Warren entry calls him a local man who established the Bradley Lumber mill. Bradham’s 1951 sketch says Samuel H. Fullerton of St. Louis bought a small mill from W. H. Wheeler and then hired Joe L. Reaves, Sr., to buy timber. Both sentences can sit on the same plank. Wheeler started something the town could still call local. Fullerton bought it and made it a St. Louis company with a county’s name. The small-mill generation ends, in that telling, not with a shutdown notice but with a sale. A man who has built a mill large enough to attract Fullerton has already left the 1880s invoice behind. He has become the last local owner the later story will bother to spell.
 

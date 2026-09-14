@@ -3,7 +3,8 @@ title: "August fifth, eighteen eighty"
 slug: august-fifth-eighteen-eighty
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 6
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -25,7 +26,7 @@ A western terminus is a peculiar honor. It means you are the end. Goods come thi
 
 Gould’s next trick with this particular road was to sue himself. He owned the Little Rock, Mississippi River and Texas. He had it foreclosed so he could buy it again free of the old debts. On 28 January 1887 the U.S. Circuit Court for the Eastern District of Arkansas sold it. Gould re-purchased it and, on 1 February 1887, deeded it to the St. Louis, Iron Mountain and Southern. Silva compresses the same change: in 1887 the LRMR&T was acquired by the Iron Mountain, which later merged with Missouri Pacific in 1917. The town that had celebrated a terminus now sat on a famous system. Famous systems do not love termini. They love through traffic. Warren remained a place cars were made up, not a place cars passed without stopping. That was enough. Pine does not need a grand union station. It needs a siding and a clerk who can bill a mixed car.
 
-By 1907, Silva says, the Iron Mountain had built a combination passenger and freight depot near the southeast corner of Chestnut and Elm. After the Missouri Pacific merger, two new buildings went up on the site: a passenger depot with white and colored waiting rooms, and a freight depot. Neither is extant. The sentence is a whole civic history. The railroad that opened the timber market also built the Jim Crow rooms in which the town waited for a train. Catfish Row, one block of Black-owned businesses on East Elm just north of the tracks, grew in the same generation. The depot’s paired waiting rooms and the other Main Street are the same fact seen from two doors. A series that talks about August 1880 as liberation for logs has to say who stood in which room when the passenger schedule was posted.
+By 1907, Silva says, the Iron Mountain had built a combination passenger and freight depot near the southeast corner of Chestnut and Elm. After the Missouri Pacific merger, two new buildings went up on the site: a passenger depot with white and colored waiting rooms, and a freight depot. Neither is extant. The sentence is a whole civic history. The railroad that opened the timber market also built the Jim Crow rooms in which the town waited for a train. Catfish Row, one block of Black-owned businesses on East Elm just north of the tracks, grew in the same generation. The depot’s paired waiting rooms and the other Main Street are the same fact seen from two doors. Any honest telling of August 1880 as liberation for logs has to say who stood in which room when the passenger schedule was posted.
 
 The Iron Mountain / MoPac depots are gone. The grade is not. Thirty-nine miles between Warren and Dermott still operate, the encyclopedia’s railroad entry says, under the Arkansas Midland. The old Warren Subdivision of the Missouri Pacific is a working memory. You can hear a crossing and know the 1880 door is still on its hinges, even if the company names have been sold down a chain of ledgers Gould would have recognized. The large mills that the door made possible have their own short lines — the Warren and Ouachita Valley toward Banks, the Warren and Saline River toward the Bradley woods — but those are later essays. This hour is the main stem. Without Dermott, there is no Banks. Without 1880, there is no 1899.
 

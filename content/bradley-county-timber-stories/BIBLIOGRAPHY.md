@@ -1,7 +1,8 @@
 ---
 title: Bibliography — Bradley County Timber Stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 series: bradley-county-timber-stories
 lane: bradleylumbercompany.com
 ---

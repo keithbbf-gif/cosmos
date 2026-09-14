@@ -3,7 +3,8 @@ title: "Three mills, one town"
 slug: three-mills-one-town
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 9
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -31,7 +32,7 @@ Arkansas Lumber’s offices on Sturgis Street, Nelson notes, left a surname that
 
 Labor, in the published 1907 sentences, is a head-count. Three hundred. Three hundred fifty. Four hundred. No union hall the record can name in that decade. `[CITE NEEDED: early mill labor organization in Warren before the 1940s letters.]` The First World War would put women on the floor under a dress-and-slacks rule. The 1940s would put Robert W. Fullerton on letterhead arguing with the CIO. 1907 is earlier and quieter in the paper, which does not mean it was quiet on the floor. A thousand men in a town of two thousand is a politics whether or not anyone kept minutes. The square’s cupola looked down on that politics and did not, in the surviving minutes, take a side.
 
-Jim Crow is not a later stain on a clean mill decade. It is the decade’s architecture. The Missouri Pacific passenger depot, after 1917, had white and colored waiting rooms. The Pastime had a separate entrance and a balcony. Catfish Row, by 1920, held a bottling works, a confectionery, a pool hall, dry cleaners, a cobbler, a barber, a grocery; by 1931, brick, two Dr. Pepper plants, a lodge, a theater. George W. Hammons’s initials are still on a storefront. Three mills paid Black wages and then required those wages to be spent in a different block. A series that treats 1907 as civic weather has to treat Elm Street as part of the forecast.
+Jim Crow is not a later stain on a clean mill decade. It is the decade’s architecture. The Missouri Pacific passenger depot, after 1917, had white and colored waiting rooms. The Pastime had a separate entrance and a balcony. Catfish Row, by 1920, held a bottling works, a confectionery, a pool hall, dry cleaners, a cobbler, a barber, a grocery; by 1931, brick, two Dr. Pepper plants, a lodge, a theater. George W. Hammons’s initials are still on a storefront. Three mills paid Black wages and then required those wages to be spent in a different block. Treat 1907 as civic weather and Elm Street as part of the forecast.
 
 The banks are the other civic weather. Merchants and Planters in the 1890s. Warren Bank in 1901, the same year two of the three mills were incorporated. Neither failed in the 1930s, the encyclopedia is proud to say, and the pride is allowed because the paper is specific. Mill payrolls and tomato receipts and independent grocery tickets went into the same vaults. Three companies did not found a company bank that ate the town. They used the town’s banks. That is the leaky fence in ledger form.
 

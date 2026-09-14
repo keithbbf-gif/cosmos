@@ -3,7 +3,8 @@ title: "Brick streets, 1927"
 slug: brick-streets-1927
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 26
 word_target: 1400-2200
 lane: bradleylumbercompany.com

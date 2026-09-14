@@ -3,7 +3,8 @@ title: "The YMCA, nineteen twenty"
 slug: ymca-nineteen-twenty
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 24
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -37,7 +38,7 @@ The Y is an afterlife of the rink: mill first, then the rooms a mill town builds
 
 Mill-town America repeats the YMCA as a photograph: brick, a painted triangle, boys in wool, a pool that smells of chlorine and sawdust because the mill is never far. Warren’s particular is the stack of uses on one corner, and the speed of the stack. 1907 rink. 1912 stage. 1918 council. 1920 charter and a 3½-story house of water and books. 1944 fire. A rebuilt hall that, five years later, is an emergency ward while rain falls in sheets and the Bradley powerhouse lies under its own chimney. The type is Protestant recreation. The particular is a map that will not leave the lot alone.
 
-The Council of 22 is the name that most needs a list and does not have one in the tour scripts. Twenty-two is a number that wants surnames — Ederington, Fullerton, Mansfield, Derby, Hurley, Gannaway, Martin — and the published record, as of this writing, does not print them. `[CITE NEEDED: the twenty-two names on the 1918 council, if a minute book or newspaper survives.]` A Ken Burns hour would hold the number and refuse to invent the roll. The county’s first grand jury, in 1841, is a neighbor poem because Bradham wrote the names down. The Council of 22 is a neighbor poem with the names torn off.
+The Council of 22 is the name that most needs a list and does not have one in the tour scripts. Twenty-two is a number that wants surnames — Ederington, Fullerton, Mansfield, Derby, Hurley, Gannaway, Martin — and the published record, does not yet print them. `[CITE NEEDED: the twenty-two names on the 1918 council, if a minute book or newspaper survives.]` Hold the number and refuse to invent the roll. The county’s first grand jury, in 1841, is a neighbor poem because Bradham wrote the names down. The Council of 22 is a neighbor poem with the names torn off.
 
 What remains on the ground is a habit. The corner still works as a Y. Children still learn to swim in a town that learned, first, to skate, then to watch a stage, then to charter a Christian association because twenty-two men in a war year decided the mill’s sons needed a room that was not a balcony and not a commissary. The 1920 charter is the dated object. The fire of 1944 is the dated absence. Between them a mill town practiced the American faith that a pool can civilize a payroll. It can. It cannot desegregate a theater. It cannot hold a smokestack up in a January wind. It can keep a corner from becoming only a memory of wheels.
 

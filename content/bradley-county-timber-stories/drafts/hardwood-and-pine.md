@@ -3,7 +3,8 @@ title: "Hardwood and pine"
 slug: hardwood-and-pine
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 20
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -25,7 +26,7 @@ Jay Gould’s Iron Mountain had already written Arkansas into a larger ledger. B
 
 Balogh’s map of Arkansas timber is four rooms. Delta hardwood in the east. Ozark mix in the north. Ouachita pine-and-hardwood to the west. Rolling southern hills of yellow pine. Bradley County is the southern room with a hardwood hallway along the Saline and the Ouachita. Shortleaf — southern yellow pine in the later language — on the warmer sandy slopes, faster than the mountain pines. Oak, gum, hickory in the wet. The 1826–1830 plats called some of those bottoms fields. The mills called them holdings. Joe L. Reaves, Sr., hired by Fullerton to buy timber, walked both. A purchase book that only understood pine would have left money in the swamps. A dealer who only understood oak would have left the hills to Weyerhaeuser. The mixed car begins in that walk.
 
-“Arkansas Soft Pine” on the card is a trade name for a feeling, not a separate species. The feeling is mild texture, paint that takes, interior trim that does not fight the brush. A 1954 architectural circular from the same company, later sold as a vintage brochure, still talked about soft-pine stain-like interior trim, paneling, finish, grades and grade-marking, mouldings — beside oak block, strip, and plank flooring. The brochure is not a shop list for this series. It is evidence that the mixed identity lasted into the decade Potlatch arrived. The August 1944 *American Builder* page, also on the ARGenWeb plant page, advertised pre-finished hardwood flooring from Warren while the plant still claimed the pine. War demand did not force a choice. It used both.
+“Arkansas Soft Pine” on the card is a trade name for a feeling, not a separate species. The feeling is mild texture, paint that takes, interior trim that does not fight the brush. A 1954 architectural circular from the same company, later sold as a vintage brochure, still talked about soft-pine stain-like interior trim, paneling, finish, grades and grade-marking, mouldings — beside oak block, strip, and plank flooring. The brochure is not a shop list for these essays. It is evidence that the mixed identity lasted into the decade Potlatch arrived. The August 1944 *American Builder* page, also on the ARGenWeb plant page, advertised pre-finished hardwood flooring from Warren while the plant still claimed the pine. War demand did not force a choice. It used both.
 
 A mixed car is a railroad idea. The Ouachita Division reached Warren on 5 August 1880. The Warren & Ouachita Valley, 1899, gave Southern and Arkansas Lumber a short line to the Rock Island at Banks. Iron Mountain, later Missouri Pacific, took the older route. A buyer in St. Louis or Chicago who wanted a car of nothing but No. 1 common oak could have it. A buyer who wanted oak flooring, a little gum, and a stack of pine finish in one car saved a switch. Headquarters, on the card, is a boast that the plant could make up that car without begging a neighbor. Whether the boast was always true is a sales question the invoices would answer. `[CITE NEEDED: a surviving Bradley mixed-car invoice or traffic book.]` The postcard is not an invoice. It is the face the company wanted on a drugstore rack. Gannaway Drug, Silva notes, sold a mill postcard of its own. The square sold the image of the yards. The yards sold the square’s growth: 954 people in 1900, 2,057 in 1910.
 

@@ -3,7 +3,8 @@ title: "Commissary and scrip"
 slug: commissary-and-scrip
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 15
 word_target: 1400-2200
 lane: bradleylumbercompany.com

@@ -3,7 +3,8 @@ title: "The Potlatch years"
 slug: potlatch-years
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 33
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -29,7 +30,7 @@ Other Arkansas facts under the same letterhead thicken the feeling without guara
 
 On 28 March 1975, Good Friday, a tornado takes the Farmville-to-Warren path of 1949 and kills seven. The stack Potlatch bought is in the weather again. The commercial square, as in 1949, is mostly spared. The company does not leave. That is the kind of fact an aura feeds on, and it is a real fact. Staying through a second wind is not the same as promising hardwood a market in 2002. It is the same as not being Arkansas Lumber.
 
-What Potlatch actually did on the ground, in the public papers this series trusts, is thinner than the feeling. Kraft mills at Pine Bluff and McGehee, Balogh notes, were other Arkansas facts under the same name. In Warren the name meant saws. A new $27 million lumber mill in the early 1990s appears in the corporate histories — opened 1994 in one telling — as capital expenditure, southern yellow pine, a number that sounds like permanence poured in concrete. The two Warren mills, hardwood and pine, were expanded and updated in the 1990s, a company vice president would say in 2002 while announcing that one of them would close. Updates are not a vow. They are a depreciation schedule.
+What Potlatch actually did on the ground, in the public papers these sources trust, is thinner than the feeling. Kraft mills at Pine Bluff and McGehee, Balogh notes, were other Arkansas facts under the same name. In Warren the name meant saws. A new $27 million lumber mill in the early 1990s appears in the corporate histories — opened 1994 in one telling — as capital expenditure, southern yellow pine, a number that sounds like permanence poured in concrete. The two Warren mills, hardwood and pine, were expanded and updated in the 1990s, a company vice president would say in 2002 while announcing that one of them would close. Updates are not a vow. They are a depreciation schedule.
 
 June 2002: Potlatch will close the Bradley hardwood sawmill at Warren, exit the hardwood lumber business in Arkansas, move production toward pine at Warren and at Prescott, cut about 70 hardwood jobs, add about 35 at the pine mill. The mill being closed, the wire story said, was the one bought in 1958. August 2002: the facility sold. David Chambers, named in a later timberland brief as president of Bradley Lumber Company, takes the hardwood plant. Potlatch, in 2003, will sell 15,200 acres of Arkansas timberland to that Bradley Lumber Company. The Chambers years are civic history, not a family advertisement: a local purchase after a northern exit from hardwood, then a 2008 closure amid a credit suit the Democrat-Gazette filed under a statewide strain on hardwood sawmills. The aura lasted forty-odd years. The hardwood afterlife lasted six.
 

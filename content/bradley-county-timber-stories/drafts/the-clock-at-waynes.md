@@ -3,7 +3,8 @@ title: "The clock at Wayne's"
 slug: the-clock-at-waynes
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 31
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -35,7 +36,7 @@ The Warren entry says that in one day the funerals were so numerous that choirs 
 
 The mill, on this Monday, is a powerhouse under a fallen stack. The furniture stock that had been wartime flooring in the 1944 ads is, tonight, splinter. The afterlife comes later. Tonight the still is a confectionery clock and a woman who was only going to pick up a man at a store that took scrip.
 
-If you stand on the square at a winter dusk, the still is the hands. 5:45. Wayne’s. Electric. The mills have made the current and the current has failed in the mills’ own weather. Purkins wanted the record to be poor and careful. Language is inadequate, he said, and then he used language anyway: names, curbs, a timber in the air, a stack, a clock. This series will not improve his list by guessing. The clock is enough. It stopped. The rest of Warren, in the rain, kept the hour by siren.
+If you stand on the square at a winter dusk, the still is the hands. 5:45. Wayne’s. Electric. The mills have made the current and the current has failed in the mills’ own weather. Purkins wanted the record to be poor and careful. Language is inadequate, he said, and then he used language anyway: names, curbs, a timber in the air, a stack, a clock. Do not improve his list by guessing. The clock is enough. It stopped. The rest of Warren, in the rain, kept the hour by siren.
 
 ## Sources
 

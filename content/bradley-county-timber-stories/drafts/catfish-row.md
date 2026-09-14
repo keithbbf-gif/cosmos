@@ -3,7 +3,8 @@ title: "Catfish Row"
 slug: catfish-row
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 25
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -43,7 +44,7 @@ Mill-town America has a Catfish Row in more towns than will admit the name: the 
 
 Ms. O. Z. Jackson’s refusal is the other still, and it does not happen on Elm. It happens at a ticket window on Cedar. The two streets belong in one essay because Jim Crow was a circulation plan. You bottled soda on Elm. You climbed stairs on Cedar. You bought meat in a store that took scrip on Main. You were kicked for not waiting in an alley. The protest of 1941 is the documented hour when that plan was answered in public. The published record does not give the size of the crowd or the disposition of the officer. `[CITE NEEDED: Eagle Democrat or other 1941 coverage of the Pastime protest and Ms. O. Z. Jackson.]` The Register’s clause is the floor. It is enough to stand on.
 
-If this were a film, the camera would not crane over poverty. It would hold the G W H and then pan, slowly, to the tracks, to the depot’s old colored waiting room that the Iron Mountain / Missouri Pacific pair of stations once required, to the Pastime’s rear door, and back to the four storefronts. No narrator would need to say dignity. The buildings already said commerce. Commerce is a form of dignity a mill town understands. The name Catfish Row can sound like a joke from the next block. The Sanborn of 1931 does not joke. It draws a lodge hall.
+Hold the G W H, not a crane shot over poverty and then pan, slowly, to the tracks, to the depot’s old colored waiting room that the Iron Mountain / Missouri Pacific pair of stations once required, to the Pastime’s rear door, and back to the four storefronts. No narrator would need to say dignity. The buildings already said commerce. Commerce is a form of dignity a mill town understands. The name Catfish Row can sound like a joke from the next block. The Sanborn of 1931 does not joke. It draws a lodge hall.
 
 ## Sources
 

@@ -3,7 +3,8 @@ title: Court at the captain's house
 slug: court-at-the-captains-house
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 3
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -27,7 +28,7 @@ When the third courthouse rose in 1903, Frank Wooster Gibb of Little Rock gave t
 
 Mill-town America repeats this rhyme. The courthouse and the stack go up in the same generation. One is granite or brick paid by tax. One is steel paid by pine. Citizens pose on the steps of both. The difference in Warren is the older civic layer. This was already a seat of justice for a territory of counties that had not yet been cut away. The mills did not found the square. They filled the streets around it — Hurley Hardware, Gannaway Drug, McCann’s Grocery that delivered, the Sutherland Hotel with the only commercial elevator in town, brick streets about 1927, tomatoes later painted on the brick as if the square had to choose a fruit when the timber thinned.
 
-The 2015 time capsule in the courthouse is the kind of object a documentary loves and a historian distrusts until the paper is shown. It is cited as confirming the tradition that the town was named for Warren Bradley, the captain’s enslaved servant. The encyclopedia still keeps Edward Allen Warren in the next sentence. A series that cares about mill-town America has to care about this: the seat of government is an argument that was never settled, stored in a box, and opened in a century that prefers a single story. The mill preferred a single story too — production, payroll, the whistle. The house where court first sat had room for more than one story. That is why the series begins, again, in a parlor.
+The 2015 time capsule in the courthouse is the kind of object a documentary loves and a historian distrusts until the paper is shown. It is cited as confirming the tradition that the town was named for Warren Bradley, the captain’s enslaved servant. The encyclopedia still keeps Edward Allen Warren in the next sentence. Any honest mill-town history has to care about this: the seat of government is an argument that was never settled, stored in a box, and opened in a century that prefers a single story. The mill preferred a single story too — production, payroll, the whistle. The house where court first sat had room for more than one story. That is why the county story begins, again, in a parlor.
 
 What a later furniture shop inherits from this hour is not a product line. It is the habit of a county that made official life in borrowed rooms and then spent sixty years building rooms of its own — school, church, clerk’s office, Gibb’s courthouse — before the northern mill men arrived with their own architecture of sheds and kilns. Bradley Brand Furniture, dating a hardwood practice from the mill’s first years, sits on the far side of that civic sequence. The wood is the same peninsula. The first public building was a house.
 
@@ -39,7 +40,7 @@ Gibb’s 1903 courthouse went up while the mills were teaching Warren a new popu
 
 The first grand jury of 1841 — Gardner, Haley, Grose, Morris, Howson, Wise, Etheridge, Griffith, Henderson, Johnson, Reaves, Marks, Franklin — is a roster of men who could still hear one another across a clearing. Sixty years later the time clock would hold more names than a parlor could seat. That is the only population fact the house needs. It was built for a county that could still fit in a room.
 
-If you walk the square now, the 1903 courthouse is the still. The captain’s house is an absence. Absences are where the voice-over belongs. In the spring of 1841, before there was a town worthy of the name, the law came to supper and stayed. The mills would later make the supper loud. They did not cook the first meal. A later hardwood shop in this county may date itself from the mill. The court dates itself from a house. Both dates are true. Only one of them required a saw.
+If you walk the square now, the 1903 courthouse is the still. The captain’s house is an absence. Absences are where memory speaks loudest. In the spring of 1841, before there was a town worthy of the name, the law came to supper and stayed. The mills would later make the supper loud. They did not cook the first meal. A later hardwood shop in this county may date itself from the mill. The court dates itself from a house. Both dates are true. Only one of them required a saw.
 
 ## Sources
 

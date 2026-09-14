@@ -3,7 +3,8 @@ title: "Pink tomato and pine"
 slug: pink-tomato-and-pine
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 34
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -17,7 +18,7 @@ place: "Warren, Bradley County, Arkansas"
 
 They picked it when the shoulders had barely gone pink. Not red. Not ripe in the kitchen sense. Pink enough to ship, green enough to travel, a fruit that would finish its color in a crate on a wagon or a truck headed out of Bradley County. Silva’s 2012 downtown script still says the reason in one dry sentence: farmers chose a variety that would ship if it left the vine at that first blush. The encyclopedia is prouder. It calls the Bradley Pink a standard for the American tomato market and, later, Arkansas’s gift to the nation. The mill town had already given the nation pine. The fruit was the second letterhead.
 
-Cotton had been the older field crop. By the 1920s the small cotton farm in this county was losing its argument with price and soil. Local growers turned to tomatoes, especially the pink, introduced here as early as that decade. The plant lacks a yellow pigment. The color is the name. Bradley County, which the *Encyclopedia of Arkansas* still introduces as a prime production area, learned to speak of itself in two commodities at once. Pine on the hills. Pink in the rows. A later booster line — land of tall pines and pink tomatoes — is advertising language, and this series does not need the slogan. The dual identity is older than the slogan. It sat in the same two banks that, the encyclopedia is careful to say, did not fail in the 1930s. Mill money and tomato money used the same tellers.
+Cotton had been the older field crop. By the 1920s the small cotton farm in this county was losing its argument with price and soil. Local growers turned to tomatoes, especially the pink, introduced here as early as that decade. The plant lacks a yellow pigment. The color is the name. Bradley County, which the *Encyclopedia of Arkansas* still introduces as a prime production area, learned to speak of itself in two commodities at once. Pine on the hills. Pink in the rows. A later booster line — land of tall pines and pink tomatoes — is advertising language, and the county story does not need the slogan. The dual identity is older than the slogan. It sat in the same two banks that, the encyclopedia is careful to say, did not fail in the 1930s. Mill money and tomato money used the same tellers.
 
 Warren had already been a mill town for a generation when the first commercial pinks went out. Southern Lumber, Bradley Lumber Company of Arkansas, Arkansas Lumber Company: by 1907 the three of them posted 350,000 board feet a day and employed a thousand men. Warren’s population had doubled between 1900 and 1910. The square filled. Brick streets were laid about 1927. The Bradley Store on South Main took scrip. The fruit arrived into that noise, not into a vacuum. A county that had learned to count trees in board feet learned to count tomatoes in lugs. The two counts did not cancel. They shared a courthouse and a rail.
 
@@ -41,7 +42,7 @@ The square in June still smells like cut fruit and warm brick. The depot below t
 
 What remains of the dual identity on an ordinary Tuesday is quieter than the second full weekend in June. A packing shed in the county’s middle. A painted tomato a visitor photographs and mistakes for the whole story. A mill site whose owners have changed names more often than the fruit has changed color. The encyclopedia’s 2020 census still gives the county 10,545 people. That is not a festival crowd. It is a peninsula that learned, for one long American century, to sell two things the rest of the country wanted: yellow pine, and a tomato that was willing to travel while it was still almost green.
 
-The still, if this were a film, would not be the parade. It would be a lug of fruit at first light, shoulders just pink, and, somewhere offscreen, a mill whistle that has not yet decided whether it is history or a workday. The county did not choose. It carried both.
+The still might not be the parade. It might be a lug of fruit at first light, shoulders just pink, and, somewhere offscreen, a mill whistle that has not yet decided whether it is history or a workday. The county did not choose. It carried both.
 
 ## Sources
 

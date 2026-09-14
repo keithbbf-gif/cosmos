@@ -3,7 +3,8 @@ title: "After the big mill"
 slug: after-the-big-mill
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 37
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -39,7 +40,7 @@ The woods came back in the way Warner hoped in 1939. Shortleaf and loblolly on t
 
 A person who drives Pennington Road past the old Sykes geography, or the 278 bypass past the Witt name, is driving the afterlife in the literal sense. Flooring left those doors. Chips left others. Ambulances left the medical center. None of those vehicles is a 1907 log train on the W&OV. All of them are the county’s later sentence: we still make something, and we still take care of the people who used to make more.
 
-The still, if this were a film, would be the hospital lot at shift change, pine on the horizon, no stack required for the skyline, and a flooring plant’s metal wall catching the same late light that used to hit a burner. After the big mill, the light did not need a new county. It needed a new clock.
+The still might be the hospital lot at shift change, pine on the horizon, no stack required for the skyline, and a flooring plant’s metal wall catching the same late light that used to hit a burner. After the big mill, the light did not need a new county. It needed a new clock.
 
 ## Sources
 

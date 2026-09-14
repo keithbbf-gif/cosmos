@@ -3,7 +3,8 @@ title: "Warner and second growth"
 slug: warner-and-second-growth
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 29
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -29,7 +30,7 @@ Second growth is not wilderness. It is a smaller tree, a different mix, a woods 
 
 Potlatch Forests, Inc., of Idaho would buy Southern in 1956, if you follow Bradham and Silva, and Bradley two years later. The encyclopedia’s county entry collapses both purchases into 1958 and calls the buyer a West Coast firm, Potlatch Inc. Wikipedia’s corporate chronology also prefers 1958 for both. The disagreement is a dating quarrel, not a quarrel about what the purchase meant. Bradham, who had already written Warner’s refusal, wrote the meaning: the Potlatch purchases seemed to give some aura of permanency to Warren, where community leaders had thought Southern and Bradley might one day follow Arkansas Lumber and go out of business. But they didn’t, as a matter of fact. The “as a matter of fact” is doing a lot of work. Warner is the first matter of fact. Potlatch is the second. The aura is a feeling leaders had about a letterhead from Idaho. Feelings are not deeds. The deed was 1939, when a Cloquet man declined to obey the first half of cut-out-and-get-out.
 
-Mill-town America likes a savior with a hat. The hat here is Midwestern and unnamed. The series will not dress him beyond Bradham’s clause, or invent a walk through smoking timbers, or a speech to a crew. The fire happened. The order was to shut. The counter-order was to stay. The stay required owners who still had cash after a Depression they had survived because lumber was still needed. Continual need, the encyclopedia’s thirties phrase, becomes, after 1939, a need that can be supplied from trees that were saplings when Arkansas Lumber was dying. The peninsula had been waiting, Balogh says in another connection, with the patience of a crop no one had yet learned to count. Warner learned to count it.
+Mill-town America likes a savior with a hat. The hat here is Midwestern and unnamed. Do not dress him beyond Bradham’s clause, or invent a walk through smoking timbers, or a speech to a crew. The fire happened. The order was to shut. The counter-order was to stay. The stay required owners who still had cash after a Depression they had survived because lumber was still needed. Continual need, the encyclopedia’s thirties phrase, becomes, after 1939, a need that can be supplied from trees that were saplings when Arkansas Lumber was dying. The peninsula had been waiting, Balogh says in another connection, with the patience of a crop no one had yet learned to count. Warner learned to count it.
 
 The W&OV’s passenger trains have nine years left when the mill is rebuilt. The depot of 1909, rebuilt 1911 after its own fire, will be listed on the National Register in 1977. Fire and rebuild is a Warren rhyme: bank, depot, YMCA, Southern. The rhyme is not destiny. Arkansas Lumber burned through its woods without needing a plant fire to finish the thought. Southern’s plant fire became an excuse to think again. The difference is a man, a climate, and a decade of professional forestry talk that had finally reached the directors who signed tickets from Cloquet.
 
@@ -37,7 +38,7 @@ A later Warren shop that still works pine and oak lives in the permission Warner
 
 What Warner could not do was make permanence. Potlatch would run the Warren operation as a southern yellow-pine fact into a new century, build a new $27 million sawmill in the early 1990s, close a hardwood mill in 2002 and sell it, keep a pine mill, and eventually leave the old aura to whoever next leased the sheds. The Chambers years, the credit-suit closure of 2008, the later remanufacturing names on Martin Street — these are other essays. This one ends earlier, on a decision that still has dirt under it. The second stand was already in the ground. Someone had to say it was enough to keep a boiler.
 
-If you want a still, do not use a hero’s portrait. There is none in the public pack. Use a blackened boiler wall and, behind it, a ridge of twelve- and sixteen-year-old shortleaf that does not yet look like wealth. A man from a burned northern county points. The owners, who had bought a ticket to close a southern county’s mill, buy different equipment instead. The stack goes back up. The W&OV still answers. Bradley’s hardwood mill keeps its own weather on the other side of town. In 1939 the woods were not finished. That is the whole revelation. It was enough to cancel a shutdown, and it was late enough that a county could feel, for the first time since 1928, that the method had a rival.
+If you want a still, do not use a hero’s portrait. There is none in the surviving county record. Use a blackened boiler wall and, behind it, a ridge of twelve- and sixteen-year-old shortleaf that does not yet look like wealth. A man from a burned northern county points. The owners, who had bought a ticket to close a southern county’s mill, buy different equipment instead. The stack goes back up. The W&OV still answers. Bradley’s hardwood mill keeps its own weather on the other side of town. In 1939 the woods were not finished. That is the whole revelation. It was enough to cancel a shutdown, and it was late enough that a county could feel, for the first time since 1928, that the method had a rival.
 
 ## Sources
 

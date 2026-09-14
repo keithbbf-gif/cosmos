@@ -3,7 +3,8 @@ title: "The filer"
 slug: the-filer
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 18
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -15,7 +16,7 @@ place: "Warren, Bradley County, Arkansas"
 
 # The filer
 
-The filing room is the quietest room that decides the loudest hour. The saw screams. The carriage slams. The burner talks all night. The filer works in a side light, on a plate that must be flat, on teeth that must be twins, and if he is wrong the whole mill is wrong by a sixteenth that will not sell. No Warren newspaper in the public pack prints his name. `[CITE NEEDED: a Bradley, Southern, or Arkansas Lumber filing-room roster, or a city-directory listing for saw filer.]` The craft will have to stand as a craft. The town will have to stand as the town that needed it.
+The filing room is the quietest room that decides the loudest hour. The saw screams. The carriage slams. The burner talks all night. The filer works in a side light, on a plate that must be flat, on teeth that must be twins, and if he is wrong the whole mill is wrong by a sixteenth that will not sell. No Warren newspaper in the surviving county record prints his name. `[CITE NEEDED: a Bradley, Southern, or Arkansas Lumber filing-room roster, or a city-directory listing for saw filer.]` The craft will have to stand as a craft. The town will have to stand as the town that needed it.
 
 Balogh’s 1900 sequence — woods, rail, sort, cut, plane, dry, season, ship — hides the filer in the verb *cut*. A saw that is dull, snaky, or cracked does not cut. It burns, leads, and throws. The large plants that posted 100,000 and 150,000 board feet a day in 1907 could not run a day on a homestead file and a guess. They ran on a trade the Pacific Northwest would later call sawfiler and Australasia would call saw doctor: inspection, sharpening, gullet work, set or swage, tension, level, weld. The room has names for the verbs. Gumming is the grinding of gullets to a shape that will not crack under heat and chips. Fitting is the making of a kerf — the tooth’s width — even enough that the board does not show the filer’s mood. Benching is hammer and roll, tension put into a plate so that at speed the saw stands like a disc and not like a ribbon in a wind. Repair is the weld in a crack that, left alone, becomes a broken blade and a ruined shift. None of those words appear on the back of Bradley’s mixed-car postcard. They are why the postcard could be printed.
 

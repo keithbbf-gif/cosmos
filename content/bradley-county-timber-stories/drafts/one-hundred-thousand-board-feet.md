@@ -3,7 +3,8 @@ title: "One hundred thousand board feet"
 slug: one-hundred-thousand-board-feet
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 12
 word_target: 1400-2200
 lane: bradleylumbercompany.com

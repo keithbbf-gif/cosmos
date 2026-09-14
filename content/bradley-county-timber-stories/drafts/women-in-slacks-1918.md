@@ -3,7 +3,8 @@ title: "Women in slacks, 1918"
 slug: women-in-slacks-1918
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 22
 word_target: 1400-2200
 lane: bradleylumbercompany.com
@@ -31,7 +32,7 @@ Scrip and housing framed the new hire as they framed the old. If she lived in a 
 
 The churches had already used women’s organizing. Trinity Baptist, 1868, four devout women, first building on the old West Brothers site after three years in the courthouse, first organ played by Miss Mollie Wheeles, the congregation renamed First Baptist in 1930. First Presbyterian, organized 1 August 1858, bricks interrupted by the Civil War, hosted by the Methodists until an 1880 building at the northeast corner of Main and Church. The Methodist house that gave Church Street part of its name. Pentecostal work in D. H. Durham’s home in 1918, Fannie Corbett preaching, Flora Cargile assisting — the same war year as the dress rule, a different floor, sawdust of a tabernacle to come in 1919. Sister Cargile and a Model A are in the museum’s caption. The mill’s women did not get a caption. The contrast is not a moral. It is a filing difference. A preacher can be remembered as a preacher. A mill hand in slacks is remembered as a rule.
 
-After the war the town’s heyday, the nomination says, was the 1920s and 1930s. Brick streets about 1927. Pastime circa 1925. Bradley Store 1920. YMCA 1920. The dress rule belongs to the hinge between explosive growth and that heyday. It is easy for a later century to make the hinge a triumph. The paper does not. It says shortage, hiring, slacks. Shortage is the employer’s word. Hiring is a door that can close. Slacks are a garment that had to come off before the sidewalk. The three clauses are a control as much as an opening. A series that will not invent a heroine will not invent a liberation either.
+After the war the town’s heyday, the nomination says, was the 1920s and 1930s. Brick streets about 1927. Pastime circa 1925. Bradley Store 1920. YMCA 1920. The dress rule belongs to the hinge between explosive growth and that heyday. It is easy for a later century to make the hinge a triumph. The paper does not. It says shortage, hiring, slacks. Shortage is the employer’s word. Hiring is a door that can close. Slacks are a garment that had to come off before the sidewalk. The three clauses are a control as much as an opening. Do not invent a heroine or a liberation.
 
 The Second World War would take fifty-nine. The mills would run again with whatever labor the draft left. The encyclopedia does not repeat the dress rule for 1941–45. Rand Wood’s later 1,100 in 1941 is a headcount, not a sex ratio. The 1949 tornado killed without asking who had worn slacks thirty years before. Mrs. J. E. Stewart died on the way to pick up a husband at a store. Other women died in houses Purkins named. Choirs of women, almost certainly, took turns in the aisles. That is a different slack, a different year, the same town.
 

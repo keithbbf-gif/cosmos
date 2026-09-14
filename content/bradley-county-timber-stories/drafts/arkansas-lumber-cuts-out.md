@@ -3,7 +3,8 @@ title: "Arkansas Lumber cuts out"
 slug: arkansas-lumber-cuts-out
 series: bradley-county-timber-stories
 status: staged
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 reading_order: 28
 word_target: 1400-2200
 lane: bradleylumbercompany.com
