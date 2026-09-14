@@ -2,7 +2,7 @@
 
 Staged educational pack for [WOWTherapies.com](https://wowtherapies.com). **Do not write these files onto the live site from this folder.**
 
-Forty-four publishable-length **drafts** (eighteen skills, sixteen modalities, ten teaching figures) plus editorial ops. Complementary to:
+Forty-four publishable-length **drafts** (eighteen skills, seventeen modalities, nine teaching figures) plus editorial ops. Complementary to:
 
 - `content/wowtherapies-therapy-history/` — eras and founder biographies (Freud, Rogers, Beck…). Do not retell those lives here.
 - `content/slpwow-speech-pathology-history/` — speech-language pathology as a profession (Van Riper, articulation science). Do not retell that lane here.
