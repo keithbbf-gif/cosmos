@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="hopTitle hopDesc">
+  <title id="hopTitle">Hopper Transformer Engine schematic</title>
+  <desc id="hopDesc">Hopper generation public story: Transformer Engine and FP8 paths aimed at large language-model training and inference.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; fill: #0f172a; font-weight: 600; }
+      .s { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .n { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="880" height="360" fill="#f8fafc"/>
+  <text x="440" y="32" text-anchor="middle" class="t" font-size="15">Hopper  "transformer factory" messaging</text>
+  <rect x="120" y="90" width="640" height="70" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="440" y="132" text-anchor="middle" class="s">Attention / GEMM heavy workloads (public stack story)</text>
+  <rect x="120" y="180" width="300" height="90" rx="6" fill="#fef3c7" stroke="#d97706"/>
+  <text x="270" y="220" text-anchor="middle" class="t">Transformer Engine</text>
+  <text x="270" y="244" text-anchor="middle" class="s">Mixed / FP8 paths</text>
+  <rect x="460" y="180" width="300" height="90" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="610" y="220" text-anchor="middle" class="t">H100 SKU scarcity</text>
+  <text x="610" y="244" text-anchor="middle" class="s">Datacenter narrative</text>
+  <text x="440" y="320" text-anchor="middle" class="n">Marketing label ` every user's workload  see article 18</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img" aria-labelledby="cudaTitle cudaDesc">
+  <title id="cudaTitle">CUDA and G80 November 2006 hinge</title>
+  <desc id="cudaDesc">November 8, 2006: GeForce 8800 graphics launch and CUDA compute branding on unified shader G80 architecture.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; fill: #0f172a; font-weight: 600; }
+      .s { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .n { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="880" height="380" fill="#f8fafc"/>
+  <text x="440" y="34" text-anchor="middle" class="t" font-size="15">November 8, 2006  two stories, one silicon</text>
+  <rect x="80" y="80" width="320" height="180" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="240" y="120" text-anchor="middle" class="t">Graphics story</text>
+  <text x="240" y="148" text-anchor="middle" class="s">GeForce 8800 / DX10</text>
+  <text x="240" y="172" text-anchor="middle" class="s">Unified shader G80</text>
+  <rect x="480" y="80" width="320" height="180" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="640" y="120" text-anchor="middle" class="t">Compute story</text>
+  <text x="640" y="148" text-anchor="middle" class="s">CUDA named</text>
+  <text x="640" y="172" text-anchor="middle" class="s">C compiler for GPU</text>
+  <rect x="200" y="290" width="480" height="56" rx="6" fill="#fef3c7" stroke="#d97706"/>
+  <text x="440" y="322" text-anchor="middle" class="s">SDK / 1.0 docs trail into 2007  press day is the flag, not the download</text>
+</svg>

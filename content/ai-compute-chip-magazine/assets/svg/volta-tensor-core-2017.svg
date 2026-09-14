@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="tcTitle tcDesc">
+  <title id="tcTitle">Volta tensor core schematic</title>
+  <desc id="tcDesc">2017 Volta generation introduced tensor cores for mixed-precision matrix multiply  public explainer for article 15.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; fill: #0f172a; font-weight: 600; }
+      .s { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .n { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="880" height="360" fill="#f8fafc"/>
+  <text x="440" y="32" text-anchor="middle" class="t" font-size="15">Volta (2017)  tensor cores as a public story</text>
+  <rect x="100" y="90" width="280" height="140" rx="8" fill="#f1f5f9" stroke="#64748b"/>
+  <text x="240" y="130" text-anchor="middle" class="t">CUDA cores</text>
+  <text x="240" y="156" text-anchor="middle" class="s">General FP32 / INT paths</text>
+  <rect x="500" y="90" width="280" height="140" rx="8" fill="#fce7f3" stroke="#db2777"/>
+  <text x="640" y="130" text-anchor="middle" class="t">Tensor cores</text>
+  <text x="640" y="156" text-anchor="middle" class="s">4×4 matrix ops (mixed prec)</text>
+  <text x="440" y="290" text-anchor="middle" class="n">Training stacks later route GEMMs here  not a replacement for all CUDA work</text>
+</svg>

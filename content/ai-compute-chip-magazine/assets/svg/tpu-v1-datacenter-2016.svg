@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="tpuTitle tpuDesc">
+  <title id="tpuTitle">TPU v1 inference accelerator schematic</title>
+  <desc id="tpuDesc">2016 Google TPU v1 as datacenter inference card  systolic array story for article 34.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; fill: #0f172a; font-weight: 600; }
+      .s { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .n { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="880" height="360" fill="#f8fafc"/>
+  <text x="440" y="32" text-anchor="middle" class="t" font-size="15">TPU v1 (2016)  inference in the datacenter</text>
+  <rect x="140" y="80" width="600" height="160" rx="10" fill="#ecfdf5" stroke="#059669"/>
+  <text x="440" y="120" text-anchor="middle" class="t">PCIe accelerator board</text>
+  <text x="440" y="148" text-anchor="middle" class="s">Systolic array tuned for inference (not training-at-scale story)</text>
+  <text x="440" y="176" text-anchor="middle" class="s">Public paper + Google blog lore</text>
+  <text x="440" y="300" text-anchor="middle" class="n">Coexists with GPUs  article 38</text>
+</svg>

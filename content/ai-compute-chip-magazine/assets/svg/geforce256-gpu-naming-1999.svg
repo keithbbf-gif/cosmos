@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-labelledby="gfTitle gfDesc">
+  <title id="gfTitle">GeForce 256 GPU naming schematic</title>
+  <desc id="gfDesc">Diagram contrasting CPU geometry work versus hardware transform and lighting on the 1999 GeForce 256, when NVIDIA coined the term graphics processing unit.</desc>
+  <defs>
+    <style>
+      .t { font-family: system-ui, sans-serif; font-size: 13px; fill: #0f172a; font-weight: 600; }
+      .s { font-family: system-ui, sans-serif; font-size: 11px; fill: #334155; }
+      .n { font-family: system-ui, sans-serif; font-size: 10px; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="880" height="360" fill="#f8fafc"/>
+  <text x="440" y="32" text-anchor="middle" class="t" font-size="15">August 31, 1999  "graphics processing unit"</text>
+  <rect x="48" y="72" width="360" height="200" rx="8" fill="#e2e8f0" stroke="#94a3b8"/>
+  <text x="228" y="104" text-anchor="middle" class="t">Before (typical PC)</text>
+  <text x="228" y="132" text-anchor="middle" class="s">CPU: transform + lighting + game logic</text>
+  <text x="228" y="156" text-anchor="middle" class="s">GPU: rasterize textured triangles</text>
+  <rect x="472" y="72" width="360" height="200" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="652" y="104" text-anchor="middle" class="t">GeForce 256 pitch</text>
+  <text x="652" y="132" text-anchor="middle" class="s">Single chip: T&amp;L + setup + rendering</text>
+  <text x="652" y="156" text-anchor="middle" class="s">"Processing unit" H peer of CPU</text>
+  <path d="M408 172 L472 172" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#475569"/></marker></defs>
+  <text x="440" y="320" text-anchor="middle" class="n">Marketing definition ` CUDA-era general compute (that arrives 2006+)</text>
+</svg>

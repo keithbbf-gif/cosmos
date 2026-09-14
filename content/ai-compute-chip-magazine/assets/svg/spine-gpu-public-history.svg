@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="gpuSpineTitle gpuSpineDesc">
+  <title id="gpuSpineTitle">Public GPU and AI compute chip timeline</title>
+  <desc id="gpuSpineDesc">Selected milestones from the 1999 GPU naming event through CUDA, AlexNet on GTX 580, Volta tensor cores, Hopper, TPU v1, and Blackwell rack-scale messaging. Educational schematic.</desc>
+  <defs>
+    <style>
+      .label { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 10px; fill: #1e293b; }
+      .year { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 11px; font-weight: 700; fill: #0f172a; }
+      .note { font-family: system-ui, -apple-system, Segoe UI, sans-serif; font-size: 9px; fill: #64748b; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="520" fill="#f8fafc"/>
+  <text x="600" y="34" text-anchor="middle" class="label" font-size="16" font-weight="700">GPU / CUDA / TPU  public milestones (selected)</text>
+  <text x="600" y="54" text-anchor="middle" class="note">Verify dates against each article's Sources block</text>
+  <line x1="72" y1="280" x2="1128" y2="280" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  <g transform="translate(100,280)"><circle r="8" fill="#22c55e"/><text y="-36" text-anchor="middle" class="year">1999</text><text y="-20" text-anchor="middle" class="label">GPU named</text></g>
+  <g transform="translate(220,280)"><circle r="7" fill="#3b82f6"/><text y="40" text-anchor="middle" class="year">2006</text><text y="56" text-anchor="middle" class="label">CUDA + G80</text></g>
+  <g transform="translate(340,280)"><circle r="7" fill="#6366f1"/><text y="-36" text-anchor="middle" class="year">2012</text><text y="-20" text-anchor="middle" class="label">AlexNet / GTX 580</text></g>
+  <g transform="translate(460,280)"><circle r="7" fill="#8b5cf6"/><text y="40" text-anchor="middle" class="year">2017</text><text y="56" text-anchor="middle" class="label">Volta / tensor</text></g>
+  <g transform="translate(580,280)"><circle r="7" fill="#0ea5e9"/><text y="-36" text-anchor="middle" class="year">2016</text><text y="-20" text-anchor="middle" class="label">TPU v1</text></g>
+  <g transform="translate(700,280)"><circle r="7" fill="#f59e0b"/><text y="40" text-anchor="middle" class="year">2022</text><text y="56" text-anchor="middle" class="label">Hopper</text></g>
+  <g transform="translate(820,280)"><circle r="7" fill="#ef4444"/><text y="-36" text-anchor="middle" class="year">2024</text><text y="-20" text-anchor="middle" class="label">Blackwell rack</text></g>
+  <text x="600" y="420" text-anchor="middle" class="note">Not a complete silicon genealogy  one magazine issue of standalone articles</text>
+</svg>
