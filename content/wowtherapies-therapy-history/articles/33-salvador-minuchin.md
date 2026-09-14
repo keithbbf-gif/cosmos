@@ -27,11 +27,19 @@ The Wiltwyck School for Boys, in New York, taught him that a "delinquent" child 
 
 *Families and Family Therapy* (1974) is the textbook of structural family therapy. Boundaries. Subsystems. Coalitions. Enmeshment and disengagement. A child who has been promoted to spouse. A father who has been demoted to furniture. Minuchin moved the chairs so the map could be seen.
 
+He trained in Baltimore and at Bellevue, then at Wiltwyck, in a United States that was just beginning to notice that "juvenile delinquency" was a sentence about neighborhoods. *Families of the Slums* is dated in its language and still rare in its attention: poor families as systems with competence, not only as deficit. The Philadelphia years added the mirror and the team. Live supervision is a way to keep a therapist from becoming a fourth child in the coalition. It is also a way to turn a family into a seminar. Minuchin knew both.
+
+Structural maps assume a generational hierarchy. That assumption helps when a child is running a terrified house. It harms when a clinician's "hierarchy" is a 1974 nuclear family that the household in the room has never been. Later family therapists — narrative, just, feminist — wrote that objection in large letters. They still use his chairs.
+
 ## Power, and who gets to draw the map
 
 Structural work is active. The therapist joins, then unbalances. That can free a child. It can also impose a 1970s idea of a parental hierarchy on a household that has other, working arrangements — grandmother as head, a church as the other parent, a culture that reads closeness as health. Minuchin was more curious about class than many of his analytic contemporaries. He was not immune to the expert's temptation.
 
 Anorexia work associated with his clinic treated the family meal as a stage. Those sessions are famous on training tapes. They are not a recipe for a blog. Eating disorders are medical. This page will not pretend a chair movement is a treatment.
+
+He kept teaching into old age, sometimes criticizing his own earlier certainty about poor families and about the therapist as mover of chairs. That late self-criticism is part of the file. A structural map is a hypothesis you can abandon when the family in the room is not the family in the 1974 diagram. The students who cannot abandon the diagram are not his best students, even when they can quote the book.
+
+Argentina remains in the work: a Latin American physician who learned the United States from its institutions for other people's children, then taught those institutions a grammar. The grammar traveled back to Spanish-speaking trainings that do not need this English pack to exist.
 
 ## Inheritance
 

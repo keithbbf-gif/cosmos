@@ -29,11 +29,17 @@ The Indian Psychoanalytical Society was founded that day at Bose's house, 14 Par
 
 This is not a story of a "remote" man receiving the light. Bose had already been teaching psychoanalytic ideas in Calcutta's psychology courses. He started, in 1933, what later writers have called the first general-hospital psychiatry unit in Asia, at R.G. Kar Medical College. The society's journal *Samiksha* began in 1947. Lumbini Park Mental Hospital was part of the same institutional weave.
 
+Calcutta University's psychology department in the 1910s was already a place where European texts arrived and were not merely copied. Bose taught. He saw patients. He wrote in a city that was a colonial capital and a nationalist furnace. Psychoanalysis, in that setting, was a way to talk about the inner life without handing the whole conversation to the colonial asylum. Hartnack's book is the place to watch that double bind.
+
+Owen Berkeley-Hill at Ranchi is a reminder that the first IPS membership included British army doctors. The society was never a purely "Indian" purity tale. It was a mixed room in a mixed empire, with Bose in the chair.
+
 ## Opposite wishes
 
 Bose's theory of repression is a theory of *opposite wishes*, not only of a single wish pushed down. He also doubted that the castration complex did the work Freud assigned it in resolving the Oedipus story. The letters are polite and stubborn. Freud is surprised, pleased, and not converted. Christiane Hartnack and Ashis Nandy have read this correspondence as a colonial and anti-colonial text as well as a technical one. Both readings belong.
 
 The society's logo, the Ardhanarishvara, half Shiva and half Parvati, is an argument in an image: bisexuality as a mythic fact, not only a Viennese one.
+
+The Freud archive now includes the correspondence; the Library of Congress asked the IPS for permission to hold it for research. That bureaucratic sentence is a quiet victory: the letters are treated as a file, not as a curiosity. French and Spanish translations have appeared in the last decade. Bose is no longer only a Calcutta secret. He still is not, in most American counseling programs, a required name. This pack makes him required for anyone who would publish a "history of psychotherapy" under a WOW Therapies mark.
 
 ## Why he is not a footnote to Freud
 

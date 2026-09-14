@@ -28,17 +28,27 @@ Irvin David Yalom was born in 1931 in Washington, D.C., to parents who had left 
 
 Group can heal. Group can scapegoat. His book is better on the first. A clinician still has to watch for the second.
 
+He wrote about inpatient groups as well as outpatient process groups. The hospital group is a different animal: turnover, acuity, a census that does not care about Yalom's factors. The textbook still helps a resident see why a group is not a waiting room with chairs. It cannot make a short-stay unit into a year-long process group. Administrators who bought the book and cut the length were not reading the chapters on time.
+
 ## The existential book
 
 *Existential Psychotherapy* (1980) sorted the ultimate concerns: death, freedom, isolation, meaninglessness. He was in conversation with May, with Frankl, with the European psychiatrists of *Existence* (1958). He wrote case narratives that are almost fiction. That is a gift and a problem. A beautiful case can teach. It can also make a reader think the hour always ends in a well-shaped paragraph.
 
 He then wrote actual novels (*When Nietzsche Wept*, *The Schopenhauer Cure*) and a memoir of the work (*The Gift of Therapy*). The public met him as a storyteller. The profession had already met him as a professor who took death seriously on a Tuesday.
 
+*Love's Executioner* and the later story collections taught a public that psychiatrists have inner lives. That teaching is humanizing. It is also a boundary problem if a reader thinks the published case is a license for a local clinician to write similarly without consent. Yalom's own prefaces wrestle with disguise. This series will not reprint his cases.
+
+He and Marilyn Yalom, a literary scholar, wrote together late in life about her dying. Those pages are a public grief. They are not a clinical demonstration. A counseling site can point to the fact of the books without mining them.
+
+Stanford psychiatry in his decades was a place where group, inpatient work, and a literary ambition could share one career. That combination is rarer now, and the rarity is not an improvement. The rarity is why the books still get assigned: they remember a medicine that was allowed to sound like sentences. They are not a reason to skip the current chart, the current risk, or the current consent form.
+
 ## What not to do with a living writer
 
 Do not invent his opinions about 2026 politics. Do not scrape a lecture photo. Do not turn *The Gift of Therapy* into a listicle of tips on a clinic blog as if it were public-domain advice. The books are in copyright. This series points; it does not reprint.
 
 Yalom's place here is the American hinge of the humanistic-existential essay: the man who made group and death teachable in a medical school without reducing either to a code.
+
+Group factors and ultimate concerns are easy to memorize and hard to host. Hosting is the job, week after week, with people who did not come for a lecture. The books describe it. They do not replace the supervisor who watches you miss the quiet person in the circle, or the hour when death is not a chapter title but a phone call.
 
 ## Portrait
 

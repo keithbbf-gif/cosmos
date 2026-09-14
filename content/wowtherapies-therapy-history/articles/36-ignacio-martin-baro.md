@@ -30,9 +30,13 @@ Martín-Baró argued that Latin American psychology was imported: it asked North
 
 He did not write a treatment manual for a private office in a peaceful county. He wrote from a campus that was already a target.
 
+He trained in Europe as well as in Central America, and he knew the journals he was refusing. Social psychology, in the US of his youth, had already produced obedience studies and bystander studies. He wanted a psychology that did not treat El Salvador as a lab for someone else's theory. The UCA was a Jesuit university that had chosen, under Ignacio Ellacuría and others, a dangerous "preferential option." Psychology, in Martín-Baró's hands, was part of that option or it was decoration.
+
 ## The fatal poll
 
 His Instituto Universitario de Opinión Pública asked Salvadorans what they thought. In a dirty war, a poll is not a classroom exercise. Teresa Whitfield's *Paying the Price* places the UCA murders in the political sequence. This essay will not reconstruct the atrocity as a scene. The date is enough. The names of Elba and Celina Ramos belong next to the priests' names, because a history that mourns only the professors has learned nothing from the work.
+
+Liberation theology is the neighboring literature. A counseling site does not need to settle the theology. It needs to know that Martín-Baró's "liberation" is not a wellness brand. It is a research program conducted under threat, ending in a murder the soldiers thought would end the questions.
 
 ## How a quiet clinic might read him without theft
 
@@ -40,7 +44,11 @@ You do not become a liberation psychologist by quoting him in a bio. You become 
 
 You also do not tell a client that their panic is only imperialism. Martín-Baró was a careful empiricist. He wanted better questions, not slogans.
 
+The surviving writings are essays and talks, not a systematic textbook. That fragmentariness is part of the murder: a project stopped. Later liberation psychologists (including North American readers who met him only in 1994) have had to build programs he did not get to finish. Building is not the same as quoting. Quoting is the cheaper act.
+
 No photographs of the murders as featured images. Type only. The UCA and Jesuit archives are not a stock library.
+
+If a North American clinic names him in a staff bio, the test is whether any research question in that clinic has changed. If the name is only décor, take it down. The UCA murders were meant to end questions. Using the name as décor agrees with the soldiers.
 
 ## Sources
 

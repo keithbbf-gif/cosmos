@@ -35,6 +35,8 @@ Jean Baker Miller's *Toward a New Psychology of Women* (1976) and the later Ston
 
 Laura S. Brown's *Subversive Dialogues* (1994) is the book that made feminist therapy look like a craft with ethics, not only a politics. She wrote about power in the room, about the myth of neutrality, about what it means to take a client's social location as clinical data.
 
+Consciousness-raising groups were not therapy and did not want to be. Some women left them for the official hour because they needed a confidential room; some left the official hour for the group because the official hour had been a man's theory. Feminist therapy, as a named practice, grew in that traffic. It inherited the group's political hearing and the clinic's duties (assessment, records, the possibility of a hospital). The inheritance is unstable on purpose. A purely political room can miss a psychosis. A purely official room can miss a law.
+
 ## What had to be unlearned
 
 A short, incomplete list:

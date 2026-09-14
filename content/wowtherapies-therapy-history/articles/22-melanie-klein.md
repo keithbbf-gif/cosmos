@@ -28,6 +28,10 @@ Klein treated the child's play as the adult's free association: the toys were se
 
 If that sounds lurid, it sounded lurid in 1932. It also gave clinicians a way to think about a rage that has no adult plot yet. Object-relations theory — the mind as a theater of inner figures — runs through her, through her students (Hanna Segal, Herbert Rosenfeld, Wilfred Bion in his Kleinian years), and then out into therapies that never say her name.
 
+She analyzed children with toys as the medium because small children do not free-associate in sentences. That technical decision is her most durable gift and her most durable risk. A toy can be a sentence. A toy can also be a toy. The Kleinian ear that hears only inner war will miss a hungry house. The ear that refuses inner war will miss a child who is terrified of their own hate. Training, in her tradition, is an attempt to hold both — and the Controversial Discussions show how hard that holding was even among professionals who shared a language.
+
+Her own children, including Melitta Schmideberg, who later opposed her in London, are part of the human cost of a method that did not yet have today's ethics about analyzing family. A history that skips that cost is a brochure for an institute.
+
 ## Positions, not stages
 
 The paranoid-schizoid and depressive *positions* are not ages on a chart. They are organizations of anxiety: splitting the world into ideal and persecutory pieces, or bearing the grief that the loved person and the hated person are one. A later therapist who says a patient is "splitting" owes that verb, usually without a royalty, to this line.

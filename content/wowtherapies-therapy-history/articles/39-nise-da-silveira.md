@@ -28,11 +28,17 @@ Brazilian psychiatry in the 1940s, like psychiatry in many places, had fallen in
 
 From 1946 she built painting and modeling studios. The point was not "arts and crafts." The point was that a person the hospital had decided was unreachable might still make an image, and that the image was a document, not a mess to be cleaned up. Almir Mavignier and other artists helped. Patients who became known by name in the later museum — Adelina Gomes, Fernando Diniz, Carlos Pertuis, Emygdio de Barros — were authors.
 
+Engenho de Dentro was a city of patients. Occupational therapy, before she took the corridor, could mean folding linen until the person disappeared. The studios reversed the direction: the person made something the hospital had to decide whether to keep. Critics said she was collecting curiosities. She said she was keeping documents. The museum's later hundreds of thousands of items — the current institutional count is in that order — are the long consequence of that decision.
+
+She used cats in the wards as living company, a detail Brazilian popular culture likes. The detail is true enough to mention and easy to turn into a saint's attribute. The fight with electroshock is the load-bearing wall.
+
 ## 20 May 1952, and 1956
 
 The Museu de Imagens do Inconsciente opened on 20 May 1952 to keep those works from being thrown away and to make a research center out of a storage problem. The museum's own chronology is the source to trust. In 1956 Silveira founded the Casa das Palmeiras, an open, outpatient house for people leaving the hospital — a day place between the ward and the street, years before the Italian and American community-psychiatry slogans became export goods.
 
 She read Jung and corresponded with Jungians. She also read the people in the room. The Jungian vocabulary helped her talk to a mid-century scientific public. It should not steal the credit from the studios.
+
+Henry Ey and other European visitors later stood in the museum and said the collection was unlike anything they had. Institutional praise is not the point. The point is that a Brazilian woman physician, blocked from the prestige treatments, built a prestige of another kind: an archive the hospital could not throw away. Casa das Palmeiras still operates in Botafogo as of the museum's own recent chronology. Continuity is rarer than a founding date.
 
 ## What a North American site must not do
 

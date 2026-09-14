@@ -29,9 +29,15 @@ Karen Horney was born Karen Danielsen in 1885 near Hamburg, trained in medicine 
 
 *New Ways in Psychoanalysis* (1939) is the break letter. She argued that Freud's instinct theory and his account of women were not mandatory. *Our Inner Conflicts* (1945) and *Neurosis and Human Growth* (1950) described moving toward people, against them, or away from them — a simple triad that a lot of later interpersonal and personality writing quietly reused.
 
+Moving toward, against, or away — the triad in *Our Inner Conflicts* — is a map of strategies under basic anxiety, not a personality quiz. A person can use all three in one week. Horney's interest was the *cost* of the strategy: the expansive person who must win, the self-effacing person who must be loved, the detached person who must not need. Later interpersonal and personality work reused the map with other names. She wrote it in English a general reader can finish on a weeknight, which is why she outsold some of her more "official" colleagues.
+
 ## Womb envy, and the refusal
 
 Horney's early papers on the castration complex and on feminine psychology (1920s–early 1930s) already said: if boys and men envy women's capacity to create life, maybe "penis envy" is not the master key. She wrote as a clinician who had heard too many theories that made women a deviation. The later feminist therapists of the 1970s could claim her without pretending she was a second-wave organizer. She was a first-generation immigrant analyst who used the word *culture* when her guild wanted *drive*.
+
+The American Psychoanalytic Association's mid-century medical lockout and the New York institute's doctrinal fights are the workplace story. Horney taught at the New School as well as in institute rooms. She wrote for a public that included social workers and teachers, not only physicians. That public is the same public counseling later claimed. She is, in that sense, a grandmother of the profession essay in this pack even though she never called herself a counselor.
+
+Clara Thompson, Erich Fromm, and the wider "cultural school" (sometimes "neo-Freudian," a label she did not love) sat near her. Fromm's *Escape from Freedom* is a cousin, not a copy. The shared claim: you cannot describe a neurosis as if the city were a backdrop.
 
 ## The institute as a workplace
 

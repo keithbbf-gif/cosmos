@@ -33,6 +33,10 @@ He dropped hypnosis. He sat behind the couch, later, so that the face would not 
 
 Cocaine is part of the early medical story and not a cute footnote: he advocated a drug, misjudged it, and the misjudgment belongs in any honest life.
 
+The Wednesday Psychological Society (1902) became the Vienna Psychoanalytic Society. Minutes were kept. Visitors were judged. A movement that claimed to study resistance also practiced it as membership policy. The 1909 trip to Clark University with Jung and Ferenczi is the American postcard: Freud lecturing in German, a photograph on the steps, a New England audience that would later build institutes and then, mid-century, almost make analysis into official psychiatry. Nathan Hale's histories are the American half of that postcard.
+
+He wrote more than the case studies. The metapsychology papers (1915 and after), the dual-instinct turn after the First World War (*Beyond the Pleasure Principle*, 1920), the structural model of ego, id, and superego (*The Ego and the Id*, 1923) — these are the pages later schools either lived inside or defined themselves against. A counselor who only knows "Freud said everything is sexual" has not met these turns. A counselor who treats the structural model as anatomy has met them too literally.
+
 ## What he could not see, or would not
 
 The seduction theory and its revision — whether Freud suppressed a truth about abuse or corrected an error about fantasy — is a scholarly battlefield. A magazine essay does not settle it. A clinician should know that both readings have been used to harm people: one to call every memory a wish, one to treat every theory as a cover-up.
@@ -40,6 +44,10 @@ The seduction theory and its revision — whether Freud suppressed a truth about
 He wrote badly about women as a class, even while depending on women as colleagues, patients, and, in Anna, as heir. He wrote as if the Viennese bourgeois family were the human family. He mishandled some cases by any later ethic. He built institutes that could be cruel to dissidents (Adler, Jung, Ferenczi in different keys).
 
 He also, after 1933, took too long to treat the Nazi threat as more than a passing barbarism, even as his books were burned and his colleagues fled. He left Vienna in 1938 because the Anschluss left him no story.
+
+On women he could be a brilliant listener of a single hour and a poor theorist of a class. Helene Deutsch, Karen Horney, and later feminist analysts did not need a 1970s seminar to notice. On homosexuality he wrote with less punitive certainty than some of his American heirs, and still inside a developmental story later clinicians had to dismantle. On "primitive" peoples he wrote *Totem and Taboo*, a book anthropologists have used as a cautionary tale.
+
+The Dora case (Ida Bauer) is now taught as much for what Freud missed — a girl in a sexual traffic between adults — as for the dream work. That teaching is a correction, not a cancellation of the entire method. It is also a warning about the cleverness this series keeps naming: an interpretation can be elegant and still be a theft of the patient's situation.
 
 ## Why he is in a 2026 counseling series
 

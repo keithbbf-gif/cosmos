@@ -32,6 +32,10 @@ What he built — analytical psychology — kept the hour, the dream, the transf
 
 Sonu Shamdasani's scholarship is the guardrail against both devotion and cartoon. Jung was trying to make a psychology that could stand as a science of the inner world. He also wrote in a register that invited mystics, marketers, and, later, a thousand slide decks about "the shadow."
 
+The Burghölzli years matter more than the sage photographs. Under Bleuler he met "dementia praecox" (the word that would become schizophrenia) as a daily census, not as a symbol. The word-association experiments were an attempt to catch complexes in reaction time. They are easy to overclaim. They are also an ancestor of every later test that tries to make the inner world leave a mark on a clock.
+
+Jung's typology (*Psychological Types*, 1921) leaked into the Myers-Briggs industry, which is a separate commercial history and not a clinical credential. Introversion and extraversion, in his usage, were attitudes of libido, not a party trick about who talks at dinner. A counseling site that uses those words owes him a footnote and owes the reader a warning about the quiz.
+
 ## The 1930s
 
 After the Nazi seizure of power, the General Medical Society for Psychotherapy and its journal, the *Zentralblatt*, became a problem with no clean sentence. Jung, as a Swiss, accepted a role in the internationalized society. The *Zentralblatt* published, under structures he was associated with, material that participated in the Nazification of German psychotherapy. Jung wrote things about "Jewish psychology" that cannot be talked away as a slip of the times.
@@ -39,6 +43,8 @@ After the Nazi seizure of power, the General Medical Society for Psychotherapy a
 He also, later, helped some Jewish colleagues and argued that he had kept an international space open. Historians do not agree on the moral math. They agree on the documents. A counseling site that sells Jung as a gentle uncle of mindfulness and skips this file is doing public relations.
 
 This series will not render a verdict in a slogan ("Jung was a Nazi" / "Jung has been cleared"). It will say: if you use his typology, you owe the reader the decade.
+
+Aniela Jaffé's role in *Memories, Dreams, Reflections* means the "autobiography" is already an edited object. Shamdasani has spent a career telling readers to go to the *Red Book* and the published corpus instead of the myth of the isolated wise man. The *Red Book* (published 2009) is a document of a private cosmology. It is not a treatment manual. It is also not a reason to dismiss the clinical papers.
 
 ## What entered ordinary therapy anyway
 

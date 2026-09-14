@@ -29,17 +29,25 @@ At Blida he inherited a colonial psychiatry that measured North African patients
 
 David Macey's biography is the long English life. It keeps Fanon from becoming only a poster. The clinical papers and the hospital reforms are not as famous as the last chapter of *The Wretched of the Earth*. They are why he belongs in a therapy-history series rather than only in a political-theory syllabus.
 
+He trained in a France that had used colonial troops and then asked them to be grateful. Martinique, the Free French, Lyon — the sequence matters. *Black Skin, White Masks* is written from the metropole's language toward a man who had already worn a uniform. It is not a field manual from Blida. Blida comes after. The hospital is where the book meets a war.
+
+François Tosquelles and the institutional psychotherapy current in France are part of the air Fanon breathed; so is a psychiatry that still measured North Africans with racist instruments. He wrote against the latter with the tools of the former, then left the tools when the war made the hospital an annex of the occupation.
+
 ## The gaze
 
 *Black Skin, White Masks* is a psychology of being seen. The white child's pointing finger, the language that dresses a man in someone else's clothes, the bodily explosion of shame and rage — Fanon wrote these as a clinician who had read Lacan and Hegel and the everyday. He is not "applying" psychoanalysis to race as a decoration. He is showing that the consulting room's "universal" subject was already a racial position.
 
 A counselor who has never been the object of that finger can still read the book as a warning about whose inner life the theory was built for.
 
+*A Dying Colonialism* includes pages on medicine and the radio, on how a technique changes sides in a war. Counselors who only read *Wretched* miss the clinician who was still thinking about a hospital's tools. The tools do not stay neutral when the state is a combatant. That is a 1950s Algerian sentence. It is also a sentence a later American clinician might need when a jail has become the local ward.
+
 ## Violence, and the misuse
 
 *The Wretched of the Earth* includes pages on violence that have been quoted as a blessing and as a condemnation. Historians and political theorists will not be settled by a clinic blog. What a counseling history can say is narrower: Fanon described colonial violence as already underway, including in the hospital. Using him to romanticize a client's rage, or to pathologize a colonized person's politics, are both thefts.
 
 He treated, among others, torturers and the tortured. That fact should make a reader slow down.
+
+Macey's biography is long because the life was short and crowded: Martinique, France, Algeria, Tunis, a death in an American hospital. A counseling essay that uses only *Wretched* as a quote farm has not met the psychiatrist. Meet the psychiatrist first.
 
 ## Portrait
 

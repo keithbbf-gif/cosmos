@@ -29,15 +29,23 @@ Rogers taped sessions when that was a scandal. He let graduate students count th
 
 He was not saying "be nice." He was saying the relationship, under specified conditions, is the mechanism. Analysts heard a thinning of the work. Behaviorists heard a soft mind. A great many patients heard, sometimes for the first time, a professional who was not going to win.
 
+The Chicago Counseling Center was a factory of recordings and of a new graduate role: the counselor who was not a physician and not an analyst. That factory is part of why "counseling" in the United States could later claim a lineage that was not only Parsons and schools. Rogers gave the master's-level hour a theory that did not apologize for lacking a couch.
+
+He also gave it a research habit that later CBT would claim as its own: tape the session, define a variable, argue with the tape. The 1957 conditions are hypotheses. He wanted them tested. The fact that later students treated them as commandments is a familiar founder problem.
+
 ## Wisconsin, and a research bruise
 
 The Wisconsin schizophrenia project (late 1950s–early 1960s) tried to take person-centered work into a hospital population and a randomized design. The results were messy, the politics inside the department were worse, and Rogers left for the Western Behavioral Sciences Institute. Kirschenbaum's biography is honest about the bruise. A founding figure who believed in research also learned that research can be a weapon in a faculty fight.
+
+The necessary-and-sufficient claim remains the most argued sentence he wrote. Later process-outcome research found that relationship conditions matter and are rarely sufficient alone for every diagnosis. That finding would not have surprised a Rogers who wanted tests. It surprises only the poster version of him. A graduate program that teaches the conditions as ethics and the limits as science is doing both halves of his file.
 
 ## Encounter, and the late style
 
 California Rogers is easier to parody: large groups, political encounters, a faith in process. The films from Northern Ireland and other conflict settings are documents, not models for a county clinic. He kept the same stubborn hypothesis: if people can hear and be heard without a strategy of winning, something in them moves.
 
 Sometimes that is true. Sometimes a person needs a hospital, a medication, a boundary, or a therapist who will say no. Rogers's worst students used "non-directive" as an alibi for not thinking. His better students used it as a discipline: do not steal the hour for your cleverness.
+
+Kirschenbaum's life is the book to use when a slide deck has turned Rogers into a beard and a slogan. The recordings remain; the Wisconsin bruise remains; the late political encounters remain. None of them is a reason to skip the 1957 paper. All of them are a reason not to stop there.
 
 ## Why he is still in the room
 

@@ -28,11 +28,17 @@ Where Sigmund Freud had mapped the id's wishes, Anna Freud mapped the ego's tact
 
 She also insisted that a child is not a small adult. Child analysis, in her school, required a developmental timetable, work with parents, and a respect for the child's actual dependencies. You do not interpret as if the nursery were a couch at Berggasse.
 
+*The Ego and the Mechanisms of Defence* is often assigned as a list. The book is more interesting as a study of *how* a mind keeps a story livable. Identification with the aggressor — a child who joins the threatening adult in order to survive — later became a trauma concept without always keeping her name on it. Ferenczi had already written in that neighborhood. She made it a chapter a trainee could find.
+
+She also wrote as a teacher of technique: when to interpret, when to support, when a child's play is communication and when it is just play. Klein's students thought she was timid. Many child psychiatrists thought she was the only adult in the British fight. Both reactions are in the minutes.
+
 ## Hampstead, and the war
 
 The Hampstead nurseries, run with Dorothy Burlingham during the war, produced observations of children separated from parents. Those notes sit in the same wartime file as Bowlby's later WHO monograph. Anna Freud was not an attachment theorist. She was a person who had to house children while the city was bombed and then think about what she had seen.
 
 The clinic that followed trained generations of child therapists. It also became a fortress in the Controversial Discussions (1941–45) against Melanie Klein's group. King and Steiner's edition of the minutes is the primary source. Anna Freud thought Klein attributed too much murderous phantasy to infants and too little to the child's real environment. Klein thought Anna Freud was retreating into pedagogy. Out of the stalemate came the British Society's three trains.
+
+The Hampstead course became a place Americans went to learn child analysis when their own institutes were still arguing about whether children counted. The published *Psychoanalytic Study of the Child*, which she helped to found, is a mid-century monument: case reports, developmental charts, a faith that looking carefully at a child is a science. Attachment research would later say the looking had been too indoor. She had, at least, looked.
 
 ## The father's heir, and the cost
 

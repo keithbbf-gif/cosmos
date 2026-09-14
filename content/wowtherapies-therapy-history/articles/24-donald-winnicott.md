@@ -28,11 +28,17 @@ The "good-enough mother" is a technical mercy. A caregiver who adapts closely at
 
 "Holding" is likewise not a metaphor for hugs only. It is the environmental provision — bodily, rhythmic, later institutional — that makes a self possible. A clinic can be a holding environment. A clinic can also be a dropping environment with nice paint.
 
+He wrote "Hate in the Counter-Transference" (1949) as a pediatrician-analyst who had sat with mothers who could not, for an hour, love the infant they also loved. The paper gives clinicians permission to notice their own hate without acting it. That permission is still easy to abuse as a confession that burdens the patient. In his hands it was a discipline: know the feeling so you do not dump it.
+
+The "squiggle game" — a shared doodle that becomes a conversation — is the public, almost cute version of his play. Training films make it look simple. It is not a party trick for a first session with a traumatized child, and this page will not teach it.
+
 ## The object that is not quite inside
 
 "Transitional Objects and Transitional Phenomena" (1953) named the blanket, the tune, the edge of sleep, the area that is neither me nor not-me. Culture, Winnicott thought, lives in that area. So does play. A therapist who cannot play — in the adult sense of not knowing the ending — cannot do this work.
 
 He also wrote about the false self, a compliance that keeps a family calm and a person empty. The idea travels too well. Not every polite patient is a false self. Some people are just polite. The clinical ear is for the cost.
+
+Clare Britton, later Clare Winnicott, a social worker who became his wife, is part of the wartime and postwar work with evacuated children. A history that treats him as a solitary male genius of the nursery is missing the profession that actually moved children. Her papers on social work and the deprived child sit next to his on the shelf, when the shelf is honest.
 
 ## Pediatrics as the other training
 

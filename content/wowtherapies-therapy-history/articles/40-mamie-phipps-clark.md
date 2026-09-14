@@ -33,11 +33,17 @@ The dolls are famous. The fame has a cost: a pair of psychologists become a sing
 
 The doll photographs are not automatically free to reproduce. Do not use them as thumbnails. The finding is a historical event, not clip art.
 
+Hot Springs in the 1910s and 1920s was a spa town with a Black professional class that the national story of Arkansas often skips. Her father was a physician. Howard University, then Columbia, then Harlem — the path is a specific American geography of Black excellence under segregation. Guthrie wrote the textbook that made students meet that geography. This pack names the Arkansas end of it because the brand lane is here.
+
+The doll studies have been re-run, criticized, defended, and taught in every introductory psych course. The methodological arguments are real. They do not erase the historical event: a social-science citation in a constitutional case about children's schools. Clark's later life was not a victory lap. Northside still had to fund itself. Harlem still had the same city.
+
 ## Northside, 1946
 
 Before and after *Brown*, Clark's working life was a clinic. At the Riverdale Home for Children she tested homeless Black girls and saw a profession that had nowhere to send them. In 1946 she and Kenneth opened the Northside Testing and Consultation Center in Harlem, later the Northside Center for Child Development. She was executive director until 1980. Markowitz and Rosner's *Children, Race, and Power* is the book-length history.
 
 Northside offered psychological care and, just as important, a refusal of the idea that a Black child's trouble was a private defect. In 1962 the Clarks helped create Harlem Youth Opportunities Unlimited. The through-line is not a single experiment. It is an institution that stayed.
+
+Kenneth Clark became the more public face — television, the Kerner Commission orbit, a name white institutions could invite. Mamie Clark stayed with the center. That division of labor is a historical fact, not a natural law. This essay's job is to refuse the law. Northside's clinical work with children who were not going to be in a Supreme Court footnote is the larger ledger.
 
 ## Why a therapy-history pack, not only a civil-rights pack
 

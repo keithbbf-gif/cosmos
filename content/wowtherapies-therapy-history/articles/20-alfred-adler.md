@@ -28,11 +28,17 @@ Adler's early medical work included organ inferiority: a body that starts behind
 
 *Über den nervösen Charakter* (1912) and *Menschenkenntnis* (1927) are the books to name. He wrote for teachers and parents as well as for physicians. Child-guidance clinics in Vienna were part of the work. He thought a psychology that could not enter a school was a hobby.
 
+Birth order, in his popular lectures, became a parlor game. In the clinic it was a hypothesis about the child's first audience: who already occupied the room, who had to fight for air. A first child who lost a throne, a youngest who performed charm, a middle who negotiated — these are sketches, not destinies. Adler used them as opening moves. American magazines used them as horoscopes. The difference is the rest of the hour.
+
+He ran child-guidance clinics in Vienna in the 1920s with teachers in the room. That fact belongs next to Anna Freud's nurseries and Satir's later family hours: the child was never only a miniature adult on a couch. Individual psychology wanted the school, the sibling, the neighborhood. When the Austro-fascist and then the Nazi years closed that Vienna, the clinics closed with it. Adler was already lecturing abroad. The work survived as a teaching, not as a municipal service.
+
 ## Social interest
 
 *Gemeinschaftsgefühl* — social interest, community feeling — is Adler's counterweight to a psychology of private victory. Mental health, in his later writing, includes the capacity to contribute. The idea can sound civic and bland. In the 1920s it was an argument against both Freudian drive theory and a rising politics of the superior person. Adler was a Jewish physician in Vienna. He knew what "superior" was being prepared to mean.
 
 He was not a saint of equality. His early remarks on women and on "masculine protest" need a later reader. He is still one of the first major theorists to treat the child's *position* in a family as clinical data.
+
+Rudolf Dreikurs, who carried Adler into American classrooms, made "logical consequences" and family meetings into a language teachers could use. That language can become a technique for compliance. It can also keep a classroom from treating a discouraged child as a diagnosis. The double use is Adler's double use: encouragement as respect, or encouragement as a smile that ends the question.
 
 ## After Vienna
 

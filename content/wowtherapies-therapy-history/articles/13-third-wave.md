@@ -37,6 +37,8 @@ The "dialectic" in the title is not a philosophy seminar. It is a clinical stanc
 
 This essay will not list the skill modules. Those manuals are copyrighted, trained, and easy to parody on TikTok. A history site that reprints them would be both a legal mistake and a clinical one.
 
+Linehan's later work on high-risk adolescents and on adaptations for other diagnoses is a second chapter. The historical core remains the 1991–1993 objects: a trial, a book, a staffing pattern. Hospitals that say they "do DBT" without a team are speaking a dialect she would not have recognized as the thing she built.
+
 ## ACT and the argument about language
 
 Hayes and colleagues described psychological suffering as, in part, the over-extension of language: we follow rules that were useful in one context into a life they ruin. ACT asks for acceptance of inner experience, defusion from sentences, and movement toward stated values. The 1999 book is the landmark; the workshops became an industry.

@@ -28,17 +28,27 @@ Beck expected, as an analyst, to find hostility under depression. He listened an
 
 The cognitive triad (self, world, future) and the idea of systematic bias are his popular residue. The less popular residue is the discipline: a session that can be taped, a thought that can be tested before Thursday, a student who can be told they missed the hot cognition.
 
+The Beck Depression Inventory is one of those instruments that escaped the lab and became a waiting-room ritual. A score is not a person. It is a way a clinic can talk to itself and to an insurer. Beck knew the difference. The later industry of "outcomes" sometimes forgot it.
+
+He trained analysts and then trained people who would never lie on a couch. The Beck Institute, the supervision model, the competence rating scales — these are how a school becomes a workforce. They are also how a school becomes a franchise. He lived long enough to see both.
+
+Judith Beck's later work as a teacher of the model is a second-generation story this pack does not give its own essay. It belongs as a reminder that cognitive therapy is a family business in the literal sense, and a guild in the institutional sense.
+
 ## Not Ellis, not a pill
 
 Albert Ellis had already been interrupting musts. Beck's temperament was quieter and more medical-school. He built inventories (the BDI) that made depression a score as well as a story. He ran and inspired trials. He did not claim that biology was a fiction. He claimed that a person could still work with what the mind was doing while the biology was being addressed, or while it was not.
 
 He also kept extending the model — anxiety, personality, later schizophrenia — with mixed reception. A founder who cannot stop founding will overreach. The depression work remains the load-bearing wall.
 
+He kept seeing patients into old age. The biographies and obituaries (2021) describe a man more interested in a single belief than in a keynote. That temperament is why CBT could be filmed: he wanted the work visible. Visibility invited imitation, including the worksheet that never looks up. The imitation is not his best student.
+
 ## The cost of winning
 
 When insurers and governments asked for "evidence-based" therapy, they often meant a grandchild of this office. That won access. It also trained a generation to treat the manual as the patient. Beck, in interviews in his nineties, still sounded like a man more interested in a specific belief than in a brand.
 
 A rural clinic that uses a thought record is in his building. A rural clinic that uses a thought record *instead of* a relationship is in a parody of his building. The 1957 Rogers paper and the 1979 Beck manual are not a choice so much as two tools that a living hour may need.
+
+Obituaries in 2021 reached for "grandfather of CBT." This style guide usually bans that kinship. In his case the nickname at least names a lineage that now includes people who have never read the 1967 depression book. Reading it is still the better honor.
 
 ## Portrait
 

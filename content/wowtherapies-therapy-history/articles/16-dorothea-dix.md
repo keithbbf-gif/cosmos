@@ -29,6 +29,12 @@ The *Memorial to the Legislature of Massachusetts* (1843) is not a gentle docume
 
 When the war came she was appointed superintendent of women nurses for the Union, unpaid, for years. She wanted her nurses plain, Protestant, and older than thirty. Surgeons found her impossible. Soldiers called her kind. The same will that walked almshouses tried to command a medical bureau. It is of a piece. Dix did not believe in waiting for a gentleman to notice.
 
+## The memorial as a method
+
+Dix did not invent the inspection. Prison reformers and Quaker visitors already wrote reports. What she did was industrialize the inspection: state after state, the same walk, the same notebook, the same decision to speak to a legislature as if it were a classroom that had failed a recitation. The Massachusetts memorial of 1843 names East Cambridge, names the cage, names the weather on the day she saw a woman without heat. Later memorials learned the trick of the list. A legislator who will not feel a principle may still be unable to unread a town name.
+
+She traveled until her body stopped her. She used rest the way she used a train: as an interval, not as a retirement. The European trip of the mid-1850s, including Scotland, is part of the same method — look, write, force a building. David Gollaher's biography is the place to watch her win and to watch her exhaust the people who worked with her.
+
 ## What she got right, and what she could not see
 
 She was right that jails are not hospitals. She was right that "out of sight" was an American method. She was right that a teacher with a notebook could move money.
@@ -36,6 +42,10 @@ She was right that jails are not hospitals. She was right that "out of sight" wa
 She could not see, or would not accept, that the hospital she wanted would become, in the next century, another warehouse. Moral treatment needed staff and space. State budgets provided architecture and a census. Dix's faith was in the building. A later generation's faith — Clifford Beers, then the community-mental-health movement, then the mixed disaster of deinstitutionalization — had to argue with that building.
 
 She was also a woman of her class and century: sure of her moral taste, not curious enough about the people she rescued as people with politics of their own. A hagiography helps no one. Neither does a sneer. She did the walking.
+
+She believed, with the moral-treatment generation, that architecture could be medicine. A new hospital on a hill, with land, with a superintendent who kept a library, would do what a jail could not. Sometimes it did, for a few years, for a few patients. Then the census rose. The hill became a town of its own. The superintendent became a manager of a thousand beds. Dix's later letters still sound like a woman who thinks the next building will be the one that keeps its promise.
+
+That faith is not stupidity. It is the faith of a person who had seen the alternative. A cellar is worse than a crowded ward. The later argument — community care, outpatient hours, the mixed disaster of emptying hospitals without building the street — is an argument *with* her, not a replacement that makes her unnecessary.
 
 ## Why a counseling site still says her name
 

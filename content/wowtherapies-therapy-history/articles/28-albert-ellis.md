@@ -27,15 +27,25 @@ Ellis heard, in the American patient of the 1950s, a religion of demand: I must 
 
 He liked Epictetus and liked to say so. He liked sex research and wrote about it in a decade that punished that writing. He liked to swear in session. Students either learned to hear the precision under the volume or they fled.
 
+He started as a sexologist and a writer of advice that the 1940s and 1950s found improper. The early career matters: he was already in a fight with American respectability before he named REBT. The therapy's bluntness is not only a technique. It is a temperament that had already decided the culture's "musts" were the problem.
+
+The ABC model — activating event, belief, consequence — is the diagram students remember. It is also easy to teach as if the activating event were a pebble and the belief were everything. A person in a violent home is not suffering only from a sentence. Ellis, on his better days, distinguished preference from demand without telling people their situations were imaginary. On his worse days the volume won.
+
 ## A clinic that was a theater
 
 Friday night live demonstrations, cheap workshops, a prolific stack of books — Ellis made therapy look like a public argument. That was democratic. It was also a risk: humiliation as technique. He believed people could stand a direct hit to their favorite sentence. Some could. A history that only quotes the one-liners is doing his worst work for him.
 
 He was not Beck. He did not wait for the trial to authorize the sentence. The later CBT mainstream took Beck's manners and some of Ellis's targets. REBT as a named school remains smaller, stubborn, still training.
 
+The Albert Ellis Institute survived him as a training shop and as a New York address with a myth attached. Like every founder shop, it has to decide whether the myth is the method. REBT's useful remainder does not require his vocabulary of insults. It requires a clinician who can hear a demand pretending to be a fact, and who can say so without becoming a second tyrant in the room.
+
+He wrote too many books. The 1962 volume is the one this pack names. Later editions restated the same fight with new cultural examples. The fight did not get quieter. It did not need to: the American "must" did not get quieter either.
+
 ## Inheritance without the impersonation
 
 A clinician who asks "where is the must?" is using him. A clinician who mocks a patient in order to feel like Ellis is not. The style guide for this pack would have failed half his paragraphs. The clinical idea survives the style: beliefs are not sacred, and a life can be built on preferences that do not sue the universe when they lose.
+
+A Friday-night demonstration in Manhattan is not a rural Arkansas hour. The transplant problem is real: a method that lived as theater can become, in a quieter room, either a relief (someone finally names the demand) or a new shame (the patient who cannot stand the volume). Training is the difference. This page is not the training.
 
 ## Portrait
 

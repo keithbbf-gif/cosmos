@@ -31,17 +31,25 @@ Morita had tried hypnosis and discarded it. He read Kraepelin, Dubois, Otto Bins
 
 This essay will not specify those stages as something a reader should run at home. Residential Morita therapy is a historical and, in some Japanese hospitals, a living clinical practice. It is not a blog challenge.
 
+The home clinic is a specific Japanese modernity: a professor's house as a ward, meals as treatment, the garden as the place a person learns to do the next necessary thing while anxiety is still present. Later outpatient and "modified" Morita therapies shortened the stay and borrowed the attitude without the house. English-language "Morita" in the 1970s sometimes became a cousin of constructive living, a Reynolds synthesis. Historians of the Japanese clinic ask readers to keep the 1919 house and the later export distinct.
+
+He taught at Jikei. Students carried the method into hospitals that still, in some places, run Morita wards. This is not a dead museum piece. It is also not a universal anxiety program. *Shinkeishitsu*, in his usage, is a temperament and a loop, not every panic on earth.
+
 ## Against neurasthenia-as-civilization
 
 George Beard's neurasthenia had traveled. Morita recast the fashionable "nervousness" of modern Japan as a psychological interaction, not only a worn-out nerve. He was part of the death of neurasthenia as a neurological object in his country. Junko Kitanaka's wider work on Japanese psychiatric modernity is useful context even when it is not a Morita monograph.
 
 He was not "Zen therapy," though later English introductions like to say so. Zen was in the air; his citations are medical. David Reynolds's 1976 *Morita Psychotherapy* helped Americans hear him, and also helped them hear a version.
 
+Kure's generation imported German psychiatry and also asked students to take psychotherapy seriously as a medical problem. Morita is one answer to that assignment, not a folk leftover. The four-stage residential form later writers list is a hospital answer. The attitude — feelings may stay while a person sweeps the garden — is the part that later acceptance therapies would recognize without always citing Tokyo.
+
 ## Why he is in a global pack
 
 Because a Tokyo house in 1919 is as much a founding clinic as a Vienna study in 1895. Because third-wave acceptance has a cousin here that is not a 1990s invention. Because "psychotherapy spread from Europe" is a sentence Morita's career makes look lazy.
 
 Do not use him to tell an anxious person to accept their way out of a medical emergency. Do not collapse him into mindfulness merch.
+
+English readers can start with a dated introduction (Reynolds) and then go looking for Japanese clinical papers and for the 2024 socio-historical work cited above. The second trip is the one that keeps 1919 from becoming a mindfulness slogan.
 
 ## Portrait
 

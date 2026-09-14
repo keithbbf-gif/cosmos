@@ -30,11 +30,17 @@ Logotherapy treats the frustration of meaning as a source of despair that is not
 
 He could be aphoristic. Aphorisms travel without the rest of the file. "He who has a why can bear almost any how" is a line people bring to funerals. Nietzsche sits behind it. Frankl sat in a specific chair: a physician who had watched people die with and without a task they still considered theirs.
 
+Logotherapy's "third Viennese school" claim is a piece of professional positioning. Freud and Adler were the mountains. Frankl wanted a ridge that was not theirs. The will to meaning, the noetic dimension, the idea that a person can take a stand toward suffering — these are philosophical as much as medical. American pastoral counseling borrowed him heavily. American empirical psychology mostly nodded and went back to trials. Both uses are part of his afterlife.
+
+He returned to Vienna, directed a polyclinic, and lectured until the paperback made him a global name. The later fame sometimes flattened the psychiatrist into a motivational speaker. The 1946 German text is starker than some English introductions.
+
 ## What a careful reader refuses
 
 He is not a proof that suffering is ennobling. He said the opposite often enough: suffering is not required; meaning is. He is not a proof that everyone in the camps "chose their attitude" in a way that makes survival a moral grade. Using him that way is a cruelty to the dead, including his own dead.
 
 He is not a substitute for trauma treatment, for psychiatry, or for politics. Liberation psychologists who otherwise share his interest in meaning would insist on the social production of meaninglessness — unemployment, terror, hunger. Frankl's Vienna was not Martín-Baró's San Salvador. The comparison is for the reader, not for a merger.
+
+He practiced as a neurologist as well as a psychiatrist. The medical identity matters: logotherapy was not, in his mind, a replacement for a lesion or a psychosis. American readers who meet only the paperback sometimes treat meaning as a solvent for every diagnosis. He did not. The 1930s papers already distinguish a noogenic problem from a somatogenic one. The distinction can be abused (to withhold care). It can also keep a counselor from calling every despair a chemical event with no remainder.
 
 ## Why he stays in this pack
 

@@ -28,9 +28,15 @@ In 1991 Linehan and colleagues reported, in the *Archives of General Psychiatry*
 
 The stance she named dialectical is easy to quote and hard to hold: radical acceptance of the person as they are, and an unsentimental insistence that they change, because either half had already been tried.
 
+Borderline personality disorder, as a DSM object, had already become a slur in some hospitals: the "difficult" woman, the frequent flyer, the patient staff joked about. Linehan's trial did not abolish that culture. It gave a subset of those hospitals a reason to staff a team instead of a shrug. Later researchers would argue about the diagnosis itself, about gender, about whether "borderline" is a trauma syndrome with another name. Those arguments are ongoing. Her place in them is the person who made the census researchable.
+
+The consultation team is the least glamorous and most serious part of the design. Therapists burn, stray, and rescue. A team that watches the therapists is a moral technology. Administrators who buy "DBT-informed" without buying the team have bought a brand.
+
 ## Zen, behaviorism, and a refusal of the romantic patient
 
 Linehan took behavioral analysis seriously: what does this act *do* in the environment? She also sat zazen and treated attention as a skill, not as a vibe. The combination offended people who wanted either a warm bath or a token economy. It also produced a generation of clinicians who could stay in the room with chronic suicidality without becoming the rescuer or the punisher — some of the time.
+
+Biosocial theory — a temperamental vulnerability meeting an invalidating environment — is the etiological sentence most trainees remember. It is a hypothesis, not a family verdict. Used badly, it revives mother-blame with new adjectives. Used well, it keeps the clinician from treating the patient as a problem of will.
 
 ## The 2011 interview
 
