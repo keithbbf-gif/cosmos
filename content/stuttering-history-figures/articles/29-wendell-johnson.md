@@ -21,9 +21,11 @@ last_verified: 2026-09-14
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
 
-Wendell Johnson arrived in Iowa City in 1926, twenty, from Roxbury, Kansas, with a stammer that later magazine profiles liked to call severe. He had come to study English. He stayed as a psychologist and speech pathologist until a heart attack in 1955 stripped titles and a second crisis killed him on 29 August 1965, age fifty-nine. The sibling profession pack has the ASHA presidency (1950), the journal editorship, the honors, *People in Quandaries* (1946). This pack has the cause he offered and the thesis he advised.
+The theory had a clean sentence: stuttering begins when a listener puts a bad name on an ordinary bump. Wendell Johnson spent a career making that sentence sound like kindness, and in 1939 the sentence walked into an orphanage. The sibling profession pack has the ASHA presidency (1950), the journal editorship, the honors, *People in Quandaries* (1946). This pack has the cause and the thesis he advised.
 
-He was born 16 August 1906. B.A. 1928, M.A. 1929, Ph.D. 1931, all Iowa, Travis advising on *The Influence of Stuttering on the Personality*. Full professor and clinic director in 1943. The vita is a single campus. That is not a small thing. It is also a conflict of interest dressed as loyalty.
+He was born 16 August 1906 in Roxbury, Kansas. He came to Iowa City in 1926 to study English, already stuttering, and stayed as a psychologist and speech pathologist until a heart attack in 1955 stripped titles and a second crisis killed him on 29 August 1965, age fifty-nine.
+
+B.A. 1928, M.A. 1929, Ph.D. 1931, all Iowa, Travis advising on *The Influence of Stuttering on the Personality*. Full professor and clinic director in 1943. The vita is a single campus. That is not a small thing. It is also a conflict of interest dressed as loyalty.
 
 ## The theory and the porch
 
