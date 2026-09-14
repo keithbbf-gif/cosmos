@@ -6,6 +6,7 @@ dateline: "Baltimore — Nov. 19, 2025"
 story_date: 2025-11-19
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 477
 author: SLP News desk

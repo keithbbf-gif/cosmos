@@ -6,6 +6,7 @@ dateline: "Salt Lake City — May 6, 2026"
 story_date: 2026-05-06
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 934
 author: SLP News desk

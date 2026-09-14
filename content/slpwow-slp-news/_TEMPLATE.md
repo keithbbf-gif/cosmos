@@ -6,6 +6,7 @@ dateline: "City — Month D, YYYY"
 story_date: YYYY-MM-DD
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 0
 author: SLP News desk

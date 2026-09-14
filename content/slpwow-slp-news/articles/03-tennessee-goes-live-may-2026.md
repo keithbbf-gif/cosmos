@@ -6,6 +6,7 @@ dateline: "Nashville — May 28, 2026"
 story_date: 2026-05-28
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 390
 author: SLP News desk

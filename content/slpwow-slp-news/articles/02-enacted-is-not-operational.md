@@ -6,6 +6,7 @@ dateline: "Washington — Sept. 14, 2026"
 story_date: 2026-09-14
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 994
 author: SLP News desk

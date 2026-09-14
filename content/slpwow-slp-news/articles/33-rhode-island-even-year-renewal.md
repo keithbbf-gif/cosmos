@@ -6,6 +6,7 @@ dateline: "Providence — Sept. 14, 2026"
 story_date: 2026-09-14
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 453
 author: SLP News desk
@@ -49,7 +50,7 @@ PROVIDENCE — Sept. 14, 2026 — A full Rhode Island speech-language pathologis
 
 Renewal, the statute says, is the renewal application plus the renewal fee set in the Department of Health’s fee-structure regulation, payable before July 1 of even years. A licensee who lets the license lapse by failing to renew on or before June 30 of an even year may still renew by sending the application, the renewal fee, and an additional late fee from that same fee structure.
 
-This desk is not printing a dollar amount. RIDOH’s licensing page is where the fee link lives, and the department posted a 2026 amendment to the fee-structure rule. Check the live RIDOH page and 216-RICR-10-05-2 before you write a check.
+This desk is not printing a dollar amount. RIDOH’s licensing page is where the fee link lives, and the department posted a 2026 amendment to the fee-structure rule. Confirm the live RIDOH page and 216-RICR-10-05-2 before paying a renewal fee.
 
 The health regulation that implements the statute, 216-RICR-40-05-33, repeats the even-year July 1 clock. RIDOH says it mails renewal notices 60 days before expiration. The notice is a courtesy. The statute still runs on July 1.
 

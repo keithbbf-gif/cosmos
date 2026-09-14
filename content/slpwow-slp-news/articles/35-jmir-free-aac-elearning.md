@@ -6,6 +6,7 @@ dateline: "Aachen — June 26, 2025"
 story_date: 2025-06-26
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 823
 author: SLP News desk

@@ -6,6 +6,7 @@ dateline: "Columbia, S.C. — June 11, 2026"
 story_date: 2026-06-11
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 367
 author: SLP News desk

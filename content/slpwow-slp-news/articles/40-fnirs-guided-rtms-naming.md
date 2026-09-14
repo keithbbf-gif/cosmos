@@ -6,6 +6,7 @@ dateline: "Shanghai — April 22, 2026"
 story_date: 2026-04-22
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 890
 author: SLP News desk

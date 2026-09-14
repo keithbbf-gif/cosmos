@@ -6,6 +6,7 @@ dateline: "Quebec City — Dec. 19, 2025"
 story_date: 2025-12-19
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 872
 author: SLP News desk

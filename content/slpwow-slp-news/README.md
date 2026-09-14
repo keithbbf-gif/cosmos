@@ -7,7 +7,18 @@ Staged originals for [SLP News](https://slpwow.com/blog/) on slpwow.com. **Draft
 - `BIBLIOGRAPHY.md` — all cited public sources
 - `WP_IMPORT.md` — WordPress **Draft** import only
 - `CLAIMS_GUARDRAILS.md` — no diagnosis, no PHI, no invented quotes
+- `EDITOR_REPORT.md` — editor sign-off for the current pass (`voice_check: edited`)
+- `check_slp_news.py` — pack QA (claims fence, brochure voice, frontmatter)
 - `_SOURCE_PACK.md` / `_TEMPLATE.md` — desk-internal; do not import as posts
+
+## Editor QA
+
+```bash
+python3 content/slpwow-slp-news/check_slp_news.py
+python3 -m pytest tests/test_slpwow_slp_news.py -q
+```
+
+Every file in `articles/` must carry `voice_check: edited` after review.
 
 Existing live posts that this pack updates rather than clones:
 

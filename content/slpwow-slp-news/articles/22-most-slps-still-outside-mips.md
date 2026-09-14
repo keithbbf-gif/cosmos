@@ -6,6 +6,7 @@ dateline: "Rockville — Nov. 19, 2025"
 story_date: 2025-11-19
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 806
 author: SLP News desk

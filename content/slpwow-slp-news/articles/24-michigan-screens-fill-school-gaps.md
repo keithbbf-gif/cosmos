@@ -6,6 +6,7 @@ dateline: "Eastpointe, Mich. — Feb. 27, 2026"
 story_date: 2026-02-27
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 1053
 author: SLP News desk

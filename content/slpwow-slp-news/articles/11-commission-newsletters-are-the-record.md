@@ -6,6 +6,7 @@ dateline: "Washington — Sept. 14, 2026"
 story_date: 2026-09-14
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 373
 author: SLP News desk
@@ -47,7 +48,7 @@ Those are Commission documents. They are not ASHA membership mail and they are n
 
 ## How to use them
 
-Read the issue date before you quote a fee, a bill name, or an issuing count. Volume 2, Edition 2, August 2026 is listed on the homepage; this article does not summarize that file. If a claim about a 2026 rule, a new issuing state, or a fee change first appears in that PDF, the PDF is the source. The Compact Map and the home page remain the place to check whether a member is issuing today.
+Read the issue date before quoting a fee, a bill name, or an issuing count. Volume 2, Edition 2, August 2026 is listed on the homepage; this article does not summarize that file. If a claim about a 2026 rule, a new issuing state, or a fee change first appears in that PDF, the PDF is the source. The Compact Map and the home page remain the place to check whether a member is issuing today.
 
 This article does not offer clinical advice, billing guarantees, or diagnosis guidance.
 

@@ -6,6 +6,7 @@ dateline: "Hong Kong — Jan. 28, 2026"
 story_date: 2026-01-28
 status: draft
 category: slp-news
+voice_check: edited
 article_type: feature
 word_count: 898
 author: SLP News desk

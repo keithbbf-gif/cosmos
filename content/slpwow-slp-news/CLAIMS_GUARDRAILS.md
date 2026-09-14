@@ -14,7 +14,7 @@ House rules for every draft in this folder. These are editorial constraints, not
 
 ## Always
 
-- Front matter: `status: draft`, `category: slp-news`.
+- Front matter: `status: draft`, `category: slp-news`, `voice_check: edited` (set only after an editor pass; `check_slp_news.py` enforces it on `articles/*.md`).
 - A `Sources` section with title, publisher, date, and URL.
 - Distinguish **proposed**, **enacted**, **issuing**, and **final** legal states. Compact membership is not privilege issuance. A CMS proposed rule is not the final rule.
 - Label research as research. Sample size, design (RCT, multiple-case, survey), and journal/DOI belong in the story, not only the bibliography.

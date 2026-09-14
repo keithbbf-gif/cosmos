@@ -6,6 +6,7 @@ dateline: "Baltimore — Jan. 5, 2026"
 story_date: 2026-01-05
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 402
 author: SLP News desk

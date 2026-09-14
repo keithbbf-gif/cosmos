@@ -6,6 +6,7 @@ dateline: "Washington — Feb. 4, 2026"
 story_date: 2026-02-04
 status: draft
 category: slp-news
+voice_check: edited
 article_type: brief
 word_count: 391
 author: SLP News desk
