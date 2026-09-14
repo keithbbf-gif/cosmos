@@ -1,0 +1,48 @@
+---
+title: "The filer"
+slug: the-filer
+series: bradley-county-timber-stories
+status: staged
+voice_check: human
+reading_order: 18
+word_target: 1400-2200
+lane: bradleylumbercompany.com
+commerce: false
+tone: ken-burns
+era: "1900–1958"
+place: "Warren, Bradley County, Arkansas"
+---
+
+# The filer
+
+The filing room is the quietest room that decides the loudest hour. The saw screams. The carriage slams. The burner talks all night. The filer works in a side light, on a plate that must be flat, on teeth that must be twins, and if he is wrong the whole mill is wrong by a sixteenth that will not sell. No Warren newspaper in the public pack prints his name. `[CITE NEEDED: a Bradley, Southern, or Arkansas Lumber filing-room roster, or a city-directory listing for saw filer.]` The craft will have to stand as a craft. The town will have to stand as the town that needed it.
+
+Balogh’s 1900 sequence — woods, rail, sort, cut, plane, dry, season, ship — hides the filer in the verb *cut*. A saw that is dull, snaky, or cracked does not cut. It burns, leads, and throws. The large plants that posted 100,000 and 150,000 board feet a day in 1907 could not run a day on a homestead file and a guess. They ran on a trade the Pacific Northwest would later call sawfiler and Australasia would call saw doctor: inspection, sharpening, gullet work, set or swage, tension, level, weld. The room has names for the verbs. Gumming is the grinding of gullets to a shape that will not crack under heat and chips. Fitting is the making of a kerf — the tooth’s width — even enough that the board does not show the filer’s mood. Benching is hammer and roll, tension put into a plate so that at speed the saw stands like a disc and not like a ribbon in a wind. Repair is the weld in a crack that, left alone, becomes a broken blade and a ruined shift. None of those words appear on the back of Bradley’s mixed-car postcard. They are why the postcard could be printed.
+
+Bradley Lumber Company of Arkansas called itself, on that card, a sawmiller of Arkansas soft pine, mild-textured oak, and other native hardwoods, a producer of hardwood flooring, furniture stock, pine millwork, and construction materials. Mixed Car Headquarters. A mixed car is a filer’s problem as much as a salesman’s boast. Pine and oak do not ask the same tooth. A band that has been eating shortleaf all morning is not, without a change or a second saw, ready for a gum log that will glaze a dull edge. Flooring stock wants a surface the planer can finish. Furniture stock wants a thickness the chair plant can trust. Construction pine will forgive more. The filing room is where those forgivenesses are rationed.
+
+The 1880s small mills in the county — Shirey & Butler and the rest of Bradham’s list — could send a saw to a town shop or dress it in the yard. Carpenter’s 1891 plant, Wheeler’s, then Fullerton’s, then the three large names of 1901–1902, made the shop a department. Three departments, if each plant kept its own room: Southern’s pine bands, Bradley’s mixed woods, Arkansas Lumber’s volume. A saw that left one room was not interchangeable with a saw from the next. Railroad men from the Iron Mountain shops at Pine Bluff and Camden, Balogh notes, brought metal-working skills into the lumber mills as the industry mechanized. A filer might have begun as a blacksmith’s helper or a car-repair hand. The published Warren record does not say. The type, after the particular of three mills and a doubled population, is a man who is not on the carriage and not in the office and without whom both are theater.
+
+The sawyer and the filer are a pair the photograph will not caption. One sits in the chair and decides the face. The other decides whether the blade will honor the face. A lead in the cut — the saw drifting, the board tapering — is often a filing-room problem the carriage crew will be blamed for. Recovery, the quiet word for how much of a log becomes lumber, is their shared ledger. A thousand employees in the 1936 sentence include a handful who never touched a cant and still determined the day’s grade. Time-clock cards for those handfuls have not surfaced. `[CITE NEEDED: Bradley or Southern filing-room time cards; apprentice lists.]` Absence is not proof they were unimportant. It is proof the county paper preferred stacks and storms.
+
+Cleanliness is part of the craft. A dirty plate cannot be gauged. A filing room that looks like the mill floor will hide a crack in carbon and pitch. Modern trade writing still says it: treat the guides like china; keep the straightedge honest; do not tension a plate that is not first flat. Those sentences are later than Fullerton’s first decade. The physics is not later. A circular or a band at mill speed is a spinning argument between centrifugal force and the set of the teeth. Heat from a dull cut changes the argument. The filer is the only person in the plant whose job is to hear a saw that is not yet screaming.
+
+Southern’s 1939 fire is a filing-room story whether or not the flames began at a blade. A mill fire is often a story of dust, heat, and a bearing. Modernization after that fire, the encyclopedia says, made Southern one of the nation’s more up-to-date plants. Up-to-date means new iron. New iron means new plates, new tensions, a filer who must learn a machine that did not exist when he apprenticed. W. R. Warner, sent from Cloquet to close the plant, kept it for second growth instead. Second-growth pine is smaller. Smaller logs mean different bites, different gullet volumes, different feed. The filer’s handbook from the virgin years is not a bible. It is a starting point.
+
+Arkansas Lumber’s 1928 shutdown — 85,000 acres cut out — retired a filing room in a day. The men who had kept those saws did not all leave the county. Some went to Bradley, some to Southern, some to farms and tomato plots. `[CITE NEEDED: where Arkansas Lumber’s skilled trades went after 1928.]` A craft that is quiet is also portable. A sawyer’s chair is bolted to a carriage. A filer’s skill fits in a roll and a knowledge of steel.
+
+The 1949 tornado did not care that the filing room preferred quiet. Photographs show wrecked blowpipes, shops, the power plant, the stack. Purkins’s “vermicular scene” is the opposite of a bench. Steel that had been tensioned for a saw became, in the yards of Ives and Fullerton, beams that had flown. A filer understands flying metal. He spends his life keeping metal from flying wrong. After 5:45 p.m. on 3 January the town’s metal had no schedule. Water off in the Bradley section. A thousand workmen without power. The filing room, if its walls stood, was a room of tools waiting for a boiler that was not there.
+
+By 1941, in a later-owner telling, Bradley had about 1,100 employees. The 1936 centennial sentence said more than a thousand, turnover at the minimum, two hundred houses at half rent. Among a thousand, the filing crew is small. That is why the job can disappear from memory. The sawyer is at least visible from the mill-floor tour. The filer is a door marked with a word a visitor may not know. Mill-town America, once Warren has been paid, repeats the disappearance. Diboll, Crossett, Fordyce — the same quiet room, the same dependence. Kenneth L. Smith’s *Sawmill*, the Ouachita book, is not a Warren monograph and will not be used as one. It is a reminder that the last great virgin forest east of the Rockies was cut by men who lived or died by the condition of a tooth.
+
+Women on the floor in 1917–18, slacks under a dress rule, may have passed the filing-room door. The paper does not put them at the bench. `[CITE NEEDED: whether any woman was hired into saw maintenance at the Warren mills in either war.]` The Second World War took fifty-nine county dead. The plants ran. Someone kept the saws. The someone is a blank the directories have not yet filled.
+
+Potlatch’s purchases in 1956 and 1958 folded the quiet rooms into a company that already knew Idaho and kraft paper. Process orientation — Balogh’s phrase for the mid-century shift toward less waste and more products — made the filer’s work more, not less, decisive. Thin kerf, later, would ask more of a plate. High-temperature pine kilns would ask the sawyer for volume the filer had to make possible. The craft did not become loud. It became, if anything, more exact.
+
+A person walking the old mill geography now will not find a plaque for the filing room. The remaining object is a board that does not show a lead — a flooring strip, an oak plank, a pine casing — the kind of stock Bradley’s 1944 *American Builder* page could advertise as pre-finished hardwood and the kind a later Warren shop still knows by species. Bradley Brand Furniture, dating hardwood work from the mill’s first years, sits downstream of a man who never signed the furniture. He signed the kerf. The town smelled the kiln. It heard the whistle. It rarely heard the file. That was the point of the room.
+
+## Sources
+
+Balogh, “Timber Industry” (2143) and *Entrepreneurs in the Lumber Industry* (1900 process; railroad metal skills; process orientation). ARGenWeb / RootsWeb, Bradley Lumber postcard verso (“Mixed Car Headquarters”). *Encyclopedia of Arkansas*, “Bradley County” (750); “Warren (Bradley County)” (840). *Bradley County Centennial Magazine* (1936) via 2016 National Register nomination. Purkins, *Eagle Democrat*, 10 January 1949. USDA *Wood Handbook*, FPL-GTR-190 (species and drying context only). Trade description of the saw-filer’s tasks as type, not as a named Warren biography.
+
+See: `the-sawyers-chair`, `dry-kilns-and-the-smell`, `hardwood-and-pine`, `flooring-stock-and-furniture`, `the-mill-whistle`.
