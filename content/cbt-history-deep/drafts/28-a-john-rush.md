@@ -16,7 +16,7 @@ citations:
   - "Rush, A. John, et al. American Journal of Psychiatry, 2006 (STAR*D)."
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

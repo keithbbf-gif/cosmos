@@ -16,7 +16,7 @@ citations:
   - "Beck, Aaron T. Cognitive Therapy and the Emotional Disorders. 1976."
   - "Hayes, Steven C. Behavior Therapy, 2004."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -56,13 +56,13 @@ A small-city reader who has never heard "metacognitive" has still met a loop. Lo
 
 ## 1994, a book about attention before the 2009 school
 
-Wells and Gerald Matthews published *Attention and Emotion: A Clinical Perspective* in 1994. Later 1990s papers treated worry and rumination as problems of how a person relates to thinking, not only of what the thought says. *Metacognitive Therapy for Anxiety and Depression* (Guilford, 2009) is the landmark named-school book. A later editor who opens a specific 1990s journal article with volume and page should add it. Until then, 1994 plus a 2009 spine is a more honest mark than a fake first-year. The shift of object is why he belongs in a deepen pack about waves: he is sometimes waved into the third crest and sometimes left in the hall. Halls are interesting.
+Wells and Gerald Matthews published *Attention and Emotion: A Clinical Perspective* in 1994. Later 1990s papers treated worry and rumination as problems of how a person relates to thinking, not only of what the thought says. *Metacognitive Therapy for Anxiety and Depression* (Guilford, 2009) is the landmark named-school book. A later editor who opens a specific 1990s journal article with volume and page should add it. Until then, 1994 plus a 2009 spine is a more honest mark than a fake first-year.
 
-Beck's second-wave shop treated a sentence as data you might test. Ellis attacked a demand. Wells asked about beliefs a person holds *about* thinking and about the processes that keep a loop running. This page will not list those beliefs. Lists become homework. Hayes's 2004 nickname emphasized relationship to thoughts. Wells's object is cousin-weather without being ACT. A 2009 Guilford index that does not say ACT on the title page is the independence this hall-figure needs. Cousins make geology look less clean. This pack likes the mess. Hofmann's later process-talk would try to file such cousins as processes. Filing is a 2018 mood. 2009 is still a named therapy with a Guilford spine.
+A 2009 Guilford index that does not say ACT on the title page is the independence this hall-figure needs. A 2010 British seminar that treated the new book as a school rather than a slide in someone else's geology was using 2009 correctly. Schools may sit in halls.
 
-Manchester is the address many institutional pages attach to his working life. Addresses train students. Students make "MCT" an initial. Initials get procured or ignored. IAPT-style systems had their own menus; MCT was not always on them. Absence from a menu is not absence from a family. A 2010 British seminar that treated the new Guilford book as a school rather than a slide in someone else's geology was using 2009 correctly. Schools may sit in halls.
+Living researcher, public book and the fact of earlier 1990s papers only. No attention-training task. No metacognitive experiment. He sits, on this calendar, as the last figure: not a closer, a reminder that the family kept growing rooms after Beck's 1979 sequence and after Hayes's 2004 last name. Forty-four plaques is a shelf size. The house is not complete. Handouts do not belong on the added rooms either.
 
-Living researcher, public book and the fact of earlier 1990s papers only. No attention-training task. No metacognitive experiment. No Manchester scrape. A rural hour that notices a person is stuck in a loop *about* looping is standing in cousin-weather. Noticing is not this page's homework. He sits, on this calendar, as the last figure: not a closer, a reminder that the family kept growing rooms after Beck's 1979 sequence and after Hayes's 2004 last name. Rooms are not a finish line. Forty-four plaques is a shelf size. The house is not complete. Handouts do not belong on the added rooms either.
+Matthews's co-authorship on the 1994 attention volume is easy to drop when a later brochure says only "Wells." Do not drop it. Attention research was the hallway MCT walked through before Guilford gave it a school name. Hallways are where cousin-therapies meet without sharing a manual. British training systems and American list cultures imported different menus. A therapy absent from IAPT is still part of the argument this deepen pack tracks: the argument about what counts as a thought, what counts as a relationship to a thought, and who gets to sell the difference. A 2011 trainee who learned "metacognitive" as a trademark before learning Beck's 1976 object sentence was reading marketing calendars, not geology. Calendars are allowed in history. They are not allowed to erase 1994.
 
 ## Portrait
 

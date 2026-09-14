@@ -15,7 +15,7 @@ citations:
   - "Foa, Edna B., and Michael J. Kozak. Psychological Bulletin, 1986."
   - "Herman, Judith Lewis. Trauma and Recovery. 1992."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

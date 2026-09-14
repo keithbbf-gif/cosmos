@@ -15,7 +15,7 @@ citations:
   - "Chambless, Dianne L., et al. Society of Clinical Psychology (APA Division 12) Task Force reports, 1990s."
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
   - "Resick, Patricia A., and Monica K. Schnicke. Journal of Consulting and Clinical Psychology, 1992."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

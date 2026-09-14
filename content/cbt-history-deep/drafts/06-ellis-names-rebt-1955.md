@@ -15,7 +15,7 @@ citations:
   - "Ellis, Albert, and Robert A. Harper. A Guide to Rational Living. 1961."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

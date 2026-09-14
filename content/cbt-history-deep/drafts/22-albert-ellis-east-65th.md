@@ -16,7 +16,7 @@ citations:
   - "Carey, Benedict. New York Times, 11 October 2005."
   - "Ellis v. Broder, New York Supreme Court, 2006."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

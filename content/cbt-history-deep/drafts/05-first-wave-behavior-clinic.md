@@ -17,7 +17,7 @@ citations:
   - "Watson, John B., and Rosalie Rayner. Journal of Experimental Psychology, 1920."
   - "Hayes, Steven C. Behavior Therapy, 2004."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

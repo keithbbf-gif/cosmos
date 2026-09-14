@@ -20,5 +20,6 @@ Start here:
 | `WP_IMPORT.md` | Staging WordPress only |
 | `drafts/` | The essays |
 | `check_pack.py` | Structural QA |
+| `EDITOR_REPORT.md` | Editor pass notes (when `voice_check: edited`) |
 
 Educational only. Not medical advice. No DIY treatment protocols. No patient PHI.

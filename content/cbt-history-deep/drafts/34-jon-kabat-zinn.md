@@ -15,7 +15,7 @@ citations:
   - "Kabat-Zinn, Jon. Full Catastrophe Living. 1990."
   - "Segal, Zindel V., J. Mark G. Williams, and John D. Teasdale. Mindfulness-Based Cognitive Therapy for Depression. 2002."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -53,13 +53,11 @@ A small-city reader who met "mindfulness" first as an app has met the afterlife,
 
 Kabat-Zinn published "An Outpatient Program in Behavioral Medicine for Chronic Pain Patients Based on the Practice of Mindfulness Meditation" in *General Hospital Psychiatry* in 1982. The 1979 clinic at the University of Massachusetts Medical Center is the room. The 1982 paper is how a hospital journal heard the room. *Full Catastrophe Living* (Delacorte, 1990) is how a public heard it. A 2016 icon is how a commute heard a word. Those are four objects. This plaque will not let the fourth eat the first.
 
-A medical center already speaks graphs. It already has patients who will not be well in the way a surgical schedule wants. Putting a sitting practice in that room was a 1979 bet: attention might be something a hospital could offer without calling it insight. The bet traveled. Travel is how a hospital program becomes a paper, then a book, then a workshop industry, then a word on yogurt. He has written as a person who wanted the hospital to be able to say "mindfulness" without saying "convert." Wanting is not the same as controlling the afterlife.
+A 1982 medical-center patient who was offered a sitting group because surgery had no remaining schedule was meeting the 1979 bet in a hallway, not a sangha. Hallways are the origin. Yogurt is the afterlife. Segal, Williams, and Teasdale remain the borrowers who tried, in 2000 and 2002, to keep a relapse problem attached to the cushion. Hayes remains a 2004 nickname. CBT borrowed a cushion. File the lender.
 
-Buddhist teachers have had opinions. Some are grateful. Some see ethics stripped for a medical market. A counseling history can admit the debt without pretending a county-clinic group, or a phone, is a sangha. Segal, Williams, and Teasdale remain the borrowers who tried, in 2000 and 2002, to keep a relapse problem attached to the cushion. Hayes remains a 2004 nickname. CBT borrowed a cushion. File the lender.
+If the hospital later reprints the clinic's name differently, verify on upload day. Institutions rename. Last verification: 2026-09-14. A small-city reader who met the word as an app has met the afterlife, not the 1979 room. This URL exists so the room can still be named. Naming is not a sitting lesson.
 
-A 1982 medical-center patient who was offered a sitting group because surgery had no remaining schedule was meeting the 1979 bet in a hallway, not a sangha. Hallways are the origin. Yogurt is the afterlife. If the hospital later reprints the clinic's name differently, verify on upload day. Institutions rename. Last verification: 2026-09-14. A small-city reader who met the word as an app has met the afterlife, not the 1979 room. This URL exists so the room can still be named.
-
-Living clinic founder, public book and dated clinic history only. No body scan. No lotus header. No UMass scrape. The phrase "full catastrophe" is a borrowed literary shrug, not a diagnosis. Do not turn it into a brand on a service page. Do not pair it with a booking button. The 1990 book may sit on a clinician's shelf as a historical object. Shelves are not homework. Naming is not a sitting lesson. The educational note stays.
+The 1982 paper's title still says "behavioral medicine" aloud. That phrase mattered in 1979. Hospitals were already trying to bill attention the way they billed procedures. A sitting group that could be described in a journal was a sitting group that could survive a committee. Survival is not the same as wisdom. It is, however, how techniques enter a family that later borrows them without paying rent. Segal's MBCT tried to pay rent by keeping relapse in the sentence. This lender essay keeps the hospital date so the rent dispute stays visible. A 1991 hospital administrator who read *Full Catastrophe Living* as permission to cut talk-time was misreading 1990, not inventing it. Misreadings are part of the afterlife too. Chronic-pain clinics in the early 1980s were already crowded with patients medicine could not schedule into cure. A sitting group was sometimes the honest sentence when surgery had no next slot. Honesty is not a brand. It is a dated room this pack refuses to let an app icon swallow.
 
 ## Portrait
 

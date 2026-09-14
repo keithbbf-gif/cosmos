@@ -15,7 +15,7 @@ citations:
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1989."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

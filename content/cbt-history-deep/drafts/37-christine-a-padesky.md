@@ -16,7 +16,7 @@ citations:
   - "Beck, Judith S. Cognitive Therapy: Basics and Beyond. 1995."
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -52,15 +52,13 @@ She has been, in the public record, a student of the Beck household and a teache
 
 ## 1993, a London address about looking up
 
-Padesky gave a 1993 congress address in London — "Socratic questioning: Changing minds or guiding discovery?" — that later teachers still photocopy as a PDF. This page will not teach the craft. Crafts that become YouTube are already too thin. The historical object is a California teacher who treated a question as a way to look up, not as a way to win. Two years later Guilford issued *Mind Over Mood* with Dennis Greenberger, the same year Philadelphia issued Judith Beck's *Basics and Beyond*. 1995 is a teaching-shop year: two portable objects, two coasts. Clients touched the Greenberger–Padesky pages. Hoeber never reached that class.
+Padesky gave a 1993 congress address in London — "Socratic questioning: Changing minds or guiding discovery?" — that later teachers still photocopy as a PDF. This page will not teach the craft. Crafts that become YouTube are already too thin. The historical object is a California teacher who treated a question as a way to look up, not as a way to win. Two years later Guilford issued *Mind Over Mood* with Dennis Greenberger, the same year Philadelphia issued Judith Beck's *Basics and Beyond*. Clients touched the Greenberger–Padesky pages. Hoeber never reached that class.
 
-A workbook is a social class of object. Handing it can be a collaboration. It can also be a way to send the person home with a task instead of a relationship. Her public teaching has long insisted on collaborative empiricism: two people testing a sentence, not a form testing a person. Students who skip that insistence have skipped her. Greenberger's name is easy to drop. Do not drop it. Two authors made the 1995 spine. Later editions are a publishing history. Quote the year you mean. Coffee rings on a used copy are not a reprint license.
+A 1997 client who opened the paperback on a kitchen table was meeting 1995's social class, for better and worse. Better: a collaboration might start. Worse: a relationship might be replaced by a task. Her teaching named the better. This plaque names both. Coffee rings on a used copy are not a reprint license.
 
-A portable workbook looks, to a reviewer, like something that can happen in six sessions. Sometimes it can. Sometimes the portability is the muzzle. This pack's managed-care essay holds the payment shape. This figure holds a teacher who wrote a book the shape could recognize — and who kept saying the recognition was not the point. A mood workbook can treat a neighborhood as a cognition. Her better teaching refuses that. Slide decks that keep only the forms are not her best students.
+Living teacher, public books only. No thought record to complete. No jacket scrape. No Socratic video. A later clinician's-guide companion and workshop recordings are guild objects, not this page's handouts. Huntington Beach is west of Penn and not a lesser shop. Look up from the page. That is the teaching. The form is the risk.
 
-A 1997 client who opened the paperback on a kitchen table was meeting 1995's social class, for better and worse. Better: a collaboration might start. Worse: a relationship might be replaced by a task. Her teaching named the better. This plaque names both. A rural trainee who met CBT first through that paperback met a real door. The door is not 1967 and not a licensed hour by itself. Name the door. Refuse the download.
-
-Living teacher, public books only. No thought record to complete. No jacket scrape. No Socratic video. A later clinician's-guide companion and workshop recordings are guild objects, not this page's handouts. Huntington Beach is west of Penn and not a lesser shop. WOW Therapies does not inherit that shop. Portability is the mixed gift this whole pack keeps naming. Film, book, workbook, app. She is the workbook year. Keep the year. Look up from the page. That is the teaching. The form is the risk.
+The 1993 London title — "changing minds or guiding discovery?" — is a question about power in the room, not a technique menu. Power questions travel badly into six-session contracts. Contracts love forms because forms photograph well for reviewers. Padesky's public career has been a long argument that a form without look-up is a muzzle wearing a smile. Managed care did not invent the muzzle. It did invent a payment shape that rewards the photograph. This figure essay names the smile without handing anyone a worksheet to prove they deserved it. Greenberger's name on the 1995 spine is also a power question: who gets quoted when a workbook becomes famous. Two authors is a fact, not a footnote to trim for word count. Judith Beck's Philadelphia portable and Padesky's California portable are the same year's argument about who gets to teach the look-up without owning the institute address. Trainees who photocopied the 1993 London PDF and the 1995 workbook in the same semester were already living inside that argument without knowing the coast names. Photocopiers are a dated technology. The argument is not.
 
 ## Portrait
 

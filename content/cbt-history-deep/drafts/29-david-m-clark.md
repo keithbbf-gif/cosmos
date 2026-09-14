@@ -16,7 +16,7 @@ citations:
   - "LSE. The Depression Report. 2006."
   - "Clark, David M. Annual Review of Clinical Psychology, 2018."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

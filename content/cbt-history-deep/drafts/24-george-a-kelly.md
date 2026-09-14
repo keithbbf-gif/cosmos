@@ -14,7 +14,7 @@ citations:
   - "Bannister, Don. Acta Psychologica, 1962 (British experimental neighbor; [VERIFY] volume/pages before print)."
   - "Bannister, Don, and Fay Fransella. Inquiring Man. 1971."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

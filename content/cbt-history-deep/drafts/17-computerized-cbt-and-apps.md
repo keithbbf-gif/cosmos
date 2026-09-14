@@ -15,7 +15,7 @@ citations:
   - "Clark, David M. Annual Review of Clinical Psychology, 2018."
   - "Kabat-Zinn, Jon. Full Catastrophe Living. 1990."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

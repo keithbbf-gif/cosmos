@@ -17,7 +17,7 @@ citations:
   - "Hofmann, Stefan G., and Gordon J. G. Asmundson. Clinical Psychology Review, 2008."
   - "Linehan, Marsha M. Cognitive-Behavioral Treatment of Borderline Personality Disorder. 1993."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

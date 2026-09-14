@@ -16,7 +16,7 @@ citations:
   - "Lazarus, Arnold A. The Practice of Multimodal Therapy. 1981."
   - "Wolpe, Joseph. Psychotherapy by Reciprocal Inhibition. 1958."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -50,15 +50,13 @@ He could be sharp in print about colleagues. Sharpness is in the record. This pa
 
 ## 1976, the year "multimodal" became a title people could file
 
-Before the 1981 practice book, Lazarus had already been arguing in print that a single channel was a bullying clinic. *Multimodal Behavior Therapy* (1976) is the mid-decade title later bibliographies attach to that argument; a later editor should open the colophon before treating 1976 as the only filing year. The 1971 McGraw-Hill book remains the earlier public refusal: *Behavior Therapy and Beyond*. "Beyond" is already cognitive in a broad sense and already impatient with a physiology that would treat a person as one gadget. The 1981 volume is the later map. Maps become checklists in careless hands. His better pages are a protest against careless hands, including cognitive ones.
+Before the 1981 practice book, Lazarus had already been arguing in print that a single channel was a bullying clinic. *Multimodal Behavior Therapy* (1976) is the mid-decade title later bibliographies attach to that argument; a later editor should open the colophon before treating 1976 as the only filing year. The 1971 McGraw-Hill book remains the earlier public refusal: *Behavior Therapy and Beyond*. The 1981 volume is the later map. Maps become checklists in careless hands. His better pages are a protest against careless hands, including cognitive ones.
 
-He died in 2013. Division 12's lists had not been kind to multimodal mess. Unkindness is a 1990s fact, not a 1971 verdict. South Africa remains the origin he shares with Wolpe. Shared origins do not make twins. One wrote a physiology that could be taught. One wrote a climate that could be inventoried. This pack needs both on the first-wave shelf so Hayes's later geology has something real to nickname. Restless neighbors make waves look less like miracles.
+He died in 2013. Division 12's lists had not been kind to multimodal mess. Unkindness is a 1990s fact, not a 1971 verdict. South Africa remains the origin he shares with Wolpe. Shared origins do not make twins. One wrote a physiology that could be taught. One wrote a climate that could be inventoried. This pack needs both on the first-wave shelf so Hayes's later geology has something real to nickname.
 
-Institutional biographies put the long American middle at Rutgers. Addresses are not methods. The method, if the word must be used, is a refusal to let one modality bully the hour. Refusals are hard to randomize. A 1972 reader who took "beyond" as permission to ask about imagery and a relationship in the same hour was already using the 1971 title correctly. Permission is not a map to photocopy.
+Institutional biographies put the long American middle at Rutgers. A 1972 reader who took "beyond" as permission to ask about imagery and a relationship in the same hour was already using the 1971 title correctly. Permission is not a map to photocopy. BASIC ID remains jargon students remember. This URL will not teach the acronym as a homework sheet.
 
-He could be sharp in print about colleagues. Sharpness is in the record. This page will not turn old fights into gossip. It will say the household argued, and that argument is why "behavior therapy" in 1971 already knew it would not stay a single physiology. BASIC ID remains jargon students remember. This URL will not teach the acronym as a homework sheet. It will not claim WOW Therapies is "multimodal" unless a later page can show what that means in the actual clinic.
-
-A rural hour that asks about sleep, a relationship, a pill, and a sentence in the same week is standing nearer his map than a brochure that says only CBT. Nearer is not a license. It is a resemblance. Resemblances are how families work. This pack is a family history. It will not print the map as a form. Type: Arnold A. Lazarus, 1932–2013.
+*The Practice of Multimodal Therapy* (1981) arrived the same decade Guilford's depression manual was already training supervisors to watch a sequence. The two objects answer different questions. One asks what a depressed week looks like on paper. The other asks what a whole life might need if fear, sleep, a marriage, and a sentence all show up in the same hour. Randomized trials prefer the first question. Waiting rooms often ask the second. Lazarus's career is a reminder that the second question did not wait for permission from a checklist. A 1982 syllabus that taught BASIC ID as a grid was already flirting with the vice his better pages warned against: a map that replaces a person. Grids sell workshops. People still arrive with more than seven letters.
 
 ## Portrait
 

@@ -16,7 +16,7 @@ citations:
   - "Clark, David M., Richard Layard, and Rachel Smithies. CEP Discussion Paper 897, 2008."
   - "Clark, David M. Annual Review of Clinical Psychology, 2018."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

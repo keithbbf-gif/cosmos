@@ -18,6 +18,7 @@ Deepens `content/wowtherapies-therapy-history/` (cognitive turn, third wave, Bec
 | `PORTRAIT_SOURCES.md` | PD/CC or honest blank |
 | `PHOTO_NOTES.md` | Image rules; no fake faces |
 | `WP_IMPORT.md` | Staging import only |
+| `EDITOR_REPORT.md` | Magazine-floor editor pass (voice_check: edited) |
 
 ## Required YAML on each draft
 

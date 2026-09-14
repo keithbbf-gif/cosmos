@@ -17,7 +17,7 @@ citations:
   - "Beck Institute for Cognitive Behavior Therapy. Founded 1994."
   - "Beck, Judith S. Cognitive Therapy: Basics and Beyond. 1995."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

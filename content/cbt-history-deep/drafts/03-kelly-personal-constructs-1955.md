@@ -16,7 +16,7 @@ citations:
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
   - "Beck, Aaron T. Cognitive Therapy and the Emotional Disorders. 1976."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

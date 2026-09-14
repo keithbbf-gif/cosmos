@@ -16,7 +16,7 @@ citations:
   - "Young, Jeffrey E., Janet S. Klosko, and Marjorie E. Weishaar. Schema Therapy. 2003."
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

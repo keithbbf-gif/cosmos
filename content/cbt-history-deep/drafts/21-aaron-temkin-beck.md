@@ -16,7 +16,7 @@ citations:
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
   - "Beck Institute for Cognitive Behavior Therapy. Founded 1994."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

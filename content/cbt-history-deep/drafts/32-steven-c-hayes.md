@@ -16,7 +16,7 @@ citations:
   - "Association for Contextual Behavioral Science. Founded 2005."
   - "Hayes, Steven C., and Stefan G. Hofmann, eds. Process-Based CBT. 2018."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

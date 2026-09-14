@@ -17,7 +17,7 @@ citations:
   - "Elkin, Irene, et al. Archives of General Psychiatry, 1989."
   - "Decker, Hannah S. The Making of DSM-III. 2013."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

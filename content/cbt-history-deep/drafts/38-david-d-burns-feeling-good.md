@@ -16,7 +16,7 @@ citations:
   - "Beck, Aaron T., et al. Cognitive Therapy of Depression. 1979."
   - "Beck, Aaron T. Depression. 1967."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -54,15 +54,13 @@ If a later editor opens a specific dated paper of his from the 1980s Penn orbit,
 
 ## 1989, a handbook that is still not the 1979 manual
 
-Morrow issued *Feeling Good: The New Mood Therapy* in 1980. Plume issued *The Feeling Good Handbook* in 1989. The second object is a later public book this page will also not assign. Two bookstore years do not make a Guilford workforce manual. The 1979 Beck, Rush, Shaw, and Emery volume remains a different social class of object. The 1967 Hoeber *Depression* remains a colleague's volume above both. Confusing the classes is how a brochure writes "Beck" on a paperback Burns wrote.
+Plume issued *The Feeling Good Handbook* in 1989. The second object is a later public book this page will also not assign. Two bookstore years do not make a Guilford workforce manual. The 1979 Beck, Rush, Shaw, and Emery volume remains a different social class of object. The 1967 Hoeber *Depression* remains a colleague's volume above both. Confusing the classes is how a brochure writes "Beck" on a paperback Burns wrote.
 
-He had worked in the Beck household. Households produce popularizers. Popularizers are easy to sneer at from a seminar and easy to over-trust from a waiting room. This pack will do neither. 1980 is a date when cognitive therapy found a mass audience. Mass audiences change a school. They fund it. They flatten it. Both happened. A 1981 book-group of nonclinicians who argued about a "distortion" list was that audience arriving. Vocabulary travel is a historical fact. Travel is how a hospital language becomes a kitchen-table language. Kitchen tables are not clinics. Parlor games of "distortions" are hard on people whose sentence is a description. The critiques essay holds that charge. This figure holds the object that carried the vocabulary into living rooms.
+A 1981 book-group of nonclinicians who argued about a "distortion" list was the 1980 audience arriving. Kitchen tables are not clinics. Parlor games of "distortions" are hard on people whose sentence is a description. The critiques essay holds that charge. This figure holds the object that carried the vocabulary into living rooms.
 
-Ellis had already written a public book in 1961. Burns's 1980 book is a different weather: post-manual, post-the-start-of-the-checklist-decade, friendlier to a medical-school quiet than to a roast. Two public books, two Americas. Keep both. He later argued, in public professional settings, about empathy and about what popular CBT had dropped. Late arguments are allowed. They do not cancel 1980. They are a popularizer looking back at a flattening he helped make possible.
+Later editions, workbooks, and a podcast afterlife are a publishing history. Quote the year you mean. Do not use a 2020s storefront as a 1980 fact. Living popularizer, public book only. No chapter assigned. No jacket as free art. No "feeling good" call to book. Name the door. Do not staff it as a clinic.
 
-If a later editor opens a specific dated paper of his from the 1980s Penn orbit, add it. Do not invent a trial to dignify a bookstore book. The book is already historical. Dignity is the year, not a p-value we do not have on this page. Later editions, workbooks, and a podcast afterlife are a publishing history. Quote the year you mean. Do not use a 2020s storefront as a 1980 fact.
-
-Living popularizer, public book only. No chapter assigned. No jacket as free art. No "feeling good" call to book. A rural reader who met cognitive therapy first through the 1980 paperback has met a real door. The door is not the 1967 book and not a licensed hour. Name it as a door. Do not staff it as a clinic. A book is not a therapist. That limit is the reason this series exists.
+Morrow's 1980 subtitle — "The New Mood Therapy" — is a marketing sentence that aged into a guild insult. Guilds hear "mood therapy" and think manual. Readers heard hope. Both hearings are historical. The 1989 handbook doubled the bet: more pages, more lists, still not Guilford. Bookstore doubling is how a school pays for research it did not conduct. Paying is not the same as proving. This pack keeps the bookstore class honest so Penn's 1979 sequence does not get blamed for a kitchen-table argument Burns made possible. A 1985 bookstore clerk who shelved Burns beside Ellis was doing honest geology: two public books, two temperaments, one crowded table near the self-help aisle. Clerks are historians with barcodes. They know which sentences travel faster than manuals. A reader who never opened Guilford could still argue about "distortions" at Thanksgiving. Thanksgiving arguments are not trials. They are how public books change a guild's weather without asking permission. Weather is not a protocol. Date the book anyway.
 
 ## Portrait
 

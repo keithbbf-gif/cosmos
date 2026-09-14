@@ -17,7 +17,7 @@ citations:
   - "Ellis, Albert. Journal of Individual Psychology, 1957."
   - "Ellis, Albert. Reason and Emotion in Psychotherapy. 1962."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

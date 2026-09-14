@@ -17,7 +17,7 @@ citations:
   - "Ellis, Albert. Journal of Individual Psychology, 1957."
   - "Marcus Aurelius. Meditations."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

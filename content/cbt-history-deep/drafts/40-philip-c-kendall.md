@@ -15,7 +15,7 @@ citations:
   - "Kendall, Philip C. Coping Cat / child anxiety manuals, 1990s."
   - "Chambless, Dianne L., and Steven D. Hollon. Journal of Consulting and Clinical Psychology, 1998."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

@@ -16,7 +16,7 @@ citations:
   - "Beck, Aaron T. Archives of General Psychiatry, 1964."
   - "Beck, Aaron T. Depression. 1967."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 

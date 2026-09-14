@@ -15,7 +15,7 @@ citations:
   - "Jones, Mary Cover. Pedagogical Seminary, 1924."
   - "Hayes, Steven C. Behavior Therapy, 2004."
 status: publishable
-voice_check: human
+voice_check: edited
 last_verified: 2026-09-14
 ---
 
@@ -55,13 +55,11 @@ Stanford's imprint put the book into American libraries in a year the analytic i
 
 Wolpe joined Temple University in 1965. American students who met him there met a man who had already written the Johannesburg book. *Psychotherapy by Reciprocal Inhibition* had been a Stanford Press object since 1958. Exports get renamed as local inventions. This pack puts Johannesburg back on the first page. Reciprocal inhibition is not a Mid-Atlantic idea that later found South Africa. It is a South African clinic that later found an American press, and then an American department.
 
-Lazarus, in the same household, was already arguing for more rooms. Wolpe's gift was narrowness that could be taught. Narrowness is a virtue when a profession cannot describe a session. It is a vice when a neighborhood is the fear. He lived long enough to see both uses. He died in 1997, after Division 12's lists had begun to smile on exposure packages he had made possible and after cognitive therapy had taken the popular microphone. Remaining in the first-wave building is not a failure. It is a crest that never fully receded. Behavioral activation later reminded the depression literature. He had reminded the fear literature first.
+Lazarus, in the same household, was already arguing for more rooms. Wolpe's gift was narrowness that could be taught. Narrowness is a virtue when a profession cannot describe a session. It is a vice when a neighborhood is the fear. He lived long enough to see both uses. He died in 1997, after Division 12's lists had begun to smile on exposure packages he had made possible and after cognitive therapy had taken the popular microphone.
 
-A 1964 American trainee who learned a describable session and never saw Johannesburg is why exports get renamed. This URL puts the city back until the rename fails. Mary Cover Jones's 1924 paper on Peter remains a dated neighbor, not a children's illustration. A rabbit stays off this page. SUDS ladders stay off this page. A hierarchy stays off this page. The 1958 book taught a later house how to describe a session. Description is how sessions get staffed. Staffing is how a school eats. He fed the house that later forgot to put Johannesburg on the map.
+A 1964 American trainee who learned a describable session and never saw Johannesburg is why exports get renamed. This URL puts the city back until the rename fails. Mary Cover Jones's 1924 paper on Peter remains a dated neighbor, not a children's illustration. A rabbit stays off this page. SUDS ladders stay off this page. A hierarchy stays off this page.
 
-Stanford's imprint put the book into American libraries in a year the analytic institutes still owned prestige. Prestige moved slowly. Teachability moved faster. This pack is on teachability's side as history and against teachability's worst grandchild: the hour that never looks up. Wolpe wanted a physiology. He did not ask for a vibe.
-
-WOW Therapies does not, by naming him, claim an exposure service. If a later clinical page names a method, that page needs training and review. Here the claim is only: a Johannesburg psychiatrist wrote a 1958 book, taught at Temple from 1965, and left a first-wave street the later family still walks toward a doorway on. Doorway hours remain in his building even when a clipboard says another set of initials. That resemblance is not a license. It is a street.
+Temple's hiring was a workforce event: a describable fear hour could be taught in a department that still shared a corridor with analysts. The 1958 book had already done the harder work of making the hour legible on paper. Doorway hours remain in his building even when a clipboard says another set of initials. That resemblance is not a license to claim an exposure service on a history URL. It is a street the later family still walks.
 
 ## Portrait
 
