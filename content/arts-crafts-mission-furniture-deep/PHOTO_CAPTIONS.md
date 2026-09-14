@@ -8,7 +8,7 @@ lane: bbf-furniture
 
 # Photo captions
 
-Rights register for figure plans inside `drafts/`. Prefer Met Open Access (CC0) and Smithsonian Open Access (CC0). If a row says confirm or reserved, do not upload as free. Per-essay `## Figure plan` blocks are the working captions; this table is the import gate. A graphics pass may add SVGs later; this writer pack does not require them.
+Rights register for figure plans inside `drafts/`. Authoritative pass: `RIGHTS.md` + `figures/registry.json`. Prefer Met Open Access (CC0) and Smithsonian Open Access (CC0). If a row says confirm or reserved, do not upload as free. Per-essay `## Figure plan` blocks are the working captions; this table is the import gate. A graphics pass may add SVGs later; this writer pack does not require them.
 
 Hero objects only. Full 4–7 figures live in each draft.
 
@@ -25,7 +25,7 @@ Hero objects only. Full 4–7 figures live in each draft.
 | 09 | New Furniture, Grand Rapids, July 1900 | exposition cut | PD | Crossing as shopping, not pilgrimage |
 | 10 | *The Craftsman* 1.1, Oct 1901 | Winterthur / reprints | PD 1901 | Monthly argument |
 | 11 | Eastwood plant or shop no. 155 | Craftsman Farms study / catalog | confirm / PD | Plant, address, number |
-| 12 | Inlay armchair | Met 2014.633 | CC0 | Ellis myth; collaborative shop |
+| 12 | Inlay armchair | Met 2014.633 | Met terms (not CC0) | Ellis myth; collaborative shop |
 | 13 | Homebuilders’ Club plate, Feb 1904 | *The Craftsman* 5.5 | PD | House as furniture |
 | 14 | Craftsman Farms log house | Stickley Museum | confirm | School that became a house |
 | 15 | Craftsman Building, 6 East 39th | *Craftsman* Jan 1914 plate | PD | Lease, not 29th Street |

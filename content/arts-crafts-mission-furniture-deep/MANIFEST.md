@@ -68,11 +68,16 @@ Recount: `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py
 | `STYLE_GUIDE.md` | Voice, bans, brand rule |
 | `OUTLINES.md` | One problem per essay |
 | `BIBLIOGRAPHY.md` | Scholarship and catalogs |
-| `PHOTO_CAPTIONS.md` | Captions and licenses |
+| `PHOTO_CAPTIONS.md` | Hero captions and licenses |
+| `RIGHTS.md` | Full figure rights register (252 rows) |
+| `IMAGE_SEO.md` | `<figure>` import notes |
+| `figures/` | Per-essay `.figures.html` + `registry.json` |
 | `TIMELINE.md` | Dated spine |
 | `WP_IMPORT.md` | Staged import only |
 | `DRAFT_CHECKLIST.md` | File list |
-| `validate_staging.py` | Gate (PASS 2026-09-14) |
+| `validate_staging.py` | Prose gate (PASS 2026-09-14) |
+| `validate_image_seo.py` | Figure HTML gate |
+| `build_figure_seo.py` | Regenerate RIGHTS + figure HTML |
 | `MANIFEST.md` | This file |
 
 ## Count method

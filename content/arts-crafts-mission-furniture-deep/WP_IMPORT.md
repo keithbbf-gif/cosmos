@@ -28,8 +28,8 @@ Nothing in this folder is cleared to `publish`. The series is staged Website-GC 
 1. Parent landing from `INDEX.md` (converted), still draft.
 2. Import essays **01 → 44** as drafts, slugs exactly as YAML `slug:`.
 3. Do not auto-schedule.
-4. Convert `## Figure plan` blocks into WP captions only after rights are confirmed. Until then, store as custom field `figure_plan`.
-5. `PHOTO_CAPTIONS.md` is the rights register. If a row says “rights reserved” or “confirm,” do not upload it as free.
+4. Convert `## Figure plan` blocks into WP `<figure>` HTML from `figures/<slug>.figures.html` only when `RIGHTS.md` / `figures/registry.json` shows `import_status: hotlink_ok`. Otherwise keep markdown figure plans in custom field `figure_plan`.
+5. `PHOTO_CAPTIONS.md` is the hero register; `RIGHTS.md` is the full 252-figure gate. If a row says “rights reserved” or “confirm,” do not upload it as free. **No AI-generated images.**
 
 ## What not to do
 
@@ -50,4 +50,4 @@ Nothing in this folder is cleared to `publish`. The series is staged Website-GC 
 
 ## Files that are not posts
 
-`STYLE_GUIDE.md`, `OUTLINES.md`, `INDEX.md`, `BIBLIOGRAPHY.md`, `PHOTO_CAPTIONS.md`, `TIMELINE.md`, `MANIFEST.md`, `DRAFT_CHECKLIST.md`, `validate_staging.py`, this file.
+`STYLE_GUIDE.md`, `OUTLINES.md`, `INDEX.md`, `BIBLIOGRAPHY.md`, `PHOTO_CAPTIONS.md`, `RIGHTS.md`, `IMAGE_SEO.md`, `figures/`, `TIMELINE.md`, `MANIFEST.md`, `DRAFT_CHECKLIST.md`, `validate_staging.py`, `validate_image_seo.py`, `build_figure_seo.py`, this file.

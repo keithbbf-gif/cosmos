@@ -10,7 +10,7 @@ lane: bbf-furniture
 
 Target: **≥40** staged magazine essays. **44** planned. `voice_check: human`. `status: staged`. `lane: bbf-furniture`. Body **1800–2600** words.
 
-Run `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py` from the repo root (or from this folder).
+Run `python3 content/arts-crafts-mission-furniture-deep/validate_staging.py` and `validate_image_seo.py` from the repo root (or from this folder). Regenerate figure HTML with `build_figure_seo.py` after rights edits.
 
 | # | File | Slug | Writer |
 | --- | --- | --- | --- |

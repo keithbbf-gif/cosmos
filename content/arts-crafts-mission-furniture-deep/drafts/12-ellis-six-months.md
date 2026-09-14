@@ -83,7 +83,7 @@ A reader standing in front of 2014.633 can still like the chair. The pewter line
 
 **Fig. 1.** Gustav Stickley armchair, ca. 1903.  
 Metropolitan Museum of Art 2014.633. Oak, pewter, copper and wood inlays, leather seat.  
-License: Met CC0.  
+License: Met terms (not CC0).  
 Alt: Tall oak armchair with metal-and-wood inlay on the posts and a leather seat.  
 Caption: The museum now files the chair under Stickley and a shop, not under Ellis alone.
 
