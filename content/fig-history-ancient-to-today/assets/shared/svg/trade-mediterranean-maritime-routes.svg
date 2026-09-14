@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mediterranean maritime fig trade</title>
+  <desc id="desc">Schematic sea routes for fresh and dried fig cargoes in classical and medieval periods</desc>
+  <rect width="900" height="520" fill="#f5f0e8"/>
+  <text x="450" y="32" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600" fill="#2c2416">Maritime routes  -  fresh &amp; dried fig cargoes (schematic)</text>
+  <ellipse cx="450" cy="280" rx="320" ry="180" fill="#d4e4e8" stroke="#5c4a32" stroke-width="1.2"/>
+  <circle cx="350" cy="220" r="8" fill="#6b3a2a"/>
+  <text x="350" y="205" text-anchor="middle" font-size="9" font-family="Segoe UI, system-ui, sans-serif" fill="#2c2416">Syracuse</text>
+  <circle cx="520" cy="200" r="8" fill="#6b3a2a"/>
+  <text x="520" y="185" text-anchor="middle" font-size="9" font-family="Segoe UI, system-ui, sans-serif" fill="#2c2416">Rhodes</text>
+  <circle cx="580" cy="320" r="8" fill="#6b3a2a"/>
+  <text x="580" y="345" text-anchor="middle" font-size="9" font-family="Segoe UI, system-ui, sans-serif" fill="#2c2416">Alexandria</text>
+  <circle cx="280" cy="300" r="8" fill="#6b3a2a"/>
+  <text x="280" y="325" text-anchor="middle" font-size="9" font-family="Segoe UI, system-ui, sans-serif" fill="#2c2416">Carthage</text>
+  <path d="M 350 220 Q 430 180 520 200" fill="none" stroke="#8b5a2b" stroke-width="2.5" marker-end="url(#arr)"/>
+  <path d="M 520 200 Q 560 260 580 320" fill="none" stroke="#8b5a2b" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M 280 300 Q 320 260 350 220" fill="none" stroke="#8b5a2b" stroke-width="2"/>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8b5a2b"/></marker></defs>
+  <rect x="60" y="420" width="320" height="70" fill="#fff" stroke="#d4c8b8"/>
+  <text x="70" y="442" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Solid: amphora-era coastal hops</text>
+  <text x="70" y="460" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Dashed: dried-fig bulk to Nile delta hubs</text>
+  <text x="450" y="505" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">`shared.trade-med-maritime`</text>
+</svg>

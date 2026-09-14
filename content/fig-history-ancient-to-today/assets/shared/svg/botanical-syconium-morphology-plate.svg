@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" role="img" aria-labelledby="title desc">
+  <title id="title">Syconium morphology plate</title>
+  <desc id="desc">Line plate of fig syconium external form and longitudinal section</desc>
+  <rect width="880" height="520" fill="#f5f0e8"/>
+  <text x="440" y="32" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="#2c2416">Syconium morphology  -  *Ficus carica* (line plate)</text>
+  <text x="440" y="52" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Inflorescence is an urn-shaped syconium; flowers line the inner cavity</text>
+  <!-- whole fruit -->
+  <ellipse cx="200" cy="280" rx="70" ry="95" fill="#6b3a2a" opacity="0.35" stroke="#2c2416" stroke-width="1.5"/>
+  <path d="M 200 185 Q 175 200 180 220" fill="none" stroke="#4a6741" stroke-width="2"/>
+  <text x="200" y="400" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">A. Whole syconium</text>
+  <!-- section -->
+  <path d="M 480 180 L 480 380 Q 560 400 620 360 L 620 200 Q 560 160 480 180 Z" fill="#f5f0e8" stroke="#2c2416" stroke-width="1.5"/>
+  <path d="M 500 200 Q 540 220 540 280 Q 540 340 500 360" fill="none" stroke="#8b5a2b" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="550" y="280" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">inner cavity</text>
+  <!-- callouts -->
+  <line x1="270" y1="250" x2="320" y2="230" stroke="#2c2416" stroke-width="1"/>
+  <text x="325" y="234" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">1. Ostiole (apical pore)</text>
+  <line x1="180" y1="320" x2="120" y2="340" stroke="#2c2416" stroke-width="1"/>
+  <text x="40" y="344" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">2. Peduncle</text>
+  <line x1="580" y1="220" x2="640" y2="200" stroke="#2c2416" stroke-width="1"/>
+  <text x="645" y="204" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">3. Female florets (lining)</text>
+  <line x1="600" y1="320" x2="660" y2="330" stroke="#2c2416" stroke-width="1"/>
+  <text x="665" y="334" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">4. Developing drupelets</text>
+  <text x="550" y="400" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">B. Longitudinal section (schematic)</text>
+  <text x="440" y="495" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Original ink schematic for pack  `shared.botanical-syconium`</text>
+</svg>

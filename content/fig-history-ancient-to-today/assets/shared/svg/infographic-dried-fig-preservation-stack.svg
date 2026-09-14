@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="t d">
+  <title id="t">Dried fig preservation methods stack</title>
+  <desc id="d">Editorial schematic of sun-drying, sulfuring, and packing stages for export; not a food-safety manual</desc>
+  <rect width="1100" height="520" fill="#f5f0e8"/>
+  <text x="550" y="40" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="20" font-weight="600" fill="#2c2416">Dried fig preservation - schematic process stack</text>
+  <text x="550" y="64" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#5c4a32">Pass-2 editorial plate (CC0) - no photographs</text>
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#2c2416">
+    <rect x="80" y="100" width="920" height="56" fill="#e8dfd0" stroke="#2c2416" stroke-width="0.8"/>
+    <text x="100" y="134">1. Orchard pick - ripe syconia sorted by Brix / split risk (regional practice)</text>
+    <rect x="80" y="168" width="920" height="56" fill="#ddd4c4" stroke="#2c2416" stroke-width="0.8"/>
+    <text x="100" y="202">2. Sun trays / awnings - Estahban, Aydin, California Central Valley climates</text>
+    <rect x="80" y="236" width="920" height="56" fill="#d4c8b8" stroke="#2c2416" stroke-width="0.8"/>
+    <text x="100" y="270">3. Optional sulfuring (SO2) - color retention debate; label laws vary by market</text>
+    <rect x="80" y="304" width="920" height="56" fill="#c9bcaa" stroke="#2c2416" stroke-width="0.8"/>
+    <text x="100" y="338">4. Pressing / layering - lye-dipped Smyrna vs natural-dark Mission styles</text>
+    <rect x="80" y="372" width="920" height="56" fill="#bfb09a" stroke="#2c2416" stroke-width="0.8"/>
+    <text x="100" y="406">5. Export pack - wooden cases, later cartons; rail to port to re-drying at destination</text>
+  </g>
+  <text x="550" y="470" text-anchor="middle" font-size="11" fill="#5c4a32">Schematic - not to scale - figure ID shared.preservation-stack-pass2</text>
+</svg>

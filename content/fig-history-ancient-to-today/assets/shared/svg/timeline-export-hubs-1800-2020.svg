@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">Dried fig export hub timeline 1800-2020</title>
+  <desc id="d">Dense schematic of major export regions and rail/port shifts</desc>
+  <rect width="1200" height="480" fill="#f5f0e8"/>
+  <text x="600" y="36" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="#2c2416">Export hubs &amp; rail age (schematic)</text>
+  <line x1="90" y1="300" x2="1110" y2="300" stroke="#2c2416" stroke-width="2"/>
+  <text x="90" y="330" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">1800</text>
+  <text x="390" y="330" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">1850</text>
+  <text x="690" y="330" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">1900</text>
+  <text x="990" y="330" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">2020</text>
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">
+    <circle cx="200" cy="300" r="6" fill="#8b5a2b"/><text x="150" y="260">Izmir / Smyrna</text><text x="150" y="274" fill="#5c4a32">Ottoman export</text>
+    <circle cx="420" cy="300" r="6" fill="#8b5a2b"/><text x="360" y="220">California missions</text><text x="360" y="234" fill="#5c4a32">’ Fresno belt</text>
+    <circle cx="560" cy="300" r="6" fill="#8b5a2b"/><text x="500" y="350">Estahban (Iran)</text><text x="500" y="364" fill="#5c4a32">dried black fig</text>
+    <circle cx="760" cy="300" r="6" fill="#8b5a2b"/><text x="700" y="200">Ayd1n (Turkey)</text><text x="700" y="214" fill="#5c4a32">post-WWI labels</text>
+    <circle cx="920" cy="300" r="6" fill="#8b5a2b"/><text x="860" y="350">Chile / Peru Andes</text><text x="860" y="364" fill="#5c4a32">counter-season</text>
+    <circle cx="1040" cy="300" r="6" fill="#8b5a2b"/><text x="980" y="220">Global retail</text><text x="980" y="234" fill="#5c4a32">traceability codes</text>
+  </g>
+  <rect x="60" y="380" width="1080" height="70" fill="#fff" stroke="#2c2416" stroke-width="0.6"/>
+  <text x="72" y="404" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#2c2416">Caption: editorial timeline of dried-fig export geography (pass 2). Original SVG CC0. Historical photos remain in IMAGE_SOURCES.md (PD/CC only).</text>
+  <text x="72" y="424" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Figure ID `shared.export-hubs-pass2`</text>
+</svg>

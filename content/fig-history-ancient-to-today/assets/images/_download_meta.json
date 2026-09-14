@@ -1,0 +1,68 @@
+[
+  {
+    "path": "assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg",
+    "bytes": 113826,
+    "sha256": "2d76056f345974e0d66889aea481e33edaa617c0b453eb926293c1289fbbee5f",
+    "commons": "Ficus_carica_L,_1771.jpg"
+  },
+  {
+    "path": "assets/images/pompeii-gardens-fig-trees/herculaneum-man-8625.jpg",
+    "bytes": 1661320,
+    "sha256": "94a59806b96d361d9ab43d3d8576ea5c281de4b511006bd1bdd82f77c5eec381",
+    "commons": "Wall_painting_-_still_life_with_bread_and_figs_-_Herculaneum_-_Napoli_MAN_8625.jpg"
+  },
+  {
+    "path": "assets/images/pompeii-gardens-fig-trees/casa-del-frutteto-fig.jpg",
+    "bytes": 813920,
+    "sha256": "9b1a4d1450f565a4bface6567bedcabcdf4f88877ffc9000d1444a0e8e3d75d7",
+    "commons": "Pompeii_-_Casa_del_Frutteto_-_Fig_tree.jpg"
+  },
+  {
+    "path": "assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg",
+    "bytes": 113695,
+    "sha256": "de1159a716b0bab15f731c207c7296a7ab68388ab8f855ac93ea7712f367d11d",
+    "commons": "Bartolomeo_Bimbi_(figs).jpg"
+  },
+  {
+    "path": "assets/images/renaissance-still-life-figs/holtzbecher-ficus-carica.jpg",
+    "bytes": 844010,
+    "sha256": "a574f835b25e1442448391182aab4bee4cc49bf1ddcda3c5a2d646f836bf996a",
+    "commons": "Johannes_Simon_Holtzbecher_-_Ficus_carica_-_Google_Art_Project.jpg"
+  },
+  {
+    "path": "assets/images/syconium-botany-and-morphology/eb1911-ficus-carica.jpg",
+    "bytes": 296261,
+    "sha256": "5546e1029e93edca59fd4a0d1068c524ee4927f0b43c219b737cd00c42ec3a21",
+    "commons": "EB1911_Moraceae_-_Ficus_carica.jpg"
+  },
+  {
+    "path": "assets/images/california-mission-fig-spread/le-moyne-ficus-carica.jpg",
+    "bytes": 427181,
+    "sha256": "72473dc39f449f62012cb195877b6e778d5837c6649f732ebef6e7f57d57162c",
+    "commons": "Jacques_Le_Moyne_de_Morgues._Ficus_carica_L.jpg"
+  },
+  {
+    "path": "assets/images/figs-in-hebrew-bible/tissot-nathaniel-under-fig.jpg",
+    "bytes": 96822,
+    "sha256": "8d12a78e26b09ce7dc06c890c5ba6380bb984384b8fee93a372ee8a5970e7806",
+    "commons": "Brooklyn_Museum_-_Nathaniel_Under_the_Fig_Tree_(Nathana%C3%ABl_sous_le_figuier)_-_James_Tissot_-_overall.jpg"
+  },
+  {
+    "path": "assets/images/new-testament-fig-parables/tissot-vine-dresser-fig.jpg",
+    "bytes": 116706,
+    "sha256": "e7ffa6868265cbdf9a65994735e08715d1ba213162e767a7be356ae213d17282",
+    "commons": "Brooklyn_Museum_-_The_Vine_Dresser_and_the_Fig_Tree_(Le_vigneron_et_le_figuier)_-_James_Tissot.jpg"
+  },
+  {
+    "path": "assets/images/figs-in-greek-roman-medicine/wellcome-v0044761.jpg",
+    "bytes": 2396146,
+    "sha256": "04439701f8e8f32e95ed1a161269e5911f48c31c50fef6d87d2eb9f831c18801",
+    "commons": "A_fig_plant_(Ficus_carica);_fruiting_stem_and_halved_fruit._Wellcome_V0044761.jpg"
+  },
+  {
+    "path": "assets/images/islamic-medical-traditions-fig/kohler-ficus-carica.jpg",
+    "bytes": 940066,
+    "sha256": "7e6e5c1fb4dbba774329eb8731f679f3e30c79d70df36b36a596a6e6fbf1f6c8",
+    "commons": "Illustration_Ficus_carica0.jpg"
+  }
+]

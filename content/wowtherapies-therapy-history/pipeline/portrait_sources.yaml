@@ -1,0 +1,23 @@
+# Verified portrait sources for publish pass only.
+# status: pending | cleared | n/a (monogram-only plate)
+figures:
+  fig-03-portrait-plate-freud:
+    subject: "Sigmund Freud (1856–1939)"
+    status: pending
+    suggested_commons: "File:Sigmund_Freud_LIFE.jpg"
+    license_note: "Check Wikimedia Commons file page before embed."
+  fig-04-portrait-plate-rogers:
+    subject: "Carl Rogers (1902–1987)"
+    status: pending
+    suggested_commons: "File:Carl_Ransom_Rogers.jpg"
+    license_note: "Check Wikimedia Commons file page before embed."
+  fig-05-portrait-plate-beck:
+    subject: "Aaron T. Beck (1921–2021)"
+    status: pending
+    suggested_commons: "File:Aaron_T_Beck.jpg"
+    license_note: "Check Wikimedia Commons file page before embed."
+  fig-06-portrait-plate-ellis:
+    subject: "Albert Ellis (1913–2007)"
+    status: pending
+    suggested_commons: "File:Albert_Ellis_2003.jpg"
+    license_note: "Check Wikimedia Commons file page before embed."

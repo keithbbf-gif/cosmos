@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fig cultivation and trade timeline</title>
+  <desc id="desc">Schematic timeline from early domestication through modern global production</desc>
+  <rect width="1200" height="420" fill="#f5f0e8"/>
+  <text x="600" y="36" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="#2c2416">Fig (*Ficus carica*)  -  cultivation &amp; trade milestones</text>
+  <text x="600" y="58" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#5c4a32">Schematic timeline  -  dates approximate (c. = circa)</text>
+  <!-- axis -->
+  <line x1="80" y1="320" x2="1120" y2="320" stroke="#2c2416" stroke-width="2"/>
+  <line x1="80" y1="100" x2="80" y2="320" stroke="#d4c8b8" stroke-width="1"/>
+  <!-- era bands -->
+  <rect x="80" y="100" width="200" height="200" fill="#e8dfd0" opacity="0.6"/>
+  <rect x="280" y="100" width="220" height="200" fill="#ddd4c4" opacity="0.5"/>
+  <rect x="500" y="100" width="240" height="200" fill="#d4c8b8" opacity="0.4"/>
+  <rect x="740" y="100" width="200" height="200" fill="#c9bcaa" opacity="0.45"/>
+  <rect x="940" y="100" width="180" height="200" fill="#bfb09a" opacity="0.5"/>
+  <text x="180" y="125" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#5c4a32">Neolithic - Bronze</text>
+  <text x="390" y="125" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#5c4a32">Classical</text>
+  <text x="620" y="125" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#5c4a32">Medieval - early modern</text>
+  <text x="840" y="125" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#5c4a32">Colonial spread</text>
+  <text x="1030" y="125" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#5c4a32">Industrial - today</text>
+  <!-- milestones -->
+  <circle cx="130" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="130" y1="314" x2="130" y2="220" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="130" y="205" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">c. 9400 - 9200 BCE</text>
+  <text x="130" y="218" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Early domestication</text>
+  <text x="130" y="230" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">(Jordan Valley)</text>
+  <circle cx="300" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="300" y1="314" x2="300" y2="250" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="300" y="238" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">c. 3000 BCE</text>
+  <text x="300" y="252" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Egypt &amp; Levant</text>
+  <text x="300" y="264" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">orchard culture</text>
+  <circle cx="450" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="450" y1="314" x2="450" y2="170" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="450" y="155" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">c. 500 BCE - 500 CE</text>
+  <text x="450" y="168" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Greek &amp; Roman</text>
+  <text x="450" y="180" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">trade manuals</text>
+  <circle cx="600" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="600" y1="314" x2="600" y2="200" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">7th - 13th c. CE</text>
+  <text x="600" y="198" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Islamic gardens</text>
+  <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">&amp; Andalusian cultivars</text>
+  <circle cx="780" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="780" y1="314" x2="780" y2="230" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="780" y="215" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">16th - 19th c.</text>
+  <text x="780" y="228" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Americas, Cape,</text>
+  <text x="780" y="240" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">mission &amp; colonial</text>
+  <circle cx="950" cy="320" r="6" fill="#8b5a2b"/>
+  <line x1="950" y1="314" x2="950" y2="190" stroke="#8b5a2b" stroke-width="1.5"/>
+  <text x="950" y="175" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">20th - 21st c.</text>
+  <text x="950" y="188" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Turkey, Iran, USA</text>
+  <text x="950" y="200" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">dried-fig export hubs</text>
+  <!-- scale ticks -->
+  <text x="80" y="345" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">10k BCE</text>
+  <text x="380" y="345" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">2000 BCE</text>
+  <text x="680" y="345" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">1000 CE</text>
+  <text x="980" y="345" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">2000 CE</text>
+  <circle cx="520" cy="320" r="6" fill="#6b3a2a"/>
+  <line x1="520" y1="314" x2="520" y2="240" stroke="#6b3a2a" stroke-width="1.5"/>
+  <text x="520" y="225" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">c. 1200 CE</text>
+  <text x="520" y="238" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">Crusader &amp; Andalusian</text>
+  <text x="520" y="250" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">cultivar exchange</text>
+  <circle cx="870" cy="320" r="6" fill="#6b3a2a"/>
+  <line x1="870" y1="314" x2="870" y2="210" stroke="#6b3a2a" stroke-width="1.5"/>
+  <text x="870" y="195" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">1890s</text>
+  <text x="870" y="208" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">USDA pomology</text>
+  <text x="870" y="220" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#5c4a32">plates &amp; naming</text>
+  <text x="600" y="395" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Schematic  -  not to scale  Pack figure `shared.timeline-master` (pass-2 milestones)</text>
+</svg>

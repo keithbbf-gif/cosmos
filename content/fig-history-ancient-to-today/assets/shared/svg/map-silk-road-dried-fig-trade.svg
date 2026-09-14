@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Silk Road dried fig trade schematic</title>
+  <desc id="desc">Schematic overland and maritime routes for dried figs and related goods</desc>
+  <rect width="1000" height="520" fill="#f5f0e8"/>
+  <text x="500" y="34" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="#2c2416">Dried figs on trans-Asian trade corridors (schematic)</text>
+  <text x="500" y="54" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Solid: overland caravan segments  Dashed: maritime legs</text>
+  <!-- regions -->
+  <rect x="40" y="80" width="180" height="360" rx="8" fill="#e8dfd0" stroke="#5c4a32"/>
+  <text x="130" y="110" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Eastern</text>
+  <text x="130" y="128" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">markets</text>
+  <rect x="240" y="80" width="220" height="360" rx="8" fill="#ddd4c4" stroke="#5c4a32"/>
+  <text x="350" y="110" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Central Asia</text>
+  <text x="350" y="128" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">oases &amp; caravanserais</text>
+  <rect x="480" y="80" width="200" height="360" rx="8" fill="#d4c8b8" stroke="#5c4a32"/>
+  <text x="580" y="110" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Iran &amp;</text>
+  <text x="580" y="128" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Mesopotamia</text>
+  <rect x="700" y="80" width="260" height="360" rx="8" fill="#c9bcaa" stroke="#5c4a32"/>
+  <text x="830" y="110" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="12" font-weight="600" fill="#2c2416">Eastern Mediterranean</text>
+  <text x="830" y="128" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">&amp; Anatolia</text>
+  <!-- routes -->
+  <path d="M 200 280 C 320 240, 400 260, 520 270" fill="none" stroke="#8b5a2b" stroke-width="3"/>
+  <path d="M 520 270 C 620 250, 720 220, 850 200" fill="none" stroke="#8b5a2b" stroke-width="3"/>
+  <path d="M 850 200 C 900 320, 920 380, 880 420" fill="none" stroke="#8b5a2b" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="360" y="255" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#8b5a2b">Dried figs, dates, nuts</text>
+  <!-- nodes -->
+  <circle cx="200" cy="280" r="7" fill="#6b3a2a"/>
+  <text x="200" y="305" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#2c2416">Chang'an belt</text>
+  <circle cx="350" cy="260" r="7" fill="#6b3a2a"/>
+  <text x="350" y="245" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#2c2416">Samarkand</text>
+  <circle cx="580" cy="270" r="7" fill="#6b3a2a"/>
+  <text x="580" y="295" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#2c2416">Tabriz / Isfahan</text>
+  <circle cx="850" cy="200" r="7" fill="#6b3a2a"/>
+  <text x="850" y="185" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#2c2416">Ayd1n  0zmir</text>
+  <circle cx="880" cy="420" r="7" fill="#6b3a2a"/>
+  <text x="880" y="445" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#2c2416">Alexandria</text>
+  <rect x="60" y="455" width="280" height="52" fill="#fff" stroke="#d4c8b8"/>
+  <text x="70" y="475" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Note: Figs traveled as compressed dried cargo</text>
+  <text x="70" y="492" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#5c4a32">(low moisture, high value per unit weight).</text>
+  <text x="500" y="508" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Schematic  -  not to scale  `shared.map-silk-road-figs`</text>
+</svg>
