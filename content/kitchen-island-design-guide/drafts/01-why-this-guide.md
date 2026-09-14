@@ -4,11 +4,25 @@ slug: why-this-guide
 title: Why this guide exists
 stage: 1-brief
 status: staged
-topics: [intro, bradley, voice]
+topics: [intro, bradley, voice]figures:
+  - ../assets/island-room-schematic/island-in-floor-plan.svg
 ---
-
 I have sat at more islands that do not work than I have at ones that do.
 That is not a flex. It is the reason this folder exists.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/island-room-schematic/island-in-floor-plan.svg"
+    alt="Top-down kitchen floor plan schematic showing a central island with labeled 42 to 48 inch work aisles between perimeter counters."
+    width="880"
+    height="520"
+    loading="lazy"
+  />
+  <figcaption>
+    A Bradley island only fits after honest aisle math: plan the air around the box first, then size the island that remains.
+    <span class="figure-credit">Bradley kitchen island guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 A kitchen island is the most expensive piece of furniture most people
 will ever put in the middle of a room, and it is the piece they decide

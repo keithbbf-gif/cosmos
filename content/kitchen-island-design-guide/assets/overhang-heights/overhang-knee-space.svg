@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img">
+  <title>Seating overhang depth by counter height</title>
+  <desc>Section views at 30, 36, and 42 inch top heights showing NKBA-style knee depths 18, 15, and 12 inches.</desc>
+  <rect width="880" height="440" fill="#f8fafb"/>
+  <g transform="translate(80,60)">
+    <rect x="0" y="120" width="200" height="80" fill="#f5e6d3" stroke="#1f2933"/>
+    <rect x="0" y="112" width="248" height="8" fill="#fff" stroke="#1f2933"/>
+    <line x1="200" y1="200" x2="248" y2="200" stroke="#1f2933"/>
+    <text x="224" y="192" text-anchor="middle" font-size="11" fill="#52606d">18 in @ 30 in</text>
+    <text x="100" y="100" text-anchor="middle" font-size="12" fill="#1f2933">TABLE HEIGHT</text>
+  </g>
+  <g transform="translate(320,60)">
+    <rect x="0" y="100" width="200" height="100" fill="#f5e6d3" stroke="#1f2933"/>
+    <rect x="0" y="92" width="230" height="8" fill="#fff" stroke="#1f2933"/>
+    <line x1="200" y1="200" x2="230" y2="200" stroke="#1f2933"/>
+    <text x="215" y="192" text-anchor="middle" font-size="11" fill="#52606d">15 in @ 36 in</text>
+    <text x="100" y="80" text-anchor="middle" font-size="12" fill="#1f2933">COUNTER</text>
+  </g>
+  <g transform="translate(560,60)">
+    <rect x="0" y="80" width="200" height="120" fill="#f5e6d3" stroke="#1f2933"/>
+    <rect x="0" y="72" width="212" height="8" fill="#fff" stroke="#1f2933"/>
+    <line x1="200" y1="200" x2="212" y2="200" stroke="#1f2933"/>
+    <text x="206" y="192" text-anchor="middle" font-size="11" fill="#52606d">12 in @ 42 in</text>
+    <text x="100" y="60" text-anchor="middle" font-size="12" fill="#1f2933">BAR</text>
+  </g>
+  <text x="440" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Overhang measured to the cabinet box; corbels that steal knee space do not count.</text>
+</svg>

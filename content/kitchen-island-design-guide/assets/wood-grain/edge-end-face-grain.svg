@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+  <title>Edge grain, end grain, and face grain on a butcher-block top</title>
+  <desc>Three cross-section sketches labeling how boards are oriented for edge-grain strips, end-grain blocks, and face-grain slabs.</desc>
+  <rect width="880" height="360" fill="#f8fafb"/>
+  <g transform="translate(60,50)">
+    <rect x="0" y="40" width="200" height="60" fill="#d4a574" stroke="#1f2933"/>
+    <line x1="20" y1="40" x2="20" y2="100" stroke="#8b4513"/>
+    <line x1="50" y1="40" x2="50" y2="100" stroke="#8b4513"/>
+    <line x1="80" y1="40" x2="80" y2="100" stroke="#8b4513"/>
+    <text x="100" y="30" text-anchor="middle" font-size="12" fill="#1f2933">EDGE GRAIN</text>
+    <text x="100" y="130" text-anchor="middle" font-size="10" fill="#52606d">Strips on edge - stable, common island top</text>
+  </g>
+  <g transform="translate(320,50)">
+    <rect x="0" y="40" width="200" height="60" fill="#c4956a" stroke="#1f2933"/>
+    <rect x="10" y="45" width="22" height="22" fill="#a67c52" stroke="#8b4513" stroke-width="0.5"/>
+    <rect x="36" y="45" width="22" height="22" fill="#a67c52" stroke="#8b4513" stroke-width="0.5"/>
+    <rect x="62" y="45" width="22" height="22" fill="#a67c52" stroke="#8b4513" stroke-width="0.5"/>
+    <text x="100" y="30" text-anchor="middle" font-size="12" fill="#1f2933">END GRAIN</text>
+    <text x="100" y="130" text-anchor="middle" font-size="10" fill="#52606d">Blocks on end - tough, moves, needs thickness</text>
+  </g>
+  <g transform="translate(580,50)">
+    <rect x="0" y="40" width="200" height="60" fill="#deb887" stroke="#1f2933"/>
+    <path d="M0,55 Q50,48 100,55 T200,55" fill="none" stroke="#8b4513" stroke-width="1"/>
+    <path d="M0,75 Q50,68 100,75 T200,75" fill="none" stroke="#8b4513" stroke-width="1"/>
+    <text x="100" y="30" text-anchor="middle" font-size="12" fill="#1f2933">FACE GRAIN</text>
+    <text x="100" y="130" text-anchor="middle" font-size="10" fill="#52606d">Wide boards flat - shows figure, marks easily</text>
+  </g>
+</svg>

@@ -57,6 +57,14 @@ book before you quote a client.
 See `MANIFEST.md` for the full roster, word counts after the last pass,
 and the required-topic map.
 
+## Graphics and rights
+
+Illustrated drafts use HTML `<figure>` blocks (WXR-safe) with assets under
+`assets/`, companion snippets in `embeds/`, and a full license table in
+`RIGHTS.md`. See `GRAPHICS_INDEX.md` and `AGENTS_GRAPHICS.md` before adding
+plates. **Public-domain / museum / government sources only** for photography;
+editorial SVGs for dimensions and code conversation.
+
 ## Provenance
 
 Researched against:

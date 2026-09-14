@@ -4,12 +4,26 @@ slug: behind-the-stool
 title: "Behind the stool: 32, 36, 44"
 stage: 5-seating
 status: staged
-topics: [seating, clearances, aisles]
+topics: [seating, clearances, aisles]figures:
+  - ../assets/behind-stool-clearance/stool-traffic-behind.svg
 ---
-
 The overhang gets all the love. The space
 behind the diner is where the kitchen
 keeps or loses its manners.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/behind-stool-clearance/stool-traffic-behind.svg"
+    alt="Plan view of kitchen island stools with clearance dimensions behind seated diners for 32, 36, and 44 inch walking paths."
+    width="880"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    Stool clearance behind the island is a traffic lane, not leftover space — plan 36 inches to walk comfortably and 44 when the island doubles as a serving route.
+    <span class="figure-credit">Bradley kitchen island guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 NKBA, said so I can recite it in a
 showroom:

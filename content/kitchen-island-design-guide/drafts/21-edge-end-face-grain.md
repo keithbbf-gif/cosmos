@@ -4,11 +4,25 @@ slug: edge-end-face-grain
 title: Edge grain, end grain, face grain
 stage: 4-materials
 status: staged
-topics: [materials, butcher-block, grain]
+topics: [materials, butcher-block, grain]figures:
+  - ../assets/wood-grain/edge-end-face-grain.svg
 ---
-
 Grain orientation is the difference between a counter
 and a block, and between a block and a picture of wood.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/wood-grain/edge-end-face-grain.svg"
+    alt="Cross-section illustrations labeling edge grain, end grain, and face grain orientations for butcher-block island countertops."
+    width="880"
+    height="360"
+    loading="lazy"
+  />
+  <figcaption>
+    Grain direction drives stability, knife marks, and thickness — edge grain for most island tops, end grain when you mean serious chopping, face grain when you want figure and accept maintenance.
+    <span class="figure-credit">Bradley kitchen island guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 Edge grain is the residential workhorse. Boards on
 edge, long lines running the length of the island,

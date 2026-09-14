@@ -4,11 +4,25 @@ slug: farm-table-that-never-left
 title: The farm table that never left
 stage: 2-history
 status: staged
-topics: [history, worktable, butcher-block]
+topics: [history, worktable, butcher-block]figures:
+  - ../assets/historical-farm-kitchen/trump-lilly-farm-habs-kitchen.jpg
 ---
-
 Before anyone called it an island, it was a table you could walk
 around.
+
+<figure class="bradley-figure bradley-figure--photo">
+  <img
+    src="../assets/historical-farm-kitchen/trump-lilly-farm-habs-kitchen.jpg"
+    alt="Historic farmhouse kitchen interior with central work table and perimeter cabinets, documented by the Historic American Buildings Survey."
+    width="1280"
+    height="960"
+    loading="lazy"
+  />
+  <figcaption>
+    Before “island” was a renovation keyword, the middle of the room held a work table you could walk around — the same job a sized cabinet island does today.
+    <span class="figure-credit">HABS, National Park Service (public domain), Trump–Lilly Farm, West Virginia.</span>
+  </figcaption>
+</figure>
 
 Farm kitchens in the 1800s put a heavy worktable in the middle of
 the room because the stove was a beast against the wall and the

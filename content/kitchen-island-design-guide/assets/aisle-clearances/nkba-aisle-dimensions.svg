@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="400" viewBox="0 0 880 400" role="img">
+  <title>NKBA-style work aisle widths between kitchen counters and an island</title>
+  <desc>Plan strip showing 36 in walkway, 42 in one-cook aisle, and 48 in two-cook aisle measured counter frontage to counter frontage.</desc>
+  <rect width="880" height="400" fill="#f8fafb"/>
+  <rect x="60" y="80" width="760" height="48" fill="#d4e4d9" stroke="#1f2933" stroke-width="1.5"/>
+  <rect x="60" y="272" width="760" height="48" fill="#d4e4d9" stroke="#1f2933" stroke-width="1.5"/>
+  <rect x="60" y="160" width="760" height="80" fill="#f5e6d3" stroke="#1f2933" stroke-width="2"/>
+  <text x="440" y="205" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">ISLAND / PENINSULA</text>
+  <line x1="60" y1="128" x2="60" y2="272" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="120" y1="128" x2="120" y2="272" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="90" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#52606d" transform="rotate(-90 90 210)">42 in (1 cook)</text>
+  <line x1="200" y1="128" x2="200" y2="272" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="160" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#52606d" transform="rotate(-90 160 210)">48 in (2 cooks)</text>
+  <text x="440" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">Measured between counter frontages, not wall to wall.</text>
+</svg>

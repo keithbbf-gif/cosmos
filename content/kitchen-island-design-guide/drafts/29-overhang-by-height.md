@@ -4,11 +4,25 @@ slug: overhang-by-height
 title: Overhang by height
 stage: 5-seating
 status: staged
-topics: [seating, overhang, nkba]
+topics: [seating, overhang, nkba]figures:
+  - ../assets/overhang-heights/overhang-knee-space.svg
 ---
-
 Overhang is not a style. It is knee space, and
 knee space changes with how high you sit.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/overhang-heights/overhang-knee-space.svg"
+    alt="Section diagram of island seating overhang depths: 18 inches at 30 inch height, 15 at 36 inches, and 12 at 42 inch bar height."
+    width="880"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    Overhang is knee space, not decoration — NKBA seating depths shrink as the top rises, and corbels that steal those inches do not count on the spec sheet.
+    <span class="figure-credit">Bradley kitchen island guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 NKBA seating clearances, the ones I write on
 every Bradley island that claims to host:

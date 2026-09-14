@@ -4,11 +4,25 @@ slug: work-triangle-to-work-zones
 title: From work triangle to work zones
 stage: 2-history
 status: staged
-topics: [history, work-triangle, zones]
+topics: [history, work-triangle, zones]figures:
+  - ../assets/work-zones/triangle-to-zones.svg
 ---
-
 The work triangle is a 1940s idea that still earns its keep, and
 it is also the idea that makes people draw stupid islands.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/work-zones/triangle-to-zones.svg"
+    alt="Kitchen plan diagram comparing the classic sink-range-refrigerator work triangle to prep zones interrupted by a central island."
+    width="880"
+    height="480"
+    loading="lazy"
+  />
+  <figcaption>
+    The work triangle still explains traffic; a real island turns one leg into a prep zone — size the box for how you actually walk, not a textbook triangle.
+    <span class="figure-credit">Bradley kitchen island guide — editorial schematic.</span>
+  </figcaption>
+</figure>
 
 Sink, cooktop, refrigerator. Three points. NKBA still says the
 three traveled legs should add up to no more than 26 feet, with

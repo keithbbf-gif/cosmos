@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" role="img">
+  <title>Three common kitchen island heights: table, counter, and bar</title>
+  <desc>Elevation comparing 30 inch table height, 36 inch counter height, and 42 inch bar height with finished floor reference.</desc>
+  <rect width="880" height="480" fill="#f8fafb"/>
+  <line x1="80" y1="400" x2="800" y2="400" stroke="#1f2933" stroke-width="2"/>
+  <text x="84" y="420" font-family="system-ui,sans-serif" font-size="11" fill="#52606d">FINISHED FLOOR</text>
+  <rect x="120" y="280" width="160" height="12" fill="#ffffff" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="120" y1="400" x2="120" y2="286" stroke="#52606d" stroke-dasharray="4 3"/>
+  <line x1="280" y1="400" x2="280" y2="286" stroke="#52606d" stroke-dasharray="4 3"/>
+  <text x="200" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">30 in — TABLE</text>
+  <rect x="360" y="232" width="160" height="12" fill="#ffffff" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="360" y1="400" x2="360" y2="238" stroke="#52606d" stroke-dasharray="4 3"/>
+  <line x1="520" y1="400" x2="520" y2="238" stroke="#52606d" stroke-dasharray="4 3"/>
+  <text x="440" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">36 in — COUNTER (typical)</text>
+  <rect x="600" y="184" width="160" height="12" fill="#ffffff" stroke="#1f2933" stroke-width="1.5"/>
+  <line x1="600" y1="400" x2="600" y2="190" stroke="#52606d" stroke-dasharray="4 3"/>
+  <line x1="760" y1="400" x2="760" y2="190" stroke="#52606d" stroke-dasharray="4 3"/>
+  <text x="680" y="174" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#1f2933">42 in — BAR</text>
+</svg>

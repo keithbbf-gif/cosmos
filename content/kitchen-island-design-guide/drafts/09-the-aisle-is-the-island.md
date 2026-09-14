@@ -4,11 +4,25 @@ slug: the-aisle-is-the-island
 title: The aisle is the island
 stage: 3-proportions
 status: staged
-topics: [proportions, aisles, nkba]
+topics: [proportions, aisles, nkba]figures:
+  - ../assets/aisle-clearances/nkba-aisle-dimensions.svg
 ---
-
 People think they are buying an island. They are buying the air
 around it.
+
+<figure class="bradley-figure bradley-figure--diagram">
+  <img
+    src="../assets/aisle-clearances/nkba-aisle-dimensions.svg"
+    alt="Diagram of NKBA-style kitchen work aisle widths showing 42 inches for one cook and 48 inches for two cooks measured between counter frontages."
+    width="880"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    You are buying aisle width, not countertop square footage — NKBA planning targets are the difference between cooking and shuffling in a tight kitchen island layout.
+    <span class="figure-credit">Bradley kitchen island guide — NKBA-style reference, not an NKBA document.</span>
+  </figcaption>
+</figure>
 
 NKBA wants a work aisle at least 42 inches wide for one cook and
 48 inches for more than one, measured between counter frontages,
