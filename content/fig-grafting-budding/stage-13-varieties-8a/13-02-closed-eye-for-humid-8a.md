@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [12-03, 13-01, 00-02]
 ---
 
@@ -31,8 +33,8 @@ Chicago* fruit stays reasonably tight. A lot of
 books assumes an air that is not ours. Read those books
 as desert neighbors, not as local law.
 
-Closed-eye is not a religion that saves split fruit
-after a two-inch rain on a dry week. It is a religion
+Closed-eye is not a guarantee against split fruit
+after a two-inch rain on a dry week. It is a habit
 that saves you from the souring beetle most years.
 That is enough to change which scion I tape on a tree
 I have to walk past every morning.

@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [04-01, 08-01, 08-04]
 ---
 
@@ -55,7 +57,7 @@ it like fish: fresh, cold, and cooked the same day — except you are
 not cooking it. You are refusing to.
 
 If the mail brings green wood, open it in the shade. A padded
-envelope on a 8a porch for three hours is an oven. I have had
+envelope on an 8a porch for three hours is an oven. I have had
 "fresh" June wood arrive already wilted. Wilted wood can still
 give you a chip if the bud is firm and you wrap it in the next
 twenty minutes onto a watered pot under cloth. It cannot give you

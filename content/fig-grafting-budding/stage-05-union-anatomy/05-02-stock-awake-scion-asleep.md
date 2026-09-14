@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [01-02, 04-02, 06-02]
 ---
 
@@ -24,7 +26,7 @@ is slow and a dry wind wins. If both are flushing, the scion tries
 to be a plant on a battery and dies when the battery ends.
 
 You can feel the stock wake up. The bark gets a little livelier. A
-pruning cut wetter. Buds fat. Not leaves — leaves is late for a
+pruning cut wetter. Buds fat. Not leaves — leaves are late for a
 classic cleft, though chip-buds still work. I would rather be a week
 late with a waking stock than a week early with a frozen one.
 

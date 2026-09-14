@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [08-04, 04-04, 10-04]
 ---
 
@@ -57,7 +59,7 @@ When in doubt, scratch, do not strip. Green: wait or
 vent. Brown: cut off, seal the wound, try again on fresh
 wood. Waiting on a corpse is how stubs go hollow.
 
-A 8a habit that has saved me: unwrap in the morning of a
+An 8a habit that has saved me: unwrap in the morning of a
 cloudy day, not at 2 p.m. on a blower-wind afternoon. The
 scion can learn air without learning a hair dryer in the
 same hour. If the only free hour you have is a hot one,

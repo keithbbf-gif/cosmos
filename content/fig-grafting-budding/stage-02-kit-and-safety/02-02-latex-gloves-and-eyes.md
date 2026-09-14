@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [02-01, 06-01, 07-01]
 ---
 
@@ -52,7 +54,7 @@ finger for a day and did not enjoy it. Treat the latex as the plant's
 opinion about being cut. It is allowed to have one. You are allowed to
 wear gloves anyway.
 
-A 8a April session is long because the stock is finally moving and
+An 8a April session is long because the stock is finally moving and
 you want to finish the row. That is when people get sloppy with sap.
 Set a water jug at the first tree, not at the house. Rinse as you
 go. If a child wants to "help hold the bag," give them the labels

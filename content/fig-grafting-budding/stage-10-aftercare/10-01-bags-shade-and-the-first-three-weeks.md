@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [01-03, 02-01, 12-01]
 ---
 
@@ -15,7 +17,7 @@ related: [01-03, 02-01, 12-01]
 
 The cut is a morning. The take is a month. Most fig grafts
 that fail in 8a fail in the first three weeks from dryness
-or from cooking, not from a romantic incompatibility.
+or from cooking, not from a rootstock curse on the forum.
 
 A bag around the scion keeps the wind off and the humidity
 up. A small zip bag, a produce bag with holes, a paper bag
@@ -56,7 +58,7 @@ At three weeks I want to see a scion that is still plump
 and maybe a lip of callus. I do not need a parade of
 leaves. Leaves can wait. Plump is the first paycheck.
 
-Rain can sit in a bag and sour. After a 8a soaker I tip
+Rain can sit in a bag and sour. After an 8a soaker I tip
 the bag and drain it. I do not take the bag off in the
 storm to "let it breathe." The storm is already breathing
 on everything else. A little water in the corner is fine.

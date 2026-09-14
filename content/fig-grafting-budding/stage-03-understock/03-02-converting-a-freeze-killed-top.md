@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [00-01, 07-01, 07-03]
 ---
 
@@ -37,7 +39,7 @@ fig that has just lost a canopy is not in the mood to push every
 calorie into four scions on a bald stump. One small live branch keeps
 the engine running. You cut it later.
 
-Sunburn. A newly naked fig trunk in April 8a sun cooks on the southwest
+Sunburn. A newly naked fig trunk in April sun in 8a cooks on the southwest
 face. White interior latex, diluted, on the exposed bark. Straw or
 shade cloth for a month if the stub is big. Old growers bundled straw
 for a reason. I have used a scrap of white row cover and a zip tie.

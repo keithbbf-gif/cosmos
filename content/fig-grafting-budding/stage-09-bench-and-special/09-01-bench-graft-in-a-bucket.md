@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [06-02, 04-02, 10-01]
 ---
 
@@ -40,8 +42,8 @@ a mushroom museum. Daily glance. Vent. Pull anything that
 smells.
 
 This is also where omega tools earn their keep — matching
-potted cuttings, same die, same day. In the yard they are
-clowns. On the bench they are fine.
+potted cuttings, same die, same day. Outdoors they are the
+same clown show as in the saddle piece; indoors they are fine.
 
 Label the pot, not just the wrap. Wraps come off. A row of
 unlabeled bench grafts is a quiz you will fail in June.
@@ -57,7 +59,7 @@ The bucket is not a miracle. It is a smaller climate. Use
 it when March is a liar and you still want to cut wood.
 
 Heat is the indoor killer. A closed tote in a sunroom in
-late February 8a will still cook. I use a cheap thermometer
+late February in 8a will still cook. I use a cheap thermometer
 in the tote. If it says 85°F, the lid comes off and the
 tote moves. If you do not own a thermometer, put your hand
 in. If you do not want your hand there, the scion does not

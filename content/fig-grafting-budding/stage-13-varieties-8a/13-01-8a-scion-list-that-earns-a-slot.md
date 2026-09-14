@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [03-01, 13-02, 13-03]
 ---
 
@@ -23,13 +25,15 @@ hardy enough for most 8a winters on its own roots.
 Honeyed, not huge. If I could only keep one scion
 mother in a humid yard, this is in the argument. Some
 strains are better than others. Taste yours before you
-multiply a polite but dull tree.
+multiply a polite but dull tree. Taste the mother before
+you tape a name onto a trunk.
 
 **Chicago Hardy.** Insurance and a fine main-crop fig
 in its own right. Not the richest bowl. The stool that
 comes back. I graft it *as* understock more than I
 graft it as a prize scion, unless I need a head that
-can take a punch.
+can take a punch. Boring roots, interesting tops — that
+is the usual 8a conversion.
 
 **LSU Purple.** Heat and humidity were the breeding
 brief. Vigorous. You will prune it. Fruit that actually

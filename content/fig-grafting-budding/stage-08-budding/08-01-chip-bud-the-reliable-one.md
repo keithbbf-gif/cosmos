@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [04-03, 08-04, 09-02]
 ---
 
@@ -16,7 +18,7 @@ related: [04-03, 08-04, 09-02]
 If I could keep one fig method, it would be chip-bud. It works
 on dormant wood and on green wood. It does not need bark slip.
 It spends one bud. It forgives a diameter mismatch. Growers who
-graft figs for a living of habit come back to this cut.
+graft figs for a living come back to this cut.
 
 Two motions. On the stock: a short angled cut at the bottom of
 the slot, then a slice down from above that meets it, lifting
@@ -38,10 +40,10 @@ eye after you trust the knit — I usually wait until I see
 green or until the next spring on a late summer bud.
 
 I start on the stock so the chip does not wait in the wind.
-Jsacadura's note from the fruit boards is the one I steal:
-even failed chips have often fused; they fail later from
-dry or from bad wood. So I treat dehydration as the real
-opponent, not alignment mysticism.
+A fruit-board grower (Jsacadura) put it plainly: even
+failed chips have often fused; they fail later from dry
+wood or from a scion that was already tired. Dehydration
+is the real opponent, not alignment mysticism.
 
 In 8a I chip-bud from first swell into early summer, and
 again in a careful August if I am banking a bud. Morning.
@@ -56,7 +58,7 @@ Practice on *Brown Turkey*. It is thick-barked and common.
 When your chips sit without a gap and your wrap does not
 look like a mummy fight, use the good wood.
 
-A 8a morning will give you twenty good chips. A 8a afternoon
+An 8a morning will give you twenty good chips. An 8a afternoon
 will give you five and a headache. Stop when the latex
 smears and the knife starts tearing the thickened bud zone.
 That tear is how you snap the only bud on a mailed stick.

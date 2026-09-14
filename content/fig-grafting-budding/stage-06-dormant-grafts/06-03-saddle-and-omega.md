@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [06-02, 05-03, 09-01]
 ---
 
@@ -53,7 +55,7 @@ home orchard. Saddle is for when you want a straight, strong
 union on twins and you enjoy cutting a V. There is no extra
 fruit in it. There is only a nicer knuckle in year three.
 
-A 8a note on the tool drawer: the omega punch is a winter bench
+An 8a note on the tool drawer: the omega punch is a winter bench
 item. In the yard the dies clog with latex and grit, and you
 will force a cut you should have walked away from. If you bring
 the tool outside, bring a rag and a second method. The first

@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [08-01, 08-02, 05-01]
 ---
 
@@ -59,8 +61,8 @@ wraps. Solo patch-bud on a hot 8a morning is how you
 invent a reason to dislike a method that was already
 optional.
 
-I have one successful patch on a smooth *Purple* whip. I
+I have one successful patch on a smooth *LSU Purple* whip. I
 also have a row of tan rectangles from the same week. The
 success did not make more fruit than the chip-buds next
-to it. It made a story. Stories are for the shed wall,
-not for the rare stick.
+to it. That one is a shed-wall story, not a reason to
+spend the rare stick on patch-bud theater.

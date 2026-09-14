@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [10-02, 11-01, 06-01]
 ---
 
@@ -39,7 +41,7 @@ In 8a the spring storms are the usual thief. The summer
 afternoon wind is the second. If your yard has a west
 fetch, stake lower and add a second tie. If the plant is
 in a pot, stake to the pot or the pot will tip and the
-union will teach you about leverage.
+union will teach you why two tie points matter.
 
 A broken flush is not always a dead graft. If the break
 is above the union and there is a bud left, it may
@@ -56,7 +58,7 @@ branch and train the new growth to it. That sentence has
 survived a century because fig wood has not gotten less
 brittle. Believe the century.
 
-A 8a thunderstorm will find the unstaked wand. If you
+An 8a thunderstorm will find the unstaked wand. If you
 cannot stake the day it runs, stake the day after. I
 have told myself "tomorrow" and met a hinge on the
 ground. The union can still be alive. The season's

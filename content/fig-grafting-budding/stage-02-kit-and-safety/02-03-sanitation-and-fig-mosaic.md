@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [04-01, 12-02, 13-01]
 ---
 
@@ -58,4 +60,4 @@ maintain.
 
 If a grafted tree comes in ugly and stays ugly, replace it. There is
 no spray. That is the part people skip in the forum thread. The knife
-copies. It does not heal.
+copies what the mother had; it does not scrub a virus off the blade.

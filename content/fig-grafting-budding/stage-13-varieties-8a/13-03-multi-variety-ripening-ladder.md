@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [00-03, 03-04, 07-03]
 ---
 
@@ -20,20 +22,24 @@ same week and then fight.
 
 Early. *Celeste* or another closed-eye that colors
 when the rest of the yard is still talking about
-tomatoes. This is the head you protect from late
-frost if you want that first bowl. It is also the
-head you do not shade with a vigorous midseason
-bully.
+tomatoes — here that is often late June, not the
+catalog week from a dry coast. This is the head you
+protect from late frost if you want that first bowl.
+It is also the head you do not shade with a vigorous
+midseason bully.
 
 Mid. An LSU or a workhorse that likes heat. This is
-the volume rung. It will try to be the whole tree.
-Pinch.
+the volume rung in July and August, when 8a humidity
+is already doing half the work. It will try to be the
+whole tree. Pinch.
 
 Late. Only if your first frost usually waits. A late
 fig in an 8a pocket that frosts in late October is a
-bowl you lose some years. I will still keep a late
-head on a warm wall. I will not keep three late heads
-and then act surprised.
+bowl you lose some years — I mark that rung on the
+tag with the month I actually picked last year, not
+the label date. I will still keep a late head on a
+warm wall. I will not keep three late heads and then
+act surprised.
 
 Vigor match along the ladder. Early-polite plus
 mid-bully plus late-polite is a typical mess. The

@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [02-03, 03-03, 13-01]
 ---
 
@@ -31,10 +33,9 @@ gall factory. A declining fig with knobby roots is not
 going to be saved by a new scion. The top was not the
 sick part. Grafting a pretty name onto a dying root is
 how you learn this twice. New soil, a box, a different
-hole, maybe a clone with a reputation — and even then,
-Florida growers have watched a praised *Ficus palmata*
-clone die of nematodes. Clone and soil, not common
-name.
+hole, maybe a clone with a reputation — and even a praised
+*Ficus palmata* is not magic in nematode sand. Clone and
+soil, not common name.
 
 Soil sickness and replant issues show up in the
 literature as reasons people hunt wild *Ficus*

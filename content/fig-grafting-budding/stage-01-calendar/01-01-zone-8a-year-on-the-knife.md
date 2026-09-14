@@ -8,6 +8,8 @@ zone: 8a
 audience: home orchard, Zone 8a
 voice: human
 kind: draft
+voice_check: edited
+last_edited: 2026-09-14
 related: [01-02, 04-01, 08-01]
 ---
 
@@ -48,10 +50,10 @@ cleanly. Heat arrives. Bags cook scions on the west face. Shade cloth is
 not decoration.
 
 **July–August.** Possible, not friendly. Chip-bud in the morning, heavy
-wrap, shade. An ISHS trial T-budded cultivars on *Brown Turkey* seedlings
-in late August and got takes. That was not my west wall at 4 p.m. If you
-bud in August, you are usually banking a bud for next spring, not asking
-for a flush this year.
+wrap, shade. Late-August T-buds on *Brown Turkey* seedlings have taken in
+trials — see the budding stage for cultivar detail. That was not my west
+wall at 4 p.m. If you bud in August, you are usually banking a bud for
+next spring, not asking for a flush this year.
 
 **September–October.** I stop making new unions unless I am bench-grafting
 in a controlled box. New callus heading into a first frost is a bet I

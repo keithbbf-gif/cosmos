@@ -49,6 +49,7 @@ Frontmatter on every draft:
 - `status: staged` — not published
 - `zone: 8a`
 - `voice: human`
+- `voice_check: edited` — after editor pass (see `EDITOR_REPORT.md`)
 - `stage` matches the folder
 
 ## Voice and quality bar
@@ -72,6 +73,7 @@ Contested points are marked in the drafts, not smoothed:
 
 ```text
 python3 content/fig-grafting-budding/_check.py
+python3 content/fig-grafting-budding/validate.py
 ```
 
-Inventory: `MANIFEST.toml`.
+Inventory: `MANIFEST.toml`. Editor log: `EDITOR_REPORT.md`.
