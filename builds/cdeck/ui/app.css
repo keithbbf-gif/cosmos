@@ -1,0 +1,18 @@
+.fevent { display: flex; gap: 6px; cursor: pointer; }
+.fevent.open { border-left: 2px solid #56b6c2; }
+.finspect { margin-top: 6px; font-size: 12px; }
+.feedbar { margin-bottom: 6px; }
+.evt-contract { font-size: 12px; color: #7a8694; margin-bottom: 8px; }
+
+.panel { background: var(--panel, #12161c); border: 1px solid var(--panel-edge, #1f2630); margin: 8px; padding: 8px; }
+.panel-hd h2 { font-size: 14px; margin-bottom: 6px; }
+.pane-note { font-size: 12px; color: #7a8694; margin: 6px 0; }
+.mic-hint { font-size: 12px; color: #56b6c2; min-height: 1.2em; margin: 6px 0; }
+.voice-loop-controls { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.voice-loop-status { font-size: 12px; white-space: pre-wrap; }
+.loop-legs { width: 100%; border-collapse: collapse; font-size: 12px; }
+.loop-legs td { border: 1px solid #1f2630; padding: 4px 6px; vertical-align: top; }
+.errbox { color: #e5534b; border: 1px solid #e5534b; padding: 6px; margin: 6px 0; }
+.btn { cursor: pointer; font-family: inherit; font-size: 12px; padding: 4px 8px; }
+.fevent { display: flex; gap: 6px; cursor: pointer; }
+.hidden { display: none; }

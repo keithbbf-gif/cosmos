@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cDeck — COSMOS</title>
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="deck_more.css">
+</head>
+<body>
+
+<div id="cdeck-shell">
+  <div class="deck-header" id="deck-header"></div>
+  <div id="cdeck-viewport">
+    <div id="cdeck-mesh-fold">
+      <section class="panel" id="panel-events">
+        <div class="panel-hd"><h2>LIVE EVENTS</h2></div>
+        <div class="panel-bd">
+          <p class="evt-contract" id="evt-panel-hint">
+            Each ledger row is clickable to open the inspector; scrolling away from the live tail
+            pauses auto-scroll — scrolling pauses, not a feed pause.
+          </p>
+          <div class="feedbar">
+            <div id="feedFollow" class="hidden"></div>
+            <button type="button" id="feedJump" class="hidden"></button>
+          </div>
+          <div id="feed"><div class="empty">connect to stream events</div></div>
+        </div>
+      </section>
+    </div>
+    <div id="cdeck-more" class="deck-more-fold">
+      <div class="extra-pane-shell">
+        <nav class="deck-tabs-rail" id="deck-tab-rail" aria-label="Extra panes"></nav>
+        <div class="deck-tab-shell">
+          <div class="deck-stage" id="deck-stage"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="header.js"></script>
+<script src="app.js"></script>
+<script src="deck_tabs.js"></script>
+<script src="kdash_native.js"></script>
+</body>
+</html>
