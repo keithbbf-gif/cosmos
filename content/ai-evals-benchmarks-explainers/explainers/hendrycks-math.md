@@ -1,0 +1,52 @@
+---
+voice_check: human
+title: "MATH: competition problems, a harder integer"
+slug: hendrycks-math
+kind: explainer
+era: 2021
+tags: [math, hendrycks, amc, aime]
+portrait: null
+portrait_status: none
+---
+
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt published “Measuring Mathematical Problem Solving with the MATH Dataset” at NeurIPS 2021. If GSM8K is a grade-school worksheet, MATH is a contest packet: problems in the spirit of AMC, AIME, and the harder end of high-school competition math, written so a model must do more than add the apples.
+
+The name is greedy. It claimed the noun. Later papers have to say “Hendrycks MATH” or “the MATH dataset” to leave room for FrontierMath, Minerva’s evaluation sets, and actual mathematics.
+
+## What an item wants
+
+A problem statement. A boxed answer, often a number or a short expression. Subjects the paper lists in the usual contest bins: algebra, counting and probability, geometry, intermediate algebra, number theory, precalculus, and so on. Difficulty ratings travel with the items. A model can be competent on the easy slice and lost on the “5”s.
+
+The original paper’s models were bad at it. That was the point. Competition math was a wall. Minerva (Lewkowycz et al., 2022) and the later instruction models moved the wall. By the mid-2020s the original MATH test split was no longer a place you sent a frontier model to suffer. You sent it to FrontierMath, or to a live contest, or to a holdout you had not published.
+
+## Scoring a boxed expression
+
+The cheap judge is more fragile than GSM8K’s integer. Equivalent expressions look different. `\frac{1}{2}` and `0.5` and `1/2` may or may not match your normalizer. Geometry answers that are “3\sqrt{2}” will punish a model that said `4.242`. A harness is a theory of equivalence. Name it.
+
+Some later protocols allow tools: a calculator, a Python REPL, a formal system. That is a different instrument that happens to use the same problem statements. A MATH number with tools and a MATH number without tools should not share a cell.
+
+## An item in the hand
+
+An intermediate-algebra problem with a boxed rational; a counting problem that wants an integer; a geometry problem whose answer is an expression in radicals. The write-up in the training data may be a full contest solution. At test time the harness wants the box. A model that can talk like a coach and cannot box the equivalent form will look smarter than it scores.
+
+Difficulty labels let you see a curve. A system that is fine on 1–2 and dead on 5 is a different student from a flat 40 percent. Cards that drop the curve are hiding the instrument.
+
+Tools change the geometry items first: a diagram in the head versus a Python plot versus a CAS. If you allowed them, you left the 2021 student behind. Say so.
+
+## Contamination, again
+
+Contest problems are copied with love. Art of Problem Solving, coaching blogs, Reddit, the papers themselves. Hendrycks’s group can ask you not to train on the test split. They cannot un-publish the last decade of contest archives. A decontamination filter that matches strings will miss a paraphrase. A filter that matches too loosely will throw out real math.
+
+If you need a clean contest, you need new problems or a sealed packet. Epoch AI’s FrontierMath is one answer to that need. It is not a sequel that replaces MATH. It is a different difficulty class with a different secrecy bargain.
+
+## What the dataset is not
+
+It is not undergraduate analysis. It is not research math. It is not a proof benchmark, even when a solution in the training data is a write-up. The scorer wants the boxed object. A brilliant proof with the wrong box loses. A lucky box with a nonsense write-up can win if you only score the box.
+
+Human contestants are scored with more mercy and more attention. The dataset uses the cheap judge because the cheap judge scales. Remember the bargain.
+
+## How to read a MATH line
+
+Ask which split (the paper’s test set versus a later subset like MATH-500), what equivalence code, tools or not, CoT or not, and whether they report GSM8K as the easy sibling. A card that only reports GSM8K is choosing the worksheet. A card that only reports MATH in 2026 may be choosing a climbed wall. Pair them, then look for something that still hurts.
+
+Hendrycks put a contest packet on the internet and dared the models to open it. They did. The packet still describes a real skill: competition-style problem solving with a boxed answer. It no longer describes, by itself, the edge of what the large models can do. The noun was always bigger than the file. The file is still the citation for 2021’s wall.
