@@ -70,7 +70,7 @@ Checked against public pages during drafting (September 2026). Links rot. Re-ver
 
 | ID | Work | Date | URL |
 | --- | --- | --- | --- |
-| NIST_RMF | NIST AI Risk Management Framework 1.0 (AI 100-1) | 26 Jan 2023 | https://www.nist.gov/itl/ai-risk-management-framework · https://doi.org/10.6028/NIST.AI.100-1 |
+| NIST_RMF | NIST AI Risk Management Framework 1.0 (AI 100-1) | 26 Jan 2023 | https://www.nist.gov/itl/ai-risk-management-framework · https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10 · https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf · https://doi.org/10.6028/NIST.AI.100-1 |
 | NIST_GENAI | NIST AI 600-1, Generative AI Profile | July 2024 | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence |
 | EO14110 | Exec. Order 14110, *Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence* | 30 Oct 2023 | https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence |
 | EO14179 | Exec. Order 14179, *Removing Barriers to American Leadership in Artificial Intelligence* (revokes 14110) | 23 Jan 2025 | https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence |
