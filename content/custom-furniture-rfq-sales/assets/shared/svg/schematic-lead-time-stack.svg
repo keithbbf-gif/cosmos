@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t d">
+  <title id="t">Custom furniture lead-time stack</title>
+  <desc id="d">Six stacked waits: queue, lumber, mill, finish, buyouts, freight.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+  <text x="360" y="32" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">Lead time is a stack (schematic)</text>
+  <g font-family="system-ui,sans-serif" font-size="13" fill="#3d3832">
+    <rect x="120" y="50" width="480" height="48" fill="#c9bfb0" stroke="#5c5348"/>
+    <text x="360" y="78" text-anchor="middle">Queue</text>
+    <rect x="120" y="108" width="480" height="48" fill="#d4cdc4" stroke="#5c5348"/>
+    <text x="360" y="136" text-anchor="middle">Lumber / kiln</text>
+    <rect x="120" y="166" width="480" height="48" fill="#c9bfb0" stroke="#5c5348"/>
+    <text x="360" y="194" text-anchor="middle">Mill / dry-fit</text>
+    <rect x="120" y="224" width="480" height="48" fill="#d4cdc4" stroke="#5c5348"/>
+    <text x="360" y="252" text-anchor="middle">Finish / cure</text>
+    <rect x="120" y="282" width="480" height="48" fill="#c9bfb0" stroke="#5c5348"/>
+    <text x="360" y="310" text-anchor="middle">Buyouts (stone, hardware, COM)</text>
+    <rect x="120" y="340" width="480" height="48" fill="#d4cdc4" stroke="#5c5348"/>
+    <text x="360" y="368" text-anchor="middle">Freight / site</text>
+  </g>
+</svg>

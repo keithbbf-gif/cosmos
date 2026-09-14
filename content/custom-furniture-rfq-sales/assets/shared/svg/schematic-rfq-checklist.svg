@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="t d">
+  <title id="t">One-sitting RFQ checklist</title>
+  <desc id="d">Checklist rows for object, inches, path, finish, freight, date, money.</desc>
+  <rect width="560" height="400" fill="#f8f7f4"/>
+  <text x="280" y="36" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">Before you send the RFQ</text>
+  <g font-family="system-ui,sans-serif" font-size="13" fill="#3d3832">
+    <text x="72" y="80"> Object named in plain English</text>
+    <text x="72" y="110"> Dimensions on the wall, not in your head</text>
+    <text x="72" y="140"> Path photographed (stairs, soffits)</text>
+    <text x="72" y="170"> Finish rule (sample, match, COM)</text>
+    <text x="72" y="200"> Freight / threshold / white-glove</text>
+    <text x="72" y="230"> Realistic need-by date</text>
+    <text x="72" y="260"> Deposit vs balance understood</text>
+  </g>
+</svg>

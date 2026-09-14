@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="t d">
+  <title id="t">Dining table clearance diagram</title>
+  <desc id="d">Top-down table with 36-inch chair clearance and 42-inch pass aisle.</desc>
+  <rect width="720" height="420" fill="#f8f7f4"/>
+  <rect x="200" y="120" width="320" height="160" fill="#c9bfb0" stroke="#5c5348" stroke-width="2"/>
+  <text x="360" y="205" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#3d3832">Table</text>
+  <line x1="200" y1="95" x2="520" y2="95" stroke="#2f6f4e" stroke-width="2"/>
+  <text x="360" y="82" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#2f6f4e">36 in chair pull-out (typical)</text>
+  <line x1="520" y1="120" x2="520" y2="280" stroke="#1d5a8a" stroke-width="2"/>
+  <text x="545" y="205" font-family="system-ui,sans-serif" font-size="12" fill="#1d5a8a">42 in pass</text>
+</svg>

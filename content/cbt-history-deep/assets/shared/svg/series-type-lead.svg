@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="t d">
+  <title id="t">CBT history series type lead</title>
+  <desc id="d">Neutral type treatment when no portrait is licensed.</desc>
+  <rect width="720" height="200" fill="#ece8e1"/>
+  <rect x="40" y="40" width="640" height="120" fill="#f7f5f2" stroke="#8a8278" stroke-width="2"/>
+  <text x="360" y="95" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#3d3832">CBT history deepen</text>
+  <text x="360" y="130" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#5c5348">Type lead  see caption for name and dates</text>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+  <title id="t">Mindfulness and ACT document timeline</title>
+  <desc id="d">Anchors from 1975 IMS through 2008 OST  schematic only.</desc>
+  <rect width="960" height="300" fill="#f7f5f2"/>
+  <line x1="80" y1="200" x2="880" y2="200" stroke="#5c5348" stroke-width="2"/>
+  <circle cx="140" cy="200" r="7" fill="#1d5a8a"/><text x="140" y="175" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif">1975</text>
+  <text x="140" y="230" text-anchor="middle" font-size="11" font-family="system-ui,sans-serif">IMS / MBSR roots</text>
+  <circle cx="300" cy="200" r="7" fill="#2f6f4e"/><text x="300" y="175" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif">1990</text>
+  <text x="300" y="230" text-anchor="middle" font-size="11" font-family="system-ui,sans-serif">MBSR book</text>
+  <circle cx="460" cy="200" r="7" fill="#6b3d7a"/><text x="460" y="175" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif">1999</text>
+  <text x="460" y="230" text-anchor="middle" font-size="11" font-family="system-ui,sans-serif">ACT volume</text>
+  <circle cx="620" cy="200" r="7" fill="#8a4b12"/><text x="620" y="175" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif">2000</text>
+  <text x="620" y="230" text-anchor="middle" font-size="11" font-family="system-ui,sans-serif">MBCT trial paper</text>
+  <circle cx="780" cy="200" r="7" fill="#1d5a8a"/><text x="780" y="175" text-anchor="middle" font-size="12" font-family="system-ui,sans-serif">2008</text>
+  <text x="780" y="230" text-anchor="middle" font-size="11" font-family="system-ui,sans-serif">Hayes OST meta</text>
+  <text x="480" y="40" text-anchor="middle" font-size="14" font-family="system-ui,sans-serif" fill="#3d3832">Document anchors (not clinical effect sizes)</text>
+</svg>

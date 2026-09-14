@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d">
+  <title id="t">RFQ one-page anatomy</title>
+  <desc id="d">Blocks for object, dimensions, path, finish, freight, and date on one request page.</desc>
+  <rect width="640" height="480" fill="#f8f7f4"/>
+  <rect x="48" y="48" width="544" height="384" fill="#fff" stroke="#5c5348" stroke-width="2"/>
+  <text x="320" y="80" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#3d3832">RFQ one-page (typeset)</text>
+  <rect x="72" y="100" width="496" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="88" y="127" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Object + room</text>
+  <rect x="72" y="156" width="240" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="88" y="183" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Dimensions</text>
+  <rect x="328" y="156" width="240" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="344" y="183" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Delivery path</text>
+  <rect x="72" y="212" width="496" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="88" y="239" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Finish + samples</text>
+  <rect x="72" y="268" width="240" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="88" y="295" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Freight terms</text>
+  <rect x="328" y="268" width="240" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="344" y="295" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Need-by date</text>
+  <rect x="72" y="324" width="496" height="44" fill="#ece8e1" stroke="#8a8278"/>
+  <text x="88" y="351" font-family="system-ui,sans-serif" font-size="12" fill="#3d3832">Contact + site photos</text>
+</svg>
