@@ -6,7 +6,7 @@
   <text x="450" y="32" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600" fill="#2c2416">Aftercare  -  first three weeks (dryness and sunburn kill takes)</text>
   <!-- shade cloth -->
   <rect x="80" y="60" width="740" height="40" fill="#4a6741" opacity="0.25" stroke="#4a6741" stroke-dasharray="6 4"/>
-  <text x="450" y="85" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">3050% shade breaks afternoon heat on new unions</text>
+  <text x="450" y="85" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#2c2416">30-50% shade breaks afternoon heat on new unions</text>
   <!-- stock -->
   <rect x="430" y="100" width="40" height="280" fill="#c9bcaa" stroke="#5c4a32"/>
   <!-- scion with bag -->
@@ -27,7 +27,7 @@
   <text x="720" y="418" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Water the plant,</text>
   <text x="720" y="432" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">not the union tape</text>
   <rect x="40" y="440" width="820" height="55" fill="#fff" stroke="#d4c8b8"/>
-  <text x="55" y="462" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Most 8a graft failures in weeks 13: scion dried out, cooked in clear plastic, or outcompeted by understock growth.</text>
+  <text x="55" y="462" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Most 8a graft failures in weeks 1-3: scion dried out, cooked in clear plastic, or outcompeted by understock growth.</text>
   <text x="55" y="480" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#2c2416">Peek through film if you must  -  daily lifting is how you dry the scion while feeling vigilant.</text>
   <text x="450" y="512" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#5c4a32">Schematic  -  not to scale � shared.aftercare-first-three-weeks</text>
 </svg>
