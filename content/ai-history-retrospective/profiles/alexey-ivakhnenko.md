@@ -9,11 +9,11 @@ portrait: assets/portraits/alexey-ivakhnenko.gif
 portrait_status: sourced
 ---
 
-Alexey Grigorevich Ivakhnenko was born in 1913 and died in 2007. He worked in Kyiv, in the Soviet cybernetics ecology, and published a method for growing models that later English-language deep-learning talks sometimes flash on a slide as if it were a hidden first chapter.
+Oleksiy Hryhorovych (Alexey G.) Ivakhnenko was born on 30 March 1913 in Kobelyaki, near Poltava, and died on 16 October 2007 in Kyiv. He worked at the Ukrainian Academy of Sciences and later in the Combined Control Systems division of the Glushkov Institute of Cybernetics. He published a method for growing models that later English-language deep-learning talks sometimes flash on a slide as if it were a hidden first chapter.
 
-![Alexey G. Ivakhnenko.](../assets/portraits/alexey-ivakhnenko.gif)
+![Alexey G. Ivakhnenko; the print is captioned 1967.](../assets/portraits/alexey-ivakhnenko.gif)
 
-*Credit: Ynosa. CC BY-SA 4.0. File:Alexey Ivakhnenko.gif.*
+*Credit: Ynosa. CC BY-SA 4.0. File:Alexey Ivakhnenko.gif. Period photograph with a 1967 caption on the print — not a generated likeness.*
 
 ## GMDH
 

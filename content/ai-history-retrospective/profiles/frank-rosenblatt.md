@@ -9,7 +9,7 @@ portrait: assets/portraits/frank-rosenblatt.jpg
 portrait_status: sourced
 ---
 
-Frank Rosenblatt was born in 1928 and died in 1971. The photograph we can legally reprint is a museum-released scan. The machine we can describe without a museum is the Mark I Perceptron, built at the Cornell Aeronautical Laboratory with Office of Naval Research money, and shown to the press in 1958.
+Frank Rosenblatt was born on 11 July 1928 in New Rochelle, New York, and died on 11 July 1971 — his forty-third birthday — in a boating accident on Chesapeake Bay. Cornell’s faculty memorial records both dates. He took an A.B. at Cornell in 1950 and a Ph.D. in 1956, then worked at the Cornell Aeronautical Laboratory in Buffalo before returning to the Ithaca campus in 1959. The photograph we can legally reprint is a museum-released scan. The machine we can describe without a museum is the Mark I Perceptron, built at that laboratory with Office of Naval Research money and shown to the press in 1958.
 
 ![Frank Rosenblatt, HNF museum-released scan.](../assets/portraits/frank-rosenblatt.jpg)
 
@@ -23,7 +23,7 @@ The *New York Times* of 8 July 1958 is the document that will not leave him alon
 
 ## After the demonstration
 
-He continued at Cornell. The perceptron learning rule entered textbooks. The limitations of single-layer architectures entered other textbooks, via Minsky and Papert, in 1969. Rosenblatt had two years left. He died in a boating accident on the Chesapeake Bay, on his birthday, 11 July 1971 — a date the Cornell obituaries record.
+He continued at Cornell, later in the Section of Neurobiology and Behavior. The perceptron learning rule entered textbooks. The limitations of single-layer architectures entered other textbooks, via Minsky and Papert, in 1969. He had two years left after that book. Cornell’s 1971 memorial is the source for the life dates above; do not replace it with a magazine flourish.
 
 He did not live to see the 1986 *Nature* letter or the 2012 contest. Adoption as an ancestor is easy and a little unfair. He built a particular machine for a particular service branch and wrote a particular theory of association. The ancestor talk is our need, not his research plan.
 

@@ -9,7 +9,7 @@ Staged Markdown in this folder is the source. WordPress is a projection.
 | `essays/*.md` | Post, category `AI History — Eras` | Series order from `INDEX.md` |
 | `profiles/*.md` | Post, category `AI History — Figures` | One post per slug |
 | `INDEX.md` | Page | Manual HTML or a table block; do not auto-import the whole index as a post |
-| `STYLE_GUIDE.md`, `BIBLIOGRAPHY.md`, `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`, `NOVELTY_GUARDRAILS.md` | Pages, parent `AI History — Colophon` | Keep out of the public magazine RSS if the site is consumer-facing |
+| `STYLE_GUIDE.md`, `BIBLIOGRAPHY.md`, `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`, `NOVELTY_GUARDRAILS.md`, `FACT_CHECK.md` | Pages, parent `AI History — Colophon` | Keep out of the public magazine RSS if the site is consumer-facing |
 
 ## Front matter → WordPress
 

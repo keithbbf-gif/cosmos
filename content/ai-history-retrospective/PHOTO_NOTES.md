@@ -30,19 +30,21 @@ These figures did not have a Commons file we could treat as a clear redistributa
 | `warren-mcculloch` | Warren S. McCulloch | `assets/portraits/warren-mcculloch.placeholder.svg` |
 | `terry-winograd` | Terry Winograd | `assets/portraits/terry-winograd.placeholder.svg` |
 | `kunihiko-fukushima` | Kunihiko Fukushima | `assets/portraits/kunihiko-fukushima.placeholder.svg` |
+| `allen-newell` | Allen Newell | `assets/portraits/allen-newell.placeholder.svg` |
 
 The SVG says, in words, that it is not a photograph. Walter Pitts appears in a licensed group photograph (`walter-pitts.jpg`, with Jerome Lettvin); McCulloch still has no solo file here.
 
 ## Pair portraits
 
-- **Newell & Simon:** `newell-simon.jpg` (both at a chessboard, 1958, Commons PD claim). Herbert Simon also has a later painting photograph, `herbert-simon.jpg`.
-- **McCulloch & Pitts:** Pitts with Lettvin; McCulloch placeholder.
+- **Newell & Simon:** The Commons “1958 chess” file is an AAAI anniversary graphic (type burned in). Retired to `assets/retired/`. Use `herbert-simon.jpg` (Rappaport **painting**, 1986, CC BY 3.0) and `allen-newell.placeholder.svg`.
+- **McCulloch & Pitts:** Pitts with Lettvin (`walter-pitts.jpg`, real photograph); McCulloch placeholder.
 - **Ada Lovelace:** 19th-century painted likeness (Chalon), public domain — a portrait of a historical person, not a photograph.
 
 ## Caution flags (do not silently “fix”)
 
 - **John von Neumann** badge photo: Los Alamos National Laboratory terms require the LANL/LANS notice reproduced in `PORTRAIT_SOURCES.md`. Not a generic “public domain, no credit” file.
-- **Newell–Simon 1958 chess photograph:** Commons currently labels it public domain; the Flickr provenance is thin. We record that uncertainty rather than inventing a cleaner credit.
+- **Newell–Simon Commons chess file:** Not used as a portrait. It is a commemorative graphic. See `assets/retired/README.md`.
+- **Herbert Simon `herbert-simon.jpg`:** A painting by Richard Rappaport (1986), photographed; caption must say painting.
 - **Frank Rosenblatt:** scan released on Commons as CC BY-SA 4.0 via the Heinz Nixdorf MuseumsForum blog. Treat as museum-released, not as a 1950s newspaper work we independently cleared.
 - **Living people:** conference and press photographs (Hinton, LeCun, Bengio, Pearl, Li, Hassabis, Gebru, Dwork, Ng, Boden). Credit the photographer. Do not crop out watermarks that are part of the licensed file; our copies are the Commons originals.
 

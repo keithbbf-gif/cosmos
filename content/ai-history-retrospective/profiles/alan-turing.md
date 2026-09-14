@@ -17,7 +17,7 @@ The photograph is a Princeton card from 1936: a young man in a jacket, filed lik
 
 ## Cambridge to Princeton
 
-Born in London in 1912, Turing was at King’s College, Cambridge, when he defined a machine by a tape, a head, and a table of behaviour. The point was not to build a factory. The point was to give “effective procedure” a mathematical body, then prove that Hilbert’s decision problem for first-order logic has no such procedure. Alonzo Church reached a related incompleteness with the λ-calculus. Turing crossed the Atlantic, took a Princeton Ph.D. under Church in 1938, and wrote on ordinal logics.
+Born in London in 1912, Turing was at King’s College, Cambridge, when he defined a machine by a tape, a head, and a table of behaviour. The point was not to build a factory. The point was to give “effective procedure” a mathematical body, then prove that Hilbert’s decision problem for first-order logic has no such procedure. Alonzo Church, in the same season, used the λ-calculus to reach a related undecidability result. Turing crossed the Atlantic, took a Princeton Ph.D. under Church in 1938, and wrote on ordinal logics.
 
 The 1936 machine is not a prophecy of a laptop. It is a limit theorem with a physical metaphor good enough that later engineers could mistake the metaphor for a blueprint.
 
@@ -29,7 +29,7 @@ After the war he joined the National Physical Laboratory and drafted the ACE. Fr
 
 ## The 1950 paper
 
-“Computing Machinery and Intelligence” appeared in *Mind* in October 1950. It opens with a sentence anyone can check: “I propose to consider the question, ‘Can machines think?’” Turing immediately replaces the question with an imitation game. The paper is not a product specification. It is a philosophical raid: arguments from consciousness, from disability, from informality of behaviour, each met with a reply. He estimates, as a personal view, that in about fifty years it will be possible to program machines to play the game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes. That estimate has been quoted as prophecy, as failure, and as a joke. It is, in the text, a speculation with a number attached.
+“Computing Machinery and Intelligence” appeared in *Mind* in October 1950. It opens with a sentence anyone can check: “I propose to consider the question, ‘Can machines think?’” Turing immediately replaces the question with an imitation game. The paper is not a product specification. It is a philosophical raid: arguments from consciousness, from disability, from informality of behaviour, each met with a reply. He writes, as a belief rather than a theorem, that in about fifty years it will be possible to programme computers, with a storage capacity of about 10⁹, to play the game so well that an average interrogator will not have more than 70 percent chance of making the right identification after five minutes of questioning. That sentence has been quoted as prophecy, as failure, and as a joke. In the text it is a speculation with numbers attached.
 
 ## The state, and a death
 

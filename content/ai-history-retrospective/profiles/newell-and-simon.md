@@ -5,19 +5,19 @@ slug: newell-and-simon
 kind: profile
 era: 1955–1978
 tags: [newell, simon, carnegie, gps, symbols]
-portrait: assets/portraits/newell-simon.jpg
+portrait: assets/portraits/herbert-simon.jpg
 portrait_status: sourced
 ---
 
-The photograph — two men, a chessboard, a date Commons gives as 1958 — is almost too on the nose. Allen Newell and Herbert A. Simon used chess as an instrument, not as a hobby they happened to have in the frame. They also used logic, printers, and a running argument that a mind is a physical symbol system.
+A Commons file often captioned as Newell and Simon at chess in 1958 is, in the copy we inspected, an AAAI twenty-fifth-anniversary graphic with type burned into the frame. This series will not treat that file as a period photograph. Herbert A. Simon appears here in a 1986 painted likeness. Allen Newell has a labeled placeholder. They used chess as an instrument, and they used logic, printers, and a running argument that a mind is a physical symbol system.
 
-![Herbert Simon and Allen Newell, chess match photograph.](../assets/portraits/newell-simon.jpg)
+![Herbert A. Simon, painted likeness by Richard Rappaport, 1986.](../assets/portraits/herbert-simon.jpg)
 
-*Credit: Paolo Massa upload; Commons public-domain label (provenance thin). File:Herbert A. Simon and Allen Newell Chess Match.jpg.*
+*Credit: Richard Rappaport. CC BY 3.0. File:Herbert simon tan d.jpg. A painting, not a photograph.*
 
-![Herbert A. Simon, 1986 image on Commons.](../assets/portraits/herbert-simon.jpg)
+![Labeled placeholder for Allen Newell — not a photograph.](../assets/portraits/allen-newell.placeholder.svg)
 
-*Credit: Richard Rappaport. CC BY 3.0. File:Herbert simon tan d.jpg.*
+*No clean redistributable photograph was kept after the anniversary graphic was retired. This panel is not a photograph.*
 
 ## RAND and Carnegie
 
@@ -27,7 +27,7 @@ Simon already had a social-science career. *Administrative Behavior* (1947) and 
 
 ## A hypothesis
 
-The physical symbol system hypothesis, stated in their 1976 *Cognitive Science* paper “Computer Science as Empirical Inquiry,” is the clean wager. Necessary and sufficient means for general intelligent action. Connectionists heard a hostage-taking. They heard, perhaps, what was there.
+The physical symbol system hypothesis, stated in their 1976 *Cognitive Science* paper “Computer Science as Empirical Inquiry: Symbols and Search,” is the clean wager. Necessary and sufficient means for general intelligent action. Connectionists heard a hostage-taking. They heard, perhaps, what was there.
 
 The 1975 ACM Turing Award went to both men for basic contributions to artificial intelligence, the psychology of human cognition, and list processing. Again the citation is a genre. Again it is not wrong.
 
@@ -35,4 +35,4 @@ The 1975 ACM Turing Award went to both men for basic contributions to artificial
 
 Newell died in 1992. Simon died in 2001. Carnegie Mellon still lives inside their furniture: a computer-science building’s worth of habits about protocol, protocol’s cousin bureaucracy, and the idea that a protocol can be a theory.
 
-The chessboard photograph may be thin on provenance. The papers are not. If you need a single pair for the symbolic decades, this is the pair, not because they were alone, but because they wrote the hypothesis down.
+The papers do not need the anniversary graphic. If you need a single pair for the symbolic decades, this is the pair, not because they were alone, but because they wrote the hypothesis down.

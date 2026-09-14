@@ -3,13 +3,13 @@ voice_check: human
 title: "Timnit Gebru, datasheets and a 2021 argument"
 slug: timnit-gebru
 kind: profile
-era: 1982–
+era: 1983–
 tags: [gebru, datasheets, facct, datasets]
 portrait: assets/portraits/timnit-gebru.jpg
 portrait_status: sourced
 ---
 
-Timnit Gebru was born in 1982 in Addis Ababa and took a Stanford Ph.D. in computer vision. The 2018 TechCrunch photograph is a licensed press image from before the paper that would make her a public argument as well as a researcher.
+Timnit Gebru was born in 1983 in Addis Ababa and took a Stanford Ph.D. in computer vision (2017), advised by Fei-Fei Li. The 2018 TechCrunch photograph is a licensed press image from before the paper that would make her a public argument as well as a researcher.
 
 ![Timnit Gebru at TechCrunch Disrupt, 7 September 2018.](../assets/portraits/timnit-gebru.jpg)
 

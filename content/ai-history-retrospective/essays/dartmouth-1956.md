@@ -33,6 +33,6 @@ Women’s names are scarce in the 1955 proposal. That is not an accident of “t
 
 ## After Hanover
 
-McCarthy went to MIT, then to Stanford in 1962 to found SAIL. Minsky stayed at MIT and built an AI laboratory with McCarthy that would split, merge, and mythologize itself for fifty years. Shannon returned to information theory and to machines that juggled and wandered. Rochester went back to IBM.
+McCarthy went to MIT, then returned to Stanford in 1962; the Stanford AI Project started in 1963. Minsky stayed at MIT and built an AI laboratory with McCarthy that would split, merge, and mythologize itself for fifty years. Shannon returned to information theory and to machines that juggled and wandered. Rochester went back to IBM.
 
 The 1955 conjecture is still readable without nostalgia. It assumes description precedes simulation. A great deal of later statistical learning would invert that order: fit first, explain later, if at all. Dartmouth remains the moment the bet was written down, dated, and signed by four men who could get Rockefeller to open a folder.

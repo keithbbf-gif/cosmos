@@ -16,7 +16,7 @@ Public sources used or checked while staging this series. Titles and years follo
 - Jerome Y. Lettvin, Humberto R. Maturana, Warren S. McCulloch, and Walter H. Pitts, “What the Frog’s Eye Tells the Frog’s Brain,” *Proceedings of the IRE*, vol. 47, no. 11, 1959.
 - John von Neumann, *First Draft of a Report on the EDVAC*, Moore School of Electrical Engineering, 30 June 1945.
 - John von Neumann and Oskar Morgenstern, *Theory of Games and Economic Behavior*, Princeton University Press, 1944.
-- John von Neumann, *The Computer and the Brain*, Yale University Press, 1958 (posthumous lectures).
+- John von Neumann, *The Computer and the Brain*, Yale University Press, 1958 (Silliman Lectures, delivered 1956; published after his death in February 1957).
 
 ## Dartmouth and the symbolic decades
 
@@ -24,7 +24,9 @@ Public sources used or checked while staging this series. Titles and years follo
 - Allen Newell and Herbert A. Simon, “The Logic Theory Machine: A Complex Information Processing System,” *IRE Transactions on Information Theory*, vol. IT-2, no. 3, 1956.
 - Allen Newell, J. C. Shaw, and Herbert A. Simon, “Report on a General Problem-Solving Program,” *Proceedings of the International Conference on Information Processing* (UNESCO, Paris), 1959.
 - John McCarthy, “Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I,” *Communications of the ACM*, vol. 3, no. 4, 1960.
-- John McCarthy, “Programs with Common Sense,” in *Mechanisation of Thought Processes*, HMSO, 1959 (Teddington symposium).
+- John McCarthy, “Programs with Common Sense,” presented at the NPL symposium *Mechanisation of Thought Processes*, Teddington, 24–27 November 1958; in the HMSO proceedings (commonly cited 1959; some library copies catalogued 1961).
+- Allen Newell and Herbert A. Simon, “Computer Science as Empirical Inquiry: Symbols and Search,” *Cognitive Science*, vol. 1, no. 1, 1976.
+- Seymour A. Papert, “The Summer Vision Project,” MIT AI Group Vision Memo No. 100 (AIM-100), 7 July 1966.
 - Marvin Minsky and Seymour Papert, *Perceptrons: An Introduction to Computational Geometry*, MIT Press, 1969.
 - Marvin Minsky, *The Society of Mind*, Simon & Schuster, 1986.
 - Joseph Weizenbaum, “ELIZA—A Computer Program for the Study of Natural Language Communication Between Man and Machine,” *Communications of the ACM*, vol. 9, no. 1, 1966.
@@ -42,7 +44,8 @@ Public sources used or checked while staging this series. Titles and years follo
 - Frank Rosenblatt, “The Perceptron: A Perceiving and Recognizing Automaton,” Cornell Aeronautical Laboratory Report 85-460-1, 1957.
 - Frank Rosenblatt, “The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,” *Psychological Review*, vol. 65, no. 6, 1958.
 - “New Navy Device Learns by Doing,” *New York Times*, 8 July 1958 (Mark I Perceptron demonstration).
-- Kunihiko Fukushima, “Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position,” *Biological Cybernetics*, vol. 36, 1980.
+- Kunihiko Fukushima, “Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position,” *Biological Cybernetics*, vol. 36, 1980 (Fukushima has dated the invention to 1979 at NHK STRL).
+- Stephen T. Emlen, Howard C. Howland, and Richard D. O’Brien, “Frank Rosenblatt, July 11, 1928 — July 11, 1971,” Cornell University Faculty Memorial Statement, 1971.
 - A. G. Ivakhnenko, “The Group Method of Data Handling—A Rival of the Method of Stochastic Approximation,” *Soviet Automatic Control*, vol. 13, no. 3, 1968 (English version of the GMDH line).
 - A. G. Ivakhnenko, “Polynomial Theory of Complex Systems,” *IEEE Transactions on Systems, Man, and Cybernetics*, vol. SMC-1, no. 4, 1971.
 - Institute for New Generation Computer Technology (ICOT), Fifth Generation Computer Systems project materials, Tokyo, 1982–1992; Edward A. Feigenbaum and Pamela McCorduck, *The Fifth Generation*, Addison-Wesley, 1983.

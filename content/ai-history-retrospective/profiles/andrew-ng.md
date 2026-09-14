@@ -17,7 +17,7 @@ Andrew Ng was born in 1976 in the United Kingdom, grew up partly in Hong Kong an
 
 ## CS229, then a wider room
 
-Stanford’s CS229 lecture notes — linear models, SVMs, learning theory, later neural nets — circulated as PDFs long before they were a brand. In 2011–2012, Ng’s machine-learning course on Coursera (a company he co-founded with Daphne Koller) put those notes in front of a population that did not have a Stanford ID. The public numbers on enrollment were large enough to become their own press cycle. A history of AI that ignores teaching will not understand how 2012’s research fashion became 2015’s job listing.
+Stanford’s CS229 lecture notes — linear models, SVMs, learning theory, later neural nets — circulated as PDFs long before they were a brand. In the autumn of 2011 Ng offered a machine-learning class as a free online course (the ml-class.org / Stanford experiment). Coursera, the company he co-founded with Daphne Koller, was announced in 2012 and became the later home of that audience. The public enrollment numbers were large enough to become their own press cycle. A history of AI that ignores teaching will not understand how 2012’s research fashion became 2015’s job listing.
 
 ## Google Brain, and a cat
 

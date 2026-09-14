@@ -72,7 +72,7 @@ Immediately after the lede (or after the first section break), embed:
 *Credit: Photographer or institution. License. Wikimedia Commons file title.*
 ```
 
-If rights are unclear, use the labeled SVG placeholder and the sentence: “No redistributable likeness is included; this panel is not a photograph.” Never generate a fake historical face.
+If rights are unclear, or if a file is a commemorative graphic rather than a period likeness, use the labeled SVG placeholder and the sentence: “No redistributable likeness is included; this panel is not a photograph.” Never generate a fake historical face. A companion graphics layout should reuse these paths, not invent new ones.
 
 ## Length and shape
 

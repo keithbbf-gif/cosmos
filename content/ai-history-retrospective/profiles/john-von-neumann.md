@@ -23,7 +23,7 @@ The *First Draft of a Report on the EDVAC*, dated 30 June 1945 and circulated fr
 
 ## Why he is in an AI history
 
-He is here for context, as the assignment asked. Cellular automata and the later lectures published as *The Computer and the Brain* (Yale, 1958) show a mathematician at the end of his life comparing organs to machines without becoming an AI-lab director. He discussed reliability, redundancy, analog versus digital, the size of the brain’s “components.” He died in 1957.
+He is here for context, as the assignment asked. Cellular automata and the Silliman Lectures, delivered in 1956 and published as *The Computer and the Brain* (Yale, 1958), show a mathematician near the end of his life comparing organs to machines without becoming an AI-lab director. He discussed reliability, redundancy, analog versus digital, the size of the brain’s “components.” He died on 8 February 1957.
 
 The comparison is not a claim that he “invented AI.” McCulloch and Pitts are closer to that particular cartoon. Von Neumann read them; the traffic of ideas in the 1940s was small enough that reading is documented.
 
@@ -31,4 +31,4 @@ The comparison is not a claim that he “invented AI.” McCulloch and Pitts are
 
 A history that uses a weapons-laboratory photograph owes the reader the setting. Los Alamos was not a cybernetics salon. It was a place that needed numerical weather for explosions. The machines that came out of that need — and out of Aberdeen, and out of the Moore School — are the machines Dartmouth later tried to talk to.
 
-The 1958 lectures are unfinished in the way dying work is unfinished. They remain one of the clearer public attempts, by a designer of the stored-program style, to say what a brain is not.
+The 1958 book is a short book from a sickbed year. It remains one of the clearer public attempts, by a designer of the stored-program style, to say what a brain is not.

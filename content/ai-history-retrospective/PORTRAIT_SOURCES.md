@@ -13,8 +13,7 @@ Local paths are relative to `content/ai-history-retrospective/`.
 | `assets/portraits/john-von-neumann.jpg` | John von Neumann | File:John von Neumann Los Alamos identity badge photo.jpg | LANL / LANS attribution license (redistribution permitted with notice) | Los Alamos Laboratory | Project Y badge photo, c. 1943–1947; LA-UR-22-25508 | https://commons.wikimedia.org/wiki/File:John_von_Neumann_Los_Alamos_identity_badge_photo.jpg |
 | `assets/portraits/john-mccarthy.jpg` | John McCarthy | File:John McCarthy Stanford.jpg | CC BY-SA 2.0 | Flickr user “null0” | Stanford, 13 May 2006; Flickr 272015955 | https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg |
 | `assets/portraits/marvin-minsky.jpg` | Marvin Minsky | File:Marvin Minsky at OLPCb.jpg | CC BY 3.0 | Original uploader Sethwoodworth (en.wikipedia) | OLPC event; transferred to Commons 2008 | https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb.jpg |
-| `assets/portraits/newell-simon.jpg` | Allen Newell & Herbert A. Simon | File:Herbert A. Simon and Allen Newell Chess Match.jpg | Public domain (as labeled on Commons; Flickr provenance is thin — see `PHOTO_NOTES.md`) | Paolo Massa (Flickr upload) | Dated 1958 on Commons | https://commons.wikimedia.org/wiki/File:Herbert_A._Simon_and_Allen_Newell_Chess_Match.jpg |
-| `assets/portraits/herbert-simon.jpg` | Herbert A. Simon | File:Herbert simon tan d.jpg | CC BY 3.0 | Richard Rappaport | Painting/photograph dated 1986 on Commons | https://commons.wikimedia.org/wiki/File:Herbert_simon_tan_d.jpg |
+| `assets/portraits/herbert-simon.jpg` | Herbert A. Simon | File:Herbert simon tan d.jpg | CC BY 3.0 | Richard Rappaport | **Painting**, 1986, not a photograph | https://commons.wikimedia.org/wiki/File:Herbert_simon_tan_d.jpg |
 | `assets/portraits/edward-feigenbaum.jpg` | Edward A. Feigenbaum | File:27. Dr. Edward A. Feigenbaum 1994-1997.jpg | Public domain (U.S. Air Force work) | United States Air Force | Chief Scientist portrait, 1 Dec 1994 | https://commons.wikimedia.org/wiki/File:27._Dr._Edward_A._Feigenbaum_1994-1997.jpg |
 | `assets/portraits/david-rumelhart.jpg` | David E. Rumelhart | File:DavidRumelhart-IJCNNseattle1991-07-08.jpg | CC BY-SA 4.0 | Rolf Kickuth | IJCNN Seattle, 8 July 1991 | https://commons.wikimedia.org/wiki/File:DavidRumelhart-IJCNNseattle1991-07-08.jpg |
 | `assets/portraits/geoffrey-hinton.jpg` | Geoffrey E. Hinton | File:Geoffrey Hinton at UBC.jpg | CC BY-SA 3.0 | Eviatar Bach | Lecture, University of British Columbia, 30 May 2013 | https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_UBC.jpg |
@@ -50,6 +49,7 @@ Los Alamos National Laboratory requires attribution. Commons reproduces the LANS
 | `assets/portraits/warren-mcculloch.placeholder.svg` | Warren S. McCulloch | No Commons solo likeness with a clear redistribution license at staging |
 | `assets/portraits/terry-winograd.placeholder.svg` | Terry Winograd | No Commons portrait with a clear redistribution license at staging |
 | `assets/portraits/kunihiko-fukushima.placeholder.svg` | Kunihiko Fukushima | No Commons portrait with a clear redistribution license at staging |
+| `assets/portraits/allen-newell.placeholder.svg` | Allen Newell | Commons “chess match” file retired (AAAI anniversary graphic); no replacement photograph kept |
 
 ## Not included
 

@@ -1,6 +1,8 @@
 # History of AI — Retrospective
 
-Staged magazine series: era essays and major-figure profiles, public historical record only, through about 2026. Read `STYLE_GUIDE.md` and `NOVELTY_GUARDRAILS.md` before editing. Portraits and licenses: `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`. Sources: `BIBLIOGRAPHY.md`. WordPress: `WP_IMPORT.md`.
+Staged magazine series: era essays and major-figure profiles, public historical record only, through about 2026. Read `STYLE_GUIDE.md` and `NOVELTY_GUARDRAILS.md` before editing. Portraits and licenses: `PORTRAIT_SOURCES.md`, `PHOTO_NOTES.md`. Sources: `BIBLIOGRAPHY.md`. Verification notes: `FACT_CHECK.md`. WordPress: `WP_IMPORT.md`.
+
+YAML front matter, credit lines, and “real likeness or labeled placeholder” are the contract for any companion visual/graphics series. Do not invent faces to fill a layout.
 
 **55 articles** (22 essays, 33 profiles). Draft. Not a production import.
 
@@ -52,7 +54,7 @@ Internal links are repo-relative from this folder.
 | 7 | [Grace Hopper, compilers as an argument](profiles/grace-hopper.md) | `grace-hopper` | sourced (U.S. Navy PD) |
 | 8 | [John McCarthy, who needed a noun](profiles/john-mccarthy.md) | `john-mccarthy` | sourced (CC BY-SA) |
 | 9 | [Marvin Minsky, builder and brake](profiles/marvin-minsky.md) | `marvin-minsky` | sourced (CC BY) |
-| 10 | [Newell and Simon, at the chessboard and at the hypothesis](profiles/newell-and-simon.md) | `newell-and-simon` | sourced (see photo notes) |
+| 10 | [Newell and Simon, at the chessboard and at the hypothesis](profiles/newell-and-simon.md) | `newell-and-simon` | Simon painting sourced; Newell placeholder |
 | 11 | [Frank Rosenblatt’s Perceptron](profiles/frank-rosenblatt.md) | `frank-rosenblatt` | sourced (CC BY-SA) |
 | 12 | [Seymour Papert, geometry, children, and a brake](profiles/seymour-papert.md) | `seymour-papert` | sourced (CC BY-SA) |
 | 13 | [Joseph Weizenbaum after ELIZA](profiles/joseph-weizenbaum.md) | `joseph-weizenbaum` | sourced (CC BY-SA) |
@@ -83,5 +85,6 @@ Internal links are repo-relative from this folder.
 - `BIBLIOGRAPHY.md` — papers, books, prize citations
 - `PORTRAIT_SOURCES.md` — file-by-file licenses
 - `PHOTO_NOTES.md` — placeholders and caution flags
+- `FACT_CHECK.md` — date/title corrections from the quality pass
 - `NOVELTY_GUARDRAILS.md` — IP and invention bans
 - `WP_IMPORT.md` — later projection, not a ship date

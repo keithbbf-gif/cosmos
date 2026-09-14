@@ -5,15 +5,15 @@ slug: the-symbolic-bet
 kind: essay
 era: 1956–1970
 tags: [symbolic-ai, lisp, gps, sail, mit]
-portrait: assets/portraits/newell-simon.jpg
+portrait: assets/portraits/herbert-simon.jpg
 portrait_status: sourced
 ---
 
-Allen Newell and Herbert Simon stated their wager in public, more than once. A physical symbol system, they argued, has the necessary and sufficient means for general intelligent action. The claim is in their 1976 *Cognitive Science* paper and in the trail of talks that led to it. It is the cleanest sentence the symbolic decades produced. It is also the sentence connectionists would spend the 1980s trying to retire.
+Allen Newell and Herbert Simon stated their wager in public, more than once. A physical symbol system, they argued, has the necessary and sufficient means for general intelligent action. The claim is in their 1976 *Cognitive Science* paper “Computer Science as Empirical Inquiry: Symbols and Search” and in the trail of talks that led to it. It is the cleanest sentence the symbolic decades produced. It is also the sentence connectionists would spend the 1980s trying to retire.
 
-![Herbert Simon and Allen Newell at a chessboard, 1958 (Commons date).](../assets/portraits/newell-simon.jpg)
+![Herbert A. Simon, painted likeness by Richard Rappaport, 1986.](../assets/portraits/herbert-simon.jpg)
 
-*Credit: Paolo Massa upload; Commons public-domain label. File:Herbert A. Simon and Allen Newell Chess Match.jpg. See PHOTO_NOTES.md for provenance caution.*
+*Credit: Richard Rappaport. CC BY 3.0. File:Herbert simon tan d.jpg. A painting, not a photograph.*
 
 ## Logic Theorist, GPS, and a printer that embarrassed Russell
 
@@ -23,9 +23,9 @@ Simon liked to tell the story that *Principia*’s authors had been sent a proof
 
 ## LISP and the laboratory as a place
 
-John McCarthy’s “Recursive Functions of Symbolic Expressions,” in *CACM* in April 1960, gave the field a language that treated lists as first-class objects and recursion as ordinary. LISP made it cheap to write programs that wrote programs. At MIT and then at SAIL (Stanford Artificial Intelligence Laboratory, 1962), that cheapness became a culture: time-sharing, cons cells, a faith that the next representation would unlock common sense.
+John McCarthy’s “Recursive Functions of Symbolic Expressions,” in *CACM* in April 1960, gave the field a language that treated lists as first-class objects and recursion as ordinary. LISP made it cheap to write programs that wrote programs. At MIT and then at Stanford — the AI Project from 1963, the foothills laboratory later called SAIL — that cheapness became a culture: time-sharing, cons cells, a faith that the next representation would unlock common sense.
 
-McCarthy’s “Programs with Common Sense” (Teddington, 1959) sketched the Advice Taker, a system that would take declarative sentences and deduce what to do. It was a sketch. Decades of knowledge representation grew out of the embarrassment that the sketch was easier to give as a talk than as a running world.
+McCarthy’s “Programs with Common Sense,” given at Teddington in November 1958 and printed in the HMSO proceedings, sketched the Advice Taker, a system that would take declarative sentences and deduce what to do. It was a sketch. Decades of knowledge representation grew out of the embarrassment that the sketch was easier to give as a talk than as a running world.
 
 ## SHRDLU’s room, and the room’s edge
 

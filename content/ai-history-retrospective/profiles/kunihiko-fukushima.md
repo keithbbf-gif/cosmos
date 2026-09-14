@@ -9,7 +9,7 @@ portrait: assets/portraits/kunihiko-fukushima.placeholder.svg
 portrait_status: placeholder
 ---
 
-Kunihiko Fukushima published, in *Biological Cybernetics* in 1980, “Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position.” The title is a research program. The model is a hierarchy of simple and complex cells, in a lineage from Hubel and Wiesel, aimed at vision that does not fall apart when the pattern moves.
+Kunihiko Fukushima was born on 16 March 1936 in Taiwan, then under Japanese rule; his own later biographical notes and the Franklin Institute’s Bower Award citation record the return to Japan after 1945. He took a B.Eng. in electronics at Kyoto University in 1958 and a doctorate in electrical engineering there in 1966. The object that earns this profile is a 1980 paper in *Biological Cybernetics*: “Neocognitron: A Self-organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position.” He has dated the invention to 1979, at NHK’s Science and Technology Research Laboratories. The model is a hierarchy of simple and complex cells, in a lineage from Hubel and Wiesel, aimed at vision that does not fall apart when the pattern moves.
 
 ![Labeled placeholder for Kunihiko Fukushima — not a photograph.](../assets/portraits/kunihiko-fukushima.placeholder.svg)
 
@@ -17,7 +17,7 @@ Kunihiko Fukushima published, in *Biological Cybernetics* in 1980, “Neocognitr
 
 ## NHK, then Osaka
 
-Fukushima’s career, as recorded in the scientific literature and in later interviews, runs through NHK’s broadcasting-science laboratories and later Osaka. The neocognitron papers of the 1970s and 1980s are the objects. They are not ICOT’s Fifth Generation, and they were not written to reassure MITI about Prolog.
+After Kyoto he was a senior research scientist at NHK. He joined Osaka University’s faculty in 1989, then the University of Electro-Communications (1999) and Tokyo University of Technology (2001). The neocognitron papers are not ICOT’s Fifth Generation, and they were not written to reassure MITI about Prolog. In later remarks he has said that, at the time, the neocognitron and “AI” as IF-THEN programs lived in different rooms.
 
 ## What LeCun and others kept
 

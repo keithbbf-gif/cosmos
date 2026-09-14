@@ -9,7 +9,7 @@ portrait: assets/portraits/kunihiko-fukushima.placeholder.svg
 portrait_status: placeholder
 ---
 
-In 1966, Marvin Minsky asked a student, Gerald Sussman in the usual telling, to spend a summer hooking a camera to a computer and describing what it saw. The “Summer Vision Project” memo is a famous joke because it is a famous underestimation. The joke is fair only if we remember that 1966 did not have a theory of how much work vision is. It had a camera and a graduate student.
+The famous joke is that someone at MIT handed a student a camera and a summer. The document is less cute. Seymour Papert’s Vision Memo No. 100, “The Summer Vision Project,” dated 7 July 1966 (MIT AI Group / Project MAC), assigns figure-ground analysis, region description, and object identification to a group of summer workers. Gerald Sussman is named as coordinator of the vision-project meetings, not as a lone intern given an impossible homework. The underestimation is still real. 1966 did not have a theory of how much work vision is. It had a vidisector, a memo, and a list of names.
 
 ![Labeled placeholder for Kunihiko Fukushima — not a photograph.](../assets/portraits/kunihiko-fukushima.placeholder.svg)
 
