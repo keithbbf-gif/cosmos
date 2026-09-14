@@ -34,6 +34,8 @@ I have seen "outdoor living rooms" specified with indoor depths and indoor woods
 
 BBF collections can show a bench, a table, a chair. Those pages sit beside this distinction. They cannot erase it. A collection photograph taken under a porch roof is not evidence that the same object will live on a south slab in Missouri. Adjacent history only helps if the climate word stays attached to the object.
 
+I will ask the climate question twice because people answer with a zip code. A zip code is not a roof. Two houses on the same street can have a porch and a slab. The furniture does not care that they share a mail route. It cares whether the sky is a ceiling. Say the ceiling. Then say the zip if you want the freeze and the pollen. Both matter. The ceiling matters first.
+
 Three climates. Three assignments. One lazy word that keeps trying to do all three jobs. Take the word away. Name the roof. Then we can talk about teak.
 
 The next draft is who is talking, because a shop that builds indoor work has to say what it will not invent about the garden.

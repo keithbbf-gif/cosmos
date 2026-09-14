@@ -17,7 +17,7 @@
       "stage": "00-frame",
       "runtime_min": 8.0,
       "standalone": "true",
-      "words": 609,
+      "words": 683,
       "educational_claim": "Porch, patio, and open lawn are three assignments of roof, splash, and ultraviolet. Using one word \u2014 outdoor \u2014 for all three is how a room gets the wrong object."
     },
     {
@@ -217,7 +217,7 @@
       "stage": "04-wood",
       "runtime_min": 9.0,
       "standalone": "true",
-      "words": 607,
+      "words": 673,
       "educational_claim": "Teak \u2014 Tectona grandis \u2014 carries natural oils and silica that made it a ship-deck wood. Garden furniture borrowed that habit. Silvering is what the surface does in sun. \"Teak oil\" is often a store can, not the tree."
     },
     {
@@ -287,7 +287,7 @@
       "stage": "05-metal",
       "runtime_min": 8.0,
       "standalone": "true",
-      "words": 608,
+      "words": 689,
       "educational_claim": "Historic wrought iron is a low-carbon, slag-bearing iron worked by a smith. Almost all modern \"wrought\" patio furniture is mild steel, bent and welded. The scroll can be the same. The rust calendar is not a mythic metal. It is a film and a gauge."
     },
     {
@@ -327,7 +327,7 @@
       "stage": "06-woven",
       "runtime_min": 8.0,
       "standalone": "true",
-      "words": 602,
+      "words": 694,
       "educational_claim": "Wicker means weaving a seat or a skin around a frame \u2014 rattan, willow, reed, paper, or resin. The method is old. The frame and the fiber decide the climate, not the department-store syllable."
     },
     {
@@ -377,7 +377,7 @@
       "stage": "07-other",
       "runtime_min": 8.0,
       "standalone": "true",
-      "words": 603,
+      "words": 677,
       "educational_claim": "Sling fabric and metal mesh drain. That is the job. Tension, UV hours, and the frame's attachment points decide whether the sit lasts or becomes a hammock and then a tear."
     },
     {
@@ -397,7 +397,7 @@
       "stage": "08-shop",
       "runtime_min": 9.0,
       "standalone": "true",
-      "words": 605,
+      "words": 683,
       "educational_claim": "Outdoor furniture often fails at the screw, the bolt, and the staple \u2014 galvanic pairs, thin platings, oak tannin, treated-wood chemistry. Specify the metal and the isolation, or the joint will narrate the winter."
     },
     {

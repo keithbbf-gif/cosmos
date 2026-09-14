@@ -23,6 +23,8 @@ Ultraviolet. Outdoor textiles have hour ratings I am not going to invent on came
 
 Mesh metal gets hot and can print a pattern on a bare thigh. It can rust if it is the wrong metal or a tired coat. It can be superb in a wind because it does not sail like a solid. Balconies like mesh. Cushions on mesh are optional, not the seat. If you need the cushion to sit, you have a different object.
 
+Restaurant mesh and household mesh are cousins. The restaurant chair expects a reskin schedule and a stack. The household chair often gets neither and then a one-star sentence about "the seat sagged." Sag is a calendar. Ask for the replacement sling part number the day you buy, not the day it bags. If there is no part number, you bought a fashion season. Fashion seasons are allowed. They should be priced like seasons.
+
 Dining on a sling is a different brief than lounging on a sling. A dining sling can be firmer and still drain. A lounge sling can be a hammock if you let it. Do not buy one tension for both and then complain that salad and sunset disagree. They always disagreed. The Adirondack already taught that. The sling just made the lesson textile.
 
 Indoor, we do not sling dining chairs as a house habit. Adjacent is the idea of a seat as a replaceable skin — cane, leather, a slip. The patio just makes the skin more honest about rain. BBF collections should not call a cane seat a sling. Different tracks. Different centuries.

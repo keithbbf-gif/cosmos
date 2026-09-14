@@ -27,6 +27,8 @@ Welds. A pretty ground weld that is only pretty is a thin place. A weld that was
 
 Galvanizing plus a film is a system some good outdoor steel uses. Bare galvanizing is another look. Paint over rust without knocking the scale back is a winter project in April. I would rather see a household pick one system and keep it than buy "wrought" every five years because the word felt historic.
 
+A gate and a chair are not the same steel job. A gate can be heavier and uglier and still be right. A chair has to take a sit without a sharp scroll in the kidney. I have seen "garden wrought" that was really a railing language turned into a seat. Railing language cuts people. Chair language holds them. If the object started life as a railing sketch, it is not a chair yet. It is a fence you sat on.
+
 Mesh on a steel frame — the old Woodard language — is a sit that drains and a metal that still needs a coat. I respect it more than a solid steel seat that holds a puddle and cooks a thigh. Mesh also collects maple seeds and hose water at the rim. Look at the rim. The rim is where the coat chips and the rust starts a lace.
 
 This shop works wood. We hire metal when a brief needs it. Adjacent means I will not let a designer write wrought on a drawing as if that specified a corrosion calendar. Write mild steel, wall thickness, coating, drain. BBF collections stay out of fake smithing captions unless we actually hired a smith and the object is the object.

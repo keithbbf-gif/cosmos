@@ -25,6 +25,8 @@ Staples in slings and weaves rust and then saw the fiber. Hidden fasteners in re
 
 Retightening is a feature. Outdoor wood moves. A bolted teak table that can be snugged in year three is a better object than a glued dowel shrine that cannot. Indoor, I chase a certain invisibility. Outdoor, I will let a cap nut show if it means the piece can be maintained. Adjacent pride has to bend.
 
+A cap nut also keeps a thread from eating a thigh. I have sat on more than one picnic bench that was a hardware-store bolt with a proud hex. That is not rustic. That is a bruise. If the fastener shows, finish the showing: cap, dome, or a seat that never meets the metal. Indoor we already hide a screw from a bare arm. Outdoor the arm is more often bare. Be kinder than a hex head.
+
 Staples and brads in outdoor slats are how a factory hides a count. I pry when I am allowed. If the slat is only stapled, the staple is the joint. The joint will narrate. Prefer a screw or a bolt you can face. Prefer a slat you can replace without destroying the next slat. Factory speed is not a climate.
 
 This shop's indoor hardware is specified like we mean it — hinges, slides, the ghost of a cheap knob. The garden is the same sentence louder. BBF collections should not show decorative interior screws as if they were outdoor-rated. The essay is the warning label.

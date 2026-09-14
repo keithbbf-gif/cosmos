@@ -25,6 +25,8 @@ If you want the brown, you are signing up for a ritual: clean, brighten if you m
 
 Grade and origin matter and I will not fake a certificate I did not see. Plantation teak can be excellent or pale and soapy depending on age and cut. Old-growth stories are mostly stories at retail. Ask for heartwood, for thickness that is not veneer on a mystery core, for joinery that is not a dowel in end grain hoping for the best. FSC and legality are real papers. They are not a sit.
 
+Veneer teak on a patio table is a short play. The sun cooks the glue line. The edge takes a chip. Then you have a photograph of a tree on a core that is already tired. I have more respect for a thinner solid slat than a thick-looking sandwich. Thickness you can measure from the edge with a thumbnail is the only thickness I believe.
+
 This shop does not run a teak patio line. Adjacent means I know oil and silica from indoor exotics we have actually dressed, and I know a veneer when a client shows me a "teak" top that is a photograph. BBF collections stay indoor unless a page says otherwise. Do not let a warm brown chip launder a tree.
 
 If you make furniture, cut drip edges and keep end grain off the slab. If you buy furniture, scrape a hidden underside with a thumbnail. Solid teak dusts gold-brown. A printed film pills. If you are a designer, write silver or brown on the sheet. If you leave it blank, the sun will write it, and the client will call it a defect.

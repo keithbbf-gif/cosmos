@@ -25,6 +25,8 @@ Painted wicker, again, is a textured film. I said it on the porch. I will say it
 
 Repair is possible and rarely cheap. Reweaving is a craft. Most households will not pay for it on a patio chair. That economic fact is why resin won. I do not resent the win. I resent the caption that says the resin is wicker in the same sense as a 1910 porch chair. It is wicker only if we are talking method in the abstract. In the shop we talk fiber.
 
+A household that inherits a porch set should price the repair before they price a replacement carton. Sometimes the frame is still a good machine and the skin is tired. That is a win if you can find the craft. Sometimes the frame is plywood that already took a drink. Then the weave is a dress on a corpse. I have seen people pay to reweave a corpse. I would rather they flip it first, with me if they want, and spend the money on a climate that matches the next decade.
+
 A painted willow chair from a European garden tradition and a Heywood rattan rocker can sit on the same porch and still be different objects. One is a country basketry habit. One is an industrial tropical vine habit. They share a method syllable. They do not share a repair person. If you mash them for a caption, you will call the wrong craft when something breaks.
 
 This shop does not invoice wicker as a line. Adjacent means we already police stolen words. Handmade. Custom. Wicker belongs on that list. BBF collections should not use wicker as a texture name on an indoor carved panel. Carve is carve. Weave is weave.
