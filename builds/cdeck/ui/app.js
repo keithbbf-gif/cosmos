@@ -159,7 +159,13 @@
   }
 
   function refreshSurfaces(host) {
-    return apiGet("/api/v1/surfaces")
+    return apiPost("/api/v1/surfaces", { action: "measure_canon" })
+      .catch(function () {
+        return null;
+      })
+      .then(function () {
+        return apiGet("/api/v1/surfaces");
+      })
       .then(function (body) {
         renderSurfaces(host, body || {});
       })
