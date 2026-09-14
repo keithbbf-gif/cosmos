@@ -15,6 +15,19 @@ stage: draft
 
 A parent who saw a logoped in Kraków and an SLP in Ohio is not confused. She has met one profession with two passports.
 
+<figure class="slpwow-figure slpwow-figure--map">
+  <img
+    src="../assets/global-profession/profession-names-map.svg"
+    alt="Door-sign sketch of professional titles: speech-language pathologist, speech and language therapist, Logopäde and Phoniater, orthophoniste, and fonoaudiólogo, around the IALP congress words logopedics and phoniatrics."
+    width="920"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Names that do not match (door-sign sketch). Same overlapping work, different letterheads — not a licensure table. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 Ask for a speech-language pathologist in Vienna and you may be sent to a *Logopädin*. Ask in Berlin for the physician who scopes the larynx and teaches phonation and you want a *Phoniater*. Ask in London for the NHS clinician and the badge says speech and language therapist. Ask in São Paulo for *fonoaudiologia*. Ask in Tokyo and the postwar profession has its own association history, its own characters, its own fights with ENT. The patient has a stroke in every city. The door sign changes.
 
 ## Three international rooms

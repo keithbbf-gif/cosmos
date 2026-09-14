@@ -34,7 +34,7 @@ December 1925, Hotel McAlpin: temporary president. He kept the chair through 192
 
 ## The book
 
-*The Rehabilitation of Speech*, with Lou Kennedy and Anna Carr (Harper, 1937), was the handbook a lot of people carried before Van Riper’s 1939 book became the undergraduate weather. “Rehabilitation” is already a different word from “correction.” West had taken enough medical coursework to want the hospital noun.
+*The Rehabilitation of Speech*, with Lou Kennedy and Anna Carr (Harper, 1937), was the handbook a lot of people carried before Van Riper’s 1939 book became the undergraduate weather. Later editions kept the hospital noun on the spine while the field changed clothes around it. “Rehabilitation” is already a different word from “correction.” West had taken enough medical coursework to want that noun. He also wanted the clinic to produce data, not only service hours — Wisconsin’s later CSD histories still credit him with making the Madison shop a research site.
 
 ## Brooklyn, Stockton, 1968
 

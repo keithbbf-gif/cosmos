@@ -41,6 +41,8 @@ The cerebral-dominance theory of stuttering — Orton’s shadow, Travis’s mea
 
 The *Handbook of Speech Pathology* (later editions added audiology) was the big edited book: chapters on the state of each subject, Travis’s name on the spine. It is a different genre from Van Riper’s single-author textbook. Travis organized other people’s expertise. Iowa had given him the habit.
 
+Later editions of the handbook are easy to treat as one eternal book. They are not. The tables of contents shift as audiology, aphasia, and voice change owners. Cite the edition you hold. A 1957 chapter is not a 1971 chapter with the same title. Students who inherit a used copy without a year invent a Travis who never existed.
+
 ## USC, the war gap, Fuller
 
 He left Iowa for the University of Southern California in 1938, founded and directed a speech and hearing clinic, and held psychology and speech titles into the early 1940s. The published vitae show a later return as clinical professor of psychology (1960–1964) and then a last act that startles speech pathologists: founding dean of psychology at Fuller Seminary, 1965–1975. A 1976 festschrift, *Psychologist pro-tem*, marked his eightieth year.

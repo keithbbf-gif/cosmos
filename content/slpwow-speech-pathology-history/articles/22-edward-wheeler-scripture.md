@@ -26,6 +26,8 @@ He was born 21 May 1864 in Mason, New Hampshire. He took a Leipzig Ph.D. in 1891
 
 He took an M.D. at Munich in 1906. In 1915 he and May were at Columbia’s medical center, in a neurology laboratory and speech clinic tied to the Vanderbilt Clinic. Stammering, lisping, the “octave twist” — a pitch jump on stressed words that he thought would break a monotone. He mixed habit-training with the psychoanalytic weather of the decade. The marriage frayed; the work collaboration lasted longer.
 
+A 1902 Carnegie grant for experimental study of speech sounds is often cited as a first of its kind. Treat “first” as later writers’ label, not a prize Scripture hung on the wall. What the grant bought was instruments and time. What the 1903 Yale fight cost was a laboratory chair. The later clinic years look like a man who decided that if psychology would not hold speech, medicine might.
+
 ## London, Vienna, London again
 
 In 1919 he opened a speech clinic at the West End Hospital for Nervous Diseases in London and hired Winifred Kingdon-Ward. She thought the octave twist was a gimmick and said so. She left, then later directed the clinic after he moved on. In 1929 he took experimental phonetics at the University of Vienna. After 1933 the trail, in the Max Planck file, is private practice in London. He died 31 July 1945 in Henleaze, England. (Some American notes misspell the suburb. Henleaze is the one.)

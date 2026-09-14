@@ -33,7 +33,7 @@ Wendell Johnson arrived in Iowa City in 1926, twenty years old, valedictorian fr
 
 B.A. 1928, M.A. 1929, Ph.D. 1931, all Iowa — *The Influence of Stuttering on the Personality*, Travis advising. Research assistant, then the ranks, full professor 1943, director of the speech clinic the same year, later chief of the program and chair of the council that became the department. Editor, *Journal of Speech Disorders*, 1943–1948. ASHA president, 1950. Honors of the Association, 1946. A founder of the American Speech and Hearing Foundation, 1956. Louis W. Hill Research Professor at the end, when the administration had been set down.
 
-He read Alfred Korzybski’s *Science and Sanity* while recovering from an appendectomy in the late 1930s and built one of the first university courses in general semantics. *People in Quandaries* (1946) is that book. He was elected president of the International Society for General Semantics in 1945. The semantics and the stuttering were, for him, one subject: what words do to people.
+He read Alfred Korzybski’s *Science and Sanity* while recovering from an appendectomy in the late 1930s and built one of the first university courses in general semantics. *People in Quandaries* (1946) is that book. He was elected president of the International Society for General Semantics in 1945. The semantics and the stuttering were, for him, one subject: what words do to people. The same instinct that made a proverb out of the parent’s ear made a campus course out of Korzybski. Students who only meet him as “the Monster Study man” miss the textbook; students who only meet the textbook are being protected from the orphanage. Neither protection is a historian’s job.
 
 ## “Not in the child’s mouth”
 

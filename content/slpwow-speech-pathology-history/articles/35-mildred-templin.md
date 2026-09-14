@@ -28,6 +28,8 @@ Dorothea McCarthy pointed her toward Minnesota. Ph.D. in child development, Inst
 
 *Certain Language Skills in Children: Their Development and Interrelationships* (University of Minnesota Press, 1957) is the monograph. Articulation, vocabulary, the ages at which sounds and structures show up in a Midwestern sample — not folklore, not a clinic’s hardest cases. School clinicians who had been guessing now had tables. Later national samples and different languages revised the tables. They did not revise the idea that typical development is data.
 
+Three years later she put the tables into a kit with Frederic L. Darley. *The Templin-Darley Tests of Articulation* (Iowa City: Bureau of Educational Research and Service, State University of Iowa, 1960) gave public-school therapists a 50-item screen and a 176-item diagnostic, with age cutoffs printed in the manual. Iowa published it; Minnesota had supplied the developmental nerve. The hyphen on the cover is a Midwest handshake: child-development numbers meeting an Iowa clinic habit. Later tests replaced it. For a long time it *was* the drawer.
+
 ## The longitudinal kids
 
 In 1960 she began following 436 Minneapolis four-year-olds. Which children with early speech errors would still need help in grade 2? When many had not “normalized” by then, she kept going through grade 4, then saw them again in grade 11. Kansas State’s Templin Archive holds that study. She also spent decades on language and thought in hearing-impaired children — spelling, vocabulary, cognition — with support from the Institute and from the U.S. Office of Education.

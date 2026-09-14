@@ -20,7 +20,7 @@ The photograph on Commons is dated to the 1940s, photographer unknown, file mark
 
 *Aleksandr R. Luria, c. 1940s. Photographer unknown. Wikimedia Commons (stated public domain; see `PORTRAIT_SOURCES.md`).*
 
-Aleksandr Romanovich Luria was born in 1902 and died in 1977. He is the Soviet psychologist and physician whose wartime aphasia work reached English-language clinics late and then all at once.
+Aleksandr Romanovich Luria was born in Kazan on 16 July 1902 and died in Moscow on 14 August 1977. He is the Soviet psychologist and physician whose wartime aphasia work reached English-language clinics late and then all at once.
 
 ## Vygotsky’s junior, then a medical degree
 
@@ -37,6 +37,8 @@ He wrote that recovery used the intact components — the patient’s strengths 
 A 1958 English paper, “Brain disorders and language analysis,” was an early Western sighting. Penfield and Roberts’s *Speech and Brain Mechanisms* (1959) was the North American event of that year; Luria knew Penfield’s earlier work. The full traffic in ideas is a historians’ argument (see Eling and colleagues, 2024). What a clinician needs is simpler: by the 1970s you could not write about functional systems and aphasia rehab without Luria on the desk, even if you rejected the Soviet frame.
 
 *The Man with a Shattered World* and *The Mind of a Mnemonist* made him a general reader’s name. Those books are not treatment manuals. They are the reason some speech-language students first heard him.
+
+His aphasia classification — sensory, motor, semantic, dynamic, and the rest of the Soviet list — does not map cleanly onto Boston’s boxes. Translators and textbook writers spent the 1970s pretending it did. A fair reading keeps the mismatch: he was describing functional systems in living patients, not filling Wernicke’s 1874 diagram. The English 1970 *Traumatic Aphasia* is the book that made the mismatch a clinic argument instead of a rumor.
 
 ## Why he is in an SLP series
 

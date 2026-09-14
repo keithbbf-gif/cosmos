@@ -20,7 +20,7 @@ Frederic L. Darley (1918–1999) is the name on the 1969 dysarthria papers and o
 
 ## Iowa first
 
-Ph.D., State University of Iowa, 1950: *The Relationship of Parental Attitudes and Adjustments to the Development of Stuttering.* He is, at the start, a Johnson-era Iowa product. *Diagnostic Methods in Speech Pathology* (1963), with Wendell Johnson and D. C. Spriestersbach, is that product between hard covers. Then Mayo hired him into neurology.
+Ph.D., State University of Iowa, 1950: *The Relationship of Parental Attitudes and Adjustments to the Development of Stuttering.* He is, at the start, a Johnson-era Iowa product. *Diagnostic Methods in Speech Pathology* (1963), with Wendell Johnson and D. C. Spriestersbach, is that product between hard covers. Before Mayo made him a motor-speech name he had already put his name on a children’s drawer: *The Templin-Darley Tests of Articulation* (1960), with Mildred C. Templin, issued by Iowa’s Bureau of Educational Research and Service — a 50-item screen and a 176-item diagnostic. Then Mayo hired him into neurology. The stuttering dissertation, the school articulation kit, and the 1969 dysarthria papers look like three careers. They are one habit: name the thing, score it, argue about the name.
 
 Mayo’s institutional history puts Josephine Simonson, Darley, and Arnold Aronson into the Department of Neurology about six years after LeRoy Hedgecock’s 1949 audiology appointment — call it the mid-1950s. The spelling “Fredric” appears in one Mayo PDF. His own papers use Frederic.
 

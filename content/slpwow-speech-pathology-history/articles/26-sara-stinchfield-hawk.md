@@ -32,7 +32,9 @@ Wikipedia, at one point, gave her presidency as 1930–1940. ASHA Archives and W
 
 ## The books
 
-*Speech Pathology with Methods in Speech Correction* (Boston: Expression Company, 1928) is the title that tells you the decade. She wrote on diagnostic categories. With Edna Hill Young she published on a moto-kinesthetic approach for children — hands on the face, a method later clinicians argue with and still teach in some rooms. This article will not write the method as a how-to. It will say she believed children’s speech could be taught through movement and touch, and that she put that belief between covers.
+*Speech Pathology with Methods in Speech Correction* (Boston: Expression Company, 1928) is the title that tells you the decade. She wrote on diagnostic categories. The nomenclature committee she chaired at the end of the 1930s is the same instinct in committee form: if the academy could not name a disorder the same way twice, it did not yet have a science. With Edna Hill Young she published on a moto-kinesthetic approach for children — hands on the face, a method later clinicians argue with and still teach in some rooms. This article will not write the method as a how-to. It will say she believed children’s speech could be taught through movement and touch, and that she put that belief between covers.
+
+The Curry School diploma of 1909 is easy to treat as a picturesque start. It is also the older trade still showing: expression teachers who decided the work needed a university degree. She took that decision further than most of her classmates. Iowa’s child-welfare series printed her 1920 study; Wisconsin printed the doctorate. The Los Angeles orthopedic hospital and the John Tracy Clinic are the third act — the field leaving the Midwestern seminar for a West Coast hospital corridor.
 
 ## Why she is the lead American woman in this series
 

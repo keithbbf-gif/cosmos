@@ -17,6 +17,19 @@ The First World War taught a few hospitals what a young brain looks like after m
 
 The Second World War made the caseload a system. Governments that had learned to move blood and penicillin also moved speech.
 
+<figure class="slpwow-figure slpwow-figure--schematic">
+  <img
+    src="../assets/wwii-rehab-wards/ward-flow-schematic.svg"
+    alt="Schematic from named wartime language-rehabilitation rooms — Halloran, Framingham and Boston VA, Minneapolis VA, Moscow rear hospitals, Newcastle — to postwar objects such as the Minnesota Test, the BDAE, and the English Luria."
+    width="920"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> From war rooms to shelf objects (schematic). Geography of services and books — not a care pathway. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## The American surgeon general’s list
 
 Jon Eisenson, already a Brooklyn College academic with a 1935 Columbia Ph.D., went into the war as a psychologist and came out a major. He established and supervised a language-rehabilitation program for the Surgeon General’s office and served as chief clinical psychologist for language rehabilitation at Halloran General Hospital on Staten Island. That sentence is from the obituaries. It is enough to locate the work: a named hospital, a military rank, aphasia as an official rehabilitation problem.

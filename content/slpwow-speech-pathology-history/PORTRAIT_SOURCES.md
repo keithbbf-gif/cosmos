@@ -100,6 +100,12 @@ Until `cleared = yes`, embeds must use the pending plate: *Portrait pending — 
 
 ASHA omeka publication is **not** a redistribution license. Do not scrape president photographs until ASHA says yes in writing.
 
+## Second hunt pass (14 September 2026)
+
+Wikidata `P18` is empty for Fröschels, Blanton, Stinchfield Hawk, Charles Gage Van Riper, Wendell Johnson, Travis, Schuell, Goodglass, Darley, Morley, and Eisenson. Wellcome Collection image search returned **zero** files for Fröschels. Wikimedia Commons `File:Charles Van Riper.jpg` is **Charles King Van Riper** (Carmel-by-the-Sea, c. 1924) — a different man. Do not download it for the Western Michigan profile.
+
+Letters still required: ASHA (Hawk 1939; West; Travis), WMU (Van Riper), Iowa (Johnson), Mayo (Darley), Minnesota (Schuell, Templin, Brookshire), RCSLT/Newcastle (Morley), Wien Geschichte Wiki / IALP / Mount Sinai (Fröschels).
+
 ## Refused
 
 - AI-generated “historical portraits”

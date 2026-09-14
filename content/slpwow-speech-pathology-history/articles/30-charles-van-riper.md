@@ -49,6 +49,8 @@ He is the ethical counterweight to Johnson’s 1939 study without being a saint 
 
 Iowa and Wisconsin had the doctorates. Kalamazoo had Van Riper, which for thirty years was enough to make a state-college clinic a pilgrimage. People now say “Western Michigan” and mean a research university. He started it as a clinic in 1936 because Michigan did not have one he wanted to work in.
 
+The Cully Gage books — Upper Peninsula sketches — are not a side hustle. They are the same ear: a man who could describe a town without turning it into a case. *Speech Correction* lasted ten editions because the sentences were built that way. Later editors kept the bones. The 1939 title did not survive as the profession’s name. The habit of writing so a junior could use the page did.
+
 ASHA’s pioneers exhibit is the official American life. Hugh Morris’s memorial “The Joyous Pathfinder” is the one that sounds like a friend. Read both. Then read a page of *Speech Correction* and notice that the sentences are shorter than this one. That was the gift. He could be famous and still write for a junior.
 
 **Further in this series.** Iowa (essay 07). Johnson (29). From correction to CSD (essay 15).

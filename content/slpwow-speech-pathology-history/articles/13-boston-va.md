@@ -17,6 +17,19 @@ Harold Goodglass arrived at the National Veterans Aphasia Center in Framingham i
 
 By the mid-1950s the work had shifted toward the Boston VA Hospital in Jamaica Plain and, later, a Boston University affiliation. Edith Kaplan, Norman Geschwind, then a long corridor of names — Jean Berko Gleason, Martin Albert, Nancy Helm-Estabrooks, Sheila Blumstein, Edgar Zurif — made the place, for a while, the loudest room in English-language aphasiology.
 
+<figure class="slpwow-figure slpwow-figure--schematic">
+  <img
+    src="../assets/boston-va/boston-va-team.svg"
+    alt="Teaching diagram of the Boston VA hallway: Harold Goodglass, Edith Kaplan, Norman Geschwind, and later colleagues around the ward practice that became the Boston Diagnostic Aphasia Examination."
+    width="920"
+    height="380"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Jamaica Plain hallway (teaching schematic). A lunch table that became a style — not every badge on the ward. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## A test grown on the ward
 
 Around 1960 Goodglass began standardizing the battery that Lea & Febiger published in 1972 as *The Assessment of Aphasia and Related Disorders*, with the Boston Diagnostic Aphasia Examination inside it. Kaplan’s name is on the book. A third edition, with Barbara Barresi, appeared in 2001. Translations followed. The cookie-theft picture became, absurdly, a piece of world culture: a kitchen, a stool, a sink overflowing, a child up to no good. Clinicians in other languages still point at that American kitchen.

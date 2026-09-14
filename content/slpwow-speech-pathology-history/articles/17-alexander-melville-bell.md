@@ -22,7 +22,7 @@ The Library of Congress print is a late photograph: white beard, dark coat, the 
 
 ## Edinburgh, then the alphabet
 
-He was born in Edinburgh in 1819, son of Alexander Bell, who already sold elocution. Melville lectured on the subject at the University of Edinburgh (1843–1865) and at the University of London (1865–1870). The family trade was practical: stammering, thick accents, the pulpit, the bar. He wanted a notation that did not depend on a particular language’s spelling.
+He was born in Edinburgh on 1 March 1819, son of Alexander Bell, who already sold elocution. In 1844 he married Eliza Grace Symonds. Three sons lived long enough to enter the story: Melville James, Edward Charles, and Alexander Graham. Tuberculosis later took the first two. Melville lectured on elocution at the University of Edinburgh (1843–1865) and at the University of London (1865–1870). The family trade was practical: stammering, thick accents, the pulpit, the bar. He wanted a notation that did not depend on a particular language’s spelling.
 
 Visible Speech appeared as a system in 1864 and as a book in 1867: *Visible Speech: The Science of Universal Alphabetics*. The letters are stylized pictures of the vocal organs. A reader who learned the code, Melville claimed, could pronounce a language he had never heard. He also claimed the same marks could teach articulation to people who stammered and to deaf pupils.
 
@@ -32,7 +32,9 @@ The second claim is the one that pulled the family across the Atlantic. In 1868 
 
 After the deaths of two sons from tuberculosis, the remaining family left Britain. Melville spent time in Brantford and, late in the 1870s, taught philology at Queen’s College, Kingston. In 1881 he and his wife Eliza Grace Symonds moved to Washington, D.C., where their surviving son was already a public man. The Volta Bureau became a family imprint. Melville’s late titles wear its address: *English Visible Speech in 12 Lessons* (1893), *The Science of Speech* (1897), *Principles of Speech and Dictionary of Sounds* (1900), with the old promise in the subtitle — stammering, faults of articulation, exercises.
 
-He died in 1905. The son had twenty-two years left.
+He died in Washington, D.C., on 7 August 1905. The son had seventeen years left.
+
+The 1864 public demonstrations — Edinburgh audiences watching a stranger read sounds from marks — are the origin story Melville preferred. Later phoneticians preferred Henry Sweet and then the IPA. Both stories can be true: a showman’s alphabet can still be the first time a teacher sees a mouth as something you can write down. The Volta Bureau reprints kept the show in print after the profession had moved on.
 
 ## What to keep, what to leave
 

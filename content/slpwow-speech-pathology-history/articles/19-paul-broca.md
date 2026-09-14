@@ -22,7 +22,7 @@ Pierre Petit photographed him in the studio style of the Second Empire: dark coa
 
 ## Sainte-Foy to Bicêtre
 
-He was born 28 June 1824 at Sainte-Foy-la-Grande. He trained in Paris, became a surgeon, a professor, a politician late. The scientific fame is localization of articulated speech to the third left frontal convolution, announced after the death of Louis Victor Leborgne, the Bicêtre patient who had said “tan” for years. Broca’s 1861 remarks to the Société Anatomique, and the cases that followed, made “aphemia” — his first word — into a public fact. The world later said *aphasia* and put his name on the nonfluent type.
+He was born 28 June 1824 at Sainte-Foy-la-Grande. He trained in Paris, became a surgeon, a professor, a politician late. The scientific fame is localization of articulated speech to the third left frontal convolution, announced after the death of Louis Victor Leborgne. Leborgne died at Bicêtre on 17 April 1861; Broca examined the brain the next day and spoke to the Société Anatomique shortly after. The man had said “tan” for years. Broca’s remarks, and the cases that followed, made “aphemia” — his first word — into a public fact. The world later said *aphasia* and put his name on the nonfluent type.
 
 He had predecessors. Gall, Bouillaud, Auburtin. Broca had the specimen and the society. Medicine rewards the person who brings the brain to the meeting.
 
@@ -30,7 +30,7 @@ Leborgne had been at Bicêtre for years with a right hemiplegia and almost no sp
 
 ## The other laboratory
 
-The same career includes the Société d’Anthropologie de Paris (he founded it in 1859), a flood of cranial measurements, and racial rankings that later science discarded and later ethics condemned. The man who gave the field a frontal convolution also gave the nineteenth century a scientific vocabulary for hierarchy. A profile that prints only the convolution is doing public relations for a lecture slide.
+The same career includes the Société d’Anthropologie de Paris (he founded it in 1859), a flood of cranial measurements, and racial rankings that later science discarded and later ethics condemned. He argued with Pierre Gratiolet about whether the frontal lobes were the seat of higher function; Leborgne arrived in the middle of that argument, not as a free-floating miracle. The man who gave the field a frontal convolution also gave the nineteenth century a scientific vocabulary for hierarchy. A profile that prints only the convolution is doing public relations for a lecture slide.
 
 ## What speech-language pathology actually inherited
 
@@ -41,5 +41,7 @@ A pair of names: Broca’s area, Broca’s aphasia. Both names are too tidy for 
 A habit of the specimen: the brain in the jar, the photograph, the paper. Goodglass’s Boston and Schuell’s Minnesota are behavioral answers to that habit. They keep the respect for pattern and drop the wait for autopsy.
 
 Broca died 9 July 1880 in Paris. Wernicke’s pamphlet was six years old. Gutzmann was fifteen. The American academy was forty-five years away. The line from Bicêtre to a modern therapy hour is real and thin. It runs through wars, VA wards, and a lot of people Broca would not have hired.
+
+Keep the 1861 date. Keep Leborgne’s name. Leave the racial anthropology in the same vita. A lecture that uses “Broca’s area” as a mascot and never mentions the Société d’Anthropologie is teaching a cartoon. The jars still exist. So does the argument about how much cortex the 1861 paper actually saw.
 
 **Further in this series.** The lesion essay (02). Wernicke (20). The people who sat with the living (Schuell, Goodglass, Luria).

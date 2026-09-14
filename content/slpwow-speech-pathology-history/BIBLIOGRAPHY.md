@@ -59,6 +59,9 @@ Articles cite contested facts in the text. This file holds the warrant.
 - Greene, Margaret C. L. *The Voice and Its Disorders.* 1957 (later eds.; 6th ed. updated by Lesley Mathieson, 2001).
 - Schuell, Hildred, James J. Jenkins, and Edward Jiménez-Pabón. *Aphasia in Adults: Diagnosis, Prognosis, and Treatment.* New York: Hoeber, 1964.
 - Templin, Mildred C. *Certain Language Skills in Children: Their Development and Interrelationships.* Minneapolis: University of Minnesota Press, 1957.
+- Templin, Mildred C., and Frederic L. Darley. *The Templin-Darley Tests of Articulation.* Iowa City: Bureau of Educational Research and Service, State University of Iowa, 1960.
+- Fröschels, Emil. *Lehrbuch der Sprachheilkunde (Logopädie) für Ärzte, Pädagogen und Studierende.* Leipzig and Vienna: Franz Deuticke, 1913 (2nd ed. 1925; 3rd ed. 1931).
+- Lichtheim, Ludwig. “Über Aphasie.” *Deutsches Archiv für klinische Medicin* 36 (1885): 204–268.
 - McDonald, Eugene T. *Articulation Testing and Treatment: A Sensory-Motor Approach.* Pittsburgh: Stanwix House, 1964.
 - McDonald, Eugene T., and Herbert Koepp-Baker. “Cleft Palate Speech: An Integration of Research and Clinical Observation.” *JSHD* 16 (1951): 9–20.
 - Johnson, Wendell, Frederic L. Darley, and D. C. Spriestersbach. *Diagnostic Methods in Speech Pathology.* 1963.

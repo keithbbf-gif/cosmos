@@ -24,11 +24,13 @@ M.D., University of Vienna, 1907. (Ignore pages that say “Jena in Vienna.”) 
 
 In 1924 he took the Neumann speech and hearing service, called it a logopedics clinic, and founded the International Association of Logopedics and Phoniatrics. He remained IALP’s chair until 1953. With Karl Cornelius Rothe he helped start a Vienna school for speech-disturbed children. In 1926, with Alfred Adler and Leopold Stein, he opened an individual-psychology outpatient clinic for speech disorders at the Poliklinik. He taught at the teacher-training institute and the conservatory. He presided over the Austrian Society for Experimental Phonetics from 1926 to 1938.
 
-This is not a man waiting for Iowa to invent him.
+This is not a man waiting for Iowa to invent him. Wien Geschichte Wiki puts the wartime service and the 1914 habilitation in the same short life-note as the IALP founding. The city wiki is the check on web pages that move his M.D. to Jena. Vienna, 1907, is the degree.
 
 ## Methods, without a recipe card
 
-Later American textbooks mention a “chewing method” and other Viennese voice tricks, sometimes with his name, sometimes stripped. This series will not reconstruct those as home exercises. What belongs here is the stance: speech trouble as a medical, pedagogical, and psychological fact at once. Urbantschitsch’s auditory training, Gutzmann’s Berlin measurements, Freud’s and Adler’s city — Fröschels took from all three and refused to be only a laryngologist.
+The book that named the stance is earlier than the congress. *Lehrbuch der Sprachheilkunde (Logopädie)* appeared with Franz Deuticke in Leipzig and Vienna in 1913 — 397 pages, plates, a subtitle that already lists the audience: physicians, pedagogues, and students. Second edition 1925; third, 1931, fatter. The IALP word of 1924 had a textbook waiting for it.
+
+Later American textbooks mention a “chewing method” (*Kaumethode*) and other Viennese voice tricks, sometimes with his name, sometimes stripped. This series will not reconstruct those as home exercises. What belongs here is the stance: speech trouble as a medical, pedagogical, and psychological fact at once. Urbantschitsch’s auditory training, Gutzmann’s Berlin measurements, Freud’s and Adler’s city — Fröschels took from all three and refused to be only a laryngologist.
 
 ## 1938–1940–1972
 

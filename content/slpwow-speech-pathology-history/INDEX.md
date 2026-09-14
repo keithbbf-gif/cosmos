@@ -6,7 +6,7 @@ Staged series for **SLPWOW.com**. Pack path: `content/slpwow-speech-pathology-hi
 
 **Voice check.** Every article carries `voice_check: human`. House rules: `STYLE_GUIDE.md`.
 
-**Graphics.** Seed SVGs and pending portrait plates live under `assets/` and `embeds/`. See `GRAPHICS_CHECKLIST.md`.
+**Graphics.** Seed SVGs, second-wave schematics (Vienna, war wards, Boston VA, Mayo clusters, global names), and pending portrait plates live under `assets/` and `embeds/`. See `GRAPHICS_CHECKLIST.md`.
 
 **Count.** 40 articles — 16 era/overview essays, 24 major-figure profiles. Stretch roster; no padding biographies.
 

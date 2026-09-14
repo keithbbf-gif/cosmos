@@ -28,10 +28,12 @@ Library catalogs print him as McDonald, Eugene T. (Eugene Thomas), 1916–. The 
 
 ## Boards, not just mouths
 
-“Communication Boards for Cerebral-Palsied Children,” with Adeline R. Schultz, *JSHD* 38 (1973), sits in the ancestry of AAC. McDonald also appears in the 1975 Trace Center workshop volume on non-vocal communication techniques. A man known for palates and /s/ was already writing about boards for children who would not talk with their mouths. That is worth more than a sentimental reading. It means he followed the impairment to the tool.
+“Communication Boards for Cerebral-Palsied Children,” with Adeline R. Schultz, *JSHD* 38 (1973), sits in the ancestry of AAC. McDonald also appears in the 1975 Trace Center workshop volume on non-vocal communication techniques, edited by Gregg Vanderheiden and Kate Grilley. Japanese translations of the cerebral-palsy and parent titles in the 1960s (CiNii records) show the books leaving State College. A man known for palates and /s/ was already writing about boards for children who would not talk with their mouths. That is worth more than a sentimental reading. It means he followed the impairment to the tool.
+
+Hess and McDonald’s 1960 *JSHR* paper on consonantal nasal pressure in cleft-palate speakers is the laboratory cousin of the 1951 clinical essay: a number on a manometer instead of a paragraph of “sounds nasal.” Bloomer was doing related palate work at Michigan in the same years. The two campuses were not a school. They were a conversation.
 
 ## What we do not have
 
-A full birthplace, a dissertation title, a death notice, a photograph we can legally keep. The Honors year (1976) and the Penn State affiliation are solid. The 1916 birth year is the Library of Congress / catalog year. A profile with those holes is still better than a generated childhood. The work is on the shelf. The missing dates are listed as missing.
+A full birthplace, a dissertation title, a death notice, a photograph we can legally keep. The Honors year (1976) and the Penn State affiliation are solid. The 1916 birth year is the Library of Congress / catalog year. Penn State’s cleft and cerebral-palsy caseload in those decades was the laboratory that made the books possible; the campus is the fact we have instead of a hometown. A profile with those holes is still better than a generated childhood. The work is on the shelf. The missing dates are listed as missing.
 
 **Further in this series.** Bloomer (31). Morley (39), the British cleft book. Women and parent pamphlets (essay 10).

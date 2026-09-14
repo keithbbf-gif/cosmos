@@ -34,6 +34,8 @@ Minneapolis Child Guidance Clinic and a Minnesota medical professorship, 1924–
 
 Speech pathology remembers the 1914–1924 clinic and the doctoral students, Stinchfield and West. The later Blanton is a different American type: the psychiatrist who writes for the general reader and shares a letterhead with a famous pastor. Both are him.
 
+University of Tennessee holds the papers. Wisconsin holds the clinic’s institutional memory. Margaret’s diary of the Freud analysis is a primary source for the later mind, not for the 1914 timetable. When a later sketch makes Blanton a full-time speech pathologist until 1966, it is telescoping. He left the campus clinic and became a psychiatrist who still wrote about stutterers. The field kept the clinic; he kept the couch.
+
 ## What the clinic meant
 
 It meant a physician, not an elocutionist, on a campus speech budget. It meant “mental hygiene,” a phrase with Progressive steel in it. It meant stuttering as a family event. Later Iowa would try to make stuttering a laboratory event. Both experiments are still in the furniture.

@@ -17,6 +17,19 @@ In 1969 the *Journal of Speech and Hearing Research* printed two papers that sti
 
 They came out with names a student can still recite: flaccid, spastic, ataxic, hypokinetic, hyperkinetic, and a mixed flaccid-spastic picture in amyotrophic lateral sclerosis. The first paper was “Differential Diagnostic Patterns of Dysarthria.” The second, “Clusters of Deviant Speech Dimensions in the Dysarthrias.” The book, *Motor Speech Disorders*, arrived in 1975 from W. B. Saunders.
 
+<figure class="slpwow-figure slpwow-figure--chart">
+  <img
+    src="../assets/mayo-motor-speech/dysarthria-clusters.svg"
+    alt="Teaching schematic of the 1969 Mayo dysarthria cluster names: flaccid, spastic, ataxic, hypokinetic, hyperkinetic, and mixed. Not a diagnostic instrument."
+    width="920"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> 1969 Mayo names (schematic). Labels from the papers — not a test, not patient audio, not a Friday-morning shortcut. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## How speech pathology got into Mayo
 
 Mayo’s own otologic history records LeRoy Hedgecock, Ph.D., hired in 1949 as the first consulting audiologist. Hedgecock had been a speech pathologist at Indiana and Minnesota; he brought speech work with him until the neurology department appointed Josephine Simonson, M.A., Fredric L. Darley, Ph.D., and Arnold E. Aronson, Ph.D., about six years later. The spelling “Fredric” in that institutional PDF is a clerk’s variant; the papers and the 2001 memorial issue use Frederic.

@@ -34,6 +34,8 @@ A British professional timeline dates her speech clinic to the Almoner’s Depar
 
 She also argued that voice was not a mouth trick. Posture, breath, the rest of the body — “body and voice,” later teachers called it. That is theatre pedagogy. It became, in British training, part of the clinician’s ear.
 
+The Central School later published its own timeline of the speech-therapy department. Use that house history for course names and later heads; use Palmes for the argument about class. Do not collapse Fogerty into “the British Van Riper.” She founded a school that trained actors who also learned to hear disordered speech. The American clinic founders usually started from psychology or medicine and added theatre later, if at all.
+
 ## Empire English
 
 Fogerty cared about the “mother tongue” in a way a 2026 reader will not always like. Standard spoken English, verse speaking, the slum child who must be improved — the program has class and empire in it. Palmes’s dissertation is the place to go for the full argument. This profile will not wash it. The clinic and the prejudice grew in the same school.

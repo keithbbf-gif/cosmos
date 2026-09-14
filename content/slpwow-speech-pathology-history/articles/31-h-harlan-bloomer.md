@@ -22,7 +22,9 @@ Henry Harlan Bloomer took a University of Michigan Ph.D. in 1935 — *A Method o
 
 By 1942 he was publishing in the *Journal of Speech Disorders* on a simple method for testing the hearing of small children. In 1943, as Henry Harlan Bloomer, he described a palatograph for contour-mapping the palate in the *Journal of the American Dental Association*. In 1953, “Observations on Palatopharyngeal Movements in Speech and Deglutition” in *JSHD* — a paper dentists and surgeons still find in old bibliographies. In 1958, with Paul Gibbons, a supportive-type prosthetic speech aid in the *Journal of Prosthetic Dentistry*. In 1968, with David Prins, consonant intelligibility as a way to evaluate speech in oral-cleft patients.
 
-This is not a stuttering life. It is a Michigan life: respiration, palate, prosthesis, the child who cannot close the velopharyngeal port, the joint clinic with dentistry and ENT.
+This is not a stuttering life. It is a Michigan life: respiration, palate, prosthesis, the child who cannot close the velopharyngeal port, the joint clinic with dentistry and ENT. The 1935 dissertation title is the giveaway. He started with the diaphragm as a measurable factor and spent sixty years refusing to treat the vocal tract as a mystery the surgeon owned alone.
+
+Ann Arbor’s speech clinic in those decades sat inside a university that also had a strong medical school. Bloomer used that accident. Palatography and cinefluorography were not hobbies. They were ways to put a picture in a chart that a prosthodontist and a speech person could point at together. McDonald was doing the parent-pamphlet and sensory-motor version of the same conversation at Penn State. The two men do not need to have been friends for the conversation to be real.
 
 ## The 1955 gavel and a 1956 syllabus
 

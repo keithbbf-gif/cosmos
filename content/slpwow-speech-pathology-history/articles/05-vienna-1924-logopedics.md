@@ -19,6 +19,19 @@ In 1924 Emil Fröschels gave the work a word he could take across a border. *Log
 
 The same year he founded the International Association of Logopedics and Phoniatrics. He chaired it from 1924 until 1953, which is a long time to hold a gavel. IALP still meets. The word still appears on European diplomas, on South American university doors, on Japanese department letterheads. American students who have never heard it meet it the first time they read a foreign CV.
 
+<figure class="slpwow-figure slpwow-figure--schematic">
+  <img
+    src="../assets/vienna-1924-logopedics/ialp-europe-schematic.svg"
+    alt="Schematic placing the 1924 Vienna founding of IALP beside the 1925 New York founding of the American Academy of Speech Correction, with Berlin phoniatrics and British speech therapy as neighboring traditions."
+    width="920"
+    height="400"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Figure 1.</strong> Two rooms, one year (schematic). IALP and the American academy almost touch on a calendar; they do not share a culture. <span class="figure-credit">SLPWOW History series — editorial graphic.</span>
+  </figcaption>
+</figure>
+
 ## The city that trained the century
 
 Fröschels took his M.D. at the University of Vienna in 1907. (A widely copied web page says “Jena in Vienna.” That is a slip. The Viennese records and the city wiki are clear.) He trained at the First University Ear Clinic under Viktor Urbantschitsch and then Heinrich Neumann. Urbantschitsch had already built an elaborate auditory-training practice for deaf children. The German speech doctors — Gutzmann, Liebmann, Treitel — were a train ride away. Sigmund Freud’s circle was a walk. Later Fröschels worked with Alfred Adler’s individual psychology and, in 1926, opened a speech clinic at the Poliklinik with Adler and Leopold Stein.

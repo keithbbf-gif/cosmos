@@ -26,6 +26,8 @@ With Fred Quadfasel he showed, in *Brain* (1954), that most left-handed people w
 
 The corridor mattered as much as the vita. Geschwind brought nineteenth-century disconnection back into English. Kaplan insisted on the *process* of the error. Helm-Estabrooks later took the same hallway into treatment manuals. Goodglass’s gift was to keep the argument on the page — scored, named, and still attached to a veteran in a chair — instead of letting it float as theory.
 
+He liked syndromes more than Schuell did, and he said so by building a battery that assumed syndromes were worth scoring. The cookie-theft picture is the celebrity. The quieter inheritance is the permission to disagree in numbers: fluency, repetition, comprehension, naming, written down so a student in another city could fail the same way. NIH money kept the Aphasia Research Center open long enough for that permission to become a curriculum.
+
 ## The kitchen sink
 
 The Boston Diagnostic Aphasia Examination grew on the ward around 1960 and was published in 1972. Second edition 1983. Third, with Kaplan and Barbara Barresi, 2001. The cookie-theft picture is the thing strangers know. The scoring of fluency, repetition, comprehension, and naming is the thing students sweat. Kaplan’s name belongs on every mention. Goodglass did not pretend otherwise.
