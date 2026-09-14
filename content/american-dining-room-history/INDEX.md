@@ -1,7 +1,7 @@
 ---
 title: Index — American Dining Room Furniture, 1700–Now
 status: draft
-voice_check: human
+voice_check: edited
 series: american-dining-room-history
 ---
 
