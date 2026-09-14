@@ -4,6 +4,8 @@ title: The fastener rusts first. Design as if you knew that.
 stage: 08-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

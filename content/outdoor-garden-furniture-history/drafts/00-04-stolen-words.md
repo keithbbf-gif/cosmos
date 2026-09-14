@@ -4,6 +4,8 @@ title: All-weather, teak, wrought, patio set — words that got stolen
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

@@ -4,6 +4,8 @@ title: Coalbrookdale put the garden on a pattern plate
 stage: 02-european-garden
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

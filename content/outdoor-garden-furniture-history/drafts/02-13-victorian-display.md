@@ -4,6 +4,8 @@ title: The Victorian garden was a display case with a weather problem
 stage: 02-european-garden
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

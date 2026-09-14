@@ -4,6 +4,8 @@ title: The peristyle is the first outdoor room that still makes sense
 stage: 01-old-world
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

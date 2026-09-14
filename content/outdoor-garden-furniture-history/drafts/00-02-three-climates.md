@@ -4,6 +4,8 @@ title: Porch, patio, open lawn — three climates that keep getting one name
 stage: 00-frame
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
@@ -38,4 +40,4 @@ I will ask the climate question twice because people answer with a zip code. A z
 
 Three climates. Three assignments. One lazy word that keeps trying to do all three jobs. Take the word away. Name the roof. Then we can talk about teak.
 
-The next draft is who is talking, because a shop that builds indoor work has to say what it will not invent about the garden.
+Next I have to say who is talking — and what a shop that builds indoor work will not invent about the garden.

@@ -4,6 +4,8 @@ title: All-weather weave is plastic with a memory of rattan
 stage: 06-woven
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

@@ -4,6 +4,8 @@ title: Teak is oil and silica, not a finish color
 stage: 04-wood
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

@@ -114,6 +114,10 @@ def main() -> int:
             errors.append(f"{path.name}: channel must be BBF")
         if meta.get("voice") != "shop-floor-first-person":
             errors.append(f"{path.name}: voice must be shop-floor-first-person")
+        if meta.get("voice_check") != "edited":
+            errors.append(f"{path.name}: voice_check must be edited")
+        if not meta.get("last_edited"):
+            errors.append(f"{path.name}: missing last_edited")
         ident = meta.get("id", "")
         if ident in ids:
             errors.append(f"duplicate id {ident}")

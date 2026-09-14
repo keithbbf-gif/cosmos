@@ -4,6 +4,8 @@ title: Winter is a design brief, not a surprise in March
 stage: 08-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

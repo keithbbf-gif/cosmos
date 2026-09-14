@@ -4,6 +4,8 @@ title: Cedar and cypress are the American outdoor woods that already voted
 stage: 04-wood
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

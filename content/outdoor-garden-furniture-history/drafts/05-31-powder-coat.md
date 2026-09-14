@@ -4,6 +4,8 @@ title: Powder coat is a baked film, not a metal
 stage: 05-metal
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8

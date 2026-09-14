@@ -4,11 +4,13 @@ title: BBF collections can sit beside this weather without lying
 stage: 08-shop
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 8
 standalone: true
-educational_claim: Keith Fritz Fine Furniture collections are indoor neighbors to this history. Adjacent means shared duties — joinery, finish honesty, refusal — not a invented patio SKU list or a caption that launders a slab into a dining room.
+educational_claim: Keith Fritz Fine Furniture collections are indoor neighbors to this history. Adjacent means shared duties — joinery, finish honesty, refusal — not an invented patio SKU list or a caption that launders a slab into a dining room.
 topics: [shop, bbf, collections, adjacent, refusal]
 sequence_after: ogfh-08-43
 ---

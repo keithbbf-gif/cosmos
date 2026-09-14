@@ -4,6 +4,8 @@ title: The American porch is a room that kept a draft on purpose
 stage: 03-american-porch
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 9

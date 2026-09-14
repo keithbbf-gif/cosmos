@@ -59,6 +59,8 @@ This landing is **44 staged drafts**. Machine index: `MANIFEST.json`.
 
 ## Check the set
 
+After an editor pass, every draft carries `voice_check: edited` and `last_edited: YYYY-MM-DD` beside `voice: shop-floor-first-person`. The validator fails closed if either is missing.
+
 ```bash
 python3 content/outdoor-garden-furniture-history/validate_staging.py
 python3 content/outdoor-garden-furniture-history/validate_staging.py --write-manifest

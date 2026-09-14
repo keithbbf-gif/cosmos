@@ -4,6 +4,8 @@ title: Cushions are not furniture. They are a weather argument you can fold.
 stage: 07-other
 status: staged
 voice: shop-floor-first-person
+voice_check: edited
+last_edited: 2026-09-14
 form: spoken-narrative
 channel: BBF
 runtime_min: 9
