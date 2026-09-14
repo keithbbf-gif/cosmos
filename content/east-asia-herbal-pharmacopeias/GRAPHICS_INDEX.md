@@ -1,5 +1,7 @@
 # Graphics index — image + SEO caption pass (2026-09-14)
 
+Rights policy and caption contract: `RIGHTS.md` (PD / CC BY / CC BY-SA plates; no AI faces).
+
 Forty-five draft essays each carry **one lead `<figure>`** with lazy-loaded museum/library art (no repo binaries). Rights rows: `assets/figures/REGISTRY.toml`. Policy: `_editorial/PHOTO_NOTES.md`.
 
 Regenerate embeds after registry edits:
