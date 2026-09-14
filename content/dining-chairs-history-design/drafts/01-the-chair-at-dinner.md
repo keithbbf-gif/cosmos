@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 1
-word_count: 1684
+word_count: 1585
 dek: "Dinner is a pair: a table height and a seat that has to clear the apron, take a hip, and last the meal. The room is another series. This one is the chair."
 topic: culture
 era: "long"
@@ -80,6 +80,14 @@ Read in order if you like a story. Or steal the essay that matches the chair in 
 Every piece is a draft. WordPress import stays draft. Photographs are pending: museum licenses or a shop file with a real credit. Claims I cannot pin get `[VERIFY]` or `[CITE NEEDED]`. If a number is a habit and not a law, I will say habit.
 
 The sibling survey — splat to ladder — remains the place to watch American backs change as a set. This opener is only the claim that dinner will find the gap. If you remember one contact from this page, remember the thigh and the apron. The rest of the series is what people built to survive that contact, and what they built to ignore it.
+
+## What I will not do in this folder
+
+I will not write a second history of the American dining room. The room pack already invented the room, walked the ports, and sat Hitchcock in a mill. I will not write an office-chair buyer’s guide with oak in the photographs. I will not certify a dining chair to BIFMA and call that dinner. I will not invent a Wilmar seat height as a house law. I will not sell you a SKU.
+
+I will name a chair when the object is the point, and I will name a number when a tape produced it. When the paper is thin I will mark `[VERIFY]` or `[CITE NEEDED]` and leave the hole visible. That is the same honesty as a dry-fit that still shows daylight.
+
+If you came here from a search for “dining chair history,” start with the type hours and then steal the measuring essay before you buy six. If you came here because your thighs hurt, start at the gap. The splat can wait. Fashion lives above the rail. The complaint usually lives below it.
 
 ## Sources
 

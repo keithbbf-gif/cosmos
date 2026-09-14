@@ -5,7 +5,7 @@ series: dining-chairs-history-design
 status: draft
 voice_check: human
 reading_order: 2
-word_count: 1722
+word_count: 1425
 dek: "Most people who have eaten did not sit in a backed chair. The stool and the bench are the older dining seats. The back is the late luxury that dinner learned to expect."
 topic: history
 era: "long, before the backed type"
