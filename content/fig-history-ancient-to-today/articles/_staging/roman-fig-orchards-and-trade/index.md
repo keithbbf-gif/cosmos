@@ -102,6 +102,8 @@ Do not invent a *collegium* of fig merchants. Do not print a Diocletianic fruit 
 
 The denarius is origin-as-story. Cato is soil-as-risk. Columella is staff-as-year. Pliny is appetite-as-afternoon. Four desks. One species. Do not let the wolf steal the villa.
 
+Cato died in 149 BCE. The Ficus Ruminalis denarius is 137 BCE — a generation after the farm book. Ritual tree on silver; marisca on chalk in Latin. Same species. Two desks that never met in a packing house. A *vilicus* who planted Saguntine fruit in Latium was remembering a Spanish coast as a flavor, not founding a city with a wolf. Ostia and Puteoli still needed space in a hold that already carried oil and wine. Figs took what was left, or space a factor had already bought.
+
 ## Sources for this piece
 
 - Cato, *De Agri Cultura* 8.1 (via Pliny 15.19).

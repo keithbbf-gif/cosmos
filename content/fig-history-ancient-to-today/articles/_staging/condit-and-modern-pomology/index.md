@@ -17,6 +17,7 @@ figures:
   - shared.chart-variety-regions
   - shared.timeline-master
   - condit.usda-royal-black
+  - condit.usda-nameless
 categories:
   - History of the Fig
 tags:
@@ -84,11 +85,18 @@ Gustav Eisen’s 1901 USDA bulletin is the English book of the wasp decade — h
 
 Brown Turkey stays a pile in the glossary because Condit could not make it one clone and neither can a backyard tag. Mission stays a California market name with a 1769 corridor story. Calimyrna stays a stitch. Dottato stays wood with two stamps. The house English lives in is a sorting house. The tonne board moved. The PDF stayed.
 
+Mary Daisy Arnold painted the matching grief in so many words. A card from Hattiesburg, Mississippi, 1915, for L. E. Hall, is labeled **Nameless**. Whole fruit, a cut face, no clone to hang it on. Pomeroy’s “Royal Black” in Washington five years earlier at least offered a noun. Arnold offered a shrug. Condit’s 1955 job was to take such shrugs and either find a name or put them in a pile. Forums later invented Romans to fill the blank. The card is the honest blank.
+
+<!-- figure-id: condit.usda-nameless -->
+![USDA watercolor of a fig labeled Nameless, Hattiesburg, 1915.](../../../assets/images/condit-and-modern-pomology/usda-pom-01044-nameless.jpg)
+
+*Figure 4. Mary Daisy Arnold, “Nameless,” L. E. Hall, Hattiesburg, Mississippi, 1915. USDA NAL POM00001044. Public domain. A government shrug Condit had to sort.*
+
 ## Sources for this piece
 
 - Condit 1947; *Hilgardia* 23 (1955): 323–538 (UC Davis PDF).
 - *HortScience* 2024 attribute database (717 cultivars extracted).
 - *PLOS ONE* 2022 NCGR Davis SSR re-evaluation; Storey 1975.
-- USDA NAL POM00001045 (Royal Black).
+- USDA NAL POM00001045 (Royal Black); POM00001044 (Nameless, Hattiesburg, 1915).
 
 See `BIBLIOGRAPHY.md`.

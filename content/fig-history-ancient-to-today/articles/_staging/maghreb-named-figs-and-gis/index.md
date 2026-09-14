@@ -83,6 +83,14 @@ Do not invent a Berber origin myth. Do not back-date Bouhouli to a villa mosaic 
 
 Aydın owns a grocery memory in English. The Maghreb owns volume, two stamps, and a lot of unnamed hills. Print the arrêtés. Leave Cato two articles away as a Senate joke, not a title deed.
 
+## Three paper dates, two faces
+
+In this pack’s legal timeline the Maghreb fenced named fruit first. Figue de Djebba, 2012. Figue sèche Nabout de Taounate, arrêté 1680-15, 25 May 2015 (WIPO Lex MA167). Aydın İnciri, EU 17 February 2016. The English grocery’s favorite tray got its Brussels number after Bouhouli of Djebba and dried Nabout of Taounate already had paper. That order is easy to invert if you only read European supermarket shelves.
+
+The two Maghreb stamps are not the same face. Djebba’s Bouhouli is a living named fig on a Béja slope — Tunisia’s first fruit GI, a ministry deciding a cheaper tray should not wear the word. Taounate’s Nabout is a living named *dried* fig. Fresh-local and household-dry, two substitution problems, two legal dialects. Algeria’s front-rank FAOSTAT years still sit outside this pair of stamps. Household trees and drying hills can out-produce a GI and never hire a lawyer. That is volume without a fence.
+
+Khadari’s 2025 Moroccan–Algerian pool is a western Mediterranean laboratory shape. It can sit in a genetics paragraph. It cannot sit in 1680-15 as a bloodline. Cato’s African soil class in *De Agri Cultura* 8.1 remains a villa sentence. Pliny’s Senate fig remains a joke about a city Rome wanted to hate. Neither is a title deed for Béja or Taounate. Re-check the FAOSTAT year before a table. Leave the slopes older than the paper. Do not invent a Berber cosmogony. Do not let a tourism page turn Djebba into the oldest fig on earth.
+
 ## Sources for this piece
 
 - Figue de Djebba GI 2012 (PAMPAT / UNIDO institutional notes).

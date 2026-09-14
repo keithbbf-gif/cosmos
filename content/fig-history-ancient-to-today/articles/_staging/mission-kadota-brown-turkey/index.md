@@ -17,6 +17,7 @@ figures:
   - shared.chart-variety-regions
   - mission-kadota.calimyrna-1912
   - mission-kadota.celeste
+  - mission-kadota.magnolia-1913
 categories:
   - History of the Fig
 tags:
@@ -95,8 +96,13 @@ Elsie Lower Pomeroy’s 1912 Calimyrna watercolor, painted in Fresno, is the was
 
 *Figure 3. Mary Daisy Arnold, Celeste, Cape Charles, Virginia, 1911. USDA NAL POM00007441. Public domain. An Eastern Common type, not a San Joaquin commercial five.*
 
+<!-- figure-id: mission-kadota.magnolia-1913 -->
+![USDA watercolor of Magnolia figs, Arlington Farm, 1913.](../../../assets/images/mission-kadota-brown-turkey/usda-pom-01043-magnolia.jpg)
 
-Adriatic — pale, common-type, a drying hope — lost the tasting against seeded Sarılop and stayed a name-pile of its own. Celeste never joined that fight; it was an Atlantic backyard and a Virginia card. Fresh retail later wrote Black Mission as a spelling of Mission and added “Italian” and “French” tags that may not match Condit’s cards. Shelves wanted five names. Collectors wanted the rest. Condit wrote both rooms.
+*Figure 4. Mary Daisy Arnold, Magnolia, Arlington Farm, Rosslyn, Virginia, 25 September 1913. USDA NAL POM00001043. Public domain. A federal-farm Common type. Not a fifth California name.*
+
+
+Arnold painted Magnolia two years after Celeste, still on the Atlantic side of the argument: Arlington Farm, Rosslyn, Virginia, 25 September 1913. A USDA experiment farm, a named Eastern Common fig, a government card that never joined Mission–Kadota–Calimyrna–Adriatic–Turkey. Mid-century circulars taught a continent five names. The watercolor desk had already been painting the rest.
 
 ## Factory white, corridor black
 
@@ -111,6 +117,6 @@ Celeste at Cape Charles, Virginia, in 1911 is the reminder that American fig cul
 - Condit 1947; *Hilgardia* 1955.
 - *HortScience* 2024 Condit-attribute database (717).
 - UC circulars on the commercial five.
-- USDA NAL POM00007440 (Calimyrna); POM00007441 (Celeste).
+- USDA NAL POM00007440 (Calimyrna); POM00007441 (Celeste); POM00001043 (Magnolia).
 
 See `BIBLIOGRAPHY.md`.

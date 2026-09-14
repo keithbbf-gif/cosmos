@@ -18,6 +18,7 @@ figures:
   - shared.caprification-cycle
   - shared.timeline-master
   - smyrna.usda-endgere
+  - smyrna.usda-first-crop-1897
 categories:
   - History of the Fig
 tags:
@@ -98,11 +99,18 @@ Eisen’s 1901 USDA bulletin is the English book of the moment because he had al
 
 The Endgere card is from the man who paid for the wait, in the summer the insect arrived. That is enough picture. Schwarz’s 1900 season is the English report. Eisen’s 1901 bulletin is the book. Prefer 1899.
 
+Bertha Heiges painted another Roeding sheet two years earlier. “First Crop Smyrna,” from Geo. C. Roeding, Fresno, dated July 1897: a whole pale fruit, a cut face, and a second-crop outline marked unfinished because the specimen passed. That is the expensive wait in watercolor — cuttings since 1881–82, still no established wasp. Do not read the 1897 cut face as Schwarz’s 1900 seeded crop. The Endgere card of August 1899 sits on the other side of Howard and Swingle’s spring. This one sits on the near side.
+
+<!-- figure-id: smyrna.usda-first-crop-1897 -->
+![USDA watercolor of First Crop Smyrna from Roeding’s Fresno orchard, July 1897.](../../../assets/images/smyrna-fig-caprification-usa/usda-pom-01166-first-crop-smyrna.jpg)
+
+*Figure 4. Bertha Heiges, “First Crop Smyrna,” from Geo. C. Roeding, Fresno. USDA NAL POM00001166. Public domain. Sheet dated 7/97. Second crop unfinished. The wait, not the 1900 report.*
+
 ## Sources for this piece
 
 - Schwarz, “A Season’s Experience…” (1900; 62 acres; 1899 introduction).
 - UC ANR circular (Howard, Swingle, Roeding, 1900–01).
 - Eisen 1901; Condit 1947 (Gasparrini; navel/Valencia).
-- USDA NAL POM00001071 (Heiges, Endgere, Roeding, 8/14/99).
+- USDA NAL POM00001071 (Heiges, Endgere, Roeding, 8/14/99); POM00001166 (Heiges, First Crop Smyrna, 7/97).
 
 See `BIBLIOGRAPHY.md`.

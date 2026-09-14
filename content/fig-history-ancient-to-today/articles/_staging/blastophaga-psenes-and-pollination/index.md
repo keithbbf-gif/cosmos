@@ -17,6 +17,7 @@ figures:
   - shared.caprification-cycle
   - shared.botanical-syconium
   - shared.chart-variety-regions
+  - blastophaga.endgere
 categories:
   - History of the Fig
 tags:
@@ -145,6 +146,13 @@ insectaries timed *profichi* the way a mill times a shift. Howard and
 Swingle’s 1899 jars were one shift that became a valley. Name
 *Ceratosolen* when the tree is a sycomore. Name Berg and Wiebes when
 the continent is Africa. Keep *Blastophaga* for *carica*.
+
+<!-- figure-id: blastophaga.endgere -->
+![USDA watercolor of pollinated versus not-pollinated Endgere figs.](../../../assets/images/smyrna-fig-caprification-usa/usda-pom-01071-endgere.jpg)
+
+*Figure 4. Bertha Heiges, “Endgere,” from Geo. C. Roeding, Fresno. USDA NAL POM00001071. Public domain. Sheet dated 8/14/99. The same file as the [1899](../smyrna-fig-caprification-usa/) essay. Pollinated versus not-pollinated — the transfer without folklore.*
+
+Heiges painted the insect’s year as two fruits on one government card: a seeded interior and a small dark drop. That is pollen on a body, not a sting that ripens. Galil and Ne’eman remain the English papers. The pack’s cycle SVG remains a teaching drawing. ORCH-04 can hold a cut caprifig later. Until then this card is the biology.
 
 ## Sources for this piece
 

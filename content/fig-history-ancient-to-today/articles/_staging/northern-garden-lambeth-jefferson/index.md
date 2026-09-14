@@ -17,6 +17,8 @@ figures:
   - shared.timeline-master
   - shared.map-med-belt
   - renaissance.holtzbecher
+  - northern.toulousienne-1895
+  - northern.usda-cutting
 categories:
   - History of the Fig
 tags:
@@ -82,6 +84,20 @@ Morton’s 1525–1548 English range is a compilation. It is not a third primary
 
 Lambeth is an archbishop’s garden that later gave a pope a cutting. Monticello is a republican *Garden Book* that wanted French fruit after 1789. Both walls steal a Mediterranean month. They do not share a politics. A palace tradition dated 1556 and a Garden Book association dated 1789 are not one “northern fig.” They are two bets in two winters, both refusing Aydın, both hoping August will pretend.
 
+Deborah Griscom Passmore painted a “Toulousienne” on 30 September 1895 from William Saunders, superintendent of gardens and grounds at the USDA in Washington. A French name, a capital that is not Aydın, a government garden that wanted the species as a specimen. That is the northern theft in American watercolor: not Lambeth’s postcard, not Jefferson’s *Garden Book*, a third desk that still steals a Mediterranean month.
+
+James Marion Shull’s 1923 plate is the other half of the theft — a cutting, a winter twig, no fruit. Commons places the specimen in Savannah. The stick is how the tree moves when seed will not. Gilgal’s argument in the origins essay is this biology with a Pre-Pottery date. A wall gardener in London or Virginia is the same stick against brick.
+
+<!-- figure-id: northern.toulousienne-1895 -->
+![USDA watercolor of Toulousienne figs from the USDA gardens in Washington, 1895.](../../../assets/images/northern-garden-lambeth-jefferson/usda-pom-01168-toulousienne.jpg)
+
+*Figure 4. Deborah Griscom Passmore, “Toulousienne,” from Wm. Saunders, USDA Gardens & Grounds, Washington, D.C., 30 Sept 1895. USDA NAL POM00001168. Public domain. A French name in a northern capital.*
+
+<!-- figure-id: northern.usda-cutting -->
+![USDA watercolor of a fig cutting or winter twig, 1923.](../../../assets/images/northern-garden-lambeth-jefferson/usda-pom-01042-cutting.jpg)
+
+*Figure 5. James Marion Shull, fig cutting, 1923. USDA NAL POM00001042. Public domain. Commons places the specimen in Savannah. A stick, not a fruit.*
+
 ## Sources for this piece
 
 - Lambeth Palace / Archbishop’s office note (2014 cutting); Loudon 1836.
@@ -89,5 +105,6 @@ Lambeth is an archbishop’s garden that later gave a pope a cutting. Monticello
 - Jefferson *Garden Book* / Monticello published notes.
 - *Capitulare de villis* LXX and the Plan of St. Gall as preface, not as the Palace tree.
 - Holtzbecher, Gottorfer Codex (reuse of `renaissance.holtzbecher`).
+- USDA NAL POM00001168 (Passmore, Toulousienne, 1895); POM00001042 (Shull, cutting, 1923).
 
 See `BIBLIOGRAPHY.md`.

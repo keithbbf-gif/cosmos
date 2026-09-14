@@ -17,6 +17,7 @@ figures:
   - shared.botanical-leaf-lobing
   - shared.timeline-master
   - shared.map-med-belt
+  - fig-motif.man-8625
 categories:
   - History of the Fig
 tags:
@@ -89,6 +90,13 @@ The Athens essay holds Plutarch’s oil-export sentence and the sycophant hedge.
 If an oral-tale collector arrives with a village, a year, and a name, the fence has a gate. Until then, eight motifs and a ban list are the whole folklore this pack will ship.
 
 Eight motifs have pages. The ban list has none. Ordinary trees are why proverbs work. A costume-shop goddess needs rarity. Micah’s shade needs a cheap tree. Keep the fence.
+
+<!-- figure-id: fig-motif.man-8625 -->
+![Herculaneum still life of bread and figs, reused as the modest-food motif.](../../../assets/images/pompeii-gardens-fig-trees/herculaneum-man-8625.jpg)
+
+*Figure 4. Still life with bread and figs, Herculaneum. Museo Archeologico Nazionale, Naples, inv. 8625. Photo: ArchaiOptix, 2018. CC BY-SA 4.0. The same file as the [Pompeii](../pompeii-gardens-fig-trees/) essay. Modest food as a wall, not as a proverb. Inventory number, not ethnography.*
+
+MAN 8625 is the modest-food motif with an accession number. A loaf, two figs, a Fourth-Style cupboard sentence. Roman prose that praises poor food uses the same pair. The proverb and the fresco share a fruit. They do not share a genre. Casa dei Cervi’s dried-fruit strip, in the same folder, is the cupboard version. Priapus stays off the thumbnail. A named goddess without a cult title stays off the ship.
 
 ## Sources for this piece
 

@@ -94,6 +94,14 @@ Gilgal’s 2006 argument — nine carbonized figs, 313 drupelets, a sterile soft
 
 A grocer selling Mission is selling the easy room. Aydın selling legal Sarılop is selling the expensive one. San Pedro splits the year. Caprifig is the invoice. Write the bill before the brand.
 
+## Eisen taught the bills before Condit nailed the boxes
+
+Gustav Eisen’s 1901 USDA bulletin already had to tell a California valley that a Smyrna fig and a Common fig are different horticultural bills. He had seen Mayer hang wild fruit in Naples in 1896. He had fought Gasparrini’s weather in print. Condit’s 1947 English wall — Common, Smyrna, San Pedro, caprifig — is the later nailing of that lesson. The four boxes are not ranks. They are invoices.
+
+Gasparrini studied Common-type persistence and issued a theory that caprification was unnecessary. California planted Smyrna cuttings in 1881–82 and watched fruit drop. The rumor of sterile Turkish wood was consolation. The trees were the right clone and the wrong ecology. Prefer 1899 (Howard and Swingle, Algeria) for the insect that made the expensive room possible. 1890 remains the blowpipe curiosity.
+
+San Pedro exists because people wanted an early crop that persists without hanging *profichi*, and a main crop that still tastes seeded. Nursery tags that say only “needs a pollinator” have given up on that split. Caprifig crops keep Italian names because they are a labor year: *mamme* overwinter, *profichi* carry spring pollen into the edible Smyrna crop, *mammoni* fill the summer. Three names. One calendar. Shull’s “Fig X1” at Wadesboro in 1910 remains a room cut open, useful as anatomy, useless as a type label. Gilgal’s sterile soft fruit is the Common bill with a Pre-Pottery date. Lev-Yadun reads harvest. Kislev reads stick. This page holds the boxes, not the coronation.
+
 ## Sources for this piece
 
 - Condit 1947, four horticultural types.

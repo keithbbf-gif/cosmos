@@ -18,6 +18,7 @@ figures:
   - shared.process-drying-sundry
   - shared.chart-variety-regions
   - shared.timeline-master
+  - paste.melendez
 categories:
   - History of the Fig
 tags:
@@ -142,6 +143,13 @@ A layer pack is vain. A grind is honest about ugliness and, sometimes,
 about a lesser grade. Both are one harvest. Newton is a lunchbox. The
 Aegean tray was first. No cradle in Massachusetts without a sourced
 firm history.
+
+<!-- figure-id: paste.melendez -->
+![Meléndez still life of figs and bread, reused as the table before the grind.](../../../assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg)
+
+*Figure 4. Luis Meléndez, *Still Life with Figs and Bread*, c. 1770. NGA 111627. CC0. The same file as the [Renaissance](../renaissance-still-life-figs/) essay. Whole fruit on a plate. Paste is what happens when that fruit would not layer.*
+
+Meléndez painted lunch. Eisen and Condit wrote manufacturing grades because a packing floor needed a use for fruit the eye refused in a whole layer. *Pan de higo* is a press. A baklava shop using Aegean paste is using a tray, not stealing Boston. The factory Newton is a late lunchbox. This pack will not print a first-baker romance without a sourced corporate history. Wine and vinegar take juice. Paste takes dry meat.
 
 ## Sources for this piece
 

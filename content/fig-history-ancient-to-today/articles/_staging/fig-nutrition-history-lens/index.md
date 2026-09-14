@@ -18,6 +18,7 @@ figures:
   - shared.botanical-syconium
   - shared.timeline-master
   - shared.process-drying-sundry
+  - fig-nutrition.wellcome
 categories:
   - History of the Fig
 tags:
@@ -86,6 +87,13 @@ It will print three desks and a physics: water leaves, sugar stays, freight chos
 A packing house is a business of yield. Condit’s 1947 tables exist because a dryer who does not know what a cull pile costs will lie to himself. A regulator is a business of servings. FoodData Central exists because a label needs a number that can be revised. A physician in the *Canon* is a business of balance. Degrees exist because a body was already described as heat and moisture. Three businesses. One fruit. The failure is the magazine that pretends they merged.
 
 Winter freight chose the dry face because water is heavy and rot is fast. A wellness photograph chooses the fresh face because dew looks like virtue. Neither choice is a humor. Neither choice is a milligram. Print the desk you are sitting at.
+
+<!-- figure-id: fig-nutrition.wellcome -->
+![Wellcome plate of a fruiting fig stem and halved fruit, reused as a nutrition-history seeing.](../../../assets/images/figs-in-greek-roman-medicine/wellcome-v0044761.jpg)
+
+*Figure 4. Wellcome Collection V0044761, fruiting stem and halved fruit. CC BY 4.0. The same file as the [medicine](../figs-in-greek-roman-medicine/) essay. A pharmacy-book seeing of the simple. Not a conversion table and not a FoodData Central panel.*
+
+The Wellcome plate is stem and a cut room — what a later pharmacy book wanted the simple to look like. Dioscorides organized that room by effect. Condit organized a tray by yield. USDA organizes a serving by a list it revises. The cut face will not add those three languages. If a live caption ever quotes FoodData Central, it quotes a data-type and a year. Until then the modern desk is named, not numbered.
 
 ## Sources for this piece
 

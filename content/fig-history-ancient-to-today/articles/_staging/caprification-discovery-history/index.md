@@ -18,6 +18,7 @@ figures:
   - shared.caprification-cycle
   - shared.botanical-syconium
   - shared.timeline-master
+  - caprification.usda-first-crop
 categories:
   - History of the Fig
 tags:
@@ -131,6 +132,13 @@ was consolation. The trees were the right clone and the wrong ecology. A
 professor who studied Common types issued a theory that cost a valley a
 decade. Recognition is the right word. Discovery is how a bulletin talks.
 The next article is the insect’s year. This one is the human argument.
+
+<!-- figure-id: caprification.usda-first-crop -->
+![USDA watercolor of First Crop Smyrna from Roeding, July 1897.](../../../assets/images/smyrna-fig-caprification-usa/usda-pom-01166-first-crop-smyrna.jpg)
+
+*Figure 4. Bertha Heiges, “First Crop Smyrna,” from Geo. C. Roeding, Fresno. USDA NAL POM00001166. Public domain. Sheet dated 7/97. The same file as the [1899](../smyrna-fig-caprification-usa/) essay. Second crop unfinished. The wait — two years before the wasp. Not Schwarz’s 1900 seeded crop.*
+
+Theophrastus already wrote the swell. Villa books already kept the hanging. Heiges’s 1897 card is what a valley looked like when it had the right clone and the wrong ecology: a pale fruit, a cut face, a second-crop outline marked unfinished because the specimen passed. 1890 remains the blowpipe. 1899 remains Howard and Swingle. Recognition is the word. Nobody discovered caprification in a USDA bulletin.
 
 ## Sources for this piece
 

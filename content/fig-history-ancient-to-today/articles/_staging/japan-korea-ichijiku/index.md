@@ -85,6 +85,14 @@ A honzōgaku line with an edition can thicken the Japanese desk later. Until the
 
 Kang’s hedge is better than a fake landing date because it refuses precision it does not have. This pack will not invent a 1520 ship, a Silla temple, or a Nara courtyard. Ishizaki’s nineteenth-century seeing, licence reserved as WC-013, proves an artist had the tree. It does not prove an origin.
 
+## Two vernaculars, one late guest
+
+Chinese *wúhuāguǒ* describes the room — flowerless fruit. Japanese *ichijiku* names the guest. They are not one East Asian fig story. Kang’s 1989 economic-plant paper and 1990 fruit paper both put Korean *carica* around the sixteenth century. That double mention is why this pack trusts the hedge. It is still a hedge. It is not a Busan log and not a Jesuit first orchard.
+
+Ishizaki Yūshi painted *F. carica* for the Cock Blomhoff / Naturalis collection — a Deshima-era Dutch seeing of a tree already in Japan. Re-check the institutional tag (WC-013) before a live import. The plate, if cleared, is an artist having the tree in front of him. It is not a VOC introduction diary this pack does not have. It does not pull Kang backward into the Heian.
+
+Edo honzōgaku consensus treats *ichijiku* as introduced. This pack has not sat with a numbered edition, so it will not print a first dated entry. Winters are the point: a sheltered court, a short fresh season, the northern-garden essay’s theft in another language. Fresh luxury in a January window is that theft succeeding for a month. Imported Aegean dry in an August bin is the freight the home trees will not make. Jōmon archaeology has many plant stories. *Ficus carica* is not one this pack will add.
+
 ## Sources for this piece
 
 - Kang, *J. Korean Soc. Food Culture* 5.3 (1990); *Korean J. Plant Resources* 2.2 (1989).

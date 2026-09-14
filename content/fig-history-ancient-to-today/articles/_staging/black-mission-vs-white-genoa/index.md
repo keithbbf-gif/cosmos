@@ -17,6 +17,7 @@ figures:
   - shared.chart-variety-regions
   - shared.botanical-syconium
   - shared.botanical-leaf-lobing
+  - black-mission.celeste
 categories:
   - History of the Fig
 tags:
@@ -140,6 +141,13 @@ sentence a Smyrna grower had to learn the hard way. Retail still sells
 a pair. Biology still sells a bill. Ligurian and Californian Genoa may
 diverge in a lab tomorrow. Until they do, write type, photograph fruit,
 keep Brown Turkey off the caption.
+
+<!-- figure-id: black-mission.celeste -->
+![USDA watercolor of Celeste figs, reused as an Eastern Common pale card that is not White Genoa.](../../../assets/images/mission-kadota-brown-turkey/usda-pom-07441-celeste.jpg)
+
+*Figure 4. Mary Daisy Arnold, Celeste, Cape Charles, Virginia, 1911. USDA NAL POM00007441. Public domain. The same file as the [market clones](../mission-kadota-brown-turkey/) essay. An Eastern Common pale fig. Not White Genoa, not a California five, not a Linnaean opposite of Mission.*
+
+Celeste is useful here because it refuses the retail pair. It is pale, Common-type, Atlantic, and still not the Genoa a Ligurian grocer means. Skin is paint. The bill is wasp or no wasp. NSW DPI’s Black Genoa remains a travel skin. Prince Albert’s White Genoa remains a local drying habit. Mission remains a black corridor tree that never paid Algeria. Write the type. Do not preach a split that is not there.
 
 ## Sources for this piece
 

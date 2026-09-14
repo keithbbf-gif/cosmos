@@ -17,6 +17,7 @@ figures:
   - shared.botanical-leaf-lobing
   - shared.map-med-belt
   - shared.timeline-master
+  - fig-leaves.ehret-1771
 categories:
   - History of the Fig
 tags:
@@ -82,6 +83,13 @@ Genesis 3:7 remains the other leaf. The folklore essay holds the sculpture shop.
 ## The idiom is not the wrap
 
 English uses “fig leaf” as an idiom for a covering that fools no one. That idiom is Genesis and the sculpture shop, not a grill packet. A food writer who leans on the idiom to sell a wrap has mixed the jobs this series split. The culinary leaf is large, scented when bruised, and cheap in a dooryard August. The legal leaf is a later public’s shame management. They share a species. They do not share a sentence.
+
+<!-- figure-id: fig-leaves.ehret-1771 -->
+![Ehret 1771 fig plate reused as the botanical leaf behind the wrap and the idiom.](../../../assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg)
+
+*Figure 4. G. D. Ehret, *Ficus carica*, in Trew, *Plantae selectae* 8: t. 73 (1771). Public domain. The same plate as the [syconium](../syconium-botany-and-morphology/) essay. Five lobes and fruit as fruit. A grill packet uses the leaf. Genesis used it as cloth. Neither job is a cultivar ID.*
+
+Ehret drew leaf and fruit together because a prince’s flora wanted the species complete. A cook in August needs only the blade: large enough not to tear, scented when bruised, cheap because the tree has already given too many. Condit’s sinus characters remain a January job for a nursery gate. They will not tell you whether the packet holds fish or cheese. They will not tell you Genesis. The plate is the object. The jobs stay split.
 
 ## Sources for this piece
 

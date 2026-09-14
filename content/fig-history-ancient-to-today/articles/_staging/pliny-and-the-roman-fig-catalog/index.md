@@ -18,6 +18,7 @@ figures:
   - shared.timeline-master
   - shared.chart-variety-regions
   - shared.botanical-syconium
+  - pliny.bimbi
 categories:
   - History of the Fig
 tags:
@@ -132,6 +133,13 @@ desk: appetite becomes a clock of fear. Do not print a reconstruction table
 that maps the twenty-nine onto Condit’s 717. Print a handful. Leave the
 rest as a warning that empire names what it eats and then dies in the same
 weather that sealed two figs and a loaf on a Herculaneum wall.
+
+<!-- figure-id: pliny.bimbi -->
+![Bimbi’s named Medici figs reused as Pliny’s later impulse in oil.](../../../assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg)
+
+*Figure 4. Bartolomeo Bimbi, named figs for the Medici, 1696. Public domain. The same file as the [Renaissance](../renaissance-still-life-figs/) essay. Pliny’s vice in oil: more names than sure clones. Not a reconstruction table for *NH* 15.19.*
+
+Bimbi’s hanging is what a grand duke wanted when appetite still multiplied names. Livian and Pompeian will not map onto those nouns. Condit’s grief remains the method: each Pliny name is a hunger, not a barcode. Do not print a table that forces twenty-nine onto 717.
 
 ## Sources for this piece
 

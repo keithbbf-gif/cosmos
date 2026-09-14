@@ -18,6 +18,7 @@ figures:
   - shared.map-med-belt
   - shared.process-drying-sundry
   - shared.trade-med-maritime
+  - ottoman.calimyrna-1912
 categories:
   - History of the Fig
 tags:
@@ -151,6 +152,13 @@ old networks had moved. 2016 is a fence over that rebuild. Eisen’s
 American readers needed the wasp paragraph the quay had skipped.
 Calimyrna remains a stitch. The wood remains Sarılop. Stay here for
 the port. Leave for the specification when you want the adjectives.
+
+<!-- figure-id: ottoman.calimyrna-1912 -->
+![USDA watercolor of Calimyrna figs, Fresno 1912, reused as the stitch the quay taught California.](../../../assets/images/mission-kadota-brown-turkey/usda-pom-07440-calimyrna-1912.jpg)
+
+*Figure 4. Elsie Lower Pomeroy, Calimyrna, Fresno, 1912. USDA NAL POM00007440. Public domain. The same file as the [market clones](../mission-kadota-brown-turkey/) essay. The wood is Sarılop. The name is a California stitch. Not an Ottoman photograph.*
+
+Pomeroy painted the clone after the quay had already taught the west a taste and after Howard and Swingle had finally brought the wasp. Caption it as Fresno 1912. The orchards were inland — Menderes basins, İncirliova already saying fig-plain. Smyrna was the spelling the west could say. Eisen had to add the wasp paragraph the stencil skipped. The 2016 PDO is a fence over a rebuilt trade, not a birth date.
 
 ## Sources for this piece
 

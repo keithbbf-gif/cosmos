@@ -84,6 +84,14 @@ Native East Asian *Ficus* — pipal among them — keep their religions. The Sou
 
 A timeline graphic that picks Tang to look clean, or 1550 to look conservative, or “a thousand years” to look vague-and-safe, has left the seam. Print all three desks. Xinjiang remains climate. Gilgal remains a Jordan Valley house. *Wúhuāguǒ* remains flowerless fruit.
 
+## Two Chinas, one guest
+
+*Flora of China*’s “especially Xinjiang” is a western, dry-summer, irrigation note — the same climate logic that makes Estahban and Aydın sensible, at another longitude. Morton’s 1550 gardens are a compilation date for eastern curiosity plantings, a Florida desk that also gave England 1525–1548. Those are not one orchard belt. A writer who collapses them into “Chinese figs since the Tang” has mixed a frontier climate with a garden date.
+
+Wang Lianju and colleagues, in *Acta Horticulturae* 605, are the only desk in that trio that ever had a packing house: commercial cultivation recent, introduction “about one thousand years.” Print the shrug. Commercial recent may be the only Chinese *carica* industry this pack can source. Laufer’s *a-ži* remains a sound on an Iranian ride of plants and names. It is not a Xinjiang invoice and not a Samarkand packing list. Khadari’s 2025 pools stay Moroccan–Algerian, northern Mediterranean, Levantine. China is not on that list as a domestication center.
+
+A guest can be old and still be a guest. Native East Asian *Ficus* keep their religions. Ishizaki stays a later Japanese seeing, licence reserved as WC-013. Do not book a walkable Tang orchard. Do not give the Tang a Smyrna stencil.
+
 ## Sources for this piece
 
 - *Flora of China* 5: 52, *Ficus carica*.

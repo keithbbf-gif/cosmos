@@ -84,31 +84,6 @@ FAOSTAT’s Turkish first-place is a year. Helgi’s 2022 mirror: 350,000 tonnes
 The port was called Smyrna. The legal name is the valley. Substitution — cheaper fruit in an Aegean reputation — is why the fence exists. Whether a supermarket in Düsseldorf honors the fence is a different police. This article’s job is to keep the clone, the insect, and the lawyer in one sentence without letting the quay eat the slope.
 
 
-## Legal adjectives, a wasp, a year
-
-The specification’s adjectives are the closest thing this series has to a
-modern *Natural History* chapter that can be enforced. Dried Sarılop.
-Whitish-yellow. Thin-shelled. Seeds filled. Not more than ninety fruits to
-the kilo. Southwest faces, 0–900 metres, Büyük and Küçük Menderes, a
-freight-book of towns: Sultanhisar, İncirliova, Germencik, Nazilli, Ödemiş,
-Tire, Selçuk. EU 17 February 2016. A Turkish GI earlier (2005 in some
-national summaries). UK scheme 31 December 2020 because paperwork follows
-flags.
-
-Condit: Calimyrna is this wood — Lob Injir, Loh Injir, Sari Lop —
-introduced to California more than once. Without caprification the crop
-drops at about an inch. With it, the crate that taught Europe a taste. The
-specification’s bow to Caria is fair as the botanical name’s folk etymology
-and risky as a continuous-orchard claim. “Thousands of years” is tone.
-İncirliova — fig-plain — is not tone.
-
-FAOSTAT’s Turkish first-place is a year. Helgi’s 2022 mirror: 350,000
-tonnes. 2023 compilations: about 356,000. Print the year. The port was
-called Smyrna. The legal name is the valley. Substitution is why the fence
-exists. Whether a supermarket in Düsseldorf honors the fence is a different
-police.
-
-
 Elsie Lower Pomeroy painted the same wood after a refrigerated shipment in 1912 and labeled it Calimyrna. That is the freight face of Sarılop under the California stitch: what a lawyer in Aydın later wrote as thin-shelled and seeded, seen on a card after a cold ride. It is not the EU map. It is the clone leaving town.
 
 <!-- figure-id: sarilop.calimyrna-ship-1912 -->
@@ -118,7 +93,13 @@ Elsie Lower Pomeroy painted the same wood after a refrigerated shipment in 1912 
 
 Whitish-yellow and thin-shelled are adjectives a lawyer can enforce and a substitution can fake. Seeds filled is the wasp’s signature — the same biology Heiges painted on Roeding’s Endgere card in 1899. Ninety to the kilo is a count. Southwest faces are a climate. Germencik to Tire in the specification is a freight-book of towns, not a tourist loop. Caria as etymology is a bow. Caria as unbroken orchard is tone. İncirliova — fig-plain — is a place name. Print the FAOSTAT year. Keep Smyrna for the quay. Keep the legal name for the valley.
 
-Pomeroy’s refrigerated-shipment card is the clone after a cold ride, already wearing the California stitch. Aydın’s 2016 adjectives are the clone at home. Same wood. Two faces. Keep Smyrna for the quay.
+Pomeroy’s refrigerated-shipment card is the clone after a cold ride, already wearing the California stitch. Aydın’s 2016 adjectives are the clone at home. Same wood. Two faces. Keep Smyrna for the quay. Keep the legal name for the valley.
+
+The specification also bows to a public Fig Research Station and to conventional sun-dry. Those are institutions, not folklore. Uygun Aksoy’s 2017 and 2021 industry reviews are the modern Turkish desk for dried-export share — packing fame, not a tonne-board brochure. Do not lift a percentage. Ninety fruits to the kilo is a count substitution can fake by mixing sizes. Seeds filled is the wasp’s signature a cheaper tray can only pretend. Germencik to Tire in the PDF is a freight-book of towns a lawyer can walk. Caria as etymology remains a bow. Caria as unbroken orchard remains tone.
+
+Condit’s identity sentence is the English hinge: Calimyrna is the principal drying fig of the Smyrna district — Lob Injir, Loh Injir, Sari Lop, Sarılop. The wood is Turkish. The stitch is a California passport written after 1899. Eisen’s 1901 bulletin still had to explain the wasp to a valley that had copied the box first. A Turkish GI in some national summaries (2005) and the EU registration of 17 February 2016 are two legal layers over the same slopes. The UK scheme of 31 December 2020 is exit paperwork, not a third orchard.
+
+FAOSTAT’s 2022 world total in the bibliography’s 1.24-million-tonne class makes Türkiye’s 350-thousand-tonne class about twenty-eight percent, not half. 2023 compilations put Türkiye near 356,000. Re-check the year before a table. Do not write “half the world” from a packer’s brochure. The [İzmir](../izmir-port-and-fig-packing/) essay holds the quay. The [1899](../smyrna-fig-caprification-usa/) essay holds the missing insect. This page holds the legal wood.
 
 ## Sources for this piece
 

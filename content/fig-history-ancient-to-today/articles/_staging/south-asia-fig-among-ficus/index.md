@@ -17,6 +17,7 @@ figures:
   - shared.map-silk-road-figs
   - shared.botanical-leaf-lobing
   - shared.chart-variety-regions
+  - south-asia.ehret-carica
 categories:
   - History of the Fig
 tags:
@@ -85,6 +86,13 @@ Do not pick a century for a communal story. Do not crown a Vavilov center on the
 Laufer’s pages 410–12 and Alam’s Iranica crosswalk are the honest trail of *anjīr*. They will not give you a dated ship. Dymock’s “Muslim introduction” will give you a Victorian sentence you can quote. A communal story that needs a century will try to turn that sentence into a fleet. This pack will not. The guest arrived with a word and, often, with a crate. The native *Ficus* forest did not wait for either.
 
 A Mumbai jar can be Turkish fruit. A pipal grove cannot. Say both. The China and Japan–Korea essays hold later East Asian guests. This one holds the continent that already had too many figs to need another origin myth.
+
+<!-- figure-id: south-asia.ehret-carica -->
+![Ehret 1771 Ficus carica plate reused as the guest species, not a pipal.](../../../assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg)
+
+*Figure 4. G. D. Ehret, *Ficus carica*, Trew 1771. Public domain. The same plate as the [syconium](../syconium-botany-and-morphology/) essay. Five-lobed *carica* — the guest. Not pipal, not banyan, not cluster fig.*
+
+Ehret drew the species a European prince’s book wanted. That drawing is the guest suitcase in ink: palmate *carica*, fruit as fruit. A Bodhi-tree photograph in an *anjeer* caption has left the plate and the species. Cluster fig (*F. racemosa*) keeps its own medicine markets even when a hurried grocer says *anjeer*. Laufer’s sounds and Alam’s Iranica crosswalk remain the word-trail. They will not give a dated ship. Dymock’s introduction line remains a Victorian sentence you can quote, not a fleet.
 
 ## Sources for this piece
 

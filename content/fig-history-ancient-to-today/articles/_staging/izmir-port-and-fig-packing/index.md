@@ -18,6 +18,7 @@ figures:
   - shared.process-drying-sundry
   - shared.trade-med-maritime
   - shared.chart-variety-regions
+  - izmir.calimyrna-ship
 categories:
   - History of the Fig
 tags:
@@ -140,6 +141,13 @@ eye does. That is why packing fame outruns tree fame and why substitution
 is a police problem. Eisen translated the table for Fresno. Aksoy
 describes the table still. The PDO drags a name inland. Water keeps the
 name moving. Both are true.
+
+<!-- figure-id: izmir.calimyrna-ship -->
+![USDA watercolor of Calimyrna after refrigerated shipment, reused as a freight-face plate.](../../../assets/images/sarilop-and-turkish-export-grades/usda-pom-07439-calimyrna-ship.jpg)
+
+*Figure 4. Elsie Lower Pomeroy, Calimyrna after refrigerated shipment, 1912. USDA NAL POM00007439. Public domain. The same file as the [Sarılop](../sarilop-and-turkish-export-grades/) essay. A California freight face of the clone İzmir packed. Not a photograph of the quay.*
+
+The card is what a cold ride does to the wood a packing house already graded: count, color, seed, ostiole. İzmir made those refusals a ship. Pomeroy painted the fruit after another ship. Caption it as Fresno 1912, not as a Konak warehouse. Eyes — often women’s — remain the majority the stencil omits. Do not invent a 1620 invoice.
 
 ## Sources for this piece
 

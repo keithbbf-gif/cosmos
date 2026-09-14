@@ -17,6 +17,7 @@ figures:
   - shared.botanical-leaf-lobing
   - shared.botanical-syconium
   - shared.chart-variety-regions
+  - fig-leaf-morphology.ehret
 categories:
   - History of the Fig
 tags:
@@ -136,6 +137,13 @@ DNA is for fighting tags, not for a January guess. The 2022 NCGR paper
 is the model of a fight that ended. Condit’s pages are the model of a
 fight that knew it would not end. History captions that treat a palmate
 outline as a cultivar have left both models.
+
+<!-- figure-id: fig-leaf-morphology.ehret -->
+![Ehret 1771 fig plate reused as a leaf-identification seeing that will still lie.](../../../assets/images/syconium-botany-and-morphology/ehret-trew-1771.jpg)
+
+*Figure 4. G. D. Ehret, *Ficus carica*, Trew 1771. Public domain. The same plate as the [syconium](../syconium-botany-and-morphology/) essay. A prince’s complete seeing: leaf and fruit. Shade, water, and sucker wood will still lie.*
+
+Ehret froze one honest hand of the species. Condit still filled pages because a fruit is gone seven months of the year. Theophrastus already knew leaves differ by place and by age of the shoot. Use the plate to train an eye. Then tell the eye it will be wrong. Photograph August. Write the horticultural type before an Italian romance.
 
 ## Sources for this piece
 

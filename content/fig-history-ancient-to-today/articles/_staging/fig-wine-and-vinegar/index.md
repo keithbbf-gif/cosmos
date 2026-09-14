@@ -18,6 +18,7 @@ figures:
   - shared.process-drying-sundry
   - shared.timeline-master
   - shared.schematic-orchard-irrigation
+  - fig-wine.melendez
 categories:
   - History of the Fig
 tags:
@@ -82,6 +83,13 @@ A modern Italian household that keeps *aceto di fichi* is doing glut management 
 The winter-storage essay holds racks and *askades*. The industrial-dryer essay holds sulfur houses. This page holds the wet remainder. Print the class of text. Leave Pliny’s 15.19 as names. Leave the cups out.
 
 A tasting room that discovers fig vinegar is late to Columella’s staff. A blogger’s metric Pliny is not in *NH* 15.19. The jar is accountancy. Paste next door takes the dry meat. This page takes the wet remainder. Roasted-fig “coffee” stays in the chicory aisle.
+
+<!-- figure-id: fig-wine.melendez -->
+![Meléndez still life of figs and bread, reused as a table-pair plate.](../../../assets/images/renaissance-still-life-figs/melendez-still-life-figs-bread-nga.jpg)
+
+*Figure 4. Luis Meléndez, *Still Life with Figs and Bread*, c. 1770. National Gallery of Art, NGA 111627. CC0. The same file as the [Renaissance](../renaissance-still-life-figs/) essay. Bread, figs, a knife. Wine is the missing neighbor a land list assumes. Not a cellar manual.*
+
+Deuteronomy 8:8 lists wheat, barley, vine, fig, pomegranate, oil, honey in one breath. 1 Kings 4:25 sits a man under vine and fig. Those verses are land rhetoric, not a sommelier’s flight. Meléndez painted the pantry half of the pair: bread and figs, cellar gear, no vintage. Grape remains the prestige ferment of the same villas. Fig remains the second sugar when the tray fails. The [Bible](../figs-in-hebrew-bible/) essay holds the verses. This page holds the jar.
 
 ## Sources for this piece
 

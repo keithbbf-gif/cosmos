@@ -87,6 +87,12 @@ A Norman court that taxed sugar and planted citrus was changing the island’s b
 
 Norman-Arab is a political sentence. The tree is an ordinary sentence. This article exists so the geographic brief does not skip the island, and so no one fills the skip with a royal cultivar or a forged Palermo title. Canal and terrace are the long fact. Seville and Constantinople remain the learned books.
 
+## The island did not wait for Banqueri
+
+Europe later read Ibn al-ʿAwwām through Banqueri’s 1802 Spanish and Clément-Mullet’s 1864–67 French. Sicily did not wait for those editions. The island sat in the weather of the book while the book was still a Seville desk: *qanāt* cousins, bilingual gardeners, a huerta that could be taxed in more than one language. Later readers of the Filāḥa tradition describe its mix as roughly a third Byzantine, a third Near Eastern, a third Andalusi. That is a description of a bookshelf, not a Palermo recipe card and not a lost title this pack will invent.
+
+Sugar and citrus remade the tax roll because they were new money and a new smell. Fig was already inside Pliny’s Italian appetite — sea-facing orchard country that did not need an Arab introduction to know *Ficus carica*. Roger II does not get Dottato. The mainland stamps are Commission Regulation (EC) No 417/2006 and Commission Implementing Regulation (EU) No 596/2011. Modern Sicilian market names can enter a revision with a nursery list and a year. They will still be modern. The Crusades essay holds cargo and manuals. This one holds the hinge.
+
 ## Sources for this piece
 
 - Continuity from Roman Sicily (Pliny’s Italian list as context).

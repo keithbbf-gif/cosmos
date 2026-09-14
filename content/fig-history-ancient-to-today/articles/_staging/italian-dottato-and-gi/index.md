@@ -17,6 +17,7 @@ figures:
   - shared.map-med-belt
   - shared.process-drying-sundry
   - shared.chart-variety-regions
+  - italian-dottato.bimbi
 categories:
   - History of the Fig
 tags:
@@ -84,6 +85,13 @@ Kadota’s American canning life — a retort, a cup, a honey that survived heat
 Cilento’s 2006 file is Campanian sun-dry in a district that already sold a white dried reputation before Brussels numbered it. Cosenza’s 2011 file is Calabrian sun-dry in the Crati valley with a lawyer’s climate written as 0–800 metres. A fruit that grows above the cap does not get the name. A fruit that dries outside Cilento’s map does not get the other name. That is why substitution needs two fences, not one national Dottato sticker.
 
 The Crati valley’s elevation cap and Cilento’s coast-and-hill district are two climates written as law. A pale fruit that meets one map does not get to wear the other name. That is place over wood in a sentence a grocer can violate and a lawyer can read. Official maps stay in the EU PDFs (EU-002 reserved). This pack’s teaching schematic is not a specification, and a tourist layer called Magna Graecia is not an ingredients list.
+
+<!-- figure-id: italian-dottato.bimbi -->
+![Bimbi Medici fig hanging reused as a named-fig plate before the PDO numbers.](../../../assets/images/renaissance-still-life-figs/bimbi-figs-1696.jpg)
+
+*Figure 4. Bartolomeo Bimbi, named figs for the Medici, 1696. Public domain. The same file as the [Renaissance](../renaissance-still-life-figs/) essay. Italian figs had names on canvas before they had eAmbrosia IDs. Not a photograph of Cilento Dottato.*
+
+Cilento’s file also writes **Ottato**. Same pale drying wood, a second spelling a grocer can miss and a substitution can wear as easily as “Dottato.” eAmbrosia files **IT/PDO/0005/0563** (Cilento, 21 November 2006) and **IT/PDO/0005/0844** (Cosenza, 5 May 2011) are the lawyer’s addresses. Bimbi’s hanging is the visual ancestor of a naming habit, not the clone’s birth certificate. Kadota’s American canning life remains a factory cousin Condit knew and this pack will not collapse in a grocery caption. California does not appear in 417/2006.
 
 ## Sources for this piece
 

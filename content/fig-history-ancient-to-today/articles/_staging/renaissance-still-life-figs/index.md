@@ -105,6 +105,12 @@ Bimbi writes names because a grand duke wanted a memory that would outlast a sea
 
 Luis Meléndez painted still lifes for a Spanish court that wanted pantry weight, not Medici names. The National Gallery of Art’s open-access file (NGA 111627) is how that pantry entered this pack: CC0, bread and mixed figs, cellar gear. It is the eighteenth-century cousin of the Herculaneum loaf, not a Tuscan harvest and not a cultivar key. Use it as lunch.
 
+## Schleswig diagnosed; Tuscany remembered August
+
+Holtzbecher’s Gottorfer Codex plate is a Schleswig court book — a northern German cabinet that collected the south as diagnosis. A leaf as a type, a fruit as a specimen, a prince who might never taste a Campanian August. Bimbi’s 1696 hanging at Poggio a Caiano is the opposite weather: a Tuscan court that already ate the fruit and wanted the names to outlast the season. That north/south difference is why one picture looks like a herbarium and the other looks like a harvest memory.
+
+Meléndez, about 1770, and the anonymous Nationalmuseum still life (inv. 17171) sit in a third register: lunch with better linen. Neither is doing Pliny’s twenty-nine. Neither is doing Condit’s 717. Caption theft happens when a writer wants one file to do cabinet, court, and pantry. Keep Priapus off the thumbnail. Send the living pale drier to Cilento. Send the Latin list to *NH* 15.19.
+
 ## Sources for this piece
 
 - Bimbi 1696, Villa di Poggio a Caiano (WC-007).
