@@ -1,0 +1,448 @@
+{
+  "drafts": [
+    {
+      "file": "00-01-weather-problem.md",
+      "id": "ogfh-00-01",
+      "title": "Outdoor furniture is a weather problem",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 731,
+      "educational_claim": "Outdoor furniture is not indoor furniture that got brave. It is a set of joints, films, and seats asked to live in rain, sun, and freeze, and the object either admits that or it fails in public."
+    },
+    {
+      "file": "00-02-three-climates.md",
+      "id": "ogfh-00-02",
+      "title": "Porch, patio, open lawn \u2014 three climates that keep getting one name",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 609,
+      "educational_claim": "Porch, patio, and open lawn are three assignments of roof, splash, and ultraviolet. Using one word \u2014 outdoor \u2014 for all three is how a room gets the wrong object."
+    },
+    {
+      "file": "00-03-who-is-talking.md",
+      "id": "ogfh-00-03",
+      "title": "Who is talking, and what this shop will not invent about the garden",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 772,
+      "educational_claim": "A custom indoor shop can teach outdoor furniture as weather, wood, metal, and honesty. It cannot narrate a patio line it does not build or a chemical warranty it does not print."
+    },
+    {
+      "file": "00-04-stolen-words.md",
+      "id": "ogfh-00-04",
+      "title": "All-weather, teak, wrought, patio set \u2014 words that got stolen",
+      "stage": "00-frame",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 716,
+      "educational_claim": "All-weather, teak, wrought iron, and patio set used to describe climate, a tree, a metal, and a grouping. After lifestyle copy, they often describe a feeling."
+    },
+    {
+      "file": "01-05-peristyle.md",
+      "id": "ogfh-01-05",
+      "title": "The peristyle is the first outdoor room that still makes sense",
+      "stage": "01-old-world",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 627,
+      "educational_claim": "A Roman peristyle is a courtyard with a colonnade \u2014 shade, water, a floor, and seats that belong to the architecture. Most modern \"outdoor rooms\" are trying to buy a peristyle without building the colonnade."
+    },
+    {
+      "file": "01-06-marble-bronze.md",
+      "id": "ogfh-01-06",
+      "title": "Marble sat. Bronze got melted. Wood left almost no proof.",
+      "stage": "01-old-world",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 671,
+      "educational_claim": "Classical outdoor furniture history is biased toward stone and the few bronzes that escaped the scrap pile. Wood was there. Weather and reuse ate the evidence, which is why garden catalogs still over-learn from marble."
+    },
+    {
+      "file": "01-07-islamic-courtyard.md",
+      "id": "ogfh-01-07",
+      "title": "Shade is law \u2014 the courtyard that treated heat as the client",
+      "stage": "01-old-world",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 623,
+      "educational_claim": "Islamic courtyard sitting is a climate machine \u2014 water, shade, hard seats, low furniture \u2014 not a style board of lanterns. Copy the thermal job or you are buying a costume for a hot slab."
+    },
+    {
+      "file": "01-08-chinese-garden-seat.md",
+      "id": "ogfh-01-08",
+      "title": "The drum stool was a garden seat, not a nightstand",
+      "stage": "01-old-world",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 633,
+      "educational_claim": "Chinese porcelain garden seats \u2014 drum-shaped, pierced, often ceramic \u2014 were outdoor and garden objects that could take weather better than upholstered Western cousins. Calling every barrel stool a \"garden seat\" does not make it one."
+    },
+    {
+      "file": "01-09-italian-villa-stone.md",
+      "id": "ogfh-01-09",
+      "title": "The villa bench sits for a view, not for a television of hedge",
+      "stage": "01-old-world",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 626,
+      "educational_claim": "Italian Renaissance garden seating is placed for prospect and pause \u2014 stone, often architectural, aimed at a view. A bench that faces a blank fence is using the silhouette and refusing the job."
+    },
+    {
+      "file": "02-10-french-garden-theater.md",
+      "id": "ogfh-02-10",
+      "title": "The French garden treated furniture as blocking",
+      "stage": "02-european-garden",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 647,
+      "educational_claim": "French formal gardens used seats as staging \u2014 placed on axes, in bosquets, under orangeries \u2014 so people could watch and be watched. A patio set in the middle of a slab is not Versailles. It is a table that missed the blocking."
+    },
+    {
+      "file": "02-11-english-landscape-bench.md",
+      "id": "ogfh-02-11",
+      "title": "The English bench is a viewing machine for a fake wilderness",
+      "stage": "02-european-garden",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 688,
+      "educational_claim": "The English landscape garden placed benches as stations in a composed view \u2014 rustic wood, later iron, often at a rise or a turning. The bench is a camera. If there is no picture, it is only lumber."
+    },
+    {
+      "file": "02-12-coalbrookdale.md",
+      "id": "ogfh-02-12",
+      "title": "Coalbrookdale put the garden on a pattern plate",
+      "stage": "02-european-garden",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 640,
+      "educational_claim": "Mid-nineteenth-century cast-iron garden seats \u2014 Coalbrookdale and its rivals \u2014 turned sitting outdoors into a repeatable industrial object. The fern is a pattern. The duty is weight, rust, and a foundry, not a woodland spirit."
+    },
+    {
+      "file": "02-13-victorian-display.md",
+      "id": "ogfh-02-13",
+      "title": "The Victorian garden was a display case with a weather problem",
+      "stage": "02-european-garden",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 659,
+      "educational_claim": "High-Victorian gardens treated outdoor furniture as display \u2014 rustic, cast, ceramic, taxidermy nature \u2014 in a climate that still rained. The display habit is why modern patios over-furnish. The rain is why those extra objects die first."
+    },
+    {
+      "file": "02-14-conservatory-lie.md",
+      "id": "ogfh-02-14",
+      "title": "Conservatory furniture is indoor furniture that can see the garden",
+      "stage": "02-european-garden",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 656,
+      "educational_claim": "A conservatory or sunroom is a glazed room. Its furniture can be lighter, finer, even upholstered if the glass and the heat are managed. Putting that furniture on an open patio is how a pretty lie becomes a stain."
+    },
+    {
+      "file": "03-15-american-porch.md",
+      "id": "ogfh-03-15",
+      "title": "The American porch is a room that kept a draft on purpose",
+      "stage": "03-american-porch",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 632,
+      "educational_claim": "The nineteenth- and early-twentieth-century American porch is social furniture architecture \u2014 a roofed room between house and street. Porch furniture is not patio furniture. The roof is the specification."
+    },
+    {
+      "file": "03-16-porch-rocker.md",
+      "id": "ogfh-03-16",
+      "title": "The rocking chair earned the porch by doing work",
+      "stage": "03-american-porch",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 658,
+      "educational_claim": "A porch rocker is a moving chair for a roofed room \u2014 runners, splay, a sit you can stay in. It is not a patio dining chair and it is not a nursery prop. The runners have to live with grit and a painted floor."
+    },
+    {
+      "file": "03-17-adirondack.md",
+      "id": "ogfh-03-17",
+      "title": "The Adirondack is a plank chair, not a lifestyle",
+      "stage": "03-american-porch",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 661,
+      "educational_claim": "Thomas Lee's Westport chair of 1903 \u2014 eleven pieces, later patented by Harry Bunnell \u2014 is a low, wide, slatted outdoor sit. The word Adirondack is a later region-name. The duties are the seat angle, the slats, and a wood that can take weather."
+    },
+    {
+      "file": "03-18-mission-porch.md",
+      "id": "ogfh-03-18",
+      "title": "Mission on a porch is oak, a roof, and a refusal of wicker fuss",
+      "stage": "03-american-porch",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 652,
+      "educational_claim": "Craftsman and Mission porch furniture \u2014 settles, straight chairs, oak \u2014 borrowed indoor honesty and needed the porch roof. It is not a patio style name, and it is not a license to leave quartersawn oak in standing water."
+    },
+    {
+      "file": "03-19-porch-wicker.md",
+      "id": "ogfh-03-19",
+      "title": "American porch wicker is a summer skin, not a winter skeleton",
+      "stage": "03-american-porch",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 639,
+      "educational_claim": "Heywood-Wakefield and its rivals made rattan and wicker porch furniture a national summer object. Wicker is a woven skin. It wants a roof, a dry winter, and a household that will not hose it like a driveway."
+    },
+    {
+      "file": "03-20-patio-ate-porch.md",
+      "id": "ogfh-03-20",
+      "title": "The patio ate the porch and then asked for a living room",
+      "stage": "03-american-porch",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 627,
+      "educational_claim": "Midcentury American houses moved sitting to a backyard slab or deck \u2014 the patio \u2014 while air conditioning emptied the front porch. Patio furniture is sky furniture. Trying to reproduce a full living room on that slab is how cushions and films die."
+    },
+    {
+      "file": "03-21-aluminum-after-war.md",
+      "id": "ogfh-03-21",
+      "title": "After the war, aluminum taught the patio to stack",
+      "stage": "03-american-porch",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 652,
+      "educational_claim": "Postwar outdoor aluminum \u2014 Brown Jordan, Tropitone, Woodard's later lines, and a thousand unnamed sets \u2014 made lightness and stacking industrial virtues. Aluminum does not rust like steel. It still fatigues, paints poorly when cheap, and gets hot."
+    },
+    {
+      "file": "04-22-teak-oil-silica.md",
+      "id": "ogfh-04-22",
+      "title": "Teak is oil and silica, not a finish color",
+      "stage": "04-wood",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 607,
+      "educational_claim": "Teak \u2014 Tectona grandis \u2014 carries natural oils and silica that made it a ship-deck wood. Garden furniture borrowed that habit. Silvering is what the surface does in sun. \"Teak oil\" is often a store can, not the tree."
+    },
+    {
+      "file": "04-23-cedar-cypress.md",
+      "id": "ogfh-04-23",
+      "title": "Cedar and cypress are the American outdoor woods that already voted",
+      "stage": "04-wood",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 638,
+      "educational_claim": "Western red cedar and bald cypress carry extractives that resist rot relative to pine. They are still woods. They dent, they weather, they need detail. Smell is not a structural grade."
+    },
+    {
+      "file": "04-24-ipe-hardness.md",
+      "id": "ogfh-04-24",
+      "title": "Ipe is a hardness tax, not immortality",
+      "stage": "04-wood",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 659,
+      "educational_claim": "Ipe \u2014 Brazilian walnut, a Tabebuia/Handroanthus group \u2014 is extremely dense and silica-rich. It makes durable decking and unforgiving furniture. Hardness is not a hinge. Fasteners, weight, and legality still have votes."
+    },
+    {
+      "file": "04-25-oak-outdoors.md",
+      "id": "ogfh-04-25",
+      "title": "Oak outdoors is a different oak than the dining room",
+      "stage": "04-wood",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 634,
+      "educational_claim": "White oak heartwood, with tyloses, has a better outdoor chance than red oak. English park benches used oak with detailing and paint or patience. An indoor quartersawn dining oak left on a patio is a dining table in trouble."
+    },
+    {
+      "file": "04-26-pressure-treated.md",
+      "id": "ogfh-04-26",
+      "title": "Pressure-treated is a chemical story, not a furniture species",
+      "stage": "04-wood",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 654,
+      "educational_claim": "Pressure-treated pine \u2014 CCA until the mid-2000s residential phaseout, then copper systems \u2014 is a preservative process. It can make a deck last. It does not automatically make a good chair, and the fasteners have to match the chemistry."
+    },
+    {
+      "file": "04-27-joinery-rain.md",
+      "id": "ogfh-04-27",
+      "title": "A joint that holds a puddle is not a joint. It is a cistern.",
+      "stage": "04-wood",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 629,
+      "educational_claim": "Outdoor wood joinery has to shed water, allow movement, and fail in a way you can maintain. Indoor brag joints \u2014 tight shoulders, trapped end grain, film inside a mortise \u2014 can become cisterns in the rain."
+    },
+    {
+      "file": "05-28-cast-iron-foundry.md",
+      "id": "ogfh-05-28",
+      "title": "Cast iron remembers the foundry longer than it remembers the garden",
+      "stage": "05-metal",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 627,
+      "educational_claim": "Cast iron is poured, heavy, brittle relative to bar stock, and honest about rust if the film fails. Garden seating from Coalbrookdale onward is a foundry product. Weight is the virtue. Snap is the vice."
+    },
+    {
+      "file": "05-29-wrought-vs-steel.md",
+      "id": "ogfh-05-29",
+      "title": "Wrought iron is a grandmother's name on a mild-steel cousin",
+      "stage": "05-metal",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 608,
+      "educational_claim": "Historic wrought iron is a low-carbon, slag-bearing iron worked by a smith. Almost all modern \"wrought\" patio furniture is mild steel, bent and welded. The scroll can be the same. The rust calendar is not a mythic metal. It is a film and a gauge."
+    },
+    {
+      "file": "05-30-aluminum-light.md",
+      "id": "ogfh-05-30",
+      "title": "Aluminum is light, and it means every word of that",
+      "stage": "05-metal",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 629,
+      "educational_claim": "Aluminum outdoor frames trade rust for lightness, fatigue, heat, and a different oxidation. Cast aluminum and tubular aluminum are different machines. Wind and stacking are part of the spec."
+    },
+    {
+      "file": "05-31-powder-coat.md",
+      "id": "ogfh-05-31",
+      "title": "Powder coat is a baked film, not a metal",
+      "stage": "05-metal",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 625,
+      "educational_claim": "Powder coating is an electrostatic powder baked onto metal. It can be an excellent outdoor film. It still chalks, chips, and maps welds. A chip is a climate. The metal underneath is the real specification."
+    },
+    {
+      "file": "06-32-rattan-vine.md",
+      "id": "ogfh-06-32",
+      "title": "Rattan is a vine, not a style, and it drinks",
+      "stage": "06-woven",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 639,
+      "educational_claim": "Rattan is a climbing palm used as poles and peel. It is strong for its weight and thirsty in weather. Porch history used it. Patio weather, untreated, will take it apart at the crossings."
+    },
+    {
+      "file": "06-33-wicker-method.md",
+      "id": "ogfh-06-33",
+      "title": "Wicker is a method. The plant gets to keep its own name.",
+      "stage": "06-woven",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 602,
+      "educational_claim": "Wicker means weaving a seat or a skin around a frame \u2014 rattan, willow, reed, paper, or resin. The method is old. The frame and the fiber decide the climate, not the department-store syllable."
+    },
+    {
+      "file": "06-34-all-weather-weave.md",
+      "id": "ogfh-06-34",
+      "title": "All-weather weave is plastic with a memory of rattan",
+      "stage": "06-woven",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 624,
+      "educational_claim": "Resin wicker is an extruded polymer woven on a weather-worthy frame, usually aluminum. It can be a good patio skin. Ultraviolet still chalks it, heat still softens cheap strands, and the word wicker is borrowed."
+    },
+    {
+      "file": "06-35-lloyd-loom.md",
+      "id": "ogfh-06-35",
+      "title": "Lloyd Loom is paper on a wire that fooled a century",
+      "stage": "06-woven",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 628,
+      "educational_claim": "Marshall B. Lloyd's 1917 woven-paper fabric \u2014 paper twisted on wire, loomed as a sheet \u2014 made a light, regular \"wicker\" for porches and interiors. It is not rattan. Rain is not its friend. The regularity is the tell."
+    },
+    {
+      "file": "07-36-stone-cold-sit.md",
+      "id": "ogfh-07-36",
+      "title": "A stone bench is a cold sit you can leave",
+      "stage": "07-other",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 632,
+      "educational_claim": "Stone outdoor seating is architecture-adjacent: heavy, thermally honest, leave-it. The duties are span, freeze, staining, and a pad. A thin cultured-stone top on legs is not a villa slab."
+    },
+    {
+      "file": "07-37-concrete.md",
+      "id": "ogfh-07-37",
+      "title": "Concrete wanted to be democratic stone and sometimes it spalled",
+      "stage": "07-other",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 643,
+      "educational_claim": "Twentieth-century garden concrete \u2014 benches, tables, planters \u2014 is a mix, a reinforcement, and a freeze calendar. It can be honest modern outdoor furniture. Hairline cracks and rust bleed from rebar are part of the material, not a surprise plot twist."
+    },
+    {
+      "file": "07-38-sling-mesh.md",
+      "id": "ogfh-07-38",
+      "title": "Sling and mesh are seats that refuse to be a tray",
+      "stage": "07-other",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 603,
+      "educational_claim": "Sling fabric and metal mesh drain. That is the job. Tension, UV hours, and the frame's attachment points decide whether the sit lasts or becomes a hammock and then a tear."
+    },
+    {
+      "file": "07-39-cushions-not-furniture.md",
+      "id": "ogfh-07-39",
+      "title": "Cushions are not furniture. They are a weather argument you can fold.",
+      "stage": "07-other",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 637,
+      "educational_claim": "An outdoor cushion is foam and a textile with a zipper. It can make a hard sit possible. It cannot make a bad frame honest. Storage, drainage, and a cover that is not a greenhouse decide whether it lasts a season or a decade."
+    },
+    {
+      "file": "08-40-fasteners-rust-first.md",
+      "id": "ogfh-08-40",
+      "title": "The fastener rusts first. Design as if you knew that.",
+      "stage": "08-shop",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 605,
+      "educational_claim": "Outdoor furniture often fails at the screw, the bolt, and the staple \u2014 galvanic pairs, thin platings, oak tannin, treated-wood chemistry. Specify the metal and the isolation, or the joint will narrate the winter."
+    },
+    {
+      "file": "08-41-finish-die-public.md",
+      "id": "ogfh-08-41",
+      "title": "Outdoor finish has to die in public. Pick an honest death.",
+      "stage": "08-shop",
+      "runtime_min": 9.0,
+      "standalone": "true",
+      "words": 653,
+      "educational_claim": "Films chalk, peel, and map in sun. Oils go sticky or disappear. Paint is a sacrificial skin. Bare teak silvers. The specification is which failure the household will maintain, not which color the screen liked."
+    },
+    {
+      "file": "08-42-winter-brief.md",
+      "id": "ogfh-08-42",
+      "title": "Winter is a design brief, not a surprise in March",
+      "stage": "08-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 648,
+      "educational_claim": "Freeze, covers, stacking, and storage are part of the object. A piece that cannot be left, stacked, or stored was specified for a climate the household does not have. Draw January in September."
+    },
+    {
+      "file": "08-43-read-the-patio.md",
+      "id": "ogfh-08-43",
+      "title": "How to read a patio before anyone draws a set",
+      "stage": "08-shop",
+      "runtime_min": 9.0,
+      "standalone": "false",
+      "words": 625,
+      "educational_claim": "Before a carton, walk the roof, the sun, the water, the path, and the January storage. The history was a map of objects. The materials were a map of duties. The site decides which object is honest."
+    },
+    {
+      "file": "08-44-bbf-collections-adjacent.md",
+      "id": "ogfh-08-44",
+      "title": "BBF collections can sit beside this weather without lying",
+      "stage": "08-shop",
+      "runtime_min": 8.0,
+      "standalone": "true",
+      "words": 665,
+      "educational_claim": "Keith Fritz Fine Furniture collections are indoor neighbors to this history. Adjacent means shared duties \u2014 joinery, finish honesty, refusal \u2014 not a invented patio SKU list or a caption that launders a slab into a dining room."
+    }
+  ],
+  "count": 44,
+  "status": "staged",
+  "channel": "BBF",
+  "series": "outdoor-garden-furniture-history"
+}
