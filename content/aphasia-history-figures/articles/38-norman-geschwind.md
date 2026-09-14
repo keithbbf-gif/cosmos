@@ -9,8 +9,8 @@ tags:
   - figures
   - geschwind
 meta_description: "Norman Geschwind (1926–1984) made disconnection fashionable again in two 1965 Brain papers and gave Boston’s syndromes a neurologist’s city map."
-portrait: null
-portrait_status: note
+portrait: "plates/norman-geschwind/plate.svg"
+portrait_status: placeholder
 figure_dates: "1926–1984"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/norman-geschwind/plate.svg"
+    alt="Portrait pending — rights not cleared for Norman Geschwind."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Norman Geschwind</strong> (1926–1984), 1960s–1970s disconnection neurology era — Harvard neurologist who revived associationist maps for language and alexia.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/norman-geschwind/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Norman Geschwind was born in 1926 and died in 1984, at fifty-eight, with a generation of residents still talking in his sentences. The public object is “Disconnexion Syndromes in Animals and Man,” *Brain* 88 (1965), in two parts. The papers made white-matter breaks fashionable again: conduction aphasia as a disconnection, alexia without agraphia as a splenium-and-occipital story, the callosal syndromes as a city you could walk.
 

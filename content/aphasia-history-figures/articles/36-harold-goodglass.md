@@ -9,8 +9,8 @@ tags:
   - figures
   - goodglass
 meta_description: "Harold Goodglass (1920–2002) took the psychologist’s post at Framingham in 1951 and, with Edith Kaplan, wrote the Boston Diagnostic Aphasia Examination."
-portrait: null
-portrait_status: note
+portrait: "plates/harold-goodglass/plate.svg"
+portrait_status: placeholder
 figure_dates: "1920–2002"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/harold-goodglass/plate.svg"
+    alt="Portrait pending — rights not cleared for Harold Goodglass."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Harold Goodglass</strong> (1920–2002), Boston VA aphasia research era — co-creator of the Boston Diagnostic Aphasia Examination and the Aphasia Bank.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/harold-goodglass/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Harold Goodglass was born in 1920 and died in 2002. In 1951 he took the psychologist’s post at the National Veterans Aphasia Center in Framingham. He spent the rest of a long career making Boston a place where you could hear a syndrome if you knew what to ask. The Boston Diagnostic Aphasia Examination, with Edith Kaplan, first appeared in 1972 (Lea & Febiger). It wanted profiles: fluency, naming, repetition, comprehension — the old Wernicke–Lichtheim questions asked with pictures and a scoring sheet.
 

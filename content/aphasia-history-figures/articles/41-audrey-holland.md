@@ -9,8 +9,8 @@ tags:
   - figures
   - holland
 meta_description: "Audrey Holland made everyday language a test (CADL, 1980), treated conversation as serious, and helped build AphasiaBank — without a locked birth year in this pack."
-portrait: null
-portrait_status: note
+portrait: "plates/audrey-holland/plate.svg"
+portrait_status: placeholder
 figure_dates: "dates incomplete"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/audrey-holland/plate.svg"
+    alt="Portrait pending — rights not cleared for Audrey Holland."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Audrey Holland</strong> (dates incomplete), life-participation aphasia era — researcher who moved aphasia outcomes toward communication in daily life.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/audrey-holland/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Audrey Holland’s public objects are enough for a profile without a childhood novel. This pack does not have a birth year it will defend; several secondary pages disagree or stay silent. Do not invent one. The work is dated. The person may be treated as a living or recently living scientific figure until a necrology is in hand.
 

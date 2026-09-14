@@ -9,8 +9,8 @@ tags:
   - figures
   - wepman
 meta_description: "Joseph M. Wepman (1907–1982): Chicago, the Language Modalities Test, recovery as reintegration, and a screening test with Ward Halstead."
-portrait: null
-portrait_status: note
+portrait: "plates/joseph-wepman/plate.svg"
+portrait_status: placeholder
 figure_dates: "1907–1982"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/joseph-wepman/plate.svg"
+    alt="Portrait pending — rights not cleared for Joseph M. Wepman."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Joseph M. Wepman</strong> (1907–1982), mid-century Chicago assessment era — psychologist who shaped naming and repetition tests after World War II.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/joseph-wepman/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Joseph M. Wepman was born in Copemish, Michigan, on 24 December 1907 and died in Riverside, California, on 18 March 1982. Those dates come from later memorials, not from a newspaper this pack held in its hand; if a better obituary disagrees, the article should be corrected, not defended. He took a B.A. at Western Michigan in 1931, a Ph.M. at Wisconsin in 1934, and a Ph.D. at the University of Chicago in 1948 — a timeline that already says “war in the middle.”
 

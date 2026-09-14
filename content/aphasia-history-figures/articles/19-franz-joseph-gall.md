@@ -10,8 +10,8 @@ tags:
   - gall
   - phrenology
 meta_description: "Franz Joseph Gall (1758–1828) put language among the cortical organs. The bump was a circus. The cortex as the organ of mind was not."
-portrait: null
-portrait_status: note
+portrait: "plates/franz-joseph-gall/plate.jpg"
+portrait_status: cleared
 figure_dates: "1758–1828"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/franz-joseph-gall/plate.jpg"
+    alt="Stipple engraving portrait of Franz Joseph Gall, late eighteenth-century physician."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Franz Joseph Gall</strong> (1758–1828), late Enlightenment–Restoration era — phrenology’s founder and the organology that preceded lesion neurology.
+    <span class="figure-credit">Stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
 
 Franz Joseph Gall was born in Tiefenbronn in 1758 and died in Paris in 1828. He trained in Vienna, lectured on the skull until the lectures became a scandal, and moved his collection and his doctrine west. In Paris he was a celebrity and a problem. He taught that the mind was a set of organs in the convolutions, that the organs could enlarge the bone, and that a careful hand on a living head could read the organs. Language — the memory of words, the faculty of speech — had a place. He liked the orbital frontal region, on the evidence of talkers and of people whose speech had failed.
 
@@ -41,8 +56,7 @@ Every time a student says “Broca’s area” as if a bump had learned to be ho
 
 ## Portrait
 
-Candidate (later download, not in this pack): Wikimedia Commons file *Franz Joseph Gall.jpg*, stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Public domain. Credit the engraving, not a colorized restyling. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/franz-joseph-gall/plate.*` with rights record `plates/franz-joseph-gall/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Collection and laugh
 

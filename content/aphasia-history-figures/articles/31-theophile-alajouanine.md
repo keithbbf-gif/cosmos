@@ -9,8 +9,8 @@ tags:
   - figures
   - alajouanine
 meta_description: "Théophile Alajouanine (1890–1980) and the 1939 phonetic disintegration: a French clinic after Marie that listened to the sound of the wreck."
-portrait: null
-portrait_status: note
+portrait: "plates/theophile-alajouanine/plate.png"
+portrait_status: cleared
 figure_dates: "1890–1980"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/theophile-alajouanine/plate.png"
+    alt="Portrait of Théophile Alajouanine from Courrier royal, 1930s press plate."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Théophile Alajouanine</strong> (1890–1980), interwar French neurology era — Salpêtrière clinician linked to transcortical aphasia and wartime rehabilitation.
+    <span class="figure-credit">Courrier royal, via Retronews / Wikimedia Commons. CC0 1.0.</span>
+  </figcaption>
+</figure>
+
 
 Théophile Alajouanine was born in 1890 and died in 1980. He is the French clinician who, after Marie and after the war, made the *sound* of aphasic speech a scientific object again. The 1939 work on phonetic disintegration — with André Ombredane and others in the usual citation cluster — argued that some of what English textbooks later filed under “apraxia of speech” or “phonetic disintegration in Broca’s aphasia” was a lawful coming-apart of articulated sound, not only a missing word.
 
@@ -32,8 +47,7 @@ He also wrote about artists and writers whose language or skill changed after br
 
 ## Portrait
 
-Hunt BIU Santé and Gallica. **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/theophile-alajouanine/plate.*` with rights record `plates/theophile-alajouanine/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Sound as a clinic object
 

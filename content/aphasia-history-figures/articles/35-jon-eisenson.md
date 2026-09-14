@@ -9,8 +9,8 @@ tags:
   - figures
   - eisenson
 meta_description: "Jon Eisenson (1907–2001) wrote Examining for Aphasia, worked wartime language rehab, and put the adult word on children on purpose."
-portrait: null
-portrait_status: note
+portrait: "plates/jon-eisenson/plate.svg"
+portrait_status: placeholder
 figure_dates: "1907–2001"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/jon-eisenson/plate.svg"
+    alt="Portrait pending — rights not cleared for Jon Eisenson."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jon Eisenson</strong> (1907–2001), mid-century diagnostic batteries era — author of early standardized aphasia examinations used in training clinics.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/jon-eisenson/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Jon Eisenson was born in 1907 and died in 2001. He is one of the people who made aphasia a speech-pathology subject in the United States rather than only a neurologist’s afterthought. *Examining for Aphasia* gave clinics a binder they could carry before the BDAE was a brand. Wartime language rehabilitation gave him a caseload of young men. Queens College and later California gave him students. The Institute for Childhood Aphasia used the adult word on purpose.
 

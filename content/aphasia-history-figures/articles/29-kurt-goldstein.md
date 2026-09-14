@@ -9,8 +9,8 @@ tags:
   - figures
   - goldstein
 meta_description: "Kurt Goldstein (1878–1965) ran a Frankfurt institute for brain-injured soldiers, fled the Nazis, and wrote Language and Language Disturbances as an American exile."
-portrait: null
-portrait_status: note
+portrait: "plates/kurt-goldstein/plate.svg"
+portrait_status: placeholder
 figure_dates: "1878–1965"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/kurt-goldstein/plate.svg"
+    alt="Portrait pending — rights not cleared for Kurt Goldstein."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Kurt Goldstein</strong> (1878–1965), interwar organismic neurology era — Berlin–New York neurologist of holistic brain injury and language loss.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/kurt-goldstein/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Kurt Goldstein was born in 1878 and died in 1965. The American Goldstein is sometimes read as a philosopher who wandered into aphasia with a book called *The Organism* (1939). The Frankfurt Goldstein ran an institute, with Adhémar Gelb, for brain-injured soldiers of the First World War — a hospital, a workshop, and a psychology laboratory that tried to watch how a life reorganized when a piece of the old life would not return.
 

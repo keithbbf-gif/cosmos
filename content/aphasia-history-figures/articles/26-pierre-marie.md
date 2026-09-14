@@ -9,8 +9,8 @@ tags:
   - figures
   - pierre-marie
 meta_description: "Pierre Marie (1853–1940) published the 1906 revision that denied Broca’s convolution a special role — a fight about a gyrus, a chair, and a definition."
-portrait: null
-portrait_status: note
+portrait: "plates/pierre-marie/plate.jpg"
+portrait_status: cleared
 figure_dates: "1853–1940"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/pierre-marie/plate.jpg"
+    alt="Portrait photograph of Pierre Marie, French neurologist, early twentieth century."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Pierre Marie</strong> (1853–1940), Third Republic–early twentieth century — Salpêtrière neurologist whose 1906 revision challenged narrow Broca–Wernicke maps.
+    <span class="figure-credit">Wikimedia Commons contributors. CC BY-SA 4.0 — attribute on reuse; share alike if adapted.</span>
+  </figcaption>
+</figure>
+
 
 Pierre Marie was born in 1853 and died in 1940. He had been Charcot’s student, which in Paris is a passport and a burden. He wrote about acromegaly, about the neurology of the time, and, in 1906, about aphasia in a tone that picked a fight on the title page. “La troisième circonvolution frontale gauche ne joue aucun rôle spécial dans la fonction du langage.” The *Semaine médicale* offprint (23 May 1906) is thirty-eight pages of autopsy argument and definition argument glued together.
 
@@ -36,8 +51,7 @@ Every “Broca’s” that comes with an apology owes Marie a nickel. Every clin
 
 ## Portrait
 
-Candidate: Commons file pages for Pierre Marie exist; verify photographer, date, and license before any later download. Several early studio plates are likely public domain; some are not. Do not invent or generate a substitute likeness. Until the file page is read, a gray frame is safer than a grabbed thumbnail.
-
+Cleared plate: `plates/pierre-marie/plate.*` with rights record `plates/pierre-marie/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Anarthria as a knife
 

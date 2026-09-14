@@ -9,8 +9,8 @@ tags:
   - figures
   - schuell
 meta_description: "Hildred Schuell (1906–1970) learned aphasia at the Minneapolis VA, wrote the Minnesota Test, and treated severity as something you could listen for."
-portrait: null
-portrait_status: note
+portrait: "plates/hildred-schuell/plate.svg"
+portrait_status: placeholder
 figure_dates: "1906–1970"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/hildred-schuell/plate.svg"
+    alt="Portrait pending — rights not cleared for Hildred Schuell."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Hildred Schuell</strong> (1906–1970), Minnesota VA postwar era — clinician whose stimulation hierarchy dominated U.S. aphasia therapy for decades.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/hildred-schuell/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Hildred Schuell was born in 1906 and died in 1970. She came to the Minneapolis Veterans Administration in 1948 as a speech pathologist, not as a neurologist, and learned the caseload by sitting with it. The Minnesota Test for Differential Diagnosis of Aphasia and the 1964 book *Aphasia in Adults* (with James J. Jenkins and Edward Jiménez-Pabón) are the public objects. The private object is an hour in a Midwestern VA in which a man who had been a farmer or a clerk tried to take language back in.
 

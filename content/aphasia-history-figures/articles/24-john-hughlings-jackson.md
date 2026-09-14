@@ -9,8 +9,8 @@ tags:
   - figures
   - jackson
 meta_description: "John Hughlings Jackson (1835–1911) watched people who could swear and could not ask for water, and refused to put a little man in a center."
-portrait: null
-portrait_status: note
+portrait: "plates/john-hughlings-jackson/plate.jpg"
+portrait_status: cleared
 figure_dates: "1835–1911"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/john-hughlings-jackson/plate.jpg"
+    alt="Photogravure portrait of John Hughlings Jackson after Lance Calkin, 1895."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>John Hughlings Jackson</strong> (1835–1911), Victorian neurology era — Queen Square neurologist who reframed language as hierarchical nervous process.
+    <span class="figure-credit">Photogravure after Lance Calkin, 1895. NLM / Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
 
 John Hughlings Jackson was born in 1835 in Yorkshire and died in 1911 in London. At the National Hospital, Queen Square, and in the early *Brain*, he wrote as if the nervous system were a hierarchy that could dissolve from the top. Higher, more voluntary, more propositional arrangements fail first or fail more; lower, more automatic arrangements remain. A curse is not a request. A hymn is not a sentence. The difference is a level, not a missing box.
 
@@ -38,8 +53,7 @@ Every time a clinician distinguishes “he can sing it” from “he can order i
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons *John_Hughlings_Jackson.jpg*, photogravure after Lance Calkin, 1895, NLM. Public domain. Credit Calkin / the photogravure. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/john-hughlings-jackson/plate.*` with rights record `plates/john-hughlings-jackson/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Hierarchy without a sketch
 

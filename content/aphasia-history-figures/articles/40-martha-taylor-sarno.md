@@ -9,8 +9,8 @@ tags:
   - figures
   - sarno
 meta_description: "Martha Taylor Sarno (b. 1927) made functional communication a clinical object at NYU’s Rusk Institute and treated the hallway as data."
-portrait: null
-portrait_status: note
+portrait: "plates/martha-taylor-sarno/plate.svg"
+portrait_status: placeholder
 figure_dates: "b. 1927"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/martha-taylor-sarno/plate.svg"
+    alt="Portrait pending — rights not cleared for Martha Taylor Sarno."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Martha Taylor Sarno</strong> (b. 1927), NYU Rusk rehabilitation era — speech-language pathologist who documented long-term aphasia recovery.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/martha-taylor-sarno/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Martha Lamarque was born in New York City on 25 November 1927. She studied at Michigan State with Lucia Morgan Neesom, came back to New York, and became, in the usual sentence, the first speech-language pathologist to work in a medical rehabilitation setting at scale — NYU’s Rusk Institute. She later married John Sarno, a physiatrist; they ran family groups at Rusk before family groups were a fashion. This pack uses the public scientific name Martha Taylor Sarno. It will not write a private household.
 

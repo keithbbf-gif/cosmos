@@ -10,8 +10,8 @@ tags:
   - mesulam
   - ppa
 meta_description: "M. Marsel Mesulam’s 1982 Annals of Neurology paper named slowly progressive aphasia without generalized dementia and changed the clinic’s clock."
-portrait: null
-portrait_status: note
+portrait: "plates/marsel-mesulam/plate.svg"
+portrait_status: placeholder
 figure_dates: "living"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/marsel-mesulam/plate.svg"
+    alt="Portrait pending — rights not cleared for M. Marsel Mesulam."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>M. Marsel Mesulam</strong> (living), primary progressive aphasia era — Northwestern neurologist who framed PPA as a clinicopathologic syndrome.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/marsel-mesulam/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 M.-Marsel Mesulam is a living neurologist. This pack will not write a private biography, will not scrape a university headshot, and will not invent a birth year for a caption. The public object is “Slowly Progressive Aphasia without Generalized Dementia,” *Annals of Neurology* 11 (1982): 592–598. The paper did not invent the patients. It gave neurologists permission to see a language-led degeneration as its own pattern, not as a failed Alzheimer’s story.
 

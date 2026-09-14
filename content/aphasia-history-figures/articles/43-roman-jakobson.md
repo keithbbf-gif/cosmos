@@ -10,8 +10,8 @@ tags:
   - jakobson
   - linguistics
 meta_description: "Roman Jakobson (1896–1982) wrote Kindersprache, Aphasie und allgemeine Lautgesetze (1941): a linguist’s claim that the lesion obeys the same laws as the child’s sound system."
-portrait: null
-portrait_status: note
+portrait: "plates/roman-jakobson/plate.svg"
+portrait_status: placeholder
 figure_dates: "1896–1982"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/roman-jakobson/plate.svg"
+    alt="Portrait pending — rights not cleared for Roman Jakobson."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Roman Jakobson</strong> (1896–1982), structural linguistics era — linguist whose aphasia typology influenced neurology and speech pathology.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/roman-jakobson/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Roman Jakobson was born in Moscow in 1896 and died in Cambridge, Massachusetts, in 1982. He is a linguist, a Prague Circle emigrant, a Harvard and MIT weather system, and — for this series — the author of a short wartime book with a long title: *Kindersprache, Aphasie und allgemeine Lautgesetze* (Uppsala, 1941). Child language, aphasia, and general sound laws. The claim is that the sounds a child acquires last are the sounds an aphasic speaker loses first, because both obey a structural order.
 

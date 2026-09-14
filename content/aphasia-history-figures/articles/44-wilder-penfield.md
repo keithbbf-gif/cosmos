@@ -9,8 +9,8 @@ tags:
   - figures
   - penfield
 meta_description: "Wilder Penfield (1891–1976) mapped speech on the living cortex in Montreal. Speech and Brain Mechanisms (1959, with Roberts) is an intraoperative atlas, not a therapy."
-portrait: null
-portrait_status: note
+portrait: "plates/wilder-penfield/plate.svg"
+portrait_status: placeholder
 figure_dates: "1891–1976"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/wilder-penfield/plate.svg"
+    alt="Portrait pending — rights not cleared for Wilder Penfield."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Wilder Penfield</strong> (1891–1976), Montreal cortical stimulation era — neurosurgeon whose mapped cortex linked language to exposed brain in the OR.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/wilder-penfield/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Wilder Graves Penfield was born in Spokane in 1891, trained in the long American-and-Rhodes orbit, and built the Montreal Neurological Institute into a place where a waking patient could name objects while a surgeon touched cortex. He died in 1976. With Lamar Roberts he published *Speech and Brain Mechanisms* (Princeton, 1959), the public atlas of those hours: speech arrest, anomia, the maps that later textbooks still reprint in simplified form.
 

@@ -12,7 +12,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ART = ROOT / "articles"
+PLATES = ROOT / "plates"
 INDEX = ROOT / "INDEX.md"
+FIGURE_RE = re.compile(r'<figure class="slpwow-figure', re.I)
 
 REQUIRED_YAML = [
     "title",
@@ -109,10 +111,20 @@ def main() -> int:
             errors.append(f"{path.name}: bad series {fm.get('series')!r}")
         if fm.get("audience") != "slpwow":
             errors.append(f"{path.name}: audience must be slpwow")
-        if fm.get("portrait") not in {"null", ""}:
-            errors.append(f"{path.name}: this pack is notes-only; portrait must be null")
-        if fm.get("type") == "profile" and fm.get("portrait_status") not in {"note"}:
-            errors.append(f"{path.name}: profile portrait_status must be note")
+        if fm.get("type") == "profile":
+            ps = fm.get("portrait_status", "")
+            if ps not in {"cleared", "placeholder"}:
+                errors.append(f"{path.name}: profile portrait_status must be cleared or placeholder")
+            portrait = fm.get("portrait", "").strip('"')
+            if not portrait.startswith("plates/"):
+                errors.append(f"{path.name}: profile portrait must point at plates/…")
+            elif not (ROOT / portrait).is_file():
+                errors.append(f"{path.name}: portrait path missing on disk: {portrait}")
+            if not FIGURE_RE.search(text):
+                errors.append(f"{path.name}: profile missing <figure> portrait block")
+        elif fm.get("type") == "era":
+            if fm.get("portrait") not in {"null", ""}:
+                errors.append(f"{path.name}: era portrait YAML must be null")
         if fm.get("type") == "era" and fm.get("portrait_status") not in {"essay-only"}:
             errors.append(f"{path.name}: era portrait_status must be essay-only")
         if fm.get("type") == "profile" and "figure_dates" not in fm:
@@ -147,10 +159,25 @@ def main() -> int:
     if len(orders) != len(set(orders)):
         errors.append("duplicate order fields")
 
-    # no image binaries in pack
-    for img in ROOT.rglob("*"):
-        if img.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
-            errors.append(f"image file not allowed in this notes-only pack: {img.relative_to(ROOT)}")
+    # plates/: one RIGHTS.md per plate folder; rasters only under plates/
+    if not PLATES.is_dir():
+        errors.append("missing plates/ directory")
+    else:
+        for plate_dir in sorted(p for p in PLATES.iterdir() if p.is_dir()):
+            rights = plate_dir / "RIGHTS.md"
+            if not rights.is_file():
+                errors.append(f"missing {rights.relative_to(ROOT)}")
+            elif "ai_generated | no" not in rights.read_text(encoding="utf-8"):
+                errors.append(f"{rights.relative_to(ROOT)} must declare ai_generated | no")
+            plate_files = list(plate_dir.glob("plate.*"))
+            if len(plate_files) != 1:
+                errors.append(f"{plate_dir.name}: expected exactly one plate.* file, got {len(plate_files)}")
+        for img in ROOT.rglob("*"):
+            if img.suffix.lower() not in {".jpg", ".jpeg", ".png", ".gif", ".webp"}:
+                continue
+            rel = img.relative_to(ROOT)
+            if rel.parts[0] != "plates":
+                errors.append(f"raster outside plates/: {rel}")
 
     ops = [
         "INDEX.md",

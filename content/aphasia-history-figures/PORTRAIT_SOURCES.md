@@ -1,40 +1,39 @@
-# Portrait Sources — Notes Only (No Files)
+# Portrait Sources — plates ledger
 
-Pack date: 14 September 2026. This ledger records **candidates**. No likeness is downloaded into this folder. Never generate a historical face.
+Pack date: 14 September 2026 (image + SEO caption pass). **Real likenesses only** — Wikimedia Commons, NLM IHM, Wellcome, BIU Santé (Licence Ouverte). Never AI-generated faces.
 
-Filename convention for a later graphics pass: `assets/portraits/<portrait_id>.<ext>`.
+On disk: `plates/<portrait_id>/plate.{jpg|png|svg}` plus **`plates/<portrait_id>/RIGHTS.md`** per plate. Profiles embed SEO `<figure>` blocks pointing at these paths.
 
-| portrait_id | figure | candidate | license / terms | source URL | credit line | cleared to download later |
-|-------------|--------|-----------|-----------------|------------|-------------|---------------------------|
-| jacques-lordat | Jacques Lordat | BIU Santé engraving / later lithograph hunt | Licence Ouverte if BIU file confirmed | Search BIU Santé CIPA/CIPN “Lordat” | Pending file-page check | not yet |
-| franz-joseph-gall | Franz Joseph Gall | Commons stipple engraving | Public domain | https://commons.wikimedia.org/wiki/File:Franz_Joseph_Gall.jpg | Stipple engraving lettered “Le Dr Franc.-Jos. Gall.” Public domain. | yes (file page) |
-| jean-baptiste-bouillaud | Jean-Baptiste Bouillaud | BIU Santé CIPN21514 | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Bouillaud,_Jean-Baptiste_(1796-1881)_CIPN21514.jpg | BIU Santé, Paris (CIPN21514). Licence Ouverte. | yes (file page) |
-| paul-broca | Paul Broca | Pierre Petit photograph | Public domain | https://commons.wikimedia.org/wiki/File:Paul_Broca.jpg | Paul Broca. Photograph by Pierre Petit. Wellcome Collection / Wikimedia Commons. Public domain. | yes (file page) |
-| carl-wernicke | Carl Wernicke | Lehmann plate | Public domain | https://commons.wikimedia.org/wiki/File:C._Wernicke.jpg | Carl Wernicke. Photographer unknown; published by J. F. Lehmann. NLM IHM. Public domain. | yes (file page) |
-| ludwig-lichtheim | Ludwig Lichtheim | Lehmann 1925 | Public domain (U.S., pub. 1925) | https://commons.wikimedia.org/wiki/File:Ludwig_Lichtheim.jpg | Published J. F. Lehmann, Munich, 1925. NLM IHM. Public domain in the U.S. | yes (file page) |
-| john-hughlings-jackson | John Hughlings Jackson | Photogravure after Lance Calkin, 1895 | Public domain | https://commons.wikimedia.org/wiki/File:John_Hughlings_Jackson.jpg | Photogravure after Lance Calkin, 1895. NLM / Commons. Public domain. | yes (file page) |
-| henry-head | Henry Head | Theodore C. Marceau photograph | Commons-stated PD (Marceau d. 1922) | https://commons.wikimedia.org/wiki/File:Henry_Head.jpg | Theodore C. Marceau (1859–1922). NLM IHM. Commons PD; NLM uses caution boilerplate. | caution |
-| pierre-marie | Pierre Marie | Several Commons photographs | Confirm file page (some are 1910s studio plates) | https://commons.wikimedia.org/wiki/File:Pierre_Marie.jpg (verify) | Photographer and date on file page only | verify file page |
-| jules-dejerine | Jules Déjerine | Commons / BIU Santé | Often PD or Licence Ouverte | Search “Jules Dejerine” on Commons and BIU | Credit photographer on file page | verify file page |
-| augusta-dejerine-klumpke | Augusta Déjerine-Klumpke | 1880s–90s studio portraits on Commons | Confirm each file | Search Commons “Augusta Déjerine-Klumpke” | Do not crop to a “wife of” caption | verify file page |
-| roman-jakobson | Roman Jakobson | Passport / mid-century photos | Many still in copyright; a few early plates may be PD | Hunt LOC / Commons; do not grab news wire | — | no (default) |
-| aleksandr-luria | Aleksandr R. Luria | Commons c. 1940s | Commons-stated PD, photographer unknown | https://commons.wikimedia.org/wiki/File:Alexander_Luria.jpg | c. 1940s. Photographer unknown. Stated PD; not independently cleared. | caution — do not treat as closed |
-| johann-gesner | Johann A. P. Gesner | No reliable plate found | — | — | **Portrait placeholder.** | no |
-| kurt-goldstein | Kurt Goldstein | Mid-century U.S. photos | Likely copyrighted (d. 1965) | ASHA / NYU / New School archives | **Portrait placeholder.** | no |
-| theophile-alajouanine | Théophile Alajouanine | French hospital archives | Hunt BIU / Gallica | — | **Portrait placeholder.** | no |
-| weisenburg | Theodore Weisenburg | 1930s faculty photos | Likely copyrighted (d. 1934; photos may still be closed) | Penn archives | **Portrait placeholder.** | no |
-| mcbride | Katharine E. McBride | Bryn Mawr presidential portraits | Copyright likely | Bryn Mawr archives | **Portrait placeholder.** | no |
-| joseph-wepman | Joseph M. Wepman | University of Chicago | Copyright likely | — | **Portrait placeholder.** | no |
-| hildred-schuell | Hildred Schuell | Minneapolis VA / Minnesota | Copyright likely | ASHA pioneers; ask before ingest | **Portrait placeholder.** | no |
-| jon-eisenson | Jon Eisenson | Queens College / Stanford | Copyright likely | — | **Portrait placeholder.** | no |
-| harold-goodglass | Harold Goodglass | Boston VA / BU | Copyright (d. 2002) | — | **Portrait placeholder.** | no |
-| edith-kaplan | Edith Kaplan | Boston process photos | Copyright (d. 2009) | — | **Portrait placeholder.** | no |
-| norman-geschwind | Norman Geschwind | Harvard / Boston City | Copyright (d. 1984) | — | **Portrait placeholder.** | no |
-| andrew-kertesz | Andrew Kertesz | Living | Not PD | — | **Portrait placeholder.** | no |
-| martha-taylor-sarno | Martha Taylor Sarno | Living | Not PD | — | **Portrait placeholder.** | no |
-| audrey-holland | Audrey Holland | Living or recent | Not PD | — | **Portrait placeholder.** | no |
-| macdonald-critchley | Macdonald Critchley | Queen Square | Hunt; d. 1997 so most photos closed | — | **Portrait placeholder.** | no |
-| wilder-penfield | Wilder Penfield | McGill / Montreal Neuro | Many 1950s photos still closed | — | **Portrait placeholder.** until a PD early plate is confirmed | no |
-| marsel-mesulam | M. Marsel Mesulam | Living | Not PD | — | **Portrait placeholder.** | no |
+| portrait_id | figure | cleared plate | license (file page) | source URL | credit line |
+|-------------|--------|---------------|---------------------|------------|-------------|
+| franz-joseph-gall | Franz Joseph Gall | yes | Public domain | https://commons.wikimedia.org/wiki/File:Franz_Joseph_Gall.jpg | Stipple engraving. Public domain. |
+| jean-baptiste-bouillaud | Jean-Baptiste Bouillaud | yes | Licence Ouverte | https://commons.wikimedia.org/wiki/File:Bouillaud,_Jean-Baptiste_(1796-1881)_CIPN21514.jpg | BIU Santé CIPN21514. |
+| paul-broca | Paul Broca | yes | Public domain | https://commons.wikimedia.org/wiki/File:Paul_Broca.jpg | Pierre Petit / Wellcome. |
+| carl-wernicke | Carl Wernicke | yes | Public domain (NLM) | https://commons.wikimedia.org/wiki/File:C._Wernicke.jpg | J. F. Lehmann; NLM IHM. |
+| ludwig-lichtheim | Ludwig Lichtheim | yes | Public domain (U.S.) | https://commons.wikimedia.org/wiki/File:Ludwig_Lichtheim.jpg | Lehmann 1925; NLM IHM. |
+| john-hughlings-jackson | John Hughlings Jackson | yes | Public domain | https://commons.wikimedia.org/wiki/File:John_Hughlings_Jackson.jpg | Photogravure after Calkin, 1895. |
+| henry-head | Henry Head | yes | Public domain (Commons) | https://commons.wikimedia.org/wiki/File:Henry_Head.jpg | Theodore C. Marceau; NLM IHM. |
+| pierre-marie | Pierre Marie | yes | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Pierre_Marie.jpg | Attribute; share alike if adapted. |
+| jules-dejerine | Jules Déjerine | yes | Public domain | https://commons.wikimedia.org/wiki/File:Jules_Dejerine.jpg | Commons PD. |
+| augusta-dejerine-klumpke | Augusta Déjerine-Klumpke | yes | Public domain (NLM) | https://commons.wikimedia.org/wiki/File:Augusta_D%C3%A9jerine-Klumpke.jpg | NLM IHM. |
+| jacques-lordat | Jacques Lordat | yes | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Jacques_Lordat.jpg | Lafosse after earlier plate. |
+| theophile-alajouanine | Théophile Alajouanine | yes | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Th%C3%A9ophile_Alajouanine.png | Courrier royal / Retronews. |
+| aleksandr-luria | Aleksandr R. Luria | yes | Public domain (Commons-stated) | https://commons.wikimedia.org/wiki/File:Alexander_Luria.jpg | c. 1940s; photographer unknown. |
+| johann-gesner | Johann A. P. Gesner | placeholder | — | — | No reliable plate. |
+| kurt-goldstein | Kurt Goldstein | placeholder | — | — | Mid-century photos likely closed. |
+| weisenburg-and-mcbride | Weisenburg / McBride | placeholder | — | — | Faculty archives likely closed. |
+| joseph-wepman | Joseph M. Wepman | placeholder | — | — | |
+| hildred-schuell | Hildred Schuell | placeholder | — | — | |
+| jon-eisenson | Jon Eisenson | placeholder | — | — | |
+| harold-goodglass | Harold Goodglass | placeholder | — | — | |
+| edith-kaplan | Edith Kaplan | placeholder | — | — | |
+| norman-geschwind | Norman Geschwind | placeholder | — | — | |
+| andrew-kertesz | Andrew Kertesz | placeholder | — | — | Living. |
+| martha-taylor-sarno | Martha Taylor Sarno | placeholder | — | — | Living. |
+| audrey-holland | Audrey Holland | placeholder | — | — | |
+| macdonald-critchley | Macdonald Critchley | placeholder | — | — | |
+| wilder-penfield | Wilder Penfield | placeholder | — | — | |
+| marsel-mesulam | M. Marsel Mesulam | placeholder | — | — | Living. |
+| roman-jakobson | Roman Jakobson | placeholder | — | — | Most photos still in copyright. |
 
-Until a later pass downloads a **cleared** file, articles print a credit line or the placeholder. A gray name-and-dates frame is allowed in WordPress. A generated “young Broca” is not.
+Re-run ingestion: `python3 content/aphasia-history-figures/portrait_plates_pass.py` (destructive to local plates; use only when refreshing from Commons).

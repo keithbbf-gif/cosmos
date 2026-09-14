@@ -9,8 +9,8 @@ tags:
   - figures
   - head
 meta_description: "Henry Head (1861–1940) sat with wounded men and wrote Aphasia and Kindred Disorders of Speech (1926), a two-volume refusal of the diagram-makers."
-portrait: null
-portrait_status: note
+portrait: "plates/henry-head/plate.jpg"
+portrait_status: cleared
 figure_dates: "1861–1940"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/henry-head/plate.jpg"
+    alt="Portrait photograph of Henry Head by Theodore C. Marceau."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Henry Head</strong> (1861–1940), Edwardian neurology era — physician who paired nerve injury with aphasia studies alongside W.H.R. Rivers.
+    <span class="figure-credit">Theodore C. Marceau (1859–1922). NLM IHM. Stated public domain on Wikimedia Commons.</span>
+  </figcaption>
+</figure>
+
 
 Henry Head was born in 1861 and died in 1940. Before the war that made his aphasia book, he had already made himself a subject: the collaboration with W. H. R. Rivers on the nerves of his own arm, the notes on sensation that made him famous in a different corridor. After 1914 he sat with wounded men whose language had been torn by metal. *Aphasia and Kindred Disorders of Speech* (Cambridge University Press, 1926) is two volumes of a person in a chair.
 
@@ -34,8 +49,7 @@ He wrote as a knighted London physician, with the confidence of Queen Square. Wo
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons *Henry_Head.jpg*, photograph by Theodore C. Marceau (1859–1922), NLM IHM. Commons-stated public domain; NLM uses caution boilerplate because the file page is thin on year. Credit Marceau. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/henry-head/plate.*` with rights record `plates/henry-head/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## The arm and the war
 

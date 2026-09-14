@@ -10,8 +10,8 @@ tags:
   - kertesz
   - wab
 meta_description: "Andrew Kertesz (b. 1934, confirm) wrote the Western Aphasia Battery (1982). The AQ became a number a chief could file — and a number a life is not."
-portrait: null
-portrait_status: note
+portrait: "plates/andrew-kertesz/plate.svg"
+portrait_status: placeholder
 figure_dates: "b. 1934 (confirm)"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/andrew-kertesz/plate.svg"
+    alt="Portrait pending — rights not cleared for Andrew Kertesz."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Andrew Kertesz</strong> (b. 1934 (confirm)), late twentieth-century Western aphasia battery era — neurologist behind the Western Aphasia Battery and aphasia classification work.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/andrew-kertesz/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Andrew Kertesz is a living neurologist whose public scientific object, for this series, is the Western Aphasia Battery (Grune & Stratton, 1982) and its later revision. Several curricula and CVs give a birth year of 1934; this pack treats that year as unconfirmed for a print caption. Do not invent a childhood. Do not write a private life.
 

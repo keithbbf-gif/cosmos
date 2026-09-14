@@ -9,7 +9,7 @@
 | Article count | 45 |
 | Era essays | 16 (`type: era`, orders 01–16) |
 | Profiles | 29 (`type: profile`, orders 17–45) |
-| Portraits | Notes only. No image binaries in this pack. No generated faces. |
+| Portraits | **13 cleared** plates under `plates/` (RIGHTS.md each) + **16 labeled placeholders** (SVG). No AI faces. |
 | QA | `python3 content/aphasia-history-figures/check_pack.py` |
 | Pack date | 14 September 2026 |
 

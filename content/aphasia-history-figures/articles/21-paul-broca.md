@@ -9,8 +9,8 @@ tags:
   - figures
   - broca
 meta_description: "Pierre Paul Broca (1824–1880): Leborgne’s autopsy, two societies, a lost fight over the word aphemia, and a craniometer in the same vita."
-portrait: null
-portrait_status: note
+portrait: "plates/paul-broca/plate.jpg"
+portrait_status: cleared
 figure_dates: "1824–1880"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/paul-broca/plate.jpg"
+    alt="Studio photograph of Paul Broca in dark coat, Second Empire style, by Pierre Petit."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Pierre Paul Broca</strong> (1824–1880), Second Empire era — surgeon-anthropologist tied to Leborgne’s 1861 Bicêtre autopsy and the third frontal convolution.
+    <span class="figure-credit">Photograph by Pierre Petit. Wellcome Collection / Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
 
 Pierre Petit photographed him in the studio style of the Second Empire: dark coat, watch chain, the face of a surgeon who also measured skulls. Pierre Paul Broca (1824–1880) is in this series because a ward name — “Tan” — and an 1861 autopsy still sit in every introductory lecture on aphasia. He is not in it because he was a speech therapist. He was not.
 
@@ -50,8 +65,7 @@ This pack’s sibling series has a Broca profile for the profession’s ancestry
 
 ## Portrait
 
-Candidate (later download): Wikimedia Commons *Paul_Broca.jpg*, photograph by Pierre Petit, Wellcome Collection. Public domain. Credit Petit. Do not colorize. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/paul-broca/plate.*` with rights record `plates/paul-broca/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Two societies, one week
 

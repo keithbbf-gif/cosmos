@@ -9,8 +9,8 @@ tags:
   - figures
   - lordat
 meta_description: "Jacques Lordat (1773–1870) survived an 1825 alalie and, in 1843, turned the episode into Analyse de la parole — a physiology of speech written from the inside."
-portrait: null
-portrait_status: note
+portrait: "plates/jacques-lordat/plate.jpg"
+portrait_status: cleared
 figure_dates: "1773–1870"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/jacques-lordat/plate.jpg"
+    alt="Engraved portrait of Jacques Lordat by Jean-Baptiste-Adolphe Lafosse."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jacques Lordat</strong> (1773–1870), Restoration–July Monarchy era — Montpellier professor who published one of the first modern aphasia self-reports (1843).
+    <span class="figure-credit">Jean-Baptiste-Adolphe Lafosse, after an earlier plate. Wikimedia Commons. CC BY-SA 4.0.</span>
+  </figcaption>
+</figure>
+
 
 Jacques Lordat was born at Tournay, near Tarbes, on 11 February 1773, the son of a master surgeon. He took a medical doctorate at Montpellier in 1797, attached himself to the Barthez circle, and in 1813 took the chair of physiology he would hold for half a century. He died in Montpellier on 25 April 1870, at ninety-seven. The long life is not the story. The story is a year in the middle.
 
@@ -36,12 +51,7 @@ He was not a speech therapist. He was not kind by profession to every patient; w
 
 ## Portrait
 
-A later graphics pass should search BIU Santé and Gallica for a nineteenth-century plate of Lordat (Licence Ouverte if a BIU file confirms). Until the file page is read, print this:
-
-> **Portrait placeholder.** No public-domain or clearly licensed portrait located as of the pack date. See `PORTRAIT_SOURCES.md` for hunt status. Do not invent or generate a substitute likeness.
-
-Do not commission a “young professor in 1825.” The 1843 book is the likeness.
-
+Cleared plate: `plates/jacques-lordat/plate.*` with rights record `plates/jacques-lordat/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Montpellier, not Paris
 

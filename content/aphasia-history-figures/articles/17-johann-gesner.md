@@ -9,8 +9,8 @@ tags:
   - figures
   - gesner
 meta_description: "Johann August Philipp Gesner (1738–1801) and the 1770 chapter Die Sprachamnesie: a long look at a man who spoke a fluent mess and was not called a fool."
-portrait: null
-portrait_status: note
+portrait: "plates/johann-gesner/plate.svg"
+portrait_status: placeholder
 figure_dates: "1738–1801"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/johann-gesner/plate.svg"
+    alt="Portrait pending — rights not cleared for Johann A. P. Gesner."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Johann A. P. Gesner</strong> (1738–1801), Enlightenment medicine era — eighteenth-century Göttingen professor who named early speech-loss cases.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/johann-gesner/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 The second volume of Gesner’s *Samlung von Beobachtungen aus der Arzneygelahrtheit und Naturkunde* (Nördlingen: Beck, 1770) does not look like a classic. It looks like a working physician’s miscellany. Inside it sits a chapter, “Die Sprachamnesie,” that Arthur Benton later called the first major essay devoted to aphasia. Benton was a careful man. He meant: here, at last, someone stayed with the problem long enough to argue about what kind of memory had failed.
 

@@ -9,8 +9,8 @@ tags:
   - figures
   - critchley
 meta_description: "Macdonald Critchley (1900–1997) of Queen Square wrote Aphasiology (1970), a late, learned English book that treated language as a neurologist’s culture."
-portrait: null
-portrait_status: note
+portrait: "plates/macdonald-critchley/plate.svg"
+portrait_status: placeholder
 figure_dates: "1900–1997"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/macdonald-critchley/plate.svg"
+    alt="Portrait pending — rights not cleared for Macdonald Critchley."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Macdonald Critchley</strong> (1900–1997), Queen Square twentieth-century era — British neurologist and historian of aphasia and parietal syndromes.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/macdonald-critchley/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Macdonald Critchley was born in 1900 and died in 1997. He is Queen Square in a later key than Jackson: a neurologist of enormous reading, a writer of essays that wander into history, art, and the odd corners of language. *Aphasiology and Other Aspects of Language* (Edward Arnold, 1970) is the public object for this series. The word *aphasiology* in his mouth is a culture, not a billing code.
 

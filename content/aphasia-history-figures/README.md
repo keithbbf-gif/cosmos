@@ -4,13 +4,16 @@ Magazine series for a later import to **SLPWOW.com**. This folder is the pack. I
 
 **Start here:** [`INDEX.md`](INDEX.md) (calendar + roster). Voice: [`STYLE_GUIDE.md`](STYLE_GUIDE.md). Claims: [`CLAIMS_GUARDRAILS.md`](CLAIMS_GUARDRAILS.md). Portraits: [`PORTRAIT_SOURCES.md`](PORTRAIT_SOURCES.md) (notes only). WordPress: [`WP_IMPORT.md`](WP_IMPORT.md).
 
-Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). No image files ship in this pack.
+Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). **Profile plates** live in `plates/<id>/` with `RIGHTS.md` per plate; lead `<figure>` blocks carry SEO captions (figure + era).
 
 ## Layout
 
 | Path | Purpose |
 |------|---------|
 | `articles/` | 16 era essays + 29 profiles |
+| `plates/` | Portrait plates + `RIGHTS.md` per figure |
+| `assets/_shared/` | Pending-portrait SVG frame |
+| `embeds/` | `<figure>` templates |
 | `INDEX.md` | Editorial calendar and figure roster |
 | `STYLE_GUIDE.md` | Voice, length, front matter |
 | `PORTRAIT_SOURCES.md` | Public-domain hunt log — **notes only** |
@@ -21,7 +24,7 @@ Forty-five Markdown drafts live in `articles/` (16 era essays, 29 profiles). No 
 
 ## Portrait policy
 
-Never generate or embed synthetic historical faces. This pack records **public-domain and open-license portrait notes** only. Do not download likenesses into this folder until a later rights-cleared graphics pass. Until then, profiles carry a caption-ready credit line and, when no PD file is known, the placeholder block in `STYLE_GUIDE.md`.
+**Real PD / CC / NLM / Wellcome / Commons portraits only** — never synthetic historical faces. Each on-disk plate has `plates/<id>/RIGHTS.md`. Uncleared profiles keep a **labeled placeholder** SVG and explicit figcaption copy.
 
 ## Sibling pack
 

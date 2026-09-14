@@ -9,8 +9,8 @@ tags:
   - figures
   - kaplan
 meta_description: "Edith Kaplan (1924–2009) co-wrote the BDAE and made the Boston process — how the person failed, not only that they failed — a clinical object."
-portrait: null
-portrait_status: note
+portrait: "plates/edith-kaplan/plate.svg"
+portrait_status: placeholder
 figure_dates: "1924–2009"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/edith-kaplan/plate.svg"
+    alt="Portrait pending — rights not cleared for Edith Kaplan."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Edith Kaplan</strong> (1924–2009), Boston process neuropsychology era — clinician who argued tests must be interpreted as process, not single scores.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/edith-kaplan/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Edith Kaplan was born in 1924 and died in 2009. She is the name that should have been on more title pages and, when it was, was sometimes filed under “collaborator.” She co-authored the Boston Diagnostic Aphasia Examination with Harold Goodglass (1972). She also built, in neuropsychology more broadly, the Boston process approach: the error is information. How a person fails a block design or a naming item is not noise around a score. It is the thing you came to hear.
 

@@ -9,8 +9,8 @@ tags:
   - figures
   - dejerine
 meta_description: "Jules Déjerine (1849–1917) made localization finer — including the alexias — and spent 1906–1908 answering Pierre Marie as if the method itself had been insulted."
-portrait: null
-portrait_status: note
+portrait: "plates/jules-dejerine/plate.jpg"
+portrait_status: cleared
 figure_dates: "1849–1917"
 voice_check: human
 audience: slpwow
@@ -19,6 +19,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/jules-dejerine/plate.jpg"
+    alt="Portrait of Jules Déjerine, French neurologist, late nineteenth century."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Jules Déjerine</strong> (1849–1917), Belle Époque neurology era — anatomist-clinician of the Déjerine clinic and alexia without agraphia.
+    <span class="figure-credit">Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
 
 Jules Déjerine was born in 1849 in Geneva and died in 1917 in Paris. He is the localizationist’s localizationist: the man who wanted the map finer, not looser, and who treated Marie’s 1906 title as an insult to a life’s work. With Augusta Déjerine-Klumpke he produced plates and books (*Anatomie des centres nerveux*) that made fiber and cortex look like something you could trust. The alexias — reading lost with writing kept, reading lost with writing lost — are among the aphasia-adjacent facts that still carry his name.
 
@@ -36,8 +51,7 @@ When he died in 1917, the institutional story went to Marie. Augusta’s later t
 
 ## Portrait
 
-Hunt Commons and BIU Santé for a file-page-cleared photograph or lithograph. Many late-nineteenth-century plates will be public domain or Licence Ouverte. Verify before a later download. Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/jules-dejerine/plate.*` with rights record `plates/jules-dejerine/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Print as a road
 

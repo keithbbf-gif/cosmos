@@ -10,8 +10,8 @@ tags:
   - weisenburg
   - mcbride
 meta_description: "Weisenburg (1876–1934) and McBride (1904–1976) tested 234 patients and 85 controls. Aphasia (1935) put a psychologist’s stopwatch beside the hammer — then she left the field."
-portrait: null
-portrait_status: note
+portrait: "plates/weisenburg-and-mcbride/plate.svg"
+portrait_status: placeholder
 figure_dates: "1876–1934 / 1904–1976"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,22 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait slpwow-figure--portrait-pending">
+  <img
+    src="../plates/weisenburg-and-mcbride/plate.svg"
+    alt="Portrait pending — rights not cleared for Theodore Weisenburg and Katharine McBride."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Theodore Weisenburg and Katharine McBride</strong> (1876–1934 / 1904–1976), interwar American aphasiology era — Philadelphia neurologist and Bryn Mawr psychologist behind the 1935 *Aphasia* volume.
+    <em>Portrait placeholder — rights not cleared.</em>
+    See <code>plates/weisenburg-and-mcbride/RIGHTS.md</code> and <code>PORTRAIT_SOURCES.md</code>.
+  </figcaption>
+</figure>
+
 
 Theodore Weisenburg, a Philadelphia neurologist and editor, was born in 1876 and died in 1934, weeks after the manuscript of *Aphasia: A Clinical and Psychological Study* was ready for the Commonwealth Fund. Katharine Elizabeth McBride, born in 1904, had joined him in 1929 as a Bryn Mawr psychology graduate student. Her 1932 dissertation used the first forty aphasic cases. The 1935 book used 234 patients and, because nobody knew what uninjured adults did on the same tasks, 85 controls.
 

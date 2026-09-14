@@ -10,8 +10,8 @@ tags:
   - dejerine-klumpke
   - women
 meta_description: "Augusta Déjerine-Klumpke (1859–1927) worked the plates, the wards, and the 1908 debate. Reducing her to ‘wife of’ is a failure of the record."
-portrait: null
-portrait_status: note
+portrait: "plates/augusta-dejerine-klumpke/plate.jpg"
+portrait_status: cleared
 figure_dates: "1859–1927"
 voice_check: human
 audience: slpwow
@@ -20,6 +20,21 @@ last_verified: 2026-09-14
 ---
 
 This is history for a general reader. It is not a diagnosis, not a treatment plan, and not a substitute for care with a licensed clinician.
+
+<figure class="slpwow-figure slpwow-figure--portrait">
+  <img
+    src="../plates/augusta-dejerine-klumpke/plate.jpg"
+    alt="Portrait of Augusta Déjerine-Klumpke, neurologist, late nineteenth century."
+    width="360"
+    height="440"
+    loading="lazy"
+  />
+  <figcaption>
+    <strong>Augusta Déjerine-Klumpke</strong> (1859–1927), Belle Époque–early twentieth century — neurologist and co-director of the Déjerine clinic, not merely “Mrs. Déjerine.”
+    <span class="figure-credit">NLM Images from the History of Medicine. Wikimedia Commons. Public domain.</span>
+  </figcaption>
+</figure>
+
 
 Augusta Klumpke was born in San Francisco in 1859, educated in Europe, and became one of the first women to navigate the Paris internat. She married Jules Déjerine. She also, independently of the marriage as a sentimental fact, produced neurological work that the late nineteenth century tried to file under his name and that later historians have had to pry back out. She died in 1927.
 
@@ -35,8 +50,7 @@ Scientific mobility — an American-born woman in Paris, a Protestant-adjacent h
 
 ## Portrait
 
-Commons holds studio portraits; confirm each file page (photographer, date, license) before a later download. Caption her full name and dates. Do not crop a double portrait into “the wife.” Do not invent or generate a substitute likeness.
-
+Cleared plate: `plates/augusta-dejerine-klumpke/plate.*` with rights record `plates/augusta-dejerine-klumpke/RIGHTS.md`. Lead embed is the `<figure>` block above. Do not colorize. Do not invent or generate a substitute likeness.
 
 ## Eponyms and minutes
 
