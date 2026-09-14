@@ -6,16 +6,47 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [air-layer, calendar, june]
+topics:
+- air-layer
+- calendar
+- june
 images:
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: A June canopy, not an August last-chance sleeve. Date the still if we can.
-    source: ours
-    folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs-summer-23
+  caption: A June canopy, not an August last-chance sleeve. Date the still if we can.
+  source: ours
+  folder_pick: Figs-summer-23
+seo:
+  title: June is the month. August is a dare. | Zone 8a figs
+  description: June is the month. August is a dare.. Air-layer timing for common figs
+    in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/air-layer-june-not-august.jpg
+  stand_in: true
+  asset_key: amwell_canopy_2
+  alt: Fig branches (stand-in for seasonal wood / June canopy). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (2).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-air-layer-june-not-august" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/air-layer-june-not-august.jpg" alt="Fig branches (stand-in for seasonal wood / June canopy). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A June canopy, not an August last-chance sleeve. Date the still if we can. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%282%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Count backward from the plant you want in a pot.
 

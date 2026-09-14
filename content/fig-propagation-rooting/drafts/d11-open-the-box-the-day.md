@@ -6,16 +6,47 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [mail-order, damage, inspection]
+topics:
+- mail-order
+- damage
+- inspection
 images:
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: Crush, mold, or a cooked bundle. This is the refund photo, not a hero shot.
-    source: ours
-    folder_pick: Damaged Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: Crush, mold, or a cooked bundle. This is the refund photo, not a hero shot.
+  source: ours
+  folder_pick: Damaged Cuttings
+seo:
+  title: Open the box the day it lands | Zone 8a figs
+  description: Open the box the day it lands. Cutting wood for trays that survive
+    Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/inspecting-mail-order-fig-cuttings.jpg
+  stand_in: true
+  asset_key: figs_small
+  alt: Small-format fig still life (stand-in for mail-order / labels). Stand-in; not
+    our tree.
+  width: 384
+  height: 512
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:149 - figs.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-inspecting-mail-order-fig-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/inspecting-mail-order-fig-cuttings.jpg" alt="Small-format fig still life (stand-in for mail-order / labels). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="384" height="512" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Crush, mold, or a cooked bundle. This is the refund photo, not a hero shot. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — figs still life; not our tray. <a href="https://commons.wikimedia.org/wiki/File%3A149_-_figs.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 The box does not get to wait until Sunday because you are tired.
 

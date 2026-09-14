@@ -1,21 +1,51 @@
 ---
 id: d15
-title: "Damp is not wet: the squeeze"
+title: 'Damp is not wet: the squeeze'
 slug: fig-rooting-mix-squeeze-test
 status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [moisture, coco-coir, field-capacity]
+topics:
+- moisture
+- coco-coir
+- field-capacity
 images:
-  - path: "D:\\FIGS\\DE vs Coco Coir Photos"
-    caption: Mix you can squeeze without a stream. Hands in the frame if we have it.
-    source: ours
-    folder_pick: DE vs Coco Coir Photos
+- path: D:\FIGS\DE vs Coco Coir Photos
+  caption: Mix you can squeeze without a stream. Hands in the frame if we have it.
+  source: ours
+  folder_pick: DE vs Coco Coir Photos
+seo:
+  title: 'Damp is not wet: the squeeze | Zone 8a figs'
+  description: 'Damp is not wet: the squeeze. Rooting cups, mix, and shop mistakes—8a
+    humidity included.'
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-rooting-mix-squeeze-test.jpg
+  stand_in: true
+  asset_key: sphagnum
+  alt: Sphagnum moss (stand-in for long-fiber wrap texture). Stand-in; not our tree.
+  width: 1600
+  height: 1038
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:Sphagnum.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-rooting-mix-squeeze-test" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-rooting-mix-squeeze-test.jpg" alt="Sphagnum moss (stand-in for long-fiber wrap texture). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1038" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Mix you can squeeze without a stream. Hands in the frame if we have it. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Sphagnum moss; not our air-layer wrap. <a href="https://commons.wikimedia.org/wiki/File%3ASphagnum.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Dad’s line is the one I would print on the wall: **do not overwater the rooting mix.** Figs are easy. The mix is where people get clever and kill them.
 

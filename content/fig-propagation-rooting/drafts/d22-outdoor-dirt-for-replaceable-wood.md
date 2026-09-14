@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [outdoor, raised-bed, bulk]
+topics:
+- outdoor
+- raised-bed
+- bulk
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: Replaceable sticks, shade on a bed. Named cups stay named.
-    source: ours
-    folder_pick: Bulk Cuttings
+- path: D:\FIGS\Bulk Cuttings
+  caption: Replaceable sticks, shade on a bed. Named cups stay named.
+  source: ours
+  folder_pick: Bulk Cuttings
+seo:
+  title: Outdoor dirt is for wood you can replace | Zone 8a figs
+  description: Outdoor dirt is for wood you can replace. Rooting cups, mix, and shop
+    mistakes—8a humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/outdoor-bulk-fig-starts.jpg
+  stand_in: true
+  asset_key: la_figuera
+  alt: In-ground fig tree (stand-in for orchard / 8a calendar). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:La figuera.JPG
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-outdoor-bulk-fig-starts" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/outdoor-bulk-fig-starts.jpg" alt="In-ground fig tree (stand-in for orchard / 8a calendar). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Replaceable sticks, shade on a bed. Named cups stay named. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — La figuera; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ALa_figuera.JPG" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Dad will tell you a raised bed of yard dirt has rooted wood with nothing on it. That sentence is true and it is also a fence.
 

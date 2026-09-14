@@ -6,16 +6,46 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [air-layer, potting, transplant]
+topics:
+- air-layer
+- potting
+- transplant
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: A layer going into a pot the same morning. Mix already damp.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: A layer going into a pot the same morning. Mix already damp.
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: Potting the layer the hour you cut it | Zone 8a figs
+  description: Potting the layer the hour you cut it. Air-layer timing for common
+    figs in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/potting-a-fig-air-layer.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-potting-a-fig-air-layer" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/potting-a-fig-air-layer.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A layer going into a pot the same morning. Mix already damp. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 The cut and the pot are one job. If you cut at 8 a.m. and pot at 4 p.m., you made a cutting with extra steps and left it in the sun.
 

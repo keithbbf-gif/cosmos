@@ -6,16 +6,47 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [polarity, nodes, orientation]
+topics:
+- polarity
+- nodes
+- orientation
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: Buds pointing one way, heel at the base. Mark the top before the tray looks like a pile of brown.
-    source: ours
-    folder_pick: Bulk Cuttings
+- path: D:\FIGS\Bulk Cuttings
+  caption: Buds pointing one way, heel at the base. Mark the top before the tray looks
+    like a pile of brown.
+  source: ours
+  folder_pick: Bulk Cuttings
+seo:
+  title: Polarity, or how you plant a stick upside… | Zone 8a figs
+  description: Polarity, or how you plant a stick upside down. Cutting wood for trays
+    that survive Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-cutting-polarity.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-cutting-polarity" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-cutting-polarity.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Buds pointing one way, heel at the base. Mark the top before the tray looks like a pile of brown. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 You can kill a good variety by sticking it upside down. You can also spend three weeks watching a callus form on the sky end and call it a mystery.
 

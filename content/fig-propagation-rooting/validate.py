@@ -60,6 +60,17 @@ def main() -> int:
             errors.append(f"{path.name}: missing focus: 8a")
         if "voice: human" not in text:
             errors.append(f"{path.name}: missing voice: human")
+        if "seo:" not in text or "description:" not in text:
+            errors.append(f"{path.name}: missing seo block")
+        if "<figure" not in text or 'itemprop="contentUrl"' not in text:
+            errors.append(f"{path.name}: missing schema <figure> hero")
+        if "fig-hero" not in text or "<figcaption>" not in text:
+            errors.append(f"{path.name}: incomplete <figure> SEO markup")
+        slug_m = re.search(r"^slug:\s*(\S+)\s*$", text, re.M)
+        if slug_m:
+            hero = HERE / "images" / "stand-in" / f"{slug_m.group(1)}.jpg"
+            if not hero.is_file():
+                errors.append(f"{path.name}: missing stand-in {hero.name}")
         stage = None
         for line in text.splitlines():
             if line.startswith("stage:"):

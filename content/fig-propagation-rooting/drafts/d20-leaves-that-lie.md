@@ -6,16 +6,46 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [leaves, roots, light]
+topics:
+- leaves
+- roots
+- light
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: A leafy cup that is still a stick. Do not use a fruit photo.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: A leafy cup that is still a stick. Do not use a fruit photo.
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: Leaves that lie | Zone 8a figs
+  description: Leaves that lie. Rooting cups, mix, and shop mistakes—8a humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-cutting-leaves-before-roots.jpg
+  stand_in: true
+  asset_key: figuier_label
+  alt: Fig foliage close-up (stand-in for variety / leaf cues). Stand-in; not our
+    tree.
+  width: 1196
+  height: 1600
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:11-Figuier-Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-cutting-leaves-before-roots" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-cutting-leaves-before-roots.jpg" alt="Fig foliage close-up (stand-in for variety / leaf cues). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1196" height="1600" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A leafy cup that is still a stick. Do not use a fruit photo. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — 11-Figuier-Ficus carica; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A11-Figuier-Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 The leaves come out and you relax. A week later the whole thing folds like a cheap tent.
 

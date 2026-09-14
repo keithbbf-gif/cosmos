@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [coco-coir, diatomaceous-earth, trial]
+topics:
+- coco-coir
+- diatomaceous-earth
+- trial
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: The 2023 cups. Link the live A/B post. Do not restage the counts as a new trial.
-    source: ours
-    folder_pick: DE vs CC
+- path: D:\FIGS\DE vs CC
+  caption: The 2023 cups. Link the live A/B post. Do not restage the counts as a new
+    trial.
+  source: ours
+  folder_pick: DE vs CC
+seo:
+  title: The 2023 coir vs DE test, used as a lesson… | Zone 8a figs
+  description: The 2023 coir vs DE test, used as a lesson not a law. Rooting cups,
+    mix, and shop mistakes—8a humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/citing-the-2023-coir-de-test.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-citing-the-2023-coir-de-test" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/citing-the-2023-coir-de-test.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">The 2023 cups. Link the live A/B post. Do not restage the counts as a new trial. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 We already ran a real comparison. I am not going to give you a new miracle mix and a fake percentage.
 

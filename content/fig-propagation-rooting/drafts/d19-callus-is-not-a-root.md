@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [callus, roots, failure]
+topics:
+- callus
+- roots
+- failure
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: A cream knob with no roots. Do not caption it as success.
-    source: ours
-    folder_pick: DE vs CC
+- path: D:\FIGS\DE vs CC
+  caption: A cream knob with no roots. Do not caption it as success.
+  source: ours
+  folder_pick: DE vs CC
+seo:
+  title: Callus is not a root | Zone 8a figs
+  description: Callus is not a root. Rooting cups, mix, and shop mistakes—8a humidity
+    included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-cutting-callus-vs-root.jpg
+  stand_in: true
+  asset_key: amwell_trunk
+  alt: Mature Ficus carica trunk and bark (stand-in for lignified wood). Stand-in;
+    not our tree.
+  width: 1599
+  height: 1198
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-cutting-callus-vs-root" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-cutting-callus-vs-root.jpg" alt="Mature Ficus carica trunk and bark (stand-in for lignified wood). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1599" height="1198" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A cream knob with no roots. Do not caption it as success. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig (London); not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 You pull the stick and there is a white or cream knob at the base. Alive. No roots. The top may have leaves. Then the leaves cook the cutting because nothing is drinking.
 

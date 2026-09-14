@@ -6,16 +6,47 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [air-layer, trunk, calendar]
+topics:
+- air-layer
+- trunk
+- calendar
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: An in-ground trunk you would actually commit to. Not a #3.
-    source: ours
-    folder_pick: Figs
+- path: D:\FIGS\Figs
+  caption: An in-ground trunk you would actually commit to. Not a
+  source: ours
+  folder_pick: Figs
+seo:
+  title: Trunk layers and the 8a calendar | Zone 8a figs
+  description: Trunk layers and the 8a calendar. Air-layer timing for common figs
+    in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/trunk-air-layer-figs-8a.jpg
+  stand_in: true
+  asset_key: la_figuera
+  alt: In-ground fig tree (stand-in for orchard / 8a calendar). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:La figuera.JPG
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-trunk-air-layer-figs-8a" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/trunk-air-layer-figs-8a.jpg" alt="In-ground fig tree (stand-in for orchard / 8a calendar). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">An in-ground trunk you would actually commit to. Not a This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — La figuera; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ALa_figuera.JPG" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A trunk layer is a different animal. You split a 2- to 5-gallon pot, wrap it around a stem, fill it, and you are asking for a big root system while the top stays on the mother for months. People who do a lot of this start a few weeks after last frost and leave it toward the end of the season.
 

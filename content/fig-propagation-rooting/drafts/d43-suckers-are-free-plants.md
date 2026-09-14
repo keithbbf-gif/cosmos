@@ -6,16 +6,46 @@ status: staged
 stage: move
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: PapaFig
 cluster: transplant
-topics: [suckers, stool, transplant]
+topics:
+- suckers
+- stool
+- transplant
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: Shoots at the crown of an in-ground stool. A free plant if it has roots.
-    source: ours
-    folder_pick: Figs
+- path: D:\FIGS\Figs
+  caption: Shoots at the crown of an in-ground stool. A free plant if it has roots.
+  source: ours
+  folder_pick: Figs
+seo:
+  title: Suckers are free plants if you treat them… | Zone 8a figs
+  description: Suckers are free plants if you treat them like plants. Pot-up and in-ground
+    moves after the cup—PapaFig calendar.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/transplanting-fig-suckers.jpg
+  stand_in: true
+  asset_key: basal_shoots
+  alt: Basal shoots at plant crown (stand-in for fig suckers). Stand-in; not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:Blackjack basal shoots.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-transplanting-fig-suckers" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/transplanting-fig-suckers.jpg" alt="Basal shoots at plant crown (stand-in for fig suckers). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Shoots at the crown of an in-ground stool. A free plant if it has roots. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — basal shoots example; not our sucker patch. <a href="https://commons.wikimedia.org/wiki/File%3ABlackjack_basal_shoots.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A sucker with its own roots is a plant. A sucker you ripped and stuck like a cutting is a cutting. Do not confuse them because they came from the same stool.
 

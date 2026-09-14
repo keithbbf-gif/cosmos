@@ -6,16 +6,47 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [girdle, wound, air-layer]
+topics:
+- girdle
+- wound
+- air-layer
 images:
-  - path: "D:\\FIGS\\Grafting"
-    caption: A clean wound on live wood. Tools, not a fruit plate.
-    source: ours
-    folder_pick: Grafting
+- path: D:\FIGS\Grafting
+  caption: A clean wound on live wood. Tools, not a fruit plate.
+  source: ours
+  folder_pick: Grafting
+seo:
+  title: Girdle, wound, or just a sleeve | Zone 8a figs
+  description: Girdle, wound, or just a sleeve. Air-layer timing for common figs in
+    Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/how-to-wound-a-fig-air-layer.jpg
+  stand_in: true
+  asset_key: amwell_trunk
+  alt: Mature Ficus carica trunk and bark (stand-in for lignified wood). Stand-in;
+    not our tree.
+  width: 1599
+  height: 1198
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-how-to-wound-a-fig-air-layer" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/how-to-wound-a-fig-air-layer.jpg" alt="Mature Ficus carica trunk and bark (stand-in for lignified wood). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1599" height="1198" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A clean wound on live wood. Tools, not a fruit plate. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig (London); not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 LSU calls air-layering girdling and means a ring of bark off. That works on figs. A simpler wound — a slice, a ring that does not meet, a couple of scores — also works because figs want to root. I would rather do a clean **ring of bark** on 1-year wood than a messy chew that leaves hangers.
 

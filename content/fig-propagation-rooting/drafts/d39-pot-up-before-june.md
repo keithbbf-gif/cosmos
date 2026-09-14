@@ -6,16 +6,46 @@ status: staged
 stage: move
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: PapaFig
 cluster: transplant
-topics: [pot-up, calendar, heat]
+topics:
+- pot-up
+- calendar
+- heat
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: A spring #3 next to a cup. July heat is the bad-move week.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: A spring
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: Pot-up before June or live with a sulk | Zone 8a figs
+  description: Pot-up before June or live with a sulk. Pot-up and in-ground moves
+    after the cup—PapaFig calendar.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/pot-up-fig-before-june.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-pot-up-fig-before-june" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/pot-up-fig-before-june.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A spring This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A rooted cup in July in South Arkansas is a plant in a shot glass on a skillet.
 

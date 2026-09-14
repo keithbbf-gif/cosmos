@@ -6,16 +6,46 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [sphagnum, moisture, air-layer]
+topics:
+- sphagnum
+- moisture
+- air-layer
 images:
-  - path: "D:\\FIGS\\FigRoots"
-    caption: Long-fiber moss wrung out, not a dripping wad. Ours first.
-    source: ours
-    folder_pick: FigRoots
+- path: D:\FIGS\FigRoots
+  caption: Long-fiber moss wrung out, not a dripping wad. Ours first.
+  source: ours
+  folder_pick: FigRoots
+seo:
+  title: Sphagnum that stays damp without becoming a… | Zone 8a figs
+  description: Sphagnum that stays damp without becoming a swamp. Air-layer timing
+    for common figs in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/sphagnum-for-fig-air-layers.jpg
+  stand_in: true
+  asset_key: sphagnum
+  alt: Sphagnum moss (stand-in for long-fiber wrap texture). Stand-in; not our tree.
+  width: 1600
+  height: 1038
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:Sphagnum.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-sphagnum-for-fig-air-layers" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/sphagnum-for-fig-air-layers.jpg" alt="Sphagnum moss (stand-in for long-fiber wrap texture). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1038" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Long-fiber moss wrung out, not a dripping wad. Ours first. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Sphagnum moss; not our air-layer wrap. <a href="https://commons.wikimedia.org/wiki/File%3ASphagnum.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Long-fiber sphagnum is what we use on layers. It is not the fine dust that turns to mud, and it is not a chunk of potting mix in a bread bag.
 

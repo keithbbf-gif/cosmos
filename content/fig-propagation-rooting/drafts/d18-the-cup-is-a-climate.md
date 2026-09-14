@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [containers, humidity, cups]
+topics:
+- containers
+- humidity
+- cups
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: A block of clear cups or pops, not a single hero. Drainage holes visible if we have them.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: A block of clear cups or pops, not a single hero. Drainage holes visible
+    if we have them.
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: The cup is a climate | Zone 8a figs
+  description: The cup is a climate. Rooting cups, mix, and shop mistakes—8a humidity
+    included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-cutting-cup-as-climate.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-cutting-cup-as-climate" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-cutting-cup-as-climate.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A block of clear cups or pops, not a single hero. Drainage holes visible if we have them. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A 32-ounce clear cup is not a pot. It is a weather system you can hold.
 

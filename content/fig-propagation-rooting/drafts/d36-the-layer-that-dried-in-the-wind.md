@@ -6,16 +6,47 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [air-layer, failure, wind]
+topics:
+- air-layer
+- failure
+- wind
 images:
-  - path: "D:\\FIGS\\Figs"
-    caption: A west-side cane and weather. The sleeve is the subject if we have it.
-    source: ours
-    folder_pick: Figs
+- path: D:\FIGS\Figs
+  caption: A west-side cane and weather. The sleeve is the subject if we have it.
+  source: ours
+  folder_pick: Figs
+seo:
+  title: The layer that dried out in a week of wind | Zone 8a figs
+  description: The layer that dried out in a week of wind. Air-layer timing for common
+    figs in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/air-layer-failure-dry-wrap.jpg
+  stand_in: true
+  asset_key: amwell_canopy_2
+  alt: Fig branches (stand-in for seasonal wood / June canopy). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (2).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-air-layer-failure-dry-wrap" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/air-layer-failure-dry-wrap.jpg" alt="Fig branches (stand-in for seasonal wood / June canopy). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A west-side cane and weather. The sleeve is the subject if we have it. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%282%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Wind is an extra zone for layers, same as it is for winter wood.
 

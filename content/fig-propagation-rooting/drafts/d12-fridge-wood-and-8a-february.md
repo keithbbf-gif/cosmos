@@ -6,16 +6,48 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [storage, crisper, calendar]
+topics:
+- storage
+- crisper
+- calendar
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: A dormant bundle. If we have a crisper-and-thermometer still, use it. Do not invent one.
-    source: ours
-    folder_pick: Bulk Cuttings
+- path: D:\FIGS\Bulk Cuttings
+  caption: A dormant bundle. If we have a crisper-and-thermometer still, use it. Do
+    not invent one.
+  source: ours
+  folder_pick: Bulk Cuttings
+seo:
+  title: Fridge wood and the 8a February that is… | Zone 8a figs
+  description: Fridge wood and the 8a February that is already a rooting month. Cutting
+    wood for trays that survive Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/storing-vs-sticking-fig-cuttings-8a.jpg
+  stand_in: true
+  asset_key: amwell_trunk
+  alt: Mature Ficus carica trunk and bark (stand-in for lignified wood). Stand-in;
+    not our tree.
+  width: 1599
+  height: 1198
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-storing-vs-sticking-fig-cuttings-8a" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/storing-vs-sticking-fig-cuttings-8a.jpg" alt="Mature Ficus carica trunk and bark (stand-in for lignified wood). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1599" height="1198" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A dormant bundle. If we have a crisper-and-thermometer still, use it. Do not invent one. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig (London); not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Northern people store cuttings because their outdoor year starts in April. We do not get that excuse every winter.
 

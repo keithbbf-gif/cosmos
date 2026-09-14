@@ -6,16 +6,48 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [green-wood, summer-cuttings, storage]
+topics:
+- green-wood
+- summer-cuttings
+- storage
 images:
-  - path: "D:\\FIGS\\Damaged Cuttings"
-    caption: Soft or cooked green wood. Do not file it. If the folder is only dormant sticks, grab a summer flush from Figs-summer-23.
-    source: ours
-    folder_pick: Damaged Cuttings
+- path: D:\FIGS\Damaged Cuttings
+  caption: Soft or cooked green wood. Do not file it. If the folder is only dormant
+    sticks, grab a summer flush from Figs-summer-23.
+  source: ours
+  folder_pick: Damaged Cuttings
+seo:
+  title: Green wood is a now problem | Zone 8a figs
+  description: Green wood is a now problem. Cutting wood for trays that survive Arkansas
+    8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/green-fig-cuttings-root-now.jpg
+  stand_in: true
+  asset_key: leiden_fig
+  alt: Ficus carica in a garden (stand-in for light / outdoor culture). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:20210731 Hortus botanicus Leiden - Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-green-fig-cuttings-root-now" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/green-fig-cuttings-root-now.jpg" alt="Ficus carica in a garden (stand-in for light / outdoor culture). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Soft or cooked green wood. Do not file it. If the folder is only dormant sticks, grab a summer flush from Figs-summer-23. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Hortus botanicus Leiden; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A20210731_Hortus_botanicus_Leiden_-_Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Green wood is a Tuesday problem. It is not a February problem you get to postpone.
 

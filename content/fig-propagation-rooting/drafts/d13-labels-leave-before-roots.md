@@ -6,16 +6,48 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [labels, identity, pots]
+topics:
+- labels
+- identity
+- pots
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: Paint pen on black plastic, tag that still matches. Two sides if we have the still.
-    source: ours
-    folder_pick: Fig Labels
+- path: D:\FIGS\Fig Labels
+  caption: Paint pen on black plastic, tag that still matches. Two sides if we have
+    the still.
+  source: ours
+  folder_pick: Fig Labels
+seo:
+  title: Labels leave before the roots do | Zone 8a figs
+  description: Labels leave before the roots do. Cutting wood for trays that survive
+    Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/labeling-fig-cuttings.jpg
+  stand_in: true
+  asset_key: figuier_label
+  alt: Fig foliage close-up (stand-in for variety / leaf cues). Stand-in; not our
+    tree.
+  width: 1196
+  height: 1600
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:11-Figuier-Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-labeling-fig-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/labeling-fig-cuttings.jpg" alt="Fig foliage close-up (stand-in for variety / leaf cues). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1196" height="1600" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Paint pen on black plastic, tag that still matches. Two sides if we have the still. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — 11-Figuier-Ficus carica; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A11-Figuier-Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 The name walks off the pot before the fruit ever shows. I have watched it.
 

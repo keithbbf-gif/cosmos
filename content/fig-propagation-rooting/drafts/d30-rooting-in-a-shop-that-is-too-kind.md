@@ -6,16 +6,48 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [workshop, scale, winter]
+topics:
+- workshop
+- scale
+- winter
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: Pots under glass. Look at stems. Do not invent a cottony scale close-up unless we have it.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: Pots under glass. Look at stems. Do not invent a cottony scale close-up
+    unless we have it.
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: Rooting in a shop that is too kind | Zone 8a figs
+  description: Rooting in a shop that is too kind. Rooting cups, mix, and shop mistakes—8a
+    humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/winter-shop-fig-cuttings.jpg
+  stand_in: true
+  asset_key: leiden_fig
+  alt: Ficus carica in a garden (stand-in for light / outdoor culture). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:20210731 Hortus botanicus Leiden - Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-winter-shop-fig-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/winter-shop-fig-cuttings.jpg" alt="Ficus carica in a garden (stand-in for light / outdoor culture). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Pots under glass. Look at stems. Do not invent a cottony scale close-up unless we have it. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Hortus botanicus Leiden; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A20210731_Hortus_botanicus_Leiden_-_Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A 70-degree shop grows scale. It does not grow winter.
 

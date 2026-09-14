@@ -6,16 +6,47 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [pruning, wood-selection, breba]
+topics:
+- pruning
+- wood-selection
+- breba
 images:
-  - path: "D:\\FIGS\\Breba 2025"
-    caption: Last year’s wood with a swell. Do not strip every breba cane for a tray.
-    source: ours
-    folder_pick: Breba 2025
+- path: D:\FIGS\Breba 2025
+  caption: Last year’s wood with a swell. Do not strip every breba cane for a tray.
+  source: ours
+  folder_pick: Breba 2025
+seo:
+  title: Which cane you steal from | Zone 8a figs
+  description: Which cane you steal from. Cutting wood for trays that survive Arkansas
+    8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/which-fig-cane-to-cut.jpg
+  stand_in: true
+  asset_key: amwell_canopy_1
+  alt: Fig canopy and branches (stand-in for pruning / cane selection). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (1).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-which-fig-cane-to-cut" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/which-fig-cane-to-cut.jpg" alt="Fig canopy and branches (stand-in for pruning / cane selection). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Last year’s wood with a swell. Do not strip every breba cane for a tray. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig canopy; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%281%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A fig is not a pile of free sticks. Some wood is this year’s fruit. Some wood is next year’s breba. Some wood is the stool you will need after a bad night.
 

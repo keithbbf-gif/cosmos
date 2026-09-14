@@ -6,16 +6,48 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [pruning, cuttings, calendar]
+topics:
+- pruning
+- cuttings
+- calendar
 images:
-  - path: "D:\\FIGS\\Bulk Cuttings"
-    caption: Sticks from a prune day, not a raid. Pair with a still of nubs on old wood from Figs if we have it.
-    source: ours
-    folder_pick: Bulk Cuttings
+- path: D:\FIGS\Bulk Cuttings
+  caption: Sticks from a prune day, not a raid. Pair with a still of nubs on old wood
+    from Figs if we have it.
+  source: ours
+  folder_pick: Bulk Cuttings
+seo:
+  title: The prune that is also a harvest | Zone 8a figs
+  description: The prune that is also a harvest. Cutting wood for trays that survive
+    Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/pruning-figs-for-cuttings.jpg
+  stand_in: true
+  asset_key: amwell_canopy_1
+  alt: Fig canopy and branches (stand-in for pruning / cane selection). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (1).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-pruning-figs-for-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/pruning-figs-for-cuttings.jpg" alt="Fig canopy and branches (stand-in for pruning / cane selection). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Sticks from a prune day, not a raid. Pair with a still of nubs on old wood from Figs if we have it. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig canopy; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%281%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 The cleanest cuttings we take are the ones the tree was going to lose anyway.
 

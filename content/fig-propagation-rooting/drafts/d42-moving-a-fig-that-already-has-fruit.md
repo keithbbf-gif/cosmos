@@ -6,16 +6,47 @@ status: staged
 stage: move
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: PapaFig
 cluster: transplant
-topics: [transplant, fruit, pots]
+topics:
+- transplant
+- fruit
+- pots
 images:
-  - path: "D:\\FIGS\\Fig Fruit"
-    caption: Fruit on a pot you are about to move. The plate can wait.
-    source: ours
-    folder_pick: Fig Fruit
+- path: D:\FIGS\Fig Fruit
+  caption: Fruit on a pot you are about to move. The plate can wait.
+  source: ours
+  folder_pick: Fig Fruit
+seo:
+  title: Moving a fig that already has fruit | Zone 8a figs
+  description: Moving a fig that already has fruit. Pot-up and in-ground moves after
+    the cup—PapaFig calendar.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/transplanting-a-fruiting-fig.jpg
+  stand_in: true
+  asset_key: incir_fruit
+  alt: Ripe fig fruit on branch (stand-in; not proof of rooting). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1086
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Common fig - Ficus carica - İncir 2.JPG
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-transplanting-a-fruiting-fig" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/transplanting-a-fruiting-fig.jpg" alt="Ripe fig fruit on branch (stand-in; not proof of rooting). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1086" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Fruit on a pot you are about to move. The plate can wait. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — İncir fruit; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ACommon_fig_-_Ficus_carica_-_%C4%B0ncir_2.JPG" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Fruit is a bill the plant already wrote. A move is a second bill. I try not to send both in the same week.
 

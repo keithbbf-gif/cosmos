@@ -20,7 +20,8 @@ Four jobs, four stages:
 Drafts live in `drafts/`. Editorial status on every file is `status: staged` —
 ready for a human editor, not live, not SEO-published. `INDEX.md` is the read
 order. `PHOTO_NOTES.md` is the shoot/pick brief for stills on **KC-PC** under
-`D:\FIGS`.
+`D:\FIGS`. `IMAGE_SEO.md` and `RIGHTS.md` cover `<figure>` heroes, alt text,
+and Commons stand-ins until `D:\FIGS` picks replace them.
 
 ## Who is talking
 

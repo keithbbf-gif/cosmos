@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [light, shop, windows]
+topics:
+- light
+- shop
+- windows
 images:
-  - path: "D:\\FIGS\\Greenhouse photos"
-    caption: A dim corner that is still a shop, not a tomato bench.
-    source: ours
-    folder_pick: Greenhouse photos
+- path: D:\FIGS\Greenhouse photos
+  caption: A dim corner that is still a shop, not a tomato bench.
+  source: ours
+  folder_pick: Greenhouse photos
+seo:
+  title: Light for a stick that is not a seedling | Zone 8a figs
+  description: Light for a stick that is not a seedling. Rooting cups, mix, and shop
+    mistakes—8a humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/light-for-fig-cuttings.jpg
+  stand_in: true
+  asset_key: leiden_fig
+  alt: Ficus carica in a garden (stand-in for light / outdoor culture). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:20210731 Hortus botanicus Leiden - Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-light-for-fig-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/light-for-fig-cuttings.jpg" alt="Ficus carica in a garden (stand-in for light / outdoor culture). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A dim corner that is still a shop, not a tomato bench. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Hortus botanicus Leiden; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A20210731_Hortus_botanicus_Leiden_-_Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A cutting is not a tomato seedling. It does not want a bright start.
 

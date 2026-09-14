@@ -6,16 +6,48 @@ status: staged
 stage: layer
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: air-layer
-topics: [air-layer, cuttings, sphagnum]
+topics:
+- air-layer
+- cuttings
+- sphagnum
 images:
-  - path: "D:\\FIGS\\FigRoots"
-    caption: An air-layer still if we have one; otherwise a tray of sticks next to a potted layer.
-    source: ours
-    folder_pick: FigRoots
+- path: D:\FIGS\FigRoots
+  caption: An air-layer still if we have one; otherwise a tray of sticks next to a
+    potted layer.
+  source: ours
+  folder_pick: FigRoots
+seo:
+  title: Air-layer when you want a plant, not a tray | Zone 8a figs
+  description: Air-layer when you want a plant, not a tray. Air-layer timing for common
+    figs in Zone 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/air-layer-vs-fig-cutting.jpg
+  stand_in: true
+  asset_key: amwell_canopy_1
+  alt: Fig canopy and branches (stand-in for pruning / cane selection). Stand-in;
+    not our tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (1).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-air-layer-vs-fig-cutting" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/air-layer-vs-fig-cutting.jpg" alt="Fig canopy and branches (stand-in for pruning / cane selection). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">An air-layer still if we have one; otherwise a tray of sticks next to a potted layer. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig canopy; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%281%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 A cutting is a bet you can afford to lose in dozens. An air-layer is a bet you make when you want the plant on the other side to already be a plant.
 

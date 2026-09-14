@@ -6,16 +6,46 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [scoring, depth, rot]
+topics:
+- scoring
+- depth
+- rot
 images:
-  - path: "D:\\FIGS\\DE vs CC"
-    caption: A stick not jammed to the floor of the cup. Gap under the base.
-    source: ours
-    folder_pick: DE vs CC
+- path: D:\FIGS\DE vs CC
+  caption: A stick not jammed to the floor of the cup. Gap under the base.
+  source: ours
+  folder_pick: DE vs CC
+seo:
+  title: Scoring, depth, and the puddle at the bottom | Zone 8a figs
+  description: Scoring, depth, and the puddle at the bottom. Rooting cups, mix, and
+    shop mistakes—8a humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/scoring-and-planting-depth-fig-cuttings.jpg
+  stand_in: true
+  asset_key: bucharest_tree
+  alt: Young potted fig (stand-in for pot-up / shop bench). Stand-in; not our tree.
+  width: 1600
+  height: 1066
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Bucharest Botanical Garden - Fig tree.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-scoring-and-planting-depth-fig-cuttings" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/scoring-and-planting-depth-fig-cuttings.jpg" alt="Young potted fig (stand-in for pot-up / shop bench). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1066" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A stick not jammed to the floor of the cup. Gap under the base. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Joe Mabel; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3ABucharest_Botanical_Garden_-_Fig_tree.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Two small cuts decide a lot of rot.
 

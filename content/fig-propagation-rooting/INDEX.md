@@ -3,9 +3,9 @@
 46 magazine drafts. Zone **8a** focus. Editorial status on every file is `status: staged`.
 Not published. Not a catalog. Read order is the plant, not the pile.
 
-House files: [`README.md`](README.md) · [`STAGE.md`](STAGE.md) · [`PHOTO_NOTES.md`](PHOTO_NOTES.md) · [`_manifest.toml`](_manifest.toml) · [`validate.py`](validate.py)
+House files: [`README.md`](README.md) · [`STAGE.md`](STAGE.md) · [`PHOTO_NOTES.md`](PHOTO_NOTES.md) · [`IMAGE_SEO.md`](IMAGE_SEO.md) · [`RIGHTS.md`](RIGHTS.md) · [`_manifest.toml`](_manifest.toml) · [`validate.py`](validate.py)
 
-Photos: stills on KC-PC under `D:\FIGS` first. See `PHOTO_NOTES.md`. Do not scrape nursery catalogs.
+Photos: stills on KC-PC under `D:\FIGS` first (`PHOTO_NOTES.md`). Until those land, each draft carries a Commons **stand-in** hero (`images/stand-in/`, rights in `RIGHTS.md`). No AI. Do not scrape nursery catalogs.
 
 ## Take — cutting (`d01`–`d14`) · Jack Chambers
 

@@ -6,16 +6,48 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [timing, dormancy, zone-8a]
+topics:
+- timing
+- dormancy
+- zone-8a
 images:
-  - path: "D:\\FIGS\\Figs-summer-23"
-    caption: July wood you do not fridge. Use a winter still from Bulk Cuttings if this folder is all fruit.
-    source: ours
-    folder_pick: Figs-summer-23
+- path: D:\FIGS\Figs-summer-23
+  caption: July wood you do not fridge. Use a winter still from Bulk Cuttings if this
+    folder is all fruit.
+  source: ours
+  folder_pick: Figs-summer-23
+seo:
+  title: When 8a wood is actually ready to cut | Zone 8a figs
+  description: When 8a wood is actually ready to cut. Cutting wood for trays that
+    survive Arkansas 8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/when-zone-8a-fig-wood-is-ready.jpg
+  stand_in: true
+  asset_key: amwell_canopy_2
+  alt: Fig branches (stand-in for seasonal wood / June canopy). Stand-in; not our
+    tree.
+  width: 1600
+  height: 1200
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:Amwell Fig (2).jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-when-zone-8a-fig-wood-is-ready" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/when-zone-8a-fig-wood-is-ready.jpg" alt="Fig branches (stand-in for seasonal wood / June canopy). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">July wood you do not fridge. Use a winter still from Bulk Cuttings if this folder is all fruit. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Amwell Fig; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3AAmwell_Fig_%282%29.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Northern calendars say “after leaf drop.” That is a start, not a date on our wall.
 

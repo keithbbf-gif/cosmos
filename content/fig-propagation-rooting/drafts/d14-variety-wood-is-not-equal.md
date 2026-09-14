@@ -6,16 +6,46 @@ status: staged
 stage: take
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: cutting
-topics: [varieties, rooting-speed, wood]
+topics:
+- varieties
+- rooting-speed
+- wood
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: Tags, not fruit. Do not caption a plate as proof of how the wood roots.
-    source: ours
-    folder_pick: Fig Labels
+- path: D:\FIGS\Fig Labels
+  caption: Tags, not fruit. Do not caption a plate as proof of how the wood roots.
+  source: ours
+  folder_pick: Fig Labels
+seo:
+  title: Variety wood is not equal | Zone 8a figs
+  description: Variety wood is not equal. Cutting wood for trays that survive Arkansas
+    8a.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/fig-variety-cutting-behavior.jpg
+  stand_in: true
+  asset_key: bowl_figs
+  alt: Harvested figs (stand-in only; not a variety ID photo). Stand-in; not our tree.
+  width: 1600
+  height: 1325
+  license: CC BY-SA 3.0
+  source: wikimedia-commons
+  commons_title: File:Bowl of Figs.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-fig-variety-cutting-behavior" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/fig-variety-cutting-behavior.jpg" alt="Harvested figs (stand-in only; not a variety ID photo). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1600" height="1325" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">Tags, not fruit. Do not caption a plate as proof of how the wood roots. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 3.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — Bowl of Figs; not our fruit. <a href="https://commons.wikimedia.org/wiki/File%3ABowl_of_Figs.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Some names root while you are still labeling the cup. Some names sit there like they are thinking about it. The A/B writeup even named a slow one in coir. Fast and slow is real. Waiting is part of it.
 

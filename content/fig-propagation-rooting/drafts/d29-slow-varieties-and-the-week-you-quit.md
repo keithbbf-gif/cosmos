@@ -6,16 +6,47 @@ status: staged
 stage: root
 voice: human
 focus: 8a
-zones: [7, 8a, 8b, 9]
+zones:
+- 7
+- 8a
+- 8b
+- 9
 author: Jack Chambers
 cluster: rooting
-topics: [patience, varieties, timeline]
+topics:
+- patience
+- varieties
+- timeline
 images:
-  - path: "D:\\FIGS\\Fig Labels"
-    caption: A dated cup that is still firm. The tag is not a deadline.
-    source: ours
-    folder_pick: Fig Labels
+- path: D:\FIGS\Fig Labels
+  caption: A dated cup that is still firm. The tag is not a deadline.
+  source: ours
+  folder_pick: Fig Labels
+seo:
+  title: Slow varieties and the week you quit | Zone 8a figs
+  description: Slow varieties and the week you quit. Rooting cups, mix, and shop mistakes—8a
+    humidity included.
+  robots: noindex, nofollow
+hero_image:
+  file: images/stand-in/slow-rooting-fig-varieties.jpg
+  stand_in: true
+  asset_key: figuier_label
+  alt: Fig foliage close-up (stand-in for variety / leaf cues). Stand-in; not our
+    tree.
+  width: 1196
+  height: 1600
+  license: CC BY-SA 4.0
+  source: wikimedia-commons
+  commons_title: File:11-Figuier-Ficus carica.jpg
 ---
+<!-- hero: stand-in until D:\FIGS pick -->
+<figure class="fig-hero fig-stand-in" id="hero-slow-rooting-fig-varieties" itemscope itemtype="https://schema.org/ImageObject">
+  <img src="../images/stand-in/slow-rooting-fig-varieties.jpg" alt="Fig foliage close-up (stand-in for variety / leaf cues). Library stand-in; replace with D:\FIGS per PHOTO_NOTES.md." width="1196" height="1600" loading="eager" fetchpriority="high" decoding="async" itemprop="contentUrl" />
+  <figcaption>
+    <span itemprop="caption">A dated cup that is still firm. The tag is not a deadline. This is a Wikimedia Commons stand-in—not our tree, not our bench. License: CC BY-SA 4.0.</span>
+    <span class="photo-credit" itemprop="creditText">Wikimedia Commons — 11-Figuier-Ficus carica; not our tree. <a href="https://commons.wikimedia.org/wiki/File%3A11-Figuier-Ficus_carica.jpg" rel="license noopener" itemprop="license">Source</a>.</span>
+  </figcaption>
+</figure>
 
 Some names root in ten days. Some sit. The coir tray in 2023 had roots around day 10 on the fast ones and stragglers later. Easton Vasilika was the last one to 64/64, at five weeks. I am not making your variety that variety. I am telling you five weeks happened in a controlled basement and nobody threw the cup at day eighteen.
 
