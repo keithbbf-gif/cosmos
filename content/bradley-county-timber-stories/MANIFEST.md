@@ -12,7 +12,7 @@ Body word counts are tokens matching `[A-Za-z0-9']+` after YAML frontmatter, exc
 Band: 1,400–2,200. All items `status: staged`, `voice_check: human`, `commerce: false`, `lane: bradleylumbercompany.com`.
 Canonical files: `drafts/<slug>.md`. Slug list: `writer-slugs.json`.
 
-Counted: 44 drafts. Total body words: 72,125.
+Counted: 44 drafts. Total body words: 71,943.
 
 | # | slug | title | words | file |
 |---|------|-------|------:|------|
@@ -39,17 +39,17 @@ Counted: 44 drafts. Total body words: 72,125.
 | 21 | `flooring-stock-and-furniture` | Flooring stock and furniture | 1554 | `drafts/flooring-stock-and-furniture.md` |
 | 22 | `women-in-slacks-1918` | Women in slacks, 1918 | 1525 | `drafts/women-in-slacks-1918.md` |
 | 23 | `sunday-in-a-mill-town` | Sunday in a mill town | 1595 | `drafts/sunday-in-a-mill-town.md` |
-| 24 | `ymca-nineteen-twenty` | The YMCA, nineteen twenty | 1764 | `drafts/ymca-nineteen-twenty.md` |
-| 25 | `catfish-row` | Catfish Row | 1738 | `drafts/catfish-row.md` |
-| 26 | `brick-streets-1927` | Brick streets, 1927 | 1539 | `drafts/brick-streets-1927.md` |
+| 24 | `ymca-nineteen-twenty` | The YMCA, nineteen twenty | 1718 | `drafts/ymca-nineteen-twenty.md` |
+| 25 | `catfish-row` | Catfish Row | 1709 | `drafts/catfish-row.md` |
+| 26 | `brick-streets-1927` | Brick streets, 1927 | 1501 | `drafts/brick-streets-1927.md` |
 | 27 | `depression-lumber-banks-held` | Depression lumber, the banks held | 1524 | `drafts/depression-lumber-banks-held.md` |
 | 28 | `arkansas-lumber-cuts-out` | Arkansas Lumber cuts out | 1631 | `drafts/arkansas-lumber-cuts-out.md` |
 | 29 | `warner-and-second-growth` | Warner and second growth | 1569 | `drafts/warner-and-second-growth.md` |
 | 30 | `wartime-lumber` | Wartime lumber | 1590 | `drafts/wartime-lumber.md` |
-| 31 | `the-clock-at-waynes` | The clock at Wayne's | 1634 | `drafts/the-clock-at-waynes.md` |
+| 31 | `the-clock-at-waynes` | The clock at Wayne's | 1608 | `drafts/the-clock-at-waynes.md` |
 | 32 | `rebuilding-the-stack` | Rebuilding the stack | 1699 | `drafts/rebuilding-the-stack.md` |
-| 33 | `potlatch-years` | The Potlatch years | 1646 | `drafts/potlatch-years.md` |
-| 34 | `pink-tomato-and-pine` | Pink tomato and pine | 1683 | `drafts/pink-tomato-and-pine.md` |
+| 33 | `potlatch-years` | The Potlatch years | 1631 | `drafts/potlatch-years.md` |
+| 34 | `pink-tomato-and-pine` | Pink tomato and pine | 1655 | `drafts/pink-tomato-and-pine.md` |
 | 35 | `hermitage-banks-johnsville` | Hermitage, Banks, Johnsville | 1948 | `drafts/hermitage-banks-johnsville.md` |
 | 36 | `good-friday-1975` | Good Friday, 1975 | 1591 | `drafts/good-friday-1975.md` |
 | 37 | `after-the-big-mill` | After the big mill | 1587 | `drafts/after-the-big-mill.md` |
