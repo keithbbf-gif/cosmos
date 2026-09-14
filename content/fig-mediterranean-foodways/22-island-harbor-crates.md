@@ -12,6 +12,7 @@ region: "Mediterranean islands"
 places: ["Naxos", "Samos", "Vis", "Hvar"]
 hero: IMAGE_SOURCES.md#fig-med-22
 claims_policy: no-medical
+voice_check: edited
 ---
 
 An island fig has a deadline with a horn.

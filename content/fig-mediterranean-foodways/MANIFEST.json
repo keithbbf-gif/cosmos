@@ -5,6 +5,7 @@
   "claims_policy": "no-medical",
   "draft_count": 48,
   "voice": "human-magazine",
+  "voice_check": "edited",
   "image_sources": "IMAGE_SOURCES.md",
   "brief": "SERIES.md",
   "themes": ["drying", "markets", "feast", "regional-dish"],

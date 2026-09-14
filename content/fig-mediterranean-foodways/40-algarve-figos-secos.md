@@ -12,6 +12,7 @@ region: "Algarve, Portugal"
 places: ["inland Algarve", "Loulé", "old quinta yards"]
 hero: IMAGE_SOURCES.md#fig-med-40
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Tourism painted the Algarve blue. The older palette had a brown bag in it.
@@ -24,4 +25,4 @@ A stuffed dried fig with almond is the cousin of Calabria and Aydın, which shou
 
 I look for the *quinta* that still has a drying rack and not only a barbecue. They exist. They are not on the first page of the map. The owner will be more interested in talking about water than about heritage. Water is the honest subject in a place that sells sunshine as if sunshine were free. Figs drink or they don’t; the rest is marketing. A dry year makes a smaller bag and a longer story.
 
-Eat *figos secos* with a wine that is a little tired — a leftover red, a *aguardente* if the night went that way — and a cheese that is a little salty. Eat them on a walk that is not for a photograph, inland, where the road is white and the trees look like they have opinions. The foodway here is inland, even when the sea is three kilometers away. The sea gets the postcard. The hill gets the bag. Bring the bag home. That is how a coast remains a farm.
+Eat *figos secos* with a wine that is a little tired — a leftover red, a glass of aguardente if the night went that way — and a cheese that is a little salty. Eat them on a walk that is not for a photograph, inland, where the road is white and the trees look like they have opinions. The foodway here is inland, even when the sea is three kilometers away. The sea gets the postcard. The hill gets the bag. Bring the bag home. That is how a coast remains a farm.

@@ -12,6 +12,7 @@ region: "Provence, France"
 places: ["Aubagne", "Aix hinterland", "Luberon kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-39
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Recipes will give you pastry, almond cream, a spiral of halved figs, thyme, a glaze that shines like a brochure. The foodway is simpler: too many figs, a neighbor who said she might come, an oven that was already hot from a gratin or a loaf. You roll what you have. You cut the fruit that will not last the night. You do not wash the board as if a photographer were coming.

@@ -12,6 +12,7 @@ region: "Lebanon / Levant"
 places: ["mountain houses", "Beirut apartments that still bother"]
 hero: IMAGE_SOURCES.md#fig-med-37
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Someone’s father had a spoon like a flat oar.

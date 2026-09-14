@@ -12,6 +12,7 @@ region: "Morocco / western Maghreb"
 places: ["Fez", "Meknès hinterland", "Rif orchards"]
 hero: IMAGE_SOURCES.md#fig-med-21
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The Mediterranean has a southern shore that does not ask permission of the tourist map.

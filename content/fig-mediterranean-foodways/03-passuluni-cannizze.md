@@ -13,6 +13,7 @@ places: ["Cosenza", "Valle del Crati", "Amantea", "Belmonte Calabro"]
 cultivars: ["Dottato"]
 hero: IMAGE_SOURCES.md#fig-med-03
 claims_policy: no-medical
+voice_check: edited
 ---
 
 In the Crati valley they wait for the stalk to bow.

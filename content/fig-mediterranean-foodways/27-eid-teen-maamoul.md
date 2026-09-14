@@ -12,6 +12,7 @@ region: "Levant"
 places: ["Lebanese mountain kitchens", "Syrian and Palestinian tables"]
 hero: IMAGE_SOURCES.md#fig-med-27
 claims_policy: no-medical
+voice_check: edited
 ---
 
 *Maamoul* is a cookie that remembers a mold.

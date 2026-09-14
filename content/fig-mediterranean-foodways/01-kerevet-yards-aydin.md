@@ -13,6 +13,7 @@ places: ["İncirliova", "Germencik", "Nazilli", "Büyük Menderes"]
 cultivars: ["Sarılop"]
 hero: IMAGE_SOURCES.md#fig-med-01
 claims_policy: no-medical
+voice_check: edited
 ---
 
 By late August the valley smells like a bakery that forgot to close. Not bread. Something darker, almost tobacco at the edges, honey if you stand in the wind. The fig trees on the slopes above the Büyük Menderes have already done the impolite part of harvest: they drop the fruit. Nobody climbs for the drying crop the way you climb for a table fig. The good ones let go.

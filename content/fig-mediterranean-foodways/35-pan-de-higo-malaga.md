@@ -12,6 +12,7 @@ region: "Andalusia, Spain"
 places: ["El Borge", "Coín", "Málaga", "La Vera"]
 hero: IMAGE_SOURCES.md#fig-med-35
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The name is a tease. *Pan de higo* is not bread. It is what happens when a surplus of dried figs meets a mortar and a weight, and a household decides that leftover fruit will not be allowed to become a smell.

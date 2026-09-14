@@ -12,6 +12,7 @@ region: "Bay of Naples, Roman"
 places: ["Herculaneum", "Napoli MAN", "Pompeii"]
 hero: IMAGE_SOURCES.md#fig-med-47
 claims_policy: no-medical
+voice_check: edited
 ---
 
 In the Archaeological Museum in Naples there is a small wall that understands lunch.

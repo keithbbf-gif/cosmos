@@ -12,11 +12,12 @@ region: "Aydın / export Mediterranean"
 places: ["Aydın", "İzmir", "Hamburg buyers"]
 hero: IMAGE_SOURCES.md#fig-med-11
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The romantic sentence is that every fig is unique. The packing shed does not have time for that sentence.
 
-Aydın İnciri, in the language that protects it, is not allowed to wander past ninety fruits per kilogram if it wants to keep its face. The prettier lots live around forty-five to sixty-five. Those numbers are not nutrition. They are a handshake. A buyer who cannot see the orchard can still see a count. Too many pieces and the fruit is small, or dry to a husk, or a mix that was bulked. Too few and someone is selling you a different dream.
+Aydın İnciri, in the language that protects it, is not allowed to wander past ninety fruits per kilogram if it wants to keep its face. The prettier lots live around forty-five to sixty-five. Those numbers are not nutrition. They are a handshake. A buyer who cannot see the orchard can still see a count. Too many pieces and the fruit is small, or dries into husks, or a mix that was bulked. Too few and someone is selling you a different dream.
 
 Women at the sorting table — again, often women — do this math with their hands. Cups, eyes, a rhythm. The fruit is classed into sizes the way olives are, the way oranges are, the way any crop that wants a ship must be. A magazine that finds this unpoetic has not paid for freight.
 

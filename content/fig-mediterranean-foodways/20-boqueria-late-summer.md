@@ -12,6 +12,7 @@ region: "Catalonia, Spain"
 places: ["La Boqueria", "Maresme", "Extremadura"]
 hero: IMAGE_SOURCES.md#fig-med-20
 claims_policy: no-medical
+voice_check: edited
 ---
 
 La Boqueria is guilty of being photographed. It is not guilty of failing to sell figs.

@@ -12,6 +12,7 @@ region: "Aydın, Türkiye"
 places: ["village yards off the Büyük Menderes"]
 hero: IMAGE_SOURCES.md#fig-med-31
 claims_policy: no-medical
+voice_check: edited
 ---
 
 When the last good drop has been taken and the trays are either under cloth or already in the shed, a yard will sometimes become a table.

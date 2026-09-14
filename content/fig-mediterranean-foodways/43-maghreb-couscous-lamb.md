@@ -12,6 +12,7 @@ region: "Tunisia / Morocco / Algeria"
 places: ["Tunis kitchens", "Fassi houses", "Algiers tables"]
 hero: IMAGE_SOURCES.md#fig-med-43
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A lamb shoulder, a cinnamon stick, a handful of the fruit that kept.

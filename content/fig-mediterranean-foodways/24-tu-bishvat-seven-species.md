@@ -12,6 +12,7 @@ region: "Land of Israel / Jewish diasporas"
 places: ["Jerusalem", "diaspora tables"]
 hero: IMAGE_SOURCES.md#fig-med-24
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The list is short and it does not care about your brunch.

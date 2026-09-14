@@ -12,6 +12,7 @@ region: "Cyprus / Greek kitchens"
 places: ["Nicosia houses", "mountain villages", "Athenian cousins"]
 hero: IMAGE_SOURCES.md#fig-med-42
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The ritual is older than your visit: a small plate, a spoon, a glass of cold water. The guest takes one sweet. Not three. The lid goes back. This is *glyko tou koutaliou*, and it is a test of whether you were raised or whether you will be forgiven for having been raised elsewhere.

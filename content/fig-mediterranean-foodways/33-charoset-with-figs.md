@@ -12,6 +12,7 @@ region: "Jewish Mediterranean"
 places: ["Sephardi tables", "Italian Jewish kitchens", "Israeli Seders"]
 hero: IMAGE_SOURCES.md#fig-med-33
 claims_policy: no-medical
+voice_check: edited
 ---
 
 *Charoset* is a paste that has a job: to look like mortar and taste like a reason to stay at the table.

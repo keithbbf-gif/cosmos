@@ -12,6 +12,7 @@ region: "Sicily, Italy"
 places: ["Ballarò", "Palermo", "Capo"]
 hero: IMAGE_SOURCES.md#fig-med-17
 claims_policy: no-medical
+voice_check: edited
 ---
 
 In Palermo you must ask which fig.

@@ -12,6 +12,7 @@ region: "Dalmatia, Croatia"
 places: ["Vis", "Hvar", "Vinodol hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-08
 claims_policy: no-medical
+voice_check: edited
 ---
 
 On Vis they will tell you the fig is not done when it is dry. It is done when it can sit.

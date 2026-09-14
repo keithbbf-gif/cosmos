@@ -12,6 +12,7 @@ region: "Classical Athens"
 places: ["Agora", "Attica"]
 hero: IMAGE_SOURCES.md#fig-med-23
 claims_policy: no-medical
+voice_check: edited
 ---
 
 We are not supposed to be sure.

@@ -13,6 +13,7 @@ places: ["Aydın orchards", "Kymi"]
 cultivars: ["Sarılop", "Traganikà"]
 hero: IMAGE_SOURCES.md#fig-med-12
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Watch a Sarılop orchard in the real harvest and you will understand why the work looks lazy to a person who picks apples.

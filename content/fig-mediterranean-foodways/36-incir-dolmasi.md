@@ -12,6 +12,7 @@ region: "Türkiye"
 places: ["Aegean and southeastern tables", "Gaziantep influence"]
 hero: IMAGE_SOURCES.md#fig-med-36
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Turks already knew how to stuff a leaf, a pepper, a mussel, a squash that had no other plans. Stuffing a dried fig is the same idea in a sweeter key: a hollow, a tenant, a lid that is the fruit itself.

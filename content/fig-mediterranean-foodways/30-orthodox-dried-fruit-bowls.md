@@ -12,6 +12,7 @@ region: "Orthodox Mediterranean"
 places: ["Athens homes", "Thessaloniki", "Cypriot and Antiochian tables"]
 hero: IMAGE_SOURCES.md#fig-med-30
 claims_policy: no-medical
+voice_check: edited
 ---
 
 There is a bowl that does not get a name in the cookbook because it is not a dish. It is a climate.

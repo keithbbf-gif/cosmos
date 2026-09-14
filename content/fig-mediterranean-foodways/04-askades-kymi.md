@@ -13,6 +13,7 @@ places: ["Kymi", "Oxylithos", "Platana"]
 cultivars: ["Traganikà"]
 hero: IMAGE_SOURCES.md#fig-med-04
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Kymi sits on the back of Evia as if it were still waiting for a ship. The town has had wine money and lost it. Phylloxera took the rare black grape; the shipowners took themselves elsewhere. What remained, shining in a climate that will not let a fresh fig travel with dignity, was a drying trick so specific it became a protected name.

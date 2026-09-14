@@ -12,6 +12,7 @@ region: "Catholic and Orthodox Mediterranean"
 places: ["Venice hinterlands", "Dalmatia", "southern Italy"]
 hero: IMAGE_SOURCES.md#fig-med-32
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Carnival is a fryer. Lent is a cupboard. Figs have papers for both rooms.

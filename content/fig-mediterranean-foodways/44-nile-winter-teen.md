@@ -12,6 +12,7 @@ region: "Egypt"
 places: ["Alexandria markets", "Delta gardens", "Cairo winter shops"]
 hero: IMAGE_SOURCES.md#fig-med-44
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Egypt is a fig country in the tables that count tons, and a fig country in a more complicated way than a PDO map.

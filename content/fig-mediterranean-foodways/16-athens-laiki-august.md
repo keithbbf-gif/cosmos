@@ -12,6 +12,7 @@ region: "Athens, Greece"
 places: ["neighborhood laiki markets", "Evia stalls"]
 hero: IMAGE_SOURCES.md#fig-med-16
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A dried fig is a document. A fresh fig on a Tuesday *laiki* is a rumor that happens to be true.

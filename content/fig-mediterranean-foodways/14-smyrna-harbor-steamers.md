@@ -12,6 +12,7 @@ region: "İzmir, Türkiye"
 places: ["İzmir / Smyrna", "Kordon", "Aydın line"]
 hero: IMAGE_SOURCES.md#fig-med-14
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A fig does not swim. It takes a road, then a rail, then a gangplank.
@@ -20,7 +21,7 @@ For the long nineteenth century and a good piece of the twentieth, that gangplan
 
 What a steamer wanted was a fig that would not become a problem in a hold. Dry enough, graded, layered or pulled into the shapes the catalog had already sold to a grocer in Liverpool. The doily and the wooden box were not nostalgia then. They were packaging. A stain on the paper was a claim.
 
-The 1920s broke more than a municipal name. Populations moved; firms ended; the waterfront changed its accent. The hinterland did not stop drying. It found new offices, new stamps, a republic’s institutions, a commodity exchange that would eventually quote the season in tons and dollars. The word “Smyrna” stayed in English longer than it stayed on the map, the way “Turkey red” stayed on wheat and “Mocha” stayed on coffee. Markets are conservative about syllables.
+The 1920s broke more than a municipal name. Populations moved, firms ended, and the waterfront changed its accent. The hinterland did not stop drying. It found new offices, new stamps, a republic’s institutions, a commodity exchange that would eventually quote the season in tons and dollars. The word “Smyrna” stayed in English longer than it stayed on the map, the way “Turkey red” stayed on wheat and “Mocha” stayed on coffee. Markets are conservative about syllables.
 
 If you walk the Kordon now you will not see a fig mountain. You will see the same lie all beautiful waterfronts tell: that the city is the product. The product is inland, on a tray, in a shed that does not have a sea view. The port is a verb. It moves. A café can sell you the view. It cannot sell you the grade.
 

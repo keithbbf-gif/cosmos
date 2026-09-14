@@ -12,6 +12,7 @@ region: "Aydın, Türkiye"
 places: ["İncirliova", "Aydın", "İzmir–Aydın railway"]
 hero: IMAGE_SOURCES.md#fig-med-13
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Most towns are named for a spring, a saint, a forgotten landlord. İncirliova is named for a crop. Fig-valley. The older name, Karapınar, dark spring, was a water name, which is also honest: this part of the Büyük Menderes is a wet idea in a dry season. In the 1930s the water name lost. Atatürk, the story goes, looked at the trees and the paperwork changed.

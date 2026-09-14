@@ -12,6 +12,7 @@ region: "Mediterranean-wide"
 places: ["La Mancha", "Pag", "Anatolian dairies"]
 hero: IMAGE_SOURCES.md#fig-med-46
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A hotel will put a dried fig next to any cheese and call it Mediterranean. Sometimes the hotel is accidentally correct. Usually the hotel is using a fruit from one sea and a cheese from a catalog.

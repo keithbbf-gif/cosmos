@@ -12,6 +12,7 @@ region: "Dalmatia and islands, Croatia"
 places: ["Vis", "Cres", "Krk", "Vinodol"]
 hero: IMAGE_SOURCES.md#fig-med-34
 claims_policy: no-medical
+voice_check: edited
 ---
 
 They call it a cake because English is lazy. It is a press.

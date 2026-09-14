@@ -12,6 +12,7 @@ region: "Lebanon / Syria"
 places: ["Lebanese villages", "Syrian kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-38
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Not every fig will take the tray. Some are too far gone in sweetness, too soft, too many, the ones that would sour if you asked them to be a shape and a grade. Those go to the pot and become *dibs*. The word is the same family as other Levantine molasses: a reduction, a winter, a bottle that does not need a story on the glass.

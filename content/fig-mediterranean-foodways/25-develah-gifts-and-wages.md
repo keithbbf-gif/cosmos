@@ -12,6 +12,7 @@ region: "ancient Israel / Levant"
 places: ["Judah", "later Levantine kitchens"]
 hero: IMAGE_SOURCES.md#fig-med-25
 claims_policy: no-medical
+voice_check: edited
 ---
 
 When Abigail goes to meet David in First Samuel, the list of what she takes includes *develah* — cakes of pressed figs — among the other portable arguments: bread, wine, sheep, grain. The text is not doing recipe writing. It is doing diplomacy with food that will last the ride.

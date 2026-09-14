@@ -12,6 +12,7 @@ region: "Sardinia, Italy"
 places: ["campidano kitchens", "Nuoro hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-41
 claims_policy: no-medical
+voice_check: edited
 ---
 
 *Sapa* — *saba* on the mainland — is what you get when you refuse to let grape juice become only wine. Cook it down in a pot that will be stained for a generation. The house fills with a smell that is jam and iron and a little like a forge if the reduction goes far. Into that dark you can put walnuts, or squash, or the dried figs that have been waiting for a liquid with authority.

@@ -12,6 +12,7 @@ region: "Calabria, Italy"
 places: ["Amantea", "Belmonte Calabro", "Cosenza Vecchia"]
 hero: IMAGE_SOURCES.md#fig-med-26
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Open a proper Cosenza tin at Christmas and you will not find a pile. You will find carpentry.

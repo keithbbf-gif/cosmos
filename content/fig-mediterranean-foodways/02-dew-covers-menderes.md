@@ -12,13 +12,14 @@ region: "Aydın, Türkiye"
 places: ["Germencik", "İncirliova", "Efeler"]
 hero: IMAGE_SOURCES.md#fig-med-02
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Ask an old grower in Germencik what ruined a tray and you will not hear a speech about terroir. You will hear about a night.
 
 Dew is a small word for a large theft. A fig that spent the day tightening its skin will drink the evening if you let it. The sugar that was concentrating loosens. The surface goes dull. In the morning you have fruit that looks finished and behaves wet. Pack that and you pack an argument with a buyer in İzmir who has seen this movie.
 
-So the work has a second shift. Late afternoon, when the light goes yellow and the flies change their pitch, someone walks the yard and begins the pile. Not a heap like laundry. A careful gathering, fruit off the *kerevet*, into a mass that can take a cloth. The cover is ordinary — woven, plastic, whatever keeps the sky off — and the gesture is not. You are putting the harvest to bed.
+So the work has a second shift. Late afternoon, when the light turns yellow and the flies change their pitch, someone walks the yard and begins the pile. Not a heap like laundry. A careful gathering, fruit off the *kerevet*, into a mass that can take a cloth. The cover is ordinary — woven, plastic, whatever keeps the sky off — and the gesture is not. You are putting the harvest to bed.
 
 The Aydın specification, the dry one that lawyers filed so Europe would stop calling these “Smyrna figs” as if a dead port still owned them, writes the same choreography in the tone of a manual. Control the trays in the early morning or late day. Pile and cover against insects and dew. Spread again in a single line at first light. It reads like bureaucracy. In the yard it reads like not wanting to cry in September.
 

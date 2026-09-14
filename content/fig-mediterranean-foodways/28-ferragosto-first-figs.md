@@ -12,6 +12,7 @@ region: "Italy / Catholic Mediterranean"
 places: ["Rome hinterlands", "Calabria", "Dalmatian coast"]
 hero: IMAGE_SOURCES.md#fig-med-28
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The fifteenth of August is a religious date and a horticultural one, and the two have been shaking hands for a long time.

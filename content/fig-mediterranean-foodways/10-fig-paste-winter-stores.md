@@ -12,6 +12,7 @@ region: "Eastern and central Mediterranean"
 places: ["Gaziantep", "Calabria", "Levantine kitchens", "Sicily"]
 hero: IMAGE_SOURCES.md#fig-med-10
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A whole dried fig is a performance. It has a shape you can grade. It has a face for a box. A great many figs will never be that person.

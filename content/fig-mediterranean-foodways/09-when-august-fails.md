@@ -12,6 +12,7 @@ region: "Mediterranean-wide"
 places: ["Kymi", "Cosenza", "Aydın", "Algarve"]
 hero: IMAGE_SOURCES.md#fig-med-09
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Every drying culture has a sentence it says when the sky misbehaves. In Kymi the product file allows a special oven before the fruit is opened and paired. In Cosenza the “protected” method is a greenhouse that must not exceed fifty degrees. In Aydın the plastic tunnels go up along the same roads that used to trust the open *kerevet*. In the Algarve a grandmother will finish a tray in the residual heat after bread, as if the fig were a second loaf.

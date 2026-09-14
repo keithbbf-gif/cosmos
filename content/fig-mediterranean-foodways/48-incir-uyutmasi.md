@@ -12,6 +12,7 @@ region: "Türkiye"
 places: ["home kitchens from Aegean to central Anatolia"]
 hero: IMAGE_SOURCES.md#fig-med-48
 claims_policy: no-medical
+voice_check: edited
 ---
 
 *Uyutmak* is to put to sleep. *İncir uyutması* is what happens when dried figs and milk share a pot long enough to forget they were separate.

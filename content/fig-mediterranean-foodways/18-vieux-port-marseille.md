@@ -12,6 +12,7 @@ region: "Provence / Maghreb in France"
 places: ["Vieux-Port", "Noailles", "Aubagne hinterland"]
 hero: IMAGE_SOURCES.md#fig-med-18
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Marseille is a fig city that pretends it is a fish city.
@@ -22,6 +23,6 @@ Then there is the other fig, the one from a garden toward Aubagne or a farm that
 
 The two figs do not fight. They do not merge. A Provençal tart wants the fresh one, sliced, a little collapsing, thyme if the cook is in a mood. A winter table wants the dried one next to a nut and a glass that is too sweet for lunch. A city that has had a foot in North Africa for longer than some nations have had borders knows how to keep both clocks.
 
-I watch tourists buy soap and miss the bins. The bins are the harbor’s real continuation. Ships brought more than people. They brought a taste for a dried fruit that Provence also grows and does not always dry, because Provence has other vanities — wine, oil, a tomato with a name. Drying is work and a kind of humility. A city that can buy the work from Oran or Aydın will often do so and keep the garden for August. The Maghrebi grocer is not a guest in this story. He is one of the authors. His kilo price is a history lesson that does not need a plaque.
+I watch tourists buy soap and miss the bins. The bins are the harbor’s real continuation. Ships brought more than people. They brought a taste for a dried fruit that Provence also grows and does not always dry, because Provence has other vanities — wine, oil, a tomato with a name. Drying is work and a kind of humility. A city that can buy the work from Oran or Aydın will often do so and keep the garden for August. The Maghrebi grocer is not a guest in this story. They are one of the authors. The kilo price is a history lesson that does not need a plaque.
 
 Noailles at eleven in the morning is louder than the port at eleven. That noise is the market doing what the boats used to do: moving a sweetness that will keep. If you write Marseille as bouillabaisse only, you are writing a menu for a visitor. Write the fig bin and the garden flat in the same paragraph. That paragraph is the city. Eat from both clocks before you leave, or you have only seen the postcard harbor.

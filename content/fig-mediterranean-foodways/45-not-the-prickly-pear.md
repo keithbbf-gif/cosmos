@@ -12,6 +12,7 @@ region: "Sicily / Malta / Maghreb"
 places: ["Sicilian interiors", "Maltese summer stalls"]
 hero: IMAGE_SOURCES.md#fig-med-45
 claims_policy: no-medical
+voice_check: edited
 ---
 
 This piece exists to save an art desk from a lawsuit with botany.

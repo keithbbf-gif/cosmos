@@ -12,6 +12,7 @@ region: "Eastern and southern Mediterranean"
 places: ["Anatolian weddings", "Levantine zaffeh tables", "island engagements"]
 hero: IMAGE_SOURCES.md#fig-med-29
 claims_policy: no-medical
+voice_check: edited
 ---
 
 A wedding tray is a market stall that has been told to behave.
@@ -20,7 +21,7 @@ Nuts in their shells or already broken so a dress will not suffer, baklava if th
 
 Why figs? Because they keep on a warm night when cream would sulk. Because they can be eaten with one hand while the other holds a glass or a cousin. Because they photograph as abundance without the collapse of a cake in heat. Because a dried fruit says the house planned, which is what a wedding is pretending to be: a plan that held. Fresh figs at a wedding are a flex and a risk. I have seen the risk. It looks like a stain on a rented cloth and a bride who will remember the stain longer than the toast.
 
-Anatolian halls will put the tray where the *henna* night can reach it. Levantine *zaffeh* tables will have their own height and their own insistence that you eat before you leave. Island engagements sometimes send a box of the local dried fruit as a marker, the way other places send sweets from a named bakery. The box is a map. If the fruit is Kymi’s paired *askades*, you know which slope. If it is a string from Samos, you know which aunt. If it is a supermarket bag with a ribbon, you know something else, and you will be polite, and the map will still be readable.
+Anatolian halls will put the tray where the *henna* night can reach it. Levantine *zaffeh* tables will have their own height and their own insistence that you eat before you leave. Island engagements sometimes send a box of the local dried fruit as a marker, the way other places send sweets from a named bakery. The box is a map. If the fruit is Kymi’s paired *askades*, you know which slope. If it is a string from Samos, you know which aunt. If it is a supermarket bag with a ribbon, you know something else. You will be polite. The map will still be readable.
 
 I am not going to invent a single “Mediterranean wedding fig ritual” and print it as anthropology. The region is a quarrel of rituals, of faiths, of budgets, of aunts. What repeats is the tray, the reach, the need for a sweet that does not melt and does not require a plate. Figs win that job in the places that grow them. In the places that do not, dates win, or sugar wins, or a pastry from a shop that delivered. The foodway is the winning, not a secret dance we can sell as “ancient.”
 

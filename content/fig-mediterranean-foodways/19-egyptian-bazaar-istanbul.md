@@ -12,6 +12,7 @@ region: "Istanbul, Türkiye"
 places: ["Mısır Çarşısı", "Eminönü", "Aydın lots"]
 hero: IMAGE_SOURCES.md#fig-med-19
 claims_policy: no-medical
+voice_check: edited
 ---
 
 The Egyptian Bazaar is named for coffee and rice and a Nile that does not run through Eminönü. It behaves, on a weekday morning, like a pantry for a city that is too big to have a single harvest.
@@ -24,4 +25,4 @@ Istanbul is not a growing region for the great drying fig. It is a consuming reg
 
 Stand outside and the Golden Horn will try to steal the paragraph. Let it have a sentence. Then go back under the vaults and look at the way figs are piled to look abundant. Abundance is a sales technique and also a memory of a time when a winter without dried fruit was a thinner winter. The lights are newer. The pile is old. A tourist will ask if they are “organic.” A household will ask if they are this year’s.
 
-Taste three if the seller will let you: one from the front of the pile, one from the side, one he did not want you to take. That is how you learn whether the theater has a shop under it. If you only buy tea here you have missed the point of the name. The point is cargo. Figs are cargo that happens to be sweet. Buy them as cargo: enough to last, not enough to perform, a bag that will look wrong in a hotel room and right on a kitchen table in Kadıköy.
+Taste three if the seller will let you: one from the front of the pile, one from the side, one from the back they did not want you to take. That is how you learn whether the theater has a shop under it. If you only buy tea here you have missed the point of the name. The point is cargo. Figs are cargo that happens to be sweet. Buy them as cargo: enough to last, not enough to perform, a bag that will look wrong in a hotel room and right on a kitchen table in Kadıköy.

@@ -12,6 +12,7 @@ region: "Aegean basin"
 places: ["Samos", "Chios", "coastal Anatolia", "Cyclades"]
 hero: IMAGE_SOURCES.md#fig-med-05
 claims_policy: no-medical
+voice_check: edited
 ---
 
 Before the plastic tray and the nitrogen flush, a household had a rafter.

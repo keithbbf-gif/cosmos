@@ -13,6 +13,7 @@ places: ["Smyrna / İzmir", "Aydın", "San Joaquin Valley"]
 cultivars: ["Sarılop", "Calimyrna"]
 hero: IMAGE_SOURCES.md#fig-med-07
 claims_policy: no-medical
+voice_check: edited
 ---
 
 For a century of English-language grocers, the dried fig was Smyrna. The word meant a pale, seeded, honeyed disc that arrived in a wooden box with a paper doily and a lie of geography. Most of those figs had not seen Smyrna’s water. They had seen Aydın’s dust. İzmir was the mouth. The valley was the stomach.
