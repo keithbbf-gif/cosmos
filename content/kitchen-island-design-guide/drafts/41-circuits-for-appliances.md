@@ -4,6 +4,7 @@ slug: circuits-for-appliances
 title: Circuits for what you put in the island
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, circuits, appliances]
 ---
 

@@ -4,6 +4,7 @@ slug: weight-and-the-box
 title: Weight, and what the box can carry
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, structure, bradley]
 ---
 

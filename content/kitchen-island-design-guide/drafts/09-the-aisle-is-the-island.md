@@ -4,6 +4,7 @@ slug: the-aisle-is-the-island
 title: The aisle is the island
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, aisles, nkba]
 ---
 

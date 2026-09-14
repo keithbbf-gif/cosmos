@@ -4,6 +4,7 @@ slug: two-cook-kitchens
 title: Two cooks, two aisles
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, aisles, two-cook]
 ---
 

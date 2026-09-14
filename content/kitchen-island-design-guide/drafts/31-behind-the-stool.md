@@ -4,6 +4,7 @@ slug: behind-the-stool
 title: "Behind the stool: 32, 36, 44"
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, clearances, aisles]
 ---
 

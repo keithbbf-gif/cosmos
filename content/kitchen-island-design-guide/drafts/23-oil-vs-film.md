@@ -4,6 +4,7 @@ slug: oil-vs-film
 title: Oil or film
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, butcher-block, finish]
 ---
 

@@ -4,6 +4,7 @@ slug: triangle-intersection
 title: The twelve-inch triangle rule
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, work-triangle, aisles]
 ---
 

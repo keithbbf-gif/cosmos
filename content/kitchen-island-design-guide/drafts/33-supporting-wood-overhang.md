@@ -4,6 +4,7 @@ slug: supporting-wood-overhang
 title: Supporting a wood overhang
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, overhang, butcher-block, structure]
 ---
 

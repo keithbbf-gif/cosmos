@@ -4,6 +4,7 @@ slug: landing-zones
 title: Landing zones, or why the cooktop needs shoulders
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, landings, cooktop, sink]
 ---
 
@@ -46,7 +47,8 @@ lost. The guest was lucky.
 
 Ventilation is a landing’s cousin. A cooktop in a Bradley
 island needs a hood that ducts, sized to the appliance,
-with makeup air if you go over about 400 cfm. A pretty
+with makeup air if the hood exceeds the cfm threshold your
+code requires [VERIFY local mechanical code]. A pretty
 pendant cluster is not a hood. Recirculating filters are
 how open-plan rooms smell like last Tuesday.
 

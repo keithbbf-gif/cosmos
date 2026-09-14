@@ -4,6 +4,7 @@ slug: when-to-refuse-an-island
 title: When to refuse an island
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, refusal, peninsula]
 ---
 

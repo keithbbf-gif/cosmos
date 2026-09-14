@@ -4,6 +4,7 @@ slug: farm-table-that-never-left
 title: The farm table that never left
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, worktable, butcher-block]
 ---
 

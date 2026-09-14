@@ -4,6 +4,7 @@ slug: woods-that-earn-the-top
 title: Woods that earn the top
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, butcher-block, species]
 ---
 

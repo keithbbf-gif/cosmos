@@ -4,6 +4,7 @@ slug: wood-moves
 title: Wood moves. Fasten it like it will.
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, butcher-block, fasteners]
 ---
 
@@ -39,7 +40,7 @@ Sinks in wood are a special kind of optimism. If we
 do it, the cutout gets sealed like a boat, the rim
 is detailed so water cannot sit, and someone in the
 house agrees to wipe the joint. Undermount in wood
-is possible and fussy. A stainless top-mount with a
+is possible and fussy. A stainless top-mount with an
 honest rim can be the better adult. Or put the sink
 in stone and keep the wood for prep. That is the
 mixed-top draft.

@@ -4,6 +4,7 @@ slug: stool-height-gap
 title: The gap between seat and underside
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, stools, height]
 ---
 

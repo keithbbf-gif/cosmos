@@ -4,6 +4,7 @@ slug: light-over-the-island
 title: Light over the island
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, lighting, pendants]
 ---
 

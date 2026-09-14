@@ -4,6 +4,7 @@ slug: gfci-the-whole-kitchen
 title: GFCI the whole kitchen
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, gfci, nec]
 ---
 
@@ -15,7 +16,7 @@ argue about the fridge.
 2023 widened 210.8(A)(6). The phrase
 that limited protection to receptacles
 serving countertops came out. The
-direction of travel is: 125- through
+direction of travel is: 125-volt through
 250-volt receptacles in the kitchen
 get GFCI, not only the pretty ones
 at the backsplash. There is also

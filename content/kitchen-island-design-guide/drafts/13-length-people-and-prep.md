@@ -4,6 +4,7 @@ slug: length-people-and-prep
 title: Length: people, prep, and the dead middle
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, length, seating]
 ---
 

@@ -4,6 +4,7 @@ slug: butcher-block-vs-stone
 title: Butcher block vs stone, said plainly
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, butcher-block, stone]
 ---
 

@@ -4,6 +4,7 @@ slug: popups-and-dead-side-outlets
 title: Pop-ups, listed assemblies, and the dead side outlet
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, nec, pop-up]
 ---
 

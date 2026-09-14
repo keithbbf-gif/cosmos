@@ -4,6 +4,7 @@ slug: supporting-stone-overhang
 title: Supporting a stone overhang
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, overhang, stone, structure]
 ---
 

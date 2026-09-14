@@ -4,6 +4,7 @@ slug: why-this-guide
 title: Why this guide exists
 stage: 1-brief
 status: staged
+voice_check: edited
 topics: [intro, bradley, voice]
 ---
 
@@ -36,8 +37,8 @@ Saying that early is cheaper than saying it after the boxes are on a
 truck.
 
 Read this like a person talking, because that is what it is. If a
-sentence sounds like a brochure, it is wrong. Mark it. We will cut it
-on the next pass.
+sentence sounds like a brochure, cut it or mark it for the next
+human pass.
 
 The five fights this guide is built to win:
 

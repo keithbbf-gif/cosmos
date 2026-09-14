@@ -4,6 +4,7 @@ slug: granite-heat-and-seal
 title: "Granite: heat, seal, and honesty"
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, stone, granite]
 ---
 

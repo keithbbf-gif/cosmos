@@ -4,6 +4,7 @@ slug: aftercare
 title: "Aftercare: oil, stone, and living with it"
 stage: 7-bradley
 status: staged
+voice_check: edited
 topics: [bradley, aftercare, materials]
 ---
 

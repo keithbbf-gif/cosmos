@@ -4,6 +4,7 @@ slug: work-triangle-to-work-zones
 title: From work triangle to work zones
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, work-triangle, zones]
 ---
 
@@ -34,7 +35,7 @@ can walk around.
 
 When I place a Bradley island I pick its job first.
 
-- Prep: continuous 36 by 24 of clear top next to a sink, knife
+- Prep: continuous 36 in. long by 24 in. deep of clear top next to a sink, knife
   storage, trash pullout. Triangle can stay on the walls.
 - Cook: cooktop with 12 and 15 inches of landing, 9 inches of
   top behind the burners, a hood that actually ducts. Seating

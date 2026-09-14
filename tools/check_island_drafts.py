@@ -28,7 +28,7 @@ DRAFT_DIR = Path(
 )
 MIN_DRAFTS = 40
 MIN_WORDS = 280
-REQUIRED_FRONT = ("id", "slug", "title", "stage", "status", "topics")
+REQUIRED_FRONT = ("id", "slug", "title", "stage", "status", "voice_check", "topics")
 REQUIRED_TOPICS = {
     "history": "history",
     "proportions": "proportions",
@@ -106,6 +106,10 @@ def main() -> int:
             errors.append(f"{path.name}: missing frontmatter {missing}")
         if fm.get("status") != "staged":
             errors.append(f"{path.name}: status {fm.get('status')!r} is not staged")
+        if fm.get("voice_check") != "edited":
+            errors.append(
+                f"{path.name}: voice_check {fm.get('voice_check')!r} is not edited"
+            )
         wc = words(body)
         if wc < MIN_WORDS:
             errors.append(f"{path.name}: {wc} words < {MIN_WORDS}")

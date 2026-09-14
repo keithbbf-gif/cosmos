@@ -4,6 +4,7 @@ slug: islands-that-failed
 title: Islands that failed, and why
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, failures, refusal]
 ---
 
@@ -23,11 +24,11 @@ every hole. First heating season it cracked along a glue line
 you could hear from the hall. The shop had told them wood moves.
 They wanted it tight like stone. Wood is not stone.
 
-The island with six outlets on the show side, 1999 NEC energy,
+The island with six outlets on the show side, 1999 NEC era,
 cords draping toward the walkway. A toddler pulled a kettle. The
 2023 code change that made side outlets illegal as counter
-service is not an aesthetic tantrum. It is a hospital-visit
-count.
+service is not an aesthetic tantrum. It tracks the injury data
+CMP-2 cited [VERIFY count and source against adopted NEC].
 
 The seating overhang of 8 inches on a 36-inch top, sold as
 “casual dining for four.” People sat sideways. They stopped

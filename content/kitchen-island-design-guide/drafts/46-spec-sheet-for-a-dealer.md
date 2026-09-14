@@ -4,6 +4,7 @@ slug: spec-sheet-for-a-dealer
 title: A spec sheet you can hand a dealer
 stage: 7-bradley
 status: staged
+voice_check: edited
 topics: [bradley, spec, dealer]
 ---
 

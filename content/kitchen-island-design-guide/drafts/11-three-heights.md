@@ -4,6 +4,7 @@ slug: three-heights
 title: Three heights, and why 36 usually wins
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, height, seating]
 ---
 
@@ -13,14 +14,14 @@ Thirty inches is a table. Chairs, not stools. Kids can sit
 without a climb. The top will not line up with your wall
 counters, so the island becomes a piece of furniture that
 happens to have cabinets under it. Knee space wants to be
-about 18 inches deep and 24 wide per person. It is a good
+about 18 in. deep and 24 in. wide per person. It is a good
 height if the island is really a table with storage. It is a
 bad height if you wanted a place to chop next to a 36-inch
 run.
 
 Thirty-six inches is the counter. This is the default for a
 reason. Your wall boxes are 36. Your wrists already know it.
-Stools are counter stools. Knee space is 15 deep and 24 wide.
+Stools are counter stools. Knee space is 15 in. deep and 24 in. wide.
 Most Bradley islands land here because the job is still
 kitchen work. A maple top at 36 is a worktop. A stone top at
 36 is a worktop that you will not cut on.
@@ -28,7 +29,7 @@ kitchen work. A maple top at 36 is a worktop. A stone top at
 Forty-two inches is a bar. You gain a little visual wall
 between the cook and the living room. You lose some dignity
 for anyone who does not want to perch. Knee space shrinks to
-12 deep because legs hang steeper. You can sometimes recover
+12 in. deep because legs hang steeper. You can sometimes recover
 island depth in a tight room by going to 42 on the seating
 side only — a two-tier — but you are now building two tops
 and a crumb trap. See the two-tier draft before you fall in

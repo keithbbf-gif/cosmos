@@ -4,11 +4,12 @@ slug: quartz-low-drama
 title: Quartz, the low-drama stone
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, stone, quartz]
 ---
 
 Quartz is the stone I spec when the household wants
-the argument to end.
+low maintenance and a surface that stays predictable.
 
 It is not stone in the quarry sense. It is stone in
 the kitchen sense: a slab, cold, heavy, seamed by a

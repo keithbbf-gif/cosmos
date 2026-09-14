@@ -4,6 +4,7 @@ slug: mixed-tops
 title: "Mixed tops: wood where you cut, stone where you wet"
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, mixed-top, butcher-block, stone]
 ---
 

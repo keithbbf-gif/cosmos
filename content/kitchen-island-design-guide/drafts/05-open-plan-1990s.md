@@ -4,6 +4,7 @@ slug: open-plan-1990s
 title: Open plan, and the island as furniture
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, open-plan, furniture]
 ---
 

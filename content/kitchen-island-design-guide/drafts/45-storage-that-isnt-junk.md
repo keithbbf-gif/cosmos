@@ -4,6 +4,7 @@ slug: storage-that-isnt-junk
 title: Storage that is not a junk drawer
 stage: 7-bradley
 status: staged
+voice_check: edited
 topics: [bradley, storage, zones]
 ---
 

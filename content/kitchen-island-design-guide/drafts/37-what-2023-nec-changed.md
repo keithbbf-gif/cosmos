@@ -4,6 +4,7 @@ slug: what-2023-nec-changed
 title: What the 2023 NEC actually changed
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, nec, outlets]
 ---
 
@@ -59,11 +60,13 @@ story.
 Why the change? CMP-2 looked at injury
 data. Cords pulled off the side of an
 island by a kid or a passing hip were
-not a myth. Hospital visits were in
-the thousands. Optional outlets plus
+not a myth. Optional outlets plus
 tighter locations is the code’s answer.
-It is a safety answer that happens to
-annoy a lot of pretty elevations.
+CMP-2 tied that to hospital-visit counts
+in the thousands [VERIFY count and source
+against NFPA/CMP-2 records for the adopted
+NEC edition]. It is a safety answer that
+happens to annoy a lot of pretty elevations.
 
 Your kitchen may still be under 2020
 or a local amendment that keeps the

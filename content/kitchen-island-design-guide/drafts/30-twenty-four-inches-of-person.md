@@ -4,6 +4,7 @@ slug: twenty-four-inches-of-person
 title: Twenty-four inches of person
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, width, stools]
 ---
 

@@ -4,6 +4,7 @@ slug: usb-and-what-belongs-below
 title: USB, and what belongs below the top
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, usb, charging]
 ---
 
@@ -15,8 +16,8 @@ side-outlet job illegal as counter
 service.
 
 USB-only devices, without a 125-volt
-slot, are the loophole I will use
-carefully. They can live on the
+slot, are an allowance I use only with
+listing and AHJ confirmation. They can live on the
 homework face of a Bradley box,
 below the top, where a kid can
 reach a phone and cannot plug a

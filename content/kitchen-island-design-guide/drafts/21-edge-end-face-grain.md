@@ -4,6 +4,7 @@ slug: edge-end-face-grain
 title: Edge grain, end grain, face grain
 stage: 4-materials
 status: staged
+voice_check: edited
 topics: [materials, butcher-block, grain]
 ---
 

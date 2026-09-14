@@ -4,6 +4,7 @@ slug: what-butcher-shops-taught-us
 title: What butcher shops taught the kitchen
 stage: 2-history
 status: staged
+voice_check: edited
 topics: [history, butcher-block, materials]
 ---
 

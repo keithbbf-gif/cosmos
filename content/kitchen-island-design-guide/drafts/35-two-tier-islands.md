@@ -4,6 +4,7 @@ slug: two-tier-islands
 title: Two-tier islands
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, two-tier, height]
 ---
 
@@ -39,8 +40,9 @@ What I insist on:
 - Power: if the code path wants a
   receptacle serving the work
   surface, the upper tier can host
-  an on-or-above outlet below the
-  20-inch cap. That is one of the
+  an on-or-above outlet within 20 in.
+  above the work surface (210.52(C)(3)).
+  That is one of the
   few remaining clean places after
   2023. Use it on purpose, not as
   an accident.

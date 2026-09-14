@@ -4,6 +4,7 @@ slug: when-seating-is-a-lie
 title: When the seating is a lie
 stage: 5-seating
 status: staged
+voice_check: edited
 topics: [seating, refusal, overhang]
 ---
 

@@ -4,13 +4,15 @@ slug: what-bradley-island-means
 title: What we mean by a Bradley island
 stage: 1-brief
 status: staged
+voice_check: edited
 topics: [bradley, construction, dealer]
 ---
 
 When I say Bradley island I do not mean a rolling cart from a
 warehouse aisle, and I do not mean a European furniture piece that
 arrives in three crates with an Allen key. I mean a run of full-access
-cabinet boxes, built in the U.S. or Canada, sized to the room, set
+cabinet boxes, built in the U.S. or Canada [VERIFY current
+build geography in the dealer book], sized to the room, set
 on a finished floor, and capped with a top we chose on purpose.
 
 Full-access is the old “frameless” story told without the accent.

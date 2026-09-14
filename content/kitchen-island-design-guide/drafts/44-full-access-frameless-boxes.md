@@ -4,6 +4,7 @@ slug: full-access-frameless-boxes
 title: Full-access boxes
 stage: 7-bradley
 status: staged
+voice_check: edited
 topics: [bradley, construction, storage]
 ---
 
@@ -21,7 +22,8 @@ forward. It is a stack of bowls that
 does not need a sideways dance.
 
 The box itself is a 3/4-inch story in
-the current book: ends, tops, bottoms,
+the current book [VERIFY against the current
+dealer book]: ends, tops, bottoms,
 shelves. Confirm the material —
 furniture board with a plywood
 upgrade, or plywood as the day’s

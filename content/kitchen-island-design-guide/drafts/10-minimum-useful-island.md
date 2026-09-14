@@ -4,6 +4,7 @@ slug: minimum-useful-island
 title: The smallest island that still works
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, minimums, prep]
 ---
 
@@ -25,7 +26,7 @@ Add a sink or a cooktop and you jump again. A useful minimum
 with an appliance in the top is about 72 by 36, and that is
 before you honor landing rules. A prep sink is not just the
 cutout. It wants 24 inches of landing on one side and 18 on
-the other, same height, top at least 16 deep. A cooktop wants
+the other, same height, top at least 16 in. deep. A cooktop wants
 12 and 15 beside it and 9 behind if the burners are at the
 same height as the rest of the top. Those landings eat length
 faster than clients expect.

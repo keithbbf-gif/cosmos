@@ -4,6 +4,7 @@ slug: future-provisions
 title: "Future provisions: leave the path"
 stage: 6-electrical
 status: staged
+voice_check: edited
 topics: [electrical, nec, provisions]
 ---
 

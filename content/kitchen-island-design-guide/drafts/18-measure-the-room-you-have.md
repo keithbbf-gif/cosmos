@@ -4,6 +4,7 @@ slug: measure-the-room-you-have
 title: Measure the room you actually have
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, measuring, field]
 ---
 

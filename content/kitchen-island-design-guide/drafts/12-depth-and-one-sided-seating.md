@@ -4,6 +4,7 @@ slug: depth-and-one-sided-seating
 title: Depth, and the one-sided seating math
 stage: 3-proportions
 status: staged
+voice_check: edited
 topics: [proportions, depth, overhang]
 ---
 

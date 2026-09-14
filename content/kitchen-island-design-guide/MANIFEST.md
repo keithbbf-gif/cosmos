@@ -66,4 +66,6 @@ Required brief topics and where they live:
 | 47 | sequence-measure-to-stools | 7-bradley | Sequence: measure, refuse, size, top, power, stools |
 | 48 | aftercare | 7-bradley | Aftercare: oil, stone, and living with it |
 
-Last `tools/check_island_drafts.py` pass: **48 drafts**, **18,791 words**, min **352**, max **472**, unique openings **48/48**, status `OK`.
+Last `tools/check_island_drafts.py` pass: **48 drafts**, **18,987 words**, min **352**, max **520**, unique openings **48/48**, status `OK`.
+
+Editor pass **2026-09-14**: `voice_check: edited` on all drafts; see `EDITOR_REPORT.md`.
