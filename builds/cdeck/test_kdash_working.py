@@ -69,6 +69,15 @@ def main() -> int:
         "CLI POST only",
     )
 
+    check(
+        "SESSIONS: suite POST collects verb path args (not verb-only)",
+        "SUITE_FIELDS" in skit
+        and "session-suite-form" in skit
+        and "bodyFromSuiteForm" in skit
+        and 'apiPost("/api/v1/session_tools", { verb: verb })' not in skit,
+        "session_tools verb args",
+    )
+
     appjs = _read("app.js")
     check(
         "SESSIONS: Recents GET + OPENED card + explicit empty (app.js)",

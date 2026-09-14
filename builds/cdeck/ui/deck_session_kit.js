@@ -17,6 +17,43 @@
   ];
   var AUTOSAVE_MIN = [5, 10, 20, 30];
   var COS_IDS = ["rold", "tidyup", "tu2", "bu"];
+  var SUITE_NAMED = { strip: 1, doi: 1 };
+  var MEASURED_ID = /^(cow-|grok-|ow-)/;
+  var SCAN_MEASURED = { cowork: 1, grok_tui: 1, openwork_native: 1 };
+  /* field: [key, label, required] — matches cosmos_session_tools_kit.run body keys */
+  var SUITE_FIELDS = {
+    scan: [
+      ["store", "catalog store path", true],
+      ["families", "families (comma-separated, optional)", false]
+    ],
+    load: [
+      ["id", "session id (cow-|grok-|ow-)", true],
+      ["store", "store path", true]
+    ],
+    convert: [
+      ["id", "session id", true],
+      ["store", "store path", true],
+      ["out_dir", "out_dir path", true]
+    ],
+    diff: [
+      ["left", "left file path", true],
+      ["right", "right file path", true]
+    ],
+    check: [
+      ["path", "path (or store)", true],
+      ["what", "what (catalog|sqlite|seed|sit)", false]
+    ],
+    anonymize: [
+      ["id", "session id", true],
+      ["store", "store path", true],
+      ["out_dir", "out_dir path", true]
+    ],
+    "crash-recover": [
+      ["target", "target path", true],
+      ["bak", "bak path (optional)", false],
+      ["stage", "stage path (optional)", false]
+    ]
+  };
 
   function $(id) { return document.getElementById(id); }
   function esc(s) {
@@ -36,19 +73,126 @@
     });
     h += "</div>";
     h += '<p class="dim tiny">leftover strip and DOI named are suite panes, not silent polls.</p>';
+    h += '<div class="session-suite-form formrow dim tiny" hidden></div>';
     h += '<pre class="session-suite-say dim tiny" aria-live="polite"></pre></div>';
     host.innerHTML = h;
+    var formEl = host.querySelector(".session-suite-form");
+    var say = sayEl || host.querySelector(".session-suite-say");
     host.querySelectorAll("[data-suite-verb]").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        runSuiteVerb(btn.getAttribute("data-suite-verb"), sayEl || host.querySelector(".session-suite-say"));
+        openSuiteVerb(btn.getAttribute("data-suite-verb"), formEl, say);
       });
     });
   }
 
-  function runSuiteVerb(verb, sayEl) {
+  function suiteSayJson(sayEl, rec) {
+    if (sayEl) sayEl.textContent = JSON.stringify(rec, null, 2);
+  }
+
+  function refuseUnmeasuredScan(familiesRaw, sayEl) {
+    if (!familiesRaw) return false;
+    var parts = String(familiesRaw).split(/[,\s]+/).filter(Boolean);
+    if (!parts.length) return false;
+    var any = parts.some(function (f) { return SCAN_MEASURED[f]; });
+    if (any) return false;
+    suiteSayJson(sayEl, {
+      verb: "scan",
+      kind: "UNMEASURED",
+      gate: {
+        detail: "no measured family in list — adapters not opened this slice",
+        families: parts
+      }
+    });
+    return true;
+  }
+
+  function refuseUnmeasuredId(verb, id, sayEl) {
+    if (!id || MEASURED_ID.test(id)) return false;
+    suiteSayJson(sayEl, {
+      verb: verb,
+      kind: "UNMEASURED",
+      gate: { detail: "id prefix not measured this slice — use cow-, grok-, or ow-", id: id }
+    });
+    return true;
+  }
+
+  function bodyFromSuiteForm(verb, formEl, sayEl) {
+    var fields = SUITE_FIELDS[verb];
+    if (!fields) {
+      suiteSayJson(sayEl, { kind: "BAD_INPUT", error: "verb not wired in UI: " + verb });
+      return null;
+    }
+    var body = { verb: verb };
+    var missing = [];
+    fields.forEach(function (row) {
+      var key = row[0];
+      var req = row[2];
+      var inp = formEl.querySelector('[data-suite-field="' + key + '"]');
+      var val = inp ? String(inp.value || "").trim() : "";
+      if (!val) {
+        if (req) missing.push(key);
+        return;
+      }
+      if (key === "families") {
+        body.families = val.split(/[,\s]+/).filter(Boolean);
+      } else if (key === "what") {
+        body.what = val;
+      } else {
+        body[key] = val;
+      }
+    });
+    if (missing.length) {
+      suiteSayJson(sayEl, {
+        kind: "BAD_INPUT",
+        error: verb + " requires " + missing.join(", ")
+      });
+      return null;
+    }
+    if (verb === "scan" && refuseUnmeasuredScan(
+        body.families ? body.families.join(",") : "", sayEl)) {
+      return null;
+    }
+    if ((verb === "load" || verb === "convert" || verb === "anonymize")
+        && refuseUnmeasuredId(verb, body.id, sayEl)) {
+      return null;
+    }
+    if (verb === "check" && !body.what) body.what = "catalog";
+    return body;
+  }
+
+  function openSuiteVerb(verb, formEl, sayEl) {
     if (!verb) return;
-    if (sayEl) sayEl.textContent = "POST /api/v1/session_tools verb=" + verb + " …";
-    apiPost("/api/v1/session_tools", { verb: verb }).then(function (rec) {
+    if (SUITE_NAMED[verb]) {
+      runSuiteVerb(verb, sayEl, { verb: verb });
+      if (formEl) formEl.hidden = true;
+      return;
+    }
+    var fields = SUITE_FIELDS[verb];
+    if (!fields || !formEl) {
+      suiteSayJson(sayEl, { kind: "UNMEASURED", error: "verb not wired: " + verb });
+      return;
+    }
+    var h = '<span class="dim tiny">verb=' + esc(verb) + "</span>";
+    fields.forEach(function (row) {
+      h += '<label>' + esc(row[1]) + ' <input type="text" data-suite-field="' +
+        esc(row[0]) + '" autocomplete="off"></label>';
+    });
+    h += '<button type="button" class="session-suite-run">RUN</button>';
+    formEl.innerHTML = h;
+    formEl.hidden = false;
+    formEl.querySelector(".session-suite-run").addEventListener("click", function () {
+      var body = bodyFromSuiteForm(verb, formEl, sayEl);
+      if (body) runSuiteVerb(verb, sayEl, body);
+    });
+  }
+
+  function runSuiteVerb(verb, sayEl, body) {
+    if (!verb) return;
+    body = body || { verb: verb };
+    if (sayEl) {
+      sayEl.textContent = "POST /api/v1/session_tools " + JSON.stringify(body) + " …";
+    }
+    apiPost("/api/v1/session_tools", body).then(function (rec) {
       if (sayEl) sayEl.textContent = JSON.stringify(rec, null, 2);
     }).catch(function (e) {
       if (sayEl) sayEl.textContent = String((e && e.message) || e);
