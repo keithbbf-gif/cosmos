@@ -53,7 +53,7 @@ Do not hang these under `/services/` or `/blog/coupons/`.
 | `stage: draft` | WP status **Draft** on first import |
 | `audience: slpwow` | unused publicly |
 
-Strip the YAML before the post body. Do not print `voice_check: human` on the site.
+Strip the YAML before the post body. Do not print `voice_check` or `voice_check_date` on the site.
 
 ## Markdown → blocks
 

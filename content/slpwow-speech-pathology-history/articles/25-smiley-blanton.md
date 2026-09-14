@@ -7,7 +7,8 @@ tags: [speech-pathology-history, blanton, wisconsin, psychiatry, speech-clinic]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1882–1966"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

@@ -7,7 +7,8 @@ tags: [speech-pathology-history, aphasia, wernicke, neurology]
 portrait: assets/portraits/carl-wernicke.jpg
 portrait_status: downloaded
 figure_dates: "1848–1905"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

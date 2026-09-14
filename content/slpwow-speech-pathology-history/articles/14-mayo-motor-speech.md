@@ -6,7 +6,8 @@ type: era
 tags: [speech-pathology-history, mayo-clinic, dysarthria, darley, aronson]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---
@@ -39,6 +40,6 @@ The method has limits the 1969 papers could not see. Perceptual ratings drift. D
 
 ## Darley’s year
 
-A 2000 cleft-palate state-of-the-art paper dedicated its pages to four men who had died close together: H. Harlan Bloomer (1908–1999), Frederic L. Darley (1918–1999), Clark Starr, Willard Zemlin. The dates for Darley in that dedication and in the 2001 memorial are the dates this pack uses. A newspaper obituary was not under our hand. The field’s own memorials will have to stand until one is.
+A 2000 cleft-palate state-of-the-art paper dedicated its pages to four men who had died close together: H. Harlan Bloomer (1908–1999), Frederic L. Darley (1918–1999), Clark Starr, Willard Zemlin. The dates for Darley in that dedication and in the 2001 memorial are the dates this pack uses. A newspaper obituary was not in hand when this pack was staged. The field’s own memorials will have to stand until one is.
 
 **Further in this series.** Darley (36). Bloomer (31), who had been listening to palates at Michigan since the 1940s. Iowa, where Darley started (essay 07).

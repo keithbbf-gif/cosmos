@@ -6,7 +6,8 @@ type: era
 tags: [speech-pathology-history, communication-sciences, textbooks, fairbanks]
 portrait: null
 portrait_status: essay-only
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---
@@ -48,7 +49,7 @@ The 1947 association name already admitted hearing. Clinical audiology then buil
 
 ## What got lost in the rename
 
-“Correction” was arrogant. It also named an activity: a teacher and a pupil, a sound, a retry. “Communication sciences” can sound like a research park. The risk of the later name is not kindness. It is distance — from the school room, from the hour, from the fact that someone still has to sit there.
+“Correction” was arrogant. It also named an activity: a teacher and a pupil, a sound, a retry. “Communication sciences” can sound like a research park. The risk of the later name is not kindness. It is distance — from the schoolroom, from the hour, from the fact that someone still has to sit there.
 
 Van Riper, to his credit, never became distant. The later editions keep the person in the chair. Brookshire’s writing manuals for graduate students are the same ethic in a different font: say what you saw, do not decorate it.
 

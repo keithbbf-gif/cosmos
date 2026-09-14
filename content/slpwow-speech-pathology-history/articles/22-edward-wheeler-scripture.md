@@ -7,7 +7,8 @@ tags: [speech-pathology-history, scripture, yale, phonetics, speech-clinic]
 portrait: assets/portraits/edward-wheeler-scripture.jpg
 portrait_status: downloaded
 figure_dates: "1864–1945"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

@@ -7,7 +7,8 @@ tags: [speech-pathology-history, luria, aphasia, neuropsychology, soviet-union]
 portrait: assets/portraits/aleksandr-luria.jpg
 portrait_status: downloaded
 figure_dates: "1902–1977"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

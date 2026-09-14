@@ -7,7 +7,8 @@ tags: [speech-pathology-history, mcdonald, cleft-palate, penn-state, articulatio
 portrait: null
 portrait_status: placeholder
 figure_dates: "b. 1916; death date not found"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

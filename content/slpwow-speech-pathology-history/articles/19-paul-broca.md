@@ -7,7 +7,8 @@ tags: [speech-pathology-history, aphasia, broca, neurology]
 portrait: assets/portraits/paul-broca.jpg
 portrait_status: downloaded
 figure_dates: "1824–1880"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

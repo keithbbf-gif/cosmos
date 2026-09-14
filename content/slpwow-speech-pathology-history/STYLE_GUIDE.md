@@ -49,13 +49,14 @@ tags: [speech-pathology-history, ...]
 portrait: assets/portraits/slug.jpg | null
 portrait_status: downloaded | placeholder | essay-only
 figure_dates: "1885–1977"   # profiles only; omit if unknown
-voice_check: human
+voice_check: human | edited
+voice_check_date: YYYY-MM-DD   # when voice_check is edited
 audience: slpwow
 stage: draft
 ---
 ```
 
-`voice_check: human` is an editorial flag, not a boast. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
+`voice_check: human` is a writer flag; `voice_check: edited` means an EDITOR pass cleared voice and grammar. Neither prints on the live site. If a draft starts sounding like a model, rewrite the first paragraph before anything else.
 
 ## Claims and caution
 

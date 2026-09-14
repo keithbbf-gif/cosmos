@@ -6,7 +6,8 @@ type: era
 tags: [speech-pathology-history, britain, rcslt, fogerty, morley, greene]
 portrait: assets/portraits/elsie-fogerty.png
 portrait_status: downloaded
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

@@ -7,7 +7,8 @@ tags: [speech-pathology-history, fogerty, britain, central-school, speech-therap
 portrait: assets/portraits/elsie-fogerty.png
 portrait_status: downloaded
 figure_dates: "1865–1945"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

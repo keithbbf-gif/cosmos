@@ -7,7 +7,8 @@ tags: [speech-pathology-history, van-riper, stuttering, western-michigan]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1905–1994"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

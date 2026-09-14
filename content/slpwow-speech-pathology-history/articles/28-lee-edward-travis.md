@@ -7,7 +7,8 @@ tags: [speech-pathology-history, travis, iowa, stuttering, asha]
 portrait: null
 portrait_status: placeholder
 figure_dates: "1896–1987"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

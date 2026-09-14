@@ -7,7 +7,8 @@ tags: [speech-pathology-history, brookshire, aphasia, minneapolis-va]
 portrait: null
 portrait_status: placeholder
 figure_dates: "dates incomplete; retired 1997"
-voice_check: human
+voice_check: edited
+voice_check_date: 2026-09-14
 audience: slpwow
 stage: draft
 ---

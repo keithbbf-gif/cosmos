@@ -4,7 +4,7 @@ Staged series for **SLPWOW.com**. Pack path: `content/slpwow-speech-pathology-hi
 
 **Host note.** SLPWOW is Keith’s wife’s speech-language pathology brand (WOW Therapies). These essays and profiles are magazine copy for a later WordPress import. See `WP_IMPORT.md`.
 
-**Voice check.** Every article carries `voice_check: human`. House rules: `STYLE_GUIDE.md`.
+**Voice check.** Every article carries `voice_check: edited` (pass date 2026-09-14). House rules: `STYLE_GUIDE.md`. Editor log: `EDITOR_REPORT.md`.
 
 **Graphics.** Seed SVGs and pending portrait plates live under `assets/` and `embeds/`. See `GRAPHICS_CHECKLIST.md`.
 
