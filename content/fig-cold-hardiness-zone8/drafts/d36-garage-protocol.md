@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [pots, garage]
+figures:
+  - id: zone8a.d36.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (The unheated garage protocol)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "garage line — dormant, barely moist"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (The unheated garage protocol)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. The unheated garage protocol. Staged stand-in (zone8a.d36.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — garage line — dormant, barely moist. See RIGHTS.md.</figcaption>
+</figure>
 
 The garage is not a greenhouse. That is why it
 works. I want a place that stays mostly 30–45°F,

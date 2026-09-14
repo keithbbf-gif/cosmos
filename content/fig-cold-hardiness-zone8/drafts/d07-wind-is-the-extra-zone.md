@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, wind, microclimate]
+figures:
+  - id: zone8a.d07.fig-dormant-canopy-pajara-02
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Wind is the extra zone)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "wind-exposed cane on the north side"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Wind is the extra zone)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Wind is the extra zone. Staged stand-in (zone8a.d07.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — wind-exposed cane on the north side. See RIGHTS.md.</figcaption>
+</figure>
 
 The thermometer on the shaded porch said 13°F. The fig in the open was living
 a colder life than that. Wind does not always drop the air temperature on a

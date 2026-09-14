@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, breba, main-crop]
+figures:
+  - id: zone8a.d05.ficus-carica-canopy
+    file: ../assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (Breba is a bonus you lose when wood dies)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "breba-sized fruit still on leafed wood"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-canopy.jpg" alt="Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (Breba is a bonus you lose when wood dies)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Breba is a bonus you lose when wood dies. Staged stand-in (zone8a.d05.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Fig Fruit — breba-sized fruit still on leafed wood. See RIGHTS.md.</figcaption>
+</figure>
 
 Figs can make two crops. The early one, the breba, sits on last year's wood.
 The main crop sits on this year's wood. That sentence is the whole reason

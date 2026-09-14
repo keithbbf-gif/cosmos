@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [wrapping, evidence]
+figures:
+  - id: zone8a.d50.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (How to tell if last year's wrap helped)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "before/after wrap comparison two winters"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (How to tell if last year's wrap helped)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. How to tell if last year's wrap helped. Staged stand-in (zone8a.d50.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — before/after wrap comparison two winters. See RIGHTS.md.</figcaption>
+</figure>
 
 I used to wrap, survive, and credit
 the wrap. That is a story, not a

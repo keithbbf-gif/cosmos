@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [in-ground, pots]
+figures:
+  - id: zone8a.d46.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Two plants, two winters — yard fig and patio fig)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "yard fig vs patio pot policy"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Two plants, two winters — yard fig and patio fig)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Two plants, two winters — yard fig and patio fig. Staged stand-in (zone8a.d46.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — yard fig vs patio pot policy. See RIGHTS.md.</figcaption>
+</figure>
 
 I used to treat every fig as the same
 assignment. That is how the patio plant

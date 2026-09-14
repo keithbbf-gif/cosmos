@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping, timing]
+figures:
+  - id: zone8a.d22.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (When to wrap — October is usually wrong)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "dormant wood ready — leaves off before the coat"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (When to wrap — October is usually wrong)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. When to wrap — October is usually wrong. Staged stand-in (zone8a.d22.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — dormant wood ready — leaves off before the coat. See RIGHTS.md.</figcaption>
+</figure>
 
 The urge to wrap arrives on the first cool weekend, when the
 leaves are still green and the garden centers have put out

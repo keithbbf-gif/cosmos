@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [first-year, cold-hardiness]
+figures:
+  - id: zone8a.d18.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (First-year trees have not earned the zone)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "first-year #3 before its first real winter"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (First-year trees have not earned the zone)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. First-year trees have not earned the zone. Staged stand-in (zone8a.d18.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — first-year #3 before its first real winter. See RIGHTS.md.</figcaption>
+</figure>
 
 An established fig in 8a and a stick you planted in May are not the
 same species as far as January is concerned. The established plant

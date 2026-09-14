@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [zone-9, wrapping]
+figures:
+  - id: zone8a.d32.ficus-carica-canopy
+    file: ../assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (Zone 9 — wrapping as injury)"
+    figs_pick: "D:\FIGS\Figs-summer-23"
+    figs_note: "Zone 9 tree that should not stay wrapped"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-canopy.jpg" alt="Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (Zone 9 — wrapping as injury)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 9 — wrapping as injury. Staged stand-in (zone8a.d32.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs-summer-23 — Zone 9 tree that should not stay wrapped. See RIGHTS.md.</figcaption>
+</figure>
 
 Zone 9a averages an extreme minimum in the 20–25°F
 band. That is a citrus night, not a fig funeral. A

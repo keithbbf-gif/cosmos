@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, zone-8a]
+figures:
+  - id: zone8a.d01.usda-phzm-southeast
+    file: ../assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (Zone 8a is the in-between)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "yard context showing inland 8a cold pocket"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-phzm-southeast.jpg" alt="USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (Zone 8a is the in-between)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 8a is the in-between. Staged stand-in (zone8a.d01.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — yard context showing inland 8a cold pocket. See RIGHTS.md.</figcaption>
+</figure>
 
 Zone 8a is where fig people get cocky and then get surprised. The map says the
 average annual extreme minimum sits between 10 and 15°F. That is not fig country

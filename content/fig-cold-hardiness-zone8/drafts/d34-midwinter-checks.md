@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping, midwinter]
+figures:
+  - id: zone8a.d34.fig-dormant-canopy-pajara-03
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig canopy without leaves — Zone 8a midwinter inspection (Midwinter checks without undoing the wrap)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "midwinter check — mice, ice, loose cloth"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig canopy without leaves — Zone 8a midwinter inspection (Midwinter checks without undoing the wrap)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Midwinter checks without undoing the wrap. Staged stand-in (zone8a.d34.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — midwinter check — mice, ice, loose cloth. See RIGHTS.md.</figcaption>
+</figure>
 
 The worst thing you can do to a decent wrap is
 love it every Saturday. Peeking dumps the warm,

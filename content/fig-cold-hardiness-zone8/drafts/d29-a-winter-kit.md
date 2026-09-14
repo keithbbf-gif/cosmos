@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping, materials]
+figures:
+  - id: zone8a.d29.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (A winter kit that is not a gadget drawer)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "winter kit staged on the porch"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (A winter kit that is not a gadget drawer)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. A winter kit that is not a gadget drawer. Staged stand-in (zone8a.d29.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — winter kit staged on the porch. See RIGHTS.md.</figcaption>
+</figure>
 
 I used to buy fig winter gadgets. I now buy materials
 that have a summer job too.

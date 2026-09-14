@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, cold-hardiness]
+figures:
+  - id: zone8a.d14.ficus-carica-bark
+    file: ../assets/images/shared/ficus-carica-bark.jpg
+    alt: "Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (The ones that sulk in 8a)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "sulking variety with thin winter bark"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-bark.jpg" alt="Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (The ones that sulk in 8a)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. The ones that sulk in 8a. Staged stand-in (zone8a.d14.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — sulking variety with thin winter bark. See RIGHTS.md.</figcaption>
+</figure>
 
 I have a soft spot for figs that do not belong here. That soft spot has
 cost me wood, pots, and one entire spring of pretending a Mission was

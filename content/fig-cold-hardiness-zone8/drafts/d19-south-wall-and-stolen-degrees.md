@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [microclimate, siting]
+figures:
+  - id: zone8a.d19.ficus-carica-canopy
+    file: ../assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (South walls, brick, and stolen degrees)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "south-wall fig stealing degrees"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-canopy.jpg" alt="Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (South walls, brick, and stolen degrees)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. South walls, brick, and stolen degrees. Staged stand-in (zone8a.d19.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — south-wall fig stealing degrees. See RIGHTS.md.</figcaption>
+</figure>
 
 The best wrap I own is a wall I did not build. South or southwest
 masonry collects the day and leaks it back at night. It kills the

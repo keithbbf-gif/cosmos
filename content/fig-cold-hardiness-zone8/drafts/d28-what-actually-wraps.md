@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping, training]
+figures:
+  - id: zone8a.d28.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Split-trunk and multi-stem — what actually wraps)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "layers: cloth, leaves, hat — open bottom"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Split-trunk and multi-stem — what actually wraps)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Split-trunk and multi-stem — what actually wraps. Staged stand-in (zone8a.d28.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — layers: cloth, leaves, hat — open bottom. See RIGHTS.md.</figcaption>
+</figure>
 
 A fig you trained as a single tall trunk is a flagpole. A
 fig you let become a stool of six canes is a bundle. I

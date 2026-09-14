@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [pots, burying]
+figures:
+  - id: zone8a.d37.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Burying the pot)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "pot buried to the rim in mulch"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Burying the pot)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Burying the pot. Staged stand-in (zone8a.d37.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — pot buried to the rim in mulch. See RIGHTS.md.</figcaption>
+</figure>
 
 If I cannot get a pot into a garage, I can still
 give it a fake in-ground winter. I dig a hole

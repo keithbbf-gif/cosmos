@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [calendar, wrapping, pots]
+figures:
+  - id: zone8a.d48.usda-phzm-southeast
+    file: ../assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (A year on the wall — September to April)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "season calendar pinned near the tools"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-phzm-southeast.jpg" alt="USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (A year on the wall — September to April)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. A year on the wall — September to April. Staged stand-in (zone8a.d48.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — season calendar pinned near the tools. See RIGHTS.md.</figcaption>
+</figure>
 
 I do not run figs on a pretty calendar
 with icons. I run them on a few

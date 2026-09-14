@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, usda-zones]
+figures:
+  - id: zone8a.d02.usda-phzm-southeast
+    file: ../assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (The zone number is an average, not a promise)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "min–max thermometer beside the shed"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-phzm-southeast.jpg" alt="USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (The zone number is an average, not a promise)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. The zone number is an average, not a promise. Staged stand-in (zone8a.d02.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — min–max thermometer beside the shed. See RIGHTS.md.</figcaption>
+</figure>
 
 USDA zones are built from the average annual extreme minimum. Read that again,
 slower. Average. Annual extreme. Minimum. It is not the coldest night that will

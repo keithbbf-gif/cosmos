@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping]
+figures:
+  - id: zone8a.d30.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Kids, dogs, and wraps that leave)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "runaway wrap torn by dogs — repair shot"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Kids, dogs, and wraps that leave)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Kids, dogs, and wraps that leave. Staged stand-in (zone8a.d30.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — runaway wrap torn by dogs — repair shot. See RIGHTS.md.</figcaption>
+</figure>
 
 I wrapped a fig beautifully once. By morning the tarp
 was in the neighbor's yaupon and the dog had pulled a

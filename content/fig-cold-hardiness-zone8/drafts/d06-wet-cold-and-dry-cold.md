@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, humidity, wrapping]
+figures:
+  - id: zone8a.d06.ficus-carica-bark
+    file: ../assets/images/shared/ficus-carica-bark.jpg
+    alt: "Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (Wet cold and dry cold are not the same winter)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "wet bark after a cold rain — no sealed plastic"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-bark.jpg" alt="Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (Wet cold and dry cold are not the same winter)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. Wet cold and dry cold are not the same winter. Staged stand-in (zone8a.d06.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\More Fig Pictures — wet bark after a cold rain — no sealed plastic. See RIGHTS.md.</figcaption>
+</figure>
 
 I have had 14°F in a dry wind that left the fig sulking but intact, and 18°F
 in a week of sopping cold that marked wood I thought was safe. The

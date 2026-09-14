@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [water, dormancy]
+figures:
+  - id: zone8a.d35.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Watering into dormancy, and the dry-root freeze)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "last drink before dormancy — dry pot weight"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Watering into dormancy, and the dry-root freeze)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Watering into dormancy, and the dry-root freeze. Staged stand-in (zone8a.d35.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — last drink before dormancy — dry pot weight. See RIGHTS.md.</figcaption>
+</figure>
 
 A fig that goes into a freeze drunk on August
 water and late nitrogen is soft. A fig that

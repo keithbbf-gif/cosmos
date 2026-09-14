@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping, tip-and-bury]
+figures:
+  - id: zone8a.d25.fig-dormant-canopy-pajara-02
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Tip and bury — when 8a still needs a Zone 6 trick)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "tip-and-lay branch under soil mound"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Tip and bury — when 8a still needs a Zone 6 trick)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Tip and bury — when 8a still needs a Zone 6 trick. Staged stand-in (zone8a.d25.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — tip-and-lay branch under soil mound. See RIGHTS.md.</figcaption>
+</figure>
 
 Laying a fig down and covering it with soil is the old
 northern method. You prune to a flexible framework, bend

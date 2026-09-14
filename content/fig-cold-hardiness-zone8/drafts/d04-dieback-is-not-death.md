@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, dieback, recovery]
+figures:
+  - id: zone8a.d04.fig-dormant-canopy-pajara-01
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (Dieback is not death)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "dieback height after a hard 8a night"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (Dieback is not death)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Dieback is not death. Staged stand-in (zone8a.d04.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — dieback height after a hard 8a night. See RIGHTS.md.</figcaption>
+</figure>
 
 The first bad March I had with figs, I almost dug the plant. It looked like I
 had installed a coat rack. No buds swelling. Bark dull. I kicked the mulch,

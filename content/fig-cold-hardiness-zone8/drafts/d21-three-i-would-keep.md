@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties]
+figures:
+  - id: zone8a.d21.usda-pom-celeste-1911
+    file: ../assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Three I would plant if I could only keep three)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "three keepers after a normal 8a winter"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-celeste-1911.jpg" alt="Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Three I would plant if I could only keep three)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Three I would plant if I could only keep three. Staged stand-in (zone8a.d21.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Figs — three keepers after a normal 8a winter. See RIGHTS.md.</figcaption>
+</figure>
 
 If the place burned and I could carry three figs out of 8a, I
 would not take the rarest. I would take the ones that still

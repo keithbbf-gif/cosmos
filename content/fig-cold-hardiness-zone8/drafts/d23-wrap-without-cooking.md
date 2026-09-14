@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [wrapping]
+figures:
+  - id: zone8a.d23.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (How to wrap an in-ground fig without cooking it)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "wrap that breathes — no sealed plastic tent"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (How to wrap an in-ground fig without cooking it)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. How to wrap an in-ground fig without cooking it. Staged stand-in (zone8a.d23.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — wrap that breathes — no sealed plastic tent. See RIGHTS.md.</figcaption>
+</figure>
 
 A good wrap is a coat with cuffs you can loosen. A bad wrap is
 a bag. I have built both. The bag makes you feel like you did

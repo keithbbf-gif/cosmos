@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [late-frost, crop]
+figures:
+  - id: zone8a.d45.fig-dormant-canopy-pajara-03
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig canopy without leaves — Zone 8a midwinter inspection (Late frost after leaf-out)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "late frost after leaf-out — cover staged"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig canopy without leaves — Zone 8a midwinter inspection (Late frost after leaf-out)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Late frost after leaf-out. Staged stand-in (zone8a.d45.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — late frost after leaf-out — cover staged. See RIGHTS.md.</figcaption>
+</figure>
 
 The January low is the one we train for.
 The April frost is the one that takes

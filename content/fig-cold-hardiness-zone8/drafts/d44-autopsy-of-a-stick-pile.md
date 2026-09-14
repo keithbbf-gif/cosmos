@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [autopsy, dieback]
+figures:
+  - id: zone8a.d44.usda-pom-winter-cutting
+    file: ../assets/images/shared/usda-pom-winter-cutting.jpg
+    alt: "USDA Zone 8a fig cold hardiness — dormant fig cutting and winter twig (USDA pomology plate) (Autopsy of a stick pile)"
+    figs_pick: "D:\FIGS\Damaged Cuttings"
+    figs_note: "stick autopsy on the bench"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-winter-cutting.jpg" alt="USDA Zone 8a fig cold hardiness — dormant fig cutting and winter twig (USDA pomology plate) (Autopsy of a stick pile)" width="2707" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Autopsy of a stick pile. Staged stand-in (zone8a.d44.usda-pom-winter-cutting); USDA NAL Pomological Watercolor POM00001042, J. Marion Shull, PD. Prefer publish photo from D:\FIGS\Damaged Cuttings — stick autopsy on the bench. See RIGHTS.md.</figcaption>
+</figure>
 
 When a fig is sticks, I want a story that
 makes me innocent. Variety. Polar vortex.

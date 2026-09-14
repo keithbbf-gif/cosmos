@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, cold-hardiness]
+figures:
+  - id: zone8a.d09.usda-pom-celeste-1911
+    file: ../assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Catalog hardy and yard hardy)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "catalog tag next to real winter wood"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-celeste-1911.jpg" alt="Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Catalog hardy and yard hardy)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Catalog hardy and yard hardy. Staged stand-in (zone8a.d09.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Labels — catalog tag next to real winter wood. See RIGHTS.md.</figcaption>
+</figure>
 
 "Hardy to Zone 7" on a website means a person in marketing looked at other
 websites. Sometimes there is a real trial behind it. Sometimes there is a

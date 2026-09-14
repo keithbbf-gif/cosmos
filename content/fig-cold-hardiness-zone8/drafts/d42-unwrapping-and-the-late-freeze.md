@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [unwrapping, late-freeze]
+figures:
+  - id: zone8a.d42.fig-dormant-canopy-pajara-02
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-02.jpg
+    alt: "Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Unwrapping and the late freeze)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "unwrap day with late-freeze cloth ready"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-02.jpg" alt="Dormant fig tree silhouette — Zone 8a unwrap and spring frost watch (Unwrapping and the late freeze)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Unwrapping and the late freeze. Staged stand-in (zone8a.d42.fig-dormant-canopy-pajara-02); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — unwrap day with late-freeze cloth ready. See RIGHTS.md.</figcaption>
+</figure>
 
 Taking the coat off is how you lose the
 wood you kept, if you do it like a person

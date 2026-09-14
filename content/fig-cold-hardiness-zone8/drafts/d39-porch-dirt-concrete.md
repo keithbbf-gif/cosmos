@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [pots, siting]
+figures:
+  - id: zone8a.d39.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Porch, dirt, concrete — where the pot stands)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "porch concrete vs soil line"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Porch, dirt, concrete — where the pot stands)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Porch, dirt, concrete — where the pot stands. Staged stand-in (zone8a.d39.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — porch concrete vs soil line. See RIGHTS.md.</figcaption>
+</figure>
 
 I can change a pot's winter by moving it six
 feet and not changing anything else.

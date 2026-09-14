@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [pots, roots]
+figures:
+  - id: zone8a.d38.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Pot size and freeze-through time)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "large pot vs #3 freeze-through"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Pot size and freeze-through time)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Pot size and freeze-through time. Staged stand-in (zone8a.d38.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — large pot vs #3 freeze-through. See RIGHTS.md.</figcaption>
+</figure>
 
 A three-gallon fig is a popsicle waiting for
 hours, not days. A twenty-gallon fig is a

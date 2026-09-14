@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: spring
 topics: [pruning, dieback]
+figures:
+  - id: zone8a.d43.usda-pom-winter-cutting
+    file: ../assets/images/shared/usda-pom-winter-cutting.jpg
+    alt: "USDA Zone 8a fig cold hardiness — dormant fig cutting and winter twig (USDA pomology plate) (Do not prune on panic in March)"
+    figs_pick: "D:\FIGS\Damaged Cuttings"
+    figs_note: "do not panic-prune — mark live wood"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-winter-cutting.jpg" alt="USDA Zone 8a fig cold hardiness — dormant fig cutting and winter twig (USDA pomology plate) (Do not prune on panic in March)" width="2707" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Do not prune on panic in March. Staged stand-in (zone8a.d43.usda-pom-winter-cutting); USDA NAL Pomological Watercolor POM00001042, J. Marion Shull, PD. Prefer publish photo from D:\FIGS\Damaged Cuttings — do not panic-prune — mark live wood. See RIGHTS.md.</figcaption>
+</figure>
 
 March wood is a liar and a sleeper. I have
 cut a fig to the dirt because I was tired

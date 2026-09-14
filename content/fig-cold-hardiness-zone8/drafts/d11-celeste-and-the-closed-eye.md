@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, celeste]
+figures:
+  - id: zone8a.d11.usda-pom-celeste-1911
+    file: ../assets/images/shared/usda-pom-celeste-1911.jpg
+    alt: "Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Celeste and the closed eye)"
+    figs_pick: "D:\FIGS\Fig Fruit"
+    figs_note: "closed-eye Celeste-class fruit if labeling is honest"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-celeste-1911.jpg" alt="Zone 8a winter fig variety — Celeste pomological watercolor (hardy common type) (Celeste and the closed eye)" width="2659" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Celeste and the closed eye. Staged stand-in (zone8a.d11.usda-pom-celeste-1911); USDA NAL POM00007441 (Celeste), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Fruit — closed-eye Celeste-class fruit if labeling is honest. See RIGHTS.md.</figcaption>
+</figure>
 
 Celeste is the fig I actually want to eat in a humid 8a. Small. Skin
 bronze to purple. Pulp pink. Honey-sweet without the jammy weight that

@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [in-ground, pots]
+figures:
+  - id: zone8a.d17.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (In-ground versus pot is a decision, not a team)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "in-ground vs pot side-by-side"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (In-ground versus pot is a decision, not a team)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. In-ground versus pot is a decision, not a team. Staged stand-in (zone8a.d17.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — in-ground vs pot side-by-side. See RIGHTS.md.</figcaption>
+</figure>
 
 People pick a side. In-ground people talk about "real plants" and
 show you a trunk. Pot people talk about control and show you a

@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [raised-beds, in-ground, pots]
+figures:
+  - id: zone8a.d20.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Raised beds are neither pot nor ground)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "raised-bed pot that still freezes at the rim"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (Raised beds are neither pot nor ground)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. Raised beds are neither pot nor ground. Staged stand-in (zone8a.d20.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — raised-bed pot that still freezes at the rim. See RIGHTS.md.</figcaption>
+</figure>
 
 I planted a fig in a pretty raised bed because the yard was a
 sheet of water in February and I wanted drainage. I got drainage.

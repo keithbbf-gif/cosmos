@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [in-ground, cold-hardiness]
+figures:
+  - id: zone8a.d15.fig-dormant-canopy-pajara-01
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (In-ground, the earth is the blanket)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "in-ground stool with crown mulch"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (In-ground, the earth is the blanket)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. In-ground, the earth is the blanket. Staged stand-in (zone8a.d15.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — in-ground stool with crown mulch. See RIGHTS.md.</figcaption>
+</figure>
 
 The reason I put figs in the dirt, if I can, is not romance. It is
 thermal mass. A couple of feet of soil does not care about your

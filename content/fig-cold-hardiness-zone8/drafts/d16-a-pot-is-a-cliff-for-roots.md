@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: containers
 topics: [pots, roots, cold-hardiness]
+figures:
+  - id: zone8a.d16.fig-potted-tree-la-figuera
+    file: ../assets/images/shared/fig-potted-tree-la-figuera.jpg
+    alt: "Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (A pot is a cliff for roots)"
+    figs_pick: "D:\FIGS\Greenhouse photos"
+    figs_note: "pot rim freeze line on dormant wood"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-potted-tree-la-figuera.jpg" alt="Potted Ficus carica winter storage — Zone 8a garage and freeze-at-rim risk (A pot is a cliff for roots)" width="2816" height="2112" loading="lazy" decoding="async">
+<figcaption>Figure 1. A pot is a cliff for roots. Staged stand-in (zone8a.d16.fig-potted-tree-la-figuera); Photo: Archaeodontosaurus, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Greenhouse photos — pot rim freeze line on dormant wood. See RIGHTS.md.</figcaption>
+</figure>
 
 A pot looks like a small garden. In January it is a cliff. The roots
 are standing in the air, on every side, with only a half-inch of

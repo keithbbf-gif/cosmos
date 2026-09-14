@@ -26,6 +26,14 @@ keep wood:
 
 A manifest lives in `_manifest.toml`. Drafts live in `drafts/`.
 
+## Graphics (staged)
+
+Each draft carries `figures:` front matter plus one SEO `<figure>` (alt + caption). Cleared USDA/extension/CC stand-ins live under `assets/images/shared/`; **`RIGHTS.md`** is the licence ledger. **`PHOTO_NOTES.md`** lists `D:\FIGS` folders to replace stand-ins at publish. Index: **`GRAPHICS_INDEX.md`**.
+
+```bash
+python3 content/fig-cold-hardiness-zone8/validate.py
+```
+
 ## Voice
 
 First person, a yard in 8a, neighbors in 7 and 9. Specific temperatures. Opinions

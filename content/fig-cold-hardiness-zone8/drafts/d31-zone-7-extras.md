@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [zone-7, wrapping]
+figures:
+  - id: zone8a.d31.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Zone 7 extras that 8a people skip)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "Zone 7-style cage taller than an 8a stool needs"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (Zone 7 extras that 8a people skip)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. Zone 7 extras that 8a people skip. Staged stand-in (zone8a.d31.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — Zone 7-style cage taller than an 8a stool needs. See RIGHTS.md.</figcaption>
+</figure>
 
 When I talk to Zone 7 growers I borrow three extras I
 do not use every year in 8a, and I try not to pretend

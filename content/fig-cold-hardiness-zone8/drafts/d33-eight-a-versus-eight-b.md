@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [zone-8a, zone-8b]
+figures:
+  - id: zone8a.d33.usda-phzm-southeast
+    file: ../assets/images/shared/usda-phzm-southeast.jpg
+    alt: "USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (8a versus 8b — five degrees of attitude)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "8a vs 8b yard comparison if both exist"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-phzm-southeast.jpg" alt="USDA Zone 8a fig cold hardiness — Southeast USDA Plant Hardiness Zone Map for 10–15°F winter planning (8a versus 8b — five degrees of attitude)" width="3300" height="2550" loading="lazy" decoding="async">
+<figcaption>Figure 1. 8a versus 8b — five degrees of attitude. Staged stand-in (zone8a.d33.usda-phzm-southeast); USDA Plant Hardiness Zone Map (Southeast), PD. Prefer publish photo from D:\FIGS\Figs — 8a vs 8b yard comparison if both exist. See RIGHTS.md.</figcaption>
+</figure>
 
 Eight-b is 15–20°F on the average extreme. Eight-a
 is 10–15°F. Five degrees. It does not sound like a

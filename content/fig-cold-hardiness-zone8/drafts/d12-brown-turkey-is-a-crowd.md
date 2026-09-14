@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, brown-turkey]
+figures:
+  - id: zone8a.d12.usda-pom-magnolia-1913
+    file: ../assets/images/shared/usda-pom-magnolia-1913.jpg
+    alt: "Eastern hardy fig type — Magnolia cultivar plate for Zone 7–8a siting (Brown Turkey is a crowd of plants)"
+    figs_pick: "D:\FIGS\Fig Labels"
+    figs_note: "Brown Turkey look-alike wood in winter"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-magnolia-1913.jpg" alt="Eastern hardy fig type — Magnolia cultivar plate for Zone 7–8a siting (Brown Turkey is a crowd of plants)" width="2625" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Brown Turkey is a crowd of plants. Staged stand-in (zone8a.d12.usda-pom-magnolia-1913); USDA NAL POM00001043 (Magnolia), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Fig Labels — Brown Turkey look-alike wood in winter. See RIGHTS.md.</figcaption>
+</figure>
 
 If I had a dollar for every Brown Turkey that was not the Brown Turkey the
 seller meant, I could buy a decent roll of burlap. The name is a filing

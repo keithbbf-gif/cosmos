@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, lsu]
+figures:
+  - id: zone8a.d13.ficus-carica-canopy
+    file: ../assets/images/shared/ficus-carica-canopy.jpg
+    alt: "Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (LSU figs were bred for a wet South)"
+    figs_pick: "D:\FIGS\Figs-summer-23"
+    figs_note: "LSU-type canopy before first real freeze"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-canopy.jpg" alt="Ficus carica canopy — leaf-on context for Zone 8a breba and late-season cold (LSU figs were bred for a wet South)" width="2848" height="4288" loading="lazy" decoding="async">
+<figcaption>Figure 1. LSU figs were bred for a wet South. Staged stand-in (zone8a.d13.ficus-carica-canopy); Photo: Alvesgaspar, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs-summer-23 — LSU-type canopy before first real freeze. See RIGHTS.md.</figcaption>
+</figure>
 
 Louisiana State University did not breed figs so a person in a dry Zone 6
 could win a Facebook argument. They bred them for heat, humidity, and a

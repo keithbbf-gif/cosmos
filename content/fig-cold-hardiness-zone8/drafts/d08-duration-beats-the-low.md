@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, duration]
+figures:
+  - id: zone8a.d08.fig-dormant-canopy-pajara-03
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-03.jpg
+    alt: "Winter fig canopy without leaves — Zone 8a midwinter inspection (How long the cold sits matters more than the low)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "same tree after a multi-night cold spell"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-03.jpg" alt="Winter fig canopy without leaves — Zone 8a midwinter inspection (How long the cold sits matters more than the low)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. How long the cold sits matters more than the low. Staged stand-in (zone8a.d08.fig-dormant-canopy-pajara-03); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — same tree after a multi-night cold spell. See RIGHTS.md.</figcaption>
+</figure>
 
 A 10°F snap that arrives after midnight and is gone by 9 a.m. is a different
 animal from four days that never climb through 20. I used to read forecasts

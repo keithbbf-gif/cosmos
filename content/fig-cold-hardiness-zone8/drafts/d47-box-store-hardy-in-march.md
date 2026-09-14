@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [buying, varieties]
+figures:
+  - id: zone8a.d47.fig-dormant-canopy-pajara-01
+    file: ../assets/images/shared/fig-dormant-canopy-pajara-01.jpg
+    alt: "Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (Box-store hardy in March)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "box-store hardy label vs March wood"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-dormant-canopy-pajara-01.jpg" alt="Leaf-off Ficus carica in winter — Zone 8a dieback and in-ground stool (Box-store hardy in March)" width="5616" height="3744" loading="lazy" decoding="async">
+<figcaption>Figure 1. Box-store hardy in March. Staged stand-in (zone8a.d47.fig-dormant-canopy-pajara-01); Photo: Frank Vincentz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — box-store hardy label vs March wood. See RIGHTS.md.</figcaption>
+</figure>
 
 March is when the big stores roll out
 figs with tags that say hardy like it

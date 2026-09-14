@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: siting
 topics: [varieties, chicago-hardy]
+figures:
+  - id: zone8a.d10.usda-pom-magnolia-1913
+    file: ../assets/images/shared/usda-pom-magnolia-1913.jpg
+    alt: "Eastern hardy fig type — Magnolia cultivar plate for Zone 7–8a siting (Chicago Hardy is a floor, not a personality)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "resprout after top kill — Chicago-class story"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/usda-pom-magnolia-1913.jpg" alt="Eastern hardy fig type — Magnolia cultivar plate for Zone 7–8a siting (Chicago Hardy is a floor, not a personality)" width="2625" height="4000" loading="lazy" decoding="async">
+<figcaption>Figure 1. Chicago Hardy is a floor, not a personality. Staged stand-in (zone8a.d10.usda-pom-magnolia-1913); USDA NAL POM00001043 (Magnolia), Mary Daisy Arnold, PD. Prefer publish photo from D:\FIGS\Figs — resprout after top kill — Chicago-class story. See RIGHTS.md.</figcaption>
+</figure>
 
 I plant Chicago Hardy the way I keep a spare key. It is not my favorite fig.
 It is the fig that makes the rest of the collection honest. Missouri

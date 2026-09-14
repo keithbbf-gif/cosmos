@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [polar-vortex, cold-hardiness]
+figures:
+  - id: zone8a.d41.fig-winter-snow-hood
+    file: ../assets/images/shared/fig-winter-snow-hood.jpg
+    alt: "USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (The polar vortex year)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "after polar vortex — legal dieback height"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/fig-winter-snow-hood.jpg" alt="USDA Zone 8a fig cold hardiness fig tree winter protection — snow hood wrap on dormant Ficus carica (The polar vortex year)" width="2736" height="3648" loading="lazy" decoding="async">
+<figcaption>Figure 1. The polar vortex year. Staged stand-in (zone8a.d41.fig-winter-snow-hood); Photo: 4028mdk09, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — after polar vortex — legal dieback height. See RIGHTS.md.</figcaption>
+</figure>
 
 Once or twice a decade the map is a rumor.
 The air that belongs in another country

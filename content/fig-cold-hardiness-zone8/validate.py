@@ -56,6 +56,12 @@ def main() -> int:
             errors.append(f"{path.name}: missing status: staged")
         if "focus: 8a" not in text:
             errors.append(f"{path.name}: missing focus: 8a")
+        if "figures:" not in text:
+            errors.append(f"{path.name}: missing figures: front matter")
+        if "<figure>" not in text:
+            errors.append(f"{path.name}: missing <figure> embed")
+        if 'alt: "' not in text and "alt:" not in text:
+            errors.append(f"{path.name}: missing figures alt text")
         stage = None
         for line in text.splitlines():
             if line.startswith("stage:"):

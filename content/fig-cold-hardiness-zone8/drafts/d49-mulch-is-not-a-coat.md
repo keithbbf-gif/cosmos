@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: wrapping
 topics: [mulch, wrapping]
+figures:
+  - id: zone8a.d49.ficus-carica-bark
+    file: ../assets/images/shared/ficus-carica-bark.jpg
+    alt: "Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (Mulch is not a coat)"
+    figs_pick: "D:\FIGS\Figs"
+    figs_note: "mulch at crown — not a substitute for wrap"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/ficus-carica-bark.jpg" alt="Dormant fig bark and trunk — Zone 8a dieback and mulch-at-crown reference (Mulch is not a coat)" width="1317" height="1756" loading="lazy" decoding="async">
+<figcaption>Figure 1. Mulch is not a coat. Staged stand-in (zone8a.d49.ficus-carica-bark); Photo: Kenraiz, Wikimedia Commons, CC BY-SA 3.0. Prefer publish photo from D:\FIGS\Figs — mulch at crown — not a substitute for wrap. See RIGHTS.md.</figcaption>
+</figure>
 
 I love mulch. I also watch people pile
 it like a volcano and think they have

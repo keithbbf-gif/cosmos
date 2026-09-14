@@ -8,7 +8,19 @@ focus: 8a
 zones: [7, 8a, 8b, 9]
 cluster: hardiness
 topics: [cold-hardiness, wood, buds, roots]
+figures:
+  - id: zone8a.d03.kohler-ficus-carica-plate
+    file: ../assets/images/shared/kohler-ficus-carica-plate.jpg
+    alt: "Ficus carica buds and fruit morphology — what freezes first in Zone 8a (Four different things freeze)"
+    figs_pick: "D:\FIGS\More Fig Pictures"
+    figs_note: "winter twig with buds and bark close-up"
+
 ---
+
+<figure>
+<img src="../assets/images/shared/kohler-ficus-carica-plate.jpg" alt="Ficus carica buds and fruit morphology — what freezes first in Zone 8a (Four different things freeze)" width="1469" height="2318" loading="lazy" decoding="async">
+<figcaption>Figure 1. Four different things freeze. Staged stand-in (zone8a.d03.kohler-ficus-carica-plate); Köhler-type Ficus carica plate, Wikimedia Commons, PD. Prefer publish photo from D:\FIGS\More Fig Pictures — winter twig with buds and bark close-up. See RIGHTS.md.</figcaption>
+</figure>
 
 People say "the fig froze" as if the plant were one object with one death. It
 is four objects that fail at different temperatures, and they fail in a
