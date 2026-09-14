@@ -42,6 +42,14 @@ Some calculators also cap the high at 86°F so a 105° afternoon does not count 
 
 Figs do not file a USDA GDD chart the way corn does. Hobby tools such as the [iGrowFigs GDD calculator](https://apps.igrowfigs.com/gdd/) pull station weather and let you set the base. Grower writeups on OurFigs often talk GDD50 and toss around rough bins — breba on the low end, late main crop much higher. Treat those bins as **conversation numbers**, not a lab result. [VERIFY] any specific “this variety needs 2,400” claim against fruit you have actually ripened at your place.
 
+## What iGrowFigs is actually counting
+
+That page is a weather pull plus switches. It is not a USDA fig model. **[VERIFY] every option you used** before you compare years or zips.
+
+Daily min and max come from the nearest station. Observed low colder than the floor? It uses the floor. Default floor is **50°F**. Observed high hotter than the ceiling? It uses the ceiling. Default ceiling is **86°F**. Missing NOAA days get yesterday’s temperatures. [VERIFY] the station. A ridge and a river bottom are not the same pile.
+
+Optional **reset temperature**: after a freeze at that number, the total goes back to zero. I would turn that on in Arkansas and write the number down. When someone says “I ran 3,100 GDD50,” ask: base 50 or not; cap at 86 or not; freeze reset on, at what temperature. Leave the switches the same both years you compare.
+
 ## Why the calendar lies
 
 July 15 in South Arkansas is not July 15 in western Washington. Same date. Different pile of heat.
@@ -61,7 +69,7 @@ If the only notes you can find say “late” or “needs a long season,” that
 A fig can sit there looking like a green marble through the quiet middle of the season, then swell and color when the heat and water line up. That quiet stretch is normal. What is not normal is a variety that is still marble-hard when nights are already falling into the 50s.
 
 **3. I do not confuse heat with light.**  
-Pick The Right Fig said this too: you can have the GDDs and still get poor fruit in too much shade. In the North, full sun is the default. In the South, we still want morning sun. We just do not fry a black pot on a gravel pad at 2 p.m. and call that “more GDD.” See the shade-and-water draft in this set.
+Pick The Right Fig said this too: you can have the GDDs and still get poor fruit in too much shade. In the North, full sun is the default. In the South, we still want morning sun. We just do not fry a black pot on a gravel pad at 2 p.m. and call that “more GDD.”
 
 University work on fig phenology uses different bases and °C totals. One Japanese study on ‘Houraishi’ put roughly **2,100 °C-days** on the fruit from budbreak to harvest, independent of node, in that climate. A Turkish study on Bursa Siyahı reported a different effective-temperature stack. Those papers prove temperature sums matter. They do not hand you a plug-and-play number for ‘Red Sicilian’ in Saline County. [VERIFY] before you quote a °C total as if it were your backyard.
 
@@ -75,11 +83,23 @@ North Arkansas will also steal wood. A late fig that needed last year’s growth
 
 Gulf Coast growers have a longer tail. That is a different math problem. Do not copy a south Louisiana finish date onto a ridge in the Ozarks and call it the same fig.
 
+## A late-September finish-week walk
+
+Last week of September, South Arkansas. Nights kissing the 50s. Notebook, not a wish.
+
+The early tree — the county name that colored in July or early August — is done or on a last thin flush. Pinch. Soft neck, we eat it. Hard marble on that tree, I am not waiting.
+
+Mid-season pots: if they are coloring and hanging heavy, the year had enough heat for those names. I write the first-soft date, the GDD50 from budbreak (or the spring start I reuse), and the three iGrowFigs switches. That pile is mine.
+
+Late names: skin tight, neck stiff. I do not fertilize them to “finish.” I do not flood them like July. Janet Carson’s column will tell you to pick a few days early *for preserves*. That saves fruit that was close. It will not rescue a marble that never moved.
+
+A 88° / 52° day is (88+52)/2 − 50 = 20 GDD50 if you are not capping. Nights are falling. If my known finisher already hit the plate in August and this celebrity is still green, I am out of budget. A hoop for two extra weeks is a microclimate, not a variety proof.
+
 ## A simple way to run the number this year
 
 Pick one variety you already know. Write down the date it first softened last year, or this year if you are in season. Run your zip through a GDD50 calculator from a spring start date you will reuse (last frost, or the week you saw budbreak). That total is *your* local number for *that* tree, that year.
 
-Next year, when someone offers you a “must have” late fig, you have a stick to measure with. If their ripening notes sit weeks past your known finisher, you need a reason: a warmer microclimate, a greenhouse, a pot you can shuffle, or you are collecting, not harvesting.
+Write the three switches next to it: floor, cap, freeze reset. Next year, when someone offers you a “must have” late fig, you have a stick to measure with. If their ripening notes sit weeks past your known finisher, you need a reason: a warmer microclimate, a greenhouse, a pot you can shuffle, or you are collecting, not harvesting.
 
 I would rather eat an early fig that is honest than babysit a celebrity variety that dies green. We still trial the celebrities. We just do not pretend the calendar will save them.
 

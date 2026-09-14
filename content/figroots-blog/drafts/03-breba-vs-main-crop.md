@@ -38,6 +38,8 @@ Two crops. Two kinds of wood. Mix them up and you will swear the variety is a du
 
 **Main crop** sets in the leaf axils of **this year’s** growth. New shoot, new figs, mid to late summer. That is the crop a frozen-back tree can still give you, because it is not asking last year’s twigs to survive.
 
+In the hand they do not look the same. A breba attempt is a nub on old wood — last year’s shoot, already gray or brown, fruit sitting behind the new leaves or on bare wood that leafed. Main crop sits in the axil of a green shoot that did not exist in March. Photograph both in May. Memory will merge them by July.
+
 University of Arkansas Extension says the quiet part out loud: in our climate, breba figs **rarely persist and thrive over winter**. The second crop — current-season wood — is predominantly what we harvest. Common figs only. No wasp types.
 
 So if you are in Arkansas, or anywhere that regularly bites wood into the teens, plan the year around main crop. Breba is a bonus you get after a soft winter, a protected wall, or a pot you kept from freezing.
@@ -56,6 +58,14 @@ If you want breba on purpose, you are signing up to **keep last year’s wood al
 
 I would not build a whole collection around breba in South Arkansas. We are **8a**. We get rollercoaster winters. UAEX says the north counties take the worst of the swing. Chase main crop. If a breba shows up after a gentle year, eat it and do not rewrite the orchard plan.
 
+## After a freeze year, do not call the variety a liar
+
+A winter that killed last year’s shoots deleted the breba crop. That is weather. It is not a verdict on the name. Do not write “doesn’t breba” on a tag because March was ugly. Give it a protected winter, or a pot, before you decide.
+
+The freeze-recovery draft in this set is how you pick five or six trunks once the suckers are a couple of feet tall. That work is next year’s **main crop**. It will not bring back the June figs you lost. Texas A&M’s picture is the one I like: thin over a couple of weeks so you do not strip every leaf at once. I will not restage that whole job here.
+
+Celeste still hates a hard late-winter chop even when you are “only” cleaning freeze damage. UAEX said a severe prune **greatly limits** that season’s fruit. Cut dead wood when you can see it at budbreak. Leave live last-year shoots if you still want an early fig.
+
 ## Pots change the argument
 
 Most of our trees have lived in 3- and 5-gallon pots. A pot you can roll into a shop or a hoop house still has last year’s wood in the spring. That pot can show breba a ground tree in the same county will not.
@@ -63,6 +73,8 @@ Most of our trees have lived in 3- and 5-gallon pots. A pot you can roll into a 
 It can also fool you. A pot that dried out in a cold snap, or sat wet and sour, will drop those early figs and look like a main-crop-only variety. The wood was alive. The fruit was not.
 
 If you are hunting a true breba variety — the kind people in California talk about as a June crop — keep the plant in a container you can protect, or plant it on the east wall of a building that holds heat. Give it two winters before you decide the variety “doesn’t breba.” One ugly freeze is not a verdict.
+
+An east wall is a climate. TAMU still likes south or east of a building so morning sun dries fruit after rain. UAEX likes brick that knocks wind. That siting can save a few last-year shoots a north fence will not. It will not turn 8a into coastal California. The east-wall draft is that hole. This page is the crop you are protecting.
 
 ## How I decide before I pick up the loppers
 
@@ -74,7 +86,9 @@ I ask what I want this tree to do *this year*.
 
 **I want a small pot bush I can move.** You will prune. You will lose breba. Own it. Main crop on new growth is the deal.
 
-Jack’s job on a prune day is usually cuttings: **6–8 inches, three nodes**, lignified if we can get it. That wood can be last year’s breba wood. Every stick in a bag is a fig you will not eat in June. Take what you need. Leave a tree.
+Jack’s job on a prune day is usually cuttings: **6–8 inches, three nodes**, lignified if we can get it. That wood can be last year’s breba wood. Every stick in a bag is a fig you will not eat in June. Take what you need. Leave a tree. The prune-versus-cuttings draft is that fight. Winter is just when the wood is honest.
+
+Do not hat-rack a tree in January because you wanted a box of sticks. Dead wood is easier to see at budbreak. Live last-year shoots you strip for scionwood are the June crop you sold.
 
 ## “Everbearing” on a tag
 
@@ -91,4 +105,4 @@ If a seller promises breba in zone 6 without a pot-and-garage plan, keep your mo
 - Do not judge a variety’s breba in a year the wood died.
 - Do not judge main crop on a tree you starved in July. Fruit drop has a lot of fathers. UAEX lists drought, storms, cool weather after set, and a weak tree.
 
-Pick The Right Fig asked, “Will you try to get breba?” Answer it with a prune plan, not a wish. In our county the honest answer is usually: main crop, and I will not cry if June is empty.
+A pot you kept above a hard freeze can show both crops in a gentle year. Eat the June figs if they come. Plan the year around August. Pick The Right Fig asked, “Will you try to get breba?” Answer it with a prune plan, not a wish. In our county the honest answer is usually: main crop, and I will not cry if June is empty.

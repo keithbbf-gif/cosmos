@@ -40,7 +40,9 @@ Wait until the fig is soft. Neck bent. Skin maybe cracking. If you pick it “al
 
 Cut it. Smell the inside before you talk. Then eat it at room temperature, not out of a cold fridge. Write three words, the eye, the size, and the date. Next year your memory will lie.
 
-Do this on a tree you believe. A mislabeled cutting will teach you the wrong family for a name, and you will argue with people who have the real thing.
+Do this on a tree you believe. A mislabeled cutting will teach you the wrong family for a name, and you will argue with people who have the real thing. The Introduction page already said it takes **a year, sometimes two or three**, to prove the fruit is the fruit. Marketplace reviews close before anyone has eaten a fig.
+
+I taste in the morning, not after the fruit sat in a hot bowl. A fig that soured in the eye is not a flavor family. It is trash. The split-versus-sour draft is that bucket. This page is the plate.
 
 ## The five words we actually use
 
@@ -61,6 +63,8 @@ Peach, apricot, sometimes a citrus edge. The Introduction page already bunched p
 
 Families overlap. A fig can be sweet *and* berry. The point of the word is to stop you from planting twelve trees that all taste like the same brown paste.
 
+I will not print a ranked internet list as if it were our orchard. Jack’s 2025 notes are fruit we cut. LSU’s release notes are LSU’s fruit. UAEX is not a tasting panel. If you only remember one rule: the family word is a map for *your* plate after the neck bends.
+
 ## Names that will not save you
 
 “Black Madeira” on a bag is not a flavor. It is a hope.
@@ -79,6 +83,8 @@ Heat and water also change sugar. A starved pot can throw small, intense fruit. 
 
 In humidity, I still want the flavor *and* a tight eye. Jack’s notes keep pairing berry with tight, small fruit for a reason. A giant open-eye peach bomb is a fine fig in a dry climate. Here it is a race with the beetles.
 
+Heat also changes the calendar under the flavor. A late berry fig that never ripens is not a berry fig in your yard. It is a green marble. The GDD draft is that filter. Do not write a love letter to a name you have only eaten as freight.
+
 ## How I would stock a first tasting row
 
 I would not start with twelve names from a ranked internet list.
@@ -87,6 +93,14 @@ I would start with one early, tight-eye fig that actually ripens here (the count
 
 If you already have a collection, pick a Saturday, harvest what is truly ripe, and put the families on paper. You will find you own four names in one family and zero in another. That is useful. That is how you stop buying the same fig in a new hat.
 
-I have favorites I will say out loud because we have eaten them: Nuestra Señora del Carmen, Maryland Berry, Red Sicilian, Negra d’Agde, Black Madeira when it is the real one, and others I will not turn into a catalog. I also have trees I am not a fan of yet. We give them a long trial. Boring fruit can still be rootstock.
+I have favorites I will say out loud because we have eaten them: Nuestra Señora del Carmen, Maryland Berry, Red Sicilian, Negra d’Agde, Black Madeira when it is the real one, and others I will not turn into a catalog. I also have trees I am not a fan of yet. We give them a long trial. Boring fruit can still be rootstock. We would graft a better top onto a healthy hole before we would throw the hole away.
+
+## What I will not do with a tasting note
+
+I will not tell you a family word is a lab panel. Two honest growers will split a fig into honey and sugar and both can be right enough to pick a tree.
+
+I will not tell you Celeste is trash because I have not been a fan for eating. It is an early, tight-eye climate tool. Those are different jobs. UAEX still puts it on the yard list. I still keep it long enough to be fair.
+
+I will not turn Jack’s short list into a catalog. Those were notes on fruit we ate in 2025. Your soil and your year will move the needle. [VERIFY] on your plate.
 
 The family words are for the plate. The label is a hypothesis. Ripe fruit is the only evidence.

@@ -44,9 +44,9 @@ Dad’s line is the one I would print on the wall: **do not overwater the rootin
 
 Fig Pop moisture, the way we already wrote it: hydrate coir, dump the extra, squeeze until **no water comes out** and it still clumps, then add about **30% dry coir** and mix. Damp. Not wet. Pack the bag so the mix stays against the wood. Leave a **1–2 inch gap** under the cutting so the bottom is not sitting in a sump.
 
-A heat mat without a thermostat will roast a wet cup into soup. Set the mat to about **75–78°F** on a controller. Low light. You are not growing a tomato seedling yet.
+A heat mat **without a thermostat** will roast a wet cup into soup. Set the mat to about **75–78°F** on a controller. Probe **in the mix**, not in the air. Low light. You are not growing a tomato seedling yet.
 
-Wash first. Dirty bark is a head start for slime. Soap, or the dilute bleach already on the Pop page, or peroxide. Dry the bark before it goes in. I keep saying this because I skipped it when I was younger and I could not see the film on the wood until we scrubbed.
+Wash first. Dirty bark is a head start for slime. Soap, or the dilute bleach already on the Pop page, or peroxide. Dry the bark before it goes in. I skipped it when I was younger and I could not see the film on the wood until we scrubbed.
 
 If it rotted: throw the mush away. Do not “cut above the rot and restick” unless there is a clean, firm piece with nodes left *and* you change the mix. Same wet bag, same ending.
 
@@ -56,7 +56,7 @@ You pull the stick and there is a white or cream knob at the base. Alive. No roo
 
 Callus is scar tissue. It is not a root. Some varieties sit there a long time. The A/B writeup even named a slow one in coir. Fast and slow is real. Waiting is part of it.
 
-Callus-only becomes a failure when the environment never gives the next step: bottom heat too low, mix too dry for the roots to push, or you keep peeling the cup open every day “to check.” I check by **weight**. A light cup is thirsty. A heavy cup is not.
+Callus-only becomes a failure when the environment never gives the next step: bottom heat too low, mix too dry for the roots to push, or you keep peeling the cup open every day “to check.” I check by **weight**. A light cup is thirsty. A heavy cup that stays heavy and warm for a week is how rot starts while you are still proud of the leaves.
 
 DE in our test needed more watering vigilance. It was harder to wet from the top and easier to dry. Coir held a more even humidity under a cover. That is why I reach for coir when I want fewer surprises. DE is still in the room. It is not the enemy. Dry DE is.
 
@@ -76,6 +76,16 @@ Parafilm on the exposed top helps hold the moisture *inside* the wood while it s
 
 A dehydrated cutting can sometimes take a soak before you restick. Then dry the bark and use mix that is actually damp. I would not promise you a save. [VERIFY] by scratch test: brown dry wood through the cambium is firewood.
 
+Green wood on a sunny windowsill fails this way faster than dormant wood in a bag. The calendar draft is when to cut. This page is what the dead stick looks like.
+
+## Junk wood you should not have stuck
+
+Soft, moldy, pencil-thin green, one node, a crushed bundle from a hot truck. Rooting will not resurrect a corpse. Storage mistakes belong to the fridge draft. Mail-order damage belongs to the inspect-the-box draft. If you stuck junk, the failure is upstream.
+
+Industry stick: **6–8 inches, three nodes**, lignified if you can get it. Pencil-thick for pops. A soda-straw whip dries before it drinks. I would not build a tray on chips unless the wood is rare and I have nothing else.
+
+Hormone is optional on the Pop page. We have used it. Dad will also tell you a raised bed of yard dirt has rooted wood with nothing on it. Clean, thick, three-node wood beats a $20 gel on a pencil lead.
+
 ## The other ways you think it failed (and maybe it didn’t)
 
 **It is just slow.** Some names root in ten days. Some sit. Our coir tray in that test had roots around day 10 on the fast ones and stragglers later. If the wood is firm and the mix is right, wait.
@@ -83,8 +93,6 @@ A dehydrated cutting can sometimes take a soak before you restick. Then dry the 
 **You potted up like you were potting a weed.** Fig-pop roots are brittle. The Pop page says it. I have broken a nice root ball by squeezing the bag. Open it. Support the mix. Do not shake it clean.
 
 **Outdoor dirt.** We have stuck cuttings in a raised bed and in pots of yard soil and gotten trees. Shade, water once or twice a week, not a swamp. Lower hit rate is fine when the wood is free. That is already on the [Outdoor](https://figroots.com/outdoor/) page. Do not compare that to a basement tray and call the tray a scam.
-
-**You started with junk.** Soft, moldy, pencil-thin green, one node, a crushed bundle from a hot truck. Storage mistakes belong to the fridge draft. Rooting will not resurrect a corpse.
 
 ## A short autopsy
 
@@ -94,6 +102,6 @@ Pull the stick.
 - Firm, white knob, no roots: callus-only. Time, even moisture, bottom heat you can measure.
 - Light, wrinkled, dry scratch: dehydrated. You ran it too dry or you stored it empty.
 
-Write the variety and the failure on the cup. Patterns show up. One name always sits. One corner of the mat always cooks. One bag always drips.
+Write the variety and the failure on the cup. Patterns show up. One name always sits. One corner of the mat always cooks. One bag always drips. A corner that cooks is a probe problem, not a variety problem. Move that cup. Measure the mix.
 
 I still wash first, squeeze the coir, leave the gap, and leave the cup alone. That is boring. Boring is how a stick becomes a tree.
