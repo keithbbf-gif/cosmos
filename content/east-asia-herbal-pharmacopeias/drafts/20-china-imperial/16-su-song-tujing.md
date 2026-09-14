@@ -10,13 +10,33 @@ jurisdictions: [china]
 period: northern-song
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.tujing-line
 ---
 
 # Su Song and the illustrated classic
 
 Su Song 蘇頌 (1020–1101) is easier to meet as the man of the astronomical clock than as a *bencao* editor. That is a modern fame-sort. In this collection he matters because the court asked the prefectures to send pictures, and he was one of the men who had to make a book out of what came back.
 
-The project sits in the Jiayou reign. The usual years: an order to revise the official *bencao* (Zhang Yuxi and others on the textual side, the *Jiayou bencao*), and a parallel order to compile a *tujing* 圖經, an illustrated classic, presented in 1061. Su Song’s name is the one that stuck to the pictures. Twenty *juan* plus a contents *juan* in the bibliographic notes. Later working counts — I am repeating handbook figures, not my census — talk about on the order of 780 substances and nine-hundred-plus pictures, with a hundred-odd “new” items. The original *Tujing* as a stand-alone Song book is, again, not what you casually open. We meet it in the *Zhenglei* line and in later reconstructions.
+The project sits in the Jiayou reign. The usual years: an order to revise the official *bencao* (Zhang Yuxi and others on the textual side, the *Jiayou bencao*), and a parallel order to compile a *tujing* 圖經, an illustrated classic, presented in 1061. Su Song’s name is the one that stuck to the pictures.
+
+<figure class="eahp-figure" id="eahp-fig-tujing-line" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/su-song-tujing-line-plate.png"
+    alt="Line illustration of a materia medica plant in the Chinese illustrated bencao tradition associated with Bencao tujing."
+    width="1200"
+    height="1600"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Line plate from the illustrated materia medica tradition Commons links to the <em>Bencao tujing</em> / Song official illustration story. Later books attribute this kind of image to prefectural submissions; this file does not prove a specific 1061 drawing survived unchanged.
+    <span class="eahp-figure-credit">Credit: Wikimedia Commons contributor. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Illustrated materia medica line plate (Bencao tujing tradition)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure> Twenty *juan* plus a contents *juan* in the bibliographic notes. Later working counts — I am repeating handbook figures, not my census — talk about on the order of 780 substances and nine-hundred-plus pictures, with a hundred-odd “new” items. The original *Tujing* as a stand-alone Song book is, again, not what you casually open. We meet it in the *Zhenglei* line and in later reconstructions.
 
 I care about the *method* more than the counts.
 

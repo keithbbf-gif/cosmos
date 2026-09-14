@@ -10,6 +10,8 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.gangmu-jinjing-title
 ---
 
 # Jinling, Jiangxi, and the 1596 story
@@ -20,6 +22,24 @@ I was not at either press. What I trust enough to use:
 
 - Li dies in 1593 in the biographical tradition. The first print is tangled with that year. Unschuld’s project language sometimes says “first published in 1593.” UNESCO’s nomination treats the Jinling Wanli 21 book as the ancestor of later prints.
 - The Jinling book is described, in Chinese bibliographic essays, as a family-supervised cut that looks poor and travels badly. Sons’ names sit on the picture *juan*. Wang Shizhen’s preface is there. “Ancestor and scarce” is the tone.
+
+<figure class="eahp-figure" id="eahp-fig-gangmu-jinjing-title" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/gangmu-jinjing-title-page-wellcome.jpg"
+    alt="Opening page of a Jinling-line Bencao gangmu woodblock print; Chinese text, no portrait."
+    width="1200"
+    height="1800"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Opening of a first-edition-line <em>Bencao gangmu</em> print photographed at the China Academy of Chinese Medical Sciences, as reproduced by Wellcome (L0039328). Bibliographic tradition associates this family with the Jinling Wanli cut; this photograph is an edition witness, not a proof of every colophon date popular books repeat.
+    <span class="eahp-figure-credit">Credit: Wellcome Collection. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Bencao gangmu Jinling-line title opening (Wellcome L0039328)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 - The Jiangxi book is described as a six-month official project in 1603, prettier, and already introducing errors — a famous example being a slip that moves a phrase from one skin condition into another, so the indications change by typesetting. I have not seen the pages side by side. I have seen the example repeated by people who have. I treat it as a warning about recuts, not as a fact I personally collated.
 - After Jiangxi, the “one ancestor, three lineages” talk begins: later Ming and Qing shops copy the official-looking book, not the ugly first one. Japanese Kan’ei-era prints sit in that later world.
 

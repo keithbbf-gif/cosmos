@@ -10,6 +10,8 @@ jurisdictions: [china]
 period: tang
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.c17-plant-grid
 ---
 
 # Xinxiu bencao: the Tang state's book
@@ -19,6 +21,24 @@ In the fourth year of Xianqing, on a day the *Tang huiyao* is later said to reco
 The origin story, as later histories tell it: Su Jing 蘇敬 (also called Su Gong in polite later reference) asks, around 657, for a revision of Tao Hongjing. The court staffs a team. The number that has stuck is twenty-two. The names that get repeated include men who are physicians and men who are not — Li Chunfeng, Xu Jingzong, others — and a finishing eye associated with Li Shiji. A Japanese-transmitted account and a Dunhuang-related fragment have been used to argue that Zhangsun Wuji’s political weight sat on the project early. I was not in the room. The list, as a list, still tells you what kind of book this was meant to be: not a hermit’s commentary, a government product.
 
 The shape, again as later described: on the order of fifty-some *juan* if you count text, illustrated classic, and captions together. A main text in twenty *juan* plus a table. Pictures. A *tujing*. Something like 850 substances in the handbook count I see most often. I treat 850 as a traditional figure, not as my inventory. The pictures matter even if we no longer have them in the original colors. This is one of the earliest official pharmaceutical books that *wanted* to be seen as well as read. Draft 40 will come back to that want.
+
+<figure class="eahp-figure" id="eahp-fig-xinxiu-standin" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/c17-plant-drugs-wellcome.jpg"
+    alt="Grid of illustrated Chinese plant drugs on a seventeenth-century materia medica plate; not a Tang Xinxiu original."
+    width="1200"
+    height="1600"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Seventeenth-century plant-drug illustration sheet (Wellcome L0039345) shown as a **type** of official-looking picture grid, not as a surviving Tang color plate from 659. The *Xinxiu* pictures are described in later sources; this file does not replace them.
+    <span class="eahp-figure-credit">Credit: Wellcome Collection. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Seventeenth-century Chinese plant-drug illustration grid (Wellcome L0039345)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 
 What the court said it was doing — I am paraphrasing later official language, not holding the edict — was to set a standard for drug use. In a manuscript empire that is a strong verb. I do not know how many working copies left the capital. I do not know how a prefectural doctor met the book, if he met it. The honest statement is: **the Tang state claimed the right to speak the identity of drugs in one arranged voice, and it paid a mixed team to write that voice down.**
 

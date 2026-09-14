@@ -10,6 +10,8 @@ jurisdictions: [japan]
 period: edo
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.yamato-honzo
 ---
 
 # Kaibara Ekiken's Yamato honzō
@@ -17,6 +19,24 @@ voice: essay
 Kaibara Ekiken 貝原益軒 (1630–1714), Fukuoka domain, Zhu Xi Confucian, writer of too many books, is the name on *Yamato honzō* 大和本草. The text is finished, in the usual account, in Hōei 5 (1708) and printed in 1709; the picture *juan* wait until 1715. Kyoto University’s copy notes those years on the prefaces and on the plates. I will use **1709/1715** as the public life of the book.
 
 What the book is: a Japanese-language encyclopedia of stuff, sixteen volumes plus appendices and pictures in the descriptions I have, that walks beside the *Gangmu* and also beside other Chinese *bencao*, and then puts in things Kaibara thinks are Japanese or otherwise unaccounted for. A *Dictionnaire historique du Japon* entry gives a breakdown — 772 from the *Gangmu*, 203 from other Chinese books, 358 “proper to Japan,” 29 from neither China nor Japan, total 1,362. Other summaries say 1,366. I will not pick a digit. The gesture is the fact: **a count that admits the Chinese rooms and then adds rooms with Japanese names.**
+
+<figure class="eahp-figure" id="eahp-fig-yamato-honzo" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/japan/yamato-honzo-opening-plate.jpg"
+    alt="Printed opening plate from Kaibara Ekiken's Yamato honzo; Japanese honzo book illustration."
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Plate from the <em>Yamato honzō</em> print line (Commons file “Yamato Honzo.jpg”). Kaibara’s text is dated 1708–1709 in standard accounts; the picture <em>juan</em> followed in 1715. This image shows the Edo argument that a Japanese face for a drug may differ from a Chinese woodcut — not a modern botanical identification.
+    <span class="eahp-figure-credit">Credit: Wikimedia Commons contributor. CC BY-SA 3.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Yamato honzo printed plate" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by-sa/3.0/" />
+</figure>
 
 The modernization story wants this book to be the birth of Japanese natural history: Kaibara observes, Kaibara writes in Japanese, Kaibara detaches stuff from medicine, therefore science. Ueno and Yabe have been quoted that way. The *SJLC* essay I used exists to make that story uncomfortable, because the same historians admit the *Gangmu* is still the must-read a century later. You cannot have a birth that leaves the parent running the house.
 

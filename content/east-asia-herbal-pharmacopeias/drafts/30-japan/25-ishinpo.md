@@ -10,6 +10,8 @@ jurisdictions: [japan]
 period: heian
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.ishinpo-nakarai
 ---
 
 # Ishinpō: an archive that looks like a medical book
@@ -17,6 +19,24 @@ voice: essay
 In 984 Tanba Yasuyori 丹波康頼 (you will also see Tamba) presented a thirty-*kan* medical encyclopedia. The title is *Ishinpō* 醫心方 — prescriptions from the heart of medicine, in the museum English. It is the oldest surviving Japanese medical book in the usual account. A Heian-period copy associated with the Nakarai (Nakarai/Nasei) family sits in the Tokyo National Museum and is a National Treasure. I have seen the museum description. I have not turned the scrolls.
 
 If this were a history of Japanese medicine, the file would be about etiology, acupuncture, the sexual *juan* that English Wikipedia likes to visit, the Buddhist pregnancy sutra, the dependence on Chao Yuanfang’s *Zhubing yuanhou lun*. This is a pharmacopeia collection, so I am here for a narrower reason: **Ishinpō is one of the best fridges of lost Chinese drug writing, and it is a Japanese editorial act, not a fridge with legs.**
+
+<figure class="eahp-figure" id="eahp-fig-ishinpo-nakarai" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/japan/ishinpo-nakarai-heian-copy.jpg"
+    alt="Photograph of a spread from the Nakarai-family Ishinpo manuscript copy; Japanese medical book, not a printed bencao plate."
+    width="1083"
+    height="431"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Photograph of the Nakarai-transmission <em>Ishinpō</em> copy (Commons: “Nakarai edition”). Tokyo National Museum treats the Heian manuscript as a National Treasure; this image is a **book object**, not a drug-identification plate.
+    <span class="eahp-figure-credit">Credit: Wikimedia Commons. Public domain.</span>
+  </figcaption>
+  <meta itemprop="name" content="Ishinpō Nakarai manuscript copy photograph" />
+  <link itemprop="license" href="https://creativecommons.org/publicdomain/mark/1.0/" />
+</figure>
 
 Mayanagi Makoto’s work on *juan* 30 is the door I used. His point, as I understand it: the book’s value is systematic compilation with sources named, in wording that has not yet been through later Chinese recuts. The *Shennong* layer, Tao, the *Xinxiu*, *Shiliao*, and a cloud of Six Dynasties and Tang titles that China later lost — they sit here in a Heian hand. *Juan* 30 is the *honzō* volume in that reading. *Juan* 1 carries Japanese names that quote *Honzō wamyō*.
 

@@ -10,6 +10,8 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.gangmu-woodcut-plants
 ---
 
 # Bencao gangmu as a machine for reading
@@ -25,6 +27,24 @@ Inside a monograph the machine does something the *Zhenglei* chorus already want
 Recipes at the end of entries pull the book toward the formulary. That is why people still call it a medical encyclopedia and not only a *bencao*. I am keeping it in a pharmacopeia history because the machine’s first job is identity and classification. The recipes are the action the identity is for. They are not, here, instructions for you.
 
 Pictures are two *juan*, and they are a weaker part of the first print in the bibliographic tradition. The Jinling book is often described as poorly cut. Later recuts look better and wander further. Draft 21 is the edition story. Draft 40 is the picture problem. Here I will only say: the *Gangmu*’s real pictures, for many later readers, were the words — the morphology-in-prose. Edo naturalists will walk into fields holding those words and then get angry at them. That anger is a use of the machine.
+
+<figure class="eahp-figure" id="eahp-fig-gangmu-woodcut" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/gangmu-woodcut-plants-lijianyuan-wellcome.jpg"
+    alt="Woodcut page with several labeled materia medica plants from the Bencao gangmu illustration tradition."
+    width="1200"
+    height="1800"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Woodcut plate Wellcome L0039330 catalogs with Li Jianyuan’s pictures for the first-edition <em>Bencao gangmu</em> line. Several drugs share one page; the illustration argues grouping, not modern species proof. Text on the historical monograph makes therapeutic claims; this caption does not repeat them as advice.
+    <span class="eahp-figure-credit">Credit: Wellcome Collection. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Bencao gangmu woodcut botanical page (Wellcome L0039330)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 
 Citation is the machine’s rust. Names of books shorten. Names of people shorten. A quote hops. Unschuld’s dictionary exists because the rust is thick. If you use the *Gangmu* as a transparent witness to a Tang sentence, you have not used the machine; the machine has used you.
 

@@ -10,6 +10,8 @@ jurisdictions: [korea]
 period: joseon
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.donguibogam-page
 ---
 
 # Donguibogam: encyclopedia, not just a drug list
@@ -19,6 +21,24 @@ voice: essay
 Heo Jun (you will see 1539 or 1546 to 1615) is a court physician. The commission comes from Seonjo, in a kingdom that has been through the Imjin war and through famine. Later prose likes to say the book was for the people. The book is a royal medical encyclopedia. Those can both be true. They are not the same statement. A court can want a public-facing medical order for reasons that include legitimacy, administration, and, yes, a wish that fewer people die. I will not pick the nicest reason and call it history.
 
 The five parts, as every introduction repeats: *Naegyeong* (inner body / the body’s treasures), *Oehyeong* (outer form), *Japbyeong* (various diseases), *Tangaek* (decoctions — the herbal-pharmacy section), *Chimgu* (acupuncture and moxibustion). Only one of those is a drug list in the *bencao* sense, and even *Tangaek* is a formulary world as much as a monograph world. **This is not a pharmacopeia.** It is an encyclopedia that contains a pharmacopeia-sized argument: what to gather, when, how long a prepared thing is said to keep, what the vernacular name is, how a Korean reader might find a Korean plant for a problem a Chinese monograph once described.
+
+<figure class="eahp-figure" id="eahp-fig-donguibogam-page" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/korea/donguibogam-printed-page.jpg"
+    alt="Photograph of one printed page from a Donguibogam book; Korean medical encyclopedia text layout."
+    width="1200"
+    height="810"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> Single-page photograph of a <em>Donguibogam</em> print (Commons: “one page of one book”). This pass does not identify the copy as the 1613 Naeuiwon first edition without a holding record; it shows the **printed encyclopedia** as object, not the drug section alone.
+    <span class="eahp-figure-credit">Credit: Wikimedia Commons contributor. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Donguibogam printed page photograph" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 
 The title’s *Dongui* — Eastern medicine — is a positioning. Not “Korean medicine” as a modern brand, not “Chinese medicine” as a humble import. East, from a court that has to live with Ming (and then Qing) as the other literate medical pole. I will not over-read a two-graph direction into a nationalist manifesto. I will not under-read it into a neutral synonym for “medicine.”
 

@@ -10,6 +10,8 @@ jurisdictions: [east-asia]
 period: comparative
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.ming-honey-trace
 ---
 
 # Pictures that argue
@@ -23,6 +25,24 @@ A short typology, not a museum.
 **The prefectural set.** Su Song’s *Tujing* argues *the provinces have looked*. What they looked at is a bureaucratic question. A clerk’s plant is a plant. A copied older official picture is not a plant. Both can be sent as “the local drug.”
 
 **The commercial recut.** Jiangxi looks better than Jinling and can still move a phrase, and a later picture *juan* can look better than both and wander further from any leaf. Prettiness is a market argument.
+
+<figure class="eahp-figure" id="eahp-fig-honey-trace" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/ming-sichuan-honey-trace-wellcome.jpg"
+    alt="Ming materia medica traced illustration of Sichuan honey on a Wellcome Chinese Materia Medica plate."
+    width="1200"
+    height="1800"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> “Sichuan honey” plate (Wellcome L0039305) from the Ming materia medica illustration set — an example of a **traced** commercial-looking drug picture in a court-colored series. The plate argues visibility; it does not prove hive origin, species, or safe use.
+    <span class="eahp-figure-credit">Credit: Wellcome Collection. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Ming traced honey materia medica plate (Wellcome L0039305)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 
 **The Edo addition.** Kyoto reprints of the *Gangmu* add pictures. *Yamato honzō* grows a picture section six years after the text. Ranzan’s world is full of sketches that never become famous plates. A Japanese picture in this period often argues *the Chinese face is the wrong face for this island*.
 

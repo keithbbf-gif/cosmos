@@ -1,0 +1,47 @@
+[
+  {
+    "path": "assets/plates/china/c17-plant-drugs-wellcome.jpg",
+    "sha256": "4968523e4ee0ebb2f6e33d41de8439d2586e1f2faed2c0fe934cde6a5d1ea8f0",
+    "bytes": 5632115
+  },
+  {
+    "path": "assets/plates/china/gangmu-jinjing-title-page-wellcome.jpg",
+    "sha256": "e75d31306fb50bdb123425859306cdc87a90889b0dc19836064426a010996233",
+    "bytes": 6580877
+  },
+  {
+    "path": "assets/plates/china/gangmu-woodcut-plants-lijianyuan-wellcome.jpg",
+    "sha256": "87ee6d8efe6998241218cae1ea5088512b5da4b031cfce4088a7e4b0abc51edf",
+    "bytes": 6188018
+  },
+  {
+    "path": "assets/plates/china/ming-huangqin-scutellaria-wellcome.jpg",
+    "sha256": "d8077f011c090d130f6debb75068d4953de8cf7b389b54cb3d9b93e57031279a",
+    "bytes": 6300177
+  },
+  {
+    "path": "assets/plates/china/ming-sichuan-honey-trace-wellcome.jpg",
+    "sha256": "f66e369e920a5788331c4743972e2fdd65fdc7f5e001e315a2f011539992ae01",
+    "bytes": 6143855
+  },
+  {
+    "path": "assets/plates/china/su-song-tujing-line-plate.png",
+    "sha256": "c5ac5e457d486b65edc75c042d702c799e8f262ff08a9bbef7509d446dafcfe6",
+    "bytes": 113454
+  },
+  {
+    "path": "assets/plates/japan/ishinpo-nakarai-heian-copy.jpg",
+    "sha256": "5a2afc7de72595f464092324feb1bac17e442b16fbe90b47bbba77299e31e9d8",
+    "bytes": 180513
+  },
+  {
+    "path": "assets/plates/japan/yamato-honzo-opening-plate.jpg",
+    "sha256": "f67f41348f3e841b0e498116dd74fd7f6fdef5fca0136d19ae54ffaf06a38e89",
+    "bytes": 3795568
+  },
+  {
+    "path": "assets/plates/korea/donguibogam-printed-page.jpg",
+    "sha256": "12ef546e2295ff3733f29e822821fb42505825881d110cfbbbe994f52745c9df",
+    "bytes": 2468345
+  }
+]

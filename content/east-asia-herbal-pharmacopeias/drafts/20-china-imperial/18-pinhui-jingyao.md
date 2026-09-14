@@ -10,6 +10,8 @@ jurisdictions: [china]
 period: ming
 claims_guard: strict
 voice: essay
+figures:
+  - eahp.plates.ming-huangqin
 ---
 
 # The Ming album that stayed in the palace
@@ -23,6 +25,24 @@ What the book was trying to be is clearer than the scandal.
 It wants **a grid**. Later descriptions list twenty-four fields for each substance: name, seedling, place, time, harvest, use, substance, color, taste, nature, qi, smell, and so on through contraindications and fakes. That is an administrative fantasy of completeness. It is also, if you squint, closer to a monograph than Tao’s page or Tang Shenwei’s chorus. I will not call it a modern monograph. I will say the palace wanted every drug to answer the same questions in the same order.
 
 It wants **color**. Not Su Song’s travelable line. Court pigment. Some pictures, scholars now say, are *Zhenglei* lines dressed in imagined color. Some look like they have met a plant or a pharmacy specimen in Beijing. The mix is the point. A court painter is not a field botanist. A color that was guessed from a sentence is a claim about the sentence, not about the leaf.
+
+<figure class="eahp-figure" id="eahp-fig-ming-huangqin" itemscope itemtype="https://schema.org/ImageObject">
+  <img
+    src="../../assets/plates/china/ming-huangqin-scutellaria-wellcome.jpg"
+    alt="Ming-period materia medica color plate of huangqin (Scutellaria) from the Wellcome Chinese Materia Medica illustration set."
+    width="1200"
+    height="1800"
+    loading="lazy"
+    decoding="async"
+    itemprop="contentUrl"
+  />
+  <figcaption itemprop="caption">
+    <strong>Figure 1.</strong> <em>Huangqin</em> (Scutellaria) plate from the Ming materia medica illustration set held at Wellcome (L0039301). Wellcome catalogs it with other Ming court-style drug pictures; this pass has **not** matched the sheet to a specific *Pinhui jingyao* manuscript copy.
+    <span class="eahp-figure-credit">Credit: Wellcome Collection. CC BY 4.0.</span>
+  </figcaption>
+  <meta itemprop="name" content="Ming materia medica plate: huangqin (Wellcome L0039301)" />
+  <link itemprop="license" href="https://creativecommons.org/licenses/by/4.0/" />
+</figure>
 
 It wants **to be official**, and then officialness becomes privacy. This is the file’s lesson for the whole collection. Imperial sponsorship does not equal public standard. The 659 book at least entered a copy world we can still trip over in Dunhuang and Japan. The 1505 book entered a vault. Li Shizhen, working decades later as a failed examination candidate with a family workshop, will out-public the palace without meaning to. The *Gangmu* is unofficial and everywhere. The *Pinhui* is official and nowhere you can buy it — until modern facsimiles.
 

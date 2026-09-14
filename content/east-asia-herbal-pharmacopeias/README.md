@@ -26,6 +26,8 @@ The drafts treat that refusal as the subject.
 
 The machine-readable index is `MANIFEST.toml`. Shared bibliography is `SOURCES.md`. House rules live in `_editorial/`.
 
+**Plate overlay (draft):** museum/library *bencao* rasters live under `assets/plates/`. Rights ledger: `RIGHTS.md`. Figure IDs and essay mapping: `IMAGES.md`. SEO `<figure>` pattern: `_editorial/figure-seo-block.md`. Regenerate downloads: `python3 scripts/download_plates.py`.
+
 ## Claims guard, short form
 
 - Legendary attribution is not authorship.
