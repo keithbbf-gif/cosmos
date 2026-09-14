@@ -8,7 +8,7 @@ era: 626–539 BCE
 focus: textual evidence
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Neo-Babylonian household furniture in texts
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **neo-babylonian household furniture in texts** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **626–539 BCE** and the regional lens **Babylonia** constrain what can responsibly be said about **textual evidence** in domestic, ceremonial, and funerary contexts.
+Neo-Babylonian legal and economic texts **626–539 BCE** name household goods: beds, chairs, tables, lamps. Furniture appears in dowry lists, debt pledges, and temple leases—language without illustration.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Translating Akkadian terms onto modern typology risks false precision. Some words may mean chests used as seats; context clauses matter.
 
-For **textual evidence**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Typology here is **text-forward**: group by determinative and by room of mention (roof terrace, inner chamber).
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Timeline crosses Nabopolassar through Cyrus’s entry; archival density peaks in late archives.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Babylonia map orients Ur, Uruk, Babylon urban households.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Flag: few published joins between text lines and excavated Neo-Babylonian house plans.
 
 ## Sources to consult
 

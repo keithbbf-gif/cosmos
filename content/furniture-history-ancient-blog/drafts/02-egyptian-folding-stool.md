@@ -8,7 +8,7 @@ era: 2686–30 BCE
 focus: folding stool
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Egyptian folding stools: joinery and rank
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **egyptian folding stools: joinery and rank** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **2686–30 BCE** and the regional lens **Nile Valley** constrain what can responsibly be said about **folding stool** in domestic, ceremonial, and funerary contexts.
+The Egyptian folding stool is a portable argument about rank. In the New Kingdom especially, painted tomb scenes show officials carrying lattice-legged stools that open with crossed struts—furniture light enough for processions yet stiff enough for court. **2686–30 BCE** spans formats from compact camp stools to gilded examples buried with nobles.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Surviving wooden frames, often from Theban tombs, reveal careful pegging and animal-skin seats rather than upholstered panels. Lion paws on front legs echo palace thrones but on a collapsible scale; the typology diagram contrasts ceremonial fixed chairs with foldable field furniture. Joinery had to survive repeated opening without metal hinges as we know them—leather sleeves and shaped pivots carried the load.
 
-For **folding stool**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Texts and scenes pair the stool with scribal kits and overseer roles: to sit on a folding stool was to hold delegated authority, not domestic ease. Misreading these objects as camping gear flattens Egyptian social grammar.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Fig. 1 anchors well-dated tomb groups (Eighteenth Dynasty Thebes, Ramesside burials) against long-lived types that persist into Ptolemaic painting. Where chronology wobbles between iconographic persistence and new joinery tricks, prose should say so plainly.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+The Nile Valley map marks workshop centers and import routes for ebony and ivory inlays sometimes applied to stool rails. It does not survey every nome; it orients the reader toward corpus volumes on furniture from Egyptian museums (described textually, not photographed here).
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Reconstruction drawings in older publications occasionally over-tighten lattice angles. Prefer measured drawings from excavation archives when building a physical replica; use these schematics for classroom comparison only.
 
 ## Sources to consult
 

@@ -8,7 +8,7 @@ era: 2000 BCE–500 CE
 focus: textiles
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Bolsters, cushions, and ancient upholstery logic
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **bolsters, cushions, and ancient upholstery logic** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **2000 BCE–500 CE** and the regional lens **Cross-regional** constrain what can responsibly be said about **textiles** in domestic, ceremonial, and funerary contexts.
+Ancient **bolsters, cushions, and woven covers** **2000 BCE–500 CE** converted rigid frames into usable seats. Textiles rarely survive; tomb linens and impression marks on bronze couch fittings hint at stuffing.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Symposium and triclinium culture depends on textile layer as much as wood.
 
-For **textiles**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Typology: **bolster**, **mattress sack**, **draped cover**.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Timeline tracks wool vs. linen prestige by region.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Cross-regional schematic.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Weak preservation biases argument toward Egypt and Pompeii.
 
 ## Sources to consult
 

@@ -8,7 +8,7 @@ era: 550–330 BCE
 focus: trade routes
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Long-distance furniture in the Achaemenid sphere
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **long-distance furniture in the achaemenid sphere** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **550–330 BCE** and the regional lens **Near East** constrain what can responsibly be said about **trade routes** in domestic, ceremonial, and funerary contexts.
+Luxury wood moved across the Achaemenid sphere along roads and sea lanes **550–330 BCE**. Cedar from Lebanon, Indian ivory, Egyptian ebony—texts and archaeology trace **materials** more often than finished dining sets.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Administrative tablets and Greek mercenary memoirs mention portable tables and elaborate beds in royal baggage trains. Furniture here is logistics: pack animals, disassembly, regilding after transit.
 
-For **trade routes**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Typology for trade focuses on **flat-pack tables**, folding stands, and throne components shipped as prestige gifts.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Timeline aligns foundation of royal road systems with increased gift exchange in fifth-century diplomacy.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Near East map marks Sardis, Susa, Persepolis, and Mediterranean ports—schematic trade arcs only.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Thin citation zone: quantified export volumes for furniture specifically are rare; infer from timber duties and gift lists.
 
 ## Sources to consult
 

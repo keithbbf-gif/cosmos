@@ -8,7 +8,7 @@ era: 200 BCE–400 CE
 focus: dining couch
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Triclinium layout and dining furniture
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **triclinium layout and dining furniture** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **200 BCE–400 CE** and the regional lens **Roman Empire** constrain what can responsibly be said about **dining couch** in domestic, ceremonial, and funerary contexts.
+Roman dining rooms arrange three **lecti** around a central table so guests recline on the left arm. The **triclinium** layout—walls marked for couch placement, mosaics implying orientation—outlasts the wooden couches themselves across the Empire **200 BCE–400 CE**.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Pompeian houses preserve floor cues; literary satire preserves social embarrassment when a guest receives the wrong couch. Cushions and bolsters (see the series essay on upholstery) convert hard frames into hour-long meals.
 
-For **dining couch**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Typology contrasts U-shaped formal arrangements with simpler single-couch dining in apartments.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Western Empire sites versus eastern palaces show divergent leg carving fashions; the timeline notes third-century shifts without over-precision.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Schematic map traces couch exports through port cities, not consumer surveys.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Museum dioramas that cram three full couches into small rooms ignore architectural measurements from house plans.
 
 ## Sources to consult
 

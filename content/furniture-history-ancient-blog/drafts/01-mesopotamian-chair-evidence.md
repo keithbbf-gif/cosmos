@@ -8,7 +8,7 @@ era: 3000–539 BCE
 focus: chair typology
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Chairs in Mesopotamia: relief evidence and status
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **chairs in mesopotamia: relief evidence and status** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **3000–539 BCE** and the regional lens **Mesopotamia** constrain what can responsibly be said about **chair typology** in domestic, ceremonial, and funerary contexts.
+Mesopotamian chairs arrive in the archaeological record mostly as ghosts: legs and tenons in palace destruction levels, and far more often as carved stone substitutes for wood on palace reliefs. Between **3000 and 539 BCE**, the question is not whether elites sat elevated—they did—but how sculptors translated workshop reality into an iconography of command.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Cylinder seals and Early Dynastic plaques already show figures on high-backed seats, while Neo-Assyrian palace programs freeze the king on a throne whose legs terminate in lion paws or bull hooves. Those animal feet are rhetorical, not zoological; they signal domination over the ordered world. Typology therefore tracks **posture protocols** as much as joinery: who may sit, on what height, with arms exposed or shielded by a wrap-around back.
 
-For **chair typology**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Cuneiform inventories occasionally list wooden furniture alongside metal fittings, but rarely describe silhouette. When a text mentions a chair of ebony or cedar, the modern reader still lacks seat depth and back rake. The typology plate (Fig. 3) separates morphotypes—open stool, wrap-around throne, portable folding frame—so readers do not collapse distinct social uses into one generic “Mesopotamian chair.”
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Chronology matters because chair height rises with centralized spectacle. Third-millennium seats in temples differ from eighth-century Assyrian audience furniture in scale and in the relief convention that enlarges the king’s knees toward the viewer. The timeline (Fig. 1) stays coarse; debates over Uruk IV versus Early Dynastic III seating belong in footnotes, not in millimeter-precise graphics.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Maps here are schematic guides to circulation: Mari, Nimrud, Babylon, Susa. Cedar moved downriver; ideas about enthronement moved with ambassadors and captured craftsmen. Compare the map with site plans in excavation reports rather than treating coastlines as GIS truth.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Gallery labels that show a single reconstructed throne risk implying a unified typology across two millennia. These redrawn figures state their didactic intent: morphology and rank, not a forged photograph of one accessioned object.
 
 ## Sources to consult
 

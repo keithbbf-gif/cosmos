@@ -8,7 +8,7 @@ era: 600–146 BCE
 focus: chair typology
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Greek chair types: thronos, klismos, diphros
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **greek chair types: thronos, klismos, diphros** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **600–146 BCE** and the regional lens **Hellenic world** constrain what can responsibly be said about **chair typology** in domestic, ceremonial, and funerary contexts.
+Greek vocabulary sorts seating finer than English does: **thronos** (enthroned authority), **klismos** (curved stile chair), **diphros** (backless stool), **thronos** versus priestly **bathron**. Literary and votive evidence from **600–146 BCE** must align with scant wooden remains and abundant pottery scenes.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+The klismos silhouette—saber legs, horizontal back rails—becomes an export image of Hellenic taste. Stone reliefs and bronze mirrors preserve the line when wood fails. Typology plates separate thronos mass from klismos elegance and diphros portability.
 
-For **chair typology**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Chairs appear in drama as props of office: the tyrant’s seat, the judge’s bench. Reading typology without tragedy and oratory loses the performative frame.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Chronology tracks Persian War-era simplicity against fourth-century luxury inlays documented in inventories.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Hellenic world map marks Athens, Sparta, Delphi votives, and colonial finds—not a political border map.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Lexicon essays need philological caution; this piece flags thin spots where Latin **sella** later overlays Greek terms in bilingual inscriptions.
 
 ## Sources to consult
 

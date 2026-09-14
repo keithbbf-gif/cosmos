@@ -8,7 +8,7 @@ era: 550–330 BCE
 focus: throne
 status: draft
 graphics: complete
-voice_check: human
+voice_check: edited
 ---
 
 # Achaemenid throne protocol and audience furniture
@@ -31,21 +31,17 @@ voice_check: human
 
 ## Evidence and argument
 
-This essay treats **achaemenid throne protocol and audience furniture** as a problem in evidence, not as a catalog of pretty objects. The chronological frame **550–330 BCE** and the regional lens **Persia** constrain what can responsibly be said about **throne** in domestic, ceremonial, and funerary contexts.
+Achaemenid audience scenes at Persepolis encode throne protocol in stone: the king elevated, attendants with flywhisks, tribute bearers on lower ground **550–330 BCE**. Wooden thrones did not survive the burnings; the relief is the furniture.
 
-Ancient furniture rarely survives intact. We reconstruct it from intersecting lines: excavation plans, relief sculpture, tomb inventories, price lists, and—where preservation allows—metal fittings or mineralized wood. Each line of evidence carries its own bias. Reliefs exaggerate height; inventories abbreviate; luxury goods travel farther than their makers.
+Classical authors describe golden thrones and portable camps; archaeology supplies platform heights and stair alignments that imply furniture scale.
 
-For **throne**, typology is a working tool, not a taxonomy carved in stone. Museum catalogs often assign type numbers to fragments that ancient users would have recognized by material, patron, and occasion. The schematic figures embedded in this article separate **morphology** (legs, back, seat height) from **social function** (who may sit, who must stand, who reclines).
+Typology separates **enthronement on platform** from **camp stool** mobility for royal tours.
 
-Comparative plates in this series follow a consistent graphic contract: redrawn line work, neutral ground, no photographic simulation of specific museum accession numbers. Where a published excavation drawing informs a silhouette, the caption states the publication—not a implied license to reproduce the museum’s photograph.
+Timeline crosses Cyrus through Darius III; Macedonian conquest ends the court but not the image repertoire.
 
-Joinery and surface treatment belong in the same paragraph as status. A folding stool and a fixed throne may share cedar and ebony veneers yet answer different protocols. Reading furniture without those protocols produces anachronistic living-room furniture in scholarly prose.
+Persia schematic map includes satrap capitals where local workshops adapted court forms.
 
-The timeline figure anchors debates that prose alone scatters: foundation dates of palaces, terminuses of dynasties, and the lag between artistic fashion and archaeological closure contexts. When dates disagree in secondary literature, the essay notes the disagreement in text and keeps the figure intentionally coarse.
-
-Regional maps in this pack are **schematic**. They show where the argument travels, not a GIS export. Use them beside gazetteers and excavation site plans.
-
-Finally, reconstruction ethics: displaying a piece in a gallery implies a chain of inference each link of which should be visible. This blog’s figures are staged didactic diagrams—Serious in the sense of museum caption discipline, honest in the sense of refusing forged artifact photography.
+Avoid conflating Apadana relief thrones with later Sasanian silver furniture; series cross-links handle succession.
 
 ## Sources to consult
 
