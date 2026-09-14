@@ -17,7 +17,7 @@ citations:
   - "UCC § 2-201"
   - "UCC § 2-201(3)(a)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 907
 verify:
   - "House revision-block fields and approval email language [VERIFY]"

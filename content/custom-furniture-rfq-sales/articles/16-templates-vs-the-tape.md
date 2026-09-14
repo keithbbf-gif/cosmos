@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "AWI Standards (field verification)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 760
 verify:
   - "House template materials and storage [VERIFY]"

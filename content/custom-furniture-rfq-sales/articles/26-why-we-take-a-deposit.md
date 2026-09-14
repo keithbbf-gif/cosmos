@@ -16,7 +16,7 @@ citations:
   - "UCC § 2-501"
   - "UCC § 2-709"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 797
 verify:
   - "House deposit percent — do not invent [VERIFY]"

@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Architectural Graphic Standards"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 888
 verify:
   - "House delivery-path checklist revision [VERIFY]"

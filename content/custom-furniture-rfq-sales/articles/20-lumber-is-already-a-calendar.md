@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "EPA TSCA Title VI (composite cores)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 839
 verify:
   - "House moisture targets and rack practice — do not invent meter readings [VERIFY]"

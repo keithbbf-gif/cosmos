@@ -15,7 +15,7 @@ citations:
   - "Time-Saver Standards for Interior Design and Space Planning"
   - "NKBA Kitchen Planning Guidelines"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 962
 verify:
   - "Confirm Graphic Standards / Time-Saver edition on the shop shelf before treating seating widths as gospel [VERIFY]"

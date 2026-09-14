@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-508"
   - "Bill of lading"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 636
 verify:
   - "House delivery ticket fields [VERIFY]"

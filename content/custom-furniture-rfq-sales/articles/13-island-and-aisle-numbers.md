@@ -14,7 +14,7 @@ citations:
   - "NKBA Kitchen Planning Guidelines"
   - "AWI Standards"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 947
 verify:
   - "NKBA edition in hand before printing aisle inches as NKBA's current figure [VERIFY]"

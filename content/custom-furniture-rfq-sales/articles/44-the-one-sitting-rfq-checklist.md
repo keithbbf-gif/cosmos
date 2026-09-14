@@ -15,8 +15,8 @@ citations:
   - "UCC § 2-201"
   - "16 CFR Part 435"
 status: draft
-voice_check: human
-word_count: 631
+voice_check: edited
+word_count: 680
 verify:
   - "House intake form — align fields if one exists [VERIFY]"
 ---
@@ -95,10 +95,6 @@ One sitting. Fail closed on measure and path. Send. When the quote returns, run 
 
 Dealers: put this on the back of the one-pager (piece 05). Households: put it on the fridge until the ack exists. Then put the ack on the fridge. The checklist is a gate. The ack is the job.
 
-## Fail closed on 2 and 3
-
-If the inches or the path fail, do not send. The rest of the list can be pretty and you will still have a porch. Get a tape. Walk the landing. Then send. Money boxes wait for the quote and the drawing. Mixing money with the first measure is how hallway deposits happen.
-
 ## After they quote
 
 - [ ] Scope initialed as written.
@@ -108,3 +104,7 @@ If the inches or the path fail, do not send. The rest of the list can be pretty 
 - [ ] Site climate warning if new build (piece 36).
 
 If section 2 or 3 fails, do not send. Get a tape. The corkboard can wait (piece 01). The landing will not grow while you type.
+
+Keep a PDF of the packet you sent. When the quote returns, diff it against your boxes: if their scope dropped a path measure or a finish rule, that is not a cheaper table — it is a different job (piece 41). Initialed scope beats a polite email that says "same as discussed."
+
+This checklist is not a contract. It is a habit that keeps RFQs out of the hallway-date pile (piece 03). Run it once per job, not once per shop email thread. When the ack arrives, file the signed copy next to the packet you sent so a slip in week twelve has a paper trail.

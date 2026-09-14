@@ -16,7 +16,7 @@ citations:
   - "UCC § 2-207"
   - "AWI Standards (shop drawings)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 977
 verify:
   - "House RFQ form revision and required fields [VERIFY]"

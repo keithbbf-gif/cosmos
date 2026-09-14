@@ -14,7 +14,7 @@ citations:
   - "UCC § 2-207"
   - "UCC § 2-201"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 939
 verify:
   - "Sample dealer form in the shop office [VERIFY]"

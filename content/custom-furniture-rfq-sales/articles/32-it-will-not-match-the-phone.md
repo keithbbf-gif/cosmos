@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Magnuson-Moss Warranty Act, 15 U.S.C. § 2301"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 744
 verify:
   - "House movement / color language on the warranty card [VERIFY]"

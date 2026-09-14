@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "UCC § 2-501"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 639
 verify:
   - "House list of what deposit does not include [VERIFY]"

@@ -14,8 +14,8 @@ citations:
   - "Magnuson-Moss Warranty Act, 15 U.S.C. § 2301"
   - "16 CFR Parts 700–703"
 status: draft
-voice_check: human
-word_count: 686
+voice_check: edited
+word_count: 652
 verify:
   - "House warranty card — do not invent years [VERIFY]"
 ---
@@ -48,7 +48,7 @@ Healthcare and hospitality (piece 46) often want a spec warranty and a parts ter
 
 ## Dealers
 
-Your store card and the mill card will disagree. Read both before you sell. If you add a store warranty, you own it. If you only pass through the mill, say so. Chargebacks that invent coverage the mill never wrote are how friendships end (piece 33).
+Your store card and the mill card will disagree. Read both before you sell. If you add a store warranty, you own it. If you only pass through the mill, say so on the ticket. Chargebacks that invent coverage the mill never wrote are how friendships end (piece 33). Chargebacks that invent years are how the next special gets a deposit the mill will not waive (piece 26, piece 33).
 
 ## How this sits next to the punch list
 
@@ -57,10 +57,6 @@ Delivery day is for misses against the spec (piece 37). Year three is for a join
 ## Words to keep off the card
 
 Heirloom. Lifetime, unless counsel blessed the disclosures. Match any photo. Never moves. Full, unless it is a full warranty on purpose. "We stand behind our work" without a how-to-claim. Put the how-to-claim. Put the as-specified pointer. Put the movement paragraph. That card will feel less warm and will fail less often in year three.
-
-## Two cards will disagree
-
-Store card and mill card. Read both before you sell. If you add coverage the mill never wrote, you own it. If you only pass through the mill, say so on the ticket. Chargebacks that invent years are how the next special gets a deposit the mill will not waive (piece 26, piece 33).
 
 ## The ack lines
 

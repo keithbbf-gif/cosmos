@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "16 CFR Part 435"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 810
 verify:
   - "House rush policy if any — do not invent a percent [VERIFY]"

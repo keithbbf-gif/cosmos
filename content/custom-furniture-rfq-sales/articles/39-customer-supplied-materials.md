@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "UCC § 2-201(3)(a)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 669
 verify:
   - "House COM / COS / customer-finish rules [VERIFY]"

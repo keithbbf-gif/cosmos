@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "AWI Standards (installation environment)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 642
 verify:
   - "House site-readiness checklist [VERIFY]"

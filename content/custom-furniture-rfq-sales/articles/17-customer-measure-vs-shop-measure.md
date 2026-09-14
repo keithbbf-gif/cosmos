@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-601"
   - "UCC § 2-508"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 780
 verify:
   - "House site-measure fee and ack sentence [VERIFY]"

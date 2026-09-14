@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Bill of lading / NMFC (carrier rules)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 671
 verify:
   - "House freight menu and who quotes it [VERIFY]"

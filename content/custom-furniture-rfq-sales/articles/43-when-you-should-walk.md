@@ -15,7 +15,7 @@ citations:
   - "16 CFR Part 435"
   - "UCC § 2-201"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 701
 verify:
   - "None — process piece"

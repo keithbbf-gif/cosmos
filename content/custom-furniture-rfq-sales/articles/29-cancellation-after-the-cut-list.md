@@ -17,8 +17,8 @@ citations:
   - "UCC § 2-201(3)(c)"
   - "16 CFR Part 435"
 status: draft
-voice_check: human
-word_count: 847
+voice_check: edited
+word_count: 823
 verify:
   - "House cancellation schedule — do not invent restocking percents [VERIFY]"
 ---
@@ -57,13 +57,9 @@ Do not write "100% refundable until delivery" on a custom special unless the mil
 
 ## Homeowners
 
-Life happens: moves, deaths, a job loss. Say the truth early. A shop can sometimes stop before the next coat (piece 21). Early is money. Late is oak.
+Life happens: moves, deaths, a job loss. Call the same day you know. A shop can often stop before the next coat or before the hardware PO (piece 21). Early is money. Late is oak. A call in week six after a finished top is a different pile.
 
 If you are canceling because the shop slipped a date, that is a different sentence (piece 25). If you are canceling because you want a different table, that is this sentence. Do not dress one as the other.
-
-## Talk on the day the life changes
-
-Move, death, job loss — call the same day. A shop can often stop before the next coat or before the hardware PO. A call in week six after a finished top is a different pile of oak.
 
 Ask what is already identified to the job. Ask what can be sold as a sample and at what hit. Ask what cannot. Get it in email. Do not accept a round "custom, no refunds" if the saw has not run. Do not demand a full refund if your name is in the stretcher and the film is cured. Those are different days. The ack should have named the days while you were still friends.
 

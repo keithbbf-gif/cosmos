@@ -2,7 +2,7 @@
 
 Voice is the product. A dealer writing a purchase order and a homeowner measuring a dining room should finish a piece and trust the shop. If it sounds like a closing script, it fails even when the process is real.
 
-`voice_check: human` in front matter means the draft was written against this file, not that a model is claiming to be a person.
+`voice_check: human` means a first draft written against this file. `voice_check: edited` means an editor pass (grammar, claims fence, sales-script scrub) without changing the shop-education mandate. Neither flag claims a human byline.
 
 ## Who is speaking
 
@@ -106,11 +106,11 @@ topic: rfq | measure | lead-time | deposit | quote | delivery | dealer | homeown
 series: custom-furniture-rfq-sales
 citations: list
 status: draft
-voice_check: human
+voice_check: edited   # or human before editor pass
 word_count: integer   # body after last self-edit; exclude YAML
 verify: list
 ```
 
-## Voice check before `voice_check: human`
+## Voice check before `voice_check: edited`
 
-Read the draft out loud. If a sentence could sit under any other furniture brand without changing a noun, rewrite it. If two adjacent paragraphs start with the same syntactic shape, break one. If you cannot point to a source for a number, flag it or delete it. If the closer could be a paid ad, cut it.
+Read the draft out loud. If a sentence could sit under any other furniture brand without changing a noun, rewrite it. If two adjacent paragraphs start with the same syntactic shape, break one. If you cannot point to a source for a number, flag it or delete it. If the closer could be a paid ad, cut it. Legal citations teach process; they do not replace counsel or the signed acknowledgment.

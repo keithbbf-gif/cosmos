@@ -15,7 +15,7 @@ citations:
   - "State sales-tax rules (jurisdiction-specific)"
   - "Bill of lading / freight estimate"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 676
 verify:
   - "House tax practice and who collects [VERIFY] — not tax advice"

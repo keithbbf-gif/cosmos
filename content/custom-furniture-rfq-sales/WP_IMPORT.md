@@ -20,7 +20,7 @@ Markdown drafts with YAML front matter under `articles/`. Forty-four posts plus 
 | `era_focus` | custom field `era_focus` |
 | `citations` | custom field `citations` (JSON or one URL per line) |
 | `status: draft` | **Draft.** Never map to `publish` or `future`. |
-| `voice_check: human` | custom field. Internal QA flag, not a displayed byline. |
+| `voice_check: edited` | custom field. Internal QA flag (`human` = first draft; `edited` = editor pass). Not a displayed byline. |
 
 Suggested post type: `post`. Category: `Custom orders` (create once). Do not file under `Shop` or `Sale`.
 

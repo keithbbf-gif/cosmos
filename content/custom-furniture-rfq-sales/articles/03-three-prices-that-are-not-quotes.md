@@ -16,7 +16,7 @@ citations:
   - "UCC § 2-201"
   - "16 CFR Part 435"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 990
 verify:
   - "House practice for labeling ballparks on email [VERIFY]"

@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Bill of lading / NMFC"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 643
 verify:
   - "House crate vs blanket practice [VERIFY]"

@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "16 CFR Part 435"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 914
 verify:
   - "Do not publish a house week-count as policy [VERIFY]"

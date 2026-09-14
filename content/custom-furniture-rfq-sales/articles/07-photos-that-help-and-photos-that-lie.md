@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "FTC Made in USA (adjacent: photo claims)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 915
 verify:
   - "Do not publish customer interiors without clearance"

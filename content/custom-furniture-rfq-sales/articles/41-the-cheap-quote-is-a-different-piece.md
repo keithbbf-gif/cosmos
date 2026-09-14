@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "UCC § 2-201"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 645
 verify:
   - "None — process piece"

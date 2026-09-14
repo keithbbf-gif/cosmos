@@ -15,7 +15,7 @@ citations:
   - "Architectural Graphic Standards"
   - "NKBA Kitchen Planning Guidelines"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 932
 verify:
   - "House site-measure form revision [VERIFY]"

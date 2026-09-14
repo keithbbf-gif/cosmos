@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "UCC § 2-207"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 649
 verify:
   - "Any live MAP or dealer program — do not invent [VERIFY]"

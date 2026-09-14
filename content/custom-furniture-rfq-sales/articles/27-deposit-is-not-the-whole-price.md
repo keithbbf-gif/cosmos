@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-709"
   - "UCC § 2-511"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 783
 verify:
   - "House split and COD practice [VERIFY]"

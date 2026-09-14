@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "UCC § 2-201(3)(a) (procurement commitments)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 768
 verify:
   - "House list of chronic buyout vendors [VERIFY]"

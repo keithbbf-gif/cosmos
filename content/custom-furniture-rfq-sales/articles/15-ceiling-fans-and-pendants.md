@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Architectural Graphic Standards"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 773
 verify:
   - "House note on pendant-to-table target if any [VERIFY]"

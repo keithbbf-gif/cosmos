@@ -17,7 +17,7 @@ citations:
   - "FTC Business Guide to the Mail, Internet, or Telephone Order Merchandise Rule"
   - "UCC § 2-201"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 912
 verify:
   - "House delay-notice template and which channels are remote [VERIFY]"

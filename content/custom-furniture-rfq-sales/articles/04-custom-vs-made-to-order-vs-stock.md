@@ -15,7 +15,7 @@ citations:
   - "UCC § 2-201(3)(a)"
   - "UCC § 2-501"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 1031
 verify:
   - "House definitions on the ack if they exist [VERIFY]"

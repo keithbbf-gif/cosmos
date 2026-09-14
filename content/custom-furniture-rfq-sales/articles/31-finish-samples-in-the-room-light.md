@@ -14,7 +14,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Finish product TDS (named per job)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 706
 verify:
   - "House sample-board process [VERIFY]"

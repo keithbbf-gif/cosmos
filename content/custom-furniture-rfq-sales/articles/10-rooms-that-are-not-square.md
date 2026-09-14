@@ -14,7 +14,7 @@ citations:
   - "Architectural Graphic Standards"
   - "AWI Standards (tolerances)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 959
 verify:
   - "House scribing / field-fit notes on built-ins [VERIFY]"

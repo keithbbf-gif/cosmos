@@ -15,7 +15,7 @@ citations:
   - "AWI Standards (revisions)"
   - "UCC § 2-209 (modification)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 669
 verify:
   - "House freeze gate and change-order form [VERIFY]"

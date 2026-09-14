@@ -16,7 +16,7 @@ citations:
   - "AWI Standards"
   - "16 CFR Part 435 (if the channel is remote)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 758
 verify:
   - "Do not present heritage-page projects as current contracts [VERIFY]"

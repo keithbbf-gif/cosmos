@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Finish product SDS / recoat windows (named per job)"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 739
 verify:
   - "Do not invent a house finish system or VOC slogan [VERIFY]"

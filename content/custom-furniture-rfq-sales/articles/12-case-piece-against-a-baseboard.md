@@ -13,7 +13,7 @@ series: custom-furniture-rfq-sales
 citations:
   - "Architectural Graphic Standards"
 status: draft
-voice_check: human
+voice_check: edited
 word_count: 881
 verify:
   - "House scribe-rail / plinth details [VERIFY]"
