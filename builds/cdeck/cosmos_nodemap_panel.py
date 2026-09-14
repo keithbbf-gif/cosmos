@@ -42,15 +42,24 @@ def handle_get(root: str, expected_tree_id: str | None = None,
     matrix: list[dict] = []
     source = "disk"
 
+    stale: list[dict] = []
     if reg is not None:
         matrix = reg.get("matrix") or []
+        stale = list(reg.get("stale") or [])
         reg_nodes = reg.get("nodes") or []
         for nid in reg_nodes:
             nodes.append({"id": nid, "label": nid, "type": "rail"})
-        for m in matrix:
+        for m in list(matrix) + stale:
             lid = m.get("link_id") or m.get("id") or ""
-            if lid not in {n["id"] for n in nodes}:
-                nodes.append({"id": lid, "label": lid, "type": "rail"})
+            if lid and lid not in {n["id"] for n in nodes}:
+                nodes.append({
+                    "id": lid,
+                    "label": m.get("node") or lid,
+                    "type": "rail",
+                    "proof_state": m.get("proof_state"),
+                    "model": m.get("model"),
+                    "independence_note": m.get("independence_note"),
+                })
     elif kernel_matrix is not None:
         matrix = kernel_matrix
         source = "kernel.matrix"
@@ -66,8 +75,10 @@ def handle_get(root: str, expected_tree_id: str | None = None,
         "tree_id": tree_id,
         "topology": {"nodes": nodes, "edges": edges},
         "registry": {
-            "available": len(matrix) > 0,
+            "available": len(matrix) > 0 or len(stale) > 0,
             "source": source,
             "matrix": matrix,
+            "stale": stale,
+            "stale_count": len(stale),
         },
     }

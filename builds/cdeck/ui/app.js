@@ -136,11 +136,33 @@
       "<ul class=\"sys-list\">" + parts + "</ul>";
   }
 
+  function _proofPaint(r) {
+    var st = r && r.proof_state;
+    if (st === "STALE") return { cls: "bad", txt: "STALE" };
+    if (st === "FAILED") return { cls: "bad", txt: "FAILED" };
+    if (st === "LIVE" || r.verified === true) return { cls: "ok", txt: "LIVE" };
+    if (r.verified === false) return { cls: "bad", txt: "FAILED" };
+    return { cls: "warn", txt: "UNMEASURED" };
+  }
+
+  function _modelCell(r) {
+    var m = r && r.model;
+    if (m == null || String(m) === "") return '<span class="dim">UNMEASURED</span>';
+    return esc(m);
+  }
+
   function renderRails(d) {
     var el = $("sys-rails");
     if (!el) return;
     d = d || {};
-    var m = d.matrix || [];
+    var m = (d.matrix || []).slice();
+    var stale = d.stale || [];
+    stale.forEach(function (r) {
+      var lid = r.link_id || r.id;
+      if (!m.some(function (x) { return (x.link_id || x.id) === lid; })) {
+        m.push(r);
+      }
+    });
     if (m.length === 0) {
       el.innerHTML =
         '<h3 class="sys-hd">Rails</h3>' +
@@ -149,16 +171,18 @@
       return;
     }
     var rows = m.map(function (r) {
-      var v = r.verified;
-      var vCell = v === true ? '<span class="ok">✓</span>'
-        : v === false ? '<span class="bad">✗</span>'
-          : '<span class="warn">?</span>';
-      return "<tr><td>" + esc(r.link_id || r.rail || "?") + "</td><td>" + vCell + "</td></tr>";
+      var paint = _proofPaint(r);
+      var note = r.independence_note ? '<div class="tiny dim">' + esc(r.independence_note) + "</div>" : "";
+      var node = r.node ? esc(r.node) + " · " : "";
+      var trCls = paint.cls === "bad" ? ' class="stale-red"' : "";
+      return "<tr" + trCls + "><td>" + node + esc(r.link_id || r.rail || "?") + note +
+        "</td><td>" + _modelCell(r) + "</td>" +
+        '<td class="' + paint.cls + '">' + esc(paint.txt) + "</td></tr>";
     }).join("");
     el.innerHTML =
       '<h3 class="sys-hd">Rails</h3>' +
       '<p class="dim tiny">GET /api/v1/rails</p>' +
-      '<div class="twrap"><table><thead><tr><th>link</th><th>verified</th></tr></thead><tbody>' +
+      '<div class="twrap"><table><thead><tr><th>link</th><th>model</th><th>proof</th></tr></thead><tbody>' +
       rows + "</tbody></table></div>";
   }
 
@@ -199,9 +223,26 @@
     var topo = d.topology || {};
     var nodes = topo.nodes || [];
     var reg = d.registry || {};
-    var mx = reg.matrix || [];
-    var nodeLines = nodes.slice(0, 16).map(function (n) {
-      return "<li>" + esc(n.id || n.name || "?") + "</li>";
+    var mx = (reg.matrix || []).slice();
+    (reg.stale || []).forEach(function (r) {
+      var lid = r.link_id || r.id;
+      if (!mx.some(function (x) { return (x.link_id || x.id) === lid; })) {
+        mx.push(r);
+      }
+    });
+    var byId = {};
+    mx.forEach(function (r) {
+      byId[r.link_id || r.id] = r;
+    });
+    var nodeLines = (nodes.length ? nodes : mx).slice(0, 16).map(function (n) {
+      var id = n.id || n.link_id || n.name || "?";
+      var row = byId[id] || n;
+      var paint = _proofPaint(row);
+      var model = _modelCell(row);
+      var note = row.independence_note ? '<div class="tiny dim">' + esc(row.independence_note) + "</div>" : "";
+      var label = row.node || n.label || id;
+      return '<li class="' + paint.cls + '">' + esc(label) + " (" + esc(id) + ") · " +
+        model + " · " + esc(paint.txt) + note + "</li>";
     }).join("");
     el.innerHTML =
       '<h3 class="sys-hd">Nodemap</h3>' +

@@ -181,6 +181,55 @@
     paintJob(snapshot);
   }
 
+  function paintGbwNode(nodemap) {
+    var el = $("panel-forge-nodes");
+    if (!el) return;
+    var reg = (nodemap && nodemap.registry) || {};
+    var rows = (reg.matrix || []).concat(reg.stale || []);
+    var topo = (nodemap && nodemap.topology && nodemap.topology.nodes) || [];
+    if (!rows.length && topo.length) {
+      rows = topo;
+    }
+    var gbw = null;
+    var sgh = null;
+    rows.forEach(function (r) {
+      var lid = r.link_id || r.id || "";
+      var node = r.node || "";
+      if (lid === "gw-api" || node === "GBW") gbw = r;
+      if (lid === "sgh-api" || node === "SGH") sgh = r;
+    });
+    if (!gbw && !sgh) {
+      el.textContent = "GBW/SGH — UNMEASURED (GET /api/v1/nodemap)";
+      return;
+    }
+    function line(r, fallbackId) {
+      var lid = (r && (r.link_id || r.id)) || fallbackId;
+      var node = (r && r.node) || fallbackId;
+      var model = r && r.model ? r.model : "UNMEASURED";
+      var st = (r && r.proof_state) || (r && r.verified === true ? "LIVE" : "UNMEASURED");
+      var note = (r && r.independence_note) || "";
+      var cls = st === "STALE" || st === "FAILED" ? "bad" : (st === "LIVE" ? "ok" : "dim");
+      return (
+        '<div class="' +
+        cls +
+        '">' +
+        esc(node) +
+        " (" +
+        esc(lid) +
+        ") model=" +
+        esc(model) +
+        " " +
+        esc(st) +
+        (note ? '<div class="tiny dim">' + esc(note) + "</div>" : "") +
+        "</div>"
+      );
+    }
+    el.innerHTML =
+      '<h3 class="sys-hd">GBW / SGH</h3>' +
+      (gbw ? line(gbw, "GBW") : '<div class="dim">GBW — UNMEASURED</div>') +
+      (sgh ? line(sgh, "SGH") : '<div class="dim">SGH — UNMEASURED</div>');
+  }
+
   function seatPost(body, pane, label, onOk) {
     panelBusy(pane, true);
     return apiPost("/api/v1/model_rater/seat", body)
@@ -325,7 +374,19 @@
       .then(function (snap) {
         paintFromSnapshot(snap);
         return refreshPorosity().then(function (por) {
-          return { snapshot: snap, porosity: por };
+          return apiGet("/api/v1/nodemap")
+            .then(function (nm) {
+              paintGbwNode(nm);
+              return { snapshot: snap, porosity: por, nodemap: nm };
+            })
+            .catch(function (e) {
+              var j = e && e.json;
+              if (j && j.error === "CDECK_PANEL_NOT_COMPOSED") {
+                var el = $("panel-forge-nodes");
+                if (el) el.textContent = "CDECK_PANEL_NOT_COMPOSED";
+              }
+              return { snapshot: snap, porosity: por };
+            });
         });
       })
       .catch(function (e) {
@@ -350,6 +411,7 @@
     paintAdv: paintAdv,
     paintJob: paintJob,
     paintPorosity: paintPorosity,
+    paintGbwNode: paintGbwNode,
   };
 
   global.DeckForge = DeckForge;

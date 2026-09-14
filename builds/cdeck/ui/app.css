@@ -35,3 +35,7 @@ body[data-orch-mode="home"] #orch-home { display: block; }
 .twrap { overflow-x: auto; }
 .twrap table { width: 100%; border-collapse: collapse; font-size: 11px; }
 .twrap th, .twrap td { border-bottom: 1px solid #eee; padding: 2px 4px; text-align: left; }
+tr.stale-red td, .sys-list li.bad { color: #a00; font-weight: 700; }
+.ok { color: #080; }
+.bad { color: #a00; }
+.warn { color: #a60; }

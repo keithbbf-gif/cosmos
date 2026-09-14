@@ -61,6 +61,19 @@
       "</div>";
   }
 
+  function ensureForgeShell(panel) {
+    if (!panel || panel.dataset.shell === "1") return;
+    panel.dataset.shell = "1";
+    panel.innerHTML =
+      '<div class="sys-grid">' +
+      '<section id="panel-forge-ccr" class="sys-block" aria-label="forge ccr"></section>' +
+      '<section id="panel-forge-adv" class="sys-block" aria-label="forge adv"></section>' +
+      '<section id="panel-forge-job" class="sys-block" aria-label="forge job"></section>' +
+      '<section id="panel-forge-porosity" class="sys-block" aria-label="forge porosity"></section>' +
+      '<section id="panel-forge-nodes" class="sys-block" aria-label="forge nodes"></section>' +
+      "</div>";
+  }
+
   function showPanel(tabId) {
     var stage = document.getElementById("deck-stage");
     if (!stage) return;
@@ -69,6 +82,9 @@
     });
     if (tabId === "system" && typeof window.paintSystemTab === "function") {
       window.paintSystemTab();
+    }
+    if (tabId === "forge" && window.DeckForge && typeof window.DeckForge.refresh === "function") {
+      window.DeckForge.refresh();
     }
   }
 
@@ -94,6 +110,9 @@
       if (name === "system") {
         ensureSystemShell(panel);
         applyPaneGeom(panel, name);
+      }
+      if (name === "forge") {
+        ensureForgeShell(panel);
       }
       stage.appendChild(panel);
     });

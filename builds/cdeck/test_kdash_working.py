@@ -31,10 +31,12 @@ def _read(*names: str) -> str:
 def main() -> int:
     css = _read("header.css", "deck_more.css", "app.css")
     html = _read("index.html", "deck_more.html")
-    js = _read("header.js", "model_rater.js", "kdash_native.js", "app.js", "deck_tabs.js")
+    js = _read("header.js", "model_rater.js", "kdash_native.js", "app.js",
+               "deck_tabs.js", "deck_forge.js")
     blob = css + "\n" + html + "\n" + js
     appjs = _read("app.js")
     tabsjs = _read("deck_tabs.js")
+    forgejs = _read("deck_forge.js")
 
     check(
         "WINDOW: MESH and extra panes share the viewport; no vh floor clips the tab rail",
@@ -217,6 +219,44 @@ def main() -> int:
         "SYSTEM: 503 surfaces CDECK_PANEL_NOT_COMPOSED verbatim",
         "CDECK_PANEL_NOT_COMPOSED" in appjs,
         "503 string",
+    )
+
+    check(
+        "SYSTEM: rails/nodemap paint vendor model; UNMEASURED never 0; stale is RED",
+        "_modelCell" in appjs
+        and 'return \'<span class="dim">UNMEASURED</span>\'' in appjs
+        and "proof_state" in appjs
+        and 'st === "STALE"' in appjs
+        and "stale-red" in appjs
+        and "stale-red" in css,
+        "model/stale paint",
+    )
+
+    check(
+        "SYSTEM/FORGE: GBW+SGH independence note painted from payload (esc)",
+        "independence_note" in appjs
+        and "independence_note" in forgejs
+        and "paintGbwNode" in forgejs
+        and 'apiGet("/api/v1/nodemap")' in forgejs
+        and "esc(row.independence_note)" in appjs,
+        "independence",
+    )
+
+    check(
+        "FORGE: CCr seat painted from GET /api/v1/model_rater into panel-forge-ccr",
+        'apiGet("/api/v1/model_rater")' in forgejs
+        and "panel-forge-ccr" in forgejs
+        and "paintCcr" in forgejs,
+        "forge ccr",
+    )
+
+    check(
+        "FORGE: GBW node wired from GET /nodemap (not an independent check of SGH)",
+        "paintGbwNode" in forgejs
+        and 'lid === "gw-api"' in forgejs
+        and 'lid === "sgh-api"' in forgejs
+        and "panel-forge-nodes" in tabsjs,
+        "forge gbw",
     )
 
     failed = [r for r in RESULTS if not r[1]]

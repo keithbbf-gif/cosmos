@@ -118,6 +118,7 @@
   /* staleness / error states */
   .panel.stale{opacity:.55;border-color:var(--amber)}
   .panel.stale .age{color:var(--amber);font-weight:700}
+  tr.stale-red td{color:var(--red);font-weight:700}
   .panel.error{border-color:var(--red)}
   .panel.error .age{color:var(--red)}
   .errbox{
@@ -910,24 +911,33 @@
       return;
     }
     var rows = m.map(function(r){
+      var st = r.proof_state;
       var v = r.verified;
       var vCell;
-      if(v===true)       vCell = '<span class="ok">&#10003;</span>';
+      var trCls = "";
+      if(st==="STALE"){ vCell = '<span class="bad">STALE</span>'; trCls = ' class="stale-red"'; }
+      else if(v===true)       vCell = '<span class="ok">&#10003;</span>';
       else if(v===false) vCell = '<span class="bad">&#10007;</span>';
       else               vCell = '<span class="warn">UNKNOWN</span>';
       var ageS = (typeof r.age_s==="number" && isFinite(r.age_s)) ? humanAge(r.age_s)
                : '<span class="dim">—</span>';
-      return '<tr>'+
-        '<td>'+esc(r.link_id!=null?r.link_id:"—")+'</td>'+
+      var model = (r.model!=null && String(r.model)!=="") ? esc(r.model)
+                : '<span class="dim">UNMEASURED</span>';
+      var note = r.independence_note
+        ? '<div class="dim">'+esc(r.independence_note)+'</div>' : "";
+      var label = (r.node ? esc(r.node)+" · " : "")+esc(r.link_id!=null?r.link_id:"—");
+      return '<tr'+trCls+'>'+
+        '<td>'+label+note+'</td>'+
         '<td>'+esc(r.rail_type!=null?r.rail_type:"—")+'</td>'+
         '<td>'+esc(r.route!=null?r.route:"—")+'</td>'+
+        '<td>'+model+'</td>'+
         '<td>'+vCell+'</td>'+
         '<td>'+ageS+'</td>'+
         '</tr>';
     }).join("");
     $("bd-rails").innerHTML =
       '<div class="twrap"><table>'+
-      '<thead><tr><th>LINK</th><th>TYPE</th><th>ROUTE</th><th>VERIFIED</th><th>AGE</th></tr></thead>'+
+      '<thead><tr><th>LINK</th><th>TYPE</th><th>ROUTE</th><th>MODEL</th><th>VERIFIED</th><th>AGE</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>';
   }
 
