@@ -68,6 +68,15 @@ The 2018 D recommendation was specific: ≤400 IU D plus ≤1,000 mg calcium, co
 
 K2 does not rescue a disease claim. Carboxylation biochemistry is real. A 90 mcg MK-7 softgel is not Japanese MK-4 drug doses and not a CT-angiogram product. Warfarin warnings are not optional. Split elemental calcium across the day if GI tolerance is the brief. Assay elemental, not salt weight.
 
+
+## Stones, WHI, and the bundle that multiplies files
+
+USPSTF put kidney stones in the harm column in 2018. WHI calcium/D is the older megatrial people still argue about — stones, a CVD debate, a population that is not your 90 mcg MK-7 softgel. Do not average WHI, VITAL, and a 24-person MK-7 pilot into one "clinically proven bone bundle."
+
+Carbonate vs citrate is a meal and acid conversation (PPI, achlorhydria). Split elemental calcium across the day if GI tolerance is the brief. Assay elemental, not salt weight — the iron-salt trick with a new noun (piece 26).
+
+K1 is leafy greens and clotting conversations. MK-4 drug doses in Japan are not a US supplement. MK-7 at 90–180 mcg is a different article. Warfarin/VKA warning is not optional; DOACs are still a clinician. If you cannot print that warning, do not sell K2.
+
 ## What changed since 2020 (box)
 
 K2 left the naturopathic catalog and sat in every "bone bundle." The RCT file did not become VITAL. USPSTF 2018 stayed the US preventive-statement to beat, with a 2024 draft that is not kinder. Sell calcium as a gap-filler for people who do not eat dairy, with elemental math and a stone/CVD-honesty paragraph. Sell K2 only if you can say the biochemistry without promising a CT angiogram.

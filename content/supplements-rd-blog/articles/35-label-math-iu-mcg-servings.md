@@ -72,6 +72,19 @@ D3: 1 mcg = 40 IU. Divide, do not multiply. Folate: DFE, plus folic acid listed 
 
 Serving size is a claim engine. Six capsules of a two-capsule study is 3×. A 40 g scoop in a "30 g" tub is a nitrogen lie. Proprietary blends hide everything except the blend total — legal, and usually contemptible. 2026 is late for IU-only D3 as the legal panel.
 
+
+## Worked conversions that belong in a locked cell
+
+Vitamin D: 1 mcg = 40 IU. 25 mcg = 1,000 IU. 125 mcg = 5,000 IU. Divide IU to get mcg; do not multiply. A spreadsheet that multiplies is a recall.
+
+Folate: mcg DFE. Folic acid, when used, listed separately. Food folate and folic acid are not 1:1 (piece 25).
+
+Vitamin A: mcg RAE. Retinol and carotenoids convert differently. A gummy that stacks both can look modest in old IU and rude in RAE.
+
+Vitamin E: mg, form-specific factor (d-alpha vs dl-alpha) from ODS, not from memory.
+
+Serving size is a claim engine. Six capsules of a two-capsule study is 3×. A 40 g scoop in a "30 g" tub is a nitrogen lie (piece 06). Proprietary blends hide everything except the blend total. The COA unit must match the panel unit (piece 16). 2026 is late for IU-only D3 as the legal panel. Artwork that froze under 2020 overtime (piece 11) is why dual-unit stickers still exist — they are not the system of record.
+
 ## What changed since 2020 (box)
 
 The new panel became mandatory while plants were running COVID overtime (piece 11). Artwork froze. Dual-unit stickers appeared. 2026 is late to still be shipping IU-only D3 as the legal panel. Fix the template, then the next SKU.

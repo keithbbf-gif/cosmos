@@ -74,6 +74,15 @@ A media invoice without a claim list is how a Reel writes your intended use. Ban
 
 Typicality: if the creator lost 20 pounds, you need evidence that is typical, or you need to not post it. FTC 2022 already said that. The 2023 guides said the speaker is part of the ad. The April mail said civil penalties are not theoretical. Keep the contract.
 
+
+## What "clear and conspicuous" means on a phone
+
+16 CFR 255 after 26 July 2023 is a viewer test. A gray 7-pixel "#ad" at the end of a 40-second Reel is the example the revision was written to catch. Superimposed text that lasts one second is not a disclosure. Employee posts and founder "what I take" videos are endorsements when the connection would matter to a buyer.
+
+The 13 April 2023 mail (~700 penalty-offense notices) restated: competent and reliable scientific evidence for health claims; **at least one well-controlled clinical trial** if you claim to cure, mitigate, or treat a disease. It pointed at the December 2022 health-product guide. That stack is the 2020s advertising law for this aisle.
+
+Bought stars and review farms are in the same guides revision. "4.8 from 12,000 reviews" is an ad, not a trial. Keep the contract next to the substantiation file. If the creator names a GLP-1, a virus, or a child's sleep miracle, you made that claim (pieces 21, 12, 34).
+
 ## What changed since 2020 (box)
 
 COVID letters taught disease-claim speed. 2022 taught health-claim evidence. 2023 taught that the *speaker* is part of the ad. The cheap customer-acquisition channel (unlabeled founder energy) got more expensive. Price it in.

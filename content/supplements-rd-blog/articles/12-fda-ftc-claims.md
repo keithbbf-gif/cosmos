@@ -94,6 +94,15 @@ Status (can it be a supplement at all?) is piece 08 and piece 14. Claims are thi
 3. Counsel + a science/QA seat before the first paid ad. Empty seat is better than a fake MD byline.
 4. Keep the warning-letter RSS in the marketing Slack. Shame is a control.
 
+
+## Social is labeling, and 2024 did not retire the split
+
+Bautista's 98 letters were a 2020 sample. Trade-press tallies of later years are thinner and should be labeled as such: Kalman-class 2024 counts put dietary-supplement warning letters in the low dozens against hundreds of FDA letters overall — `[VERIFY]` a year-end FDA search before you brief a board as if that were an official census. Light letter volume is not a safe harbor. Waldstein's quarterly roundups kept finding disease claims on Facebook and Instagram, and Q2 2025 still flagged social copy plus ingredients that are not dietary ingredients at all.
+
+The mechanical lesson did not change. FDA reads intended use from the page, the Reel, and the chatbot script. FTC reads net impression. A 101.93 notice you filed in 2019 does not cover a 2025 founder podcast that names a virus. Joint FDA/FTC headers (FRS 606701 is the teaching letter) are still the model: two statutes, one URL.
+
+If marketing says "we only do structure/function," ask to see the claim list next to the media invoice (piece 31). If the list is empty and the ads are not, the SOP is theater.
+
 ## What changed since 2020 (box)
 
 The statute was not rewritten. The *sample size* of letters about ordinary vitamins was. FTC then updated the advertising guide for the first time in a generation. If your claims SOP is still a 2016 blog post about "the disclaimer protects us," the SOP is the risk.

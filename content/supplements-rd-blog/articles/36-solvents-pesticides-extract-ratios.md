@@ -73,6 +73,17 @@ Ask for native-extract weight and excipient weight separately. A 50:1 that is we
 
 USP <467> Class 1 detections kill a supplier. Class 2/3 need numbers. Pesticides: method and LOQ, not "conforms." Metals: mcg/day at the labeled dose, because extracts concentrate lead with the marker. Organic ink does not replace the row.
 
+
+## Class 1 is not a rounding conversation
+
+USP <467> Class 1 solvents (benzene, carbon tetrachloride, and the rest of the "should not be there" list) kill a supplier. Class 2 need numbers. Class 3 are less severe and still need a row if the process used them. "Food-grade ethanol" is still a residual if it is there. Hexane-extracted oils: the number matters more than the adjective.
+
+A 10:1 without plant part, solvent, native-extract weight, and marker method is a non-answer. COVID-era elderberry and ashwagandha POs that only asked "5% marker, best price" are how spiked drums ship (piece 02, piece 07). Extracts concentrate lead with the marker — convert to mcg/day (piece 23, piece 37). Organic ink does not replace a multi-residue pesticide panel with an LOQ.
+
+Write the chromatogram into the PO. If the broker cannot answer, you do not have a drum.
+
+Mycotoxins (aflatoxin, ochratoxin) belong on the same incoming list as pesticides when the crop warrants it — some roots and grains, not every leaf. `[CITE NEEDED]` before you print a crop-specific action level as if it were USP. Marker % without HPTLC identity is how you buy a spiked drum (piece 02, piece 07).
+
 ## What changed since 2020 (box)
 
 COVID demand (elderberry, ashwagandha) rewarded the cheapest 10:1. ABC's adulteration warning was about that incentive. 2026 purchasing should treat a ratio without a solvent, a plant part, and a marker method as a non-answer. Pay for the chromatogram.

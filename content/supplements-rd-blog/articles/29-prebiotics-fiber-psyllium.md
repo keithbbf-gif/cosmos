@@ -66,6 +66,15 @@ ISAPP's 2017 prebiotic definition requires selective use plus a benefit. A 50 mg
 
 Psyllium: mix with a full glass of water. Binding of other orals belongs in the file. Identity plus swell. A choke case is a lawyer. Sell a canister with grams or do not use the word fiber.
 
+
+## Isolated fibers had to earn the word
+
+FDA's late-2010s/2020s fiber-declaration rules meant some isolated fibers needed a citizen petition showing a physiologic benefit before they could be called "dietary fiber" on the panel. `[VERIFY]` the live FDA list before you print "5 g fiber" on an inulin gummy. Inulin, FOS, GOS, and several resistant starches have had to earn that noun. Psyllium already had 21 CFR 101.81 — exact sentence, qualifying amount, or you do not have the CHD claim.
+
+ISAPP 2017 (Gibson, PMID 28611380) is selective use plus a benefit. A 50 mg dusting is neither. Swanson 2020 synbiotic (PMID 32810439) requires both sides. Salminen 2021 postbiotic (PMID 33948025) is a third noun. Retail used all three on peach rings.
+
+Psyllium QA: identity plus swell, mix with a full glass of water, binding of other orals in the file. A choke case is a lawyer. Sell grams in a canister or do not use the word fiber.
+
 ## What changed since 2020 (box)
 
 ISAPP's synbiotic consensus (2020) and postbiotic consensus (2021) gave serious formulators a vocabulary. Retail used the vocabulary on 50 mg blends. FDA's fiber-declaration list kept lawyers employed. The adult product is still a canister of psyllium or a measured inulin with a gas warning, not a peach ring.

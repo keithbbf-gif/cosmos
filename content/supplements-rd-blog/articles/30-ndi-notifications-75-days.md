@@ -72,6 +72,15 @@ CAS, spec, impurity profile, particle size if it matters, residual solvents if s
 
 Amazon listings are not 1994 marketing evidence. Self-affirmed GRAS is not an NDIN. NMN's 2022 ack-then-exclusion and 2025 reinterpretation are the teaching case (piece 08). NAC is exclusion plus discretion (piece 17). CBD never cleared the definition (piece 14). File them in three folders.
 
+
+## Filing is not a finding — the NMN teaching case
+
+Kingdomway-class NDIN acknowledgments in 2022 were procedural. FDA then sent exclusion letters on §201(ff)(3)(B). September 2025 petition answers reinterpreted marketing history. None of that is a safety finding, and none of it is an NDIN you can skip (piece 08). NAC is still exclusion plus discretion (piece 17). CBD never cleared the definition (piece 14). Three ingredients, three folders.
+
+A 2024 master file (89 FR 23599, docket FDA-2024-D-0706) is voluntary. It lets a manufacturer authorize others to reference identity, manufacturing, or safety data. It does not waive 75 days. An authorization letter you cannot produce is not a master file.
+
+Amazon listings are not 1994 marketing evidence. Self-affirmed GRAS is not an NDIN. A second plant is a second article. Launch week is not day 10.
+
 ## What changed since 2020 (box)
 
 More synthetic "bioidentical" molecules (NMN, urolithin, next year's thing) ran into 413 and 201(ff)(3) at the same time. The 2016 draft did not become a clean final. The April 2024 master-file draft is a slice. Treat NDIN as a live control, not a historical exam question.

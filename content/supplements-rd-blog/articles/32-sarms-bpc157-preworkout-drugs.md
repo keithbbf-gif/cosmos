@@ -69,6 +69,15 @@ Caffeine mg. Beta-alanine mg. Citrulline mg. Creatine mg if it is there. No prop
 
 Incoming ID plus a banned-substance screen when you sell to tested athletes. Directory listing, not Canva (piece 10). DoD OPSS exists because "research chemical" bottles kept walking onto bases. A sister brand in that aisle stains the vitamin 3PL (piece 37).
 
+
+## Analogues and the stimulant treadmill
+
+WADA's list moves. DMAA, DMHA, oxilofrine, and the next cousin move faster. A 2020 "natural energy blend" that was clean can pick up a new analogue in 2024 if the stimulant house got creative. Re-screen when the flavor house or the blend changes. NSF Certified for Sport or Informed-Sport in the **directory**, not in Canva (piece 10).
+
+DoD Operation Supplement Safety exists because service members kept buying "research" bottles. Your civilian catalog can still stain a military buyer. A sister brand in the Warrior Labz aisle stains the vitamin 3PL (piece 37).
+
+Oral BPC-157 as a capsule does not become a 1994 food article because a gym caption said "recovery peptide." Injectable and nasal are not supplement routes. MK-677 is a ghrelin-receptor story, not a sleep mineral. Name caffeine, beta-alanine, citrulline, creatine — or walk.
+
 ## What changed since 2020 (box)
 
 The research-chem storefront moved from forums to Instagram checkout. FDA's 2023 letters show they still know how to read a cart. A serious sports book stayed boring on purpose.

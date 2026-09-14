@@ -65,6 +65,15 @@ Assay sodium, potassium, chloride, magnesium as ions. "Sea salt blend" is not an
 
 Sugar vs zero: SGLT1 logic is why some packets still use glucose. They are not WHO-ORS. Sugar alcohols write bathroom reviews. Caffeine in the stick is a second SKU. Pick 101.36 or 101.9 and stop mixing panels. Desk-day wellness water is flavored salt. Print the milligrams.
 
+
+## ORS logic is not a cholera ward on the mood board
+
+WHO-style oral rehydration uses glucose plus sodium (SGLT1). Some sports packets still use sugar for that reason. They are not a cholera protocol, and a zero-sugar stick is not WHO-ORS. Do not put a ward on the carton. Sugar alcohols in a "gut + hydration" stack write bathroom reviews (piece 29).
+
+ACSM/ISSN fluid-replacement language is about sweat rate, duration, and heat — `[VERIFY]` the live sentence if you quote one. A 200–500 mg sodium stick can be a starting packet for a long hot session. It is not an adrenal cocktail and it is not "prevents hyponatremia." A 1,000 mg potassium stick is a different object than a 99 mg tablet; high-dose potassium salts have cardiac logic in the wrong patient (ACE inhibitors, potassium-sparing diuretics, kidney disease).
+
+Assay the ions. Pick 21 CFR 101.36 or 101.9. Caffeine in the stick is a second SKU. Cacao flavor inherits a metals memo (piece 37).
+
 ## What changed since 2020 (box)
 
 Remote work and "wellness water" turned a sports product into an all-day sip. The physiology did not. Sell milligrams of sodium and potassium for sweat. Leave the adrenals and the ER out of the carton.
