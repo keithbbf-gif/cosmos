@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: Boston Salem colonial dining furniture
 meta_description: Maple, mahogany, and a reserved hand — dining tables and chairs from Boston and Salem shops, from William and Mary through the Seymours.
 seo_intent: informational
+
+figure_id: plates.met-drop-leaf-dining-137167
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Boston and Salem
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Drop-leaf_dining_table_MET_137167.jpg" alt="Federal drop-leaf dining table in mahogany" width="1200" height="961" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Boston and Salem dining tables often arrived as drop-leaf pairs — leaves down for four, up for a merchant’s supper. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Drop-leaf_dining_table_MET_137167.jpg">source</a>. Pair of Federal drop-leaf dining tables; Met 19.13.1–.2 line.</figcaption>
+</figure>
+
 
 Boston eats first and carves less. That is a slander with a lot of evidence. From the William and Mary hour through Chippendale and into Federal, Boston and then Salem shops supply New England tables that prefer a clean turning or a quiet cabriole to Philadelphia’s wet claw. The woods begin as maple and white pine and become mahogany when the ships allow. The dining is mercantile: a counting-house family, a minister on Sundays, a leaf that still folds in 1760 and a pedestal that will not in 1810.
 

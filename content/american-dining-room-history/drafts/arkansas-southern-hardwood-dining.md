@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Southern hardwood dining table
 meta_description: Oak, walnut, pecan, hickory, pine — dining tables from the Southern forest, from Piedmont servers to factory pecan and studio slabs.
 seo_intent: informational
+
+figure_id: plates.met-queen-anne-chair-dp265158
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Southern hardwoods at table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg" alt="Carved mahogany Queen Anne chair showing hardwood figure" width="1200" height="1683" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Southern hardwood dining reads grain before brand — museum mahogany as a stand-in until a BBF shop still is cleared. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg">source</a>. Queen Anne carved mahogany side chair; Met American Wing.</figcaption>
+</figure>
+
 
 Quartersawn white oak on a Piedmont trestle shows ray fleck in candlelight the way mahogany shows ribbon stripe — a different port, a different forest. White oak and red oak, black walnut, cherry, pecan, hickory, pine, cypress: the belt that paid mills and furniture factories from the Carolinas to Arkansas is a dining forest. Charleston used mahogany because it was a port. The interior used what grew.
 

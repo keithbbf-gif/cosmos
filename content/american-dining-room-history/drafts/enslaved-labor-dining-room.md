@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: enslaved cabinetmakers dining furniture
 meta_description: John Hemmings, unnamed shop labor, and the people who served from the sideboard — dining furniture’s unfree making and use.
 seo_intent: informational
+
+figure_id: plates.met-drop-leaf-dining-137167
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Who made the table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Drop-leaf_dining_table_MET_137167.jpg" alt="Federal drop-leaf dining table" width="1200" height="961" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> The cloth and the table are visible; the hands that carried, turned, and served are named in the text, not erased from the room. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Drop-leaf_dining_table_MET_137167.jpg">source</a>. Pair of Federal drop-leaf dining tables; Met 19.13.1–.2 line.</figcaption>
+</figure>
+
 
 John Hemmings (1776–1833), enslaved at Monticello, joiner, made furniture and interior woodwork for Thomas Jefferson’s houses. He is a name. Most of the people who made and served at American dining tables before 1865 are not. This page is a dining-room labor history, not a complete census. It exists so the other essays cannot treat mahogany, marble, and Hepplewhite as if they arranged themselves.
 

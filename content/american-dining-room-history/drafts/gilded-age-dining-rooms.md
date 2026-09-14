@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: Gilded Age dining room furniture
 meta_description: Imported rooms, twenty-foot tables, and a staffed service — Gilded Age American dining furniture from Newport cottages to mail-order suites.
 seo_intent: informational
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Gilded Age dining rooms
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="Victorian slipper chair with upholstered seat" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Gilded Age seating at the margin of the dining room — slipper chairs and parlor overflow when the table is full. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair; Met American Wing.</figcaption>
+</figure>
+
 
 The dining room at a Newport “cottage” is a European room that happens to be in Rhode Island: paneling shipped or copied, a table that extends toward twenty, chairs that are English or French or Italian in style and American in their last polish, a sideboard that is architecture, silver that needs a room of its own. McKim, Mead & White and Richard Morris Hunt built the envelopes. Herter, Allard, and a chain of decorators filled them. This is not how most Americans dined. It is the image that made the middle-class suite feel small and the Colonial Revival feel like a relief.
 

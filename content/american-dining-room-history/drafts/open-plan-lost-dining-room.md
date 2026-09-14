@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: open plan dining room America
 meta_description: When the wall came down — islands, great rooms, and what happened to American dining furniture after the dining room.
 seo_intent: informational
+
+figure_id: plates.hamptons-open-kitchen
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Open plan and the lost dining room
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Hamptons_Kitchen_Design_1.jpg" alt="Open-plan kitchen with island flowing into seating area" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Open plans dissolve the named dining room — kitchen islands inherit the table’s social job. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hamptons_Kitchen_Design_1.jpg">source</a>. Open kitchen/dining integration — illustrative of the lost dedicated dining room.</figcaption>
+</figure>
+
 
 Biddle’s 1805 plate gave the dining room a recess and a name. A century of American houses built that room, then a pantry, then a breakfast room. In the 1990s and after, builders took the walls down. The great room is a hall again: kitchen, sofa, and a table in one volume. The table may be an island with stools, a farmhouse trestle, a leftover formal suite under a fixture that now hangs in space. The specialized dining room survives in plans as an option and in older houses as a closed box people do not know how to use. Furniture follows volume. A sideboard needs a wall. An island needs a floor box.
 

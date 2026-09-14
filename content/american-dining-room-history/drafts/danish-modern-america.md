@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Danish modern dining America
 meta_description: Teak extensions, paper-cord seats, and a suburban import — how Danish modern became the American dining room of 1962.
 seo_intent: informational
+
+figure_id: plates.wegner-wishbone-chair
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Danish modern in America
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Hans_Wegner_Wishbone_Chair.jpg" alt="Hans Wegner Wishbone chair in wood and paper cord" width="800" height="1200" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Danish modern in American dining rooms — Wegner’s Wishbone at a scale between café and family table. <em>Rights:</em> CC BY-SA 2.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg">source</a>. Hans Wegner Wishbone chair (CH24) — Danish modern in American dining rooms.</figcaption>
+</figure>
+
 
 A teak dining table with tapered legs, a draw leaf at each end, and six chairs in paper cord or wool is not an American invention. It is an American dining room. After the war, Danish makers (and Swedish, and then American copies) sold a modern that was warmer than Knoll’s marble and more wooden than chrome. Department stores and specialty shops — the names collectors recite, from Georg Jensen’s shops to later mall “Danish” — put oil finishes into houses that had been golden oak or mahogany revival. The table extends. The chairs are light. The sideboard is a low credenza. The dining room, if it exists, looks like a living room.
 

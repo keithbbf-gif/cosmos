@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: 1930s dinette set history
 meta_description: Chromium, enamel, and a table that fits an alcove — how the dinette replaced the dining suite in American apartments.
 seo_intent: informational
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Depression dinettes
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="1930s upholstered side chair at a modest table setting" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Depression-era dinettes sold enamel and chrome; this Met chair stands in for factory seating until a catalog still is cleared. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair; Met American Wing.</figcaption>
+</figure>
+
 
 A porcelain-enamel top on a chromium-legged dinette — circle or rectangle, four tubular chairs, a leaf that hides under the slab — is a dining room that has admitted it lost the room. It lives in an alcove, a kitchen, or the end of a living room. Montgomery Ward and Sears catalogs of the 1930s and 1940s sold it without shame. The Grand Rapids oak suite is still in the farmhouse. The city apartment buys this.
 

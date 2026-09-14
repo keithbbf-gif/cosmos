@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: Shaker dining table trestle
 meta_description: Long benches, trestle tables, and a communal meal — Shaker dining furniture as a designed refusal of the sideboard’s theater.
 seo_intent: informational
+
+figure_id: plates.met-shaker-dining-190601
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Shaker trestles
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Dining_Table_MET_190601.jpg" alt="Shaker dining table with trestle base" width="1200" height="938" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Shaker trestle and plank — pegged virtue on a documented community dining table. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dining_Table_MET_190601.jpg">source</a>. Shaker dining table; Met American Wing.</figcaption>
+</figure>
+
 
 A Shaker dining room is a long room with a long table and benches, not a suite of claw-foot chairs around a crotch pedestal. The table is often a trestle: a board on uprights and a shoe, sometimes with a stretcher you can find with your feet, maple or pine, a finish that is a stain and a varnish, not a French polish picture. The seats are benches. People sit on both sides. The meal is communal, sex-segregated in many communities, timed, silent or nearly silent in the popular telling, and — this is the furniture point — designed so that no one has a sideboard to perform at.
 

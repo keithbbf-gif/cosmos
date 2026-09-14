@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Baltimore painted dining furniture
 meta_description: Fancy chairs, painted settees, and a mahogany table — Baltimore’s Federal dining room was a paint shop as much as a cabinet shop.
 seo_intent: informational
+
+figure_id: plates.met-baltimore-painted-chair-dp144105
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Baltimore painted dining
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Side_Chair_MET_DP144105.jpg" alt="Baltimore painted and grained side chair" width="1200" height="1573" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Baltimore painted furniture — tablet scenery and grain simulation on a chair meant for a painted dining parlor. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_DP144105.jpg">source</a>. Baltimore painted side chair with grained decoration; Met American Wing.</figcaption>
+</figure>
+
 
 The Met’s Baltimore Room is a parlor dressed as a dining room, Craig woodwork, Gallery 724. The furniture the Museum puts in it has changed with curators. What Baltimore actually made for dining in the Federal years is a split: mahogany tables and sideboards like every other port, and a painted fancy — chairs, settees, sometimes tables — that is the city’s accent. The paint is not a substitute for carving only. It is a school: landscapes, gilt, grisaille, a chair that costs less than a Phyfe reeded mahogany and looks, under candles, like a different kind of money.
 

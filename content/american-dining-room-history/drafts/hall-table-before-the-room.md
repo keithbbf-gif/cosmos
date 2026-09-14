@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: colonial hall dining furniture
 meta_description: Before Americans named a dining room, they ate at gatelegs and oval tables in halls and parlors that did other work all day.
 seo_intent: informational
+
+figure_id: plates.met-pembroke-82731
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The hall table before the room
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Pembroke_Table_MET_82731.jpg" alt="American Pembroke table with drop leaves folded" width="1200" height="964" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Pembroke and gateleg cousins lived in halls and parlors before houses kept a room named only for dinner. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Pembroke_Table_MET_82731.jpg">source</a>. American Pembroke table; Met American Wing.</figcaption>
+</figure>
+
 
 A New England hall in 1710 is a machine with a hearth. It cooks, hears cases, holds a loom, sleeps a child on a truckle, and twice a day becomes a dining room that does not keep the name. The table that makes that conversion possible is usually a gateleg or an oval drop-leaf in maple, oak, or walnut, sometimes pine painted. When the leaves hang, the piece is a narrow console against the wall. When the gates swing out, it is dinner. Afterward the cloth is folded, the trenchers stacked, and the hall goes back to being a hall.
 

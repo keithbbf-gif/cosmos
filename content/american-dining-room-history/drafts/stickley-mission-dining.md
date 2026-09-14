@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Stickley Mission dining table
 meta_description: Two-inch plank tops, trestles, and fumed oak — Gustav Stickley’s Craftsman dining tables from the 1901 drawings to Catalogue D.
 seo_intent: informational
+
+figure_id: plates.stickley-celadine-table
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Stickley and Mission dining
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Gustav_stickley_per_gustave_stickley_company%2C_tavolino_da_the_celadine_%28n._27%29%2C_eastwood_NY_1900_ca.jpg" alt="Gustav Stickley Mission tea table with through tenons" width="1200" height="1485" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Stickley plank and through-tenon construction — Mission dining without a showroom gloss. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Gustav_stickley_per_gustave_stickley_company,_tavolino_da_the_celadine_(n._27),_eastwood_NY_1900_ca.jpg">source</a>. Gustav Stickley No. 27 tea table, Eastwood, New York, c. 1900.</figcaption>
+</figure>
+
 
 Gustav Stickley’s Dining Table no. 631 is a plank. The Stickley Project notes put the idea in 1901 — a drawing for Things Wrought by the United Crafts at Eastwood, and the first issue of *The Craftsman*, then with a medial stretcher on the floor — numbered about 1904, made circa 1902–15, thirty by ninety-six by forty-eight inches in a recorded example. Catalogue D called it heavy construction, a two-inch top, a table for a large dining room that did not need to close, also used as a director’s table. Fumed oak. A price, in one list, of sixty-six dollars. That is a dining table that has stopped pretending to be French.
 

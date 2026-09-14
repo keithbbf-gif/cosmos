@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: IKEA dining table America
 meta_description: Particleboard, hex keys, and a price — how IKEA’s American stores changed what a first dining table is.
 seo_intent: informational
+
+figure_id: plates.ikea-lack
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # IKEA and the flat-pack table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/IKEA_Lack.jpg" alt="IKEA LACK table in white laminate" width="1050" height="1198" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> IKEA’s LACK table — particleboard top and bolted legs as the democratic flat-pack dining surface. <em>Rights:</em> CC BY 3.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:IKEA_Lack.jpg">source</a>. IKEA LACK table — flat-pack particleboard dining surface.</figcaption>
+</figure>
+
 
 IKEA opened in the United States in 1985 (Plymouth Meeting, Pennsylvania). The dining table that comes home in a box — particleboard or veneered composite, cam locks, a hex key, legs you screw on — is the Hitchcock chair of the late century: a volume product, a brand, a first table for people who will later buy wood or never will. The INGATORP, the BJURSTA, later the EKEDALEN — names change. The idea does not: a table that ships cheap because you are the factory’s last worker.
 

@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Lannuier dining furniture New York
 meta_description: Charles-Honoré Lannuier’s labeled New York Grecian — gilt, marble, and a French shop next to Phyfe’s dining trade.
 seo_intent: informational
+
+figure_id: plates.met-pier-lannuier-dp109805
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Lannuier and the French table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Pier_table_MET_DP109805.jpg" alt="Grecian pier table with gilt decoration, New York" width="1200" height="992" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Lannuier’s Parisian gilt beside Phyfe’s quieter mahogany — pier tables staged the Grecian dining room. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Pier_table_MET_DP109805.jpg">source</a>. New York Grecian pier table in the Lannuier orbit; Met American Wing.</figcaption>
+</figure>
+
 
 Charles-Honoré Lannuier (1779–1819) lasted sixteen years in New York and left labeled furniture that still looks like it got off a different ship than Phyfe’s. He arrived in 1803, French-trained, and died in 1819, at forty, at the height of the work. The Met’s Heilbrunn essay and the 1998 catalog *Honoré Lannuier, Cabinetmaker from Paris* keep him adjacent to Phyfe without collapsing them: more gilt bronze, more marble, more Paris, a Grecian that has not been fully translated into merchant English. Dining-specific labeled pieces are scarcer in the public conversation than pier tables and card tables. That scarcity is the first fact. Do not invent a suite.
 

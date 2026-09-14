@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: American gateleg dining table
 meta_description: How American shops cut gatelegs and drop-leaves — rule joints, gates, butterfly wings — before the dining room kept a table overnight.
 seo_intent: informational
+
+figure_id: plates.chazen-gateleg-1715
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Gateleg and drop-leaf
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gateleg_Table%2C_New_England%2C_1715-1730%2C_maple_with_tulip_poplar_-_Chazen_Museum_of_Art_-_DSC02603.JPG" alt="New England gateleg table in maple and tulip poplar, 1715–1730" width="1200" height="800" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Gateleg hinges and rule joints — the engineering this essay follows, photographed on a documented New England table. <em>Rights:</em> CC0 1.0; Chazen Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Gateleg_Table,_New_England,_1715-1730,_maple_with_tulip_poplar_-_Chazen_Museum_of_Art_-_DSC02603.JPG">source</a>. New England gateleg table, 1715–1730, maple and tulip poplar.</figcaption>
+</figure>
+
 
 Turn a gateleg over. The poetry stops. You get a rectangle of rails, two framed gates hinged on pintles, a pair of leaves hanging from a molded joint, and a top that has been scrubbed toward the grain. That underside is the American dining table before the pedestal and before the room. English shops had already perfected the type. American shops copied the geometry in maple, cherry, walnut, and pine, and they kept cutting it long after Philadelphia had learned Chippendale’s Director.
 

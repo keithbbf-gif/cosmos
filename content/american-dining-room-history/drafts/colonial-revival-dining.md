@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Colonial Revival dining room
 meta_description: After 1876, America re-imagined the colonial dining room — gatelegs, faked Pilgrims, and factory maple that still fills houses.
 seo_intent: informational
+
+figure_id: plates.met-baltimore-painted-chair-dp144105
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Colonial Revival dining
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Side_Chair_MET_DP144105.jpg" alt="Colonial Revival painted side chair" width="1200" height="1573" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Colonial Revival dining borrowed painted chairs and pilgrim myth — reproduction as a room set. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_DP144105.jpg">source</a>. Baltimore painted side chair with grained decoration; Met American Wing.</figcaption>
+</figure>
+
 
 The Centennial Exhibition of 1876 in Philadelphia put colonial objects in a national mood. What followed was not a return to 1720. It was a new dining-room style: gateleg tables made yesterday, “Pilgrim” chairs that William and Mary would not have recognized, maple stained to look older than the house, Windsor sets sold as ancestral. Museums and collectors (Wallace Nutting the loud name) photographed and then manufactured a past. The American dining room, tired of walnuts grapes and gilt, put on a costume from its own attic — or from a factory’s idea of an attic.
 

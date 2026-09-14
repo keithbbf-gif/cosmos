@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: American dining chair history
 meta_description: From vase splats and haircloth to Windsors, Hitchcocks, and the ladder-back — a chair history written for the table, not the parlor.
 seo_intent: informational
+
+figure_id: plates.met-chippendale-chair-dp265161
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Dining chairs, splat to ladder
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg" alt="Chippendale pierced splat dining side chair" width="1200" height="1723" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> From pierced splat to ladder-back — the chair back this essay tracks on a Met Chippendale example. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Chippendale_Carved_Mahogany_Side_Chair_MET_DP265161.jpg">source</a>. Chippendale carved mahogany side chair; Met American Wing.</figcaption>
+</figure>
+
 
 A pierced Chippendale splat — yoke crest, compass seat, claw-and-ball on the front legs — is built to take a table rail, a coat, a long sit, and crumbs. Parlor chairs can be weaker and prettier. The American dining chair runs from the joint stool and the leather side chair through that splat, Federal shields, Grecian sabers, Hitchcock tablets, press-backs, Mission slats, and the mid-century plywood shell. This page is a spine so the shop essays do not each invent seating from nothing. It does not replace those essays.
 

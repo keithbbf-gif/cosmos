@@ -60,6 +60,14 @@
 - All `primary_keyword` values unique; all slugs unique.
 - `status: draft` only; no WordPress publish dates.
 
+## Image + SEO pass (2026-09-14)
+
+- **44/44** drafts: lead `<figure class="adrh-figure">` with museum/Commons hot links, lazy load, `Fig. 1` caption, and `<em>Rights:</em>` line.
+- Registry: `assets/figures/REGISTRY.toml` (**28** plates). Assignments: `_editorial/figure_assignments.toml`.
+- `RIGHTS.md`, `GRAPHICS_INDEX.md`. Checker: `_editorial/check_figures.py` (44/44, URL spot-check).
+- Frontmatter: `figure_id`, `image_rights: documented`, `image_pass: 2026-09-14`. `voice_check: edited` unchanged.
+- **Not executed:** BBF shop stills, Brooklyn/MESDA hero replacements listed in `PHOTO_CAPTIONS.md`.
+
 ## Handoff
 
-Merge editor branch **`cursor/american-dining-room-editor-8415`** onto writer branch **#324** after review. Import per staging README when Keith approves. **Do not merge to main without review.**
+Stack for review: editor **`cursor/american-dining-room-editor-8415`** + graphics **`cursor/american-dining-room-images-seo-f03c`** onto writer branch **PR #324** (`cursor/american-dining-room-history-527a`). Import per staging README when Keith approves. **Do not merge to main without review.**

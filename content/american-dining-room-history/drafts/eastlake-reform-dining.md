@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Eastlake dining furniture
 meta_description: Incised lines, honest joinery talk, and factory “Eastlake” — Charles Eastlake’s reform as it reached the American dining room.
 seo_intent: informational
+
+figure_id: plates.met-gothic-chair-dp152859
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Eastlake and the reform dining room
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Side_chair_MET_DP152859.jpg" alt="Reform-era side chair with incised decoration" width="1200" height="1540" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Eastlake reform lines cousin to Gothic Revival discipline — incised decoration instead of Belter rococo. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_chair_MET_DP152859.jpg">source</a>. Gothic Revival side chair; Met American Wing.</figcaption>
+</figure>
+
 
 Charles Locke Eastlake’s *Hints on Household Taste* (1868; American editions soon after) is a book against the fruit. He wants furniture whose construction you can see, ornament that is incised or geometric, wood that is not a composition grape. American factories read him the way they read every English book: they stamped “Eastlake” on a chair with a few incised lines and a factory finish and sold a dining suite to people who wanted to be good. The reform is real at the high end and a decal at the volume end. Both ended up at American tables.
 

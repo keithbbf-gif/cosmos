@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: 1950s formal dining furniture
 meta_description: Lacquer, brass, and a chandelier over mahogany — the formal 1950s dining room that refused to go modern.
 seo_intent: informational
+
+figure_id: plates.met-slipper-chair-150203
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Hollywood Regency and the formal fifties
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Slipper_Chair_MET_150203.jpg" alt="Hollywood Regency upholstered slipper chair" width="1200" height="1677" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Hollywood Regency kept formal dining alive with low slipper chairs and high gloss — parlor furniture at the room’s edge. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Slipper_Chair_MET_150203.jpg">source</a>. Victorian slipper chair; Met American Wing.</figcaption>
+</figure>
+
 
 Not every postwar table was a tulip. A large American dining room of 1955 might still be mahogany, or mahogany-colored, with a breakfront, a crystal fixture, shield-back chairs that are Colonial Revival’s grandchildren, and a table that extends to Thanksgiving. Hollywood Regency — the decorator name for lacquer, brass ormolu, a little Empire, a little chinoiserie, a glamour that photographs — sits at the expensive end. The suburban “formal dining room” sits at the volume end. Both refuse the chrome dinette as a public room. The dinette is in the kitchen. Company sees mahogany.
 

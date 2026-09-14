@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: Queen Anne dining table America
 meta_description: Cabriole legs, pad feet, and walnut drop-leaves — the American Queen Anne dining table before Chippendale’s mahogany hour.
 seo_intent: informational
+
+figure_id: plates.met-queen-anne-chair-dp265158
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Queen Anne walnut
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg" alt="Queen Anne carved mahogany side chair" width="1200" height="1683" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Walnut and mahogany Queen Anne chairs — cabriole legs and carved splats at an eight-person cloth. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Queen_Anne_Carved_Mahogany_Side_Chair_MET_DP265158.jpg">source</a>. Queen Anne carved mahogany side chair; Met American Wing.</figcaption>
+</figure>
+
 
 The cabriole is a bent knee. On an American Queen Anne dining table it is usually walnut, sometimes maple painted to look like walnut, later mahogany pretending the hour is still this one. The leg springs from a rounded knee, tapers, and ends in a pad foot — a disc, a slipper, a trifid in Philadelphia. Stretchers have mostly gone. The table stands on four (or six) legs that you can see under a hanging leaf, and the silhouette is the fashion: open, curved, a little proud.
 

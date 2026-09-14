@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Goddard Townsend dining furniture
 meta_description: Blockfronts get the fame — the Newport dining table and chair are a quieter Goddard-Townsend sentence in mahogany and maple.
 seo_intent: informational
+
+figure_id: plates.lacma-blockfront-kneehole
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Newport, Goddard, Townsend
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg" alt="Newport block-and-shell kneehole bureau table" width="1200" height="1303" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Block-and-shell Newport case work — the same shop culture that supplied dining tables to coastal merchants. <em>Rights:</em> Public domain; Los Angeles County Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Blockfront_Kneehole_Bureau_Table_LACMA_M.2006.51.18.jpg">source</a>. Newport block-and-shell kneehole bureau table; LACMA M.2006.51.18.</figcaption>
+</figure>
+
 
 The blockfront secretary is the postcard. The dining table is the working relative. In Newport, from the 1740s through the Revolution, the Goddard and Townsend families — Quaker, intermarried, a shop culture more than a single genius — made mahogany case furniture that American collectors later treated as a national school. They also made tables and chairs that held dinner. Those pieces share the same wood, the same stop-fluted legs, the same refusal to carve as wetly as Philadelphia, and they are easier to miss in a museum because they do not have a carved shell the size of a hand on every drawer.
 

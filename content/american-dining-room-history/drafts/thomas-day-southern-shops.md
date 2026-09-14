@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: Thomas Day sideboard Milton
 meta_description: Free Black cabinetmaker Thomas Day’s S-scroll sideboards and interiors — a Southern dining room that is not a New York copy.
 seo_intent: informational
+
+figure_id: plates.met-sideboard-table-48053
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Thomas Day in Milton
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Sideboard_Table_MET_48053.jpg" alt="Federal sideboard table with marble slab" width="1200" height="957" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Southern Federal servers in the Thomas Day orbit — S-scroll shops read against a documented marble-top table until a Day label is in frame. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sideboard_Table_MET_48053.jpg">source</a>. Federal sideboard table attributed to Duncan Phyfe workshop; Met 1971.160 line.</figcaption>
+</figure>
+
 
 The sideboard made for Caleb Hazard Richmond, now at the North Carolina Museum of History, is the dining object to stand in front of. Mahogany and mahogany veneer, yellow pine, tulip poplar, walnut, 1840–1855, attributed to Thomas Day, Milton, North Carolina. Chipstone’s 2013 essay, “The Missing Chapter in the Life of Thomas Day,” publishes a detail of the scrolled mirror support and names the donors: Museum of History Associates and Mr. Thomas S. Erwin. The S is too big. That is the point. Day’s shop took a conservative sideboard plan and put exuberant scrolls on it until the piece moved.
 

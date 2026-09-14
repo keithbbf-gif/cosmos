@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: Federal dining table D-end pedestal
 meta_description: D-ends, pedestals, and rule joints — how Federal American dining tables stopped folding against the wall and started living in the room.
 seo_intent: informational
+
+figure_id: plates.met-drop-leaf-dining-137167
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Federal dining tables
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Drop-leaf_dining_table_MET_137167.jpg" alt="Pair of American Federal drop-leaf dining tables" width="1200" height="961" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Federal dining tables as paired leaves — rule joints and brass clips on a documented Met example. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Drop-leaf_dining_table_MET_137167.jpg">source</a>. Pair of Federal drop-leaf dining tables; Met 19.13.1–.2 line.</figcaption>
+</figure>
+
 
 A Federal dining table is a resident. The drop-leaf still exists — the Pembroke, the breakfast oval — but the table that owns the new dining room is a set of parts: two D-shaped ends and a rectangular center, or a pair of pedestals with leaves that store in a closet, or a single pedestal with a round top. When the guests go home the table does not become a console. It becomes a shorter dining table. That is a new idea. It needs a room that keeps its name.
 

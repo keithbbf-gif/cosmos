@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: postmodern dining furniture 1980s
 meta_description: Laminate, color, and a joke at the table — Memphis, Graves, and the American postmodern dining room.
 seo_intent: informational
+
+figure_id: plates.memphis-paris
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Postmodern dining
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg" alt="Memphis Group furniture in bright laminates on museum display" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Postmodern dining borrowed Memphis color — laminate geometry as anti–Colonial Revival protest. <em>Rights:</em> CC BY-SA 4.0; Musée des Arts Décoratifs, Paris; <a href="https://commons.wikimedia.org/wiki/File:Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg">source</a>. Memphis Group objects on display — postmodern dining color and form.</figcaption>
+</figure>
+
 
 The Memphis dinner — a table that looks like a toy, a laminate that is a pattern, a chair that is a color first — was an Italian argument that a few Americans ate at. Ettore Sottsass and the Memphis group (1981) designed objects that refused both teak piety and Knoll marble. Michael Graves’s chairs and tables for American makers brought a cartoon classicism into showrooms: a pediment on a chair back, a pastel, a squashed column. Most American dining rooms ignored them and bought oak. This page is the ignored argument, because it is part of the history of what a dining table was allowed to look like.
 

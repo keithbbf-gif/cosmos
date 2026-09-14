@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: Nakashima studio dining table
 meta_description: Butterfly keys, live edges, and a bench that is not a factory — studio dining tables from Nakashima to the contemporary one-off.
 seo_intent: informational
+
+figure_id: plates.nakashima-arlyn
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Studio furniture after Nakashima
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/%22Arlyn%22_table_by_George_Nakashima.jpg" alt="George Nakashima Arlyn table with butterfly keys" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Studio furniture after Nakashima — butterfly keys and slab honesty on a documented table. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:%22Arlyn%22_table_by_George_Nakashima.jpg">source</a>. George Nakashima "Arlyn" table with live edge and butterfly keys.</figcaption>
+</figure>
+
 
 George Nakashima’s dining tables are slabs. The live edge stays. Butterfly keys in contrasting wood stitch a split the way a cabinetmaker stitches, not the way a factory hides. The bases are trestles or a late modern geometry. The wood is named — walnut, cherry, English oak, a particular tree. The Conoid chair and the long table at New Hope, Pennsylvania, are the public images. The Mira Nakashima continuation of the shop is a living fact. This page is the one-off dining table as an American type after the factories won everything else.
 

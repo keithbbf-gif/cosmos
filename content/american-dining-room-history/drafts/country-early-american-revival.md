@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: Early American dining revival 1970s
 meta_description: Harvest gold, wagon-wheel lights, and maple suites — the Late Colonial Revival dining room of the 1970s catalog.
 seo_intent: informational
+
+figure_id: plates.met-baltimore-painted-chair-dp144105
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Country and Early American revival
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Side_Chair_MET_DP144105.jpg" alt="Early American revival painted chair" width="1200" height="1573" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Country Early American revival showrooms hung maple hutches beside painted chairs like this Baltimore type. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_DP144105.jpg">source</a>. Baltimore painted side chair with grained decoration; Met American Wing.</figcaption>
+</figure>
+
 
 A maple hutch with faux-pewter plate rails and a harvest-gold wall behind it is a 1974 dining room that was not Mediterranean pecan. Turned legs, captain’s chairs, a dry-sink in the corner, a wagon-wheel or hurricane fixture: Early American on credit, neither 1720 nor Nutting’s sepia. It is Colonial Revival after television. *The Waltons* and a hundred furniture ads taught a dining room that was honey maple, plasticized, and available on credit.
 

@@ -1,6 +1,6 @@
 # Staged for BBF SEO — american-dining-room-history
 
-**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until an editor pass and a photograph plan exist.
+**Status:** staged only. Every article is `status: draft`. Do not set WordPress publish dates. Do not paste these files onto a live domain until Keith approves import. Editor pass and lead museum/Commons figures are staged; BBF shop heroes remain in `PHOTO_CAPTIONS.md`.
 
 ## What this pack is
 
@@ -14,6 +14,7 @@ Forty-four magazine essays on American dining-room furniture from about 1700 to 
 - `STYLE_GUIDE.md` — voice, citations, banned phrasing
 - `BIBLIOGRAPHY.md` — series sources
 - `PHOTO_CAPTIONS.md` — plates to shoot or license
+- `GRAPHICS_INDEX.md`, `RIGHTS.md`, `assets/figures/REGISTRY.toml` — staged hot-linked figures
 - `MANIFEST.md` — word counts
 
 ## SEO rules

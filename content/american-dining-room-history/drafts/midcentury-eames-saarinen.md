@@ -14,9 +14,20 @@ pillar: furniture-history
 primary_keyword: midcentury modern dining table America
 meta_description: “The slum of legs” — Saarinen’s Pedestal tables, Eames plywood, and Knoll’s American dining modernism.
 seo_intent: informational
+
+figure_id: plates.moma-midcentury-chairs
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Eames, Saarinen, Knoll
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/MOMA_chairs_2.jpg" alt="Mid-century modern chairs on display at MoMA" width="1200" height="900" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Eames, Saarinen, and Knoll at the museum wall — pedestal bases and molded shells at midcentury dinner. <em>Rights:</em> CC BY 2.5; Museum of Modern Art (photograph on Commons); <a href="https://commons.wikimedia.org/wiki/File:MOMA_chairs_2.jpg">source</a>. Mid-century seating on display; MoMA installation photograph.</figcaption>
+</figure>
+
 
 Eero Saarinen wanted to clear “the slum of legs” under the table. Knoll’s Pedestal Collection — designed 1956–57, in production from 1956 — is a cast-aluminum stem and a round or oval top in marble, wood, laminate. The Tulip chairs match. A dining room that buys this set has decided that Empire paws, Mission posts, and four oak legs are clutter. The decision is aesthetic and also practical: fewer legs to mop around, fewer collisions with shins. The pillar table of 1820 already knew the shin problem. Saarinen made the pillar a single stem and called the old forest a slum.
 

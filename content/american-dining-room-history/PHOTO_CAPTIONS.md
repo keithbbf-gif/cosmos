@@ -27,3 +27,7 @@ Staged plates. Do not drop copyrighted magazine interiors into drafts. Prefer mu
 | `reading-a-table-now` | Underside: pins, chalk, secondary wood | Shop | The reader’s view from the floor |
 
 Captions in the article body should name maker, place, date, woods, and collection. If any of those is missing, say so.
+
+## Lead figures (staged in git)
+
+Each draft now carries a **lead `<figure>`** (see `GRAPHICS_INDEX.md`). Commons/Met fills are honest stand-ins until Keith clears BBF shop shots or museum alternates. Replace by editing `_editorial/figure_assignments.toml` and re-running `_editorial/embed_figures.py`.

@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: how to read an antique dining table
 meta_description: Underside first — secondary woods, pins, slides, and wear — a field method for dating an American dining table.
 seo_intent: informational
+
+figure_id: plates.stickley-tea-table-hnt
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # How to read an American dining table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Stickley_-_tea_table_-_top_-_HNT_-_Copy.jpg" alt="Top view of Stickley tea table showing wood grain and joinery" width="1200" height="1256" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Read a table from the top down — plank grain, peg holes, and joint lines on a Stickley example. <em>Rights:</em> CC BY-SA 4.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:Stickley_-_tea_table_-_top_-_HNT_-_Copy.jpg">source</a>. Stickley tea table top view — joinery and plank construction.</figcaption>
+</figure>
+
 
 Get on the floor. The show top will lie. The underside keeps the shop. This page is a method, not a price guide. It exists so the series can end in a room you actually have, with a table you did not buy at the Met.
 

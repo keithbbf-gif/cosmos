@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: Belter dining furniture Rococo Revival
 meta_description: Laminated rosewood, parlor suites, and the dining chairs that followed — Belter, Meeks, and the American Rococo Revival table.
 seo_intent: informational
+
+figure_id: plates.met-rococo-sofa-dp216417
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Rococo Revival, Belter, Meeks
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Sofa_MET_DP216417.jpg" alt="Rococo Revival carved and upholstered parlor sofa" width="1200" height="1127" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Belter-density carving on parlor seating — the Rococo Revival appetite that spilled into dining chairs. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sofa_MET_DP216417.jpg">source</a>. Rococo Revival parlor sofa in the Belter idiom; Met American Wing.</figcaption>
+</figure>
+
 
 John Henry Belter’s patents of the 1840s and 1850s are parlor patents: laminated rosewood, pierced and carved, a chair back that is a bouquet. The dining room borrowed the look. It did not always borrow the lamination. A Rococo Revival dining table in America is more often a carved mahogany or rosewood pedestal with a marble or wood top, cabriole legs that have learned a new plumpness, and chairs that may or may not be Belter. Joseph Meeks & Sons and a dozen New York shops sold the same C-scrolls. “Belter” on a dining tag is a brand people want. Construction is the check.
 

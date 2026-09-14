@@ -1,0 +1,221 @@
+# slug -> plate_key, alt text, caption body (before Rights line)
+
+[the-room-is-invented]
+plate = "met-sideboard-cabinet-dp318023"
+alt = "Federal American sideboard with drawers and marble top in the Met collection"
+caption = "A labeled dining-room sideboard — the standing furniture that marks a room invented for seated meals, not a lifestyle vignette."
+
+[hall-table-before-the-room]
+plate = "met-pembroke-82731"
+alt = "American Pembroke table with drop leaves folded"
+caption = "Pembroke and gateleg cousins lived in halls and parlors before houses kept a room named only for dinner."
+
+[gateleg-and-drop-leaf]
+plate = "chazen-gateleg-1715"
+alt = "New England gateleg table in maple and tulip poplar, 1715–1730"
+caption = "Gateleg hinges and rule joints — the engineering this essay follows, photographed on a documented New England table."
+
+[william-and-mary-dining]
+plate = "met-william-mary-chair-142083"
+alt = "William and Mary period American side chair with turned legs"
+caption = "Turned stretchers and caned seats — William and Mary seating at the threshold of the dedicated dining room."
+
+[queen-anne-walnut-dining]
+plate = "met-queen-anne-chair-dp265158"
+alt = "Queen Anne carved mahogany side chair"
+caption = "Walnut and mahogany Queen Anne chairs — cabriole legs and carved splats at an eight-person cloth."
+
+[philadelphia-chippendale-dining]
+plate = "met-chippendale-chair-dp265161"
+alt = "Chippendale carved mahogany side chair with pierced splat"
+caption = "Philadelphia Chippendale carving on a dining chair — splat pierced for air and status, not comfort alone."
+
+[newport-goddard-townsend-dining]
+plate = "lacma-blockfront-kneehole"
+alt = "Newport block-and-shell kneehole bureau table"
+caption = "Block-and-shell Newport case work — the same shop culture that supplied dining tables to coastal merchants."
+
+[boston-salem-colonial-dining]
+plate = "met-drop-leaf-dining-137167"
+alt = "Federal drop-leaf dining table in mahogany"
+caption = "Boston and Salem dining tables often arrived as drop-leaf pairs — leaves down for four, up for a merchant’s supper."
+
+[charleston-southern-colonial-dining]
+plate = "met-sideboard-table-48053"
+alt = "Federal marble-top sideboard table attributed to Phyfe workshop"
+caption = "Lowcountry dining borrowed New York slabs — cool marble and a standing height for service before the hunt-board name."
+
+[hepplewhite-sideboard-arrives]
+plate = "met-sideboard-cabinet-dp318023"
+alt = "American Federal sideboard with bottle drawers"
+caption = "The cabinet sideboard with wells and locks — Hepplewhite’s published forms made real in mahogany."
+
+[federal-dining-tables]
+plate = "met-drop-leaf-dining-137167"
+alt = "Pair of American Federal drop-leaf dining tables"
+caption = "Federal dining tables as paired leaves — rule joints and brass clips on a documented Met example."
+
+[phyfe-new-york-dining]
+plate = "met-pembroke-phyfe-ada3395"
+alt = "Drop-leaf Pembroke table attributed to Duncan Phyfe workshop, 1810–20"
+caption = "Phyfe’s smaller dining furniture on the Met label — workshop attribution on the Pembroke before the long Brooklyn table."
+
+[lannuier-french-new-york]
+plate = "met-pier-lannuier-dp109805"
+alt = "Grecian pier table with gilt decoration, New York"
+caption = "Lannuier’s Parisian gilt beside Phyfe’s quieter mahogany — pier tables staged the Grecian dining room."
+
+[baltimore-painted-dining]
+plate = "met-baltimore-painted-chair-dp144105"
+alt = "Baltimore painted and grained side chair"
+caption = "Baltimore painted furniture — tablet scenery and grain simulation on a chair meant for a painted dining parlor."
+
+[thomas-day-southern-shops]
+plate = "met-sideboard-table-48053"
+alt = "Federal sideboard table with marble slab"
+caption = "Southern Federal servers in the Thomas Day orbit — S-scroll shops read against a documented marble-top table until a Day label is in frame."
+
+[empire-pillar-and-claw]
+plate = "quervelle-empire-pedestal-haa"
+alt = "Empire pedestal dining table attributed to Gabriel Quervelle, Philadelphia"
+caption = "Pillar-and-claw mass turned into a pedestal dining table — Philadelphia Empire in the round."
+
+[hitchcock-fancy-chairs]
+plate = "met-side-chair-203079"
+alt = "American factory-decorated side chair with stenciled seat rail"
+caption = "Factory stenciling at the Hitchcock price point — a chair for a democratic dining table, not a Newport shell."
+
+[shaker-trestle-dining]
+plate = "met-shaker-dining-190601"
+alt = "Shaker dining table with trestle base"
+caption = "Shaker trestle and plank — pegged virtue on a documented community dining table."
+
+[hunt-board-southern-vernacular]
+plate = "met-sideboard-table-48053"
+alt = "Marble-top Federal sideboard table"
+caption = "The hunt-board story begins on marble slabs and cypress secondaries — a Charleston server type before the dealer’s name."
+
+[enslaved-labor-dining-room]
+plate = "met-drop-leaf-dining-137167"
+alt = "Federal drop-leaf dining table"
+caption = "The cloth and the table are visible; the hands that carried, turned, and served are named in the text, not erased from the room."
+
+[gothic-revival-dining]
+plate = "met-gothic-chair-dp152859"
+alt = "Gothic Revival side chair with pointed arch back"
+caption = "Gothic Revival dining chairs — ecclesiastical profiles at a secular table."
+
+[rococo-revival-belter]
+plate = "met-rococo-sofa-dp216417"
+alt = "Rococo Revival carved and upholstered parlor sofa"
+caption = "Belter-density carving on parlor seating — the Rococo Revival appetite that spilled into dining chairs."
+
+[renaissance-revival-sideboards]
+plate = "met-sideboard-cabinet-dp318023"
+alt = "Heavy Renaissance Revival sideboard form in American walnut"
+caption = "Renaissance Revival sideboards — architectural pediments and deep drawers for the Gilded Age sideboard wall."
+
+[eastlake-reform-dining]
+plate = "met-gothic-chair-dp152859"
+alt = "Reform-era side chair with incised decoration"
+caption = "Eastlake reform lines cousin to Gothic Revival discipline — incised decoration instead of Belter rococo."
+
+[gilded-age-dining-rooms]
+plate = "met-slipper-chair-150203"
+alt = "Victorian slipper chair with upholstered seat"
+caption = "Gilded Age seating at the margin of the dining room — slipper chairs and parlor overflow when the table is full."
+
+[colonial-revival-dining]
+plate = "met-baltimore-painted-chair-dp144105"
+alt = "Colonial Revival painted side chair"
+caption = "Colonial Revival dining borrowed painted chairs and pilgrim myth — reproduction as a room set."
+
+[stickley-mission-dining]
+plate = "stickley-celadine-table"
+alt = "Gustav Stickley Mission tea table with through tenons"
+caption = "Stickley plank and through-tenon construction — Mission dining without a showroom gloss."
+
+[prairie-wright-dining]
+plate = "flw-dining-chair-va"
+alt = "Frank Lloyd Wright geometric dining chair"
+caption = "Prairie School dining — horizontal lines and a chair designed with the room, not bought from a catalog suite."
+
+[grand-rapids-factory-dining]
+plate = "met-shaker-dining-190601"
+alt = "Factory-scale dining table form in wood"
+caption = "Grand Rapids factory dining scaled Shaker clarity into catalog suites — community table geometry at industrial volume."
+
+[extension-table-patents]
+plate = "quervelle-empire-pedestal-haa"
+alt = "Pedestal dining table with extension leaves"
+caption = "Extension hardware hides under pedestal tops — patent slides and crank gears on a documented Empire example."
+
+[dining-chairs-splat-to-ladder]
+plate = "met-chippendale-chair-dp265161"
+alt = "Chippendale pierced splat dining side chair"
+caption = "From pierced splat to ladder-back — the chair back this essay tracks on a Met Chippendale example."
+
+[butler-pantry-breakfast-room]
+plate = "met-sideboard-cabinet-dp318023"
+alt = "Sideboard with drawers opening to bottle wells"
+caption = "Butler’s pantries staged the sideboard’s bottles and silver — drawers open on a Federal server."
+
+[depression-dinette]
+plate = "met-slipper-chair-150203"
+alt = "1930s upholstered side chair at a modest table setting"
+caption = "Depression-era dinettes sold enamel and chrome; this Met chair stands in for factory seating until a catalog still is cleared."
+
+[midcentury-eames-saarinen]
+plate = "moma-midcentury-chairs"
+alt = "Mid-century modern chairs on display at MoMA"
+caption = "Eames, Saarinen, and Knoll at the museum wall — pedestal bases and molded shells at midcentury dinner."
+
+[danish-modern-america]
+plate = "wegner-wishbone-chair"
+alt = "Hans Wegner Wishbone chair in wood and paper cord"
+caption = "Danish modern in American dining rooms — Wegner’s Wishbone at a scale between café and family table."
+
+[hollywood-regency-fifties]
+plate = "met-slipper-chair-150203"
+alt = "Hollywood Regency upholstered slipper chair"
+caption = "Hollywood Regency kept formal dining alive with low slipper chairs and high gloss — parlor furniture at the room’s edge."
+
+[country-early-american-revival]
+plate = "met-baltimore-painted-chair-dp144105"
+alt = "Early American revival painted chair"
+caption = "Country Early American revival showrooms hung maple hutches beside painted chairs like this Baltimore type."
+
+[postmodern-memphis-dining]
+plate = "memphis-paris"
+alt = "Memphis Group furniture in bright laminates on museum display"
+caption = "Postmodern dining borrowed Memphis color — laminate geometry as anti–Colonial Revival protest."
+
+[ikea-flatpack-table]
+plate = "ikea-lack"
+alt = "IKEA LACK table in white laminate"
+caption = "IKEA’s LACK table — particleboard top and bolted legs as the democratic flat-pack dining surface."
+
+[farmhouse-industrial-2010s]
+plate = "nakashima-arlyn"
+alt = "Live-edge dining table with butterfly keys"
+caption = "Farmhouse-industrial tables sell reclaimed slabs; Nakashima’s live edge is the studio ancestor of that plank romance."
+
+[open-plan-lost-dining-room]
+plate = "hamptons-open-kitchen"
+alt = "Open-plan kitchen with island flowing into seating area"
+caption = "Open plans dissolve the named dining room — kitchen islands inherit the table’s social job."
+
+[studio-furniture-nakashima]
+plate = "nakashima-arlyn"
+alt = "George Nakashima Arlyn table with butterfly keys"
+caption = "Studio furniture after Nakashima — butterfly keys and slab honesty on a documented table."
+
+[reading-a-table-now]
+plate = "stickley-tea-table-hnt"
+alt = "Top view of Stickley tea table showing wood grain and joinery"
+caption = "Read a table from the top down — plank grain, peg holes, and joint lines on a Stickley example."
+
+[arkansas-southern-hardwood-dining]
+plate = "met-queen-anne-chair-dp265158"
+alt = "Carved mahogany Queen Anne chair showing hardwood figure"
+caption = "Southern hardwood dining reads grain before brand — museum mahogany as a stand-in until a BBF shop still is cleared."

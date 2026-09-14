@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: Hitchcock chairs dining room
 meta_description: Lambert Hitchcock’s 1825 factory and the stenciled rail — how a Connecticut mill put fancy chairs around American dinner tables.
 seo_intent: informational
+
+figure_id: plates.met-side-chair-203079
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Hitchcock chairs at table
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Side_Chair_MET_203079.jpg" alt="American factory-decorated side chair with stenciled seat rail" width="1200" height="1523" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Factory stenciling at the Hitchcock price point — a chair for a democratic dining table, not a Newport shell. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Side_Chair_MET_203079.jpg">source</a>. American side chair with stenciled factory decoration; Met American Wing.</figcaption>
+</figure>
+
 
 The stencil on the back of the seat rail is the document: “L. HITCHCOCK. HITCHCOCKS-VILLE. CONN. WARRANTED.” Sometimes the wording shifts with partners. The chair under it is a painted fancy — turned legs, a pillowed tablet or a slat, rush or cane seat, gilt fruit and leaves in bronze powder. It is light. It was cheap. By the late 1820s a three-story brick factory on the Farmington River was turning out on the order of three hundred a week, something like fifteen thousand a year in the Henry Ford account, at prices the same essay puts between forty-five cents and a dollar seventy-five. That is not a cabinetmaker’s dining chair. It is a mill’s dining chair. America sat on it anyway.
 

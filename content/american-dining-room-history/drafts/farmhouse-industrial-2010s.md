@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: farmhouse dining table trend
 meta_description: Distressed pine, metal bases, and a trestle for Instagram — the 2010s farmhouse-industrial dining table.
 seo_intent: informational
+
+figure_id: plates.nakashima-arlyn
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Farmhouse and industrial tables
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/%22Arlyn%22_table_by_George_Nakashima.jpg" alt="Live-edge dining table with butterfly keys" width="1200" height="1600" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Farmhouse-industrial tables sell reclaimed slabs; Nakashima’s live edge is the studio ancestor of that plank romance. <em>Rights:</em> CC0 1.0; Wikimedia Commons; <a href="https://commons.wikimedia.org/wiki/File:%22Arlyn%22_table_by_George_Nakashima.jpg">source</a>. George Nakashima "Arlyn" table with live edge and butterfly keys.</figcaption>
+</figure>
+
 
 The 2010s dining table wanted to look like work. A thick pine top, a X-trestle or a black steel base, a distressed finish that was applied last week, a bench on one side and mixed chairs on the other. Restoration Hardware and a thousand Etsy and Wayfair cousins sold it. Open-plan kitchens wanted a table that photographed with a bowl of lemons. The hall trestle and the Shaker board and the factory base were all raided. The result is a style, not a farm.
 

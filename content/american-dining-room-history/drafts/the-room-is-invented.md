@@ -16,9 +16,20 @@ pillar: furniture-history
 primary_keyword: American dining room history
 meta_description: How Americans carved a dedicated dining room from halls and parlors, from Pain and Biddle to the Met’s Baltimore Room.
 seo_intent: informational
+
+figure_id: plates.met-sideboard-cabinet-dp318023
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # The dining room is invented
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Sideboard_MET_DP318023.jpg" alt="Federal American sideboard with drawers and marble top in the Met collection" width="1200" height="780" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> A labeled dining-room sideboard — the standing furniture that marks a room invented for seated meals, not a lifestyle vignette. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sideboard_MET_DP318023.jpg">source</a>. American sideboard; Met collection photograph donated via Met Open Access.</figcaption>
+</figure>
+
 
 The Metropolitan Museum’s Baltimore Room, Gallery 724, is a parlor pretending to be a dining room. The woodwork came from Henry Craig’s townhouse on East Pratt Street. Craig (1767–1832) was a Baltimore merchant and shipowner. The room served his family as a parlor. Since the American Wing opened in 1924 the Museum has set it for dinner: table, chairs, sideboard, plate. The curators of the 1920s preferred this architecture to the house’s actual dining room. They were staging a fashion that had only recently become ordinary.
 

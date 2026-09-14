@@ -13,9 +13,20 @@ pillar: furniture-history
 primary_keyword: butler's pantry breakfast room furniture
 meta_description: Pass-throughs, plate safes, and a second, smaller table — how pantries and breakfast rooms changed what the dining room had to hold.
 seo_intent: informational
+
+figure_id: plates.met-sideboard-cabinet-dp318023
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Butler’s pantry and breakfast room
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Sideboard_MET_DP318023.jpg" alt="Sideboard with drawers opening to bottle wells" width="1200" height="780" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Butler’s pantries staged the sideboard’s bottles and silver — drawers open on a Federal server. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Sideboard_MET_DP318023.jpg">source</a>. American sideboard; Met collection photograph donated via Met Open Access.</figcaption>
+</figure>
+
 
 Once the dining room has a name, the house grows rooms to serve it. The butler’s pantry — a passage of glass-front cabinets, a sink, a plate warmer, a pass-through — is furniture that is also architecture. The breakfast room is a second dining room with worse chairs and a better morning. Berman’s pattern-book counts already show breakfast rooms alongside dining rooms in English plates Americans copied. By the Gilded Age and the large suburban house of 1910, the campus of eating is ordinary at a certain income. The dining table can stay formal because toast has somewhere else to go.
 

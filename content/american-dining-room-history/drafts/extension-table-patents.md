@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: extension dining table history America
 meta_description: Jupe’s 1835 circle and Briggs’s 1843 crank — how patented slides and accordions made the American dining table grow.
 seo_intent: informational
+
+figure_id: plates.quervelle-empire-pedestal-haa
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Extension tables and patents
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Rectangular_pedestal_dining_room_table_attributed_to_Gabriel_Quervelle_of_Philadelphia%2C_c._1820-1830%2C_mahogany%2C_HAA.JPG" alt="Pedestal dining table with extension leaves" width="1200" height="702" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Extension hardware hides under pedestal tops — patent slides and crank gears on a documented Empire example. <em>Rights:</em> CC0 1.0; Historic American Art (Commons donor); <a href="https://commons.wikimedia.org/wiki/File:Rectangular_pedestal_dining_room_table_attributed_to_Gabriel_Quervelle_of_Philadelphia,_c._1820-1830,_mahogany,_HAA.JPG">source</a>. Empire pedestal dining table attributed to Gabriel Quervelle, Philadelphia, c. 1820–30.</figcaption>
+</figure>
+
 
 Robert Jupe’s British patent 6788, March 1835, describes a circular table whose sections diverge from a center so that filling pieces can drop in. The first tables were made with John Johnstone of New Bond Street; brass bosses read “JUPES PATENT,” later “Johnstone & Jeanes.” They exhibited the expanding principle at the Great Exhibition of 1851. These are English luxury objects. American dining rooms felt them as an idea more than as a population of tables.
 

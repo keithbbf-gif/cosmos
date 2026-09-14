@@ -15,9 +15,20 @@ pillar: furniture-history
 primary_keyword: Grand Rapids dining furniture factory
 meta_description: Dining-room “suits,” golden oak, and a Michigan industry — how Grand Rapids put factory tables in American houses.
 seo_intent: informational
+
+figure_id: plates.met-shaker-dining-190601
+image_rights: documented
+image_pass: 2026-09-14
 ---
 
 # Grand Rapids factory dining
+
+<!-- adrh-figure:v1 -->
+<figure class="adrh-figure">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Dining_Table_MET_190601.jpg" alt="Factory-scale dining table form in wood" width="1200" height="938" loading="lazy" decoding="async"/>
+  <figcaption><strong>Fig. 1.</strong> Grand Rapids factory dining scaled Shaker clarity into catalog suites — community table geometry at industrial volume. <em>Rights:</em> CC0 1.0 (Met Open Access); The Metropolitan Museum of Art; <a href="https://commons.wikimedia.org/wiki/File:Dining_Table_MET_190601.jpg">source</a>. Shaker dining table; Met American Wing.</figcaption>
+</figure>
+
 
 Hitchcock proved a chair could be a mill product. Grand Rapids, Michigan, proved a dining room could be. From the 1870s into the Depression, the city’s factories and the smaller towns around them sold “suits”: table, six chairs, sideboard, sometimes a china closet and serving table, in Renaissance, Eastlake, golden oak, Mission, Colonial Revival, whatever the catalog page needed. The furniture went out by rail. The woods were Midwestern oak, elm, birch, a mahogany veneer when the price allowed. The joinery was dowels, machine dovetails, slides from a hardware supplier. Most American families who owned a matching dining set in 1910 owned this, not Phyfe and not Stickley.
 
