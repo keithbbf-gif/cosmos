@@ -39,6 +39,9 @@ Word band 1,200–2,000: all 44 drafts remain in band (body total **65,934** wor
 | `a-cam-that-is-not-a-joint` | Cut “essay the brief asked for”; tightened knockdown honesty; removed “this pack” from sales-caption line |
 | `iron-under-a-slab` | “This pack is joinery” → shop voice; D:\BBF pull note: SEO map → bench honesty on epoxy river |
 | `a-confirmat-in-ply` | “Belongs next to the 32mm essay” → same-world shop paragraph without index talk |
+| `a-tail-that-follows-the-bow` | Cut “this essay exists next to the craft-pack…”; close on smile vs straight tail |
+| `a-wedge-you-cannot-see` | Removed “I put it in this pack because…” |
+| `bricks-on-a-corner` | Removed “I put this essay in the hybrid pile…” |
 
 ## `voice_check`
 

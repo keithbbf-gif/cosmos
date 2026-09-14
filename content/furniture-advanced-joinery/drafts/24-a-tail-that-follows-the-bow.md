@@ -3,7 +3,7 @@ title: "A Tail That Follows the Bow"
 slug: a-tail-that-follows-the-bow
 status: draft
 voice_check: edited
-word_count: 1479
+word_count: 1476
 dek: "A sliding dovetail that is not straight in plan — a bowed rail, a curved divider — is a socket you cannot run with a straight fence. The tail has to be fair, and so does the hole."
 series: furniture-advanced-joinery
 topic: curved-work
@@ -82,7 +82,7 @@ I may tighten the tail toward the show. I will not taper both the tail and the s
 
 The side moves. The smile does not cancel August. I glue a front third or I glue nothing if the case travels. I do not glue the whole smile. The split that follows the curve is prettier than a straight split and just as final. People will think it is a design. It is not.
 
-A curved stretcher glued onto a straight rail that is sliding-dovetailed as a straight tail is a different, easier, often better joint. I will do that when the curve is a look. I will cut the smiling socket when the rail’s strength is the curve. The distinction is the whole reason this essay exists next to the craft-pack sliding dovetail.
+A curved stretcher glued onto a straight rail that is sliding-dovetailed as a straight tail is a different, easier, often better joint. I will do that when the curve is a look. I will cut the smiling socket when the rail’s strength is the curve. The craft-pack sliding dovetail is the straight cousin. This is the smile.
 
 I hold the side in the vise with a curved caul — a scrap of the same template, corked — so the clamp does not flatten the board I am about to cut a smile into. Flattening the side to please a clamp is a straight socket with extra steps.
 

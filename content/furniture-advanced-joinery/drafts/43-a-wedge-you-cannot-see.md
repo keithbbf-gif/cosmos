@@ -3,7 +3,7 @@ title: "A Wedge You Cannot See"
 slug: a-wedge-you-cannot-see
 status: draft
 voice_check: edited
-word_count: 1400
+word_count: 1393
 dek: "A fox-wedged tenon is a wedge you drive into a kerf as the tenon enters a stopped mortise. The joint swells in a hole you will not open again. On a splay, it is also a one-way decision."
 series: furniture-advanced-joinery
 topic: hybrid
@@ -28,7 +28,7 @@ verify:
   - "Confirm shop fox-wedged tenons [VERIFY]"
 ---
 
-The wedge disappeared. That is the point and the danger. I had a stopped mortise in a chair leg, a tenon with a kerf, a little wedge standing in the kerf, and one chance to drive the rail home so the wedge hit the bottom of the mortise and spread the tenon like a fist. If the wedge was long, the shoulder would not shut. If the wedge was short, the fist would not clench. I would not know which until the glue had grabbed. That is why this joint is not a knockdown. It is the opposite. I put it in this pack because it shows up on splayed chairs next to joints that *do* travel, and people confuse the two.
+The wedge disappeared. That is the point and the danger. I had a stopped mortise in a chair leg, a tenon with a kerf, a little wedge standing in the kerf, and one chance to drive the rail home so the wedge hit the bottom of the mortise and spread the tenon like a fist. If the wedge was long, the shoulder would not shut. If the wedge was short, the fist would not clench. I would not know which until the glue had grabbed. That is why this joint is not a knockdown. It is the opposite. It shows up on splayed chairs next to joints that *do* travel, and people confuse the two.
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — fox-wedged tenon, kerf and wedge before assembly (filename pending shop pull) -->
 

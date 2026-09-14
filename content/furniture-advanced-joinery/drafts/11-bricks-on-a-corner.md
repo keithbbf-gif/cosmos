@@ -3,7 +3,7 @@ title: "Bricks on a Corner"
 slug: bricks-on-a-corner
 status: draft
 voice_check: edited
-word_count: 1628
+word_count: 1619
 dek: "A brick-laid curve that has to become a corner is two religions meeting. The bricks want a radius. The dovetail wants a board. You decide which one dies at the joint."
 series: furniture-advanced-joinery
 topic: hybrid
@@ -32,7 +32,7 @@ The blank was a staircase of short boards, glued into a quarter-circle, the bric
 
 <!-- PHOTO: fig-01 D:\BBF\BBF Photos — brick-laid curve meeting a square corner or dovetail (filename pending shop pull) -->
 
-Brick-laying is curved-work religion. I put this essay in the hybrid pile because the *failure* I care about is the corner: where the stack has to become joinery, not just a shape you carve.
+Brick-laying is curved-work religion. The failure I care about is the corner: where the stack has to become joinery, not just a shape you carve.
 
 ## What a brick-laid curve is
 
