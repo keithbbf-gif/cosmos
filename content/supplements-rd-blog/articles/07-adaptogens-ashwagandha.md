@@ -54,6 +54,25 @@ Withanone DNA-adduct work (2021, PMC8320610) is mechanistic, in vitro / chemical
 
 ## Quality problems that are not the liver
 
+<!-- graphics-pack:v1 -->
+
+![Checklist tiers for reading ashwagandha RCTs before quoting them in copy.](../assets/ashwagandha-adaptogen-rcts-quality/adaptogen-rct-checklist.svg)
+
+*Figure 1. Qualitative rubric for papers and PDP quotes — not a clinical score.*
+
+![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
+
+*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
+
+![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
+
+*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
+
+![Callout contrasting withanolide percentage claims with missing analytical methods.](../assets/ashwagandha-adaptogen-rcts-quality/withanolide-method-note.svg)
+
+*Figure 2. Marker percent without HPTLC/HPLC reference is a sales number, not a release spec.*
+
+
 - **Leaf vs root.** Leaf is cheaper and can be high in withaferin A. If the trial was root, and the drum is leaf, you have a different product and a different tox guess.
 - **Withanolide assay theater.** A single HPLC number without a chromatogram or a method ID is how you buy spiked marker.
 - **Multi-herb "cortisol" blends.** When DILI happens, causality gets ugly. Philips excluded multi-herb on purpose. Your SKU may not have that luxury in a courtroom.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Regulatory threads</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Three ingredients that trained founders on §201(ff)(3)(B)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Status timelines differ — none prove clinical benefit</text>
+  <rect x="24" y="90" width="220" height="100" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="40" y="120" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a2332">CBD</text>
+  <text x="40" y="148" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">2023: frameworks not</text>
+  <text x="40" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">appropriate for CBD</text>
+  <rect x="270" y="90" width="220" height="100" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="286" y="120" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a2332">NAC</text>
+  <text x="286" y="148" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Discretion truce</text>
+  <text x="286" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">not a blessing</text>
+  <rect x="516" y="90" width="220" height="100" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="532" y="120" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="15" font-weight="600" fill="#1a2332">NMN</text>
+  <text x="532" y="148" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">2025 petition answers;</text>
+  <text x="532" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">NDI still due</text>
+  <text x="24" y="206" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Article 01 table — educational</text>
+</svg>

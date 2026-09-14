@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">CBD — selected US regulatory beats (adjacent lesson)</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">CBD — selected US regulatory beats (adjacent lesson)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Dated milestones from cited public sources — not a trend forecast</text>
+  <line x1="120" y1="80" x2="120" y2="152" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="92" width="80" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="112" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff">2018</text>
+  <text x="136" y="108" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Farm Bill context</text>
+  <text x="136" y="128" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Hemp defined; interstate commerce debates continue in copy</text>
+  <line x1="120" y1="152" x2="120" y2="224" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="164" width="80" height="28" rx="6" fill="#ebf8ff" stroke="#cbd5e0"/>
+  <text x="32" y="184" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#2b6cb0">26 Jan 2023</text>
+  <text x="136" y="180" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">FDA conclusion</text>
+  <text x="136" y="200" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Existing food/supplement frameworks not appropriate for CBD</text>
+  <line x1="120" y1="224" x2="120" y2="296" stroke="#cbd5e0" stroke-width="2"/>
+  <rect x="24" y="236" width="80" height="28" rx="6" fill="#2b6cb0" stroke="#cbd5e0"/>
+  <text x="32" y="256" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Operator</text>
+  <text x="136" y="252" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Congress pathway</text>
+  <text x="136" y="272" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Draft 14: treat as legal-adjacent, not a supplement SKU</text>
+  <text x="24" y="506" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">FDA press announcement cited in article 14</text>
+</svg>

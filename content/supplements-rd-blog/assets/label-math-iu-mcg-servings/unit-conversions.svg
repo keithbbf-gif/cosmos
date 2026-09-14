@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="268" viewBox="0 0 760 268" role="img" aria-labelledby="title desc">
+  <title id="title">Panel units after the 2016–2021 rule</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Panel units after the 2016–2021 rule</text>
+  <rect x="24" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="32" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Nutrient</text>
+  <rect x="380" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="388" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Legal panel unit (summary)</text>
+  <rect x="24" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Vitamin D</text>
+  <rect x="380" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">mcg (IU optional in parentheses)</text>
+  <rect x="24" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Folate</text>
+  <rect x="380" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">mcg DFE + folic acid when used</text>
+  <rect x="24" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Vitamin A / E</text>
+  <rect x="380" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">mcg RAE / mg — not IU-only</text>
+  <text x="24" y="254" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">21 CFR 101.36 / 101.9 — article 35; chemistry not marketing</text>
+</svg>

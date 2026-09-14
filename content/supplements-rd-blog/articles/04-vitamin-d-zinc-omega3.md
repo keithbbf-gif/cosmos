@@ -31,6 +31,13 @@ Three ingredients did more retail volume after 2020 than almost anything else th
 
 ## Vitamin D3 — VITAL first, then COVID
 
+<!-- graphics-pack:v1 -->
+
+![Schematic 2×2 factorial layout for vitamin D and omega-3 arms.](../assets/vitamin-d-zinc-omega-3-2020-2026/vital-factorial-schematic.svg)
+
+*Figure 1. Illustrative VITAL-style factorial — see NEJM methods for the published design. No hazard ratios drawn.*
+
+
 **VITAL** (Manson et al., *NEJM* 2019; PMID 31173679; n = 25,871 US adults, men ≥50, women ≥55). Factorial: vitamin D3 2,000 IU/day and/or marine omega-3 1 g/day. Median intervention 5.3 years. Vitamin D did **not** significantly reduce invasive cancer (HR 0.96, 95% CI 0.88–1.06) or major CVD events (HR 0.97, 95% CI 0.85–1.12). All-cause mortality HR 0.99 (0.87–1.12).
 
 A later writeup (Manson et al., PMC7089819) flagged a possible cancer-*mortality* signal after excluding early follow-up (HR 0.75, 0.59–0.96 when the first two years were dropped). That is a secondary, latency-sensitive analysis. It is not a license to put "cuts cancer deaths" on a 2,000 IU softgel. VITAL observational follow-up is listed on ClinicalTrials.gov through 2026 (`NCT01169259`). Wait for those papers before you update this paragraph.
@@ -50,6 +57,13 @@ The common-cold zinc-lozenge literature is older than this pack's window. It is 
 Adult UL is 40 mg elemental zinc/day from all sources (ODS). A 50 mg gluconate tablet is already a study dose, not a candy. Chronic high intake and copper deficiency is a real toxicology story. If you sell 50 mg, you need a reason and a warning set, not a "more is more" Amazon title.
 
 ## Omega-3 — do not average the drugs into the softgel
+
+<!-- graphics-pack:v1 -->
+
+![Table of large trials and primary endpoint headlines as reported.](../assets/vitamin-d-zinc-omega-3-2020-2026/large-trial-headlines.svg)
+
+*Figure 2. Headline primary outcomes only; dose and population details stay in the sections above.*
+
 
 Three large objects get mashed together in marketing. They are not the same product.
 

@@ -27,6 +27,13 @@ Two agencies, two statutes, one landing page. Founders still write as if FDA wer
 
 ## The split, without a diagram
 
+<!-- graphics-pack:v1 -->
+
+![Two-column split of structure-function claims versus disease intended use.](../assets/fda-ftc-structure-function-enforcement/structure-function-vs-disease.svg)
+
+*Figure 1. Educational split under DSHEA and FD&C intended-use rules — counsel owns final copy.*
+
+
 **FDA (FD&C Act).** A dietary supplement that is *intended* to diagnose, cure, mitigate, treat, or prevent disease is a drug. Intended use is assembled from the four corners of the internet you paid for. Structure/function claims are a defined exception (21 U.S.C. § 343(r)(6); 21 CFR 101.93): they must be truthful, not misleading, substantiated, notified to FDA within 30 days, and paired with the exact-enough disclaimer that the statement has not been evaluated by FDA and the product is not intended to diagnose, treat, cure, or prevent any disease.
 
 **FTC (FTC Act).** Advertising must be truthful and not misleading. Health claims need competent and reliable scientific evidence. In December 2022 FTC issued *Health Products Compliance Guidance*, which replaced the 1998 dietary-supplement advertising guide. The 2022 document is broader (foods, apps, devices, CBD ads) and more explicit that the evidence must match the claim *as consumers take it*, not as your toxicologist footnotes it.
@@ -34,6 +41,13 @@ Two agencies, two statutes, one landing page. Founders still write as if FDA wer
 A claim can satisfy 101.93's paperwork and still fail FTC. A claim can be silent on disease and still be deceptive if the before/after photo does the work.
 
 ## What the COVID letters taught, mechanically
+
+<!-- graphics-pack:v1 -->
+
+![Flow describing FDA intended-use review and FTC net-impression standard.](../assets/fda-ftc-structure-function-enforcement/dual-agency-review.svg)
+
+*Figure 2. FDA and FTC both read what you publish; 98 COVID-focused letters Mar–Jul 2020 (Bautista et al.).*
+
 
 Bautista et al. (PMC7528445): 98 COVID-focused letters, March–July 2020. Most products reclassified as drugs. Vitamin C, CBD, D, silver, elderberry, zinc.
 

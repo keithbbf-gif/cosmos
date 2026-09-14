@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="424" viewBox="0 0 760 424" role="img" aria-labelledby="title desc">
+  <title id="title">Read a finished-product COA in order</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Read a finished-product COA in order</text>
+  <rect x="40" y="80" width="680" height="44" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="54" y="108" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a2332">1. Lot number matches batch record + label</text>
+  <polygon points="374,128 386,128 380,138" fill="#4a5568"/>
+  <rect x="40" y="136" width="680" height="44" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="54" y="164" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a2332">2. Assay vs label claim with units</text>
+  <polygon points="374,184 386,184 380,194" fill="#4a5568"/>
+  <rect x="40" y="192" width="680" height="44" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="54" y="220" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a2332">3. Identity + method per row (HPLC, ICP-MS, HPTLC…)</text>
+  <polygon points="374,240 386,240 380,250" fill="#4a5568"/>
+  <rect x="40" y="248" width="680" height="44" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="54" y="276" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="400" fill="#1a2332">4. Contaminants: metals, micro, solvents as specced</text>
+  <text x="24" y="410" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Article 16 — ISO/IEC 17025 scope still applies</text>
+</svg>

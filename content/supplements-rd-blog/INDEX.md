@@ -2,6 +2,8 @@
 
 Forty drafts. Status: `draft`. Nothing here is cleared for a public product page. A separate editor agent will QA after this expand.
 
+Quality bar (Keith): compelling, evidence-careful longform — not a 40-count of SEO stubs. Graphics from PR #240 are preserved on 01–16; wave-2 SVGs cover 17–40 (`GRAPHICS_INDEX.md`).
+
 All files live under `content/supplements-rd-blog/`. Inventory: `MANIFEST.md`.
 
 ## Cadence (suggested)

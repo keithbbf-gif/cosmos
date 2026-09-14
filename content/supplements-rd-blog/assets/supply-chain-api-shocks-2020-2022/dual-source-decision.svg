@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+  <title id="title">Dual sourcing schematic</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Dual-source decision (schematic)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Not a geographic map — an operator fork</text>
+  <rect x="40" y="100" width="300" height="100" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="56" y="140" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Single API supplier</text>
+  <text x="56" y="168" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Low qualification cost</text>
+  <rect x="420" y="100" width="300" height="100" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="436" y="140" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="14" font-weight="600" fill="#1a2332">Qualified alternate</text>
+  <text x="436" y="168" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="400" fill="#4a5568">Identity + audit before swap</text>
+  <line x1="340" y1="150" x2="420" y2="150" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="350" y="142" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#2b6cb0">shock</text>
+  <text x="24" y="226" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Article 11</text>
+</svg>

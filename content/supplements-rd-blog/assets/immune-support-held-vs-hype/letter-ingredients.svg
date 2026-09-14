@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="268" viewBox="0 0 760 268" role="img" aria-labelledby="title desc">
+  <title id="title">Ingredients repeated in early COVID warning-letter rosters</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">Ingredients repeated in early COVID warning-letter rosters</text>
+  <rect x="24" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="32" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Ingredient class</text>
+  <rect x="380" y="72" width="352" height="32" rx="6" fill="#e2e8f0" stroke="#cbd5e0"/>
+  <text x="388" y="94" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="12" font-weight="600" fill="#1a2332">Regulatory issue (typical)</text>
+  <rect x="24" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Vitamin C / D / zinc</text>
+  <rect x="380" y="108" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="130" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Disease intended use on label or web</text>
+  <rect x="24" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">CBD / silver / elderberry</text>
+  <rect x="380" y="144" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="166" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Same — not monograph approval</text>
+  <rect x="24" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="32" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Colloidal silver</text>
+  <rect x="380" y="180" width="352" height="34" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="388" y="202" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" font-weight="400" fill="#1a2332">Drug + safety concerns in letters</text>
+  <text x="24" y="254" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Roster themes from Bautista et al.; PMC7528445</text>
+</svg>

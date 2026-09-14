@@ -35,6 +35,13 @@ If you only remember one legal fact from 2020–2026, remember that. Most of the
 
 ## What did change, dated
 
+<!-- graphics-pack:v1 -->
+
+![Timeline of selected US supplement regulatory and enforcement milestones from 2020 through 2026.](../assets/six-years-rewired-supplement-rd/timeline.svg)
+
+*Figure 1. Dated public milestones referenced in this opener (FDA/FTC actions, guidance, and petition responses). Not a forecast.*
+
+
 **March–July 2020.** FDA and FTC treated COVID claim copy as an emergency. Bautista, Trotz-Homeier, and colleagues counted 98 COVID-related warning letters in that window, out of 3,139 letters overall. Vitamin C, CBD, vitamin D, colloidal silver, elderberry, and zinc showed up again and again. The letters were about intended use, not about a new monograph for zinc. FDA kept a running list: *Fraudulent Coronavirus Disease 2019 (COVID-19) Products*.
 
 Routine GMP inspections thinned out while plants ran extra shifts. That combination — more units, fewer walk-throughs — is the quality story of 2020, and it is why adulteration people at ABC started writing memos in the present tense.
@@ -66,6 +73,13 @@ Sports nutrition was the exception that stayed boring in a good way. Creatine mo
 USP Verified, NSF Certified for Sport, and Informed-Sport still mean a program, a lot, and a database entry. They do not mean "we hired a lab once." Heavy-metal stories in protein and botanicals kept landing in the press. Prop 65 did not go away. A finished-product COA that lists identity, potency, method, LOD/LOQ, and the ISO 17025 lab is the minimum adult conversation. A supplier PDF with no lot match is not.
 
 ## Ingredients that learned they were in a race
+
+<!-- graphics-pack:v1 -->
+
+![Three-column comparison of CBD, NAC, and NMN regulatory threads under DSHEA.](../assets/six-years-rewired-supplement-rd/ingredient-regulatory-threads.svg)
+
+*Figure 2. Three ingredients that forced founders to read §201(ff)(3)(B). Agency status is not clinical efficacy.*
+
 
 NMN, NAC, and CBD are the three objects that taught a new generation of founders that "it's in commerce" is not a regulatory status. The race-to-market clause in § 201(ff)(3)(B) is now something a formulator has to be able to explain. CBD lost. NAC got discretion. NMN got a 2025 reinterpretation and an NDI bill that still comes due.
 

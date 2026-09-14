@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">VITAL-style 2×2 factorial (schematic)</title>
+  <rect width="100%" height="100%" fill="#f7fafc"/>
+  <text x="24" y="36" font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="600" fill="#1a2332">VITAL-style 2×2 factorial (schematic)</text>
+  <text x="24" y="58" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" fill="#4a5568">Schematic — not a dosing or efficacy claim</text>
+  <rect x="30" y="120" width="100" height="52" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2b6cb0"/></marker></defs>
+  <text x="40" y="152" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a2332">Vitamin D</text>
+  <line x1="132" y1="146" x2="228" y2="146" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="230" y="120" width="100" height="52" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="240" y="152" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a2332">Placebo</text>
+  <line x1="332" y1="146" x2="428" y2="146" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="430" y="120" width="100" height="52" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="440" y="152" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a2332">Omega-3</text>
+  <line x1="532" y1="146" x2="568" y2="146" stroke="#2b6cb0" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="570" y="120" width="100" height="52" rx="6" fill="#ffffff" stroke="#cbd5e0"/>
+  <text x="580" y="152" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1a2332">Placebo</text>
+  <text x="24" y="246" font-family="IBM Plex Sans, system-ui, sans-serif" font-size="11" fill="#4a5568">Illustrative methods layout — see NEJM VITAL; no hazard ratios drawn</text>
+</svg>

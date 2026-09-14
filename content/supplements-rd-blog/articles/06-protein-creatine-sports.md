@@ -26,6 +26,13 @@ Sports nutrition is where supplement evidence looks most like sports nutrition a
 
 ## Protein: the plateau people still argue with
 
+<!-- graphics-pack:v1 -->
+
+![Table citing Morton 2018 meta-regression anchor for daily protein.](../assets/protein-creatine-sports-nutrition/protein-dose-literacy.svg)
+
+*Figure 1. Cited anchor from the sports literature — not individualized training or medical advice.*
+
+
 Morton, Murphy, McKellar et al., *BJSM* 2018 (PMID 28698222). 49 RCTs, 1,863 participants. Protein supplementation during resistance training added a little: ~2.5 kg on 1RM, ~0.30 kg fat-free mass, some fiber CSA. Meta-regression: **no further FFM gain past a total daily protein of about 1.62 g/kg/day.** The authors noted a pragmatic ceiling near ~2.2 g/kg for people who want margin. Trained lifters gained more from powder than untrained. Older adults gained less.
 
 That paper is pre-2020. It is still the one a serious formulator should be able to quote from memory. The post-2020 argument has been about peri-workout timing (mostly overrated once daily totals are hit), vegan vs whey (totals and leucine, not a moral category), and whether very high intakes do anything except raise grocery bills. I will not invent a 2024 meta to settle timing. `[CITE NEEDED]` if you want a specific new number.
@@ -57,6 +64,13 @@ Creatine did not get reclassified as a steroid. It did not start requiring a REM
 Protein did not become toxic at 1.6–2.2 g/kg in healthy athletes in the Morton range. People with CKD are, again, not that population.
 
 ## Operator notes
+
+<!-- graphics-pack:v1 -->
+
+![Three-step QA stack for protein, creatine, and banned-substance programs.](../assets/protein-creatine-sports-nutrition/sports-sku-qa-stack.svg)
+
+*Figure 2. Minimum QA conversation for team-sport and retail buyers.*
+
 
 - **Monohydrate, Creapure or equivalent CoA, mesh size, residual solvents, dicyandiamide, dihydrotriazine.** Sports buyers know those words now. Have the tests.
 - **Informed-Sport / NSF Certified for Sport** if the SKU will see tested athletes. A "banned-substance free" sticker you designed in Canva is a joke (piece 10).

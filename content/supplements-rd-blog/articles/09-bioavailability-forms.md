@@ -30,6 +30,13 @@ A dissolution cup is not a human PK study. A cell-monolayer paper is not a human
 
 ## Magnesium — forms that have a file
 
+<!-- graphics-pack:v1 -->
+
+![Table comparing magnesium salt forms on discussion axes without ranked absorption percentages.](../assets/bioavailability-liposomal-chelates-magnesium/magnesium-forms.svg)
+
+*Figure 1. Form literacy table — no fabricated % absorption bars.*
+
+
 Elemental magnesium is the dose. Oxide is ~60% elemental and poorly soluble. Citrate, gluconate, lactate, chloride, glycinate/bisglycinate, malate, threonate are heavier salts with less elemental per gram and, in several human comparisons, better urinary excretion or better tolerance.
 
 Walker et al., 2003 (*Magnes Res*): magnesium citrate beat oxide on bioavailability in a small human comparison that every formulator has seen. Schuchardt and Hahn (2017; PMID 28471760) reviewed the human data: organic salts and some chelates generally outperform oxide; the magnitude is not "ten times"; diarrhea is both a side effect and, for citrate/oxide, sometimes the point.
@@ -53,6 +60,13 @@ An amino-acid chelate (bisglycinate, etc.) is a defined coordination structure i
 Iron bisglycinate has a better human file than most wellness chelates (tolerance vs ferrous sulfate). Do not import iron's data onto zinc, copper, or "cal-mag zinc."
 
 ## Liposomes — a delivery idea that outran the citations
+
+<!-- graphics-pack:v1 -->
+
+![Three questions to ask before liposomal or chelated claims go on a label.](../assets/bioavailability-liposomal-chelates-magnesium/delivery-claim-questions.svg)
+
+*Figure 2. Delivery-tech hype filter before art goes to the printer.*
+
 
 A real liposome is a phospholipid bilayer vesicle with a measured size distribution (DLS), a defined encapsulation efficiency, and stability data in the bottle. Most "liposomal" vitamin C on the internet is a glycerol-lecithin slurry. Some of it is honest emulsion marketing. Almost none of it has a human AUC study in *that* SKU.
 

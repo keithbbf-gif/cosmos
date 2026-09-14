@@ -28,6 +28,13 @@ That is the year to study if you make or white-label anything botanical.
 
 ## Demand, with numbers that have a source
 
+<!-- graphics-pack:v1 -->
+
+![Side-by-side lists contrasting 2020 demand signals with quality and oversight pressures.](../assets/covid-demand-adulteration-scrutiny/demand-vs-oversight.svg)
+
+*Figure 1. Illustrative framing of the 2020 tension: more units moving while routine Part 111 walk-throughs thinned.*
+
+
 CRN funded an Ipsos COVID survey in late July–early August 2020 (2,004 US adults; 1,488 supplement users). Among users, the products they said they *increased* were led by multivitamins (+59%), vitamin C (+44%), and vitamin D (+37%). Zinc was +17%. Those are self-reports, not Nielsen units. They still tell you where the purchase intent sat.
 
 Nutrition Business Journal's ~15% industry growth for 2020 was widely repeated (KUER's 2022 piece on Nevada plants cited it). I have not opened the paid NBJ table for this draft. `[VERIFY]` the exact NBJ percentage against the yearbook if you put it on a slide. Directionally: immune SKUs and the category as a whole had an abnormal year.
@@ -45,6 +52,13 @@ Bautista et al., writing in late 2020 (PMC7528445), coded 98 COVID-focused lette
 That split matters. A founder who only watches warning letters will over-learn claims and under-learn incoming inspection of botanicals. Both failure modes were live. Only one was loud.
 
 ## Adulteration: the memo that was not a surprise
+
+<!-- graphics-pack:v1 -->
+
+![Four-step flowchart from incoming identity testing through buyer COA audit.](../assets/covid-demand-adulteration-scrutiny/adulteration-response-loop.svg)
+
+*Figure 2. Process literacy loop — not a substitute for your MMR or supplier qualification file.*
+
 
 Mark Blumenthal at the American Botanical Council wrote, in email quoted by New Hope, that more adulterated botanical raw materials and extracts were a "virtual certainty" because demand plus disruption plus price spikes is the classic incentive. ABC's Botanical Adulterants Prevention Program already had bulletins on elderberry, turmeric, ginkgo, grape seed, and saw palmetto from *before* COVID. The pandemic did not invent economic adulteration. It raised the bid.
 

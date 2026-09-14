@@ -4,6 +4,8 @@ No fake lab. No white-coat stock presented as our facility. No COA screenshot wi
 
 These drafts are text-first. Images, if any, are diagrams or clearly labeled stock.
 
+Editorial SVGs now ship for **all 40 slugs** (`assets/<slug>/`, `GRAPHICS_INDEX.md`). Wave 1 (01–16) came from PR #240. Wave 2 (17–40) extends the same palette and helpers. Captions say illustrative/qualitative. Do not add fake effect-size bars.
+
 ## Allowed
 
 - Public-domain or clearly licensed scientific diagrams: chemical structures (NMN, cholecalciferol, creatine), a simple GI-tract schematic, a label callout diagram you drew.

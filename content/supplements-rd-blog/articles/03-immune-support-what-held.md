@@ -68,6 +68,25 @@ VITAL's vitamin D arm (see piece 04) was not a COVID trial. Do not recruit it as
 
 ## What actually held
 
+<!-- graphics-pack:v1 -->
+
+![Qualitative bars comparing immune marketing claims to evidence burden tiers.](../assets/immune-support-held-vs-hype/immune-claims-evidence-burden.svg)
+
+*Figure 1. Qualitative map only — not effect sizes. Trial names and outcomes are in the body text.*
+
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
+![Table of ingredient classes commonly listed in early COVID warning-letter rosters.](../assets/immune-support-held-vs-hype/letter-ingredients.svg)
+
+*Figure 2. Roster themes from Bautista et al. (PMC7528445); the violation was intended use, not the nutrient itself.*
+
+
 Held, in the boring sense:
 
 - **Deficiency is not a vibe.** Vitamin D, zinc, vitamin A, iron, B12 — if a person is low, that is a clinical problem. A supplement can be one way a clinician fills a gap. That sentence survived 2020.

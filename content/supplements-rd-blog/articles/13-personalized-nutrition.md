@@ -68,6 +68,25 @@ If you sell a kit, sell a kit. If you sell a strain with a trial, sell the strai
 
 ## FTC and the quiz
 
+<!-- graphics-pack:v1 -->
+
+![Flow from at-home test or quiz output to claim pathway risks.](../assets/personalized-nutrition-at-home-tests/quiz-to-claim-gap.svg)
+
+*Figure 1. If the quiz names a disease, you left the supplement lane.*
+
+![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
+
+*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
+
+![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
+
+*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
+
+![Table matching claim types to substantiation files.](../assets/personalized-nutrition-at-home-tests/evidence-match.svg)
+
+*Figure 2. FTC 2022 expects evidence for the claim as consumers read it.*
+
+
 A quiz that outputs "you have inflammation / pre-diabetes / estrogen dominance, buy this" is an ad claim. 2022 guidance: net impression, human evidence, testimonials. The algorithm is not a clinician and not a defense.
 
 If you need a quiz for UX, output nutrient *intake* gaps ("you reported eating no dairy") not diagnoses.

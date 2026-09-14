@@ -26,6 +26,13 @@ A certificate of analysis is a signed statement that *this lot* was tested again
 
 ## The two COAs people confuse
 
+<!-- graphics-pack:v1 -->
+
+![Side-by-side explanation of ingredient versus finished-product COAs.](../assets/white-label-coa-literacy/ingredient-vs-finished-coa.svg)
+
+*Figure 1. Incoming drum COAs do not release your labeled bottle by themselves.*
+
+
 **Incoming / ingredient COA.** The extract plant or the vitamin premix house tested the drum. Useful. Not sufficient to release *your* bottle.
 
 **Finished-product COA.** Someone tested the capsules that will see a label. Identity of the finished form, assay vs label claim, contaminants, micro. This is the document a grown-up buyer asks for.
@@ -43,6 +50,13 @@ Open the COA and the label art and the batch record. If any row fails, stop.
 5. **Serving size math.** Assay is per g or per capsule; the label is per 2-capsule serving. Do the multiplication yourself.
 
 ## Methods or it is a rumor
+
+<!-- graphics-pack:v1 -->
+
+![Ordered stack for reading identity, assay, methods, and contaminants on a COA.](../assets/white-label-coa-literacy/coa-read-stack.svg)
+
+*Figure 2. Read lot match first — methods on every row, ISO/IEC 17025 scope still applies.*
+
 
 Every result row needs a method: HPLC, UPLC, ICP-MS, HPTLC, USP monograph number, AOAC, a validated in-house method. "Withanolides 5%" with no method is a number from a sales rep.
 
